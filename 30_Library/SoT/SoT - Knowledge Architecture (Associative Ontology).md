@@ -3,8 +3,12 @@ alias: ["Intellectual Landscape", "Knowledge Map", "Ontology"]
 aliases: []
 created: 2026-01-05T06:58:46+00:00
 last_reviewed: 
-modified: 2026-02-11T22:28:43+00:00
+modified: 2026-04-09T07:49:04+00:00
+prodos: {kind: atomic, lifecycle: seedling, trust: working, id: "", review: {interval: "", last_reviewed: ""}, chronos: {last_synthesis: "", synthesis_count: 0}, atomic: {form: concept}, protocol: {applies_to: [], binary_checklist: true}, moc: {hub_for: [], entry_points: []}, ops: {tool: "", target_service: "", hop_level: "", requires_tunnel: false, prerequisites: []}, prompt: {description: "", inject_as: "", model_hints: ""}, project: {area: "", status: "", owner: ""}}
+see_also: []
 status: "Active"
+superseded_by: ""
+supersedes: ""
 tags: ["architecture", "knowledge-management", "meta", "ontology"]
 title: SoT - Knowledge Architecture (Associative Ontology)
 type: "SoT"

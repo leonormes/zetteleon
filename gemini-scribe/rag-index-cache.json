@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "storeName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-  "lastSync": 1775718418344,
+  "lastSync": 1775721501222,
   "files": {
     "assets/cropped_PXL_20250518_165827884.PORTRAIT.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -915,8 +915,8 @@
     },
     "30_Library/SoT/SoT - Knowledge Architecture (Associative Ontology).md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "9c0b0f27e32e120f4b1d92d1605f71ec153f40856e1e2d4c3ddbcc99bdaa16ed",
-      "lastIndexed": 1775485705876
+      "contentHash": "9b1e4003f72d32ec6a07a9c774e820a0a9cf5a16fc429b51557feb22adaf50e4",
+      "lastIndexed": 1775720957276
     },
     "30_Library/SoT/SoT - Intentional Living.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2285,8 +2285,8 @@
     },
     "30_Library/MoC/Meta MOC - The Core Domains.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "7c13ac75e38777ab36f45d3e75ed4f0c5afbea41e1b5f9bb0f961fea727ba1bc",
-      "lastIndexed": 1775666920571
+      "contentHash": "3ae4f1abf8a91fa09bc560383cfaced72b3febc15d452d64ac96eb083770dc25",
+      "lastIndexed": 1775721466744
     },
     "30_Library/MoC/MOC - Why Thoughts Feel More Important When Thinking Them.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2648,11 +2648,6 @@
       "contentHash": "be6a11932f18153a7b8fb3afeb59bee884c3102adb9d4a34d3662605da223cb5",
       "lastIndexed": 1775485950604
     },
-    "30_Library/MoC/MOC - Day Architecture for Peak Performance.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "2bc058a107d720e71a217883147bcdc70527420e39ca4cce465e37b7f9b30ced",
-      "lastIndexed": 1775485950747
-    },
     "30_Library/MoC/MOC - Data-Centric Infrastructure.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "5563f7467432d11c6f81b9a10907f34f45f80d97fa9fb7fa39b472c49a9e0100",
@@ -2798,26 +2793,6 @@
       "contentHash": "ef5a178b1d4f9c17eb6b067083efc22c91162c4a7b21ff058338d6d2c05b2016",
       "lastIndexed": 1775485973818
     },
-    "30_Library/MoC/Contextual Relationships.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "79d4f32863210dfd0aba899c3def21ff0b155d9e9727b5fc3202045663a90fe1",
-      "lastIndexed": 1775485974370
-    },
-    "30_Library/200_projects/40_Personal/Family/You Are an Expert Relationship and Communications Counsellor.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "318b43cba419b3c275e03b3344e03fb601f68256d8e40936133276a4178e62ad",
-      "lastIndexed": 1775671638432
-    },
-    "30_Library/200_projects/40_Personal/Family/Healthy Money Budget.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "7517a32f6d67b6e971f1cd3b56970e7d3febabf85459f81dba3adeadb330f36b",
-      "lastIndexed": 1775671631290
-    },
-    "30_Library/200_projects/40_Personal/Family/Silent Void.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "ab275864a2afb3ff0cb7a949fc84904c5e57e5c87e6dec84fb34a4aa9786dc0b",
-      "lastIndexed": 1775671634261
-    },
     "30_Library/200_projects/40_Personal/Family/Vegetables Ranked - Nutrition Tier Lists.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "6d7823dcbbe20a5f0dac1fbd03c7b1cf3914410ae4a7ffb861e53dcdd71e80a3",
@@ -2828,35 +2803,10 @@
       "contentHash": "bc9587ec090fb558e5ffaf236639e8b14253e13a582772532255d583f9f3054f",
       "lastIndexed": 1775485977018
     },
-    "30_Library/200_projects/40_Personal/Family/Gish Gallop of Grievances.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "2cc66ba022e2855b633ee3f3a8f99f4061a92d8314ff03d0c44e0f5a485e9faf",
-      "lastIndexed": 1775671627426
-    },
-    "30_Library/200_projects/40_Personal/Family/The Most Fundamental Issue & Initial Conversation Strategy.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "161ca0267c429cdb287a042192c8faea53d6828cf41a5f685b455c10aa3ea1d3",
-      "lastIndexed": 1775671641769
-    },
     "30_Library/200_projects/40_Personal/Family/I Am Going to Have a Conversation About Respect In.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "dd3d35a9ab6822316241a8a02c094ff5e4e1a991c6d4df6b8204835b3e0f58d1",
       "lastIndexed": 1775485979849
-    },
-    "30_Library/200_projects/40_Personal/Family/Final What I Mean.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "6ca62421e52e0d6b0c12e15b7f04f19a01b1c67b428d8f35bb364fd7d5a1c4d7",
-      "lastIndexed": 1775671623971
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Writing Acts as an External Working Memory.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "2dd32c47808c8500f65d737f6cac7dd9e71f237dfd7000218d7ac14e101622de",
-      "lastIndexed": 1775671683069
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Writing Reduces Cognitive Load by Chunking Information.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "6626527cb4f91ad987c9c3cf1bec4d7b7b2b289ea0764208a61f8c86117b1a23",
-      "lastIndexed": 1775671686139
     },
     "30_Library/200_projects/40_Personal/Family/Bessie/Understanding The I Don't Understand Any of It Reaction.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2867,51 +2817,6 @@
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "eab70ffd0db6a632efde97c12f96425f2827b04aaa66e765c68511f4f42c2c60",
       "lastIndexed": 1775485995936
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Inquisitive and Thoughtful Nature.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "86f252cf609065cf034eac7e8659be1e4169ba6e63d689e28da82940ab3a6ec1",
-      "lastIndexed": 1775671672904
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Opportunities for Achievement & Assessment.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "c18eb08b2cd33d00e34cabfa48d555474316a656caf58fceb09b11278e676d79",
-      "lastIndexed": 1775671679900
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Highly Creative and Passionate.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "c10ac970b14b1d131bf6a815b077ef530a8d52c620cd92f9cfcc822c15fe2210",
-      "lastIndexed": 1775671666274
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Distorted Negative Self-Image.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "3b2a00236ee7765c465f08608ae599689a7f11662b143ecce9fc8d2822b59023",
-      "lastIndexed": 1775671663150
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Capacity for Independent Work and Self-Motivation.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "e7e91af8963e48d51e70e726bd66addf6e51dc6c7e5f1f4eeaaaa9a8e1c669ef",
-      "lastIndexed": 1775671659519
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Bessie's Working Memory is Overwhelmed by Large Information Volumes.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "05ee5d7253a30d13c7243c10c626645fdc4a52547d6c8138e7f7c4bf3a79b478",
-      "lastIndexed": 1775671652739
-    },
-    "30_Library/200_projects/40_Personal/Family/Bessie/Big Picture Thinker and Inter-Subject Connector.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "50a1186832e748bee5477a8e25ce5d17937b33e43df230440da44ed9a1bf7e96",
-      "lastIndexed": 1775671655932
-    },
-    "30_Library/200_projects/30_Maths/The Hunt.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "3fb579c538c23f117515d312146acb2ae5f74e0eac054e85c22532e5be8c7876",
-      "lastIndexed": 1775671764559
-    },
-    "30_Library/200_projects/30_Maths/Ball Python Morph Maths.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "6e019cfb731b9082d68225557683e2f562571c6a781e7dba51008e928a0a4c8f",
-      "lastIndexed": 1775671742996
     },
     "30_Library/200_projects/10_Infrastructure/k8s/the k8s service abstraction.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -3300,23 +3205,23 @@
     },
     "30_Library/200_projects/20_Development/TDD/Merged TDD Absolutism.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "9ec771e20fe713df2a148091e2bf9437d1aa6a3e19a67f8c8416e7ad7c9dbec1",
-      "lastIndexed": 1775486091415
+      "contentHash": "a2983f9e218c69d846412aef77379d9515ea5c31c45f56b7bb7c277aba393b63",
+      "lastIndexed": 1775720881668
     },
     "30_Library/200_projects/20_Development/SDLC/using calicoctl.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "4141a93d90090726f7611291dc50a839d1f3ecce80b9d545f49cc60e5abb0e3e",
-      "lastIndexed": 1775486091483
+      "contentHash": "482eebcbe6fda562475f8ace09c5020dcd74dce8d47475323a02d8aa9cb4fbd5",
+      "lastIndexed": 1775720877364
     },
     "30_Library/200_projects/20_Development/SDLC/externalized_configuration.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "b501676194e83f61aa7b67b103bf91b8c173240c6b6c452addc02a93b7855de5",
-      "lastIndexed": 1775486091543
+      "contentHash": "01123c8b658a0d75f769d2712c3f208887a47e6221a9a63aba453ae748f07f9a",
+      "lastIndexed": 1775720869477
     },
     "30_Library/200_projects/20_Development/SDLC/software_testing_levels_and_their_relationships.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "bde85858fd01d15aab72ff9c700e3b36b8ba9727cb044ee86fa77da7ab188554",
-      "lastIndexed": 1775486091930
+      "contentHash": "4410d7ece8a2c92c707b0d2a5548a7b2e61cf72166f1ac881b752eb4c57a23b0",
+      "lastIndexed": 1775720873643
     },
     "30_Library/200_projects/10_Infrastructure/Cloud Resource Naming Convention.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -3325,173 +3230,163 @@
     },
     "30_Library/200_projects/20_Development/SDLC/Nightmare pipeline.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "ad7e5988188b5161226005ae1d1814c2d6afbb1352535d4b3fa0926ba1dcd120",
-      "lastIndexed": 1775486094486
+      "contentHash": "e7bec2c2daadf560ba21a115d7461e35559290379bfd2d922cce8e49bed8d454",
+      "lastIndexed": 1775720865585
     },
     "30_Library/200_projects/20_Development/SDLC/Is there a more modern way than using the resource.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "bd0c7c8788b982b97da2f6846edcbae5f631e2444c6f7abb374b2c662569f073",
-      "lastIndexed": 1775486094683
+      "contentHash": "aae54e13ee3f9565edf4e7fa58aac197f3a7cedfba5a24680568c85a81081385",
+      "lastIndexed": 1775720862219
     },
     "30_Library/200_projects/20_Development/SDLC/Duplication in Code Can Indicate Underlying Problems.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "b884598a528d615f3cf76bb0d015fa8acbabf2cf0bebc02520cd3baeb313e9cf",
-      "lastIndexed": 1775486094831
+      "contentHash": "45178dd8ef7f4d2df2c6a89d9ab0ef85a03947d679f825be66ad3039cb938e0a",
+      "lastIndexed": 1775720854117
     },
     "30_Library/200_projects/20_Development/Project - Security Posture Hardening.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "5a38c4848036436e8882469cc424fe790110be5ce06df214d23c3aaf7798bd7f",
-      "lastIndexed": 1775486094955
+      "contentHash": "1fc12c0dcabb10a577ee0ca633164f10be278564ce2a9b6934c58266e860c6b4",
+      "lastIndexed": 1775720811494
     },
     "30_Library/200_projects/20_Development/SDLC/IAM challenges.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "ce99313fbbb93032f7f7f71f01c1c195701d052bf93d88db4e706e5a6ddc4b1b",
-      "lastIndexed": 1775486095111
+      "contentHash": "84c35cfa643d8ee944492ec771b090bbaec7c4f72711369ef72a15c87689109f",
+      "lastIndexed": 1775720858828
     },
     "30_Library/200_projects/20_Development/Debug Wiki/troubleshooting_guide.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "2255ce1251f03c245746d0a9ed638e825945e17357fe3d9a04931869a393bd8a",
-      "lastIndexed": 1775486097551
-    },
-    "30_Library/200_projects/20_Development/GoLang/Go Functions.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "d94d0d531e03c023e722e66d8686f85ff98974127ae289c399f30f909e997cfb",
-      "lastIndexed": 1775486097704
+      "contentHash": "c28cc1a59a32aecbb30a53b84c058a62b4c5de79d638d5153e9e5a162dcdedb1",
+      "lastIndexed": 1775720842917
     },
     "30_Library/200_projects/20_Development/Debug Wiki/schema_validation_task_crashes_if_string_does_not_contain_a_date_when_specified_in_schema.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "22e604c6a916a6f63f222021d2016f63c106dbadce3dc7c3331854455469dcd0",
-      "lastIndexed": 1775486097816
+      "contentHash": "38f16721afc265271b4c788f2ed27e30829f2b15b2838bb9eec60c5fea0becd5",
+      "lastIndexed": 1775720836198
     },
     "30_Library/200_projects/20_Development/Debug Wiki/searchfailedevent_in_logging_datasource.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "42ca174a93d62f9d751f06fea56b472b3959f1cde7f41e5e5e31cecb9290f991",
-      "lastIndexed": 1775486097988
-    },
-    "30_Library/200_projects/20_Development/GoLang/Go Helm Importer.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "fb4b72c1944623abc89033161f73aea10999459c0395575cf5fe9d3732dd141b",
-      "lastIndexed": 1775486098100
+      "contentHash": "303522fe4ba3469019324b93046a97fba89f9b81b670c481c497cad376e5a1e5",
+      "lastIndexed": 1775720839576
     },
     "30_Library/200_projects/20_Development/Debug Wiki/Rust nightly on the laptop.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "3c4d8cb68e95f9e647632788e8aea6c0f42f8487210cc111207198ed15d63883",
-      "lastIndexed": 1775486100623
+      "contentHash": "5c6aeef7afb784731edbdae24817802c56c2077ea0a74fbb778a9f7933606ebd",
+      "lastIndexed": 1775720819529
     },
     "30_Library/200_projects/20_Development/Debug Wiki/kubepodnotready_in_primary-care_namespace.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "8e1ba8576056a121a75a9d25a59f3104ac2a279b99393f715148168197a6065e",
-      "lastIndexed": 1775486100997
+      "contentHash": "4986a959ae40075c7effda71da211c5eec04f5b0da015ced630ecb1d8bf47e45",
+      "lastIndexed": 1775720829544
     },
     "30_Library/200_projects/20_Development/Debug Wiki/invalid_git_commit_id_in_gapv_execution.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "e68eac00b692f99637792b1bef1258390a5628dd6ce9df61223d221309e05ed3",
-      "lastIndexed": 1775486101049
+      "contentHash": "1b0ceb09e69c6466cfc34005183692608422d47e0d6fb473ddbaa6eb1bb79fcf",
+      "lastIndexed": 1775720825752
     },
     "30_Library/200_projects/20_Development/Debug Wiki/parsererror_in_birth_date_validation.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "cadbd9488f21eab8ba945525d841a4e8f25099dac7ca80d750620a890d4590a8",
-      "lastIndexed": 1775486101253
+      "contentHash": "02961e17ec99547901384d6db979821635561d17b38f847800eade27eaf54c79",
+      "lastIndexed": 1775720832855
     },
     "30_Library/200_projects/20_Development/Debug Wiki/failedtoretrieveimagepullsecret_in_kubernetes_pod.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "63f7a2c0b66190493ac6d6bb1553bbc35b3b99e18056c47d3f52c62d5c18cf46",
-      "lastIndexed": 1775486101266
+      "contentHash": "2887859208195cb882a9745b779ec4f70f702bdf063220dfeab66bc7a4f6d541",
+      "lastIndexed": 1775720822512
     },
     "30_Library/200_projects/20_Development/Core/Security/populate_secrets.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "c66c81daececeaa884b96530a61f21caa165fd24c912249762b088403e81a548",
-      "lastIndexed": 1775486103878
+      "contentHash": "36f5cc2ce1165cbbb697fd69050dadda4fa5b3a5adb2edcca79b06709bbafa1f",
+      "lastIndexed": 1775720942010
     },
     "30_Library/200_projects/20_Development/Core/Security/tradition_networking_in_k8s.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "2d31e220f897e8c1696137dd7c8ac09e118e292aace19a7f2fcee053559992ca",
-      "lastIndexed": 1775486103888
+      "contentHash": "aa3fccd9fe6ac83feb5ffc3daad2f1655f2f2b4f1286849abc80f4ccb34c4a2f",
+      "lastIndexed": 1775720954367
     },
     "30_Library/200_projects/20_Development/Cryptography/mini rsa.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "a2c8b6770bfe412366f95670ddc746ace53e9dfa165d4b2e89b461b599b161fe",
-      "lastIndexed": 1775486103898
+      "contentHash": "5dd8d08d02033f304237da85b6d75c3894bddcef01dd01a0a8da0254dcc4df2f",
+      "lastIndexed": 1775720815204
     },
     "30_Library/200_projects/20_Development/Core/Security/spicedb_schema.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "cacf1fb9333b47ab902f40040c754cb7d5081e09b6058628090b710ab5ec520f",
-      "lastIndexed": 1775486103964
+      "contentHash": "faeb338615e872e9f3f437bbd6cf505ba04870a1f17c75eafc10f07dfbcce97e",
+      "lastIndexed": 1775720950680
     },
     "30_Library/200_projects/20_Development/Core/Security/spicedb_grpc_preshared_key.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "d69ef9c643d5b81d80a40786aa7d8d37dd4f8d72837a880718351dd0109dacfa",
-      "lastIndexed": 1775486104187
+      "contentHash": "5241e91e9224318036d4fb046160e51439f91b4716729e27b1bcd97388536ec8",
+      "lastIndexed": 1775720947066
     },
     "30_Library/200_projects/20_Development/Core/Security/kubernetes_network_security.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "efaeca8ff6a3a30715126559904023aab94e87f0a099e0a5e82d7485086f7e39",
-      "lastIndexed": 1775486106439
+      "contentHash": "27cf7ebec8e3d67f421c7ea76e69a45bb6a65dbedc0327cfa4806484d08afdd9",
+      "lastIndexed": 1775720935321
     },
     "30_Library/200_projects/20_Development/Core/Security/kubernetes_api_authorization_mechanisms.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "e7aae9709f8451aafc6f2dfdcffa777152a4af4b56c96dfd9f35a397cc506a68",
-      "lastIndexed": 1775486106628
+      "contentHash": "2bf177ff32544d95fa81c7e1f0280a3b807dde07df491860aef92e5095e00523",
+      "lastIndexed": 1775720927742
     },
     "30_Library/200_projects/20_Development/Core/Security/kubernetes_api_authentication_mechanisms.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "1d581011b3b8f118a1ed15fa54f76b4db7e342b515dfa9576b8a269253ed5cb9",
-      "lastIndexed": 1775486106765
+      "contentHash": "8632fa7d0af6f0af7e82a58e9f103e5ea3c5fe29a9b6812ccaa9a8ad400b895b",
+      "lastIndexed": 1775720924366
     },
     "30_Library/200_projects/20_Development/Core/Security/kubernetes_dashboard_security.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "b18a9d1273f22d9688ce717878e0236bd7d3176836cc6f02138b1cb526b61378",
-      "lastIndexed": 1775486106847
+      "contentHash": "180798c19ca6c8aea0f86c3a6f290f51acb83c92b5b051c2b097f7f7806f246b",
+      "lastIndexed": 1775720931531
     },
     "30_Library/200_projects/20_Development/Core/Security/Is Whitelisting Cloudflare IPs Enough for Maximum Kubernetes Security.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "9ef62275bda4d1ed5aa8addc9866be04ee35cf578018673e2c61acf76b43a47a",
-      "lastIndexed": 1775486109014
+      "contentHash": "60f28c982290a4146baffe465f085d0dc44d9534b303c7ef90657b8e240ace29",
+      "lastIndexed": 1775720913294
     },
     "30_Library/200_projects/20_Development/Core/Security/Gaining Trust and Causing Damage.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "6f161c53b4c239c331c06069d11876944e21b2365d95593a7baa80e97a537d32",
-      "lastIndexed": 1775486109168
+      "contentHash": "6763aadaa85d3c99df8633945d2a4732d7ae99a3f52ef0d4d9ca8f1e42e1240d",
+      "lastIndexed": 1775720909619
     },
     "30_Library/200_projects/20_Development/Core/Security/Understanding How Kubernetes ConfigMaps Work.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "b9e3067ec282a9c3af5c67ebf159851553cb6a6176eeb2a2747527755edf0b93",
-      "lastIndexed": 1775486109609
+      "contentHash": "2c73edf3cf9024fcc8c3382dbfd1c7da7cbd2f87d653fd287073a450a03736b6",
+      "lastIndexed": 1775720916777
     },
     "30_Library/200_projects/20_Development/Core/Security/Integrate Security into the Workflow (Shift Left).md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "aa06ffedda5e2b16bc5d14702ba798437ec8d458355904f321ec50a9156e6a8a",
-      "lastIndexed": 1775486109609
+      "contentHash": "c7ec849a2f3726eae80bbcb8956b01d4ff91689f761505d2d6c6d29b2b833b87",
+      "lastIndexed": 1775720905733
     },
     "30_Library/200_projects/20_Development/Core/Security/cicd_minimal_permissions.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "4a3ee0cc2dbb9689e3419e08c252215f2fb26a7e92b63ecdbe19fe9c33d7d93a",
-      "lastIndexed": 1775486109951
+      "contentHash": "0bd04891d41af3604a5df1d2c9337bdc556ef80af9469abc9c92da687a8fbeee",
+      "lastIndexed": 1775720920420
     },
     "30_Library/200_projects/20_Development/Core/Data/kubernetes_backup_improve_already_awesome_velero_with_openebs.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "4f48765a1d392153f73e933fe13730936bee55472e8d09e26a5c2a33773c611f",
-      "lastIndexed": 1775486112615
+      "contentHash": "3d0528afc2f02f0486e9ce1182f863c70e7ae267140005425326a1aa107ef6d9",
+      "lastIndexed": 1775720894056
     },
     "30_Library/200_projects/20_Development/Core/Data/pseudonymization_technique.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "61414d09a2578cd1a677286bceda59ccd14bd9e91bc9473f7302a049f0929867",
-      "lastIndexed": 1775486112615
+      "contentHash": "97dc8d3985a351647ac12b6c56bda7c10af3e44e761e85c94ca7756fefa40ead",
+      "lastIndexed": 1775720897637
     },
     "30_Library/200_projects/20_Development/Core/Data/data_privacy_challenges.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "b6b549d34c62ed0dcbe619a537914653409ff806e934b72bc1c07d256c51017c",
-      "lastIndexed": 1775486112670
+      "contentHash": "8585f4aa276c92973357023dffa292e4fd56abfa275d19e25aceba99de6ba9fa",
+      "lastIndexed": 1775720889753
     },
     "30_Library/200_projects/20_Development/Core/Architecture/Network Topology Documentation.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "9ec7d6ff1328ea0adc2a676bed2577e93c1d588d04a68c7db6cc25e36312dd83",
-      "lastIndexed": 1775486112681
+      "contentHash": "bccee308f3a5af125804655709f6d247d4b5e01a38b1dce4259e459f3695eada",
+      "lastIndexed": 1775720886648
     },
     "30_Library/200_projects/20_Development/Core/Data/trusted_research_environments.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "6e4552a50662338ea780004af55fa67585aa57a132614816c1c6436ad17cd35c",
-      "lastIndexed": 1775486112793
+      "contentHash": "95beb5577a4b00a8f6ecc608ce17dd9c3de9490a3b232dfa94f38d7a810fd589",
+      "lastIndexed": 1775720902246
     },
     "30_Library/200_projects/00_Active_Projects/Security Plan/Understanding the Limitations of Focusing Solely on Access Control.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -3507,11 +3402,6 @@
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "5b2ae2a3b6b3ac57955f8e1f80b38308f158b70bf58bf589b484cdc0624b89b7",
       "lastIndexed": 1775486115252
-    },
-    "30_Library/200_projects/00_Active_Projects/ProdOS/lower energy capacity.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "61124e3a15dfa385b2c0c253be539805169d80f90d5a091c56e2478df8f85da1",
-      "lastIndexed": 1775486115301
     },
     "30_Library/200_projects/00_Active_Projects/ProdOS/Stage 5 Synthesise (The Outcome Layer).md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -8028,25 +7918,10 @@
       "contentHash": "077ef44a8333214ccf09386fbfb3b117e07003b1da736790212e74078ee4396f",
       "lastIndexed": 1775486764658
     },
-    "30_Library/100_zettelkasten/AAA Framework for Handling Criticism.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "e5fc746730126c331ea865a533a38f20738b26cd615e78c6fadc655627a2aa4d",
-      "lastIndexed": 1775486764820
-    },
-    "30_Library/100_zettelkasten/A Shared Family Calendar is a Foundational Tool for Family Organization.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "9212dad3e5a6bbdf4c11ac109076563fa486e00264afebb8ed06d433203ae3ec",
-      "lastIndexed": 1775486767151
-    },
     "30_Library/100_zettelkasten/A Healthy Family Balances the Needs of Children with the Needs of the Spousal Relationship.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "d7c20d98c3fac9da69be7f193b0704d1abb1016e32253ccedfb1002f4eddb2af",
       "lastIndexed": 1775486767151
-    },
-    "30_Library/100_zettelkasten/A Goals-First Mentality Restricts Happiness.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "6d4aceb8fce71227732d82c27c09e8d42759c8669e0af08618e2d745fd8cd121",
-      "lastIndexed": 1775486767374
     },
     "30_Library/100_zettelkasten/A Project Story Tracks a Project's Evolving Vision.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -8077,11 +7952,6 @@
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "a4d5d4c2b1be81f3ebd6cbc565223a46a0255dbcecefaba27b7dae006be3f850",
       "lastIndexed": 1775505878184
-    },
-    "30_Library/100_zettelkasten/A Future Self Brief Aids Reconnection with a Project's Thought Process.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "003fe0f31128cd4af3efea229260c52efbabd503f86e37f9a02478d555cfb5a0",
-      "lastIndexed": 1775486770985
     },
     "01_journals/Dailies/2026-04-02.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -9002,6 +8872,81 @@
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "5f3da827319313c786ed34bc250c8c9e8513a4a1d148da9a7ddce29386caad3c",
       "lastIndexed": 1775718418344
+    },
+    "30_Library/100_zettelkasten/Bessie's Working Memory is Overwhelmed by Large Information Volumes.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "05ee5d7253a30d13c7243c10c626645fdc4a52547d6c8138e7f7c4bf3a79b478",
+      "lastIndexed": 1775721151660
+    },
+    "30_Library/100_zettelkasten/Writing Acts as an External Working Memory.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "2dd32c47808c8500f65d737f6cac7dd9e71f237dfd7000218d7ac14e101622de",
+      "lastIndexed": 1775721154970
+    },
+    "30_Library/100_zettelkasten/You Are an Expert Relationship and Communications Counsellor.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "318b43cba419b3c275e03b3344e03fb601f68256d8e40936133276a4178e62ad",
+      "lastIndexed": 1775721158983
+    },
+    "30_Library/100_zettelkasten/Inquisitive and Thoughtful Nature.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "86f252cf609065cf034eac7e8659be1e4169ba6e63d689e28da82940ab3a6ec1",
+      "lastIndexed": 1775721162684
+    },
+    "30_Library/100_zettelkasten/Opportunities for Achievement & Assessment.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "c18eb08b2cd33d00e34cabfa48d555474316a656caf58fceb09b11278e676d79",
+      "lastIndexed": 1775721166127
+    },
+    "30_Library/100_zettelkasten/Writing Reduces Cognitive Load by Chunking Information.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "6626527cb4f91ad987c9c3cf1bec4d7b7b2b289ea0764208a61f8c86117b1a23",
+      "lastIndexed": 1775721169178
+    },
+    "30_Library/100_zettelkasten/Capacity for Independent Work and Self-Motivation.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "e7e91af8963e48d51e70e726bd66addf6e51dc6c7e5f1f4eeaaaa9a8e1c669ef",
+      "lastIndexed": 1775721172374
+    },
+    "30_Library/100_zettelkasten/Healthy Money Budget.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "7517a32f6d67b6e971f1cd3b56970e7d3febabf85459f81dba3adeadb330f36b",
+      "lastIndexed": 1775721175550
+    },
+    "30_Library/100_zettelkasten/Gish Gallop of Grievances.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "2cc66ba022e2855b633ee3f3a8f99f4061a92d8314ff03d0c44e0f5a485e9faf",
+      "lastIndexed": 1775721179730
+    },
+    "30_Library/100_zettelkasten/Final What I Mean.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "6ca62421e52e0d6b0c12e15b7f04f19a01b1c67b428d8f35bb364fd7d5a1c4d7",
+      "lastIndexed": 1775721183742
+    },
+    "30_Library/100_zettelkasten/Highly Creative and Passionate.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "c10ac970b14b1d131bf6a815b077ef530a8d52c620cd92f9cfcc822c15fe2210",
+      "lastIndexed": 1775721187721
+    },
+    "30_Library/100_zettelkasten/Distorted Negative Self-Image.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "3b2a00236ee7765c465f08608ae599689a7f11662b143ecce9fc8d2822b59023",
+      "lastIndexed": 1775721191417
+    },
+    "30_Library/100_zettelkasten/Silent Void.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "ab275864a2afb3ff0cb7a949fc84904c5e57e5c87e6dec84fb34a4aa9786dc0b",
+      "lastIndexed": 1775721195810
+    },
+    "30_Library/100_zettelkasten/The Most Fundamental Issue & Initial Conversation Strategy.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "161ca0267c429cdb287a042192c8faea53d6828cf41a5f685b455c10aa3ea1d3",
+      "lastIndexed": 1775721199762
+    },
+    "30_Library/100_zettelkasten/Big Picture Thinker and Inter-Subject Connector.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "50a1186832e748bee5477a8e25ce5d17937b33e43df230440da44ed9a1bf7e96",
+      "lastIndexed": 1775721203403
     }
   },
   "indexingInProgress": false,
