@@ -1,9 +1,14 @@
 ---
+aliases: []
 created: 2026-02-07T10:22:14+00:00
 last-synthesis: 2026-02-07
-modified: 2026-02-16T09:40:34+00:00
+modified: 2026-04-09T16:25:18+00:00
+prodos: '{kind: atomic, lifecycle: seedling, trust: working, id: "", review: {interval: "", last_reviewed: ""}, chronos: {last_synthesis: "", synthesis_count: 0}, atomic: {form: concept}, protocol: {applies_to: [], binary_checklist: true}, moc: {hub_for: [], entry_points: []}, ops: {tool: "", target_service: "", hop_level: "", requires_tunnel: false, prerequisites: []}, prompt: {description: "", inject_as: "", model_hints: ""}, project: {area: "", status: "", owner: ""}}'
+see_also: []
 source_of_truth: true
 status: growing
+superseded_by: ""
+supersedes: ""
 synthesis-count: 1
 tags: [domain/psychology, domain/sociology, type/SoT]
 title: "SoT - Bonhoeffer's Theory of Functional Stupidity"

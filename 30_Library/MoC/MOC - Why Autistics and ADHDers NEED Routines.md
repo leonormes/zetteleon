@@ -2,9 +2,13 @@
 aliases: []
 created: 2025-10-30T16:30:00Z
 last_reviewed: "null"
-modified: 2026-02-01T15:08:04+00:00
+modified: 2026-04-09T17:25:21+00:00
+prodos: {kind: atomic, lifecycle: seedling, trust: working, id: "", review: {interval: "", last_reviewed: ""}, chronos: {last_synthesis: "", synthesis_count: 0}, atomic: {form: concept}, protocol: {applies_to: [], binary_checklist: true}, moc: {hub_for: [], entry_points: []}, ops: {tool: "", target_service: "", hop_level: "", requires_tunnel: false, prerequisites: []}, prompt: {description: "", inject_as: "", model_hints: ""}, project: {area: "", status: "", owner: ""}}
+see_also: []
 source: "https://youtube.com/watch?v=M0QeofT0_qg"
 status: "null"
+superseded_by: ""
+supersedes: ""
 tags: ["autism", "routine-building", "TheHuman/Health/ADHD"]
 title: MOC - Why Autistics and ADHDers NEED Routines
 type: "map"
