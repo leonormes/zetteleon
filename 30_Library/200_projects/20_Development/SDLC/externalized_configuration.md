@@ -2,8 +2,7 @@
 aliases: []
 created: 2024-11-28T16:44:08Z
 last_reviewed: ""
-modified: 2026-04-09T07:46:45+00:00
-prodos: {kind: atomic, lifecycle: seedling, trust: working, id: "", review: {interval: "", last_reviewed: ""}, chronos: {last_synthesis: "", synthesis_count: 0}, atomic: {form: concept}, protocol: {applies_to: [], binary_checklist: true}, moc: {hub_for: [], entry_points: []}, ops: {tool: "", target_service: "", hop_level: "", requires_tunnel: false, prerequisites: []}, prompt: {description: "", inject_as: "", model_hints: ""}, project: {area: "", status: "", owner: ""}}
+modified: 2026-04-09T08:11:07+00:00
 see_also: []
 status: ""
 superseded_by: ""

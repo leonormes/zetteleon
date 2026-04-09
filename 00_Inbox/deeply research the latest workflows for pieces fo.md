@@ -1,6 +1,6 @@
 ---
 created: 2026-04-08T14:42:45+00:00
-modified: 2026-04-08T18:01:20+00:00
+modified: 2026-04-09T08:11:13+00:00
 title: deeply research the latest workflows for pieces fo
 ---
 
@@ -76,7 +76,7 @@ Here's an in-depth, workflow-focused guide for using Pieces for Developers' Long
 
 ---
 
-Apply these approaches for more "Mind Like Water" workflows—minimize your cognitive burden, keep context fresh and retrievable, and make your LTM + PKM truly additive to, not draining of, your focus and executive function[^10][^11][^3][^4][^2][^5].[^7][^8]
+Apply these approaches for more "Mind Like Water" workflows—minimize your cognitive burden, keep context fresh and retrievable, and make your LTM + PKM truly additive to, not draining of, your focus and executive function[^10][^11][^3][^4][^2].[^5][^7][^8]
 
 <div align="center">⁂</div>
 

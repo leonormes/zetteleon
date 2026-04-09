@@ -2,8 +2,7 @@
 aliases: ["Computing MOC", "CS MOC", "Software Engineering MOC", "Tech Stack MOC"]
 created: 2025-12-13T09:15:00Z
 last_reviewed: "2026-04-05T00:00:00.000Z"
-modified: 2026-04-09T06:42:03+00:00
-prodos: '{kind: atomic, lifecycle: seedling, trust: working, id: "", review: {interval: "", last_reviewed: ""}, chronos: {last_synthesis: "", synthesis_count: 0}, atomic: {form: concept}, protocol: {applies_to: [], binary_checklist: true}, moc: {hub_for: [], entry_points: []}, ops: {tool: "", target_service: "", hop_level: "", requires_tunnel: false, prerequisites: []}, prompt: {description: "", inject_as: "", model_hints: ""}, project: {area: "", status: "", owner: ""}}'
+modified: 2026-04-09T08:11:07+00:00
 see_also: []
 status: "stable"
 superseded_by: ""

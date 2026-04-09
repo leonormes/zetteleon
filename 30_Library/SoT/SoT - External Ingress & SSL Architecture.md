@@ -1,7 +1,7 @@
 ---
 alias: ["Cross-Cluster HTTPS", "DNS-IP Ownership Model", "External Ingress SSL"]
 created: 2026-02-05T00:00:00+00:00
-modified: 2026-04-08T18:01:06+00:00
+modified: 2026-04-09T08:11:04+00:00
 status: stable
 tags: ["cert-manager", "cloudflare", "ingress", "kubernetes", "sot", "ssl"]
 title: SoT - External Ingress & SSL Architecture

@@ -2,7 +2,7 @@
 aliases: ["CoreDNS Configuration", "DNS Architecture", "Hybrid Cloud DNS", "Protective DNS", "Split-View DNS"]
 created: 2026-01-06T20:15:48+00:00
 last_reviewed: "2026-03-28"
-modified: 2026-04-08T18:01:07+00:00
+modified: 2026-04-09T08:11:04+00:00
 status: "Active"
 tags: ["aws", "azure", "dns", "networking", "security", "SoftwareEngineering/Architecture"]
 title: SoT - DNS Core Components and Environments

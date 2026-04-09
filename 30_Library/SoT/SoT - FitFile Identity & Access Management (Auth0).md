@@ -2,7 +2,7 @@
 aliases: [Auth0 Authentication Strategy, FitFile Identity Architecture]
 created: 2025-09-23T08:41:59Z
 last_reviewed: "2026-03-28"
-modified: 2026-04-08T18:01:06+00:00
+modified: 2026-04-09T08:11:04+00:00
 see_also: ["[[SoT - FitFile Deployment - Implementation Manual]]", "[[SoT - FitFile Deployment - Strategy & Architecture]]", "[[SoT - FitFile VSO Secrets Management]]"]
 status: evergreen
 tags: [auth0, ff_deploy, identity, security, sot]

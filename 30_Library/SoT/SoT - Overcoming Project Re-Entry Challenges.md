@@ -1,7 +1,7 @@
 ---
 aliases: ["Creation Cycle Failure", "Novelty-Driven Dopamine Release", "Project Re-Entry"]
 created: 2025-12-20T00:00:00Z
-modified: 2026-04-08T18:01:04+00:00
+modified: 2026-04-09T08:11:02+00:00
 status: "evergreen"
 tags: ["dopamine", "project-management", "task-management", "TheHuman/Health/ADHD", "TheHuman/Psychology", "topic/productivity"]
 title: SoT - Overcoming Project Re-Entry Challenges

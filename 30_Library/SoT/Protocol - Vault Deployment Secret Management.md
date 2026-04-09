@@ -1,7 +1,7 @@
 ---
 alias: [Secret Management Protocol, Vault Onboarding]
 created: 2026-02-05T00:00:00+00:00
-modified: 2026-04-08T18:01:08+00:00
+modified: 2026-04-09T08:11:05+00:00
 status: stable
 tags: [fitfile, onboarding, protocol, secrets, terraform, vault]
 title: Protocol - Vault Deployment Secret Management

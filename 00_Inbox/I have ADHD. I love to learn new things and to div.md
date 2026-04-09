@@ -1,6 +1,6 @@
 ---
 created: 2026-04-08T14:32:38+00:00
-modified: 2026-04-08T18:01:20+00:00
+modified: 2026-04-09T08:11:13+00:00
 title: I have ADHD. I love to learn new things and to div
 ---
 
@@ -43,7 +43,7 @@ The key to managing ADHD while using LLMs for deep learning and thinking is to f
 - Regularly curate and simplify your Obsidian note graph.
 - Balance LLM use with dedicated personal reflection time.
 
-This approach can help you stay in control of your workflow, optimize ADHD-friendly thinking without losing your unique insights, and leverage LLMs as powerful partners rather than overwhelming content generators [^1].[^5][^9][^8][^6]
+This approach can help you stay in control of your workflow, optimize ADHD-friendly thinking without losing your unique insights, and leverage LLMs as powerful partners rather than overwhelming content generators.[^1][^5][^9][^8][^6]
 
 <span style="display:none">[^10][^11][^12][^13][^14][^15][^16][^17][^18][^19][^20]</span>
 

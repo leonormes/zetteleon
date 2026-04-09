@@ -1,7 +1,7 @@
 ---
 aliases: [Ops Triage, Protocol Triage]
 created: 2026-04-08T00:00:00+00:00
-modified: 2026-04-08T18:01:09+00:00
+modified: 2026-04-09T08:11:06+00:00
 status: seedling
 tags: [devops, moc, operations, protocols, triage]
 title: MOC - Operations & Diagnostics (Triage)

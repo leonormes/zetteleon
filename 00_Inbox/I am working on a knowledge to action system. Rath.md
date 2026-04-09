@@ -1,6 +1,6 @@
 ---
 created: 2026-04-08T14:27:25+00:00
-modified: 2026-04-08T18:01:20+00:00
+modified: 2026-04-09T08:11:13+00:00
 title: I am working on a knowledge to action system. Rath
 ---
 
@@ -14,7 +14,7 @@ The best approach for gaining practical knowledge in DevOps, GitOps, and cloud-n
 
 ## Action-Oriented Mindset
 
-- Use knowledge-to-action cycles: Adapt theory to your immediate context, identify obstacles (technical gaps, process choke-points), and experiment incrementally with solutions. The KTA (Knowledge to Action) model encourages assessing barriers, picking evidence-based interventions, and continuously evaluating results[^1].[^2][^10][^11]
+- Use knowledge-to-action cycles: Adapt theory to your immediate context, identify obstacles (technical gaps, process choke-points), and experiment incrementally with solutions. The KTA (Knowledge to Action) model encourages assessing barriers, picking evidence-based interventions, and continuously evaluating results.[^1][^2][^10][^11]
 - Document what you try, monitor outcomes, and pivot to better practices swiftly—thinking like a researcher, acting like a practical engineer.
 
 ## Concrete Strategies
@@ -40,7 +40,7 @@ The best approach for gaining practical knowledge in DevOps, GitOps, and cloud-n
 | Implement \& Test | Study monitoring integrations | Deploy Grafana/Prometheus dashboard |
 | Measure/Iterate | Learn about DORA metrics/tracking | Review stats and performance weekly |
 
-This process is cyclical and iterative—each round deepens practical skill while remaining grounded in relevant knowledge[^6][^1].[^2][^3][^14]
+This process is cyclical and iterative—each round deepens practical skill while remaining grounded in relevant knowledge[^6].[^1][^2][^3][^14]
 
 ## Action Items
 
@@ -49,4 +49,4 @@ This process is cyclical and iterative—each round deepens practical skill whil
 - Document every step and failure; review weekly using metrics and feedback.
 - Gradually level up complexity as comfort and mastery grows.
 
-This approach ensures continuous growth as both a thinker and a doer in the cloud-native DevOps domain[^4][^8].[^9][^3][^6]
+This approach ensures continuous growth as both a thinker and a doer in the cloud-native DevOps domain[^4].[^8][^9][^3][^6]

@@ -1,6 +1,6 @@
 ---
 created: 2026-02-05T19:55:23+00:00
-modified: 2026-04-08T18:01:13+00:00
+modified: 2026-04-09T08:11:09+00:00
 title: nightly cargo run -- key-gen
 uuid: 933d0f4e-318d-4bee-a5ed-9e0ac7172dcf
 ---

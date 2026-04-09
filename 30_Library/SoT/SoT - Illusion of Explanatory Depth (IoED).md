@@ -3,7 +3,7 @@ aliases: ["Causal Opacity", "Collector's Fallacy", "Consumption Trap", "Heuristi
 created: 2025-12-12T00:00:00Z
 last_reviewed: "2025-12-15"
 last_synthesis: 2026-04-08
-modified: 2026-04-08T18:01:06+00:00
+modified: 2026-04-09T08:11:03+00:00
 status: "stable"
 synthesis_count: 3
 tags: ["bias", "learning", "mental_models", "TheHuman/Cognition", "TheHuman/Health/ADHD"]

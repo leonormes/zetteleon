@@ -1,6 +1,6 @@
 ---
 created: 2026-04-01T11:10:50+00:00
-modified: 2026-04-08T18:01:01+00:00
+modified: 2026-04-09T08:10:59+00:00
 title: Mindmap Builder
 ---
 

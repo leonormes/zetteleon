@@ -2,7 +2,7 @@
 aliases: ["Athena", "OMOP Vocabularies", "Standard Concepts"]
 created: 2026-01-06T18:52:00+00:00
 last_reviewed: 
-modified: 2026-04-08T18:01:05+00:00
+modified: 2026-04-09T08:11:02+00:00
 status: "Active"
 tags: ["ohdsi", "ontology", "semantics", "vocabulary"]
 title: SoT - OHDSI Standardized Vocabularies

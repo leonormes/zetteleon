@@ -1,7 +1,7 @@
 ---
 aliases: [Logic Triage, Philosophy Triage]
 created: 2026-04-08T00:00:00+00:00
-modified: 2026-04-08T18:01:09+00:00
+modified: 2026-04-09T08:11:07+00:00
 status: seedling
 tags: [logic, mathematics, moc, philosophy, triage]
 title: MOC - Formal Logic & Philosophy (Triage)

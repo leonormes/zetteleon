@@ -2,8 +2,7 @@
 aliases: ["Assembly Theory", "Functional Information Theory", "The Fourth Law of Thermodynamics"]
 created: 2025-12-25T12:00:00Z
 last_reviewed: "2025-12-25"
-modified: 2026-04-09T06:18:15+00:00
-prodos: {kind: atomic, lifecycle: seedling, trust: working, id: "", review: {interval: "", last_reviewed: ""}, chronos: {last_synthesis: "", synthesis_count: 0}, atomic: {form: concept}, protocol: {applies_to: [], binary_checklist: true}, moc: {hub_for: [], entry_points: []}, ops: {tool: "", target_service: "", hop_level: "", requires_tunnel: false, prerequisites: []}, prompt: {description: "", inject_as: "", model_hints: ""}, project: {area: "", status: "", owner: ""}}
+modified: 2026-04-09T08:11:01+00:00
 see_also: []
 status: "stable"
 superseded_by: ""

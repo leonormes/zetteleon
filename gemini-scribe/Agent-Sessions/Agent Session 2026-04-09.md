@@ -1,26 +1,20 @@
 ---
-session_id: session_1775715928854_54edtt6sx
-type: agent-session
-title: Agent Session 2026-04-09
-created: 2026-04-09T07:25:28.854+01:00
+created: 2026-04-09T06:25:28+00:00
+enabled_tools: [external_mcp, read_only, skills, vault_ops]
 last_active: 2026-04-09T07:25:28.854+01:00
-enabled_tools:
-  - read_only
-  - vault_ops
-  - external_mcp
-  - skills
-require_confirmation:
-  - modify_files
-  - create_files
-  - delete_files
-  - external_calls
+modified: 2026-04-09T08:10:59+00:00
+require_confirmation: [create_files, delete_files, external_calls, modify_files]
+session_id: session_1775715928854_54edtt6sx
+title: Agent Session 2026-04-09
+type: agent-session
 ---
-# Agent Session 2026-04-09
 
+## Agent Session 2026-04-09
 
-## User
+### User
 
 > [!metadata]- Message Info
+>
 > | Property | Value |
 > | -------- | ----- |
 > | Time | 2026-04-09T07:26:21.262+01:00 |
@@ -28,4 +22,4 @@ require_confirmation:
 > [!user]+
 > Find notes about information theory
 
---- 
+---

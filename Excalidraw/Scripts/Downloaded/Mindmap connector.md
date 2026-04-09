@@ -1,6 +1,6 @@
 ---
 created: 2026-03-31T10:24:46+00:00
-modified: 2026-04-08T18:01:01+00:00
+modified: 2026-04-09T08:10:59+00:00
 title: Mindmap connector
 ---
 

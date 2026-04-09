@@ -2,7 +2,7 @@
 aliases: ["Launch Sequence", "The Initiation Algorithm"]
 created: 2025-12-23T20:00:20Z
 last_reviewed: "2025-12-23"
-modified: 2026-04-08T18:01:04+00:00
+modified: 2026-04-09T08:11:02+00:00
 status: "stable"
 tags: ["action", "adhd", "initiation", "productivity", "protocol"]
 title: SoT - Protocol - The Launch Sequence

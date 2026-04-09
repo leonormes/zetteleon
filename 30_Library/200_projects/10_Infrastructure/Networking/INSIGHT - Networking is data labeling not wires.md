@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-24T15:22:00Z
 last_reviewed: "2026-04-08"
-modified: 2026-04-08T18:01:13+00:00
+modified: 2026-04-09T08:11:08+00:00
 status: "stable"
 tags: ["mental-model", "SoftwareEngineering/Networking", "TheHuman/Philosophy"]
 title: INSIGHT - Networking is data labeling not wires

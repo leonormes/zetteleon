@@ -1,7 +1,7 @@
 ---
 aliases: [Agentic AI Workflows, Agentic Workflow Taxonomy, AI Agent Patterns]
 created: 2026-04-05T13:00:00+01:00
-modified: 2026-04-08T18:01:08+00:00
+modified: 2026-04-09T08:11:05+00:00
 status: stable
 tags: [agents, ai, architecture, design-patterns, llm, sot]
 title: SoT - Agentic AI Design Patterns

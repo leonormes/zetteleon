@@ -1,7 +1,7 @@
 ---
 created: 2026-02-02T08:40:00+00:00
 description: Leon’s health and training context to generate low-friction, ADHD-friendly fitness plans.
-modified: 2026-04-08T18:01:19+00:00
+modified: 2026-04-09T08:11:12+00:00
 tags: [domain/health, system/prompt, type/context]
 title: leon-context-health-profile
 type: prompt

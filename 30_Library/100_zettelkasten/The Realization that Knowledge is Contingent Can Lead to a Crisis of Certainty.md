@@ -2,7 +2,7 @@
 aliases: ["Crisis of Certainty", "Loss of Epistemic Ground"]
 created: 2025-11-06T19:58:00Z
 last_reviewed: "2025-11-06"
-modified: 2026-04-08T18:01:14+00:00
+modified: 2026-04-09T08:11:10+00:00
 status: "seedling"
 tags: ["certainty", "epistemology", "TheHuman/Cognition/bias", "TheHuman/Philosophy"]
 title: The Realization that Knowledge is Contingent Can Lead to a Crisis of Certainty

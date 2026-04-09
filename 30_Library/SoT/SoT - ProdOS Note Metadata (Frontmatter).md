@@ -1,17 +1,7 @@
 ---
 aliases: [Note metadata schema, ProdOS frontmatter specification]
 created: 2026-04-08T18:00:00+00:00
-modified: 2026-04-08T18:01:02+00:00
-prodos:
-  kind: sot
-  lifecycle: stable
-  trust: stable
-  review:
-    interval: 6 months
-    last_reviewed: 2026-04-08
-  chronos:
-    last_synthesis: 2026-04-08
-    synthesis_count: 0
+modified: 2026-04-09T08:11:02+00:00
 see_also: ["[[CLAUDE.md]]"]
 tags: [prodos/schema, topic/pkm]
 title: SoT - ProdOS Note Metadata (Frontmatter)

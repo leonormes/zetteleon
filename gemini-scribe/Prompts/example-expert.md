@@ -1,7 +1,7 @@
 ---
 created: 2026-04-06T14:20:22+00:00
 description: "A knowledgeable expert who provides detailed, accurate information"
-modified: 2026-04-08T18:01:01+00:00
+modified: 2026-04-09T08:10:59+00:00
 name: "Subject Matter Expert"
 override_system_prompt: false
 tags: ["expert", "general"]

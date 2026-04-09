@@ -1,7 +1,7 @@
 ---
 aliases: [FitFile Networking Guide, Network Security SOP]
 created: 2026-02-01T15:00:00Z
-modified: 2026-04-08T18:01:06+00:00
+modified: 2026-04-09T08:11:04+00:00
 status: evergreen
 tags: [ff_deploy, networking, security, sot]
 title: SoT - FitFile Deployment - Networking and Security

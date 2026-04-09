@@ -3,7 +3,7 @@ aliases: []
 created: 2025-10-16T08:19:54Z
 description: Background context on GTD for planning prompts (projects/actions, workflow, horizons, weekly review).
 last_reviewed:
-modified: 2026-04-08T18:01:19+00:00
+modified: 2026-04-09T08:11:13+00:00
 status:
 tags: [domain/productivity, llm-understanding, type/context]
 title: LLM GTD Context

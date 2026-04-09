@@ -2,7 +2,7 @@
 aliases: [FitFile Secrets SoT, Secrets Management Source of Truth, VSO Secrets Management]
 created: 2026-03-14T12:00:00Z
 last_synthesis: 2026-04-02
-modified: 2026-04-08T18:01:06+00:00
+modified: 2026-04-09T08:11:04+00:00
 source_of_truth: true
 status: evergreen
 synthesis-count: 3

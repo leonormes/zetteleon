@@ -4,7 +4,7 @@ enabled_tools: [external_mcp, read_only, skills, vault_ops]
 last_active: 2026-04-06T14:49:16.863Z
 metadata:
   autoLabeled: true
-modified: 2026-04-08T18:01:01+00:00
+modified: 2026-04-09T08:10:59+00:00
 require_confirmation: [create_files, delete_files, external_calls, modify_files]
 session_id: session_1775486756139_khve4moub
 title: Restarting projects after a hiatus

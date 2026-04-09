@@ -2,7 +2,7 @@
 aliases: [ARM Architecture, Azure Architecture, Azure Resource Manager]
 created: 2025-12-10T13:06:37Z
 last_reviewed: "2026-03-28"
-modified: 2026-04-08T18:01:08+00:00
+modified: 2026-04-09T08:11:05+00:00
 status: evergreen
 tags: [architecture, arm, azure, governance, security, sot]
 title: SoT - Azure Resource Manager Architecture

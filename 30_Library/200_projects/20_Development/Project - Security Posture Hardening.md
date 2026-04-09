@@ -2,9 +2,8 @@
 aliases: []
 created: 2026-01-07T21:28:43+00:00
 last_reviewed: ""
-modified: 2026-04-09T07:46:44+00:00
+modified: 2026-04-09T08:11:07+00:00
 priority: high
-prodos: {kind: atomic, lifecycle: seedling, trust: working, id: "", review: {interval: "", last_reviewed: ""}, chronos: {last_synthesis: "", synthesis_count: 0}, atomic: {form: concept}, protocol: {applies_to: [], binary_checklist: true}, moc: {hub_for: [], entry_points: []}, ops: {tool: "", target_service: "", hop_level: "", requires_tunnel: false, prerequisites: []}, prompt: {description: "", inject_as: "", model_hints: ""}, project: {area: "", status: "", owner: ""}}
 see_also: []
 status: active
 superseded_by: ""

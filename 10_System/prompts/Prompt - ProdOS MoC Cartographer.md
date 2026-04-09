@@ -1,7 +1,7 @@
 ---
 created: 2026-03-30T14:56:10+00:00
 description: Build MoC (Map of Content) notes that group related notes with 1-sentence annotations per link.
-modified: 2026-04-08T18:01:19+00:00
+modified: 2026-04-09T08:11:13+00:00
 tags: [cartography, moc, prodos, type/system]
 title: Prompt - ProdOS MoC Cartographer
 type: prompt
