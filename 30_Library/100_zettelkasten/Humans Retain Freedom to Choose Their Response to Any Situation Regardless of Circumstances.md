@@ -1,29 +1,17 @@
 ---
+created: 2026-04-10T00:00:00+00:00
+modified: 2026-04-10T15:12:53+00:00
+tags: [agency, freedom, mindset, resilience]
 title: Humans Retain Freedom to Choose Their Response to Any Situation Regardless of Circumstances
-created: "2026-04-10T13:00:00+00:00"
-modified: "2026-04-10T13:00:00+00:00"
-tags:
-  - agency
-  - freedom
-  - resilience
-  - mindset
-prodos:
-  kind: atomic
-  lifecycle: seedling
-  trust: high
-  atomic:
-    note_kind: claim
-    source_title: "I'm interested in learning about Viktor Frankl's philosophy"
-    source_url: "unknown"
 ---
 
 ## Humans Retain Freedom to Choose Their Response to Any Situation Regardless of Circumstances
 
-Frankl's first pillar of logotherapy: no external condition — however extreme — can eliminate the human capacity to choose one's attitude toward it. This is not freedom *from* circumstances but freedom *in* the response to them. The gap between stimulus and response is the seat of human agency; it is always present, even when everything else has been taken away.
+Frankl's first pillar of logotherapy: no external condition—however extreme—can eliminate the human capacity to choose one's attitude toward it. This is not freedom _from_ circumstances but freedom _in_ the response to them. The gap between stimulus and response is the seat of human agency; it is always present, even when everything else has been taken away.
 
 ### Scope & Conditions
 
-Does not imply freedom from consequences, suffering, or constraint. The claim is specifically about attitudinal freedom — the capacity to choose how one *relates to* an unchangeable situation. This freedom is preserved even in extreme adversity (Frankl developed this insight in Nazi concentration camps). It does not apply to reflex responses or unconscious behaviour, only to chosen stances.
+Does not imply freedom from consequences, suffering, or constraint. The claim is specifically about attitudinal freedom—the capacity to choose how one _relates to_ an unchangeable situation. This freedom is preserved even in extreme adversity (Frankl developed this insight in Nazi concentration camps). It does not apply to reflex responses or unconscious behaviour, only to chosen stances.
 
 ### Evidence
 
@@ -36,6 +24,6 @@ Does not imply freedom from consequences, suffering, or constraint. The claim is
 
 ### Related
 
-- [[SoT - Logotherapy and the Will to Meaning]] — direct concept match: Freedom of Will is Pillar A of the SoT — "the last of the human freedoms."
-- [[Responding vs. Reacting]] — direct concept match: both articulate the "space between stimulus and response" as the location of freedom and intentional agency; both cite the same underlying principle from different traditions (Frankl / Mushin).
-- [[The Self is Constructed Through a Commitment to Chosen Values]] — shared mechanism: both ground personal identity and agency in chosen response rather than inherited or imposed conditions; attitudinal freedom is the micro-level instance; values-commitment is the macro-level instance.
+- [[SoT - Logotherapy and the Will to Meaning]]—direct concept match: Freedom of Will is Pillar A of the SoT—"the last of the human freedoms."
+- [[Responding vs. Reacting]]—direct concept match: both articulate the "space between stimulus and response" as the location of freedom and intentional agency; both cite the same underlying principle from different traditions (Frankl / Mushin).
+- [[The Self is Constructed Through a Commitment to Chosen Values]]—shared mechanism: both ground personal identity and agency in chosen response rather than inherited or imposed conditions; attitudinal freedom is the micro-level instance; values-commitment is the macro-level instance.
