@@ -2,7 +2,7 @@
 aliases: [Data-Centric Design Index, Engineering MOC, SDLC MOC, The Data-First Hub]
 created: 2025-02-15T07:24:57Z
 last_synthesis: 2026-04-02
-modified: 2026-04-09T08:11:07+00:00
+modified: 2026-04-10T16:52:04+00:00
 source_of_truth: true
 status: evergreen
 synthesis-count: 3

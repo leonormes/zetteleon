@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-05-26T14:06:58Z
 last_reviewed: "2026-04-08"
-modified: 2026-04-09T08:11:06+00:00
+modified: 2026-04-10T16:52:04+00:00
 status: "growing"
 tags: ["dopamine", "interest", "novelty", "TheHuman/Health/ADHD", "TheHuman/Motivation"]
 title: MOC - Novelty Seeking

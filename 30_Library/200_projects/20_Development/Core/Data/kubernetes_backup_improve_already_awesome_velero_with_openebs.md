@@ -3,7 +3,7 @@ aliases: []
 created: 2025-02-07T12:57:56Z
 id: "kubernetes_backup_improve_already_awesome_velero_with_openebs"
 last_reviewed: ""
-modified: 2026-04-09T08:11:07+00:00
+modified: 2026-04-10T16:52:13+00:00
 see_also: []
 source: "https://blog.mayadata.io/openebs/suggesting-ways-to-improve-already-awesome-velero"
 status: ""

@@ -2,7 +2,7 @@
 aliases: ["Modularity by Information Hiding", "Parnas Information Hiding"]
 created: 2025-12-12T00:00:00Z
 last_reviewed: "2025-12-12"
-modified: 2026-04-09T08:11:03+00:00
+modified: 2026-04-10T16:52:07+00:00
 see_also: []
 status: "stable"
 superseded_by: ""

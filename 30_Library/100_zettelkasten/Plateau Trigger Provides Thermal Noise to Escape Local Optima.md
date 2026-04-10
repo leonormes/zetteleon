@@ -1,20 +1,8 @@
 ---
-title: Plateau Trigger Provides Thermal Noise to Escape Local Optima
 created: 2026-04-10T12:00:00+00:00
-modified: 2026-04-10T12:00:00+00:00
-tags:
-  - optimization
-  - exploration
-  - heuristics
-  - problem-solving
-prodos:
-  kind: atomic
-  lifecycle: seedling
-  trust: high
-  atomic:
-    note_kind: heuristic
-    source_title: "SuperIntelligence: Why the Future of AI is a File System (CORAL)"
-    source_url: "http://www.youtube.com/watch?v=7n5EVMtYA4I"
+modified: 2026-04-10T16:52:03+00:00
+tags: [exploration, heuristics, optimization, problem-solving]
+title: Plateau Trigger Provides Thermal Noise to Escape Local Optima
 ---
 
 ## Plateau Trigger Provides Thermal Noise to Escape Local Optima
@@ -23,7 +11,7 @@ When a CORAL agent's performance plateaus, the Heartbeat Protocol fires a platea
 
 ### Scope & Conditions
 
-Activated by the Heartbeat Intervention Protocol when an agent's measured progress stalls below a defined threshold. Specific to mathematical research optimisation in CORAL; the underlying principle — force orthogonal exploration when convergence fails — is domain-agnostic. Effectiveness depends on the orthogonality of the commanded approach being genuinely different, not just a surface variation.
+Activated by the Heartbeat Intervention Protocol when an agent's measured progress stalls below a defined threshold. Specific to mathematical research optimisation in CORAL; the underlying principle—force orthogonal exploration when convergence fails—is domain-agnostic. Effectiveness depends on the orthogonality of the commanded approach being genuinely different, not just a surface variation.
 
 ### Evidence
 
@@ -36,5 +24,5 @@ Activated by the Heartbeat Intervention Protocol when an agent's measured progre
 
 ### Related
 
-- [[Divergent Thinking Outperforms Narrow Specialization]] — shared mechanism: both prescribe switching to broader, orthogonal thinking when convergent approaches stall; the plateau trigger is an automated, operationalised form of the same cognitive shift described in that note.
-- [[Automated Optimization Loops Degrade Beyond 15 Iterations]] — extends: the degradation heuristic establishes that long loops produce diminishing returns; the plateau trigger is the active intervention that fires before that ceiling is reached, making the two notes a complementary loop-management protocol.
+- [[Divergent Thinking Outperforms Narrow Specialization]]—shared mechanism: both prescribe switching to broader, orthogonal thinking when convergent approaches stall; the plateau trigger is an automated, operationalised form of the same cognitive shift described in that note.
+- [[Automated Optimization Loops Degrade Beyond 15 Iterations]]—extends: the degradation heuristic establishes that long loops produce diminishing returns; the plateau trigger is the active intervention that fires before that ceiling is reached, making the two notes a complementary loop-management protocol.

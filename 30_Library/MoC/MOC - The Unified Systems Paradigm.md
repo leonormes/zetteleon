@@ -3,7 +3,7 @@ alias: [Constructive Realism, System Reliability Map, The Unified Systems Paradi
 aliases: []
 created: 2025-12-30T12:08:43+00:00
 last_reviewed: 2026-04-08
-modified: 2026-04-09T08:11:06+00:00
+modified: 2026-04-10T16:52:05+00:00
 status: stable
 tags: ["SoftwareEngineering/Architecture", "TheHuman/Philosophy", root, type/moc]
 title: MOC - The Unified Systems Paradigm

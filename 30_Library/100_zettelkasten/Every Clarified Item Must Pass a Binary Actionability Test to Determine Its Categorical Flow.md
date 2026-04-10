@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T00:00:00+00:00
-modified: 2026-04-10T15:14:40+00:00
+modified: 2026-04-10T16:52:03+00:00
 tags: [filtering, gtd, logic, triage]
 title: Every Clarified Item Must Pass a Binary Actionability Test to Determine Its Categorical Flow
 ---

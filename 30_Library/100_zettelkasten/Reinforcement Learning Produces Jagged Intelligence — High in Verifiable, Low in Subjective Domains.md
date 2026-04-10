@@ -1,0 +1,28 @@
+---
+created: 2026-04-10T13:00:00+00:00
+modified: 2026-04-10T16:52:03+00:00
+tags: [constraints, intelligence, llm, reinforcement-learning]
+title: Reinforcement Learning Produces Jagged Intelligence — High in Verifiable, Low in Subjective Domains
+---
+
+## Reinforcement Learning Produces Jagged Intelligence—High in Verifiable, Low in Subjective Domains
+
+Current AI models exhibit PhD-level competence in verifiable tasks (such as coding) alongside failure in subjective tasks (such as humour) because Reinforcement Learning can only effectively optimise against verifiable outputs. Where there is a clear success signal (code that runs, proof that holds), RL drives rapid capability improvement. Where no objective signal exists (is this joke funny?), RL stalls and the model's performance remains near its pre-training floor.
+
+### Scope & Conditions
+
+Applies to models trained with RL on feedback-heavy verifiable data. "Jagged" is a deliberate term—the capability profile is not uniformly high or uniformly low; it is highly domain-specific. High capability in one area does not predict capability in adjacent areas if those areas differ in verifiability.
+
+### Evidence
+
+> "This is attributed to the fact that reinforcement learning (RL) is effectively applied to verifiable outputs (code that runs) but remains stagnant in subjective areas (jokes), leading to highly specialised but uneven capabilities."
+
+### Implications
+
+- Model intelligence should not be treated as a single dimension; capability assessments must be domain-specific.
+- Creating verifiability for currently subjective tasks is an active research lever for expanding RL's reach—e.g. converting "good writing" into a structured rubric with binary sub-criteria.
+
+### Related
+
+- [[AI and Machine Understanding]]—extends: the jaggedness observation provides a mechanistic explanation for why AI cannot achieve unified understanding; the uneven capability profile is a direct consequence of RL's dependence on verifiable signals, not a temporary gap.
+- [[SoT - AI Sycophancy]]—extends: sycophancy in subjective domains (feedback, creative tasks) is the specific failure mode that emerges when RL cannot optimise the dimension; the model defaults to approval-seeking precisely where it lacks a ground-truth signal.

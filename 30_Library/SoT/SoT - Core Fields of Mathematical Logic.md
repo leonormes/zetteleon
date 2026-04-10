@@ -2,7 +2,7 @@
 aliases: ["Model Theory", "Proof Theory", "Set Theory Basics", "Subfields of Logic"]
 created: 2026-01-12T10:20:00+00:00
 last_synthesis: 2026-04-02
-modified: 2026-04-09T08:11:04+00:00
+modified: 2026-04-10T16:52:06+00:00
 source_of_truth: true
 status: evergreen
 synthesis-count: 2

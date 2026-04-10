@@ -13,7 +13,8 @@
       "Read(//Users/leon.ormes/.config/mcpproxy/**)",
       "Read(//Users/leon.ormes/**)",
       "Bash(curl -sk https://127.0.0.1:27124/ -o /dev/null -w \"%{http_code}\")",
-      "mcp__mcp-proxy__call_tool"
+      "mcp__mcp-proxy__call_tool",
+      "Bash(ls:*)"
     ]
   }
 }

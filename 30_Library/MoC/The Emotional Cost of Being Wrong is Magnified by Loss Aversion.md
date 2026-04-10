@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-12T07:56:06Z
 last_reviewed: "2026-04-06"
-modified: 2026-04-09T08:11:06+00:00
+modified: 2026-04-10T16:52:05+00:00
 status: "stable"
 tags: ["ego", "epistemology", "TheHuman/Cognition", "topic/learning"]
 title: The Emotional Cost of Being Wrong is Magnified by Loss Aversion

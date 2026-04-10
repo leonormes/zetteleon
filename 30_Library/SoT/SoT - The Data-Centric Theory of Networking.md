@@ -2,7 +2,7 @@
 aliases: ["Host-based Routing", "Networking Indirection", "Path-based Routing", "The Packet Journey"]
 created: 2025-03-14T13:38:49Z
 last_reviewed: "2026-04-04"
-modified: 2026-04-09T08:11:01+00:00
+modified: 2026-04-10T16:52:09+00:00
 status: "stable"
 tags: ["data-centric", "routing", "SoftwareEngineering/Architecture", "SoftwareEngineering/Networking", "topic/technology"]
 title: SoT - The Data-Centric Theory of Networking

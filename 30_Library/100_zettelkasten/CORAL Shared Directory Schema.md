@@ -1,25 +1,13 @@
 ---
-title: CORAL Shared Directory Schema
 created: 2026-04-10T12:00:00+00:00
-modified: 2026-04-10T12:00:00+00:00
-tags:
-  - knowledge-management
-  - data-structure
-  - coral
-  - automation
-prodos:
-  kind: atomic
-  lifecycle: seedling
-  trust: high
-  atomic:
-    note_kind: definition
-    source_title: "SuperIntelligence: Why the Future of AI is a File System (CORAL)"
-    source_url: "http://www.youtube.com/watch?v=7n5EVMtYA4I"
+modified: 2026-04-10T16:52:03+00:00
+tags: [automation, coral, data-structure, knowledge-management]
+title: CORAL Shared Directory Schema
 ---
 
 ## CORAL Shared Directory Schema
 
-The shared persistent memory in the CORAL multi-agent framework is organised into three typed elements: **Attempts** (a ledger of every function evaluation, keyed by commit hash), **Notes** (markdown files in which agents record textual hypotheses about what is and is not working), and **Skills** (reusable executable code modules abstracted from successful localised runs). Together these three stores separate raw execution logs from qualitative reasoning from permanent capability assets.
+The shared persistent memory in the CORAL multi-agent framework is organised into three typed elements: Attempts (a ledger of every function evaluation, keyed by commit hash), Notes (markdown files in which agents record textual hypotheses about what is and is not working), and Skills (reusable executable code modules abstracted from successful localised runs). Together these three stores separate raw execution logs from qualitative reasoning from permanent capability assets.
 
 ### Scope & Conditions
 
@@ -36,5 +24,5 @@ Foundational data structure for agents running in parallel Git workspaces. The t
 
 ### Related
 
-- [[Virtual File System for Agent Concurrency]] — shared mechanism: both model multi-agent shared state as a structured, typed filesystem abstraction; CORAL's three-element schema is a concrete domain-specific instantiation of the general virtual-filesystem coordination pattern.
-- [[SoT - Agentic AI Design Patterns]] — extends: the three-element schema is a concrete implementation of the "Memory Management" pattern (short-term notes → long-term skills) within an agentic system.
+- [[Virtual File System for Agent Concurrency]]—shared mechanism: both model multi-agent shared state as a structured, typed filesystem abstraction; CORAL's three-element schema is a concrete domain-specific instantiation of the general virtual-filesystem coordination pattern.
+- [[SoT - Agentic AI Design Patterns]]—extends: the three-element schema is a concrete implementation of the "Memory Management" pattern (short-term notes → long-term skills) within an agentic system.

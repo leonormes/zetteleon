@@ -1,30 +1,17 @@
 ---
+created: 2026-04-10T00:00:00+00:00
+modified: 2026-04-10T16:52:03+00:00
+tags: [ai, insight, knowledge-graphs, pkm]
 title: PKM Generates Unique Insights via Personal Context That AI Cannot Replicate
-created: "2026-04-10T10:00:00+00:00"
-modified: "2026-04-10T10:00:00+00:00"
-tags:
-  - pkm
-  - ai
-  - insight
-  - knowledge-graphs
-prodos:
-  kind: atomic
-  lifecycle: seedling
-  trust: medium
-  atomic:
-    note_kind: distinction
-    source_title: "Why PKM in this day and age"
-    source_url: "unknown"
-    upstream: "[[HEAD - Why PKM in this day and age]]"
 ---
 
 ## PKM Generates Unique Insights via Personal Context That AI Cannot Replicate
 
-Personal Knowledge Management generates unique insights by linking ideas within an individual's personal context — their lived experience, prior knowledge, and unique trains of thought. This context is inaccessible to AI, which operates on distributional statistics across a general corpus and cannot access the subjective history that gives a specific connection its significance. Manual linking between ideas in a PKM system therefore produces insight that is genuinely non-deducible by any system without access to that personal context.
+Personal Knowledge Management generates unique insights by linking ideas within an individual's personal context—their lived experience, prior knowledge, and unique trains of thought. This context is inaccessible to AI, which operates on distributional statistics across a general corpus and cannot access the subjective history that gives a specific connection its significance. Manual linking between ideas in a PKM system therefore produces insight that is genuinely non-deducible by any system without access to that personal context.
 
 ### Scope & Conditions
 
-Requires active, manual linking rather than passive accumulation. The distinction only holds where the value lies in *personal* rather than *general* insight. For factual retrieval or synthesis of widely-held knowledge, AI may be equivalent or superior. The unique value asserted here is specific to connection-making rooted in individual experience.
+Requires active, manual linking rather than passive accumulation. The distinction only holds where the value lies in _personal_ rather than _general_ insight. For factual retrieval or synthesis of widely-held knowledge, AI may be equivalent or superior. The unique value asserted here is specific to connection-making rooted in individual experience.
 
 ### Evidence
 
@@ -37,6 +24,6 @@ Requires active, manual linking rather than passive accumulation. The distinctio
 
 ### Related
 
-- [[Individual Interpretation Creates Different Knowledge from the Same Information]] — direct concept match: the same source information yields different knowledge depending on personal context; this atom gives the PKM-specific form of that claim.
-- [[Personal Context and Relevance are Key to Knowledge Formation]] — direct concept match: personal context is precisely the variable that determines whether information becomes actionable knowledge.
-- [[SoT - Human vs AI Cognition]] — shared mechanism: this atom's claim that AI cannot replicate personal-context insight directly mirrors the HvAI distinction between Grounded Cognition (human) and Distributional Semantics (AI); the AI operates on a closed loop of language without access to the user's experiential ground.
+- [[Individual Interpretation Creates Different Knowledge from the Same Information]]—direct concept match: the same source information yields different knowledge depending on personal context; this atom gives the PKM-specific form of that claim.
+- [[Personal Context and Relevance are Key to Knowledge Formation]]—direct concept match: personal context is precisely the variable that determines whether information becomes actionable knowledge.
+- [[SoT - Human vs AI Cognition]]—shared mechanism: this atom's claim that AI cannot replicate personal-context insight directly mirrors the HvAI distinction between Grounded Cognition (human) and Distributional Semantics (AI); the AI operates on a closed loop of language without access to the user's experiential ground.

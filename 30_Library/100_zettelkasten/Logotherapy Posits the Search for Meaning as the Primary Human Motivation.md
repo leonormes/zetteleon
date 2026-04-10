@@ -1,33 +1,21 @@
 ---
+created: 2026-04-10T00:00:00+00:00
+modified: 2026-04-10T16:52:03+00:00
+tags: [logotherapy, meaning, philosophy, psychology]
 title: Logotherapy Posits the Search for Meaning as the Primary Human Motivation
-created: "2026-04-10T13:00:00+00:00"
-modified: "2026-04-10T13:00:00+00:00"
-tags:
-  - psychology
-  - logotherapy
-  - meaning
-  - philosophy
-prodos:
-  kind: atomic
-  lifecycle: seedling
-  trust: high
-  atomic:
-    note_kind: definition
-    source_title: "I'm interested in learning about Viktor Frankl's philosophy"
-    source_url: "unknown"
 ---
 
 ## Logotherapy Posits the Search for Meaning as the Primary Human Motivation
 
-Logotherapy — from the Greek *logos* (meaning) — is Viktor Frankl's therapeutic approach centred on the premise that the primary human motivation is not pleasure (Freud) or power (Adler) but the search for meaning. When this search is frustrated, the result is an "existential vacuum": a state of boredom, apathy, and emptiness that manifests as psychological distress. Treatment therefore does not focus on symptom reduction but on purpose discovery.
+Logotherapy—from the Greek _logos_ (meaning)—is Viktor Frankl's therapeutic approach centred on the premise that the primary human motivation is not pleasure (Freud) or power (Adler) but the search for meaning. When this search is frustrated, the result is an "existential vacuum": a state of boredom, apathy, and emptiness that manifests as psychological distress. Treatment therefore does not focus on symptom reduction but on purpose discovery.
 
 ### Scope & Conditions
 
-Applies to psychological distress characterised by meaninglessness, purposelessness, or existential crisis. Not a general cure-all — distress with clear organic or situational causes may require other interventions. Most applicable where the presenting complaint is "I don't know why I'm doing this" rather than "I can't do this."
+Applies to psychological distress characterised by meaninglessness, purposelessness, or existential crisis. Not a general cure-all—distress with clear organic or situational causes may require other interventions. Most applicable where the presenting complaint is "I don't know why I'm doing this" rather than "I can't do this."
 
 ### Evidence
 
-> "Called logotherapy (from the Greek word *logos*, meaning 'meaning'), this therapeutic approach emerged from Frankl's… conviction that… the primary human motivation is… the search for meaning."
+> "Called logotherapy (from the Greek word _logos_, meaning 'meaning'), this therapeutic approach emerged from Frankl's… conviction that… the primary human motivation is… the search for meaning."
 
 ### Implications
 
@@ -36,6 +24,6 @@ Applies to psychological distress characterised by meaninglessness, purposelessn
 
 ### Related
 
-- [[SoT - Logotherapy and the Will to Meaning]] — direct concept match: the vault's canonical SoT on Frankl covers this definition and its three pillars in full.
-- [[SoT - Values and Eudaimonia]] — shared mechanism: both identify non-hedonic motivation (meaning / eudaimonia) as primary to sustained well-being, distinguishing it from the pleasure-seeking of the hedonic treadmill.
-- [[Nihilism vs Constructed Meaning]] — tension over whether meaning is discovered or constructed: logotherapy claims meaning is detectable in the world; nihilism denies inherent meaning; the therapeutic claim occupies the space between them.
+- [[SoT - Logotherapy and the Will to Meaning]]—direct concept match: the vault's canonical SoT on Frankl covers this definition and its three pillars in full.
+- [[SoT - Values and Eudaimonia]]—shared mechanism: both identify non-hedonic motivation (meaning / eudaimonia) as primary to sustained well-being, distinguishing it from the pleasure-seeking of the hedonic treadmill.
+- [[Nihilism vs Constructed Meaning]]—tension over whether meaning is discovered or constructed: logotherapy claims meaning is detectable in the world; nihilism denies inherent meaning; the therapeutic claim occupies the space between them.

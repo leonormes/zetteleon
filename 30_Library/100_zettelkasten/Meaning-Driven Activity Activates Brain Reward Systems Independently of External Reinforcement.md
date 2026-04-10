@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T00:00:00+00:00
-modified: 2026-04-10T15:08:33+00:00
+modified: 2026-04-10T16:52:03+00:00
 tags: [adhd, dopamine, motivation, neuroscience]
 title: Meaning-Driven Activity Activates Brain Reward Systems Independently of External Reinforcement
 ---

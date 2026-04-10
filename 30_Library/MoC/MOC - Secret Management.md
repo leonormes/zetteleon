@@ -1,6 +1,6 @@
 ---
 created: 2026-04-02T11:10:00+01:00
-modified: 2026-04-09T08:11:06+00:00
+modified: 2026-04-10T16:52:04+00:00
 status: active
 tags: [moc, secrets, security, vault]
 title: MOC - Secret Management

@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T00:00:00+00:00
-modified: 2026-04-10T15:12:53+00:00
+modified: 2026-04-10T16:52:03+00:00
 tags: [agency, freedom, mindset, resilience]
 title: Humans Retain Freedom to Choose Their Response to Any Situation Regardless of Circumstances
 ---

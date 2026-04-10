@@ -2,8 +2,7 @@
 aliases: [Cyberpunk Index, MOC - Cyberpunk]
 created: 2025-12-30T00:00:00Z
 last_reviewed: 2025-12-30
-modified: 2026-04-09T17:03:20+00:00
-prodos: {kind: atomic, lifecycle: seedling, trust: working, id: "", review: {interval: "", last_reviewed: ""}, chronos: {last_synthesis: "", synthesis_count: 0}, atomic: {form: concept}, protocol: {applies_to: [], binary_checklist: true}, moc: {hub_for: [], entry_points: []}, ops: {tool: "", target_service: "", hop_level: "", requires_tunnel: false, prerequisites: []}, prompt: {description: "", inject_as: "", model_hints: ""}, project: {area: "", status: "", owner: ""}}
+modified: 2026-04-10T16:52:04+00:00
 see_also: []
 status: active
 superseded_by: ""

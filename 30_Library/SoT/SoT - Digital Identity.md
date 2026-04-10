@@ -2,7 +2,7 @@
 aliases: ["Digital Identity Properties", "Human Identity", "Identity Fundamentals", "Machine Identity"]
 created: 2025-12-29T20:02:16+00:00
 last_reviewed: 
-modified: 2026-04-09T08:11:04+00:00
+modified: 2026-04-10T16:52:06+00:00
 status: "Active"
 tags: ["concepts", "iam", "SoftwareEngineering/Architecture", "SoftwareEngineering/Security", "TheHuman/Identity"]
 title: SoT - Digital Identity

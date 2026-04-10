@@ -2,7 +2,7 @@
 aliases: ["Distributed Version Control", "Git", "Version Control System"]
 created: 2025-12-13T00:00:00Z
 last_reviewed: "2025-12-13"
-modified: 2026-04-09T08:11:03+00:00
+modified: 2026-04-10T16:52:07+00:00
 review_interval: "6 months"
 see_also: ["[[SoT - Software Configuration Management Patterns]]"]
 source_of_truth: []

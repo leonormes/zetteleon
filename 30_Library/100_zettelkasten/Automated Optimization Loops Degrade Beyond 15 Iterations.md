@@ -1,29 +1,17 @@
 ---
+created: 2026-04-10T00:00:00+00:00
+modified: 2026-04-10T16:52:03+00:00
+tags: [iterations, optimization, quality-control, token-management]
 title: Automated Optimization Loops Degrade Beyond 15 Iterations
-created: "2026-04-10T11:00:00+00:00"
-modified: "2026-04-10T11:00:00+00:00"
-tags:
-  - optimization
-  - iterations
-  - token-management
-  - quality-control
-prodos:
-  kind: atomic
-  lifecycle: seedling
-  trust: high
-  atomic:
-    note_kind: heuristic
-    source_title: "How to set up and use the Auto Research framework"
-    source_url: "http://www.youtube.com/watch?v=bc4NrE0cOE0"
 ---
 
 ## Automated Optimization Loops Degrade Beyond 15 Iterations
 
-Effective automated optimization typically requires 5 to 10 iterations to converge on a quality result. Exceeding 15 iterations tends to degrade output quality and increase token costs without commensurate gain. The degradation likely reflects accumulated context drift — each iteration adds noise to the running context, and later passes optimize against a distorted signal rather than the original objective.
+Effective automated optimization typically requires 5 to 10 iterations to converge on a quality result. Exceeding 15 iterations tends to degrade output quality and increase token costs without commensurate gain. The degradation likely reflects accumulated context drift—each iteration adds noise to the running context, and later passes optimize against a distorted signal rather than the original objective.
 
 ### Scope & Conditions
 
-Applies when setting the loop count for recursive optimization tasks in agentic frameworks. The 5–10 / 15 heuristic is empirical guidance from a specific framework (Auto Research), not a universal law. The appropriate number may vary with task complexity and context window management strategies. The principle — that longer loops introduce diminishing returns and eventual quality regression — is the transferable insight.
+Applies when setting the loop count for recursive optimization tasks in agentic frameworks. The 5–10 / 15 heuristic is empirical guidance from a specific framework (Auto Research), not a universal law. The appropriate number may vary with task complexity and context window management strategies. The principle—that longer loops introduce diminishing returns and eventual quality regression—is the transferable insight.
 
 ### Evidence
 
@@ -36,8 +24,8 @@ Applies when setting the loop count for recursive optimization tasks in agentic 
 
 ### Related
 
-- [[SoT - Agentic AI Design Patterns]] — direct concept match: the "Reflection" pattern (iterative critic-refine loop) is the exact mechanism this heuristic governs; the atom provides a concrete bound for a pattern that the SoT describes structurally but does not constrain numerically.
-- [[Shrinking the Loop Gathers Experiential Feedback Safely]] — shared mechanism: both advocate for bounded, controlled iteration over unlimited looping; the contexts differ (cognitive/ADHD overthinking vs. automated optimization), but the structural insight — that loop size must be constrained to avoid compounding noise — is shared.
+- [[SoT - Agentic AI Design Patterns]]—direct concept match: the "Reflection" pattern (iterative critic-refine loop) is the exact mechanism this heuristic governs; the atom provides a concrete bound for a pattern that the SoT describes structurally but does not constrain numerically.
+- [[Shrinking the Loop Gathers Experiential Feedback Safely]]—shared mechanism: both advocate for bounded, controlled iteration over unlimited looping; the contexts differ (cognitive/ADHD overthinking vs. automated optimization), but the structural insight—that loop size must be constrained to avoid compounding noise—is shared.
 
 ### See Also
 

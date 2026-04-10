@@ -4,7 +4,7 @@ created: 2025-10-31T10:36:00Z
 criteria: "Focus on packet transformations through each device."
 exclusions: "Physical network devices."
 last_reviewed: ""
-modified: 2026-04-09T08:11:07+00:00
+modified: 2026-04-10T16:52:04+00:00
 scope: "Data-centric view of cloud networking devices."
 see_also: []
 status: ""

@@ -3,7 +3,7 @@ aliases: ["Data-Centric Programming", "Parse Don't Validate", "The Torvalds Loop
 created: 2025-12-29T10:28:01+00:00
 last_reviewed: "2026-04-04"
 last_synthesis: 2026-04-04
-modified: 2026-04-09T08:11:01+00:00
+modified: 2026-04-10T16:52:10+00:00
 source_of_truth: true
 status: "stable"
 synthesis-count: 2

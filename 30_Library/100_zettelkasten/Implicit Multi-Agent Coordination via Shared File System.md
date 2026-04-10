@@ -1,20 +1,8 @@
 ---
-title: Implicit Multi-Agent Coordination via Shared File System
 created: 2026-04-10T12:00:00+00:00
-modified: 2026-04-10T12:00:00+00:00
-tags:
-  - multi-agent-systems
-  - coordination
-  - file-system
-  - determinism
-prodos:
-  kind: atomic
-  lifecycle: seedling
-  trust: high
-  atomic:
-    note_kind: mechanism
-    source_title: "SuperIntelligence: Why the Future of AI is a File System (CORAL)"
-    source_url: "http://www.youtube.com/watch?v=7n5EVMtYA4I"
+modified: 2026-04-10T16:52:03+00:00
+tags: [coordination, determinism, file-system, multi-agent-systems]
+title: Implicit Multi-Agent Coordination via Shared File System
 ---
 
 ## Implicit Multi-Agent Coordination via Shared File System
@@ -23,7 +11,7 @@ In the CORAL framework, global coordination between parallel autonomous agents i
 
 ### Scope & Conditions
 
-Demonstrated with 4–8 homogeneous agents running in parallel Git workspaces. The approach is deterministic rather than probabilistic — the file system provides an immutable audit trail of every agent action and hypothesis. Does not address conflict resolution when two agents write the same file simultaneously.
+Demonstrated with 4–8 homogeneous agents running in parallel Git workspaces. The approach is deterministic rather than probabilistic—the file system provides an immutable audit trail of every agent action and hypothesis. Does not address conflict resolution when two agents write the same file simultaneously.
 
 ### Evidence
 
@@ -36,5 +24,5 @@ Demonstrated with 4–8 homogeneous agents running in parallel Git workspaces. T
 
 ### Related
 
-- [[Virtual File System for Agent Concurrency]] — direct concept match: the CORAL shared directory and the virtual file system pattern both use a filesystem abstraction as the coordination primitive for concurrent agents; CORAL uses a real hierarchical directory on disk rather than an in-memory dict, but the architectural role is identical.
-- [[SoT - Agentic AI Design Patterns]] — extends: implements the "Multi-Agent Collaboration" and "Inter-Agent Communication" patterns from the taxonomy but replaces structured message-passing protocols with passive shared-state reads and writes.
+- [[Virtual File System for Agent Concurrency]]—direct concept match: the CORAL shared directory and the virtual file system pattern both use a filesystem abstraction as the coordination primitive for concurrent agents; CORAL uses a real hierarchical directory on disk rather than an in-memory dict, but the architectural role is identical.
+- [[SoT - Agentic AI Design Patterns]]—extends: implements the "Multi-Agent Collaboration" and "Inter-Agent Communication" patterns from the taxonomy but replaces structured message-passing protocols with passive shared-state reads and writes.

@@ -2,7 +2,7 @@
 aliases: ["Automation as Behavior", "Externalizing Cognition", "Point of Performance Engineering", "Prosthetic Executive Function"]
 created: 2026-01-12T12:25:00+00:00
 last-synthesis: 2026-04-04
-modified: 2026-04-09T08:11:02+00:00
+modified: 2026-04-10T16:52:09+00:00
 status: "stable"
 synthesis-count: 2
 tags: ["adhd", "behavior-change", "prodos/sot", "systems-engineering"]

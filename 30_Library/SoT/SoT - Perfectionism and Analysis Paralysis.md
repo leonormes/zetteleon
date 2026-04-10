@@ -2,7 +2,7 @@
 aliases: ["Analysis Paralysis", "Fear of Failure", "The Perfectionism Trap"]
 created: 2025-10-28T00:00:00Z
 last_reviewed: "2025-12-22"
-modified: 2026-04-09T08:11:02+00:00
+modified: 2026-04-10T16:52:08+00:00
 see_also: []
 status: "stable"
 superseded_by: ""

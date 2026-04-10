@@ -2,7 +2,7 @@
 aliases: ["ADHD Master Map", "Neurodiversity Hub", "The ADHD Entry Point"]
 created: 2026-04-02T14:00:00+00:00
 last_synthesis: 2026-04-02
-modified: 2026-04-09T08:11:07+00:00
+modified: 2026-04-10T16:52:04+00:00
 see_also: []
 source_of_truth: true
 status: evergreen
