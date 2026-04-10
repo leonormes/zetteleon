@@ -1,11 +1,17 @@
 ---
+aliases: []
 captured_utc: "2026-04-09T10:18:52+01:00"
 created: 2026-04-09T09:54:34+00:00
-modified: 2026-04-09T10:01:46+00:00
+modified: 2026-04-09T20:40:00+00:00
+prodos: {kind: atomic, lifecycle: seedling, trust: working, id: "", review: {interval: "", last_reviewed: ""}, chronos: {last_synthesis: "", synthesis_count: 0}, atomic: {form: concept}, protocol: {applies_to: [], binary_checklist: true}, moc: {hub_for: [], entry_points: []}, ops: {tool: "", target_service: "", hop_level: "", requires_tunnel: false, prerequisites: []}, prompt: {description: "", inject_as: "", model_hints: ""}, project: {area: "", status: "", owner: ""}}
+see_also: []
 signal_to_noise: "85% signal / 15% noise"
 source_title: "Rules For Deep Work — Updated for 2026"
 source_url: "https://youtube.com/watch?v=nPzFhkTe2Uw&si=xDrfeIHzf-KGMgyI"
 status: tmp
+superseded_by: ""
+supersedes: ""
+tags: []
 title: tmp_atoms_deep_work_2026
 type: tmp_atoms
 ---
