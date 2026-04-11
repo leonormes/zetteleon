@@ -11,5 +11,3 @@ updated:
 ---
 
 Track measurable metrics like weekly objectives completion rate, adherence to daily planning/shutdown rituals, LLM research sessions processed, subjective feelings of control/creativity, and ideas shared/used from PKM to provide concrete evidence of progress and combat negative self-image.
-
-[[ADHD Productivity Differences]]

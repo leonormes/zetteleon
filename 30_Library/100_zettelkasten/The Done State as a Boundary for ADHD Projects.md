@@ -11,5 +11,3 @@ updated:
 ---
 
 For an ADHD-friendly system, the non-negotiable upfront planning is defining the concrete, successful "done" state for a project, which acts as a boundary and reduces stress. An example is changing a vague outcome like "get my head around CNI usage" to a concrete "A two-page comparison document of CNI options".
-
-[[ADHD Productivity Differences]]

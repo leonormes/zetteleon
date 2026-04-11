@@ -12,6 +12,4 @@ updated:
 
 When allocating time for tasks, a common recommendation for individuals with ADHD is to triple the initial estimate to account for time blindness, as overestimating is better than underestimating.
 
-[[ADHD Productivity Differences]]
-
 [[The Done State as a Boundary for ADHD Projects]]

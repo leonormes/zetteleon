@@ -25,7 +25,7 @@ This knowledge is fundamental to [[Cross-Cultural Communication Effectiveness]],
 
 ## Broader Language Context
 
-- [[MOC - Thought and Language Gap]] - The universal challenge of expressing meaning across cultures
+- [[MOC - The Gap Between Thought and Language]] - The universal challenge of expressing meaning across cultures
 - [[Qualia and Linguistic Limitations]] - Subjective experiences that resist cultural translation
 - [[Human Connection Beyond Language]] - Non-verbal and universal aspects of communication
 - [[The Word-as-Shadow Metaphor in Philosophy]] - How cultural context shapes the "shadows" words cast

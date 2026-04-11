@@ -11,5 +11,3 @@ updated:
 ---
 
 Non-negotiable scheduling of short 5-10 minute breaks between timeboxes and 30-minute buffer blocks for unexpected issues is crucial for ADHD.
-
-[[ADHD Productivity Differences]]

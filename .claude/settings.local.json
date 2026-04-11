@@ -16,5 +16,6 @@
       "mcp__mcp-proxy__call_tool",
       "Bash(ls:*)"
     ]
-  }
+  },
+  "spinnerTipsEnabled": false
 }

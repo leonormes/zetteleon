@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-20T10:03:00Z
 last_reviewed: ""
-modified: 2026-02-01T15:08:36+00:00
+modified: 2026-04-10T18:53:13+00:00
 status: ""
 tags: ["biology", "emotion", "evolution", "topic/systems"]
 title: Chemotaxis as a Primitive Precursor to Emotion
@@ -23,5 +23,3 @@ Chemotaxis in a bacterium follows the exact same logic:
 This purely biochemical sense-evaluate-actuate loop is the ancient, foundational logic upon which the far more complex, neurologically rich system of emotions was built over hundreds of millions of years of evolution. It is the most basic form of a system that links perception to survival-oriented action.
 
 ---
-
-Links: [[Mental Models MOC]]

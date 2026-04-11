@@ -11,5 +11,3 @@ updated:
 ---
 
 To minimize distractions during a time-boxed session, use a "catch-all list" or "distraction pad" to quickly jot down intrusive thoughts and return focus to the task.
-
-[[ADHD Productivity Differences]]

@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-04-10T16:52:03+00:00
+modified: 2026-04-10T18:10:06+00:00
 tags: [ai, cognitive-fitness, professional-development, writing]
 title: Outsourcing Writing to AI Bypasses the Cognitive Strain That Builds Professional Competence
 ---

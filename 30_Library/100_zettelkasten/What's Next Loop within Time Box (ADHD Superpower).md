@@ -11,5 +11,3 @@ updated:
 ---
 
 During a "Deep Dive" time block, leverage the ADHD "superpower" by continuously asking "What's the very next physical action to move towards my 'Done' state?" and doing it just-in-time. This incorporates brainstorming and organizing on the fly.
-
-[[ADHD Productivity Differences]]

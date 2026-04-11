@@ -35,6 +35,6 @@ Understanding the nature of pre-linguistic thought provides valuable insights in
 
 ## Links
 
-- [[MOC - Thought and Language Gap]]
+- [[MOC - The Gap Between Thought and Language]]
 - [[Pre-Linguistic Thought]]
 - [[Code Frame Switching]]

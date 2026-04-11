@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-30T16:26:00Z
 last_reviewed: ""
-modified: 2026-02-01T15:08:34+00:00
+modified: 2026-04-10T18:55:03+00:00
 source: "[[MOC - Why Autistics and ADHDers NEED Routines]]"
 status: "seedling"
 tags: ["burnout-prevention", "rest", "self-care"]
@@ -16,4 +16,3 @@ Scheduling downtime as a non-negotiable part of routines prevents burnout in neu
 ## Related
 
 - [[Overwhelm]]
-- [[The Shame-Procrastination Cycle]]

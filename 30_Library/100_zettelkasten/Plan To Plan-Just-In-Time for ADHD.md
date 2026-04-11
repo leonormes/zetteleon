@@ -11,5 +11,3 @@ updated:
 ---
 
 The key mindset shift for ADHD productivity is not to plan all steps in advance, but to "plan to plan—just-in-time". This adapts GTD principles to allow for intuitive, meandering workflow while providing structure.
-
-[[ADHD Productivity Differences]]

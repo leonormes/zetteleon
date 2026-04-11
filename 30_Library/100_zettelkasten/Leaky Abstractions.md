@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-29T15:13:40Z
 last_reviewed: ""
-modified: 2026-02-01T15:08:31+00:00
+modified: 2026-04-10T18:52:03+00:00
 status: ""
 tags: []
 title: Leaky Abstractions
@@ -18,4 +18,4 @@ Mental models often function as personal abstractions that work until they leak.
 
 Links: [[The Map is Not the Territory]]
 
-[[Bug in the model]]
+

@@ -11,5 +11,3 @@ updated:
 ---
 
 Implement a hard stop and a two-minute "Exit Ritual" when a time-boxed session ends. This involves defining the re-entry point (the very next physical action for next time) and acknowledging progress made in the session.
-
-[[ADHD Productivity Differences]]

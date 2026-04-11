@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-29T15:17:54Z
 last_reviewed: "null"
-modified: 2026-02-01T15:08:28+00:00
+modified: 2026-04-10T18:52:05+00:00
 status: "null"
 tags: ["analogy", "history", "science", "TheHuman/Cognition/mental-model"]
 title: Ptolemaic System as a Patched Flawed Model
@@ -16,4 +16,4 @@ For 1,500 years, instead of questioning this foundation, astronomers "patched" t
 
 Links: [[Flawed Mental Models Limit Mastery]]
 
-[[Bug in the model]]
+

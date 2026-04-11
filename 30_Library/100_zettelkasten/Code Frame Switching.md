@@ -37,6 +37,6 @@ Code frame switching refers to the phenomenon where bilingual individuals switch
 
 ## Links
 
-- [[MOC - Thought and Language Gap]]
+- [[MOC - The Gap Between Thought and Language]]
 - [[Cross-Cultural Communication Effectiveness]]
 - [[Language Acquisition and Development]]

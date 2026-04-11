@@ -42,5 +42,3 @@ updated:
 - _(Log daily results here: e.g., "Mon: Success. Tue: Failed, distraction.")_
 
 ---
-
-[[ADHD Productivity Differences]]
