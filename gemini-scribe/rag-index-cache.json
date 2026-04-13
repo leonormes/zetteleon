@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "storeName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-  "lastSync": 1776070606959,
+  "lastSync": 1776084220080,
   "files": {
     "assets/cropped_PXL_20250518_165827884.PORTRAIT.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2180,8 +2180,8 @@
     },
     "30_Library/ops/Deployments/HIE.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "f5bd8d79b89d4537f333178ef070596b2f1968031df6919cc300267c174dbe9f",
-      "lastIndexed": 1775722386685
+      "contentHash": "f5896c31ae6be59a9a73b7123b9a903be197f6a00e30f0db23d6cb298b753d19",
+      "lastIndexed": 1776084220080
     },
     "00_Inbox/changelog.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -8708,11 +8708,6 @@
       "contentHash": "c4e9b463d1dd9189a64e5b1351e52b2bf1ab96f28cb2beca49c7397a415ae50d",
       "lastIndexed": 1775723061223
     },
-    "20_Thinking/21_Workbench/HEAD You said we use azure entra for our identity withi....md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "909d4068db501f5ee1f8be4115a1b4a43cd2c21087cfbe561132a0a268bc48a5",
-      "lastIndexed": 1775723047077
-    },
     "CLAUDE.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "7adabbf0bf41bd876ac414276db9f0357d82da3b98e0b6592f5d4f66791b7c20",
@@ -8732,16 +8727,6 @@
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "0d4f598eed5834c34bc3f1f015fd6a0a88b3eff8e0aaa83effe937011f46fee5",
       "lastIndexed": 1775722532547
-    },
-    "20_Thinking/21_Workbench/HEAD - 2026-04-06 1832.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "c2cd66ac75ef08dd91090c7ea698d241e2685cc5a3c25d30a81dcb9650f0769d",
-      "lastIndexed": 1775723073692
-    },
-    "20_Thinking/21_Workbench/HEAD You said Persona You are an expert research analy....md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "54d0a79c7445ee36e930bb894203a28424554697bf9dab80d45e4625c3824493",
-      "lastIndexed": 1775723050789
     },
     "20_Thinking/21_Workbench/HEAD You said Persona You are an expert research analy... 1.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -8763,20 +8748,10 @@
       "contentHash": "b7149e750b0d8dd96b9c839341f5045a5a63d1af09d573eca29694c99a0074de",
       "lastIndexed": 1775648708771
     },
-    "20_Thinking/21_Workbench/HEAD Thinking about knowledge.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "5530688a0ab7f4ebf117797148f8408c2173e70e6a002f82685cd81055142f62",
-      "lastIndexed": 1775723063798
-    },
     "01_journals/Dailies/2026-04-08.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "d635e4eab6acf7ed10fe9858bf9ba0a69431d9e153769df0ef808e78991beb09",
       "lastIndexed": 1775723149302
-    },
-    "20_Thinking/21_Workbench/HEAD - Why PKM in this day and age.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "8021bff6dbda876ec94169760a05a7ce4446b80481d2068c5a1964c4e63a0927",
-      "lastIndexed": 1775723070029
     },
     "10_System/prompts/Principal Vault Triage Architect.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -8788,11 +8763,6 @@
       "contentHash": "0da1f5e8288d3c22f83bd9c20e0add5d80d2290107de054defefeaa88eea8e6c",
       "lastIndexed": 1775654569325
     },
-    "20_Thinking/21_Workbench/HEAD You said Persona You are an expert research analy... 3.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "9bd31feea0e4e81120ca7e4f1d7dddf48f4f12b923fe84ffd83f5bbbec517444",
-      "lastIndexed": 1775723053618
-    },
     "00_Inbox/ProdOS System Overview and Development Progress.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "6953c8f4d26cc7cb41eed9423ccc68c4d348986ae8734e8dbbd4fe8272ca02c4",
@@ -8802,11 +8772,6 @@
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "4cf73afbf425ac5a4970acbb39771b2c552cc941e18545fcfd24db5aa506abe5",
       "lastIndexed": 1775723043839
-    },
-    "20_Thinking/21_Workbench/HEAD From Chaos to Choreography.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "193f9f11b686dd07748a576aaf9df2644cc24a7be9bcc454e914588b8ece1cf4",
-      "lastIndexed": 1775723066921
     },
     "30_Library/SoT/SoT - Bridging the Intention-Action Gap.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -9035,33 +9000,83 @@
     },
     "01_journals/Dailies/2026-04-13.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "4ad25d8fcb3316df66970b6af14eeaff8dc5522aec963a5cf106e5a0d91c15b4",
-      "lastIndexed": 1776067155101
+      "contentHash": "8512a8a8846ab3f464700e4005e28c9a6cf240ff82079c75baaac3c8b0d2f834",
+      "lastIndexed": 1776075687725
     },
-    "20_Thinking/21_Workbench/HEAD Authentication Methods and Concepts.md": {
+    "00_Inbox/Distributed OMOP Data Generation with Azure Batch.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "6d339c3397f56acb9bd35a39fda0c579d7dd66e913422f4e97090c4fedd62e5d",
-      "lastIndexed": 1776068318260
+      "contentHash": "32b759af25930804f5274d6463ad866dd091306dccd5301362824a336799c4dd",
+      "lastIndexed": 1776076239196
     },
-    "20_Thinking/21_Workbench/HEAD he Roadmap to Calculus I Wish I Had.md": {
+    "00_Inbox/tmp_atoms_harness_engineering.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "11c52e9d79178eb818a75a4e4fecaff8b83e19744fee8680490c72d47977cc7b",
-      "lastIndexed": 1776069703497
+      "contentHash": "c12fdf597e9942d1bad55809c41a337273d0c3815fac1d110724ec75ff26aae5",
+      "lastIndexed": 1776076254046
     },
-    "20_Thinking/21_Workbench/HEAD harness engineering.md": {
+    "00_Inbox/tmp_atoms_calculus_roadmap.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "b220968f35033bf13a095836fb5779b456f9c1a1e7d322b6922a5a2edc6a179d",
-      "lastIndexed": 1776069750481
+      "contentHash": "be55d314ebdf7ab61f1c476d0a37dc8338794274caec72d4937bbd1e22ddbe98",
+      "lastIndexed": 1776076312679
     },
-    "00_Inbox/pieces_copilot_message_export_april_13_2026_9_56am.md": {
+    "00_Inbox/tmp_atoms_auth_methods.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "52b5095ee0f12fb6a78cf4f0897b58dcd55f81960b35cb4d463d4bc6217fc36c",
-      "lastIndexed": 1776070583607
+      "contentHash": "168107ffa1797d5514caa5a0e3879543e5558ec16b39c90e46751fd7ad174c4c",
+      "lastIndexed": 1776076569829
     },
-    "00_Inbox/azure_batch_worker_plan_057cedb3.plan.md": {
+    "00_Inbox/tmp_atoms_agent_first_workflow.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "a36d390d940addabb3aed336fcb334e9c1b0d5c8f89d49ac3d690665b9692e77",
-      "lastIndexed": 1776070606959
+      "contentHash": "4b7541809a6fea59ebd43c1ac26d6bac0e75c13e6f64d9bc4fad45c0fd289555",
+      "lastIndexed": 1776076637112
+    },
+    "00_Inbox/tmp_atoms_cue_type_system.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "227edd596ebb6ed829b31105daf55a61e2614fa1f7487585f5ad62ac9cf177bf",
+      "lastIndexed": 1776076720927
+    },
+    "00_Inbox/tmp_atoms_agentic_engineering.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "6f755df0649c95e8308fa848760f86f5ce20f39723369ed68dfb2411828b6c5b",
+      "lastIndexed": 1776076823179
+    },
+    "00_Inbox/tmp_atoms_productivity_paradox.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "637daa557223a50caf17a5d86a125b45fe3a154e7e4398e4ecd53b1c5b803ca6",
+      "lastIndexed": 1776076882449
+    },
+    "00_Inbox/tmp_atoms_jeremy_howard_interview.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "d3b8c16b60b34ef788f4fe1a7b261ad62818c664025ce3c7f4993f706d3c8e67",
+      "lastIndexed": 1776076932797
+    },
+    "00_Inbox/tmp_atoms_thinking_about_knowledge.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "a8b2756b31af854e2e3bfd12f6563d49468dcdfd893b5d4d62c3fa32ce1b660f",
+      "lastIndexed": 1776077007443
+    },
+    "00_Inbox/tmp_atoms_auto_research_framework.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "7cae334b3ec8724cade680c07dcb254cadeef0d48373a4156c04a23543e71a67",
+      "lastIndexed": 1776077546662
+    },
+    "00_Inbox/tmp_atoms_entra_iam_remediation.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "5f8d78cff3677498edbf54c2b555040210f3d81a9175ab34da429b1a90bda3f4",
+      "lastIndexed": 1776077792630
+    },
+    "00_Inbox/tmp_atoms_ai_agent_architecture.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "c38e325f30f7b9b8534dc41004df3a66da8bc469377785731b7719fb05bbb470",
+      "lastIndexed": 1776077938816
+    },
+    "00_Inbox/tmp_atoms_fowler_beck_reinventing_software.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "17deafd83a604b036e809b3284706f4f955135a73090382840409126b06c66c9",
+      "lastIndexed": 1776077985688
+    },
+    "00_Inbox/tmp_atoms_llm_wiki_persistent_knowledge.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "b6a76d847079e674e24f72b0bc58a1aa8451b425762ccf24ac99169310b5928f",
+      "lastIndexed": 1776078049755
     }
   },
   "indexingInProgress": false,

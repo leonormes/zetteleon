@@ -1,18 +1,18 @@
 [
   {
-    "icon": "book-open",
-    "text": "Synthesise the Zettelkasten notes on Instrumentalism vs Realism and Effective Theories to explain how these philosophical frameworks apply to software abstractions and leaky abstractions"
+    "icon": "search",
+    "text": "Search the Inbox for the data-first customer IaC plans and the azure batch worker plan to create a unified technical requirements document in the Workbench"
   },
   {
-    "icon": "file-plus",
-    "text": "Draft a new HEAD note in the Workbench titled 'HEAD - Implementing Exit Rituals for ADHD Time Boxes' by combining insights from the distraction management and downtime scheduling notes"
+    "icon": "calendar",
+    "text": "Extract action items from my Dailies over the last week and cross-reference them with the ADHD Master Map to suggest dopamine-leveraged scheduling improvements"
+  },
+  {
+    "icon": "folder-tree",
+    "text": "Organise the scattered technical protocols in the ops folder into a structured Sources of Truth hierarchy for Linux Networking and hybrid debugging"
   },
   {
     "icon": "sparkles",
-    "text": "Analyze the Research-to-Action Protocol and provide a structured sequence for applying MVC Enforcement Structural Gates to my current Agentic Engineering and AI workflows"
-  },
-  {
-    "icon": "search",
-    "text": "Review my recent Dailies and Workbench drafts for updates on the Legacy-to-CUE Migration Strategy and suggest revisions to the existing protocol based on my progress"
+    "text": "Analyse the Zettelkasten notes on Chemotaxis and emotion to draft a speculative note exploring the biological origins of affective states"
   }
 ]
