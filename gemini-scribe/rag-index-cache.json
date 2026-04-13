@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "storeName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-  "lastSync": 1775723169294,
+  "lastSync": 1776067155101,
   "files": {
     "assets/cropped_PXL_20250518_165827884.PORTRAIT.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -6643,11 +6643,6 @@
       "contentHash": "91ca2eae7411e0647a8ea0a51418a0e0d4e5d2980625e46d1d28ac9ec0b7b8eb",
       "lastIndexed": 1775486549384
     },
-    "30_Library/100_zettelkasten/Exit Ritual For ADHD Time Boxes.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "58fa887da0a6f9301b3f69abfddf34e785361a419dbb6ef40c257d204f3da23a",
-      "lastIndexed": 1775486549597
-    },
     "30_Library/100_zettelkasten/Explaining to Others Enhances One's Own Learning.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "7de5e630c7bd87630ea33e52f70f349a4d41c6d837043b13d6e048d2b2d90a3b",
@@ -8977,6 +8972,71 @@
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "71dd067c3c828bbdf8f09bb9ce8d7559d7678e5ce9d76917d758ab14ee30c999",
       "lastIndexed": 1775722818755
+    },
+    "01_journals/Dailies/2026-04-11.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "d995d7fa6e68f2ecc2070fa21b192fbd8bf9358b815760c2be165e660b3570f4",
+      "lastIndexed": 1775896845956
+    },
+    "00_Inbox/Additions to the Data-First Customer IaC Plan.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "dbab6a1a1901e27ee8e2fbbe4852d402512f7a8e666e2ad2a7e3c5d33f772da9",
+      "lastIndexed": 1775897352431
+    },
+    "00_Inbox/Additions to the Data-First Customer IaC Plan2.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "215c7ae4243f3a5bb7da5fa1b352a803371ef70c1e96b7e997fddb5e177af02d",
+      "lastIndexed": 1775897607297
+    },
+    "00_Inbox/data_vs_implementation_split_600a7736.plan.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "f244d2b2f27d141799d915ea2e95e7db6595af88e8a95e37c6f2260823962fe5",
+      "lastIndexed": 1775897626825
+    },
+    "01_journals/Dailies/2026-04-12.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "c144a285360d6debcbce1be45e7020422775678e1de3e7ba276f0d21427bf70d",
+      "lastIndexed": 1775986810683
+    },
+    "00_Inbox/Readwise/Full Document Contents/GitHub - YesYouKenSpacezellij-smart-tabs · GitHub.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "170e5b3772b64d94348772d252194703ac57d5f373413040409aa956aaf767f0",
+      "lastIndexed": 1776004873483
+    },
+    "30_Library/400_indexes/_link_report_deep_work_2026.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "82cf4c733527400cb20b178a3768aee31f6e027aa9c713a1ad37cd4ad58017be",
+      "lastIndexed": 1776063865535
+    },
+    "30_Library/400_indexes/_link_report_ai_and_second_brain.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "0b2914374e4f9513361f05b42d58e0f1bd478e8b26632dfd8399baf240a08e52",
+      "lastIndexed": 1776063869089
+    },
+    "30_Library/400_indexes/_link_report_analytical_exploration_of_evil.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "68cdba40b154feb9b55045baf03d7801fbf4a11b4a4f314b5674927c38111293",
+      "lastIndexed": 1776063872763
+    },
+    "30_Library/400_indexes/_link_report_qdrant.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "1c38fa3a4e30661e58abd6b17d084480f16e9f5b15dec6b53b20014409a7b039",
+      "lastIndexed": 1776063876286
+    },
+    "30_Library/400_indexes/_link_report_terminal_dev_and_mcp.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "df04021519667e25a86b8ed19d13de0ebe5727470ff08f0ac3e8b33f13a3d2ec",
+      "lastIndexed": 1776063879890
+    },
+    "30_Library/400_indexes/_link_report_karpathy_interview.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "ded6e89147f2f634edab6f26eb3753168fec6708c292872975daf131551c8ba5",
+      "lastIndexed": 1776063883796
+    },
+    "01_journals/Dailies/2026-04-13.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "4ad25d8fcb3316df66970b6af14eeaff8dc5522aec963a5cf106e5a0d91c15b4",
+      "lastIndexed": 1776067155101
     }
   },
   "indexingInProgress": false,

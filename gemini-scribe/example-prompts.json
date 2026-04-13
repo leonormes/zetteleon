@@ -1,18 +1,18 @@
 [
   {
-    "icon": "search",
-    "text": "Search my Zettelkasten and ADHD Experiments MOC to find all notes regarding dopamine-leveraged productivity and summarise the core protocols"
+    "icon": "book-open",
+    "text": "Synthesise the Zettelkasten notes on Instrumentalism vs Realism and Effective Theories to explain how these philosophical frameworks apply to software abstractions and leaky abstractions"
   },
   {
     "icon": "file-plus",
-    "text": "Draft a new HEAD note in the Workbench applying Miyamoto Musashi's philosophy on mastering emotions to current engineering challenges"
+    "text": "Draft a new HEAD note in the Workbench titled 'HEAD - Implementing Exit Rituals for ADHD Time Boxes' by combining insights from the distraction management and downtime scheduling notes"
   },
   {
-    "icon": "globe",
-    "text": "Research the relationship between mount namespaces and the Container Networking Model to expand my Linux Container Primitives notes"
+    "icon": "sparkles",
+    "text": "Analyze the Research-to-Action Protocol and provide a structured sequence for applying MVC Enforcement Structural Gates to my current Agentic Engineering and AI workflows"
   },
   {
-    "icon": "folder-tree",
-    "text": "Analyze the Type Theory Curriculum project and suggest a sequence for atomic notes in the Zettelkasten to build a foundational understanding of formal systems"
+    "icon": "search",
+    "text": "Review my recent Dailies and Workbench drafts for updates on the Legacy-to-CUE Migration Strategy and suggest revisions to the existing protocol based on my progress"
   }
 ]
