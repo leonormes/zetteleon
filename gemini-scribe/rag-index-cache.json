@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "storeName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-  "lastSync": 1776084220080,
+  "lastSync": 1776085311174,
   "files": {
     "assets/cropped_PXL_20250518_165827884.PORTRAIT.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2180,8 +2180,8 @@
     },
     "30_Library/ops/Deployments/HIE.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "f5896c31ae6be59a9a73b7123b9a903be197f6a00e30f0db23d6cb298b753d19",
-      "lastIndexed": 1776084220080
+      "contentHash": "b83f260c18c8871c03223bc4af2b8a7d38156899c8f53485dcc73dfc75608ac8",
+      "lastIndexed": 1776084223229
     },
     "00_Inbox/changelog.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -9077,6 +9077,16 @@
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "b6a76d847079e674e24f72b0bc58a1aa8451b425762ccf24ac99169310b5928f",
       "lastIndexed": 1776078049755
+    },
+    "00_Inbox/pieces_copilot_message_export_april_13_2026_1_54pm.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "c228bab87a35260f3ceeb9c417defa472e2b0697d76e2ee0fcfc1ec4ecaec642",
+      "lastIndexed": 1776084877140
+    },
+    "00_Inbox/pieces_copilot_message_export_april_13_2026_2_01pm.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "7e8667de31a7e8cd429d238df90c771462903b62dc93192c1583f5f2d43b7f8f",
+      "lastIndexed": 1776085311174
     }
   },
   "indexingInProgress": false,
