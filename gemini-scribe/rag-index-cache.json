@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "storeName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-  "lastSync": 1776067155101,
+  "lastSync": 1776070606959,
   "files": {
     "assets/cropped_PXL_20250518_165827884.PORTRAIT.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -9037,6 +9037,31 @@
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "4ad25d8fcb3316df66970b6af14eeaff8dc5522aec963a5cf106e5a0d91c15b4",
       "lastIndexed": 1776067155101
+    },
+    "20_Thinking/21_Workbench/HEAD Authentication Methods and Concepts.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "6d339c3397f56acb9bd35a39fda0c579d7dd66e913422f4e97090c4fedd62e5d",
+      "lastIndexed": 1776068318260
+    },
+    "20_Thinking/21_Workbench/HEAD he Roadmap to Calculus I Wish I Had.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "11c52e9d79178eb818a75a4e4fecaff8b83e19744fee8680490c72d47977cc7b",
+      "lastIndexed": 1776069703497
+    },
+    "20_Thinking/21_Workbench/HEAD harness engineering.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "b220968f35033bf13a095836fb5779b456f9c1a1e7d322b6922a5a2edc6a179d",
+      "lastIndexed": 1776069750481
+    },
+    "00_Inbox/pieces_copilot_message_export_april_13_2026_9_56am.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "52b5095ee0f12fb6a78cf4f0897b58dcd55f81960b35cb4d463d4bc6217fc36c",
+      "lastIndexed": 1776070583607
+    },
+    "00_Inbox/azure_batch_worker_plan_057cedb3.plan.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "a36d390d940addabb3aed336fcb334e9c1b0d5c8f89d49ac3d690665b9692e77",
+      "lastIndexed": 1776070606959
     }
   },
   "indexingInProgress": false,
