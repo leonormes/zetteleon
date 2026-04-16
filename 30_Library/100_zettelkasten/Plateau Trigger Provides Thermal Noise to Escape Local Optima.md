@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T12:00:00+00:00
-modified: 2026-04-10T16:52:03+00:00
+modified: 2026-04-16T11:56:01+00:00
 tags: [exploration, heuristics, optimization, problem-solving]
 title: Plateau Trigger Provides Thermal Noise to Escape Local Optima
 ---

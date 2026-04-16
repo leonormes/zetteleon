@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-04-10T16:52:03+00:00
+modified: 2026-04-16T11:56:02+00:00
 tags: [addiction, digital-minimalism, dopamine, social-media]
 title: Social Media Now Requires a Sobriety Approach Rather Than a Craftsman Approach
 ---

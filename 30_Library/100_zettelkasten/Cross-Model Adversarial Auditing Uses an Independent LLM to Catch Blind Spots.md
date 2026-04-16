@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-04-10T16:52:03+00:00
+modified: 2026-04-16T11:55:59+00:00
 tags: [adversarial-review, development, llm-auditing, multi-model-workflows]
 title: Cross-Model Adversarial Auditing Uses an Independent LLM to Catch Blind Spots
 ---

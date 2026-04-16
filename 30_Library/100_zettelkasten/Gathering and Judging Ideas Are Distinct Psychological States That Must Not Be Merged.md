@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T00:00:00+00:00
-modified: 2026-04-10T16:52:03+00:00
+modified: 2026-04-16T11:56:00+00:00
 tags: [cognition, gtd, psychology, workflow]
 title: Gathering and Judging Ideas Are Distinct Psychological States That Must Not Be Merged
 ---

@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-29T15:16:19Z
 last_reviewed: "null"
-modified: 2026-04-10T18:52:01+00:00
+modified: 2026-04-16T11:56:00+00:00
 status: "null"
 tags: ["philosophy-of-science", "TheHuman/Cognition/mental-model"]
 title: Instrumentalism vs Realism in Understanding
@@ -16,8 +16,6 @@ This distinction from the philosophy of science describes two views on theories 
 - Realism: Believes a theory aims to be a true description of the underlying reality. The goal is to understand the actual mechanics of a system.
   A person with a flawed but functional mental model is stuck in an instrumentalist phase. Their model is just a tool to get the right output. Progress requires moving towards a realist view, seeking to understand how the system truly works.
   Links: [[Flawed Mental Models Limit Mastery]]
-
-
 
 ## Instrumentalism Vs Realism in Understanding
 

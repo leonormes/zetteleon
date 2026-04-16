@@ -1,7 +1,7 @@
 ---
 aliases: ["Sprint Journaling"]
 created: 2025-10-30T12:10:03Z
-modified: 2026-04-10T18:52:29+00:00
+modified: 2026-04-16T11:56:02+00:00
 source: "[[MOC - Daily Writing for Clarity and ADHD-Friendly Techniques]]"
 status: "seedling"
 tags: ["TheHuman/Health/ADHD", "time-management", "topic/productivity", "writing"]

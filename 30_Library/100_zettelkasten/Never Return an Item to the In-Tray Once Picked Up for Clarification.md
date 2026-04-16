@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T00:00:00+00:00
-modified: 2026-04-10T16:52:03+00:00
+modified: 2026-04-16T11:56:01+00:00
 tags: [decision-fatigue, discipline, efficiency, gtd]
 title: Never Return an Item to the In-Tray Once Picked Up for Clarification
 ---

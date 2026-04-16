@@ -2,7 +2,7 @@
 aliases: ["Rubber Ducking for Life"]
 created: 2025-10-30T12:10:01Z
 last_reviewed: ""
-modified: 2026-04-10T16:51:59+00:00
+modified: 2026-04-16T11:55:58+00:00
 status: "seedling"
 tags: ["problem-solving", "rubber-ducking", "thinking", "writing"]
 title: Articulating Reasoning on Paper is Like Rubber Duck Debugging for Life

@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-04-10T16:52:03+00:00
+modified: 2026-04-16T11:56:02+00:00
 tags: [cost-optimization, local-models, performance, semantic-routing]
 title: Small Models Should Execute Structured Tool Calls, Large Models Complex Reasoning
 ---

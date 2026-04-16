@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-29T15:13:40Z
 last_reviewed: ""
-modified: 2026-04-10T18:52:03+00:00
+modified: 2026-04-16T11:56:00+00:00
 status: ""
 tags: []
 title: Leaky Abstractions
@@ -17,5 +17,3 @@ An abstraction is "leaky" when the underlying complexity—the details it is sup
 Mental models often function as personal abstractions that work until they leak.
 
 Links: [[The Map is Not the Territory]]
-
-

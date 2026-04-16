@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-29T15:17:54Z
 last_reviewed: "null"
-modified: 2026-04-10T18:52:05+00:00
+modified: 2026-04-16T11:56:02+00:00
 status: "null"
 tags: ["analogy", "history", "science", "TheHuman/Cognition/mental-model"]
 title: Ptolemaic System as a Patched Flawed Model
@@ -15,5 +15,3 @@ The geocentric Ptolemaic model of the universe is a historical example of buildi
 For 1,500 years, instead of questioning this foundation, astronomers "patched" the model to fit observations by adding layers of complexity, such as epicycles. This is analogous to adding special-case handling in software to work around a core bug instead of fixing the root cause. The model became increasingly complex but remained predictive for known inputs, delaying the Copernican revolution.
 
 Links: [[Flawed Mental Models Limit Mastery]]
-
-

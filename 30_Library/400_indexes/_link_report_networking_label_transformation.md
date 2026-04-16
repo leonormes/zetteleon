@@ -1,0 +1,32 @@
+---
+type: link_report
+status: tmp
+source_atoms: "[[tmp_atoms_networking_label_transformation.md]]"
+created_utc: "2026-04-14T10:45:00Z"
+---
+
+## Link Report: Networking Is Label Transformation Under Policy
+
+### Summary
+
+- Atoms processed: 8
+- Notes created: 8
+- Total links made: 20
+- Unlinked atoms (no connections found): 0
+
+### Link Map
+
+| Atom | Links | Strongest Connection |
+|------|-------|---------------------|
+| [[Networking as Label Transformation]] | 3 | [[INSIGHT - Networking is data labeling not wires]]—upstream |
+| [[Host Response Logic]] | 3 | [[SoT - Linux Networking Primitives]]—upstream |
+| [[NAT as Tuple Rewriting]] | 3 | [[INSIGHT - Networking is data labeling not wires]]—shared mechanism |
+| [[DNS as Path Steering]] | 3 | [[SoT - DNS Core Components and Environments]]—upstream |
+| [[Custom Port End-to-End Consistency]] | 2 | [[SoT - External Ingress & SSL Architecture]]—upstream |
+| [[Connectivity Specificity]] | 2 | [[SoT - Network Security Architecture]]—upstream |
+| [[Stateful Firewall Flow Observation]] | 2 | [[SoT - Network Security Architecture]]—upstream |
+| [[Hop-by-Hop Label Inspection]] | 2 | [[INSIGHT - Networking is data labeling not wires]]—upstream |
+
+### Orphan Atoms (no Links found)
+
+(none)

@@ -3,7 +3,7 @@ aliases: ["Theoretical Information Addiction", "Type 1 Information Addiction"]
 created: 2025-09-11T20:27:49Z
 creation_date: "2025-09-11"
 last_reviewed: ""
-modified: 2026-04-10T16:52:01+00:00
+modified: 2026-04-16T11:56:00+00:00
 status: ""
 tags: ["addiction", "information", "overthinking", "topic/productivity/procrastination"]
 title: Information Addiction in Overthinkers

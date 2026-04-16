@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T00:00:00+00:00
-modified: 2026-04-10T16:52:03+00:00
+modified: 2026-04-16T11:55:59+00:00
 tags: [gtd, organisation, planning, project-management]
 title: Any Desired Outcome Requiring More Than One Step Is a Project and Must Be Tracked
 ---

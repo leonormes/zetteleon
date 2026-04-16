@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-04-10T16:52:03+00:00
+modified: 2026-04-16T11:55:59+00:00
 tags: [agency, culpability, law, responsibility]
 title: Evil Requires Both Culpability and Foreseeability — Without These It Is Tragedy
 ---

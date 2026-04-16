@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T00:00:00+00:00
-modified: 2026-04-10T16:52:03+00:00
+modified: 2026-04-16T11:56:01+00:00
 tags: [attention-management, focus, gtd, processing]
 title: Process the Top Item First and One at a Time to Prevent Emergency Scanning
 ---

@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "storeName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-  "lastSync": 1776121508971,
+  "lastSync": 1776338762802,
   "files": {
     "assets/cropped_PXL_20250518_165827884.PORTRAIT.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2148,11 +2148,6 @@
       "contentHash": "966c066221b43ca03cc36ea8ca12b44b6ad59eb741529af12a541bd4477bdcae",
       "lastIndexed": 1775485873507
     },
-    "30_Library/ops/Deployments/NWSDE.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "6919816ff3e6d4e5bab352ebe14f082a255bc3f6b6e44c3c4b124c8ecd1237bd",
-      "lastIndexed": 1775722369115
-    },
     "30_Library/ops/Getting user details via cli.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "60f6508b91cc03cdd3ef417d24c990357ccb09d518a23d027c29768d8ae07c62",
@@ -2167,21 +2162,6 @@
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "21100afae7ec1f73b299342e6ce7b281250ffbcb14c289228e6100d514e3491c",
       "lastIndexed": 1775485875661
-    },
-    "30_Library/ops/Deployments/MKUH.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "4b75b85d4f3d9561f0c731854e4d7f1e768d58cc496033524f92ccaab174815f",
-      "lastIndexed": 1775722375571
-    },
-    "30_Library/ops/Deployments/LCRCA.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "729787329c5b7ed1ad9d65033d76e2e55b7b766c7efef2d6b8ee3cbb882a3b07",
-      "lastIndexed": 1775722382625
-    },
-    "30_Library/ops/Deployments/HIE.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "b83f260c18c8871c03223bc4af2b8a7d38156899c8f53485dcc73dfc75608ac8",
-      "lastIndexed": 1776084223229
     },
     "00_Inbox/changelog.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -8903,21 +8883,6 @@
       "contentHash": "7ca9f2aeb616d2be538cba3a53d42ef33c077b8a2c0ad11a3d8c3715bedeb6f9",
       "lastIndexed": 1775722957919
     },
-    "30_Library/ops/Deployments/NNUH.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "3edbbf1e78f161ce64d5b0851faee5b36358e14b2c640783839c5e293a58900f",
-      "lastIndexed": 1775722372168
-    },
-    "30_Library/ops/Deployments/MCNFT.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "b5775fedbb2b27194269bc816f74d61ef151096d7d6bc878332870d9a650fa8f",
-      "lastIndexed": 1775722378694
-    },
-    "30_Library/ops/Deployments/CUH.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "decd518aefc14fc7b8308d032c51c86dbe2d12f05a23f701423c5d92bb582bf7",
-      "lastIndexed": 1775722390229
-    },
     "30_Library/MoC/MOC - Relational Dynamics & Family (Triage).md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "5f817949463e4d643f886593dcf261c30161877a4dba29d75be6c16266691dd4",
@@ -9048,11 +9013,6 @@
       "contentHash": "d3b8c16b60b34ef788f4fe1a7b261ad62818c664025ce3c7f4993f706d3c8e67",
       "lastIndexed": 1776076932797
     },
-    "00_Inbox/tmp_atoms_thinking_about_knowledge.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "a8b2756b31af854e2e3bfd12f6563d49468dcdfd893b5d4d62c3fa32ce1b660f",
-      "lastIndexed": 1776077007443
-    },
     "00_Inbox/tmp_atoms_auto_research_framework.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "7cae334b3ec8724cade680c07dcb254cadeef0d48373a4156c04a23543e71a67",
@@ -9068,225 +9028,10 @@
       "contentHash": "c38e325f30f7b9b8534dc41004df3a66da8bc469377785731b7719fb05bbb470",
       "lastIndexed": 1776077938816
     },
-    "00_Inbox/tmp_atoms_fowler_beck_reinventing_software.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "17deafd83a604b036e809b3284706f4f955135a73090382840409126b06c66c9",
-      "lastIndexed": 1776077985688
-    },
     "00_Inbox/tmp_atoms_llm_wiki_persistent_knowledge.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "b6a76d847079e674e24f72b0bc58a1aa8451b425762ccf24ac99169310b5928f",
       "lastIndexed": 1776078049755
-    },
-    "00_Inbox/pieces_copilot_message_export_april_13_2026_1_54pm.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "c228bab87a35260f3ceeb9c417defa472e2b0697d76e2ee0fcfc1ec4ecaec642",
-      "lastIndexed": 1776084877140
-    },
-    "00_Inbox/pieces_copilot_message_export_april_13_2026_2_01pm.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "70919fa3c8cd16df5a38cdbb8f77782f56ad29242eeef0126b516ff556bb2a02",
-      "lastIndexed": 1776086313588
-    },
-    "00_Inbox/Judgment-Based Productivity Gains.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "b8cbb6f47cc909edc9806a2024c5737435d2bca84455c001aa056d15aca3ab5d",
-      "lastIndexed": 1776090926653
-    },
-    "00_Inbox/CLI Interoperability for Agents.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "65b520ee5324bb64e58f78775c584b4a022b01e0a8a8b27f2f05d1cca41ca9b3",
-      "lastIndexed": 1776090930339
-    },
-    "00_Inbox/Shift to Architectural Oversight.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "7b5fe2e70a5c6f88ef95ed4a21108b058313bb56c84f5069156940e46f085b5a",
-      "lastIndexed": 1776090933875
-    },
-    "00_Inbox/Cost Reduction of Technical Exploration.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "d14ebd24c968c59e1a2c413ba0393441bb8a22351e42b80dc29c79a639fba6e0",
-      "lastIndexed": 1776090937507
-    },
-    "00_Inbox/Software Jevons Paradox.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "e0f84f360735890807c91b47bfa83968a69d2f7d040b4fcf1361fd8e9e5e0aad",
-      "lastIndexed": 1776090940851
-    },
-    "00_Inbox/_link_report_agent_first_workflow.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "1f9f3bf6070e9d9ca4faa88d09180a08eae628a3cdd6cda4e8a272f6d1ee22f4",
-      "lastIndexed": 1776090944489
-    },
-    "00_Inbox/Commoditization of Manual Coding.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "d0de3dd8391be728ffeb3f51f5e3010ee9ed7788c82acaae177783e497c9a07e",
-      "lastIndexed": 1776090948066
-    },
-    "00_Inbox/Agent-First Implementation Cycle.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "30d4a697a0148346bab8c188b04d544640d45229607c729642c1260dbd9bf580",
-      "lastIndexed": 1776090951631
-    },
-    "00_Inbox/Agentic Collaboration Shift.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "3a099306fe5fa590be7ecc4b3431f77e88a1767f4d8c1785ec12b7c2eefe4413",
-      "lastIndexed": 1776091037790
-    },
-    "00_Inbox/Research-Plan-Implement Workflow.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "8bcfa62c171c3baf421e7b08b86c11203629cb22beccdade6ec561bcaecd325a",
-      "lastIndexed": 1776091040925
-    },
-    "00_Inbox/Low-Context Implementation Execution.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "46eaa28e592a99c81d9fe2762f257630ba6426f76827c3dbb8b6897401ec487b",
-      "lastIndexed": 1776091044979
-    },
-    "00_Inbox/Project-Level Rule Standardisation.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "670ff2ddf1b8b22e9bfed716db667438deeb74abfcaf46f99800bdd777e3d0ae",
-      "lastIndexed": 1776091048200
-    },
-    "00_Inbox/MCP Token Noise.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "be9fd20e42dd606b6b57d695e51a25214cc24c29c45dce0a888fc1fada91a793",
-      "lastIndexed": 1776091051478
-    },
-    "00_Inbox/Shift to High-Level Oversight.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "ea7543c4bb6ee8842235a636a8215226f6cdd8d276f3f9dbf930f973de69163f",
-      "lastIndexed": 1776091054936
-    },
-    "00_Inbox/_link_report_agentic_engineering.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "16075ebf8e6a542a0d09cde5d917a9bf38ec0c4400959db61a51cb5fccb9f763",
-      "lastIndexed": 1776091058680
-    },
-    "00_Inbox/Context Curation Necessity.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "7639ad37266555e3c7b0eff57d8c3218108db2b3e8d8805407065f93c8b1a4ef",
-      "lastIndexed": 1776091062127
-    },
-    "00_Inbox/Context Volume Plateau.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "19088da81b8414afe3b6a69fe66f8a715f26d1fda2cf0c32d0271b52002f1a55",
-      "lastIndexed": 1776091065592
-    },
-    "00_Inbox/LLM Architectural Judgment Gap.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "c0a654dad2af2da3df5d8d18ab52dc0789a1946d76e3eea48f078651a4a64fb0",
-      "lastIndexed": 1776091068639
-    },
-    "00_Inbox/Semantic Search via Embeddings.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "9df18e9506ad38fad1eafa92790ed4e49869919dd974d83643459ce57167d84c",
-      "lastIndexed": 1776091281966
-    },
-    "00_Inbox/Graph-Based Orchestration.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "0663d3b8638f98840119f0dd0f7ade9358b73281ab3492695271839d626c68fe",
-      "lastIndexed": 1776091285564
-    },
-    "00_Inbox/Model Context Protocol (MCP).md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "74b485f234e732431f3be65c3c0c9ccf26ddcb1828210a50652b6d3a3cfd8d63",
-      "lastIndexed": 1776091288664
-    },
-    "00_Inbox/Agentic Autonomy as State Machine Logic.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "301be7779f6810a2770c67220831ad177f1122b33a9076dbeb9f0e24836ef689",
-      "lastIndexed": 1776091291913
-    },
-    "00_Inbox/LLM Context Constraints.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "8283c6e687f2369d28279568668ff031fb65b1fa6de6e5998708561cbc819b88",
-      "lastIndexed": 1776091298407
-    },
-    "00_Inbox/Retrieval-Augmented Generation (RAG).md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "3ffcc6078a89055387223012a3adb81fdc538e6c27d6a297a05a27ee0643b65b",
-      "lastIndexed": 1776091302358
-    },
-    "00_Inbox/Prompt Architecture Levels.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "0e17501be72089c87a68b87d278a301920f9780ab7e7677d2a9fcd5a9d7612f2",
-      "lastIndexed": 1776091304733
-    },
-    "00_Inbox/Basic Authentication.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "7749396184e6622a66787e87125425ef524f63629af04a71f39cc160c6fb6590",
-      "lastIndexed": 1776091672051
-    },
-    "00_Inbox/Bearer Tokens.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "b93be033888e7532698314a93c3fd9b2374a2318d359ac1020bc8bcc2d1bdfbc",
-      "lastIndexed": 1776091675089
-    },
-    "00_Inbox/JSON Web Tokens (JWT).md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "8c4de44d9307acad09ad9e28861dee4a2f7071f92a3d5b95cb974a0e80fb4072",
-      "lastIndexed": 1776091678797
-    },
-    "00_Inbox/Access Tokens.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "b6b9cfbb373f806b3c6b5a5f06f730ab14e200c6e482ae7a15705b1eecac9c86",
-      "lastIndexed": 1776091682072
-    },
-    "00_Inbox/Refresh Tokens.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "979940793a86b86e11fbf176d01066140b6fab8f144c1ad608cd13fbc59f65f3",
-      "lastIndexed": 1776091685116
-    },
-    "00_Inbox/OAuth 2.0.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "0b4f8bb791b9e12a05105b74b126fa68eec5257e426f0fdf5c5bdfce98ba57dd",
-      "lastIndexed": 1776091688262
-    },
-    "00_Inbox/OpenID Connect (OIDC).md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "0d9fc2c6563deb1120675a1ac3976d69a4d89ce65109d33001d5a0c312000dc7",
-      "lastIndexed": 1776091691987
-    },
-    "00_Inbox/Single Sign-On (SSO).md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "045a8f33286f474ef567422e5a086c39eeb4f0e70b1f1aa96bc8d3dcc4f4a0d7",
-      "lastIndexed": 1776091695318
-    },
-    "00_Inbox/API Keys.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "0317d6fe4215d1efd903d03351c651b63c97f6a18b45dc1d606a3a25f1d0e3ae",
-      "lastIndexed": 1776091701377
-    },
-    "00_Inbox/Session Authentication.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "233c9008cb441d6569f5129eade908ce20244867692c14365b8f2212b0c4d431",
-      "lastIndexed": 1776091704870
-    },
-    "00_Inbox/Digest Authentication.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "98a358292de6b278477c996c612a0903e6bcc0507ca04db06f92678e11b63b48",
-      "lastIndexed": 1776091708537
-    },
-    "00_Inbox/Objective Task Validation.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "0019c1e2d5cb6cbb063a67a1994940389732283b04c9a992dc000700c3c05ef0",
-      "lastIndexed": 1776092016992
-    },
-    "00_Inbox/Subjective Task Validation.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "39af926dd3b9d13680ca903bec60c071721207f9df2f5d2d4eb60714e4be6354",
-      "lastIndexed": 1776092021153
-    },
-    "00_Inbox/Optimal Iteration Count.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "47ee9b6dc7cd3c50d99f7e027f2c901182af61f450990701035e11039095ab42",
-      "lastIndexed": 1776092027570
-    },
-    "00_Inbox/Framework Cross-Pollination.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "4f58d2b10cde33317767ba0efc0dd586b36e581c43d8d23537468d5e310c0e70",
-      "lastIndexed": 1776092030515
     },
     "30_Library/400_indexes/_link_report_auto_research_framework.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -9307,6 +9052,771 @@
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "df597f6192ef7e0f536b88d2934fece9854a03a6a7b6a176b6ace9d013e2dd0d",
       "lastIndexed": 1776121508971
+    },
+    "30_Library/100_zettelkasten/Framework Cross-Pollination.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "4f58d2b10cde33317767ba0efc0dd586b36e581c43d8d23537468d5e310c0e70",
+      "lastIndexed": 1776160690834
+    },
+    "30_Library/100_zettelkasten/Subjective Task Validation.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "39af926dd3b9d13680ca903bec60c071721207f9df2f5d2d4eb60714e4be6354",
+      "lastIndexed": 1776160716021
+    },
+    "30_Library/100_zettelkasten/Optimal Iteration Count.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "47ee9b6dc7cd3c50d99f7e027f2c901182af61f450990701035e11039095ab42",
+      "lastIndexed": 1776160719532
+    },
+    "30_Library/100_zettelkasten/Objective Task Validation.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "0019c1e2d5cb6cbb063a67a1994940389732283b04c9a992dc000700c3c05ef0",
+      "lastIndexed": 1776160723350
+    },
+    "30_Library/100_zettelkasten/API Keys.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "0317d6fe4215d1efd903d03351c651b63c97f6a18b45dc1d606a3a25f1d0e3ae",
+      "lastIndexed": 1776160726135
+    },
+    "30_Library/100_zettelkasten/Session Authentication.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "233c9008cb441d6569f5129eade908ce20244867692c14365b8f2212b0c4d431",
+      "lastIndexed": 1776160730331
+    },
+    "30_Library/100_zettelkasten/Digest Authentication.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "98a358292de6b278477c996c612a0903e6bcc0507ca04db06f92678e11b63b48",
+      "lastIndexed": 1776160734852
+    },
+    "30_Library/100_zettelkasten/OAuth 2.0.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "0b4f8bb791b9e12a05105b74b126fa68eec5257e426f0fdf5c5bdfce98ba57dd",
+      "lastIndexed": 1776160738224
+    },
+    "30_Library/100_zettelkasten/OpenID Connect (OIDC).md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "0d9fc2c6563deb1120675a1ac3976d69a4d89ce65109d33001d5a0c312000dc7",
+      "lastIndexed": 1776160742172
+    },
+    "30_Library/100_zettelkasten/Refresh Tokens.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "979940793a86b86e11fbf176d01066140b6fab8f144c1ad608cd13fbc59f65f3",
+      "lastIndexed": 1776160746048
+    },
+    "30_Library/100_zettelkasten/Single Sign-On (SSO).md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "045a8f33286f474ef567422e5a086c39eeb4f0e70b1f1aa96bc8d3dcc4f4a0d7",
+      "lastIndexed": 1776160749636
+    },
+    "30_Library/100_zettelkasten/Access Tokens.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "b6b9cfbb373f806b3c6b5a5f06f730ab14e200c6e482ae7a15705b1eecac9c86",
+      "lastIndexed": 1776160753024
+    },
+    "30_Library/100_zettelkasten/Basic Authentication.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "7749396184e6622a66787e87125425ef524f63629af04a71f39cc160c6fb6590",
+      "lastIndexed": 1776160756825
+    },
+    "30_Library/100_zettelkasten/Bearer Tokens.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "b93be033888e7532698314a93c3fd9b2374a2318d359ac1020bc8bcc2d1bdfbc",
+      "lastIndexed": 1776160760806
+    },
+    "30_Library/100_zettelkasten/JSON Web Tokens (JWT).md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "8c4de44d9307acad09ad9e28861dee4a2f7071f92a3d5b95cb974a0e80fb4072",
+      "lastIndexed": 1776160763681
+    },
+    "30_Library/100_zettelkasten/Prompt Architecture Levels.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "0e17501be72089c87a68b87d278a301920f9780ab7e7677d2a9fcd5a9d7612f2",
+      "lastIndexed": 1776160766533
+    },
+    "30_Library/100_zettelkasten/LLM Context Constraints.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "8283c6e687f2369d28279568668ff031fb65b1fa6de6e5998708561cbc819b88",
+      "lastIndexed": 1776160770690
+    },
+    "30_Library/100_zettelkasten/Retrieval-Augmented Generation (RAG).md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "3ffcc6078a89055387223012a3adb81fdc538e6c27d6a297a05a27ee0643b65b",
+      "lastIndexed": 1776160774288
+    },
+    "30_Library/100_zettelkasten/Agentic Autonomy as State Machine Logic.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "301be7779f6810a2770c67220831ad177f1122b33a9076dbeb9f0e24836ef689",
+      "lastIndexed": 1776160777409
+    },
+    "30_Library/400_indexes/_link_report_agent_first_workflow.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "1f9f3bf6070e9d9ca4faa88d09180a08eae628a3cdd6cda4e8a272f6d1ee22f4",
+      "lastIndexed": 1776160781210
+    },
+    "30_Library/100_zettelkasten/CLI Interoperability for Agents.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "65b520ee5324bb64e58f78775c584b4a022b01e0a8a8b27f2f05d1cca41ca9b3",
+      "lastIndexed": 1776160784928
+    },
+    "30_Library/100_zettelkasten/Agentic Collaboration Shift.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "3a099306fe5fa590be7ecc4b3431f77e88a1767f4d8c1785ec12b7c2eefe4413",
+      "lastIndexed": 1776160788254
+    },
+    "30_Library/100_zettelkasten/Agent-First Implementation Cycle.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "30d4a697a0148346bab8c188b04d544640d45229607c729642c1260dbd9bf580",
+      "lastIndexed": 1776160791834
+    },
+    "30_Library/100_zettelkasten/Commoditization of Manual Coding.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "d0de3dd8391be728ffeb3f51f5e3010ee9ed7788c82acaae177783e497c9a07e",
+      "lastIndexed": 1776160795033
+    },
+    "30_Library/100_zettelkasten/Cost Reduction of Technical Exploration.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "d14ebd24c968c59e1a2c413ba0393441bb8a22351e42b80dc29c79a639fba6e0",
+      "lastIndexed": 1776160798439
+    },
+    "30_Library/100_zettelkasten/Shift to Architectural Oversight.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "7b5fe2e70a5c6f88ef95ed4a21108b058313bb56c84f5069156940e46f085b5a",
+      "lastIndexed": 1776160801509
+    },
+    "30_Library/100_zettelkasten/Software Jevons Paradox.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "e0f84f360735890807c91b47bfa83968a69d2f7d040b4fcf1361fd8e9e5e0aad",
+      "lastIndexed": 1776160805051
+    },
+    "30_Library/100_zettelkasten/Judgment-Based Productivity Gains.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "b8cbb6f47cc909edc9806a2024c5737435d2bca84455c001aa056d15aca3ab5d",
+      "lastIndexed": 1776160807897
+    },
+    "30_Library/400_indexes/_link_report_agentic_engineering.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "16075ebf8e6a542a0d09cde5d917a9bf38ec0c4400959db61a51cb5fccb9f763",
+      "lastIndexed": 1776160811547
+    },
+    "30_Library/100_zettelkasten/Shift to High-Level Oversight.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "ea7543c4bb6ee8842235a636a8215226f6cdd8d276f3f9dbf930f973de69163f",
+      "lastIndexed": 1776160814892
+    },
+    "30_Library/100_zettelkasten/Graph-Based Orchestration.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "0663d3b8638f98840119f0dd0f7ade9358b73281ab3492695271839d626c68fe",
+      "lastIndexed": 1776160818127
+    },
+    "30_Library/100_zettelkasten/Model Context Protocol (MCP).md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "74b485f234e732431f3be65c3c0c9ccf26ddcb1828210a50652b6d3a3cfd8d63",
+      "lastIndexed": 1776160821254
+    },
+    "30_Library/100_zettelkasten/Semantic Search via Embeddings.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "9df18e9506ad38fad1eafa92790ed4e49869919dd974d83643459ce57167d84c",
+      "lastIndexed": 1776160824037
+    },
+    "30_Library/100_zettelkasten/LLM Architectural Judgment Gap.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "c0a654dad2af2da3df5d8d18ab52dc0789a1946d76e3eea48f078651a4a64fb0",
+      "lastIndexed": 1776160826932
+    },
+    "30_Library/100_zettelkasten/Context Volume Plateau.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "19088da81b8414afe3b6a69fe66f8a715f26d1fda2cf0c32d0271b52002f1a55",
+      "lastIndexed": 1776160830584
+    },
+    "30_Library/100_zettelkasten/Context Curation Necessity.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "7639ad37266555e3c7b0eff57d8c3218108db2b3e8d8805407065f93c8b1a4ef",
+      "lastIndexed": 1776160834374
+    },
+    "30_Library/100_zettelkasten/Low-Context Implementation Execution.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "46eaa28e592a99c81d9fe2762f257630ba6426f76827c3dbb8b6897401ec487b",
+      "lastIndexed": 1776160838075
+    },
+    "30_Library/100_zettelkasten/MCP Token Noise.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "be9fd20e42dd606b6b57d695e51a25214cc24c29c45dce0a888fc1fada91a793",
+      "lastIndexed": 1776160841549
+    },
+    "30_Library/100_zettelkasten/Project-Level Rule Standardisation.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "670ff2ddf1b8b22e9bfed716db667438deeb74abfcaf46f99800bdd777e3d0ae",
+      "lastIndexed": 1776160845087
+    },
+    "30_Library/100_zettelkasten/Research-Plan-Implement Workflow.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "8bcfa62c171c3baf421e7b08b86c11203629cb22beccdade6ec561bcaecd325a",
+      "lastIndexed": 1776160848546
+    },
+    "00_Inbox/tmp_atoms_concurrency_challenges.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "5a3b9d28a3d7180cd2cb4c99a85511d1e0427db2c76fd38e69566f780b113b2d",
+      "lastIndexed": 1776161196861
+    },
+    "20_Thinking/21_Workbench/HEAD AI-related debt.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "4c76ef5a3dcb1958bf58b714c443388e724e66af2dd2a5cf00e8d20875cbcdcc",
+      "lastIndexed": 1776161540780
+    },
+    "00_Inbox/Readwise/Full Document Contents/Hardening macOS part 6 The Human Surface and Metadata Risks.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "a43b2efbc6edf3fa5867977447dd1a6bad0c7a072ede9532959f7348b8cfb4f6",
+      "lastIndexed": 1776162838373
+    },
+    "30_Library/400_indexes/_link_report_networking_label_transformation.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "060af281c6aecb814bb6bb4b111b677f71e4e85fada075d2947cabf2346f7c80",
+      "lastIndexed": 1776165190617
+    },
+    "30_Library/100_zettelkasten/Custom Port End-to-End Consistency.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "8ade26bbade6ddb172ea305e31068b215717dab435c71a6da7f89dde99eba618",
+      "lastIndexed": 1776165196999
+    },
+    "30_Library/100_zettelkasten/Stateful Firewall Flow Observation.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "66dfacfe73603e7c614ecfa4af14cb1019ab16e342437a54cf9bb8b8da3f31a6",
+      "lastIndexed": 1776165203403
+    },
+    "30_Library/100_zettelkasten/Hop-by-Hop Label Inspection.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "bd6748dc030c236e4203265f7fca6da2549de34a66888eb03970951876c1a822",
+      "lastIndexed": 1776165206462
+    },
+    "30_Library/100_zettelkasten/Connectivity Specificity.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "12738f3b028f774f821a624e026dd6f03592e760c92c2a305a506f62049f6591",
+      "lastIndexed": 1776165210332
+    },
+    "30_Library/100_zettelkasten/DNS as Path Steering.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "5c8940f8b27a65ec9d47df602b7eb36521717da2709b410197e38bb8dfc4979f",
+      "lastIndexed": 1776165214167
+    },
+    "30_Library/100_zettelkasten/Networking as Label Transformation.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "11e5efd1b1c35c4d45088702699c853657ceb2bf0343a0f6e960dc98a4afdb75",
+      "lastIndexed": 1776165217116
+    },
+    "30_Library/100_zettelkasten/NAT as Tuple Rewriting.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "0f57c1cfaaa10eab45f8d6811da7307c8c7709c66fff0f2157a5f1dbaf6b1bda",
+      "lastIndexed": 1776165220709
+    },
+    "30_Library/100_zettelkasten/Host Response Logic.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "e670aaf73cc0d8bc514df02c9d2e69c59180b7e124694c05d77b301bf5e56548",
+      "lastIndexed": 1776165229632
+    },
+    "99_Archive/tmp_atoms_networking_label_transformation.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "0a0fe5d3a919f0d2ae32d8826c0e3242a95cef88a930dafed525c133b0f10498",
+      "lastIndexed": 1776165254876
+    },
+    "30_Library/100_zettelkasten/The Failure of No-Code Elimination.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "c438a21b4ba76a378fb59f48c74efbc6ffea0a7c343f91ffff114df0843b1602",
+      "lastIndexed": 1776170759340
+    },
+    "30_Library/400_indexes/_link_report_fowler_beck_reinventing_software.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "246006be69ad4c70734ab519a9f52af149fd5dc7a404845f47049f76f222e5bd",
+      "lastIndexed": 1776170763705
+    },
+    "30_Library/100_zettelkasten/TDD in Probabilistic Systems.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "85b900b7d45fce6ad0314b7c72c4f341cd7a200682b5a38d1d08e7ecaf210508",
+      "lastIndexed": 1776170766869
+    },
+    "30_Library/100_zettelkasten/Convergence of Developer and Agent Experience.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "e1f8a6886ec45b5418699d15d691419a9e3c47e640840147f53d44b754fe1fde",
+      "lastIndexed": 1776170770453
+    },
+    "30_Library/100_zettelkasten/Intent as High-Level Source Code.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "61ddba08c6161f41289c27115390a925d3afdd70290a47322f55d6268387ee51",
+      "lastIndexed": 1776170774662
+    },
+    "30_Library/100_zettelkasten/Shift to Verification.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "14b8a760ad0474546b98a7b4d9fa6b12ae393003a34fbc97b6122dc4f80d8896",
+      "lastIndexed": 1776170777489
+    },
+    "30_Library/100_zettelkasten/Modularisation for Agents.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "cb0207edcdc6f0a09efccf55f088734c0ccab06e307d4982f59b7c5ac8138ae7",
+      "lastIndexed": 1776170781523
+    },
+    "99_Archive/tmp_atoms_fowler_beck_reinventing_software.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "17deafd83a604b036e809b3284706f4f955135a73090382840409126b06c66c9",
+      "lastIndexed": 1776170797088
+    },
+    "00_Inbox/The Mind Movie Fallacy.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "a161a2b811dd2267ee21228d4119e3c2b6bdabfefa722c77430e4af64015dcb7",
+      "lastIndexed": 1776172912758
+    },
+    "00_Inbox/Information vs Knowledge.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "f27f5119cc359efcc4e67f872143772d64087ef25c98b2a7e5d295e43d2ce0d9",
+      "lastIndexed": 1776172916459
+    },
+    "00_Inbox/PKM as Sense-Making Engine.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "be6812e470964c5bdf017977a070a41b75c554c5959395a76a057c656a34d93a",
+      "lastIndexed": 1776172919741
+    },
+    "00_Inbox/Sitting with Groundlessness.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "3029a32ace647f81cde5490a7dcd6b512beb8841938e7103954c92cf653437f1",
+      "lastIndexed": 1776172922945
+    },
+    "00_Inbox/The Quit on the Third Urge Rule.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "a7c3c3dad69d2a77f042076062a699de2e8cb1ffbcbfd2f45743a424ab334088",
+      "lastIndexed": 1776172926579
+    },
+    "00_Inbox/Cognitive Defusion from Narrative.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "9b8f9b41d88531b8d7d2855b75025df6b3faf59a10779c64d610f4d8663c6f1c",
+      "lastIndexed": 1776172929726
+    },
+    "00_Inbox/Minimum Viable Experiment (MVE).md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "52f8496ac76b41186a2b88ac299ae2285eb588f313fb63fee792e88f78fdaf6c",
+      "lastIndexed": 1776172933340
+    },
+    "00_Inbox/_link_report_thinking_about_knowledge.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "b84cdb8f496f6ad478cac048592effaeaf7f7786d3119a4efc971ef677f6fd3d",
+      "lastIndexed": 1776173125867
+    },
+    "00_Inbox/pieces_copilot_message_export_april_14_2026_4_10pm.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "3d32d226f47d45cc891517314249ef9cc69aa4a8a71e36986c1f3c404bd5e6b7",
+      "lastIndexed": 1776179447756
+    },
+    "01_journals/Dailies/2026-04-15.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "6440a0f37d102b298bdb1863bc21b375afa919fad007b9b1ccc85a29f2c13e16",
+      "lastIndexed": 1776271829105
+    },
+    "30_Library/100_zettelkasten/Jevons Paradox of Attention.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "8b7351d9904a29b9943e86a22011022158a5534a6f4bf45aedad3857c92fec6e",
+      "lastIndexed": 1776238246724
+    },
+    "30_Library/100_zettelkasten/Cognitive Firewalls.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "ead5bd42121ab4f6d3d2c51ae3aad957e5484518cecaa4311c5d9fd395806006",
+      "lastIndexed": 1776238256288
+    },
+    "30_Library/100_zettelkasten/Objective Scoreboards.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "381ecfe10f7396a501e5526edadca21e6a607f3e8bbfe00ecac8b4688160ff5c",
+      "lastIndexed": 1776238266028
+    },
+    "30_Library/400_indexes/_link_report_productivity_paradox.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "9ffde43bcf7194395e2036369bd2fec695bb82371d8ab85822a32cb52dbb88af",
+      "lastIndexed": 1776271832997
+    },
+    "30_Library/100_zettelkasten/Pseudo-productivity Heuristic.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "396ea27b190970358697c2045842d4776d66fc3b4d07aff8efb6501a954ba665",
+      "lastIndexed": 1776238273257
+    },
+    "20_Thinking/21_Workbench/HEAD LLMs Don't Need More Parameters. They Need Loops..md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "4ddbdd2d31129ca486b2a0fb741c8926b9fb6e812d76aa2e6163a5d00547704e",
+      "lastIndexed": 1776245625368
+    },
+    "30_Library/100_zettelkasten/Multi-Page Ingestion Impact.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "05ffe868fce57dc61bfb609f1c9d6920171228aea18493bb9b72ab61bfba274c",
+      "lastIndexed": 1776254007111
+    },
+    "30_Library/100_zettelkasten/AI-Led Wiki Maintenance.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "188ba57bcf9cbae51f1d64679ea86a666b8088a5fab7d68c409252c9dc43337e",
+      "lastIndexed": 1776254011100
+    },
+    "30_Library/100_zettelkasten/LLM Wiki Concept.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "62edb4d6be5be2a916ed1ba2f352050ed21a23901188080841333de8044de81c",
+      "lastIndexed": 1776254015594
+    },
+    "30_Library/100_zettelkasten/Layered Knowledge Architecture.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "c71a68752208f27e5dd54a0a50a004becb2ff3b1209db59b98f7ff180e713235",
+      "lastIndexed": 1776254019761
+    },
+    "30_Library/100_zettelkasten/Centralisation Risk.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "99c1972f042760f3308832b45bc538082ed386c32d22d93a6a283774ffe46153",
+      "lastIndexed": 1776254023003
+    },
+    "30_Library/100_zettelkasten/Desirable Difficulty in Skill Acquisition.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "b7e239e08140a193b456347132a4d3bc3e24c8ae7f3a5f4663b11ab93fe38510",
+      "lastIndexed": 1776254026373
+    },
+    "30_Library/400_indexes/_link_report_jeremy_howard_interview.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "794eb746da0eca4eb689f3bc9890aaad4b1c0453f9ece680f8d2fee029327f16",
+      "lastIndexed": 1776254030925
+    },
+    "30_Library/400_indexes/_link_report_llm_wiki_persistent_knowledge.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "cb3c93fdf31e4416e37168ee06ab7b9848521a7b9bc447d1dba0e909a7b5ef72",
+      "lastIndexed": 1776254034061
+    },
+    "30_Library/100_zettelkasten/Understanding Debt.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "a21bc2a6d41bad0a45870ad6bd6ffe87f513e83159b918aaf3163fdf95fb8734",
+      "lastIndexed": 1776254037499
+    },
+    "30_Library/100_zettelkasten/Fly-by-Wire Exploratory Programming.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "cd78db2cc58182e3f82e3b85aeefa10ccc8aa453f9cdc26992dcd83ec9eb2311",
+      "lastIndexed": 1776254041256
+    },
+    "30_Library/100_zettelkasten/Coding as Style Transfer.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "3da04f42b9ab8a0b4a8faa867c5f0903a0174d73b5e8b750ec0538783d845fa7",
+      "lastIndexed": 1776254045043
+    },
+    "30_Library/400_indexes/_link_report_harness_engineering.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "b5ddb3b90b2a64c446a8962c95cac861cce0acc1b187e35901390dab2ddcbc31",
+      "lastIndexed": 1776254048854
+    },
+    "30_Library/100_zettelkasten/Work Slop Proliferation.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "a9e170979397b623b4f684fbb5daba07f223aa603986ef6a46fb25067c8028d5",
+      "lastIndexed": 1776254066193
+    },
+    "30_Library/100_zettelkasten/Low Activation Cost Effect.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "98953c56af4f43a7957bb02e2c241cc4526e26efaec7baf5e23d59cb9e5e0a4d",
+      "lastIndexed": 1776254069914
+    },
+    "30_Library/100_zettelkasten/AI as Statistical Interpolation.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "a23f1dee93c632c77ec4e5f4954c01319c84c7074d461e8645d3e0fab9f02be3",
+      "lastIndexed": 1776254074083
+    },
+    "30_Library/100_zettelkasten/Knowledge Linting.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "48bf007730faf0d8bccc60931b8a8b9736741937662fba6f68383ee760dd111d",
+      "lastIndexed": 1776254077693
+    },
+    "30_Library/100_zettelkasten/Workflow-as-YAML.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "d27a622154e46882bda6fbbfb89a83a9ef5bac942f5ef7bedecf8544d5eeb05c",
+      "lastIndexed": 1776254088904
+    },
+    "30_Library/100_zettelkasten/Harness Engineering.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "bd9ccf9c10bed7931bd0d827ba00d6ffef86c657d5db73678597491093dc76c7",
+      "lastIndexed": 1776254093045
+    },
+    "30_Library/400_indexes/_link_report_entra_iam_remediation.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "d6bc9926d116524434bd30aabe03a11503978de7e9685c4b34be04c8b5332da0",
+      "lastIndexed": 1776254096621
+    },
+    "30_Library/100_zettelkasten/Directory Creation Restrictions.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "3347faafd96378688895a15cb25f803d8d317e8ed70731d64e4431f0e10c8311",
+      "lastIndexed": 1776254099573
+    },
+    "30_Library/100_zettelkasten/In-Housing Dependencies.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "4d0e961bfa3f55089f591a2968031f5ca5bff542ec9c738768111b0df990c0f4",
+      "lastIndexed": 1776254103033
+    },
+    "30_Library/100_zettelkasten/Just-In-Time (JIT) Admin Access.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "45833b589177ae4c08809f14a90863a8900d78fc49e9f87c4de01eb891793b59",
+      "lastIndexed": 1776254108704
+    },
+    "30_Library/100_zettelkasten/Non-Turing Completeness as a Feature.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "7c13d3d9dc2f7dc79eadcf3c3bb65d752d4631fa206b60f0569f342b0d839f27",
+      "lastIndexed": 1776254112222
+    },
+    "30_Library/400_indexes/_link_report_cue_type_system.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "05b3e0406952bf4d1f10bbafa16bcb535eae632bbc95e0e401032a72973aec71",
+      "lastIndexed": 1776254116068
+    },
+    "30_Library/400_indexes/_link_report_concurrency_challenges.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "2eaecf3f844387746e68f9bfe1f944f4d57f558289b223ff0a2682c15016bd44",
+      "lastIndexed": 1776254119027
+    },
+    "30_Library/100_zettelkasten/Byzantine Fault Tolerance Requirements.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "9970258cbbb4b1ae67c04584d30c8da1d42711eeb6f821bd33b00bd5e27a8311",
+      "lastIndexed": 1776254125310
+    },
+    "30_Library/400_indexes/_link_report_calculus_roadmap.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "03065182e80c01c792579bdeb5a176786c2ef8b26833884a9735f76a7f7c6836",
+      "lastIndexed": 1776254129509
+    },
+    "30_Library/100_zettelkasten/Fundamental Theorem of Calculus.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "6cde231044b2a9235a0e9bbfefc27cf6e7d36851bb26c1e57ed6c88dacad00e2",
+      "lastIndexed": 1776254133491
+    },
+    "30_Library/100_zettelkasten/Vector Calculus Application.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "521176318997ff398207a89fe6fcfc1652b561c01503d219819b4e51687baffc",
+      "lastIndexed": 1776254137449
+    },
+    "30_Library/100_zettelkasten/Calculus Prerequisite Domains.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "844abc02a347536a22704f9b9a12652a2aa1ef8299281ae2340cc6cd46207fd5",
+      "lastIndexed": 1776254177627
+    },
+    "30_Library/100_zettelkasten/Derivative Definition.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "953b2a7e5fc783ce2d794cad9e8ed8ab8883f26438dc68a4335e8acbd35086a3",
+      "lastIndexed": 1776254223784
+    },
+    "30_Library/100_zettelkasten/Integration as Summation.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "9375f9436cd7d3aa85215cf62177e258afaebb83409df34b15618dd9fbc53736",
+      "lastIndexed": 1776254226820
+    },
+    "30_Library/100_zettelkasten/Taylor Series Reconstruction.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "0eefdc0f72bd13c122a81f6937cdb7ef3c7fa0ee27f6cea9d7ae617aa73d06bd",
+      "lastIndexed": 1776254230130
+    },
+    "30_Library/100_zettelkasten/Primacy of Mathematical Abstraction.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "d57e596438b89661e3db8ffdf82dccb5d6bab5a4b3f3ef608de75588ef4795c3",
+      "lastIndexed": 1776254240412
+    },
+    "30_Library/100_zettelkasten/Writing as Cognitive Rigour.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "f2341716410f5868fea8284ca7c7c7884d67791b8ebe734bac78ae61afa594b6",
+      "lastIndexed": 1776254266029
+    },
+    "30_Library/100_zettelkasten/Happens-before as Logical Ordering.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "ab8b654660f2ccd0d1c2004c2fe5a6f3b039391d68b386e57fbb88fbe5642a57",
+      "lastIndexed": 1776254269851
+    },
+    "30_Library/100_zettelkasten/Cloud Configurations as Ad-hoc DSLs.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "56bd2ea72c744e52ce6830bcfcc8e91bbd4ab8a00503c9582e7fc4227db12cc7",
+      "lastIndexed": 1776254273618
+    },
+    "30_Library/100_zettelkasten/Configuration Unification.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "ba9f196a6055a8fc76ca391ad97680f6ea204a391c8aad816f3be83c6bfbf8bc",
+      "lastIndexed": 1776254277915
+    },
+    "30_Library/100_zettelkasten/CUE Lattice Model.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "d3b453b13af2598cee82f79a205f3241913a4285a60cfe35274ce0721dceb152",
+      "lastIndexed": 1776254281051
+    },
+    "30_Library/100_zettelkasten/Closed Type Definitions.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "12a49509dcaf23563ea5b3d14fdc8063d713fd732060978e3a708b3cdda9bf1e",
+      "lastIndexed": 1776254285123
+    },
+    "30_Library/100_zettelkasten/Phishing-Resistant MFA.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "6b2c1d9a78dfac8cc2400e7632c11a33f9d5ad06252ab88c1d9bcb618697856e",
+      "lastIndexed": 1776254288357
+    },
+    "30_Library/100_zettelkasten/Order Independence (Commutativity).md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "702695b307fbce1b6f4df0de41373f4f6c2363098eed96e21603b1f3042f3bd4",
+      "lastIndexed": 1776254291491
+    },
+    "30_Library/100_zettelkasten/Creating Realistic OMOP Synthetic Data.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "7c70b256a4c77e3cd31cc69466fc2bf937228bd6b6f913cee916f7e7a3778fdc",
+      "lastIndexed": 1776254374080
+    },
+    "30_Library/100_zettelkasten/Digital Productivity Paradox.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "a04b8bd69bee85de9a1de54ce38485e8c854266b33ca9e0ea81e2a1cc819c946",
+      "lastIndexed": 1776254381057
+    },
+    "30_Library/100_zettelkasten/Recursive Agent Improvement.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "de7d6c6386864d2d5991e739d6989b1d1165fc8cfac4fed418a472865f208992",
+      "lastIndexed": 1776254385111
+    },
+    "30_Library/100_zettelkasten/Prompt-Injected Non-Functional Requirements.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "e13769d7268e3f5313bb8fbce486fc6001b7c33a9a6160c779c43d21df9cccfc",
+      "lastIndexed": 1776254389417
+    },
+    "30_Library/100_zettelkasten/Software as Specification (Ghost Libraries).md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "c5417bfa1c1bf5c38f20572729890dd5b7f4e6efe0f7f41e0899cdd0bcd5f1bd",
+      "lastIndexed": 1776254393463
+    },
+    "30_Library/100_zettelkasten/Trusted Launch for Critical Infrastructure.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "c608a479dcbe3f00e96e233d04a7f7a1f39a215dc859860e06130c57089dcba1",
+      "lastIndexed": 1776254396709
+    },
+    "30_Library/100_zettelkasten/Workload Identity Governance.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "1fb6b00f938e61512b4d0bb8e96874bb8583c1d453d46975ed0a87b720147424",
+      "lastIndexed": 1776254401044
+    },
+    "30_Library/100_zettelkasten/Mutual Exclusion without Hardware Atomicity.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "60ddce18be1658336b0901d9a5a7d6c6f7b11fa6576fe433ecf122f46c487349",
+      "lastIndexed": 1776254405177
+    },
+    "30_Library/100_zettelkasten/Paxos vs Raft (Correctness vs Intuition).md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "e71d9ee868c3dcd3a602097ffb53b03528c2f5ddf3f37ef7e145058d1bd2d0a2",
+      "lastIndexed": 1776254408699
+    },
+    "30_Library/100_zettelkasten/Legacy Authentication Blocking.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "c583e3280d2472cc432e14787d3143c7d44ef21005656c56a21100d512c2fce6",
+      "lastIndexed": 1776254412220
+    },
+    "30_Library/100_zettelkasten/Continuous Access Evaluation (CAE).md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "06fec6c7a2bea589b027d4a393cda0fe8ecdfbbb59883502a2c4c89da2425ef3",
+      "lastIndexed": 1776254415434
+    },
+    "30_Library/100_zettelkasten/Emergency Access Account Protocol.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "29bc96c8f20cba0b5e6bcb2f0e397d526a8d7a14f0f73b5a1ffc9ea79f32d57b",
+      "lastIndexed": 1776254418791
+    },
+    "30_Library/100_zettelkasten/Shared Account Interactive Access Restriction.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "402d70f8a3ffef90c2d5fa19a7c777ad04c67a5cfebc605c55b4d8e35689aab1",
+      "lastIndexed": 1776254422634
+    },
+    "30_Library/100_zettelkasten/Global Administrator Limit.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "5f5e1cb4c566a9ec71b3154eb2148cdd97c59adc74a4447c27a5a4cf69a39ba9",
+      "lastIndexed": 1776254435266
+    },
+    "01_journals/Dailies/2026-04-16.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "e48b4779f44a0c7da42b43e9e3f4b244d554de770f48ec72d8153ecadb9bb3f5",
+      "lastIndexed": 1776297012425
+    },
+    "20_Thinking/21_Workbench/HEAD ‎OMOP Common Data Model.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "3046076eddd698f485a4a0e11017dcd97b9024b0cd013cf14eceef1e2e7538a1",
+      "lastIndexed": 1776325579169
+    },
+    "20_Thinking/21_Workbench/HEAD - Person_ID.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "770b0767df8e6038a544239a020fb3f0402c80b5eb5313dd0669fe4f3d5870df",
+      "lastIndexed": 1776325817638
+    },
+    "30_Library/200_projects/00_Active_Projects/OMOP/Azure Batch OMOP Worker - Clean-State Runbook.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "bb07e17a53ddc7876d5c9d597d7d3651dfed7221aa81253733a4df839e033052",
+      "lastIndexed": 1776325923845
+    },
+    "30_Library/200_projects/00_Active_Projects/OMOP/Azure Batch Quota Explained.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "82988a829a2540fefbbbadba90537c7778b477ab9d28ba0ab936b164c765f9f7",
+      "lastIndexed": 1776325927433
+    },
+    "30_Library/200_projects/00_Active_Projects/OMOP/What Does the Vocabulary Mapping Do.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "77805d8c6f5718f70931761127428ef5f268dd2d90a0010b113dfb85b18f5b13",
+      "lastIndexed": 1776325942203
+    },
+    "30_Library/200_projects/00_Active_Projects/OMOP/pieces_copilessage_export_april_14_2026_5_18pm.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "9bbe014bf8f2c043dc65de53bb5c04ba8edeed99bff231a0a42069e0727beceb",
+      "lastIndexed": 1776325945801
+    },
+    "00_Inbox/atoms_llm_loops.tmp.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "4120f9475258e7725b04f20061c1c8d0040bd4b9aff1550d592fb6e1535c2cc1",
+      "lastIndexed": 1776326031277
+    },
+    "20_Thinking/21_Workbench/HEAD - 2026-04-16 1016.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "b6bc8e49587cda4a39fb92cb44bd42947ed92cd5fa0d347bc939749da933e262",
+      "lastIndexed": 1776331029280
+    },
+    "20_Thinking/21_Workbench/HEAD Redesigning complex OMOP querying capabilities - FITFILE.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "96e70de786832e5704bd562fe866489a1da810b5c9dc2dece579d61a9243f008",
+      "lastIndexed": 1776336121714
+    },
+    "30_Library/200_projects/00_Active_Projects/OMOP/12 Million Patient Synthetic NHS-OMOP Pipeline.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "ea22dddbb829ede222890acb1913bb63d59aec9500f9717a42f1c04c9621125c",
+      "lastIndexed": 1776338459704
+    },
+    "30_Library/200_projects/00_Active_Projects/OMOP/OMOP Data Generation - Requirements.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "11bb1473ee5dde71c328153d77ef4f320a6c4628fb542517b29831ace91b2d5f",
+      "lastIndexed": 1776338463341
+    },
+    "30_Library/200_projects/00_Active_Projects/Deployments/CUH.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "c82acbf282315296caf272c7186d9fc4ca8b0883e7136a3c0616c1b58813cee1",
+      "lastIndexed": 1776338737615
+    },
+    "30_Library/200_projects/00_Active_Projects/Deployments/HIE.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "b83f260c18c8871c03223bc4af2b8a7d38156899c8f53485dcc73dfc75608ac8",
+      "lastIndexed": 1776338741259
+    },
+    "30_Library/200_projects/00_Active_Projects/Deployments/LCRCA.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "0b862a464beef14be4ff9ba3d3469436758de031f8368ece1f872ebffcc664ee",
+      "lastIndexed": 1776338744270
+    },
+    "30_Library/200_projects/00_Active_Projects/Deployments/MCNFT.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "acc1ded2d8aafe3dcaa8dfcad124b1ddd96b14a4f8b636cb7f485d070328e4e8",
+      "lastIndexed": 1776338747595
+    },
+    "30_Library/200_projects/00_Active_Projects/Deployments/NNUH.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "12a6f168eeeb0a8b1aeff576c41a129f46f213ef74cc8d743e1ae06da8559bfd",
+      "lastIndexed": 1776338751717
+    },
+    "30_Library/200_projects/00_Active_Projects/Deployments/MKUH.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "ec6d11a1f8301a51576a8768b712b51873e4be823c7f38d2e018823459822f42",
+      "lastIndexed": 1776338755556
+    },
+    "30_Library/200_projects/00_Active_Projects/Deployments/NWSDE.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "fa202919d9f58e10f6435c79ab3473bbe56a266d8f07ad46115ff4e39846c99f",
+      "lastIndexed": 1776338759034
+    },
+    "30_Library/200_projects/00_Active_Projects/OMOP/pieces_copilot_message_export_april_16_2026_10_44am.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "a1348f2bd82322c2b839db04e813766a5a4db12a3f7949e0f656de2827ae0e55",
+      "lastIndexed": 1776338762802
     }
   },
   "indexingInProgress": false,

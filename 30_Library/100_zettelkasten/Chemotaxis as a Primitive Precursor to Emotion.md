@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-20T10:03:00Z
 last_reviewed: ""
-modified: 2026-04-10T18:53:13+00:00
+modified: 2026-04-16T11:55:59+00:00
 status: ""
 tags: ["biology", "emotion", "evolution", "topic/systems"]
 title: Chemotaxis as a Primitive Precursor to Emotion

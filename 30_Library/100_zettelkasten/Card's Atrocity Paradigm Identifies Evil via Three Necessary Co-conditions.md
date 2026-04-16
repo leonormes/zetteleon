@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-04-10T16:52:03+00:00
+modified: 2026-04-16T11:55:59+00:00
 tags: [atrocities, claudia-card, heuristic, moral-philosophy]
 title: "Card's Atrocity Paradigm Identifies Evil via Three Necessary Co-conditions"
 ---
