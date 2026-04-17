@@ -1,18 +1,18 @@
 [
   {
-    "icon": "search",
-    "text": "Search the Inbox for the data-first customer IaC plans and the azure batch worker plan to create a unified technical requirements document in the Workbench"
+    "icon": "book-open",
+    "text": "Review my Zettelkasten notes on Paxos, Raft, and Mutual Exclusion to draft a synthesis in the Workbench comparing formal correctness with implementation intuition"
   },
   {
-    "icon": "calendar",
-    "text": "Extract action items from my Dailies over the last week and cross-reference them with the ADHD Master Map to suggest dopamine-leveraged scheduling improvements"
+    "icon": "file-plus",
+    "text": "Consolidate the recent copilot exports and the 12 Million Patient Synthetic NHS-OMOP Pipeline notes into a formal technical specification in the Active Projects folder"
+  },
+  {
+    "icon": "lightbulb",
+    "text": "Analyse my recent Dailies against the Principles for Peaceful Productivity SoT to suggest refinements for my deep work protocol"
   },
   {
     "icon": "folder-tree",
-    "text": "Organise the scattered technical protocols in the ops folder into a structured Sources of Truth hierarchy for Linux Networking and hybrid debugging"
-  },
-  {
-    "icon": "sparkles",
-    "text": "Analyse the Zettelkasten notes on Chemotaxis and emotion to draft a speculative note exploring the biological origins of affective states"
+    "text": "Search the Zettelkasten for notes on Workload Identity and Emergency Access to structure a new Identity Governance Map of Content"
   }
 ]

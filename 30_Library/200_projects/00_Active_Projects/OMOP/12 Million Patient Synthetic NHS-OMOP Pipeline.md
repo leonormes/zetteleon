@@ -1,7 +1,7 @@
 ---
 created: 2026-04-16T11:17:09+00:00
-modified: 2026-04-16T11:17:26+00:00
-title: Untitled
+modified: 2026-04-16T15:24:43+00:00
+title: 12 Million Patient Synthetic NHS-OMOP Pipeline
 ---
 
 This project structure organises the development of a high-scale, research-ready synthetic environment for the NHS. It prioritises the transition from raw clinical simulation to a structured OMOP Common Data Model (CDM) that handles 12 million patient identities and their associated 12 billion clinical rows.
