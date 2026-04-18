@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "storeName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-  "lastSync": 1776523279661,
+  "lastSync": 1776524621846,
   "files": {
     "assets/cropped_PXL_20250518_165827884.PORTRAIT.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -7735,8 +7735,8 @@
     },
     "30_Library/100_zettelkasten/Action Triggers Bridge the Gap Between Motion and Action.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "46809d3bcc31b756d554f7893bbe084275ec5056c8717131d096132b6f00e343",
-      "lastIndexed": 1775486745990
+      "contentHash": "9910457fffb308d17bbb9eaa99e20249bd241db4eb3ef02a6557d2b844958f0f",
+      "lastIndexed": 1776523418926
     },
     "30_Library/100_zettelkasten/Achieving a Goal is a Momentary Change Without Systemic Improvement.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -7830,8 +7830,8 @@
     },
     "30_Library/100_zettelkasten/ADHD Overthinking is a Substitute for Action.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "f22e238ade31954f6ce96c7cc333db54b4ce468ac19fb64ff42cd675c81d6d6b",
-      "lastIndexed": 1775486758523
+      "contentHash": "d43af04bd326bbbf43a28e8e958b7d806030d7a953988821c28b6f6b215bfdfc",
+      "lastIndexed": 1776523969473
     },
     "30_Library/100_zettelkasten/ADHD Paralysis is the Inability to Start a Task Until it Becomes an Emergency.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -7845,8 +7845,8 @@
     },
     "30_Library/100_zettelkasten/ADHD Causes Task Initiation Deficits Due to Dopamine Hyposensitivity.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "9deeb5abd2e21130d8c7b268593587143f0cd59f8b8571eb46c927e06288a226",
-      "lastIndexed": 1775486761141
+      "contentHash": "20e2bc38fdd8b8aff5c924a167ee7fab2e0f982dad4549f2f13016059a577576",
+      "lastIndexed": 1776523898896
     },
     "30_Library/100_zettelkasten/ADHD Causes Sustained Attention Deficits Requiring Higher Cortical Activation.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -7890,8 +7890,8 @@
     },
     "30_Library/100_zettelkasten/A Project Story Tracks a Project's Evolving Vision.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "1d1fc2f2057e965ba683058ac82289d83fcefdc3f712a9dab2b2df14f5a8439f",
-      "lastIndexed": 1775486767481
+      "contentHash": "eaf839b22517f376ab600b0dd10696e7a408338e7794a8d6fc59fcad0613bac4",
+      "lastIndexed": 1776524621846
     },
     "30_Library/100_zettelkasten/A Project Playlist is a Sequence of Small Tasks to Rebuild Momentum.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -10212,6 +10212,11 @@
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "92b205940a252b7ec5b890cd97d775159aab3fc7c861144c01246de1bdf308aa",
       "lastIndexed": 1776523279661
+    },
+    "30_Library/200_projects/10_Infrastructure/k8s/The k8s Service Abstraction.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "0e7b969c9eeafce8083f53d4a974ab7ae01d7cb52608ca17bccb3f12beb0dec5",
+      "lastIndexed": 1776523311629
     }
   },
   "indexingInProgress": false,
