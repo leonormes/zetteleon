@@ -2,10 +2,10 @@
 aliases: []
 created: 2025-03-02T12:09:10Z
 last_reviewed: ""
-modified: 2026-02-01T15:08:13+00:00
+modified: 2026-04-18T14:41:38+00:00
 status: ""
 tags: ["k8s", "service"]
-title: the k8s service abstraction
+title: The k8s Service Abstraction
 type: ""
 updated: 
 ---

@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "storeName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-  "lastSync": 1776520408255,
+  "lastSync": 1776523279661,
   "files": {
     "assets/cropped_PXL_20250518_165827884.PORTRAIT.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2798,11 +2798,6 @@
       "contentHash": "eab70ffd0db6a632efde97c12f96425f2827b04aaa66e765c68511f4f42c2c60",
       "lastIndexed": 1775485995936
     },
-    "30_Library/200_projects/10_Infrastructure/k8s/the k8s service abstraction.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "8f0f5ed1f6f92513dc7bf82d2c06338bca0a6d573c6cb937be20db765d5c17e8",
-      "lastIndexed": 1775486036836
-    },
     "30_Library/200_projects/10_Infrastructure/k8s/pod sys_admin.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "1d9c2ce409fa9b661fad29011dd6155a88941f34f06a6360fce43d0a6a19eb01",
@@ -3405,8 +3400,8 @@
     },
     "30_Library/200_projects/00_Active_Projects/ProdOS/Stage 2 Clarify (The On Writing Well Layer).md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "37e3bba076ce6059d64673ae92bd9a8f2b50f75b190b9fe20c32a85cd2e6e24d",
-      "lastIndexed": 1775486118876
+      "contentHash": "95efcad5c9ad5e625322020d03fbee93a15bae70d8e05b0cf5f2b6bc7b177bc8",
+      "lastIndexed": 1776521679769
     },
     "30_Library/200_projects/00_Active_Projects/ProdOS/Stage 3 Understand (The Writing to Learn Layer).md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -3540,8 +3535,8 @@
     },
     "30_Library/100_zettelkasten/You Fall to the Level of Your Systems, Not Rise to Your Goals.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "a77389966685d667c1251c93d9ea8257a54f42d6b4fc6328a24ac6c95141a239",
-      "lastIndexed": 1775486136935
+      "contentHash": "bef7e470ed686d46c6d4ea599963eb879248c53cb95475781f59ef083f654d95",
+      "lastIndexed": 1776522806993
     },
     "30_Library/100_zettelkasten/Writing isolates propositional content from phenomenological experience.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -3770,8 +3765,8 @@
     },
     "30_Library/100_zettelkasten/Understanding Compresses Information into Cognitive Chunks.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "2d00db056b6aeaa7e988cf99700af6d845309dc3f840cfef3864dd131fd069b7",
-      "lastIndexed": 1775486164250
+      "contentHash": "46575dd80a71b511c1e549c299764c2dbb5be2c327f02021aaa473a977003903",
+      "lastIndexed": 1776521360112
     },
     "30_Library/100_zettelkasten/Truth is a Necessary Condition for Knowledge.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -4040,8 +4035,8 @@
     },
     "30_Library/100_zettelkasten/The Rapid Planning Method (RPM) is a Purpose-Driven System.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "345f614399119e75beb3b31f606bd30e1189f5b61516850cfeccfecbadbadf4a",
-      "lastIndexed": 1775486199302
+      "contentHash": "2aa7185974c73e09f51326367fa021e4d61b58d1e4b255374772336a34756360",
+      "lastIndexed": 1776521087555
     },
     "30_Library/100_zettelkasten/The Prefrontal Cortex Provides Executive Control Over Action.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -4470,8 +4465,8 @@
     },
     "30_Library/100_zettelkasten/Taru o shiru is the practice of contentment with what one has.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "a03a15509803db1221803f100b09e232bfb826610d11a5b08fa63cbbc8c125f0",
-      "lastIndexed": 1775486254165
+      "contentHash": "512cbc4d91238ad524241119fca653bf2e7620368264d7f7472f8b48fb2e1c83",
+      "lastIndexed": 1776522141891
     },
     "30_Library/100_zettelkasten/Tacit vs Explicit Knowledge.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -5180,8 +5175,8 @@
     },
     "30_Library/100_zettelkasten/Plan To Plan-Just-In-Time for ADHD.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "27398caf726ebeb382ce78cdd0867e60a71778d33a75ae742cdc8bb2dff24395",
-      "lastIndexed": 1775486362548
+      "contentHash": "d967a7463992e167a5fc9526b57c6d434ebc7edb5e8095ccec6d90047824cbea",
+      "lastIndexed": 1776521003356
     },
     "30_Library/100_zettelkasten/Positive Cargo is a Strategy for Overwriting Bad Habits.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -6800,8 +6795,8 @@
     },
     "30_Library/100_zettelkasten/Effective Productivity Comes From the Bottom Up.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "0bd0a38a800bf960463db5a5bc37584509c7b84dcf54375a29214ee223eaaca0",
-      "lastIndexed": 1775486571137
+      "contentHash": "f94c2f8f83419eb38f85c1252bcb7de59e39dae0cdee37a27693951a1f3a85ab",
+      "lastIndexed": 1776521136504
     },
     "30_Library/100_zettelkasten/Elaboration Through Own Words Deepens Understanding.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -7475,8 +7470,8 @@
     },
     "30_Library/100_zettelkasten/Bookend routines mark the start and end of day.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "cf01cbc40893df6e6b3904f9065ae3a7d1a99645a062c7280379ee83d7104aba",
-      "lastIndexed": 1775486674580
+      "contentHash": "cf51b858b3ca9b30a813c599ff8ffccd61f4e517d8a41dd80c9128d3a3d090c6",
+      "lastIndexed": 1776521295047
     },
     "30_Library/100_zettelkasten/Block Universe and the Nature of Time.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -7520,8 +7515,8 @@
     },
     "30_Library/100_zettelkasten/Becoming System Agnostic.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "170633686818b45222b3e87a0016f2143250cbe931229dfb0c3bd067ef953a92",
-      "lastIndexed": 1775486688238
+      "contentHash": "f73a7fd778cf520f04200175b17a5cf8bce32f1f70f6afefecdd2d1119e37b50",
+      "lastIndexed": 1776521827656
     },
     "30_Library/100_zettelkasten/Bayesian Updating Adjusts Beliefs as New Evidence Arrives.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -7625,8 +7620,8 @@
     },
     "30_Library/100_zettelkasten/An Example of a Tcp Packet With All Layers.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "d2a0932a7126a0d5ee1560191603f90eca42c653541e448323b40d4e6892aca3",
-      "lastIndexed": 1775486733147
+      "contentHash": "06fb480a6ef719b154bf2c3cdc6bc016c323b174e86e310ea619c2f98c1d0d11",
+      "lastIndexed": 1776522100509
     },
     "30_Library/100_zettelkasten/Analysis (Definition).md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -7805,8 +7800,8 @@
     },
     "30_Library/100_zettelkasten/ADHD is a Heterogeneous Condition with Unique Symptom Patterns.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "f264d9b2dfae6faf921bac55ce6ea4da626d12c4449ae92d14198a134146a4bb",
-      "lastIndexed": 1775486755382
+      "contentHash": "7005a2543f15c77f677a56bdde5b67ce539cd69f8a7a4edab6e48c0fd1b7e050",
+      "lastIndexed": 1776522247363
     },
     "30_Library/100_zettelkasten/ADHD Working Memory Deficits Create a Compulsive Re-Planning Loop.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -7870,8 +7865,8 @@
     },
     "30_Library/100_zettelkasten/A Startup Ritual Eases the Transition into a Project Mindset.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "817a1241a1b758410f0394cb7f7790c5d9853f053ae2d0a05689a98c65e83deb",
-      "lastIndexed": 1775486764283
+      "contentHash": "c68f3b0a6f9512378a346d3912253ca36afaa1dab01c6b6a1c2e07e357a9715d",
+      "lastIndexed": 1776523030106
     },
     "30_Library/100_zettelkasten/A True Discussion Requires That Both Partners Can Say No Without Fear.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -7890,8 +7885,8 @@
     },
     "30_Library/100_zettelkasten/A Healthy Family Balances the Needs of Children with the Needs of the Spousal Relationship.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "d7c20d98c3fac9da69be7f193b0704d1abb1016e32253ccedfb1002f4eddb2af",
-      "lastIndexed": 1775486767151
+      "contentHash": "cbedff3bc4605f5ebe6f27930ea6b32a8fbe6de3df4e7eed4ec2accd0494367c",
+      "lastIndexed": 1776522510879
     },
     "30_Library/100_zettelkasten/A Project Story Tracks a Project's Evolving Vision.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -7900,8 +7895,8 @@
     },
     "30_Library/100_zettelkasten/A Project Playlist is a Sequence of Small Tasks to Rebuild Momentum.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "47a78046ddb0ce6411c6bb0fe14199c8946477e35628ad736e004738e7559599",
-      "lastIndexed": 1775486767894
+      "contentHash": "76ced7edf0cef965664406455116065fd41039c0f951eff5b90f940f26aa4e5d",
+      "lastIndexed": 1776523255825
     },
     "00_Inbox/Network Topography & fitConnectHosts.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -10215,8 +10210,8 @@
     },
     "01_journals/Dailies/2026-04-18.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "6c8fe44e51431000416a3848b84f272f9b0b007cf8dfb503a8a2054bfab6513c",
-      "lastIndexed": 1776520408254
+      "contentHash": "92b205940a252b7ec5b890cd97d775159aab3fc7c861144c01246de1bdf308aa",
+      "lastIndexed": 1776523279661
     }
   },
   "indexingInProgress": false,

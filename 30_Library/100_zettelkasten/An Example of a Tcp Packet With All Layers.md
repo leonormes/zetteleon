@@ -1,8 +1,8 @@
 ---
-aliases: []
+aliases: ["TCP Packet Example", "Packet Anatomy"]
 created: 2025-10-21T13:23:09Z
 last_reviewed: ""
-modified: 2026-02-01T15:08:37+00:00
+modified: 2026-04-18T12:15:00+00:00
 status: "evergreen"
 tags: ["SoftwareEngineering/Networking"]
 title: An Example of a Tcp Packet With All Layers
@@ -13,12 +13,12 @@ updated:
 ## TCP Packet Layers & Headers
 
 ### Application Layer Data
-
 - Actual data sent by an app (e.g., HTTP request: "GET /index.html").
 
 ---
 
-### Transport Layer: TCP Header
+### Transport Layer: TCP Header (Layer 4)
+*See: [[SoT - Protocol Data Units (PDU)#Layer 4: The TCP Segment (Reliability)|TCP Segment Details]]*
 
 | Field            | Example Value   | Notes                                       |
 |:--------------- |:-------------- |:------------------------------------------ |
@@ -36,7 +36,8 @@ updated:
 
 ---
 
-### Network Layer: IP Header (IPv4)
+### Network Layer: IP Header (Layer 3 - IPv4)
+*See: [[SoT - Protocol Data Units (PDU)#Layer 3: The IP Packet (Routing)|IP Packet Details]]*
 
 | Field                | Example Value | Notes                         |
 |:------------------- |:------------ |:---------------------------- |
@@ -53,7 +54,8 @@ updated:
 
 ---
 
-### Data Link Layer: Ethernet Header
+### Data Link Layer: Ethernet Header (Layer 2)
+*See: [[SoT - Protocol Data Units (PDU)#Layer 2: The Ethernet Frame (Local Delivery)|Ethernet Frame Details]]*
 
 | Field           | Example Value     | Notes                  |
 |:-------------- |:---------------- |:--------------------- |
@@ -63,8 +65,7 @@ updated:
 
 ---
 
-### Physical Layer
-
+### Physical Layer (Layer 1)
 - Bits/signals on wire (not usually shown in diagrams or captures)
 
 ---
@@ -73,17 +74,14 @@ updated:
 
 | Ethernet Header              | IP Header                                                     | TCP Header                                                                 | Application Data                                   |
 |:--------------------------- |:------------------------------------------------------------ |:------------------------------------------------------------------------- |:------------------------------------------------- |
-| Dest MAC (00:1A:2B:3C:4D:5E) | Version 4, Src 192.168.1.21, Dest 172.217.22.36, Protocol TCP | Src port 12345, Dest port 80, Seq 3764878698, Ack 145298484, Flags ACK/PSH | "GET /index.html HTTP/1.1rnHost: example.comrn…" |
+| Dest MAC (00:1A:2B:3C:4D:5E) | Version 4, Src 192.168.1.21, Dest 172.217.22.36, Protocol TCP | Src port 12345, Dest port 80, Seq 3764878698, Ack 145298484, Flags ACK/PSH | "GET /index.html HTTP/1.1\r\nHost: example.com\r\n…" |
 
 ---
 
 This condensed presentation lets you reference key fields for packet analysis, teaching, or debugging workflows.
 
-## Related Concepts
-
-For conceptual understanding of these layers, see:
-
-- [[Protocol Data Unit]] - Explains PDU naming conventions (Frames, Packets, Segments)
-- [[osi_layers]] - Overview of the 7-layer OSI model structure
-- [[Layer 4 Transport Layer]] - Conceptual explanation of TCP functionality
-- [[Layer 3 Network Layer]] - Conceptual explanation of IP routing
+## Related
+- [[SoT - Protocol Data Units (PDU)]]: _The canonical Source of Truth for PDU naming conventions (Frames, Packets, Segments) and layer responsibilities._
+- [[SoT - The Architecture of Packet Encapsulation (TCP-IP)]]: _Describes the "Russian Doll" mechanism of nesting headers as data moves down the stack._
+- [[SoT - Network Security Architecture]]: _Provides the broader context for how packet headers are used in firewalling and traffic segmentation._
+- [[SoT - Linux Networking Primitives]]: _Technical implementation of these protocol headers within the Linux kernel networking stack._
