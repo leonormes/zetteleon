@@ -2,7 +2,7 @@
 aliases: [Conservation of Complexity, Software Complexity Law, Tesler's Law]
 created: 2026-01-08T12:05:00Z
 last_reviewed: 2026-02-05
-modified: 2026-02-06T09:23:00+00:00
+modified: 2026-04-17T09:25:44+00:00
 status: stable
 tags: [architecture, complexity, mental_models, software_engineering, sot]
 title: SoT - Conservation of Complexity
@@ -89,7 +89,7 @@ This law is the foundation for the [[LLM Reasoning Efficiency is Proportional to
 - [[SoT - Kubernetes Cluster State Architecture]] (K8s shifts complexity to State/etcd).
 - [[Pattern - Helm Chart as a Compiler]] (Implementation of this law in DevOps).
 
-## ## Minimum Viable Understanding (MVU)
+## Minimum Viable Understanding (MVU)
 
 ### The "Balloon" Analogy (Tesler's Law)
 

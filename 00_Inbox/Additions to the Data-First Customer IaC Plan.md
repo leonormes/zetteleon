@@ -8,11 +8,11 @@ title: Additions to the Data-First Customer IaC Plan
 
 The plan jumps straight to Direction A (extract into shared module) but your MKUH Brutal Synthesis from Thursday April 9 (~2:04 PM) identified live correctness risks that must be patched first. Extracting a broken `locals.tf` into a shared module amplifies bugs across all customers:
 
-| Bug | Impact if Extracted Unpatched |
-|---|---|
-| VaultAuth split-brain—Terraform (jumpbox.tftpl) and CUE (render_fitfile.cue) both deploy `VaultAuth/default` with conflicting roles (`deployment_key` vs `vso`) | Every customer inherits the conflict; debugging becomes multi-repo |
-| Node pool scheduling—fallback `agentpool="workflow"` vs actual pool key `"workflows"` | Pods fail to schedule on every new customer cluster |
-| TheHyve bypass—raw `.tftpl` path skipping CUE entirely | Module consumers inherit a known architectural violation as "blessed" |
+| Bug                                                                                                                                                             | Impact if Extracted Unpatched                                         |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| VaultAuth split-brain—Terraform (jumpbox.tftpl) and CUE (render_fitfile.cue) both deploy `VaultAuth/default` with conflicting roles (`deployment_key` vs `vso`) | Every customer inherits the conflict; debugging becomes multi-repo    |
+| Node pool scheduling—fallback `agentpool="workflow"` vs actual pool key `"workflows"`                                                                           | Pods fail to schedule on every new customer cluster                   |
+| TheHyve bypass—raw `.tftpl` path skipping CUE entirely                                                                                                          | Module consumers inherit a known architectural violation as "blessed" |
 
 Recommendation: Add a Phase 0 to the plan: patch these three before any extraction begins. Your MKUH note already has the fix sequence for each.
 
@@ -117,16 +117,16 @@ The shared module should have a `post_bootstrap_cleanup` target or at least docu
 
 Given all of the above, here's the execution order I'd recommend:
 
-| Step | What | Depends On |
-|---|---|---|
-| 0 | Patch VaultAuth split-brain, node pool label, TheHyve bypass | Nothing—do now |
-| 1 | Enforce single-writer rule + document in CONTRACTS.md | Step 0 |
-| 2 | Extract merge helpers into shared module (incremental, not big-bang) | Step 1 |
-| 3 | Replace imperative lists with platform catalogs (Direction B) | Step 2 |
-| 4 | Move generators/ into shared module (Direction A completion) | Steps 2+3 + TheHyve fully in CUE |
-| 5 | Align ArgoCD app-of-apps (Direction D) | Step 3 |
-| 6 | Mandatory CI gates (Direction C, non-optional) | Steps 2+4 |
-| 7 | Gen 1/Gen 2 deprecation + customer migration | Steps 4+6 stable |
+| Step | What                                                                 | Depends On                       |
+| ---- | -------------------------------------------------------------------- | -------------------------------- |
+| 0    | Patch VaultAuth split-brain, node pool label, TheHyve bypass         | Nothing—do now                   |
+| 1    | Enforce single-writer rule + document in CONTRACTS.md                | Step 0                           |
+| 2    | Extract merge helpers into shared module (incremental, not big-bang) | Step 1                           |
+| 3    | Replace imperative lists with platform catalogs (Direction B)        | Step 2                           |
+| 4    | Move generators/ into shared module (Direction A completion)         | Steps 2+3 + TheHyve fully in CUE |
+| 5    | Align ArgoCD app-of-apps (Direction D)                               | Step 3                           |
+| 6    | Mandatory CI gates (Direction C, non-optional)                       | Steps 2+4                        |
+| 7    | Gen 1/Gen 2 deprecation + customer migration                         | Steps 4+6 stable                 |
 
 ---
 

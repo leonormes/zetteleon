@@ -1,7 +1,7 @@
 ---
 aliases: [Boundary Violation, Location-Unaware Code, Myopic Coding]
 created: 2026-01-30T06:57:15+00:00
-modified: 2026-04-10T16:52:08+00:00
+modified: 2026-04-17T09:02:01+00:00
 see_also: []
 superseded_by: ""
 supersedes: ""
@@ -19,8 +19,8 @@ Parochial code is not defined by illogical logic, but by Myopic Scope. It occurs
 
 #### Key Characteristics
 
-1. False Modularity: The code superficially adheres to formatting or file structure but violates [[Separation of Concerns]] by importing unrelated dependencies or leaking abstractions.
-2. Defensive Redundancy: It re-implements safety checks or validations that the broader architecture (e.g., the Type System or Middleware) already guarantees. This is a primary symptom of [[Context Rot]].
+1. False Modularity: The code superficially adheres to formatting or file structure but violates [[SoT - Atomicity and Loose Coupling|Separation of Concerns]] by importing unrelated dependencies or leaking abstractions.
+2. Defensive Redundancy: It re-implements safety checks or validations that the broader architecture (e.g., the Type System or Middleware) already guarantees. This is a primary symptom of [[SoT - Context Rot|Context Rot]].
 3. Volatile Coupling: It hard-couples to specific implementation details rather than stable interfaces, making future refactoring high-risk.
 
 > [!warning] The Parochial Paradox
@@ -28,10 +28,10 @@ Parochial code is not defined by illogical logic, but by Myopic Scope. It occurs
 
 ### Relevance to LLMs
 
-Parochial Code is the default failure mode of [[Large Language Models]].
+Parochial Code is the default failure mode of [[SoT - LLM Codebase Understanding & Hierarchy|Large Language Models]].
 
 - Context Window Limits: LLMs often cannot "see" the entire codebase. They optimize the snippet they are currently generating (The Micro) at the expense of system coherence (The Macro).
-- Perspective Drift: Without a strong "Meta-Context" or "Architectural Skeleton", the LLM regresses to the mean of its training data, ignoring project-specific constraints (e.g., introducing OOP patterns into a [[Data-Oriented Design]] system).
+- Perspective Drift: Without a strong "Meta-Context" or "Architectural Skeleton", the LLM regresses to the mean of its training data, ignoring project-specific constraints (e.g., introducing OOP patterns into a [[SoT - Data-Oriented Design|Data-Oriented Design]] system).
 
 ### Treatment & Prevention
 
@@ -43,4 +43,4 @@ The solution is Architectural Explicitization:
 
 ---
 
-See Also: [[SoT - Context Rot]], [[Perspective Drift]], [[Shotgun Surgery]]
+See Also: [[SoT - Context Rot]], [[SoT - Context Rot|Perspective Drift]], [[SoT - Type-Driven Development (The Torvalds Loop)#The Problem: \"Shotgun Parsing\"|Shotgun Surgery]], [[SoT - Dimensions of Code Understanding]]

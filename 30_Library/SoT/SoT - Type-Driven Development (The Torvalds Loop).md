@@ -2,11 +2,10 @@
 aliases: ["Data-Centric Programming", "Parse Don't Validate", "The Torvalds Loop", "Type-Driven Design", "Type-First Development", "Typestate Pattern"]
 created: 2025-12-29T10:28:01+00:00
 last_reviewed: "2026-04-04"
-last_synthesis: 2026-04-04
-modified: 2026-04-10T16:52:10+00:00
+modified: 2026-04-17T09:35:00+00:00
 source_of_truth: true
 status: "stable"
-synthesis-count: 2
+synthesis-count: 3
 tags: ["design-patterns", "programming", "rust", "SoftwareEngineering/Architecture", "TheHuman/Philosophy", "type_theory"]
 title: SoT - Type-Driven Development (The Torvalds Loop)
 type: "SoT"
@@ -17,9 +16,10 @@ updated:
 
 This protocol is the Methodological Implementation of the broader Data-Centric philosophy. It translates abstract principles into a concrete workflow.
 
-- The Axiom (Physics): [[SoT - Data-Oriented Design]]—_Structure is truth; Code is a derivative._
-- The Theory (Math): [[MOC - Type Theory]]—_Using Category Theory (Sum/Product types) to model that structure rigorosuly._
-- The Practice (Method): [[SoT - Type-Driven Development (The Torvalds Loop)]]—_The strict 4-phase protocol to execute the design._
+- The Axiom (Physics): [[SoT - Data-Oriented Design]] — _Structure is truth; Code is a derivative._
+- The Logic (Proofs): [[SoT - The Curry-Howard Correspondence (Propositions as Types)]] — _A program is a proof; a type is a proposition._
+- The Theory (Math): [[MOC - Type Theory]] — _Using Category Theory (Sum/Product types) to model that structure rigorously._
+- The Practice (Method): [[SoT - Type-Driven Development (The Torvalds Loop)]] — _The strict 4-phase protocol to execute the design._
 
 ---
 
@@ -28,7 +28,7 @@ This protocol is the Methodological Implementation of the broader Data-Centric p
 > [!quote] Linus Torvalds
 > "Bad programmers worry about the code. Good programmers worry about data structures and their relationships."
 
-The fundamental principle of this system is to move from "Stringly Typed" logic (Bash/Go/JS) to "Type-Driven" architecture (Rust). We reject the entropy of defensive coding and instead Make Invalid States Physically Unrepresentable.
+The fundamental principle of this system is to move from [[SoT - Stringly Typed vs Strongly Typed|Stringly Typed]] logic (Bash/Go/JS) to "Type-Driven" architecture (Rust). We reject the entropy of defensive coding and instead Make Invalid States Physically Unrepresentable.
 
 ---
 
@@ -38,7 +38,7 @@ In this protocol, Logic is the _last_ consideration. We prioritize the physical 
 
 | Phase | Focus | Architectural Goal |
 |:--- |:--- |:--- |
-| 1. Shape | Physical Reality | Design memory layout (`struct`/`enum`) for cache efficiency and logical exclusion. |
+| 1. Shape | Physical Reality | Design memory layout (`struct`/`enum`) for cache efficiency and logical exclusion. (See: [[SoT - Rust Type Mechanics|Rust ADTs]]) |
 | 2. Access | Mechanics | Define how data moves (Value vs. Pointer semantics). Control ownership and allocation. |
 | 3. Invariants | Integrity | Define constraints that must _always_ be true. Use the type system to enforce them. |
 | 4. Logic | Transformation | Write simple, linear algorithms that transform valid state A into valid state B. |
@@ -84,7 +84,7 @@ fn head(list: NonEmptyList<T>) -> T {
 
 ---
 
-## 4. Pattern: Typestate (State Machines)
+## 4. Pattern: [[SoT - Rust Type Mechanics#6.3 Type State Pattern (State Machines)|Typestate (State Machines)]]
 
 We use Affine Types (Move Semantics) to enforce State Machines where invalid transitions are impossible.
 
@@ -111,7 +111,7 @@ Logic, Code, and Category Theory are isomorphic. This provides a rigorous founda
 
 - Rust Construct: `enum`.
 - Logic: $A \lor B$.
-- Rule: Used for Choice and State. If states are mutually exclusive, they must be variants of an Enum.
+- Rule: Used for Choice and State. If states are mutually exclusive, they must be variants of an Enum. (See: [[SoT - Rust Type Mechanics#3. Algebraic Data Types (Enums)|Rust Sum Types]])
 
 ### B. Product Types (The "AND" Relationship)
 
@@ -148,3 +148,13 @@ Logic, Code, and Category Theory are isomorphic. This provides a rigorous founda
 1. Data First: If the `struct` allows an invalid state, the architecture is broken.
 2. Exhaustiveness: Use Enums for state; use the compiler to ensure every state is handled.
 3. Mechanical Sympathy: Respect how the CPU sees your data (contiguity vs. indirection).
+
+---
+
+## See Also
+
+- [[SoT - The Data-Centric Philosophy]] — _The worldview that prioritizes structure over logic._
+- [[SoT - Rust Type Mechanics]] — _The deep dive into the specific mechanics of the Rust type system._
+- [[SoT - The Curry-Howard Correspondence (Propositions as Types)]] — _The mathematical foundation for the program-as-proof paradigm._
+- [[SoT - Stringly Typed vs Strongly Typed]] — _A detailed look at the pitfalls of primitive obsession._
+- [[SoT - Conservation of Complexity]] — _The law that necessitates moving complexity into types._

@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "storeName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-  "lastSync": 1776409935574,
+  "lastSync": 1776520408255,
   "files": {
     "assets/cropped_PXL_20250518_165827884.PORTRAIT.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -150,8 +150,8 @@
     },
     "30_Library/SoT/SoT - Type-Driven Development (The Torvalds Loop).md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "72bdaf22c1a843e718a719a497c37c30f1c22c11744972575c10e4afb11ce73d",
-      "lastIndexed": 1775722406746
+      "contentHash": "116a6da501b855b7c3465eaf046296d6bdbbb6589cd2b064dca5f9661e94bf45",
+      "lastIndexed": 1776418232919
     },
     "30_Library/SoT/SoT - Think Like a Man of Action, Act Like a Man of Thought.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -310,8 +310,8 @@
     },
     "30_Library/SoT/SoT - The Data-Centric Philosophy.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "7fcaa1e48fd6e090b8ad6b3d880d9510c1ff0c792adc111f8b29d3bbe3961b6d",
-      "lastIndexed": 1775722425744
+      "contentHash": "de79629a12d187fab547d58b02ad5867a85bc4ab0664e17ebfaa506bdfcbbb8f",
+      "lastIndexed": 1776417858452
     },
     "30_Library/SoT/SoT - The Exponential Function.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -420,8 +420,8 @@
     },
     "30_Library/SoT/SoT - Social Friction Coefficient.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "d1aef3202c5c93ff88fef14fc5bad00d6f2c867707c8d7033dc3001689e2c325",
-      "lastIndexed": 1775485579448
+      "contentHash": "20250f616729719ffe14c605c71fbbb3a69957498b6a61753bb4dd96fda698a1",
+      "lastIndexed": 1776417628940
     },
     "30_Library/SoT/SoT - Slot Map (Generational Arena).md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -645,8 +645,8 @@
     },
     "30_Library/SoT/SoT - Parochial Code.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "dd3deb98df349c946a94010a22b3fc7e37ecc3d44f47417beb19d21f0408b0c8",
-      "lastIndexed": 1775722469260
+      "contentHash": "22bec72912eadb4bf7530006701a03861c1d32da44a4902201b92d20e8fcda02",
+      "lastIndexed": 1776416530427
     },
     "30_Library/SoT/SoT - Padded Cell vs Nanny Languages.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -1275,8 +1275,8 @@
     },
     "30_Library/SoT/SoT - Conservation of Complexity.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "b113e3c53b46de7f68dfe6a85125f5b93869d95a7c1beed630f86a6bfb4a450d",
-      "lastIndexed": 1775485753838
+      "contentHash": "e7ffc8d6e5095ab17c03fea9f8e52dbeceae4cfc9a96955dcb0cbdbc7ddad5a2",
+      "lastIndexed": 1776417950574
     },
     "30_Library/SoT/SoT - Container Security & Hardening.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -1430,8 +1430,8 @@
     },
     "30_Library/SoT/SoT - Atomicity and Loose Coupling.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "f555391d0239de86b0d82048fc241360f50309b84fabdc55d7291b05f317dbb5",
-      "lastIndexed": 1775485773205
+      "contentHash": "1b692b01c86d4d187a0b3520a2373b649bdb9cc97ff8193fac35ce83fcafe9b1",
+      "lastIndexed": 1776417513005
     },
     "30_Library/SoT/SoT - Active Learning Techniques.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2385,8 +2385,8 @@
     },
     "30_Library/MoC/MOC - Shame.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "48fc984791b261033f6fc2a3f1b6105ea23d53d55b8eb683b68fdcd2107c38b2",
-      "lastIndexed": 1775722734992
+      "contentHash": "45dbe7cb9b030e40941bc0cfb8aff61f055ad56232f56dfb36c3fb2e36c9c680",
+      "lastIndexed": 1776418415958
     },
     "30_Library/MoC/MOC - Storytelling Techniques.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2640,8 +2640,8 @@
     },
     "30_Library/MoC/MOC - Data-Centric Software Engineering.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "264ee7ac9e8b4c787be3032589a8936df15b075589458c5966036bbdcc5adb25",
-      "lastIndexed": 1775722784742
+      "contentHash": "27ac82de323c53bdc1699f3b7be192dfbfb050872c59ae82706191e66f9a386c",
+      "lastIndexed": 1776418097125
     },
     "30_Library/MoC/MOC - Container Runtime & Orchestration.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -8748,11 +8748,6 @@
       "contentHash": "6953c8f4d26cc7cb41eed9423ccc68c4d348986ae8734e8dbbd4fe8272ca02c4",
       "lastIndexed": 1775660739671
     },
-    "20_Thinking/21_Workbench/The Halting Problem.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "4cf73afbf425ac5a4970acbb39771b2c552cc941e18545fcfd24db5aa506abe5",
-      "lastIndexed": 1775723043839
-    },
     "30_Library/SoT/SoT - Bridging the Intention-Action Gap.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "e95c60b8691663e1dfaabc00eeb8083ebd7c3f99bec154f90cb12e17bb1e279c",
@@ -9257,11 +9252,6 @@
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "5a3b9d28a3d7180cd2cb4c99a85511d1e0427db2c76fd38e69566f780b113b2d",
       "lastIndexed": 1776161196861
-    },
-    "20_Thinking/21_Workbench/HEAD AI-related debt.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "4c76ef5a3dcb1958bf58b714c443388e724e66af2dd2a5cf00e8d20875cbcdcc",
-      "lastIndexed": 1776161540780
     },
     "00_Inbox/Readwise/Full Document Contents/Hardening macOS part 6 The Human Surface and Metadata Risks.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -10212,6 +10202,21 @@
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "2b10006ce82e0a2355319c0b9103c666b638b757722c4e545a0f79dbff137f52",
       "lastIndexed": 1776409935574
+    },
+    "30_Library/200_projects/00_Active_Projects/OMOP/Position Statement Clinical Fidelity in Synthetic OMOP Data Generation.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "42ce3ce6818df8a9bd613f4906e5e7de73b4d6a9396a3750c7c35d1b6d610fa7",
+      "lastIndexed": 1776410733358
+    },
+    "10_System/prompts/Note Refresh & Link Auditor.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "92805dc49964dca93fdca21fe160067828b5c3af43f048034659aa8d71497d4c",
+      "lastIndexed": 1776416651788
+    },
+    "01_journals/Dailies/2026-04-18.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "6c8fe44e51431000416a3848b84f272f9b0b007cf8dfb503a8a2054bfab6513c",
+      "lastIndexed": 1776520408254
     }
   },
   "indexingInProgress": false,

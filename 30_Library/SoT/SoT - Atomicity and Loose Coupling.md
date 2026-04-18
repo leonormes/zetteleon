@@ -12,7 +12,7 @@ updated:
 
 ## 2. The Core Tension: Independence vs. Interconnectedness
 
-We crave Modularity (understanding a part without understanding the whole) but reality is defined by Interconnectedness (the whole is greater than the sum of parts).
+We crave [[SoT - Dimensions of Code Understanding|Modularity]] (understanding a part without understanding the whole) but reality is defined by [[SoT - Emergence|Interconnectedness]] (the whole is greater than the sum of parts).
 
 - The Problem ("False Atoms"): Notes that are fragments ("This is why it failed") rather than ideas ("The bridge failed due to harmonic resonance"). They are useless without their neighbor.
 - The Ideal ("True Atoms"): Notes that function like Lego bricks. A single brick has defined dimensions and properties (self-contained) but is useless until connected (interdependent).
@@ -51,7 +51,7 @@ How to write notes that are "Usefully Independent":
 
 ---
 
-## 5. ProdOS Integration: The Network Effect
+## 5. [[SoT - PRODOS Core Specification|ProdOS]] Integration: The Network Effect
 
 In ProdOS, we accept that Meaning is Emergent.
 
@@ -60,3 +60,12 @@ In ProdOS, we accept that Meaning is Emergent.
 - The Network: Is the actual "Knowledge."
 
 We gain control over complexity not by isolating atoms, but by standardizing how they connect.
+
+---
+
+## See Also
+
+- [[SoT - Parochial Code]] — _The architectural failure mode resulting from a lack of modularity and boundary awareness._
+- [[SoT - Macro-Micro Unification]] — _The framework for balancing atomic detail with system-wide coherence._
+- [[SoT - Systems Thinking]] — _The broader context for understanding interconnectedness and feedback loops._
+- [[SoT - Dimensions of Code Understanding]] — _Defines 'Structural' understanding as adherence to separation of concerns._

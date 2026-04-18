@@ -24,12 +24,21 @@ This model treats a team like a mechanical transmission system.
 
 ### 2.1 Meta-Work and Efficiency Loss
 
-Meta-Work is the overhead required to manage the dysfunction itself. It is work about work, and includes activities like:
+[[SoT - Accidental Social Complexity|Meta-Work]] is the overhead required to manage the dysfunction itself. It is work about work, and includes activities like:
 
-- Spending hours convincing a lead of a correct solution they are biased against.
+- Spending hours convincing a lead of a correct solution they are biased against (See: [[SoT - Authority-Competence Asymmetry]]).
 - Creating extensive slide decks for non-technical managers to justify a sound technical decision.
 - Navigating political hurdles to get a simple approval.
 
 The Social Friction Coefficient can be quantified as a percentage of efficiency loss. For example, if a developer spends 40% of their time managing their tech lead's ego to get a pull request approved, the team has a 40% efficiency loss due to social drag.
 
-This "machine" is burdened with features dedicated to handling problems it causes itself, a clear sign of Accidental Social Complexity and a high Social Friction Coefficient.
+This "machine" is burdened with features dedicated to handling problems it causes itself, a clear sign of [[SoT - Accidental Social Complexity]] and a high Social Friction Coefficient.
+
+---
+
+## See Also
+
+- [[SoT - Accidental Social Complexity]] — _The broader category of non-essential complexity introduced by social dynamics._
+- [[SoT - Authority-Competence Asymmetry]] — _A primary driver of social friction where decision-making power is decoupled from expertise._
+- [[SoT - Systems Thinking]] — _Provides the 'mechanical' framework for understanding friction and energy loss in social systems._
+- [[SoT - Dunning-Kruger Effect]] — _Explains the cognitive bias that often necessitates excessive 'ego-soothing' in dysfunctional teams._

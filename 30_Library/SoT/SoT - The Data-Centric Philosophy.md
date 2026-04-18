@@ -1,11 +1,10 @@
 ---
 aliases: ["Data Dominates Code", "Data-Centric Software Engineering", "Data-Oriented Programming", "DOD", "DOP", "Linus's Law", "The Axiom of Data", "The Data-Centric Philosophy"]
 created: 2025-12-22T00:00:00Z
-last_synthesis: 2026-04-02
-modified: 2026-04-10T16:52:09+00:00
+modified: 2026-04-17T09:20:00+00:00
 source_of_truth: true
 status: evergreen
-synthesis-count: 3
+synthesis-count: 4
 tags: ["complexity", "data-centric", "dod", "dop", "philosophy", "prodos/sot", "software-engineering"]
 title: SoT - The Data-Centric Philosophy
 trust-level: stable
@@ -14,7 +13,7 @@ type: "SoT"
 
 ## Minimum Viable Understanding (MVU)
 
-Structure is Truth; Code is Derivative. Software complexity obeys a conservation law: it must reside either in the procedural Logic (Code) or the structural Schema (Data). When you "worry about data structures," you move complexity into the static representation, making the dynamic code trivial, robust, and performant.
+Structure is Truth; Code is Derivative. [[SoT - Conservation of Complexity|Software complexity obeys a conservation law (Tesler's Law)]]: it cannot be destroyed, only relocated. It must reside either in the procedural Logic (Code) or the structural Schema (Data). When you "worry about data structures," you move complexity into the static representation, making the dynamic code trivial, robust, and performant.
 
 ---
 
@@ -27,16 +26,17 @@ Structure is Truth; Code is Derivative. Software complexity obeys a conservation
 | Fred Brooks | Relational | "Show me your tables, and I won't usually need your flowcharts; they'll be obvious." |
 | Eric Raymond | Unix Philosophy | "Smart data structures and dumb code works a lot better than the other way around." |
 | Mike Acton | DOD | "Code models the world? No. Code transforms data." |
+| Rich Hickey | Simple/Easy | "Complecting (braiding) state and behavior is the root of all evil." (See: [[SoT - Simple Made Easy (Rich Hickey)]]) |
 
 ---
 
 ## 2. The Core Architecture: Separate Data from Behavior
 
-To prevent [[SoT - Context Rot]] and [[SoT - Parochial Code]], the Data-Centric architect adheres to these strict principles:
+To prevent [[SoT - Context Rot|Context Rot]] and [[SoT - Parochial Code|Parochial Code]], the Data-Centric architect adheres to the principles defined in the [[SoT - Type-Driven Development (The Torvalds Loop)|Torvalds Loop]]:
 
 ### 2.1 Separate Data from Behavior
 
-- The Rule: Use Anemic Domain Models.
+- The Rule: Use Anemic Domain Models (where data and logic are decoupled).
 - Data: Structs/Records hold _only_ state. They are "dumb" containers.
 - Behavior: Logic resides in separate, pure functions that transform data.
 - Why: Eliminates the hidden state mutations and side effects of methods. It makes the "Data Flow" visible in the type signature.
@@ -44,7 +44,7 @@ To prevent [[SoT - Context Rot]] and [[SoT - Parochial Code]], the Data-Centric 
 ### 2.2 Composition Over Inheritance
 
 - The Rule: Rigid class hierarchies are forbidden.
-- Mechanism: Build complex types by composing simple structs (Product Types) or choosing between variants (Sum Types).
+- Mechanism: Build complex types by composing simple structs ([[SoT - Type-Driven Development (The Torvalds Loop)#5. The Trinity: Mathematical Truth|Product Types]]) or choosing between variants ([[SoT - Type-Driven Development (The Torvalds Loop)#5. The Trinity: Mathematical Truth|Sum Types]]).
 - Why: Inheritance hides the flow of data; Composition makes it explicit.
 
 ---
@@ -68,7 +68,7 @@ Linus Torvalds distinguishes "Good Taste" by how a developer handles edge cases.
 
 ---
 
-## 5. Applied Philosophy: Git's DAG
+## 5. Applied Philosophy: [[SoT - Git|Git's Content-Addressable DAG]]
 
 The architecture of Git is the ultimate proof of this philosophy.
 
@@ -84,3 +84,6 @@ The architecture of Git is the ultimate proof of this philosophy.
 - Physics (The Hardware): [[SoT - Data-Oriented Design]]
 - Mathematics (The Theory): [[MOC - Type Theory]]
 - Internals (The Structures): [[MOC - Data-Oriented Structures & Internals]]
+- Complexity (The Law): [[SoT - Conservation of Complexity]]
+- Information (The Metric): [[SoT - Information Hiding (Parnas)]]
+- Execution (The LLM Corollary): [[SoT - LLM Reasoning Obeys the Complexity Conservation Law]]

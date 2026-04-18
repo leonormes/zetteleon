@@ -1,11 +1,10 @@
 ---
 aliases: [Data-Centric Design Index, Engineering MOC, SDLC MOC, The Data-First Hub]
 created: 2025-02-15T07:24:57Z
-last_synthesis: 2026-04-02
-modified: 2026-04-10T16:52:04+00:00
+modified: 2026-04-17T09:30:00+00:00
 source_of_truth: true
 status: evergreen
-synthesis-count: 3
+synthesis-count: 4
 tags: [architecture, data-centric, engineering, prodos/moc, programming, sdlc]
 title: MOC - Data-Centric Software Engineering
 type: map
@@ -18,9 +17,11 @@ The philosophy of Data-First Programming follows an unbroken chain from the phys
 | Level | Role | Source of Truth | Core Principle |
 |:--- |:--- |:--- |:--- |
 | 1. The Axiom | Worldview | [[SoT - The Data-Centric Philosophy]] | "Data Dominates Code." Linus Torvalds: "Bad programmers worry about the code. Good programmers worry about data structures." |
-| 2. The Theory | Mathematics | [[MOC - Type Theory]] | "Applied Category Theory." Modeling structure with Sum/Product types and mathematical invariants. |
-| 3. The Physics | Performance | [[SoT - Data-Oriented Design]] | "Hardware is the Platform." Cache-aligned data layout (SoA vs. AoS) for massive performance gains. |
-| 4. The Practice | Methodology | [[SoT - Type-Driven Development (The Torvalds Loop)]] | "The Torvalds Loop." A 4-phase protocol: Shape $\to$ Access $\to$ Invariants $\to$ Logic. |
+| 2. The Constraint | Physics | [[SoT - Conservation of Complexity]] | "Tesler's Law." Complexity is conserved; it must be moved into Data/Schema to simplify Logic. |
+| 3. The Theory | Mathematics | [[MOC - Type Theory]] | "Applied Category Theory." Modeling structure with Sum/Product types and mathematical invariants. |
+| 4. The Physics | Performance | [[SoT - Data-Oriented Design]] | "Hardware is the Platform." Cache-aligned data layout (SoA vs. AoS) for massive performance gains. |
+| 5. The Practice | Methodology | [[SoT - Type-Driven Development (The Torvalds Loop)]] | "The Torvalds Loop." A 4-phase protocol: Shape $\to$ Access $\to$ Invariants $\to$ Logic. |
+| 6. The Audit | Behavioral | [[SoT - Dimensions of Code Understanding]] | "Behavioral Signal." Measuring understanding via structural adherence and coupling awareness. |
 
 ---
 
@@ -29,6 +30,7 @@ The philosophy of Data-First Programming follows an unbroken chain from the phys
 - The Torvalds Loop: The strict protocol where Logic is the _last_ consideration.
 - Parse, Don't Validate: Move validation to the boundary; transform raw input into "Trusted Types."
 - Making Invalid States Unrepresentable: Using the type system to mathematically prove system integrity.
+- Information Hiding: [[SoT - Information Hiding (Parnas)]]—Encapsulating design decisions via abstract interfaces.
 - Good Taste: [[SoT - The Data-Centric Philosophy#4. The Litmus Test: \"Good Taste\"|The Indirect Pointer Pattern]]—solving edge cases via structure rather than `if` statements.
 
 ---
@@ -39,13 +41,13 @@ The philosophy of Data-First Programming follows an unbroken chain from the phys
 
 _Core Map: [[MOC - Data-Centric Infrastructure]]_
 
-- GitOps: [[200_projects/10_Infrastructure/gitops/git index.md|The Git Data Perspective]]—Git as a Content-Addressable Merkle DAG.
+- GitOps: [[30_Library/200_projects/10_Infrastructure/gitops/git index.md|The Git Data Perspective]]—Git as a Content-Addressable Merkle DAG.
 - Secrets: [[SoT - Vault KV Data Structure]]—Vault as a Versioned Prefix Trie.
 - Integrity: [[SoT - Vault KV Data Structure#6. The Integrity Model (Merkle Tree)|Merkle Trees]]—Recursive integrity proofs and binary identity.
 
 ### B. Networking & IAM (Networking as State Transport)
 
-_Core Map: [[MOC - Data-Centric Networking]]_
+_Core Map: [[MOC - Networking]]_
 
 - The Theory: [[SoT - The Data-Centric Theory of Networking]]—Routing as prefix-trie traversal.
 - Encapsulation: [[SoT - The Architecture of Packet Encapsulation (TCP-IP)]]—The recursive nesting of data containers.
@@ -56,6 +58,7 @@ _Core Map: [[MOC - Data-Centric Networking]]_
 _Core Map: [[MOC - Data-Oriented Structures & Internals]]_
 
 - The Structures: [[SoT - High-Performance Data Structures]]—Ring Buffers, Flattened Trees, CSR Graphs.
+- Type Mechanics: [[SoT - Rust Type Mechanics]]—Enums (Sum Types) and Structs (Product Types).
 - The Safe Pointer: [[SoT - Slot Map (Generational Arena)]]—Referencing data without pointers.
 - The Engine: [[SoT - Database Internals for Systems Programmers]]—Storage Pages, B-Trees, and MVCC.
 
@@ -64,7 +67,8 @@ _Core Map: [[MOC - Data-Oriented Structures & Internals]]_
 ## 4. Engineering Prompts
 
 - [[Prompt - Data-Centric Coding Assistant]]—Enforcing the Data-First Design Loop.
-- [[Prompt - Senior Systems Architect (Data-Centric Refactor)]]—Refactoring technical fragments into rigorous SoT.
+- [[Knowledge Harvesting & Normalization Agent]]—Refactoring technical fragments into rigorous SoT.
+- [[SoT - LLM Reasoning Obeys the Complexity Conservation Law]]—The LLM corollary to Tesler's Law.
 
 ---
 
@@ -72,3 +76,5 @@ _Core Map: [[MOC - Data-Oriented Structures & Internals]]_
 
 - [[MOC - Interpretation of References]]—Mapping symbols (code) to memory/reality.
 - [[SoT - Simple Made Easy (Rich Hickey)]]—Decomplecting state and logic.
+- [[SoT - Parochial Code]] — _The failure mode resulting from a lack of architectural boundaries._
+- [[SoT - Context Rot]] — _The entropy of high-level awareness in long sessions._
