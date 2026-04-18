@@ -2,8 +2,8 @@
 aliases: []
 created: 2025-10-31T11:23:00Z
 last_reviewed: ""
-modified: 2026-02-01T15:08:31+00:00
-status: "seedling"
+modified: 2026-04-18T11:15:00+00:00
+status: "stable"
 tags: ["TheHuman/Cognition", "visualization"]
 title: Map Analogy Illustrates Abstraction Tradeoffs
 type: "example"
@@ -23,3 +23,14 @@ Cognitive Parallel:
 
 - Low abstraction = detailed but narrow
 - High abstraction = broad but generalized
+
+---
+
+## Related
+
+- [[The Map is Not the Territory]] — _The foundational epistemological principle that any representation is necessarily simplified compared to what it represents._
+- [[SoT - Reality, Models, and the Limits of Accuracy]] — _The unified specification for how models and abstractions function in the ProdOS system._
+- [[MOC Symbols vs Concepts They Represent]] — _A map exploring the critical distinction between representations and the underlying reality._
+- [[SoT - Cognitive Tools and Visual Abstraction]] — _Explores the role of visual tools in managing different levels of cognitive load and detail._
+- [[Abstraction as Climbing a Hill]] — _A complementary analogy for how increasing abstraction changes one's perspective and breadth of view._
+- [[Leaky Abstractions]] — _Explores the failure points where simplified models break down under the weight of underlying complexity._

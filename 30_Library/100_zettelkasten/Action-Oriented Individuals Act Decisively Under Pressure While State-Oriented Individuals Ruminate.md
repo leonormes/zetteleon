@@ -2,14 +2,27 @@
 aliases: ["Action Orientation", "State Orientation"]
 created: 2025-11-12T14:10:08Z
 last_reviewed: ""
-modified: 2026-02-01T15:08:37+00:00
-status: "seedling"
+modified: 2026-04-18T12:00:00+00:00
+status: "stable"
 tags: ["personality", "TheHuman/Psychology", "volition"]
 title: Action-Oriented Individuals Act Decisively Under Pressure While State-Oriented Individuals Ruminate
 type: "concept"
 updated: 
 ---
 
+## Action-Oriented Individuals Act Decisively Under Pressure While State-Oriented Individuals Ruminate
+
 Summary: "Action versus state orientation" is a personality trait describing how individuals respond to increasing situational demands. Action-oriented individuals act decisively, while state-oriented individuals tend to get stuck in ruminative cognitions.
 
 Details: When faced with adverse or demanding conditions, action-oriented individuals tend to solve problems intuitively and act rapidly without excessive rumination. In contrast, state-oriented individuals are more likely to engage in repetitive, unproductive thoughts about their situation, which can impair long-term performance. This distinction highlights a key difference in volitional processes—whether a person responds to challenges with action or gets stuck in a state of rumination.
+
+---
+
+## Related
+
+- [[Motivation, Volition, and Control are Distinct Aspects of the Action Process]] — _Distinguishes between the drive to act (Motivation) and the deliberate experience of acting (Volition)._
+- [[The DMN as a Demon - Negative Rumination in ADHD]] — _Explores the neurological basis of state-orientation when the Default Mode Network becomes a source of self-critical brooding._
+- [[ADHD Working Memory Deficits Create a Compulsive Re-Planning Loop]] — _An example of state-orientation where cognitive insecurity leads to repetitive planning as a substitute for action._
+- [[SoT - The Cognitive Physiology of Task Execution]] — _Deconstructs the transition from thinking to doing and the neurological bottlenecks that can trap an individual in "State Mode."_
+- [[Dereflection Counters Rumination by Redirecting Attention from Self to External Values]] — _A therapeutic technique for shifting from a ruminative state-orientation toward value-driven action._
+- [[SoT - Behavioral Architecture]] — _Focuses on using environmental "Pipes" to reduce the volitional load required to move from a state of rumination into action._
