@@ -3,10 +3,10 @@ aliases: ["Productivity Systems Map"]
 created: 2025-11-10T13:10:00Z
 criteria: ""
 exclusions: "Specific tutorials for GTD or Atomic Habits."
-last_reviewed: "null"
-modified: 2026-02-01T15:08:05+00:00
-scope: ""
-status: "null"
+last_reviewed: 2026-04-18
+modified: 2026-04-18T16:15:00+00:00
+scope: "An exploration of how external systems and collective structures substitute for internal willpower, both historically and in modern neurodiverse contexts."
+status: "evergreen"
 tags: ["history", "TheHuman/Cognition", "topic/productivity", "topic/systems"]
 title: MOC - Productivity Systems vs Historical Achievement
 type: "map"
@@ -40,8 +40,19 @@ The informal structures that guided historical achievement can be called proto-s
 
 A powerful way to understand the function of any system, formal or informal, is through metaphor.
 
-- The Container: [[Systems Act as External Containers for Motivational Energy|Systems and routines act as external containers]] that give shape and direction to our formless energy and motivation.
-- The Cognitive Benefit: By doing this, [[Externalizing Direction Reduces Cognitive Load and Fosters Flow|externalizing direction reduces our cognitive load]], making it easier to act.
-- A Vital Tool: This makes external structures especially critical, as [[External Systems Are Vital for Managing Fluctuating Motivation|they are vital for managing fluctuating motivation]], a common trait in neurodiversity.
+- The Container: [[SoT - Behavioral Architecture|Systems act as external containers]] that give shape and direction to our formless energy and motivation.
+- The Cognitive Benefit: By [[SoT - Behavioral Architecture|externalizing direction]], we reduce our cognitive load, making it easier to act.
+- A Vital Tool: This makes external structures especially critical, as [[Consistency and Momentum|they are vital for managing fluctuating motivation]], a common trait in neurodiversity.
 
 In essence, routines and systems serve as the invisible banks and pipes for our motivational energy, externalizing the "direction" so achievement becomes a matter of flow, not force.
+
+---
+
+## Related Source of Truth (SoT) Notes
+
+- [[SoT - Behavioral Architecture]] — _The modern engineering specification for the "invisible pipes" of behavior, replacing willpower with environmental design._
+- [[SoT - The Cognitive Physiology of Task Execution]] — _Deconstructs why the ADHD brain requires external "hooks" to initiate and sustain action._
+- [[SoT - Accidental Social Complexity]] — _Explores the collective friction that modern systems attempt to formalize and remove._
+- [[SoT - PRODOS Core Specification]] — _Defines the "Logic-Dopamine Mismatch" that makes external scaffolding mandatory for neurodivergent high-achievers._
+- [[Consistency and Momentum]] — _Addresses the challenge of sustaining long-term effort when the internal "engine" of motivation is volatile._
+- [[Strong Habits Override Weak Intentions]] — _The psychological mechanism explaining why systems (habits) are more reliable than goals (intentions)._

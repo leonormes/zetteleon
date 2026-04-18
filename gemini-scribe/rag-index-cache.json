@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "storeName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-  "lastSync": 1776526245970,
+  "lastSync": 1776527365596,
   "files": {
     "assets/cropped_PXL_20250518_165827884.PORTRAIT.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -570,8 +570,8 @@
     },
     "30_Library/SoT/SoT - Process Execution (Kernel Logic).md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "67c84c1613add241bc4edea1ec5fdc8c7a991b64959cd2ac2564841ece039052",
-      "lastIndexed": 1775485600950
+      "contentHash": "ea2882b9c34d04d9bfc26fd2c863bf347ee394ab574f6bd8335874d865c62bea",
+      "lastIndexed": 1776527365596
     },
     "30_Library/SoT/SoT - Principles for Peaceful Productivity.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2460,8 +2460,8 @@
     },
     "30_Library/MoC/MOC - Productivity Systems vs Historical Achievement.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "ef23a1e7423e2a36cf71c3c3ccba65fac1e2e7b26046be666de440a50ee7ea61",
-      "lastIndexed": 1775485928154
+      "contentHash": "6ecb5f0e2ab61f9b65495a985626637e37132d65e9833f036c96fe3f642416ea",
+      "lastIndexed": 1776526661738
     },
     "30_Library/MoC/MOC - ProdOS.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2545,8 +2545,8 @@
     },
     "30_Library/MoC/MOC - Interpretation of References.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "20ddfa3c3893c5e7c0ca90acae2a28c49f76d001fe440780ab5ebd61db0bdd8c",
-      "lastIndexed": 1775669618385
+      "contentHash": "97b136eb7b2e6f83a7c6619fbf0114893eefdc0a4b1c1110586d577a8bd31e56",
+      "lastIndexed": 1776526600192
     },
     "30_Library/MoC/MOC - Keyboard Workflow.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2700,8 +2700,8 @@
     },
     "30_Library/MoC/MOC - Breaking the ADHD Overthinking-Procrastination Cycle.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "d2b21968091d990ad4c53fc3ebe6b2c033b612381d310c8e77048ddda393b2cb",
-      "lastIndexed": 1775722802964
+      "contentHash": "5cfaae55d1446ad031e5de4efa30a544d6fc123b6c8c713dfc818dd583ad7f02",
+      "lastIndexed": 1776526388545
     },
     "30_Library/MoC/MOC - Assertiveness Through System Design.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -3632,11 +3632,6 @@
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "5c8b2324e5bd0a868b69bf7a50a34176e57a09ebea73eae8372606060222d9c1",
       "lastIndexed": 1775486149067
-    },
-    "30_Library/100_zettelkasten/Voice-to-Text Can Be an Effective Writing Tool for ADHD.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "cedcc4c2dfd448821fbf68226356c7ab10396207d8221dccf4a0e8a5ca0e39d7",
-      "lastIndexed": 1775486149266
     },
     "30_Library/100_zettelkasten/WebSocket Protocol Provides Persistent Full-Duplex Communication.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -5340,8 +5335,8 @@
     },
     "30_Library/100_zettelkasten/Originality is Synthesis Not Creation From Nothing.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "dc06ab2d01d3d2bc8469ef97a5ba6c8894cd3ef5742f2045df3cdd28bee366d2",
-      "lastIndexed": 1775486380968
+      "contentHash": "65c2499c5504ccbe2cef7d15571e69a20b2721dd32bc8f6f0dcb2d878cb277c3",
+      "lastIndexed": 1776526882044
     },
     "30_Library/100_zettelkasten/Overwhelm.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -5365,8 +5360,8 @@
     },
     "30_Library/100_zettelkasten/Originality is the Unique Synthesis of Existing Ideas.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "1e234d2e52799f8053d807868484c8fb80e92d2eb269c70c1bf52090600c5c9e",
-      "lastIndexed": 1775486384379
+      "contentHash": "9806dc230cb97fc7cd3fe2d77db7232ef99be983909a2880fad4ec4005f9f17c",
+      "lastIndexed": 1776526980493
     },
     "30_Library/100_zettelkasten/Open Knowledge Systems Prevail Over Closed Systems.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -6530,8 +6525,8 @@
     },
     "30_Library/100_zettelkasten/Flexibility Within Structure is Key to Sustainable Timeboxing.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "f43229f10a5d1574fba8f97da1c56cc43f2de6ba425cae2e11ea704b225b51ec",
-      "lastIndexed": 1775486537781
+      "contentHash": "0c1a8527e5de4708ee7bb40b48d32645871d7be3f31abb94e2a3a47ef97451b8",
+      "lastIndexed": 1776526804645
     },
     "30_Library/100_zettelkasten/Finding Thoughts.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -6620,8 +6615,8 @@
     },
     "30_Library/100_zettelkasten/Explaining to Others Enhances One's Own Learning.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "7de5e630c7bd87630ea33e52f70f349a4d41c6d837043b13d6e048d2b2d90a3b",
-      "lastIndexed": 1775486549977
+      "contentHash": "a5a38f471f84264ff116d4cff4279f5d519122769c7afe3bf108948d52b76c77",
+      "lastIndexed": 1776527226500
     },
     "30_Library/100_zettelkasten/Experiential Information Avoidance.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -7645,8 +7640,8 @@
     },
     "30_Library/100_zettelkasten/An Action Can Be Formally Modeled as a State Transformation Function.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "dbb76a52f46700134206de58cefe44b802294b88cb1df38c5b3c80f83a6bdded",
-      "lastIndexed": 1775486736383
+      "contentHash": "4be8a1d0ba4b4f9a9f2f96e7562bd1bf58b5f83447eb9773b986e5eb094797a7",
+      "lastIndexed": 1776527302961
     },
     "30_Library/100_zettelkasten/All the Enthusiasm and Energy for a Plan Disappears.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",

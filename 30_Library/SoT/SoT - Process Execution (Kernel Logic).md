@@ -1,7 +1,7 @@
 ---
 created: 2025-12-26T12:30:00Z
 last_reviewed: 2025-12-26
-modified: 2026-03-14T11:12:07+00:00
+modified: 2026-04-18T18:00:00+00:00
 status: stable
 tags: [kernel, operating-systems, programming, SoftwareEngineering/Linux]
 title: SoT - Process Execution (Kernel Logic)
@@ -13,13 +13,13 @@ uuid: ecdfeb35-57ef-4788-9c81-663ac48b8b48
 ## 1. Definitive Statement
 
 > [!definition] Definition
-> Process Execution in Unix-like systems is the mechanism by which the kernel transitions from a file on disk to a running process in memory. This process is orchestrated via the `exec` family of system calls, which replace the current process image with a new one, guided by Kernel Hints (Shebangs) and Argument Vectors (`argv`).
+> Process Execution in Unix-like systems is the mechanism by which the kernel transitions from a file on disk to a running process in memory. This process is orchestrated via the `exec` family of system calls (primarily `execve`), which replace the current process image with a new one, guided by Kernel Hints (Shebangs) and Argument Vectors (`argv`).
 
 ## 2. Working Knowledge (Stable Foundation)
 
 ### A. The Shebang (`#!`) as a Kernel Hint
 
-The shebang is not a shell command; it is a magic number read by the kernel at the start of an executable file.
+The shebang is not a shell command; it is a magic number (binary sequence `0x23 0x21`) read by the kernel at the start of an executable file.
 
 - Kernel Action: When the kernel sees `#!`, it stops trying to execute the file as a binary and instead launches the program specified on the shebang line, passing the original file as the final argument.
 
@@ -30,7 +30,7 @@ The shebang is not a shell command; it is a magic number read by the kernel at t
 
 ## 3. Current Understanding (Coherent Narrative)
 
-- [ ] Path Resolution & Portability (`env` vs. Static) ^2026-02-11T22-32-37
+### Path Resolution & Portability (`env` vs. Static)
 
 Hardcoding paths (e.g., `#!/bin/bash`) is fragile due to filesystem diversity (macOS vs. NixOS vs. Debian).
 
@@ -58,4 +58,15 @@ Different kernels parse the shebang line with varying logic regarding multiple a
 ## 5. Tensions, Gaps, and Cross-SoT Coherence
 
 - Tension: Portability (`env`) vs. Security (Predictability). Dynamic path resolution can be hijacked by modifying `$PATH`.
-- Coherence: This logic sits beneath the [[SoT - Linux Container Primitives]], as container runtimes use the same `exec` mechanisms to launch processes inside namespaces.
+- Coherence: This logic sits beneath the [[SoT - Linux Container Internals]], as container runtimes use the same `exec` mechanisms to launch processes inside namespaces.
+- Modeling: From a theoretical perspective, [[An Action Can Be Formally Modeled as a State Transformation Function|process execution is a state transformation]] where the input state (disk image + env) is transformed into a running memory state.
+
+---
+
+## 6. Related Source of Truth (SoT) Notes
+
+- [[SoT - Linux Container Internals]] — _Explores how namespacing and cgroups wrap these execution primitives to create "containers."_
+- [[SoT - Linux Networking Primitives]] — _Deconstructs how the kernel manages the network stack assigned to a process during execution._
+- [[SoT - Rust Type Mechanics#6.3 Type State Pattern (State Machines)|Typestate Pattern]] — _The high-level application of state machine logic to ensure valid process transitions in code._
+- [[SoT - Simple Made Easy (Rich Hickey)]] — _Applies the principle of "completeness" vs "simplicity" to system-level abstractions like process images._
+- [[An Action Can Be Formally Modeled as a State Transformation Function]] — _The mathematical foundation for viewing process execution as a state transition function._

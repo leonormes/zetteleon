@@ -3,34 +3,12 @@ aliases: []
 created: 2025-02-07T12:57:55Z
 ID: "19a"
 last_reviewed: "null"
-modified: 2026-02-01T15:08:05+00:00
-status: "null"
+modified: 2026-04-18T16:00:00+00:00
+status: "stable"
 tags: ["abstraction", "representation", "topic/pkm/zettelkasten", "topic/systems"]
 title: MOC - Interpretation of References
 type: "map"
 updated: 
----
-
----
-
-aliases: [Reference Interpretation MOC, Symbol Meaning MOC]
-confidence: 5/5
-created: 2025-02-07T12:57:55Z
-epistemic:
-ID: 19a
-last_reviewed: 2025-12-21
-modified: 2025-12-21T12:00:00Z
-purpose: To map the dependency between symbols and the interpreters that give them meaning.
-review_interval: 6 months
-see_also: []
-source_of_truth: []
-status: stable
-tags: [abstraction, moc, prodos, representation, systems]
-title: MOC - Interpretation of References
-type: MOC
-uid:
-updated:
-version: 2
 ---
 
 ## Core Principle
@@ -57,7 +35,7 @@ Reference interpretation is the abstraction layer that transforms meaningless sy
 
 - [[MOC Symbols vs Concepts They Represent]]—The fundamental distinction between the pointer and the data.
 - [[The Map is Not the Territory]]—Why interpretation is always a simplification of reality.
-- [[Contextual Relationships]]—How losing context collapses interpretation and apparent meaning.
+- [[Creating Meaningful Links#1. Contextual Links|Contextual Relationships]]—How losing context collapses interpretation and apparent meaning.
 
 ---
 
@@ -67,7 +45,7 @@ Reference interpretation is the abstraction layer that transforms meaningless sy
 
 In computing, interpretation enables Universal Addressability—referencing entities across domains via layered protocols.
 
-- [[DNS is a distributed database]]—A global reference interpretation system translating names to addresses.
+- [[SoT - The Data Architecture of DNS]]—A global reference interpretation system translating names to addresses.
 - [[unique_addressability]]—The prerequisite for any reference system.
 - [[How Computers Identify Each other on a Network]]—Low-level address resolution.
 
@@ -76,20 +54,24 @@ In computing, interpretation enables Universal Addressability—referencing enti
 In the mind, interpretation forms the bridge between sensory data and understanding.
 
 - [[AI and Machine Understanding]]—The challenge of machine interpretation without lived context (Symbol Grounding Problem).
-- [[MOC - Abstraction Improves Breadth of Understanding]]—How higher-level symbols allow for broader application.
+- [[Abstraction as Climbing a Hill]]—How higher-level symbols allow for broader application by transcending local detail.
 - [[Paraphrasing Demonstrates the Independence of Meaning from Language]]—Proof that meaning exists independently of the specific symbol used.
 
 ### C. Social & Distributed Consensus
 
 Interpretation systems allow distributed agents to agree on reality.
 
-- [[Emergent Properties]]—How simple local interpretation rules create complex global behaviors.
-- [[Formal Definition of idea Relationships]]—The structural rules for interpreting connections between thoughts.
+- [[SoT - Emergence]]—How simple local interpretation rules create complex global behaviors.
+- [[Creating Meaningful Links#Three Types of Meaningful Links|Formal Definition of idea Relationships]]—The structural rules for interpreting connections between thoughts.
 
 ---
 
 ## 3. Related Concepts
 
-- [[Contextual Relationships]]—How the "Interpreter" (Context) changes the meaning of the "Symbol."
+- [[Creating Meaningful Links#1. Contextual Links|Contextual Relationships]]—How the "Interpreter" (Context) changes the meaning of the "Symbol."
 - [[Leaky Abstractions]]—What happens when the interpretation layer fails to hide the complexity below.
-- [[SoT - PRODOS - Knowledge Synthesis (Thinking)]]—The practical application of interpreting raw data into wisdom.
+- [[Stage 5 Synthesise (The Outcome Layer)]]—The practical application of interpreting raw data into wisdom.
+- [[SoT - The Thought-Language Continuum]]—_Explores the gap between symbolic manipulation and pre-linguistic grounding._
+- [[SoT - Human vs AI Cognition]]—_Addresses the Symbol Grounding Problem in the context of LLMs vs human experience._
+- [[SoT - Reality, Models, and the Limits of Accuracy]]—_Examines the decoupling of representations from reality and the pragmatic nature of models._
+- [[MOC - DNS Core Concepts and Mechanisms]]—_The foundational map for distributed reference interpretation across networks._
