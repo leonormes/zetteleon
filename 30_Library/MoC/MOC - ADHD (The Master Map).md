@@ -69,3 +69,6 @@ _Actionable scaffolding and "Algorithms" for execution._
 - [[MOC - Computer Science Foundations]] (Applying logic to the brain).
 - [[MOC - Data-Centric Software Engineering]] (Structuring the environment).
 - [[MOC - What is Maths]] (The underlying order).
+
+
+- [[Embracing Interdependence with ADHD]] _(Shifting from isolation to complementing strengths through collaboration)_

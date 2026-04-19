@@ -1,18 +1,18 @@
 [
   {
+    "icon": "sparkles",
+    "text": "Examine my Dailies from the past week to identify unresolved tasks and translate them into physical next actions within a new HEAD note in the Workbench"
+  },
+  {
     "icon": "book-open",
-    "text": "Review my Zettelkasten notes on Paxos, Raft, and Mutual Exclusion to draft a synthesis in the Workbench comparing formal correctness with implementation intuition"
+    "text": "Review the Zettelkasten for notes on state transformation and formal systems to draft a synthesis in the Workbench regarding the mathematical modeling of software actions"
+  },
+  {
+    "icon": "search",
+    "text": "Audit the Linux Networking MoC against my recent technical notes in the Infrastructure folder to identify gaps in our current network hybrid debugging protocols"
   },
   {
     "icon": "file-plus",
-    "text": "Consolidate the recent copilot exports and the 12 Million Patient Synthetic NHS-OMOP Pipeline notes into a formal technical specification in the Active Projects folder"
-  },
-  {
-    "icon": "lightbulb",
-    "text": "Analyse my recent Dailies against the Principles for Peaceful Productivity SoT to suggest refinements for my deep work protocol"
-  },
-  {
-    "icon": "folder-tree",
-    "text": "Search the Zettelkasten for notes on Workload Identity and Emergency Access to structure a new Identity Governance Map of Content"
+    "text": "Process the latest Readwise exports in the Inbox to extract declarative insights on cognitive load and promote them as new notes in the Zettelkasten using the ProdOS metadata standard"
   }
 ]

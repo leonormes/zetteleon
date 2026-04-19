@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "storeName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-  "lastSync": 1776580743301,
+  "lastSync": 1776590381889,
   "files": {
     "assets/cropped_PXL_20250518_165827884.PORTRAIT.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -840,8 +840,8 @@
     },
     "30_Library/SoT/SoT - ML Engineering for AI Agents.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "c9874d1f8bb926619adaf5c9f984bc6dbdaafa8d8f156590617f96c104e16a83",
-      "lastIndexed": 1775722525856
+      "contentHash": "9d80b2d3dd71acce8e926439bcad7c01ea2bc886adf57fe39ad4aea73d89c2d3",
+      "lastIndexed": 1776583891668
     },
     "30_Library/SoT/SoT - Macro-Micro Unification.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -1620,8 +1620,8 @@
     },
     "30_Library/SoT/Protocol - AWS HIE Jumpbox Access.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "d8447ebcdc83ae8b9bfe7b3c3859ffae30e09643860062e40520980272782317",
-      "lastIndexed": 1775485807158
+      "contentHash": "80c9ee94ae4f31638504e6c60bb1f59cbba0865c8b578721b10c1bf75efe799b",
+      "lastIndexed": 1776581651730
     },
     "30_Library/SoT/Protocol - Azure Jumpbox Preflight.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2325,8 +2325,8 @@
     },
     "30_Library/MoC/MOC - The Trade-off Between Pragmatism and Rigour in Software Engineering.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "daedae04be5eb858b4648d4a035f5f5b108e6703355c86f7a50289db60581ef5",
-      "lastIndexed": 1775485912399
+      "contentHash": "602cf388977a8e30cd76d339fd49540020616d8c9a507ae2073fb9a9dc359ad6",
+      "lastIndexed": 1776581793311
     },
     "30_Library/MoC/MOC - The Unified Systems Paradigm.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2700,8 +2700,8 @@
     },
     "30_Library/MoC/MOC - Breaking the ADHD Overthinking-Procrastination Cycle.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "5cfaae55d1446ad031e5de4efa30a544d6fc123b6c8c713dfc818dd583ad7f02",
-      "lastIndexed": 1776526388545
+      "contentHash": "f0d54ec5c6026543702e21cb16aff4a6600726f6bdf874be9acbc52a38b07e31",
+      "lastIndexed": 1776583802224
     },
     "30_Library/MoC/MOC - Assertiveness Through System Design.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -2750,8 +2750,8 @@
     },
     "30_Library/MoC/MOC - ADHD (The Master Map).md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "ea96bad546ba29f2087dfd5c4d15989bb5c3cfc825613245c0f0241aacaa91b0",
-      "lastIndexed": 1775722821883
+      "contentHash": "d7e27adf0c282e3ee987099c7559df98ac5473b4dfe48218daeafb34ac410c6f",
+      "lastIndexed": 1776582241226
     },
     "30_Library/MoC/Linux Networking.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -7665,8 +7665,8 @@
     },
     "30_Library/100_zettelkasten/Akrasia is Acting Against One's Better Judgment.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "4a98b5699e797b6a7c2e764d1de9555dc6e27a3d7dfaeb8f2d01281afc225dc9",
-      "lastIndexed": 1775486739336
+      "contentHash": "820a06ee2ce74fa3104789b2af97c3a041037ce9b035930f18ea397c83678140",
+      "lastIndexed": 1776584295251
     },
     "30_Library/100_zettelkasten/Aesop's Fables Use Anthropomorphic Allegory.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -9738,11 +9738,6 @@
       "contentHash": "425abd8d917e9d47afff5f1e15a90318780cde9fad2149267f48ea631025bc8d",
       "lastIndexed": 1776353191570
     },
-    "20_Thinking/21_Workbench/HEAD Redesigning complex OMOP querying capabilities - FITFILE.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "96e70de786832e5704bd562fe866489a1da810b5c9dc2dece579d61a9243f008",
-      "lastIndexed": 1776336121714
-    },
     "30_Library/200_projects/00_Active_Projects/OMOP/12 Million Patient Synthetic NHS-OMOP Pipeline.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "9e099e37cda132104ceeedcdb7b805798b405c732d14a555a5d89f680e7bd9dd",
@@ -10213,25 +10208,20 @@
       "contentHash": "0e7b969c9eeafce8083f53d4a974ab7ae01d7cb52608ca17bccb3f12beb0dec5",
       "lastIndexed": 1776523311629
     },
-    "00_Inbox/Readwise/Full Document Contents/GitHub - michel-kraemerzsh-patina $ A blazingly fast Zsh syntax highlighter 🌈 · GitHub.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "e12aced44a62cd08003363ee20ca8a2f0a74efc2b857cc1e6b8caaac6e7212dc",
-      "lastIndexed": 1776534807046
-    },
-    "00_Inbox/Readwise/Full Document Contents/GitHub - mevanlcgitoverit status all your repos at once, and more! · GitHub.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "20c2da320243396f69835be0a4b8ad57648cedc0927f76e84fd163227bcb16b2",
-      "lastIndexed": 1776534811274
-    },
-    "00_Inbox/Readwise/Full Document Contents/GitHub - lirantalrepolyze Analyze a git source code repository for health signals and project vitals · GitHub.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "ea518d02cf03a3706266d0b7717357eefe80d982fee32ef9bc570cb8279a8143",
-      "lastIndexed": 1776534814961
-    },
     "01_journals/Dailies/2026-04-19.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "6e6e21589c2749173f2a403c7cd4375edc4e9fa54a50a1fcc6f74bb35738ebcc",
-      "lastIndexed": 1776556410529
+      "contentHash": "55ec2572a97383946b5ae0668aaf2420a1c1e1e4890116a3a72da1947ad401a3",
+      "lastIndexed": 1776587666984
+    },
+    "30_Library/400_indexes/Main Topics of Interest.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "91e07a6272d6f4cf9d78da5e54978a224cad91bd8f2acb41e04a55ab3ebdafbd",
+      "lastIndexed": 1776583475424
+    },
+    "20_Thinking/21_Workbench/HEAD - 2026-04-19 1013.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "ee7216c236a2864efe52eae8c2c3479038d0fe0fec5cde7ba85e5e86db9aca69",
+      "lastIndexed": 1776589993145
     }
   },
   "indexingInProgress": false,

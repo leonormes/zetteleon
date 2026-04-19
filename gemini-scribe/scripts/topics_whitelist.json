@@ -1,0 +1,59 @@
+{
+  "topics": [
+    {
+      "name": "Cloud Infrastructure & IaC",
+      "keywords": ["aws", "terraform", "iac", "azure", "vpc", "secrets management", "iam", "vault"],
+      "description": "Declarative cloud resource management: IaC patterns, access control models, and secrets architecture across AWS and hybrid environments."
+    },
+    {
+      "name": "Platform Engineering & Containers",
+      "keywords": ["kubernetes", "k8s", "docker", "containers", "gitops", "helm", "cni", "linux containers"],
+      "description": "Container orchestration, GitOps delivery pipelines, and Linux container primitives from namespaces to production clusters."
+    },
+    {
+      "name": "Network Engineering",
+      "keywords": ["networking", "dns", "tcp/ip", "routing", "load balancing", "hybrid cloud", "zero trust", "encapsulation"],
+      "description": "Distributed state transport as a first-class discipline: protocol internals, cloud networking patterns, and systematic diagnostic methodology."
+    },
+    {
+      "name": "Data-Centric Software Engineering",
+      "keywords": ["data-centric", "rust", "type-driven development", "software architecture", "data-oriented design", "type theory", "systems programming"],
+      "description": "The 'Structure is Truth' paradigm: designing software from data shape outward, using types as mathematical proofs of correctness and structure as the primary lever for complexity reduction."
+    },
+    {
+      "name": "AI Engineering & LLM Systems",
+      "keywords": ["llm", "ai agents", "prompt engineering", "context engineering", "rag", "flow engineering", "context rot"],
+      "description": "Engineering the cognitive bridge between probabilistic AI models and deterministic software systems: context curation, orchestration architecture, and the LLM Wiki pattern."
+    },
+    {
+      "name": "ADHD & Cognitive Scaffolding",
+      "keywords": ["adhd", "executive function", "dopamine", "working memory", "procrastination", "neurodiversity", "task initiation", "hyperfocus"],
+      "description": "Understanding the ADHD operating system — its biological constraints, emotional regulation failure modes, and the external scaffolding required to thrive."
+    },
+    {
+      "name": "PKM & Personal Operating System",
+      "keywords": ["zettelkasten", "prodos", "obsidian", "pkm", "extended mind", "gtd", "second brain"],
+      "description": "Engineering the personal operating system: from raw capture through synthesis to canonical knowledge and executable action, with the vault as the externalised prefrontal cortex."
+    },
+    {
+      "name": "Data Systems & Clinical Informatics",
+      "keywords": ["omop", "ohdsi", "sql", "relational database", "data modelling", "clinical data", "etl"],
+      "description": "Distributed data systems with a focus on the OMOP CDM, clinical data architecture, and the structural conventions of health informatics."
+    },
+    {
+      "name": "Applied Mathematics & Formal Logic",
+      "keywords": ["type theory", "category theory", "order theory", "set theory", "logic", "formal methods", "mathematics"],
+      "description": "The underlying mathematical order of systems: from number theory and order theory to type-theoretic foundations of programming and formal verification."
+    },
+    {
+      "name": "Philosophy, Meaning & Resilience",
+      "keywords": ["philosophy", "stoicism", "ikigai", "eudaimonia", "meaning", "virtue", "frankl", "values"],
+      "description": "Mental models as algorithms for resilience: purpose, virtue ethics, and the philosophical scaffolding for a life oriented by meaning rather than impulse."
+    },
+    {
+      "name": "Health & Endurance",
+      "keywords": ["running", "endurance", "physiology", "metabolic", "mounjaro", "fitness", "hrv", "nutrition"],
+      "description": "Athletic training mechanics, physiological modelling, and long-term vitality optimisation as an engineering problem."
+    }
+  ]
+}

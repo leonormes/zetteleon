@@ -45,3 +45,6 @@ This branch explores the mindset and tools that allow for building provably corr
 - Practical Implications:
   - [[SoT - Runtime Guards vs Compile-Time Proofs]] directly contrasts the pragmatic and rigorous approaches to error handling.
   - [[SoT - Optimization via Function Fusion]] explains how theoretically-grounded languages can perform more powerful, algebraic optimizations than those that rely on low-level optimizers.
+
+
+- [[Pragmatism Defines Truth by Practical Consequences]] _(Philosophical foundation for the pragmatic approach in engineering)_

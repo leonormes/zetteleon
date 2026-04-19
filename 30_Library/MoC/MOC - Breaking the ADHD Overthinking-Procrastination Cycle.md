@@ -74,3 +74,5 @@ These techniques translate the principles into a practical, immediate toolkit.
 - [[SoT - Working Memory & Schema Theory]] — _Managing the cognitive load and the "RAM" deficit in ADHD._
 - [[SoT - ADHD Neurology & Core Concepts]] — _Foundational neurobiology, including the Shame-Procrastination Cycle._
 - [[SoT - Breaking the Creation Cycle]] — _Generating momentum via micro-steps and the "Starter Task" protocol._
+
+- 3.6 Pre-define the Transition Rule: [[Action Triggers Bridge the Gap Between Motion and Action|Action Triggers]] eliminate the decision of when to act by pre-committing to a concrete handoff point ('After X preparation step, I will begin Y execution'), cutting off the infinite preparation loop at the root.

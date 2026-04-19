@@ -14,7 +14,14 @@
       "Read(//Users/leon.ormes/**)",
       "Bash(curl -sk https://127.0.0.1:27124/ -o /dev/null -w \"%{http_code}\")",
       "mcp__mcp-proxy__call_tool",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "Bash(obsidian orphans *)",
+      "Bash(obsidian search *)",
+      "Bash(obsidian read *)",
+      "Bash(obsidian append *)",
+      "Bash(obsidian backlinks *)",
+      "Bash(grep -E \"\\\\.\\(md\\)$\")",
+      "Bash(sed 's/\\\\.md$//')"
     ]
   },
   "spinnerTipsEnabled": false

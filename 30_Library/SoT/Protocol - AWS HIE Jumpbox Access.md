@@ -58,3 +58,9 @@ Host jumphost-ssm
 |:--- |:--- |:--- |
 | `Token has expired` | SSH ProxyCommand using `default` profile | Use `AWS_PROFILE=eoe-hie ssh …` |
 | `TargetNotConnected` | Instance still booting | Wait 60-120 seconds for SSM agent to start |
+
+---
+
+## Related Sessions
+
+- [[AWS HIE Jumpbox Security Protocols Summary]] (2026-04-07): Summary of identity, connectivity, and operational security requirements.
