@@ -2,7 +2,7 @@
 created: 2026-04-14T20:51:03+00:00
 created_utc: "2026-04-14T14:20:00Z"
 kind: failure_mode
-modified: 2026-04-16T11:56:03+00:00
+modified: 2026-04-19T18:30:39+00:00
 source_title: "Why Is AI Making My Job Worse?"
 source_url: "http://www.youtube.com/watch?v=NDyuJcR2GH4"
 status: seed

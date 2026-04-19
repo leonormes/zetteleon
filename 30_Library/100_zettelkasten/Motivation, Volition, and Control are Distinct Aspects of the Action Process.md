@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-11-12T14:10:07Z
 last_reviewed: ""
-modified: 2026-04-18T11:30:00+00:00
+modified: 2026-04-19T18:30:41+00:00
 status: "stable"
 tags: ["action", "TheHuman/Motivation", "TheHuman/Psychology"]
 title: Motivation, Volition, and Control are Distinct Aspects of the Action Process
@@ -24,9 +24,9 @@ Details:
 
 ## Related
 
-- [[SoT - The Cognitive Physiology of Task Execution]] — _Deconstructs the five cognitive phases of action (Initiation, Encoding, Execution, Monitoring, Completion) and their neurological basis._
-- [[SoT - Behavioral Architecture]] — _Defines the "System > Willpower" axiom, focusing on environmental engineering to bypass the volatile nature of motivation and volition._
-- [[MOC - Action Management]] — _The central hub for principles and strategies used to transform abstract intent into concrete reality within the ProdOS ecosystem._
-- [[SoT - PRODOS Core Specification]] — _Defines the "Logic-Dopamine Mismatch" and how ProdOS separates the "Problem Definer" (Motivation) from the "Executor" (Control)._
-- [[SoT - Logotherapy and the Will to Meaning]] — _Explores how primary motivation is driven by the search for meaning, which can activate reward systems even in the absence of dopamine-driven pleasure._
-- [[SoT - The Childish Mind (Behavioral Resistance)]] — _Examines the internal resistance (The Elephant) that often sits in the gap between Motivation and Volition._
+- [[SoT - The Cognitive Physiology of Task Execution]]—_Deconstructs the five cognitive phases of action (Initiation, Encoding, Execution, Monitoring, Completion) and their neurological basis._
+- [[SoT - Behavioral Architecture]]—_Defines the "System > Willpower" axiom, focusing on environmental engineering to bypass the volatile nature of motivation and volition._
+- [[MOC - Action Management]]—_The central hub for principles and strategies used to transform abstract intent into concrete reality within the ProdOS ecosystem._
+- [[SoT - PRODOS Core Specification]]—_Defines the "Logic-Dopamine Mismatch" and how ProdOS separates the "Problem Definer" (Motivation) from the "Executor" (Control)._
+- [[SoT - Logotherapy and the Will to Meaning]]—_Explores how primary motivation is driven by the search for meaning, which can activate reward systems even in the absence of dopamine-driven pleasure._
+- [[SoT - The Childish Mind (Behavioral Resistance)]]—_Examines the internal resistance (The Elephant) that often sits in the gap between Motivation and Volition._

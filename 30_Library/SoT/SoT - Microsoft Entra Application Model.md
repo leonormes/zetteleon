@@ -1,6 +1,6 @@
 ---
 created: 2026-02-09T17:00:00+00:00
-modified: 2026-04-10T16:52:08+00:00
+modified: 2026-04-19T18:30:32+00:00
 tags: [architecture, azure, entra, identity, SoT]
 title: SoT - Microsoft Entra Application Model
 ---

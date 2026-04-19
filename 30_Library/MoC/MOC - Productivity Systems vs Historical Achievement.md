@@ -4,7 +4,7 @@ created: 2025-11-10T13:10:00Z
 criteria: ""
 exclusions: "Specific tutorials for GTD or Atomic Habits."
 last_reviewed: 2026-04-18
-modified: 2026-04-18T16:15:00+00:00
+modified: 2026-04-19T18:30:28+00:00
 scope: "An exploration of how external systems and collective structures substitute for internal willpower, both historically and in modern neurodiverse contexts."
 status: "evergreen"
 tags: ["history", "TheHuman/Cognition", "topic/productivity", "topic/systems"]
@@ -50,9 +50,9 @@ In essence, routines and systems serve as the invisible banks and pipes for our 
 
 ## Related Source of Truth (SoT) Notes
 
-- [[SoT - Behavioral Architecture]] — _The modern engineering specification for the "invisible pipes" of behavior, replacing willpower with environmental design._
-- [[SoT - The Cognitive Physiology of Task Execution]] — _Deconstructs why the ADHD brain requires external "hooks" to initiate and sustain action._
-- [[SoT - Accidental Social Complexity]] — _Explores the collective friction that modern systems attempt to formalize and remove._
-- [[SoT - PRODOS Core Specification]] — _Defines the "Logic-Dopamine Mismatch" that makes external scaffolding mandatory for neurodivergent high-achievers._
-- [[Consistency and Momentum]] — _Addresses the challenge of sustaining long-term effort when the internal "engine" of motivation is volatile._
-- [[Strong Habits Override Weak Intentions]] — _The psychological mechanism explaining why systems (habits) are more reliable than goals (intentions)._
+- [[SoT - Behavioral Architecture]]—_The modern engineering specification for the "invisible pipes" of behavior, replacing willpower with environmental design._
+- [[SoT - The Cognitive Physiology of Task Execution]]—_Deconstructs why the ADHD brain requires external "hooks" to initiate and sustain action._
+- [[SoT - Accidental Social Complexity]]—_Explores the collective friction that modern systems attempt to formalize and remove._
+- [[SoT - PRODOS Core Specification]]—_Defines the "Logic-Dopamine Mismatch" that makes external scaffolding mandatory for neurodivergent high-achievers._
+- [[Consistency and Momentum]]—_Addresses the challenge of sustaining long-term effort when the internal "engine" of motivation is volatile._
+- [[Strong Habits Override Weak Intentions]]—_The psychological mechanism explaining why systems (habits) are more reliable than goals (intentions)._

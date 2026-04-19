@@ -1,11 +1,14 @@
 ---
-type: link_report
-status: tmp
-source_atoms: "[[tmp_atoms_jeremy_howard_interview.md]]"
+created: 2026-04-14T20:32:21+00:00
 created_utc: "2026-04-14T13:50:00Z"
+modified: 2026-04-19T18:30:36+00:00
+source_atoms: "[[tmp_atoms_jeremy_howard_interview.md]]"
+status: tmp
+title: _link_report_jeremy_howard_interview
+type: link_report
 ---
 
-## Link Report: Deconstructing the interview with Jeremy Howard
+## Link Report: Deconstructing the Interview with Jeremy Howard
 
 ### Summary
 

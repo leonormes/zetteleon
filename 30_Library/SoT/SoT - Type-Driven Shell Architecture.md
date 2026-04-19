@@ -2,7 +2,7 @@
 aliases: [Shell Scripting Patterns, Shell Type Safety, Unix Philosophy]
 created: 2025-12-13T00:00:00Z
 last_reviewed: "2026-03-28"
-modified: 2026-04-10T16:52:10+00:00
+modified: 2026-04-19T18:30:30+00:00
 status: growing
 tags: [architecture, automation, bash, shell, sot, unix]
 title: SoT - Type-Driven Shell Architecture

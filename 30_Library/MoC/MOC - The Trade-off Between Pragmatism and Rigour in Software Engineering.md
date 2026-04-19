@@ -4,7 +4,7 @@ created: 2025-12-19T13:18:01Z
 criteria: "Links to canonical SoT notes defining the core principles of this conflict."
 exclusions: "Implementation details of specific projects."
 last_reviewed: ""
-modified: 2026-02-01T15:08:04+00:00
+modified: 2026-04-19T18:30:28+00:00
 scope: "The core conflict between building software quickly (pragmatism) and building it correctly (rigour)."
 status: ""
 tags: ["map", "mental-model", "SoftwareEngineering", "TheHuman/Philosophy"]
@@ -45,6 +45,4 @@ This branch explores the mindset and tools that allow for building provably corr
 - Practical Implications:
   - [[SoT - Runtime Guards vs Compile-Time Proofs]] directly contrasts the pragmatic and rigorous approaches to error handling.
   - [[SoT - Optimization via Function Fusion]] explains how theoretically-grounded languages can perform more powerful, algebraic optimizations than those that rely on low-level optimizers.
-
-
 - [[Pragmatism Defines Truth by Practical Consequences]] _(Philosophical foundation for the pragmatic approach in engineering)_

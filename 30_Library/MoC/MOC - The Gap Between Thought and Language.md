@@ -4,7 +4,7 @@ created: 2025-10-31T20:08:00Z
 criteria: "Includes concepts about pre-linguistic thought, limitations of language, and mechanisms enabling understanding"
 exclusions: "Specific linguistic theories, detailed neuroscience of language processing"
 last_reviewed: "2026-04-05"
-modified: 2026-04-10T16:52:05+00:00
+modified: 2026-04-19T18:30:28+00:00
 scope: "Philosophical exploration of the relationship between thought, language, and communication"
 status: "evergreen"
 tags: ["communication", "consciousness", "epistemology", "language", "philosophy-of-mind"]

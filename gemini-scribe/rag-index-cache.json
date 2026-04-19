@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "storeName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-  "lastSync": 1776606328640,
+  "lastSync": 1776621622829,
   "files": {
     "assets/cropped_PXL_20250518_165827884.PORTRAIT.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -9378,11 +9378,6 @@
       "contentHash": "b84cdb8f496f6ad478cac048592effaeaf7f7786d3119a4efc971ef677f6fd3d",
       "lastIndexed": 1776173125867
     },
-    "00_Inbox/pieces_copilot_message_export_april_14_2026_4_10pm.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "3d32d226f47d45cc891517314249ef9cc69aa4a8a71e36986c1f3c404bd5e6b7",
-      "lastIndexed": 1776179447756
-    },
     "01_journals/Dailies/2026-04-15.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "6440a0f37d102b298bdb1863bc21b375afa919fad007b9b1ccc85a29f2c13e16",
@@ -10170,8 +10165,8 @@
     },
     "30_Library/200_projects/00_Active_Projects/OMOP/Expanded Analysis OMOP Synthetic Data Generation Project.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "0d03e30e04a4064d5a96d176192959cb837b8c238829fbd165363c3cc6705c40",
-      "lastIndexed": 1776409907894
+      "contentHash": "5d285d205196cd026bbfa0c814467ff68e9e3261fa53c97abbb5d328ef765163",
+      "lastIndexed": 1776611553980
     },
     "30_Library/200_projects/00_Active_Projects/OMOP/HEAD - 2026-04-17 0749.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -10190,8 +10185,8 @@
     },
     "30_Library/200_projects/00_Active_Projects/OMOP/Position Statement Clinical Fidelity in Synthetic OMOP Data Generation.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "42ce3ce6818df8a9bd613f4906e5e7de73b4d6a9396a3750c7c35d1b6d610fa7",
-      "lastIndexed": 1776410733358
+      "contentHash": "204b0896a8cdd85c5d5bc2385c0c3716e2142e0379dfff4158746aa16e34bd51",
+      "lastIndexed": 1776611546407
     },
     "10_System/prompts/Note Refresh & Link Auditor.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -10215,8 +10210,8 @@
     },
     "30_Library/400_indexes/Main Topics of Interest.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "b855c86ee2f8daa018c19420bea09766d72a8c785e032ce315759116b473789b",
-      "lastIndexed": 1776602808006
+      "contentHash": "0d05666cd2b69842d5ff866e50f7efb287a59d85436c7317af90304dba52020d",
+      "lastIndexed": 1776611421581
     },
     "20_Thinking/21_Workbench/HEAD - 2026-04-19 1013.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -10235,13 +10230,13 @@
     },
     "30_Library/MoC/MOC - Applied Formal Methods.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "03a51e97f06fac5511a91b96b0235a0607c34ba1c79cd64e13355fb52905ed51",
-      "lastIndexed": 1776605144520
+      "contentHash": "5d04840393a31dcaff2bf7852ddee9d54c37c61ebfbf4ff0e7a440b0a7db5177",
+      "lastIndexed": 1776607466761
     },
     "30_Library/SoT/SoT - Structure is Truth is a Unifying Axiom Across Formal Systems.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "4565cf2b8f4ef4427e8b520a801c85d517ab753cbbc21a3a3ad2b8f4dc1bcfb5",
-      "lastIndexed": 1776605228389
+      "contentHash": "d95b5366e85c7951c00d7e4b6fde409eaea4bc15db7d38eb99a1c8f4298c4264",
+      "lastIndexed": 1776609206719
     },
     "30_Library/SoT/SoT - Formal Context (Applied Formal Methods).md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -10250,13 +10245,13 @@
     },
     "30_Library/SoT/Protocol - AFM Vault Constitutional Triage.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "5e88aad9739e5e1f96b782ec476c5cfa8ba7d8dcafe210eab653e13817149bd8",
-      "lastIndexed": 1776605407649
+      "contentHash": "fe8249e0ee1a01bfcb1fd5adaba01f7ed9e5c9755bac7c524eb70fb105bcb8bc",
+      "lastIndexed": 1776611367103
     },
-    "00_Inbox/SoT - The Trinity of Isomorphism (Logic, Computation, Categories).md": {
+    "30_Library/SoT/SoT - The Trinity of Isomorphism (Logic, Computation, Categories).md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "872e696fbef7e10cfd1ad5ee3e7a30424578a0558b2425c409d0cbd56694a262",
-      "lastIndexed": 1776606328640
+      "contentHash": "d1dd02abe62561b64f77fe4349caba76f09c5a004847f64f9efca092f2400d56",
+      "lastIndexed": 1776611550157
     }
   },
   "indexingInProgress": false,

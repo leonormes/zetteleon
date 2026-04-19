@@ -2,7 +2,7 @@
 aliases: ["Social Drag"]
 created: 2025-12-17T00:00:00Z
 last_reviewed: "2025-12-17"
-modified: 2026-02-01T15:07:52+00:00
+modified: 2026-04-19T18:30:31+00:00
 status: "stable"
 tags: ["efficiency", "team-dynamics", "topic/productivity", "topic/systems"]
 title: SoT - Social Friction Coefficient
@@ -38,7 +38,7 @@ This "machine" is burdened with features dedicated to handling problems it cause
 
 ## See Also
 
-- [[SoT - Accidental Social Complexity]] — _The broader category of non-essential complexity introduced by social dynamics._
-- [[SoT - Authority-Competence Asymmetry]] — _A primary driver of social friction where decision-making power is decoupled from expertise._
-- [[SoT - Systems Thinking]] — _Provides the 'mechanical' framework for understanding friction and energy loss in social systems._
-- [[SoT - Dunning-Kruger Effect]] — _Explains the cognitive bias that often necessitates excessive 'ego-soothing' in dysfunctional teams._
+- [[SoT - Accidental Social Complexity]]—_The broader category of non-essential complexity introduced by social dynamics._
+- [[SoT - Authority-Competence Asymmetry]]—_A primary driver of social friction where decision-making power is decoupled from expertise._
+- [[SoT - Systems Thinking]]—_Provides the 'mechanical' framework for understanding friction and energy loss in social systems._
+- [[SoT - Dunning-Kruger Effect]]—_Explains the cognitive bias that often necessitates excessive 'ego-soothing' in dysfunctional teams._

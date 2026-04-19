@@ -1,8 +1,11 @@
 ---
-type: link_report
-status: tmp
-source_atoms: "[[tmp_atoms_fowler_beck_reinventing_software.md]]"
+created: 2026-04-14T11:22:49+00:00
 created_utc: "2026-04-14T11:15:00Z"
+modified: 2026-04-19T18:30:36+00:00
+source_atoms: "[[tmp_atoms_fowler_beck_reinventing_software.md]]"
+status: tmp
+title: _link_report_fowler_beck_reinventing_software
+type: link_report
 ---
 
 ## Link Report: Martin Fowler & Kent Beck - Reinventing Software

@@ -1,7 +1,7 @@
 ---
 created: 2025-12-26T12:30:00Z
 last_reviewed: 2025-12-26
-modified: 2026-04-18T18:00:00+00:00
+modified: 2026-04-19T18:30:31+00:00
 status: stable
 tags: [kernel, operating-systems, programming, SoftwareEngineering/Linux]
 title: SoT - Process Execution (Kernel Logic)
@@ -65,8 +65,8 @@ Different kernels parse the shebang line with varying logic regarding multiple a
 
 ## 6. Related Source of Truth (SoT) Notes
 
-- [[SoT - Linux Container Internals]] — _Explores how namespacing and cgroups wrap these execution primitives to create "containers."_
-- [[SoT - Linux Networking Primitives]] — _Deconstructs how the kernel manages the network stack assigned to a process during execution._
-- [[SoT - Rust Type Mechanics#6.3 Type State Pattern (State Machines)|Typestate Pattern]] — _The high-level application of state machine logic to ensure valid process transitions in code._
-- [[SoT - Simple Made Easy (Rich Hickey)]] — _Applies the principle of "completeness" vs "simplicity" to system-level abstractions like process images._
-- [[An Action Can Be Formally Modeled as a State Transformation Function]] — _The mathematical foundation for viewing process execution as a state transition function._
+- [[SoT - Linux Container Internals]]—_Explores how namespacing and cgroups wrap these execution primitives to create "containers."_
+- [[SoT - Linux Networking Primitives]]—_Deconstructs how the kernel manages the network stack assigned to a process during execution._
+- [[SoT - Rust Type Mechanics#6.3 Type State Pattern (State Machines)|Typestate Pattern]]—_The high-level application of state machine logic to ensure valid process transitions in code._
+- [[SoT - Simple Made Easy (Rich Hickey)]]—_Applies the principle of "completeness" vs "simplicity" to system-level abstractions like process images._
+- [[An Action Can Be Formally Modeled as a State Transformation Function]]—_The mathematical foundation for viewing process execution as a state transition function._

@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-04-16T11:56:02+00:00
+modified: 2026-04-19T18:30:40+00:00
 tags: [collaboration, communication, team-efficiency, workflow]
 title: Structured Collaboration Systems Replace Hyperactive Hive-Mind Messaging Cultures
 ---

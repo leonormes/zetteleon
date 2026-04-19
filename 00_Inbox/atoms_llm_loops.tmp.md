@@ -1,10 +1,13 @@
 ---
-type: tmp_atoms
-status: tmp
+captured_utc: "2026-04-15T09:33:18Z"
+created: 2026-04-18T13:52:49+00:00
+modified: 2026-04-19T18:30:46+00:00
+signal_to_noise: "75% signal / 25% noise"
 source_title: "LLMs Don't Need More Parameters. They Need Loops."
 source_url: "https://gemini.google.com/app/a56caa20164fe5f2"
-captured_utc: "2026-04-15T09:33:18Z"
-signal_to_noise: "75% signal / 25% noise"
+status: tmp
+title: atoms_llm_loops.tmp
+type: tmp_atoms
 ---
 
 ## Noise Removed
@@ -83,7 +86,7 @@ signal_to_noise: "75% signal / 25% noise"
 - Confidence: high
 - Tags: [regularisation, entropy, machine-learning-training, reward-hacking]
 
-### Atom 5: Manipulation vs Storage Divergence
+### Atom 5: Manipulation Vs Storage Divergence
 
 - Kind: claim
 - Statement: Recurrent looping improves logical knowledge manipulation but provides no benefit to factual knowledge storage or retrieval.

@@ -1,11 +1,14 @@
 ---
-type: link_report
-status: tmp
-source_atoms: "[[tmp_atoms_cue_type_system.md]]"
+created: 2026-04-14T20:19:45+00:00
 created_utc: "2026-04-14T12:50:00Z"
+modified: 2026-04-19T18:30:36+00:00
+source_atoms: "[[tmp_atoms_cue_type_system.md]]"
+status: tmp
+title: _link_report_cue_type_system
+type: link_report
 ---
 
-## Link Report: CUE — A Type System for the Cloud
+## Link Report: CUE—A Type System for the Cloud
 
 ### Summary
 

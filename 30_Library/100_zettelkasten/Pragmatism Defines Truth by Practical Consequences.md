@@ -2,7 +2,7 @@
 aliases: ["Pragmatism"]
 created: 2025-11-10T17:08:00Z
 last_reviewed: ""
-modified: 2026-04-18T10:45:00+00:00
+modified: 2026-04-19T18:30:40+00:00
 status: "stable"
 tags: ["action", "pragmatism", "TheHuman/Philosophy", "truth"]
 title: Pragmatism Defines Truth by Practical Consequences
@@ -22,10 +22,10 @@ Peirce's Maxim: Charles Sanders Peirce formulated the pragmatic maxim as: "Consi
 
 ## Related
 
-- [[SoT - PRODOS Core Specification]] — _Defines "Utility Over Truth" as the first axiom of the ProdOS operating system, prioritizing action-oriented information over abstract truth._
-- [[Pragmatic Truth Focuses on Utility Over Absolute Correctness]] — _A sibling concept that explores the shift from absolute correctness to functional outcomes and reliable results._
-- [[SoT - Reality, Models, and the Limits of Accuracy]] — _Discusses the pragmatic value of models based on their ability to guide effective action rather than their theoretical correctness._
-- [[SoT - Belief Architecture & Cognitive Spaces]] — _Examines how ProdOS adopts a pragmatic truth standard for installing and validating new beliefs._
-- [[Shift from Seeking Rightness to Seeking Utility]] — _Explores the cognitive transition towards valuing a belief's practical utility as a source of confidence._
-- [[SoT - Pragmatism vs Rigour in Software]] — _Applies the principle of pragmatism to the engineering trade-offs between delivery velocity and formal correctness._
-- [[Epistemic Actions - Thinking via Doing]] — _Distinguishes between "Pragmatic Actions" (actions that change the world) and "Epistemic Actions" (actions that aid internal computation)._
+- [[SoT - PRODOS Core Specification]]—_Defines "Utility Over Truth" as the first axiom of the ProdOS operating system, prioritizing action-oriented information over abstract truth._
+- [[Pragmatic Truth Focuses on Utility Over Absolute Correctness]]—_A sibling concept that explores the shift from absolute correctness to functional outcomes and reliable results._
+- [[SoT - Reality, Models, and the Limits of Accuracy]]—_Discusses the pragmatic value of models based on their ability to guide effective action rather than their theoretical correctness._
+- [[SoT - Belief Architecture & Cognitive Spaces]]—_Examines how ProdOS adopts a pragmatic truth standard for installing and validating new beliefs._
+- [[Shift from Seeking Rightness to Seeking Utility]]—_Explores the cognitive transition towards valuing a belief's practical utility as a source of confidence._
+- [[SoT - Pragmatism vs Rigour in Software]]—_Applies the principle of pragmatism to the engineering trade-offs between delivery velocity and formal correctness._
+- [[Epistemic Actions - Thinking via Doing]]—_Distinguishes between "Pragmatic Actions" (actions that change the world) and "Epistemic Actions" (actions that aid internal computation)._

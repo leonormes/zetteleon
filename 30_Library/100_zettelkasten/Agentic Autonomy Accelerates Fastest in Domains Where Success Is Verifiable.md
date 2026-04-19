@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-04-16T11:55:58+00:00
+modified: 2026-04-19T18:30:44+00:00
 tags: [ai-progress, coding, reinforcement-learning, verification]
 title: Agentic Autonomy Accelerates Fastest in Domains Where Success Is Verifiable
 ---

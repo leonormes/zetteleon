@@ -3,7 +3,7 @@ aliases: ["Active Inference", "Anthropomorphism", "Cognitive Architectures", "El
 created: 2025-12-21T00:00:00Z
 last-synthesis: 2026-04-04
 last_reviewed: "2026-04-04"
-modified: 2026-04-10T16:52:07+00:00
+modified: 2026-04-19T18:30:33+00:00
 source_of_truth: true
 status: "stable"
 synthesis-count: 2

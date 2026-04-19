@@ -2,7 +2,7 @@
 aliases: ["Data-Centric Programming", "Parse Don't Validate", "The Torvalds Loop", "Type-Driven Design", "Type-First Development", "Typestate Pattern"]
 created: 2025-12-29T10:28:01+00:00
 last_reviewed: "2026-04-04"
-modified: 2026-04-17T09:35:00+00:00
+modified: 2026-04-19T18:30:30+00:00
 source_of_truth: true
 status: "stable"
 synthesis-count: 3
@@ -16,10 +16,10 @@ updated:
 
 This protocol is the Methodological Implementation of the broader Data-Centric philosophy. It translates abstract principles into a concrete workflow.
 
-- The Axiom (Physics): [[SoT - Data-Oriented Design]] — _Structure is truth; Code is a derivative._
-- The Logic (Proofs): [[SoT - The Curry-Howard Correspondence (Propositions as Types)]] — _A program is a proof; a type is a proposition._
-- The Theory (Math): [[MOC - Type Theory]] — _Using Category Theory (Sum/Product types) to model that structure rigorously._
-- The Practice (Method): [[SoT - Type-Driven Development (The Torvalds Loop)]] — _The strict 4-phase protocol to execute the design._
+- The Axiom (Physics): [[SoT - Data-Oriented Design]]—_Structure is truth; Code is a derivative._
+- The Logic (Proofs): [[SoT - The Curry-Howard Correspondence (Propositions as Types)]]—_A program is a proof; a type is a proposition._
+- The Theory (Math): [[MOC - Type Theory]]—_Using Category Theory (Sum/Product types) to model that structure rigorously._
+- The Practice (Method): [[SoT - Type-Driven Development (The Torvalds Loop)]]—_The strict 4-phase protocol to execute the design._
 
 ---
 
@@ -153,8 +153,8 @@ Logic, Code, and Category Theory are isomorphic. This provides a rigorous founda
 
 ## See Also
 
-- [[SoT - The Data-Centric Philosophy]] — _The worldview that prioritizes structure over logic._
-- [[SoT - Rust Type Mechanics]] — _The deep dive into the specific mechanics of the Rust type system._
-- [[SoT - The Curry-Howard Correspondence (Propositions as Types)]] — _The mathematical foundation for the program-as-proof paradigm._
-- [[SoT - Stringly Typed vs Strongly Typed]] — _A detailed look at the pitfalls of primitive obsession._
-- [[SoT - Conservation of Complexity]] — _The law that necessitates moving complexity into types._
+- [[SoT - The Data-Centric Philosophy]]—_The worldview that prioritizes structure over logic._
+- [[SoT - Rust Type Mechanics]]—_The deep dive into the specific mechanics of the Rust type system._
+- [[SoT - The Curry-Howard Correspondence (Propositions as Types)]]—_The mathematical foundation for the program-as-proof paradigm._
+- [[SoT - Stringly Typed vs Strongly Typed]]—_A detailed look at the pitfalls of primitive obsession._
+- [[SoT - Conservation of Complexity]]—_The law that necessitates moving complexity into types._

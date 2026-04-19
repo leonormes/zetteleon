@@ -1,16 +1,25 @@
-# GitHub - RomyHaik/gim: Goal-in-Mind framework for deviation prevention and token usage reduction · GitHub
+---
+created: 2026-04-19T11:53:23+00:00
+modified: 2026-04-19T18:30:47+00:00
+tags: [articles]
+title: GitHub - RomyHaikgim Goal-in-Mind framework for deviation prevention and token usage reduction · GitHub
+---
+
+## GitHub - RomyHaik/gim: Goal-in-Mind Framework for Deviation Prevention and Token Usage Reduction · GitHub
 
 ![rw-book-cover](https://opengraph.githubassets.com/b789d067380dfaea31db2bfe28dd5e14f17adbab593bb7f57e8f8679fda48961/RomyHaik/gim)
 
-## Metadata
+### Metadata
+
 - Author: [[https://github.com/RomyHaik/]]
 - Full Title: GitHub - RomyHaik/gim: Goal-in-Mind framework for deviation prevention and token usage reduction · GitHub
-- Category: #articles
+- Category: articles
 - Summary: GIM is a framework that captures project goals and reasons using a recursive WHY loop to prevent deviations and reduce token use. It passively evaluates tasks and requests against the goal, flagging issues like ambiguity or drift, and learns from user decisions to improve future calls. Claude Code integrates GIM smoothly with slash commands and auto-sync hooks to manage tasks and maintain alignment without manual CLI use.
-- URL: https://github.com/RomyHaik/gim
+- URL: <https://github.com/RomyHaik/gim>
 
-## Full Document
-### RomyHaik/gim
+### Full Document
+
+#### RomyHaik/gim
 
 main
 
@@ -20,13 +29,13 @@ Code
 
 Open more actions menu
 
-### GIM — Goal-in-Mind Framework
+#### GIM—Goal-in-Mind Framework
 
 Why-oriented development for AI-assisted work.
 
-GIM keeps your goal *and the reasons behind it* in mind so you don't lose focus. A single orientation step distills your request into a goal plus the layered *why*, and from then on a passive evaluation loop watches the work for alignment, necessity, clarity, and intent — nudging only when something is off. Every resolution feeds back into GIM so the next call is smarter.
+GIM keeps your goal _and the reasons behind it_ in mind so you don't lose focus. A single orientation step distills your request into a goal plus the layered _why_, and from then on a passive evaluation loop watches the work for alignment, necessity, clarity, and intent—nudging only when something is off. Every resolution feeds back into GIM so the next call is smarter.
 
-#### How it works
+##### How it Works
 
 ```
  /gim-init                           Execution + passive loop
@@ -64,29 +73,29 @@ GIM keeps your goal *and the reasons behind it* in mind so you don't lose focus.
 
 ```
 
-**Orientation** — `/gim-init` captures a freeform request, extracts the goal, and runs a bounded recursive WHY loop that stops when the next *why* is too abstract, low-novelty, low-confidence, or spans multiple branches. The distilled result is three *reason layers* (operational outcome, strategic motivation, confidence). You approve or edit, and GIM writes the goal + reasons to `.gim.yaml` and `.gim/goal.md`; the CLAUDE.md pointer ensures Claude loads them before substantive work.
+Orientation—`/gim-init` captures a freeform request, extracts the goal, and runs a bounded recursive WHY loop that stops when the next _why_ is too abstract, low-novelty, low-confidence, or spans multiple branches. The distilled result is three _reason layers_ (operational outcome, strategic motivation, confidence). You approve or edit, and GIM writes the goal + reasons to `.gim.yaml` and `.gim/goal.md`; the CLAUDE.md pointer ensures Claude loads them before substantive work.
 
-**Execution with a passive loop** — while you work, GIM silently evaluates each request against the orientation. Four checks (alignment, necessity, clarity, intent) dispatch to four issue types (ambiguity, drift, overbuild, intent mismatch). No issue → silence. Issue → a targeted, minimal intervention.
+Execution with a passive loop—while you work, GIM silently evaluates each request against the orientation. Four checks (alignment, necessity, clarity, intent) dispatch to four issue types (ambiguity, drift, overbuild, intent mismatch). No issue → silence. Issue → a targeted, minimal intervention.
 
-**Learning** — how you resolve an intervention is itself data. A `--non-goal` or `--out-of-scope` resolution creates a boundary node; a `--override` creates a *rule* node (`.gim/rules/rule-{id}.md`) that functions as a learned allowlist — the next request matching the same pattern passes without re-flagging.
+Learning—how you resolve an intervention is itself data. A `--non-goal` or `--out-of-scope` resolution creates a boundary node; a `--override` creates a _rule_ node (`.gim/rules/rule-{id}.md`) that functions as a learned allowlist—the next request matching the same pattern passes without re-flagging.
 
-**Tool integration** — external tools that generate artifacts (OpenSpec, task runners, spec writers, MCP servers) read the GIM context via `gim export` and can invoke the passive loop via `gim check --json`. See [Tool integration](https://github.com/RomyHaik/gim/#tool-integration) below for the contract.
+Tool integration—external tools that generate artifacts (OpenSpec, task runners, spec writers, MCP servers) read the GIM context via `gim export` and can invoke the passive loop via `gim check --json`. See [Tool integration](https://github.com/RomyHaik/gim/#tool-integration) below for the contract.
 
-#### Claude Code: zero-friction integration
+##### Claude Code: Zero-friction Integration
 
-`gim install claude-code` (project-level) ships three things and together they make Claude Code *adopt GIM's workflow* without the user or Claude having to call the CLI manually:
+`gim install claude-code` (project-level) ships three things and together they make Claude Code _adopt GIM's workflow_ without the user or Claude having to call the CLI manually:
 
-1. **Slash commands** in `.claude/commands/` — `/gim-init`, `/gim-focus`, `/gim-check`, `/gim-goal`, `/gim-mode`, `/gim-scope`, `/gim-resolve`, `/gim-validate`, `/gim-brainstorm`.
-2. **CLAUDE.md pointer** — a `<!-- GIM:START -->…<!-- GIM:END -->` block that tells Claude the vault is the source of truth and routes project-scoped facts to GIM instead of Claude's auto-memory.
-3. **Auto-sync hooks** in `.claude/settings.json` + `.claude/hooks/` — two `PreToolUse` hooks the Claude Code harness runs on every relevant tool call:
-	* **TaskCreate mirror** — every native `TaskCreate` also runs `gim task add`, so `.gim/tasks/` stays populated with a suggested token budget (computed from goal-relevance + mode + confidence). Claude keeps its in-session task UI; GIM owns the persistent record.
-	* **Auto-memory redirect** — a `Write` to `~/.claude/projects/<slug>/memory/` with `type: project` frontmatter is intercepted; the content is redirected to `gim context add` (producing a `ctx-` node in `.gim/context/`) and the native write is denied with a reason string so Claude learns the redirect. User-/feedback-/reference-typed memory still passes through.
+1. Slash commands in `.claude/commands/`—`/gim-init`, `/gim-focus`, `/gim-check`, `/gim-goal`, `/gim-mode`, `/gim-scope`, `/gim-resolve`, `/gim-validate`, `/gim-brainstorm`.
+2. CLAUDE.md pointer—a `<!-- GIM:START -->…<!-- GIM:END -->` block that tells Claude the vault is the source of truth and routes project-scoped facts to GIM instead of Claude's auto-memory.
+3. Auto-sync hooks in `.claude/settings.json` + `.claude/hooks/`—two `PreToolUse` hooks the Claude Code harness runs on every relevant tool call:
+	- TaskCreate mirror—every native `TaskCreate` also runs `gim task add`, so `.gim/tasks/` stays populated with a suggested token budget (computed from goal-relevance + mode + confidence). Claude keeps its in-session task UI; GIM owns the persistent record.
+	- Auto-memory redirect—a `Write` to `~/.claude/projects/<slug>/memory/` with `type: project` frontmatter is intercepted; the content is redirected to `gim context add` (producing a `ctx-` node in `.gim/context/`) and the native write is denied with a reason string so Claude learns the redirect. User-/feedback-/reference-typed memory still passes through.
 
-Net effect: once you run `gim install claude-code` in a project, tasks and project-typed auto-memory writes land in `.gim/` as a side effect of how Claude Code already works. Decisions, scope calls, overrides, and goal updates still go through explicit commands (`gim resolve`, `gim scope add-*`, `gim goal set`, `gim goal orient`) — either you or Claude invokes them, but the hooks don't auto-generate them.
+Net effect: once you run `gim install claude-code` in a project, tasks and project-typed auto-memory writes land in `.gim/` as a side effect of how Claude Code already works. Decisions, scope calls, overrides, and goal updates still go through explicit commands (`gim resolve`, `gim scope add-*`, `gim goal set`, `gim goal orient`)—either you or Claude invokes them, but the hooks don't auto-generate them.
 
 For per-user global slash commands (no per-project hooks), run `gim install claude-code --global`.
 
-#### Install
+##### Install
 
 ```
 # From GitHub
@@ -97,11 +106,11 @@ git clone https://github.com/RomyHaik/gim.git
 cd gim && npm install -g .
 ```
 
-#### Quick start
+##### Quick Start
 
-##### 1. Initialize
+###### 1. Initialize
 
-Interactive orientation (recommended) — install the Claude Code slash commands first, then run `/gim-init` in a session. GIM captures your request, walks the recursive WHY loop, proposes reason layers (operational / strategic / confidence), and initializes the vault once you approve.
+Interactive orientation (recommended)—install the Claude Code slash commands first, then run `/gim-init` in a session. GIM captures your request, walks the recursive WHY loop, proposes reason layers (operational / strategic / confidence), and initializes the vault once you approve.
 
 ```
 gim install claude-code     # one-time, per project
@@ -109,7 +118,7 @@ gim install claude-code     # one-time, per project
 /gim-init launch working billing flow for SaaS users
 ```
 
-One-shot CLI (scripting / CI / no LLM) — skip straight to a populated vault:
+One-shot CLI (scripting / CI / no LLM)—skip straight to a populated vault:
 
 ```
 gim init --goal "Launch working billing flow" \
@@ -134,9 +143,9 @@ Either path creates the vault:
 
 ```
 
-To refresh only the reason layers on an existing goal, run `gim goal orient --operational "..." --strategic "..." --confidence 0.85` (or use `/gim-init` again in a session).
+To refresh only the reason layers on an existing goal, run `gim goal orient --operational "…" --strategic "…" --confidence 0.85` (or use `/gim-init` again in a session).
 
-##### 2. Add tasks (auto-checked + auto-budgeted)
+###### 2. Add Tasks (auto-checked + auto-budgeted)
 
 ```
 gim task add "set up Stripe SDK"
@@ -152,7 +161,7 @@ gim task add "build analytics dashboard"
 #   Resolve: gim resolve chk-xxx --override | --non-goal | --out-of-scope
 ```
 
-Every task creation does two things: the passive evaluation decides `active` vs `proposed`, and the budget estimator attaches a **soft token budget** computed from goal-relevance, mode, and confidence. The budget is a planning signal — it shows up in `gim task show`, `gim task list`, and `gim focus`, and is surfaced to the LLM via `CLAUDE.md`. Override with `--budget N` when you disagree:
+Every task creation does two things: the passive evaluation decides `active` vs `proposed`, and the budget estimator attaches a soft token budget computed from goal-relevance, mode, and confidence. The budget is a planning signal—it shows up in `gim task show`, `gim task list`, and `gim focus`, and is surfaced to the LLM via `CLAUDE.md`. Override with `--budget N` when you disagree:
 
 ```
 gim task add "write Stripe checkout unit tests" --budget 1500
@@ -160,9 +169,9 @@ gim task add "write Stripe checkout unit tests" --budget 1500
 #   Budget: 1,500 tokens (override; suggested 2,500)
 ```
 
-Not a hard cap — an expectation-setter. Actual-vs-budget tracking is deferred to a later phase.
+Not a hard cap—an expectation-setter. Actual-vs-budget tracking is deferred to a later phase.
 
-##### 3. Define boundaries
+###### 3. Define Boundaries
 
 ```
 gim scope add-non-goal "analytics dashboard" --reason "post-launch" --target-version v2
@@ -171,7 +180,7 @@ gim scope add-oos "custom payment processor" --reason "using Stripe"
 
 Each boundary becomes a markdown node in `.gim/boundaries/` with a `parent: [[goal]]` edge and `learned-from: [[chk-xxx]]` when applicable.
 
-##### 4. Run checks
+###### 4. Run Checks
 
 ```
 gim check "add Stripe checkout, retry queue, fallback system, and event-driven architecture"
@@ -184,9 +193,9 @@ gim check "add Stripe checkout, retry queue, fallback system, and event-driven a
 #   Resolve: gim resolve chk-d4e5f6 --out-of-scope | --non-goal | --override
 ```
 
-Five outcomes: `drift` (alignment fail — request doesn't serve the goal), `overbuild` (necessity fail — more than the goal requires right now), `ambiguity` (clarity fail — underspecified), `intent-mismatch` (intent fail — behavioural pattern suggests a non-goal driver), or `clear`.
+Five outcomes: `drift` (alignment fail—request doesn't serve the goal), `overbuild` (necessity fail—more than the goal requires right now), `ambiguity` (clarity fail—underspecified), `intent-mismatch` (intent fail—behavioural pattern suggests a non-goal driver), or `clear`.
 
-##### 5. Resolve and learn
+###### 5. Resolve and Learn
 
 ```
 # Narrow the learned boundary to just the off-goal parts:
@@ -200,13 +209,13 @@ gim resolve chk-d4e5f6 --out-of-scope "retry queue and fallback system"
 
 Three learning paths on resolve:
 
-* `--non-goal [description] [--target-version v2]` → creates a `.gim/boundaries/ng-{id}.md` (deferred feature).
-* `--out-of-scope [description]` → creates a `.gim/boundaries/oos-{id}.md` (explicitly excluded).
-* `--override` → creates a `.gim/rules/rule-{id}.md` (learned allowlist — a future request matching the same pattern short-circuits the passive loop to `clear`).
+- `--non-goal [description] [--target-version v2]` → creates a `.gim/boundaries/ng-{id}.md` (deferred feature).
+- `--out-of-scope [description]` → creates a `.gim/boundaries/oos-{id}.md` (explicitly excluded).
+- `--override` → creates a `.gim/rules/rule-{id}.md` (learned allowlist—a future request matching the same pattern short-circuits the passive loop to `clear`).
 
-In every case, a `.gim/decisions/dec-{id}.md` records the resolution itself. Future checks for "retry queue" match the boundary instantly — the passive loop doesn't re-evaluate.
+In every case, a `.gim/decisions/dec-{id}.md` records the resolution itself. Future checks for "retry queue" match the boundary instantly—the passive loop doesn't re-evaluate.
 
-##### 6. See the graph
+###### 6. See the Graph
 
 ```
 gim graph tree
@@ -228,18 +237,18 @@ gim focus
 # Vault: .gim/  •  index: .gim/_index.md
 ```
 
-##### 7. Validate and brainstorm
+###### 7. Validate and Brainstorm
 
 ```
 gim validate "add Stripe webhook handler"
-# VALID  ****  4/5 — Well-aligned
+# VALID    4/5 — Well-aligned
 
 gim brainstorm "add payment receipt emails"
 # Connections found:
 #   [strong] Directly references goal concepts: payment, receipt
 ```
 
-##### 8. Install into AI tools
+###### 8. Install into AI Tools
 
 ```
 gim install claude-code            # project-level slash commands + auto-sync hooks
@@ -248,24 +257,24 @@ gim install cursor                 # .cursorrules
 gim install windsurf               # .windsurfrules
 ```
 
-**Claude Code auto-sync (project install only).** `gim install claude-code` provisions two PreToolUse hooks in `.claude/settings.json` + hook scripts in `.claude/hooks/`. From then on, Claude Code populates GIM automatically:
+Claude Code auto-sync (project install only). `gim install claude-code` provisions two PreToolUse hooks in `.claude/settings.json` + hook scripts in `.claude/hooks/`. From then on, Claude Code populates GIM automatically:
 
-* Every native **TaskCreate** silently mirrors into `.gim/tasks/` with a suggested token budget — no `gim task add` needed.
-* **Writes to `~/.claude/projects/<slug>/memory/`** with `type: project` frontmatter are intercepted and redirected to `gim context add`, creating a `ctx-` node in `.gim/context/`. User/feedback/reference memory still lives in auto-memory.
+- Every native TaskCreate silently mirrors into `.gim/tasks/` with a suggested token budget—no `gim task add` needed.
+- Writes to `~/.claude/projects/<slug>/memory/` with `type: project` frontmatter are intercepted and redirected to `gim context add`, creating a `ctx-` node in `.gim/context/`. User/feedback/reference memory still lives in auto-memory.
 
-Result: Claude Code adopts GIM's workflow without the user or Claude having to invoke the CLI manually. The global install (`--global`) only ships slash commands — hooks are project-scoped and git-tracked so teammates get the same auto-sync.
+Result: Claude Code adopts GIM's workflow without the user or Claude having to invoke the CLI manually. The global install (`--global`) only ships slash commands—hooks are project-scoped and git-tracked so teammates get the same auto-sync.
 
-#### The vault
+##### The Vault
 
 Every node in `.gim/` is a `.md` file where:
 
-* **All data lives in YAML frontmatter** — `type`, `id`, `description`, `tags`, and typed edges (`parent`, `resolves`, `learned-from`, `matched-non-goal`, etc.)
-* **Bodies are empty** — keeps LLM token cost minimal when the vault is loaded into context
-* **Edges are wiki-link scalars** (`[[goal]]`, `[[chk-xxx]]`) — queryable, traversable, first-class
+- All data lives in YAML frontmatter—`type`, `id`, `description`, `tags`, and typed edges (`parent`, `resolves`, `learned-from`, `matched-non-goal`, etc.)
+- Bodies are empty—keeps LLM token cost minimal when the vault is loaded into context
+- Edges are wiki-link scalars (`[[goal]]`, `[[chk-xxx]]`)—queryable, traversable, first-class
 
-##### `goal.md` and reason layers
+###### `goal.md` And Reason Layers
 
-The goal node carries the layered *why* distilled from the `/gim-init` recursive WHY loop:
+The goal node carries the layered _why_ distilled from the `/gim-init` recursive WHY loop:
 
 ```
 ---
@@ -284,7 +293,7 @@ criteria:
 
 The passive evaluation loop reads these layers to judge alignment (does a request serve the operational outcome?) and necessity (does it serve the strategic reason?).
 
-##### File types
+###### File Types
 
 | File | Location | Created by |
 | --- | --- | --- |
@@ -299,7 +308,7 @@ The passive evaluation loop reads these layers to judge alignment (does a reques
 | Index | `.gim/_index.md` | Auto-generated after every operation |
 | Mode | `.gim/mode.md` | `gim mode set` |
 
-##### Tag hierarchy
+###### Tag Hierarchy
 
 ```
 gim/goal
@@ -314,15 +323,15 @@ gim/status/{proposed,active,completed,rejected}
 
 ```
 
-The four check types (alignment/necessity/clarity/intent) and four issue types (ambiguity/drift/overbuild/intent-mismatch) are the vocabulary of the passive evaluation loop. Old vaults with pre-v0.4 tags (`scope-creep`, `intent-drift`, `goal-misalignment`) are migrated on read — writes always use the new names.
+The four check types (alignment/necessity/clarity/intent) and four issue types (ambiguity/drift/overbuild/intent-mismatch) are the vocabulary of the passive evaluation loop. Old vaults with pre-v0.4 tags (`scope-creep`, `intent-drift`, `goal-misalignment`) are migrated on read—writes always use the new names.
 
-##### The why-graph
+###### The Why-graph
 
-Every node's edges trace back to `goal.md`. Learned items preserve the full chain as first-class data: a fired check produces a decision, which produces either a boundary node (`.gim/boundaries/`) for `--non-goal` / `--out-of-scope` resolutions or a rule node (`.gim/rules/`) for `--override`. Use `gim graph tree` to walk the graph, or query the vault directly — every edge is a wiki-link scalar in frontmatter.
+Every node's edges trace back to `goal.md`. Learned items preserve the full chain as first-class data: a fired check produces a decision, which produces either a boundary node (`.gim/boundaries/`) for `--non-goal` / `--out-of-scope` resolutions or a rule node (`.gim/rules/`) for `--override`. Use `gim graph tree` to walk the graph, or query the vault directly—every edge is a wiki-link scalar in frontmatter.
 
-#### Config
+##### Config
 
-`.gim.yaml` at your project root (minimal — the vault is the state):
+`.gim.yaml` at your project root (minimal—the vault is the state):
 
 ```
 version: v0
@@ -338,13 +347,13 @@ goal:
 mode: focused-execution
 ```
 
-#### CLI commands
+##### CLI Commands
 
 | Command | Description |
 | --- | --- |
-| `gim init --goal "..." [--operational ... --strategic ... --confidence 0..1]` | Initialize GIM vault (optionally with reason layers) |
+| `gim init --goal "…" [--operational … --strategic … --confidence 0..1]` | Initialize GIM vault (optionally with reason layers) |
 | `gim goal set / show / orient` | Set goal, view goal, or update just the reason layers |
-| `gim task add "..." [--budget N]` | Add a task (auto-checked + auto-budgeted; `--budget` overrides) |
+| `gim task add "…" [--budget N]` | Add a task (auto-checked + auto-budgeted; `--budget` overrides) |
 | `gim task list / show / complete / reject` | Manage tasks (list + show display budgets) |
 | `gim check "request"` | Run GIM checks |
 | `gim resolve <id> --non-goal / --out-of-scope / --override` | Resolve a check, teach GIM |
@@ -360,19 +369,19 @@ mode: focused-execution
 | `gim install claude-code --global` | Install only slash commands, user-wide (no CLAUDE.md, no hooks) |
 | `gim install cursor` / `gim install windsurf` | Write `.cursorrules` / `.windsurfrules` from the current orientation |
 | `gim export [--pretty]` | Emit current orientation as JSON for external tools |
-| `gim check --json --dry-run "..."` | Run the passive loop and return the result as JSON (no vault write) |
+| `gim check --json --dry-run "…"` | Run the passive loop and return the result as JSON (no vault write) |
 
-#### Tool integration
+##### Tool Integration
 
 External tools (OpenSpec, spec writers, task runners, MCP servers) hook into GIM through two stable surfaces. Both emit JSON and can be piped into any caller that speaks a shell.
 
-##### 1. Read the orientation — `gim export`
+###### 1. Read the orientation—`gim export`
 
 ```
 gim export --pretty
 ```
 
-Emits a versioned JSON payload (`schemaVersion: 1`) with the active goal, reason layers, mode, boundaries, and learned rules. Tools that generate artifacts should read this at the start of each run and include the relevant context in their output — typically the goal description plus the operational reason.
+Emits a versioned JSON payload (`schemaVersion: 1`) with the active goal, reason layers, mode, boundaries, and learned rules. Tools that generate artifacts should read this at the start of each run and include the relevant context in their output—typically the goal description plus the operational reason.
 
 ```
 {
@@ -393,7 +402,7 @@ Emits a versioned JSON payload (`schemaVersion: 1`) with the active goal, reason
 }
 ```
 
-##### 2. Run the passive loop inline — `gim check --json`
+###### 2. Run the Passive Loop inline—`gim check --json`
 
 ```
 gim check --json --dry-run "add retry queue, fallback system"
@@ -401,32 +410,32 @@ gim check --json --dry-run "add retry queue, fallback system"
 
 Returns one of five outcomes (`drift`, `overbuild`, `ambiguity`, `intent-mismatch`, `clear`) as a `CheckResult` JSON object. Use `--dry-run` inside generators so evaluation traffic doesn't pollute the vault; drop it when the user explicitly invokes a check and you want the result logged.
 
-A tool generating, say, a spec file should run `gim check --json --dry-run` against each significant decision in the artifact and embed the result as an inline annotation or block comment. If any check returns a non-`clear` result, the tool should halt or flag before writing the artifact — the passive loop is the gate.
+A tool generating, say, a spec file should run `gim check --json --dry-run` against each significant decision in the artifact and embed the result as an inline annotation or block comment. If any check returns a non-`clear` result, the tool should halt or flag before writing the artifact—the passive loop is the gate.
 
-##### 3. Learn from override
+###### 3. Learn from Override
 
 When a human reviewer overrides a flag your tool surfaced, call `gim resolve <check-id> --override` so the next generation skips the false positive. No additional hook is required.
 
-#### Modes
+##### Modes
 
 | Mode | Scope sensitivity | When to use |
 | --- | --- | --- |
-| `focused-execution` | **High** — reject tangents | Heads-down building |
-| `exploration` | **Low** — allow tangents | Investigating options |
-| `planning` | **Medium** — flag ambiguity | Designing the approach |
-| `review` | **Medium** — check completeness | Evaluating work done |
-| `course-correction` | **Low** — goal is revisable | Adjusting direction |
+| `focused-execution` | High—reject tangents | Heads-down building |
+| `exploration` | Low—allow tangents | Investigating options |
+| `planning` | Medium—flag ambiguity | Designing the approach |
+| `review` | Medium—check completeness | Evaluating work done |
+| `course-correction` | Low—goal is revisable | Adjusting direction |
 
-#### Philosophy
+##### Philosophy
 
-**Why-oriented development**: every artifact traces back to the goal *and* to the layered reason behind it — operational outcome, strategic motivation, confidence. Open any node in `.gim/` and its frontmatter tells you exactly why it exists and which of those layers it serves. The knowledge graph grows with your project: interventions become rules, resolved checks become boundaries, and the orientation sharpens every iteration — at minimal LLM token cost.
+Why-oriented development: every artifact traces back to the goal _and_ to the layered reason behind it—operational outcome, strategic motivation, confidence. Open any node in `.gim/` and its frontmatter tells you exactly why it exists and which of those layers it serves. The knowledge graph grows with your project: interventions become rules, resolved checks become boundaries, and the orientation sharpens every iteration—at minimal LLM token cost.
 
 Three principles:
 
-1. **Keep the goal — and the why — in mind** — every request is evaluated against a clear objective and the reasons it matters
-2. **Silent when clear** — the passive loop only speaks up when alignment, necessity, clarity, or intent is off
-3. **Learn and evolve** — resolutions become rules, checks become boundaries, the graph gets smarter
+1. Keep the goal—and the why—in mind—every request is evaluated against a clear objective and the reasons it matters
+2. Silent when clear—the passive loop only speaks up when alignment, necessity, clarity, or intent is off
+3. Learn and evolve—resolutions become rules, checks become boundaries, the graph gets smarter
 
-#### License
+##### License
 
 MIT

@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-04-16T11:56:01+00:00
+modified: 2026-04-19T18:30:41+00:00
 tags: [ai-infrastructure, interoperability, mcp, standardization]
 title: Model Context Protocol Standardises the LLM-to-Tool Interface
 ---

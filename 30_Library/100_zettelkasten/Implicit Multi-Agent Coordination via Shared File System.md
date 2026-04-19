@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T12:00:00+00:00
-modified: 2026-04-16T11:56:00+00:00
+modified: 2026-04-19T18:30:42+00:00
 tags: [coordination, determinism, file-system, multi-agent-systems]
 title: Implicit Multi-Agent Coordination via Shared File System
 ---

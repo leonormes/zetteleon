@@ -2,7 +2,7 @@
 created: 2026-04-14T20:31:27+00:00
 created_utc: "2026-04-14T13:40:00Z"
 kind: procedure
-modified: 2026-04-16T11:56:03+00:00
+modified: 2026-04-19T18:30:42+00:00
 source_title: "Deconstructing the interview with Jeremy Howard"
 source_url: "https://gemini.google.com/app/fa3a7e9a4a69844c"
 status: seed

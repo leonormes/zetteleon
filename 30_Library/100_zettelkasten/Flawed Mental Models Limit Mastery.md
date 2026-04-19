@@ -1,7 +1,7 @@
 ---
 aliases: ["Bug in the Model", "Capability Ceilings", "Cognitive Ceilings", "Model-Based Mastery"]
 created: 2026-02-11T16:45:00+00:00
-modified: 2026-04-16T11:56:00+00:00
+modified: 2026-04-19T18:30:42+00:00
 see_also: []
 superseded_by: ""
 supersedes: ""

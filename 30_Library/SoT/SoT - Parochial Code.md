@@ -1,7 +1,7 @@
 ---
 aliases: [Boundary Violation, Location-Unaware Code, Myopic Coding]
 created: 2026-01-30T06:57:15+00:00
-modified: 2026-04-17T09:02:01+00:00
+modified: 2026-04-19T18:30:32+00:00
 see_also: []
 superseded_by: ""
 supersedes: ""

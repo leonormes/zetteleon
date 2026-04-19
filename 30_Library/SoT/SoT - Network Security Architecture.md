@@ -2,7 +2,7 @@
 aliases: ["Defense in Depth", "Layered Defense", "Network Security Components", "Security Architecture"]
 created: 2026-04-02T12:00:00Z
 last_synthesis: 2026-04-02
-modified: 2026-04-10T16:52:08+00:00
+modified: 2026-04-19T18:30:32+00:00
 source_of_truth: true
 status: evergreen
 synthesis-count: 1

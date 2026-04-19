@@ -2,7 +2,7 @@
 aliases: ["Oracle SBC", "Perimeta", "SBC", "SIP Security", "Voice Policy Enforcement"]
 created: 2026-04-02T12:10:00Z
 last_synthesis: 2026-04-02
-modified: 2026-04-10T16:52:09+00:00
+modified: 2026-04-19T18:30:31+00:00
 source_of_truth: true
 status: evergreen
 synthesis-count: 1

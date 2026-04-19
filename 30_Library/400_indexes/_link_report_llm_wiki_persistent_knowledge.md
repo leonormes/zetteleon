@@ -1,11 +1,14 @@
 ---
-type: link_report
-status: tmp
-source_atoms: "[[tmp_atoms_llm_wiki_persistent_knowledge.md]]"
+created: 2026-04-14T20:43:15+00:00
 created_utc: "2026-04-14T14:10:00Z"
+modified: 2026-04-19T18:30:36+00:00
+source_atoms: "[[tmp_atoms_llm_wiki_persistent_knowledge.md]]"
+status: tmp
+title: _link_report_llm_wiki_persistent_knowledge
+type: link_report
 ---
 
-## Link Report: Hermes Agent and Karpathy’s LLM Wiki
+## Link Report: Hermes Agent and Karpathy's LLM Wiki
 
 ### Summary
 

@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T00:00:00+00:00
-modified: 2026-04-16T11:55:59+00:00
+modified: 2026-04-19T18:30:43+00:00
 tags: [anxiety, attention, technique, therapy]
 title: Dereflection Counters Rumination by Redirecting Attention from Self to External Values
 ---

@@ -2,7 +2,7 @@
 aliases: [Task Decomposition Protocol, Vague-to-Action]
 created: 2026-04-04T12:00:00Z
 last-synthesis: 2026-04-04
-modified: 2026-04-18T18:15:00+00:00
+modified: 2026-04-19T18:30:35+00:00
 status: evergreen
 tags: [execution, prodos, protocol, task-decomposition]
 title: Protocol - Vague-to-Action
@@ -47,9 +47,9 @@ To convert "heavy" or undefined tasks that trigger avoidance into physical, bina
 
 ## Related
 
-- [[SoT - PRODOS Core Specification]] — _The kernel specification that defines the "Logic-Dopamine Mismatch" and provides the theoretical basis for the 120-second MVA loop._
-- [[MOC - Action Management]] — _The central hub for ProdOS execution strategies, mapping this protocol to the broader goal of transforming intent into reality._
-- [[SoT - The Cognitive Physiology of Task Execution]] — _Deconstructs why "heavy" tasks trigger avoidance and how mechanical execution of an MVA generates the necessary dopamine for momentum._
-- [[Chaining Starter Tasks Creates a Momentum Ramp]] — _A complementary technique for building behavioral momentum using a sequence of low-cost wins._
-- [[The Framework Solves Task Initiation Difficulties]] — _Explains how atomic decomposition removing ambiguity lowers the activation energy required to begin._
-- [[An Action Can Be Formally Modeled as a State Transformation Function]] — _The formal mathematical model underpinning the transition from vague states to physical actions._
+- [[SoT - PRODOS Core Specification]]—_The kernel specification that defines the "Logic-Dopamine Mismatch" and provides the theoretical basis for the 120-second MVA loop._
+- [[MOC - Action Management]]—_The central hub for ProdOS execution strategies, mapping this protocol to the broader goal of transforming intent into reality._
+- [[SoT - The Cognitive Physiology of Task Execution]]—_Deconstructs why "heavy" tasks trigger avoidance and how mechanical execution of an MVA generates the necessary dopamine for momentum._
+- [[Chaining Starter Tasks Creates a Momentum Ramp]]—_A complementary technique for building behavioral momentum using a sequence of low-cost wins._
+- [[The Framework Solves Task Initiation Difficulties]]—_Explains how atomic decomposition removing ambiguity lowers the activation energy required to begin._
+- [[An Action Can Be Formally Modeled as a State Transformation Function]]—_The formal mathematical model underpinning the transition from vague states to physical actions._

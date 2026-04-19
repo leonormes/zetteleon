@@ -1,7 +1,7 @@
 ---
 aliases: [Data-Centric Design Index, Engineering MOC, SDLC MOC, The Data-First Hub]
 created: 2025-02-15T07:24:57Z
-modified: 2026-04-17T09:30:00+00:00
+modified: 2026-04-19T18:30:29+00:00
 source_of_truth: true
 status: evergreen
 synthesis-count: 4
@@ -76,5 +76,5 @@ _Core Map: [[MOC - Data-Oriented Structures & Internals]]_
 
 - [[MOC - Interpretation of References]]—Mapping symbols (code) to memory/reality.
 - [[SoT - Simple Made Easy (Rich Hickey)]]—Decomplecting state and logic.
-- [[SoT - Parochial Code]] — _The failure mode resulting from a lack of architectural boundaries._
-- [[SoT - Context Rot]] — _The entropy of high-level awareness in long sessions._
+- [[SoT - Parochial Code]]—_The failure mode resulting from a lack of architectural boundaries._
+- [[SoT - Context Rot]]—_The entropy of high-level awareness in long sessions._

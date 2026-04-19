@@ -2,7 +2,7 @@
 aliases: ["ADHD Coping Mechanisms", "ADHD Strengths SoT", "Race Car Brain with Bicycle Brakes", "Vitamin Connect"]
 created: 2026-02-03T10:30:00+00:00
 last_synthesis: 2026-04-04
-modified: 2026-04-10T16:52:05+00:00
+modified: 2026-04-19T18:30:35+00:00
 source_of_truth: true
 status: evergreen
 synthesis-count: 2

@@ -2,7 +2,7 @@
 created: 2026-04-14T11:11:37+00:00
 created_utc: "2026-04-14T10:35:00Z"
 kind: distinction
-modified: 2026-04-16T11:55:59+00:00
+modified: 2026-04-19T18:30:43+00:00
 source_title: "Networking Is Label Transformation Under Policy"
 source_url: "N/A"
 status: seed

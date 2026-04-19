@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-04-16T11:55:58+00:00
+modified: 2026-04-19T18:30:44+00:00
 tags: [ai-agents, barrier-to-entry, implementation, technical-debt]
 title: Advanced Agentic Workflows Require Technical Literacy That Consumer Framing Hides
 ---

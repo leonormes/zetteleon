@@ -2,7 +2,7 @@
 aliases: ["Flexible Structure"]
 created: 2025-11-01T21:12:00Z
 last_reviewed: "2025-11-01"
-modified: 2026-04-18T16:30:00+00:00
+modified: 2026-04-19T18:30:42+00:00
 status: "evergreen"
 tags: ["balance", "flexibility", "scheduling", "time-management", "topic/productivity"]
 title: Flexibility Within Structure is Key to Sustainable Timeboxing
@@ -25,9 +25,9 @@ A schedule should serve you, not the other way around. By balancing structure wi
 
 ## Related
 
-- [[SoT - Temporal Management (Blocking and Boxing)]] — _The canonical source for time management, distinguishing between flexible "Blocking" and fixed "Boxing."_
-- [[Scheduling Breaks and Buffers in Timeboxing for ADHD]] — _Specific tactics for preventing the "hyperfocus crash" and managing the cognitive transitions in ADHD._
-- [[The Three-Way Blueprint Balances Work, Rest, and Play]] — _A holistic framework for ensuring that a structured schedule remains balanced and sustainable._
-- [[The Risks of Over-Scheduling]] — _Explores the negative consequences of excessive rigidity and the biological cost of back-to-back blocks._
-- [[Routines Must Be Reviewed and Adjusted Regularly]] — _Emphasizes that time-management systems are living structures that must evolve with changing energy levels._
-- [[Consistency and Momentum]] — _Addresses the long-term challenge of maintaining a system when the initial novelty fades._
+- [[SoT - Temporal Management (Blocking and Boxing)]]—_The canonical source for time management, distinguishing between flexible "Blocking" and fixed "Boxing."_
+- [[Scheduling Breaks and Buffers in Timeboxing for ADHD]]—_Specific tactics for preventing the "hyperfocus crash" and managing the cognitive transitions in ADHD._
+- [[The Three-Way Blueprint Balances Work, Rest, and Play]]—_A holistic framework for ensuring that a structured schedule remains balanced and sustainable._
+- [[The Risks of Over-Scheduling]]—_Explores the negative consequences of excessive rigidity and the biological cost of back-to-back blocks._
+- [[Routines Must Be Reviewed and Adjusted Regularly]]—_Emphasizes that time-management systems are living structures that must evolve with changing energy levels._
+- [[Consistency and Momentum]]—_Addresses the long-term challenge of maintaining a system when the initial novelty fades._

@@ -2,7 +2,7 @@
 aliases: ["ADHD Master Map", "Neurodiversity Hub", "The ADHD Entry Point"]
 created: 2026-04-02T14:00:00+00:00
 last_synthesis: 2026-04-02
-modified: 2026-04-10T16:52:04+00:00
+modified: 2026-04-19T18:30:29+00:00
 see_also: []
 source_of_truth: true
 status: evergreen
@@ -69,6 +69,4 @@ _Actionable scaffolding and "Algorithms" for execution._
 - [[MOC - Computer Science Foundations]] (Applying logic to the brain).
 - [[MOC - Data-Centric Software Engineering]] (Structuring the environment).
 - [[MOC - What is Maths]] (The underlying order).
-
-
 - [[Embracing Interdependence with ADHD]] _(Shifting from isolation to complementing strengths through collaboration)_

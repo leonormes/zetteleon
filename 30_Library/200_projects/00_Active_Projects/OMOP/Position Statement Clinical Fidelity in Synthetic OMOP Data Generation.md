@@ -1,6 +1,6 @@
 ---
 created: 2026-04-17T07:23:48+00:00
-modified: 2026-04-17T07:25:26+00:00
+modified: 2026-04-19T18:30:38+00:00
 title: Position Statement Clinical Fidelity in Synthetic OMOP Data Generation
 ---
 
@@ -50,4 +50,5 @@ I disagree with prioritizing speed over fidelity, but I commit to the team's dec
 ---
 
 Recommendation for Risk Mitigation:
+
 We should define measurable success criteria for what "realistic cohort overlap" means in practice, and establish a 1M patient pilot to validate whether the simplified approach successfully triggers the MPS logic before committing to the full 12M production run.

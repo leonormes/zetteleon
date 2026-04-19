@@ -2,7 +2,7 @@
 aliases: ["AKS Troubleshooting", "Azure Kubernetes Service Operations", "Karpenter for AKS"]
 created: 2026-01-08T12:00:00Z
 last_reviewed: "2026-03-28"
-modified: 2026-04-10T16:52:06+00:00
+modified: 2026-04-19T18:30:34+00:00
 status: evergreen
 tags: ["aks", "autoscaling", "azure", "kubernetes", "ops", "troubleshooting"]
 title: SoT - Azure Kubernetes Service (AKS) Operations

@@ -1,6 +1,6 @@
 ---
 created: 2026-04-15T07:26:44+00:00
-modified: 2026-04-15T07:26:58+00:00
+modified: 2026-04-19T18:30:38+00:00
 title: Azure Batch Quota Explained
 ---
 

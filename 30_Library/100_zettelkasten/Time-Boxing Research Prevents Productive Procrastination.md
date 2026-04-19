@@ -2,7 +2,7 @@
 aliases: ["Time-boxed Research"]
 created: 2025-11-12T15:00:10Z
 last_reviewed: ""
-modified: 2026-04-16T11:56:03+00:00
+modified: 2026-04-19T18:30:39+00:00
 see_also: []
 status: "seedling"
 superseded_by: ""

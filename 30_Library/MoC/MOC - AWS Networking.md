@@ -3,7 +3,7 @@ aliases: [AWS Networking MOC]
 created: 2025-10-24T14:25:58Z
 last-synthesis: 2026-04-04
 last_reviewed: "2026-04-04"
-modified: 2026-04-10T16:52:04+00:00
+modified: 2026-04-19T18:30:29+00:00
 status: "evergreen"
 synthesis-count: 2
 tags: ["aws", "SoftwareEngineering/Networking", "SoftwareEngineering/networking/cloud-networking", "type/moc"]

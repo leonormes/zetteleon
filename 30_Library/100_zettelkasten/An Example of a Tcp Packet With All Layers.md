@@ -1,8 +1,8 @@
 ---
-aliases: ["TCP Packet Example", "Packet Anatomy"]
+aliases: ["Packet Anatomy", "TCP Packet Example"]
 created: 2025-10-21T13:23:09Z
 last_reviewed: ""
-modified: 2026-04-18T12:15:00+00:00
+modified: 2026-04-19T18:30:44+00:00
 status: "evergreen"
 tags: ["SoftwareEngineering/Networking"]
 title: An Example of a Tcp Packet With All Layers
@@ -13,12 +13,14 @@ updated:
 ## TCP Packet Layers & Headers
 
 ### Application Layer Data
+
 - Actual data sent by an app (e.g., HTTP request: "GET /index.html").
 
 ---
 
 ### Transport Layer: TCP Header (Layer 4)
-*See: [[SoT - Protocol Data Units (PDU)#Layer 4: The TCP Segment (Reliability)|TCP Segment Details]]*
+
+_See: [[SoT - Protocol Data Units (PDU)#Layer 4: The TCP Segment (Reliability)|TCP Segment Details]]_
 
 | Field            | Example Value   | Notes                                       |
 |:--------------- |:-------------- |:------------------------------------------ |
@@ -37,7 +39,8 @@ updated:
 ---
 
 ### Network Layer: IP Header (Layer 3 - IPv4)
-*See: [[SoT - Protocol Data Units (PDU)#Layer 3: The IP Packet (Routing)|IP Packet Details]]*
+
+_See: [[SoT - Protocol Data Units (PDU)#Layer 3: The IP Packet (Routing)|IP Packet Details]]_
 
 | Field                | Example Value | Notes                         |
 |:------------------- |:------------ |:---------------------------- |
@@ -55,7 +58,8 @@ updated:
 ---
 
 ### Data Link Layer: Ethernet Header (Layer 2)
-*See: [[SoT - Protocol Data Units (PDU)#Layer 2: The Ethernet Frame (Local Delivery)|Ethernet Frame Details]]*
+
+_See: [[SoT - Protocol Data Units (PDU)#Layer 2: The Ethernet Frame (Local Delivery)|Ethernet Frame Details]]_
 
 | Field           | Example Value     | Notes                  |
 |:-------------- |:---------------- |:--------------------- |
@@ -66,6 +70,7 @@ updated:
 ---
 
 ### Physical Layer (Layer 1)
+
 - Bits/signals on wire (not usually shown in diagrams or captures)
 
 ---
@@ -81,6 +86,7 @@ updated:
 This condensed presentation lets you reference key fields for packet analysis, teaching, or debugging workflows.
 
 ## Related
+
 - [[SoT - Protocol Data Units (PDU)]]: _The canonical Source of Truth for PDU naming conventions (Frames, Packets, Segments) and layer responsibilities._
 - [[SoT - The Architecture of Packet Encapsulation (TCP-IP)]]: _Describes the "Russian Doll" mechanism of nesting headers as data moves down the stack._
 - [[SoT - Network Security Architecture]]: _Provides the broader context for how packet headers are used in firewalling and traffic segmentation._

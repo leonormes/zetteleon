@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-30T16:26:00Z
 last_reviewed: ""
-modified: 2026-04-16T11:55:59+00:00
+modified: 2026-04-19T18:30:43+00:00
 source: "[[MOC - Why Autistics and ADHDers NEED Routines]]"
 status: "seedling"
 tags: ["burnout-prevention", "rest", "self-care"]

@@ -1,7 +1,7 @@
 ---
 aliases: ["Data Dominates Code", "Data-Centric Software Engineering", "Data-Oriented Programming", "DOD", "DOP", "Linus's Law", "The Axiom of Data", "The Data-Centric Philosophy"]
 created: 2025-12-22T00:00:00Z
-modified: 2026-04-17T09:20:00+00:00
+modified: 2026-04-19T18:30:30+00:00
 source_of_truth: true
 status: evergreen
 synthesis-count: 4

@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-30T12:04:06Z
 last_reviewed: ""
-modified: 2026-04-18T15:53:35+00:00
+modified: 2026-04-19T18:30:43+00:00
 status: "stable"
 tags: ["discipline", "TheHuman/Habits", "TheHuman/Identity", "TheHuman/Mindset"]
 title: Disciplined Choices are Votes for Your Future Self
@@ -16,9 +16,8 @@ Every small, disciplined choice you make is a "vote" for the future version of y
 
 ## Related
 
-- [[SoT - Habit Formation Framework#3. Driver: Identity-Based Habits|SoT - Identity-Based Habits]] — _The canonical source for the "Voting" mechanism, explaining how prove your identity to yourself via small wins._
-- [[The Self is Constructed Through a Commitment to Chosen Values]] — _Provides the philosophical foundation for how active choices and integrity construct the self._
-- [[MOC - How to Build Discipline]] — _The central map for strategies and principles related to the development of personal discipline._
-- [[Inaction Erodes Self-Trust]] — _Explains the negative consequence of "undisciplined votes"—the loss of confidence in one's own reliability._
-- [[You Fall to the Level of Your Systems, Not Rise to Your Goals]] — _Connects the voting metaphor to the structural nature of habit-building._
-
+- [[SoT - Habit Formation Framework#3. Driver: Identity-Based Habits|SoT - Identity-Based Habits]]—_The canonical source for the "Voting" mechanism, explaining how prove your identity to yourself via small wins._
+- [[The Self is Constructed Through a Commitment to Chosen Values]]—_Provides the philosophical foundation for how active choices and integrity construct the self._
+- [[MOC - How to Build Discipline]]—_The central map for strategies and principles related to the development of personal discipline._
+- [[Inaction Erodes Self-Trust]]—_Explains the negative consequence of "undisciplined votes"—the loss of confidence in one's own reliability._
+- [[You Fall to the Level of Your Systems, Not Rise to Your Goals]]—_Connects the voting metaphor to the structural nature of habit-building._

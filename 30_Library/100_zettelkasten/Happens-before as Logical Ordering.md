@@ -2,7 +2,7 @@
 created: 2026-04-14T17:44:07+00:00
 created_utc: "2026-04-14T12:20:00Z"
 kind: definition
-modified: 2026-04-16T11:56:03+00:00
+modified: 2026-04-19T18:30:42+00:00
 source_title: "The Fundamental Challenge of Concurrent and Distributed Systems"
 source_url: "http://www.youtube.com/watch?v=U719vQz-WFs"
 status: seed

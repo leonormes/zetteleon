@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-11-01T09:51:13Z
 last_reviewed: "null"
-modified: 2026-04-18T17:00:00+00:00
+modified: 2026-04-19T18:30:40+00:00
 status: "stable"
 tags: ["mental-model", "originality", "synthesis", "TheHuman/Creativity", "topic/creativity"]
 title: Originality is Synthesis Not Creation From Nothing
@@ -20,10 +20,10 @@ Details: Human originality arises from distinctive synthesis rather than ex nihi
 
 ## Related
 
-- [[The Self is Constructed Through Curation of Influences]] — _The psychological application of this principle, viewing identity as an editorial process of selecting and integrating influences._
-- [[Jazz Musician Metaphor for Originality Through Unique Expression]] — _Illustrates how distinctive voices emerge from the creative recombination and phrasing of shared scales and forms._
-- [[Generalization and Synthesis are Powerful in Complex Environments]] — _Discusses the strategic value of integrating diverse knowledge to solve problems in rapidly changing systems._
-- [[Everything is a Remix (Metaphor)]] — _A sibling concept exploring how all creative work is built on existing ideas through copying, transforming, and combining._
-- [[AI as Statistical Interpolation]] — _Contrasts human synthesis with AI creativity, which is primarily the compositional interpolation of human-generated patterns._
-- [[Stage 5 Synthesise (The Outcome Layer)]] — _The practical workflow in ProdOS for converting exploratory thinking into canonical, structured knowledge._
-- [[Creating Meaningful Links#3. Synthetic Links|Synthetic Links]] — _Defines the mechanism in a Zettelkasten for combining multiple ideas into emergent, higher-level concepts._
+- [[The Self is Constructed Through Curation of Influences]]—_The psychological application of this principle, viewing identity as an editorial process of selecting and integrating influences._
+- [[Jazz Musician Metaphor for Originality Through Unique Expression]]—_Illustrates how distinctive voices emerge from the creative recombination and phrasing of shared scales and forms._
+- [[Generalization and Synthesis are Powerful in Complex Environments]]—_Discusses the strategic value of integrating diverse knowledge to solve problems in rapidly changing systems._
+- [[Everything is a Remix (Metaphor)]]—_A sibling concept exploring how all creative work is built on existing ideas through copying, transforming, and combining._
+- [[AI as Statistical Interpolation]]—_Contrasts human synthesis with AI creativity, which is primarily the compositional interpolation of human-generated patterns._
+- [[Stage 5 Synthesise (The Outcome Layer)]]—_The practical workflow in ProdOS for converting exploratory thinking into canonical, structured knowledge._
+- [[Creating Meaningful Links#3. Synthetic Links|Synthetic Links]]—_Defines the mechanism in a Zettelkasten for combining multiple ideas into emergent, higher-level concepts._

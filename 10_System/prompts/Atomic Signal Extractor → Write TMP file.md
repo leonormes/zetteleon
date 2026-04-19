@@ -1,6 +1,6 @@
 ---
 created: 2026-04-09T08:57:06+00:00
-modified: 2026-04-09T12:08:07+00:00
+modified: 2026-04-19T18:30:46+00:00
 title: Atomic Signal Extractor → Write TMP file
 ---
 

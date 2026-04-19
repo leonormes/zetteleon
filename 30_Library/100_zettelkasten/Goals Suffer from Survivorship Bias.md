@@ -2,7 +2,7 @@
 aliases: ["Survivorship Bias of Goals"]
 created: 2025-11-06T19:57:00Z
 last_reviewed: "2025-11-06"
-modified: 2026-04-18T18:45:00+00:00
+modified: 2026-04-19T18:30:42+00:00
 status: "stable"
 tags: ["goals", "success", "survivorship-bias", "topic/systems"]
 title: Goals Suffer from Survivorship Bias
@@ -20,6 +20,6 @@ Details: This is a form of survivorship bias. We see the successful people who a
 
 ## Related
 
-- [[Goals Set the Direction for Change]] — _Explains that while goals provide a necessary "North Star" for direction, they are not the primary differentiator for success._
-- [[SoT - Habit Formation Framework]] — _The canonical specification for "Process Primacy," which argues that architectural constraints (systems) determine outcomes over raw desire (goals)._
-- [[You Fall to the Level of Your Systems, Not Rise to Your Goals]] — _A direct conceptual neighbor asserting that reliable performance is a function of system design rather than goal setting._
+- [[Goals Set the Direction for Change]]—_Explains that while goals provide a necessary "North Star" for direction, they are not the primary differentiator for success._
+- [[SoT - Habit Formation Framework]]—_The canonical specification for "Process Primacy," which argues that architectural constraints (systems) determine outcomes over raw desire (goals)._
+- [[You Fall to the Level of Your Systems, Not Rise to Your Goals]]—_A direct conceptual neighbor asserting that reliable performance is a function of system design rather than goal setting._

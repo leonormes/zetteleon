@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-29T15:17:54Z
 last_reviewed: "null"
-modified: 2026-04-16T11:56:02+00:00
+modified: 2026-04-19T18:30:40+00:00
 status: "null"
 tags: ["analogy", "history", "science", "TheHuman/Cognition/mental-model"]
 title: Ptolemaic System as a Patched Flawed Model

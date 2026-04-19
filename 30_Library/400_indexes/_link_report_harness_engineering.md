@@ -1,8 +1,11 @@
 ---
-type: link_report
-status: tmp
-source_atoms: "[[tmp_atoms_harness_engineering.md]]"
+created: 2026-04-14T20:28:32+00:00
 created_utc: "2026-04-14T13:30:00Z"
+modified: 2026-04-19T18:30:36+00:00
+source_atoms: "[[tmp_atoms_harness_engineering.md]]"
+status: tmp
+title: _link_report_harness_engineering
+type: link_report
 ---
 
 ## Link Report: Archon and Extreme Harness Engineering

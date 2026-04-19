@@ -1,7 +1,7 @@
 ---
 aliases: [Agent Capabilities, AI Agent Skills, Claude Code Skills]
 created: 2026-03-28T17:00:00Z
-modified: 2026-04-10T16:52:05+00:00
+modified: 2026-04-19T18:30:35+00:00
 status: seedling
 tags: [agents, ai, architecture, claude, mcp, skills]
 title: SoT - AI Agent Skill Architecture

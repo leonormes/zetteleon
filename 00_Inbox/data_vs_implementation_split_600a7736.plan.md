@@ -1,7 +1,7 @@
 ---
 created: 2026-04-11T08:48:39+00:00
 isProject: false
-modified: 2026-04-11T08:53:41+00:00
+modified: 2026-04-19T18:30:46+00:00
 name: Data vs implementation split
 overview: Analysis anchored on [ff-test-1/docs](file:///Volumes/DAL/Fitfile/gitlab/FITFILE/New_Customer/ff-test-1/docs) — the two-phase bootstrap vs managed model, TFC state as the pipe into CUE, and [CONTRACTS.md](file:///Volumes/DAL/Fitfile/gitlab/FITFILE/New_Customer/ff-test-1/docs/CONTRACTS.md). The spine (customer.yaml + common → Terraform → infra_facts → CUE → Helm) is right; mixing comes from three deployment generations, dual truth paths, and duplicated chart defaults in the Helm repo.
 title: data_vs_implementation_split_600a7736.plan

@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-04-16T11:55:59+00:00
+modified: 2026-04-19T18:30:43+00:00
 tags: [digital-transformation, economics, infrastructure, robotics]
 title: Digital Refactoring Proceeds at Software Speed While Physical Robotics Lags
 ---

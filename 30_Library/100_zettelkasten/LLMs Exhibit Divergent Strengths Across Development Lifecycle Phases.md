@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-04-16T11:56:00+00:00
+modified: 2026-04-19T18:30:41+00:00
 tags: [claude, gpt, model-selection, software-engineering, specialization]
 title: LLMs Exhibit Divergent Strengths Across Development Lifecycle Phases
 ---

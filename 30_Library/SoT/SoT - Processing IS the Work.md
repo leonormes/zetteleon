@@ -2,7 +2,7 @@
 aliases: ["Active Processing", "Good Enough Processing", "Processing IS the Work"]
 created: 2025-12-07T00:00:00Z
 last_reviewed: ""
-modified: 2026-04-18T18:45:00+00:00
+modified: 2026-04-19T18:30:31+00:00
 status: "stable"
 tags: ["pkm", "TheHuman/Health/ADHD", "TheHuman/Mindset", "topic/productivity"]
 title: SoT - Processing IS the Work
@@ -13,7 +13,7 @@ updated:
 ## 1. Definitive Statement
 
 > [!definition] Definition
-> "Processing IS the Work" is the foundational PKM mindset that identifies the act of reviewing, linking, and synthesizing information as the primary generator of value. It shifts focus from the *Product* (the finished note) to the *Process* (the cognitive engagement required to create it).
+> "Processing IS the Work" is the foundational PKM mindset that identifies the act of reviewing, linking, and synthesizing information as the primary generator of value. It shifts focus from the _Product_ (the finished note) to the _Process_ (the cognitive engagement required to create it).
 
 ---
 
@@ -79,11 +79,11 @@ These strategies bypass executive dysfunction by lowering the barrier to entry.
 
 ## 5. Related Source of Truth (SoT) & Maps
 
-- [[MOC - PKM as Process vs Product]] — _The central map exploring the philosophical shift from collecting to active cognitive processing._
-- [[SoT - PRODOS Core Specification]] — _Defines the "Utility Over Truth" axiom that prioritizes actionable information over abstract hoarding._
-- [[SoT - Evolutionary Note System]] — _Defines the "Merge Protocol" (HEAD -> SoT) as the physical mechanism for processing and synthesis._
-- [[SoT - Habit Formation Framework#1. Philosophy: Process Primacy|SoT - Process Primacy]] — _The core philosophy that systems (the process) determine outcomes (the product)._
-- [[SoT - The Extended Mind]] — _The theoretical basis for why offloading processing to an external system is a biological necessity._
-- [[SoT - The Cognitive Physiology of Task Execution]] — _Explains the neurological basis of the "Wall of Awful" and the Mood Repair Trap._
-- [[MOC - Breaking the ADHD Overthinking-Procrastination Cycle]] — _Broader strategies for managing the emotional and cognitive loops that block processing._
-- [[Stage 5 Synthesise (The Outcome Layer)]] — _The practical workflow for the final stage of the processing cycle._
+- [[MOC - PKM as Process vs Product]]—_The central map exploring the philosophical shift from collecting to active cognitive processing._
+- [[SoT - PRODOS Core Specification]]—_Defines the "Utility Over Truth" axiom that prioritizes actionable information over abstract hoarding._
+- [[SoT - Evolutionary Note System]]—_Defines the "Merge Protocol" (HEAD -> SoT) as the physical mechanism for processing and synthesis._
+- [[SoT - Habit Formation Framework#1. Philosophy: Process Primacy|SoT - Process Primacy]]—_The core philosophy that systems (the process) determine outcomes (the product)._
+- [[SoT - The Extended Mind]]—_The theoretical basis for why offloading processing to an external system is a biological necessity._
+- [[SoT - The Cognitive Physiology of Task Execution]]—_Explains the neurological basis of the "Wall of Awful" and the Mood Repair Trap._
+- [[MOC - Breaking the ADHD Overthinking-Procrastination Cycle]]—_Broader strategies for managing the emotional and cognitive loops that block processing._
+- [[Stage 5 Synthesise (The Outcome Layer)]]—_The practical workflow for the final stage of the processing cycle._

@@ -4,7 +4,7 @@ created: 2025-11-12T15:15:00Z
 criteria: "Atomic notes must relate to the psychological drivers of the ADHD procrastination cycle or feedback-based strategies to counteract it."
 exclusions: "General productivity advice not tailored to ADHD neurobiology."
 last_reviewed: "2026-04-08"
-modified: 2026-04-18T12:45:00+00:00
+modified: 2026-04-19T18:30:29+00:00
 scope: "A framework for understanding and breaking the overthinking-procrastination cycle in ADHD using feedback-driven momentum."
 status: "growing"
 tags: ["executive-function", "procrastination", "TheHuman/Health/ADHD", "TheHuman/Psychology", "topic/productivity"]
@@ -59,20 +59,19 @@ These techniques translate the principles into a practical, immediate toolkit.
 
 ### Related MoCs & Upstream Context
 
-- [[MOC - ADHD (The Master Map)]] — _Master ADHD index and navigation hub._
-- [[MOC - Why Task Initiation is Difficult in ADHD]] — _Deeper dive on the biological and cognitive bottlenecks of starting._
-- [[MOC - ADHD Project Continuation Challenge]] — _Strategies for sustaining momentum after the initial novelty fades._
-- [[MOC - Emotional Dysregulation]] — _Understanding the emotional volatility that fuels avoidance and overthinking._
+- [[MOC - ADHD (The Master Map)]]—_Master ADHD index and navigation hub._
+- [[MOC - Why Task Initiation is Difficult in ADHD]]—_Deeper dive on the biological and cognitive bottlenecks of starting._
+- [[MOC - ADHD Project Continuation Challenge]]—_Strategies for sustaining momentum after the initial novelty fades._
+- [[MOC - Emotional Dysregulation]]—_Understanding the emotional volatility that fuels avoidance and overthinking._
 
 ---
 
 ### See Also (Canonical SoTs)
 
-- [[SoT - Behavioral Architecture]] — _Friction management and the "System > Willpower" axiom._
-- [[SoT - The Cognitive Physiology of Task Execution]] — _Deconstructing the five phases of action and their bottlenecks._
-- [[SoT - Processing IS the Work]] — _Reframing knowledge management as active processing to overcome the "Wall of Awful."_
-- [[SoT - Working Memory & Schema Theory]] — _Managing the cognitive load and the "RAM" deficit in ADHD._
-- [[SoT - ADHD Neurology & Core Concepts]] — _Foundational neurobiology, including the Shame-Procrastination Cycle._
-- [[SoT - Breaking the Creation Cycle]] — _Generating momentum via micro-steps and the "Starter Task" protocol._
-
+- [[SoT - Behavioral Architecture]]—_Friction management and the "System > Willpower" axiom._
+- [[SoT - The Cognitive Physiology of Task Execution]]—_Deconstructing the five phases of action and their bottlenecks._
+- [[SoT - Processing IS the Work]]—_Reframing knowledge management as active processing to overcome the "Wall of Awful."_
+- [[SoT - Working Memory & Schema Theory]]—_Managing the cognitive load and the "RAM" deficit in ADHD._
+- [[SoT - ADHD Neurology & Core Concepts]]—_Foundational neurobiology, including the Shame-Procrastination Cycle._
+- [[SoT - Breaking the Creation Cycle]]—_Generating momentum via micro-steps and the "Starter Task" protocol._
 - 3.6 Pre-define the Transition Rule: [[Action Triggers Bridge the Gap Between Motion and Action|Action Triggers]] eliminate the decision of when to act by pre-committing to a concrete handoff point ('After X preparation step, I will begin Y execution'), cutting off the infinite preparation loop at the root.

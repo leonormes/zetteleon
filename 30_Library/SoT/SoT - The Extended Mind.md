@@ -2,7 +2,7 @@
 aliases: ["Active Externalism", "Cumulative Thinking", "Distributed Cognition", "Embodied Cognition", "EMT", "HEC", "Hypothesis of Extended Cognition", "The Extended Mind Thesis"]
 created: 2025-12-07T18:28:36Z
 last_reviewed: "2025-12-30"
-modified: 2026-04-18T10:30:00+00:00
+modified: 2026-04-19T18:30:30+00:00
 status: "stable"
 tags: ["extended_mind", "mental_models", "pkm", "TheHuman/Cognition", "TheHuman/Health/ADHD", "TheHuman/Philosophy"]
 title: SoT - The Extended Mind
@@ -87,14 +87,13 @@ PRODOS is the operational implementation of the Extended Mind.
 
 ## 7. Related Components
 
-- [[MOC - ProdOS]] — _The central map of the system's architecture and cognitive loops._
-- [[SoT - PRODOS Core Specification]] — _The unified specification for the ProdOS system architecture._
+- [[MOC - ProdOS]]—_The central map of the system's architecture and cognitive loops._
+- [[SoT - PRODOS Core Specification]]—_The unified specification for the ProdOS system architecture._
 - [[SoT - Evolutionary Note System]]
-- [[SoT - Habit Formation Framework#3. Driver: Identity-Based Habits|SoT - Identity-Based Habits]] — _The mechanism for self-image upgrades to sustain long-term behavioral change._
+- [[SoT - Habit Formation Framework#3. Driver: Identity-Based Habits|SoT - Identity-Based Habits]]—_The mechanism for self-image upgrades to sustain long-term behavioral change._
 - [[SoT - Material Symbols]]
 - [[SoT - The Negotiable Body]]
 - [[SoT - Cognitive Tools and Visual Abstraction]]
-- [[Natural-Born Cyborgs - Human Plasticity and Tool Merger]] — _Explores the biological plasticity that allows for seamless tool incorporation._
-- [[The Parity Principle - Functional Equivalence in Cognition]] — _The core philosophical criteria for functional equivalence between internal and external processes._
-- [[SoT - Behavioral Architecture]] — _The implementation of environmental determinism to scaffold action._
-
+- [[Natural-Born Cyborgs - Human Plasticity and Tool Merger]]—_Explores the biological plasticity that allows for seamless tool incorporation._
+- [[The Parity Principle - Functional Equivalence in Cognition]]—_The core philosophical criteria for functional equivalence between internal and external processes._
+- [[SoT - Behavioral Architecture]]—_The implementation of environmental determinism to scaffold action._

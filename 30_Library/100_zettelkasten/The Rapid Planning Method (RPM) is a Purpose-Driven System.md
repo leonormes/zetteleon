@@ -2,7 +2,7 @@
 aliases: ["RPM"]
 created: 2025-11-10T14:14:00Z
 last_reviewed: ""
-modified: 2026-04-18T10:15:00+00:00
+modified: 2026-04-19T18:30:39+00:00
 status: "seedling"
 tags: ["goals", "purpose", "TheHuman/Motivation", "topic/productivity", "topic/systems"]
 title: The Rapid Planning Method (RPM) is a Purpose-Driven System
@@ -12,11 +12,12 @@ updated:
 
 ## The Rapid Planning Method (RPM) is a Purpose-Driven System
 
-**Summary:** The **Rapid Planning Method (RPM)**, developed by Tony Robbins, is a purpose-driven productivity system centered on defining the specific **Results** desired, understanding the **Purpose** ("why") behind them, and creating a **Massive Action Plan (MAP)**.
+Summary: The Rapid Planning Method (RPM), developed by Tony Robbins, is a purpose-driven productivity system centered on defining the specific Results desired, understanding the Purpose ("why") behind them, and creating a Massive Action Plan (MAP).
 
-**Details:** RPM's strength lies in its motivational power, derived from a clear focus on purpose. The MAP phase incorporates [[SoT - Temporal Management (Blocking and Boxing)|time blocking]] by organizing tasks into "RPM blocks" and can use [[SoT - Temporal Management (Blocking and Boxing)|time boxing]] for specific actions. This system is designed to align daily actions with a long-term vision and specific [[SoT - What is a Problem|goals]].
+Details: RPM's strength lies in its motivational power, derived from a clear focus on purpose. The MAP phase incorporates [[SoT - Temporal Management (Blocking and Boxing)|time blocking]] by organizing tasks into "RPM blocks" and can use [[SoT - Temporal Management (Blocking and Boxing)|time boxing]] for specific actions. This system is designed to align daily actions with a long-term vision and specific [[SoT - What is a Problem|goals]].
 
 ## Related
+
 - [[SoT - Temporal Management (Blocking and Boxing)]]: _Canonical source for the time blocking and time boxing techniques utilized within the RPM MAP phase._
 - [[SoT - What is a Problem]]: _Provides the productivity framework for distinguishing between Situations, Goals, Tasks, and Problems, which complements RPM's Result-oriented approach._
 - [[Plan To Plan-Just-In-Time for ADHD]]: _An alternative planning mindset focused on ADHD optimization, contrasting with RPM's more structured long-term vision alignment._

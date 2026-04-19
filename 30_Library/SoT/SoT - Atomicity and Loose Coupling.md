@@ -2,7 +2,7 @@
 aliases: ["Atomic Notes vs. Interconnectedness", "Loose Coupling", "The Problem of False Atoms SoT"]
 created: 2025-12-12T00:00:00Z
 last_reviewed: "2025-12-12"
-modified: 2026-02-01T15:08:02+00:00
+modified: 2026-04-19T18:30:34+00:00
 status: "stable"
 tags: ["atomicity", "pkm", "topic/systems", "zettelkasten"]
 title: SoT - Atomicity and Loose Coupling
@@ -65,7 +65,7 @@ We gain control over complexity not by isolating atoms, but by standardizing how
 
 ## See Also
 
-- [[SoT - Parochial Code]] — _The architectural failure mode resulting from a lack of modularity and boundary awareness._
-- [[SoT - Macro-Micro Unification]] — _The framework for balancing atomic detail with system-wide coherence._
-- [[SoT - Systems Thinking]] — _The broader context for understanding interconnectedness and feedback loops._
-- [[SoT - Dimensions of Code Understanding]] — _Defines 'Structural' understanding as adherence to separation of concerns._
+- [[SoT - Parochial Code]]—_The architectural failure mode resulting from a lack of modularity and boundary awareness._
+- [[SoT - Macro-Micro Unification]]—_The framework for balancing atomic detail with system-wide coherence._
+- [[SoT - Systems Thinking]]—_The broader context for understanding interconnectedness and feedback loops._
+- [[SoT - Dimensions of Code Understanding]]—_Defines 'Structural' understanding as adherence to separation of concerns._

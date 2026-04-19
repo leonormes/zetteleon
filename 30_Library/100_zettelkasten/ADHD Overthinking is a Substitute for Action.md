@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-11-12T15:00:02Z
 last_reviewed: "null"
-modified: 2026-04-18
+modified: 2026-04-19T18:30:44+00:00
 status: seedling
 tags: []
 title: ADHD Overthinking is a Substitute for Action
@@ -16,9 +16,8 @@ Summary: When executive dysfunction creates a cognitive gridlock that prevents t
 
 Details: This overthinking creates the illusion of engagement and productivity without generating any tangible progress. It is a coping mechanism to escape the intensely aversive feeling of being overwhelmed by a complex task. The brain, unable to engage the "gears" of action, remains stuck revving its intellectual "engine." This initiates a negative feedback loop where inaction increases pressure, which in turn makes the task more intimidating and reinforces the paralysis.
 
-
-
 ## Related
+
 - [[MOC - Why Task Initiation is Difficult in ADHD]] _Provides the high-level map of the neurological bottlenecks (Time Blindness, Low Dopamine) that drive this substitution behavior._
 - [[MOC - Breaking the ADHD Overthinking-Procrastination Cycle]] _The primary playbook for understanding how this overthinking feeds into a self-reinforcing procrastination loop._
 - [[ADHD Paralysis is the Inability to Start a Task Until it Becomes an Emergency]] _A related manifestation where overthinking leads to complete behavioral freezing until urgency overrides the executive dysfunction._

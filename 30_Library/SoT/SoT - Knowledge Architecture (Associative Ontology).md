@@ -3,7 +3,7 @@ alias: ["Intellectual Landscape", "Knowledge Map", "Ontology"]
 aliases: []
 created: 2026-01-05T06:58:46+00:00
 last_reviewed: 
-modified: 2026-04-10T16:52:07+00:00
+modified: 2026-04-19T18:30:32+00:00
 see_also: []
 status: "Active"
 superseded_by: ""

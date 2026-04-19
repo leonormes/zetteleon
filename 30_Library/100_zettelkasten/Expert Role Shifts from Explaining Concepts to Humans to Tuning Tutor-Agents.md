@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-04-16T11:55:59+00:00
+modified: 2026-04-19T18:30:42+00:00
 tags: [ai-agents, education, knowledge-distillation, tutors]
 title: Expert Role Shifts from Explaining Concepts to Humans to Tuning Tutor-Agents
 ---

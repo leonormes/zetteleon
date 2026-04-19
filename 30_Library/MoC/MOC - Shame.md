@@ -2,7 +2,7 @@
 aliases: [ADHD Shame, Feeling Defective, Shame MOC]
 created: 2025-05-26T13:50:29Z
 last_reviewed: 2026-04-04
-modified: 2026-04-17T09:40:00+00:00
+modified: 2026-04-19T18:30:28+00:00
 status: stable
 tags: [emotion, map, shame, TheHuman/Health/ADHD]
 title: MOC - Shame
@@ -56,4 +56,3 @@ Healing requires moving from a "Deficit Model" (fixing flaws) to a "Strength-Bas
 - [[MOC - ADHD (The Master Map)|MOC - ADHD Management]]
 - [[MOC - Action Management]]
 - [[MOC - Socio-Technical Dissonance]]
-

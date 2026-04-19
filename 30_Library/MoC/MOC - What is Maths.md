@@ -4,7 +4,7 @@ created: 2025-11-01T11:22:13Z
 criteria: ""
 exclusions: ""
 last_reviewed: "2025-11-01T00:00:00.000Z"
-modified: 2026-04-18T12:30:00+00:00
+modified: 2026-04-19T18:30:28+00:00
 scope: ""
 status: "evergreen"
 tags: ["foundations", "TheHuman/Philosophy", "topic/maths"]
@@ -39,7 +39,7 @@ These philosophical programs face significant challenges that have shaped modern
 - [[Gödel's Incompleteness Theorems Constrain Foundational Programs]] `rel:: challenges` both [[Logicism (Mathematics as Extension of Logic)]] and [[Formalism (Mathematics as Symbol Manipulation)]], demonstrating that no consistent formal system strong enough for arithmetic can be complete or prove its own consistency.
 - [[Russell's Paradox in Naive Set Theory]] `rel:: challenges` the naive comprehension principle, forcing the reconstruction of set theory through [[Axiomatic Set Theory Is a Foundational Framework for Mathematics]] `rel:: foundation`.
 - [[Intuitionism Rejects the Law of the Excluded Middle]] `rel:: contrasts-with` classical [[Deductive Reasoning Underwrites Mathematical Proof]], demanding constructive proofs and rejecting non-constructive methods.
-- [[A Car Mechanic Versus an Engineer Is a Strong Analogy for the Two Views of Maths]] — _Illustrates the tension between practical computation (Applicative) and structural understanding (Generative)._
+- [[A Car Mechanic Versus an Engineer Is a Strong Analogy for the Two Views of Maths]]—_Illustrates the tension between practical computation (Applicative) and structural understanding (Generative)._
 
 ### The Foundation: Logic and Set Theory
 
@@ -113,8 +113,8 @@ Chance & Uncertainty → [[Probability (Definition)]] `rel:: domain` and [[Stati
 ### Related Maps
 
 - [[MOC - Pattern - From Sensory Input to Meaning]] `rel:: see-also`—Explores pattern recognition more broadly across cognition and meaning-making.
-- [[SoT - The Philosophy of Mathematics Education]] — _Examines the distinction between applicative knowledge and the generative art of mathematical thinking._
-- [[SoT - Order Theory & Lattices]] — _A foundational field exploring the formal structure of hierarchy and relation, bridging logic and algebra._
+- [[SoT - The Philosophy of Mathematics Education]]—_Examines the distinction between applicative knowledge and the generative art of mathematical thinking._
+- [[SoT - Order Theory & Lattices]]—_A foundational field exploring the formal structure of hierarchy and relation, bridging logic and algebra._
 
 ---
 
@@ -123,4 +123,3 @@ Chance & Uncertainty → [[Probability (Definition)]] `rel:: domain` and [[Stati
 ### Conclusion
 
 The journey begins with a profound philosophical question about the ultimate nature of mathematics, leading through centuries of debate. By synthesizing these insights, we arrive at a powerful principle: mathematics is the science of abstracting, analysing, and generalising patterns and structure. From this seed springs the foundation of logic and sets, the core pillars of quantity, space, and transformation, and the advanced fields studying change and uncertainty. This view reveals mathematics not as disconnected subjects, but as a unified, coherent exploration of structure itself.
-

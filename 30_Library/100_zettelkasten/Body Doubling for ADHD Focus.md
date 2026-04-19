@@ -1,18 +1,10 @@
 ---
-aliases:
-  - Body Doubling is an Effective ADHD Strategy
-  - Body Doubling
+aliases: [Body Doubling, Body Doubling is an Effective ADHD Strategy]
 created: 2025-10-26T11:12:00Z
 last_reviewed: 2025-12-16
-modified: 2026-04-18
+modified: 2026-04-19T18:30:43+00:00
 status: pending
-tags:
-  - accountability
-  - experiment
-  - focus
-  - hypothesis
-  - TheHuman/Health/ADHD
-  - topic/productivity
+tags: [accountability, experiment, focus, hypothesis, TheHuman/Health/ADHD, topic/productivity]
 title: Body Doubling for ADHD Focus
 type: hypothesis
 updated:
@@ -61,9 +53,8 @@ Body doubling provides external accountability and anchors the ADHD brain.
 - Virtual: Focusmate or Zoom.
 - Asynchronous (This Experiment): Recording oneself.
 
-
-
 ## Related
+
 - [[SoT - ADHD Management Protocols]] _Identifies body doubling as the 'Hive Switch' tactic that leverages the Observer Effect to override internal resistance._
 - [[MOC - ADHD (The Master Map)]] _The primary navigation hub for ADHD strategies, placing body doubling within the broader tactical scaffolding._
 - [[External Accountability Sustains ADHD Project Commitment]] _Explores how social stakes and commitment loops maintain long-term project engagement for neurodivergent minds._

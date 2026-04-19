@@ -1,8 +1,11 @@
 ---
-type: link_report
-status: tmp
-source_atoms: "[[tmp_atoms_agentic_engineering.md]]"
+created: 2026-04-13T14:37:11+00:00
 created_utc: "2026-04-13T11:10:00Z"
+modified: 2026-04-19T18:30:36+00:00
+source_atoms: "[[tmp_atoms_agentic_engineering.md]]"
+status: tmp
+title: _link_report_agentic_engineering
+type: link_report
 ---
 
 ## Link Report: Agentic Engineering and AI Workflow Management

@@ -1,11 +1,14 @@
 ---
-type: link_report
-status: tmp
-source_atoms: "[[tmp_atoms_auto_research_framework.md]]"
+created: 2026-04-13T14:53:30+00:00
 created_utc: "2026-04-13T11:40:00Z"
+modified: 2026-04-19T18:30:36+00:00
+source_atoms: "[[tmp_atoms_auto_research_framework.md]]"
+status: tmp
+title: _link_report_auto_research_framework
+type: link_report
 ---
 
-## Link Report: Using Karpathy’s Original Framework (Auto Research)
+## Link Report: Using Karpathy's Original Framework (Auto Research)
 
 ### Summary
 
@@ -13,7 +16,7 @@ created_utc: "2026-04-13T11:40:00Z"
 - Notes created: 4
 - Total links made: 8
 - Unlinked atoms (no connections found): 0
-- *Note: Atoms 1 & 2 were already covered by [[Optimization Criteria Must Be Binary Single-Variable Testable Conditions]].*
+- _Note: Atoms 1 & 2 were already covered by [[Optimization Criteria Must Be Binary Single-Variable Testable Conditions]]._
 
 ### Link Map
 

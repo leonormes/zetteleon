@@ -1,7 +1,7 @@
 ---
 created: 2026-04-14T20:55:38+00:00
 created_utc: "2026-04-14T14:30:00Z"
-modified: 2026-04-15T16:41:18+00:00
+modified: 2026-04-19T18:30:36+00:00
 source_atoms: "[[tmp_atoms_productivity_paradox.md]]"
 status: tmp
 title: _link_report_productivity_paradox

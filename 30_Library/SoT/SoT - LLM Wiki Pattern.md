@@ -2,7 +2,7 @@
 aliases: [Compounding Knowledge Base, LLM Wiki, Persistent Knowledge Architecture, RAG Limitation]
 created: 2026-04-06T19:00:00+01:00
 last-synthesis: 2026-04-06
-modified: 2026-04-10T16:52:08+00:00
+modified: 2026-04-19T18:30:32+00:00
 source_of_truth: true
 status: stable
 synthesis-count: 1

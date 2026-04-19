@@ -1,8 +1,11 @@
 ---
-type: link_report
-status: tmp
-source_atoms: "[[tmp_atoms_agent_first_workflow.md]]"
+created: 2026-04-13T14:35:19+00:00
 created_utc: "2026-04-13T11:00:00Z"
+modified: 2026-04-19T18:30:36+00:00
+source_atoms: "[[tmp_atoms_agent_first_workflow.md]]"
+status: tmp
+title: _link_report_agent_first_workflow
+type: link_report
 ---
 
 ## Link Report: The Agent-First Workflow

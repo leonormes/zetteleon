@@ -2,7 +2,7 @@
 aliases: ["Common Data Model", "OMOP CDM"]
 created: 2026-01-06T18:52:00+00:00
 last_reviewed: 2026-01-06
-modified: 2026-04-10T16:52:08+00:00
+modified: 2026-04-19T18:30:32+00:00
 status: "stable"
 tags: ["data_model", "ohdsi", "schema", "sot"]
 title: SoT - OMOP Common Data Model

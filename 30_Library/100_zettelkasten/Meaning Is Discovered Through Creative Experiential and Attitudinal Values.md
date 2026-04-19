@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T00:00:00+00:00
-modified: 2026-04-16T11:56:01+00:00
+modified: 2026-04-19T18:30:41+00:00
 tags: [creativity, meaning, suffering, values]
 title: Meaning Is Discovered Through Creative Experiential and Attitudinal Values
 ---

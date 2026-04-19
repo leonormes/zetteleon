@@ -1,13 +1,16 @@
 ---
-title: "martinbaillie/vault-plugin-secrets-github: Create ephemeral, finely-scoped @github access tokens using @hashicorp Vault."
-source: "https://github.com/martinbaillie/vault-plugin-secrets-github"
 captured: "2026-04-14T16:20:55+01:00 2026-04-14T16:20:55+01:00"
+created: 2026-04-14T15:20:56+00:00
+modified: 2026-04-19T18:30:45+00:00
+source: "https://github.com/martinbaillie/vault-plugin-secrets-github"
 status: "processing"
-tags:
-  - "input"
+tags: ["input"]
+title: HEAD martinbaillievault-plugin-secrets-github Create ephemeral, finely-scoped @github access tokens using @hashicorp Vault.
 type: "head"
 ---
+
 ## Raw Output / Content
+
 ## Vault Plugin Secrets GitHub
 
 - [About](#about)
@@ -24,11 +27,11 @@ type: "head"
 
 Are you using HashiCorp Vault and GitHub in your organisation? Do you want ephemeral, finely-scoped GitHub tokens? If so, this plugin might be for you.
 
-> UPDATE: The plugin was recently demoed at HashiCorp’s [Hashitalks 2021](https://www.youtube.com/watch?v=JuzBolDyGdg&t=17308s).
+> UPDATE: The plugin was recently demoed at HashiCorp's [Hashitalks 2021](https://www.youtube.com/watch?v=JuzBolDyGdg&t=17308s).
 
 ## Why?
 
-Performing automation against GitHub APIs often neccessitates the creation of [OAuth Tokens](https://help.github.com/en/github/extending-github/git-automation-with-oauth-tokens). These tokens are tied to a user account, have *very* [coarsely-scoped permissions](https://developer.github.com/apps/building-oauth-apps/understanding-scopes-for-oauth-apps/#available-scopes) and do not expire.
+Performing automation against GitHub APIs often neccessitates the creation of [OAuth Tokens](https://help.github.com/en/github/extending-github/git-automation-with-oauth-tokens). These tokens are tied to a user account, have _very_ [coarsely-scoped permissions](https://developer.github.com/apps/building-oauth-apps/understanding-scopes-for-oauth-apps/#available-scopes) and do not expire.
 
 As an organisation owner this likely means your automation-savvy users have created personal access tokens with powerful permissions which are being neither rotated nor deleted.
 
@@ -37,14 +40,14 @@ You will also commonly have wasted at least one of your GitHub seats on a [robot
 [GitHub Apps](https://developer.github.com/apps/building-github-apps/) offer a better approach to this automation problem:
 
 - They do not consume a seat (license) nor need credential management.
-- They have *much* finer-grained [permissions](https://developer.github.com/v3/apps/permissions/) available to the access tokens.
+- They have _much_ finer-grained [permissions](https://developer.github.com/v3/apps/permissions/) available to the access tokens.
 - The tokens they issue expire after one hour.
 
 However, GitHub Apps require the management of at least one private key which is needed to mint the JWTs used for the [App installation authentication](https://developer.github.com/apps/building-github-apps/authenticating-with-github-apps/#authenticating-as-an-installation) token request flow.
 
 ## What?
 
-This plugin allows you to take advantage of your existing Vault deployment’s durable storage backend to protect the GitHub App private key, and your enabled Vault authN/Z mechanisms and highly-available API to perform the GitHub App token request flow on behalf of your users.
+This plugin allows you to take advantage of your existing Vault deployment's durable storage backend to protect the GitHub App private key, and your enabled Vault authN/Z mechanisms and highly-available API to perform the GitHub App token request flow on behalf of your users.
 
 ## How?
 
@@ -60,7 +63,7 @@ Users login using your existing Vault auth backend(s) and, Vault RBAC permitting
 
 To begin plugin installation, either download a [release](https://github.com/martinbaillie/vault-plugin-secrets-github/releases) or build from source for your chosen OS and architecture.
 
-## From release
+## From Release
 
 Always download the latest stable release from the [releases](https://github.com/martinbaillie/vault-plugin-secrets-github/releases) section.
 
@@ -79,16 +82,19 @@ gpg --verify SHA256SUMS.sig SHA256SUMS
 shasum -a 256 -c SHA256SUMS
 ```
 
-## From source
+## From Source
 
-> NOTE: You will need at least a [Go 1.22+ toolchain](https://golang.org/dl/) to build this plugin from source. Ideally you will also be in the project’s Nix shell. See [Development](https://github.com/martinbaillie/vault-plugin-secrets-github/blob/master/Development) for more.
+> NOTE: You will need at least a [Go 1.22+ toolchain](https://golang.org/dl/) to build this plugin from source. Ideally you will also be in the project's Nix shell. See [Development](https://github.com/martinbaillie/vault-plugin-secrets-github/blob/master/Development) for more.
 
 1. Either download the source zip/tar.gz of the latest release from the [releases](https://github.com/martinbaillie/vault-plugin-secrets-github/blob/master/releases) section and uncompress, or shallow clone to the target release tag as in below:
+
 	```
 	git clone --depth 1 -b <target_release_tag> \
 	    https://github.com/martinbaillie/vault-plugin-secrets-github.git
 	```
+
 2. Build for your target OS and architecture.
+
 	```
 	# Recommended for accurate release-like reproduction.
 	goreleaser build --single-target # Your current OS/Arch.
@@ -106,30 +112,41 @@ shasum -a 256 -c SHA256SUMS
 
 1. Sign in as an org admin and begin creating a new [GitHub App.](https://github.com/settings/apps/new)
 2. Choose any unique name, and homepage / webhook URLs (these can be anything; they are not required by the plugin).
+
 	> NOTE: You may wish to take advantage of having GitHub call a webhook URL you own each time the App is used for auditing purposes.
+
 3. Carefully choose the permissions the App will have access to. This is the superset of permissions. You will have the option of further restricting access to all or some repositories when you install an instance of the App, and users of this plugin will be able to even further restrict access in their individual token requests.
 4. Decide if you want the app to be installable to other accounts. Usually you just want the one you are signed into.
-5. Create the App. On the next screen GitHub will prompt you to create a **Private Key**. Do so, and save it somewhere safe (this is the key that will be ultimately lodged into the plugin configuration).
-6. Note the **App ID** at the top of this page as well.
+5. Create the App. On the next screen GitHub will prompt you to create a Private Key. Do so, and save it somewhere safe (this is the key that will be ultimately lodged into the plugin configuration).
+6. Note the App ID at the top of this page as well.
+
 	> NOTE: Get the App ID anytime: Settings > Developer > settings > GitHub App > About item.
+
 7. Click Install App from the LHS. You will be taken to the account installation pages where you can confirm the app was installed.
-8. (OPTIONAL as of v1.3.0) Note the **Installation ID** from the URL of this page (usually: [https://github.com/settings/installations/<installation](https://github.com/settings/installations/%3Cinstallation) id>) if you wish to configure using the installation ID directly.
+8. (OPTIONAL as of v1.3.0) Note the Installation ID from the URL of this page (usually: [https://github.com/settings/installations/<installation](https://github.com/settings/installations/%3Cinstallation) id>) if you wish to configure using the installation ID directly.
+
 	> NOTE: Get the Installation ID anytime: Settings > Developer > settings > GitHub Apps > Advanced > Payload in Request tab.
 
 ## Setup (Vault)
 
 Using the information noted from the previous step (Private Key, App ID and optionally the Installation ID), you are ready to move on to setting up the Vault plugin.
 
-1. Move the desired plugin binary into your Vault’s configured `plugin_directory`.
+1. Move the desired plugin binary into your Vault's configured `plugin_directory`.
+
 	```
 	mv vault-plugin-secrets-github-<os>-<arch> <plugin_directory>/vault-plugin-secrets-github
 	```
+
 2. (OPTIONAL) Allow [`mlock()`](https://linux.die.net/man/2/mlock) capabilities for the plugin binary. Memory locking is available to most UNIX-like OSes; the example below is for Linux.
+
 	```
 	setcap cap_ipc_lock=+ep <plugin_directory>/vault-plugin-secrets-github
 	```
-3. (OPTIONAL) Calculate the SHA256 sum of the plugin and register it in Vault’s plugin catalog. If you are downloading the pre-compiled binary, it is highly recommended that you use the published SHA256SUMS file.
+
+3. (OPTIONAL) Calculate the SHA256 sum of the plugin and register it in Vault's plugin catalog. If you are downloading the pre-compiled binary, it is highly recommended that you use the published SHA256SUMS file.
+
 	> NOTE: The rest of these commands assume you have a valid VAULT\_TOKEN and VAULT\_API environment variables.
+
 	```
 	# If using a pre-compiled binary:
 	SHA256SUM=$(grep <downloaded_binary> SHA256SUMS | cut -d' ' -f1)
@@ -138,11 +155,15 @@ Using the information noted from the previous step (Private Key, App ID and opti
 	vault write sys/plugins/catalog/secret/vault-plugin-secrets-github \
 	    sha_256=${SHA256SUM} command=vault-plugin-secrets-github
 	```
+
 4. Mount the secrets engine, choosing a prefix path (recommendation: `github`).
+
 	```
 	vault secrets enable -path=github -plugin-name=vault-plugin-secrets-github plugin
 	```
+
 5. Configure the plugin with the details noted from the previous section.
+
 	```
 	# Write the configuration
 	vault write /github/config app_id=<app_id> prv_key=@<private_key_file>
@@ -154,7 +175,9 @@ Using the information noted from the previous step (Private Key, App ID and opti
 	vault read /github/token installation_id=<installation_id>
 	vault read /github/token org_name=<org_name> # Installation ID discovered from Org.
 	```
+
 6. (OPTIONAL) Use Vault policy to constrain user capabilities on the GitHub endpoints. Example:
+
 	```
 	# Create a restrictive policy that only permits GitHub tokens that can write
 	# pull requests to a single repository.
@@ -188,7 +211,7 @@ Using the information noted from the previous step (Private Key, App ID and opti
 
 ## API
 
-Each plugin path is documented using Vault’s own help framework. To find out more information about any path, use `vault path-help`. For brevity, the API is also documented below.
+Each plugin path is documented using Vault's own help framework. To find out more information about any path, use `vault path-help`. For brevity, the API is also documented below.
 
 ## Token
 
@@ -203,18 +226,18 @@ Instruct the plugin to create an installation access token against the configure
 ### Parameters
 
 > NOTE: Only one of `installation_id` or `org_name` is required. If only `org_name` is provided, an additional lookup against the GitHub instance is performed per token creation to discover the `installation_id`. If both are provided, `installation_id` takes precedence to avoid the additional round trip. Also note that no caching is performed so for high traffic use cases, favour `installation_id`.
-> 
+>
 > All other parameters are optional. Omitting them results in a token that has access to all of the repositories and permissions that the GitHub App installation has.
-> 
+>
 > When crafting Vault policy, hyper security sensitive organisations may wish to favour `repository_ids` (GitHub repository IDs are immutable) instead of `repositories` (GitHub repository names are mutable).
 
-> NOTE: All token responses (including those from permission sets) include `hashed_token`, a base64-encoded SHA-256 hash of the returned token that matches GitHub’s [audit log](https://docs.github.com/en/enterprise-cloud@latest/admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/identifying-audit-log-events-performed-by-an-access-token#token-data-in-audit-log-events) `hashed_token` field. This value is safe to log and enables correlation between Vault-issued tokens and GitHub audit events by searching for `hashed_token:"VALUE"`. You can verify the hash yourself with: `echo -n TOKEN | openssl dgst -sha256 -binary | base64`.
+> NOTE: All token responses (including those from permission sets) include `hashed_token`, a base64-encoded SHA-256 hash of the returned token that matches GitHub's [audit log](https://docs.github.com/en/enterprise-cloud@latest/admin/monitoring-activity-in-your-enterprise/reviewing-audit-logs-for-your-enterprise/identifying-audit-log-events-performed-by-an-access-token#token-data-in-audit-log-events) `hashed_token` field. This value is safe to log and enables correlation between Vault-issued tokens and GitHub audit events by searching for `hashed_token:"VALUE"`. You can verify the hash yourself with: `echo -n TOKEN | openssl dgst -sha256 -binary | base64`.
 
-- `installation_id` (int64) — the ID of the app installation.
-- `org_name` (string) — the organisation name.
-- `repositories` (\[\]string) — a list of the names of the repositories within the organisation that the installation token can access.
-- `repository_ids` (\[\]int64) — a list of the IDs of the repositories that the installation token can access. See this [StackOverflow post](https://stackoverflow.com/a/47223479) for the quickest way to find a repository ID.
-- `permissions` (map\[string\]string) — a key value map of permission names to their access type (read or write). See [GitHub’s documentation](https://developer.github.com/v3/apps/permissions) on permission names and access types.
+- `installation_id` (int64)—the ID of the app installation.
+- `org_name` (string)—the organisation name.
+- `repositories` (\[\]string)—a list of the names of the repositories within the organisation that the installation token can access.
+- `repository_ids` (\[\]int64)—a list of the IDs of the repositories that the installation token can access. See this [StackOverflow post](https://stackoverflow.com/a/47223479) for the quickest way to find a repository ID.
+- `permissions` (map\[string\]string)—a key value map of permission names to their access type (read or write). See [GitHub’s documentation](https://developer.github.com/v3/apps/permissions) on permission names and access types.
 
 ### Examples
 
@@ -278,7 +301,7 @@ curl -H "Authorization: Bearer ${GITHUB_TOKEN}" \
     -X DELETE https://api.mygithub.com/installation/token
 ```
 
-## Permission sets
+## Permission Sets
 
 Instruct the plugin to create a specific permission set.
 
@@ -293,18 +316,18 @@ Instruct the plugin to create a specific permission set.
 ### Parameters
 
 > NOTE: Only one of `installation_id` or `org_name` is required. If only `org_name` is provided, an additional lookup against the GitHub instance is performed per token creation to discover the `installation_id`. If both are provided, `installation_id` takes precedence to avoid the additional round trip. Also note that no caching is performed so for high traffic use cases, favour `installation_id`.
-> 
+>
 > All other parameters are optional. Omitting them results in a token that has access to all of the repositories and permissions that the GitHub App installation has.
-> 
+>
 > When crafting Vault policy, hyper security sensitive organisations may wish to favour `repository_ids` (GitHub repository IDs are immutable) instead of `repositories` (GitHub repository names are mutable).
 
-- `installation_id` (int64) — the ID of the app installation.
-- `org_name` (string) — the organisation name.
-- `repositories` (\[\]string) — a list of the names of the repositories within the organisation that the installation token can access.
-- `repository_ids` (\[\]int64) — a list of the IDs of the repositories that the installation token can access. See this [StackOverflow post](https://stackoverflow.com/a/47223479) for the quickest way to find a repository ID.
-- `permissions` (map\[string\]string) — a key value map of permission names to their access type (read or write). See [GitHub’s documentation](https://developer.github.com/v3/apps/permissions) on permission names and access types.
+- `installation_id` (int64)—the ID of the app installation.
+- `org_name` (string)—the organisation name.
+- `repositories` (\[\]string)—a list of the names of the repositories within the organisation that the installation token can access.
+- `repository_ids` (\[\]int64)—a list of the IDs of the repositories that the installation token can access. See this [StackOverflow post](https://stackoverflow.com/a/47223479) for the quickest way to find a repository ID.
+- `permissions` (map\[string\]string)—a key value map of permission names to their access type (read or write). See [GitHub’s documentation](https://developer.github.com/v3/apps/permissions) on permission names and access types.
 
-### Request a token from a permission set
+### Request a Token from a Permission Set
 
 Similar to the [token](#token) flow in the previous section, you can instruct the plugin to create an installation access token by using a permission set name. The token returned will be constrained by that pre-configured permission set.
 
@@ -362,10 +385,10 @@ General CRUD operations against the configuration of the plugin.
 
 ### Parameters
 
-- `app_id` (int64) — the Application ID of the GitHub App.
-- `prv_key` (string) — a private key configured in the GitHub App. This private key must be in PEM PKCS#1 RSAPrivateKey format. It is not returned with read requests for security reasons but its presence or lack thereof is indicated.
-- `base_url` (string) — the base URL for API requests (defaults to the public GitHub API).
-- `exclude_repository_metadata` (bool) — reduce the verbose \`repositories\` array in GitHub token responses to a simple list of repository names. This significantly reduces the memory required by the plugin when used at scale.
+- `app_id` (int64)—the Application ID of the GitHub App.
+- `prv_key` (string)—a private key configured in the GitHub App. This private key must be in PEM PKCS#1 RSAPrivateKey format. It is not returned with read requests for security reasons but its presence or lack thereof is indicated.
+- `base_url` (string)—the base URL for API requests (defaults to the public GitHub API).
+- `exclude_repository_metadata` (bool)—reduce the verbose \`repositories\` array in GitHub token responses to a simple list of repository names. This significantly reduces the memory required by the plugin when used at scale.
 
 ### Examples
 
@@ -398,9 +421,9 @@ Prometheus/OpenMetrics formatted metrics exposition.
 
 In addition to standard Go metrics, the following custom metrics are exposed:
 
-- `vault_github_token_request_duration_seconds` — a summary of token request latency and status.
-- `vault_github_token_revocation_request_duration_seconds` — a summary of token revocation request latency and status.
-- `vault_github_token_build_info` — a constant with useful build information.
+- `vault_github_token_request_duration_seconds`—a summary of token request latency and status.
+- `vault_github_token_revocation_request_duration_seconds`—a summary of token revocation request latency and status.
+- `vault_github_token_build_info`—a constant with useful build information.
 
 ### Sample Dashboard
 
@@ -441,7 +464,7 @@ Proceed to browse the `menu` or learn how to test the project below.
 
 ## Tests
 
-This plugin is comprehensively tested by both unit and acceptance tests. Pull requests that do not maintain an [\>90% coverage](https://codecov.io/gh/martinbaillie/vault-plugin-secrets-github) will **not** be accepted.
+This plugin is comprehensively tested by both unit and acceptance tests. Pull requests that do not maintain an [\>90% coverage](https://codecov.io/gh/martinbaillie/vault-plugin-secrets-github) will not be accepted.
 
 ```
 # View the developer shell menu.

@@ -2,7 +2,7 @@
 aliases: ["Project Playlist"]
 created: 2025-11-11T19:05:08Z
 last_reviewed: ""
-modified: 2026-04-18T16:30:00+00:00
+modified: 2026-04-19T18:30:44+00:00
 status: "seedling"
 tags: ["task-management", "topic/productivity"]
 title: A Project Playlist is a Sequence of Small Tasks to Rebuild Momentum
@@ -12,11 +12,12 @@ updated:
 
 ## A Project Playlist is a Sequence of Small Tasks to Rebuild Momentum
 
-**Summary:** A "project playlist" is a curated sequence of small, concrete tasks designed to be completed in order to progressively rebuild momentum and ease re-entry into a complex project.
+Summary: A "project playlist" is a curated sequence of small, concrete tasks designed to be completed in order to progressively rebuild momentum and ease re-entry into a complex project.
 
-**Details:** This list acts as a warm-up routine. The tasks at the beginning should be especially small and easy, gradually increasing in complexity. Completing the sequence helps to re-establish focus and recall the broader context of the project before tackling more demanding work.
+Details: This list acts as a warm-up routine. The tasks at the beginning should be especially small and easy, gradually increasing in complexity. Completing the sequence helps to re-establish focus and recall the broader context of the project before tackling more demanding work.
 
 ## Related
+
 - [[MOC - ADHD Project Continuation Challenge]]: _The primary hub for strategies to overcome mental model dissipation and the 'Fresh Start Loop' in ADHD creative work._
 - [[SoT - Breaking the Creation Cycle]]: _Provides the operational step-by-step protocol for using micro-steps to transition from 'Stuck' to 'Flow'._
 - [[Momentum-Based Re-Entry Points Ease Project Resumption]]: _The underlying principle of using multiple 'shallow' entry points to lower activation energy._

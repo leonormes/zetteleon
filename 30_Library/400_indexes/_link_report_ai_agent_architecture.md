@@ -1,8 +1,11 @@
 ---
-type: link_report
-status: tmp
-source_atoms: "[[tmp_atoms_ai_agent_architecture.md]]"
+created: 2026-04-13T14:41:15+00:00
 created_utc: "2026-04-13T11:20:00Z"
+modified: 2026-04-19T18:30:36+00:00
+source_atoms: "[[tmp_atoms_ai_agent_architecture.md]]"
+status: tmp
+title: _link_report_ai_agent_architecture
+type: link_report
 ---
 
 ## Link Report: AI Agent Architecture and the Modern Tech Stack

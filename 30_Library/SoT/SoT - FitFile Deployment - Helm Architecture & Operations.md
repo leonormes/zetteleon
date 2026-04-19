@@ -1,6 +1,6 @@
 ---
 created: 2025-02-07T12:57:55Z
-modified: 2026-04-10T16:52:07+00:00
+modified: 2026-04-19T18:30:33+00:00
 Reviewed: false
 status: stable
 tags: [architecture, deployment, fitfile, helm, kubernetes, sop]

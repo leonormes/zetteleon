@@ -2,7 +2,7 @@
 aliases: [Anthropomorphism Trap, LLM Category Error, Semantic vs Statistical, Statistical Mismatch]
 created: 2026-04-06T18:00:00+01:00
 last-synthesis: 2026-04-06
-modified: 2026-04-10T16:52:08+00:00
+modified: 2026-04-19T18:30:32+00:00
 see_also: []
 source_of_truth: true
 status: stable

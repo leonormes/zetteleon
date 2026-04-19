@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-29T15:16:19Z
 last_reviewed: "null"
-modified: 2026-04-16T11:56:00+00:00
+modified: 2026-04-19T18:30:41+00:00
 status: "null"
 tags: ["philosophy-of-science", "TheHuman/Cognition/mental-model"]
 title: Instrumentalism vs Realism in Understanding

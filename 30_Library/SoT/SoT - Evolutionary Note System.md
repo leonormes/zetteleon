@@ -2,7 +2,7 @@
 aliases: ["Evolving Notes", "Living Note System", "NeuroStack Workflow", "The Merge Protocol"]
 created: 2025-11-13T00:00:00Z
 last_reviewed: "2026-03-28"
-modified: 2026-04-18T18:30:00+00:00
+modified: 2026-04-19T18:30:34+00:00
 status: evergreen
 tags: ["ai", "knowledge-management", "pkm", "synthesis", "TheHuman/Cognition", "thinking"]
 title: SoT - Evolutionary Note System
@@ -78,10 +78,10 @@ To minimize "cognitive load" (and LLM token costs), retrieval follows a three-st
 
 ## Related Source of Truth (SoT) & Maps
 
-- [[MOC - ProdOS]] — _The central map for the Productivity Operating System, defining the full lifecycle from capture to synthesis._
-- [[MOC - PKM as Process vs Product]] — _Explores the philosophical shift from collecting information to active cognitive processing._
-- [[SoT - Processing IS the Work]] — _Foundational principle that identifies the act of synthesis as the primary value-generator in knowledge work._
-- [[SoT - The Extended Mind]] — _The theoretical basis for offloading working memory to an external, evolutionary system._
-- [[SoT - PRODOS Core Specification]] — _Unified specification for the system's kernel, including the Stage 5 Synthesis outcome layer._
-- [[SoT - Knowledge Architecture (Associative Ontology)]] — _Deconstructs how the vault's structure supports non-linear discovery and growth._
-- [[SoT - Working Memory & Schema Theory]] — _Scientific grounding for why separating volatile and stable memory is critical for neurodivergent brains._
+- [[MOC - ProdOS]]—_The central map for the Productivity Operating System, defining the full lifecycle from capture to synthesis._
+- [[MOC - PKM as Process vs Product]]—_Explores the philosophical shift from collecting information to active cognitive processing._
+- [[SoT - Processing IS the Work]]—_Foundational principle that identifies the act of synthesis as the primary value-generator in knowledge work._
+- [[SoT - The Extended Mind]]—_The theoretical basis for offloading working memory to an external, evolutionary system._
+- [[SoT - PRODOS Core Specification]]—_Unified specification for the system's kernel, including the Stage 5 Synthesis outcome layer._
+- [[SoT - Knowledge Architecture (Associative Ontology)]]—_Deconstructs how the vault's structure supports non-linear discovery and growth._
+- [[SoT - Working Memory & Schema Theory]]—_Scientific grounding for why separating volatile and stable memory is critical for neurodivergent brains._

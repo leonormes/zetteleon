@@ -2,7 +2,7 @@
 aliases: ["Assembly Theory", "Functional Information Theory", "The Fourth Law of Thermodynamics"]
 created: 2025-12-25T12:00:00Z
 last_reviewed: "2025-12-25"
-modified: 2026-04-10T16:52:10+00:00
+modified: 2026-04-19T18:30:30+00:00
 see_also: []
 status: "stable"
 superseded_by: ""

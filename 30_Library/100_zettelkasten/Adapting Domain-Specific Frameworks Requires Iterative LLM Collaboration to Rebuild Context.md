@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T00:00:00+00:00
-modified: 2026-04-16T11:55:58+00:00
+modified: 2026-04-19T18:30:44+00:00
 tags: [adaptation, auto-research, implementation, llm]
 title: Adapting Domain-Specific Frameworks Requires Iterative LLM Collaboration to Rebuild Context
 ---

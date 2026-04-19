@@ -2,7 +2,7 @@
 created: 2026-04-14T20:38:10+00:00
 created_utc: "2026-04-14T14:00:00Z"
 kind: definition
-modified: 2026-04-16T11:56:03+00:00
+modified: 2026-04-19T18:30:41+00:00
 source_title: "Hermes Agent and Karpathy’s LLM Wiki"
 source_url: "https://youtu.be/Mb5N08xcxtg"
 status: seed

@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T00:00:00+00:00
-modified: 2026-04-16T11:56:00+00:00
+modified: 2026-04-19T18:30:42+00:00
 tags: [existentialism, meaning, philosophy, resilience]
 title: Frankl and Camus Both Confront Absurdity But Diverge on Whether Meaning Is Discoverable
 ---
