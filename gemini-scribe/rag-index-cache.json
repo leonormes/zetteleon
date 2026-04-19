@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "storeName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-  "lastSync": 1776590381889,
+  "lastSync": 1776606328640,
   "files": {
     "assets/cropped_PXL_20250518_165827884.PORTRAIT.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -7665,8 +7665,8 @@
     },
     "30_Library/100_zettelkasten/Akrasia is Acting Against One's Better Judgment.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "820a06ee2ce74fa3104789b2af97c3a041037ce9b035930f18ea397c83678140",
-      "lastIndexed": 1776584295251
+      "contentHash": "9ee0df2dca4315fee05171e312f4069685d411d052481230077cc71caec74492",
+      "lastIndexed": 1776593067401
     },
     "30_Library/100_zettelkasten/Aesop's Fables Use Anthropomorphic Allegory.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -10215,13 +10215,48 @@
     },
     "30_Library/400_indexes/Main Topics of Interest.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "91e07a6272d6f4cf9d78da5e54978a224cad91bd8f2acb41e04a55ab3ebdafbd",
-      "lastIndexed": 1776583475424
+      "contentHash": "b855c86ee2f8daa018c19420bea09766d72a8c785e032ce315759116b473789b",
+      "lastIndexed": 1776602808006
     },
     "20_Thinking/21_Workbench/HEAD - 2026-04-19 1013.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "ee7216c236a2864efe52eae8c2c3479038d0fe0fec5cde7ba85e5e86db9aca69",
-      "lastIndexed": 1776589993145
+      "contentHash": "a3706f36925d59733ed7d36059205ff2f26eb0fb5c2b1f9f0ed2c36670d8a4d2",
+      "lastIndexed": 1776599080694
+    },
+    "00_Inbox/Readwise/Full Document Contents/GitHub - RomyHaikgim Goal-in-Mind framework for deviation prevention and token usage reduction · GitHub.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "6b951fd3098048eec92905792501ff612d93133203c974e996182324457ff897",
+      "lastIndexed": 1776599610086
+    },
+    "00_Inbox/Readwise/Full Document Contents/GitHub - retlehsquien A better WHOIS lookup tool · GitHub.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "c61987923a3d4ca27152ff4e9d16ff695a96ec987f5a9884f591b10d0a699ed5",
+      "lastIndexed": 1776599613932
+    },
+    "30_Library/MoC/MOC - Applied Formal Methods.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "03a51e97f06fac5511a91b96b0235a0607c34ba1c79cd64e13355fb52905ed51",
+      "lastIndexed": 1776605144520
+    },
+    "30_Library/SoT/SoT - Structure is Truth is a Unifying Axiom Across Formal Systems.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "4565cf2b8f4ef4427e8b520a801c85d517ab753cbbc21a3a3ad2b8f4dc1bcfb5",
+      "lastIndexed": 1776605228389
+    },
+    "30_Library/SoT/SoT - Formal Context (Applied Formal Methods).md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "63dfb4a1df0c4547da5e16ed47079463e263d6667c8e78920da16c03db6405e0",
+      "lastIndexed": 1776605291335
+    },
+    "30_Library/SoT/Protocol - AFM Vault Constitutional Triage.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "5e88aad9739e5e1f96b782ec476c5cfa8ba7d8dcafe210eab653e13817149bd8",
+      "lastIndexed": 1776605407649
+    },
+    "00_Inbox/SoT - The Trinity of Isomorphism (Logic, Computation, Categories).md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "872e696fbef7e10cfd1ad5ee3e7a30424578a0558b2425c409d0cbd56694a262",
+      "lastIndexed": 1776606328640
     }
   },
   "indexingInProgress": false,

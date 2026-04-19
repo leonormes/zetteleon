@@ -24,15 +24,18 @@ def load_whitelist():
 def get_calibre_books():
     print("📚 Fetching Calibre Library Data...")
     try:
-        cmd = ["calibredb", "list", "--fields", "id,title,authors,tags", "--for-machine"]
+        cmd = ["calibredb", "list",
+               "--fields", "id,title,authors,tags,*prodos_topic",
+               "--for-machine", "--limit", "5000"]
         result = subprocess.run(cmd, capture_output=True, text=True)
-        
-        match = re.search(r"\[.*\]", result.stdout, re.DOTALL)
-        if not match:
-            print("❌ No JSON found in Calibre output.")
-            return []
-            
-        return json.loads(match.group(0))
+
+        raw = result.stdout
+        start = raw.index("[")
+        end = raw.rindex("]") + 1
+        return json.loads(raw[start:end])
+    except (ValueError, json.JSONDecodeError) as e:
+        print(f"❌ Failed to parse Calibre JSON: {e}")
+        return []
     except Exception as e:
         print(f"❌ Failed to run calibredb: {e}")
         return []
@@ -40,25 +43,36 @@ def get_calibre_books():
 def synthesize(whitelist, books):
     print("🧪 Cross-referencing Library with Topics...")
     synthesis = defaultdict(list)
-    
-    for topic_obj in whitelist:
-        topic_name = topic_obj["name"]
-        keywords = [k.lower() for k in topic_obj["keywords"]]
-        
-        for book in books:
-            book_tags = [t.lower() for t in book.get('tags', [])]
-            title = book.get('title', '').lower()
-            
-            # Match if ANY keyword for this topic is in the book's tags or title
-            match_found = False
-            for kw in keywords:
-                if kw in book_tags or re.search(rf"\b{re.escape(kw)}\b", title):
-                    match_found = True
-                    break
-            
-            if match_found:
-                synthesis[topic_name].append(book)
+    valid_names = {t["name"] for t in whitelist}
+    keyword_map = {t["name"]: [k.lower() for k in t["keywords"]] for t in whitelist}
 
+    curated = 0
+    fallback = 0
+
+    for book in books:
+        prodos_topics = book.get("*prodos_topic") or []
+
+        if prodos_topics:
+            # Primary path: trust the curated ProdOS Topic field directly
+            # Skip fiction — not a knowledge domain
+            if prodos_topics == ["Fiction"]:
+                continue
+            for topic_name in prodos_topics:
+                if topic_name in valid_names:
+                    synthesis[topic_name].append(book)
+            curated += 1
+        else:
+            # Fallback: keyword match on title + tags for untagged books
+            book_tags = [t.lower() for t in book.get("tags", [])]
+            title = book.get("title", "").lower()
+            for topic_name, keywords in keyword_map.items():
+                for kw in keywords:
+                    if kw in book_tags or re.search(rf"\b{re.escape(kw)}\b", title):
+                        synthesis[topic_name].append(book)
+                        break
+            fallback += 1
+
+    print(f"   ✅ Curated match: {curated} books  |  🔍 Keyword fallback: {fallback} books")
     return synthesis
 
 def write_note(whitelist, synthesis):

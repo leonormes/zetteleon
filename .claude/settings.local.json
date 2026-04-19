@@ -21,7 +21,12 @@
       "Bash(obsidian append *)",
       "Bash(obsidian backlinks *)",
       "Bash(grep -E \"\\\\.\\(md\\)$\")",
-      "Bash(sed 's/\\\\.md$//')"
+      "Bash(sed 's/\\\\.md$//')",
+      "Bash(calibredb list *)",
+      "Bash(calibredb show_metadata 466)",
+      "Bash(calibredb catalog *)",
+      "Bash(grep -v \"SyntaxWarning\\\\|escape sequence\\\\|raw string\\\\|Integration status\\\\|Initialized\\\\|^$\")",
+      "Bash(python3 *)"
     ]
   },
   "spinnerTipsEnabled": false
