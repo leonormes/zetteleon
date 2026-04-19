@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "storeName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-  "lastSync": 1776527365596,
+  "lastSync": 1776580743301,
   "files": {
     "assets/cropped_PXL_20250518_165827884.PORTRAIT.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -580,8 +580,8 @@
     },
     "30_Library/SoT/SoT - Processing IS the Work.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "34e668b3be509452825ddc442224b93f6e1c336b2cd1878e8a9b8508a3af07e3",
-      "lastIndexed": 1775485601330
+      "contentHash": "fdd7ecc842f0f2e4f4fb369ec4925fbed3adad5db07739f88e245e36c1580c76",
+      "lastIndexed": 1776527760242
     },
     "30_Library/SoT/SoT - Prosthetic Executive Function.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -1140,8 +1140,8 @@
     },
     "30_Library/SoT/SoT - Evolutionary Note System.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "abcaa0074ab361ad1b92370216f0cee70bf2758a90686949f5cf655e2f98d70a",
-      "lastIndexed": 1775722592143
+      "contentHash": "33d7f15a82a70fe91a56de087b5d54d500a51505eabe3509a722f68b57976037",
+      "lastIndexed": 1776527690818
     },
     "30_Library/SoT/SoT - Effects as Data (Tag Unions).md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -1535,8 +1535,8 @@
     },
     "30_Library/SoT/Protocol - Vague-to-Action.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "fdc477d57b487ee85bc4c90223e212e4a50b8f77610ab586dba4c56e821195e7",
-      "lastIndexed": 1775722668840
+      "contentHash": "bbea0b363adc6417a28fcaa4024e83c01ee7cbd509d5a0b384667bee21e5f55b",
+      "lastIndexed": 1776527532097
     },
     "30_Library/SoT/Protocol - Vault Deployment Secret Management.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -4895,8 +4895,8 @@
     },
     "30_Library/100_zettelkasten/Rejection Sensitive Dysphoria (RSD).md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "6fb57dfa02af979b4938816a00675af543a83228e1f2cf35d736862b60578f41",
-      "lastIndexed": 1775486311004
+      "contentHash": "e84fce4f1adee4ef28e66b46170af950eb20c2314f35d1e2406b10f1dbb421f9",
+      "lastIndexed": 1776546747451
     },
     "30_Library/100_zettelkasten/Regular Family Meetings are Vital for Collaborative Planning.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -6365,8 +6365,8 @@
     },
     "30_Library/100_zettelkasten/Goals Suffer from Survivorship Bias.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "807d579cc2162eaad9c0e6de61a4d3fecc13f7c46eabef28b86003ffeef34814",
-      "lastIndexed": 1775486517268
+      "contentHash": "3f8f9c9dc0f91bf97559f327e1517f2da44fabd01ab0a612d17551665ba83ce9",
+      "lastIndexed": 1776580743301
     },
     "30_Library/100_zettelkasten/Guilt-Free Spending is a Feature of Intentional Budgeting.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -6890,8 +6890,8 @@
     },
     "30_Library/100_zettelkasten/Disciplined Choices are Votes for Your Future Self.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "ca5230fd93a4e5ab3e43f2396206b91f158e1cf9d7a083aaac3fd8f63654b9dd",
-      "lastIndexed": 1775486584471
+      "contentHash": "73d6760abeecdc504c103bcabd2958981a2787cdadb72294d63f747dfcc26cd4",
+      "lastIndexed": 1776527624743
     },
     "30_Library/100_zettelkasten/Discipline is Freedom From Chaos and Anxiety.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -7640,8 +7640,8 @@
     },
     "30_Library/100_zettelkasten/An Action Can Be Formally Modeled as a State Transformation Function.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "4be8a1d0ba4b4f9a9f2f96e7562bd1bf58b5f83447eb9773b986e5eb094797a7",
-      "lastIndexed": 1776527302961
+      "contentHash": "bcb8fdbf08f26a6212c48f573ea912d4884a77cf9f0c7759b9b6b765a47c9926",
+      "lastIndexed": 1776527489090
     },
     "30_Library/100_zettelkasten/All the Enthusiasm and Energy for a Plan Disappears.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -10205,13 +10205,33 @@
     },
     "01_journals/Dailies/2026-04-18.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "92b205940a252b7ec5b890cd97d775159aab3fc7c861144c01246de1bdf308aa",
-      "lastIndexed": 1776523279661
+      "contentHash": "e6b8cc6fe5832867b32dad951d7d03b6ce6a630cdb03f053f391092cd1d014a0",
+      "lastIndexed": 1776546687970
     },
     "30_Library/200_projects/10_Infrastructure/k8s/The k8s Service Abstraction.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "0e7b969c9eeafce8083f53d4a974ab7ae01d7cb52608ca17bccb3f12beb0dec5",
       "lastIndexed": 1776523311629
+    },
+    "00_Inbox/Readwise/Full Document Contents/GitHub - michel-kraemerzsh-patina $ A blazingly fast Zsh syntax highlighter 🌈 · GitHub.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "e12aced44a62cd08003363ee20ca8a2f0a74efc2b857cc1e6b8caaac6e7212dc",
+      "lastIndexed": 1776534807046
+    },
+    "00_Inbox/Readwise/Full Document Contents/GitHub - mevanlcgitoverit status all your repos at once, and more! · GitHub.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "20c2da320243396f69835be0a4b8ad57648cedc0927f76e84fd163227bcb16b2",
+      "lastIndexed": 1776534811274
+    },
+    "00_Inbox/Readwise/Full Document Contents/GitHub - lirantalrepolyze Analyze a git source code repository for health signals and project vitals · GitHub.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "ea518d02cf03a3706266d0b7717357eefe80d982fee32ef9bc570cb8279a8143",
+      "lastIndexed": 1776534814961
+    },
+    "01_journals/Dailies/2026-04-19.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "6e6e21589c2749173f2a403c7cd4375edc4e9fa54a50a1fcc6f74bb35738ebcc",
+      "lastIndexed": 1776556410529
     }
   },
   "indexingInProgress": false,

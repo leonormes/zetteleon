@@ -2,7 +2,7 @@
 aliases: ["Active Processing", "Good Enough Processing", "Processing IS the Work"]
 created: 2025-12-07T00:00:00Z
 last_reviewed: ""
-modified: 2026-02-01T15:07:53+00:00
+modified: 2026-04-18T18:45:00+00:00
 status: "stable"
 tags: ["pkm", "TheHuman/Health/ADHD", "TheHuman/Mindset", "topic/productivity"]
 title: SoT - Processing IS the Work
@@ -10,11 +10,18 @@ type: "SoT"
 updated: 
 ---
 
+## 1. Definitive Statement
+
+> [!definition] Definition
+> "Processing IS the Work" is the foundational PKM mindset that identifies the act of reviewing, linking, and synthesizing information as the primary generator of value. It shifts focus from the *Product* (the finished note) to the *Process* (the cognitive engagement required to create it).
+
+---
+
 ## 2. The Core Conflict (ADHD Resistance)
 
 ADHD brains resist "Review" and "Processing" because they categorize it as Meta-Work: boring, high-effort, low-dopamine administration. This leads to:
 
-- The Wall of Awful: A backlog of unread notes that induces shame.
+- The Wall of Awful: A backlog of unread notes that induces shame (see [[SoT - The Cognitive Physiology of Task Execution]]).
 - The Search for Perfection: Trying to build a "perfect system" instead of moving items forward.
 - Data Decay: Information rotting in the inbox because the cognitive cost of filing is too high.
 
@@ -70,9 +77,13 @@ These strategies bypass executive dysfunction by lowering the barrier to entry.
 
 ---
 
-## 5. Related Components
+## 5. Related Source of Truth (SoT) & Maps
 
-- [[SoT - PRODOS (System Architecture)]]
-- [[SoT - PRODOS - Knowledge Synthesis (Thinking)]]
-- [[SoT - The Extended Mind]]
-- [[SoT - Process Primacy (Systems Over Goals)]]
+- [[MOC - PKM as Process vs Product]] — _The central map exploring the philosophical shift from collecting to active cognitive processing._
+- [[SoT - PRODOS Core Specification]] — _Defines the "Utility Over Truth" axiom that prioritizes actionable information over abstract hoarding._
+- [[SoT - Evolutionary Note System]] — _Defines the "Merge Protocol" (HEAD -> SoT) as the physical mechanism for processing and synthesis._
+- [[SoT - Habit Formation Framework#1. Philosophy: Process Primacy|SoT - Process Primacy]] — _The core philosophy that systems (the process) determine outcomes (the product)._
+- [[SoT - The Extended Mind]] — _The theoretical basis for why offloading processing to an external system is a biological necessity._
+- [[SoT - The Cognitive Physiology of Task Execution]] — _Explains the neurological basis of the "Wall of Awful" and the Mood Repair Trap._
+- [[MOC - Breaking the ADHD Overthinking-Procrastination Cycle]] — _Broader strategies for managing the emotional and cognitive loops that block processing._
+- [[Stage 5 Synthesise (The Outcome Layer)]] — _The practical workflow for the final stage of the processing cycle._

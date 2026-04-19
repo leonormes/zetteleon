@@ -2,7 +2,7 @@
 aliases: ["Evolving Notes", "Living Note System", "NeuroStack Workflow", "The Merge Protocol"]
 created: 2025-11-13T00:00:00Z
 last_reviewed: "2026-03-28"
-modified: 2026-04-10T16:52:07+00:00
+modified: 2026-04-18T18:30:00+00:00
 status: evergreen
 tags: ["ai", "knowledge-management", "pkm", "synthesis", "TheHuman/Cognition", "thinking"]
 title: SoT - Evolutionary Note System
@@ -74,8 +74,14 @@ To minimize "cognitive load" (and LLM token costs), retrieval follows a three-st
 - No "Maintenance Debt": You don't keep the mess. Once the insight is extracted, the clutter is archived (Closure).
 - Context Recovery: Biological replay mechanisms (session briefs) help rebuild task-specific context after an interruption.
 
-## Related Documentation
+---
 
-- [[SoT - Knowledge Architecture (Associative Ontology)]]
-- [[SoT - Working Memory & Schema Theory]]
-- [[raphasouthallneurostack Your second brain, starting today. CLI + MCP server that helps you build, maintain, and search a knowledge vault that gets better every day. Works with any AI provider. Local-first, zero-prereq install.]]
+## Related Source of Truth (SoT) & Maps
+
+- [[MOC - ProdOS]] — _The central map for the Productivity Operating System, defining the full lifecycle from capture to synthesis._
+- [[MOC - PKM as Process vs Product]] — _Explores the philosophical shift from collecting information to active cognitive processing._
+- [[SoT - Processing IS the Work]] — _Foundational principle that identifies the act of synthesis as the primary value-generator in knowledge work._
+- [[SoT - The Extended Mind]] — _The theoretical basis for offloading working memory to an external, evolutionary system._
+- [[SoT - PRODOS Core Specification]] — _Unified specification for the system's kernel, including the Stage 5 Synthesis outcome layer._
+- [[SoT - Knowledge Architecture (Associative Ontology)]] — _Deconstructs how the vault's structure supports non-linear discovery and growth._
+- [[SoT - Working Memory & Schema Theory]] — _Scientific grounding for why separating volatile and stable memory is critical for neurodivergent brains._
