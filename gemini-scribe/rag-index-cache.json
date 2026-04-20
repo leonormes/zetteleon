@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "storeName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-  "lastSync": 1776621622829,
+  "lastSync": 1776690890543,
   "files": {
     "assets/cropped_PXL_20250518_165827884.PORTRAIT.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -10252,6 +10252,51 @@
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "d1dd02abe62561b64f77fe4349caba76f09c5a004847f64f9efca092f2400d56",
       "lastIndexed": 1776611550157
+    },
+    "20_Thinking/21_Workbench/HEAD - Deconstructing Agentic Frameworks.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "0db4d079f63cde42b65fe5bc8a25a23bf8bd79d26f4473787b17f5fac38aa783",
+      "lastIndexed": 1776686187328
+    },
+    "20_Thinking/21_Workbench/HEAD - Exploring time.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "491dc941e63b8561f320a9f961f9c1332e1875d850204f4860ac7f699af77764",
+      "lastIndexed": 1776689866039
+    },
+    "20_Thinking/21_Workbench/HEAD - AI Tools.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "b6cb7f8030fb12259a9d7fb61a2c582e09acd864953867b8ceb9d2db08839d2b",
+      "lastIndexed": 1776686228085
+    },
+    "00_Inbox/Readwise/Full Document Contents/informationOS 0.5.1.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "babb9966c8507e428ea4c1c0b78d1a19d599e1bb0167dda32d6396c3c64215f7",
+      "lastIndexed": 1776689862631
+    },
+    "20_Thinking/21_Workbench/HEAD You said httpsyoutu.berkZzg7Vowao?si=u8A3Zx1N7....md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "2d630ae496aba5eb6601ac22d7541ef29166130bb88b1cf7c1e4aa387201b0f4",
+      "lastIndexed": 1776690821188
+    },
+    "20_Thinking/21_Workbench/HEAD You said Persona You are an expert research analy....md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "3367cd9b09567cbabb20b199cef271c356bd4958c19f6b18cf4c72f906b0db2c",
+      "lastIndexed": 1776690840779
+    },
+    "20_Thinking/21_Workbench/HEAD You said Yes! Order theory is highly applicable to....md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "7cc63ca8ffb8e090d8d7c1d7f16f8e05ed3fcf2a10b88936a6215aa0231064d1",
+      "lastIndexed": 1776690853065
+    },
+    "20_Thinking/21_Workbench/HEAD You said We are amazed my LLM and the illusion it ....md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "d3376eb5b98fb455bac950bfe1486837dee2bc771d0b3816f7e1d4a8cf137495",
+      "lastIndexed": 1776690863730
+    },
+    "20_Thinking/21_Workbench/HEAD The paradox of LLM language understanding versus human learning.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "056d0e923ec2194c575a55cc058e5b56600baf5bc4bb429fedc63503f59c99f8",
+      "lastIndexed": 1776690890543
     }
   },
   "indexingInProgress": false,
