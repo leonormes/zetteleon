@@ -1,7 +1,7 @@
 ---
 aliases: [AFM Hub, Applied Formal Methods Index, Formal Foundations Hub]
 created: 2026-04-19T10:00:00+01:00
-modified: 2026-04-19T20:13:06+00:00
+modified: 2026-04-20T07:40:27+00:00
 see_also: ["[[MOC - Formal Logic & Philosophy (Triage)]]", "[[MOC - The Unified Systems Paradigm]]"]
 supersedes: "[[MOC - Formal Logic & Philosophy (Triage)]]"
 tags: [prodos/moc, topic/formal-methods, topic/mathematics, topic/software-architecture, topic/type-theory]
@@ -16,7 +16,7 @@ This hub was derived from a Formal Concept Analysis of the vault's topic taxonom
 
 ---
 
-### The Concept Lattice (Navig hiation Structure)
+### The Concept Lattice (Navigation Structure)
 
 The hierarchy below represents the _extent_ (topics covered) and _intent_ (attributes required) at each level. Moving upward adds topics by relaxing constraints; moving downward adds constraints by narrowing scope.
 

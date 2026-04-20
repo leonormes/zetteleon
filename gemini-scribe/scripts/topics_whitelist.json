@@ -1,59 +1,554 @@
 {
-  "topics": [
+  "nodes": [
     {
-      "name": "Cloud Infrastructure & IaC",
-      "keywords": ["aws", "terraform", "iac", "azure", "vpc", "secrets management", "iam", "vault"],
-      "description": "Declarative cloud resource management: IaC patterns, access control models, and secrets architecture across AWS and hybrid environments."
+      "id": "systems_engineering",
+      "name": "Systems Engineering",
+      "description": "The interdisciplinary field of engineering and engineering management that focuses on how to design and manage complex systems."
     },
     {
-      "name": "Platform Engineering & Containers",
-      "keywords": ["kubernetes", "k8s", "docker", "containers", "gitops", "helm", "cni", "linux containers"],
-      "description": "Container orchestration, GitOps delivery pipelines, and Linux container primitives from namespaces to production clusters."
+      "id": "software_engineering",
+      "name": "Software Engineering",
+      "description": "The systematic application of engineering approaches to the development of software."
     },
     {
+      "id": "mathematics",
+      "name": "Mathematics",
+      "description": "The abstract science of number, quantity, and space."
+    },
+    {
+      "id": "cognitive_science",
+      "name": "Cognitive Science",
+      "description": "The interdisciplinary, scientific study of the mind and its processes."
+    },
+    {
+      "id": "philosophy",
+      "name": "Philosophy",
+      "description": "The study of the fundamental nature of knowledge, reality, and existence."
+    },
+    {
+      "id": "human_sciences",
+      "name": "Human Sciences",
+      "description": "The study and interpretation of the experiences, activities, constructs, and artefacts associated with human beings."
+    },
+    {
+      "id": "cloud_infrastructure",
+      "name": "Cloud Infrastructure",
+      "description": "The collection of hardware and software components that enable cloud computing."
+    },
+    {
+      "id": "infrastructure_as_code",
+      "name": "Infrastructure as Code",
+      "description": "The management of infrastructure through machine-readable definition files."
+    },
+    {
+      "id": "aws",
+      "name": "AWS",
+      "description": "Amazon Web Services cloud platform."
+    },
+    {
+      "id": "azure",
+      "name": "Azure",
+      "description": "Microsoft Azure cloud platform."
+    },
+    {
+      "id": "virtual_private_cloud",
+      "name": "Virtual Private Cloud",
+      "description": "A private network isolated within a public cloud provider."
+    },
+    {
+      "id": "secrets_management",
+      "name": "Secrets Management",
+      "description": "Tools and policies used to manage digital authentication credentials."
+    },
+    {
+      "id": "identity_management",
+      "name": "Identity Management",
+      "description": "The framework of policies and technologies for ensuring that the proper people in an organisation have the appropriate access to technology resources."
+    },
+    {
+      "id": "access_management",
+      "name": "Access Management",
+      "description": "The process of identifying, tracking, controlling, and managing authorised users' access to a system or application."
+    },
+    {
+      "id": "hashicorp_vault",
+      "name": "HashiCorp Vault",
+      "description": "A tool for secrets management, encryption as a service, and privileged access management."
+    },
+    {
+      "id": "platform_engineering",
+      "name": "Platform Engineering",
+      "description": "The discipline of designing and building toolchains and workflows that enable self-service capabilities."
+    },
+    {
+      "id": "containers",
+      "name": "Containers",
+      "description": "Standard units of software that package up code and all its dependencies."
+    },
+    {
+      "id": "kubernetes",
+      "name": "Kubernetes",
+      "description": "An open-source system for automating deployment, scaling, and management of containerised applications."
+    },
+    {
+      "id": "docker",
+      "name": "Docker",
+      "description": "A platform for developing, shipping, and running applications in containers."
+    },
+    {
+      "id": "gitops",
+      "name": "GitOps",
+      "description": "An operational framework that takes DevOps best practices and applies them to infrastructure automation."
+    },
+    {
+      "id": "helm",
+      "name": "Helm",
+      "description": "A package manager for Kubernetes."
+    },
+    {
+      "id": "container_network_interface",
+      "name": "CNI",
+      "description": "The Container Network Interface for configuring network interfaces in Linux containers."
+    },
+    {
+      "id": "linux_containers",
+      "name": "Linux Containers",
+      "description": "The underlying kernel primitives (namespaces, cgroups) used for process isolation."
+    },
+    {
+      "id": "network_engineering",
       "name": "Network Engineering",
-      "keywords": ["networking", "dns", "tcp/ip", "routing", "load balancing", "hybrid cloud", "zero trust", "encapsulation"],
-      "description": "Distributed state transport as a first-class discipline: protocol internals, cloud networking patterns, and systematic diagnostic methodology."
+      "description": "The discipline of designing, implementing, and managing data transport networks."
     },
     {
-      "name": "Data-Centric Software Engineering",
-      "keywords": ["data-centric", "rust", "type-driven development", "software architecture", "data-oriented design", "type theory", "systems programming"],
-      "description": "The 'Structure is Truth' paradigm: designing software from data shape outward, using types as mathematical proofs of correctness and structure as the primary lever for complexity reduction."
+      "id": "dns",
+      "name": "DNS",
+      "description": "Domain Name System: the phonebook of the Internet."
     },
     {
-      "name": "AI Engineering & LLM Systems",
-      "keywords": ["llm", "ai agents", "prompt engineering", "context engineering", "rag", "flow engineering", "context rot"],
-      "description": "Engineering the cognitive bridge between probabilistic AI models and deterministic software systems: context curation, orchestration architecture, and the LLM Wiki pattern."
+      "id": "tcp_ip_protocol",
+      "name": "TCP/IP Protocol",
+      "description": "The conceptual model and set of communications protocols used in the Internet."
     },
     {
-      "name": "ADHD & Cognitive Scaffolding",
-      "keywords": ["adhd", "executive function", "dopamine", "working memory", "procrastination", "neurodiversity", "task initiation", "hyperfocus"],
-      "description": "Understanding the ADHD operating system — its biological constraints, emotional regulation failure modes, and the external scaffolding required to thrive."
+      "id": "routing",
+      "name": "Routing",
+      "description": "The process of selecting a path for traffic in a network."
     },
     {
-      "name": "PKM & Personal Operating System",
-      "keywords": ["zettelkasten", "prodos", "obsidian", "pkm", "extended mind", "gtd", "second brain"],
-      "description": "Engineering the personal operating system: from raw capture through synthesis to canonical knowledge and executable action, with the vault as the externalised prefrontal cortex."
+      "id": "load_balancing",
+      "name": "Load Balancing",
+      "description": "Distributing network or application traffic across multiple servers."
     },
     {
-      "name": "Data Systems & Clinical Informatics",
-      "keywords": ["omop", "ohdsi", "sql", "relational database", "data modelling", "clinical data", "etl"],
-      "description": "Distributed data systems with a focus on the OMOP CDM, clinical data architecture, and the structural conventions of health informatics."
+      "id": "hybrid_cloud_networking",
+      "name": "Hybrid Cloud Networking",
+      "description": "Networking solutions connecting on-premises data centres and cloud environments."
     },
     {
-      "name": "Applied Mathematics & Formal Logic",
-      "keywords": ["type theory", "category theory", "order theory", "set theory", "logic", "formal methods", "mathematics"],
-      "description": "The underlying mathematical order of systems: from number theory and order theory to type-theoretic foundations of programming and formal verification."
+      "id": "zero_trust_security",
+      "name": "Zero Trust Security",
+      "description": "A security model based on the principle of 'never trust, always verify'."
     },
     {
-      "name": "Philosophy, Meaning & Resilience",
-      "keywords": ["philosophy", "stoicism", "ikigai", "eudaimonia", "meaning", "virtue", "frankl", "values"],
-      "description": "Mental models as algorithms for resilience: purpose, virtue ethics, and the philosophical scaffolding for a life oriented by meaning rather than impulse."
+      "id": "encapsulation",
+      "name": "Encapsulation",
+      "description": "The process of wrapping data in a particular protocol header."
     },
     {
-      "name": "Health & Endurance",
-      "keywords": ["running", "endurance", "physiology", "metabolic", "mounjaro", "fitness", "hrv", "nutrition"],
-      "description": "Athletic training mechanics, physiological modelling, and long-term vitality optimisation as an engineering problem."
+      "id": "data_centric_engineering",
+      "name": "Data-Centric Engineering",
+      "description": "Designing software from the data shape outward, prioritising structural truth."
+    },
+    {
+      "id": "rust_programming",
+      "name": "Rust",
+      "description": "A multi-paradigm, high-level, general-purpose programming language that emphasises performance and type safety."
+    },
+    {
+      "id": "type_driven_development",
+      "name": "Type-Driven Development",
+      "description": "A style of programming that uses the type system to express and verify logic."
+    },
+    {
+      "id": "software_architecture",
+      "name": "Software Architecture",
+      "description": "The fundamental structures of a software system and the discipline of creating them."
+    },
+    {
+      "id": "data_oriented_design",
+      "name": "Data-Oriented Design",
+      "description": "A program optimisation approach based on data locality and cache efficiency."
+    },
+    {
+      "id": "systems_programming",
+      "name": "Systems Programming",
+      "description": "The activity of programming computer system software."
+    },
+    {
+      "id": "ai_engineering",
+      "name": "AI Engineering",
+      "description": "The discipline of embedding probabilistic AI models into deterministic software systems."
+    },
+    {
+      "id": "large_language_models",
+      "name": "Large Language Models",
+      "description": "Probabilistic models trained on vast amounts of text to process and generate language."
+    },
+    {
+      "id": "ai_agents",
+      "name": "AI Agents",
+      "description": "Autonomous entities that use LLMs for reasoning and tool execution."
+    },
+    {
+      "id": "prompt_engineering",
+      "name": "Prompt Engineering",
+      "description": "The process of refining inputs to LLMs to achieve specific outputs."
+    },
+    {
+      "id": "context_engineering",
+      "name": "Context Engineering",
+      "description": "The systematic curation and structuring of data provided to an LLM's context window."
+    },
+    {
+      "id": "retrieval_augmented_generation",
+      "name": "RAG",
+      "description": "Retrieval-Augmented Generation: optimising LLM output by referencing an authoritative knowledge base."
+    },
+    {
+      "id": "flow_engineering",
+      "name": "Flow Engineering",
+      "description": "Designing deterministic execution paths for AI-driven tasks."
+    },
+    {
+      "id": "context_rot",
+      "name": "Context Rot",
+      "description": "The degradation of relevance or coherence within a long-running LLM context window."
+    },
+    {
+      "id": "llm_wiki_pattern",
+      "name": "LLM Wiki Pattern",
+      "description": "A structural pattern for managing evolving knowledge within agentic systems."
+    },
+    {
+      "id": "adhd",
+      "name": "ADHD",
+      "description": "Attention-Deficit/Hyperactivity Disorder: a neurodevelopmental condition."
+    },
+    {
+      "id": "executive_function",
+      "name": "Executive Function",
+      "description": "A set of cognitive processes that are necessary for the cognitive control of behaviour."
+    },
+    {
+      "id": "neurodiversity",
+      "name": "Neurodiversity",
+      "description": "The concept that neurological differences are a natural variation of the human genome."
+    },
+    {
+      "id": "cognitive_scaffolding",
+      "name": "Cognitive Scaffolding",
+      "description": "External structures and tools designed to support and extend human cognitive abilities."
+    },
+    {
+      "id": "emotional_regulation",
+      "name": "Emotional Regulation",
+      "description": "The ability to exert control over one's emotional state."
+    },
+    {
+      "id": "personal_knowledge_management",
+      "name": "PKM",
+      "description": "A process of collecting information that a person uses to gather, classify, store, search, retrieve and share knowledge."
+    },
+    {
+      "id": "personal_operating_system",
+      "name": "Personal Operating System",
+      "description": "A collection of systems and protocols for managing one's attention, actions, and knowledge."
+    },
+    {
+      "id": "zettelkasten",
+      "name": "Zettelkasten",
+      "description": "A method of knowledge management and note-taking used in research and study."
+    },
+    {
+      "id": "prodos",
+      "name": "ProdOS",
+      "description": "Productivity Operating System: a framework for cognitive augmentation."
+    },
+    {
+      "id": "obsidian",
+      "name": "Obsidian",
+      "description": "A powerful and extensible knowledge base that works on top of a local folder of plain text Markdown files."
+    },
+    {
+      "id": "extended_mind_theory",
+      "name": "Extended Mind Theory",
+      "description": "The philosophical view that cognitive processes can extend beyond the biological brain."
+    },
+    {
+      "id": "getting_things_done",
+      "name": "GTD",
+      "description": "Getting Things Done: a time management method."
+    },
+    {
+      "id": "second_brain",
+      "name": "Second Brain",
+      "description": "A methodology for saving and systematically reminding ourselves of the ideas and insights we've learned."
+    },
+    {
+      "id": "data_systems",
+      "name": "Data Systems",
+      "description": "Frameworks for the storage, retrieval, and systematic management of data."
+    },
+    {
+      "id": "clinical_informatics",
+      "name": "Clinical Informatics",
+      "description": "The study of information technology and its application to patient care."
+    },
+    {
+      "id": "omop_cdm",
+      "name": "OMOP CDM",
+      "description": "Observational Medical Outcomes Partnership Common Data Model."
+    },
+    {
+      "id": "ohdsi",
+      "name": "OHDSI",
+      "description": "Observational Health Data Sciences and Informatics collaborative."
+    },
+    {
+      "id": "relational_databases",
+      "name": "Relational Databases",
+      "description": "Databases based on the relational model of data."
+    },
+    {
+      "id": "data_modelling",
+      "name": "Data Modelling",
+      "description": "The process of creating a data model for an information system."
+    },
+    {
+      "id": "clinical_data_architecture",
+      "name": "Clinical Data Architecture",
+      "description": "The structural design and conventions of clinical data sets."
+    },
+    {
+      "id": "extract_transform_load",
+      "name": "ETL",
+      "description": "The general procedure of copying data from one or more sources into a destination system."
+    },
+    {
+      "id": "applied_mathematics",
+      "name": "Applied Mathematics",
+      "description": "The application of mathematical methods by different fields such as physics, engineering, medicine, and biology."
+    },
+    {
+      "id": "formal_logic",
+      "name": "Formal Logic",
+      "description": "The study of inference with purely formal content."
+    },
+    {
+      "id": "type_theory",
+      "name": "Type Theory",
+      "description": "A class of formal systems in which every term has a type."
+    },
+    {
+      "id": "category_theory",
+      "name": "Category Theory",
+      "description": "A general theory of mathematical structures and their relations."
+    },
+    {
+      "id": "order_theory",
+      "name": "Order Theory",
+      "description": "A branch of mathematics which investigates the intuitive notion of order using binary relations."
+    },
+    {
+      "id": "set_theory",
+      "name": "Set Theory",
+      "description": "A branch of mathematical logic that studies sets, which informally are collections of objects."
+    },
+    {
+      "id": "formal_methods",
+      "name": "Formal Methods",
+      "description": "Mathematically based techniques for the specification, development, and verification of software and hardware systems."
+    },
+    {
+      "id": "formal_verification",
+      "name": "Formal Verification",
+      "description": "The act of proving or disproving the correctness of intended algorithms underlying a system."
+    },
+    {
+      "id": "stoicism",
+      "name": "Stoicism",
+      "description": "A school of Hellenistic philosophy that teaches the development of self-control and fortitude."
+    },
+    {
+      "id": "meaning",
+      "name": "Meaning",
+      "description": "The existential significance or sense of value attributed to life and actions."
+    },
+    {
+      "id": "purpose",
+      "name": "Purpose",
+      "description": "The specific intention or objective that guides an individual's life."
+    },
+    {
+      "id": "resilience",
+      "name": "Resilience",
+      "description": "The capacity to withstand or to recover quickly from difficulties; mental toughness."
+    },
+    {
+      "id": "health",
+      "name": "Health",
+      "description": "A state of complete physical, mental and social well-being."
+    },
+    {
+      "id": "endurance_training",
+      "name": "Endurance Training",
+      "description": "The act of exercising to increase stamina and physical endurance."
+    },
+    {
+      "id": "physiology",
+      "name": "Physiology",
+      "description": "The branch of biology that deals with the normal functions of living organisms and their parts."
+    },
+    {
+      "id": "metabolic_health",
+      "name": "Metabolic Health",
+      "description": "Optimal function of the body's energy-producing and processing systems."
+    },
+    {
+      "id": "vitality_optimisation",
+      "name": "Vitality Optimisation",
+      "description": "The engineering approach to maintaining long-term physical and mental vigour."
+    },
+    {
+      "id": "mounjaro_tirzepatide",
+      "name": "Mounjaro (Tirzepatide)",
+      "description": "A medication used for the treatment of type 2 diabetes and chronic weight management."
+    },
+    {
+      "id": "heart_rate_variability",
+      "name": "Heart Rate Variability",
+      "description": "The physiological phenomenon of variation in the time interval between heartbeats."
+    },
+    {
+      "id": "cybernetics",
+      "name": "Cybernetics",
+      "description": "The interdisciplinary study of the structure of regulatory systems, focusing on control and communication in living organisms and machines."
+    },
+    {
+      "id": "epistemic_engineering",
+      "name": "Epistemic Engineering",
+      "description": "The systematic design of environments and tools to support knowledge acquisition, retention, and synthesis."
+    },
+    {
+      "id": "cognitive_load_theory",
+      "name": "Cognitive Load Theory",
+      "description": "A framework for understanding how information processing affects the ability to learn and perform tasks, particularly relevant to UX and systems design."
     }
+  ],
+  "relations": [
+    { "sub": "software_engineering", "super": "systems_engineering" },
+    { "sub": "network_engineering", "super": "systems_engineering" },
+    { "sub": "cloud_infrastructure", "super": "systems_engineering" },
+    { "sub": "platform_engineering", "super": "systems_engineering" },
+    { "sub": "applied_mathematics", "super": "mathematics" },
+    { "sub": "philosophy", "super": "human_sciences" },
+    { "sub": "health", "super": "human_sciences" },
+    { "sub": "neurodiversity", "super": "cognitive_science" },
+    { "sub": "infrastructure_as_code", "super": "cloud_infrastructure" },
+    { "sub": "aws", "super": "cloud_infrastructure" },
+    { "sub": "azure", "super": "cloud_infrastructure" },
+    { "sub": "virtual_private_cloud", "super": "cloud_infrastructure" },
+    { "sub": "virtual_private_cloud", "super": "network_engineering" },
+    { "sub": "identity_management", "super": "cloud_infrastructure" },
+    { "sub": "access_management", "super": "cloud_infrastructure" },
+    { "sub": "secrets_management", "super": "access_management" },
+    { "sub": "hashicorp_vault", "super": "secrets_management" },
+    { "sub": "containers", "super": "platform_engineering" },
+    { "sub": "kubernetes", "super": "containers" },
+    { "sub": "docker", "super": "containers" },
+    { "sub": "gitops", "super": "infrastructure_as_code" },
+    { "sub": "helm", "super": "kubernetes" },
+    { "sub": "container_network_interface", "super": "containers" },
+    { "sub": "container_network_interface", "super": "network_engineering" },
+    { "sub": "linux_containers", "super": "containers" },
+    { "sub": "tcp_ip_protocol", "super": "network_engineering" },
+    { "sub": "dns", "super": "network_engineering" },
+    { "sub": "routing", "super": "network_engineering" },
+    { "sub": "load_balancing", "super": "network_engineering" },
+    { "sub": "hybrid_cloud_networking", "super": "network_engineering" },
+    { "sub": "hybrid_cloud_networking", "super": "cloud_infrastructure" },
+    { "sub": "zero_trust_security", "super": "network_engineering" },
+    { "sub": "encapsulation", "super": "network_engineering" },
+    { "sub": "data_centric_engineering", "super": "software_engineering" },
+    { "sub": "systems_programming", "super": "software_engineering" },
+    { "sub": "rust_programming", "super": "systems_programming" },
+    { "sub": "rust_programming", "super": "data_centric_engineering" },
+    { "sub": "type_driven_development", "super": "data_centric_engineering" },
+    { "sub": "type_driven_development", "super": "type_theory" },
+    { "sub": "software_architecture", "super": "software_engineering" },
+    { "sub": "data_oriented_design", "super": "data_centric_engineering" },
+    { "sub": "ai_engineering", "super": "software_engineering" },
+    { "sub": "large_language_models", "super": "ai_engineering" },
+    { "sub": "ai_agents", "super": "large_language_models" },
+    { "sub": "prompt_engineering", "super": "large_language_models" },
+    { "sub": "context_engineering", "super": "large_language_models" },
+    { "sub": "retrieval_augmented_generation", "super": "large_language_models" },
+    { "sub": "retrieval_augmented_generation", "super": "data_systems" },
+    { "sub": "flow_engineering", "super": "ai_engineering" },
+    { "sub": "context_rot", "super": "context_engineering" },
+    { "sub": "llm_wiki_pattern", "super": "large_language_models" },
+    { "sub": "llm_wiki_pattern", "super": "personal_knowledge_management" },
+    { "sub": "adhd", "super": "neurodiversity" },
+    { "sub": "executive_function", "super": "adhd" },
+    { "sub": "cognitive_scaffolding", "super": "cognitive_science" },
+    { "sub": "cognitive_scaffolding", "super": "personal_operating_system" },
+    { "sub": "emotional_regulation", "super": "cognitive_science" },
+    { "sub": "personal_knowledge_management", "super": "personal_operating_system" },
+    { "sub": "personal_operating_system", "super": "philosophy" },
+    { "sub": "zettelkasten", "super": "personal_knowledge_management" },
+    { "sub": "prodos", "super": "personal_operating_system" },
+    { "sub": "obsidian", "super": "personal_knowledge_management" },
+    { "sub": "extended_mind_theory", "super": "cognitive_science" },
+    { "sub": "extended_mind_theory", "super": "philosophy" },
+    { "sub": "getting_things_done", "super": "personal_operating_system" },
+    { "sub": "second_brain", "super": "personal_knowledge_management" },
+    { "sub": "data_systems", "super": "software_engineering" },
+    { "sub": "clinical_informatics", "super": "data_systems" },
+    { "sub": "clinical_informatics", "super": "health" },
+    { "sub": "omop_cdm", "super": "clinical_informatics" },
+    { "sub": "ohdsi", "super": "omop_cdm" },
+    { "sub": "relational_databases", "super": "data_systems" },
+    { "sub": "data_modelling", "super": "data_systems" },
+    { "sub": "data_modelling", "super": "applied_mathematics" },
+    { "sub": "clinical_data_architecture", "super": "clinical_informatics" },
+    { "sub": "extract_transform_load", "super": "data_systems" },
+    { "sub": "formal_logic", "super": "applied_mathematics" },
+    { "sub": "formal_logic", "super": "philosophy" },
+    { "sub": "type_theory", "super": "formal_logic" },
+    { "sub": "category_theory", "super": "applied_mathematics" },
+    { "sub": "order_theory", "super": "set_theory" },
+    { "sub": "set_theory", "super": "applied_mathematics" },
+    { "sub": "formal_methods", "super": "applied_mathematics" },
+    { "sub": "formal_methods", "super": "software_engineering" },
+    { "sub": "formal_verification", "super": "formal_methods" },
+    { "sub": "formal_verification", "super": "type_theory" },
+    { "sub": "stoicism", "super": "philosophy" },
+    { "sub": "meaning", "super": "philosophy" },
+    { "sub": "purpose", "super": "philosophy" },
+    { "sub": "resilience", "super": "philosophy" },
+    { "sub": "resilience", "super": "health" },
+    { "sub": "endurance_training", "super": "health" },
+    { "sub": "physiology", "super": "health" },
+    { "sub": "metabolic_health", "super": "physiology" },
+    { "sub": "vitality_optimisation", "super": "health" },
+    { "sub": "mounjaro_tirzepatide", "super": "metabolic_health" },
+    { "sub": "heart_rate_variability", "super": "physiology" },
+    { "sub": "cybernetics", "super": "systems_engineering" },
+    { "sub": "cybernetics", "super": "cognitive_science" },
+    { "sub": "epistemic_engineering", "super": "systems_engineering" },
+    { "sub": "epistemic_engineering", "super": "personal_knowledge_management" },
+    { "sub": "cognitive_load_theory", "super": "software_architecture" },
+    { "sub": "cognitive_load_theory", "super": "cognitive_science" }
   ]
 }
