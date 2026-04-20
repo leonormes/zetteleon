@@ -1,7 +1,7 @@
 ---
 aliases: [Curry-Howard-Lambek Isomorphism, Propositions as Types as Objects, The Computational Trinity]
 created: 2026-04-19T14:00:00+01:00
-modified: 2026-04-19T18:30:29+00:00
+modified: 2026-04-19T19:54:49+00:00
 see_also: ["[[MOC - Applied Formal Methods]]", "[[SoT - Structure is Truth is a Unifying Axiom Across Formal Systems]]", "[[SoT - The Curry-Howard Correspondence (Propositions as Types)]]"]
 tags: [fca/attr/m1, fca/attr/m10, fca/attr/m4, fca/attr/m8, fca/level/c16, topic/category-theory, topic/formal-methods, topic/logic, topic/type-theory]
 title: SoT - The Trinity of Isomorphism (Logic, Computation, Categories)

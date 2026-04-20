@@ -2,7 +2,7 @@
 created: 2026-04-14T11:22:35+00:00
 created_utc: "2026-04-14T11:05:00Z"
 kind: distinction
-modified: 2026-04-19T18:30:41+00:00
+modified: 2026-04-19T19:58:08+00:00
 source_title: "Martin Fowler & Kent Beck: Frameworks for reinventing software, again and again"
 source_url: "http://www.youtube.com/watch?v=CZs8J1ZD0CE"
 status: seed

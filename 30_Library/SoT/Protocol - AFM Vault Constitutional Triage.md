@@ -1,7 +1,7 @@
 ---
 aliases: [AFM Triage Protocol, FCA Metadata Linter, Vault Constitutional Protocol]
 created: 2026-04-19T10:30:00+01:00
-modified: 2026-04-19T18:30:29+00:00
+modified: 2026-04-19T19:55:55+00:00
 see_also: ["[[MOC - Applied Formal Methods]]", "[[SoT - Conservation of Complexity]]", "[[SoT - Order Theory & Lattices]]", "[[SoT - Structure is Truth is a Unifying Axiom Across Formal Systems]]"]
 tags: [fca/constitutional, prodos/protocol, topic/formal-methods, topic/pkm, topic/prodos]
 title: Protocol - AFM Vault Constitutional Triage
@@ -140,7 +140,7 @@ RULE r-ty-th  [Trigger: topic/type-theory]
   AND   set fca.calculated_attrs: [m1, m4, m8, m10]
 
 RULE r-m8  [Trigger: topic/formal-methods | topic/relational-schema | topic/cdm]
-  WHEN  ("topic/formal-methods" OR "topic/relational-schema" OR "topic/cdm") ∈ tags
+  WHEN  ("topic/formal-methods" OR "topic/relational-sc5hema" OR "topic/cdm") ∈ tags
   AND   "topic/type-theory" ∉ tags
   THEN  add: fca/attr/m1, fca/attr/m4, fca/attr/m10
   AND   set fca.level: c12

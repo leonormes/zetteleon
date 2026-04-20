@@ -1,7 +1,7 @@
 ---
 aliases: [AFM Hub, Applied Formal Methods Index, Formal Foundations Hub]
 created: 2026-04-19T10:00:00+01:00
-modified: 2026-04-19T18:30:28+00:00
+modified: 2026-04-19T20:13:06+00:00
 see_also: ["[[MOC - Formal Logic & Philosophy (Triage)]]", "[[MOC - The Unified Systems Paradigm]]"]
 supersedes: "[[MOC - Formal Logic & Philosophy (Triage)]]"
 tags: [prodos/moc, topic/formal-methods, topic/mathematics, topic/software-architecture, topic/type-theory]
@@ -16,7 +16,7 @@ This hub was derived from a Formal Concept Analysis of the vault's topic taxonom
 
 ---
 
-### The Concept Lattice (Navigation Structure)
+### The Concept Lattice (Navig hiation Structure)
 
 The hierarchy below represents the _extent_ (topics covered) and _intent_ (attributes required) at each level. Moving upward adds topics by relaxing constraints; moving downward adds constraints by narrowing scope.
 
@@ -299,14 +299,14 @@ Cross-link notes:
 
 ### Planned Notes (Gaps Identified by This Analysis)
 
-| Note | Level | Type | Rationale |
-|------|-------|------|-----------|
-| `SoT - The Algebra of Types (Cardinality and Isomorphism)` | C16 | SoT | Arithmetic of data shapes; flagged in [[MOC - The Unified Systems Paradigm]] |
-| `SoT - The Trinity of Isomorphism (Logic, Computation, Categories)` | C16 | SoT | The Rosetta Stone note; flagged in [[MOC - The Unified Systems Paradigm]] |
-| `SoT - Infrastructure as Formal Specification` | C11 | SoT | Unifying thesis for IaC at the AFM level |
-| `Complexity Conservation Applies to Cognitive Systems as Well as Software` | Bridge | Atomic | The bridge claim between AFM and Human/Cognitive civilisations |
-| `The Vault's Frontmatter Schema is a Type System for Knowledge` | C4 | Atomic | The Prefrontal Cortex Bridge as a standalone vault-specific claim |
-| `Cognitive Scaffolds Are Constitutive but Lack Formal Closure` | C13 | Atomic | T2 from [[SoT - Structure is Truth is a Unifying Axiom Across Formal Systems]] |
+| Note                                                                       | Level  | Type   | Rationale                                                                      |
+| -------------------------------------------------------------------------- | ------ | ------ | ------------------------------------------------------------------------------ |
+| `SoT - The Algebra of Types (Cardinality and Isomorphism)`                 | C16    | SoT    | Arithmetic of data shapes; flagged in [[MOC - The Unified Systems Paradigm]]   |
+| `SoT - The Trinity of Isomorphism (Logic, Computation, Categories)`        | C16    | SoT    | The Rosetta Stone note; flagged in [[MOC - The Unified Systems Paradigm]]      |
+| `SoT - Infrastructure as Formal Specification`                             | C11    | SoT    | Unifying thesis for IaC at the AFM level                                       |
+| `Complexity Conservation Applies to Cognitive Systems as Well as Software` | Bridge | Atomic | The bridge claim between AFM and Human/Cognitive civilisations                 |
+| `The Vault's Frontmatter Schema is a Type System for Knowledge`            | C4     | Atomic | The Prefrontal Cortex Bridge as a standalone vault-specific claim              |
+| `Cognitive Scaffolds Are Constitutive but Lack Formal Closure`             | C13    | Atomic | T2 from [[SoT - Structure is Truth is a Unifying Axiom Across Formal Systems]] |
 
 ---
 
