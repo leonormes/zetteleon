@@ -1,14 +1,17 @@
 ---
-title: "You said Yes! Order theory is highly applicable to..."
-source: "https://gemini.google.com/app/c1ec548bb1ac9834"
 captured: "2026-04-20T14:14:05+01:00 2026-04-20T14:14:05+01:00"
+created: 2026-04-20T13:14:07+00:00
+modified: 2026-04-20T13:21:31+00:00
+source: "https://gemini.google.com/app/c1ec548bb1ac9834"
 status: "processing"
-tags:
-  - "input"
+tags: ["input", FcaAttr, FcaBlock, FcaBlockValidated, FcaDiscriminator, FcaLevel, ProdosBlock]
+title: "# ── CALCULATED (auto-derived by r-ty-th; do not remove) ─────────────────"
 type: "head"
 ---
+
 ## Raw Output / Content
-**You**
+
+You
 
 Yes! Order theory is highly applicable to personal knowledge management (PKM), primarily through two concepts:
 
@@ -20,9 +23,9 @@ I want to create a prompt to get my local llm to analyse my notes and topics to 
 
 ---
 
-**Gemini**
+Gemini
 
-To begin organising your Personal Knowledge Management (PKM) system using Order Theory, the first task is to establish a **Formal Context**. According to the principles of Formal Concept Analysis (FCA), a formal context is a triple $K = (G, M, I)$, where $G$ is a set of **objects**, $M$ is a set of **attributes**, and $I$ is the **incidence relation** (the connection between them).
+To begin organising your Personal Knowledge Management (PKM) system using Order Theory, the first task is to establish a Formal Context. According to the principles of Formal Concept Analysis (FCA), a formal context is a triple $K = (G, M, I)$, where $G$ is a set of objects, $M$ is a set of attributes, and $I$ is the incidence relation (the connection between them).
 
 In your case, the objects are your whitelisted topics, and the attributes are the keywords and core themes derived from their descriptions. Before the LLM can generate a concept lattice or a Hasse diagram, it must first map these relationships into a structured matrix.
 
@@ -32,35 +35,35 @@ In your case, the objects are your whitelisted topics, and the attributes are th
 
 Copy and paste the prompt below into your local LLM. This prompt instructs the model to extract a unique set of attributes and create the binary relation required for lattice theory.
 
-**Prompt for your Local LLM:**
+Prompt for your Local LLM:
 
-> Act as a Knowledge Engineer specialising in **Formal Concept Analysis (FCA)** and **Order Theory**.
-> 
-> **Goal:** Create a Formal Context matrix to structure a PKM system.
-> 
-> **Input Data:** (Paste the contents of `topics_whitelist.json` here)
-> 
-> **Instructions:**
-> 
-> 1. **Identify Objects ($G$):** Use the `name` of each topic in the JSON as the set of objects.
-> 2. **Identify Attributes ($M$):** Extract a unique, flat list of all `keywords` across all topics. Normalise these keywords (e.g., ensure "k8s" and "kubernetes" are treated as the same attribute if applicable, or keep them distinct if they represent different levels of abstraction).
-> 3. **Define the Incidence Relation ($I$):** Create a formal context matrix where the rows are the **Objects** and the columns are the **Attributes**.
-> 4. **Output Format:** Provide the results as a Markdown table. Use an "X" to indicate when an object possesses an attribute.
-> 5. **Analysis:** Identify any "Attributes" that are currently unique to only one "Object" and any "Objects" that share a high number of "Attributes," as these will eventually form the basis of our concept hierarchy.
+> Act as a Knowledge Engineer specialising in Formal Concept Analysis (FCA) and Order Theory.
+>
+> Goal: Create a Formal Context matrix to structure a PKM system.
+>
+> Input Data: (Paste the contents of `topics_whitelist.json` here)
+>
+> Instructions:
+>
+> 1. Identify Objects ($G$): Use the `name` of each topic in the JSON as the set of objects.
+> 2. Identify Attributes ($M$): Extract a unique, flat list of all `keywords` across all topics. Normalise these keywords (e.g., ensure "k8s" and "kubernetes" are treated as the same attribute if applicable, or keep them distinct if they represent different levels of abstraction).
+> 3. Define the Incidence Relation ($I$): Create a formal context matrix where the rows are the Objects and the columns are the Attributes.
+> 4. Output Format: Provide the results as a Markdown table. Use an "X" to indicate when an object possesses an attribute.
+> 5. Analysis: Identify any "Attributes" that are currently unique to only one "Object" and any "Objects" that share a high number of "Attributes," as these will eventually form the basis of our concept hierarchy.
 > 
 > Ensure the output is high-density and avoids conversational filler. This matrix will be used in the next step to derive the concept lattice.
 
 ---
 
-### Why this is the first step
+### Why This is the First step
 
-By creating this matrix, you are moving from a flat list of categories to a mathematical structure. This allows the LLM to identify **sub-concepts** and **super-concepts**. For example, if "Cloud Infrastructure" and "Platform Engineering" both share the attribute "Networking," the FCA process will eventually identify "Networking" as a "super-concept" that sits above both in your hierarchy.
+By creating this matrix, you are moving from a flat list of categories to a mathematical structure. This allows the LLM to identify sub-concepts and super-concepts. For example, if "Cloud Infrastructure" and "Platform Engineering" both share the attribute "Networking," the FCA process will eventually identify "Networking" as a "super-concept" that sits above both in your hierarchy.
 
-Once your local LLM provides this matrix, would you like to proceed with identifying the **Extents** and **Intents** to build the actual lattice?
+Once your local LLM provides this matrix, would you like to proceed with identifying the Extents and Intents to build the actual lattice?
 
 ---
 
-**You**
+You
 
 Here is the output from the llm
 
@@ -130,11 +133,11 @@ Normalisation decisions:
 
 \- vault (CI) = HashiCorp Vault; distinct from Obsidian vault in PK context
 
-\- type theory appears in both DS and AM — retained as single attribute, cross-domain bridge
+\- type theory appears in both DS and AM—retained as single attribute, cross-domain bridge
 
 \---
 
-Incidence Matrix — Part 1: CI → DS
+Incidence Matrix—Part 1: CI → DS
 
 ┌────────────────┬─────┬─────┬─────┬─────┐
 
@@ -264,7 +267,7 @@ Incidence Matrix — Part 1: CI → DS
 
 \---
 
-Incidence Matrix — Part 2: AL → DC
+Incidence Matrix—Part 2: AL → DC
 
 ┌─────────────────┬─────┬─────┬─────┬─────┐
 
@@ -390,7 +393,7 @@ Incidence Matrix — Part 2: AL → DC
 
 \---
 
-Incidence Matrix — Part 3: AM → HE
+Incidence Matrix—Part 3: AM → HE
 
 ┌─────────────────┬─────┬─────┬─────┐
 
@@ -530,7 +533,7 @@ Summary Statistics
 
 Singleton-Extent Attributes (80/81)
 
-Every attribute except type-theory has a singleton extent — it belongs to exactly one object. This means 80 attributes contribute no discriminating power for forming non-trivial concepts; they are object-defining rather
+Every attribute except type-theory has a singleton extent—it belongs to exactly one object. This means 80 attributes contribute no discriminating power for forming non-trivial concepts; they are object-defining rather
 
 than concept-unifying.
 
@@ -552,7 +555,7 @@ The One Cross-Domain Bridge
 
 This is the only non-trivial formal concept in the current context:
 
-Concept: ( {DS, AM}, {type-theory} )
+Concept: ({DS, AM}, {type-theory})
 
 \- {type-theory}′ = {DS, AM} ✓
 
@@ -576,7 +579,7 @@ Concept Lattice Structure (sketch)
 
 │ │
 
-... (8 isolated singleton concepts)...
+… (8 isolated singleton concepts)…
 
 │
 
@@ -610,66 +613,66 @@ Recommendations for Next Step
 
 | resilience | PR, HE, AC |
 
-2\. Promote descriptions to attributes. The descriptions contain richer semantic content than the keywords — concepts like "first-class discipline", "probabilistic/deterministic bridge", "externalised prefrontal cortex"
+2\. Promote descriptions to attributes. The descriptions contain richer semantic content than the keywords—concepts like "first-class discipline", "probabilistic/deterministic bridge", "externalised prefrontal cortex"
 
 are natural higher-order attributes.
 
-3\. Run concept lattice derivation (Next Closure or Concepts algorithm) once meta-attributes are added — the DS ↔ AM bridge is the seed for a "Formal Foundations" super-concept that could also absorb parts of DC
+3\. Run concept lattice derivation (Next Closure or Concepts algorithm) once meta-attributes are added—the DS ↔ AM bridge is the seed for a "Formal Foundations" super-concept that could also absorb parts of DC
 
 (relational theory) and AL (probabilistic logic).
 
 ---
 
-**Gemini**
+Gemini
 
-The previous analysis from your local LLM correctly identifies a "degenerate" lattice. In **Formal Concept Analysis (FCA)**, if every attribute is a singleton (belonging to only one object), you don't have a hierarchy; you have a collection of isolated islands. To build a functional **concept lattice** —a complete lattice where every set of formal concepts has a meet and a join—we need **shared attributes** that act as the connective tissue.
+The previous analysis from your local LLM correctly identifies a "degenerate" lattice. In Formal Concept Analysis (FCA), if every attribute is a singleton (belonging to only one object), you don't have a hierarchy; you have a collection of isolated islands. To build a functional concept lattice—a complete lattice where every set of formal concepts has a meet and a join—we need shared attributes that act as the connective tissue.
 
-Currently, your "lattice" is effectively a flat list because the attributes are too granular. We need to move from **labels** to **intents** (sets of attributes shared by objects).
+Currently, your "lattice" is effectively a flat list because the attributes are too granular. We need to move from labels to intents (sets of attributes shared by objects).
 
 ---
 
 ### Task 2: Context Enrichment & Meta-Attribute Synthesis
 
-The goal of this task is to extract "Super-Attributes" from your topic descriptions. This will allow the LLM to find the mathematical "join" between seemingly unrelated topics like **ADHD (AC)** and **AI Engineering (AL)** (e.g., through "Context Management").
+The goal of this task is to extract "Super-Attributes" from your topic descriptions. This will allow the LLM to find the mathematical "join" between seemingly unrelated topics like ADHD (AC) and AI Engineering (AL) (e.g., through "Context Management").
 
-**Prompt for your Local LLM:**
+Prompt for your Local LLM:
 
 > Act as a Knowledge Engineer. We need to "scale" the formal context because the current attribute density is too low for a meaningful lattice.
+>
+> Goal: Synthesise higher-order meta-attributes from the topic descriptions to create shared "intents."
+>
+> Instructions:
+>
+> 1. Analyze Descriptions: Re-examine the `description` field for all 11 topics in the original JSON.
+> 2. Extract Meta-Attributes: Identify at least 8-10 "Super-Attributes" that are present in at least two different topics. Use the following candidates as a starting point but refine them based on the text:
+> 	- Deterministic Systems (e.g., IaC, Math, Software Architecture)
+> 		- Probabilistic Systems (e.g., LLMs, Physiology, Human Cognition)
+> 		- External Scaffolding (e.g., PKM, ADHD, Platform Engineering)
+> 		- Structural Truth (e.g., Type Theory, OMOP, Data-Centric Design)
+> 		- Distributed State (e.g., Networking, K8s, Distributed Databases)
+> 		- Optimization/Resilience (e.g., Stoicism, Endurance, Cloud Scaling)
+> 1. Update the Incidence Matrix: Generate a new, unified Markdown table.
+> 	- Keep the Objects (the 11 topics).
+> 		- The Attributes should now be these new Meta-Attributes plus the original `type-theory` bridge.
+> 		- _Note:_ Drop the 80 singleton keywords for this specific matrix to focus on the hierarchy. 4. Identify Implications ($A \rightarrow B$): Based on this new matrix, list any implications where having attribute A always implies having attribute B.
 > 
-> **Goal:** Synthesise higher-order meta-attributes from the topic descriptions to create shared "intents."
-> 
-> **Instructions:**
-> 
-> 1. **Analyze Descriptions:** Re-examine the `description` field for all 11 topics in the original JSON.
-> 2. **Extract Meta-Attributes:** Identify at least 8-10 "Super-Attributes" that are present in **at least two** different topics. Use the following candidates as a starting point but refine them based on the text:
-> 	- **Deterministic Systems** (e.g., IaC, Math, Software Architecture)
-> 		- **Probabilistic Systems** (e.g., LLMs, Physiology, Human Cognition)
-> 		- **External Scaffolding** (e.g., PKM, ADHD, Platform Engineering)
-> 		- **Structural Truth** (e.g., Type Theory, OMOP, Data-Centric Design)
-> 		- **Distributed State** (e.g., Networking, K8s, Distributed Databases)
-> 		- **Optimization/Resilience** (e.g., Stoicism, Endurance, Cloud Scaling)
-> 3. **Update the Incidence Matrix:** Generate a new, unified Markdown table.
-> 	- Keep the **Objects** (the 11 topics).
-> 		- The **Attributes** should now be these new **Meta-Attributes** plus the original `type-theory` bridge.
-> 		- *Note:* Drop the 80 singleton keywords for this specific matrix to focus on the hierarchy. 4. **Identify Implications ($A \rightarrow B$):** Based on this new matrix, list any implications where having attribute A always implies having attribute B.
-> 
-> **Output Requirement:** A clean Markdown matrix and a list of "Formal Concepts" (pairs of Object-sets and Attribute-sets) that emerge from this enrichment.
+> Output Requirement: A clean Markdown matrix and a list of "Formal Concepts" (pairs of Object-sets and Attribute-sets) that emerge from this enrichment.
 
 ---
 
-### Why this works
+### Why This Works
 
-By focusing on these meta-attributes, you are performing **Conceptual Scaling**. In FCA, a formal concept $(A, B)$ exists only when the extent $A$ (objects) contains *all* objects that share the attributes in $B$, and vice versa.
+By focusing on these meta-attributes, you are performing Conceptual Scaling. In FCA, a formal concept $(A, B)$ exists only when the extent $A$ (objects) contains _all_ objects that share the attributes in $B$, and vice versa.
 
-Once the LLM provides this enriched matrix, we will have enough "intersections" to perform **Task 3: Subconcept-Superconcept Mapping**, which will finally reveal the "Natural Order" of your knowledge vault.
+Once the LLM provides this enriched matrix, we will have enough "intersections" to perform Task 3: Subconcept-Superconcept Mapping, which will finally reveal the "Natural Order" of your knowledge vault.
 
 Would you like to refine the list of meta-attribute candidates before running this, or are you happy to let the LLM extract them from the descriptions?
 
 ---
 
-**You**
+You
 
-Phase 1 — Meta-Attribute Derivation
+Phase 1—Meta-Attribute Derivation
 
 Each candidate was tested against all 11 descriptions for semantic presence (explicit or structural). Shown below with derivation evidence.
 
@@ -747,7 +750,7 @@ Each candidate was tested against all 11 descriptions for semantic presence (exp
 
 \---
 
-Phase 2 — Enriched Incidence Matrix
+Phase 2—Enriched Incidence Matrix
 
 ┌───────────────────────────────┬────────┬─────────┬─────────────┬───────────┬──────────────┬─────────┬──────────┬───────────┬─────────────┬──────────┬───────┐
 
@@ -825,7 +828,7 @@ Density stats:
 
 \---
 
-Phase 3 — Formal Concepts
+Phase 3—Formal Concepts
 
 Derived via closure: each pair (A, B) satisfies A′ = B and B′ = A.
 
@@ -903,13 +906,13 @@ Derived via closure: each pair (A, B) satisfies A′ = B and B′ = A.
 
 ├─────┼──────────────────────────────────┼──────────────────────────────────────┼──────────────────────────┤
 
-│ C17 │ (bottom — empty extent) │ {} │ {all 11 attributes} │
+│ C17 │ (bottom—empty extent) │ {} │ {all 11 attributes} │
 
 └─────┴──────────────────────────────────┴──────────────────────────────────────┴──────────────────────────┘
 
 \---
 
-Phase 4 — Implications (A → B)
+Phase 4—Implications (A → B)
 
 An implication holds when every object possessing all attributes in A necessarily possesses all attributes in B.
 
@@ -927,7 +930,7 @@ I2: ty-th → {M1, M4, M8, M10}
 
 ▎ Type Theory implies the full Formal Foundations cluster.
 
-Derivable from I1 plus the type theory intent. DS and AM are the only objects with ty-th, and their intents are identical — they form the deepest shared concept (C16).
+Derivable from I1 plus the type theory intent. DS and AM are the only objects with ty-th, and their intents are identical—they form the deepest shared concept (C16).
 
 \---
 
@@ -943,15 +946,15 @@ I4: {M5, M6} → {M1, M10}
 
 ▎ Topics combining Distributed State management with Orchestration & Automation are always Deterministic and Complexity-Reducing.
 
-Verified: CI ✓, PE ✓, DC ✓ (the only objects with both M5 and M6 all carry M1 and M10). Reading: You cannot orchestrate distributed state without declarative rules and a structural layer that absorbs complexity —
+Verified: CI ✓, PE ✓, DC ✓ (the only objects with both M5 and M6 all carry M1 and M10). Reading: You cannot orchestrate distributed state without declarative rules and a structural layer that absorbs complexity—
 
 engineering forces this convergence.
 
 \---
 
-Concept Lattice — Structural Sketch
+Concept Lattice—Structural Sketch
 
-C0 (⊤ — all objects, no intent)
+C0 (⊤—all objects, no intent)
 
 / | \\
 
@@ -1003,13 +1006,13 @@ Key Structural Findings
 
 ├─────────────────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
 
-│ Three distinct "civilisations" in │ (1) Deterministic/Engineering: CI, PE, NE, DS, DC, AM — top-heavy in M1 cluster. (2) Human/Cognitive: AC, PK, PR, AL — scaffolding and cognition axis. (3) │
+│ Three distinct "civilisations" in │ (1) Deterministic/Engineering: CI, PE, NE, DS, DC, AM—top-heavy in M1 cluster. (2) Human/Cognitive: AC, PK, PR, AL—scaffolding and cognition axis. (3) │
 
-│ the lattice │ Probabilistic/Embodied: AL, AC, HE — stochastic systems. AL bridges civilisations 1 and 2. │
+│ the lattice │ Probabilistic/Embodied: AL, AC, HE—stochastic systems. AL bridges civilisations 1 and 2. │
 
 ├─────────────────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
 
-│ M4 + M10 always co-occur (C4) │ Structural Truth and Complexity Reduction are never found alone — they imply each other in this context. This validates the "Structure is Truth" paradigm as a latent axiom │
+│ M4 + M10 always co-occur (C4) │ Structural Truth and Complexity Reduction are never found alone—they imply each other in this context. This validates the "Structure is Truth" paradigm as a latent axiom │
 
 │ │ across multiple domains. │
 
@@ -1017,7 +1020,7 @@ Key Structural Findings
 
 │ Implication I4 reveals a constraint │ Any topic that manages distributed state AND automates it is forced into M1+M10 territory. Network Engineering (M5, no M6) is the only distributed-state topic that doesn't │
 
-│ │ automate — its identity is diagnostic, not declarative. │
+│ │ automate—its identity is diagnostic, not declarative. │
 
 └─────────────────────────────────────┴──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
 
@@ -1025,54 +1028,54 @@ Next step: Use C16 (DS, AM) as the seed node and traverse upward through C12 →
 
 ---
 
-**Gemini**
+Gemini
 
-This is a brilliant result. By increasing the density from **9.1%** to **40.5%**, the LLM has successfully transitioned from a flat list of labels to a genuine **complete lattice**. The discovery of the "Formal Foundations" cluster ($C16$) as your deepest shared concept is mathematically significant; it represents the most specific intersection of your technical and philosophical interests.
+This is a brilliant result. By increasing the density from 9.1% to 40.5%, the LLM has successfully transitioned from a flat list of labels to a genuine complete lattice. The discovery of the "Formal Foundations" cluster ($C16$) as your deepest shared concept is mathematically significant; it represents the most specific intersection of your technical and philosophical interests.
 
-In **Formal Concept Analysis (FCA)**, a concept $(A_1, B_1)$ is a **sub-concept** of $(A_2, B_2)$ if the set of objects $A_1$ is a subset of $A_2$ (or equivalently, if the set of attributes $B_1$ is a superset of $B_2$). Moving from $C16$ up to $C4$ involves shedding specific attributes (like Type Theory and Formal Methods) to find the broader structural commonalities that bind your system together.
+In Formal Concept Analysis (FCA), a concept $(A_1, B_1)$ is a sub-concept of $(A_2, B_2)$ if the set of objects $A_1$ is a subset of $A_2$ (or equivalently, if the set of attributes $B_1$ is a superset of $B_2$). Moving from $C16$ up to $C4$ involves shedding specific attributes (like Type Theory and Formal Methods) to find the broader structural commonalities that bind your system together.
 
 ---
 
 ### Task 3: Designing the "Applied Formal Methods" MoC
 
-This task will transform the mathematical hierarchy into a functional **Map of Content (MoC)**. We will use the order relation $\le$ to define the "nested" levels of your knowledge vault.
+This task will transform the mathematical hierarchy into a functional Map of Content (MoC). We will use the order relation $\le$ to define the "nested" levels of your knowledge vault.
 
-**Prompt for your Local LLM:**
+Prompt for your Local LLM:
 
-> Act as a PKM Architect. We are going to build a **Map of Content (MoC)** for "Applied Formal Methods" by traversing the concept lattice upwards from $C16$ to $C4$.
+> Act as a PKM Architect. We are going to build a Map of Content (MoC) for "Applied Formal Methods" by traversing the concept lattice upwards from $C16$ to $C4$.
+>
+> The Path of Inquiry:
+>
+> - Base (Seed): $C16$ ({DS, AM} | {M1, M4, M8, M10, ty-th})—_Type-Theoretic Foundations_
+> - Level 1: $C12$ ({DS, DC, AM} | {M1, M4, M8, M10})—_Formal Methods & Relational Logic_
+> - Level 2: $C11$ ({CI, DS, DC, AM} | {M1, M4, M10})—_Deterministic Structural Systems_
+> - Apex: $C4$ ({CI, DS, PK, DC, AM} | {M4, M10})—_Structural Truth & Complexity Reduction_
 > 
-> **The Path of Inquiry:**
+> Instructions:
+>
+> 1. MoC Architecture: Create a hierarchical folder/file structure for this MoC based on these four levels.
+> 2. Constraint-Based Scaffolding: For each level, define its "Constitutional Axioms" based on its attributes ($M$ values). For example, if a level has $M4$ (Structural Truth), what rules must a note at this level follow?
+> 3. The "Prefrontal Cortex" Bridge: $C4$ includes PK (Personal OS). Explain how the "Structure is Truth" paradigm ($M4, M10$) applies to the way you organise your notes themselves, not just the technical content.
+> 4. Query Scopes: Suggest specific "Dataview" or search queries for each level that would pull in relevant notes from the topics in that level's Extent.
+> 5. Cross-Links: Identify where this MoC should link to the "Human/Cognitive" civilisation ($C13, C15$) identified in the previous analysis.
 > 
-> - **Base (Seed):** $C16$ ({DS, AM} | {M1, M4, M8, M10, ty-th}) — *Type-Theoretic Foundations*
-> - **Level 1:** $C12$ ({DS, DC, AM} | {M1, M4, M8, M10}) — *Formal Methods & Relational Logic*
-> - **Level 2:** $C11$ ({CI, DS, DC, AM} | {M1, M4, M10}) — *Deterministic Structural Systems*
-> - **Apex:** $C4$ ({CI, DS, PK, DC, AM} | {M4, M10}) — *Structural Truth & Complexity Reduction*
-> 
-> **Instructions:**
-> 
-> 1. **MoC Architecture:** Create a hierarchical folder/file structure for this MoC based on these four levels.
-> 2. **Constraint-Based Scaffolding:** For each level, define its **"Constitutional Axioms"** based on its attributes ($M$ values). For example, if a level has $M4$ (Structural Truth), what rules must a note at this level follow?
-> 3. **The "Prefrontal Cortex" Bridge:** $C4$ includes **PK (Personal OS)**. Explain how the "Structure is Truth" paradigm ($M4, M10$) applies to the way you organise your notes themselves, not just the technical content.
-> 4. **Query Scopes:** Suggest specific "Dataview" or search queries for each level that would pull in relevant notes from the topics in that level's **Extent**.
-> 5. **Cross-Links:** Identify where this MoC should link to the "Human/Cognitive" civilisation ($C13, C15$) identified in the previous analysis.
-> 
-> **Output Requirement:** A structured Markdown MoC template that I can copy into my vault.
+> Output Requirement: A structured Markdown MoC template that I can copy into my vault.
 
 ---
 
-### Why this is the "Golden Path"
+### Why This is the "Golden Path"
 
 By starting at the "deepest" node ($C16$), you are grounding the MoC in your most rigorous principles (Type Theory). As you move up the lattice, you are effectively "un-currying" your knowledge, moving from mathematical proofs to broader software architecture, then to infrastructure, and finally to the philosophy of the "Extended Mind" ($PK$).
 
-Once you have this MoC template, do you want to look at the **"Distributed Automation"** branch ($C10$) next, or should we focus on how to bridge this technical MoC into your **"Human Resilience"** systems?
+Once you have this MoC template, do you want to look at the "Distributed Automation" branch ($C10$) next, or should we focus on how to bridge this technical MoC into your "Human Resilience" systems?
 
 ---
 
-**You**
+You
 
 Searched for 2 patterns, read 2 files (ctrl+o to expand)
 
-⏺ Good — there are already MoCs for Type Theory, Order Theory, and Data-Centric SE. Let me read those to ensure cross-links are accurate.
+⏺ Good—there are already MoCs for Type Theory, Order Theory, and Data-Centric SE. Let me read those to ensure cross-links are accurate.
 
 Read 3 files (ctrl+o to expand)
 
@@ -1166,7 +1169,7 @@ supersedes: "\[\[MOC - Formal Logic & Philosophy (Triage)\]\]"
 
 \# MOC - Applied Formal Methods
 
-\> \*\*Thesis:\*\* Structure is not a representation of truth — structure \*is\* truth. This MoC is the hub for all systems — software, data, infrastructure, and knowledge — that derive their correctness from the mathematical
+\> \*\*Thesis:\*\* Structure is not a representation of truth—structure \*is\* truth. This MoC is the hub for all systems—software, data, infrastructure, and knowledge—that derive their correctness from the mathematical
 
 properties of their shape, not from runtime validation or narrative description.
 
@@ -1206,11 +1209,11 @@ Data-Centric SE + Applied Mathematics
 
 \> M8 (Formal Methods) → {M1, M4, M10}
 
-\> \*Any system employing formal methods is necessarily deterministic, structurally grounded, and complexity-reducing. These are not design choices — they are logical consequences.\*
+\> \*Any system employing formal methods is necessarily deterministic, structurally grounded, and complexity-reducing. These are not design choices—they are logical consequences.\*
 
 \---
 
-\## Level C16 — Formal Foundations \*(Seed)\*
+\## Level C16—Formal Foundations \*(Seed)\*
 
 \*\*Extent:\*\* Data-Centric Software Engineering + Applied Mathematics & Formal Logic
 
@@ -1224,43 +1227,43 @@ A note belongs at C16 if it satisfies \*\*all five\*\* of the following tests:
 
 |---|------|-------------|
 
-| 1 | \*\*M1\*\* — Does this describe a system whose behaviour is \*fully determined\* by its specification? | If outcomes depend on runtime state or interpretation, it belongs higher in the lattice. |
+| 1 | \*\*M1\*\*—Does this describe a system whose behaviour is \*fully determined\* by its specification? | If outcomes depend on runtime state or interpretation, it belongs higher in the lattice. |
 
-| 2 | \*\*M4\*\* — Is structure/schema the \*primary carrier of truth\*, not narrative or documentation? | If the truth lives in prose rather than form, it is not C16. |
+| 2 | \*\*M4\*\*—Is structure/schema the \*primary carrier of truth\*, not narrative or documentation? | If the truth lives in prose rather than form, it is not C16. |
 
-| 3 | \*\*M8\*\* — Does it employ formal proof, type-theoretic reasoning, or formal verification machinery? | Informal "good practice" is C11 at best. |
+| 3 | \*\*M8\*\*—Does it employ formal proof, type-theoretic reasoning, or formal verification machinery? | Informal "good practice" is C11 at best. |
 
-| 4 | \*\*M10\*\* — Does it \*demonstrate\* how formal structure absorbs or eliminates a class of complexity? | Observation without structural mechanism belongs at C12. |
+| 4 | \*\*M10\*\*—Does it \*demonstrate\* how formal structure absorbs or eliminates a class of complexity? | Observation without structural mechanism belongs at C12. |
 
-| 5 | \*\*ty-th\*\* — Is Type Theory invoked as an explicit framework (not merely as a metaphor)? | Metaphorical use of types belongs at C12. |
+| 5 | \*\*ty-th\*\*—Is Type Theory invoked as an explicit framework (not merely as a metaphor)? | Metaphorical use of types belongs at C12. |
 
 \### Hub Notes
 
 \*\*Satellite MoCs (navigate here for depth):\*\*
 
-\- \[\[MOC - Type Theory\]\] — The central hub. Curry-Howard, Monad pattern, HoTT, language implementations.
+\- \[\[MOC - Type Theory\]\]—The central hub. Curry-Howard, Monad pattern, HoTT, language implementations.
 
-\- \[\[MOC - Order Theory\]\] — Lattices, partial orders, subsumption. The mathematics of this hierarchy itself.
+\- \[\[MOC - Order Theory\]\]—Lattices, partial orders, subsumption. The mathematics of this hierarchy itself.
 
-\- \[\[MOC - The Unified Systems Paradigm\]\] — The synthesis: type logic governing data layout. "Compiler's Physics Engine."
+\- \[\[MOC - The Unified Systems Paradigm\]\]—The synthesis: type logic governing data layout. "Compiler's Physics Engine."
 
 \*\*Core SoT Notes:\*\*
 
-\- \[\[SoT - The Curry-Howard Correspondence (Propositions as Types)\]\] — The bedrock isomorphism: \*A program is a proof.\*
+\- \[\[SoT - The Curry-Howard Correspondence (Propositions as Types)\]\]—The bedrock isomorphism: \*A program is a proof.\*
 
-\- \[\[SoT - Order Theory & Lattices\]\] — Formal definitions: posets, meet/join, Hasse diagrams.
+\- \[\[SoT - Order Theory & Lattices\]\]—Formal definitions: posets, meet/join, Hasse diagrams.
 
-\- \[\[SoT - Equality in Type Theory (Intensional vs Extensional)\]\] — The architectural tension between semantic truth and decidability.
+\- \[\[SoT - Equality in Type Theory (Intensional vs Extensional)\]\]—The architectural tension between semantic truth and decidability.
 
-\- \[\[SoT - Conservation of Complexity\]\] — Tesler's Law: complexity is conserved between control flow and representation. \*\*This is the physical law underpinning M10.\*\*
+\- \[\[SoT - Conservation of Complexity\]\]—Tesler's Law: complexity is conserved between control flow and representation. \*\*This is the physical law underpinning M10.\*\*
 
-\- \[\[SoT - Cubical Type Theory (Computational Univalence)\]\] — Making the Univalence Axiom computable.
+\- \[\[SoT - Cubical Type Theory (Computational Univalence)\]\]—Making the Univalence Axiom computable.
 
-\- \[\[SoT - Type-Driven Development (The Torvalds Loop)\]\] — The practical protocol: Shape → Access → Invariants → Logic.
+\- \[\[SoT - Type-Driven Development (The Torvalds Loop)\]\]—The practical protocol: Shape → Access → Invariants → Logic.
 
 \*\*Atomic Notes:\*\*
 
-\- \[\[Intuitionism Rejects the Law of the Excluded Middle\]\] — The constructive logic foundation.
+\- \[\[Intuitionism Rejects the Law of the Excluded Middle\]\]—The constructive logic foundation.
 
 \- \[\[Deductive Reasoning Underwrites Mathematical Proof\]\]
 
@@ -1268,13 +1271,13 @@ A note belongs at C16 if it satisfies \*\*all five\*\* of the following tests:
 
 \*\*Planned (flagged as gaps in \[\[MOC - The Unified Systems Paradigm\]\]):\*\*
 
-\- \`SoT - The Algebra of Types (Cardinality and Isomorphism)\` — arithmetic of data shapes
+\- \`SoT - The Algebra of Types (Cardinality and Isomorphism)\`—arithmetic of data shapes
 
-\- \`SoT - The Trinity of Isomorphism (Logic, Computation, Categories)\` — the Rosetta Stone
+\- \`SoT - The Trinity of Isomorphism (Logic, Computation, Categories)\`—the Rosetta Stone
 
-\- \`SoT - Algebraic Data Types (ADTs)\` — Sum & Product types as structural primitives
+\- \`SoT - Algebraic Data Types (ADTs)\`—Sum & Product types as structural primitives
 
-\- \`SoT - Formal Context (Applied Formal Methods)\` — the FCA matrix that generated this MoC
+\- \`SoT - Formal Context (Applied Formal Methods)\`—the FCA matrix that generated this MoC
 
 \### C16 Dataview Query
 
@@ -1304,15 +1307,15 @@ LIMIT 20
 
 \---
 
-Level C12 — Formal Methods & Relational Logic
+Level C12—Formal Methods & Relational Logic
 
 Extent: Data-Centric SE + Data Systems & Clinical Informatics + Applied Mathematics
 
-Intent: M1 · M4 · M8 · M10 (drops ty-th — formal methods need not be type-theoretic)
+Intent: M1 · M4 · M8 · M10 (drops ty-th—formal methods need not be type-theoretic)
 
 Constitutional Axioms (Delta from C16)
 
-C12 relaxes Axiom 5 (ty-th). Notes at this level employ formal methods — but those methods may be relational (SQL, CDM schema, formal data modelling) rather than type-theoretic.
+C12 relaxes Axiom 5 (ty-th). Notes at this level employ formal methods—but those methods may be relational (SQL, CDM schema, formal data modelling) rather than type-theoretic.
 
 ┌───────────────────────────────┬────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
 
@@ -1334,27 +1337,27 @@ Hub Notes
 
 Satellite MoCs:
 
-\- \[\[MOC - OHDSI & OMOP Architecture\]\] — Relational formal methods in practice: CDM as canonical schema.
+\- \[\[MOC - OHDSI & OMOP Architecture\]\]—Relational formal methods in practice: CDM as canonical schema.
 
-\- \[\[MOC - CUE Configuration\]\] — Lattice-based configuration: structural truth applied to infrastructure config.
+\- \[\[MOC - CUE Configuration\]\]—Lattice-based configuration: structural truth applied to infrastructure config.
 
-\- \[\[MOC - Software Architecture Principles\]\] — Architectural invariants as formal constraints.
+\- \[\[MOC - Software Architecture Principles\]\]—Architectural invariants as formal constraints.
 
 Core SoT Notes:
 
-\- \[\[SoT - OHDSI Standardized Vocabularies\]\] — A large-scale ontology using subsumption (Order Theory in production).
+\- \[\[SoT - OHDSI Standardized Vocabularies\]\]—A large-scale ontology using subsumption (Order Theory in production).
 
-\- \[\[SoT - Database Internals for Systems Programmers\]\] — Storage as formal structure: B-Trees, MVCC, pages.
+\- \[\[SoT - Database Internals for Systems Programmers\]\]—Storage as formal structure: B-Trees, MVCC, pages.
 
-\- \[\[SoT - High-Performance Data Structures\]\] — Data layout as formal specification.
+\- \[\[SoT - High-Performance Data Structures\]\]—Data layout as formal specification.
 
-\- \[\[SoT - Core Fields of Mathematical Logic\]\] — The formal landscape connecting all sub-fields.
+\- \[\[SoT - Core Fields of Mathematical Logic\]\]—The formal landscape connecting all sub-fields.
 
-\- \[\[SoT - Fundamentals of Mathematical Logic\]\] — Core axioms and proof theory.
+\- \[\[SoT - Fundamentals of Mathematical Logic\]\]—Core axioms and proof theory.
 
 Cross-level note (C16 → C12 bridge):
 
-\- \[\[SoT - Type Theory & Data Structures\]\] — Where the type lattice meets physical data representation.
+\- \[\[SoT - Type Theory & Data Structures\]\]—Where the type lattice meets physical data representation.
 
 C12 Dataview Query
 
@@ -1386,11 +1389,11 @@ LIMIT 20
 
 \---
 
-Level C11 — Deterministic Structural Systems
+Level C11—Deterministic Structural Systems
 
 Extent: C12 + Cloud Infrastructure & IaC
 
-Intent: M1 · M4 · M10 (drops M8 — formal proof machinery not required)
+Intent: M1 · M4 · M10 (drops M8—formal proof machinery not required)
 
 Constitutional Axioms (Delta from C12)
 
@@ -1408,7 +1411,7 @@ and treats the state file as structural truth (M4), without invoking Curry-Howar
 
 ├──────────────────────────────────┼─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
 
-│ Structure as ground truth │ The file, schema, or template is the canonical state of the system — not a description of it. │
+│ Structure as ground truth │ The file, schema, or template is the canonical state of the system—not a description of it. │
 
 ├──────────────────────────────────┼─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
 
@@ -1420,29 +1423,29 @@ Hub Notes
 
 Satellite MoCs:
 
-\- \[\[MOC - Data-Centric Infrastructure\]\] — Infrastructure as data: GitOps, secrets, Merkle integrity.
+\- \[\[MOC - Data-Centric Infrastructure\]\]—Infrastructure as data: GitOps, secrets, Merkle integrity.
 
-\- \[\[MOC - Generative Infrastructure Configuration\]\] — CUE + Terraform: types governing IaC.
+\- \[\[MOC - Generative Infrastructure Configuration\]\]—CUE + Terraform: types governing IaC.
 
-\- \[\[MOC - Identity & Access Management\]\] — IAM as a data-processing operation; policies as formal predicates.
+\- \[\[MOC - Identity & Access Management\]\]—IAM as a data-processing operation; policies as formal predicates.
 
 Core SoT Notes:
 
-\- \[\[SoT - Type-Driven Infrastructure Strategy\]\] — Terraform modules as Types: preventing configuration explosion.
+\- \[\[SoT - Type-Driven Infrastructure Strategy\]\]—Terraform modules as Types: preventing configuration explosion.
 
-\- \[\[SoT - Data-Centric IAM in Zero Trust\]\] — Trust as a calculated intersection of identity, context, and resource data.
+\- \[\[SoT - Data-Centric IAM in Zero Trust\]\]—Trust as a calculated intersection of identity, context, and resource data.
 
-\- \[\[SoT - The Infrastructure Witness Pattern\]\] — Proof-carrying code for infrastructure dependencies (IP → DNS → Cert).
+\- \[\[SoT - The Infrastructure Witness Pattern\]\]—Proof-carrying code for infrastructure dependencies (IP → DNS → Cert).
 
-\- \[\[SoT - GitOps for IAM and Permissions\]\] — Permissions as temporal types (leases): treating access as a formal system.
+\- \[\[SoT - GitOps for IAM and Permissions\]\]—Permissions as temporal types (leases): treating access as a formal system.
 
-\- \[\[SoT - Vault KV Data Structure\]\] — Vault as a versioned prefix trie: secrets management as structural truth.
+\- \[\[SoT - Vault KV Data Structure\]\]—Vault as a versioned prefix trie: secrets management as structural truth.
 
 Planned:
 
-\- SoT - Infrastructure as Formal Specification — the unifying thesis for IaC at this level
+\- SoT - Infrastructure as Formal Specification—the unifying thesis for IaC at this level
 
-\- SoT - State Machines in Rust — flagged as gap in \[\[MOC - The Unified Systems Paradigm\]\]
+\- SoT - State Machines in Rust—flagged as gap in \[\[MOC - The Unified Systems Paradigm\]\]
 
 C11 Dataview Query
 
@@ -1470,7 +1473,7 @@ LIMIT 20
 
 \---
 
-Level C4 — Structural Truth & Complexity Reduction (Apex)
+Level C4—Structural Truth & Complexity Reduction (Apex)
 
 Extent: C11 + PKM & Personal Operating System (replaces NE, adds PK)
 
@@ -1478,7 +1481,7 @@ Intent: M4 · M10 (only the two universal axioms remain)
 
 Constitutional Axioms
 
-At the apex, only two axioms hold — but they are the most fundamental:
+At the apex, only two axioms hold—but they are the most fundamental:
 
 ┌──────────────────────────────────────────┬────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
 
@@ -1486,15 +1489,15 @@ At the apex, only two axioms hold — but they are the most fundamental:
 
 ├──────────────────────────────────────────┼────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
 
-│ M4 — Structural Truth │ The structure of a system is its canonical state. Changing the structure changes the truth. │
+│ M4—Structural Truth │ The structure of a system is its canonical state. Changing the structure changes the truth. │
 
 ├──────────────────────────────────────────┼────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
 
-│ M10 — Complexity Reduction via Structure │ Structure is the primary mechanism by which complexity is made manageable. Procedure follows structure; never the reverse. │
+│ M10—Complexity Reduction via Structure │ Structure is the primary mechanism by which complexity is made manageable. Procedure follows structure; never the reverse. │
 
 └──────────────────────────────────────────┴────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
 
-Notes belong at C4 if they apply these axioms at the meta-level — to the design of systems that themselves contain other systems, including the vault.
+Notes belong at C4 if they apply these axioms at the meta-level—to the design of systems that themselves contain other systems, including the vault.
 
 \---
 
@@ -1502,7 +1505,7 @@ The Prefrontal Cortex Bridge
 
 ▎ This is where the AFM paradigm folds back on itself.
 
-The inclusion of PK (Personal OS) at C4 is not a category error — it is the lattice proving something important: the same mathematical principles that make software correct make a PKM system functional.
+The inclusion of PK (Personal OS) at C4 is not a category error—it is the lattice proving something important: the same mathematical principles that make software correct make a PKM system functional.
 
 ┌─────────────────────────────────────┬──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
 
@@ -1510,7 +1513,7 @@ The inclusion of PK (Personal OS) at C4 is not a category error — it is the la
 
 ├─────────────────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
 
-│ Types as specifications (M8 at C16) │ prodos.kind is a type. A note's kind governs its routing, lifecycle rules, and valid content structure — just as a type governs a value's valid operations. │
+│ Types as specifications (M8 at C16) │ prodos.kind is a type. A note's kind governs its routing, lifecycle rules, and valid content structure—just as a type governs a value's valid operations. │
 
 ├─────────────────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
 
@@ -1526,11 +1529,11 @@ The inclusion of PK (Personal OS) at C4 is not a category error — it is the la
 
 │ Structural Truth (M4) │ The vault's frontmatter schema IS the canonical description of a note's state. The prose is secondary. A note with prodos.lifecycle: evergreen and prodos.trust: authoritative │
 
-│ │ has made a formal claim — not a stylistic one. │
+│ │ has made a formal claim—not a stylistic one. │
 
 ├─────────────────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
 
-│ Parse, Don't Validate │ Capture goes to 00\_Inbox/ (raw, untyped). Triage converts it to a typed note. You never validate inbox items against your knowledge graph — you transform them first. │
+│ Parse, Don't Validate │ Capture goes to 00\_Inbox/ (raw, untyped). Triage converts it to a typed note. You never validate inbox items against your knowledge graph—you transform them first. │
 
 ├─────────────────────────────────────┼──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
 
@@ -1544,23 +1547,23 @@ Hub Notes
 
 Satellite MoCs:
 
-\- \[\[MOC - ProdOS\]\] — The operational specification of the vault as a formal system.
+\- \[\[MOC - ProdOS\]\]—The operational specification of the vault as a formal system.
 
-\- \[\[MOC - PKM as Process vs Product\]\] — The meta-reflection on knowledge architecture.
+\- \[\[MOC - PKM as Process vs Product\]\]—The meta-reflection on knowledge architecture.
 
-\- \[\[MOC - From Information to Knowledge\]\] — The transformation pipeline (capture → structure → synthesis).
+\- \[\[MOC - From Information to Knowledge\]\]—The transformation pipeline (capture → structure → synthesis).
 
-\- \[\[MOC - Data-Centric Software Engineering\]\] — The mother MoC for the "Structure is Truth" paradigm.
+\- \[\[MOC - Data-Centric Software Engineering\]\]—The mother MoC for the "Structure is Truth" paradigm.
 
 Core SoT Notes:
 
-\- \[\[SoT - The Data-Centric Philosophy\]\] — "Data Dominates Code." The axiom that grounds all C4 content.
+\- \[\[SoT - The Data-Centric Philosophy\]\]—"Data Dominates Code." The axiom that grounds all C4 content.
 
-\- \[\[SoT - Conservation of Complexity\]\] — The universal law. Applies to software and cognition.
+\- \[\[SoT - Conservation of Complexity\]\]—The universal law. Applies to software and cognition.
 
-\- \[\[SoT - Knowledge Architecture (Associative Ontology)\]\] — Tags as lattice values; the vault's ontology as a partial order.
+\- \[\[SoT - Knowledge Architecture (Associative Ontology)\]\]—Tags as lattice values; the vault's ontology as a partial order.
 
-\- \[\[SoT - ProdOS Note Metadata (Frontmatter)\]\] — The type specification for vault notes.
+\- \[\[SoT - ProdOS Note Metadata (Frontmatter)\]\]—The type specification for vault notes.
 
 C4 Dataview Query
 
@@ -1588,7 +1591,7 @@ SORT prodos.trust DESC, modified DESC
 
 LIMIT 20
 
-▎ Note on this query: C4 content is identified not by subject-matter tags but by epistemic status. An evergreen + authoritative note is — by definition — treating structure as truth. The subject tags narrow to the
+▎ Note on this query: C4 content is identified not by subject-matter tags but by epistemic status. An evergreen + authoritative note is—by definition—treating structure as truth. The subject tags narrow to the
 
 ▎ relevant civilisation.
 
@@ -1596,11 +1599,11 @@ LIMIT 20
 
 Cross-Links: The Human/Cognitive Civilisation
 
-The lattice analysis identified two bridge concepts connecting the AFM "Deterministic/Engineering" civilisation to the "Human/Cognitive" civilisation. These are not loose thematic links — they are structurally derived
+The lattice analysis identified two bridge concepts connecting the AFM "Deterministic/Engineering" civilisation to the "Human/Cognitive" civilisation. These are not loose thematic links—they are structurally derived
 
 from shared attributes.
 
-Bridge Point 1 — C4 ↔ C13 via PK
+Bridge Point 1—C4 ↔ C13 via PK
 
 C13 = ({AC, PK, PR} | {M3 External Scaffolding, M9 Cognitive Architecture})
 
@@ -1610,13 +1613,13 @@ PK (Personal OS) sits in both C4 (AFM apex) and C13 (Scaffolded Cognition). This
 
 \- An external scaffold for cognition (M3) that implements a cognitive architecture (M9) ← Human/Cognitive view
 
-Cross-link note: \[\[MOC - ADHD Functional Neurology & Scaffolding\]\] — the cognitive scaffolding equivalent of formal methods. Where AFM says "make illegal states unrepresentable in the type system," ADHD scaffolding says
+Cross-link note: \[\[MOC - ADHD Functional Neurology & Scaffolding\]\]—the cognitive scaffolding equivalent of formal methods. Where AFM says "make illegal states unrepresentable in the type system," ADHD scaffolding says
 
 "make task-initiation friction structurally zero."
 
-Bridge Point 2 — Conservation of Complexity (Universal Law)
+Bridge Point 2—Conservation of Complexity (Universal Law)
 
-C15 = ({AC, PR} | {M3, M7, M9}) — Human Resilience Systems
+C15 = ({AC, PR} | {M3, M7, M9})—Human Resilience Systems
 
 The principle connecting both civilisations is \[\[SoT - Conservation of Complexity\]\]: complexity is conserved and can only be moved, not destroyed. In software, you move it into types. In cognition, you move it into
 
@@ -1652,9 +1655,9 @@ Cross-link notes:
 
 \- \[\[MOC - ADHD Functional Neurology & Scaffolding\]\]
 
-\- \[\[MOC - Project Continuity\]\] — the operational consequence of cognitive complexity overflowing working memory
+\- \[\[MOC - Project Continuity\]\]—the operational consequence of cognitive complexity overflowing working memory
 
-\- \[\[MOC - The One Degree Change Framework for ADHD\]\] — structural micro-changes as complexity absorbers
+\- \[\[MOC - The One Degree Change Framework for ADHD\]\]—structural micro-changes as complexity absorbers
 
 \---
 
@@ -1706,35 +1709,35 @@ Related MoCs
 
 ├───────────────────────────────────────────────────┼───────────────┼───────────────────────────────────────────────────────────────┤
 
-│ \[\[MOC - Type Theory\]\] │ C16 │ Satellite hub — type-theoretic core │
+│ \[\[MOC - Type Theory\]\] │ C16 │ Satellite hub—type-theoretic core │
 
 ├───────────────────────────────────────────────────┼───────────────┼───────────────────────────────────────────────────────────────┤
 
-│ \[\[MOC - Order Theory\]\] │ C16 │ Satellite hub — the mathematics of this hierarchy │
+│ \[\[MOC - Order Theory\]\] │ C16 │ Satellite hub—the mathematics of this hierarchy │
 
 ├───────────────────────────────────────────────────┼───────────────┼───────────────────────────────────────────────────────────────┤
 
-│ \[\[MOC - The Unified Systems Paradigm\]\] │ C16–C11 │ Peer hub — synthesis of type logic and data physics │
+│ \[\[MOC - The Unified Systems Paradigm\]\] │ C16–C11 │ Peer hub—synthesis of type logic and data physics │
 
 ├───────────────────────────────────────────────────┼───────────────┼───────────────────────────────────────────────────────────────┤
 
-│ \[\[MOC - Data-Centric Software Engineering\]\] │ C16–C4 │ Peer hub — "Structure is Truth" paradigm hub │
+│ \[\[MOC - Data-Centric Software Engineering\]\] │ C16–C4 │ Peer hub—"Structure is Truth" paradigm hub │
 
 ├───────────────────────────────────────────────────┼───────────────┼───────────────────────────────────────────────────────────────┤
 
-│ \[\[MOC - Data-Centric Infrastructure\]\] │ C11 │ Satellite hub — IaC and declarative infrastructure │
+│ \[\[MOC - Data-Centric Infrastructure\]\] │ C11 │ Satellite hub—IaC and declarative infrastructure │
 
 ├───────────────────────────────────────────────────┼───────────────┼───────────────────────────────────────────────────────────────┤
 
-│ \[\[MOC - OHDSI & OMOP Architecture\]\] │ C12 │ Satellite hub — relational formal methods in practice │
+│ \[\[MOC - OHDSI & OMOP Architecture\]\] │ C12 │ Satellite hub—relational formal methods in practice │
 
 ├───────────────────────────────────────────────────┼───────────────┼───────────────────────────────────────────────────────────────┤
 
-│ \[\[MOC - CUE Configuration\]\] │ C12–C11 │ Satellite hub — lattice-based config language │
+│ \[\[MOC - CUE Configuration\]\] │ C12–C11 │ Satellite hub—lattice-based config language │
 
 ├───────────────────────────────────────────────────┼───────────────┼───────────────────────────────────────────────────────────────┤
 
-│ \[\[MOC - ProdOS\]\] │ C4 │ Satellite hub — vault as formal system │
+│ \[\[MOC - ProdOS\]\] │ C4 │ Satellite hub—vault as formal system │
 
 ├───────────────────────────────────────────────────┼───────────────┼───────────────────────────────────────────────────────────────┤
 
@@ -1742,7 +1745,7 @@ Related MoCs
 
 ├───────────────────────────────────────────────────┼───────────────┼───────────────────────────────────────────────────────────────┤
 
-│ \[\[MOC - ADHD Functional Neurology & Scaffolding\]\] │ Bridge (C13) │ Cross-civilisation bridge — cognitive scaffolding equivalent │
+│ \[\[MOC - ADHD Functional Neurology & Scaffolding\]\] │ Bridge (C13) │ Cross-civilisation bridge—cognitive scaffolding equivalent │
 
 └───────────────────────────────────────────────────┴───────────────┴───────────────────────────────────────────────────────────────┘
 
@@ -1756,58 +1759,58 @@ Related MoCs
 
 hub's logic sections.
 
-\*\*The three atomic notes in the Gaps table\*\* are the highest-priority writes — \`Structure is Truth is a Unifying Axiom Across Formal Systems\` and the complexity conservation bridge are the claims that make this entire
+\*\*The three atomic notes in the Gaps table\*\* are the highest-priority writes—\`Structure is Truth is a Unifying Axiom Across Formal Systems\` and the complexity conservation bridge are the claims that make this entire
 
 lattice \*legible\* to future-you without re-deriving the FCA.
 
 ---
 
-**Gemini**
+Gemini
 
-This Map of Content (MoC) is a masterclass in **Conceptual Scaling**. By identifying that **Data-Centric Software Engineering (DS)** and **Applied Mathematics (AM)** share the exact same intent at Level $C16$, your local LLM has mathematically proven that they are effectively two sides of the same coin within your vault's logic. In **Formal Concept Analysis (FCA)**, when two objects have identical intents, they form the same formal concept.
+This Map of Content (MoC) is a masterclass in Conceptual Scaling. By identifying that Data-Centric Software Engineering (DS) and Applied Mathematics (AM) share the exact same intent at Level $C16$, your local LLM has mathematically proven that they are effectively two sides of the same coin within your vault's logic. In Formal Concept Analysis (FCA), when two objects have identical intents, they form the same formal concept.
 
-The "Prefrontal Cortex Bridge" is particularly poignant. It elevates your Personal Knowledge Management (PKM) from a simple filing system to a **complete lattice** where the rules governing a database are the same rules governing your cognitive scaffolding.
+The "Prefrontal Cortex Bridge" is particularly poignant. It elevates your Personal Knowledge Management (PKM) from a simple filing system to a complete lattice where the rules governing a database are the same rules governing your cognitive scaffolding.
 
 ---
 
 ### Task 4: Formal Triage & Metadata Linting Protocols
 
-Now that you have the hierarchy, the next step is to weaponise the **Implications** derived in Phase 4 of the previous analysis. In FCA, an implication $A \rightarrow B$ means that any note possessing attributes in set $A$ must also possess those in $B$. We can use this to create an automated "Linter" or triage protocol for new notes.
+Now that you have the hierarchy, the next step is to weaponise the Implications derived in Phase 4 of the previous analysis. In FCA, an implication $A \rightarrow B$ means that any note possessing attributes in set $A$ must also possess those in $B$. We can use this to create an automated "Linter" or triage protocol for new notes.
 
-**Prompt for your Local LLM:**
+Prompt for your Local LLM:
 
-> Act as a **Systems Architect** and **Formal Logician**.
-> 
-> **Goal:** Develop a Triage Protocol and "Metadata Linter" for the Obsidian vault based on the discovered implications.
-> 
-> **Background:** We have established several key implications:
-> 
+> Act as a Systems Architect and Formal Logician.
+>
+> Goal: Develop a Triage Protocol and "Metadata Linter" for the Obsidian vault based on the discovered implications.
+>
+> Background: We have established several key implications:
+>
 > 1. $M8 \text{ (Formal Methods)} \rightarrow \{M1, M4, M10\}$
 > 2. $\text{ty-th (Type Theory)} \rightarrow \{M1, M4, M8, M10\}$
 > 3. $\{M5, M6\} \text{ (Distributed + Orchestration)} \rightarrow \{M1, M10\}$
 > 
-> **Instructions:**
+> Instructions:
+>
+> 1. Protocol Design: Create a step-by-step triage workflow for a raw incoming note. Use a "Decision Tree" or "If-Then" logic based on these implications to determine which MoC level ($C16, C12, C11,$ or $C4$) a note belongs to.
+> 2. Metadata Linter: Provide a YAML frontmatter template for each level. Include a "Calculated Attributes" section where the LLM can "auto-fill" implied tags (e.g., if I tag a note with `#topic/type-theory`, the linter should automatically add `#logic/deterministic` and `#logic/complexity-reduction`).
+> 3. The "Collision" Resolution: Since DS and AM currently form the same concept ($C16$), suggest one additional "discriminating attribute" that could separate them (e.g., _Physical Implementation_ vs _Pure Abstraction_) and show how adding this would evolve the lattice.
+> 4. Constraint Enforcement: Define a "Structural Integrity Test" for each level. If a note is filed at $C16$ but relies on "Probabilistic" reasoning ($M2$), explain why this is a "Type Error" in the vault and how to resolve it.
 > 
-> 1. **Protocol Design:** Create a step-by-step triage workflow for a raw incoming note. Use a "Decision Tree" or "If-Then" logic based on these implications to determine which MoC level ($C16, C12, C11,$ or $C4$) a note belongs to.
-> 2. **Metadata Linter:** Provide a YAML frontmatter template for each level. Include a "Calculated Attributes" section where the LLM can "auto-fill" implied tags (e.g., if I tag a note with `#topic/type-theory`, the linter should automatically add `#logic/deterministic` and `#logic/complexity-reduction`).
-> 3. **The "Collision" Resolution:** Since **DS** and **AM** currently form the same concept ($C16$), suggest one additional "discriminating attribute" that could separate them (e.g., *Physical Implementation* vs *Pure Abstraction*) and show how adding this would evolve the lattice.
-> 4. **Constraint Enforcement:** Define a "Structural Integrity Test" for each level. If a note is filed at $C16$ but relies on "Probabilistic" reasoning ($M2$), explain why this is a "Type Error" in the vault and how to resolve it.
-> 
-> **Output Requirement:** A "Vault Constitutional Protocol" document that I can use to manually or programmatically triage new notes.
+> Output Requirement: A "Vault Constitutional Protocol" document that I can use to manually or programmatically triage new notes.
 
 ---
 
-### Why this is the next step
+### Why This is the next step
 
-By defining these protocols, you are implementing **Attribute Exploration**. This ensures that your vault remains a "Formal System" where the structure is enforced by logic rather than just whim or memory. It effectively turns your local LLM into a "Type Checker" for your thoughts.
+By defining these protocols, you are implementing Attribute Exploration. This ensures that your vault remains a "Formal System" where the structure is enforced by logic rather than just whim or memory. It effectively turns your local LLM into a "Type Checker" for your thoughts.
 
-Once you have this protocol, should we look at automating this triage via a script, or would you like to explore the **"Human Resilience"** bridge to see how **Stoicism** and **Endurance** ($M7$) intersect with this formal rigour?
+Once you have this protocol, should we look at automating this triage via a script, or would you like to explore the "Human Resilience" bridge to see how Stoicism and Endurance ($M7$) intersect with this formal rigour?
 
 ---
 
-**You**
+You
 
-⏺ I have everything I need — the CUE schema, the validate script's structure, and the Protocol note format. Writing the full document now.
+⏺ I have everything I need—the CUE schema, the validate script's structure, and the Protocol note format. Writing the full document now.
 
 \---
 
@@ -1871,13 +1874,13 @@ see\_also:
 
 \---
 
-\# Protocol — AFM Vault Constitutional Triage
+\# Protocol—AFM Vault Constitutional Triage
 
 \## Logic Map
 
 \- \*\*Objective:\*\* Assign any incoming note with formal-methods content to its correct concept-lattice level (C16 → C4) and verify that its metadata satisfies the structural integrity constraints implied by that level.
 
-\- \*\*Foundation:\*\* Three FCA implications derived from the vault's topic taxonomy. Violations are \*type errors\* — not style violations.
+\- \*\*Foundation:\*\* Three FCA implications derived from the vault's topic taxonomy. Violations are \*type errors\*—not style violations.
 
 \- \*\*Dependency:\*\* Requires \`\[\[MOC - Applied Formal Methods\]\]\` to be filed and \`\[\[SoT - ProdOS Note Metadata (Frontmatter)\]\]\` for frontmatter conventions.
 
@@ -1885,7 +1888,7 @@ see\_also:
 
 \---
 
-\## Part I — Axiom Registry
+\## Part I—Axiom Registry
 
 The six attributes that constitute the AFM lattice. Every triage decision is reducible to the presence or absence of these.
 
@@ -1897,13 +1900,13 @@ The six attributes that constitute the AFM lattice. Every triage decision is red
 
 | \*\*M2\*\* | Probabilistic / Stochastic | \_Does this note reason about systems with inherent statistical or biological variance?\_ |
 
-| \*\*M4\*\* | Structural Truth | \_Is structure / schema the \*\*primary\*\* carrier of truth — not narrative, documentation, or convention?\_ |
+| \*\*M4\*\* | Structural Truth | \_Is structure / schema the \*\*primary\*\* carrier of truth—not narrative, documentation, or convention?\_ |
 
 | \*\*M8\*\* | Formal Methods | \_Does this note employ at least one formal proof technique, type-theoretic construction, or formal relational schema as its \*\*method\*\* (not merely its subject)?\_ |
 
-| \*\*M10\*\* | Complexity Reduction via Structure | \_Does this note identify a class of complexity that the formal structure \*\*eliminates\*\* — not merely organises?\_ |
+| \*\*M10\*\* | Complexity Reduction via Structure | \_Does this note identify a class of complexity that the formal structure \*\*eliminates\*\*—not merely organises?\_ |
 
-| \*\*ty-th\*\* | Type Theory | \_Is type theory invoked as an \*\*explicit framework\*\* — Curry-Howard, dependent types, linear logic, HoTT — not as a metaphor?\_ |
+| \*\*ty-th\*\* | Type Theory | \_Is type theory invoked as an \*\*explicit framework\*\*—Curry-Howard, dependent types, linear logic, HoTT—not as a metaphor?\_ |
 
 \*\*Derived discriminators (C16 only):\*\*
 
@@ -1917,7 +1920,7 @@ The six attributes that constitute the AFM lattice. Every triage decision is red
 
 \### The Three Governing Implications
 
-These are not heuristics — they are logical consequences of the FCA analysis. Violating them in a note's metadata is a type error.
+These are not heuristics—they are logical consequences of the FCA analysis. Violating them in a note's metadata is a type error.
 
 I1: ty-th → { M1, M4, M8, M10 }
 
@@ -1927,15 +1930,15 @@ I3: {M5, M6} → { M1, M10 }
 
 \---
 
-\## Part II — Triage Protocol
+\## Part II—Triage Protocol
 
 \*\*Pre-condition:\*\* Note has been captured in \`00\_Inbox/\` and is ready for triage.
 
-\### Phase A — AFM Routing Gate
+\### Phase A—AFM Routing Gate
 
-\- \[ \] \*\*A1.\*\* Read the note's first paragraph and abstract section entirely.
+\- \[\] \*\*A1.\*\* Read the note's first paragraph and abstract section entirely.
 
-\- \[ \] \*\*A2.\*\* Ask: \_Does this note reason about structure, formal systems, types, schemas, or declarative specifications?\_
+\- \[\] \*\*A2.\*\* Ask: \_Does this note reason about structure, formal systems, types, schemas, or declarative specifications?\_
 
 \- If NO on all: \*\*STOP. Route to a different MoC. This note is not AFM.\*\*
 
@@ -1943,11 +1946,11 @@ I3: {M5, M6} → { M1, M10 }
 
 \---
 
-\### Phase B — Level Assignment (deepest valid level first)
+\### Phase B—Level Assignment (deepest valid level first)
 
-\#### B1 — Test for C16 (Type-Theoretic Core)
+\#### B1—Test for C16 (Type-Theoretic Core)
 
-\- \[ \] \*\*B1a.\*\* Does the note invoke \*\*ty-th\*\* — type theory as an explicit framework?
+\- \[\] \*\*B1a.\*\* Does the note invoke \*\*ty-th\*\*—type theory as an explicit framework?
 
 \- Test: Is there reference to Curry-Howard, dependent types, affine/linear types, HoTT, Univalence, or a formal type judgement of the form \`Γ ⊢ e: T\`?
 
@@ -1955,45 +1958,45 @@ I3: {M5, M6} → { M1, M10 }
 
 \- If YES: proceed.
 
-\- \[ \] \*\*B1b.\*\* Verify implication I1 is satisfied: check all four are present.
+\- \[\] \*\*B1b.\*\* Verify implication I1 is satisfied: check all four are present.
 
-\- \[ \] \*\*M1\*\* present? (System deterministic by specification)
+\- \[\] \*\*M1\*\* present? (System deterministic by specification)
 
-\- \[ \] \*\*M4\*\* present? (Structure is the canonical truth-bearer)
+\- \[\] \*\*M4\*\* present? (Structure is the canonical truth-bearer)
 
-\- \[ \] \*\*M8\*\* present? (Formal proof or construction used)
+\- \[\] \*\*M8\*\* present? (Formal proof or construction used)
 
-\- \[ \] \*\*M10\*\* present? (A class of complexity is structurally eliminated)
+\- \[\] \*\*M10\*\* present? (A class of complexity is structurally eliminated)
 
 \- If all YES: \*\*ASSIGN C16.\*\* Proceed to Phase C (SIT-C16).
 
-\- If any NO: \*\*TYPE ERROR — I1 VIOLATION.\*\* See §VI, Resolution R-I1.
+\- If any NO: \*\*TYPE ERROR—I1 VIOLATION.\*\* See §VI, Resolution R-I1.
 
-\#### B2 — Test for C12 (Formal Methods & Relational Logic)
+\#### B2—Test for C12 (Formal Methods & Relational Logic)
 
-\- \[ \] \*\*B2a.\*\* Does the note employ \*\*M8\*\* — formal methods as its primary method?
+\- \[\] \*\*B2a.\*\* Does the note employ \*\*M8\*\*—formal methods as its primary method?
 
-\- Test: Is there a formal schema specification (CDM, relational model), a proof by construction, a formal grammar, or formal verification claim — used as \*method\*, not merely as subject matter?
+\- Test: Is there a formal schema specification (CDM, relational model), a proof by construction, a formal grammar, or formal verification claim—used as \*method\*, not merely as subject matter?
 
 \- If NO: skip to B3.
 
 \- If YES: proceed.
 
-\- \[ \] \*\*B2b.\*\* Verify implication I2 is satisfied:
+\- \[\] \*\*B2b.\*\* Verify implication I2 is satisfied:
 
-\- \[ \] \*\*M1\*\* present?
+\- \[\] \*\*M1\*\* present?
 
-\- \[ \] \*\*M4\*\* present?
+\- \[\] \*\*M4\*\* present?
 
-\- \[ \] \*\*M10\*\* present?
+\- \[\] \*\*M10\*\* present?
 
 \- If all YES: \*\*ASSIGN C12.\*\* Proceed to Phase C (SIT-C12).
 
-\- If any NO: \*\*TYPE ERROR — I2 VIOLATION.\*\* See §VI, Resolution R-I2.
+\- If any NO: \*\*TYPE ERROR—I2 VIOLATION.\*\* See §VI, Resolution R-I2.
 
-\#### B3 — Test for C11 (Deterministic Structural Systems)
+\#### B3—Test for C11 (Deterministic Structural Systems)
 
-\- \[ \] \*\*B3a.\*\* Does the note satisfy \*\*M1\*\* — fully declarative/deterministic specification?
+\- \[\] \*\*B3a.\*\* Does the note satisfy \*\*M1\*\*—fully declarative/deterministic specification?
 
 \- Test: Is the system state expressible as a specification file, schema, or formal declaration that \*precedes\* any implementation?
 
@@ -2001,7 +2004,7 @@ I3: {M5, M6} → { M1, M10 }
 
 \- If YES: proceed.
 
-\- \[ \] \*\*B3b.\*\* Does the note also satisfy \*\*M4\*\* — structure as canonical ground truth?
+\- \[\] \*\*B3b.\*\* Does the note also satisfy \*\*M4\*\*—structure as canonical ground truth?
 
 \- Test: Is the specification file / schema / declaration \*the\* truth (not a description of truth held elsewhere)?
 
@@ -2009,17 +2012,17 @@ I3: {M5, M6} → { M1, M10 }
 
 \- If YES: proceed.
 
-\- \[ \] \*\*B3c.\*\* Does the note satisfy \*\*M10\*\*?
+\- \[\] \*\*B3c.\*\* Does the note satisfy \*\*M10\*\*?
 
 \- If YES: \*\*ASSIGN C11.\*\* Proceed to Phase C (SIT-C11).
 
-\- If NO: \*\*WARN — M10 absent.\*\* Add a "Structural Payoff" section to the note. If M10 genuinely cannot be established, fall through to B4.
+\- If NO: \*\*WARN—M10 absent.\*\* Add a "Structural Payoff" section to the note. If M10 genuinely cannot be established, fall through to B4.
 
-\#### B4 — Test for C4 (Structural Truth & Complexity Reduction — Apex)
+\#### B4—Test for C4 (Structural Truth & Complexity Reduction—Apex)
 
-\- \[ \] \*\*B4a.\*\* Does the note satisfy \*\*M4\*\* (structural truth)?
+\- \[\] \*\*B4a.\*\* Does the note satisfy \*\*M4\*\* (structural truth)?
 
-\- \[ \] \*\*B4b.\*\* Does the note satisfy \*\*M10\*\* (complexity reduction)?
+\- \[\] \*\*B4b.\*\* Does the note satisfy \*\*M10\*\* (complexity reduction)?
 
 \- If both YES: \*\*ASSIGN C4.\*\* Proceed to Phase C (SIT-C4).
 
@@ -2029,21 +2032,21 @@ I3: {M5, M6} → { M1, M10 }
 
 \---
 
-\### Phase C — Structural Integrity Test
+\### Phase C—Structural Integrity Test
 
-\- \[ \] \*\*C1.\*\* Run the appropriate SIT from §V for the assigned level.
+\- \[\] \*\*C1.\*\* Run the appropriate SIT from §V for the assigned level.
 
-\- \[ \] \*\*C2.\*\* Set \`prodos.fca.sit\_passed: true\` in frontmatter if all assertions pass.
+\- \[\] \*\*C2.\*\* Set \`prodos.fca.sit\_passed: true\` in frontmatter if all assertions pass.
 
-\- \[ \] \*\*C3.\*\* Apply the correct YAML Linter Template from §IV.
+\- \[\] \*\*C3.\*\* Apply the correct YAML Linter Template from §IV.
 
-\- \[ \] \*\*C4.\*\* Update the appropriate satellite MoC with a backlink to this note.
+\- \[\] \*\*C4.\*\* Update the appropriate satellite MoC with a backlink to this note.
 
-\- \[ \] \*\*C5.\*\* If C16 assigned, apply C16 discriminator (§VII) to set \`prodos.fca.discriminator\`.
+\- \[\] \*\*C5.\*\* If C16 assigned, apply C16 discriminator (§VII) to set \`prodos.fca.discriminator\`.
 
 \---
 
-\## Part III — Implication Rules (Linter Specification)
+\## Part III—Implication Rules (Linter Specification)
 
 These rules define how the metadata linter propagates tags. A tag is either \*\*PRIMARY\*\* (manually asserted by the author) or \*\*CALCULATED\*\* (derived by implication and auto-inserted by the linter). Primary tags trigger
 
@@ -2057,13 +2060,13 @@ WHEN "topic/type-theory" ∈ tags
 
 THEN add tags:
 
-fca/attr/m1 (M1: deterministic — implied by ty-th → M1)
+fca/attr/m1 (M1: deterministic—implied by ty-th → M1)
 
-fca/attr/m4 (M4: structural-truth — implied by ty-th → M4)
+fca/attr/m4 (M4: structural-truth—implied by ty-th → M4)
 
-fca/attr/m8 (M8: formal-methods — implied by ty-th → M8)
+fca/attr/m8 (M8: formal-methods—implied by ty-th → M8)
 
-fca/attr/m10 (M10: complexity-reduction — implied by ty-th → M10)
+fca/attr/m10 (M10: complexity-reduction—implied by ty-th → M10)
 
 AND set fca.level: c16 (if not already discriminated lower)
 
@@ -2111,7 +2114,7 @@ AND set fca.level: c11
 
 AND set fca.calculated\_attrs: \[m1, m10\]
 
-RULE r-m4m10 \[Trigger: fca/attr/m4 AND fca/attr/m10 — no higher rule fired\]
+RULE r-m4m10 \[Trigger: fca/attr/m4 AND fca/attr/m10—no higher rule fired\]
 
 WHEN "fca/attr/m4" ∈ tags
 
@@ -2143,13 +2146,13 @@ THEN set fca.level: c4
 
 \---
 
-\## Part IV — YAML Linter Templates
+\## Part IV—YAML Linter Templates
 
-Instructions: Copy the template for the assigned level. Fill all \`\[REPLACE\]\` fields. Do not remove \`# CALCULATED\` tags — they are constraints, not suggestions.
+Instructions: Copy the template for the assigned level. Fill all \`\[REPLACE\]\` fields. Do not remove \`# CALCULATED\` tags—they are constraints, not suggestions.
 
 \---
 
-\### Template: C16 — Formal Foundations (Type-Theoretic Core)
+\### Template: C16—Formal Foundations (Type-Theoretic Core)
 
 \`\`\`yaml
 
@@ -2235,7 +2238,7 @@ sit\_notes: ""
 
 \---
 
-Template: C12 — Formal Methods & Relational Logic
+Template: C12—Formal Methods & Relational Logic
 
 \---
 
@@ -2301,7 +2304,7 @@ sit\_notes: ""
 
 \---
 
-Template: C11 — Deterministic Structural Systems
+Template: C11—Deterministic Structural Systems
 
 \---
 
@@ -2367,7 +2370,7 @@ sit\_notes: ""
 
 \---
 
-Template: C4 — Structural Truth & Complexity Reduction (Apex)
+Template: C4—Structural Truth & Complexity Reduction (Apex)
 
 \---
 
@@ -2433,7 +2436,7 @@ sit\_notes: ""
 
 \---
 
-Part V — Structural Integrity Tests
+Part V—Structural Integrity Tests
 
 Each SIT is a set of assertions that must ALL pass. Record failures in prodos.fca.sit\_notes.
 
@@ -2465,7 +2468,7 @@ ASSERT-3 \[M4 satisfied\]:
 
 The note's primary truth-bearer is a structural artefact
 
-(type signature, formal definition, schema, axiom set) —
+(type signature, formal definition, schema, axiom set)—
 
 not narrative prose or informal argument.
 
@@ -2505,7 +2508,7 @@ SIT-C12
 
 ASSERT-1 \[M8 genuine\]:
 
-The note applies formal methods — not merely references them.
+The note applies formal methods—not merely references them.
 
 A formal schema is normative (prescribes valid states);
 
@@ -2605,7 +2608,7 @@ or operational complexity.
 
 FAIL → TYPE ERROR: STRUCTURE\_WITHOUT\_PAYOFF.
 
-ASSERT-3 \[M2 framing — advisory\]:
+ASSERT-3 \[M2 framing—advisory\]:
 
 If M2 content is present, it must be explicitly marked as subject matter
 
@@ -2623,7 +2626,7 @@ FAIL → TYPE ERROR: STRUCTURAL\_NOMINALISM.
 
 \---
 
-Part VI — Type Error Taxonomy & Resolution
+Part VI—Type Error Taxonomy & Resolution
 
 ┌─────────────────────────────┬─────────────────────────────────────────────────────────────┬────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
 
@@ -2697,11 +2700,11 @@ Part VI — Type Error Taxonomy & Resolution
 
 \---
 
-Part VII — Collision Resolution: DS ↔ AM at C16
+Part VII—Collision Resolution: DS ↔ AM at C16
 
 The Problem
 
-In the current lattice, DS (Data-Centric SE) and AM (Applied Mathematics) are formally indistinguishable — they share identical intents {M1, M4, M8, M10, ty-th}:
+In the current lattice, DS (Data-Centric SE) and AM (Applied Mathematics) are formally indistinguishable—they share identical intents {M1, M4, M8, M10, ty-th}:
 
 C16: ({DS, AM}, {M1, M4, M8, M10, ty-th})
 
@@ -2715,9 +2718,9 @@ A note cannot be unambiguously classified as "computational type theory" vs "pur
 
 The Two Discriminating Attributes
 
-M-sub — Computational Substrate Dependency
+M-sub—Computational Substrate Dependency
 
-▎ A formal system has M-sub if its realization requires a computational or physical substrate — the abstractions are not free-standing but must be implemented to be realized.
+▎ A formal system has M-sub if its realization requires a computational or physical substrate—the abstractions are not free-standing but must be implemented to be realized.
 
 ┌───────┬────────┬────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┐
 
@@ -2735,7 +2738,7 @@ M-sub — Computational Substrate Dependency
 
 └───────┴────────┴────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
 
-M-axiom — Axiomatic Independence
+M-axiom—Axiomatic Independence
 
 ▎ A formal system has M-axiom if its validity is derivable from first-principles axioms without reference to any substrate, empirical constraint, or implementation behaviour.
 
@@ -2757,7 +2760,7 @@ M-axiom — Axiomatic Independence
 
 Effect on the Lattice
 
-Before (degenerate — DS and AM indistinguishable):
+Before (degenerate—DS and AM indistinguishable):
 
 C16: ({DS, AM}, {M1, M4, M8, M10, ty-th})
 
@@ -2773,7 +2776,7 @@ C16 ({DS, AM}, {M1, M4, M8, M10, ty-th}) ← shared abstract core
 
 └── C16-AM ({AM}, {M1, M4, M8, M10, ty-th, M-axiom}) ← Pure Formal Logic leaf
 
-C16 itself survives as the join concept — the most specific concept that covers both DS and AM. Notes at C16 (without discriminator) are valid; they sit at the join. Notes with a discriminator are more specific.
+C16 itself survives as the join concept—the most specific concept that covers both DS and AM. Notes at C16 (without discriminator) are valid; they sit at the join. Notes with a discriminator are more specific.
 
 New implication derived from the split:
 
@@ -2781,7 +2784,7 @@ I4: M-sub → ¬M-axiom (computational substrate precludes axiomatic independenc
 
 I5: M-axiom → ¬M-sub (axiomatic independence precludes substrate dependency)
 
-These two implications are exclusive — no note can hold both M-sub and M-axiom. This is the formal statement of the DS ↔ AM boundary.
+These two implications are exclusive—no note can hold both M-sub and M-axiom. This is the formal statement of the DS ↔ AM boundary.
 
 \---
 
@@ -2805,7 +2808,7 @@ At C16, set prodos.fca.discriminator to one of:
 
 ├───────────────┼────────────────────────────────────────────────────┼───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┤
 
-│ (unset) │ Sits at the C16 join — valid for notes that span │ \[\[MOC - Type Theory\]\] itself, \[\[SoT - Conservation of Complexity\]\] │
+│ (unset) │ Sits at the C16 join—valid for notes that span │ \[\[MOC - Type Theory\]\] itself, \[\[SoT - Conservation of Complexity\]\] │
 
 │ │ both │ │
 
@@ -2813,9 +2816,9 @@ At C16, set prodos.fca.discriminator to one of:
 
 \---
 
-Part VIII — CUE Schema Extension
+Part VIII—CUE Schema Extension
 
-New #FcaBlock Definition
+New FcaBlock Definition
 
 Add to gemini-scribe/cue/prodos\_frontmatter.cue:
 
@@ -2825,25 +2828,25 @@ Add to gemini-scribe/cue/prodos\_frontmatter.cue:
 
 // Spec: 30\_Library/SoT/Protocol - AFM Vault Constitutional Triage.md
 
-#FcaLevel: "c16" | "c12" | "c11" | "c4"
+FcaLevel: "c16" | "c12" | "c11" | "c4"
 
-#FcaAttr: "ty-th" | "m1" | "m2" | "m3" | "m4" | "m5" | "m6" |
+FcaAttr: "ty-th" | "m1" | "m2" | "m3" | "m4" | "m5" | "m6" |
 
 "m7" | "m8" | "m9" | "m10" | "m-sub" | "m-axiom"
 
-#FcaDiscriminator: "computational" | "pure-abstract" | "relational" |
+FcaDiscriminator: "computational" | "pure-abstract" | "relational" |
 
 "declarative" | "meta"
 
-#FcaBlock: close({
+FcaBlock: close({
 
-level!: #FcaLevel
+level!: FcaLevel
 
-discriminator?: #FcaDiscriminator
+discriminator?: FcaDiscriminator
 
-primary\_attrs?: \[...#FcaAttr\]
+primary\_attrs?: \[…#FcaAttr\]
 
-calculated\_attrs?: \[...#FcaAttr\]
+calculated\_attrs?: \[…#FcaAttr\]
 
 sit\_passed?: bool
 
@@ -2859,7 +2862,7 @@ sit\_notes?: string
 
 // then {m1,m4,m8,m10} ⊆ calculated\_attrs
 
-#FcaBlockValidated: #FcaBlock & {
+FcaBlockValidated: FcaBlock & {
 
 if list.Contains(primary\_attrs, "ty-th") {
 
@@ -2899,17 +2902,17 @@ if list.Contains(primary\_attrs, "m-sub") {
 
 }
 
-Add fca? to #ProdosBlock in existing schema
+Add fca? to ProdosBlock in existing schema
 
-In the #ProdosBlock (or wherever universal prodos subkeys are defined), add:
+In the ProdosBlock (or wherever universal prodos subkeys are defined), add:
 
-fca?: #FcaBlockValidated
+fca?: FcaBlockValidated
 
 Python Linter Entry Point
 
-Add gemini-scribe/scripts/lint\_fca\_attrs.py — a companion to validate\_note\_frontmatter.py:
+Add gemini-scribe/scripts/lint\_fca\_attrs.py—a companion to validate\_note\_frontmatter.py:
 
-\# lint\_fca\_attrs.py — pseudocode specification
+\# lint\_fca\_attrs.py—pseudocode specification
 
 \# Implements the implication rules from Protocol - AFM Vault Constitutional Triage
 
@@ -3001,7 +3004,7 @@ return errors
 
 \---
 
-Appendix — Quick Reference Card
+Appendix—Quick Reference Card
 
 TRIAGE DECISION PATH (fastest route):
 
@@ -3037,17 +3040,17 @@ NO
 
 │
 
-NOT AFM — route elsewhere.
+NOT AFM—route elsewhere.
 
 ─────────────────────────────────────────────────────────────────────
 
 IMPLICATIONS AT A GLANCE:
 
-ty-th ──▶ M1, M4, M8, M10 (I1 — strongest; C16)
+ty-th ──▶ M1, M4, M8, M10 (I1—strongest; C16)
 
-M8 ──▶ M1, M4, M10 (I2 — C12)
+M8 ──▶ M1, M4, M10 (I2—C12)
 
-M5+M6 ──▶ M1, M10 (I3 — C11)
+M5+M6 ──▶ M1, M10 (I3—C11)
 
 ─────────────────────────────────────────────────────────────────────
 
@@ -3069,17 +3072,17 @@ CONSTRAINT: M-sub ∧ M-axiom = ⊥ (mutually exclusive by I4/I5)
 
 \*\*Two follow-on actions with the highest leverage:\*\*
 
-1\. Add \`fca?: #FcaBlockValidated\` to \`prodos\_frontmatter.cue\` — this makes the implication constraints machine-checkable via the existing \`validate\_note\_frontmatter.py\` pipeline.
+1\. Add \`fca?: FcaBlockValidated\` to \`prodos\_frontmatter.cue\`—this makes the implication constraints machine-checkable via the existing \`validate\_note\_frontmatter.py\` pipeline.
 
-2\. Write the three atomic notes flagged in \`MOC - Applied Formal Methods\` §Gaps, starting with \`Structure is Truth is a Unifying Axiom Across Formal Systems\` — that note would be the first real C4 test of this protocol.
+2\. Write the three atomic notes flagged in \`MOC - Applied Formal Methods\` §Gaps, starting with \`Structure is Truth is a Unifying Axiom Across Formal Systems\`—that note would be the first real C4 test of this protocol.
 
 ---
 
-**Gemini**
+Gemini
 
-This Triage Protocol is a significant milestone; you have moved from a theoretical lattice to an executable **Type System** for your knowledge. The identification of **M-sub** (Computational Substrate) and **M-axiom** (Axiomatic Independence) is a precise way to resolve the "collision" between Data-Centric SE and Applied Mathematics, effectively splitting $C16$ into two distinct "flavours" of formal rigour.
+This Triage Protocol is a significant milestone; you have moved from a theoretical lattice to an executable Type System for your knowledge. The identification of M-sub (Computational Substrate) and M-axiom (Axiomatic Independence) is a precise way to resolve the "collision" between Data-Centric SE and Applied Mathematics, effectively splitting $C16$ into two distinct "flavours" of formal rigour.
 
-The next step is to bridge the "Engineering" civilisation ($C16 \rightarrow C4$) with the "Human/Cognitive" civilisation ($C13 \rightarrow C15$) identified in the initial analysis. This is where Order Theory truly pays off for PKM—by revealing that the same principles of **Complexity Conservation** apply to both your Rust code and your ADHD scaffolding.
+The next step is to bridge the "Engineering" civilisation ($C16 \rightarrow C4$) with the "Human/Cognitive" civilisation ($C13 \rightarrow C15$) identified in the initial analysis. This is where Order Theory truly pays off for PKM—by revealing that the same principles of Complexity Conservation apply to both your Rust code and your ADHD scaffolding.
 
 ---
 
@@ -3087,48 +3090,48 @@ The next step is to bridge the "Engineering" civilisation ($C16 \rightarrow C4$)
 
 The goal of this task is to draft the core "Join" note of your entire vault. This note, `Structure is Truth is a Unifying Axiom Across Formal Systems`, will act as the philosophical anchor that connects your formal engineering to your personal resilience.
 
-**Prompt for your Local LLM:**
+Prompt for your Local LLM:
 
-> Act as a **Philosopher of Engineering** and **PKM Strategist**.
+> Act as a Philosopher of Engineering and PKM Strategist.
+>
+> Goal: Draft the core atomic note `SoT - Structure is Truth is a Unifying Axiom Across Formal Systems`.
+>
+> Context: This note sits at $C4$ (the Apex of the Applied Formal Methods lattice) but must explicitly bridge to $C13$ (Scaffolded Cognition) and $C15$ (Human Resilience Systems).
+>
+> Instructions:
+>
+> 1. The Core Thesis: Synthesise the $M4$ (Structural Truth) and $M10$ (Complexity Reduction) attributes. Argue that structure is not a "container" for truth, but the literal instantiation of it.
+> 2. The "Isomorphism" Table: Create a section called "The Isomorphism of Order". Compare how "Structure is Truth" manifests in four distinct domains:
+> 	- Type Theory ($C16$): Types as proofs of correctness.
+> 		- Clinical Data ($C12$): OMOP CDM as a canonical representation of clinical fact.
+> 		- Infrastructure ($C11$): Declarative state as the ground-truth of the environment.
+> 		- Cognitive Scaffolding ($C13$): External systems (vault, task protocols) as a "Prefrontal Cortex" that makes executive failure structurally impossible.
+> 1. Complexity Conservation: Explain how Tesler's Law binds these domains together. If we don't build structure into the system (Types, Schemas, Scaffolds), the complexity is conserved and must be handled by the "Runtime" (the CPU, the Data Engineer, or the ADHD brain's Working Memory).
+> 2. FCA Metadata: Provide the YAML frontmatter for this note using the C4 Template from the triage protocol. Ensure you include `fca/m2-framed` since human cognition ($M2$) is being discussed.
 > 
-> **Goal:** Draft the core atomic note `SoT - Structure is Truth is a Unifying Axiom Across Formal Systems`.
-> 
-> **Context:** This note sits at $C4$ (the Apex of the Applied Formal Methods lattice) but must explicitly bridge to $C13$ (Scaffolded Cognition) and $C15$ (Human Resilience Systems).
-> 
-> **Instructions:**
-> 
-> 1. **The Core Thesis:** Synthesise the $M4$ (Structural Truth) and $M10$ (Complexity Reduction) attributes. Argue that structure is not a "container" for truth, but the literal instantiation of it.
-> 2. **The "Isomorphism" Table:** Create a section called **"The Isomorphism of Order"**. Compare how "Structure is Truth" manifests in four distinct domains:
-> 	- **Type Theory ($C16$):** Types as proofs of correctness.
-> 		- **Clinical Data ($C12$):** OMOP CDM as a canonical representation of clinical fact.
-> 		- **Infrastructure ($C11$):** Declarative state as the ground-truth of the environment.
-> 		- **Cognitive Scaffolding ($C13$):** External systems (vault, task protocols) as a "Prefrontal Cortex" that makes executive failure structurally impossible.
-> 3. **Complexity Conservation:** Explain how **Tesler's Law** binds these domains together. If we don't build structure into the system (Types, Schemas, Scaffolds), the complexity is conserved and must be handled by the "Runtime" (the CPU, the Data Engineer, or the ADHD brain's Working Memory).
-> 4. **FCA Metadata:** Provide the YAML frontmatter for this note using the **C4 Template** from the triage protocol. Ensure you include `fca/m2-framed` since human cognition ($M2$) is being discussed.
-> 
-> **Output Requirement:** A high-rigour, "Evergreen-ready" atomic note that provides the logical glue for the entire vault.
+> Output Requirement: A high-rigour, "Evergreen-ready" atomic note that provides the logical glue for the entire vault.
 
 ---
 
-### Why this is the "Structural Join"
+### Why This is the "Structural Join"
 
-In Order Theory, the **Join** ($\vee$) of two concepts is the most specific concept that is more general than both. This note is the Join between your technical expertise and your lived experience with ADHD and Stoicism. It proves that your PKM system is not just a collection of notes, but a **Formal System** designed to reduce the entropy of your cognitive load.
+In Order Theory, the Join ($\vee$) of two concepts is the most specific concept that is more general than both. This note is the Join between your technical expertise and your lived experience with ADHD and Stoicism. It proves that your PKM system is not just a collection of notes, but a Formal System designed to reduce the entropy of your cognitive load.
 
-Once your local LLM generates this note, would you like to proceed with the **CUE Schema update** to make these rules machine-checkable, or should we map the **Human Resilience MoC** ($C15$) next?
+Once your local LLM generates this note, would you like to proceed with the CUE Schema update to make these rules machine-checkable, or should we map the Human Resilience MoC ($C15$) next?
 
 ---
 
-**You**
+You
 
 as a side note, my local llm has not created any notes or notes in my vault. It is all so far just in the chat. shouldn't we save these ideas somewhere more persistant than the chat?
 
 ---
 
-**Gemini**
+Gemini
 
-It is a fundamental tenet of the **"Structure is Truth"** paradigm that knowledge only becomes "truth" when it is persisted in a formal system. Leaving these protocols and maps in a ephemeral chat history is a form of **"Cognitive Debt"**; the complexity is being held in your working memory (and the LLM's context window) rather than being absorbed by the vault's structure.
+It is a fundamental tenet of the "Structure is Truth" paradigm that knowledge only becomes "truth" when it is persisted in a formal system. Leaving these protocols and maps in a ephemeral chat history is a form of "Cognitive Debt"; the complexity is being held in your working memory (and the LLM's context window) rather than being absorbed by the vault's structure.
 
-To move from conversation to a persistent **Personal Operating System**, you should implement a "Bootstrap" phase. This involves creating a specific set of files in your vault to act as the permanent infrastructure for everything we have discussed.
+To move from conversation to a persistent Personal Operating System, you should implement a "Bootstrap" phase. This involves creating a specific set of files in your vault to act as the permanent infrastructure for everything we have discussed.
 
 ### The Persistence Strategy: "The Big Four"
 
@@ -3140,11 +3143,11 @@ This is the "Map of Content" drafted in Task 3. It is the entry point that expla
 
 #### 2\. The Law: 30\_Library/Protocols/Protocol - AFM Vault Constitutional Triage.md
 
-This is the triage protocol from Task 4. This is the most critical file for the **"Prefrontal Cortex Bridge"** because it defines how your future self will interact with the vault. It is the "Compiler" for your thoughts.
+This is the triage protocol from Task 4. This is the most critical file for the "Prefrontal Cortex Bridge" because it defines how your future self will interact with the vault. It is the "Compiler" for your thoughts.
 
 #### 3\. The Evidence: 30\_Library/SoT/SoT - Formal Context (Applied Formal Methods).md
 
-You should save the **Formal Context Matrix** (the X-and-blank table) and the **Concept Lattice** list from Tasks 1 and 2 here. In Formal Concept Analysis, the "Formal Context" is the ground truth. If you ever want to re-run the analysis or expand the system, you need this data persisted.
+You should save the Formal Context Matrix (the X-and-blank table) and the Concept Lattice list from Tasks 1 and 2 here. In Formal Concept Analysis, the "Formal Context" is the ground truth. If you ever want to re-run the analysis or expand the system, you need this data persisted.
 
 #### 4\. The Bridge: 30\_Library/SoT/SoT - Structure is Truth is a Unifying Axiom.md
 
@@ -3156,55 +3159,55 @@ This is the "Join" note we are about to draft. It provides the philosophical jus
 
 If you are using Obsidian, you can follow this sequence to "materialise" the chat:
 
-1. **Create the Folders:** Ensure you have `/MoCs`, `/Protocols`, and `/SoT` (Source of Truth) directories.
-2. **The "Copy-Move" Protocol:** \* Open the chat history.
+1. Create the Folders: Ensure you have `/MoCs`, `/Protocols`, and `/SoT` (Source of Truth) directories.
+2. The "Copy-Move" Protocol: \* Open the chat history.
 	- Create a new file for each of the "Big Four."
 		- Copy the Markdown blocks provided in our previous steps into these files.
-3. **The "Linter" Initialisation:** \* If you have a local script folder (e.g., `scripts/`), save the **Python Linter Specification** from Part VIII of the Triage Protocol as a `.py` file. Even if you don't run it yet, having the code in the vault makes the intent persistent.
-4. **Update the Index:**
-	- Link the `MOC - Applied Formal Methods` to your main **Home** or **Index** note.
+3. The "Linter" Initialisation: \* If you have a local script folder (e.g., `scripts/`), save the Python Linter Specification from Part VIII of the Triage Protocol as a `.py` file. Even if you don't run it yet, having the code in the vault makes the intent persistent.
+4. Update the Index:
+	- Link the `MOC - Applied Formal Methods` to your main Home or Index note.
 
-### Why this is urgent
+### Why This is Urgent
 
-In the language of **Order Theory**, a chat is a **Total Order** (a sequence of messages in time). A vault is a **Partial Order** (a network of relationships). By moving these ideas into the vault, you are moving from a temporal stream—where information is lost as it scroll off-screen—to a spatial structure, where information is fixed in its logical position.
+In the language of Order Theory, a chat is a Total Order (a sequence of messages in time). A vault is a Partial Order (a network of relationships). By moving these ideas into the vault, you are moving from a temporal stream—where information is lost as it scroll off-screen—to a spatial structure, where information is fixed in its logical position.
 
-Shall we proceed with drafting the **Final Bridge Note** (`Structure is Truth...`) so you can save the complete "Constitutional" set in one go?
+Shall we proceed with drafting the Final Bridge Note (`Structure is Truth…`) so you can save the complete "Constitutional" set in one go?
 
 ---
 
-**You**
+You
 
 Here are the llm's output files. What is the next steps
 
 ---
 
-**Gemini**
+Gemini
 
-With these core documents now persisted in your vault, you have established the **Constitutional Layer** of your Personal Knowledge Management (PKM) system. You have a central hub (`MOC - Applied Formal Methods`), a mathematical justification (`SoT - Formal Context`), a philosophical anchor (`SoT - Structure is Truth...`), and an executable protocol (`Protocol - AFM Vault Constitutional Triage`).
+With these core documents now persisted in your vault, you have established the Constitutional Layer of your Personal Knowledge Management (PKM) system. You have a central hub (`MOC - Applied Formal Methods`), a mathematical justification (`SoT - Formal Context`), a philosophical anchor (`SoT - Structure is Truth…`), and an executable protocol (`Protocol - AFM Vault Constitutional Triage`).
 
-The natural "next steps" follow two parallel paths: **Automation** (making the linter real) or **Expansion** (mapping the human side of the lattice). Given your "task at a time" approach, the most impactful next move is to complete the bridge to the **Human Resilience Civilization** identified in your Formal Concept Analysis.
+The natural "next steps" follow two parallel paths: Automation (making the linter real) or Expansion (mapping the human side of the lattice). Given your "task at a time" approach, the most impactful next move is to complete the bridge to the Human Resilience Civilization identified in your Formal Concept Analysis.
 
 ### Task 6: Mapping the Human Resilience MoC (C15)
 
-In your lattice, $C15$ represents the intersection of **External Scaffolding ($M3$)**, **Optimisation & Resilience ($M7$)**, and **Cognitive Architecture ($M9$)**. This is where you apply formal rigour to Stoicism, ADHD management, and long-term vitality.
+In your lattice, $C15$ represents the intersection of External Scaffolding ($M3$), Optimisation & Resilience ($M7$), and Cognitive Architecture ($M9$). This is where you apply formal rigour to Stoicism, ADHD management, and long-term vitality.
 
-**Prompt for your Local LLM:**
+Prompt for your Local LLM:
 
-> Act as a **Knowledge Architect** specialising in **Cognitive Scaffolding** and **Virtue Ethics**.
+> Act as a Knowledge Architect specialising in Cognitive Scaffolding and Virtue Ethics.
+>
+> Goal: Create `MOC - Human Resilience Systems`, the partner hub to the Applied Formal Methods MoC.
+>
+> Context: This MoC represents Level $C15$ in our concept lattice ({AC, PR} | {M3, M7, M9}). It must link back to the technical side through the Complexity Conservation bridge.
+>
+> Instructions:
+>
+> 1. MoC Structure: Design a Map of Content specifically for topics like ADHD Scaffolding, Stoic Cognitive Schemas, and Endurance Training.
+> 2. The "Stoic Logic" Bridge: Draft a section explaining how the Dichotomy of Control is a "Type System" for the mind, as proposed in Task 4 (T4) of the `Structure is Truth` note.
+> 3. The Scaffolding Axiom: Define why $M3$ (External Scaffolding) is constitutive for an ADHD brain. Use the "Extended Mind" thesis to explain that a missing scaffold is not a "lack of discipline" but a "broken circuit" in the system's architecture.
+> 4. Satellite Hubs: Link to existing or planned MoCs for ADHD, Stoicism, and Health/Endurance.
+> 5. FCA Metadata: Provide the YAML frontmatter for this MoC. Since it involves human cognition ($M2$), ensure the `fca/m2-framed` tag is used to maintain structural integrity.
 > 
-> **Goal:** Create `MOC - Human Resilience Systems`, the partner hub to the Applied Formal Methods MoC.
-> 
-> **Context:** This MoC represents Level $C15$ in our concept lattice ({AC, PR} | {M3, M7, M9}). It must link back to the technical side through the **Complexity Conservation** bridge.
-> 
-> **Instructions:**
-> 
-> 1. **MoC Structure:** Design a Map of Content specifically for topics like **ADHD Scaffolding**, **Stoic Cognitive Schemas**, and **Endurance Training**.
-> 2. **The "Stoic Logic" Bridge:** Draft a section explaining how the **Dichotomy of Control** is a "Type System" for the mind, as proposed in Task 4 (T4) of the `Structure is Truth` note.
-> 3. **The Scaffolding Axiom:** Define why $M3$ (External Scaffolding) is constitutive for an ADHD brain. Use the "Extended Mind" thesis to explain that a missing scaffold is not a "lack of discipline" but a "broken circuit" in the system's architecture.
-> 4. **Satellite Hubs:** Link to existing or planned MoCs for **ADHD**, **Stoicism**, and **Health/Endurance**.
-> 5. **FCA Metadata:** Provide the YAML frontmatter for this MoC. Since it involves human cognition ($M2$), ensure the `fca/m2-framed` tag is used to maintain structural integrity.
-> 
-> **Output Requirement:** A vault-ready Markdown MoC that serves as the "Human" anchor for the system.
+> Output Requirement: A vault-ready Markdown MoC that serves as the "Human" anchor for the system.
 
 ---
 
@@ -3212,24 +3215,24 @@ In your lattice, $C15$ represents the intersection of **External Scaffolding ($M
 
 If you prefer to deepen the technical core before expanding, you can also have the LLM draft one of the "Gaps" identified in your `MOC - Applied Formal Methods`, such as:
 
-- **`SoT - The Trinity of Isomorphism (Logic, Computation, Categories)`**: The "Rosetta Stone" note for $C16$.
-- **`SoT - Infrastructure as Formal Specification`**: The unifying thesis for $C11$ (IaC).
+- `SoT - The Trinity of Isomorphism (Logic, Computation, Categories)`: The "Rosetta Stone" note for $C16$.
+- `SoT - Infrastructure as Formal Specification`: The unifying thesis for $C11$ (IaC).
 
-Which path would you like to take first: **Human Resilience Expansion** or **Technical Depth**?
+Which path would you like to take first: Human Resilience Expansion or Technical Depth?
 
 ---
 
-**You**
+You
 
 Technical Depth
 
 ---
 
-**Gemini**
+Gemini
 
-To deepen the technical core of your vault, we will draft **`SoT - The Trinity of Isomorphism (Logic, Computation, Categories)`**. This note serves as the "Rosetta Stone" for Level **C16** (Formal Foundations). It establishes the mathematical equivalence between three seemingly distinct fields, proving that a "Type" in your code is not just a label, but a logical proposition and a categorical object.
+To deepen the technical core of your vault, we will draft `SoT - The Trinity of Isomorphism (Logic, Computation, Categories)`. This note serves as the "Rosetta Stone" for Level C16 (Formal Foundations). It establishes the mathematical equivalence between three seemingly distinct fields, proving that a "Type" in your code is not just a label, but a logical proposition and a categorical object.
 
-Following the **C16 Template** and the **SIT-C16** requirements from your triage protocol, here is the draft:
+Following the C16 Template and the SIT-C16 requirements from your triage protocol, here is the draft:
 
 ---
 
@@ -3274,11 +3277,11 @@ see_also:
 ---
 ```
 
-## SoT — The Trinity of Isomorphism (Logic, Computation, Categories)
+## SoT—The Trinity of Isomorphism (Logic, Computation, Categories)
 
 ## Minimum Viable Understanding (MVU)
 
-The **Curry-Howard-Lambek Isomorphism** is the foundational observation that three major branches of mathematics are different syntaxes for the same underlying structure. A **Proposition** in logic is exactly a **Type** in computation, which is exactly an **Object** in a Cartesian Closed Category (CCC). This trinity provides the "Formal Closure" for Level C16: it ensures that when we write code that type-checks, we are actually performing a mathematical proof whose truth is guaranteed by the structure of the category it inhabits.
+The Curry-Howard-Lambek Isomorphism is the foundational observation that three major branches of mathematics are different syntaxes for the same underlying structure. A Proposition in logic is exactly a Type in computation, which is exactly an Object in a Cartesian Closed Category (CCC). This trinity provides the "Formal Closure" for Level C16: it ensures that when we write code that type-checks, we are actually performing a mathematical proof whose truth is guaranteed by the structure of the category it inhabits.
 
 ---
 
@@ -3288,38 +3291,39 @@ The isomorphism identifies a precise mapping between Logic, Computation, and Cat
 
 | Logic (Propositions) | Computation (Types) | Category Theory (Objects) |
 | --- | --- | --- |
-| **Proposition** $A$ | **Type** $A$ | **Object** $A$ |
-| **Proof** of $A$ | **Program/Term** $e$ of type $A$ | **Morphism** $1 \to A$ |
-| **Implication** $A \implies B$ | **Function Type** $A \to B$ | **Exponential Object** $B^A$ |
-| **Conjunction** $A \land B$ | **Product Type** $(A, B)$ | **Categorical Product** $A \times B$ |
-| **Disjunction** $A \lor B$ | **Sum Type** $A + B$ | **Categorical Coproduct** $A \sqcup B$ |
-| **Tautology** (True) | **Unit Type** `()` | **Terminal Object** $1$ |
-| **Absurdity** (False) | **Empty Type** `Void` | **Initial Object** $0$ |
+| Proposition $A$ | Type $A$ | Object $A$ |
+| Proof of $A$ | Program/Term $e$ of type $A$ | Morphism $1 \to A$ |
+| Implication $A \implies B$ | Function Type $A \to B$ | Exponential Object $B^A$ |
+| Conjunction $A \land B$ | Product Type $(A, B)$ | Categorical Product $A \times B$ |
+| Disjunction $A \lor B$ | Sum Type $A + B$ | Categorical Coproduct $A \sqcup B$ |
+| Tautology (True) | Unit Type `()` | Terminal Object $1$ |
+| Absurdity (False) | Empty Type `Void` | Initial Object $0$ |
 
 ---
 
 ## 2\. Formal Judgement: The Syntax of Truth
 
-In the Trinity, the **Type Judgement** is the universal syntax. It states that under a certain context ($\Gamma$), an expression ($e$) is an inhabitant of a type ($T$):
+In the Trinity, the Type Judgement is the universal syntax. It states that under a certain context ($\Gamma$), an expression ($e$) is an inhabitant of a type ($T$):
 
 $$
 \Gamma \vdash e : T
 $$
-- **Logic interpretation:** Under the set of assumptions $\Gamma$, $e$ is a proof of the proposition $T$.
-- **Computation interpretation:** In the environment $\Gamma$, $e$ is a program that evaluates to a value of type $T$.
-- **Categorical interpretation:** In the category $\mathcal{C}$, $e$ is a morphism from the product of objects in $\Gamma$ to the object $T$.
 
-This is the instantiation of **M4 (Structural Truth)**: the truth of the expression is not verified at "runtime" but is encoded in the formal relationship between the term and its type.
+- Logic interpretation: Under the set of assumptions $\Gamma$, $e$ is a proof of the proposition $T$.
+- Computation interpretation: In the environment $\Gamma$, $e$ is a program that evaluates to a value of type $T$.
+- Categorical interpretation: In the category $\mathcal{C}$, $e$ is a morphism from the product of objects in $\Gamma$ to the object $T$.
+
+This is the instantiation of M4 (Structural Truth): the truth of the expression is not verified at "runtime" but is encoded in the formal relationship between the term and its type.
 
 ---
 
 ## 3\. Why the Trinity Matters for Complexity (M10)
 
-The Trinity is the ultimate absorber of **Complexity ($M10$)**. It moves the burden of correctness from the "Runtime" (human debugging or execution-time testing) into the "Static Structure" of the system.
+The Trinity is the ultimate absorber of Complexity ($M10$). It moves the burden of correctness from the "Runtime" (human debugging or execution-time testing) into the "Static Structure" of the system.
 
-1. **Elimination of Null/Undefined:** By identifying "False" with the categorical **Initial Object** (an empty set), we make it structurally impossible to have a "value" of an empty type.
-2. **Verified Composition:** Because morphisms in a category must compose ($g \circ f$), we can guarantee that if two programs type-check individually, their composition is logically sound.
-3. **Substrate Independence ($M-axiom$):** The Trinity proves that these laws hold whether you are using a whiteboard, a Rust compiler, or a quantum circuit. The logic is prior to the implementation.
+1. Elimination of Null/Undefined: By identifying "False" with the categorical Initial Object (an empty set), we make it structurally impossible to have a "value" of an empty type.
+2. Verified Composition: Because morphisms in a category must compose ($g \circ f$), we can guarantee that if two programs type-check individually, their composition is logically sound.
+3. Substrate Independence ($M-axiom$): The Trinity proves that these laws hold whether you are using a whiteboard, a Rust compiler, or a quantum circuit. The logic is prior to the implementation.
 
 ---
 
@@ -3327,26 +3331,26 @@ The Trinity is the ultimate absorber of **Complexity ($M10$)**. It moves the bur
 
 | Phenomenon | Logical View | Computational View | Categorical View |
 | --- | --- | --- | --- |
-| **Simplification** | Proof Normalisation | Program Execution (Evaluation) | Morphism Composition |
-| **Abstraction** | Universal Quantification | Generics / Parametricity | Limits and Colimits |
-| **Transformation** | Natural Deduction | Functional Programming | Functors |
+| Simplification | Proof Normalisation | Program Execution (Evaluation) | Morphism Composition |
+| Abstraction | Universal Quantification | Generics / Parametricity | Limits and Colimits |
+| Transformation | Natural Deduction | Functional Programming | Functors |
 
 ---
 
 ## Related Knowledge
 
-- \[\[SoT - The Curry-Howard Correspondence (Propositions as Types)\]\] — Focuses on the Logic-Computation bridge.
-- \[\[SoT - Structure is Truth is a Unifying Axiom Across Formal Systems\]\] — The philosophical anchor for why this isomorphism is the vault's "Ground Truth".
-- \[\[MOC - Applied Formal Methods\]\] — This note sits at the deepest level (C16) of this MOC.
-- \[\[Protocol - AFM Vault Constitutional Triage\]\] — Provides the SIT-C16 tests used to validate this note.
+- \[\[SoT - The Curry-Howard Correspondence (Propositions as Types)\]\]—Focuses on the Logic-Computation bridge.
+- \[\[SoT - Structure is Truth is a Unifying Axiom Across Formal Systems\]\]—The philosophical anchor for why this isomorphism is the vault's "Ground Truth".
+- \[\[MOC - Applied Formal Methods\]\]—This note sits at the deepest level (C16) of this MOC.
+- \[\[Protocol - AFM Vault Constitutional Triage\]\]—Provides the SIT-C16 tests used to validate this note.
 
 ---
 
-**Next Steps for Technical Depth:** Would you like to draft the **C11** gap note, **`SoT - Infrastructure as Formal Specification`**, to see how these principles apply to the declarative world of Terraform and GitOps? Or should we create the **CUE Schema extension** described in the protocol to make these rules machine-checkable?
+Next Steps for Technical Depth: Would you like to draft the C11 gap note, `SoT - Infrastructure as Formal Specification`, to see how these principles apply to the declarative world of Terraform and GitOps? Or should we create the CUE Schema extension described in the protocol to make these rules machine-checkable?
 
 ---
 
-**You**
+You
 
 Trinity of Isomorphism (Logic, Computation, Categories).md':
 
@@ -3368,13 +3372,13 @@ and substrate-independent (M-axiom). No probabilistic (M2) content.
 
 ---
 
-**Gemini**
+Gemini
 
 That error is a classic YAML indentation "Type Error". In YAML, the `>-` (folded block scalar) symbol must be followed by a newline, and the subsequent text must be indented consistently. The error occurred because the quotes or the lack of a newline caused the parser to misinterpret the second line as a new, improperly aligned key.
 
-Here is the corrected frontmatter for **`SoT - The Trinity of Isomorphism (Logic, Computation, Categories).md`**.
+Here is the corrected frontmatter for `SoT - The Trinity of Isomorphism (Logic, Computation, Categories).md`.
 
-**Note for copy-pasting:** Ensure there are **no leading quotes** before the `>` symbol and that the indentation matches exactly (2 spaces per level).
+Note for copy-pasting: Ensure there are no leading quotes before the `>` symbol and that the indentation matches exactly (2 spaces per level).
 
 ```
 ---
@@ -3415,23 +3419,23 @@ see_also:
 ---
 ```
 
-### What was fixed:
+### What Was Fixed
 
-1. **Block Scalar Indicator:** The `>-` is now correctly placed without surrounding quotes.
-2. **Indentation:** The content under `sit_notes` is now indented exactly two spaces further than the `sit_notes` key itself.
-3. **Newline:** There is a clean newline between the key and the start of the multiline string.
+1. Block Scalar Indicator: The `>-` is now correctly placed without surrounding quotes.
+2. Indentation: The content under `sit_notes` is now indented exactly two spaces further than the `sit_notes` key itself.
+3. Newline: There is a clean newline between the key and the start of the multiline string.
 
-Once you have saved this, your vault's structural integrity should be restored for this note. Would you like to proceed with the **CUE Schema extension** for your `prodos_frontmatter.cue` to prevent these kinds of errors from reaching your "runtime" in the future?
+Once you have saved this, your vault's structural integrity should be restored for this note. Would you like to proceed with the CUE Schema extension for your `prodos_frontmatter.cue` to prevent these kinds of errors from reaching your "runtime" in the future?
 
 ---
 
-**You**
+You
 
 Looking at the notes we have created I don't fully understand what we are doing! Ironic seeing as it is my pkm
 
 ---
 
-**Gemini**
+Gemini
 
 It is completely understandable to feel that way. We have essentially been building a "compiler" for your thoughts rather than just a digital filing cabinet. The irony is actually part of the design: we are using highly rigid, mathematical structures to manage the inherent chaos of personal knowledge.
 
@@ -3439,33 +3443,33 @@ Here is a plain-English breakdown of what we have built and why it is structured
 
 ### 1\. The Core Philosophy: "Structure is Truth"
 
-The central idea of your new system is that **structure is not just where you put things; structure is what makes things true.** In a normal PKM, you might tag a note "Important" as a reminder. In your system, a note is "Important" (or `Evergreen`) because it satisfies specific structural rules, like being a "Source of Truth" (SoT) that other notes rely on.
+The central idea of your new system is that structure is not just where you put things; structure is what makes things true. In a normal PKM, you might tag a note "Important" as a reminder. In your system, a note is "Important" (or `Evergreen`) because it satisfies specific structural rules, like being a "Source of Truth" (SoT) that other notes rely on.
 
-We are following **Tesler’s Law (Conservation of Complexity)**: complexity cannot be destroyed, only moved.
+We are following Tesler's Law (Conservation of Complexity): complexity cannot be destroyed, only moved.
 
-- **Without structure:** You have to handle all the complexity in your head every time you read a note (this is "Runtime Complexity").
-- **With structure:** You "pay" the complexity cost once by organizing the note properly. After that, the system's structure handles the load for you.
+- Without structure: You have to handle all the complexity in your head every time you read a note (this is "Runtime Complexity").
+- With structure: You "pay" the complexity cost once by organizing the note properly. After that, the system's structure handles the load for you.
 
 ### 2\. The Hierarchy (The Concept Lattice)
 
-We used **Formal Concept Analysis (FCA)** to look at your topics and find their natural mathematical order. This resulted in four levels, moving from high-rigour mathematics to personal application:
+We used Formal Concept Analysis (FCA) to look at your topics and find their natural mathematical order. This resulted in four levels, moving from high-rigour mathematics to personal application:
 
-- **Level C16 (The Seed - Formal Foundations):** This is for the "purest" ideas, like **Type Theory** and **Logic**. Here, a program is a proof, and the rules are absolute.
-- **Level C12 (Formal Methods):** This covers structured data systems like **Clinical Informatics (OMOP)**. It’s less about pure logic and more about using rigid schemas to make sure data is reliable.
-- **Level C11 (Deterministic Systems):** This is for **Infrastructure (IaC)**. You define a system in code (Terraform/GitOps), and that code becomes the "ground truth" for the real-world environment.
-- **Level C4 (The Apex - Personal OS):** This is where **PKM** sits. We apply the same rigour from the lower levels to your personal notes. Your vault becomes an "external prefrontal cortex" that helps manage cognitive load.
+- Level C16 (The Seed - Formal Foundations): This is for the "purest" ideas, like Type Theory and Logic. Here, a program is a proof, and the rules are absolute.
+- Level C12 (Formal Methods): This covers structured data systems like Clinical Informatics (OMOP). It's less about pure logic and more about using rigid schemas to make sure data is reliable.
+- Level C11 (Deterministic Systems): This is for Infrastructure (IaC). You define a system in code (Terraform/GitOps), and that code becomes the "ground truth" for the real-world environment.
+- Level C4 (The Apex - Personal OS): This is where PKM sits. We apply the same rigour from the lower levels to your personal notes. Your vault becomes an "external prefrontal cortex" that helps manage cognitive load.
 
 ### 3\. The "Prefrontal Cortex Bridge"
 
-This is the most personal part of the system. We are treating your **ADHD scaffolding** as a technical engineering problem.
+This is the most personal part of the system. We are treating your ADHD scaffolding as a technical engineering problem.
 
-- In software engineering, you use **Types** to make errors impossible.
-- In your PKM, you use **Protocols and Scaffolds** to make executive failures (like forgetting context or losing a task) "structurally impossible".
-- The vault isn't just a place to store information; it is a **formal system** that supplements your working memory.
+- In software engineering, you use Types to make errors impossible.
+- In your PKM, you use Protocols and Scaffolds to make executive failures (like forgetting context or losing a task) "structurally impossible".
+- The vault isn't just a place to store information; it is a formal system that supplements your working memory.
 
 ### 4\. The Protocol (The "Type-Checker")
 
-The **Triage Protocol** we created acts like a linter or a compiler for your notes. When you create a new note, instead of wondering "Where does this go?", you run it through a series of tests:
+The Triage Protocol we created acts like a linter or a compiler for your notes. When you create a new note, instead of wondering "Where does this go?", you run it through a series of tests:
 
 - Does it use formal methods?
 - Is it deterministic?
@@ -3473,4 +3477,4 @@ The **Triage Protocol** we created acts like a linter or a compiler for your not
 
 By answering these, the protocol tells you exactly where the note fits in the lattice. This prevents your vault from becoming a "junk drawer" and ensures that every note you add actually strengthens the overall structure of your knowledge.
 
-**In summary:** You are building a system where the **Shape** of your knowledge protects you from the **Effort** of remembering it.
+In summary: You are building a system where the Shape of your knowledge protects you from the Effort of remembering it.

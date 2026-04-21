@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "storeName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-  "lastSync": 1776690890543,
+  "lastSync": 1776756828083,
   "files": {
     "assets/cropped_PXL_20250518_165827884.PORTRAIT.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -9115,23 +9115,23 @@
     },
     "30_Library/100_zettelkasten/Prompt Architecture Levels.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "80ba680b9d98f0f8818d59759828e8b52fd75ba7557d5361bc7f0e75bd7adcf0",
-      "lastIndexed": 1776340998346
+      "contentHash": "c343dc76cbb8e8866496fdaea52efe52f8e71a98ee0fdbb3220801c29cf9ef97",
+      "lastIndexed": 1776755662391
     },
     "30_Library/100_zettelkasten/LLM Context Constraints.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "51cb49fa7796ba982a5de086273042b0f6b58f14845b8695bbbdf98c8d9ff6c8",
-      "lastIndexed": 1776340883691
+      "contentHash": "92d4814fcb1e370f7cd36c7a9a9713b57be6d5d8d40bc728756e5fa52139e6cd",
+      "lastIndexed": 1776755655394
     },
     "30_Library/100_zettelkasten/Retrieval-Augmented Generation (RAG).md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "1932402de5b17763c07d908f48bd81f38fda25d0eb2901b470551df41d98118b",
-      "lastIndexed": 1776341025756
+      "contentHash": "499183f588f8275c0e92516a9b2d56818ceb321a7a4bb48f9c5bcba99dcdbed6",
+      "lastIndexed": 1776755666068
     },
     "30_Library/100_zettelkasten/Agentic Autonomy as State Machine Logic.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "2eab25cf1c6f75dc272f6caddc147b1f3bc0121bd1e9e06689d4c70d4f0723b3",
-      "lastIndexed": 1776340594784
+      "contentHash": "049193b8c73e799f77522e723b17b126fd1f4b9906ff250a2db433436074ec86",
+      "lastIndexed": 1776755648017
     },
     "30_Library/400_indexes/_link_report_agent_first_workflow.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -9190,18 +9190,18 @@
     },
     "30_Library/100_zettelkasten/Graph-Based Orchestration.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "89917e3c1bbc5e125bc3ad4ed87cf18449d1acf2c0fd0b26f2e231e0090c0544",
-      "lastIndexed": 1776340841622
+      "contentHash": "dd30d9599606cb2e8c09fe58ce4e6cea716af18a2eaec45b41ba421df7d18e26",
+      "lastIndexed": 1776755651597
     },
     "30_Library/100_zettelkasten/Model Context Protocol (MCP).md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "463b50be5ecef01f029bb269f3cda7edfb4565b4a57548dbabefc93223907631",
-      "lastIndexed": 1776340922721
+      "contentHash": "58652e52fcb747e433e28913bfdcaeb471dad26c684d004fe972c70ca00b785f",
+      "lastIndexed": 1776755658959
     },
     "30_Library/100_zettelkasten/Semantic Search via Embeddings.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "27e25900175f71db64fc16d4a285a47b680826f46799b21cf1592655c5894e11",
-      "lastIndexed": 1776341029383
+      "contentHash": "caa10b57bbd3579d09a654594b33e1ed8df9f2dad5f0d986b8fc5e998e079adb",
+      "lastIndexed": 1776755669690
     },
     "30_Library/100_zettelkasten/LLM Architectural Judgment Gap.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -9410,8 +9410,8 @@
     },
     "20_Thinking/21_Workbench/HEAD LLMs Don't Need More Parameters. They Need Loops..md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "4ddbdd2d31129ca486b2a0fb741c8926b9fb6e812d76aa2e6163a5d00547704e",
-      "lastIndexed": 1776245625368
+      "contentHash": "02e3518487fafb8c91befce5309289b4ba0e59a2ae64e4db8a8953c6215b0bd0",
+      "lastIndexed": 1776691327103
     },
     "30_Library/100_zettelkasten/Multi-Page Ingestion Impact.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -9700,8 +9700,8 @@
     },
     "20_Thinking/21_Workbench/HEAD - Person_ID.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "770b0767df8e6038a544239a020fb3f0402c80b5eb5313dd0669fe4f3d5870df",
-      "lastIndexed": 1776325817638
+      "contentHash": "a0a79df3f874567e79d0eb292e728d88c4bfa9647e8652df723d54d06f1200e2",
+      "lastIndexed": 1776691309053
     },
     "30_Library/200_projects/00_Active_Projects/OMOP/Azure Batch OMOP Worker - Clean-State Runbook.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -9730,8 +9730,8 @@
     },
     "20_Thinking/21_Workbench/HEAD - 2026-04-16 1016.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "425abd8d917e9d47afff5f1e15a90318780cde9fad2149267f48ea631025bc8d",
-      "lastIndexed": 1776353191570
+      "contentHash": "6b7bd1df626900abe87c76a3bbfca399ac594b89b7b40546e47193d9161080a5",
+      "lastIndexed": 1776691301986
     },
     "30_Library/200_projects/00_Active_Projects/OMOP/12 Million Patient Synthetic NHS-OMOP Pipeline.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -10215,8 +10215,8 @@
     },
     "20_Thinking/21_Workbench/HEAD - 2026-04-19 1013.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "a3706f36925d59733ed7d36059205ff2f26eb0fb5c2b1f9f0ed2c36670d8a4d2",
-      "lastIndexed": 1776599080694
+      "contentHash": "3840143da968dc1b7a314c06ba1994b73af36b186797b64da16a8eb89de33594",
+      "lastIndexed": 1776691305331
     },
     "00_Inbox/Readwise/Full Document Contents/GitHub - RomyHaikgim Goal-in-Mind framework for deviation prevention and token usage reduction · GitHub.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -10297,6 +10297,101 @@
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "056d0e923ec2194c575a55cc058e5b56600baf5bc4bb429fedc63503f59c99f8",
       "lastIndexed": 1776690890543
+    },
+    "20_Thinking/21_Workbench/HEAD Deep merging YAML files in Terragrunt.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "ea1fe115708347acd5c8538c531ca5268eafd88b02220731c69e542e3e01e81b",
+      "lastIndexed": 1776690971679
+    },
+    "20_Thinking/21_Workbench/HEAD You said Httpsyoutube.comwatch?v=JNW61ywog54&s....md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "8f820e39c4e73a9e62ad308513c4e0f5dff19aba46b223221c2ad0782a430c48",
+      "lastIndexed": 1776691016954
+    },
+    "20_Thinking/21_Workbench/HEAD You said I have a pkm with lots of md files in an ....md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "86328a2644163f135f9cfea493a691166c51d9fd0977110b8a6e5d102ebe6a15",
+      "lastIndexed": 1776691029044
+    },
+    "20_Thinking/21_Workbench/HEAD You said Persona You are an expert research analy... 2.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "d0a7d637d268d7f1100d0053cdbdbd6c7d6d0b9dfa69ab0c23676b19bfc735bb",
+      "lastIndexed": 1776691164668
+    },
+    "20_Thinking/21_Workbench/HEAD You said httpsyoutu.bexYfiOnufBSk?si=ZbnX30oH6....md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "5338acd0dbdfcafb1e97890d5b9e061437be4aeed50e0b714acf5fadc3b35fd9",
+      "lastIndexed": 1776691177264
+    },
+    "20_Thinking/21_Workbench/HEAD You said Persona You are an expert research analy... 4.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "f1d1fb61c8d554823e886a14295e4688c0975e09f473d5f0aaf88872a6364d82",
+      "lastIndexed": 1776691278129
+    },
+    "20_Thinking/I want to create a mathematical model of team unde.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "7c8b99511724eed88d9e5e750e9cf2e019ef004c67a91b74de434d90cce930f9",
+      "lastIndexed": 1776691298421
+    },
+    "20_Thinking/21_Workbench/HEAD AI Limitations Interpolation, Not Extrapolation.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "cced7fbd7abf00dc9dd5b12dcc9d017ac28db8173667e848a1227b7ba0da4a44",
+      "lastIndexed": 1776691312125
+    },
+    "20_Thinking/21_Workbench/HEAD AI Research Analyst Deconstructs AGI Video.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "150318838b135c6307e2b8eca8dfe4ba051430b0b6e81bf44ab6ea9d45ee653e",
+      "lastIndexed": 1776691315605
+    },
+    "20_Thinking/21_Workbench/HEAD Analysis of Multi-model Integration in Terminal-based Development Environments.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "53a05166386ecb83ab582c30094faa1220073111cdb3389181b3ae55efd26128",
+      "lastIndexed": 1776691319395
+    },
+    "20_Thinking/21_Workbench/HEAD Embeddings Explained Meaning as Geometry.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "8f3378dfa2ed4bcc3ce0d6cf0781e0eca9a40262c5a4e2960dae5553bb557f17",
+      "lastIndexed": 1776691322620
+    },
+    "20_Thinking/21_Workbench/HEAD MemPalace AI Memory System Explained.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "f26c562284e91df45bba7a1a8ad82b230b262b56854cecfa277cc97d5848cf62",
+      "lastIndexed": 1776691330858
+    },
+    "01_journals/Dailies/2026-04-21.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "a19ba2b7654d48d64333560a1956cd0447a439ea852d5d4a159c608b6c1a63b6",
+      "lastIndexed": 1776755537295
+    },
+    "20_Thinking/21_Workbench/HEAD The Failure of Human-Centric Design.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "72060302102caa3b876fa509e74e299ebbd3a5582edb224657dea41c1234dad6",
+      "lastIndexed": 1776755645168
+    },
+    "20_Thinking/21_Workbench/HEAD You said Persona You are an expert research analy... 3.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "9000d51536b7f32076cc6e84b9176f9fe65b8bb0e5975ca018948b4a699e7580",
+      "lastIndexed": 1776756151501
+    },
+    "20_Thinking/21_Workbench/HEAD You said Persona You are an expert research analy... 6.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "360380f246e67d6be0b61ec8f4287ceabe5fbddcf2be9c0c8c9a12dd7ea50cc1",
+      "lastIndexed": 1776756164401
+    },
+    "20_Thinking/21_Workbench/HEAD You said Persona You are an expert research analy... 7.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "820dd2634d07dbe07358dd453f4c653e95168c9c231a5b1285761b784bdd395b",
+      "lastIndexed": 1776756187531
+    },
+    "20_Thinking/21_Workbench/HEAD The Divided Brain.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "649138cb9ec5df6c6993769e813c210e03f9309d6a31667c7a1b5b6feea2fb6d",
+      "lastIndexed": 1776756828083
+    },
+    "30_Library/200_projects/00_Active_Projects/Refined Deployment/EBS CSI Driver Policy Migration.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "305dc9ccb46e5f8ee378ad60e211ac7e8498ee13045ad234efb97410815fca2a",
+      "lastIndexed": 1776756800963
     }
   },
   "indexingInProgress": false,

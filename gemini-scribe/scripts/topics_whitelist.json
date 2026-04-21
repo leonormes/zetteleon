@@ -447,108 +447,417 @@
     }
   ],
   "relations": [
-    { "sub": "software_engineering", "super": "systems_engineering" },
-    { "sub": "network_engineering", "super": "systems_engineering" },
-    { "sub": "cloud_infrastructure", "super": "systems_engineering" },
-    { "sub": "platform_engineering", "super": "systems_engineering" },
-    { "sub": "applied_mathematics", "super": "mathematics" },
-    { "sub": "philosophy", "super": "human_sciences" },
-    { "sub": "health", "super": "human_sciences" },
-    { "sub": "neurodiversity", "super": "cognitive_science" },
-    { "sub": "infrastructure_as_code", "super": "cloud_infrastructure" },
-    { "sub": "aws", "super": "cloud_infrastructure" },
-    { "sub": "azure", "super": "cloud_infrastructure" },
-    { "sub": "virtual_private_cloud", "super": "cloud_infrastructure" },
-    { "sub": "virtual_private_cloud", "super": "network_engineering" },
-    { "sub": "identity_management", "super": "cloud_infrastructure" },
-    { "sub": "access_management", "super": "cloud_infrastructure" },
-    { "sub": "secrets_management", "super": "access_management" },
-    { "sub": "hashicorp_vault", "super": "secrets_management" },
-    { "sub": "containers", "super": "platform_engineering" },
-    { "sub": "kubernetes", "super": "containers" },
-    { "sub": "docker", "super": "containers" },
-    { "sub": "gitops", "super": "infrastructure_as_code" },
-    { "sub": "helm", "super": "kubernetes" },
-    { "sub": "container_network_interface", "super": "containers" },
-    { "sub": "container_network_interface", "super": "network_engineering" },
-    { "sub": "linux_containers", "super": "containers" },
-    { "sub": "tcp_ip_protocol", "super": "network_engineering" },
-    { "sub": "dns", "super": "network_engineering" },
-    { "sub": "routing", "super": "network_engineering" },
-    { "sub": "load_balancing", "super": "network_engineering" },
-    { "sub": "hybrid_cloud_networking", "super": "network_engineering" },
-    { "sub": "hybrid_cloud_networking", "super": "cloud_infrastructure" },
-    { "sub": "zero_trust_security", "super": "network_engineering" },
-    { "sub": "encapsulation", "super": "network_engineering" },
-    { "sub": "data_centric_engineering", "super": "software_engineering" },
-    { "sub": "systems_programming", "super": "software_engineering" },
-    { "sub": "rust_programming", "super": "systems_programming" },
-    { "sub": "rust_programming", "super": "data_centric_engineering" },
-    { "sub": "type_driven_development", "super": "data_centric_engineering" },
-    { "sub": "type_driven_development", "super": "type_theory" },
-    { "sub": "software_architecture", "super": "software_engineering" },
-    { "sub": "data_oriented_design", "super": "data_centric_engineering" },
-    { "sub": "ai_engineering", "super": "software_engineering" },
-    { "sub": "large_language_models", "super": "ai_engineering" },
-    { "sub": "ai_agents", "super": "large_language_models" },
-    { "sub": "prompt_engineering", "super": "large_language_models" },
-    { "sub": "context_engineering", "super": "large_language_models" },
-    { "sub": "retrieval_augmented_generation", "super": "large_language_models" },
-    { "sub": "retrieval_augmented_generation", "super": "data_systems" },
-    { "sub": "flow_engineering", "super": "ai_engineering" },
-    { "sub": "context_rot", "super": "context_engineering" },
-    { "sub": "llm_wiki_pattern", "super": "large_language_models" },
-    { "sub": "llm_wiki_pattern", "super": "personal_knowledge_management" },
-    { "sub": "adhd", "super": "neurodiversity" },
-    { "sub": "executive_function", "super": "adhd" },
-    { "sub": "cognitive_scaffolding", "super": "cognitive_science" },
-    { "sub": "cognitive_scaffolding", "super": "personal_operating_system" },
-    { "sub": "emotional_regulation", "super": "cognitive_science" },
-    { "sub": "personal_knowledge_management", "super": "personal_operating_system" },
-    { "sub": "personal_operating_system", "super": "philosophy" },
-    { "sub": "zettelkasten", "super": "personal_knowledge_management" },
-    { "sub": "prodos", "super": "personal_operating_system" },
-    { "sub": "obsidian", "super": "personal_knowledge_management" },
-    { "sub": "extended_mind_theory", "super": "cognitive_science" },
-    { "sub": "extended_mind_theory", "super": "philosophy" },
-    { "sub": "getting_things_done", "super": "personal_operating_system" },
-    { "sub": "second_brain", "super": "personal_knowledge_management" },
-    { "sub": "data_systems", "super": "software_engineering" },
-    { "sub": "clinical_informatics", "super": "data_systems" },
-    { "sub": "clinical_informatics", "super": "health" },
-    { "sub": "omop_cdm", "super": "clinical_informatics" },
-    { "sub": "ohdsi", "super": "omop_cdm" },
-    { "sub": "relational_databases", "super": "data_systems" },
-    { "sub": "data_modelling", "super": "data_systems" },
-    { "sub": "data_modelling", "super": "applied_mathematics" },
-    { "sub": "clinical_data_architecture", "super": "clinical_informatics" },
-    { "sub": "extract_transform_load", "super": "data_systems" },
-    { "sub": "formal_logic", "super": "applied_mathematics" },
-    { "sub": "formal_logic", "super": "philosophy" },
-    { "sub": "type_theory", "super": "formal_logic" },
-    { "sub": "category_theory", "super": "applied_mathematics" },
-    { "sub": "order_theory", "super": "set_theory" },
-    { "sub": "set_theory", "super": "applied_mathematics" },
-    { "sub": "formal_methods", "super": "applied_mathematics" },
-    { "sub": "formal_methods", "super": "software_engineering" },
-    { "sub": "formal_verification", "super": "formal_methods" },
-    { "sub": "formal_verification", "super": "type_theory" },
-    { "sub": "stoicism", "super": "philosophy" },
-    { "sub": "meaning", "super": "philosophy" },
-    { "sub": "purpose", "super": "philosophy" },
-    { "sub": "resilience", "super": "philosophy" },
-    { "sub": "resilience", "super": "health" },
-    { "sub": "endurance_training", "super": "health" },
-    { "sub": "physiology", "super": "health" },
-    { "sub": "metabolic_health", "super": "physiology" },
-    { "sub": "vitality_optimisation", "super": "health" },
-    { "sub": "mounjaro_tirzepatide", "super": "metabolic_health" },
-    { "sub": "heart_rate_variability", "super": "physiology" },
-    { "sub": "cybernetics", "super": "systems_engineering" },
-    { "sub": "cybernetics", "super": "cognitive_science" },
-    { "sub": "epistemic_engineering", "super": "systems_engineering" },
-    { "sub": "epistemic_engineering", "super": "personal_knowledge_management" },
-    { "sub": "cognitive_load_theory", "super": "software_architecture" },
-    { "sub": "cognitive_load_theory", "super": "cognitive_science" }
+    {
+      "sub": "software_engineering",
+      "super": "systems_engineering"
+    },
+    {
+      "sub": "network_engineering",
+      "super": "systems_engineering"
+    },
+    {
+      "sub": "cloud_infrastructure",
+      "super": "systems_engineering"
+    },
+    {
+      "sub": "platform_engineering",
+      "super": "systems_engineering"
+    },
+    {
+      "sub": "applied_mathematics",
+      "super": "mathematics"
+    },
+    {
+      "sub": "philosophy",
+      "super": "human_sciences"
+    },
+    {
+      "sub": "health",
+      "super": "human_sciences"
+    },
+    {
+      "sub": "neurodiversity",
+      "super": "cognitive_science"
+    },
+    {
+      "sub": "infrastructure_as_code",
+      "super": "cloud_infrastructure"
+    },
+    {
+      "sub": "aws",
+      "super": "cloud_infrastructure"
+    },
+    {
+      "sub": "azure",
+      "super": "cloud_infrastructure"
+    },
+    {
+      "sub": "virtual_private_cloud",
+      "super": "cloud_infrastructure"
+    },
+    {
+      "sub": "virtual_private_cloud",
+      "super": "network_engineering"
+    },
+    {
+      "sub": "identity_management",
+      "super": "cloud_infrastructure"
+    },
+    {
+      "sub": "access_management",
+      "super": "cloud_infrastructure"
+    },
+    {
+      "sub": "secrets_management",
+      "super": "access_management"
+    },
+    {
+      "sub": "hashicorp_vault",
+      "super": "secrets_management"
+    },
+    {
+      "sub": "containers",
+      "super": "platform_engineering"
+    },
+    {
+      "sub": "kubernetes",
+      "super": "containers"
+    },
+    {
+      "sub": "docker",
+      "super": "containers"
+    },
+    {
+      "sub": "gitops",
+      "super": "infrastructure_as_code"
+    },
+    {
+      "sub": "helm",
+      "super": "kubernetes"
+    },
+    {
+      "sub": "container_network_interface",
+      "super": "containers"
+    },
+    {
+      "sub": "container_network_interface",
+      "super": "network_engineering"
+    },
+    {
+      "sub": "linux_containers",
+      "super": "containers"
+    },
+    {
+      "sub": "tcp_ip_protocol",
+      "super": "network_engineering"
+    },
+    {
+      "sub": "dns",
+      "super": "network_engineering"
+    },
+    {
+      "sub": "routing",
+      "super": "network_engineering"
+    },
+    {
+      "sub": "load_balancing",
+      "super": "network_engineering"
+    },
+    {
+      "sub": "hybrid_cloud_networking",
+      "super": "network_engineering"
+    },
+    {
+      "sub": "hybrid_cloud_networking",
+      "super": "cloud_infrastructure"
+    },
+    {
+      "sub": "zero_trust_security",
+      "super": "network_engineering"
+    },
+    {
+      "sub": "encapsulation",
+      "super": "network_engineering"
+    },
+    {
+      "sub": "data_centric_engineering",
+      "super": "software_engineering"
+    },
+    {
+      "sub": "systems_programming",
+      "super": "software_engineering"
+    },
+    {
+      "sub": "rust_programming",
+      "super": "systems_programming"
+    },
+    {
+      "sub": "rust_programming",
+      "super": "data_centric_engineering"
+    },
+    {
+      "sub": "type_driven_development",
+      "super": "data_centric_engineering"
+    },
+    {
+      "sub": "type_driven_development",
+      "super": "type_theory"
+    },
+    {
+      "sub": "software_architecture",
+      "super": "software_engineering"
+    },
+    {
+      "sub": "data_oriented_design",
+      "super": "data_centric_engineering"
+    },
+    {
+      "sub": "ai_engineering",
+      "super": "software_engineering"
+    },
+    {
+      "sub": "large_language_models",
+      "super": "ai_engineering"
+    },
+    {
+      "sub": "ai_agents",
+      "super": "large_language_models"
+    },
+    {
+      "sub": "prompt_engineering",
+      "super": "large_language_models"
+    },
+    {
+      "sub": "context_engineering",
+      "super": "large_language_models"
+    },
+    {
+      "sub": "retrieval_augmented_generation",
+      "super": "large_language_models"
+    },
+    {
+      "sub": "retrieval_augmented_generation",
+      "super": "data_systems"
+    },
+    {
+      "sub": "flow_engineering",
+      "super": "ai_engineering"
+    },
+    {
+      "sub": "context_rot",
+      "super": "context_engineering"
+    },
+    {
+      "sub": "llm_wiki_pattern",
+      "super": "large_language_models"
+    },
+    {
+      "sub": "llm_wiki_pattern",
+      "super": "personal_knowledge_management"
+    },
+    {
+      "sub": "adhd",
+      "super": "neurodiversity"
+    },
+    {
+      "sub": "executive_function",
+      "super": "adhd"
+    },
+    {
+      "sub": "cognitive_scaffolding",
+      "super": "cognitive_science"
+    },
+    {
+      "sub": "cognitive_scaffolding",
+      "super": "personal_operating_system"
+    },
+    {
+      "sub": "emotional_regulation",
+      "super": "cognitive_science"
+    },
+    {
+      "sub": "personal_knowledge_management",
+      "super": "personal_operating_system"
+    },
+    {
+      "sub": "personal_operating_system",
+      "super": "philosophy"
+    },
+    {
+      "sub": "zettelkasten",
+      "super": "personal_knowledge_management"
+    },
+    {
+      "sub": "prodos",
+      "super": "personal_operating_system"
+    },
+    {
+      "sub": "obsidian",
+      "super": "personal_knowledge_management"
+    },
+    {
+      "sub": "extended_mind_theory",
+      "super": "cognitive_science"
+    },
+    {
+      "sub": "extended_mind_theory",
+      "super": "philosophy"
+    },
+    {
+      "sub": "getting_things_done",
+      "super": "personal_operating_system"
+    },
+    {
+      "sub": "second_brain",
+      "super": "personal_knowledge_management"
+    },
+    {
+      "sub": "data_systems",
+      "super": "software_engineering"
+    },
+    {
+      "sub": "clinical_informatics",
+      "super": "data_systems"
+    },
+    {
+      "sub": "clinical_informatics",
+      "super": "health"
+    },
+    {
+      "sub": "omop_cdm",
+      "super": "clinical_informatics"
+    },
+    {
+      "sub": "ohdsi",
+      "super": "omop_cdm"
+    },
+    {
+      "sub": "relational_databases",
+      "super": "data_systems"
+    },
+    {
+      "sub": "data_modelling",
+      "super": "data_systems"
+    },
+    {
+      "sub": "data_modelling",
+      "super": "applied_mathematics"
+    },
+    {
+      "sub": "clinical_data_architecture",
+      "super": "clinical_informatics"
+    },
+    {
+      "sub": "extract_transform_load",
+      "super": "data_systems"
+    },
+    {
+      "sub": "formal_logic",
+      "super": "applied_mathematics"
+    },
+    {
+      "sub": "formal_logic",
+      "super": "philosophy"
+    },
+    {
+      "sub": "type_theory",
+      "super": "formal_logic"
+    },
+    {
+      "sub": "category_theory",
+      "super": "applied_mathematics"
+    },
+    {
+      "sub": "order_theory",
+      "super": "set_theory"
+    },
+    {
+      "sub": "set_theory",
+      "super": "applied_mathematics"
+    },
+    {
+      "sub": "formal_methods",
+      "super": "applied_mathematics"
+    },
+    {
+      "sub": "formal_methods",
+      "super": "software_engineering"
+    },
+    {
+      "sub": "formal_verification",
+      "super": "formal_methods"
+    },
+    {
+      "sub": "formal_verification",
+      "super": "type_theory"
+    },
+    {
+      "sub": "stoicism",
+      "super": "philosophy"
+    },
+    {
+      "sub": "meaning",
+      "super": "philosophy"
+    },
+    {
+      "sub": "purpose",
+      "super": "philosophy"
+    },
+    {
+      "sub": "resilience",
+      "super": "philosophy"
+    },
+    {
+      "sub": "resilience",
+      "super": "health"
+    },
+    {
+      "sub": "endurance_training",
+      "super": "health"
+    },
+    {
+      "sub": "physiology",
+      "super": "health"
+    },
+    {
+      "sub": "metabolic_health",
+      "super": "physiology"
+    },
+    {
+      "sub": "vitality_optimisation",
+      "super": "health"
+    },
+    {
+      "sub": "mounjaro_tirzepatide",
+      "super": "metabolic_health"
+    },
+    {
+      "sub": "heart_rate_variability",
+      "super": "physiology"
+    },
+    {
+      "sub": "cybernetics",
+      "super": "systems_engineering"
+    },
+    {
+      "sub": "cybernetics",
+      "super": "cognitive_science"
+    },
+    {
+      "sub": "epistemic_engineering",
+      "super": "systems_engineering"
+    },
+    {
+      "sub": "epistemic_engineering",
+      "super": "personal_knowledge_management"
+    },
+    {
+      "sub": "cognitive_load_theory",
+      "super": "software_architecture"
+    },
+    {
+      "sub": "cognitive_load_theory",
+      "super": "cognitive_science"
+    }
   ]
 }

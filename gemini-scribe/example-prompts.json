@@ -1,18 +1,18 @@
 [
   {
     "icon": "sparkles",
-    "text": "Examine my Dailies from the past week to identify unresolved tasks and translate them into physical next actions within a new HEAD note in the Workbench"
-  },
-  {
-    "icon": "book-open",
-    "text": "Review the Zettelkasten for notes on state transformation and formal systems to draft a synthesis in the Workbench regarding the mathematical modeling of software actions"
-  },
-  {
-    "icon": "search",
-    "text": "Audit the Linux Networking MoC against my recent technical notes in the Infrastructure folder to identify gaps in our current network hybrid debugging protocols"
+    "text": "Analyse the HEAD notes in the Workbench regarding the Divided Brain and LLM language understanding to draft a new declarative Zettelkasten note on cognitive constraints in AI architecture"
   },
   {
     "icon": "file-plus",
-    "text": "Process the latest Readwise exports in the Inbox to extract declarative insights on cognitive load and promote them as new notes in the Zettelkasten using the ProdOS metadata standard"
+    "text": "Apply the Research-to-Action Protocol to the draft on Deconstructing Agentic Frameworks and generate a structured operational protocol in the ops folder"
+  },
+  {
+    "icon": "calendar",
+    "text": "Review recent entries in Dailies to identify recurring executive function challenges and update the ADHD Functional Neurology and Scaffolding MoC with new environmental supports"
+  },
+  {
+    "icon": "search",
+    "text": "Search the Library for notes on Model Context Protocol and Graph-Based Orchestration to draft a new Source of Truth document for multi-agent state machine logic"
   }
 ]

@@ -1,20 +1,23 @@
 ---
-title: "You said https://youtu.be/rkZzg7Vowao?si=u8A3Zx1N7..."
-source: "https://gemini.google.com/app/24b9ab74127a1645"
 captured: "2026-04-20T14:13:33+01:00 2026-04-20T14:13:33+01:00"
+created: 2026-04-20T13:13:35+00:00
+modified: 2026-04-20T13:21:28+00:00
+source: "https://gemini.google.com/app/24b9ab74127a1645"
 status: "processing"
-tags:
-  - "input"
+tags: ["input"]
+title: HEAD You said httpsyoutu.berkZzg7Vowao?si=u8A3Zx1N7...
 type: "head"
 ---
-## Raw Output / Content
-**You**
 
-https://youtu.be/rkZzg7Vowao?si=u8A3Zx1N7TceQVdD
+## Raw Output / Content
+
+You
+
+<https://youtu.be/rkZzg7Vowao?si=u8A3Zx1N7TceQVdD>
 
 ---
 
-**Gemini**
+Gemini
 
 This video from Quanta Magazine features Leslie Lamport, a pioneering computer scientist who transformed the field by applying mathematical rigour to computer systems. Lamport discusses how his background as a mathematician shaped his approach to algorithms and distributed computing.
 
@@ -26,14 +29,14 @@ Lamport views computer science as an extension of mathematics. He argues that an
 
 \]. This perspective led him to distinguish between "programming" and "coding":
 
-- **Coding** is compared to typing; it is the mechanical act of writing code \[
+- Coding is compared to typing; it is the mechanical act of writing code \[
 	[01:19](http://www.youtube.com/watch?v=rkZzg7Vowao&t=79)
 	\].
-- **Programming** is the mental effort of designing the underlying ideas and logic, which should ideally be done using mathematical thinking rather than a specific programming language \[
+- Programming is the mental effort of designing the underlying ideas and logic, which should ideally be done using mathematical thinking rather than a specific programming language \[
 	[01:28](http://www.youtube.com/watch?v=rkZzg7Vowao&t=88)
 	\].
 
-To help engineers bridge this gap, he developed **TLA+** (Temporal Logic of Actions), a formal specification language used to design and verify complex systems before a single line of code is written \[
+To help engineers bridge this gap, he developed TLA+ (Temporal Logic of Actions), a formal specification language used to design and verify complex systems before a single line of code is written \[
 
 [02:22](http://www.youtube.com/watch?v=rkZzg7Vowao&t=142)
 
@@ -47,13 +50,13 @@ One of Lamport's most significant contributions is his work on distributed syste
 
 \].
 
-His breakthrough in this area came from an analogy with **Special Relativity**. He realised that in a distributed system, just as in physics, there is no absolute "same time" for different observers. Instead, there is only a notion of "causality"—whether one event happened before another because information could have travelled between them \[
+His breakthrough in this area came from an analogy with Special Relativity. He realised that in a distributed system, just as in physics, there is no absolute "same time" for different observers. Instead, there is only a notion of "causality"—whether one event happened before another because information could have travelled between them \[
 
 [04:12](http://www.youtube.com/watch?v=rkZzg7Vowao&t=252)
 
 \].
 
-To solve the problem of synchronisation, he proposed the **State Machine** approach. By ensuring all computers in a system cooperate to implement a single, abstract state machine, they can maintain a consistent view of data across the network \[
+To solve the problem of synchronisation, he proposed the State Machine approach. By ensuring all computers in a system cooperate to implement a single, abstract state machine, they can maintain a consistent view of data across the network \[
 
 [05:01](http://www.youtube.com/watch?v=rkZzg7Vowao&t=301)
 
@@ -61,7 +64,7 @@ To solve the problem of synchronisation, he proposed the **State Machine** appro
 
 ### The Bakery Algorithm
 
-Lamport also discusses the **Bakery Algorithm**, designed to solve the "mutual exclusion" problem, which prevents multiple processes from using the same resource (like a printer) at the same time \[
+Lamport also discusses the Bakery Algorithm, designed to solve the "mutual exclusion" problem, which prevents multiple processes from using the same resource (like a printer) at the same time \[
 
 [06:25](http://www.youtube.com/watch?v=rkZzg7Vowao&t=385)
 

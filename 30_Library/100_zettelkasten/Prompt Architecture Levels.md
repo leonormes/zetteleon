@@ -1,15 +1,19 @@
 ---
 created: 2026-04-13T14:41:15+00:00
-created_utc: "2026-04-13T11:20:00Z"
+created_utc: 2026-04-13T11:20:00Z
 kind: distinction
 modified: 2026-04-19T18:30:40+00:00
-source_title: "AI Agent Architecture and the Modern Tech Stack"
-source_url: "https://gemini.google.com/app/509937047bd0b955"
+source_title: AI Agent Architecture and the Modern Tech Stack
+source_url: https://gemini.google.com/app/509937047bd0b955
 status: seed
-tags: [chain-of-thought, few-shot, prompt-engineering, zero-shot]
+tags:
+  - chain-of-thought
+  - few-shot
+  - prompt-engineering
+  - zero-shot
 title: Prompt Architecture Levels
 type: atom
-upstream: "[[HEAD You said Persona You are an expert research analy... 3]]"
+upstream: "[[HEAD The Failure of Human-Centric Design]]"
 ---
 
 ## Prompt Architecture Levels
