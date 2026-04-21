@@ -1,11 +1,11 @@
 ---
 captured: "2026-04-20T14:20:27+01:00 2026-04-20T14:20:27+01:00"
 created: 2026-04-20T13:20:28+00:00
-modified: 2026-04-21T07:13:48+00:00
+modified: 2026-04-21T09:51:56+00:00
 source: "https://gemini.google.com/app/0d22da8d9d33b60e"
 status: "processing"
 tags: ["input"]
-title: HEAD You said Persona You are an expert research analy... 3
+title: HEAD The Failure of Human-Centric Design
 type: "head"
 ---
 

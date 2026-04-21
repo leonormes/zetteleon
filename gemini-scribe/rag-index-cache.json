@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "storeName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-  "lastSync": 1776761544336,
+  "lastSync": 1776765282755,
   "files": {
     "assets/cropped_PXL_20250518_165827884.PORTRAIT.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -8675,8 +8675,8 @@
     },
     "20_Thinking/21_Workbench/HEAD You said I am using Auth0 for login in an app. I a....md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "c4e9b463d1dd9189a64e5b1351e52b2bf1ab96f28cb2beca49c7397a415ae50d",
-      "lastIndexed": 1775723061223
+      "contentHash": "d0ee992a78df20606a76de602a4ea4ab882c8e2004c35f26ba28515f86dcbf6e",
+      "lastIndexed": 1776765203249
     },
     "CLAUDE.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -8700,8 +8700,8 @@
     },
     "20_Thinking/21_Workbench/HEAD You said Persona You are an expert research analy... 1.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "7f9569fea94fc444afde5e95f76483ce8b6522524515ea220e5eb22f7c9ca6a4",
-      "lastIndexed": 1775723056628
+      "contentHash": "86227f0c48bc6439632f5ca7f7e2e75c775f0fc1a53e565535ca129c11e5cd14",
+      "lastIndexed": 1776765214121
     },
     "00_Inbox/Incomplete Trigger Review from your Long-Term Memory.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -9410,8 +9410,8 @@
     },
     "20_Thinking/21_Workbench/HEAD LLMs Don't Need More Parameters. They Need Loops..md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "02e3518487fafb8c91befce5309289b4ba0e59a2ae64e4db8a8953c6215b0bd0",
-      "lastIndexed": 1776691327103
+      "contentHash": "c295ca2a21eba84ce803c7e748fc4907a2be67796ed1a0acd2864d044e8bfe2d",
+      "lastIndexed": 1776765170722
     },
     "30_Library/100_zettelkasten/Multi-Page Ingestion Impact.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -9695,13 +9695,13 @@
     },
     "20_Thinking/21_Workbench/HEAD ‎OMOP Common Data Model.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "3046076eddd698f485a4a0e11017dcd97b9024b0cd013cf14eceef1e2e7538a1",
-      "lastIndexed": 1776325579169
+      "contentHash": "810f127f8f5ba98ff838fe25381468957f394d0b6d3262fbfbda010268a1c2e8",
+      "lastIndexed": 1776765235732
     },
     "20_Thinking/21_Workbench/HEAD - Person_ID.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "a0a79df3f874567e79d0eb292e728d88c4bfa9647e8652df723d54d06f1200e2",
-      "lastIndexed": 1776691309053
+      "contentHash": "2c13335392b0fb5f096d56a5b9beda673fc35a1ea7da2f4f0475be583d8076f9",
+      "lastIndexed": 1776765146782
     },
     "30_Library/200_projects/00_Active_Projects/OMOP/Azure Batch OMOP Worker - Clean-State Runbook.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -9730,8 +9730,8 @@
     },
     "20_Thinking/21_Workbench/HEAD - 2026-04-16 1016.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "6b7bd1df626900abe87c76a3bbfca399ac594b89b7b40546e47193d9161080a5",
-      "lastIndexed": 1776691301986
+      "contentHash": "f66242526d256a96e38e7349a1a36995f046c9bf8189688b27cd67a84de90147",
+      "lastIndexed": 1776765125553
     },
     "30_Library/200_projects/00_Active_Projects/OMOP/12 Million Patient Synthetic NHS-OMOP Pipeline.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -10215,8 +10215,8 @@
     },
     "20_Thinking/21_Workbench/HEAD - 2026-04-19 1013.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "3840143da968dc1b7a314c06ba1994b73af36b186797b64da16a8eb89de33594",
-      "lastIndexed": 1776691305331
+      "contentHash": "159667c8a3836d4701cbdf7c377320e8ebdeec23aefdaf5b2435a7e0ad779210",
+      "lastIndexed": 1776765129898
     },
     "00_Inbox/Readwise/Full Document Contents/GitHub - RomyHaikgim Goal-in-Mind framework for deviation prevention and token usage reduction · GitHub.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -10255,18 +10255,18 @@
     },
     "20_Thinking/21_Workbench/HEAD - Deconstructing Agentic Frameworks.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "0db4d079f63cde42b65fe5bc8a25a23bf8bd79d26f4473787b17f5fac38aa783",
-      "lastIndexed": 1776686187328
+      "contentHash": "725de731cb0c1fe91a0ee2d294aeac74ec7a88afaf64a702c20e13ad9284e9a3",
+      "lastIndexed": 1776765137964
     },
     "20_Thinking/21_Workbench/HEAD - Exploring time.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "491dc941e63b8561f320a9f961f9c1332e1875d850204f4860ac7f699af77764",
-      "lastIndexed": 1776689866039
+      "contentHash": "bdab01c41f32f5c6050da6b2def88f5d42ccfd01826b4503d21ec4176dfbf6ee",
+      "lastIndexed": 1776765142580
     },
     "20_Thinking/21_Workbench/HEAD - AI Tools.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "b6cb7f8030fb12259a9d7fb61a2c582e09acd864953867b8ceb9d2db08839d2b",
-      "lastIndexed": 1776686228085
+      "contentHash": "b212f95fe5db1dca1dbba015fb752dbb9cee21930bae0a10aff0e4ba59fae9ef",
+      "lastIndexed": 1776765134173
     },
     "00_Inbox/Readwise/Full Document Contents/informationOS 0.5.1.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -10275,18 +10275,18 @@
     },
     "20_Thinking/21_Workbench/HEAD You said httpsyoutu.berkZzg7Vowao?si=u8A3Zx1N7....md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "2d630ae496aba5eb6601ac22d7541ef29166130bb88b1cf7c1e4aa387201b0f4",
-      "lastIndexed": 1776690821188
+      "contentHash": "987e520f38cd0dfb09564c352cefce3410c40c2f862d248ad950b4809e5fe54c",
+      "lastIndexed": 1776765231041
     },
     "20_Thinking/21_Workbench/HEAD You said Persona You are an expert research analy....md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "3367cd9b09567cbabb20b199cef271c356bd4958c19f6b18cf4c72f906b0db2c",
-      "lastIndexed": 1776690840779
+      "contentHash": "7f516d16655fcfe55aec62478d6d35d8700933ac816e25d4276ae97f8d680621",
+      "lastIndexed": 1776765216997
     },
     "20_Thinking/21_Workbench/HEAD You said Yes! Order theory is highly applicable to....md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "7cc63ca8ffb8e090d8d7c1d7f16f8e05ed3fcf2a10b88936a6215aa0231064d1",
-      "lastIndexed": 1776690853065
+      "contentHash": "7c7537ddae8a69a57a04dba6b3b669e4ee4b930288d171c83a88139a448154ab",
+      "lastIndexed": 1776765223521
     },
     "20_Thinking/21_Workbench/HEAD You said We are amazed my LLM and the illusion it ....md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -10295,43 +10295,43 @@
     },
     "20_Thinking/21_Workbench/HEAD The paradox of LLM language understanding versus human learning.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "3f3e5cf0448d0480e80c73336a2eff142f0e882e98bf6164498f68eb86f32caf",
-      "lastIndexed": 1776757801759
+      "contentHash": "c73593163281220f801b7c8551e3c1761aaf2eb6ac1e4f9a388506f59e3d4181",
+      "lastIndexed": 1776765190874
     },
     "20_Thinking/21_Workbench/HEAD Deep merging YAML files in Terragrunt.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "6209224bf023f4b1db2693ab0e5914e33cb3d7730c0c7c11cb5978a1f779bf9c",
-      "lastIndexed": 1776757350608
+      "contentHash": "15ea38082670f21cc0ed2941952cc10c730d78c33245e7c158790a01d5ebc58f",
+      "lastIndexed": 1776765163218
     },
     "20_Thinking/I want to create a mathematical model of team unde.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "7c8b99511724eed88d9e5e750e9cf2e019ef004c67a91b74de434d90cce930f9",
-      "lastIndexed": 1776691298421
+      "contentHash": "7a94566a9bb5e92a0b906805c97bb3aa5c386396a6cadaef04c0736a346301e0",
+      "lastIndexed": 1776765121446
     },
     "20_Thinking/21_Workbench/HEAD AI Limitations Interpolation, Not Extrapolation.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "cced7fbd7abf00dc9dd5b12dcc9d017ac28db8173667e848a1227b7ba0da4a44",
-      "lastIndexed": 1776691312125
+      "contentHash": "053097e0266a40205c2c27377f0742db7595ea06dd8083b0b99cd07703dd7c4c",
+      "lastIndexed": 1776765150331
     },
     "20_Thinking/21_Workbench/HEAD AI Research Analyst Deconstructs AGI Video.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "150318838b135c6307e2b8eca8dfe4ba051430b0b6e81bf44ab6ea9d45ee653e",
-      "lastIndexed": 1776691315605
+      "contentHash": "909eee1a8aba5ecf3b3f7599d3b5df596aaf62aeb7806d9330fd297af19da2d5",
+      "lastIndexed": 1776765159108
     },
     "20_Thinking/21_Workbench/HEAD Analysis of Multi-model Integration in Terminal-based Development Environments.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "53a05166386ecb83ab582c30094faa1220073111cdb3389181b3ae55efd26128",
-      "lastIndexed": 1776691319395
+      "contentHash": "804eac19f3f75caeccfe27b3aeef2b64f3fc5afb5b70042f41f428f35813efbd",
+      "lastIndexed": 1776765155211
     },
     "20_Thinking/21_Workbench/HEAD Embeddings Explained Meaning as Geometry.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "8f3378dfa2ed4bcc3ce0d6cf0781e0eca9a40262c5a4e2960dae5553bb557f17",
-      "lastIndexed": 1776691322620
+      "contentHash": "70bc4036fbcb87c5303ebc2dc0eb77ee64bc72f5027896a27fd8830aec3ec1da",
+      "lastIndexed": 1776765166762
     },
     "20_Thinking/21_Workbench/HEAD MemPalace AI Memory System Explained.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "f26c562284e91df45bba7a1a8ad82b230b262b56854cecfa277cc97d5848cf62",
-      "lastIndexed": 1776691330858
+      "contentHash": "2d855662a992c6e66202638af85b5bb5d7b7dd3d02eb8a13e9958a96ce08d819",
+      "lastIndexed": 1776765174868
     },
     "01_journals/Dailies/2026-04-21.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -10340,13 +10340,13 @@
     },
     "20_Thinking/21_Workbench/HEAD The Failure of Human-Centric Design.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "72060302102caa3b876fa509e74e299ebbd3a5582edb224657dea41c1234dad6",
-      "lastIndexed": 1776755645168
+      "contentHash": "9c92bcba64307ae279add3e53859ff8282eeb61afb61295de152793e9506a6a4",
+      "lastIndexed": 1776765245204
     },
     "20_Thinking/21_Workbench/HEAD The Divided Brain.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "649138cb9ec5df6c6993769e813c210e03f9309d6a31667c7a1b5b6feea2fb6d",
-      "lastIndexed": 1776756828083
+      "contentHash": "b627b54ec235b88c0552e4683f89c968ac08cd099d15eb306d30575360d6dfc6",
+      "lastIndexed": 1776765248552
     },
     "30_Library/200_projects/00_Active_Projects/Refined Deployment/EBS CSI Driver Policy Migration.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -10355,38 +10355,38 @@
     },
     "20_Thinking/21_Workbench/HEAD The Agentic Paradox.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "e41b03a00d3445a2590f94cf171700cbb97c4eb18ac1495ccf82cd57985ccb7a",
-      "lastIndexed": 1776756918947
+      "contentHash": "d671c320d0ffd16bd2b6f319e630fd1a250463af7d6f32100bccc3925c844ec1",
+      "lastIndexed": 1776765252589
     },
     "20_Thinking/21_Workbench/HEAD The CUE project is shifting towards pragmatism.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "360380f246e67d6be0b61ec8f4287ceabe5fbddcf2be9c0c8c9a12dd7ea50cc1",
-      "lastIndexed": 1776757059450
+      "contentHash": "fd4638f3b5ef5799e4e2a122848878aef8109a930cf04a3aa679af04ba17d590",
+      "lastIndexed": 1776765256574
     },
     "20_Thinking/21_Workbench/HEAD compile-time hierarchies of encapsulation that match the domain model.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "9000d51536b7f32076cc6e84b9176f9fe65b8bb0e5975ca018948b4a699e7580",
-      "lastIndexed": 1776757098570
+      "contentHash": "682b83c077ff2c711e1324550d0264a5d68b86f022029623bed48a35099d2461",
+      "lastIndexed": 1776765259888
     },
     "20_Thinking/21_Workbench/HEAD Coding vs. Software Engineering.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "1df8cd6298078aaa83fd88a7adca575bcedf9f43c77e7b2c6da7da4fd0fafba4",
-      "lastIndexed": 1776757121631
+      "contentHash": "9f29d8f47394a7ee818dab5674281e39af7f522cf375b5f5bed543e4aec06710",
+      "lastIndexed": 1776765263312
     },
     "20_Thinking/21_Workbench/HEAD Reinforcement Learning from Human Feedback.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "989a3e860112ad8639bceb68c4b5002aecf03cc581c6cf0341c602ce1876be67",
-      "lastIndexed": 1776757136904
+      "contentHash": "84516f517f945e25b48d75b1f0af1513d61af68b275b6830f4a20cb4a848d319",
+      "lastIndexed": 1776765266852
     },
     "20_Thinking/21_Workbench/HEAD How LLMs Finally Get Scalable Memory.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "a942e336073c2c0c35a5170e6ab9d3dd724537295310560fe745ce1501ad5484",
-      "lastIndexed": 1776757172009
+      "contentHash": "4a48c2fbe3533a886f7570dd057c8eca885bb8b49a5f015905042b9d7d1b034d",
+      "lastIndexed": 1776765271146
     },
     "20_Thinking/21_Workbench/HEAD Moving from Trees to Posets.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "5d5c51831b1f289317c990f10a51e6d9bd2830b57438158ee9a08b571c08c256",
-      "lastIndexed": 1776757186540
+      "contentHash": "3d3ff14ec796974fab54ecb00350a2f4c6215880016f592a04a6bbd61e8cd5f7",
+      "lastIndexed": 1776765274519
     },
     "30_Library/400_indexes/Colaiuta Playlist.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -10395,8 +10395,58 @@
     },
     "20_Thinking/21_Workbench/HEAD five-step protocol for cleaving, atomising, and mapping disparate inputs.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "83dd8d8e598969aa054927e8543c4a1a6b371fb4906a8c12109c46540903c390",
-      "lastIndexed": 1776761544336
+      "contentHash": "76aa8c77bf55801621ab4047e91eecca3502eacd07690f1cbf6954a41dae057d",
+      "lastIndexed": 1776765278405
+    },
+    "20_Thinking/21_Workbench/HEAD Propositions as knowledge foundations.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "2dd21906503e57f5c8ccfe031541e31b0a68e079fd79a989f44d732734b7b4f6",
+      "lastIndexed": 1776765282755
+    },
+    "20_Thinking/21_Workbench/HEAD Rules For Deep Work — Updated for 2026.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "d95971c2e40b6615ac699f51fce860a490b6b084415b213c1d92e916fe616db2",
+      "lastIndexed": 1776765177661
+    },
+    "20_Thinking/21_Workbench/HEAD The Compiler Analogy.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "2c22296c1d7c936ee798f57a44ebaeed14d618e6a4fb20d4b133024b6b3b6c4d",
+      "lastIndexed": 1776765181981
+    },
+    "20_Thinking/21_Workbench/HEAD The Untold Story of Databases.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "2a3c29d776e20254f9739c575aba713b682f7e48e77f410bcf09f3f023177f0f",
+      "lastIndexed": 1776765185831
+    },
+    "20_Thinking/21_Workbench/HEAD The integration of generative artificial intelligence.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "3eeb40d581ba82d4e87954cc19cd542f5f964719e2a32fce30ca187d987c7be7",
+      "lastIndexed": 1776765194416
+    },
+    "20_Thinking/21_Workbench/HEAD You said Httpsyoutube.comwatch?v=gCUDDg3I1as&s....md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "e9312a60355c6f9a8f5cd4c9f028f85ae5d389aa14f6eec15eaf44b03767396c",
+      "lastIndexed": 1776765199286
+    },
+    "20_Thinking/21_Workbench/HEAD You said I got an email from ee  WE STILL NEED YOU....md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "0dc554e29250276d0183e263346ca3bddfc19b85c38fa408821a5adf93682480",
+      "lastIndexed": 1776765207067
+    },
+    "20_Thinking/21_Workbench/HEAD You said I have been diagnosed with ADHD. But my s....md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "3242342322786b8a9d49b6a0feb603661e46724ab52d14c64b86787d20ff52e5",
+      "lastIndexed": 1776765210331
+    },
+    "20_Thinking/21_Workbench/HEAD You said create the instruction wiki for how to do....md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "b5ee0136dab7525babfa86e300b2dabfe759cbb83ff93a447cb099db560593f7",
+      "lastIndexed": 1776765227948
+    },
+    "20_Thinking/21_Workbench/I'm interested in learning about Viktor Frankl's p.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "69459aec881fcba6cf26bfdd70bda36cf0be7985687eea9d7781f97b2dfa3581",
+      "lastIndexed": 1776765241540
     }
   },
   "indexingInProgress": false,

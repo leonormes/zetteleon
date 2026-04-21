@@ -1,7 +1,7 @@
 ---
 captured: "2026-04-20T14:14:05+01:00 2026-04-20T14:14:05+01:00"
 created: 2026-04-20T13:14:07+00:00
-modified: 2026-04-20T13:21:31+00:00
+modified: 2026-04-21T09:51:56+00:00
 source: "https://gemini.google.com/app/c1ec548bb1ac9834"
 status: "processing"
 tags: ["input", FcaAttr, FcaBlock, FcaBlockValidated, FcaDiscriminator, FcaLevel, ProdosBlock]

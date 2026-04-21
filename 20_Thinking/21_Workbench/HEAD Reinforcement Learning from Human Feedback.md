@@ -1,11 +1,11 @@
 ---
 captured: "2026-04-20T14:21:10+01:00 2026-04-20T14:21:10+01:00"
 created: 2026-04-20T13:21:11+00:00
-modified: 2026-04-20T13:21:32+00:00
+modified: 2026-04-21T09:51:56+00:00
 source: "https://gemini.google.com/app/54147e19d66d0c67"
 status: "processing"
 tags: ["input"]
-title: HEAD You said Persona You are an expert research analy... 4
+title: HEAD Reinforcement Learning from Human Feedback
 type: "head"
 ---
 

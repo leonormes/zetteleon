@@ -1,11 +1,11 @@
 ---
 captured: "2026-04-20T14:19:17+01:00 2026-04-20T14:19:17+01:00"
 created: 2026-04-20T13:19:18+00:00
-modified: 2026-04-20T13:21:32+00:00
+modified: 2026-04-21T09:51:56+00:00
 source: "https://gemini.google.com/app/0fb5aa3cc6a10332"
 status: "processing"
 tags: ["input"]
-title: HEAD You said Persona You are an expert research analy... 2
+title: HEAD How LLMs Finally Get Scalable Memory
 type: "head"
 ---
 

@@ -1,7 +1,7 @@
 ---
 captured: "2026-04-20T11:33:24+01:00 2026-04-20T11:33:24+01:00"
 created: 2026-04-20T10:33:35+00:00
-modified: 2026-04-20T13:21:28+00:00
+modified: 2026-04-21T09:51:54+00:00
 source: "https://gemini.google.com/app/eaa7b60b9940e6a4"
 status: "processing"
 tags: ["input"]

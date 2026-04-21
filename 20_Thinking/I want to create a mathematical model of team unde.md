@@ -1,6 +1,6 @@
 ---
 created: 2026-04-08T14:38:46+00:00
-modified: 2026-04-20T13:21:27+00:00
+modified: 2026-04-21T09:51:53+00:00
 title: I want to create a mathematical model of team unde
 ---
 

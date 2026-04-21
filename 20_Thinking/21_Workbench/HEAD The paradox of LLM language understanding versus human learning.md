@@ -1,7 +1,7 @@
 ---
 captured: 2026-04-20T14:14:16+01:00 2026-04-20T14:14:16+01:00
 created: 2026-04-20T13:14:18+00:00
-modified: 2026-04-21T07:49:54+00:00
+modified: 2026-04-21T09:51:54+00:00
 source: https://gemini.google.com/app/95ac6e4184ea8759
 status: processing
 tags: [input]
@@ -32,7 +32,6 @@ When we say an LLM needs "massive compute" and children don't, we're hiding seve
 So the comparison is really: _child with pre-trained brain + rich multimodal embodied signal_ vs. _LLM starting from scratch with only text_. Framed that way, the LLM's success with text alone is arguably the more surprising half.
 
 ## But Your Deeper point stands—and It's about Co-evolution
-
 
 Human languages have been shaped, generation by generation, to be learnable by human children. Any feature that made acquisition too hard got filtered out, because it failed to transmit. Languages are the survivors of a brutal selection process where the judges are three-year-olds.
 
