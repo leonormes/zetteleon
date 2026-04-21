@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "storeName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-  "lastSync": 1776771815857,
+  "lastSync": 1776786768913,
   "files": {
     "assets/cropped_PXL_20250518_165827884.PORTRAIT.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -10263,11 +10263,6 @@
       "contentHash": "b212f95fe5db1dca1dbba015fb752dbb9cee21930bae0a10aff0e4ba59fae9ef",
       "lastIndexed": 1776765134173
     },
-    "00_Inbox/Readwise/Full Document Contents/informationOS 0.5.1.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "babb9966c8507e428ea4c1c0b78d1a19d599e1bb0167dda32d6396c3c64215f7",
-      "lastIndexed": 1776689862631
-    },
     "20_Thinking/21_Workbench/HEAD You said httpsyoutu.berkZzg7Vowao?si=u8A3Zx1N7....md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "987e520f38cd0dfb09564c352cefce3410c40c2f862d248ad950b4809e5fe54c",
@@ -10340,8 +10335,8 @@
     },
     "20_Thinking/21_Workbench/HEAD The Divided Brain.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "b627b54ec235b88c0552e4683f89c968ac08cd099d15eb306d30575360d6dfc6",
-      "lastIndexed": 1776765248552
+      "contentHash": "044a228a420591f5a707b841afcb64b4b121978c206d87b9d86b6684fdce4348",
+      "lastIndexed": 1776775543422
     },
     "30_Library/200_projects/00_Active_Projects/Refined Deployment/EBS CSI Driver Policy Migration.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -10355,8 +10350,8 @@
     },
     "20_Thinking/21_Workbench/HEAD The CUE project is shifting towards pragmatism.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "fd4638f3b5ef5799e4e2a122848878aef8109a930cf04a3aa679af04ba17d590",
-      "lastIndexed": 1776765256574
+      "contentHash": "d2a20828ca4150dddbb49d41b1e2bc7a067186aa2e45409121d8d17212b65d99",
+      "lastIndexed": 1776778207064
     },
     "20_Thinking/21_Workbench/HEAD compile-time hierarchies of encapsulation that match the domain model.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -10365,8 +10360,8 @@
     },
     "20_Thinking/21_Workbench/HEAD Coding vs. Software Engineering.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "9f29d8f47394a7ee818dab5674281e39af7f522cf375b5f5bed543e4aec06710",
-      "lastIndexed": 1776765263312
+      "contentHash": "a9c152387b46557aa47344a6c34886a806bc8c3e69487f95921e30fcc00cdaba",
+      "lastIndexed": 1776781212708
     },
     "20_Thinking/21_Workbench/HEAD Reinforcement Learning from Human Feedback.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -10380,8 +10375,8 @@
     },
     "20_Thinking/21_Workbench/HEAD Moving from Trees to Posets.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "3d3ff14ec796974fab54ecb00350a2f4c6215880016f592a04a6bbd61e8cd5f7",
-      "lastIndexed": 1776765274519
+      "contentHash": "68abdea033b86c21768d919528cc39d9f66ed322df8e01d0ec3dfe7d653749a6",
+      "lastIndexed": 1776775547655
     },
     "30_Library/400_indexes/Colaiuta Playlist.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -10445,18 +10440,13 @@
     },
     "20_Thinking/21_Workbench/HEAD lattice cryptography.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "fdfc08a9aa885510888e3ad58a742c959bd87f197dd64d40aa68aa06fcc34caa",
-      "lastIndexed": 1776768049159
-    },
-    "00_Inbox/Readwise/Full Document Contents/My AI native Obsidian Setup.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "c4a593b5f5dc621bd0826f465853194ba9f4d6107417a5a26bec6fe9c5533749",
-      "lastIndexed": 1776769873239
+      "contentHash": "2e2ba46521f2ea114c49543cd771e1089e4786b86e922e63da9e4672446f0d17",
+      "lastIndexed": 1776775552288
     },
     "20_Thinking/21_Workbench/HEAD - 2026-04-21 1224.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "8e4bdbb21d51538b5b76f2da6cd4684431da180b6794f6124ae5237dc57bc6ed",
-      "lastIndexed": 1776771815857
+      "contentHash": "e60ffac761b0f950e64bf3a9a37007d4e5e7e8688ec855822af4304d030ee3af",
+      "lastIndexed": 1776774028382
     }
   },
   "indexingInProgress": false,
