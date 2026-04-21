@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "storeName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-  "lastSync": 1776765282755,
+  "lastSync": 1776770956626,
   "files": {
     "assets/cropped_PXL_20250518_165827884.PORTRAIT.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -3435,18 +3435,13 @@
     },
     "30_Library/400_indexes/Meditation Wiki Meditation Reading List.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "a4baa0cf1a67550770ca5725105369bc45e81a494a9a44a66b764fb145df07d1",
-      "lastIndexed": 1775722825680
+      "contentHash": "5a2f8541480f1afce5a7f03fe5f70878ee8600a586de419c95f7bc52417dfa9d",
+      "lastIndexed": 1776765719487
     },
     "30_Library/100_zettelkasten/www is just a normal subdomain.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "5db9f99ce2c0621881914b68569e4d792184f654d8e2ea47ee132375dc42501e",
       "lastIndexed": 1775486124904
-    },
-    "30_Library/400_indexes/Book Watchlist (General).md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "6fb67cf31625272d6ff1296cb1c668ddea8ea10307681718e6382de3e98f30ce",
-      "lastIndexed": 1775486124906
     },
     "30_Library/400_indexes/Questions I Return To.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -10447,6 +10442,21 @@
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "69459aec881fcba6cf26bfdd70bda36cf0be7985687eea9d7781f97b2dfa3581",
       "lastIndexed": 1776765241540
+    },
+    "20_Thinking/21_Workbench/HEAD lattice cryptography.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "fdfc08a9aa885510888e3ad58a742c959bd87f197dd64d40aa68aa06fcc34caa",
+      "lastIndexed": 1776768049159
+    },
+    "00_Inbox/Readwise/Full Document Contents/My AI native Obsidian Setup.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "c4a593b5f5dc621bd0826f465853194ba9f4d6107417a5a26bec6fe9c5533749",
+      "lastIndexed": 1776769873239
+    },
+    "20_Thinking/21_Workbench/HEAD - 2026-04-21 1224.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "d310caa265e6be8c465a077774f7d36df858d16d1c67f92476633c4543d3b952",
+      "lastIndexed": 1776770956626
     }
   },
   "indexingInProgress": false,
