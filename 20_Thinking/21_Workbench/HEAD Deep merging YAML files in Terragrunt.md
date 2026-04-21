@@ -1,7 +1,7 @@
 ---
 captured: "2026-04-20T14:16:05+01:00 2026-04-20T14:16:05+01:00"
 created: 2026-04-20T13:16:06+00:00
-modified: 2026-04-20T13:21:32+00:00
+modified: 2026-04-21T07:42:23+00:00
 source: "https://claude.ai/chat/58334209-ccbe-4e25-a405-1736619c34dd"
 status: "processing"
 tags: ["input"]
@@ -23,7 +23,7 @@ Since you're already on Terragrunt, you have a native `deep_merge()`—no extern
 
 ## Terragrunt (simplest, given Your stack)
 
-```
+```hcl
 # terragrunt.hcl
 locals {
   common   = yamldecode(file("${get_terragrunt_dir()}/common.yaml"))
@@ -42,7 +42,7 @@ inputs = {
 
 Terraform has no native deep merge. The lightest option is the `Invicton-Labs/deepmerge/null` module:
 
-```
+```hcl
 module "config" {
   source  = "Invicton-Labs/deepmerge/null"
   version = "0.2.0"
