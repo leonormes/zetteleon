@@ -1,7 +1,7 @@
 ---
 captured: 2026-04-20T14:14:16+01:00 2026-04-20T14:14:16+01:00
 created: 2026-04-20T13:14:18+00:00
-modified: 2026-04-20T20:35:05+00:00
+modified: 2026-04-21T07:49:54+00:00
 source: https://gemini.google.com/app/95ac6e4184ea8759
 status: processing
 tags: [input]
@@ -33,7 +33,6 @@ So the comparison is really: _child with pre-trained brain + rich multimodal emb
 
 ## But Your Deeper point stands—and It's about Co-evolution
 
-Here's what I think is the genuinely beautiful observation hiding underneath:
 
 Human languages have been shaped, generation by generation, to be learnable by human children. Any feature that made acquisition too hard got filtered out, because it failed to transmit. Languages are the survivors of a brutal selection process where the judges are three-year-olds.
 

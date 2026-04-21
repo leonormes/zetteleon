@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "storeName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-  "lastSync": 1776757350608,
+  "lastSync": 1776761544336,
   "files": {
     "assets/cropped_PXL_20250518_165827884.PORTRAIT.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -10295,8 +10295,8 @@
     },
     "20_Thinking/21_Workbench/HEAD The paradox of LLM language understanding versus human learning.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "056d0e923ec2194c575a55cc058e5b56600baf5bc4bb429fedc63503f59c99f8",
-      "lastIndexed": 1776690890543
+      "contentHash": "3f3e5cf0448d0480e80c73336a2eff142f0e882e98bf6164498f68eb86f32caf",
+      "lastIndexed": 1776757801759
     },
     "20_Thinking/21_Workbench/HEAD Deep merging YAML files in Terragrunt.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -10392,6 +10392,11 @@
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "934a5441eb67b7664eb8e399aa098e38e405956245cf8735d01092a51b013f90",
       "lastIndexed": 1776757314794
+    },
+    "20_Thinking/21_Workbench/HEAD five-step protocol for cleaving, atomising, and mapping disparate inputs.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "83dd8d8e598969aa054927e8543c4a1a6b371fb4906a8c12109c46540903c390",
+      "lastIndexed": 1776761544336
     }
   },
   "indexingInProgress": false,
