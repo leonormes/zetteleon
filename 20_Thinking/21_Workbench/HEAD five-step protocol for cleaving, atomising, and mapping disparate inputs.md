@@ -1,17 +1,13 @@
 ---
 captured: "2026-04-21T09:51:58+01:00 2026-04-21T09:51:58+01:00"
 created: 2026-04-21T08:51:59+00:00
-modified: 2026-04-21T09:51:56+00:00
+modified: 2026-04-21T16:52:15+00:00
 source: "https://gemini.google.com/app/b125df8245395df0"
 status: "processing"
 tags: ["input"]
 title: HEAD five-step protocol for cleaving, atomising, and mapping disparate inputs
 type: "head"
 ---
-
-## Raw Output / Content
-
-You
 
 I am trying to standardise the way I take notes and create my own knowledge.
 
@@ -27,7 +23,7 @@ To standardise the way you process information and translate it into a Zettelkas
 
 Here is a five-step protocol for cleaving, atomising, and mapping disparate inputs.
 
-### 1\. Epistemic Categorisation (Identifying the Nature of the Thought)
+## 1. Epistemic Categorisation (Identifying the Nature of the Thought)
 
 Before extracting an idea, determine its epistemic status. Epistemology is the philosophical investigation into the nature, origins, and limits of human knowledge. Treating an author's subjective opinion as a foundational fact will pollute your Zettelkasten. By assigning an explicit epistemic tag to a thought, you immediately determine how it should be treated and queried later. Classify every capture into a strict category:
 
@@ -36,7 +32,7 @@ Before extracting an idea, determine its epistemic status. Epistemology is the p
 - Principle: A normative rule or fundamental law.
 - Opinion/Hypothesis: A subjective interpretation or unverified proposition.
 
-### 2\. The Cleaving Process (Separating Bricks from Architecture)
+## 2. The Cleaving Process (Separating Bricks from Architecture)
 
 When processing long-form or hybrid inputs (like books or articles), apply the "Binary Category Invariant" to enforce a strict separation between the core information and the author's narrative.
 
@@ -44,14 +40,14 @@ When processing long-form or hybrid inputs (like books or articles), apply the "
 - Structural Notes (The Architecture): These exist solely to create context by linking and organising your atomic notes.
 - The Protocol: Strip the objective facts or core concepts out of the source material and save them as purely Atomic Notes. Then, rewrite the narrative or argument as a Structural Note (or Map of Content), using wikilinks to replace the extracted facts. This weaves the factual "bricks" together into a coherent analysis.
 
-### 3\. The Card Forcing Function (Compression)
+## 3. The Card Forcing Function (Compression)
 
 To ensure your notes are truly atomic, apply a "Card Forcing Function". Define a tight, standardised mental boundary for your idea—imagine it must fit on a single, physical index card.
 
 - This constraint forces you to distil complex thoughts into their essential, modular parts.
 - If an idea cannot fit within this boundary without losing its meaning, it is not yet atomic; it is either bloated and requires editing, or it contains multiple ideas that belong on separate cards.
 
-### 4\. Relational Thinking via the Idea Compass
+## 4. Relational Thinking via the Idea Compass
 
 An atomic note only receives its quality from the network of links it belongs to. Instead of randomly dropping links at the bottom of a page, use the "Idea Compass" framework to purposefully interrogate how this new unit relates to your existing knowledge:
 
@@ -60,7 +56,7 @@ An atomic note only receives its quality from the network of links it belongs to
 - West (Similar Ideas): What related or allied concepts support this?
 - East (Challenging Ideas): What contradictions or alternative viewpoints challenge this? When you encounter contradictory information, do not overwrite old notes; instead, create a new note containing the counter-argument and link it to the predecessor.
 
-### 5\. Contextual Integration ("In Light Of" vs. "In Spite Of")
+## 5. Contextual Integration ("In Light Of" vs. "In Spite Of")
 
 When placing the note into Obsidian, observe how it integrates with the broader ecosystem. You will generally build ideas using two mental postures:
 
@@ -93,7 +89,7 @@ To demonstrate this protocol in action, we must strip away the conversational rh
 
 Here is how that single paragraph is cleaved, categorised, and synthesised into an Obsidian Zettelkasten framework.
 
-### Phase 1: The Cleaved Atomic Notes (The Bricks)
+## Phase 1: The Cleaved Atomic Notes (The Bricks)
 
 These notes isolate the core, indivisible ideas. Notice how all narrative flavour and comparative elements are removed. They are written to be entirely context-independent so they can be reused in future, unrelated arguments.
 
@@ -111,7 +107,7 @@ Note 3: Atomic Concept
 
 ---
 
-### Phase 2: The Structural Note (The Architecture)
+## Phase 2: The Structural Note (The Architecture)
 
 Now, we create a new note to capture the original author's specific argument. This note acts as a "Map of Content" or a synthesis note. It uses the narrative to glue the atomic bricks together.
 
@@ -123,7 +119,7 @@ Note 4: Structural Synthesis
 
 ---
 
-### Phase 3: Relational Thinking (Idea Compass Integration)
+## Phase 3: Relational Thinking (Idea Compass Integration)
 
 Before closing these notes, you would use the Idea Compass to anchor them into your existing knowledge base. Here is how you might interrogate `Note 1: Language Evolution via the Child Acquisition Filter`:
 
@@ -148,7 +144,7 @@ To shift from merely capturing information to rigorously interrogating it, we mu
 
 When you read a text, the author is usually trying to persuade you of something, often wrapping their core argument in rhetorical "noise" (anecdotes, emotional language, formatting). To assess a text for validity and soundness, you can apply this four-stage Epistemic Rigour Protocol.
 
-### Stage 1: The Structural Deconstruction (Finding the Bones)
+## Stage 1: The Structural Deconstruction (Finding the Bones)
 
 Before you can judge if an argument is true, you must map exactly what the argument _is_. You must strip away the narrative to find the three structural pillars of the author's point.
 
@@ -158,7 +154,7 @@ Before you can judge if an argument is true, you must map exactly what the argum
 
 _Action:_ If you cannot explicitly state the Claim, Grounds, and Warrant, the text is either pure noise or you have not yet penetrated the argument.
 
-### Stage 2: The Epistemic Triage (Categorising the Inputs)
+## Stage 2: The Epistemic Triage (Categorising the Inputs)
 
 Once you have the structural pillars, you must categorise the _nature_ of the statements being made. This is where you filter objective truth from subjective opinion.
 
@@ -166,7 +162,7 @@ Once you have the structural pillars, you must categorise the _nature_ of the st
 - Normative Statements: Does the text use words like "should", "ought", "good", or "bad"? These are value judgements, not objective truths. An author might use a falsifiable fact ("The economy shrank by 2%") to make a normative claim ("The Prime Minister is doing a terrible job"). The fact is objective; the claim is subjective.
 - Heuristics vs. Laws: Is the author presenting a general rule of thumb as an absolute law of nature?
 
-### Stage 3: The Logic Stress-Test (Validity vs. Soundness)
+## Stage 3: The Logic Stress-Test (Validity vs. Soundness)
 
 This is the core of logical assessment. In philosophy, an argument must pass two distinct tests to be considered robust.
 
@@ -174,7 +170,7 @@ This is the core of logical assessment. In philosophy, an argument must pass two
 2. Test for Soundness (External Reality): An argument is only "sound" if it is logically valid AND the premises are actually true in the real world.
 	- _Example of Valid but Unsound:_ "All birds are mammals. A penguin is a bird. Therefore, a penguin is a mammal." (The logic is perfectly valid, but the first premise is false, making the argument unsound).
 
-### Stage 4: The Rhetorical Strip-Down (Identifying the Noise)
+## Stage 4: The Rhetorical Strip-Down (Identifying the Noise)
 
 The final step is to actively hunt for the cognitive biases and logical fallacies the author uses to mask weak warrants or unsound premises.
 
@@ -182,4 +178,54 @@ The final step is to actively hunt for the cognitive biases and logical fallacie
 - The Straw Man: Is the author defeating a weakened, highly exaggerated version of their opponent's argument instead of engaging with the strongest counter-argument?
 - The False Dichotomy: Is the author forcing you to choose between two extreme outcomes ("Either we implement this policy, or society collapses"), ignoring the vast spectrum of middle-ground solutions?
 
-To standardise this as a repeatable protocol: Next time you encounter a dense piece of text, do not write down what the author _said_. Instead, open a blank page and write these four headings: 1\. Claim, Grounds & Warrant, 2\. Objective vs. Normative, 3\. Valid & Sound?, 4\. Rhetorical Noise. Forcing the text through these four filters will rapidly expose whether you are reading a well-constructed argument or merely a well-written opinion.
+To standardise this as a repeatable protocol: Next time you encounter a dense piece of text, do not write down what the author _said_. Instead, open a blank page and write these four headings: 1. Claim, Grounds & Warrant, 2. Objective vs. Normative, 3. Valid & Sound?, 4. Rhetorical Noise. Forcing the text through these four filters will rapidly expose whether you are reading a well-constructed argument or merely a well-written opinion.
+
+This is a highly robust foundation for an epistemic workflow. By integrating the principles of formal logic, structural reading, and networked note-taking present in your provided library, we can iterate on this protocol to increase its precision, particularly by deepening the argument mapping and expanding the structural synthesis.
+
+Here is the iterated protocol:
+
+## Phase 1: The Epistemic Filters (Deconstruction)
+
+When analysing a text, process it through these filters in sequence to isolate and evaluate the core intellectual material.
+
+1. Linguistic Stripping & Assumption Identification: * _Action:_ Strip away rhetorical noise, jargon, and attitude indicators to isolate the raw declarative statements.
+    
+    - _Enhancement:_ Actively identify the author's _unstated assumptions_. Often, the logical starting point of a text is entirely implicit. Bring these underlying premises to the surface before moving to the next filter.
+        
+2. The Extended Argument Map: * _Action:_ Identify the Claim (conclusion) and Grounds (evidence).
+    
+    - _Enhancement:_ Expand beyond the basic Warrant to include the full Toulmin model framework. Identify the Backing (the deeper authority supporting the warrant), note any Qualifiers (the degree of certainty, such as "presumably" or "usually"), and search for Rebuttals (conditions under which the claim would not hold true).
+        
+3. Epistemic Categorisation: * _Action:_ Separate descriptive facts (what is) from normative judgements (what ought to be).
+    
+    - _Enhancement:_ Distinguish between _field-invariant_ elements (the universal logical structure of the argument) and _field-dependent_ elements (the domain-specific criteria required to actually prove the claim).
+        
+4. Structural Integrity (Validity & Soundness): * _Action:_ Test the logical flow and the truth of the premises.
+    
+    - _Enhancement:_ Apply the correct standard of proof. For deductive arguments, test for strict validity and soundness. For inductive or explanatory arguments, test for logical strength, cogency, and falsifiability (whether it is possible to specify an observable outcome that could prove the explanation false).
+
+## Phase 2: Knowledge Architecture (Synthesis)
+
+Once the text is filtered, translate the surviving ideas into your own system, ensuring a strict separation between objective facts and subjective context.
+
+1. Cleave into Atomic Notes: * _Action:_ Write each verified, objective claim as a single, indivisible idea.
+    
+    - _Enhancement:_ Enforce a "Binary Category Invariant." Atomic notes must be entirely context-free—acting purely as building blocks (e.g., definitions, verifiable statements). They should be written in your own words to ensure true comprehension, not simply copied.
+        
+2. Construct Structural / Hub Notes: * _Action:_ Rebuild the context that was stripped away during the cleaving process.
+    
+    - _Enhancement:_ Create Structural Notes (or map notes) to preserve the original narrative, argument, or sequence. Use these notes to link your new atomic facts together using typed links (e.g., _Note A_ `[supports]` _Note B_). The Structural Note provides the architecture; the Atomic Notes provide the bricks.
+        
+3. Stress-Test & Connect (The Idea Compass): * _Action:_ Compare new notes against existing ones to detect contradictions or paradoxes.
+    
+    - _Enhancement:_ Map the new proposition along four axes: its _origins_ (where did this idea come from?), its _applications_ (where does this lead?), its _allied concepts_ (what is similar?), and its _competitors_ (what opposes this?).
+        
+4. Iterate Towards Output: * _Action:_ Allow the system to act as a dialogue partner.
+    
+    - _Enhancement:_ Treat this network not as an archive for storage, but as an active workspace. As connections form, cluster these notes to outline original arguments, transitioning seamlessly from note-making to drafting new writing.
+
+---
+
+I am deeply familiar with both formal logic—spanning propositional calculus, inductive reasoning, and informal fallacies—as well as the mechanics of the Zettelkasten method, from Niklas Luhmann's analogue slip-box to modern digital variations.
+
+Whenever you are ready, please provide the sample text and we can run it through these filters.z

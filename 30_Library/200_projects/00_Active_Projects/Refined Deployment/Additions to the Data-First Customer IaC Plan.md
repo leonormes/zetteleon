@@ -1,9 +1,294 @@
 ---
 created: 2026-04-11T08:38:45+00:00
 modified: 2026-04-19T18:30:47+00:00
-tags: [InfraFacts]
 title: Additions to the Data-First Customer IaC Plan2
+isProject: false
+name: Data vs implementation split
+overview: Analysis anchored on [ff-test-1/docs](file:///Volumes/DAL/Fitfile/gitlab/FITFILE/New_Customer/ff-test-1/docs) — the two-phase bootstrap vs managed model, TFC state as the pipe into CUE, and [CONTRACTS.md](file:///Volumes/DAL/Fitfile/gitlab/FITFILE/New_Customer/ff-test-1/docs/CONTRACTS.md). The spine (customer.yaml + common → Terraform → infra_facts → CUE → Helm) is right; mixing comes from three deployment generations, dual truth paths, and duplicated chart defaults in the Helm repo.
+todos:
+  - id: state-sot-plumbing
+    content: Close Gap A/B per TERRAFORM_STATE_AS_SOURCE_OF_TRUTH.md — wire live TF outputs (oidc_issuer_url, ingress_ip, etc.) into infra_facts; remove scripts/infra-facts-for-cue.sh overrides of TF output (B-10)
+    status: pending
+  - id: clarify-tier-b
+    content: Helm repo — choose one path for chart defaults vs CUE base/schema (generate, shrink to library-only, or versioned contract artifact)
+    status: pending
+  - id: cue-invariants
+    content: Optional CUE constraints for federation topology (see ff-test-1/docs/Network Topography & fitConnectHosts.md + helm operational audits)
+    status: pending
+  - id: docs-index
+    content: Optional — single index in ff-test-1/docs linking CONTRACTS, bootstrap vs managed, and remediation tiers (MASTER_REMEDIATION_PLAN) for onboarding
+    status: pending
+tags:
+  - InfraFacts
 ---
+
+## 1. Pre-Requisite: Fix Live Bugs _Before_ Module Extraction
+
+The plan jumps straight to Direction A (extract into shared module) but your MKUH Brutal Synthesis from Thursday April 9 (~2:04 PM) identified live correctness risks that must be patched first. Extracting a broken `locals.tf` into a shared module amplifies bugs across all customers:
+
+| Bug                                                                                                                                                             | Impact if Extracted Unpatched                                         |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| VaultAuth split-brain—Terraform (jumpbox.tftpl) and CUE (render_fitfile.cue) both deploy `VaultAuth/default` with conflicting roles (`deployment_key` vs `vso`) | Every customer inherits the conflict; debugging becomes multi-repo    |
+| Node pool scheduling—fallback `agentpool="workflow"` vs actual pool key `"workflows"`                                                                           | Pods fail to schedule on every new customer cluster                   |
+| TheHyve bypass—raw `.tftpl` path skipping CUE entirely                                                                                                          | Module consumers inherit a known architectural violation as "blessed" |
+
+Recommendation: Add a Phase 0 to the plan: patch these three before any extraction begins. Your MKUH note already has the fix sequence for each.
+
+---
+
+## 2. Missing Principle: The Post-Handoff Rule
+
+Your MASTER_REMEDIATION_PLAN (from Friday April 10 ~12:43 PM) states an "Architecture Law" that the IDE plan doesn't capture:
+
+> Post-handoff rule: ALL non-sensitive downstream config reads from `terraform output -json infra_facts` ONLY.
+
+This means CUE must never read `customer.yaml` directly—it reads `infra_facts`. Without this as an explicit principle, you risk a split-brain where CUE and Terraform have different views of the same customer config. Add it as Principle 5 alongside the existing four.
+
+---
+
+## 3. Missing Principle: Single-Writer Enforcement
+
+Both the MKUH analysis and the Claude Code audit repeatedly flag resources defined in both Terraform and CUE/Helm (VaultAuth, ArgoCD repo creds, `imagePullSecrets`, namespaces). The IDE plan's catalogs implicitly help, but it should be an explicit architectural rule:
+
+> For every resource type, designate exactly one owner (Terraform or CUE/Helm). Document ownership in `CONTRACTS.md`. Remove the competing implementation.
+
+This is the single highest-leverage governance addition—without it, every new integration risks recreating the VaultAuth split-brain pattern.
+
+---
+
+## 4. The "Three Generations" Sunset Path Is Missing
+
+Your MASTER_REMEDIATION_PLAN explicitly identifies three overlapping deployment models coexisting in the codebase:
+
+1. Gen 1—Manual, TFC-only, Confluence-guided, central-services driven
+2. Gen 2—Bootstrap-era (`make bootstrap / make finish-bootstrap`), separate provider files
+3. Gen 3—Data-driven: `customer.yaml → Terraform → infra_facts → CUE → values.yaml` (the target)
+
+The IDE plan describes the Gen 3 target beautifully but doesn't address how to deprecate/migrate Gen 1 and Gen 2 artifacts. You need:
+
+- An explicit deprecation schedule for Gen 1/Gen 2 patterns (which files, which repos)
+- A migration playbook for existing customers still on Gen 2 (how they adopt the shared module)
+- Feature flags or compatibility shims in the shared module if Gen 2 customers can't migrate immediately
+
+---
+
+## 5. `infra_facts` Is Mostly Passthrough—Address This
+
+Your MASTER_REMEDIATION_PLAN audit found that only 1 of 21 fields in `infra_facts` comes from a live provisioned resource (`customer_short_name`). The other 20 are derived/computed from YAML. This raises a fundamental question the IDE plan should address:
+
+- Option A: Accept that `infra_facts` is a "normalized config blob" and treat it as the single contract surface between Terraform and CUE. The shared module's job is to produce a _complete, well-typed_ `infra_facts` from the merge of `customer.yaml` + `common.yaml` + provisioned state.
+- Option B: Split `infra_facts` into `infra_state` (live resources: AKS endpoints, Vault paths, DNS zones) and `infra_config` (derived/merged YAML passthrough), so CUE can distinguish "this came from Azure" vs "this came from YAML."
+
+Either way, the shared module needs to make this explicit. The current "21 fields, 1 live" situation means `infra_facts` is doing double duty as config bus and state reporter.
+
+---
+
+## 6. `mock_infra.json` Contract Fidelity
+
+The IDE plan mentions CUE validation but doesn't address `mock_infra.json`—which is the thing that makes `cue vet` meaningful in CI. Your MKUH analysis specifically called out:
+
+> _Update `cue/mock_infra.json` so it contains the complete `platform_vault` object and representative `vault_secret_consumers`. The mock must be a faithful representation of the contract._
+
+Add to Direction C: The shared module should generate `mock_infra.json` from a `terraform output -json infra_facts` of a reference environment (e.g., `ff-test-1`), not maintain it by hand. This ensures the mock and reality stay in sync.
+
+---
+
+## 7. TheHyve Has a Specific Remediation Sequence
+
+The IDE plan treats TheHyve as an example under Direction B (catalogs), but your MKUH analysis laid out a precise 3-step sequence that should be a tracked dependency:
+
+1. Create `cue/render_thehyve.cue` using the existing `_VaultSecretsFor` dispatch
+2. Extract hardcoded literals (image tag `0.4.5-test`, ACR URLs, resource limits, PG sizes) into `policy_defaults.cue` or a dedicated `#ThehyvePlatformPolicy`
+3. Then and only then: delete `generators/thehyve.tf`, `templates/thehyve_values.yaml.tftpl`, and the `thehyve_values_content` outputs
+
+This must complete before `generators/` moves into the shared module (Direction A), otherwise you're shipping a known bypass into the registry.
+
+---
+
+## 8. CI Validation Should Be Mandatory, Not Optional
+
+Direction C says:
+
+> _Optional: validate `customer.yaml` in CI with the same CUE/JSON Schema used by the module_
+
+Given everything you've found this month—silent `try(…)` fallbacks swallowing data, missing fields between layers, aspirational SoT claims—this should be mandatory. The enforcement chain should be:
+
+1. `customer.yaml` validated against a published JSON Schema / CUE definition in the customer repo CI, before `terraform plan`
+2. `infra_facts` validated against `#InfraFacts` via `cue vet` after `terraform apply`
+3. `generated/values.yaml` diffed against previous before merge
+
+---
+
+## 9. Bootstrap Artifact Cleanup
+
+Your Single Source of Truth plan (April 9 ~5:03 PM) identified that bootstrap and steady-state are "partially intertwined." The IDE plan says bootstrap variables stay as variables—correct—but doesn't address cleaning up bootstrap-only artifacts that persist after Phase A completes:
+
+- Generated provider files from `make bootstrap`
+- Targeted apply scripts
+- One-time credential seeding code
+
+The shared module should have a `post_bootstrap_cleanup` target or at least document what's safe to delete after the first successful TFC run.
+
+---
+
+## 10. Sequencing Summary
+
+Given all of the above, here's the execution order I'd recommend:
+
+| Step | What                                                                 | Depends On                       |
+| ---- | -------------------------------------------------------------------- | -------------------------------- |
+| 0    | Patch VaultAuth split-brain, node pool label, TheHyve bypass         | Nothing—do now                   |
+| 1    | Enforce single-writer rule + document in CONTRACTS.md                | Step 0                           |
+| 2    | Extract merge helpers into shared module (incremental, not big-bang) | Step 1                           |
+| 3    | Replace imperative lists with platform catalogs (Direction B)        | Step 2                           |
+| 4    | Move generators/ into shared module (Direction A completion)         | Steps 2+3 + TheHyve fully in CUE |
+| 5    | Align ArgoCD app-of-apps (Direction D)                               | Step 3                           |
+| 6    | Mandatory CI gates (Direction C, non-optional)                       | Steps 2+4                        |
+| 7    | Gen 1/Gen 2 deprecation + customer migration                         | Steps 4+6 stable                 |
+
+---
+
+## Bottom Line
+
+The IDE plan is architecturally correct but insufficiently sequenced. It describes the destination without accounting for the landmines your audit already found on the path. The biggest additions are:
+
+1. Fix live bugs before extracting (don't ship known defects into a shared module)
+2. Post-handoff rule as a first-class principle (CUE reads `infra_facts`, never `customer.yaml`)
+3. Single-writer enforcement (the root cause of the VaultAuth class of bug)
+4. Three-generation sunset path (the plan assumes Gen 3 only; reality has Gen 1+2 still in flight)
+5. Mandatory, not optional, CI validation (the whole contract story falls apart without enforcement)
+
+The plan's risk callout about big-bang extraction is spot-on—your own MASTER_REMEDIATION_PLAN confirms incremental is the only safe path. Start with Step 0 patches, then extract merge helpers, then catalogs, then generators.
+
+## Data-first Split (redo): Anchored on `ff-test-1/docs`
+
+### Canonical Documentation Set
+
+These are the new customer deployment plans and contracts (not `helm_chart_deployment/docs`):
+
+| Doc | Role |
+|-----|------|
+| [CONTRACTS.md](file:///Volumes/DAL/Fitfile/gitlab/FITFILE/New_Customer/ff-test-1/docs/CONTRACTS.md) | Interface SSOT—Terraform → CUE → Helm layers, merge semantics, `infra_facts` shape pointers |
+| [TERRAFORM_STATE_AS_SOURCE_OF_TRUTH.md](file:///Volumes/DAL/Fitfile/gitlab/FITFILE/New_Customer/ff-test-1/docs/TERRAFORM_STATE_AS_SOURCE_OF_TRUTH.md) | Strategic north star—TFC state should feed CUE; gaps (live outputs not in `infra_facts`, script re-derivation) |
+| [Planning Prompt Data-First State-as-Source-of-Truth.md](file:///Volumes/DAL/Fitfile/gitlab/FITFILE/New_Customer/ff-test-1/docs/Planning%20Prompt%20Data-First%20%20State-as-Source-of-Truth.md) | Audit checklist—per-domain lifecycle (central services, private infra, bootstrap-only) |
+| [Single Source of Truth Customer Deployment Plan.md](file:///Volumes/DAL/Fitfile/gitlab/FITFILE/New_Customer/ff-test-1/docs/Single%20Source%20of%20Truth%20Customer%20Deployment%20Plan.md) | Target model—Mode A bootstrap vs Mode B managed; repo ownership; thin `customer.yaml` |
+| [Surgical Bootstrap Refactor — GitLab + Terraform Cloud Only.md](file:///Volumes/DAL/Fitfile/gitlab/FITFILE/New_Customer/ff-test-1/docs/Surgical%20Bootstrap%20Refactor%20%E2%80%94%20GitLab%20%2B%20Terraform%20Cloud%20Only.md) | Bootstrap minimalism—only what GitOps needs to start |
+| [MIGRATION_PLAYBOOK.md](file:///Volumes/DAL/Fitfile/gitlab/FITFILE/New_Customer/ff-test-1/docs/MIGRATION_PLAYBOOK.md) / [MASTER_REMEDIATION_PLAN.md](file:///Volumes/DAL/Fitfile/gitlab/FITFILE/New_Customer/ff-test-1/docs/MASTER_REMEDIATION_PLAN.md) | Operational remediation—tiers A–D, three "generations" of process |
+
+The diagram in CONTRACTS.md is the authoritative layer stack for "where data goes."
+
+---
+
+### Target Data Flow (from Your Own docs)
+
+```mermaid
+flowchart TB
+  subgraph modeA [Mode A — Bootstrap one-time]
+    B[GitLab repo + TFC workspace + seed tokens / Vault shell]
+  end
+  subgraph modeB [Mode B — Managed steady-state]
+    CY[config/customer.yaml]
+    PD[platform-defaults/common.yaml]
+    TF[Terraform TFC state]
+    OUT["terraform output infra_facts JSON"]
+    CUE[CUE schema + render]
+    GEN[generated values.yaml]
+    HELM[charts/ffnode templates]
+    CY --> TF
+    PD --> TF
+    TF --> OUT
+    OUT --> CUE
+    CUE --> GEN
+    GEN --> HELM
+  end
+  modeA --> modeB
+```
+
+Single Source of Truth Customer Deployment Plan states the split clearly: bootstrap creates only control-plane prerequisites; managed mode is Terraform → `infra_facts` → CUE → Helm values → ArgoCD.
+
+Data-first / state-SoT prompt adds: after bootstrap, downstream consumers should read only `terraform output` into CUE—not shell formulas or duplicated literals from `customer.yaml`.
+
+---
+
+### Where Each Kind of Data Should Go (repo ownership)
+
+Aligned with Single Source of Truth Customer Deployment Plan + CONTRACTS.md:
+
+| Layer | Owns | Should not own |
+|-------|------|----------------|
+| config/customer.yaml | Human decisions—identity, network CIDR, env, feature overrides, sizing | Platform constants; secrets that belong in Vault |
+| platform-defaults/common.yaml | `standard_deployment`, `platform_policy`, vault catalogs, shared defaults | Customer-specific topology |
+| Terraform (`locals.tf`, modules) | Resources, computed names/FQDNs, merged config, `infra_facts` assembly | App logic better expressed in CUE; avoid re-implementing merge in scripts |
+| CUE | `#InfraFacts` contract, validation, mapping `infra_facts` + `platform_policy` → Helm-shaped values | Not a second store of customer literals (your docs call this out explicitly) |
+| Helm (`helm_chart_deployment`) | Chart templates, subcharts, mechanical defaults for `helm template` | Business rules and product policy duplicated from common/customer |
+
+CUE "too much hardcoded deployment detail" in the plan doc means: resist putting customer-specific data in CUE files; keep it in YAML → Terraform → `infra_facts`.
+
+---
+
+### What is Still Mixed (from TERRAFORM_STATE + CONTRACTS)
+
+#### 1. `infra_facts` Is Mostly Plan-time Config, not Live Resource Attributes
+
+[TERRAFORM_STATE_AS_SOURCE_OF_TRUTH.md](file:///Volumes/DAL/Fitfile/gitlab/FITFILE/New_Customer/ff-test-1/docs/TERRAFORM_STATE_AS_SOURCE_OF_TRUTH.md) documents that aside from `values_repo_url`, most `infra_facts` fields are built from merged YAML + locals, not read back from Azure/Auth0/GitLab outputs. That is not yet the full "state as SoT" vision—it is the aspirational gap your docs name.
+
+Structural outputs that already exist in TF (e.g. `oidc_issuer_url`, `ingress_ip`) should flow through `infra_facts` so CUE/Helm do not re-derive or guess.
+
+#### 2. Dual Truth path—scripts/infra-facts-for-cue.sh
+
+Same doc: the script overrides `terraform output infra_facts` with re-reads from `customer.yaml` and recomputed fields. That breaks determinism and contradicts CONTRACTS.md ("consumer: CUE ingests Terraform output"). The prescribed fix is trust TF output; stale state becomes an error, not a silent override.
+
+#### 3. Three "generations" of Deployment Model (why it Feels tangled)
+
+Single Source of Truth Customer Deployment Plan lists overlapping models: legacy central-services/manual paths, bootstrap-era repos, and Terraform → CUE → Helm. PIPELINE_AUDIT / MASTER_REMEDIATION_PLAN reinforce that. Mixed visibility of old and new flows is a process problem as much as a code problem.
+
+#### 4. Bootstrap Vs Steady-state Still Partially Intertwined
+
+Your Surgical Bootstrap and Migration docs aim to separate one-time setup from GitOps steady state. Until bootstrap outputs and managed `infra_facts` are clearly bounded, docs stay "true but hard to use."
+
+#### 5. Helm Chart repo—duplicated Defaults Vs CONTRACTS Stack
+
+[charts/ffnode/values.yaml](file:///Volumes/DAL/Fitfile/gitlab/FITFILE/Deployment/helm_chart_deployment/charts/ffnode/values.yaml) plus [helm_chart_deployment/cue/base + schema](file:///Volumes/DAL/Fitfile/gitlab/FITFILE/Deployment/helm_chart_deployment/cue/) still create a parallel values document for local `argo-render` and validation—outside the `ff-test-1` CONTRACTS path. That is implementation packaging duplicating policy-shaped defaults already owned by `platform_policy` / CUE render.
+
+#### 6. Federation / fitConnect Topology
+
+[Network Topography & fitConnectHosts.md](file:///Volumes/DAL/Fitfile/gitlab/FITFILE/New_Customer/ff-test-1/docs/Network%20Topography%20%26%20fitConnectHosts.md) belongs in the same data-invariant conversation as Helm helpers: rules should be constraints on `fitconnect_hosts` in CUE or tests, not only template behavior.
+
+---
+
+### Optimizations (prioritized like Your Remediation tiers)
+
+Tier 0—Truth pipe (highest leverage, matches your own TERRAFORM_STATE doc)
+
+- Extend `infra_facts` with live structural outputs that Terraform already has (OIDC URL, ingress IP, etc.); update `#InfraFacts` + mock JSON.
+- Remove `infra-facts-for-cue.sh` overrides so `make generate-values` is single-writer from TF output.
+
+Tier 1—Ownership clarity (no architectural debate)
+
+- Keep CONTRACTS.md as the only place that defines merge semantics and layer responsibilities; thin `customer.yaml` per Single Source plan.
+- CUE stays mapping + validation, not a second `customer.yaml`.
+
+Tier 2—Helm repo duplication
+
+- Pick one: generate chart defaults from one canonical CUE base, shrink chart `values.yaml` to minimal library defaults, or publish a small versioned contract between repos—same trade-offs as before, but now explicitly downstream of a clean `infra_facts` pipe.
+
+Tier 3—Invariants
+
+- CUE checks (or policy tests) for federation rules documented in Network Topography / operational audits.
+
+Tier 4—Docs UX
+
+- Optional index in `ff-test-1/docs` linking CONTRACTS ↔ bootstrap ↔ remediation so "new customer" onboarding hits one narrative.
+
+---
+
+### Summary
+
+- Your `ff-test-1/docs` already define the right split: bootstrap vs managed, thin customer.yaml, Terraform → `infra_facts` → CUE → Helm, and CONTRACTS.md as the interface SSOT.
+- The mixing you feel is explained in-repo: (a) `infra_facts` not yet carrying enough live state, (b) script overrides of TF output, (c) three generations of process, (d) Helm chart defaults parallel to the CONTRACTS/CUE path.
+- Optimize by fixing the truth pipe first (Tier 0), then thinning Helm defaults (Tier 2), then invariants + doc index—aligned with TERRAFORM_STATE_AS_SOURCE_OF_TRUTH.md and Single Source of Truth Customer Deployment Plan.md.
+
+No code execution in this document; implementation follows the linked remediation and migration playbooks once you choose to execute.
 
 The IDE plan is directionally right, but it still misses some hard-won lessons from your last month of work.
 

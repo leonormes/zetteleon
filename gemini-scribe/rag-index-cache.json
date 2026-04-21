@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "storeName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-  "lastSync": 1776786768913,
+  "lastSync": 1776792228070,
   "files": {
     "assets/cropped_PXL_20250518_165827884.PORTRAIT.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -8888,21 +8888,6 @@
       "contentHash": "d995d7fa6e68f2ecc2070fa21b192fbd8bf9358b815760c2be165e660b3570f4",
       "lastIndexed": 1775896845956
     },
-    "00_Inbox/Additions to the Data-First Customer IaC Plan.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "dbab6a1a1901e27ee8e2fbbe4852d402512f7a8e666e2ad2a7e3c5d33f772da9",
-      "lastIndexed": 1775897352431
-    },
-    "00_Inbox/Additions to the Data-First Customer IaC Plan2.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "215c7ae4243f3a5bb7da5fa1b352a803371ef70c1e96b7e997fddb5e177af02d",
-      "lastIndexed": 1775897607297
-    },
-    "00_Inbox/data_vs_implementation_split_600a7736.plan.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "f244d2b2f27d141799d915ea2e95e7db6595af88e8a95e37c6f2260823962fe5",
-      "lastIndexed": 1775897626825
-    },
     "01_journals/Dailies/2026-04-12.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "c144a285360d6debcbce1be45e7020422775678e1de3e7ba276f0d21427bf70d",
@@ -10333,16 +10318,6 @@
       "contentHash": "9c92bcba64307ae279add3e53859ff8282eeb61afb61295de152793e9506a6a4",
       "lastIndexed": 1776765245204
     },
-    "20_Thinking/21_Workbench/HEAD The Divided Brain.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "044a228a420591f5a707b841afcb64b4b121978c206d87b9d86b6684fdce4348",
-      "lastIndexed": 1776775543422
-    },
-    "30_Library/200_projects/00_Active_Projects/Refined Deployment/EBS CSI Driver Policy Migration.md": {
-      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "305dc9ccb46e5f8ee378ad60e211ac7e8498ee13045ad234efb97410815fca2a",
-      "lastIndexed": 1776756800963
-    },
     "20_Thinking/21_Workbench/HEAD The Agentic Paradox.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "d671c320d0ffd16bd2b6f319e630fd1a250463af7d6f32100bccc3925c844ec1",
@@ -10385,8 +10360,8 @@
     },
     "20_Thinking/21_Workbench/HEAD five-step protocol for cleaving, atomising, and mapping disparate inputs.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
-      "contentHash": "76aa8c77bf55801621ab4047e91eecca3502eacd07690f1cbf6954a41dae057d",
-      "lastIndexed": 1776765278405
+      "contentHash": "3837f7968a270e6478565ab022d0f6835c06858bae21d3b0e112069154632571",
+      "lastIndexed": 1776790341564
     },
     "20_Thinking/21_Workbench/HEAD Propositions as knowledge foundations.md": {
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
@@ -10447,6 +10422,56 @@
       "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
       "contentHash": "e60ffac761b0f950e64bf3a9a37007d4e5e7e8688ec855822af4304d030ee3af",
       "lastIndexed": 1776774028382
+    },
+    "30_Library/200_projects/00_Active_Projects/Refined Deployment/Additions to the Data-First Customer IaC Plan.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "5be4ab26b049a6adae48aefd49daac7cc22be52d173c1872329cd2c31b4ff62e",
+      "lastIndexed": 1776787279416
+    },
+    "20_Thinking/21_Workbench/HEAD AI Architecture Deconstructing the Stack.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "b69123f6d6898c82b2344f65a174f2ac8e96ab2fd64cfa56db095398c4f37ce5",
+      "lastIndexed": 1776787514934
+    },
+    "20_Thinking/21_Workbench/HEAD AI Architecture Deconstructing the Stack 1.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "73fe85f78777a5d28a1022748ea430be50d2e63050b58e7df4f8ee6a7d7bcfb4",
+      "lastIndexed": 1776787651029
+    },
+    "20_Thinking/21_Workbench/HEAD - 2026-04-21 1754.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "2ba282073660449ce1d725f3e67a901c436b242e730372271dbe5be4955535ac",
+      "lastIndexed": 1776790523488
+    },
+    "20_Thinking/21_Workbench/HEAD - Epistemic Rigor Protocol.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "d3080581b3ca8f90d0f63ab4163b8b77c8d15aef199aa2d0d80e40ca2cad39e2",
+      "lastIndexed": 1776791233477
+    },
+    "00_Inbox/Epistemic Rigor Protocol.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "e90d50d85a318bb22aba8bbd695aeb034c8ab948bc65aa817caab0f4f76107ad",
+      "lastIndexed": 1776791592999
+    },
+    "00_Inbox/Linguistic Stripping & Assumption Identification.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "e03e5c3c6b16d7d8e9c6a1e04ac98c28bc1142587bc69082cce95073b51b2e88",
+      "lastIndexed": 1776792228070
+    },
+    "00_Inbox/The Extended Argument Map.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "31c10d0474d4e4213af4bdefda5bd6be2de62934110d8403b3b3b35deed8d17e",
+      "lastIndexed": 1776791547738
+    },
+    "00_Inbox/Epistemic Categorisation.md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "701ac344ad0464d57e9d1c6d02fead5379dbe4018cf8ac7ff3c23e779e33f23b",
+      "lastIndexed": 1776791564023
+    },
+    "00_Inbox/Structural Integrity (Validity & Soundness).md": {
+      "resourceName": "fileSearchStores/obsidianllmeon-n1fdiljsi9b8",
+      "contentHash": "516527c166efc6a6eaf4301560a4649ff6d53a35280ebd0bd898958b6f153ee1",
+      "lastIndexed": 1776791574525
     }
   },
   "indexingInProgress": false,
