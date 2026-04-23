@@ -2,7 +2,7 @@
 aliases: ["ADHD is Associated with Deficits in Metacognition"]
 created: 2025-08-26T15:05:03Z
 last_reviewed: "null"
-modified: 2026-02-01T15:08:30+00:00
+modified: 2026-04-23T14:12:00+00:00
 status: "null"
 tags: ["TheHuman/Health/ADHD"]
 title: Metacognitive Deficits in ADHD Create Practical Impairments
@@ -17,4 +17,3 @@ When a person with ADHD struggles with metacognition, it leads to tangible, real
 - [[ADHD Emotional Reasoning]]
 - [[The DMN as a Demon - Negative Rumination in ADHD]]
 - [[Why Importance and Rewards Fail to Motivate ADHD Brains]]
-- [[Cultivating Self-Compassion for ADHD]]

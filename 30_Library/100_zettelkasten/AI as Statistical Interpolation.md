@@ -2,7 +2,7 @@
 created: 2026-04-14T20:30:42+00:00
 created_utc: "2026-04-14T13:40:00Z"
 kind: claim
-modified: 2026-04-19T18:30:44+00:00
+modified: 2026-04-22T16:13:07+00:00
 source_title: "Deconstructing the interview with Jeremy Howard"
 source_url: "https://gemini.google.com/app/fa3a7e9a4a69844c"
 status: seed
@@ -32,7 +32,6 @@ Applies to the fundamental reasoning and generative capabilities of transformer-
 ### Related
 
 - [[SoT - Human vs AI Cognition]]—direct concept match: distinguishes between statistical prediction and grounded simulation.
-- [[AI Performance Degrades Beyond Known Problem Distributions]]—supports: identifying the failure mode of interpolation.
 
 ### See Also
 

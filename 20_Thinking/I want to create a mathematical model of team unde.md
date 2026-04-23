@@ -1,6 +1,6 @@
 ---
 created: 2026-04-08T14:38:46+00:00
-modified: 2026-04-21T09:51:53+00:00
+modified: 2026-04-23T15:25:00+00:00
 title: I want to create a mathematical model of team unde
 ---
 
@@ -82,3 +82,8 @@ This foundational set-based approach, enriched with weights and bias/error terms
 [^18]: <https://arxiv.org/html/2511.01558v1>
 [^19]: <https://www.sciencedirect.com/science/article/pii/S0148296323000863>
 [^20]: <https://journals.sagepub.com/doi/10.1177/1534484310371449>
+
+## Related
+- [[Resource - Mathematical Model of Team Understanding]] _This SoT note provides the canonical reference for the concepts explored in this thinking session._
+- [[MOC - Cognitive Biases]] _The mathematical model relies on quantifying the systematic errors described in this map of cognitive shortcuts._
+- [[The Illusion of Shared Understanding in Teams]] _This note explores the phenomenological gap that the mathematical model attempts to represent through set unions and communication losses._

@@ -2,7 +2,7 @@
 created: 2026-04-14T13:21:45+00:00
 created_utc: "2026-04-14T11:35:00Z"
 kind: procedure
-modified: 2026-04-19T18:30:40+00:00
+modified: 2026-04-22T16:17:34+00:00
 source_title: "Thinking about knowledge"
 source_url: "https://gemini.google.com/app/d3312dd6e13881e3"
 status: seed

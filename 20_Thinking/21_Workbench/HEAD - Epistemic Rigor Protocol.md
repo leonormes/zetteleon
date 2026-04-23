@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-04-21T00:00:18+00:00
-modified: 2026-04-21T17:07:06+00:00
+modified: 2026-04-21T17:42:57+00:00
 tags: [prodos/head, state/thinking]
 title: HEAD - Epistemic Rigor Protocol
 ---
@@ -72,18 +72,34 @@ As instructed, we will not overhaul the entire protocol in one go. We will focus
 
 Here is the implementation of Phase 0 into the working document:
 
----
+### 2. Missing the Literature Note Layer
 
-### Phase 0: Triage (The Pre-Filter)
+Your pipeline jumps from filtered text → atomic notes. Ahrens is explicit that there should be an intermediate layer: the literature note—a short summary, in your own words, bound to the source. It preserves the _reading experience_ before you shatter it into context-free atoms.
 
-Before running the full deconstruction engine, answer these three questions to manage the required activation energy and determine the appropriate depth of processing:
+You'll want this because:
 
-- Purpose: Why am I engaging with this text? _(e.g., Answering a specific question, general learning, drafting a specific piece of writing, steelmanning an opposing view, or pure curiosity)._
-- Depth Warrant: What level of processing does this text actually deserve? _(e.g., A quick skim, a standalone Literature Note, or a full Phase 1 deconstruction)._
-- Text-Type Check: Does the standard argumentative workflow apply here? _(e.g., If it is a mathematical proof, narrative fiction, or reference material, bypass the standard rhetoric filters and use the appropriate variant)._
+- Atoms lose the shape of the original. A literature note keeps it, once, in one place.
+- It's the natural artefact to cite from later (source + page + your paraphrase).
+- It's a cheaper output for low-stakes texts that don't warrant atomisation.
 
----
+### Phase 2.1—Atomic Notes
 
-By gating the heavy machinery behind this triage step, the system immediately becomes less daunting to initiate.
+- "Binary Category Invariant"—I'd challenge this term. Atomic notes are not _context-free_; they are _context-minimal_. A definition has a domain. A claim has scope conditions. Forcing "entirely context-free" will either produce notes that are too vague to be useful, or notes that lie by omission. Reframe as: "self-contained—readable in isolation without reference to source."
+- Enforce one idea per note, but also one _level_ per note. A note mixing a definition and an implication violates atomicity just as badly as one mixing two claims.
 
-Whenever you are ready for the next sitting, we can integrate the Literature Note layer (Phase 1.5) and establish the typed-link vocabulary.
+### Phase 2.2—Structural Notes with Typed Links
+
+- You mention typed links but without an ontology. Link types proliferate chaotically unless constrained. Define a small fixed vocabulary, e.g.:
+    - `[supports]`, `[contradicts]`, `[refutes]`
+    - `[extends]`, `[generalises]`, `[instantiates]`
+    - `[depends-on]`, `[precedes]`
+    - `[analogous-to]`, `[competes-with]`
+- Anything outside this vocabulary is a smell—either the link type should be added deliberately, or the relationship belongs in prose inside a structural note.
+
+### Phase 2.3—Idea Compass
+
+- Four axes (origins, applications, allies, competitors) miss a temporal dimension: trajectory. Where has this idea come from _and where is it going_? What are the currently open problems in its research programme? This matters most for ideas in active flux (software architecture, ML, policy) rather than settled ones.
+
+### Phase 2.4—Iterate Towards Output
+
+- Correct framing but mechanically underspecified. "Cluster notes to outline arguments" is exactly the kind of verb-without-object that fails ADHD executive function. What is the _concrete ritual_? My suggestion: when a hub note reaches ~5–7 outbound links on a coherent theme, that's the trigger to draft.
