@@ -2,9 +2,9 @@
 aliases: []
 created: 2025-08-26T09:26:38Z
 last_reviewed: ""
-modified: 2026-04-22T20:59:44+00:00
+modified: 2026-04-23T14:25:25+00:00
 status: ""
-tags: ["information"]
+tags: ["information", 3]
 title: "Shannon's Information Theory - Information as Uncertainty"
 type: ""
 updated: 
@@ -107,13 +107,13 @@ Pick one.
 
 1. Fix the LaTeX (2 min). Replace the broken formula with:
 
-```
-$$H(X) = -\sum_{x \in \mathcal{X}} p(x) \log_2 p(x)$$
-```
+$$
+H(X) = -\sum_{x \in \mathcal{X}} p(x) \log_2 p(x)
+$$
 
    Lowest activation energy. Immediate visible win.
 
-2. Weaken "directly contradicts" to "abstracts away from" (1 min). One-word fix that makes the note technically defensible instead of technically wrong.
-3. Add a one-line clarification on entropy-vs-string (5 min). After the "AAAAA" sentence, add: _"Note: Shannon entropy is a property of the source distribution, not of individual strings—string-level information content is better captured by [[Kolmogorov Complexity]]."_ This resolves the 2c confusion and earns the existing Kolmogorov link.
+1. Weaken "directly contradicts" to "abstracts away from" (1 min). One-word fix that makes the note technically defensible instead of technically wrong.
+2. Add a one-line clarification on entropy-vs-string (5 min). After the "AAAAA" sentence, add: _"Note: Shannon entropy is a property of the source distribution, not of individual strings—string-level information content is better captured by [[Kolmogorov Complexity]]."_ This resolves the 2c confusion and earns the existing Kolmogorov link.
 
-If you only do one, do #3—it's the conceptual fix that upgrades the note from "popular-science summary" to "correctly-scoped permanent note," and it activates a link you've already committed to.
+If you only do one, do 3—it's the conceptual fix that upgrades the note from "popular-science summary" to "correctly-scoped permanent note," and it activates a link you've already committed to.

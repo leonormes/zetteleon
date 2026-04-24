@@ -2,7 +2,7 @@
 aliases: ["CoreDNS Configuration", "DNS Architecture", "Hybrid Cloud DNS", "Protective DNS", "Split-View DNS"]
 created: 2026-01-06T20:15:48+00:00
 last_reviewed: "2026-03-28"
-modified: 2026-04-19T18:30:34+00:00
+modified: 2026-04-24T09:51:35+00:00
 status: "Active"
 tags: ["aws", "azure", "dns", "networking", "security", "SoftwareEngineering/Architecture"]
 title: SoT - DNS Core Components and Environments
@@ -94,4 +94,3 @@ Look for "Current DNS Server" on the primary interface.
 ## Related Documentation
 
 - [[SoT - Cloud Networking Principles]]
-- [[NIST updates its DNS security guidance for the first time in over a decade]]
