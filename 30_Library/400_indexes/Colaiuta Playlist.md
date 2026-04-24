@@ -1,12 +1,12 @@
 ---
-captured: "2026-04-20T14:16:49+01:00 2026-04-20T14:16:49+01:00"
+captured: 2026-04-20T14:16:49+01:00 2026-04-20T14:16:49+01:00
 created: 2026-04-20T13:16:50+00:00
-modified: 2026-04-21T07:41:22+00:00
-source: "https://gemini.google.com/app/c9a34d59918402f9"
-status: "processing"
-tags: ["input"]
+modified: 2026-04-24T14:10:00+00:00
+source: https://gemini.google.com/app/c9a34d59918402f9
+status: archived
+tags:
 title: HEAD You said Httpsyoutube.comwatch?v=JNW61ywog54&s...
-type: "head"
+type: head
 ---
 
 - 8. Emergency (Tony Williams Lifetime)–This record served as a declaration that the drum kit was a fully expressive voice capable of leading and commanding, rather than just keeping time.
