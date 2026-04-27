@@ -1,6 +1,6 @@
 ---
 created: 2026-04-24T07:22:57+00:00
-modified: 2026-04-24T07:24:35+00:00
+modified: 2026-04-25T20:04:42+00:00
 title: CUH OMOP database slow for cohort discovery queries
 ---
 

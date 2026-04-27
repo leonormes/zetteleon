@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-11T15:30:49Z
 last_reviewed: ""
-modified: 2026-02-01T15:08:27+00:00
+modified: 2026-04-26T13:12:57+00:00
 status: ""
 tags: []
 title: Stage 0 Prepare (The Extended Mind Layer)
@@ -21,5 +21,3 @@ The Method: Prime Your Mind for Insight
 3. Tune into Interoception: Pay attention to your internal bodily signals—your "gut feelings." These sensations are a form of non-conscious pattern recognition. A feeling of unease or excitement about an idea is valuable data. Don't ignore it; note it.
 
 > Outcome: You arrive at the page not with a "cold" brain, but with a mind that is warmed up, attentive, and open to new connections.
-
-[[100_zettelkasten/The Unified Writing to Think Process]]

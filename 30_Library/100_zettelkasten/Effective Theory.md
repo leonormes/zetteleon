@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-29T15:17:35Z
 last_reviewed: ""
-modified: 2026-02-01T15:08:34+00:00
+modified: 2026-04-26T13:15:23+00:00
 status: ""
 tags: ["physics", "science", "TheHuman/Cognition/mental-model"]
 title: Effective Theory
@@ -14,10 +14,8 @@ An effective theory is a model of the world that is highly accurate and predicti
 
 [[Newtonian Physics as an Effective Theory]] is the classic example; it works for everyday scales but is superseded by General Relativity.
 
-Similarly, the mental model of [[Number As Symbol is a Flawed Initial Mental Model]] is an effective theory for elementary school arithmetic. Its success in that domain hides its foundational flaws, which only become apparent when the domain is expanded to include the full set of real numbers.
+Similarly, the mental model of Number As Symbol is a Flawed Initial Mental Model is an effective theory for elementary school arithmetic. Its success in that domain hides its foundational flaws, which only become apparent when the domain is expanded to include the full set of real numbers.
 
 Links: [[Flawed Mental Models Limit Mastery|Flawed Mental Models]], [[Instrumentalism vs Realism in Understanding]]
 
 Links: [[Newtonian Physics as an Effective Theory]]
-
-[[HEAD - The Purpose of Thinking]]

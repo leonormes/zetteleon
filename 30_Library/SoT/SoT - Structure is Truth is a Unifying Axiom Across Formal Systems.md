@@ -1,15 +1,11 @@
 ---
 aliases: [Constitutive Structure, Structure as Truth, The Unifying Axiom]
 created: 2026-04-19T11:00:00+01:00
-modified: 2026-04-19T18:30:30+00:00
+modified: 2026-04-26T10:25:00+00:00
 see_also: ["[[MOC - ADHD Functional Neurology & Scaffolding]]", "[[MOC - Applied Formal Methods]]", "[[Protocol - AFM Vault Constitutional Triage]]", "[[SoT - Conservation of Complexity]]", "[[SoT - Order Theory & Lattices]]", "[[SoT - The Curry-Howard Correspondence (Propositions as Types)]]", "[[SoT - The Data-Centric Philosophy]]"]
 tags: [fca/attr/m10, fca/attr/m4, fca/level/c4, fca/m2-framed, prodos/sot, topic/adhd, topic/formal-methods, topic/philosophy, topic/pkm, topic/software-architecture, topic/type-theory]
 title: SoT - Structure is Truth is a Unifying Axiom Across Formal Systems
 ---
-
-## SoT—Structure Is Truth is a Unifying Axiom Across Formal Systems
-
-### Minimum Viable Understanding (MVU)
 
 Structure does not _represent_ truth—it _constitutes_ it. In any formal system, the structure defines the domain of valid facts; there is no pre-structural truth for the schema to "point at." The practical consequence is immediate and exact: complexity is conserved ([[SoT - Conservation of Complexity|Tesler's Law]]), and every unit of complexity that is not embedded in structure must be handled by the runtime—whether that runtime is a CPU, a data engineer, an infrastructure operator, or an ADHD brain's working memory.
 
@@ -17,7 +13,7 @@ The axiom "Structure is Truth" therefore does not originate in software engineer
 
 ---
 
-### 1. The Representational Fallacy
+## 1. The Representational Fallacy
 
 The naive view holds that structure is secondary. First, there are facts; then we structure them to make them manageable. The type _documents_ what the function does. The CDM schema _represents_ clinical reality. The state file _describes_ the running infrastructure. The task list _records_ what exists in the mind.
 
@@ -33,7 +29,7 @@ Three tests confirm this in each domain:
 
 ---
 
-### 2. The Isomorphism of Order
+## 2. The Isomorphism of Order
 
 All four columns instantiate the same underlying logic: _the structure is the specification of reality, and absence of structure forces complexity onto the runtime._
 
@@ -48,7 +44,7 @@ The isomorphism is not an analogy. The same abstract structure—constitutive sc
 
 ---
 
-### 3. Complexity Conservation: The Unifying Mechanism
+## 3. Complexity Conservation: The Unifying Mechanism
 
 Why does this isomorphism hold? Because complexity is conserved.
 
@@ -71,7 +67,7 @@ The corollary for system design is exact and actionable:
 
 ---
 
-### 4. The Recursive Case: This Note
+## 4. The Recursive Case: This Note
 
 This note is itself an instance of the axiom it states.
 
@@ -90,7 +86,7 @@ This is why [[Protocol - AFM Vault Constitutional Triage]] treats frontmatter vi
 
 ---
 
-### 5. The C15 Bridge: Structure as the Mechanism of Resilience
+## 5. The C15 Bridge: Structure as the Mechanism of Resilience
 
 C15 ({AC, PR} | {M3 External Scaffolding, M7 Optimisation, M9 Cognitive Architecture}) represents Human Resilience Systems—stoicism, philosophical scaffolding, and the discipline of virtue. At first glance, this domain appears orthogonal to formal methods.
 
@@ -106,13 +102,13 @@ Virtue, in this reading, is not a disposition but a _structural invariant_ of th
 
 ---
 
-### 6. Current Understanding
+## 6. Current Understanding
 
 The claim in this note is strong: structure not only reduces complexity but _constitutes_ the domain of valid facts in any formal system. The evidence from type theory (Curry-Howard), constructivist mathematics (Brouwer), and cognitive externalism (Clark & Chalmers, 1998—"The Extended Mind") supports the constitutive reading over the representational one. The FCA lattice derivation ([[MOC - Applied Formal Methods]]) provides a formal demonstration that the same abstract attributes (M4, M10) appear identically across software, data, infrastructure, and cognitive domains—confirming the isomorphism is structural, not analogical.
 
 ---
 
-### 7. Tensions & Gaps
+## 7. Tensions & Gaps
 
 T1—The Analogy Risk. The FCA analysis establishes that DS, CI, DC, AM, and PK share M4 and M10 at C4. This is a structural fact about the _concept lattice_. Whether the lattice is capturing a genuine ontological equivalence or a useful but ultimately domain-specific family resemblance is a deeper question.
 
@@ -124,7 +120,7 @@ T4—The Stoic Bridge Requires Its Own Note. §5 makes the claim that virtue is 
 
 ---
 
-### Related Knowledge
+## Related Knowledge
 
 - [[SoT - Conservation of Complexity]]—The conservation law that gives this axiom its force.
 - [[SoT - The Data-Centric Philosophy]]—The software-specific instantiation: "Structure is Truth; Code is Derivative."

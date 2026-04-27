@@ -1,16 +1,8 @@
 ---
 created: 2026-04-23T15:27:21+00:00
-modified: 2026-04-23T16:16:05+00:00
+modified: 2026-04-25T20:10:10+00:00
 title: PKM should probably be proposition-centered, not topic-centered
 ---
-
-Based on your recent Heptabase notes from around 4:00 PM, you're already very close to the answer: you were distinguishing concepts from propositions, and arguing that propositions are the units that can actually be true, false, challenged, refined, and linked to evidence. I don't see any relevant workspace files for this question, but your notes are enough to make the direction pretty clear.
-
-At 4:03 PM, you also wrote: _"I am trying to define my thinking. I want AI to clarify my thinking. I want to overcome writer's block. I want to build knowledge."_ That's the real requirement. So the PKM should be designed for clarifying and updating thought, not for warehousing information.
-
-And at 4:05 PM, you were looking at [Organizing Content in Heptabase](https://claude.ai/chat/a1d21185-bb43-4075-8e44-91cdb65a522a), which is relevant because this kind of system works well when you explicitly model note types and metadata.
-
-## Short Answer
 
 Yes: your PKM should probably be proposition-centered, not topic-centered.
 
@@ -165,7 +157,7 @@ Now the notes are doing cognitive work.
 
 I think this is close to the formulation you're reaching for:
 
-> My PKM is not a personal encyclopedia. It is a system for articulating, testing, and revising my current understanding of the world. Its core units are claims, concepts, questions, evidence, and procedures.
+> [[My current pkm definition]]
 
 Or even more sharply:
 
@@ -303,6 +295,6 @@ That is actual thinking.
 
 If you want a concise definition of your PKM, I'd use this:
 
-> My PKM is a structured record of what I think, why I think it, how confident I am, and how those beliefs change over time.
+> 
 
 If you want, I can turn this into a concrete PKM schema for either Obsidian or Heptabase—for example, exact note types, tags/properties, and templates for claim/concept/question/procedure notes.

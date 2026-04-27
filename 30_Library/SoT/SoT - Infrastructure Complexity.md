@@ -1,7 +1,7 @@
 ---
 created: 2026-02-06T14:30:00Z
 last-synthesis: 2026-04-05
-modified: 2026-04-19T18:30:33+00:00
+modified: 2026-04-25T20:16:52+00:00
 source_of_truth: true
 status: evergreen
 synthesis_count: 3
@@ -12,7 +12,6 @@ trust-level: stable
 
 ## Minimum Viable Understanding (MVU)
 
-The "fragility" in modern distributed systems (Kubernetes, Cloud) stems from Accidental Complexity in how components bind. While architecture is declarative (Abstract), binding is often string-based and late-bound (Fragile). Resilience requires shifting from "String-Oriented Programming" (matching strings) to Type-Safe Unification (mathematically guaranteed composition).
 
 ---
 

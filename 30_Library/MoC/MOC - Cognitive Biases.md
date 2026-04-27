@@ -2,7 +2,7 @@
 aliases: ["Cognitive Biases MOC"]
 created: 2025-12-12T12:05:00Z
 last_reviewed: ""
-modified: 2026-02-01T15:08:07+00:00
+modified: 2026-04-25T10:42:27+00:00
 status: "seedling"
 tags: ["bias", "TheHuman/Cognition", "TheHuman/Psychology", "type/moc"]
 title: MOC - Cognitive Biases
@@ -49,7 +49,7 @@ Biases that impact how we choose actions or value outcomes.
 
 ## 4. ProdOS Integration
 
-In the context of [[SoT - PRODOS (System Architecture)]], we fight these biases through:
+In the context of [[SoT - PRODOS Core Specification]], we fight these biases through:
 
 1. "Write to Think": Forcing articulation exposes the Illusion of Explanatory Depth.
 2. "Reality as a Unit Test": Verifiable actions prevent Illusion of Fluency.
