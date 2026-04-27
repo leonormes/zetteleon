@@ -31,3 +31,6 @@ The brain's filtering system was shaped by evolution and is hardwired to priorit
 This explains why emotional events create more detailed and persistent mental models than mundane experiences.
 
 Links: [[Salience Determines What Information Enters Mental Models]], [[Mental Models as Evolutionary Filters]], [[Cognitive-Emotional Feedback Loop]]
+
+
+- [[Chemotaxis as a Primitive Precursor to Emotion]] _provides the most ancient form of this valuation logic — a pre-neural sense-evaluate-actuate loop that evolution later scaled into full emotional systems_

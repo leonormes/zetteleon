@@ -1,7 +1,7 @@
 ---
 captured: 2026-04-20T14:14:16+01:00 2026-04-20T14:14:16+01:00
 created: 2026-04-20T13:14:18+00:00
-modified: 2026-04-27T08:09:28+00:00
+modified: 2026-04-27T11:25:37+00:00
 source: https://gemini.google.com/app/95ac6e4184ea8759
 status: processing
 tags: [input]
@@ -52,11 +52,6 @@ Two rabbit holes, pick whichever feels more novel:
 
 ---
 
-You
-
-here is a response to your output
-
----
 
 Claude
 
