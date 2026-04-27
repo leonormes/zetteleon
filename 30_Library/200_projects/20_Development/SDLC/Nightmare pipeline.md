@@ -2,20 +2,21 @@
 aliases: []
 created: 2025-02-07T12:57:52Z
 last_reviewed: ""
-modified: 2026-04-19T18:30:36+00:00
+modified: 2026-04-27T13:50:00
 see_also: []
 status: ""
 superseded_by: ""
 supersedes: ""
-tags: ["SDLC"]
+tags:
+  - SDLC
 title: Nightmare pipeline
 type: ""
-updated: 
+updated:
 ---
 
 Our Delivery Pipeline should be an utter nightmare for any defect trying to get through to production.
 
-Any code bold enough to enter our pipeline should have one promise, one truth, on its mind. I am _ready_.
+Any code bold enough to enter our pipeline should have one promise, one truth, on its mind. I am _ready_. ^cade39
 
 The code should be smashed, bent, torn, and burned to the ground. Dragged to its feet, pulverised, obliterated, driven to its limits, driven insane with torment before rising again clean and pure, certain it can live up to the promise it has made to production. I _am_ ready
 
@@ -44,3 +45,10 @@ The description of the pipeline as "cunning in its cataclysmal and annihilatory 
 The author's statement about bugs - that if they make it through, they "deserve to be there" - is particularly interesting. It acknowledges that no system is perfect while setting an extremely high bar for what constitutes acceptable imperfection. The specific callout to "possibly null value" is a knowing nod to one of programming's most persistent challenges.
 
 The final paragraph about code quality being "lovely, easy and delightful" contrasts beautifully with the violent imagery that preceded it. This reflects an important truth: while the testing process should be brutal, its purpose is to ensure the end product is elegant and reliable. The emotional weight given to allowing poor quality code through - that it should "break our hearts, infect our dreams" - speaks to the professional pride and responsibility that characterizes good development practices.
+
+
+
+## Related
+- [[SOT - CI-CD Pipelines]] _This SoT defines the architecture and stages of a ruthlessly robust CI/CD pipeline, the very gauntlet the note demands._
+- [[SoT - Test-Driven Development]] _TDD is the primary mechanism by which code is ‘smashed, bent, and burned’ before it reaches production._
+- [[Integrate Security into the Workflow (Shift Left)]] _Embedding security early ensures the pipeline is treacherous not just for functional bugs but for vulnerabilities too._

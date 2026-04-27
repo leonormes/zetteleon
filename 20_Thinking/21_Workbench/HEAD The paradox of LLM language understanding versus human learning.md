@@ -1,7 +1,7 @@
 ---
 captured: 2026-04-20T14:14:16+01:00 2026-04-20T14:14:16+01:00
 created: 2026-04-20T13:14:18+00:00
-modified: 2026-04-27T11:25:37+00:00
+modified: 2026-04-27T12:37:24+00:00
 source: https://gemini.google.com/app/95ac6e4184ea8759
 status: processing
 tags: [input]
@@ -16,10 +16,6 @@ You
 We are amazed my LLM and the illusion it creates that it 'understands' language. Large language models (LLMs) are fundamentally designed to understand, generate, and interpret human language, which form their core capabilities,. Here is how these functions work together: \*\*Understanding and Interpreting Language\*\* When researchers say an LLM "understands" or "interprets" language, they do not mean the model possesses human consciousness or true comprehension. Instead, it means the model can process text to recognize complex patterns, linguistic nuances, and context,. This is achieved using the Transformer architecture, which employs "attention mechanisms" to selectively weigh the importance of different words in a sequence relative to each other,. Some models, like BERT, are explicitly focused on this interpretative capability. These are known as representation (or encoder-only) models, and they excel at understanding the semantic nature of text for tasks like text classification, sentiment analysis, and search,. \*\*Generating Language\*\* Generating language refers to the model's ability to produce coherent, contextually relevant, and original text,. Generative (or decoder-only) models, such as the GPT family, accomplish this by acting as highly advanced sequence-to-sequence machines. They are trained on a massive scale to simply predict the most probable next word (or token) in a sequence,. By looping this prediction process, they can write entire articles, translate languages, or answer questions one word at a time,. Together, these capabilities represent a massive leap forward from older, traditional machine learning methods that relied on handcrafted rules and simple pattern recognition. Today's LLMs can parse detailed instructions, conduct contextual analysis, and converse naturally,. But I think something more amazing is the inherent patterns in the human language. It takes massive amount of compute to filter and refine the patterns, yet young children can do it from an early age and humans traditioanlly seen as not very smart can all do it to huge sophistication. What do you think about this perspective
 
 ---
-
-Claude
-
-There's something genuinely profound in what you've noticed, and I think the usual framing actually undersells it.
 
 ## The Comparison Isn't Quite fair—and That's the point
 
