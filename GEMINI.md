@@ -14,10 +14,27 @@ updated:
 
 ### 1. Mandatory Tool Usage (MCP Proxy)
 
-STRICT RULE: When interacting with any external system or the Obsidian vault, you MUST use the MCP Proxy tools. This system requires a "Discovery-before-Execution" pattern.
+**READ THIS FIRST — DO NOT SKIP**
 
-- Discovery: Use `mcp_mcp-proxy_retrieve_tools` with a query (e.g., "obsidian", "search notes") to find available tools and their `input_schema`.
-- Execution: Use `mcp_mcp-proxy_call_tool` with the exact tool name (e.g., `obsidian_mcp_tools_search_vault_smart`) and the required `args`.
+The MCP proxy is pre-registered as a native MCP server in this session via `~/.gemini/settings.json` pointing to `http://127.0.0.1:8000/mcp/`.
+
+**DO NOT attempt shell-based MCP tool discovery.**
+**DO NOT run `mcp_mcp-proxy_retrieve_tools` as a shell command — it does not exist as a binary.**
+
+The Jira, Obsidian, and all other MCP tools are available as **NATIVE tool declarations** from the first token of this session. Use them directly:
+- Jira tools: available as `mcp_mcp-proxy_atlassian_*` 
+- Obsidian tools: available as `mcp_mcp-proxy_obsidian_*`
+
+If tools are NOT available:
+1. Run `/mcp list` to check server status
+2. Run `mcp-refresh` in the shell to restart the proxy on port 8000
+
+---
+
+**STRICT RULE:** When interacting with any external system or the Obsidian vault, you MUST use the MCP Proxy tools.
+
+- Discovery: Tools are auto-discovered at session start via the SSE connection. Query the tool catalog if needed using the MCP tool list.
+- Execution: Use the exact tool name (e.g., `obsidian_mcp_tools_search_vault_smart`) with the required `args`.
 - Trigger: Any request involving reading, searching, or summarizing vault content, or interacting with Jira/Todoist, requires this protocol.
 
 ### 2. Negative Constraints (What NOT to do)
@@ -96,7 +113,12 @@ Treat this system not as a Database (Storage) but as a Runtime Environment (Comp
 
 #### 3. Your Workflows
 
-Always use the MCP Proxy tools to interact with the vault. Utilize the discovery protocol to identify semantic search tools (e.g., `search_vault_smart`) before execution.
+**MCP tools are pre-loaded at session start.** Do not attempt discovery — use tools directly by name.
+
+Always use the MCP Proxy tools to interact with the vault. Tools are available as native function calls:
+- `obsidian_mcp_tools_search_vault_smart` — semantic search
+- `obsidian_mcp_tools_read_note` — read note content
+- `atlassian_*` — Jira operations
 
 ##### Phase 1: Refine (The "Psychiatrist")
 
