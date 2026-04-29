@@ -48,3 +48,13 @@ Append-only — never edit past entries.
 - **Wiki pages touched:** none
 - **Pieces IDs ingested:** 0 memories
 - **Flags:** none — no new Pieces activity in the last 4 hours (most recent asset: 2026-04-28T14:11:57Z)
+
+---
+
+## 2026-04-29 08:35 — Project Check-In
+
+- **Action:** Ingest (Pieces LTM, last 4h)
+- **Raw sources created:** [[raw/2026-04-29-pieces-unified-llm-router-cockpit]], [[raw/2026-04-29-pieces-security-and-maintenance-roadmap]], [[raw/2026-04-29-pieces-future-roadmap-planning]], [[raw/2026-04-29-pieces-general]]
+- **Wiki pages touched:** [[wiki/projects/Unified LLM Router Cockpit]], [[wiki/projects/Security and Maintenance Roadmap]], [[wiki/projects/Future Roadmap Planning]]
+- **Pieces IDs ingested:** 26 memories
+- **Flags:** none
