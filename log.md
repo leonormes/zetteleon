@@ -58,3 +58,13 @@ Append-only — never edit past entries.
 - **Wiki pages touched:** [[wiki/projects/Unified LLM Router Cockpit]], [[wiki/projects/Security and Maintenance Roadmap]], [[wiki/projects/Future Roadmap Planning]]
 - **Pieces IDs ingested:** 26 memories
 - **Flags:** none
+
+---
+
+## 2026-04-29 12:46 — Project Check-In
+
+- **Action:** Ingest (Pieces LTM, last 4h)
+- **Raw sources created:** [[raw/2026-04-29-pieces-azure-aks-backup-ftfl]]
+- **Wiki pages touched:** [[wiki/projects/Azure AKS Backup — FTFL]]
+- **Pieces IDs ingested:** 166 memories
+- **Flags:** none — 1 new project page created
