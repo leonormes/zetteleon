@@ -1,6 +1,6 @@
 ---
 created: 2026-04-29T10:20:51+00:00
-modified: 2026-04-29T10:23:09+00:00
+modified: 2026-04-29T10:31:04+00:00
 title: Azure Backup for AKS — Full CLI Command Sequence
 ---
 
@@ -13,14 +13,14 @@ Based on your current work on [FTFL-596](https://fitfile.atlassian.net/browse/FT
 ```bash
 # Cluster
 AKS_CLUSTER_NAME="aks-ff-uks-gp-1"
-AKS_RG="<your-aks-resource-group>"
+AKS_RG="rg-ff-uks-gp-net"
 SUBSCRIPTION_ID=$(az account show --query id -o tsv)
 
 # Backup infra
 VAULT_NAME="aksbackupvault"
-VAULT_RG="<your-backup-rg>"
+VAULT_RG="pentest-1-backup-rg"
 STORAGE_ACCOUNT="stffuksgp1backup"
-STORAGE_RG="<your-storage-rg>"
+STORAGE_RG="rg-ff-uks-gp-net"
 BLOB_CONTAINER="aks-backups"
 LOCATION="uksouth"
 

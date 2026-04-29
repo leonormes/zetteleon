@@ -1,0 +1,61 @@
+{
+  "backup_instance_name": "aks-ff-uks-gp-1-aks-ff-uks-gp-1-950fac30-43c0-11f1-867c-d20551df63e5",
+  "properties": {
+    "data_source_info": {
+      "datasource_type": "Microsoft.ContainerService/managedClusters",
+      "object_type": "Datasource",
+      "resource_id": "/subscriptions/7bbc8ae5-1710-48ab-ab83-59b52bd0de1a/resourcegroups/rg-ff-uks-gp-net/providers/Microsoft.ContainerService/managedClusters/aks-ff-uks-gp-1",
+      "resource_location": "uksouth",
+      "resource_name": "aks-ff-uks-gp-1",
+      "resource_type": "Microsoft.ContainerService/managedclusters",
+      "resource_uri": "/subscriptions/7bbc8ae5-1710-48ab-ab83-59b52bd0de1a/resourcegroups/rg-ff-uks-gp-net/providers/Microsoft.ContainerService/managedClusters/aks-ff-uks-gp-1"
+    },
+    "data_source_set_info": {
+      "datasource_type": "Microsoft.ContainerService/managedClusters",
+      "object_type": "DatasourceSet",
+      "resource_id": "/subscriptions/7bbc8ae5-1710-48ab-ab83-59b52bd0de1a/resourcegroups/rg-ff-uks-gp-net/providers/Microsoft.ContainerService/managedClusters/aks-ff-uks-gp-1",
+      "resource_location": "uksouth",
+      "resource_name": "aks-ff-uks-gp-1",
+      "resource_type": "Microsoft.ContainerService/managedclusters",
+      "resource_uri": "/subscriptions/7bbc8ae5-1710-48ab-ab83-59b52bd0de1a/resourcegroups/rg-ff-uks-gp-net/providers/Microsoft.ContainerService/managedClusters/aks-ff-uks-gp-1"
+    },
+    "datasource_auth_credentials": null,
+    "friendly_name": "aks-ff-uks-gp-1/aks-ff-uks-gp-1-backup",
+    "object_type": "BackupInstance",
+    "policy_info": {
+      "policy_id": "/subscriptions/7bbc8ae5-1710-48ab-ab83-59b52bd0de1a/resourceGroups/pentest-1-backup-rg/providers/Microsoft.DataProtection/backupVaults/aksbackupvault/backupPolicies/dailyaksbackups",
+      "policy_parameters": {
+        "backup_datasource_parameters_list": [
+          {
+            "backup_hook_references": null,
+            "excluded_namespaces": null,
+            "excluded_resource_types": null,
+            "include_cluster_scope_resources": true,
+            "included_namespaces": [
+              "barts",
+              "ff-a",
+              "ff-b",
+              "ff-c",
+              "spicedb",
+              "thehyve",
+              "thehyve-cuh",
+              "thehyve-mkuh"
+            ],
+            "included_resource_types": null,
+            "label_selectors": null,
+            "object_type": "KubernetesClusterBackupDatasourceParameters",
+            "snapshot_volumes": true
+          }
+        ],
+        "data_store_parameters_list": [
+          {
+            "data_store_type": "OperationalStore",
+            "object_type": "AzureOperationalStoreParameters",
+            "resource_group_id": "/subscriptions/7bbc8ae5-1710-48ab-ab83-59b52bd0de1a/resourceGroups/pentest-1-backup-snapshots-rg"
+          }
+        ]
+      }
+    }
+  },
+  "tags": null
+}

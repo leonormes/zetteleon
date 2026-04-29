@@ -1,0 +1,14 @@
+{
+  "backup_hook_references": null,
+  "excluded_namespaces": null,
+  "excluded_resource_types": null,
+  "include_cluster_scope_resources": true,
+  "included_namespaces": [
+    "spicedb",
+    "sandbox-test-1"
+  ],
+  "included_resource_types": null,
+  "label_selectors": null,
+  "object_type": "KubernetesClusterBackupDatasourceParameters",
+  "snapshot_volumes": true
+}
