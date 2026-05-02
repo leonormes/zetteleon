@@ -1,7 +1,7 @@
 ---
 captured: "2026-04-29T13:28:53+01:00 2026-04-29T13:28:53+01:00"
 created: 2026-04-29T12:28:56+00:00
-modified: 2026-04-30T15:06:45+00:00
+modified: 2026-05-02T20:40:34+00:00
 source: "https://claude.ai/chat/891c087e-70b2-4b75-8c59-926c4c7108c1"
 status: "processing"
 tags: ["input"]
@@ -853,4 +853,3 @@ kubectl cluster-info                        # confirms private FQDN in use
 ```
 
 That last one is satisfying—`cluster-info` will print the `privatelink.azmk8s.io` URL, confirming the private API is what's responding.
-

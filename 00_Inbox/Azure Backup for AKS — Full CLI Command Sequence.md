@@ -1,6 +1,6 @@
 ---
 created: 2026-04-29T10:20:51+00:00
-modified: 2026-04-29T10:31:04+00:00
+modified: 2026-05-02T20:40:33+00:00
 title: Azure Backup for AKS — Full CLI Command Sequence
 ---
 
