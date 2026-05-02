@@ -68,3 +68,82 @@ Append-only — never edit past entries.
 - **Wiki pages touched:** [[wiki/projects/Azure AKS Backup — FTFL]]
 - **Pieces IDs ingested:** 166 memories
 - **Flags:** none — 1 new project page created
+
+---
+
+## 2026-04-29 16:57 — Project Check-In
+
+- **Action:** Ingest (Pieces LTM, last 4h)
+- **Raw sources created:** none
+- **Wiki pages touched:** none
+- **Pieces IDs ingested:** 0 memories
+- **Flags:** none — no new Pieces activity in the last 4 hours (most recent asset: 2026-04-29T12:25:44Z)
+
+---
+
+## 2026-04-29 21:00 — Project Check-In
+
+- **Action:** Ingest (Pieces LTM, last 4h)
+- **Raw sources created:** none
+- **Wiki pages touched:** none
+- **Pieces IDs ingested:** 0 memories
+- **Flags:** none — no new Pieces activity in the last 4 hours (most recent asset: 2026-04-29T12:25:44Z)
+
+---
+
+## 2026-04-30 06:04 — Daily Synthesis
+
+- **Action:** Ingest (Pieces LTM, last 24h)
+- **Raw sources created:** [[raw/2026-04-30-pieces-azure-backup-projects]]
+- **Wiki pages touched:** [[wiki/projects/NNU Azure Backup]], [[wiki/projects/MKUH Azure Backup]], [[wiki/projects/Azure Backup Restore Runbook]], [[wiki/projects/Terraform IaC Modules]]
+- **Pieces IDs ingested:** 14 memories
+- **Flags:** none — 4 new project pages created
+
+---
+
+## 2026-04-30 09:08 — Project Check-In
+
+- **Action:** Ingest (Pieces LTM, last 4h)
+- **Raw sources created:** [[raw/2026-04-30-pieces-aks-backup-iac]]
+- **Wiki pages touched:** [[wiki/projects/Azure AKS Backup — FTFL]]
+- **Pieces IDs ingested:** 12 memories
+- **Flags:** none — existing project page updated with IaC planning session details
+---
+
+## 2026-04-30 13:14 — Project Check-In
+
+- **Action:** Ingest (Pieces LTM, last 4h)
+- **Raw sources created:** [[raw/2026-04-30-pieces-terraform-backup-review]]
+- **Wiki pages touched:** [[wiki/projects/Terraform IaC Modules]]
+- **Pieces IDs ingested:** 7 memories
+- **Flags:** none — existing project page updated with LLM prompt creation session details
+
+---
+
+## 2026-05-01 02:26 — Daily Synthesis
+
+- **Action:** Ingest (Pieces LTM, last 24h — extended from 4h due to no recent activity)
+- **Raw sources created:** [[raw/2026-05-01-pieces-terraform-backup-module-review]]
+- **Wiki pages touched:** [[wiki/projects/Azure AKS Backup — FTFL]]
+- **Pieces IDs ingested:** 7 memories
+- **Flags:** none — existing project page updated with Terraform review prompt details
+
+---
+
+## 2026-05-01 13:42 — Project Check-In
+
+- **Action:** Ingest (Pieces LTM, last 4h)
+- **Raw sources created:** [[raw/2026-05-01-pieces-terraform-backup-review]]
+- **Wiki pages touched:** [[wiki/projects/Azure AKS Backup — FTFL]]
+- **Pieces IDs ingested:** 27 memories
+- **Flags:** none — existing project page updated with Terraform module validation findings (import vs creation, secrets configuration, security considerations, task status review)
+
+---
+
+## 2026-05-01 22:00 — Daily Synthesis (Project Check-In)
+
+- **Action:** Ingest (Pieces LTM, last 24h — extended from 4h due to no recent activity)
+- **Raw sources created:** [[raw/2026-05-01-pieces-terraform-backup-review]], [[raw/2026-05-01-pieces-aws-ssm-troubleshooting]]
+- **Wiki pages touched:** [[wiki/projects/Azure AKS Backup — FTFL]], [[wiki/projects/AWS SSM Session Troubleshooting]]
+- **Pieces IDs ingested:** 27 memories
+- **Flags:** none — 1 new project page created (AWS SSM Session Troubleshooting), 1 existing page updated with Terraform module validation findings

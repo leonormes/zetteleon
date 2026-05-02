@@ -28,7 +28,13 @@
       "Bash(grep -v \"SyntaxWarning\\\\|escape sequence\\\\|raw string\\\\|Integration status\\\\|Initialized\\\\|^$\")",
       "Bash(python3 *)",
       "Bash(obsidian status *)",
-      "Bash(obsidian vault *)"
+      "Bash(obsidian vault *)",
+      "Bash(kubectl get pods *)",
+      "Bash(kubectl get configmap *)",
+      "Bash(kubectl logs *)",
+      "Bash(kubectl get *)",
+      "Bash(helm get *)",
+      "Bash(helm show *)"
     ]
   },
   "spinnerTipsEnabled": false
