@@ -10,5 +10,5 @@ These concepts can help you organize and synthesize information in your PKM:
 
 Limits and colimits are fundamental tools in category theory, allowing for the abstraction and generalization of many important constructions from set theory and other mathematical domains.
 
-Part of <!-- type: part-of -->[2a4c1d-category_theory_offers_several_powerful_insights.md](2a4c1d-category_theory_offers_several_powerful_insights.md)
+Part of <!-- type: part-of -->[2a4c1d-category_theory_offers_several_powerful_insights.md](Category%20Theory%20Offers%20Several%20Powerful%20Insights.md)
 [Effective Linking Strategies.md](Effective%20Linking%20Strategies.md).
