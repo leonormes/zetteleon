@@ -1,3 +1,0 @@
-You could chose a Time-based ID. 
-
-With a digital Zettelkasten, unlike with a paper-based one, there is no real place for a note. To create the hypertext, you need an address, but not a place. A time-stamp is a very simple way to create a unique string of numbers to which you can refer. A sample time-based ID would be: `202006110955`. Year 2020, 11th of June, 9 am and 55 minutes.

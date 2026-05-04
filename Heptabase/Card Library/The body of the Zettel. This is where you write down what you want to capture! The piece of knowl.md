@@ -1,1 +1,0 @@
-The body of the Zettel. This is where you write down what you want to capture: The piece of knowledge.

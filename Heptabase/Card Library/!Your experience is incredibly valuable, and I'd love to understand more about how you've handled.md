@@ -1,1 +1,0 @@
-"Your experience is incredibly valuable, and I'd love to understand more about how you've handled similar situations with medical data in the past. The healthcare compliance landscape has evolved significantly, particularly regarding digital health records. Perhaps we could explore how to apply your experience while addressing today's specific regulatory requirements?"

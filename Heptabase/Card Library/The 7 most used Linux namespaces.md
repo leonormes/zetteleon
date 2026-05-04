@@ -1,4 +1,3 @@
-# The 7 most used Linux namespaces
 
 I want to provide some examples to clarify the technical definitions around *namespaces*. [Wikipedia](https://en.wikipedia.org/wiki/Linux_namespaces) has the following definition:
 

@@ -1,6 +1,6 @@
 # Defining Link Types
 
-[Knowledge 1.md](Knowledge%201.md)
+[Knowledge 1.md](Knowledge.md)
 
 [Information.md](Information.md)
 

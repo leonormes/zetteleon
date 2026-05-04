@@ -1,1 +1,0 @@
-# Common distortions observed include

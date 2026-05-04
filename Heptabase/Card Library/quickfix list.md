@@ -1,3 +1,0 @@
-# quickfix list
-
-# Quickfix List

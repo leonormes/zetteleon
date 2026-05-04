@@ -1,1 +1,0 @@
-- Shift from WHAT-lists to **WHY-lists**: each to-do is paired with a value sentence (“Email dentist → Self-care”). This single tweak increased task initiation latency by 30 % in a small ADHD sample (Hirsch 2023).

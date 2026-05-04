@@ -1,3 +1,0 @@
-You can use any arbitrary unique string. 
-
-You could just use an incremental number, execute a program that generates a random but unique string, or whatever else you want. The main reason for me to consider this over time-based IDs is the promise to shorten IDs. For example, if you encode the date and time as a hexadecimal number, `202005191402` could be shortened to `2F08729AEA`. This is a direct translation of the timestamp. That would shorten the string by two digits. There are more ways to make it even shorter than that. But you'd sacrifice some simplicity, and you wouldn't be able to produce an ID manually. Also, this sacrifices human readability of the time of Zettel creation. Therefore, we do not recommend that approach.

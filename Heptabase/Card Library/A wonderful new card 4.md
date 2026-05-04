@@ -1,1 +1,0 @@
-![String similarity image](https://editor.analyticsvidhya.com/uploads/64318download_1050x520.jpg)

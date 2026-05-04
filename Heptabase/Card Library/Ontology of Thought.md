@@ -20,7 +20,7 @@ Ontology, as the philosophical study of being and existence, addresses the quest
 
 **Additionally,** from a practical standpoint, thoughts have real-world consequences. They influence our actions, shape our understanding of the world, and contribute to our sense of self. This suggests that even if thoughts don't have an independent, objective existence, they still play a crucial role in human life and should be considered significant in their own right.
 
-[Ontology 1.md](Ontology%201.md)
+[Ontology 1.md](Ontology.md)
 
 [1. Dualism (e.g., Cartesian Dualism).md](1.%20Dualism%20(e.g.,%20Cartesian%20Dualism).md)
 

@@ -1,1 +1,0 @@
-OpenTelemetry (OTel for short), is a vendor-neutral open standard for instrumenting, generating, collecting, and exporting telemetry data. Prometheus is a fixture of the observability landscape, widely relied upon for monitoring and alerting within organizations.
