@@ -20,7 +20,7 @@ Links:
 
 - [[Main Notes Are the Essential Building Blocks]]
 - [[Creating Meaningful Links]]
-- [[Luhmann Emphasized Connection-Making]]
+- [[30_Library/100_zettelkasten/Luhmann Emphasized Connection-Making]]
 
 > Status gates
 >

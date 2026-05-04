@@ -1,0 +1,1 @@
+Let me help you craft an approach that's both diplomatic and compelling. The key is to frame this as a business-critical discussion rather than a technical disagreement.

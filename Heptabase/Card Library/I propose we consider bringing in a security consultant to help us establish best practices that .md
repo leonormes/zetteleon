@@ -1,0 +1,1 @@
+I propose we consider bringing in a security consultant to help us establish best practices that align with our current resources and future goals. This approach can help us balance immediate needs with long-term security requirements.

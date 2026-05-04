@@ -1,0 +1,1 @@
+- One or more **Elastic IP addresses** (for static public IP addresses).

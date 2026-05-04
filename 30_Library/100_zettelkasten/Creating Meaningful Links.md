@@ -35,13 +35,13 @@ Poor linking—such as connecting notes simply because they share keywords—cre
 
 ## The Connection-Making Process
 
-As [[Luhmann Emphasized Connection-Making]], the process of identifying and creating relationships between ideas is where true understanding emerges. Each link represents a decision about how knowledge fits together, building your personal understanding of complex domains.
+As [[30_Library/100_zettelkasten/Luhmann Emphasized Connection-Making]], the process of identifying and creating relationships between ideas is where true understanding emerges. Each link represents a decision about how knowledge fits together, building your personal understanding of complex domains.
 
 ## Related Concepts
 
 ### Zettelkasten Fundamentals
 
-- [[Luhmann Emphasized Connection-Making]] - The philosophical foundation of connection-based thinking
+- [[30_Library/100_zettelkasten/Luhmann Emphasized Connection-Making]] - The philosophical foundation of connection-based thinking
 - [[Deep Processing is the Core of Zettelkasten]] - Why meaningful linking requires cognitive effort
 
 ### Relationship Types

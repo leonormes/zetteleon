@@ -1,0 +1,5 @@
+## Where (and how) You Go is More Important than where You Start from
+
+The first note: the single most important thing. Here's an example: "20 years of Project Management experience in two paragraphs". Everything then follows as an extended commentary on that single idea. However, because it's all connected, you don't even need to start with the most important idea. You can just start with the first idea you think of right now. Where does it lead? The Zettelkasten process will take you there.
+
+This unfolding process is the opposite of the standard practice. In the case of 20 years of PM experience the standard practice might be to take a conventional set of PM categories as your table of contents and then to write the same thing everyone else already wrote. The Zettelkasten method is specifically to deny the established categories and to allow the process to uncover new, better ones - new and unique trails through the forest of knowledge.

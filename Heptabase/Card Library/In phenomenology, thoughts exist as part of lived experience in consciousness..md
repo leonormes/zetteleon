@@ -1,0 +1,1 @@
+In **phenomenology**, thoughts exist as part of lived experience in consciousness.

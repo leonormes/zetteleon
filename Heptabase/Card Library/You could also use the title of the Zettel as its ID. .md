@@ -1,0 +1,3 @@
+You could also use the title of the Zettel as its ID. 
+
+As long as it is unique, it can serve as an ID. Consequently, you cannot change the title unless you change any reference to it if you want to keep your links intact. There is some software that would handle this problem for you, but we do not recommend this. We prefer a software-independent approach and keep our independence from software.

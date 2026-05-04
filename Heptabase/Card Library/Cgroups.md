@@ -1,0 +1,13 @@
+## Cgroups
+
+For an in-depth look at [cgroups](https://www.redhat.com/sysadmin/cgroups-part-two), I recommend reading my series on [redhat.com](https://www.redhat.com/sysadmin/cgroups-part-one). In that four-part series, I go into detail about how cgroups work and how you can put them into practice. In brief, cgroups are a mechanism for controlling system resources. When a cgroup is active, it can control the amount of CPU, RAM, block I/O, and some other facets which a process may consume. By default, cgroups are created in the virtual filesystem `/sys/fs/cgroup`. Creating a different cgroup namespace essentially moves the root directory of the cgroup. If the cgroup was, for example, `/sys/fs/cgroup/mycgroup`, a new namespace cgroup could use this as a root directory. The host might see `/sys/fs/cgroup/mycgroup/{group1,group2,group3}` but creating a new cgroup namespace would mean that the new namespace would only see `{group1,group2,group3}`.
+
+You might wonder why this might be needed. Part of this is security related. If a new cgroup namespace was not created, there is a potential to leak information. The man page says it best:
+
+> It prevents information leaks whereby cgroup directory paths outside of a container would otherwise be visible to processes in the container. Such leakages could, for example, reveal information about the container framework to containerized applications.
+
+In a traditional cgroup hierarchy, there is a possibility that a nested cgroup could gain access to its ancestor. This means that a process in `/sys/fs/cgroup/mycgroup/group1` has the potential to read and/or manipulate anything nested under `mycgroup`.
+
+Finally, thinking specifically of containers, cgroup namespaces allows containers to be agnostic of ancestor cgroups. This is important to something like [OpenShift](https://www.openshift.com/), which may migrate containers between hosts. Without the isolation provided by namespaces, the full cgroup path names would need to be replicated on a new host when migrating a container. Since pathing must be unique, cgroup namespaces help avoid conflicts on the new host system.
+
+In terms of the building analogy, a cgroup is similar to the utilities in each unit. While cgroups can limit resource usage, it also can act as an accountant. So while my apartment doesn't prevent me from using a certain amount of power or water, it definitely tracks (and bills) my usage. That usage is just a tiny part of the usage of the building as a whole. I do not know the building's total usage (my apartment's ancestor), nor can I know how much my neighbor is utilizing. They are in a completely different cgroup namespace.

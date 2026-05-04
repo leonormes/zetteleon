@@ -1,0 +1,1 @@
+Shame is not merely a fleeting feeling; it is a complex emotional and cognitive experience with distinct neurological foundations. 

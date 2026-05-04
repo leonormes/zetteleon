@@ -1,0 +1,1 @@
+Justifies: This could also work if the warrant actively defends the validity of the claim by bridging it to the evidence. However, because “justifies” is closer to “defending,” it might be better suited to notes where you’re linking a claim to a note that specifically substantiates it, such as direct evidence.

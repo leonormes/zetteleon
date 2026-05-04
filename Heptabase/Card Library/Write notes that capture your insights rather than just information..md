@@ -1,0 +1,1 @@
+Write notes that capture your insights rather than just information.

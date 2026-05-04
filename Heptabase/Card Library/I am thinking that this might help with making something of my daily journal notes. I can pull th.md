@@ -1,0 +1,1 @@
+I am thinking that this might help with making something of my daily journal notes. I can pull them out as cards and reuse them. Link them. Tag them to help find them. 

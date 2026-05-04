@@ -18,7 +18,7 @@ updated:
 
 ## Emotional Reasoning
 
-![[Emotional Reasoning]]
+![[30_Library/100_zettelkasten/Emotional Reasoning]]
 
 ## The Element of Surprise and Exposure
 

@@ -1,0 +1,1 @@
+A unique identifier. This gives your Zettel an unambiguous address.

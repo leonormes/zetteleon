@@ -10,7 +10,7 @@ type: "permanent"
 updated: 
 ---
 
-The Zettelkasten method is fundamentally a system for managing and reducing information [[redundancy]]. Instead of repeating an idea across multiple notes, the core principle is to create a single, atomic, canonical note for that idea and then link to it from any other relevant context.
+The Zettelkasten method is fundamentally a system for managing and reducing information [[30_Library/100_zettelkasten/redundancy]]. Instead of repeating an idea across multiple notes, the core principle is to create a single, atomic, canonical note for that idea and then link to it from any other relevant context.
 
 This approach ensures that each piece of knowledge has a single source of truth within the vault. Updates or refinements need only be made in one place. This is a core component of the [[Zettelkasten System Essence]] and is a key way the [[Zettelkasten as a Tool to Overcome Cognitive Limits|Zettelkasten helps overcome cognitive limits]] by offloading the need to remember where information is stored and ensuring consistency.
 

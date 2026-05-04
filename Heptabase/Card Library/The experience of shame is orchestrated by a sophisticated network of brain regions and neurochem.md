@@ -1,0 +1,1 @@
+The experience of shame is orchestrated by a sophisticated network of brain regions and neurochemical signals. Current scientific understanding points to the involvement of prefrontal, temporal, and limbic circuits in processing self-conscious emotions like shame. 

@@ -1,0 +1,1 @@
+In **idealism**, thoughts may be more real than the physical world.

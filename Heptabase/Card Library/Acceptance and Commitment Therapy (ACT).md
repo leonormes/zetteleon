@@ -1,0 +1,3 @@
+# Acceptance and Commitment Therapy (ACT)
+
+ACT principles can help individuals increase their willingness to experience the uncomfortable thoughts and feelings that often trigger procrastination (e.g., boredom, anxiety, self-doubt). By clarifying personal values and committing to actions aligned with those values, individuals can find motivation to engage in tasks even when they are unpleasant, because these tasks serve a larger, meaningful purpose.  

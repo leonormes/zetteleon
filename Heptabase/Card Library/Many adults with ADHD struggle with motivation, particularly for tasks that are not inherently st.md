@@ -1,0 +1,1 @@
+Many adults with ADHD struggle with motivation, particularly for tasks that are not inherently stimulating or immediately rewarding. 

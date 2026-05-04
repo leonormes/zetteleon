@@ -1,0 +1,1 @@
+Contextualizes: If you want a broader link, contextualizes could work, as it implies that the warrant provides a framework or condition that makes the claim meaningful or relevant.

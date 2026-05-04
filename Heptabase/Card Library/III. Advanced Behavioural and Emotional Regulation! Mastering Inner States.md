@@ -1,0 +1,3 @@
+## III. Advanced Behavioural and Emotional Regulation: Mastering Inner States
+
+Beyond addressing core beliefs and identity, profound transformation for adults with ADHD requires developing advanced skills in behavioural and emotional regulation. This involves cultivating motivation that is deeply rooted in personal values, managing intense and often volatile emotions, and understanding and overcoming the complex roots of chronic procrastination and avoidance.

@@ -12,6 +12,6 @@ updated:
 
 It is essential to recognize that emotions are not always reliable indicators of reality and to evaluate situations objectively, avoiding the tendency to resort to negative thinking. This is a core idea in [[Morita Therapy - Core Principle is to Accept Feelings and Direct Behavior]].
 
-[[Emotional Reasoning]]
+[[30_Library/100_zettelkasten/Emotional Reasoning]]
 
 [[Your emotions are real but they are your responsibility]]

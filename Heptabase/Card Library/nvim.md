@@ -1,0 +1,5 @@
+# nvim
+
+[[lazy.nvim]]
+
+

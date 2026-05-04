@@ -1,0 +1,3 @@
+# DBT Adaptations (e.g., Hesslinger Protocol)
+
+While not directly focused on procrastination as a primary target, DBT-informed approaches aim to increase awareness of thoughts, emotions, and impulses, and to strengthen goal-directed behavior over short-term emotional avoidance. By improving emotional regulation and distress tolerance, individuals may become better equipped to face the discomfort associated with challenging tasks.  

@@ -1,0 +1,1 @@
+In **dualism**, thoughts exist as non-material entities.

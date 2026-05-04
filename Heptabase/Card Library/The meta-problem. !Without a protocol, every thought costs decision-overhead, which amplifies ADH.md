@@ -1,0 +1,1 @@
+**The meta-problem.** "Without a protocol, every thought costs decision-overhead, which amplifies ADHD resistance."

@@ -1,0 +1,1 @@
+References. At the bottom of each Zettel, you either reference the source of the knowledge you capture or leave it blank if you capture your own thoughts.

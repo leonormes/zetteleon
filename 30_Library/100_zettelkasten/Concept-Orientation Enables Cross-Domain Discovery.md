@@ -20,7 +20,7 @@ Links:
 
 - [[The Atomicity Principle - One Idea Per Note]]
 - [[Creating Meaningful Links]]
-- [[Luhmann Emphasized Connection-Making]]
+- [[30_Library/100_zettelkasten/Luhmann Emphasized Connection-Making]]
 
 > Status gates
 >

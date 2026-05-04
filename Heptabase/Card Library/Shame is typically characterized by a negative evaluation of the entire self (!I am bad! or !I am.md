@@ -1,0 +1,1 @@
+Shame is typically characterized by a negative evaluation of the entire self ("I am bad" or "I am defective"). It is often a painful, pervasive emotion associated with a desire to hide, withdraw, or disappear. 

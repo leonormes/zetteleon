@@ -1,0 +1,1 @@
+In **Platonism**, thoughts may exist as abstract objects.

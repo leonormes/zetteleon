@@ -1,0 +1,1 @@
+**View:** Thoughts are processes or events rather than static things.

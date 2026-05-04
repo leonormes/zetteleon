@@ -1,0 +1,1 @@
+- **Public IP address** (for instances with internet access).

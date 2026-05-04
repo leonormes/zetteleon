@@ -1,0 +1,3 @@
+## Converse about what Really Matters to You
+
+What the Zettelkasten excels at is systematising information that matters to you right now and that might matter in the future for a specific purpose. You have a bright idea in the present moment but your brain forgets it. Take a note, link it, and your Zettelkasten will resurface it for you. Your brain can probably remember this idea, given the right prompts, but the Zettelkasten is useful because it remembers the idea slight differently from how you do. Each idea in the Zettelkasten leads from and to different, and sometimes surprising places. In this sense your Zettelkasten is not so much a tool for remembering as a creative conversation partner about shared memories.

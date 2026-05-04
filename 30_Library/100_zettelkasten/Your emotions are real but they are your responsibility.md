@@ -24,7 +24,7 @@ Emotions are real neurological and physiological experiences. Dismissing them as
 
 While emotions are valid, the response to them is a choice. This doesn't mean suppressing feelings, but rather:
 
-- Recognizing that [[Emotional Reasoning]] can distort perception of reality
+- Recognizing that [[30_Library/100_zettelkasten/Emotional Reasoning]] can distort perception of reality
 - Understanding that intense emotions don't automatically justify all actions
 - Developing skills to manage behavior even when emotions are overwhelming
 

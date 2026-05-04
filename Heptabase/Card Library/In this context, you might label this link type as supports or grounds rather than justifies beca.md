@@ -1,0 +1,1 @@
+In this context, you might label this link type as supports or grounds rather than justifies because a warrant functions as a bridge that supports the leap from a claim to the underlying evidence. Here’s a breakdown of link types that could work:

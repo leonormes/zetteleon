@@ -1,0 +1,1 @@
+Supports/Grounds: This emphasizes that the warrant provides the basis for a claim to be accepted, as it gives a reason why the evidence is relevant to the claim. “Grounds” might feel especially appropriate because it represents the foundational role the warrant plays.

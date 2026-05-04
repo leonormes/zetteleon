@@ -1,0 +1,3 @@
+# Docker Deep Dive
+
+- \- Nigel Poulton.pdf": This book is dedicated to teaching you about Docker, covering the big picture concepts like the history of containers, the Docker Engine and the OCI, and diving into the technical details of images, containers, networking, security, and orchestration with Docker Swarm and Compose. The book also includes hands-on examples and labs, and covers topics for enterprise environments. It also prepares you for the Docker Certified Associate exam.

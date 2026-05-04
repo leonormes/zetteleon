@@ -1,0 +1,1 @@
+The VPC provides the overall IP range, and the subnet is a partition of that range. 

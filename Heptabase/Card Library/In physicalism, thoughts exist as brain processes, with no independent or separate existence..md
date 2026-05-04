@@ -1,0 +1,1 @@
+In **physicalism**, thoughts exist as brain processes, with no independent or separate existence.

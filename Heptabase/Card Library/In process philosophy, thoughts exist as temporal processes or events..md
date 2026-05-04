@@ -1,0 +1,1 @@
+In **process philosophy**, thoughts exist as temporal processes or events.

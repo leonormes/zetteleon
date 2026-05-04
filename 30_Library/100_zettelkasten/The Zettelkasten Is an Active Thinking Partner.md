@@ -12,7 +12,7 @@ updated:
 
 A Zettelkasten's true value is only realized through active cognitive engagement. It is not a passive repository for information, but a dynamic thinking partner that comes to life when you interact with it. Without the active work of interpreting, connecting, and refining ideas, a Zettelkasten remains a collection of inert notes, its potential untapped.
 
-The essence of the system is not accumulation, but connection. The focus is on [[The Processing Is the Hard Part|processing and deep thinking]], not on the passive intake of information, which is the hallmark of [[Passive Learning]]. This aligns with [[Luhmann Emphasized Connection-Making|Luhmann's own practice]], where the act of creating links was central.
+The essence of the system is not accumulation, but connection. The focus is on [[The Processing Is the Hard Part|processing and deep thinking]], not on the passive intake of information, which is the hallmark of [[Passive Learning]]. This aligns with [[30_Library/100_zettelkasten/Luhmann Emphasized Connection-Making|Luhmann's own practice]], where the act of creating links was central.
 
 This makes the Zettelkasten a powerful example of [[30_Library/100_zettelkasten/The Extended Mind Thesis|the extended mind]]. It acts as an external system that helps overcome our natural cognitive limits, allowing for more complex and structured thought ([[Zettelkasten as a Tool to Overcome Cognitive Limits]]). The system's utility is therefore entangled with the user's mind; one cannot exist meaningfully without the other ([[Zettelkasten in the Mind]]).
 

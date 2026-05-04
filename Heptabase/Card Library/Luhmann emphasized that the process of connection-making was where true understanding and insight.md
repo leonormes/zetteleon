@@ -1,0 +1,1 @@
+Luhmann emphasized that the process of connection-making was where true understanding and insight emerged.

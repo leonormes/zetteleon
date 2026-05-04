@@ -1,0 +1,1 @@
+Explains: If your note about warrant dives into how or why it makes a claim valid, then explains might be suitable, particularly if the note clarifies the conceptual relationship between warrants and claims.
