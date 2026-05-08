@@ -1,7 +1,11 @@
-# Lower the Bar
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:42+00:00
+title: Lower the Bar
+---
 
-Start with just one minute, not a full Pomodoro. Tell yourself, “I’ll set a timer for one minute, and that’s all I have to do.”
+## Lower the Bar
+
+Start with just one minute, not a full Pomodoro. Tell yourself, "I'll set a timer for one minute, and that's all I have to do."
 
 Treat the first Pomodoro as an experiment, not a commitment to productivity.
-
-

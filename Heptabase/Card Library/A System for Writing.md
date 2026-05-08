@@ -1,4 +1,10 @@
-### A System for Writing
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:36+00:00
+title: A System for Writing
+---
+
+## A System for Writing
 
 The first loop shows fleeting and reference notes informing the creation of main notes. This process reinforces what we find interesting in the world, and what we end up capturing in future fleeting and reference notes.
 

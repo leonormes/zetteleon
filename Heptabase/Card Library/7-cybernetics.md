@@ -1,14 +1,20 @@
-# 7-cybernetics
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:36+00:00
+title: 7-cybernetics
+---
 
-# 7-cybernetics
+## 7-cybernetics
+
+## 7-cybernetics
 
 Cybernetics is the study of systems, both mechanical and biological, that regulate themselves through feedback loops. It focuses on how systems control and communicate information.
 
-Context: Norbert Wiener’s work in the 1940s laid the foundation for understanding systems that exhibit self-regulation, such as the human body or intelligent machines.
+Context: Norbert Wiener's work in the 1940s laid the foundation for understanding systems that exhibit self-regulation, such as the human body or intelligent machines.
 
 Suggested Links:
 
-- Link to Complex Systems (see [1a1-complex_from_simple.md](1a1-complex_from_simple.md) ): Cybernetics is an early attempt to understand complex systems through the lens of control and feedback.
+- Link to Complex Systems (see [1a1-complex_from_simple.md](1a1-complex_from_simple.md)): Cybernetics is an early attempt to understand complex systems through the lens of control and feedback.
 
 [Feedback loops](7i-feedback%20loops.md)
 

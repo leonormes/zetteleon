@@ -1,6 +1,12 @@
-# B. Restructuring Maladaptive Cognitive Patterns
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:37+00:00
+title: B. Restructuring Maladaptive Cognitive Patterns
+---
 
-Adults with ADHD frequently develop maladaptive cognitive patterns and irrational beliefs as a consequence of their ongoing struggles with attention, impulsivity, and executive functions. These cognitive distortions—systematic errors in thinking—can significantly impact emotional well-being and behavior, often fuelling procrastination, emotional dysregulation, self-doubt, and a fear of failure. 
+## B. Restructuring Maladaptive Cognitive Patterns
+
+Adults with ADHD frequently develop maladaptive cognitive patterns and irrational beliefs as a consequence of their ongoing struggles with attention, impulsivity, and executive functions. These cognitive distortions—systematic errors in thinking—can significantly impact emotional well-being and behavior, often fuelling procrastination, emotional dysregulation, self-doubt, and a fear of failure.
 
 [Common distortions observed include.md](Common%20distortions%20observed%20include.md)
 

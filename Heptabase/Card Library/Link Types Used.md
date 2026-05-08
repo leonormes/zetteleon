@@ -1,21 +1,18 @@
-# Link Types Used
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:40+00:00
+title: Link Types Used
+---
+
+## Link Types Used
 
 1. Supports: Shows direct positive relationship
-
 2. Precursor to: Indicates sequential relationship
-
 3. Enables: Shows causal relationship
-
 4. Demonstrates: Provides evidence or examples
-
 5. Contrasts with: Shows opposing perspectives
-
 6. Derived from: Shows origin relationship
-
 7. Leads to: Shows consequential relationship
-
 8. Variant of: Shows related but different concept
-
 9. Example of: Provides specific instance
-
 10. Built from: Shows foundational relationship

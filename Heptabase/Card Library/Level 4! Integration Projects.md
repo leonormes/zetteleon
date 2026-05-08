@@ -1,83 +1,70 @@
-### Level 4: Integration Projects
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:40+00:00
+title: Level 4! Integration Projects
+---
+
+## Level 4: Integration Projects
 
 1. Basic Container Runtime:
 
 - Combine namespace isolation
-
 - Implement cgroup controls
-
 - Add basic networking
 
 1. Container Image Builder:
 
 - Create OCI-compatible images
-
 - Implement layer management
-
 - Add metadata handling
 
-### Success Criteria
+## Success Criteria
 
 For each level, you should be able to:
 
 1. Explain the purpose of each isolation mechanism
-
 2. Create containers using command-line tools
-
 3. Debug common container issues
-
 4. Understand security implications
 
-### Troubleshooting Guide
+## Troubleshooting Guide
 
 Common issues and solutions:
 
 1. Permission denied:
 
    - Check capability requirements
-
    - Verify user permissions
-
    - Check SELinux/AppArmor contexts
 
 2. Network connectivity:
 
    - Verify namespace configuration
-
    - Check routing tables
-
    - Validate interface status
 
 3. Resource limits:
 
    - Verify cgroup settings
-
    - Check resource availability
-
    - Monitor usage patterns
 
-### Additional Resources
+## Additional Resources
 
 1. Linux Kernel Documentation:
 
    - Namespaces
-
    - Cgroups
-
    - Capabilities
 
 2. OCI Specifications:
 
    - Runtime Specification
-
    - Image Specification
-
    - Distribution Specification
 
 3. Related Tools:
 
    - runc
-
    - containerd
-
    - buildah

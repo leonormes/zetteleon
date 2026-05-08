@@ -1,6 +1,12 @@
-# Emotional Language
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:39+00:00
+title: Emotional Language
+---
 
-Certainly! Here’s a set of atomic notes capturing the main themes of our conversation, tailored for your Zettelkasten system:
+## Emotional Language
+
+Certainly! Here's a set of atomic notes capturing the main themes of our conversation, tailored for your Zettelkasten system:
 
 ---
 
@@ -20,9 +26,9 @@ Relevance: These terms reflect cultural values and shape how emotions are experi
 
 ---
 
-Atomic Note 2: Language’s Influence on Emotional Experience
+Atomic Note 2: Language's Influence on Emotional Experience
 
-Idea: Language influences how people recognize, process, and share emotions, but doesn’t determine the capacity to feel them.
+Idea: Language influences how people recognize, process, and share emotions, but doesn't determine the capacity to feel them.
 
 Key Points:
 
@@ -60,9 +66,9 @@ Atomic Note 4: The Universality of Emotion
 
 Idea: Emotional capacity is universal, but language shapes how emotions are understood and expressed socially.
 
-Key Insight: Lacking vocabulary doesn’t prevent feeling emotions—it affects how easily they can be shared and reflected upon.
+Key Insight: Lacking vocabulary doesn't prevent feeling emotions—it affects how easily they can be shared and reflected upon.
 
-Implication: Expanding one’s emotional vocabulary (e.g., learning terms from other languages) or practicing descriptive expression enriches emotional understanding and connection.
+Implication: Expanding one's emotional vocabulary (e.g., learning terms from other languages) or practicing descriptive expression enriches emotional understanding and connection.
 
 ---
 

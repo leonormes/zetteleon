@@ -147,3 +147,27 @@ Append-only — never edit past entries.
 - **Wiki pages touched:** [[wiki/projects/Azure AKS Backup — FTFL]], [[wiki/projects/AWS SSM Session Troubleshooting]]
 - **Pieces IDs ingested:** 27 memories
 - **Flags:** none — 1 new project page created (AWS SSM Session Troubleshooting), 1 existing page updated with Terraform module validation findings
+
+---
+
+## 2026-05-06 12:50 — Project Check-In
+
+- **Action:** Ingest (Pieces LTM, last 4h)
+- **Raw sources created:** [[raw/2026-05-06-pieces-hermes-integration]]
+- **Wiki pages touched:** [[wiki/projects/Hermes Integration — Provider Adapter Setup]]
+- **Pieces IDs ingested:** 7 memories
+- **Flags:** none — 1 new project page created (Hermes Integration — Provider Adapter Setup), 1 raw note created
+
+---
+
+## 2026-05-06 20:15 — Project Check-In
+
+- **Action:** Ingest (Pieces LTM, last 4h)
+- **Raw sources created:** [[raw/2026-05-06-pieces-grafana-alloy-monitoring]]
+- **Wiki pages touched:** [[wiki/projects/Grafana Alloy Monitoring — FTFL-638]]
+- **Pieces IDs ingested:** 7 memories
+- **Flags:** none — 1 new project page created (Grafana Alloy Monitoring — FTFL-638), 1 raw note created
+
+
+## 2026-05-08 00:32 — Ingest
+- Pieces: 100 assets

@@ -1,13 +1,27 @@
-# Deductive Resoning in Mathematics
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:39+00:00
+title: Deductive Resoning in Mathematics
+---
+
+## Deductive Resoning in Mathematics
 
 In maths it is much easier to Conjecture than to prove. When trying some examples of something we can intuitively guess that it is a rule.
+
 And we can of course do a number of examples, but this still does not prove anything. The next example might be a counter example.
+
 Maths has the concept of a proof. They seem to be a very important part of maths. I am assuming they are very precise and strict. I know they are called formal proofs and can be used to build other proofs.
+
 Maths has a concept called a proof. They are strictly defined, as are most things in maths. Deductive reasoning is usually presented in the form of a proof.
+
 The opposite of Prime is composite.
+
 Numbers that can be factored are called composite numbers. They have more than two factors.
+
 Conjecture is like a guess.
+
 Counterexample refutes a Conjecture.
+
 The related number used in the example is 2 to the power of n - 1. This is often referred to as a Mersenne numbers.
 
 $$
@@ -33,6 +47,7 @@ What's a theorem?
 Once we prove a conjecture is definitely true, it becomes a theorem. Think of it like leveling up in a game - you've done the work to show it's solid.
 
 How is DR linked to logic?
+
 What are the other types of reasoning.
 
 \[\[2a3-anarchy_of_ideas|Anarchy of Ideas\]\]

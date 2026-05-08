@@ -1,23 +1,24 @@
-# Build a Container From Scratch: Web Server Project
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:37+00:00
+title: Build a Container From Scratch! Web Server Project
+---
+
+## Build a Container From Scratch: Web Server Project
 
 ### Project Overview
 
 We'll create a container that runs a simple Python web server, building everything from scratch using Linux command-line tools. This project will teach you about:
 
 - Process isolation
-
 - Network namespaces
-
 - Filesystem isolation
-
 - Resource limits
 
 ### Prerequisites
 
 - Linux system (Ubuntu/Debian recommended)
-
 - Root access
-
 - Basic command line familiarity
 
 ### Project Steps
@@ -34,7 +35,7 @@ We'll create a container that runs a simple Python web server, building everythi
 
 ### Learning Exercises
 
-1. **Explore Process Isolation**
+1. Explore Process Isolation
 
 ```bash
 # Inside container
@@ -44,7 +45,7 @@ ps aux
 ps aux
 ```
 
-1. **Test Memory Limits**
+1. Test Memory Limits
 
 ```bash
 # Create a script to test memory limits
@@ -64,62 +65,45 @@ python3 memory_test.py
 
 ### Next Steps
 
-1. **Add Features:**
+1. Add Features:
 
    - Implement volume mounting
-
    - Add port forwarding
-
    - Create custom network routing
-
    - Implement resource monitoring
 
-2. **Security Improvements:**
+2. Security Improvements:
 
    - Add capability dropping
-
    - Implement seccomp profiles
-
    - Add user namespace mapping
-
    - Implement resource isolation
 
-3. **Advanced Projects:**
+3. Advanced Projects:
 
    - Create multiple connected containers
-
    - Implement basic orchestration
-
    - Add logging infrastructure
-
    - Create container image management
 
 ### Troubleshooting Common Issues
 
-1. **Permission Denied:**
+1. Permission Denied:
 
    - Run with sudo
-
    - Check file permissions
-
    - Verify user namespace mappings
 
-2. **Network Connectivity:**
+2. Network Connectivity:
 
    - Check interface status
-
    - Verify IP configuration
-
    - Check routing tables
-
    - Verify namespace configuration
 
-3. **Resource Limits:**
+3. Resource Limits:
 
    - Check cgroup mounting
-
    - Verify limit values
-
    - Monitor resource usage
-
    - Check kernel parameters

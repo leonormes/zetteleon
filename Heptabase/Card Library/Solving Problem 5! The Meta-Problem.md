@@ -1,14 +1,19 @@
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:44+00:00
+title: Solving Problem 5! The Meta-Problem
+---
+
 ## Solving Problem 5: The Meta-Problem
 
 You said: "Without a protocol, there is extra resistance on top of normal ADHD task initiation woes."
 
-This is correct, and it is why the earlier conversations about Protocol cards matter so much. The protocols are **exocortex for executive function**. They replace in-the-moment decisions with pre-made decisions.
+This is correct, and it is why the earlier conversations about Protocol cards matter so much. The protocols are exocortex for executive function. They replace in-the-moment decisions with pre-made decisions.
 
 The two protocols you actually need right now:
 
-1. **Capture Protocol:** open the inbox, type, close. (5 seconds.)
-
-2. **Processing Protocol:** the four-step inbox triage above. (Run once every few days, 15 minutes.)
+1. Capture Protocol: open the inbox, type, close. (5 seconds.)
+2. Processing Protocol: the four-step inbox triage above. (Run once every few days, 15 minutes.)
 
 That is the entire system. Not six protocols. Two.
 

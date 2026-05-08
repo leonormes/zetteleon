@@ -1,7 +1,13 @@
-### Lit: Hyperfocus on formalisation
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:41+00:00
+title: Lit! Hyperfocus on formalisation
+---
+
+## Lit: Hyperfocus on Formalisation
 
 The order theory digression is classic. You took a conversation about note-taking and asked "can I apply order theory to this?" Then immediately wanted to validate Gemini's response and build the whole typed-link infrastructure.
 
-This is **hyperfocus seeking a formal system to latch onto**. ADHD brains often find enormous relief in rigorous formal structures because they *externalise the executive function burden*. "The system decides" is lower cognitive load than "I decide each time."
+This is hyperfocus seeking a formal system to latch onto. ADHD brains often find enormous relief in rigorous formal structures because they _externalise the executive function burden_. "The system decides" is lower cognitive load than "I decide each time."
 
-This is genuinely good — it is the right strategy. The risk is **premature formalisation**: spending more time building the meta-system than using it. I have tried to counterweight this in every reply ("one card, one sentence, close it").
+This is genuinely good—it is the right strategy. The risk is premature formalisation: spending more time building the meta-system than using it. I have tried to counterweight this in every reply ("one card, one sentence, close it").

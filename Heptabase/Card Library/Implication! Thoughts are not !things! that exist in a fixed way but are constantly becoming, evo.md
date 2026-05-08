@@ -1,1 +1,0 @@
-**Implication:** Thoughts are not "things" that exist in a fixed way but are constantly becoming, evolving, and changing.

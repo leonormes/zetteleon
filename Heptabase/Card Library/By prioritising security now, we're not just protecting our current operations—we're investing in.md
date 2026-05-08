@@ -1,3 +1,9 @@
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:37+00:00
+title: "By prioritising security now, we're not just protecting our current operations—we're investing in"
+---
+
 [By prioritising security now, we're not just protecting our current operations—we're investing in 1.md](By%20prioritising%20security%20now,%20we're%20not%20just%20protecting%20our%20current%20operations—we're%20investing%20in%201.md)
 
 [I propose we consider bringing in a security consultant to help us establish best practices that .md](I%20propose%20we%20consider%20bringing%20in%20a%20security%20consultant%20to%20help%20us%20establish%20best%20practices%20that%20.md)

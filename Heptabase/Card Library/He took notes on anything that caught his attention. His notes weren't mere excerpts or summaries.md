@@ -1,1 +1,0 @@
-He took notes on anything that caught his attention. His notes weren't mere excerpts or summaries, but rather concise, reformulated accounts of the text. This process of reframing the author's ideas in his own words was crucial for understanding and integrating new information.

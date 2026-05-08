@@ -1,19 +1,20 @@
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:43+00:00
+title: Relationships Between Concepts
+---
+
 ## Relationships Between Concepts
 
-   Ontology emphasizes well-defined relationships between different entities or concepts, such as “is-a,” “part-of,” “related-to,” or “derived-from.” In your knowledge graph, you can model these relationships explicitly to reflect different types of connections between ideas.
+   Ontology emphasizes well-defined relationships between different entities or concepts, such as "is-a," "part-of," "related-to," or "derived-from." In your knowledge graph, you can model these relationships explicitly to reflect different types of connections between ideas.
 
    How to Apply It:
 
 - Classify your links according to relationship types, such as:
-
    - Is-a (e.g., "Note B is a subtype or instance of Note A")
-
    - Part-of (e.g., "Note C is part of the broader concept in Note A")
-
    - Causes or Leads to (e.g., "Note D is a consequence or result of Note B")
-
    - Contrasts with (e.g., "Note E offers a contrasting perspective to Note F")
-
 - You can use tags or link annotations to define these relationships in Obsidian.
 
     Example:

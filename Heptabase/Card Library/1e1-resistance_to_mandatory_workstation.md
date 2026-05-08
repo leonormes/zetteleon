@@ -1,7 +1,0 @@
-# 1e1-resistance_to_mandatory_workstation
-
-# 1e1-resistance_to_mandatory_workstation
-
-A workstation is a personal thing.
-
-[1e-dev_workstations_should_not_get_in_the_way_of_problem_solving.md](1e-dev_workstations_should_not_get_in_the_way_of_problem_solving.md)

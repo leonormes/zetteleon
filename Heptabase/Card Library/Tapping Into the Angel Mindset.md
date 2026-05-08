@@ -1,4 +1,10 @@
-# Tapping Into the Angel Mindset
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:44+00:00
+title: Tapping Into the Angel Mindset
+---
+
+## Tapping Into the Angel Mindset
 
 Source emphasises the paradoxical nature of ADHD, where challenges like lack of focus coexist with strengths like the ability to superfocus. This duality is further explored in Source, introducing the concept of the "Angel" and "Demon" mindsets. The "Angel" represents the state of productive focus associated with the "task-positive network" (TPN) of the brain.
 

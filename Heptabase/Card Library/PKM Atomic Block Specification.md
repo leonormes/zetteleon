@@ -1,3 +1,9 @@
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:43+00:00
+title: PKM Atomic Block Specification
+---
+
 ## PKM Atomic Block Specification
 
 ### 1\. Core Metadata Structure
@@ -61,31 +67,22 @@
 #### 2\.1 Foundational Relationships
 
 - `builds-on`: Extends or develops ideas from target
-
 - `depends-on`: Requires understanding of target
-
 - `refutes`: Contradicts or challenges target
-
 - `supports`: Provides evidence for target
-
 - `synthesizes`: Combines ideas from multiple targets
 
 #### 2\.2 Cognitive Relationships
 
 - `clarifies`: Improves understanding of target
-
 - `exemplifies`: Provides concrete example of target
-
 - `contextualizes`: Provides broader context for target
-
 - `compares`: Draws parallels with target
 
 #### 2\.3 Temporal Relationships
 
 - `evolves-from`: Represents development of target
-
 - `supersedes`: Replaces or updates target
-
 - `branches-from`: Explores alternative direction from target
 
 ### 3\. Maturity Tracking
@@ -95,33 +92,25 @@ The maturity system tracks the development of ideas through stages:
 1. `emerging`
 
    - Initial capture of idea
-
    - Basic relationships identified
-
    - Preliminary understanding
 
 2. `developing`
 
    - Deeper exploration
-
    - More relationships established
-
    - Growing confidence in understanding
 
 3. `stable`
 
    - Well-understood concept
-
    - Clear relationships
-
    - Tested in different contexts
 
 4. `refined`
 
    - Deep understanding
-
    - Rich relationship network
-
    - Successfully applied/tested
 
 ### 4\. Implementation Guidelines

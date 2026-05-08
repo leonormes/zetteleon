@@ -1,8 +1,14 @@
-# 6 AWS EKS Overview
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:36+00:00
+title: 6 AWS EKS Overview
+---
 
-# 6 AWS EKS Overview
+## 6 AWS EKS Overview
 
-## Key Points
+## 6 AWS EKS Overview
+
+### Key Points
 
 AWS manages the [Kubernetes control plane](Kubernetes%20control%20plane.md) for Amazon EKS.
 
@@ -10,7 +16,7 @@ Users do not directly interact with control plane resources in the VPC.
 
 Provides endpoints for interacting with the cluster.
 
-## Linked Zettels
+### Linked Zettels
 
 [6.2 EKS Control Plane Endpoints.md](6.2%20EKS%20Control%20Plane%20Endpoints.md)
 

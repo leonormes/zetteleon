@@ -1,1 +1,0 @@
-- **Arguments:** Settings that configure a component.

@@ -1,6 +1,12 @@
-# 2a1b1-unique_identifier
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:35+00:00
+title: 2a1b1-unique_identifier
+---
 
-# Unique Identifier
+## 2a1b1-unique_identifier
+
+## Unique Identifier
 
 Each Zettel must have a unique identifier so it can be referred to directly, similar to an address.
 

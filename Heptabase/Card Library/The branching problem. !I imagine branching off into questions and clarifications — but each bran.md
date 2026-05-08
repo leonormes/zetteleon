@@ -1,1 +1,0 @@
-**The branching problem.** "I imagine branching off into questions and clarifications — but each branch could branch infinitely. When do I stop?"

@@ -1,3 +1,9 @@
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:39+00:00
+title: Core Thesis
+---
+
 ## Core Thesis
 
 Current artificial intelligence (AI) represents a significant advancement in data interpolation and pattern recognition, but it remains fundamentally limited by its inability to extrapolate or abstract beyond human-charted territory. The primary risk is not existential but structural, stemming from a "miscalibration of trust" where users anthropomorphise these tools and over-rely on them for complex human reasoning and emotional support.

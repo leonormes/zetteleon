@@ -1,3 +1,9 @@
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:45+00:00
+title: The historical trajectory of artificial intelligence demonstrates that general computational meth
+---
+
 The historical trajectory of artificial intelligence demonstrates that general computational methods consistently outperform systems reliant on human-engineered knowledge. This principle, termed "The Bitter Lesson" by Richard Sutton, suggests that current Large Language Models (LLMs) may eventually reach a performance ceiling because they are fundamentally systems of imitation trained on human-generated data. The next stage of advancement likely requires a transition from supervised learning (imitation) to reinforcement learning (discovery), where agents develop strategies through direct interaction with environments and objective reward signals, potentially surpassing human-level reasoning.
 
 Deconstruction of Substance
@@ -5,9 +11,7 @@ Deconstruction of Substance
 The content traces the evolution of speech recognition and general AI through three distinct phases:
 
 1. The Failure of Human-Centric Design: Early systems like ARPA's Harpy (1970s) relied on "knowledge graphs" painstakingly constructed by linguists to define grammars and phonetic rules. While initially successful, these systems were eclipsed by Hidden Markov Models (HMMs) in the 1980s. HMMs replaced expert-defined rules with statistical probabilities learned from data, proving that human intuition is a bottleneck to scaling.
-
 2. The Limitation of Current LLMs: Although LLMs leverage massive computation—aligning with the Bitter Lesson's premise—they remain dependent on supervised learning. They are trained to predict the next token based on human text, meaning their "intelligence" is a mirror of human thought patterns, biases, and historical limitations. Sutton argues this makes LLMs a "negative example" of the Bitter Lesson: they are a highly scaled version of building human discovery into the system rather than building a system capable of its own discovery.
-
 3. The Discovery Paradigm (Reinforcement Learning): Contrast is drawn between supervised imitation and the methodology used in systems like AlphaGo Zero. By playing against itself rather than learning from human games, AlphaGo Zero developed "alien" strategies that human experts had never conceived. The argument posits that for AI to move beyond being a sophisticated librarian of human knowledge, it must be trained using reinforcement learning with verifiable rewards (e.g., mathematical proofs, code execution, or real-world physical metrics).
 
 Grounding in Reality

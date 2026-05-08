@@ -1,13 +1,17 @@
-### Level 2: Building Basic Containers
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:40+00:00
+title: Level 2! Building Basic Containers
+---
 
-#### Module 1: File System Isolation
+## Level 2: Building Basic Containers
+
+### Module 1: File System Isolation
 
 Theory:
 
 - Root filesystem concepts
-
 - Mount namespaces
-
 - Overlay filesystems
 
 Practical Exercises:
@@ -32,14 +36,12 @@ ldd /bin/bash | grep -o '/lib.\.[0-9]' | xargs -I {} cp {} lib/
 mount -t proc none container-root/proc
 ```
 
-#### Module 2: Network Isolation
+### Module 2: Network Isolation
 
 Theory:
 
 - Network namespaces
-
 - Virtual interfaces
-
 - Container networking models
 
 Practical Exercises:

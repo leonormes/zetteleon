@@ -1,5 +1,11 @@
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:45+00:00
+title: User Namespace
+---
+
 ## User Namespace
 
-Every computer system has some way of tracking which user owns which file(s). This allows the system to restrict access to sensitive system files. It also prevents people using the same computer from accessing each others' files. To the end-user, the files are shown to be owned by a login name such as **stratus**. To the computer, however, this is just an arbitrary combination of alphanumeric characters. In order to track these permissions correctly, there is a process of mapping the user **stratus** to a specific user identification (UID) number, such as 1001. This UID is then applied to the [metadata](https://en.wikipedia.org/wiki/Metadata) of the file. This allows you to change your username to **stratus1** without the system having to do a significant amount of metadata updating. The mapping file gets updated so that UID 1001 is then associated with **stratus1** instead of **stratus**. The entry is changed in a single (or a small number) of places.
+Every computer system has some way of tracking which user owns which file(s). This allows the system to restrict access to sensitive system files. It also prevents people using the same computer from accessing each others' files. To the end-user, the files are shown to be owned by a login name such as stratus. To the computer, however, this is just an arbitrary combination of alphanumeric characters. In order to track these permissions correctly, there is a process of mapping the user stratus to a specific user identification (UID) number, such as 1001. This UID is then applied to the [metadata](https://en.wikipedia.org/wiki/Metadata) of the file. This allows you to change your username to stratus1 without the system having to do a significant amount of metadata updating. The mapping file gets updated so that UID 1001 is then associated with stratus1 instead of stratus. The entry is changed in a single (or a small number) of places.
 
 Think of this as similar to the mailboxes on the floor of my apartment building. Each mailbox has a name or multiple names associated with it. When someone wishes to deliver mail to me, they put the mail in box 707, for example. Should I decide to change my name, or add my wife's name to the mailbox, nothing changes. The mail still goes to the same location, only the authorized persons can view these files, and my key to unlock the box stays unchanged.

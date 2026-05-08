@@ -1,4 +1,10 @@
-# Building a container by hand using namespaces The UTS namespace
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:37+00:00
+title: Building a container by hand using namespaces The UTS namespace
+---
+
+## Building a Container by Hand Using Namespaces The UTS Namespace
 
 This article builds upon my previous articles about namespaces, [The 7 most used Linux namespaces](https://www.redhat.com/sysadmin/7-linux-namespaces) and my series on [Building a Linux container by hand using namespaces](https://www.redhat.com/sysadmin/building-container-namespaces), using [the mount namespace](https://www.redhat.com/sysadmin/mount-namespaces), and using the [PID namespace](https://www.redhat.com/sysadmin/pid-namespace). This article covers the UTS namespace and its relationship to containers.
 
@@ -12,7 +18,7 @@ As you can imagine, there might be several use cases where you might want proces
 
 With all that said, let's get into some examples.
 
-## Explore the UTS Namespace
+### Explore the UTS Namespace
 
 You can invoke the UTS namespace with:
 
@@ -42,7 +48,7 @@ tux
 
 Why is this? Systemd does not execute the `sethostname` system call. Instead, systemd completes the task by connecting to a socket. Since the socket is associated with the old namespace, the old namespace hostname is adjusted but not the new namespace.
 
-### Using Root Namespaces
+#### Using Root Namespaces
 
 In my [mount namespace](https://www.redhat.com/sysadmin/mount-namespaces) article, I write:
 
@@ -104,13 +110,13 @@ I can then enter the namespace with the `nsenter` command:
 [root@tux /]#
 ```
 
-### Using a User Namespace
+#### Using a User Namespace
 
 In my [user namespace](https://www.redhat.com/sysadmin/building-container-namespaces) article, I mention some additional considerations when creating namespaces as an unprivileged user:
 
-> When you create a new user namespace, your current user will be mapped to the user **nobody**. This is because, by default, there is no user ID mapping taking place. When no mapping is defined, the namespace simply uses your system's rules to determine how to handle an undefined user.
+> When you create a new user namespace, your current user will be mapped to the user nobody. This is because, by default, there is no user ID mapping taking place. When no mapping is defined, the namespace simply uses your system's rules to determine how to handle an undefined user.
 
-Refer back to that article for more on user mapping. In this case, I want to have the **root** user mapped automatically. This way, I have "root" in the new namespace. (Again, see the user namespace article for a discussion of namespaces and permissions).
+Refer back to that article for more on user mapping. In this case, I want to have the root user mapped automatically. This way, I have "root" in the new namespace. (Again, see the user namespace article for a discussion of namespaces and permissions).
 
 If I put my combined lessons into practice on a CentOS Stream 9 host, I observe:
 
@@ -146,12 +152,12 @@ And with the `--fork` flag:
 
 While `--fork` is not strictly necessary in this scenario, it may be useful or even required if a new PID namespace is required (see my [PID namespace](https://www.redhat.com/sysadmin/pid-namespace) article for more information).
 
-## Wrapping up
+### Wrapping up
 
 The UTS namespace is not the most complicated Linux namespace. It is, however, quite useful, especially in the context of containers.
 
 To make the most of the UTS namespace, combine it with the mount namespace, at a minimum, when using the root namespace and mount and user namespaces when spawning from an unprivileged user.
 
-***\[ Download the [intermediate Linux cheat sheet](https://developers.redhat.com/cheat-sheets/intermediate-linux-cheat-sheet?intcmp=701f20000012ngPAAQ) to keep key commands at your fingertips. \]***
+_\[Download the [intermediate Linux cheat sheet](https://developers.redhat.com/cheat-sheets/intermediate-linux-cheat-sheet?intcmp=701f20000012ngPAAQ) to keep key commands at your fingertips. \]_
 
 In my next article, I'll discuss the net namespace and how to use it to enable namespaces to have their own IP and port space.

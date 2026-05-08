@@ -1,6 +1,12 @@
-# 2a4b1-importance_of_tracking_link_rationale_links
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:35+00:00
+title: 2a4b1-importance_of_tracking_link_rationale_links
+---
 
-# Importance of Tracking Link Rationale
+## 2a4b1-importance_of_tracking_link_rationale_links
+
+## Importance of Tracking Link Rationale
 
 When making links between ideas, it is important to the process that you record why the ideas are linked.
 

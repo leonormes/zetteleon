@@ -1,3 +1,9 @@
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:40+00:00
+title: Knowledge is power! Recognizing biases is crucial for change.
+---
+
 Knowledge is power: Recognizing biases is crucial for change.
 
 Identify biases: Recognizing specific biases is the beginning of change.

@@ -1,6 +1,12 @@
-# 4a3b-why_shannon's_work_is_important
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:36+00:00
+title: "4a3b-why_shannon's_work_is_important"
+---
 
-# Why Shannon's Work is Important
+## 4a3b-why_shannon's_work_is_important
+
+## Why Shannon's Work is Important
 
 Shannon's work revolutionized telecommunications, computing, and digital technologies. His theories enabled the development of efficient data transmission systems, error-correcting codes, and compression techniques used in virtually all modern digital communications, from mobile phones to the internet. His ideas also influenced areas such as cryptography, artificial intelligence, and neuroscience.
 

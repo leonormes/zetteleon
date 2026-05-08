@@ -1,4 +1,10 @@
-# The Four Phases of Luhmann's Thinking Process
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:44+00:00
+title: "The Four Phases of Luhmann's Thinking Process"
+---
+
+## The Four Phases of Luhmann's Thinking Process
 
 Luhmann's thinking process consisted of four distinct phases. These phases, while separate, are interconnected and build upon each other. They are all supported by Luhmann's Zettelkasten method, which allows for the externalization, organization, and development of ideas:
 

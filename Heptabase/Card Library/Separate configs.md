@@ -1,36 +1,36 @@
-# Separate configs
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:44+00:00
+title: Separate configs
+---
 
-# Separate Config
+## Separate Configs
+
+## Separate Config
 
 To separate the Kubernetes-specific configuration from the cloud provider (Azure AKS or AWS EKS), you need to decouple the cloud infrastructure configurations from the Kubernetes configurations.
 
 Here's a step-by-step approach to achieve this separation:
 
-## 1\. Kubernetes-Specific Configuration
+### 1\. Kubernetes-Specific Configuration
 
 The Kubernetes-specific configurations are platform-agnostic and can be applied to any Kubernetes cluster, regardless of whether it's running on Azure AKS, AWS EKS, GCP GKE, or an on-premise solution. These typically include:
 
 - Namespaces
-
 - Deployments
-
 - Services
-
 - Ingress Controllers
-
 - ConfigMaps
-
 - Secrets
-
 - Persistent Volumes & Persistent Volume Claims (if using standard storage classes)
 
 In Kubernetes, these can be managed independently of the cloud provider's configuration.
 
-### To List Kubernetes Configurations in a Deployed AKS Cluster
+#### To List Kubernetes Configurations in a Deployed AKS Cluster
 
 You can use `kubectl` commands to retrieve the configurations that exist within your AKS cluster, and these configurations can be reused for other cloud providers like AWS EKS.
 
-#### Common `kubectl` Commands to Retrieve Kubernetes-specific Configurations
+##### Common `kubectl` Commands to Retrieve Kubernetes-specific Configurations
 
 ```bash
 # Get all namespaces
@@ -68,20 +68,15 @@ kubectl get jobs -A -o yaml
 
 By running these commands, you can extract the YAML configuration of all your Kubernetes resources (like Deployments, Services, ConfigMaps, Ingresses, etc.) that are specific to the Kubernetes API, and not tied to Azure or AWS.
 
-### 2\. Azure-Specific Configuration (Terraform for AKS)
+#### 2\. Azure-Specific Configuration (Terraform for AKS)
 
 This part involves the Terraform resources used to provision and configure AKS. These are cloud-specific and tied to Azure. They include:
 
 - AKS Cluster (Azure Resource Manager resource definitions for AKS)
-
 - Azure Load Balancers
-
 - Azure Disk Storage or File Storage classes
-
 - Azure Networking (VNETs, Subnets, etc.)
-
 - Role-based access control (RBAC) for Azure AD integration
-
 - Azure-specific monitoring or logging configurations
 
 In Terraform, you'll typically use `azurerm` provider for Azure-specific configurations like:
@@ -112,12 +107,11 @@ resource "azurerm_kubernetes_cluster" "aks_cluster" {
 
 This is specific to Azure and won't work for AWS EKS, which has its own Terraform resources, like `aws_eks_cluster`.
 
-### 3\. Abstracting Cloud-Specific Configurations
+#### 3\. Abstracting Cloud-Specific Configurations
 
 To support both Azure AKS and AWS EKS, you can use different Terraform configurations for the cloud provider (Azure/AWS) while sharing the Kubernetes-specific resources (like Deployments, Services, etc.).
 
 - Provider-Specific Terraform Modules: Write separate modules for provisioning the cloud-specific infrastructure (`azurerm` for AKS, `aws` for EKS).
-
 - Kubernetes Configurations via Terraform: Use the `kubernetes` provider in Terraform to manage Kubernetes resources such as Deployments, Services, ConfigMaps, etc. This can be shared across cloud providers.
 
    Example Terraform config for Kubernetes resources (platform-agnostic):
@@ -173,7 +167,7 @@ To support both Azure AKS and AWS EKS, you can use different Terraform configura
    }
    ```
 
-### 4\. Separate Cloud Provider Configurations
+#### 4\. Separate Cloud Provider Configurations
 
 For AKS and EKS, you'd have different Terraform files:
 
@@ -203,12 +197,11 @@ For AKS and EKS, you'd have different Terraform files:
 
 By using this method, you keep the cloud provider-specific configurations separate, while the Kubernetes-specific configurations (like YAML or Kubernetes resources) remain the same across cloud providers.
 
-### 5\. Managing Terraform Workspaces or Modules
+#### 5\. Managing Terraform Workspaces or Modules
 
 To make it more maintainable, consider using Terraform workspaces or modules:
 
 - Workspaces: Use different workspaces to separate Azure and AWS environments while reusing the same Terraform code.
-
 - Modules: Create reusable modules for Kubernetes infrastructure that can be shared across cloud providers.
 
 ---
@@ -216,6 +209,7 @@ To make it more maintainable, consider using Terraform workspaces or modules:
 This separation will allow you to switch between AKS and EKS without modifying the Kubernetes-specific parts of your deployment. You can focus on writing Terraform code specific to the cloud provider and ensure the Kubernetes configuration remains consistent across different environments.
 
 Got an error from the subnet saying insufficient IPs in the subnet
+
 The subnet `10.0.0.16/28` has a prefix length of 28, meaning that 28 bits are used for the network portion of the address, leaving 4 bits for the host portion.
 
 To calculate the number of IPs in this range:
@@ -224,21 +218,19 @@ To calculate the number of IPs in this range:
    `/28` corresponds to a subnet mask of `255.255.255.240` or `11111111.11111111.11111111.11110000` in binary.
 
 2. Number of available IPs:
-   The number of host IPs is ( 2^{(32 - 28)} = 2^4 = 16 ) IP addresses.
+   The number of host IPs is (2^{(32 - 28)} = 2^4 = 16) IP addresses.
 
 3. Total IPs:
    There are 16 IP addresses in total for this subnet.
 
-### Breakdown of the IP Range
+#### Breakdown of the IP Range
 
 - First IP (Network address): `10.0.0.16` (reserved as the network address)
-
 - Last IP (Broadcast address): `10.0.0.31` (reserved as the broadcast address)
 
 Thus, out of the 16 IPs, 14 are usable for hosts (from `10.0.0.17` to `10.0.0.30`).
 
-### Summary
+#### Summary
 
 - Total IPs: 16
-
 - Usable IPs: 14

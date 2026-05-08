@@ -1,6 +1,12 @@
-# 16c-break_down_tasks
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:35+00:00
+title: 16c-break_down_tasks
+---
 
-# Break Down Tasks
+## 16c-break_down_tasks
+
+## Break Down Tasks
 
 Divide large, overwhelming tasks into smaller, more manageable chunks. This creates a sense of progress and prevents procrastination
 

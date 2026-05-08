@@ -1,4 +1,10 @@
-# Formal Ways of Categorizing Links between Atomic Units of Knowledge
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:39+00:00
+title: Formal Ways of Categorizing Links between Atomic Units of Knowledge
+---
+
+## Formal Ways of Categorizing Links between Atomic Units of Knowledge
 
 [Semantic Link Types.md](Semantic%20Link%20Types.md)
 

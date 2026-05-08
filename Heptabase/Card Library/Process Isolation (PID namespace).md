@@ -1,6 +1,12 @@
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:43+00:00
+title: Process Isolation (PID namespace)
+---
+
 ## Process Isolation (PID namespace)
 
-A *PID*, or process ID helps a system track a specific task on a computer. When you launch Firefox on your computer, it will have a PID associated with it. In order to make sure that the computer interacts with a task properly, the task is referenced by the PID. Let's assume that you have Firefox and the [Brave Browser](https://brave.com/) open at the same time. You fire up your preferred search engine, such as [DuckDuckGo](https://duckduckgo.com/), in each browser and search for *cat pictures* in one and *dog pictures* in the other. Both browsers are making a similar request to the same website. How does the computer ensure that the correct search results are returned to the correct browser? One of the main ways is by tracing the requests each PID makes and then returning the results to the requesting process.
+A _PID_, or process ID helps a system track a specific task on a computer. When you launch Firefox on your computer, it will have a PID associated with it. In order to make sure that the computer interacts with a task properly, the task is referenced by the PID. Let's assume that you have Firefox and the [Brave Browser](https://brave.com/) open at the same time. You fire up your preferred search engine, such as [DuckDuckGo](https://duckduckgo.com/), in each browser and search for _cat pictures_ in one and _dog pictures_ in the other. Both browsers are making a similar request to the same website. How does the computer ensure that the correct search results are returned to the correct browser? One of the main ways is by tracing the requests each PID makes and then returning the results to the requesting process.
 
 "Great, I'm lost," you say. What does this have to do with apartment buildings and namespaces? Well, let's say that you want to run identical copies of a piece of software. Some software was not written to have more than one copy open at a time. To accomplish this, you might have to isolate the PID so that it is not aware of what is going on outside of its own processes. This is what process isolation can help to solve.
 

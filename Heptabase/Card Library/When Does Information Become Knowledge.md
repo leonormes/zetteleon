@@ -1,4 +1,10 @@
-# When Does Information Become Knowledge
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:45+00:00
+title: When Does Information Become Knowledge
+---
+
+## When Does Information Become Knowledge
 
 Information becomes knowledge through a process of understanding, interpretation, and application.
 

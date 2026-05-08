@@ -1,18 +1,25 @@
-# 4a2-relationship_between_information_and_entropy
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:36+00:00
+title: 4a2-relationship_between_information_and_entropy
+---
 
-# Relationship between Information and Entropy
+## 4a2-relationship_between_information_and_entropy
 
-## Information
+## Relationship between Information and Entropy
 
-In Shannon’s theory, information is related to the reduction of uncertainty.
+### Information
+
+In Shannon's theory, information is related to the reduction of uncertainty.
 
 When you receive a message, it reduces your uncertainty about the possible outcomes. The more uncertain the message was beforehand, the more information it conveys.
 
-## Entropy
+### Entropy
 
-Shannon’s entropy (often denoted as H) is a measure of this uncertainty. It’s a statistical measure that represents the average amount of information produced by a source of data. In simpler terms, it measures how unpredictable or surprising the information is. For example:
+Shannon's entropy (often denoted as H) is a measure of this uncertainty. It's a statistical measure that represents the average amount of information produced by a source of data. In simpler terms, it measures how unpredictable or surprising the information is. For example:
 
 If you have a source that only sends one possible message (no uncertainty), the entropy is zero because no new information is gained.
+
 If you have a source that sends messages with equal probability (high uncertainty), the entropy is maximized, meaning each message carries a lot of information.
 
 ---

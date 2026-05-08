@@ -1,4 +1,10 @@
-# Mesopoptamia
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:42+00:00
+title: Mesopoptamia
+---
+
+## Mesopoptamia
 
 Mesopotamia is a historical region of West Asia situated within the Tigris–Euphrates river system, in the northern part of the Fertile Crescent. Today, Mesopotamia is known as present-day Iraq.\[1\]\[2\] In the broader sense, the historical region of Mesopotamia also includes parts of present-day Iran, Turkey, Syria and Kuwait.
 

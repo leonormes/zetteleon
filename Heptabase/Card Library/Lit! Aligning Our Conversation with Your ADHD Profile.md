@@ -1,6 +1,6 @@
 ---
 created: 2026-05-04T08:01:26+00:00
-modified: 2026-05-04T16:56:31+00:00
+modified: 2026-05-08T12:53:41+00:00
 tags: [Literature]
 title: Lit! Aligning Our Conversation with Your ADHD Profile
 ---
@@ -12,6 +12,7 @@ The letter confirms ADHD combined type with a DIVA score of 9/9 inattention and 
 ---
 
 ## The Patterns I See in Our Conversation
+
 [High-speed associative leaping (hyperactivity-of-thought).md](High-speed%20associative%20leaping%20(hyperactivity-of-thought).md)
 
 [Lit! The recursive !but what about the meta-level! move.md](Lit!%20The%20recursive%20!but%20what%20about%20the%20meta-level!%20move.md)

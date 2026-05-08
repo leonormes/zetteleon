@@ -1,13 +1,17 @@
-### Level 1: Container Building Blocks
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:40+00:00
+title: Level 1! Container Building Blocks
+---
 
-#### Module 1: Process Isolation with Namespaces
+## Level 1: Container Building Blocks
+
+### Module 1: Process Isolation with Namespaces
 
 Theory:
 
 - Understanding Linux namespaces (pid, net, mnt, uts, ipc, user)
-
 - Process isolation principles
-
 - Resource containment basics
 
 Practical Exercises:
@@ -31,14 +35,12 @@ unshare --pid --fork /bin/bash
 ps aux
 ```
 
-#### Module 2: Resource Control with Cgroups
+### Module 2: Resource Control with Cgroups
 
 Theory:
 
 - Understanding cgroup hierarchy
-
 - Resource limiting mechanisms
-
 - CPU, memory, and I/O control
 
 Practical Exercises:

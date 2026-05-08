@@ -1,6 +1,12 @@
-# Components |  Grafana Alloy documentation
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:38+00:00
+title: Components !  Grafana Alloy documentation
+---
 
-*Components* are the building blocks of Alloy. Each component handles a single task, such as retrieving secrets or collecting Prometheus metrics.
+## Components | Grafana Alloy Documentation
+
+_Components_ are the building blocks of Alloy. Each component handles a single task, such as retrieving secrets or collecting Prometheus metrics.
 
 Components are composed of the following:
 
@@ -10,7 +16,7 @@ Components are composed of the following:
 
 Each component has a name that describes what that component is responsible for. For example, the `local.file` component is responsible for retrieving the contents of files on disk.
 
-You specify components in the configuration file by first providing the component’s name with a user-specified label, and then by giving arguments to configure the component.
+You specify components in the configuration file by first providing the component's name with a user-specified label, and then by giving arguments to configure the component.
 
 ```
 discovery.kubernetes "pods" {
@@ -24,26 +30,23 @@ discovery.kubernetes "nodes" {
 
 You reference components by combining the component name with its label. For example, you can reference a `local.file` component labeled `foo` as `local.file.foo`.
 
-The combination of a component’s name and its label must be unique within the configuration file. Combining component names with a label means you can define multiple instances of a component as long as each instance has a different label value.
+The combination of a component's name and its label must be unique within the configuration file. Combining component names with a label means you can define multiple instances of a component as long as each instance has a different label value.
 
-## Pipelines
+### Pipelines
 
 Most arguments for a component in a configuration file are constant values, such as setting a `log_level` attribute to the quoted string `"debug"`.
 
-You use *expressions* to dynamically compute the value of an argument at runtime. You can use expressions to retrieve the value of an environment variable (`log_level = env("LOG_LEVEL")`) or to reference an exported field of another component (`log_level = local.file.log_level.content`).
+You use _expressions_ to dynamically compute the value of an argument at runtime. You can use expressions to retrieve the value of an environment variable (`log_level = env("LOG_LEVEL")`) or to reference an exported field of another component (`log_level = local.file.log_level.content`).
 
-You create a dependent relationship when a component’s argument references an exported field of another component. A component’s arguments now depend on another component’s exports. The input of the component is re-evaluated whenever the exports of the components it references are updated.
+You create a dependent relationship when a component's argument references an exported field of another component. A component's arguments now depend on another component's exports. The input of the component is re-evaluated whenever the exports of the components it references are updated.
 
-The flow of data through the set of references between components forms a *pipeline*.
+The flow of data through the set of references between components forms a _pipeline_.
 
 An example pipeline may look like this:
 
 1. A `local.file` component watches a file that contains an API key.
-
 2. A `prometheus.remote_write` component is configured to receive metrics and forward them to an external database using the API key from the `local.file` for authentication.
-
 3. A `discovery.kubernetes` component discovers and exports Kubernetes Pods where metrics can be collected.
-
 4. A `prometheus.scrape` component references the exports of the previous component, and sends collected metrics to the `prometheus.remote_write` component.
 
 The following configuration file represents the pipeline.
@@ -96,7 +99,5 @@ prometheus.scrape "default" {
   forward_to = [prometheus.remote_write.prod.receiver]
 }
 ```
-
-
 
 Source: <https://grafana.com/docs/alloy/latest/get-started/components/>

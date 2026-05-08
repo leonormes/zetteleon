@@ -1,6 +1,12 @@
-# 4a3c-channel_capacity
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:36+00:00
+title: 4a3c-channel_capacity
+---
 
-# Channel Capacity
+## 4a3c-channel_capacity
+
+## Channel Capacity
 
 Channel capacity is the maximum rate at which information can be reliably transmitted over a communication channel without errors. It depends on the characteristics of the channel, such as its bandwidth and the presence of noise.
 

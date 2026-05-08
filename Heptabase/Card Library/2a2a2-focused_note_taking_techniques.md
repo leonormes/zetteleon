@@ -1,6 +1,12 @@
-# 2a2a2-focused_note_taking_techniques
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:35+00:00
+title: 2a2a2-focused_note_taking_techniques
+---
 
-# There Are Specific Note-taking Techniques that Promote a Focused Approach
+## 2a2a2-focused_note_taking_techniques
+
+## There Are Specific Note-taking Techniques that Promote a Focused Approach
 
 [Paraphrasing and summarising](2a2a2a-paraphrasing_and_summarising.md)
 

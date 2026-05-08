@@ -1,4 +1,10 @@
-# Additional Tips for Routine Note-Taking
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:37+00:00
+title: Additional Tips for Routine Note-Taking
+---
+
+## Additional Tips for Routine Note-Taking
 
 [Focus on Understanding, not Just Recording.md](Focus%20on%20Understanding,%20not%20Just%20Recording.md)
 
@@ -7,5 +13,3 @@
 [Embrace the Non-Linearity.md](Embrace%20the%20Non-Linearity.md)
 
 [Experiment and Adapt.md](Experiment%20and%20Adapt.md)
-
-

@@ -1,26 +1,30 @@
-# Content Types
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:38+00:00
+title: Content Types
+---
+
+## Content Types
 
 Here are some common types of note categories you could consider:
 
-[Insight.md](Insight.md) 
+[Insight.md](Insight.md)
 
-[2a4b8k-premise.md](2a4b8k-premise.md) 
+[2a4b8k-premise.md](2a4b8k-premise.md)
 
-[2a4b8l-evidence.md](2a4b8l-evidence.md) 
+[2a4b8l-evidence.md](2a4b8l-evidence.md)
 
-[2a4b8n-counterargument.md](2a4b8n-counterargument.md) 
+[2a4b8n-counterargument.md](2a4b8n-counterargument.md)
 
-[2a4b8o-rebuttal.md](2a4b8o-rebuttal.md) 
+[2a4b8o-rebuttal.md](2a4b8o-rebuttal.md)
 
-[2a4b8p-assumption.md](2a4b8p-assumption.md) 
+[2a4b8p-assumption.md](2a4b8p-assumption.md)
 
-[2a4b8q-conclusion.md](2a4b8q-conclusion.md) 
+[2a4b8q-conclusion.md](2a4b8q-conclusion.md)
 
-[2a4b8r-implication.md](2a4b8r-implication.md) 
+[2a4b8r-implication.md](2a4b8r-implication.md)
 
 [2a4b8s-analogy.md](2a4b8s-analogy.md) [Warrant.md](Warrant.md)
-
-
 
 [Structural Relationships.md](Structural%20Relationships.md)
 

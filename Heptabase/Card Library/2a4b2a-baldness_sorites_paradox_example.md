@@ -1,13 +1,17 @@
-# 2a4b2a-baldness_sorites_paradox_example
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:35+00:00
+title: 2a4b2a-baldness_sorites_paradox_example
+---
 
-# Baldness Sorites Paradox Example
+## 2a4b2a-baldness_sorites_paradox_example
+
+## Baldness Sorites Paradox Example
 
 The baldness example illustrates the Sorites Paradox:
 
 1. Start with a man with a full head of hair (not bald).
-
 2. Remove one hair at a time.
-
 3. It's impossible to identify the precise hair that, when removed, suddenly makes the man bald.
 
 This demonstrates the vagueness in the concept of baldness and the lack of a universal threshold for distinguishing between bald and non-bald.

@@ -1,3 +1,9 @@
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:40+00:00
+title: Interprocess Communication (IPC)
+---
+
 ## Interprocess Communication (IPC)
 
 This namespace is highly technical and complex to understand and describe. So much so that Marty Kalin has a series of articles on [Opensource.com](https://opensource.com/article/19/4/interprocess-communication-linux-storage) detailing interprocess communication (IPC). If you are really interested, I will refer you to Marty's series as I could not do this topic justice. IPCs handle the communication between processes by using shared memory areas, message queues, and semaphores. If all of that sounds foreign to you, don't worry, you aren't alone. The most common application for this type of management is possibly the use of databases.

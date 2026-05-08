@@ -1,6 +1,12 @@
-# Interoperability criteria
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:40+00:00
+title: Interoperability criteria
+---
 
-The knowledge base you have provided includes excerpts from a document titled "20250427_DTAC\_[FITFILE.md](FITFILE.md)". 
+## Interoperability Criteria
+
+The knowledge base you have provided includes excerpts from a document titled "20250427_DTAC\_[FITFILE.md](FITFILE.md)".
 
 Now, addressing your query regarding C4 - Interoperability Criteria within the larger context of C. Technical Questions.
 
@@ -8,7 +14,7 @@ The Digital Technology Assessment Criteria (DTAC) is structured into five core c
 
 Section C is titled "Technical questions" and is explicitly described as the "Assessed sections". The core criteria in Section C will determine the overall success of the assessment of your product or service. This indicates that performance and compliance within Section C are critical for a product to pass the DTAC assessment. Section C is broken down into four key areas: C1 - Clinical safety, C2 - Data protection, C3 - Technical security, and C4 - Interoperability criteria. Each of these subsections is assessed, and collectively, they form the basis for evaluating the product's technical suitability and safety for use in health and social care settings.
 
-C4 - Interoperability criteria is one of these four crucial assessed sections. Its specific purpose is "Establishing how well your product exchanges data with other systems". The document emphasises the importance of interoperability within the health and social care system to provide a seamless care journey. This means ensuring that relevant technologies can work together, exchanging information smoothly across different hardware and software systems, including the data contained within them. An example provided is the need for data from a patient’s blood glucose monitor to be downloadable onto an appropriate clinical system without being restricted to one type. Technologies that need to interface with clinical record systems must also be interoperable.
+C4 - Interoperability criteria is one of these four crucial assessed sections. Its specific purpose is "Establishing how well your product exchanges data with other systems". The document emphasises the importance of interoperability within the health and social care system to provide a seamless care journey. This means ensuring that relevant technologies can work together, exchanging information smoothly across different hardware and software systems, including the data contained within them. An example provided is the need for data from a patient's blood glucose monitor to be downloadable onto an appropriate clinical system without being restricted to one type. Technologies that need to interface with clinical record systems must also be interoperable.
 
 The DTAC highlights several benefits associated with good interoperability. It is stated that good interoperability "reduces expenditure, complexity and delivery times on local system integration projects by standardising technology and interface specifications and simplifying integration". Furthermore, it allows integration solutions to be "replicated and scaled up" and "opens the market for innovation by defining the standards to develop upfront".
 

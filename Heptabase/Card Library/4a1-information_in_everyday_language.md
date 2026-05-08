@@ -1,6 +1,12 @@
-# 4a1-information_in_everyday_language
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:36+00:00
+title: 4a1-information_in_everyday_language
+---
 
-# In Everyday Language
+## 4a1-information_in_everyday_language
+
+## In Everyday Language
 
 Information Refers to Facts or Knowledge Communicated or Received concerning a Particular Subject
 

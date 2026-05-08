@@ -1,3 +1,0 @@
-# Computer Networking A Top-Down Approach
-
--  James F. Kurose.pdf": This textbook provides a comprehensive overview of computer networking concepts, protocols, and technologies. It takes a top-down approach, starting from the application layer and working down to the link layer. It includes summaries, homework problems, and references for further learning. It also discusses topics like network management and security.

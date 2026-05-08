@@ -1,16 +1,22 @@
-# How to change the log level of an Azure Kubernetes Service (AKS) extension via Terraform
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:39+00:00
+title: How to change the log level of an Azure Kubernetes Service (AKS) extension via Terraform
+---
+
+## How to Change the Log Level of an Azure Kubernetes Service (AKS) Extension via Terraform
 
 you need to update the configuration of the extension resource by specifying the appropriate log level setting. However, the exact mechanism depends on the specific extension you're working with.
 
 In general, AKS extensions managed by Terraform can be configured using the `azurerm_kubernetes_cluster_extension` resource. The `logLevel` setting for the extension might be part of the `configuration_protected` or `configuration` blocks, depending on the specific extension you're using.
 
-Here’s a general approach you can take to change the log level:
+Here's a general approach you can take to change the log level:
 
 ### 1\. Update Terraform for the Extension
 
 If you are already using Terraform to manage the AKS extensions, you should find the Terraform resource corresponding to the extension and look for where the log level is defined. It could be inside the `configuration` or `configuration_protected` block for the `azurerm_kubernetes_cluster_extension` resource.
 
-Here’s an example of how the log level can be set:
+Here's an example of how the log level can be set:
 
 ```hcl
 resource "azurerm_kubernetes_cluster_extension" "example" {
@@ -30,7 +36,7 @@ This example assumes you are working with an AKS extension where the `logLevel` 
 
 ### 2\. Updating via Azure CLI
 
-If you are not managing this via Terraform but prefer to use the Azure CLI instead, you can configure AKS extensions with `az k8s-extension` commands. To update the log level, you'd first retrieve the extension’s current configuration and then apply the necessary changes.
+If you are not managing this via Terraform but prefer to use the Azure CLI instead, you can configure AKS extensions with `az k8s-extension` commands. To update the log level, you'd first retrieve the extension's current configuration and then apply the necessary changes.
 
 Here's how to use the Azure CLI to update an AKS extension log level:
 
@@ -48,9 +54,8 @@ Make sure to replace `<cluster-name>`, `<resource-group-name>`, and `<extension-
 
 After updating your Terraform or CLI commands, apply the changes:
 
-- **For Terraform**: Run `terraform apply`.
-
-- **For Azure CLI**: Simply running the above command will update the extension in real-time.
+- For Terraform: Run `terraform apply`.
+- For Azure CLI: Simply running the above command will update the extension in real-time.
 
 ### Verify the Log Level
 

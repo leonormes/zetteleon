@@ -1,37 +1,32 @@
-### Level 4: Advanced Networking
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:40+00:00
+title: Level 4! Advanced Networking
+---
+
+## Level 4: Advanced Networking
 
 Focus: Complex container networking
 
 Skills:
 
 - Implement overlay networks
-
 - Configure service discovery
-
 - Manage container DNS
-
 - Handle network security
-
 - Implement load balancing
 
 Success Indicators:
 
 - Creates effective network architectures
-
 - Implements service discovery solutions
-
 - Manages container DNS effectively
-
 - Configures network security
-
 - Understands network troubleshooting
 
 Practice Projects:
 
 1. Build overlay network
-
 2. Implement service mesh
-
 3. Create custom CNI plugin
-
 4. Design network security policy

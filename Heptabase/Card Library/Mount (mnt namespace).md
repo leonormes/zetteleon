@@ -1,3 +1,9 @@
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:42+00:00
+title: Mount (mnt namespace)
+---
+
 ## Mount (mnt namespace)
 
 The mount namespace is used to isolate mount points such that processes in different namespaces cannot view each others' files. If you are familiar with the [chroot](https://www.redhat.com/en/blog/wiki.archlinux.org/index.php/chroot) command, it functions similarly.

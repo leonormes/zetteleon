@@ -1,4 +1,10 @@
-# The Processing is the Thinking Part
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:44+00:00
+title: The Processing is the Thinking Part 1
+---
+
+## The Processing is the Thinking Part
 
 These workflows, GTD and Zettelkasten, have put me in a lazy mode and tricked me into seeing this process as easy. But effort is required.
 

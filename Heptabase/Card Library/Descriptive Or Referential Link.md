@@ -1,3 +1,0 @@
-### Descriptive Or Referential Link
-
-This link provides contextual or factual information rather than expanding on a conceptual relationship. It’s a factual supplement, grounding or contextualizing the "David Bowie" note by pointing to an informative list. Information Value: Since the list of albums doesn’t introduce a novel concept, interpretation, or thematic expansion of Bowie’s life or influence, it has a low information gain in the context of idea development. However, it enhances factual depth by adding a reference.

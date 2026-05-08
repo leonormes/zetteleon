@@ -1,13 +1,17 @@
-### Level 3: Advanced Container Features
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:40+00:00
+title: Level 3! Advanced Container Features
+---
 
-#### Module 1: Security and Capabilities
+## Level 3: Advanced Container Features
+
+### Module 1: Security and Capabilities
 
 Theory:
 
 - Linux capabilities
-
 - Seccomp profiles
-
 - AppArmor/SELinux basics
 
 Practical Exercises:
@@ -34,14 +38,12 @@ ping 8.8.8.8  # Should fail
 }
 ```
 
-#### Module 2: Container Image Creation
+### Module 2: Container Image Creation
 
 Theory:
 
 - Layer architecture
-
 - Image manifests
-
 - Distribution formats
 
 Practical Projects:

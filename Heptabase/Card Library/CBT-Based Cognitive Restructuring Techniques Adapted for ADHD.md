@@ -1,17 +1,19 @@
-# CBT-Based Cognitive Restructuring Techniques Adapted for ADHD
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:38+00:00
+title: CBT-Based Cognitive Restructuring Techniques Adapted for ADHD
+---
+
+## CBT-Based Cognitive Restructuring Techniques Adapted for ADHD
 
 Cognitive Behavioral Therapy (CBT) provides a structured framework for identifying, challenging, and modifying these cognitive distortions. The core principle is that by changing unhelpful thought patterns, individuals can alter their emotional responses and behaviours. For adults with ADHD, while the fundamental techniques of CBT apply, adaptations are often necessary to accommodate challenges related to executive functions and emotional regulation.
 
 Actionable CBT techniques include:
 
-1. Thought Records: This involves systematically documenting automatic negative thoughts, the situations that trigger them, the emotions they evoke, the specific cognitive distortions present, and then generating more balanced, rational alternative responses. For adults with ADHD, keeping thought records can be aided by structured worksheets or digital apps to compensate for potential organizational or memory difficulties.  
-
+1. Thought Records: This involves systematically documenting automatic negative thoughts, the situations that trigger them, the emotions they evoke, the specific cognitive distortions present, and then generating more balanced, rational alternative responses. For adults with ADHD, keeping thought records can be aided by structured worksheets or digital apps to compensate for potential organizational or memory difficulties.
 2. Cognitive Restructuring (Catch, Challenge, Change): This is a core process of identifying unhelpful thoughts as they arise ("catch"), examining the evidence for and against them and identifying distortions ("challenge"), and then replacing them with more realistic, adaptive, and often positive alternatives ("change"). An example for ADHD might be catching the thought "I'll never get this huge project done," challenging it by recalling past successes on large tasks (perhaps when broken down), and changing it to "This project is large, but I can break it into smaller, manageable steps and focus on one at a time". Another approach involves reframing negative self-statements by actively listing past accomplishments to counter thoughts like "I've never been good at anything".
-
-3. Task Breakdown: While often seen as a behavioural strategy, breaking down large, overwhelming tasks into smaller, more achievable steps is a crucial CBT technique for ADHD. This directly challenges all-or-nothing thinking and catastrophizing about task completion and provides opportunities for experiencing success, which can counter negative self-beliefs.  
-
-4. Reality Testing: This involves systematically evaluating the evidence supporting and refuting a particular distressing thought to determine its validity. For example, if an individual with ADHD catastrophizes about the consequences of a minor mistake, reality testing would involve examining the actual likelihood and severity of those consequences.  
-
+3. Task Breakdown: While often seen as a behavioural strategy, breaking down large, overwhelming tasks into smaller, more achievable steps is a crucial CBT technique for ADHD. This directly challenges all-or-nothing thinking and catastrophizing about task completion and provides opportunities for experiencing success, which can counter negative self-beliefs.
+4. Reality Testing: This involves systematically evaluating the evidence supporting and refuting a particular distressing thought to determine its validity. For example, if an individual with ADHD catastrophizes about the consequences of a minor mistake, reality testing would involve examining the actual likelihood and severity of those consequences.
 5. Behavioral Experiments: These are planned activities designed to test the accuracy of specific cognitive distortions. For instance, if an individual with ADHD avoids social situations due to mind-reading ("Everyone will think I'm awkward"), a behavioural experiment might involve attending a low-stakes social event and observing people's actual reactions.
 
 Given the nature of ADHD, repetition of these techniques and the use of external reminders (e.g., phone alerts, visual cues) are important for reinforcing new, more adaptive thought patterns and helping them become more automatic.30 CBT programs for ADHD often specifically target the negative thought patterns that underpin procrastination, impulsivity, and emotional dysregulation.

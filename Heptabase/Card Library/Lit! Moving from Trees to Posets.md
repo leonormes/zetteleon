@@ -1,7 +1,10 @@
 ---
-tags:
-  - Literature
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:41+00:00
+tags: [Literature]
+title: Lit! Moving from Trees to Posets
 ---
+
 ## Lit: Moving from Trees to Posets
 
 You
@@ -37,18 +40,15 @@ In a standard folder system, every file has exactly one parent. In order theory,
 If we define the relation $A \le B$ as " $A$ is a subtopic of $B$," your vault becomes a Directed Acyclic Graph (DAG).
 
 - ADHD can be "less than" (a sub-element of) both Neurodiversity and Clinical Psychology.
-
 - Dopamine Regulation can be a subtopic of ADHD and Biochemistry.
 
 ## 2\. Handling Cross-Pollination with Lattices
 
 The "cross-pollination" problem is solved by the concept of Joins and Meets in Lattice Theory (a branch of order theory).
 
-- The Join ($\lor$): The "Least Upper Bound." If you have two distinct notes, say *ADHD* and *Time Management*, their "Join" is the most specific broad topic they both belong to (e.g., \_Executive Function\_).
-
+- The Join ($\lor$): The "Least Upper Bound." If you have two distinct notes, say _ADHD_ and _Time Management_, their "Join" is the most specific broad topic they both belong to (e.g., \_Executive Function\_).
 - The Meet ($\wedge$): The "Greatest Lower Bound." This is where the cross-pollination happens. It is the specific point where two broad topics intersect.
-
-   - Example: The intersection of *ADHD* and *Sleep Science* might be a specific note on *Delayed Sleep Phase Syndrome*.
+   - Example: The intersection of _ADHD_ and _Sleep Science_ might be a specific note on _Delayed Sleep Phase Syndrome_.
 
 By viewing your notes this way, you aren't "placing" a note in a folder; you are defining its coordinates in a conceptual space.
 
@@ -71,9 +71,7 @@ parents: [[Neurodiversity]], [[Clinical Psychology]]
 In order theory, we use Hasse Diagrams to visualise these relationships. You can replicate this in Obsidian using the Canvas feature or the Graph View.
 
 - Broad topics sit at the top.
-
 - Fine-grained notes sit at the bottom.
-
 - Cross-pollinated notes have multiple lines climbing upwards to different parent branches.
 
 ---
@@ -135,9 +133,7 @@ By separating `topics` from `relations`, you can represent a note that sits acro
 In a Poset, we use a Hasse Diagram to represent the hierarchy. To make your JSON modular for this, think of each topic as a node that only knows its immediate "Covers" (the elements directly above or below it).
 
 - Broadest elements (Maximal elements): Maths, Biology, Philosophy.
-
 - Intermediate elements: Order Theory, Neurodiversity, Stoicism.
-
 - Fine-grained elements (Minimal elements): A specific Zettel on "Dopamine in the Prefrontal Cortex."
 
 ---
@@ -149,7 +145,6 @@ The problem you mentioned—things sitting across multiple topics—is exactly w
 If you have a topic called "Cognitive Scaffolding," it doesn't have to "belong" to ADHD. Instead, it can be the Infimum (Greatest Lower Bound) of two different branches:
 
 1. Branch A: ADHD $\rightarrow$ Executive Function $\rightarrow$ Cognitive Scaffolding
-
 2. Branch B: PKM $\rightarrow$ External Systems $\rightarrow$ Cognitive Scaffolding
 
 ### How to Represent This in Your Markdown Files
@@ -175,7 +170,6 @@ This is the modular intersection of ADHD management and PKM design.
 To fix your current JSON, I recommend splitting the "merged" topics. For example, "AI Engineering & LLM Systems" should be two modular topics:
 
 - AI Engineering (The discipline)
-
 - LLM Systems (The specific technology)
 
 In a Poset, LLM Systems $\le$ AI Engineering. By keeping them modular, you can later relate LLM Systems to Linguistics or Ethics without dragging the entire "AI Engineering" baggage with it.
@@ -183,9 +177,7 @@ In a Poset, LLM Systems $\le$ AI Engineering. By keeping them modular, you can l
 ### The "Modular Checklist" for Your Topics
 
 - Atomaticity: Does this topic represent a single concept? (e.g., Change "Health & Endurance" to "Physiology" and "Athleticism").
-
 - Transitivity: If $A \le B$ and $B \le C$, does $A \le C$ make sense? (If "Dopamine" is a subtopic of "ADHD", and "ADHD" is a subtopic of "Biology", then "Dopamine" is inherently a subtopic of "Biology").
-
 - Non-Redundancy: Don't link $A$ to $C$ if the path through $B$ already exists. This keeps your "order" clean and manageable.
 
 Do you have a specific note in your vault right now that feels like it's "trapped" between two of your current broad categories?
@@ -217,25 +209,25 @@ Copy and paste the following:
 > Requirements for Atomic Topics:
 >
 > 1. De-duplicate and Decouple: Break apart composite names (e.g., "AI Engineering & LLM Systems") into individual, standalone nodes (e.g., "AI Engineering" and "LLM Systems").
->
+> 
 > 2. Identify Atoms: Extract all distinct concepts from the `keywords` and `descriptions` fields. Each should become its own modular entry.
->
+> 
 > 3. British English: Use British English spelling throughout (e.g., "modelling", "organisation").
->
+> 
 > Requirements for the Order Relation ($\le$):
 >
 > 1. Define Hierarchy: For every atomic topic, identify its "Immediate Superiors" (parents).
->
+> 
 > 2. Enable Multiple Inheritance: A topic can have multiple parents (e.g., "ADHD" may have "Neurodiversity" and "Clinical Psychology" as parents).
->
+> 
 > 3. Avoid Transitive Redundancy: If $A \le B$ and $B \le C$, do not explicitly link $A \le C$. Only define the immediate "Covering" relation.
->
+> 
 > Output Format (JSON): Return a JSON object with two primary keys:
 >
 > - `"nodes"`: An array of objects containing `{ "id": "snake_case_id", "name": "Display Name", "description": "Brief context" }`.
->
+> 
 > - `"relations"`: An array of objects defining the partial order: `{ "sub": "child_id", "super": "parent_id" }`.
->
+> 
 > Input Data: \[INSERT YOUR JSON CONTENT HERE\]
 
 ---
@@ -251,7 +243,6 @@ In your current JSON, "ADHD" and "PKM" are in separate boxes. After the LLM proc
 In a modular system:
 
 - Cognitive Scaffolding $\le$ ADHD
-
 - Cognitive Scaffolding $\le$ PKM
 
 This specific note is the "Meet" (the intersection) where those two broad disciplines pollinate.
@@ -285,9 +276,7 @@ However, from an Order Theory perspective, there are a few logical "leaks" where
 The following nodes correctly represent the "cross-pollinated" nature of your knowledge. These are the points where two disparate branches of your vault meet:
 
 - `type_driven_development`: Correctly sits under both Data-Centric Engineering and Type Theory.
-
 - `clinical_informatics`: Successfully bridges Data Systems and Health.
-
 - `extended_mind_theory`: Correctly bridges Cognitive Science and Philosophy.
 
 ### Transitive Redundancy Check
@@ -306,20 +295,22 @@ Looking at your specific interest in ADHD, the current JSON has it nested under 
 
 To really make your Obsidian vault "modular," consider adding these nodes to bridge your technical and personal interests:
 
-| New Intersection Node | Parent A (Technical/Broad) | Parent B (Cognitive/Personal) | 
+| New Intersection Node | Parent A (Technical/Broad) | Parent B (Cognitive/Personal) |
+
 |---|---|---|
-| Deterministic Workflows | `flow_engineering` | `executive_function` | 
-| Algorithmic Accountability | `formal_verification` | `personal_operating_system` | 
-| Knowledge Graph Theory | `order_theory` | `zettelkasten` | 
+
+| Deterministic Workflows | `flow_engineering` | `executive_function` |
+
+| Algorithmic Accountability | `formal_verification` | `personal_operating_system` |
+
+| Knowledge Graph Theory | `order_theory` | `zettelkasten` |
 
 ---
 
 ## 3\. The "British English" & Schema Audit
 
 - Spelling: The LLM followed your instruction well (e.g., `modelling`, `organisation`, `containerised`).
-
 - Missing Atomic Breakouts: `meaning_and_purpose` is still a composite node. In a truly modular Poset, you might want `Meaning` and `Purpose` as separate atoms, as one might relate to `Philosophy` while the other relates to `Productivity (ProdOS)`.
-
 - Cycle Check: I have verified there are no circular dependencies (e.g., $A \le B$ and $B \le A$). It is a valid DAG.
 
 ---
@@ -366,15 +357,15 @@ Copy and paste this into your local assistant:
 > Instructions:
 >
 > 1. Perform Transitive Reduction: Identify any redundant relations. If $A \le B$ and $B \le C$ already exist, remove the direct relation $A \le C$.
->
->    - *Example:* If `order_theory` $\le$ `set_theory` and `set_theory` $\le$ `applied_mathematics`, remove `order_theory` $\le$ `applied_mathematics`.
->
+> 
+>    - _Example:_ If `order_theory` $\le$ `set_theory` and `set_theory` $\le$ `applied_mathematics`, remove `order_theory` $\le$ `applied_mathematics`.
+> 
 > 2. Atomic Splitting: Identify nodes with composite names or descriptions (e.g., "Meaning & Purpose"). Split them into distinct, modular nodes (e.g., `meaning` and `purpose`) and re-assign their relations based on their specific context.
->
+> 
 > 3. Identify New Intersections (Meets): Suggest 3-5 new nodes that act as the "Greatest Lower Bound" (intersection) between the Technical branch (Engineering/Maths) and the Cognitive branch (ADHD/PKM/Philosophy).
->
+> 
 > 4. British English: Ensure all new names and descriptions use British English (e.g., `optimisation`, `modelling`).
->
+> 
 > Output Format: Provide the updated JSON following the same structure: `{ "nodes": […], "relations": […] }`
 >
 > Input Data: \[PASTE YOUR JSON HERE\]
@@ -384,10 +375,8 @@ Copy and paste this into your local assistant:
 ### What This Achieves for Your Obsidian Vault
 
 1. Cleaner Graph View: By removing transitive redundancies, your Obsidian Graph View will look like a structured hierarchy rather than a "hairball" of overlapping lines.
-
 2. True Modularisation: Splitting "Meaning & Purpose" allows you to link "Purpose" to your productivity systems (`ProdOS`) while keeping "Meaning" linked to `Philosophy` and `Existentialism`.
-
-3. Cross-Pollination Nodes: The "Meets" requested in the prompt (like *Deterministic Workflows* or \_Algorithmic Accountability\_) are the exact points where your ADHD management and your Software Engineering expertise will actually interact, which is the heart of a good Zettelkasten.
+3. Cross-Pollination Nodes: The "Meets" requested in the prompt (like _Deterministic Workflows_ or \_Algorithmic Accountability\_) are the exact points where your ADHD management and your Software Engineering expertise will actually interact, which is the heart of a good Zettelkasten.
 
 How do you plan to visualise this hierarchy within Obsidian—are you using the standard Graph View, or something like the Breadcrumbs plugin?
 
@@ -406,15 +395,10 @@ The provided JSON is now a structurally sound Directed Acyclic Graph (DAG) that 
 ### Validation Highlights
 
 - Transitive Reduction: The LLM successfully pruned redundant paths. For example, `order_theory` is correctly linked to `set_theory`, which is then linked to `applied_mathematics`. The direct link from `order_theory` to `applied_mathematics` has been removed, keeping your hierarchy lean.
-
 - Atomic Splitting: Concepts like "Meaning" and "Purpose" are now standalone nodes, allowing them to be related to different branches of your life—philosophy versus productivity—independently.
-
 - Intersection Nodes (Meets): The file now includes high-value "cross-pollination" nodes that bridge your technical and cognitive interests:
-
    - `epistemic_engineering`: Bridges `systems_engineering` and `personal_knowledge_management`.
-
       - `cognitive_load_theory`: Bridges `software_architecture` and `cognitive_science`.
-
       - `llm_wiki_pattern`: Bridges `large_language_models` and `personal_knowledge_management`.
 
 ---
@@ -432,7 +416,6 @@ You have a perfect opportunity to create a new "Meet" node for "Deterministic Wo
 In Obsidian, if you use the Breadcrumbs plugin, you can map your JSON `relations` to specific edge types:
 
 - `sub` $\rightarrow$ Down (Child)
-
 - `super` $\rightarrow$ Up (Parent)
 
 #### 3\. British English Audit

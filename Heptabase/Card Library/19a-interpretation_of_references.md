@@ -1,6 +1,12 @@
-# 19a-interpretation_of_references
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:35+00:00
+title: 19a-interpretation_of_references
+---
 
-# Interpretation of References
+## 19a-interpretation_of_references
+
+## Interpretation of References
 
 For unique identifiers to be meaningful, a referencing system must exist that can interpret these identifiers according to specific rules.
 

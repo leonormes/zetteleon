@@ -1,4 +1,10 @@
-# Context propagation
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:39+00:00
+title: Context propagation
+---
+
+## Context Propagation
 
 Learn about the concept that enables Distributed Tracing.
 
@@ -6,13 +12,13 @@ With context propagation, [Signals](https://opentelemetry.io/docs/concepts/signa
 
 To understand context propagation, you need to understand two separate concepts: context and propagation.
 
-## Context
+### Context
 
 Context is an object that contains the information for the sending and receiving service, or [execution unit](https://opentelemetry.io/docs/specs/otel/glossary/#execution-unit), to correlate one signal with another.
 
 For example, if service A calls service B, then a span from service A whose ID is in context will be used as the parent span for the next span created in service B. The trace ID that is in context will be used for the next span created in service B as well, which means that the span is part of the same trace as the span from service A.
 
-## Propagation
+### Propagation
 
 Propagation is the mechanism that moves context between services and processes. It serializes or deserializes the context object and provides the relevant information to be propagated from one service to another.
 
@@ -20,18 +26,16 @@ Propagation is usually handled by instrumentation libraries and is transparent t
 
 OpenTelemetry maintains several official propagators. The default propagator is using the headers specified by the [W3C TraceContext](https://www.w3.org/TR/trace-context/) specification.
 
-## Specification
+### Specification
 
 To learn more about Context Propagation, see the [Context specification](https://opentelemetry.io/docs/specs/otel/context/).
 
-## Feedback
+### Feedback
 
 Was this page helpful?
 
 Thank you. Your feedback is appreciated!
 
 Please let us know [how we can improve this page](https://github.com/open-telemetry/opentelemetry.io/issues/new?title=Page%20feedback&body=Suggested%20improvements%20for%20page:%20ADD%20PAGE-URL-HERE). Your feedback is appreciated!
-
-
 
 Source: <https://opentelemetry.io/docs/concepts/context-propagation/>

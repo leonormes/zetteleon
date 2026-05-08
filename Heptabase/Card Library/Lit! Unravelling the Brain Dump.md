@@ -1,14 +1,20 @@
-# Lit: Unravelling the Brain Dump
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:41+00:00
+title: Lit! Unravelling the Brain Dump
+---
+
+## Lit: Unravelling the Brain Dump
 
 Source Opus 4.7 [2026-04-24.md](../Journal/2026-04-24.md)
 
-This is a genuinely good piece of thinking, and I want to honour that before unpacking it. **You have identified the actual problem.** Most people with ADHD flail around the symptoms (distraction, incompletion, tool-switching). You have located the root cause: *the absence of a repeatable protocol is itself the source of resistance*, and *you don't know what "done" looks like*.
+This is a genuinely good piece of thinking, and I want to honour that before unpacking it. You have identified the actual problem. Most people with ADHD flail around the symptoms (distraction, incompletion, tool-switching). You have located the root cause: _the absence of a repeatable protocol is itself the source of resistance_, and _you don't know what "done" looks like_.
 
 Those are two distinct problems wearing the same coat. Let me separate them, then solve them.
 
 ---
 
-## What Your Brain Dump Actually Contains
+### What Your Brain Dump Actually Contains
 
 Stripped of the stream-of-consciousness connective tissue, you are saying five things:
 
@@ -26,11 +32,11 @@ These are not the same problem. Treating them as one is why you are stuck. Here 
 
 [A wonderful new card 28.md](A%20wonderful%20new%20card%2028.md)
 
-The core insight, once separated: **capture and processing are different activities that must not share a workflow.** Mixing them is the actual source of your friction.
+The core insight, once separated: capture and processing are different activities that must not share a workflow. Mixing them is the actual source of your friction.
 
 ---
 
-## The Two-Mode Principle
+### The Two-Mode Principle
 
 ---
 
@@ -56,18 +62,18 @@ The core insight, once separated: **capture and processing are different activit
 
 ---
 
-## Your Immediate Next Action
+### Your Immediate Next Action
 
-**In Heptabase, open the Journal for today. At the top, type one line:**
+In Heptabase, open the Journal for today. At the top, type one line:
 
 > "This is my inbox. Anything goes here. I will process it later."
 
 That is it. No protocol card yet. No workflow diagram. Just establish the inbox exists and has a declared purpose.
 
-Then — and this is the key part — **the next time a thought arrives mid-flow, type it into today's Journal. Do not create a new card, do not file it, do not link it. Just type it there.**
+Then—and this is the key part—the next time a thought arrives mid-flow, type it into today's Journal. Do not create a new card, do not file it, do not link it. Just type it there.
 
-You are not building a system today. You are running *one iteration* of the capture half of the workflow. Just once. See how it feels. Notice whether the resistance drops.
+You are not building a system today. You are running _one iteration_ of the capture half of the workflow. Just once. See how it feels. Notice whether the resistance drops.
 
 If it does, you have your answer. If it doesn't, we adjust.
 
-Do not create the Processing Protocol card yet. Do not create anything else. The entire next action is: *declare the inbox, use it once*. That is small enough to defeat activation energy. Everything else grows from whether that single capture felt easier than creating a new note in Obsidian did.
+Do not create the Processing Protocol card yet. Do not create anything else. The entire next action is: _declare the inbox, use it once_. That is small enough to defeat activation energy. Everything else grows from whether that single capture felt easier than creating a new note in Obsidian did.

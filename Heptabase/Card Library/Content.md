@@ -1,3 +1,9 @@
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:38+00:00
+title: Content
+---
+
 ## Content
 
 Definition: Content is a broad term that can include any information that can be documented or stored, including ideas, text, images, videos, etc.

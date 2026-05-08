@@ -1,6 +1,6 @@
 ---
 created: 2026-04-28T00:00:00+00:00
-modified: 2026-05-01T02:26:00+00:00
+modified: 2026-05-06T12:50:00+00:00
 tags: [index, system]
 title: index
 ---
@@ -29,6 +29,8 @@ _(empty—populated on first ingest)_
 - [[wiki/projects/Terraform IaC Modules]]—FTFL-596/615: Terraform modules for Azure Backup for AKS, handling Vault/AKS MSI role assignments and trusted access role bindings; LLM prompt created to audit module and produce implementable plan with current state inventory, gaps, proposed changes, migration steps, and git-friendly patch diffs.
 - [[wiki/projects/Unified LLM Router Cockpit]]—unifying LLM tooling (Ollama, Hermes, Claude, Gemini, Pieces) into a deterministic chezmoi-managed workflow.
 - [[wiki/projects/AWS SSM Session Troubleshooting]]—AWS Systems Manager session login failure diagnosis: missing `s3:GetEncryptionConfiguration` permission on SSM role preventing session log writes to S3 bucket.
+- [[wiki/projects/Hermes Integration — Provider Adapter Setup]]—concrete implementation project to wire Claude and Gemini as first-class providers within Hermes via provider adapters, keeping Hermes as orchestrator and PKM hub.
+- [[wiki/projects/Grafana Alloy Monitoring — FTFL-638]]—Kubernetes monitoring stack: Grafana/Alloy Helm deployment, Loki log labeling, values.yaml schema design, and testing cluster fix plan for FTFL-638/511/512; acceptance criteria include cue vet validation, job label alignment (namespace/container), and ArgoCD-synced Alloy-logs DaemonSet.
 
 ### `wiki/orgs/`
 
@@ -40,4 +42,4 @@ _(empty—populated on first ingest)_
 
 ---
 
-_Updated: 2026-05-01 by daily synthesis (project check-in)_
+_Updated: 2026-05-06 by Project Check-In_

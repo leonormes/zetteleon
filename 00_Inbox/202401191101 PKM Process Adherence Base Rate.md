@@ -132,7 +132,7 @@ Agile ceremonies face progressive abandonment in predictable sequence:
 
 3. Daily standup format
 
-4. Sprint boundaries
+4. Sprint boundarie
 
 Maps to 202401191102 Process deviation types in PKM through similar shortcut patterns.
 

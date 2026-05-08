@@ -1,8 +1,14 @@
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-08T12:53:44+00:00
+title: Solving Problem 2! Process Friction
+---
+
 ## Solving Problem 2: Process Friction
 
 ### The Processing Protocol
 
-At a dedicated time (daily, or every few days — whatever sticks), you open the inbox and run a different protocol entirely:
+At a dedicated time (daily, or every few days—whatever sticks), you open the inbox and run a different protocol entirely:
 
 ```markdown
 ## Protocol: Processing the Inbox
@@ -17,6 +23,6 @@ For each entry, ask in order:
 
 ```
 
-Notice what this does: **it has a stopping rule**. "If still unclear next time → delete." You are allowed to throw thoughts away. In fact, you *must* throw thoughts away, or the inbox becomes a graveyard of guilt.
+Notice what this does: it has a stopping rule. "If still unclear next time → delete." You are allowed to throw thoughts away. In fact, you _must_ throw thoughts away, or the inbox becomes a graveyard of guilt.
 
 This is the antidote to the "everything feels important" ADHD trap. The second-pass-or-delete rule is ruthless and correct.
