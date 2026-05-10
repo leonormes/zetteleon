@@ -171,3 +171,21 @@ Append-only — never edit past entries.
 
 ## 2026-05-08 00:32 — Ingest
 - Pieces: 100 assets
+---
+
+## 2026-05-08 16:02 — Project Check-In
+
+- **Action:** Ingest (Pieces LTM, last 4h)
+- **Raw sources created:** [[raw/2026-05-08-pieces-mcp-proxy-robustness]]
+- **Wiki pages touched:** [[wiki/projects/MCP Proxy Robustness and High Availability]]
+- **Pieces IDs ingested:** 6 memories
+- **Flags:** none — 1 new project page created (MCP Proxy Robustness and High Availability), 1 raw note created
+
+
+## 2026-05-08 21:15 — Project Check-In
+
+- **Action:** Ingest (Pieces LTM, last 4h → extended to 24h)
+- **Raw sources created:** [[raw/2026-05-08-pieces-omop-ticket-context]]
+- **Wiki pages touched:** [[wiki/projects/12 Million Patient Synthetic NHS-OMOP Pipeline]]
+- **Pieces IDs ingested:** 2 memories (0 new project pages, 1 existing page updated)
+- **Flags:** none — ticket context request for FTFL-479 (OMOP data setup script)

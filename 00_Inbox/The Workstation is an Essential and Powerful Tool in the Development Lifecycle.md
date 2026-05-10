@@ -1,6 +1,3 @@
-# 1c-the_workstation_is_an_essential_and_powerful_tool_in_the_development_lifecycle
-
-# The Workstation is an Essential and Powerful Tool in the Development Lifecycle
 
 The Dev workstation can modify the source code and push changes to production, therefore effecting the business in potentially dramatic ways.
 

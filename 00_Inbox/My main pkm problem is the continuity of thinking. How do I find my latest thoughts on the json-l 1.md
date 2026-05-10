@@ -1,1 +1,0 @@
-My main pkm problem is the continuity of thinking. How do I find my latest thoughts on the json-ld metadata?

@@ -4,7 +4,6 @@ modified: 2026-05-08T12:53:36+00:00
 title: 3j-continuum_of_states
 ---
 
-## 3j-continuum_of_states
 
 ## Continuum of States
 

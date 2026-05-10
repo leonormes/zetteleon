@@ -1,8 +1,8 @@
 ---
 created: 2026-04-28T16:55:00+00:00
 entity_kind: project
-modified: 2026-04-28T16:27:11+00:00
-sources: [raw/2026-04-28-pieces-omop-stress-testing-plan.md]
+modified: 2026-05-08T21:15:00+00:00
+sources: [raw/2026-04-28-pieces-omop-stress-testing-plan.md, raw/2026-05-08-pieces-omop-ticket-context.md]
 tags: [dossier, wiki]
 title: 12 Million Patient Synthetic NHS-OMOP Pipeline
 wiki_type: dossier

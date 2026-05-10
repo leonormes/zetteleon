@@ -1,4 +1,3 @@
-# 2024-10-03
 
 In Linux, a file is an abstraction that represents any kind of data or resource that can be manipulated, accessed, or stored. In Linux, nearly everything is treated as a file, including traditional files (text files, binaries, etc.), directories, devices (like disks and printers), and even network sockets. This "everything is a file" concept provides a unified way to interact with various resources in the system.
 
