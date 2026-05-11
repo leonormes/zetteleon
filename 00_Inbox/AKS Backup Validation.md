@@ -1,3 +1,7 @@
+---
+created: 2026-05-11T11:37:26+00:00
+modified: 2026-05-11T14:46:25+00:00
+---
 *Shared Message from Pieces (https://pieces.app) by Leon Ormes (leonormes@gmail.com) on Monday May 11, 2026 - 12:37 PM*
 ---
 I now have very strong, detailed evidence. Here's the full picture across both clusters.
@@ -139,12 +143,12 @@ az dataprotection backup-instance show \
 
 ### What You're Validating Against Your Requirements
 
-| Requirement | NNUH Status | MKUH Status |
-|---|---|---|
-| Protection active | ✅ `ProtectionConfigured` | ⚠️ Confirm — RBAC applied 7 May |
-| Daily cadence only | ✅ `dailyaksbackups-v2` | ✅ `dailyaksbackups-v1` (P1D schedule) |
-| Scoped namespaces, not all | ✅ 8 namespaces specified | ⚠️ Confirm scope in instance config |
-| Scheduled jobs completing | ✅ Ad-hoc test passed 5 May | ⚠️ Need to check job history |
-| 14-day retention | ✅ Confirmed on base policy | ⚠️ Confirm on `-v1` policy |
+| Requirement                | NNUH Status                | MKUH Status                           |
+| -------------------------- | -------------------------- | ------------------------------------- |
+| Protection active          | ✅ `ProtectionConfigured`   | ⚠️ Confirm — RBAC applied 7 May       |
+| Daily cadence only         | ✅ `dailyaksbackups-v2`     | ✅ `dailyaksbackups-v1` (P1D schedule) |
+| Scoped namespaces, not all | ✅ 8 namespaces specified   | ⚠️ Confirm scope in instance config   |
+| Scheduled jobs completing  | ✅ Ad-hoc test passed 5 May | ⚠️ Need to check job history          |
+| 14-day retention           | ✅ Confirmed on base policy | ⚠️ Confirm on `-v1` policy            |
 
 The NNUH cluster is clean and verified. **MKUH is the one to prioritise checking** — the last concrete status was the RBAC handoff from Joao Andre on 7 May, and the duplicate-instance conflict needs to be confirmed as resolved.

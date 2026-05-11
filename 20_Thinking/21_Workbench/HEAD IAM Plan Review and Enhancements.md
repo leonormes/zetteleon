@@ -1,7 +1,7 @@
 ---
-captured: "2026-05-07T21:33:45+01:00 2026-05-07T21:33:45+01:00"
-created: 2026-05-07T20:33:50+00:00
-modified: 2026-05-07T20:34:21+00:00
+captured: "2026-05-11T13:11:13+01:00 2026-05-11T13:11:13+01:00"
+created: 2026-05-11T12:11:19+00:00
+modified: 2026-05-11T12:13:31+00:00
 source: "https://gemini.google.com/app/fe2e2f323009e813"
 status: "processing"
 tags: ["input"]
@@ -144,3 +144,147 @@ AWS Infrastructure
 | Office 365 E3 | £20.60 | 3 | \-£61.80 |
 | Microsoft Entra ID P2 | £6.90 | 4 | +£27.60 |
 | Total Net Change |  |  | \-£71.00 |
+
+---
+
+You
+
+review the FiL090226JH - API Testing v0.3 Draft.pdf source in the notebook. Update the work recommendations based on Microsoft Entra Recommended Actions Summary.pdf it and the other sources.
+
+---
+
+Gemini
+
+Based on the Microsoft Entra Recommended Actions Summary and the broader NCSC Cyber Assessment Framework (CAF) context, the following updates have been made to the API Testing v0.3 Draft work recommendations. These updates integrate identity hardening, technical remediation, and cost-optimisation strategies.
+
+### 1\. Identity & Access Management (IAM) for API Security
+
+- Enforce MFA for All Identities \[EntraFF-05\]: Remove all MFA exclusions, including those for service and demo accounts. Convert existing Demo accounts to Shared Mailboxes where possible to enable email-based MFA and reduce licensing costs.
+- Implement Privileged Identity Management (PIM): Purchase Microsoft Entra ID P2 licences for users requiring administrative access to Azure/API resources (specifically PR, OR, LO, and RM). This ensures that elevated permissions are time-bound, audited, and require justification.
+- Restrict Application Lifecycle \[EntraFF-08\]: Disable the ability for non-admin users to register applications to prevent unauthorised API integrations. Implement an admin-approval workflow for all user consent requests.
+- Role Rationalisation \[EntraFF-02\]: Reduce the number of permanent Global Administrators. Philip should transition to Global Reader and Billing Reader (no PIM), while Robin should maintain GA status via PIM.
+
+### 2\. Infrastructure & Technical Hardening
+
+- Secure AKS Architecture \[EntraFF-18\]: Disable local accounts on the AKS cluster (`aks-ff-uks-gp-1`) to force integration with Entra ID identities. This aligns with NCSC CAF principles for robust identity protection.
+- Infrastructure Access \[EntraFF-22\]: Re-evaluate the use of password authentication for Jumpbox VMs. Testing should be conducted to determine if SSH key-based access is viable across all environments.
+- AWS Root Governance: Enable root access management and update account contact details to ensure secure recovery and billing oversight.
+
+### 3\. Governance, Audit, and Logging
+
+- Finalise Diagnostic Exports \[EntraFF-12\]: The technical team must confirm and implement diagnostic settings and activity log exports. This is critical for detecting potential API abuse or identity-based attacks.
+- Security Group Governance \[EntraFF-07\]: Restrict the creation of security groups to administrators only to prevent the "shadow" expansion of permissions.
+
+### 4\. Operational Efficiency & Licence Optimisation
+
+The following licence removals and conversions should be executed immediately to achieve a total net saving of £71.00 per month:
+
+| Category | Recommended Actions |
+| --- | --- |
+| M365 Business Basic | Remove: Gokce Civelekoglu, Ihor Zemtsov, and all Pentester accounts. Convert Support to shared mailbox. |
+| Office 365 E3 | Remove: Darren Lee, Jon Bradshaw, and Yasir. |
+| Entra ID P1 | Unsubscribe the unassigned P1 licence (Gareth). |
+| Entra ID P2 | Add 4x P2 licences to support PIM for core administrative staff. |
+
+### NCSC CAF Alignment Note
+
+These recommendations ensure compliance with Objective B (Protecting Against Cyber Attack) by implementing least privilege and strong authentication, and Objective C (Detecting Cyber Security Events) through the finalisation of logging and diagnostic exports.
+
+---
+
+You
+
+anser this email question from Robin Hi guys,
+
+Do either of you have anything to add to these recommendations for Cloud/ Entra configs?
+
+We will need to discuss the ones in red but I'd like to send to Helena and Philip to get the work started.
+
+---
+
+Gemini
+
+Hi Robin,
+
+This is a great starting point for Helena and Philip. The plan covers the immediate security "holes" effectively.
+
+To ensure we are building a truly resilient posture, I've added a few strategic items to the list—particularly around those "red" technical items and how we can best use the new Entra ID P2 features we're proposing.
+
+### 1\. Addressing the "Red" Technical Actions
+
+These are the heavy lifters that Helena and Philip will likely need clear direction on:
+
+- Logging & Monitoring \[EntraFF-12\]: This is a priority. Without exporting logs to a SIEM or central storage, we are essentially "flying blind" if an identity-based attack occurs.
+- AKS Local Accounts \[EntraFF-18\]: Disabling these is the right move for security, but we should ensure the tech team has tested the Entra ID integration thoroughly so we don't accidentally lock out legitimate dev processes.
+- Jumpbox Authentication \[EntraFF-22\]: Switching from passwords to SSH keys is standard best practice; we just need to confirm it won't break any legacy deployment scripts.
+
+### 2\. Strategic Additions (The "Value-Adds")
+
+Since we are proposing a move to Entra ID P2 (which is actually saving us money overall), we should take advantage of the advanced features it unlocks:
+
+- Conditional Access (CA) Evolution: We should go beyond just "turning on MFA". I recommend adding policies that check for device compliance (e.g., "is the laptop healthy?") and sign-in risk (e.g., "is this login from an impossible travel location?") before granting access.
+- Quarterly Access Reviews: We can automate these using P2. This forces managers to formally re-validate that their team still needs their current permissions, preventing "permission creep" over time.
+- Formalised JML Process: While the current licence cleanup is excellent, we should formalise the Joiner-Mover-Leaver process so that when someone leaves, their access is revoked systematically rather than waiting for a manual audit.
+
+### 3\. Operational & Cost Quick Wins
+
+The licence optimisation you've drafted is spot on. By removing the redundant M365 Business Basic and E3 seats and swapping Gareth's P1 for the new P2 seats, we're looking at a net saving of approximately £71.00 per month while significantly increasing our security.
+
+I'm happy to jump on a call to go through the "red" items in more detail before we send this off. Does tomorrow morning work for you?
+
+Best,
+
+\[Your Name\]
+
+---
+
+Would you like me to draft a more technical version of these additions specifically for Philip and Helena to use as an implementation checklist?
+
+Here is a review of the Microsoft Entra Recommended Actions Summary, along with an analysis of its gaps and how it relates to the API Testing Report.
+
+### Review of the Microsoft Entra Recommended Actions Summary
+
+The _Microsoft Entra Recommended Actions Summary_ is a highly pragmatic, commercially aware document that focuses on fixing identity and access management (IAM) flaws while balancing software licensing costs.
+
+Strengths of the Summary:
+
+- Targets the highest-risk identity flaws: It explicitly addresses the critical vulnerabilities surrounding multi-factor authentication (MFA) bypasses (EntraFF-05), the sprawl of Global Administrator accounts (EntraFF-02), and overly permissive groups (EntraFF-04).
+- Commercial alignment: The document smartly identifies that implementing Privileged Identity Management (PIM) to secure administrator roles requires Microsoft Entra ID P2 licenses. To fund this, it audits the current Microsoft 365 licensing, recommending the removal of unused licenses and the conversion of demo accounts to shared mailboxes. This results in a net saving of £71.00 per month, even after purchasing the required P2 licenses.
+- Quick directory wins: It rapidly shuts down basic directory risks by recommending that non-admin users be restricted from creating security groups, registering applications, and granting consent to third-party applications (EntraFF-06, 07, 08).
+
+### Is This OK as a Start?
+
+Yes, it is a strong administrative start, but it is strictly an _Identity and Licensing_ remediation plan. It is highly effective at closing off the most direct pathways an attacker would use to take over the tenant (credential compromise of an administrator).
+
+However, it acts only as a partial starting point because it explicitly delegates critical infrastructure and security monitoring tasks back to the technical team without defining clear actions or deadlines. For example, the total lack of diagnostic logging (EntraFF-12), disabling AKS local accounts (EntraFF-18), and securing the Jumpbox VM (EntraFF-22) are simply marked as "TO BE CONFIRMED" or "Requires testing".
+
+### What Else Needs Doing? (The Gaps)
+
+To fully secure the environment based on the wider Azure & Entra Configuration Review, several critical actions still need to be addressed:
+
+1. Critical Missing Entra/Azure Remediation:
+
+- Contractor Access (EntraFF-01): The summary does not explicitly mention removing the ultimate Global Administrator role from the external contractor account ("Tech Ahoy"), which operates without MFA. This is a critical risk that must be actioned immediately.
+- Terraform Service Principal (EntraFF-03): The summary completely misses the Terraform Service Principal that holds Owner-equivalent permissions (Contributor + User Access Administrator), which allows it to grant ultimate privileges to anyone.
+- Stale App Registrations (EntraFF-26): The summary does not address the massive attack surface created by 39 stale application registrations with active credentials, which could be used by an attacker to maintain persistent backdoor access.
+- Network & Infrastructure Security: The document ignores the unrestricted outbound network traffic across all Network Security Groups (EntraFF-15), the lack of VM backups (EntraFF-24), and missing disk encryption (EntraFF-23).
+
+2. Resolving the "Tech Team" Tasks: The items delegated to the tech team need immediate resolution:
+
+- Diagnostic settings must be configured to export activity logs to a Log Analytics workspace so the business can detect a breach.
+- The business must define a timeline for testing and enforcing Entra ID authentication on the Kubernetes (AKS) cluster rather than relying on local accounts.
+
+### What Does it Address from the FiL090226JH - API Testing V0.3 Draft?
+
+It addresses absolutely nothing from the API Testing report.
+
+The _Microsoft Entra Recommended Actions Summary_ is entirely focused on cloud infrastructure, identity, and directory configuration (`EntraFF-*` vulnerabilities).
+
+The _FiL090226JH - API Testing_ report outlines vulnerabilities at the application and code layer (`API-*` and `APP-*` vulnerabilities), none of which are mentioned or mitigated by the Entra summary. If you only implement the Entra Recommended Actions, your web application and API will still suffer from:
+
+- High-Risk Cryptographic Flaws (API-1 / APP-02): A weak, guessable HMAC secret key (`super-secret-key`) is used to sign JSON Web Tokens for data downloads, allowing attackers to forge tokens.
+- Server-Side Request Forgery (APP-01): The application allows arbitrary internal network requests via a manipulated `ff_tenant` cookie.
+- Data Exposure (API-3 / API-4): API documentation is exposed globally without authentication, and sensitive data tokens are transmitted insecurely within URLs.
+- Permissive CORS (API-2): The API allows cross-origin resource sharing from arbitrary domains.
+
+Conclusion: You must create a second, separate remediation plan tailored specifically for the development/engineering team to patch the code-level vulnerabilities identified in the API testing report.
