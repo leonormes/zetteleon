@@ -1,6 +1,6 @@
 ---
 created: 2026-05-04T08:01:26+00:00
-modified: 2026-05-06T13:03:49+00:00
+modified: 2026-05-11T17:05:54+00:00
 title: Ontology of Thought
 ---
 
@@ -27,8 +27,6 @@ Additionally, from a practical standpoint, thoughts have real-world consequences
 [[4. Phenomenology]]
 
 [[5. Platonism and Abstract Entities]]
-
-[[6. Process Philosophy]]
 
 ---
 
