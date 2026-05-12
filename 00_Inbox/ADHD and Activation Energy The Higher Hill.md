@@ -1,14 +1,18 @@
-# ADHD and Activation Energy The Higher Hill
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-12T13:12:00+00:00
+title: ADHD and Activation Energy The Higher Hill
+---
 
-For individuals with ADHD, the “hill” to overcome, that activation energy, is often much higher. It’s like the boulder is heavier, or the hump at the top of the hill is significantly larger. This means it takes a lot more mental effort to initiate tasks, even seemingly simple ones.
+For individuals with ADHD, the "hill" to overcome, that activation energy, is often much higher. It's like the boulder is heavier, or the hump at the top of the hill is significantly larger. This means it takes a lot more mental effort to initiate tasks, even seemingly simple ones.
 
 ## Dopamine Differences
 
-ADHD is linked to differences in how the brain processes dopamine, a neurotransmitter crucial for motivation, reward, and focus. Lower or dysregulated dopamine levels can make it harder to find the motivation to start tasks, especially if they’re not immediately rewarding or stimulating. The brain is constantly seeking stimulation. Starting a task that isn’t inherently interesting feels even less appealing, further increasing the perceived activation energy.
+ADHD is linked to differences in how the brain processes dopamine, a neurotransmitter crucial for motivation, reward, and focus. Lower or dysregulated dopamine levels can make it harder to find the motivation to start tasks, especially if they're not immediately rewarding or stimulating. The brain is constantly seeking stimulation. Starting a task that isn't inherently interesting feels even less appealing, further increasing the perceived activation energy.
 
 ## Executive Function Challenges
 
-ADHD often comes with challenges in executive functions, which we’ll discuss in more detail below. These functions are crucial for planning, organizing, and initiating tasks. When these functions are impaired, it’s even harder to overcome that initial inertia.
+ADHD often comes with challenges in executive functions, which we'll discuss in more detail below. These functions are crucial for planning, organizing, and initiating tasks. When these functions are impaired, it's even harder to overcome that initial inertia.
 
 ## Emotional Regulation
 
@@ -16,15 +20,15 @@ Difficulties with emotional regulation, common in ADHD, can also play a role. If
 
 \[\[ADHD activation energy\]\]
 
-For individuals with ADHD, the “hill” to overcome, that activation energy, is often much higher. It’s like the boulder is heavier, or the hump at the top of the hill is significantly larger. This means it takes a lot more mental effort to initiate tasks, even seemingly simple ones.
+For individuals with ADHD, the "hill" to overcome, that activation energy, is often much higher. It's like the boulder is heavier, or the hump at the top of the hill is significantly larger. This means it takes a lot more mental effort to initiate tasks, even seemingly simple ones.
 
 ### Dopamine Differences
 
-ADHD is linked to differences in how the brain processes dopamine, a neurotransmitter crucial for motivation, reward, and focus. Lower or dysregulated dopamine levels can make it harder to find the motivation to start tasks, especially if they’re not immediately rewarding or stimulating. The brain is constantly seeking stimulation. Starting a task that isn’t inherently interesting feels even less appealing, further increasing the perceived activation energy.
+ADHD is linked to differences in how the brain processes dopamine, a neurotransmitter crucial for motivation, reward, and focus. Lower or dysregulated dopamine levels can make it harder to find the motivation to start tasks, especially if they're not immediately rewarding or stimulating. The brain is constantly seeking stimulation. Starting a task that isn't inherently interesting feels even less appealing, further increasing the perceived activation energy.
 
 ### Executive Function Challenges
 
-ADHD often comes with challenges in executive functions, which we’ll discuss in more detail below. These functions are crucial for planning, organizing, and initiating tasks. When these functions are impaired, it’s even harder to overcome that initial inertia.
+ADHD often comes with challenges in executive functions, which we'll discuss in more detail below. These functions are crucial for planning, organizing, and initiating tasks. When these functions are impaired, it's even harder to overcome that initial inertia.
 
 ### Emotional Regulation
 

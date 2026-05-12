@@ -1,6 +1,6 @@
 ---
 created: 2026-05-02T19:38:13+00:00
-modified: 2026-05-02T20:40:35+00:00
+modified: 2026-05-12T13:12:02+00:00
 title: we use Kubernetes in azure and in aws
 ---
 

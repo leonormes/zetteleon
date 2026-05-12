@@ -1,6 +1,6 @@
 ---
 created: 2026-05-02T20:24:22+00:00
-modified: 2026-05-02T20:40:35+00:00
+modified: 2026-05-12T13:12:01+00:00
 title: Moral Absolutism in Response to Harm
 ---
 

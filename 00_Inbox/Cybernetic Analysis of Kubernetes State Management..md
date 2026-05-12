@@ -1,6 +1,6 @@
 ---
 created: 2026-05-02T19:36:27+00:00
-modified: 2026-05-02T20:40:35+00:00
+modified: 2026-05-12T13:12:00+00:00
 title: Cybernetic Analysis of Kubernetes State Management.
 ---
 

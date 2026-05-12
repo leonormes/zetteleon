@@ -1,4 +1,8 @@
-# My main PKM problem is the continuity of thinking. 
+---
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-05-12T13:12:02+00:00
+title: "My main PKM problem is the continuity of thinking. "
+---
 
 ADHD causes a problem for me in not being able to return to something I was creating before. I always want to start again. As I make something and my thoughts are wrapped up in it it feels right. I am enjoying it and the mental model i have feels good and strong. It feels unique to me and I can feel the bigger picture, the hierachy of process or the system as a whole. When I come back to it my thoughts are no longer wrapped up in it and it doesn't have that same feeling. And is often too complex to get back to where i was as I have forgotten it. So I start afesh with a revolutionary idea and process.
 
@@ -13,19 +17,14 @@ Think of your current creative session as building half a bridge. Before you end
 End-of-session documentation: In the last 10-15 minutes of working, write down:
 
 - The big picture vision (even if it seems obvious now)
-
 - Where you were in your thought process
-
 - The next three small steps you were planning to take
-
 - Any exciting ideas you haven't implemented yet
 
 Create a "restart ritual": When you return to the project, don't try to jump back in where you left off. Instead:
 
 - Read through your documentation
-
 - Start with one very small, concrete task
-
 - Give yourself 15 minutes just to tinker and reorient
 
 Only then decide if you want to continue or if something needs to change
@@ -51,3 +50,7 @@ But that is an impossibility with no legs. Even if someone did like what I think
 What have I learned about networking?
 
 Network namespacing.
+
+## My Real Problem is how Do I Create the Notes and Be Able to Work with the Blocks?
+
+What I mean is currently with obsidian I have a note up and I feel resistance to creating a new note to break out from what I am currently thinking. I want to capture my thought and carry on with the flow of what I was doing. Basically I am confused and it makes it harder to work. If I had a protocol that was set and repeatable I would think less about how and be able to capture thoughts but then process them. For instance, this paragraph has draft thinking in it but how do I extend it and solve it? What does it really say? I imagine being able to take it and hold in centrally while branching off different thoughts and clarifications. Challenge it and make it less vague and more solid and complete. But what even does that mean? I don't have an end game. I say I want to put this in the middle and have branches off it with questions and clarifications but that is endless. Each node off I could do the same thing. What is the end goal? How do I know I have clarified my thinking? Answering this will help me create a workflow. As I don't have one there is extra resistance to capturing and processing on top of my normal ADHD task initiation woes.

@@ -16,4 +16,4 @@ title: Key questions when linking notes in the Zettelkasten method
 
 ---
 
-[[2 Zettelkasten note.md]]
+[[2 Zettelkasten note]]

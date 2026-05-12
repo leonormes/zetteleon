@@ -1,6 +1,6 @@
 ---
 created: 2026-05-02T20:24:39+00:00
-modified: 2026-05-02T20:40:35+00:00
+modified: 2026-05-12T13:12:02+00:00
 title: The Nature of Pre-Linguistic Thought
 ---
 

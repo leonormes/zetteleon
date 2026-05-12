@@ -1,6 +1,6 @@
 ---
 created: 2026-05-11T12:15:28+00:00
-modified: 2026-05-11T12:19:29+00:00
+modified: 2026-05-12T13:12:00+00:00
 title: DNS Audit Results — fitfile.net Analysis
 ---
 
@@ -108,14 +108,14 @@ The 79 unmanaged records break down into categories that need a team call:
 
 ### Summary Scorecard for FTFL-630
 
-| Item | Status |
-|---|---|
-| 5 `old-*` records deleted | ◻ Pending |
-| 13 dead unmanaged records deleted | ◻ Pending (SendGrid + MKUH verification first) |
-| Zone ID corrected in `locals.tf` | ◻ Pending |
-| SPF record added to Terraform | ◻ Pending |
-| DMARC record added to Terraform | ◻ Pending |
-| Stale ACME TXT records removed | ◻ Pending |
-| 79 unmanaged records reviewed with team | ◻ Scheduled |
+| Item                                    | Status                                         |
+| --------------------------------------- | ---------------------------------------------- |
+| 5 `old-*` records deleted               | ◻ Pending                                      |
+| 13 dead unmanaged records deleted       | ◻ Pending (SendGrid + MKUH verification first) |
+| Zone ID corrected in `locals.tf`        | ◻ Pending                                      |
+| SPF record added to Terraform           | ◻ Pending                                      |
+| DMARC record added to Terraform         | ◻ Pending                                      |
+| Stale ACME TXT records removed          | ◻ Pending                                      |
+| 79 unmanaged records reviewed with team | ◻ Scheduled                                    |
 
 The zone ID fix → 18 deletions → SPF/DMARC is a clean run that could close the core ticket in a single focused session. The 79 unmanaged records review is the longer tail but not a blocker for closing FTFL-630.

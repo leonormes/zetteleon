@@ -1,8 +1,8 @@
 ---
 created: 2026-05-04T08:01:26+00:00
-modified: 2026-05-05T13:19:13+00:00
+modified: 2026-05-12T13:12:00+00:00
 tags: [Claim]
-title: Claim! A PKM is a belief revision system, not an information warehouse
+title: Claim - A PKM is a belief revision system, not an information warehouse
 ---
 
 ## Claim: A PKM is a Belief Revision System, not an Information Warehouse
@@ -21,7 +21,7 @@ The second is harder. The second is also what makes a PKM worth maintaining for 
 
 ### What the Note Gets Wrong (or Oversimplifies)
 
-#### 2\. The Critique of "topic buckets" is Overcorrected
+#### 2. The Critique of "topic buckets" is Overcorrected
 
 The note says "topic notes should mostly become maps or indexes, not the core content." Mostly true—but it is stated with more confidence than warranted.
 
@@ -33,7 +33,7 @@ The correct taxonomy would add:
 
 Reference cards are fine provided they are (a) clearly labelled as reference, (b) kept few, and (c) not mistaken for thinking. The note's blanket dismissal is too absolute.
 
-#### 3\. "A PKM is a Belief Revision system" is a Slogan, not a Theorem
+#### 3. "A PKM is a Belief Revision system" is a Slogan, not a Theorem
 
 It is a _good_ slogan. But the note states it with more confidence than it has earned. A PKM can _also_ be:
 
@@ -45,7 +45,7 @@ It is a _good_ slogan. But the note states it with more confidence than it has e
 
 These are not beliefs to be revised. The "belief revision system" framing is a useful _emphasis_, not an _exhaustive description_. Treat it as the centre of gravity, not the whole planet.
 
-#### 4\. The Note Does Exactly what it Warns against
+#### 4. The Note Does Exactly what it Warns against
 
 Look at this passage:
 
@@ -57,7 +57,7 @@ This is not a fatal flaw—they are examples, not claims the note is making. But
 
 [[Practice! The Epistemic Status Ladder.md]]
 
-#### 6\. No Mention of the Aging Problem
+#### 6. No Mention of the Aging Problem
 
 The note talks about "how beliefs change over time" but gives no mechanism for tracking that change. This is the single biggest blind spot.
 
