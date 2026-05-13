@@ -34,3 +34,7 @@ Even though the density drops (e.g., to < 0.1% for 309-digit numbers), the absol
 - Computers can find 1024-bit primes quickly using "Generate and Test" methods.
 - The vast pool (over $10^{305}$ candidates) ensures that two people will almost never randomly pick the same prime pair.
 - Links: [[Randomness in Computing Relies on Environmental Entropy]]
+
+## Related
+- [[SoT - Scalable Private Networking & IPAM]] — **mechanism isomorphism**: sparse allocation strategies. Primes thin out at 1/ln(N) but remain findable via generate-and-test; IPAM deliberately leaves "enormous gaps" for summarizability and growth buffer. Both manage uncertainty in large search spaces using hierarchical uniqueness guarantees (Euler Product ↔ CIDR lattice).
+- [[Connection - Prime Distribution ↔ IPAM Sparse Allocation]] — detailed cross-domain analysis

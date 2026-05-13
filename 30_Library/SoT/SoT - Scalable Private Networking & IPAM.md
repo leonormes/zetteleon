@@ -76,3 +76,6 @@ Both domains are about making composition safe when the final system shape is un
 - rel:: broader [[SoT - Cloud Networking Principles]]
 - rel:: supports [[Strategy - Hierarchical Subnetting]]
 - rel:: practical-reference [[Cheatsheet - Azure AKS Networking]]
+- rel:: **mechanism-isomorphism** [[Primes Become Rarer But Remain Searchable]] — prime distribution follows 1/ln(N) density law; IPAM sparse allocation could model optimal gap sizing on Prime Number Theorem. Both use multiplicative structure (prime factorisation / CIDR hierarchy) to guarantee uniqueness across infinite spaces.
+- rel:: **error-term-analogy** [[HEAD What is the Riemann Hypothesis]] — Riemann zeros describe prime distribution fluctuations; IPAM surge buffers describe IP consumption variance. Both are uncertainty management in sparse systems.
+- rel:: [[Connection - Prime Distribution ↔ IPAM Sparse Allocation]] — detailed cross-domain analysis
