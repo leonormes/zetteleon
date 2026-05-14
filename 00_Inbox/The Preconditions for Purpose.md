@@ -1,6 +1,6 @@
 ---
 created: 2026-05-02T19:33:05+00:00
-modified: 2026-05-12T13:12:02+00:00
+modified: 2026-05-14T08:06:57+00:00
 title: The Preconditions for Purpose
 ---
 
@@ -12,11 +12,11 @@ Let's break down the "framework" you've identified. You are describing the neces
 
 Here is an elaboration on the essential components you listed:
 
-### 1\. Linear Time Perception
+### 1. Linear Time Perception
 
 You are right that purpose is fundamentally tied to time. Specifically, it requires a psychological model of time as a linear progression from a past, through a present, towards a future. Without the ability to conceive of a "not yet," the concept of an "aim" is meaningless. The system must be able to differentiate between what is and what could be.
 
-### 2\. State Framing and Comparison
+### 2. State Framing and Comparison
 
 This is a cognitive prerequisite. An agent must be able to:
 
@@ -24,24 +24,24 @@ This is a cognitive prerequisite. An agent must be able to:
 - Imagine a Future: Generate a representation of a different, potential future state (S₂).
 - Evaluate and Compare: Assess S₂ as being "better" or more "desirable" than S₁ according to some internal metric. This is the act of valuation that underpins desire.
 
-### 3\. Desire and Motivation
+### 3. Desire and Motivation
 
 Desire is the engine of purpose. It is the affective or motivational force that charges the potential future state (S₂) with value, transforming it from a mere possibility into a _goal_. Without this drive, an agent might be able to compute that S₂ is different from S₁, but it would have no reason to act to bring it about.
 
-### 4\. Agency
+### 4. Agency
 
 This is the capacity to be the cause of one's own actions. Agency is the bridge between the internal world of desire and modelling, and the external world of action. An agent must perceive itself as being able to causally influence the world to move from S₁ to S₂. A rock being pushed by the wind has no agency, and therefore no purpose of its own; a person choosing to build a shelter does.
 
-### 5\. The Hierarchy of Purpose and the Problem of Infinite Regress
+### 5. The Hierarchy of Purpose and the Problem of Infinite Regress
 
 Your point that an intention requires "another, even higher purpose to direct it" is a profound philosophical problem. It points to the problem of justification or infinite regress.
 
 Consider a simple "why" chain:
 
-- "Why are you chopping wood?" \-\> "To build a fire." (Purpose 1\)
-- "Why build a fire?" \-\> "To keep warm." (Purpose 2\)
-- "Why keep warm?" \-\> "To survive." (Purpose 3\)
-- "Why survive?" \-\> …?
+- "Why are you chopping wood?" -> "To build a fire." (Purpose 1)
+- "Why build a fire?" -> "To keep warm." (Purpose 2)
+- "Why keep warm?" -> "To survive." (Purpose 3)
+- "Why survive?" -> …?
 
 Here, the chain hits a wall. This is the crux of the matter:
 
