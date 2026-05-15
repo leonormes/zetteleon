@@ -1,7 +1,7 @@
 ---
 captured: "2026-05-11T17:10:52+01:00 2026-05-11T17:10:52+01:00"
 created: 2026-05-11T16:10:53+00:00
-modified: 2026-05-11T16:11:05+00:00
+modified: 2026-05-15T08:44:51+00:00
 source: "https://claude.ai/chat/0edf0f73-d1f3-408a-9a19-0bb335423bde"
 status: "processing"
 tags: ["input"]

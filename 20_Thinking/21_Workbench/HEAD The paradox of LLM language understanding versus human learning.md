@@ -1,7 +1,7 @@
 ---
 captured: 2026-04-20T14:14:16+01:00 2026-04-20T14:14:16+01:00
 created: 2026-04-20T13:14:18+00:00
-modified: 2026-04-27T12:37:24+00:00
+modified: 2026-05-15T08:48:16+00:00
 source: https://gemini.google.com/app/95ac6e4184ea8759
 status: processing
 tags: [input]
@@ -47,7 +47,6 @@ Two rabbit holes, pick whichever feels more novel:
 - The "poverty of the stimulus" debate—Chomsky's nativism vs. modern empiricists. Worth knowing because the fact that LLMs _can_ learn grammar from text alone is quietly one of the most interesting data points that's been thrown into this century-old argument, and nobody has fully digested what it means yet.
 
 ---
-
 
 Claude
 

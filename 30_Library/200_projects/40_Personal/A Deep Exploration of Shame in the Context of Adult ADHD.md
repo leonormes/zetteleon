@@ -1,6 +1,6 @@
 ---
 created: 2026-05-04T08:01:26+00:00
-modified: 2026-05-12T13:12:00+00:00
+modified: 2026-05-15T10:05:34+00:00
 title: A Deep Exploration of Shame in the Context of Adult ADHD
 ---
 
@@ -58,23 +58,15 @@ The following table summarizes key distinctions:
 
 Table 1: Neurological and Psychological Distinctions Between Shame, Guilt, and Embarrassment
 
-| Feature | Shame | Guilt | Embarrassment |
-
-|---|---|---|---|
-
-| Core Focus | Global self ("I am bad/defective") 22 | Specific behavior ("I did something bad") 22 | Social gaffe, exposed flaw, persona 1 |
-
-| Intensity | Often very painful, intense 1 | Less painful than shame 1 | Generally less intense than shame or guilt 23 |
-
-| Duration | Can be persistent 1 | More transient, resolvable through action 23 | Typically short-lived 23 |
-
+| Feature                          | Shame                                                                                    | Guilt                                                                | Embarrassment                                                          |
+| -------------------------------- | ---------------------------------------------------------------------------------------- | -------------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| Core Focus                       | Global self ("I am bad/defective") 22                                                    | Specific behavior ("I did something bad") 22                         | Social gaffe, exposed flaw, persona 1                                  |
+| Intensity                        | Often very painful, intense 1                                                            | Less painful than shame 1                                            | Generally less intense than shame or guilt 23                          |
+| Duration                         | Can be persistent 1                                                                      | More transient, resolvable through action 23                         | Typically short-lived 23                                               |
 | Primary Brain Regions (Specific) | dlPFC, PCC, sensory-motor cortex, medial/inferior frontal gyrus, parahippocampal gyrus 1 | Left TPJ, ventral ACC, precuneus, amygdala, insula, fusiform gyrus 1 | vlPFC, amygdala, occipital areas, right temporal cortex, hippocampus 1 |
-
-| Associated Networks | Social pain (dACC, thalamus), behavioral inhibition (premotor cortex) 1 | Social cognitive processes 1 | Social self-presentation, memory 2 |
-
-| Action Tendency | Hide, withdraw, inhibit behavior 1 | Repair, apologize, make amends 1 | Often involves attempts to appease or deflect attention 3 |
-
-| Self-Evaluation | Global negative self-evaluation 1 | Negative evaluation of a specific action 1 | Focus on how one appears to others, persona 1 |
+| Associated Networks              | Social pain (dACC, thalamus), behavioral inhibition (premotor cortex) 1                  | Social cognitive processes 1                                         | Social self-presentation, memory 2                                     |
+| Action Tendency                  | Hide, withdraw, inhibit behavior 1                                                       | Repair, apologize, make amends 1                                     | Often involves attempts to appease or deflect attention 3              |
+| Self-Evaluation                  | Global negative self-evaluation 1                                                        | Negative evaluation of a specific action 1                           | Focus on how one appears to others, persona 1                          |
 
 _Sources: 1_
 

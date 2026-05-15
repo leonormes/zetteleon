@@ -1,12 +1,12 @@
 ---
 created: 2026-05-15T08:23:22+00:00
-modified: 2026-05-15T08:23:28+00:00
+modified: 2026-05-15T08:48:48+00:00
 title: Optimising a Live GitOps Pipeline
 ---
 
 You
 
-I also have a complex task of optimising our existing deployment pipeline. We have a gitops process but it is not optimal. We need to improve it while it is in use. First should be an investigation into the current setup then planning for improvements. Give me the same natural planning model help Optimising a live delivery pipeline while it is actively serving an engineering team is akin to changing the tyres on a moving car. The Natural Planning Model is an excellent framework for tackling this, ensuring you define the boundaries before diving into the technical weeds of the investigation. Here is a trigger list tailored for investigating and upgrading a live GitOps process: ### Phase 1: Purpose and Principles \* \*\*Purpose:\*\* Why are we optimising the pipeline right now? Is the primary driver to reduce lead time for changes, improve deployment frequency, or eliminate manual bottlenecks? \* \*\*Executive Issues:\*\* How does a faster or more reliable pipeline support the broader business objectives or product delivery roadmaps? \* \*\*Principles:\*\* What are the non-negotiable rules for this project? (e.g., no disruption to the team's ability to ship to production, ensuring small incremental changes rather than a "big bang" pipeline replacement, or adhering strictly to Lean software engineering principles). ### Phase 2: Vision/Outcome \* \*\*Ideal Scenario:\*\* What does the optimal state look like? Imagine the deployment process in six months: developers are receiving immediate feedback, the ArgoCD reconciliation loop is seamless and entirely automated, and configuration drift is a thing of the past. \* \*\*Measurement:\*\* How will you prove the pipeline is better? What metrics will define success? (e.g., tracking the Four Key Metrics: deployment frequency, lead time, mean time to restore, and change fail percentage). ### Phase 3: Brainstorming \* \*\*Current State Investigation:\*\* What is actually happening versus what is documented? Where are the queues and waiting times? (e.g., waiting for tests to run, waiting for environments to provision, or waiting on pull request approvals). \* \*\*Technical Architecture:\*\* How is the current GitOps operator configured? Are there long-lived branches causing integration pain, or is the team successfully practicing trunk-based development? How are secrets managed and propagated to k8s? \* \*\*Risks & Mitigation:\*\* What happens if an in-flight pipeline change breaks deployment capabilities? How quickly can you roll back the pipeline configuration itself? \* \*\*Information Gathering:\*\* Who needs to be consulted? (e.g., gathering candid feedback from the developers who use the pipeline daily to find out what frustrates them the most). ### Phase 4: Organising \* \*\*Phasing the Work:\*\* How do you break this down into safe, manageable increments? \* \*Phase A:\* Value stream mapping and metric baseline gathering. \* \*Phase B:\* Optimising the Continuous Integration (CI) feedback loop (e.g., parallelising test suites). \* \*Phase C:\* Refining the Continuous Deployment (CD) sync policies and manifest management. \* \*\*Communication:\*\* How will changes to the pipeline be communicated to the team so they aren't surprised by shifting deployment behaviours? \* \*\*Tooling:\*\* Do you have the necessary observability tools in place to monitor the health of the deployment pipeline itself? ### Phase 5: Next Actions \* \*\*The Next Step:\*\* What is the very next physical, visible action required to start the investigation? \* \*\*Process Actions:\*\* Instead of "investigate pipeline," drill down to the atomic action. For example: \*"Schedule a 60-minute value stream mapping whiteboard session with the core team to trace a single commit from local workstation to live production."\* or \*"Run a query to extract the average build times for the last 30 days."\*
+I also have a complex task of optimising our existing deployment pipeline. We have a gitops process but it is not optimal. We need to improve it while it is in use. First should be an investigation into the current setup then planning for improvements. Give me the same natural planning model help Optimising a live delivery pipeline while it is actively serving an engineering team is akin to changing the tyres on a moving car. The Natural Planning Model is an excellent framework for tackling this, ensuring you define the boundaries before diving into the technical weeds of the investigation. Here is a trigger list tailored for investigating and upgrading a live GitOps process: ### Phase 1: Purpose and Principles * **Purpose:** Why are we optimising the pipeline right now? Is the primary driver to reduce lead time for changes, improve deployment frequency, or eliminate manual bottlenecks? * **Executive Issues:** How does a faster or more reliable pipeline support the broader business objectives or product delivery roadmaps? * **Principles:** What are the non-negotiable rules for this project? (e.g., no disruption to the team's ability to ship to production, ensuring small incremental changes rather than a "big bang" pipeline replacement, or adhering strictly to Lean software engineering principles). ### Phase 2: Vision/Outcome * **Ideal Scenario:** What does the optimal state look like? Imagine the deployment process in six months: developers are receiving immediate feedback, the ArgoCD reconciliation loop is seamless and entirely automated, and configuration drift is a thing of the past. * **Measurement:** How will you prove the pipeline is better? What metrics will define success? (e.g., tracking the Four Key Metrics: deployment frequency, lead time, mean time to restore, and change fail percentage). ### Phase 3: Brainstorming * **Current State Investigation:** What is actually happening versus what is documented? Where are the queues and waiting times? (e.g., waiting for tests to run, waiting for environments to provision, or waiting on pull request approvals). * **Technical Architecture:** How is the current GitOps operator configured? Are there long-lived branches causing integration pain, or is the team successfully practicing trunk-based development? How are secrets managed and propagated to k8s? * **Risks & Mitigation:** What happens if an in-flight pipeline change breaks deployment capabilities? How quickly can you roll back the pipeline configuration itself? * **Information Gathering:** Who needs to be consulted? (e.g., gathering candid feedback from the developers who use the pipeline daily to find out what frustrates them the most). ### Phase 4: Organising * **Phasing the Work:** How do you break this down into safe, manageable increments? * *Phase A:* Value stream mapping and metric baseline gathering. * *Phase B:* Optimising the Continuous Integration (CI) feedback loop (e.g., parallelising test suites). * *Phase C:* Refining the Continuous Deployment (CD) sync policies and manifest management. * **Communication:** How will changes to the pipeline be communicated to the team so they aren't surprised by shifting deployment behaviours? * **Tooling:** Do you have the necessary observability tools in place to monitor the health of the deployment pipeline itself? ### Phase 5: Next Actions * **The Next Step:** What is the very next physical, visible action required to start the investigation? * **Process Actions:** Instead of "investigate pipeline," drill down to the atomic action. For example: *"Schedule a 60-minute value stream mapping whiteboard session with the core team to trace a single commit from local workstation to live production."* or *"Run a query to extract the average build times for the last 30 days."*
 
 ---
 
@@ -14,7 +14,7 @@ Claude
 
 ## Optimising a Live GitOps Pipeline: Scoping & Critique
 
-### 1\. The Real Problem (Reframe)
+### 1. The Real Problem (Reframe)
 
 Your instinct—_"investigate first, then plan improvements"_—is correct and ahead of where most engineers start. But it hides an important truth:
 
@@ -33,7 +33,7 @@ Layered onto this is the _real_ constraint: the pipeline is live and multi-tenan
 
 ---
 
-### 2\. Scoping Trigger List
+### 2. Scoping Trigger List
 
 Same format as before. Answer briefly; the goal is to expose ambiguity.
 
@@ -127,13 +127,13 @@ I'd recommend: ADR + ranked pain-point register, in the platform repo, reviewabl
 
 Complete this sentence:
 
-> _"The investigation is finished when \_\_\_ exists, \_\_\_ has been reviewed by \_\_\_, and the top three pain points have a documented reproduction recipe."_
+> _"The investigation is finished when ___ exists, ___ has been reviewed by ___, and the top three pain points have a documented reproduction recipe."_
 
 If you can fill that in, you have a project. If you cannot, you have a wishlist.
 
 ---
 
-### 3\. Critique of the LLM Response
+### 3. Critique of the LLM Response
 
 It's a fluent template that uses the right vocabulary (DORA, value stream, trunk-based) without engaging with _your_ environment. Specific gaps:
 
@@ -150,7 +150,7 @@ It's a fluent template that uses the right vocabulary (DORA, value stream, trunk
 
 ---
 
-### 4\. Over-Advice (Things You Didn't Ask About)
+### 4. Over-Advice (Things You Didn't Ask About)
 
 #### 4.1 Strangler Fig is the only Safe Pattern here
 
@@ -231,7 +231,7 @@ Pipeline-optimisation projects are catnip and quicksand for ADHD brains: novel, 
 
 ---
 
-### 5\. Your Next Physical Action
+### 5. Your Next Physical Action
 
 Open your notes app. Create one file: `pipeline-audit/scoping-v0.md`.
 

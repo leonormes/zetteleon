@@ -1,10 +1,10 @@
 ---
 created: 2026-05-15T08:22:11+00:00
-modified: 2026-05-15T08:23:00+00:00
+modified: 2026-05-15T08:49:08+00:00
 title: Restructuring Entra ID—Scoping, IaC & PIM
 ---
 
-## 1\. The Real Problem (Reframe)
+## 1. The Real Problem (Reframe)
 
 This is the highest-stakes project of the three you've brought me, and the framing pattern is now familiar—but with one critical addition:
 
@@ -26,7 +26,7 @@ A second framing point: the worst risk in Entra IaC is not a bad deploy—it is 
 
 ---
 
-## 2\. Scoping Trigger List
+## 2. Scoping Trigger List
 
 ### A. Which tenant(s) Are in Scope?
 
@@ -128,13 +128,13 @@ You don't need exact numbers yet—order of magnitude tells you whether tidy is 
 
 ### K. Definition of done—for the Audit & Tidy Sub-project
 
-> _"The audit & tidy sub-project is finished when \_\_\_ has been documented, \_\_\_ has been deleted/remediated in the portal, and the tenant is in a state where importing it into Terraform would yield a meaningful and maintainable codebase."_
+> _"The audit & tidy sub-project is finished when ___ has been documented, ___ has been deleted/remediated in the portal, and the tenant is in a state where importing it into Terraform would yield a meaningful and maintainable codebase."_
 
 If you can complete that sentence, you have a project.
 
 ---
 
-## 3\. Critique of the LLM Response
+## 3. Critique of the LLM Response
 
 It's competent and uses the right vocabulary, but it has three serious structural errors and several content gaps.
 
@@ -160,7 +160,7 @@ It's competent and uses the right vocabulary, but it has three serious structura
 
 ---
 
-## 4\. Over-Advice (Things You Didn't Ask About)
+## 4. Over-Advice (Things You Didn't Ask About)
 
 ### 4.1 Break-glass Deserves Its Own Runbook
 
@@ -275,7 +275,7 @@ Most platform changes can be rolled forward with another deploy. CA policies and
 
 ---
 
-## 5\. Your Next Physical Action
+## 5. Your Next Physical Action
 
 This project has a different first action than the previous two. Before you write `scoping-v0.md`, you must verify break-glass.
 
@@ -307,7 +307,7 @@ Once one of those two files exists with three answers, you have a project. Then�
 
 You
 
-Dive deeper into the break glass Identity. What is the complete plan? Here is the draft Here is a plan for crafting a best-in-class emergency access (break-glass) account in Microsoft Entra ID, structured from the provided sources: \*\*Phase 1: Account Configuration\*\* \* It is recommended that you create two or more emergency access accounts. \* These must be cloud-only accounts utilising the \*.onmicrosoft.com domain. \* The accounts must not be federated or synchronised from an on-premises environment. \* Ensure the accounts have no dependency on external identity providers. \* The Global Administrator role should be active on the account without requiring Privileged Identity Management (PIM) activation. \*\*Phase 2: Policy Exclusions\*\* \* Break-glass accounts should not be included in any Conditional Access policies. \* You might consider creating an "emergency" management group that is above or completely exempt from your other standard policies. \*\*Phase 3: Securing Credentials\*\* \* You must store the account credentials safely and securely. \* Store the credentials using two separate methods. \* Implement two separate authentication methods, ensuring you do not rely solely on one method, such as using the Microsoft Authenticator app for both accounts. \*\*Phase 4: Monitoring and Alerting\*\* \* You must actively monitor the sign-in and audit logs for these emergency accounts. \* Set up an Azure Monitor alert that is designed to fire immediately when the account logs in. \*\*Phase 5: Validation and Maintenance\*\* \* It is essential to test your emergency accounts regularly to validate them. \* A general rule of thumb is to check these accounts on a quarterly basis. \* Document the process properly so that when an emergency arises, you are completely ready rather than trying to figure things out.
+Dive deeper into the break glass Identity. What is the complete plan? Here is the draft Here is a plan for crafting a best-in-class emergency access (break-glass) account in Microsoft Entra ID, structured from the provided sources: **Phase 1: Account Configuration** * It is recommended that you create two or more emergency access accounts. * These must be cloud-only accounts utilising the *.onmicrosoft.com domain. * The accounts must not be federated or synchronised from an on-premises environment. * Ensure the accounts have no dependency on external identity providers. * The Global Administrator role should be active on the account without requiring Privileged Identity Management (PIM) activation. **Phase 2: Policy Exclusions** * Break-glass accounts should not be included in any Conditional Access policies. * You might consider creating an "emergency" management group that is above or completely exempt from your other standard policies. **Phase 3: Securing Credentials** * You must store the account credentials safely and securely. * Store the credentials using two separate methods. * Implement two separate authentication methods, ensuring you do not rely solely on one method, such as using the Microsoft Authenticator app for both accounts. **Phase 4: Monitoring and Alerting** * You must actively monitor the sign-in and audit logs for these emergency accounts. * Set up an Azure Monitor alert that is designed to fire immediately when the account logs in. **Phase 5: Validation and Maintenance** * It is essential to test your emergency accounts regularly to validate them. * A general rule of thumb is to check these accounts on a quarterly basis. * Document the process properly so that when an emergency arises, you are completely ready rather than trying to figure things out.
 
 ---
 
@@ -315,7 +315,7 @@ Claude
 
 ## Break-Glass Identity: The Complete Plan
 
-### 1\. Critique of the Draft
+### 1. Critique of the Draft
 
 The draft is structurally sound and hits the canonical points. It is, however, insufficient as an implementation plan—it reads as a summary of Microsoft's documentation rather than a buildable specification. Specific gaps:
 
@@ -333,7 +333,7 @@ The draft is structurally sound and hits the canonical points. It is, however, i
 
 ---
 
-### 2\. Design Principles
+### 2. Design Principles
 
 Five principles. If a design decision violates one, redesign.
 
@@ -345,7 +345,7 @@ Five principles. If a design decision violates one, redesign.
 
 ---
 
-### 3\. Complete Specification
+### 3. Complete Specification
 
 #### 3.1 Account Identity
 
@@ -448,7 +448,7 @@ The printed runbook in each safe must include:
 
 1. Tenant identifiers—tenant ID, initial domain, UPNs, IDs.
 2. Trigger conditions—what qualifies as an emergency justifying use.
-3. Authorisation—who can authorise, or "no approval required if \[condition\]".
+3. Authorisation—who can authorise, or "no approval required if [condition]".
 4. Step-by-step sign-in procedure—including clean browser, private window, expected MFA prompts, what to do if MFA prompt is unexpected (stop, investigate).
 5. Scenario playbooks—at minimum:
 	- "Locked out by a bad Conditional Access deployment"
@@ -493,7 +493,7 @@ This is the connection back to your Entra IaC project (the previous conversation
 
 ---
 
-### 4\. Pitfalls and Over-Advice
+### 4. Pitfalls and Over-Advice
 
 #### 4.1 The Password Manager Trap
 
@@ -537,7 +537,7 @@ This is the project type that ADHD brains under-deliver on—high-context, low-n
 
 ---
 
-### 5\. Your Next Physical Action
+### 5. Your Next Physical Action
 
 This project decomposes into clean sub-tasks. Today's task is 15 minutes, no more.
 

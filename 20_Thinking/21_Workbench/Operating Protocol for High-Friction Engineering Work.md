@@ -1,10 +1,10 @@
 ---
 created: 2026-05-15T08:22:55+00:00
-modified: 2026-05-15T08:23:08+00:00
+modified: 2026-05-15T08:29:36+00:00
 title: Operating Protocol for High-Friction Engineering Work
 ---
 
-Given my difficulty initiating tasks and the nature of these projects we have discussed give me a protocol or process for getting this work done Here is a tactical protocol designed to lower the barrier to entry for complex, high-friction engineering work. It treats human attention much like a Lean software delivery pipeline: optimising for small batches, limiting work-in-progress, and ensuring fast feedback loops. \*\*Phase 1: The Pre-Flight Routine (State Management)\*\* \* \*\*Master Internal Triggers:\*\* Difficulty initiating is rarely about a lack of technical skill; it is often driven by the subconscious overwhelm of tackling massive, ambiguous architectural changes. Acknowledge the discomfort of the "blank IDE" before beginning. \* \*\*Move to Focus:\*\* Before sitting down to map out the GitOps changes or Entra ID policies, engage in brief physical movement. Taking the dog for a brisk walk around the block serves as a powerful neurological reset, priming the brain for sustained mental effort and focus. \*\*Phase 2: The "Walking Skeleton" Initiation\*\* \* \*\*Timebox the Atomic Action:\*\* Commit to doing just one thing at a time. Set a strict timebox of 15 to 25 minutes to execute only the very first, atomic action identified in your planning phase (e.g., writing the first Terraform resource block or querying the k8s cluster state). \* \*\*Banish Perfection:\*\* Do not attempt to architect the perfect end-to-end deployment pipeline on the first attempt. The objective is simply to overcome inertia; start now and get perfect later. \*\*Phase 3: The "Unschedule"\*\* \* \*\*Plan the Downtime First:\*\* Instead of staring down an open-ended, gruelling block of configuration work, schedule your breaks, meals, and leisure activities before scheduling the work itself. \* \*\*Guilt-Free Play:\*\* Knowing exactly when you will stop working provides a psychological safety net. It replaces the dread of endless work with the promise of guaranteed, guilt-free downtime. \*\*Phase 4: Radical WIP Limits\*\* \* \*\*Embrace Finitude:\*\* When designing and overhauling multiple distributed systems, attention is a strictly finite resource. You cannot execute all of these upgrades simultaneously. \* \*\*Enforce Limits:\*\* Limit your personal Work-In-Progress (WIP) just as you would in a team delivery environment. Focus exclusively on one major project at a time and creatively neglect the others until the active task reaches a defined, testable milestone.
+Given my difficulty initiating tasks and the nature of these projects we have discussed give me a protocol or process for getting this work done Here is a tactical protocol designed to lower the barrier to entry for complex, high-friction engineering work. It treats human attention much like a Lean software delivery pipeline: optimising for small batches, limiting work-in-progress, and ensuring fast feedback loops. **Phase 1: The Pre-Flight Routine (State Management)** * **Master Internal Triggers:** Difficulty initiating is rarely about a lack of technical skill; it is often driven by the subconscious overwhelm of tackling massive, ambiguous architectural changes. Acknowledge the discomfort of the "blank IDE" before beginning. * **Move to Focus:** Before sitting down to map out the GitOps changes or Entra ID policies, engage in brief physical movement. Taking the dog for a brisk walk around the block serves as a powerful neurological reset, priming the brain for sustained mental effort and focus. **Phase 2: The "Walking Skeleton" Initiation** * **Timebox the Atomic Action:** Commit to doing just one thing at a time. Set a strict timebox of 15 to 25 minutes to execute only the very first, atomic action identified in your planning phase (e.g., writing the first Terraform resource block or querying the k8s cluster state). * **Banish Perfection:** Do not attempt to architect the perfect end-to-end deployment pipeline on the first attempt. The objective is simply to overcome inertia; start now and get perfect later. **Phase 3: The "Unschedule"** * **Plan the Downtime First:** Instead of staring down an open-ended, gruelling block of configuration work, schedule your breaks, meals, and leisure activities before scheduling the work itself. * **Guilt-Free Play:** Knowing exactly when you will stop working provides a psychological safety net. It replaces the dread of endless work with the promise of guaranteed, guilt-free downtime. **Phase 4: Radical WIP Limits** * **Embrace Finitude:** When designing and overhauling multiple distributed systems, attention is a strictly finite resource. You cannot execute all of these upgrades simultaneously. * **Enforce Limits:** Limit your personal Work-In-Progress (WIP) just as you would in a team delivery environment. Focus exclusively on one major project at a time and creatively neglect the others until the active task reaches a defined, testable milestone.
 
 ---
 
@@ -12,7 +12,7 @@ Claude
 
 ## Operating Protocol for High-Friction Engineering Work
 
-### 1\. Critique of the Draft
+### 1. Critique of the Draft
 
 It's recognisable productivity literature with an ADHD label sticker on top—Pomodoro, Unschedule, WIP limits, a walk before work. The components are real, but the assembly is generic. Specific gaps:
 
@@ -31,7 +31,7 @@ It's recognisable productivity literature with an ADHD label sticker on top—Po
 
 ---
 
-### 2\. Principles Underpinning the Protocol
+### 2. Principles Underpinning the Protocol
 
 If a tactic violates one of these, it won't survive the day you need it most.
 
@@ -48,7 +48,7 @@ If a tactic violates one of these, it won't survive the day you need it most.
 
 ---
 
-### 3\. The Protocol
+### 3. The Protocol
 
 Five layers: Daily, Weekly, Per-Session, Per-Project, Stall-Break. Each is self-contained—the per-session loop runs whether or not the weekly review happened.
 
@@ -57,8 +57,8 @@ Five layers: Daily, Weekly, Per-Session, Per-Project, Stall-Break. Each is self-
 Once per day, ideally as the first work act (before email, before Slack):
 
 1. Open one file: `daily/YYYY-MM-DD.md`.
-2. Write one sentence: _"Today's one thing is: \_\_\_."_
-3. Bind it to a window: _"Between \_\_\_ and \_\_\_."_
+2. Write one sentence: _"Today's one thing is: ___."_
+3. Bind it to a window: _"Between ___ and ___."_
 4. Identify the first physical action—5 minutes or less.
 5. Write the stop signal—what observable thing means today's one thing is done?
 
@@ -96,7 +96,7 @@ Pre-flight (5 min):
 1. Physical: stand up, water, walk 60 seconds. Not negotiable.
 2. Close: email, Slack, every non-essential tab. _Visibly close them._
 3. Open: the one file you'll touch, the one terminal, the one dashboard. No more.
-4. Write one line at the top of your scratch file: _"This session is for \_\_\_, until \_\_\_ (clock time)."_
+4. Write one line at the top of your scratch file: _"This session is for ___, until ___ (clock time)."_
 5. Timer for 75 minutes, not 90. The last 15 are reserved.
 
 Work (75 min):
@@ -156,7 +156,7 @@ For each of the three new projects in our conversation, this file is the literal
 
 When you stall mid-session (>5 minutes of zero-progress staring), do not push through. Run this short script.
 
-1\. Diagnose in one word:
+1. Diagnose in one word:
 
 | Word | Means |
 | --- | --- |
@@ -166,7 +166,7 @@ When you stall mid-session (>5 minutes of zero-progress staring), do not push th
 | Anxious | I'm avoiding because of fear (breaking something, judgment, failure) |
 | Depleted | Tank's empty—nothing's coming |
 
-2\. Apply the matching response:
+2. Apply the matching response:
 
 | Diagnosis | Response |
 | --- | --- |
@@ -176,11 +176,11 @@ When you stall mid-session (>5 minutes of zero-progress staring), do not push th
 | Anxious | Name the fear in writing. Identify the smallest reversible action that tests it. |
 | Depleted | Honour it. Run the closing ritual. Go outside. Come back tomorrow. |
 
-3\. Log the stall in `stalls.md` with date + diagnosis. After a month, patterns surface that point at structural fixes.
+3. Log the stall in `stalls.md` with date + diagnosis. After a month, patterns surface that point at structural fixes.
 
 ---
 
-### 4\. Over-Advice
+### 4. Over-Advice
 
 #### 4.1 Body Doubling
 
@@ -255,7 +255,7 @@ This entire response is itself the trap your ADHD brain will try to fall into: s
 
 ---
 
-### 5\. Your Next Physical Action
+### 5. Your Next Physical Action
 
 15-minute box. One file.
 
