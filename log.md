@@ -207,7 +207,7 @@ Append-only — never edit past entries.
 
 - **Action:** Ingest (Pieces LTM, last 4h)
 - **Raw sources created:** [[raw/2026-05-18-pieces-hermes-gitlab-research]]
-- **Wiki pages touched:** [[wiki/projects/GitLab CI/CD Pipeline Research]]
+- **Wiki pages touched:** [[INSIGHTFILE_PIPELINE_REPORT]]
 - **Pieces IDs ingested:** 58 memories
 - **Flags:** none — 1 new project page created (GitLab CI/CD Pipeline Research), 1 raw note created; existing Hermes-Agent page not updated (activity within existing scope)
 
