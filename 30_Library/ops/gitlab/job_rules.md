@@ -317,7 +317,7 @@ To avoid duplicate pipelines, you can:
 
 You can also avoid duplicate pipelines by changing the job rules to avoid either push (branch)
 pipelines or merge request pipelines. However, if you use a `- when: always` rule without
-`workflow: rules`, GitLab displays a [pipeline warning](../debugging.md#pipeline-warnings).
+`workflow: rules`, GitLab displays a [pipeline warning](debugging.md#pipeline-warnings).
 
 For example, the following does not cause double pipelines, but is not recommended
 without `workflow: rules`:

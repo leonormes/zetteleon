@@ -473,7 +473,7 @@ deploy_job:
     - !reference [.rules_staging]
 ```
 
-With all other keywords, you get a [`config should be an array of` validation error](../debugging.md#config-should-be-an-array-of-hashes-error-message).
+With all other keywords, you get a [`config should be an array of` validation error](debugging.md#config-should-be-an-array-of-hashes-error-message).
 
 ### Nest `!reference` tags in `script`, `before_script`, and `after_script`
 

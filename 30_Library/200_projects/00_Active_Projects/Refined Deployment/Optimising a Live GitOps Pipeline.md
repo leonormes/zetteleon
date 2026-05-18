@@ -1,6 +1,6 @@
 ---
 created: 2026-05-14T13:37:38+00:00
-modified: 2026-05-15T08:24:49+00:00
+modified: 2026-05-18T12:22:49+00:00
 title: FITFILE_CICD_AUDIT_REPORT
 ---
 
@@ -674,16 +674,16 @@ include:
 
 #### 4.1 Dockerfile Inventory
 
-| Path | Purpose | Base Image |
-|------|---------|------------|
-| `Application/InsightFILE/Dockerfile.sonar` | SonarQube scanner | Custom |
-| `Application/InsightFILE/Dockerfile.frontend.v2` | Frontend app | Not inspected |
-| `Application/InsightFILE/Dockerfile.service` | Backend service | Not inspected |
-| `Application/InsightFILE/Dockerfile.scheduler` | Workflow scheduler | Not inspected |
-| `Application/data-and-analytics/deployment/images/Dockerfile` | Main service | Not inspected |
+| Path                                                                                                    | Purpose            | Base Image     |
+| ------------------------------------------------------------------------------------------------------- | ------------------ | -------------- |
+| `Application/InsightFILE/Dockerfile.sonar`                                                              | SonarQube scanner  | Custom         |
+| `Application/InsightFILE/Dockerfile.frontend.v2`                                                        | Frontend app       | Not inspected  |
+| `Application/InsightFILE/Dockerfile.service`                                                            | Backend service    | Not inspected  |
+| `Application/InsightFILE/Dockerfile.scheduler`                                                          | Workflow scheduler | Not inspected  |
+| `Application/data-and-analytics/deployment/images/Dockerfile`                                           | Main service       | Not inspected  |
 | `Application/data-and-analytics/services/omop_generator/scripts/azure_batch/Dockerfile.worker-prebaked` | Azure Batch worker | `ubuntu:20.04` |
-| `Application/workflows-api/deployment/Dockerfile` | Workflows API | Not inspected |
-| `Application/ude-cli/Dockerfile` | CLI tool | Not inspected |
+| `Application/workflows-api/deployment/Dockerfile`                                                       | Workflows API      | Not inspected  |
+| `Application/ude-cli/Dockerfile`                                                                        | CLI tool           | Not inspected  |
 
 #### 4.2 ACR Publishing Script
 

@@ -12,7 +12,7 @@ title: Running Composer and npm scripts with deployment via SCP in GitLab CI/CD
 
 {{< /details >}}
 
-This guide covers the building of dependencies of a PHP project while compiling assets via an npm script using [GitLab CI/CD](../../_index.md).
+This guide covers the building of dependencies of a PHP project while compiling assets via an npm script using [GitLab CI/CD](_index.md).
 
 It is possible to create your own image with custom PHP and Node.js versions. For brevity, this guide uses an existing [Docker image](https://hub.docker.com/r/tetraweb/php/) with both PHP and Node.js installed.
 

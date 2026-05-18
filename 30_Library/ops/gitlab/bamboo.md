@@ -638,7 +638,7 @@ To migrate from Bamboo:
 
 ## Related topics
 
-- [Getting started guide](../_index.md)
+- [Getting started guide](_index.md)
 - [CI/CD YAML syntax reference](../yaml/_index.md)
 - [GitLab CI/CD variables](../variables/_index.md)
 - [Pipeline efficiency](../pipelines/pipeline_efficiency.md)

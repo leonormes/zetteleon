@@ -1,24 +1,23 @@
 ---
 created: 2026-05-15T15:57:37+00:00
-modified: 2026-05-15T16:01:25+00:00
-tags:
-  - 2468041533
-  - wiki
-  - dossier
-  - project
-title: gitlab-cicd-domain-knowledge-context
-wiki_type: dossier
 entity_kind: project
-sources:
-  - raw/2026-05-18-pieces-hermes-gitlab-research
+modified: 2026-05-18T12:22:17+00:00
+sources: [raw/2026-05-18-pieces-hermes-gitlab-research]
+tags: [2468041533, dossier, project, wiki]
+title: INSIGHTFILE_PIPELINE_REPORT
+wiki_type: dossier
 ---
 
 ## InsightFILE Pipeline Report
 
 Generated: 2026-05-18
+
 Repository: gitlab.com/fitfile/apps/InsightFILE
+
 Local Mirror: `/Volumes/DAL/Fitfile/gitlab/FITFILE/Application/InsightFILE`
+
 Investigation Period: 90 days (2026-02-18 to 2026-05-18)
+
 Evidence Sources: GitLab API via `glab` CLI, local file inspection, job trace logs
 
 ---
@@ -701,7 +700,7 @@ The following are confirmed facts from prior memory—cite them as given, do not
 - Pipeline template directory (Deployment repo): `Deployment/deployment/pipeline/`—contains `images/` subfolder; templates (`common-jobs.yml`, etc.) are elsewhere in the Deployment repo
 - `glab` config: `~/.config/glab-cli/config.yml`, user `leontormes`, OAuth2 token (refresh as needed before running)
 
-The **GitLab CI/CD Pipeline Research** workstream was identified from Pieces LTM activity captured on 2026-05-18. This page tracks the project's scope, timeline, and key facts.
+The GitLab CI/CD Pipeline Research workstream was identified from Pieces LTM activity captured on 2026-05-18. This page tracks the project's scope, timeline, and key facts.
 
 ## Summary
 
@@ -709,27 +708,24 @@ GitLab CI/CD Pipeline Research is a focused investigation into implementing CI/C
 
 ## Key Facts
 
-- Hermes-authored CI/CD audit report (`FITFILE_CICD_AUDIT_REPORT`) and prior Gemini prompt artifacts were discovered during research, providing foundational context for pipeline implementation. > "Excellent — all three searches returned substantial new evidence including the single most valuable find: a Hermes-authored CI/CD audit report (FITFILE_CICD_AUDIT_REPORT) and a prior Gemini prompt..." — [[raw/2026-05-18-pieces-hermes-gitlab-research]] (Pieces: bc4435a0-1d2e-4f89-b0e5-8e8e8f8e8e8e)
-
-- A worker subagent produced a structured 7-phase TRANSFER artifact for GitLab CI/CD pipeline implementation, demonstrating multi-agent orchestration for complex technical planning. > "Worker produced an exceptional TRANSFER artifact: a structured 7-phase..." — [[raw/2026-05-18-pieces-hermes-gitlab-research]] (Pieces: 1c1a00a0-b47e-4c89-9e5e-8e8e8f8e8e8e)
-
-- Research sessions employed cursor-based pagination (`fetchMore`) to exhaustively retrieve search results before composing the final Hermes prompt, ensuring comprehensive context gathering. > "Both cursors returned `recommendation: \"sufficient\"` in the last call, so I don't need to paginate further..." — [[raw/2026-05-18-pieces-hermes-gitlab-research]] (Pieces: 9af79ec8-961e-4c89-b0e5-8e8e8f8e8e8e)
-
-- The research workflow followed a disciplined pattern: initial search → pagination until exhaustion → reflection checkpoints → final prompt composition. > "Reflection 1 · on track — Initial search done but pagination incomplete — must paginate before composing Hermes prompt" — [[raw/2026-05-18-pieces-hermes-gitlab-research]] (Pieces: cdb03d62-e99e-4c89-b0e5-8e8e8f8e8e8e)
+- Hermes-authored CI/CD audit report (`FITFILE_CICD_AUDIT_REPORT`) and prior Gemini prompt artifacts were discovered during research, providing foundational context for pipeline implementation. > "Excellent—all three searches returned substantial new evidence including the single most valuable find: a Hermes-authored CI/CD audit report (FITFILE_CICD_AUDIT_REPORT) and a prior Gemini prompt…"—[[raw/2026-05-18-pieces-hermes-gitlab-research]] (Pieces: bc4435a0-1d2e-4f89-b0e5-8e8e8f8e8e8e)
+- A worker subagent produced a structured 7-phase TRANSFER artifact for GitLab CI/CD pipeline implementation, demonstrating multi-agent orchestration for complex technical planning. > "Worker produced an exceptional TRANSFER artifact: a structured 7-phase…"—[[raw/2026-05-18-pieces-hermes-gitlab-research]] (Pieces: 1c1a00a0-b47e-4c89-9e5e-8e8e8f8e8e8e)
+- Research sessions employed cursor-based pagination (`fetchMore`) to exhaustively retrieve search results before composing the final Hermes prompt, ensuring comprehensive context gathering. > "Both cursors returned `recommendation: \"sufficient\"` in the last call, so I don't need to paginate further…"—[[raw/2026-05-18-pieces-hermes-gitlab-research]] (Pieces: 9af79ec8-961e-4c89-b0e5-8e8e8f8e8e8e)
+- The research workflow followed a disciplined pattern: initial search → pagination until exhaustion → reflection checkpoints → final prompt composition. > "Reflection 1 · on track—Initial search done but pagination incomplete—must paginate before composing Hermes prompt"—[[raw/2026-05-18-pieces-hermes-gitlab-research]] (Pieces: cdb03d62-e99e-4c89-b0e5-8e8e8f8e8e8e)
 
 ## Timeline
 
-- **2026-05-18** — Project identified via Pieces LTM ingest; comprehensive GitLab CI/CD research session executed with multi-agent delegation; 7-phase TRANSFER artifact produced.
+- 2026-05-18—Project identified via Pieces LTM ingest; comprehensive GitLab CI/CD research session executed with multi-agent delegation; 7-phase TRANSFER artifact produced.
 
 ## Connections
 
-- [[Hermes-Agent]] — Core orchestrator system managing the research workflow
-- [[MCP Proxy Robustness and High Availability]] — Related infrastructure workstream
-- [[Terraform IaC Modules]] — Complementary infrastructure-as-code initiative
+- [[Hermes-Agent]]—Core orchestrator system managing the research workflow
+- [[MCP Proxy Robustness and High Availability]]—Related infrastructure workstream
+- [[Terraform IaC Modules]]—Complementary infrastructure-as-code initiative
 
 ## Contradictions
 
-*None identified.*
+_None identified._
 
 ## Open Questions
 
@@ -738,26 +734,28 @@ GitLab CI/CD Pipeline Research is a focused investigation into implementing CI/C
 - What are the acceptance criteria for pipeline success (build time, test coverage, deployment frequency)?
 - Who are the stakeholders responsible for pipeline maintenance and on-call support?
 
-*Shared Message from Pieces (https://pieces.app) by Leon Ormes (leonormes@gmail.com) on Monday May 18, 2026 - 10:30 AM*
+_Shared Message from Pieces (<https://pieces.app>) by Leon Ormes (leonormes@gmail.com) on Monday May 18, 2026 - 10:30 AM_
 ---
-Good question — this is a fundamental context-window management problem for long evidence-gathering agent tasks. Here's exactly what's happening and how to fix it structurally.
 
-## Why it degrades
+Good question—this is a fundamental context-window management problem for long evidence-gathering agent tasks. Here's exactly what's happening and how to fix it structurally.
 
-Every tool call appends its **full output** to the conversation context. For your audit:
+## Why it Degrades
+
+Every tool call appends its full output to the conversation context. For your audit:
+
 - `.gitlab-ci.yml` → hundreds of lines
 - 100-pipeline API response → thousands of tokens of JSON
 - Each job log tail → hundreds of lines
 
-Hermes is at 62.7K/128K (49%) after 3 compressions. The compactor summarises earlier turns lossy — and for raw evidence (pipeline IDs, log lines, variable names), summaries destroy the exact data you need.
+Hermes is at 62.7K/128K (49%) after 3 compressions. The compactor summarises earlier turns lossy—and for raw evidence (pipeline IDs, log lines, variable names), summaries destroy the exact data you need.
 
 ---
 
-## The fix: separate sessions per phase, file as memory
+## The Fix: Separate Sessions per Phase, File as Memory
 
-The single-session mega-prompt is the root cause. **The output file IS the memory, not the context window.**
+The single-session mega-prompt is the root cause. The output file IS the memory, not the context window.
 
-### Pattern: phase-per-session with file handoff
+### Pattern: Phase-per-session with File Handoff
 
 ```
 Session 1: Phase 1 only → appends to INSIGHTFILE_PIPELINE_REPORT.md → /new
@@ -778,29 +776,29 @@ file and confirm with: "Phase N complete: [section name], [N] rows written."
 
 ---
 
-## Structural rules to add to every Hermes evidence-gathering prompt
+## Structural Rules to Add to Every Hermes Evidence-gathering Prompt
 
-Add these as a **WORKING CONSTRAINTS** preamble:
+Add these as a WORKING CONSTRAINTS preamble:
 
 ````markdown
 ## WORKING CONSTRAINTS (read before any tool call)
 
-1. **Write-first, context-clear**: After every terminal command or file
+1. Write-first, context-clear: After every terminal command or file
    read, write the relevant data to the output file IMMEDIATELY.
    Do not hold raw output in your response — confirm only with a
    single line: "✓ Written: [section], [N] items."
 
-2. **No inline reproduction**: Never paste tool output into your chat
+2. No inline reproduction: Never paste tool output into your chat
    response. The file is the record. Your responses should contain
    only single-line confirmations and transitions between steps.
 
-3. **One phase per session**: If you see a compaction warning
+3. One phase per session: If you see a compaction warning
    (⚠ Session compressed), STOP, write a CHECKPOINT section to the
    output file with what's been collected, and instruct the user to
    run `/new` with the handoff prompt below. Do not continue
    across a compression boundary.
 
-4. **Shell-level compression**: Design `jq` queries to emit minimal
+4. Shell-level compression: Design `jq` queries to emit minimal
    output (counts, keys, summary rows) rather than full JSON objects.
    Append directly to file using `>> output.md` in the command itself
    where possible.
@@ -808,7 +806,7 @@ Add these as a **WORKING CONSTRAINTS** preamble:
 
 ---
 
-## Shell-level fixes: reduce what enters context
+## Shell-level Fixes: Reduce what Enters Context
 
 Instead of loading a full 100-pipeline JSON response into context:
 
@@ -829,7 +827,7 @@ Context only ever sees the summary table (10 lines), not the 500-line JSON blob.
 
 ---
 
-## Hermes config — check the compaction threshold
+## Hermes config—check the Compaction Threshold
 
 Your config at `~/.config/glab-cli/config.yml` isn't the right place, but from your memory there's a Hermes config at:
 
@@ -841,7 +839,7 @@ Check this for a `max_tokens`, `context_limit`, or `compaction_threshold` settin
 
 ---
 
-## Revised prompt structure for this specific task
+## Revised Prompt Structure for This Specific Task
 
 Break the 7-phase prompt into these separate handoff sessions:
 
@@ -855,11 +853,11 @@ Break the 7-phase prompt into these separate handoff sessions:
 | 6 | 5 + 6 | Variables, runners, cross-reference | ~6K tokens |
 | 7 | 7 + synthesis | Read file → write executive summary | ~8K tokens |
 
-Each session stays well under 30K tokens — no compression needed.
+Each session stays well under 30K tokens—no compression needed.
 
 ---
 
-## Handoff prompt template (paste at start of each `/new` session)
+## Handoff Prompt Template (paste at Start of Each `/new` session)
 
 ```
 HANDOFF: Continue the InsightFILE pipeline audit.
@@ -872,7 +870,7 @@ HANDOFF: Continue the InsightFILE pipeline audit.
 5. When phase is complete, write "## PHASE N COMPLETE" to the file and stop.
 ```
 
-The key principle: **the file is the agent's externalised memory — not the context window.** A fresh `/new` session with a file read at the start reconstructs everything the agent needs without carrying the weight of prior tool outputs.
+The key principle: the file is the agent's externalised memory—not the context window. A fresh `/new` session with a file read at the start reconstructs everything the agent needs without carrying the weight of prior tool outputs.
 
 ## GitLab CI/CD—Domain Knowledge Context
 
@@ -2629,7 +2627,7 @@ Fail-Fast Conditions:
 - Impact: Latency reduction (30–70% faster Pipelines).
 - YAML change: Add `needs: [upstream_job]` to each Job.
 
-2. Conditional Execution (`rules:` / `workflow:` to skip unnecessary Jobs)
+1. Conditional Execution (`rules:` / `workflow:` to skip unnecessary Jobs)
 
 - Current default: All Jobs run on every Pipeline.
 - Recommended: Use `workflow:rules` to skip Pipelines for docs-only changes; `rules:changes` to skip Jobs when irrelevant files change.
@@ -2645,7 +2643,7 @@ Fail-Fast Conditions:
       - when: never
   ```
 
-3. Caching Strategy (cache key design, S3/GCS backends, `policy: pull` vs `pull-push`)
+1. Caching Strategy (cache key design, S3/GCS backends, `policy: pull` vs `pull-push`)
 
 - Current default: Cache key is `$CI_COMMIT_REF_SLUG`; `pull-push` policy.
 - Recommended: Use `cache:key:files` for content-addressed cache; `fallback_keys` for branch misses; `policy: pull` for consumer Jobs.
@@ -2664,7 +2662,7 @@ Fail-Fast Conditions:
     policy: pull-push
   ```
 
-4. Docker Layer Caching (BuildKit, Kaniko, Buildah patterns)
+1. Docker Layer Caching (BuildKit, Kaniko, Buildah patterns)
 
 - Current default: No layer caching; full rebuild each Job.
 - Recommended: Use BuildKit with `--cache-from`; Kaniko with `--cache=true`; or Docker Registry caching.
@@ -2677,21 +2675,21 @@ Fail-Fast Conditions:
       - docker build --cache-from $CI_REGISTRY_IMAGE:latest -t $CI_REGISTRY_IMAGE:$CI_COMMIT_SHA .
   ```
 
-5. `interruptible: true` (freeing Runners on superseded Pipelines)
+1. `interruptible: true` (freeing Runners on superseded Pipelines)
 
 - Current default: Pipelines run to completion even if superseded.
 - Recommended: Set `interruptible: true` for feature branch Pipelines.
 - Impact: Cost reduction (freed compute minutes); latency reduction (newer Pipelines start sooner).
 - YAML change: `interruptible: true` at Job or Workflow level.
 
-6. `timeout` (bounding runaway Jobs)
+1. `timeout` (bounding runaway Jobs)
 
 - Current default: Project-wide timeout (default: 60 minutes).
 - Recommended: Set per-Job `timeout` based on expected duration.
 - Impact: Cost reduction (prevent runaway Jobs); reliability.
 - YAML change: `timeout: 10m` at Job level.
 
-7. Matrix / Parallel (spreading test load vs. multiplying cost)
+1. Matrix / Parallel (spreading test load vs. multiplying cost)
 
 - Current default: Sequential test execution.
 - Recommended: Use `parallel:matrix` for cross-platform testing; limit matrix size with `rules`.
@@ -2711,21 +2709,21 @@ Fail-Fast Conditions:
             - NODE_VERSION: [18]
   ```
 
-8. Merge Trains (batching MRs to reduce total Pipeline runs)
+1. Merge Trains (batching MRs to reduce total Pipeline runs)
 
 - Current default: Each MR triggers independent Pipeline.
 - Recommended: Enable Merge Trains for high-velocity Projects.
 - Impact: Cost reduction (fewer redundant Pipelines); reliability (tested in sequence).
 - YAML change: Enable in Project Settings > Merge Requests.
 
-9. Compute Minute Budgets (instance vs. hosted Runner cost model)
+1. Compute Minute Budgets (instance vs. hosted Runner cost model)
 
 - Current default: Unlimited for Self-Managed; tiered limits for GitLab.com.
 - Recommended: Monitor usage; set Project budgets; use Self-Managed for heavy workloads.
 - Impact: Cost control.
 - YAML change: N/A (Project Settings).
 
-10. Eco CI Signals (sustainability metrics and how to surface them)
+1. Eco CI Signals (sustainability metrics and how to surface them)
 
 - Current default: No sustainability tracking.
 - Recommended: Use `sustainability` reports; track compute minutes per deployment.

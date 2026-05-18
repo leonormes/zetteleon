@@ -13,7 +13,7 @@ title: Hosted runners on macOS
 
 {{< /details >}}
 
-Hosted runners on macOS provide an on-demand macOS environment, fully integrated with GitLab [CI/CD](../../_index.md).
+Hosted runners on macOS provide an on-demand macOS environment, fully integrated with GitLab [CI/CD](_index.md).
 You can use these runners to build, test, and deploy apps for the Apple ecosystem (macOS, iOS, watchOS, tvOS).
 Our [Mobile DevOps section](../../mobile_devops/mobile_devops_tutorial_ios.md#set-up-your-build-environment) provides features, documentation, and guidance on building and deploying mobile applications for iOS.
 

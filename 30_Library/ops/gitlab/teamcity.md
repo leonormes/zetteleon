@@ -267,7 +267,7 @@ For a migration from TeamCity, ask yourself the following questions in preparati
 Before doing any migration work, you should first:
 
 1. Get familiar with GitLab.
-   - Read about the [key GitLab CI/CD features](../_index.md).
+   - Read about the [key GitLab CI/CD features](_index.md).
    - Follow tutorials to create [your first GitLab pipeline](../quick_start/_index.md) and [more complex pipelines](../quick_start/tutorial.md) that build, test, and deploys a static site.
    - Review the [CI/CD YAML syntax reference](../yaml/_index.md).
 1. Set up and configure GitLab.
