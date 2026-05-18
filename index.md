@@ -31,6 +31,7 @@ _(empty—populated on first ingest)_
 - [[wiki/projects/AWS SSM Session Troubleshooting]]—AWS Systems Manager session login failure diagnosis: missing `s3:GetEncryptionConfiguration` permission on SSM role preventing session log writes to S3 bucket.
 - [[wiki/projects/Hermes Integration — Provider Adapter Setup]]—concrete implementation project to wire Claude and Gemini as first-class providers within Hermes via provider adapters, keeping Hermes as orchestrator and PKM hub.
 - [[wiki/projects/Hermes Iteration Limit Configuration]]—Debugging workstream resolving 10/10 turn freeze: identified confusion between `max_turns` (main chat loop) vs `max_iterations` (background delegation) configuration parameters.
+- [[wiki/projects/GitLab CI/CD Pipeline Research]]—GitLab CI/CD automation research for FITFILE/Hermes: comprehensive search synthesis, 7-phase TRANSFER artifact, cursor-based pagination workflow (2026-05-18).
 - [[wiki/projects/Grafana Alloy Monitoring — FTFL-638]]—Kubernetes monitoring stack: Grafana/Alloy Helm deployment, Loki log labeling, values.yaml schema design, and testing cluster fix plan for FTFL-638/511/512; acceptance criteria include cue vet validation, job label alignment (namespace/container), and ArgoCD-synced Alloy-logs DaemonSet.
 - [[wiki/projects/MCP Proxy Robustness and High Availability]]—Planning initiative to make mcp-proxy resilient across multiple AI consumers (Hermes, Claude, Cursor, Gemini); triggered by Hermes disabling four MCP servers without approval; 10-server restoration plan and chezmoi-config-guardrails.
 

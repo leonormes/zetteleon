@@ -200,3 +200,14 @@ Append-only — never edit past entries.
 - **Pieces IDs ingested:** 4 memories
 - **Flags:** none — 1 new project page created (Hermes Iteration Limit Configuration), debugging 10/10 turn freeze caused by max_turns vs max_iterations confusion
 
+
+---
+
+## 2026-05-18 10:16 — Project Check-In
+
+- **Action:** Ingest (Pieces LTM, last 4h)
+- **Raw sources created:** [[raw/2026-05-18-pieces-hermes-gitlab-research]]
+- **Wiki pages touched:** [[wiki/projects/GitLab CI/CD Pipeline Research]]
+- **Pieces IDs ingested:** 58 memories
+- **Flags:** none — 1 new project page created (GitLab CI/CD Pipeline Research), 1 raw note created; existing Hermes-Agent page not updated (activity within existing scope)
+
