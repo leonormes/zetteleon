@@ -2,7 +2,7 @@
 created: 2026-04-14T20:25:18+00:00
 created_utc: "2026-04-14T13:00:00Z"
 kind: procedure
-modified: 2026-04-19T18:30:43+00:00
+modified: 2026-05-15T13:45:14+00:00
 source_title: "Azure Entra Identity Best Practices & Remediation Plan"
 source_url: "https://gemini.google.com/app/90721765fb79ed7a"
 status: seed
@@ -12,28 +12,26 @@ type: atom
 upstream: "[[SoT - Microsoft Entra Identity]]"
 ---
 
-## Emergency Access Account Protocol
-
 Organizations must maintain "break-glass" emergency access accounts that are cloud-only and excluded from standard MFA and Conditional Access policies. These accounts serve as a final recovery path if primary authentication or identity services fail; as high-risk assets, they must be rigorously monitored for any sign-in activity.
 
-### Scope & Conditions
+## Scope & Conditions
 
 Used exclusively during catastrophic identity failure scenarios.
 
-### Evidence
+## Evidence
 
 > "Maintain two 'Emergency Access' accounts that are excluded from MFA and Conditional Access. These should be cloud-only… and be monitored for any login activity."
 
-### Implications
+## Implications
 
 - Provides an essential recovery path during a system-wide identity lockout.
 - Represents a deliberate security exception that must be mitigated by intense logging, alerting, and physical security for credentials.
 
-### Related
+## Related
 
 - [[SoT - Microsoft Entra Identity]]—direct concept match: details the security and storage requirements for break-glass accounts.
 - [[Byzantine Fault Tolerance Requirements]]—shared mechanism: both provide the necessary redundancy for survival in failure states.
 
-### See Also
+## See Also
 
 - [[Global Administrator Limit]]

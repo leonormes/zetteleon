@@ -189,3 +189,14 @@ Append-only — never edit past entries.
 - **Wiki pages touched:** [[wiki/projects/12 Million Patient Synthetic NHS-OMOP Pipeline]]
 - **Pieces IDs ingested:** 2 memories (0 new project pages, 1 existing page updated)
 - **Flags:** none — ticket context request for FTFL-479 (OMOP data setup script)
+
+---
+
+## 2026-05-16 21:27 — Project Check-In
+
+- **Action:** Ingest (Pieces LTM, last 4h → extended to 24h)
+- **Raw sources created:** [[raw/2026-05-16-pieces-hermes-iteration-limit]]
+- **Wiki pages touched:** [[wiki/projects/Hermes Iteration Limit Configuration]]
+- **Pieces IDs ingested:** 4 memories
+- **Flags:** none — 1 new project page created (Hermes Iteration Limit Configuration), debugging 10/10 turn freeze caused by max_turns vs max_iterations confusion
+
