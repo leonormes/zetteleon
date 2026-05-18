@@ -34,6 +34,12 @@ _(empty—populated on first ingest)_
 - [[INSIGHTFILE_PIPELINE_REPORT]]—GitLab CI/CD automation research for FITFILE/Hermes: comprehensive search synthesis, 7-phase TRANSFER artifact, cursor-based pagination workflow (2026-05-18).
 - [[wiki/projects/Grafana Alloy Monitoring — FTFL-638]]—Kubernetes monitoring stack: Grafana/Alloy Helm deployment, Loki log labeling, values.yaml schema design, and testing cluster fix plan for FTFL-638/511/512; acceptance criteria include cue vet validation, job label alignment (namespace/container), and ArgoCD-synced Alloy-logs DaemonSet.
 - [[wiki/projects/MCP Proxy Robustness and High Availability]]—Planning initiative to make mcp-proxy resilient across multiple AI consumers (Hermes, Claude, Cursor, Gemini); triggered by Hermes disabling four MCP servers without approval; 10-server restoration plan and chezmoi-config-guardrails.
+- [[wiki/projects/Pieces-LTM]]—Pieces LTM (Long-Term Memory) serves as the primary sensory input for the Obsidian PKM system, capturing snippets, terminal commands, open files, and annotations.
+- [[wiki/projects/Obsidian-PKM]]—Obsidian-based PKM vault following the AGENTS.md schema with three-layer memory architecture (raw/, wiki/, output/) for structured knowledge management.
+- [[wiki/projects/Token-Usage]]—Tracking and optimisation of LLM token consumption across sessions, including cost analysis and context compression strategies.
+- [[wiki/projects/Status-Reports]]—Structured status reporting and reflection workflow using numbered reflections and checklist-based task completion tracking.
+- [[wiki/projects/Chezmoi]]—Dotfile management using chezmoi for version-controlled configuration across systems with source directory at ~/.local/share/chezmoi/.
+- [[wiki/projects/LLMeon]]—LLMeon is the name of the Obsidian vault instance located at /Volumes/DAL/Zettelkasten/LLMeon, serving as the personal knowledge base.
 
 ### `wiki/orgs/`
 
@@ -45,4 +51,4 @@ _(empty—populated on first ingest)_
 
 ---
 
-_Updated: 2026-05-06 by Project Check-In_
+_Updated: 2026-05-18 by Project Check-In (6 new project pages)_

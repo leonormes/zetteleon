@@ -211,3 +211,12 @@ Append-only — never edit past entries.
 - **Pieces IDs ingested:** 58 memories
 - **Flags:** none — 1 new project page created (GitLab CI/CD Pipeline Research), 1 raw note created; existing Hermes-Agent page not updated (activity within existing scope)
 
+
+## 2026-05-18 13:20 — Project Check-In
+
+- **Action:** Ingest (Pieces LTM, last 4h)
+- **Raw sources created:** [[raw/2026-05-18-pieces-cuh-rbac-permissions]], [[raw/2026-05-18-pieces-worker-status-reflections]], [[raw/2026-05-18-pieces-llm-mcp-chezmoi-config]], [[raw/2026-05-18-pieces-hermes-diagnostic-session]], [[raw/2026-05-18-pieces-brain-mcp-integration]]
+- **Wiki pages touched:** [[wiki/projects/Pieces-LTM]], [[wiki/projects/Obsidian-PKM]], [[wiki/projects/Token-Usage]], [[wiki/projects/Status-Reports]], [[wiki/projects/Chezmoi]], [[wiki/projects/LLMeon]]
+- **Pieces IDs ingested:** 109 memories
+- **Flags:** none — 6 new project pages created (Pieces-LTM, Obsidian-PKM, Token-Usage, Status-Reports, Chezmoi, LLMeon), 5 raw notes created; existing Hermes-Agent page not updated (activity within existing scope)
+
