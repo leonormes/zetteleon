@@ -12,7 +12,7 @@ sources:
 
 ## Summary
 
-An infrastructure project to enable and validate Azure Backup for AKS (Azure Kubernetes Service) in the `aks-ff-uks-gp-1` cluster. The work spans three Jira tickets — FTFL-596 (backup configuration), FTFL-599 (restore runbook), and FTFL-615 (Terraform / IaC modules) — and covers end-to-end CLI provisioning, RBAC alignment, trusted access role binding, and Jira documentation.
+An infrastructure project to enable and validate Azure Backup for AKS (Azure Kubernetes Service) in the `aks-ff-uks-gp-1` cluster. The work spans three Jira tickets — FTFL-596 (backup configuration), FTFL-599 (restore runbook), and FTFL-615 (Terraform / IaC modules) — and covers end-to-end CLI provisioning, RBAC alignment, trusted access role binding, and Jira documentation. A subsequent production phase on the CUH-DP cluster is tracked separately.
 
 ## Key Facts
 
@@ -102,6 +102,7 @@ An infrastructure project to enable and validate Azure Backup for AKS (Azure Kub
 
 - [[raw/2026-04-29-pieces-azure-aks-backup-ftfl]]
 - [[wiki/projects/Security and Maintenance Roadmap]] (backup/restore is one of the four standing epics)
+- [[wiki/projects/CUH-DP AKS Backup — Terraform]] (production continuation: module upgrade & plan remediation)
 
 ## Contradictions
 

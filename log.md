@@ -220,3 +220,11 @@ Append-only — never edit past entries.
 - **Pieces IDs ingested:** 109 memories
 - **Flags:** none — 6 new project pages created (Pieces-LTM, Obsidian-PKM, Token-Usage, Status-Reports, Chezmoi, LLMeon), 5 raw notes created; existing Hermes-Agent page not updated (activity within existing scope)
 
+
+## 2026-05-19 13:48 — Project Check-In
+
+- **Action:** Ingest (Pieces LTM, last 4h)
+- **Raw sources created:** [[raw/2026-05-19-pieces-cuh-dp-aks-backup-terraform]], [[raw/2026-05-19-pieces-hermes-openrouter-config]]
+- **Wiki pages touched:** [[wiki/projects/CUH-DP AKS Backup — Terraform]]
+- **Pieces IDs ingested:** 65 memories
+- **Flags:** none — 1 new project page created (CUH-DP AKS Backup — Terraform), 2 raw notes created; existing Azure AKS Backup — FTFL page not updated (today's activity is a new production phase: module v1.0.5→v1.2.6 upgrade, destructive plan remediation, FTFL-615 subnet errors)

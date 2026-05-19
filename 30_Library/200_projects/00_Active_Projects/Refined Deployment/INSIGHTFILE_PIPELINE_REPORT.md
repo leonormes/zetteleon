@@ -1,7 +1,7 @@
 ---
 created: 2026-05-18T00:00:00+00:00
 entity_kind: project
-modified: 2026-05-18T14:48:42+00:00
+modified: 2026-05-18T14:59:19+00:00
 sources: [INSIGHTFILE_PIPELINE_REPORT, raw/2026-05-18-pieces-hermes-gitlab-research]
 tags: [2468041533, cicd, dossier, gitlab, pipeline, project, wiki]
 title: INSIGHTFILE_PIPELINE_REPORT
@@ -30,7 +30,6 @@ Evidence Sources: GitLab API via `glab` CLI, local file inspection, job trace lo
   1. BUILD_COMPILE—Native module build failures (`dtrace-provider` requiring `make` not found in container)—2 occurrences documented
   2. TEST_FAILURE—ESLint errors treated as build failures (`import/no-unresolved`, `react-hooks/exhaustive-deps` warnings)—2 occurrences documented
   3. ACR_AUTH—Azure Container Registry authentication failures (UNAUTHORIZED errors on push)—historically documented in pipeline 2468041533, not observed in 90-day query window
-
 - GitLab Runners Status: 4 of 20 runners online (20% availability); 8 offline, 2 paused, 6 stale
   - Source: `glab api "projects/fitfile%2Fapps%2FInsightFILE/runners"`—Section 8, Evidence E8
 - CI/CD Variables: 10 group-level variables (fitfile), 11 project-level variables (InsightFILE); all names documented in Section 6

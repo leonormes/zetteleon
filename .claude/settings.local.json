@@ -35,7 +35,12 @@
       "Bash(kubectl get *)",
       "Bash(helm get *)",
       "Bash(helm show *)",
-      "Bash(curl -s -X POST http://127.0.0.1:8000/mcp/ -H 'Content-Type: application/json' -H 'Accept: application/json, text/event-stream' -d '{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"tools/list\",\"params\":{}}')"
+      "Bash(curl -s -X POST http://127.0.0.1:8000/mcp/ -H 'Content-Type: application/json' -H 'Accept: application/json, text/event-stream' -d '{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"tools/list\",\"params\":{}}')",
+      "Bash(curl -s http://localhost:39300/model_context_protocol/2025-03-26/mcp -H 'Content-Type: application/json' -H 'Accept: application/json, text/event-stream' -d '{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"initialize\",\"params\":{\"protocolVersion\":\"2024-11-05\",\"capabilities\":{},\"clientInfo\":{\"name\":\"claude\",\"version\":\"1.0\"}}}' --max-time 10 -D -)",
+      "Bash(awk '{print $2}')",
+      "Bash(curl -s http://localhost:39300/model_context_protocol/2025-03-26/mcp -H 'Content-Type: application/json' -H 'Accept: application/json' -d '{\"jsonrpc\":\"2.0\",\"id\":1,\"method\":\"initialize\",\"params\":{\"protocolVersion\":\"2024-11-05\",\"capabilities\":{},\"clientInfo\":{\"name\":\"claude\",\"version\":\"1.0\"}}}' --max-time 10 -v)",
+      "Bash(awk -F': ' '{print $2}')",
+      "Bash(curl -s http://localhost:39300/model_context_protocol/2025-03-26/mcp -H 'Content-Type: application/json' -H 'Accept: application/json' -H 'mcp-session-id: 1779117748463' -d '{\"jsonrpc\":\"2.0\",\"id\":2,\"method\":\"tools/list\",\"params\":{}}' --max-time 10)"
     ]
   },
   "spinnerTipsEnabled": false

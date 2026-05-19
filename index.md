@@ -40,6 +40,7 @@ _(empty—populated on first ingest)_
 - [[wiki/projects/Status-Reports]]—Structured status reporting and reflection workflow using numbered reflections and checklist-based task completion tracking.
 - [[wiki/projects/Chezmoi]]—Dotfile management using chezmoi for version-controlled configuration across systems with source directory at ~/.local/share/chezmoi/.
 - [[wiki/projects/LLMeon]]—LLMeon is the name of the Obsidian vault instance located at /Volumes/DAL/Zettelkasten/LLMeon, serving as the personal knowledge base.
+- [[wiki/projects/CUH-DP AKS Backup — Terraform]]—Production Terraform remediation for Azure AKS Backup on CUH-DP cluster (aks-ff-uks-gp-01): module v1.0.5→v1.2.6 upgrade, destructive plan fixes (backup RG deletion, storage LRS override, AKS cluster replacement risk), variable interface changes, FTFL-615 subnet errors.
 
 ### `wiki/orgs/`
 
@@ -51,4 +52,4 @@ _(empty—populated on first ingest)_
 
 ---
 
-_Updated: 2026-05-18 by Project Check-In (6 new project pages)_
+_Updated: 2026-05-19 by Project Check-In (1 new project page)_
