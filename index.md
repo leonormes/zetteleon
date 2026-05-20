@@ -40,7 +40,8 @@ _(empty—populated on first ingest)_
 - [[wiki/projects/Status-Reports]]—Structured status reporting and reflection workflow using numbered reflections and checklist-based task completion tracking.
 - [[wiki/projects/Chezmoi]]—Dotfile management using chezmoi for version-controlled configuration across systems with source directory at ~/.local/share/chezmoi/.
 - [[wiki/projects/LLMeon]]—LLMeon is the name of the Obsidian vault instance located at /Volumes/DAL/Zettelkasten/LLMeon, serving as the personal knowledge base.
-- [[wiki/projects/CUH-DP AKS Backup — Terraform]]—Production Terraform remediation for Azure AKS Backup on CUH-DP cluster (aks-ff-uks-gp-01): module v1.0.5→v1.2.6 upgrade, destructive plan fixes (backup RG deletion, storage LRS override, AKS cluster replacement risk), variable interface changes, FTFL-615 subnet errors.
+- [[wiki/projects/CUH-DP AKS Backup — Terraform]]—Production Terraform remediation for Azure AKS Backup on CUH-DP cluster (aks-ff-uks-gp-01): module v1.0.5→v1.2.6 upgrade, destructive plan fixes (backup RG deletion, storage LRS override, AKS cluster replacement risk), variable interface changes, FTFL-615 subnet errors; AKS backup extension conflict resolution (azure-aks-backup vs azbkuextension name conflict, delete-and-recreate workflow); RBAC permissions thread with Sean Donnelly (CUH), SP confirmation (c3791fe2), resource group naming corrections, sprint impact analysis.
+- [[wiki/projects/gcx CLI — FITFILE Grafana Stacks]]—Setting up and authenticating the gcx CLI tool for both FITFILE Grafana Cloud stacks (fitfileprod and fitfiletest) under the garethhailes org.
 
 ### `wiki/orgs/`
 
@@ -52,4 +53,4 @@ _(empty—populated on first ingest)_
 
 ---
 
-_Updated: 2026-05-19 by Project Check-In (1 new project page)_
+*Updated 2026-05-19 by Project Check-In (1 new project page: gcx CLI — FITFILE Grafana Stacks; 1 page updated: CUH-DP AKS Backup — Terraform).*

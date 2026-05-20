@@ -228,3 +228,33 @@ Append-only — never edit past entries.
 - **Wiki pages touched:** [[wiki/projects/CUH-DP AKS Backup — Terraform]]
 - **Pieces IDs ingested:** 65 memories
 - **Flags:** none — 1 new project page created (CUH-DP AKS Backup — Terraform), 2 raw notes created; existing Azure AKS Backup — FTFL page not updated (today's activity is a new production phase: module v1.0.5→v1.2.6 upgrade, destructive plan remediation, FTFL-615 subnet errors)
+
+---
+
+## 2026-05-19 19:00 — Project Check-In
+
+- **Action:** Ingest (Pieces LTM, last 4h)
+- **Raw sources created:** [[raw/2026-05-19-pieces-terraform-iac]]
+- **Wiki pages touched:** [[wiki/projects/CUH-DP AKS Backup — Terraform]]
+- **Pieces IDs ingested:** 24 memories
+- **Flags:** none — existing project page updated with AKS backup extension conflict resolution (azure-aks-backup vs azbkuextension name conflict, delete-and-recreate workflow, correct az k8s-extension create command with --scope cluster and --configuration-settings flags)
+
+---
+
+## 2026-05-19 23:00 — Project Check-In
+
+- **Action:** Ingest (Pieces LTM, last 4h)
+- **Raw sources created:** [[raw/2026-05-19-pieces-gcx-grafana]]
+- **Wiki pages touched:** [[wiki/projects/gcx CLI — FITFILE Grafana Stacks]], [[wiki/projects/CUH-DP AKS Backup — Terraform]]
+- **Pieces IDs ingested:** 15 memories
+- **Flags:** none — 1 new project page created (gcx CLI — FITFILE Grafana Stacks), 1 existing page updated (CUH-DP AKS Backup — Terraform with RBAC/SP confirmation details)
+
+---
+
+## 2026-05-20 03:00 — Project Check-In
+
+- **Action:** Ingest (Pieces LTM, last 24h — 0 assets in 4h window)
+- **Raw sources created:** [[raw/2026-05-19-pieces-gcx-grafana-pagination]], [[raw/2026-05-19-pieces-aks-backup-pagination]]
+- **Wiki pages touched:** none (both sessions map to existing projects)
+- **Pieces IDs ingested:** 93 memories (37 + 56 across 2 sessions; 116 additional non-substantive assets tracked)
+- **Flags:** none — no new projects identified. 6 substantive assets were agent working notes (pagination directives during search_memory operations) related to existing projects: gcx CLI — FITFILE Grafana Stacks and Azure AKS Backup — FTFL. 116 assets filtered as noise (meta_complete, reflections, evaluator instructions).
