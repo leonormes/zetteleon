@@ -3,7 +3,7 @@ title: CUH-DP AKS Backup — Terraform
 wiki_type: dossier
 entity_kind: project
 created: 2026-05-19T13:48:00+00:00
-modified: 2026-05-19T22:20:00+00:00
+modified: 2026-05-22T07:29:00+00:00
 tags: [wiki, dossier, project]
 sources:
   - raw/2026-05-19-pieces-cuh-dp-aks-backup-terraform
@@ -11,6 +11,7 @@ sources:
   - raw/2026-05-19-pieces-terraform-iac
   - raw/2026-05-19-pieces-azure-backup
   - raw/2026-05-19-pieces-cuh-aks-backup-rbac-permissions
+  - raw/2026-05-21-pieces-cuh-aks-backup-session-compaction
 ---
 
 ## Summary

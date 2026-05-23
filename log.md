@@ -258,3 +258,49 @@ Append-only — never edit past entries.
 - **Wiki pages touched:** none (both sessions map to existing projects)
 - **Pieces IDs ingested:** 93 memories (37 + 56 across 2 sessions; 116 additional non-substantive assets tracked)
 - **Flags:** none — no new projects identified. 6 substantive assets were agent working notes (pagination directives during search_memory operations) related to existing projects: gcx CLI — FITFILE Grafana Stacks and Azure AKS Backup — FTFL. 116 assets filtered as noise (meta_complete, reflections, evaluator instructions).
+
+## 2026-05-21 13:30 — Project Check-In
+
+- **Action:** Ingest (Pieces LTM, last 24h)
+- **Raw sources created:** [[raw/2026-05-21-pieces-semble]], [[raw/2026-05-21-pieces-hermes-agent]], [[raw/2026-05-21-pieces-general]], [[raw/2026-05-21-pieces-general-1]], [[raw/2026-05-21-pieces-cuh-azure-aks]], [[raw/2026-05-21-pieces-cuh-azure-aks-1]], [[raw/2026-05-21-pieces-obsidian-pkm]], [[raw/2026-05-21-pieces-zsh-config]]
+- **Wiki pages touched:** [[wiki/projects/Azure-AKS]], [[wiki/projects/Semble]], [[wiki/projects/Zsh-Config]]
+- **Pieces IDs ingested:** 83 memories across 8 raw notes (96 total assets, 13 filtered as noise: empty SYSTEM_TOOL_CALL, context compaction summaries, migration reports)
+- **Flags:** none — Azure-AKS page updated with new CUH bastion/jumpbox findings; 2 new project pages created (Semble, Zsh-Config)
+
+## 2026-05-22 13:30 — Project Check-In
+
+- **Action:** Ingest (Pieces LTM, last 24h — 0 assets in 4h window)
+- **Raw sources created:** [[raw/2026-05-22-pieces-calibre-semantic-search]]
+- **Wiki pages touched:** [[wiki/projects/Calibre Semantic Ebook Research]]
+- **Pieces IDs ingested:** 79 assets in 24h window (0 in 4h), 13 substantive after filtering (63 noise filtered: meta_complete, reflections, evaluator instructions; 1 agent self-talk; 2 empty)
+- **Flags:** none — 1 new project page created (Calibre Semantic Ebook Research)
+
+## 2026-05-23 00:23 — Project Check-In
+
+- **Action:** Ingest (Pieces LTM, extended to 24h — 0 assets in 4h window)
+- **Raw sources created:** [[raw/2026-05-22-pieces-nnuh-mkuh-storage-public-access]]
+- **Wiki pages touched:** [[wiki/projects/NNU Azure Backup]], [[wiki/projects/MKUH Azure Backup]]
+- **Pieces IDs ingested:** 1 new asset (79 total in 24h, 35 un-ingested — 34 were agent reflections/meta_complete noise, 1 substantive user question)
+- **Flags:** none — no new projects identified. 1 new fact added: NNUH and MKUH storage accounts flagged for public network access verification despite private endpoint configuration. Existing project pages updated with this finding.
+
+---
+
+## 2026-05-23 12:00 — Topic Research: ADHD Procrastination & Productivity
+
+- **Action:** Output-created (research synthesis)
+- **Raw source:** [[raw/2026-05-23-research-adhd-procrastination-productivity]]
+- **Wiki pages touched:** [[wiki/concepts/ADHD Procrastination and Productivity]]
+- **Flags:** none
+- **Sources:** 13 key papers identified via PubMed, arXiv, Semantic Scholar. Steel (2007) meta-analysis, Bolden & Fillauer (2020) EF mediation study, Solanto & Scheres (2021) CBT-RCT, Gundogdu (2023) adolescent predictors, Hill et al. (2022) and Azeem et al. (2026) bedtime procrastination meta-analyses, Zhang et al. (2026) DBT vs CBT RCT, Gabrieli et al. (2026) EI systematic review.
+- **Summary:** Created comprehensive research synthesis on ADHD-related procrastination covering: temporal motivation theory, executive function mediation model (time management + organization as primary pathways), evidence-based interventions (CBT strongest, DBT for emotion dysregulation, EI training, VR body doubling, biofeedback), neurobiological basis (dopaminergic reward deficit, network instability), and 13 citations with PMIDs.
+
+---
+
+## 2026-05-23 12:52 — Daily Synthesis (Project Check-In)
+
+- **Action:** Ingest (Pieces LTM)
+- **Raw sources created:** [[raw/2026-05-23-pieces-natural-planning-model]], [[raw/2026-05-23-pieces-config-audit]]
+- **Wiki pages touched:** [[wiki/projects/K8s Cluster Stress Testing with OMOP Data]], [[wiki/projects/GitOps Deployment Pipeline Optimisation]], [[wiki/projects/Azure Entra ID IAM → IaC + PIM Migration]], [[wiki/projects/Execution Protocol for High-Friction Work]], [[wiki/projects/Hermes Config Production-Ready Audit]]
+- **Pieces IDs ingested:** 5 memories
+- **Flags:** none
+- **Summary:** 5 substantive Pieces assets captured in 4-hour window (from 8 assets, 3 noise filtered). Two session themes: (1) Natural Planning Model session covering 3 summer projects (K8s/OMOP stress testing, GitOps pipeline optimisation, Azure Entra IAM/IaC/PIM migration) plus break-glass account blueprint and personal execution protocol; (2) Hermes config.yaml production-ready audit with 7-phase /goal instruction set.

@@ -3,10 +3,11 @@ title: MKUH Azure Backup
 wiki_type: dossier
 entity_kind: project
 created: 2026-04-30T06:04:37+00:00
-modified: 2026-04-30T06:04:37+00:00
+modified: 2026-05-23T00:23:00+00:00
 tags: [wiki, dossier]
 sources:
   - raw/2026-04-30-pieces-azure-backup-projects
+  - raw/2026-05-22-pieces-nnuh-mkuh-storage-public-access.md
 ---
 
 ## Summary
@@ -24,10 +25,14 @@ Azure Backup configuration project for Milton Keynes University Hospital (MKUH) 
 - The infrastructure sequence, payload requirements, and RBAC permissions established in the pentest environment will inform the MKUH deployment.
   > "Successfully validated the end-to-end CLI provisioning flow for Azure Backup on AKS. This establishes the exact infrastructure sequence, payload requirements, and RBAC permissions necessary to update our backup runbooks and prepare the Terraform modules for the EoE Data Providers (NNUH & MKUH)." — [[raw/2026-04-30-pieces-azure-backup-projects]] (Pieces: a89376bd-cdfa-4436-9098-ab10866bef7c)
 
+- MKUH storage accounts may have `publicNetworkAccess` enabled despite private endpoint configuration — flagged for verification 2026-05-22.
+  > "[NNUH and MKUH] storage accounts, although using private endpoint, are available to public network" — [[raw/2026-05-22-pieces-nnuh-mkuh-storage-public-access]] (Pieces: 5e900cc2-d3af-43d1-ab6b-4a0fd9cdd305)
+
 ## Timeline
 
 - **2026-04-29**: Infrastructure patterns validated on pentest cluster; MKUH identified as target deployment site.
 - **2026-04-30**: Terraform module development underway to support MKUH deployment.
+- **2026-05-22**: MKUH storage accounts flagged for public network access verification — `publicNetworkAccess` may be enabled despite private endpoint.
 
 ## Connections
 

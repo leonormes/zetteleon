@@ -29,8 +29,13 @@ _(empty—populated on first ingest)_
 - [[wiki/projects/Terraform IaC Modules]]—FTFL-596/615: Terraform modules for Azure Backup for AKS, handling Vault/AKS MSI role assignments and trusted access role bindings; LLM prompt created to audit module and produce implementable plan with current state inventory, gaps, proposed changes, migration steps, and git-friendly patch diffs.
 - [[wiki/projects/Unified LLM Router Cockpit]]—unifying LLM tooling (Ollama, Hermes, Claude, Gemini, Pieces) into a deterministic chezmoi-managed workflow.
 - [[wiki/projects/AWS SSM Session Troubleshooting]]—AWS Systems Manager session login failure diagnosis: missing `s3:GetEncryptionConfiguration` permission on SSM role preventing session log writes to S3 bucket.
+- [[wiki/projects/Azure Entra ID IAM → IaC + PIM Migration]]—High-stakes project to migrate Entra ID configuration to Infrastructure as Code, implement Privileged Identity Management, and tidy stale policies; includes break-glass account blueprint prerequisite.
+- [[wiki/projects/Execution Protocol for High-Friction Work]]—Personal execution protocol (Pre-Flight → Walking Skeleton → Unschedule → WIP Limits) for initiating large, ambiguous engineering projects.
+- [[wiki/projects/GitOps Deployment Pipeline Optimisation]]—Incremental investigation and optimisation of a live GitOps deployment pipeline measured via Four Key Metrics; no big-bang replacements.
+- [[wiki/projects/Hermes Config Production-Ready Audit]]—Config.yaml audit identifying redundancies, conflicts, and ~40% config reduction opportunity; produced 7-phase /goal instruction set for production-ready workstation convergence.
 - [[wiki/projects/Hermes Integration — Provider Adapter Setup]]—concrete implementation project to wire Claude and Gemini as first-class providers within Hermes via provider adapters, keeping Hermes as orchestrator and PKM hub.
 - [[wiki/projects/Hermes Iteration Limit Configuration]]—Debugging workstream resolving 10/10 turn freeze: identified confusion between `max_turns` (main chat loop) vs `max_iterations` (background delegation) configuration parameters.
+- [[wiki/projects/K8s Cluster Stress Testing with OMOP Data]]—Summer project to validate distributed Kubernetes cluster stability under large OMOP clinical data loads; scoped via GTD Natural Planning Model.
 - [[INSIGHTFILE_PIPELINE_REPORT]]—GitLab CI/CD automation research for FITFILE/Hermes: comprehensive search synthesis, 7-phase TRANSFER artifact, cursor-based pagination workflow (2026-05-18).
 - [[wiki/projects/Grafana Alloy Monitoring — FTFL-638]]—Kubernetes monitoring stack: Grafana/Alloy Helm deployment, Loki log labeling, values.yaml schema design, and testing cluster fix plan for FTFL-638/511/512; acceptance criteria include cue vet validation, job label alignment (namespace/container), and ArgoCD-synced Alloy-logs DaemonSet.
 - [[wiki/projects/MCP Proxy Robustness and High Availability]]—Planning initiative to make mcp-proxy resilient across multiple AI consumers (Hermes, Claude, Cursor, Gemini); triggered by Hermes disabling four MCP servers without approval; 10-server restoration plan and chezmoi-config-guardrails.
@@ -42,6 +47,9 @@ _(empty—populated on first ingest)_
 - [[wiki/projects/LLMeon]]—LLMeon is the name of the Obsidian vault instance located at /Volumes/DAL/Zettelkasten/LLMeon, serving as the personal knowledge base.
 - [[wiki/projects/CUH-DP AKS Backup — Terraform]]—Production Terraform remediation for Azure AKS Backup on CUH-DP cluster (aks-ff-uks-gp-01): module v1.0.5→v1.2.6 upgrade, destructive plan fixes (backup RG deletion, storage LRS override, AKS cluster replacement risk), variable interface changes, FTFL-615 subnet errors; AKS backup extension conflict resolution (azure-aks-backup vs azbkuextension name conflict, delete-and-recreate workflow); RBAC permissions thread with Sean Donnelly (CUH), SP confirmation (c3791fe2), resource group naming corrections, sprint impact analysis.
 - [[wiki/projects/gcx CLI — FITFILE Grafana Stacks]]—Setting up and authenticating the gcx CLI tool for both FITFILE Grafana Cloud stacks (fitfileprod and fitfiletest) under the garethhailes org.
+- [[wiki/projects/Semble]]—Semantic code search library integration for Hermes agents; replaces grep+read with BM25+semantic hybrid, achieving ~84% token reduction.
+- [[wiki/projects/Zsh-Config]]—Zsh command-line editing via `edit-command-line` ZLE widget bound to Vim; chezmoi-managed configuration.
+- [[wiki/projects/Calibre Semantic Ebook Research]]—Hermes skill system for semantic search across the Calibre ebook library, generating reading lists and research notes integrated with Obsidian PKM.
 
 ### `wiki/orgs/`
 
@@ -49,8 +57,8 @@ _(empty—populated on first ingest)_
 
 ### `wiki/concepts/`
 
-_(empty—populated on first ingest)_
+- [[wiki/concepts/ADHD Procrastination and Productivity]] — Neurodevelopmental executive function deficit model; EF mediation (time management, organization); evidence-based interventions (CBT, DBT, EI training, VR body doubling); temporal motivation theory; bedtime procrastination.
 
 ---
 
-*Updated 2026-05-19 by Project Check-In (1 new project page: gcx CLI — FITFILE Grafana Stacks; 1 page updated: CUH-DP AKS Backup — Terraform).*
+*Updated 2026-05-23 by Project Check-In: 5 new project pages (K8s Stress Testing, GitOps Pipeline, Azure Entra IAM, Hermes Config Audit, Execution Protocol); 2 new raw notes.*
