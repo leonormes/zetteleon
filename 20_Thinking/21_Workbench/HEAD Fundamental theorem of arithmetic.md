@@ -1,7 +1,7 @@
 ---
 captured: "2026-05-21T15:40:04+01:00 2026-05-21T15:40:04+01:00"
 created: 2026-05-21T14:40:06+00:00
-modified: 2026-05-22T07:34:51+00:00
+modified: 2026-05-23T15:51:51+00:00
 source: "https://claude.ai/chat/af9bd096-ef27-493e-8b30-859967b46e97"
 status: "processing"
 tags: ["input"]
@@ -129,18 +129,18 @@ All six belong to the same "set"—the set of integers with $\Omega(n) = 3$.
 There's a closely related function that counts distinct primes (ignoring multiplicity):
 
 $$
-\Omega(n) = \text{number of } \textit{distinct} \text{ prime factors of } n
+\omega(n) = \text{number of } \textit{distinct} \text{ prime factors of } n
 $$
 
 Compare:
 
 | Number | Factorisation | Ω(n) | ω(n) |
-| --- | --- | --- | --- |
-| 12 | 2² × 3 | 3 | 2 |
-| 30 | 2 × 3 × 5 | 3 | 3 |
-| 8 | 2³ | 3 | 1 |
+| ------ | ------------- | ---- | ---- |
+| 12     | 2² × 3        | 3    | 2    |
+| 30     | 2 × 3 × 5     | 3    | 3    |
+| 8      | 2³            | 3    | 1    |
 
-So $\Omega$ and $\Omega$ agree precisely when $n$ is squarefree (no prime appears more than once).
+So $\Omega$ and $\omega$ agree precisely when $n$ is squarefree (no prime appears more than once).
 
 ### Named Classes Built From This
 
@@ -255,7 +255,7 @@ Public world:      n, e
 Secret world:      p, q  →  φ(n) = (p−1)(q−1)  →  d = e⁻¹ mod φ(n)
 ```
 
-Everything secret in RSA—$phi(n)$, $d$, the ability to decrypt—flows from knowing the factorisation. The public key $n$ *implies* all of it mathematically, but the trapdoor keeps it locked.
+Everything secret in RSA—$phi(n)$, $d$, the ability to decrypt—flows from knowing the factorisation. The public key $n$ _implies_ all of it mathematically, but the trapdoor keeps it locked.
 
 In a real sense: RSA is the Fundamental Theorem of Arithmetic weaponised by computational complexity. The theorem guarantees the uniqueness; complexity theory guarantees the secrecy.
 
@@ -276,7 +276,7 @@ print(n, e, d)
 
 Then encrypt a small number (say, message $m = 65$): `c = pow(m, e, n)`. Decrypt with: `pow(c, d, n)`. You should get 65 back.
 
-That's RSA, complete, in five lines. Once that clicks, the *only* thing scaling up to RSA-2048 changes is the size of $p$ and $q$—and with them, the difficulty of someone reversing $n$ back into ${p, q}$.
+That's RSA, complete, in five lines. Once that clicks, the _only_ thing scaling up to RSA-2048 changes is the size of $p$ and $q$—and with them, the difficulty of someone reversing $n$ back into ${p, q}$.
 
 ---
 
@@ -398,7 +398,7 @@ Compare with ω(n), which is only additive when m and n share no primes:
 
 This rule should look familiar:
 
-- $log(mn) = log(m) + log(n)$
+- $\log(mn) = \log(m) + \log(n)$
 - $\Omega(mn) = \Omega(m) + \Omega(n)$
 
 That's not a coincidence. Ω is essentially a "logarithm with respect to primes": it doesn't care about magnitude, only about how many prime factors you've stacked together. Recalling our exponent-tuple from earlier—Ω(n) is just the sum of the coordinates. The L1 norm of n's prime-signature vector.
@@ -542,4 +542,3 @@ print(f"Predicted (log log N): {math.log(math.log(100_000)):.3f}")
 You should see the mean and variance both hover around ~2.4—exactly log log 100,000. A 1940 theorem, confirmed empirically in your terminal in under a second.
 
 If that hooks you, change `100_001` to `1_000_001` and watch the prediction tighten. That gap between observation and prediction shrinking is, in essence, why analytic number theory exists.
-
