@@ -304,3 +304,78 @@ Append-only — never edit past entries.
 - **Pieces IDs ingested:** 5 memories
 - **Flags:** none
 - **Summary:** 5 substantive Pieces assets captured in 4-hour window (from 8 assets, 3 noise filtered). Two session themes: (1) Natural Planning Model session covering 3 summer projects (K8s/OMOP stress testing, GitOps pipeline optimisation, Azure Entra IAM/IaC/PIM migration) plus break-glass account blueprint and personal execution protocol; (2) Hermes config.yaml production-ready audit with 7-phase /goal instruction set.
+
+---
+
+## 2026-05-23 20:15 — Daily Synthesis (Project Check-In)
+
+- **Action:** Ingest (Pieces LTM)
+- **Raw sources created:** [[raw/2026-05-23-pieces-starship-config.md]], [[raw/2026-05-23-pieces-hermes-model-error.md]], [[raw/2026-05-23-pieces-hermes-tui-slow.md]]
+- **Wiki pages touched:** [[wiki/projects/Starship-Performance-Tuning]], [[wiki/projects/Hermes-Model-Configuration]], [[wiki/projects/Hermes-TUI-Startup-Performance]]
+- **Pieces IDs ingested:** 12 memories
+- **Flags:** none
+- **Summary:** 22 substantive Pieces assets captured in 4-hour window (from 79 total, 57 noise filtered). Three session themes: (1) Starship prompt performance tuning — identified critical bottlenecks in starship.toml (2000ms command_timeout, unscoped k8s/azure/aws modules, missing git_status ignore_submodules); (2) Hermes model configuration — diagnosed `qwen/qwen3.5:cloud` invalid model ID error traced to stale profile YAML reference; (3) Hermes TUI startup performance — user reported 30-40+ second startup, /goal prompt composed for self-diagnosis.
+
+## 2026-05-24 01:27 — Daily Synthesis (Pieces LTM)
+
+- **Action:** Ingest (Pieces LTM) + Wiki update
+- **Raw sources created:** none (deduped — raw/2026-05-24-pieces-hermes-starship-config.md already existed)
+- **Wiki pages touched:** [[wiki/projects/Hermes Config Production-Ready Audit]]
+- **Pieces IDs ingested:** 2 memories (5ff9ae1f-6b69-48f2-b874-02c8d717898e config/starship snippets + STARSHIP PERFORMANCE TUNING PLAN convergence plan section)
+- **Flags:** none
+
+## 2026-05-24 02:00 — Project Check-In
+
+- **Action:** Ingest (Pieces LTM) — Project Check-In cron
+- **Raw sources created:** 0 (all user activity already captured in existing raw notes)
+- **Wiki pages touched:** [[wiki/projects/Hermes Config Production-Ready Audit]] — fixed 5 broken `[[raw/pieces-config-audit]]` links → `[[raw/phermes-config-audit]]`, fixed 2 wikilinks in Connections section (Hermes Model Configuration → Hermes-Model-Configuration, Hermes TUI Startup Performance → Hermes-TUI-Startup-Performance), updated `sources` frontmatter, bumped `modified` timestamp
+- **Pieces IDs ingested:** 0 new (all 122 new assets were agent working notes / meta_complete / pagination directives — no substantive user-generated content)
+- **Flags:** 5 broken raw/ links fixed in Hermes Config Production-Ready Audit wiki page
+
+## 2026-05-24 20:15 — Project Check-In
+
+- **Action:** Ingest (Pieces LTM) — Project Check-In cron
+- **Raw sources created:** [[raw/2026-05-24-pieces-starship-hermes-review.md]]
+- **Wiki pages touched:** [[wiki/projects/Starship-Performance-Tuning]], [[wiki/projects/Hermes Config Production-Ready Audit]]
+- **Pieces IDs ingested:** 8 memories (c0f950bd, 765deb6b, 2b045ae4, ce8debb5, 8bbed588, 0f61f3fc, 26fa2824, c9977711)
+- **Flags:** none — starship fix confirmed applied, hermes config self-review prompt created
+
+## 2026-05-24 14:32 — Daily Synthesis (Project Check-In cron)
+
+- **Action:** Ingest (Pieces LTM) — Project Check-In cron
+- **Raw sources created:** 0 new raw notes (all assets already ingested)
+- **Wiki pages touched:** [[wiki/projects/Hermes-Model-Configuration]], [[wiki/projects/Hermes Config Production-Ready Audit]]
+- **Pieces IDs ingested:** 0 new (88 assets found in 24h window, all duplicates of existing raw notes)
+- **Flags:** none — wiki pages updated with specific profile file paths (ops.yaml, jira.yaml) and Gemini blog post validation session detail
+
+## 2026-05-25 02:49 — Project Check-In
+
+- **Action:** Ingest (Pieces LTM) — Project Check-In cron
+- **Raw sources created:** 0 new raw notes (all assets already ingested)
+- **Wiki pages touched:** 0 (no new facts to add)
+- **Pieces IDs ingested:** 0 new (33 assets found in 24h window — 32 noise filtered, 1 substantive asset already in raw/2026-05-24-pieces-hermes-discovery-report.md)
+- **Flags:** none — 4h window returned 0 results; extended to 24h per skill protocol
+
+## 2026-05-25 11:01 — Project Check-In
+
+- **Action:** Ingest (Pieces LTM) — Project Check-In cron
+- **Raw sources created:** [[raw/2026-05-24-pieces-hermes-discovery-report-full]]
+- **Wiki pages touched:** [[wiki/projects/Hermes Config Production-Ready Audit]]
+- **Pieces IDs ingested:** 1 new memory (c8c5de20) — 33 assets found in 24h window, 4 duplicates filtered, 11 noise filtered, 17 empty/agent-talk filtered, 1 substantive asset ingested
+- **Flags:** none — 4h window returned 0 results; extended to 24h per skill protocol
+
+## 2026-05-25 15:00 — Project Check-In
+
+- **Action:** Ingest (Pieces LTM) — Project Check-In cron
+- **Raw sources created:** none (no new substantive assets)
+- **Wiki pages touched:** 0
+- **Pieces IDs ingested:** 0 new (33 assets found in 24h window — 5 duplicates, 28 noise/short filtered, 0 substantive remain)
+- **Flags:** none — 4h window returned 0 results; extended to 24h per skill protocol
+
+## 2026-05-25 19:25 — Project Check-In
+
+- **Action:** Ingest (Pieces LTM) — Project Check-In cron
+- **Raw sources created:** none (no new substantive assets)
+- **Wiki pages touched:** 0
+- **Pieces IDs ingested:** 0 new (33 assets found in 30h extended window — all IDs already in raw notes or noise/short filtered)
+- **Flags:** none — 4h window returned 0 results; extended to 30h per skill protocol; latest Pieces activity was 2026-05-24T18:11 (~25h ago); Hermes discovery report content already fully captured in existing raw notes and wiki pages

@@ -1,6 +1,6 @@
 ---
 created: 2026-04-28T00:00:00+00:00
-modified: 2026-05-06T12:50:00+00:00
+modified: 2026-05-24
 tags: [index, system]
 title: index
 ---
@@ -32,9 +32,12 @@ _(empty—populated on first ingest)_
 - [[wiki/projects/Azure Entra ID IAM → IaC + PIM Migration]]—High-stakes project to migrate Entra ID configuration to Infrastructure as Code, implement Privileged Identity Management, and tidy stale policies; includes break-glass account blueprint prerequisite.
 - [[wiki/projects/Execution Protocol for High-Friction Work]]—Personal execution protocol (Pre-Flight → Walking Skeleton → Unschedule → WIP Limits) for initiating large, ambiguous engineering projects.
 - [[wiki/projects/GitOps Deployment Pipeline Optimisation]]—Incremental investigation and optimisation of a live GitOps deployment pipeline measured via Four Key Metrics; no big-bang replacements.
-- [[wiki/projects/Hermes Config Production-Ready Audit]]—Config.yaml audit identifying redundancies, conflicts, and ~40% config reduction opportunity; produced 7-phase /goal instruction set for production-ready workstation convergence.
+- [[wiki/projects/Hermes Config Production-Ready Audit]]—Config.yaml audit identifying redundancies, conflicts, and ~40% config reduction opportunity; produced 7-phase /goal instruction set for production-ready workstation convergence; comprehensive Discovery Report commissioned and delivered 2026-05-24 synthesising all LTM-captured configuration knowledge.
 - [[wiki/projects/Hermes Integration — Provider Adapter Setup]]—concrete implementation project to wire Claude and Gemini as first-class providers within Hermes via provider adapters, keeping Hermes as orchestrator and PKM hub.
 - [[wiki/projects/Hermes Iteration Limit Configuration]]—Debugging workstream resolving 10/10 turn freeze: identified confusion between `max_turns` (main chat loop) vs `max_iterations` (background delegation) configuration parameters.
+- [[wiki/projects/Hermes-Model-Configuration]]—Diagnosis of `qwen/qwen3.5:cloud` invalid model ID error: traced stale reference to profile YAML files; both live and chezmoi configs already correct.
+- [[wiki/projects/Hermes-TUI-Startup-Performance]]—Investigation into slow `hermes --tui` startup (30–40+ seconds); /goal prompt composed for self-diagnosis of config bottlenecks.
+- [[wiki/projects/Starship-Performance-Tuning]]—Analysis and optimisation of Starship prompt config (starship.toml): identified critical bottlenecks including 2000ms command_timeout, unscoped k8s/azure/aws modules.
 - [[wiki/projects/K8s Cluster Stress Testing with OMOP Data]]—Summer project to validate distributed Kubernetes cluster stability under large OMOP clinical data loads; scoped via GTD Natural Planning Model.
 - [[INSIGHTFILE_PIPELINE_REPORT]]—GitLab CI/CD automation research for FITFILE/Hermes: comprehensive search synthesis, 7-phase TRANSFER artifact, cursor-based pagination workflow (2026-05-18).
 - [[wiki/projects/Grafana Alloy Monitoring — FTFL-638]]—Kubernetes monitoring stack: Grafana/Alloy Helm deployment, Loki log labeling, values.yaml schema design, and testing cluster fix plan for FTFL-638/511/512; acceptance criteria include cue vet validation, job label alignment (namespace/container), and ArgoCD-synced Alloy-logs DaemonSet.
@@ -61,4 +64,4 @@ _(empty—populated on first ingest)_
 
 ---
 
-*Updated 2026-05-23 by Project Check-In: 5 new project pages (K8s Stress Testing, GitOps Pipeline, Azure Entra IAM, Hermes Config Audit, Execution Protocol); 2 new raw notes.*
+*Updated 2026-05-25 by Project Check-In (cron): Full Discovery Report text captured (1 new raw note: 2026-05-24-pieces-hermes-discovery-report-full.md); 1 wiki page updated (Hermes Config Production-Ready Audit — version history, TUI targets, max_turns, profiles, brain-mcp status, voice-capture status).*
