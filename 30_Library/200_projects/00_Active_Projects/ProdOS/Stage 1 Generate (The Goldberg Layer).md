@@ -1,7 +1,7 @@
 ---
 aliases: ["Goldberg Layer", "Timed Writing"]
 created: 2025-12-04T12:23:40Z
-modified: 2026-05-26T11:44:31+00:00
+modified: 2026-05-26T13:38:29+00:00
 status: "stable"
 tags: ["generation", "pkm", "prodos", "writing"]
 title: Stage 1 Generate (The Goldberg Layer)

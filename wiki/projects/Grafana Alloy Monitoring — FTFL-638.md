@@ -3,10 +3,11 @@ title: Grafana Alloy Monitoring — FTFL-638
 wiki_type: dossier
 entity_kind: project
 created: 2026-05-06T20:15:00+00:00
-modified: 2026-05-06T20:15:00+00:00
+modified: 2026-05-26T14:30:00+00:00
 tags: [wiki, dossier]
 sources:
   - raw/2026-05-06-pieces-grafana-alloy-monitoring
+  - raw/2026-05-26-pieces-ftfl599-ftfl638-prodos
 ---
 
 ## Summary
@@ -40,7 +41,11 @@ A Kubernetes monitoring stack project focused on Grafana/Alloy Helm deployment a
   > "Security hardening remains in force (TLS 1.2/1.3, cipher suites, private networking where applicable)." — [[raw/2026-05-06-pieces-grafana-alloy-monitoring]] (Pieces: cc31dc88-8370-40ed-8d2e-8ed5943921ad)
 
 - Key file reference: `ffnodes/fitfile/testing/values.yaml` on local filesystem (`file:///Volumes/DAL/Fitfile/gitlab/FITFILE/Deployment/deployment/ffnodes/fitfile/testing/values.yaml`).
-  > "File references you’ve touched or reviewed: ffnodes/fitfile/testing/values.yaml and related Alloy config/configMap sections." — [[raw/2026-05-06-pieces-grafana-alloy-monitoring]] (Pieces: cc31dc88-8370-40ed-8d2e-8ed5943921ad)
+  > "File references you've touched or reviewed: ffnodes/fitfile/testing/values.yaml and related Alloy config/configMap sections." — [[raw/2026-05-06-pieces-grafana-alloy-monitoring]] (Pieces: cc31dc88-8370-40ed-8d2e-8ed5943921ad)
+
+- **2026-05-26**: User provided a detailed FTFL-638 spec document (YAML frontmatter + markdown) with a structured task list covering Phase 0 verification (kubectl/gcx checks), values.yaml fixes (extraRelabelingRules, KSM cluster label, discoveryType), and a complete Cursor context prompt was produced and delivered — [[raw/2026-05-26-pieces-ftfl599-ftfl638-prodos]] (Pieces: 79586e03-fc44-4bcd-84ba-be79547e60ab)
+- **2026-05-26**: Live values.yaml (16,966 bytes, modified 14:00 BST) was read directly; specific problems identified in the `grafana:` block including wrong `extraRelabelingRules` structure, missing KSM cluster label, and incorrect `discoveryType` key — [[raw/2026-05-26-pieces-ftfl599-ftfl638-prodos]] (Pieces: 01c62afd-9f7d-444f-825c-1213baddc4cb)
+- **2026-05-26**: A complete, grounded Cursor context prompt for FTFL-638 was produced covering all 7 checklist items, backed by real file reads and corroborated LTM evidence — [[raw/2026-05-26-pieces-ftfl599-ftfl638-prodos]] (Pieces: acbc5946-0a34-4b46-bc44-2fe5e6a0823e)
 
 ## Connections
 

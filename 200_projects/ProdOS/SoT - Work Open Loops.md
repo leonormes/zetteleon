@@ -1,9 +1,12 @@
 ---
 created: 2026-05-26T09:39:03+00:00
-last_updated: 2026-05-26T11:00:00+01:00
-modified: 2026-05-26T11:43:27+00:00
+last_updated: 2026-05-26T17:30:00+00:00
+modified: 2026-05-26T17:30:00+00:00
 title: SoT - Work Open Loops
-top3: ["FTFL-476: Identify and escalate blocker on OMOP Stress Testing infra", "FTFL-599: Schedule Azure backup restore runbook update into current sprint", "FTFL-638: Resume Grafana Monitoring in testing cluster — stale 4d, going cold"]
+top3:
+  - "FTFL-476: Identify and escalate blocker on OMOP Stress Testing infra"
+  - "FTFL-599: Schedule Azure backup restore runbook update into current sprint"
+  - "FTFL-638: Resume Grafana Monitoring in testing cluster — stale 4d, going cold"
 ---
 
 ## Work Open Loops—Source of Truth
@@ -18,11 +21,14 @@ top3: ["FTFL-476: Identify and escalate blocker on OMOP Stress Testing infra", "
 
 ### Known Data Gaps
 
-- Microsoft Teams: No Teams MCP server configured. @mention action items from Teams chat must be captured manually into Todoist until a Teams MCP is added.
-- Jira MCP server (`@aashari/mcp-server-atlassian-jira`): Not used—Node `fetch()` does not honour macOS system proxies. Using `jira-fetch.js` with `https.request()` instead.
+- **Pieces LTM**: Memory tool unavailable in cron context. No ambient context retrieved this run.
+- **Jira**: 1Password field mismatch — the "Fitfile Atlassian" item has no "API Token" field (it has `password` instead). Script `jira-fetch.js` line 30 hardcodes `OP_FIELD = 'API Token'`. Jira data not refreshed since 12:00; table reflects last successful query. **Fix needed**: update `OP_FIELD` in jira-fetch.js to use the correct field name or switch to `op item get ... --fields password`.
+- **Microsoft Teams**: No Teams MCP server configured. @mention action items from Teams chat must be captured manually into Todoist until a Teams MCP is added.
+- **Jira MCP server** (`@aashari/mcp-server-atlassian-jira`): Not used—Node `fetch()` does not honour macOS system proxies. Using `jira-fetch.js` with `https.request()` instead.
+- **Todoist**: No Todoist CLI/tool available in cron context. Task sync skipped.
 
 ### Resolved
 
 | ID | Summary | Resolved Date |
 |----|---------|---------------|
-|—| No issues resolved since last run (2026-05-26 10:28) |—|
+|—| No issues resolved since last run (2026-05-26 15:02) |—|

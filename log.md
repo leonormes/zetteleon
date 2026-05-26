@@ -1,6 +1,6 @@
 ---
 created: 2026-04-28T00:00:00+00:00
-modified: 2026-05-26T11:43:53+00:00
+modified: 2026-05-26T14:30:00+00:00
 tags: [log, system]
 title: log
 ---
@@ -386,3 +386,11 @@ Append-only—never edit past entries.
 - Wiki pages touched: [[wiki/projects/CoS-Work-Review-System]], [[wiki/projects/Antigravity-CLI-Migration]], [[wiki/projects/ProdOS-Workflow]]
 - Pieces IDs ingested: 54 new substantive assets (166 total in 4h window, 0 duplicates filtered—all new)
 - Flags: none—3 new project pages created; Node.js fetch() proxy incompatibility diagnosed (corporate VPN blocks Node native fetch but not curl); 1Password token retrieval fix identified (2>/dev/null suppressing interactive prompt)
+
+### 2026-05-26 14:30—Project Check-In
+
+- Action: Ingest (Pieces LTM)—Project Check-In cron
+- Raw sources created: [[raw/2026-05-26-pieces-ftfl599-ftfl638-prodos]]
+- Wiki pages touched: [[wiki/projects/Azure Backup Restore Runbook]], [[wiki/projects/Grafana Alloy Monitoring — FTFL-638]]
+- Pieces IDs ingested: 17 new substantive assets (59 total in 4h window, 0 duplicates filtered; 41 noise/short filtered)
+- Flags: none—FTFL-599 Confluence page delivered; FTFL-638 spec document received with structured task list (Phase 0 verification, values.yaml fixes for extraRelabelingRules/KSM cluster label/discoveryType); complete Cursor context prompt for FTFL-638 produced and delivered; live values.yaml (16,966 bytes) read directly; prodOS workflow recall question answered from existing knowledge

@@ -3,10 +3,11 @@ title: Azure Backup Restore Runbook
 wiki_type: dossier
 entity_kind: project
 created: 2026-04-30T06:04:37+00:00
-modified: 2026-04-30T06:04:37+00:00
+modified: 2026-05-26T14:30:00+00:00
 tags: [wiki, dossier]
 sources:
   - raw/2026-04-30-pieces-azure-backup-projects
+  - raw/2026-05-26-pieces-ftfl599-ftfl638-prodos
 ---
 
 ## Summary
@@ -34,6 +35,7 @@ Documentation and operational runbook project for Azure Backup restore procedure
 - **2026-04-29 1:10 PM**: Trusted access role binding created.
 - **2026-04-29 1:21 PM**: Backup instance showing `ProtectionConfigured`.
 - **2026-04-29**: Runbook documentation initiated based on validated CLI flow.
+- **2026-05-26**: User requested and received a Confluence page documenting the completed backup and restore work for FTFL-599; the page covers Azure Backup and Restore Runbook procedures and references related ticket FTFL-606 — [[raw/2026-05-26-pieces-ftfl599-ftfl638-prodos]] (Pieces: 28bf8410-a435-4af2-b7c4-b99a11e560b6)
 
 ## Connections
 
