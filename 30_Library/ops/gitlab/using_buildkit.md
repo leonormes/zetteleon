@@ -1,8 +1,10 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:41+00:00
 group: Pipeline Execution
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-title: Build Docker images with BuildKit
+modified: 2026-05-26T11:43:58+00:00
+stage: Verify
+title: using_buildkit
 ---
 
 {{< details >}}
@@ -13,9 +15,10 @@ title: Build Docker images with BuildKit
 {{< /details >}}
 
 [BuildKit](https://docs.docker.com/build/buildkit/) is the build engine used by Docker
+
 and provides multi-platform builds and build caching.
 
-## BuildKit methods
+## BuildKit Methods
 
 BuildKit offers the following methods to build Docker images:
 
@@ -31,9 +34,10 @@ BuildKit offers the following methods to build Docker images:
 - Docker 19.03 or later to use Docker Buildx
 - A project with a `Dockerfile`
 
-## BuildKit rootless
+## BuildKit Rootless
 
 BuildKit in standalone mode provides rootless image builds without Docker daemon dependency.
+
 This method eliminates privileged containers entirely and provides a direct replacement for Kaniko builds.
 
 Key differences from other methods:
@@ -44,13 +48,15 @@ Key differences from other methods:
 - No Docker daemon or privileged container dependency
 - Requires manual registry authentication setup
 
-### Authenticate with container registries
+### Authenticate with Container Registries
 
 GitLab CI/CD provides automatic authentication for the GitLab container registry through
+
 predefined variables. For BuildKit rootless, you must manually create the Docker
+
 configuration file.
 
-#### Authenticate with the GitLab container registry
+#### Authenticate with the GitLab Container Registry
 
 GitLab automatically provides these predefined variables:
 
@@ -59,6 +65,7 @@ GitLab automatically provides these predefined variables:
 - `CI_REGISTRY_PASSWORD`: Registry password
 
 To configure authentication for rootless builds, add a `before_script` configuration
+
 to your jobs. For example:
 
 ```yaml
@@ -67,9 +74,10 @@ before_script:
   - echo "{\"auths\":{\"$CI_REGISTRY\":{\"username\":\"$CI_REGISTRY_USER\",\"password\":\"$CI_REGISTRY_PASSWORD\"}}}" > ~/.docker/config.json
 ```
 
-#### Authenticate with multiple registries
+#### Authenticate with Multiple Registries
 
 To authenticate with additional container registries, combine authentication entries
+
 in your `before_script` section. For example:
 
 ```yaml
@@ -88,9 +96,10 @@ before_script:
     }" > ~/.docker/config.json
 ```
 
-#### Authenticate with the dependency proxy
+#### Authenticate with the Dependency Proxy
 
 To pull images through the GitLab dependency proxy, configure the authentication
+
 in your `before_script` section. For example:
 
 ```yaml
@@ -111,7 +120,7 @@ before_script:
 
 For more information, see [authenticate within CI/CD](../../user/packages/dependency_proxy/_index.md#authenticate-within-cicd).
 
-### Build images in rootless mode
+### Build Images in Rootless Mode
 
 To build images without Docker daemon dependency, add a job similar to this example:
 
@@ -135,9 +144,10 @@ build-rootless:
         --output type=image,name=$CI_REGISTRY_IMAGE:$CI_COMMIT_SHA,push=true
 ```
 
-### Build multi-platform images in rootless mode
+### Build Multi-platform Images in Rootless Mode
 
 To build images for multiple architectures in rootless mode, configure your job
+
 to specify the target platforms. For example:
 
 ```yaml
@@ -161,9 +171,10 @@ build-multiarch-rootless:
         --output type=image,name=$CI_REGISTRY_IMAGE:$CI_COMMIT_SHA,push=true
 ```
 
-### Use caching in rootless mode
+### Use Caching in Rootless Mode
 
 To enable registry-based caching for faster subsequent builds, configure cache
+
 import and export in your build job. For example:
 
 ```yaml
@@ -189,7 +200,7 @@ build-cached-rootless:
         --output type=image,name=$CI_REGISTRY_IMAGE:$CI_COMMIT_SHA,push=true
 ```
 
-### Use a registry mirror in rootless mode
+### Use a Registry Mirror in Rootless Mode
 
 Registry mirrors provide faster image pulls and can help with rate limiting or network restrictions.
 
@@ -221,9 +232,10 @@ build-mirror-rootless:
 
 In this example, replace `mirror.example.com` with your registry mirror URL.
 
-### Configure proxy settings
+### Configure Proxy Settings
 
 If your GitLab Runner operates behind an HTTP(S) proxy, configure proxy settings
+
 as variables in your job. For example:
 
 ```yaml
@@ -254,9 +266,10 @@ build-behind-proxy:
 
 In this example, replace `<your-proxy>` and `<your-no-proxy>` with your proxy configuration.
 
-### Add custom certificates
+### Add Custom Certificates
 
 To push to a registry using custom CA certificates, add the certificate to the
+
 container's certificate store before building. For example:
 
 ```yaml
@@ -287,10 +300,12 @@ In this example, populate the `MY_CA_CERT` variable with the full contents of yo
 ## Migrate from Kaniko to BuildKit
 
 BuildKit rootless is a secure alternative for Kaniko.
+
 It offers improved performance, better caching, and enhanced security features while
+
 maintaining rootless operation.
 
-### Update your configuration
+### Update Your Configuration
 
 Update your existing Kaniko configuration to use the BuildKit rootless method. For example:
 
@@ -329,19 +344,22 @@ build:
         --output type=image,name=$CI_REGISTRY_IMAGE:$CI_COMMIT_SHA,push=true
 ```
 
-## Alternative BuildKit methods
+## Alternative BuildKit Methods
 
 If you don't need rootless builds, BuildKit offers additional methods that require
+
 the `docker:dind` service but provide familiar workflows or advanced features.
 
 ### Docker Buildx
 
 Docker Buildx extends Docker build capabilities with BuildKit features while maintaining
+
 familiar command syntax. This method requires the `docker:dind` service.
 
-#### Build basic images
+#### Build Basic Images
 
 To build Docker images with Buildx, configure your job with the `docker:dind` service
+
 and create a `buildx` builder. For example:
 
 ```yaml
@@ -363,13 +381,16 @@ build-image:
     - docker buildx rm builder
 ```
 
-#### Build multi-platform images
+#### Build Multi-platform Images
 
 Multi-platform builds create images for different architectures in a single build command.
+
 The resulting manifest supports multiple architectures,
+
 and Docker automatically selects the appropriate image for each deployment target.
 
 To build images for multiple architectures, add the `--platform` flag to specify
+
 target architectures. For example:
 
 ```yaml
@@ -394,11 +415,12 @@ build-multiplatform:
     - docker buildx rm multibuilder
 ```
 
-#### Use build caching
+#### Use Build Caching
 
 Registry-based caching stores build layers in a container registry for reuse across builds.
 
 The `mode=max` option exports all layers to the cache
+
 and provides maximum reuse potential for subsequent builds.
 
 To use build caching, add cache options to your build command. For example:
@@ -430,6 +452,7 @@ build-with-cache:
 ### Native BuildKit
 
 Use native BuildKit `buildctl` commands for more control over the build process.
+
 This method requires the `docker:dind` service.
 
 To use BuildKit directly, configure your job with the BuildKit image and `docker:dind` service. For example:
@@ -457,7 +480,7 @@ build-with-buildkit:
 
 ## Troubleshooting
 
-### Build fails with authentication errors
+### Build Fails with Authentication Errors
 
 If you encounter registry authentication failures:
 
@@ -466,7 +489,7 @@ If you encounter registry authentication failures:
 - For external registries, ensure authentication credentials are correctly configured
   in your project's CI/CD variables.
 
-### Rootless build fails with permission errors
+### Rootless Build Fails with Permission Errors
 
 For permission-related issues in rootless mode:
 
@@ -474,7 +497,8 @@ For permission-related issues in rootless mode:
 - Verify that the GitLab Runner has sufficient resources allocated.
 - Check that no privileged operations are attempted in your `Dockerfile`.
 
-If you receive `[rootlesskit:child ] error: failed to share mount point: /: permission denied`
+If you receive `[rootlesskit:child] error: failed to share mount point: /: permission denied`
+
 on a Kubernetes runner, AppArmor is blocking the mount syscall required for BuildKit.
 
 To resolve this issue, add the following to your runner configuration:
@@ -489,7 +513,9 @@ To resolve this issue, add the following to your runner configuration:
 You might get an error that states `invalid local: stat path/to/image/Dockerfile: not a directory`.
 
 This issue occurs when you specify a file path instead of a directory path for the
+
 `--local dockerfile=` parameter. BuildKit expects a directory path that contains
+
 a file named `Dockerfile`.
 
 To resolve this issue, use the directory path instead of the full file path. For example:
@@ -497,7 +523,7 @@ To resolve this issue, use the directory path instead of the full file path. For
 - Use: `--local dockerfile=path/to/image`
 - Instead of: `--local dockerfile=path/to/image/Dockerfile`
 
-### Multi-platform builds fail
+### Multi-platform Builds Fail
 
 For multi-platform build issues:
 

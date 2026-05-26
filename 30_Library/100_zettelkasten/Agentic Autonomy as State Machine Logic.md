@@ -2,15 +2,11 @@
 created: 2026-04-13T14:41:15+00:00
 created_utc: 2026-04-13T11:20:00Z
 kind: claim
-modified: 2026-04-19T18:30:44+00:00
+modified: 2026-05-26T11:44:36+00:00
 source_title: AI Agent Architecture and the Modern Tech Stack
 source_url: https://gemini.google.com/app/509937047bd0b955
 status: seed
-tags:
-  - ai-agents
-  - autonomy
-  - control-flow
-  - state-machines
+tags: [ai-agents, autonomy, control-flow, state-machines]
 title: Agentic Autonomy as State Machine Logic
 type: atom
 upstream: "[[HEAD The Failure of Human-Centric Design]]"

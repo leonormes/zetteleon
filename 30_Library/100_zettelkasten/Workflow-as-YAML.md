@@ -2,7 +2,7 @@
 created: 2026-04-14T20:26:10+00:00
 created_utc: "2026-04-14T13:20:00Z"
 kind: mechanism
-modified: 2026-04-22T16:15:21+00:00
+modified: 2026-05-26T11:44:31+00:00
 source_title: "Archon and Extreme Harness Engineering"
 source_url: "https://youtube.com/watch?v=qMnClynCAmM"
 status: seed

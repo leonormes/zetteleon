@@ -1,7 +1,7 @@
 ---
 created: 2025-12-26T12:30:00Z
 last_reviewed: 2025-12-26
-modified: 2026-04-19T18:30:31+00:00
+modified: 2026-05-26T11:44:17+00:00
 status: stable
 tags: [kernel, operating-systems, programming, SoftwareEngineering/Linux]
 title: SoT - Process Execution (Kernel Logic)

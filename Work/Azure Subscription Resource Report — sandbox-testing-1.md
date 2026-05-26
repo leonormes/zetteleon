@@ -1,13 +1,15 @@
 ---
 created: 2026-04-30T12:34:36+00:00
-modified: 2026-04-30T12:34:59+00:00
+modified: 2026-05-26T11:43:56+00:00
 title: Azure Subscription Resource Report — sandbox-testing-1
 ---
 
 ## Azure Subscription Resource Report—sandbox-testing-1
 
 Subscription ID: `7bbc8ae5-1710-48ab-ab83-59b52bd0de1a`
+
 Location: UK South
+
 Report Date: 2026-04-30
 
 ---

@@ -1,6 +1,6 @@
 ---
 created: 2026-05-04T08:01:26+00:00
-modified: 2026-05-08T12:53:37+00:00
+modified: 2026-05-26T11:43:55+00:00
 title: Bessie Sees it Different
 ---
 
@@ -14,7 +14,7 @@ Helping her understand and harness this is one of the most valuable things you c
 
 ---
 
-### Part 1: The Conversation – Framing Her Superpower
+### Part 1: The Conversation–Framing Her Superpower
 
 The goal here is to explain this concept in a way that is empowering, validating, and makes her feel seen and understood.
 
@@ -40,7 +40,7 @@ Acknowledge that this mismatch can be tough. Say something like, "It must be rea
 
 ---
 
-### Part 2: Engaging Her – Practical Ways to Use Her Mind Web
+### Part 2: Engaging Her–Practical Ways to Use Her Mind Web
 
 Once you've framed it positively, you can introduce activities that celebrate and utilise her thinking style. This turns it from a concept into a practical tool.
 

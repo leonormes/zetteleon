@@ -1,9 +1,11 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:41+00:00
+description: Track and compare performance, memory, and custom metrics.
 group: Pipeline Execution
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-description: Track and compare performance, memory, and custom metrics.
-title: Metrics reports
+modified: 2026-05-26T11:44:03+00:00
+stage: Verify
+title: metrics_reports
 ---
 
 {{< details >}}
@@ -14,6 +16,7 @@ title: Metrics reports
 {{< /details >}}
 
 Metrics reports display custom metrics in merge requests to track performance,
+
 memory usage, and other measurements between branches.
 
 Use metrics reports to:
@@ -23,20 +26,22 @@ Use metrics reports to:
 - Measure code complexity.
 - Compare code coverage statistics.
 
-## Metrics processing workflow
+## Metrics Processing Workflow
 
 When a pipeline runs, GitLab reads metrics from the report artifact and stores them as string values
+
 for comparison. The default filename is `metrics.txt`.
 
 For a merge request, GitLab compares the metrics from the feature branch to the values from the target
+
 branch and displays them in the merge request widget in this order:
 
 - Existing metrics with changed values.
-- Metrics added by the merge request (marked with a **New** badge).
-- Metrics removed by the merge request (marked with a **Removed** badge).
+- Metrics added by the merge request (marked with a New badge).
+- Metrics removed by the merge request (marked with a Removed badge).
 - Existing metrics with unchanged values.
 
-### Baseline pipeline selection
+### Baseline Pipeline Selection
 
 To compare metrics between branches, GitLab identifies a baseline pipeline on the target branch using this process:
 
@@ -45,9 +50,9 @@ To compare metrics between branches, GitLab identifies a baseline pipeline on th
       [merge request pipeline](../pipelines/merge_request_pipelines.md)
       was created.
       This SHA is only available for merge request pipelines.
-   1. The merge-base commit (the common ancestor of the source and target branches).
-   1. The start commit of the merge request diff.
-1. Selects the most recently created pipeline (by pipeline ID) for the first SHA
+   2. The merge-base commit (the common ancestor of the source and target branches).
+   3. The start commit of the merge request diff.
+2. Selects the most recently created pipeline (by pipeline ID) for the first SHA
    that has a matching pipeline.
 
 The baseline pipeline selection:
@@ -60,6 +65,7 @@ The baseline pipeline selection:
   from the feature branch are displayed as new.
 
 The metrics comparison widget appears only when the feature branch pipeline is in a
+
 completed state and has metrics report artifacts.
 
 The type of pipeline affects which commit SHA is matched first:
@@ -77,7 +83,7 @@ To ensure a baseline is always available for comparison:
 - If you use branch pipelines,
   ensure the merge-base commit has a pipeline on the target branch.
 
-## Configure metrics reports
+## Configure Metrics Reports
 
 Add metrics reports to your CI/CD pipeline to track custom metrics in merge requests.
 
@@ -88,8 +94,8 @@ Prerequisites:
 To configure metrics reports:
 
 1. In your `.gitlab-ci.yml` file, add a job that generates a metrics report.
-1. Add a script to the job that generates metrics in OpenMetrics format.
-1. Configure the job to upload the metrics file with [`artifacts:reports:metrics`](../yaml/artifacts_reports.md#artifactsreportsmetrics).
+2. Add a script to the job that generates metrics in OpenMetrics format.
+3. Configure the job to upload the metrics file with [`artifacts:reports:metrics`](../yaml/artifacts_reports.md#artifactsreportsmetrics).
 
 For example:
 
@@ -111,15 +117,16 @@ After the pipeline runs, the metrics reports display in the merge request widget
 ![Metrics report widget in a merge request displaying metric names and values.](img/metrics_report_v18_3.png)
 
 For additional format specifications and examples, see
+
 [Prometheus text format details](https://prometheus.io/docs/instrumenting/exposition_formats/#text-format-details).
 
 ## Troubleshooting
 
 When working with metrics reports, you might encounter the following issues.
 
-### Metrics reports did not change
+### Metrics Reports Did not Change
 
-You might see **Metrics report scanning detected no new changes** when viewing metrics reports in merge requests.
+You might see Metrics report scanning detected no new changes when viewing metrics reports in merge requests.
 
 This issue occurs when:
 
@@ -129,6 +136,6 @@ This issue occurs when:
 To resolve this issue:
 
 1. Verify your GitLab subscription tier includes metrics reports.
-1. Ensure the target branch has a pipeline with metrics reports configured.
+2. Ensure the target branch has a pipeline with metrics reports configured.
    To ensure one is available, run pipelines on the target branch that produce metrics report artifacts.
-1. Verify that your metrics file uses valid OpenMetrics format.
+3. Verify that your metrics file uses valid OpenMetrics format.

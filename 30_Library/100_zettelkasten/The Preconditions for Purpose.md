@@ -1,6 +1,6 @@
 ---
 created: 2026-05-02T19:33:05+00:00
-modified: 2026-05-14T08:06:57+00:00
+modified: 2026-05-26T11:44:32+00:00
 title: The Preconditions for Purpose
 ---
 

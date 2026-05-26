@@ -1,8 +1,10 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:40+00:00
 group: Runner Core
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-title: Using PostgreSQL
+modified: 2026-05-26T11:44:01+00:00
+stage: Verify
+title: postgres
 ---
 
 {{< details >}}
@@ -13,15 +15,19 @@ title: Using PostgreSQL
 {{< /details >}}
 
 As many applications depend on PostgreSQL as their database, you
+
 have to use it to run your tests.
 
-## Use PostgreSQL with the Docker executor
+## Use PostgreSQL with the Docker Executor
 
 To pass variables set in the GitLab UI to service containers, you must [define the variables](../variables/_index.md#define-a-cicd-variable-in-the-ui).
+
 You must define your variables as either Group or Project, then call the variables in your job as shown in the following workaround.
 
 Postgres 15.4 and later versions do not substitute schemas or owner names into extension scripts if they include quote ("), backslash (\), or dollar sign ($) symbols.
+
 If the CI variables are not configured, the value uses the environment variable name as a string instead. For example, `POSTGRES_USER: $USER` results in the
+
 `POSTGRES_USER` variable being set to '$USER', which causes Postgres to show the following error:
 
 ```shell
@@ -31,7 +37,7 @@ Fatal: invalid character in extension
 The workaround is to set your variables in [GitLab CI/CD variables](../variables/_index.md) or set variables in string form:
 
 1. [Set Postgres variables in GitLab](../variables/_index.md#for-a-project). Variables set in the GitLab UI are not passed down to the service containers.
-1. In the `.gitlab-ci.yml` file, specify a Postgres image:
+2. In the `.gitlab-ci.yml` file, specify a Postgres image:
 
    ```yaml
    default:
@@ -39,7 +45,7 @@ The workaround is to set your variables in [GitLab CI/CD variables](../variables
         - postgres
    ```
 
-1. In the `.gitlab-ci.yml` file, add your defined variables:
+3. In the `.gitlab-ci.yml` file, add your defined variables:
 
    ```yaml
    variables:
@@ -51,7 +57,7 @@ The workaround is to set your variables in [GitLab CI/CD variables](../variables
 
    For more information about using `postgres` for the `Host`, see [How services are linked to the job](_index.md#how-services-are-linked-to-the-job).
 
-1. Configure your application to use the database, for example:
+4. Configure your application to use the database, for example:
 
    ```yaml
    Host: postgres
@@ -71,14 +77,17 @@ variables:
 ```
 
 You can use any other Docker image available on [Docker Hub](https://hub.docker.com/_/postgres).
+
 For example, to use PostgreSQL 16.10, the service becomes `postgres:16.10`.
 
 The `postgres` image can accept some environment variables. For more details,
+
 see the documentation on [Docker Hub](https://hub.docker.com/_/postgres).
 
-## Use PostgreSQL with the Shell executor
+## Use PostgreSQL with the Shell Executor
 
 You can also use PostgreSQL on manually configured servers that are using
+
 GitLab Runner with the Shell executor.
 
 First install the PostgreSQL server:
@@ -94,6 +103,7 @@ sudo -u postgres psql -d template1
 ```
 
 Then create a user (in our case `runner`) which is used by your
+
 application. Change `$password` in the following command to a strong password.
 
 > [!note]
@@ -105,7 +115,9 @@ template1=# CREATE USER runner WITH PASSWORD '$password' CREATEDB;
 ```
 
 The created user has the privilege to create databases (`CREATEDB`). The
+
 following steps describe how to create a database explicitly for that user.
+
 Privileges allow your testing framework to create and drop databases as needed.
 
 Create the database and grant all privileges to it for the user `runner`:
@@ -121,6 +133,7 @@ template1=# \q
 ```
 
 Now, try to connect to the newly created database with the user `runner` to
+
 check that everything is in place.
 
 ```shell
@@ -128,6 +141,7 @@ psql -U runner -h localhost -d nice_marmot -W
 ```
 
 This command explicitly directs `psql` to connect to localhost to use the md5
+
 authentication. If you omit this step, you are denied access.
 
 Finally, configure your application to use the database, for example:
@@ -139,11 +153,14 @@ Password: $password
 Database: nice_marmot
 ```
 
-## Example project
+## Example Project
 
 We have set up an [Example PostgreSQL Project](https://gitlab.com/gitlab-examples/postgres) for your
+
 convenience that runs on [GitLab.com](https://gitlab.com) using our publicly
+
 available [instance runners](../runners/_index.md).
 
 Want to hack on it? Fork it, commit, and push your changes. In a few
+
 moments, the changes are picked by a public runner and the job begins.

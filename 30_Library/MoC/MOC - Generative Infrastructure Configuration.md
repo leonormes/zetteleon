@@ -2,7 +2,7 @@
 aliases: ["GIC MOC"]
 created: 2025-01-15T10:10:00Z
 last_reviewed: "2025-01-15T00:00:00.000Z"
-modified: 2026-04-19T18:30:29+00:00
+modified: 2026-05-26T11:44:22+00:00
 status: "active"
 tags: ["automation", "configuration", "infrastructure"]
 title: MOC - Generative Infrastructure Configuration

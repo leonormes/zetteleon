@@ -1,9 +1,11 @@
 ---
-type: concepts, howto
-stage: Software Supply Chain Security
+created: 2026-05-16T10:16:41+00:00
 group: Pipeline Security
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-title: 'Tutorial: Use Fortanix Data Security Manager (DSM) with GitLab'
+modified: 2026-05-26T11:44:07+00:00
+stage: Software Supply Chain Security
+title: fortanix_dsm_integration
+type: concepts, howto
 ---
 
 {{< details >}}
@@ -16,10 +18,12 @@ title: 'Tutorial: Use Fortanix Data Security Manager (DSM) with GitLab'
 You can use Fortanix Data Security Manager (DSM) as your secrets manager for GitLab CI/CD pipelines.
 
 This tutorial explains the steps required to generate new secrets in Fortanix DSM, or use existing secrets,
+
 and use them in GitLab CI/CD jobs. Follow the instructions carefully, to implement this integration,
+
 enhancing data security and optimizing your CI/CD pipelines.
 
-## Before you begin
+## Before You Begin
 
 Ensure that you have:
 
@@ -28,14 +32,14 @@ Ensure that you have:
 - Knowledge about the process of saving secrets in Fortanix DSM, including generating and importing secrets.
 - Access to necessary permissions in Fortanix DSM and GitLab for group, application, plugin, variable, and secret management.
 
-## Generate and import a new secret
+## Generate and Import a New Secret
 
 To generate a new secret in Fortanix DSM and use it with GitLab:
 
 1. Sign in to your Fortanix DSM account.
-1. In Fortanix DSM, [create a new group and an application](https://support.fortanix.com/hc/en-us/articles/360015809372-User-s-Guide-Getting-Started-with-Fortanix-Data-Security-Manager-UI).
-1. Configure the [API Key as the authentication method for the application](https://support.fortanix.com/hc/en-us/articles/360033272171-User-s-Guide-Authentication).
-1. Use the following code to generate a new plugin in Fortanix DSM:
+2. In Fortanix DSM, [create a new group and an application](https://support.fortanix.com/hc/en-us/articles/360015809372-User-s-Guide-Getting-Started-with-Fortanix-Data-Security-Manager-UI).
+3. Configure the [API Key as the authentication method for the application](https://support.fortanix.com/hc/en-us/articles/360033272171-User-s-Guide-Authentication).
+4. Use the following code to generate a new plugin in Fortanix DSM:
 
    ```lua
    numericAlphabet = "0123456789"
@@ -105,14 +109,14 @@ To generate a new secret in Fortanix DSM and use it with GitLab:
      }
      ```
 
-1. In the top bar, select **Search or go to** and find your project.
-1. In the left sidebar, select **Settings** > **CI/CD**.
-1. Expand **Variables** and add these variables:
+5. In the top bar, select Search or go to and find your project.
+6. In the left sidebar, select Settings > CI/CD.
+7. Expand Variables and add these variables:
    - `FORTANIX_API_ENDPOINT`
    - `FORTANIX_API_KEY`
    - `FORTANIX_PLUGIN_ID`
 
-1. Create or edit the `.gitlab-ci.yml` configuration file in your project to use the integration:
+8. Create or edit the `.gitlab-ci.yml` configuration file in your project to use the integration:
 
    ```yaml
    stages:
@@ -133,30 +137,30 @@ To generate a new secret in Fortanix DSM and use it with GitLab:
        - rotate=$(curl --silent --request POST --header "Authorization:Basic ${FORTANIX_API_KEY}" ${FORTANIX_API_ENDPOINT}/crypto/v1/keys/rekey --data "{\"name\":\"$CI_PIPELINE_ID\", \"value\":\"$encodesecret\"}" | jq --raw-output .kid)
    ```
 
-1. The pipeline should run automatically after saving the `.gitlab-ci.yml` file.
-   If not, select **Build** > **Pipelines** > **Run pipeline**.
-1. Go to **Build** > **Jobs** and check the `build` job's log:
+9. The pipeline should run automatically after saving the `.gitlab-ci.yml` file.
+   If not, select Build > Pipelines > Run pipeline.
+10. Go to Build > Jobs and check the `build` job's log:
 
-   ![The build job log showing a successful Fortanix DSM configuration.](img/gitlab_build_result_1_v16_9.png)
+![The build job log showing a successful Fortanix DSM configuration.](img/gitlab_build_result_1_v16_9.png)
 
 ![The Fortanix Data Security Manager secrets view.](img/dsm_secrets_v16_9.png)
 
-## Use an existing secret from Fortanix DSM
+## Use an Existing Secret from Fortanix DSM
 
 To use a secret that already exists in Fortanix DSM with GitLab:
 
 1. The secret must be marked as exportable in Fortanix:
 
-   ![The exportable secret setting in Fortanix Data Security Manager.](img/dsm_secret_import_1_v16_9.png)
+![The exportable secret setting in Fortanix Data Security Manager.](img/dsm_secret_import_1_v16_9.png)
 
-1. In the top bar, select **Search or go to** and find your project.
-1. In the left sidebar, select **Settings** > **CI/CD**.
-1. Expand **Variables** and add these variables:
+2. In the top bar, select Search or go to and find your project.
+3. In the left sidebar, select Settings > CI/CD.
+4. Expand Variables and add these variables:
    - `FORTANIX_API_ENDPOINT`
    - `FORTANIX_API_KEY`
    - `FORTANIX_PLUGIN_ID`
 
-1. Create or edit the `.gitlab-ci.yml` configuration file in your project to use the integration:
+5. Create or edit the `.gitlab-ci.yml` configuration file in your project to use the integration:
 
    ```yaml
    stages:
@@ -174,9 +178,9 @@ To use a secret that already exists in Fortanix DSM with GitLab:
      - secret=$(curl --silent --request POST --header "Authorization:Basic ${FORTANIX_API_KEY}" ${FORTANIX_API_ENDPOINT}/crypto/v1/keys/export --data "{\"name\":\"${FORTANIX_SECRET_NAME}\"}" | jq --raw-output .value)
    ```
 
-1. The pipeline should run automatically after saving the `.gitlab-ci.yml` file.
-   If not, select **Build** > **Pipelines** > **Run pipeline**.
-1. Go to **Build** > **Jobs** and check the `build` job's log:
+6. The pipeline should run automatically after saving the `.gitlab-ci.yml` file.
+   If not, select Build > Pipelines > Run pipeline.
+7. Go to Build > Jobs and check the `build` job's log:
 
    - ![The build job log showing the successful retrieval of an existing Fortanix secret.](img/gitlab_build_result_2_v16_9.png)
 
@@ -185,19 +189,19 @@ To use a secret that already exists in Fortanix DSM with GitLab:
 To set up code signing securely in your GitLab environment:
 
 1. Sign in to your Fortanix DSM account.
-1. Import `keystore_password` and `key_password` as secrets in Fortanix DSM. Ensure that they are marked as exportable.
+2. Import `keystore_password` and `key_password` as secrets in Fortanix DSM. Ensure that they are marked as exportable.
 
-   ![The keystore and key passwords imported as exportable secrets in Fortanix Data Security Manager.](img/dsm_secret_import_2_v16_9.png)
+![The keystore and key passwords imported as exportable secrets in Fortanix Data Security Manager.](img/dsm_secret_import_2_v16_9.png)
 
-1. In the top bar, select **Search or go to** and find your project.
-1. In the left sidebar, select **Settings** > **CI/CD**.
-1. Expand **Variables** and add these variables:
+3. In the top bar, select Search or go to and find your project.
+4. In the left sidebar, select Settings > CI/CD.
+5. Expand Variables and add these variables:
    - `FORTANIX_API_ENDPOINT`
    - `FORTANIX_API_KEY`
    - `FORTANIX_SECRET_NAME_1` (for `keystore_password`)
    - `FORTANIX_SECRET_NAME_2` (for `key_password`)
 
-1. Create or edit the `.gitlab-ci.yml` configuration file in your project to use the integration:
+6. Create or edit the `.gitlab-ci.yml` configuration file in your project to use the integration:
 
    ```yaml
    stages:
@@ -224,8 +228,8 @@ To set up code signing securely in your GitLab environment:
      - jarsigner -keystore keystore.jks -storepass $keystore_password -keypass $key_password -signedjar signed.jar target/HelloWorld.jar mykey
    ```
 
-1. The pipeline should run automatically after saving the `.gitlab-ci.yml` file.
-   If not, select **Build** > **Pipelines** > **Run pipeline**.
-1. Go to **Build** > **Jobs** and check the `build` job's log:
+7. The pipeline should run automatically after saving the `.gitlab-ci.yml` file.
+   If not, select Build > Pipelines > Run pipeline.
+8. Go to Build > Jobs and check the `build` job's log:
 
    - ![The build job log showing the code signing process using Fortanix secrets.](img/gitlab_build_result_3_v16_9.png)

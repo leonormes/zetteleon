@@ -1,27 +1,29 @@
 ---
-title: Hermes MESH DNS — Pieces LTM Ingest
-created: 2026-05-12T22:06:30+0000
+created: 2026-05-12T22:06:30+00:00
+modified: 2026-05-26T11:43:45+00:00
+pieces_ids: ["18d6eb3a-9edf-4169-a324-59fef99b1581", "7b69f4e0-38a5-499d-bfb8-12d584e7af82"]
 source: pieces-ltm
-pieces_ids: ["7b69f4e0-38a5-499d-bfb8-12d584e7af82", "18d6eb3a-9edf-4169-a324-59fef99b1581"]
-tags: [raw, pieces]
+tags: [pieces, raw]
+title: 2026-05-12-pieces-hermes-mesh-dns
 ---
 
-# Pieces LTM Ingest — Hermes MESH DNS
+## Pieces LTM Ingest—Hermes MESH DNS
 
-**Ingestion window:** Last 24 hours (4-hour window returned 0 new assets; extended per skill instructions)
+Ingestion window: Last 24 hours (4-hour window returned 0 new assets; extended per skill instructions)
 
-**Summary:** 2 assets captured for Hermes MESH DNS.
+Summary: 2 assets captured for Hermes MESH DNS.
 
 ---
 
-## Asset 1 (Pieces: 7b69f4e0-38a5-499d-bfb8-12d584e7af82)
-**Captured:** 2026-05-12T08:42:45.278300Z
+### Asset 1 (Pieces: 7b69f4e0-38a5-499d-bfb8-12d584e7af82)
+
+Captured: 2026-05-12T08:42:45.278300Z
 
 The user wants a report of the DNS records they've already deleted today from the Cloudflare UI, to add to the FTFL-630 Jira ticket. I already have excellent evidence from the prior tool calls - the LTM captured the deletion events this morning. Let me synthesize what I know from the tool results already in context.
 
 From the prior tool results, I can see:
 
-1. **5 old-* records deleted at ~08:46 BST** - from the Cloudflare UI screenshot captured at 08:46:36:
+1. __5 old-_ records deleted at ~08:46 BST_* - from the Cloudflare UI screenshot captured at 08:46:36:
    - `old-ac.fitfile.net`
    - `old-app2.fitfile.net`
    - `old-app3.fitfile.net`
@@ -29,7 +31,7 @@ From the prior tool results, I can see:
    - `old-barts.fitfile.net`
    All pointing to `51.11.2.213` (old production cluster), modified June 2024.
 
-2. **`apples.fitfile.net` deleted at ~08:47 BST** - from the Cloudflare UI screenshot captured at 08:47:41:
+2. `apples.fitfile.net` deleted at ~08:47 BST - from the Cloudflare UI screenshot captured at 08:47:41:
    - `apples.fitfile.net` (CNAME → `ff-eoe-sde-relay`)
    - Confirmed deleted - searching for it returns "No DNS records found"
 
@@ -43,18 +45,23 @@ I'm also noting that there's roughly an hour between when the deletions occurred
 
 ---
 
-## DNS Record Deletion Report — fitfile.net
-**FTFL-630 — Review Cloudflare records**
-**Date:** Tuesday 12 May 2026
-**Actioned by:** Leon Ormes
-**Method:** Cloudflare DNS dashboard ([dash.cloudflare.com](https://dash.cloudflare.com/7c978fe256ced38d73c4ba3f5b11a46f/fitfile.net/dns/records))
-**Source audit file:** `/Volumes/DAL/Fitfile/gitlab/FITFILE/central-services/dns-audit/data/drift_results.json`
+### DNS Record Deletion Report—fitfile.net
+
+FTFL-630—Review Cloudflare records
+
+Date: Tuesday 12 May 2026
+
+Actioned by: Leon Ormes
+
+Method: Cloudflare DNS dashboard ([dash.cloudflare.com](https://dash.cloudflare.com/7c978fe256ced38d73c4ba3f5b11a46f/fitfile.net/dns/records))
+
+Source audit file: `/Volumes/DAL/Fitfile/gitlab/FITFILE/central-services/dns-audit/data/drift_results.json`
 
 ---
 
-### Records deleted — Tue 12 May 2026, ~08:46–08:47 BST
+#### Records deleted—Tue 12 May 2026, ~08:46–08:47 BST
 
-#### Batch 1 — OLD_PREFIX (5 records, deleted 08:46 BST)
+##### Batch 1—OLD_PREFIX (5 Records, Deleted 08:46 BST)
 
 Deleted via Cloudflare UI search for "old", bulk-select all 5, confirmed deletion.
 
@@ -66,11 +73,11 @@ Deleted via Cloudflare UI search for "old", bulk-select all 5, confirmed deletio
 | `old-app3.fitfile.net` | A | `51.11.2.213` | Proxied | 2024-06-19 | `OLD_PREFIX` |
 | `old-barts.fitfile.net` | A | `51.11.2.213` | Proxied | 2024-06-19 | `OLD_PREFIX` |
 
-**Reason:** All 5 records pointed to `51.11.2.213` (the decommissioned old production cluster). Services were migrated off this cluster in early 2024 and the records were prefixed with `old-` as a soft-delete safety net in June 2024. Origin is unreachable. None were managed in Terraform. No investigation required prior to deletion.
+Reason: All 5 records pointed to `51.11.2.213` (the decommissioned old production cluster). Services were migrated off this cluster in early 2024 and the records were prefixed with `old-` as a soft-delete safety net in June 2024. Origin is unreachable. None were managed in Terraform. No investigation required prior to deletion.
 
 ---
 
-#### Batch 2 — DEAD_UNMANAGED (1 record, deleted 08:47 BST)
+##### Batch 2—DEAD_UNMANAGED (1 Record, Deleted 08:47 BST)
 
 Deleted via Cloudflare UI search for `apples.fitfile.net`, confirmed deletion. Post-deletion search returns "No DNS records found."
 
@@ -78,11 +85,11 @@ Deleted via Cloudflare UI search for `apples.fitfile.net`, confirmed deletion. P
 |---|---|---|---|---|---|---|
 | `apples.fitfile.net` | CNAME | `ff-eoe-sde-relay-680202258.eu-west-2.elb.amazonaws.com` | `91c7069a6f35b688d536ab9531e5dc9d` | DNS-only | 2025-03-17 | `DEAD_UNMANAGED` |
 
-**Reason:** CNAME target is a deleted AWS ELB load balancer in `eu-west-2`. ELB no longer exists — DNS resolution fails. Not in Terraform. No active service dependency.
+Reason: CNAME target is a deleted AWS ELB load balancer in `eu-west-2`. ELB no longer exists—DNS resolution fails. Not in Terraform. No active service dependency.
 
 ---
 
-### Summary
+#### Summary
 
 | Metric | Value |
 |---|---|
@@ -94,89 +101,88 @@ Deleted via Cloudflare UI search for `apples.fitfile.net`, confirmed deletion. P
 
 ---
 
-### Remaining DELETE NOW records (not yet actioned)
+#### Remaining DELETE NOW Records (not yet actioned)
 
 12 `DEAD_UNMANAGED` records remain from the original FTFL-630 deliverable. Pending the following checks before deletion:
 
-- **`em6282.fitfile.net`, `s1._domainkey.fitfile.net`, `s2._domainkey.fitfile.net`** — confirm SendGrid account is fully decommissioned (DKIM/tracking records, `tcp_ok: false`, last modified Dec 2022)
-- **`mkuh-prd-4.fitfile.net`** — confirm MKUH cluster node decommissioned with MKUH team (last modified **2026-03-25**)
-- **`_62631442aad08d1ebcf38c22360e420.fitfile.net`** — confirm no AWS ACM cert renewal in flight (ACM validation CNAME, `tcp_ok: false`, last modified 2025-03-13)
-- **Remaining 7** (`_domainconnect`, `echo`, `mn5-kube`, `nbtesting`, `sonarqube`, `vpn`, `vpntesting`) — clearly dead and unowned, safe to delete once the above checks are resolved
+- `em6282.fitfile.net`, `s1._domainkey.fitfile.net`, `s2._domainkey.fitfile.net`—confirm SendGrid account is fully decommissioned (DKIM/tracking records, `tcp_ok: false`, last modified Dec 2022)
+- `mkuh-prd-4.fitfile.net`—confirm MKUH cluster node decommissioned with MKUH team (last modified 2026-03-25)
+- `_62631442aad08d1ebcf38c22360e420.fitfile.net`—confirm no AWS ACM cert renewal in flight (ACM validation CNAME, `tcp_ok: false`, last modified 2025-03-13)
+- Remaining 7 (`_domainconnect`, `echo`, `mn5-kube`, `nbtesting`, `sonarqube`, `vpn`, `vpntesting`)—clearly dead and unowned, safe to delete once the above checks are resolved
 
 Full record IDs for the remaining 12 are in `dns-audit/data/drift_results.json` in the `central-services` repo.
 
 ---
 
-## Asset 2 (Pieces: 18d6eb3a-9edf-4169-a324-59fef99b1581)
-**Captured:** 2026-05-12T07:55:50.645417Z
+### Asset 2 (Pieces: 18d6eb3a-9edf-4169-a324-59fef99b1581)
 
-I now have sufficient evidence across all search chains. The `search_memory` for FTFL-630 returned `fetchMore` but the new results are repeating earlier evidence — critically, I have a definitive Cloudflare UI screenshot from **8 minutes ago** showing key deletions already executed this morning. Here is the full synthesis:
+Captured: 2026-05-12T07:55:50.645417Z
 
----
-
-## Should you purge the DEAD_UNMANAGED DNS records today?
-
-**Short answer: You've already started — and yes, you should finish the remaining 13 DEAD_UNMANAGED records today. Some need a 2-minute sanity check first; most do not.**
+I now have sufficient evidence across all search chains. The `search_memory` for FTFL-630 returned `fetchMore` but the new results are repeating earlier evidence—critically, I have a definitive Cloudflare UI screenshot from 8 minutes ago showing key deletions already executed this morning. Here is the full synthesis:
 
 ---
 
-### What you've already deleted this morning (08:43–08:48 BST)
+### Should You Purge the DEAD_UNMANAGED DNS Records Today?
+
+Short answer: You've already started—and yes, you should finish the remaining 13 DEAD_UNMANAGED records today. Some need a 2-minute sanity check first; most do not.
+
+---
+
+#### What You've Already Deleted This Morning (08:43–08:48 BST)
 
 Your memory shows you were actively working in the [Cloudflare DNS dashboard](https://dash.cloudflare.com/7c978fe256ced38d73c4ba3f5b11a46f/fitfile.net/dns/records) just minutes ago. Two confirmed deletions:
 
-- **5 `old-*` records** (`old-ac`, `old-app`, `old-app2`, `old-app3`, `old-barts`) — deleted via the Cloudflare UI search for "old", bulk-selected and confirmed ([Cloudflare dashboard](https://dash.cloudflare.com/7c978fe256ced38d73c4ba3f5b11a46f/fitfile.net/dns/records?recordsSearchSearch=old))
-- **`apples.fitfile.net`** — deleted; searching for it now returns "No DNS records found" ([confirmation screenshot](https://dash.cloudflare.com/7c978fe256ced38d73c4ba3f5b11a46f/fitfile.net/dns/records?recordsSearchSearch=apples.fitfile.net))
+- 5 `old-*` records (`old-ac`, `old-app`, `old-app2`, `old-app3`, `old-barts`)—deleted via the Cloudflare UI search for "old", bulk-selected and confirmed ([Cloudflare dashboard](https://dash.cloudflare.com/7c978fe256ced38d73c4ba3f5b11a46f/fitfile.net/dns/records?recordsSearchSearch=old))
+- `apples.fitfile.net`—deleted; searching for it now returns "No DNS records found" ([confirmation screenshot](https://dash.cloudflare.com/7c978fe256ced38d73c4ba3f5b11a46f/fitfile.net/dns/records?recordsSearchSearch=apples.fitfile.net))
 
-That's **6 of 18 records gone**. 12 remain.
+That's 6 of 18 records gone. 12 remain.
 
 ---
 
-### The remaining 12 DEAD_UNMANAGED records — verdict by record
+#### The Remaining 12 DEAD_UNMANAGED records—verdict by Record
 
 From Hermes's full drift table in `drift_results.json`:
 
 | Record | Type | Verdict | Safe to delete today? |
 |---|---|---|---|
-| `_domainconnect.fitfile.net` | CNAME → `_domainconnect.gd.domaincontrol.com` | Dead, GoDaddy domain connect stub | ✅ Yes — GoDaddy artifact, no live use |
+| `_domainconnect.fitfile.net` | CNAME → `_domainconnect.gd.domaincontrol.com` | Dead, GoDaddy domain connect stub | ✅ Yes—GoDaddy artifact, no live use |
 | `echo.fitfile.net` | A → `131.145.24.249` | TCP unreachable, modified Apr 2025 | ✅ Yes |
 | `mn5-kube.fitfile.net` | A → `51.132.186.147` | Dead KCH cluster node, modified 2023 | ✅ Yes |
 | `nbtesting.fitfile.net` | A → `3.9.185.218` | TCP unreachable, modified Apr 2025 | ✅ Yes |
 | `sonarqube.fitfile.net` | A → `51.11.153.23` | Dead (shares IP with managed `sonar`, but sonarqube itself unreachable) | ✅ Yes |
 | `vpn.fitfile.net` | A → `52.56.250.251` | TCP unreachable, modified Jun 2024 | ✅ Yes |
 | `vpntesting.fitfile.net` | A → `18.134.26.213` | TCP unreachable, modified Apr 2025 | ✅ Yes |
-| `_62631442aad08d1ebcf38c223e60e420.fitfile.net` | CNAME → AWS ACM validation | Modified 2025-03-13 — dead unless an AWS cert renewal is in flight | ⚠️ Quick check: confirm no active AWS cert using this CNAME before deleting |
-| `mkuh-prd-4.fitfile.net` | A → `51.11.146.209` | Modified **2026-03-25** — most recently touched of all dead records | ⚠️ Confirm with MKUH customer team that node is decommissioned |
+| `_62631442aad08d1ebcf38c223e60e420.fitfile.net` | CNAME → AWS ACM validation | Modified 2025-03-13—dead unless an AWS cert renewal is in flight | ⚠️ Quick check: confirm no active AWS cert using this CNAME before deleting |
+| `mkuh-prd-4.fitfile.net` | A → `51.11.146.209` | Modified 2026-03-25—most recently touched of all dead records | ⚠️ Confirm with MKUH customer team that node is decommissioned |
 | `em6282.fitfile.net` | CNAME → SendGrid | TCP unreachable | ⚠️ Confirm SendGrid account is fully decommissioned before deleting |
-| `s1._domainkey.fitfile.net` | CNAME → SendGrid DKIM | TCP unreachable, modified Dec 2022 | ⚠️ Same — confirm SendGrid decommissioned |
-| `s2._domainkey.fitfile.net` | CNAME → SendGrid DKIM | TCP unreachable, modified Dec 2022 | ⚠️ Same — confirm SendGrid decommissioned |
+| `s1._domainkey.fitfile.net` | CNAME → SendGrid DKIM | TCP unreachable, modified Dec 2022 | ⚠️ Same—confirm SendGrid decommissioned |
+| `s2._domainkey.fitfile.net` | CNAME → SendGrid DKIM | TCP unreachable, modified Dec 2022 | ⚠️ Same—confirm SendGrid decommissioned |
 
 ---
 
-### The one blocker still on your list
+#### The One Blocker Still on Your List
 
 Your audit notes flagged this before anything else:
 
-> **Zone ID mismatch in `cloudflare/locals.tf`** — Terraform has been targeting `d1122d6b9ed6ccbf6ec81d41cb54605a` instead of the live zone `7c978fe256ced38d73c4ba3f5b11a46f`. Fix `locals.tf` and run `terraform plan` before running any Terraform-based deletions.
+> Zone ID mismatch in `cloudflare/locals.tf`—Terraform has been targeting `d1122d6b9ed6ccbf6ec81d41cb54605a` instead of the live zone `7c978fe256ced38d73c4ba3f5b11a46f`. Fix `locals.tf` and run `terraform plan` before running any Terraform-based deletions.
 
-If you're deleting via the **Cloudflare UI or API** (as you did this morning), this doesn't block you. It only matters if you switch to the Terraform method.
+If you're deleting via the Cloudflare UI or API (as you did this morning), this doesn't block you. It only matters if you switch to the Terraform method.
 
 ---
 
-### Recommended sequence for today
+#### Recommended Sequence for Today
 
-1. **Delete now via UI/API** (7 records — no checks needed):
+1. Delete now via UI/API (7 records—no checks needed):
    `_domainconnect`, `echo`, `mn5-kube`, `nbtesting`, `sonarqube`, `vpn`, `vpntesting`
 
-2. **Quick checks before deleting** (5 minutes total):
-   - `_62631442...` AWS ACM CNAME — check AWS ACM console for any cert using this validation record
-   - `mkuh-prd-4` — ping the MKUH team or verify the cluster is gone in Azure
-   - `em6282`, `s1._domainkey`, `s2._domainkey` — confirm SendGrid is decommissioned (the `include:sendgrid.net` SPF you're adding suggests it may still be needed; verify)
+2. Quick checks before deleting (5 minutes total):
+   - `_62631442…` AWS ACM CNAME—check AWS ACM console for any cert using this validation record
+   - `mkuh-prd-4`—ping the MKUH team or verify the cluster is gone in Azure
+   - `em6282`, `s1._domainkey`, `s2._domainkey`—confirm SendGrid is decommissioned (the `include:sendgrid.net` SPF you're adding suggests it may still be needed; verify)
 
-3. **After deletions**, complete the two security additions: **SPF** (`v=spf1 include:sendgrid.net -all`) and **DMARC** (`_dmarc.fitfile.net`, `p=quarantine` to start) — both flagged CRITICAL in the audit.
+3. After deletions, complete the two security additions: SPF (`v=spf1 include:sendgrid.net -all`) and DMARC (`_dmarc.fitfile.net`, `p=quarantine` to start)—both flagged CRITICAL in the audit.
+4. Fix `locals.tf` zone ID so Terraform targets the correct zone going forward.
 
-4. **Fix `locals.tf`** zone ID so Terraform targets the correct zone going forward.
-
-This closes **FTFL-630** (Sprint 17 ends **13 May** — you have two days).
+This closes FTFL-630 (Sprint 17 ends 13 May—you have two days).
 
 ---
-

@@ -1,44 +1,75 @@
 ---
-title: ╭─ ⚕ Hermes ────────────────────────────────────────────────
-created: 2026-05-18T13:37:46.386855+00:00
+created: Invalid date
+modified: 2026-05-26T11:43:39+00:00
+pieces_ids: ["085758d2-3834-4fb1-a5ca-a76462e5b3ed", "11a90dd7-48d4-4199-bec7-834eb69c9c12", "19e623e7-5792-44c5-991b-8288c46644b7", "1cd1e67d-d08d-484b-8596-92b53ff4a693", "2d6bba58-fe7e-4f87-9e02-4b1ed0655109", "3331a476-5caa-4229-bd28-6abd65aa4dfd", "3505103e-5462-48a7-93d9-13361a932a24", "4165d1f8-deea-4b74-9055-f72607466a6f", "46be820b-0d84-4b6f-8e31-aecfbbb3930e", "6e9f4d2e-8d44-4cd5-985d-5b17618cd1e8", "704b00f3-ea35-4846-860d-5a3f6883d691", "71af27b7-446d-4122-9f66-903594526c53", "72169ff8-f61b-44e5-ae06-13d6c16cd775", "7ba42b52-8a94-4884-b6e9-58e0f651bdca", "7efaad2b-51d5-4313-a029-9d902df9a147", "87bfe0db-a174-481e-9744-0e97114f0a14", "8b8a179e-5253-487f-9683-5fae4744e335", "a5fbbde5-a75a-4ecc-a8c5-ef0f6a8ae74f", "cba136de-1415-4607-b479-9d8b20e0172e", "cd2fd173-46ee-4747-9f30-831418304728", "cfdb79b9-682e-4fcd-b6e4-49296e484e62", "d76269ce-77f0-487a-a703-d0fb4fa2d02e", "f5a79d3d-5875-4891-a12c-946315445048", "faf00571-6034-491b-9120-51d00dd16e89"]
 source: pieces-ltm
-pieces_ids: ["f5a79d3d-5875-4891-a12c-946315445048", "cba136de-1415-4607-b479-9d8b20e0172e", "7ba42b52-8a94-4884-b6e9-58e0f651bdca", "87bfe0db-a174-481e-9744-0e97114f0a14", "a5fbbde5-a75a-4ecc-a8c5-ef0f6a8ae74f", "3331a476-5caa-4229-bd28-6abd65aa4dfd", "6e9f4d2e-8d44-4cd5-985d-5b17618cd1e8", "19e623e7-5792-44c5-991b-8288c46644b7", "11a90dd7-48d4-4199-bec7-834eb69c9c12", "d76269ce-77f0-487a-a703-d0fb4fa2d02e", "4165d1f8-deea-4b74-9055-f72607466a6f", "1cd1e67d-d08d-484b-8596-92b53ff4a693", "2d6bba58-fe7e-4f87-9e02-4b1ed0655109", "7efaad2b-51d5-4313-a029-9d902df9a147", "085758d2-3834-4fb1-a5ca-a76462e5b3ed", "faf00571-6034-491b-9120-51d00dd16e89", "8b8a179e-5253-487f-9683-5fae4744e335", "71af27b7-446d-4122-9f66-903594526c53", "3505103e-5462-48a7-93d9-13361a932a24", "cd2fd173-46ee-4747-9f30-831418304728", "46be820b-0d84-4b6f-8e31-aecfbbb3930e", "704b00f3-ea35-4846-860d-5a3f6883d691", "72169ff8-f61b-44e5-ae06-13d6c16cd775", "cfdb79b9-682e-4fcd-b6e4-49296e484e62"]
-tags: [raw, pieces]
+tags: [pieces, raw]
+title: 2026-05-18-pieces-hermes-diagnostic-session
 ---
 
 ## Asset 1 (Pieces: f5a79d3d-5875-4891-a12c-946315445048)
-*Captured: 2026-05-18T12:46:16.611141Z*
+
+_Captured: 2026-05-18T12:46:16.611141Z_
 
 ╭─ ⚕ Hermes ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+
     The brain-mcp package was successfully installed. The timeout occurred during unrelated Rust package compilation. Let me restart the mcpproxy and verify the integration:
+
 ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
   ┊ 💻 preparing terminal…
+
   ┊ 💻 $         launchctl stop com.user.mcpproxy 2>/dev/null || pkill -f mcpproxy; sleep 2  2.3s
+
   ┊ 💻 preparing terminal…
-  ┊ 💻 $         ~/scripts/start-mcpproxy.sh &  0.1s
+
+  ┊ 💻 $ ~/scripts/start-mcpproxy.sh & 0.1s
+
   ┊ ⚙ preparing process…
-  ┊ ⚙  proc      wait proc_d7295a9  0.0s
+
+  ┊ ⚙ proc wait proc_d7295a9 0.0s
+
   ┊ 💻 preparing terminal…
+
   ┊ 💻 $         ~/scripts/mcpproxy-healthcheck.sh  38.3s
+
   ┊ ⚡ preparing mcp_mcp_proxy_call_tool…
+
   ┊ ⚡ mcp_mcp_p retrieve_tools  0.0s
+
   ┊ ⚡ preparing mcp_mcp_proxy_retrieve_tools…
+
   ┊ ⚡ mcp_mcp_p brain vault memory  0.1s
+
   ┊ ⚡ preparing mcp_mcp_proxy_retrieve_tools…
+
   ┊ ⚡ mcp_mcp_p brain-mcp  0.0s
+
   ┊ 💻 preparing terminal…
-  ┊ 💻 $         curl -s http://127.0.0.1:8000/mcp/ | head -50  0.3s
+
+  ┊ 💻 $ curl -s <http://127.0.0.1:8000/mcp/> | head -50 0.3s
+
   ┊ 📖 preparing read_file…
-  ┊ 📖 read      ~/.config/mcpproxy/mcp_proxy.json  1.1s
+
+  ┊ 📖 read ~/.config/mcpproxy/mcp_proxy.json 1.1s
+
   ┊ ⚡ preparing mcp_mcp_proxy_retrieve_tools…
-  ┊ ⚡ mcp_mcp_p query memory decision lesson procedure neuron  0.1s
+
+  ┊ ⚡ mcp_mcp_p query memory decision lesson procedure neuron 0.1s
+
   ┊ 💻 preparing terminal…
+
   ┊ 💻 $         ps aux | grep -i brain | grep -v grep  0.3s [error]
+
   ┊ 💻 preparing terminal…
-  ┊ 💻 $         curl -s -X POST http://127.0.0.1:8000/mcp/ -H "Content-Type: application/json" -H "Accept: application/json" -d '{"jsonrpc":"2.0","id":1,"method":"tools/list","params":{}}' | jq -r '.result.tools[].name' |grep -i brain  19.1s [error]
-⚠  Reached maximum iterations (30). Requesting summary...
-⚠ Iteration budget exhausted (30/30) — asking model to summarise
- ─  ⚕ Hermes  ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  ┊ 💻 $ curl -s -X POST <http://127.0.0.1:8000/mcp/> -H "Content-Type: application/json" -H "Accept: application/json" -d '{"jsonrpc":"2.0","id":1,"method":"tools/list","params":{}}' | jq -r '.result.tools[].name' |grep -i brain 19.1s [error]
+
+⚠ Reached maximum iterations (30). Requesting summary…
+
+⚠ Iteration budget exhausted (30/30)—asking model to summarise
+
+ ─ ⚕ Hermes ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 
      Integration Status: Partially Complete
      ✅ Completed Steps
@@ -79,8 +110,10 @@ tags: [raw, pieces]
 
  ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
 
-⚠ Iteration budget reached (30/30) — response may be incomplete
+⚠ Iteration budget reached (30/30)—response may be incomplete
+
 ⚠ Auxiliary title generation failed: Connection error.
+
  ⚕ qwen3.5:cloud │ 63.1K/128K │ [█████░░░░░] 49% │ 23m │ ⏲ 9m 25s
 
 Here is what happened
@@ -88,17 +121,17 @@ Here is what happened
 ---
 
 ## Asset 2 (Pieces: cba136de-1415-4607-b479-9d8b20e0172e)
-*Captured: 2026-05-18T12:46:28.443923Z*
+
+_Captured: 2026-05-18T12:46:28.443923Z_
 
 The user is showing me the output from Hermes (their AI agent) which attempted to install and integrate brain-mcp with mcpproxy. The agent hit the iteration limit (30/30) and is reporting a partial success - the package is installed and configured, but brain-mcp tools aren't showing up in the proxy.
 
 Let me analyze what happened and what the next steps should be. This is a STATUS + VERIFY scenario. I need to look at what was done and help diagnose the issue.
 
 Key facts from the Hermes output:
+
 1. ✅ brain-mcp v2.2.0 installed via mise (315 packages - that seems like a lot, probably the full npm dependency tree)
-
-
-2. ✅ .chezmoidata.toml entry added with `command = "NPX"` (though this might need to be `__NPX__` based on the template syntax)
+2. ✅.chezmoidata.toml entry added with `command = "NPX"` (though this might need to be `__NPX__` based on the template syntax)
 3. ✅ chezmoi apply passed CUE validation
 4. ✅ brain-mcp entry visible in the generated mcpproxy config
 5. ✅ mcpproxy healthcheck passes
@@ -107,25 +140,27 @@ Key facts from the Hermes output:
 
 The core problem is that while the configuration looks correct on paper, the actual brain-mcp process isn't starting, which is why the tools aren't available.
 
-Looking at the actual .chezmoidata.toml content, I see other entries use `__NPX__` as a placeholder that gets substituted with the resolved npx path at template render time. Using bare `"NPX"` won't work—it needs that double-underscore syntax to trigger the template substitution. This is likely preventing the brain-mcp server from launching properly. The main issue is likely that `brain-mcp` was installed via mise as an npm package, so it might be callable directly as a command rather than through npx, or it could be a Python package that needs different invocation parameters altogether. I should recommend checking whether the vault path argument format is correct and whether brain-mcp expects the path as a direct argument or through some other configuration method. Looking at the template substitution more carefully, the issue is that `__NPX__` gets replaced with the actual resolved path during template processing, but the Hermes agent output shows the literal string `"NPX"` without underscores—meaning the placeholder wasn't substituted at all, leaving an invalid command that can't be executed.
+Looking at the actual.chezmoidata.toml content, I see other entries use `__NPX__` as a placeholder that gets substituted with the resolved npx path at template render time. Using bare `"NPX"` won't work—it needs that double-underscore syntax to trigger the template substitution. This is likely preventing the brain-mcp server from launching properly. The main issue is likely that `brain-mcp` was installed via mise as an npm package, so it might be callable directly as a command rather than through npx, or it could be a Python package that needs different invocation parameters altogether. I should recommend checking whether the vault path argument format is correct and whether brain-mcp expects the path as a direct argument or through some other configuration method. Looking at the template substitution more carefully, the issue is that `__NPX__` gets replaced with the actual resolved path during template processing, but the Hermes agent output shows the literal string `"NPX"` without underscores—meaning the placeholder wasn't substituted at all, leaving an invalid command that can't be executed.
 
 I should also verify whether brain-mcp is actually a Node.js package as Hermes indicated with the npm installation and 315 dependencies, and check if the command-line arguments are correct—the flag for specifying the vault path might be `--vault-path` or something else depending on brain-mcp's actual CLI interface.
 
 ---
 
 ## Asset 3 (Pieces: 7ba42b52-8a94-4884-b6e9-58e0f651bdca)
-*Captured: 2026-05-18T12:47:09.349249Z*
 
-**Reflection 1 · task complete** — Worker produced a diagnostic response without any tool calls
+_Captured: 2026-05-18T12:47:09.349249Z_
 
-**Insights:** The worker correctly identified the root cause (NPX vs __NPX__ placeholder) and produced a complete fix sequence with code blocks. No tools were needed since the diagnosis was fully derivable from the conversation summary provided. The response is well-structured and actionable.
+Reflection 1 · task complete—Worker produced a diagnostic response without any tool calls
 
-**Next steps:** No tool calls are needed here — the worker has correctly diagnosed the issue from the conversation context and produced a clear, actionable fix guide. The response is complete and accurate. No further investigation is required.
+Insights: The worker correctly identified the root cause (NPX vs NPX placeholder) and produced a complete fix sequence with code blocks. No tools were needed since the diagnosis was fully derivable from the conversation summary provided. The response is well-structured and actionable.
+
+Next steps: No tool calls are needed here—the worker has correctly diagnosed the issue from the conversation context and produced a clear, actionable fix guide. The response is complete and accurate. No further investigation is required.
 
 ---
 
 ## Asset 4 (Pieces: 87bfe0db-a174-481e-9744-0e97114f0a14)
-*Captured: 2026-05-18T12:47:14.776083Z*
+
+_Captured: 2026-05-18T12:47:14.776083Z_
 
 The root cause is visible in Hermes' own summary. Here is the diagnosis and fix.
 
@@ -133,11 +168,11 @@ The root cause is visible in Hermes' own summary. Here is the diagnosis and fix.
 
 ## What Happened
 
-Hermes hit its 30-iteration budget mid-debug. The infrastructure is legitimately in place, but there are **two bugs to fix** before brain-mcp will register.
+Hermes hit its 30-iteration budget mid-debug. The infrastructure is legitimately in place, but there are two bugs to fix before brain-mcp will register.
 
 ---
 
-## Bug 1 — Wrong Command Placeholder (Most Likely Root Cause)
+## Bug 1—Wrong Command Placeholder (Most Likely Root Cause)
 
 Hermes wrote this into `.chezmoidata.toml`:
 
@@ -151,9 +186,9 @@ Your actual `.chezmoidata.toml` uses the double-underscore placeholder, as confi
 command = "__NPX__"
 ```
 
-`__NPX__` is substituted at template render time with the resolved absolute path to the npx binary (via `$data.resolved`). The literal string `"NPX"` is not a valid executable — the proxy tried to spawn a process called `NPX`, found nothing, and silently dropped it. That is exactly why `ps aux | grep brain` returned nothing.
+`__NPX__` is substituted at template render time with the resolved absolute path to the npx binary (via `$data.resolved`). The literal string `"NPX"` is not a valid executable—the proxy tried to spawn a process called `NPX`, found nothing, and silently dropped it. That is exactly why `ps aux | grep brain` returned nothing.
 
-**Fix:**
+Fix:
 
 ```bash
 # Edit .chezmoidata.toml
@@ -180,7 +215,7 @@ args     = ["-y", "brain-mcp", "/Volumes/DAL/Zettelkasten/LLMeon"]
 
 ---
 
-## Bug 2 — Verify the Vault Path Argument Before Re-applying
+## Bug 2—Verify the Vault Path Argument Before Re-applying
 
 Before running `chezmoi apply` again, confirm the exact CLI signature:
 
@@ -234,38 +269,40 @@ sleep 3
 Once `__NPX__` resolves correctly, mcpproxy will spawn the brain-mcp process on first tool discovery. You should see:
 
 - `ps aux | grep brain` returns a running `node` process
-- `mcp_mcp-proxy_retrieve_tools(query: "brain memory decision")` returns brain-mcp tools (e.g. `store_memory`, `retrieve_memory`, `search_neurons` — whatever the package exposes)
+- `mcp_mcp-proxy_retrieve_tools(query: "brain memory decision")` returns brain-mcp tools (e.g. `store_memory`, `retrieve_memory`, `search_neurons`—whatever the package exposes)
 
 The proxy log at `~/Library/Logs/mcpproxy.log` (or wherever your LaunchAgent writes stderr) will show any remaining startup errors if brain-mcp still doesn't register after the fix.
 
 ---
 
 ## Asset 5 (Pieces: a5fbbde5-a75a-4ecc-a8c5-ef0f6a8ae74f)
-*Captured: 2026-05-18T12:47:14.785691Z*
+
+_Captured: 2026-05-18T12:47:14.785691Z_
 
 meta_complete (362041 input + 2320 output + 663 reasoning tokens, $2.4885)
 
 ---
 
 ## Asset 6 (Pieces: 3331a476-5caa-4229-bd28-6abd65aa4dfd)
-*Captured: 2026-05-18T12:47:47.192202Z*
+
+_Captured: 2026-05-18T12:47:47.192202Z_
 
 give me a prompt for hermes to executre
 
 ---
 
 ## Asset 7 (Pieces: 6e9f4d2e-8d44-4cd5-985d-5b17618cd1e8)
-*Captured: 2026-05-18T12:48:02.567837Z*
+
+_Captured: 2026-05-18T12:48:02.567837Z_
 
 The user wants a ready-to-paste prompt for Hermes to execute the fix. I have all the context from the conversation - I know exactly what needs to happen. This is a TRANSFER/DRAFT scenario - produce a self-contained, copy-paste-ready prompt that a fresh Hermes agent can read cold.
 
 Key facts to embed:
+
 1. The bug: `command = "NPX"` should be `command = "__NPX__"` in `.chezmoidata.toml`
 2. Need to verify brain-mcp CLI args first with `--help`
 3. Re-apply chezmoi, restart proxy, verify
 4. The file location: `~/.local/share/chezmoi/.chezmoidata.toml`
-
-
 5. The proxy restart command and verification step to confirm the fix is working
 
 I should produce a clean, Hermes-optimized prompt that states the mission clearly, gives exact steps, doesn't require research - just execution - and stays within a reasonable iteration budget.
@@ -273,18 +310,20 @@ I should produce a clean, Hermes-optimized prompt that states the mission clearl
 ---
 
 ## Asset 8 (Pieces: 19e623e7-5792-44c5-991b-8288c46644b7)
-*Captured: 2026-05-18T12:48:21.998316Z*
 
-**Reflection 1 · task complete** — TRANSFER scenario: produce Hermes-executable prompt for brain-mcp proxy registration fix
+_Captured: 2026-05-18T12:48:21.998316Z_
 
-**Insights:** The worker produced the full prompt/deliverable in turn 0 with zero tool calls, which is correct for a TRANSFER scenario where the user asked for a prompt to paste into another agent (Hermes). The output is well-structured, actionable, and grounded. No LTM queries were needed since this is a forward-facing instruction bundle, not a memory retrieval task.
+Reflection 1 · task complete—TRANSFER scenario: produce Hermes-executable prompt for brain-mcp proxy registration fix
 
-**Next steps:** The worker has already produced an excellent, well-structured TRANSFER deliverable inline. This is a TRANSFER scenario and the output is complete — it contains all steps (verify CLI, fix chezmoidata.toml, apply+restart, healthcheck, fallback logging, SOUL.md update), correct constraints, and copy-paste-ready bash/toml blocks. No tool calls are needed for this task. Mark COMPLETE.
+Insights: The worker produced the full prompt/deliverable in turn 0 with zero tool calls, which is correct for a TRANSFER scenario where the user asked for a prompt to paste into another agent (Hermes). The output is well-structured, actionable, and grounded. No LTM queries were needed since this is a forward-facing instruction bundle, not a memory retrieval task.
+
+Next steps: The worker has already produced an excellent, well-structured TRANSFER deliverable inline. This is a TRANSFER scenario and the output is complete—it contains all steps (verify CLI, fix chezmoidata.toml, apply+restart, healthcheck, fallback logging, SOUL.md update), correct constraints, and copy-paste-ready bash/toml blocks. No tool calls are needed for this task. Mark COMPLETE.
 
 ---
 
 ## Asset 9 (Pieces: 11a90dd7-48d4-4199-bec7-834eb69c9c12)
-*Captured: 2026-05-18T12:48:37.007544Z*
+
+_Captured: 2026-05-18T12:48:37.007544Z_
 
 ```
 ## MISSION: Fix brain-mcp proxy registration
@@ -298,7 +337,9 @@ Root cause: `.chezmoidata.toml` has `command = "NPX"` — it must be `command = 
 
 ### 1. Verify brain-mcp CLI signature
 ```
+
 npx -y brain-mcp --help
+
 ```
 Note the exact flag/argument required to pass the vault path `/Volumes/DAL/Zettelkasten/LLMeon`.
 
@@ -314,13 +355,15 @@ args     = ["-y", "brain-mcp", "<correct-vault-flag-from-step-1>", "/Volumes/DAL
 ```
 
 If `--help` shows a positional argument (no flag), use:
+
 ```toml
 args = ["-y", "brain-mcp", "/Volumes/DAL/Zettelkasten/LLMeon"]
 ```
 
 Commit the change to the `development` branch.
 
-### 3. Apply and restart
+### 3. Apply and Restart
+
 ```bash
 chezmoi apply
 launchctl stop com.user.mcpproxy 2>/dev/null || pkill -9 -f mcpproxy
@@ -330,41 +373,53 @@ sleep 5
 ```
 
 ### 4. Verify
+
 ```bash
 ~/scripts/mcpproxy-healthcheck.sh
 ```
+
 Expected: `[mcpproxy-healthcheck] OK: proxy is healthy and tool surface is ready`
 
 Then confirm brain-mcp tools are discoverable:
+
 ```bash
 mcp_mcp-proxy_retrieve_tools(query: "brain vault memory neuron decision")
 ```
+
 Expected: results include tools from the brain-mcp server.
 
 Also confirm the process spawned:
+
 ```bash
 ps aux | grep -i brain | grep -v grep
 ```
 
-### 5. If brain-mcp still fails to start
+### 5. If Brain-mcp Still Fails to Start
+
 Check proxy logs for the startup error:
+
 ```bash
 cat ~/Library/Logs/mcpproxy.log | grep -i brain | tail -30
 ```
-Report the error — do not attempt workarounds without surfacing the log output first.
 
-### 6. On success — update SOUL.md
+Report the error—do not attempt workarounds without surfacing the log output first.
+
+### 6. On success—update SOUL.md
+
 Add a note under the mcpproxy / cognitive tools section:
+
 - brain-mcp is registered at key `brain-mcp` in `.chezmoidata.toml`
-- tools are accessible via `mcp_mcp-proxy_retrieve_tools(query: "...")` + `mcp_mcp-proxy_call_tool`
+- tools are accessible via `mcp_mcp-proxy_retrieve_tools(query: "…")` + `mcp_mcp-proxy_call_tool`
 - vault: `/Volumes/DAL/Zettelkasten/LLMeon`
 - use cases: storing decisions, lessons-learned, procedures as typed neurons
 
 ## CONSTRAINTS
+
 - Do NOT edit `dot_config/mcpproxy/mcp_proxy.json.tmpl` directly
-- Do NOT register brain-mcp in Hermes' native config — proxy only
+- Do NOT register brain-mcp in Hermes' native config—proxy only
 - Adhere to British English spelling in all log output and documentation
 - Confirm success before declaring complete
+
 ```
 
 ---
@@ -408,9 +463,9 @@ These three concepts are genuinely distinct, and conflating them is one of the m
 
 ### What is "Priority" for in Jira?
 
-**Priority** in Jira (Critical / High / Medium / Low) is a **triage signal** — it answers: *"If two tickets compete for the same engineer's attention today, which one wins?"*
+Priority in Jira (Critical / High / Medium / Low) is a triage signal — it answers: *"If two tickets compete for the same engineer's attention today, which one wins?"*
 
-It is a composite of both **urgency** (time pressure) and **impact** (consequence of not doing it), not just one or the other. It exists to help the team make a decision *right now*, not to record how important something is philosophically.
+It is a composite of both urgency (time pressure) and impact (consequence of not doing it), not just one or the other. It exists to help the team make a decision *right now*, not to record how important something is philosophically.
 
 ---
 
@@ -418,37 +473,37 @@ It is a composite of both **urgency** (time pressure) and **impact** (consequenc
 
 Your team is hitting a classic tension:
 
-| | **Urgent** | **Not Urgent** |
+| | Urgent | Not Urgent |
 |---|---|---|
-| **Important** | Do it now — High/Critical priority | *Schedule it* — Medium priority, plan the sprint |
-| **Not Important** | Delegate / question it | Backlog or drop |
+| Important | Do it now — High/Critical priority | *Schedule it* — Medium priority, plan the sprint |
+| Not Important | Delegate / question it | Backlog or drop |
 
-Work that is **important but not due until end of year** sits in the top-right quadrant — **"Schedule"**. These items:
+Work that is important but not due until end of year sits in the top-right quadrant — "Schedule". These items:
 
-- Are **real work** that must be planned and capacity allocated for
-- Should **not** carry High or Critical priority, because that signal is reserved for things that are *also* time-sensitive now
-- Should have a **Medium priority** (or custom "Planned" label), a milestone or target quarter set, and appear in **upcoming sprint planning** — not in the immediate queue
+- Are real work that must be planned and capacity allocated for
+- Should not carry High or Critical priority, because that signal is reserved for things that are *also* time-sensitive now
+- Should have a Medium priority (or custom "Planned" label), a milestone or target quarter set, and appear in upcoming sprint planning — not in the immediate queue
 
 ---
 
 ### How this should affect your backlog refinement
 
-- **Due date** belongs in the ticket's due date field (or a fix version / milestone) — it is *calendar data*, not priority data
-- **Priority should reflect the current sprint's triage reality** — can this wait 2 weeks? Then it's not High right now, even if it's strategically important
-- **Urgency** is the thing that escalates priority over time — as end-of-year approaches, the same "important, not urgent" ticket naturally rises in priority because its deadline is becoming near-term
+- Due date belongs in the ticket's due date field (or a fix version / milestone) — it is *calendar data*, not priority data
+- Priority should reflect the current sprint's triage reality — can this wait 2 weeks? Then it's not High right now, even if it's strategically important
+- Urgency is the thing that escalates priority over time — as end-of-year approaches, the same "important, not urgent" ticket naturally rises in priority because its deadline is becoming near-term
 
-A useful refinement heuristic: **ask "If we don't pick this up in the next sprint, what breaks or who is blocked?"** If the answer is "nothing yet", the priority is Medium or lower — regardless of importance.
+A useful refinement heuristic: ask "If we don't pick this up in the next sprint, what breaks or who is blocked?" If the answer is "nothing yet", the priority is Medium or lower — regardless of importance.
 
 ---
 
 ### Practical recommendation for your team
 
-- Use **priority** to mean: *rightful claim on the next available sprint slot*
-- Use **due date / fix version** to communicate deadline
-- Use **labels or a custom field** (e.g. `strategic`, `compliance`, `tech-debt`) to capture *why* something is important, separate from *when* it must be done
-- In refinement, sort the backlog by **priority × proximity to due date** — important things with far deadlines should sit refined and estimated, but ranked below genuinely urgent work
+- Use priority to mean: *rightful claim on the next available sprint slot*
+- Use due date / fix version to communicate deadline
+- Use labels or a custom field (e.g. `strategic`, `compliance`, `tech-debt`) to capture *why* something is important, separate from *when* it must be done
+- In refinement, sort the backlog by priority × proximity to due date — important things with far deadlines should sit refined and estimated, but ranked below genuinely urgent work
 
-The key shift: **priority is a dynamic, time-sensitive number** — it should be re-evaluated each sprint, not set once at ticket creation and forgotten.
+The key shift: priority is a dynamic, time-sensitive number — it should be re-evaluated each sprint, not set once at ticket creation and forgotten.
 
 ---
 
@@ -543,28 +598,34 @@ The core issue is that `npx -y brain-mcp` runs the CLI entrypoint rather than ex
 ---
 
 ```
-## MISSION: Fix brain-mcp .chezmoidata.toml — invoke node directly against server.js
+
+## MISSION: Fix brain-mcp.chezmoidata.toml—invoke Node Directly against server.js
 
 ## CONTEXT
+
 brain-mcp has no "server" CLI subcommand. The MCP server is a bare node script:
+
 ~/.local/share/mise/installs/npm-brain-mcp/2.2.0/lib/node_modules/brain-mcp/dist/mcp/server.js
 
-Running it directly with `node <path>` works. We need to update .chezmoidata.toml to
+Running it directly with `node <path>` works. We need to update.chezmoidata.toml to
+
 invoke node correctly, without hardcoding the versioned path.
 
-## STEPS — execute in order
+## STEPS—execute In order
 
-### 1. Discover available CUE/template placeholders
-Check what resolved path keys exist so we know whether __NODE__ is available:
+### 1. Discover Available CUE/template Placeholders
+
+Check what resolved path keys exist so we know whether NODE is available:
 
 ```bash
 cat ~/.local/share/chezmoi/.chezmoitemplates/mcp_server_entry.tmpl
 cat ~/.local/share/chezmoi/.chezmoidata/generated.json | jq '.resolved | keys'
 ```
 
-Report what keys are in `resolved` — we expect to see keys like `NPX`, `NODE`, `MISE`, etc.
+Report what keys are in `resolved`—we expect to see keys like `NPX`, `NODE`, `MISE`, etc.
 
-### 2. Find the stable (non-versioned) path to server.js
+### 2. Find the Stable (non-versioned) Path to server.js
+
 Mise may create a stable symlink. Check:
 
 ```bash
@@ -575,11 +636,12 @@ ls -la ~/.local/share/mise/installs/npm-brain-mcp/
 
 We want the path that survives a version upgrade. If a `current` symlink exists, use that.
 
-### 3. Update .chezmoidata.toml
+### 3. Update.chezmoidata.toml
 
 Edit `~/.local/share/chezmoi/.chezmoidata.toml`.
 
-**Option A** — if `__NODE__` placeholder exists in resolved:
+Option A—if `__NODE__` placeholder exists in resolved:
+
 ```toml
 [mcp_servers.brain-mcp]
 disabled = false
@@ -590,7 +652,8 @@ args     = ["/home/leon/.local/share/mise/installs/npm-brain-mcp/current/lib/nod
 OPENAI_API_KEY = "op://ff/Brain-MCP OpenAI Key/credential"
 ```
 
-**Option B** — if no NODE placeholder, use `mise x` to stay version-agnostic:
+Option B—if no NODE placeholder, use `mise x` to stay version-agnostic:
+
 ```toml
 [mcp_servers.brain-mcp]
 disabled = false
@@ -602,7 +665,8 @@ args     = ["x", "npm:brain-mcp@latest", "--", "node",
 OPENAI_API_KEY = "op://ff/Brain-MCP OpenAI Key/credential"
 ```
 
-**Option C** — fallback, use the exact versioned path (acceptable short-term):
+Option C—fallback, use the exact versioned path (acceptable short-term):
+
 ```toml
 [mcp_servers.brain-mcp]
 disabled = false
@@ -615,13 +679,18 @@ OPENAI_API_KEY = "op://ff/Brain-MCP OpenAI Key/credential"
 
 Pick Option A > B > C in that priority order.
 
-**Important**: `op://ff/Brain-MCP OpenAI Key/credential` is a placeholder — use whatever
+Important: `op://ff/Brain-MCP OpenAI Key/credential` is a placeholder—use whatever
+
 1Password item name/path you create for the key. If the key doesn't exist in 1Password yet,
-create it first:  `op item create --category=login --title="Brain-MCP OpenAI Key"` and add
+
+create it first: `op item create --category=login --title="Brain-MCP OpenAI Key"` and add
+
 a field called `credential` with the key value. Alternatively surface as a question to the user
+
 before proceeding.
 
-### 4. Commit and apply
+### 4. Commit and Apply
+
 ```bash
 cd ~/.local/share/chezmoi
 git add .chezmoidata.toml
@@ -630,7 +699,8 @@ git push origin development
 chezmoi apply
 ```
 
-### 5. Restart proxy and verify
+### 5. Restart Proxy and Verify
+
 ```bash
 launchctl stop com.user.mcpproxy 2>/dev/null || pkill -9 -f mcpproxy
 sleep 3
@@ -640,34 +710,41 @@ sleep 8
 ```
 
 Then confirm brain-mcp tools are discoverable:
+
 - Use `retrieve_tools` with query: `brain memory decision lesson neuron vault`
 - Confirm at least one brain-mcp tool appears in results
 - Run `ps aux | grep brain | grep -v grep` to confirm the node process is alive
 
-### 6. If OPENAI_API_KEY is missing or wrong
+### 6. If OPENAI_API_KEY is Missing or Wrong
+
 The server initialises without the key (stdio connect message appeared without it) but
+
 embeddings will fail at query time. After tools register, test with a simple store call.
+
 If it errors on the key, surface the error message before attempting any key fix.
 
-### 7. On success — update SOUL.md
+### 7. On success—update SOUL.md
+
 Add under the Cognitive Layer / mcpproxy section:
 
 ```markdown
 ## brain-mcp (Cognitive Memory Layer)
-- **Server**: node <path>/dist/mcp/server.js
-- **Vault**: /Volumes/DAL/Zettelkasten/LLMeon
-- **Access**: mcp_mcp-proxy_retrieve_tools → mcp_mcp-proxy_call_tool (CALL_TOOL mode)
-- **Use cases**: store decisions, lessons-learned, procedures as typed neurons
-- **Key config**: ~/.local/share/chezmoi/.chezmoidata.toml [mcp_servers.brain-mcp]
+- Server: node <path>/dist/mcp/server.js
+- Vault: /Volumes/DAL/Zettelkasten/LLMeon
+- Access: mcp_mcp-proxy_retrieve_tools → mcp_mcp-proxy_call_tool (CALL_TOOL mode)
+- Use cases: store decisions, lessons-learned, procedures as typed neurons
+- Key config: ~/.local/share/chezmoi/.chezmoidata.toml [mcp_servers.brain-mcp]
 ```
 
 ## CONSTRAINTS
+
 - Do NOT edit `dot_config/mcpproxy/mcp_proxy.json.tmpl` directly
-- Do NOT register brain-mcp in Hermes' native MCP config — proxy only
+- Do NOT register brain-mcp in Hermes' native MCP config—proxy only
 - Do NOT hardcode the versioned path if a stable symlink or placeholder exists
 - Surface the 1Password key question to the user before creating any 1Password items
 - Adhere to British English spelling in all documentation
 - Confirm tool discovery before declaring success
+
 ```
 
 ---
@@ -675,13 +752,13 @@ Add under the Cognitive Layer / mcpproxy section:
 ## Asset 17 (Pieces: 8b8a179e-5253-487f-9683-5fae4744e335)
 *Captured: 2026-05-18T13:14:12.599655Z*
 
-**Reflection 1 · on track** — Worker produced a Hermes prompt artifact instead of executing the task
+Reflection 1 · on track — Worker produced a Hermes prompt artifact instead of executing the task
 
-**Insights:** 0/6 items done. The worker misread the task: instead of executing a STATUS investigation of brain-mcp integration, it generated a multi-step prompt/instructions artifact for a downstream agent called 'Hermes'. The task is a STATUS scenario — the worker should be querying LTM and filesystem to report on current state, not writing agent prompts.
+Insights: 0/6 items done. The worker misread the task: instead of executing a STATUS investigation of brain-mcp integration, it generated a multi-step prompt/instructions artifact for a downstream agent called 'Hermes'. The task is a STATUS scenario — the worker should be querying LTM and filesystem to report on current state, not writing agent prompts.
 
-**Next steps:** The task is a STATUS query about brain-mcp integration. Search memory for recent brain-mcp context by calling search_memory with hints like ['brain-mcp server registration', 'brain-mcp node server.js', 'chezmoidata brain-mcp fix'] and time_ranges covering the last 2 weeks. Also call filesystem_search_paths with 'chezmoidata.toml' to find the actual file. Do NOT generate prompts for other agents — investigate and report the current state directly.
+Next steps: The task is a STATUS query about brain-mcp integration. Search memory for recent brain-mcp context by calling search_memory with hints like ['brain-mcp server registration', 'brain-mcp node server.js', 'chezmoidata brain-mcp fix'] and time_ranges covering the last 2 weeks. Also call filesystem_search_paths with 'chezmoidata.toml' to find the actual file. Do NOT generate prompts for other agents — investigate and report the current state directly.
 
-**Context summary:** Task: Summarise the brain-mcp integration status. The user provided detailed context about what was done and what still needs to be fixed (incorrect command in .chezmoidata.toml — should use node + server.js path instead of npx with 'server' arg). Worker should query LTM and filesystem to surface current state and provide an actionable STATUS report.
+Context summary: Task: Summarise the brain-mcp integration status. The user provided detailed context about what was done and what still needs to be fixed (incorrect command in .chezmoidata.toml — should use node + server.js path instead of npx with 'server' arg). Worker should query LTM and filesystem to surface current state and provide an actionable STATUS report.
 
 ---
 
@@ -711,13 +788,13 @@ Let me search memory for recent brain-mcp context and also look at the actual .c
 ## Asset 21 (Pieces: 46be820b-0d84-4b6f-8e31-aecfbbb3930e)
 *Captured: 2026-05-18T13:14:59.576677Z*
 
-**Reflection 2 · on track** — search_memory needs pagination; filesystem_search_paths needs a real path
+Reflection 2 · on track — search_memory needs pagination; filesystem_search_paths needs a real path
 
-**Insights:** 1/6 items started. search_memory returned fetchMore — worker must paginate before synthesising. filesystem_search_paths failed because the tilde-expanded full path was passed as the query instead of just the filename. Good that the worker batched 2 calls this turn.
+Insights: 1/6 items started. search_memory returned fetchMore — worker must paginate before synthesising. filesystem_search_paths failed because the tilde-expanded full path was passed as the query instead of just the filename. Good that the worker batched 2 calls this turn.
 
-**Next steps:** Two actions: (1) Paginate search_memory by calling it again with the cursor from the previous result's nextCursor field. (2) Fix the filesystem search by calling filesystem_search_paths with query='.chezmoidata.toml' and no tilde path (just the filename). Also add a second search_memory call with hints=['chezmoidata brain-mcp command NPX node', 'brain-mcp proxy spawn fail'] to broaden coverage.
+Next steps: Two actions: (1) Paginate search_memory by calling it again with the cursor from the previous result's nextCursor field. (2) Fix the filesystem search by calling filesystem_search_paths with query='.chezmoidata.toml' and no tilde path (just the filename). Also add a second search_memory call with hints=['chezmoidata brain-mcp command NPX node', 'brain-mcp proxy spawn fail'] to broaden coverage.
 
-**Context summary:** Task: STATUS report on brain-mcp integration. Worker is querying LTM and filesystem. search_memory needs pagination. filesystem_search_paths needs a plain filename query, not a full tilde path.
+Context summary: Task: STATUS report on brain-mcp integration. Worker is querying LTM and filesystem. search_memory needs pagination. filesystem_search_paths needs a plain filename query, not a full tilde path.
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 created: 2026-02-02T20:03:15+00:00
-modified: 2026-04-19T18:30:35+00:00
+modified: 2026-05-26T11:44:21+00:00
 source_of_truth: true
 title: ADHD Emotional Reasoning
 trust-level: developing

@@ -1,8 +1,10 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:40+00:00
 group: CI Functions Platform
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-title: Create a GitLab Function
+modified: 2026-05-26T11:44:11+00:00
+stage: Verify
+title: create
 ---
 
 {{< details >}}
@@ -14,15 +16,19 @@ title: Create a GitLab Function
 {{< /details >}}
 
 A GitLab Function is a directory with a `func.yml` file that defines the function's interface
+
 and implementation. Functions can run locally or be published to an OCI registry for reuse across
+
 jobs and projects.
 
 For information on using functions in a CI/CD job, see [GitLab Functions](_index.md). For example functions,
+
 see [GitLab Functions examples](examples.md).
 
-## Function structure
+## Function Structure
 
 A function is a directory that contains at a minimum a `func.yml` file, plus any supporting
+
 files the implementation needs:
 
 ```plaintext
@@ -32,7 +38,9 @@ my-function/
 ```
 
 The `func.yml` file contains two YAML documents separated by `---`: a spec that
+
 defines the function's inputs and outputs, and a definition that describes what
+
 the function does.
 
 ```yaml
@@ -50,13 +58,14 @@ exec:
   command: ["${{ func_dir }}/my-script.sh", "${{ inputs.message }}"]
 ```
 
-## Spec: Declare inputs and outputs
+## Spec: Declare Inputs and Outputs
 
 The spec describes the function's interface.
 
 ### Inputs
 
 Each input requires a `type`. Inputs with a `default` value are optional. Inputs without
+
 a default value must be provided by the caller.
 
 Input names must use alphanumeric characters and underscores, and cannot start with a number.
@@ -94,7 +103,9 @@ spec:
 ### Outputs
 
 Outputs define the values the function returns to subsequent steps. Each output requires a `type`.
+
 Outputs with a `default` value are optional. The default value is used when the function doesn't
+
 write the output value.
 
 Outputs use the same types and naming rules as inputs.
@@ -115,6 +126,7 @@ spec:
 ```
 
 At runtime, the function writes output values to the path given by `${{ output_file }}`.
+
 Each line must be a JSON object with `name` and `value` fields:
 
 ```shell
@@ -122,9 +134,10 @@ echo '{"name":"artifact_path","value":"/dist/app.tar.gz"}' >> "${{ output_file }
 echo '{"name":"compressed","value":true}' >> "${{ output_file }}"
 ```
 
-### Delegate outputs
+### Delegate Outputs
 
 If a function has multiple steps and you want the function's outputs to come from one specific
+
 step, use `outputs: delegate` in the spec and `delegate: <step_name>` in the definition:
 
 ```yaml
@@ -139,14 +152,16 @@ run:
 delegate: package  # use the package step outputs as this function outputs
 ```
 
-## Definition: Implement the function
+## Definition: Implement the Function
 
 The second document in `func.yml` describes the implementation. You can
+
 implement a function in two ways.
 
 ### `exec`
 
 Use `exec` to run a single command or script. The command is passed
+
 directly to the OS without a shell, so it must be an array of strings.
 
 ```yaml
@@ -160,9 +175,11 @@ exec:
 ```
 
 The working directory defaults to `CI_PROJECT_DIR`. To override it, use `work_dir`.
+
 The `work_dir` keyword is valid only for `exec` definitions, not `run:` definitions.
 
 Set `work_dir` to `${{ func_dir }}` when the command needs to reference
+
 files in the same directory as `func.yml`:
 
 ```yaml
@@ -204,9 +221,10 @@ outputs:
   url: ${{ steps.deploy.outputs.url }}
 ```
 
-### Set environment variables
+### Set Environment Variables
 
 Use `env` in the definition to set environment variables for the `exec` command
+
 or for all steps in a `run:` sequence. Values can use expressions:
 
 ```yaml
@@ -220,10 +238,12 @@ env:
   TARGET_ENV: "${{ inputs.environment }}"
 ```
 
-## Export environment variables
+## Export Environment Variables
 
 To make an environment variable available to all steps that run after your function
+
 for the remainder of the job, write it to `${{ export_file }}`. Each line must be a JSON object
+
 with `name` and `value` fields:
 
 ```shell
@@ -233,14 +253,17 @@ echo '{"name":"INSTALL_PATH","value":"/opt/myapp"}' >> "${{ export_file }}"
 Only `string`, `number`, and `boolean` values can be exported as environment variables.
 
 For more information about how exported variables interact with `env:` and the wider environment, see
+
 [environment variables](_index.md#environment-variables).
 
 ## Expressions
 
 Expressions use the `${{ }}` syntax and are evaluated just before the function runs.
+
 They can appear in `inputs` values, `env` values, `exec` command arguments, and `work_dir`.
 
 The following context variables are available inside a function definition, in addition
+
 to those described in [expressions](_index.md#expressions):
 
 | Variable                                  | Description                                                                                 |
@@ -251,12 +274,13 @@ to those described in [expressions](_index.md#expressions):
 | `export_file`                             | Path to the file for exporting environment variables.                                       |
 | `steps.<step_name>.outputs.<output_name>` | Output from a named step (available in `run:` definitions only).                            |
 
-## Complete example
+## Complete Example
 
 The following function accepts a file path, compresses it with `gzip`, and returns the
+
 path to the compressed file.
 
-### Create the function
+### Create the Function
 
 Directory layout:
 
@@ -295,11 +319,14 @@ gzip --keep "$INPUT_PATH"
 echo "{\"name\":\"output_path\",\"value\":\"${INPUT_PATH}.gz\"}" >> "$OUTPUT_FILE"
 ```
 
-### Use the function from a job
+### Use the Function from a Job
 
 This function requires `gzip` in the job environment. This example assumes
+
 `gzip` is already available on the instance where the job runs. If it is
+
 not, you can install it first with a `script:` step, or invoke a function that handles
+
 the installation before calling `compress`.
 
 ```yaml
@@ -315,25 +342,32 @@ my-job:
 
 For more example functions, see [GitLab Functions examples](examples.md).
 
-## Build and release functions
+## Build and Release Functions
 
 Functions are distributed as OCI images. The step runner provides two built-in functions
+
 for building and publishing function images.
 
 ### Build
 
 The `builtin://function/oci/build` function builds a multi-architecture function OCI image from files in the project
+
 directory and archives it as `function-image.tar` in the `CI_PROJECT_DIR`.
 
 `common.files` copies files shared across all platforms. `platforms.<os/arch>.files`
+
 copies files specific to that platform. In both cases, map keys are destination paths
+
 in the image and values are source paths relative to `CI_PROJECT_DIR`.
 
 In the following example, `function-image.tar` is a function OCI image that supports two platforms: `linux/amd64` and
+
 `linux/arm64`. Each platform image has three files: `func.yml`, `my-script.sh`, and `bin/my-binary`. Using the same filename
+
 for platform binaries keeps `func.yml` platform-independent.
 
 <!-- vale gitlab_base.Substitutions = NO -->
+
 ```yaml
 build_function:
   artifacts:
@@ -356,6 +390,7 @@ build_function:
             files:
               bin/my-binary: bin/linux-arm64/my-binary
 ```
+
 <!-- vale gitlab_base.Substitutions = YES -->
 
 ### Release
@@ -363,11 +398,15 @@ build_function:
 The `builtin://function/oci/publish` function publishes the archive from `function/oci/build` to an OCI registry.
 
 The publish function uses semantic versioning for function image tags: `1.0.0`, `1.1.0`, `2.0.0`. The function extracts the
+
 version from the `function-image.tar` file. Publish updates the `major`, `major.minor`, `major.minor.patch`
+
 and `latest` tags where necessary.
 
 Release candidates use a pre-release suffix such as `1.2.0-rc1`. Publishing a release
+
 candidate creates only the exact `major.minor.patch-prerelease` tag. It does not update
+
 `major`, `major.minor`, or `latest` tags.
 
 ```yaml
@@ -381,10 +420,12 @@ publish_function:
         to_repository: registry.example.com/my-org/my-function
 ```
 
-### Authenticate to a registry
+### Authenticate to a Registry
 
 To publish to a private registry, authenticate before running `function/oci/publish`.
+
 Use the [Docker Auth](https://gitlab.com/gitlab-org/ci-cd/runner-tools/gitlab-functions-examples/docker-auth)
+
 function to generate and export `DOCKER_AUTH_CONFIG` as a step before you publish:
 
 ```yaml
@@ -405,6 +446,7 @@ publish_function:
 ```
 
 `docker-auth` exports `DOCKER_AUTH_CONFIG` to all subsequent steps, so `function/oci/publish`
+
 picks it up automatically.
 
 Once published, callers reference the function using the registry URL and a tag:

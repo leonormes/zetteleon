@@ -2,7 +2,7 @@
 aliases: []
 created: 2026-02-02T07:05:00+00:00
 description: Leon’s core working preferences (ADHD, comms style, British English, action bias).
-modified: 2026-04-19T18:30:45+00:00
+modified: 2026-05-26T11:44:37+00:00
 tags: [domain/personal, system/prompt, type/context]
 title: leon-context-core-profile
 type: prompt

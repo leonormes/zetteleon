@@ -1,8 +1,10 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:41+00:00
 group: Pipeline Authoring
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-title: Migrate a Maven build from Jenkins to GitLab CI/CD
+modified: 2026-05-26T11:44:06+00:00
+stage: Verify
+title: jenkins-maven
 ---
 
 {{< details >}}
@@ -13,11 +15,13 @@ title: Migrate a Maven build from Jenkins to GitLab CI/CD
 {{< /details >}}
 
 If you have a Maven build in Jenkins, you can use a [Java Spring](https://gitlab.com/gitlab-org/project-templates/spring)
+
 project template to migrate to GitLab. The template uses Maven for its underlying dependency management.
 
-## Sample Jenkins configurations
+## Sample Jenkins Configurations
 
 The following three Jenkins examples each use different methods to test, build, and install a
+
 Maven project into a shell agent:
 
 - Freestyle with shell execution
@@ -33,28 +37,34 @@ All three examples run the same three commands in order, in three different stag
   `.m2` repository and again skip running the tests.
 
 These examples use a single, persistent Jenkins agent, which requires Maven to be
+
 pre-installed on the agent. This method of execution is similar to a GitLab Runner
+
 using the [shell executor](https://docs.gitlab.com/runner/executors/shell/).
 
-### Freestyle with shell execution
+### Freestyle with Shell Execution
 
 If using Jenkins' built-in shell execution option to directly call `mvn` commands
+
 from the shell on the agent, the configuration might look like:
 
 ![Jenkins UI that shows build steps with Maven commands defined as shell commands.](img/maven-freestyle-shell_v16_4.png)
 
-### Freestyle with Maven task plugin
+### Freestyle with Maven Task Plugin
 
 If using the Maven plugin in Jenkins to declare and execute any specific goals
+
 in the [Maven build lifecycle](https://maven.apache.org/guides/introduction/introduction-to-the-lifecycle.html),
+
 the configuration might look like:
 
 ![Jenkins UI that shows build steps with Maven commands defined using the Maven plugin.](img/maven-freestyle-plugin_v16_4.png)
 
 This plugin requires Maven to be installed on the Jenkins agent, and uses a script wrapper
+
 for calling Maven commands.
 
-### Using a declarative pipeline
+### Using a Declarative Pipeline
 
 If using a declarative pipeline, the configuration might look like:
 
@@ -88,11 +98,13 @@ pipeline {
 This example uses shell execution commands instead of plugins.
 
 By default, a declarative pipeline configuration is stored either in the Jenkins
+
 pipeline configuration or directly in the Git repository in a `Jenksinfile`.
 
-## Convert Jenkins configuration to GitLab CI/CD
+## Convert Jenkins Configuration to GitLab CI/CD
 
 While the previous examples are all slightly different, they can all be migrated to GitLab CI/CD
+
 with the same pipeline configuration.
 
 Prerequisites:
@@ -103,7 +115,9 @@ Prerequisites:
 This example mimics the behavior and syntax of building, testing, and installing on Jenkins.
 
 In a GitLab CI/CD pipeline, the commands run in "jobs", which are grouped into stages.
+
 The migrated configuration in the `.gitlab-ci.yml` configuration file consists of
+
 two global keywords (`stages` and `variables`) followed by 3 jobs:
 
 ```yaml
@@ -155,11 +169,14 @@ In this example:
     Jobs can run multiple commands in sequence, which run in the image container,
     but in this example the jobs run only one command each.
 
-### Run jobs in Docker containers
+### Run Jobs in Docker Containers
 
 Instead of using a persistent machine for handling this build process like the Jenkins samples,
+
 this example uses an ephemeral Docker container to handle execution. Using a container
+
 removes the need for maintaining a virtual machine and the Maven version installed on it.
+
 It also increases flexibility for expanding and extending the functionality of the pipeline.
 
 Prerequisites:
@@ -168,7 +185,9 @@ Prerequisites:
   If you are using GitLab.com, you can use the public instance runners.
 
 This migrated pipeline configuration consists of three global keywords (`stages`, `default`, and `variables`)
+
 followed by 3 jobs. This configuration makes use of additional GitLab CI/CD features
+
 for an improved pipeline compared to the [previous example](#convert-jenkins-configuration-to-gitlab-cicd):
 
 ```yaml

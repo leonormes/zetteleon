@@ -1,6 +1,6 @@
 ---
 created: 2026-05-04T08:01:26+00:00
-modified: 2026-05-08T12:53:38+00:00
+modified: 2026-05-26T11:43:55+00:00
 tags: [Concept]
 title: Concept! Illusion of Explanatory Depth (IOED)
 ---
@@ -15,7 +15,7 @@ When somebody believes they understand something well, but then try to explain i
 - Tradition: Cognitive psychology, metacognition research.
 - Related lineage: Dunning–Kruger (different—that's about skill, not mechanism), Kahneman's System 1/2, the "feeling of knowing."
 
-###3. The mechanism—— _why_ the illusion happens
+###3. The mechanism——_why_ the illusion happens
 
 This is the most important section. A concept card without mechanism is just a dictionary entry.
 

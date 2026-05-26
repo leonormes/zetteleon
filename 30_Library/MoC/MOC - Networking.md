@@ -3,7 +3,7 @@ aliases: ["NetEng", "Network Engineering Map", "Networking & DNS Index", "Networ
 created: 2025-10-24T14:25:58Z
 last_reviewed: 2026-04-05
 last_synthesis: 2026-04-05
-modified: 2026-04-20T07:38:25+00:00
+modified: 2026-05-26T11:44:22+00:00
 status: "evergreen"
 synthesis_count: 3
 tags: ["dns", "engineering", "infrastructure", "moc", "SoftwareEngineering/Networking"]
@@ -68,7 +68,7 @@ How to fix it when it breaks.
 - Diagnostics: [[Protocol - HIE--NNUH Network Debugging]]—A step-by-step checklist for isolating connectivity faults.
 - Hybrid Cloud: [[SoT - network-hybrid-debugging|Network Debugging - Cross-Cloud & Hybrid]]—ExpressRoute, DirectConnect, and peering failure modes.
 - Tooling: [[sot-network-tools-patterns|Network Debugging Tools & Patterns]]—The armory: tcpdump, netshoot, mtr, and nc.
-- Interface: [[MOC - The Life of a Packet in the Linux Kernel]]—*Packet traversal through the kernel networking stack: netfilter, eBPF, and the socket layer.*
+- Interface: [[MOC - The Life of a Packet in the Linux Kernel]]—_Packet traversal through the kernel networking stack: netfilter, eBPF, and the socket layer._
 
 ---
 
@@ -81,8 +81,9 @@ How to fix it when it breaks.
 ---
 
 Related:
+
 - [[MOC - ProdOS]]
 - [[MOC - Software Architecture Principles]]
 - [[MOC - Computer Science Foundations]]
-- [[Linux Networking]]—*The Linux/container networking MOC covering namespaces, veth pairs, and bridges; the kernel layer that underpins the cloud abstractions above.*
-- [[SoT - Linux Networking Primitives]]—*Canonical SoT for the three kernel primitives (veth, bridge, IPTables) that every CNI plugin automates.*
+- [[Linux Networking]]—_The Linux/container networking MOC covering namespaces, veth pairs, and bridges; the kernel layer that underpins the cloud abstractions above._
+- [[SoT - Linux Networking Primitives]]—_Canonical SoT for the three kernel primitives (veth, bridge, IPTables) that every CNI plugin automates._

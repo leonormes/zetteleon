@@ -4,7 +4,7 @@ created: 2025-10-31T09:20:29Z
 criteria: "Atomic notes on perception formation, accuracy, and meta-awareness"
 exclusions: "Interpersonal skills training, persuasion techniques, cultural anthropology"
 last_reviewed: "2026-04-08"
-modified: 2026-04-19T18:30:28+00:00
+modified: 2026-05-26T11:44:22+00:00
 scope: "Social perception mechanisms, biases, and calibration strategies"
 status: "growing"
 tags: ["topic/social-cognition", "topic/social-perception"]

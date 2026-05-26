@@ -1,9 +1,11 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:41+00:00
+description: Control when jobs run by using rules, conditions, and variable expressions.
 group: Pipeline Authoring
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-description: Control when jobs run by using rules, conditions, and variable expressions.
-title: Specify when jobs run with `rules`
+modified: 2026-05-26T11:44:04+00:00
+stage: Verify
+title: job_rules
 ---
 
 {{< details >}}
@@ -16,11 +18,12 @@ title: Specify when jobs run with `rules`
 Use the [`rules`](../yaml/_index.md#rules) keyword to include or exclude jobs in pipelines.
 
 Rules are evaluated in order until the first match. When a match is found, the job
+
 is either included or excluded from the pipeline, depending on the configuration.
 
 You cannot use dotenv variables created in job scripts in rules, because rules are evaluated before any jobs run.
 
-## `rules` examples
+## `rules` Examples
 
 The following example uses `if` to define that the job runs in only two specific cases:
 
@@ -48,6 +51,7 @@ job:
 - In all other cases, no rules match, so the job is not added to any other pipeline.
 
 Alternatively, you can define a set of rules to exclude jobs in a few cases, but
+
 run them in all other cases:
 
 ```yaml
@@ -71,9 +75,10 @@ job:
 > be triggered by the same event (a push to the source branch for an open merge request).
 > See how to [avoid duplicate pipelines](#avoid-duplicate-pipelines) for more details.
 
-### Run jobs for scheduled pipelines
+### Run Jobs for Scheduled Pipelines
 
 You can configure a job to be executed only when the pipeline has been
+
 scheduled. For example:
 
 ```yaml
@@ -91,12 +96,15 @@ job:
 ```
 
 In this example, `make world` runs in scheduled pipelines, and `make build`
+
 runs in branch and tag pipelines.
 
-### Skip jobs if the branch is empty
+### Skip Jobs if the Branch is Empty
 
 Use [`rules:changes:compare_to`](../yaml/_index.md#ruleschangescompare_to) to
+
 skip a job when the branch is empty, which saves CI/CD resources. The configuration compares the
+
 branch to the default branch, and if the branch:
 
 - Doesn't have changed files, the job doesn't run.
@@ -113,17 +121,20 @@ job:
       changes:
         compare_to: 'refs/heads/main'
         paths:
-          - '**/*'
+          - '/*'
 ```
 
 The rule for this job compares all files and paths in the current branch
-recursively (`**/*`) against the `main` branch. The rule matches and the
+
+recursively (`/*`) against the `main` branch. The rule matches and the
+
 job runs only when there are changes to the files in the branch.
 
 For `parallel:matrix` jobs, you can [use matrix variables in `rules:changes` paths](job_control.md#use-matrix-variables-in-rules)
+
 to run each job instance only when files relevant to that matrix value have changed.
 
-## Run a job when a file is not present
+## Run a Job when a File is not Present
 
 You can use `rules: exists` to configure a job to run only when a specific file does not exist.
 
@@ -140,18 +151,23 @@ job:
 ```
 
 In this example, if the `example_dir/example.yml` file exists in the branch, the job does not run.
+
 If the file does not exist, the job can run in merge request pipelines.
 
 For `parallel:matrix` jobs, you can [use matrix variables in `rules:exists` paths](job_control.md#use-matrix-variables-in-rules)
+
 to include a job instance only when a specific file exists.
 
-## Common `if` clauses with predefined variables
+## Common `if` Clauses with Predefined Variables
 
 `rules:if` clauses are commonly used with [predefined CI/CD variables](../variables/predefined_variables.md),
+
 especially `CI_PIPELINE_SOURCE`.
 
 The following example runs the job as a manual job in scheduled pipelines or in push
+
 pipelines (to branches or tags), with `when: on_success` (default). It does not
+
 add the job to any other pipeline type.
 
 ```yaml
@@ -165,6 +181,7 @@ job:
 ```
 
 The following example runs the job as a `when: on_success` job in merge request pipelines
+
 and scheduled pipelines. It does not run in any other pipeline type.
 
 ```yaml
@@ -186,17 +203,18 @@ Other commonly used `if` clauses:
   If the commit branch is the default branch and the commit message title matches a regular expression.
 - `if: $CUSTOM_VARIABLE == "value1"`: If the custom variable `CUSTOM_VARIABLE` is exactly `value1`.
 
-### Run jobs only in specific pipeline types
+### Run Jobs only in Specific Pipeline Types
 
 You can use predefined CI/CD variables with `rules` to choose which pipeline types jobs should run for.
 
 The following table lists some of the variables that you can use, and the pipeline
+
 types the variables can control for:
 
 - Branch pipelines that run for Git `push` events to a branch, like new commits or tags.
 - Tag pipelines that run only when a new Git tag is pushed to a branch.
 - Merge request pipelines that run for changes to a merge request, like new commits or
-  selecting **Run pipeline** in a merge request's pipelines tab.
+  selecting Run pipeline in a merge request's pipelines tab.
 - Scheduled pipelines.
 
 | Variables                                  | Branch | Tag | Merge request | Scheduled |
@@ -209,6 +227,7 @@ types the variables can control for:
 | `CI_MERGE_REQUEST_IID`                     |        |     | Yes           |           |
 
 For example, to configure a job to run for merge request pipelines and scheduled pipelines,
+
 but not branch or tag pipelines:
 
 ```yaml
@@ -222,7 +241,7 @@ job1:
       when: never
 ```
 
-### `CI_PIPELINE_SOURCE` predefined variable
+### `CI_PIPELINE_SOURCE` Predefined Variable
 
 Use the `CI_PIPELINE_SOURCE` variable to control when to add jobs for these pipeline types:
 
@@ -241,15 +260,17 @@ Use the `CI_PIPELINE_SOURCE` variable to control when to add jobs for these pipe
 | `schedule`                      | For [scheduled pipelines](../pipelines/schedules.md). |
 | `security_orchestration_policy` | For [scheduled scan execution policies](../../user/application_security/policies/scan_execution_policies.md) pipelines. |
 | `trigger`                       | For pipelines created by using a [trigger token](../triggers/_index.md#configure-cicd-jobs-to-run-in-triggered-pipelines). |
-| `web`                           | For pipelines created by selecting **New pipeline** in the GitLab UI, from the project's **Build** > **Pipelines** section. |
+| `web`                           | For pipelines created by selecting New pipeline in the GitLab UI, from the project's Build > Pipelines section. |
 | `webide`                        | For pipelines created by using the [Web IDE](../../user/project/web_ide/_index.md). |
 
 These values are the same as returned for the `source` parameter when using the
+
 [pipelines API endpoint](../../api/pipelines.md#list-project-pipelines).
 
-## Complex rules
+## Complex Rules
 
 You can use all `rules` keywords, like `if`, `changes`, and `exists`, in the same
+
 rule. The rule evaluates to true only when all included keywords evaluate to true.
 
 For example:
@@ -261,12 +282,13 @@ docker build:
     - if: $VAR == "string value"
       changes:  # Include the job and set to when:manual if any of the follow paths match a modified file.
         - Dockerfile
-        - docker/scripts/**/*
+        - docker/scripts//*
       when: manual
       allow_failure: true
 ```
 
 If the `Dockerfile` file or any file in `/docker/scripts` has changed and `$VAR == "string value"`,
+
 then the job runs manually and is allowed to fail.
 
 You can use parentheses with `&&` and `||` to build more complicated variable expressions.
@@ -279,10 +301,12 @@ job1:
     - if: ($CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH || $CI_COMMIT_BRANCH == "develop") && $MY_VARIABLE
 ```
 
-## Avoid duplicate pipelines
+## Avoid Duplicate Pipelines
 
 If a job uses `rules`, a single action, like pushing a commit to a branch, can trigger
+
 multiple pipelines. You don't have to explicitly configure rules for multiple types
+
 of pipeline to trigger them accidentally.
 
 For example:
@@ -297,8 +321,11 @@ job:
 ```
 
 This job does not run when `$CUSTOM_VARIABLE` is false, but it does run in all
-other pipelines, including **both** push (branch) and merge request pipelines. With
+
+other pipelines, including both push (branch) and merge request pipelines. With
+
 this configuration, every push to an open merge request's source branch
+
 causes duplicated pipelines.
 
 To avoid duplicate pipelines, you can:
@@ -316,10 +343,13 @@ To avoid duplicate pipelines, you can:
   ```
 
 You can also avoid duplicate pipelines by changing the job rules to avoid either push (branch)
+
 pipelines or merge request pipelines. However, if you use a `- when: always` rule without
+
 `workflow: rules`, GitLab displays a [pipeline warning](debugging.md#pipeline-warnings).
 
 For example, the following does not cause double pipelines, but is not recommended
+
 without `workflow: rules`:
 
 ```yaml
@@ -332,6 +362,7 @@ job:
 ```
 
 You should not include both push and merge request pipelines in the same job without
+
 [`workflow:rules` that prevent duplicate pipelines](../yaml/workflow.md#switch-between-branch-pipelines-and-merge-request-pipelines):
 
 ```yaml
@@ -343,7 +374,9 @@ job:
 ```
 
 Also, do not mix `only/except` jobs with `rules` jobs in the same pipeline.
+
 It may not cause YAML errors, but the different default behaviors of `only/except`
+
 and `rules` can cause issues that are difficult to troubleshoot:
 
 ```yaml
@@ -357,14 +390,19 @@ job-with-rules:
 ```
 
 For every change pushed to the branch with an open merge request, duplicate pipelines run.
+
 One branch pipeline runs a single job (`job-with-no-rules`), and one merge request pipeline
+
 runs the other job (`job-with-rules`). Jobs with no rules default
+
 to [`except: merge_requests`](../yaml/deprecated_keywords.md#only--except), so `job-with-no-rules`
+
 runs in all cases except merge requests.
 
-## Reuse rules in different jobs
+## Reuse Rules in Different Jobs
 
 Use [`!reference` tags](../yaml/yaml_optimization.md#reference-tags) to reuse rules in different
+
 jobs. You can combine `!reference` rules with rules defined in the job. For example:
 
 ```yaml
@@ -389,33 +427,36 @@ job2:
     - echo "It also runs for merge requests."
 ```
 
-## CI/CD variable expressions
+## CI/CD Variable Expressions
 
 Use variable expressions with [`rules:if`](../yaml/_index.md#rulesif) to control
+
 when jobs should be added to a pipeline.
 
 You can use the equality operators `==` and `!=` to compare a variable with a
+
 string. Both single quotes and double quotes are valid. The variable has to be on the left side of the comparison. For example:
 
 - `if: $VARIABLE == "some value"`
-- `if: $VARIABLE != "some value"`
+- `if: $VARIABLE!= "some value"`
 
 You can compare the values of two variables. For example:
 
 - `if: $VARIABLE_1 == $VARIABLE_2`
-- `if: $VARIABLE_1 != $VARIABLE_2`
+- `if: $VARIABLE_1!= $VARIABLE_2`
 
 You can compare a variable to the `null` keyword to see if it is defined. For example:
 
 - `if: $VARIABLE == null`
-- `if: $VARIABLE != null`
+- `if: $VARIABLE!= null`
 
 You can check if a variable is defined but empty. For example:
 
 - `if: $VARIABLE == ""`
-- `if: $VARIABLE != ""`
+- `if: $VARIABLE!= ""`
 
 You can check if a variable is both defined and not empty by using just the variable name in
+
 the expression. For example:
 
 - `if: $VARIABLE`
@@ -425,7 +466,7 @@ You can also:
 - [Use CI/CD inputs in variable expressions](../inputs/examples.md#use-cicd-inputs-in-variable-expressions).
 - [Use `parallel:matrix` variables in `rules:if` expressions](job_control.md#use-matrix-variables-in-rules).
 
-### Compare a variable to a regular expression
+### Compare a Variable to a Regular Expression
 
 You can do regular expression matching on variable values with the `=~` and `!~` operators.
 
@@ -437,7 +478,7 @@ Expressions evaluate as `true` if:
 For example:
 
 - `if: $VARIABLE =~ /^content.*/`
-- `if: $VARIABLE !~ /^content.*/`
+- `if: $VARIABLE!~ /^content.*/`
 
 Additionally:
 
@@ -458,9 +499,10 @@ Additionally:
 - Variable pattern matching with regular expressions uses the
   [RE2 regular expression syntax](https://github.com/google/re2/wiki/Syntax).
 
-### Store a regular expression in a variable
+### Store a Regular Expression in a Variable
 
 Variables on the right side of `=~` and `!~` expressions are evaluated as regular expressions.
+
 The regular expression must be enclosed in forward slashes (`/`). For example:
 
 ```yaml
@@ -501,7 +543,7 @@ regex-job2:
     - if: '$CI_JOB_NAME =~ $pattern'
 ```
 
-### Join variable expressions together
+### Join Variable Expressions together
 
 You can join multiple expressions using `&&` (and) or `||` (or), for example:
 
@@ -510,18 +552,22 @@ You can join multiple expressions using `&&` (and) or `||` (or), for example:
 - `$VARIABLE1 =~ /^content.*/ || $VARIABLE2 =~ /thing$/ && $VARIABLE3`
 
 You can use parentheses to group expressions together. Parentheses take precedence over
+
 `&&` and `||`, so expressions enclosed in parentheses evaluate first, and the
+
 result is used for the rest of the expression. For the precedence of operators,
+
 `&&` evaluates before `||`.
 
 Nest parentheses to create complex conditions, and the inner-most expressions
+
 in parentheses evaluate first. For example:
 
 - `($VARIABLE1 =~ /^content.*/ || $VARIABLE2) && ($VARIABLE3 =~ /thing$/ || $VARIABLE4)`
 - `($VARIABLE1 =~ /^content.*/ || $VARIABLE2 =~ /thing$/) && $VARIABLE3`
 - `$CI_COMMIT_BRANCH == "my-branch" || (($VARIABLE1 == "thing" || $VARIABLE2 == "thing") && $VARIABLE3)`
 
-### Negate expressions
+### Negate Expressions
 
 {{< history >}}
 
@@ -530,13 +576,14 @@ in parentheses evaluate first. For example:
 {{< /history >}}
 
 You can use the `!` operator to negate an expression, or a part of an expression.
+
 For example:
 
 - `if: "!$VAR1"`: True when the variable is empty or undefined.
-- `if: !($VAR1 == "my variable")`: True when the variable value does not match `my variable`.
-- `if: $VAR1 && !$VAR2`: True when `VAR1` exists and isn't empty, and `VAR2` doesn't exist or is empty.
-- `if: !($VAR1 || $VAR2)`: True only when both variables don't exist or are empty.
-- `if: !($VAR1 && $VAR2)`: True when either variable doesn't exist or is empty.
+- `if:!($VAR1 == "my variable")`: True when the variable value does not match `my variable`.
+- `if: $VAR1 &&!$VAR2`: True when `VAR1` exists and isn't empty, and `VAR2` doesn't exist or is empty.
+- `if:!($VAR1 || $VAR2)`: True only when both variables don't exist or are empty.
+- `if:!($VAR1 && $VAR2)`: True when either variable doesn't exist or is empty.
 
 > [!warning]
 > The `!` operator checks if a variable is empty or undefined, not whether its value is `false` or `0`. For example:
@@ -544,12 +591,13 @@ For example:
 > - `!"false"` evaluates to `false` because the string `"false"` is not empty (non-empty strings are truthy).
 > - `!"0"` also evaluates to `false` because the string is not empty.
 > - `!""` evaluates to `true` because the string is empty (empty strings are falsy).
->
+> 
 > To check specific values, use comparison operators, for example `!($VAR == "false")` or `!($VAR == "0")`.
 
 ## Migrate from `only` or `except` to `rules`
 
 Use `rules` and CI/CD variable expressions to reproduce the same behavior as the deprecated
+
 [`only` and `except` keywords](../yaml/deprecated_keywords.md#only--except).
 
 For example, starting with this deprecated configuration:
@@ -582,6 +630,7 @@ In this example:
   - The pipeline is a merge request pipeline.
 
 To create similar pipeline configuration with `rules`, use CI/CD variable expressions.
+
 For example, for a direct migration from `only` and `except` to `rules`:
 
 ```yaml
@@ -605,9 +654,11 @@ job2:
 ```
 
 Both jobs behave the same way with `rules` as with `only` and `except`.
+
 However, you can simplify `job2` to avoid `when: never` rules.
 
 Define rules for when `job2` should run instead of when it should not run.
+
 For example, if `job2` should run for all branches except the default branch, and also for tags:
 
 ```yaml
@@ -619,18 +670,23 @@ job2:
 ```
 
 In this example, `job2` runs when the branch is not the default branch,
+
 and when a new Git tag is created. Otherwise, the job does not run.
 
 ## Troubleshooting
 
-### Unexpected behavior from regular expression matching with `=~`
+### Unexpected Behavior from Regular Expression Matching with `=~`
 
 When using the `=~` character, make sure the right side of the comparison always contains
+
 a valid regular expression.
 
 If the right side of the comparison is not a valid regular expression enclosed with `/` characters,
+
 the expression evaluates in an unexpected way. In that case, the comparison checks
+
 if the left side is a substring of the right side. For example, `"23" =~ "1234"` evaluates to true,
+
 which is the opposite of `"23" =~ /1234/`, which evaluates to false.
 
 You should not configure your pipeline to rely on this behavior.

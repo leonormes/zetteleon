@@ -1,8 +1,10 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:40+00:00
 group: Runner Core
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-title: Configure Kubernetes deployments (deprecated)
+modified: 2026-05-26T11:44:12+00:00
+stage: Verify
+title: configure_kubernetes_deployments
 ---
 
 {{< details >}}
@@ -16,7 +18,9 @@ title: Configure Kubernetes deployments (deprecated)
 > This feature was [deprecated](https://gitlab.com/groups/gitlab-org/configure/-/epics/8) in GitLab 14.5.
 
 If you are deploying to a [Kubernetes cluster](../../user/infrastructure/clusters/_index.md)
+
 associated with your project, you can configure these deployments from your
+
 `.gitlab-ci.yml` file.
 
 > [!note]
@@ -28,6 +32,7 @@ The following configuration options are supported:
 - [`namespace`](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/)
 
 In the following example, the job deploys your application to the
+
 `production` Kubernetes namespace.
 
 ```yaml
@@ -47,16 +52,19 @@ deploy:
 ```
 
 When you use the GitLab Kubernetes integration to deploy to a Kubernetes cluster,
+
 you can view cluster and namespace information. On the deployment
+
 job page, it's displayed above the job trace:
 
 ![Deployment cluster information with cluster and namespace.](img/environments_deployment_cluster_v12_8.png)
 
-## Configure incremental rollouts
+## Configure Incremental Rollouts
 
 Learn how to release production changes to only a portion of your Kubernetes pods with
+
 [incremental rollouts](incremental_rollouts.md).
 
-## Related topics
+## Related Topics
 
 - [Deploy boards (deprecated)](../../user/project/deploy_boards.md)

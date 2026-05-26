@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T00:00:00+00:00
-modified: 2026-04-19T18:30:41+00:00
+modified: 2026-05-26T11:44:33+00:00
 tags: [criteria, evaluation, optimization, prompt-engineering]
 title: Optimization Criteria Must Be Binary Single-Variable Testable Conditions
 ---

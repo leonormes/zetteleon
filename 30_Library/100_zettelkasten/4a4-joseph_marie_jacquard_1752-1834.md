@@ -1,6 +1,6 @@
 ---
 created: 2026-05-04T08:01:26+00:00
-modified: 2026-05-11T17:18:29+00:00
+modified: 2026-05-26T11:44:37+00:00
 title: 4a4-joseph_marie_jacquard_1752-1834
 ---
 

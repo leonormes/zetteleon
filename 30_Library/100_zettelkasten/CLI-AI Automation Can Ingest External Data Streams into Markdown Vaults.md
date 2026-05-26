@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-04-19T18:30:43+00:00
+modified: 2026-05-26T11:44:36+00:00
 tags: [api-ingestion, automation, claude-code, obsidian, second-brain]
 title: CLI-AI Automation Can Ingest External Data Streams into Markdown Vaults
 ---

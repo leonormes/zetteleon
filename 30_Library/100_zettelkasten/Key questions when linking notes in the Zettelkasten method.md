@@ -1,6 +1,6 @@
 ---
 created: 2026-05-04T08:01:26+00:00
-modified: 2026-05-06T09:14:40+00:00
+modified: 2026-05-26T11:44:34+00:00
 title: Key questions when linking notes in the Zettelkasten method
 ---
 

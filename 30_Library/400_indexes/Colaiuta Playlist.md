@@ -1,11 +1,11 @@
 ---
 captured: 2026-04-20T14:16:49+01:00 2026-04-20T14:16:49+01:00
 created: 2026-04-20T13:16:50+00:00
-modified: 2026-04-24T14:10:00+00:00
+modified: 2026-05-26T11:44:23+00:00
 source: https://gemini.google.com/app/c9a34d59918402f9
 status: archived
-tags:
-title: HEAD You said Httpsyoutube.comwatch?v=JNW61ywog54&s...
+tags: []
+title: Colaiuta Playlist
 type: head
 ---
 

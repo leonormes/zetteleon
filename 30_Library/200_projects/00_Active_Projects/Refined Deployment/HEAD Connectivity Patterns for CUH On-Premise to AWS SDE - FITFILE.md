@@ -1,7 +1,7 @@
 ---
 captured: "2026-04-28T10:18:59+01:00 2026-04-28T10:18:59+01:00"
 created: 2026-04-28T09:19:02+00:00
-modified: 2026-04-28T12:48:01+00:00
+modified: 2026-05-26T11:44:26+00:00
 source: "https://fitfile.atlassian.net/wiki/spaces/FITFILE/pages/2256142353/Connectivity+Patterns+for+CUH+On-Premise+to+AWS+SDE"
 status: "processing"
 tags: ["input"]

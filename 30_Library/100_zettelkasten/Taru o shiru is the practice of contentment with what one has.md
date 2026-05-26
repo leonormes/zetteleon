@@ -2,7 +2,7 @@
 aliases: ["Contentment Practice", "Taru o shiru"]
 created: 2025-10-29T16:35:00Z
 last_reviewed: ""
-modified: 2026-04-19T18:30:39+00:00
+modified: 2026-05-26T11:44:32+00:00
 source: "[[SoT - Ikigai and the Logic of Purpose]]"
 status: "seedling"
 tags: ["contentment", "gratitude", "Japanese_culture", "mindfulness", "TheHuman/Habits"]

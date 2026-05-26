@@ -1,7 +1,7 @@
 ---
 aliases: [Infrastructure Triage, Networking Triage]
 created: 2026-04-08T00:00:00+00:00
-modified: 2026-04-19T18:30:29+00:00
+modified: 2026-05-26T11:44:22+00:00
 status: seedling
 tags: [cloud, devops, infrastructure, moc, networking, triage]
 title: MOC - Data-Centric Infrastructure & Networking (Triage)

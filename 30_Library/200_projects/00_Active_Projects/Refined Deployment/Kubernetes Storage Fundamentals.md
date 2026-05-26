@@ -1,6 +1,6 @@
 ---
 created: 2026-05-02T19:37:55+00:00
-modified: 2026-05-02T20:40:35+00:00
+modified: 2026-05-26T11:44:26+00:00
 title: Kubernetes Storage Fundamentals
 ---
 
@@ -220,14 +220,23 @@ While reclaimPolicy: Retain protects against accidental deletion via PVC removal
 By changing your reclaimPolicy to Retain (preferably at the StorageClass level for future PVs and by patching existing PVs), you will achieve your immediate goal of preventing data loss when an ArgoCD application is deleted and quickly recreated. Remember to address the manual step of clearing claimRef on 'Released' PVs to make them available for new PVCs. Complement this with robust backup and snapshot strategies for overall data resilience.
 
 Sources
+
 1\. [https://www.pulumi.com/ai/answers/dc46b3d3-b965-4c5e-86c5-07b50fb843fe](https://www.pulumi.com/ai/answers/dc46b3d3-b965-4c5e-86c5-07b50fb843fe)
+
 2\. [https://www.javaadvent.com/2021/12/different-approaches-to-building-stateful-microservices-in-the-cloud-native-world.html](https://www.javaadvent.com/2021/12/different-approaches-to-building-stateful-microservices-in-the-cloud-native-world.html)
+
 3\. [https://aws.github.io/aws-eks-best-practices/windows/docs/storage/](https://aws.github.io/aws-eks-best-practices/windows/docs/storage/)
+
 4\. [https://vox.veritas.com/t5/Protection/Veritas-NetBackup-Kubernetes-protection-Architecture/ba-p/891528](https://vox.veritas.com/t5/Protection/Veritas-NetBackup-Kubernetes-protection-Architecture/ba-p/891528)
+
 5\. [https://blog.codefarm.me/2024/02/29/kubernetes-volumes/](https://blog.codefarm.me/2024/02/29/kubernetes-volumes/)
+
 6\. [https://docs.openshift.com/dedicated/storage/index.html](https://docs.openshift.com/dedicated/storage/index.html)
+
 7\. [https://ny55.blogspot.com/2020/07/kubernetes-interview-questions.html](https://ny55.blogspot.com/2020/07/kubernetes-interview-questions.html)
+
 8\. [http://kuber.tech-notes.net/pages/Kubernetes\_overview/2020-01-27-kubernetes-volumes.html](http://kuber.tech-notes.net/pages/Kubernetes_overview/2020-01-27-kubernetes-volumes.html)
+
 9\. [https://kubernetes.io/docs/concepts/\_print/](https://kubernetes.io/docs/concepts/_print/)
 
 Here's a comprehensive, actionable guide to Kubernetes storage, focusing on PersistentVolumes (PVs), PersistentVolumeClaims (PVCs), StorageClasses, and especially the reclaimPolicy attribute, with best practices for preventing data loss in GitOps environments like ArgoCD. This includes cloud-specific notes for AWS and Azure.
@@ -272,15 +281,22 @@ Cons: All PVs using that StorageClass will have the same policy, which may not b
 Edit your StorageClass YAML to set reclaimPolicy: Retain:
 
  apiVersion: storage.k8s.io/v1
+
 kind: StorageClass
+
 metadata:
+
   name: my-retain-storageclass
+
 provisioner: kubernetes.io/aws-ebs \# or disk.csi.azure.com for Azure
+
 reclaimPolicy: Retain
+
 parameters:
+
   type: gp3 \# AWS example
 
-2. Update your PVCs to use this StorageClass.
+1. Update your PVCs to use this StorageClass.
 
 #### Changing reclaimPolicy for Existing PVs
 
@@ -305,12 +321,19 @@ You can patch the reclaimPolicy of an existing PV:
 Set reclaimPolicy: Retain in your StorageClass for EBS:
 
  apiVersion: storage.k8s.io/v1
+
 kind: StorageClass
+
 metadata:
+
   name: ebs-retain
+
 provisioner: ebs.csi.aws.com
+
 reclaimPolicy: Retain
+
 parameters:
+
   type: gp3
 
 - When a PVC is deleted, the EBS volume is not deleted. You can manually reattach it or rebind it to a new PVC.
@@ -320,12 +343,19 @@ parameters:
 Set reclaimPolicy: Retain in your StorageClass for Azure Disk:
 
  apiVersion: storage.k8s.io/v1
+
 kind: StorageClass
+
 metadata:
+
   name: azure-retain
+
 provisioner: disk.csi.azure.com
+
 reclaimPolicy: Retain
+
 parameters:
+
   skuName: Standard\_LRS
 
 - The Azure Disk is preserved after PVC deletion. Manual intervention is required to reuse or clean up the disk.

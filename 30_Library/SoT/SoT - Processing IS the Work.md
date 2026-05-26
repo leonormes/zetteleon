@@ -2,7 +2,7 @@
 aliases: ["Active Processing", "Good Enough Processing", "Processing IS the Work"]
 created: 2025-12-07T00:00:00Z
 last_reviewed: ""
-modified: 2026-04-19T18:30:31+00:00
+modified: 2026-05-26T11:44:18+00:00
 status: "stable"
 tags: ["pkm", "TheHuman/Health/ADHD", "TheHuman/Mindset", "topic/productivity"]
 title: SoT - Processing IS the Work

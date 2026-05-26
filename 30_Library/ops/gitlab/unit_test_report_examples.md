@@ -1,9 +1,11 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:41+00:00
+description: JUnit XML configuration examples for Ruby, Go, Java, Python, JavaScript, and other languages.
 group: Pipeline Execution
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-description: JUnit XML configuration examples for Ruby, Go, Java, Python, JavaScript, and other languages.
-title: Unit test report examples
+modified: 2026-05-26T11:43:57+00:00
+stage: Verify
+title: unit_test_report_examples
 ---
 
 {{< details >}}
@@ -14,9 +16,11 @@ title: Unit test report examples
 {{< /details >}}
 
 Use these examples as guidelines for configuring unit test reports in different languages and testing frameworks.
+
 Unit test reports require your test framework to generate JUnit XML format output and your CI/CD job to upload the results as artifacts.
 
 The following examples show individual job configurations to add to your `.gitlab-ci.yml` file.
+
 All examples use:
 
 - `artifacts:when: always` to upload reports even when tests fail.
@@ -24,6 +28,7 @@ All examples use:
 - Package installation in `before_script` when required.
 
 Each example is a functional job that you can copy and adapt for your project.
+
 You might need to:
 
 - Add or modify the `image:` specification for your environment.
@@ -33,11 +38,11 @@ You might need to:
 
 For setup instructions and troubleshooting, see [unit test reports](unit_test_reports.md).
 
-## JUnit output configuration by tool
+## JUnit Output Configuration by Tool
 
 | Language     | Tool                    | JUnit output flag |
 | ------------ | ----------------------- | ----------------- |
-| .NET         | `JunitXML.TestLogger`   | `--logger:"junit;LogFilePath=report.xml"` |
+|.NET         | `JunitXML.TestLogger`   | `--logger:"junit;LogFilePath=report.xml"` |
 | C/C++        | GoogleTest              | `--gtest_output="xml:report.xml"` |
 | C/C++        | CUnit                   | Automatic with `CUnitCI.h` macros |
 | Flutter/Dart | `junitreport`           | `\| tojunit -o report.xml` |
@@ -53,9 +58,9 @@ For setup instructions and troubleshooting, see [unit test reports](unit_test_re
 | Ruby         | `rspec_junit_formatter` | `--format RspecJunitFormatter --out report.xml` |
 | Rust         | `cargo2junit`           | `\| cargo2junit > report.xml` |
 
-## .NET
+##.NET
 
-Generate JUnit XML reports with .NET using the [`JunitXML.TestLogger`](https://www.nuget.org/packages/JunitXml.TestLogger/) NuGet package:
+Generate JUnit XML reports with.NET using the [`JunitXML.TestLogger`](https://www.nuget.org/packages/JunitXml.TestLogger/) NuGet package:
 
 ```yaml
 Test:
@@ -65,14 +70,16 @@ Test:
   artifacts:
     when: always
     paths:
-      - ./**/*test-result.xml
+      - .//*test-result.xml
     reports:
       junit:
-        - ./**/*test-result.xml
+        - .//*test-result.xml
 ```
 
 This example expects a solution in the root folder of the repository, with one or more project files in sub-folders.
+
 One result file is produced per test project, and each file is placed in the artifacts folder.
+
 The formatting arguments improve the readability of test data in the test widget.
 
 ## C/C++
@@ -93,11 +100,13 @@ cpp:
 ```
 
 If there are multiple `gtest` executables created for different architectures (`x86`, `x64` or `arm`),
+
 make sure each test has a unique filename. The results are then aggregated together.
 
 ### CUnit
 
 Generate JUnit XML reports with CUnit
+
 using [`CUnitCI.h` macros](https://cunity.gitlab.io/cunit/group__CI.html):
 
 ```yaml
@@ -177,15 +186,17 @@ java:
   artifacts:
     when: always
     reports:
-      junit: build/test-results/test/**/TEST-*.xml
+      junit: build/test-results/test//TEST-*.xml
 ```
 
 If there are multiple test tasks defined, `gradle` generates multiple directories under `build/test-results/`.
-In that case, you can leverage glob matching by defining the following path: `build/test-results/test/**/TEST-*.xml`.
+
+In that case, you can leverage glob matching by defining the following path: `build/test-results/test//TEST-*.xml`.
 
 ### Maven
 
 Generate JUnit XML reports with Maven using [Surefire](https://maven.apache.org/surefire/maven-surefire-plugin/)
+
 and [Failsafe](https://maven.apache.org/surefire/maven-failsafe-plugin/) test reports:
 
 ```yaml
@@ -224,6 +235,7 @@ javascript:
 ```
 
 To make the job pass when there are no `.test.js` files with unit tests,
+
 add the `--passWithNoTests` flag to the end of the `jest` command in the `script:` section.
 
 ### Karma
@@ -320,4 +332,5 @@ run unittests:
 ```
 
 To retrieve JSON output from `cargo test`, you must enable the nightly compiler.
+
 The tool is installed in the current directory.

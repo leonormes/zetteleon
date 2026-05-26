@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-26T17:16:00Z
 last_reviewed: "2026-04-08"
-modified: 2026-04-19T18:30:29+00:00
+modified: 2026-05-26T11:44:23+00:00
 status: "growing"
 tags: ["docker", "kubernetes", "SoftwareEngineering/Containers"]
 title: MOC - Containerisation

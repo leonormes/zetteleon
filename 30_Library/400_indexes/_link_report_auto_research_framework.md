@@ -1,7 +1,7 @@
 ---
 created: 2026-04-13T14:53:30+00:00
 created_utc: "2026-04-13T11:40:00Z"
-modified: 2026-04-19T18:30:36+00:00
+modified: 2026-05-26T11:44:23+00:00
 source_atoms: "[[tmp_atoms_auto_research_framework.md]]"
 status: tmp
 title: _link_report_auto_research_framework

@@ -2,7 +2,7 @@
 aliases: ["Cognitive Biases MOC"]
 created: 2025-12-12T12:05:00Z
 last_reviewed: ""
-modified: 2026-04-25T10:42:27+00:00
+modified: 2026-05-26T11:44:23+00:00
 status: "seedling"
 tags: ["bias", "TheHuman/Cognition", "TheHuman/Psychology", "type/moc"]
 title: MOC - Cognitive Biases

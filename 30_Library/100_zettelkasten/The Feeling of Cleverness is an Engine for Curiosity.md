@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-27T19:18:03Z
 last_reviewed: "null"
-modified: 2026-04-26T13:14:21+00:00
+modified: 2026-05-26T11:44:32+00:00
 status: "null"
 tags: ["curiosity", "TheHuman/Mindset", "TheHuman/Psychology", "topic/learning"]
 title: The Feeling of Cleverness is an Engine for Curiosity

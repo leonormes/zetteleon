@@ -2,7 +2,7 @@
 aliases: ["ADHD is Associated with Deficits in Metacognition"]
 created: 2025-08-26T15:05:03Z
 last_reviewed: "null"
-modified: 2026-04-27T11:20:35+00:00
+modified: 2026-05-26T11:44:34+00:00
 status: "null"
 tags: ["TheHuman/Health/ADHD"]
 title: Metacognitive Deficits in ADHD Create Practical Impairments

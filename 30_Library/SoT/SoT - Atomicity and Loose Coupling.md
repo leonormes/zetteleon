@@ -2,7 +2,7 @@
 aliases: ["Atomic Notes vs. Interconnectedness", "Loose Coupling", "The Problem of False Atoms SoT"]
 created: 2025-12-12T00:00:00Z
 last_reviewed: "2025-12-12"
-modified: 2026-04-19T18:30:34+00:00
+modified: 2026-05-26T11:44:21+00:00
 status: "stable"
 tags: ["atomicity", "pkm", "topic/systems", "zettelkasten"]
 title: SoT - Atomicity and Loose Coupling

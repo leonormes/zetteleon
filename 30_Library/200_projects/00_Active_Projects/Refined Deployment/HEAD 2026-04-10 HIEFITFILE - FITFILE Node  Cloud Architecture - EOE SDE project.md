@@ -1,7 +1,7 @@
 ---
 captured: "2026-04-28T13:28:20+01:00 2026-04-28T13:28:20+01:00"
 created: 2026-04-28T12:28:22+00:00
-modified: 2026-04-28T12:48:01+00:00
+modified: 2026-05-26T11:44:30+00:00
 source: "https://fitfile.atlassian.net/wiki/spaces/EOE/pages/2753789953/2026-04-10+HIE+FITFILE+-+FITFILE+Node+Cloud+Architecture"
 status: "processing"
 tags: ["input"]

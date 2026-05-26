@@ -1,9 +1,11 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:41+00:00
+description: Measure and compare web page rendering performance across branches using sitespeed.io.
 group: Pipeline Execution
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-description: Measure and compare web page rendering performance across branches using sitespeed.io.
-title: Browser performance testing
+modified: 2026-05-26T11:44:13+00:00
+stage: Verify
+title: browser_performance_testing
 ---
 
 {{< details >}}
@@ -14,22 +16,30 @@ title: Browser performance testing
 {{< /details >}}
 
 Use browser performance testing to measure the rendering performance of your web application
+
 and detect regressions before they reach production. GitLab uses
+
 [sitespeed.io](https://www.sitespeed.io) to score each page and outputs results in a file
+
 called `browser-performance.json`.
 
 Results are shown directly in the merge request, so you can catch performance regressions
+
 as part of your review process. For example, a JavaScript library added to `<head>` that
+
 drops the page speed score.
 
 > [!note]
 > You can automate this feature with [Auto DevOps](../../topics/autodevops/_index.md).
 
-## Browser performance results in merge requests
+## Browser Performance Results in Merge Requests
 
 Define a job in your `.gitlab-ci.yml` file that generates the
+
 [browser performance report artifact](../yaml/artifacts_reports.md#artifactsreportsbrowser_performance).
+
 GitLab checks this report, compares key performance metrics for each page between the source
+
 and target branches, and shows the results in the merge request.
 
 ![Browser performance metrics with degraded, unchanged, and improved values.](img/browser_performance_testing_v13_4.png)
@@ -38,7 +48,7 @@ and target branches, and shows the results in the merge request.
 > The widget doesn't display until the job has run at least once on the target branch,
 > and only if the job ran in the latest pipeline for the merge request.
 
-## Configure browser performance testing
+## Configure Browser Performance Testing
 
 {{< history >}}
 
@@ -51,6 +61,7 @@ Prerequisites:
 - [GitLab Runner configured with Docker-in-Docker](../docker/using_docker_build.md#use-docker-in-docker).
 
 To run the [sitespeed.io container](https://hub.docker.com/r/sitespeedio/sitespeed.io/)
+
 on your code, use GitLab CI/CD with Docker-in-Docker:
 
 1. In your `.gitlab-ci.yml` file, add the following:
@@ -65,9 +76,13 @@ on your code, use GitLab CI/CD with Docker-in-Docker:
    ```
 
 GitLab creates a `browser_performance` job that runs sitespeed.io against the URL and saves
+
 the full HTML report as a
+
 [browser performance artifact](../yaml/artifacts_reports.md#artifactsreportsbrowser_performance).
+
 If [GitLab Pages](../../user/project/pages/_index.md) is enabled, you can view the report
+
 in your browser.
 
 > [!note]
@@ -96,9 +111,10 @@ browser_performance:
     SITESPEED_OPTIONS: -n 5
 ```
 
-### Configure the degradation threshold
+### Configure the Degradation Threshold
 
 To avoid alerts for minor score drops, set the `DEGRADATION_THRESHOLD` CI/CD variable.
+
 The alert only appears when the `Total Score` degrades by the specified number of points or more.
 
 For example:
@@ -114,10 +130,12 @@ browser_performance:
 ```
 
 `Total Score` is a combined score between 0-100 for performance, accessibility, and best
+
 practices. A score of 100 means the page has no issues to address. For more information,
+
 see [how the coach scores pages](https://www.sitespeed.io/documentation/coach/how-to/#what-do-the-coach-do).
 
-### Configure browser performance testing for review apps
+### Configure Browser Performance Testing for Review Apps
 
 Prerequisites:
 
@@ -132,7 +150,7 @@ To configure browser performance testing for review apps:
         - echo $CI_ENVIRONMENT_URL > environment_url.txt
    ```
 
-1. Save the file as an artifact:
+2. Save the file as an artifact:
 
    ```yaml
       artifacts:
@@ -140,7 +158,7 @@ To configure browser performance testing for review apps:
           - environment_url.txt
    ```
 
-1. Pass the file as the `URL` variable to the `browser_performance` job.
+3. Pass the file as the `URL` variable to the `browser_performance` job.
    For example:
 
    ```yaml

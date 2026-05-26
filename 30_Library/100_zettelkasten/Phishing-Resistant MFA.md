@@ -2,7 +2,7 @@
 created: 2026-04-14T20:24:52+00:00
 created_utc: "2026-04-14T13:00:00Z"
 kind: procedure
-modified: 2026-04-19T18:30:40+00:00
+modified: 2026-05-26T11:44:33+00:00
 source_title: "Azure Entra Identity Best Practices & Remediation Plan"
 source_url: "https://gemini.google.com/app/90721765fb79ed7a"
 status: seed

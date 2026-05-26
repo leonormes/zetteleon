@@ -2,7 +2,7 @@
 created: 2026-04-13T14:37:11+00:00
 created_utc: "2026-04-13T11:10:00Z"
 kind: failure_mode
-modified: 2026-04-19T18:30:41+00:00
+modified: 2026-05-26T11:44:34+00:00
 source_title: "Agentic Engineering and AI Workflow Management"
 source_url: "https://gemini.google.com/app/7a41bb3090001aa4"
 status: seed

@@ -2,7 +2,7 @@
 aliases: ["Bottom-Up Productivity"]
 created: 2025-11-10T15:22:00Z
 last_reviewed: ""
-modified: 2026-04-19T18:30:43+00:00
+modified: 2026-05-26T11:44:35+00:00
 status: "seedling"
 tags: ["action", "foundation", "topic/productivity", "topic/systems"]
 title: Effective Productivity Comes From the Bottom Up

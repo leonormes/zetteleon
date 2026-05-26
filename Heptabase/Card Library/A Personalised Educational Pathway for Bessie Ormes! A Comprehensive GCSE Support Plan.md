@@ -1,6 +1,6 @@
 ---
 created: 2026-05-04T08:01:26+00:00
-modified: 2026-05-08T12:53:36+00:00
+modified: 2026-05-26T11:43:56+00:00
 title: A Personalised Educational Pathway for Bessie Ormes! A Comprehensive GCSE Support Plan
 ---
 
@@ -20,7 +20,7 @@ To provide a clear and manageable overview, the following table summarises the a
 
 ---
 
-## Section 1: Capitalising on Creativity and Interest – Optional Subjects
+## Section 1: Capitalising on Creativity and Interest–Optional Subjects
 
 This section focuses first on Bessie's optional subjects, which strongly align with her stated interests and creative strengths. By prioritising these areas, the goal is to build a strong foundation of confidence and academic success that will positively impact her approach to all her studies.
 
@@ -36,7 +36,7 @@ This section focuses first on Bessie's optional subjects, which strongly align w
 
 ---
 
-## Section 2: Building Core Skills and Confidence – Compulsory Subjects
+## Section 2: Building Core Skills and Confidence–Compulsory Subjects
 
 This section addresses the compulsory subjects. The strategies here focus on building foundational skills, managing cognitive load, and linking content to Bessie's strengths and interests wherever possible to foster motivation and resilience.
 

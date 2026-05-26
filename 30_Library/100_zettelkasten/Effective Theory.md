@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-29T15:17:35Z
 last_reviewed: ""
-modified: 2026-04-26T13:15:23+00:00
+modified: 2026-05-26T11:44:35+00:00
 status: ""
 tags: ["physics", "science", "TheHuman/Cognition/mental-model"]
 title: Effective Theory

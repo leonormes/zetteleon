@@ -1,11 +1,13 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:41+00:00
 group: Pipeline Authoring
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-title: Troubleshooting downstream pipelines
+modified: 2026-05-26T11:44:09+00:00
+stage: Verify
+title: downstream_pipelines_troubleshooting
 ---
 
-## Trigger job fails and does not create multi-project pipeline
+## Trigger Job Fails and Does not Create Multi-project Pipeline
 
 With multi-project pipelines, the trigger job fails and does not create the downstream pipeline if:
 
@@ -22,9 +24,10 @@ To identify which user is having permission issues in the downstream project, yo
 Ci::Bridge.find(<job_id>)
 ```
 
-## Job in child pipeline is not created when the pipeline runs
+## Job in Child Pipeline is not Created when the Pipeline Runs
 
 If the parent pipeline is a [merge request pipeline](merge_request_pipelines.md),
+
 the child pipeline must [use `workflow:rules` or `rules` to ensure the jobs run](downstream_pipelines.md#run-child-pipelines-with-merge-request-pipelines).
 
 If no jobs in the child pipeline can run due to missing or incorrect `rules` configuration:
@@ -32,25 +35,31 @@ If no jobs in the child pipeline can run due to missing or incorrect `rules` con
 - The child pipeline fails to start.
 - The parent pipeline's trigger job fails with: `downstream pipeline can not be created, the resulting pipeline would have been empty. Review the`[`rules`](../yaml/_index.md#rules)`configuration for the relevant jobs.`
 
-## Variable with `$` character does not get passed to a downstream pipeline properly
+## Variable with `$` Character Does not Get Passed to a downstream Pipeline Properly
 
 You cannot use [`$$` to escape the `$` character in a CI/CD variable](../variables/job_scripts.md#use-the--character-in-cicd-variables),
+
 when [passing a CI/CD variable to a downstream pipeline](downstream_pipelines.md#pass-cicd-variables-to-a-downstream-pipeline).
+
 The downstream pipeline still treats the `$` as the start of a variable reference.
 
 You can [Prevent CI/CD variable expansion](../variables/_index.md#allow-cicd-variable-expansion) when configuring
+
 a variable in the UI, or use the [`variables:expand` keyword](../yaml/_index.md#variablesexpand) to
+
 set a variable value to not be expanded. This variable can then be passed to the downstream pipeline
+
 without the `$` being interpreted as a variable reference.
 
 ## `Ref is ambiguous`
 
 You cannot trigger a multi-project pipeline with a tag when a branch exists with the same
+
 name. The downstream pipeline fails to create with the error: `downstream pipeline can not be created, Ref is ambiguous`.
 
 Only trigger multi-project pipelines with tag names that do not match branch names.
 
-## `403 Forbidden` error when downloading a job artifact from an upstream pipeline
+## `403 Forbidden` Error when Downloading a Job Artifact from an upstream Pipeline
 
 In GitLab 15.9 and later, CI/CD job tokens are scoped to the project that the pipeline executes under. Therefore, the job token in a downstream pipeline cannot be used to access an upstream project by default.
 
@@ -59,6 +68,7 @@ To resolve this, [add the downstream project to the job token scope allowlist](.
 ## Error: `needs:need pipeline should be a string`
 
 When using [`needs:pipeline:job`](../yaml/_index.md#needspipelinejob) with dynamic child pipelines,
+
 you might receive this error:
 
 ```plaintext
@@ -67,6 +77,7 @@ Unable to run pipeline
 ```
 
 This error occurs when a pipeline ID is parsed as an integer instead of a string.
+
 To fix this, enclose the pipeline ID in quotes:
 
 ```yaml

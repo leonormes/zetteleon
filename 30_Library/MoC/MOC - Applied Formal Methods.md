@@ -1,7 +1,7 @@
 ---
 aliases: [AFM Hub, Applied Formal Methods Index, Formal Foundations Hub]
 created: 2026-04-19T10:00:00+01:00
-modified: 2026-04-20T07:40:27+00:00
+modified: 2026-05-26T11:44:23+00:00
 see_also: ["[[MOC - Formal Logic & Philosophy (Triage)]]", "[[MOC - The Unified Systems Paradigm]]"]
 supersedes: "[[MOC - Formal Logic & Philosophy (Triage)]]"
 tags: [prodos/moc, topic/formal-methods, topic/mathematics, topic/software-architecture, topic/type-theory]

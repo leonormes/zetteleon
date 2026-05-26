@@ -2,7 +2,7 @@
 aliases: ["Encapsulation", "Network Units", "PDU", "SDU", "The Russian Doll Mechanism"]
 created: 2025-12-23T22:38:57Z
 last_reviewed: "2026-04-04"
-modified: 2026-04-19T18:30:31+00:00
+modified: 2026-05-26T11:44:17+00:00
 status: "stable"
 tags: ["osi", "pdu", "protocol", "SoftwareEngineering/Networking", "topic/technology"]
 title: SoT - Protocol Data Units (PDU)

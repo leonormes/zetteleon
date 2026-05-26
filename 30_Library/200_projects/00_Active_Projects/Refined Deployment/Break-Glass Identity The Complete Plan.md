@@ -1,6 +1,6 @@
 ---
 created: 2026-05-15T12:34:55+00:00
-modified: 2026-05-15T12:35:37+00:00
+modified: 2026-05-26T11:44:30+00:00
 title: Break-Glass Identity The Complete Plan
 ---
 
@@ -229,6 +229,7 @@ This is the project type that ADHD brains under-deliver on—high-context, low-n
 ## 5. Your Next Physical Action
 
 This project decomposes into clean sub-tasks. Today's task is 15 minutes, no more. Open your notes app. Create one file: `break-glass/plan-v0.md`.
+
 Answer these three questions, one or two sentences each:
 
 1. Who are the two safe-holders for each safe? Name two people for Site A, two for Site B. (Names, not roles—people leave roles.)

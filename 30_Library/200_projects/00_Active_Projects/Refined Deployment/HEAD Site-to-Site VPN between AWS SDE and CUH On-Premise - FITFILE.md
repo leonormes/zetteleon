@@ -1,7 +1,7 @@
 ---
 captured: "2026-04-28T10:19:07+01:00 2026-04-28T10:19:07+01:00"
 created: 2026-04-28T09:19:10+00:00
-modified: 2026-04-28T12:48:01+00:00
+modified: 2026-05-26T11:44:26+00:00
 source: "https://fitfile.atlassian.net/wiki/spaces/FITFILE/pages/2259288072/Site-to-Site+VPN+between+AWS+SDE+and+CUH+On-Premise"
 status: "processing"
 tags: ["input"]

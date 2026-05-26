@@ -3,7 +3,7 @@ aliases: ["Becoming tool agnostic"]
 created: 2025-04-30T01:58:44Z
 id: "Becoming tool agnostic"
 last_reviewed: ""
-modified: 2026-04-19T18:30:44+00:00
+modified: 2026-05-26T11:44:36+00:00
 status: "permanent"
 tags: ["dependencies", "simple", "topic/systems"]
 title: Becoming System Agnostic

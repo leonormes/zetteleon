@@ -1,8 +1,10 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:41+00:00
 group: Pipeline Authoring
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-title: Migrate from CircleCI
+modified: 2026-05-26T11:44:14+00:00
+stage: Verify
+title: circleci
 ---
 
 {{< details >}}
@@ -13,6 +15,7 @@ title: Migrate from CircleCI
 {{< /details >}}
 
 If you are currently using CircleCI, you can migrate your CI/CD pipelines to [GitLab CI/CD](_index.md),
+
 and start making use of all its powerful features.
 
 We have collected several resources that you may find useful before starting to migrate.
@@ -23,7 +26,7 @@ For advanced CI/CD teams, [custom project templates](../../administration/custom
 
 If you have questions that are not answered here, the [GitLab community forum](https://forum.gitlab.com/) can be a great resource.
 
-## `config.yml` vs `.gitlab-ci.yml`
+## `config.yml` Vs `.gitlab-ci.yml`
 
 CircleCI's `config.yml` configuration file defines scripts, jobs, and workflows (known as "stages" in GitLab). In GitLab, a similar approach is used with a `.gitlab-ci.yml` file in the root directory of your repository.
 
@@ -48,7 +51,7 @@ job1:
   script: "execute-script-for-job1"
 ```
 
-### Docker image definition
+### Docker Image Definition
 
 CircleCI defines images at the job level, which is also supported by GitLab CI/CD. Additionally, GitLab CI/CD supports setting this globally to be used by all jobs that don't have `image` defined.
 
@@ -74,13 +77,13 @@ CircleCI determines the run order for jobs with `workflows`. This is also used t
 
 See [the Pipeline Architecture Overview](../pipelines/pipeline_architectures.md) for guidance on different types of pipelines that you can use. Pipelines can be tailored to meet your needs, such as for a large complex project or a monorepo with independent defined components.
 
-#### Parallel and sequential job execution
+#### Parallel and Sequential Job Execution
 
 The following examples show how jobs can run in parallel, or sequentially:
 
 1. `job1` and `job2` run in parallel (in the `build` stage for GitLab CI/CD).
-1. `job3` runs only after `job1` and `job2` complete successfully (in the `test` stage).
-1. `job4` runs only after `job3` completes successfully (in the `deploy` stage).
+2. `job3` runs only after `job1` and `job2` complete successfully (in the `test` stage).
+3. `job4` runs only after `job3` completes successfully (in the `deploy` stage).
 
 CircleCI example with `workflows`:
 
@@ -141,7 +144,7 @@ job4:
   environment: production
 ```
 
-#### Scheduled run
+#### Scheduled Run
 
 GitLab CI/CD has an easy to use UI to [schedule pipelines](../pipelines/schedules.md). Also, [rules](../yaml/_index.md#rules) can be used to determine if jobs should be included or excluded from a scheduled pipeline.
 
@@ -174,7 +177,7 @@ job1:
 
 After the pipeline configuration is saved, you configure the cron schedule in the [GitLab UI](../pipelines/schedules.md#create-a-pipeline-schedule), and can enable or disable schedules in the UI as well.
 
-#### Manual run
+#### Manual Run
 
 CircleCI example of a manual workflow:
 
@@ -202,7 +205,7 @@ deploy_prod:
   environment: production
 ```
 
-### Filter job by branch
+### Filter Job by Branch
 
 [Rules](../yaml/_index.md#rules) are a mechanism to determine if the job runs for a specific branch.
 
@@ -264,7 +267,7 @@ test_async:
     - node ./specs/start.js ./specs/async.spec.js
 ```
 
-## Contexts and variables
+## Contexts and Variables
 
 CircleCI provides [Contexts](https://circleci.com/docs/contexts/) to securely pass environment variables across project pipelines. In GitLab, a [Group](../../user/group/_index.md) can be created to assemble related projects together. At the group level, [CI/CD variables](../variables/_index.md#for-a-group) can be stored outside the individual projects, and securely passed into pipelines across multiple projects.
 
@@ -275,7 +278,7 @@ There are two GitLab issues open addressing CircleCI Orbs and how GitLab can ach
 - [issue #1151](https://gitlab.com/gitlab-com/Product/-/issues/1151)
 - [issue #195173](https://gitlab.com/gitlab-org/gitlab/-/issues/195173)
 
-## Build environments
+## Build Environments
 
 CircleCI offers `executors` as the underlying technology to run a specific job. In GitLab, this is done by [runners](https://docs.gitlab.com/runner/).
 
@@ -293,7 +296,7 @@ GitLab.com instance runners:
 - [Windows](../runners/hosted_runners/windows.md) ([beta](../../policy/development_stages_support.md#beta)).
 - [macOS](../runners/hosted_runners/macos.md) ([beta](../../policy/development_stages_support.md#beta)).
 
-### Machine and specific build environments
+### Machine and Specific Build Environments
 
 [Tags](../yaml/_index.md#tags) can be used to run jobs on different platforms, by telling GitLab which runners should run the jobs.
 

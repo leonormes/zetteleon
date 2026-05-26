@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-30T12:10:02Z
 last_reviewed: ""
-modified: 2026-04-19T18:30:42+00:00
+modified: 2026-05-26T11:44:35+00:00
 source: "[[MOC - Daily Writing for Clarity and ADHD-Friendly Techniques]]"
 status: "stable"
 tags: ["process", "TheHuman/Mindset", "writing"]

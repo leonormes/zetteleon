@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-09-05T06:22:44Z
 last_reviewed: ""
-modified: 2026-02-01T15:08:34+00:00
+modified: 2026-05-26T11:44:35+00:00
 status: ""
 tags: ["amygdala", "emotion", "memory", "TheHuman/Cognition", "TheHuman/Cognition/mental-model"]
 title: Emotion Tags Information with Importance
@@ -32,5 +32,4 @@ This explains why emotional events create more detailed and persistent mental mo
 
 Links: [[Salience Determines What Information Enters Mental Models]], [[Mental Models as Evolutionary Filters]], [[Cognitive-Emotional Feedback Loop]]
 
-
-- [[Chemotaxis as a Primitive Precursor to Emotion]] _provides the most ancient form of this valuation logic — a pre-neural sense-evaluate-actuate loop that evolution later scaled into full emotional systems_
+- [[Chemotaxis as a Primitive Precursor to Emotion]] _provides the most ancient form of this valuation logic—a pre-neural sense-evaluate-actuate loop that evolution later scaled into full emotional systems_

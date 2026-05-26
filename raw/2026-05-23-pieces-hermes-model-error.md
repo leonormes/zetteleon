@@ -1,52 +1,53 @@
 ---
-title: Hermes qwen/qwen3.5:cloud Model ID Error Diagnosis
 created: 2026-05-23T20:15:00+01:00
+modified: 2026-05-26T11:43:32+00:00
+pieces_ids: ["6b51a1a5-8b0d-4486-882c-357389e69e2a", "731b9ccf-4135-4c1f-8bd1-92ea4b77ca6e", "978debe8-6314-45e4-bded-677ffc55ad6c", "e0116cd3-e5c8-4d67-9f36-2f0becd652e0", "eca53792-f633-4ed1-a886-d0a9cca0a8b2"]
 source: pieces-ltm
-pieces_ids: ["eca53792-f633-4ed1-a886-d0a9cca0a8b2", "e0116cd3-e5c8-4d67-9f36-2f0becd652e0", "978debe8-6314-45e4-bded-677ffc55ad6c", "6b51a1a5-8b0d-4486-882c-357389e69e2a", "731b9ccf-4135-4c1f-8bd1-92ea4b77ca6e"]
-tags: [raw, pieces]
+tags: [pieces, raw]
+title: 2026-05-23-pieces-hermes-model-error
 ---
 
-# Hermes qwen/qwen3.5:cloud Model ID Error Diagnosis
+## Hermes qwen/qwen3.5:cloud Model ID Error Diagnosis
 
-## Asset 1 (Pieces: eca53792-f633-4ed1-a886-d0a9cca0a8b2)
+### Asset 1 (Pieces: eca53792-f633-4ed1-a886-d0a9cca0a8b2)
 
-## Diagnosis complete — here's the full picture
+### Diagnosis complete—here's the Full Picture
 
-### Root cause confirmed
+#### Root Cause Confirmed
 
-The error `qwen/qwen3.5:cloud is not a valid model ID` is **not coming from your main config**. The filesystem grep proves it:
+The error `qwen/qwen3.5:cloud is not a valid model ID` is not coming from your main config. The filesystem grep proves it:
 
-- **`~/.hermes/config.yaml`** (live) → `default: qwen/qwen3.5-plus-20260420` ✅ valid
-- **`~/.local/share/chezmoi/private_dot_hermes/private_config.yaml`** (chezmoi source) → `default: qwen/qwen3.5-plus-20260420` ✅ valid
+- `~/.hermes/config.yaml` (live) → `default: qwen/qwen3.5-plus-20260420` ✅ valid
+- `~/.local/share/chezmoi/private_dot_hermes/private_config.yaml` (chezmoi source) → `default: qwen/qwen3.5-plus-20260420` ✅ valid
 
-**The stale `qwen3.5:cloud` string lives in your profile YAML files**, not your main config.
+The stale `qwen3.5:cloud` string lives in your profile YAML files, not your main config.
 
-## Asset 2 (Pieces: e0116cd3-e5c8-4d67-9f36-2f0becd652e0)
+### Asset 2 (Pieces: e0116cd3-e5c8-4d67-9f36-2f0becd652e0)
 
 Everything needed is now on the table. Here is the complete, grounded diagnosis and fix.
 
 ---
 
-## Diagnosis: the `qwen/qwen3.5:cloud` error
+### Diagnosis: the `qwen/qwen3.5:cloud` Error
 
-### Root cause confirmed from filesystem
+#### Root Cause Confirmed from Filesystem
 
-Both the **live config** (`/Users/leon.ormes/.hermes/config.yaml`) and the **chezmoi source** (`/Users/leon.ormes/.local/share/chezmoi/private_dot_hermes/private_config.yaml`) show the exact same value on disk:
+Both the live config (`/Users/leon.ormes/.hermes/config.yaml`) and the chezmoi source (`/Users/leon.ormes/.local/share/chezmoi/private_dot_hermes/private_config.yaml`) show the exact same value on disk:
 
 ```yaml
 model:
   default: qwen/qwen3.5-plus-20260420
 ```
 
-**That is the correct OpenRouter model ID.** The error comes from a stale profile YAML file still referencing `qwen/qwen3.5:cloud`.
+That is the correct OpenRouter model ID. The error comes from a stale profile YAML file still referencing `qwen/qwen3.5:cloud`.
 
-## Asset 3 (Pieces: 978debe8-6314-45e4-bded-677ffc55ad6c)
+### Asset 3 (Pieces: 978debe8-6314-45e4-bded-677ffc55ad6c)
 
 The `config.yaml` read returned the critical piece of information. I can now see exactly what's happening. Here's the diagnosis and fix:
 
 ---
 
-## Root cause identified
+### Root Cause Identified
 
 The live `~/.hermes/config.yaml` file clearly shows:
 
@@ -61,9 +62,9 @@ But the error you're hitting is:
 'qwen/qwen3.5:cloud is not a valid model ID'
 ```
 
-**These are two different things.** Your `config.yaml` on disk already has the correct ID `qwen/qwen3.5-plus-20260420` — which is a valid OpenRouter model. The stale reference is in a profile YAML file.
+These are two different things. Your `config.yaml` on disk already has the correct ID `qwen/qwen3.5-plus-20260420`—which is a valid OpenRouter model. The stale reference is in a profile YAML file.
 
-## Asset 4 (Pieces: 6b51a1a5-8b0d-4486-882c-357389e69e2a)
+### Asset 4 (Pieces: 6b51a1a5-8b0d-4486-882c-357389e69e2a)
 
 The user is getting an error when trying to run the `/goal` prompt in Hermes. The error is:
 
@@ -71,10 +72,10 @@ The user is getting an error when trying to run the `/goal` prompt in Hermes. Th
 Error: Error code: 400 - {'error': {'message': 'qwen/qwen3.5:cloud is not a valid model ID', 'code': 400}, 'user_id': 'user_2mtquAqy8vut24biZwv73iWzILo'}
 ```
 
-This is an OpenRouter API error — `qwen/qwen3.5:cloud` is not a valid model ID on OpenRouter.
+This is an OpenRouter API error—`qwen/qwen3.5:cloud` is not a valid model ID on OpenRouter.
 
-## Asset 5 (Pieces: 731b9ccf-4135-4c1f-8bd1-92ea4b77ca6e)
+### Asset 5 (Pieces: 731b9ccf-4135-4c1f-8bd1-92ea4b77ca6e)
 
-I am getting [[ /goal Diagnose a.. [96 lines] .. e SOUL.md §1.5 or §1.6 rules ]]
+I am getting [[/goal Diagnose a.. [96 lines].. e SOUL.md §1.5 or §1.6 rules]]
 
 Error: Error code: 400 - {'error': {'message': 'qwen/qwen3.5:cloud is not a valid model ID', 'code': 400}, 'user_id': 'user_2mtquAqy8vut24biZwv73iWzILo'}

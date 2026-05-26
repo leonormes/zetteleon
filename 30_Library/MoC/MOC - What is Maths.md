@@ -4,7 +4,7 @@ created: 2025-11-01T11:22:13Z
 criteria: ""
 exclusions: ""
 last_reviewed: "2025-11-01T00:00:00.000Z"
-modified: 2026-04-19T18:30:28+00:00
+modified: 2026-05-26T11:44:22+00:00
 scope: ""
 status: "evergreen"
 tags: ["foundations", "TheHuman/Philosophy", "topic/maths"]

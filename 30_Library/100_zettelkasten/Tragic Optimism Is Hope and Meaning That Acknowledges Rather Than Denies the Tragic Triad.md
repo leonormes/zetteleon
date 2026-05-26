@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T00:00:00+00:00
-modified: 2026-04-19T18:30:39+00:00
+modified: 2026-05-26T11:44:32+00:00
 tags: [optimism, perspective, resilience, suffering]
 title: Tragic Optimism Is Hope and Meaning That Acknowledges Rather Than Denies the Tragic Triad
 ---

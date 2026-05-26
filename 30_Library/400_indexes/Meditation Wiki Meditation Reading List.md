@@ -1,7 +1,7 @@
 ---
 captured: 2026-03-28T17:55:14+00:00 2026-03-28T17:55:14+00:00
 created: 2026-03-28T17:55:19+00:00
-modified: 2026-04-21T10:01:50+00:00
+modified: 2026-05-26T11:44:23+00:00
 source: https://www.reddit.com/r/Meditation/wiki/booklist/
 status: processing
 tags: []
@@ -14,7 +14,7 @@ type: index
 - [x] Mindfulness in Plain English: 20th Anniversary Edition by Bhante Gunaratana [completion:: 2026-03-29]
 - [x] Mindfulness: A Practical Guide to Awakening by Joseph Goldstein [completion:: 2026-03-29]
 - [ ] 10% Happier by Dan Harris
-- [x] Waking Up: A Guide to Spirituality Without Religion by Sam Harris  [completion:: 2026-04-21]
+- [x] Waking Up: A Guide to Spirituality Without Religion by Sam Harris [completion:: 2026-04-21]
 - [ ] Mastering the Core Teachings of the Buddha: An Unusually Hardcore Dharma Book by Daniel Ingram
 - [ ] The Awakening Of Intelligence by Jiddu Krishnamurti
 - [ ] Journey of Awakening: A Meditator's Guidebook by Ram Dass

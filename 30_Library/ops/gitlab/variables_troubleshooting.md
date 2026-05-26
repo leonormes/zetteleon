@@ -1,15 +1,20 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:41+00:00
 group: Pipeline Authoring
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-title: Troubleshooting CI/CD variables
+modified: 2026-05-26T11:43:58+00:00
+stage: Verify
+title: variables_troubleshooting
 ---
 
-## List all variables
+## List All Variables
 
 You can list all variables available to a script with the `export` command
-in Bash or `dir env:` in PowerShell. This exposes the values of **all** available
+
+in Bash or `dir env:` in PowerShell. This exposes the values of all available
+
 variables, which can be a [security risk](_index.md#cicd-variable-security).
+
 [Masked variables](_index.md#mask-a-cicd-variable) display as `[MASKED]`.
 
 For example, with Bash:
@@ -45,7 +50,7 @@ export CI_PROJECT_TITLE="GitLab"
 ...
 ```
 
-## Enable debug logging
+## Enable Debug Logging
 
 > [!warning]
 > Debug logging can be a serious security risk. The output contains the content of
@@ -53,12 +58,17 @@ export CI_PROJECT_TITLE="GitLab"
 > GitLab server and visible in job logs.
 
 You can use debug logging to help troubleshoot problems with pipeline configuration
+
 or job scripts. Debug logging exposes job execution details that are usually hidden
+
 by the runner and makes job logs more verbose. It also exposes all variables and secrets
+
 available to the job.
 
 Before you enable debug logging, make sure only team members
+
 can view job logs. You should also [delete job logs](../jobs/_index.md#view-jobs-in-a-pipeline)
+
 with debug output before you make logs public again.
 
 To enable debug logging, set the `CI_DEBUG_TRACE` variable to `true`:
@@ -146,7 +156,7 @@ if [[ -d "/builds/gitlab-examples/ci-debug-trace/.git" ]]; then
 ...
 ```
 
-### Access to debug logging
+### Access to Debug Logging
 
 Access to debug logging is restricted to [users with the Developer, Maintainer, or Owner role](../../user/permissions.md#project-cicd). Users with a lower role cannot see the logs when debug logging is enabled with a variable in:
 
@@ -158,11 +168,14 @@ Access to debug logging is restricted to [users with the Developer, Maintainer, 
 > to all users with access to job logs. The permission levels are not checked by the runner,
 > so you should only use the variable in GitLab itself.
 
-## `argument list too long` error
+## `argument list too long` Error
 
 This issue occurs when the combined length of all CI/CD variables defined for a job exceeds the limit imposed by the
+
 shell where the job executes. This includes the names and values of pre-defined and user defined variables. This limit
+
 is typically referred to as `ARG_MAX`, and is shell and operating system dependent. This issue also occurs when the
+
 content of a single [File-type](_index.md#use-file-type-cicd-variables) variable exceeds `ARG_MAX`.
 
 For more information, see [issue 392406](https://gitlab.com/gitlab-org/gitlab/-/issues/392406#note_1414219596).
@@ -173,7 +186,7 @@ As a workaround you can either:
 - If a single large variable is larger than `ARG_MAX`, try using [Secure Files](../secure_files/_index.md), or
   bring the file to the job through some other mechanism.
 
-## `Insufficient permissions to set pipeline variables` error for a downstream pipeline
+## `Insufficient permissions to set pipeline variables` Error for a downstream Pipeline
 
 When triggering a downstream pipeline, you might get this error unexpectedly:
 
@@ -203,16 +216,20 @@ This error occurs when a downstream project has [restricted pipeline variables](
   ```
 
 Variables passed to a downstream pipeline in a trigger job are [pipeline variables](_index.md#use-pipeline-variables),
+
 so the workaround is to either:
 
 - Remove the `variables` defined in the trigger job to avoid passing variables.
 - [Prevent default variables from being passed to the downstream pipeline](../pipelines/downstream_pipelines.md#prevent-default-variables-from-being-passed).
 
-## Default variable doesn't expand in job variable of the same name
+## Default Variable Doesn't Expand in Job Variable of the Same name
 
 You cannot use a default variable's value in a job variable of the same name. A default variable
+
 is only made available to a job when the job does not have a variable defined with the same name.
+
 If the job has a variable with the same name, the job's variable takes precedence
+
 and the default variable is not available in the job.
 
 For example, these two samples are equivalent:
@@ -242,6 +259,7 @@ For example, these two samples are equivalent:
 In both cases, the echo command outputs `Value is '$MY_VAR'`.
 
 In general, you should use the default variable directly in a job rather than reassigning its value to a new variable.
+
 If you need to do this, use variables with different names instead. For example:
 
 ```yaml

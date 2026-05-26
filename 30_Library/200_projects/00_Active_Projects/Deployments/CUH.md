@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T11:54:06+00:00
-modified: 2026-05-21T12:52:20+00:00
+modified: 2026-05-26T11:44:31+00:00
 title: CUH
 ---
 
@@ -97,10 +97,10 @@ kubectl get events -n dataprotection-microsoft --sort-by='.metadata.creationTime
 # Inspect the geneva-service agent status
 kubectl describe ds/dataprotection-microsoft-geneva-service -n dataprotection-microsoft
 ```
-Ah, classic naming discrepancy! Based on the VM JSON payload you just provided, the virtual machine resource name in your CUH network is actually **`FITFILEJumpbox`** (with system-internal computer name `FITFILEJumpbox`), rather than `vm-ff-uks-gp-jumpbox`.
+
+Ah, classic naming discrepancy! Based on the VM JSON payload you just provided, the virtual machine resource name in your CUH network is actually `FITFILEJumpbox` (with system-internal computer name `FITFILEJumpbox`), rather than `vm-ff-uks-gp-jumpbox`.
 
 Here are the revised commands targeting the correct resource name:
-
 
 ### 2. Connect Using Azure Bastion
 
@@ -116,18 +116,20 @@ az network bastion ssh \
   -- -o PubkeyAuthentication=no -o PreferredAuthentications=password
 ```
 
-*Shared Message from Pieces (https://pieces.app) by Leon Ormes (leonormes@gmail.com) on Thursday May 21, 2026 - 1:50 PM*
+_Shared Message from Pieces (<https://pieces.app>) by Leon Ormes (leonormes@gmail.com) on Thursday May 21, 2026 - 1:50 PM_
 ---
+
 ## The Cause of the `ResourceNotFound` Error
 
-The error occurs because the bastion host you are trying to query does not reside in the resource group `rg-ff-uks-gp-net` as passed in your command. 
+The error occurs because the bastion host you are trying to query does not reside in the resource group `rg-ff-uks-gp-net` as passed in your command.
 
 Your history and local files ([Understanding NAT Gateways.md](/Users/leon.ormes/Documents/LeonLM/20_Thinking/21_Workbench/Understanding NAT Gateways.md)) indicate that:
-1. The bastion subnet and IP configurations are actually inside the **`NNUHFT-SDE-Networking`** resource group.
+
+1. The bastion subnet and IP configurations are actually inside the `NNUHFT-SDE-Networking` resource group.
 2. The correct resource ID of your Bastion Host is:
    `/subscriptions/4ae8fd93-d084-481f-ba6e-370b7d4d8d0d/resourceGroups/NNUHFT-SDE-Networking/providers/Microsoft.Network/bastionHosts/BAS-FF-UKS-GP`
 
-The active jumpbox virtual machine in that network is name-mapped as `FITFILEJumpbox` (previously initialized under virtual machine resource path `.../Microsoft.Compute/virtualMachines/FITFILEJumpbox` in your realigned network specifications).
+The active jumpbox virtual machine in that network is name-mapped as `FITFILEJumpbox` (previously initialized under virtual machine resource path `…/Microsoft.Compute/virtualMachines/FITFILEJumpbox` in your realigned network specifications).
 
 ---
 
@@ -135,7 +137,8 @@ The active jumpbox virtual machine in that network is name-mapped as `FITFILEJum
 
 To connect to your CUH jumpbox cleanly through the Bastion host, you need to target `NNUHFT-SDE-Networking` as the bastion's native resource group.
 
-### Step 1: Run the Bastion SSH tunnel commands
+### Step 1: Run the Bastion SSH Tunnel Commands
+
 Execute the following corrected `az network bastion` command on your workstation:
 
 ```bash
@@ -154,7 +157,8 @@ az network bastion ssh \
   -- -o PubkeyAuthentication=no -o PreferredAuthentications=password
 ```
 
-### Alternate Approach: Tunnel locally as a background process
+### Alternate Approach: Tunnel Locally as a Background Process
+
 If you prefer mapping access through a local background tunnel to copy files (via `rsync` or `scp`) or hold persistency:
 
 ```bash
@@ -177,10 +181,12 @@ ssh -o PreferredAuthentications=password \
 
 ## Once Authenticated: Configure Kubernetes (`cuh-prod-1`)
 
-Once you are shell-connected to your `FITFILEJumpbox`, you need to set up your environment to communicate with the private `aks-ff-uks-gp-01` cluster. 
+Once you are shell-connected to your `FITFILEJumpbox`, you need to set up your environment to communicate with the private `aks-ff-uks-gp-01` cluster.
 
-### Step 2: Fetch AKS cluster credentials
+### Step 2: Fetch AKS Cluster Credentials
+
 Merge the Kubernetes config into your context:
+
 ```bash
 az aks get-credentials \
   --resource-group rg-ff-uks-gp-aks \
@@ -188,7 +194,8 @@ az aks get-credentials \
   --subscription 709f3d57-b6d7-48c6-8252-6b1c1174a541
 ```
 
-### Step 3: Configure proxy environment bypasses
+### Step 3: Configure Proxy Environment Bypasses
+
 Because the CUH network deploys an outbound decryption/proxy gateway at `http://10.252.142.180:8080/`, you must configure your shell's `NO_PROXY` parameters natively so cluster operations do not try to route through external endpoints:
 
 ```bash

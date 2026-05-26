@@ -4,7 +4,7 @@ created: 2025-11-10T13:10:00Z
 criteria: ""
 exclusions: "Specific tutorials for GTD or Atomic Habits."
 last_reviewed: 2026-04-18
-modified: 2026-04-19T18:30:28+00:00
+modified: 2026-05-26T11:44:22+00:00
 scope: "An exploration of how external systems and collective structures substitute for internal willpower, both historically and in modern neurodiverse contexts."
 status: "evergreen"
 tags: ["history", "TheHuman/Cognition", "topic/productivity", "topic/systems"]

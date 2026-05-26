@@ -2,7 +2,7 @@
 aliases: ["Complexity Theory", "Emergent Properties", "Self-Organization", "The Whole is Greater Than the Sum of the Parts"]
 created: 2026-02-03T10:45:00+00:00
 last_synthesis: 2026-04-04
-modified: 2026-04-19T18:30:34+00:00
+modified: 2026-05-26T11:44:20+00:00
 source_of_truth: true
 status: evergreen
 synthesis-count: 2

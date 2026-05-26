@@ -2,7 +2,7 @@
 aliases: ["Illusion of Fluency"]
 created: 2025-11-10T16:01:00Z
 last_reviewed: ""
-modified: 2026-04-25T10:36:11+00:00
+modified: 2026-05-26T11:44:32+00:00
 status: "seedling"
 tags: ["learning", "metacognition", "TheHuman/Cognition", "TheHuman/Cognition/bias"]
 title: The Illusion of Fluency is a Cognitive Bias Where Ease of Processing is Mistaken for Deep Learning

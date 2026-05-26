@@ -1,7 +1,7 @@
 ---
 alias: ["AKS CIDR Planning", "Subnet Sizing Standard"]
 created: 2026-02-05T00:00:00+00:00
-modified: 2026-02-16T09:40:34+00:00
+modified: 2026-05-26T11:44:21+00:00
 status: stable
 tags: ["aks", "azure", "calico", "networking", "sot"]
 title: SoT - AKS IP Allocation & Subnet Sizing
@@ -63,4 +63,4 @@ This sizing assumes the use of Calico Overlay.
 - [[2026-02-05 - Azure AKS Inbound DNAT and IP Sizing]] - Initial investigation log for CIDR sizing.
 - [[SoT - FitFile Deployment - Networking and Security]] - Overall network architecture.
 - [[CNI Explained]] - Theory behind Calico Overlay vs. standard CNI.
-- [[HEAD What is the Riemann Hypothesis]] — **error term analogy**: the /27 buffer (27 usable IPs) manages variance in IP consumption the way Riemann's error term manages variance in prime density. Both are safety margins for sparse allocation systems.
+- [[HEAD What is the Riemann Hypothesis]]—error term analogy: the /27 buffer (27 usable IPs) manages variance in IP consumption the way Riemann's error term manages variance in prime density. Both are safety margins for sparse allocation systems.

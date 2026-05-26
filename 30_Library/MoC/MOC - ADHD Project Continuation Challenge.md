@@ -2,7 +2,7 @@
 aliases: ["ADHD Project Return Problem", "Mental Model Dissipation", "The Fresh Start Loop"]
 created: 2025-10-30T15:00:39Z
 last_synthesis: 2026-04-02
-modified: 2026-04-19T18:30:29+00:00
+modified: 2026-05-26T11:44:23+00:00
 source_of_truth: true
 status: evergreen
 synthesis-count: 2

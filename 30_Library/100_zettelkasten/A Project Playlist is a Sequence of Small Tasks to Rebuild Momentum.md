@@ -2,7 +2,7 @@
 aliases: ["Project Playlist"]
 created: 2025-11-11T19:05:08Z
 last_reviewed: ""
-modified: 2026-04-19T18:30:44+00:00
+modified: 2026-05-26T11:44:37+00:00
 status: "seedling"
 tags: ["task-management", "topic/productivity"]
 title: A Project Playlist is a Sequence of Small Tasks to Rebuild Momentum

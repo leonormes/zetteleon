@@ -1,8 +1,10 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:41+00:00
 group: Pipeline Authoring
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-title: Migrate from GitHub Actions
+modified: 2026-05-26T11:44:07+00:00
+stage: Verify
+title: github_actions
 ---
 
 {{< details >}}
@@ -13,11 +15,13 @@ title: Migrate from GitHub Actions
 {{< /details >}}
 
 If you're migrating from GitHub Actions to GitLab CI/CD, you are able to create CI/CD
+
 pipelines that replicate and enhance your GitHub Action workflows.
 
 ## Key Similarities and Differences
 
 GitHub Actions and GitLab CI/CD are both used to generate pipelines to automate building, testing,
+
 and deploying your code. Both share similarities including:
 
 - CI/CD functionality has direct access to the code stored in the project repository.
@@ -36,14 +40,16 @@ Additionally, there are some important differences between the two:
 - GitLab has native Kubernetes deployment support.
 - GitLab provides granular security policies.
 
-## Comparison of features and concepts
+## Comparison of Features and Concepts
 
 Many GitHub features and concepts have equivalents in GitLab that offer the same
+
 functionality.
 
-### Configuration file
+### Configuration File
 
 GitHub Actions can be configured with a [workflow YAML file](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions#understanding-the-workflow-file).
+
 GitLab CI/CD uses a `.gitlab-ci.yml` YAML file by default.
 
 For example, in a GitHub Actions `workflow` file:
@@ -69,9 +75,10 @@ hello:
     - echo "Hello World"
 ```
 
-### GitHub Actions workflow syntax
+### GitHub Actions Workflow Syntax
 
 A GitHub Actions configuration is defined in a `workflow` YAML file using specific keywords.
+
 GitLab CI/CD has similar functionality, also usually configured with YAML keywords.
 
 | GitHub    | GitLab         | Explanation |
@@ -84,24 +91,32 @@ GitLab CI/CD has similar functionality, also usually configured with YAML keywor
 | `steps`   | `script`       | `steps` groups together all the steps that run in a job. GitLab uses `script` to group together all the commands run in a job. |
 | `uses`    | `include`      | `uses` defines what GitHub Action to be added to a `step`. GitLab uses `include` to add configuration from other files to a job. |
 
-### Common configurations
+### Common Configurations
 
 This section goes over commonly used CI/CD configurations, showing how they can be converted
+
 from GitHub Actions to GitLab CI/CD.
 
 [GitHub Action workflows](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions#workflows)
+
 generate automated CI/CD jobs that are triggered when certain event take place, for example
+
 pushing a new commit. A GitHub Action workflow is a YAML file defined in the `.github/workflows`
+
 directory located in the root of the repository. The GitLab equivalent is the
+
 `.gitlab-ci.yml` configuration file, which also resides
+
 in the repository's root directory.
 
 #### Jobs
 
 Jobs are a set of commands that run in a set sequence to achieve a particular result,
+
 for example building a container or deploying to production.
 
 For example, this GitHub Actions `workflow` builds a container then deploys it to production.
+
 The jobs runs sequentially, because the `deploy` job depends on the `build` job:
 
 ```yaml
@@ -192,6 +207,7 @@ jobs:
 ```
 
 This example runs a Python job and a Java job in parallel, using different container images.
+
 The Java job only runs when the `staging` branch is changed.
 
 The equivalent GitLab CI/CD `.gitlab-ci.yml` file would be:
@@ -211,12 +227,15 @@ java-version:
 ```
 
 In this case, no extra configuration is needed to make the jobs run in parallel.
+
 Jobs run in parallel by default, each on a different runner assuming there are enough runners
+
 for all the jobs. The Java job is set to only run when the `staging` branch is changed.
 
 ##### Matrix
 
 In both GitLab and GitHub you can use a matrix to run a job multiple times in parallel in a single pipeline,
+
 but with different variable values for each instance of the job.
 
 For example, in a GitHub Actions `workflow` file:
@@ -286,6 +305,7 @@ deploy-job:
 #### Trigger
 
 GitHub Actions requires you to add a trigger for your workflow. GitLab is integrated tightly with Git,
+
 so SCM polling options for triggers are not needed, but can be configured per job if required.
 
 Sample GitHub Actions configuration:
@@ -309,6 +329,7 @@ Pipelines can also be [scheduled by using Cron syntax](../pipelines/schedules.md
 #### Container Images
 
 With GitLab you can [run your CI/CD jobs in separate, isolated Docker containers](../docker/using_docker_images.md)
+
 by using the [`image`](../yaml/_index.md#image) keyword.
 
 For example, in a GitHub Actions `workflow` file:
@@ -334,7 +355,9 @@ update-job:
 ```
 
 GitLab provides every project a [container registry](../../user/packages/container_registry/_index.md)
+
 for hosting container images. Container images can be built and stored directly from
+
 GitLab CI/CD pipelines.
 
 For example:
@@ -357,7 +380,9 @@ build-image:
 #### Variables
 
 You can use the `variables` keyword to define different [CI/CD variables](../variables/_index.md) at runtime.
+
 Use variables when you need to reuse configuration data in a pipeline. You can define
+
 variables globally or per job.
 
 For example, in a GitHub Actions `workflow` file:
@@ -406,8 +431,11 @@ spanish:
 ```
 
 Variables can also be set up through the GitLab UI, under CI/CD settings, where you can
+
 [protect](../variables/_index.md#protect-a-cicd-variable) or [mask](../variables/_index.md#mask-a-cicd-variable)
+
 the variables. Masked variables are hidden in job logs, while protected variables
+
 can only be accessed in pipelines for protected branches or tags.
 
 For example, in a GitHub Actions `workflow` file:
@@ -423,6 +451,7 @@ jobs:
 ```
 
 If the `AWS_ACCESS_KEY` variable is defined in the GitLab project settings, the equivalent
+
 GitLab CI/CD `.gitlab-ci.yml` file would be:
 
 ```yaml
@@ -432,13 +461,17 @@ login:
 ```
 
 Additionally, [GitHub Actions](https://docs.github.com/en/actions/learn-github-actions/contexts)
+
 and [GitLab CI/CD](../variables/predefined_variables.md) provide built-in variables
+
 which contain data relevant to the pipeline and repository.
 
 #### Conditionals
 
 When a new pipeline starts, GitLab checks the pipeline configuration to determine
+
 which jobs should run in that pipeline. You can use the [`rules` keyword](../yaml/_index.md#rules)
+
 to configure jobs to run depending on conditions like the status of variables, or the pipeline type.
 
 For example, in a GitHub Actions `workflow` file:
@@ -466,6 +499,7 @@ deploy_staging:
 #### Runners
 
 Runners are the services that execute jobs. If you are using GitLab.com, you can use the
+
 [instance runner fleet](../runners/_index.md) to run jobs without provisioning your own self-managed runners.
 
 Some key details about runners:
@@ -513,7 +547,9 @@ windows_job:
 #### Artifacts
 
 In GitLab, any job can use the [artifacts](../yaml/_index.md#artifacts) keyword to define a set
+
 of artifacts to be stored when a job completes. [Artifacts](../jobs/job_artifacts.md) are files
+
 that can be used in later jobs.
 
 For example, in a GitHub Actions `workflow` file:
@@ -565,8 +601,11 @@ use_cat:
 #### Caching
 
 A [cache](../caching/_index.md) is created when a job downloads one or more files and
+
 saves them for faster access in the future. Subsequent jobs that use the same cache don't have to download the files again,
+
 so they execute more quickly. The cache is stored on the runner and uploaded to S3 if
+
 [distributed cache is enabled](https://docs.gitlab.com/runner/configuration/autoscale/#distributed-runners-caching).
 
 For example, in a GitHub Actions `workflow` file:
@@ -598,8 +637,11 @@ cache-job:
 #### Templates
 
 In GitHub an Action is a set of complex tasks that need to be frequently repeated and is saved
+
 to enable reuse without redefining a CI/CD pipeline. In GitLab the equivalent to an action would
+
 be a the [`include` keyword](../yaml/includes.md), which allows you to [add CI/CD pipelines from other files](../yaml/includes.md),
+
 including template files built into GitLab.
 
 Sample GitHub Actions configuration:
@@ -616,12 +658,15 @@ include:
 ```
 
 In these examples, the `setup-terraform` GitHub action and the `Terraform.gitlab-ci.yml` GitLab template
+
 are not exact matches. These two examples are just to show how complex configuration can be reused.
 
-### Security Scanning features
+### Security Scanning Features
 
 GitLab provides a variety of [security scanners](../../user/application_security/_index.md)
+
 out-of-the-box to detect vulnerabilities in all parts of the SLDC. You can add these features
+
 to your GitLab CI/CD pipeline by using templates.
 
 for example to add SAST scanning to your pipeline, add the following to your `.gitlab-ci.yml`:
@@ -632,36 +677,49 @@ include:
 ```
 
 You can customize the behavior of security scanners by using CI/CD variables, for example
+
 with the [SAST scanners](../../user/application_security/sast/_index.md#available-cicd-variables).
 
 ### Secrets Management
 
 Privileged information, often referred to as "secrets", is sensitive information
+
 or credentials you need in your CI/CD workflow. You might use secrets to unlock protected resources
+
 or sensitive information in tools, applications, containers, and cloud-native environments.
 
 For secrets management in GitLab, you can use one of the [supported integrations](../secrets/_index.md)
+
 for an external service. These services securely store secrets outside of your GitLab project,
+
 though you must have a subscription for the service.
 
 GitLab also supports [OIDC authentication](../secrets/id_token_authentication.md)
+
 for other third party services that support OIDC.
 
 Additionally, you can make credentials available to jobs by storing them in CI/CD variables, though secrets
+
 stored in plain text are susceptible to accidental exposure. You should always store sensitive information
+
 in [masked](../variables/_index.md#mask-a-cicd-variable) and [protected](../variables/_index.md#protect-a-cicd-variable)
+
 variables, which mitigates some of the risk.
 
 Also, never store secrets as variables in your `.gitlab-ci.yml` file, which is public to all
+
 users with access to the project. Storing sensitive information in variables should
+
 only be done in [the project, group, or instance settings](../variables/_index.md#define-a-cicd-variable-in-the-ui).
 
 Review the [security guidelines](../variables/_index.md#cicd-variable-security) to improve
+
 the safety of your CI/CD variables.
 
 ## Planning and Performing a Migration
 
 The following list of recommended steps was created after observing organizations
+
 that were able to quickly complete this migration.
 
 ### Create a Migration Plan
@@ -676,8 +734,8 @@ Before doing any migration work, you should first:
    - Read about the [key GitLab CI/CD features](_index.md).
    - Follow tutorials to create [your first GitLab pipeline](../quick_start/_index.md) and [more complex pipelines](../quick_start/tutorial.md) that build, test, and deploys a static site.
    - Review the [CI/CD YAML syntax reference](../yaml/_index.md).
-1. Set up and configure GitLab.
-1. Test your GitLab instance.
+2. Set up and configure GitLab.
+3. Test your GitLab instance.
    - Ensure [runners](../runners/_index.md) are available, either by using shared GitLab.com runners or installing new runners.
 
 ### Migration Steps
@@ -686,13 +744,13 @@ Before doing any migration work, you should first:
    - (Recommended) You can use the [GitHub Importer](../../user/project/import/github.md)
      to automate mass imports from external SCM providers.
    - You can [import repositories by URL](../../user/import/third_party_systems/repo_by_url.md).
-1. Create a `.gitlab-ci.yml` in each project.
-1. Migrate GitHub Actions jobs to GitLab CI/CD jobs and configure them to show results directly in merge requests.
-1. Migrate deployment jobs by using [cloud deployment templates](../cloud_deployment/_index.md),
+2. Create a `.gitlab-ci.yml` in each project.
+3. Migrate GitHub Actions jobs to GitLab CI/CD jobs and configure them to show results directly in merge requests.
+4. Migrate deployment jobs by using [cloud deployment templates](../cloud_deployment/_index.md),
    [environments](../environments/_index.md), and the [GitLab agent for Kubernetes](../../user/clusters/agent/_index.md).
-1. Check if any CI/CD configuration can be reused across different projects, then create
+5. Check if any CI/CD configuration can be reused across different projects, then create
    and share [CI/CD components](../components/_index.md).
-1. Check the [pipeline efficiency documentation](../pipelines/pipeline_efficiency.md)
+6. Check the [pipeline efficiency documentation](../pipelines/pipeline_efficiency.md)
    to learn how to make your GitLab CI/CD pipelines faster and more efficient.
 
 ### Additional Resources

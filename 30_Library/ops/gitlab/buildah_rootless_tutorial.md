@@ -1,8 +1,10 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:41+00:00
 group: Pipeline Execution
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-title: 'Tutorial: Use Buildah in a rootless container with GitLab Runner Operator on OpenShift'
+modified: 2026-05-26T11:44:14+00:00
+stage: Verify
+title: buildah_rootless_tutorial
 ---
 
 {{< details >}}
@@ -13,25 +15,28 @@ title: 'Tutorial: Use Buildah in a rootless container with GitLab Runner Operato
 {{< /details >}}
 
 This tutorial teaches you how to successfully build images using the `buildah` tool,
+
 with GitLab Runner deployed using [GitLab Runner Operator](https://gitlab.com/gitlab-org/gl-openshift/gitlab-runner-operator)
+
 on an OpenShift cluster.
 
 This guide is an adaptation of [using Buildah to build images in a rootless OpenShift container](https://github.com/containers/buildah/blob/main/docs/tutorials/05-openshift-rootless-build.md)
+
 documentation for GitLab Runner Operator.
 
 To complete this tutorial, you will:
 
 1. Configure the Buildah image.
-1. Configure the service account.
-1. Configure the job.
+2. Configure the service account.
+3. Configure the job.
 
-## Before you begin
+## Before You Begin
 
 Make sure you have the following before you complete this tutorial:
 
 - A runner already deployed to a `gitlab-runner` namespace.
 
-## Configure the Buildah image
+## Configure the Buildah Image
 
 Start by preparing a custom image based on the `quay.io/buildah/stable:v1.23.1` image.
 
@@ -59,7 +64,7 @@ Start by preparing a custom image based on the `quay.io/buildah/stable:v1.23.1` 
    EOF
    ```
 
-1. Build and push the Buildah image to a container registry. Let's push to the
+2. Build and push the Buildah image to a container registry. Let's push to the
    [GitLab container registry](../../user/packages/container_registry/_index.md):
 
    ```shell
@@ -67,7 +72,7 @@ Start by preparing a custom image based on the `quay.io/buildah/stable:v1.23.1` 
    docker push registry.example.com/group/project/buildah:1.23.1
    ```
 
-## Configure the service account
+## Configure the Service account
 
 For these steps, you need to run the commands in a terminal connected to the OpenShift cluster.
 
@@ -83,13 +88,13 @@ For these steps, you need to run the commands in a terminal connected to the Ope
    EOF
    ```
 
-1. Give the created service account the ability to run with `anyuid` [SCC](https://docs.openshift.com/container-platform/4.3/authentication/managing-security-context-constraints.html):
+2. Give the created service account the ability to run with `anyuid` [SCC](https://docs.openshift.com/container-platform/4.3/authentication/managing-security-context-constraints.html):
 
    ```shell
    oc adm policy add-scc-to-user anyuid -z buildah-sa -n gitlab-runner
    ```
 
-1. Use a [runner configuration template](https://docs.gitlab.com/runner/configuration/configuring_runner_operator/#customize-configtoml-with-a-configuration-template)
+3. Use a [runner configuration template](https://docs.gitlab.com/runner/configuration/configuring_runner_operator/#customize-configtoml-with-a-configuration-template)
    to configure Operator to use the new service account. Create a `custom-config.toml` file that contains:
 
    ```toml
@@ -98,13 +103,13 @@ For these steps, you need to run the commands in a terminal connected to the Ope
          service_account_overwrite_allowed = "buildah-*"
    ```
 
-1. Create a `ConfigMap` named `custom-config-toml` from the `custom-config.toml` file:
+4. Create a `ConfigMap` named `custom-config-toml` from the `custom-config.toml` file:
 
    ```shell
    oc create configmap custom-config-toml --from-file config.toml=custom-config.toml -n gitlab-runner
    ```
 
-1. Set the `config` property of the `Runner` by updating its [Custom Resource Definition (CRD) file](https://docs.gitlab.com/runner/install/operator/#install-gitlab-runner):
+5. Set the `config` property of the `Runner` by updating its [Custom Resource Definition (CRD) file](https://docs.gitlab.com/runner/install/operator/#install-gitlab-runner):
 
    ```yaml
    apiVersion: apps.gitlab.com/v1beta2
@@ -117,9 +122,10 @@ For these steps, you need to run the commands in a terminal connected to the Ope
      config: custom-config-toml
    ```
 
-## Configure the job
+## Configure the Job
 
 The final step is to set up a GitLab CI/CD configuration file in your project to use
+
 the new Buildah image and the configured service account:
 
 ```yaml
@@ -145,6 +151,7 @@ build:
 The job should use the image that you built as the value of the `image` keyword.
 
 The `KUBERNETES_SERVICE_ACCOUNT_OVERWRITE` variable should have the value of the
+
 service account name that you created.
 
 Congratulations, you've successfully built an image with Buildah in a rootless container!
@@ -152,5 +159,7 @@ Congratulations, you've successfully built an image with Buildah in a rootless c
 ## Troubleshooting
 
 There is a [known issue](https://github.com/containers/buildah/issues/4049) with running as non-root.
+
 You might need to use a [workaround](https://docs.gitlab.com/runner/configuration/configuring_runner_operator/#configure-setfcap)
+
 if you are using an OpenShift runner.

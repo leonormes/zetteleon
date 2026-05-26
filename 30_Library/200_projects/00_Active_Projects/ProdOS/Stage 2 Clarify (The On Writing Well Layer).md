@@ -1,7 +1,7 @@
 ---
 aliases: ["Editorial Stage", "Zinsser Layer"]
 created: 2025-12-04T12:23:40Z
-modified: 2026-05-26T09:04:24+00:00
+modified: 2026-05-26T11:44:31+00:00
 status: "stable"
 tags: ["clarification", "pkm", "prodos", "writing"]
 title: Stage 2 Clarify (The On Writing Well Layer)

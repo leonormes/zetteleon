@@ -1,8 +1,10 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:40+00:00
 group: Pipeline Authoring
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-title: 'Tutorial: Create a complex pipeline'
+modified: 2026-05-26T11:43:59+00:00
+stage: Verify
+title: tutorial
 ---
 
 {{< details >}}
@@ -13,22 +15,26 @@ title: 'Tutorial: Create a complex pipeline'
 {{< /details >}}
 
 This tutorial walks you through configuring a progressively more complex CI/CD pipeline
+
 through small, iterative steps. The pipeline is always fully functional,
+
 but it gains more functionality with each step. The goal is to build, test, and deploy
+
 a documentation site.
 
 When you finish this tutorial, you will have a new project on GitLab.com and a working documentation site
+
 using [Docusaurus](https://docusaurus.io/).
 
 To complete this tutorial, you will:
 
 1. Create a project to hold the Docusaurus files
-1. Create the initial pipeline configuration file
-1. Add a job to build the site
-1. Add a job to deploy the site
-1. Add test jobs
-1. Start using merge request pipelines
-1. Reduce duplicated configuration
+2. Create the initial pipeline configuration file
+3. Add a job to build the site
+4. Add a job to deploy the site
+5. Add test jobs
+6. Start using merge request pipelines
+7. Reduce duplicated configuration
 
 ## Prerequisites
 
@@ -37,19 +43,20 @@ To complete this tutorial, you will:
 - Node.js must be installed on your local machine. For example, on macOS you can
   [install node](https://formulae.brew.sh/formula/node) with `brew install node`.
 
-## Create a project to hold the Docusaurus files
+## Create a Project to Hold the Docusaurus Files
 
 Before adding the pipeline configuration, you must first set up a Docusaurus project
+
 on GitLab.com:
 
 1. Create a new project under your username (not a group):
-   1. In the upper-right corner, select **Create new** ({{< icon name="plus" >}}) and **New project/repository**.
-   1. Select **Create blank project**.
-   1. Enter the project details:
-      - In the **Project name** field, enter the name of your project, for example `My Pipeline Tutorial Project`.
-      - Select **Initialize repository with a README**.
-   1. Select **Create project**.
-1. On the project's overview page, in the upper-right corner, select **Code**
+   1. In the upper-right corner, select Create new ({{< icon name="plus" >}}) and New project/repository.
+   2. Select Create blank project.
+   3. Enter the project details:
+      - In the Project name field, enter the name of your project, for example `My Pipeline Tutorial Project`.
+      - Select Initialize repository with a README.
+   4. Select Create project.
+2. On the project's overview page, in the upper-right corner, select Code
    to find the clone paths for your project. Copy the SSH or HTTP path and use the path
    to clone the project locally.
 
@@ -59,7 +66,7 @@ on GitLab.com:
    git clone git@gitlab.com:my-username/my-pipeline-tutorial-project.git pipeline-tutorial
    ```
 
-1. Change to the project's directory, then generate a new Docusaurus site:
+3. Change to the project's directory, then generate a new Docusaurus site:
 
    ```shell
    cd pipeline-tutorial
@@ -67,9 +74,10 @@ on GitLab.com:
    ```
 
    The Docusaurus initialization wizard prompts you with questions about the site.
+
    Use all the default options.
 
-1. The initialization wizard sets up the site in `website/`, but the site should be in
+4. The initialization wizard sets up the site in `website/`, but the site should be in
    the root of the project. Move the files up to the root and delete the old directory:
 
    ```shell
@@ -77,13 +85,13 @@ on GitLab.com:
    rm -r website
    ```
 
-1. Update the Docusaurus configuration file with the details of your GitLab project.
+5. Update the Docusaurus configuration file with the details of your GitLab project.
    In `docusaurus.config.js`:
 
    - Set `url:` to a path with this format: `https://<my-username>.gitlab.io/`.
    - Set `baseUrl:` to your project name, like `/my-pipeline-tutorial-project/`.
 
-1. Commit the changes, and push them to GitLab:
+6. Commit the changes, and push them to GitLab:
 
    ```shell
    git add .
@@ -91,9 +99,10 @@ on GitLab.com:
    git push origin
    ```
 
-## Create the initial CI/CD configuration file
+## Create the Initial CI/CD Configuration File
 
 Start with the simplest possible pipeline configuration file to ensure CI/CD is enabled
+
 in the project and runners are available to run jobs.
 
 This step introduces:
@@ -117,16 +126,18 @@ test-job:
 
 Commit and push this change to GitLab, then:
 
-1. Go to **Build** > **Pipelines** and make sure a pipeline runs in GitLab with this single job.
-1. Select the pipeline, then select the job to view the job's log and see the `This is my first job!` message
+1. Go to Build > Pipelines and make sure a pipeline runs in GitLab with this single job.
+2. Select the pipeline, then select the job to view the job's log and see the `This is my first job!` message
    followed by the date.
 
 Now that you have a `.gitlab-ci.yml` file in your project, you can make all future changes
+
 to pipeline configuration with the [pipeline editor](../pipeline_editor/_index.md).
 
-## Add a job to build the site
+## Add a Job to Build the Site
 
 A common task for a CI/CD pipeline is to build the code in the project then deploy it.
+
 Start by adding a job that builds the site.
 
 This step introduces:
@@ -134,8 +145,8 @@ This step introduces:
 - [`image`](../yaml/_index.md#image): Tell the runner which Docker
   container to use to run the job in. The runner:
   1. Downloads the container image and starts it.
-  1. Clones your GitLab project into the running container.
-  1. Runs the `script` commands, one at a time.
+  2. Clones your GitLab project into the running container.
+  3. Runs the `script` commands, one at a time.
 - [`artifacts`](../yaml/_index.md#artifacts): Jobs are self-contained and do not share
   resources with each other. If you want files generated in one job to be used in
   another job, you must save them as artifacts first. Then later jobs can retrieve the
@@ -161,14 +172,15 @@ build-job:
 ```
 
 Use the pipeline editor to commit this pipeline configuration to the default branch,
+
 and check the job log. You can:
 
 - See the `npm` commands run and build the site.
 - Verify that the artifacts are saved at the end.
-- Browse the contents of the artifacts file by selecting **Browse** to the right of the job log
+- Browse the contents of the artifacts file by selecting Browse to the right of the job log
   after the job completes.
 
-## Add a job to deploy the site
+## Add a Job to Deploy the Site
 
 After verifying the Docusaurus site builds in `build-job`, you can add a job that deploys it.
 
@@ -215,7 +227,8 @@ pages:
 ```
 
 Use the pipeline editor to commit this pipeline configuration to the default branch,
-and view the pipeline details from the **Pipelines** list. Verify that:
+
+and view the pipeline details from the Pipelines list. Verify that:
 
 - The two jobs run in different stages, `build` and `deploy`.
 - After the `pages` job completes a `pages:deploy` job appears, which is the GitLab process
@@ -224,17 +237,19 @@ and view the pipeline details from the **Pipelines** list. Verify that:
 
 To view your site:
 
-- In the left sidebar, select **Deploy** > **Pages**.
-- Make sure **Use unique domain** is off.
-- Under **Access pages**, select the link. The URL format should be similar to: `https://<my-username>.gitlab.io/<project-name>`. For more information, see [GitLab Pages default domain names](../../user/project/pages/getting_started_part_one.md#gitlab-pages-default-domain-names).
+- In the left sidebar, select Deploy > Pages.
+- Make sure Use unique domain is off.
+- Under Access pages, select the link. The URL format should be similar to: `https://<my-username>.gitlab.io/<project-name>`. For more information, see [GitLab Pages default domain names](../../user/project/pages/getting_started_part_one.md#gitlab-pages-default-domain-names).
 
 > [!note]
 > If you need to [use unique domains](../../user/project/pages/_index.md#unique-domains), in `docusaurus.config.js`, set `baseUrl`: to `/`.
 
-## Add test jobs
+## Add Test Jobs
 
 Now that the site builds and deploys as expected, you can add tests and linting.
+
 For example, a Ruby project might run RSpec test jobs. Docusaurus is a static site
+
 that uses Markdown and generated HTML, so this tutorial adds jobs to test the Markdown and HTML.
 
 This step introduces:
@@ -287,7 +302,7 @@ lint-markdown:
   script:
     - npm install markdownlint-cli2 --global           # Install markdownlint into the container
     - markdownlint-cli2 -v                             # Verify the version, useful for troubleshooting
-    - markdownlint-cli2 "blog/**/*.md" "docs/**/*.md"  # Lint all markdown files in blog/ and docs/
+    - markdownlint-cli2 "blog//*.md" "docs//*.md"  # Lint all markdown files in blog/ and docs/
   allow_failure: true  # This job fails right now, but don't let it stop the pipeline.
 
 test-html:
@@ -323,11 +338,14 @@ Commit this pipeline configuration to the default branch, and view the pipeline 
 - You can also make changes to the Markdown file content and see the changes on the site
   after the next deployment.
 
-## Start using merge request pipelines
+## Start Using Merge Request Pipelines
 
 With the previous pipeline configurations, the site deploys every time a pipeline completes
+
 successfully, but this is not an ideal development workflow. It's better to work from
+
 feature branches and merge requests, and only deploy the site when changes merge
+
 to the default branch.
 
 This step introduces:
@@ -383,7 +401,7 @@ lint-markdown:
   script:
     - npm install markdownlint-cli2 --global
     - markdownlint-cli2 -v
-    - markdownlint-cli2 "blog/**/*.md" "docs/**/*.md"
+    - markdownlint-cli2 "blog//*.md" "docs//*.md"
   allow_failure: true
   rules:
     - if: $CI_PIPELINE_SOURCE == 'merge_request_event'  # Run for all changes to a merge request's source branch
@@ -416,16 +434,21 @@ pages:
 ```
 
 Merge the changes in your merge request. This action updates the default branch. Verify that
+
 the new pipeline contains the `pages` job that deploys the site.
 
 Be sure to use feature branches and merge requests for all future changes to pipeline configuration.
+
 Other project changes, like creating a Git tag or adding a pipeline schedule, do not
+
 trigger pipelines unless you add rules for those cases too.
 
-## Reduce duplicated configuration
+## Reduce Duplicated Configuration
 
 The pipeline now contains three jobs that all have identical `rules` and `image`
+
 configuration. Instead of repeating these rules, use `extends` and `default` to create
+
 single sources of truth.
 
 This step introduces:
@@ -482,7 +505,7 @@ lint-markdown:
   script:
     - npm install markdownlint-cli2 --global
     - markdownlint-cli2 -v
-    - markdownlint-cli2 "blog/**/*.md" "docs/**/*.md"
+    - markdownlint-cli2 "blog//*.md" "docs//*.md"
   allow_failure: true
 
 test-html:
@@ -511,8 +534,11 @@ pages:
 ```
 
 Use a merge request to commit this pipeline configuration to the default branch.
+
 The file is simpler, but it should have the same behavior as the previous step.
 
 You've just created a full pipeline and streamlined it to be more efficient. Nice work!
+
 Now you can take this knowledge, learn about the rest of the `.gitlab-ci.yml` keywords
+
 in the [CI/CD YAML syntax reference](../yaml/_index.md), and build your own pipelines.

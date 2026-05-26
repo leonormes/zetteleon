@@ -2,7 +2,7 @@
 aliases: ["Choice Architecture", "Nudge Theory"]
 created: 2025-11-10T17:13:00Z
 last_reviewed: ""
-modified: 2026-04-19T18:30:43+00:00
+modified: 2026-05-26T11:44:36+00:00
 status: "seedling"
 tags: ["behavior-change", "design", "environment", "nudge", "TheHuman/Psychology"]
 title: Choice Architecture Designs the Environment to Make Desired Behaviors Easier

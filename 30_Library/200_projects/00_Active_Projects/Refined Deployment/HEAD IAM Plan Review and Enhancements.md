@@ -1,7 +1,7 @@
 ---
 captured: "2026-05-11T13:11:13+01:00 2026-05-11T13:11:13+01:00"
 created: 2026-05-11T12:11:19+00:00
-modified: 2026-05-11T12:13:31+00:00
+modified: 2026-05-26T11:44:26+00:00
 source: "https://gemini.google.com/app/fe2e2f323009e813"
 status: "processing"
 tags: ["input"]
@@ -269,7 +269,7 @@ To fully secure the environment based on the wider Azure & Entra Configuration R
 - Stale App Registrations (EntraFF-26): The summary does not address the massive attack surface created by 39 stale application registrations with active credentials, which could be used by an attacker to maintain persistent backdoor access.
 - Network & Infrastructure Security: The document ignores the unrestricted outbound network traffic across all Network Security Groups (EntraFF-15), the lack of VM backups (EntraFF-24), and missing disk encryption (EntraFF-23).
 
-2. Resolving the "Tech Team" Tasks: The items delegated to the tech team need immediate resolution:
+1. Resolving the "Tech Team" Tasks: The items delegated to the tech team need immediate resolution:
 
 - Diagnostic settings must be configured to export activity logs to a Log Analytics workspace so the business can detect a breach.
 - The business must define a timeline for testing and enforcing Entra ID authentication on the Kubernetes (AKS) cluster rather than relying on local accounts.

@@ -1,8 +1,10 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:40+00:00
 group: Runner Core
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-title: Track deployments of an external deployment tool
+modified: 2026-05-26T11:44:08+00:00
+stage: Verify
+title: external_deployment_tools
 ---
 
 {{< details >}}
@@ -13,7 +15,9 @@ title: Track deployments of an external deployment tool
 {{< /details >}}
 
 While GitLab offers a [built-in deployment solution](_index.md), you might prefer to use an external deployment tool, such as Heroku or ArgoCD.
+
 GitLab can receive deployment events from these external tools and allows you to track the deployments within GitLab.
+
 For example, the following features are available by setting up tracking:
 
 - [See when a merge request has been deployed, and to which environment](../../user/project/merge_requests/widgets.md#post-merge-pipeline-status).
@@ -26,9 +30,10 @@ For example, the following features are available by setting up tracking:
 > Some of the features are not available because GitLab can't authorize and leverage those external deployments, including
 > [Protected Environments](protected_environments.md), [Deployment Approvals](deployment_approvals.md), [Deployment safety](deployment_safety.md), and [Deployment rollback](deployments.md#deployment-rollback).
 
-## How to set up deployment tracking
+## How to Set up Deployment Tracking
 
 External deployment tools usually offer a [webhook](https://en.wikipedia.org/wiki/Webhook) to execute an additional API request when deployment state is changed.
+
 You can configure your tool to make a request to the GitLab [Deployment API](../../api/deployments.md). Here is an overview of the event and API request flow:
 
 - When a deployment starts running, [create a deployment with `running` status](../../api/deployments.md#create-a-deployment).
@@ -38,9 +43,10 @@ You can configure your tool to make a request to the GitLab [Deployment API](../
 > [!note]
 > You can create a [project access token](../../user/project/settings/project_access_tokens.md) for the GitLab API authentication.
 
-### Example: Track deployments of ArgoCD
+### Example: Track Deployments of ArgoCD
 
 You can use [ArgoCD webhook](https://argo-cd.readthedocs.io/en/stable/operator-manual/notifications/services/webhook/) to send deployment events to GitLab Deployment API.
+
 Here is an example setup that creates a `success` deployment record in GitLab when ArgoCD successfully deploys a new revision:
 
 1. Create a new webhook. You can save the following manifest file and apply it by `kubectl apply -n argocd -f <manifiest-file-path>`:
@@ -79,7 +85,7 @@ Here is an example setup that creates a `success` deployment record in GitLab wh
          value: application/json
    ```
 
-1. Create a new subscription in your application:
+2. Create a new subscription in your application:
 
    ```shell
    kubectl patch app <your-app-name> -n argocd -p '{"metadata": {"annotations": {"notifications.argoproj.io/subscribe.on-deployed.gitlab":""}}}' --type merge

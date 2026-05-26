@@ -1,9 +1,11 @@
 ---
-stage: Application Security Testing
+created: 2026-05-16T10:16:41+00:00
+description: Documentation for integrating code quality scanning tools and linters into CI/CD pipelines
 group: Static Analysis
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-description: Documentation for integrating code quality scanning tools and linters into CI/CD pipelines
-title: Code Quality
+modified: 2026-05-26T11:44:13+00:00
+stage: Application Security Testing
+title: code_quality
 ---
 
 {{< details >}}
@@ -14,16 +16,21 @@ title: Code Quality
 {{< /details >}}
 
 Code Quality identifies maintainability issues before they become technical debt.
+
 The automated feedback that occurs during code reviews can help your team write better code.
+
 The findings appear directly in merge requests, making problems visible when they're most cost-effective to fix.
 
 Code Quality works with multiple programming languages and integrates with common linters, style
+
 checkers, and complexity analyzers. Your existing tools can feed into the Code Quality workflow,
+
 preserving your team's preferences while standardizing how results are displayed.
 
-## Features per tier
+## Features per Tier
 
 Different features are available in different [GitLab tiers](https://about.gitlab.com/pricing/),
+
 as shown in the following table:
 
 | Feature                                                                                     | In Free     | In Premium  | In Ultimate |
@@ -35,21 +42,25 @@ as shown in the following table:
 | [See findings in the merge request changes view](#merge-request-changes-view)               | {{< no >}}  | {{< no >}}  | {{< yes >}} |
 | [Analyze overall health in a project quality summary view](#project-quality-view)           | {{< no >}}  | {{< no >}}  | {{< yes >}} |
 
-## Scan code for quality violations
+## Scan Code for Quality Violations
 
 Code Quality is an open system that supports importing results from many scanning tools.
+
 To find violations and surface them, you can:
 
 - Directly use a scanning tool and [import its results](#import-code-quality-results-from-a-cicd-job). _(Preferred.)_
 - [Use a built-in CI/CD template](#use-the-built-in-code-quality-cicd-template-deprecated) to enable scanning. The template uses the CodeClimate engine, which wraps common open source tools. _(Deprecated.)_
 
 You can capture results from multiple tools in a single pipeline.
+
 For example, you can run a code linter to scan your code along with a language linter to scan your documentation, or you can use a standalone tool along with CodeClimate-based scanning.
+
 Code Quality combines all of the reports so you see all of them when you [view results](#view-code-quality-results).
 
-### Import Code Quality results from a CI/CD job
+### Import Code Quality Results from a CI/CD Job
 
 Many development teams already use linters, style checkers, or other tools in their CI/CD pipelines to automatically detect violations of coding standards.
+
 You can make the findings from these tools easier to see and fix by integrating them with Code Quality.
 
 To see if your tool already has a documented integration, see [Integrate common tools with Code Quality](#integrate-common-tools-with-code-quality).
@@ -57,21 +68,22 @@ To see if your tool already has a documented integration, see [Integrate common 
 To integrate a different tool with Code Quality:
 
 1. Add the tool to your CI/CD pipeline.
-1. Configure the tool to output a report as a file.
+2. Configure the tool to output a report as a file.
    - This file must use a [specific JSON format](#code-quality-report-format).
    - Many tools support this output format natively. They may call it a "CodeClimate report", "GitLab Code Quality report", or another similar name.
    - Other tools can sometimes create JSON output using a custom JSON format or template. Because the [report format](#code-quality-report-format) has only a few required fields, you may be able to use this output type to create a report for Code Quality.
-1. Declare a [`codequality` report artifact](../yaml/artifacts_reports.md#artifactsreportscodequality) that matches this file.
+3. Declare a [`codequality` report artifact](../yaml/artifacts_reports.md#artifactsreportscodequality) that matches this file.
 
 Now, after the pipeline runs, the quality tool's results are [processed and displayed](#view-code-quality-results).
 
-### Use the built-in Code Quality CI/CD template (deprecated)
+### Use the Built-in Code Quality CI/CD Template (deprecated)
 
 > [!warning]
 > This feature was [deprecated](../../update/deprecations.md#codeclimate-based-code-quality-scanning-will-be-removed) in GitLab 17.3 and is planned for removal in 19.0.
 > [Integrate the results from a supported tool directly](#import-code-quality-results-from-a-cicd-job) instead.
 
 Code Quality also includes a built-in CI/CD template, `Code-Quality.gitlab-ci.yaml`.
+
 This template runs a scan based on the open source CodeClimate scanning engine.
 
 The CodeClimate engine runs:
@@ -81,10 +93,12 @@ The CodeClimate engine runs:
 
 For more details, see [Configure CodeClimate-based Code Quality scanning](code_quality_codeclimate_scanning.md).
 
-#### Migrate from CodeClimate-based scanning
+#### Migrate from CodeClimate-based Scanning
 
 The CodeClimate engine uses a customizable set of [analysis plugins](code_quality_codeclimate_scanning.md#configure-codeclimate-analysis-plugins).
+
 Some are on by default; others must be explicitly enabled.
+
 The following integrations are available to replace the built-in plugins:
 
 | Plugin       | On by default                    | Replacement |
@@ -101,7 +115,7 @@ The following integrations are available to replace the built-in plugins:
 | Stylelint    | {{< no >}} (community-supported) | [Integrate Stylelint](#stylelint). |
 | SwiftLint    | {{< no >}}                       | [Integrate SwiftLint](#swiftlint). |
 
-## View Code Quality results
+## View Code Quality Results
 
 Code Quality results are shown in the:
 
@@ -110,17 +124,21 @@ Code Quality results are shown in the:
 - [Pipeline details view](#pipeline-details-view)
 - [Project quality view](#project-quality-view)
 
-### Merge request widget
+### Merge Request Widget
 
 Code Quality analysis results display in the merge request widget area if a report from the target
+
 branch is available for comparison. The merge request widget displays Code Quality findings and resolutions that
+
 were introduced by the changes made in the merge request. Multiple Code Quality findings with identical
+
 fingerprints display as a single entry in the merge request widget. Each individual finding is available in the
-full report available in the **Pipeline** details view.
+
+full report available in the Pipeline details view.
 
 ![List of code quality issues in the merge request, ordered by decreasing severity](img/code_quality_merge_request_widget_v18_2.png)
 
-### Merge request changes view
+### Merge Request Changes view
 
 {{< details >}}
 
@@ -129,12 +147,13 @@ full report available in the **Pipeline** details view.
 
 {{< /details >}}
 
-Code Quality results display in the merge request **Changes** view. Lines containing Code Quality
+Code Quality results display in the merge request Changes view. Lines containing Code Quality
+
 issues are marked by a symbol beside the gutter. Select the symbol to see the list of issues, then select an issue to see its details.
 
 ![Lines in a merge request's changes tab marked with a symbol to indicate code quality issues](img/code_quality_changes_view_v18_2.png)
 
-### Pipeline details view
+### Pipeline Details view
 
 {{< details >}}
 
@@ -143,13 +162,15 @@ issues are marked by a symbol beside the gutter. Select the symbol to see the li
 
 {{< /details >}}
 
-The full list of Code Quality violations generated by a pipeline is shown in the **Code Quality**
+The full list of Code Quality violations generated by a pipeline is shown in the Code Quality
+
 tab of the pipeline's details page. The pipeline details view displays all Code Quality findings
+
 that were found on the branch it was run on.
 
 ![List of all issues in the branch, ordered by decreasing severity](img/code_quality_pipeline_details_view_v18_2.png)
 
-### Project quality view
+### Project Quality view
 
 {{< details >}}
 
@@ -165,16 +186,18 @@ that were found on the branch it was run on.
 
 {{< /history >}}
 
-The project quality view displays an overview of the code quality findings. The view can be found under **Analyze** > **CI/CD analytics**, and requires [`project_quality_summary_page`](../../administration/feature_flags/_index.md) feature flag to be enabled for this particular project.
+The project quality view displays an overview of the code quality findings. The view can be found under Analyze > CI/CD analytics, and requires [`project_quality_summary_page`](../../administration/feature_flags/_index.md) feature flag to be enabled for this particular project.
 
 ![Total number of issues, called violations, followed by the number of issues of each severity](img/code_quality_summary_v15_9.png)
 
-## Code Quality report format
+## Code Quality Report Format
 
 You can [import Code Quality results](#import-code-quality-results-from-a-cicd-job) from any tool that can output a report in the following format.
+
 This format is a version of the [CodeClimate report format](https://github.com/codeclimate/platform/blob/master/spec/analyzers/SPEC.md#data-types) that includes a smaller number of fields.
 
 The file you provide as [Code Quality report artifact](../yaml/artifacts_reports.md#artifactsreportscodequality) must contain a single JSON array.
+
 Each object in that array must have at least the following properties:
 
 | Name                                                      | Type    | Description |
@@ -210,29 +233,33 @@ For example, this is a compliant report:
 ]
 ```
 
-## Integrate common tools with Code Quality
+## Integrate Common Tools with Code Quality
 
 Many tools natively support the required [report format](#code-quality-report-format) to integrate their results with Code Quality.
+
 They may call it a "CodeClimate report", "GitLab Code Quality report", or another similar name.
 
 Other tools can be configured to create JSON output by providing a custom template or format specification.
+
 Because the [report format](#code-quality-report-format) has only a few required fields, you may be able to use this output type to create a report for Code Quality.
 
 If you already use a tool in your CI/CD pipeline, you should adapt the existing job to add a Code Quality report.
+
 Adapting the existing job prevents you from running a separate job that may confuse developers and make your pipelines take longer to run.
 
 If you don't already use a tool, you can write a CI/CD job from scratch or adopt the tool by using a component from [the CI/CD Catalog](../components/_index.md#cicd-catalog).
 
-### Code scanning tools
+### Code Scanning Tools
 
 #### ESLint
 
 If you already have an [ESLint](https://eslint.org/) job in your CI/CD pipelines, you should add a report to send its output to Code Quality.
+
 To integrate its output:
 
 1. Add [`eslint-formatter-gitlab`](https://www.npmjs.com/package/eslint-formatter-gitlab) as a development dependency in your project.
-1. Add the `--format gitlab` option to the command you use to run ESLint.
-1. Declare a [`codequality` report artifact](../yaml/artifacts_reports.md#artifactsreportscodequality) that points to the location of the report file.
+2. Add the `--format gitlab` option to the command you use to run ESLint.
+3. Declare a [`codequality` report artifact](../yaml/artifacts_reports.md#artifactsreportscodequality) that points to the location of the report file.
    - By default, the formatter reads your CI/CD configuration and infers the filename where it should save the report.
      If the formatter can't infer the filename you used in your artifact declaration, set the CI/CD variable `ESLINT_CODE_QUALITY_REPORT` to the filename specified for your artifact, such as `gl-code-quality-report.json`.
 
@@ -241,11 +268,12 @@ You can also use or adapt the [ESLint CI/CD component](https://gitlab.com/explor
 #### Stylelint
 
 If you already have a [Stylelint](https://stylelint.io/) job in your CI/CD pipelines, you should add a report to send its output to Code Quality.
+
 To integrate its output:
 
 1. Add [`@studiometa/stylelint-formatter-gitlab`](https://www.npmjs.com/package/@studiometa/stylelint-formatter-gitlab) as a development dependency in your project.
-1. Add the `--custom-formatter=@studiometa/stylelint-formatter-gitlab` option to the command you use to run Stylelint.
-1. Declare a [`codequality` report artifact](../yaml/artifacts_reports.md#artifactsreportscodequality) that points to the location of the report file.
+2. Add the `--custom-formatter=@studiometa/stylelint-formatter-gitlab` option to the command you use to run Stylelint.
+3. Declare a [`codequality` report artifact](../yaml/artifacts_reports.md#artifactsreportscodequality) that points to the location of the report file.
    - By default, the formatter reads your CI/CD configuration and infers the filename where it should save the report.
      If the formatter can't infer the filename you used in your artifact declaration, set the CI/CD variable `STYLELINT_CODE_QUALITY_REPORT` to the filename specified for your artifact, such as `gl-code-quality-report.json`.
 
@@ -254,58 +282,63 @@ For more details and an example CI/CD job definition, see the [documentation for
 #### MyPy
 
 If you already have a [MyPy](https://mypy-lang.org/) job in your CI/CD pipelines, you should add a report to send its output to Code Quality.
+
 To integrate its output:
 
 1. Install [`mypy-gitlab-code-quality`](https://pypi.org/project/mypy-gitlab-code-quality/) as a dependency in your project.
-1. Change your `mypy` command to send its output to a file.
-1. Add a step to your job `script` to reprocess the file into the required format by using `mypy-gitlab-code-quality`. For example:
+2. Change your `mypy` command to send its output to a file.
+3. Add a step to your job `script` to reprocess the file into the required format by using `mypy-gitlab-code-quality`. For example:
 
    ```yaml
-   - mypy $(find -type f -name "*.py" ! -path "**/.venv/**") --no-error-summary > mypy-out.txt || true  # "|| true" is used for preventing job failure when mypy find errors
+   - mypy $(find -type f -name "*.py" ! -path "/.venv/") --no-error-summary > mypy-out.txt || true  # "|| true" is used for preventing job failure when mypy find errors
    - mypy-gitlab-code-quality < mypy-out.txt > gl-code-quality-report.json
    ```
 
-1. Declare a [`codequality` report artifact](../yaml/artifacts_reports.md#artifactsreportscodequality) that points to the location of the report file.
+4. Declare a [`codequality` report artifact](../yaml/artifacts_reports.md#artifactsreportscodequality) that points to the location of the report file.
 
 You can also use or adapt the [MyPy CI/CD component](https://gitlab.com/explore/catalog/components/code-quality-oss/codequality-os-scanners-integration) to run the scan and integrate its output with Code Quality.
 
 #### Flake8
 
 If you already have a [Flake8](https://flake8.pycqa.org/) job in your CI/CD pipelines, you should add a report to send its output to Code Quality.
+
 To integrate its output:
 
 1. Install [`flake8-gl-codeclimate`](https://github.com/awelzel/flake8-gl-codeclimate) as a dependency in your project.
-1. Add the arguments `--format gl-codeclimate --output-file gl-code-quality-report.json` to the command you use to run Flake8.
-1. Declare a [`codequality` report artifact](../yaml/artifacts_reports.md#artifactsreportscodequality) that points to the location of the report file.
+2. Add the arguments `--format gl-codeclimate --output-file gl-code-quality-report.json` to the command you use to run Flake8.
+3. Declare a [`codequality` report artifact](../yaml/artifacts_reports.md#artifactsreportscodequality) that points to the location of the report file.
 
 You can also use or adapt the [Flake8 CI/CD component](https://gitlab.com/explore/catalog/components/code-quality-oss/codequality-os-scanners-integration) to run the scan and integrate its output with Code Quality.
 
 #### Pylint
 
 If you already have a [Pylint](https://pypi.org/project/pylint/) job in your CI/CD pipelines, you should add a report to send its output to Code Quality.
+
 To integrate its output:
 
 1. Install [`pylint-gitlab`](https://pypi.org/project/pylint-gitlab/) as a dependency in your project.
-1. Add the argument `--output-format=pylint_gitlab.GitlabCodeClimateReporter` to the command you use to run Pylint.
-1. Change your `pylint` command to send its output to a file.
-1. Declare a [`codequality` report artifact](../yaml/artifacts_reports.md#artifactsreportscodequality) that points to the location of the report file.
+2. Add the argument `--output-format=pylint_gitlab.GitlabCodeClimateReporter` to the command you use to run Pylint.
+3. Change your `pylint` command to send its output to a file.
+4. Declare a [`codequality` report artifact](../yaml/artifacts_reports.md#artifactsreportscodequality) that points to the location of the report file.
 
 You can also use or adapt the [Pylint CI/CD component](https://gitlab.com/explore/catalog/components/code-quality-oss/codequality-os-scanners-integration) to run the scan and integrate its output with Code Quality.
 
 #### Ruff
 
 If you already have a [Ruff](https://docs.astral.sh/ruff/) job in your CI/CD pipelines, you should add a report to send its output to Code Quality.
+
 To integrate its output:
 
 1. Add the argument `--output-format=gitlab` to the command you use to run Ruff.
-1. Change your `ruff check` command to send its output to a file.
-1. Declare a [`codequality` report artifact](../yaml/artifacts_reports.md#artifactsreportscodequality) that points to the location of the report file.
+2. Change your `ruff check` command to send its output to a file.
+3. Declare a [`codequality` report artifact](../yaml/artifacts_reports.md#artifactsreportscodequality) that points to the location of the report file.
 
 You can also use or adapt the [documented Ruff GitLab CI/CD integration](https://docs.astral.sh/ruff/integrations/#gitlab-cicd) to run the scan and integrate its output with Code Quality.
 
-#### golangci-lint
+#### Golangci-lint
 
 If you already have a [`golangci-lint`](https://golangci-lint.run/) job in your CI/CD pipelines, you should add a report to send its output to Code Quality.
+
 To integrate its output:
 
 1. Add the arguments to the command you use to run `golangci-lint`.
@@ -313,7 +346,7 @@ To integrate its output:
    - For v1 add `--out-format code-climate:gl-code-quality-report.json,line-number`.
    - For v2 add `--output.code-climate.path=gl-code-quality-report.json`.
 
-1. Declare a [`codequality` report artifact](../yaml/artifacts_reports.md#artifactsreportscodequality) that points to the location of the report file.
+2. Declare a [`codequality` report artifact](../yaml/artifacts_reports.md#artifactsreportscodequality) that points to the location of the report file.
 
 You can also use or adapt the [golangci-lint CI/CD component](https://gitlab.com/explore/catalog/components/code-quality-oss/codequality-os-scanners-integration) to run the scan and integrate its output with Code Quality.
 
@@ -341,35 +374,37 @@ Using [Roslynator](https://josefpihrt.github.io/docs/roslynator/) requires addit
 
 You can use or adapt the [Roslynator CI/CD component](https://gitlab.com/explore/catalog/components/code-quality-oss/codequality-os-scanners-integration) to run the scan and integrate its output with Code Quality.
 
-### Documentation scanning tools
+### Documentation Scanning Tools
 
 You can use Code Quality to scan any file stored in a repository, even if it isn't code.
 
 #### Vale
 
 If you already have a [Vale](https://vale.sh/) job in your CI/CD pipelines, you should add a report to send its output to Code Quality.
+
 To integrate its output:
 
 1. Create a Vale template file in your repository that defines the required format.
    - You can copy the open source [template used to check GitLab documentation](https://gitlab.com/gitlab-org/gitlab/-/blob/master/doc/.vale/vale-json.tmpl).
    - You can also use another open source variant like the one used in the community [`gitlab-ci-utils` Vale project](https://gitlab.com/gitlab-ci-utils/container-images/vale/-/blob/main/vale/vale-glcq.tmpl). This community project also provides [a pre-made container image](https://gitlab.com/gitlab-ci-utils/container-images/vale) that includes the same template so you can use it directly in your pipelines.
-1. Add the arguments `--output="$VALE_TEMPLATE_PATH" --no-exit` to the command you use to run Vale.
-1. Change your `vale` command to send its output to a file.
-1. Declare a [`codequality` report artifact](../yaml/artifacts_reports.md#artifactsreportscodequality) that points to the location of the report file.
+2. Add the arguments `--output="$VALE_TEMPLATE_PATH" --no-exit` to the command you use to run Vale.
+3. Change your `vale` command to send its output to a file.
+4. Declare a [`codequality` report artifact](../yaml/artifacts_reports.md#artifactsreportscodequality) that points to the location of the report file.
 
 You can also use or adapt an open source job definition to run the scan and integrate its output with Code Quality, for example:
 
 - The [Vale linting step](https://gitlab.com/gitlab-org/gitlab/-/blob/94f870b8e4b965a41dd2ad576d50f7eeb271f117/.gitlab/ci/docs.gitlab-ci.yml#L71-87) used to check GitLab documentation.
 - The community [`gitlab-ci-utils` Vale project](https://gitlab.com/gitlab-ci-utils/container-images/vale#usage).
 
-#### markdownlint-cli2
+#### Markdownlint-cli2
 
 If you already have a [markdownlint-cli2](https://github.com/DavidAnson/markdownlint-cli2) job in your CI/CD pipelines, you should add a report to send its output to Code Quality.
+
 To integrate its output:
 
 1. Add [`markdownlint-cli2-formatter-codequality`](https://www.npmjs.com/package/markdownlint-cli2-formatter-codequality) as a development dependency in your project.
-1. If you don't already have one, create a `.markdownlint-cli2.jsonc` file at the top level of your repository.
-1. Add an `outputFormatters` directive to `.markdownlint-cli2.jsonc`:
+2. If you don't already have one, create a `.markdownlint-cli2.jsonc` file at the top level of your repository.
+3. Add an `outputFormatters` directive to `.markdownlint-cli2.jsonc`:
 
    ```json
    {
@@ -379,7 +414,7 @@ To integrate its output:
    }
    ```
 
-1. Declare a [`codequality` report artifact](../yaml/artifacts_reports.md#artifactsreportscodequality) that points to the location of the report file.
+4. Declare a [`codequality` report artifact](../yaml/artifacts_reports.md#artifactsreportscodequality) that points to the location of the report file.
    By default, the report file is named `markdownlint-cli2-codequality.json`.
    1. Recommended. Add the report's filename to the repository's `.gitignore` file.
 

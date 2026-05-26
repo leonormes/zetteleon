@@ -1,6 +1,6 @@
 ---
 created: 2026-05-04T08:01:26+00:00
-modified: 2026-05-12T13:12:02+00:00
+modified: 2026-05-26T11:44:33+00:00
 title: "My main PKM problem is the continuity of thinking. "
 ---
 

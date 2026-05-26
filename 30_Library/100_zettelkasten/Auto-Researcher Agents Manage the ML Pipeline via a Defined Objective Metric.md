@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-04-19T18:30:44+00:00
+modified: 2026-05-26T11:44:36+00:00
 tags: [automl, machine-learning, optimisation, research-agents]
 title: Auto-Researcher Agents Manage the ML Pipeline via a Defined Objective Metric
 ---

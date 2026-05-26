@@ -1,9 +1,11 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:41+00:00
+description: Create, download, browse, and manage job artifacts in GitLab CI/CD.
 group: Pipeline Execution
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-description: Create, download, browse, and manage job artifacts in GitLab CI/CD.
-title: Job artifacts
+modified: 2026-05-26T11:44:05+00:00
+stage: Verify
+title: job_artifacts
 ---
 
 {{< details >}}
@@ -14,13 +16,17 @@ title: Job artifacts
 {{< /details >}}
 
 Jobs can output an archive of files and directories. This output is known as a job artifact.
+
 Artifacts can include build output or report files. By default, later jobs fetch a copy of
+
 all artifacts from jobs in earlier stages.
 
 For example, an early job can build a project and save the output as an artifact.
+
 Then a later job fetches the artifact and runs tests on the saved build output.
 
 For a full list of supported configuration for the `artifacts` keyword,
+
 see the [GitLab CI/CD YAML syntax reference](../yaml/_index.md#artifacts).
 
 Related topics:
@@ -28,7 +34,7 @@ Related topics:
 - [Job artifacts API](../../api/job_artifacts.md)
 - [Job artifacts administration](../../administration/cicd/job_artifacts.md)
 
-## Create job artifacts
+## Create Job Artifacts
 
 To create job artifacts, use the `artifacts` keyword in your `.gitlab-ci.yml` file:
 
@@ -41,14 +47,17 @@ pdf:
 ```
 
 In this example, a job named `pdf` calls the `xelatex` command to build a PDF file from the
+
 LaTeX source file, `mycv.tex`.
 
 The `paths` keyword determines which files to add to the job artifacts.
+
 All paths to files and directories are relative to the repository where the job was created.
 
-### With wildcards
+### With Wildcards
 
 You can use wildcards for paths and directories. For example, to create an artifact
+
 with all the files inside the directories that end with `xyz`:
 
 ```yaml
@@ -59,7 +68,7 @@ job:
       - path/*xyz/*
 ```
 
-### With an expiry
+### With an Expiry
 
 The `expire_in` keyword determines how long GitLab keeps the artifacts defined in `artifacts:paths`. For example:
 
@@ -72,15 +81,17 @@ pdf:
     expire_in: 1 week
 ```
 
-If `expire_in` is not defined, the [**Default artifacts expiration**](../../administration/settings/continuous_integration.md#set-default-artifacts-expiration)
+If `expire_in` is not defined, the [Default artifacts expiration](../../administration/settings/continuous_integration.md#set-default-artifacts-expiration)
+
 instance setting is used.
 
-To prevent artifacts from expiring, you can select **Keep** from the job details page.
+To prevent artifacts from expiring, you can select Keep from the job details page.
+
 The option is not available when an artifact has no expiry set.
 
 By default, artifacts are always kept for the most recent successful pipeline on each ref.
 
-### With an explicitly defined artifact name
+### With an Explicitly Defined Artifact name
 
 You can explicitly customize artifact names using the `artifacts:name` configuration:
 
@@ -92,11 +103,12 @@ job:
       - binaries/
 ```
 
-### Without excluded files
+### Without Excluded Files
 
 Use `artifacts:exclude` to prevent files from being added to an artifacts archive.
 
 For example, to store all files in `binaries/`, but not `*.o` files located in
+
 subdirectories of `binaries/`:
 
 ```yaml
@@ -104,10 +116,11 @@ artifacts:
   paths:
     - binaries/
   exclude:
-    - binaries/**/*.o
+    - binaries//*.o
 ```
 
 Unlike `artifacts:paths`, `exclude` paths are not recursive. To exclude all of the contents
+
 of a directory, match them explicitly rather than matching the directory itself.
 
 For example, to store all files in `binaries/` but nothing located in the `temp/` subdirectory:
@@ -117,13 +130,15 @@ artifacts:
   paths:
     - binaries/
   exclude:
-    - binaries/temp/**/*
+    - binaries/temp//*
 ```
 
-### With untracked files
+### With Untracked Files
 
 Use `artifacts:untracked` to add all Git untracked files as artifacts along with the paths
+
 defined in `artifacts:paths`. Untracked files are those that haven't been added to the
+
 repository but exist in the repository checkout.
 
 For example, to save all Git untracked files and files in `binaries`:
@@ -144,14 +159,16 @@ artifacts:
     - "*.txt"
 ```
 
-### With variable expansion
+### With Variable Expansion
 
 Variable expansion is supported for `artifacts:name`, `artifacts:paths`, and `artifacts:exclude`.
 
 Instead of using shell, GitLab Runner uses its internal variable expansion mechanism.
+
 Only CI/CD variables are supported in this context.
 
 For example, to create an archive using the current branch or tag name
+
 including only files from a directory named after the current project:
 
 ```yaml
@@ -163,21 +180,24 @@ job:
 ```
 
 When your branch name contains forward slashes (for example, `feature/my-feature`),
+
 use `$CI_COMMIT_REF_SLUG` instead of `$CI_COMMIT_REF_NAME` to ensure proper artifact naming.
 
 Variables are expanded before globs.
 
-## Fetching artifacts
+## Fetching Artifacts
 
 By default, jobs fetch all artifacts from jobs defined in previous stages. These artifacts
+
 are downloaded into the job's working directory.
 
 You can control which artifacts to download by using the `dependencies` or `needs:artifacts` keywords.
 
 When you use these keywords, the default behavior changes and artifacts are fetched from
+
 only the jobs you specify.
 
-### Prevent a job from fetching artifacts
+### Prevent a Job from Fetching Artifacts
 
 To prevent a job from downloading any artifacts, set `dependencies` to an empty array (`[]`):
 
@@ -188,7 +208,7 @@ job:
   dependencies: []
 ```
 
-## View all job artifacts in a project
+## View All Job Artifacts in a Project
 
 {{< history >}}
 
@@ -196,8 +216,10 @@ job:
 
 {{< /history >}}
 
-You can view all artifacts stored in a project from the **Build** > **Artifacts** page.
+You can view all artifacts stored in a project from the Build > Artifacts page.
+
 This list displays all jobs and their associated artifacts. Expand an entry to access
+
 all artifacts associated with a job, including:
 
 - Artifacts created with the `artifacts:` keyword.
@@ -206,27 +228,29 @@ all artifacts associated with a job, including:
 
 You can download or delete individual artifacts from this list.
 
-## Download job artifacts
+## Download Job Artifacts
 
 You can download job artifacts by using the GitLab UI or the API.
 
 From the GitLab UI, you can download job artifacts from:
 
-- Any **Pipelines** list. On the right of the pipeline, select **Download artifacts** ({{< icon name="download" >}}).
-- Any **Jobs** list. On the right of the job, select **Download artifacts** ({{< icon name="download" >}}).
-- A job's detail page. On the right of the page, select **Download**.
-- A merge request **Overview** page. On the right of the latest pipeline, select **Artifacts** ({{< icon name="download" >}}).
-- The **Artifacts** page. On the right of the job, select **Download** ({{< icon name="download" >}}).
-- The artifacts browser. On the top of the page, select **Download artifacts archive** ({{< icon name="download" >}}).
+- Any Pipelines list. On the right of the pipeline, select Download artifacts ({{< icon name="download" >}}).
+- Any Jobs list. On the right of the job, select Download artifacts ({{< icon name="download" >}}).
+- A job's detail page. On the right of the page, select Download.
+- A merge request Overview page. On the right of the latest pipeline, select Artifacts ({{< icon name="download" >}}).
+- The Artifacts page. On the right of the job, select Download ({{< icon name="download" >}}).
+- The artifacts browser. On the top of the page, select Download artifacts archive ({{< icon name="download" >}}).
 
-[Report artifacts](../yaml/artifacts_reports.md) can only be downloaded from the **Pipelines** list
-or **Artifacts** page.
+[Report artifacts](../yaml/artifacts_reports.md) can only be downloaded from the Pipelines list
+
+or Artifacts page.
 
 ### From a URL
 
 You can download the artifacts archive for a specific job with a publicly accessible URL.
 
 For example, to download the latest artifacts of a job named `build` in the `main` branch
+
 of a project on GitLab.com:
 
 ```plaintext
@@ -242,13 +266,16 @@ https://gitlab.com/api/v4/projects/<project-id>/jobs/artifacts/main/raw/review/i
 Files returned by this endpoint always have the `plain/text` content type.
 
 In both examples, replace `<project-id>` with a valid project ID. You can find the project ID
+
 on the [project overview page](../../user/project/working_with_projects.md#find-the-project-id).
 
 Artifacts for parent and child pipelines are searched in hierarchical order from parent to child.
+
 For example, if both parent and child pipelines have a job with the same name, the job artifacts
+
 from the parent pipeline are returned.
 
-### With a CI/CD job token
+### With a CI/CD Job Token
 
 {{< details >}}
 
@@ -258,7 +285,9 @@ from the parent pipeline are returned.
 {{< /details >}}
 
 You can use a CI/CD job token to authenticate with the jobs artifacts API endpoint
+
 and fetch artifacts from a different pipeline. You must specify which job to retrieve
+
 artifacts from, for example:
 
 ```yaml
@@ -274,7 +303,7 @@ build_submodule:
 
 To fetch artifacts from a job in the same pipeline, use the `needs:artifacts` keyword.
 
-### Control who can download artifacts
+### Control Who Can Download Artifacts
 
 To restrict who can download job artifacts, use the `artifacts:access` keyword in your `.gitlab-ci.yml` file. For example:
 
@@ -286,17 +315,20 @@ job:
       - build/
 ```
 
-## Browse the contents of the artifacts archive
+## Browse the Contents of the Artifacts Archive
 
 You can browse the contents of the artifacts from the UI without downloading the artifact locally,
+
 from:
 
-- Any **Jobs** list. On the right of the job, select **Browse** ({{< icon name="folder-open" >}}).
-- A job's detail page. On the right of the page, select **Browse**.
-- The **Artifacts** page. On the right of the job, select **Browse** ({{< icon name="folder-open" >}}).
+- Any Jobs list. On the right of the job, select Browse ({{< icon name="folder-open" >}}).
+- A job's detail page. On the right of the page, select Browse.
+- The Artifacts page. On the right of the job, select Browse ({{< icon name="folder-open" >}}).
 
 If GitLab Pages is enabled globally, even if it is disabled in the project settings,
+
 you can preview some artifacts file extensions directly in your browser. If the project
+
 is internal or private, you must enable GitLab Pages access control to enable the preview.
 
 The following extensions are supported:
@@ -312,9 +344,11 @@ The following extensions are supported:
 ### From a URL
 
 You can browse the job artifacts of the latest successful pipeline for a specific job
+
 with a publicly accessible URL.
 
 For example, to browse the latest artifacts of a job named `build` in the `main` branch
+
 of a project on GitLab.com:
 
 ```plaintext
@@ -323,7 +357,7 @@ https://gitlab.com/<full-project-path>/-/jobs/artifacts/main/browse?job=build
 
 Replace `<full-project-path>` with a valid project path, you can find it in the URL for your project.
 
-## Delete job log and artifacts
+## Delete Job Log and Artifacts
 
 > [!warning]
 > Deleting the job log and artifacts is a destructive action that cannot be reverted. Use with caution.
@@ -339,11 +373,11 @@ Prerequisites:
 To delete a job:
 
 1. Go to a job's detail page.
-1. In the upper-right corner of the job's log, select **Erase job log and artifacts** ({{< icon name="remove" >}}).
+2. In the upper-right corner of the job's log, select Erase job log and artifacts ({{< icon name="remove" >}}).
 
-You can also delete individual artifacts from the **Artifacts** page.
+You can also delete individual artifacts from the Artifacts page.
 
-### Bulk delete artifacts
+### Bulk Delete Artifacts
 
 {{< history >}}
 
@@ -354,12 +388,12 @@ You can also delete individual artifacts from the **Artifacts** page.
 
 You can delete multiple artifacts at the same time:
 
-1. In the top bar, select **Search or go to** and find your project.
-1. In the left sidebar, select **Build** > **Artifacts**.
-1. Select the checkboxes next to the artifacts you want to delete. You can select up to 100 artifacts.
-1. Select **Delete selected**.
+1. In the top bar, select Search or go to and find your project.
+2. In the left sidebar, select Build > Artifacts.
+3. Select the checkboxes next to the artifacts you want to delete. You can select up to 100 artifacts.
+4. Select Delete selected.
 
-## Link to job artifacts in the merge request UI
+## Link to Job Artifacts in the Merge Request UI
 
 Use the `artifacts:expose_as` keyword to provide direct access to artifacts from the merge request UI.
 
@@ -373,11 +407,11 @@ test:
     paths: ['file.txt']
 ```
 
-With this configuration, the **View exposed artifact** section displays a link to `file.txt` labeled **artifact 1**.
+With this configuration, the View exposed artifact section displays a link to `file.txt` labeled artifact 1.
 
 ![A merge request widget that links to exposed artifacts.](img/mr_artifact_expose_v18_4.png)
 
-## Keep artifacts from most recent successful jobs
+## Keep Artifacts from Most Recent Successful Jobs
 
 {{< history >}}
 
@@ -386,37 +420,47 @@ With this configuration, the **View exposed artifact** section displays a link t
 {{< /history >}}
 
 By default, artifacts are always kept for the most recent successful pipeline on each ref.
+
 Any `expire_in` configuration does not apply to the most recent artifacts.
 
 When a new pipeline on the same ref completes successfully, the previous pipeline's artifacts
+
 are deleted according to the `expire_in` configuration. The artifacts of the new pipeline
+
 are kept automatically.
 
 A pipeline's artifacts are only deleted according to the `expire_in` configuration if a
+
 new pipeline runs for the same ref and:
 
 - Succeeds.
 - Stops running due to being blocked by a manual job.
 
 Keeping the latest artifacts can use a large amount of storage space in projects
+
 with a lot of jobs or large artifacts. If the latest artifacts are not needed in
+
 a project, you can disable this behavior to save space:
 
-1. In the top bar, select **Search or go to** and find your project.
-1. In the left sidebar, select **Settings** > **CI/CD**.
-1. Expand **Artifacts**.
-1. Clear the **Keep artifacts from most recent successful jobs** checkbox.
+1. In the top bar, select Search or go to and find your project.
+2. In the left sidebar, select Settings > CI/CD.
+3. Expand Artifacts.
+4. Clear the Keep artifacts from most recent successful jobs checkbox.
 
 After disabling this setting, all new artifacts expire according to the `expire_in` configuration.
+
 Artifacts in old pipelines continue to be kept until a new pipeline runs for the same ref.
+
 Then the artifacts in the earlier pipeline for that ref are allowed to expire too.
 
 You can disable this behavior for all projects on GitLab Self-Managed with the
-[**Keep artifacts from latest successful pipelines**](../../administration/settings/continuous_integration.md#keep-artifacts-from-latest-successful-pipelines) instance setting.
+
+[Keep artifacts from latest successful pipelines](../../administration/settings/continuous_integration.md#keep-artifacts-from-latest-successful-pipelines) instance setting.
 
 You can disable this behavior for all projects on GitLab Self-Managed in the
+
 [instance's CI/CD settings](../../administration/settings/continuous_integration.md#keep-artifacts-from-latest-successful-pipelines).
 
-## Related topics
+## Related Topics
 
 - [Pass environment variables between jobs with dotenv report artifacts](../variables/dotenv_variables.md)

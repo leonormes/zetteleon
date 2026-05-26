@@ -2,7 +2,7 @@
 created: 2026-04-13T14:53:30+00:00
 created_utc: "2026-04-13T11:40:00Z"
 kind: heuristic
-modified: 2026-04-19T18:30:42+00:00
+modified: 2026-05-26T11:44:35+00:00
 source_title: "Using Karpathy’s Original Framework (Auto Research)"
 source_url: "http://www.youtube.com/watch?v=bc4NrE0cOE0"
 status: seed

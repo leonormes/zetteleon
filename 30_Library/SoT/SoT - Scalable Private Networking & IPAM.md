@@ -2,7 +2,7 @@
 aliases: ["BGP Hub and Spoke Architecture", "Private IPAM Strategy", "Scalable Network Connectivity"]
 created: 2026-02-11T08:15:00Z
 last-synthesis: 2026-02-11
-modified: 2026-02-15T10:23:13+00:00
+modified: 2026-05-26T11:44:17+00:00
 source_of_truth: true
 status: evergreen
 synthesis-count: 1
@@ -76,6 +76,6 @@ Both domains are about making composition safe when the final system shape is un
 - rel:: broader [[SoT - Cloud Networking Principles]]
 - rel:: supports [[Strategy - Hierarchical Subnetting]]
 - rel:: practical-reference [[Cheatsheet - Azure AKS Networking]]
-- rel:: **mechanism-isomorphism** [[Primes Become Rarer But Remain Searchable]] — prime distribution follows 1/ln(N) density law; IPAM sparse allocation could model optimal gap sizing on Prime Number Theorem. Both use multiplicative structure (prime factorisation / CIDR hierarchy) to guarantee uniqueness across infinite spaces.
-- rel:: **error-term-analogy** [[HEAD What is the Riemann Hypothesis]] — Riemann zeros describe prime distribution fluctuations; IPAM surge buffers describe IP consumption variance. Both are uncertainty management in sparse systems.
-- rel:: [[Connection - Prime Distribution ↔ IPAM Sparse Allocation]] — detailed cross-domain analysis
+- rel:: mechanism-isomorphism [[Primes Become Rarer But Remain Searchable]]—prime distribution follows 1/ln(N) density law; IPAM sparse allocation could model optimal gap sizing on Prime Number Theorem. Both use multiplicative structure (prime factorisation / CIDR hierarchy) to guarantee uniqueness across infinite spaces.
+- rel:: error-term-analogy [[HEAD What is the Riemann Hypothesis]]—Riemann zeros describe prime distribution fluctuations; IPAM surge buffers describe IP consumption variance. Both are uncertainty management in sparse systems.
+- rel:: [[Connection - Prime Distribution ↔ IPAM Sparse Allocation]]—detailed cross-domain analysis

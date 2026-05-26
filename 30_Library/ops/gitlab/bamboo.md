@@ -1,8 +1,10 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:40+00:00
 group: Pipeline Execution
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-title: Migrate from Bamboo
+modified: 2026-05-26T11:44:14+00:00
+stage: Verify
+title: bamboo
 ---
 
 {{< details >}}
@@ -13,9 +15,10 @@ title: Migrate from Bamboo
 {{< /details >}}
 
 You can migrate from Atlassian Bamboo to GitLab CI/CD by converting Bamboo Specs YAML
+
 configurations exported from the Bamboo UI or stored in Spec repositories.
 
-## Key migration considerations
+## Key Migration Considerations
 
 | Configuration aspect  | Bamboo                             | GitLab CI/CD                         | Migration tasks |
 | --------------------- | ---------------------------------- | ------------------------------------ | --------------- |
@@ -25,9 +28,9 @@ configurations exported from the Bamboo UI or stored in Spec repositories.
 | Artifact sharing      | Named artifacts with subscriptions | Automatic inheritance between stages | Simplify artifact configuration |
 | Deployments           | Separate deployment projects       | Deployment jobs with environments    | Combine build and deploy in single pipeline |
 
-## Configuration examples
+## Configuration Examples
 
-### Bamboo Specs export
+### Bamboo Specs Export
 
 The following examples show a Bamboo Specs YAML export from the UI and its GitLab CI/CD equivalent.
 
@@ -36,11 +39,15 @@ The following examples show a Bamboo Specs YAML export from the UI and its GitLa
 {{< tab title="Bamboo" >}}
 
 Bamboo organizes builds through a nested hierarchy where projects contain multiple plans,
+
 plans define stages and jobs, and jobs execute individual tasks.
+
 Projects serve as containers for shared resources like variables, credentials,
+
 and repository connections that multiple plans can access.
 
 Bamboo Specs exports from the UI include this complete hierarchy plus administrative metadata like permissions,
+
 notifications, and project settings.
 
 When reviewing your export, focus on these migration-critical elements:
@@ -149,15 +156,18 @@ job1:
 
 {{< /tabs >}}
 
-### Jobs and tasks
+### Jobs and Tasks
 
 In both GitLab and Bamboo, jobs in the same stage run in parallel, except where there is
+
 a dependency that needs to be met before a job runs.
 
 The number of jobs that can run in Bamboo depends on availability of Bamboo agents
+
 and Bamboo license size.
 
 With GitLab CI/CD, the number of parallel jobs depends on the number
+
 of runners integrated with the GitLab instance and the concurrency set in the runners.
 
 {{< tabs >}}
@@ -165,7 +175,9 @@ of runners integrated with the GitLab instance and the concurrency set in the ru
 {{< tab title="Bamboo" >}}
 
 In Bamboo, jobs are composed of tasks, which can be a set of commands run as a script
+
 or predefined tasks like source code checkout, artifact download, and other tasks available
+
 in the Atlassian tasks marketplace.
 
 ```yaml
@@ -195,7 +207,9 @@ other:
 {{< tab title="GitLab CI/CD" >}}
 
 The equivalent of tasks in GitLab is the `script`, which specifies the commands
+
 for the runner to execute. You can use CI/CD templates and CI/CD components to compose
+
 your pipelines without the need to write everything yourself.
 
 ```yaml
@@ -213,7 +227,7 @@ job2:
 
 {{< /tabs >}}
 
-### Container images
+### Container Images
 
 The following examples show how the Bamboo `docker` keyword translates to the GitLab `image` keyword.
 
@@ -222,6 +236,7 @@ The following examples show how the Bamboo `docker` keyword translates to the Gi
 {{< tab title="Bamboo" >}}
 
 Builds and deployments run by default on the Bamboo agent's native operating system,
+
 but can be configured to run in containers using the `docker` keyword.
 
 ```yaml
@@ -280,6 +295,7 @@ The following examples show the syntax differences for defining and accessing va
 {{< tab title="Bamboo" >}}
 
 Bamboo has different variable types with different access patterns.
+
 System variables use `${system.variableName}` and other variables use `${bamboo.variableName}`.
 
 In script tasks, dots are converted to underscores. For example, `${bamboo.variableName}` becomes `$bamboo_variableName`.
@@ -299,7 +315,9 @@ Default job:
 {{< tab title="GitLab CI/CD" >}}
 
 In GitLab CI/CD, variables are accessed like regular Shell script variables using `$VARIABLE_NAME`.
+
 Like system and global variables in Bamboo, GitLab has predefined CI/CD variables that are
+
 available to every job.
 
 ```yaml
@@ -317,7 +335,7 @@ job1:
 
 {{< /tabs >}}
 
-### Conditions and triggers
+### Conditions and Triggers
 
 These examples show how Bamboo conditions and triggers convert to GitLab rules.
 
@@ -326,7 +344,9 @@ These examples show how Bamboo conditions and triggers convert to GitLab rules.
 {{< tab title="Bamboo" >}}
 
 Bamboo has various options for triggering builds, which can be based on code changes, a schedule,
+
 the outcomes of other plans, or on demand. A plan can be configured to periodically poll
+
 a project for new changes.
 
 ```yaml
@@ -349,6 +369,7 @@ triggers:
 {{< tab title="GitLab CI/CD" >}}
 
 GitLab CI/CD pipelines are triggered based on code changes, schedules, or API calls.
+
 Pipelines do not use polling.
 
 ```yaml
@@ -360,7 +381,7 @@ job:
 workflow:
   rules:
     - changes:
-        - .gitlab/**/**.md
+        - .gitlab//.md
       when: never
 ```
 
@@ -377,9 +398,11 @@ You can define job artifacts using the `artifacts` keyword in both GitLab and Ba
 {{< tab title="Bamboo" >}}
 
 In Bamboo, artifacts are defined with a name, location, and pattern. You can share the artifacts
+
 with other jobs and plans or define jobs that subscribe to the artifact.
 
 `artifact-subscriptions` is used to access artifacts from another job in the same plan,
+
 and `artifact-download` is used to access artifacts from jobs in a different plan.
 
 ```yaml
@@ -445,6 +468,7 @@ In this example:
 ### Caching
 
 In Bamboo, Git caches can be used to speed up builds. Git caches are configured in Bamboo
+
 administration settings and are stored either on the Bamboo server or remote agents.
 
 GitLab supports both Git caches and job cache. Caches are defined for each job using the `cache` keyword:
@@ -479,7 +503,9 @@ The following examples show how to convert Bamboo deployment projects to GitLab 
 {{< tab title="Bamboo" >}}
 
 Bamboo has deployment projects, which link to build plans to track, fetch, and deploy artifacts
+
 to deployment environments. When creating a project you link it to a build plan, specify
+
 the deployment environment and the tasks to perform the deployments.
 
 ```yaml
@@ -515,6 +541,7 @@ deploy-to-production:
 ```
 
 To create a release instead, use the `release` keyword with the `glab` CLI tool to create
+
 releases for Git tags:
 
 ```yaml
@@ -535,12 +562,14 @@ release_job:
 
 {{< /tabs >}}
 
-## Security scanning
+## Security Scanning
 
 Bamboo relies on third-party tasks provided in the Atlassian Marketplace to run security scans.
 
 GitLab provides security scanners to detect vulnerabilities in all parts of the SDLC.
+
 You can add these scanners in GitLab using templates, for example to add SAST scanning
+
 to your pipeline:
 
 ```yaml
@@ -550,20 +579,26 @@ include:
 
 You can customize the behavior of security scanners by using CI/CD variables.
 
-## Secrets management
+## Secrets Management
 
 Secrets management in Bamboo is handled using shared credentials, or with third-party applications
+
 from the Atlassian marketplace.
 
 For secrets management in GitLab, you can use supported integrations for external services.
+
 These services securely store secrets outside of your GitLab project, though you must have
+
 a subscription for the service.
 
 GitLab also supports OIDC authentication for other third-party services that support OIDC.
 
 Additionally, you can make credentials available to jobs by storing them in CI/CD variables,
+
 though secrets stored in plain text are susceptible to accidental exposure.
+
 You should always store sensitive information in masked and protected variables,
+
 which mitigates some of the risk.
 
 > [!note]
@@ -571,7 +606,7 @@ which mitigates some of the risk.
 > users with access to the project. Storing sensitive information in variables should
 > only be done in the project, group, or instance settings.
 
-## Create a migration plan
+## Create a Migration Plan
 
 Before starting your migration, create a [migration plan](plan_a_migration.md) and answer these questions:
 
@@ -597,29 +632,29 @@ To migrate from Bamboo:
    - Document software versions installed on each Bamboo agent.
    - Identify all shared credentials and their usage.
 
-1. Migrate your source code repositories to GitLab:
+2. Migrate your source code repositories to GitLab:
    - Use the available [importers](../../user/import/_index.md) to automate mass imports
      from external SCM providers.
    - [Import repositories by URL](../../user/import/third_party_systems/repo_by_url.md) for individual repositories.
 
-1. Set up GitLab runners with equivalent software:
+3. Set up GitLab runners with equivalent software:
    - Install the same software versions that exist on your Bamboo agents.
    - For complex agent setups, create custom Docker images with your required tools.
    - Test that runners can execute your build commands successfully.
 
-1. Convert Bamboo Specs to `.gitlab-ci.yml` files:
+4. Convert Bamboo Specs to `.gitlab-ci.yml` files:
    - Replace Bamboo plan structure with GitLab stages and jobs.
    - Convert `${bamboo.variableName}` syntax to `$VARIABLE_NAME`.
    - Replace Bamboo-specific variables like `${bamboo.planKey}` with GitLab equivalents
      like `$CI_PIPELINE_ID`.
    - Remove Bamboo checkout tasks. GitLab automatically checks out your source code at the start of each job.
 
-1. Migrate artifact handling:
+5. Migrate artifact handling:
    - Remove Bamboo `artifact-subscriptions` and `artifact-download` configurations.
    - Use automatic artifact inheritance between stages.
    - Update artifact paths to match your GitLab job structure.
 
-1. Convert Bamboo deployment projects:
+6. Convert Bamboo deployment projects:
    - Move deployment tasks from separate Bamboo deployment projects into your main
      `.gitlab-ci.yml` file.
    - Replace Bamboo environments with GitLab [environments](../environments/_index.md).
@@ -627,16 +662,16 @@ To migrate from Bamboo:
    - Configure the [GitLab agent for Kubernetes](../../user/clusters/agent/_index.md)
      if deploying to Kubernetes.
 
-1. Migrate secrets and credentials:
+7. Migrate secrets and credentials:
    - Use [external secrets integrations](../secrets/_index.md) or store credentials as masked
      and protected CI/CD variables.
 
-1. Test and optimize your migrated pipelines:
+8. Test and optimize your migrated pipelines:
    - Run test pipelines to verify functionality.
    - Add merge request integration to display pipeline results.
    - Optimize pipeline performance and create reusable templates.
 
-## Related topics
+## Related Topics
 
 - [Getting started guide](_index.md)
 - [CI/CD YAML syntax reference](../yaml/_index.md)

@@ -3,7 +3,7 @@ aliases: []
 created: 2025-02-07T12:57:55Z
 ID: "19a"
 last_reviewed: "null"
-modified: 2026-04-19T18:30:29+00:00
+modified: 2026-05-26T11:44:22+00:00
 status: "stable"
 tags: ["abstraction", "representation", "topic/pkm/zettelkasten", "topic/systems"]
 title: MOC - Interpretation of References

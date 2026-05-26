@@ -2,7 +2,7 @@
 aliases: ["ADHD Heterogeneity", "Unique Symptom Patterns"]
 created: 2025-10-30T12:07:04Z
 last_reviewed: "null"
-modified: 2026-04-19T18:30:44+00:00
+modified: 2026-05-26T11:44:37+00:00
 source: "[[MOC - ADHD (The Master Map)]]"
 status: "seedling"
 tags: ["heterogeneity", "TheHuman/Health/ADHD", "TheHuman/Neuroscience"]

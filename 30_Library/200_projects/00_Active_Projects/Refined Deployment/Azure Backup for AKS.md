@@ -1,6 +1,6 @@
 ---
 created: 2026-04-30T07:33:45+00:00
-modified: 2026-04-30T07:58:49+00:00
+modified: 2026-05-26T11:44:30+00:00
 title: Azure Backup for AKS
 ---
 
@@ -199,6 +199,7 @@ We created:
 9. the AKS backup instance itself
 
 Why:
+
 To make AKS backups work privately, with no public storage path, while protecting the selected namespaces, secrets, cluster-scoped resources, and Azure Disk-backed persistent volumes—and to turn that validated manual sequence into the basis for FTFL-596 / FTFL-599 / FTFL-615 Terraform and runbook updates.
 
 If you want, I can turn this into a Jira-ready "components created / rationale / next IaC actions" comment next.

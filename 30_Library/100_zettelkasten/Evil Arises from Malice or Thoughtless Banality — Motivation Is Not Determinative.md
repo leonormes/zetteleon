@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-04-19T18:30:42+00:00
+modified: 2026-05-26T11:44:35+00:00
 tags: [ethics, hannah-arendt, motivation, psychology]
 title: Evil Arises from Malice or Thoughtless Banality — Motivation Is Not Determinative
 ---

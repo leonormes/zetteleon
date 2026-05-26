@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T12:00:00+00:00
-modified: 2026-04-19T18:30:42+00:00
+modified: 2026-05-26T11:44:35+00:00
 tags: [autonomous-agents, loops, optimization, protocol]
 title: Heartbeat Intervention Protocol
 ---

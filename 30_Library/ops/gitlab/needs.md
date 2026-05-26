@@ -1,8 +1,10 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:41+00:00
 group: Pipeline Authoring
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-title: Make jobs start earlier with `needs`
+modified: 2026-05-26T11:44:02+00:00
+stage: Verify
+title: needs
 ---
 
 {{< details >}}
@@ -13,7 +15,9 @@ title: Make jobs start earlier with `needs`
 {{< /details >}}
 
 Use the [`needs`](_index.md#needs) keyword to specify job dependencies in your pipeline.
+
 Jobs start as soon as their dependencies finish without waiting for pipeline stages to complete.
+
 This lets you run jobs earlier and avoid unnecessary waiting.
 
 Use cases:
@@ -27,27 +31,34 @@ Use cases:
 > Use [`needs: project`](_index.md#needsproject) to fetch artifacts from other pipelines.
 > Use [`needs: pipeline`](_index.md#needspipeline) to mirror the pipeline status from an upstream pipeline.
 
-## How `needs` works
+## How `needs` Works
 
 By default, jobs run in stages. All jobs in a stage must finish successfully before
+
 any job in a later stage can start. For example, with the default `build`, `test`, and `deploy` stages,
+
 all jobs in `build` must run and finish before any job in `test` can start.
 
 With `needs`, you list specific jobs a job depends on. The job starts immediately after
+
 those dependencies finish, even if other jobs in earlier stages are still running.
+
 This creates a pipeline with a kind of [directed acyclic graph (DAG)](https://en.wikipedia.org/wiki/Directed_acyclic_graph) structure.
 
 You can mix staged jobs and jobs with `needs` dependencies in the same pipeline.
 
 Additionally, you can use `needs: []` to set a job to run immediately without waiting for
+
 earlier jobs or stages to finish. It's common to run lint jobs or scanners immediately
+
 when they can run on the source code and do not depend on build results.
 
-## `needs` compared to staged jobs
+## `needs` Compared to Staged Jobs
 
 To demonstrate the benefits of `needs`, we can compare two pipelines with six jobs.
 
 This pipeline has the six jobs organized in stages. Without `needs`, all jobs in a stage must finish
+
 before the next stage starts, even if some jobs are independent:
 
 ```mermaid
@@ -98,10 +109,13 @@ deploy_app_B:
 ```
 
 In this example, no test or deploy jobs run until all jobs in the `build` stage complete.
+
 If the B jobs take a long time to run, the A test and deploy jobs could be delayed while
+
 waiting for B jobs to complete.
 
 With `needs`, you can define two independent execution paths. Each job depends only on the jobs it actually needs,
+
 allowing parallel execution across the two paths:
 
 ```mermaid
@@ -161,23 +175,26 @@ deploy_app_B:
 ```
 
 In this example, `test_app_A` runs as soon as `build_app_A` completes successfully,
+
 even if `build_app_B` is still running. Similarly, `deploy_app_A` could run and deploy
+
 before `build_app_B` completes.
 
-### View dependencies between jobs
+### View Dependencies between Jobs
 
 You can view the dependencies between jobs on the pipeline graph.
 
 To enable this view, from the pipeline details page:
 
-- Select **Job dependencies**.
-- Optional. Toggle **Show dependencies** to display lines that show which jobs are linked together.
+- Select Job dependencies.
+- Optional. Toggle Show dependencies to display lines that show which jobs are linked together.
 
 ![A pipeline graph showing 5 jobs and their dependencies](img/needs_dependency_view_v18_11.png)
 
-## `needs` examples
+## `needs` Examples
 
 Use `needs` to create dependencies between jobs and reduce the amount of time jobs are waiting to start.
+
 Patterns can include fan-out, fan-in, and diamond dependencies.
 
 ### Fan-out
@@ -283,9 +300,10 @@ deploy:
   script: echo "Deploying..."
 ```
 
-### Diamond dependency
+### Diamond Dependency
 
 To create a diamond dependency graph, combine fan-out and fan-in. One job fans out to multiple jobs,
+
 which then fan back in to a single job. For example:
 
 ```mermaid
@@ -341,10 +359,12 @@ deploy:
   script: echo "Deploying..."
 ```
 
-### Immediate start
+### Immediate Start
 
 Use `needs: []` to set a job to start immediately when the pipeline is created, without
+
 waiting for other jobs or stages. Use this for linting or scanning tools that can run immediately
+
 but should appear in a later stage, like `test`.
 
 For example:
@@ -379,7 +399,9 @@ deploy_app:
 ```
 
 In this example, `lint_yaml` and `lint_code` start immediately with `needs: []`, without waiting for `build_app`
+
 or the `test` stage to finish. `deploy_app` does not use `needs`, so it waits for all jobs
+
 in earlier stages to finish before starting.
 
 The pipeline view shows the jobs grouped in stages:
@@ -416,9 +438,10 @@ graph LR
   test_app --> deploy_app["deploy_app"]
 ```
 
-## Stageless pipelines
+## Stageless Pipelines
 
 You can omit the `stage` and `stages` keywords and use only `needs` to define job order.
+
 All jobs without a `stage` keyword run in the default `test` stage:
 
 ```yaml
@@ -438,12 +461,14 @@ package:
   script: echo "Packaging..."
 ```
 
-To view the structure of this pipeline, [select **Job dependencies**](#view-dependencies-between-jobs)
+To view the structure of this pipeline, [select Job dependencies](#view-dependencies-between-jobs)
+
 from the pipeline details page. If you use the default view, all jobs are grouped together in the `test` stage.
 
-## Optional dependencies
+## Optional Dependencies
 
 Use `optional: true` in `needs` to depend on a job only if it exists in the pipeline.
+
 Use this option to handle jobs that may or may not run when combining `needs` with [`rules`](_index.md#rules).
 
 For example:
@@ -489,11 +514,13 @@ In this example:
     and `test_optional` to finish.
 
 Without `optional: true`, pipeline creation fails because the `deploy` job
+
 expects `test_optional`, but it doesn't exist in the pipeline.
 
 ## Combine `needs` with `parallel:matrix`
 
 The `needs` keyword works with `parallel:matrix` to
+
 [define dependencies that point to parallelized jobs](../jobs/job_control.md#specify-needs-between-parallelized-jobs).
 
 ## Troubleshooting
@@ -509,6 +536,7 @@ sometimes does not exist in the pipeline, use needs:optional.
 ```
 
 This error is caused by one job with `needs` set to another job that does not exist in the pipeline.
+
 To fix this issue, you must either:
 
 - Add [`optional: true`](#optional-dependencies) to the job dependency so that the

@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-30T12:04:06Z
 last_reviewed: ""
-modified: 2026-04-19T18:30:43+00:00
+modified: 2026-05-26T11:44:35+00:00
 status: "stable"
 tags: ["discipline", "TheHuman/Habits", "TheHuman/Identity", "TheHuman/Mindset"]
 title: Disciplined Choices are Votes for Your Future Self

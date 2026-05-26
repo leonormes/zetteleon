@@ -1,9 +1,11 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:42+00:00
+description: Deploy a GitLab project to Heroku by using GitLab CI/CD.
 group: Runner Core
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-description: Deploy a GitLab project to Heroku by using GitLab CI/CD.
-title: Use GitLab CI/CD to deploy to Heroku
+modified: 2026-05-26T11:44:07+00:00
+stage: Verify
+title: heroku
 ---
 
 {{< details >}}
@@ -24,11 +26,11 @@ You can deploy an application to Heroku by using GitLab CI/CD.
 
 1. In Heroku:
    1. Create an application and copy the application name.
-   1. Browse to **Account Settings** and copy the API key.
-1. In your GitLab project, create two [variables](../variables/_index.md):
+   2. Browse to Account Settings and copy the API key.
+2. In your GitLab project, create two [variables](../variables/_index.md):
    - `HEROKU_APP_NAME` for the application name.
    - `HEROKU_PRODUCTION_KEY` for the API key
-1. Edit your `.gitlab-ci.yml` file to add the Heroku deployment command. This example uses the `dpl` gem for Ruby:
+3. Edit your `.gitlab-ci.yml` file to add the Heroku deployment command. This example uses the `dpl` gem for Ruby:
 
    ```yaml
    heroku_deploy:

@@ -1,22 +1,23 @@
 ---
-title: Pieces LTM — Zsh Edit Command Line Response (2026-05-21)
 created: 2026-05-21T13:12:28+00:00
-source: pieces-ltm
+modified: 2026-05-26T11:43:32+00:00
 pieces_ids: [5c936938-42de-45e9-9566-df1888aa2567]
-tags: [raw, pieces]
+source: pieces-ltm
+tags: [pieces, raw]
+title: 2026-05-21-pieces-zsh-edit-command-line-response
 ---
 
-## Asset 1 (Pieces: 5c936938-42de-45e9-9566-df1888aa2567) — 13:12:28
+## Asset 1 (Pieces: 5c936938-42de-45e9-9566-df1888aa2567)—13:12:28
 
 I have everything I need. Here's the full picture and the Hermes prompt.
 
 ---
 
-## Opening a zsh command in Vim to edit it: `vared` + `edit-command-line`
+## Opening a Zsh Command in Vim to Edit It: `vared` + `edit-command-line`
 
-The native zsh mechanism is **`edit-command-line`** — a ZLE widget that opens the current command buffer in your `$VISUAL` / `$EDITOR`. You bind it to a key, and pressing it mid-command fires up vim (or nvim) with the full command, saves, and drops you back at the prompt ready to execute.
+The native zsh mechanism is `edit-command-line`—a ZLE widget that opens the current command buffer in your `$VISUAL` / `$EDITOR`. You bind it to a key, and pressing it mid-command fires up vim (or nvim) with the full command, saves, and drops you back at the prompt ready to execute.
 
-### How it works
+### How it Works
 
 ```zsh
 autoload -Uz edit-command-line
@@ -26,13 +27,13 @@ bindkey '^X^E' edit-command-line   # Ctrl-X Ctrl-E, same as bash
 bindkey -M vicmd 'v' edit-command-line
 ```
 
-After pressing the key, your command opens in the editor defined by `$VISUAL` (or `$EDITOR`). Since your `v` alias points to `nvim`, you want to make sure the env var is set correctly — `VISUAL=nvim` or `VISUAL=vim`.
+After pressing the key, your command opens in the editor defined by `$VISUAL` (or `$EDITOR`). Since your `v` alias points to `nvim`, you want to make sure the env var is set correctly—`VISUAL=nvim` or `VISUAL=vim`.
 
-> **Note:** You already have `jeffreytse/zsh-vi-mode` loaded via Zinit with `ZVM_INIT_MODE=sourcing`. `zsh-vi-mode` overrides ZLE keymaps after initialisation, so the binding must be registered in `zvm_after_init_commands` or the `ZVM_AFTER_INIT` hook — otherwise `zvm` will clobber it.
+> Note: You already have `jeffreytse/zsh-vi-mode` loaded via Zinit with `ZVM_INIT_MODE=sourcing`. `zsh-vi-mode` overrides ZLE keymaps after initialisation, so the binding must be registered in `zvm_after_init_commands` or the `ZVM_AFTER_INIT` hook—otherwise `zvm` will clobber it.
 
 ---
 
-## Hermes prompt
+## Hermes Prompt
 
 Paste this into a new Hermes session with your chezmoi repo as the working directory:
 
@@ -64,7 +65,9 @@ Run `chezmoi apply` then test with:
 exec zsh
 # Type a long command, press Esc, press v — should open nvim
 ```
+
 If `zsh-vi-mode` overrides the binding (symptom: pressing `v` doesn't open nvim), add the binding inside a `zvm_after_init_commands` block in `10-core.zsh`:
+
 ```zsh
 zvm_after_init_commands+=(
   'autoload -Uz edit-command-line; zle -N edit-command-line; bindkey -M vicmd v edit-command-line; bindkey "^X^E" edit-command-line'
@@ -73,7 +76,7 @@ zvm_after_init_commands+=(
 
 ---
 
-### What the change to `10-core.zsh` should look like
+### What the Change to `10-core.zsh` Should Look like
 
 For reference, the block Hermes will add looks like this:
 

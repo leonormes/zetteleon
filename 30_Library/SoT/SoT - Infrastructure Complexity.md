@@ -1,7 +1,7 @@
 ---
 created: 2026-02-06T14:30:00Z
 last-synthesis: 2026-04-05
-modified: 2026-04-25T20:16:52+00:00
+modified: 2026-05-26T11:44:19+00:00
 source_of_truth: true
 status: evergreen
 synthesis_count: 3
@@ -11,7 +11,6 @@ trust-level: stable
 ---
 
 ## Minimum Viable Understanding (MVU)
-
 
 ---
 

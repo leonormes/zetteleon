@@ -1,9 +1,11 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:41+00:00
+description: Use YAML anchors, !reference tags, and the `extends` keyword to reduce CI/CD configuration file complexity.
 group: Pipeline Authoring
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-title: Optimize GitLab CI/CD configuration files
-description: Use YAML anchors, !reference tags, and the `extends` keyword to reduce CI/CD configuration file complexity.
+modified: 2026-05-26T11:43:57+00:00
+stage: Verify
+title: yaml_optimization
 ---
 
 {{< details >}}
@@ -14,6 +16,7 @@ description: Use YAML anchors, !reference tags, and the `extends` keyword to red
 {{< /details >}}
 
 You can reduce complexity and duplicated configuration in your GitLab CI/CD configuration
+
 files by using:
 
 - YAML-specific features like [anchors (`&`)](#anchors), aliases (`*`), and map merging (`<<`).
@@ -26,12 +29,15 @@ To create multiple similar jobs, but with different variable values, use [`paral
 ## Anchors
 
 YAML has a feature called 'anchors' that you can use to duplicate
+
 content across your document.
 
 You can use anchors to duplicate or inherit properties. Use anchors with [hidden jobs](../jobs/_index.md#hide-a-job)
+
 to provide templates for your jobs.
 
 The `&` character marks the anchor name, and the `*` character is the alias that references
+
 the anchor. You must define the anchor higher in the YAML file than any aliases that reference it.
 
 When there are duplicate keys, the latest included key wins and overrides the other keys.
@@ -50,12 +56,17 @@ job1:
 ```
 
 You can't use YAML anchors across multiple files when using the [`include`](_index.md#include)
+
 keyword. Anchors are only valid in the file they were defined in. To reuse configuration
+
 from different YAML files, use [`!reference` tags](#reference-tags) or the
+
 [`extends` keyword](#use-extends-to-reuse-configuration-sections).
 
 The following example uses anchors and map merging. It creates two jobs,
+
 `test1` and `test2`, that inherit the `.job_template` configuration, each
+
 with their own custom `script` defined:
 
 ```yaml
@@ -77,7 +88,9 @@ test2:
 ```
 
 `&` sets up the name of the anchor (`job_configuration`), `<<` means "merge the
+
 given hash into the current one," and `*` includes the named anchor
+
 (`job_configuration` again). The [expanded](../pipeline_editor/_index.md#view-full-configuration) version of this example is:
 
 ```yaml
@@ -105,7 +118,9 @@ test2:
 ```
 
 You can use anchors to define two sets of services. For example, `test:postgres`
+
 and `test:mysql` share the `script` defined in `.job_template`, but use different
+
 `services`, defined in `.postgres_services` and `.mysql_services`:
 
 ```yaml
@@ -175,9 +190,10 @@ test:mysql:
 ```
 
 You can see that the hidden jobs are conveniently used as templates, and
+
 `tags: [postgres]` overwrites `tags: [dev]`.
 
-### YAML anchors for scripts
+### YAML Anchors for Scripts
 
 {{< history >}}
 
@@ -186,6 +202,7 @@ You can see that the hidden jobs are conveniently used as templates, and
 {{< /history >}}
 
 You can use [YAML anchors](#anchors) with [script](_index.md#script), [`before_script`](_index.md#before_script),
+
 and [`after_script`](_index.md#after_script) to use predefined commands in multiple jobs:
 
 ```yaml
@@ -216,13 +233,16 @@ job2:
     - *some-script-after
 ```
 
-## Use `extends` to reuse configuration sections
+## Use `extends` to Reuse Configuration Sections
 
 You can use the [`extends` keyword](_index.md#extends) to reuse configuration in
+
 multiple jobs. It is similar to [YAML anchors](#anchors), but simpler and you can
+
 [use `extends` with `includes`](#use-extends-and-include-together).
 
 `extends` supports multi-level inheritance. You should avoid using more than three levels,
+
 due to the additional complexity, but you can use as many as eleven. The following example has two levels of inheritance:
 
 ```yaml
@@ -249,7 +269,7 @@ spinach:
   script: rake spinach
 ```
 
-### Exclude a key from `extends`
+### Exclude a Key from `extends`
 
 To exclude a key from the extended content, you must assign it to `null`, for example:
 
@@ -307,10 +327,13 @@ test4:
 ### Use `extends` and `include` together
 
 To reuse configuration from different configuration files,
+
 combine `extends` and [`include`](_index.md#include).
 
 In the following example, a `script` is defined in the `included.yml` file.
+
 Then, in the `.gitlab-ci.yml` file, `extends` refers
+
 to the contents of the `script`:
 
 - `included.yml`:
@@ -331,11 +354,14 @@ to the contents of the `script`:
     extends: .template
   ```
 
-### Merge details
+### Merge Details
 
 You can use `extends` to merge hashes but not arrays.
+
 When there are duplicate keys, GitLab performs a reverse deep merge based on the keys.
+
 Keys from the last member always override anything defined on other
+
 levels. For example:
 
 ```yaml
@@ -393,18 +419,24 @@ In this example:
 - `script` does not merge, but `script: ['rake rspec']` overwrites
   `script: ['echo "Hello world!"']`. You can use [YAML anchors](yaml_optimization.md#anchors) to merge arrays.
 
-## `!reference` tags
+## `!reference` Tags
 
 Use the `!reference` custom YAML tag to select keyword configuration from other job
+
 sections and reuse it in the current section. Unlike [YAML anchors](#anchors), you can
+
 use `!reference` tags to reuse configuration from [included](_index.md#include) configuration
+
 files as well.
 
 If you are using `!reference` tags to override configuration from included files, consider using
+
 [CI/CD inputs](../inputs/_index.md) instead. You cannot use CI/CD inputs in `!reference` tags,
+
 because `!reference` tags are evaluated before input interpolation.
 
 In the following example, a `script` and an `after_script` from two different locations are
+
 reused in the `test` job:
 
 - `configs.yml`:
@@ -434,6 +466,7 @@ reused in the `test` job:
   ```
 
 In the following example, `test-vars-1` reuses all the variables in `.vars`, while `test-vars-2`
+
 selects a specific variable and reuses it as a new `MY_VAR` variable.
 
 ```yaml
@@ -455,6 +488,7 @@ test-vars-2:
 ```
 
 You can use multiple `!reference` tags to build up an array with `rules`, `script`, or stages.
+
 For example:
 
 ```yaml
@@ -475,7 +509,7 @@ deploy_job:
 
 With all other keywords, you get a [`config should be an array of` validation error](debugging.md#config-should-be-an-array-of-hashes-error-message).
 
-### Nest `!reference` tags in `script`, `before_script`, and `after_script`
+### Nest `!reference` Tags in `script`, `before_script`, and `after_script`
 
 {{< history >}}
 
@@ -503,10 +537,12 @@ nested-references:
 
 In this example, the `nested-references` job runs all three `echo` commands.
 
-### Configure your IDE to support `!reference` tags
+### Configure Your IDE to Support `!reference` Tags
 
 The [pipeline editor](../pipeline_editor/_index.md) supports `!reference` tags. However, the schema rules for custom YAML
+
 tags like `!reference` might be treated as invalid by your editor by default.
+
 You can configure some editors to accept `!reference` tags. For example:
 
 - In VS Code, you can set `vscode-yaml` to parse `customTags` in your `settings.json` file:

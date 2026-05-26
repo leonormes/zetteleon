@@ -1,8 +1,10 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:41+00:00
 group: Pipeline Authoring
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-title: Pipeline architecture
+modified: 2026-05-26T11:44:02+00:00
+stage: Verify
+title: pipeline_architectures
 ---
 
 {{< details >}}
@@ -13,9 +15,11 @@ title: Pipeline architecture
 {{< /details >}}
 
 Pipelines are the fundamental building blocks for CI/CD in GitLab. This page documents
+
 some of the important concepts related to them.
 
 You can structure your pipelines with different methods, each with their
+
 own advantages. These methods can be mixed and matched if needed:
 
 - [Basic](#basic-pipelines): Good for straightforward projects where all the configuration is in one place.
@@ -23,24 +27,32 @@ own advantages. These methods can be mixed and matched if needed:
 - [Parent-child pipelines](#parent-child-pipelines): Good for monorepos and projects with lots of independently defined components.
 
   <i class="fa-youtube-play" aria-hidden="true"></i>
+
   For an overview, see the [Parent-Child Pipelines feature demo](https://youtu.be/n8KpBSqZNbk).
 
 - [Multi-project pipelines](downstream_pipelines.md#multi-project-pipelines): Good for larger products that require cross-project interdependencies,
   like those with a [microservices architecture](https://about.gitlab.com/blog/trends-in-version-control-land-microservices/).
 
   For example, you might deploy your web application from three different GitLab projects.
+
   With multi-project pipelines you can trigger a pipeline in each project, where each
+
   has its own build, test, and deploy process. You can visualize the connected pipelines
+
   in one place, including all cross-project interdependencies.
 
   <i class="fa-youtube-play" aria-hidden="true"></i>
+
   For an overview, see the [Multi-project pipelines demo](https://www.youtube.com/watch?v=g_PIwBM1J84).
 
-## Basic pipelines
+## Basic Pipelines
 
 Basic pipelines are the simplest pipelines in GitLab. It runs everything in the build stage concurrently,
+
 and once all of those finish, it runs everything in the test and subsequent stages the same way.
+
 It's not the most efficient, and if you have lots of steps it can grow quite complex, but it's
+
 easier to maintain:
 
 ```mermaid
@@ -118,14 +130,18 @@ deploy_b:
   environment: production
 ```
 
-## Pipelines with the `needs` keyword
+## Pipelines with the `needs` Keyword
 
 If efficiency is important and you want everything to run as quickly as possible,
+
 you can use the [`needs` keyword](../yaml/needs.md) to define dependencies
+
 between your jobs. When GitLab knows the dependencies between your jobs,
+
 jobs can run as fast as possible, even starting earlier than other jobs in the same stage.
 
 In the following example, if `build_a` and `test_a` are much faster than `build_b` and
+
 `test_b`, GitLab starts `deploy_a` even if `build_b` is still running.
 
 ```mermaid
@@ -191,7 +207,7 @@ deploy_b:
   environment: production
 ```
 
-## Parent-child pipelines
+## Parent-child Pipelines
 
 As pipelines grow more complex, a few related problems start to emerge:
 
@@ -204,13 +220,19 @@ As pipelines grow more complex, a few related problems start to emerge:
 - Pipeline UX has too many jobs and stages to work with.
 
 Additionally, sometimes the behavior of a pipeline needs to be more dynamic. The ability
+
 to choose to start sub-pipelines (or not) is a powerful ability, especially if the
+
 YAML is dynamically generated.
 
 In the previous [basic pipeline](#basic-pipelines) and [`needs` pipeline](#pipelines-with-the-needs-keyword)
+
 examples, there are two packages that could be built independently.
+
 These cases are ideal for using [parent-child pipelines](downstream_pipelines.md#parent-child-pipelines).
+
 It separates out the configuration into multiple files, keeping things simpler.
+
 You can combine parent-child pipelines with:
 
 - The [`rules` keyword](../yaml/_index.md#rules): For example, have the child pipelines triggered only
@@ -262,6 +284,7 @@ trigger_b:
 ```
 
 Example child `a` pipeline configuration, located in `/a/.gitlab-ci.yml`, making
+
 use of the `needs` keyword:
 
 ```yaml
@@ -293,6 +316,7 @@ deploy_a:
 ```
 
 Example child `b` pipeline configuration, located in `/b/.gitlab-ci.yml`, making
+
 use of the `needs` keyword:
 
 ```yaml

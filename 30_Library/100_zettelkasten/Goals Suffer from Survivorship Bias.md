@@ -2,7 +2,7 @@
 aliases: ["Survivorship Bias of Goals"]
 created: 2025-11-06T19:57:00Z
 last_reviewed: "2025-11-06"
-modified: 2026-04-19T18:30:42+00:00
+modified: 2026-05-26T11:44:35+00:00
 status: "stable"
 tags: ["goals", "success", "survivorship-bias", "topic/systems"]
 title: Goals Suffer from Survivorship Bias

@@ -1,6 +1,6 @@
 ---
 created: 2026-05-04T08:01:26+00:00
-modified: 2026-05-08T12:53:41+00:00
+modified: 2026-05-26T11:43:54+00:00
 Source: Opus 4.7
 tags: [Literature]
 title: Lit! Claude on JTB claim (2026-04-23)

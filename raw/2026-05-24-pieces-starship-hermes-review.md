@@ -1,22 +1,15 @@
 ---
-title: Starship Tuning Completion & Hermes Config Self-Review (2026-05-24)
 created: 2026-05-24T20:15:00+01:00
+modified: 2026-05-26T11:43:31+00:00
+pieces_ids: [0f61f3fc-37a9-46c7-9053-7a25c761201c, 26fa2824-fe54-4147-a3cf-82cdba2957ac, 2b045ae4-4b49-4f85-a499-6e48f1c5e27c, 765deb6b-7808-43d9-9741-507fabf8407e, 8bbed588-e456-49fe-905c-d4137ea9f152, c0f950bd-e3a2-4754-a5cd-d88f543b76df, c9977711-9381-44ed-bbaa-12bd86cda419, ce8debb5-fe1a-4507-88fa-1cb38b368d16]
 source: pieces-ltm
-pieces_ids:
-  - c0f950bd-e3a2-4754-a5cd-d88f543b76df
-  - 765deb6b-7808-43d9-9741-507fabf8407e
-  - 2b045ae4-4b49-4f85-a499-6e48f1c5e27c
-  - ce8debb5-fe1a-4507-88fa-1cb38b368d16
-  - 8bbed588-e456-49fe-905c-d4137ea9f152
-  - 0f61f3fc-37a9-46c7-9053-7a25c761201c
-  - 26fa2824-fe54-4147-a3cf-82cdba2957ac
-  - c9977711-9381-44ed-bbaa-12bd86cda419
-tags: [raw, pieces]
+tags: [pieces, raw]
+title: 2026-05-24-pieces-starship-hermes-review
 ---
 
-# Starship Tuning Completion & Hermes Config Self-Review (2026-05-24)
+## Starship Tuning Completion & Hermes Config Self-Review (2026-05-24)
 
-## Asset 1 (Pieces: c0f950bd-e3a2-4754-a5cd-d88f543b76df)
+### Asset 1 (Pieces: c0f950bd-e3a2-4754-a5cd-d88f543b76df)
 
 Captured at 20:11. Starship `/goal` prompt for grounded starship.toml fixing:
 
@@ -32,7 +25,7 @@ Captured at 20:11. Starship `/goal` prompt for grounded starship.toml fixing:
 - Working Dir: ~/.local/share/chezmoi/dot_config/
 ```
 
-## Asset 2 (Pieces: 765deb6b-7808-43d9-9741-507fabf8407e)
+### Asset 2 (Pieces: 765deb6b-7808-43d9-9741-507fabf8407e)
 
 Captured at 20:11. Unused TTS config audit prompt:
 
@@ -44,7 +37,7 @@ List every TTS provider, model, and setting.
 Flag which are active vs dormant.
 ```
 
-## Asset 3 (Pieces: 2b045ae4-4b49-4f85-a499-6e48f1c5e27c)
+### Asset 3 (Pieces: 2b045ae4-4b49-4f85-a499-6e48f1c5e27c)
 
 Captured at 20:10. Starship performance fix execution confirmation:
 
@@ -64,7 +57,7 @@ Changes applied:
 - git_status: ignore_submodules: true
 ```
 
-## Asset 4 (Pieces: ce8debb5-fe1a-4507-88fa-1cb38b368d16)
+### Asset 4 (Pieces: ce8debb5-fe1a-4507-88fa-1cb38b368d16)
 
 Captured at 20:10. Starship worker completion summary:
 
@@ -75,7 +68,7 @@ Summary: Starship Worker successfully fixed starship.toml.
 The fix was applied and verified.
 ```
 
-## Asset 5 (Pieces: 8bbed588-e456-49fe-905c-d4137ea9f152)
+### Asset 5 (Pieces: 8bbed588-e456-49fe-905c-d4137ea9f152)
 
 Captured at 15:09. Hermes Config Self-Review Prompt:
 
@@ -100,7 +93,7 @@ For each area:
 - Priority: HIGH / MEDIUM / LOW
 ```
 
-## Asset 6 (Pieces: 0f61f3fc-37a9-46c7-9053-7a25c761201c)
+### Asset 6 (Pieces: 0f61f3fc-37a9-46c7-9053-7a25c761201c)
 
 Captured at 13:34. Gemini prompt validation result for GitOps pipeline:
 
@@ -108,7 +101,7 @@ Captured at 13:34. Gemini prompt validation result for GitOps pipeline:
 gemini:"prompt validation complete — four key metrics baseline established"
 ```
 
-## Asset 7 (Pieces: 26fa2824-fe54-4147-a3cf-82cdba2957ac)
+### Asset 7 (Pieces: 26fa2824-fe54-4147-a3cf-82cdba2957ac)
 
 Captured at 13:33. Reading SOUL.md and mission prompt:
 
@@ -117,7 +110,7 @@ Read ~/.hermes/SOUL.md, ~/.hermes/mission.md
 Understand workspace context before proceeding
 ```
 
-## Asset 8 (Pieces: c9977711-9381-44ed-bbaa-12bd86cda419)
+### Asset 8 (Pieces: c9977711-9381-44ed-bbaa-12bd86cda419)
 
 Captured at 13:33. Session context setup:
 

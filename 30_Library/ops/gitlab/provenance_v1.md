@@ -1,8 +1,10 @@
 ---
-stage: Software Supply Chain Security
+created: 2026-05-16T10:16:41+00:00
 group: Pipeline Security
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-title: SLSA provenance specification
+modified: 2026-05-26T11:44:01+00:00
+stage: Software Supply Chain Security
+title: provenance_v1
 ---
 
 {{< details >}}
@@ -25,10 +27,13 @@ title: SLSA provenance specification
 > This feature is available for testing, but not ready for production use.
 
 The [SLSA provenance specification](https://slsa.dev/spec/v1.1/provenance) requires
+
 the `buildType` reference to be documented and published. This reference is to assist consumers of
+
 GitLab SLSA attestations with parsing specific fields that are unique to GitLab SLSA provenance statements.
 
 See the SLSA [`buildType` documentation](https://slsa.dev/spec/v1.1/provenance#builddefinition)
+
 for more details.
 
 ## `buildType`
@@ -41,13 +46,14 @@ This official [SLSA Provenance](https://slsa.dev/spec/v1.1/provenance) `buildTyp
 ### Description
 
 This `buildType` describes the execution of a workflow that builds a software
+
 artifact.
 
 > [!note]
 > Consumers should ignore unrecognized external parameters. Any changes must
 > not change the semantics of existing external parameters.
 
-### External parameters
+### External Parameters
 
 The external parameters:
 
@@ -57,7 +63,7 @@ The external parameters:
 | `entryPoint` | The name of the CI/CD job that triggered the build. |
 | `variables`  | The names and values of any CI/CD or environment variables available during the build command execution. If the variable is [masked or hidden](../../../variables/_index.md) the value of the variable is set to `[MASKED]`. |
 
-### Internal parameters
+### Internal Parameters
 
 The internal parameters, which are populated by default:
 

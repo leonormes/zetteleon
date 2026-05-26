@@ -1,8 +1,10 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:41+00:00
 group: Pipeline Execution
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-title: Use Buildah to build multi-platform images
+modified: 2026-05-26T11:44:14+00:00
+stage: Verify
+title: buildah_rootless_multi_arch
 ---
 
 {{< details >}}
@@ -13,7 +15,9 @@ title: Use Buildah to build multi-platform images
 {{< /details >}}
 
 Use Buildah to build images for multiple CPU architectures. Multi-platform builds
+
 create images that work across different hardware platforms, and Docker automatically
+
 selects the appropriate image for each deployment target.
 
 ## Prerequisites
@@ -21,15 +25,16 @@ selects the appropriate image for each deployment target.
 - A Dockerfile to build the image from
 - (Optional) GitLab runners running on different CPU architectures
 
-## Build multi-platform images
+## Build Multi-platform Images
 
 To build multi-platform images with Buildah:
 
 1. Configure separate build jobs for each target architecture.
-1. Create a manifest job that combines the architecture-specific images.
-1. Configure the manifest job to push the combined manifest to your registry.
+2. Create a manifest job that combines the architecture-specific images.
+3. Configure the manifest job to push the combined manifest to your registry.
 
 Running jobs on their respective architectures avoids performance issues from CPU instruction translation.
+
 However, you can run both builds on a single architecture if needed. Building for non-native architecture may result in slower build times.
 
 The following example uses two [GitLab-hosted runners on Linux](../runners/hosted_runners/linux.md):
@@ -80,11 +85,12 @@ create_manifest:
 ```
 
 This pipeline creates architecture-specific images tagged with `amd64` and `arm64`,
+
 then combines them into a single manifest available under the `latest` tag.
 
 ## Troubleshooting
 
-### Build fails with authentication errors
+### Build Fails with Authentication Errors
 
 If you encounter registry authentication failures:
 
@@ -93,7 +99,7 @@ If you encounter registry authentication failures:
 - For external registries, ensure authentication credentials are correctly configured
   in your project's CI/CD variables.
 
-### Multi-platform builds fail
+### Multi-platform Builds Fail
 
 For multi-platform build issues:
 
@@ -104,6 +110,7 @@ For multi-platform build issues:
 ### Error: `Error during unshare(CLONE_NEWUSER): Operation not permitted`
 
 When you use Buildah or [Docker BuildKit](using_buildkit.md) in rootless mode to build Docker images in CI/CD jobs,
+
 you might encounter an `Error during unshare(CLONE_NEWUSER): Operation not permitted`.
 
 This error occurs when the required security options are not set for rootless container builds.

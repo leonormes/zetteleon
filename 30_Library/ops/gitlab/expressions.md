@@ -1,24 +1,28 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:41+00:00
 group: Pipeline Authoring
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-title: CI/CD expressions
+modified: 2026-05-26T11:44:08+00:00
+stage: Verify
+title: expressions
 ---
 
 CI/CD expressions enable dynamic configuration in your CI/CD pipelines by referencing variables and inputs in specialized contexts.
+
 GitLab evaluates expressions in the pipeline configuration before the pipeline is created.
 
-## Configuration expressions
+## Configuration Expressions
 
 Configuration expressions use the `$[[ ]]` syntax and are evaluated at pipeline creation time (compile-time).
+
 They enable dynamic configuration based on different contexts.
 
 All configuration expressions share these characteristics:
 
-- **Compile-time evaluation**: Values are resolved when the pipeline configuration is created,
+- Compile-time evaluation: Values are resolved when the pipeline configuration is created,
   not during job execution. A large number of expressions can increase pipeline creation time,
   but does not affect job execution time.
-- **Static resolution**: Cannot perform dynamic logic or access runtime job state.
+- Static resolution: Cannot perform dynamic logic or access runtime job state.
 
 Configuration expressions support different contexts for accessing values:
 
@@ -28,7 +32,7 @@ Configuration expressions support different contexts for accessing values:
 | [Matrix context](#matrix-context)       | `$[[ matrix.IDENTIFIER ]]`    | GitLab 18.6 (Beta) | Reference `parallel:matrix` identifiers in job dependencies. |
 | [Component context](#component-context) | `$[[ component.FIELD_NAME ]]` | GitLab 18.6 (Beta) | Reference component metadata in component templates. |
 
-### Inputs context
+### Inputs Context
 
 {{< history >}}
 
@@ -38,6 +42,7 @@ Configuration expressions support different contexts for accessing values:
 {{< /history >}}
 
 Use the `inputs.` context to reference [CI/CD inputs](../inputs/_index.md) in reusable configurations
+
 using `$[[ inputs.INPUT_NAME ]]` syntax.
 
 For example:
@@ -62,7 +67,7 @@ scan-website:
 - Function support: Predefined functions like `expand_vars` and `truncate` can manipulate values.
 - Scope: Available in the file where defined, or passed explicitly with `include:inputs`.
 
-### Matrix context
+### Matrix Context
 
 {{< history >}}
 
@@ -71,7 +76,9 @@ scan-website:
 {{< /history >}}
 
 Use the [`matrix.` context](matrix_expressions.md) to reference [`parallel:matrix`](_index.md#parallelmatrix)
+
 values by using a `$[[ matrix.IDENTIFIER ]]` syntax. Use it in job dependencies to enable
+
 dynamic 1:1 mappings between `parallel:matrix` jobs.
 
 For example:
@@ -103,7 +110,7 @@ test:
 - Scoped to job-level `parallel:matrix`: Only values from the current job can be referenced.
 - Automatic mapping: Creates 1:1 dependencies between matrix jobs across stages
 
-### Component context
+### Component Context
 
 {{< history >}}
 
@@ -113,12 +120,15 @@ test:
 {{< /history >}}
 
 Use the `component.` context to reference [CI/CD component](../components/_index.md) metadata
+
 in component templates using `$[[ component.FIELD_NAME ]]` syntax.
 
 Component context provides metadata about the component itself, such as its name, version,
+
 and the commit SHA. This allows component templates to reference their own metadata dynamically.
 
 To use component context, declare which fields are needed in the [`spec:component`](_index.md#speccomponent)
+
 header, then reference them in the component template.
 
 For example:
@@ -138,7 +148,7 @@ build-job:
     - echo "Building with component version $[[ component.version ]]"
 ```
 
-## Related topics
+## Related Topics
 
 - [Moa expression language](../functions/moa.md)
 - [CI/CD inputs](../inputs/_index.md)

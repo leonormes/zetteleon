@@ -1,9 +1,11 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:41+00:00
+description: Migrate from Jenkins, GitHub Actions, and others.
 group: Pipeline Authoring
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-title: Plan a migration from another tool to GitLab CI/CD
-description: Migrate from Jenkins, GitHub Actions, and others.
+modified: 2026-05-26T11:44:01+00:00
+stage: Verify
+title: plan_a_migration
 ---
 
 {{< details >}}
@@ -14,22 +16,29 @@ description: Migrate from Jenkins, GitHub Actions, and others.
 {{< /details >}}
 
 Before starting a migration from another tool to GitLab CI/CD, you should begin by
+
 developing a migration plan.
 
 Review the advice on [managing organizational changes](#manage-organizational-changes)
+
 first for advice on initial steps for larger migrations.
 
 Users involved in the migration itself should review the [questions to ask before starting a migration](#technical-questions-to-ask-before-starting-a-migration),
+
 as an important technical step for setting expectations. CI/CD tools differ in approach,
+
 structure, and technical specifics. While some concepts map one-to-one, others require
+
 interactive conversion.
 
 It's important to focus on your desired end state instead of strictly translating
+
 the behavior of your old tool.
 
-## Manage organizational changes
+## Manage Organizational Changes
 
 An important part of transitioning to GitLab CI/CD is the cultural and organizational
+
 changes that come with the move, and successfully managing them.
 
 A few things that organizations have reported as helping:
@@ -47,9 +56,10 @@ A few things that organizations have reported as helping:
   including any current problems, isn't enough. Take advantage of the improvements
   that GitLab CI/CD offers, and update your implementation as part of the transition.
 
-## Technical questions to ask before starting a migration
+## Technical Questions to Ask before Starting a Migration
 
 Asking some initial technical questions about your CI/CD needs helps quickly define
+
 the migration requirements:
 
 - How many projects use this pipeline?
@@ -61,7 +71,7 @@ the migration requirements:
 - How do you deploy your code?
 - Where do you deploy your code?
 
-## Related topics
+## Related Topics
 
 - How to migrate Atlassian Bamboo Server's CI/CD infrastructure to GitLab CI/CD, [part one](https://about.gitlab.com/blog/migration-from-atlassian-bamboo-server-to-gitlab-ci/)
   and [part two](https://about.gitlab.com/blog/how-to-migrate-atlassians-bamboo-servers-ci-cd-infrastructure-to-gitlab-ci-part-two/)

@@ -2,7 +2,7 @@
 aliases: ["Chunking", "Cognitive Compression"]
 created: 2025-10-31T11:22:00Z
 last_reviewed: ""
-modified: 2026-04-19T18:30:39+00:00
+modified: 2026-05-26T11:44:32+00:00
 status: "seedling"
 tags: ["memory", "TheHuman/Cognition"]
 title: Understanding Compresses Information into Cognitive Chunks

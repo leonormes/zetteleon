@@ -1,10 +1,10 @@
 ---
 created: 2026-05-04T08:01:26+00:00
-modified: 2026-05-08T12:53:42+00:00
+modified: 2026-05-26T11:43:54+00:00
 title: Other Compulsory Areas of Study!
 ---
 
-## Other Compulsory Areas of Study:
+## Other Compulsory Areas of Study
 
 - Physical Education (PE): All pupils must take part in PE. The focus is on tackling complex physical activities, developing personal fitness, and promoting a healthy, active lifestyle. This is non-examinable unless chosen as a GCSE option.
 - Citizenship: This subject helps pupils understand democracy, government, law, and the economy. It is usually taught within PSHE (Personal, Social, Health and Economic Education) and is non-examinable unless taken as a GCSE.

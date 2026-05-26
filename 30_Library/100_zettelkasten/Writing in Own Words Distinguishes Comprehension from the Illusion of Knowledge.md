@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T00:00:00+00:00
-modified: 2026-04-19T18:30:39+00:00
+modified: 2026-05-26T11:44:31+00:00
 tags: [comprehension, learning, pkm, writing]
 title: Writing in Own Words Distinguishes Comprehension from the Illusion of Knowledge
 ---

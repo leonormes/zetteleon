@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-04-19T18:30:43+00:00
+modified: 2026-05-26T11:44:35+00:00
 tags: [enterprise-ai, gateways, governance, security]
 title: Enterprise Agentic Systems Require Containerised Gateways with OAuth and RBAC
 ---

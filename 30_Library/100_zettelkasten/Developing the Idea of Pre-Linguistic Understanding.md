@@ -1,6 +1,6 @@
 ---
 created: 2026-05-02T20:25:00+00:00
-modified: 2026-05-12T13:12:01+00:00
+modified: 2026-05-26T11:44:35+00:00
 title: Developing the Idea of Pre-Linguistic Understanding
 ---
 

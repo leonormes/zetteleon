@@ -1,7 +1,7 @@
 ---
 aliases: ["Linking Stage", "Zettelkasten Layer"]
 created: 2025-12-04T12:23:40Z
-modified: 2026-05-26T09:04:24+00:00
+modified: 2026-05-26T11:44:31+00:00
 status: "stable"
 tags: ["connection", "pkm", "prodos", "writing"]
 title: Stage 4 Connect (The Zettelkasten Layer)

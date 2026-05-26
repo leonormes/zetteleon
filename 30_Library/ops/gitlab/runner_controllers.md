@@ -1,9 +1,11 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:41+00:00
+description: Control job admission with runner controllers.
 group: Runner Core
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-title: Runner controllers
-description: Control job admission with runner controllers.
+modified: 2026-05-26T11:44:01+00:00
+stage: Verify
+title: runner_controllers
 ---
 
 {{< details >}}
@@ -27,11 +29,15 @@ description: Control job admission with runner controllers.
 {{< /history >}}
 
 Runner controllers enable admission control for CI/CD jobs routed through the
+
 [job router](_index.md). When a job is about to be executed, the job router sends
+
 an admission request to connected runner controllers, which can admit or reject
+
 the job based on custom policies.
 
 Runner controllers are on the instance-level and are applicable to jobs depending
+
 on their [scoping](#scoping).
 
 Use runner controllers to:
@@ -41,20 +47,21 @@ Use runner controllers to:
 - Ensure jobs meet organizational policies before execution for compliance enforcement.
 - Limit job execution based on budget or resource constraints for cost control.
 
-## Admission control workflow
+## Admission Control Workflow
 
 When you configure runner controllers with the job router, the admission control workflow operates as follows:
 
 1. A runner controller connects to the job router.
-1. The controller registers itself and starts handling admission requests.
-1. When a job needs admission, the job router sends job details to connected controllers.
-1. The controller evaluates the job against custom policies.
-1. The controller sends an admission decision (admit or reject with reason).
-1. The job router proceeds with job execution or reports the rejection.
+2. The controller registers itself and starts handling admission requests.
+3. When a job needs admission, the job router sends job details to connected controllers.
+4. The controller evaluates the job against custom policies.
+5. The controller sends an admission decision (admit or reject with reason).
+6. The job router proceeds with job execution or reports the rejection.
 
-## View rejection reasons
+## View Rejection Reasons
 
 When a runner controller rejects a job, the job fails with the `job_router_failure` failure reason.
+
 The job details page displays a message that includes:
 
 - Job router information
@@ -63,13 +70,15 @@ The job details page displays a message that includes:
 
 ![Job rejection message showing runner controller rejection reason](img/job_rejection_message_v18_9.png)
 
-### Dry run mode logging
+### Dry Run Mode Logging
 
 When a runner controller is in `dry_run` state, rejection decisions are not enforced but are
+
 logged as informational messages in the job router (KAS) backend logs. Use these logs to
+
 validate your controller's behavior before you enable enforcement.
 
-## Runner controller states
+## Runner Controller States
 
 Runner controllers can be in one of three states:
 
@@ -82,6 +91,7 @@ Runner controllers can be in one of three states:
 ## Scoping
 
 Runner controllers must be scoped to be active. A runner controller without any scope
+
 does not receive admission requests, even when its state is `enabled` or `dry_run`.
 
 Runner controllers support two mutually exclusive scoping types:
@@ -95,9 +105,10 @@ Additional scope types (group, project) are proposed in [issue 586419](https://g
 
 To manage runner controller scoping, see the [runner controllers API](../../../api/runner_controllers.md).
 
-## Manage runner controllers
+## Manage Runner Controllers
 
 Runner controllers are managed through the REST API. There is no UI for managing
+
 runner controllers yet.
 
 - To create, list, update, or delete runner controllers, see the [runner controllers API](../../../api/runner_controllers.md).
@@ -108,24 +119,26 @@ Prerequisites:
 
 - You must have administrator access to the GitLab instance.
 
-## Implement a runner controller
+## Implement a Runner Controller
 
 For a step-by-step guide, see [Tutorial: Build a runner admission controller](../../../tutorials/build_runner_admission_controller/_index.md).
 
 To implement your own runner controller, you need to:
 
 1. Create a runner controller in GitLab.
-1. Scope the runner controller.
-1. Obtain a runner controller token.
-1. Connect to the job router with the token.
-1. Register your controller with the job router.
-1. Handle admission requests and send decisions.
+2. Scope the runner controller.
+3. Obtain a runner controller token.
+4. Connect to the job router with the token.
+5. Register your controller with the job router.
+6. Handle admission requests and send decisions.
 
 For technical specifications and protobuf definitions, see the
+
 [runner controller documentation](https://gitlab.com/gitlab-org/cluster-integration/gitlab-agent/-/blob/master/doc/runner_controller.md)
+
 in the GitLab Agent for Kubernetes repository.
 
-## Related topics
+## Related Topics
 
 - [Job Router](_index.md)
 - [Runner controllers API](../../../api/runner_controllers.md)

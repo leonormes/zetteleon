@@ -1,6 +1,6 @@
 ---
 created: 2026-04-28T00:00:00+00:00
-modified: 2026-05-24
+modified: 2026-05-26
 tags: [index, system]
 title: index
 ---
@@ -22,9 +22,12 @@ _(empty—populated on first ingest)_
 - [[wiki/projects/12 Million Patient Synthetic NHS-OMOP Pipeline]]—FITFILE synthetic NHS OMOP data generation & stress-test initiative (up to 12M patients, 5-node Parquet datasets).
 - [[wiki/projects/Azure AKS Backup — FTFL]]—Azure Backup for AKS covering FTFL-596/599/615: vault, extension, RBAC, trusted access binding, Terraform dependencies; 9 validated components (private storage, PE subnet, DNS, vault, snapshot RG, extension, policy, trusted binding, backup instance); IaC action plan defined with Phase 1–3 roadmap and validation criteria; Terraform module review completed (2026-05-01) validating plan against manual CLI end-state, identifying import vs creation distinction, secrets configuration gaps, and security considerations.
 - [[wiki/projects/Azure Backup Restore Runbook]]—FTFL-599: operational runbook documenting az dataprotection CLI sequences for backup initialization, validation, and restore operations.
+- [[wiki/projects/Antigravity CLI Migration]]—Migration from Gemini CLI to Antigravity CLI (`agy`) before June 18, 2026 deadline; includes Claude Code prompt for chezmoi config migration (remove Gemini, install agy).
+- [[wiki/projects/CoS-Work-Review-System]]—Automated Hermes cron job that queries Jira for open tickets, reviews against Obsidian PKM, and updates Source of Truth; built 2026-05-26 with curl-based jira-fetch.js workaround for Node.js fetch() proxy incompatibility on corporate VPN.
 - [[wiki/projects/Future Roadmap Planning]]—team roadmap presentation meeting set up by WJ; preparing two topics.
 - [[wiki/projects/MKUH Azure Backup]]—Azure Backup deployment for Milton Keynes University Hospital; part of EoE Data Providers program.
 - [[wiki/projects/NNU Azure Backup]]—FTFL-596: Azure Backup configuration for Norfolk and Norwich University Hospital via private endpoint on private test cluster.
+- [[wiki/projects/ProdOS-Workflow]]—AI Chief of Staff bridge between Todoist (action engine) and Obsidian (source of truth); Hermes Gateway periodically checks Jira + Microsoft Teams, updates Obsidian, keeps Todoist in sync; requirements + Hermes /goal prompt delivered 2026-05-26.
 - [[wiki/projects/Security and Maintenance Roadmap]]—moving from annual pen tests to continuous security and maintenance as a first-class track.
 - [[wiki/projects/Terraform IaC Modules]]—FTFL-596/615: Terraform modules for Azure Backup for AKS, handling Vault/AKS MSI role assignments and trusted access role bindings; LLM prompt created to audit module and produce implementable plan with current state inventory, gaps, proposed changes, migration steps, and git-friendly patch diffs.
 - [[wiki/projects/Unified LLM Router Cockpit]]—unifying LLM tooling (Ollama, Hermes, Claude, Gemini, Pieces) into a deterministic chezmoi-managed workflow.
@@ -60,8 +63,8 @@ _(empty—populated on first ingest)_
 
 ### `wiki/concepts/`
 
-- [[wiki/concepts/ADHD Procrastination and Productivity]] — Neurodevelopmental executive function deficit model; EF mediation (time management, organization); evidence-based interventions (CBT, DBT, EI training, VR body doubling); temporal motivation theory; bedtime procrastination.
+- [[wiki/concepts/ADHD Procrastination and Productivity]]—Neurodevelopmental executive function deficit model; EF mediation (time management, organization); evidence-based interventions (CBT, DBT, EI training, VR body doubling); temporal motivation theory; bedtime procrastination.
 
 ---
 
-*Updated 2026-05-25 by Project Check-In (cron): Full Discovery Report text captured (1 new raw note: 2026-05-24-pieces-hermes-discovery-report-full.md); 1 wiki page updated (Hermes Config Production-Ready Audit — version history, TUI targets, max_turns, profiles, brain-mcp status, voice-capture status).*
+_Updated 2026-05-26 by Project Check-In (cron): 3 new project pages created (CoS-Work-Review-System, Antigravity-CLI-Migration, ProdOS-Workflow); 3 raw notes created (2026-05-26-pieces-cos-work-review-jira, 2026-05-26-pieces-antigravity-migration, 2026-05-26-pieces-prodos-workflow-design); 54 substantive Pieces assets ingested._

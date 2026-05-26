@@ -1,8 +1,10 @@
 ---
-stage: Production Engineering
+created: 2026-05-16T10:16:41+00:00
 group: Runners Platform
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-title: Hosted runners on Linux
+modified: 2026-05-26T11:44:03+00:00
+stage: Production Engineering
+title: linux
 ---
 
 {{< details >}}
@@ -15,12 +17,14 @@ title: Hosted runners on Linux
 Hosted runners on Linux for GitLab.com run on Google Cloud Compute Engine. Each job gets a fully isolated, ephemeral virtual machine (VM). The default region is `us-east1`.
 
 Each VM uses the Google Container-Optimized OS (COS) and the latest version of Docker Engine running the `docker+machine`
+
 [executor](https://docs.gitlab.com/runner/executors/#docker-machine-executor).
+
 The machine type and underlying processor type might change. Jobs optimized for a specific processor design might behave inconsistently.
 
 [Untagged](../../yaml/_index.md#tags) jobs run on the `small` Linux x86-64 runner.
 
-## Machine types available for Linux - x86-64
+## Machine Types Available for Linux - x86-64
 
 GitLab offers the following machine types for hosted runners on Linux x86-64.
 
@@ -77,7 +81,7 @@ GitLab offers the following machine types for hosted runners on Linux x86-64.
   </tbody>
 </table>
 
-## Machine types available for Linux - Arm64
+## Machine Types Available for Linux - Arm64
 
 GitLab offers the following machine type for hosted runners on Linux Arm64.
 
@@ -124,25 +128,30 @@ GitLab offers the following machine type for hosted runners on Linux Arm64.
 > To resolve this issue, set `--mtu=1400` in the client side Docker configuration.
 > For more details, see [issue 473739](https://gitlab.com/gitlab-org/gitlab/-/issues/473739#workaround).
 
-## Container images
+## Container Images
 
 As runners on Linux are using the `docker+machine` [executor](https://docs.gitlab.com/runner/executors/#docker-machine-executor),
+
 you can choose any container image by defining the [`image`](../../yaml/_index.md#image) in your `.gitlab-ci.yml` file.
+
 Ensure your selected Docker image is compatible with your processor architecture.
 
 If no image is set, the default is `ruby:3.1`.
 
-## Docker-in-Docker support
+## Docker-in-Docker Support
 
 Runners with any of the `saas-linux-<size>-<architecture>` tags are configured to run in `privileged` mode
+
 to support [Docker-in-Docker](../../docker/using_docker_build.md#use-docker-in-docker).
+
 With these runners, you can build Docker images natively or run multiple containers in your isolated job.
 
 Runners with the `gitlab-org` tag do not run in `privileged` mode and cannot be used for Docker-in-Docker builds.
 
-## Example `.gitlab-ci.yml` file
+## Example `.gitlab-ci.yml` File
 
 To use a machine type other than `small`, add a `tags:` keyword to your job.
+
 For example:
 
 ```yaml

@@ -1,8 +1,10 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:41+00:00
 group: Pipeline Execution
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-title: Testing PHP projects
+modified: 2026-05-26T11:44:02+00:00
+stage: Verify
+title: php
 ---
 
 {{< details >}}
@@ -15,22 +17,29 @@ title: Testing PHP projects
 This guide covers basic building instructions for PHP projects.
 
 Two testing scenarios are covered: using the Docker executor and
+
 using the Shell executor.
 
-## Test PHP projects using the Docker executor
+## Test PHP Projects Using the Docker Executor
 
 While it is possible to test PHP apps on any system, this would require manual
+
 configuration from the developer. You can overcome this by using the
+
 official [PHP Docker image](https://hub.docker.com/_/php) found in Docker Hub.
 
 This allows you to test PHP projects against different versions of PHP.
+
 However, you still need to configure some things manually.
 
 As with every job, you need to create a valid `.gitlab-ci.yml` describing the
+
 build environment.
 
 First, specify the PHP image that is used for the job process.
+
 (You can read more about what an image means in the runner's lingo reading
+
 about [Using Docker images](../docker/using_docker_images.md#what-is-an-image).)
 
 Start by adding the image to your `.gitlab-ci.yml`:
@@ -40,10 +49,13 @@ image: php:5.6
 ```
 
 The official images are great, but they lack a few testing tools.
+
 You need to first prepare the build environment. To achieve this,
+
 create a script that installs all prerequisites before the actual testing begins.
 
 Create a `ci/docker_install.sh` file in the root directory of your
+
 repository with the following content:
 
 ```shell
@@ -68,10 +80,13 @@ docker-php-ext-install pdo_mysql
 ```
 
 You might wonder what `docker-php-ext-install` is. In short, it is a script
+
 provided by the official PHP Docker image that you can use to install
+
 extensions. For more information read [the documentation](https://hub.docker.com/_/php).
 
 Now that you have created the script with the prerequisites for your build
+
 environment, you can add it to `.gitlab-ci.yml`:
 
 ```yaml
@@ -88,6 +103,7 @@ test:app:
 ```
 
 Finally, commit your files and push them to GitLab to see your build succeeding
+
 (or failing).
 
 The final `.gitlab-ci.yml` should look similar to this:
@@ -105,9 +121,10 @@ test:app:
     - phpunit --configuration phpunit_myapp.xml
 ```
 
-### Test against different PHP versions in Docker builds
+### Test against Different PHP Versions in Docker Builds
 
 Testing against multiple versions of PHP is super easy. Just add another job
+
 with a different Docker image version and the runner does the rest:
 
 ```yaml
@@ -129,10 +146,12 @@ test:7.0:
     - phpunit --configuration phpunit_myapp.xml
 ```
 
-### Custom PHP configuration in Docker builds
+### Custom PHP Configuration in Docker Builds
 
 There are times where you need to customize your PHP environment by
+
 putting your `.ini` file into `/usr/local/etc/php/conf.d/`. For that purpose
+
 add a `before_script` action:
 
 ```yaml
@@ -142,12 +161,14 @@ before_script:
 
 Of course, `my_php.ini` must be present in the root directory of your repository.
 
-## Test PHP projects using the Shell executor
+## Test PHP Projects Using the Shell Executor
 
 The shell executor runs your job in a terminal session on your server. To test
+
 your projects, you must first ensure that all dependencies are installed.
 
 For example, in a VM running Debian 8, first update the cache, and then install
+
 `phpunit` and `php5-mysql`:
 
 ```shell
@@ -165,13 +186,16 @@ test:app:
 
 Finally, push to GitLab and let the tests begin!
 
-### Test against different PHP versions in Shell builds
+### Test against Different PHP Versions in Shell Builds
 
 The [phpenv](https://github.com/phpenv/phpenv) project allows you to manage different versions of PHP
+
 each with its own configuration. This is especially useful when testing PHP projects
+
 with the Shell executor.
 
 You have to install it on your build machine under the `gitlab-runner`
+
 user following [the upstream installation guide](https://github.com/phpenv/phpenv#installation).
 
 Using phpenv also allows you to configure the PHP environment with:
@@ -180,17 +204,24 @@ Using phpenv also allows you to configure the PHP environment with:
 phpenv config-add my_config.ini
 ```
 
-**Important note**: It seems `phpenv/phpenv`
+Important note: It seems `phpenv/phpenv`
+
  [is abandoned](https://github.com/phpenv/phpenv/issues/57). There is a fork
+
  at [`madumlao/phpenv`](https://github.com/madumlao/phpenv) that tries to bring
+
  the project back to life. [`CHH/phpenv`](https://github.com/CHH/phpenv) also
+
  seems like a good alternative. Picking any of the mentioned tools works
+
  with the basic phpenv commands. Guiding you to choose the right phpenv is out
+
  of the scope of this tutorial.*
 
-### Install custom extensions
+### Install Custom Extensions
 
 Because this is a pretty bare installation of the PHP environment, you may need
+
 some extensions that are not currently present on the build machine.
 
 To install additional extensions, execute:
@@ -200,13 +231,15 @@ pecl install <extension>
 ```
 
 It's not advised to add this to `.gitlab-ci.yml`. You should execute this
+
 command once, only to set up the build environment.
 
-## Extend your tests
+## Extend Your Tests
 
 ### Using `atoum`
 
 Instead of PHPUnit, you can use any other tool to run unit tests. For example
+
 you can use [`atoum`](https://github.com/atoum/atoum):
 
 ```yaml
@@ -220,7 +253,9 @@ test:atoum:
 ### Using Composer
 
 The majority of the PHP projects use Composer for managing their PHP packages.
+
 To execute Composer before running your tests, add the following to your
+
 `.gitlab-ci.yml`:
 
 ```yaml
@@ -241,26 +276,34 @@ default:
     - php composer.phar install
 ```
 
-## Access private packages or dependencies
+## Access Private Packages or Dependencies
 
 If your test suite needs to access a private repository, you need to configure
+
 the [SSH keys](../jobs/ssh_keys.md) to be able to clone it.
 
-## Use databases or other services
+## Use Databases or other Services
 
 Most of the time, you need a running database for your tests to be able to
+
 run. If you're using the Docker executor, you can leverage Docker to
+
 link to other containers. With GitLab Runner, this can be achieved by defining
+
 a `service`.
 
 This functionality is covered in [the CI services](../services/_index.md)
+
 documentation.
 
-## Example project
+## Example Project
 
 For your convenience, there is an [Example PHP Project](https://gitlab.com/gitlab-examples/php)
+
 that runs on [GitLab.com](https://gitlab.com) using publicly available
+
 [instance runners](../runners/_index.md).
 
 Want to hack on it? Fork it, commit, and push your changes. Within a few
+
 moments the changes are picked by a public runner and the job begins.

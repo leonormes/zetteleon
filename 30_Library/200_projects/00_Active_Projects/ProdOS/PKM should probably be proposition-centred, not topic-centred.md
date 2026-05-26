@@ -1,6 +1,6 @@
 ---
 created: 2026-04-23T15:27:21+00:00
-modified: 2026-05-26T09:04:24+00:00
+modified: 2026-05-26T11:44:31+00:00
 title: PKM should probably be proposition-centred, not topic-centred
 ---
 

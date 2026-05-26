@@ -1,7 +1,7 @@
 ---
 aliases: [Agentic ML Workflow, ML Engineering for Agents, SuperML Pattern]
 created: 2026-03-28T17:30:00Z
-modified: 2026-04-19T18:30:32+00:00
+modified: 2026-05-26T11:44:18+00:00
 status: seedling
 tags: [agents, ai, devops, engineering, machine-learning, workflows]
 title: SoT - ML Engineering for AI Agents

@@ -1,6 +1,6 @@
 ---
 created: 2026-04-30T10:35:58+00:00
-modified: 2026-04-30T10:38:00+00:00
+modified: 2026-05-26T11:44:37+00:00
 title: You are an infrastructure-as-code and Azure backup expert
 ---
 

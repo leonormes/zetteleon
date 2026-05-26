@@ -1,9 +1,10 @@
 ---
-title: OMOP Data Setup Ticket — Context Request
 created: 2026-05-08T09:00:17+00:00
+modified: 2026-05-26T11:43:45+00:00
+pieces_ids: [1efc1dd6-3ff8-4248-96af-d3820b31a90d, 9eda528f-ced1-4825-9509-3faa760999fe]
 source: pieces-ltm
-pieces_ids: [9eda528f-ced1-4825-9509-3faa760999fe, 1efc1dd6-3ff8-4248-96af-d3820b31a90d]
-tags: [raw, pieces]
+tags: [pieces, raw]
+title: 2026-05-08-pieces-omop-ticket-context
 ---
 
 ## Asset 1 (Pieces: 9eda528f-ced1-4825-9509-3faa760999fe)

@@ -2,7 +2,7 @@
 aliases: ["Cluster Networking", "K8s Networking", "Pod Networking"]
 created: 2025-12-16T13:52:08Z
 last_reviewed: "2025-12-23"
-modified: 2026-04-22T05:52:25+00:00
+modified: 2026-05-26T11:44:19+00:00
 status: "stable"
 tags: ["cni", "kubernetes", "service_discovery", "SoftwareEngineering/Networking", "SoftwareEngineering/networking/dns"]
 title: SoT - Kubernetes Networking & DNS

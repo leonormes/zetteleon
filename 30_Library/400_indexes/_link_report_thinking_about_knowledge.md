@@ -1,7 +1,7 @@
 ---
 created: 2026-04-14T13:25:19+00:00
 created_utc: "2026-04-14T11:45:00Z"
-modified: 2026-04-19T18:30:36+00:00
+modified: 2026-05-26T11:44:23+00:00
 source_atoms: "[[tmp_atoms_thinking_about_knowledge.md]]"
 status: tmp
 title: _link_report_thinking_about_knowledge

@@ -2,13 +2,12 @@
 aliases: []
 created: 2025-02-07T12:57:52Z
 last_reviewed: ""
-modified: 2026-04-27T13:50:00
+modified: 2026-05-26T11:44:24+00:00
 see_also: []
 status: ""
 superseded_by: ""
 supersedes: ""
-tags:
-  - SDLC
+tags: [SDLC]
 title: Nightmare pipeline
 type: ""
 updated:
@@ -46,9 +45,8 @@ The author's statement about bugs - that if they make it through, they "deserve 
 
 The final paragraph about code quality being "lovely, easy and delightful" contrasts beautifully with the violent imagery that preceded it. This reflects an important truth: while the testing process should be brutal, its purpose is to ensure the end product is elegant and reliable. The emotional weight given to allowing poor quality code through - that it should "break our hearts, infect our dreams" - speaks to the professional pride and responsibility that characterizes good development practices.
 
-
-
 ## Related
+
 - [[SOT - CI-CD Pipelines]] _This SoT defines the architecture and stages of a ruthlessly robust CI/CD pipeline, the very gauntlet the note demands._
-- [[SoT - Test-Driven Development]] _TDD is the primary mechanism by which code is ‘smashed, bent, and burned’ before it reaches production._
+- [[SoT - Test-Driven Development]] _TDD is the primary mechanism by which code is 'smashed, bent, and burned' before it reaches production._
 - [[Integrate Security into the Workflow (Shift Left)]] _Embedding security early ensures the pipeline is treacherous not just for functional bugs but for vulnerabilities too._

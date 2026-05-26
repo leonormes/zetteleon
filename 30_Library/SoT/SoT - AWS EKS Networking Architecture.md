@@ -2,7 +2,7 @@
 aliases: ["AWS VPC CNI vs Calico", "EKS IP Planning", "EKS Networking Requirements", "EKS Networking"]
 created: 2026-02-01T21:19:14+00:00
 last-synthesis: 2026-04-04
-modified: 2026-04-19T18:30:35+00:00
+modified: 2026-05-26T11:44:21+00:00
 source_of_truth: true
 status: evergreen
 synthesis-count: 3

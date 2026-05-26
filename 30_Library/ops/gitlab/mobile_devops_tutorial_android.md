@@ -1,20 +1,23 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:41+00:00
 group: Mobile DevOps
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-title: 'Tutorial: Build Android apps with GitLab Mobile DevOps'
+modified: 2026-05-26T11:44:02+00:00
+stage: Verify
+title: mobile_devops_tutorial_android
 ---
 
 In this tutorial, you'll create a pipeline by using GitLab CI/CD that builds your Android mobile app,
+
 signs it with your credentials, and distributes it to app stores.
 
 To set up mobile DevOps:
 
 1. [Set up your build environment](#set-up-your-build-environment)
-1. [Configure code signing with fastlane and Gradle](#configure-code-signing-with-fastlane-and-gradle)
-1. [Set up Android apps distribution with Google Play integration and fastlane](#set-up-android-apps-distribution-with-google-play-integration-and-fastlane)
+2. [Configure code signing with fastlane and Gradle](#configure-code-signing-with-fastlane-and-gradle)
+3. [Set up Android apps distribution with Google Play integration and fastlane](#set-up-android-apps-distribution-with-google-play-integration-and-fastlane)
 
-## Before you begin
+## Before You Begin
 
 Before you start this tutorial, make sure you have:
 
@@ -23,16 +26,18 @@ Before you start this tutorial, make sure you have:
 - A Google Play developer account
 - [`fastlane`](https://fastlane.tools) installed locally
 
-## Set up your build environment
+## Set up Your Build Environment
 
 Use [GitLab-hosted runners](../runners/_index.md),
+
 or set up [self-managed runners](https://docs.gitlab.com/runner/#use-self-managed-runners)
+
 for complete control over the build environment.
 
 Android builds use Docker images, offering multiple Android API versions.
 
 1. Create a `.gitlab-ci.yml` file in your repository root.
-1. Add a Docker image from [Fabernovel](https://hub.docker.com/r/fabernovel/android/tags):
+2. Add a Docker image from [Fabernovel](https://hub.docker.com/r/fabernovel/android/tags):
 
    ```yaml
    test:
@@ -42,12 +47,11 @@ Android builds use Docker images, offering multiple Android API versions.
        - fastlane test
    ```
 
-## Configure code signing with fastlane and Gradle
+## Configure Code Signing with Fastlane and Gradle
 
 To set up code signing for Android:
 
 1. Create a keystore:
-
    1. Run the following command to generate a keystore file:
 
       ```shell
@@ -55,7 +59,7 @@ To set up code signing for Android:
       -keyalg RSA -keysize 2048 -validity 10000
       ```
 
-   1. Put the keystore configuration in the `release-keystore.properties` file:
+   2. Put the keystore configuration in the `release-keystore.properties` file:
 
       ```plaintext
       storeFile=.secure_files/release-keystore.jks
@@ -64,10 +68,9 @@ To set up code signing for Android:
       storePassword=password
       ```
 
-   1. Upload both files as [Secure Files](../secure_files/_index.md) in your project settings.
-   1. Add both files to your `.gitignore` file so they aren't committed to version control.
-1. Configure Gradle to use the newly created keystore. In the app's `build.gradle` file:
-
+   3. Upload both files as [Secure Files](../secure_files/_index.md) in your project settings.
+   4. Add both files to your `.gitignore` file so they aren't committed to version control.
+2. Configure Gradle to use the newly created keystore. In the app's `build.gradle` file:
    1. Immediately after the plugins section, add:
 
       ```gradle
@@ -78,7 +81,7 @@ To set up code signing for Android:
       }
       ```
 
-   1. Anywhere in the `android` block, add:
+   2. Anywhere in the `android` block, add:
 
       ```gradle
       signingConfigs {
@@ -91,7 +94,7 @@ To set up code signing for Android:
       }
       ```
 
-   1. Add the `signingConfig` to the release build type:
+   3. Add the `signingConfig` to the release build type:
 
       ```gradle
       signingConfig signingConfigs.release
@@ -127,20 +130,20 @@ The following are sample `fastlane/Fastfile` and `.gitlab-ci.yml` files with thi
       - fastlane build
   ```
 
-## Set up Android apps distribution with Google Play integration and fastlane
+## Set up Android Apps Distribution with Google Play Integration and Fastlane
 
 Signed builds can be uploaded to the Google Play Store by using the Mobile DevOps Distribution integrations.
 
 1. [Create a Google service account](https://docs.fastlane.tools/actions/supply/#setup) in Google Cloud Platform and grant that account access to the project in Google Play.
-1. Enable the Google Play integration:
-   1. In the top bar, select **Search or go to** and find your project.
-   1. Select **Settings** > **Integrations**.
-   1. Select **Google Play**.
-   1. Under **Enable integration**, select the **Active** checkbox.
-   1. In **Package name**, enter the package name of the app. For example, `com.gitlab.app_name`.
-   1. In **Service account key (.JSON)** drag or upload your key file.
-   1. Select **Save changes**.
-1. Add the release step to your pipeline.
+2. Enable the Google Play integration:
+   1. In the top bar, select Search or go to and find your project.
+   2. Select Settings > Integrations.
+   3. Select Google Play.
+   4. Under Enable integration, select the Active checkbox.
+   5. In Package name, enter the package name of the app. For example, `com.gitlab.app_name`.
+   6. In Service account key (.JSON) drag or upload your key file.
+   7. Select Save changes.
+3. Add the release step to your pipeline.
 
 The following is a sample `fastlane/Fastfile`:
 
@@ -170,14 +173,17 @@ beta:
 ```
 
 <i class="fa-youtube-play" aria-hidden="true"></i>
+
 For an overview, see [Google Play integration demo](https://youtu.be/Fxaj3hna4uk).
 
 Congratulations! Your app is now set up for automated building, signing, and distribution. Try creating
+
 a merge request to trigger your first pipeline.
 
-## Related topics
+## Related Topics
 
 See the Mobile DevOps [Android Demo](https://gitlab.com/gitlab-org/incubation-engineering/mobile-devops/demo-projects/android_demo)
+
 project for a complete build, sign, and release pipeline example for Android.
 
 For additional reference materials, see the [DevSecOps section](https://about.gitlab.com/blog/categories/devsecops/) of the GitLab blog.

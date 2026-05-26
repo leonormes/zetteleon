@@ -1,11 +1,11 @@
 ---
 captured: 2026-04-09T11:58:06+01:00 2026-04-09T11:58:06+01:00
 created: 2026-04-09T10:58:07+00:00
-modified: 2026-04-24T11:46:18+00:00
+modified: 2026-05-26T11:44:35+00:00
 source: https://gemini.google.com/app/9d92852ac8f63b97
 status: archived
-tags:
-title: HEAD You said I got an email from ee  WE STILL NEED YOU...
+tags: []
+title: HEAD EE Payment error
 type: head
 ---
 

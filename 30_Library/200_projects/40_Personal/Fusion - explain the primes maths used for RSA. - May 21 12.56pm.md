@@ -1,26 +1,28 @@
 ---
 created: 2026-05-21T11:56:05+00:00
-modified: 2026-05-22T08:31:23+00:00
+modified: 2026-05-26T11:44:24+00:00
+title: Fusion - explain the primes maths used for RSA. - May 21 12.56pm
 ---
-# RSA Prime Mathematics and Manual Key Pair Generation on the CLI
 
-## The Math Behind RSA
+## RSA Prime Mathematics and Manual Key Pair Generation on the CLI
 
-RSA's security rests on a single hard problem: **given n = p × q, factoring n back into its two large prime factors p and q is computationally infeasible** when p and q are hundreds of digits long.
+### The Math Behind RSA
 
-### Step-by-Step Mathematics
+RSA's security rests on a single hard problem: given n = p × q, factoring n back into its two large prime factors p and q is computationally infeasible when p and q are hundreds of digits long.
+
+#### Step-by-Step Mathematics
 
 | Symbol                | Meaning                                                                         |
 | --------------------- | ------------------------------------------------------------------------------- |
-| **p, q**              | Two large distinct primes (secret)                                              |
-| **n = p × q**         | Modulus (public, appears in both keys)                                          |
-| **φ(n) = (p−1)(q−1)** | Euler's totient — counts integers coprime to n (never published)                |
-| **e**                 | Public exponent — chosen coprime to φ(n), commonly **65537** (0x10001)          |
-| **d**                 | Private exponent — modular inverse of e mod φ(n), i.e. **e·d ≡ 1 (mod φ(n))**   |
-| **Public key**        | (n, e)                                                                          |
-| **Private key**       | (n, d) (often stored with CRT coefficients: d mod (p−1), d mod (q−1) for speed) |
+| p, q              | Two large distinct primes (secret)                                              |
+| n = p × q         | Modulus (public, appears in both keys)                                          |
+| φ(n) = (p−1)(q−1) | Euler's totient—counts integers coprime to n (never published)                |
+| e                 | Public exponent—chosen coprime to φ(n), commonly 65537 (0x10001)          |
+| d                 | Private exponent—modular inverse of e mod φ(n), i.e. e·d ≡ 1 (mod φ(n))   |
+| Public key        | (n, e)                                                                          |
+| Private key       | (n, d) (often stored with CRT coefficients: d mod (p−1), d mod (q−1) for speed) |
 
-### Worked Example (small numbers for illustration)
+#### Worked Example (small Numbers for illustration)
 
 ```
 p = 61
@@ -31,16 +33,16 @@ e = 65537   (gcd(65537, 3120) = 1 ✓)
 d = 2753    (because 2753 × 65537 ≡ 1 mod 3120)
 ```
 
-**Encryption**:  c = m^e mod n  
-**Decryption**:  m = c^d mod n
+Encryption: c = m^e mod n
+Decryption: m = c^d mod n
 
 This works because Euler's theorem gives m^φ(n) ≡ 1 (mod n), so m^(e·d) ≡ m (mod n).
 
 ---
 
-## Manual Key Pair Generation Using CLI Primitives
+### Manual Key Pair Generation Using CLI Primitives
 
-### Method 1: Direct Generation (Recommended for Real Use)
+#### Method 1: Direct Generation (Recommended for Real Use)
 
 ```bash
 # Generate a 2048-bit RSA private key
@@ -54,11 +56,11 @@ openssl pkey -in private.pem -text -noout
 openssl pkey -in public.pem -text -noout
 ```
 
-### Method 2: Fully Manual Construction (Educational)
+#### Method 2: Fully Manual Construction (Educational)
 
 This mimics what OpenSSL does internally, using only CLI tools.
 
-#### Step 1 — Generate two large primes
+##### Step 1—Generate Two Large Primes
 
 ```bash
 # Generate random 1024-bit primes (OpenSSL's prime uses Miller–Rabin)
@@ -69,9 +71,9 @@ cat p.txt
 cat q.txt
 ```
 
-> **⚠️ Warning**: For production, always use established libraries. Manual prime generation risks weak entropy and insufficient primality testing.
+> ⚠️ Warning: For production, always use established libraries. Manual prime generation risks weak entropy and insufficient primality testing.
 
-#### Step 2 — Compute n and φ(n)
+##### Step 2—Compute N and φ(n)
 
 ```bash
 P=$(cat p.txt)
@@ -83,7 +85,7 @@ echo "n = $N"
 echo "φ(n) = $PHI"
 ```
 
-#### Step 3 — Choose e and verify coprimality
+##### Step 3—Choose E and Verify Coprimality
 
 ```bash
 E=65537
@@ -98,7 +100,7 @@ print(f'gcd({e}, {phi}) = {math.gcd(e, phi)}')
 "
 ```
 
-#### Step 4 — Compute d (modular inverse) using the Extended Euclidean Algorithm
+##### Step 4—Compute D (modular inverse) Using the Extended Euclidean Algorithm
 
 ```bash
 # Using Python
@@ -128,7 +130,7 @@ print(f"Verification: (d * e) mod phi = {(d * e) % phi}")
 PYEOF
 ```
 
-#### Step 5 — Assemble PEM-encoded keys
+##### Step 5—Assemble PEM-encoded Keys
 
 OpenSSL can convert the raw components into a PEM private key:
 
@@ -235,9 +237,9 @@ print("Keys written: private_manual.pem, public_manual.pem")
 PYEOF
 ```
 
-> **Note**: Hand-crafting the raw DER encoding is complex and error-prone. The Python `cryptography` library is the practical way to go from raw (p, q, d, n) to PEM files on the CLI.
+> Note: Hand-crafting the raw DER encoding is complex and error-prone. The Python `cryptography` library is the practical way to go from raw (p, q, d, n) to PEM files on the CLI.
 
-#### Step 6 — Verify the key pair
+##### Step 6—Verify the Key Pair
 
 ```bash
 # Hash both keys — they should match when the public key is derived from the private
@@ -249,7 +251,7 @@ echo "hello world" | openssl pkeyutl -encrypt -pubin -inkey public_manual.pem -o
 openssl pkeyutl -decrypt -inkey private_manual.pem -in encrypted.bin
 ```
 
-### Method 3: Using `ssh-keygen`
+#### Method 3: Using `ssh-keygen`
 
 ```bash
 ssh-keygen -t rsa -b 2048 -f id_rsa_manual -N ""
@@ -257,7 +259,7 @@ cat id_rsa_manual.pub
 ssh-keygen -lf id_rsa_manual
 ```
 
-### Method 4: Using GPG
+#### Method 4: Using GPG
 
 ```bash
 gpg --full-generate-key
@@ -267,7 +269,7 @@ gpg --export-secret-keys -a "your-email" > private_key.asc
 
 ---
 
-## Verification of the Math (Small-Number Example)
+### Verification of the Math (Small-Number Example)
 
 ```bash
 # Test with p=61, q=53
@@ -291,11 +293,11 @@ PY
 
 ---
 
-## Important Security Notes
+### Important Security Notes
 
-1. **Never use manual prime generation for production.** OpenSSL's `prime` command uses proper probabilistic primality testing (Miller–Rabin), but hand-rolled scripts may lack sufficient rounds or entropy.
-2. **Key size matters**: 2048-bit minimum; 4096-bit for long-term security.
-3. **CRT optimization**: Real RSA implementations store d mod (p−1) and d mod (q−1) alongside d to speed up decryption. This is automatically handled by libraries.
-4. **Padding**: Raw RSA (textbook RSA) is insecure. In practice, **OAEP padding** is applied for encryption and **PKCS#1 v1.5** or **PSS** for signatures. The `openssl pkeyutl` commands above use the default padding scheme.
-5. **Protect private keys**: Use `chmod 600` and consider encryption at rest.
-6. **Consider ECC** for better performance at equivalent security levels.
+1. Never use manual prime generation for production. OpenSSL's `prime` command uses proper probabilistic primality testing (Miller–Rabin), but hand-rolled scripts may lack sufficient rounds or entropy.
+2. Key size matters: 2048-bit minimum; 4096-bit for long-term security.
+3. CRT optimization: Real RSA implementations store d mod (p−1) and d mod (q−1) alongside d to speed up decryption. This is automatically handled by libraries.
+4. Padding: Raw RSA (textbook RSA) is insecure. In practice, OAEP padding is applied for encryption and PKCS#1 v1.5 or PSS for signatures. The `openssl pkeyutl` commands above use the default padding scheme.
+5. Protect private keys: Use `chmod 600` and consider encryption at rest.
+6. Consider ECC for better performance at equivalent security levels.

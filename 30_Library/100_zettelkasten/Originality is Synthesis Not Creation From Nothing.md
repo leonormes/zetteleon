@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-11-01T09:51:13Z
 last_reviewed: "null"
-modified: 2026-04-19T18:30:40+00:00
+modified: 2026-05-26T11:44:33+00:00
 status: "stable"
 tags: ["mental-model", "originality", "synthesis", "TheHuman/Creativity", "topic/creativity"]
 title: Originality is Synthesis Not Creation From Nothing

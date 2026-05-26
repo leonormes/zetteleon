@@ -2,7 +2,7 @@
 aliases: [Action Triggers]
 created: 2025-11-01T20:39:00Z
 last_reviewed: 2025-11-01
-modified: 2026-04-19T18:30:44+00:00
+modified: 2026-05-26T11:44:36+00:00
 status: evergreen
 tags: [implementation-intentions, procrastination, TheHuman/Habits, topic/productivity]
 title: Action Triggers Bridge the Gap Between Motion and Action

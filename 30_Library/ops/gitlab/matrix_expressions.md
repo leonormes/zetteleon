@@ -1,8 +1,10 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:41+00:00
 group: Pipeline Authoring
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-title: Matrix expressions in GitLab CI/CD
+modified: 2026-05-26T11:44:03+00:00
+stage: Verify
+title: matrix_expressions
 ---
 
 {{< details >}}
@@ -19,6 +21,7 @@ title: Matrix expressions in GitLab CI/CD
 {{< /history >}}
 
 Matrix expressions enable dynamic job dependencies based on [`parallel:matrix`](_index.md#parallelmatrix)
+
 identifiers, to create 1:1 mappings between `parallel:matrix` jobs.
 
 Matrix expressions have some limitations compared to [inputs expressions](expressions.md#inputs-context):
@@ -30,6 +33,7 @@ Matrix expressions have some limitations compared to [inputs expressions](expres
 ## Syntax
 
 Matrix expressions use the `$[[ matrix.IDENTIFIER ]]` syntax to reference a
+
 `parallel:matrix` identifier in job dependencies. For example:
 
 ```yaml
@@ -41,9 +45,10 @@ needs:
           ARCH: ['$[[ matrix.ARCH ]]']
 ```
 
-### Matrix expressions in `needs:parallel:matrix`
+### Matrix Expressions in `needs:parallel:matrix`
 
 You can use matrix expressions to dynamically reference matrix identifiers in job dependencies,
+
 enabling 1:1 mappings between matrix jobs without manually specifying all combinations.
 
 For example:
@@ -82,9 +87,10 @@ With `matrix.` expressions you do not need to manually specify each matrix combi
 
 Matrix expressions reference identifiers from the current job's matrix configuration only.
 
-### Use YAML anchors to reuse `parallel:matrix` configuration
+### Use YAML Anchors to Reuse `parallel:matrix` Configuration
 
 You can use [YAML anchors](yaml_optimization.md#anchors) to reuse the `parallel:matrix`
+
 configuration across multiple jobs with complex `parallel:matrix` configuration and dependencies.
 
 For example:
@@ -136,9 +142,10 @@ deploy_artifact:
 ```
 
 This configuration creates 24 jobs: 8 jobs in each stage (2 `OS` × 2 `ARCH` × 2 `VARIANT` combinations),
+
 with 1:1 dependencies between stages.
 
-### Use a subset of values
+### Use a Subset of Values
 
 You can combine matrix expressions with specific values to create selective subset of dependencies:
 
@@ -186,7 +193,7 @@ In this example:
 
 Alternatively, you can [configure all the dependencies manually](../jobs/job_control.md#specify-a-parallelized-job-using-needs-with-multiple-parallelized-jobs).
 
-## Related topics
+## Related Topics
 
 - [Parallel jobs with matrix](../jobs/job_control.md#parallelize-large-jobs)
 - [Job dependencies with `needs`](needs.md)

@@ -1,9 +1,11 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:41+00:00
+description: GitLab CI/CD `workflow` keyword usage for pipeline control, rule management, and preventing duplicate pipelines.
 group: Pipeline Authoring
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-description: GitLab CI/CD `workflow` keyword usage for pipeline control, rule management, and preventing duplicate pipelines.
-title: '`workflow` keyword'
+modified: 2026-05-26T11:43:57+00:00
+stage: Verify
+title: workflow
 ---
 
 {{< details >}}
@@ -14,12 +16,14 @@ title: '`workflow` keyword'
 {{< /details >}}
 
 Use the [`workflow`](_index.md#workflow) keyword in your `.gitlab-ci.yml` file to control
+
 when pipelines are created.
 
 The `workflow` keyword is evaluated before jobs. For example, if a job is configured to run
+
 for tags, but the workflow prevents tag pipelines, the job never runs.
 
-## Common `if` clauses for `workflow:rules`
+## Common `if` Clauses for `workflow:rules`
 
 Some example `if` clauses for `workflow: rules`:
 
@@ -32,7 +36,7 @@ Some example `if` clauses for `workflow: rules`:
 
 See the [common `if` clauses for `rules`](../jobs/job_rules.md#common-if-clauses-with-predefined-variables) for more examples.
 
-## `workflow: rules` examples
+## `workflow: rules` Examples
 
 In the following example:
 
@@ -49,10 +53,12 @@ workflow:
     - if: $CI_PIPELINE_SOURCE == "push"
 ```
 
-This example has strict rules, and pipelines do **not** run in any other case.
+This example has strict rules, and pipelines do not run in any other case.
 
 Alternatively, all of the rules can be `when: never`, with a final
+
 `when: always` rule. Pipelines that match the `when: never` rules do not run.
+
 All other pipeline types run. For example:
 
 ```yaml
@@ -66,19 +72,25 @@ workflow:
 ```
 
 This example prevents pipelines for schedules or `push` (branches and tags) pipelines.
-The final `when: always` rule runs all other pipeline types, **including** merge
+
+The final `when: always` rule runs all other pipeline types, including merge
+
 request pipelines.
 
-### Switch between branch pipelines and merge request pipelines
+### Switch between Branch Pipelines and Merge Request Pipelines
 
 To make the pipeline switch from branch pipelines to [merge request pipelines](../pipelines/merge_request_pipelines.md) after
+
 a merge request is created, add a `workflow: rules` section to your `.gitlab-ci.yml` file.
 
 If you use both pipeline types at the same time, [duplicate pipelines](../jobs/job_rules.md#avoid-duplicate-pipelines)
+
 might run at the same time. To prevent duplicate pipelines, use the
+
 [`CI_OPEN_MERGE_REQUESTS` variable](../variables/predefined_variables.md).
 
 The following example is for a project that runs branch and merge request pipelines only,
+
 but does not run pipelines for any other case. It runs:
 
 - Branch pipelines when a merge request is not open for the branch.
@@ -103,9 +115,11 @@ If GitLab attempts to trigger:
 - A branch pipeline, but there is no merge request open for the branch, run the branch pipeline.
 
 You can also add a rule to an existing `workflow` section to switch from branch pipelines
+
 to merge request pipelines when a merge request is created.
 
 Add this rule to the top of the `workflow` section, followed by the other rules that
+
 were already present:
 
 ```yaml
@@ -117,15 +131,21 @@ workflow:
 ```
 
 [Triggered pipelines](../triggers/_index.md) that run on a branch have a `$CI_COMMIT_BRANCH`
+
 set and could be blocked by a similar rule. Triggered pipelines have a pipeline source
+
 of `trigger` or `pipeline`, so `&& $CI_PIPELINE_SOURCE == "push"` ensures the rule
+
 does not block triggered pipelines.
 
-### Git Flow with merge request pipelines
+### Git Flow with Merge Request Pipelines
 
 You can use `workflow: rules` with merge request pipelines. With these rules,
+
 you can use [merge request pipeline features](../pipelines/merge_request_pipelines.md)
+
 with feature branches, while keeping long-lived branches to support multiple versions
+
 of your software.
 
 For example, to only run pipelines for your merge requests, tags, and protected branches:
@@ -141,12 +161,14 @@ workflow:
 
 This example assumes that your default branch or other long-lived branches are [protected](../../user/project/repository/branches/protected.md).
 
-### Skip pipelines for draft merge requests
+### Skip Pipelines for Draft Merge Requests
 
 You can use `workflow: rules` to skip pipelines for draft merge requests.
+
 This approach saves compute resources until development is complete.
 
 Use the `CI_MERGE_REQUEST_DRAFT` variable to check if a merge request is in draft state.
+
 This variable automatically detects all draft formats that GitLab supports.
 
 ```yaml
@@ -171,20 +193,24 @@ build-job:
 
 ## Troubleshooting
 
-### Merge request stuck with `Checking pipeline status.` message
+### Merge Request Stuck with `Checking pipeline status.` Message
 
 If a merge request displays `Checking pipeline status.`, but the message never goes
+
 away (the "spinner" never stops spinning), it might be due to `workflow:rules`.
-This issue can happen if a project has [**Pipelines must succeed**](../../user/project/merge_requests/auto_merge.md#require-a-successful-pipeline-for-merge)
+
+This issue can happen if a project has [Pipelines must succeed](../../user/project/merge_requests/auto_merge.md#require-a-successful-pipeline-for-merge)
+
 enabled, but the `workflow:rules` prevent a pipeline from running for the merge request.
 
 For example, with this workflow, merge requests cannot be merged, because no
+
 pipeline can run:
 
 ```yaml
 workflow:
   rules:
     - changes:
-        - .gitlab/**/**.md
+        - .gitlab//.md
       when: never
 ```

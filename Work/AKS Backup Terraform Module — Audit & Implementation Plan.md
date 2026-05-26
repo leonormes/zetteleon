@@ -1,7 +1,7 @@
 ---
 created: 2026-04-30T00:00:00+00:00
 jira: ["[FTFL-596](https://fitfile.atlassian.net/browse/FTFL-596)", "[FTFL-599](https://fitfile.atlassian.net/browse/FTFL-599)", "[FTFL-615](https://fitfile.atlassian.net/browse/FTFL-615)"]
-modified: 2026-04-30T11:06:18+00:00
+modified: 2026-05-26T11:43:56+00:00
 module: terraform-azure-aks-backup
 tags: [aks, azure, backup, ftfl-596, ftfl-599, ftfl-615, infrastructure, terraform]
 title: AKS Backup Terraform Module — Audit & Implementation Plan

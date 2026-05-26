@@ -2,7 +2,7 @@
 aliases: ["Certainty Gap", "Synthesis Gap"]
 created: 2025-11-06T20:01:02Z
 last_reviewed: "2025-11-06"
-modified: 2026-04-25T20:32:15+00:00
+modified: 2026-05-26T11:44:36+00:00
 status: "seedling"
 tags: ["collaboration", "communication", "group-dynamics", "knowledge", "TheHuman/Cognition/bias"]
 title: Certainty and Synthesis Gaps are Internal Barriers to Group Understanding

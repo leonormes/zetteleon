@@ -1,9 +1,11 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:40+00:00
+description: Job execution steps.
 group: Runner
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-title: Job execution flow
-description: Job execution steps.
+modified: 2026-05-26T11:44:05+00:00
+stage: Verify
+title: job_execution
 ---
 
 {{< details >}}
@@ -16,7 +18,9 @@ description: Job execution steps.
 The job execution flow describes how GitLab Runner processes CI/CD jobs from start to finish.
 
 GitLab Runner executes CI/CD jobs after it receives a job, retrieves secrets from a vault
+
 (if configured), and prepares the executor. Every CI/CD job executes as a series of sequential
+
 steps, with each step running in a separate shell context. The runner:
 
 1. Prepares the source code for the job:
@@ -27,17 +31,17 @@ steps, with each step running in a separate shell context. The runner:
    - Runs commands to update submodules if they exist
    - Runs `post_get_sources_script` if it's defined in the configuration
 
-1. Downloads cached files if [cache](../yaml/_index.md#cache) is configured and the previous step succeeded:
+2. Downloads cached files if [cache](../yaml/_index.md#cache) is configured and the previous step succeeded:
 
    - Exports variables to the shell context
    - Executes commands to download cached files from previous job runs
 
-1. Downloads [artifacts](../yaml/_index.md#artifacts) from previous jobs if artifact downloading is configured and the previous step succeeded:
+3. Downloads [artifacts](../yaml/_index.md#artifacts) from previous jobs if artifact downloading is configured and the previous step succeeded:
 
    - Exports variables to the shell context
    - Executes commands to download artifact files from previous jobs
 
-1. Executes the main job scripts if the previous step succeeded:
+4. Executes the main job scripts if the previous step succeeded:
 
    - Exports variables to the shell context
    - Runs `pre_build_script` if it's defined in the configuration
@@ -45,31 +49,31 @@ steps, with each step running in a separate shell context. The runner:
    - Executes the main `script` commands
    - Runs `post_build_script` if it's defined in the configuration
 
-1. Executes `after_script` commands if they're defined, regardless of whether previous steps failed:
+5. Executes `after_script` commands if they're defined, regardless of whether previous steps failed:
 
    - Exports variables to a new shell context
    - Executes the `after_script` commands
    - Failure of these commands doesn't influence the overall job status
 
-1. Uploads files to cache if cache uploading is configured, regardless of whether previous steps failed:
+6. Uploads files to cache if cache uploading is configured, regardless of whether previous steps failed:
 
    - Exports variables to the shell context
    - Executes commands to upload specified files to cache storage
    - Failure of this step may influence the overall job status
 
-1. Uploads artifacts if artifact uploading is configured, regardless of whether previous steps failed:
+7. Uploads artifacts if artifact uploading is configured, regardless of whether previous steps failed:
 
    - Exports variables to the shell context
    - Executes commands to upload specified files as job artifacts
    - Failure of this step may influence the overall job status
 
-1. Uploads referee data if referee uploading is configured, regardless of whether previous steps failed:
+8. Uploads referee data if referee uploading is configured, regardless of whether previous steps failed:
 
    - Exports variables to the shell context
    - Executes commands to upload referee information
    - Failure of these commands doesn't influence the overall job status
 
-1. Performs cleanup operations if they're configured, regardless of whether previous steps failed:
+9. Performs cleanup operations if they're configured, regardless of whether previous steps failed:
 
    - Exports variables to the shell context
    - Executes commands to delete file-based variables from the working directory
@@ -106,7 +110,7 @@ flowchart TD
     Cleanup --> End([Job Complete])
 ```
 
-## Shell context isolation
+## Shell Context Isolation
 
 Each shell context is isolated by design. The only connection between contexts is the shared working directory file system.
 

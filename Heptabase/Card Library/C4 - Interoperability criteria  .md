@@ -1,6 +1,6 @@
 ---
 created: 2026-05-04T08:01:26+00:00
-modified: 2026-05-08T12:53:37+00:00
+modified: 2026-05-26T11:43:55+00:00
 title: "C4 - Interoperability criteria  "
 ---
 
@@ -22,17 +22,17 @@ Please provide details relating to the specific technology and not generally to 
 
 | C4.1 | Does your product expose any Application Programme Interfaces (API) or integration channels for other consumers? | Yes \~\~ | No\~\~ | The NHS website developer portal provides guidance on [APIs and the NHS](https://developer.api.nhs.uk/). Government Digital Services provide guidance on [Open API best practice](https://www.gov.uk/government/collections/api-design-guidance). |
 
-| C4.1.1 | If yes, please provide detail and evidence: The API's (e.g., what they connect to) set out the healthcare standards of data interoperability e.g., Health Level Seven International (HL7) / Fast Healthcare Interoperability Resources (FHIR) Confirm that they follow Government Digital Services Open API Best Practice Confirm they are documented and freely available Third parties have reasonable access to connect If no, please set out why your product does not have APIs. | |  | |
+| C4.1.1 | If yes, please provide detail and evidence: The API's (e.g., what they connect to) set out the healthcare standards of data interoperability e.g., Health Level Seven International (HL7) / Fast Healthcare Interoperability Resources (FHIR) Confirm that they follow Government Digital Services Open API Best Practice Confirm they are documented and freely available Third parties have reasonable access to connect If no, please set out why your product does not have APIs. | | | |
 
 | C4.2 | Do you use NHS number to identify patient record data? | \~\~Yes | No | \~\~ No because product does not identify patient record data |
 
-| C4.2.1 | If yes, please confirm whether it uses NHS Login to establish a user's verified NHS number. If no, please set out the rationale, how your product established NHS number and the associated security measures in place. | Free text | |  |
+| C4.2.1 | If yes, please confirm whether it uses NHS Login to establish a user's verified NHS number. If no, please set out the rationale, how your product established NHS number and the associated security measures in place. | Free text | | |
 
 | C4.3 | Does your product have the capability for read/write operations with electronic health records (EHRs) using industry standards for secure interoperability (e.g. OAuth 2.0, TLS 1.2) | Yes \~\~ | No | No because the product does not read/ write into EHRs\~\~ |
 
-| C4.3.1 | If yes, please detail the standard | Free text | |  |
+| C4.3.1 | If yes, please detail the standard | Free text | | |
 
-| C4.3.2 | If no, please state the reasons and mitigations, methodology and security measures. | Free text | |  |
+| C4.3.2 | If no, please state the reasons and mitigations, methodology and security measures. | Free text | | |
 
 | C4.4 | Is your product a wearable or device, or does it integrate with them? | \~\~Yes | \~\~ No | If no, continue to section D. |
 

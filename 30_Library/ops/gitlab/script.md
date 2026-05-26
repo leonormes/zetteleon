@@ -1,9 +1,11 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:41+00:00
+description: Learn how to write GitLab CI/CD `script` sections and improve job logs with special syntax or configuration.
 group: Pipeline Authoring
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-description: Learn how to write GitLab CI/CD `script` sections and improve job logs with special syntax or configuration.
-title: Scripts and job logs
+modified: 2026-05-26T11:43:59+00:00
+stage: Verify
+title: script
 ---
 
 {{< details >}}
@@ -20,11 +22,14 @@ You can use special syntax in [`script`](_index.md#script) sections to:
 - [Create custom collapsible sections](../jobs/job_logs.md#create-custom-collapsible-sections)
   to simplify job log output.
 
-## Use special characters with `script`
+## Use Special Characters with `script`
 
 Sometimes, `script` commands must be wrapped in single or double quotes.
+
 For example, commands that contain a colon (`:`) must be wrapped in single quotes (`'`).
+
 The YAML parser needs to interpret the text as a string rather than
+
 a "key: value" pair.
 
 For example, this script uses a colon:
@@ -36,7 +41,9 @@ job:
 ```
 
 To be considered valid YAML, you must wrap the entire command in single quotes. If
+
 the command already uses single quotes, you should change them to double quotes (`"`)
+
 if possible:
 
 ```yaml
@@ -51,9 +58,10 @@ Be careful when using these characters as well:
 
 - `{`, `}`, `[`, `]`, `,`, `&`, `*`, `#`, `?`, `|`, `-`, `<`, `>`, `=`, `!`, `%`, `@`, `` ` ``.
 
-## Ignore non-zero exit codes
+## Ignore Non-zero Exit Codes
 
 When script commands return an exit code other than zero, the job fails and further
+
 commands do not execute.
 
 Store the exit code in a variable to avoid this behavior:
@@ -66,9 +74,10 @@ job:
     - if [ $exit_code -ne 0 ]; then echo "Previous command failed"; fi;
 ```
 
-## Set a default `before_script` or `after_script` for all jobs
+## Set a Default `before_script` or `after_script` for All Jobs
 
 You can use [`before_script`](_index.md#before_script) and [`after_script`](_index.md#after_script)
+
 with [`default`](_index.md#default):
 
 - Use `before_script` with `default` to define a default array of commands that
@@ -77,6 +86,7 @@ with [`default`](_index.md#default):
   that should run after any job completes or is canceled.
 
 You can overwrite a default by defining a different one in a job. To ignore the default
+
 use `before_script: []` or `after_script: []`:
 
 ```yaml
@@ -100,7 +110,7 @@ job2:
   after_script: []
 ```
 
-## Skip `after_script` commands if a job is canceled
+## Skip `after_script` Commands if a Job is Canceled
 
 {{< history >}}
 
@@ -110,17 +120,21 @@ job2:
 {{< /history >}}
 
 [`after_script`](_index.md) commands run if a job is canceled while the `before_script`
+
 or `script` section of that job are running.
 
 The job's status in the UI is `canceling` while the `after_script` are executing,
+
 and changes to `canceled` after the `after_script` commands complete. The `$CI_JOB_STATUS`
+
 predefined variable has a value of `canceled` while the `after_script` commands are running.
 
 To prevent `after_script` commands running after canceling a job, configure the `after_script`
+
 section to:
 
 1. Check the `$CI_JOB_STATUS` predefined variable at the start of the `after_script` section.
-1. End execution early if the value is `canceled`.
+2. End execution early if the value is `canceled`.
 
 For example:
 
@@ -133,9 +147,10 @@ job1:
     - my-after-script.sh
 ```
 
-## Split long commands
+## Split long Commands
 
 You can split long commands into multiline commands to improve readability with
+
 `|` (literal) and `>` (folded) [YAML multiline block scalar indicators](https://yaml-multiline.info/).
 
 > [!warning]
@@ -146,9 +161,13 @@ You can split long commands into multiline commands to improve readability with
 > command to each command string.
 
 You can use the `|` (literal) YAML multiline block scalar indicator to write
+
 commands over multiple lines in the `script` section of a job description.
+
 Each line is treated as a separate command.
+
 Only the first command is repeated in the job log, but additional
+
 commands are still executed:
 
 ```yaml
@@ -170,6 +189,7 @@ Third command line.
 ```
 
 The `>` (folded) YAML multiline block scalar indicator treats empty lines between
+
 sections as the start of a new command:
 
 ```yaml
@@ -183,6 +203,7 @@ job:
 ```
 
 This behaves similarly to multiline commands without the `>` or `|` block
+
 scalar indicators:
 
 ```yaml
@@ -203,12 +224,15 @@ Second command line.
 ```
 
 When you omit the `>` or `|` block scalar indicators, GitLab concatenates non-empty
+
 lines to form the command. Make sure the lines can run when concatenated.
 
 <!-- vale gitlab_base.MeaningfulLinkWords = NO -->
 
 [Shell here documents](https://en.wikipedia.org/wiki/Here_document) work with the
+
 `|` and `>` operators as well. The following example transliterates lowercase letters
+
 to upper case:
 
 <!-- vale gitlab_base.MeaningfulLinkWords = YES -->
@@ -231,9 +255,10 @@ $ tr a-z A-Z << END_TEXT # collapsed multiline command
   FOUR FIVE SIX
 ```
 
-## Add color codes to script output
+## Add Color Codes to Script Output
 
 Script output can be colored using [ANSI escape codes](https://en.wikipedia.org/wiki/ANSI_escape_code#Colors),
+
 or by running commands or programs that output ANSI escape codes.
 
 For example, using [Bash with color codes](https://misc.flogisoft.com/bash/tip_colors_and_formatting):
@@ -245,6 +270,7 @@ job:
 ```
 
 You can define the color codes in Shell environment variables, or even [CI/CD variables](../variables/_index.md#define-a-cicd-variable-in-the-gitlab-ciyml-file),
+
 which makes the commands easier to read and reusable.
 
 For example, using the previous example and environment variables defined in a `before_script`:

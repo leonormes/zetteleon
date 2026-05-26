@@ -1,8 +1,10 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:41+00:00
 group: Pipeline Execution
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-title: Authenticate with registry in Docker-in-Docker
+modified: 2026-05-26T11:44:15+00:00
+stage: Verify
+title: authenticate_registry
 ---
 
 {{< details >}}
@@ -13,7 +15,9 @@ title: Authenticate with registry in Docker-in-Docker
 {{< /details >}}
 
 When you use Docker-in-Docker, the
+
 [standard authentication methods](using_docker_images.md#access-an-image-from-a-private-container-registry)
+
 do not work, because a fresh Docker daemon is started with the service.
 
 ## Option 1: Run `docker login`
@@ -39,23 +43,33 @@ build:
 ```
 
 To sign in to Docker Hub, leave `$DOCKER_REGISTRY`
+
 empty or remove it.
 
-## Option 2: Mount `~/.docker/config.json` on each job
+## Option 2: Mount `~/.docker/config.json` on Each Job
 
 If you are an administrator for GitLab Runner, you can mount a file
+
 with the authentication configuration to `~/.docker/config.json`.
+
 Then every job that the runner picks up is already authenticated. If you
+
 are using the official `docker:24.0.5` image, the home directory is
+
 under `/root`.
 
 If you mount the configuration file, any `docker` command
+
 that modifies the `~/.docker/config.json` fails. For example, `docker login`
+
 fails, because the file is mounted as read-only. Do not change it from
+
 read-only, because this causes problems.
 
 Here is an example of `/opt/.docker/config.json` that follows the
+
 [`DOCKER_AUTH_CONFIG`](using_docker_images.md#determine-your-docker_auth_config-data)
+
 documentation:
 
 ```json
@@ -71,7 +85,9 @@ documentation:
 ### Docker
 
 Update the
+
 [volume mounts](https://docs.gitlab.com/runner/configuration/advanced-configuration/#volumes-in-the-runnersdocker-section)
+
 to include the file.
 
 ```toml
@@ -87,6 +103,7 @@ to include the file.
 ### Kubernetes
 
 Create a [ConfigMap](https://kubernetes.io/docs/concepts/configuration/configmap/) with the content
+
 of this file. You can do this with a command like:
 
 ```shell
@@ -94,6 +111,7 @@ kubectl create configmap docker-client-config --namespace gitlab-runner --from-f
 ```
 
 Update the [volume mounts](https://docs.gitlab.com/runner/executors/kubernetes/#custom-volume-mount)
+
 to include the file.
 
 ```toml
@@ -112,8 +130,11 @@ to include the file.
 ## Option 3: Use `DOCKER_AUTH_CONFIG`
 
 If you already have
+
 [`DOCKER_AUTH_CONFIG`](using_docker_images.md#determine-your-docker_auth_config-data)
+
 defined, you can use the variable and save it in
+
 `~/.docker/config.json`.
 
 You can define this authentication in several ways:
@@ -124,6 +145,7 @@ You can define this authentication in several ways:
 - In [`script`](../yaml/_index.md#script).
 
 The following example shows [`before_script`](../yaml/_index.md#before_script).
+
 The same commands apply for any solution you implement.
 
 ```yaml

@@ -2,7 +2,7 @@
 aliases: ["Evolving Notes", "Living Note System", "NeuroStack Workflow", "The Merge Protocol"]
 created: 2025-11-13T00:00:00Z
 last_reviewed: "2026-03-28"
-modified: 2026-04-19T18:30:34+00:00
+modified: 2026-05-26T11:44:20+00:00
 status: evergreen
 tags: ["ai", "knowledge-management", "pkm", "synthesis", "TheHuman/Cognition", "thinking"]
 title: SoT - Evolutionary Note System

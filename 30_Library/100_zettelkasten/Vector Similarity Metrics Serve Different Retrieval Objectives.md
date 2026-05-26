@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-04-19T18:30:39+00:00
+modified: 2026-05-26T11:44:31+00:00
 tags: [cosine-similarity, euclidean-distance, similarity-metrics, vector-math]
 title: Vector Similarity Metrics Serve Different Retrieval Objectives
 ---

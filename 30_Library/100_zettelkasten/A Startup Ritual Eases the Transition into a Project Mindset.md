@@ -2,7 +2,7 @@
 aliases: ["Startup Ritual", "Transition Ritual"]
 created: 2025-11-11T19:05:13Z
 last_reviewed: ""
-modified: 2026-04-19T18:30:44+00:00
+modified: 2026-05-26T11:44:37+00:00
 status: "seedling"
 tags: ["rituals", "TheHuman/Habits", "topic/productivity"]
 title: A Startup Ritual Eases the Transition into a Project Mindset

@@ -2,7 +2,7 @@
 aliases: [Task Decomposition Protocol, Vague-to-Action]
 created: 2026-04-04T12:00:00Z
 last-synthesis: 2026-04-04
-modified: 2026-04-19T18:30:35+00:00
+modified: 2026-05-26T11:44:21+00:00
 status: evergreen
 tags: [execution, prodos, protocol, task-decomposition]
 title: Protocol - Vague-to-Action

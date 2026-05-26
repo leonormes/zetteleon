@@ -1,8 +1,10 @@
 ---
-stage: Software Supply Chain Security
+created: 2026-05-16T10:16:41+00:00
 group: Authorization
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-title: Fine-grained permissions for CI/CD job tokens
+modified: 2026-05-26T11:44:08+00:00
+stage: Software Supply Chain Security
+title: fine_grained_permissions
 ---
 
 <!--
@@ -31,11 +33,12 @@ title: Fine-grained permissions for CI/CD job tokens
 {{< /history >}}
 
 You can use fine-grained permissions to explicitly allow access to a limited set of REST API endpoints.
+
 These permissions are applied to the CI/CD job tokens in a specified project.
 
 Share your feedback in [issue 519575](https://gitlab.com/gitlab-org/gitlab/-/issues/519575).
 
-## Add fine-grained permissions to the job token allowlist
+## Add Fine-grained Permissions to the Job Token Allowlist
 
 Prerequisites:
 
@@ -43,29 +46,32 @@ Prerequisites:
 - You must enable the use of fine-grained permissions for a project.
 
 You can add fine-grained permissions to groups and projects on your job token allowlist. This allows
+
 them to use job tokens to access specific project resources and more accurately control which
+
 resources are available to these groups and projects.
 
 To add fine-grained permissions to groups or projects on the job token allowlist:
 
-1. In the top bar, select **Search or go to** and find your project.
-1. Select **Settings** > **CI/CD**.
-1. Expand **Job token permissions**.
-1. In the **CI/CD job token allowlist** section, select **Add**.
-1. From the dropdown list, select **Group or project**.
-1. Enter the path to an existing group or project.
-1. Select **Fine-grained permissions**.
-1. Grant permissions to any [available API endpoints](#available-api-endpoints).
-1. Select **Add**.
+1. In the top bar, select Search or go to and find your project.
+2. Select Settings > CI/CD.
+3. Expand Job token permissions.
+4. In the CI/CD job token allowlist section, select Add.
+5. From the dropdown list, select Group or project.
+6. Enter the path to an existing group or project.
+7. Select Fine-grained permissions.
+8. Grant permissions to any [available API endpoints](#available-api-endpoints).
+9. Select Add.
 
 GitLab adds the group or project to the job token allowlist with the specified permissions. The group or project can now
+
 access any allowed resources in the current project.
 
-## Available API endpoints
+## Available API Endpoints
 
 CI/CD job tokens can access the following REST API endpoints:
 
-### Deployments endpoints
+### Deployments Endpoints
 
 | Permission | API endpoint | Permission name | Scope |
 | ---------- | ------------ | --------------- | ----- |
@@ -77,7 +83,7 @@ CI/CD job tokens can access the following REST API endpoints:
 | Delete a specific deployment | `DELETE /projects/:id/deployments/:deployment_id` | `ADMIN_DEPLOYMENTS` | Read and write |
 | Update a deployment | `PUT /projects/:id/deployments/:deployment_id` | `ADMIN_DEPLOYMENTS` | Read and write |
 
-### Environments endpoints
+### Environments Endpoints
 
 | Permission | API endpoint | Permission name | Scope |
 | ---------- | ------------ | --------------- | ----- |
@@ -90,7 +96,7 @@ CI/CD job tokens can access the following REST API endpoints:
 | Stop stale environments | `POST /projects/:id/environments/stop_stale` | `ADMIN_ENVIRONMENTS` | Read and write |
 | Update an existing environment | `PUT /projects/:id/environments/:environment_id` | `ADMIN_ENVIRONMENTS` | Read and write |
 
-### Jobs endpoints
+### Jobs Endpoints
 
 | Permission | API endpoint | Permission name | Scope |
 | ---------- | ------------ | --------------- | ----- |
@@ -103,7 +109,7 @@ CI/CD job tokens can access the following REST API endpoints:
 | Get pipeline jobs | `GET /projects/:id/pipelines/:pipeline_id/jobs` | `READ_JOBS` | Read |
 | List all files in the artifacts archive | `GET /projects/:id/jobs/:job_id/artifacts/tree` | `READ_JOBS` | Read |
 
-### Merge requests endpoints
+### Merge Requests Endpoints
 
 | Permission | API endpoint | Permission name | Scope |
 | ---------- | ------------ | --------------- | ----- |
@@ -112,7 +118,7 @@ CI/CD job tokens can access the following REST API endpoints:
 | Get single merge request | `GET /projects/:id/merge_requests/:merge_request_iid` | `READ_MERGE_REQUESTS` | Read |
 | List project merge requests | `GET /projects/:id/merge_requests` | `READ_MERGE_REQUESTS` | Read |
 
-### Packages endpoints
+### Packages Endpoints
 
 | Permission | API endpoint | Permission name | Scope |
 | ---------- | ------------ | --------------- | ----- |
@@ -209,7 +215,7 @@ CI/CD job tokens can access the following REST API endpoints:
 | Workhorse authorize the conan recipe file | `PUT /projects/:id/packages/conan/v2/conans/:package_name/:package_version/:package_username/:package_channel/revisions/:recipe_revision/files/:file_name/authorize` | `ADMIN_PACKAGES` | Read and write |
 | Workhorse authorize the maven package file upload | `PUT /projects/:id/packages/maven/*path/:file_name/authorize` | `ADMIN_PACKAGES` | Read and write |
 
-### Pipelines endpoints
+### Pipelines Endpoints
 
 | Permission | API endpoint | Permission name | Scope |
 | ---------- | ------------ | --------------- | ----- |
@@ -219,7 +225,7 @@ CI/CD job tokens can access the following REST API endpoints:
 | Gets a specific pipeline for the project | `GET /projects/:id/pipelines/:pipeline_id` | `READ_PIPELINES` | Read |
 | Updates pipeline metadata | `PUT /projects/:id/pipelines/:pipeline_id/metadata` | `ADMIN_PIPELINES` | Read and write |
 
-### Releases endpoints
+### Releases Endpoints
 
 | Permission | API endpoint | Permission name | Scope |
 | ---------- | ------------ | --------------- | ----- |
@@ -239,7 +245,7 @@ CI/CD job tokens can access the following REST API endpoints:
 | Update a release | `PUT /projects/:id/releases/:tag_name` | `ADMIN_RELEASES` | Read and write |
 | Update a release link | `PUT /projects/:id/releases/:tag_name/assets/links/:link_id` | `ADMIN_RELEASES` | Read and write |
 
-### Repositories endpoints
+### Repositories Endpoints
 
 | Permission | API endpoint | Permission name | Scope |
 | ---------- | ------------ | --------------- | ----- |
@@ -250,7 +256,7 @@ CI/CD job tokens can access the following REST API endpoints:
 | Get a specific commit of a project | `GET /projects/:id/repository/commits/:sha` | `READ_REPOSITORIES` | Read |
 | Get raw file contents from the repository | `GET /projects/:id/repository/files/:file_path/raw` | `READ_REPOSITORIES` | Read |
 
-### Secure files endpoints
+### Secure Files Endpoints
 
 | Permission | API endpoint | Permission name | Scope |
 | ---------- | ------------ | --------------- | ----- |
@@ -260,7 +266,7 @@ CI/CD job tokens can access the following REST API endpoints:
 | Create a secure file | `POST /projects/:id/secure_files` | `ADMIN_SECURE_FILES` | Read and write |
 | Remove a secure file | `DELETE /projects/:id/secure_files/:secure_file_id` | `ADMIN_SECURE_FILES` | Read and write |
 
-### Terraform state endpoints
+### Terraform State Endpoints
 
 | Permission | API endpoint | Permission name | Scope |
 | ---------- | ------------ | --------------- | ----- |
@@ -272,14 +278,14 @@ CI/CD job tokens can access the following REST API endpoints:
 | Lock a Terraform state of a certain name | `POST /projects/:id/terraform/state/:name/lock` | `ADMIN_TERRAFORM_STATE` | Read and write |
 | Unlock a Terraform state of a certain name | `DELETE /projects/:id/terraform/state/:name/lock` | `ADMIN_TERRAFORM_STATE` | Read and write |
 
-### Work items endpoints
+### Work Items Endpoints
 
 | Permission | API endpoint | Permission name | Scope |
 | ---------- | ------------ | --------------- | ----- |
 | Get a list of project issues | `GET /projects/:id/issues` | `READ_WORK_ITEMS` | Read |
 | Get a single project issue | `GET /projects/:id/issues/:issue_iid` | `READ_WORK_ITEMS` | Read |
 
-## Unavailable API endpoints
+## Unavailable API Endpoints
 
 CI/CD job tokens cannot access the following endpoints:
 

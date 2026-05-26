@@ -1,12 +1,11 @@
 ---
-created: 2026-05-11T16:54:14+00:00
-modified: 2026-05-12T10:40:40+00:00
-title: HEAD Fallibilism vs. justificationism in personal knowledge management 1
 captured: 2026-05-11T17:54:12+01:00 2026-05-11T17:54:12+01:00
+created: 2026-05-11T16:54:14+00:00
+modified: 2026-05-26T11:44:37+00:00
 source: https://claude.ai/chat/ae1b6361-1d70-46ad-b327-e6b5bc26e3bb
 status: processing
-tags:
-  - input
+tags: [input]
+title: How Fallibilism Shifts Your Knowledge System Architecture
 type: head
 ---
 

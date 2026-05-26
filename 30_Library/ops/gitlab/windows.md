@@ -1,8 +1,10 @@
 ---
-stage: Production Engineering
+created: 2026-05-16T10:16:42+00:00
 group: Runners Platform
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-title: Hosted runners on Windows
+modified: 2026-05-26T11:43:57+00:00
+stage: Production Engineering
+title: windows
 ---
 
 {{< details >}}
@@ -14,17 +16,24 @@ title: Hosted runners on Windows
 {{< /details >}}
 
 Hosted runners on Windows autoscale by launching virtual machines on
+
 the Google Cloud Platform. This solution uses an
+
 [autoscaling driver](https://gitlab.com/gitlab-org/ci-cd/custom-executor-drivers/autoscaler/-/blob/main/docs/README.md)
+
 developed by GitLab for the [custom executor](https://docs.gitlab.com/runner/executors/custom/).
+
 Hosted runners on Windows are in [beta](../../../policy/development_stages_support.md#beta).
 
 GitLab keeps iterating to get Windows runners in a stable state and
+
 [generally available](../../../policy/development_stages_support.md#generally-available).
+
 You can follow the work towards this goal in the
+
 [related epic](https://gitlab.com/groups/gitlab-org/-/epics/2162).
 
-## Machine types available for Windows
+## Machine Types Available for Windows
 
 GitLab offers the following machine type for hosted runners on Windows.
 
@@ -32,9 +41,10 @@ GitLab offers the following machine type for hosted runners on Windows.
 | --------------------------- | ----- | ------ | ------- |
 | `saas-windows-medium-amd64` | 2     | 7.5 GB | 75 GB   |
 
-## Supported Windows versions
+## Supported Windows Versions
 
 The Windows runner virtual machine instances do not use the GitLab Docker executor. This means that you can't specify
+
 [`image`](../../yaml/_index.md#image) or [`services`](../../yaml/_index.md#services) in your pipeline configuration.
 
 You can execute your job in one of the following Windows versions:
@@ -44,14 +54,16 @@ You can execute your job in one of the following Windows versions:
 | Windows 2022 | `GA`   |
 
 You can find a full list of available pre-installed software in
+
 the [pre-installed software documentation](https://gitlab.com/gitlab-org/ci-cd/shared-runners/images/gcp/windows-containers/-/blob/main/cookbooks/preinstalled-software/attributes/default.rb).
 
-## Supported shell
+## Supported Shell
 
 Hosted runners on Windows have PowerShell configured as the shell.
+
 The `script` section of your `.gitlab-ci.yml` file therefore requires PowerShell commands.
 
-## Example `.gitlab-ci.yml` file
+## Example `.gitlab-ci.yml` File
 
 Use this example `.gitlab-ci.yml` file to get started with hosted runners on Windows:
 
@@ -79,7 +91,7 @@ test:
     - echo "running scripts in the test job"
 ```
 
-## Known issues
+## Known Issues
 
 - For more information about support for beta features, see [beta](../../../policy/development_stages_support.md#beta).
 - The average provisioning time for a new Windows virtual machine (VM) is five minutes, so

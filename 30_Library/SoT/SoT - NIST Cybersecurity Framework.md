@@ -2,7 +2,7 @@
 aliases: ["Cybersecurity Governance", "NIST CSF", "NIST Cybersecurity Framework 2.0"]
 created: 2026-04-02T11:00:00Z
 last_synthesis: 2026-04-02
-modified: 2026-04-19T18:30:32+00:00
+modified: 2026-05-26T11:44:18+00:00
 source_of_truth: true
 status: evergreen
 synthesis-count: 1

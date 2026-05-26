@@ -2,7 +2,7 @@
 aliases: [Deployment Strategy, FitFile Cloud Architecture]
 created: 2025-12-14T18:04:39Z
 last_reviewed: "2026-03-28"
-modified: 2026-04-19T18:30:33+00:00
+modified: 2026-05-26T11:44:19+00:00
 status: evergreen
 tags: [architecture, azure, deployment, fitfile, gitops, kubernetes, sot]
 title: SoT - FitFile Deployment - Strategy & Architecture

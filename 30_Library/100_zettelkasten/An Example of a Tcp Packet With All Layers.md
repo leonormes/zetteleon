@@ -2,7 +2,7 @@
 aliases: ["Packet Anatomy", "TCP Packet Example"]
 created: 2025-10-21T13:23:09Z
 last_reviewed: ""
-modified: 2026-04-19T18:30:44+00:00
+modified: 2026-05-26T11:44:36+00:00
 status: "evergreen"
 tags: ["SoftwareEngineering/Networking"]
 title: An Example of a Tcp Packet With All Layers

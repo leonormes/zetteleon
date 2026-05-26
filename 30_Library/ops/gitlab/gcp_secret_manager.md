@@ -1,9 +1,11 @@
 ---
-stage: Software Supply Chain Security
+created: 2026-05-16T10:16:41+00:00
+description: Learn how to use GCP Secret Manager secrets in GitLab CI/CD pipelines
 group: Pipeline Security
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-description: Learn how to use GCP Secret Manager secrets in GitLab CI/CD pipelines
-title: Use GCP Secret Manager secrets in GitLab CI/CD
+modified: 2026-05-26T11:44:07+00:00
+stage: Software Supply Chain Security
+title: gcp_secret_manager
 ---
 
 {{< details >}}
@@ -20,17 +22,18 @@ title: Use GCP Secret Manager secrets in GitLab CI/CD
 {{< /history >}}
 
 You can use secrets stored in the [Google Cloud (GCP) Secret Manager](https://cloud.google.com/security/products/secret-manager)
+
 in your GitLab CI/CD pipelines.
 
 The flow for using GitLab with GCP Secret Manager is:
 
 1. GitLab issues an ID token to the CI/CD job.
-1. The runner authenticates to GCP using the ID token.
-1. GCP verifies the ID token with GitLab.
-1. GCP issues a short-lived access token.
-1. The runner accesses the secret data using the access token.
-1. GCP checks IAM secret permission on the access token's principal.
-1. GCP returns the secret data to the runner.
+2. The runner authenticates to GCP using the ID token.
+3. GCP verifies the ID token with GitLab.
+4. GCP issues a short-lived access token.
+5. The runner accesses the secret data using the access token.
+6. GCP checks IAM secret permission on the access token's principal.
+7. GCP returns the secret data to the runner.
 
 To use GitLab with GCP Secret Manager, you must:
 
@@ -42,14 +45,15 @@ To use GitLab with GCP Secret Manager, you must:
 ## Configure GCP IAM Workload Identity Federation (WIF)
 
 GCP IAM WIF must be configured to recognize ID tokens issued by GitLab and assign an appropriate principal to them.
+
 The principal is used to authorize access to the Secret Manager resources:
 
-1. In GCP Console, go to **IAM & Admin** > **Workload Identity Federation**.
-1. Select **CREATE POOL** and create a new identity pool with a unique name, for example `gitlab-pool`.
-1. Select **ADD PROVIDER** to add a new OIDC Provider to the Identity Pool with a unique name, for example `gitlab-provider`.
-   1. Set **Issuer (URL)** to the GitLab URL, for example `https://gitlab.com`.
-   1. Select **Default audience**, or select **Allowed audiences** for a custom audience, which is used in the `aud` for the GitLab CI/CD ID token.
-1. Under **Attribute Mapping**, create the following mappings, where:
+1. In GCP Console, go to IAM & Admin > Workload Identity Federation.
+2. Select CREATE POOL and create a new identity pool with a unique name, for example `gitlab-pool`.
+3. Select ADD PROVIDER to add a new OIDC Provider to the Identity Pool with a unique name, for example `gitlab-provider`.
+   1. Set Issuer (URL) to the GitLab URL, for example `https://gitlab.com`.
+   2. Select Default audience, or select Allowed audiences for a custom audience, which is used in the `aud` for the GitLab CI/CD ID token.
+4. Under Attribute Mapping, create the following mappings, where:
 
    - `attribute.X` is the name of the attribute to include as a claim in the Google token.
    - `assertion.X` is the value to extract from the [GitLab claim](../cloud_services/_index.md#id-token-authentication-for-cloud-services).
@@ -59,13 +63,13 @@ The principal is used to authorize access to the Secret Manager resources:
    | `google.subject`              | `assertion.sub`         |
    | `attribute.gitlab_project_id` | `assertion.project_id`  |
 
-## Grant access to GCP IAM principal
+## Grant Access to GCP IAM Principal
 
 After setting up WIF, you must grant the WIF principal access to the secrets in Secret Manager.
 
-1. In GCP Console, go to **Security** > **Secret Manager**.
-1. Select the name of the secret you wish to grant access to, to view the secret's details.
-1. From the **PERMISSIONS** tab, select **GRANT ACCESS** to grant access to the principal set created through the WIF provider.
+1. In GCP Console, go to Security > Secret Manager.
+2. Select the name of the secret you wish to grant access to, to view the secret's details.
+3. From the PERMISSIONS tab, select GRANT ACCESS to grant access to the principal set created through the WIF provider.
    The external identity format is:
 
    ```plaintext
@@ -80,11 +84,12 @@ After setting up WIF, you must grant the WIF principal access to the secrets in 
      for example `gitlab-pool`.
    - `GITLAB_PROJECT_ID`: The GitLab project ID found on the [project overview page](../../user/project/working_with_projects.md#find-the-project-id).
 
-1. Assign the role **Secret Manager Secret Accessor**.
+4. Assign the role Secret Manager Secret Accessor.
 
-## Configure GitLab CI/CD to use GCP Secret Manager secrets
+## Configure GitLab CI/CD to Use GCP Secret Manager Secrets
 
 You must [add these CI/CD variables](../variables/_index.md#for-a-project) to provide details about
+
 your GCP Secret Manager:
 
 - `GCP_PROJECT_NUMBER`: The GCP [Project Number](https://cloud.google.com/resource-manager/docs/creating-managing-projects).
@@ -92,6 +97,7 @@ your GCP Secret Manager:
 - `GCP_WORKLOAD_IDENTITY_FEDERATION_PROVIDER_ID`: The WIF Provider ID, for example `gitlab-provider`.
 
 Then you can use secrets stored in GCP Secret Manager in CI/CD jobs by defining them
+
 with the `gcp_secret_manager` keyword:
 
 ```yaml
@@ -108,7 +114,7 @@ job_using_gcp_sm:
       token: $GCP_ID_TOKEN
 ```
 
-### Use secrets from a different GCP project
+### Use Secrets from a Different GCP Project
 
 {{< history >}}
 
@@ -117,12 +123,15 @@ job_using_gcp_sm:
 {{< /history >}}
 
 Secret names in GCP are per-project. By default the secret named in `gcp_secret_manager:name`
+
 is read from the project specified in `GCP_PROJECT_NUMBER`.
 
 To read a secret from a different project than the project containing the WIF pool, use the
+
 fully-qualified secret name formatted as `projects/<project-number>/secrets/<secret-name>`.
 
 For example, if `my-project-secret` is in the GCP project number `123456789`,
+
 then you can access the secret with:
 
 ```yaml
@@ -138,9 +147,10 @@ job_using_gcp_sm:
 
 ## Troubleshooting
 
-### Error: The size of mapped attribute `google.subject` exceeds the 127 bytes limit
+### Error: The Size of Mapped Attribute `google.subject` Exceeds the 127 Bytes Limit
 
 Long branch paths can cause a job to fail with this error, because the
+
 [`assertion.sub` attribute](id_token_authentication.md#token-payload) becomes longer than 127 characters:
 
 ```plaintext
@@ -155,13 +165,16 @@ Long branch paths can be caused by:
 - Long group, repository, or branch names.
 
 For example, for a `gitlab-org/gitlab` branch, the payload is `project_path:gitlab-org/gitlab:ref_type:branch:ref:{branch_name}`.
+
 For the string to remain shorter than 127 characters, the branch name must be 76 characters or fewer.
+
 This limit is imposed by Google Cloud IAM, tracked in [Google issue #264362370](https://issuetracker.google.com/issues/264362370?pli=1).
 
 The only fix for this issue is to use shorter names
+
 [for your branch and repository](https://github.com/google-github-actions/auth/blob/main/docs/TROUBLESHOOTING.md#subject-exceeds-the-127-byte-limit).
 
-### `The secrets provider can not be found. Check your CI/CD variables and try again.` message
+### `The secrets provider can not be found. Check your CI/CD variables and try again.` Message
 
 You might receive this error when attempting to start a job configured to access GCP Secret Manager:
 
@@ -175,7 +188,8 @@ The job can't be created because one or more of the required variables are not d
 - `GCP_WORKLOAD_IDENTITY_FEDERATION_POOL_ID`
 - `GCP_WORKLOAD_IDENTITY_FEDERATION_PROVIDER_ID`
 
-### `WARNING: Not resolved: no resolver that can handle the secret` warning
+### `WARNING: Not resolved: no resolver that can handle the secret` Warning
 
 The Google Cloud Secret Manager integration requires at least GitLab 16.8 and GitLab Runner 16.8.
+
 This warning appears if the job is executed by a runner using a version earlier than 16.8.

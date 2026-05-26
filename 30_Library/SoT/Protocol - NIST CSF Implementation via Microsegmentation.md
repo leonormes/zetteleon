@@ -2,7 +2,7 @@
 aliases: ["Microsegmentation Deployment", "NIST CSF Implementation", "Zero Trust & NIST"]
 created: 2026-04-02T11:10:00Z
 last_reviewed: 2026-04-02
-modified: 2026-04-19T18:30:35+00:00
+modified: 2026-05-26T11:44:21+00:00
 status: evergreen
 tags: ["cybersecurity", "microsegmentation", "nist", "protocol", "zero-trust"]
 title: Protocol - NIST CSF Implementation via Microsegmentation

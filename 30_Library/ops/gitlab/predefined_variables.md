@@ -1,9 +1,11 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:41+00:00
+description: Predefined CI/CD variables available in GitLab pipelines.
 group: Pipeline Authoring
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-description: Predefined CI/CD variables available in GitLab pipelines.
-title: Predefined CI/CD variables reference
+modified: 2026-05-26T11:44:01+00:00
+stage: Verify
+title: predefined_variables
 ---
 
 {{< details >}}
@@ -16,9 +18,10 @@ title: Predefined CI/CD variables reference
 Predefined [CI/CD variables](_index.md) are available in every GitLab CI/CD pipeline.
 
 Avoid [overriding](_index.md#use-pipeline-variables) predefined variables,
+
 as it can cause the pipeline to behave unexpectedly.
 
-## Variable availability
+## Variable Availability
 
 Predefined variables become available at three different phases of pipeline execution:
 
@@ -35,7 +38,7 @@ Predefined variables become available at three different phases of pipeline exec
   - Cannot be used with [`workflow`](../yaml/_index.md#workflow), [`include`](../yaml/_index.md#include)
     or [`rules`](../yaml/_index.md#rules).
 
-## Predefined variables
+## Predefined Variables
 
 | Variable                                        | Availability | Description |
 |-------------------------------------------------|--------------|-------------|
@@ -174,18 +177,22 @@ Predefined variables become available at three different phases of pipeline exec
 | `GITLAB_USER_EMAIL`                             | Pipeline     | The email of the user who started the pipeline, unless the job is a manual job. In manual jobs, the value is the email of the user who started the job. |
 | `GITLAB_USER_ID`                                | Pipeline     | The numeric ID of the user who started the pipeline, unless the job is a manual job. In manual jobs, the value is the ID of the user who started the job. |
 | `GITLAB_USER_LOGIN`                             | Pipeline     | The unique username of the user who started the pipeline, unless the job is a manual job. In manual jobs, the value is the username of the user who started the job. |
-| `GITLAB_USER_NAME`                              | Pipeline     | The display name (user-defined **Full name** in the profile settings) of the user who started the pipeline, unless the job is a manual job. In manual jobs, the value is the name of the user who started the job. |
+| `GITLAB_USER_NAME`                              | Pipeline     | The display name (user-defined Full name in the profile settings) of the user who started the pipeline, unless the job is a manual job. In manual jobs, the value is the name of the user who started the job. |
 | `KUBECONFIG`                                    | Pipeline     | The path to the `kubeconfig` file with contexts for every shared agent connection. Only available when a [GitLab agent for Kubernetes is authorized to access the project](../../user/clusters/agent/ci_cd_workflow.md#authorize-agent-access). |
 | `TRIGGER_PAYLOAD`                               | Pipeline     | The webhook payload. Only available when a pipeline is [triggered with a webhook](../triggers/_index.md#access-webhook-payload). |
 
-## Predefined variables for merge request pipelines
+## Predefined Variables for Merge Request Pipelines
 
 These variables are available before GitLab creates the pipeline
+
 (Pre-pipeline). These variables can be used with
+
 [`include:rules`](../yaml/includes.md#use-rules-with-include)
+
 and as environment variables in jobs.
 
 The pipeline must be a [merge request pipeline](../pipelines/merge_request_pipelines.md),
+
 and the merge request must be open.
 
 | Variable                                    | Description |
@@ -218,7 +225,7 @@ and the merge request must be open.
 | `CI_MERGE_REQUEST_TITLE`                    | The title of the merge request. |
 | `CI_MERGE_REQUEST_DRAFT`                    | `true` if the merge request is a draft. [Introduced](https://gitlab.com/gitlab-org/gitlab/-/issues/275981) in GitLab 17.10. |
 
-## Predefined variables for external pull request pipelines
+## Predefined Variables for External Pull Request Pipelines
 
 These variables are only available when:
 
@@ -235,21 +242,26 @@ These variables are only available when:
 | `CI_EXTERNAL_PULL_REQUEST_TARGET_BRANCH_NAME` | The target branch name of the pull request. |
 | `CI_EXTERNAL_PULL_REQUEST_TARGET_BRANCH_SHA`  | The HEAD SHA of the target branch of the pull request. |
 
-## Deployment variables
+## Deployment Variables
 
 Integrations that are responsible for deployment configuration can define their own
+
 predefined variables that are set in the build environment. These variables are only defined
+
 for [deployment jobs](../environments/_index.md).
 
 For example, the [Kubernetes integration](../../user/project/clusters/deploy_to_cluster.md#deployment-variables)
+
 defines deployment variables that you can use with the integration.
 
 The [documentation for each integration](../../user/project/integrations/_index.md)
+
 explains if the integration has any deployment variables available.
 
-## Auto DevOps variables
+## Auto DevOps Variables
 
 When [Auto DevOps](../../topics/autodevops/_index.md) is enabled, some additional
+
 [pre-pipeline](#variable-availability) variables are made available:
 
 - `AUTO_DEVOPS_EXPLICITLY_ENABLED`: Has a value of `1` to indicate Auto DevOps is enabled.
@@ -257,9 +269,10 @@ When [Auto DevOps](../../topics/autodevops/_index.md) is enabled, some additiona
 - `INCREMENTAL_ROLLOUT_MODE`: See [Auto DevOps deployment strategy](../../topics/autodevops/requirements.md#auto-devops-deployment-strategy).
 - `INCREMENTAL_ROLLOUT_ENABLED`: Deprecated.
 
-## Integration variables
+## Integration Variables
 
 Some integrations make variables available in jobs. These variables are available
+
 as [job-only predefined variables](#variable-availability):
 
 - [Harbor](../../user/project/integrations/harbor.md):
@@ -285,4 +298,5 @@ as [job-only predefined variables](#variable-availability):
 ## Troubleshooting
 
 You can [output the values of all variables available for a job](variables_troubleshooting.md#list-all-variables)
+
 with a `script` command.

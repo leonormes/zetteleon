@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T00:00:00+00:00
-modified: 2026-04-19T18:30:39+00:00
+modified: 2026-05-26T11:44:32+00:00
 tags: [decision-making, gtd, productivity, workflow]
 title: The Clarify Stage Is the Executive Decision-Making Bridge Between Stuff and Action
 ---

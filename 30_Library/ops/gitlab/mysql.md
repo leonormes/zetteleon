@@ -1,8 +1,10 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:40+00:00
 group: Runner Core
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-title: Using MySQL
+modified: 2026-05-26T11:44:02+00:00
+stage: Verify
+title: mysql
 ---
 
 {{< details >}}
@@ -13,9 +15,10 @@ title: Using MySQL
 {{< /details >}}
 
 Many applications depend on MySQL as their database, and you may
+
 need it for your tests to run.
 
-## Use MySQL with the Docker executor
+## Use MySQL with the Docker Executor
 
 If you want to use a MySQL container, you can use [GitLab Runner](../runners/_index.md) with the Docker executor.
 
@@ -37,7 +40,7 @@ This example shows you how to set a username and password that GitLab uses to ac
    - The `mysql` image can accept environment variables. For more information, view
      the [Docker Hub documentation](https://hub.docker.com/_/mysql/).
 
-1. To include the database name and password, add the following to your `.gitlab-ci.yml` file:
+2. To include the database name and password, add the following to your `.gitlab-ci.yml` file:
 
    ```yaml
    variables:
@@ -47,10 +50,12 @@ This example shows you how to set a username and password that GitLab uses to ac
    ```
 
    The MySQL container uses `MYSQL_DATABASE` and `MYSQL_ROOT_PASSWORD` to connect to the database.
+
    Pass these values by using [GitLab CI/CD variables](../variables/_index.md) (`$MYSQL_DB` and `$MYSQL_PASS` in the example above),
+
    [rather than calling them directly](https://gitlab.com/gitlab-org/gitlab/-/issues/30178).
 
-1. Configure your application to use the database, for example:
+3. Configure your application to use the database, for example:
 
    ```yaml
    Host: mysql
@@ -60,11 +65,13 @@ This example shows you how to set a username and password that GitLab uses to ac
    ```
 
    In this example, the user is `runner`. You should use a user that has permission to
+
    access your database.
 
-## Use MySQL with the Shell executor
+## Use MySQL with the Shell Executor
 
 You can also use MySQL on manually-configured servers that use
+
 GitLab Runner with the Shell executor.
 
 1. Install the MySQL server:
@@ -73,20 +80,20 @@ GitLab Runner with the Shell executor.
    sudo apt-get install -y mysql-server mysql-client libmysqlclient-dev
    ```
 
-1. Choose a MySQL root password and type it twice when asked.
+2. Choose a MySQL root password and type it twice when asked.
 
    > [!note]
    > As a security measure, you can run `mysql_secure_installation` to
    > remove anonymous users, drop the test database, and disable remote logins by
    > the root user.
 
-1. Create a user by logging in to MySQL as root:
+3. Create a user by logging in to MySQL as root:
 
    ```shell
    mysql -u root -p
    ```
 
-1. Create a user (in this case, `runner`) that is used by your
+4. Create a user (in this case, `runner`) that is used by your
    application. Change `$password` in the command to a strong password.
 
    At the `mysql>` prompt, type:
@@ -95,33 +102,33 @@ GitLab Runner with the Shell executor.
    CREATE USER 'runner'@'localhost' IDENTIFIED BY '$password';
    ```
 
-1. Create the database:
+5. Create the database:
 
    ```sql
    CREATE DATABASE IF NOT EXISTS `<your_mysql_database>` DEFAULT CHARACTER SET `utf8` \
    COLLATE `utf8_unicode_ci`;
    ```
 
-1. Grant the necessary permissions on the database:
+6. Grant the necessary permissions on the database:
 
    ```sql
    GRANT SELECT, INSERT, UPDATE, DELETE, CREATE, CREATE TEMPORARY TABLES, DROP, INDEX, ALTER, LOCK TABLES ON `<your_mysql_database>`.* TO 'runner'@'localhost';
    ```
 
-1. If all went well, you can quit the database session:
+7. If all went well, you can quit the database session:
 
    ```shell
    \q
    ```
 
-1. Connect to the newly-created database to check that everything is
+8. Connect to the newly-created database to check that everything is
    in place:
 
    ```shell
    mysql -u runner -p -D <your_mysql_database>
    ```
 
-1. Configure your application to use the database, for example:
+9. Configure your application to use the database, for example:
 
    ```shell
    Host: localhost
@@ -130,8 +137,10 @@ GitLab Runner with the Shell executor.
    Database: <your_mysql_database>
    ```
 
-## Example project
+## Example Project
 
 To view a MySQL example, create a fork of this [sample project](https://gitlab.com/gitlab-examples/mysql).
+
 This project uses publicly-available [instance runners](../runners/_index.md) on [GitLab.com](https://gitlab.com).
+
 Update the README.md file, commit your changes, and view the CI/CD pipeline to see it in action.

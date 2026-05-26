@@ -4,7 +4,7 @@ created: 2025-12-19T13:18:01Z
 criteria: "Links to canonical SoT notes defining the core principles of this conflict."
 exclusions: "Implementation details of specific projects."
 last_reviewed: ""
-modified: 2026-04-19T18:30:28+00:00
+modified: 2026-05-26T11:44:22+00:00
 scope: "The core conflict between building software quickly (pragmatism) and building it correctly (rigour)."
 status: ""
 tags: ["map", "mental-model", "SoftwareEngineering", "TheHuman/Philosophy"]

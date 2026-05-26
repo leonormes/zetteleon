@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-11-12T14:10:07Z
 last_reviewed: ""
-modified: 2026-04-19T18:30:41+00:00
+modified: 2026-05-26T11:44:34+00:00
 status: "stable"
 tags: ["action", "TheHuman/Motivation", "TheHuman/Psychology"]
 title: Motivation, Volition, and Control are Distinct Aspects of the Action Process

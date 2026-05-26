@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-07-08T12:32:39Z
 last_reviewed:
-modified: 2026-04-19T18:30:26+00:00
+modified: 2026-05-26T11:43:53+00:00
 status:
 tags: []
 title: GEMINI
@@ -14,24 +14,27 @@ updated:
 
 ### 1. Mandatory Tool Usage (MCP Proxy)
 
-**READ THIS FIRST — DO NOT SKIP**
+READ THIS FIRST—DO NOT SKIP
 
 The MCP proxy is pre-registered as a native MCP server in this session via `~/.gemini/settings.json` pointing to `http://127.0.0.1:8000/mcp/`.
 
-**DO NOT attempt shell-based MCP tool discovery.**
-**DO NOT run `mcp_mcp-proxy_retrieve_tools` as a shell command — it does not exist as a binary.**
+DO NOT attempt shell-based MCP tool discovery.
 
-The Jira, Obsidian, and all other MCP tools are available as **NATIVE tool declarations** from the first token of this session. Use them directly:
-- Jira tools: available as `mcp_mcp-proxy_atlassian_*` 
+DO NOT run `mcp_mcp-proxy_retrieve_tools` as a shell command—it does not exist as a binary.
+
+The Jira, Obsidian, and all other MCP tools are available as NATIVE tool declarations from the first token of this session. Use them directly:
+
+- Jira tools: available as `mcp_mcp-proxy_atlassian_*`
 - Obsidian tools: available as `mcp_mcp-proxy_obsidian_*`
 
 If tools are NOT available:
+
 1. Run `/mcp list` to check server status
 2. Run `mcp-refresh` in the shell to restart the proxy on port 8000
 
 ---
 
-**STRICT RULE:** When interacting with any external system or the Obsidian vault, you MUST use the MCP Proxy tools.
+STRICT RULE: When interacting with any external system or the Obsidian vault, you MUST use the MCP Proxy tools.
 
 - Discovery: Tools are auto-discovered at session start via the SSE connection. Query the tool catalog if needed using the MCP tool list.
 - Execution: Use the exact tool name (e.g., `obsidian_mcp_tools_search_vault_smart`) with the required `args`.
@@ -113,12 +116,13 @@ Treat this system not as a Database (Storage) but as a Runtime Environment (Comp
 
 #### 3. Your Workflows
 
-**MCP tools are pre-loaded at session start.** Do not attempt discovery — use tools directly by name.
+MCP tools are pre-loaded at session start. Do not attempt discovery—use tools directly by name.
 
 Always use the MCP Proxy tools to interact with the vault. Tools are available as native function calls:
-- `obsidian_mcp_tools_search_vault_smart` — semantic search
-- `obsidian_mcp_tools_read_note` — read note content
-- `atlassian_*` — Jira operations
+
+- `obsidian_mcp_tools_search_vault_smart`—semantic search
+- `obsidian_mcp_tools_read_note`—read note content
+- `atlassian_*`—Jira operations
 
 ##### Phase 1: Refine (The "Psychiatrist")
 

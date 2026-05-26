@@ -1,9 +1,11 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:41+00:00
+description: Configuration, usage, and security.
 group: Pipeline Authoring
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-title: Use CI/CD variables in job scripts
-description: Configuration, usage, and security.
+modified: 2026-05-26T11:44:04+00:00
+stage: Verify
+title: job_scripts
 ---
 
 {{< details >}}
@@ -14,7 +16,9 @@ description: Configuration, usage, and security.
 {{< /details >}}
 
 All CI/CD variables are set as environment variables in the job's environment.
+
 You can use variables in job scripts with the standard formatting for each environment's
+
 shell.
 
 To access environment variables, use the syntax for your [runner executor's shell](https://docs.gitlab.com/runner/executors/).
@@ -22,6 +26,7 @@ To access environment variables, use the syntax for your [runner executor's shel
 ## With Bash and `sh`
 
 To access environment variables in Bash, `sh`, and similar shells, prefix the
+
 CI/CD variable with `$`:
 
 ```yaml
@@ -33,6 +38,7 @@ job_name:
 ## With PowerShell
 
 To access variables in a Windows PowerShell environment, including environment
+
 variables set by the system, prefix the variable name with `$env:` or `$`:
 
 ```yaml
@@ -54,6 +60,7 @@ job_name:
 ```
 
 You can also surround the variable with `!` for [delayed expansion](https://ss64.com/nt/delayedexpansion.html).
+
 Delayed expansion might be needed for variables that contain white spaces or newlines:
 
 ```yaml
@@ -62,14 +69,18 @@ job_name:
     - echo !ERROR_MESSAGE!
 ```
 
-## In service containers
+## In Service Containers
 
 [Service containers](../docker/using_docker_images.md) can use CI/CD variables, but
+
 by default can only access [variables saved in the `.gitlab-ci.yml` file](_index.md#define-a-cicd-variable-in-the-gitlab-ciyml-file).
+
 Variables [added in the GitLab UI](_index.md#define-a-cicd-variable-in-the-ui) are not available to
+
 service containers, because service containers are not trusted by default.
 
 To make a UI-defined variable available in a service container, you can re-assign
+
 it to another variable in your `.gitlab-ci.yml`:
 
 ```yaml
@@ -79,7 +90,7 @@ variables:
 
 The re-assigned variable cannot have the same name as the original variable. Otherwise it does not get expanded.
 
-## Prevent parsing errors
+## Prevent Parsing Errors
 
 Quote script commands and variable values to prevent YAML and shell parsing errors:
 
@@ -109,7 +120,7 @@ Quote script commands and variable values to prevent YAML and shell parsing erro
       - gcc $COMPILE_FLAGS main.c  # Expands to: gcc -Wall -Werror -O2 main.c
   ```
 
-## Pass an environment variable from the `script` section to `artifacts` or `cache`
+## Pass an Environment Variable from the `script` Section to `artifacts` or `cache`
 
 {{< history >}}
 
@@ -118,6 +129,7 @@ Quote script commands and variable values to prevent YAML and shell parsing erro
 {{< /history >}}
 
 Use `$GITLAB_ENV` to use environment variables defined in the `script` section in the
+
 `artifacts` or `cache` keywords. For example:
 
 ```yaml
@@ -131,12 +143,14 @@ build-job:
       - some-file-$ARCH
 ```
 
-## Store multiple values in one variable
+## Store Multiple Values in One Variable
 
 You cannot create a CI/CD variable that is an array of values, but you
+
 can use shell scripting techniques for similar behavior.
 
 For example, you can store multiple values separated by a space in a variable,
+
 then loop through the values with a script:
 
 ```yaml
@@ -151,7 +165,7 @@ job1:
         done
 ```
 
-## Use CI/CD variables in other variables
+## Use CI/CD Variables in other Variables
 
 You can use variables inside other variables:
 
@@ -164,10 +178,12 @@ job:
     - 'eval "$LS_CMD"'  # Executes 'ls -al'
 ```
 
-### As part of a string
+### As part of a String
 
 You can use variables as part of a string. You can surround the variables with curly brackets (`{}`)
+
 to help distinguish the variable name from the surrounding text. Without curly brackets,
+
 the adjacent text is interpreted as part of the variable name. For example:
 
 ```yaml
@@ -182,9 +198,10 @@ job:
     - 'eval "$CD_CMD"'  # Executes 'cd path/to/directory_files'
 ```
 
-### Use the `$` character in CI/CD variables
+### Use the `$` Character in CI/CD Variables
 
 If you do not want the `$` character interpreted as the start of another variable,
+
 use `$$` instead:
 
 ```yaml
@@ -198,6 +215,6 @@ job:
 
 This does not work when [passing a CI/CD variable to a downstream pipeline](../pipelines/downstream_pipelines_troubleshooting.md#variable-with--character-does-not-get-passed-to-a-downstream-pipeline-properly).
 
-## Related topics
+## Related Topics
 
 - [Pass environment variables to later jobs with dotenv](dotenv_variables.md#pass-variables-to-later-jobs)

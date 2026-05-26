@@ -1,9 +1,11 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:41+00:00
+description: Calculations, quotas, purchase information.
 group: Pipeline Execution
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-description: Calculations, quotas, purchase information.
-title: Compute minutes
+modified: 2026-05-26T11:44:08+00:00
+stage: Verify
+title: compute_minutes
 ---
 
 {{< details >}}
@@ -22,6 +24,7 @@ title: Compute minutes
 The usage of instance runners by projects running CI/CD jobs is measured in compute minutes.
 
 For some installation types, your [namespace](../../user/namespace/_index.md) has a [compute quota](instance_runner_compute_minutes.md#compute-quota-enforcement),
+
 which limits the available compute minutes you can use.
 
 A compute quota can be applied to all [admin-managed instance runners](instance_runner_compute_minutes.md):
@@ -30,11 +33,12 @@ A compute quota can be applied to all [admin-managed instance runners](instance_
 - All self-hosted instance runners on GitLab Dedicated
 
 The compute quota is disabled by default but can be enabled for top-level groups and user namespaces.
+
 On GitLab.com, the quota is enabled by default to limit usage on Free namespaces. The limit is increased if a paid subscription is purchased.
 
 GitLab-hosted instance runners on GitLab Dedicated cannot have the instance runner compute quota applied.
 
-## Instance runners
+## Instance Runners
 
 For instance runners on GitLab.com, GitLab Self-Managed, and self-hosted instance runners on GitLab Dedicated:
 
@@ -48,9 +52,9 @@ For GitLab.com:
 - The base monthly compute quota is determined by your subscription tier.
 - You can [purchase additional compute minutes](../../subscriptions/gitlab_com/compute_minutes.md) if you need more.
 
-## Compute minute usage
+## Compute Minute Usage
 
-### Compute usage calculation
+### Compute Usage Calculation
 
 Your compute minute usage for each job is calculated using this formula:
 
@@ -58,11 +62,12 @@ Your compute minute usage for each job is calculated using this formula:
 Job duration / 60 * Cost factor
 ```
 
-- **Job duration**: The time, in seconds, that a job took to run, not including time spent in the `created` or `pending` statuses.
-- **Cost factor**: A number based on the [runner type](#cost-factors) and
+- Job duration: The time, in seconds, that a job took to run, not including time spent in the `created` or `pending` statuses.
+- Cost factor: A number based on the [runner type](#cost-factors) and
   [project type](#cost-factors).
 
 The value is converted into compute minutes and added to the count of used units
+
 in the job's top-level namespace.
 
 For example, if a user `alice` runs a pipeline:
@@ -73,23 +78,29 @@ For example, if a user `alice` runs a pipeline:
   to the overall usage for their namespace.
 
 The compute used by one pipeline is the total compute minutes used by all the jobs
+
 that ran in the pipeline. Jobs can run concurrently, so the total compute usage
+
 can be higher than the end-to-end duration of a pipeline.
 
 [Trigger jobs](../yaml/_index.md#trigger) do not execute on runners, so they do not
+
 consume compute minutes, even when using [`strategy:depend`](../yaml/_index.md#triggerstrategy)
+
 to wait for the [downstream pipeline](downstream_pipelines.md) status.
+
 The triggered downstream pipeline consumes compute minutes the same as other pipelines.
 
 Usage is tracked on a monthly basis. On the first day of the month the usage is `0` for that month for all namespaces.
 
-### Cost factors
+### Cost Factors
 
 The rate at which compute minutes are consumed varies based on the runner type and project settings.
 
-#### Cost factors of hosted runners for GitLab.com
+#### Cost Factors of Hosted Runners for GitLab.com
 
 GitLab-hosted runners have different cost factors depending on the runner type
+
 (Linux, Windows, macOS) and the virtual machine configuration:
 
 | Runner type                | Machine size           | Cost factor             |
@@ -103,9 +114,9 @@ GitLab-hosted runners have different cost factors depending on the runner type
 | Linux Arm64                | `small`                | `1`                     |
 | Linux Arm64                | `medium`               | `2`                     |
 | Linux Arm64                | `large`                | `3`                     |
-| macOS M1                   | `medium`               | `6` (**Status**: Beta)  |
-| macOS M2 Pro               | `large`                | `12` (**Status**: Beta) |
-| Windows                    | `medium`               | `1` (**Status**: Beta)  |
+| macOS M1                   | `medium`               | `6` (Status: Beta)  |
+| macOS M2 Pro               | `large`                | `12` (Status: Beta) |
+| Windows                    | `medium`               | `1` (Status: Beta)  |
 
 These cost factors apply to hosted runners for GitLab.com.
 
@@ -118,13 +129,16 @@ Certain discounts apply based on the project type:
 | Public forks of [GitLab Open Source program projects](../../subscriptions/community_programs.md#gitlab-for-open-source) | `0.008` | 1 minute per 125 minutes of job time |
 | [Community contributions to GitLab projects](#community-contributions-to-gitlab-projects) | Dynamic discount | See the following section |
 
-#### Community contributions to GitLab projects
+#### Community Contributions to GitLab Projects
 
 Community contributors can use up to 300,000 minutes on instance runners when contributing to open source projects
+
 maintained by GitLab. The maximum of 300,000 minutes would only be possible if contributing exclusively to projects
+
 part of the GitLab product.
 
 The total number of minutes available on instance runners is reduced by the compute minutes used by pipelines from
+
 other projects. The 300,000 minutes applies to all GitLab.com tiers.
 
 The cost factor calculation is:
@@ -143,7 +157,7 @@ For this reduced cost factor:
 - The merge request target project must be the fork's parent project.
 - The pipeline must be a merge request, merged results, or merge train pipeline.
 
-### Reduce compute minute usage
+### Reduce Compute Minute Usage
 
 If your project consumes too many compute minutes, try these strategies to reduce your usage:
 
@@ -160,6 +174,7 @@ If your project consumes too many compute minutes, try these strategies to reduc
   you can ask a maintainer to run a pipeline [in the parent project](merge_request_pipelines.md#run-pipelines-in-the-parent-project).
 
 If you manage an open source project, these improvements can also reduce compute minute
+
 usage for contributor fork projects, enabling more contributions.
 
 See the [pipeline efficiency guide](pipeline_efficiency.md) for more details.

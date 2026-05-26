@@ -1,28 +1,29 @@
 ---
-title: Terraform AKS Backup Testing — Clean Slate Apply
-created: 2026-05-13T10:24:52+0000
+created: 2026-05-13T10:24:52+00:00
+modified: 2026-05-26T11:43:44+00:00
+pieces_ids: ["0a61bcfa-1f74-4ad8-bf9b-9e60688428c4", "13eeb2ae-4f43-4520-a8ae-adceb0d715fe", "164f79a5-dc64-4fd9-a80f-47cbeb7dc41f", "249ff991-39fc-48a9-ba18-023c33f30bad", "25acda0a-2448-426c-a32b-f95dfeba1ef3", "26aa79a9-515e-41c5-b0c6-639f89396d8c", "2a366b2a-3602-482f-bbd6-fb0cea6bf772", "2d325f64-62b5-4a3e-b05f-202e4b1675c0", "34823736-fdbc-4a6a-bb03-64617d97730c", "393ec4ac-19ff-4395-9b84-c0ca15a7111c", "3ad71ab8-70ac-4cf6-8da9-76fae9f57cb4", "40069319-99bd-4787-8007-58efa8d39af9", "40c47f4a-f7c7-4336-999b-3fe4b7c905ec", "439568f6-7359-4ec2-8383-8b5397d2a390", "462944f6-c6d6-4398-9b7a-2647502d7df9", "49dd717f-f01e-48be-832b-811f27732a8b", "4b378591-1882-4f4a-817f-e15fb5a0b851", "4c1e7eb6-d358-4451-951a-638ec29355d1", "58114802-8f03-41f1-8222-a5b9bd9f0f2a", "59b7af24-f1db-4932-a76f-c40a584f7f86", "5ee9cc27-96b7-405b-b498-ceb748251632", "722083df-b36d-4543-8d73-aec3393a0d89", "88ee1516-75a0-4475-b576-2cec0562860b", "8cb0e207-195b-4fdf-a520-bcb0408d9d73", "9111ec74-8626-4860-b08e-1e0406f6b754", "98878e66-dc7d-48e0-ae72-a0d0ff9a0d86", "9c7aaba8-e8e2-4cfb-bfa6-e5879ef77a7c", "a66b4e6d-7a13-461f-934b-3fc25c3e3806", "a75dcdcc-cdce-4127-ae6b-cbd0e8275e16", "ae61fe3b-b348-4f5f-adb7-cf8326c911a8", "b0e69cda-c1d3-4981-9c0e-6e54a6729858", "b31dc549-94ca-4ebc-90bc-e0ad8aca17d5", "b5ad380a-7cae-4932-95f5-16148720b46e", "b668b5f3-bfbc-43ca-9154-73fa41d29aaf", "b7c99b39-dc08-49e2-9649-341ee464c6ee", "b8402260-6a3c-4800-b0fd-88eb21483365", "b904ca87-7162-4159-ad50-baaacadd1ce5", "b93af656-ee9d-42d0-ba57-956c5daf02b1", "c17e491a-7e7b-49cb-b061-1bf66e87879a", "c36d4e11-c546-470f-ac25-de3b60b2dd8b", "c598c7a9-728d-41d1-aed2-b8bf6042371a", "cdd91200-1e36-4a97-8421-e5ef59b59da9", "cfc84d46-4ccf-4f05-bbe8-aa3f4cafd55a", "d1f6f948-3a15-4bae-83ba-fee5a3abb98c", "d382619b-ada7-4dc6-b4e6-a1be0f5ca2da", "d7660a49-016d-49d3-93cd-6e3f531a3000", "d8e814ca-17a6-4f5d-b059-6d8047958c22", "e08cb8bd-c6a2-4b16-a6c5-d9aca8a65df7", "e20d8cd5-4416-4deb-b852-47d4d86df68f", "e83c5838-5a46-47cd-bba3-9418a9a426bb", "ecb827db-e2da-49b3-80f4-9807fe3180b7", "f105c91b-e531-4509-a4f9-0208d4be3cd5", "f91947b8-c779-4a61-8635-052f1722eed0", "ff88de82-e1b2-4ebf-ace1-d5690d223ccb"]
 source: pieces-ltm
-pieces_ids: ["59b7af24-f1db-4932-a76f-c40a584f7f86", "4b378591-1882-4f4a-817f-e15fb5a0b851", "0a61bcfa-1f74-4ad8-bf9b-9e60688428c4", "40c47f4a-f7c7-4336-999b-3fe4b7c905ec", "5ee9cc27-96b7-405b-b498-ceb748251632", "439568f6-7359-4ec2-8383-8b5397d2a390", "a66b4e6d-7a13-461f-934b-3fc25c3e3806", "58114802-8f03-41f1-8222-a5b9bd9f0f2a", "34823736-fdbc-4a6a-bb03-64617d97730c", "d1f6f948-3a15-4bae-83ba-fee5a3abb98c", "d8e814ca-17a6-4f5d-b059-6d8047958c22", "4c1e7eb6-d358-4451-951a-638ec29355d1", "c36d4e11-c546-470f-ac25-de3b60b2dd8b", "ae61fe3b-b348-4f5f-adb7-cf8326c911a8", "8cb0e207-195b-4fdf-a520-bcb0408d9d73", "e20d8cd5-4416-4deb-b852-47d4d86df68f", "d7660a49-016d-49d3-93cd-6e3f531a3000", "722083df-b36d-4543-8d73-aec3393a0d89", "164f79a5-dc64-4fd9-a80f-47cbeb7dc41f", "393ec4ac-19ff-4395-9b84-c0ca15a7111c", "a75dcdcc-cdce-4127-ae6b-cbd0e8275e16", "b31dc549-94ca-4ebc-90bc-e0ad8aca17d5", "e08cb8bd-c6a2-4b16-a6c5-d9aca8a65df7", "b904ca87-7162-4159-ad50-baaacadd1ce5", "9c7aaba8-e8e2-4cfb-bfa6-e5879ef77a7c", "13eeb2ae-4f43-4520-a8ae-adceb0d715fe", "b7c99b39-dc08-49e2-9649-341ee464c6ee", "b5ad380a-7cae-4932-95f5-16148720b46e", "26aa79a9-515e-41c5-b0c6-639f89396d8c", "88ee1516-75a0-4475-b576-2cec0562860b", "2a366b2a-3602-482f-bbd6-fb0cea6bf772", "40069319-99bd-4787-8007-58efa8d39af9", "249ff991-39fc-48a9-ba18-023c33f30bad", "b0e69cda-c1d3-4981-9c0e-6e54a6729858", "ecb827db-e2da-49b3-80f4-9807fe3180b7", "b8402260-6a3c-4800-b0fd-88eb21483365", "f105c91b-e531-4509-a4f9-0208d4be3cd5", "3ad71ab8-70ac-4cf6-8da9-76fae9f57cb4", "c598c7a9-728d-41d1-aed2-b8bf6042371a", "ff88de82-e1b2-4ebf-ace1-d5690d223ccb", "cfc84d46-4ccf-4f05-bbe8-aa3f4cafd55a", "e83c5838-5a46-47cd-bba3-9418a9a426bb", "462944f6-c6d6-4398-9b7a-2647502d7df9", "25acda0a-2448-426c-a32b-f95dfeba1ef3", "f91947b8-c779-4a61-8635-052f1722eed0", "b93af656-ee9d-42d0-ba57-956c5daf02b1", "49dd717f-f01e-48be-832b-811f27732a8b", "b668b5f3-bfbc-43ca-9154-73fa41d29aaf", "cdd91200-1e36-4a97-8421-e5ef59b59da9", "2d325f64-62b5-4a3e-b05f-202e4b1675c0", "98878e66-dc7d-48e0-ae72-a0d0ff9a0d86", "d382619b-ada7-4dc6-b4e6-a1be0f5ca2da", "c17e491a-7e7b-49cb-b061-1bf66e87879a", "9111ec74-8626-4860-b08e-1e0406f6b754"]
-tags: [raw, pieces]
+tags: [pieces, raw]
+title: 2026-05-13-pieces-terraform-aks-backup-testing
 ---
 
-# Pieces LTM Capture — 2026-05-13
+## Pieces LTM Capture—2026-05-13
 
 Session: Terraform AKS Backup module testing against `sandbox-testing-1` cluster.
 
 ---
 
-## Asset 1 (Pieces: 59b7af24-f1db-4932-a76f-c40a584f7f86)
+### Asset 1 (Pieces: 59b7af24-f1db-4932-a76f-c40a584f7f86)
 
 completed (165095 input + 998 output + 255 reasoning tokens, $1.1332)
 
-## Asset 2 (Pieces: 4b378591-1882-4f4a-817f-e15fb5a0b851)
+### Asset 2 (Pieces: 4b378591-1882-4f4a-817f-e15fb5a0b851)
 
 All three values are in. Here's the fully populated, copy-paste-ready config.
 
 ---
 
-### `sandbox-testing-1/bastion.tf` — PE subnet addition
+#### `sandbox-testing-1/bastion.tf`—PE Subnet addition
 
 ```hcl
 resource "azurerm_subnet" "backup_pe" {
@@ -36,7 +37,7 @@ resource "azurerm_subnet" "backup_pe" {
 
 ---
 
-### `sandbox-testing-1/main.tf` — module call, fully resolved
+#### `sandbox-testing-1/main.tf`—module Call, Fully Resolved
 
 ```hcl
 module "aks_backup" {
@@ -75,7 +76,7 @@ module "aks_backup" {
 
 ---
 
-### One remaining blank: pick and verify the storage account name
+#### One Remaining Blank: Pick and Verify the Storage account name
 
 ```bash
 # Pick a name — lowercase, no hyphens, ≤ 24 chars
@@ -89,7 +90,7 @@ When that returns `true`, substitute it in for `sboxaksbackup<random>` above and
 
 ---
 
-### Final pre-plan gate
+#### Final Pre-plan Gate
 
 Before running the plan, confirm these two things are already in place:
 
@@ -103,73 +104,80 @@ terraform init -upgrade   # picks up the new module version
 terraform plan -out=plan.tfplan
 ```
 
-## Asset 3 (Pieces: 0a61bcfa-1f74-4ad8-bf9b-9e60688428c4)
+### Asset 3 (Pieces: 0a61bcfa-1f74-4ad8-bf9b-9e60688428c4)
 
-The user has run the three commands and got back the three values needed to fill in the module call. They just need me to produce the final, ready-to-paste module call with these real values substituted in. No tool calls needed — all the data is right here in the conversation.
+The user has run the three commands and got back the three values needed to fill in the module call. They just need me to produce the final, ready-to-paste module call with these real values substituted in. No tool calls needed—all the data is right here in the conversation.
 
 Let me produce the complete, copy-paste-ready module call with actual values.
 
 The three values are:
+
 1. `kubernetes_cluster_id` = `/subscriptions/7bbc8ae5-1710-48ab-ab83-59b52bd0de1a/resourcegroups/rg-ff-uks-gp-net/providers/Microsoft.ContainerService/managedClusters/aks-ff-uks-gp-1`
-
-
 2. `kubernetes_identity_principal_id` = `b8a47098-d397-4bf4-80cb-ada2233015f5`
 3. `vnet_id` = `/subscriptions/7bbc8ae5-1710-48ab-ab83-59b52bd0de1a/resourceGroups/rg-ff-uks-gp-net/providers/Microsoft.Network/virtualNetworks/vnet-ff-uks-gp-1`
 
 Now I'll assemble the complete module call with all three values substituted in, include the subnet configuration block, and add the storage account name validation command.
 
-## Asset 4 (Pieces: 40c47f4a-f7c7-4336-999b-3fe4b7c905ec)
+### Asset 4 (Pieces: 40c47f4a-f7c7-4336-999b-3fe4b7c905ec)
 
 export SUB_ID="7bbc8ae5-1710-48ab-ab83-59b52bd0de1a"
+
 export AKS_RG="rg-ff-uks-gp-net"
+
 export AKS_NAME="aks-ff-uks-gp-1"
 
-# 1. Full AKS ARM ID → kubernetes_cluster_id
+## 1. Full AKS ARM ID → kubernetes_cluster_id
+
 az aks show --subscription "$SUB_ID" -g "$AKS_RG" -n "$AKS_NAME" \
   --query id -o tsv
 
-# 2. Kubelet UAI object ID → kubernetes_identity_principal_id
+## 2. Kubelet UAI Object ID → kubernetes_identity_principal_id
+
 az aks show --subscription "$SUB_ID" -g "$AKS_RG" -n "$AKS_NAME" \
   --query "identityProfile.kubeletidentity.objectId" -o tsv
 
-# 3. Confirm VNet ID (needed for vnet_id input)
+## 3. Confirm VNet ID (needed for vnet_id input)
+
 az network vnet show --subscription "$SUB_ID" -g "$AKS_RG" \
   -n "vnet-ff-uks-gp-1" --query id -o tsv
+
 /subscriptions/7bbc8ae5-1710-48ab-ab83-59b52bd0de1a/resourcegroups/rg-ff-uks-gp-net/providers/Microsoft.ContainerService/managedClusters/aks-ff-uks-gp-1
+
 b8a47098-d397-4bf4-80cb-ada2233015f5
+
 /subscriptions/7bbc8ae5-1710-48ab-ab83-59b52bd0de1a/resourceGroups/rg-ff-uks-gp-net/providers/Microsoft.Network/virtualNetworks/vnet-ff-uks-gp-1
 
-## Asset 5 (Pieces: 5ee9cc27-96b7-405b-b498-ceb748251632)
+### Asset 5 (Pieces: 5ee9cc27-96b7-405b-b498-ceb748251632)
 
 completed (162332 input + 2748 output + 584 reasoning tokens, $1.1457)
 
-## Asset 6 (Pieces: 439568f6-7359-4ec2-8383-8b5397d2a390)
+### Asset 6 (Pieces: 439568f6-7359-4ec2-8383-8b5397d2a390)
 
-Clean slate changes everything — no imports, no drift, no forced replacements to manage. Here's the revised plan.
+Clean slate changes everything—no imports, no drift, no forced replacements to manage. Here's the revised plan.
 
 ---
 
-## Updated Testing Plan: Clean-Slate Apply Against `sandbox-testing-1`
+### Updated Testing Plan: Clean-Slate Apply Against `sandbox-testing-1`
 
-### What changed from the previous plan
+#### What Changed from the Previous Plan
 
 | Area | Before | Now |
 |---|---|---|
-| Terraform imports | Required for 4 resources | **None — skip entirely** |
-| Namespace drift | Forced replacement risk | **No risk — new resource** |
-| PE subnet | Assumed pre-existing | **Must be created fresh** |
-| Backup RGs | Pre-existing, import-or-skip | **Created fresh by Terraform** |
-| Extension name conflict | `azbkuextension` vs `azure-aks-backup` | **No conflict — net new** |
+| Terraform imports | Required for 4 resources | None—skip entirely |
+| Namespace drift | Forced replacement risk | No risk—new resource |
+| PE subnet | Assumed pre-existing | Must be created fresh |
+| Backup RGs | Pre-existing, import-or-skip | Created fresh by Terraform |
+| Extension name conflict | `azbkuextension` vs `azure-aks-backup` | No conflict—net new |
 
 ---
 
-### Phase 0 — Module fixes (unchanged — must land first)
+#### Phase 0—Module Fixes (unchanged—must Land first)
 
 Ensure the corrected `terraform-azure-aks-backup` branch is tagged and published to the TFC registry as `v1.2.0` with all 10 fixes applied. No changes to this phase.
 
 ---
 
-### Phase 1 — Pre-flight: resolve the two required ARM IDs
+#### Phase 1—Pre-flight: Resolve the Two Required ARM IDs
 
 You need exactly two values before writing the module call. Run from Cloud Shell or your jumpbox:
 
@@ -193,9 +201,9 @@ az network vnet show --subscription "$SUB_ID" -g "$AKS_RG" \
 
 ---
 
-### Phase 2 — Add/confirm the PE subnet in `sandbox-testing-1/bastion.tf`
+#### Phase 2—Add/confirm the PE Subnet in `sandbox-testing-1/bastion.tf`
 
-The PE subnet is provisioned at the **workspace** level (not inside the backup module). It was previously at `10.0.0.96/27`. Add this block back to `bastion.tf`:
+The PE subnet is provisioned at the workspace level (not inside the backup module). It was previously at `10.0.0.96/27`. Add this block back to `bastion.tf`:
 
 ```hcl
 resource "azurerm_subnet" "backup_pe" {
@@ -215,7 +223,7 @@ private_endpoint_subnet_id = azurerm_subnet.backup_pe.id
 
 ---
 
-### Phase 3 — `sandbox-testing-1/main.tf` module call (clean-slate version)
+#### Phase 3—`sandbox-testing-1/main.tf` Module Call (clean-slate version)
 
 ```hcl
 module "aks_backup" {
@@ -257,9 +265,9 @@ module "aks_backup" {
 
 ---
 
-### Phase 4 — Provider block check (`sandbox-testing-1/providers.tf`)
+#### Phase 4—Provider Block Check (`sandbox-testing-1/providers.tf`)
 
-With `shared_access_key_enabled = false` and `default_to_oauth_authentication = true` both active on the storage account, the `azurerm` provider **must** have this set or Terraform's storage data-plane operations will fail at plan time:
+With `shared_access_key_enabled = false` and `default_to_oauth_authentication = true` both active on the storage account, the `azurerm` provider must have this set or Terraform's storage data-plane operations will fail at plan time:
 
 ```hcl
 provider "azurerm" {
@@ -272,7 +280,7 @@ Confirm this is present before running `terraform plan`.
 
 ---
 
-### Phase 5 — Plan review checklist
+#### Phase 5—Plan Review Checklist
 
 Run `terraform plan`. Expected outcome on a clean slate:
 
@@ -281,8 +289,8 @@ Run `terraform plan`. Expected outcome on a clean slate:
 | Total `add` | ~20 resources |
 | `change` | 0 |
 | `destroy` | 0 |
-| `azurerm_storage_account` — `default_to_oauth_authentication` | `= true` |
-| `azurerm_role_assignment.vault_msi_read_on_cluster_rg` — `scope` | Resource group path (5 ARM segments), not cluster ID |
+| `azurerm_storage_account`—`default_to_oauth_authentication` | `= true` |
+| `azurerm_role_assignment.vault_msi_read_on_cluster_rg`—`scope` | Resource group path (5 ARM segments), not cluster ID |
 | `azurerm_role_assignment.vault_msi_data_protection_reader_on_cluster` | Present |
 | All role assignments | `skip_service_principal_aad_check = true` |
 | `azurerm_kubernetes_cluster_extension.backup_extension` `depends_on` | Includes `azurerm_private_endpoint.backup_sa_blob` |
@@ -292,7 +300,7 @@ Run `terraform plan`. Expected outcome on a clean slate:
 
 ---
 
-### Phase 6 — Apply and validate
+#### Phase 6—Apply and Validate
 
 ```bash
 terraform apply plan.tfplan
@@ -323,9 +331,9 @@ az dataprotection job list \
 
 ---
 
-### Remaining open loop
+#### Remaining Open Loop
 
-The only open item before hitting apply is the **storage account name** — it must be globally unique across all of Azure. Pick something like `sboxaksbackup<5-char-random>` (all lowercase, no hyphens, ≤ 24 chars) and verify availability:
+The only open item before hitting apply is the storage account name—it must be globally unique across all of Azure. Pick something like `sboxaksbackup<5-char-random>` (all lowercase, no hyphens, ≤ 24 chars) and verify availability:
 
 ```bash
 az storage account check-name --name "sboxaksbackup<random>" --query nameAvailable -o tsv
@@ -333,33 +341,32 @@ az storage account check-name --name "sboxaksbackup<random>" --query nameAvailab
 
 Everything else is fully defined. Once you have the two ARM IDs from Phase 1 and a confirmed storage account name, you're good to run `terraform plan`.
 
-## Asset 7 (Pieces: a66b4e6d-7a13-461f-934b-3fc25c3e3806)
+### Asset 7 (Pieces: a66b4e6d-7a13-461f-934b-3fc25c3e3806)
 
 The user has deleted all pre-existing resources and is starting from a clean slate. They want me to update the testing plan to reflect this new reality - no imports needed, everything will be created fresh. Let me reference the context I already have from the previous turn and update the plan accordingly.
 
 Key changes from the previous plan:
+
 1. No terraform imports needed - everything is clean
 2. The PE subnet `snet-ff-uks-gp-pe` is gone and needs to be created fresh
 3. All backup resources are gone - storage account, vault, policy, extension, trusted access binding, backup instance, private endpoint, private DNS zone, backup RG, snapshot RG
-
-
 4. The VNet is back to 4 subnets
 
 I have all the context I need from the previous turns - the subscription ID, cluster info, etc. I don't need to make additional tool calls since I already have the environment facts from the prior search. Now I'll restructure the plan: Phase 0 applies the module fixes, Phase 1 simplifies pre-flight discovery to just grab the AKS cluster ID, UAI object ID, and VNet ID, Phase 2 updates the module call without any existing resources to import, Phase 3 skips imports entirely, and Phase 4 updates the plan review checklist since all resources are being created fresh.
 
 For the private endpoint subnet, I need to create `snet-ff-uks-gp-pe` at `10.0.0.96/27` - either through the `terraform-azure-aks-backup` module's `create_private_endpoint` variable or separately in the `bastion.tf` file. Looking back at the prior sessions, `bastion.tf` in `sandbox-testing-1` was already being updated to add this subnet resource.
 
-Checking the address prefix...
+Checking the address prefix…
 
 the sandbox subnet was `10.0.0.96/27`, but I'm seeing conflicting details about the VNet configuration. Let me verify against the Azure Subscription Resource Report for sandbox-testing-1 to confirm the resource group and location details.
 
 Now I'm confirming the PE subnet address space and planning the Terraform changes—since these are all new resources with no existing imports, I'll need to create the subnet in the bastion configuration, choose a globally unique storage account name, and ensure the provider is configured with Azure AD authentication. The plan should show roughly 18-20 new resources with no modifications or deletions.
 
-## Asset 8 (Pieces: 58114802-8f03-41f1-8222-a5b9bd9f0f2a)
+### Asset 8 (Pieces: 58114802-8f03-41f1-8222-a5b9bd9f0f2a)
 
 I have deleted the resources so we should be starting from a clean slate cluster. `snet-ff-uks-gp-pe` is gone from the subnet list. Everything is clean.
 
-**Full deletion summary — all confirmed:**
+Full deletion summary—all confirmed:
 
 | Resource | Status |
 |---|---|
@@ -371,22 +378,23 @@ I have deleted the resources so we should be starting from a clean slate cluster
 | Private DNS zone (`privatelink.blob.core.windows.net`) | ✅ Deleted |
 | Storage account (`stffuksgp1backup`) | ✅ Deleted |
 | Private endpoint (`pe-stffuksgp1backup-blob`) | ✅ Deleted |
-| PE subnet (`snet-ff-uks-gp-pe` — 10.0.0.96/27) | ✅ Deleted |
+| PE subnet (`snet-ff-uks-gp-pe`—10.0.0.96/27) | ✅ Deleted |
 | Backup RG (`pentest-1-backup-rg`) | ✅ Deleted |
 | Snapshot RG (`pentest-1-backup-snapshots-rg`) | ✅ Deleted |
 
 The VNet is back to its original 4-subnet state. You're ready to run `terraform apply` against the updated module.
+
 Update the plan
 
-## Asset 9 (Pieces: 34823736-fdbc-4a6a-bb03-64617d97730c)
+### Asset 9 (Pieces: 34823736-fdbc-4a6a-bb03-64617d97730c)
 
 completed (167356 input + 430 output + 126 reasoning tokens, $1.1380)
 
-## Asset 10 (Pieces: d1f6f948-3a15-4bae-83ba-fee5a3abb98c)
+### Asset 10 (Pieces: d1f6f948-3a15-4bae-83ba-fee5a3abb98c)
 
 `snet-ff-uks-gp-pe` is gone from the subnet list. Everything is clean.
 
-**Full deletion summary — all confirmed:**
+Full deletion summary—all confirmed:
 
 | Resource | Status |
 |---|---|
@@ -398,13 +406,13 @@ completed (167356 input + 430 output + 126 reasoning tokens, $1.1380)
 | Private DNS zone (`privatelink.blob.core.windows.net`) | ✅ Deleted |
 | Storage account (`stffuksgp1backup`) | ✅ Deleted |
 | Private endpoint (`pe-stffuksgp1backup-blob`) | ✅ Deleted |
-| PE subnet (`snet-ff-uks-gp-pe` — 10.0.0.96/27) | ✅ Deleted |
+| PE subnet (`snet-ff-uks-gp-pe`—10.0.0.96/27) | ✅ Deleted |
 | Backup RG (`pentest-1-backup-rg`) | ✅ Deleted |
 | Snapshot RG (`pentest-1-backup-snapshots-rg`) | ✅ Deleted |
 
 The VNet is back to its original 4-subnet state. You're ready to run `terraform apply` against the updated module.
 
-## Asset 11 (Pieces: d8e814ca-17a6-4f5d-b059-6d8047958c22)
+### Asset 11 (Pieces: d8e814ca-17a6-4f5d-b059-6d8047958c22)
 
 The output shows that the cleanup is complete. All backup resources are deleted:
 
@@ -412,63 +420,75 @@ The output shows that the cleanup is complete. All backup resources are deleted:
 2. The subnet `snet-ff-uks-gp-pe` (10.0.0.96/27) is no longer in the subnet list ✅
 
 The VNet is now clean with only the original 4 subnets:
+
 - snet-ff-uks-gp-jumpbox (10.0.0.64/27)
 - snet-ff-uks-gp-workflows (10.0.0.32/27)
-
-
 - snet-ff-uks-gp-system (10.0.0.0/27)
 - AzureBastionSubnet (10.0.0.128/26)
 
 Everything looks good and I'm ready to run terraform apply.
 
-## Asset 12 (Pieces: 4c1e7eb6-d358-4451-951a-638ec29355d1)
+### Asset 12 (Pieces: 4c1e7eb6-d358-4451-951a-638ec29355d1)
 
-# Step 1: Delete the PE (no --yes flag for this command)
+## Step 1: Delete the PE (no --yes Flag for This command)
+
 az network private-endpoint delete \
   --subscription "$SUB_ID" \
   --resource-group "rg-ff-uks-gp-net" \
   --name "pe-stffuksgp1backup-blob"
 
-echo "Waiting 60s for NIC cleanup..."
+echo "Waiting 60s for NIC cleanup…"
+
 sleep 60
 
-# Step 2: Confirm the PE and NIC are gone before touching the subnet
+## Step 2: Confirm the PE and NIC Are Gone before touching the Subnet
+
 az network private-endpoint show \
   --subscription "$SUB_ID" \
   --resource-group "rg-ff-uks-gp-net" \
   --name "pe-stffuksgp1backup-blob" \
   -o json 2>/dev/null && echo "WARN: PE still exists, wait longer" || echo "OK: PE is gone"
 
-# Step 3: Delete the subnet
+## Step 3: Delete the Subnet
+
 az network vnet subnet delete \
   --subscription "$SUB_ID" \
   --resource-group "rg-ff-uks-gp-net" \
   --vnet-name "vnet-ff-uks-gp-1" \
   --name "snet-ff-uks-gp-pe"
 
-# Step 4: Final VNet state check — snet-ff-uks-gp-pe should be absent
+## Step 4: Final VNet State check—snet-ff-uks-gp-pe Should Be absent
+
 az network vnet subnet list \
   --subscription "$SUB_ID" \
   --resource-group "rg-ff-uks-gp-net" \
   --vnet-name "vnet-ff-uks-gp-1" \
   --query "[].{name:name, prefix:addressPrefix}" \
   -o table
-Waiting 60s for NIC cleanup...
-OK: PE is gone
-Name                      Prefix
-------------------------  -------------
-snet-ff-uks-gp-jumpbox    10.0.0.64/27
-snet-ff-uks-gp-workflows  10.0.0.32/27
-snet-ff-uks-gp-system     10.0.0.0/27
-AzureBastionSubnet        10.0.0.128/26
 
-## Asset 13 (Pieces: c36d4e11-c546-470f-ac25-de3b60b2dd8b)
+Waiting 60s for NIC cleanup…
+
+OK: PE is gone
+
+Name Prefix
+
+------------------------ -------------
+
+snet-ff-uks-gp-jumpbox 10.0.0.64/27
+
+snet-ff-uks-gp-workflows 10.0.0.32/27
+
+snet-ff-uks-gp-system 10.0.0.0/27
+
+AzureBastionSubnet 10.0.0.128/26
+
+### Asset 13 (Pieces: c36d4e11-c546-470f-ac25-de3b60b2dd8b)
 
 completed (166172 input + 551 output + 139 reasoning tokens, $1.1320)
 
-## Asset 14 (Pieces: ae61fe3b-b348-4f5f-adb7-cf8326c911a8)
+### Asset 14 (Pieces: ae61fe3b-b348-4f5f-adb7-cf8326c911a8)
 
-The PE delete failed because `az network private-endpoint delete` doesn't accept `--yes` — it just executes without a confirmation prompt. So the PE is still live, the NIC is still attached, and the subnet is still blocked. Run this:
+The PE delete failed because `az network private-endpoint delete` doesn't accept `--yes`—it just executes without a confirmation prompt. So the PE is still live, the NIC is still attached, and the subnet is still blocked. Run this:
 
 ```bash
 # Step 1: Delete the PE (no --yes flag for this command)
@@ -503,9 +523,9 @@ az network vnet subnet list \
   -o table
 ```
 
-The PE delete fires synchronously and Azure automatically destroys the attached NIC as part of the PE teardown — you don't need to touch the NIC directly. The 60s sleep is just to let that propagation complete before the subnet delete is attempted. If the subnet delete still fails after 60s, just wait another 30s and rerun step 3 alone.
+The PE delete fires synchronously and Azure automatically destroys the attached NIC as part of the PE teardown—you don't need to touch the NIC directly. The 60s sleep is just to let that propagation complete before the subnet delete is attempted. If the subnet delete still fails after 60s, just wait another 30s and rerun step 3 alone.
 
-## Asset 15 (Pieces: 8cb0e207-195b-4fdf-a520-bcb0408d9d73)
+### Asset 15 (Pieces: 8cb0e207-195b-4fdf-a520-bcb0408d9d73)
 
 The issue is clear: `az network private-endpoint delete` doesn't support `--yes` flag (it returned "unrecognized arguments: --yes"). So the PE delete silently failed (well, it errored immediately), and since the sleep 60 still ran, the subnet delete was attempted but the PE + NIC were still there.
 
@@ -513,62 +533,80 @@ The fix is simple: remove `--yes` from the private endpoint delete command. The 
 
 Let me give them the corrected commands.
 
-## Asset 16 (Pieces: e20d8cd5-4416-4deb-b852-47d4d86df68f)
+### Asset 16 (Pieces: e20d8cd5-4416-4deb-b852-47d4d86df68f)
 
-# Step 1: Delete the private endpoint (it's in the VNet RG, not the backup RG)
+## Step 1: Delete the Private Endpoint (it's in the VNet RG, not the Backup RG)
+
 az network private-endpoint delete \
   --subscription "$SUB_ID" \
   --resource-group "rg-ff-uks-gp-net" \
   --name "pe-stffuksgp1backup-blob" \
   --yes
 
-# Step 2: Wait for Azure to clean up the NIC (it's tied to the PE lifecycle)
-echo "Waiting 60s for PE and NIC cleanup to propagate..."
+## Step 2: Wait for Azure to Clean up the NIC (it's Tied to the PE lifecycle)
+
+echo "Waiting 60s for PE and NIC cleanup to propagate…"
+
 sleep 60
 
-# Step 3: Delete the subnet
+## Step 3: Delete the Subnet
+
 az network vnet subnet delete \
   --subscription "$SUB_ID" \
   --resource-group "rg-ff-uks-gp-net" \
   --vnet-name "vnet-ff-uks-gp-1" \
   --name "snet-ff-uks-gp-pe"
 
-# Step 4: Confirm clean VNet state (snet-ff-uks-gp-pe should be absent)
+## Step 4: Confirm Clean VNet State (snet-ff-uks-gp-pe Should Be absent)
+
 az network vnet subnet list \
   --subscription "$SUB_ID" \
   --resource-group "rg-ff-uks-gp-net" \
   --vnet-name "vnet-ff-uks-gp-1" \
   --query "[].{name:name, prefix:addressPrefix}" \
   -o table
+
 unrecognized arguments: --yes
 
-https://aka.ms/cli_ref
-Read more about the command in reference docs
-Waiting 60s for PE and NIC cleanup to propagate...
-(InUseSubnetCannotBeDeleted) Subnet snet-ff-uks-gp-pe is in use by /subscriptions/7bbc8ae5-1710-48ab-ab83-59b52bd0de1a/resourceGroups/RG-FF-UKS-GP-NET/providers/Microsoft.Network/networkInterfaces/PE-STFFUKSGP1BACKUP-BLOB.NIC.366F02CA-D6B5-42E4-BC2B-71AEE4103F97/ipConfigurations/PRIVATEENDPOINTIPCONFIG.7599A07E-D570-4842-B490-878DF468C1B5 and cannot be deleted. In order to delete the subnet, delete all the resources within the subnet. See aka.ms/deletesubnet.
-Code: InUseSubnetCannotBeDeleted
-Message: Subnet snet-ff-uks-gp-pe is in use by /subscriptions/7bbc8ae5-1710-48ab-ab83-59b52bd0de1a/resourceGroups/RG-FF-UKS-GP-NET/providers/Microsoft.Network/networkInterfaces/PE-STFFUKSGP1BACKUP-BLOB.NIC.366F02CA-D6B5-42E4-BC2B-71AEE4103F97/ipConfigurations/PRIVATEENDPOINTIPCONFIG.7599A07E-D570-4842-B490-878DF468C1B5 and cannot be deleted. In order to delete the subnet, delete all the resources within the subnet. See aka.ms/deletesubnet.
-Name                      Prefix
-------------------------  -------------
-snet-ff-uks-gp-jumpbox    10.0.0.64/27
-snet-ff-uks-gp-workflows  10.0.0.32/27
-snet-ff-uks-gp-system     10.0.0.0/27
-AzureBastionSubnet        10.0.0.128/26
-snet-ff-uks-gp-pe         10.0.0.96/27
+<https://aka.ms/cli_ref>
 
-## Asset 17 (Pieces: d7660a49-016d-49d3-93cd-6e3f531a3000)
+Read more about the command in reference docs
+
+Waiting 60s for PE and NIC cleanup to propagate…
+
+(InUseSubnetCannotBeDeleted) Subnet snet-ff-uks-gp-pe is in use by /subscriptions/7bbc8ae5-1710-48ab-ab83-59b52bd0de1a/resourceGroups/RG-FF-UKS-GP-NET/providers/Microsoft.Network/networkInterfaces/PE-STFFUKSGP1BACKUP-BLOB.NIC.366F02CA-D6B5-42E4-BC2B-71AEE4103F97/ipConfigurations/PRIVATEENDPOINTIPCONFIG.7599A07E-D570-4842-B490-878DF468C1B5 and cannot be deleted. In order to delete the subnet, delete all the resources within the subnet. See aka.ms/deletesubnet.
+
+Code: InUseSubnetCannotBeDeleted
+
+Message: Subnet snet-ff-uks-gp-pe is in use by /subscriptions/7bbc8ae5-1710-48ab-ab83-59b52bd0de1a/resourceGroups/RG-FF-UKS-GP-NET/providers/Microsoft.Network/networkInterfaces/PE-STFFUKSGP1BACKUP-BLOB.NIC.366F02CA-D6B5-42E4-BC2B-71AEE4103F97/ipConfigurations/PRIVATEENDPOINTIPCONFIG.7599A07E-D570-4842-B490-878DF468C1B5 and cannot be deleted. In order to delete the subnet, delete all the resources within the subnet. See aka.ms/deletesubnet.
+
+Name Prefix
+
+------------------------ -------------
+
+snet-ff-uks-gp-jumpbox 10.0.0.64/27
+
+snet-ff-uks-gp-workflows 10.0.0.32/27
+
+snet-ff-uks-gp-system 10.0.0.0/27
+
+AzureBastionSubnet 10.0.0.128/26
+
+snet-ff-uks-gp-pe 10.0.0.96/27
+
+### Asset 17 (Pieces: d7660a49-016d-49d3-93cd-6e3f531a3000)
 
 completed (267453 input + 4366 output + 146 reasoning tokens, $1.4441)
 
-## Asset 18 (Pieces: 722083df-b36d-4543-8d73-aec3393a0d89)
+### Asset 18 (Pieces: 722083df-b36d-4543-8d73-aec3393a0d89)
 
-Good — I have rich context from your memory on both the `sandbox-testing-1` subscription and the `terraform-azure-aks-backup` module. Here's the complete testing plan against the sandbox cluster, grounded in what your LTM actually records about that environment.
+Good—I have rich context from your memory on both the `sandbox-testing-1` subscription and the `terraform-azure-aks-backup` module. Here's the complete testing plan against the sandbox cluster, grounded in what your LTM actually records about that environment.
 
 ---
 
-## Testing Plan: `terraform-azure-aks-backup` v2 Against `sandbox-testing-1`
+### Testing Plan: `terraform-azure-aks-backup` V2 Against `sandbox-testing-1`
 
-### Environment facts (from your recorded context)
+#### Environment Facts (from Your Recorded context)
 
 | Parameter | Value |
 |---|---|
@@ -589,31 +627,31 @@ Good — I have rich context from your memory on both the `sandbox-testing-1` su
 
 ---
 
-### Phase 0 — Pre-flight: Apply the module fixes
+#### Phase 0—Pre-flight: Apply the Module Fixes
 
 Before running any plan, the 10 corrections from the review must land on the `terraform-azure-aks-backup` module branch. Work through them in this order (dependency-ordered, not cosmetic):
 
-1. **Create `versions.tf`** — pin `azurerm >= 3.85.0`, Terraform `>= 1.3.0`.
-2. **`variables.tf`** — make the changes below, then move to `main.tf`:
+1. Create `versions.tf`—pin `azurerm >= 3.85.0`, Terraform `>= 1.3.0`.
+2. `variables.tf`—make the changes below, then move to `main.tf`:
    - Remove defaults from `storage_account_name`, `backup_vault_name`, `backup_policy_name`.
    - Change `backup_extension_name` default to `"azure-aks-backup"`.
    - Rename `private_dns_zone_vnet_id` → `vnet_id`.
    - Add `validation {}` to `trusted_access_binding_name` (≤ 24 chars).
    - Delete dead variable `kubernetes_cluster_name`.
-3. **`main.tf`** — apply each HCL correction:
+3. `main.tf`—apply each HCL correction:
    - Add `default_to_oauth_authentication = true` to `azurerm_storage_account.backup_sa`.
    - Fix the `Reader` role scope: `join("/", slice(split("/", var.kubernetes_cluster_id), 0, 5))`.
    - Add missing `vault_msi_data_protection_reader_on_cluster` role assignment.
-   - Add `skip_service_principal_aad_check = true` to **all** `azurerm_role_assignment` resources.
+   - Add `skip_service_principal_aad_check = true` to all `azurerm_role_assignment` resources.
    - Add `azurerm_private_endpoint.backup_sa_blob` to `backup_extension` `depends_on`.
    - Add `azurerm_kubernetes_cluster_trusted_access_role_binding.aks_cluster_trusted_access` to `backup_instance` `depends_on`.
    - Update `virtual_network_id` reference to `var.vnet_id`.
 
-Once done, tag the module as `v1.2.0` (or whatever your next TFC registry version is — your prior sessions reference the plan to release `v1.2.0`).
+Once done, tag the module as `v1.2.0` (or whatever your next TFC registry version is—your prior sessions reference the plan to release `v1.2.0`).
 
 ---
 
-### Phase 1 — Pre-existing resource discovery
+#### Phase 1—Pre-existing Resource Discovery
 
 Before running `terraform plan`, confirm the state of pre-existing resources against which imports are needed. Run from your jumpbox or Cloud Shell:
 
@@ -647,11 +685,11 @@ az network vnet subnet list \
   --query "[].{Name:name, Prefix:addressPrefix, PEPolicies:privateEndpointNetworkPolicies}" -o table
 ```
 
-> **Namespace drift watch**: Your prior sessions flag that the live backup instance has `included_namespaces = ["barts","ff-a",...]` (production list), but your sandbox config targets `["spicedb","sandbox-test-1"]`. Changing `included_namespaces` on `azurerm_data_protection_backup_instance_kubernetes_cluster` **forces replacement** of the resource. Check the plan carefully before applying — forced replacement of the backup instance is expected and correct for the sandbox target.
+> Namespace drift watch: Your prior sessions flag that the live backup instance has `included_namespaces = ["barts","ff-a",…]` (production list), but your sandbox config targets `["spicedb","sandbox-test-1"]`. Changing `included_namespaces` on `azurerm_data_protection_backup_instance_kubernetes_cluster` forces replacement of the resource. Check the plan carefully before applying—forced replacement of the backup instance is expected and correct for the sandbox target.
 
 ---
 
-### Phase 2 — `sandbox-testing-1/main.tf` module call
+#### Phase 2—`sandbox-testing-1/main.tf` Module Call
 
 Update your `sandbox-testing-1` workspace's `main.tf` module block with these values (substituting ARM IDs from Phase 1 discovery):
 
@@ -695,7 +733,7 @@ module "aks_backup" {
 
 ---
 
-### Phase 3 — Terraform import (pre-existing resources)
+#### Phase 3—Terraform Import (pre-existing resources)
 
 Your prior sessions established these exact import commands. Run them from the `sandbox-testing-1` workspace directory before the first `terraform plan`:
 
@@ -727,30 +765,30 @@ terraform import \
   "/subscriptions/$SUB/resourceGroups/$AKS_RG/providers/Microsoft.ContainerService/managedClusters/$AKS_CLUSTER/providers/Microsoft.KubernetesConfiguration/extensions/azure-aks-backup"
 ```
 
-> ⚠️ **Extension name check**: Your existing extension in production was listed as `azbkuextension` in the prior PoC session notes — but the corrected module default is `"azure-aks-backup"`. Verify the actual name on the cluster from Phase 1 step 4 before importing. If it still exists under `azbkuextension`, the import path uses that name. The Terraform resource and Azure resource names must match at import time.
+> ⚠️ Extension name check: Your existing extension in production was listed as `azbkuextension` in the prior PoC session notes—but the corrected module default is `"azure-aks-backup"`. Verify the actual name on the cluster from Phase 1 step 4 before importing. If it still exists under `azbkuextension`, the import path uses that name. The Terraform resource and Azure resource names must match at import time.
 
 ---
 
-### Phase 4 — Plan review checklist
+#### Phase 4—Plan Review Checklist
 
 Run `terraform plan` (via HCP TFC or `terraform plan -out=plan.tfplan` locally). Review against this checklist before applying:
 
 | Check | Expected |
 |---|---|
-| `azurerm_storage_account.backup_sa` — `default_to_oauth_authentication` | `= true` |
-| `azurerm_role_assignment.vault_msi_read_on_cluster_rg` — `scope` | AKS **resource group** path (5 segments), not cluster ID |
+| `azurerm_storage_account.backup_sa`—`default_to_oauth_authentication` | `= true` |
+| `azurerm_role_assignment.vault_msi_read_on_cluster_rg`—`scope` | AKS resource group path (5 segments), not cluster ID |
 | `azurerm_role_assignment.vault_msi_data_protection_reader_on_cluster` | Present and NEW |
 | All `azurerm_role_assignment` blocks | `skip_service_principal_aad_check = true` present |
 | `azurerm_kubernetes_cluster_extension.backup_extension` `depends_on` | Includes `azurerm_private_endpoint.backup_sa_blob` |
 | `azurerm_data_protection_backup_instance_kubernetes_cluster` `depends_on` | Includes trusted access binding |
-| `included_namespaces` change | Flagged as **forced replacement** — this is expected for sandbox |
+| `included_namespaces` change | Flagged as forced replacement—this is expected for sandbox |
 | New resources (net new, not imported) | `azurerm_storage_account`, `azurerm_storage_container`, `azurerm_private_endpoint`, `azurerm_private_dns_zone` (if no existing), all new role assignments |
 | Plan resource counts | Should be ~18 add, 0-2 change, 0-1 destroy (backup instance replacement only) |
 | Cost estimate | Your prior sandbox plan showed ~$98.95/mo |
 
 ---
 
-### Phase 5 — Post-apply validation
+#### Phase 5—Post-apply Validation
 
 After `terraform apply`, validate the backup is functional:
 
@@ -777,20 +815,22 @@ az dataprotection job list \
 
 ---
 
-### Open loops before this plan is "ready to apply"
+#### Open Loops before This Plan is "ready to apply"
 
-- **`snet-ff-uks-gp-pe` subnet**: confirm it was created by the FTFL-615 work — the `bastion.tf` edit adding this subnet was done in the prior Claude Code session, but check it is merged and applied in the sandbox workspace before referencing it as the `private_endpoint_subnet_id`.
-- **Extension name drift**: the existing extension name (`azbkuextension` vs `azure-aks-backup`) must be reconciled before import — this may require destroying and recreating the extension resource.
-- **`azurerm` provider block**: your `providers.tf` in `sandbox-testing-1` must include `storage_use_azuread = true` in the `azurerm` provider block (flagged in the README) now that `shared_access_key_enabled = false` and `default_to_oauth_authentication = true` are both active. Without it, Terraform's storage data-plane operations will fail.
-- **Module release**: tag `v1.2.0` in GitLab (`gitlab.com/fitfile/terraform-infrastructure/tfc-modules/terraform-azure-aks-backup`) and publish to HCP TFC registry before pointing the sandbox workspace at the new version.
+- `snet-ff-uks-gp-pe` subnet: confirm it was created by the FTFL-615 work—the `bastion.tf` edit adding this subnet was done in the prior Claude Code session, but check it is merged and applied in the sandbox workspace before referencing it as the `private_endpoint_subnet_id`.
+- Extension name drift: the existing extension name (`azbkuextension` vs `azure-aks-backup`) must be reconciled before import—this may require destroying and recreating the extension resource.
+- `azurerm` provider block: your `providers.tf` in `sandbox-testing-1` must include `storage_use_azuread = true` in the `azurerm` provider block (flagged in the README) now that `shared_access_key_enabled = false` and `default_to_oauth_authentication = true` are both active. Without it, Terraform's storage data-plane operations will fail.
+- Module release: tag `v1.2.0` in GitLab (`gitlab.com/fitfile/terraform-infrastructure/tfc-modules/terraform-azure-aks-backup`) and publish to HCP TFC registry before pointing the sandbox workspace at the new version.
 
-## Asset 23 (Pieces: e08cb8bd-c6a2-4b16-a6c5-d9aca8a65df7)
+### Asset 23 (Pieces: e08cb8bd-c6a2-4b16-a6c5-d9aca8a65df7)
 
 The user has received a code review from their coding assistant on the `terraform-azure-aks-backup` module. They want me to:
+
 1. Check the response (the code review findings)
 2. Create a plan for testing against the sandbox cluster
 
 I need to search their memory to understand the context better - particularly about the:
+
 - Sandbox cluster details (`sandbox-testing-1`)
 - Previous CLI PoC findings
 - Any relevant Azure subscription/resource details
@@ -798,48 +838,55 @@ I need to search their memory to understand the context better - particularly ab
 
 Let me search their memory for relevant context about this project.
 
-## Asset 24 (Pieces: b904ca87-7162-4159-ad50-baaacadd1ce5)
+### Asset 24 (Pieces: b904ca87-7162-4159-ad50-baaacadd1ce5)
 
-I just asked my coding assistant to review the private backup module changes. 
+I just asked my coding assistant to review the private backup module changes.
+
 Viewed main.tf:1-258
+
 Viewed variables.tf:1-233
+
 Viewed outputs.tf:1-50
+
 Listed directory terraform-azure-aks-backup
+
 Viewed README.md:1-30
+
 Viewed moved_2026-04-21.tf:1-45
 
 Based on a complete code review of the `terraform-azure-aks-backup` module against your requirements and the findings from the previous manual CLI PoC, here is the full analysis and the necessary corrections.
 
-### 1. Specific Issues Found
+#### 1. Specific Issues Found
 
-1. **Missing OAuth default on Storage Account (`main.tf:30`)**
+1. Missing OAuth default on Storage Account (`main.tf:30`)
    While key-based auth and nested public items are disabled, the `azurerm_storage_account` resource is missing `default_to_oauth_authentication = true`.
-2. **Incorrect Vault MSI Reader Role Scope (`main.tf:159`)**
-   The vault MSI requires `Reader` on the **AKS cluster's resource group**. Currently, the code scopes this assignment directly to the AKS cluster resource (`var.kubernetes_cluster_id`), which will cause permissions to fail. 
-3. **Missing Vault MSI Data Protection Reader Role (`main.tf`)**
+2. Incorrect Vault MSI Reader Role Scope (`main.tf:159`)
+   The vault MSI requires `Reader` on the AKS cluster's resource group. Currently, the code scopes this assignment directly to the AKS cluster resource (`var.kubernetes_cluster_id`), which will cause permissions to fail.
+3. Missing Vault MSI Data Protection Reader Role (`main.tf`)
    The `Data Protection Reader` role assignment on the AKS cluster itself is completely missing for the Vault MSI.
-4. **Missing AAD propagation check for all Role Assignments (`main.tf:153-193`)**
+4. Missing AAD propagation check for all Role Assignments (`main.tf:153-193`)
    None of the `azurerm_role_assignment` resources include `skip_service_principal_aad_check = true`. Because the Vault and Extension Managed Identities are created dynamically, role assignments will frequently fail due to AAD replication lag.
-5. **Missing Private Endpoint Dependency for Extension (`main.tf:148`)**
+5. Missing Private Endpoint Dependency for Extension (`main.tf:148`)
    The `azurerm_kubernetes_cluster_extension` lacks an explicit `depends_on` the `azurerm_private_endpoint.backup_sa_blob`. It could try to configure the AKS extension to use the SA before the private networking is fully resolving.
-6. **Missing Trusted Access Binding Dependency for Backup Instance (`main.tf:248`)**
+6. Missing Trusted Access Binding Dependency for Backup Instance (`main.tf:248`)
    As you noted from the CLI PoC, the backup instance strictly requires the trusted access binding to exist first. It is missing from the instance's `depends_on` array.
-7. **Incorrect/Missing `vnet_id` Variable (`variables.tf:87`, `main.tf:83`)**
+7. Incorrect/Missing `vnet_id` Variable (`variables.tf:87`, `main.tf:83`)
    The variable is named `private_dns_zone_vnet_id` instead of the expected `vnet_id`. This needs to be renamed to match your variable contract.
-8. **Unsafe/Invalid Variable Defaults (`variables.tf`)**
+8. Unsafe/Invalid Variable Defaults (`variables.tf`)
    - `storage_account_name`, `backup_vault_name`, and `backup_policy_name` have hardcoded defaults and should be forced as required (no default).
    - `backup_extension_name` defaults to `"azbkuextension"` instead of the required `"azure-aks-backup"`.
    - `trusted_access_binding_name` lacks a `validation {}` block to prevent CLI/API failures if strings longer than 24 characters are passed.
-9. **Dead Code (`variables.tf:159`)**
+9. Dead Code (`variables.tf:159`)
    `kubernetes_cluster_name` is defined in variables but is entirely unreferenced in `main.tf`.
-10. **Missing Provider Version Pin**
+10. Missing Provider Version Pin
     The `versions.tf` file does not exist in the module at all.
 
 ---
 
-### 2. Corrected HCL Blocks
+#### 2. Corrected HCL Blocks
 
-**Create a new `versions.tf` file:**
+Create a new `versions.tf` file:
+
 ```hcl
 terraform {
   required_version = ">= 1.3.0"
@@ -852,7 +899,8 @@ terraform {
 }
 ```
 
-**Updates for `main.tf`:**
+Updates for `main.tf`:
+
 ```hcl
 # 1. Add OAuth authentication to Storage Account
 resource "azurerm_storage_account" "backup_sa" {
@@ -921,7 +969,8 @@ resource "azurerm_data_protection_backup_instance_kubernetes_cluster" "backup_in
 }
 ```
 
-**Updates for `variables.tf`:**
+Updates for `variables.tf`:
+
 ```hcl
 variable "private_endpoint_subnet_id" {
   description = "Subnet ID used for the storage account private endpoint."
@@ -972,18 +1021,18 @@ variable "trusted_access_binding_name" {
 # Recommendation: Delete variable "kubernetes_cluster_name" entirely as it is dead code
 ```
 
-*(Note: Terraform natively handles the Azure Backup policy object type behind the scenes inside `azurerm_data_protection_backup_policy_kubernetes_cluster`, so no HCL change is necessary or supported to explicitly define `AzureBackupRule` over `AzureRetentionRule`.)*
+_(Note: Terraform natively handles the Azure Backup policy object type behind the scenes inside `azurerm_data_protection_backup_policy_kubernetes_cluster`, so no HCL change is necessary or supported to explicitly define `AzureBackupRule` over `AzureRetentionRule`.)_
 
 ---
 
-### 3. "Ready to apply" Checklist for `sandbox-testing-1`
+#### 3. "Ready To apply" Checklist for `sandbox-testing-1`
 
 When invoking this module in your `sandbox-testing-1` workspace's `main.tf`, you must pass the following key-value pairs (with accurate environment variables substituted):
 
 - [ ] `create_private_endpoint = true`
-- [ ] `private_endpoint_subnet_id = "/subscriptions/7bbc8ae5-.../resourceGroups/<VNET-RG>/providers/Microsoft.Network/virtualNetworks/<VNET-NAME>/subnets/<SUBNET-NAME>"` *(Must be FULL ARM ID)*
-- [ ] `vnet_id = "/subscriptions/7bbc8ae5-.../resourceGroups/<VNET-RG>/providers/Microsoft.Network/virtualNetworks/<VNET-NAME>"` *(Must be FULL ARM ID)*
-- [ ] `storage_account_name = "sboxaksbackup<randomized>"` *(Globally unique)*
+- [ ] `private_endpoint_subnet_id = "/subscriptions/7bbc8ae5-…/resourceGroups/<VNET-RG>/providers/Microsoft.Network/virtualNetworks/<VNET-NAME>/subnets/<SUBNET-NAME>"` _(Must be FULL ARM ID)_
+- [ ] `vnet_id = "/subscriptions/7bbc8ae5-…/resourceGroups/<VNET-RG>/providers/Microsoft.Network/virtualNetworks/<VNET-NAME>"` _(Must be FULL ARM ID)_
+- [ ] `storage_account_name = "sboxaksbackup<randomized>"` _(Globally unique)_
 - [ ] `backup_vault_name = "sbox-aks-backup-vault"`
 - [ ] `backup_policy_name = "sbox-aks-backup-policy"`
 - [ ] `kubernetes_cluster_id = "<FULL-AKS-ARM-ID>"`
@@ -992,13 +1041,13 @@ When invoking this module in your `sandbox-testing-1` workspace's `main.tf`, you
 - [ ] `snapshot_resource_group_name = "<SNAPSHOT-RG-NAME>"`
 Check the response and create the plan for testing against the sandbox cluster
 
-## Asset 25 (Pieces: 9c7aaba8-e8e2-4cfb-bfa6-e5879ef77a7c)
+### Asset 25 (Pieces: 9c7aaba8-e8e2-4cfb-bfa6-e5879ef77a7c)
 
 completed (164548 input + 918 output + 241 reasoning tokens, $1.1281)
 
-## Asset 26 (Pieces: 13eeb2ae-4f43-4520-a8ae-adceb0d715fe)
+### Asset 26 (Pieces: 13eeb2ae-4f43-4520-a8ae-adceb0d715fe)
 
-Everything is clean except one thing: the private endpoint itself (`pe-stffuksgp1backup-blob`) survived because it was created in `rg-ff-uks-gp-net` (the VNet RG), not inside `pentest-1-backup-rg`. The backup RG delete didn't reach it. You need to delete the PE directly — Azure will then clean up the NIC automatically, unblocking the subnet.
+Everything is clean except one thing: the private endpoint itself (`pe-stffuksgp1backup-blob`) survived because it was created in `rg-ff-uks-gp-net` (the VNet RG), not inside `pentest-1-backup-rg`. The backup RG delete didn't reach it. You need to delete the PE directly—Azure will then clean up the NIC automatically, unblocking the subnet.
 
 ```bash
 # Step 1: Delete the private endpoint (it's in the VNet RG, not the backup RG)
@@ -1028,11 +1077,11 @@ az network vnet subnet list \
   -o table
 ```
 
-**Why this happened:** the original teardown script deleted the PE from `$BACKUP_RG`, but the PE was actually placed in `rg-ff-uks-gp-net` because that's where the VNet lives. The `az network private-endpoint delete` command in the script skipped it silently (no error, just no-op on a resource that didn't exist in that RG). The NIC cannot be deleted directly while the PE still exists — you have to delete the PE first and Azure tears down the NIC as part of that operation.
+Why this happened: the original teardown script deleted the PE from `$BACKUP_RG`, but the PE was actually placed in `rg-ff-uks-gp-net` because that's where the VNet lives. The `az network private-endpoint delete` command in the script skipped it silently (no error, just no-op on a resource that didn't exist in that RG). The NIC cannot be deleted directly while the PE still exists—you have to delete the PE first and Azure tears down the NIC as part of that operation.
 
 Once `snet-ff-uks-gp-pe` is absent from the subnet list output, you're fully clean and ready to run `terraform apply`.
 
-## Asset 27 (Pieces: b7c99b39-dc08-49e2-9649-341ee464c6ee)
+### Asset 27 (Pieces: b7c99b39-dc08-49e2-9649-341ee464c6ee)
 
 The user is showing me the output of the validation script. The key issue is clear:
 
@@ -1040,22 +1089,21 @@ The user is showing me the output of the validation script. The key issue is cle
 2. But the PE subnet (`snet-ff-uks-gp-pe`) is STILL blocked because the private endpoint itself (`pe-stffuksgp1backup-blob`) still exists in `rg-ff-uks-gp-net` (the VNet RG, NOT the backup RG).
 
 The error is:
+
 - NIC cannot be deleted because it's in use by the private endpoint
-
-
 - The private endpoint is in `rg-ff-uks-gp-net` (the VNet RG), not in the backup RG, so it wasn't deleted when we removed the backup RG. I need to delete the PE directly from the VNet RG, which will clean up the NIC automatically and unblock the subnet deletion.
 
 I can see the full resource ID in the error output, so I'll use the Azure CLI to delete `pe-stffuksgp1backup-blob` from `rg-ff-uks-gp-net`, then proceed with removing the subnet.
 
-## Asset 28 (Pieces: b5ad380a-7cae-4932-95f5-16148720b46e)
+### Asset 28 (Pieces: b5ad380a-7cae-4932-95f5-16148720b46e)
 
 echo ""
 echo "============================================"
 echo "4. Check AKS backup extension is gone"
 echo "============================================"
-az k8s-extension show \                                                                                                                                                                                                  <....
+az k8s-extension show \ <….
 ============================================
-1. Check RG deletion status (async — may still be in progress)
+1. Check RG deletion status (async—may still be in progress)
 ============================================
   OK: pentest-1-backup-rg is gone
   OK: pentest-1-backup-snapshots-rg is gone
@@ -1063,63 +1111,87 @@ az k8s-extension show \                                                         
 ============================================
 2. Check backup vault (may be soft-deleted, not fully gone)
 ============================================
+
   OK: vault is gone
 
 ============================================
 3. Check storage account is gone
 ============================================
+
   OK: storage account is gone
 
 ============================================
 4. Check AKS backup extension is gone
 ============================================
+
   OK: extension is gone
 
 ============================================
 5. Check trusted access binding is gone
 ============================================
+
   OK: binding is gone
 
 ============================================
 6. Check DNS zone is gone
 ============================================
+
   OK: DNS zone is gone
 
 ============================================
 7. Fix: orphaned PE NIC blocking subnet delete
    Wait for RG delete to complete first, THEN run this block
 ============================================
-  Waiting for pentest-1-backup-rg deletion to complete...
+
+  Waiting for pentest-1-backup-rg deletion to complete…
+
   OK: pentest-1-backup-rg fully deleted
-  Deleting orphaned PE NIC from VNet RG...
+
+  Deleting orphaned PE NIC from VNet RG…
+
 (NicInUseWithPrivateEndpoint) Network interface /subscriptions/7bbc8ae5-1710-48ab-ab83-59b52bd0de1a/resourceGroups/rg-ff-uks-gp-net/providers/Microsoft.Network/networkInterfaces/pe-stffuksgp1backup-blob.nic.366f02ca-d6b5-42e4-bc2b-71aee4103f97 cannot be deleted because it is currently in use with an private endpoint (/subscriptions/7bbc8ae5-1710-48ab-ab83-59b52bd0de1a/resourceGroups/rg-ff-uks-gp-net/providers/Microsoft.Network/privateEndpoints/pe-stffuksgp1backup-blob).
+
 Code: NicInUseWithPrivateEndpoint
+
 Message: Network interface /subscriptions/7bbc8ae5-1710-48ab-ab83-59b52bd0de1a/resourceGroups/rg-ff-uks-gp-net/providers/Microsoft.Network/networkInterfaces/pe-stffuksgp1backup-blob.nic.366f02ca-d6b5-42e4-bc2b-71aee4103f97 cannot be deleted because it is currently in use with an private endpoint (/subscriptions/7bbc8ae5-1710-48ab-ab83-59b52bd0de1a/resourceGroups/rg-ff-uks-gp-net/providers/Microsoft.Network/privateEndpoints/pe-stffuksgp1backup-blob).
+
   NIC delete triggered
-  Retrying PE subnet deletion...
+
+  Retrying PE subnet deletion…
+
 (InUseSubnetCannotBeDeleted) Subnet snet-ff-uks-gp-pe is in use by /subscriptions/7bbc8ae5-1710-48ab-ab83-59b52bd0de1a/resourceGroups/RG-FF-UKS-GP-NET/providers/Microsoft.Network/networkInterfaces/PE-STFFUKSGP1BACKUP-BLOB.NIC.366F02CA-D6B5-42E4-BC2B-71AEE4103F97/ipConfigurations/PRIVATEENDPOINTIPCONFIG.7599A07E-D570-4842-B490-878DF468C1B5 and cannot be deleted. In order to delete the subnet, delete all the resources within the subnet. See aka.ms/deletesubnet.
+
 Code: InUseSubnetCannotBeDeleted
+
 Message: Subnet snet-ff-uks-gp-pe is in use by /subscriptions/7bbc8ae5-1710-48ab-ab83-59b52bd0de1a/resourceGroups/RG-FF-UKS-GP-NET/providers/Microsoft.Network/networkInterfaces/PE-STFFUKSGP1BACKUP-BLOB.NIC.366F02CA-D6B5-42E4-BC2B-71AEE4103F97/ipConfigurations/PRIVATEENDPOINTIPCONFIG.7599A07E-D570-4842-B490-878DF468C1B5 and cannot be deleted. In order to delete the subnet, delete all the resources within the subnet. See aka.ms/deletesubnet.
-  WARN: subnet still blocked — NIC deletion may still be propagating, retry in 60s
+
+  WARN: subnet still blocked—NIC deletion may still be propagating, retry in 60s
 
 ============================================
 8. Final: confirm PE subnet is gone from VNet
 ============================================
-Name                      Prefix
-------------------------  -------------
-snet-ff-uks-gp-jumpbox    10.0.0.64/27
-snet-ff-uks-gp-workflows  10.0.0.32/27
-snet-ff-uks-gp-system     10.0.0.0/27
-AzureBastionSubnet        10.0.0.128/26
-snet-ff-uks-gp-pe         10.0.0.96/27
 
-## Asset 29 (Pieces: 26aa79a9-515e-41c5-b0c6-639f89396d8c)
+Name Prefix
+
+------------------------ -------------
+
+snet-ff-uks-gp-jumpbox 10.0.0.64/27
+
+snet-ff-uks-gp-workflows 10.0.0.32/27
+
+snet-ff-uks-gp-system 10.0.0.0/27
+
+AzureBastionSubnet 10.0.0.128/26
+
+snet-ff-uks-gp-pe 10.0.0.96/27
+
+### Asset 29 (Pieces: 26aa79a9-515e-41c5-b0c6-639f89396d8c)
 
 completed (161266 input + 2675 output + 540 reasoning tokens, $1.1368)
 
-## Asset 30 (Pieces: 88ee1516-75a0-4475-b576-2cec0562860b)
+### Asset 30 (Pieces: 88ee1516-75a0-4475-b576-2cec0562860b)
 
-Everything ran cleanly except one issue: the PE subnet deletion failed because the private endpoint NIC (`PE-STFFUKSGP1BACKUP-BLOB.NIC.366F02CA...`) is still registered in `RG-FF-UKS-GP-NET`. This is expected — Azure creates the PE NIC in the VNet's RG, not the backup RG, so it survives the backup RG group delete. You need to wait for the async RG delete to finish, then remove the NIC explicitly before retrying the subnet.
+Everything ran cleanly except one issue: the PE subnet deletion failed because the private endpoint NIC (`PE-STFFUKSGP1BACKUP-BLOB.NIC.366F02CA…`) is still registered in `RG-FF-UKS-GP-NET`. This is expected—Azure creates the PE NIC in the VNet's RG, not the backup RG, so it survives the backup RG group delete. You need to wait for the async RG delete to finish, then remove the NIC explicitly before retrying the subnet.
 
 Here is the full validation + remediation script:
 
@@ -1257,38 +1329,36 @@ az network vnet subnet list \
 
 ---
 
-### What to expect
+#### What to Expect
 
 | Step | Expected result |
 |---|---|
-| Backup RG | Either already gone or `Deleting` — `az group wait --deleted` will block until it's confirmed |
+| Backup RG | Either already gone or `Deleting`—`az group wait --deleted` will block until it's confirmed |
 | Snapshot RG | Same pattern |
-| Vault | Gone (or soft-deleted — harmless for a fresh Terraform apply since the name is recycled) |
+| Vault | Gone (or soft-deleted—harmless for a fresh Terraform apply since the name is recycled) |
 | Storage account | Gone |
 | Extension | Gone |
 | Trusted access binding | Gone |
 | PE NIC | Needs explicit delete (this is the one blocker) |
 | Subnet | Deletable once the NIC is gone |
 
-The SyntaxWarnings you saw (`invalid escape sequence '\W'`, `'\/'`) are harmless Python 3.13 compat warnings in the Azure CLI library itself — not errors, safe to ignore.
+The SyntaxWarnings you saw (`invalid escape sequence '\W'`, `'\/'`) are harmless Python 3.13 compat warnings in the Azure CLI library itself—not errors, safe to ignore.
 
-## Asset 31 (Pieces: 2a366b2a-3602-482f-bbd6-fb0cea6bf772)
+### Asset 31 (Pieces: 2a366b2a-3602-482f-bbd6-fb0cea6bf772)
 
 The user has run all the delete steps and is sharing the output. They want to validate the deletions. Let me analyze what happened:
 
-1. **Backup instance** - deleted successfully
-2. **Trusted access role binding** - deleted (with a Python SyntaxWarning about invalid escape sequence, but that's just a warning in the Azure CLI library, not an error)
-3. **AKS backup extension** - deleted successfully
-4. **Backup policy** - deleted successfully
-
-
-5. **Backup vault** - deleted successfully
-6. **Private DNS VNet link** - deleted successfully
-7. **Private DNS zone** - deleted successfully
-8. **Storage account** - deleted successfully
-9. **PE subnet** - **FAILED** with `InUseSubnetCannotBeDeleted` because the NIC `PE-STFFUKSGP1BACKUP-BLOB.NIC.366F02CA-D6B5-42E4-BC2B-71AEE4103F97` is still attached to the subnet. The private endpoint NIC wasn't fully cleaned up yet, so I need to delete the private endpoint itself (`pe-stffuksgp1backup-blob`) first before retrying the subnet deletion.
-10. **Backup RG delete** - triggered with `--no-wait`
-11. **Snapshot RG delete** - triggered with `--no-wait`
+1. Backup instance - deleted successfully
+2. Trusted access role binding - deleted (with a Python SyntaxWarning about invalid escape sequence, but that's just a warning in the Azure CLI library, not an error)
+3. AKS backup extension - deleted successfully
+4. Backup policy - deleted successfully
+5. Backup vault - deleted successfully
+6. Private DNS VNet link - deleted successfully
+7. Private DNS zone - deleted successfully
+8. Storage account - deleted successfully
+9. PE subnet - FAILED with `InUseSubnetCannotBeDeleted` because the NIC `PE-STFFUKSGP1BACKUP-BLOB.NIC.366F02CA-D6B5-42E4-BC2B-71AEE4103F97` is still attached to the subnet. The private endpoint NIC wasn't fully cleaned up yet, so I need to delete the private endpoint itself (`pe-stffuksgp1backup-blob`) first before retrying the subnet deletion.
+10. Backup RG delete - triggered with `--no-wait`
+11. Snapshot RG delete - triggered with `--no-wait`
 
 The core issue is that the PE subnet in `rg-ff-uks-gp-net` can't be deleted because the private endpoint NIC is still lingering there. I need to track down and remove that NIC from the networking resource group before the subnet cleanup can proceed. The NIC ended up in the VNet resource group rather than the backup RG where the private endpoint itself was created. When I triggered the backup RG deletion with `--no-wait`, that async operation likely started removing the PE, but the NIC in the separate VNet RG wasn't cleaned up properly and is now orphaned.
 
@@ -1296,14 +1366,18 @@ I need to wait for the backup RG deletion to finish, then manually delete that o
 
 Now I'm thinking through what validation steps to run to confirm everything's actually cleaned up—checking that the backup instances, vault, AKS extension, trusted access binding, storage account, and DNS zone are all gone, plus handling that PE subnet issue properly.
 
-## Asset 32 (Pieces: 40069319-99bd-4787-8007-58efa8d39af9)
+### Asset 32 (Pieces: 40069319-99bd-4787-8007-58efa8d39af9)
 
 I ran the delete steps. We need to validate the deletions
+
 ❯ az dataprotection backup-instance list --subscription "$SUB_ID" --resource-group "$BACKUP_RG" --vault-name "$VAULT_NAME" --query "[0].name" -o tsv
+
 aks-ff-uks-gp-1-aks-ff-uks-gp-1-950fac30-43c0-11f1-867c-d20551df63e5
 
-/V/D/F/g/F/D/C/F/N/sandbox-testing-1  on  main  !+?   on ☁ Testing  on 🅰 (eu-west-2)  at 09:43:46
-❯ echo "==> Deleting backup instance..."
+/V/D/F/g/F/D/C/F/N/sandbox-testing-1 on  main!+? on ☁ Testing on 🅰 (eu-west-2) at 09:43:46
+
+❯ echo "==> Deleting backup instance…"
+
 INSTANCE_NAME=$(az dataprotection backup-instance list \
   --subscription "$SUB_ID" \
   --resource-group "$BACKUP_RG" \
@@ -1316,10 +1390,13 @@ az dataprotection backup-instance delete \
   --vault-name "$VAULT_NAME" \
   --backup-instance-name "$INSTANCE_NAME" \
   --yes
-==> Deleting backup instance...
 
-/V/D/F/g/F/D/C/F/N/sandbox-testing-1  on  main  !+?   on ☁ Testing  on 🅰 (eu-west-2)  at 09:47:14
-❯ echo "==> Deleting trusted access role binding..."
+==> Deleting backup instance…
+
+/V/D/F/g/F/D/C/F/N/sandbox-testing-1 on  main!+? on ☁ Testing on 🅰 (eu-west-2) at 09:47:14
+
+❯ echo "==> Deleting trusted access role binding…"
+
 az aks trustedaccess rolebinding delete \
   --subscription "$SUB_ID" \
   --cluster-name "$AKS_NAME" \
@@ -1327,12 +1404,16 @@ az aks trustedaccess rolebinding delete \
   --name "$BINDING_NAME" \
   --yes
 
-==> Deleting trusted access role binding...
-/opt/homebrew/Cellar/azure-cli/2.86.0/libexec/lib/python3.13/site-packages/azure/mgmt/containerservice/models/_models.py:7763: SyntaxWarning: invalid escape sequence '\W'
-  Has a digit <br> Has a special character (Regex match [\W_]) <br><br> **Disallowed values:**
+==> Deleting trusted access role binding…
 
-/V/D/F/g/F/D/C/F/N/sandbox-testing-1  on  main  !+?   on ☁ Testing  on 🅰 (eu-west-2)  at 09:48:10
-❯ echo "==> Removing AKS backup extension..."
+/opt/homebrew/Cellar/azure-cli/2.86.0/libexec/lib/python3.13/site-packages/azure/mgmt/containerservice/models/_models.py:7763: SyntaxWarning: invalid escape sequence '\W'
+
+  Has a digit <br> Has a special character (Regex match [\W_]) <br><br> Disallowed values:
+
+/V/D/F/g/F/D/C/F/N/sandbox-testing-1 on  main!+? on ☁ Testing on 🅰 (eu-west-2) at 09:48:10
+
+❯ echo "==> Removing AKS backup extension…"
+
 az k8s-extension delete \
   --subscription "$SUB_ID" \
   --name "$EXT_NAME" \
@@ -1341,10 +1422,12 @@ az k8s-extension delete \
   --cluster-type managedClusters \
   --yes
 
-==> Removing AKS backup extension...
+==> Removing AKS backup extension…
 
-/V/D/F/g/F/D/C/F/N/sandbox-testing-1  on  main  !+?   on ☁ Testing  on 🅰 (eu-west-2)  at 09:51:41
-❯ echo "==> Deleting backup policy..."
+/V/D/F/g/F/D/C/F/N/sandbox-testing-1 on  main!+? on ☁ Testing on 🅰 (eu-west-2) at 09:51:41
+
+❯ echo "==> Deleting backup policy…"
+
 az dataprotection backup-policy delete \
   --subscription "$SUB_ID" \
   --resource-group "$BACKUP_RG" \
@@ -1352,19 +1435,24 @@ az dataprotection backup-policy delete \
   --name "dailyaksbackups" \
   --yes
 
-==> Deleting backup policy...
+==> Deleting backup policy…
 
-/V/D/F/g/F/D/C/F/N/sandbox-testing-1  on  main  !+?   on ☁ Testing  on 🅰 (eu-west-2)  at 09:52:02
-❯ echo "==> Deleting backup vault..."
+/V/D/F/g/F/D/C/F/N/sandbox-testing-1 on  main!+? on ☁ Testing on 🅰 (eu-west-2) at 09:52:02
+
+❯ echo "==> Deleting backup vault…"
+
 az dataprotection backup-vault delete \
   --subscription "$SUB_ID" \
   --resource-group "$BACKUP_RG" \
   --vault-name "$VAULT_NAME" \
   --yes
-==> Deleting backup vault...
 
-/V/D/F/g/F/D/C/F/N/sandbox-testing-1  on  main  !+?   on ☁ Testing  on 🅰 (eu-west-2)  at 09:52:44
-❯ echo "==> Deleting Private DNS zone and VNet link..."
+==> Deleting backup vault…
+
+/V/D/F/g/F/D/C/F/N/sandbox-testing-1 on  main!+? on ☁ Testing on 🅰 (eu-west-2) at 09:52:44
+
+❯ echo "==> Deleting Private DNS zone and VNet link…"
+
 az network private-dns link vnet delete \
   --subscription "$SUB_ID" \
   --resource-group "$BACKUP_RG" \
@@ -1372,72 +1460,87 @@ az network private-dns link vnet delete \
   --name "${VNET_NAME}-blob-link" \
   --yes
 
-==> Deleting Private DNS zone and VNet link...
+==> Deleting Private DNS zone and VNet link…
 
-/V/D/F/g/F/D/C/F/N/sandbox-testing-1  on  main  !+?   on ☁ Testing  on 🅰 (eu-west-2)  at 09:53:48
+/V/D/F/g/F/D/C/F/N/sandbox-testing-1 on  main!+? on ☁ Testing on 🅰 (eu-west-2) at 09:53:48
+
 ❯ az network private-dns zone delete \
   --subscription "$SUB_ID" \
   --resource-group "$BACKUP_RG" \
   --name "privatelink.blob.core.windows.net" \
   --yes
 
+/V/D/F/g/F/D/C/F/N/sandbox-testing-1 on  main!+? on ☁ Testing on 🅰 (eu-west-2) at 09:55:12
 
-/V/D/F/g/F/D/C/F/N/sandbox-testing-1  on  main  !+?   on ☁ Testing  on 🅰 (eu-west-2)  at 09:55:12
-❯ echo "==> Deleting storage account..."
+❯ echo "==> Deleting storage account…"
+
 az storage account delete \
   --subscription "$SUB_ID" \
   --resource-group "$BACKUP_RG" \
   --name "$SA_NAME" \
   --yes
 
+==> Deleting storage account…
 
-==> Deleting storage account...
+/V/D/F/g/F/D/C/F/N/sandbox-testing-1 on  main!+? on ☁ Testing on 🅰 (eu-west-2) at 09:55:34
 
-/V/D/F/g/F/D/C/F/N/sandbox-testing-1  on  main  !+?   on ☁ Testing  on 🅰 (eu-west-2)  at 09:55:34
-❯ echo "==> Deleting PE subnet..."
+❯ echo "==> Deleting PE subnet…"
+
 az network vnet subnet delete \
   --subscription "$SUB_ID" \
   --resource-group "$AKS_RG" \
   --vnet-name "$VNET_NAME" \
   --name "snet-ff-uks-gp-pe"
 
-==> Deleting PE subnet...
+==> Deleting PE subnet…
+
 (InUseSubnetCannotBeDeleted) Subnet snet-ff-uks-gp-pe is in use by /subscriptions/7bbc8ae5-1710-48ab-ab83-59b52bd0de1a/resourceGroups/RG-FF-UKS-GP-NET/providers/Microsoft.Network/networkInterfaces/PE-STFFUKSGP1BACKUP-BLOB.NIC.366F02CA-D6B5-42E4-BC2B-71AEE4103F97/ipConfigurations/PRIVATEENDPOINTIPCONFIG.7599A07E-D570-4842-B490-878DF468C1B5 and cannot be deleted. In order to delete the subnet, delete all the resources within the subnet. See aka.ms/deletesubnet.
+
 Code: InUseSubnetCannotBeDeleted
+
 Message: Subnet snet-ff-uks-gp-pe is in use by /subscriptions/7bbc8ae5-1710-48ab-ab83-59b52bd0de1a/resourceGroups/RG-FF-UKS-GP-NET/providers/Microsoft.Network/networkInterfaces/PE-STFFUKSGP1BACKUP-BLOB.NIC.366F02CA-D6B5-42E4-BC2B-71AEE4103F97/ipConfigurations/PRIVATEENDPOINTIPCONFIG.7599A07E-D570-4842-B490-878DF468C1B5 and cannot be deleted. In order to delete the subnet, delete all the resources within the subnet. See aka.ms/deletesubnet.
 
-/V/D/F/g/F/D/C/F/N/sandbox-testing-1  on  main  !+?   on ☁ Testing  on 🅰 (eu-west-2)  at 09:56:59
-❯ echo "==> Deleting backup resource group..."
+/V/D/F/g/F/D/C/F/N/sandbox-testing-1 on  main!+? on ☁ Testing on 🅰 (eu-west-2) at 09:56:59
+
+❯ echo "==> Deleting backup resource group…"
+
 az group delete \
   --subscription "$SUB_ID" \
   --name "$BACKUP_RG" \
   --yes --no-wait
-==> Deleting backup resource group...
+
+==> Deleting backup resource group…
+
 /opt/homebrew/Cellar/azure-cli/2.86.0/libexec/lib/python3.13/site-packages/azure/mgmt/resource/deploymentstacks/models/_models.py:119: SyntaxWarning: invalid escape sequence '\/'
+
   following actions are automatically appended to 'excludedActions': '*\/read' and
 
-/V/D/F/g/F/D/C/F/N/sandbox-testing-1  on  main  !+?   on ☁ Testing  on 🅰 (eu-west-2)  at 09:57:20
-❯ echo "==> Deleting snapshot resource group..."
+/V/D/F/g/F/D/C/F/N/sandbox-testing-1 on  main!+? on ☁ Testing on 🅰 (eu-west-2) at 09:57:20
+
+❯ echo "==> Deleting snapshot resource group…"
+
 az group delete \
   --subscription "$SUB_ID" \
   --name "$SNAPSHOT_RG" \
   --yes --no-wait
 
 echo "Done. Extension and trusted access binding removal on the cluster may take a few minutes to propagate."
-==> Deleting snapshot resource group...
+
+==> Deleting snapshot resource group…
+
 Done. Extension and trusted access binding removal on the cluster may take a few minutes to propagate.
 
-## Asset 33 (Pieces: 249ff991-39fc-48a9-ba18-023c33f30bad)
+### Asset 33 (Pieces: 249ff991-39fc-48a9-ba18-023c33f30bad)
 
 completed (289812 input + 3128 output + 332 reasoning tokens, $1.9231)
 
-## Asset 34 (Pieces: b0e69cda-c1d3-4981-9c0e-6e54a6729858)
+### Asset 34 (Pieces: b0e69cda-c1d3-4981-9c0e-6e54a6729858)
 
 I have strong grounding from memory. Here is a copy-paste-ready prompt for your coding assistant:
 
 ---
 
-## Coding assistant prompt: `terraform-azure-aks-backup` module review
+### Coding Assistant Prompt: `terraform-azure-aks-backup` Module Review
 
 ```text
 You are reviewing the `terraform-azure-aks-backup` Terraform module located at:
@@ -1603,17 +1706,17 @@ expects these outputs. Confirm all exist in `outputs.tf`:
 These were bugs/gotchas discovered during the manual CLI run on 29 April – 7 May 2026. Confirm 
 the module handles all of them:
 
-1. **VNet in a different RG from the PE** — the private endpoint creation failed when the VNet 
+1. VNet in a different RG from the PE — the private endpoint creation failed when the VNet 
    name was passed without an RG qualifier. The `--subnet` ID must be the full ARM path.
-2. **DNS zone link must use full VNet ARM ID** — same cross-RG problem for the VNet link.
-3. **`storage_use_azuread = true` on provider** — without this, storage data-plane ops fail 
+2. DNS zone link must use full VNet ARM ID — same cross-RG problem for the VNet link.
+3. `storage_use_azuread = true` on provider — without this, storage data-plane ops fail 
    because keys are disabled.
-4. **Backup instance must come after trusted access binding** — explicit `depends_on` required.
-5. **Extension MSI role must be `Storage Blob Data Contributor`** — NOT `Storage Account 
+4. Backup instance must come after trusted access binding — explicit `depends_on` required.
+5. Extension MSI role must be `Storage Blob Data Contributor` — NOT `Storage Account 
    Contributor`. The extension writes blobs using AAD tokens, not keys.
-6. **`restore-operator` cannot be combined with `backup-operator` in a single trusted access 
-   binding** — the API rejects the second role. Only `backup-operator` should be in the binding.
-7. **Blob container name** — the extension defaults to expecting a container named `aksbackups` 
+6. `restore-operator` cannot be combined with `backup-operator` in a single trusted access 
+   binding — the API rejects the second role. Only `backup-operator` should be in the binding.
+7. Blob container name — the extension defaults to expecting a container named `aksbackups` 
    (no hyphen). If the storage account has a container named `aks-backups` (with hyphen), the 
    extension must be configured with the correct container name, or the container must match.
 
@@ -1630,52 +1733,52 @@ Produce:
 
 ---
 
-**One note for you before running this:** your audit notes from 1 May flagged that `outputs.tf` may have been missing or incomplete at the time of the IaC audit — the assistant should treat that as a must-fix rather than a nice-to-have, since the calling stacks reference those outputs directly.
+One note for you before running this: your audit notes from 1 May flagged that `outputs.tf` may have been missing or incomplete at the time of the IaC audit—the assistant should treat that as a must-fix rather than a nice-to-have, since the calling stacks reference those outputs directly.
 
-## Asset 36 (Pieces: b8402260-6a3c-4800-b0fd-88eb21483365)
+### Asset 36 (Pieces: b8402260-6a3c-4800-b0fd-88eb21483365)
 
 Let me pull the actual module file contents and recent changes from memory before writing the prompt.
 
-## Asset 38 (Pieces: 3ad71ab8-70ac-4cf6-8da9-76fae9f57cb4)
+### Asset 38 (Pieces: 3ad71ab8-70ac-4cf6-8da9-76fae9f57cb4)
 
 The user wants a prompt for their coding assistant to review the backup module. I need to look at their actual Terraform backup module code to make the prompt as grounded and specific as possible. Let me search memory for the actual Terraform files they've been working on.
 
 From the previous context, I can see:
+
 - Terraform module: `terraform-azure-aks-backup`
 - Files: `main.tf`, `outputs.tf`, `variables.tf`, `README.md`
 - Oliver Rushton made commits: FTFL-610 exposing public internet enabled flag for storage account
 - Leon merged: feature/FFAPP-3535-azure-storage-private-access into master
-
-
 - Key outputs include the backup vault ID, policy ID, instance ID, private endpoint IP, and principal IDs for both vault and extension
 - The storage account is hardened with public access disabled, TLS 1.2 enforcement, and default deny rules, with a private endpoint configured in the PE subnet and linked to the private DNS zone
 - The backup setup uses the Kubernetes data protection extension with system-assigned identity, a daily backup policy, and proper RBAC assignments across the storage account, snapshot resource group, and vault
 
 Now I'm looking for the actual Terraform module files to understand the implementation details and compose a proper prompt for the coding assistant.
 
-## Asset 39 (Pieces: c598c7a9-728d-41d1-aed2-b8bf6042371a)
+### Asset 39 (Pieces: c598c7a9-728d-41d1-aed2-b8bf6042371a)
 
 I need to recreate the private backups in terraform. I made updates to the backup module but didn't test it. I am deleting these resources in order to run the terraform. Give me a prompt for my coding assistant to review the backup module and make sure all the components are configured and fit together
 
-## Asset 40 (Pieces: ff88de82-e1b2-4ebf-ace1-d5690d223ccb)
+### Asset 40 (Pieces: ff88de82-e1b2-4ebf-ace1-d5690d223ccb)
 
 completed (224551 input + 2637 output + 318 reasoning tokens, $1.4135)
 
-## Asset 41 (Pieces: cfc84d46-4ccf-4f05-bbe8-aa3f4cafd55a)
+### Asset 41 (Pieces: cfc84d46-4ccf-4f05-bbe8-aa3f4cafd55a)
 
-I have a comprehensive picture from memory. Here is the complete teardown script, grounded in your actual resource names from the **Testing** subscription (`7bbc8ae5-1710-48ab-ab83-59b52bd0de1a`) as recorded in your notes from 29 April 2026.
+I have a comprehensive picture from memory. Here is the complete teardown script, grounded in your actual resource names from the Testing subscription (`7bbc8ae5-1710-48ab-ab83-59b52bd0de1a`) as recorded in your notes from 29 April 2026.
 
 ---
 
-## Teardown script: Testing subscription backup resources
+### Teardown Script: Testing Subscription Backup Resources
 
 Your sandbox resources were split across two resource groups:
-- **`pentest-1-backup-rg`** — vault, policy, instance, storage account, private endpoint
-- **`pentest-1-backup-snapshots-rg`** — volume snapshots
 
-And the **trusted access binding + AKS extension** live on the cluster (`aks-ff-uks-gp-1`) in `rg-ff-uks-gp-net`.
+- `pentest-1-backup-rg`—vault, policy, instance, storage account, private endpoint
+- `pentest-1-backup-snapshots-rg`—volume snapshots
 
-Run this in **order** — the dependencies mean you must remove the backup instance before the vault, and the extension before the storage account locks allow it to be deleted cleanly.
+And the trusted access binding + AKS extension live on the cluster (`aks-ff-uks-gp-1`) in `rg-ff-uks-gp-net`.
+
+Run this in order—the dependencies mean you must remove the backup instance before the vault, and the extension before the storage account locks allow it to be deleted cleanly.
 
 ```bash
 set -euo pipefail
@@ -1801,18 +1904,18 @@ echo "Done. Extension and trusted access binding removal on the cluster may take
 
 ---
 
-### A few things to be aware of before running
+#### A Few Things to Be Aware of before Running
 
-- **Soft-delete is enabled** on `aksbackupvault` (your portal snapshot showed this). The vault itself may land in a soft-deleted state rather than immediately disappearing. If `az dataprotection backup-vault delete` completes but the vault shows as soft-deleted, you'll need to purge it: `az dataprotection backup-vault delete --yes` followed by checking "Manage Deleted Vaults" in the portal, or use `az dataprotection recovery-point delete` flows if it blocks.
-- **Step 9 (PE subnet)** — only delete `snet-ff-uks-gp-pe` if you created it purely for the backup test. If it's shared with anything else in the VNet, skip this step and just leave the subnet empty.
-- **Steps 10 nukes both RGs** with `--no-wait` for speed. Any snapshots in `pentest-1-backup-snapshots-rg` will be caught by the RG delete.
-- **RBAC role assignments** on the storage account and snapshot RG are automatically removed when the resources/RGs are deleted — no need to clean them up manually.
+- Soft-delete is enabled on `aksbackupvault` (your portal snapshot showed this). The vault itself may land in a soft-deleted state rather than immediately disappearing. If `az dataprotection backup-vault delete` completes but the vault shows as soft-deleted, you'll need to purge it: `az dataprotection backup-vault delete --yes` followed by checking "Manage Deleted Vaults" in the portal, or use `az dataprotection recovery-point delete` flows if it blocks.
+- Step 9 (PE subnet)—only delete `snet-ff-uks-gp-pe` if you created it purely for the backup test. If it's shared with anything else in the VNet, skip this step and just leave the subnet empty.
+- Steps 10 nukes both RGs with `--no-wait` for speed. Any snapshots in `pentest-1-backup-snapshots-rg` will be caught by the RG delete.
+- RBAC role assignments on the storage account and snapshot RG are automatically removed when the resources/RGs are deleted—no need to clean them up manually.
 
-## Asset 43 (Pieces: 462944f6-c6d6-4398-9b7a-2647502d7df9)
+### Asset 43 (Pieces: 462944f6-c6d6-4398-9b7a-2647502d7df9)
 
 Let me search for the specific resources created in the sandbox/testing subscription so I can give you an accurate delete script.
 
-## Asset 45 (Pieces: f91947b8-c779-4a61-8635-052f1722eed0)
+### Asset 45 (Pieces: f91947b8-c779-4a61-8635-052f1722eed0)
 
 The user wants to delete all the resources they created in the sandbox/testing subscription for the private backups. I need to find the specific resources they created in the testing/sandbox subscription. From the memory results I already have, I can see references to:
 
@@ -1820,80 +1923,80 @@ The user wants to delete all the resources they created in the sandbox/testing s
 - Resource group: `pentest-1-backup-rg`
 - Backup vault: `aksbackupvault`
 - AKS cluster: `aks-ff-uks-gp-1`
-
-
 - I'm also tracking the other subscription IDs (NNUHFT-SDE and MKUH) to distinguish which resources belong to the testing environment versus production.
 - The Testing subscription had the `pentest-1-backup-rg` resource group with its backup vault and policy, but the main sandbox work appears to have been done in the NNUHFT-SDE subscription on the `aks-ff-uks-gp-1` cluster with resources in `aks-ff-uks-gp-01-backup-rg`.
 - I need to cross-reference the Jira ticket FTFL-615 and the event logs to clarify which backup work was actually part of the end-to-end manual proof. I'm realizing I need to narrow down my search to find what was actually provisioned in that sandbox testing subscription—the backup vault reference suggests there's more specific infrastructure I'm missing.
 
-## Asset 46 (Pieces: b93af656-ee9d-42d0-ba57-956c5daf02b1)
+### Asset 46 (Pieces: b93af656-ee9d-42d0-ba57-956c5daf02b1)
 
 I need to delete all the resources I created in the sandbox testing subscription for the private backups. I want to test the terraform module.
 
-## Asset 47 (Pieces: 49dd717f-f01e-48be-832b-811f27732a8b)
+### Asset 47 (Pieces: 49dd717f-f01e-48be-832b-811f27732a8b)
 
 completed (161649 input + 1806 output + 99 reasoning tokens, $0.9301)
 
-## Asset 48 (Pieces: b668b5f3-bfbc-43ca-9154-73fa41d29aaf)
+### Asset 48 (Pieces: b668b5f3-bfbc-43ca-9154-73fa41d29aaf)
 
 I have comprehensive evidence from both searches. The key architecture documentation (event `14e585cd`, `49bb97d1`, `e46e35fc`, `32ad3cd3`, `114c0b47`) plus the detailed DNS/networking events give me everything needed for a full summary. Here is the synthesis:
 
 ---
 
-## Network Requirements: Private Endpoint for AKS Backup
+### Network Requirements: Private Endpoint for AKS Backup
 
 Grounded in your architecture notes ([Azure Backup for AKS Architecture Documentation](https://portal.azure.com)), the [AKS Backup via Private Endpoint Implementation Guide](https://portal.azure.com), and Jira tickets [FTFL-615](https://fitfile.atlassian.net/browse/FTFL-615) and [FTFL-596](https://fitfile.atlassian.net/browse/FTFL-596).
 
 ---
 
-### Storage Account (the hardened backup target)
+#### Storage Account (the Hardened Backup target)
 
-The backup storage account (`stffuksgp1backup` / `aksffuksgp01backupsa` / `aksmkuhuksprd01bkp01` depending on environment) **must** be configured with:
+The backup storage account (`stffuksgp1backup` / `aksffuksgp01backupsa` / `aksmkuhuksprd01bkp01` depending on environment) must be configured with:
 
-- **Public network access: Disabled** — no public storage endpoint reachable
-- **Default network action: Deny** — implicit deny for all traffic not traversing the private endpoint
-- **TLS 1.2 minimum** enforced
-- **No public blob access** — `allow-blob-public-access false`
-- All backup data lives in the `aks-backups` blob container, which is **Private** (not public)
+- Public network access: Disabled—no public storage endpoint reachable
+- Default network action: Deny—implicit deny for all traffic not traversing the private endpoint
+- TLS 1.2 minimum enforced
+- No public blob access—`allow-blob-public-access false`
+- All backup data lives in the `aks-backups` blob container, which is Private (not public)
 
 ---
 
-### Dedicated Private Endpoints Subnet
+#### Dedicated Private Endpoints Subnet
 
-A **dedicated subnet for private endpoints** is required within the VNet (tracked under FTFL-615). For the NNUH/ff environment this was carved out of the `vnet-ff-uks-gp-1` (`10.0.0.0/24`) address space:
+A dedicated subnet for private endpoints is required within the VNet (tracked under FTFL-615). For the NNUH/ff environment this was carved out of the `vnet-ff-uks-gp-1` (`10.0.0.0/24`) address space:
 
-- **Subnet name:** `snet-ff-uks-gp-pe`
-- **CIDR:** `10.0.0.96/27` (the gap in the existing VNet map)
-- **`--private-endpoint-network-policies Disabled`** — this flag is **required** on the subnet; Azure will reject the private endpoint creation without it
+- Subnet name: `snet-ff-uks-gp-pe`
+- CIDR: `10.0.0.96/27` (the gap in the existing VNet map)
+- `--private-endpoint-network-policies Disabled`—this flag is required on the subnet; Azure will reject the private endpoint creation without it
 
 For MKUH (`vnet-mkuh-plat-uks-01`), the corresponding subnet is `snet-mkuh-uks-prd-pe`, confirmed as `provisioningState: Succeeded`.
 
 ---
 
-### Private Endpoint
+#### Private Endpoint
 
 A private endpoint (`pe-<storage-account-name>-blob`) must be created pointing to the `blob` sub-resource of the storage account:
 
-- **Placed in:** the dedicated PE subnet above
-- **Resource group:** the backup RG (e.g. `aks-ff-uks-gp-01-backup-rg` or `aks-mkuh-uks-prd-01-backup-rg`)
-- **Sub-resource:** `blob`
+- Placed in: the dedicated PE subnet above
+- Resource group: the backup RG (e.g. `aks-ff-uks-gp-01-backup-rg` or `aks-mkuh-uks-prd-01-backup-rg`)
+- Sub-resource: `blob`
 
-A known gotcha you hit: if the VNet lives in a **different resource group** from the backup RG, the CLI will fail to find it unless you pass the **full VNet resource ID** explicitly (not just the name). The PE creation command must include the full ARM path for `--subnet`.
+A known gotcha you hit: if the VNet lives in a different resource group from the backup RG, the CLI will fail to find it unless you pass the full VNet resource ID explicitly (not just the name). The PE creation command must include the full ARM path for `--subnet`.
 
 ---
 
-### Private DNS Zone + VNet Link (DNS resolution chain)
+#### Private DNS Zone + VNet Link (DNS Resolution chain)
 
-This is the **required** DNS chain so the AKS backup extension resolves the storage account to a private IP instead of the public endpoint:
+This is the required DNS chain so the AKS backup extension resolves the storage account to a private IP instead of the public endpoint:
 
-1. **Create the Private DNS Zone:**
+1. Create the Private DNS Zone:
+
    ```bash
    az network private-dns zone create \
      --resource-group "$BACKUP_RG" \
      --name "privatelink.blob.core.windows.net"
    ```
 
-2. **Link the DNS zone to the VNet** (VNet may be in a different RG — pass the full ID):
+2. Link the DNS zone to the VNet (VNet may be in a different RG—pass the full ID):
+
    ```bash
    az network private-dns link vnet create \
      --resource-group "$BACKUP_RG" \
@@ -1903,7 +2006,8 @@ This is the **required** DNS chain so the AKS backup extension resolves the stor
      --registration-enabled false
    ```
 
-3. **Attach the DNS zone group to the private endpoint** (so Azure auto-populates the A record):
+3. Attach the DNS zone group to the private endpoint (so Azure auto-populates the A record):
+
    ```bash
    az network private-endpoint dns-zone-group create \
      --resource-group "$BACKUP_RG" \
@@ -1913,11 +2017,11 @@ This is the **required** DNS chain so the AKS backup extension resolves the stor
      --zone-name "blob"
    ```
 
-When correctly wired, the storage account resolves **inside the VNet** to a private IP (e.g. `192.168.200.100`) — confirmed working in the NNUH environment as of ~12:47 on 5 May 2026.
+When correctly wired, the storage account resolves inside the VNet to a private IP (e.g. `192.168.200.100`)—confirmed working in the NNUH environment as of ~12:47 on 5 May 2026.
 
 ---
 
-### Verification checks
+#### Verification Checks
 
 Once the chain is in place, the two commands that confirm it's working:
 
@@ -1939,25 +2043,25 @@ Both should show `"state": "Succeeded"` and a subnet ID pointing to your PE subn
 
 ---
 
-### Why this is mandatory
+#### Why This is Mandatory
 
-The AKS backup extension (`Microsoft.DataProtection.Kubernetes`) writes backup data directly to the blob container. With public access disabled and default action Deny, the **only** permitted data path is through the private endpoint. Without the DNS zone group, the extension resolves to the public FQDN and the writes are blocked at the network layer — this was the root blocker you hit during the initial NNUH setup.
+The AKS backup extension (`Microsoft.DataProtection.Kubernetes`) writes backup data directly to the blob container. With public access disabled and default action Deny, the only permitted data path is through the private endpoint. Without the DNS zone group, the extension resolves to the public FQDN and the writes are blocked at the network layer—this was the root blocker you hit during the initial NNUH setup.
 
-## Asset 50 (Pieces: 2d325f64-62b5-4a3e-b05f-202e4b1675c0)
+### Asset 50 (Pieces: 2d325f64-62b5-4a3e-b05f-202e4b1675c0)
 
-I have strong, directly relevant results. Let me now pull the richest candidate — the architecture documentation — to get the specific network requirements detail.
+I have strong, directly relevant results. Let me now pull the richest candidate—the architecture documentation—to get the specific network requirements detail.
 
-## Asset 53 (Pieces: c17e491a-7e7b-49cb-b061-1bf66e87879a)
+### Asset 53 (Pieces: c17e491a-7e7b-49cb-b061-1bf66e87879a)
 
 The user wants a summary of network requirements for a private endpoint related to backup changes they recently made. Let me search their memory for this information.
 
 I'll search for:
+
 1. "private endpoint backup" network requirements
 2. Recent backup changes with network/endpoint requirements
 
 Let me start with a time_compute to understand "recently" and then search memory.
 
-## Asset 54 (Pieces: 9111ec74-8626-4860-b08e-1e0406f6b754)
+### Asset 54 (Pieces: 9111ec74-8626-4860-b08e-1e0406f6b754)
 
 Summarise the network requirements for the private endpoint for the backup changes we recently made
-

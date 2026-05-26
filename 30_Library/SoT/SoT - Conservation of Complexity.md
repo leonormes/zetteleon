@@ -2,7 +2,7 @@
 aliases: [Conservation of Complexity, Software Complexity Law, Tesler's Law]
 created: 2026-01-08T12:05:00Z
 last_reviewed: 2026-02-05
-modified: 2026-04-19T18:30:34+00:00
+modified: 2026-05-26T11:44:20+00:00
 status: stable
 tags: [architecture, complexity, mental_models, software_engineering, sot]
 title: SoT - Conservation of Complexity

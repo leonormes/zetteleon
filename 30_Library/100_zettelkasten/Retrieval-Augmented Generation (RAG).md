@@ -2,15 +2,11 @@
 created: 2026-04-13T14:41:15+00:00
 created_utc: 2026-04-13T11:20:00Z
 kind: mechanism
-modified: 2026-04-19T18:30:40+00:00
+modified: 2026-05-26T11:44:33+00:00
 source_title: AI Agent Architecture and the Modern Tech Stack
 source_url: https://gemini.google.com/app/509937047bd0b955
 status: seed
-tags:
-  - data-retrieval
-  - grounding
-  - llm
-  - rag
+tags: [data-retrieval, grounding, llm, rag]
 title: Retrieval-Augmented Generation (RAG)
 type: atom
 upstream: "[[HEAD The Failure of Human-Centric Design]]"

@@ -2,7 +2,7 @@
 aliases: ["Action Orientation", "State Orientation"]
 created: 2025-11-12T14:10:08Z
 last_reviewed: ""
-modified: 2026-04-19T18:30:44+00:00
+modified: 2026-05-26T11:44:36+00:00
 status: "stable"
 tags: ["personality", "TheHuman/Psychology", "volition"]
 title: Action-Oriented Individuals Act Decisively Under Pressure While State-Oriented Individuals Ruminate

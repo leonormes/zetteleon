@@ -1,9 +1,11 @@
 ---
-stage: Production Engineering
+created: 2026-05-16T10:16:41+00:00
+description: Compute minutes, usage tracking, quota management for GitLab-hosted runners on GitLab Dedicated.
 group: Runners Platform
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-description: Compute minutes, usage tracking, quota management for GitLab-hosted runners on GitLab Dedicated.
-title: Compute usage for GitLab-hosted runners on GitLab Dedicated
+modified: 2026-05-26T11:44:11+00:00
+stage: Production Engineering
+title: dedicated_hosted_runner_compute_minutes
 ---
 
 {{< details >}}
@@ -16,6 +18,7 @@ title: Compute usage for GitLab-hosted runners on GitLab Dedicated
 A GitLab Dedicated instance can have both GitLab Self-Managed instance runners and GitLab-hosted instance runners.
 
 As an administrator of a GitLab Dedicated instance, you can track and monitor compute minutes used by
+
 namespaces running jobs on either type of instance runners.
 
 For GitLab-hosted runners:
@@ -25,7 +28,7 @@ For GitLab-hosted runners:
 
 For GitLab Self-Managed instance runners registered to your GitLab Dedicated instance, see [view instance runner usage](instance_runner_compute_minutes.md#view-usage).
 
-## View compute usage
+## View Compute Usage
 
 {{< history >}}
 
@@ -45,5 +48,5 @@ You can see compute usage:
 
 To view GitLab-hosted runner compute usage for all namespaces across your entire GitLab instance:
 
-1. In the upper-right corner, select **Admin**.
-1. In the left sidebar, select **Settings** > **Usage quotas**.
+1. In the upper-right corner, select Admin.
+2. In the left sidebar, select Settings > Usage quotas.

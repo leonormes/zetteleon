@@ -2,7 +2,7 @@
 books_analysed: 13
 created: 2026-05-22T15:00:00+01:00
 graphify_queries: ["key exchange", "modular arithmetic", "public key cryptography", "RSA encryption"]
-modified: 2026-05-23T11:03:45+00:00
+modified: 2026-05-26T11:43:57+00:00
 source: library-indexer v1.0.0
 tags: [calibre, cryptography, encryption, public-key, reading-list, research, rsa]
 title: research-rsa-encryption

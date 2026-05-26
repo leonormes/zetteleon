@@ -1,8 +1,10 @@
 ---
-stage: Software Supply Chain Security
+created: 2026-05-16T10:16:41+00:00
 group: Pipeline Security
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-title: Use AWS Secrets Manager secrets in GitLab CI/CD
+modified: 2026-05-26T11:44:14+00:00
+stage: Software Supply Chain Security
+title: aws_secrets_manager
 ---
 
 {{< details >}}
@@ -20,28 +22,32 @@ title: Use AWS Secrets Manager secrets in GitLab CI/CD
 {{< /history >}}
 
 You can use secrets stored in [AWS Secrets Manager](https://aws.amazon.com/secrets-manager/)
+
 in your GitLab CI/CD pipelines.
 
 Prerequisites:
 
 - Have access to AWS Secrets Manager in your AWS account.
 - Configure authentication using one of the following methods:
-  - **IAM Role**: Use the IAM role assigned to your GitLab Runner instance.
-  - **OpenID Connect**: [Configure OpenID Connect in AWS](../cloud_services/aws/_index.md) to retrieve temporary credentials.
+  - IAM Role: Use the IAM role assigned to your GitLab Runner instance.
+  - OpenID Connect: [Configure OpenID Connect in AWS](../cloud_services/aws/_index.md) to retrieve temporary credentials.
 - Add [CI/CD variables to your project](../variables/_index.md#for-a-project) to provide details about your AWS configuration:
   - `AWS_REGION`: The AWS region where your secrets are stored.
   - `AWS_ROLE_ARN`: The ARN of the AWS IAM role to assume (required when using OpenID Connect).
   - `AWS_ROLE_SESSION_NAME`: Optional. Custom session name for the assumed role.
 
-## Use AWS Secrets Manager secrets in a CI/CD job
+## Use AWS Secrets Manager Secrets in a CI/CD Job
 
-### With IAM Role authentication
+### With IAM Role Authentication
 
 You can use a secret stored in AWS Secrets Manager in a job by defining it with the
+
 `aws_secrets_manager` keyword.
 
 This method uses the IAM role assigned to your GitLab Runner instance. When using the
+
 [Kubernetes executor](https://docs.gitlab.com/runner/executors/kubernetes/) or [autoscaling](https://docs.gitlab.com/runner/runner_autoscale/),
+
 make sure the IAM role is applied to your runner manager.
 
 Prerequisites:
@@ -68,9 +74,10 @@ database-migration:
     - echo "Migration completed successfully."
 ```
 
-### With OpenID Connect authentication
+### With OpenID Connect Authentication
 
 For enhanced security, you can use OpenID Connect to authenticate with AWS and assume a specific IAM role.
+
 By default, the runner looks for an ID token named `AWS_ID_TOKEN`. For example:
 
 ```yaml
@@ -120,10 +127,12 @@ database-migration:
     - echo "Database connection successful."
 ```
 
-### Short form syntax
+### Short Form Syntax
 
 You can use a simplified syntax by specifying the secret ID as a string.
+
 You can optionally specify a field by separating it with a `#` character.
+
 For example:
 
 ```yaml
@@ -146,9 +155,10 @@ api-deployment:
     - curl --header "Authorization: Bearer $(cat $FULL_SECRET | jq --raw-output '.api_key')" https://api.example.com/status
 ```
 
-## Secret versioning
+## Secret Versioning
 
 AWS Secrets Manager supports multiple versions of secrets. You can specify a particular version
+
 using either `version_id` or `version_stage`. For example:
 
 ```yaml
@@ -177,9 +187,10 @@ production-deployment:
     - test-with-version.sh --db-password $STAGING_DATABASE_PASSWORD
 ```
 
-## Cross-account secret access
+## Cross-account Secret Access
 
 To retrieve secrets from another AWS account, you must use the full ARN.
+
 For example:
 
 ```yaml
@@ -203,7 +214,7 @@ cross-account-deployment:
     - curl --header "Authorization: Bearer $SHARED_API_KEY" https://shared-api.example.com/deploy
 ```
 
-## Per-secret configuration overrides
+## Per-secret Configuration Overrides
 
 You can override global AWS settings on a per-secret basis. For example:
 
@@ -265,6 +276,7 @@ In these examples:
 ## Troubleshooting
 
 Refer to [OIDC for AWS troubleshooting](../cloud_services/aws/_index.md#troubleshooting) for general
+
 problems when setting up OIDC with AWS.
 
 ### Error: `no EC2 IMDS role found`
@@ -282,7 +294,9 @@ ERROR: Job failed (system failure): resolving secrets: operation error Secrets M
 ```
 
 The `Resolving secrets` step is handled by the runner manager. This step accesses IAM credentials
+
 cached in [EC2 IMDS](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/configuring-instance-metadata-service.html).
+
 If the IAM role has not been applied to the runner manager, the `Resolving secrets` step fails.
 
 To address this error, apply the correct IAM role to the runner manager.

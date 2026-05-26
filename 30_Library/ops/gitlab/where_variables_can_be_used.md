@@ -1,9 +1,11 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:41+00:00
+description: GitLab CI/CD variable usage and expansion across different environments.
 group: Pipeline Authoring
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-description: GitLab CI/CD variable usage and expansion across different environments.
-title: Where variables can be used
+modified: 2026-05-26T11:43:57+00:00
+stage: Verify
+title: where_variables_can_be_used
 ---
 
 {{< details >}}
@@ -14,19 +16,21 @@ title: Where variables can be used
 {{< /details >}}
 
 As it's described in the [CI/CD variables](_index.md) documentation, you can
+
 define many different variables. Some of them can be used for all GitLab CI/CD
+
 features, but some of them are more or less limited.
 
 This document describes where and how the different types of variables can be used.
 
-## Variables usage
+## Variables Usage
 
 There are two places defined variables can be used. On the:
 
 1. GitLab side, in the `.gitlab-ci.yml` file.
-1. The GitLab Runner side, in `config.toml`.
+2. The GitLab Runner side, in `config.toml`.
 
-### `.gitlab-ci.yml` file
+### `.gitlab-ci.yml` File
 
 {{< history >}}
 
@@ -65,7 +69,7 @@ There are two places defined variables can be used. On the:
 | [`variables`](../yaml/_index.md#variables)                              | yes              | GitLab/Runner          | The variable expansion is first made by the [internal variable expansion mechanism](#gitlab-internal-variable-expansion-mechanism) in GitLab, and then any unrecognized or unavailable variables are expanded by GitLab Runner's [internal variable expansion mechanism](#gitlab-runner-internal-variable-expansion-mechanism). |
 | [`workflow:name`](../yaml/_index.md#workflowname)                       | yes              | GitLab                 | The variable expansion is made by the [internal variable expansion mechanism](#gitlab-internal-variable-expansion-mechanism) in GitLab.<br/><br/>Supported are all variables available in `workflow`:<br/>- Project/Group variables.<br/>- Global `variables` and `workflow:rules:variables` (when matching the rule).<br/>- Variables inherited from parent pipelines.<br/>- Variables from triggers.<br/>- Variables from pipeline schedules.<br/><br/>Not supported are variables defined in the GitLab Runner `config.toml`, variables defined in jobs, or [Persisted variables](#persisted-variables). |
 
-### `config.toml` file
+### `config.toml` File
 
 | Definition                           | Can be expanded? | Description |
 |:-------------------------------------|:-----------------|:------------|
@@ -75,7 +79,7 @@ There are two places defined variables can be used. On the:
 
 You can read more about `config.toml` in the [GitLab Runner docs](https://docs.gitlab.com/runner/configuration/advanced-configuration/).
 
-## Expansion mechanisms
+## Expansion Mechanisms
 
 There are three expansion mechanisms:
 
@@ -83,13 +87,15 @@ There are three expansion mechanisms:
 - GitLab Runner
 - Execution shell environment
 
-### GitLab internal variable expansion mechanism
+### GitLab Internal Variable Expansion Mechanism
 
 The expanded part needs to be in a form of `$variable`, or `${variable}` or `%variable%`.
+
 Each form is handled in the same way, no matter which OS/shell handles the job,
+
 because the expansion is done in GitLab before any runner gets the job.
 
-#### Nested variable expansion
+#### Nested Variable Expansion
 
 GitLab expands job variable values recursively before sending them to the runner. For example, in the following scenario:
 
@@ -102,33 +108,47 @@ GitLab expands job variable values recursively before sending them to the runner
 The runner receives a valid, fully-formed path. For example, if `${CI_BUILDS_DIR}` is `/output`, then `PACKAGE_PATH` would be `/output/out/pkg`.
 
 References to unavailable variables are left intact. In this case, the runner
+
 [attempts to expand the variable value](#gitlab-runner-internal-variable-expansion-mechanism) at runtime.
+
 For example, a variable like `CI_BUILDS_DIR` is known by the runner only at runtime.
 
-### GitLab Runner internal variable expansion mechanism
+### GitLab Runner Internal Variable Expansion Mechanism
 
 - Supported: project/group variables, `.gitlab-ci.yml` variables, `config.toml` variables, and
   variables from triggers, pipeline schedules, and manual pipelines.
 - Not supported: variables defined inside of scripts (for example, `export MY_VARIABLE="test"`).
 
 The runner uses Go's `os.Expand()` method for variable expansion. It means that it handles
+
 only variables defined as `$variable` and `${variable}`. What's also important, is that
+
 the expansion is done only once, so nested variables may or may not work, depending on the
+
 ordering of variables definitions, and whether [nested variable expansion](#nested-variable-expansion)
+
 is enabled in GitLab.
 
 For artifacts and cache uploads, the runner uses
+
 [mvdan.cc/sh/v3/expand](https://pkg.go.dev/mvdan.cc/sh/v3/expand) for variable
+
 expansion instead of Go's `os.Expand()` because `mvdan.cc/sh/v3/expand` supports
+
 [parameter expansion](https://www.gnu.org/software/bash/manual/html_node/Shell-Parameter-Expansion.html).
 
-### Execution shell environment
+### Execution Shell Environment
 
 This is an expansion phase that takes place during the `script` execution.
+
 Its behavior depends on the shell used (`bash`, `sh`, `cmd`, PowerShell). For example, if the job's
+
 `script` contains a line `echo $MY_VARIABLE-${MY_VARIABLE_2}`, it should be properly handled
+
 by bash/sh (leaving empty strings or some values depending whether the variables were
+
 defined or not), but don't work with Windows' `cmd` or PowerShell, because these shells
+
 use a different variables syntax.
 
 Supported:
@@ -150,9 +170,10 @@ In the case of `after_script` scripts, they can:
 - Not use variables defined in `before_script` and `script`.
 
 These restrictions exist because `after_script` scripts are executed in a
+
 [separated shell context](../yaml/_index.md#after_script).
 
-## Persisted variables
+## Persisted Variables
 
 Some predefined variables are called persisted. Persisted variables are:
 
@@ -164,9 +185,11 @@ Some predefined variables are called persisted. Persisted variables are:
   - In `rules` [variables expressions](../jobs/job_rules.md#cicd-variable-expressions).
 
 [Pipeline trigger jobs](../yaml/_index.md#trigger) cannot use job-level persisted variables,
+
 but can use pipeline-level persisted variables.
 
 Some of the persisted variables contain tokens and cannot be used by some definitions
+
 due to security reasons.
 
 Pipeline-level persisted variables:
@@ -187,11 +210,14 @@ Job-level persisted variables:
 - `CI_REGISTRY_USER`
 - `CI_REPOSITORY_URL`
 
-## Variables with an environment scope
+## Variables with an Environment Scope
 
 Variables defined with an environment scope are supported. Given that
+
 there is a variable `$STAGING_SECRET` defined in a scope of
+
 `review/staging/*`, the following job that is using dynamic environments
+
 is created, based on the matching variable expression:
 
 ```yaml

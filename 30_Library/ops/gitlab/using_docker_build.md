@@ -1,9 +1,11 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:41+00:00
+description: Build and push container images in GitLab CI/CD using the shell executor, Docker-in-Docker, socket binding, or pipe binding.
 group: Pipeline Execution
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-title: Use Docker to build Docker images
-description: Build and push container images in GitLab CI/CD using the shell executor, Docker-in-Docker, socket binding, or pipe binding.
+modified: 2026-05-26T11:43:58+00:00
+stage: Verify
+title: using_docker_build
 ---
 
 {{< details >}}
@@ -14,16 +16,20 @@ description: Build and push container images in GitLab CI/CD using the shell exe
 {{< /details >}}
 
 You can use GitLab CI/CD with Docker to create Docker images.
+
 For example, you can create a Docker image of your application,
+
 test it, and push it to a container registry.
 
 To run Docker commands in your CI/CD jobs, you must configure
+
 GitLab Runner to support `docker` commands. This method requires `privileged` mode.
 
 If you want to build Docker images without enabling `privileged` mode on the runner,
+
 you can use a [Docker alternative](#docker-alternatives).
 
-## Enable Docker commands in your CI/CD jobs
+## Enable Docker Commands in Your CI/CD Jobs
 
 To enable Docker commands for your CI/CD jobs, you can use:
 
@@ -32,14 +38,16 @@ To enable Docker commands for your CI/CD jobs, you can use:
 - [Docker socket binding](#use-docker-socket-binding)
 - [Docker pipe binding](#use-docker-pipe-binding)
 
-### Use the shell executor
+### Use the Shell Executor
 
 To include Docker commands in your CI/CD jobs, you can configure your runner to
+
 use the `shell` executor. In this configuration, the `gitlab-runner` user runs
+
 the Docker commands, but needs permission to do so.
 
 1. [Install](https://gitlab.com/gitlab-org/gitlab-runner/#installation) GitLab Runner.
-1. [Register](https://docs.gitlab.com/runner/register/) a runner.
+2. [Register](https://docs.gitlab.com/runner/register/) a runner.
    Select the `shell` executor. For example:
 
    ```shell
@@ -50,22 +58,22 @@ the Docker commands, but needs permission to do so.
      --description "My Runner"
    ```
 
-1. On the server where GitLab Runner is installed, install Docker Engine.
+3. On the server where GitLab Runner is installed, install Docker Engine.
    View a list of [supported platforms](https://docs.docker.com/engine/install/).
 
-1. Add the `gitlab-runner` user to the `docker` group:
+4. Add the `gitlab-runner` user to the `docker` group:
 
    ```shell
    sudo usermod -aG docker gitlab-runner
    ```
 
-1. Verify that `gitlab-runner` has access to Docker:
+5. Verify that `gitlab-runner` has access to Docker:
 
    ```shell
    sudo -u gitlab-runner -H docker info
    ```
 
-1. In GitLab, add `docker info` to `.gitlab-ci.yml` to verify that Docker is working:
+6. In GitLab, add `docker info` to `.gitlab-ci.yml` to verify that Docker is working:
 
    ```yaml
    default:
@@ -80,6 +88,7 @@ the Docker commands, but needs permission to do so.
 You can now use `docker` commands (and install Docker Compose if needed).
 
 When you add `gitlab-runner` to the `docker` group, you effectively grant `gitlab-runner` full root permissions.
+
 For more information, see [security of the `docker` group](https://blog.zopyx.com/on-docker-security-docker-group-considered-harmful/).
 
 ### Use Docker-in-Docker
@@ -92,20 +101,24 @@ For more information, see [security of the `docker` group](https://blog.zopyx.co
   by Docker, to run your CI/CD jobs.
 
 The Docker image includes all of the `docker` tools and can run
+
 the job script in context of the image in privileged mode.
 
 You should use Docker-in-Docker with TLS enabled,
+
 which is supported by [GitLab.com instance runners](../runners/_index.md).
 
 You should always pin a specific version of the image, like `docker:24.0.5`.
+
 If you use a tag like `docker:latest`, you have no control over which version is used.
+
 This can cause incompatibility problems when new versions are released.
 
-#### Use the Docker executor with Docker-in-Docker
+#### Use the Docker Executor with Docker-in-Docker
 
 You can use the Docker executor to run jobs in a Docker container.
 
-##### Docker-in-Docker with TLS enabled in the Docker executor
+##### Docker-in-Docker with TLS Enabled in the Docker Executor
 
 The Docker daemon supports connections over TLS. TLS is the default in Docker 19.03.12 and later.
 
@@ -117,7 +130,7 @@ The Docker daemon supports connections over TLS. TLS is the default in Docker 19
 To use Docker-in-Docker with TLS enabled:
 
 1. Install [GitLab Runner](https://docs.gitlab.com/runner/install/).
-1. Register GitLab Runner from the command line. Use `docker` and `privileged`
+2. Register GitLab Runner from the command line. Use `docker` and `privileged`
    mode:
 
    ```shell
@@ -158,7 +171,7 @@ To use Docker-in-Docker with TLS enabled:
        [runners.cache.gcs]
    ```
 
-1. You can now use `docker` in the job script. You should include the `docker:24.0.5-dind` service:
+3. You can now use `docker` in the job script. You should include the `docker:24.0.5-dind` service:
 
    ```yaml
    default:
@@ -194,15 +207,20 @@ To use Docker-in-Docker with TLS enabled:
        - docker run my-docker-image /script/to/run/tests
    ```
 
-##### Use a Unix socket on a shared volume between Docker-in-Docker and build container
+##### Use a Unix Socket on a Shared Volume between Docker-in-Docker and Build Container
 
 Directories defined in `volumes = ["/certs/client", "/cache"]` in the
+
 [Docker-in-Docker with TLS enabled in the Docker executor](#docker-in-docker-with-tls-enabled-in-the-docker-executor)
+
 approach are [persistent between builds](https://docs.gitlab.com/runner/executors/docker/#persistent-storage).
+
 If multiple CI/CD jobs using a Docker executor runner have Docker-in-Docker services enabled, then each job
+
 writes to the directory path. This approach might result in a conflict.
 
 To address this conflict, use a Unix socket on a volume shared between the Docker-in-Docker service and the build container.
+
 This approach improves performance and establishes a secure connection between the service and client.
 
 The following is a sample `config.toml` with temporary volume shared between build and service containers:
@@ -234,10 +252,12 @@ job:
     - docker version
 ```
 
-##### Docker-in-Docker with TLS disabled in the Docker executor
+##### Docker-in-Docker with TLS Disabled in the Docker Executor
 
 Sometimes there are legitimate reasons to disable TLS.
+
 For example, you have no control over the GitLab Runner configuration
+
 that you are using.
 
 1. Register GitLab Runner from command line. Use `docker` and `privileged` mode:
@@ -271,7 +291,7 @@ that you are using.
        [runners.cache.gcs]
    ```
 
-1. Include the `docker:24.0.5-dind` service in the job script:
+2. Include the `docker:24.0.5-dind` service in the job script:
 
    ```yaml
    default:
@@ -303,17 +323,17 @@ that you are using.
        - docker run my-docker-image /script/to/run/tests
    ```
 
-##### Docker-in-Docker with proxy enabled in the Docker executor
+##### Docker-in-Docker with Proxy Enabled in the Docker Executor
 
 You might need to configure proxy settings to use the `docker push` command.
 
 For more information, see [Proxy settings when using dind service](https://docs.gitlab.com/runner/configuration/proxy/#proxy-settings-when-using-dind-service).
 
-#### Use the Kubernetes executor with Docker-in-Docker
+#### Use the Kubernetes Executor with Docker-in-Docker
 
 You can use the [Kubernetes executor](https://docs.gitlab.com/runner/executors/kubernetes/) to run jobs in a Docker container.
 
-##### Docker-in-Docker with TLS enabled in Kubernetes
+##### Docker-in-Docker with TLS Enabled in Kubernetes
 
 To use Docker-in-Docker with TLS enabled in Kubernetes:
 
@@ -336,7 +356,7 @@ To use Docker-in-Docker with TLS enabled in Kubernetes:
            medium = "Memory"
    ```
 
-1. Include the `docker:24.0.5-dind` service in the job:
+2. Include the `docker:24.0.5-dind` service in the job:
 
    ```yaml
    default:
@@ -378,7 +398,7 @@ To use Docker-in-Docker with TLS enabled in Kubernetes:
        - docker run my-docker-image /script/to/run/tests
    ```
 
-##### Docker-in-Docker with TLS disabled in Kubernetes
+##### Docker-in-Docker with TLS Disabled in Kubernetes
 
 To use Docker-in-Docker with TLS disabled in Kubernetes, you must adapt the previous example to:
 
@@ -402,7 +422,7 @@ For example:
            privileged = true
    ```
 
-1. You can now use `docker` in the job script. You should include the
+2. You can now use `docker` in the job script. You should include the
    `docker:24.0.5-dind` service:
 
    ```yaml
@@ -436,19 +456,19 @@ For example:
        - docker run my-docker-image /script/to/run/tests
    ```
 
-#### Known issues with Docker-in-Docker
+#### Known Issues with Docker-in-Docker
 
 Docker-in-Docker is the recommended configuration, but you should be aware of the following issues:
 
-- **The `docker-compose` command**: This command is not available in this configuration by default.
+- The `docker-compose` command: This command is not available in this configuration by default.
   To use `docker-compose` in your job scripts, follow the Docker Compose
   [installation instructions](https://docs.docker.com/compose/install/).
-- **Cache**: Each job runs in a new environment. Because every build gets its own instance of the Docker engine, concurrent jobs do not cause conflicts.
+- Cache: Each job runs in a new environment. Because every build gets its own instance of the Docker engine, concurrent jobs do not cause conflicts.
   However, jobs can be slower because there's no caching of layers. See [Docker layer caching](#docker-layer-caching).
-- **Storage drivers**: By default, earlier versions of Docker use the `vfs` storage driver,
+- Storage drivers: By default, earlier versions of Docker use the `vfs` storage driver,
   which copies the file system for each job. Docker 17.09 and later use `--storage-driver overlay2`, which is
   the recommended storage driver. See [Using the OverlayFS driver](#use-the-overlayfs-driver) for details.
-- **Root file system**: Because the `docker:24.0.5-dind` container and the runner container do not share their
+- Root file system: Because the `docker:24.0.5-dind` container and the runner container do not share their
   root file system, you can use the job's working directory as a mount point for
   child containers. For example, if you have files you want to share with a
   child container, you could create a subdirectory under `/builds/$CI_PROJECT_PATH`
@@ -463,17 +483,20 @@ Docker-in-Docker is the recommended configuration, but you should be aware of th
     - docker run -v "$MOUNT_POINT:/mnt" my-docker-image
   ```
 
-### Use Docker socket binding
+### Use Docker Socket Binding
 
 To use Docker commands in your CI/CD jobs, you can bind-mount `/var/run/docker.sock` into the
+
 build container. Docker is then available in the context of the image.
 
 If you bind the Docker socket you can't use `docker:24.0.5-dind` as a service. Volume bindings also affect services,
+
 making them incompatible.
 
-#### Use the Docker executor with Docker socket binding
+#### Use the Docker Executor with Docker Socket Binding
 
 To mount the Docker socket with the Docker executor, add `"/var/run/docker.sock:/var/run/docker.sock"` to the
+
 [Volumes in the `[runners.docker]` section](https://docs.gitlab.com/runner/configuration/advanced-configuration/#volumes-in-the-runnersdocker-section).
 
 1. To mount `/var/run/docker.sock` while registering your runner, include the following options:
@@ -507,7 +530,7 @@ To mount the Docker socket with the Docker executor, add `"/var/run/docker.sock:
        Insecure = false
    ```
 
-1. Use Docker in the job script:
+2. Use Docker in the job script:
 
    ```yaml
    default:
@@ -524,9 +547,10 @@ To mount the Docker socket with the Docker executor, add `"/var/run/docker.sock:
        - docker run my-docker-image /script/to/run/tests
    ```
 
-#### Use the Kubernetes executor with Docker socket binding
+#### Use the Kubernetes Executor with Docker Socket Binding
 
 To mount the Docker socket with the Kubernetes executor, add `"/var/run/docker.sock"` to the
+
 [Volumes in the `[[runners.kubernetes.volumes.host_path]]` section](https://docs.gitlab.com/runner/executors/kubernetes/index/#hostpath-volume).
 
 1. To specify a volume mount, update the
@@ -549,7 +573,7 @@ To mount the Docker socket with the Kubernetes executor, add `"/var/run/docker.s
              read_only = true
    ```
 
-1. Use Docker in the job script:
+2. Use Docker in the job script:
 
    ```yaml
    default:
@@ -565,9 +589,10 @@ To mount the Docker socket with the Kubernetes executor, add `"/var/run/docker.s
        - docker run my-docker-image /script/to/run/tests
    ```
 
-#### Known issues with Docker socket binding
+#### Known Issues with Docker Socket Binding
 
 When you use Docker socket binding, you avoid running Docker in privileged mode. However,
+
 the implications of this method are:
 
 - When you share the Docker daemon, you effectively disable
@@ -588,6 +613,7 @@ the implications of this method are:
   ```
 
 You do not need to include the `docker:24.0.5-dind` service, like you do when
+
 you use the Docker-in-Docker executor:
 
 ```yaml
@@ -604,18 +630,25 @@ build:
 ```
 
 For complex Docker-in-Docker setups like [Code Quality scanning using CodeClimate](../testing/code_quality_codeclimate_scanning.md), you must match host and container paths for proper execution. For more details, see
+
 [Use private runners for CodeClimate-based scanning](../testing/code_quality_codeclimate_scanning.md#use-private-runners).
 
-### Use Docker pipe binding
+### Use Docker Pipe Binding
 
 Windows Containers run Windows executables compiled for the Windows Server kernel and userland
+
 (either windowsservercore or nanoserver). To build and run Windows containers, a Windows system
+
 with container support is required.
+
 For more information, see [Windows Containers](https://learn.microsoft.com/en-us/virtualization/windowscontainers/).
 
 Because Windows containers do [not support the Docker-in-Docker](https://github.com/docker-library/docker/issues/49)
+
 approach, you cannot run a nested Docker Engine inside a container.
+
 To build or manage Docker images from within a Windows container, use
+
 Docker pipe binding (also known as Docker-outside-of-Docker or DooD).
 
 > [!warning]
@@ -625,25 +658,33 @@ Docker pipe binding (also known as Docker-outside-of-Docker or DooD).
 > privileges on the host system.
 
 To use Docker pipe binding, you must install and run a Docker Engine on the host Windows Server operating system.
+
 For more information, see [Install Docker Community Edition (CE) on Windows Server](https://learn.microsoft.com/en-us/virtualization/windowscontainers/quick-start/set-up-environment?tabs=dockerce#windows-server-1).
 
 To use Docker commands in your Windows-based container CI/CD jobs, you can bind-mount `\\\\.\\pipe\\docker_engine`
+
 into the launched executor container. Docker is then available in the context of the image.
 
 The [Docker pipe binding in Windows](#use-docker-pipe-binding) is similar to
+
 [Docker socket binding in Linux](#use-docker-socket-binding) and have similar
+
 [Known issues](#known-issues-with-docker-pipe-binding) as
+
 [Known issues with Docker socket binding](#known-issues-with-docker-socket-binding).
 
 A mandatory prerequisite for usage of Docker pipe binding is a Docker Engine installed and
+
 running on the host Windows Server operating system.
+
 See: [Install Docker Community Edition (CE) on Windows Server](https://learn.microsoft.com/en-us/virtualization/windowscontainers/quick-start/set-up-environment?tabs=dockerce#windows-server-2)
 
-#### Use the Docker executor with Docker pipe binding
+#### Use the Docker Executor with Docker Pipe Binding
 
 You can use the [Docker executor](https://docs.gitlab.com/runner/executors/docker/) to run jobs in a Windows-based container.
 
 To mount the Docker pipe with the Docker executor, add `"\\\\.\\pipe\\docker_engine:\\\\.\\pipe\\docker_engine"` to the
+
 [Volumes in the `[runners.docker]` section](https://docs.gitlab.com/runner/configuration/advanced-configuration/#volumes-in-the-runnersdocker-section).
 
 1. To mount `\\\\.\\pipe\\docker_engine` while registering your runner, include the following options:
@@ -675,7 +716,7 @@ To mount the Docker pipe with the Docker executor, add `"\\\\.\\pipe\\docker_eng
        volumes = ["\\\\.\\pipe\\docker_engine:\\\\.\\pipe\\docker_engine"]
    ```
 
-1. Use Docker in the job script:
+2. Use Docker in the job script:
 
    ```yaml
    default:
@@ -693,16 +734,18 @@ To mount the Docker pipe with the Docker executor, add `"\\\\.\\pipe\\docker_eng
        - docker run my-docker-image /script/to/run/tests
    ```
 
-#### Use the Kubernetes executor with Docker pipe binding
+#### Use the Kubernetes Executor with Docker Pipe Binding
 
 You can use the [Kubernetes executor](https://docs.gitlab.com/runner/executors/kubernetes/) to run jobs in a Windows-based container.
 
 To use Kubernetes executor for Windows-based containers, you must include Windows nodes in your Kubernetes cluster.
+
 For more information, see [Windows containers in Kubernetes](https://kubernetes.io/docs/concepts/windows/intro/).
 
 You can use [Runner operating in a Linux environment but targeting Windows nodes](https://docs.gitlab.com/runner/executors/kubernetes/#example-for-windowsamd64)
 
 To mount the Docker pipe with the Kubernetes executor, add `"\\.\pipe\docker_engine"` to the
+
 [Volumes in the `[[runners.kubernetes.volumes.host_path]]` section](https://docs.gitlab.com/runner/executors/kubernetes/index/#hostpath-volume).
 
 1. To specify a volume mount, update the
@@ -735,7 +778,7 @@ To mount the Docker pipe with the Kubernetes executor, add `"\\.\pipe\docker_eng
              "node.kubernetes.io/windows-build" = "10.0.20348"
    ```
 
-1. Use Docker in the job script:
+2. Use Docker in the job script:
 
    ```yaml
    default:
@@ -753,10 +796,12 @@ To mount the Docker pipe with the Kubernetes executor, add `"\\.\pipe\docker_eng
        - docker run my-docker-image /script/to/run/tests
    ```
 
-##### Known issues with AWS EKS Kubernetes cluster
+##### Known Issues with AWS EKS Kubernetes Cluster
 
 When you migrate from `dockerd` to `containerd`, the AWS EKS bootstrapping script `Start-EKSBootstrap.ps1`
+
 stops and disables the Docker Service. To work around this issue, rename the Docker Service after you
+
 [Install Docker Community Edition (CE) on Windows Server](https://learn.microsoft.com/en-us/virtualization/windowscontainers/quick-start/set-up-environment?tabs=dockerce#windows-server-1) with this script:
 
 ```powershell
@@ -768,20 +813,24 @@ Start-Service -Name dockerd
 Write-Output "Ready to do Docker pipe binding on Windows EKS Node! :-)"
 ```
 
-#### Known issues with Docker pipe binding
+#### Known Issues with Docker Pipe Binding
 
 Docker pipe binding has the same set of security and isolation issues as the [Known issues with Docker socket binding](#known-issues-with-docker-socket-binding).
 
-## Enable registry mirror for `docker:dind` service
+## Enable Registry Mirror for `docker:dind` Service
 
 When the Docker daemon starts inside the service container, it uses
+
 the default configuration. You might want to configure a
+
 [registry mirror](https://docs.docker.com/docker-hub/mirror/) for
+
 performance improvements and to ensure you do not exceed Docker Hub rate limits.
 
-### The service in the `.gitlab-ci.yml` file
+### The Service in the `.gitlab-ci.yml` File
 
 You can append extra CLI flags to the `dind` service to set the registry
+
 mirror:
 
 ```yaml
@@ -790,11 +839,14 @@ services:
     command: ["--registry-mirror", "https://registry-mirror.example.com"]  # Specify the registry mirror to use
 ```
 
-### The service in the GitLab Runner configuration file
+### The Service in the GitLab Runner Configuration File
 
 If you are a GitLab Runner administrator, you can specify the `command` to configure the registry mirror
+
 for the Docker daemon. The `dind` service must be defined for the
+
 [Docker](https://docs.gitlab.com/runner/configuration/advanced-configuration/#the-runnersdockerservices-section)
+
 or [Kubernetes executor](https://docs.gitlab.com/runner/executors/kubernetes/#define-a-list-of-services).
 
 Docker:
@@ -825,14 +877,18 @@ Kubernetes:
       command = ["--registry-mirror", "https://registry-mirror.example.com"]
 ```
 
-### The Docker executor in the GitLab Runner configuration file
+### The Docker Executor in the GitLab Runner Configuration File
 
 If you are a GitLab Runner administrator, you can use
+
 the mirror for every `dind` service. Update the
+
 [configuration](https://docs.gitlab.com/runner/configuration/advanced-configuration/)
+
 to specify a [volume mount](https://docs.gitlab.com/runner/configuration/advanced-configuration/#volumes-in-the-runnersdocker-section).
 
 For example, if you have a `/opt/docker/daemon.json` file with the following
+
 content:
 
 ```json
@@ -844,8 +900,11 @@ content:
 ```
 
 Update the `config.toml` file to mount the file to
-`/etc/docker/daemon.json`. This mounts the file for **every**
+
+`/etc/docker/daemon.json`. This mounts the file for every
+
 container created by GitLab Runner. The configuration is
+
 detected by the `dind` service.
 
 ```toml
@@ -858,14 +917,18 @@ detected by the `dind` service.
     volumes = ["/opt/docker/daemon.json:/etc/docker/daemon.json:ro"]
 ```
 
-### The Kubernetes executor in the GitLab Runner configuration file
+### The Kubernetes Executor in the GitLab Runner Configuration File
 
 If you are a GitLab Runner administrator, you can use
+
 the mirror for every `dind` service. Update the
+
 [configuration](https://docs.gitlab.com/runner/configuration/advanced-configuration/)
+
 to specify a [ConfigMap volume mount](https://docs.gitlab.com/runner/executors/kubernetes/#configmap-volume).
 
 For example, if you have a `/tmp/daemon.json` file with the following
+
 content:
 
 ```json
@@ -877,6 +940,7 @@ content:
 ```
 
 Create a [ConfigMap](https://kubernetes.io/docs/concepts/configuration/configmap/) with the content
+
 of this file. You can do this with a command like:
 
 ```shell
@@ -887,8 +951,11 @@ kubectl create configmap docker-daemon --namespace gitlab-runner --from-file /tm
 > You must use the namespace that the Kubernetes executor for GitLab Runner uses to create job pods.
 
 After the ConfigMap is created, you can update the `config.toml`
+
 file to mount the file to `/etc/docker/daemon.json`. This update
-mounts the file for **every** container created by GitLab Runner.
+
+mounts the file for every container created by GitLab Runner.
+
 The `dind` service detects this configuration.
 
 ```toml
@@ -904,27 +971,29 @@ The `dind` service detects this configuration.
       sub_path = "daemon.json"
 ```
 
-## Authenticate with registry in Docker-in-Docker
+## Authenticate with Registry in Docker-in-Docker
 
 When you use Docker-in-Docker, the [standard authentication methods](using_docker_images.md#access-an-image-from-a-private-container-registry) do not work, because a fresh Docker daemon is started with the service. You should [authenticate with registry](authenticate_registry.md).
 
-## Docker layer caching
+## Docker Layer Caching
 
 You can cache Docker layers to speed up your builds.
+
 For more information, see [Cache Docker layers in Docker-in-Docker builds](docker_layer_caching.md).
 
-## Use the OverlayFS driver
+## Use the OverlayFS Driver
 
 > [!note]
 > The instance runners on GitLab.com use the `overlay2` driver by default.
 
 By default, when using `docker:dind`, Docker uses the `vfs` storage driver, which
+
 copies the file system on every run. You can avoid this disk-intensive operation by using a different driver, for example `overlay2`.
 
 ### Requirements
 
 1. Ensure a recent kernel is used, preferably `>= 4.2`.
-1. Check whether the `overlay` module is loaded:
+2. Check whether the `overlay` module is loaded:
 
    ```shell
    sudo lsmod | grep overlay
@@ -937,15 +1006,17 @@ copies the file system on every run. You can avoid this disk-intensive operation
    ```
 
    If the module loaded, you must make sure the module loads on reboot.
+
    On Ubuntu systems, do this by adding the following line to `/etc/modules`:
 
    ```plaintext
    overlay
    ```
 
-### Use the OverlayFS driver per project
+### Use the OverlayFS Driver per Project
 
 You can enable the driver for each project individually by using the `DOCKER_DRIVER`
+
 [CI/CD variable](../yaml/_index.md#variables) in `.gitlab-ci.yml`:
 
 ```yaml
@@ -953,11 +1024,14 @@ variables:
   DOCKER_DRIVER: overlay2
 ```
 
-### Use the OverlayFS driver for every project
+### Use the OverlayFS Driver for Every Project
 
 If you use your own [runners](https://docs.gitlab.com/runner/), you
+
 can enable the driver for every project by setting the `DOCKER_DRIVER`
+
 environment variable in the
+
 [`[[runners]]` section of the `config.toml` file](https://docs.gitlab.com/runner/configuration/advanced-configuration/#the-runners-section):
 
 ```toml
@@ -967,18 +1041,20 @@ environment = ["DOCKER_DRIVER=overlay2"]
 If you're running multiple runners, you must modify all configuration files.
 
 Read more about the [runner configuration](https://docs.gitlab.com/runner/configuration/)
+
 and [using the OverlayFS storage driver](https://docs.docker.com/storage/storagedriver/overlayfs-driver/).
 
-## Docker alternatives
+## Docker Alternatives
 
 You can build container images without enabling privileged mode on your runner:
 
 - [BuildKit](using_buildkit.md): Includes rootless BuildKit options that eliminate Docker daemon dependency.
 - [Buildah](#buildah-example): Build OCI-compliant images without requiring a Docker daemon.
 
-### Buildah example
+### Buildah Example
 
 To use Buildah with GitLab CI/CD, you need [a runner](https://docs.gitlab.com/runner/) with one
+
 of the following executors:
 
 - [Kubernetes](https://docs.gitlab.com/runner/executors/kubernetes/).
@@ -988,10 +1064,12 @@ of the following executors:
 In this example, you use Buildah to:
 
 1. Build a Docker image.
-1. Push it to [GitLab container registry](../../user/packages/container_registry/_index.md).
+2. Push it to [GitLab container registry](../../user/packages/container_registry/_index.md).
 
 In the last step, Buildah uses the `Dockerfile` under the
+
 root directory of the project to build the Docker image. Finally, it pushes the image to the
+
 project's container registry:
 
 ```yaml
@@ -1020,11 +1098,13 @@ build:
 ```
 
 If you are using GitLab Runner Operator deployed to an OpenShift cluster, try the
+
 [tutorial for using Buildah to build images in rootless container](buildah_rootless_tutorial.md).
 
-## Use the GitLab container registry
+## Use the GitLab Container Registry
 
 After you've built a Docker image, you can push it to the
+
 [GitLab container registry](../../user/packages/container_registry/build_and_push_images.md#use-gitlab-cicd).
 
 ## Troubleshooting

@@ -1,10 +1,12 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:41+00:00
+description: Use dotenv reports to pass environment variables between jobs in pipelines.
 group: Pipeline Authoring
 info: To determine the technical writer assigned to the Stage/Group associated with this page,
   see https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments
-title: Pass dotenv variables to specific jobs
-description: Use dotenv reports to pass environment variables between jobs in pipelines.
+modified: 2026-05-26T11:44:09+00:00
+stage: Verify
+title: dotenv_variables
 ---
 
 {{< details >}}
@@ -15,8 +17,11 @@ description: Use dotenv reports to pass environment variables between jobs in pi
 {{< /details >}}
 
 To pass environment variables to other jobs, use a dotenv file.
+
 A dotenv file is a file with the `.env` extension
+
 that stores a list of environment variable keys and values.
+
 For example, in a `sample.env` file:
 
 ```plaintext
@@ -25,6 +30,7 @@ BUILD_VERSION=v1.0.0
 ```
 
 Save the dotenv file as a [dotenv report artifact](../yaml/artifacts_reports.md#artifactsreportsdotenv),
+
 which can be passed to other jobs in the same pipeline, downstream pipelines, or to set dynamic environment URLs.
 
 You can use dotenv variables in the following ways:
@@ -35,23 +41,28 @@ You can use dotenv variables in the following ways:
 - Share variables across multi-project pipelines.
 
 Dotenv variables can only be used in job scripts, not to configure pipelines.
+
 They take [precedence](_index.md#cicd-variable-precedence) over job variables
+
 and default variables defined in `.gitlab-ci.yml`,
+
 but not over project, group, instance, or pipeline variables.
 
 If the same variable name appears multiple times in a `dotenv` report, the last value is used.
 
-## Pass variables to later jobs
+## Pass Variables to Later Jobs
 
 By default, dotenv variables are available to all jobs in later stages.
+
 To pass variables between jobs:
 
 1. In a job, create a file (for example, `build.env`) with variables in the format `VARIABLE_NAME=value`,
    one variable per line.
-1. Output the file as a `dotenv` report artifact.
-1. In later jobs, use the variables in your scripts.
+2. Output the file as a `dotenv` report artifact.
+3. In later jobs, use the variables in your scripts.
 
 For example, `build-job` creates `build.env` with `BUILD_VERSION=v1.0.0`,
+
 and `test-job` automatically receives it as an environment variable:
 
 ```yaml
@@ -74,12 +85,13 @@ test-job:
 > Pipeline users can access dotenv file contents. To restrict access, use
 > [`artifacts:access`](../yaml/_index.md#artifactsaccess).
 
-## Control which jobs receive dotenv variables
+## Control Which Jobs Receive Dotenv Variables
 
 To control which jobs receive dotenv variables, use the
+
 [`dependencies`](../yaml/_index.md#dependencies) or [`needs`](../yaml/_index.md#needs) keywords.
 
-### Inherit from specific jobs
+### Inherit from Specific Jobs
 
 Use `dependencies` to limit inheritance to specific jobs only:
 
@@ -106,9 +118,10 @@ test-job:
     # build-job2 is not listed, so its artifacts are not inherited
 ```
 
-### Exclude dotenv variables
+### Exclude Dotenv Variables
 
 To prevent a job from receiving dotenv variables from a named job, use `needs` with `artifacts: false`.
+
 This blocks all artifact downloads from that job, not just dotenv variables:
 
 ```yaml
@@ -133,16 +146,19 @@ test-job:
   dependencies: []
 ```
 
-## Pass variables to downstream pipelines
+## Pass Variables to downstream Pipelines
 
 You can pass dotenv variables to a downstream pipeline with dotenv variable inheritance.
+
 In a [multi-project pipeline](../pipelines/downstream_pipelines.md#multi-project-pipelines),
+
 create the dotenv artifact in an upstream job and use `needs` in the downstream job to
+
 inherit it:
 
 1. Save the variables in a `.env` file.
-1. Save the `.env` file as a `dotenv` report artifact.
-1. Trigger the downstream pipeline.
+2. Save the `.env` file as a `dotenv` report artifact.
+3. Trigger the downstream pipeline.
 
 ```yaml
 build_vars:
@@ -159,6 +175,7 @@ deploy:
 ```
 
 In the downstream pipeline, set the job to inherit the artifacts from the upstream job
+
 with `needs`. The job receives the dotenv variables and can then access `BUILD_VERSION` in the script:
 
 ```yaml
@@ -173,18 +190,22 @@ test:
       artifacts: true
 ```
 
-## Set a dynamic environment URL
+## Set a Dynamic Environment URL
 
 You can use dotenv variables to set a dynamic environment URL after a deployment job finishes.
+
 This is useful when an external hosting platform generates a URL dynamically for each deployment.
 
 For more information, see [set a dynamic environment URL](../environments/_index.md#set-a-dynamic-environment-url).
 
-## Store complex values
+## Store Complex Values
 
 Dotenv files have specific format limitations, such as restrictions on multiline values
+
 and special characters that require escaping. If your value contains JSON, spans multiple
+
 lines, or includes characters that need escaping, avoid dotenv variables. Use a separate file artifact instead.
+
 For the full list of value constraints, see [format requirements](#format-requirements).
 
 Instead of:
@@ -206,16 +227,19 @@ build-job:
       - config.json
 ```
 
-## Dotenv file requirements
+## Dotenv File Requirements
 
 Dotenv files must meet the following format, size, and variable requirements.
 
 GitLab uses the [dotenv gem](https://github.com/bkeepers/dotenv) to handle dotenv files,
+
 but applies additional restrictions beyond the
+
 [original dotenv rules](https://github.com/motdotla/dotenv?tab=readme-ov-file#what-rules-does-the-parsing-engine-follow)
+
 and the gem's implementation.
 
-### Format requirements
+### Format Requirements
 
 - Only [UTF-8 encoding](../jobs/job_artifacts_troubleshooting.md#error-message-fatal-invalid-argument-when-uploading-a-dotenv-artifact-on-a-windows-runner) is supported.
 - The file cannot contain empty lines or comments (lines starting with `#`).
@@ -225,7 +249,7 @@ and the gem's implementation.
 - Multiline values are not supported. GitLab rejects the file on upload.
 - Leading and trailing spaces or newline characters (`\n`) are stripped.
 
-### Size and variable limits
+### Size and Variable Limits
 
 | Limit                                                      | Value |
 | ---------------------------------------------------------- | ----- |

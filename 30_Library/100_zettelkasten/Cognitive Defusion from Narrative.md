@@ -2,7 +2,7 @@
 created: 2026-04-14T13:22:01+00:00
 created_utc: "2026-04-14T11:35:00Z"
 kind: heuristic
-modified: 2026-04-19T18:30:43+00:00
+modified: 2026-05-26T11:44:36+00:00
 source_title: "Thinking about knowledge"
 source_url: "https://gemini.google.com/app/d3312dd6e13881e3"
 status: seed

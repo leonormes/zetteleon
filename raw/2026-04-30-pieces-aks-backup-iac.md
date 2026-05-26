@@ -1,24 +1,25 @@
 ---
-title: Azure AKS Backup IaC Planning Session
 created: 2026-04-30T09:08:23+00:00
+modified: 2026-05-26T11:43:52+00:00
+pieces_ids: ["123850ad-4515-4888-b8ab-ddf00a4456f1", "34008ead-155e-472e-b577-24d57d65eb10", "3ef456b5-2c2d-414a-81c3-68a64e3ec35f", "6c1b8344-a3fd-43ad-90c1-a7ac82b90978", "805d73d9-9823-48af-bd54-6340552e6e5f", "8f48b1a9-dbc3-43f0-a5b8-843c0f826103", "96c66bf2-364f-4fb3-9557-8da7b11a04d4", "976055bb-7d10-4d50-b407-a1ce5cd577fb", "ab351aa5-f88d-4c9d-9c57-a1c70ea5cb59", "ccd76984-9e75-4a9b-bbfa-155ef3103f10", "fc56451e-a1dc-4060-92fe-5175bd761ba9", "fdaeb966-5d4a-4611-b77f-364470104e04"]
 source: pieces-ltm
-pieces_ids: ["34008ead-155e-472e-b577-24d57d65eb10", "8f48b1a9-dbc3-43f0-a5b8-843c0f826103", "976055bb-7d10-4d50-b407-a1ce5cd577fb", "96c66bf2-364f-4fb3-9557-8da7b11a04d4", "6c1b8344-a3fd-43ad-90c1-a7ac82b90978", "fdaeb966-5d4a-4611-b77f-364470104e04", "3ef456b5-2c2d-414a-81c3-68a64e3ec35f", "805d73d9-9823-48af-bd54-6340552e6e5f", "fc56451e-a1dc-4060-92fe-5175bd761ba9", "ab351aa5-f88d-4c9d-9c57-a1c70ea5cb59", "ccd76984-9e75-4a9b-bbfa-155ef3103f10", "123850ad-4515-4888-b8ab-ddf00a4456f1"]
-tags: [raw, pieces]
+tags: [pieces, raw]
+title: 2026-04-30-pieces-aks-backup-iac
 ---
 
-# Azure AKS Backup IaC Planning Session
+## Azure AKS Backup IaC Planning Session
 
 Captured from Pieces LTM on 2026-04-30. Session focused on documenting the private Azure Backup for AKS implementation and planning Terraform IaC work.
 
 ---
 
-## Asset 1: Technical Summary Document
+### Asset 1: Technical Summary Document
 
-**Pieces ID:** 34008ead-155e-472e-b577-24d57d65eb10
+Pieces ID: 34008ead-155e-472e-b577-24d57d65eb10
 
-Azure AKS Private Endpoint Backup – Components Created / Rationale / Next IaC Actions
+Azure AKS Private Endpoint Backup–Components Created / Rationale / Next IaC Actions
 
-1) Components Created
+1. Components Created
 - Hardened backup storage target
   - Storage account: stffuksgp1backup
   - Container: aks-backups
@@ -50,16 +51,16 @@ Azure AKS Private Endpoint Backup – Components Created / Rationale / Next IaC 
   - Backup instance for aks-ff-uks-gp-1 with included namespaces: barts, ff-a, ff-b, ff-c, spicedb, thehyve, thehyve-cuh, thehyve-mkuh
   - Snapshot volumes enabled
   - Final state: ProtectionConfigured
-  - Rationale: concrete, namespace- and resource-scoped protection ensuring targeted DR coverage
+  - Rationale: concrete, namespaceand resource-scoped protection ensuring targeted DR coverage
 
-2) Rationale (why these components were created)
+1. Rationale (why these components were created)
 - End-to-end private backup path: The combination of private storage, private endpoint, and private DNS eliminates any reliance on public endpoints for backup data movement.
 - Strong isolation and compliance: Private networking, TLS 1.2, and Deny-all public access posture reduce exposure and align with a regulated MedTech/Gov-like environment.
 - Operational resilience and governance: Separate Snapshot RG keeps PV snapshot lifecycle isolated from vault/config state; vault + policy provide a centralized control plane for backups.
 - Clear, auditable RBAC model: Explicit MSI and role bindings ensure the vault, AKS cluster, and extension have only the permissions they need to perform backups (no over-privilege).
 - Reproducibility for IaC: The end-state provides a concrete blueprint for Terraform/IAAC modules (FTFL-596, FTFL-615) and runbooks (FTFL-599) to codify the same provisioning and validation steps.
 
-3) Next IaC Actions (mapped to ongoing IaC work)
+1. Next IaC Actions (mapped to ongoing IaC work)
 - IaC coverage for Phase 1–3 resources
   - Implement Terraform modules to reproduce:
     - Hardened storage account (stffuksgp1backup) with private endpoint and DNS plumbing
@@ -93,13 +94,14 @@ Azure AKS Private Endpoint Backup – Components Created / Rationale / Next IaC 
   - Validate all RBAC/trusted-access prerequisites in a controlled environment before promoting to prod-like subscriptions
 
 Notes
+
 - References to work items: FTFL-615 (private endpoint subnet), FTFL-596 (Azure backups module), FTFL-599 (restore runbook)
 
 ---
 
-## Asset 2-12: Session Planning Notes
+### Asset 2-12: Session Planning Notes
 
-**Pieces IDs:** 8f48b1a9-dbc3-43f0-a5b8-843c0f826103, 976055bb-7d10-4d50-b407-a1ce5cd577fb, 96c66bf2-364f-4fb3-9557-8da7b11a04d4, 6c1b8344-a3fd-43ad-90c1-a7ac82b90978, fdaeb966-5d4a-4611-b77f-364470104e04, 3ef456b5-2c2d-414a-81c3-68a64e3ec35f, 805d73d9-9823-48af-bd54-6340552e6e5f, fc56451e-a1dc-4060-92fe-5175bd761ba9, ab351aa5-f88d-4c9d-9c57-a1c70ea5cb59, ccd76984-9e75-4a9b-bbfa-155ef3103f10, 123850ad-4515-4888-b8ab-ddf00a4456f1
+Pieces IDs: 8f48b1a9-dbc3-43f0-a5b8-843c0f826103, 976055bb-7d10-4d50-b407-a1ce5cd577fb, 96c66bf2-364f-4fb3-9557-8da7b11a04d4, 6c1b8344-a3fd-43ad-90c1-a7ac82b90978, fdaeb966-5d4a-4611-b77f-364470104e04, 3ef456b5-2c2d-414a-81c3-68a64e3ec35f, 805d73d9-9823-48af-bd54-6340552e6e5f, fc56451e-a1dc-4060-92fe-5175bd761ba9, ab351aa5-f88d-4c9d-9c57-a1c70ea5cb59, ccd76984-9e75-4a9b-bbfa-155ef3103f10, 123850ad-4515-4888-b8ab-ddf00a4456f1
 
 Session notes documenting the process of crafting a Jira-ready comment summarizing the Azure AKS Backup implementation. Key points:
 

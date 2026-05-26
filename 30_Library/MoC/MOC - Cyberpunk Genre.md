@@ -2,7 +2,7 @@
 aliases: [Cyberpunk Index, MOC - Cyberpunk]
 created: 2025-12-30T00:00:00Z
 last_reviewed: 2025-12-30
-modified: 2026-04-19T18:30:29+00:00
+modified: 2026-05-26T11:44:22+00:00
 see_also: []
 status: active
 superseded_by: ""

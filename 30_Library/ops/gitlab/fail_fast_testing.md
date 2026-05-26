@@ -1,9 +1,11 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:41+00:00
+description: Run only the RSpec specs relevant to your merge request changes to get pipeline feedback faster.
 group: Pipeline Execution
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-description: Run only the RSpec specs relevant to your merge request changes to get pipeline feedback faster.
-title: Fail fast testing
+modified: 2026-05-26T11:44:08+00:00
+stage: Verify
+title: fail_fast_testing
 ---
 
 {{< details >}}
@@ -14,21 +16,29 @@ title: Fail fast testing
 {{< /details >}}
 
 Fail fast testing runs the test specs most relevant to your merge request changes
+
 before the rest of the suite runs. If those specs fail,
+
 the pipeline stops immediately to save time and compute resources.
 
 For Ruby on Rails projects that use RSpec, the
+
 [`Verify/FailFast` CI/CD template](https://gitlab.com/gitlab-org/gitlab/-/tree/master/lib/gitlab/ci/templates/Verify/FailFast.gitlab-ci.yml)
+
 selects and runs only the relevant specs. It uses the
+
 [`test_file_finder` (`tff`) gem](https://gitlab.com/gitlab-org/ruby/gems/test_file_finder),
+
 which maps changed files to their related spec files.
 
 By default, the template runs in the [`.pre` stage](../yaml/_index.md#stage-pre),
+
 before all other pipeline stages.
 
-## Configure fail fast testing
+## Configure Fail Fast Testing
 
 Configure fail fast testing to get faster feedback on merge request changes
+
 before your full test suite runs.
 
 Prerequisites:
@@ -52,14 +62,14 @@ To configure fail fast testing:
        - bundle exec rspec
    ```
 
-1. Include the `Verify/FailFast` template in your CI/CD configuration:
+2. Include the `Verify/FailFast` template in your CI/CD configuration:
 
    ```yaml
    include:
      - template: Verify/FailFast.gitlab-ci.yml
    ```
 
-1. Optional. To use a different Docker image, set the image on the
+3. Optional. To use a different Docker image, set the image on the
    `rspec-rails-modified-path-specs` job in your CI/CD configuration file:
 
    ```yaml
@@ -70,7 +80,7 @@ To configure fail fast testing:
      image: custom-docker-image-with-ruby
    ```
 
-## Fail fast test results
+## Fail Fast Test Results
 
 The following examples assume a suite of 100 specs per model across 10 models (1000 specs total).
 

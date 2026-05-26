@@ -4,7 +4,7 @@ created: 2025-11-12T15:15:00Z
 criteria: "Atomic notes must relate to the psychological drivers of the ADHD procrastination cycle or feedback-based strategies to counteract it."
 exclusions: "General productivity advice not tailored to ADHD neurobiology."
 last_reviewed: "2026-04-08"
-modified: 2026-04-19T18:30:29+00:00
+modified: 2026-05-26T11:44:23+00:00
 scope: "A framework for understanding and breaking the overthinking-procrastination cycle in ADHD using feedback-driven momentum."
 status: "growing"
 tags: ["executive-function", "procrastination", "TheHuman/Health/ADHD", "TheHuman/Psychology", "topic/productivity"]

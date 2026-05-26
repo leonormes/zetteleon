@@ -1,8 +1,10 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:40+00:00
 group: Pipeline Execution
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-title: CI/CD job logs
+modified: 2026-05-26T11:44:04+00:00
+stage: Verify
+title: job_logs
 ---
 
 {{< details >}}
@@ -14,18 +16,18 @@ title: CI/CD job logs
 
 A job log displays the full execution history of a [CI/CD job](_index.md).
 
-## View job logs
+## View Job Logs
 
 To view job logs:
 
 1. Select the project for which you want to view job logs.
-1. In the left sidebar, select **CI/CD** > **Pipelines**.
-1. Select the pipeline you want to inspect.
-1. In the pipeline view, in the list of jobs, select a job to view the job logs page.
+2. In the left sidebar, select CI/CD > Pipelines.
+3. Select the pipeline you want to inspect.
+4. In the pipeline view, in the list of jobs, select a job to view the job logs page.
 
 To view detailed information about the job and its log output, scroll through the job logs page.
 
-## View job logs in full screen mode
+## View Job Logs in Full Screen Mode
 
 {{< history >}}
 
@@ -33,11 +35,11 @@ To view detailed information about the job and its log output, scroll through th
 
 {{< /history >}}
 
-You can view the contents of a job log in full screen mode by clicking **Show full screen**.
+You can view the contents of a job log in full screen mode by clicking Show full screen.
 
 To use full screen mode, your web browser must also support it. If your web browser does not support full screen mode, then the option is not available.
 
-## Expand and collapse job log sections
+## Expand and Collapse Job Log Sections
 
 {{< history >}}
 
@@ -49,22 +51,28 @@ To use full screen mode, your web browser must also support it. If your web brow
 > The availability of this feature is controlled by a feature flag. For more information, see the history.
 
 When `FF_SCRIPT_SECTIONS` is enabled, multi-line script commands appear as collapsible sections
+
 in job logs. Single-line commands are printed directly with a `$` prefix. Durations are not
+
 displayed.
 
 In `powershell` and `pwsh` shells, `FF_SCRIPT_SECTIONS` does not create collapsible sections.
+
 Commands are printed with color output only.
 
-### Create custom collapsible sections
+### Create Custom Collapsible Sections
 
 You can create collapsible sections in job logs
+
 by manually outputting special codes
+
 that GitLab uses to delimit collapsible sections:
 
 - Section start marker: `\e[0Ksection_start:UNIX_TIMESTAMP:SECTION_NAME\r\e[0K` + `TEXT_OF_SECTION_HEADER`
 - Section end marker: `\e[0Ksection_end:UNIX_TIMESTAMP:SECTION_NAME\r\e[0K`
 
 You must add these codes to the script section of the CI configuration.
+
 For example, using `echo`:
 
 ```yaml
@@ -76,7 +84,9 @@ job1:
 ```
 
 The escape syntax may differ depending on the shell that your runner uses.
+
 For example if it is using Zsh, you may need to escape the special characters
+
 with `\\e` or `\\r`.
 
 In the example above:
@@ -86,7 +96,7 @@ In the example above:
   of letters, numbers, and the `_`, `.`, or `-` characters.
 - `\r\e[0K`: Escape sequence that prevents the section markers from displaying in the
   rendered (colored) job log. They are displayed when viewing the raw job log, accessed
-  in the upper-right corner of the job log by selecting **Show complete raw** ({{< icon name="doc-text" >}}).
+  in the upper-right corner of the job log by selecting Show complete raw ({{< icon name="doc-text" >}}).
   - `\r`: carriage return (returns the cursor to the start of the line).
   - `\e[0K`: ANSI escape code to clear the line from the cursor position to the end of the line.
     (`\e[K` alone does not work; the `0` must be included).
@@ -103,9 +113,10 @@ Sample job console log:
 
 ![A job log showing a collapsed section with hidden content](img/collapsible_job_v16_10.png)
 
-#### Improve section display with a script
+#### Improve Section Display with a Script
 
 To remove the `echo` statements that create the section markers from the job output,
+
 you can move the job contents to a script file and invoke it from the job:
 
 1. Create a script that can handle the section headers. For example:
@@ -136,7 +147,7 @@ you can move the job contents to a script file and invoke it from the job:
    # Repeat as required
    ```
 
-1. Add the script to the `.gitlab-ci.yml` file:
+2. Add the script to the `.gitlab-ci.yml` file:
 
    ```yaml
    job:
@@ -144,15 +155,17 @@ you can move the job contents to a script file and invoke it from the job:
        - source script.sh
    ```
 
-### Collapse sections by default
+### Collapse Sections by Default
 
 To collapse sections by default, add `[collapsed=true]`
+
 to the section start marker, after the section name, and before the `\r`:
 
 - Section start marker with `[collapsed=true]`: `\e[0Ksection_start:UNIX_TIMESTAMP:SECTION_NAME[collapsed=true]\r\e[0K` + `TEXT_OF_SECTION_HEADER`
 - Section end marker (unchanged): `\e[0Ksection_end:UNIX_TIMESTAMP:SECTION_NAME\r\e[0K`
 
 Add the updated section start text to the CI configuration. For example,
+
 using `echo`:
 
 ```yaml
@@ -163,7 +176,7 @@ job1:
     - echo -e "\e[0Ksection_end:`date +%s`:my_first_section\r\e[0K"
 ```
 
-## Delete job logs
+## Delete Job Logs
 
 When you delete a job log you also [erase the entire job](../../api/jobs.md#erase-a-job).
 
@@ -187,6 +200,7 @@ For more details, see [Delete job logs](../../user/storage_management_automation
 {{< /history >}}
 
 By default, job logs include timestamps in the [ISO 8601 format](https://www.iso.org/iso-8601-date-and-time-format.html)
+
 for each line. Use timestamps to troubleshoot performance issues, identify bottlenecks, and measure how long specific build steps take.
 
 When timestamps are enabled, the job log uses approximately 10% more storage space.
@@ -195,7 +209,7 @@ The following shows an example of a job log with timestamps:
 
 ![A job log with timestamps in UTC for each line](img/ci_log_timestamp_v17_6.png)
 
-### Control timestamps in job logs
+### Control Timestamps in Job Logs
 
 Prerequisites:
 
@@ -221,16 +235,20 @@ For more information, see [define a CI/CD variable in the `.gitlab-ci.yml` file]
 
 ## Troubleshooting
 
-### Job log slow to update
+### Job Log Slow to Update
 
 When you visit the job log page for a running job, there could be a delay of up to
+
 60 seconds before a log update. The default refresh time is 60 seconds, but after
+
 the log is viewed in the UI one time, log updates should occur every 3 seconds.
 
-### Error: `This job does not have a trace` in GitLab 18.0 or later
+### Error: `This job does not have a trace` in GitLab 18.0 or Later
 
 After upgrading a GitLab Self-Managed instance to 18.0 or later, you might see
+
 `This job does not have a trace` errors. This could be caused by a failed upgrade migration
+
 on an instance with both:
 
 - Object storage enabled
@@ -239,4 +257,5 @@ on an instance with both:
   but could also be enabled manually.
 
 To restore the ability to view job logs on affected jobs,
+
 [re-enable incremental logging](../../administration/settings/continuous_integration.md#configure-incremental-logging)

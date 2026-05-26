@@ -2,7 +2,7 @@
 books_analysed: 13
 created: 2026-05-22T14:30:00+01:00
 graphify_query: "prime numbers"
-modified: 2026-05-22T13:47:59+00:00
+modified: 2026-05-26T11:43:57+00:00
 source: library-indexer v1.0.0
 tags: [calibre, cryptography, number-theory, prime-numbers, reading-list, research]
 title: research-prime-numbers

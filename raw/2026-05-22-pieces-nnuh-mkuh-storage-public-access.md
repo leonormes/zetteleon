@@ -1,16 +1,17 @@
 ---
-title: NNUH and MKUH Storage Accounts — Public Network Access Verification
 created: 2026-05-23T00:23:00+00:00
-source: pieces-ltm
+modified: 2026-05-26T11:43:32+00:00
 pieces_ids: ["5e900cc2-d3af-43d1-ab6b-4a0fd9cdd305"]
-tags: [raw, pieces]
+source: pieces-ltm
+tags: [pieces, raw]
+title: 2026-05-22-pieces-nnuh-mkuh-storage-public-access
 ---
 
-# NNUH and MKUH Storage Accounts — Public Network Access Verification
+## NNUH and MKUH Storage Accounts—Public Network Access Verification
 
 User raised a question about whether the NNUH and MKUH Azure storage accounts are accessible from the public network despite being configured with private endpoints.
 
-## Asset 1 (Pieces: 5e900cc2-d3af-43d1-ab6b-4a0fd9cdd305) — 2026-05-22 12:57 UTC
+### Asset 1 (Pieces: 5e900cc2-d3af-43d1-ab6b-4a0fd9cdd305)—2026-05-22 12:57 UTC
 
 User question:
 

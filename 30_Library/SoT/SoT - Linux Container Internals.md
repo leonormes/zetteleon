@@ -1,7 +1,7 @@
 ---
 created: 2025-12-24T12:00:00Z
 last_reviewed: "2025-12-30"
-modified: 2026-04-19T18:30:32+00:00
+modified: 2026-05-26T11:44:19+00:00
 status: "stable"
 tags: []
 title: SoT - Linux Container Internals

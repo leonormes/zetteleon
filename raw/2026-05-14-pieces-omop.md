@@ -1,16 +1,17 @@
 ---
-title: Pieces LTM — Omop Session
-created: 2026-05-14T02:54:59.353333+00:00
-source: pieces-ltm
+created: Invalid date
+modified: 2026-05-26T11:43:42+00:00
 pieces_ids: ["71081210-81a6-40be-bc57-b2bd88cbbd2f"]
-tags: [raw, pieces]
+source: pieces-ltm
+tags: [pieces, raw]
+title: 2026-05-14-pieces-omop
 ---
 
-# Omop Session — 2026-05-14
+## Omop Session—2026-05-14
 
-## Asset 1 (Pieces: 71081210-81a6-40be-bc57-b2bd88cbbd2f)
+### Asset 1 (Pieces: 71081210-81a6-40be-bc57-b2bd88cbbd2f)
 
-**Captured:** 2026-05-13T13:59:38.752351Z
+Captured: 2026-05-13T13:59:38.752351Z
 
 ```
 The evaluator is telling me I need to paginate all 4 search_memory calls that returned `fetchMore`. Let me identify the cursors from each result:
@@ -31,4 +32,3 @@ Now I'm pulling in additional attendees from the N  # Truncate for safety
 ```
 
 ---
-

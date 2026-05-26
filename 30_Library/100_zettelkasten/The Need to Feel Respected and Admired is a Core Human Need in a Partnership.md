@@ -2,7 +2,7 @@
 aliases: ["Need for Respect in a Relationship"]
 created: 2025-11-10T10:07:00Z
 last_reviewed: ""
-modified: 2026-04-25T20:31:38+00:00
+modified: 2026-05-26T11:44:32+00:00
 status: "seedling"
 tags: ["admiration", "competence", "needs", "relationship", "respect"]
 title: The Need to Feel Respected and Admired is a Core Human Need in a Partnership

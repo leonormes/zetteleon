@@ -1,7 +1,7 @@
 ---
 aliases: [AFM Formal Context, FCA Matrix, Topic Concept Lattice]
 created: 2026-04-19T10:00:00+01:00
-modified: 2026-04-19T18:30:30+00:00
+modified: 2026-05-26T11:44:19+00:00
 see_also: ["[[MOC - Applied Formal Methods]]", "[[Protocol - AFM Vault Constitutional Triage]]", "[[SoT - Order Theory & Lattices]]", "[[SoT - Structure is Truth is a Unifying Axiom Across Formal Systems]]"]
 tags: [fca/attr/m10, fca/attr/m4, fca/level/c4, prodos/sot, topic/formal-methods, topic/mathematics, topic/pkm]
 title: SoT - Formal Context (Applied Formal Methods)

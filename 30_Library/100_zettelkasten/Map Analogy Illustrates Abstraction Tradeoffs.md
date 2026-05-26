@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-31T11:23:00Z
 last_reviewed: ""
-modified: 2026-04-19T18:30:41+00:00
+modified: 2026-05-26T11:44:34+00:00
 status: "stable"
 tags: ["TheHuman/Cognition", "visualization"]
 title: Map Analogy Illustrates Abstraction Tradeoffs

@@ -1,8 +1,10 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:41+00:00
 group: Runner Core
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-title: Provision runners in Google Cloud Compute Engine
+modified: 2026-05-26T11:44:01+00:00
+stage: Verify
+title: provision_runners_google_cloud
 ---
 
 {{< details >}}
@@ -20,14 +22,19 @@ title: Provision runners in Google Cloud Compute Engine
 {{< /history >}}
 
 You can create a project or group runner for GitLab.com and provision it on your Google Cloud project.
+
 When you create a runner, the GitLab UI provides on-screen instructions and scripts to automatically provision the runner
+
 in your Google Cloud project.
 
 A runner authentication token is assigned to your runner when you create it. A [GRIT](https://gitlab.com/gitlab-org/ci-cd/runner-tools/grit) Terraform script uses this token to
+
 register the runner. The runner then uses the token to authenticate with GitLab when it picks up jobs
+
 from the job queue.
 
 After provisioning, an autoscaling fleet of runners is ready to run CI/CD jobs in Google Cloud.
+
 The runner manager creates temporary runners automatically.
 
 Prerequisites:
@@ -44,26 +51,25 @@ Prerequisites:
 
 To create a group or project runner and provision it on Google Cloud:
 
-1. In the top bar, select **Search or go to** and find your group.
-1. Create a new runner.
-   - To create a new group runner, select **Build** > **Runners** > **New group runner**.
-   - To create a new project runner, select **Settings** > **CI/CD** > **Runners** > **New project runner**.
-1. In the **Tags** section, in the **Tags** field, enter the job tags to specify jobs the runner can run.
-   To use the runner for jobs without tags in addition to the tagged jobs, select **Run untagged**.
-1. Optional. In the **Configuration** section, add runner description and additional configurations.
-1. Select **Create runner**.
-1. In the **Platform** section, select **Google Cloud**.
-1. In **Environment**, enter the following details of the Google Cloud environment:
+1. In the top bar, select Search or go to and find your group.
+2. Create a new runner.
+   - To create a new group runner, select Build > Runners > New group runner.
+   - To create a new project runner, select Settings > CI/CD > Runners > New project runner.
+3. In the Tags section, in the Tags field, enter the job tags to specify jobs the runner can run.
+   To use the runner for jobs without tags in addition to the tagged jobs, select Run untagged.
+4. Optional. In the Configuration section, add runner description and additional configurations.
+5. Select Create runner.
+6. In the Platform section, select Google Cloud.
+7. In Environment, enter the following details of the Google Cloud environment:
 
-   - **Google Cloud project ID**
-   - **Region**
-   - **Zone**
-   - **Machine type**
+   - Google Cloud project ID
+   - Region
+   - Zone
+   - Machine type
 
-1. In **Set up GitLab Runner**, select **Setup instructions**. In the dialog:
-
-   1. To enable the required services, service account, and permissions, in **Configure Google Cloud project** run the Bash script once for each Google Cloud project.
-   1. Create a `main.tf` file with the configuration from **Install and register GitLab Runner**.
+8. In Set up GitLab Runner, select Setup instructions. In the dialog:
+   1. To enable the required services, service account, and permissions, in Configure Google Cloud project run the Bash script once for each Google Cloud project.
+   2. Create a `main.tf` file with the configuration from Install and register GitLab Runner.
       The script uses the [GitLab Runner Infrastructure Toolkit](https://gitlab.com/gitlab-org/ci-cd/runner-tools/grit/-/blob/main/docs/scenarios/google/linux/docker-autoscaler-default/index.md)
       (GRIT) to provision the infrastructure on the Google Cloud project to execute your runner manager.
 
@@ -74,4 +80,5 @@ To create a group or project runner and provision it on Google Cloud:
       > to adjust parameters like `IdleCount`, `IdleTime`, and instance limits.
 
 After you execute the scripts, a runner manager connects with the runner authentication token. The runner manager might
+
 take up to one minute to show as online and start receiving jobs.

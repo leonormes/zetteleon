@@ -3,7 +3,7 @@ aliases: [AI-Resilient Task Taxonomy, Human 3.0 Roles, Inspiration vs Capital Ec
 created: 2025-12-24T12:00:00Z
 fileClass: SoT
 last_reviewed: 2026-04-04
-modified: 2026-04-19T18:30:35+00:00
+modified: 2026-05-26T11:44:21+00:00
 status: stable
 tags: [career, economics, future_of_work, llm, prodos, strategy]
 title: SoT - AI-Resilient Task Taxonomy (Human 3.0)

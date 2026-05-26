@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-04-19T18:30:41+00:00
+modified: 2026-05-26T11:44:34+00:00
 tags: [dignity, human-rights, objectification, philosophy]
 title: Objectification Treats Persons as Instruments and Is a Core Property of Evil
 ---

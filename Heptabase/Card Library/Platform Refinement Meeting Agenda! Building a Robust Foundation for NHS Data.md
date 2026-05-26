@@ -1,6 +1,6 @@
 ---
 created: 2026-05-04T08:01:26+00:00
-modified: 2026-05-08T12:53:43+00:00
+modified: 2026-05-26T11:43:53+00:00
 tags: [1]
 title: Platform Refinement Meeting Agenda! Building a Robust Foundation for NHS Data
 ---
@@ -107,7 +107,7 @@ Overall Goal: To collectively understand the importance of our platform and infr
    - Sets clear expectations for future meetings and the ongoing nature of this work.
    - Reinforces the value of their contributions and encourages continued engagement.
 
-### Tips for Leading the Meeting Effectively:
+### Tips for Leading the Meeting Effectively
 
 - Keep Language Simple & Relatable: Use clear, straightforward language. Avoid overly technical jargon unless you explain it immediately and simply.
 - Lean on Analogies: As suggested, analogies can make complex technical concepts much more accessible and understandable for a non-specialist audience.

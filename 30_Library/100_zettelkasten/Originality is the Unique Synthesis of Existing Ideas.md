@@ -2,7 +2,7 @@
 aliases: ["Originality as Synthesis"]
 created: 2025-11-06T19:59:00Z
 last_reviewed: "2025-11-06"
-modified: 2026-04-19T18:30:40+00:00
+modified: 2026-05-26T11:44:33+00:00
 status: "stable"
 tags: ["ideas", "originality", "synthesis", "TheHuman/Creativity"]
 title: Originality is the Unique Synthesis of Existing Ideas

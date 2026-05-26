@@ -1,7 +1,7 @@
 ---
 created: 2026-04-14T20:32:21+00:00
 created_utc: "2026-04-14T13:50:00Z"
-modified: 2026-04-19T18:30:36+00:00
+modified: 2026-05-26T11:44:23+00:00
 source_atoms: "[[tmp_atoms_jeremy_howard_interview.md]]"
 status: tmp
 title: _link_report_jeremy_howard_interview

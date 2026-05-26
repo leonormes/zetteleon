@@ -2,7 +2,7 @@
 aliases: ["Bergson's Principle", Action-Oriented Thinking, MVA]
 created: 2025-12-07T00:00:00Z
 last_reviewed: "2026-04-05"
-modified: 2026-04-19T18:30:30+00:00
+modified: 2026-05-26T11:44:16+00:00
 status: stable
 tags: [action, adhd, thinking, topic/productivity]
 tier: 1-Foundation

@@ -1,7 +1,7 @@
 ---
 created: 2026-01-19T18:06:20+00:00
 description: Produce a high-signal commit message from a `git diff`, focusing on intent and invariants.
-modified: 2026-04-19T18:30:45+00:00
+modified: 2026-05-26T11:44:37+00:00
 tags: [tool/git, type/utility]
 title: git commit prompt
 type: prompt

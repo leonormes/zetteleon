@@ -2,7 +2,7 @@
 aliases: ["Dopamine Hyposensitivity", "Striatal Dopamine Deficit"]
 created: 2025-10-29T16:38:00Z
 last_reviewed: "null"
-modified: 2026-04-19T18:30:44+00:00
+modified: 2026-05-26T11:44:37+00:00
 source: "[[MOC - ADHD (The Master Map)]]"
 status: "evergreen"
 tags: ["dopamine", "executive_function", "TheHuman/Health/ADHD", "TheHuman/Neuroscience"]

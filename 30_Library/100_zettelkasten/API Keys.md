@@ -2,7 +2,7 @@
 created: 2026-04-13T14:47:45+00:00
 created_utc: "2026-04-13T11:30:00Z"
 kind: mechanism
-modified: 2026-04-19T18:30:44+00:00
+modified: 2026-05-26T11:44:37+00:00
 source_title: "Every API Authentication Method Explained"
 source_url: "https://youtube.com/watch?v=_lTECv25N2U"
 status: seed

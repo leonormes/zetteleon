@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-26T09:26:38Z
 last_reviewed: ""
-modified: 2026-04-25T08:24:48+00:00
+modified: 2026-05-26T11:44:33+00:00
 status: ""
 tags: ["information", 3]
 title: "Shannon's Information Theory - Information as Uncertainty"

@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-11-12T15:00:02Z
 last_reviewed: "null"
-modified: 2026-04-19T18:30:44+00:00
+modified: 2026-05-26T11:44:37+00:00
 status: seedling
 tags: []
 title: ADHD Overthinking is a Substitute for Action

@@ -2,7 +2,7 @@
 aliases: ["Computing MOC", "CS MOC", "Software Engineering MOC", "Tech Stack MOC"]
 created: 2025-12-13T09:15:00Z
 last_reviewed: "2026-04-05T00:00:00.000Z"
-modified: 2026-04-19T18:30:29+00:00
+modified: 2026-05-26T11:44:23+00:00
 see_also: []
 status: "stable"
 superseded_by: ""

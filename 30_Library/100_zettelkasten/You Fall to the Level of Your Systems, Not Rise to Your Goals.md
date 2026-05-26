@@ -2,7 +2,7 @@
 aliases: ["Process Primacy", "System-Level Determines Outcomes"]
 created: 2025-11-06T19:55:02Z
 last_reviewed: "2025-11-06"
-modified: 2026-04-19T18:30:39+00:00
+modified: 2026-05-26T11:44:31+00:00
 status: "seedling"
 tags: ["goals", "outcomes", "TheHuman/Habits", "topic/systems"]
 title: You Fall to the Level of Your Systems, Not Rise to Your Goals

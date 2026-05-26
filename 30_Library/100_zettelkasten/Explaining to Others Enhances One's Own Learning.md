@@ -2,7 +2,7 @@
 aliases: ["Feynman Technique", "Prot\\u00e9g\\u00e9 Effect"]
 created: 2025-11-10T16:09:00Z
 last_reviewed: ""
-modified: 2026-04-19T18:30:42+00:00
+modified: 2026-05-26T11:44:35+00:00
 status: "stable"
 tags: ["learning", "teaching", "TheHuman/Habits", "understanding"]
 title: "Explaining to Others Enhances One's Own Learning"

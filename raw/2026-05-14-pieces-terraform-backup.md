@@ -1,96 +1,119 @@
 ---
-title: Pieces LTM — Terraform Backup Session
-created: 2026-05-14T02:54:59.353333+00:00
+created: Invalid date
+modified: 2026-05-26T11:43:42+00:00
+pieces_ids: ["0c242825-29c4-4113-b6b3-01012755d790", "18aa90e5-225b-4968-af7a-a08d33aa88c3", "496b4c3b-2f7a-419c-bfc8-c8f39711eb07", "58df8212-81a5-456f-b04b-05ccb05cafcb", "5e8edf0f-dfb5-4ca2-ac07-92e8ce1fbd75", "8d36147c-97ce-4c05-acc6-30371c5994db", "bafa1ee9-2c9d-4c1d-9723-11252d0d06f7", "ca3abf4d-ae95-4217-93e7-df088203d727", "e8bd6cf8-158f-4078-881a-4278b9e3d4e2", "f274c12d-9883-4e8e-ab30-f27a53b705ab"]
 source: pieces-ltm
-pieces_ids: ["8d36147c-97ce-4c05-acc6-30371c5994db", "58df8212-81a5-456f-b04b-05ccb05cafcb", "18aa90e5-225b-4968-af7a-a08d33aa88c3", "496b4c3b-2f7a-419c-bfc8-c8f39711eb07", "5e8edf0f-dfb5-4ca2-ac07-92e8ce1fbd75", "f274c12d-9883-4e8e-ab30-f27a53b705ab", "bafa1ee9-2c9d-4c1d-9723-11252d0d06f7", "e8bd6cf8-158f-4078-881a-4278b9e3d4e2", "0c242825-29c4-4113-b6b3-01012755d790", "ca3abf4d-ae95-4217-93e7-df088203d727"]
-tags: [raw, pieces]
+tags: [pieces, raw]
+title: 2026-05-14-pieces-terraform-backup
 ---
 
-# Terraform Backup Session — 2026-05-14
+## Terraform Backup Session—2026-05-14
 
-## Asset 1 (Pieces: 8d36147c-97ce-4c05-acc6-30371c5994db)
+### Asset 1 (Pieces: 8d36147c-97ce-4c05-acc6-30371c5994db)
 
-**Captured:** 2026-05-13T13:58:40.437352Z
+Captured: 2026-05-13T13:58:40.437352Z
 
 ```
 ## Hermes Fix Prompt — `private_dns_zone_vnet_id` Stale Reference
 
 ```
+
 You have one specific bug to fix. Do exactly this and nothing else.
 
 ---
 
-## The problem
+### The Problem
 
 In the terraform-azure-aks-backup module, the variable was renamed from
+
 private_dns_zone_vnet_id to vnet_id, but the rename was only applied to the
+
 virtual_network_id attribute value. The count expression on the same resource
+
 still references var.private_dns_zone_vnet_id, which no longer exists.
 
 Terraform error:
+
   Reference to undeclared input variable "private_dns_zone_vnet_id"
-  on .terraform/modules/aks_backup/main.tf line 80
+
+  on.terraform/modules/aks_backup/main.tf line 80
 
 ---
 
-## Repo path
+### Repo Path
 
 /Volumes/DAL/Fitfile/gitlab/FITFILE/Deployment/TFC-Modules/terraform-azure-aks-backup
 
-## Current branch
+### Current Branch
 
 master
 
 ---
 
-## Fix — 3 steps only
+### Fix—3 Steps only
 
-### Step 1 — Find and replace ALL remaining references
+#### Step 1—Find and Replace ALL Remaining References
 
 Run this to confirm every occurrence:
+
   grep -n "private_dns_zone_vnet_id" main.tf
 
 For every line returned, replace var.private_dns_zone_vnet_id with var.vnet_id.
+
 There is at least one in a count expression. There may be more. Fix ALL of them.
+
 Do not touch any other line.
 
-### Step 2 — Verify the fix is complete
+#### Step 2—Verify the Fix is Complete
 
 Run:
+
   grep -n "private_dns_zone_vnet_id" main.tf
 
 It must return zero results. If it returns anything, go back to Step 1.
 
 Also confirm the vnet_id variable exists:
+
   grep -n "variable \"vnet_id\"" variables.tf
 
 Must return one result.
 
-### Step 3 — Commit, re-tag, push
+#### Step 3—Commit, Re-tag, Push
 
   terraform fmt
+
   git add main.tf
+
   git commit -m "fix: replace all remaining private_dns_zone_vnet_id references with vnet_id (FTFL-638)"
+
   git tag -d v1.2.0
+
   git push --delete origin v1.2.0
+
   git tag v1.2.0
+
   git push origin master --tags
 
 Confirm:
+
   git show v1.2.0:main.tf | grep -n "private_dns_zone_vnet_id"
+
   (must return no output)
 
 ---
 
-## After the module is fixed — validate the sandbox plan
+### After the Module is fixed—validate the Sandbox Plan
 
 Switch to the sandbox workspace and re-run:
 
   cd /Volumes/DAL/Fitfile/gitlab/FITFILE/Deployment/Clusters/FITFILE/Non-Production/sandbox-testing-1
+
   terraform init -upgrade
+
   terraform plan
 
-Th  # Truncate for safety
+Th # Truncate for safety
+
 ```
 
 ---
@@ -98,18 +121,18 @@ Th  # Truncate for safety
 
 ## Asset 2 (Pieces: 58df8212-81a5-456f-b04b-05ccb05cafcb)
 
-**Captured:** 2026-05-13T13:57:55.279364Z
+Captured: 2026-05-13T13:57:55.279364Z
 
 ```
+
 The user wants a clear, targeted prompt to fix the remaining issues with the Hermes session. Let me analyze what's gone wrong:
 
-1. **The root issue**: The `count` expression on line 80 of `main.tf` in the `terraform-azure-aks-backup` module still references `var.private_dns_zone_vnet_id` even though the variable was renamed to `vnet_id`. This is the last remaining bug.
+1. The root issue: The `count` expression on line 80 of `main.tf` in the `terraform-azure-aks-backup` module still references `var.private_dns_zone_vnet_id` even though the variable was renamed to `vnet_id`. This is the last remaining bug.
+2. Git state: The module is on `master` with the tag `v1.2.0` pointing to a commit that has this bug.
+3. Sandbox state: The sandbox `main.tf` is on `main` (they pushed to main without feature branch) with `backup_included_namespaces` fixed.
 
-2. **Git state**: The module is on `master` with the tag `v1.2.0` pointing to a commit that has this bug.
+Now I need to craft a prompt that directs Hermes to search through the module's `main.tf` for any lingering references to the old variable name and swap them out for the new one, then commit those changes to master and retag the release. After that, we'll need to refresh the sandbox environment and run the terraform workflow again to validate everything works. # Truncate for safety
 
-3. **Sandbox state**: The sandbox `main.tf` is on `main` (they pushed to main without feature branch) with `backup_included_namespaces` fixed.
- 
-Now I need to craft a prompt that directs Hermes to search through the module's `main.tf` for any lingering references to the old variable name and swap them out for the new one, then commit those changes to master and retag the release. After that, we'll need to refresh the sandbox environment and run the terraform workflow again to validate everything works.  # Truncate for safety
 ```
 
 ---
@@ -117,40 +140,56 @@ Now I need to craft a prompt that directs Hermes to search through the module's 
 
 ## Asset 3 (Pieces: 18aa90e5-225b-4968-af7a-a08d33aa88c3)
 
-**Captured:** 2026-05-13T13:57:43.179632Z
+Captured: 2026-05-13T13:57:43.179632Z
 
 ```
+
 Hermes is stuggling
 
     Both branches are ready for merge request review and terraform plan in the HCP Terraform workspace sandbox-testing-1.
+
 ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
   📄 Detected file: run-aw2DnNpmUE2ijKC2-plan-log.txt
+
 ────────────────────────────────────────
+
 ● [User attached file: /Users/leon.ormes/Downloads/run-aw2DnNpmUE2ijKC2-plan-log.txt]
+
 ────────────────────────────────────────
+
   ┊ 📖 preparing read_file…
-  ┊ 📖 read      /Users/leon.ormes/Downloads/run-aw2DnNpmUE2ijKC2-plan-log.txt  1.1s
+
+  ┊ 📖 read /Users/leon.ormes/Downloads/run-aw2DnNpmUE2ijKC2-plan-log.txt 1.1s
 
 ╭─ ⚕ Hermes ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+
     The plan failed because backup_instance_included_namespaces is not a valid argument for the module. The correct variable name is backup_included_namespaces (without _instance).
 
     Fixing the module call in sandbox-testing-1:
 
 ╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
   ┊ 🔧 preparing patch…
-  ┊ 🔧 patch     /Volumes/DAL/Fitfile/gitlab/FITFILE/Deployment/Clusters/FITFILE/Non-Production/sandbox-testing-1/main.tf  1.1s
+
+  ┊ 🔧 patch /Volumes/DAL/Fitfile/gitlab/FITFILE/Deployment/Clusters/FITFILE/Non-Production/sandbox-testing-1/main.tf 1.1s
+
   ┊ review diff
+
 a//Volumes/DAL/Fitfile/gitlab/FITFILE/Deployment/Clusters/FITFILE/Non-Production/sandbox-testing-1/main.tf → b//Volumes/DAL/Fitfile/gitlab/FITFILE/Deployment/Clusters/FITFILE/Non-Production/sandbox-testing-1/main.tf
+
 @@ -105,7 +105,7 @@
 
    trusted_access_binding_name = "azbkup-trust"
 
--  backup_instance_included_namespaces = ["spicedb", "sandbox-test-1"]
-+  backup_included_namespaces = ["spicedb", "sandbox-test-1"]
+- backup_instance_included_namespaces = ["spicedb", "sandbox-test-1"]
+- backup_included_namespaces = ["spicedb", "sandbox-test-1"]
  }
 
  module "aks_automation" {
-  ┊   # Truncate for safety
+
+  ┊ # Truncate for safety
+
 ```
 
 ---
@@ -158,10 +197,11 @@ a//Volumes/DAL/Fitfile/gitlab/FITFILE/Deployment/Clusters/FITFILE/Non-Production
 
 ## Asset 4 (Pieces: 496b4c3b-2f7a-419c-bfc8-c8f39711eb07)
 
-**Captured:** 2026-05-13T11:16:05.620267Z
+Captured: 2026-05-13T11:16:05.620267Z
 
 ```
-## Hermes Continuation Prompt — Final main.tf patches + Work Stream 2
+
+### Hermes Continuation Prompt—Final main.tf Patches + Work Stream 2
 
 ```
 You are picking up an in-progress infrastructure task at approximately 75%
@@ -217,10 +257,9 @@ Read main.tf in full before touching anything.
 
 ---
 
+### Asset 5 (Pieces: 5e8edf0f-dfb5-4ca2-ac07-92e8ce1fbd75)
 
-## Asset 5 (Pieces: 5e8edf0f-dfb5-4ca2-ac07-92e8ce1fbd75)
-
-**Captured:** 2026-05-13T11:15:14.164898Z
+Captured: 2026-05-13T11:15:14.164898Z
 
 ```
 Progress Summary — Work Stream 1
@@ -249,22 +288,24 @@ Progress Summary — Work Stream 1
 
 ---
 
+### Asset 6 (Pieces: f274c12d-9883-4e8e-ab30-f27a53b705ab)
 
-## Asset 6 (Pieces: f274c12d-9883-4e8e-ab30-f27a53b705ab)
-
-**Captured:** 2026-05-13T11:06:36.132596Z
+Captured: 2026-05-13T11:06:36.132596Z
 
 ```
 ## Hermes Continuation Prompt — Work Stream 1 (main.tf) + Work Stream 2
 
 ```
+
 You are picking up an in-progress infrastructure task. Work Stream 1 is
+
 partially complete. Do not re-do anything in the "Already done" list.
+
 Start at step 1 of the remaining main.tf changes immediately.
 
 ---
 
-## Already done — DO NOT repeat these
+### Already done—DO NOT Repeat These
 
 - versions.tf created in terraform-azure-aks-backup module ✅
 - variables.tf: all 8 variable changes applied ✅
@@ -275,37 +316,50 @@ Start at step 1 of the remaining main.tf changes immediately.
 
 ---
 
-## Repository paths
+### Repository Paths
 
 Module repo:
+
   /Volumes/DAL/Fitfile/gitlab/FITFILE/Deployment/TFC-Modules/terraform-azure-aks-backup
 
 Sandbox repo:
+
   /Volumes/DAL/Fitfile/gitlab/FITFILE/Deployment/Clusters/FITFILE/Non-Production/sandbox-testing-1
 
 ---
 
-## Resolved environment values (use verbatim — do not look up)
+### Resolved Environment Values (use verbatim—do not Look up)
 
-kubernetes_cluster_id            = "/subscriptions/7bbc8ae5-1710-48ab-ab83-59b52bd0de1a/resourcegroups/rg-ff-uks-gp-net/providers/Microsoft.ContainerService/managedClusters/aks-ff-uks-gp-1"
+kubernetes_cluster_id = "/subscriptions/7bbc8ae5-1710-48ab-ab83-59b52bd0de1a/resourcegroups/rg-ff-uks-gp-net/providers/Microsoft.ContainerService/managedClusters/aks-ff-uks-gp-1"
+
 kubernetes_identity_principal_id = "b8a47098-d397-4bf4-80cb-ada2233015f5"
-vnet_id                          = "/subscriptions/7bbc8ae5-1710-48ab-ab83-59b52bd0de1a/resourceGroups/rg-ff-uks-gp-net/providers/Microsoft.Network/virtualNetworks/vnet-ff-uks-gp-1"
-subscription_id                  = "7bbc8ae5-1710-48ab-ab83-59b52bd0de1a"
-pe_subnet_name                   = "snet-ff-uks-gp-pe"
-pe_subnet_cidr                   = "10.0.0.96/27"
-vnet_name                        = "vnet-ff-uks-gp-1"
-aks_resource_group               = "rg-ff-uks-gp-net"
+
+vnet_id = "/subscriptions/7bbc8ae5-1710-48ab-ab83-59b52bd0de1a/resourceGroups/rg-ff-uks-gp-net/providers/Microsoft.Network/virtualNetworks/vnet-ff-uks-gp-1"
+
+subscription_id = "7bbc8ae5-1710-48ab-ab83-59b52bd0de1a"
+
+pe_subnet_name = "snet-ff-uks-gp-pe"
+
+pe_subnet_cidr = "10.0.0.96/27"
+
+vnet_name = "vnet-ff-uks-gp-1"
+
+aks_resource_group = "rg-ff-uks-gp-net"
 
 ---
 
-## Work Stream 1 — Remaining: main.tf changes
+### Work Stream 1—Remaining: main.tf Changes
 
 Read main.tf in full before making any change. Then apply exactly these
+
 7 changes in order.
 
-### Change 1 — azurerm_storage_account "backup_sa"
+#### Change 1—azurerm_storage_account "backup_sa"
+
 Add the following attribute to the resource body:
-  default_to_oaut  # Truncate for safety
+
+  default_to_oaut # Truncate for safety
+
 ```
 
 ---
@@ -313,9 +367,10 @@ Add the following attribute to the resource body:
 
 ## Asset 7 (Pieces: bafa1ee9-2c9d-4c1d-9723-11252d0d06f7)
 
-**Captured:** 2026-05-13T11:05:39.438800Z
+Captured: 2026-05-13T11:05:39.438800Z
 
 ```
+
 Work Stream 1 Progress Summary
 
      Completed (7/10 variable changes + versions.tf):
@@ -347,6 +402,7 @@ Work Stream 1 Progress Summary
      2. Run terraform fmt in the module directory
      3. Create branch feature/FTFL-638-backup-module-fixes, commit, and tag v1.2.0
      4. Proceed to Work Stream 2 (sandbox-testing-1 workspace   # Truncate for safety
+
 ```
 
 ---
@@ -354,10 +410,11 @@ Work Stream 1 Progress Summary
 
 ## Asset 8 (Pieces: e8bd6cf8-158f-4078-881a-4278b9e3d4e2)
 
-**Captured:** 2026-05-13T11:01:12.181085Z
+Captured: 2026-05-13T11:01:12.181085Z
 
 ```
-## Hermes Goal Prompt — AKS Backup Module Fix + Sandbox Apply
+
+### Hermes Goal Prompt—AKS Backup Module Fix + Sandbox Apply
 
 ```
 You are an infrastructure-as-code engineer working on the FITFILE platform.
@@ -405,10 +462,9 @@ Content:
 
 ---
 
+### Asset 9 (Pieces: 0c242825-29c4-4113-b6b3-01012755d790)
 
-## Asset 9 (Pieces: 0c242825-29c4-4113-b6b3-01012755d790)
-
-**Captured:** 2026-05-13T11:00:24.891583Z
+Captured: 2026-05-13T11:00:24.891583Z
 
 ```
 The user wants a "Hermes goal prompt" - this refers to a structured prompt they can use with an AI coding assistant (likely Claude Code or similar agentic tool) that will coordinate changes across two repositories:
@@ -428,14 +484,12 @@ Now I'm pulling together the specific fixes from the code review, the resolved A
 
 ---
 
+### Asset 10 (Pieces: ca3abf4d-ae95-4217-93e7-df088203d727)
 
-## Asset 10 (Pieces: ca3abf4d-ae95-4217-93e7-df088203d727)
-
-**Captured:** 2026-05-13T11:00:13.047389Z
+Captured: 2026-05-13T11:00:13.047389Z
 
 ```
 give me a hermes goal prompt for this work. it needs to view both the azure backup repo and the sandbox-testing-1 repo and coordinate the changes  # Truncate for safety
 ```
 
 ---
-

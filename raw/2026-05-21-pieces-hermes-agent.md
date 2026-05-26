@@ -1,12 +1,13 @@
 ---
-title: Pieces LTM — Hermes Agent (2026-05-21)
 created: 2026-05-21T19:15:29+00:00
+modified: 2026-05-26T11:43:33+00:00
+pieces_ids: [54ba01e7-ccd6-4be9-b278-cffe404699b1, 5701ce53-a5ec-415c-9f55-2a49613260a3, 6c42a849-78d2-42be-865b-f03ed18c9da2]
 source: pieces-ltm
-pieces_ids: [6c42a849-78d2-42be-865b-f03ed18c9da2, 54ba01e7-ccd6-4be9-b278-cffe404699b1, 5701ce53-a5ec-415c-9f55-2a49613260a3]
-tags: [raw, pieces]
+tags: [pieces, raw]
+title: 2026-05-21-pieces-hermes-agent
 ---
 
-## Asset 1 (Pieces: 6c42a849-78d2-42be-865b-f03ed18c9da2) — 11:05:45
+## Asset 1 (Pieces: 6c42a849-78d2-42be-865b-f03ed18c9da2)—11:05:45
 
 give me a hermes /goal to implement this for my agents
 
@@ -28,9 +29,13 @@ give me a hermes /goal to implement this for my agents
   </h2>
 
 [Quickstart](#quickstart) •
+
 [MCP Server](#mcp-server) •
+
 [Bash / AGENTS.md](#bash-agentsmd) •
+
 [CLI](#cli) •
+
 [Benchmarks](#benchmarks)
 
 </div>
@@ -109,12 +114,12 @@ uv cache clean semble          # for MCP users (restart your MCP client after)
 
 ## Main Features
 
-- **Fast**: indexes an average repo in ~250 ms and answers queries in ~1.5 ms, all on CPU.
-- **Accurate**: NDCG@10 of 0.854 on our [benchmarks](#benchmarks), on par with code-specialized transformer models, at a fraction of the size and cost.
-- **Token-efficient**: returns only the relevant chunks, using [~98% fewer tokens than grep+read](#benchmarks).
-- **Zero setup**: runs on CPU with no API keys, GPU, or external services required.
-- **MCP server**: works with Claude Code, Cursor, Codex, OpenCode, VS Code, and any other MCP-compatible agent.
-- **Local and remote**: pass a local path or a git URL.
+- Fast: indexes an average repo in ~250 ms and answers queries in ~1.5 ms, all on CPU.
+- Accurate: NDCG@10 of 0.854 on our [benchmarks](#benchmarks), on par with code-specialized transformer models, at a fraction of the size and cost.
+- Token-efficient: returns only the relevant chunks, using [~98% fewer tokens than grep+read](#benchmarks).
+- Zero setup: runs on CPU with no API keys, GPU, or external services required.
+- MCP server: works with Claude Code, Cursor, Codex, OpenCode, VS Code, and any other MCP-compatible agent.
+- Local and remote: pass a local path or a git URL.
 
 ## MCP Server
 
@@ -290,14 +295,12 @@ Add to `~/.config/zed/settings.json` (or `.zed/settings.json` in your project):
 
 </details>
 
-
 ### Tools
 
 | Tool | Description |
 |------|-------------|
 | `search` | Search a codebase with a natural-language or code query. Pass `repo` as a local directory path or an https:// git URL. |
 | `find_related` | Given a file path and line number, return chunks semantically similar to the code at that location. |
-
 
 <a id="bash-agentsmd"></a>
 
@@ -336,7 +339,7 @@ If `semble` is not on `$PATH`, use `uvx --from "semble[mcp]" semble` in its plac
 4. Use grep only when you need exhaustive literal matches or quick confirmation of an exact string.
 ```
 
-### Sub-agent setup
+### Sub-agent Setup
 
 Claude Code, Gemini CLI, Cursor, OpenCode, GitHub Copilot CLI, and Kiro all support a dedicated semble search sub-agent. Run `semble init` once in your project root:
 
@@ -443,7 +446,7 @@ We benchmark quality and speed across ~1,250 queries over 63 repositories in 19 
 
 The quality benchmark (left) scores retrieval quality (NDCG@10) against total latency; semble achieves 99% of the quality of the 137M-parameter [CodeRankEmbed](https://huggingface.co/nomic-ai/CodeRankEmbed) Hybrid while indexing 218x faster. The token efficiency benchmark (right) measures how many tokens each method needs to reach a given recall level; semble uses 98% fewer tokens on average and hits 94% recall at only 2k tokens, while grep+read needs a full 100k context window to reach 85%. See [benchmarks](benchmarks/README.md) for per-language results, ablations, and full methodology.
 
-## How it works
+## How it Works
 
 Semble splits each file into code-aware chunks using [tree-sitter](https://github.com/tree-sitter/py-tree-sitter), then scores every query against the chunks with two complementary retrievers: static [Model2Vec](https://github.com/MinishLab/model2vec) embeddings using the code-specialized [potion-code-16M](https://huggingface.co/minishlab/potion-code-16M) model for semantic similarity, and [BM25](https://github.com/xhluca/bm25s) for lexical matches on identifiers and API names. The two score lists are fused with Reciprocal Rank Fusion (RRF).
 
@@ -452,11 +455,11 @@ After fusing, results are reranked with a set of code-aware signals:
 <details>
 <summary><b>Ranking signals</b></summary>
 
-- **Adaptive weighting.** Symbol-like queries (`Foo::bar`, `_private`, `getUserById`) get more lexical weight, while natural-language queries stay balanced between semantic and lexical retrievers.
-- **Definition boosts.** A chunk that defines the queried symbol (a `class`, `def`, `func`, etc.) is ranked above chunks that merely reference it.
-- **Identifier stems.** Query tokens are stemmed and matched against identifier stems in a chunk, giving an additional weight to chunks that contain them. For example, querying `parse config` boosts chunks containing `parseConfig`, `ConfigParser`, or `config_parser`.
-- **File coherence.** When multiple chunks from the same file match the query, the file is boosted so the top result reflects broad file-level relevance rather than a single out-of-context chunk.
-- **Noise penalties.** Test files, `compat/`/`legacy/` shims, example code, and `.d.ts` declaration stubs are down-ranked so canonical implementations surface first.
+- Adaptive weighting. Symbol-like queries (`Foo::bar`, `_private`, `getUserById`) get more lexical weight, while natural-language queries stay balanced between semantic and lexical retrievers.
+- Definition boosts. A chunk that defines the queried symbol (a `class`, `def`, `func`, etc.) is ranked above chunks that merely reference it.
+- Identifier stems. Query tokens are stemmed and matched against identifier stems in a chunk, giving an additional weight to chunks that contain them. For example, querying `parse config` boosts chunks containing `parseConfig`, `ConfigParser`, or `config_parser`.
+- File coherence. When multiple chunks from the same file match the query, the file is boosted so the top result reflects broad file-level relevance rather than a single out-of-context chunk.
+- Noise penalties. Test files, `compat/`/`legacy/` shims, example code, and `.d.ts` declaration stubs are down-ranked so canonical implementations surface first.
 
 </details>
 
@@ -482,17 +485,17 @@ If you use Semble in your research, please cite the following:
 }
 ```
 
-## Asset 2 (Pieces: 54ba01e7-ccd6-4be9-b278-cffe404699b1) — 11:07:34
+## Asset 2 (Pieces: 54ba01e7-ccd6-4be9-b278-cffe404699b1)—11:07:34
 
-**Processing Mission Data**
+Processing Mission Data
 
 I'm analyzing the mission statement found in memory about integrating the brain-MCP into the MCP proxy cognitive layer. My current focus is on translating this into a usable HERMES goal for agent implementation, considering the user's request.
 
-## Asset 3 (Pieces: 5701ce53-a5ec-415c-9f55-2a49613260a3) — 11:07:41
+## Asset 3 (Pieces: 5701ce53-a5ec-415c-9f55-2a49613260a3)—11:07:41
 
 ## Mission Upgrade: Speed-up Agent Code Search with Semble
 
-Here is a copy-pasteable, highly structured Hermes `/goal` (mission template) to direct your agents to install, configure, and begin adopting **Semble** as their primary code-search mechanism. 
+Here is a copy-pasteable, highly structured Hermes `/goal` (mission template) to direct your agents to install, configure, and begin adopting Semble as their primary code-search mechanism.
 
 This goal is designed to format perfectly within your `private_dot_hermes/assets/context/mission.md` profile, or to be pasted directly into a `hermes chat` session.
 
@@ -503,11 +506,11 @@ This goal is designed to format perfectly within your `private_dot_hermes/assets
 Reduce agent context-window token overhead by ~98% by migrating repository-exploration workflows from a brute-force `grep` + `read` model to Semble's lightweight, local, hybrid code-aware search. Eliminate API keys or external dependencies for workspace index traversals.
 
 ## CONTEXT & ASSETS
-- **Target Technology**: Semble (`semble[mcp]` via Astral `uv`)
-- **Integration Vectors**:
+- Target Technology: Semble (`semble[mcp]` via Astral `uv`)
+- Integration Vectors:
   - Main Agent (Claude Code / Cursor / Zed) via MCP.
   - Sub-Agents / CLI scripts via `AGENTS.md` shell integration.
-- **Workflow Baseline**: Cold index speeds of ~250ms on average repos, NDCG@10 of ~0.854 on standard benchmarks.
+- Workflow Baseline: Cold index speeds of ~250ms on average repos, NDCG@10 of ~0.854 on standard benchmarks.
 
 ## EXECUTION STEPS
 
@@ -520,9 +523,11 @@ Verify that `uv` is installed on the host, then install Semble:
   ```
 
 ### 2. Configure MCP Server Interfaces
+
 Update the target runtime configs to enable active MCP capability:
 
-- **Cursor** (`~/.cursor/mcp.json` or project-local `.cursor/mcp.json`):
+- Cursor (`~/.cursor/mcp.json` or project-local `.cursor/mcp.json`):
+
   ```json
   {
     "mcpServers": {
@@ -533,24 +538,31 @@ Update the target runtime configs to enable active MCP capability:
     }
   }
   ```
-- **Claude Code**:
+
+- Claude Code:
+
   ```bash
   claude mcp add semble -s user -- uvx --from "semble[mcp]" semble
   ```
 
-### 3. Track Configs via chezmoi
+### 3. Track Configs via Chezmoi
+
 Ensure configuring changes are tracked in your chezmoi repository workspace if tracking is active:
+
 ```bash
 chezmoi add ~/.cursor/mcp.json
 ```
 
 ### 4. Seed Sub-Agent Environments (CLI Hooks)
+
 If utilizing multi-agent sub-delegations, run the initialization command in your target repository roots to seed standard `.md` instruction templates:
+
 ```bash
 semble init --agent git  # Or match your target agent framework (claude|gemini|cursor|opencode|copilot|kiro)
 ```
 
 ### 5. Standardize Workspace Search Rules (AGENTS.md / CLAUDE.md)
+
 Write or append the following core instructions to `AGENTS.md` (or `CLAUDE.md` / `GEMINI.md`) in active directory roots to override agent default exploration behaviors:
 
 ```markdown
@@ -578,8 +590,10 @@ semble find-related <file_path> <line_number> ./
 ```
 
 ## SUCCESS CRITERIA
+
 - [ ] `semble` executable runs on client shell paths with no errors.
 - [ ] Target IDE or MCP shell client connects successfully to the `semble` SSE/stdio MCP protocol.
 - [ ] Shell scripts can resolve semantic code queries within `< 50ms`.
 - [ ] Context-size profiles reflect a drop in total file-parsing overhead down to `< 5%` of traditional `cat` / `read` limits.
+
 ```

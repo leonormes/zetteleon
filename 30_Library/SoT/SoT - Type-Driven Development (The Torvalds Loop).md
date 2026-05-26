@@ -2,7 +2,7 @@
 aliases: ["Data-Centric Programming", "Parse Don't Validate", "The Torvalds Loop", "Type-Driven Design", "Type-First Development", "Typestate Pattern"]
 created: 2025-12-29T10:28:01+00:00
 last_reviewed: "2026-04-04"
-modified: 2026-04-19T18:30:30+00:00
+modified: 2026-05-26T11:44:16+00:00
 source_of_truth: true
 status: "stable"
 synthesis-count: 3

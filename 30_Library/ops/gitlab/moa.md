@@ -1,19 +1,24 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:40+00:00
 group: Runner
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-title: Moa expression language
+modified: 2026-05-26T11:44:03+00:00
+stage: Verify
+title: moa
 ---
 
 Moa is an expression language for dynamically constructing values during job execution.
+
 Expressions are enclosed in `${{ }}` delimiters and are used in GitLab Functions and Job inputs.
 
 Moa supports string manipulation, arithmetic, comparisons,
+
 logical operations, property access, and function calls.
 
-## Differences from CI/CD expressions
+## Differences from CI/CD Expressions
 
 GitLab has three expression syntaxes that serve different purposes at different
+
 stages of the pipeline lifecycle.
 
 - [Rules](../yaml/_index.md#rules) use their own expression syntax inside `rules:` keywords
@@ -31,6 +36,7 @@ stages of the pipeline lifecycle.
   and function calls.
 
 All three syntaxes can coexist in the same pipeline. A CI/CD component that contains
+
 GitLab Functions might use all three:
 
 ```yaml
@@ -54,6 +60,7 @@ hi-job:
 ```
 
 Moa exists as a separate language because GitLab Functions need
+
 capabilities that are unavailable at pipeline creation time:
 
 - Runtime evaluation: Step outputs do not exist until the function runs. Expressions like
@@ -68,7 +75,7 @@ capabilities that are unavailable at pipeline creation time:
   the result is also treated as sensitive. This prevents the accidental disclosure
   of secrets in logs and outputs.
 
-## Context reference
+## Context Reference
 
 The values available in expressions depend on where the expression is used.
 
@@ -84,7 +91,7 @@ The values available in expressions depend on where the expression is used.
 | `func_dir`    | GitLab Functions                                                                                         | String | Before the function runs         | Path to the directory containing the function's definition file. Use to reference files bundled with the function.                      |
 | `work_dir`    | GitLab Functions                                                                                         | String | Before the function runs         | Path to the working directory for the current execution.                                                                                |
 
-## Template syntax
+## Template Syntax
 
 ### Interpolation
 
@@ -96,6 +103,7 @@ script:
 ```
 
 When text surrounds the expression, the result is always converted to a string.
+
 Multiple expressions can appear in a single value:
 
 ```yaml
@@ -103,10 +111,12 @@ script:
   - echo "${{ job.inputs.greeting }}, ${{ job.inputs.name }}!"
 ```
 
-### Native type passthrough
+### Native Type Passthrough
 
 When `${{ expression }}` is the entire value with no surrounding text, the expression
+
 returns its native type. Use native type expressions to pass non-string values like numbers,
+
 booleans, arrays, and objects between steps without converting them to strings.
 
 ```yaml
@@ -115,11 +125,13 @@ inputs:
 ```
 
 In this example, if `total` is a number, `count` receives a number, not the string
+
 representation.
 
-### Escape Moa expressions
+### Escape Moa Expressions
 
 To include a literal `${{` in your text without triggering interpolation, escape it
+
 with a backslash:
 
 ```yaml
@@ -151,6 +163,7 @@ ${{ false }}
 ### Numbers
 
 Numbers are IEEE 754 double-precision floating point values with 53 bits of significand
+
 precision. Integers, decimals, and scientific notation are supported.
 
 ```yaml
@@ -163,6 +176,7 @@ ${{ 2E-4 }}
 ### Strings
 
 Enclose strings in double quotes or single quotes. The two quote types
+
 handle escape sequences and template expressions differently.
 
 Double-quoted strings support template expressions and a full set of escape sequences:
@@ -183,10 +197,13 @@ Double-quoted strings support template expressions and a full set of escape sequ
 | `\${{`    | Literal `${{` (prevents interpolation)  |
 
 Template expressions (`${{ }}`) inside double-quoted strings are evaluated and
+
 interpolated into the string.
 
 Single-quoted strings are raw string literals with minimal interpretation.
+
 Template expressions inside single-quoted strings are not evaluated. Only two
+
 escape sequences are supported:
 
 | Sequence | Meaning      |
@@ -203,7 +220,9 @@ ${{ 'Literal ${{ not evaluated }}' }}
 ## Identifiers
 
 Identifiers reference values from the expression context. An identifier starts with a
+
 letter or underscore and can contain letters, digits, and underscores. Identifiers are
+
 case-sensitive: `foo`, `Foo`, and `FOO` are three different identifiers.
 
 ```yaml
@@ -212,16 +231,19 @@ ${{ my_variable }}
 ```
 
 Identifiers are resolved against the available context. For
+
 the values available in each context, see [context reference](#context-reference).
 
 When an identifier refers to a context object, the entire object is returned. For example, `${{ vars }}`
+
 returns all job variables as an object.
 
 ## Operators
 
-### Arithmetic operators
+### Arithmetic Operators
 
 Arithmetic operators work on numbers. The `+` operator also concatenates strings.
+
 Operators do not perform implicit type conversion, so `"hello" + 42` results in an error.
 
 | Operator | Description                 | Example             | Result     |
@@ -230,25 +252,26 @@ Operators do not perform implicit type conversion, so `"hello" + 42` results in 
 | `+`      | Concatenation               | `${{ "a" + "b" }}`  | `"ab"`     |
 | `-`      | Subtraction                 | `${{ 10 - 4 }}`     | `6`        |
 | `*`      | Multiplication              | `${{ 3 * 4 }}`      | `12`       |
-| `/`      | Division                    | `${{ 10 / 3 }}`     | `3.333...` |
+| `/`      | Division                    | `${{ 10 / 3 }}`     | `3.333…` |
 | `%`      | Modulo (truncated division) | `${{ 10 % 3 }}`     | `1`        |
 
 Division by zero results in an error.
 
-### Comparison operators
+### Comparison Operators
 
 Comparison operators return a boolean value.
 
 | Operator | Description           | Example            | Result  |
 |----------|-----------------------|--------------------|---------|
 | `==`     | Equal                 | `${{ 1 == 1 }}`    | `true`  |
-| `!=`     | Not equal             | `${{ 1 != 2 }}`    | `true`  |
+| `!=`     | Not equal             | `${{ 1!= 2 }}`    | `true`  |
 | `<`      | Less than             | `${{ 1 < 2 }}`     | `true`  |
 | `<=`     | Less than or equal    | `${{ 2 <= 2 }}`    | `true`  |
 | `>`      | Greater than          | `${{ 3 > 2 }}`     | `true`  |
 | `>=`     | Greater than or equal | `${{ 3 >= 3 }}`    | `true`  |
 
 Values of different types are compared by type, so `1 == "1"` evaluates to `false`.
+
 Values of the same type follow these comparison rules:
 
 - Numbers: Numeric comparison.
@@ -258,9 +281,10 @@ Values of the same type follow these comparison rules:
 - Objects: Compared by length, then keys, then values. Key order does not matter.
 - Null: `null` is equal to `null`.
 
-### Logical operators
+### Logical Operators
 
 Logical operators use short-circuit evaluation and return one of their operands,
+
 not necessarily a boolean. This behavior is similar to the JavaScript `&&` and `||` operators.
 
 | Operator   | Description | Behavior                                                                                      |
@@ -276,19 +300,21 @@ ${{ inputs.name || "default" }}
 ```
 
 If `inputs.name` is a non-empty string, it is returned as-is. If it is empty or null,
+
 `"default"` is returned.
 
-### Unary operators
+### Unary Operators
 
 | Operator | Description    | Example          | Result  |
 |----------|----------------|------------------|---------|
 | `+`      | Unary plus     | `${{ +5 }}`      | `5`     |
 | `-`      | Unary negation | `${{ -5 }}`      | `-5`    |
-| `!`      | Logical NOT    | `${{ !true }}`   | `false` |
+| `!`      | Logical NOT    | `${{!true }}`   | `false` |
 
-### Operator precedence
+### Operator Precedence
 
 Operators are listed from highest precedence to lowest. Operators on the same row
+
 have equal precedence. All binary operators are left-associative.
 
 | Precedence  | Operators                        |
@@ -307,11 +333,12 @@ Use parentheses to override precedence:
 ${{ (1 + 2) * 3 }}
 ```
 
-## Data structures
+## Data Structures
 
 ### Arrays
 
 Create arrays with bracket notation. Elements can be of any type and you can mix
+
 types. You can use trailing commas.
 
 ```yaml
@@ -323,6 +350,7 @@ ${{ [] }}
 ### Objects
 
 Create objects with brace notation. Keys must evaluate to strings. Values can be
+
 any type. Trailing commas are allowed.
 
 ```yaml
@@ -332,6 +360,7 @@ ${{ {} }}
 ```
 
 Bare identifiers used as object keys are treated as string literals, not as variable
+
 references. To use a variable as a key, wrap it in parentheses:
 
 ```yaml
@@ -339,9 +368,9 @@ ${{ {name: "Alice"} }}           # "name" is the string "name", not a variable r
 ${{ {(obj.prop): "value"} }}     # key is the value of obj.prop, which must be a string
 ```
 
-## Property access
+## Property Access
 
-### Dot notation
+### Dot Notation
 
 Access object properties with dot notation:
 
@@ -350,7 +379,7 @@ ${{ env.HOME }}
 ${{ steps.build.outputs.artifact_path }}
 ```
 
-### Bracket notation
+### Bracket Notation
 
 Access array elements by index, or object properties by string key:
 
@@ -360,6 +389,7 @@ ${{ my_object["property-name"] }}
 ```
 
 Bracket notation is required when a property name contains special characters
+
 like hyphens.
 
 ### Chaining
@@ -370,7 +400,7 @@ Chain property access and function calls:
 ${{ steps.build.outputs.items[0] }}
 ```
 
-## Function calls
+## Function Calls
 
 Call functions by name with parentheses:
 
@@ -392,7 +422,7 @@ Logical operators and the `!` operator use the following truthiness rules:
 | Object  | Length greater than `0` | Empty object `{}` |
 | Null    | Never                   | Always            |
 
-## Built-in functions
+## Built-in Functions
 
 ### `str(value)`
 
@@ -424,21 +454,25 @@ ${{ bool(0) }}        # false
 ${{ bool(1) }}        # true
 ```
 
-## Reserved words
+## Reserved Words
 
 The following words are reserved and cannot be used as identifiers. They are reserved
+
 for potential future language features.
 
 `array`, `as`, `break`, `case`, `const`, `continue`, `default`, `else`,
+
 `fallthrough`, `float`, `for`, `func`, `function`, `goto`, `if`, `import`,
+
 `in`, `int`, `let`, `loop`, `map`, `namespace`, `number`, `object`, `package`,
+
 `range`, `return`, `string`, `struct`, `switch`, `type`, `var`, `void`, `while`
 
 The keywords `null`, `true`, and `false` are also reserved as literal values.
 
 ## Examples
 
-### Deploy with strategy selection
+### Deploy with Strategy Selection
 
 ```yaml
 deploy job:
@@ -465,7 +499,7 @@ deploy job:
         --replicas ${{ str(job.inputs.replicas) }}
 ```
 
-### Conditional flags from boolean job inputs
+### Conditional Flags from Boolean Job Inputs
 
 ```yaml
 test_job:
@@ -480,7 +514,7 @@ test_job:
     - pytest ${{ job.inputs.verbose && "-v" || "" }} ${{ job.inputs.coverage && "--cov=src" || "" }}
 ```
 
-### Building an image reference from job variables
+### Building an Image Reference from Job Variables
 
 ```yaml
 build_job:
@@ -491,7 +525,7 @@ build_job:
         image: ${{ vars.CI_REGISTRY + "/" + vars.CI_PROJECT_PATH + ":" + vars.CI_PIPELINE_IID }}
 ```
 
-### Continue gate
+### Continue Gate
 
 ```yaml
 security_scan_job:
@@ -504,7 +538,7 @@ security_scan_job:
         should_proceed: ${{ steps.scan.outputs.critical == 0 && steps.scan.outputs.high < 5 }}
 ```
 
-### Version management
+### Version Management
 
 ```yaml
 increment_version_job:
@@ -517,7 +551,7 @@ increment_version_job:
         new_version: ${{ str(steps.current.outputs.major + 1) + ".0.0" }}
 ```
 
-### Environment-specific configuration
+### Environment-specific Configuration
 
 ```yaml
 deploy_job:
@@ -529,7 +563,7 @@ deploy_job:
         replicas: ${{ (vars.CI_COMMIT_REF_NAME == "main" && 5) || 2 }}
 ```
 
-### Configure A/B testing
+### Configure A/B Testing
 
 ```yaml
 configure_job:

@@ -1,8 +1,10 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:40+00:00
 group: Pipeline Authoring
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-title: Job inputs
+modified: 2026-05-26T11:44:05+00:00
+stage: Verify
+title: job_inputs
 ---
 
 {{< details >}}
@@ -20,6 +22,7 @@ title: Job inputs
 {{< /history >}}
 
 Use job inputs to define typed, validated parameters for individual CI/CD jobs that can be overridden
+
 when manually running or retrying jobs. Unlike [CI/CD variables](../variables/_index.md), job inputs provide:
 
 - Type safety: Inputs can be `string`, `number`, `boolean`, or `array` with automatic validation.
@@ -28,14 +31,16 @@ when manually running or retrying jobs. Unlike [CI/CD variables](../variables/_i
   a job, and changed when [retrying](#retry-a-job-with-different-input-values) the job.
 
 Use job inputs for parameters that control job behavior and might need to be adjusted
+
 when re-running a job. For example: deployment targets, test configurations, or feature flags.
 
 Job inputs are scoped to the job where they are defined and cannot be accessed in included files
+
 or other jobs. If you need to share configuration across jobs or files, use [CI/CD configuration inputs](../inputs/_index.md) instead.
 
-## Job input comparison
+## Job Input Comparison
 
-### Compared to CI/CD pipeline configuration inputs
+### Compared to CI/CD Pipeline Configuration Inputs
 
 Job inputs and [CI/CD pipeline configuration inputs](../inputs/_index.md) serve different purposes:
 
@@ -48,15 +53,18 @@ Job inputs and [CI/CD pipeline configuration inputs](../inputs/_index.md) serve 
 | Default values | Required                                                                | Optional |
 | Scope          | Single job only                                                         | Entire configuration file or passed to included files |
 
-### Compared to environment variables
+### Compared to Environment Variables
 
 Job inputs are interpolated into the job configuration when the job is created. They are not
+
 environment variables and cannot be accessed with `$INPUT_NAME` syntax. You can use job inputs
+
 directly in scripts and other supported keywords with the `${{ job.inputs.INPUT_NAME }}` syntax.
 
-## Define and use job inputs
+## Define and Use Job Inputs
 
 Use the `inputs` keyword in a job to define input parameters. Each input must have a default value.
+
 Reference input values with the `${{ job.inputs.INPUT_NAME }}` [Moa expression](../functions/moa.md) syntax.
 
 For example:
@@ -80,7 +88,7 @@ deploy_job:
     - ./deploy.sh
 ```
 
-### Input configuration
+### Input Configuration
 
 Configure inputs with these keywords:
 
@@ -117,9 +125,10 @@ test_job:
 ```
 
 Job inputs are validated when the job is created and when input values are overridden.
+
 If validation fails, the job fails to start with a clear error message.
 
-### Input types
+### Input Types
 
 Job inputs support these types:
 
@@ -129,11 +138,13 @@ Job inputs support these types:
 - `array`: List of values, for example `[1, 2, 3]` or `["a", "b"]`.
 
 When passing input values through the API or UI, arrays must be JSON-formatted, for example:
+
 `["value1", "value2"]`.
 
-### Where you can use job inputs
+### Where You Can Use Job Inputs
 
 You can use simple interpolation or more complex expressions with operators and functions.
+
 See [Moa expression language](../functions/moa.md) for the complete syntax.
 
 Job inputs can be used in these job keywords and their subkeys:
@@ -147,7 +158,9 @@ Job inputs can be used in these job keywords and their subkeys:
 ### Limitations
 
 Job inputs use `${{ job.inputs.INPUT_NAME }}` syntax which is evaluated when the job runs, not when
+
 the pipeline configuration is created. You cannot use job inputs in parts of the configuration
+
 that must be evaluated at pipeline creation time, such as:
 
 - Job names
@@ -157,43 +170,44 @@ that must be evaluated at pipeline creation time, such as:
 - Other job-level keywords not listed above
 
 To configure these parts of your pipeline dynamically, use [CI/CD pipeline configuration inputs](../inputs/_index.md)
+
 with `$[[ inputs.* ]]` syntax instead.
 
-## Provide input values
+## Provide Input Values
 
 You can provide job input values when:
 
 - Running a manual job.
 - Retrying a job after it completes.
 
-### Run a manual job with input values
+### Run a Manual Job with Input Values
 
 When you run a manual job that has inputs defined, you can specify the input values.
 
 To run a manual job with specific inputs:
 
 1. Go to the pipeline, job, or [environment](../environments/deployments.md#configure-manual-deployments) view.
-1. Select the name of the manual job, not **Run** ({{< icon name="play" >}}).
-1. In the form, specify the input values.
-1. Select **Run job**.
+2. Select the name of the manual job, not Run ({{< icon name="play" >}}).
+3. In the form, specify the input values.
+4. Select Run job.
 
-### Retry a job with different input values
+### Retry a Job with Different Input Values
 
 When you retry a job that has inputs defined, you can update the input values.
 
 To retry a job with different inputs:
 
 1. Go to the job details page.
-1. Select **Retry job with modified values** ({{< icon name="chevron-down" >}}).
-1. In the form, the inputs are prefilled with the values from the previous run.
+2. Select Retry job with modified values ({{< icon name="chevron-down" >}}).
+3. In the form, the inputs are prefilled with the values from the previous run.
    Modify the input values as needed.
-1. Select **Run job again**.
+4. Select Run job again.
 
-To retry with the same input values, select **Retry** ({{< icon name="retry" >}}) instead.
+To retry with the same input values, select Retry ({{< icon name="retry" >}}) instead.
 
-## Job input examples
+## Job Input Examples
 
-### Basic deployment job with inputs
+### Basic Deployment Job with Inputs
 
 ```yaml
 deploy:
@@ -211,7 +225,7 @@ deploy:
     - ./deploy.sh --env ${{ job.inputs.target_env }} --version ${{ job.inputs.version }}
 ```
 
-### Test job with validation
+### Test Job with Validation
 
 ```yaml
 integration_tests:
@@ -240,7 +254,7 @@ integration_tests:
         --tags '${{ job.inputs.tags }}'
 ```
 
-### Database migration with safety checks
+### Database Migration with Safety Checks
 
 ```yaml
 migrate_database:
@@ -273,13 +287,14 @@ migrate_database:
       fi
 ```
 
-## Use job inputs with the API
+## Use Job Inputs with the API
 
 You can specify job input values when using the API to run or retry jobs.
 
-### Run a manual job with inputs
+### Run a Manual Job with Inputs
 
 Use the [`POST /projects/:id/jobs/:job_id/play` endpoint](../../api/jobs.md#run-a-job)
+
 with the `job_inputs` parameter:
 
 ```shell
@@ -295,9 +310,10 @@ curl --request POST \
   "https://gitlab.example.com/api/v4/projects/1/jobs/456/play"
 ```
 
-### Retry a job with inputs
+### Retry a Job with Inputs
 
 Use the [`POST /projects/:id/jobs/:job_id/retry` endpoint](../../api/jobs.md#retry-a-job)
+
 with the `job_inputs` parameter:
 
 ```shell
@@ -316,7 +332,9 @@ curl --request POST \
 ### Use GraphQL
 
 You can use the [`jobPlay` mutation](../../api/graphql/reference/_index.md#mutationjobplay)
+
 or [`jobRetry` mutation](../../api/graphql/reference/_index.md#mutationjobretry)
+
 with an `inputs` argument:
 
 ```graphql
@@ -339,9 +357,10 @@ mutation {
 
 ## Troubleshooting
 
-### Job fails with `input must have a default value`
+### Job Fails with `input must have a default value`
 
 Job inputs must always have default values to ensure jobs can run in pipelines
+
 where inputs cannot be manually specified.
 
 To fix this error, add a `default` to every input:
@@ -355,7 +374,7 @@ my_job:
     - echo ${{ job.inputs.target_env }}
 ```
 
-### Input validation fails with `unexpected value`
+### Input Validation Fails with `unexpected value`
 
 When input validation fails, check:
 

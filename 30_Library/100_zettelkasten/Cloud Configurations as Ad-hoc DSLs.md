@@ -2,7 +2,7 @@
 created: 2026-04-14T19:42:27+00:00
 created_utc: "2026-04-14T12:40:00Z"
 kind: claim
-modified: 2026-04-19T18:30:43+00:00
+modified: 2026-05-26T11:44:36+00:00
 source_title: "CUE — A Type System for the Cloud"
 source_url: "https://youtube.com/watch?v=qgNuOjSZL9Y"
 status: seed

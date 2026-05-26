@@ -1,8 +1,10 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:41+00:00
 group: Pipeline Execution
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-title: Types of pipelines
+modified: 2026-05-26T11:44:02+00:00
+stage: Verify
+title: pipeline_types
 ---
 
 {{< details >}}
@@ -21,13 +23,14 @@ Multiple types of pipelines can run in a project, including:
 - Merge trains
 - Workload pipelines (for the GitLab Duo Agent Platform only)
 
-These types of pipelines all appear on the **Pipelines** tab of a merge request.
+These types of pipelines all appear on the Pipelines tab of a merge request.
 
-## Branch pipeline
+## Branch Pipeline
 
 Your pipeline can run every time you commit changes to a branch.
 
-This type of pipeline is called a *branch pipeline*.
+This type of pipeline is called a _branch pipeline_.
+
 They display a `branch` label in pipeline lists.
 
 This pipeline runs by default. No configuration is required.
@@ -40,11 +43,12 @@ Branch pipelines:
   and [protected runners](../runners/configure_runners.md#prevent-runners-from-revealing-sensitive-information)
   when the branch is a [protected branch](../../user/project/repository/branches/protected.md).
 
-## Tag pipeline
+## Tag Pipeline
 
 A pipeline can run every time you create or push a new [tag](../../user/project/repository/tags/_index.md).
 
-This type of pipeline is called a *tag pipeline*.
+This type of pipeline is called a _tag pipeline_.
+
 They display a `tag` label in pipeline lists.
 
 This pipeline runs by default. No configuration is required.
@@ -57,20 +61,23 @@ Tag pipelines:
   and [protected runners](../runners/configure_runners.md#prevent-runners-from-revealing-sensitive-information)
   when the tag is a [protected tag](../../user/project/protected_tags.md).
 
-## Merge request pipeline
+## Merge Request Pipeline
 
 Instead of a branch pipeline, you can configure your pipeline to run every time you make changes to the
+
 source branch in a merge request.
 
-This type of pipeline is called a *merge request pipeline*.
+This type of pipeline is called a _merge request pipeline_.
+
 They display a `merge request` label in pipeline lists.
 
 Merge request pipelines do not run by default. You must configure
+
 the jobs in the `.gitlab-ci.yml` file to run as merge request pipelines.
 
 For more information, see [merge request pipelines](merge_request_pipelines.md).
 
-## Merged results pipeline
+## Merged Results Pipeline
 
 {{< history >}}
 
@@ -78,34 +85,41 @@ For more information, see [merge request pipelines](merge_request_pipelines.md).
 
 {{< /history >}}
 
-A *merged results pipeline* runs on the result of the source and target branches merged together.
+A _merged results pipeline_ runs on the result of the source and target branches merged together.
+
 It's a type of merge request pipeline.
 
 These pipelines do not run by default. You must configure the jobs in the `.gitlab-ci.yml` file
+
 to run as a merge request pipeline, and enable merged results pipelines.
 
 These pipelines display a `merged results` label in pipeline lists.
 
 For more information, see [merged results pipeline](merged_results_pipelines.md).
 
-## Merge trains
+## Merge Trains
 
 In projects with frequent merges to the default branch, changes in different merge requests
-might conflict with each other. Use *merge trains* to put merge requests in a queue.
+
+might conflict with each other. Use _merge trains_ to put merge requests in a queue.
+
 Each merge request is compared to the other, earlier merge requests, to ensure they all work together.
 
 Merge trains differ from merged results pipelines, because merged results pipelines
+
 ensure the changes work with the content in the default branch,
+
 but not content that others are merging at the same time.
 
 These pipelines do not run by default. You must configure the jobs in the `.gitlab-ci.yml` file
+
 to run as a merge request pipeline, enable merged results pipelines, and enable merge trains.
 
 These pipelines display a `merge train` label in pipeline lists.
 
 For more information, see [merge trains](merge_trains.md).
 
-## Workload pipeline
+## Workload Pipeline
 
 Workload pipelines are the execution environment for GitLab Duo Agent Platform workloads.
 

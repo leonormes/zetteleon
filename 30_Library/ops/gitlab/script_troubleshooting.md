@@ -1,11 +1,13 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:41+00:00
 group: Pipeline Authoring
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-title: Troubleshooting scripts and job logs
+modified: 2026-05-26T11:43:59+00:00
+stage: Verify
+title: script_troubleshooting
 ---
 
-## `Syntax is incorrect` in scripts that use `:`
+## `Syntax is incorrect` In Scripts that Use `:`
 
 If you use a colon (`:`) in a script, GitLab might output:
 
@@ -23,9 +25,11 @@ pages-job:
 ```
 
 The YAML parser thinks the `:` defines a YAML keyword, and outputs the
+
 `Syntax is incorrect` error.
 
 To use commands that contain a colon, you should wrap the whole command
+
 in single quotes. You might need to change existing single quotes (`'`) into double quotes (`"`):
 
 ```yaml
@@ -36,9 +40,10 @@ pages-job:
   environment: production
 ```
 
-## Job does not fail when using `&&` in a script
+## Job Does not Fail when Using `&&` in a Script
 
 If you use `&&` to combine two commands together in a single script line, the job
+
 might return as successful, even if one of the commands failed. For example:
 
 ```yaml
@@ -50,7 +55,9 @@ job-does-not-fail:
 ```
 
 The `&&` operator returns an exit code of `0` even though the two commands failed,
+
 and the job continues to run. To force the script to exit when either command fails,
+
 enclose the entire line in parentheses:
 
 ```yaml
@@ -60,9 +67,10 @@ job-fails:
     - echo "The job failed already, and this is not executed."
 ```
 
-## Multiline commands not preserved by folded YAML multiline block scalar
+## Multiline Commands not Preserved by Folded YAML Multiline Block Scalar
 
 If you use the `- >` folded YAML multiline block scalar to split long commands,
+
 additional indentation causes the lines to be processed as individual commands.
 
 For example:
@@ -112,20 +120,22 @@ Resolve this by either:
         "${CI_API_V4_URL}/job")
   ```
 
-## Job log output is not formatted as expected or contains unexpected characters
+## Job Log Output is not Formatted as Expected or Contains Unexpected Characters
 
 Sometimes the formatting in the job log displays incorrectly with tools that rely
+
 on the `TERM` environment variable for coloring or formatting. For example, with the `mypy` command:
 
 ![Example output](img/incorrect_log_rendering_v16_5.png)
 
 GitLab Runner runs the container's shell in non-interactive mode, so the shell's `TERM`
+
 environment variable is set to `dumb`. To fix the formatting for these tools, you can:
 
 - Add an additional script line to set `TERM=ansi` in the shell's environment before running the command.
 - Add a `TERM` [CI/CD variable](../variables/_index.md) with a value of `ansi`.
 
-## `after_script` section execution stops early and incorrect `$CI_JOB_STATUS` values
+## `after_script` Section Execution Stops Early and Incorrect `$CI_JOB_STATUS` Values
 
 In GitLab Runner 16.9.0 to 16.11.0:
 

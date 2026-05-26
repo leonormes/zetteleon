@@ -1,8 +1,10 @@
 ---
-stage: Software Supply Chain Security
+created: 2026-05-16T10:16:41+00:00
 group: Pipeline Security
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-title: 'Tutorial: Authenticating and reading secrets with HashiCorp Vault'
+modified: 2026-05-26T11:44:07+00:00
+stage: Software Supply Chain Security
+title: hashicorp_vault_tutorial
 ---
 
 {{< details >}}
@@ -28,14 +30,17 @@ To follow along, you must have:
 > You must replace the `vault.example.com` URL in the following example with the URL of your Vault server,
 > and `gitlab.example.com` with the URL of your GitLab instance.
 
-## Configure the vault
+## Configure the Vault
 
 > [!warning]
 > JWTs are credentials, which can grant access to resources. Be careful where you paste them!
 
 Consider a scenario where you store passwords for your staging and production databases in a Vault server.
+
 This scenario assumes you use the [KV v2](https://developer.hashicorp.com/vault/docs/secrets/kv#kv-version-2) secret engine.
+
 If you are using [KV v1](https://developer.hashicorp.com/vault/docs/secrets/kv#version-comparison),
+
 remove `/data/` from the following policy paths, and see [how to configure your CI/CD jobs](convert-to-id-tokens.md#kv-secrets-engine-v1).
 
 You can retrieve the passwords with the `vault kv get` command.
@@ -49,6 +54,7 @@ real-pa$$w0rd
 ```
 
 Your staging password is `pa$$w0rd`,
+
 and your production password is `real-pa$$w0rd`.
 
 To configure your Vault server, start by enabling the [JWT Auth](https://developer.hashicorp.com/vault/docs/auth/jwt) method:
@@ -85,6 +91,7 @@ Success! Uploaded policy: myproject-production
 You also need roles that link the JWT with these policies.
 
 For example, one role for staging named `myproject-staging`. The [bound claims](https://developer.hashicorp.com/vault/api-docs/auth/jwt#bound_claims)
+
 is configured to only allow the policy to be used for the `main` branch in the project with ID `22`:
 
 ```json
@@ -105,6 +112,7 @@ EOF
 ```
 
 And one role for production named `myproject-production`. The `bound_claims` section
+
 for this role only allows protected branches that match the `auto-deploy-*` pattern to access the secrets.
 
 ```json
@@ -127,9 +135,11 @@ EOF
 ```
 
 Combined with [protected branches](../../user/project/repository/branches/protected.md),
+
 you can restrict who is able to authenticate and read the secrets.
 
 Any of the claims [included in the JWT](id_token_authentication.md#token-payload)
+
 can be matched against a list of values in the bound claims. For example:
 
 ```json
@@ -156,19 +166,27 @@ can be matched against a list of values in the bound claims. For example:
   is in `namespace_id` then checks if the project is in `project_id`.
 
 [`token_explicit_max_ttl`](https://developer.hashicorp.com/vault/api-docs/auth/jwt#token_explicit_max_ttl)
+
 specifies that the token issued by Vault, upon successful authentication, has a hard lifetime limit of 60 seconds.
 
 [`user_claim`](https://developer.hashicorp.com/vault/api-docs/auth/jwt#user_claim)
+
 specifies the name for the Identity alias created by Vault upon a successful login.
 
 [`bound_claims_type`](https://developer.hashicorp.com/vault/api-docs/auth/jwt#bound_claims_type)
+
 configures the interpretation of the `bound_claims` values. If set to `glob`, the values are interpreted as globs,
+
 with `*` matching any number of characters.
 
 The [claim fields](id_token_authentication.md#token-payload) can also be accessed for
+
 [Vault's policy path templating](https://developer.hashicorp.com/vault/tutorials/policies/policy-templating?in=vault%2Fpolicies)
+
 purposes by using the accessor name of the JWT auth in Vault.
+
 The [mount accessor name](https://developer.hashicorp.com/vault/tutorials/auth-methods/identity#step-1-create-an-entity-with-alias)
+
 (`ACCESSOR_NAME` in the following example) can be retrieved by running `vault auth list`.
 
 Policy template example making use of a named metadata field named `project_path`:
@@ -180,7 +198,9 @@ path "secret/data/{{identity.entity.aliases.ACCESSOR_NAME.metadata.project_path}
 ```
 
 Role example to support the previous templated policy mapping the claim field, `project_path`,
+
 as a metadata field through use of [`claim_mappings`](https://developer.hashicorp.com/vault/api-docs/auth/jwt#claim_mappings)
+
 configuration:
 
 ```json
@@ -209,13 +229,17 @@ $ vault write auth/jwt/config \
 ```
 
 [`bound_issuer`](https://developer.hashicorp.com/vault/api-docs/auth/jwt#bound_issuer)
+
 specifies that only a JWT with the issuer (that is, the `iss` claim) set to `gitlab.example.com`
+
 can use this method to authenticate, and that the `oidc_discovery_url` (`https://gitlab.example.com`)
+
 should be used to validate the token.
 
 For the full list of available configuration options, see Vault's [API documentation](https://developer.hashicorp.com/vault/api-docs/auth/jwt#configure).
 
 In GitLab, create the following [CI/CD variables](../variables/_index.md#for-a-project)
+
 to provide details about your Vault server:
 
 - `VAULT_SERVER_URL`: The URL of your Vault server, for example `https://vault.example.com:8200`.
@@ -229,9 +253,10 @@ to provide details about your Vault server:
   to use for reading secrets and authentication. If no namespace is specified, Vault uses the root (`/`) namespace.
   The setting is ignored by Vault Open Source.
 
-## Automatic ID token authentication
+## Automatic ID Token Authentication
 
 The following job, when run for the default branch, can read secrets under `secret/myproject/staging/`,
+
 but not the secrets under `secret/myproject/production/`:
 
 ```yaml
@@ -279,7 +304,7 @@ job_with_secrets:
 > Starting in Vault 1.17, [JWT auth login requires bound audiences on the role](https://developer.hashicorp.com/vault/docs/upgrading/upgrade-to-1.17.x#jwt-auth-login-requires-bound-audiences-on-the-role)
 > when the JWT contains an `aud` claim. The `aud` claim can be a single string or a list of strings.
 
-### Manual authentication
+### Manual Authentication
 
 You can use ID tokens to authenticate with HashiCorp Vault manually. For example:
 
@@ -297,9 +322,10 @@ manual_authentication:
     - my-authentication-script.sh $VAULT_TOKEN $PASSWORD
 ```
 
-## Limit token access to Vault secrets
+## Limit Token Access to Vault Secrets
 
 You can control ID token access to Vault secrets by using Vault protections
+
 and GitLab features. For example, restrict the token by:
 
 - Using Vault [bound audiences](https://developer.hashicorp.com/vault/docs/auth/jwt#bound-audiences)
@@ -317,7 +343,7 @@ and GitLab features. For example, restrict the token by:
 
 ## Troubleshooting
 
-### `The secrets provider can not be found. Check your CI/CD variables and try again.` message
+### `The secrets provider can not be found. Check your CI/CD variables and try again.` Message
 
 You might receive this error when attempting to start a job configured to access HashiCorp Vault:
 
@@ -329,15 +355,18 @@ The job can't be created because the required variable is not defined:
 
 - `VAULT_SERVER_URL`
 
-### `api error: status code 400: missing role` error
+### `api error: status code 400: missing role` Error
 
 You might receive a `missing role` error when attempting to start a job configured to access HashiCorp Vault.
+
 The error could be because the `VAULT_AUTH_ROLE` variable is not defined, so the job cannot authenticate
+
 with the vault server.
 
-### `audience claim does not match any expected audience` error
+### `audience claim does not match any expected audience` Error
 
 If there is a mismatch between values of `aud:` claim of the ID token specified in the YAML file
+
 and the `bound_audiences` parameter of the `role` used for JWT authentication, you can get this error:
 
 `invalid audience (aud) claim: audience claim does not match any expected audience`

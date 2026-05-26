@@ -2,7 +2,7 @@
 aliases: ["Pragmatism"]
 created: 2025-11-10T17:08:00Z
 last_reviewed: ""
-modified: 2026-04-19T18:30:40+00:00
+modified: 2026-05-26T11:44:33+00:00
 status: "stable"
 tags: ["action", "pragmatism", "TheHuman/Philosophy", "truth"]
 title: Pragmatism Defines Truth by Practical Consequences

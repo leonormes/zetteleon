@@ -1,8 +1,10 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:40+00:00
 group: Pipeline Authoring
 info: This page is maintained by Developer Relations, author @dnsmichi, see <https://handbook.gitlab.com/handbook/marketing/developer-relations/developer-advocacy/content/#maintained-documentation>
-title: CI/CD component examples
+modified: 2026-05-26T11:44:08+00:00
+stage: Verify
+title: examples
 ---
 
 {{< details >}}
@@ -12,28 +14,31 @@ title: CI/CD component examples
 
 {{< /details >}}
 
-## Test a component
+## Test a Component
 
 Depending on a component's functionality, [testing the component](_index.md#test-the-component) might require additional files in the repository.
+
 For example, a component which lints, builds, and tests software in a specific programming language requires actual source code samples.
+
 You can have source code examples, configuration files, and similar in the same repository.
 
 For example, the Code Quality CI/CD component's has several [code samples for testing](https://gitlab.com/components/code-quality/-/tree/main/src).
 
-### Example: Test a Rust language CI/CD component
+### Example: Test a Rust Language CI/CD Component
 
 Depending on a component's functionality, [testing the component](_index.md#test-the-component) might require additional files in the repository.
 
 The following "hello world" example for the Rust programming language uses the `cargo` tool chain for simplicity:
 
 1. Go to the CI/CD component root directory.
-1. Initialize a new Rust project by using the `cargo init` command.
+2. Initialize a new Rust project by using the `cargo init` command.
 
    ```shell
    cargo init
    ```
 
    The command creates all required project files, including a `src/main.rs` "hello world" example.
+
    This step is sufficient to build the Rust source code in a component job with `cargo build`.
 
    ```plaintext
@@ -48,7 +53,7 @@ The following "hello world" example for the Rust programming language uses the `
        └── build.yml
    ```
 
-1. Ensure that the component has a job to build the Rust source code, for example,
+3. Ensure that the component has a job to build the Rust source code, for example,
    in `templates/build.yml`:
 
    ```yaml
@@ -75,7 +80,7 @@ The following "hello world" example for the Rust programming language uses the `
      The CI/CD job starts with a `build-` prefix and dynamically creates the name based on the `rust_version` input.
      The command `cargo build --verbose` compiles the Rust source code.
 
-1. Test the component's `build` template in the project's `.gitlab-ci.yml` configuration file:
+4. Test the component's `build` template in the project's `.gitlab-ci.yml` configuration file:
 
    ```yaml
    include:
@@ -87,7 +92,7 @@ The following "hello world" example for the Rust programming language uses the `
    stages: [build, test, release]
    ```
 
-1. For running tests and more, add additional functions and tests into the Rust code,
+5. For running tests and more, add additional functions and tests into the Rust code,
    and add a component template and job running `cargo test` in `templates/test.yml`.
 
    ```yaml
@@ -108,7 +113,7 @@ The following "hello world" example for the Rust programming language uses the `
        - cargo test --verbose
    ```
 
-1. Test the additional job in the pipeline by including the `test` component template:
+6. Test the additional job in the pipeline by including the `test` component template:
 
    ```yaml
    include:
@@ -123,13 +128,14 @@ The following "hello world" example for the Rust programming language uses the `
    stages: [build, test, release]
    ```
 
-## CI/CD component patterns
+## CI/CD Component Patterns
 
 This section provides practical examples of implementing common patterns in CI/CD components.
 
-### Use boolean inputs to conditionally configure jobs
+### Use Boolean Inputs to Conditionally Configure Jobs
 
 You can compose jobs with two conditionals by combining `boolean` type inputs and
+
 [`extends`](../yaml/_index.md#extends) functionality.
 
 For example, to configure complex caching behavior with a `boolean` input:
@@ -157,15 +163,21 @@ my-job:
 ```
 
 This pattern works by passing the `enable_special_caching` input into
+
 the `extends` keyword of the job.
+
 Depending on whether `enable_special_caching` is `true` or `false`,
+
 the appropriate configuration is selected from the predefined hidden jobs
+
 (`.my-component:enable_special_caching:true` or `.my-component:enable_special_caching:false`).
 
-### Use `options` to conditionally configure jobs
+### Use `options` to Conditionally Configure Jobs
 
 You can compose jobs with multiple options, for behavior similar to `if` and `elseif`
+
 conditionals. Use the [`extends`](../yaml/_index.md#extends) with `string` type
+
 and multiple `options` for any number of conditions.
 
 For example, to configure complex caching behavior with 3 different options:
@@ -189,7 +201,7 @@ spec:
   cache:
     policy: push
     key: $CI_COMMIT_SHA
-    paths: ['*/**']
+    paths: ['*/']
 
 .my-component:cache_mode:relaxed:
   cache:
@@ -203,11 +215,14 @@ my-job:
 ```
 
 In this example, `cache_mode` input offers `default`, `aggressive`, and `relaxed` options,
+
 each corresponding to a different hidden job.
+
 By extending the component job with `extends: '.my-component:cache_mode:$[[ inputs.cache_mode ]]'`,
+
 the job dynamically inherits the correct caching configuration based on the selected option.
 
-### Use component context to reference versioned resources
+### Use Component Context to Reference Versioned Resources
 
 {{< history >}}
 
@@ -217,7 +232,9 @@ the job dynamically inherits the correct caching configuration based on the sele
 {{< /history >}}
 
 Use component context [CI/CD expressions](../yaml/expressions.md) to reference component metadata, like version and commit SHA.
+
 One use case is to build and publish versioned resources (like Docker images) with your component,
+
 and ensure the component uses the matching version.
 
 For example, you can:
@@ -274,15 +291,18 @@ In this example:
 - The `component.reference` field shows the exact reference you specified, like `1.0`, `~latest`, or a SHA.
   The reference could be useful for logging or debugging.
 
-## CI/CD component migration examples
+## CI/CD Component Migration Examples
 
 This section shows practical examples of migrating CI/CD templates and pipeline configuration
+
 into reusable CI/CD components.
 
-### CI/CD component migration example: Go
+### CI/CD Component Migration Example: Go
 
 A complete pipeline for the software development lifecycle can be composed with multiple jobs and stages.
+
 CI/CD templates for programming languages may provide multiple jobs in a single template file.
+
 As a practice, the following Go CI/CD template should be migrated.
 
 ```yaml
@@ -322,14 +342,14 @@ The CI/CD template migration involves the following steps:
    - The `format` job runs multiple `go` commands in one job. The `go test` command should be moved
      into a separate job to increase pipeline efficiency.
    - The `compile` job runs `go build` and should be renamed to `build`.
-1. Define optimization strategies for better pipeline efficiency.
+2. Define optimization strategies for better pipeline efficiency.
    - The `stage` job attribute should be configurable to allow different CI/CD pipeline consumers.
    - The `image` key uses a hardcoded image tag `latest`. Add [`golang_version` as input](../inputs/_index.md)
      with `latest` as default value for more flexible and reusable pipelines. The input must match
      the Docker Hub image tag values.
    - The `compile` job builds the binaries into a hard-coded target directory `mybinaries`,
      which can be enhanced with a dynamic [input](../inputs/_index.md) and default value `mybinaries`.
-1. Create a template [directory structure](_index.md#directory-structure) for the new component,
+3. Create a template [directory structure](_index.md#directory-structure) for the new component,
    based on one template for each job.
 
    - The name of the template should follow the `go` command, for example `format.yml`, `build.yml`, and `test.yml`.
@@ -355,7 +375,7 @@ The CI/CD template migration involves the following steps:
    git push
    ```
 
-1. Create the CI/CD jobs as template. Start with the `build` job.
+4. Create the CI/CD jobs as template. Start with the `build` job.
    - Define the following inputs in the `spec` section: `stage`, `golang_version` and `binary_directory`.
    - Add a dynamic job name definition, accessing `inputs.golang_version`.
    - Use the similar pattern for dynamic Go image versions, accessing `inputs.golang_version`.
@@ -429,7 +449,7 @@ The CI/CD template migration involves the following steps:
          - go test -race $(go list ./... | grep -v /vendor/)
      ```
 
-1. In order to test the component, modify the `.gitlab-ci.yml` configuration file,
+5. In order to test the component, modify the `.gitlab-ci.yml` configuration file,
    and add [tests](_index.md#test-the-component).
 
    - Specify a different value for `golang_version` as input for the `build` job.
@@ -449,7 +469,7 @@ The CI/CD template migration involves the following steps:
            golang_version: latest
      ```
 
-1. Add Go source code to test the CI/CD component. The `go` commands expect a Go project
+6. Add Go source code to test the CI/CD component. The `go` commands expect a Go project
    with `go.mod` and `main.go` in the root directory.
 
    - Initialize the Go modules. Modify the URL for your CI/CD component path.
@@ -491,13 +511,16 @@ The CI/CD template migration involves the following steps:
      ```
 
 Follow the remaining steps in the [converting a CI/CD template into a component](_index.md#convert-a-cicd-template-to-a-component)
+
 section to complete the migration:
 
 1. Commit and push the changes, and verify the CI/CD pipeline results.
-1. Follow the guidance on [writing a component](_index.md#write-a-component) to update the `README.md` and `LICENSE.md` files.
-1. [Release the component](_index.md#publish-a-new-release) and verify it in the CI/CD catalog.
-1. Add the CI/CD component into your staging/production environment.
+2. Follow the guidance on [writing a component](_index.md#write-a-component) to update the `README.md` and `LICENSE.md` files.
+3. [Release the component](_index.md#publish-a-new-release) and verify it in the CI/CD catalog.
+4. Add the CI/CD component into your staging/production environment.
 
 The [GitLab-maintained Go component](https://gitlab.com/components/go) provides an example
+
 for a successful migration from a Go CI/CD template, enhanced with inputs and component best practices.
+
 You can inspect the Git history to learn more.

@@ -1,6 +1,6 @@
 ---
 created: 2026-05-15T08:22:55+00:00
-modified: 2026-05-18T14:45:29+00:00
+modified: 2026-05-26T11:44:26+00:00
 title: Operating Protocol for High-Friction Engineering Work
 ---
 

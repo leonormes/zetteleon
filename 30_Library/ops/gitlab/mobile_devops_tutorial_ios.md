@@ -1,20 +1,23 @@
 ---
-stage: Verify
+created: 2026-05-16T10:16:41+00:00
 group: Mobile DevOps
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-title: 'Tutorial: Build iOS apps with GitLab Mobile DevOps'
+modified: 2026-05-26T11:44:02+00:00
+stage: Verify
+title: mobile_devops_tutorial_ios
 ---
 
 In this tutorial, you'll create a pipeline by using GitLab CI/CD that builds your iOS mobile app,
+
 signs it with your credentials, and distributes it to app stores.
 
 To set up mobile DevOps:
 
 1. [Set up your build environment](#set-up-your-build-environment)
-1. [Configure code signing with fastlane](#configure-code-signing-with-fastlane)
-1. [Set up app distribution with Apple Store integration and fastlane](#set-up-app-distribution-with-apple-store-integration-and-fastlane)
+2. [Configure code signing with fastlane](#configure-code-signing-with-fastlane)
+3. [Set up app distribution with Apple Store integration and fastlane](#set-up-app-distribution-with-apple-store-integration-and-fastlane)
 
-## Before you begin
+## Before You Begin
 
 Before you start this tutorial, make sure you have:
 
@@ -23,14 +26,16 @@ Before you start this tutorial, make sure you have:
 - An Apple Developer account
 - [`fastlane`](https://fastlane.tools) installed locally
 
-## Set up your build environment
+## Set up Your Build Environment
 
 Use [GitLab-hosted runners](../runners/_index.md),
+
 or set up [self-managed runners](https://docs.gitlab.com/runner/#use-self-managed-runners)
+
 for complete control over the build environment.
 
 1. Create a `.gitlab-ci.yml` file in your repository root.
-1. Add a [supported macOS images](../runners/hosted_runners/macos.md#supported-macos-images) to run a job on a [macOS GitLab hosted runners](../runners/hosted_runners/macos.md) (beta):
+2. Add a [supported macOS images](../runners/hosted_runners/macos.md#supported-macos-images) to run a job on a [macOS GitLab hosted runners](../runners/hosted_runners/macos.md) (beta):
 
    ```yaml
    test:
@@ -42,7 +47,7 @@ for complete control over the build environment.
        - saas-macos-medium-m1
    ```
 
-## Configure code signing with fastlane
+## Configure Code Signing with Fastlane
 
 To set up code signing for iOS, upload signed certificates to GitLab by using fastlane:
 
@@ -52,25 +57,26 @@ To set up code signing for iOS, upload signed certificates to GitLab by using fa
    fastlane init
    ```
 
-1. Generate a `Matchfile` with the configuration:
+2. Generate a `Matchfile` with the configuration:
 
    ```shell
    fastlane match init
    ```
 
-1. Generate certificates and profiles in the Apple Developer portal and upload those files to GitLab:
+3. Generate certificates and profiles in the Apple Developer portal and upload those files to GitLab:
 
    ```shell
    PRIVATE_TOKEN=YOUR-TOKEN bundle exec fastlane match development
    ```
 
-1. Optional. If you have already created signing certificates and provisioning profiles for your project, use `fastlane match import` to load your existing files into GitLab:
+4. Optional. If you have already created signing certificates and provisioning profiles for your project, use `fastlane match import` to load your existing files into GitLab:
 
    ```shell
    PRIVATE_TOKEN=YOUR-TOKEN bundle exec fastlane match import
    ```
 
 You are prompted to input the path to your files. After you provide those details, your files are uploaded and visible in your project's CI/CD settings.
+
 If prompted for the `git_url` during the import, it is safe to leave it blank and press <kbd>enter</kbd>.
 
 The following are sample `fastlane/Fastfile` and `.gitlab-ci.yml` files with this configuration:
@@ -109,7 +115,7 @@ The following are sample `fastlane/Fastfile` and `.gitlab-ci.yml` files with thi
       - saas-macos-medium-m1
   ```
 
-## Set up app distribution with Apple Store integration and fastlane
+## Set up App Distribution with Apple Store Integration and Fastlane
 
 Signed builds can be uploaded to the Apple App Store by using the Mobile DevOps Distribution integrations.
 
@@ -121,18 +127,18 @@ Prerequisites:
 To create an iOS distribution with the Apple Store integration and fastlane:
 
 1. Generate an API Key for App Store Connect API. In the Apple App Store Connect portal, [generate a new private key for your project](https://developer.apple.com/documentation/appstoreconnectapi/creating_api_keys_for_app_store_connect_api).
-1. Enable the Apple App Store Connect integration:
-   1. In the top bar, select **Search or go to** and find your project.
-   1. Select **Settings** > **Integrations**.
-   1. Select **Apple App Store Connect**.
-   1. Under **Enable integration**, select the **Active** checkbox.
-   1. Provide the Apple App Store Connect configuration information:
-      - **Issuer ID**: The Apple App Store Connect issuer ID.
-      - **Key ID**: The key ID of the generated private key.
-      - **Private key**: The generated private key. You can download this key only once.
-      - **Protected branches and tags only**: Enable to set variables on protected branches and tags only.
-   1. Select **Save changes**.
-1. Add the release step to your pipeline and fastlane configuration.
+2. Enable the Apple App Store Connect integration:
+   1. In the top bar, select Search or go to and find your project.
+   2. Select Settings > Integrations.
+   3. Select Apple App Store Connect.
+   4. Under Enable integration, select the Active checkbox.
+   5. Provide the Apple App Store Connect configuration information:
+      - Issuer ID: The Apple App Store Connect issuer ID.
+      - Key ID: The key ID of the generated private key.
+      - Private key: The generated private key. You can download this key only once.
+      - Protected branches and tags only: Enable to set variables on protected branches and tags only.
+   6. Select Save changes.
+3. Add the release step to your pipeline and fastlane configuration.
 
 The following is a sample `fastlane/Fastfile`:
 
@@ -176,9 +182,10 @@ beta_ios:
 ```
 
 Congratulations! Your app is now set up for automated building, signing, and distribution. Try creating
+
 a merge request to trigger your first pipeline.
 
-## Sample projects
+## Sample Projects
 
 Sample Mobile DevOps projects with pipelines configured to build, sign, and release mobile apps are available for:
 

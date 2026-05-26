@@ -3,7 +3,7 @@ aliases: ["AWS IAM"]
 created: 2026-04-05T10:30:00Z
 last-synthesis: 2026-04-05
 last_reviewed: 
-modified: 2026-04-19T18:30:35+00:00
+modified: 2026-05-26T11:44:21+00:00
 status: "Active"
 synthesis-count: 1
 tags: ["aws", "iam", "security", "sot"]

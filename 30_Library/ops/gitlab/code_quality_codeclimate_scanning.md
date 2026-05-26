@@ -1,8 +1,10 @@
 ---
-stage: Application Security Testing
+created: 2026-05-16T10:16:41+00:00
 group: Static Analysis
 info: To determine the technical writer assigned to the Stage/Group associated with this page, see <https://handbook.gitlab.com/handbook/product/ux/technical-writing/#assignments>
-title: Configure CodeClimate-based Code Quality scanning (deprecated)
+modified: 2026-05-26T11:44:10+00:00
+stage: Application Security Testing
+title: code_quality_codeclimate_scanning
 ---
 
 <!--- start_remove The following content will be removed on remove_date: '2026-08-15' -->
@@ -19,6 +21,7 @@ title: Configure CodeClimate-based Code Quality scanning (deprecated)
 > [Integrate the results from a supported tool directly](code_quality.md#import-code-quality-results-from-a-cicd-job) instead. This change is a breaking change.
 
 Code Quality includes a built-in CI/CD template, `Code-Quality.gitlab-ci.yaml`.
+
 This template runs a scan based on the open source CodeClimate scanning engine.
 
 The CodeClimate engine runs:
@@ -26,7 +29,7 @@ The CodeClimate engine runs:
 - Basic maintainability checks for a [set of supported languages](https://docs.codeclimate.com/docs/supported-languages-for-maintainability).
 - A configurable set of [plugins](https://docs.codeclimate.com/docs/list-of-engines), which wrap open source scanners, to analyze your source code.
 
-## Enable CodeClimate-based scanning
+## Enable CodeClimate-based Scanning
 
 Prerequisites:
 
@@ -62,10 +65,12 @@ To enable Code Quality, either:
 > could execute privileged Docker commands on the runner host. Having proper access control policies
 > mitigates this attack vector by allowing access only to trusted actors.
 
-## Disable CodeClimate-based scanning
+## Disable CodeClimate-based Scanning
 
 The `code_quality` job doesn't run if the `$CODE_QUALITY_DISABLED` CI/CD variable
+
 is present. For more information about how to define a variable, see
+
 [GitLab CI/CD variables](../variables/_index.md).
 
 To disable Code Quality, create a custom CI/CD variable named `CODE_QUALITY_DISABLED`, for either:
@@ -73,7 +78,7 @@ To disable Code Quality, create a custom CI/CD variable named `CODE_QUALITY_DISA
 - [The whole project](../variables/_index.md#for-a-project).
 - [A single pipeline](../pipelines/_index.md#run-a-pipeline-manually).
 
-## Configure CodeClimate analysis plugins
+## Configure CodeClimate Analysis Plugins
 
 By default, the `code_quality` job configures CodeClimate to:
 
@@ -81,12 +86,13 @@ By default, the `code_quality` job configures CodeClimate to:
 - Use [default configurations](https://gitlab.com/gitlab-org/ci-cd/codequality/-/tree/master/codeclimate_defaults?ref_type=heads) for those plugins.
 
 To scan more languages, you can enable more [plugins](https://docs.codeclimate.com/docs/list-of-engines).
+
 You can also disable plugins that the `code_quality` job enables by default.
 
 For example, to use the [SonarJava analyzer](https://docs.codeclimate.com/docs/sonar-java):
 
 1. Add a file named `.codeclimate.yml` to the root of your repository
-1. Add the [enablement code](https://docs.codeclimate.com/docs/sonar-java#enable-the-plugin)
+2. Add the [enablement code](https://docs.codeclimate.com/docs/sonar-java#enable-the-plugin)
    for the plugin to the root of your repository to the `.codeclimate.yml` file:
 
    ```yaml
@@ -97,26 +103,31 @@ For example, to use the [SonarJava analyzer](https://docs.codeclimate.com/docs/s
    ```
 
 This adds SonarJava to the `plugins:` section of the
+
 [default `.codeclimate.yml`](https://gitlab.com/gitlab-org/ci-cd/codequality/-/blob/master/codeclimate_defaults/.codeclimate.yml.template)
+
 included in your project.
 
 Changes to the `plugins:` section do not affect the `exclude_patterns` section of the default
+
 `.codeclimate.yml`. See the Code Climate documentation on
+
 [excluding files and folders](https://docs.codeclimate.com/docs/excluding-files-and-folders)
+
 for more details.
 
-## Customize scan job settings
+## Customize Scan Job Settings
 
 You can change the behavior of the `code_quality` scan job by setting [CI/CD variables](#available-cicd-variables) in your GitLab CI/CD YAML.
 
 To configure the Code Quality job:
 
 1. Declare a job with the same name as the Code Quality job, after the template's inclusion.
-1. Specify additional keys in the job's stanza.
+2. Specify additional keys in the job's stanza.
 
 For an example, see [Download output in HTML format](#output-in-only-html-format).
 
-### Available CI/CD variables
+### Available CI/CD Variables
 
 Code Quality can be customized by defining available CI/CD variables:
 
@@ -138,17 +149,23 @@ Code Quality can be customized by defining available CI/CD variables:
 ### Output
 
 Code Quality outputs a report containing details of issues found. The content of this report is
+
 processed internally and the results shown in the UI. The report is also output as a job artifact of
+
 the `code_quality` job, named `gl-code-quality-report.json`. You can optionally output the report in
+
 HTML format. For example, you could publish the HTML format file on GitLab Pages for even easier
+
 reviewing.
 
-#### Output in JSON and HTML format
+#### Output in JSON and HTML Format
 
 To output the Code Quality report in JSON and HTML format, you create an additional job. This requires
+
 Code Quality to be run twice, once each for file format.
 
 To output the Code Quality report in HTML format, add another job to your template by using
+
 `extends: code_quality`:
 
 ```yaml
@@ -164,11 +181,13 @@ code_quality_html:
 ```
 
 Both the JSON and HTML files are output as job artifacts. The HTML file is contained in the
+
 `artifacts.zip` job artifact.
 
-#### Output in only HTML format
+#### Output in only HTML Format
 
 To download the Code Quality report in only HTML format, set `REPORT_FORMAT` to `html`, overriding
+
 the default definition of the `code_quality` job.
 
 > [!note]
@@ -188,12 +207,14 @@ code_quality:
 
 The HTML file is output as a job artifact.
 
-## Use Code Quality with merge request pipelines
+## Use Code Quality with Merge Request Pipelines
 
 The default Code Quality configuration does not allow the `code_quality` job to run on
+
 [merge request pipelines](../pipelines/merge_request_pipelines.md).
 
 To enable Code Quality to run on merge request pipelines, overwrite the code quality `rules`,
+
 or [`workflow: rules`](../yaml/_index.md#workflow), so that they match your current `rules`.
 
 For example:
@@ -211,13 +232,15 @@ code_quality:
     - if: $CI_COMMIT_TAG                               # Run code quality job in pipelines for tags
 ```
 
-## Change how CodeClimate images are downloaded
+## Change how CodeClimate Images Are Downloaded
 
 The CodeClimate engine downloads container images to run each of its plugins.
+
 By default, the images are downloaded from Docker Hub.
+
 You can change the image source to improve performance, work around Docker Hub rate limits, or use a private registry.
 
-### Use the Dependency Proxy to download images
+### Use the Dependency Proxy to Download Images
 
 You can use a Dependency Proxy to reduce the time taken to download dependencies.
 
@@ -247,7 +270,7 @@ code_quality:
     CODECLIMATE_REGISTRY_PASSWORD: $CI_DEPENDENCY_PROXY_PASSWORD
 ```
 
-### Use Docker Hub with authentication
+### Use Docker Hub with Authentication
 
 You can use Docker Hub as an alternate source of the Code Quality images.
 
@@ -274,11 +297,14 @@ code_quality:
     CODECLIMATE_REGISTRY_PASSWORD: $DOCKERHUB_PASSWORD
 ```
 
-### Use a private container image registry
+### Use a Private Container Image Registry
 
 Using a private container image registry can reduce the time taken to download images, and also
+
 reduce external dependencies. You must configure the registry prefix to be passed down
+
 to CodeClimate's subsequent `docker pull` commands for individual engines, because of
+
 the nested method of container execution.
 
 The following variables can address all of the required image pulls:
@@ -305,10 +331,12 @@ code_quality:
 ```
 
 This example is specific to GitLab Code Quality. For more general instructions on how to configure
+
 DinD with a registry mirror, see
+
 [Enable registry mirror for Docker-in-Docker service](../docker/using_docker_build.md#enable-registry-mirror-for-dockerdind-service).
 
-#### Required images
+#### Required Images
 
 The following images are required for the [default `.codeclimate.yml`](https://gitlab.com/gitlab-org/ci-cd/codequality/-/blob/master/codeclimate_defaults/.codeclimate.yml.template):
 
@@ -322,14 +350,16 @@ The following images are required for the [default `.codeclimate.yml`](https://g
 
 If you are using a custom `.codeclimate.yml` configuration file, you must add the specified plugins in your private container registry.
 
-## Change Runner configuration
+## Change Runner Configuration
 
 CodeClimate runs separate containers for each of its analysis steps.
+
 You may need to adjust your Runner configuration so that CodeClimate-based scans can run, or so that they run faster.
 
-### Use private runners
+### Use Private Runners
 
 If you have private runners, you should use this configuration for improved performance of Code
+
 Quality because:
 
 - Privileged mode is not used.
@@ -337,7 +367,9 @@ Quality because:
 - Docker images, including all CodeClimate images, are cached, and not re-fetched for subsequent jobs.
 
 This alternative configuration uses socket binding to share the Runner's Docker daemon
+
 with the job environment. Before implementing this configuration, consider its
+
 [limitations](../docker/using_docker_build.md#use-docker-socket-binding).
 
 To use private runners:
@@ -356,7 +388,7 @@ To use private runners:
      --non-interactive
    ```
 
-1. **Optional, but recommended**: Set the builds directory to `/tmp/builds`,
+2. Optional, but recommended: Set the builds directory to `/tmp/builds`,
    so job artifacts are periodically purged from the runner host. If you skip
    this step, you must clean up the default builds directory (`/builds`) yourself.
    You can do this by adding the following two flags to `gitlab-runner register`
@@ -390,7 +422,7 @@ To use private runners:
        [runners.cache.gcs]
    ```
 
-1. Apply two overrides to the `code_quality` job created by the template:
+3. Apply two overrides to the `code_quality` job created by the template:
 
    ```yaml
    include:
@@ -404,7 +436,7 @@ To use private runners:
 
 Code Quality now runs in standard Docker mode.
 
-### Run CodeClimate rootless with private runners
+### Run CodeClimate Rootless with Private Runners
 
 If you are using private runners and would like to run the Code Quality scans [in rootless Docker mode](https://docs.docker.com/engine/security/rootless/) code quality requires some special changes to allow it to run properly. This may require having a runner dedicated to running only code quality jobs because changes in socket binding may cause problems in other jobs.
 
@@ -457,7 +489,7 @@ To use a rootless private runner:
        [runners.cache.gcs]
    ```
 
-1. Apply the following overrides to the `code_quality` job created by the template:
+2. Apply the following overrides to the `code_quality` job created by the template:
 
    ```yaml
    code_quality:
@@ -472,7 +504,7 @@ Code Quality now runs in standard Docker mode and rootless.
 
 The same configuration is required if your goal is to [use rootless Podman to run Docker](https://docs.gitlab.com/runner/executors/docker/#use-podman-to-run-docker-commands) with code quality. Make sure to replace `/run/user/<gitlab-runner-user>/docker.sock` with the correct `podman.sock` path in your system, for example: `/run/user/<gitlab-runner-user>/podman/podman.sock`.
 
-### Configure Kubernetes or OpenShift runners
+### Configure Kubernetes or OpenShift Runners
 
 You must set up Docker in a Docker container (Docker-in-Docker) to use Code Quality. The Kubernetes executor [supports Docker-in-Docker](https://docs.gitlab.com/runner/executors/kubernetes/#using-dockerdind).
 
@@ -491,6 +523,7 @@ To run Code Quality in Kubernetes:
 - The Docker socket must be shared with a volume.
 
 Due to a [Docker requirement](https://docs.docker.com/reference/cli/docker/container/run/#privileged), the privileged flag
+
 must be enabled for the service container.
 
 ```toml
@@ -545,7 +578,9 @@ code_quality:
 #### OpenShift
 
 For OpenShift, you should use the [GitLab Runner Operator](https://docs.gitlab.com/runner/install/operator/).
+
 To give the Docker daemon in the service container permissions to initialize its storage,
+
 you must mount the `/var/lib` directory as a volume mount.
 
 > [!note]
@@ -588,7 +623,7 @@ name = "docker:29.1.4-dind"
 ```
 
 1. [Set the custom configuration to your runner](https://docs.gitlab.com/runner/configuration/configuring_runner_operator/#customize-configtoml-with-a-configuration-template).
-1. Optional. Attach a [`privileged` service account](https://docs.openshift.com/container-platform/3.11/admin_guide/manage_scc.html)
+2. Optional. Attach a [`privileged` service account](https://docs.openshift.com/container-platform/3.11/admin_guide/manage_scc.html)
    to the build Pod. This depends on your OpenShift cluster setup:
 
    ```shell
@@ -597,8 +632,8 @@ name = "docker:29.1.4-dind"
    oc adm policy add-scc-to-user -z dind-sa privileged
    ```
 
-1. Set the permissions in the [`[runners.kubernetes]` section](https://docs.gitlab.com/runner/executors/kubernetes/#other-configtoml-settings).
-1. Set the job definition stays the same as in Kubernetes case:
+3. Set the permissions in the [`[runners.kubernetes]` section](https://docs.gitlab.com/runner/executors/kubernetes/#other-configtoml-settings).
+4. Set the job definition stays the same as in Kubernetes case:
 
    ```yaml
    include:
@@ -613,8 +648,10 @@ name = "docker:29.1.4-dind"
      - while ! docker info > /dev/null 2>&1; do sleep 1; done
    ```
 
-#### Volumes and Docker storage
+#### Volumes and Docker Storage
 
 Docker stores all of its data in the `/var/lib` volume, which could result in a large volume. To reuse Docker-in-Docker storage across the cluster,
+
 you can use [Persistent Volumes](https://kubernetes.io/docs/concepts/storage/persistent-volumes/) as an alternative.
+
 <!--- end_remove -->

@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-30T12:10:07Z
 last_reviewed: ""
-modified: 2026-04-19T18:30:43+00:00
+modified: 2026-05-26T11:44:36+00:00
 source: "[[MOC - ADHD (The Master Map)]]"
 status: seedling
 tags: [environment, novelty, TheHuman/Health/ADHD, writing]
