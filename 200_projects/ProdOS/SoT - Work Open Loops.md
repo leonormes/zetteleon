@@ -1,9 +1,9 @@
 ---
-last_updated: 2026-05-26T10:28:01+01:00
+last_updated: 2026-05-26T11:00:00+01:00
 top3:
-  - "FTFL-638: Unblock Grafana Monitoring in testing cluster (stale 4d, going cold)"
-  - "FTFL-599: Update and test Azure backup restore runbook"
-  - "FTFL-602: The Hyve alerting implementation"
+  - "FTFL-638: Resume Grafana Monitoring in testing cluster — stale 4d, going cold"
+  - "FTFL-476: Identify and escalate blocker on OMOP Stress Testing infra"
+  - "FTFL-599: Schedule Azure backup restore runbook update into current sprint"
 ---
 
 # Work Open Loops — Source of Truth
@@ -11,7 +11,7 @@ top3:
 | ID | Source | Summary | Priority | Status | Last Activity | Next Action |
 |----|--------|---------|----------|--------|---------------|-------------|
 | FTFL-476 | Jira | OMOP Stress Testing infra + monitoring | 🔴 critical | 🚫Blocked | — | Identify blocker, escalate or deprioritise |
-| FTFL-638 | Jira | Missing Grafana Monitoring in testing cluster | 🟠 high | In Progress | 2026-05-22 | Resume work — stale 4 days, going cold |
+| FTFL-638 | Jira | Missing Grafana Monitoring in testing cluster | 🔴 critical | In Progress | 2026-05-22 | Resume work — stale 4 days, going cold |
 | FTFL-599 | Jira | Update and test the runbook for Azure backup restore | 🟡 medium | Selected for Development | — | Schedule into current sprint |
 | FTFL-602 | Jira | The Hyve alerting | 🟡 medium | Selected for Development | — | Schedule into current sprint |
 | FTFL-478 | Jira | Grafana Workflows Monitoring Dashboard | 🟢 low | Backlog | — | Review when higher-priority items cleared |
@@ -23,4 +23,6 @@ top3:
 
 ## Resolved
 
-*(No resolved issues since last run — this is the initial run.)*
+| ID | Summary | Resolved Date |
+|----|---------|---------------|
+| — | No issues resolved since last run (2026-05-26 10:28) | — |
