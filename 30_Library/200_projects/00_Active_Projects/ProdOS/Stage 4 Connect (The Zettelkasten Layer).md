@@ -1,20 +1,17 @@
 ---
-aliases: []
+aliases: ["Linking Stage", "Zettelkasten Layer"]
 created: 2025-12-04T12:23:40Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:23+00:00
-status: ""
-tags: []
+modified: 2026-05-26T09:04:24+00:00
+status: "stable"
+tags: ["connection", "pkm", "prodos", "writing"]
 title: Stage 4 Connect (The Zettelkasten Layer)
-type: ""
-updated: 
 ---
 
 _The Goal: To place your new understanding into the context of your existing knowledge._
 
 An idea gains its true power when it is connected to other ideas. This stage transforms an isolated note into a node in your network of thought.
 
-The Method: Deliberate Linking
+## The Method: Deliberate Linking
 
 1. Review the Questions from Stage 3: The new questions your note raises are often the best signposts for links.
 2. Create Links: Based on your reflection, add links to other notes in your system.
@@ -24,4 +21,6 @@ The Method: Deliberate Linking
 
 Outcome: A new, well-formed atomic note that is integrated into your Zettelkasten, enriching both itself and the notes it connects to.
 
-[[200_projects/ProdOS/The Unified Writing to Think Process]]
+## Next Stage
+
+Proceed to [[Stage 5 Synthesise (The Outcome Layer)]].
