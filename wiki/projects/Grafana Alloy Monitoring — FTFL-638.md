@@ -3,12 +3,13 @@ title: Grafana Alloy Monitoring — FTFL-638
 wiki_type: dossier
 entity_kind: project
 created: 2026-05-06T20:15:00+00:00
-modified: 2026-05-26T17:30:00+00:00
+modified: 2026-05-27T12:05:00+00:00
 tags: [wiki, dossier]
 sources:
   - raw/2026-05-06-pieces-grafana-alloy-monitoring
   - raw/2026-05-26-pieces-ftfl599-ftfl638-prodos
   - raw/2026-05-26-pieces-ftfl638-antigravity-cursor-prompt
+  - raw/2026-05-27-pieces-alloy-image-pull-secret
 ---
 
 ## Summary
@@ -16,6 +17,12 @@ sources:
 A Kubernetes monitoring stack project focused on Grafana/Alloy Helm deployment and Loki log labeling. The primary ticket is **FTFL-638** (Grafana/Alloy log labeling improvements), with related work tracked under FTFL-511/512. The goal is to define a production-ready `values.yaml` shape for the Grafana/Alloy deployment, fix YAML indentation and label consistency issues in the Alloy ConfigMap, and produce a staged plan to stabilise the testing cluster so that logs for `ffcloud-service`, `frontend`, and `spicedb` are reliably labeled and queryable in Loki.
 
 ## Key Facts
+
+- **2026-05-27**: `fitfile-image-pull-secret` missing from `monitoring` namespace — Alloy-logs DaemonSet pods (x8t45: 167, tbnz9: 212, hl9v2: 213 occurrences) all hitting `FailedToRetrieveImagePullSecret`. This is the **4th known recurrence** (Jan 22, Mar 27, May 5, May 27) — [[raw/2026-05-27-pieces-alloy-image-pull-secret]] (Pieces: 22e8d732-027b-4357-8f4a-2497823a02dd)
+
+- **2026-05-27**: Root cause identified — wrong secret name and wrong secret type. A secret named `argocd-acr-pull-secret` (ArgoCD Helm OCI repo credential, type Opaque) was created in `monitoring`, but alloy-logs expects `fitfile-image-pull-secret` (type kubernetes.io/dockerconfigjson with .dockerconfigjson data key) — [[raw/2026-05-27-pieces-alloy-image-pull-secret]] (Pieces: 197fa585-493b-4385-b7fd-ade194efe574)
+
+- **Secret replication chain**: (1) Terraform creates VaultDynamicSecret `fitfile-image-pull` in argocd namespace → (2) VSO reads creds/acr-pull from Vault, creates `fitfile-image-pull-secret` (kubernetes.io/dockerconfigjson) in argocd → (3) Reflector auto-replicates to namespaces listed in `namespaces_for_image_pull_secret` → (4) kubernetes_default_service_account_v1 injects imagePullSecrets — [[raw/2026-05-27-pieces-alloy-image-pull-secret]] (Pieces: 98a0aea4-ba8f-4161-b6ae-ff08d93dea69)
 
 - The project spans Jira tickets FTFL-638 (log labeling), FTFL-511, and FTFL-512.
   > "Recent fixes and decisions documented in Jira: FTFL-638 (Grafana/Alloy log labeling improvements), and related notes about labelsToKeep (pod, namespace, container, and later job/stream/flags additions)." — [[raw/2026-05-06-pieces-grafana-alloy-monitoring]] (Pieces: cc31dc88-8370-40ed-8d2e-8ed5943921ad)
@@ -56,6 +63,7 @@ A Kubernetes monitoring stack project focused on Grafana/Alloy Helm deployment a
 - [[wiki/projects/Azure AKS Backup — FTFL]] (same FTFL program; FTFL-596/599/615)
 - [[wiki/projects/gcx CLI — FITFILE Grafana Stacks]] (gcx tool used for Grafana Cloud investigation)
 - [[wiki/projects/Hermes-Agent]] (Hermes orchestration used to produce the antigravity-cli prompt)
+- [[wiki/projects/FITFILE Testing Infrastructure]] (same testing cluster; Terraform AKS and secrets management)
 
 ## Contradictions
 

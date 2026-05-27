@@ -1,6 +1,6 @@
 ---
 created: 2026-04-28T00:00:00+00:00
-modified: 2026-05-26 by Project Check-In (1 existing page updated: Grafana Alloy Monitoring — FTFL-638)
+modified: 2026-05-27 by Project Check-In (cron): 2 new project pages created (FITFILE-Testing-Infrastructure, Hermes-Multi-Model-Routing-Strategy); 3 raw notes created; 1 existing page updated (Grafana Alloy Monitoring — FTFL-638)
 tags: [index, system]
 title: index
 ---
@@ -56,6 +56,8 @@ _(empty—populated on first ingest)_
 - [[wiki/projects/Semble]]—Semantic code search library integration for Hermes agents; replaces grep+read with BM25+semantic hybrid, achieving ~84% token reduction.
 - [[wiki/projects/Zsh-Config]]—Zsh command-line editing via `edit-command-line` ZLE widget bound to Vim; chezmoi-managed configuration.
 - [[wiki/projects/Calibre Semantic Ebook Research]]—Hermes skill system for semantic search across the Calibre ebook library, generating reading lists and research notes integrated with Obsidian PKM.
+- [[wiki/projects/FITFILE Testing Infrastructure]]—Operational infrastructure work on the FITFILE Azure testing environment: AKS cluster management, Terraform state conflicts, Kubernetes secrets propagation; testing cluster `fitfile-cloud-testing-aks-cluster`.
+- [[wiki/projects/Hermes Multi-Model Routing Strategy]]—Research and architecture for Hermes's multi-model orchestration: free models (Owl Alpha) for planning, premium models (Claude Code, cloud) for complex execution; debugging CLI timeouts and OpenRouter routing.
 
 ### `wiki/orgs/`
 

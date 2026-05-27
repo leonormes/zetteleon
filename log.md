@@ -402,3 +402,12 @@ Append-only—never edit past entries.
 - Wiki pages touched: [[wiki/projects/Grafana Alloy Monitoring — FTFL-638]]
 - Pieces IDs ingested: 6 new substantive assets (28 total in 4h window, 0 duplicates filtered; 22 noise/short filtered)
 - Flags: none—User requested antigravity-cli prompt for FTFL-638 Grafana Helm chart analysis across clusters; complete Cursor context prompt produced with full remediation history; new environment details captured (AKS v1.34.7, gcx v0.2.16, branch feature/FTFL-638-add-labels-for-logs)
+
+## 2026-05-27 12:55 — Daily Synthesis
+
+- **Action:** Ingest (Pieces LTM)
+- **Raw sources created:** [[raw/2026-05-27-pieces-terraform-aks-upgrade-override]], [[raw/2026-05-27-pieces-alloy-image-pull-secret]], [[raw/2026-05-27-pieces-hermes-openrouter-claude]]
+- **Wiki pages touched:** [[wiki/projects/Grafana Alloy Monitoring — FTFL-638]], [[wiki/projects/Hermes-Model-Configuration]]
+- **Wiki pages created:** [[wiki/projects/FITFILE Testing Infrastructure]], [[wiki/projects/Hermes Multi-Model Routing Strategy]]
+- **Pieces IDs ingested:** 14 substantive assets (92 total in 4h window)
+- **Flags:** none

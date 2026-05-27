@@ -1,27 +1,25 @@
-*Shared Message from Pieces (https://pieces.app) by Leon Ormes (leonormes@gmail.com) on Wednesday May 27, 2026 - 10:38 AM*
 ---
-Both pagination chains are now `"sufficient"`. Here is the full synthesis.
-
+created: 2026-05-27T09:38:15+00:00
+modified: 2026-05-27T09:57:10+00:00
+title: "`fitfile-image-pull-secret` missing from `monitoring` namespace"
 ---
 
-## Root cause & fix: `fitfile-image-pull-secret` missing from `monitoring` namespace
+## What the Corpus Confirms
 
-### What the corpus confirms
+This is a known recurring issue. Your memory has at least three prior occurrences of `fitfile-image-pull-secret` going missing from the `monitoring` namespace—Jan 22 2026, Mar 27 2026, and May 5 2026—all producing the same `FailedToRetrieveImagePullSecret` pattern. The current occurrence is the fourth.
 
-**This is a known recurring issue.** Your memory has at least three prior occurrences of `fitfile-image-pull-secret` going missing from the `monitoring` namespace — Jan 22 2026, Mar 27 2026, and May 5 2026 — all producing the same `FailedToRetrieveImagePullSecret` pattern. The current occurrence is the fourth.
-
-**Registry server confirmed**: `fitfileregistry.azurecr.io` (Azure Container Registry). Evidence: from your Jan 22 debugging session the exact pull failure was:
+Registry server confirmed: `fitfileregistry.azurecr.io` (Azure Container Registry). Evidence: from your Jan 22 debugging session the exact pull failure was:
 
 > `Failed to pull image "fitfileregistry.azurecr.io/grafana/alloy:v1.3.1": failed to authorize: failed to fetch anonymous token`
 
-**The DaemonSet spec carries this imagePullSecret explicitly.** A Mar 27 2026 session showed the alloy-logs DaemonSet manifest contains:
+The DaemonSet spec carries this imagePullSecret explicitly. A Mar 27 2026 session showed the alloy-logs DaemonSet manifest contains:
 
 ```yaml
 imagePullSecrets:
   - name: fitfile-image-pull-secret
 ```
 
-**The secret is Terraform-managed**, not manually created. A Jan 26 2026 Terraform plan output shows:
+The secret is Terraform-managed, not manually created. A Jan 26 2026 Terraform plan output shows:
 
 ```
 kubernetes_manifest.fitfile_image_pull_secret["monitoring"]: Creating...
@@ -41,17 +39,17 @@ argocd        fitfile-image-pull-secret
 cert-manager  fitfile-image-pull-secret
 ```
 
-The secret exists in other namespaces but not `monitoring` — exactly matching the current state.
+The secret exists in other namespaces but not `monitoring`—exactly matching the current state.
 
 ---
 
-### Recommended fix (use Terraform, not manual kubectl)
+## Recommended Fix (use Terraform, not Manual kubectl)
 
 A note from your Jan 22 2026 session explicitly flagged this:
 
-> *"stop trying to use kubectl against the cluster — you are not on the jumpbox. use the vault cli to check that the monitoring secrets are there"*
+> _"stop trying to use kubectl against the cluster—you are not on the jumpbox. use the vault cli to check that the monitoring secrets are there"_
 
-The `fitfile-image-pull-secret` is provisioned via `kubernetes_manifest.fitfile_image_pull_secret` in the Terraform workspace (HCP Terraform, FITFILE-Platforms org). **The correct fix is a targeted Terraform apply**, not a manual `kubectl create secret docker-registry`.
+The `fitfile-image-pull-secret` is provisioned via `kubernetes_manifest.fitfile_image_pull_secret` in the Terraform workspace (HCP Terraform, FITFILE-Platforms org). The correct fix is a targeted Terraform apply, not a manual `kubectl create secret docker-registry`.
 
 ```bash
 # From the correct Terraform workspace (requires jumpbox or HCP agent access)
@@ -62,7 +60,7 @@ This will recreate the secret from the ACR credentials stored in the Terraform s
 
 ---
 
-### If Terraform is not immediately available (emergency kubectl path)
+## If Terraform is not Immediately Available (emergency Kubectl path)
 
 If you need the pods rolling NOW and Terraform apply will take time, the manual path uses `fitfileregistry.azurecr.io` as the `--docker-server`:
 
@@ -76,11 +74,11 @@ kubectl get secret fitfile-image-pull-secret -n argocd -o json \
   | kubectl apply -f -
 ```
 
-> **Copy from `argocd` namespace** — the corpus confirms the secret exists there. This avoids you needing to know the raw `--docker-password` value.
+> Copy from `argocd` namespace—the corpus confirms the secret exists there. This avoids you needing to know the raw `--docker-password` value.
 
 ---
 
-### After the secret is restored
+## After the Secret is Restored
 
 Once `fitfile-image-pull-secret` exists in `monitoring`, the alloy-logs DaemonSet pods will restart and load the new `podLogs` config with `pod` as a stream label:
 
@@ -101,6 +99,6 @@ gcx logs query --context fitfile-cloud-testing-aks-cluster --since 5m \
 
 ---
 
-### Why this keeps happening
+## Why This Keeps Happening
 
-The corpus shows this secret has disappeared from `monitoring` at least four times since Jan 2026. Worth checking whether the VSO/Terraform reconciler for `monitoring` is skipping this resource, or whether the namespace itself is being recreated (which would wipe all non-Vault-synced secrets). The [ArgoCD Secret Provisioning Fix session (Jan 22)](https://claude.ai/chat/2b2fa7a9-c769-44a6-88b1-586d95a91444) and the [pieces_testing_cluster_observability_debugging Obsidian note (May 5)](https://fitfiletest.grafana.net/explore) both flagged this as a cluster-wide pre-existing issue — worth adding a `VaultStaticSecret` or Helm `imagePullSecrets` injection at namespace level so it self-heals rather than requiring manual intervention each time.
+The corpus shows this secret has disappeared from `monitoring` at least four times since Jan 2026. Worth checking whether the VSO/Terraform reconciler for `monitoring` is skipping this resource, or whether the namespace itself is being recreated (which would wipe all non-Vault-synced secrets). The [ArgoCD Secret Provisioning Fix session (Jan 22)](https://claude.ai/chat/2b2fa7a9-c769-44a6-88b1-586d95a91444) and the [pieces_testing_cluster_observability_debugging Obsidian note (May 5)](https://fitfiletest.grafana.net/explore) both flagged this as a cluster-wide pre-existing issue—worth adding a `VaultStaticSecret` or Helm `imagePullSecrets` injection at namespace level so it self-heals rather than requiring manual intervention each time.
