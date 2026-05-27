@@ -1,0 +1,5 @@
+- [ ] We need to change the Hermes cronjob to use MCP as it can't get op access in cron 
+- [ ] is there a manual way to get the next top thing to be doing?
+- [ ] prodOS should check todoist as well
+- [ ] we need routines 
+- [ ] 
