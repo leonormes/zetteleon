@@ -1,12 +1,12 @@
 ---
 created: 2026-05-26T09:39:03+00:00
-last_updated: 2026-05-26T17:30:00+00:00
-modified: 2026-05-26T17:30:00+00:00
+last_updated: 2026-05-27T08:17:00+00:00
+modified: 2026-05-27T08:17:00+00:00
 title: SoT - Work Open Loops
 top3:
   - "FTFL-476: Identify and escalate blocker on OMOP Stress Testing infra"
-  - "FTFL-599: Schedule Azure backup restore runbook update into current sprint"
-  - "FTFL-638: Resume Grafana Monitoring in testing cluster — stale 4d, going cold"
+  - "FTFL-638: Resume Grafana Monitoring in testing cluster — stale 5d, going cold"
+  - "FTFL-512: Triage Nginx 302 information exposure — new, Selected for Development"
 ---
 
 ## Work Open Loops—Source of Truth
@@ -14,10 +14,18 @@ top3:
 | ID | Source | Summary | Priority | Status | Last Activity | Next Action |
 |----|--------|---------|----------|--------|---------------|-------------|
 | FTFL-476 | Jira | OMOP Stress Testing infra + monitoring | 🔴 critical | 🚫Blocked |—| Identify blocker, escalate or deprioritise |
-| FTFL-638 | Jira | Missing Grafana Monitoring in testing cluster | 🔴 critical | In Progress | 2026-05-22 | Resume work—stale 4 days, going cold |
-| FTFL-599 | Jira | Update and test the runbook for Azure backup restore | 🟡 medium | Selected for Development |—| Schedule into current sprint |
+| FTFL-638 | Jira | Missing Grafana Monitoring in testing cluster | 🔴 critical | In Progress | 2026-05-22 | Resume work—stale 5 days, going cold |
+| FTFL-512 | Jira | [API-6] Nginx 302 exposes information | 🟡 medium | Selected for Development |—| Triage — assess exposure severity, schedule fix |
+| FTFL-511 | Jira | [API-5] Nginx allows outdated HTTPS connection methods | 🟡 medium | Selected for Development |—| Triage — assess TLS version risk, schedule fix |
 | FTFL-602 | Jira | The Hyve alerting | 🟡 medium | Selected for Development |—| Schedule into current sprint |
 | FTFL-478 | Jira | Grafana Workflows Monitoring Dashboard | 🟢 low | Backlog |—| Review when higher-priority items cleared |
+
+### Notes
+
+- **FTFL-599** (Azure backup restore runbook) no longer appears in open Jira query. Confluence page was delivered 2026-05-26. Verify if ticket was closed/moved to Done — if so, move to Resolved table.
+- **FTFL-638**: Extensive analysis done 2026-05-26 (Cursor + Antigravity prompts for Grafana Helm values fix). Branch `feature/FTFL-638-add-labels-for-logs` active. No git activity detected since. Issue remains the #1 execution risk — 5 days stale.
+- **FTFL-511 & FTFL-512**: New Nginx security issues, both Selected for Development. Likely quick wins — consider batching into current sprint.
+- **Inbox** (`00_Inbox/Untitled.md`): 5 unattended action items — Hermes cron MCP fix, manual next-thing lookup, Todoist integration, routines, and one empty item. None are Jira-tracked.
 
 ### Known Data Gaps
 
@@ -31,4 +39,4 @@ top3:
 
 | ID | Summary | Resolved Date |
 |----|---------|---------------|
-|—| No issues resolved since last run (2026-05-26 15:02) |—|
+|—| No issues resolved since last run (2026-05-26 17:30) |—|
