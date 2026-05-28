@@ -1,1 +1,0 @@
-It is as if Z relationship with the kids is only a about their needs and so they tend to play on that for interaction. 

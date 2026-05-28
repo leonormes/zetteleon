@@ -1,10 +1,10 @@
 ---
 created: 2026-05-26T09:39:03+00:00
-last_updated: 2026-05-27T20:00:00+01:00
-modified: 2026-05-27T20:00:00+01:00
+last_updated: 2026-05-28T09:01:54+00:00
+modified: 2026-05-28T09:01:54+00:00
 title: SoT - Work Open Loops
 top3:
-  - "FTFL-638: Grafana Monitoring in testing cluster — push forward, branch active"
+  - "FTFL-638: Grafana Monitoring in testing cluster — push forward, branch active, updated today"
   - "FTFL-476: OMOP Stress Testing infra — Blocked 10+ days, escalate or deprioritise"
   - "FTFL-658: [SPIKE] Investigate MKUH Failing Terraform Runs — timebox and assess"
 ---
@@ -13,8 +13,8 @@ top3:
 
 | ID | Source | Summary | Priority | Status | Last Activity | Next Action |
 |----|--------|---------|----------|--------|---------------|-------------|
-| FTFL-638 | Jira | Missing Grafana Monitoring in testing cluster | 🔴 critical | In Progress | 2026-05-27 08:41 | Push forward — branch `feature/FTFL-638-add-labels-for-logs` active |
-| FTFL-476 | Jira | OMOP Stress Testing infra + monitoring | 🔴 critical | 🚫Blocked | 2026-05-18 | Identify blocker, escalate or deprioritise (10 days blocked) |
+| FTFL-638 | Jira | Missing Grafana Monitoring in testing cluster | 🔴 critical | In Progress | 2026-05-28 08:57 | Push forward — branch `feature/FTFL-638-add-labels-for-logs` active, updated today |
+| FTFL-476 | Jira | OMOP Stress Testing infra + monitoring | 🔴 critical | 🚫Blocked | 2026-05-18 | Identify blocker, escalate or deprioritise (10+ days blocked) |
 | FTFL-658 | Jira | [SPIKE] Investigate MKUH Failing Terraform Runs | 🟡 medium | Selected for Development | 2026-05-27 10:26 | Timebox spike, assess scope |
 | FTFL-609 | Jira | [EE] New Managed Policies Available for the EBS CSI Driver | 🟡 medium | Selected for Development | 2026-05-27 10:26 | Review policies, plan rollout |
 | FTFL-512 | Jira | [API-6] Nginx 302 exposes information | 🟡 medium | Selected for Development | 2026-05-26 15:12 | Triage — assess exposure severity, batch with FTFL-511 |
@@ -24,16 +24,17 @@ top3:
 
 ### Notes
 
-- **⚠️ Jira data stale**: 1Password ETIMEDOUT at 20:00 run. Data carried forward from 16:00 snapshot. No fresh issue status available this run.
-- **FTFL-638** remains the #1 execution risk. Reactivated 2026-05-27 08:41. Branch `feature/FTFL-638-add-labels-for-logs` exists — push forward.
+- **Jira data fresh**: Successful fetch via `jira-fetch.js` at 2026-05-28 09:01 UTC. All 8 open issues confirmed.
+- **FTFL-638** updated today (2026-05-28 08:57). Active work in progress — branch `feature/FTFL-638-add-labels-for-logs` exists.
 - **FTFL-476** blocked since 2026-05-18 (10 days). No movement. Needs escalation or explicit deprioritisation.
-- **FTFL-658 & FTFL-609** appeared in Jira at 10:26. FTFL-658 is a SPIKE — timebox and assess. FTFL-609 is EBS CSI Driver policy update.
+- **FTFL-658 & FTFL-609** in Selected for Development since 2026-05-27. FTFL-658 is a SPIKE — timebox and assess. FTFL-609 is EBS CSI Driver policy update.
 - **FTFL-511 & FTFL-512**: Nginx security issues, both Selected for Development. Quick-win candidates — batch into current sprint.
-- Per last successful Jira fetch (16:00): all issues updated within 3 days — **0 stale**. Cannot confirm staleness this run.
+- **0 stale issues**: All issues updated within 3 days.
+- No new issues since last run (2026-05-27).
+- No disappeared issues — all prior SoT tickets still present in Jira open query.
 
 ### Known Data Gaps
 
-- **Jira**: 1Password CLI timed out (`spawnSync /bin/sh ETIMEDOUT`). Jira data is stale — carried forward from 16:00 run. Run `op signin` to restore Jira fetch capability.
 - **Pieces LTM**: Memory tool unavailable in cron context. No ambient context retrieved this run.
 - **Microsoft Teams**: No Teams MCP server configured. @mention action items must be captured manually.
 - **Todoist**: No Todoist CLI/tool available in cron context. Task sync skipped.

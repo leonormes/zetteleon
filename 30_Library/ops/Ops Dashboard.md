@@ -1,7 +1,7 @@
 ---
 created: 2026-02-16T11:46:14+00:00
 icon: layout-dashboard
-modified: 2026-03-14T11:10:11+00:00
+modified: 2026-05-28T09:10:37+00:00
 tags: [automated, dashboard, ops]
 title: Ops Dashboard
 type: dashboard
@@ -48,7 +48,7 @@ SORT tool ASC, file.name ASC
 ```
 
 ---
-
+**
 ### 📜 Protocols & Source of Truth
 
 _Stable operational standards and system-of-record knowledge._
