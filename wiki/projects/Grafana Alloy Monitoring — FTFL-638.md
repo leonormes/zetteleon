@@ -3,7 +3,7 @@ title: Grafana Alloy Monitoring — FTFL-638
 wiki_type: dossier
 entity_kind: project
 created: 2026-05-06T20:15:00+00:00
-modified: 2026-05-27T21:30:00+00:00
+modified: 2026-05-28T14:00:00+00:00
 tags: [wiki, dossier]
 sources:
   - raw/2026-05-06-pieces-grafana-alloy-monitoring
@@ -11,11 +11,12 @@ sources:
   - raw/2026-05-26-pieces-ftfl638-antigravity-cursor-prompt
   - raw/2026-05-27-pieces-alloy-image-pull-secret
   - raw/2026-05-27-pieces-k8s-observability
+  - raw/2026-05-28-pieces-ftfl638-grafana-alloy-fix
 ---
 
 ## Summary
 
-A Kubernetes monitoring stack project focused on Grafana/Alloy Helm deployment and Loki log labeling. The primary ticket is **FTFL-638** (Grafana/Alloy log labeling improvements), with related work tracked under FTFL-511/512. The goal is to define a production-ready `values.yaml` shape for the Grafana/Alloy deployment, fix YAML indentation and label consistency issues in the Alloy ConfigMap, and produce a staged plan to stabilise the testing cluster so that logs for `ffcloud-service`, `frontend`, and `spicedb` are reliably labeled and queryable in Loki.
+A Kubernetes monitoring stack project focused on Grafana/Alloy Helm deployment and Loki log labeling. The primary ticket is **FTFL-638** (Grafana/Alloy log labeling improvements), with related work tracked under FTFL-511/512. **As of 2026-05-28, the monitoring issue is resolved.** Two root causes were fixed: (1) `alloy-metrics` was pushing Prometheus metrics to the wrong endpoint, and (2) a River config parsing error (`action = keep` bare identifier at line 248 of `config.alloy`) was corrected to `action = "keep"`. The project's goal was to define a production-ready `values.yaml` shape for the Grafana/Alloy deployment, fix YAML indentation and label consistency issues in the Alloy ConfigMap, and produce a staged plan to stabilise the testing cluster so that logs for `ffcloud-service`, `frontend`, and `spicedb` are reliably labeled and queryable in Loki.
 
 ## Key Facts
 
@@ -64,6 +65,14 @@ A Kubernetes monitoring stack project focused on Grafana/Alloy Helm deployment a
 - **2026-05-27**: Alloy-logs DaemonSet secret issue resolved — user created `fitfile-image-pull-secret` in `monitoring` namespace by copying from `argocd`; next step is rolling the alloy-logs pods and verifying log flow — [[raw/2026-05-27-pieces-k8s-observability]] (Pieces: 05295732-afd3-4c33-86c8-bdef43a4e9d7)
 
 - **2026-05-27**: A complete Hermes `/goal` prompt was produced to analyse the FITFILE k8s deployment codebase at `https://gitlab.com/fitfile/deployment` and generate a report covering ArgoCD sync status, Alloy config, and Helm values — [[raw/2026-05-27-pieces-k8s-observability]] (Pieces: 093e4abc-4d0a-4446-9325-d52f187f87eb)
+
+- **2026-05-28**: Grafana Alloy config parse error identified — `action = keep` (bare identifier) at line 248 of `/etc/alloy/config.alloy` causes fatal startup crash; in River config language, `keep` is parsed as a component reference where a string is expected; fix is `action = "keep"` — [[raw/2026-05-28-pieces-ftfl638-grafana-alloy-fix]] (Pieces: 48031f32-a7d5-4191-bddf-347b19528d81, 63742416-0040-428f-bd13-f3206bc8b8b1)
+
+- **2026-05-28**: ArgoCD sync `01345-xeYhP` for `grafana-k8s-monitoring` app (project: `default`, namespace: `monitoring`) ran successfully — mid-sync snapshot showed Sync/0 wave largely complete with one resource still rolling and PostSync hooks pending — [[raw/2026-05-28-pieces-ftfl638-grafana-alloy-fix]] (Pieces: df1054fe-1f65-494d-861b-8f159a442533, eb033a66-71a3-45d9-81ac-4287575901b1, eaaa7158-e26f-49de-8989-0fb3a85f0cf1)
+
+- **2026-05-28**: A complete Claude Code debug prompt was produced for FTFL-638 covering the full stack (ArgoCD + testing cluster monitoring charts deployment failure), with instructions to use `kubectl` CLI for live cluster investigation — [[raw/2026-05-28-pieces-ftfl638-grafana-alloy-fix]] (Pieces: 8f08c302-94ef-440d-8afa-1009449f6973)
+
+- **2026-05-28**: Per user confirmation, the Grafana Monitoring issue in the testing cluster is **now fixed**; a Jira update was drafted for FTFL-628 covering the two resolved root causes: (1) `alloy-metrics` was pushing Prometheus metrics to the wrong endpoint, and (2) a config parsing error in `/etc/alloy/config.alloy` — [[raw/2026-05-28-pieces-ftfl638-grafana-alloy-fix]] (Pieces: cb801a1a-0bca-4d3a-9893-10389e501fa8, d766dadf-20b8-4ab6-9b5e-fe81d3e8fde1, 0dc6aa22-eb8b-49cf-bab0-bb7f2c2d0774)
 
 ## Connections
 

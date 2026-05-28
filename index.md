@@ -1,6 +1,6 @@
 ---
 created: 2026-04-28T00:00:00+00:00
-modified: 2026-05-27 by Project Check-In (cron): 2 new project pages created (FITFILE-Testing-Infrastructure, Hermes-Multi-Model-Routing-Strategy); 3 raw notes created; 1 existing page updated (Grafana Alloy Monitoring — FTFL-638)
+modified: 2026-05-28 by Project Check-In (cron): 0 new project pages created; 1 raw note created (2026-05-28-pieces-ftfl638-grafana-alloy-fix); 1 existing page updated (Grafana Alloy Monitoring — FTFL-638); 14 new Pieces assets ingested
 tags: [index, system]
 title: index
 ---
@@ -69,4 +69,4 @@ _(empty—populated on first ingest)_
 
 ---
 
-_Updated 2026-05-27 by Project Check-In (cron): 0 new project pages created; 5 raw notes created (2026-05-27-pieces-k8s-observability, 2026-05-27-pieces-k8s-deployment, 2026-05-27-pieces-terraform-iac, 2026-05-27-pieces-hermes-model-config, 2026-05-27-pieces-mcp-tools); 4 existing pages updated (Grafana Alloy Monitoring — FTFL-638, FITFILE-Testing-Infrastructure, Hermes-Model-Configuration, MCP Proxy Robustness and High Availability); 29 new Pieces assets ingested._
+_Updated 2026-05-28 by Project Check-In (cron): 0 new project pages created; 1 raw note created (2026-05-28-pieces-ftfl638-grafana-alloy-fix); 1 existing page updated (Grafana Alloy Monitoring — FTFL-638); 14 new Pieces assets ingested. Issue resolved: Grafana Alloy config parse error fixed, ArgoCD sync completed successfully._

@@ -420,3 +420,11 @@ Append-only—never edit past entries.
 - **Wiki pages created:** —
 - **Pieces IDs ingested:** 29 new substantive assets (142 total in 24h window; 43 passed noise filter)
 - **Flags:** none
+
+## 2026-05-28 14:00 — Daily Synthesis
+
+- **Action:** Ingest (Pieces LTM)
+- **Raw sources created:** [[raw/2026-05-28-pieces-ftfl638-grafana-alloy-fix]]
+- **Wiki pages touched:** [[wiki/projects/Grafana Alloy Monitoring — FTFL-638]]
+- **Pieces IDs ingested:** 14 memories
+- **Flags:** none — issue resolved (FTFL-638/FTFL-628 Grafana Monitoring in testing cluster now fixed: Alloy config parse error `action = keep` corrected to `"keep"`, ArgoCD sync `01345-xeYhP` completed successfully)
