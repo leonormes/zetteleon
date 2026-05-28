@@ -1,11 +1,11 @@
 ---
 captured: "2026-05-28T11:36:23+01:00 2026-05-28T11:36:23+01:00"
 created: 2026-05-28T10:36:26+00:00
-modified: 2026-05-28T12:31:13+00:00
+modified: 2026-05-28T12:32:04+00:00
 source: "https://gemini.google.com/app/800e59aa1d8ccb59"
 status: "processing"
 tags: ["input"]
-title: HEAD New chat 1
+title: HEAD Learn All of Functions in only 40 Minutes
 type: "head"
 ---
 
