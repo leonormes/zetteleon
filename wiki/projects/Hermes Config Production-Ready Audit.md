@@ -3,9 +3,9 @@ title: Hermes Config Production-Ready Audit
 wiki_type: dossier
 entity_kind: project
 created: 2026-05-23T12:52:00+00:00
-modified: 2026-05-25T11:01:00+00:00
+modified: 2026-05-28T18:05:00+00:00
 tags: [wiki, dossier]
-sources: [raw/2026-05-23-phermes-config-audit.md, raw/2026-05-24-pieces-hermes-starship-config.md, raw/2026-05-24-pieces-starship-hermes-review.md, raw/2026-05-24-pieces-hermes-discovery-report.md, raw/2026-05-24-pieces-hermes-discovery-report-full.md]
+sources: [raw/2026-05-23-phermes-config-audit.md, raw/2026-05-24-pieces-hermes-starship-config.md, raw/2026-05-24-pieces-starship-hermes-review.md, raw/2026-05-24-pieces-hermes-discovery-report.md, raw/2026-05-24-pieces-hermes-discovery-report-full.md, raw/2026-05-28-pieces-ftfl511-jira-ticket.md]
 ---
 
 ## Summary
@@ -44,7 +44,11 @@ Configuration audit of `~/.hermes/config.yaml` (12,397 bytes) to identify redund
 - **brain-mcp cognitive layer:** proposed in a May 18 Gemini session as a future upgrade; no evidence of implementation as of 2026-05-24 — [[raw/2026-05-24-pieces-hermes-discovery-report-full]] (Pieces: c8c5de20-42b9-45d4-a2b4-07c43e6c83fc)
 - **Voice-capture skill:** discussed as a planned enhancement on 23 May 2026; no evidence of implementation — [[raw/2026-05-24-pieces-hermes-discovery-report-full]] (Pieces: c8c5de20-42b9-45d4-a2b4-07c43e6c83fc)
 
+
+- **2026-05-28 ~14:21**: Post-Cursor update validation confirmed: `approvals.mode: smart` ✅, delegation lockdown (`inherit_mcp_toolsets: false`, `toolsets: [file]`, `max_iterations: 20`, `child_timeout_seconds: 120`, `reasoning_effort: high`) ✅, MCP tool filters (`mcp-proxy.tools.exclude: []`, `pieces.tools.include: [ask_pieces_ltm, search_pieces, save_to_pieces]`) ✅, Model Roles comment block ✅ — [[raw/2026-05-28-pieces-ftfl511-jira-ticket]] (Pieces: d7a00c51-b046-4deb-b3a1-cfa991a5a526)
+
 ## Timeline
+- **2026-05-28**: Post-Cursor config update validation — all Cursor-applied changes confirmed present and correct
 
 - 2026-05-23: Config audit completed; /goal instruction set produced
 - 2026-05-23: Remediation plan executed — all HIGH/MEDIUM items landed, 2→1 doctor issues

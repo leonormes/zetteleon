@@ -3,11 +3,12 @@ title: "MCP Proxy Robustness and High Availability"
 wiki_type: dossier
 entity_kind: project
 created: 2026-05-08T16:02:00+00:00
-modified: 2026-05-27T21:30:00+00:00
+modified: 2026-05-28T18:05:00+00:00
 tags: [wiki, dossier]
 sources:
   - raw/2026-05-08-pieces-mcp-proxy-robustness.md
   - raw/2026-05-27-pieces-mcp-tools
+  - raw/2026-05-28-pieces-hermes-mcp-proxy-fix.md
 ---
 
 ## Summary
@@ -37,6 +38,16 @@ A planning initiative to make the local `mcp-proxy` installation resilient, high
 - **2026-05-27**: User requested a Hermes `/goal` prompt to install and configure GitKraken MCP (https://help.gitkraken.com/mcp/mcp-getting-started/) so their LLM can use it — [[raw/2026-05-27-pieces-mcp-tools]] (Pieces: cf9021ea-b7b8-4553-acee-03c91dc45f55)
 
 - **2026-05-27**: User requested memory retrieval about their LLM MCP setup on their laptop (`implacable-lake`, macOS) — included a secondary machine `FF-M07W9K7Y` — [[raw/2026-05-27-pieces-mcp-tools]] (Pieces: d9f1b9bd-96d3-4079-9f95-11a54e3fc0d7)
+
+
+- **2026-05-28**: Root cause analysis of Hermes MCP proxy usage failure: Hermes does not recognise that mcp-proxy tools are already injected as native session tools (`mcp_mcp-proxy_<tool_name>` pattern). Instead it falls back to raw HTTP against `127.0.0.1:8000/mcp/` which always fails because MCP streamable-HTTP requires session negotiation, SSE, and correct `Accept` headers that sandbox `urllib` calls cannot provide.
+  > "Hermes doesn't know that the mcp-proxy tools are already injected into its session as native tool calls ... every time it needs an MCP tool it falls back to raw HTTP against 127.0.0.1:8000/mcp/ — which fails" — [[raw/2026-05-28-pieces-hermes-mcp-proxy-fix]] (Pieces: 5b9878d5-de2e-4362-be83-88bf0e0daf32)
+
+- **2026-05-28**: A 4-tier fallback chain was designed: (0) pre-flight injection check, (1) proxy health check on failure, (2) direct REST API with stored credentials, (3) browser lookup, (4) ask user. The critical rule: one retry max then escalate — never retry raw HTTP to port 8000.
+  > "The circuit-breaker rule: one retry max, then escalate. Raw HTTP to port 8000 for MCP messages is never a valid fallback" — [[raw/2026-05-28-pieces-hermes-mcp-proxy-fix]] (Pieces: 37930a3c-5ba1-4433-acda-1331d7f3b720)
+
+- **2026-05-28**: FTFL-511 Jira ticket fetch attempt demonstrated the failure end-to-end: Hermes loaded both `mcp-proxy` and `obsidian` skills, then attempted raw HTTP via `execute_code`/`urllib` — timed out. The health check script also failed. User was asked to paste ticket content. This confirmed the MCP tool injection gap in production.
+  > "The MCP proxy timed out. Let me run the health check first, then try using curl directly via terminal" — [[raw/2026-05-28-pieces-hermes-mcp-proxy-fix]] (Pieces: 577c3a10-8547-4a61-b115-2f724012ed55)
 
 ## Timeline
 

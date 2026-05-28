@@ -3,9 +3,9 @@ title: Pieces-LTM
 wiki_type: dossier
 entity_kind: project
 created: 2026-05-18T13:40:46.635050+00:00
-modified: 2026-05-18T13:40:46.635392+00:00
+modified: 2026-05-28T18:05:00+00:00
 tags: [wiki, dossier, project]
-sources: ["2026-05-18-pieces-cuh-rbac-permissions.md", "2026-05-18-pieces-worker-status-reflections.md", "2026-05-18-pieces-hermes-gitlab-research.md", "2026-05-18-pieces-brain-mcp-integration.md", "2026-05-18-pieces-hermes-diagnostic-session.md", "2026-05-18-pieces-llm-mcp-chezmoi-config.md"]
+sources: ["2026-05-18-pieces-cuh-rbac-permissions.md", "2026-05-18-pieces-worker-status-reflections.md", "2026-05-18-pieces-hermes-gitlab-research.md", "2026-05-18-pieces-brain-mcp-integration.md", "2026-05-18-pieces-hermes-diagnostic-session.md", "2026-05-18-pieces-llm-mcp-chezmoi-config.md", "2026-05-28-pieces-ftfl511-jira-ticket.md"]
 ---
 
 ## Summary
@@ -42,6 +42,10 @@ This project page was created during the Project Check-In on 2026-05-18, based o
 > "## Priority vs Urgency vs Importance — Clearing Up the Backlog Confusion
 
 These three concepts are genuinely distinct, and conflating them is one of the most common causes of backlog paralysis. Here's..." — [[raw/2026-05-18-pieces-cuh-rbac-permissions.md]]
+
+
+- **2026-05-28**: FTFL-511 Jira ticket content surfaced via Pieces LTM — Hermes used `ask_pieces_ltm` to recover full ticket details (title, status, cipher suite list, MR changes, activity timeline) demonstrating effective LTM-grounded context recovery for private Jira tickets.
+  > "Your Pieces LTM has rich captured content for FTFL-511. Here is the complete Obsidian note, built from the verbatim evidence across multiple captures" — [[raw/2026-05-28-pieces-ftfl511-jira-ticket]] (Pieces: 2cd0a5fc-9388-4ed5-9ac5-8a25a732089c)
 
 ## Connections
 

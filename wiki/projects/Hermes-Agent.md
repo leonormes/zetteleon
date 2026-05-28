@@ -25,6 +25,10 @@ Hermes Agent is the core orchestrator system managing LLM provider routing, skil
 - **2026-05-12** — Project identified via Pieces LTM ingest; initial activity captured.
 - **2026-05-15** — Large-context synthesis session executed (1.1M+ tokens); delegation logic review performed on Gemini skill file.
 
+
+- **2026-05-28**: Comprehensive MCP proxy failure analysis completed — identified that Hermes does not use injected native MCP tools (`mcp_mcp-proxy_*`) and instead attempts raw HTTP to port 8000 which always fails. A 4-tier fallback chain was designed and documented.
+  > "Hermes doesn't know that the mcp-proxy tools are already injected into its session as native tool calls" — [[raw/2026-05-28-pieces-hermes-mcp-proxy-fix]] (Pieces: 5b9878d5-de2e-4362-be83-88bf0e0daf32)
+
 ## Connections
 
 - [[Hermes-Agent]] (skill system)
@@ -42,6 +46,10 @@ Hermes Agent is the core orchestrator system managing LLM provider routing, skil
 - What is the expected timeline for completion?
 
 - **2026-05-12** — Project identified via Pieces LTM ingest; initial activity captured.
+
+- **2026-05-28**: Comprehensive MCP proxy failure analysis completed — identified that Hermes does not use injected native MCP tools (`mcp_mcp-proxy_*`) and instead attempts raw HTTP to port 8000 which always fails. A 4-tier fallback chain was designed and documented.
+  > "Hermes doesn't know that the mcp-proxy tools are already injected into its session as native tool calls" — [[raw/2026-05-28-pieces-hermes-mcp-proxy-fix]] (Pieces: 5b9878d5-de2e-4362-be83-88bf0e0daf32)
+
 ## Connections
 
 - [[Hermes Agent]]

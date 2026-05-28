@@ -1,5 +1,15 @@
-*Shared Message from Pieces (https://pieces.app) by Leon Ormes (leonormes@gmail.com) on Thursday May 28, 2026 - 3:28 PM*
 ---
+title: "LLMeon Repo Summary — Hermes PKM Architecture"
+created: 2026-05-28T18:05:42+00:00
+source: pieces-ltm
+pieces_ids: [dcdee514-a007-46a7-a6e9-3a8c66439711, 48c402f1-3561-426c-bcb9-110e8aeb514c, 90e86161-028b-4ece-a7a2-a16b1f3f7366]
+tags: [raw, pieces]
+---
+
+## Asset 1 (Pieces: dcdee514-a007-46a7-a6e9-3a8c66439711)
+
+**Captured:** 2026-05-28T14:21:47.299698Z
+
 ## LLMeon — Repo Summary
 
 **LLMeon** is your personal **AI-augmented knowledge vault**, built inside Obsidian at `/Volumes/DAL/Zettelkasten/LLMeon`. It is also a **git repository** (tracked via chezmoi conventions). Its primary purpose is to serve as the long-term memory and knowledge synthesis layer for Hermes — your primary AI agent — via a structured three-layer agent architecture backed by Pieces LTM as the upstream data source.
@@ -51,3 +61,35 @@ From `log.md`, the active projects being automatically ingested and dossier-mana
 ### Note on `/skill route-task`
 
 That command was a Hermes CLI slash-command — it doesn't work inside Pieces Copilot. Within Hermes itself you'd invoke it as a skill trigger; here the routing logic is embedded in my system context from the `route-task.md` skill file you already have in chezmoi.
+
+## Asset 2 (Pieces: 48c402f1-3561-426c-bcb9-110e8aeb514c)
+
+**Captured:** 2026-05-28T14:21:11.315588Z
+
+The evaluator wants me to synthesize from the files I've read and deliver the summary. Let me do that now based on what I've read from:
+
+1. `/Volumes/DAL/Zettelkasten/LLMeon/output/README.md` - Three-layer agent architecture (raw/wiki/output), deliverable types
+2. `/Volumes/DAL/Zettelkasten/LLMeon/wiki/index.md` - Wiki layer details, entity types (concepts, orgs, people, projects)
+3. `/Volumes/DAL/Zettelkasten/LLMeon/log.md` - Operation log showing ingests from Pieces LTM, project types (NHS OMOP, Azure AKS Backup, LLM Router Cockpit, etc.)
+
+
+4. `/Volumes/DAL/Zettelkasten/LLMeon/AGENTS.md` - The Hermes agent rulebook covering the three-layer memory system, note types, and core workflows like ingestion, sweeping, and dossier management with its logging format
+
+From the earlier memory and LTM searches, I can see this Obsidian vault at `/Volumes/DAL/Zettelkasten/LLMeon` is orchestrated by the Hermes agent, tracking work across FITFILE projects, NHS infrastructure, Kubernetes backups, and LLM orchestration with daily synthesis jobs pulling from Pieces LTM.
+
+The vault also contains a 30_Library folder with human-authored zettelkasten notes, project documentation, sources of truth, and operational runbooks, plus graphify integration for knowledge graph visualization and 13 active project dossiers. I realize the `/skill route-task` command was a Hermes CLI thing, not available in this Pieces copilot context, so I'm ready to synthesize the full repository summary now.
+
+## Asset 3 (Pieces: 90e86161-028b-4ece-a7a2-a16b1f3f7366)
+
+**Captured:** 2026-05-28T14:20:42.294455Z
+
+The reviewer wants me to read actual file contents. From the search results, I can see:
+1. `/Volumes/DAL/Zettelkasten/LLMeon/output/README.md` - exists
+2. `/Volumes/DAL/Zettelkasten/LLMeon/wiki/index.md` - exists
+3. `/Volumes/DAL/Zettelkasten/LLMeon/wiki/log.md` - exists
+4. `/Volumes/DAL/Zettelkasten/LLMeon/log.md` - exists (24076 bytes)
+
+Let me also search for key top-level files like AGENTS.md, index.md, etc. 
+
+Now I need to pull the actual content from the README and wiki/index.md to see what's in there.
+

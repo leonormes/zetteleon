@@ -1,7 +1,7 @@
 ---
 created: 2026-05-26T09:39:03+00:00
-last_updated: 2026-05-28T23:00:00+01:00
-modified: 2026-05-28T23:00:00+01:00
+last_updated: 2026-05-28T16:34:22+00:00
+modified: 2026-05-28T16:34:22+00:00
 title: SoT - Work Open Loops
 top3:
   - "FTFL-511: Nginx HTTPS hardening — actively In Progress, push to completion"
@@ -11,7 +11,9 @@ top3:
 
 ## Work Open Loops — Source of Truth
 
-> **FTFL-638** missing from open query — likely resolved/closed after active work today (branch `feature/FTFL-638-add-labels-for-logs` was active, last updated 2026-05-28 08:57). Verify and move to Resolved table next run.
+> ⚠️ **Jira data stale**: 1Password CLI timeout prevented Jira fetch this run. Data carried forward from 2026-05-28 23:00 UTC run. Verify fresh data on next successful run.
+
+> **FTFL-638** missing from open query for second consecutive run — likely resolved/closed after active work on 2026-05-28. Move to Resolved table on next run if still absent.
 
 | ID | Source | Summary | Priority | Status | Last Activity | Next Action |
 |----|--------|---------|----------|--------|---------------|-------------|
@@ -25,17 +27,17 @@ top3:
 
 ### Notes
 
-- **Jira data fresh**: Successful fetch via `jira-fetch.js` at 2026-05-28 23:00 UTC. 7 open issues returned (down from 8).
-- **FTFL-638 disappeared**: Was in the prior SoT with active branch and updated 2026-05-28 08:57, now absent from open query. Likely resolved/closed — verify next run before moving to Resolved table.
-- **FTFL-511 status change**: Moved from "Selected for Development" → "In Progress" since last run. Now the actively worked item.
+- **Jira data stale**: 1Password CLI timeout at 2026-05-28 16:34 UTC. Last successful fetch was 2026-05-28 23:00 UTC (7 open issues). Data carried forward unchanged.
+- **FTFL-638 disappeared**: Missing for second consecutive run. Was in the prior SoT with active branch `feature/FTFL-638-add-labels-for-logs`, last updated 2026-05-28 08:57. Likely resolved/closed — will move to Resolved table next run if still absent.
+- **FTFL-511** status change noted in previous run: Moved from "Selected for Development" → "In Progress". Now the actively worked item.
 - **FTFL-476** blocked since 2026-05-18 (12+ days). No movement. Needs escalation or explicit deprioritisation.
-- **0 stale issues**: All In Progress issues updated within 3 days.
-- **New issues this run**: 0.
-- **Disappeared issues**: FTFL-638 (see note above — not yet confirmed resolved).
+- **0 stale issues**: All In Progress issues updated within 3 days (at last successful fetch).
+- **New issues this run**: 0 (no fresh data).
 
 ### Known Data Gaps
 
 - **Pieces LTM**: Memory tool unavailable in cron context. No ambient context retrieved this run.
+- **Jira**: 1Password CLI timeout — `spawnSync /bin/sh ETIMEDOUT`. Token fetch failed, API query skipped. Data carried forward from last successful run.
 - **Microsoft Teams**: No Teams MCP server configured. @mention action items must be captured manually.
 - **Todoist**: No Todoist CLI/tool available in cron context. Task sync skipped.
 

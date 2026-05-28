@@ -3,9 +3,9 @@ title: Obsidian-PKM
 wiki_type: dossier
 entity_kind: project
 created: 2026-05-18T13:40:46.635866+00:00
-modified: 2026-05-18T13:40:46.635868+00:00
+modified: 2026-05-28T18:05:00+00:00
 tags: [wiki, dossier, project]
-sources: ["2026-05-18-pieces-cuh-rbac-permissions.md", "2026-05-18-pieces-worker-status-reflections.md", "2026-05-18-pieces-hermes-gitlab-research.md", "2026-05-18-pieces-brain-mcp-integration.md", "2026-05-18-pieces-hermes-diagnostic-session.md", "2026-05-18-pieces-llm-mcp-chezmoi-config.md"]
+sources: ["2026-05-18-pieces-cuh-rbac-permissions.md", "2026-05-18-pieces-worker-status-reflections.md", "2026-05-18-pieces-hermes-gitlab-research.md", "2026-05-18-pieces-brain-mcp-integration.md", "2026-05-18-pieces-hermes-diagnostic-session.md", "2026-05-18-pieces-llm-mcp-chezmoi-config.md", "2026-05-28-pieces-llmeon-repo-summary.md"]
 ---
 
 ## Summary
@@ -51,6 +51,10 @@ Root cause: `.chezmoidata.toml` has `command = "NPX"` — it must be `comm..." �
 Hermes hit its 30-iteration budget mid-debug. The infrastructure is legitimately in place, but ..." — [[raw/2026-05-18-pieces-cuh-rbac-permissions.md]]
 > "The user is showing me the output from Hermes (their AI agent) which attempted to install and integrate brain-mcp with mcpproxy. The agent hit the iteration limit (30/30) and is reporting a partial su..." — [[raw/2026-05-18-pieces-cuh-rbac-permissions.md]]
 > "╭─ ⚕ Hermes ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────..." — [[raw/2026-05-18-pieces-cuh-rbac-permissions.md]]
+
+
+- **2026-05-28**: Vault repo summary confirmed: 13 active project dossiers in `wiki/projects/`; `30_Library/` contains human-authored Zettelkasten notes (`100_zettelkasten/`), project documentation (`200_projects/`), operational runbooks (`ops/`), and Sources of Truth (`SoT/`); graphify integration active for knowledge graph visualization.
+  > "13 project dossiers ... graphify integration for knowledge graph visualization" — [[raw/2026-05-28-pieces-llmeon-repo-summary]] (Pieces: 48c402f1-3561-426c-bcb9-110e8aeb514c)
 
 ## Connections
 
