@@ -3,10 +3,11 @@ title: "MCP Proxy Robustness and High Availability"
 wiki_type: dossier
 entity_kind: project
 created: 2026-05-08T16:02:00+00:00
-modified: 2026-05-08T16:02:00+00:00
+modified: 2026-05-27T21:30:00+00:00
 tags: [wiki, dossier]
 sources:
   - raw/2026-05-08-pieces-mcp-proxy-robustness.md
+  - raw/2026-05-27-pieces-mcp-tools
 ---
 
 ## Summary
@@ -32,6 +33,10 @@ A planning initiative to make the local `mcp-proxy` installation resilient, high
 
 - The 10 target servers are: pieces, memory, obsidian-mcp-tools, tree-sitter, codemod, lsp-bash, ast-grep, atlassian, sequential-thinking, todoist.
   > "The FULL set of servers I want enabled is: 1. pieces ... 10. todoist" — [[raw/2026-05-08-pieces-mcp-proxy-robustness]] (Pieces: cde78b55-6a0a-4a70-9715-b0c35f6cfde3)
+
+- **2026-05-27**: User requested a Hermes `/goal` prompt to install and configure GitKraken MCP (https://help.gitkraken.com/mcp/mcp-getting-started/) so their LLM can use it — [[raw/2026-05-27-pieces-mcp-tools]] (Pieces: cf9021ea-b7b8-4553-acee-03c91dc45f55)
+
+- **2026-05-27**: User requested memory retrieval about their LLM MCP setup on their laptop (`implacable-lake`, macOS) — included a secondary machine `FF-M07W9K7Y` — [[raw/2026-05-27-pieces-mcp-tools]] (Pieces: d9f1b9bd-96d3-4079-9f95-11a54e3fc0d7)
 
 ## Timeline
 

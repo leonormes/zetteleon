@@ -69,4 +69,4 @@ _(empty—populated on first ingest)_
 
 ---
 
-_Updated 2026-05-26 by Project Check-In (cron): 3 new project pages created (CoS-Work-Review-System, Antigravity-CLI-Migration, ProdOS-Workflow); 3 raw notes created (2026-05-26-pieces-cos-work-review-jira, 2026-05-26-pieces-antigravity-migration, 2026-05-26-pieces-prodos-workflow-design); 54 substantive Pieces assets ingested._
+_Updated 2026-05-27 by Project Check-In (cron): 0 new project pages created; 5 raw notes created (2026-05-27-pieces-k8s-observability, 2026-05-27-pieces-k8s-deployment, 2026-05-27-pieces-terraform-iac, 2026-05-27-pieces-hermes-model-config, 2026-05-27-pieces-mcp-tools); 4 existing pages updated (Grafana Alloy Monitoring — FTFL-638, FITFILE-Testing-Infrastructure, Hermes-Model-Configuration, MCP Proxy Robustness and High Availability); 29 new Pieces assets ingested._

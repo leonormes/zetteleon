@@ -411,3 +411,12 @@ Append-only—never edit past entries.
 - **Wiki pages created:** [[wiki/projects/FITFILE Testing Infrastructure]], [[wiki/projects/Hermes Multi-Model Routing Strategy]]
 - **Pieces IDs ingested:** 14 substantive assets (92 total in 4h window)
 - **Flags:** none
+
+## 2026-05-27 21:30 — Daily Synthesis
+
+- **Action:** Ingest (Pieces LTM)
+- **Raw sources created:** [[raw/2026-05-27-pieces-k8s-observability]], [[raw/2026-05-27-pieces-k8s-deployment]], [[raw/2026-05-27-pieces-terraform-iac]], [[raw/2026-05-27-pieces-hermes-model-config]], [[raw/2026-05-27-pieces-mcp-tools]]
+- **Wiki pages touched:** [[wiki/projects/Grafana Alloy Monitoring — FTFL-638]], [[wiki/projects/FITFILE-Testing-Infrastructure]], [[wiki/projects/Hermes-Model-Configuration]], [[wiki/projects/MCP Proxy Robustness and High Availability]]
+- **Wiki pages created:** —
+- **Pieces IDs ingested:** 29 new substantive assets (142 total in 24h window; 43 passed noise filter)
+- **Flags:** none

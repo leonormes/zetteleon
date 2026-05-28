@@ -3,13 +3,14 @@ title: Grafana Alloy Monitoring — FTFL-638
 wiki_type: dossier
 entity_kind: project
 created: 2026-05-06T20:15:00+00:00
-modified: 2026-05-27T12:05:00+00:00
+modified: 2026-05-27T21:30:00+00:00
 tags: [wiki, dossier]
 sources:
   - raw/2026-05-06-pieces-grafana-alloy-monitoring
   - raw/2026-05-26-pieces-ftfl599-ftfl638-prodos
   - raw/2026-05-26-pieces-ftfl638-antigravity-cursor-prompt
   - raw/2026-05-27-pieces-alloy-image-pull-secret
+  - raw/2026-05-27-pieces-k8s-observability
 ---
 
 ## Summary
@@ -57,6 +58,12 @@ A Kubernetes monitoring stack project focused on Grafana/Alloy Helm deployment a
 
 - **2026-05-26 (17:16)**: A complete antigravity-cli prompt was produced for FTFL-638, instructing the LLM to use MCP file analysis tools to diff Grafana Helm override files across all FITFILE ffnodes clusters and use kubectl+gcx to investigate live cluster state — [[raw/2026-05-26-pieces-ftfl638-antigravity-cursor-prompt]] (Pieces: 59181fac-0d3a-4176-8071-58cec7e668b8)
 - **2026-05-26 (16:48)**: A comprehensive Cursor context prompt was produced with full history of all remediation attempts; key environment details: AKS cluster `fitfile-cloud-testing-aks-cluster` runs Kubernetes v1.34.7 (UK South), subscription `249df46b-f75d-4492-8e78-b33a00473548`, gcx v0.2.16 (v0.3.0 available), active branch `feature/FTFL-638-add-labels-for-logs` — [[raw/2026-05-26-pieces-ftfl638-antigravity-cursor-prompt]] (Pieces: 4c73b9cb-71e6-481b-bbbf-8e6db1ac904b)
+
+- **2026-05-27**: Grafana config fix requested — `labelsToKeep` contains label names with dots and slashes (`app.kubernetes.io/name`, `k8s.namespace.name`, `k8s.node.name`) that are invalid as Loki stream labels; dots and slashes must be replaced with underscores — [[raw/2026-05-27-pieces-k8s-observability]] (Pieces: 5ffdfcc3-392a-4cc3-89ba-bac507176ede)
+
+- **2026-05-27**: Alloy-logs DaemonSet secret issue resolved — user created `fitfile-image-pull-secret` in `monitoring` namespace by copying from `argocd`; next step is rolling the alloy-logs pods and verifying log flow — [[raw/2026-05-27-pieces-k8s-observability]] (Pieces: 05295732-afd3-4c33-86c8-bdef43a4e9d7)
+
+- **2026-05-27**: A complete Hermes `/goal` prompt was produced to analyse the FITFILE k8s deployment codebase at `https://gitlab.com/fitfile/deployment` and generate a report covering ArgoCD sync status, Alloy config, and Helm values — [[raw/2026-05-27-pieces-k8s-observability]] (Pieces: 093e4abc-4d0a-4446-9325-d52f187f87eb)
 
 ## Connections
 

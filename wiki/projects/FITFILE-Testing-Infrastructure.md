@@ -3,10 +3,12 @@ title: FITFILE Testing Infrastructure
 wiki_type: dossier
 entity_kind: project
 created: 2026-05-27T12:13:00+00:00
-modified: 2026-05-27T12:13:00+00:00
+modified: 2026-05-27T21:30:00+00:00
 tags: [wiki, dossier, project]
 sources:
   - raw/2026-05-27-pieces-terraform-aks-upgrade-override
+  - raw/2026-05-27-pieces-terraform-iac
+  - raw/2026-05-27-pieces-k8s-deployment
 ---
 
 ## Summary
@@ -24,6 +26,10 @@ Operational infrastructure work on the FITFILE Azure testing environment, coveri
 - **Testing cluster details**: `fitfile-cloud-testing-aks-cluster` in resource group `fitfile-cloud-testing-rg`, subscription `249df46b-f75d-4492-8e78-b33a00473548`, location `uksouth`, SKU Free tier — [[raw/2026-05-27-pieces-terraform-aks-upgrade-override]] (Pieces: 804011cd-efc2-4983-afaf-c59320dcff4b)
 
 - **2026-05-27**: The Hermes LTM confirmed no prior `upgrade_override` fix exists in memory — this is a new problem for the user — [[raw/2026-05-27-pieces-terraform-aks-upgrade-override]] (Pieces: 2786291a-0ade-44d1-9531-2807a745b29b)
+
+- **2026-05-27**: User requested a Hermes-style handoff/transfer prompt for the `upgrade_override` fix (Option 1: adding `upgrade_settings` block explicitly) for use in Cursor, Claude, ChatGPT contexts — [[raw/2026-05-27-pieces-terraform-iac]] (Pieces: 34866d84-dd4d-400b-88a7-bc5012d6b34f)
+
+- **2026-05-27**: User requested a Hermes `/goal` prompt to analyse `https://gitlab.com/fitfile/deployment` using MCP code analysis tools and generate a structured k8s deployment report — [[raw/2026-05-27-pieces-k8s-deployment]] (Pieces: 525cd726-dd4d-400b-88a7-bc5012d6b34f)
 
 ## Timeline
 
