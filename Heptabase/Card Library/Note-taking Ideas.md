@@ -1,18 +1,12 @@
 ---
 created: 2026-05-04T08:01:26+00:00
-modified: 2026-05-26T11:43:54+00:00
+modified: 2026-05-29T08:33:15+00:00
 title: Note-taking Ideas
 ---
 
 ## Note-taking Ideas
 
-Defining the links between the notes is a priority
-
-A link can be considered complex when it adds a lot to the originating note, or
-
-has lots of further links. If it creates a long chain. A -> B -> C -> D or A ->
-
-B then B -> C, B -> D, B -> E.
+Defining the links between the notes is a priority A link can be considered complex when it adds a lot to the originating note, or has lots of further links. If it creates a long chain. A -> B -> C -> D or A -> B then B -> C, B -> D, B -> E.
 
 Idea 1:
 

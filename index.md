@@ -61,6 +61,11 @@ _(empty—populated on first ingest)_
 - [[wiki/projects/FTFL-511 Nginx HTTPS Hardening]]—FITFILE security ticket to harden TLS configuration of ingress-nginx controller: 14 outdated cipher suites identified in pentest; MR !757 declined; awaiting DevOps re-pick.
 - [[wiki/projects/Hermes Multi-Model Routing Strategy]]—Research and architecture for Hermes's multi-model orchestration: free models (Owl Alpha) for planning, premium models (Claude Code, cloud) for complex execution; debugging CLI timeouts and OpenRouter routing.
 
+- [[wiki/projects/FTFL-511-512 Security Scan]]—Security scanning for FTFL-511 & FTFL-512: nmap scans from jumpbox testing subnet to private cluster; discovered Cloudflare proxy (not nginx) on scanned ports; SSH auth troubleshooting with IdentitiesOnly=yes and 1Password.
+- [[wiki/projects/Azure Bastion SSH Troubleshooting]]—Diagnosed Azure Bastion SSH failures: MaxAuthTries exhaustion from 1Password keys, IdentitiesOnly=yes backfiring with AAD auth, --ssh-args flag missing in Azure CLI; resolved via `--` separator for SSH arguments.
+- [[wiki/projects/Git Tag Management]]—Git tag operations: moved sandbox-testing-1-latest-release tag post-merge, resolved v1.8.65 src refspec push failure (tag missing locally).
+- [[wiki/projects/Grafana Upgrade - Testing Cluster]]—Upgraded and configured Grafana in testing cluster using values.yaml; referenced in today's FTFL-511/512 security scan context.
+
 ### `wiki/orgs/`
 
 _(empty—populated on first ingest)_
@@ -71,4 +76,4 @@ _(empty—populated on first ingest)_
 
 ---
 
-_Updated 2026-05-29 by Project Check-In (cron/24h): 0 new assets in 4h window — extended to 24h, found 16 new assets (154 total), 2 substantive. Created 1 new raw note (2026-05-28-pieces-hermes-config-validation). Updated Hermes Config Production-Ready Audit wiki page with detailed Cursor config validation facts. No new project pages needed — all themes map to existing pages. Flags: none._
+_Updated 2026-05-29 by Project Check-In (cron/4h): 77 assets found (4h window), 24 substantive, 0 duplicates. 4 new raw notes created. 4 new project pages: FTFL-511-512 Security Scan, Azure Bastion SSH Troubleshooting, Git Tag Management, Grafana Upgrade - Testing Cluster. Flags: none._
