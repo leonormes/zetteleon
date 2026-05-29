@@ -428,3 +428,44 @@ Append-only—never edit past entries.
 - **Wiki pages touched:** [[wiki/projects/Grafana Alloy Monitoring — FTFL-638]]
 - **Pieces IDs ingested:** 14 memories
 - **Flags:** none — issue resolved (FTFL-638/FTFL-628 Grafana Monitoring in testing cluster now fixed: Alloy config parse error `action = keep` corrected to `"keep"`, ArgoCD sync `01345-xeYhP` completed successfully)
+
+## 2026-05-28 18:13 — Daily Synthesis
+
+- **Action:** Ingest (Pieces LTM)
+- **Raw sources created:** [[raw/2026-05-28-pieces-hermes-mcp-proxy-fix.md]], [[raw/2026-05-28-pieces-ftfl511-jira-ticket.md]], [[raw/2026-05-28-pieces-llmeon-repo-summary.md]]
+- **Wiki pages touched:** [[wiki/projects/MCP Proxy Robustness and High Availability]], [[wiki/projects/Hermes Config Production-Ready Audit]], [[wiki/projects/Hermes-Agent]], [[wiki/projects/Obsidian-PKM]], [[wiki/projects/Pieces-LTM]]
+- **New wiki page created:** [[wiki/projects/FTFL-511 Nginx HTTPS Hardening]]
+- **Pieces IDs ingested:** 17 memories (11 + 3 + 3 across 3 raw notes)
+- **Flags:** MCP proxy usage failure analysis — Hermes does not recognise injected native MCP tools (pattern `mcp_mcp-proxy_*`) and falls back to raw HTTP against port 8000 which always fails. A 4-tier fallback chain was designed. FTFL-511 MR !757 was declined (too heavy devops approach) — awaiting DevOps re-pick.
+
+## 2026-05-28 22:15 — Daily Synthesis (24h window)
+
+- **Action:** Ingest (Pieces LTM, 4h window returned 0 — extended to 24h)
+- **Raw sources created:** [[raw/2026-05-28-pieces-hie-aws-rdp.md]]
+- **Wiki pages touched:** [[wiki/projects/AWS SSM Session Troubleshooting]] (existing, cross-linked)
+- **New wiki page created:** [[wiki/projects/HIE AWS Cluster — RDP via Jumpbox]]
+- **Pieces IDs ingested:** 32 substantive new assets (137 new total in 24h, 17 duplicates filtered)
+- **Flags:** 4h window returned 0 results — extended to 24h per skill protocol. All other themes from today already captured in prior runs (FTFL-628/638 Grafana Alloy: done; FTFL-511 Nginx: done; Hermes config validation: done). Only uncaptured workstream: HIE AWS Jumpbox RDP runbook.
+
+## 2026-05-29 03:26 — Project Check-In
+
+- **Action:** Ingest (Pieces LTM — 4h + 24h extended window)
+- **Pieces assets found (4h):** 0
+- **Pieces assets found (24h):** 154 (35 dupes, 95 noise, 24 substantive — all already in raw/)
+- **Raw sources created:** none (all assets already ingested)
+- **Wiki pages touched:** none (no new facts to add)
+- **New project pages created:** 0
+- **Existing pages updated:** 0
+- **Flags:** none — quiet period, no activity in 4h window
+
+## 2026-05-29 06:39 — Daily Synthesis
+
+- **Action:** Ingest (Pieces LTM — 4h + 24h extended window)
+- **Pieces assets found (4h):** 0
+- **Pieces assets found (24h):** 154 filtered → 16 new (deduped) → 2 substantive
+- **Raw sources created:** [[raw/2026-05-28-pieces-hermes-config-validation.md]]
+- **Pieces IDs ingested:** 6 IDs (e987359e, 2c964efb, d7a00c51, eae1f61b, 7b9e7648, 86bf2b5e)
+- **Wiki pages touched:** [[wiki/projects/Hermes Config Production-Ready Audit]]
+- **New project pages created:** 0
+- **Existing pages updated:** 1
+- **Flags:** none

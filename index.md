@@ -1,6 +1,6 @@
 ---
 created: 2026-04-28T00:00:00+00:00
-modified: 2026-05-28 by Project Check-In (cron): 0 new project pages created; 1 raw note created (2026-05-28-pieces-ftfl638-grafana-alloy-fix); 1 existing page updated (Grafana Alloy Monitoring — FTFL-638); 14 new Pieces assets ingested
+modified: 2026-05-29 by Project Check-In (cron/24h): updated Hermes Config Production-Ready Audit wiki page with detailed Cursor config validation (raw/2026-05-28-pieces-hermes-config-validation)
 tags: [index, system]
 title: index
 ---
@@ -35,7 +35,7 @@ _(empty—populated on first ingest)_
 - [[wiki/projects/Azure Entra ID IAM → IaC + PIM Migration]]—High-stakes project to migrate Entra ID configuration to Infrastructure as Code, implement Privileged Identity Management, and tidy stale policies; includes break-glass account blueprint prerequisite.
 - [[wiki/projects/Execution Protocol for High-Friction Work]]—Personal execution protocol (Pre-Flight → Walking Skeleton → Unschedule → WIP Limits) for initiating large, ambiguous engineering projects.
 - [[wiki/projects/GitOps Deployment Pipeline Optimisation]]—Incremental investigation and optimisation of a live GitOps deployment pipeline measured via Four Key Metrics; no big-bang replacements.
-- [[wiki/projects/Hermes Config Production-Ready Audit]]—Config.yaml audit identifying redundancies, conflicts, and ~40% config reduction opportunity; produced 7-phase /goal instruction set for production-ready workstation convergence; comprehensive Discovery Report commissioned and delivered 2026-05-24 synthesising all LTM-captured configuration knowledge.
+- [[wiki/projects/Hermes Config Production-Ready Audit]]—Config.yaml audit identifying redundancies, conflicts, and ~40% config reduction opportunity; produced 7-phase /goal instruction set for production-ready workstation convergence; comprehensive Discovery Report commissioned and delivered 2026-05-24 synthesising all LTM-captured configuration knowledge; detailed Cursor config validation (2026-05-28) confirmed all applied changes including approvals.mode: smart, delegation lockdown, MCP tool filters, 4 new infra skill files.
 - [[wiki/projects/Hermes Integration — Provider Adapter Setup]]—concrete implementation project to wire Claude and Gemini as first-class providers within Hermes via provider adapters, keeping Hermes as orchestrator and PKM hub.
 - [[wiki/projects/Hermes Iteration Limit Configuration]]—Debugging workstream resolving 10/10 turn freeze: identified confusion between `max_turns` (main chat loop) vs `max_iterations` (background delegation) configuration parameters.
 - [[wiki/projects/Hermes-Model-Configuration]]—Diagnosis of `qwen/qwen3.5:cloud` invalid model ID error: traced stale reference to profile YAML files; both live and chezmoi configs already correct.
@@ -52,11 +52,13 @@ _(empty—populated on first ingest)_
 - [[wiki/projects/Chezmoi]]—Dotfile management using chezmoi for version-controlled configuration across systems with source directory at ~/.local/share/chezmoi/.
 - [[wiki/projects/LLMeon]]—LLMeon is the name of the Obsidian vault instance located at /Volumes/DAL/Zettelkasten/LLMeon, serving as the personal knowledge base.
 - [[wiki/projects/CUH-DP AKS Backup — Terraform]]—Production Terraform remediation for Azure AKS Backup on CUH-DP cluster (aks-ff-uks-gp-01): module v1.0.5→v1.2.6 upgrade, destructive plan fixes (backup RG deletion, storage LRS override, AKS cluster replacement risk), variable interface changes, FTFL-615 subnet errors; AKS backup extension conflict resolution (azure-aks-backup vs azbkuextension name conflict, delete-and-recreate workflow); RBAC permissions thread with Sean Donnelly (CUH), SP confirmation (c3791fe2), resource group naming corrections, sprint impact analysis.
+- [[wiki/projects/HIE AWS Cluster — RDP via Jumpbox]]—Operational runbook for accessing the HIE AWS cluster via RDP through an EC2 jumpbox using SSM port-forward tunnel (localhost:3389).
 - [[wiki/projects/gcx CLI — FITFILE Grafana Stacks]]—Setting up and authenticating the gcx CLI tool for both FITFILE Grafana Cloud stacks (fitfileprod and fitfiletest) under the garethhailes org.
 - [[wiki/projects/Semble]]—Semantic code search library integration for Hermes agents; replaces grep+read with BM25+semantic hybrid, achieving ~84% token reduction.
 - [[wiki/projects/Zsh-Config]]—Zsh command-line editing via `edit-command-line` ZLE widget bound to Vim; chezmoi-managed configuration.
 - [[wiki/projects/Calibre Semantic Ebook Research]]—Hermes skill system for semantic search across the Calibre ebook library, generating reading lists and research notes integrated with Obsidian PKM.
 - [[wiki/projects/FITFILE Testing Infrastructure]]—Operational infrastructure work on the FITFILE Azure testing environment: AKS cluster management, Terraform state conflicts, Kubernetes secrets propagation; testing cluster `fitfile-cloud-testing-aks-cluster`.
+- [[wiki/projects/FTFL-511 Nginx HTTPS Hardening]]—FITFILE security ticket to harden TLS configuration of ingress-nginx controller: 14 outdated cipher suites identified in pentest; MR !757 declined; awaiting DevOps re-pick.
 - [[wiki/projects/Hermes Multi-Model Routing Strategy]]—Research and architecture for Hermes's multi-model orchestration: free models (Owl Alpha) for planning, premium models (Claude Code, cloud) for complex execution; debugging CLI timeouts and OpenRouter routing.
 
 ### `wiki/orgs/`
@@ -69,4 +71,4 @@ _(empty—populated on first ingest)_
 
 ---
 
-_Updated 2026-05-28 by Project Check-In (cron): 0 new project pages created; 1 raw note created (2026-05-28-pieces-ftfl638-grafana-alloy-fix); 1 existing page updated (Grafana Alloy Monitoring — FTFL-638); 14 new Pieces assets ingested. Issue resolved: Grafana Alloy config parse error fixed, ArgoCD sync completed successfully._
+_Updated 2026-05-29 by Project Check-In (cron/24h): 0 new assets in 4h window — extended to 24h, found 16 new assets (154 total), 2 substantive. Created 1 new raw note (2026-05-28-pieces-hermes-config-validation). Updated Hermes Config Production-Ready Audit wiki page with detailed Cursor config validation facts. No new project pages needed — all themes map to existing pages. Flags: none._

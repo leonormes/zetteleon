@@ -3,9 +3,9 @@ title: Hermes Config Production-Ready Audit
 wiki_type: dossier
 entity_kind: project
 created: 2026-05-23T12:52:00+00:00
-modified: 2026-05-28T18:05:00+00:00
+modified: 2026-05-29T06:39:00+00:00
 tags: [wiki, dossier]
-sources: [raw/2026-05-23-phermes-config-audit.md, raw/2026-05-24-pieces-hermes-starship-config.md, raw/2026-05-24-pieces-starship-hermes-review.md, raw/2026-05-24-pieces-hermes-discovery-report.md, raw/2026-05-24-pieces-hermes-discovery-report-full.md, raw/2026-05-28-pieces-ftfl511-jira-ticket.md]
+sources: [raw/2026-05-23-phermes-config-audit.md, raw/2026-05-24-pieces-hermes-starship-config.md, raw/2026-05-24-pieces-starship-hermes-review.md, raw/2026-05-24-pieces-hermes-discovery-report.md, raw/2026-05-24-pieces-hermes-discovery-report-full.md, raw/2026-05-28-pieces-ftfl511-jira-ticket.md, raw/2026-05-28-pieces-hermes-config-validation.md]
 ---
 
 ## Summary
@@ -45,7 +45,7 @@ Configuration audit of `~/.hermes/config.yaml` (12,397 bytes) to identify redund
 - **Voice-capture skill:** discussed as a planned enhancement on 23 May 2026; no evidence of implementation — [[raw/2026-05-24-pieces-hermes-discovery-report-full]] (Pieces: c8c5de20-42b9-45d4-a2b4-07c43e6c83fc)
 
 
-- **2026-05-28 ~14:21**: Post-Cursor update validation confirmed: `approvals.mode: smart` ✅, delegation lockdown (`inherit_mcp_toolsets: false`, `toolsets: [file]`, `max_iterations: 20`, `child_timeout_seconds: 120`, `reasoning_effort: high`) ✅, MCP tool filters (`mcp-proxy.tools.exclude: []`, `pieces.tools.include: [ask_pieces_ltm, search_pieces, save_to_pieces]`) ✅, Model Roles comment block ✅ — [[raw/2026-05-28-pieces-ftfl511-jira-ticket]] (Pieces: d7a00c51-b046-4deb-b3a1-cfa991a5a526)
+- **2026-05-28 ~14:21**: Post-Cursor update validation confirmed all changes present and correct — `approvals.mode: smart` ✅, delegation lockdown (`inherit_mcp_toolsets: false`, `toolsets: [file]`, `max_iterations: 20`, `child_timeout_seconds: 120`, `reasoning_effort: high`) ✅, MCP tool filters (`mcp-proxy.tools.exclude: []`, `pieces.tools.include: [ask_pieces_ltm, search_pieces, save_to_pieces]`) ✅, Model Roles comment block (`free_main = owl-alpha / paid_reason = claude-sonnet-4-6`) ✅, 4 new infra skill files (`argocd-unstick`, `crashloop-triage`, `helm-validate`, `loki-label-audit`) ✅, `route-task.md` Infra/Debugging Protocol section ✅, `claude-code.md` "When NOT to use" section ✅, `cost-routing-pilot.md` Phase A+B ✅ — full validation report with 7-step test plan delivered — [[raw/2026-05-28-pieces-hermes-config-validation]] (Pieces: e987359e-137c-41e4-9d84-e9b63f7cddd5, 2c964efb-aca8-44ae-80f6-9a9517445ed2, d7a00c51-b046-4deb-b3a1-cfa991a5a526)
 
 ## Timeline
 - **2026-05-28**: Post-Cursor config update validation — all Cursor-applied changes confirmed present and correct
