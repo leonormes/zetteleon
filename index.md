@@ -1,6 +1,6 @@
 ---
 created: 2026-04-28T00:00:00+00:00
-modified: 2026-05-29 by Project Check-In (cron/24h): updated Hermes Config Production-Ready Audit wiki page with detailed Cursor config validation (raw/2026-05-28-pieces-hermes-config-validation)
+modified: 2026-05-30T07:54:56+00:00
 tags: [index, system]
 title: index
 ---
@@ -18,8 +18,8 @@ Updated automatically on every Ingest. Do not edit manually.
 _(empty—populated on first ingest)_
 
 ### `wiki/projects/`
-- [[raw/2026-05-30-pieces-ftfl638-tolerations-permissive.md]] — FTFL-638 tolerations permissive confirmation
 
+- [[raw/2026-05-30-pieces-ftfl638-tolerations-permissive.md]]—FTFL-638 tolerations permissive confirmation
 - [[wiki/projects/12 Million Patient Synthetic NHS-OMOP Pipeline]]—FITFILE synthetic NHS OMOP data generation & stress-test initiative (up to 12M patients, 5-node Parquet datasets).
 - [[wiki/projects/Azure AKS Backup — FTFL]]—Azure Backup for AKS covering FTFL-596/599/615: vault, extension, RBAC, trusted access binding, Terraform dependencies; 9 validated components (private storage, PE subnet, DNS, vault, snapshot RG, extension, policy, trusted binding, backup instance); IaC action plan defined with Phase 1–3 roadmap and validation criteria; Terraform module review completed (2026-05-01) validating plan against manual CLI end-state, identifying import vs creation distinction, secrets configuration gaps, and security considerations.
 - [[wiki/projects/Azure Backup Restore Runbook]]—FTFL-599: operational runbook documenting az dataprotection CLI sequences for backup initialization, validation, and restore operations.
@@ -59,9 +59,8 @@ _(empty—populated on first ingest)_
 - [[wiki/projects/Zsh-Config]]—Zsh command-line editing via `edit-command-line` ZLE widget bound to Vim; chezmoi-managed configuration.
 - [[wiki/projects/Calibre Semantic Ebook Research]]—Hermes skill system for semantic search across the Calibre ebook library, generating reading lists and research notes integrated with Obsidian PKM.
 - [[wiki/projects/FITFILE Testing Infrastructure]]—Operational infrastructure work on the FITFILE Azure testing environment: AKS cluster management, Terraform state conflicts, Kubernetes secrets propagation; testing cluster `fitfile-cloud-testing-aks-cluster`.
-- [[wiki/projects/FTFL-511 Nginx HTTPS Hardening]]—FITFILE security ticket to harden TLS configuration of ingress-nginx controller: 14 outdated cipher suites identified in pentest; MR !757 declined; awaiting DevOps re-pick.
+- [[wiki/projects/FTFL-511 Nginx HTTPS Hardening]]—FITFILE security ticket to harden TLS configuration of ingress-nginx controller: 14 outdated cipher suites identified in pentest; MR!757 declined; awaiting DevOps re-pick.
 - [[wiki/projects/Hermes Multi-Model Routing Strategy]]—Research and architecture for Hermes's multi-model orchestration: free models (Owl Alpha) for planning, premium models (Claude Code, cloud) for complex execution; debugging CLI timeouts and OpenRouter routing.
-
 - [[wiki/projects/FTFL-511-512 Security Scan]]—Security scanning for FTFL-511 & FTFL-512: nmap scans from jumpbox testing subnet to private cluster; discovered Cloudflare proxy (not nginx) on scanned ports; SSH auth troubleshooting with IdentitiesOnly=yes and 1Password.
 - [[wiki/projects/Azure Bastion SSH Troubleshooting]]—Diagnosed Azure Bastion SSH failures: MaxAuthTries exhaustion from 1Password keys, IdentitiesOnly=yes backfiring with AAD auth, --ssh-args flag missing in Azure CLI; resolved via `--` separator for SSH arguments.
 - [[wiki/projects/Git Tag Management]]—Git tag operations: moved sandbox-testing-1-latest-release tag post-merge, resolved v1.8.65 src refspec push failure (tag missing locally).
@@ -77,4 +76,4 @@ _(empty—populated on first ingest)_
 
 ---
 
-_Updated 2026-05-29 by Project Check-In (cron/4h): updated 3 existing project pages (Chezmoi, Hermes-Model-Configuration, Grafana Alloy Monitoring — FTFL-638) with 3 new raw notes from 11 substantive assets. New facts: chezmoi audit (17 findings), Ollama vs OpenRouter cost review, FTFL-638 Workflows logs still missing. Flags: none._
+_Updated 2026-05-29 by Project Check-In (cron/4h): updated 3 existing project pages (Chezmoi, Hermes-Model-Configuration, Grafana Alloy Monitoring—FTFL-638) with 3 new raw notes from 11 substantive assets. New facts: chezmoi audit (17 findings), Ollama vs OpenRouter cost review, FTFL-638 Workflows logs still missing. Flags: none._
