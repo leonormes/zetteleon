@@ -3,7 +3,7 @@ title: Grafana Alloy Monitoring — FTFL-638
 wiki_type: dossier
 entity_kind: project
 created: 2026-05-06T20:15:00+00:00
-modified: 2026-05-28T14:00:00+00:00
+modified: 2026-05-30T00:08:42+00:00
 tags: [wiki, dossier]
 sources:
   - raw/2026-05-06-pieces-grafana-alloy-monitoring
@@ -12,11 +12,13 @@ sources:
   - raw/2026-05-27-pieces-alloy-image-pull-secret
   - raw/2026-05-27-pieces-k8s-observability
   - raw/2026-05-28-pieces-ftfl638-grafana-alloy-fix
+  - raw/2026-05-29-pieces-ftfl638-logs
+  - raw/2026-05-29-pieces-ftfl638-workflow-taints
 ---
 
 ## Summary
 
-A Kubernetes monitoring stack project focused on Grafana/Alloy Helm deployment and Loki log labeling. The primary ticket is **FTFL-638** (Grafana/Alloy log labeling improvements), with related work tracked under FTFL-511/512. **As of 2026-05-28, the monitoring issue is resolved.** Two root causes were fixed: (1) `alloy-metrics` was pushing Prometheus metrics to the wrong endpoint, and (2) a River config parsing error (`action = keep` bare identifier at line 248 of `config.alloy`) was corrected to `action = "keep"`. The project's goal was to define a production-ready `values.yaml` shape for the Grafana/Alloy deployment, fix YAML indentation and label consistency issues in the Alloy ConfigMap, and produce a staged plan to stabilise the testing cluster so that logs for `ffcloud-service`, `frontend`, and `spicedb` are reliably labeled and queryable in Loki.
+A Kubernetes monitoring stack project focused on Grafana/Alloy Helm deployment and Loki log labeling. The primary ticket is **FTFL-638** (Grafana/Alloy log labeling improvements), with related work tracked under FTFL-511/512. **As of 2026-05-29 15:54, the taint-based coverage gap for alloy-logs on workflow nodes has been fully diagnosed**: two taints block the DaemonSet from scheduling on `aks-workflows-*` nodes (`dedicated=workflows:NoSchedule` and `kubernetes.azure.com/scalesetpriority=spot:NoSchedule`). The fix is to add both tolerations to `grafana.alloy-logs.tolerations` in `ffnodes/fitfile/testing/values.yaml`. Previously fixed: (1) `alloy-metrics` pushing to wrong endpoint, (2) River config parsing error `action = keep` corrected to `action = "keep"`.
 
 ## Key Facts
 
@@ -73,6 +75,7 @@ A Kubernetes monitoring stack project focused on Grafana/Alloy Helm deployment a
 - **2026-05-28**: A complete Claude Code debug prompt was produced for FTFL-638 covering the full stack (ArgoCD + testing cluster monitoring charts deployment failure), with instructions to use `kubectl` CLI for live cluster investigation — [[raw/2026-05-28-pieces-ftfl638-grafana-alloy-fix]] (Pieces: 8f08c302-94ef-440d-8afa-1009449f6973)
 
 - **2026-05-28**: Per user confirmation, the Grafana Monitoring issue in the testing cluster is **now fixed**; a Jira update was drafted for FTFL-628 covering the two resolved root causes: (1) `alloy-metrics` was pushing Prometheus metrics to the wrong endpoint, and (2) a config parsing error in `/etc/alloy/config.alloy` — [[raw/2026-05-28-pieces-ftfl638-grafana-alloy-fix]] (Pieces: cb801a1a-0bca-4d3a-9893-10389e501fa8, d766dadf-20b8-4ab6-9b5e-fe81d3e8fde1, 0dc6aa22-eb8b-49cf-bab0-bb7f2c2d0774)
+- **2026-05-30 (15:42)**: Confirmed tolerations are permissive, not restrictive — adding workflow node tolerations to alloy-logs does NOT restrict scheduling on system nodes (`aks-system-*`), which have no taints. The fix adds coverage for both taints on `aks-workflows-*` nodes (`dedicated=workflows:NoSchedule` and `spot:NoSchedule`) while preserving existing system node coverage — [[raw/2026-05-30-pieces-ftfl638-tolerations-permissive.md]] (Pieces: fd75ff76-e61c-4d32-a5b1-f53c8679c090)
 
 ## Connections
 
@@ -81,6 +84,23 @@ A Kubernetes monitoring stack project focused on Grafana/Alloy Helm deployment a
 - [[wiki/projects/Hermes-Agent]] (Hermes orchestration used to produce the antigravity-cli prompt)
 - [[wiki/projects/FITFILE Testing Infrastructure]] (same testing cluster; Terraform AKS and secrets management)
 
+- **2026-05-29 (15:34–15:54)**: Root Cause #2 for missing workflow logs fully diagnosed — the `aks-workflows-32842669-vmss*` node pool has **two taints** (`dedicated=workflows:NoSchedule` and `kubernetes.azure.com/scalesetpriority=spot:NoSchedule`), and the alloy-logs DaemonSet tolerates neither. Result: the second alloy-logs pod stays `Pending` whenever the workflow pool scales up, and workflow pod logs are never collected — [[raw/2026-05-29-pieces-ftfl638-workflow-taints]] (Pieces: d8922edc-675e-44aa-a03b-b719fcf7780a)
+
+- **2026-05-29 (15:39)**: Workflow node taint details confirmed via `kubectl get nodes -o json | jq ...` — only the `aks-workflows-*` pool carries the `dedicated=workflows:NoSchedule` taint; system nodes (`aks-system-*`) have zero taints — [[raw/2026-05-29-pieces-ftfl638-workflow-taints]] (Pieces: cf74bae5-299f-4da9-86f3-c94740c77269)
+
+- **2026-05-29 (15:54)**: Complete values.yaml toleration fix produced — both taints must be tolerated for alloy-logs to schedule on workflow nodes. The Spot VM taint (`kubernetes.azure.com/scalesetpriority=spot:NoSchedule`) is AKS-standard on all Spot node pools and must be explicitly tolerated by any DaemonSet needing coverage — [[raw/2026-05-29-pieces-ftfl638-workflow-taints]] (Pieces: 7c6fcf68-3c0e-4f47-ac18-c8d348f377e4)
+
+- **2026-05-29 (15:42)**: User confirmed tolerations are permissive, not restrictive — adding workflow node tolerations to alloy-logs does NOT affect scheduling on system nodes (`aks-system-*`), which have no taints. Result: alloy-logs continues on system nodes (unchanged) + newly covers workflow nodes — [[raw/2026-05-29-pieces-ftfl638-workflow-taints]] (Pieces: 6c429e3c-2cb5-49dc-900a-79d52e9c56f7)
+
+## Timeline
+
+- **2026-05-06** — Project page created; initial values.yaml draft produced
+- **2026-05-26** — FTFL-638 spec document provided; Cursor and antigravity-cli prompts generated
+- **2026-05-27** — Alloy image pull secret issue identified and resolved (4th recurrence); labelsToKeep dots/slashes issue flagged
+- **2026-05-28** — River config parse error fixed (`action = keep` → `action = "keep"`); Argo CD sync successful; issue declared fixed
+- **2026-05-29** — Ollie reports Workflows logs still invisible; investigation identifies two root causes: (1) `pod: null` in structuredMetadata suppresses stream label, (2) alloy-logs DaemonSet can't schedule on workflow nodes due to missing taint tolerations
+- **2026-05-29 15:54** — Full taint investigation complete: workflow nodes have two taints; complete values.yaml fix produced; tolerations confirmed as permissive (system node coverage unaffected)
+
 ## Contradictions
 
 _(none identified)_
@@ -88,5 +108,5 @@ _(none identified)_
 ## Open Questions
 
 - Has the `values.yaml` draft been tested against the actual Helm chart schema for Grafana Alloy v3.7.5?
-- Are there additional containers beyond `ffcloud-service`, `frontend`, and `spicedb` that need log labeling verification?
+- After applying both tolerations to alloy-logs, have workflow pod logs appeared in Grafana for the `argo` namespace?
 - What is the current state of the `extraRelabelingRules` fallback — is it required or can the primary `labelsToKeep` config achieve `job="namespace/container"` alone?

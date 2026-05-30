@@ -18,6 +18,7 @@ Updated automatically on every Ingest. Do not edit manually.
 _(empty—populated on first ingest)_
 
 ### `wiki/projects/`
+- [[raw/2026-05-30-pieces-ftfl638-tolerations-permissive.md]] — FTFL-638 tolerations permissive confirmation
 
 - [[wiki/projects/12 Million Patient Synthetic NHS-OMOP Pipeline]]—FITFILE synthetic NHS OMOP data generation & stress-test initiative (up to 12M patients, 5-node Parquet datasets).
 - [[wiki/projects/Azure AKS Backup — FTFL]]—Azure Backup for AKS covering FTFL-596/599/615: vault, extension, RBAC, trusted access binding, Terraform dependencies; 9 validated components (private storage, PE subnet, DNS, vault, snapshot RG, extension, policy, trusted binding, backup instance); IaC action plan defined with Phase 1–3 roadmap and validation criteria; Terraform module review completed (2026-05-01) validating plan against manual CLI end-state, identifying import vs creation distinction, secrets configuration gaps, and security considerations.
@@ -76,4 +77,4 @@ _(empty—populated on first ingest)_
 
 ---
 
-_Updated 2026-05-29 by Project Check-In (cron/4h): 77 assets found (4h window), 24 substantive, 0 duplicates. 4 new raw notes created. 4 new project pages: FTFL-511-512 Security Scan, Azure Bastion SSH Troubleshooting, Git Tag Management, Grafana Upgrade - Testing Cluster. Flags: none._
+_Updated 2026-05-29 by Project Check-In (cron/4h): updated 3 existing project pages (Chezmoi, Hermes-Model-Configuration, Grafana Alloy Monitoring — FTFL-638) with 3 new raw notes from 11 substantive assets. New facts: chezmoi audit (17 findings), Ollama vs OpenRouter cost review, FTFL-638 Workflows logs still missing. Flags: none._

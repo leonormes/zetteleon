@@ -1,6 +1,6 @@
 ---
 created: 2026-04-28T00:00:00+00:00
-modified: 2026-05-26T14:30:00+00:00
+modified: 2026-05-29T15:40:51+00:00
 tags: [log, system]
 title: log
 ---
@@ -476,4 +476,28 @@ Append-only—never edit past entries.
 - **Raw sources created:** [[raw/2026-05-29-pieces-ftfl-511-512-security-scan]], [[raw/2026-05-29-pieces-azure-bastion-ssh-troubleshooting]], [[raw/2026-05-29-pieces-git-tag-management]], [[raw/2026-05-29-pieces-grafana-upgrade-testing-cluster]]
 - **Wiki pages touched:** [[wiki/projects/FTFL-511-512 Security Scan]], [[wiki/projects/Azure Bastion SSH Troubleshooting]], [[wiki/projects/Git Tag Management]], [[wiki/projects/Grafana Upgrade - Testing Cluster]]
 - **Pieces IDs ingested:** 24 new memories (77 total in 4h window, 0 duplicates)
+- **Flags:** none
+
+## 2026-05-29 15:40 — Daily Synthesis
+
+- **Action:** Ingest (Pieces LTM)
+- **Raw sources created:** [[raw/2026-05-29-pieces-chezmoi-audit]], [[raw/2026-05-29-pieces-ftfl638-logs]], [[raw/2026-05-29-pieces-hermes-openrouter]]
+- **Wiki pages touched:** [[wiki/projects/Chezmoi]], [[wiki/projects/Hermes-Model-Configuration]], [[wiki/projects/Grafana Alloy Monitoring — FTFL-638]]
+- **Pieces IDs ingested:** 11 substantive assets (60 in 4h window, all new after dedup)
+- **Flags:** none
+
+## 2026-05-29 19:54 — Daily Synthesis
+
+- **Action:** Ingest (Pieces LTM) — Project Check-In
+- **Raw sources created:** [[raw/2026-05-29-pieces-ftfl638-workflow-taints]], [[raw/2026-05-29-pieces-azure-bastion-1password-ssh]]
+- **Wiki pages touched:** [[wiki/projects/Grafana Alloy Monitoring — FTFL-638]], [[wiki/projects/Azure Bastion SSH Troubleshooting]]
+- **Pieces IDs ingested:** 10 memories
+- **Flags:** none
+
+## 2026-05-30 00:08 — Daily Synthesis
+
+- **Action:** Ingest (Pieces LTM)
+- **Raw sources created:** [[raw/2026-05-30-pieces-ftfl638-tolerations-permissive.md]]
+- **Wiki pages touched:** [[wiki/projects/Grafana Alloy Monitoring — FTFL-638]]
+- **Pieces IDs ingested:** 1 memories
 - **Flags:** none
