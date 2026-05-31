@@ -41,7 +41,7 @@ Diagnosis and resolution of the `qwen/qwen3.5:cloud is not a valid model ID` err
 - [[Hermes Config Production-Ready Audit]] — broader config audit project
 - [[Hermes Iteration Limit Configuration]] — related Hermes config debug workstream
 - [[Chezmoi]] — config files are chezmoi-managed
-- [[Hermes Multi-Model Routing Strategy]] — multi-model routing research and design
+- [[Hermes-Multi-Model-Routing-Strategy]] — multi-model routing research and design
 
 ## Timeline
 

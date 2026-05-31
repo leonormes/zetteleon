@@ -3,7 +3,7 @@ title: Grafana Alloy Monitoring — FTFL-638
 wiki_type: dossier
 entity_kind: project
 created: 2026-05-06T20:15:00+00:00
-modified: 2026-05-30T00:08:42+00:00
+modified: 2026-05-30T21:07:41+00:00
 tags: [wiki, dossier]
 sources:
   - raw/2026-05-06-pieces-grafana-alloy-monitoring
@@ -14,6 +14,8 @@ sources:
   - raw/2026-05-28-pieces-ftfl638-grafana-alloy-fix
   - raw/2026-05-29-pieces-ftfl638-logs
   - raw/2026-05-29-pieces-ftfl638-workflow-taints
+  - raw/2026-05-30-pieces-ftfl638-scheduling-regression
+  - raw/2026-05-30-pieces-ftfl638-cpu-saturation
 ---
 
 ## Summary
@@ -77,6 +79,8 @@ A Kubernetes monitoring stack project focused on Grafana/Alloy Helm deployment a
 - **2026-05-28**: Per user confirmation, the Grafana Monitoring issue in the testing cluster is **now fixed**; a Jira update was drafted for FTFL-628 covering the two resolved root causes: (1) `alloy-metrics` was pushing Prometheus metrics to the wrong endpoint, and (2) a config parsing error in `/etc/alloy/config.alloy` — [[raw/2026-05-28-pieces-ftfl638-grafana-alloy-fix]] (Pieces: cb801a1a-0bca-4d3a-9893-10389e501fa8, d766dadf-20b8-4ab6-9b5e-fe81d3e8fde1, 0dc6aa22-eb8b-49cf-bab0-bb7f2c2d0774)
 - **2026-05-30 (15:42)**: Confirmed tolerations are permissive, not restrictive — adding workflow node tolerations to alloy-logs does NOT restrict scheduling on system nodes (`aks-system-*`), which have no taints. The fix adds coverage for both taints on `aks-workflows-*` nodes (`dedicated=workflows:NoSchedule` and `spot:NoSchedule`) while preserving existing system node coverage — [[raw/2026-05-30-pieces-ftfl638-tolerations-permissive.md]] (Pieces: fd75ff76-e61c-4d32-a5b1-f53c8679c090)
 
+- **2026-05-30 (12:56)**: New root cause identified — **CPU request saturation** on workflow node: one node reported at **99% request saturation** (`3852m/3860m`, only **8m free`), while `alloy-logs` was requesting **10m CPU**. Kubernetes returned `Warning FailedScheduling ... 0/3 nodes are available: 1 Insufficient cpu, 2 node(s) didn't satisfy plugin(s) [NodeAffinity]`. **Proposed fix:** reduce `alloy-logs` CPU request from `10m` → `5m` in `ffnodes/fitfile/testing/values.yaml`, keep workflow/spot tolerations, then redeploy and verify DaemonSet reschedules. See [FTFL-638 MR !783](https://gitlab.com/fitfile/deployment/-/merge_requests/783). **Related:** same change set also removed `pod: null` from `structuredMetadata`, pushing `pod` out of Loki stream labels — restoring that keeps pod-based querying working — [[raw/2026-05-30-pieces-ftfl638-cpu-saturation]] (Pieces: 14aa82dd-ea33-4b05-b981-95ad9aa151ea)
+
 ## Connections
 
 - [[wiki/projects/Azure AKS Backup — FTFL]] (same FTFL program; FTFL-596/599/615)
@@ -92,6 +96,10 @@ A Kubernetes monitoring stack project focused on Grafana/Alloy Helm deployment a
 
 - **2026-05-29 (15:42)**: User confirmed tolerations are permissive, not restrictive — adding workflow node tolerations to alloy-logs does NOT affect scheduling on system nodes (`aks-system-*`), which have no taints. Result: alloy-logs continues on system nodes (unchanged) + newly covers workflow nodes — [[raw/2026-05-29-pieces-ftfl638-workflow-taints]] (Pieces: 6c429e3c-2cb5-49dc-900a-79d52e9c56f7)
 
+- **2026-05-30 (04:17–08:17)**: Commit `d3c292` (MR !779 / !781) re-broke pod labels on workflow nodes ~21 minutes before detection — the `grafana-k8s-monitoring-alloy-logs-f54v9` pod is failing to schedule on 2 of 3 nodes due to NodeAffinity mismatch; the `agentpool=workflows` and `kubernetes.azure.com/priority=spot` labels conflict with the DaemonSet's affinity rules — [[raw/2026-05-30-pieces-ftfl638-scheduling-regression]] (Pieces: ec7ab7b2-48ac-4fdf-9bd8-9b1274d43af5)
+
+- **2026-05-30**: Hermes `/goal` prompt was requested to investigate the current state of testing and gcx logging — the user needs an automated investigation of the DaemonSet scheduling failure and CPU exhaustion on the third node — [[raw/2026-05-30-pieces-ftfl638-scheduling-regression]] (Pieces: 9e20bac1-90d5-4a57-8745-d31f459ba2e7)
+
 ## Timeline
 
 - **2026-05-06** — Project page created; initial values.yaml draft produced
@@ -100,6 +108,8 @@ A Kubernetes monitoring stack project focused on Grafana/Alloy Helm deployment a
 - **2026-05-28** — River config parse error fixed (`action = keep` → `action = "keep"`); Argo CD sync successful; issue declared fixed
 - **2026-05-29** — Ollie reports Workflows logs still invisible; investigation identifies two root causes: (1) `pod: null` in structuredMetadata suppresses stream label, (2) alloy-logs DaemonSet can't schedule on workflow nodes due to missing taint tolerations
 - **2026-05-29 15:54** — Full taint investigation complete: workflow nodes have two taints; complete values.yaml fix produced; tolerations confirmed as permissive (system node coverage unaffected)
+- **2026-05-30** — Commit `d3c292` (MR !779/!781) re-broke pod labels on workflow nodes; NodeAffinity mismatch blocks scheduling on 2 of 3 nodes; Hermes `/goal` prompt requested for automated investigation
+- **2026-05-30 (12:56)** — CPU request saturation root cause identified: workflow node at 3852m/3860m (99%), Alloy requesting 10m; fix proposed: reduce to 5m
 
 ## Contradictions
 
@@ -110,3 +120,4 @@ _(none identified)_
 - Has the `values.yaml` draft been tested against the actual Helm chart schema for Grafana Alloy v3.7.5?
 - After applying both tolerations to alloy-logs, have workflow pod logs appeared in Grafana for the `argo` namespace?
 - What is the current state of the `extraRelabelingRules` fallback — is it required or can the primary `labelsToKeep` config achieve `job="namespace/container"` alone?
+- After reducing alloy-logs CPU request to 5m, does the DaemonSet successfully reschedule on the saturated workflow node?

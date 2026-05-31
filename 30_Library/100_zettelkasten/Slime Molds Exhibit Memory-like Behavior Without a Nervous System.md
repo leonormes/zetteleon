@@ -21,3 +21,6 @@ Details: In experiments:
 - This behavior suggests a primitive form of spatial memory
 
 The mechanism involves chemical trails left behind during movement, demonstrating that memory can exist without neurons or brains. This challenges traditional definitions of intelligence and shows cognitive abilities exist on a spectrum.
+
+
+- [[Chemotaxis as Primitive Model-Based Behavior]] _(Chemotaxis as evolutionary precursor to emotion: bacteria implement sense→evaluate→act without a nervous system)_

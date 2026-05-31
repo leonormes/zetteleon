@@ -1,6 +1,6 @@
 ---
 created: 2026-04-28T00:00:00+00:00
-modified: 2026-05-30T07:54:56+00:00
+modified: 2026-05-31T01:11:00+00:00
 tags: [index, system]
 title: index
 ---
@@ -73,7 +73,8 @@ _(empty—populated on first ingest)_
 ### `wiki/concepts/`
 
 - [[wiki/concepts/ADHD Procrastination and Productivity]]—Neurodevelopmental executive function deficit model; EF mediation (time management, organization); evidence-based interventions (CBT, DBT, EI training, VR body doubling); temporal motivation theory; bedtime procrastination.
+- [[wiki/concepts/Three Polymaths Three Lessons]]—al-Haytham (steelmanning), Leibniz (notation-as-thinking-tool), Feynman (12 favorite problems); meta-principle: reconstruction over recognition.
 
 ---
 
-_Updated 2026-05-29 by Project Check-In (cron/4h): updated 3 existing project pages (Chezmoi, Hermes-Model-Configuration, Grafana Alloy Monitoring—FTFL-638) with 3 new raw notes from 11 substantive assets. New facts: chezmoi audit (17 findings), Ollama vs OpenRouter cost review, FTFL-638 Workflows logs still missing. Flags: none._
+_Updated 2026-05-31 by Project Check-In (cron/4h): 0 new assets, 0 pages updated. No activity detected. Flags: none._

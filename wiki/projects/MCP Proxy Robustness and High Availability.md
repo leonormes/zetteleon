@@ -3,12 +3,14 @@ title: "MCP Proxy Robustness and High Availability"
 wiki_type: dossier
 entity_kind: project
 created: 2026-05-08T16:02:00+00:00
-modified: 2026-05-28T18:05:00+00:00
+modified: 2026-05-30T12:56:02+00:00
 tags: [wiki, dossier]
 sources:
+  - raw/2026-05-30-pieces-mcp-proxy-pkm-fix.md
   - raw/2026-05-08-pieces-mcp-proxy-robustness.md
   - raw/2026-05-27-pieces-mcp-tools
   - raw/2026-05-28-pieces-hermes-mcp-proxy-fix.md
+  - raw/2026-05-30-pieces-mcp-proxy-architecture
 ---
 
 ## Summary
@@ -49,10 +51,19 @@ A planning initiative to make the local `mcp-proxy` installation resilient, high
 - **2026-05-28**: FTFL-511 Jira ticket fetch attempt demonstrated the failure end-to-end: Hermes loaded both `mcp-proxy` and `obsidian` skills, then attempted raw HTTP via `execute_code`/`urllib` — timed out. The health check script also failed. User was asked to paste ticket content. This confirmed the MCP tool injection gap in production.
   > "The MCP proxy timed out. Let me run the health check first, then try using curl directly via terminal" — [[raw/2026-05-28-pieces-hermes-mcp-proxy-fix]] (Pieces: 577c3a10-8547-4a61-b115-2f724012ed55)
 
+- **2026-05-30**: User articulated the centralized MCP proxy architecture goal: `mcp-proxy` should run independently of any LLM consumer, and each LLM (Hermes, Claude Code, Cursor, Gemini) should know about and be able to use the shared proxy — [[raw/2026-05-30-pieces-mcp-proxy-architecture]] (Pieces: f2b0b1b0-3b9c-4d8e-9f0a-1b2c3d4e5f6a)
+
+- **2026-05-30**: User wants the MCP proxy to load quickly without waiting for the MCP server initialization — proxy startup should be decoupled from LLM client startup — [[raw/2026-05-30-pieces-mcp-proxy-architecture]] (Pieces: 34f55864-12a5-4c3d-8e9f-0a1b2c3d4e5f)
+
+- **2026-05-30**: User reports MCP proxy "still often fails." Diagnostic result: `mcp_mcp-proxy_*` tools not present in session (0 tools registered). This confirms the injection gap is a persistent issue — [[raw/2026-05-30-pieces-mcp-proxy-pkm-fix.md]] (Pieces: 84b8d231-e636-4e62-84ae-358205080e41)
+
+- **2026-05-30**: User requested a copy-paste-ready `/goal` prompt for a Hermes PKM session to fix the MCP proxy config and skills. Requirements: (a) replace grep/find with MCP semantic search and Obsidian CLI, (b) make ALL config changes via the chezmoi repo (never directly to `~/.hermes/`), (c) target the `hermes -p pkm` profile — [[raw/2026-05-30-pieces-mcp-proxy-pkm-fix.md]] (Pieces: 55fd334d-db5e-466d-8344-912ae8103b0b)
+
 ## Timeline
 
 - **2026-05-08 ~11:41** — Hermes disables ast-grep, atlassian, todoist, and sequential-thinking in the mcp-proxy config.
 - **2026-05-08 ~14:26** — Leon drafts a prompt for his coding agent to plan robustness improvements, restore disabled servers, and prevent future unauthorised changes.
+- **2026-05-30** — User articulated centralized MCP proxy architecture: proxy runs independently, all LLMs discover and use shared proxy
 
 ## Connections
 

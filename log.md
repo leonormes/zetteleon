@@ -501,3 +501,45 @@ Append-only—never edit past entries.
 - **Wiki pages touched:** [[wiki/projects/Grafana Alloy Monitoring — FTFL-638]]
 - **Pieces IDs ingested:** 1 memories
 - **Flags:** none
+
+## 2026-05-30 08:35 — Daily Synthesis
+
+- **Action:** Ingest (Pieces LTM) — Project Check-In (4h window)
+- **Raw sources created:** [[raw/2026-05-30-pieces-ftfl638-scheduling-regression]], [[raw/2026-05-30-pieces-hermes-mcp-config]], [[raw/2026-05-30-pieces-mcp-proxy-architecture]]
+- **Wiki pages touched:** [[wiki/projects/Grafana Alloy Monitoring — FTFL-638]], [[wiki/projects/Hermes Config Production-Ready Audit]], [[wiki/projects/MCP Proxy Robustness and High Availability]]
+- **Pieces IDs ingested:** 22 memories
+- **Flags:** none
+
+## 2026-05-30 09:08 — Knowledge Consolidation: Three Polymaths
+
+- **Action:** SoT-upgrade (HEAD note → atomic concept note)
+- **HEAD note updated:** `20_Thinking/21_Workbench/HEAD Three Polymaths Three Lessons.md`
+- **Changes:** Stripped raw Q&A wrapper; restructured as `type: concept` SoT note with atomic sections (al-Haytham/Steelmanning, Leibniz/Notation, Feynman/12 Problems); added typed wikilinks to IOED, schema theory, mental representations, brain learning processes; added Open Threads.
+- **Triad search:** Zero semantic duplicates. Related: IOED (supports), schema theory (broader), mental representations (broader), brain learning (broader).
+- **Flags:** none — no data loss. Duplicate-topic risk: `HEAD an "illusion of mastery".md` overlaps IOED territory — future dedup recommended.
+
+## 2026-05-30 12:57 — Daily Synthesis
+
+- **Action:** Ingest (Pieces LTM) — Project Check-In (4h cron)
+- **Raw sources created:** [[raw/2026-05-30-pieces-hermes-model-routing-chezmoi]], [[raw/2026-05-30-pieces-mcp-proxy-pkm-fix]]
+- **Wiki pages touched:** [[wiki/projects/Hermes-Multi-Model-Routing-Strategy]], [[wiki/projects/MCP Proxy Robustness and High Availability]]
+- **Pieces IDs ingested:** 69 substantive assets (from 231 in 4h window, 0 duplicates)
+- **Flags:** none
+
+## 2026-05-30 22:01 — Daily Synthesis
+
+- **Action:** Ingest (Pieces LTM)
+- **Raw sources created:** [[raw/2026-05-30-pieces-ftfl638-cpu-saturation]]
+- **Wiki pages touched:** [[wiki/projects/Grafana Alloy Monitoring — FTFL-638]]
+- **Pieces IDs ingested:** 1 new memory (5 new substantive assets found in 24h window, 4 were agent noise or user requests)
+- **Flags:** none
+- **Note:** Zero assets in the 4-hour window. Extended to 24h captured 1 new substantive finding: CPU request saturation on workflow node (3852m/3860m, 99% saturated). User also asked about Hermes model routing (separate request, not source material).
+
+## 2026-05-31 01:11 — Daily Synthesis
+
+- **Action:** Ingest (Pieces LTM)
+- **Raw sources created:** none
+- **Wiki pages touched:** none
+- **Pieces IDs ingested:** 0 new memories
+- **Flags:** none
+- **Note:** Zero assets in 4-hour window. Last activity in Pieces dates to August 2025 (~10 months ago). No truly recent work captured. Suppressed report.

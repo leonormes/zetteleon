@@ -1,6 +1,6 @@
 ---
 tags: [azure, iam, terraform, fitfile, central-services]
-created: 2026-05-11
+date: 2026-05-30
 source: terraform-central-services-repo
 ---
 
@@ -146,3 +146,9 @@ Both identities have `lifecycle { prevent_destroy = true }` protection.
 - `gitlab/.terraform.lock.hcl`
 
 (Exact provider versions require reading lock files — not extracted in this pass)
+
+## Related
+
+- [[SoT - Microsoft Entra Identity]] _Foundational reference for Azure AD / Entra ID identity concepts underpinning the IAM role assignments and service principals audited in this note._
+- [[Workload Identity Governance]] _Governance framework for managing workload identities (managed identities, service principals) in Azure — directly relevant to the `private-aks-provisioner` and `hub-provisioner` managed identities configured by this Terraform codebase._
+- [[SoT - Data-Centric IAM in Zero Trust]] _Zero Trust IAM architecture framework that contextualises the least-privilege RBAC model enforced through Terraform-managed custom role assignments._

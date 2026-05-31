@@ -1,7 +1,7 @@
 ---
 tags: [chezmoi, audit, dotfiles, refactor]
 source: OWL (Mechanical Lead, local audit)
-date: 2026-05-29
+date: 2026-05-30
 ---
 
 # Chezmoi Dotfiles Audit Report
@@ -135,3 +135,13 @@ ls ~/.local/share/chezmoi/dot_hermes_custom_skills/custom/mcp-integration/SKILL.
 ---
 
 *Report compiled by OWL (Mechanical Lead). Read-only audit. No files modified.*
+
+---
+
+## Related
+
+- [[wiki/projects/Chezmoi]] _Companion dossier tracing chezmoi dotfile management across all systems; this audit is a child investigation of that project._
+- [[wiki/projects/MCP Proxy Robustness and High Availability]] _Direct sibling concern: Finding #4/#5 flags the mcp-integration skill as untracked in chezmoi source, directly motivating the robustness initiative._
+- [[wiki/projects/Hermes Config Production-Ready Audit]] _Prior audit (2026-05-23) that established the config.yaml baseline; this dotfiles audit extends that work into the chezmoi management layer._
+- [[wiki/projects/Starship-Performance-Tuning]] _Terminal ecosystem sibling: Finding #8 flags WezTerm as vestigial with Ghostty active — part of the same terminal-stack rationalisation._
+- [[Hermes-TUI-Startup-Performance]] _Cross-domain sibling: the TUI startup audit shares the same Hermes config substrate (SOUL.md, config.yaml) whose chezmoi management is audited here._

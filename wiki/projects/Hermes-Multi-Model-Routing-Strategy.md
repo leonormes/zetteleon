@@ -3,9 +3,10 @@ title: Hermes Multi-Model Routing Strategy
 wiki_type: dossier
 entity_kind: project
 created: 2026-05-27T09:12:00+00:00
-modified: 2026-05-27T09:18:00+00:00
+modified: 2026-05-30T12:54:43+00:00
 tags: [wiki, dossier, project]
 sources:
+  - raw/2026-05-30-pieces-hermes-model-routing-chezmoi.md
   - raw/2026-05-27-pieces-hermes-openrouter-claude
 ---
 
@@ -22,6 +23,10 @@ Research and architectural design for Hermes's multi-model orchestration strateg
 - **Multi-model affordability question**: User asked whether using OpenRouter for Hermes would remain affordable if Hermes primarily uses free models for planning and only escalates to premium models for complex tasks — [[raw/2026-05-27-pieces-hermes-openrouter-claude]] (Pieces: 78c22094-fd94-4479-af2a-b6b747ee689f)
 
 - **LTM corpus relevance**: Memory search confirmed sufficient coverage of the Hermes + Claude Code timeout problem space. No additional material surfaced in tail pages (mostly FITFILE standup and Azure infra sessions) — [[raw/2026-05-27-pieces-hermes-openrouter-claude]] (Pieces: fad6006c-7e79-418f-8b41-d6480f0e18bc)
+
+- **2026-05-30**: User stated the core problem explicitly: Hermes defaults to **Owl Alpha for everything** despite adding OpenRouter credits. Desired architecture: free model for context gathering and CLI tool execution; more capable model for complex "thinking" tasks (research synthesis, planning, code review) — [[raw/2026-05-30-pieces-hermes-model-routing-chezmoi.md]] (Pieces: 1c30627f-599c-41c8-b4e9-9f8bed8d12ec)
+
+- **2026-05-30**: Root cause diagnosis: the routing failure stems from either (a) one global model setting applied to all conversation paths, or (b) "Use Claude" shortcut wired to the Claude CLI binary path rather than to the OpenRouter provider+model string. Fix requires inspecting the chezmoi-rendered config to determine which pattern is active — [[raw/2026-05-30-pieces-hermes-model-routing-chezmoi.md]] (Pieces: 94b8cb87-c55d-4ba3-9f2e-4ee3e2a072fe)
 
 ## Timeline
 

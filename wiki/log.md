@@ -42,3 +42,14 @@ tags: [wiki, log, audit, agent-protocol]
 ---
 
 *This file is append-only. Never edit past entries.*
+- 2026-05-30 | [[2026-05-30-hermes-model-routing]] | Hermes model routing: added pkm+coding profiles (Claude Sonnet via OR), fixed SOUL.md hard rule, expanded provider model registry, added route-task logging.
+
+## 2026-05-30 14:00 — Graph Integrity Remediation
+
+- Action: Dossier-update
+- Raw source: N/A
+- Wiki pages touched: [[2026-05-30-hermes-model-routing]]
+- Flags: Deadend note resolved — appended 3 annotated wikilinks:
+  - [[wiki/projects/Hermes-Multi-Model-Routing-Strategy]] (parent project dossier)
+  - [[wiki/projects/Hermes-Model-Configuration]] (sibling dossier, predecessor problem space)
+  - [[2026-05-29-chezmoi-dotfiles-audit]] (structural sibling, same config substrate)

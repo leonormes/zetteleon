@@ -3,9 +3,9 @@ title: Hermes Config Production-Ready Audit
 wiki_type: dossier
 entity_kind: project
 created: 2026-05-23T12:52:00+00:00
-modified: 2026-05-29T06:39:00+00:00
+modified: 2026-05-30T08:33:27+00:00
 tags: [wiki, dossier]
-sources: [raw/2026-05-23-phermes-config-audit.md, raw/2026-05-24-pieces-hermes-starship-config.md, raw/2026-05-24-pieces-starship-hermes-review.md, raw/2026-05-24-pieces-hermes-discovery-report.md, raw/2026-05-24-pieces-hermes-discovery-report-full.md, raw/2026-05-28-pieces-ftfl511-jira-ticket.md, raw/2026-05-28-pieces-hermes-config-validation.md]
+sources: [raw/2026-05-23-phermes-config-audit.md, raw/2026-05-24-pieces-hermes-starship-config.md, raw/2026-05-24-pieces-starship-hermes-review.md, raw/2026-05-24-pieces-hermes-discovery-report.md, raw/2026-05-24-pieces-hermes-discovery-report-full.md, raw/2026-05-28-pieces-ftfl511-jira-ticket.md, raw/2026-05-28-pieces-hermes-config-validation.md, raw/2026-05-30-pieces-hermes-mcp-config.md]
 ---
 
 ## Summary
@@ -47,8 +47,13 @@ Configuration audit of `~/.hermes/config.yaml` (12,397 bytes) to identify redund
 
 - **2026-05-28 ~14:21**: Post-Cursor update validation confirmed all changes present and correct — `approvals.mode: smart` ✅, delegation lockdown (`inherit_mcp_toolsets: false`, `toolsets: [file]`, `max_iterations: 20`, `child_timeout_seconds: 120`, `reasoning_effort: high`) ✅, MCP tool filters (`mcp-proxy.tools.exclude: []`, `pieces.tools.include: [ask_pieces_ltm, search_pieces, save_to_pieces]`) ✅, Model Roles comment block (`free_main = owl-alpha / paid_reason = claude-sonnet-4-6`) ✅, 4 new infra skill files (`argocd-unstick`, `crashloop-triage`, `helm-validate`, `loki-label-audit`) ✅, `route-task.md` Infra/Debugging Protocol section ✅, `claude-code.md` "When NOT to use" section ✅, `cost-routing-pilot.md` Phase A+B ✅ — full validation report with 7-step test plan delivered — [[raw/2026-05-28-pieces-hermes-config-validation]] (Pieces: e987359e-137c-41e4-9d84-e9b63f7cddd5, 2c964efb-aca8-44ae-80f6-9a9517445ed2, d7a00c51-b046-4deb-b3a1-cfa991a5a526)
 
+- **2026-05-30**: User requested a Hermes `/goal` prompt to audit and fix its own MCP server configuration — the prompt should direct Hermes to review the chezmoi repo for legacy MCP server settings and remove them from both the home directory and the chezmoi repo to prevent confusing LLM clients — [[raw/2026-05-30-pieces-hermes-mcp-config]] (Pieces: 97f2e103-f3f5-4c2c-8e9d-4e5f6a7b8c9d)
+
+- **2026-05-30**: A complete `/goal` prompt was produced for the Hermes MCP self-fix mission, instructing Hermes to identify and remove stale MCP server entries from `~/.hermes/config.yaml` and the chezmoi template at `~/.local/share/chezmoi/dot_config/mcpproxy/` — [[raw/2026-05-30-pieces-hermes-mcp-config]] (Pieces: 19808e94-4125-4e3d-8e9f-4e5f6a7b8c9d)
+
 ## Timeline
 - **2026-05-28**: Post-Cursor config update validation — all Cursor-applied changes confirmed present and correct
+- **2026-05-30**: User requested Hermes `/goal` prompt for MCP self-fix; prompt produced to clean legacy MCP settings from chezmoi repo and home dir
 
 - 2026-05-23: Config audit completed; /goal instruction set produced
 - 2026-05-23: Remediation plan executed — all HIGH/MEDIUM items landed, 2→1 doctor issues

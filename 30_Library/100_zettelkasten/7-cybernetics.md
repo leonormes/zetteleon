@@ -1,10 +1,8 @@
 ---
 created: 2026-05-04T08:01:26+00:00
-modified: 2026-05-26T11:44:37+00:00
+modified: 2026-05-30T15:37:00+00:00
 title: 7-cybernetics
 ---
-
-## 7-cybernetics
 
 ## 7-cybernetics
 
@@ -19,3 +17,5 @@ Suggested Links:
 [Feedback loops](7i-feedback%20loops.md)
 
 [1d-system_of_systems.md](./1d-system_of_systems.md) <!-- link-type: enables weight: 0.90 -->
+
+- [[Autopoiesis The Self-Referential System]] _(Maturana & Varela's concept of self-producing systems; a foundational model within second-order cybernetics where the system's primary drive is its own continuation)_

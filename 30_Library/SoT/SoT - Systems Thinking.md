@@ -81,3 +81,6 @@ Donella Meadows identified that not all interventions are equal.
 - [[SoT - The Exponential Function]]—_Understanding compounding and reinforcing feedback loops._
 - [[SoT - Fundamental Description of Economics]]—_Systems thinking applied to resource allocation and markets._
 - [[SoT - What is a Problem]]—_Defining problems as emergent dysfunctions of a system._
+
+
+- [[5c-emergence]] _(Core definition of emergence: complex patterns arising from simple interactions, key concept in systems theory and complexity science)_

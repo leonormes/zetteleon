@@ -34,6 +34,7 @@ Hermes Agent is the core orchestrator system managing LLM provider routing, skil
 - [[Hermes-Agent]] (skill system)
 - [[PKM System]] (Obsidian vault integration)
 - [[MCP Proxy Robustness and High Availability]] (MCP server management)
+- [[Hermes-Multi-Model-Routing-Strategy]] _(architectural design for free-model-first routing matrix: Owl Alpha for planning, premium models for execution)_
 
 ## Contradictions
 
