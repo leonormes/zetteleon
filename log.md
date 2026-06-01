@@ -575,3 +575,11 @@ Append-only—never edit past entries.
 - **Wiki pages touched:** none
 - **Pieces IDs ingested:** 0 memories
 - **Flags:** Pieces dormant — newest asset 2026-05-30T12:56 UTC (41h ago). 4h/24h windows returned 0. Extended to 48h: 357 assets found, 96 substantive after noise filter, only 7 new after dedup (1,683 existing IDs). All 7 new assets were agent self-talk or user-authored prompts — no captured user activity (terminal, URLs, code). Exit [SILENT].
+
+## 2026-06-01 15:00 — Daily Synthesis (Project Check-In, cron/4h)
+
+- **Action:** Ingest (Pieces LTM)
+- **Raw sources created:** [[raw/2026-06-01-pieces-nginx-ingress-webhook-fix]]
+- **Wiki pages touched:** [[wiki/projects/NGINX Ingress Admission Webhook Fix]]
+- **Pieces IDs ingested:** 6 memories (out of 10 in 4h window, 6 substantive after noise filter, 0 duplicates)
+- **Flags:** none — 1 new project page created.

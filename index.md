@@ -1,6 +1,6 @@
 ---
 created: 2026-04-28T00:00:00+00:00
-modified: 2026-05-31T01:11:00+00:00
+modified: 2026-06-01T00:00:00+00:00
 tags: [index, system]
 title: index
 ---
@@ -65,6 +65,7 @@ _(empty—populated on first ingest)_
 - [[wiki/projects/Azure Bastion SSH Troubleshooting]]—Diagnosed Azure Bastion SSH failures: MaxAuthTries exhaustion from 1Password keys, IdentitiesOnly=yes backfiring with AAD auth, --ssh-args flag missing in Azure CLI; resolved via `--` separator for SSH arguments.
 - [[wiki/projects/Git Tag Management]]—Git tag operations: moved sandbox-testing-1-latest-release tag post-merge, resolved v1.8.65 src refspec push failure (tag missing locally).
 - [[wiki/projects/Grafana Upgrade - Testing Cluster]]—Upgraded and configured Grafana in testing cluster using values.yaml; referenced in today's FTFL-511/512 security scan context.
+- [[wiki/projects/NGINX Ingress Admission Webhook Fix]]—Investigation and fix for failing ArgoCD sync caused by NGINX Ingress admission webhook rejecting snippet annotations; scoped to IaC-only changes on private network cluster.
 
 ### `wiki/orgs/`
 
@@ -77,4 +78,4 @@ _(empty—populated on first ingest)_
 
 ---
 
-_Updated 2026-05-31 by Project Check-In (cron/4h): 0 new assets, 0 pages updated. No activity detected. Flags: none._
+_Updated 2026-06-01 by Project Check-In (cron/4h): 1 new project page created, 0 existing pages updated. Flags: none._
