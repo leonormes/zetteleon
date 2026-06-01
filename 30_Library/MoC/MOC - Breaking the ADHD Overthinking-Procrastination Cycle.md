@@ -75,3 +75,6 @@ These techniques translate the principles into a practical, immediate toolkit.
 - [[SoT - ADHD Neurology & Core Concepts]]—_Foundational neurobiology, including the Shame-Procrastination Cycle._
 - [[SoT - Breaking the Creation Cycle]]—_Generating momentum via micro-steps and the "Starter Task" protocol._
 - 3.6 Pre-define the Transition Rule: [[Action Triggers Bridge the Gap Between Motion and Action|Action Triggers]] eliminate the decision of when to act by pre-committing to a concrete handoff point ('After X preparation step, I will begin Y execution'), cutting off the infinite preparation loop at the root.
+
+
+- [[Part 1 The Psychology of ADHD-Driven Overthinking]] _(Psychological deep-dive into ADHD overthinking: executive dysfunction, working memory deficits, dopamine-seeking, and RSD as drivers)_

@@ -543,3 +543,35 @@ Append-only—never edit past entries.
 - **Pieces IDs ingested:** 0 new memories
 - **Flags:** none
 - **Note:** Zero assets in 4-hour window. Last activity in Pieces dates to August 2025 (~10 months ago). No truly recent work captured. Suppressed report.
+
+## 2026-05-31 18:38 — Daily Synthesis
+
+- **Action:** Ingest (Pieces LTM)
+- **Raw sources created:** none
+- **Wiki pages touched:** none
+- **Pieces IDs ingested:** 0 memories
+- **Flags:** no new Pieces activity — last asset 2026-05-30T12:56Z (~28h ago)
+
+## 2026-05-31 21:41 — Daily Synthesis
+
+- **Action:** Ingest (Pieces LTM)
+- **Raw sources created:** none
+- **Wiki pages touched:** none
+- **Pieces IDs ingested:** 0 memories
+- **Flags:** no new Pieces activity — last asset 2026-05-30T12:56Z (~33h ago)
+
+## 2026-06-01 02:44 — Daily Synthesis
+
+- **Action:** Ingest (Pieces LTM)
+- **Raw sources created:** none
+- **Wiki pages touched:** none
+- **Pieces IDs ingested:** 0 memories
+- **Flags:** no new Pieces activity — last asset 2026-05-30T12:56Z (~37h ago)
+
+## 2026-06-01 05:49 — Daily Synthesis
+
+- **Action:** Ingest (Pieces LTM)
+- **Raw sources created:** none
+- **Wiki pages touched:** none
+- **Pieces IDs ingested:** 0 memories
+- **Flags:** Pieces dormant — newest asset 2026-05-30T12:56 UTC (41h ago). 4h/24h windows returned 0. Extended to 48h: 357 assets found, 96 substantive after noise filter, only 7 new after dedup (1,683 existing IDs). All 7 new assets were agent self-talk or user-authored prompts — no captured user activity (terminal, URLs, code). Exit [SILENT].

@@ -1,9 +1,9 @@
 ---
 created: 2026-05-18T00:00:00+00:00
 entity_kind: project
-modified: 2026-05-27T07:18:15+00:00
+modified: 2026-05-31T17:20:05+00:00
 sources: [INSIGHTFILE_PIPELINE_REPORT, raw/2026-05-18-pieces-hermes-gitlab-research]
-tags: [2468041533, cicd, dossier, gitlab, pipeline, project, wiki]
+tags: [cd, dossier, gitlab, pipeline, project, wiki]
 title: INSIGHTFILE_PIPELINE_REPORT
 wiki_type: dossier
 ---
