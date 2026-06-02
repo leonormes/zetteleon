@@ -1,7 +1,7 @@
 ---
 created: 2026-05-26T09:39:03+00:00
-last_updated: 2026-06-01T12:00:00+01:00
-modified: 2026-06-01T12:00:00+01:00
+last_updated: 2026-06-02T08:20:00+01:00
+modified: 2026-06-02T08:20:00+01:00
 title: SoT - Work Open Loops
 top3:
   - "FTFL-476: Blocked 18+ days — escalate or deprioritise OMOP Stress Testing infra"
@@ -11,6 +11,8 @@ top3:
 
 ## Work Open Loops — Source of Truth
 
+> ⚠️ **Jira data stale**: 1Password CLI timeout prevented Jira fetch this run. Data carried forward from 2026-06-01 12:00 BST run. Verify fresh data on next successful run.
+
 | ID | Source | Summary | Priority | Status | Last Activity | Next Action |
 |----|--------|---------|----------|--------|---------------|-------------|
 | FTFL-476 | Jira | OMOP Stress Testing infra + monitoring | 🔴 critical | 🚫Blocked | 2026-05-18 13:41 | Identify blocker, escalate or deprioritise (18+ days blocked) |
@@ -18,31 +20,32 @@ top3:
 | FTFL-658 | Jira | [SPIKE] Investigate MKUH Failing Terraform Runs | 🟡 medium | Selected for Development | 2026-05-27 10:26 | Timebox spike, drive to completion |
 | FTFL-609 | Jira | [EE] New Managed Policies Available for the EBS CSI Driver | 🟡 medium | Selected for Development | 2026-05-27 10:26 | Review policies, plan rollout |
 | FTFL-602 | Jira | The Hyve alerting | 🟡 medium | Selected for Development | 2026-05-26 14:57 | Schedule into current sprint |
-| FTFL-673 | Jira | Upgrade Grafana Alloy | 🟢 low | Backlog | 2026-06-01 (new) | Assess effort, schedule or deprioritise |
+| FTFL-673 | Jira | Upgrade Grafana Alloy | 🟢 low | Backlog | 2026-06-01 | Assess effort, schedule or deprioritise |
 | FTFL-478 | Jira | Grafana Workflows Monitoring Dashboard | 🟢 low | Backlog | 2026-04-29 09:52 | Review when higher-priority items cleared |
 
 ### Notes
 
-- **1Password**: `op whoami` succeeded this run — Jira data is **fresh** (2026-06-01 ~12:00 BST).
-- **Pieces LTM**: Memory tool unavailable in cron context. No ambient context retrieved this run.
-- **FTFL-476** blocked since 2026-05-18 (18+ days). No movement since last run. Needs escalation or explicit deprioritisation.
-- **FTFL-512** remains In Progress — no status change since 10:00 run. Security-related, should be prioritised.
+- **Jira data stale**: 1Password CLI `authorization timeout` at 2026-06-02 08:20 BST. Last successful fetch was 2026-06-01 ~12:00 BST (7 open issues). Data carried forward unchanged.
+- **FTFL-476** blocked since 2026-05-18 (18+ days). No movement. Needs escalation or explicit deprioritisation.
+- **FTFL-512** remains In Progress — no status change. Security-related, should be prioritised.
 - **FTFL-658** spike still "Selected for Development" — not yet started. Consider starting or confirming backlog placement.
 - **FTFL-673** remains in Backlog — no assessment yet.
-- **0 stale issues**: No In Progress issues untouched for >3 days.
-- **No changes since 10:00 run**: Same 7 open issues, no new arrivals, no resolutions.
+- **0 stale issues**: No In Progress issues untouched for >3 days (at last successful fetch).
+- **No changes since 2026-06-01 12:00 run**: Same 7 open issues, no new arrivals, no resolutions confirmed.
 
 ### Known Data Gaps
 
-- **Pieces LTM**: Memory tool unavailable in cron context. No ambient context retrieved.
+- **Pieces LTM**: Memory tool unavailable in cron context. No ambient context retrieved this run.
 - **Microsoft Teams**: No Teams MCP server configured. @mention action items must be captured manually.
 - **Todoist MCP**: Read-only (no create-task tool available). Task sync skipped.
+- **Jira**: 1Password CLI timeout — `authorization timeout` on `op item get`. Token fetch failed, API query skipped. Data carried forward from last successful run.
+- **⚠️ Action needed**: Unlock 1Password (`op signin`) or re-authenticate CLI session to restore Jira data pipeline.
 
 ### Resolved
 
 | ID | Summary | Resolved Date |
 |----|---------|---------------|
-| FTFL-511 | [API-5] Nginx allows outdated HTTPS connection methods | ~2026-06-01 (absent from open issues) |
+| FTFL-511 | [API-5] Nginx allows outdated HTTPS connection methods | ~2026-06-01 |
 | FTFL-680 | [AZURE] Verify MANA Compatibility for Intel v5 and Cobalt 100 v6 VMs | 2026-05-29 |
 | FTFL-638 | Add labels for logs | 2026-05-28 |
 | FTFL-599 | Update and test the runbook for Azure backup restore | 2026-05-26 |

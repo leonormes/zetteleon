@@ -1,6 +1,6 @@
 ---
 created: 2026-04-28T00:00:00+00:00
-modified: 2026-06-01T00:00:00+00:00
+modified: 2026-06-02T06:45:16+00:00
 tags: [index, system]
 title: index
 ---
@@ -61,6 +61,7 @@ _(empty—populated on first ingest)_
 - [[wiki/projects/FITFILE Testing Infrastructure]]—Operational infrastructure work on the FITFILE Azure testing environment: AKS cluster management, Terraform state conflicts, Kubernetes secrets propagation; testing cluster `fitfile-cloud-testing-aks-cluster`.
 - [[wiki/projects/FTFL-511 Nginx HTTPS Hardening]]—FITFILE security ticket to harden TLS configuration of ingress-nginx controller: 14 outdated cipher suites identified in pentest; MR!757 declined; awaiting DevOps re-pick.
 - [[wiki/projects/Hermes Multi-Model Routing Strategy]]—Research and architecture for Hermes's multi-model orchestration: free models (Owl Alpha) for planning, premium models (Claude Code, cloud) for complex execution; debugging CLI timeouts and OpenRouter routing.
+- [[wiki/projects/FTFL-512 Nginx Security]]—FITFILE security ticket to remediate nginx 302 information disclosure on sandbox-testing-1.fitfile.net; server-snippet annotation blocked by admission webhook.
 - [[wiki/projects/FTFL-511-512 Security Scan]]—Security scanning for FTFL-511 & FTFL-512: nmap scans from jumpbox testing subnet to private cluster; discovered Cloudflare proxy (not nginx) on scanned ports; SSH auth troubleshooting with IdentitiesOnly=yes and 1Password.
 - [[wiki/projects/Azure Bastion SSH Troubleshooting]]—Diagnosed Azure Bastion SSH failures: MaxAuthTries exhaustion from 1Password keys, IdentitiesOnly=yes backfiring with AAD auth, --ssh-args flag missing in Azure CLI; resolved via `--` separator for SSH arguments.
 - [[wiki/projects/Git Tag Management]]—Git tag operations: moved sandbox-testing-1-latest-release tag post-merge, resolved v1.8.65 src refspec push failure (tag missing locally).
@@ -78,4 +79,4 @@ _(empty—populated on first ingest)_
 
 ---
 
-_Updated 2026-06-01 by Project Check-In (cron/4h): 1 new project page created, 0 existing pages updated. Flags: none._
+_Updated 2026-06-02 by Project Check-In (cron/4h): NGINX Ingress Admission Webhook Fix updated with 10 new timeline entries from 64 new Pieces assets. 3 new raw notes created. Flags: none._

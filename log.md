@@ -583,3 +583,27 @@ Append-only—never edit past entries.
 - **Wiki pages touched:** [[wiki/projects/NGINX Ingress Admission Webhook Fix]]
 - **Pieces IDs ingested:** 6 memories (out of 10 in 4h window, 6 substantive after noise filter, 0 duplicates)
 - **Flags:** none — 1 new project page created.
+
+## 2026-06-01 23:00 — Daily Synthesis
+
+- **Action:** Ingest (Pieces LTM)
+- **Raw sources created:** [[raw/2026-06-01-pieces-ftfl-511-tls-cipher-remediation]], [[raw/2026-06-01-pieces-ftfl-512-nginx-infodisclosure]], [[raw/2026-06-01-pieces-argocd-sandbox-sync]]
+- **Wiki pages touched:** [[wiki/projects/FTFL-511 Nginx HTTPS Hardening]], [[wiki/projects/FTFL-511-512 Security Scan]], [[wiki/projects/FTFL-512 Nginx Security]]
+- **Pieces IDs ingested:** 58 new assets (from 64 substantive, 164 in 24h window)
+- **Flags:** none
+
+## 2026-06-02 02:12 — Daily Synthesis
+
+- **Action:** Ingest (Pieces LTM) — Project Check-In mode
+- **Raw sources created:** [[raw/2026-06-01-pieces-ftfl-511-tls-retest]], [[raw/2026-06-01-pieces-argocd-ingress-investigation]]
+- **Wiki pages touched:** [[wiki/projects/NGINX Ingress Admission Webhook Fix]], [[wiki/projects/FTFL-511 Nginx HTTPS Hardening]]
+- **Pieces IDs ingested:** 48 new substantive assets (from 64 total in 24h window; 16 already cited in wiki)
+- **Flags:** none. All new assets from 2026-06-01; prior synthesis runs had ingested the raw notes but had not extracted these into wiki page citations. This run back-filled 22 new Key Facts into NGINX Ingress page and updated FTFL-511 with retest session data.
+
+## 2026-06-02 06:45 — Daily Synthesis
+
+- **Action:** Ingest (Pieces LTM)
+- **Raw sources created:** [[raw/2026-06-01-pieces-argocd-nginx-a]], [[raw/2026-06-01-pieces-argocd-nginx-b]], [[raw/2026-06-01-pieces-network-security-scan]]
+- **Wiki pages touched:** [[wiki/projects/NGINX Ingress Admission Webhook Fix]]
+- **Pieces IDs ingested:** 64 memories
+- **Flags:** none
