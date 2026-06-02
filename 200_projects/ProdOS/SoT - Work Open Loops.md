@@ -1,21 +1,19 @@
 ---
 created: 2026-05-26T09:39:03+00:00
-last_updated: 2026-06-02T08:20:00+01:00
-modified: 2026-06-02T08:20:00+01:00
+last_updated: 2026-06-02T09:30:00+01:00
+modified: 2026-06-02T09:30:00+01:00
 title: SoT - Work Open Loops
 top3:
-  - "FTFL-476: Blocked 18+ days — escalate or deprioritise OMOP Stress Testing infra"
+  - "FTFL-476: Blocked 20+ days — escalate or deprioritise OMOP Stress Testing infra"
   - "FTFL-512: Nginx 302 security bug In Progress — drive to review"
   - "FTFL-658: MKUH Terraform spike — timebox and drive to completion"
 ---
 
 ## Work Open Loops — Source of Truth
 
-> ⚠️ **Jira data stale**: 1Password CLI timeout prevented Jira fetch this run. Data carried forward from 2026-06-01 12:00 BST run. Verify fresh data on next successful run.
-
 | ID | Source | Summary | Priority | Status | Last Activity | Next Action |
 |----|--------|---------|----------|--------|---------------|-------------|
-| FTFL-476 | Jira | OMOP Stress Testing infra + monitoring | 🔴 critical | 🚫Blocked | 2026-05-18 13:41 | Identify blocker, escalate or deprioritise (18+ days blocked) |
+| FTFL-476 | Jira | OMOP Stress Testing infra + monitoring | 🔴 critical | 🚫Blocked | 2026-05-18 13:41 | Identify blocker, escalate or deprioritise (20+ days blocked) |
 | FTFL-512 | Jira | [API-6] Nginx 302 exposes information | 🟠 high | In Progress | 2026-05-29 11:48 | Drive to review — security issue, needs PR follow-up |
 | FTFL-658 | Jira | [SPIKE] Investigate MKUH Failing Terraform Runs | 🟡 medium | Selected for Development | 2026-05-27 10:26 | Timebox spike, drive to completion |
 | FTFL-609 | Jira | [EE] New Managed Policies Available for the EBS CSI Driver | 🟡 medium | Selected for Development | 2026-05-27 10:26 | Review policies, plan rollout |
@@ -25,21 +23,20 @@ top3:
 
 ### Notes
 
-- **Jira data stale**: 1Password CLI `authorization timeout` at 2026-06-02 08:20 BST. Last successful fetch was 2026-06-01 ~12:00 BST (7 open issues). Data carried forward unchanged.
-- **FTFL-476** blocked since 2026-05-18 (18+ days). No movement. Needs escalation or explicit deprioritisation.
+- **Jira data fresh**: Successful fetch at 2026-06-02 09:30 BST via `jira-fetch.js`. 1Password CLI session active.
+- No status changes since 2026-06-02 09:00 BST run. Same 7 open issues.
+- **FTFL-476** blocked since 2026-05-18 (20+ days). No movement. Needs escalation or explicit deprioritisation.
 - **FTFL-512** remains In Progress — no status change. Security-related, should be prioritised.
 - **FTFL-658** spike still "Selected for Development" — not yet started. Consider starting or confirming backlog placement.
 - **FTFL-673** remains in Backlog — no assessment yet.
-- **0 stale issues**: No In Progress issues untouched for >3 days (at last successful fetch).
-- **No changes since 2026-06-01 12:00 run**: Same 7 open issues, no new arrivals, no resolutions confirmed.
+- **0 stale issues**: No In Progress issues untouched for >3 days.
+- **No new issues**: Set unchanged since prior run.
 
 ### Known Data Gaps
 
 - **Pieces LTM**: Memory tool unavailable in cron context. No ambient context retrieved this run.
 - **Microsoft Teams**: No Teams MCP server configured. @mention action items must be captured manually.
 - **Todoist MCP**: Read-only (no create-task tool available). Task sync skipped.
-- **Jira**: 1Password CLI timeout — `authorization timeout` on `op item get`. Token fetch failed, API query skipped. Data carried forward from last successful run.
-- **⚠️ Action needed**: Unlock 1Password (`op signin`) or re-authenticate CLI session to restore Jira data pipeline.
 
 ### Resolved
 
