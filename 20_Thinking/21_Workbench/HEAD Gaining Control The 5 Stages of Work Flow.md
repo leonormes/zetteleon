@@ -1,13 +1,173 @@
 ---
-captured: "2026-06-02T12:18:39+01:00 2026-06-02T12:18:39+01:00"
+captured: 2026-06-02T12:18:39+01:00 2026-06-02T12:18:39+01:00
 created: 2026-06-02T11:18:48+00:00
-modified: 2026-06-02T11:19:03+00:00
-source: "https://gemini.google.com/app/1dac9f1f911b0e0a"
-status: "processing"
-tags: ["input", 3, 402, Family, personal]
-title: HEAD New chat 1
-type: "head"
+modified: 2026-06-02T11:22:20+00:00
+source: https://gemini.google.com/app/1dac9f1f911b0e0a
+status: processing
+tags: [3, 402, Family, input, personal]
+title: HEAD Gaining Control The 5 Stages of Work Flow
+type: head
 ---
+
+## Raw Output / Content
+
+You
+
+Today was a good example of my ADHD/attention distractibility. I had 1 thing to do, but then had a meeting about the sprint and had lots of different work assigned to me. After that, I couldn't focus on anything. That feeling of clarity is gone and I am stuck feeling unsettled and confused. It is the fault of the team not having enough people and the leadership not knowing how to prioritise. But I am responsible for what happens re my focus and productivity. What can I do
+
+---
+
+Claude
+
+This is recoverable, and it's quick—five minutes, not a write-off of the day. And your read is correct: the org problem is real _and_ your focus is the lever you actually control. Hold both. Here's what's mechanically going on, then the single move.
+
+### Why the Clarity Vanished
+
+- You began the day with a loaded mental stack—the one task plus all the context around it. That state lives in working memory and is fragile.
+- The sprint meeting wasn't just "more work." It was a context bomb: it reassigned priorities, which forced your brain to dump the stack and try to hold several new, undefined items at once.
+- An ADHD working-memory profile rebuilds that loaded state slowly and holds multiple open items poorly. So instead of a fresh clear stack, you got thrash—every item half-loaded, none of them actionable.
+- The "unsettled and confused" feeling _is_ that thrash. Your brain is rehearsing the open items on a loop because it doesn't trust they're recorded anywhere, so it refuses to let any of them go. That rehearsal is the noise.
+- This is why "just focus" is impossible right now: there's no single thing to focus _on_ yet—only a cloud.
+
+### The Fix, in One Principle
+
+Get the cloud out of your head and onto a surface. The instant the items live somewhere your brain trusts, the rehearsal loop quiets, the noise drops, and you can pick one. Capture isn't admin—it's the thing that buys back the silence. And you already have the ideal surface open: Obsidian.
+
+### The 5-minute Reset
+
+1. Dump (~90 seconds). One note. List every item from the meeting _plus_ the original task. One line each, no order, no detail. You're emptying, not organising.
+2. Anchor it. Find the original task—the one you had before the meeting—and mark it. That's where your clarity lived; that's home base.
+3. Two buckets. Split the list into _Today_ and _Not today_. Be ruthless—most sprint assignments are Not today. Park the org/prioritisation frustration here too as a line like "raise prioritisation with \[lead\]"; it's a real conversation, just not this minute. Parking it stops it becoming a rumination loop.
+4. Pick one—ideally the anchor task—and write its first physical action as a verb you could do in the next ten minutes.
+5. Collapse the note so only that one action is left on screen.
+
+### Right now—the only Thing You Do
+
+Open a note in Obsidian, type a heading like `## Reset — 1 June`, and make the first line the one task you had before the meeting.
+
+Then keep dumping the rest underneath—but that first line is the entire ask. Writing it down is you walking back to where you were standing when things were still clear.
+
+---
+
+You
+
+My work tasks are tracked on Jira. They are not next action oriented. My prodOS system and the GTD next action tasks I want to keep on todoist. The problem is it seems to be duplicating the job of tracking work. How can I consolidate the systems and have a single GTD next actions. What should I do to clarify
+
+---
+
+Claude
+
+The duplication is an illusion—and you already have the tool to see why.
+
+Jira and Todoist _feel_ like the same job because both contain "things to do." But they sit at different altitudes, and that gap _is_ the resolution.
+
+This is the same shape as the Single Source of Truth mechanism in your vault—except there, two notes genuinely cover the same content and you pick one canonical. Here the overlap is fake. Each tool is already a single source of truth, just for a different layer.
+
+### Three Layers, Three Jobs, Zero Overlap
+
+- Obsidian—knowledge. What you know, think, claim. Not tasks at all.
+- Jira—outcomes & status. Work _results_; shared; the record of "is it done." In GTD terms, this is your Projects list for work.
+- Todoist—next physical actions. The one move you make next, across _all_ of life—work, personal, prodOS. Your single GTD Next Actions runway. ✓ exactly what you asked for.
+
+The key distinction:
+
+- A Jira ticket is a project—an _outcome_ needing more than one action ("implement rate limiting"). It is not a next action.
+- A next action is a physical, visible verb you could start in ten minutes ("sketch the middleware interface in a scratch file").
+
+### The One Rule that Kills the Duplication
+
+Todoist never mirrors Jira. It holds only the single next physical action per active ticket—never the ticket itself.
+
+In practice:
+
+- Ticket `PROJ-123 "Implement rate limiting"` stays in Jira as the outcome of record.
+- Todoist gets _one_ line: `Sketch rate-limit middleware interface [PROJ-123]`.
+- Finish it → reopen the ticket → define the _next_ next action → one new Todoist line.
+
+Nothing to sync, because they aren't copies. Jira says _what / whether-done_; Todoist says _what-I-touch-next_. They can't drift—they describe different things. At most one open Todoist task per active ticket. (If a ticket is already atomic, it maps 1:1—fine, but most aren't.)
+
+### Why This Dissolves Yesterday's Thrash
+
+The cloud yesterday came from holding five undefined _outcomes_ in working memory. Under this split you don't hold them—Jira does. You promote one next action per active ticket, and "what do I do now?" has exactly one answer in exactly one place.
+
+### One Guardrail
+
+Designing this is structural and novel—easy to disappear into for an afternoon. The system is worth ~20 minutes, not a day. Don't build labels, contexts, or filters yet; prove the pattern with one ticket, refine only if it earns it.
+
+### Your next Physical Action
+
+Open one active Jira ticket. In Todoist, write its single next physical action as a verb with the ID in brackets:
+
+`<verb> <object> [PROJ-XXX]`
+
+That one line instantiates the whole architecture. You're not building a system—you're making one move.
+
+---
+
+You
+
+I just added the connector to my jira. The project is FTFL. Find all the tickets that are assigned to me and are not 'Done'. Then determine a set of next actions and add them to todoist
+
+---
+
+Claude
+
+I'll wire this up properly. First I need to connect to your Atlassian instance, then pull the tickets.
+
+---
+
+Claude
+
+GTD
+
+## Raw Output / Content
+
+You
+
+I don't want to have to re read Allen's books but I want a refresher of his main points and the systems he defines and why each is necessary and important. Remove the redundancy and anicdotal content and present me with the full GTD system from both books combined
+
+---
+
+Gemini
+
+Here is a streamlined, comprehensive overview of the Getting Things Done (GTD) methodology, synthesised from David Allen's framework. The system is built on two primary pillars: Control (managing the day-to-day workflow) and Perspective (aligning your tasks with your broader life goals).
+
+### I. Gaining Control: The 5 Stages of Work Flow
+
+To eliminate the stress of tracking commitments in your head, you must implement a trusted, external system. This is achieved through five sequential steps:
+
+- 1\. Capture (Collect): Gather absolutely everything that has your attention—ideas, tasks, and ambiguous "stuff"—into a trusted external location (like an in-tray or a notepad). Your mind is designed for having ideas, not for holding them.
+- 2\. Clarify (Process): Empty your capture tools by determining exactly what each item means. You must ask one primary question: _"Is it actionable?"_.
+	- _If No:_ Trash it, file it as reference material, or place it on a "Someday/Maybe" list.
+		- _If Yes:_ Determine the "desired outcome" (which becomes a Project) and the specific "next physical action" required to move it forward.
+- 3\. Organise: Park the results of your clarification into appropriate, easily accessible categories.
+	- Projects List: An inventory of any outcome requiring more than one step to complete.
+		- Next Actions Lists: Your physical next steps, sorted by context (e.g., @computer, @calls, @errands).
+		- Waiting For List: Tasks you have delegated or are waiting on someone else to complete.
+		- Calendar: Strictly reserved for time-specific or day-specific commitments.
+- 4\. Reflect (Review): Consistently assess your lists to ensure your system remains current and trusted. The Weekly Review is the critical habit for maintaining control, updating all horizons, and emptying your head.
+- 5\. Engage (Do): Make trusted choices about what physical action to take at any given moment, based on your context, time available, energy levels, and priorities.
+
+### II. Gaining Perspective: The 6 Horizons of Focus
+
+To make confident decisions about what to prioritise, you must view your commitments hierarchically. GTD categorises your focus into six altitudes:
+
+- Runway (Actions): The concrete, physical next steps you need to take right now.
+- 10,000 Feet (Projects): Short-term outcomes and commitments you are actively working to finish.
+- 20,000 Feet (Areas of Focus and Responsibility): The key roles and standards you must maintain to keep your life and work balanced (e.g., health, finances, staff development).
+- 30,000 Feet (Goals and Objectives): What you want to accomplish within the next three to twenty-four months.
+- 40,000 Feet (Vision): Long-term goals and images of success, typically three to five years out.
+- 50,000 Feet (Purpose and Principles): The ultimate driving forces, core values, and primary intentions of your life or organisation.
+
+### III. The Natural Planning Model
+
+When a specific project or situation requires more rigorous thought than a simple next action, GTD applies a five-step model that mirrors how the brain naturally plans:
+
+1. Purpose and Principles: Defining why you are doing the project and the rules you will follow.
+2. Vision/Outcome: Envisioning what wild success looks like once the project is complete.
+3. Brainstorming: Generating ideas without judgement or structure.
+4. Organising: Sorting those brainstormed ideas into components, sequences, and priorities.
+5. Next Actions: Deciding the very next physical steps required to set the plan in motion.
 
 ## Raw Output / Content
 

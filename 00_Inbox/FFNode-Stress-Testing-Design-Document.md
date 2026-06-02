@@ -1,6 +1,6 @@
 ---
-created: 2026-06-02T11:12:39+00:00
-modified: 2026-06-02T11:13:15+00:00
+created: 2026-06-02T11:56:44+00:00
+modified: 2026-06-02T12:02:32+00:00
 tags: [1, 2, 7]
 title: FFNode-Stress-Testing-Design-Document
 ---
@@ -18,46 +18,29 @@ title: FFNode-Stress-Testing-Design-Document
 | Related | Confluence design doc · OMOP / The Hyve design doc · NHS Synthetic Data & OMOP Pipeline · Miro board |
 | Reviewers | Oliver Rushton · Helena Ahlfors · Robin Mofakham · Philip Russmeyer · Weronika Jastrzębska · Julia Kurps (The Hyve) |
 
----
-
-> ### 📋 Editor's note—v3 (delete before publishing)
->
-> No facts, decisions, owners, or ticket numbers were invented. v3 folds in Robin Mofakham's 15 review comments and Leon's clarifications (see the resolution log in the Appendix). Substantive changes confirmed by Leon:
->
-> - CUH timeout is resolved by the 24 April indexes. The motivation is reframed: the durable finding is not the timeout itself but that we were blind to it until the customer reported it (§3.1, §11 risk 7).
-> - Region labels corrected. The estate spans Azure (UK South) and AWS (eu-west-2). Phase 1 is intra-region within Azure UK South; the cross-cloud test is Azure UK South ↔ AWS eu-west-2 (D3, §7.4–7.5).
-> - Posture reframed to answer "stress vs performance": the programme measures both normal-usage performance and the failure limits—we currently have neither (§4.4).
-> - Structural fixes from v2 retained: phases defined up front (§2), phases/waves separated, duplicated PA/OQ tracking unified (§15), dropped ticket refs restored.
-> 
-> ### ⚠️ Still open—need confirmation (factual, not editorial)
->
-> 1. Node count. §1 says _"five Parquet datasets, one per node"_; §7.2 introduces _two_ synthetic stress nodes (`ff-stress-a/b`); D1 says _five co-located DBs on one oversized node_. Three different topology descriptions—please confirm the canonical relationship.
-> 2. Duration total. Per-phase durations sum to ~8–17.5 working days; §13 states _"~1–2 weeks."_ Kept per-phase figures as authoritative.
-
----
-
 ### Contents
 
 1. [Executive Summary](#1-executive-summary)
-2. [Programme Structure at a Glance](#2-programme-structure-at-a-glance)—_read this first_
-3. [Background and Motivation](#3-background-and-motivation)
-4. [Test Definition: System Under Test and Posture](#4-test-definition-system-under-test-and-posture)
-5. [Objectives and Success Criteria](#5-objectives-and-success-criteria)
-6. [Scope](#6-scope)
-7. [Environment and Architecture](#7-environment-and-architecture)
-8. [Test Design](#8-test-design)
-9. [Data Quality Gates (Phase 1)](#9-data-quality-gates-pre-flight--phase-1)
-10. [Monitoring and Observability](#10-monitoring-and-observability-ftfl-476--ftfl-478)
-11. [Risks and Known Failure Points](#11-risks-and-known-failure-points)
-12. [Execution Plan](#12-execution-plan-detail)
-13. [Decision Log](#13-decision-log)
-14. [Open Items Register](#14-open-items-register-unified-actions--decisions--questions)
-15. [Jira Ticket Plan](#15-jira-ticket-plan)
-16. [Stakeholders](#16-stakeholders)
-17. [First Physical Actions](#17-first-physical-actions-this-week)
+- [⚡ Scope Decision — Option A vs Option B](#-scope-decision--option-a-full-vs-option-b-bare-bones)—_decision required before sprint planning_
+1. [Programme Structure at a Glance](#2-programme-structure-at-a-glance)—_Option A; read this first_
+2. [Background and Motivation](#3-background-and-motivation)
+3. [Test Definition: System Under Test and Posture](#4-test-definition-system-under-test-and-posture)
+4. [Objectives and Success Criteria](#5-objectives-and-success-criteria)
+5. [Scope](#6-scope)
+6. [Environment and Architecture](#7-environment-and-architecture)
+7. [Test Design](#8-test-design)
+8. [Data Quality Gates (Phase 1)](#9-data-quality-gates-pre-flight--phase-1)
+9. [Monitoring and Observability](#10-monitoring-and-observability-ftfl-476--ftfl-478)
+10. [Risks and Known Failure Points](#11-risks-and-known-failure-points)
+11. [Execution Plan](#12-execution-plan-detail)
+12. [Decision Log](#13-decision-log)
+13. [Open Items Register](#14-open-items-register-unified-actions--decisions--questions)
+14. [Jira Ticket Plan](#15-jira-ticket-plan)
+15. [Stakeholders](#16-stakeholders)
+16. [First Physical Actions](#17-first-physical-actions-this-week)
 - [Appendix: Reviewer comment resolutions](#appendix--reviewer-comment-resolutions)
 
-> How to read this document. The narrative runs: why we're doing this (§3, a real incident we couldn't see) → what we're testing and how we're framing it (§4–5) → what's in and out of scope (§6) → the kit (§7) → the actual test matrix (§8) → gates, monitoring, risks (§9–11) → the plan, decisions, and tickets (§12–15). If you read only two sections, read §2 (the map) and §4.4 (what we're actually trying to learn).
+> How to read this document. Start with the ⚡ Scope Decision section (immediately above §2)—it presents Option A vs Option B and requires a team decision before sprint planning. If Option A is confirmed, the narrative runs: why we're doing this (§3) → what we're testing (§4–5) → scope (§6) → the kit (§7) → test matrix (§8) → gates, monitoring, risks (§9–11) → the plan, decisions, and tickets (§12–15). The two sections most worth reading in full are §2 (the map) and §4.4 (what we're trying to learn and the unresolved posture decision).
 
 ---
 
@@ -74,15 +57,107 @@ The programme tests three axes:
 
 - Single-node capacity (Axis A)
 - Multi-node federation (Axis B)
-- Algorithmic userflow permutations across a 216-case grid (Axis C)
+- Algorithmic userflow permutations across a 432-case grid (Axis C)
 
-It produces a phased execution plan, monitoring requirements, an explicit risk register, and a backlog of ten new Jira tickets sequenced for delivery before the AS05 deadline of 31 July 2026.
+It produces a phased execution plan, monitoring requirements, an explicit risk register, and a backlog of eleven new Jira tickets sequenced for delivery before the AS05 deadline of 31 July 2026.
+
+---
+
+### ⚡ Scope Decision—Option A (Full) Vs Option B (Bare-bones)
+
+> Team decision required before sprint planning. The rest of this document describes Option A in full. Option B is presented here as an alternative.
+>
+> Context: the programme as designed (Option A) is a research-grade testing exercise. With 2 developers carrying other workstreams, the full plan is unlikely to complete before the AS05 deadline of 31 July 2026. Option B is a scoped-down alternative that meets all AS05 requirements with approximately one third of the effort.
+
+#### Comparison
+
+| Dimension | Option A (full plan) | Option B (bare-bones AS05) |
+|---|---|---|
+| Developer effort | ~20–30 dev-days | ~6–8 dev-days |
+| Phases | 4 phases (0–4) | 3 phases |
+| Pre-flight QA | WhiteRabbit + Achilles + schema integrity | Schema integrity only |
+| Monitoring | 3 custom Grafana dashboards built from scratch | Existing K8s observability + DB query logs enabled |
+| Test scenarios | 432-case permutation grid, 4 waves | ~10 fixed targeted scenarios |
+| Cohort sizes | 1k · 10k · 100k · 1M · NodeFull · 5NodeFull | 100k · 1M · NodeFull · 5NodeFull |
+| Privacy | Isolated wave (measure privacy overhead separately) | Always on (default template)—not isolated |
+| S3 export | Isolated wave (measure export overhead separately) | Always on—not isolated |
+| Linkage | L1 / L2 / L3 progressively | L3 only (5-node unified output—the AS05 requirement) |
+| Cross-cloud | Conditional Phase 2 | Definitive follow-on |
+| Root-cause precision | High—one variable changes per wave | Medium—scenarios chosen to cover the requirement |
+| Report depth | Full infra spec + recommendations | AS05 deliverable: query time, resource use, cost, blockers |
+| Meets AS05? | ✅ Yes | ✅ Yes |
+| Survivable with 2 devs? | ⚠️ Unlikely alongside other work | ✅ Yes |
+
+What Option B gives up: systematic root-cause isolation (you know _something_ struggled, but not always _which_ variable caused it) and the performance-overhead deltas for privacy and export individually.
+
+What Option B does not give up: the AS05 deliverable, the five-node federation result, the MEASUREMENT table scale requirement, and a credible performance baseline.
+
+---
+
+#### Option B—Full Plan
+
+##### Phases
+
+```
+Phase 0  Assets + schema check    0.5 day   ──►
+Phase 1  Targeted scenario runs   3–4 days  ──►
+Phase 2  Report                   1 day     ──►
+Total:   ~5–6 days of focused work
+```
+
+Phase 0—Asset registration and schema check (0.5 day)
+
+- Confirm all 5 Parquet datasets are loaded onto 5 new dedicated nodes.
+- Run OMOP schema integrity check per node: table presence + FK consistency (`PERSON ↔ {VISIT_OCCURRENCE, CONDITION_OCCURRENCE, DRUG_EXPOSURE, MEASUREMENT}`).
+- Record node spec (disk type, RAM, DB engine) in the run manifest for replayability.
+- Stop condition: any node failing schema check → fix before proceeding. No load testing against bad data.
+
+Phase 1—AS05 scenario runs (3–4 days)
+
+Privacy on (default template), S3 export on, all default settings throughout. No combinatorial grid—10 fixed scenarios chosen to cover the AS05 requirement and produce a credible baseline.
+
+| Scenario | Cohort | Scope | Nodes | Purpose |
+|---|---|---|---|---|
+| S1 | 100k | Core clinical (S2) | 1 | Single-node baseline—does it work? |
+| S2 | 1M | Core clinical (S2) | 1 | Single-node at clinical scale |
+| S3 | NodeFull | Core clinical (S2) | 1 | Single-node worst case |
+| S4 | 1M | Core clinical (S2) | 1 | Repeat on one of the two 500M-row `MEASUREMENT` nodes—AS05 hard requirement |
+| S5 | NodeFull | Core clinical (S2) | 1 | NodeFull on the 500M-row `MEASUREMENT` node—AS05 hard requirement |
+| S6 | 100k | Core clinical (S2) | 5 | First federation test—does it return unified output? |
+| S7 | 1M | Core clinical (S2) | 5 | Federation at clinical scale |
+| S8 | NodeFull | Core clinical (S2) | 5 | Federation worst case—primary AS05 deliverable |
+| S9 | NodeFull | Extended (S3) | 5 | Full-scope federation—what does max scale cost? |
+| S10 | Whatever failed in S1–S9 | Same scope | Same nodes | Re-run with full logging to document the failure |
+
+Capture per run: p50/p95/p99 latency · peak CPU/mem · error flag (yes/no + type) · export success (yes/no) · cost.
+
+Phase 2—Report (1 day)
+
+Write the AS05 deliverable directly from the run log. Required content:
+
+- Query execution time per scenario (the table above, populated).
+- Resource utilisation at peak.
+- Estimated cost per query.
+- Any blockers or degradation observed, with enough detail to act on.
+- One-paragraph recommendation on what to test next (the full Option A waves, if the team has capacity post-AS05).
+
+##### What Option B Defers (not loses)
+
+Option A's full wave programme becomes the natural follow-on once AS05 is delivered. The scenarios above are a subset of the grid—all the wave infrastructure built for AS05 can run the full 432 cases in a subsequent sprint. Nothing is thrown away; it's sequenced.
+
+---
+
+#### Which Option?
+
+> Decision required from: Leon Ormes · Oliver Rushton · Helena Ahlfors
+>
+> Please confirm which option to pursue before the next sprint planning session. The rest of this document is Option A in full detail—it remains valid if Option A is chosen, or serves as the follow-on plan if Option B is chosen now.
 
 ---
 
 ### 2. Programme Structure at a Glance
 
-> Read this section first—everything else references it.
+> _(This and all subsequent sections describe Option A in full. If Option B has been agreed, use the plan in the Scope Decision section above and treat this document as the follow-on reference.)_
 
 The programme runs in five sequential phases (0–4). The heavy lifting is in Phase 3, which is itself broken into three waves (A → B → C). Phases and waves are _not_ the same axis of organisation:
 
