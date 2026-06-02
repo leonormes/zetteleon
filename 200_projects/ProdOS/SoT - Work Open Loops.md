@@ -1,7 +1,7 @@
 ---
 created: 2026-05-26T09:39:03+00:00
-last_updated: 2026-06-02T09:30:00+01:00
-modified: 2026-06-02T09:30:00+01:00
+last_updated: 2026-06-02T18:00:00+01:00
+modified: 2026-06-02T18:00:00+01:00
 title: SoT - Work Open Loops
 top3:
   - "FTFL-476: Blocked 20+ days — escalate or deprioritise OMOP Stress Testing infra"
@@ -23,9 +23,9 @@ top3:
 
 ### Notes
 
-- **Jira data fresh**: Successful fetch at 2026-06-02 09:30 BST via `jira-fetch.js`. 1Password CLI session active.
-- No status changes since 2026-06-02 09:00 BST run. Same 7 open issues.
-- **FTFL-476** blocked since 2026-05-18 (20+ days). No movement. Needs escalation or explicit deprioritisation.
+- **Jira data fresh**: Successful fetch at 2026-06-02 18:00 BST via `jira-fetch.js`. 1Password CLI session active.
+- No status changes since 2026-06-02 09:30 BST run. Same 7 open issues.
+- **FTFL-476** blocked since 2026-05-18 (15+ days). No movement. Needs escalation or explicit deprioritisation.
 - **FTFL-512** remains In Progress — no status change. Security-related, should be prioritised.
 - **FTFL-658** spike still "Selected for Development" — not yet started. Consider starting or confirming backlog placement.
 - **FTFL-673** remains in Backlog — no assessment yet.

@@ -1,7 +1,7 @@
 ---
 captured: 2026-06-02T12:18:39+01:00 2026-06-02T12:18:39+01:00
 created: 2026-06-02T11:18:48+00:00
-modified: 2026-06-02T11:22:20+00:00
+modified: 2026-06-02T14:43:47+00:00
 source: https://gemini.google.com/app/1dac9f1f911b0e0a
 status: processing
 tags: [3, 402, Family, input, personal]
