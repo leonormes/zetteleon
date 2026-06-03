@@ -615,3 +615,39 @@ Append-only—never edit past entries.
 - **Wiki pages touched:** [[wiki/projects/FITFILE-Node-Privacy-Architecture]]
 - **Pieces IDs ingested:** 3 memories
 - **Flags:** none
+
+## 2026-06-02 15:11 — Project Check-In (cron/4h)
+
+- **Action:** Ingest (Pieces LTM) — check-in only
+- **Raw sources created:** none
+- **Wiki pages touched:** none
+- **Pieces IDs queried:** 5 (24h window, extended from 4h=0)
+- **Substantive after filter:** 3 (all duplicates — already in raw/2026-06-02-pieces-fitfile-node-privacy-architecture.md)
+- **Flags:** same-day double run; wiki page FITFILE-Node-Privacy-Architecture already modified today; no new facts; [SILENT]
+
+## 2026-06-02 19:00 — Daily Synthesis (Project Check-In)
+
+- **Action:** Ingest (Pieces LTM) — 4h window = 0 assets, extended to 24h
+- **24h assets found:** 5 total, 3 substantive, all 3 duplicates (already in raw/)
+- **Raw sources created:** 0 (all assets already ingested)
+- **Wiki pages touched:** 0 (FITFILE-Node-Privacy-Architecture already current, modified today)
+- **Pieces IDs ingested:** 0 new (3 duplicates skipped)
+- **Flags:** none — all recent activity already synthesized; wiki pages up to date
+
+## 2026-06-02 23:30 — Project Check-In
+
+- **Action:** Ingest (Pieces LTM) — 4h window extended to 24h
+- **Raw sources created:** none (all 3 substantive assets already ingested in raw/2026-06-02-pieces-fitfile-node-privacy-architecture.md)
+- **Wiki pages touched:** none (FITFILE-Node-Privacy-Architecture.md already current, modified: 2026-06-02)
+- **Pieces IDs ingested:** 0 new (3 duplicates: b2cfd536, 66a5cedf, 98b9c075)
+- **Assets found:** 5 in 24h window, 3 substantive, 0 new
+- **Flags:** none — same-day re-synthesis, all content already processed
+- **Exit:** SILENT (0 new raw notes, 0 wiki pages modified)
+
+## 2026-06-03 03:30 — Daily Synthesis
+
+- **Action:** Ingest (Pieces LTM) — Project Check-In (4h window)
+- **Raw sources created:** none (all duplicates)
+- **Wiki pages touched:** none (all already current)
+- **Pieces IDs ingested:** 5 assets found in 24h extension (3 substantive, 2 noise), all 3 substantive already in raw/
+- **Flags:** none — Pieces inactive in 4h window; 24h extension found only already-processed FITFILE Node session from 2026-06-02
