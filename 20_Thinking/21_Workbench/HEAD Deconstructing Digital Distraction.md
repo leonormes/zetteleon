@@ -1,7 +1,7 @@
 ---
 captured: 2026-06-01T12:55:06+01:00 2026-06-01T12:55:06+01:00
 created: 2026-06-01T11:55:10+00:00
-modified: 2026-06-02T21:06:49+00:00
+modified: 2026-06-03T11:03:17+00:00
 source: https://m365.cloud.microsoft/chat/conversation/b6a42aee-bb48-4ebb-9346-877a2ff7e40f?auth=2&home=1&from=ShellLogo
 status: processing
 tags: [evals, input, perf]
@@ -9,31 +9,9 @@ title: HEAD Deconstructing Digital Distraction
 type: head
 ---
 
-## Raw Output / Content
-
-You
-
-Persona: You are an expert research analyst and information distiller. You value logic, empirical rigour, and clarity. You have a strict filter for hype, clickbait, and marketing fluff, preferring to evaluate information based purely on its factual and practical merits.
-
-Objective: When provided with a video transcript or summary, your job is to deconstruct it, stripping away the rhetoric to present the core substance in straightforward prose.
-
-Filter the Fluff: Systematically identify and discard marketing language, overblown promises, and filler content. Focus strictly on the data, logical arguments, and actionable concepts without mocking the speaker.
-
-Identify the Core Thesis: Distil the content into a concise, logical summary. Clearly articulate the foundational argument or piece of knowledge once the sales pitch and repetition are removed.
-
-Grounding in Reality: Cross-reference the claims with established knowledge or historical context. Objectively point out if supposedly "novel" or "game-changing" concepts are simply repackaged existing theories or standard industry practices.
-
-The Verdict: Conclude with a "Signal-to-Noise" ratio (e.g., 20% Signal, 80% Noise) and a brief, objective assessment of the content's informational density and practical value.
-
-Tone: Analytical, objective, straightforward, and intellectually rigorous. Avoid cynicism, ridicule, and artificial enthusiasm. Use British English spelling. Never use emojis.
-
 <https://youtu.be/NZD5IFpyDcE?si=9OAHDSe8Q9J8BwHN>
 
----
-
-Gemini
-
-### The Core Thesis
+## The Core Thesis
 
 The video posits that human attention operates on a finite capacity, which the creator refers to as "mental bandwidth." Exposing oneself to digital stimuli—such as emails, social media, and podcasts—introduces inputs that fragment this bandwidth. Crucially, these inputs linger in the background of the mind, actively competing for cognitive resources and degrading focus on primary tasks.
 
@@ -47,7 +25,7 @@ Distilled Actionable Concepts:
 4. Delay Non-Essential Inputs: Postpone checking emails and social media for as long as possible during the workday to preserve mental clarity.
 5. Inhabit the In-Between: Abstain from consuming content during micro-breaks (e.g., driving, waiting in line). Allow the mind to exist in silence to foster spontaneous thought and mental recovery.
 
-### Grounding in Reality
+## Grounding in Reality
 
 The concepts presented in the video are practical and effective, though entirely derivative. The creator is synthesising well-established theories from cognitive psychology and modern productivity literature, albeit wrapped in a novel aesthetic.
 
@@ -56,7 +34,7 @@ The concepts presented in the video are practical and effective, though entirely
 - The Default Mode Network (DMN): The "wall staring" exercise and the rule to "inhabit the in-between" are rudimentary methods for activating the brain's Default Mode Network. When the brain is devoid of external stimuli, it switches to the DMN, which is responsible for consolidating memories, processing emotions, and connecting disparate ideas.
 - Dopamine Regulation: The framework relies on the popularised concept of dopamine fasting—lowering the neurological baseline of stimulation so that standard, lower-dopamine tasks (like administrative work) become comparatively engaging.
 
-### The Verdict
+## The Verdict
 
 Signal-to-Noise Ratio: 15% Signal, 85% Noise.
 
@@ -74,7 +52,7 @@ repeat prompt but for this <https://youtu.be/6Hm-mUNYfz8?si=HRGcDq5Lh2O372G7>
 
 Gemini
 
-### The Core Thesis
+## The Core Thesis
 
 The video argues that carrying unresolved thoughts, tasks, and ideas in one's working memory creates cognitive overload, which destroys focus and attention span. The proposed solution is externalising these thoughts immediately into a low-friction, analogue system (a pocket notebook). By implementing a three-step triage process—Capture, Filter, Migrate/Elaborate—individuals can reduce decision fatigue, avoid the digital distractions inherent to smartphones, and dedicate their cognitive resources entirely to the task at hand.
 
@@ -85,7 +63,7 @@ Distilled Actionable Concepts:
 3. Migration & Elaboration: Move the surviving, actionable items into their permanent, appropriate systems (e.g., scheduling an appointment in a digital calendar, moving a task to a master planner, expanding on a creative idea in a dedicated journal).
 4. Physical Progress Tracking: Use a tactile method—such as hole-punching or marking the corner of a page—to indicate that a page in the pocket notebook has been fully processed, ensuring no task is left hanging in limbo.
 
-### Grounding in Reality
+## Grounding in Reality
 
 The core methodology presented in this video is entirely repackaged from David Allen's foundational productivity framework, _Getting Things Done_ (GTD), published in 2001.
 
@@ -94,7 +72,7 @@ The core methodology presented in this video is entirely repackaged from David A
 - Analogue vs. Digital: The recommendation to use a physical notebook rather than a smartphone to avoid "dopamine loops" and notification distractions is a standard tenet of modern digital minimalism, echoing the work of authors like Cal Newport.
 - Bullet Journaling Influence: The concept of "Migration" (moving tasks from a daily log to a future log) is a direct lift from Ryder Carroll's Bullet Journal methodology.
 
-### The Verdict
+## The Verdict
 
 Signal-to-Noise Ratio: 40% Signal, 60% Noise.
 
@@ -1219,6 +1197,7 @@ Yes, you're on the right track. What you're describing—wanting notes to reflec
 - Why They Matter: If your PKM system captures these, it becomes a thinking partner rather than a static archive. It helps you reason better, not just recall facts.
 
 Your real goal:
+
 To create a system that externalizes your _thinking process_—the "why" behind your ideas—so you can revisit and refine it later.
 
 ---
@@ -1329,7 +1308,9 @@ Use a mind map or graph tool (Obsidian, Logseq) to show relationships between id
 ### Technique 5: "Decision Hooks"
 
 Whenever you capture a concept, ask:
+
 _"In what future decision would this matter?"_
+
 Add that as metadata. Example:
 
 > "This mental model will influence how I design microservices."

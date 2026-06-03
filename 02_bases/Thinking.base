@@ -21,7 +21,7 @@ views:
       - property: file.ctime
         direction: ASC
     columnSize:
-      file.name: 501
+      file.name: 673
       file.tags: 303
   - type: table
     name: Active Work HEADs
