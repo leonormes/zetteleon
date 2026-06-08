@@ -18,7 +18,7 @@ views:
       description:
         width: 420
     columnSize:
-      file.name: 345
+      file.name: 419
   - type: table
     name: Personas
     filters:

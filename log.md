@@ -651,3 +651,56 @@ Append-only—never edit past entries.
 - **Wiki pages touched:** none (all already current)
 - **Pieces IDs ingested:** 5 assets found in 24h extension (3 substantive, 2 noise), all 3 substantive already in raw/
 - **Flags:** none — Pieces inactive in 4h window; 24h extension found only already-processed FITFILE Node session from 2026-06-02
+
+## 2026-06-03 12:00 — Daily Synthesis
+
+- **Action:** Ingest (Pieces LTM)
+- **Raw sources created:** [[raw/2026-06-03-pieces-ftfl673-grafana-deploy-all-envs]]
+- **Wiki pages touched:** [[FTFL-673 Grafana Deploy All Envs]], [[wiki/projects/Grafana Alloy Monitoring — FTFL-638]]
+- **Pieces IDs ingested:** 5 memories
+- **Flags:** none
+
+## 2026-06-05 10:00 — Project Check-In (cron/4h)
+
+- **Action:** Ingest — Project Check-In (cron/4h)
+- **Pieces LTM:** Unavailable (expected in cron context — no MCP tools injected)
+- **Inbox items found (fallback):** 4 files modified in last 4h
+  - [[raw/2026-06-05-fitfile-loki-prometheus-cardinality-audit]] (full audit report, 383 lines)
+  - 3x pieces_copilot_message_export exports (Pieces context dumps)
+- **Wiki pages touched:** [[wiki/projects/gcx CLI — FITFILE Grafana Stacks]] (updated with audit findings, open questions resolved)
+- **New project pages created:** 0 (all activity is extension of existing gcx CLI project)
+- **Flags:** Adaptive Telemetry APIs blocked by expired Grafana Cloud token; `fitfileprod` stack not configured in gcx config; `pod: null` SM override not working on testing cluster
+
+## 2026-06-04 08:00 — Daily Synthesis
+
+- **Action:** Ingest (Pieces LTM)
+- **Raw sources created:** [[raw/2026-06-03-pieces-k8s-argocd-bootstrapping]], [[raw/2026-06-03-pieces-omop-azure-storage]]
+- **Wiki pages touched:** [[wiki/projects/Kubernetes-Cluster-Bootstrapping]] (new), [[wiki/projects/12 Million Patient Synthetic NHS-OMOP Pipeline]] (updated with Azure storage details)
+- **Pieces IDs ingested:** 6 substantive assets (from 63 in 24h window, 5 duplicates filtered)
+
+## 2026-06-06 07:45 — Project Check-In (cron/4h)
+
+- **Action:** Ingest (Pieces LTM)
+- **Pieces LTM:** 10,570 total assets. 0 assets in 4h window; extended to 24h → 98 assets.
+- **Noise filter:** 90 filtered (agent reflections, meta_complete, evaluator instructions, empty workstream summaries) → 8 substantive
+- **Deduplication:** 0 duplicates — all 98 are new IDs (no prior raw note ingestion)
+- **Raw sources created:**
+  - [[raw/2026-06-06-pieces-ffnode-helm-chart-review]] — ffnode chart review workstream: Claude Code prompt for template analysis, library chart assessment, VSO bug audit
+  - [[raw/2026-06-05-pieces-ftfl658-terraform-spike]] — FTFL-658 MKUH Terraform failure spike: root cause, drift analysis, rollout plan
+  - [[raw/2026-06-05-pieces-gk-issue-list-format]] — GitKraken `gk issue list` output format investigation
+- **New project pages created:** 1
+  - [[wiki/projects/ffnode Helm Chart Review]] — Complexity & library chart assessment for the ffnode umbrella Helm chart
+- **Wiki pages touched:** None (existing project pages had no new claims from this window's substantive assets)
+- **Flags:** None
+
+
+---
+
+## 2026-06-08 11:00 — Project Check-In
+
+- **Action:** Ingest (Pieces LTM, last 4h)
+- **Raw sources created:** [[raw/2026-06-08-pieces-helm-structured-metadata]]
+- **Wiki pages created:** [[wiki/projects/Helm Chart Structured Metadata — Grafana Cloud Log Enrichment]]
+- **Wiki pages updated:** [[wiki/projects/ffnode Helm Chart Review]], [[wiki/projects/Grafana Alloy Monitoring — FTFL-638]]
+- **Pieces IDs ingested:** 67 new substantive (176 total in window)
+- **Flags:** none

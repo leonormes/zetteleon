@@ -1,8 +1,8 @@
 ---
 created: 2026-04-28T16:55:00+00:00
 entity_kind: project
-modified: 2026-05-08T21:15:00+00:00
-sources: [raw/2026-04-28-pieces-omop-stress-testing-plan.md, raw/2026-05-08-pieces-omop-ticket-context.md]
+modified: 2026-06-04T08:05:28+00:00
+sources: [raw/2026-04-28-pieces-omop-stress-testing-plan.md, raw/2026-05-08-pieces-omop-ticket-context.md, raw/2026-06-03-pieces-omop-azure-storage.md]
 tags: [dossier, wiki]
 title: 12 Million Patient Synthetic NHS-OMOP Pipeline
 wiki_type: dossier
@@ -49,6 +49,27 @@ A FITFILE project to generate and stress-test synthetic NHS OMOP data at scale (
 - Hyve integration remains a critical dependency with open questions on output target (ideally Postgres), throughput at 100k/1M/node-size, feasible schedule (daily/weekly), and governance correctness under load.
 
   > "What is the output (ideally Postgres)? … How long does OMOP take (daily/weekly/hourly updates)? … Governance correctness under load" — [[raw/2026-04-28-pieces-omop-stress-testing-plan]] (Pieces: dbb82172-1e30-4150-82c5-9f03a378e935)
+
+
+- Azure resource group for OMOP parquet data: **`omop-synthetic-rg`** (FITCloud Non-Production subscription, UK South). Created via `az group create --name omop-synthetic-rg --location uksouth`.
+
+  > "Resource group: **`omop-synthetic-rg`** — This was explicitly created by you on 14 Apr 2026 with: `az group create --name omop-synthetic-rg --location uksouth`. Subscription: **FITCloud Non-Production** (`249df46b-f75d-4492-8e78-b33a00473548`), UK South." — [[raw/2026-06-03-pieces-omop-azure-storage]] (Pieces: 2abdd8ab-22ec-47c6-9a8b-617482a3ba1a)
+
+- Azure storage account: **`omopstorage12345`** (StorageV2, Standard LRS, in `omop-synthetic-rg`, UK South). Created 14 Apr 2026.
+
+  > "**`omopstorage12345`** — Created on 14 Apr 2026 (`Created: 4/14/2026, 8:52:19 AM`), also in `omop-synthetic-rg`, UK South. StorageV2 (general purpose v2), Standard LRS." — [[raw/2026-06-03-pieces-omop-azure-storage]] (Pieces: 2abdd8ab-22ec-47c6-9a8b-617482a3ba1a)
+
+- Blob containers in `omopstorage12345`: `omop-synthetic-data` (parquet output, 114 files ~61.5 GB), `omop-reference-data` (golden OMOP vocabulary archive), `omop-code-packages` (source tarball).
+
+  > "The blob containers inside it were: `omop-synthetic-data` | Parquet output files (114 parquet files, ~61.5 GB across 5 nodes); `omop-reference-data` | Golden OMOP vocabulary archive (`omop-vocab-golden.tar.gz`); `omop-code-packages` | Source tarball (`omop_generator-src.tar.gz`)" — [[raw/2026-06-03-pieces-omop-azure-storage]] (Pieces: 2abdd8ab-22ec-47c6-9a8b-617482a3ba1a)
+
+- Parquet data path: `omop-synthetic-data/omop_generator/synthea23m_parquet/` uploaded via AzCopy to `https://omopstorage12345.blob.core.windows.net/omop-synthetic-data`.
+
+  > "The parquet data itself lived at `omop-synthetic-data/omop_generator/synthea23m_parquet/` and the AzCopy upload command you ran uploaded with `--include-pattern "*.parquet"` to `https://omopstorage12345.blob.core.windows.net/omop-synthetic-data`." — [[raw/2026-06-03-pieces-omop-azure-storage]] (Pieces: 2abdd8ab-22ec-47c6-9a8b-617482a3ba1a)
+
+- Other resources in `omop-synthetic-rg`: `omopbatch12345` (Azure Batch account) and `omopacr0414172753` (Azure Container Registry).
+
+  > "For reference, the other OMOP resources in the same `omop-synthetic-rg` were `omopbatch12345` (Azure Batch account) and `omopacr0414172753` (Azure Container Registry)." — [[raw/2026-06-03-pieces-omop-azure-storage]] (Pieces: 2abdd8ab-22ec-47c6-9a8b-617482a3ba1a)
 
 ## Connections
 

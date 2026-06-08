@@ -1,6 +1,6 @@
 ---
 created: 2026-04-28T00:00:00+00:00
-modified: 2026-06-03T03:30:00+00:00
+modified: 2026-06-08T11:00:00+00:00
 tags: [index, system]
 title: index
 ---
@@ -42,8 +42,10 @@ _(empty—populated on first ingest)_
 - [[wiki/projects/Hermes-Model-Configuration]]—Diagnosis of `qwen/qwen3.5:cloud` invalid model ID error: traced stale reference to profile YAML files; both live and chezmoi configs already correct.
 - [[wiki/projects/Hermes-TUI-Startup-Performance]]—Investigation into slow `hermes --tui` startup (30–40+ seconds); /goal prompt composed for self-diagnosis of config bottlenecks.
 - [[wiki/projects/Starship-Performance-Tuning]]—Analysis and optimisation of Starship prompt config (starship.toml): identified critical bottlenecks including 2000ms command_timeout, unscoped k8s/azure/aws modules.
-- [[wiki/projects/K8s Cluster Stress Testing with OMOP Data]]—Summer project to validate distributed Kubernetes cluster stability under large OMOP clinical data loads; scoped via GTD Natural Planning Model.
+- [[wiki/projects/K8s Cluster Stress Testing with OMOP Data]]
+- [[wiki/projects/Kubernetes-Cluster-Bootstrapping]]—Automating ArgoCD deployment on private K8s clusters after Terraform provisioning; exploring argocd-autopilot, Terraform Helm/K8s providers, CAPI, Flux, Crossplane patterns.—Summer project to validate distributed Kubernetes cluster stability under large OMOP clinical data loads; scoped via GTD Natural Planning Model.
 - [[INSIGHTFILE_PIPELINE_REPORT]]—GitLab CI/CD automation research for FITFILE/Hermes: comprehensive search synthesis, 7-phase TRANSFER artifact, cursor-based pagination workflow (2026-05-18).
+- [[FTFL-673 Grafana Deploy All Envs]] — FTFL-673: deploy fixed Grafana across all environments; extends FTFL-638 testing cluster upgrade with two-phase Hermes prompt (context gather → smarter model plan via OpenRouter).
 - [[wiki/projects/Grafana Alloy Monitoring — FTFL-638]]—Kubernetes monitoring stack: Grafana/Alloy Helm deployment, Loki log labeling, values.yaml schema design, and testing cluster fix plan for FTFL-638/511/512; acceptance criteria include cue vet validation, job label alignment (namespace/container), and ArgoCD-synced Alloy-logs DaemonSet.
 - [[wiki/projects/MCP Proxy Robustness and High Availability]]—Planning initiative to make mcp-proxy resilient across multiple AI consumers (Hermes, Claude, Cursor, Gemini); triggered by Hermes disabling four MCP servers without approval; 10-server restoration plan and chezmoi-config-guardrails.
 - [[wiki/projects/Pieces-LTM]]—Pieces LTM (Long-Term Memory) serves as the primary sensory input for the Obsidian PKM system, capturing snippets, terminal commands, open files, and annotations.
@@ -68,6 +70,8 @@ _(empty—populated on first ingest)_
 - [[wiki/projects/Git Tag Management]]—Git tag operations: moved sandbox-testing-1-latest-release tag post-merge, resolved v1.8.65 src refspec push failure (tag missing locally).
 - [[wiki/projects/Grafana Upgrade - Testing Cluster]]—Upgraded and configured Grafana in testing cluster using values.yaml; referenced in today's FTFL-511/512 security scan context.
 - [[wiki/projects/NGINX Ingress Admission Webhook Fix]]—Investigation and fix for failing ArgoCD sync caused by NGINX Ingress admission webhook rejecting snippet annotations; scoped to IaC-only changes on private network cluster.
+- [[wiki/projects/ffnode Helm Chart Review]]—Analysis of the ffnode umbrella Helm chart complexity: named-template patterns, library chart assessment, VSO double-evaluation bug audit across 27 clusters. Triggered by FTFL-673 Faro/Alloy upgrade work with Ollie Rushton.
+- [[wiki/projects/Helm Chart Structured Metadata — Grafana Cloud Log Enrichment]]—Experiment to add structured metadata to Helm charts for richer Grafana Cloud log context. Phase 1 pilot on spicedb (fitfiletest), Phase 2 reusable Helm helper pattern. Sibling to ffnode Helm Chart Review.
 
 ### `wiki/orgs/`
 
@@ -80,4 +84,4 @@ _(empty—populated on first ingest)_
 
 ---
 
-_Updated 2026-06-02 by Project Check-In (cron/4h): 1 new project page created — FITFILE Node Privacy Architecture & Data Processing. 1 new raw note. 5 Pieces assets ingested. Subsequent 24h check: 0 new assets (all duplicates), 0 pages modified. Flags: none._
+_Updated 2026-06-08 by Project Check-In (cron/4h): 1 new project page (Helm Chart Structured Metadata). 1 new raw note. 67 substantive Pieces assets scanned; 1 project page created, 2 existing pages updated. Flags: none._
