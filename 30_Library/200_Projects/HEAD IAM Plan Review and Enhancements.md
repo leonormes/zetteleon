@@ -1,15 +1,15 @@
 ---
 captured: "2026-05-11T13:11:13+01:00 2026-05-11T13:11:13+01:00"
 created: 2026-05-11T12:11:19+00:00
-modified: 2026-06-03T12:29:33+00:00
+modified: 2026-06-08T11:49:17+00:00
+project_category: refined_deployment
+project_name: "Refined Deployment"
+project_status: active
 source: "https://gemini.google.com/app/fe2e2f323009e813"
 status: "processing"
 tags: ["input"]
 title: HEAD IAM Plan Review and Enhancements
 type: "head"
-project_category: refined_deployment
-project_status: active
-project_name: "Refined Deployment"
 ---
 
 ## Raw Output / Content
@@ -291,6 +291,9 @@ The _FiL090226JH - API Testing_ report outlines vulnerabilities at the applicati
 - Permissive CORS (API-2): The API allows cross-origin resource sharing from arbitrary domains.
 
 Conclusion: You must create a second, separate remediation plan tailored specifically for the development/engineering team to patch the code-level vulnerabilities identified in the API testing report.
+
 [[Azure Entra ID IAM → IaC + PIM Migration]]
+
 [[SoT - GitOps for Privileged Identity Management]]
+
 [[MOC - Identity & Access Management]]

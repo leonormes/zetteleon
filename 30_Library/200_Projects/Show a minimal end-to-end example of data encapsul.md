@@ -2,15 +2,15 @@
 aliases: []
 created: 2025-10-22T09:55:38Z
 last_reviewed: ""
-modified: 2026-02-01T15:08:16+00:00
+modified: 2026-06-08T11:49:22+00:00
+project_category: infrastructure
+project_name: "Networking"
+project_status: archived
 status: ""
 tags: ["SoftwareEngineering/Networking"]
 title: Show a minimal end-to-end example of data encapsul
 type: ""
 updated: 
-project_category: infrastructure
-project_status: archived
-project_name: "Networking"
 ---
 
 Show a minimal end-to-end example of data encapsulation and transmission

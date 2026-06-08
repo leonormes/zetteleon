@@ -2,15 +2,15 @@
 aliases: []
 created: 2025-03-05T01:25:01Z
 last_reviewed: ""
-modified: 2026-02-01T15:08:18+00:00
+modified: 2026-06-08T11:49:22+00:00
+project_category: infrastructure
+project_name: "DevOps"
+project_status: archived
 status: ""
 tags: []
 title: Tickets for GitOps Azure Tenant Management with Terraform
 type: ""
 updated: 
-project_category: infrastructure
-project_status: archived
-project_name: "DevOps"
 ---
 
 ## Tickets for GitOps Azure Tenant Management with Terraform

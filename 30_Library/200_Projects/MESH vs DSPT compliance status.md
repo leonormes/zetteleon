@@ -1,11 +1,11 @@
 ---
 created: 2026-05-11T08:57:57+00:00
-modified: 2026-05-26T11:44:26+00:00
+modified: 2026-06-08T11:49:21+00:00
+project_category: refined_deployment
+project_name: "Refined Deployment"
+project_status: active
 title: MESH vs DSPT compliance status
 type: project
-project_category: refined_deployment
-project_status: active
-project_name: "Refined Deployment"
 ---
 
 ## MESH Vs DSPT compliance Status
@@ -77,7 +77,9 @@ Unfortunately, the case is  closed. We have logged a new case for you, and you 
 Kind regards,
 
 National Service Desk
+
 Digital Operations and Service Management
+
 NHS England
 
 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
@@ -95,6 +97,7 @@ Hi Leon,
 There is no requirement to provide us with source IPs as MESH does not use a whitelist to restrict access. However, we do use geo-blocking so your IPs must come from the UK.
 
 Kind Regards
+
 Paddy
 
 ---
@@ -120,7 +123,9 @@ If we do not hear from you within 7 days your case will be closed.
 Kind regards,
 
 National Service Desk
+
 Digital Operations and Service Management
+
 NHS England
 
 Regarding your case CS1225473, we have recently provided you a resolution.

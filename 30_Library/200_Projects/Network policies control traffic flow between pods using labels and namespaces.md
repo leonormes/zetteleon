@@ -2,15 +2,15 @@
 aliases: []
 created: 2025-10-26T17:19:00Z
 last_reviewed: "null"
-modified: 2026-02-01T15:08:19+00:00
+modified: 2026-06-08T11:49:22+00:00
+project_category: infrastructure
+project_name: "k8s"
+project_status: archived
 status: "null"
 tags: ["labels", "network-policy", "SoftwareEngineering/Containers", "SoftwareEngineering/Kubernetes", "SoftwareEngineering/Security", "traffic-control"]
 title: Network policies control traffic flow between pods using labels and namespaces
 type: "Fact"
 updated: 
-project_category: infrastructure
-project_status: archived
-project_name: "k8s"
 ---
 
 ## Summary

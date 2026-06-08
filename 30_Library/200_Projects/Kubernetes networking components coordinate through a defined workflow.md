@@ -2,15 +2,15 @@
 aliases: []
 created: 2025-10-26T17:22:00Z
 last_reviewed: "null"
-modified: 2026-02-01T15:08:19+00:00
+modified: 2026-06-08T11:49:21+00:00
+project_category: infrastructure
+project_name: "k8s"
+project_status: archived
 status: "null"
 tags: ["cni", "coordination", "kube-proxy", "kubelet", "SoftwareEngineering/Containers", "SoftwareEngineering/containers/container-runtime", "SoftwareEngineering/Kubernetes", "workflow"]
 title: Kubernetes networking components coordinate through a defined workflow
 type: "Fact"
 updated: 
-project_category: infrastructure
-project_status: archived
-project_name: "k8s"
 ---
 
 ## Summary

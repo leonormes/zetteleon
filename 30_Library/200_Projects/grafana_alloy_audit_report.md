@@ -1,11 +1,11 @@
 ---
 created: 2026-05-26T17:22:25+00:00
-modified: 2026-05-27T07:15:25+00:00
+modified: 2026-06-08T11:49:24+00:00
+project_category: refined_deployment
+project_name: "Refined Deployment"
+project_status: active
 title: grafana_alloy_audit_report
 type: project
-project_category: refined_deployment
-project_status: active
-project_name: "Refined Deployment"
 ---
 
 ## Grafana Alloy Audit & Remediation Report (FTFL-638)

@@ -2,15 +2,15 @@
 aliases: []
 created: 2025-03-02T12:09:10Z
 last_reviewed: ""
-modified: 2026-05-26T11:44:24+00:00
+modified: 2026-06-08T11:49:22+00:00
+project_category: infrastructure
+project_name: "k8s"
+project_status: archived
 status: ""
 tags: ["k8s", "service"]
 title: The k8s Service Abstraction
 type: ""
 updated: 
-project_category: infrastructure
-project_status: archived
-project_name: "k8s"
 ---
 
 ## Why Services Are the Core Networking Abstraction

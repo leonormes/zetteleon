@@ -2,15 +2,15 @@
 aliases: []
 created: 2025-03-20T07:24:49Z
 last_reviewed: ""
-modified: 2026-02-01T15:08:15+00:00
+modified: 2026-06-08T11:49:24+00:00
+project_category: infrastructure
+project_name: "gitops"
+project_status: archived
 status: ""
 tags: ["git"]
 title: git index
 type: ""
 updated: 
-project_category: infrastructure
-project_status: archived
-project_name: "gitops"
 ---
 
 Unfortunately, `git ls-files --stage` by itself doesn't directly emphasize or highlight the _changes_ within `file1`. It will show that `file1` is in the index and its current blob hash, but it won't show you the diff between the previous version and the staged version.

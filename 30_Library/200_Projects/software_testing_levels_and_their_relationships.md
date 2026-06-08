@@ -3,7 +3,10 @@ aliases: []
 created: 2024-01-03T00:00:00Z
 id: "20240103143000"
 last_reviewed: ""
-modified: 2026-05-26T11:44:24+00:00
+modified: 2026-06-08T11:49:24+00:00
+project_category: development
+project_name: "SDLC"
+project_status: archived
 see_also: []
 status: ""
 superseded_by: ""
@@ -12,9 +15,6 @@ tags: ["sdlc", "SDLC", "testing"]
 title: software_testing_levels_and_their_relationships
 type: "concept"
 updated: 
-project_category: development
-project_status: archived
-project_name: "SDLC"
 ---
 
 ## Software Testing Levels

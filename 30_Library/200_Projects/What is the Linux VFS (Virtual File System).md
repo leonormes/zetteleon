@@ -2,15 +2,15 @@
 aliases: []
 created: 2025-10-24T15:25:00Z
 last_reviewed: "null"
-modified: 2026-02-01T15:08:18+00:00
+modified: 2026-06-08T11:49:22+00:00
+project_category: infrastructure
+project_name: "k8s"
+project_status: archived
 status: "null"
 tags: ["filesystem", "kernel", "SoftwareEngineering/Linux", "vfs"]
 title: What is the Linux VFS (Virtual File System)
 type: "Factual"
 updated: 
-project_category: infrastructure
-project_status: archived
-project_name: "k8s"
 ---
 
 Links:

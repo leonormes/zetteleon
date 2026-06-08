@@ -2,15 +2,15 @@
 aliases: []
 created: 2025-10-24T15:26:00Z
 last_reviewed: "null"
-modified: 2026-02-01T15:08:19+00:00
+modified: 2026-06-08T11:49:22+00:00
+project_category: infrastructure
+project_name: "k8s"
+project_status: archived
 status: "null"
 tags: ["isolation", "mount", "namespace", "SoftwareEngineering/Containers", "SoftwareEngineering/Linux"]
 title: What is a mount namespace
 type: "Factual"
 updated: 
-project_category: infrastructure
-project_status: archived
-project_name: "k8s"
 ---
 
 Links:

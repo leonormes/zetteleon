@@ -2,15 +2,15 @@
 aliases: []
 created: 2025-10-24T15:22:00Z
 last_reviewed: "2026-04-08"
-modified: 2026-05-26T11:44:25+00:00
+modified: 2026-06-08T11:49:18+00:00
+project_category: infrastructure
+project_name: "Networking"
+project_status: archived
 status: "refining"
 tags: ["mental-model", "SoftwareEngineering/Networking", "TheHuman/Philosophy"]
 title: INSIGHT - Networking is data labeling not wires
 type: "Insight"
 updated: 
-project_category: infrastructure
-project_status: archived
-project_name: "Networking"
 ---
 
 Links:

@@ -1,15 +1,15 @@
 ---
 captured: "2026-05-23T12:46:35+01:00 2026-05-23T12:46:35+01:00"
 created: 2026-05-23T11:46:38+00:00
-modified: 2026-05-26T11:44:24+00:00
+modified: 2026-06-08T11:49:17+00:00
+project_category: development
+project_name: "Cryptography"
+project_status: archived
 source: "https://gemini.google.com/app/ff068b421626f686"
 status: "processing"
 tags: ["input"]
 title: HEAD Prime Numbers & RSA Encryption Algorithm
 type: "head"
-project_category: development
-project_status: archived
-project_name: "Cryptography"
 ---
 
 ## Raw Output / Content

@@ -2,15 +2,15 @@
 aliases: []
 created: 2025-10-26T17:22:00Z
 last_reviewed: "null"
-modified: 2026-02-01T15:08:18+00:00
+modified: 2026-06-08T11:49:23+00:00
+project_category: infrastructure
+project_name: "k8s"
+project_status: archived
 status: "null"
 tags: ["cluster-state", "configuration", "etcd", "service-discovery", "SoftwareEngineering/Containers", "SoftwareEngineering/Kubernetes"]
 title: etcd stores cluster network state and service configuration
 type: "Fact"
 updated: 
-project_category: infrastructure
-project_status: archived
-project_name: "k8s"
 ---
 
 ## Summary

@@ -2,15 +2,15 @@
 aliases: []
 created: 2025-02-07T12:57:54Z
 last_reviewed: ""
-modified: 2026-02-01T15:08:18+00:00
+modified: 2026-06-08T11:49:23+00:00
+project_category: infrastructure
+project_name: "k8s"
+project_status: archived
 status: ""
 tags: ["SoftwareEngineering/Containers"]
 title: building_linux_containers_using_base_linux_primitives
 type: "instruction"
 updated: 
-project_category: infrastructure
-project_status: archived
-project_name: "k8s"
 ---
 
 ## Introduction to Containers

@@ -2,7 +2,10 @@
 aliases: []
 created: 2025-03-26T13:03:43Z
 last_reviewed: ""
-modified: 2026-05-26T11:44:24+00:00
+modified: 2026-06-08T11:49:21+00:00
+project_category: development
+project_name: "Core"
+project_status: archived
 see_also: []
 status: ""
 superseded_by: ""
@@ -11,9 +14,6 @@ tags: []
 title: Integrate Security into the Workflow (Shift Left)
 type: ""
 updated: 
-project_category: development
-project_status: archived
-project_name: "Core"
 ---
 
 Make security part of the process, not an afterthought.

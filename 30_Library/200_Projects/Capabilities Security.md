@@ -2,15 +2,15 @@
 aliases: []
 created: 2025-02-07T12:57:54Z
 last_reviewed: ""
-modified: 2026-02-01T15:08:14+00:00
+modified: 2026-06-08T11:49:16+00:00
+project_category: infrastructure
+project_name: "k8s"
+project_status: archived
 status: ""
 tags: ["SoftwareEngineering/Containers", "SoftwareEngineering/Security"]
 title: Capabilities Security
 type: ""
 updated: 
-project_category: infrastructure
-project_status: archived
-project_name: "k8s"
 ---
 
 Capability-based security is a design approach in computing systems where access to resources is governed by unforgeable tokens known as capabilities. Each capability specifies a resource and the set of operations permitted on it, effectively serving as both a reference to the resource and an authorization to perform actions. This model eliminates the need for traditional access control lists (ACLs) and reduces reliance on authentication mechanisms.

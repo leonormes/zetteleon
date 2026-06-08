@@ -1,11 +1,11 @@
 ---
 created: 2026-05-02T19:35:19+00:00
-modified: 2026-05-26T11:44:24+00:00
+modified: 2026-06-08T11:49:16+00:00
+project_category: infrastructure
+project_name: "k8s"
+project_status: archived
 title: Defining One Computer Concept
 type: project
-project_category: infrastructure
-project_status: archived
-project_name: "k8s"
 ---
 
 ## Defining "One Computer" in the Context of Networks and Distributed Systems

@@ -1,14 +1,14 @@
 ---
 aliases: ["Outcome Layer", "Synthesis Stage"]
 created: 2025-12-04T12:23:40Z
-modified: 2026-05-26T11:44:31+00:00
+modified: 2026-06-08T11:49:22+00:00
+project_category: prodos
+project_name: "ProdOS"
+project_status: active
 status: "stable"
 tags: ["pkm", "prodos", "synthesis", "writing"]
 title: Stage 5 Synthesise (The Outcome Layer)
 type: project
-project_category: prodos
-project_status: active
-project_name: "ProdOS"
 ---
 
 _The Goal: To use your connected notes to build larger arguments and summaries._

@@ -2,15 +2,15 @@
 aliases: []
 created: 2025-02-07T12:57:54Z
 last_reviewed: ""
-modified: 2026-02-01T15:08:19+00:00
+modified: 2026-06-08T11:49:22+00:00
+project_category: infrastructure
+project_name: "k8s"
+project_status: archived
 status: ""
 tags: ["SoftwareEngineering/Containers"]
 title: Runc Container Practice
 type: "curriculum"
 updated: 
-project_category: infrastructure
-project_status: archived
-project_name: "k8s"
 ---
 
 To learn more about Linux containers using runc, here are some practical tutorials you can follow:

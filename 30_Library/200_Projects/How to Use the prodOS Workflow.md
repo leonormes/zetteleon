@@ -1,22 +1,22 @@
 ---
 created: 2026-05-26T13:49:47+00:00
-modified: 2026-05-26T17:15:11+00:00
-title: pieces_copilot_message_export_may_26_2026_2_49pm
-type: project
+modified: 2026-06-08T11:49:17+00:00
 project_category: prodos
-project_status: active
 project_name: "ProdOS"
+project_status: active
+title: How to Use the prodOS Workflow
+type: project
 ---
 
 Your ProdOS (Productivity Operating System) has two distinct but connected faces: the personal thinking loop (daily mental processing) and the work automation loop (Jira/Teams/Todoist via Hermes Gateway). Here's how each works.
 
 ---
 
-### Part 1—The Thinking Stream (daily Personal loop)
+## Part 1—The Thinking Stream (daily Personal loop)
 
 This is the "RAM" of the system—a low-friction loop for converting raw mental noise into action or structured knowledge. The governing rule is the Rule of Zero Toil: if it feels like "organising", stop. The loop is for _thinking and doing only_.
 
-#### The CRPE Cycle (your Core loop)
+### The CRPE Cycle (your Core loop)
 
 1. CAPTURE—Dump everything raw into your Daily Note (`01_journals/`) or `00_Inbox/dump.md`. No formatting required. Raw text only.
 2. REFINE—If you're stuck or it's getting complex, create a `HEAD` note in `20_Thinking`. This is temporary working space.
@@ -30,7 +30,7 @@ This is the "RAM" of the system—a low-friction loop for converting raw mental 
    - Skill/Project? → Hangar / Project Note in `200_projects/`
    - Trash? → DELETE the note
 
-#### The Guardrails
+### The Guardrails
 
 - NO FOLDERS in `20_Thinking`—dump everything there
 - NO POLISHING—messy is fine
@@ -38,17 +38,17 @@ This is the "RAM" of the system—a low-friction loop for converting raw mental 
 
 ---
 
-### Part 2—The Autonomous Action System (agent-driven loop)
+## Part 2—The Autonomous Action System (agent-driven loop)
 
 The Protocol - Autonomous Action System is the agentic version of the loop—your AI Chief of Staff (Hermes) handles the organising so you don't have to.
 
-#### The Toolset
+### The Toolset
 
 - Obsidian MCP—ground truth for thinking and knowledge (`/Volumes/DAL/Zettelkasten/LLMeon`)
 - Todoist MCP—ground truth for physical actions and deadlines
 - Hermes Gateway (v0.14.0, model: `owl-alpha`)—the active orchestrator / CoS
 
-#### The Integrated Workflow
+### The Integrated Workflow
 
 1. Capture phase (you)—Dump everything into `00_Inbox/dump.md`. No formatting.
 2. Refine phase (Hermes)—Triggered by saying `"Process my dump"` or `"I'm overwhelmed"`:
@@ -64,7 +64,7 @@ The Protocol - Autonomous Action System is the agentic version of the loop—you
 
 ---
 
-### Part 3—The Work Integration Loop (set up Today, 26 May)
+## Part 3—The Work Integration Loop (set up Today, 26 May)
 
 This was configured this morning using the Hermes `/goal` prompt. The data flow is:
 
@@ -86,7 +86,7 @@ To trigger a CoS review manually, open Hermes TUI and use the `/goal` prompt tha
 
 ---
 
-### Quick reference—entry Points by Energy Level
+## Quick reference—entry Points by Energy Level
 
 | Energy | Entry point | What to do |
 |---|---|---|
@@ -97,7 +97,7 @@ To trigger a CoS review manually, open Hermes TUI and use the `/goal` prompt tha
 
 ---
 
-### Open Questions from Your Design Session (not yet resolved)
+## Open Questions from Your Design Session (not yet resolved)
 
 - Has the Hermes `/goal` prompt been executed yet, or only generated?
 - Microsoft Teams MCP connector—is there a working connector, or does this still need to be built?

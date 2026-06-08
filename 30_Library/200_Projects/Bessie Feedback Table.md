@@ -1,7 +1,9 @@
 ---
 created: 2026-05-04T08:01:26+00:00
-modified: 2026-05-26T11:43:55+00:00
+modified: 2026-06-08T11:49:24+00:00
+project_name: "Bessie"
 title: Bessie Feedback Table
+type: note
 ---
 
 ## Bessie Feedback Table

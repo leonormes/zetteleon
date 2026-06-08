@@ -1,10 +1,10 @@
 ---
 created: 2026-06-01T11:27:22+00:00
-modified: 2026-06-01T11:36:42+00:00
-title: Times_Tables_Mastery_Guide
-type: project
+modified: 2026-06-08T11:49:22+00:00
 project_category: personal
 project_status: archived
+title: Times Tables Mastery Guide
+type: project
 ---
 
 ## Master Your Times Tables: A Comprehensive Guide

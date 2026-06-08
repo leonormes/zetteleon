@@ -2,7 +2,10 @@
 aliases: []
 created: 2025-02-07T12:57:56Z
 last_reviewed: ""
-modified: 2026-05-26T11:44:24+00:00
+modified: 2026-06-08T11:49:24+00:00
+project_category: development
+project_name: "Core"
+project_status: archived
 see_also: []
 status: ""
 superseded_by: ""
@@ -11,9 +14,6 @@ tags: []
 title: tradition_networking_in_k8s
 type: ""
 updated: 
-project_category: development
-project_status: archived
-project_name: "Core"
 ---
 
 ## Tradition Networking in K8s

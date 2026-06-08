@@ -1,13 +1,13 @@
 ---
 author: Ivan Velichko
 created: 2026-05-02T06:54:32+00:00
-modified: 2026-05-26T11:44:25+00:00
+modified: 2026-06-08T11:49:23+00:00
+project_category: infrastructure
+project_name: "k8s"
+project_status: archived
 source: https://labs.iximiuz.com/tutorials/container-filesystem-from-scratch
 title: dockercontainer
 type: project
-project_category: infrastructure
-project_status: archived
-project_name: "k8s"
 ---
 
 ## How Container Filesystem Works: Building a Docker-like Container From Scratch

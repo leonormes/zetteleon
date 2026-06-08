@@ -1,10 +1,10 @@
 ---
 created: 2026-04-09T10:48:38+00:00
-modified: 2026-05-26T11:44:24+00:00
-title: Chat_Transcript EE owed bill threat
-type: project
+modified: 2026-06-08T11:49:16+00:00
 project_category: personal
 project_status: archived
+title: Chat_Transcript EE owed bill threat
+type: project
 ---
 
 Time Zone: Europe/London

@@ -1,11 +1,11 @@
 ---
 created: 2026-05-15T08:22:55+00:00
-modified: 2026-05-26T11:44:26+00:00
+modified: 2026-06-08T11:49:22+00:00
+project_category: refined_deployment
+project_name: "Refined Deployment"
+project_status: active
 title: Operating Protocol for High-Friction Engineering Work
 type: project
-project_category: refined_deployment
-project_status: active
-project_name: "Refined Deployment"
 ---
 
 Given my difficulty initiating tasks and the nature of these projects we have discussed give me a protocol or process for getting this work done Here is a tactical protocol designed to lower the barrier to entry for complex, high-friction engineering work. It treats human attention much like a Lean software delivery pipeline: optimising for small batches, limiting work-in-progress, and ensuring fast feedback loops. Phase 1: The Pre-Flight Routine (State Management) * Master Internal Triggers: Difficulty initiating is rarely about a lack of technical skill; it is often driven by the subconscious overwhelm of tackling massive, ambiguous architectural changes. Acknowledge the discomfort of the "blank IDE" before beginning. * Move to Focus: Before sitting down to map out the GitOps changes or Entra ID policies, engage in brief physical movement. Taking the dog for a brisk walk around the block serves as a powerful neurological reset, priming the brain for sustained mental effort and focus. Phase 2: The "Walking Skeleton" Initiation * Timebox the Atomic Action: Commit to doing just one thing at a time. Set a strict timebox of 15 to 25 minutes to execute only the very first, atomic action identified in your planning phase (e.g., writing the first Terraform resource block or querying the k8s cluster state). * Banish Perfection: Do not attempt to architect the perfect end-to-end deployment pipeline on the first attempt. The objective is simply to overcome inertia; start now and get perfect later. Phase 3: The "Unschedule" * Plan the Downtime First: Instead of staring down an open-ended, gruelling block of configuration work, schedule your breaks, meals, and leisure activities before scheduling the work itself. * Guilt-Free Play: Knowing exactly when you will stop working provides a psychological safety net. It replaces the dread of endless work with the promise of guaranteed, guilt-free downtime. Phase 4: Radical WIP Limits * Embrace Finitude: When designing and overhauling multiple distributed systems, attention is a strictly finite resource. You cannot execute all of these upgrades simultaneously. * Enforce Limits: Limit your personal Work-In-Progress (WIP) just as you would in a team delivery environment. Focus exclusively on one major project at a time and creatively neglect the others until the active task reaches a defined, testable milestone.

@@ -1,11 +1,11 @@
 ---
 created: 2026-03-30T08:34:15+00:00
-modified: 2026-05-26T11:44:31+00:00
+modified: 2026-06-08T11:49:21+00:00
+project_category: deployments
+project_name: "Deployments"
+project_status: active
 title: NWSDE
 type: project
-project_category: deployments
-project_status: active
-project_name: "Deployments"
 ---
 
 tenant ID: `eae2146b-01ed-4b70-8a27-caa5804ab9ca`

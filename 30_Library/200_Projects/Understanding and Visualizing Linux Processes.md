@@ -2,15 +2,15 @@
 aliases: []
 created: 2025-02-07T12:57:54Z
 last_reviewed: ""
-modified: 2026-02-01T15:08:14+00:00
+modified: 2026-06-08T11:49:22+00:00
+project_category: infrastructure
+project_name: "k8s"
+project_status: archived
 status: ""
 tags: ["cli", "Processes", "SoftwareEngineering/Containers", "SoftwareEngineering/Linux"]
 title: Understanding and Visualizing Linux Processes
 type: ""
 updated: 
-project_category: infrastructure
-project_status: archived
-project_name: "k8s"
 ---
 
 Let's start with the fundamentals and build up to more advanced process visualization techniques. Think of processes like a family tree - they have parents, children, and relationships that tell us how they're connected and what they're doing.

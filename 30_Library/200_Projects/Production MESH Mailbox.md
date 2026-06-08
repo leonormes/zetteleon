@@ -1,11 +1,11 @@
 ---
 created: 2026-05-11T09:45:18+00:00
-modified: 2026-05-26T11:44:26+00:00
+modified: 2026-06-08T11:49:22+00:00
+project_category: refined_deployment
+project_name: "Refined Deployment"
+project_status: active
 title: Production MESH Mailbox
 type: project
-project_category: refined_deployment
-project_status: active
-project_name: "Refined Deployment"
 ---
 
 ## Production Configuration

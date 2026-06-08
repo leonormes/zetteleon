@@ -2,7 +2,10 @@
 aliases: []
 created: 2025-02-07T12:57:52Z
 last_reviewed: ""
-modified: 2026-05-26T11:44:24+00:00
+modified: 2026-06-08T11:49:22+00:00
+project_category: development
+project_name: "SDLC"
+project_status: archived
 see_also: []
 status: ""
 superseded_by: ""
@@ -11,9 +14,6 @@ tags: [SDLC]
 title: Nightmare pipeline
 type: ""
 updated:
-project_category: development
-project_status: archived
-project_name: "SDLC"
 ---
 
 Our Delivery Pipeline should be an utter nightmare for any defect trying to get through to production.

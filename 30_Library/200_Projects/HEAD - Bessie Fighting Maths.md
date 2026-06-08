@@ -1,12 +1,12 @@
 ---
 aliases: []
 created: 2026-06-01T00:00:45+00:00
-modified: 2026-06-01T14:59:37+00:00
+modified: 2026-06-08T11:49:17+00:00
+project_category: personal
+project_status: archived
 tags: [prodos/head, state/thinking]
 title: HEAD - Bessie Fighting Maths
 type: project
-project_category: personal
-project_status: archived
 ---
 
 Your instinct is absolutely spot on. You have identified a brilliant and highly sophisticated way that Bessie's brain works, and ironically, her approach is much closer to how actual mathematicians operate than the rote memorisation she is likely comparing herself to.

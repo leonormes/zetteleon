@@ -1,38 +1,34 @@
 ---
 created: 2026-05-28T14:45:16+00:00
-modified: 2026-05-28T14:46:38+00:00
+modified: 2026-06-08T11:49:17+00:00
+project_category: hermes_optimisastion
+project_name: "Hermes Optimisastion"
+project_status: active
 tags: [1]
 title: Historical mcp-proxy Failure Analysis & Claude Prompt
 type: project
-project_category: hermes_optimisastion
-project_status: active
-project_name: "Hermes Optimisastion"
 ---
+
 You are a systems reliability engineer fixing the mcp-proxy integration in my chezmoi dotfiles repo at ~/.local/share/chezmoi. You have full filesystem access. Do NOT deviate from the steps below without surfacing the issue first.
 
 ## CONTEXT
 
-I use `smart-mcp-proxy` (installed via uv as `mcpproxy`) as a single HTTP MCP gateway for all LLM clients (Claude Code, Gemini CLI, Cursor, Hermes). It runs at http://127.0.0.1:8000/mcp/ in CALL_TOOL mode, exposing only `retrieve_tools` and `call_tool`. Upstream servers are defined in `.chezmoidata.toml` and templated into `~/.config/mcpproxy/mcp_proxy.json` via chezmoi.
+I use `smart-mcp-proxy` (installed via uv as `mcpproxy`) as a single HTTP MCP gateway for all LLM clients (Claude Code, Gemini CLI, Cursor, Hermes). It runs at <http://127.0.0.1:8000/mcp/> in CALL_TOOL mode, exposing only `retrieve_tools` and `call_tool`. Upstream servers are defined in `.chezmoidata.toml` and templated into `~/.config/mcpproxy/mcp_proxy.json` via chezmoi.
 
-## KNOWN HISTORICAL FAILURES (do NOT repeat these)
+## KNOWN HISTORICAL FAILURES (do NOT Repeat these)
 
-1. mcp-remote OAuth loop — The stdio bridge `npx -y mcp-remote http://127.0.0.1:8000/mcp/ --allow-http` causes mcp-remote v0.1.38 to loop on /.well-known/oauth-protected-resource and never connect. It also crashes with `TypeError: Invalid URL` on some invocations. The fix is direct HTTP registration, NOT the mcp-remote bridge.
+1. mcp-remote OAuth loop—The stdio bridge `npx -y mcp-remote http://127.0.0.1:8000/mcp/ --allow-http` causes mcp-remote v0.1.38 to loop on /.well-known/oauth-protected-resource and never connect. It also crashes with `TypeError: Invalid URL` on some invocations. The fix is direct HTTP registration, NOT the mcp-remote bridge.
+2. Gemini SSE vs Streamable HTTP mismatch—Gemini CLI uses `"url"` key for SSE and `"httpUrl"` key for Streamable HTTP. The proxy runs streamable-http. Using `"url"` causes silent hang (200 OK, session ID returned, no data). dot_gemini/settings.json.tmpl MUST use `"httpUrl"`.
+3. No hot-reload—mcpproxy reads config ONCE at startup. After any `chezmoi apply` that changes `mcp_proxy.json`, the proxy MUST be restarted via `launchctl kickstart -k gui/$(id -u)/com.user.mcpproxy`.
+4. Discovery-wedging—Servers that fail to start (Obsidian not running, op credentials unavailable, mcp-remote OAuth) block discovery for ALL servers. High-risk servers (obsidian-mcp-tools, atlassian, todoist with mcp-remote) must have startup dependencies satisfied before the proxy starts, OR be kept `disabled = true` until explicitly needed.
+5. LLM doesn't know the retrieve_tools → call_tool two-step—Every CLAUDE.md or context doc MUST contain the mandatory workflow: (1) call retrieve_tools with plain-English query, (2) pick tool name, (3) call call_tool. If this is absent, agents waste 5–15 rounds re-deriving it.
+6. Hermes disabling wanted servers—Never set `disabled = true` on user-specified servers without explicit confirmation. Only disable servers that are confirmed broken/unnecessary.
+7. `__NPX__` placeholder must be used—Never write bare `"npx"`, `"uvx"`, or `"node"` in `.chezmoidata.toml`. Always use `__NPX__`, `__UVX__`, or `__NODE__` placeholders so the CUE pipeline resolves absolute paths.
 
-2. Gemini SSE vs Streamable HTTP mismatch — Gemini CLI uses `"url"` key for SSE and `"httpUrl"` key for Streamable HTTP. The proxy runs streamable-http. Using `"url"` causes silent hang (200 OK, session ID returned, no data). dot_gemini/settings.json.tmpl MUST use `"httpUrl"`.
+## TASKS—execute In Order, Do not Skip
 
-3. No hot-reload — mcpproxy reads config ONCE at startup. After any `chezmoi apply` that changes `mcp_proxy.json`, the proxy MUST be restarted via `launchctl kickstart -k gui/$(id -u)/com.user.mcpproxy`.
+### Task 1: Fix Claude Code MCP Registration
 
-4. Discovery-wedging — Servers that fail to start (Obsidian not running, op credentials unavailable, mcp-remote OAuth) block discovery for ALL servers. High-risk servers (obsidian-mcp-tools, atlassian, todoist with mcp-remote) must have startup dependencies satisfied before the proxy starts, OR be kept `disabled = true` until explicitly needed.
-
-5. LLM doesn't know the retrieve_tools → call_tool two-step — Every CLAUDE.md or context doc MUST contain the mandatory workflow: (1) call retrieve_tools with plain-English query, (2) pick tool name, (3) call call_tool. If this is absent, agents waste 5–15 rounds re-deriving it.
-
-6. Hermes disabling wanted servers — Never set `disabled = true` on user-specified servers without explicit confirmation. Only disable servers that are confirmed broken/unnecessary.
-
-7. `__NPX__` placeholder must be used — Never write bare `"npx"`, `"uvx"`, or `"node"` in `.chezmoidata.toml`. Always use `__NPX__`, `__UVX__`, or `__NODE__` placeholders so the CUE pipeline resolves absolute paths.
-
-## TASKS — execute in order, do not skip
-
-### Task 1: Fix Claude Code MCP registration
 The current `dot_claude/settings.json` uses the broken mcp-remote bridge. Replace it with direct HTTP:
 
 ```json

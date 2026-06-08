@@ -7,7 +7,10 @@ exports: ["concept: \"system-resources"]
 id: "20240206143000"
 imports: ["from: \"linux-core"]
 last_reviewed: ""
-modified: 2026-02-01T15:08:14+00:00
+modified: 2026-06-08T11:49:24+00:00
+project_category: infrastructure
+project_name: "k8s"
+project_status: archived
 status: "active"
 strength: "4"
 tags: []
@@ -16,9 +19,6 @@ type: "concept"
 updated: 
 validation_notes: "Core Linux kernel documentation verified"
 validation_state: "validated"
-project_category: infrastructure
-project_status: archived
-project_name: "k8s"
 ---
 
 <!--content-block-start type="concept" id="user-namespace"-->

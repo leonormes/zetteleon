@@ -1,11 +1,11 @@
 ---
 created: 2026-06-05T08:50:57+00:00
-modified: 2026-06-05T08:53:48+00:00
-title: pieces_copilot_message_export_june_5_2026_9_50am
-type: project
+modified: 2026-06-08T11:49:16+00:00
 project_category: refined_deployment
-project_status: active
 project_name: "Refined Deployment"
+project_status: active
+title: FITFILE Grafana Cloud Observability Audit—Stack Review, Gaps & Cost Optimisation
+type: project
 ---
 
 _Shared Message from Pieces (<https://pieces.app>) by Leon Ormes (leonormes@gmail.com) on Friday Jun 5, 2026 - 9:50 AM_
@@ -227,11 +227,12 @@ Defer / evaluate last:
 
 The fastest cost improvement is applying the Prometheus `labeldrop` rules from your audit file and fixing the `pod: null` SM override—these require no new tooling, no auth, and could cut your metrics and logs bills materially before end of this sprint.
 
-*Shared Message from Pieces (https://pieces.app) by Leon Ormes (leonormes@gmail.com) on Monday Jun 8, 2026 - 10:46 AM*
+_Shared Message from Pieces (<https://pieces.app>) by Leon Ormes (leonormes@gmail.com) on Monday Jun 8, 2026 - 10:46 AM_
 ---
-## Phase 2: make the canary measurable
 
-### Record the baseline you will compare against
+## Phase 2: Make the Canary Measurable
+
+### Record the Baseline You Will Compare against
 
 Before you turn the pilot on, capture a single representative log entry from `spicedb` in `fitfiletest` and write down these three things:
 
@@ -241,7 +242,7 @@ Before you turn the pilot on, capture a single representative log entry from `sp
 
 Keep that snapshot small. One log line is enough if it clearly contains `requestID`, `grpc.service`, `grpc.method`, and `peer.address`.
 
-### Define the success metric up front
+### Define the Success Metric up front
 
 For this phase, the experiment succeeds if all of the following are true after rollout:
 
@@ -252,7 +253,7 @@ For this phase, the experiment succeeds if all of the following are true after r
 
 If the label set grows, the pilot failed even if the detail panel still looks nice.
 
-### Use a strict before/after compare
+### Use a Strict before/after Compare
 
 After deployment, re-run the exact same Grafana Explore query you used for the baseline and compare only the following:
 
@@ -265,7 +266,7 @@ After deployment, re-run the exact same Grafana Explore query you used for the b
 
 If one of those changes unexpectedly, stop and roll the pilot back before touching any other workload.
 
-### Keep the rollback path trivial
+### Keep the Rollback Path Trivial
 
 Make rollback a one-line values change in the same overlay:
 
@@ -274,7 +275,7 @@ Make rollback a one-line values change in the same overlay:
 
 Do not introduce a second toggle for this phase. One flag is easier to reason about, easier to revert, and easier to expand later.
 
-### Decide what to do with `component` and `logger` after the canary
+### Decide what to Do with `component` and `logger` after the Canary
 
 For the pilot, treat `component` and `logger` as conditional:
 
@@ -283,7 +284,7 @@ For the pilot, treat `component` and `logger` as conditional:
 
 That lets you avoid over-indexing fields that look convenient but do not help with actual query patterns.
 
-### Phase 2 exit criteria
+### Phase 2 Exit Criteria
 
 You are ready to move on when:
 

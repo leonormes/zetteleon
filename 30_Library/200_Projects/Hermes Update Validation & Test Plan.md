@@ -1,11 +1,11 @@
 ---
 created: 2026-05-28T14:17:22+00:00
-modified: 2026-05-28T14:18:08+00:00
+modified: 2026-06-08T11:49:17+00:00
+project_category: hermes_optimisastion
+project_name: "Hermes Optimisastion"
+project_status: active
 title: Hermes Update Validation & Test Plan
 type: project
-project_category: hermes_optimisastion
-project_status: active
-project_name: "Hermes Optimisastion"
 ---
 
 ## Validation: Changes Confirmed in Files

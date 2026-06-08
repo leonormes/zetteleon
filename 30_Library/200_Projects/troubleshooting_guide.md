@@ -3,8 +3,11 @@ aliases: []
 created: 2025-02-07T12:57:56Z
 dependencies: ""
 last_reviewed: ""
-modified: 2026-05-26T11:44:24+00:00
+modified: 2026-06-08T11:49:24+00:00
 name: "troubleshooting_guide"
+project_category: development
+project_name: "Debug Wiki"
+project_status: archived
 see_also: []
 status: ""
 superseded_by: ""
@@ -13,9 +16,6 @@ tags: []
 title: troubleshooting_guide
 type: "operational_guide"
 updated: 
-project_category: development
-project_status: archived
-project_name: "Debug Wiki"
 ---
 
 ## Private Deployment Troubleshooting Guide

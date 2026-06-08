@@ -1,10 +1,10 @@
 ---
 created: 2026-02-03T11:54:13+00:00
-modified: 2026-02-04T07:27:57+00:00
-title: Cloud Resource Naming Convention
-type: project
+modified: 2026-06-08T11:49:16+00:00
 project_category: infrastructure
 project_status: archived
+title: Cloud Resource Naming Convention
+type: project
 ---
 
 ## Resource Groups

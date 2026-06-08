@@ -1,25 +1,28 @@
 ---
-tags: [hermes, agent-orchestration, cost-optimization, openrouter, claude, llm-routing]
+created: 2026-06-08T11:35:53+00:00
 date: 2026-05-28
+modified: 2026-06-08T11:49:17+00:00
 project: hermes-agent-orchestrator
-status: design-proposal
-type: project
 project_category: hermes_optimisastion
-project_status: active
 project_name: "Hermes Optimisastion"
+project_status: active
+status: design-proposal
+tags: [agent-orchestration, claude, cost-optimization, hermes, llm-routing, openrouter]
+title: Hermes Cost Optimisation - Free Model Routing Strategy
+type: project
 ---
 
-# Hermes Cost Optimisation — Free Model Routing Strategy
+## Hermes Cost Optimisation—Free Model Routing Strategy
 
-## Context
+### Context
 
-Analysis of a long Claude Code session (FTFL-638 — Grafana monitoring fix for testing AKS cluster) to identify which operations could be delegated to a free model in Hermes, reducing token costs while preserving Claude's quality for tasks that require it.
+Analysis of a long Claude Code session (FTFL-638—Grafana monitoring fix for testing AKS cluster) to identify which operations could be delegated to a free model in Hermes, reducing token costs while preserving Claude's quality for tasks that require it.
 
 The session covered: ArgoCD deadlock debugging, Alloy config errors, Helm chart migration (v3.x → v4.x), Loki stream label analysis, kubectl/gcx diagnostics, and a staging cluster bug discovery.
 
 ---
 
-## The Core Pattern
+### The Core Pattern
 
 Every debugging cycle in the session followed three phases:
 
@@ -27,22 +30,22 @@ Every debugging cycle in the session followed three phases:
 Gather → Reason → Act
 ```
 
-- **Gather** — run commands, read files, collect output (~60–70% of operations)
-- **Reason** — understand what the output means, form a hypothesis (~15%)
-- **Act** — write a fix, validate, monitor (~20%)
+- Gather—run commands, read files, collect output (~60–70% of operations)
+- Reason—understand what the output means, form a hypothesis (~15%)
+- Act—write a fix, validate, monitor (~20%)
 
 Phases 1 and 3 are largely mechanical. Phase 2 is where Claude earns its cost.
 
 ---
 
-## What a Free Model Could Handle
+### What a Free Model Could Handle
 
-### Mechanical Operations (free model viable)
+#### Mechanical Operations (free Model viable)
 
 | Task Type | Examples from the Session |
 |---|---|
 | `kubectl get/describe/logs` | Pod status, events, ArgoCD app state, DaemonSet spec |
-| Monitoring loops | `until condition; do sleep; done` — waiting for sync/health/readiness |
+| Monitoring loops | `until condition; do sleep; done`—waiting for sync/health/readiness |
 | grep through files | Searching values.yaml, chart files, templates for specific keys |
 | `git log / diff / show / fetch` | Checking commit contents, comparing revisions |
 | `helm template` validation | Running render and checking for `Error:` or `execution error` |
@@ -51,7 +54,7 @@ Phases 1 and 3 are largely mechanical. Phase 2 is where Claude earns its cost.
 | Reading known file paths | values.yaml, ConfigMap contents, ArgoCD Application CR |
 | Extracting and dumping structured data | kubectl jsonpath + pipe to file for later analysis |
 
-### Concrete Example — ArgoCD Deadlock Cycle (repeated 5× in the session)
+#### Concrete Example—ArgoCD Deadlock Cycle (repeated 5× in the session)
 
 ```
 check app status →
@@ -62,31 +65,31 @@ wait for new operation to start at HEAD →
 monitor until Synced or Failed
 ```
 
-Every step here is mechanical. Once Claude established *why* the deadlock happens and what the fix commands are, a free model could execute this entire cycle on every subsequent recurrence with zero reasoning required.
+Every step here is mechanical. Once Claude established _why_ the deadlock happens and what the fix commands are, a free model could execute this entire cycle on every subsequent recurrence with zero reasoning required.
 
 ---
 
-## What Required Claude
+### What Required Claude
 
 | Reasoning Task | Why a Free Model Would Fail |
 |---|---|
-| Diagnosing `action = keep` as an Alloy River syntax error | Requires knowing Alloy's River language spec — not discoverable from the error message alone |
+| Diagnosing `action = keep` as an Alloy River syntax error | Requires knowing Alloy's River language spec—not discoverable from the error message alone |
 | Tracing the unquoted `keep` back through Application CR → ffnode chart merge → k8s-monitoring template | Multi-file causal chain across 4 levels of abstraction |
 | Identifying the `--web.listen-address` self-conflict (`HOST_IP=0.0.0.0` + `hostNetwork: true` = duplicate bind) | Requires understanding how the chart sets HOST_IP when hostNetwork is enabled |
-| Explaining why `stage.structured_metadata` removes `pod` from Loki stream labels | Nuanced Alloy pipeline semantics — not described in any error message |
+| Explaining why `stage.structured_metadata` removes `pod` from Loki stream labels | Nuanced Alloy pipeline semantics—not described in any error message |
 | Planning the full v3.x → v4.x Helm chart migration | Reading chart source, cross-referencing CHANGELOG, building a mental model of a new architecture |
 | Diagnosing the ArgoCD timing race (sync started with stale Application CR values) | Required understanding ArgoCD's operational state machine: last-applied annotation vs. live spec vs. desired state |
 | Connecting staging's missing `logs_service` secret to zero logs for 30+ days | Three silent facts: secret doesn't exist + ConfigMap references it + Alloy fails silently |
 
 ---
 
-## Hermes Routing Design
+### Hermes Routing Design
 
-### Principle
+#### Principle
 
-> The free model should be a **good data collector and a poor diagnostician** — it knows the limits of its own pattern matching and escalates cleanly rather than hallucinating a fix.
+> The free model should be a good data collector and a poor diagnostician—it knows the limits of its own pattern matching and escalates cleanly rather than hallucinating a fix.
 
-### Routing Rules
+#### Routing Rules
 
 ```
 Free model handles:
@@ -107,7 +110,7 @@ Escalate to Claude when:
   - Confidence self-rating falls below threshold after gather phase
 ```
 
-### Escalation Signal Heuristics
+#### Escalation Signal Heuristics
 
 ```python
 ESCALATE_SIGNALS = [
@@ -127,9 +130,10 @@ def route(task, free_model_confidence):
     return "claude"
 ```
 
-### Ideal Session Structure
+#### Ideal Session Structure
 
-**Step 1 — Free model runs the diagnostic gather loop:**
+Step 1—Free model runs the diagnostic gather loop:
+
 ```
 run all kubectl/gcx/git diagnostics →
 dump: pod statuses, error messages, relevant config sections, ArgoCD state →
@@ -138,14 +142,16 @@ self-rate confidence on likely cause →
 if low confidence: package context and escalate to Claude
 ```
 
-**Step 2 — Claude does one focused analysis call (no command running):**
+Step 2—Claude does one focused analysis call (no command running):
+
 ```
 receive structured context →
 reason over it →
 produce: "root cause is X, fix is Y, change file Z at line N"
 ```
 
-**Step 3 — Free model implements and validates:**
+Step 3—Free model implements and validates:
+
 ```
 apply the edit →
 run helm template / kubectl apply →
@@ -156,15 +162,15 @@ if still broken: re-gather and escalate again
 
 ---
 
-## Estimated Cost Impact
+### Estimated Cost Impact
 
-This session had roughly **40–50 back-and-forth tool call sequences** where Claude was both running the command AND interpreting the output.
+This session had roughly 40–50 back-and-forth tool call sequences where Claude was both running the command AND interpreting the output.
 
-The actual reasoning that justified Claude's cost happened approximately **10 times** (one per genuine root cause). Everything else was context-building that any model can do given the right tools and a clear "gather then report" instruction.
+The actual reasoning that justified Claude's cost happened approximately 10 times (one per genuine root cause). Everything else was context-building that any model can do given the right tools and a clear "gather then report" instruction.
 
-A Hermes split would compress the session to approximately **8–10 Claude calls** with the free model handling everything around them — a rough **3–5× cost reduction** for sessions of this type.
+A Hermes split would compress the session to approximately 8–10 Claude calls with the free model handling everything around them—a rough 3–5× cost reduction for sessions of this type.
 
-### What drove the unnecessary cost
+#### What Drove the Unnecessary Cost
 
 - File reads and greps that returned nothing
 - Repeated kubectl status checks to build incremental context
@@ -176,11 +182,12 @@ All of these are zero-reasoning operations that any model can execute reliably.
 
 ---
 
-## Session-Specific Examples to Implement as Free Model Patterns
+### Session-Specific Examples to Implement as Free Model Patterns
 
 These patterns appeared multiple times in the session and are fully automatable:
 
-### Pattern: ArgoCD Unstick
+#### Pattern: ArgoCD Unstick
+
 ```
 1. check app.status.operationState.phase
 2. check app.status.operationState.operation.sync.revision
@@ -191,7 +198,8 @@ These patterns appeared multiple times in the session and are fully automatable:
 5. wait for new operation at HEAD revision
 ```
 
-### Pattern: Pod CrashLoopBackOff Diagnose
+#### Pattern: Pod CrashLoopBackOff Diagnose
+
 ```
 1. kubectl logs <pod> --all-containers --tail=50
 2. kubectl describe pod <pod> | grep -E "State:|Reason:|Message:|Args:|Port:"
@@ -199,7 +207,8 @@ These patterns appeared multiple times in the session and are fully automatable:
 4. package: error_message + pod_spec + recent_events → escalate if no pattern match
 ```
 
-### Pattern: Helm Values Validation
+#### Pattern: Helm Values Validation
+
 ```
 1. extract relevant section from values.yaml
 2. helm template <chart> --values <extracted> 2>&1
@@ -207,7 +216,8 @@ These patterns appeared multiple times in the session and are fully automatable:
 4. if clean: report "renders OK"
 ```
 
-### Pattern: Loki Stream Label Check
+#### Pattern: Loki Stream Label Check
+
 ```
 1. gcx logs series --match '{cluster="<name>"}' -o json
 2. extract all label keys across streams
@@ -217,18 +227,18 @@ These patterns appeared multiple times in the session and are fully automatable:
 
 ---
 
-## Recommended OpenRouter Free Models for Gather Phase
+### Recommended OpenRouter Free Models for Gather Phase
 
 Models that are reliable for mechanical operations and structured output with no creativity required:
 
-- **Gemini 2.0 Flash (free tier)** — fast, large context, good at structured data extraction
-- **Llama 3.1 405B (free via OpenRouter)** — strong at following explicit tool-use instructions
-- **Qwen 2.5 72B (free via OpenRouter)** — reliable for grep/parse/summarise loops
+- Gemini 2.0 Flash (free tier)—fast, large context, good at structured data extraction
+- Llama 3.1 405B (free via OpenRouter)—strong at following explicit tool-use instructions
+- Qwen 2.5 72B (free via OpenRouter)—reliable for grep/parse/summarise loops
 
-Key requirement: the free model must be able to **self-rate its own confidence** and hand off cleanly rather than attempt reasoning it can't do reliably.
+Key requirement: the free model must be able to self-rate its own confidence and hand off cleanly rather than attempt reasoning it can't do reliably.
 
 ---
 
-## Related Notes
+### Related Notes
 
 - [[FTFL-638 Grafana Monitoring Fix - Testing Cluster]]

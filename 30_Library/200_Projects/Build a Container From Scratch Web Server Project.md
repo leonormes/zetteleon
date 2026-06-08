@@ -2,15 +2,15 @@
 aliases: []
 created: 2025-02-07T12:57:53Z
 last_reviewed: "null"
-modified: 2026-02-01T15:08:19+00:00
+modified: 2026-06-08T11:49:15+00:00
+project_category: infrastructure
+project_name: "k8s"
+project_status: archived
 status: "null"
 tags: ["SoftwareEngineering/Containers"]
 title: Build a Container From Scratch Web Server Project
 type: "tutorial"
 updated: 
-project_category: infrastructure
-project_status: archived
-project_name: "k8s"
 ---
 
 ## Project Overview

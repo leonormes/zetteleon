@@ -2,8 +2,10 @@
 aliases: []
 created: 2026-01-07T21:28:43+00:00
 last_reviewed: ""
-modified: 2026-05-26T11:44:24+00:00
+modified: 2026-06-08T11:49:22+00:00
 priority: high
+project_category: development
+project_status: archived
 see_also: []
 status: active
 superseded_by: ""
@@ -12,8 +14,6 @@ tags: [cloud, iam, k8s, posture, project, security]
 title: Project - Security Posture Hardening
 type: ""
 uuid: 6db404a5-771a-417d-8541-e33c40f45ae8
-project_category: development
-project_status: archived
 ---
 
 ## 1. Context & Objectives

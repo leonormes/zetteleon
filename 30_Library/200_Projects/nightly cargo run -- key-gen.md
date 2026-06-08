@@ -1,12 +1,12 @@
 ---
 created: 2026-02-05T19:55:23+00:00
-modified: 2026-05-26T11:44:26+00:00
-title: nightly cargo run -- key-gen
-uuid: 933d0f4e-318d-4bee-a5ed-9e0ac7172dcf
-type: project
+modified: 2026-06-08T11:49:24+00:00
 project_category: refined_deployment
-project_status: active
 project_name: "Refined Deployment"
+project_status: active
+title: nightly cargo run -- key-gen
+type: project
+uuid: 933d0f4e-318d-4bee-a5ed-9e0ac7172dcf
 ---
 
 ```bash

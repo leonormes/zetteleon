@@ -2,7 +2,10 @@
 aliases: []
 created: 2025-02-07T12:57:52Z
 last_reviewed: ""
-modified: 2026-05-26T11:44:24+00:00
+modified: 2026-06-08T11:49:24+00:00
+project_category: development
+project_name: "SDLC"
+project_status: archived
 see_also: []
 status: ""
 superseded_by: ""
@@ -11,9 +14,6 @@ tags: ["calico", "cni", "SoftwareEngineering/Networking", "workstation"]
 title: using calicoctl
 type: ""
 updated: 
-project_category: development
-project_status: archived
-project_name: "SDLC"
 ---
 
 I have an azure aks and I installed Calico as the cni. how can I install and use the calicoctl tool to examine the networking in my cluster

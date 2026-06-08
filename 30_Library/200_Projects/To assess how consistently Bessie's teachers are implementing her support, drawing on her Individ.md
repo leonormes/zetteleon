@@ -1,7 +1,9 @@
 ---
 created: 2026-05-04T08:01:26+00:00
-modified: 2026-05-26T11:43:53+00:00
+modified: 2026-06-08T11:49:24+00:00
+project_name: "Bessie"
 title: "To assess how consistently Bessie's teachers are implementing her support, drawing on her Individ"
+type: note
 ---
 
 To assess how consistently Bessie's teachers are implementing her support, drawing on her Individualized Education Program (IEP), Individual Support Plan (ISP), and related reports, here is a set of comprehensive questions you can ask Bessie. These questions aim to understand her day-to-day experience and the practical application of her support strategies:

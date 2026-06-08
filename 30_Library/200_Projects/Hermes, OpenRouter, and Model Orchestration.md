@@ -1,12 +1,12 @@
 ---
 created: 2026-05-27T09:18:23+00:00
-modified: 2026-05-28T13:38:38+00:00
+modified: 2026-06-08T11:49:17+00:00
+project_category: hermes_optimisastion
+project_name: "Hermes Optimisastion"
+project_status: active
 tags: [1, 344]
 title: Hermes, OpenRouter, and Model Orchestration
 type: project
-project_category: hermes_optimisastion
-project_status: active
-project_name: "Hermes Optimisastion"
 ---
 
 - [ ] We need to change the Hermes cronjob to use MCP as it can't get op access in cron

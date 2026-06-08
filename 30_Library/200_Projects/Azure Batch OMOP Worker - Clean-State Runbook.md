@@ -1,11 +1,11 @@
 ---
 created: 2026-04-15T07:05:09+00:00
-modified: 2026-05-26T11:44:31+00:00
+modified: 2026-06-08T11:49:16+00:00
+project_category: omop
+project_name: "OMOP"
+project_status: active
 title: Azure Batch OMOP Worker - Clean-State Runbook
 type: project
-project_category: omop
-project_status: active
-project_name: "OMOP"
 ---
 
 ## 1. Complete Cleanup & Setup Flow

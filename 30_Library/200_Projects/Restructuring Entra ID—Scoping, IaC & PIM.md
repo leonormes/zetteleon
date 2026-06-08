@@ -1,11 +1,11 @@
 ---
 created: 2026-05-15T08:22:11+00:00
-modified: 2026-05-26T11:44:26+00:00
+modified: 2026-06-08T11:49:22+00:00
+project_category: refined_deployment
+project_name: "Refined Deployment"
+project_status: active
 title: Restructuring Entra ID—Scoping, IaC & PIM
 type: project
-project_category: refined_deployment
-project_status: active
-project_name: "Refined Deployment"
 ---
 
 ## 1. The Real Problem (Reframe)

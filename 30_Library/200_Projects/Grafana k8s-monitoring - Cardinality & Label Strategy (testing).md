@@ -2,16 +2,16 @@
 chart: k8s-monitoring 4.1.3 (alloy 1.8.1, Alloy app v1.16.1)
 cluster: testing
 created: 2026-06-04T00:00:00+00:00
-modified: 2026-06-04T17:46:47+00:00
+modified: 2026-06-08T11:49:17+00:00
+project_category: refined_deployment
+project_name: "Refined Deployment"
+project_status: active
 source: owl-audit-agent — consolidated from 4 audit drafts + Loki labels reference
 stack: fitfiletest (Grafana Cloud, prometheus-prod-05-gb-south-0)
 tags: [adaptive-metrics, alloy, audit, cardinality, grafana, kubernetes, labels, loki, monitoring, seedling, structured-metadata, testing-cluster]
 ticket: FTFL-638
 title: Grafana k8s-monitoring - Cardinality & Label Strategy (testing)
 type: infra-audit
-project_category: refined_deployment
-project_status: active
-project_name: "Refined Deployment"
 ---
 
 ## Grafana k8s-monitoring—Cardinality & Label Strategy (testing cluster)

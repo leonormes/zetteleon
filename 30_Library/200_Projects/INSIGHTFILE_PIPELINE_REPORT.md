@@ -1,15 +1,15 @@
 ---
 created: 2026-05-18T00:00:00+00:00
 entity_kind: project
-modified: 2026-05-31T17:20:05+00:00
+modified: 2026-06-08T11:49:21+00:00
+project_category: refined_deployment
+project_name: "Refined Deployment"
+project_status: active
 sources: [INSIGHTFILE_PIPELINE_REPORT, raw/2026-05-18-pieces-hermes-gitlab-research]
 tags: [cd, dossier, gitlab, pipeline, project, wiki]
 title: INSIGHTFILE_PIPELINE_REPORT
-wiki_type: dossier
 type: project
-project_category: refined_deployment
-project_status: active
-project_name: "Refined Deployment"
+wiki_type: dossier
 ---
 
 ## InsightFILE Pipeline Report

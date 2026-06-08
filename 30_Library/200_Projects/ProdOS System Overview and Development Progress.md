@@ -1,11 +1,11 @@
 ---
 created: 2026-04-08T14:02:05+00:00
-modified: 2026-05-26T11:44:31+00:00
+modified: 2026-06-08T11:49:22+00:00
+project_category: prodos
+project_name: "ProdOS"
+project_status: active
 title: ProdOS System Overview and Development Progress
 type: project
-project_category: prodos
-project_status: active
-project_name: "ProdOS"
 ---
 
 ## ProdOS System: Overview and Development Progress
