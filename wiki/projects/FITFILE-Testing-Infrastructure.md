@@ -39,6 +39,7 @@ Operational infrastructure work on the FITFILE Azure testing environment, coveri
 
 - [[Grafana Alloy Monitoring — FTFL-638]] (same testing cluster; FTFL program)
 - [[Azure-AKS]] (parent Azure AKS workstream; CUH cluster vs FITFILE testing cluster)
+- [[FITFILE Frontend — Cohort Discovery]] (frontend cohort discovery workstream)
 - [[Terraform IaC Modules]] (Terraform module development for AKS)
 
 ## Contradictions

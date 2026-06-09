@@ -34,6 +34,7 @@ Project to investigate and incrementally optimise a live GitOps deployment pipel
 - [[Azure Entra ID IAM → IaC + PIM Migration]] — sister project from same planning session
 - [[Grafana Alloy Monitoring — FTFL-638]] — observability stack that may inform pipeline monitoring
 - [[Helm Chart Structured Metadata — Grafana Cloud Log Enrichment]] — metadata experiment deployed through this pipeline; new structuredMetadata values pattern for ffnode umbrella chart
+- [[FITFILE Deployment — ArgoCD + Helm]] — The full deployment architecture this pipeline is part of
 
 ## Contradictions
 

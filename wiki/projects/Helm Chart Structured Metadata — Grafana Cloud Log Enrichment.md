@@ -3,7 +3,7 @@ title: Helm Chart Structured Metadata — Grafana Cloud Log Enrichment
 wiki_type: dossier
 entity_kind: project
 created: 2026-06-08T11:00:00+00:00
-modified: 2026-06-08T11:00:00+00:00
+modified: 2026-06-08T14:00:00+00:00
 tags: [wiki, dossier]
 sources:
   - raw/2026-06-08-pieces-helm-structured-metadata
@@ -28,6 +28,15 @@ Experiment initiative to enrich FITFILE Helm chart deployments with structured m
 
 - **2026-06-08T10:01** — User ran Loki query to inspect stream labels on spicedb: `gcx logs query --context fitfiletest '{cluster="testing", namespace="spicedb"}' --since 15m --limit 10 -o json | jq '[.[].stream | keys] | flatten | unique'`. Hit jq error (element 12 is a string, not a stream object) — [[raw/2026-06-08-pieces-helm-structured-metadata]] (Pieces: f0c51431-bd39-4155-b09d-d2e03d61fb0a)
 
+- **2026-06-08T11:31** — Incident investigation: Alloy pods completely absent from `monitoring` namespace on testing cluster. Log ingestion to Loki had stopped since ~2026-06-05T15:32:34 UTC. Root cause found: ArgoCD had pruned the grafana-alloy child app due to a chart rendering change from the `metricsSource: prometheus` fix.
+
+- **2026-06-08T12:48** — Structured metadata pilot implemented: added `extraStageBlocks` and `extraRelabelingRules` blocks to `_grafana.tpl`, gated behind `grafanaAlloy.structuredMetadataPilot.enabled`.
+
+- **2026-06-08T13:03-13:44** — Pilot validation discovered that the Grafana `k8s-monitoring` chart **v4.1.4 does not support** `extraStageBlocks` or `extraRelabelingRules` parameters. The correct parameter is `extraLogProcessingStages`. The `_grafana.tpl` was patched: replaced the two unsupported keys with a single `extraLogProcessingStages` block containing `stage.label_drop` (to remove `container`, `service_name`, `service_namespace`, `stream`, `flags` from indexed labels) and `stage.structured_metadata` (to promote these same fields to per-line structured metadata).
+  >  `extraRelabelingRules` is not a supported key in the `grafana-alloy-k8s-monitoring` chart v4.1.4. It silently ignores unknown keys. Only `extraLogProcessingStages` is supported for injecting custom River processing blocks. — session: 20260608_130344_195107
+
+- **2026-06-08T14:00** — At time of fix application, Alloy DaemonSet pods were 44–45 minutes old running the pre-fix config. The patch requires: Helm template re-render → ArgoCD sync (parent app, then child grafana-alloy app) → DaemonSet auto-rollout.
+
 ## Timeline
 
 | Date | Event |
@@ -38,6 +47,11 @@ Experiment initiative to enrich FITFILE Helm chart deployments with structured m
 | 2026-06-08T09:33 | Phase 1 pilot plan defined (spicedb → fitfiletest) |
 | 2026-06-08T09:43 | Phase 2 reusable helper design |
 | 2026-06-08T10:01 | Loki stream label inspection (jq error encountered) |
+| 2026-06-08T11:31 | Alloy pods found missing on testing cluster — incident investigation begins |
+| 2026-06-08T12:48 | Log enrichment pilot implemented: `extraStageBlocks`/`extraRelabelingRules` injected via `_grafana.tpl` toggle |
+| 2026-06-08T13:03 | Pilot validation discovers chart v4.1.4 **does not support** `extraStageBlocks`/`extraRelabelingRules` — only `extraLogProcessingStages` |
+| 2026-06-08T13:44 | Fix applied to `_grafana.tpl`: replaced unsupported params with `extraLogProcessingStages` containing `stage.label_drop` + `stage.structured_metadata` |
+| 2026-06-08T14:00 | Alloy DaemonSet running pre-fix config (pods 45m old at time of validation); patch needs Helm re-render + ArgoCD sync to take effect |
 
 ## Connections
 
@@ -54,4 +68,4 @@ None identified yet.
 - What is the exact response format from `gcx logs query -o json` — is it a JSON array or NDJSON? The jq error on element 12 suggests mixed types in the top-level array.
 - Is `spicedb` on `fitfiletest` the right canary target, or should the pilot start on a different low-traffic namespace?
 - Which specific fields should be promoted from labels to structured metadata first? `app_version` is proposed but the full list needs specification.
-- Does the Alloy pipeline on `fitfiletest` already support structured metadata, or does the River config need updating first?
+- ~~Does the Alloy pipeline on `fitfiletest` already support structured metadata, or does the River config need updating first?~~ **RESOLVED 2026-06-08T13:03**: The base config already has a `stage.structured_metadata` block (for `service_instance_id`). The chart v4.1.4 supports injecting additional blocks via `extraLogProcessingStages` — the blocker was using the wrong parameter name (`extraStageBlocks` instead).

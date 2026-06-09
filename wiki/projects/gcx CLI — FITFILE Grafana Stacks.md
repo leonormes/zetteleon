@@ -56,6 +56,7 @@ Setting up and authenticating the `gcx` CLI tool (Grafana CLI) to manage resourc
 - [[Grafana-Monitoring]]
 - [[Grafana Alloy Monitoring — FTFL-638]]
 - [[FTFL-673 Grafana Deploy All Envs]]
+- [[FITFILE Frontend — Cohort Discovery]]
 
 ## Contradictions
 

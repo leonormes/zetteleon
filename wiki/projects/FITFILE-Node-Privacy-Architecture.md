@@ -57,6 +57,7 @@ No answer on record. Not about Project Extract flows (where ephemeral in-flight 
 
 - [[FITFILE-Testing-Infrastructure]] — FITFILE Azure testing environment infrastructure work
 - [[gcx CLI — FITFILE Grafana Stacks]] — FITFILE monitoring infrastructure
+- [[FITFILE Frontend — Cohort Discovery]] — frontend cohort discovery workstream
 
 ## Contradictions
 

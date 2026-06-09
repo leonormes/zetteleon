@@ -43,6 +43,7 @@ Workstream to analyse and simplify the `ffnode` umbrella Helm chart — the char
 - [[wiki/projects/FTFL-673 Grafana Deploy All Envs]] — The deployment ticket driving the chart changes
 - [[wiki/projects/Hermes Config Production-Ready Audit]] — Config review skills may apply to the chart review prompt design
 - [[wiki/projects/Helm Chart Structured Metadata — Grafana Cloud Log Enrichment]] — Structured metadata experiment that will inject metadata through the same ffnode umbrella chart
+- [[wiki/projects/FITFILE Deployment — ArgoCD + Helm]] — Parent deployment architecture: FFNode umbrella chart + FFNodes overlays via ArgoCD; this page is a component of that system
 
 ## Contradictions
 

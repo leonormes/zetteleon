@@ -1,6 +1,6 @@
 ---
 created: 2026-04-28T00:00:00+00:00
-modified: 2026-05-29T15:40:51+00:00
+modified: 2026-06-08T19:22:00+00:00
 tags: [log, system]
 title: log
 ---
@@ -704,3 +704,31 @@ Append-only—never edit past entries.
 - **Wiki pages updated:** [[wiki/projects/ffnode Helm Chart Review]], [[wiki/projects/Grafana Alloy Monitoring — FTFL-638]]
 - **Pieces IDs ingested:** 67 new substantive (176 total in window)
 - **Flags:** none
+
+---
+
+## 2026-06-08 19:22 — Project Check-In
+
+- **Action:** Ingest (Pieces LTM, last 4h)
+- **Raw sources created:** [[raw/2026-06-08-pieces-fitfile-frontend-cohort-discovery]]
+- **Wiki pages created:** [[wiki/projects/FITFILE Frontend — Cohort Discovery]]
+- **Wiki pages updated:** [[wiki/projects/FITFILE-Testing-Infrastructure]], [[wiki/projects/gcx CLI — FITFILE Grafana Stacks]], [[wiki/projects/FITFILE-Node-Privacy-Architecture]] (bidirectional links added)
+- **Pieces IDs ingested:** 3 substantive (27 in 4h window)
+- **Flags:** None
+
+## 2026-06-09 03:35 — Project Check-In (cron/4h)
+
+- **Action:** Ingest (Pieces LTM)
+- **Raw sources created:** [[raw/2026-06-08-pieces-fitfile-deployment-wiki]]
+- **Wiki pages touched:** [[wiki/projects/FITFILE Deployment — ArgoCD + Helm]] (new), [[wiki/projects/ffnode Helm Chart Review]] (back-link), [[wiki/projects/GitOps Deployment Pipeline Optimisation]] (back-link)
+- **Pieces IDs ingested:** 3 deployment wiki assets (of 84 new substantive non-dup assets found; 81 skipped as agent working notes from already-captured sessions)
+- **Flags:** Pieces active (newest asset ~8.7h old). 4h window returned 0 assets — extended to 24h. 3 deployment wiki assets captured as new project. 2 existing pages updated with bidirectional links.
+
+## 2026-06-09 03:35 — Project Check-In (cron/4h)
+
+- **Action:** Ingest (Pieces LTM)
+- **Raw sources created:** [[raw/2026-06-08-pieces-fitfile-deployment-wiki]]
+- **Wiki pages touched:** [[wiki/projects/FITFILE Deployment — ArgoCD + Helm]] (new), [[wiki/projects/ffnode Helm Chart Review]] (back-link), [[wiki/projects/GitOps Deployment Pipeline Optimisation]] (back-link)
+- **Pieces IDs ingested:** 3 deployment wiki assets (of 84 new substantive non-dup assets found; 81 skipped as agent working notes from already-captured sessions)
+- **Flags:** Pieces active (newest asset ~8.7h old). 4h window returned 0 assets — extended to 24h. 3 deployment wiki assets captured as new project. 2 existing pages updated with bidirectional links.
+
