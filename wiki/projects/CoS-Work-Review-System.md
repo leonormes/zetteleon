@@ -21,9 +21,48 @@ The CoS (Chief of Staff) Work-Review System is an automated Hermes cron job that
 - **CoS skill created**: `~/.hermes/skills/cos-work-review.md` — 80 lines, all 7 steps, YAML frontmatter — [[raw/2026-05-26-pieces-cos-work-review-jira]] (Pieces: 435c7268-168d-4c24-a0b2-af2cde06beef)
 - **Cron jobs registered**: Morning Boot (08:15), plus additional schedule entries — [[raw/2026-05-26-pieces-cos-work-review-jira]] (Pieces: 435c7268-168d-4c24-a0b2-af2cde06beef)
 - **First successful run**: Retrieved 5 open Jira tickets, identified 1 stale (FTFL-638 Grafana Monitoring going cold), updated Obsidian — [[raw/2026-05-26-pieces-cos-work-review-jira]] (Pieces: 34b0e586-ebd1-4a4a-bd93-5a5acfcea103)
-- **zsh `%` escaping issue**: `zsh: % with no previous word matched` caused by `%3D` inside double quotes — fix is to use single quotes or escape with `\%` — [[raw/2026-05-26-pieces-cos-work-review-jira]] (Pieces: b999c433-488f-4e46-9c03-158ea1322144)
+- **zsh `%` escaping issue**: `zsh: % with no previous word matched` caused by `%3D` inside double quotes — fix is to use single quotes or escape with `\\%` — [[raw/2026-05-26-pieces-cos-work-review-jira]] (Pieces: b999c433-488f-4e46-9c03-158ea1322144)
 
-## Timeline
+## Reliability History
+
+### 2026-06-04 — Cron enters stale failure streak
+
+The CoS Work Review cron began producing stale data for **7–8 consecutive runs** (last fresh fetch: 2026-06-04). Two independent failure modes affected the Jira data pipeline:
+
+1. **`gk whoami` returning "not authenticated"** — The `XDG_DATA_HOME` environment variable was missing from the Hermes gateway launchd plist (`~/Library/LaunchAgents/ai.hermes.gateway.plist`). The Jira sub-provider in `gk` requires this path to locate its credentials, which launchd services do not inherit from the user shell by default.
+
+2. **`op run` timeout** — The 1Password CLI daemon socket becomes stale after the user desktop session's authentication expires. The cron job runs as a launchd service without a TTY, so `op run` cannot re-prompt the user for 1Password desktop app approval.
+
+Fix applied **2026-06-09**: Injected `XDG_DATA_HOME=/Users/leon.ormes/.local/share` into the plist. Committed to chezmoi at `private_Library/LaunchAgents/ai.hermes.gateway.plist` (commit message: "fix: inject XDG_DATA_HOME into hermes gateway plist for gk cron auth"). Gateway PID `75103` verified authenticated immediately after restart.
+
+### Durable fix direction (investigated 2026-06-10)
+
+To eliminate the 1Password/GitKraken session dependency entirely, the planned fix is to provision a standalone **Jira Personal Access Token** and register it with `gk`:
+
+```
+gk provider add jira -t <new-token>
+```
+
+This removes the need for `op run` (1Password) or `gk OAuth session` (GitKraken) in cron context. The existing `lazyjira` Atlassian PAT (created 1 Apr 2026, expires 1 Apr 2027) is stored in 1Password at `op://ff/JIRA_API_TOKEN/credential` — a new distinct token would be created for the cron job to avoid confusion.
+
+Key files: `~/.hermes/skills/custom/cos-work-review/SKILL.md` contains the cron skill logic; `~/.local/share/GitKrakenCLI/cli/gk_config.yaml` stores provider configs.
+
+### Token audit: LazyJira Atlassian PAT
+
+Verified 2026-06-10 from Atlassian API tokens page:
+- Token name: **`lazyjira`** (this is the Atlassian PAT name, not the tool name)
+- Created: 2026-04-01, Expires: 2027-04-01
+- 1Password reference: `op://ff/JIRA_API_TOKEN/credential` in `chezmoidata.toml`
+- The Hermes cron job will use a **separate** PAT (`hermes-cos-cron`) to avoid confusion with the existing token
+
+## Timeline (continued)
+
+- **2026-06-04** — Last fresh Jira data fetch before cron enters stale failure streak
+- **2026-06-09 ~09:00 BST** — XDG_DATA_HOME fix applied, gateway restart verified
+- **2026-06-10 07:51** — User reports cron still stale (2nd consecutive stale run since 09 June fix); new inquiry about PAT-based durable auth
+- **2026-06-10 09:23** — FTFL-658 Jira comment drafted explaining change freeze & pipeline block for MKUH
+
+##
 
 - **2026-05-26 ~09:59–10:32** — CoS work-review system built, diagnosed, and validated end-to-end
 - **2026-05-26 10:28** — First successful CoS run: 5 open tickets retrieved, Obsidian updated

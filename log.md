@@ -732,3 +732,15 @@ Append-only—never edit past entries.
 - **Pieces IDs ingested:** 3 deployment wiki assets (of 84 new substantive non-dup assets found; 81 skipped as agent working notes from already-captured sessions)
 - **Flags:** Pieces active (newest asset ~8.7h old). 4h window returned 0 assets — extended to 24h. 3 deployment wiki assets captured as new project. 2 existing pages updated with bidirectional links.
 
+
+## 2026-06-10 12:21 --- Project Check-In (cron/4h)
+
+- **Action:** Ingest (Pieces LTM)
+- **Pieces LTM:** 11,064 total assets. 43 assets in 4h window, all new (not yet ingested).
+- **Raw sources created:** [[raw/2026-06-10-pieces-cos-cron-fix-ftfl658-comment]]
+- **New project pages created:** 0 --- both workstreams map to existing projects
+- **Wiki pages updated:** [[wiki/projects/CoS-Work-Review-System]] --- added Reliability History section
+  (7-8 stale run streak, root causes, XDG_DATA_HOME fix, durable PAT direction)
+- **Pieces IDs ingested:** 43 (all 4h window assets, written to single consolidated raw note)
+- **Workstreams:** (1) CoS Work Review cron auth fix; (2) FTFL-658 Jira comment drafted
+- **Flags:** None

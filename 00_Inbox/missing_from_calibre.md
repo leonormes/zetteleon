@@ -1,6 +1,6 @@
 ---
 created: 2026-06-09T15:14:50+00:00
-modified: 2026-06-09T15:17:51+00:00
+modified: 2026-06-10T10:58:20+00:00
 ---
 # Books to Download — BookFusion → Calibre
 
@@ -13,90 +13,83 @@ Generated: Tuesday 9 June 2026
 
 ## Missing Books
 
-| #   | Title                                                                                                  | Author(s)                                |
-| --- | ------------------------------------------------------------------------------------------------------ | ---------------------------------------- |
-| 1   | The Long Way to a Small, Angry Planet: Wayfarers 1                                                     | Becky Chambers                           |
-| 2   | Solaris                                                                                                | Stanisław Lem                            |
-| 3   | Building Microservices                                                                                 | Sam Newman                               |
-| 4   | Cognitive Illusions: Intriguing Phenomena in Judgement, Thinking and Memory                            | Rüdiger F. Pohl                          |
-| 5   | Crime and Punishment                                                                                   | Fyodor Dostoevsky                        |
-| 6   | Diaspora                                                                                               | Greg Egan                                |
-| 7   | Dependency Injection Principles, Practices, and Patterns                                               | Mark Seemann, Steven van Deursen         |
-| 8   | Domain Modeling Made Functional                                                                        | Scott Wlaschin                           |
-| 9   | Dragons of Autumn Twilight                                                                             | Margaret Weis                            |
-| 10  | Driven to Distraction at Work: How to Focus and Be More Productive                                     | Ned Hallowell                            |
-| 11  | Dune Messiah: The Second Dune Novel                                                                    | Frank Herbert                            |
-| 12  | Dune: The Breath-Taking and Academy Award-Nominated Science Fiction Masterpiece                        | Frank Herbert                            |
-| 13  | Eat That Frog!: Get More of the Important Things Done - Today!                                         | Brian Tracy                              |
-| 14  | Embassytown                                                                                            | China Miéville                           |
-| 15  | From Bacteria to Bach and Back: The Evolution of Minds                                                 | Daniel C. Dennett                        |
-| 16  | From Mathematics to Generic Programming                                                                | Alexander A. Stepanov, Daniel E. Rose    |
-| 17  | Professor Frisby's Mostly Adepuate Guilde to Functional Programming                                    | Unknown                                  |
-| 18  | Functional Programming in JavaScript                                                                   | Dimitris Papadimitriou                   |
-| 19  | Functional-Light JavaScript                                                                            | Kyle Simpson                             |
-| 20  | Fyodor Dostoyevsky: The Complete Novels                                                                | Fyodor Dostoevsky                        |
-| 21  | GitOps: Cloud-Native Continuous Deployment                                                             | Florian Beetz, Anja Kammer, Simon Harrer |
-| 22  | Ikigai: The Japanese Secret to a Long and Happy Life                                                   | Héctor García, Francesc Miralles         |
-| 23  | JavaScript Allongé, the "Six" Edition                                                                  | Reginald Braithwaite                     |
-| 24  | Mindfulness: A practical guide to peace in a frantic world                                             | Dr Danny Penman, Mark Williams           |
-| 25  | Neuromancer                                                                                            | William Gibson                           |
-| 26  | Oxygen: The Molecule That Made the World                                                               | Nick Lane                                |
-| 27  | Pragmatic Guide to Git                                                                                 | Travis Swicegood                         |
-| 28  | Psoas Strength and Flexibility: Core Workouts to Increase Mobility, Reduce Injuries and End Back Pain  | Pamela Ellgen                            |
-| 29  | Programming in Haskell                                                                                 | Graham Hutton                            |
-| 30  | Rendezvous With Rama                                                                                   | Arthur C. Clarke                         |
-| 31  | Ringworld's Children                                                                                   | Larry Niven                              |
-| 32  | Sockets and Pipes                                                                                      | Chris Martin                             |
-| 33  | Refactoring: Improving the Design of Existing Code, Second Edition (Leon Thomas Ormes' Library)        | Martin Fowler                            |
-| 34  | Test-Driven Development: By Example                                                                    | Kent Beck                                |
-| 35  | The City and the Stars                                                                                 | Arthur C. Clarke                         |
-| 36  | The Code Book: The Secret History of Codes and Code-Breaking                                           | Simon Singh                              |
-| 37  | The Elephant in the Brain: Hidden Motives in Everyday Life                                             | Kevin Simler, Robin Hanson               |
-| 38  | The Now Habit at Work: Perform Optimally, Maintain Focus, and Ignite Motivation in Yourself and Others | Neil Fiore                               |
-| 39  | The Mythical Man-Month, Anniversary Edition: Essays on Software Engineering                            | Frederick P. Brooks Jr.                  |
-| 40  | The Obstacle Is the Way: The Ancient Art of Turning Adversity to Advantage                             | Ryan Holiday                             |
-| 41  | The ONE Thing: The Surprisingly Simple Truth Behind Extraordinary Results                              | Gary Keller, Jay Papasan                 |
-| 42  | The Patterning Instinct: A Cultural History of Humanity's Search for Meaning                           | Jeremy Lent                              |
-| 43  | The Righteous Mind: Why Good People Are Divided by Politics and Religion                               | Jonathan Haidt                           |
-| 44  | The Sirens of Titan                                                                                    | Kurt Vonnegut                            |
-| 45  | The War of Art                                                                                         | Steven Pressfield                        |
-| 46  | The Anatomy of Domain Driven Design                                                                    | Scott Millett                            |
-| 47  | You Don't Know JS: Async & Performance                                                                 | Kyle Simpson                             |
-| 48  | You Don't Know JS Yet: Get Started 2nd Edition                                                         | Kyle Simpson                             |
-| 49  | You Don't Know JS: Types & Grammar                                                                     | Kyle Simpson                             |
-| 50  | You Don't Know JS: This & Object Prototypes                                                            | Kyle Simpson                             |
-| 51  | You Don't Know JS Yet: Scope & Closures 2nd Edition                                                    | Kyle Simpson                             |
-| 52  | Adulthood Rites                                                                                        | Octavia E. Butler                        |
-| 53  | You Don't Know JS: Up & Going                                                                          | Kyle Simpson                             |
-| 54  | Taking Charge of Adult ADHD                                                                            | Russell A. Barkley                       |
-| 55  | The Gay Science: With a Prelude in Rhymes and an Appendix of Songs                                     | Friedrich Nietzsche                      |
-| 56  | Lilith's Brood                                                                                         | Octavia E. Butler                        |
-| 57  | Law: A Very Short Introduction                                                                         | Raymond Wacks                            |
-| 58  | Philosophy of Law: A Very Short Introduction                                                           | Raymond Wacks                            |
-| 59  | Your Child is Not Broken: Parent Your Neurodivergent Child Without Losing Your Marbles                 | Heidi Mavir                              |
-| 60  | No BS TS                                                                                               | Jack Herrington                          |
-| 61  | The Bone Clocks                                                                                        | David Mitchell                           |
-| 62  | What Everyone Needs to Know About Tax                                                                  | James Hannam                             |
-| 63  | Solving the Procrastination Puzzle                                                                     | Timothy A. Pychyl                        |
-| 64  | Probability: A Very Short Introduction                                                                 | John Haigh                               |
-| 65  | The Joy of Tax                                                                                         | Richard Murphy                           |
-| 66  | The Story of UK Pensions: An Engaging Guide to the Pensions System                                     | Matthew Rhodes                           |
-| 67  | The Joy of Sets: Fundamentals of Contemporary Set Theory                                               | Keith Devlin                             |
-| 68  | Seed to Harvest: The Complete Patternist Series                                                        | Octavia E. Butler                        |
-| 69  | Parable of the Talents                                                                                 | Octavia E. Butler                        |
-| 70  | Dawn: Lilith's Brood 1                                                                                 | Octavia E. Butler                        |
-| 71  | Imago: Lilith's Brood 3                                                                                | Octavia E. Butler                        |
-| 72  | Parable of the Sower                                                                                   | Octavia E. Butler                        |
-| 73  | Goals                                                                                                  | Zig Ziglar                               |
-| 74  | Linux Basics for Hackers: Getting Started With Networking, Scripting, and Security in Kali             | Occupytheweb                             |
-| 75  | Hacking APIs: Breaking Web Application Programming Interfaces                                          | Corey J. Ball                            |
-| 76  | The Ministry of Time: A Novel                                                                          | Kaliane Bradley                          |
-| 77  | The History of Mathematics                                                                             | David Burton                             |
-| 78  | Slaughterhouse Five                                                                                    | Kurt Vonnegut                            |
-| 79  | Snow Crash                                                                                             | Neal Stephenson                          |
-| 80  | Catch-22                                                                                               | Joseph Heller                            |
-| 81  | Team Topologies: Organizing Business and Technology Teams for Fast Flow                                | Matthew Skelton, Manuel Pais             |
-| 82  | Categories for the Working Mathematician                                                               | Saunders MacLane                         |
+| #   | Title                                                                                                 | Author(s)                                |
+| --- | ----------------------------------------------------------------------------------------------------- | ---------------------------------------- |
+| 1   | The Long Way to a Small, Angry Planet: Wayfarers 1                                                    | Becky Chambers                           |
+| 2   | Solaris                                                                                               | Stanisław Lem                            |
+| 3   | Building Microservices                                                                                | Sam Newman                               |
+| 4   | Cognitive Illusions: Intriguing Phenomena in Judgement, Thinking and Memory                           | Rüdiger F. Pohl                          |
+| 5   | Crime and Punishment                                                                                  | Fyodor Dostoevsky                        |
+| 6   | Diaspora                                                                                              | Greg Egan                                |
+| 7   | Dependency Injection Principles, Practices, and Patterns                                              | Mark Seemann, Steven van Deursen         |
+| 8   | Domain Modeling Made Functional                                                                       | Scott Wlaschin                           |
+| 9   | Dragons of Autumn Twilight                                                                            | Margaret Weis                            |
+| 10  | Driven to Distraction at Work: How to Focus and Be More Productive                                    | Ned Hallowell                            |
+| 11  | Dune Messiah: The Second Dune Novel                                                                   | Frank Herbert                            |
+| 12  | Dune: The Breath-Taking and Academy Award-Nominated Science Fiction Masterpiece                       | Frank Herbert                            |
+| 13  | Eat That Frog!: Get More of the Important Things Done - Today!                                        | Brian Tracy                              |
+| 14  | Embassytown                                                                                           | China Miéville                           |
+| 15  | From Bacteria to Bach and Back: The Evolution of Minds                                                | Daniel C. Dennett                        |
+| 16  | From Mathematics to Generic Programming                                                               | Alexander A. Stepanov, Daniel E. Rose    |
+| 17  | Professor Frisby's Mostly Adepuate Guilde to Functional Programming                                   | Unknown                                  |
+| 18  | Functional Programming in JavaScript                                                                  | Dimitris Papadimitriou                   |
+| 19  | Functional-Light JavaScript                                                                           | Kyle Simpson                             |
+| 20  | Fyodor Dostoyevsky: The Complete Novels                                                               | Fyodor Dostoevsky                        |
+| 21  | GitOps: Cloud-Native Continuous Deployment                                                            | Florian Beetz, Anja Kammer, Simon Harrer |
+| 22  | Ikigai: The Japanese Secret to a Long and Happy Life                                                  | Héctor García, Francesc Miralles         |
+| 23  | JavaScript Allongé, the "Six" Edition                                                                 | Reginald Braithwaite                     |
+| 24  | Mindfulness: A practical guide to peace in a frantic world                                            | Dr Danny Penman, Mark Williams           |
+| 25  | Neuromancer                                                                                           | William Gibson                           |
+| 26  | Oxygen: The Molecule That Made the World                                                              | Nick Lane                                |
+| 27  | Pragmatic Guide to Git                                                                                | Travis Swicegood                         |
+| 28  | Psoas Strength and Flexibility: Core Workouts to Increase Mobility, Reduce Injuries and End Back Pain | Pamela Ellgen                            |
+| 29  | Programming in Haskell                                                                                | Graham Hutton                            |
+| 30  | Rendezvous With Rama                                                                                  | Arthur C. Clarke                         |
+| 31  | Ringworld's Children                                                                                  | Larry Niven                              |
+| 32  | Sockets and Pipes                                                                                     | Chris Martin                             |
+| 33  | Refactoring: Improving the Design of Existing Code, Second Edition (Leon Thomas Ormes' Library)       | Martin Fowler                            |
+| 34  | Test-Driven Development: By Example                                                                   | Kent Beck                                |
+| 35  | The City and the Stars                                                                                | Arthur C. Clarke                         |
+| 36  | The Code Book: The Secret History of Codes and Code-Breaking                                          | Simon Singh                              |
+| 39  | The Mythical Man-Month, Anniversary Edition: Essays on Software Engineering                           | Frederick P. Brooks Jr.                  |
+| 41  | The ONE Thing: The Surprisingly Simple Truth Behind Extraordinary Results                             | Gary Keller, Jay Papasan                 |
+| 42  | The Patterning Instinct: A Cultural History of Humanity's Search for Meaning                          | Jeremy Lent                              |
+| 43  | The Righteous Mind: Why Good People Are Divided by Politics and Religion                              | Jonathan Haidt                           |
+| 44  | The Sirens of Titan                                                                                   | Kurt Vonnegut                            |
+| 45  | The War of Art                                                                                        | Steven Pressfield                        |
+| 46  | The Anatomy of Domain Driven Design                                                                   | Scott Millett                            |
+| 47  | You Don't Know JS: Async & Performance                                                                | Kyle Simpson                             |
+| 48  | You Don't Know JS Yet: Get Started 2nd Edition                                                        | Kyle Simpson                             |
+| 49  | You Don't Know JS: Types & Grammar                                                                    | Kyle Simpson                             |
+| 50  | You Don't Know JS: This & Object Prototypes                                                           | Kyle Simpson                             |
+| 51  | You Don't Know JS Yet: Scope & Closures 2nd Edition                                                   | Kyle Simpson                             |
+| 52  | Adulthood Rites                                                                                       | Octavia E. Butler                        |
+| 53  | You Don't Know JS: Up & Going                                                                         | Kyle Simpson                             |
+| 55  | The Gay Science: With a Prelude in Rhymes and an Appendix of Songs                                    | Friedrich Nietzsche                      |
+| 56  | Lilith's Brood                                                                                        | Octavia E. Butler                        |
+| 57  | Law: A Very Short Introduction                                                                        | Raymond Wacks                            |
+| 58  | Philosophy of Law: A Very Short Introduction                                                          | Raymond Wacks                            |
+| 59  | Your Child is Not Broken: Parent Your Neurodivergent Child Without Losing Your Marbles                | Heidi Mavir                              |
+| 60  | No BS TS                                                                                              | Jack Herrington                          |
+| 61  | The Bone Clocks                                                                                       | David Mitchell                           |
+| 62  | What Everyone Needs to Know About Tax                                                                 | James Hannam                             |
+| 65  | The Joy of Tax                                                                                        | Richard Murphy                           |
+| 66  | The Story of UK Pensions: An Engaging Guide to the Pensions System                                    | Matthew Rhodes                           |
+| 67  | The Joy of Sets: Fundamentals of Contemporary Set Theory                                              | Keith Devlin                             |
+| 68  | Seed to Harvest: The Complete Patternist Series                                                       | Octavia E. Butler                        |
+| 69  | Parable of the Talents                                                                                | Octavia E. Butler                        |
+| 70  | Dawn: Lilith's Brood 1                                                                                | Octavia E. Butler                        |
+| 71  | Imago: Lilith's Brood 3                                                                               | Octavia E. Butler                        |
+| 72  | Parable of the Sower                                                                                  | Octavia E. Butler                        |
+| 73  | Goals                                                                                                 | Zig Ziglar                               |
+| 74  | Linux Basics for Hackers: Getting Started With Networking, Scripting, and Security in Kali            | Occupytheweb                             |
+| 75  | Hacking APIs: Breaking Web Application Programming Interfaces                                         | Corey J. Ball                            |
+| 76  | The Ministry of Time: A Novel                                                                         | Kaliane Bradley                          |
+| 77  | The History of Mathematics                                                                            | David Burton                             |
+| 78  | Slaughterhouse Five                                                                                   | Kurt Vonnegut                            |
+| 79  | Snow Crash                                                                                            | Neal Stephenson                          |
+| 80  | Catch-22                                                                                              | Joseph Heller                            |
+| 81  | Team Topologies: Organizing Business and Technology Teams for Fast Flow                               | Matthew Skelton, Manuel Pais             |
 
 ---
 
