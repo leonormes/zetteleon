@@ -1,66 +1,60 @@
 ---
 created: 2026-05-26T09:39:03+00:00
-last_updated: 2026-06-09T10:02:00+01:00
+last_updated: 2026-06-10T13:30:00+01:00
 title: SoT - Work Open Loops
 top3:
-  - "FTFL-476: Escalate or deprioritise OMOP Stress Testing infra (blocked 22 days)"
-  - "FTFL-673: Drive Upgrade Grafana Alloy to completion — structured metadata pilot validated, ready for MR"
-  - "FTFL-525: Start work on Ensure all backups are ZRS (High priority)"
+  - "FTFL-525: Diagnose why ZRS backup conversion is blocked — highest priority item stalled"
+  - "FTFL-658: Complete MKUH Terraform spike investigation — re-opened as Blocked"
+  - "FTFL-609: Continue EBS CSI Driver policy migration (actively In Progress)"
 ---
-
-> ⚠️ **Jira data stale (7th consecutive stale run)** — All data pipelines remain blocked:
-> - `gk whoami` → `not authenticated` — session-level expiry (worse than per-provider token expiry)
-> - `gk issue list --all --json` — returns empty (session authentication required)
-> - `gk pr list --all --json` — returns empty (same auth failure)
-> - Pieces LTM — MCP server running but no query tools registered
->
-> Data below is **carried forward** from the last confirmed fresh fetch (2026-06-04 16:01 BST).
-> To restore pipeline: run `gk auth login` interactively — this failure has persisted through 7 cron runs across 2 days.
 
 ## Work Open Loops — Source of Truth
 
+> ✅ **Fresh data** — Jira API queried directly with static PAT (JIRA_API_TOKEN via Python POST). All data current as of 2026-06-10T13:30.
+
 | ID | Source | Summary | Priority | Status | Last Activity | Next Action |
 |----|--------|---------|----------|--------|---------------|-------------|
-| FTFL-476 | Jira | OMOP Stress Testing infra + monitoring | 🔴 critical | 🚫Blocked | 2026-05-18 | Escalate or deprioritise (blocked 22 days) |
-| FTFL-673 | Jira | Upgrade Grafana Alloy | 🟠 high | In Progress | 2026-06-08 | Structured metadata pilot validated — ready to MR |
-| FTFL-525 | Jira | Ensure all backups are ZRS | 🟠 high | Selected for Development | 2026-06-03 | Start work — high-priority issue |
-| FTFL-658 | Jira | [SPIKE] Investigate MKUH Failing Terraform Runs | 🟡 medium | Selected for Development | 2026-05-27 | Timebox spike, drive to completion |
-| FTFL-512 | Jira | [API-6] Nginx 302 exposes information | 🟡 medium | Selected for Development | 2026-05-29 | Drive to review — security issue |
-| FTFL-609 | Jira | [EE] New Managed Policies Available for the EBS CSI Driver | 🟡 medium | Selected for Development | 2026-05-27 | Review policies, plan rollout |
-| FTFL-602 | Jira | The Hyve alerting | 🟡 medium | Selected for Development | 2026-05-26 | Schedule into current sprint |
-| FTFL-478 | Jira | Grafana Workflows Monitoring Dashboard | 🟢 low | Backlog | 2026-04-29 | Review when higher-priority items cleared |
+| FTFL-525 | Jira | Ensure all backups are ZRS | 🔴 high | 🚫Blocked | 2026-06-10 | Diagnose why blocked — was In Progress, now stalled. Unblock to resume highest priority work |
+| FTFL-658 | Jira | [SPIKE] Investigate MKUH Failing Terraform Runs | 🟡 medium | 🚫Blocked | 2026-06-10 | Complete spike investigation — was re-opened as Blocked, determine scope |
+| FTFL-609 | Jira | [EE] New Managed Policies Available for the EBS CSI Driver | 🟡 medium | In Progress | 2026-06-10 | Continue policy migration work — actively being progressed |
+| FTFL-686 | Jira | Optimise Loki log metadata: move high-cardinality labels to structured metadata | 🟡 medium | Backlog | 2026-06-09 | Scope the enrichment work — ready to pick up when bandwidth allows |
+| FTFL-657 | Jira | Investigate possibility of using Bastion Direct to Private AKS cluster | 🟢 low | Selected for Development | 2026-06-10 | New spike (1 day timebox) — scope and schedule |
+| FTFL-512 | Jira | [API-6] Nginx 302 exposes information | 🟢 low | Selected for Development | 2026-06-04 | Low-priority security item — pending review |
+| FTFL-476 | Jira | OMOP Stress Testing infra + monitoring | 🟢 low | 🚫Blocked | 2026-05-18 | Deprioritised (was critical, now Low). Escalation no longer required |
+| FTFL-657 (GH) | GitLab MR | MinHash matching strategy in ude-cli (MR !58) | 🔵 watch | opened | 2026-01-05 | 5-month-old MR — decide: merge or close as stale |
 
-### Ambient Signals (08:17 scan)
+### Status Changes (since last run 2026-06-10T09:38)
 
-| Signal | Source | Notes |
-|--------|--------|-------|
-| Grafana Cloud Logs Enrichment Pilot | Session (2026-06-08 12:48 TUI) | FTFL-673 follow-on: structured metadata pilot implemented and Helm-validated for ff-test-a. 3 files modified, all validation gates pass. Ready for MR. |
-| CoS runs (6 stale yesterday, 1 today) | Cron sessions (09 Jun) | 08:17, 10:02 — both stale data, all pipelines blocked. Today is the 7th stale run in a row. |
+| ID | What Changed |
+|----|-------------|
+| FTFL-602 | The Hyve alerting — **Closed** ✅. Moved to Done since last run. Removed from open loops. |
+| ude-cli MR !58 | Still open since January 2026 — 5 months stale |
+
+**No other status changes.** All remaining items unchanged since 09:38 run.
+
+### Top 3 Next Actions
+
+1. **FTFL-525** — Diagnose the Blocked status. This was the highest priority In Progress item. Something changed preventing progress. Unblock to resume.
+2. **FTFL-658** — Complete MKUH Terraform spike investigation. Was re-opened as Blocked after being previously Done.
+3. **FTFL-609** — Continue EBS CSI Driver policy migration (actively In Progress, updated today).
 
 ### Notes
 
-- ⚠️ All Jira data **carried forward** from 2026-06-04 (last fresh fetch). No pipelines operational in current cron context.
-- FTFL-476 blocked since 2026-05-18 — now **22 days** blocked. Critical escalation trigger.
-- FTFL-673 progress confirmed: structured metadata enrichment pilot implemented, code-written, Helm-validated, ready for MR. This reduces pressure on this item.
-- **7th consecutive cron run with stale data** (5 yesterday + 2 today). The `gk whoami` session-level failure is persistent and will not self-recover.
-- No stale issue check possible — no fresh Jira data this run.
-- No new or resolved issues detected — data frozen from prior fetch. No changes since yesterday's 17:30 CoS.
-- Current time: 2026-06-09 10:02 BST
+- **Data pipeline**: Jira API healthy. Static PAT from `JIRA_API_TOKEN` env var works directly with Python POST. No daemon dependency.
+- **gk CLI status**: Jira ✓ connected. GitLab ✓ connected. Lacks status/priority/dates fields — direct API is preferred.
+- **Pieces LTM**: MCP server running at localhost:39300 but requires session establishment not available in cron context.
 
 ### Known Data Gaps
 
-- **GitKraken gk CLI** — `gk whoami` returns `not authenticated` (exit 1). Session-level expiry — all commands fail silently. Needs interactive `gk auth login` to restore. This has been broken since ~2026-06-04.
-- **Pieces LTM** — MCP server initialises successfully but exposes zero query tools (`capabilities.tools: {}`). Server running at port 39300 but non-functional for context retrieval.
+- **Pieces LTM** — MCP session creation failed in cron context. Ambient context skipped.
 - **Microsoft Teams** — No Teams MCP server configured. @mention action items must be captured manually.
-- **Todoist** — MCP unavailable/read-only in current container context. Task sync skipped.
+- **Todoist** — No CLI or MCP tool available in cron context. Task sync skipped.
+- **ude-cli MR !58** — Open since January 2026, no recent activity. Needs a decision (merge or close).
 
-### Resolved
+### Resolved (since last run 2026-06-10T09:38)
 
-| ID | Summary | Resolved Date |
+| ID | Summary | Status Change |
 |----|---------|---------------|
-| FTFL-511 | [API-5] Nginx allows outdated HTTPS connection methods | ~2026-06-01 |
-| FTFL-680 | [AZURE] Verify MANA Compatibility for Intel v5 and Cobalt 100 v6 VMs | 2026-05-29 |
-| FTFL-638 | Add labels for logs | 2026-05-28 |
-| FTFL-599 | Update and test the runbook for Azure backup restore | 2026-05-26 |
-| FTFL-144 | (details TBD) | 2026-05-26 |
-| FTFL-626 | (details TBD) | 2026-05-26 |
+| FTFL-602 | The Hyve alerting | Selected for Development → **Closed** ✅ |
+| FTFL-673 | Upgrade Grafana Alloy | Done (unchanged) |
+| FTFL-478 | Grafana Workflows Monitoring Dashboard | Done (unchanged) |

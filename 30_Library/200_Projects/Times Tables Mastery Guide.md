@@ -5,6 +5,7 @@ project_category: personal
 project_status: archived
 title: Times Tables Mastery Guide
 type: project
+project_name: Bessie
 ---
 
 ## Master Your Times Tables: A Comprehensive Guide

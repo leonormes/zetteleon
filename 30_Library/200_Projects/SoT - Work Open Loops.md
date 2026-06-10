@@ -5,8 +5,12 @@ modified: 2026-06-08T11:49:22+00:00
 project_category: prodos
 project_status: archived
 title: SoT - Work Open Loops
-top3: ["FTFL-476: Escalate or deprioritise OMOP Stress Testing infra (blocked 21 days)", "FTFL-525: Start work on Ensure all backups are ZRS (High priority)", "FTFL-673: Drive Upgrade Grafana Alloy to completion (In Progress)"]
+top3:
+  - "FTFL-476: Escalate or deprioritise OMOP Stress Testing infra (blocked 21 days)"
+  - "FTFL-525: Start work on Ensure all backups are ZRS (High priority)"
+  - "FTFL-673: Drive Upgrade Grafana Alloy to completion (In Progress)"
 type: project
+project_name: ProdOS
 ---
 
 > ⚠️ Open-work data stale—GitKraken CLI (`gk`) not authenticated. Run `gk auth login` in a terminal to restore the pipeline. Data carried forward from 2026-06-05.
