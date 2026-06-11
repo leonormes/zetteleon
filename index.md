@@ -72,8 +72,9 @@ _(empty—populated on first ingest)_
 - [[wiki/projects/NGINX Ingress Admission Webhook Fix]]—Investigation and fix for failing ArgoCD sync caused by NGINX Ingress admission webhook rejecting snippet annotations; scoped to IaC-only changes on private network cluster.
 - [[wiki/projects/ffnode Helm Chart Review]]—Analysis of the ffnode umbrella Helm chart complexity: named-template patterns, library chart assessment, VSO double-evaluation bug audit across 27 clusters. Triggered by FTFL-673 Faro/Alloy upgrade work with Ollie Rushton.
 - [[wiki/projects/Helm Chart Structured Metadata — Grafana Cloud Log Enrichment]]—Experiment to add structured metadata to Helm charts for richer Grafana Cloud log context. Phase 1 pilot on spicedb (fitfiletest), Phase 2 reusable Helm helper pattern. Sibling to ffnode Helm Chart Review.
-- [[wiki/projects/FITFILE Frontend — Cohort Discovery]]—Frontend workstream on the FITFILE platform: Next.js cohort discovery screens (App Router), `CohortData` TypeScript type, feature-flagged routes, Jira tickets FTFL-494/501/502/496/31, live at ff-test-a.fitfile.net and AWSSDE.
-- [[wiki/projects/FITFILE Deployment — ArgoCD + Helm]]—FITFILE GitOps deployment architecture: deployment repo structure, FFNode umbrella chart at `charts/ffnode/`, FFNodes per-cluster overlays at `ffnodes/`, cluster fleet taxonomy (~15+ clusters), critical `values.yaml` fields, release process, and ArgoCD self-heal constraint.
+|- [[wiki/projects/FTFL-609 EBS CSI Driver Managed Policies Migration]]—AWS EBS CSI Driver managed policies migration from `AmazonEBSCSIDriverPolicy` to new cluster-scoped policies across ~15+ EKS clusters. Discovery phase: identify affected IAM principals. In sprint since Apr 21, actively In Progress.
+|- [[wiki/projects/FITFILE Frontend — Cohort Discovery]]—Frontend workstream on the FITFILE platform: Next.js cohort discovery screens (App Router), `CohortData` TypeScript type, feature-flagged routes, Jira tickets FTFL-494/501/502/496/31, live at ff-test-a.fitfile.net and AWSSDE.
+|- [[wiki/projects/FITFILE Deployment — ArgoCD + Helm]]—FITFILE GitOps deployment architecture: deployment repo structure, FFNode umbrella chart at `charts/ffnode/`, FFNodes per-cluster overlays at `ffnodes/`, cluster fleet taxonomy (~15+ clusters), critical `values.yaml` fields, release process, and ArgoCD self-heal constraint.
 
 ### `wiki/orgs/`
 
@@ -86,4 +87,4 @@ _(empty—populated on first ingest)_
 
 ---
 
-_Updated 2026-06-09 03:35 by Project Check-In (cron/4h): 1 new raw note (FITFILE Deployment Wiki). 1 new project page (FITFILE Deployment — ArgoCD + Helm). 2 existing pages updated with back-links. Flags: 84 new Pieces assets found; 3 deployment wiki assets captured; 81 agent working notes from already-captured sessions skipped._
+_Updated 2026-06-10 17:40 by Project Check-In (cron/4h): 1 new raw note (FTFL-609 EBS CSI Starter Task). 1 new project page (FTFL-609 EBS CSI Driver Managed Policies Migration). Frontmatter corrected on existing pages. Flags: Pieces LTM compaction error (known), fallback to session_search._

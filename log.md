@@ -744,3 +744,11 @@ Append-only—never edit past entries.
 - **Pieces IDs ingested:** 43 (all 4h window assets, written to single consolidated raw note)
 - **Workstreams:** (1) CoS Work Review cron auth fix; (2) FTFL-658 Jira comment drafted
 - **Flags:** None
+
+## 2026-06-10 17:40 — Project Check-In (cron/4h)
+
+- **Action:** Ingest (session_search fallback — Pieces LTM compaction error)
+- **Raw sources created:** [[raw/2026-06-10-pieces-ftfl609-ebs-csi-starter-task]]
+- **Wiki pages touched:** [[wiki/projects/FTFL-609 EBS CSI Driver Managed Policies Migration]] (new — pending from 16:34 check-in)
+- **Pieces IDs ingested:** 3 (from session_search-reconstructed FTFL-609 session: `2d9a335e`, `71a4e746`, `40673b4f`)
+- **Flags:** Pieces LTM compaction error persists (pinned prefix exceeds budget). No new user projects since 16:34 check-in. FTFL-609 project page completed (was incomplete from previous run).

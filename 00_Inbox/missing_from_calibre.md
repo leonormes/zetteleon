@@ -1,6 +1,6 @@
 ---
 created: 2026-06-09T15:14:50+00:00
-modified: 2026-06-10T10:58:20+00:00
+modified: 2026-06-10T14:55:14+00:00
 ---
 # Books to Download — BookFusion → Calibre
 
@@ -27,12 +27,8 @@ Generated: Tuesday 9 June 2026
 | 10  | Driven to Distraction at Work: How to Focus and Be More Productive                                    | Ned Hallowell                            |
 | 11  | Dune Messiah: The Second Dune Novel                                                                   | Frank Herbert                            |
 | 12  | Dune: The Breath-Taking and Academy Award-Nominated Science Fiction Masterpiece                       | Frank Herbert                            |
-| 13  | Eat That Frog!: Get More of the Important Things Done - Today!                                        | Brian Tracy                              |
 | 14  | Embassytown                                                                                           | China Miéville                           |
-| 15  | From Bacteria to Bach and Back: The Evolution of Minds                                                | Daniel C. Dennett                        |
-| 16  | From Mathematics to Generic Programming                                                               | Alexander A. Stepanov, Daniel E. Rose    |
 | 17  | Professor Frisby's Mostly Adepuate Guilde to Functional Programming                                   | Unknown                                  |
-| 18  | Functional Programming in JavaScript                                                                  | Dimitris Papadimitriou                   |
 | 19  | Functional-Light JavaScript                                                                           | Kyle Simpson                             |
 | 20  | Fyodor Dostoyevsky: The Complete Novels                                                               | Fyodor Dostoevsky                        |
 | 21  | GitOps: Cloud-Native Continuous Deployment                                                            | Florian Beetz, Anja Kammer, Simon Harrer |
@@ -74,8 +70,6 @@ Generated: Tuesday 9 June 2026
 | 61  | The Bone Clocks                                                                                       | David Mitchell                           |
 | 62  | What Everyone Needs to Know About Tax                                                                 | James Hannam                             |
 | 65  | The Joy of Tax                                                                                        | Richard Murphy                           |
-| 66  | The Story of UK Pensions: An Engaging Guide to the Pensions System                                    | Matthew Rhodes                           |
-| 67  | The Joy of Sets: Fundamentals of Contemporary Set Theory                                              | Keith Devlin                             |
 | 68  | Seed to Harvest: The Complete Patternist Series                                                       | Octavia E. Butler                        |
 | 69  | Parable of the Talents                                                                                | Octavia E. Butler                        |
 | 70  | Dawn: Lilith's Brood 1                                                                                | Octavia E. Butler                        |
@@ -85,11 +79,9 @@ Generated: Tuesday 9 June 2026
 | 74  | Linux Basics for Hackers: Getting Started With Networking, Scripting, and Security in Kali            | Occupytheweb                             |
 | 75  | Hacking APIs: Breaking Web Application Programming Interfaces                                         | Corey J. Ball                            |
 | 76  | The Ministry of Time: A Novel                                                                         | Kaliane Bradley                          |
-| 77  | The History of Mathematics                                                                            | David Burton                             |
 | 78  | Slaughterhouse Five                                                                                   | Kurt Vonnegut                            |
 | 79  | Snow Crash                                                                                            | Neal Stephenson                          |
 | 80  | Catch-22                                                                                              | Joseph Heller                            |
-| 81  | Team Topologies: Organizing Business and Technology Teams for Fast Flow                               | Matthew Skelton, Manuel Pais             |
 
 ---
 
