@@ -1,6 +1,6 @@
 ---
 created: 2026-06-05T10:48:15+00:00
-modified: 2026-06-05T11:19:15+00:00
+modified: 2026-06-11T10:25:37+00:00
 title: OIDC-Authentication-Wiki
 ---
 
