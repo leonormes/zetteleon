@@ -4,12 +4,18 @@ date: 2026-05-28
 modified: 2026-06-08T11:49:17+00:00
 project: hermes-agent-orchestrator
 project_category: hermes_optimisastion
-project_name: "Hermes Optimisastion"
+project_name: Hermes Optimisastion
 project_status: active
 status: design-proposal
-tags: [agent-orchestration, claude, cost-optimization, hermes, llm-routing, openrouter]
+tags:
+  - agent-orchestration
+  - claude
+  - cost-optimization
+  - hermes
+  - llm-routing
+  - openrouter
 title: Hermes Cost Optimisation - Free Model Routing Strategy
-type: project
+type:
 ---
 
 ## Hermes Cost Optimisation—Free Model Routing Strategy

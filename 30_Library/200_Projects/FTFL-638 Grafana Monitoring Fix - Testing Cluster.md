@@ -5,12 +5,18 @@ date: 2026-05-28
 jira: FTFL-638
 modified: 2026-06-08T11:49:16+00:00
 project_category: refined_deployment
-project_name: "Refined Deployment"
+project_name: Refined Deployment
 project_status: active
 status: resolved
-tags: [aks, ftfl-638, grafana, infrastructure, kubernetes, monitoring]
+tags:
+  - aks
+  - ftfl-638
+  - grafana
+  - infrastructure
+  - kubernetes
+  - monitoring
 title: FTFL-638 Grafana Monitoring Fix - Testing Cluster
-type: project
+type:
 ---
 
 ## FTFL-638—Missing Grafana Monitoring in Testing Cluster

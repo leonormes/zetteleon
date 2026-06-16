@@ -5,7 +5,7 @@ modified: 2026-06-08T11:49:24+00:00
 name: Hermes daily-driver cost routing
 overview: Reconfigure Hermes so a free/cheap model handles gather+mechanical tool loops, while Claude is only used for bounded high-value reasoning steps (escalations), with strong guardrails, caching, and repeatable debugging patterns for daily coding+infra work.
 project_category: hermes_optimisastion
-project_name: "Hermes Optimisastion"
+project_name: Hermes Optimisastion
 project_status: active
 title: hermes_daily-driver_cost_routing_487849b4.plan
 todos:
@@ -24,7 +24,7 @@ todos:
   - id: pilot-and-tune
     content: Define a 2-phase trial (free-only dry run, then minimum-credit pilot) with success criteria and tuning knobs.
     status: pending
-type: project
+type:
 ---
 
 ## Goal

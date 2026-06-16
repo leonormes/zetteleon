@@ -28,7 +28,7 @@ Personal execution protocol designed to overcome task-initiation difficulty on l
 ## Connections
 
 - [[wiki/projects/K8s Cluster Stress Testing with OMOP Data]] — target project
-- [[GitOps Deployment Pipeline Optimisation]] — target project
+- [[cicd-tooling-validated]] — target project
 - [[Azure Entra ID IAM → IaC + PIM Migration]] — target project
 - [[wiki/concepts/ADHD Procrastination and Productivity]] — related concept page on executive function
 

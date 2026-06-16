@@ -2,10 +2,10 @@
 created: 2026-04-28T08:24:50+00:00
 modified: 2026-06-08T11:49:16+00:00
 project_category: refined_deployment
-project_name: "Refined Deployment"
+project_name: Refined Deployment
 project_status: active
 title: FTFL-596 Configure Azure Backups
-type: project
+type:
 ---
 
 ## FTFL-596: Configure the Azure Backups Module for NNUH & MKUH

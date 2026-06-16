@@ -2,10 +2,10 @@
 created: 2026-06-05T08:50:57+00:00
 modified: 2026-06-08T11:49:16+00:00
 project_category: refined_deployment
-project_name: "Refined Deployment"
+project_name: Refined Deployment
 project_status: active
 title: FITFILE Grafana Cloud Observability Audit—Stack Review, Gaps & Cost Optimisation
-type: project
+type:
 ---
 
 _Shared Message from Pieces (<https://pieces.app>) by Leon Ormes (leonormes@gmail.com) on Friday Jun 5, 2026 - 9:50 AM_

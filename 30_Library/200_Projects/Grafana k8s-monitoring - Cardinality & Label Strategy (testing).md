@@ -281,9 +281,9 @@ podAnnotations:
 
 ### Optimisation Checklist
 
-- [ ] Label/selector separation—no dynamic tags (image tags, build sigs) inside `spec.selector.matchLabels`.
-- [ ] Standardise `job` pattern—`job = namespace/container` in the collector config (prevents index collisions).
-- [ ] No duplicate metadata stages—a field is written to stream labels or structured metadata, never both (see FTFL-638).
+- [x] Label/selector separation—no dynamic tags (image tags, build sigs) inside `spec.selector.matchLabels`.  [completion:: 2026-06-11]
+- [x] Standardise `job` pattern—`job = namespace/container` in the collector config (prevents index collisions).  [completion:: 2026-06-11]
+- [x] No duplicate metadata stages—a field is written to stream labels or structured metadata, never both (see FTFL-638).  [completion:: 2026-06-11]
 - [ ] Audit & drop high-cardinality indices—periodically confirm request IDs, user codes, and row hashes are never promoted to labels.
 
 ---

@@ -2,20 +2,25 @@
 aliases: []
 created: 2026-01-29T07:28:40+00:00
 id: FFNode Umbrella Chart Forensic Analysis & API Specification
-modified: 2026-06-08T11:49:16+00:00
+modified: 2026-06-11T15:13:07+00:00
 project_category: refined_deployment
-project_name: "Refined Deployment"
+project_name: Refined Deployment
 project_status: active
-tags: [architecture, cuelang, ff_deploy, k8s, specification]
+tags:
+  - architecture
+  - cuelang
+  - ff_deploy
+  - k8s
+  - specification
 title: FFNode Umbrella Chart Forensic Analysis & API Specification
-type: project
+type:
 ---
 
 ## 1. The Complexity Heatmap (Forensic Audit)
 
 > Note: The diagnosis remains unchanged from the original forensic audit. The primary issues identified—Pass-Through Templating, Hard-coded Dependencies, and Imperative Boolean Flags—are the drivers for this CUE-based refactor.\_
 
-- [ ] Incoporate cue into the secrets managements [due:: 2026-02-11] ^2026-02-11T08-03-31
+- [ ] Incoporate cue into the secrets managements [due:: 2026-02-11] ^2026-02-11T08-03-31 {{operonId:: o3vzhjr}} {{status:: Project.Brainstorming}} {{priority:: C}} {{prodosProject:: Refined Deployment}} {{datetimeCreated:: 2026-06-11T16:12:37}} {{datetimeModified:: 2026-06-11T16:36:14}}
     - [📱 View in Todoist app](todoist://task?id=10006842860) (Created: 📝 2026-02-11T08:03)
 
 ### A. The "Accidental Complexity" of `vaultSecrets`

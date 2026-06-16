@@ -2,10 +2,10 @@
 created: 2026-05-02T19:36:27+00:00
 modified: 2026-06-08T11:49:16+00:00
 project_category: infrastructure
-project_name: "k8s"
+project_name: k8s
 project_status: archived
 title: Cybernetic Analysis of Kubernetes State Management.
-type: project
+type:
 ---
 
 ## Cybernetic Analysis of Kubernetes State Management 🤖⚙️

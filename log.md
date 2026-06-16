@@ -207,8 +207,8 @@ Append-only—never edit past entries.
 ### 2026-05-18 10:16—Project Check-In
 
 - Action: Ingest (Pieces LTM, last 4h)
-- Raw sources created: [[raw/2026-05-18-pieces-hermes-gitlab-research]]
-- Wiki pages touched: [[INSIGHTFILE_PIPELINE_REPORT]]
+- Raw sources created: [[GitLab CI integration]]
+- Wiki pages touched: [[cicd-tooling-validated]]
 - Pieces IDs ingested: 58 memories
 - Flags: none—1 new project page created (GitLab CI/CD Pipeline Research), 1 raw note created; existing Hermes-Agent page not updated (activity within existing scope)
 
@@ -299,7 +299,7 @@ Append-only—never edit past entries.
 
 - Action: Ingest (Pieces LTM)
 - Raw sources created: [[raw/2026-05-23-pieces-natural-planning-model]], [[raw/2026-05-23-pieces-config-audit]]
-- Wiki pages touched: [[wiki/projects/K8s Cluster Stress Testing with OMOP Data]], [[wiki/projects/GitOps Deployment Pipeline Optimisation]], [[wiki/projects/Azure Entra ID IAM → IaC + PIM Migration]], [[wiki/projects/Execution Protocol for High-Friction Work]], [[wiki/projects/Hermes Config Production-Ready Audit]]
+- Wiki pages touched: [[wiki/projects/K8s Cluster Stress Testing with OMOP Data]], [[cicd-tooling-validated]], [[wiki/projects/Azure Entra ID IAM → IaC + PIM Migration]], [[wiki/projects/Execution Protocol for High-Friction Work]], [[wiki/projects/Hermes Config Production-Ready Audit]]
 - Pieces IDs ingested: 5 memories
 - Flags: none
 - Summary: 5 substantive Pieces assets captured in 4-hour window (from 8 assets, 3 noise filtered). Two session themes: (1) Natural Planning Model session covering 3 summer projects (K8s/OMOP stress testing, GitOps pipeline optimisation, Azure Entra IAM/IaC/PIM migration) plus break-glass account blueprint and personal execution protocol; (2) Hermes config.yaml production-ready audit with 7-phase /goal instruction set.
@@ -720,7 +720,7 @@ Append-only—never edit past entries.
 
 - **Action:** Ingest (Pieces LTM)
 - **Raw sources created:** [[raw/2026-06-08-pieces-fitfile-deployment-wiki]]
-- **Wiki pages touched:** [[wiki/projects/FITFILE Deployment — ArgoCD + Helm]] (new), [[wiki/projects/ffnode Helm Chart Review]] (back-link), [[wiki/projects/GitOps Deployment Pipeline Optimisation]] (back-link)
+- **Wiki pages touched:** [[wiki/projects/FITFILE Deployment — ArgoCD + Helm]] (new), [[wiki/projects/ffnode Helm Chart Review]] (back-link), [[cicd-tooling-validated]] (back-link)
 - **Pieces IDs ingested:** 3 deployment wiki assets (of 84 new substantive non-dup assets found; 81 skipped as agent working notes from already-captured sessions)
 - **Flags:** Pieces active (newest asset ~8.7h old). 4h window returned 0 assets — extended to 24h. 3 deployment wiki assets captured as new project. 2 existing pages updated with bidirectional links.
 
@@ -728,7 +728,7 @@ Append-only—never edit past entries.
 
 - **Action:** Ingest (Pieces LTM)
 - **Raw sources created:** [[raw/2026-06-08-pieces-fitfile-deployment-wiki]]
-- **Wiki pages touched:** [[wiki/projects/FITFILE Deployment — ArgoCD + Helm]] (new), [[wiki/projects/ffnode Helm Chart Review]] (back-link), [[wiki/projects/GitOps Deployment Pipeline Optimisation]] (back-link)
+- **Wiki pages touched:** [[wiki/projects/FITFILE Deployment — ArgoCD + Helm]] (new), [[wiki/projects/ffnode Helm Chart Review]] (back-link), [[cicd-tooling-validated]] (back-link)
 - **Pieces IDs ingested:** 3 deployment wiki assets (of 84 new substantive non-dup assets found; 81 skipped as agent working notes from already-captured sessions)
 - **Flags:** Pieces active (newest asset ~8.7h old). 4h window returned 0 assets — extended to 24h. 3 deployment wiki assets captured as new project. 2 existing pages updated with bidirectional links.
 
@@ -752,3 +752,83 @@ Append-only—never edit past entries.
 - **Wiki pages touched:** [[wiki/projects/FTFL-609 EBS CSI Driver Managed Policies Migration]] (new — pending from 16:34 check-in)
 - **Pieces IDs ingested:** 3 (from session_search-reconstructed FTFL-609 session: `2d9a335e`, `71a4e746`, `40673b4f`)
 - **Flags:** Pieces LTM compaction error persists (pinned prefix exceeds budget). No new user projects since 16:34 check-in. FTFL-609 project page completed (was incomplete from previous run).
+
+## 2026-06-11 17:07 — Project Check-In (cron/4h)
+
+- **Action:** Ingest (Pieces OS REST API — `http://localhost:39300/messages`)
+- **Raw sources created:** none — no new project work identified
+- **Wiki pages touched:** none — all three work threads map to existing pages
+- **Pieces IDs ingested:** 13 (all agent chat fragments in 4h window, 0 workstream summaries)
+- **Workstreams identified:**
+  - (A) 09:24 — AKS upgrade "what needs doing?" investigation → [[wiki/projects/Azure-AKS]]
+  - (B) 09:57 — CI/CD Pipeline State Report → [[cicd-tooling-validated]]
+  - (C) 13:20 — Stress Test Plan "Phase 0" lookup → [[wiki/projects/K8s Cluster Stress Testing with OMOP Data]]
+- **Flags:** None — no new projects, no new raw notes needed. Pieces OS healthy (REST API reachable, 13 assets scanned). No compaction errors this run.
+
+## 2026-06-12 08:50 — Project Check-In (cron/4h)
+
+- **Action:** Ingest (Pieces OS REST API — `http://localhost:39300/messages`)
+- **Raw sources created:** [[raw/2026-06-12-pieces-ffnode-mcp-proxy]]
+- **Wiki pages created:** [[wiki/projects/FFNode Stress Testing — FTFL-500]]
+- **Wiki pages updated:** [[wiki/projects/MCP Proxy Robustness and High Availability]]
+- **Pieces IDs ingested:** 23 (in 4h window; 26 substantive after noise filter, 23 unique to this raw note)
+- **Workstreams identified:**
+  - (A) 07:47 — FTFL-500 FFNode Stress Testing Jira planning → [[wiki/projects/FFNode Stress Testing — FTFL-500]] (NEW)
+  - (B) 08:40 — MCP Proxy debugging Claude Code prompt → [[wiki/projects/MCP Proxy Robustness and High Availability]] (updated)
+- **Flags:** Pieces OS healthy (REST API reachable, 65 assets scanned in 4h window, 26 substantive after noise filter). No compaction errors.
+
+## 2026-06-12 12:58 — Project Check-In (cron/4h)
+
+- **Action:** Ingest (Pieces OS REST API — `http://localhost:39300/messages`)
+- **Raw sources created:** none — all activity maps to existing raw notes
+- **Wiki pages touched:** none — both workstreams map to existing project pages
+- **Pieces IDs ingested:** 37 (in 4h window; all from one MCP Proxy research session with multiple reflection/pagination cycles)
+- **Workstreams identified:**
+  - (A) 09:00-10:15 — MCP Proxy alternative solutions research → [[wiki/projects/MCP Proxy Robustness and High Availability]] (exists, updated at 08:50)
+  - (B) 07:47-08:34 — FFNode Stress Testing Jira planning → [[wiki/projects/FFNode Stress Testing — FTFL-500]] (exists, created at 08:50)
+- **Flags:** No new projects detected. 37 assets from a single Hermes session (MCP proxy research) — high density but single thread. Pieces OS healthy (REST API reachable). CoS runs show consistent state: 7 open Jira issues, top priority FTFL-525 unchanged.
+
+  ## 2026-06-13 05:12 — Project Check-In (cron/4h)
+
+  - **Action:** Ingest (Pieces OS REST API — `http://localhost:39300/messages`)
+  - **Raw sources created:** none
+  - **Wiki pages touched:** none
+  - **Pieces IDs ingested:** 0 (in 4h window); 127 in 24h window but all outside the check-in window
+  - **Workstreams identified:** none in 4h window
+  - **Flags:**
+    - Zero Pieces assets in the 4-hour window (last user activity at 2026-06-12 14:46 UTC; user stopped work yesterday)
+    - Pre-existing coverage gaps detected: high-use Obsidian `project_name` values lacking wiki project pages — `Bessie` (30 notes), `Refined Deployment` (25 notes), `Core` (9 notes), `Deployments` (8 notes)
+    - Cron job prompt still references `daily-synthesis` skill which does not exist; should reference `pkm-obsidian` → `references/project-check-in-workflow.md` instead
+## 2026-06-15 10:00 — Project Check-In (cron/4h)
+
+- **Action:** Ingest (Pieces OS REST API — `http://localhost:39300/messages`)
+- **Raw sources created:** [[raw/2026-06-15-pieces-fitfile-cd-decision-document]]
+- **Wiki pages created:** [[GitLab CI integration]]
+- **Wiki pages updated:** [[wiki/projects/FITFILE Deployment — ArgoCD + Helm]]
+- **Pieces IDs ingested:** 2 (substantive after noise filter; 30 total in 4h window, 28 noise-filtered: SYSTEM_ERROR, SYSTEM_COMPLETION, SYSTEM_TOOL_CALL, SYSTEM_THINKING reflections, and one cron self-query)
+- **Workstreams identified:**
+  - (A) 08:44-09:00 — FITFILE CI/CD Continuous Delivery Philosophy Decision and Commitment (team sign-off document for CD philosophy) → [[GitLab CI integration]] (NEW)
+- **Flags:** Pieces OS healthy (REST API reachable, 11340 total assets). No compaction error. Preceding run (02:58) went [SILENT] but P11 exception applies (N=30 > 0).
+## 2026-06-15 15:12 — Project Check-In (cron/4h)
+
+- **Action:** Ingest (Pieces OS REST API — `http://localhost:39300/messages`)
+- **Raw sources created:** [[raw/2026-06-15-pieces-ffnode-refinement-pre-tickets]]
+- **Wiki pages created:** none
+- **Wiki pages updated:** [[wiki/projects/FFNode Stress Testing — FTFL-500]]
+- **Pieces IDs ingested:** 16 (substantive after noise filter; 54 total in 4h window, 38 noise-filtered: empty-body pagination, meta_complete, reflections, SYSTEM_THINKING, cron self-queries)
+- **Workstreams identified:**
+  - (A) 14:03-14:08 — FFNode Stress Testing refinement meeting: Oliver Rushton proposes Phase00 (Node + DB setup) + cohort design pre-tickets → [[wiki/projects/FFNode Stress Testing — FTFL-500]] (updated with new Key Facts, Timeline entries)
+  - (B) 11:05-11:16 — Sleuth DORA tracking research and audit → [[GitLab CI integration]] (already covered by existing wiki/2026-06-15-sleuth-dora-audit.md)
+- **Flags:** No new projects detected. Both threads map to existing wiki pages. Sleuth DORA research already captured in wiki note (2026-06-15-sleuth-dora-audit.md). Preceding CoS run (14:01) did not go [SILENT] — proceeded normally.
+|## 2026-06-15 18:42 — Project Check-In (cron/4h)
+
+- **Action:** Ingest (Pieces OS REST API — `http://localhost:39300/messages`)
+- **Raw sources created:** none
+- **Wiki pages created:** none
+- **Wiki pages updated:** none
+- **Pieces assets in DB:** 11,415
+- **In 4h window:** 21 (14:44–18:44 UTC; 12 substantive after noise filter)
+- **Noise-filtered:** 9 (meta_complete, reflection markers, empty-body fragments)
+- **Workstreams identified:**
+  - (A) 14:50–14:55 — Sleuth DORA metrics baseline planning (agent-driven: reflection iterations, plan synthesis, cursor pagination) → [[GitLab CI integration]] (already covered)
+- **Flags:** No new projects detected. Single workstream maps to existing FITFILE CD wiki page (already populated from prior runs). Last Pieces activity was 14:55 UTC (3h 48m gap). `daily-synthesis` skill is disabled — Project Check-In Mode instructions not available. No activity in final ~4h of window suggests user offline or Pieces not capturing active context during this period.

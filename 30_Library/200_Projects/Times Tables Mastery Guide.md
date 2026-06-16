@@ -2,9 +2,9 @@
 created: 2026-06-01T11:27:22+00:00
 modified: 2026-06-08T11:49:22+00:00
 project_category: personal
-project_status: archived
+project_status: active
 title: Times Tables Mastery Guide
-type: project
+type:
 project_name: Bessie
 ---
 

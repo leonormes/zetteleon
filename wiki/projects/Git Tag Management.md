@@ -23,7 +23,7 @@ Git tag management operations: moving `sandbox-testing-1-latest-release` tag to 
 
 ## Connections
 
-- [[GitOps Deployment Pipeline Optimisation]] — Related GitOps pipeline work
+- [[cicd-tooling-validated]] — Related GitOps pipeline work
 
 ## Contradictions
 

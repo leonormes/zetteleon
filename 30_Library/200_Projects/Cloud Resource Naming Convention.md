@@ -4,7 +4,7 @@ modified: 2026-06-08T11:49:16+00:00
 project_category: infrastructure
 project_status: archived
 title: Cloud Resource Naming Convention
-type: project
+type:
 ---
 
 ## Resource Groups

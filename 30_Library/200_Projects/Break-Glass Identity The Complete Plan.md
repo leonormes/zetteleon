@@ -2,10 +2,10 @@
 created: 2026-05-15T12:34:55+00:00
 modified: 2026-06-08T11:49:15+00:00
 project_category: refined_deployment
-project_name: "Refined Deployment"
+project_name: Refined Deployment
 project_status: active
 title: Break-Glass Identity The Complete Plan
-type: project
+type:
 ---
 
 ## 1. Critique of the Draft

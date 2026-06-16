@@ -12,7 +12,7 @@ views:
       - property: tags
         direction: ASC
     columnSize:
-      file.name: 469
+      file.name: 672
     indentProperties: false
   - type: table
     name: View

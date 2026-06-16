@@ -5,9 +5,10 @@ modified: 2026-06-08T11:49:15+00:00
 name: Data vs implementation split
 overview: Analysis anchored on [ff-test-1/docs](file:///Volumes/DAL/Fitfile/gitlab/FITFILE/New_Customer/ff-test-1/docs) — the two-phase bootstrap vs managed model, TFC state as the pipe into CUE, and [CONTRACTS.md](file:///Volumes/DAL/Fitfile/gitlab/FITFILE/New_Customer/ff-test-1/docs/CONTRACTS.md). The spine (customer.yaml + common → Terraform → infra_facts → CUE → Helm) is right; mixing comes from three deployment generations, dual truth paths, and duplicated chart defaults in the Helm repo.
 project_category: refined_deployment
-project_name: "Refined Deployment"
+project_name: Refined Deployment
 project_status: active
-tags: [InfraFacts]
+tags:
+  - InfraFacts
 title: Additions to the Data-First Customer IaC Plan
 todos:
   - id: state-sot-plumbing
@@ -22,7 +23,7 @@ todos:
   - id: docs-index
     content: Optional — single index in ff-test-1/docs linking CONTRACTS, bootstrap vs managed, and remediation tiers (MASTER_REMEDIATION_PLAN) for onboarding
     status: pending
-type: project
+type:
 ---
 
 ## 1. Pre-Requisite: Fix Live Bugs _Before_ Module Extraction

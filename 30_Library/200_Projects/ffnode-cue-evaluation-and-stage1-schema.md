@@ -2,13 +2,27 @@
 created: 2026-06-06T00:00:00+00:00
 modified: 2026-06-08T11:49:23+00:00
 project_category: refined_deployment
-project_name: "Refined Deployment"
+project_name: Refined Deployment
 project_status: active
-related: ["[[ffnode-templating-analysis]]", "[[ffnode-templating-complexity-metrics]]"]
-tags: [1, 2, config, cue, cuelang, deployment, ffnode, helm, kubernetes, multi-cluster, type-safety, validation]
+related:
+  - "[[ffnode-templating-analysis]]"
+  - "[[ffnode-templating-complexity-metrics]]"
+tags:
+  - 1
+  - 2
+  - config
+  - cue
+  - cuelang
+  - deployment
+  - ffnode
+  - helm
+  - kubernetes
+  - multi-cluster
+  - type-safety
+  - validation
 ticket: FTFL-673
 title: ffnode-cue-evaluation-and-stage1-schema
-type: project
+type:
 ---
 
 > Evaluation of [CUE](https://cuelang.org/) for the `ffnode` deployment config, plus a working, fleet-tested Stage-1 validation schema.

@@ -2,10 +2,10 @@
 created: 2026-06-08T11:35:53+00:00
 modified: 2026-06-08T11:49:17+00:00
 project_category: hermes_optimisastion
-project_name: "Hermes Optimisastion"
+project_name: Hermes Optimisastion
 project_status: active
 title: Hermes Cost Routing - Cursor Implementation Prompt
-type: project
+type:
 ---
 
 ## Hermes Cost Routing Implementation

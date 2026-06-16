@@ -2,7 +2,7 @@
 chart: k8s-monitoring 4.1.3 (alloy 1.8.1, Alloy app v1.16.1)
 cluster: testing
 created: 2026-06-04T00:00:00+00:00
-modified: 2026-06-08T11:49:16+00:00
+modified: 2026-06-11T15:43:55+00:00
 project_category: refined_deployment
 project_name: "Refined Deployment"
 project_status: active
@@ -247,13 +247,6 @@ podAnnotations:
   [yourcompany.com/oncall](https://yourcompany.com/oncall): "platform-observability"
   [yourcompany.com/deployment-method](https://yourcompany.com/deployment-method): "helm"
 ```
-
-### Optimisation Checklist
-
- - [ ] Label/selector separation—no dynamic tags (image tags, build sigs) inside spec.selector.matchLabels.
- - [ ] Standardise job pattern—job = namespace/container in the collector config (prevents index collisions).
- - [ ] No duplicate metadata stages—a field is written to stream labels or structured metadata, never both (see FTFL-638).
- - [ ] Audit & drop high-cardinality indices—periodically confirm request IDs, user codes, and row hashes are never promoted to labels.
 
 ## Part 3—testing Cluster Audit (2026-06-04)
 

@@ -3,13 +3,13 @@ created: 2026-05-26T09:39:03+00:00
 last_updated: 2026-06-08T10:01:27+01:00
 modified: 2026-06-08T11:49:22+00:00
 project_category: prodos
-project_status: archived
+project_status: active
 title: SoT - Work Open Loops
 top3:
   - "FTFL-476: Escalate or deprioritise OMOP Stress Testing infra (blocked 21 days)"
   - "FTFL-525: Start work on Ensure all backups are ZRS (High priority)"
   - "FTFL-673: Drive Upgrade Grafana Alloy to completion (In Progress)"
-type: project
+type:
 project_name: ProdOS
 ---
 

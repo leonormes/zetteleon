@@ -2,15 +2,21 @@
 aliases: []
 created: 2026-01-07T21:28:43+00:00
 last_reviewed: ""
-modified: 2026-06-08T11:49:22+00:00
+modified: 2026-06-11T15:17:04+00:00
 priority: high
 project_category: development
-project_status: archived
+project_status: active
 see_also: []
 status: active
 superseded_by: ""
 supersedes: ""
-tags: [cloud, iam, k8s, posture, project, security]
+tags:
+  - cloud
+  - iam
+  - k8s
+  - posture
+  - project
+  - security
 title: Project - Security Posture Hardening
 type: ""
 uuid: 6db404a5-771a-417d-8541-e33c40f45ae8
@@ -27,7 +33,7 @@ Strategy: Move from manual checks to automated enforcement (Policy as Code, IaC)
 ### Phase 1: Identity & Access (The Perimeter)
 
 - [ ] Audit IAM: Review current role assignments and enforce Least Privilege.
-- [ ] Implement PIM: Configure Privileged Identity Management for JIT access to critical roles. ^2026-04-01T23-07-59
+- [ ] Implement PIM: Configure Privileged Identity Management for JIT access to critical roles. ^2026-04-01T23-07-59 {{operonId:: nn746nq}} {{status:: Project.Brainstorming}} {{priority:: C}} {{datetimeCreated:: 2026-06-11T16:16:59}} {{datetimeModified:: 2026-06-11T16:16:59}}
     - [📱 View in Todoist app](todoist://task?id=6gHHjF4x28R3xXqv) (Created: 📝 2026-04-01T23:08)
     - _Reference:_ [[SoT - GitOps for Privileged Identity Management]]
 - [ ] Enforce MFA: Ensure Multifactor Authentication is mandated for all access points.

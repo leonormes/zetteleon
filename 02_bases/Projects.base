@@ -8,24 +8,20 @@ views:
     name: 🗂️ All Projects
     order:
       - file.name
-      - type
       - project_name
-      - project_category
       - project_status
       - file.mtime
     sort:
-      - property: project_status
-        direction: ASC
       - property: project_name
+        direction: ASC
+      - property: project_status
         direction: ASC
       - property: file.mtime
         direction: DESC
     columnSize:
       file.name: 598
-      note.type: 180
       note.project_name: 180
-      note.project_category: 160
-      note.project_status: 110
+      note.project_status: 140
   - type: table
     name: 🟢 Active Projects
     filters:

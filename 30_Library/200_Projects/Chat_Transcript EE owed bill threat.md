@@ -4,7 +4,7 @@ modified: 2026-06-08T11:49:16+00:00
 project_category: personal
 project_status: archived
 title: Chat_Transcript EE owed bill threat
-type: project
+type:
 ---
 
 Time Zone: Europe/London

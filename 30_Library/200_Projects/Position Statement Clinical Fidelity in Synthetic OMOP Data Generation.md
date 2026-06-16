@@ -2,10 +2,10 @@
 created: 2026-04-17T07:23:48+00:00
 modified: 2026-06-08T11:49:22+00:00
 project_category: omop
-project_name: "OMOP"
+project_name: OMOP
 project_status: active
 title: Position Statement Clinical Fidelity in Synthetic OMOP Data Generation
-type: project
+type:
 ---
 
 ## My Position

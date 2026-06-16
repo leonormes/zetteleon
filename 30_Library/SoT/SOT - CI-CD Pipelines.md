@@ -2,7 +2,7 @@
 aliases: ["CI/CD Documentation", "FITFILE Pipelines", "GitLab CI Flows"]
 created: 2025-12-16T00:00:00Z
 last_reviewed: "2025-12-16"
-modified: 2026-02-01T15:08:03+00:00
+modified: 2026-06-12T16:24:52+00:00
 status: "stable"
 tags: ["automation", "cicd", "devops", "gitlab", "pipeline"]
 title: SOT - CI-CD Pipelines
@@ -130,6 +130,3 @@ Testing is not just a script; it is a Workflow.
 ---
 
 ## 6. Related Documentation
-
-- [[SoT - FITFILE Deployment Process]] - The high-level process map.
-- [[SoT - FITFILE Secret Management Architecture]] - How secrets are handled within these deployments.

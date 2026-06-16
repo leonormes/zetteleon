@@ -34,7 +34,7 @@ Jira ticket **FTFL-673**: after fixing and upgrading Grafana in the testing clus
 - [[Grafana Alloy Monitoring — FTFL-638]] — Predecessor: Grafana/Alloy Helm deployment and log labeling fixes (FTFL-638)
 - [[Grafana Upgrade - Testing Cluster]] — Immediate predecessor: Grafana upgrade in testing cluster
 - [[FITFILE Testing Infrastructure]] — Testing cluster infrastructure context
-- [[GitOps Deployment Pipeline Optimisation]] — Deployment pipeline context
+- [[cicd-tooling-validated]] — Deployment pipeline context
 
 ## Contradictions
 

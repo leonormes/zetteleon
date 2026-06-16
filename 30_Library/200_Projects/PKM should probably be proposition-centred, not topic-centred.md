@@ -2,10 +2,10 @@
 created: 2026-04-23T15:27:21+00:00
 modified: 2026-06-08T11:49:22+00:00
 project_category: prodos
-project_name: "ProdOS"
+project_name: ProdOS
 project_status: active
 title: PKM should probably be proposition-centred, not topic-centred
-type: project
+type:
 ---
 
 ## PKM Should Probably Be Proposition-centred, not Topic-centred

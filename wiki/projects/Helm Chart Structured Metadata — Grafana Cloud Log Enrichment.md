@@ -57,7 +57,7 @@ Experiment initiative to enrich FITFILE Helm chart deployments with structured m
 
 - [[wiki/projects/ffnode Helm Chart Review]] — ongoing ffnode umbrella chart simplification; structured metadata will be injected through the same chart
 - [[wiki/projects/Grafana Alloy Monitoring — FTFL-638]] — the Alloy pipeline that consumes structured metadata in Grafana Cloud; the metadata enrichment directly feeds into Alloy's log processing
-- [[wiki/projects/GitOps Deployment Pipeline Optimisation]] — ArgoCD/Helm deployment pipeline used to roll out structured metadata changes
+- [[cicd-tooling-validated]] — ArgoCD/Helm deployment pipeline used to roll out structured metadata changes
 
 ## Contradictions
 

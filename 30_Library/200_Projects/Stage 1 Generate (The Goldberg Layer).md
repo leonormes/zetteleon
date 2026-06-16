@@ -1,14 +1,20 @@
 ---
-aliases: ["Goldberg Layer", "Timed Writing"]
+aliases:
+  - Goldberg Layer
+  - Timed Writing
 created: 2025-12-04T12:23:40Z
 modified: 2026-06-08T11:49:22+00:00
 project_category: prodos
-project_name: "ProdOS"
+project_name: ProdOS
 project_status: active
-status: "stable"
-tags: ["generation", "pkm", "prodos", "writing"]
+status: stable
+tags:
+  - generation
+  - pkm
+  - prodos
+  - writing
 title: Stage 1 Generate (The Goldberg Layer)
-type: project
+type:
 ---
 
 _The Goal: To capture the raw energy of a thought without judgment._

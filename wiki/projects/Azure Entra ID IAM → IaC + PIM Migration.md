@@ -41,7 +41,7 @@ Before any Entra/Conditional Access changes, two emergency access accounts must 
 ## Connections
 
 - [[wiki/projects/K8s Cluster Stress Testing with OMOP Data]] — sister project from same planning session
-- [[GitOps Deployment Pipeline Optimisation]] — sister project from same planning session
+- [[cicd-tooling-validated]] — sister project from same planning session
 
 ## Contradictions
 

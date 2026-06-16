@@ -35,7 +35,7 @@ _(empty—populated on first ingest)_
 - [[wiki/projects/AWS SSM Session Troubleshooting]]—AWS Systems Manager session login failure diagnosis: missing `s3:GetEncryptionConfiguration` permission on SSM role preventing session log writes to S3 bucket.
 - [[wiki/projects/Azure Entra ID IAM → IaC + PIM Migration]]—High-stakes project to migrate Entra ID configuration to Infrastructure as Code, implement Privileged Identity Management, and tidy stale policies; includes break-glass account blueprint prerequisite.
 - [[wiki/projects/Execution Protocol for High-Friction Work]]—Personal execution protocol (Pre-Flight → Walking Skeleton → Unschedule → WIP Limits) for initiating large, ambiguous engineering projects.
-- [[wiki/projects/GitOps Deployment Pipeline Optimisation]]—Incremental investigation and optimisation of a live GitOps deployment pipeline measured via Four Key Metrics; no big-bang replacements.
+- [[cicd-tooling-validated]]—Incremental investigation and optimisation of a live GitOps deployment pipeline measured via Four Key Metrics; no big-bang replacements.
 - [[wiki/projects/Hermes Config Production-Ready Audit]]—Config.yaml audit identifying redundancies, conflicts, and ~40% config reduction opportunity; produced 7-phase /goal instruction set for production-ready workstation convergence; comprehensive Discovery Report commissioned and delivered 2026-05-24 synthesising all LTM-captured configuration knowledge; detailed Cursor config validation (2026-05-28) confirmed all applied changes including approvals.mode: smart, delegation lockdown, MCP tool filters, 4 new infra skill files.
 - [[wiki/projects/Hermes Integration — Provider Adapter Setup]]—concrete implementation project to wire Claude and Gemini as first-class providers within Hermes via provider adapters, keeping Hermes as orchestrator and PKM hub.
 - [[wiki/projects/Hermes Iteration Limit Configuration]]—Debugging workstream resolving 10/10 turn freeze: identified confusion between `max_turns` (main chat loop) vs `max_iterations` (background delegation) configuration parameters.
@@ -44,7 +44,7 @@ _(empty—populated on first ingest)_
 - [[wiki/projects/Starship-Performance-Tuning]]—Analysis and optimisation of Starship prompt config (starship.toml): identified critical bottlenecks including 2000ms command_timeout, unscoped k8s/azure/aws modules.
 - [[wiki/projects/K8s Cluster Stress Testing with OMOP Data]]
 - [[wiki/projects/Kubernetes-Cluster-Bootstrapping]]—Automating ArgoCD deployment on private K8s clusters after Terraform provisioning; exploring argocd-autopilot, Terraform Helm/K8s providers, CAPI, Flux, Crossplane patterns.—Summer project to validate distributed Kubernetes cluster stability under large OMOP clinical data loads; scoped via GTD Natural Planning Model.
-- [[INSIGHTFILE_PIPELINE_REPORT]]—GitLab CI/CD automation research for FITFILE/Hermes: comprehensive search synthesis, 7-phase TRANSFER artifact, cursor-based pagination workflow (2026-05-18).
+- [[cicd-tooling-validated]]—GitLab CI/CD automation research for FITFILE/Hermes: comprehensive search synthesis, 7-phase TRANSFER artifact, cursor-based pagination workflow (2026-05-18).
 - [[FTFL-673 Grafana Deploy All Envs]] — FTFL-673: deploy fixed Grafana across all environments; extends FTFL-638 testing cluster upgrade with two-phase Hermes prompt (context gather → smarter model plan via OpenRouter).
 - [[wiki/projects/Grafana Alloy Monitoring — FTFL-638]]—Kubernetes monitoring stack: Grafana/Alloy Helm deployment, Loki log labeling, values.yaml schema design, and testing cluster fix plan for FTFL-638/511/512; acceptance criteria include cue vet validation, job label alignment (namespace/container), and ArgoCD-synced Alloy-logs DaemonSet.
 - [[wiki/projects/MCP Proxy Robustness and High Availability]]—Planning initiative to make mcp-proxy resilient across multiple AI consumers (Hermes, Claude, Cursor, Gemini); triggered by Hermes disabling four MCP servers without approval; 10-server restoration plan and chezmoi-config-guardrails.
@@ -70,10 +70,12 @@ _(empty—populated on first ingest)_
 - [[wiki/projects/Git Tag Management]]—Git tag operations: moved sandbox-testing-1-latest-release tag post-merge, resolved v1.8.65 src refspec push failure (tag missing locally).
 - [[wiki/projects/Grafana Upgrade - Testing Cluster]]—Upgraded and configured Grafana in testing cluster using values.yaml; referenced in today's FTFL-511/512 security scan context.
 - [[wiki/projects/NGINX Ingress Admission Webhook Fix]]—Investigation and fix for failing ArgoCD sync caused by NGINX Ingress admission webhook rejecting snippet annotations; scoped to IaC-only changes on private network cluster.
-- [[wiki/projects/ffnode Helm Chart Review]]—Analysis of the ffnode umbrella Helm chart complexity: named-template patterns, library chart assessment, VSO double-evaluation bug audit across 27 clusters. Triggered by FTFL-673 Faro/Alloy upgrade work with Ollie Rushton.
-- [[wiki/projects/Helm Chart Structured Metadata — Grafana Cloud Log Enrichment]]—Experiment to add structured metadata to Helm charts for richer Grafana Cloud log context. Phase 1 pilot on spicedb (fitfiletest), Phase 2 reusable Helm helper pattern. Sibling to ffnode Helm Chart Review.
+|- [[wiki/projects/ffnode Helm Chart Review]]—Analysis of the ffnode umbrella Helm chart complexity: named-template patterns, library chart assessment, VSO double-evaluation bug audit across 27 clusters. Triggered by FTFL-673 Faro/Alloy upgrade work with Ollie Rushton.
+|- [[wiki/projects/FFNode Stress Testing — FTFL-500]]—Stress testing programme for FFNode infrastructure: asset registration (Ph0), pre-flight QA gates (Ph1), single-node baseline (Ph2), Waves A–D (Ph3), report deliverable (Ph4). FTFL-500 Epic, hard deadline 31 July 2026.
+|- [[wiki/projects/Helm Chart Structured Metadata — Grafana Cloud Log Enrichment]]
 |- [[wiki/projects/FTFL-609 EBS CSI Driver Managed Policies Migration]]—AWS EBS CSI Driver managed policies migration from `AmazonEBSCSIDriverPolicy` to new cluster-scoped policies across ~15+ EKS clusters. Discovery phase: identify affected IAM principals. In sprint since Apr 21, actively In Progress.
 |- [[wiki/projects/FITFILE Frontend — Cohort Discovery]]—Frontend workstream on the FITFILE platform: Next.js cohort discovery screens (App Router), `CohortData` TypeScript type, feature-flagged routes, Jira tickets FTFL-494/501/502/496/31, live at ff-test-a.fitfile.net and AWSSDE.
+|- [[GitLab CI integration]]—CD philosophy decision process and team sign-off document (Humble & Farley, 12 commitments); requires team agreement on Continuous Delivery as governing pipeline principle.
 |- [[wiki/projects/FITFILE Deployment — ArgoCD + Helm]]—FITFILE GitOps deployment architecture: deployment repo structure, FFNode umbrella chart at `charts/ffnode/`, FFNodes per-cluster overlays at `ffnodes/`, cluster fleet taxonomy (~15+ clusters), critical `values.yaml` fields, release process, and ArgoCD self-heal constraint.
 
 ### `wiki/orgs/`
@@ -87,4 +89,4 @@ _(empty—populated on first ingest)_
 
 ---
 
-_Updated 2026-06-10 17:40 by Project Check-In (cron/4h): 1 new raw note (FTFL-609 EBS CSI Starter Task). 1 new project page (FTFL-609 EBS CSI Driver Managed Policies Migration). Frontmatter corrected on existing pages. Flags: Pieces LTM compaction error (known), fallback to session_search._
+_Updated 2026-06-15 15:12 by Project Check-In (cron/4h): 54 Pieces assets scanned (16 substantive). No new project pages created. 1 existing page updated (FFNode Stress Testing — refinement meeting details). 1 raw note created._

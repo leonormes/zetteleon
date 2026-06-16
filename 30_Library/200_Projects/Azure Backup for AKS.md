@@ -2,10 +2,10 @@
 created: 2026-04-30T07:33:45+00:00
 modified: 2026-06-08T11:49:15+00:00
 project_category: refined_deployment
-project_name: "Refined Deployment"
+project_name: Refined Deployment
 project_status: active
 title: Azure Backup for AKS
-type: project
+type:
 ---
 
 From yesterday's memory trail in Obsidian/Azure/Jira—and with no extra workspace files attached in project context—the clean end-state was:

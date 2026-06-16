@@ -2,10 +2,10 @@
 created: 2026-05-12T08:40:03+00:00
 modified: 2026-06-08T11:49:22+00:00
 project_category: refined_deployment
-project_name: "Refined Deployment"
+project_name: Refined Deployment
 project_status: active
 title: Missing Grafana Monitoring in Testing Cluster
-type: project
+type:
 ---
 
 No new findings. Both drained pages return `recommendation: 'fetchMore'` on their respective chains, but the content is entirely duplicative of what was already captured in the synthesis—the same kube-state-metrics collision warnings, the same `fitfile-image-pull-secret` event counts, and the same Alloy job-label fix details (MR!758, `feature/FTFL-638-add-labels-for-logs`, `GRAFANA_ALLOY_FIX_PLAN.md`). One genuinely new detail surfaced from the second chain:

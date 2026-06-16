@@ -1,0 +1,32 @@
+filters:
+  and:
+    - file.ext == "md"
+    - type == "project"
+    - '!file.path.startsWith("Templates")'
+views:
+  - type: table
+    name: Active Projects Review
+    filters:
+      and:
+        - status == "ongoing"
+    order:
+      - file.name
+      - outcome
+      - area
+      - status
+      - reviewed
+    sort:
+      - property: reviewed
+        direction: ASC
+    columnSize:
+      file.name: 400
+      note.outcome: 350
+      note.area: 150
+      note.status: 100
+      note.reviewed: 120
+  - type: table
+    name: Visual Board
+    order:
+      - status
+      - file.name
+      - type

@@ -1,14 +1,20 @@
 ---
-aliases: ["Reflection Layer", "Writing to Learn"]
+aliases:
+  - Reflection Layer
+  - Writing to Learn
 created: 2025-12-04T12:23:40Z
 modified: 2026-06-08T11:49:22+00:00
 project_category: prodos
-project_name: "ProdOS"
+project_name: ProdOS
 project_status: active
-status: "stable"
-tags: ["pkm", "prodos", "understanding", "writing"]
+status: stable
+tags:
+  - pkm
+  - prodos
+  - understanding
+  - writing
 title: Stage 3 Understand (The Writing to Learn Layer)
-type: project
+type:
 ---
 
 _The Goal: To reflect on the clarified idea and discover what you now know._

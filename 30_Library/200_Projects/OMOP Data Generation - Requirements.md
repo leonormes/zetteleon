@@ -2,12 +2,20 @@
 created: 2026-04-16T00:00:00+00:00
 modified: 2026-06-08T11:49:22+00:00
 project_category: omop
-project_name: "OMOP"
+project_name: OMOP
 project_status: active
-tags: [fitfile, omop, requirements]
-tickets: [FTFL-475, FTFL-476, FTFL-479, FTFL-480, FTFL-488]
+tags:
+  - fitfile
+  - omop
+  - requirements
+tickets:
+  - FTFL-475
+  - FTFL-476
+  - FTFL-479
+  - FTFL-480
+  - FTFL-488
 title: OMOP Data Generation - Requirements
-type: project
+type:
 ---
 
 ## OMOP Data Generation—Project Requirements
