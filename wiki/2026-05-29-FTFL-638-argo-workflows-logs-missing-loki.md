@@ -1,7 +1,15 @@
 ---
 date: 2026-05-29
-tags: [fitfile, grafana, loki, argo-workflows, investigation, FTFL-638, solution]
+tags:
+- fitfile
+- grafana
+- loki
+- argo-workflows
+- investigation
+- FTFL-638
+- solution
 source: Mechanical Lead investigation + Claude Code review
+permalink: llmeon/wiki/2026-05-29-ftfl-638-argo-workflows-logs-missing-loki
 ---
 
 # FTFL-638 Follow-up: Argo Workflows Logs Missing from Grafana Loki

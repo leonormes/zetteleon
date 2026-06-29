@@ -1,13 +1,17 @@
 ---
 aliases: []
-created: 2025-10-31T13:15:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:34+00:00
-status: ""
-tags: ["diagram", "TheHuman/Philosophy", "topic/productivity"]
+created: 2025-10-31 13:15:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:34+00:00
+status: ''
+tags:
+- diagram
+- TheHuman/Philosophy
+- topic/productivity
 title: Diagram - Philosophy-Productivity Connections
-type: "visualization"
-updated: 
+type: visualization
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/diagram-philosophy-productivity-connections
 ---
 
 ## Philosophy → Productivity Connections

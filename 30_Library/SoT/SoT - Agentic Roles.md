@@ -1,9 +1,17 @@
 ---
-aliases: [AI Agent Roles, Multi-Agent Architecture, The Surgical Team]
-created: 2026-01-30T12:00:00+00:00
-modified: 2026-02-01T15:08:02+00:00
-tags: [agents, architecture, context-engine, roles]
+aliases:
+- AI Agent Roles
+- Multi-Agent Architecture
+- The Surgical Team
+created: 2026-01-30 12:00:00+00:00
+modified: 2026-02-01 15:08:02+00:00
+tags:
+- agents
+- architecture
+- context-engine
+- roles
 title: SoT - Agentic Roles
+permalink: llmeon/30-library/so-t/so-t-agentic-roles
 ---
 
 ## The Surgical Team (Agentic Roles)

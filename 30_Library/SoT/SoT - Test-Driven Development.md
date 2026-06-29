@@ -1,13 +1,19 @@
 ---
-created: 2026-04-02T10:05:00+01:00
+created: 2026-04-02 10:05:00+01:00
 last-synthesis: 2026-04-02
-modified: 2026-05-26T11:44:17+00:00
+modified: 2026-05-26 11:44:17+00:00
 source_of_truth: true
 status: evergreen
 synthesis-count: 1
-tags: [ai/guardrails, domain/software-engineering, testing/tdd, theory/software-craftsmanship, type/SoT]
+tags:
+- ai/guardrails
+- domain/software-engineering
+- testing/tdd
+- theory/software-craftsmanship
+- type/SoT
 title: SoT - Test-Driven Development
 trust-level: stable
+permalink: llmeon/30-library/so-t/so-t-test-driven-development
 ---
 
 ## Minimum Viable Understanding (MVU)

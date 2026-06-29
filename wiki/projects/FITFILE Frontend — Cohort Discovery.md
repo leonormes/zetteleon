@@ -2,11 +2,15 @@
 title: FITFILE Frontend — Cohort Discovery
 wiki_type: dossier
 entity_kind: project
-created: 2026-06-08T19:22:00+00:00
-modified: 2026-06-08T19:22:00+00:00
-tags: [wiki, dossier, project]
+created: 2026-06-08 19:22:00+00:00
+modified: 2026-06-08 19:22:00+00:00
+tags:
+- wiki
+- dossier
+- project
 sources:
-  - raw/2026-06-08-pieces-fitfile-frontend-cohort-discovery
+- raw/2026-06-08-pieces-fitfile-frontend-cohort-discovery
+permalink: llmeon/wiki/projects/fitfile-frontend-cohort-discovery
 ---
 
 ## Summary

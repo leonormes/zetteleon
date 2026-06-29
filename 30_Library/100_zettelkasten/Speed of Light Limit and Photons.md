@@ -1,16 +1,17 @@
 ---
 aliases: []
-created: 2025-09-16T12:25:36Z
-last_reviewed: ""
-modified: 2026-05-26T11:44:33+00:00
+created: 2025-09-16 12:25:36+00:00
+last_reviewed: ''
+modified: 2026-05-26 11:44:33+00:00
 see_also: []
-status: ""
-superseded_by: ""
-supersedes: ""
+status: ''
+superseded_by: ''
+supersedes: ''
 tags: []
 title: Speed of Light Limit and Photons
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/speed-of-light-limit-and-photons
 ---
 
 - Objects with mass can never reach $c$; infinite energy would be required.

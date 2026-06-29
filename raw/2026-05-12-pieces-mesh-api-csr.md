@@ -1,10 +1,19 @@
 ---
-created: 2026-05-12T22:06:30+00:00
-modified: 2026-05-26T11:43:43+00:00
-pieces_ids: ["01b4c4df-6703-44a5-927c-e2569d8faea4", "880f648a-a7ac-4f9d-983d-0efc9e0ed0e8", "89eefa6a-2342-4bfc-8470-6c6e2673a7af", "97548f1b-28de-4b46-8c32-832157f94f57", "e69b17ef-cbec-44d6-9e4e-f471c5b8ee68", "ffe79b06-86f9-4c29-9177-3fa72c84563a"]
+created: 2026-05-12 22:06:30+00:00
+modified: 2026-05-26 11:43:43+00:00
+pieces_ids:
+- 01b4c4df-6703-44a5-927c-e2569d8faea4
+- 880f648a-a7ac-4f9d-983d-0efc9e0ed0e8
+- 89eefa6a-2342-4bfc-8470-6c6e2673a7af
+- 97548f1b-28de-4b46-8c32-832157f94f57
+- e69b17ef-cbec-44d6-9e4e-f471c5b8ee68
+- ffe79b06-86f9-4c29-9177-3fa72c84563a
 source: pieces-ltm
-tags: [pieces, raw]
+tags:
+- pieces
+- raw
 title: 2026-05-12-pieces-mesh-api-csr
+permalink: llmeon/raw/2026-05-12-pieces-mesh-api-csr
 ---
 
 ## Pieces LTM Ingest—MESH API CSR

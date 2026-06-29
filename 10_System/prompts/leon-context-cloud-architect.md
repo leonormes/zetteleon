@@ -1,11 +1,16 @@
 ---
 aliases: []
-created: 2026-02-02T07:05:00+00:00
-description: Leon’s professional context as a staff-level cloud architect (focus areas and precision bar).
-modified: 2026-05-26T11:44:37+00:00
-tags: [domain/cloud, system/prompt, type/context]
+created: 2026-02-02 07:05:00+00:00
+description: Leon’s professional context as a staff-level cloud architect (focus areas
+  and precision bar).
+modified: 2026-05-26 11:44:37+00:00
+tags:
+- domain/cloud
+- system/prompt
+- type/context
 title: leon-context-cloud-architect
 type: prompt
+permalink: llmeon/10-system/prompts/leon-context-cloud-architect
 ---
 
 ## Professional Context: Staff Engineer & Architect

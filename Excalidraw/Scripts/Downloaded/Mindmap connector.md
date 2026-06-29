@@ -1,7 +1,8 @@
 ---
-created: 2026-03-31T10:24:46+00:00
-modified: 2026-05-26T11:43:57+00:00
+created: 2026-03-31 10:24:46+00:00
+modified: 2026-05-26 11:43:57+00:00
 title: Mindmap connector
+permalink: llmeon/excalidraw/scripts/downloaded/mindmap-connector
 ---
 
 /*

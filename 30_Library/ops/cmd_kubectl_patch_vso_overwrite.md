@@ -1,12 +1,17 @@
 ---
-created: 2026-02-21T15:07:25+00:00
-modified: 2026-03-14T11:10:10+00:00
+created: 2026-02-21 15:07:25+00:00
+modified: 2026-03-14 11:10:10+00:00
 risk: low
 service: vso
-tags: [config, k8s, mutation, vso]
+tags:
+- config
+- k8s
+- mutation
+- vso
 title: cmd_kubectl_patch_vso_overwrite
 tool: kubectl
 type: command
+permalink: llmeon/30-library/ops/cmd-kubectl-patch-vso-overwrite
 ---
 
 ## Patch VSO Overwrite Property

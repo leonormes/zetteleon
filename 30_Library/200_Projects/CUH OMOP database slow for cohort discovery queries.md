@@ -1,11 +1,12 @@
 ---
-created: 2026-04-24T07:22:57+00:00
-modified: 2026-06-08T11:49:16+00:00
+created: 2026-04-24 07:22:57+00:00
+modified: 2026-06-08 11:49:16+00:00
 project_category: omop
 project_name: OMOP
 project_status: active
 title: CUH OMOP database slow for cohort discovery queries
-type:
+type: null
+permalink: llmeon/30-library/200-projects/cuh-omop-database-slow-for-cohort-discovery-queries
 ---
 
 Based on your long-term memories, the strongest evidence is the Mail thread you were viewing at 8:19 AM today about "RE: CUH OMOP database slow for cohort discovery queries", plus yesterday's related Slack/email activity. I don't see any relevant workspace files in the project context for this, so this summary is based on the email and chat trail.

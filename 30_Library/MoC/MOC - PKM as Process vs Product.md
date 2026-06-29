@@ -1,13 +1,14 @@
 ---
 aliases: []
-created: 2025-10-20T09:40:00Z
-last_reviewed: ""
-modified: 2026-02-04T07:27:27+00:00
-status: ""
+created: 2025-10-20 09:40:00+00:00
+last_reviewed: ''
+modified: 2026-02-04 07:27:27+00:00
+status: ''
 tags: []
 title: MOC - PKM as Process vs Product
-type: "map"
-updated: 
+type: map
+updated: null
+permalink: llmeon/30-library/mo-c/moc-pkm-as-process-vs-product
 ---
 
 This collection of notes explores the fundamental challenge of using a PKM as a tool for thinking (a process) rather than as a simple repository for conclusions (a product).

@@ -1,10 +1,18 @@
 ---
 created: 2026-05-01T22:02:15+00:00
-modified: 2026-05-26T11:43:48+00:00
-pieces_ids: [" 129885bd-6e65-48ad-b94c-b4f8965375f1", " 43b36746-dbfb-4018-9dd0-c40db9cc0efc", " 8bb09341-292b-4eb4-99eb-ff58e973f670", " a47a239c-3df0-4169-8a75-ea59e8b10c54", " b36b382d-7259-45ce-b157-1b37e11c1f29"]
+modified: 2026-06-24T13:51:56+00:00
+pieces_ids:
+- ' 129885bd-6e65-48ad-b94c-b4f8965375f1'
+- ' 43b36746-dbfb-4018-9dd0-c40db9cc0efc'
+- ' 8bb09341-292b-4eb4-99eb-ff58e973f670'
+- ' a47a239c-3df0-4169-8a75-ea59e8b10c54'
+- ' b36b382d-7259-45ce-b157-1b37e11c1f29'
 source: pieces-ltm
-tags: [pieces, raw]
+tags:
+- pieces
+- raw
 title: 2026-05-01-pieces-aws-ssm-troubleshooting
+permalink: llmeon/raw/2026-05-01-pieces-aws-ssm-troubleshooting
 ---
 
 ## AWS SSM Session Troubleshooting—Pieces LTM Capture
@@ -27,7 +35,7 @@ This session is encrypted using AWS KMS.
 
 SessionId: oliver.rushton@fitfile.com-qtg64hh8su5tazsf34ogban7va: Couldn't start the session because we are unable to validate encryption on Amazon S3 bucket. Error: AccessDenied: User: arn:aws:sts::135808916559:assumed-role/eoe-test-codisc-jumpbox-ssm-role/i-0c1d974fcac60d438 is not authorized to perform: s3:GetEncryptionConfiguration on resource: "arn:aws:s3:::aws-accelerator-central-logs-381491886943-eu-west-2" because no identity-based policy allows the s3:GetEncryptionConfiguration action
 
-        status code: 403, request id: 1KR81ZMFYGCXGF5A, host id: ZshD/1BaNpWYvmz61qPpalIRoHKL2vslEh+RfueF5hC4XAC4ee60AcB9799re/ARfGxZ/XofIoOsmkN67s44sNVgRJcy8xi9
+status code: 403, request id: 1KR81ZMFYGCXGF5A, host id: ZshD/1BaNpWYvmz61qPpalIRoHKL2vslEh+RfueF5hC4XAC4ee60AcB9799re/ARfGxZ/XofIoOsmkN67s44sNVgRJcy8xi9
 
 ---
 

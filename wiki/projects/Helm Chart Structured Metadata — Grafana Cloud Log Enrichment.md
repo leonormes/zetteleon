@@ -2,12 +2,15 @@
 title: Helm Chart Structured Metadata — Grafana Cloud Log Enrichment
 wiki_type: dossier
 entity_kind: project
-created: 2026-06-08T11:00:00+00:00
-modified: 2026-06-08T14:00:00+00:00
-tags: [wiki, dossier]
+created: 2026-06-08 11:00:00+00:00
+modified: 2026-06-08 14:00:00+00:00
+tags:
+- wiki
+- dossier
 sources:
-  - raw/2026-06-08-pieces-helm-structured-metadata
-  - raw/2026-06-04-pieces-k8s-labels-structured-metadata
+- raw/2026-06-08-pieces-helm-structured-metadata
+- raw/2026-06-04-pieces-k8s-labels-structured-metadata
+permalink: llmeon/wiki/projects/helm-chart-structured-metadata-grafana-cloud-log-enrichment
 ---
 
 ## Summary

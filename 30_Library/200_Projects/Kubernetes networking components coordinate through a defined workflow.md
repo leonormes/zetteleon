@@ -1,16 +1,25 @@
 ---
 aliases: []
-created: 2025-10-26T17:22:00Z
-last_reviewed: "null"
-modified: 2026-06-08T11:49:21+00:00
+created: 2025-10-26 17:22:00+00:00
+last_reviewed: 'null'
+modified: 2026-06-08 11:49:21+00:00
 project_category: infrastructure
-project_name: "k8s"
+project_name: k8s
 project_status: archived
-status: "null"
-tags: ["cni", "coordination", "kube-proxy", "kubelet", "SoftwareEngineering/Containers", "SoftwareEngineering/containers/container-runtime", "SoftwareEngineering/Kubernetes", "workflow"]
+status: 'null'
+tags:
+- cni
+- coordination
+- kube-proxy
+- kubelet
+- SoftwareEngineering/Containers
+- SoftwareEngineering/containers/container-runtime
+- SoftwareEngineering/Kubernetes
+- workflow
 title: Kubernetes networking components coordinate through a defined workflow
-type: "Fact"
-updated: 
+type: Fact
+updated: null
+permalink: llmeon/30-library/200-projects/kubernetes-networking-components-coordinate-through-a-defined-workflow
 ---
 
 ## Summary

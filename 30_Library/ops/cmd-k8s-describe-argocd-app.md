@@ -1,15 +1,19 @@
 ---
-created: 2026-02-16T11:46:04+00:00
+created: 2026-02-16 11:46:04+00:00
 hop_level: local
-modified: 2026-03-14T11:10:11+00:00
+modified: 2026-03-14 11:10:11+00:00
 prerequisites:
-  - [[cmd-ssh-bastion-tunnel]]
+- - - cmd-ssh-bastion-tunnel
 requires_tunnel: true
-tags: [argocd, atomic, kubectl]
+tags:
+- argocd
+- atomic
+- kubectl
 target_service: argocd
 title: cmd-k8s-describe-argocd-app
 tool: kubectl
 type: atomic_command
+permalink: llmeon/30-library/ops/cmd-k8s-describe-argocd-app
 ---
 
 ## Describe ArgoCD Application

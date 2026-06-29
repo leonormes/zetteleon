@@ -1,15 +1,20 @@
 ---
-created: 2026-04-14T17:43:57+00:00
-created_utc: "2026-04-14T12:20:00Z"
+created: 2026-04-14 17:43:57+00:00
+created_utc: '2026-04-14T12:20:00Z'
 kind: mechanism
-modified: 2026-05-26T11:44:34+00:00
-source_title: "The Fundamental Challenge of Concurrent and Distributed Systems"
-source_url: "http://www.youtube.com/watch?v=U719vQz-WFs"
+modified: 2026-05-26 11:44:34+00:00
+source_title: The Fundamental Challenge of Concurrent and Distributed Systems
+source_url: http://www.youtube.com/watch?v=U719vQz-WFs
 status: seed
-tags: [algorithms, atomicity, bakery-algorithm, mutual-exclusion]
+tags:
+- algorithms
+- atomicity
+- bakery-algorithm
+- mutual-exclusion
 title: Mutual Exclusion without Hardware Atomicity
 type: atom
-upstream: "[[SoT - Rust Concurrency & Async Paradigms]]"
+upstream: '[[SoT - Rust Concurrency & Async Paradigms]]'
+permalink: llmeon/30-library/100-zettelkasten/mutual-exclusion-without-hardware-atomicity
 ---
 
 ## Mutual Exclusion without Hardware Atomicity

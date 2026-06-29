@@ -1,13 +1,17 @@
 ---
-aliases: ["Hayakawa's Ladder"]
-created: 2025-10-31T11:21:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:25+00:00
-status: "seedling"
-tags: ["abstraction", "TheHuman/Cognition"]
+aliases:
+- Hayakawa's Ladder
+created: 2025-10-31 11:21:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:25+00:00
+status: seedling
+tags:
+- abstraction
+- TheHuman/Cognition
 title: The Ladder of Abstraction Models Conceptual Granularity
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/the-ladder-of-abstraction-models-conceptual-granularity
 ---
 
 Summary: S.I. Hayakawa's ladder of abstraction describes a continuum from concrete specifics to abstract generalizations, with each rung representing a different level of conceptual granularity. This model is fundamental to understanding [[The Science of Modelling and Abstraction]] and how we construct [[Mental Models MOC|mental models]] of reality.

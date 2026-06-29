@@ -1,16 +1,18 @@
 ---
 aliases: []
-created: 2025-02-07T12:57:54Z
-last_reviewed: ""
-modified: 2026-06-08T11:49:22+00:00
+created: 2025-02-07 12:57:54+00:00
+last_reviewed: ''
+modified: 2026-06-08 11:49:22+00:00
 project_category: infrastructure
-project_name: "k8s"
+project_name: k8s
 project_status: archived
-status: ""
-tags: ["SoftwareEngineering/Containers"]
+status: ''
+tags:
+- SoftwareEngineering/Containers
 title: building_containers_using_linux_primitives
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/200-projects/building-containers-using-linux-primitives
 ---
 
 To gain a comprehensive understanding of building containers using Linux primitives, which will serve as a solid foundation for mastering Kubernetes and cloud-native technologies, consider the following resources:

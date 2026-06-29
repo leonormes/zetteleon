@@ -1,13 +1,20 @@
 ---
-aliases: ["Character Ideal", "Virtue Ethics"]
-created: 2025-07-16T17:30:02Z
-last_reviewed: "null"
-modified: 2026-02-01T15:08:25+00:00
-status: "null"
-tags: ["character", "ethics", "topic/philosophy", "virtue"]
+aliases:
+- Character Ideal
+- Virtue Ethics
+created: 2025-07-16 17:30:02+00:00
+last_reviewed: 'null'
+modified: 2026-02-01 15:08:25+00:00
+status: 'null'
+tags:
+- character
+- ethics
+- topic/philosophy
+- virtue
 title: The Concept of a Character Ideal
-type: "null"
-updated: 
+type: 'null'
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/the-concept-of-a-character-ideal
 ---
 
 The notion of a "character ideal" is a cornerstone of virtue ethics, a philosophical tradition dating back to ancient thinkers like Plato and Aristotle. It represents an aspirational guide for moral and ethical conduct, focusing on the cultivation of virtues.

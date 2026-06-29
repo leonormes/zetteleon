@@ -2,10 +2,22 @@
 title: Chezmoi
 wiki_type: dossier
 entity_kind: project
-created: 2026-05-18T13:40:46.636193+00:00
-modified: 2026-05-29T15:33:41+00:00
-tags: [wiki, dossier, project]
-sources: ["raw/2026-05-18-pieces-cuh-rbac-permissions.md", "raw/2026-05-18-pieces-worker-status-reflections.md", "raw/2026-05-18-pieces-hermes-gitlab-research.md", "raw/2026-05-18-pieces-brain-mcp-integration.md", "raw/2026-05-18-pieces-hermes-diagnostic-session.md", "raw/2026-05-18-pieces-llm-mcp-chezmoi-config.md", "raw/2026-05-29-pieces-chezmoi-audit.md"]
+created: 2026-05-18 13:40:46.636193+00:00
+modified: 2026-06-22 10:00:00+00:00
+tags:
+- wiki
+- dossier
+- project
+sources:
+- raw/2026-05-18-pieces-cuh-rbac-permissions.md
+- raw/2026-05-18-pieces-worker-status-reflections.md
+- raw/2026-05-18-pieces-hermes-gitlab-research.md
+- raw/2026-05-18-pieces-brain-mcp-integration.md
+- raw/2026-05-18-pieces-hermes-diagnostic-session.md
+- raw/2026-05-18-pieces-llm-mcp-chezmoi-config.md
+- raw/2026-05-29-pieces-chezmoi-audit.md
+- raw/2026-06-22-pieces-chezmoi-llm-config-consolidation.md
+permalink: llmeon/wiki/projects/chezmoi
 ---
 
 ## Summary
@@ -13,6 +25,8 @@ sources: ["raw/2026-05-18-pieces-cuh-rbac-permissions.md", "raw/2026-05-18-piece
 Dotfile management using chezmoi for version-controlled configuration across systems with source directory at ~/.local/share/chezmoi/.
 
 Last audited 2026-05-29: full structural audit completed with 17 findings. Overall health: good, with mechanical cleanups recommended.
+
+**2026-06-22**: LLM configuration file consolidation workstream initiated — researching best practices for reducing bloat from multiple LLM config providers (Antigravity, Claude, Hermes, Cursor) under chezmoi management.
 
 ## Key Facts
 
@@ -44,7 +58,9 @@ Last audited 2026-05-29: full structural audit completed with 17 findings. Overa
 
 - **2026-05-29**: Full structural audit of the chezmoi dotfiles repo completed — 17 findings identified: (1) `sentence-transformers` in `inventory.common` has no registry entry (HIGH — causes nil-resolution); (2) `cue` and `slack` duplicated across `common` and `work` inventories (LOW); (3) `dot_hermes_custom_skills/custom/mcp-proxy/` is empty in chezmoi source but runtime `mcp-integration/SKILL.md` is not tracked; (4) four Linux-only `run_*` scripts execute on macOS (harmless but noisy); (5) `dot_wezterm.lua` (119 lines) is vestigial since Ghostty is active — [[raw/2026-05-29-pieces-chezmoi-audit.md]] (Pieces: cf86f34c-82cc-426e-b81b-331d70267dfc)
 
-- **2026-05-29**: A Hermes `/goal` prompt was generated from the audit findings — "CHEZMOI DOTFILES — RESILIENCE & SIMPLICITY REFACTOR" covering Phase 1: data pipeline integrity fixes (CUE/packages.yaml), atomic write approach, and staged refactor — [[raw/2026-05-29-pieces-chezmoi-audit.md]] (Pieces: fa883503-057b-4ce2-a645-f7b59eed7e55)
+|- **2026-05-29**: A Hermes `/goal` prompt was generated from the audit findings — "CHEZMOI DOTFILES — RESILIENCE & SIMPLICITY REFACTOR" covering Phase 1: data pipeline integrity fixes (CUE/packages.yaml), atomic write approach, and staged refactor — [[raw/2026-05-29-pieces-chezmoi-audit.md]] (Pieces: fa883503-057b-4ce2-a645-f7b59eed7e55)
+
+|- **2026-06-22**: LLM configuration file consolidation research initiated — user flagged bloat from multiple LLM configs (Antigravity, Claude, Hermes, Cursor) under chezmoi management. Agent conducted web research on best practices and began filesystem analysis of the chezmoi repo for config optimisation opportunities — [[raw/2026-06-22-pieces-chezmoi-llm-config-consolidation.md]]
 
 - **Summary updated 2026-05-29**: The dotfiles repo remains well-architected with CUE-data-driven pipeline. Overall health: good, with mechanical cleanups recommended.
 
@@ -57,8 +73,9 @@ Last audited 2026-05-29: full structural audit completed with 17 findings. Overa
 
 ## Timeline
 
-- **2026-05-18** — Project page created from Pieces LTM ingests
-- **2026-05-29** — Full structural audit completed (17 findings); `/goal` prompt generated for staged refactor
+|- **2026-05-18** — Project page created from Pieces LTM ingests
+|- **2026-05-29** — Full structural audit completed (17 findings); `/goal` prompt generated for staged refactor
+|- **2026-06-22** — LLM configuration consolidation research initiated: web research, filesystem analysis, best-practices assessment for reducing provider config bloat
 
 ## Contradictions
 

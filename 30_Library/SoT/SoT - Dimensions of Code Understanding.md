@@ -1,9 +1,17 @@
 ---
-aliases: [6 Dimensions of Code Understanding, AI Code Quality Framework, Structural vs Causal Code]
-created: 2026-01-30T07:55:00+00:00
-modified: 2026-02-01T15:07:59+00:00
-tags: [code-quality, framework, llm-evaluation, software-architecture]
+aliases:
+- 6 Dimensions of Code Understanding
+- AI Code Quality Framework
+- Structural vs Causal Code
+created: 2026-01-30 07:55:00+00:00
+modified: 2026-02-01 15:07:59+00:00
+tags:
+- code-quality
+- framework
+- llm-evaluation
+- software-architecture
 title: SoT - Dimensions of Code Understanding
+permalink: llmeon/30-library/so-t/so-t-dimensions-of-code-understanding
 ---
 
 ## Dimensions of Code Understanding

@@ -1,15 +1,22 @@
 ---
-created: 2026-02-22T16:57:21+00:00
+created: 2026-02-22 16:57:21+00:00
 hop_level: local
 last_verified: 2026-02-22
-modified: 2026-03-14T11:10:11+00:00
+modified: 2026-03-14 11:10:11+00:00
 requires_tunnel: false
 status: active
-tags: [argocd, auth, cmd, exec, helm, oci]
+tags:
+- argocd
+- auth
+- cmd
+- exec
+- helm
+- oci
 target_service: argocd
 title: cmd_kubectl_argocd_exec_helm_registry_login
 tool: kubectl
 type: command
+permalink: llmeon/30-library/ops/cmd-kubectl-argocd-exec-helm-registry-login
 ---
 
 ## Test Helm Registry Login from Repo-Server Pod

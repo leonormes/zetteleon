@@ -1,14 +1,21 @@
 ---
 aliases: []
-created: 2025-10-30T12:00:01Z
-last_reviewed: "2025-12-16"
-modified: 2026-02-01T15:08:32+00:00
-source: "[[MOC - ADHD Task Management]]"
-status: "pending"
-tags: ["experiment", "hypothesis", "interest-pairing", "TheHuman/Health/ADHD", "TheHuman/Motivation", "topic/productivity"]
+created: 2025-10-30 12:00:01+00:00
+last_reviewed: '2025-12-16'
+modified: 2026-02-01 15:08:32+00:00
+source: '[[MOC - ADHD Task Management]]'
+status: pending
+tags:
+- experiment
+- hypothesis
+- interest-pairing
+- TheHuman/Health/ADHD
+- TheHuman/Motivation
+- topic/productivity
 title: Interest Pairing Can Increase Engagement in Mundane Tasks for ADHD
-type: "hypothesis"
-updated: 
+type: hypothesis
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/interest-pairing-can-increase-engagement-in-mundane-tasks-for-adhd
 ---
 
 ## 1. The Hypothesis

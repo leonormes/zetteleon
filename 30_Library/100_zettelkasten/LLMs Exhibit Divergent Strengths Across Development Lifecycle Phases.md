@@ -1,8 +1,14 @@
 ---
-created: 2026-04-10T13:00:00+00:00
-modified: 2026-05-26T11:44:34+00:00
-tags: [claude, gpt, model-selection, software-engineering, specialization]
+created: 2026-04-10 13:00:00+00:00
+modified: 2026-05-26 11:44:34+00:00
+tags:
+- claude
+- gpt
+- model-selection
+- software-engineering
+- specialization
 title: LLMs Exhibit Divergent Strengths Across Development Lifecycle Phases
+permalink: llmeon/30-library/100-zettelkasten/llms-exhibit-divergent-strengths-across-development-lifecycle-phases
 ---
 
 ## LLMs Exhibit Divergent Strengths Across Development Lifecycle Phases

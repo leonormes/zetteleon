@@ -1,9 +1,35 @@
 ---
 title: K8s Labels & Structured Metadata Strategy — Grafana/Loki/AKS
-created: 2026-06-04T20:41:05+00:00
+created: 2026-06-04 20:41:05+00:00
 source: pieces-ltm
-pieces_ids: ["c1023742-62e5-425d-a9ca-7ff8aad2a4b2", "f7a190fd-8c05-4bbc-bf3b-1f8c82edc4a3", "01fe55f3-088e-4c70-aab4-1000642a27fd", "68591b5d-fca5-4556-9e63-946559606729", "d677b0c9-90a5-46c2-83fd-af8b736d8a96", "8b5611c7-42aa-4bf1-9c1a-f136a028a4a6", "858017ae-51b3-4d4e-90e2-a7ee35afb8b8", "d38760ff-4558-4117-93fd-6018e912a89b", "ca07acee-f6ee-4f7f-a301-bc1487181d76", "f0fe8f69-c530-41f2-9696-669c36615e69", "0779bb9e-4570-4e85-bb08-c419de1517f5", "3d7e8712-c117-4c62-a79e-58ea7c39e3f0", "03dcbd01-eff6-4321-b3dd-eaf9bc8e72f3", "0cfb94fc-16e0-463c-ad6e-d4f05dc3463a", "385645db-8ac2-4aa2-a9ad-a1e20c1b4bbe", "45c183f7-7c1b-4416-9e55-cc3ddf8981d5", "ebd6f5d8-d014-4a6c-be1d-86e113bd042a", "71e68ae5-164b-44a2-bb9d-1b9f0e725991", "8bf9bfd7-b98e-4277-bda5-d08b0fc19df2", "a8ab12d8-8295-4c51-ab1d-5b81bf816791", "30abbb40-955d-426a-86c5-de21b16b8ca0", "f92246f7-5a18-47e0-aff8-054bc54fa803", "324bc6c5-a7db-4bcd-8956-692d75ed6800"]
-tags: [raw, pieces]
+pieces_ids:
+- c1023742-62e5-425d-a9ca-7ff8aad2a4b2
+- f7a190fd-8c05-4bbc-bf3b-1f8c82edc4a3
+- 01fe55f3-088e-4c70-aab4-1000642a27fd
+- 68591b5d-fca5-4556-9e63-946559606729
+- d677b0c9-90a5-46c2-83fd-af8b736d8a96
+- 8b5611c7-42aa-4bf1-9c1a-f136a028a4a6
+- 858017ae-51b3-4d4e-90e2-a7ee35afb8b8
+- d38760ff-4558-4117-93fd-6018e912a89b
+- ca07acee-f6ee-4f7f-a301-bc1487181d76
+- f0fe8f69-c530-41f2-9696-669c36615e69
+- 0779bb9e-4570-4e85-bb08-c419de1517f5
+- 3d7e8712-c117-4c62-a79e-58ea7c39e3f0
+- 03dcbd01-eff6-4321-b3dd-eaf9bc8e72f3
+- 0cfb94fc-16e0-463c-ad6e-d4f05dc3463a
+- 385645db-8ac2-4aa2-a9ad-a1e20c1b4bbe
+- 45c183f7-7c1b-4416-9e55-cc3ddf8981d5
+- ebd6f5d8-d014-4a6c-be1d-86e113bd042a
+- 71e68ae5-164b-44a2-bb9d-1b9f0e725991
+- 8bf9bfd7-b98e-4277-bda5-d08b0fc19df2
+- a8ab12d8-8295-4c51-ab1d-5b81bf816791
+- 30abbb40-955d-426a-86c5-de21b16b8ca0
+- f92246f7-5a18-47e0-aff8-054bc54fa803
+- 324bc6c5-a7db-4bcd-8956-692d75ed6800
+tags:
+- raw
+- pieces
+permalink: llmeon/raw/2026-06-04-pieces-k8s-labels-structured-metadata
 ---
 
 # K8s Labels & Structured Metadata Strategy

@@ -1,12 +1,14 @@
 ---
-captured: "2026-05-21T15:40:04+01:00 2026-05-21T15:40:04+01:00"
-created: 2026-05-21T14:40:06+00:00
-modified: 2026-05-28T12:31:13+00:00
-source: "https://claude.ai/chat/af9bd096-ef27-493e-8b30-859967b46e97"
-status: "processing"
-tags: ["input"]
+captured: 2026-05-21T15:40:04+01:00 2026-05-21T15:40:04+01:00
+created: 2026-05-21 14:40:06+00:00
+modified: 2026-05-28 12:31:13+00:00
+source: https://claude.ai/chat/af9bd096-ef27-493e-8b30-859967b46e97
+status: processing
+tags:
+- input
 title: HEAD Fundamental theorem of arithmetic
-type: "head"
+type: head
+permalink: llmeon/20-thinking/21-workbench/head-fundamental-theorem-of-arithmetic
 ---
 
 ## Raw Output / Content

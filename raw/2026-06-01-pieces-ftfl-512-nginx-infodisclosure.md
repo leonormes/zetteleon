@@ -1,10 +1,46 @@
 ---
 title: FTFL-512 — Nginx 302 Information Disclosure & Server-Snippet Fix
-created: 2026-06-01T22:03:23+00:00
+created: 2026-06-01 22:03:23+00:00
 source: pieces-ltm
-pieces_ids: [7cafab12-f27f-4b01-bbd7-ea1087d5a86f, ecb0cc97-2811-41ff-a6c4-5af9f739a9de, 4380cec7-cf76-4be2-93e1-18c9780f4b1a, d54b2256-513f-465b-ba50-1cde141c238a, 4fddad01-3bfa-4aff-a9db-c486a3b67552, 46d7a33b-a3cf-4abc-b47b-a6baa5d4a38c, d2c743ba-6c59-464f-b252-40b012ac0c43, 0b62d657-a52e-4bc5-8360-fb111fa1c82a, 2c92d73e-edb4-4e3f-b92c-229c5c677980, fcd6c4c2-f39a-4b92-8075-0c49230645e2, 6cf288db-865a-4fb9-bb4a-75c87ebdee17, 1560b425-47d6-4bc6-a3ba-7ed113b695be, ffc75310-6d32-4b29-9649-13e2746265e9, ec190277-7845-454d-8da7-e354b54f66ff, bab966f6-3980-4567-abcf-d58cd217c102, 56a533df-da43-4ab4-aa74-a14546502b18, 298bff01-9ffc-49c0-9961-2762024b1305, e99767e1-9ec2-4b14-aecf-ae77bbd5d128, 2c6b661d-0d98-4f6c-95b9-e3594046a56e, b7816631-94ba-435b-af95-1f5886a61ef8, 8407556e-1b6c-405e-ac6b-fe0fc72bcadd, 94fe262d-a644-4cad-ba5b-4664c635be2f, 2543bb8c-3625-4ff7-8c03-c7ab721a11e5, 11e0242f-0166-4198-8486-38f23c4f7e76, 1e442f42-03b5-47d2-8597-ed9956d98c52, 476814ce-407d-4c82-8102-db201e33fe3b, 6a3ea121-a98a-430b-a0e7-d891d05d8fc2, dd3b54a3-76cb-433d-a968-18a05803b122, 35aef6e1-b059-45ed-9ca2-df603e9167db, 18aaacc2-d3ca-4700-a21f-39cef9e6af50, 617a3fcb-01cf-4afc-a5b8-71f8f31687a4, dbf29a64-38dd-46fb-b92a-ac7c3af5625a]
-tags: [raw, pieces]
+pieces_ids:
+- 7cafab12-f27f-4b01-bbd7-ea1087d5a86f
+- ecb0cc97-2811-41ff-a6c4-5af9f739a9de
+- 4380cec7-cf76-4be2-93e1-18c9780f4b1a
+- d54b2256-513f-465b-ba50-1cde141c238a
+- 4fddad01-3bfa-4aff-a9db-c486a3b67552
+- 46d7a33b-a3cf-4abc-b47b-a6baa5d4a38c
+- d2c743ba-6c59-464f-b252-40b012ac0c43
+- 0b62d657-a52e-4bc5-8360-fb111fa1c82a
+- 2c92d73e-edb4-4e3f-b92c-229c5c677980
+- fcd6c4c2-f39a-4b92-8075-0c49230645e2
+- 6cf288db-865a-4fb9-bb4a-75c87ebdee17
+- 1560b425-47d6-4bc6-a3ba-7ed113b695be
+- ffc75310-6d32-4b29-9649-13e2746265e9
+- ec190277-7845-454d-8da7-e354b54f66ff
+- bab966f6-3980-4567-abcf-d58cd217c102
+- 56a533df-da43-4ab4-aa74-a14546502b18
+- 298bff01-9ffc-49c0-9961-2762024b1305
+- e99767e1-9ec2-4b14-aecf-ae77bbd5d128
+- 2c6b661d-0d98-4f6c-95b9-e3594046a56e
+- b7816631-94ba-435b-af95-1f5886a61ef8
+- 8407556e-1b6c-405e-ac6b-fe0fc72bcadd
+- 94fe262d-a644-4cad-ba5b-4664c635be2f
+- 2543bb8c-3625-4ff7-8c03-c7ab721a11e5
+- 11e0242f-0166-4198-8486-38f23c4f7e76
+- 1e442f42-03b5-47d2-8597-ed9956d98c52
+- 476814ce-407d-4c82-8102-db201e33fe3b
+- 6a3ea121-a98a-430b-a0e7-d891d05d8fc2
+- dd3b54a3-76cb-433d-a968-18a05803b122
+- 35aef6e1-b059-45ed-9ca2-df603e9167db
+- 18aaacc2-d3ca-4700-a21f-39cef9e6af50
+- 617a3fcb-01cf-4afc-a5b8-71f8f31687a4
+- dbf29a64-38dd-46fb-b92a-ac7c3af5625a
+tags:
+- raw
+- pieces
+permalink: llmeon/raw/2026-06-01-pieces-ftfl-512-nginx-infodisclosure
 ---
+
 ## Asset 1 (Pieces: 7cafab12-f27f-4b01-bbd7-ea1087d5a86f) — 2026-06-01T13:31
 
 **That's the root cause.** The admission webhook is explicitly blocking `server-snippet` annotations cluster-wide. This is a deliberate ingress-nginx security policy — `allow-snippet-annotations` is set to `false` on the controller.

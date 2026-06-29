@@ -1,13 +1,18 @@
 ---
 aliases: []
-created: 2025-10-20T10:04:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:35+00:00
-status: ""
-tags: ["communication", "evolution", "sociology", "TheHuman/Cognition"]
+created: 2025-10-20 10:04:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:35+00:00
+status: ''
+tags:
+- communication
+- evolution
+- sociology
+- TheHuman/Cognition
 title: Collective Intelligence is Enabled by Communication
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/collective-intelligence-is-enabled-by-communication
 ---
 
 The extraordinary advancement of human intelligence is not just a property of individual brains, but of our ability to form a collective brain through communication and cooperation.

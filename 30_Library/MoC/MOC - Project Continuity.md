@@ -1,16 +1,22 @@
 ---
-aliases: ["Project Continuity MOC"]
-created: 2025-11-11T19:05:01Z
-criteria: "Atomic notes explaining the cognitive challenges or providing specific strategies to bridge work sessions."
-exclusions: "General project management techniques not focused on cognitive re-engagement."
-last_reviewed: ""
-modified: 2026-02-01T15:08:05+00:00
-scope: "Strategies for maintaining engagement and continuity in long-term projects, especially for neurodivergent minds."
-status: "stable"
-tags: ["TheHuman/Health/ADHD", "topic/productivity"]
+aliases:
+- Project Continuity MOC
+created: 2025-11-11 19:05:01+00:00
+criteria: Atomic notes explaining the cognitive challenges or providing specific strategies
+  to bridge work sessions.
+exclusions: General project management techniques not focused on cognitive re-engagement.
+last_reviewed: ''
+modified: 2026-02-01 15:08:05+00:00
+scope: Strategies for maintaining engagement and continuity in long-term projects,
+  especially for neurodivergent minds.
+status: stable
+tags:
+- TheHuman/Health/ADHD
+- topic/productivity
 title: MOC - Project Continuity
-type: "map"
-updated: 
+type: map
+updated: null
+permalink: llmeon/30-library/mo-c/moc-project-continuity
 ---
 
 ## MOC - Project Continuity

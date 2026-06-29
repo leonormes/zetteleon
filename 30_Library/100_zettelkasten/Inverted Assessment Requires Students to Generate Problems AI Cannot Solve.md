@@ -1,8 +1,13 @@
 ---
-created: 2026-04-10T13:00:00+00:00
-modified: 2026-05-26T11:44:34+00:00
-tags: [assessment-design, pedagogy, rigorous-learning, socratic-method]
+created: 2026-04-10 13:00:00+00:00
+modified: 2026-05-26 11:44:34+00:00
+tags:
+- assessment-design
+- pedagogy
+- rigorous-learning
+- socratic-method
 title: Inverted Assessment Requires Students to Generate Problems AI Cannot Solve
+permalink: llmeon/30-library/100-zettelkasten/inverted-assessment-requires-students-to-generate-problems-ai-cannot-solve
 ---
 
 ## Inverted Assessment Requires Students to Generate Problems AI Cannot Solve

@@ -1,13 +1,14 @@
 ---
 aliases: []
-created: 2025-05-26T20:23:10Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:33+00:00
-status: ""
+created: 2025-05-26 20:23:10+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:33+00:00
+status: ''
 tags: []
 title: Foundations of Learning and Cognition for Developers
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/foundations-of-learning-and-cognition-for-developers
 ---
 
 [[Unravelling the Cognitive Landscape of Software Development]]

@@ -1,8 +1,12 @@
 ---
 title: Infrastructure Wiki
-created: 2026-05-23T00:00:00+00:00
-modified: 2026-05-23T00:00:00+00:00
-tags: [wiki, infrastructure, index]
+created: 2026-05-23 00:00:00+00:00
+modified: 2026-05-23 00:00:00+00:00
+tags:
+- wiki
+- infrastructure
+- index
+permalink: llmeon/wiki/infrastructure/index
 ---
 
 # Infrastructure Wiki — Agent Knowledge

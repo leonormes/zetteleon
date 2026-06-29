@@ -1,12 +1,16 @@
 ---
-created: 2026-02-17T08:59:36+00:00
+created: 2026-02-17 08:59:36+00:00
 hop_level: local
-modified: 2026-03-14T11:10:11+00:00
-tags: [atomic, ingress, k8s]
+modified: 2026-03-14 11:10:11+00:00
+tags:
+- atomic
+- ingress
+- k8s
 target_service: k8s
 title: cmd-k8s-get-ingress-map
 tool: kubectl
 type: atomic_command
+permalink: llmeon/30-library/ops/cmd-k8s-get-ingress-map
 ---
 
 ## Map Ingress to Backends (JSONPath)

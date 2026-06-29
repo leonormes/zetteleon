@@ -2,14 +2,18 @@
 title: Semble Code Search
 wiki_type: dossier
 entity_kind: project
-created: 2026-05-21T13:30:00+00:00
-modified: 2026-05-21T13:30:00+00:00
-tags: [wiki, dossier, project]
+created: 2026-05-21 13:30:00+00:00
+modified: 2026-05-21 13:30:00+00:00
+tags:
+- wiki
+- dossier
+- project
 sources:
-  - raw/2026-05-21-pieces-semble
-  - raw/2026-05-21-pieces-general
+- raw/2026-05-21-pieces-semble
+- raw/2026-05-21-pieces-general
 connections:
-  - [[Hermes-Agent]]
+- - - Hermes-Agent
+permalink: llmeon/wiki/projects/semble
 ---
 
 ## Summary

@@ -1,8 +1,14 @@
 ---
-created: 2026-04-10T00:00:00+00:00
-modified: 2026-05-26T11:44:37+00:00
-tags: [action-definition, clarity, execution, gtd]
-title: A Next Action Must Be the Absolute Next Physical Visible Activity Required to Move a Situation Forward
+created: 2026-04-10 00:00:00+00:00
+modified: 2026-05-26 11:44:37+00:00
+tags:
+- action-definition
+- clarity
+- execution
+- gtd
+title: A Next Action Must Be the Absolute Next Physical Visible Activity Required
+  to Move a Situation Forward
+permalink: llmeon/30-library/100-zettelkasten/a-next-action-must-be-the-absolute-next-physical-visible-activity-required-to-move-a-situation-forward
 ---
 
 ## A Next Action Must Be the Absolute Next Physical Visible Activity Required to Move a Situation Forward

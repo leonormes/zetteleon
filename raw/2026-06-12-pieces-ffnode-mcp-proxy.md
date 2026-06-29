@@ -1,32 +1,34 @@
 ---
 title: Pieces Activity — FFNode Stress Testing Jira Planning & MCP Proxy Debugging
-created: 2026-06-12T08:50:00+00:00
+created: 2026-06-12 08:50:00+00:00
 source: pieces
 pieces_ids:
-  - "6ed5444d-a18f-421b-8378-fdd2b9e45f93"
-  - "b53e1c4e-b17e-462a-a274-9a01dddf7392"
-  - "96b3078c-145e-4920-adef-6416ee7281ea"
-  - "9331d6ad-9463-4ca1-bcd9-a9f53826a1d4"
-  - "e7390030-2002-4c09-99bc-0cc628af9352"
-  - "48fead94-b291-44b1-84d7-d936595a6c2f"
-  - "a74deda5-8a3f-4020-a753-6a8bf4cf432c"
-  - "a99d5e69-5655-4aef-9022-b508da36cd9c"
-  - "3bf7369b-af62-4a31-963e-cfd4601d691c"
-  - "0aea9c5f-5d21-4183-82fe-05c2ee313ee2"
-  - "d31d0748-4c76-437e-b347-15d644f2f42f"
-  - "dcde1485-250e-40fa-a19c-da34e5f10664"
-  - "a8ae4b50-0a3f-47fc-a190-b2fbd45a8778"
-  - "53233e6d-771e-4ada-9935-868e50cfcfac"
-  - "a4d18749-3d2c-49dd-880e-c234a731d698"
-  - "ec70a292-a354-4fec-aba1-b379206d8717"
-  - "d396fe99-2633-480b-bb64-2ce93dbb7f4d"
-  - "f967bfdd-3cb9-4a95-b046-1f712d2d3162"
-  - "8950f0db-fda1-417d-a9c4-53b5e6ba147a"
-  - "a594a72a-c67b-4300-b262-d4e61911ffe9"
-  - "e10d9f2a-b07e-4253-b6fd-557edcf9f627"
-  - "28236b84-275e-4927-8555-79480e859db6"
-  - "e10622aa-ad52-42df-a968-f17a55967c62"
-tags: [raw]
+- 6ed5444d-a18f-421b-8378-fdd2b9e45f93
+- b53e1c4e-b17e-462a-a274-9a01dddf7392
+- 96b3078c-145e-4920-adef-6416ee7281ea
+- 9331d6ad-9463-4ca1-bcd9-a9f53826a1d4
+- e7390030-2002-4c09-99bc-0cc628af9352
+- 48fead94-b291-44b1-84d7-d936595a6c2f
+- a74deda5-8a3f-4020-a753-6a8bf4cf432c
+- a99d5e69-5655-4aef-9022-b508da36cd9c
+- 3bf7369b-af62-4a31-963e-cfd4601d691c
+- 0aea9c5f-5d21-4183-82fe-05c2ee313ee2
+- d31d0748-4c76-437e-b347-15d644f2f42f
+- dcde1485-250e-40fa-a19c-da34e5f10664
+- a8ae4b50-0a3f-47fc-a190-b2fbd45a8778
+- 53233e6d-771e-4ada-9935-868e50cfcfac
+- a4d18749-3d2c-49dd-880e-c234a731d698
+- ec70a292-a354-4fec-aba1-b379206d8717
+- d396fe99-2633-480b-bb64-2ce93dbb7f4d
+- f967bfdd-3cb9-4a95-b046-1f712d2d3162
+- 8950f0db-fda1-417d-a9c4-53b5e6ba147a
+- a594a72a-c67b-4300-b262-d4e61911ffe9
+- e10d9f2a-b07e-4253-b6fd-557edcf9f627
+- 28236b84-275e-4927-8555-79480e859db6
+- e10622aa-ad52-42df-a968-f17a55967c62
+tags:
+- raw
+permalink: llmeon/raw/2026-06-12-pieces-ffnode-mcp-proxy
 ---
 
 ## Thread A — FFNode Stress Testing Jira Planning (07:47–08:01)

@@ -1,10 +1,14 @@
 ---
 aliases: []
-created: 2025-07-20T10:15:00Z
-modified: 2026-05-26T11:44:22+00:00
-status: "evergreen"
-tags: ["adhd", "neurotypical-world", "strategies"]
+created: 2025-07-20 10:15:00+00:00
+modified: 2026-05-26 11:44:22+00:00
+status: evergreen
+tags:
+- adhd
+- neurotypical-world
+- strategies
 title: MOC - Strategies for ADHD Brains in a Neurotypical World
+permalink: llmeon/30-library/mo-c/moc-strategies-for-adhd-brains-in-a-neurotypical-world
 ---
 
 ## REDIRECT

@@ -2,11 +2,15 @@
 title: MESH API Certificate Renewal
 wiki_type: dossier
 entity_kind: project
-created: 2026-05-12T18:57:00+01:00
-modified: 2026-05-12T18:57:00+01:00
-tags: [wiki, dossier, project]
+created: 2026-05-12 18:57:00+01:00
+modified: 2026-05-12 18:57:00+01:00
+tags:
+- wiki
+- dossier
+- project
 sources:
-  - raw/2026-05-12-pieces-mesh-api-csr.md
+- raw/2026-05-12-pieces-mesh-api-csr.md
+permalink: llmeon/wiki/projects/mesh-api-certificate-renewal
 ---
 
 ## Summary

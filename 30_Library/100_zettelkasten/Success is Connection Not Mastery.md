@@ -1,14 +1,21 @@
 ---
-aliases: ["Connection Over Mastery", "Synthesis Over Specialization"]
-created: 2025-09-11T20:22:57Z
-creation_date: "2025-09-11T00:00:00.000Z"
-last_reviewed: "null"
-modified: 2026-02-01T15:08:26+00:00
-status: "null"
-tags: ["success-metrics", "synthesis", "TheHuman/Health/ADHD", "topic/learning"]
+aliases:
+- Connection Over Mastery
+- Synthesis Over Specialization
+created: 2025-09-11 20:22:57+00:00
+creation_date: '2025-09-11T00:00:00.000Z'
+last_reviewed: 'null'
+modified: 2026-02-01 15:08:26+00:00
+status: 'null'
+tags:
+- success-metrics
+- synthesis
+- TheHuman/Health/ADHD
+- topic/learning
 title: Success is Connection Not Mastery
-type: "null"
-updated: 
+type: 'null'
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/success-is-connection-not-mastery
 ---
 
 For minds that thrive on novelty and breadth, success should be measured by the ability to forge meaningful connections across domains rather than achieving deep mastery within a single field. The real value lies in learning enough about diverse subjects to identify novel intersections and synthesize insights that specialists might miss.

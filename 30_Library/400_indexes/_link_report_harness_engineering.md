@@ -1,11 +1,12 @@
 ---
-created: 2026-04-14T20:28:32+00:00
-created_utc: "2026-04-14T13:30:00Z"
-modified: 2026-05-26T11:44:23+00:00
-source_atoms: "[[tmp_atoms_harness_engineering.md]]"
+created: 2026-04-14 20:28:32+00:00
+created_utc: '2026-04-14T13:30:00Z'
+modified: 2026-05-26 11:44:23+00:00
+source_atoms: '[[tmp_atoms_harness_engineering.md]]'
 status: tmp
 title: _link_report_harness_engineering
 type: link_report
+permalink: llmeon/30-library/400-indexes/link-report-harness-engineering
 ---
 
 ## Link Report: Archon and Extreme Harness Engineering

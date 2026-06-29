@@ -1,14 +1,18 @@
 ---
 aliases: []
-created: 2025-10-30T16:29:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:36+00:00
-source: "[[MOC - Why Autistics and ADHDers NEED Routines]]"
-status: "seedling"
-tags: ["positive-reinforcement", "routine-adherence", "TheHuman/Motivation"]
+created: 2025-10-30 16:29:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:36+00:00
+source: '[[MOC - Why Autistics and ADHDers NEED Routines]]'
+status: seedling
+tags:
+- positive-reinforcement
+- routine-adherence
+- TheHuman/Motivation
 title: Celebrating small wins builds routine momentum
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/celebrating-small-wins-builds-routine-momentum
 ---
 
 Celebrating small successes and self-rewarding for routine maintenance builds positive momentum and reinforces routine adherence through intrinsic motivation rather than external pressure.

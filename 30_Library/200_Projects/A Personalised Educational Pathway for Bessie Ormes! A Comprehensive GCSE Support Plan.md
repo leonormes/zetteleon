@@ -1,9 +1,11 @@
 ---
-created: 2026-05-04T08:01:26+00:00
-modified: 2026-06-08T11:49:24+00:00
-project_name: "Bessie"
-title: A Personalised Educational Pathway for Bessie Ormes! A Comprehensive GCSE Support Plan
+created: 2026-05-04 08:01:26+00:00
+modified: 2026-06-08 11:49:24+00:00
+project_name: Bessie
+title: A Personalised Educational Pathway for Bessie Ormes! A Comprehensive GCSE Support
+  Plan
 type: note
+permalink: llmeon/30-library/200-projects/a-personalised-educational-pathway-for-bessie-ormes-a-comprehensive-gcse-support-plan
 ---
 
 ## A Personalised Educational Pathway for Bessie Ormes: A Comprehensive GCSE Support Plan

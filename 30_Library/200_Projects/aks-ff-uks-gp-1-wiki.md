@@ -1,11 +1,12 @@
 ---
-created: 2026-06-08T11:35:53+00:00
-modified: 2026-06-08T11:49:22+00:00
+created: 2026-06-08 11:35:53+00:00
+modified: 2026-06-08 11:49:22+00:00
 project_category: refined_deployment
 project_name: Refined Deployment
 project_status: active
 title: aks-ff-uks-gp-1-wiki
 type: projec
+permalink: llmeon/30-library/200-projects/aks-ff-uks-gp-1-wiki
 ---
 
 ## Wiki: Private AKS Cluster—`aks-ff-uks-gp-1`

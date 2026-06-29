@@ -1,12 +1,15 @@
 ---
 title: FITFILE Deployment Wiki — ArgoCD + Helm via FFNode/FFNodes
-created: 2026-06-09T03:35:00+01:00
+created: 2026-06-09 03:35:00+01:00
 source: pieces-ltm
 pieces_ids:
-  - 9c26da41-ed7f-4283-863f-0d5bbd243bea
-  - c0470216-2ba0-4a48-89a6-a514e5e4aa2d
-  - bdaa8552-9ff9-4d8d-95a8-6af8b952c2d3
-tags: [raw, pieces]
+- 9c26da41-ed7f-4283-863f-0d5bbd243bea
+- c0470216-2ba0-4a48-89a6-a514e5e4aa2d
+- bdaa8552-9ff9-4d8d-95a8-6af8b952c2d3
+tags:
+- raw
+- pieces
+permalink: llmeon/raw/2026-06-08-pieces-fitfile-deployment-wiki
 ---
 
 ## Asset 1 (Pieces: 9c26da41-ed7f-4283-863f-0d5bbd243bea) — Finalised Wiki Document

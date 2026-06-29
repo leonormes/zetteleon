@@ -1,18 +1,22 @@
 ---
 aliases: []
-created: 2026-02-07T10:22:14+00:00
+created: 2026-02-07 10:22:14+00:00
 last-synthesis: 2026-02-07
-modified: 2026-05-26T11:44:20+00:00
+modified: 2026-05-26 11:44:20+00:00
 see_also: []
 source_of_truth: true
 status: growing
-superseded_by: ""
-supersedes: ""
+superseded_by: ''
+supersedes: ''
 synthesis-count: 1
-tags: [domain/psychology, domain/sociology, type/SoT]
-title: "SoT - Bonhoeffer's Theory of Functional Stupidity"
+tags:
+- domain/psychology
+- domain/sociology
+- type/SoT
+title: SoT - Bonhoeffer's Theory of Functional Stupidity
 trust-level: stable
-type: "SoT"
+type: SoT
+permalink: llmeon/30-library/so-t/so-t-bonhoeffers-theory-of-functional-stupidity
 ---
 
 ## Minimum Viable Understanding (MVU)

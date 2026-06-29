@@ -1,13 +1,17 @@
 ---
 aliases: []
-created: 2025-10-26T17:05:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:37+00:00
-status: ""
-tags: ["api", "SoftwareEngineering/Architecture", "tech"]
+created: 2025-10-26 17:05:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:37+00:00
+status: ''
+tags:
+- api
+- SoftwareEngineering/Architecture
+- tech
 title: An API Gateway is a Central Management Layer for APIs
-type: "permanent"
-updated: 
+type: permanent
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/an-api-gateway-is-a-central-management-layer-for-apis
 ---
 
 An API Gateway acts as a single, centralized entry point for all API requests, providing a management and security layer that sits in front of backend services.

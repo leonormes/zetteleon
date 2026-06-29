@@ -1,13 +1,14 @@
 ---
 status: Action.Ready
 priority: C
-parentTask: ""
-prodosProject: ""
-prodosCategory: ""
-jiraKey: ""
+parentTask: ''
+prodosProject: ''
+prodosCategory: ''
+jiraKey: ''
 contexts: []
 tags:
-  - operon/deliverable
+- operon/deliverable
+permalink: llmeon/operon/templates/template-operon-deliverable-task
 ---
 
 ## Outcome

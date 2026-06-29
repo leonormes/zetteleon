@@ -1,13 +1,19 @@
 ---
-aliases: ["Functional Equivalence", "The Inga and Otto Case"]
-created: 2025-12-24T12:00:00Z
+aliases:
+- Functional Equivalence
+- The Inga and Otto Case
+created: 2025-12-24 12:00:00+00:00
 last_reviewed: 2025-12-24
-modified: 2026-02-01T15:08:25+00:00
-status: "stable"
-tags: ["cognition", "logic", "TheHuman/Philosophy"]
+modified: 2026-02-01 15:08:25+00:00
+status: stable
+tags:
+- cognition
+- logic
+- TheHuman/Philosophy
 title: The Parity Principle - Functional Equivalence in Cognition
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/the-parity-principle-functional-equivalence-in-cognition
 ---
 
 The Parity Principle is the philosophical heart of the [[SoT - The Extended Mind Thesis|EMT]]. It states:

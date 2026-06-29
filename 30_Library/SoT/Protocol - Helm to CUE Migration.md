@@ -1,11 +1,20 @@
 ---
-alias: ["Configuration Migration Protocol", "Helm to CUE Strategy", "Shadow & Strangulate"]
-created: 2026-02-05T00:00:00+00:00
-modified: 2026-02-05T18:53:08+00:00
+alias:
+- Configuration Migration Protocol
+- Helm to CUE Strategy
+- Shadow & Strangulate
+created: 2026-02-05 00:00:00+00:00
+modified: 2026-02-05 18:53:08+00:00
 status: stable
-tags: ["cue", "helm", "migration", "protocol", "sot"]
+tags:
+- cue
+- helm
+- migration
+- protocol
+- sot
 title: Protocol - Helm to CUE Migration
 type: protocol
+permalink: llmeon/30-library/so-t/protocol-helm-to-cue-migration
 ---
 
 ## Logic Map

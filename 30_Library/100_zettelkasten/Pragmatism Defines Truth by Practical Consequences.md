@@ -1,13 +1,19 @@
 ---
-aliases: ["Pragmatism"]
-created: 2025-11-10T17:08:00Z
-last_reviewed: ""
-modified: 2026-05-26T11:44:33+00:00
-status: "stable"
-tags: ["action", "pragmatism", "TheHuman/Philosophy", "truth"]
+aliases:
+- Pragmatism
+created: 2025-11-10 17:08:00+00:00
+last_reviewed: ''
+modified: 2026-05-26 11:44:33+00:00
+status: stable
+tags:
+- action
+- pragmatism
+- TheHuman/Philosophy
+- truth
 title: Pragmatism Defines Truth by Practical Consequences
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/pragmatism-defines-truth-by-practical-consequences
 ---
 
 ## Pragmatism Defines Truth by Practical Consequences

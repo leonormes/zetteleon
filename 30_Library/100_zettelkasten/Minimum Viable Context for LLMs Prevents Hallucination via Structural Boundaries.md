@@ -1,9 +1,13 @@
 ---
-created: 2026-02-01T20:57:13+00:00
-modified: 2026-02-04T07:27:44+00:00
+created: 2026-02-01 20:57:13+00:00
+modified: 2026-02-04 07:27:44+00:00
 status: evergreen
-tags: [concept/mvc, domain/ai, governance]
+tags:
+- concept/mvc
+- domain/ai
+- governance
 title: Minimum Viable Context for LLMs Prevents Hallucination via Structural Boundaries
+permalink: llmeon/30-library/100-zettelkasten/minimum-viable-context-for-llms-prevents-hallucination-via-structural-boundaries
 ---
 
 ## Minimum Viable Context for LLMs Prevents Hallucination via Structural Boundaries

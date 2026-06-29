@@ -1,9 +1,10 @@
 ---
-created: 2026-02-02T20:03:15+00:00
-modified: 2026-05-26T11:44:21+00:00
+created: 2026-02-02 20:03:15+00:00
+modified: 2026-05-26 11:44:21+00:00
 source_of_truth: true
 title: ADHD Emotional Reasoning
 trust-level: developing
+permalink: llmeon/30-library/so-t/adhd-emotional-reasoning
 ---
 
 ## 1. Working Knowledge (Stable Foundation)

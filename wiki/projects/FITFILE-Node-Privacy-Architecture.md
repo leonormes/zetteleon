@@ -2,11 +2,15 @@
 title: FITFILE Node — Privacy Architecture & Data Processing
 wiki_type: dossier
 entity_kind: project
-created: 2026-06-02T10:51:00+00:00
-modified: 2026-06-02T10:51:00+00:00
-tags: [wiki, dossier, project]
+created: 2026-06-02 10:51:00+00:00
+modified: 2026-06-02 10:51:00+00:00
+tags:
+- wiki
+- dossier
+- project
 sources:
-  - raw/2026-06-02-pieces-fitfile-node-privacy-architecture
+- raw/2026-06-02-pieces-fitfile-node-privacy-architecture
+permalink: llmeon/wiki/projects/fitfile-node-privacy-architecture
 ---
 
 ## Summary

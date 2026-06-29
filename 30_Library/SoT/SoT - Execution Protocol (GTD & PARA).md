@@ -1,12 +1,18 @@
 ---
-aliases: ["Execution Protocol", "Hybrid GTD PARA"]
-created: 2026-01-08T07:41:15+00:00
-last_reviewed: ""
-modified: 2026-02-01T15:07:59+00:00
-status: "permanent"
-tags: ["gtd", "para", "system/protocol"]
+aliases:
+- Execution Protocol
+- Hybrid GTD PARA
+created: 2026-01-08 07:41:15+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:07:59+00:00
+status: permanent
+tags:
+- gtd
+- para
+- system/protocol
 title: SoT - Execution Protocol (GTD & PARA)
-type: "process"
+type: process
+permalink: llmeon/30-library/so-t/so-t-execution-protocol-gtd-para
 ---
 
 Purpose: To harmonize the structural organization of PARA with the execution workflow of GTD. This protocol is the single source of truth for defining work and "done."

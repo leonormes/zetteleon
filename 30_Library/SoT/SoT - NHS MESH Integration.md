@@ -1,12 +1,21 @@
 ---
-aliases: [MESH Integration, NHS Digital Networking, NHS Mailbox]
-created: 2025-12-10T13:06:37Z
-last_reviewed: "2026-03-28"
-modified: 2026-05-26T11:44:18+00:00
+aliases:
+- MESH Integration
+- NHS Digital Networking
+- NHS Mailbox
+created: 2025-12-10 13:06:37+00:00
+last_reviewed: '2026-03-28'
+modified: 2026-05-26 11:44:18+00:00
 status: growing
-tags: [compliance, healthcare, mesh, nhs, sot]
+tags:
+- compliance
+- healthcare
+- mesh
+- nhs
+- sot
 title: SoT - NHS MESH Integration
 type: SoT
+permalink: llmeon/30-library/so-t/so-t-nhs-mesh-integration
 ---
 
 ## Minimum Viable Understanding (MVU)

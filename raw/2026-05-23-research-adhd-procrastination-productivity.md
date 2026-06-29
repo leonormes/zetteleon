@@ -1,10 +1,17 @@
 ---
-created: 2026-05-23T12:00:00+01:00
-modified: 2026-05-26T11:43:32+00:00
+created: 2026-05-23 12:00:00+01:00
+modified: 2026-05-26 11:43:32+00:00
 source: research
-source_url: https://pubmed.ncbi.nlm.nih.gov/ (PubMed), https://arxiv.org/ (arXiv), https://api.semanticscholar.org/ (Semantic Scholar)
-tags: [adhd, procrastination, productivity, raw, research]
+source_url: https://pubmed.ncbi.nlm.nih.gov/ (PubMed), https://arxiv.org/ (arXiv),
+  https://api.semanticscholar.org/ (Semantic Scholar)
+tags:
+- adhd
+- procrastination
+- productivity
+- raw
+- research
 title: 2026-05-23-research-adhd-procrastination-productivity
+permalink: llmeon/raw/2026-05-23-research-adhd-procrastination-productivity
 ---
 
 ## Procrastination and Productivity with ADHD—Research Synthesis

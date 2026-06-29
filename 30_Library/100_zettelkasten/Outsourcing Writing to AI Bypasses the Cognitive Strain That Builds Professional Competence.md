@@ -1,8 +1,14 @@
 ---
-created: 2026-04-10T13:00:00+00:00
-modified: 2026-05-26T11:44:33+00:00
-tags: [ai, cognitive-fitness, professional-development, writing]
-title: Outsourcing Writing to AI Bypasses the Cognitive Strain That Builds Professional Competence
+created: 2026-04-10 13:00:00+00:00
+modified: 2026-05-26 11:44:33+00:00
+tags:
+- ai
+- cognitive-fitness
+- professional-development
+- writing
+title: Outsourcing Writing to AI Bypasses the Cognitive Strain That Builds Professional
+  Competence
+permalink: llmeon/30-library/100-zettelkasten/outsourcing-writing-to-ai-bypasses-the-cognitive-strain-that-builds-professional-competence
 ---
 
 ## Outsourcing Writing to AI Bypasses the Cognitive Strain That Builds Professional Competence

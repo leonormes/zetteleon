@@ -1,11 +1,12 @@
 ---
-created: 2026-04-10T16:50:59+00:00
-created_utc: "2026-04-10T13:00:00+00:00"
-modified: 2026-05-26T11:44:23+00:00
-source_atoms: "[[tmp_atoms_terminal_dev_and_mcp]]"
+created: 2026-04-10 16:50:59+00:00
+created_utc: '2026-04-10T13:00:00+00:00'
+modified: 2026-05-26 11:44:23+00:00
+source_atoms: '[[tmp_atoms_terminal_dev_and_mcp]]'
 status: tmp
 title: _link_report_terminal_dev_and_mcp
 type: link_report
+permalink: llmeon/30-library/400-indexes/link-report-terminal-dev-and-mcp
 ---
 
 ## Link Report: Multi-model Dev Integration & Model Context Protocol (MCP)

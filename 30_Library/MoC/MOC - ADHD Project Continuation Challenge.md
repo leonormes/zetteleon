@@ -1,14 +1,22 @@
 ---
-aliases: ["ADHD Project Return Problem", "Mental Model Dissipation", "The Fresh Start Loop"]
-created: 2025-10-30T15:00:39Z
+aliases:
+- ADHD Project Return Problem
+- Mental Model Dissipation
+- The Fresh Start Loop
+created: 2025-10-30 15:00:39+00:00
 last_synthesis: 2026-04-02
-modified: 2026-05-26T11:44:23+00:00
+modified: 2026-05-26 11:44:23+00:00
 source_of_truth: true
 status: evergreen
 synthesis-count: 2
-tags: ["dopamine", "prodos/moc", "project-continuity", "TheHuman/Health/ADHD"]
+tags:
+- dopamine
+- prodos/moc
+- project-continuity
+- TheHuman/Health/ADHD
 title: MOC - ADHD Project Continuation Challenge
-type: "map"
+type: map
+permalink: llmeon/30-library/mo-c/moc-adhd-project-continuation-challenge
 ---
 
 ## Minimum Viable Understanding (MVU)

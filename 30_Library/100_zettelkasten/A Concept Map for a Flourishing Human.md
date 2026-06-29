@@ -1,14 +1,17 @@
 ---
 aliases: []
-created: 2025-07-07T09:40:14Z
-id: "A Concept Map for a Flourishing Human"
-last_reviewed: ""
-modified: 2026-02-03T14:30:29+00:00
-status: "stable"
-tags: ["prodos/sot", "topic/learning"]
+created: 2025-07-07 09:40:14+00:00
+id: A Concept Map for a Flourishing Human
+last_reviewed: ''
+modified: 2026-02-03 14:30:29+00:00
+status: stable
+tags:
+- prodos/sot
+- topic/learning
 title: A Concept Map for a Flourishing Human
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/a-concept-map-for-a-flourishing-human
 ---
 
 ## A Concept Map for a Flourishing Human: Bessie's Skills

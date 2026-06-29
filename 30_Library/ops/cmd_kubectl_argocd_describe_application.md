@@ -1,15 +1,21 @@
 ---
-created: 2026-02-22T16:56:46+00:00
+created: 2026-02-22 16:56:46+00:00
 hop_level: local
 last_verified: 2026-02-22
-modified: 2026-03-14T11:10:11+00:00
+modified: 2026-03-14 11:10:11+00:00
 requires_tunnel: false
 status: active
-tags: [appproject, argocd, cmd, debug, describe]
+tags:
+- appproject
+- argocd
+- cmd
+- debug
+- describe
 target_service: argocd
 title: cmd_kubectl_argocd_describe_application
 tool: kubectl
 type: command
+permalink: llmeon/30-library/ops/cmd-kubectl-argocd-describe-application
 ---
 
 ## Describe ArgoCD Application

@@ -1,10 +1,24 @@
 ---
 title: ArgoCD sandbox-testing-1 Frontend — OutOfSync Debugging
-created: 2026-06-01T22:03:23+00:00
+created: 2026-06-01 22:03:23+00:00
 source: pieces-ltm
-pieces_ids: [248a4007-b72a-4cdd-bd99-b932818133d1, 40c42170-e9a4-442f-9f03-2888fe3200dc, 7def6b4c-f5db-4de3-a281-7b1f89e5abb9, b7c93523-cb0b-4ac0-8c1b-c41d2916f87a, 39e1c8d2-a946-4dd8-94a3-06f8b88e96db, 60badcff-4999-4358-8c53-7f023c94ad89, 06b78766-90fd-4f36-b3f5-e23d13acf69b, ff90d29d-0696-4efa-a944-6f8dc178b886, ba7df6f3-313c-4e05-bd72-cf3d1df05229, 38b50523-2ac9-4ca6-b1f7-dd3b23f1e5c6]
-tags: [raw, pieces]
+pieces_ids:
+- 248a4007-b72a-4cdd-bd99-b932818133d1
+- 40c42170-e9a4-442f-9f03-2888fe3200dc
+- 7def6b4c-f5db-4de3-a281-7b1f89e5abb9
+- b7c93523-cb0b-4ac0-8c1b-c41d2916f87a
+- 39e1c8d2-a946-4dd8-94a3-06f8b88e96db
+- 60badcff-4999-4358-8c53-7f023c94ad89
+- 06b78766-90fd-4f36-b3f5-e23d13acf69b
+- ff90d29d-0696-4efa-a944-6f8dc178b886
+- ba7df6f3-313c-4e05-bd72-cf3d1df05229
+- 38b50523-2ac9-4ca6-b1f7-dd3b23f1e5c6
+tags:
+- raw
+- pieces
+permalink: llmeon/raw/2026-06-01-pieces-argocd-sandbox-sync
 ---
+
 ## Asset 1 (Pieces: 248a4007-b72a-4cdd-bd99-b932818133d1) — 2026-06-01T13:11
 
 The most valuable new piece is from the `argocd sandbox-testing nginx ingress` search — a **jumpbox session captured at 14:02 BST today** (just 8 minutes ago) that shows exactly the kubectl commands you ran, including the annotation + patch attempts that have all still left the app `OutOfSync`. There is also a critical insight from the older Friday session context: ArgoCD previously **did** sync the `app-root` fix successfully (the session notes confirm "ArgoCD picked up your commit and the controller reloaded") — meaning the ArgoCD mechanism works in principle, but something about the current `a8405351` commit is blocking it.

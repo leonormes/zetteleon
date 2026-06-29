@@ -1,9 +1,34 @@
 ---
 title: Alloy Faro Logs Debugging & Grafana Explore UI
-created: 2026-06-04T20:41:05+00:00
+created: 2026-06-04 20:41:05+00:00
 source: pieces-ltm
-pieces_ids: ["954c05ee-bed1-41da-b4e7-df045959a597", "2040b373-9c33-4011-aa78-633a5eb03535", "dd15c291-718b-4584-9df4-8faef6519857", "5678461a-fc77-4c5b-8b3e-c9754a0bbbe2", "dbeaa048-e0d3-44e5-b333-129e5dfaba8c", "4fdb945b-4820-4e1f-a3eb-359bfb6c48b5", "471ceb52-68cd-42a6-95fb-5493dd00b660", "490afc4a-67e6-42cc-b47d-66455f187f79", "ee24e3a9-fa0f-48d1-8507-f5b2d575a397", "18768ebf-5883-443b-90a7-9764308d3d54", "424d1e42-35e1-40ff-a79c-1df4f677d1e8", "3c369375-9b0a-4db8-8c4a-e37a8e36f139", "623d2ed2-d27f-4844-ba63-170eb1cb901c", "2d31ecac-1a57-4f65-a7ca-bcecf6c2ec9c", "73ee9b55-fa88-450d-8c61-859cea5f9eda", "6b5784fd-f855-451c-a3a0-0cd65e4d6436", "57a40d40-382b-412f-bf6c-435c6dba1727", "959af1aa-6617-4392-9d7b-d163c3f83bfb", "b0197e56-87c6-4281-bb0c-d2ca980fb445", "8c8be89c-d708-4539-96ec-8f5b756aab07", "1ce0009a-16e2-4c11-acf8-2263a5ac5a33", "bafa971e-af40-4b09-a3f9-c7ad28809d21"]
-tags: [raw, pieces]
+pieces_ids:
+- 954c05ee-bed1-41da-b4e7-df045959a597
+- 2040b373-9c33-4011-aa78-633a5eb03535
+- dd15c291-718b-4584-9df4-8faef6519857
+- 5678461a-fc77-4c5b-8b3e-c9754a0bbbe2
+- dbeaa048-e0d3-44e5-b333-129e5dfaba8c
+- 4fdb945b-4820-4e1f-a3eb-359bfb6c48b5
+- 471ceb52-68cd-42a6-95fb-5493dd00b660
+- 490afc4a-67e6-42cc-b47d-66455f187f79
+- ee24e3a9-fa0f-48d1-8507-f5b2d575a397
+- 18768ebf-5883-443b-90a7-9764308d3d54
+- 424d1e42-35e1-40ff-a79c-1df4f677d1e8
+- 3c369375-9b0a-4db8-8c4a-e37a8e36f139
+- 623d2ed2-d27f-4844-ba63-170eb1cb901c
+- 2d31ecac-1a57-4f65-a7ca-bcecf6c2ec9c
+- 73ee9b55-fa88-450d-8c61-859cea5f9eda
+- 6b5784fd-f855-451c-a3a0-0cd65e4d6436
+- 57a40d40-382b-412f-bf6c-435c6dba1727
+- 959af1aa-6617-4392-9d7b-d163c3f83bfb
+- b0197e56-87c6-4281-bb0c-d2ca980fb445
+- 8c8be89c-d708-4539-96ec-8f5b756aab07
+- 1ce0009a-16e2-4c11-acf8-2263a5ac5a33
+- bafa971e-af40-4b09-a3f9-c7ad28809d21
+tags:
+- raw
+- pieces
+permalink: llmeon/raw/2026-06-04-pieces-alloy-faro-grafana-explore
 ---
 
 # Alloy Faro Logs Debugging & Grafana Explore UI

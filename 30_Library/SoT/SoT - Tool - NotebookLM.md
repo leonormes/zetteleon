@@ -1,13 +1,22 @@
 ---
-aliases: ["AI Research Assistant", "Google NotebookLM", "NotebookLM Studio"]
-created: 2025-12-26T00:00:00Z
-last_reviewed: "2025-12-26"
-modified: 2026-02-01T15:07:49+00:00
-status: "stable"
-tags: ["ai", "google", "research", "synthesis", "tool"]
+aliases:
+- AI Research Assistant
+- Google NotebookLM
+- NotebookLM Studio
+created: 2025-12-26 00:00:00+00:00
+last_reviewed: '2025-12-26'
+modified: 2026-02-01 15:07:49+00:00
+status: stable
+tags:
+- ai
+- google
+- research
+- synthesis
+- tool
 title: SoT - Tool - NotebookLM
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-tool-notebook-lm
 ---
 
 > [!definition] Definition

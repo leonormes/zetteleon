@@ -1,13 +1,23 @@
 ---
-aliases: ["Plonky3", "Proof of SQL", "Zero Knowledge Proofs", "ZK Architecture"]
-created: 2026-01-06T19:46:24+00:00
-last_reviewed: 
-modified: 2026-02-01T15:07:47+00:00
-status: "Active"
-tags: ["cryptography", "data", "rust", "SoftwareEngineering/Architecture", "zkp"]
+aliases:
+- Plonky3
+- Proof of SQL
+- Zero Knowledge Proofs
+- ZK Architecture
+created: 2026-01-06 19:46:24+00:00
+last_reviewed: null
+modified: 2026-02-01 15:07:47+00:00
+status: Active
+tags:
+- cryptography
+- data
+- rust
+- SoftwareEngineering/Architecture
+- zkp
 title: SoT - Zero Knowledge Architecture
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-zero-knowledge-architecture
 ---
 
 ## SoT - Zero Knowledge Architecture

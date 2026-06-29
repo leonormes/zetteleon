@@ -1,9 +1,15 @@
 ---
-title: "LLMeon Repo Summary — Hermes PKM Architecture"
-created: 2026-05-28T18:05:42+00:00
+title: LLMeon Repo Summary — Hermes PKM Architecture
+created: 2026-05-28 18:05:42+00:00
 source: pieces-ltm
-pieces_ids: [dcdee514-a007-46a7-a6e9-3a8c66439711, 48c402f1-3561-426c-bcb9-110e8aeb514c, 90e86161-028b-4ece-a7a2-a16b1f3f7366]
-tags: [raw, pieces]
+pieces_ids:
+- dcdee514-a007-46a7-a6e9-3a8c66439711
+- 48c402f1-3561-426c-bcb9-110e8aeb514c
+- 90e86161-028b-4ece-a7a2-a16b1f3f7366
+tags:
+- raw
+- pieces
+permalink: llmeon/raw/2026-05-28-pieces-llmeon-repo-summary
 ---
 
 ## Asset 1 (Pieces: dcdee514-a007-46a7-a6e9-3a8c66439711)
@@ -92,4 +98,3 @@ The reviewer wants me to read actual file contents. From the search results, I c
 Let me also search for key top-level files like AGENTS.md, index.md, etc. 
 
 Now I need to pull the actual content from the README and wiki/index.md to see what's in there.
-

@@ -1,11 +1,14 @@
 ---
-title: "FTFL-658 — MKUH Terraform Failure Spike Investigation"
-created: 2026-06-05T13:52:21+00:00
+title: FTFL-658 — MKUH Terraform Failure Spike Investigation
+created: 2026-06-05 13:52:21+00:00
 source: pieces-ltm
 pieces_ids:
-  - 9c005f05-45d6-4a43-8256-54ed7cf360ae
-  - 990f2d90-c3fa-4705-99df-0b1901f78e89
-tags: [raw, pieces]
+- 9c005f05-45d6-4a43-8256-54ed7cf360ae
+- 990f2d90-c3fa-4705-99df-0b1901f78e89
+tags:
+- raw
+- pieces
+permalink: llmeon/raw/2026-06-05-pieces-ftfl658-terraform-spike
 ---
 
 # FTFL-658 — MKUH Terraform Failure Spike Investigation

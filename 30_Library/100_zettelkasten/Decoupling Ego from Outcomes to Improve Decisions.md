@@ -1,13 +1,19 @@
 ---
 aliases: []
-created: 2025-08-12T07:55:33Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:35+00:00
-status: ""
-tags: ["decision_making", "ego", "probabilistic_thinking", "TheHuman/Mindset", "topic/learning"]
+created: 2025-08-12 07:55:33+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:35+00:00
+status: ''
+tags:
+- decision_making
+- ego
+- probabilistic_thinking
+- TheHuman/Mindset
+- topic/learning
 title: Decoupling Ego from Outcomes to Improve Decisions
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/decoupling-ego-from-outcomes-to-improve-decisions
 ---
 
 To overcome the emotional pain associated with being wrong (see [[The Emotional Cost of Being Wrong is Magnified by Loss Aversion]]), it is necessary to decouple one's sense of self-worth from the outcome of a single decision or belief.

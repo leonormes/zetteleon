@@ -1,12 +1,20 @@
 ---
-aliases: ["Black Box Thinking", "Error Engine", "Marginal Gains"]
-created: 2026-01-11T21:20:00+00:00
-last_reviewed: "2026-01-12"
-modified: 2026-02-03T20:14:40+00:00
-status: "stable"
-tags: ["adhd-tools", "improvement-logic", "prodos", "system-architecture"]
+aliases:
+- Black Box Thinking
+- Error Engine
+- Marginal Gains
+created: 2026-01-11 21:20:00+00:00
+last_reviewed: '2026-01-12'
+modified: 2026-02-03 20:14:40+00:00
+status: stable
+tags:
+- adhd-tools
+- improvement-logic
+- prodos
+- system-architecture
 title: SoT - PRODOS Black Box Protocol
-type: "SoT"
+type: SoT
+permalink: llmeon/30-library/so-t/so-t-prodos-black-box-protocol
 ---
 
 ## 1. The Core Philosophy

@@ -1,12 +1,17 @@
 ---
-created: 2026-02-21T15:07:26+00:00
-modified: 2026-03-14T11:10:09+00:00
+created: 2026-02-21 15:07:26+00:00
+modified: 2026-03-14 11:10:09+00:00
 service: vso
 severity: p2
-tags: [playbook, secrets, troubleshooting, vso]
+tags:
+- playbook
+- secrets
+- troubleshooting
+- vso
 title: playbook_vso_secret_debugging
-trigger: "VSO-managed Secret is stale, misconfigured, or causing 401/403 errors"
+trigger: VSO-managed Secret is stale, misconfigured, or causing 401/403 errors
 type: playbook
+permalink: llmeon/30-library/ops/playbook-vso-secret-debugging
 ---
 
 ## Playbook: VSO Managed Secret Debugging

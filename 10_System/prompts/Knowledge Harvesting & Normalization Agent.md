@@ -1,11 +1,18 @@
 ---
-created: 2026-04-02T11:30:00+01:00
-description: Take an existing SoT/MoC and scour the vault for fragments/duplicates to integrate and normalise back into it.
-modified: 2026-05-26T11:44:37+00:00
-tags: [agent/refinery, domain/pkm, moc, sot, type/system]
+created: 2026-04-02 11:30:00+01:00
+description: Take an existing SoT/MoC and scour the vault for fragments/duplicates
+  to integrate and normalise back into it.
+modified: 2026-05-26 11:44:37+00:00
+tags:
+- agent/refinery
+- domain/pkm
+- moc
+- sot
+- type/system
 title: Knowledge Harvesting & Normalization Agent
 type: prompt
 version: 1
+permalink: llmeon/10-system/prompts/knowledge-harvesting-normalization-agent
 ---
 
 ## SYSTEM ROLE: Principal Knowledge Normalization Engineer

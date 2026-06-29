@@ -1,13 +1,17 @@
 ---
 aliases: []
-created: 2025-10-31T11:06:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:35+00:00
-status: "seedling"
-tags: ["protocols", "SoftwareEngineering/Networking", "SoftwareEngineering/networking/dns"]
+created: 2025-10-31 11:06:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:35+00:00
+status: seedling
+tags:
+- protocols
+- SoftwareEngineering/Networking
+- SoftwareEngineering/networking/dns
 title: DNS Protocol Uses UDP and TCP for Message Transport
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/dns-protocol-uses-udp-and-tcp-for-message-transport
 ---
 
 ## DNS Protocol Uses UDP and TCP for Message Transport

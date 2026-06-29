@@ -1,13 +1,19 @@
 ---
 aliases: []
-created: 2025-10-26T11:09:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:34+00:00
-status: ""
-tags: ["dopamine", "reward-system", "TheHuman/Health/ADHD", "TheHuman/Motivation", "topic/productivity"]
+created: 2025-10-26 11:09:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:34+00:00
+status: ''
+tags:
+- dopamine
+- reward-system
+- TheHuman/Health/ADHD
+- TheHuman/Motivation
+- topic/productivity
 title: Dopamine Management in ADHD Productivity
-type: "permanent"
-updated: 
+type: permanent
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/dopamine-management-in-adhd-productivity
 ---
 
 ## Dopamine Management in ADHD Productivity

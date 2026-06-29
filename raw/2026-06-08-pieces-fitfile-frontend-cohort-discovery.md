@@ -1,11 +1,14 @@
 ---
 title: FITFILE Frontend — Cohort Discovery Architecture
-created: 2026-06-08T17:51:40.820Z
+created: 2026-06-08 17:51:40.820000+00:00
 source: pieces-ltm
 pieces_ids:
-  - 8ccc3135-904f-495b-bf2f-e65b41da73d4
-  - 2b4ba166-33d9-40c4-b37d-ff0c7e18a333
-tags: [raw, pieces]
+- 8ccc3135-904f-495b-bf2f-e65b41da73d4
+- 2b4ba166-33d9-40c4-b37d-ff0c7e18a333
+tags:
+- raw
+- pieces
+permalink: llmeon/raw/2026-06-08-pieces-fitfile-frontend-cohort-discovery
 ---
 
 ## Asset 1 (Pieces: 8ccc3135-904f-495b-bf2f-e65b41da73d4)

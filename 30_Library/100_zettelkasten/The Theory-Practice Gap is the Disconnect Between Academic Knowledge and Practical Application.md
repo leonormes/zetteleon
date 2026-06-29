@@ -1,13 +1,19 @@
 ---
-aliases: ["Theory-Practice Gap"]
-created: 2025-11-12T14:10:06Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:24+00:00
-status: "seedling"
-tags: ["education", "learning", "pedagogy"]
-title: The Theory-Practice Gap is the Disconnect Between Academic Knowledge and Practical Application
-type: "concept"
-updated: 
+aliases:
+- Theory-Practice Gap
+created: 2025-11-12 14:10:06+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:24+00:00
+status: seedling
+tags:
+- education
+- learning
+- pedagogy
+title: The Theory-Practice Gap is the Disconnect Between Academic Knowledge and Practical
+  Application
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/the-theory-practice-gap-is-the-disconnect-between-academic-knowledge-and-practical-application
 ---
 
 ## The Theory-Practice Gap is the Disconnect Between Academic Knowledge and Practical Application

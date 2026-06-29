@@ -1,13 +1,18 @@
 ---
-aliases: ["Iterative Learning"]
-created: 2025-11-01T12:30:11Z
-last_reviewed: "2025-11-01"
-modified: 2026-02-01T15:08:35+00:00
-status: "seedling"
-tags: ["adaptability", "learning", "TheHuman/Mindset"]
+aliases:
+- Iterative Learning
+created: 2025-11-01 12:30:11+00:00
+last_reviewed: '2025-11-01'
+modified: 2026-02-01 15:08:35+00:00
+status: seedling
+tags:
+- adaptability
+- learning
+- TheHuman/Mindset
 title: Continuous Iterative Learning Mindset is Essential
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/continuous-iterative-learning-mindset-is-essential
 ---
 
 ## Continuous Iterative Learning Mindset is Essential

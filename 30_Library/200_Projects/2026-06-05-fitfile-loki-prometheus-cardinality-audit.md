@@ -1,20 +1,21 @@
 ---
-created: 2026-06-05T00:00:00+00:00
-modified: 2026-06-08T11:49:15+00:00
+created: 2026-06-05 00:00:00+00:00
+modified: 2026-06-08 11:49:15+00:00
 project_category: refined_deployment
 project_name: Refined Deployment
 project_status: active
 source: gcx CLI audit (fitfiletest context)
 tags:
-  - audit
-  - cardinality
-  - cost-optimisation
-  - fitfile
-  - grafana-cloud
-  - loki
-  - prometheus
+- audit
+- cardinality
+- cost-optimisation
+- fitfile
+- grafana-cloud
+- loki
+- prometheus
 title: 2026-06-05-fitfile-loki-prometheus-cardinality-audit
-type:
+type: null
+permalink: llmeon/30-library/200-projects/2026-06-05-fitfile-loki-prometheus-cardinality-audit
 ---
 
 ## FITFILE—Loki & Prometheus Cardinality Audit

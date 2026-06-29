@@ -1,13 +1,18 @@
 ---
 aliases: []
-created: 2025-06-26T15:03:54Z
-last_reviewed: ""
-modified: 2026-02-03T07:54:14+00:00
-status: ""
-tags: ["emotion", "TheHuman/Cognition", "TheHuman/Health/ADHD", "TheHuman/Psychology"]
+created: 2025-06-26 15:03:54+00:00
+last_reviewed: ''
+modified: 2026-02-03 07:54:14+00:00
+status: ''
+tags:
+- emotion
+- TheHuman/Cognition
+- TheHuman/Health/ADHD
+- TheHuman/Psychology
 title: MOC - Emotional Dysregulation
-type: "map"
-updated: 
+type: map
+updated: null
+permalink: llmeon/30-library/mo-c/moc-emotional-dysregulation
 ---
 
 ADHD brains process emotions differently, leading to "intense or unpredictable emotions that seem blown out of proportion". These are not chosen behaviors, but rather a result of differences in brain function, particularly in the amygdala and frontal cortex. This means your emotional responses are often automatic and not a reflection of your character. Trying to directly control feelings is often futile; instead, focus on managing your behavior in response to them.

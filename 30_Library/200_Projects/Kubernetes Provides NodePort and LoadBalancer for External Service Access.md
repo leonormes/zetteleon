@@ -1,16 +1,23 @@
 ---
 aliases: []
-created: 2025-10-26T17:19:00Z
-last_reviewed: "null"
-modified: 2026-06-08T11:49:21+00:00
+created: 2025-10-26 17:19:00+00:00
+last_reviewed: 'null'
+modified: 2026-06-08 11:49:21+00:00
 project_category: infrastructure
-project_name: "k8s"
+project_name: k8s
 project_status: archived
-status: "null"
-tags: ["external-access", "loadbalancer", "nodeport", "service", "SoftwareEngineering/Containers", "SoftwareEngineering/Kubernetes"]
+status: 'null'
+tags:
+- external-access
+- loadbalancer
+- nodeport
+- service
+- SoftwareEngineering/Containers
+- SoftwareEngineering/Kubernetes
 title: Kubernetes Provides NodePort and LoadBalancer for External Service Access
-type: "Fact"
-updated: 
+type: Fact
+updated: null
+permalink: llmeon/30-library/200-projects/kubernetes-provides-node-port-and-load-balancer-for-external-service-access
 ---
 
 ## Summary

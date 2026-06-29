@@ -1,13 +1,16 @@
 ---
 aliases: []
-created: 2025-10-31T09:20:29Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:29+00:00
-status: "seedling"
-tags: ["topic/social-cognition", "topic/social-perception"]
+created: 2025-10-31 09:20:29+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:29+00:00
+status: seedling
+tags:
+- topic/social-cognition
+- topic/social-perception
 title: Pattern Recognition in Social Cognition
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/pattern-recognition-in-social-cognition
 ---
 
 ## Pattern Recognition in Social Cognition

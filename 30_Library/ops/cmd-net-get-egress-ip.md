@@ -1,12 +1,16 @@
 ---
-created: 2026-02-17T08:49:06+00:00
+created: 2026-02-17 08:49:06+00:00
 hop_level: cluster
-modified: 2026-03-14T11:10:11+00:00
-tags: [atomic, egress, network]
+modified: 2026-03-14 11:10:11+00:00
+tags:
+- atomic
+- egress
+- network
 target_service: network
 title: cmd-net-get-egress-ip
 tool: curl
 type: atomic_command
+permalink: llmeon/30-library/ops/cmd-net-get-egress-ip
 ---
 
 ## Identify Pod Egress IP

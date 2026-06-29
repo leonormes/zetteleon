@@ -1,10 +1,14 @@
 ---
-created: 2026-01-10T09:27:00+00:00
-modified: 2026-02-01T15:08:03+00:00
+created: 2026-01-10 09:27:00+00:00
+modified: 2026-02-01 15:08:03+00:00
 status: active
-tags: [health, metabolic, system-architecture]
+tags:
+- health
+- metabolic
+- system-architecture
 title: Protocol - Metabolic Firewall
 type: protocol
+permalink: llmeon/30-library/so-t/protocol-metabolic-firewall
 ---
 
 ## Protocol: Metabolic Firewall (Post-Mounjaro)

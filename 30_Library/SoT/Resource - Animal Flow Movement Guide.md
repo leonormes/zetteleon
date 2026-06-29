@@ -1,13 +1,20 @@
 ---
-aliases: ["Animal Flow Guide", "Primal Movement Reference"]
-created: 2025-12-15T00:00:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:03+00:00
-status: "stable"
-tags: ["exercise", "health", "somatics", "TheHuman/Health/ADHD"]
+aliases:
+- Animal Flow Guide
+- Primal Movement Reference
+created: 2025-12-15 00:00:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:03+00:00
+status: stable
+tags:
+- exercise
+- health
+- somatics
+- TheHuman/Health/ADHD
 title: Resource - Animal Flow Movement Guide
-type: "Resource"
-updated: 
+type: Resource
+updated: null
+permalink: llmeon/30-library/so-t/resource-animal-flow-movement-guide
 ---
 
 ## 🏗️ Runtime Protocol: "The 5-Minute Reset"

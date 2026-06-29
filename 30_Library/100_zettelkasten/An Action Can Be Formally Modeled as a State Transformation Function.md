@@ -1,13 +1,19 @@
 ---
-aliases: ["Formal Action Model"]
-created: 2025-11-10T15:04:00Z
-last_reviewed: ""
-modified: 2026-05-26T11:44:36+00:00
-status: "stable"
-tags: ["action", "model", "theory", "topic/productivity"]
+aliases:
+- Formal Action Model
+created: 2025-11-10 15:04:00+00:00
+last_reviewed: ''
+modified: 2026-05-26 11:44:36+00:00
+status: stable
+tags:
+- action
+- model
+- theory
+- topic/productivity
 title: An Action Can Be Formally Modeled as a State Transformation Function
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/an-action-can-be-formally-modeled-as-a-state-transformation-function
 ---
 
 ## An Action Can Be Formally Modeled as a State Transformation Function

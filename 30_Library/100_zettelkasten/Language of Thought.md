@@ -1,13 +1,18 @@
 ---
 aliases: []
-created: 2025-08-31T16:06:41Z
-last_reviewed: "null"
-modified: 2026-02-01T15:08:32+00:00
-status: "null"
-tags: ["language", "mentalese", "philosophy-of-mind", "TheHuman/Cognition"]
+created: 2025-08-31 16:06:41+00:00
+last_reviewed: 'null'
+modified: 2026-02-01 15:08:32+00:00
+status: 'null'
+tags:
+- language
+- mentalese
+- philosophy-of-mind
+- TheHuman/Cognition
 title: Language of Thought
-type: "null"
-updated: 
+type: 'null'
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/language-of-thought
 ---
 
 The Language of Thought hypothesis suggests that humans possess an innate cognitive system that resembles language but is distinct from any spoken language. This internal representational system may underlie our capacity for abstract thought.

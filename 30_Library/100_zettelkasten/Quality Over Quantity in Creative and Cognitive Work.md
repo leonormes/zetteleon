@@ -1,13 +1,20 @@
 ---
-aliases: ["Excellence Over Volume", "Quality as Way of Life"]
-created: 2025-10-30T15:07:41Z
-last_reviewed: "2025-10-30T00:00:00.000Z"
-modified: 2026-02-01T15:08:28+00:00
-status: "seedling"
-tags: ["deliberate-practice", "excellence", "quality", "topic/productivity"]
+aliases:
+- Excellence Over Volume
+- Quality as Way of Life
+created: 2025-10-30 15:07:41+00:00
+last_reviewed: '2025-10-30T00:00:00.000Z'
+modified: 2026-02-01 15:08:28+00:00
+status: seedling
+tags:
+- deliberate-practice
+- excellence
+- quality
+- topic/productivity
 title: Quality Over Quantity in Creative and Cognitive Work
-type: "principle"
-updated: 
+type: principle
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/quality-over-quantity-in-creative-and-cognitive-work
 ---
 
 ## Quality Over Quantity in Creative and Cognitive Work

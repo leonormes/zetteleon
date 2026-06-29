@@ -1,13 +1,23 @@
 ---
-aliases: ["Automated Privilege Management", "GitOps PIM", "JIT Access with IaC"]
-created: 2025-07-04T07:32:01Z
-last_reviewed: 
-modified: 2026-02-01T15:07:57+00:00
-status: "Active"
-tags: ["azure", "gitops", "iam", "pim", "security", "terraform"]
+aliases:
+- Automated Privilege Management
+- GitOps PIM
+- JIT Access with IaC
+created: 2025-07-04 07:32:01+00:00
+last_reviewed: null
+modified: 2026-02-01 15:07:57+00:00
+status: Active
+tags:
+- azure
+- gitops
+- iam
+- pim
+- security
+- terraform
 title: SoT - GitOps for Privileged Identity Management
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-git-ops-for-privileged-identity-management
 ---
 
 ## SoT - GitOps for Privileged Identity Management

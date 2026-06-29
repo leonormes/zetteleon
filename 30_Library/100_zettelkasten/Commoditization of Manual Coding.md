@@ -1,15 +1,20 @@
 ---
-created: 2026-04-13T14:35:19+00:00
-created_utc: "2026-04-13T11:00:00Z"
+created: 2026-04-13 14:35:19+00:00
+created_utc: '2026-04-13T11:00:00Z'
 kind: distinction
-modified: 2026-05-26T11:44:36+00:00
-source_title: "The Agent-First Workflow"
-source_url: "https://gemini.google.com/app/3efdb3bd475edbb1"
+modified: 2026-05-26 11:44:36+00:00
+source_title: The Agent-First Workflow
+source_url: https://gemini.google.com/app/3efdb3bd475edbb1
 status: seed
-tags: [automation, commoditization, labor-trends, software-industry]
+tags:
+- automation
+- commoditization
+- labor-trends
+- software-industry
 title: Commoditization of Manual Coding
 type: atom
-upstream: "[[HEAD The Agent-First Workflow]]"
+upstream: '[[HEAD The Agent-First Workflow]]'
+permalink: llmeon/30-library/100-zettelkasten/commoditization-of-manual-coding
 ---
 
 ## Commoditization of Manual Coding

@@ -1,13 +1,21 @@
 ---
-aliases: ["Designing Errors", "Error Design", "The Error Handling Protocol"]
-created: 2026-01-06T19:00:03+00:00
-last_reviewed: 
-modified: 2026-02-01T15:07:59+00:00
-status: "Active"
-tags: ["error-handling", "observability", "rust", "SoftwareEngineering/Architecture"]
+aliases:
+- Designing Errors
+- Error Design
+- The Error Handling Protocol
+created: 2026-01-06 19:00:03+00:00
+last_reviewed: null
+modified: 2026-02-01 15:07:59+00:00
+status: Active
+tags:
+- error-handling
+- observability
+- rust
+- SoftwareEngineering/Architecture
 title: SoT - Error Handling Architecture
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-error-handling-architecture
 ---
 
 ## SoT - Error Handling Architecture

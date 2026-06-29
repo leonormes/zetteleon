@@ -1,13 +1,17 @@
 ---
-created: 2026-02-04T18:28:15+00:00
+created: 2026-02-04 18:28:15+00:00
 last-synthesis: 2026-02-04
-modified: 2026-02-05T19:59:53+00:00
+modified: 2026-02-05 19:59:53+00:00
 source_of_truth: true
 status: evergreen
 synthesis-count: 1
-tags: [domain/systems-thinking, framework/cynefin, type/SoT]
+tags:
+- domain/systems-thinking
+- framework/cynefin
+- type/SoT
 title: SoT - Cynefin Framework
 trust-level: stable
+permalink: llmeon/30-library/so-t/so-t-cynefin-framework
 ---
 
 ## Minimum Viable Understanding (MVU)

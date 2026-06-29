@@ -1,13 +1,19 @@
 ---
-aliases: ["Inequality MOC", "Social Stratification Index"]
-created: 2025-12-10T12:00:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:05+00:00
-status: "stable"
-tags: ["inequality", "sociology", "structure"]
+aliases:
+- Inequality MOC
+- Social Stratification Index
+created: 2025-12-10 12:00:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:05+00:00
+status: stable
+tags:
+- inequality
+- sociology
+- structure
 title: MOC - Social Stratification
-type: "map"
-updated: 
+type: map
+updated: null
+permalink: llmeon/30-library/mo-c/moc-social-stratification
 ---
 
 ## MOC - Social Stratification

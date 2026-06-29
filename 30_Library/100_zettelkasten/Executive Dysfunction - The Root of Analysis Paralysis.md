@@ -1,13 +1,14 @@
 ---
 aliases: []
-created: 2025-08-11T17:24:14Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:34+00:00
-status: ""
+created: 2025-08-11 17:24:14+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:34+00:00
+status: ''
 tags: []
 title: Executive Dysfunction - The Root of Analysis Paralysis
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/executive-dysfunction-the-root-of-analysis-paralysis
 ---
 
 Executive dysfunction affects up to 90% of individuals with ADHD and is the primary driver of overthinking-procrastination cycles. In technical work, this manifests as:

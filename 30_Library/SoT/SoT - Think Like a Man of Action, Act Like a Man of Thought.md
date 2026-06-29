@@ -1,14 +1,22 @@
 ---
-aliases: ["Bergson's Principle", Action-Oriented Thinking, MVA]
-created: 2025-12-07T00:00:00Z
-last_reviewed: "2026-04-05"
-modified: 2026-05-26T11:44:16+00:00
+aliases:
+- Bergson's Principle
+- Action-Oriented Thinking
+- MVA
+created: 2025-12-07 00:00:00+00:00
+last_reviewed: '2026-04-05'
+modified: 2026-05-26 11:44:16+00:00
 status: stable
-tags: [action, adhd, thinking, topic/productivity]
+tags:
+- action
+- adhd
+- thinking
+- topic/productivity
 tier: 1-Foundation
 title: SoT - Think Like a Man of Action, Act Like a Man of Thought
 type: SoT
 updated: 2026-04-05
+permalink: llmeon/30-library/so-t/so-t-think-like-a-man-of-action-act-like-a-man-of-thought
 ---
 
 ## 1. Minimum Viable Understanding (MVU)

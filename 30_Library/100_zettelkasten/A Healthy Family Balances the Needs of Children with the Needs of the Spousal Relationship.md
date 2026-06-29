@@ -1,13 +1,21 @@
 ---
-aliases: ["Balancing Family Needs"]
-created: 2025-11-10T10:19:00Z
-last_reviewed: ""
-modified: 2026-05-26T11:44:37+00:00
-status: "seedling"
-tags: ["boundaries", "family", "needs", "parenting", "relationship"]
-title: A Healthy Family Balances the Needs of Children with the Needs of the Spousal Relationship
-type: "concept"
-updated: 
+aliases:
+- Balancing Family Needs
+created: 2025-11-10 10:19:00+00:00
+last_reviewed: ''
+modified: 2026-05-26 11:44:37+00:00
+status: seedling
+tags:
+- boundaries
+- family
+- needs
+- parenting
+- relationship
+title: A Healthy Family Balances the Needs of Children with the Needs of the Spousal
+  Relationship
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/a-healthy-family-balances-the-needs-of-children-with-the-needs-of-the-spousal-relationship
 ---
 
 ## A Healthy Family Balances the Needs of Children with the Needs of the Spousal Relationship

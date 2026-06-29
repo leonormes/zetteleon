@@ -1,10 +1,11 @@
 ---
 type: tmp_atoms
 status: tmp
-source_title: "Networking Is Label Transformation Under Policy"
-source_url: "N/A"
-captured_utc: "2026-04-14T10:15:00Z"
-signal_to_noise: "90% signal / 10% noise"
+source_title: Networking Is Label Transformation Under Policy
+source_url: N/A
+captured_utc: '2026-04-14T10:15:00Z'
+signal_to_noise: 90% signal / 10% noise
+permalink: llmeon/99-archive/tmp-atoms-networking-label-transformation
 ---
 
 2) Noise Removed:

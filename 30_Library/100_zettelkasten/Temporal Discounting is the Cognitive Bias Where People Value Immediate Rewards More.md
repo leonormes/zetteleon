@@ -1,13 +1,21 @@
 ---
-aliases: ["Present Bias", "Temporal Discounting"]
-created: 2025-11-10T17:02:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:26+00:00
-status: "seedling"
-tags: ["decision-making", "procrastination", "TheHuman/Cognition/bias", "TheHuman/Psychology"]
-title: Temporal Discounting is the Cognitive Bias Where People Value Immediate Rewards More
-type: "concept"
-updated: 
+aliases:
+- Present Bias
+- Temporal Discounting
+created: 2025-11-10 17:02:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:26+00:00
+status: seedling
+tags:
+- decision-making
+- procrastination
+- TheHuman/Cognition/bias
+- TheHuman/Psychology
+title: Temporal Discounting is the Cognitive Bias Where People Value Immediate Rewards
+  More
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/temporal-discounting-is-the-cognitive-bias-where-people-value-immediate-rewards-more
 ---
 
 ## Temporal Discounting is the Cognitive Bias Where People Value Immediate Rewards More

@@ -1,9 +1,29 @@
 ---
 title: FTFL-511 & FTFL-512 Security Scan Analysis
-created: 2026-05-29T11:00:59+00:00
+created: 2026-05-29 11:00:59+00:00
 source: pieces-ltm
-pieces_ids: ['c554ba31-07ca-4484-8fc2-01fd549619dd', 'e594f9e6-e206-4d85-951a-5d852d8c83e7', '14d27741-01b4-434f-9893-16e7b4648dc8', '7fad6c22-c80c-4bc5-9e78-feb65d70c0fd', '7ca8edfb-0634-4489-b6ee-220a565b9a38', '0a074241-f716-43c2-b8ca-6c1fe727cfb5', '6274dd27-5329-4e9a-8f76-28cd251a01f2', 'e805224e-d4db-49b9-a1f8-59a8cb30fbdf', 'b6d1a56c-dea8-4898-bb21-5cbb37c99b77', 'b229faf2-f6d0-4ed1-a93c-cb7dcae02aca', 'cb941d11-3e5b-417e-8e04-2c1f90e8107f', '247dece9-f2ea-49d5-8b54-33f3fcc9c7f7', 'ea430a7d-7b09-4aec-b47b-c936e594c8ad', 'c42afa80-1bfb-4436-a2c8-d1322aefed87', '44f6bdf5-7ec1-4683-ba14-836a9f3936b0', 'cfc4f042-9ce5-45aa-9f37-98ef2327f0f9', 'bb8937ac-9678-47f0-aa1b-3c651a94fc9f']
-tags: [raw, pieces]
+pieces_ids:
+- c554ba31-07ca-4484-8fc2-01fd549619dd
+- e594f9e6-e206-4d85-951a-5d852d8c83e7
+- 14d27741-01b4-434f-9893-16e7b4648dc8
+- 7fad6c22-c80c-4bc5-9e78-feb65d70c0fd
+- 7ca8edfb-0634-4489-b6ee-220a565b9a38
+- 0a074241-f716-43c2-b8ca-6c1fe727cfb5
+- 6274dd27-5329-4e9a-8f76-28cd251a01f2
+- e805224e-d4db-49b9-a1f8-59a8cb30fbdf
+- b6d1a56c-dea8-4898-bb21-5cbb37c99b77
+- b229faf2-f6d0-4ed1-a93c-cb7dcae02aca
+- cb941d11-3e5b-417e-8e04-2c1f90e8107f
+- 247dece9-f2ea-49d5-8b54-33f3fcc9c7f7
+- ea430a7d-7b09-4aec-b47b-c936e594c8ad
+- c42afa80-1bfb-4436-a2c8-d1322aefed87
+- 44f6bdf5-7ec1-4683-ba14-836a9f3936b0
+- cfc4f042-9ce5-45aa-9f37-98ef2327f0f9
+- bb8937ac-9678-47f0-aa1b-3c651a94fc9f
+tags:
+- raw
+- pieces
+permalink: llmeon/raw/2026-05-29-pieces-ftfl-511-512-security-scan
 ---
 
 ## Asset 1 (Pieces: c554ba31-07ca-4484-8fc2-01fd549619dd)

@@ -1,13 +1,16 @@
 ---
 aliases: []
-created: 2025-08-31T16:08:38Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:37+00:00
-status: ""
-tags: [llm, llm-understanding]
+created: 2025-08-31 16:08:38+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:37+00:00
+status: ''
+tags:
+- llm
+- llm-understanding
 title: AI and Machine Understanding
-type: ""
-updated:
+type: ''
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/ai-and-machine-understanding
 ---
 
 The challenge of creating AI systems that truly understand language highlights the complexity of the thought-language relationship and raises fundamental questions about the nature of intelligence and understanding.

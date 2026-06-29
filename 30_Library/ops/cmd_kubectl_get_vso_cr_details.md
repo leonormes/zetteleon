@@ -1,12 +1,17 @@
 ---
-created: 2026-02-21T15:07:24+00:00
-modified: 2026-02-22T17:30:31+00:00
+created: 2026-02-21 15:07:24+00:00
+modified: 2026-02-22 17:30:31+00:00
 risk: read-only
 service: vso
-tags: [k8s, secrets, status, vso]
+tags:
+- k8s
+- secrets
+- status
+- vso
 title: cmd_kubectl_get_vso_cr_details
 tool: kubectl
 type: command
+permalink: llmeon/30-library/ops/cmd-kubectl-get-vso-cr-details
 ---
 
 ## Get VSO CR Details

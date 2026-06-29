@@ -1,14 +1,22 @@
 ---
-title: "fitfile-image-pull-secret Missing — Alloy Logging Namespace Issue"
-created: "2026-05-27T12:05:00+00:00"
+title: fitfile-image-pull-secret Missing — Alloy Logging Namespace Issue
+created: '2026-05-27T12:05:00+00:00'
 source: pieces-ltm
 pieces_ids:
-  - 98a0aea4-ba8f-4161-b6ae-ff08d93dea69
-  - 197fa585-493b-4385-b7fd-ade194efe574
-  - 4f40a613-2281-4d8c-8ea1-c206cdf30cdb
-  - 22e8d732-027b-4357-8f4a-2497823a02dd
-  - 36150679-1ce5-4182-b38d-c6c20236e8bf
-tags: [raw, pieces, kubernetes, alloy, grafana, fitfile, monitoring]
+- 98a0aea4-ba8f-4161-b6ae-ff08d93dea69
+- 197fa585-493b-4385-b7fd-ade194efe574
+- 4f40a613-2281-4d8c-8ea1-c206cdf30cdb
+- 22e8d732-027b-4357-8f4a-2497823a02dd
+- 36150679-1ce5-4182-b38d-c6c20236e8bf
+tags:
+- raw
+- pieces
+- kubernetes
+- alloy
+- grafana
+- fitfile
+- monitoring
+permalink: llmeon/raw/2026-05-27-pieces-alloy-image-pull-secret
 ---
 
 # fitfile-image-pull-secret Missing — Alloy Logging Namespace Issue

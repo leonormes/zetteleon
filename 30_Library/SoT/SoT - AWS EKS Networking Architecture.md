@@ -1,14 +1,24 @@
 ---
-aliases: ["AWS VPC CNI vs Calico", "EKS IP Planning", "EKS Networking Requirements", "EKS Networking"]
-created: 2026-02-01T21:19:14+00:00
+aliases:
+- AWS VPC CNI vs Calico
+- EKS IP Planning
+- EKS Networking Requirements
+- EKS Networking
+created: 2026-02-01 21:19:14+00:00
 last-synthesis: 2026-04-04
-modified: 2026-05-26T11:44:21+00:00
+modified: 2026-05-26 11:44:21+00:00
 source_of_truth: true
 status: evergreen
 synthesis-count: 3
-tags: [domain/cloud, networking, provider/aws, service/eks, type/SoT]
+tags:
+- domain/cloud
+- networking
+- provider/aws
+- service/eks
+- type/SoT
 title: SoT - AWS EKS Networking Architecture
 trust-level: working-knowledge
+permalink: llmeon/30-library/so-t/so-t-aws-eks-networking-architecture
 ---
 
 ## Minimum Viable Understanding (MVU)

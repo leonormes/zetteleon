@@ -1,13 +1,18 @@
 ---
-aliases: ["Aesthetic Value", "Mathematical Beauty"]
-created: 2025-11-01T11:22:13Z
-last_reviewed: "2025-11-01"
-modified: 2026-02-01T15:08:36+00:00
-status: "seedling"
-tags: ["aesthetics", "topic/maths"]
+aliases:
+- Aesthetic Value
+- Mathematical Beauty
+created: 2025-11-01 11:22:13+00:00
+last_reviewed: '2025-11-01'
+modified: 2026-02-01 15:08:36+00:00
+status: seedling
+tags:
+- aesthetics
+- topic/maths
 title: Beauty Is a Guiding Value in Mathematics
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/beauty-is-a-guiding-value-in-mathematics
 ---
 
 Summary: Across all branches of mathematics, practitioners are driven by an appreciation for beauty and elegance, with simplicity often considered the highest form of mathematical beauty.

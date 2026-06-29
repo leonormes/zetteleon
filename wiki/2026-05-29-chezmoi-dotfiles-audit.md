@@ -1,7 +1,12 @@
 ---
-tags: [chezmoi, audit, dotfiles, refactor]
+tags:
+- chezmoi
+- audit
+- dotfiles
+- refactor
 source: OWL (Mechanical Lead, local audit)
 date: 2026-05-30
+permalink: llmeon/wiki/2026-05-29-chezmoi-dotfiles-audit
 ---
 
 # Chezmoi Dotfiles Audit Report

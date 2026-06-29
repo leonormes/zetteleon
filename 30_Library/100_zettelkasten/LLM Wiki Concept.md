@@ -1,15 +1,21 @@
 ---
-created: 2026-04-14T20:38:10+00:00
-created_utc: "2026-04-14T14:00:00Z"
+created: 2026-04-14 20:38:10+00:00
+created_utc: '2026-04-14T14:00:00Z'
 kind: definition
-modified: 2026-05-26T11:44:34+00:00
-source_title: "Hermes Agent and Karpathy’s LLM Wiki"
-source_url: "https://youtu.be/Mb5N08xcxtg"
+modified: 2026-05-26 11:44:34+00:00
+source_title: Hermes Agent and Karpathy’s LLM Wiki
+source_url: https://youtu.be/Mb5N08xcxtg
 status: seed
-tags: [knowledge-management, llm-wiki, memory, pkm, rag]
+tags:
+- knowledge-management
+- llm-wiki
+- memory
+- pkm
+- rag
 title: LLM Wiki Concept
 type: atom
-upstream: "[[SoT - LLM Wiki Pattern]]"
+upstream: '[[SoT - LLM Wiki Pattern]]'
+permalink: llmeon/30-library/100-zettelkasten/llm-wiki-concept
 ---
 
 ## LLM Wiki Concept

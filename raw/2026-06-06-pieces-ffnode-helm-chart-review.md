@@ -1,13 +1,16 @@
 ---
-title: "ffnode Helm Chart Review — Claude Code Prompt & Library Chart Analysis"
-created: 2026-06-06T07:05:55+00:00
+title: ffnode Helm Chart Review — Claude Code Prompt & Library Chart Analysis
+created: 2026-06-06 07:05:55+00:00
 source: pieces-ltm
 pieces_ids:
-  - e0986954-c470-4e01-827d-914248b200e8
-  - 93d2d954-0552-4f79-a85f-8a1a1b2e688b
-  - e80bcd4e-9cbb-4096-af77-8eb8e41ac2ec
-  - 25097810-5b9e-45cd-abad-4b192f6dcaab
-tags: [raw, pieces]
+- e0986954-c470-4e01-827d-914248b200e8
+- 93d2d954-0552-4f79-a85f-8a1a1b2e688b
+- e80bcd4e-9cbb-4096-af77-8eb8e41ac2ec
+- 25097810-5b9e-45cd-abad-4b192f6dcaab
+tags:
+- raw
+- pieces
+permalink: llmeon/raw/2026-06-06-pieces-ffnode-helm-chart-review
 ---
 
 # ffnode Helm Chart Review — Claude Code Prompt & Library Chart Analysis

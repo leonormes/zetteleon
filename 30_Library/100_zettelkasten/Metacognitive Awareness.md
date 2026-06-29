@@ -1,14 +1,16 @@
 ---
 aliases: []
-created: 2025-02-07T12:57:53Z
-ID: "9f"
-last_reviewed: "null"
-modified: 2026-02-01T15:08:30+00:00
-status: "null"
-tags: ["TheHuman/Cognition"]
+created: 2025-02-07 12:57:53+00:00
+ID: 9f
+last_reviewed: 'null'
+modified: 2026-02-01 15:08:30+00:00
+status: 'null'
+tags:
+- TheHuman/Cognition
 title: Metacognitive Awareness
-type: "null"
-updated: 
+type: 'null'
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/metacognitive-awareness
 ---
 
 Writing allows us to observe our own thinking process.

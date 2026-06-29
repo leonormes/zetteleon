@@ -1,15 +1,20 @@
 ---
-created: 2026-04-13T14:47:45+00:00
-created_utc: "2026-04-13T11:30:00Z"
+created: 2026-04-13 14:47:45+00:00
+created_utc: '2026-04-13T11:30:00Z'
 kind: definition
-modified: 2026-05-26T11:44:33+00:00
-source_title: "Every API Authentication Method Explained"
-source_url: "https://youtube.com/watch?v=_lTECv25N2U"
+modified: 2026-05-26 11:44:33+00:00
+source_title: Every API Authentication Method Explained
+source_url: https://youtube.com/watch?v=_lTECv25N2U
 status: seed
-tags: [identity-management, productivity, sso, ux]
+tags:
+- identity-management
+- productivity
+- sso
+- ux
 title: Single Sign-On (SSO)
 type: atom
-upstream: "[[HEAD Authentication Methods and Concepts]]"
+upstream: '[[HEAD Authentication Methods and Concepts]]'
+permalink: llmeon/30-library/100-zettelkasten/single-sign-on-sso
 ---
 
 ## Single Sign-On (SSO)

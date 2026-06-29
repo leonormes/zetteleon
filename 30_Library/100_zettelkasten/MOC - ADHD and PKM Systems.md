@@ -1,9 +1,14 @@
 ---
 type: moc
-tags: [adhd, pkm, productivity, executive-function]
+tags:
+- adhd
+- pkm
+- productivity
+- executive-function
 created: 2026-05-31
 related_to:
-  - "[[MOC – My Epistemic Stack]]"
+- '[[MOC – My Epistemic Stack]]'
+permalink: llmeon/30-library/100-zettelkasten/moc-adhd-and-pkm-systems
 ---
 
 # MOC – ADHD and PKM Systems

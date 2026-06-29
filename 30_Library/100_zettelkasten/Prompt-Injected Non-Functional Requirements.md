@@ -1,15 +1,20 @@
 ---
-created: 2026-04-14T20:27:29+00:00
-created_utc: "2026-04-14T13:20:00Z"
+created: 2026-04-14 20:27:29+00:00
+created_utc: '2026-04-14T13:20:00Z'
 kind: claim
-modified: 2026-05-26T11:44:33+00:00
-source_title: "Archon and Extreme Harness Engineering"
-source_url: "https://youtube.com/watch?v=qMnClynCAmM"
+modified: 2026-05-26 11:44:33+00:00
+source_title: Archon and Extreme Harness Engineering
+source_url: https://youtube.com/watch?v=qMnClynCAmM
 status: seed
-tags: [architecture, engineering-standards, observability, security]
+tags:
+- architecture
+- engineering-standards
+- observability
+- security
 title: Prompt-Injected Non-Functional Requirements
 type: atom
-upstream: "[[SoT - Agentic AI Design Patterns]]"
+upstream: '[[SoT - Agentic AI Design Patterns]]'
+permalink: llmeon/30-library/100-zettelkasten/prompt-injected-non-functional-requirements
 ---
 
 ## Prompt-Injected Non-Functional Requirements

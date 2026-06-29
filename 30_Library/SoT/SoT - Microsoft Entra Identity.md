@@ -1,14 +1,22 @@
 ---
-aliases: ["Azure AD", "Entra ID", "Microsoft Entra Identity"]
-created: 2026-04-05T10:15:00Z
+aliases:
+- Azure AD
+- Entra ID
+- Microsoft Entra Identity
+created: 2026-04-05 10:15:00+00:00
 last-synthesis: 2026-04-05
-last_reviewed: 
-modified: 2026-05-26T11:44:18+00:00
-status: "Active"
+last_reviewed: null
+modified: 2026-05-26 11:44:18+00:00
+status: Active
 synthesis-count: 1
-tags: ["azure", "iam", "security", "sot"]
+tags:
+- azure
+- iam
+- security
+- sot
 title: SoT - Microsoft Entra Identity
-type: "SoT"
+type: SoT
+permalink: llmeon/30-library/so-t/so-t-microsoft-entra-identity
 ---
 
 ## Minimum Viable Understanding (MVU)

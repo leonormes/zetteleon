@@ -1,9 +1,13 @@
 ---
 title: FTFL-638 — alloy-logs tolerations are permissive (not restrictive)
-created: 2026-05-30T00:08:42.438724+00:00
+created: 2026-05-30 00:08:42.438724+00:00
 source: pieces-ltm
-pieces_ids: [fd75ff76-e61c-4d32-a5b1-f53c8679c090]
-tags: [raw, pieces]
+pieces_ids:
+- fd75ff76-e61c-4d32-a5b1-f53c8679c090
+tags:
+- raw
+- pieces
+permalink: llmeon/raw/2026-05-30-pieces-ftfl638-tolerations-permissive
 ---
 
 ## Asset 1 (Pieces: fd75ff76-e61c-4d32-a5b1-f53c8679c090)

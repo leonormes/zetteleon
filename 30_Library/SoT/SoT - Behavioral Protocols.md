@@ -1,12 +1,13 @@
 ---
 aliases: []
-created: 2026-01-03T10:24:43+00:00
-last_reviewed: ""
-modified: 2026-02-12T16:59:09+00:00
-status: ""
+created: 2026-01-03 10:24:43+00:00
+last_reviewed: ''
+modified: 2026-02-12 16:59:09+00:00
+status: ''
 tags: []
 title: SoT - Behavioral Protocols
-type: ""
+type: ''
+permalink: llmeon/30-library/so-t/so-t-behavioral-protocols
 ---
 
 ## 1. Protocol: Change (Map-Build-Dismantle)

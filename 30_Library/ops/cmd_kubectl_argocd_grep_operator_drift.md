@@ -1,15 +1,21 @@
 ---
-created: 2026-02-22T17:01:33+00:00
+created: 2026-02-22 17:01:33+00:00
 hop_level: local
 last_verified: 2026-02-22
-modified: 2026-03-14T11:10:10+00:00
+modified: 2026-03-14 11:10:10+00:00
 requires_tunnel: false
 status: active
-tags: [argocd, cmd, drift, metadata, operator]
+tags:
+- argocd
+- cmd
+- drift
+- metadata
+- operator
 target_service: argocd
 title: cmd_kubectl_argocd_grep_operator_drift
 tool: kubectl
 type: command
+permalink: llmeon/30-library/ops/cmd-kubectl-argocd-grep-operator-drift
 ---
 
 ## Grep Resource for Operator Metadata Drift

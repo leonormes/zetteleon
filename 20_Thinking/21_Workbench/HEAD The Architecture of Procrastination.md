@@ -1,12 +1,14 @@
 ---
 captured: 2026-06-04T10:40:32+01:00 2026-06-04T10:40:32+01:00
-created: 2026-06-04T09:40:55+00:00
-modified: 2026-06-04T09:44:47+00:00
+created: 2026-06-04 09:40:55+00:00
+modified: 2026-06-04 09:44:47+00:00
 source: https://gemini.google.com/app/2372add520d3d5ce
 status: processing
-tags: [input]
+tags:
+- input
 title: HEAD New chat 1
 type: head
+permalink: llmeon/20-thinking/21-workbench/head-the-architecture-of-procrastination
 ---
 
 ## Raw Output / Content

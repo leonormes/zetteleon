@@ -1,13 +1,18 @@
 ---
 aliases: []
-created: 2025-10-20T08:05:02Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:32+00:00
-status: ""
-tags: ["confidence", "inaction", "self_esteem", "TheHuman/Psychology"]
+created: 2025-10-20 08:05:02+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:32+00:00
+status: ''
+tags:
+- confidence
+- inaction
+- self_esteem
+- TheHuman/Psychology
 title: Inaction Erodes Self-Trust
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/inaction-erodes-self-trust
 ---
 
 The continuous loop of learning but never doing, a key feature of [[The Intelligence Trap - Strategist vs Performer]] and a form of [[motion_vs_action|motion without action]], has a significant hidden cost: the erosion of trust and belief in oneself.

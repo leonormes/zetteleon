@@ -1,10 +1,15 @@
 ---
-created: 2026-05-23T12:02:54+00:00
-modified: 2026-05-26T11:43:32+00:00
-pieces_ids: [201d6e29-282f-4295-8bf1-44282a6752d3, 49049282-6f30-48f6-8a68-c5cc68b79bb8]
+created: 2026-05-23 12:02:54+00:00
+modified: 2026-05-26 11:43:32+00:00
+pieces_ids:
+- 201d6e29-282f-4295-8bf1-44282a6752d3
+- 49049282-6f30-48f6-8a68-c5cc68b79bb8
 source: pieces-ltm
-tags: [pieces, raw]
+tags:
+- pieces
+- raw
 title: 2026-05-23-pieces-natural-planning-model
+permalink: llmeon/raw/2026-05-23-pieces-natural-planning-model
 ---
 
 ## Complex Projects—Natural Planning Model & Execution Protocol

@@ -1,13 +1,19 @@
 ---
-aliases: ["Reward Yourself for Sticking to Routines"]
-created: 2025-10-29T16:10:00Z
-last_reviewed: "2025-12-16"
-modified: 2026-02-01T15:08:36+00:00
-status: "stable"
-tags: ["positive-reinforcement", "routine", "TheHuman/Habits", "TheHuman/Motivation"]
+aliases:
+- Reward Yourself for Sticking to Routines
+created: 2025-10-29 16:10:00+00:00
+last_reviewed: '2025-12-16'
+modified: 2026-02-01 15:08:36+00:00
+status: stable
+tags:
+- positive-reinforcement
+- routine
+- TheHuman/Habits
+- TheHuman/Motivation
 title: Celebrate Small Successes to Build Routine Momentum
-type: "strategy"
-updated: 
+type: strategy
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/celebrate-small-successes-to-build-routine-momentum
 ---
 
 > [!NOTE] Synthesis

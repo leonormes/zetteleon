@@ -1,8 +1,12 @@
 ---
 title: Concepts Index
-created: 2026-05-10T00:00:00+00:00
-modified: 2026-05-10T00:00:00+00:00
-tags: [wiki, concepts, index]
+created: 2026-05-10 00:00:00+00:00
+modified: 2026-05-10 00:00:00+00:00
+tags:
+- wiki
+- concepts
+- index
+permalink: llmeon/wiki/concepts/readme
 ---
 
 # Concepts — Frameworks, Ideas, and Domain Knowledge

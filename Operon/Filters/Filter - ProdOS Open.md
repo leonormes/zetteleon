@@ -1,10 +1,13 @@
 ---
-created: 2026-06-11T16:00:00+01:00
-modified: 2026-06-11T16:00:00+01:00
+created: 2026-06-11 16:00:00+01:00
+modified: 2026-06-11 16:00:00+01:00
 title: Filter - ProdOS Open
-tags: [operon, filters]
+tags:
+- operon
+- filters
 operon_filter_id: fs_prodos_open
 operon_filter_name: ProdOS — Open
+permalink: llmeon/operon/filters/filter-prod-os-open
 ---
 
 ## Logic (all must match)

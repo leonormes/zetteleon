@@ -1,15 +1,21 @@
 ---
-created: 2026-02-22T17:01:05+00:00
+created: 2026-02-22 17:01:05+00:00
 hop_level: local
 last_verified: 2026-02-22
-modified: 2026-03-14T11:10:10+00:00
+modified: 2026-03-14 11:10:10+00:00
 requires_tunnel: false
 status: active
-tags: [argocd, cmd, debug, drift, sync]
+tags:
+- argocd
+- cmd
+- debug
+- drift
+- sync
 target_service: argocd
 title: cmd_kubectl_argocd_get_failing_resources
 tool: kubectl
 type: command
+permalink: llmeon/30-library/ops/cmd-kubectl-argocd-get-failing-resources
 ---
 
 ## Get ArgoCD Failing Resources

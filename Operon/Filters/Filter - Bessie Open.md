@@ -1,10 +1,13 @@
 ---
-created: 2026-06-11T16:00:00+01:00
-modified: 2026-06-11T16:00:00+01:00
+created: 2026-06-11 16:00:00+01:00
+modified: 2026-06-11 16:00:00+01:00
 title: Filter - Bessie Open
-tags: [operon, filters]
+tags:
+- operon
+- filters
 operon_filter_id: fs_bessie_open
 operon_filter_name: Bessie — Open
+permalink: llmeon/operon/filters/filter-bessie-open
 ---
 
 ## Logic (all must match)

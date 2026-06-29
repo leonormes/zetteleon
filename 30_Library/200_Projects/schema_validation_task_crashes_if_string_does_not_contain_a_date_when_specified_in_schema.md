@@ -1,19 +1,20 @@
 ---
 aliases: []
-created: 2025-02-07T12:57:53Z
-last_reviewed: ""
-modified: 2026-06-08T11:49:24+00:00
+created: 2025-02-07 12:57:53+00:00
+last_reviewed: ''
+modified: 2026-06-08 11:49:24+00:00
 project_category: development
-project_name: "Debug Wiki"
+project_name: Debug Wiki
 project_status: archived
 see_also: []
-status: ""
-superseded_by: ""
-supersedes: ""
+status: ''
+superseded_by: ''
+supersedes: ''
 tags: []
 title: schema_validation_task_crashes_if_string_does_not_contain_a_date_when_specified_in_schema
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/200-projects/schema-validation-task-crashes-if-string-does-not-contain-a-date-when-specified-in-schema
 ---
 
 ## Schema Validation Task Crashes if String Does not Contain a Date when Specified in Schema

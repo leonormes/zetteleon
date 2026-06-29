@@ -1,13 +1,22 @@
 ---
-aliases: ["Neurobiology of Literacy", "Reading Rewires the Brain", "The Reading Brain"]
-created: 2025-12-23T19:54:57Z
-last_reviewed: "2025-12-23"
-modified: 2026-02-01T15:07:53+00:00
-status: "stable"
-tags: ["intelligence", "neuroplasticity", "reading", "TheHuman/Cognition", "TheHuman/Neuroscience"]
+aliases:
+- Neurobiology of Literacy
+- Reading Rewires the Brain
+- The Reading Brain
+created: 2025-12-23 19:54:57+00:00
+last_reviewed: '2025-12-23'
+modified: 2026-02-01 15:07:53+00:00
+status: stable
+tags:
+- intelligence
+- neuroplasticity
+- reading
+- TheHuman/Cognition
+- TheHuman/Neuroscience
 title: SoT - Reading and the Brain
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-reading-and-the-brain
 ---
 
 ## 1. Definitive Statement

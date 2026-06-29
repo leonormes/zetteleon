@@ -1,13 +1,18 @@
 ---
-aliases: ["Information Deficit Model"]
-created: 2025-11-10T17:03:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:25+00:00
-status: "seedling"
-tags: ["behavior-change", "fallacy", "TheHuman/Psychology"]
+aliases:
+- Information Deficit Model
+created: 2025-11-10 17:03:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:25+00:00
+status: seedling
+tags:
+- behavior-change
+- fallacy
+- TheHuman/Psychology
 title: The Information Deficit Model is a Fallacy
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/the-information-deficit-model-is-a-fallacy
 ---
 
 ## The Information Deficit Model is a Fallacy

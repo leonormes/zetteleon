@@ -1,15 +1,20 @@
 ---
-created: 2026-04-14T13:21:45+00:00
-created_utc: "2026-04-14T11:35:00Z"
+created: 2026-04-14 13:21:45+00:00
+created_utc: '2026-04-14T11:35:00Z'
 kind: failure_mode
-modified: 2026-05-26T11:44:32+00:00
-source_title: "Thinking about knowledge"
-source_url: "https://gemini.google.com/app/d3312dd6e13881e3"
+modified: 2026-05-26 11:44:32+00:00
+source_title: Thinking about knowledge
+source_url: https://gemini.google.com/app/d3312dd6e13881e3
 status: seed
-tags: [cognitive-bias, productivity, psychology, resistance]
+tags:
+- cognitive-bias
+- productivity
+- psychology
+- resistance
 title: The Mind Movie Fallacy
 type: atom
-upstream: "[[SoT - The Childish Mind (Behavioral Resistance)]]"
+upstream: '[[SoT - The Childish Mind (Behavioral Resistance)]]'
+permalink: llmeon/30-library/100-zettelkasten/the-mind-movie-fallacy
 ---
 
 ## The Mind Movie Fallacy

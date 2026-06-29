@@ -1,8 +1,13 @@
 ---
-created: 2026-04-10T13:00:00+00:00
-modified: 2026-05-26T11:44:33+00:00
-tags: [deployment, devops, docker, qdrant]
+created: 2026-04-10 13:00:00+00:00
+modified: 2026-05-26 11:44:33+00:00
+tags:
+- deployment
+- devops
+- docker
+- qdrant
 title: Qdrant Supports In-Memory, Disk, and Docker Deployment Modes
+permalink: llmeon/30-library/100-zettelkasten/qdrant-supports-in-memory-disk-and-docker-deployment-modes
 ---
 
 ## Qdrant Supports In-Memory, Disk, and Docker Deployment Modes

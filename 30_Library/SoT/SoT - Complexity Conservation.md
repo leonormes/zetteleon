@@ -1,14 +1,19 @@
 ---
-created: 2026-02-01T20:56:02+00:00
+created: 2026-02-01 20:56:02+00:00
 last-synthesis: 2026-02-01
-modified: 2026-02-06T15:16:03+00:00
-related: [[Code vs Data Structures (Torvalds Essay)]]
+modified: 2026-02-06 15:16:03+00:00
+related:
+- - Code vs Data Structures (Torvalds Essay)
 source_of_truth: true
 status: evergreen
 synthesis-count: 2
-tags: [concept/complexity, domain/software-engineering, type/SoT]
+tags:
+- concept/complexity
+- domain/software-engineering
+- type/SoT
 title: SoT - Complexity Conservation
 trust-level: stable
+permalink: llmeon/30-library/so-t/so-t-complexity-conservation
 ---
 
 ## Minimum Viable Understanding (MVU)

@@ -1,12 +1,14 @@
 ---
-captured: "2026-05-26T11:07:35+01:00 2026-05-26T11:07:35+01:00"
-created: 2026-05-26T10:07:37+00:00
-modified: 2026-05-28T12:31:13+00:00
-source: "https://claude.ai/chat/0edf0f73-d1f3-408a-9a19-0bb335423bde"
-status: "processing"
-tags: ["input"]
+captured: 2026-05-26T11:07:35+01:00 2026-05-26T11:07:35+01:00
+created: 2026-05-26 10:07:37+00:00
+modified: 2026-05-28 12:31:13+00:00
+source: https://claude.ai/chat/0edf0f73-d1f3-408a-9a19-0bb335423bde
+status: processing
+tags:
+- input
 title: HEAD Identity and neurobiology after ADHD diagnosis
-type: "head"
+type: head
+permalink: llmeon/20-thinking/21-workbench/head-identity-and-neurobiology-after-adhd-diagnosis
 ---
 
 ## Raw Output / Content

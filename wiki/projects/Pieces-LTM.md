@@ -2,10 +2,21 @@
 title: Pieces-LTM
 wiki_type: dossier
 entity_kind: project
-created: 2026-05-18T13:40:46.635050+00:00
-modified: 2026-05-28T18:05:00+00:00
-tags: [wiki, dossier, project]
-sources: ["2026-05-18-pieces-cuh-rbac-permissions.md", "2026-05-18-pieces-worker-status-reflections.md", "2026-05-18-pieces-hermes-gitlab-research.md", "2026-05-18-pieces-brain-mcp-integration.md", "2026-05-18-pieces-hermes-diagnostic-session.md", "2026-05-18-pieces-llm-mcp-chezmoi-config.md", "2026-05-28-pieces-ftfl511-jira-ticket.md"]
+created: 2026-05-18 13:40:46.635050+00:00
+modified: 2026-05-28 18:05:00+00:00
+tags:
+- wiki
+- dossier
+- project
+sources:
+- 2026-05-18-pieces-cuh-rbac-permissions.md
+- 2026-05-18-pieces-worker-status-reflections.md
+- 2026-05-18-pieces-hermes-gitlab-research.md
+- 2026-05-18-pieces-brain-mcp-integration.md
+- 2026-05-18-pieces-hermes-diagnostic-session.md
+- 2026-05-18-pieces-llm-mcp-chezmoi-config.md
+- 2026-05-28-pieces-ftfl511-jira-ticket.md
+permalink: llmeon/wiki/projects/pieces-ltm
 ---
 
 ## Summary

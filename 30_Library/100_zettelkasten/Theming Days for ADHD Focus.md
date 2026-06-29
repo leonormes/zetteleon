@@ -1,13 +1,18 @@
 ---
 aliases: []
-created: 2025-10-26T11:06:00Z
-last_reviewed: "null"
-modified: 2026-02-01T15:08:24+00:00
-status: "null"
-tags: ["focus", "planning", "TheHuman/Health/ADHD", "topic/productivity"]
+created: 2025-10-26 11:06:00+00:00
+last_reviewed: 'null'
+modified: 2026-02-01 15:08:24+00:00
+status: 'null'
+tags:
+- focus
+- planning
+- TheHuman/Health/ADHD
+- topic/productivity
 title: Theming Days for ADHD Focus
-type: "permanent"
-updated: 
+type: permanent
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/theming-days-for-adhd-focus
 ---
 
 Day-theming is a productivity strategy where each day of the week is assigned a specific focus or type of work. This provides a high-level structure that helps manage focus and energy for the ADHD brain.

@@ -1,13 +1,15 @@
 ---
 aliases: []
-created: 2025-08-19T23:32:29Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:24+00:00
-status: ""
-tags: ["cryptography"]
+created: 2025-08-19 23:32:29+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:24+00:00
+status: ''
+tags:
+- cryptography
 title: The Totient is the Length of the Exponentiation Cycle
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/the-totient-is-the-length-of-the-exponentiation-cycle
 ---
 
 Within a modular system, raising a number to successive powers generates a sequence of results that eventually repeats. This repeating sequence is the exponentiation cycle.

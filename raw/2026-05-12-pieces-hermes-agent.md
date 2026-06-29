@@ -1,10 +1,14 @@
 ---
-created: 2026-05-12T22:06:30+00:00
-modified: 2026-05-26T11:43:45+00:00
-pieces_ids: ["196c6cce-bc64-46f8-b66c-ea5cd31dbc8e"]
+created: 2026-05-12 22:06:30+00:00
+modified: 2026-05-26 11:43:45+00:00
+pieces_ids:
+- 196c6cce-bc64-46f8-b66c-ea5cd31dbc8e
 source: pieces-ltm
-tags: [pieces, raw]
+tags:
+- pieces
+- raw
 title: 2026-05-12-pieces-hermes-agent
+permalink: llmeon/raw/2026-05-12-pieces-hermes-agent
 ---
 
 ## Pieces LTM Ingest—Hermes Agent

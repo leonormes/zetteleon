@@ -1,14 +1,20 @@
 ---
-alias: ["Vault KV Data Structure"]
+alias:
+- Vault KV Data Structure
 aliases: []
-created: 2025-12-25T00:00:00Z
-last_reviewed: 
-modified: 2026-02-01T15:07:48+00:00
-status: "stable"
-tags: ["data-structures", "infrastructure", "SoftwareEngineering/Security", "vault"]
+created: 2025-12-25 00:00:00+00:00
+last_reviewed: null
+modified: 2026-02-01 15:07:48+00:00
+status: stable
+tags:
+- data-structures
+- infrastructure
+- SoftwareEngineering/Security
+- vault
 title: SoT - Vault KV Data Structure
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-vault-kv-data-structure
 ---
 
 ## 0. The Lineage

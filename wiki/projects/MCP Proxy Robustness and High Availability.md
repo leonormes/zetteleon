@@ -1,17 +1,20 @@
 ---
-title: "MCP Proxy Robustness and High Availability"
+title: MCP Proxy Robustness and High Availability
 wiki_type: dossier
 entity_kind: project
-created: 2026-05-08T16:02:00+00:00
-modified: 2026-06-12T08:50:00+00:00
-tags: [wiki, dossier]
+created: 2026-05-08 16:02:00+00:00
+modified: 2026-06-12 08:50:00+00:00
+tags:
+- wiki
+- dossier
 sources:
-  - raw/2026-05-30-pieces-mcp-proxy-pkm-fix.md
-  - raw/2026-05-08-pieces-mcp-proxy-robustness.md
-  - raw/2026-05-27-pieces-mcp-tools
-  - raw/2026-05-28-pieces-hermes-mcp-proxy-fix.md
-  - raw/2026-05-30-pieces-mcp-proxy-architecture
-  - raw/2026-06-12-pieces-ffnode-mcp-proxy
+- raw/2026-05-30-pieces-mcp-proxy-pkm-fix.md
+- raw/2026-05-08-pieces-mcp-proxy-robustness.md
+- raw/2026-05-27-pieces-mcp-tools
+- raw/2026-05-28-pieces-hermes-mcp-proxy-fix.md
+- raw/2026-05-30-pieces-mcp-proxy-architecture
+- raw/2026-06-12-pieces-ffnode-mcp-proxy
+permalink: llmeon/wiki/projects/mcp-proxy-robustness-and-high-availability
 ---
 
 ## Summary

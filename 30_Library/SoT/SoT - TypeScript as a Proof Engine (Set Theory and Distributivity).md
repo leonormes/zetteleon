@@ -1,13 +1,23 @@
 ---
-aliases: ["Distributivity in Types", "Set Theory in TypeScript", "Type-Level Programming", "TypeScript Proof Engine"]
-created: 2025-12-18T00:00:00Z
-last_reviewed: "2025-12-18"
-modified: 2026-02-01T15:07:48+00:00
-status: "stable"
-tags: ["formal_verification", "set_theory", "SoftwareEngineering/Architecture", "type_theory", "typescript"]
+aliases:
+- Distributivity in Types
+- Set Theory in TypeScript
+- Type-Level Programming
+- TypeScript Proof Engine
+created: 2025-12-18 00:00:00+00:00
+last_reviewed: '2025-12-18'
+modified: 2026-02-01 15:07:48+00:00
+status: stable
+tags:
+- formal_verification
+- set_theory
+- SoftwareEngineering/Architecture
+- type_theory
+- typescript
 title: SoT - TypeScript as a Proof Engine (Set Theory and Distributivity)
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-type-script-as-a-proof-engine-set-theory-and-distributivity
 ---
 
 ## 1. Working Knowledge (Stable Foundation)

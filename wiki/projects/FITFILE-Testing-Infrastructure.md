@@ -2,13 +2,17 @@
 title: FITFILE Testing Infrastructure
 wiki_type: dossier
 entity_kind: project
-created: 2026-05-27T12:13:00+00:00
-modified: 2026-05-27T21:30:00+00:00
-tags: [wiki, dossier, project]
+created: 2026-05-27 12:13:00+00:00
+modified: 2026-05-27 21:30:00+00:00
+tags:
+- wiki
+- dossier
+- project
 sources:
-  - raw/2026-05-27-pieces-terraform-aks-upgrade-override
-  - raw/2026-05-27-pieces-terraform-iac
-  - raw/2026-05-27-pieces-k8s-deployment
+- raw/2026-05-27-pieces-terraform-aks-upgrade-override
+- raw/2026-05-27-pieces-terraform-iac
+- raw/2026-05-27-pieces-k8s-deployment
+permalink: llmeon/wiki/projects/fitfile-testing-infrastructure
 ---
 
 ## Summary

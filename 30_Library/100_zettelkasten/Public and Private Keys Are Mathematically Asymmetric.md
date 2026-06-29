@@ -1,13 +1,19 @@
 ---
-aliases: ["Asymmetric Keys", "Key Pair Asymmetry"]
-created: 2025-08-19T23:32:29Z
+aliases:
+- Asymmetric Keys
+- Key Pair Asymmetry
+created: 2025-08-19 23:32:29+00:00
 last_reviewed: 2025-12-24
-modified: 2026-02-01T15:08:28+00:00
-status: "stable"
-tags: ["cryptography", "maths", "SoftwareEngineering/Security"]
+modified: 2026-02-01 15:08:28+00:00
+status: stable
+tags:
+- cryptography
+- maths
+- SoftwareEngineering/Security
 title: Public and Private Keys Are Mathematically Asymmetric
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/public-and-private-keys-are-mathematically-asymmetric
 ---
 
 While they work as a pair, public and private keys are not interchangeable. They are created with distinct mathematical properties for different roles.

@@ -1,13 +1,19 @@
 ---
-aliases: ["DH", "Diffie-Hellman", "Discrete Logarithm Problem"]
-created: 2025-12-24T12:00:00Z
+aliases:
+- DH
+- Diffie-Hellman
+- Discrete Logarithm Problem
+created: 2025-12-24 12:00:00+00:00
 last_reviewed: 2025-12-24
-modified: 2026-02-01T15:08:34+00:00
-status: "stable"
-tags: ["cryptography", "diffie-hellman"]
+modified: 2026-02-01 15:08:34+00:00
+status: stable
+tags:
+- cryptography
+- diffie-hellman
 title: Diffie-Hellman Key Exchange Solves the Shared Secret Problem
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/diffie-hellman-key-exchange-solves-the-shared-secret-problem
 ---
 
 Diffie-Hellman (DH) is a method for two parties to agree on a shared secret key over a public, insecure channel. Unlike RSA, it is not used for encrypting messages themselves, but for establishing the session key for symmetric encryption.

@@ -4,17 +4,20 @@ priority: A
 prodosProject: Refined Deployment
 prodosCategory: refined_deployment
 contexts:
-  - computer
-  - deep-work
+- computer
+- deep-work
 tags:
-  - operon/parent
-  - fitfile
-datetimeCreated: 2026-06-11T16:00:00+01:00
+- operon/parent
+- fitfile
+datetimeCreated: 2026-06-11 16:00:00+01:00
 Links:
-  - "[[cicd-tooling-validated]]"
-  - "[[cicd-tooling-validated]]"
-  - "[[cicd-tooling-validated]]"
-  - "[[cicd-tooling-validated]]"
+- '[[cicd-tooling-validated]]'
+- '[[cicd-tooling-validated]]'
+- '[[cicd-tooling-validated]]'
+- '[[cicd-tooling-validated]]'
+created: 2026-06-11 14:33:26+00:00
+modified: 2026-06-16 10:05:45+00:00
+permalink: llmeon/operon/projects/refined-deployment
 ---
 
 ## Definition of done
@@ -25,9 +28,5 @@ FITFILE CI/CD pipeline meets DORA targets in [[cicd-tooling-validated]] §2: mea
 
 ## Knowledge links
 
-- [[cicd-tooling-validated]]
-- [[cicd-tooling-validated]]
-- [[cicd-tooling-validated]]
-- [[cicd-tooling-validated]]
 - [[Break-Glass Identity The Complete Plan]]
 - [[Faro Receiver Authentication All Options Ranked by Security]]

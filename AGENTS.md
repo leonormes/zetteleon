@@ -1,8 +1,12 @@
 ---
-created: 2026-04-28T00:00:00+00:00
-modified: 2026-05-26T11:43:57+00:00
-tags: [agents, hermes, system]
+created: 2026-04-28 00:00:00+00:00
+modified: 2026-05-26 11:43:57+00:00
+tags:
+- agents
+- hermes
+- system
 title: AGENTS
+permalink: llmeon/agents
 ---
 
 ## AGENTS.md—Hermes Vault Rulebook

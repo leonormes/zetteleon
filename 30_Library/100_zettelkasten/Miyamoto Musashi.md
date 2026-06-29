@@ -1,13 +1,14 @@
 ---
 aliases: []
-created: 2025-09-07T04:31:45Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:30+00:00
-status: ""
+created: 2025-09-07 04:31:45+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:30+00:00
+status: ''
 tags: []
 title: Miyamoto Musashi
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/miyamoto-musashi
 ---
 
 [[SoT - Miyamoto Musashi's Philosophy on Mastering Emotions]]

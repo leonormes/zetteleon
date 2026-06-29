@@ -1,9 +1,14 @@
 ---
 title: MCP Proxy Architecture — Centralized Independent Proxy Design
-created: 2026-05-30T08:31:27+00:00
+created: 2026-05-30 08:31:27+00:00
 source: pieces-ltm
-pieces_ids: ["34f55864-12a6-4948-a355-1c70f614ef14", "f2b0b1b0-3b96-4697-aa75-150caec71cae"]
-tags: [raw, pieces]
+pieces_ids:
+- 34f55864-12a6-4948-a355-1c70f614ef14
+- f2b0b1b0-3b96-4697-aa75-150caec71cae
+tags:
+- raw
+- pieces
+permalink: llmeon/raw/2026-05-30-pieces-mcp-proxy-architecture
 ---
 
 ## Asset 1 (Pieces: 34f55864-12a6-4948-a355-1c70f614ef14)

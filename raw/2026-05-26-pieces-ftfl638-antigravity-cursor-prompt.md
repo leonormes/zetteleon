@@ -1,15 +1,18 @@
 ---
 title: FTFL-638 — Antigravity CLI Prompt & Cursor Context for Grafana Helm Analysis
-created: 2026-05-26T17:30:00+01:00
+created: 2026-05-26 17:30:00+01:00
 source: pieces-ltm
 pieces_ids:
-  - 06dac053-7d88-4d03-9f0f-87fd147949dd
-  - fc7a97ab-1c99-4714-ba9d-ed686bc43e71
-  - 10a829f1-4ae6-4e3c-848f-1c7d15ddc7ab
-  - 93cd432f-51c7-42d5-8cfc-4b9419098954
-  - 4c73b9cb-71e6-481b-bbbf-8e6db1ac904b
-  - 59181fac-0d3a-4176-8071-58cec7e668b8
-tags: [raw, pieces]
+- 06dac053-7d88-4d03-9f0f-87fd147949dd
+- fc7a97ab-1c99-4714-ba9d-ed686bc43e71
+- 10a829f1-4ae6-4e3c-848f-1c7d15ddc7ab
+- 93cd432f-51c7-42d5-8cfc-4b9419098954
+- 4c73b9cb-71e6-481b-bbbf-8e6db1ac904b
+- 59181fac-0d3a-4176-8071-58cec7e668b8
+tags:
+- raw
+- pieces
+permalink: llmeon/raw/2026-05-26-pieces-ftfl638-antigravity-cursor-prompt
 ---
 
 ## Asset 1 (Pieces: 06dac053-7d88-4d03-9f0f-87fd147949dd)

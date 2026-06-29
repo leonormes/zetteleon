@@ -1,8 +1,13 @@
 ---
 title: Wiki Log
-created: 2026-05-10T00:00:00+00:00
-modified: 2026-05-10T00:00:00+00:00
-tags: [wiki, log, audit, agent-protocol]
+created: 2026-05-10 00:00:00+00:00
+modified: 2026-05-10 00:00:00+00:00
+tags:
+- wiki
+- log
+- audit
+- agent-protocol
+permalink: llmeon/wiki/log
 ---
 
 # Wiki Log — Agent Knowledge Change Tracking

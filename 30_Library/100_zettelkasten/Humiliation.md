@@ -1,13 +1,16 @@
 ---
 aliases: []
-created: 2025-05-26T13:51:06Z
-last_reviewed: "null"
-modified: 2026-02-01T15:08:33+00:00
-status: "null"
-tags: ["emotion", "TheHuman/Health/ADHD"]
+created: 2025-05-26 13:51:06+00:00
+last_reviewed: 'null'
+modified: 2026-02-01 15:08:33+00:00
+status: 'null'
+tags:
+- emotion
+- TheHuman/Health/ADHD
 title: Humiliation
-type: "permanent"
-updated: 
+type: permanent
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/humiliation
 ---
 
 Humiliation involves the abasement of pride and a lowering of one's social status, often publicly. It is an emotion typically inflicted by others, where an individual is made to feel debased, ridiculed, or their dignity is stripped away.

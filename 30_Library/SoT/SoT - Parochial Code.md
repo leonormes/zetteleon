@@ -1,12 +1,19 @@
 ---
-aliases: [Boundary Violation, Location-Unaware Code, Myopic Coding]
-created: 2026-01-30T06:57:15+00:00
-modified: 2026-05-26T11:44:18+00:00
+aliases:
+- Boundary Violation
+- Location-Unaware Code
+- Myopic Coding
+created: 2026-01-30 06:57:15+00:00
+modified: 2026-05-26 11:44:18+00:00
 see_also: []
-superseded_by: ""
-supersedes: ""
-tags: [anti-pattern, llm-failure-mode, software-architecture]
+superseded_by: ''
+supersedes: ''
+tags:
+- anti-pattern
+- llm-failure-mode
+- software-architecture
 title: SoT - Parochial Code
+permalink: llmeon/30-library/so-t/so-t-parochial-code
 ---
 
 ## Parochial Code

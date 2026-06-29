@@ -1,13 +1,14 @@
 ---
 aliases: []
-created: 2025-05-26T09:35:57Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:34+00:00
-status: ""
+created: 2025-05-26 09:35:57+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:34+00:00
+status: ''
 tags: []
 title: Extravert
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/extravert
 ---
 
 Thought about how sometimes extroverts come across as less intelligent or less thoughtful. This feeds into the idea of socially validated thinking. If extroverts thinking in public then their thinking is bounded by those around them. They don't spend us much time thinking privately.

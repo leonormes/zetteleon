@@ -1,12 +1,19 @@
 ---
 contrasts_with: []
-created: 2026-05-31T00:00:00+00:00
-modified: 2026-05-31T17:15:37+00:00
-related_to: ["[[ADHD]]", "[[MOC – My Epistemic Stack]]"]
+created: 2026-05-31 00:00:00+00:00
+modified: 2026-05-31 17:15:37+00:00
+related_to:
+- '[[ADHD]]'
+- '[[MOC – My Epistemic Stack]]'
 status: open
-tags: [adhd, epistemic-self-audit, metacognition, pkm]
+tags:
+- adhd
+- epistemic-self-audit
+- metacognition
+- pkm
 title: Q — What Am I Actually Struggling With-1
 type: question
+permalink: llmeon/30-library/100-zettelkasten/q-what-am-i-actually-struggling-with-1
 ---
 
 > [!question] Central question

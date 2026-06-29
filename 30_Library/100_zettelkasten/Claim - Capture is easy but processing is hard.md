@@ -1,12 +1,22 @@
 ---
-created: 2026-05-31T00:00:00+00:00
-modified: 2026-05-31T17:25:47+00:00
+created: 2026-05-31 00:00:00+00:00
+modified: 2026-05-31 17:25:47+00:00
 position-date: 2026-05-31
-prerequisite_of: ["[[Claim - Over-capture plus deferred review is sustainable]]"]
-related_to: ["[[Cognitive Load]]", "[[Executive Function]]", "[[Practice - Deferred low-pressure review]]"]
-tags: [adhd, capture, executive-function, pkm, processing]
+prerequisite_of:
+- '[[Claim - Over-capture plus deferred review is sustainable]]'
+related_to:
+- '[[Cognitive Load]]'
+- '[[Executive Function]]'
+- '[[Practice - Deferred low-pressure review]]'
+tags:
+- adhd
+- capture
+- executive-function
+- pkm
+- processing
 title: Claim - Capture is easy but processing is hard
 type: claim
+permalink: llmeon/30-library/100-zettelkasten/claim-capture-is-easy-but-processing-is-hard
 ---
 
 > [!claim] Statement

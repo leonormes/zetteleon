@@ -1,29 +1,40 @@
 ---
-created: 2026-04-11T08:38:45+00:00
+created: 2026-04-11 08:38:45+00:00
 isProject: false
-modified: 2026-06-08T11:49:15+00:00
+modified: 2026-06-08 11:49:15+00:00
 name: Data vs implementation split
-overview: Analysis anchored on [ff-test-1/docs](file:///Volumes/DAL/Fitfile/gitlab/FITFILE/New_Customer/ff-test-1/docs) — the two-phase bootstrap vs managed model, TFC state as the pipe into CUE, and [CONTRACTS.md](file:///Volumes/DAL/Fitfile/gitlab/FITFILE/New_Customer/ff-test-1/docs/CONTRACTS.md). The spine (customer.yaml + common → Terraform → infra_facts → CUE → Helm) is right; mixing comes from three deployment generations, dual truth paths, and duplicated chart defaults in the Helm repo.
+overview: Analysis anchored on [ff-test-1/docs](file:///Volumes/DAL/Fitfile/gitlab/FITFILE/New_Customer/ff-test-1/docs)
+  — the two-phase bootstrap vs managed model, TFC state as the pipe into CUE, and
+  [CONTRACTS.md](file:///Volumes/DAL/Fitfile/gitlab/FITFILE/New_Customer/ff-test-1/docs/CONTRACTS.md).
+  The spine (customer.yaml + common → Terraform → infra_facts → CUE → Helm) is right;
+  mixing comes from three deployment generations, dual truth paths, and duplicated
+  chart defaults in the Helm repo.
 project_category: refined_deployment
 project_name: Refined Deployment
 project_status: active
 tags:
-  - InfraFacts
+- InfraFacts
 title: Additions to the Data-First Customer IaC Plan
 todos:
-  - id: state-sot-plumbing
-    content: Close Gap A/B per TERRAFORM_STATE_AS_SOURCE_OF_TRUTH.md — wire live TF outputs (oidc_issuer_url, ingress_ip, etc.) into infra_facts; remove scripts/infra-facts-for-cue.sh overrides of TF output (B-10)
-    status: pending
-  - id: clarify-tier-b
-    content: Helm repo — choose one path for chart defaults vs CUE base/schema (generate, shrink to library-only, or versioned contract artifact)
-    status: pending
-  - id: cue-invariants
-    content: Optional CUE constraints for federation topology (see ff-test-1/docs/Network Topography & fitConnectHosts.md + helm operational audits)
-    status: pending
-  - id: docs-index
-    content: Optional — single index in ff-test-1/docs linking CONTRACTS, bootstrap vs managed, and remediation tiers (MASTER_REMEDIATION_PLAN) for onboarding
-    status: pending
-type:
+- id: state-sot-plumbing
+  content: Close Gap A/B per TERRAFORM_STATE_AS_SOURCE_OF_TRUTH.md — wire live TF
+    outputs (oidc_issuer_url, ingress_ip, etc.) into infra_facts; remove scripts/infra-facts-for-cue.sh
+    overrides of TF output (B-10)
+  status: pending
+- id: clarify-tier-b
+  content: Helm repo — choose one path for chart defaults vs CUE base/schema (generate,
+    shrink to library-only, or versioned contract artifact)
+  status: pending
+- id: cue-invariants
+  content: Optional CUE constraints for federation topology (see ff-test-1/docs/Network
+    Topography & fitConnectHosts.md + helm operational audits)
+  status: pending
+- id: docs-index
+  content: Optional — single index in ff-test-1/docs linking CONTRACTS, bootstrap
+    vs managed, and remediation tiers (MASTER_REMEDIATION_PLAN) for onboarding
+  status: pending
+type: null
+permalink: llmeon/30-library/200-projects/additions-to-the-data-first-customer-ia-c-plan
 ---
 
 ## 1. Pre-Requisite: Fix Live Bugs _Before_ Module Extraction

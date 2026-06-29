@@ -2,10 +2,21 @@
 title: Hermes Config Production-Ready Audit
 wiki_type: dossier
 entity_kind: project
-created: 2026-05-23T12:52:00+00:00
-modified: 2026-05-30T08:33:27+00:00
-tags: [wiki, dossier]
-sources: [raw/2026-05-23-phermes-config-audit.md, raw/2026-05-24-pieces-hermes-starship-config.md, raw/2026-05-24-pieces-starship-hermes-review.md, raw/2026-05-24-pieces-hermes-discovery-report.md, raw/2026-05-24-pieces-hermes-discovery-report-full.md, raw/2026-05-28-pieces-ftfl511-jira-ticket.md, raw/2026-05-28-pieces-hermes-config-validation.md, raw/2026-05-30-pieces-hermes-mcp-config.md]
+created: 2026-05-23 12:52:00+00:00
+modified: 2026-05-30 08:33:27+00:00
+tags:
+- wiki
+- dossier
+sources:
+- raw/2026-05-23-phermes-config-audit.md
+- raw/2026-05-24-pieces-hermes-starship-config.md
+- raw/2026-05-24-pieces-starship-hermes-review.md
+- raw/2026-05-24-pieces-hermes-discovery-report.md
+- raw/2026-05-24-pieces-hermes-discovery-report-full.md
+- raw/2026-05-28-pieces-ftfl511-jira-ticket.md
+- raw/2026-05-28-pieces-hermes-config-validation.md
+- raw/2026-05-30-pieces-hermes-mcp-config.md
+permalink: llmeon/wiki/projects/hermes-config-production-ready-audit
 ---
 
 ## Summary

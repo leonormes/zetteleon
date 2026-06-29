@@ -1,8 +1,9 @@
 ---
-created: 2026-06-08T11:36:59+00:00
-modified: 2026-06-08T11:49:24+00:00
+created: 2026-06-08 11:36:59+00:00
+modified: 2026-06-08 11:49:24+00:00
 title: Projects Dashboard
 type: dashboard
+permalink: llmeon/30-library/200-projects/projects-dashboard
 ---
 
 ## Projects Dashboard

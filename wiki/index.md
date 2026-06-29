@@ -1,8 +1,12 @@
 ---
 title: Wiki Index
-created: 2026-05-10T00:00:00+00:00
-modified: 2026-05-10T00:00:00+00:00
-tags: [wiki, index, agent-protocol]
+created: 2026-05-10 00:00:00+00:00
+modified: 2026-05-10 00:00:00+00:00
+tags:
+- wiki
+- index
+- agent-protocol
+permalink: llmeon/wiki/index
 ---
 
 # Wiki Index — Agent Knowledge Layer

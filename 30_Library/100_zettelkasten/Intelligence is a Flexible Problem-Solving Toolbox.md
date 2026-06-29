@@ -1,13 +1,17 @@
 ---
 aliases: []
-created: 2025-10-31T09:50:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:32+00:00
-status: "seedling"
-tags: ["intelligence", "problem-solving", "TheHuman/Cognition"]
+created: 2025-10-31 09:50:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:32+00:00
+status: seedling
+tags:
+- intelligence
+- problem-solving
+- TheHuman/Cognition
 title: Intelligence is a Flexible Problem-Solving Toolbox
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/intelligence-is-a-flexible-problem-solving-toolbox
 ---
 
 ## Intelligence is a Flexible Problem-Solving Toolbox

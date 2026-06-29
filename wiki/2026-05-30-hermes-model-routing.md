@@ -1,8 +1,14 @@
 ---
-tags: [hermes, solution, configuration, model-routing, openrouter]
+tags:
+- hermes
+- solution
+- configuration
+- model-routing
+- openrouter
 source: claude-sonnet-4-6; OWL (link remediation)
 date: 2026-05-30
 modified: 2026-05-30
+permalink: llmeon/wiki/2026-05-30-hermes-model-routing
 ---
 
 # Hermes Model Routing — Cost-Aware Multi-Model Setup

@@ -1,13 +1,18 @@
 ---
 aliases: []
-created: 2025-07-20T13:32:06Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:36+00:00
-status: ""
-tags: ["17th-century", "history-of-science", "intellectual-history", "paradigm-shift"]
+created: 2025-07-20 13:32:06+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:36+00:00
+status: ''
+tags:
+- 17th-century
+- history-of-science
+- intellectual-history
+- paradigm-shift
 title: Antithetical Knowledge Systems in the 17th Century
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/antithetical-knowledge-systems-in-the-17th-century
 ---
 
 The intellectual landscape of the 17th century provides a powerful illustration of diversity through the flourishing and coexistence of two antithetical approaches to knowledge: alchemy and mathematics.

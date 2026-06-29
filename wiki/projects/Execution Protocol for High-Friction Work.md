@@ -2,10 +2,15 @@
 title: Execution Protocol for High-Friction Technical Work
 wiki_type: dossier
 entity_kind: project
-created: 2026-05-23T12:52:00+00:00
-modified: 2026-05-23T12:52:00+00:00
-tags: [wiki, dossier, concept]
-sources: [raw/2026-05-23-pieces-natural-planning-model.md]
+created: 2026-05-23 12:52:00+00:00
+modified: 2026-05-23 12:52:00+00:00
+tags:
+- wiki
+- dossier
+- concept
+sources:
+- raw/2026-05-23-pieces-natural-planning-model.md
+permalink: llmeon/wiki/projects/execution-protocol-for-high-friction-work
 ---
 
 ## Summary

@@ -1,13 +1,19 @@
 ---
-aliases: ["Virtue of Transcendence"]
-created: 2025-07-16T17:30:02Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:24+00:00
-status: ""
-tags: ["character", "transcendence", "via-strengths", "virtue"]
+aliases:
+- Virtue of Transcendence
+created: 2025-07-16 17:30:02+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:24+00:00
+status: ''
+tags:
+- character
+- transcendence
+- via-strengths
+- virtue
 title: VIA Virtue of Transcendence
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/via-virtue-of-transcendence
 ---
 
 The virtue of Transcendence, as defined by the [[VIA Character Strengths]] framework, involves strengths that forge connections to the larger universe and provide meaning to life.

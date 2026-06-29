@@ -2,12 +2,16 @@
 title: gcx CLI — FITFILE Grafana Stacks
 wiki_type: dossier
 entity_kind: project
-created: 2026-05-19T22:20:00+00:00
-modified: 2026-06-05T09:50:00+00:00
-tags: [wiki, dossier, project]
+created: 2026-05-19 22:20:00+00:00
+modified: 2026-06-05 09:50:00+00:00
+tags:
+- wiki
+- dossier
+- project
 sources:
-  - raw/2026-05-19-pieces-gcx-cli-grafana-setup
-  - raw/2026-06-05-fitfile-loki-prometheus-cardinality-audit
+- raw/2026-05-19-pieces-gcx-cli-grafana-setup
+- raw/2026-06-05-fitfile-loki-prometheus-cardinality-audit
+permalink: llmeon/wiki/projects/gcx-cli-fitfile-grafana-stacks
 ---
 
 ## Summary

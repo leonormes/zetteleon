@@ -1,13 +1,17 @@
 ---
 aliases: []
-created: 2025-10-20T09:00:00Z
-last_reviewed: ""
-modified: 2026-02-04T07:27:27+00:00
-status: ""
-tags: ["framework", "growth", "principles"]
+created: 2025-10-20 09:00:00+00:00
+last_reviewed: ''
+modified: 2026-02-04 07:27:27+00:00
+status: ''
+tags:
+- framework
+- growth
+- principles
 title: MOC - The 7 Habits - The Maturity Continuum
-type: "map"
-updated: 
+type: map
+updated: null
+permalink: llmeon/30-library/mo-c/moc-the-7-habits-the-maturity-continuum
 ---
 
 The 7 Habits of Highly Effective People provide a principle-centered framework for personal and interpersonal effectiveness. The habits are organized along a Maturity Continuum, moving from dependence to independence to interdependence.

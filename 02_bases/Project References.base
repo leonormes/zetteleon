@@ -1,0 +1,20 @@
+filters:
+  and:
+    - file.folder == "30_Library/200_Projects"
+views:
+  - type: table
+    name: Table
+    order:
+      - file.name
+      - project_name
+      - type
+    sort:
+      - property: project_name
+        direction: ASC
+      - property: type
+        direction: ASC
+      - property: project_status
+        direction: ASC
+    columnSize:
+      file.name: 591
+      note.project_name: 220

@@ -1,13 +1,14 @@
 ---
 aliases: []
-created: 2025-09-16T12:25:36Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:29+00:00
-status: ""
+created: 2025-09-16 12:25:36+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:29+00:00
+status: ''
 tags: []
-title: "Photon's Timeless Journey"
-type: ""
-updated: 
+title: Photon's Timeless Journey
+type: ''
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/photons-timeless-journey
 ---
 
 Proper time for photons is always zero.

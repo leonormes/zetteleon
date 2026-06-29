@@ -1,8 +1,10 @@
 ---
-created: 2026-06-11T16:00:00+01:00
-modified: 2026-06-11T16:00:00+01:00
+created: 2026-06-11 16:00:00+01:00
+modified: 2026-06-11 16:00:00+01:00
 title: Operon Inbox
-tags: [operon/inbox]
+tags:
+- operon/inbox
+permalink: llmeon/operon/tasks/operon-inbox
 ---
 
 ## Operon Inbox

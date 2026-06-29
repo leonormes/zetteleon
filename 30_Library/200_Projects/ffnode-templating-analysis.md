@@ -1,39 +1,40 @@
 ---
 branch: feature/FTFL-673-grafana-alloy-upgrade
-created: 2026-06-06T00:00:00+00:00
+created: 2026-06-06 00:00:00+00:00
 kind: project-note
 lifecycle: active
-modified: 2026-06-08T11:49:23+00:00
-mr: "!787"
+modified: 2026-06-08 11:49:23+00:00
+mr: '!787'
 project_category: refined_deployment
 project_name: Refined Deployment
 project_status: active
 related:
-  - "[[ffnode-templating-analysis]]"
-  - "[[Grafana k8s-monitoring v2]]"
-  - "[[grafana_alloy_audit_report]]"
+- '[[ffnode-templating-analysis]]'
+- '[[Grafana k8s-monitoring v2]]'
+- '[[grafana_alloy_audit_report]]'
 tags:
-  - 1
-  - 2
-  - 3
-  - complexity
-  - developer-experience
-  - faro
-  - ffnode
-  - FTFL-673
-  - grafana-alloy
-  - helm
-  - kubernetes
-  - metrics
-  - multi-cluster
-  - observability
-  - scaling
-  - seedling
-  - templating
-  - work
+- 1
+- 2
+- 3
+- complexity
+- developer-experience
+- faro
+- ffnode
+- FTFL-673
+- grafana-alloy
+- helm
+- kubernetes
+- metrics
+- multi-cluster
+- observability
+- scaling
+- seedling
+- templating
+- work
 ticket: FTFL-673
 title: ffnode-templating-analysis
-type:
+type: null
+permalink: llmeon/30-library/200-projects/ffnode-templating-analysis
 ---
 
 > Every claim below is grounded in a file or commit that was read directly. File references use `path:line`.

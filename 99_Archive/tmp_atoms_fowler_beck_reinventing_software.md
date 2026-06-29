@@ -1,10 +1,12 @@
 ---
 type: tmp_atoms
 status: tmp
-source_title: "Martin Fowler & Kent Beck: Frameworks for reinventing software, again and again"
-source_url: "http://www.youtube.com/watch?v=CZs8J1ZD0CE"
-captured_utc: "2026-04-09T13:21:20+01:00"
-signal_to_noise: "65% signal / 35% noise"
+source_title: 'Martin Fowler & Kent Beck: Frameworks for reinventing software, again
+  and again'
+source_url: http://www.youtube.com/watch?v=CZs8J1ZD0CE
+captured_utc: '2026-04-09T13:21:20+01:00'
+signal_to_noise: 65% signal / 35% noise
+permalink: llmeon/99-archive/tmp-atoms-fowler-beck-reinventing-software
 ---
 
 - Discarded introductory pleasantries and nostalgic reflections.

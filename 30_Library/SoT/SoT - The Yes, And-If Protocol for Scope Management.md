@@ -1,13 +1,20 @@
 ---
-aliases: ["Conditional Yes", "Yes And If"]
-created: 2025-12-17T00:00:00Z
-last_reviewed: "2025-12-17"
-modified: 2026-02-01T15:07:49+00:00
-status: "stable"
-tags: ["communication", "negotiation", "scope-management", "topic/productivity"]
+aliases:
+- Conditional Yes
+- Yes And If
+created: 2025-12-17 00:00:00+00:00
+last_reviewed: '2025-12-17'
+modified: 2026-02-01 15:07:49+00:00
+status: stable
+tags:
+- communication
+- negotiation
+- scope-management
+- topic/productivity
 title: SoT - The Yes, And-If Protocol for Scope Management
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-the-yes-and-if-protocol-for-scope-management
 ---
 
 ## 1. Definitive Statement

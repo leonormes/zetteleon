@@ -1,10 +1,14 @@
 ---
-created: 2026-01-19T18:06:20+00:00
-description: Produce a high-signal commit message from a `git diff`, focusing on intent and invariants.
-modified: 2026-05-26T11:44:37+00:00
-tags: [tool/git, type/utility]
+created: 2026-01-19 18:06:20+00:00
+description: Produce a high-signal commit message from a `git diff`, focusing on intent
+  and invariants.
+modified: 2026-05-26 11:44:37+00:00
+tags:
+- tool/git
+- type/utility
 title: git commit prompt
 type: prompt
+permalink: llmeon/10-system/prompts/git-commit-prompt
 ---
 
 ## Role

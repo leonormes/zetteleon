@@ -1,13 +1,18 @@
 ---
-aliases: ["Experiential Knowledge"]
-created: 2025-11-01T12:10:02Z
-last_reviewed: "2025-11-01"
-modified: 2026-02-01T15:08:32+00:00
-status: "seedling"
-tags: ["experience", "knowledge", "learning"]
+aliases:
+- Experiential Knowledge
+created: 2025-11-01 12:10:02+00:00
+last_reviewed: '2025-11-01'
+modified: 2026-02-01 15:08:32+00:00
+status: seedling
+tags:
+- experience
+- knowledge
+- learning
 title: Knowledge Emerges Through Application and Experience
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/knowledge-emerges-through-application-and-experience
 ---
 
 ## Knowledge Emerges Through Application and Experience

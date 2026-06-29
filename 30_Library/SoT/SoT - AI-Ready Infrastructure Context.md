@@ -1,11 +1,21 @@
 ---
-aliases: [AI Context Builder, Droidctx Pattern, Infrastructure Snapshotting]
-created: 2026-03-28T17:10:00Z
-modified: 2026-05-26T11:44:21+00:00
+aliases:
+- AI Context Builder
+- Droidctx Pattern
+- Infrastructure Snapshotting
+created: 2026-03-28 17:10:00+00:00
+modified: 2026-05-26 11:44:21+00:00
 status: seedling
-tags: [ai, context, devops, documentation, kubernetes, monitoring]
+tags:
+- ai
+- context
+- devops
+- documentation
+- kubernetes
+- monitoring
 title: SoT - AI-Ready Infrastructure Context
 type: SoT
+permalink: llmeon/30-library/so-t/so-t-ai-ready-infrastructure-context
 ---
 
 ## Minimum Viable Understanding (MVU)

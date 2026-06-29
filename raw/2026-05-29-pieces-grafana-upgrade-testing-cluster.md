@@ -1,9 +1,13 @@
 ---
 title: Grafana Upgrade - Testing Cluster
-created: 2026-05-29T11:00:59+00:00
+created: 2026-05-29 11:00:59+00:00
 source: pieces-ltm
-pieces_ids: ['be7ea03e-4d6d-4dad-80bc-e933d57a4610']
-tags: [raw, pieces]
+pieces_ids:
+- be7ea03e-4d6d-4dad-80bc-e933d57a4610
+tags:
+- raw
+- pieces
+permalink: llmeon/raw/2026-05-29-pieces-grafana-upgrade-testing-cluster
 ---
 
 ## Asset 1 (Pieces: be7ea03e-4d6d-4dad-80bc-e933d57a4610)

@@ -1,22 +1,23 @@
 ---
 cluster: fitfile-cloud-testing-aks-cluster
-created: 2026-05-28T13:38:16+00:00
+created: 2026-05-28 13:38:16+00:00
 date: 2026-05-28
 jira: FTFL-638
-modified: 2026-06-08T11:49:16+00:00
+modified: 2026-06-08 11:49:16+00:00
 project_category: refined_deployment
 project_name: Refined Deployment
 project_status: active
 status: resolved
 tags:
-  - aks
-  - ftfl-638
-  - grafana
-  - infrastructure
-  - kubernetes
-  - monitoring
+- aks
+- ftfl-638
+- grafana
+- infrastructure
+- kubernetes
+- monitoring
 title: FTFL-638 Grafana Monitoring Fix - Testing Cluster
-type:
+type: null
+permalink: llmeon/30-library/200-projects/ftfl-638-grafana-monitoring-fix-testing-cluster
 ---
 
 ## FTFL-638—Missing Grafana Monitoring in Testing Cluster

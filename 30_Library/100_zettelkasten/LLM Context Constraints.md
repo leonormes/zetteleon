@@ -1,15 +1,20 @@
 ---
-created: 2026-04-13T14:41:15+00:00
-created_utc: 2026-04-13T11:20:00Z
+created: 2026-04-13 14:41:15+00:00
+created_utc: 2026-04-13 11:20:00+00:00
 kind: constraint
-modified: 2026-05-26T11:44:34+00:00
+modified: 2026-05-26 11:44:34+00:00
 source_title: AI Agent Architecture and the Modern Tech Stack
 source_url: https://gemini.google.com/app/509937047bd0b955
 status: seed
-tags: [context-window, llm, memory, tokens]
+tags:
+- context-window
+- llm
+- memory
+- tokens
 title: LLM Context Constraints
 type: atom
-upstream: "[[HEAD The Failure of Human-Centric Design]]"
+upstream: '[[HEAD The Failure of Human-Centric Design]]'
+permalink: llmeon/30-library/100-zettelkasten/llm-context-constraints
 ---
 
 ## LLM Context Constraints

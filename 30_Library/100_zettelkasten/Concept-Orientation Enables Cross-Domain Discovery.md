@@ -1,13 +1,20 @@
 ---
-aliases: ["Concept-Based Organization", "Cross-Domain Linking"]
-created: 2025-10-30T15:31:09Z
-last_reviewed: "2025-10-30T00:00:00.000Z"
-modified: 2026-02-01T15:08:35+00:00
-status: "seedling"
-tags: ["connection-making", "organization", "topic/pkm", "topic/pkm/zettelkasten"]
+aliases:
+- Concept-Based Organization
+- Cross-Domain Linking
+created: 2025-10-30 15:31:09+00:00
+last_reviewed: '2025-10-30T00:00:00.000Z'
+modified: 2026-02-01 15:08:35+00:00
+status: seedling
+tags:
+- connection-making
+- organization
+- topic/pkm
+- topic/pkm/zettelkasten
 title: Concept-Orientation Enables Cross-Domain Discovery
-type: "principle"
-updated: 
+type: principle
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/concept-orientation-enables-cross-domain-discovery
 ---
 
 ## Concept-Orientation Enables Cross-Domain Discovery

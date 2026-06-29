@@ -1,13 +1,19 @@
 ---
-aliases: ["TGW", "Virtual WAN"]
-created: 2025-12-24T12:00:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:24+00:00
-status: "seedling"
-tags: ["aws", "azure", "SoftwareEngineering/Networking"]
+aliases:
+- TGW
+- Virtual WAN
+created: 2025-12-24 12:00:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:24+00:00
+status: seedling
+tags:
+- aws
+- azure
+- SoftwareEngineering/Networking
 title: Transit Gateway
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/transit-gateway
 ---
 
 ## Transit Gateway

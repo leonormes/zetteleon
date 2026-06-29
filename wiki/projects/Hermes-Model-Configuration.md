@@ -2,13 +2,16 @@
 title: Hermes Model Configuration
 wiki_type: dossier
 entity_kind: project
-created: 2026-05-23T20:15:00+01:00
-modified: 2026-05-29T15:33:41+00:00
-tags: [wiki, dossier]
+created: 2026-05-23 20:15:00+01:00
+modified: 2026-05-29 15:33:41+00:00
+tags:
+- wiki
+- dossier
 sources:
-  - raw/2026-05-23-pieces-hermes-model-error.md
-  - raw/2026-05-27-pieces-hermes-model-config
-  - raw/2026-05-29-pieces-hermes-openrouter
+- raw/2026-05-23-pieces-hermes-model-error.md
+- raw/2026-05-27-pieces-hermes-model-config
+- raw/2026-05-29-pieces-hermes-openrouter
+permalink: llmeon/wiki/projects/hermes-model-configuration
 ---
 
 # Hermes Model Configuration

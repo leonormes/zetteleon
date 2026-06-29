@@ -1,17 +1,30 @@
 ---
-aliases: ["Active Inference", "Anthropomorphism", "Cognitive Architectures", "Eliza Effect", "Grounded Cognition", "Human vs LLM"]
-created: 2025-12-21T00:00:00Z
+aliases:
+- Active Inference
+- Anthropomorphism
+- Cognitive Architectures
+- Eliza Effect
+- Grounded Cognition
+- Human vs LLM
+created: 2025-12-21 00:00:00+00:00
 last-synthesis: 2026-04-04
-last_reviewed: "2026-04-04"
-modified: 2026-05-26T11:44:19+00:00
+last_reviewed: '2026-04-04'
+modified: 2026-05-26 11:44:19+00:00
 source_of_truth: true
-status: "stable"
+status: stable
 synthesis-count: 2
-tags: ["ai", "epistemology", "llm", "mental-models", "TheHuman/Cognition", "TheHuman/Philosophy"]
+tags:
+- ai
+- epistemology
+- llm
+- mental-models
+- TheHuman/Cognition
+- TheHuman/Philosophy
 title: SoT - Human vs AI Cognition
 trust-level: stable
-type: "SoT"
+type: SoT
 updated: 2026-04-04
+permalink: llmeon/30-library/so-t/so-t-human-vs-ai-cognition
 ---
 
 ## Minimum Viable Understanding (MVU)

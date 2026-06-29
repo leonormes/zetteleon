@@ -1,14 +1,25 @@
 ---
-aliases: ["Evolving Notes", "Living Note System", "NeuroStack Workflow", "The Merge Protocol"]
-created: 2025-11-13T00:00:00Z
-last_reviewed: "2026-03-28"
-modified: 2026-05-26T11:44:20+00:00
+aliases:
+- Evolving Notes
+- Living Note System
+- NeuroStack Workflow
+- The Merge Protocol
+created: 2025-11-13 00:00:00+00:00
+last_reviewed: '2026-03-28'
+modified: 2026-05-26 11:44:20+00:00
 status: evergreen
-tags: ["ai", "knowledge-management", "pkm", "synthesis", "TheHuman/Cognition", "thinking"]
+tags:
+- ai
+- knowledge-management
+- pkm
+- synthesis
+- TheHuman/Cognition
+- thinking
 title: SoT - Evolutionary Note System
 trust-level: high
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-evolutionary-note-system
 ---
 
 > The mechanism of growth is the Merge Protocol: "systematically squashing ephemeral thinking (`HEAD` notes) into durable answers (`SoT` notes)."

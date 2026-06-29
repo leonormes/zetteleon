@@ -2,11 +2,14 @@
 title: FITFILE Deployment — ArgoCD + Helm
 wiki_type: dossier
 entity_kind: project
-created: 2026-06-09T03:35:00+01:00
-modified: 2026-06-15T10:00:00+01:00
-tags: [wiki, dossier]
+created: 2026-06-09 03:35:00+01:00
+modified: 2026-06-15 10:00:00+01:00
+tags:
+- wiki
+- dossier
 sources:
-  - raw/2026-06-08-pieces-fitfile-deployment-wiki
+- raw/2026-06-08-pieces-fitfile-deployment-wiki
+permalink: llmeon/wiki/projects/fitfile-deployment-argo-cd-helm
 ---
 
 ## Summary

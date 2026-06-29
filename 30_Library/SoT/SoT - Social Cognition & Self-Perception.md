@@ -1,13 +1,14 @@
 ---
 aliases: []
-created: 2025-12-12T00:00:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:07:52+00:00
-status: "stable"
+created: 2025-12-12 00:00:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:07:52+00:00
+status: stable
 tags: []
 title: SoT - Social Cognition & Self-Perception
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-social-cognition-self-perception
 ---
 
 ## 2. How We Make Social Judgments: The Social Detective & Moral Intuition

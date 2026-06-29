@@ -1,11 +1,13 @@
 ---
 title: FITFILE CI/CD Continuous Delivery Philosophy Decision & Commitment
-created: 2026-06-15T08:44:00+01:00
+created: 2026-06-15 08:44:00+01:00
 source: pieces
 pieces_ids:
-  - "24475ea5-9fc"
-  - "10e3d434-663"
-tags: [raw]
+- 24475ea5-9fc
+- 10e3d434-663
+tags:
+- raw
+permalink: llmeon/raw/2026-06-15-pieces-fitfile-cd-decision-document
 ---
 
 ## User Prompt (08:44)

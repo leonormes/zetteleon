@@ -1,13 +1,18 @@
 ---
-aliases: ["Compounding Effect of Habits"]
-created: 2025-11-06T19:55:03Z
-last_reviewed: "2025-11-06"
-modified: 2026-02-01T15:08:26+00:00
-status: "seedling"
-tags: ["compounding", "TheHuman/Habits", "topic/systems"]
+aliases:
+- Compounding Effect of Habits
+created: 2025-11-06 19:55:03+00:00
+last_reviewed: '2025-11-06'
+modified: 2026-02-01 15:08:26+00:00
+status: seedling
+tags:
+- compounding
+- TheHuman/Habits
+- topic/systems
 title: Systems Drive Progress Through the Compounding Effect of Atomic Habits
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/systems-drive-progress-through-the-compounding-effect-of-atomic-habits
 ---
 
 ## Systems Drive Progress Through the Compounding Effect of Atomic Habits

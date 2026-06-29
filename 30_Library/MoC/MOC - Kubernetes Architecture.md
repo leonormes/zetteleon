@@ -1,13 +1,20 @@
 ---
-aliases: ["K8s MOC", "Kubernetes Map"]
-created: 2025-12-16T13:52:13Z
-last_reviewed: "2025-12-23"
-modified: 2026-02-01T15:08:05+00:00
-status: "stable"
-tags: ["devops", "index", "infrastructure", "kubernetes"]
+aliases:
+- K8s MOC
+- Kubernetes Map
+created: 2025-12-16 13:52:13+00:00
+last_reviewed: '2025-12-23'
+modified: 2026-02-01 15:08:05+00:00
+status: stable
+tags:
+- devops
+- index
+- infrastructure
+- kubernetes
 title: MOC - Kubernetes Architecture
-type: "map"
-updated: 
+type: map
+updated: null
+permalink: llmeon/30-library/mo-c/moc-kubernetes-architecture
 ---
 
 ## Kubernetes Architecture - Map of Content

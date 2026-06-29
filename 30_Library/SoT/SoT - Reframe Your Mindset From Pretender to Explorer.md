@@ -1,13 +1,23 @@
 ---
-aliases: ["Connection over Mastery", "Hunter Mindset", "Overcoming Imposter Syndrome", "The Explorer Mindset"]
-created: 2025-08-19T12:05:33Z
-last_reviewed: "2025-12-16"
-modified: 2026-02-01T15:07:52+00:00
-status: "stable"
-tags: ["imposter_syndrome", "learning", "TheHuman/Health/ADHD", "TheHuman/Identity", "TheHuman/Mindset"]
+aliases:
+- Connection over Mastery
+- Hunter Mindset
+- Overcoming Imposter Syndrome
+- The Explorer Mindset
+created: 2025-08-19 12:05:33+00:00
+last_reviewed: '2025-12-16'
+modified: 2026-02-01 15:07:52+00:00
+status: stable
+tags:
+- imposter_syndrome
+- learning
+- TheHuman/Health/ADHD
+- TheHuman/Identity
+- TheHuman/Mindset
 title: SoT - Reframe Your Mindset From Pretender to Explorer
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-reframe-your-mindset-from-pretender-to-explorer
 ---
 
 ## 1. Definitive Statement

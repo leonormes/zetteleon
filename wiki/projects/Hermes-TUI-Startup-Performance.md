@@ -2,10 +2,14 @@
 title: Hermes TUI Startup Performance
 wiki_type: dossier
 entity_kind: project
-created: 2026-05-23T20:15:00+01:00
-modified: 2026-05-23T20:15:00+01:00
-tags: [wiki, dossier]
-sources: [raw/2026-05-23-pieces-hermes-tui-slow.md]
+created: 2026-05-23 20:15:00+01:00
+modified: 2026-05-23 20:15:00+01:00
+tags:
+- wiki
+- dossier
+sources:
+- raw/2026-05-23-pieces-hermes-tui-slow.md
+permalink: llmeon/wiki/projects/hermes-tui-startup-performance
 ---
 
 # Hermes TUI Startup Performance

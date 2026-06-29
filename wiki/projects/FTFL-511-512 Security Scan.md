@@ -2,13 +2,19 @@
 title: FTFL-511-512 Security Scan
 wiki_type: dossier
 entity_kind: project
-created: 2026-05-29T11:05:35+00:00
-modified: 2026-06-01T22:06:18+00:00
-tags: [wiki, dossier, security, ftfl, nmap]
+created: 2026-05-29 11:05:35+00:00
+modified: 2026-06-01 22:06:18+00:00
+tags:
+- wiki
+- dossier
+- security
+- ftfl
+- nmap
 sources:
-  - raw/2026-05-29-pieces-ftfl-511-512-security-scan
-  - raw/2026-06-01-pieces-ftfl-511-tls-cipher-remediation
-  - raw/2026-06-01-pieces-ftfl-512-nginx-infodisclosure
+- raw/2026-05-29-pieces-ftfl-511-512-security-scan
+- raw/2026-06-01-pieces-ftfl-511-tls-cipher-remediation
+- raw/2026-06-01-pieces-ftfl-512-nginx-infodisclosure
+permalink: llmeon/wiki/projects/ftfl-511-512-security-scan
 ---
 
 ## Summary

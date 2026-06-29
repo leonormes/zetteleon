@@ -1,13 +1,19 @@
 ---
-aliases: ["Captain vs Autopilot", "The Ship Analogy"]
-created: 2025-12-24T12:00:00Z
+aliases:
+- Captain vs Autopilot
+- The Ship Analogy
+created: 2025-12-24 12:00:00+00:00
 last_reviewed: 2025-12-24
-modified: 2026-02-01T15:08:26+00:00
-status: "stable"
-tags: ["analogy", "intentionality", "mental-model"]
+modified: 2026-02-01 15:08:26+00:00
+status: stable
+tags:
+- analogy
+- intentionality
+- mental-model
 title: The Captain on the Bridge - The Intentionality Analogy
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/the-captain-on-the-bridge-the-intentionality-analogy
 ---
 
 Imagine your life is a ship at sea. This model deconstructs the hierarchy of the self:

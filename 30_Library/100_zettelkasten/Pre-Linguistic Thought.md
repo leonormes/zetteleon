@@ -1,13 +1,18 @@
 ---
 aliases: []
-created: 2025-08-31T16:06:31Z
-last_reviewed: "null"
-modified: 2026-02-01T15:08:29+00:00
-status: "null"
-tags: ["development", "pre-linguistic", "TheHuman/Cognition", "thought"]
+created: 2025-08-31 16:06:31+00:00
+last_reviewed: 'null'
+modified: 2026-02-01 15:08:29+00:00
+status: 'null'
+tags:
+- development
+- pre-linguistic
+- TheHuman/Cognition
+- thought
 title: Pre-Linguistic Thought
-type: "null"
-updated: 
+type: 'null'
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/pre-linguistic-thought
 ---
 
 Pre-linguistic thought refers to cognitive processes that occur before or independent of language acquisition. Understanding the nature of thought before it's captured by linguistic structures is essential to comprehending the gap between thought and language.

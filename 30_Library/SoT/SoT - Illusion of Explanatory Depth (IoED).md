@@ -1,15 +1,29 @@
 ---
-aliases: ["Causal Opacity", "Collector's Fallacy", "Consumption Trap", "Heuristic Substitution", "Information Hoarding", "IoED", "Passive Consumption", "The Toilet Illusion"]
-created: 2025-12-12T00:00:00Z
-last_reviewed: "2025-12-15"
+aliases:
+- Causal Opacity
+- Collector's Fallacy
+- Consumption Trap
+- Heuristic Substitution
+- Information Hoarding
+- IoED
+- Passive Consumption
+- The Toilet Illusion
+created: 2025-12-12 00:00:00+00:00
+last_reviewed: '2025-12-15'
 last_synthesis: 2026-04-08
-modified: 2026-05-26T11:44:19+00:00
-status: "stable"
+modified: 2026-05-26 11:44:19+00:00
+status: stable
 synthesis_count: 3
-tags: ["bias", "learning", "mental_models", "TheHuman/Cognition", "TheHuman/Health/ADHD"]
+tags:
+- bias
+- learning
+- mental_models
+- TheHuman/Cognition
+- TheHuman/Health/ADHD
 title: SoT - Illusion of Explanatory Depth (IoED)
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-illusion-of-explanatory-depth-io-ed
 ---
 
 > [!definition] Definition: "The Illusion of Explanatory Depth (IoED)"

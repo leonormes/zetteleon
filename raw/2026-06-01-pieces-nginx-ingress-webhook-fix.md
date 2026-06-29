@@ -1,9 +1,18 @@
 ---
 title: NGINX Ingress Admission Webhook Fix — Hermes Prompt Engineering
-created: 2026-06-01T17:57:30+00:00
+created: 2026-06-01 17:57:30+00:00
 source: pieces-ltm
-pieces_ids: [24a8b712-f922-40e9-a6b6-06e57e2445ee, 212a7336-2663-4126-bf24-4d95d7bd9a0e, 1c378604-c5d5-4d62-92b3-1fb8df02a019, d01de85a-1e3f-4049-9b89-7db7ae06f70d, e5500e50-e1fb-47e8-b6b2-9a37ce280806, 43a78b56-55a4-4e96-a5f6-b615de3f741f]
-tags: [raw, pieces]
+pieces_ids:
+- 24a8b712-f922-40e9-a6b6-06e57e2445ee
+- 212a7336-2663-4126-bf24-4d95d7bd9a0e
+- 1c378604-c5d5-4d62-92b3-1fb8df02a019
+- d01de85a-1e3f-4049-9b89-7db7ae06f70d
+- e5500e50-e1fb-47e8-b6b2-9a37ce280806
+- 43a78b56-55a4-4e96-a5f6-b615de3f741f
+tags:
+- raw
+- pieces
+permalink: llmeon/raw/2026-06-01-pieces-nginx-ingress-webhook-fix
 ---
 
 ## Asset 1 (Pieces: 24a8b712-f922-40e9-a6b6-06e57e2445ee)

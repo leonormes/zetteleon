@@ -1,15 +1,20 @@
 ---
-created: 2026-04-14T11:11:48+00:00
-created_utc: "2026-04-14T10:35:00Z"
+created: 2026-04-14 11:11:48+00:00
+created_utc: '2026-04-14T10:35:00Z'
 kind: heuristic
-modified: 2026-05-26T11:44:35+00:00
-source_title: "Networking Is Label Transformation Under Policy"
-source_url: "N/A"
+modified: 2026-05-26 11:44:35+00:00
+source_title: Networking Is Label Transformation Under Policy
+source_url: N/A
 status: seed
-tags: [debugging, heuristics, networking, troubleshooting]
+tags:
+- debugging
+- heuristics
+- networking
+- troubleshooting
 title: Hop-by-Hop Label Inspection
 type: atom
-upstream: "[[INSIGHT - Networking is data labeling not wires]]"
+upstream: '[[INSIGHT - Networking is data labeling not wires]]'
+permalink: llmeon/30-library/100-zettelkasten/hop-by-hop-label-inspection
 ---
 
 ## Hop-by-Hop Label Inspection

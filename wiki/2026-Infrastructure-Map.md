@@ -1,12 +1,20 @@
 ---
 title: 2026 Infrastructure Map
-created: 2026-05-11T16:00:00+00:00
-modified: 2026-05-11T16:00:00+00:00
-tags: [wiki, infrastructure, fitfile, dns, azure, aks, backup]
+created: 2026-05-11 16:00:00+00:00
+modified: 2026-05-11 16:00:00+00:00
+tags:
+- wiki
+- infrastructure
+- fitfile
+- dns
+- azure
+- aks
+- backup
 sources:
-  - configs/dns/fitfile-dns-zone-2026-05-08.md
-  - wiki/projects/Azure AKS Backup — FTFL
-  - wiki/projects/Terraform IaC Modules
+- configs/dns/fitfile-dns-zone-2026-05-08.md
+- wiki/projects/Azure AKS Backup — FTFL
+- wiki/projects/Terraform IaC Modules
+permalink: llmeon/wiki/2026-infrastructure-map
 ---
 
 ## Summary

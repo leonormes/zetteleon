@@ -1,13 +1,18 @@
 ---
-aliases: ["Function of Goals"]
-created: 2025-11-06T19:55:00Z
-last_reviewed: "2025-11-06"
-modified: 2026-02-01T15:08:33+00:00
-status: "seedling"
-tags: ["direction-setting", "goals", "topic/productivity"]
+aliases:
+- Function of Goals
+created: 2025-11-06 19:55:00+00:00
+last_reviewed: '2025-11-06'
+modified: 2026-02-01 15:08:33+00:00
+status: seedling
+tags:
+- direction-setting
+- goals
+- topic/productivity
 title: Goals Set the Direction for Change
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/goals-set-the-direction-for-change
 ---
 
 ## Goals Set the Direction for Change

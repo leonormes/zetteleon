@@ -1,9 +1,15 @@
 ---
 title: FTFL-638 Testing Cluster Logs Investigation — 2026-05-29
-created: 2026-05-29T15:12:03+00:00
+created: 2026-05-29 15:12:03+00:00
 source: pieces-ltm
-pieces_ids: ["c6ceb8a7-693a-4041-9f2c-dba99e325e53", "1cbb1ed9-a979-4f37-b4f4-139f2a547212", "a1450355-454d-4039-b636-3e8fa84e5a58"]
-tags: [raw, pieces]
+pieces_ids:
+- c6ceb8a7-693a-4041-9f2c-dba99e325e53
+- 1cbb1ed9-a979-4f37-b4f4-139f2a547212
+- a1450355-454d-4039-b636-3e8fa84e5a58
+tags:
+- raw
+- pieces
+permalink: llmeon/raw/2026-05-29-pieces-ftfl638-logs
 ---
 
 # FTFL-638 Testing Cluster Logs Investigation — 2026-05-29

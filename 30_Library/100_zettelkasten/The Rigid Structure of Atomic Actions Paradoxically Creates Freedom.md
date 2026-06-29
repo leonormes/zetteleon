@@ -1,13 +1,19 @@
 ---
 aliases: []
-created: 2025-11-10T15:21:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:24+00:00
-status: "seedling"
-tags: ["action", "freedom", "paradox", "structure", "topic/productivity"]
+created: 2025-11-10 15:21:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:24+00:00
+status: seedling
+tags:
+- action
+- freedom
+- paradox
+- structure
+- topic/productivity
 title: The Rigid Structure of Atomic Actions Paradoxically Creates Freedom
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/the-rigid-structure-of-atomic-actions-paradoxically-creates-freedom
 ---
 
 ## The Rigid Structure of Atomic Actions Paradoxically Creates Freedom

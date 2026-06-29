@@ -1,11 +1,12 @@
 ---
-created: 2026-04-10T16:51:23+00:00
-created_utc: "2026-04-10T13:00:00+00:00"
-modified: 2026-05-26T11:44:23+00:00
-source_atoms: "[[tmp_atoms_ai_and_second_brain]]"
+created: 2026-04-10 16:51:23+00:00
+created_utc: '2026-04-10T13:00:00+00:00'
+modified: 2026-05-26 11:44:23+00:00
+source_atoms: '[[tmp_atoms_ai_and_second_brain]]'
 status: tmp
 title: _link_report_ai_and_second_brain
 type: link_report
+permalink: llmeon/30-library/400-indexes/link-report-ai-and-second-brain
 ---
 
 ## Link Report: AI in Education & Automated Second Brain Workflows

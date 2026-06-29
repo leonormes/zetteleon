@@ -1,13 +1,18 @@
 ---
-aliases: ["One-Way Functions", "Trapdoor One-Way Function"]
-created: 2025-12-24T12:00:00Z
+aliases:
+- One-Way Functions
+- Trapdoor One-Way Function
+created: 2025-12-24 12:00:00+00:00
 last_reviewed: 2025-12-24
-modified: 2026-02-01T15:08:24+00:00
-status: "stable"
-tags: ["cryptography", "maths"]
+modified: 2026-02-01 15:08:24+00:00
+status: stable
+tags:
+- cryptography
+- maths
 title: Trapdoor Functions Are the Foundation of Public-Key Cryptography
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/trapdoor-functions-are-the-foundation-of-public-key-cryptography
 ---
 
 A Trapdoor One-Way Function is a mathematical operation that is easy to compute in one direction but extremely difficult to reverse unless you possess a secret piece of information (the "trapdoor").

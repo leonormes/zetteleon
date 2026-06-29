@@ -1,12 +1,14 @@
 ---
-captured: "2026-05-28T13:30:40+01:00 2026-05-28T13:30:40+01:00"
-created: 2026-05-28T12:30:44+00:00
-modified: 2026-05-28T12:31:14+00:00
-source: "https://gemini.google.com/app/f65614885a459e58"
-status: "processing"
-tags: ["input"]
-title: 'HEAD an "illusion of mastery"'
-type: "head"
+captured: 2026-05-28T13:30:40+01:00 2026-05-28T13:30:40+01:00
+created: 2026-05-28 12:30:44+00:00
+modified: 2026-05-28 12:31:14+00:00
+source: https://gemini.google.com/app/f65614885a459e58
+status: processing
+tags:
+- input
+title: HEAD an "illusion of mastery"
+type: head
+permalink: llmeon/20-thinking/21-workbench/head-an-illusion-of-mastery
 ---
 
 ## Raw Output / Content

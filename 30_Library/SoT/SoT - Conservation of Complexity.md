@@ -1,12 +1,21 @@
 ---
-aliases: [Conservation of Complexity, Software Complexity Law, Tesler's Law]
-created: 2026-01-08T12:05:00Z
+aliases:
+- Conservation of Complexity
+- Software Complexity Law
+- Tesler's Law
+created: 2026-01-08 12:05:00+00:00
 last_reviewed: 2026-02-05
-modified: 2026-05-26T11:44:20+00:00
+modified: 2026-05-26 11:44:20+00:00
 status: stable
-tags: [architecture, complexity, mental_models, software_engineering, sot]
+tags:
+- architecture
+- complexity
+- mental_models
+- software_engineering
+- sot
 title: SoT - Conservation of Complexity
 type: SoT
+permalink: llmeon/30-library/so-t/so-t-conservation-of-complexity
 ---
 
 ## Minimum Viable Understanding (MVU)

@@ -1,13 +1,19 @@
 ---
-aliases: ["Use Visual Aids for Routines"]
-created: 2025-10-29T16:10:00Z
-last_reviewed: "null"
-modified: 2026-02-01T15:08:24+00:00
-status: "seedling"
-tags: ["external-cognition", "routine", "topic/productivity/productivity-tools", "visual-thinking"]
+aliases:
+- Use Visual Aids for Routines
+created: 2025-10-29 16:10:00+00:00
+last_reviewed: 'null'
+modified: 2026-02-01 15:08:24+00:00
+status: seedling
+tags:
+- external-cognition
+- routine
+- topic/productivity/productivity-tools
+- visual-thinking
 title: Visual Schedules Make Routines Tangible
-type: "strategy"
-updated: 
+type: strategy
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/visual-schedules-make-routines-tangible
 ---
 
 To make a routine more concrete and reduce the cognitive load of remembering it, use visual schedules and planning aids. These tools transfer the routine from internal memory to an external, visible format.

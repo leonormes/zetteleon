@@ -1,13 +1,14 @@
 ---
 aliases: []
-created: 2025-08-19T23:30:13Z
-last_reviewed: ""
-modified: 2026-02-04T07:27:27+00:00
-status: ""
+created: 2025-08-19 23:30:13+00:00
+last_reviewed: ''
+modified: 2026-02-04 07:27:27+00:00
+status: ''
 tags: []
 title: MOC - Prime Numbers as Atoms
-type: "map"
-updated: 
+type: map
+updated: null
+permalink: llmeon/30-library/mo-c/moc-prime-numbers-as-atoms
 ---
 
 [[Prime Numbers Are the Atomic Elements of All Numbers]]

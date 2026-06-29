@@ -1,11 +1,20 @@
 ---
-aliases: ["ADHD as an EF Deficit", "Core ADHD Impairments", "EF Dysfunction in ADHD"]
-created: 2026-02-11T16:55:00+00:00
-modified: 2026-02-11T17:15:00+00:00
-status: "seedling"
-tags: ["ADHD", "cognition", "executive-function", "neurology", "self-regulation"]
+aliases:
+- ADHD as an EF Deficit
+- Core ADHD Impairments
+- EF Dysfunction in ADHD
+created: 2026-02-11 16:55:00+00:00
+modified: 2026-02-11 17:15:00+00:00
+status: seedling
+tags:
+- ADHD
+- cognition
+- executive-function
+- neurology
+- self-regulation
 title: Executive Function Challenges are Central to ADHD
-type: "zettel"
+type: zettel
+permalink: llmeon/30-library/100-zettelkasten/executive-function-challenges-are-central-to-adhd
 ---
 
 ## Minimum Viable Understanding (MVU)

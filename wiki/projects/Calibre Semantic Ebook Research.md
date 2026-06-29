@@ -2,10 +2,14 @@
 title: Calibre Semantic Ebook Research
 wiki_type: dossier
 entity_kind: project
-created: 2026-05-22T13:30:00+01:00
-modified: 2026-05-22T13:30:00+01:00
-tags: [wiki, dossier]
-sources: [raw/2026-05-22-pieces-calibre-semantic-search.md]
+created: 2026-05-22 13:30:00+01:00
+modified: 2026-05-22 13:30:00+01:00
+tags:
+- wiki
+- dossier
+sources:
+- raw/2026-05-22-pieces-calibre-semantic-search.md
+permalink: llmeon/wiki/projects/calibre-semantic-ebook-research
 ---
 
 # Calibre Semantic Ebook Research

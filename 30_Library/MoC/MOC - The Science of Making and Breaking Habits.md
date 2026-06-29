@@ -1,13 +1,18 @@
 ---
 aliases: []
-created: 2025-10-30T12:05:10Z
-last_reviewed: "null"
-modified: 2026-02-01T15:08:04+00:00
-status: "null"
-tags: ["map", "TheHuman/Habits", "TheHuman/Neuroscience", "topic/productivity"]
+created: 2025-10-30 12:05:10+00:00
+last_reviewed: 'null'
+modified: 2026-02-01 15:08:04+00:00
+status: 'null'
+tags:
+- map
+- TheHuman/Habits
+- TheHuman/Neuroscience
+- topic/productivity
 title: MOC - The Science of Making and Breaking Habits
-type: "map"
-updated: 
+type: map
+updated: null
+permalink: llmeon/30-library/mo-c/moc-the-science-of-making-and-breaking-habits
 ---
 
 This note summarizes the key scientific principles for habit formation and elimination, based on the work of Andrew Huberman.

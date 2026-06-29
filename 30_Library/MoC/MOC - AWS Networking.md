@@ -1,14 +1,20 @@
 ---
-aliases: [AWS Networking MOC]
-created: 2025-10-24T14:25:58Z
+aliases:
+- AWS Networking MOC
+created: 2025-10-24 14:25:58+00:00
 last-synthesis: 2026-04-04
-last_reviewed: "2026-04-04"
-modified: 2026-05-26T11:44:23+00:00
-status: "evergreen"
+last_reviewed: '2026-04-04'
+modified: 2026-05-26 11:44:23+00:00
+status: evergreen
 synthesis-count: 2
-tags: ["aws", "SoftwareEngineering/Networking", "SoftwareEngineering/networking/cloud-networking", "type/moc"]
+tags:
+- aws
+- SoftwareEngineering/Networking
+- SoftwareEngineering/networking/cloud-networking
+- type/moc
 title: MOC - AWS Networking
-type: "map"
+type: map
+permalink: llmeon/30-library/mo-c/moc-aws-networking
 ---
 
 This Map of Content (MOC) organizes notes specifically related to networking services and concepts within Amazon Web Services (AWS).

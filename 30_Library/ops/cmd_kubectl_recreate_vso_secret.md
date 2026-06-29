@@ -1,12 +1,17 @@
 ---
-created: 2026-02-21T15:07:24+00:00
-modified: 2026-03-14T11:10:10+00:00
+created: 2026-02-21 15:07:24+00:00
+modified: 2026-03-14 11:10:10+00:00
 risk: high
 service: vso
-tags: [k8s, mutation, recovery, vso]
+tags:
+- k8s
+- mutation
+- recovery
+- vso
 title: cmd_kubectl_recreate_vso_secret
 tool: kubectl
 type: command
+permalink: llmeon/30-library/ops/cmd-kubectl-recreate-vso-secret
 ---
 
 ## Recreate VSO Managed Secret

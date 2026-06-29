@@ -1,9 +1,19 @@
 ---
 title: FFNode Stress Testing — Refinement Meeting Updates (Phase00, Cohort Design)
-created: 2026-06-15T14:03:00+00:00
+created: 2026-06-15 14:03:00+00:00
 source: pieces
-pieces_ids: ["1c6b6bf3-cf07-4e42-8a09-9ff4a4ae72fb", "badc8227-e2a7-4321-89c0-84ee157b701b", "918c44fc-34b4-43ae-a02e-a6533e884570", "c44e57d3-bddb-4f52-9f21-75e940db7325"]
-tags: [raw, ffnode, stress-testing, refinement, pre-tickets]
+pieces_ids:
+- 1c6b6bf3-cf07-4e42-8a09-9ff4a4ae72fb
+- badc8227-e2a7-4321-89c0-84ee157b701b
+- 918c44fc-34b4-43ae-a02e-a6533e884570
+- c44e57d3-bddb-4f52-9f21-75e940db7325
+tags:
+- raw
+- ffnode
+- stress-testing
+- refinement
+- pre-tickets
+permalink: llmeon/raw/2026-06-15-pieces-ffnode-refinement-pre-tickets
 ---
 
 From the FFNode Stress Testing refinement meeting on 15 June 2026, Oliver Rushton proposed two new pre-tickets be added to the backlog:

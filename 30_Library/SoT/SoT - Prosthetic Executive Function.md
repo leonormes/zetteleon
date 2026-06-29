@@ -1,13 +1,22 @@
 ---
-aliases: ["Automation as Behavior", "Externalizing Cognition", "Point of Performance Engineering", "Prosthetic Executive Function"]
-created: 2026-01-12T12:25:00+00:00
+aliases:
+- Automation as Behavior
+- Externalizing Cognition
+- Point of Performance Engineering
+- Prosthetic Executive Function
+created: 2026-01-12 12:25:00+00:00
 last-synthesis: 2026-04-04
-modified: 2026-05-26T11:44:17+00:00
-status: "stable"
+modified: 2026-05-26 11:44:17+00:00
+status: stable
 synthesis-count: 2
-tags: ["adhd", "behavior-change", "prodos/sot", "systems-engineering"]
+tags:
+- adhd
+- behavior-change
+- prodos/sot
+- systems-engineering
 title: SoT - Prosthetic Executive Function
-type: "SoT"
+type: SoT
+permalink: llmeon/30-library/so-t/so-t-prosthetic-executive-function
 ---
 
 ## Prosthetic Executive Function

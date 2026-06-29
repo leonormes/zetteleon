@@ -1,15 +1,20 @@
 ---
-created: 2026-04-14T13:22:01+00:00
-created_utc: "2026-04-14T11:35:00Z"
+created: 2026-04-14 13:22:01+00:00
+created_utc: '2026-04-14T11:35:00Z'
 kind: heuristic
-modified: 2026-05-26T11:44:34+00:00
-source_title: "Thinking about knowledge"
-source_url: "https://gemini.google.com/app/d3312dd6e13881e3"
+modified: 2026-05-26 11:44:34+00:00
+source_title: Thinking about knowledge
+source_url: https://gemini.google.com/app/d3312dd6e13881e3
 status: seed
-tags: [behavioral-science, habits, mve, productivity]
+tags:
+- behavioral-science
+- habits
+- mve
+- productivity
 title: Minimum Viable Experiment (MVE)
 type: atom
-upstream: "[[SoT - ADHD Management Protocols]]"
+upstream: '[[SoT - ADHD Management Protocols]]'
+permalink: llmeon/30-library/100-zettelkasten/minimum-viable-experiment-mve
 ---
 
 ## Minimum Viable Experiment (MVE)

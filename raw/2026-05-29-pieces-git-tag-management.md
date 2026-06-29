@@ -1,9 +1,13 @@
 ---
 title: Git Tag Management & ArgoCD Tag Move
-created: 2026-05-29T11:00:59+00:00
+created: 2026-05-29 11:00:59+00:00
 source: pieces-ltm
-pieces_ids: ['8274dabd-1d3d-443c-9bff-853e39ca5360']
-tags: [raw, pieces]
+pieces_ids:
+- 8274dabd-1d3d-443c-9bff-853e39ca5360
+tags:
+- raw
+- pieces
+permalink: llmeon/raw/2026-05-29-pieces-git-tag-management
 ---
 
 ## Asset 1 (Pieces: 8274dabd-1d3d-443c-9bff-853e39ca5360)

@@ -1,13 +1,19 @@
 ---
-aliases: ["Startup Ritual", "Transition Ritual"]
-created: 2025-11-11T19:05:13Z
-last_reviewed: ""
-modified: 2026-05-26T11:44:37+00:00
-status: "seedling"
-tags: ["rituals", "TheHuman/Habits", "topic/productivity"]
+aliases:
+- Startup Ritual
+- Transition Ritual
+created: 2025-11-11 19:05:13+00:00
+last_reviewed: ''
+modified: 2026-05-26 11:44:37+00:00
+status: seedling
+tags:
+- rituals
+- TheHuman/Habits
+- topic/productivity
 title: A Startup Ritual Eases the Transition into a Project Mindset
-type: "strategy"
-updated: 
+type: strategy
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/a-startup-ritual-eases-the-transition-into-a-project-mindset
 ---
 
 ## A Startup Ritual Eases the Transition into a Project Mindset

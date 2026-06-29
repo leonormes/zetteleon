@@ -1,15 +1,20 @@
 ---
-created: 2026-04-14T17:45:59+00:00
-created_utc: "2026-04-14T12:20:00Z"
+created: 2026-04-14 17:45:59+00:00
+created_utc: '2026-04-14T12:20:00Z'
 kind: distinction
-modified: 2026-05-26T11:44:34+00:00
-source_title: "The Fundamental Challenge of Concurrent and Distributed Systems"
-source_url: "http://www.youtube.com/watch?v=U719vQz-WFs"
+modified: 2026-05-26 11:44:34+00:00
+source_title: The Fundamental Challenge of Concurrent and Distributed Systems
+source_url: http://www.youtube.com/watch?v=U719vQz-WFs
 status: seed
-tags: [formal-methods, invariants, logic, verification]
+tags:
+- formal-methods
+- invariants
+- logic
+- verification
 title: Invariants vs Behavioural Sequences
 type: atom
-upstream: "[[SoT - Fundamentals of Mathematical Logic]]"
+upstream: '[[SoT - Fundamentals of Mathematical Logic]]'
+permalink: llmeon/30-library/100-zettelkasten/invariants-vs-behavioural-sequences
 ---
 
 ## Invariants Vs Behavioural Sequences

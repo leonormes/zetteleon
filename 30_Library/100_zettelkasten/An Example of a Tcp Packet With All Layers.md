@@ -1,13 +1,17 @@
 ---
-aliases: ["Packet Anatomy", "TCP Packet Example"]
-created: 2025-10-21T13:23:09Z
-last_reviewed: ""
-modified: 2026-05-26T11:44:36+00:00
-status: "evergreen"
-tags: ["SoftwareEngineering/Networking"]
+aliases:
+- Packet Anatomy
+- TCP Packet Example
+created: 2025-10-21 13:23:09+00:00
+last_reviewed: ''
+modified: 2026-05-26 11:44:36+00:00
+status: evergreen
+tags:
+- SoftwareEngineering/Networking
 title: An Example of a Tcp Packet With All Layers
-type: "reference"
-updated: 
+type: reference
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/an-example-of-a-tcp-packet-with-all-layers
 ---
 
 ## TCP Packet Layers & Headers

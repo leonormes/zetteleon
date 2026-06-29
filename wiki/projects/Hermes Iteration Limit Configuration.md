@@ -2,10 +2,14 @@
 title: Hermes Iteration Limit Configuration
 wiki_type: dossier
 entity_kind: project
-created: 2026-05-16T21:27:00+00:00
-modified: 2026-05-16T21:27:00+00:00
-tags: [wiki, dossier]
-sources: [raw/2026-05-16-pieces-hermes-iteration-limit.md]
+created: 2026-05-16 21:27:00+00:00
+modified: 2026-05-16 21:27:00+00:00
+tags:
+- wiki
+- dossier
+sources:
+- raw/2026-05-16-pieces-hermes-iteration-limit.md
+permalink: llmeon/wiki/projects/hermes-iteration-limit-configuration
 ---
 
 ## Summary

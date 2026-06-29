@@ -1,13 +1,18 @@
 ---
 aliases: []
-created: 2025-10-24T14:25:58Z
-last_reviewed: "null"
-modified: 2026-02-01T15:08:26+00:00
-status: "null"
-tags: ["aws", "load-balancing", "SoftwareEngineering/networking/cloud-networking", "testing"]
+created: 2025-10-24 14:25:58+00:00
+last_reviewed: 'null'
+modified: 2026-02-01 15:08:26+00:00
+status: 'null'
+tags:
+- aws
+- load-balancing
+- SoftwareEngineering/networking/cloud-networking
+- testing
 title: Testing and Validating AWS ALB
-type: "null"
-updated: 
+type: 'null'
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/testing-and-validating-aws-alb
 ---
 
 After deploying an AWS Application Load Balancer (ALB), it's crucial to test and validate its functionality to ensure traffic is being distributed correctly and the application is accessible.

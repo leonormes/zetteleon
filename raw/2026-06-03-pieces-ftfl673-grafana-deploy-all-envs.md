@@ -1,10 +1,19 @@
 ---
 title: FTFL-673 — Grafana Deployment Across Environments
-created: 2026-06-03T11:58:12.611008+00:00
+created: 2026-06-03 11:58:12.611008+00:00
 source: pieces-ltm
-pieces_ids: [6f2632a6-67d8-4554-b931-bdb2ddbb9dad, 68396118-1dc1-449a-8f6c-aae16bf3f39a, 6085cac8-98bc-4f9c-a305-87639db2bc2c, 08adeb5d-f82c-437d-a1b0-d266f24756b0, 91471615-827f-4f57-ab51-97afe9d2a9b8]
-tags: [raw, pieces]
+pieces_ids:
+- 6f2632a6-67d8-4554-b931-bdb2ddbb9dad
+- 68396118-1dc1-449a-8f6c-aae16bf3f39a
+- 6085cac8-98bc-4f9c-a305-87639db2bc2c
+- 08adeb5d-f82c-437d-a1b0-d266f24756b0
+- 91471615-827f-4f57-ab51-97afe9d2a9b8
+tags:
+- raw
+- pieces
+permalink: llmeon/raw/2026-06-03-pieces-ftfl673-grafana-deploy-all-envs
 ---
+
 ## Asset 1 (Pieces: 6f2632a6-67d8-4554-b931-bdb2ddbb9dad)
 
 The user wants a Hermes prompt that:

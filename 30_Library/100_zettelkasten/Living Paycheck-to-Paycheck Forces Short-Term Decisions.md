@@ -1,13 +1,18 @@
 ---
-aliases: ["The Paycheck Cycle Trap"]
-created: 2025-11-18T14:36:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:31+00:00
-status: ""
-tags: ["budgeting", "finance", "TheHuman/Psychology"]
+aliases:
+- The Paycheck Cycle Trap
+created: 2025-11-18 14:36:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:31+00:00
+status: ''
+tags:
+- budgeting
+- finance
+- TheHuman/Psychology
 title: Living Paycheck-to-Paycheck Forces Short-Term Decisions
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/living-paycheck-to-paycheck-forces-short-term-decisions
 ---
 
 Living paycheck-to-paycheck traps you in a cycle of short-term thinking. When your financial horizon extends only to the next payday, you are forced to focus exclusively on immediate survival, such as timing bill payments to income.

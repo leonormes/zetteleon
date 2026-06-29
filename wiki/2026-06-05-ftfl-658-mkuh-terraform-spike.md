@@ -1,9 +1,16 @@
 ---
 created: 2026-06-05
 modified: 2026-06-05
-title: "FTFL-658: MKUH Terraform Failure Spike — Complete Investigation Report"
-tags: [hermes, solution, terraform, mkuh, ftfl-658, spike]
+title: 'FTFL-658: MKUH Terraform Failure Spike — Complete Investigation Report'
+tags:
+- hermes
+- solution
+- terraform
+- mkuh
+- ftfl-658
+- spike
 source: openrouter/owl-alpha (gather + synthesis)
+permalink: llmeon/wiki/2026-06-05-ftfl-658-mkuh-terraform-spike
 ---
 
 # FTFL-658: MKUH Terraform Failure Spike — Complete Investigation Report

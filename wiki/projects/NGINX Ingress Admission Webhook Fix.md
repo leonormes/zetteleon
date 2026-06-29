@@ -2,12 +2,18 @@
 title: NGINX Ingress Admission Webhook Fix
 wiki_type: dossier
 entity_kind: project
-created: 2026-06-01T17:58:23+00:00
-modified: 2026-06-02T06:44:05+00:00
-tags: [wiki, dossier]
-sources: [raw/2026-06-01-pieces-nginx-ingress-webhook-fix, raw/2026-06-01-pieces-argocd-ingress-investigation, raw/2026-06-01-pieces-argocd-nginx-a, raw/2026-06-01-pieces-argocd-nginx-b]
+created: 2026-06-01 17:58:23+00:00
+modified: 2026-06-02 06:44:05+00:00
+tags:
+- wiki
+- dossier
+sources:
+- raw/2026-06-01-pieces-nginx-ingress-webhook-fix
+- raw/2026-06-01-pieces-argocd-ingress-investigation
+- raw/2026-06-01-pieces-argocd-nginx-a
+- raw/2026-06-01-pieces-argocd-nginx-b
+permalink: llmeon/wiki/projects/nginx-ingress-admission-webhook-fix
 ---
-
 
 ## Summary
 

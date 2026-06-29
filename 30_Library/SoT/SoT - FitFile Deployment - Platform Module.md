@@ -1,11 +1,18 @@
 ---
-aliases: ["FITFILE Platform Deployment"]
-created: 2026-02-01T19:26:00+00:00
-modified: 2026-02-04T07:27:20+00:00
+aliases:
+- FITFILE Platform Deployment
+created: 2026-02-01 19:26:00+00:00
+modified: 2026-02-04 07:27:20+00:00
 status: active
-tags: ["deployment", "ff_deploy", "kubernetes", "SoT", "terraform"]
+tags:
+- deployment
+- ff_deploy
+- kubernetes
+- SoT
+- terraform
 title: SoT - FitFile Deployment - Platform Module
 type: SoT
+permalink: llmeon/30-library/so-t/so-t-fit-file-deployment-platform-module
 ---
 
 ## Source of Truth: FitFile Platform Deployment

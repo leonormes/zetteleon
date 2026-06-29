@@ -1,13 +1,21 @@
 ---
-aliases: ["ADHD Creation Cycle", "Breaking the Loop", "Continuation Protocol"]
-created: 2025-11-13T00:00:00Z
-last_reviewed: "2025-12-14"
-modified: 2026-02-01T15:08:01+00:00
-status: "stable"
-tags: ["developer_workflow", "mental_model", "TheHuman/Health/ADHD", "topic/productivity"]
+aliases:
+- ADHD Creation Cycle
+- Breaking the Loop
+- Continuation Protocol
+created: 2025-11-13 00:00:00+00:00
+last_reviewed: '2025-12-14'
+modified: 2026-02-01 15:08:01+00:00
+status: stable
+tags:
+- developer_workflow
+- mental_model
+- TheHuman/Health/ADHD
+- topic/productivity
 title: SoT - Breaking the Creation Cycle
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-breaking-the-creation-cycle
 ---
 
 ## 1. The Core Problem: "The Fresh Start Loop"

@@ -1,13 +1,18 @@
 ---
-aliases: ["Learning to Learn"]
-created: 2025-11-01T12:00:07Z
-last_reviewed: "2025-11-01"
-modified: 2026-02-01T15:08:29+00:00
-status: "seedling"
-tags: ["learning", "scaffolding", "TheHuman/Cognition"]
+aliases:
+- Learning to Learn
+created: 2025-11-01 12:00:07+00:00
+last_reviewed: '2025-11-01'
+modified: 2026-02-01 15:08:29+00:00
+status: seedling
+tags:
+- learning
+- scaffolding
+- TheHuman/Cognition
 title: Patterns are the Scaffolding of Knowledge
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/patterns-are-the-scaffolding-of-knowledge
 ---
 
 ## Patterns Are the Scaffolding of Knowledge

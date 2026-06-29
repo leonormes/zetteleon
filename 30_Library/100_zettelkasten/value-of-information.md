@@ -1,14 +1,16 @@
 ---
 aliases: []
-created: 2024-12-24T18:56:42Z
-ID: "2g"
-last_reviewed: ""
-modified: 2026-02-01T15:08:23+00:00
-status: ""
-tags: ["information"]
+created: 2024-12-24 18:56:42+00:00
+ID: 2g
+last_reviewed: ''
+modified: 2026-02-01 15:08:23+00:00
+status: ''
+tags:
+- information
 title: value-of-information
-type: "permanent"
-updated: 
+type: permanent
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/value-of-information
 ---
 
 Information holds inherent value due to its potential to:

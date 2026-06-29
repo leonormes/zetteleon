@@ -1,13 +1,17 @@
 ---
-aliases: ["Geometry"]
-created: 2025-11-01T11:22:13Z
-last_reviewed: "2025-11-01"
-modified: 2026-02-01T15:08:33+00:00
-status: "seedling"
-tags: ["fields", "topic/maths"]
+aliases:
+- Geometry
+created: 2025-11-01 11:22:13+00:00
+last_reviewed: '2025-11-01'
+modified: 2026-02-01 15:08:33+00:00
+status: seedling
+tags:
+- fields
+- topic/maths
 title: Geometry (Definition)
-type: "definition"
-updated: 
+type: definition
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/geometry-definition
 ---
 
 Definition: Geometry is the branch of mathematics concerned with the properties, measurement, and relationships of points, lines, surfaces, and solids in space.

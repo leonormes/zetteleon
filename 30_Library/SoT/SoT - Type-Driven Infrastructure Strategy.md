@@ -1,13 +1,26 @@
 ---
-aliases: ["Formal Methods for IaC", "Infrastructure as Applied Type Theory", "The Witness Pattern", "Type-Driven Infrastructure", "Type-Safe IaC"]
-created: 2025-12-30T14:00:00Z
-last_reviewed: "2025-12-30"
-modified: 2026-02-01T15:07:48+00:00
-status: "stable"
-tags: ["cdktf", "devops", "iac", "rust", "SoftwareEngineering/Architecture", "terraform", "type-theory"]
+aliases:
+- Formal Methods for IaC
+- Infrastructure as Applied Type Theory
+- The Witness Pattern
+- Type-Driven Infrastructure
+- Type-Safe IaC
+created: 2025-12-30 14:00:00+00:00
+last_reviewed: '2025-12-30'
+modified: 2026-02-01 15:07:48+00:00
+status: stable
+tags:
+- cdktf
+- devops
+- iac
+- rust
+- SoftwareEngineering/Architecture
+- terraform
+- type-theory
 title: SoT - Type-Driven Infrastructure Strategy
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-type-driven-infrastructure-strategy
 ---
 
 ## SoT - Type-Driven Infrastructure Strategy

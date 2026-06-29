@@ -1,9 +1,18 @@
 ---
 title: FTFL-511 TLS Retest — Post DNS-Only Validation
-created: 2026-06-02T02:18:54.823241+00:00
+created: 2026-06-02 02:18:54.823241+00:00
 source: pieces-ltm
-pieces_ids: ["480f2d8a-ccf4-4b1d-9d04-a75b69c29a7d", "9a572b4c-d9a1-4fb9-a5a2-51269582f7f1", "e98472a6-f2be-477b-a36b-8d0ecf3ccde0", "38b50523-2ac9-4ca6-b1f7-dd3b23f1e5c6", "001d11ea-4e94-4473-be02-3e8df852add8", "8e7b9778-4e55-4eac-b4bd-8e047982160f"]
-tags: [raw, pieces]
+pieces_ids:
+- 480f2d8a-ccf4-4b1d-9d04-a75b69c29a7d
+- 9a572b4c-d9a1-4fb9-a5a2-51269582f7f1
+- e98472a6-f2be-477b-a36b-8d0ecf3ccde0
+- 38b50523-2ac9-4ca6-b1f7-dd3b23f1e5c6
+- 001d11ea-4e94-4473-be02-3e8df852add8
+- 8e7b9778-4e55-4eac-b4bd-8e047982160f
+tags:
+- raw
+- pieces
+permalink: llmeon/raw/2026-06-01-pieces-ftfl-511-tls-retest
 ---
 
 ## Asset 1 (Pieces: 480f2d8a-ccf4-4b1d-9d04-a75b69c29a7d)

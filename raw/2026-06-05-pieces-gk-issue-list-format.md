@@ -1,11 +1,14 @@
 ---
-title: "GitKraken `gk issue list` Output Format Investigation"
-created: 2026-06-05T13:23:20+00:00
+title: GitKraken `gk issue list` Output Format Investigation
+created: 2026-06-05 13:23:20+00:00
 source: pieces-ltm
 pieces_ids:
-  - fe4f9ec1-e4e2-40b8-8985-c2076255d4d9
-  - 55699589-ac61-4ece-be76-8d1f2e7f66ff
-tags: [raw, pieces]
+- fe4f9ec1-e4e2-40b8-8985-c2076255d4d9
+- 55699589-ac61-4ece-be76-8d1f2e7f66ff
+tags:
+- raw
+- pieces
+permalink: llmeon/raw/2026-06-05-pieces-gk-issue-list-format
 ---
 
 # GitKraken `gk issue list` Output Format Investigation

@@ -1,19 +1,20 @@
 ---
 aliases: []
-created: 2026-01-29T07:28:40+00:00
+created: 2026-01-29 07:28:40+00:00
 id: FFNode Umbrella Chart Forensic Analysis & API Specification
-modified: 2026-06-11T15:13:07+00:00
+modified: 2026-06-11 15:13:07+00:00
 project_category: refined_deployment
 project_name: Refined Deployment
 project_status: active
 tags:
-  - architecture
-  - cuelang
-  - ff_deploy
-  - k8s
-  - specification
+- architecture
+- cuelang
+- ff_deploy
+- k8s
+- specification
 title: FFNode Umbrella Chart Forensic Analysis & API Specification
-type:
+type: null
+permalink: llmeon/30-library/200-projects/ffnode-umbrella-chart-forensic-analysis-api-specification
 ---
 
 ## 1. The Complexity Heatmap (Forensic Audit)

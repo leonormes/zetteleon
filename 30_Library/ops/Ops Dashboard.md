@@ -1,10 +1,14 @@
 ---
-created: 2026-02-16T11:46:14+00:00
+created: 2026-02-16 11:46:14+00:00
 icon: layout-dashboard
-modified: 2026-05-28T09:10:37+00:00
-tags: [automated, dashboard, ops]
+modified: 2026-05-28 09:10:37+00:00
+tags:
+- automated
+- dashboard
+- ops
 title: Ops Dashboard
 type: dashboard
+permalink: llmeon/30-library/ops/ops-dashboard
 ---
 
 ## 🛠️ Operations Control Plane

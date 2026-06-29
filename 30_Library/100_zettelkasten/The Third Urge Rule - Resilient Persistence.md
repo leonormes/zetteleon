@@ -1,13 +1,20 @@
 ---
-aliases: ["Resilient Persistence", "The Urge to Quit Protocol"]
-created: 2025-12-24T12:00:00Z
+aliases:
+- Resilient Persistence
+- The Urge to Quit Protocol
+created: 2025-12-24 12:00:00+00:00
 last_reviewed: 2025-12-24
-modified: 2026-02-01T15:08:24+00:00
-status: "stable"
-tags: ["adhd-friendly", "grit", "protocol", "resilience"]
+modified: 2026-02-01 15:08:24+00:00
+status: stable
+tags:
+- adhd-friendly
+- grit
+- protocol
+- resilience
 title: The Third Urge Rule - Resilient Persistence
-type: "protocol"
-updated: 
+type: protocol
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/the-third-urge-rule-resilient-persistence
 ---
 
 The Third Urge Rule is a "Middle Way" protocol for managing the impulse to abandon a difficult or uncomfortable task.

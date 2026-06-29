@@ -1,10 +1,20 @@
 ---
-created: 2026-04-30T13:14:00+00:00
-modified: 2026-05-26T11:43:52+00:00
-pieces_ids: [044c1ba4-b38b-4716-955c-bb6e86767c66, 1293bd24-54eb-4d21-9746-ef947bce9ca6, 464355f2-7b36-4546-889d-0d111422acdf, 4fbea6fd-4068-4046-8517-40bfd58d993f, 588b1723-a6f7-45d7-a381-e7730999559c, a57f64c3-0ae1-4038-8ca4-963bba70b8bf, ce33a0b8-d422-4f37-b643-441c25b12a05]
+created: 2026-04-30 13:14:00+00:00
+modified: 2026-05-26 11:43:52+00:00
+pieces_ids:
+- 044c1ba4-b38b-4716-955c-bb6e86767c66
+- 1293bd24-54eb-4d21-9746-ef947bce9ca6
+- 464355f2-7b36-4546-889d-0d111422acdf
+- 4fbea6fd-4068-4046-8517-40bfd58d993f
+- 588b1723-a6f7-45d7-a381-e7730999559c
+- a57f64c3-0ae1-4038-8ca4-963bba70b8bf
+- ce33a0b8-d422-4f37-b643-441c25b12a05
 source: pieces-ltm
-tags: [pieces, raw]
+tags:
+- pieces
+- raw
 title: 2026-04-30-pieces-terraform-backup-review
+permalink: llmeon/raw/2026-04-30-pieces-terraform-backup-review
 ---
 
 ## Session Capture: 2026-04-30 10:34-10:35

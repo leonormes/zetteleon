@@ -1,11 +1,12 @@
 ---
-created: 2026-04-28T08:24:50+00:00
-modified: 2026-06-08T11:49:16+00:00
+created: 2026-04-28 08:24:50+00:00
+modified: 2026-06-08 11:49:16+00:00
 project_category: refined_deployment
 project_name: Refined Deployment
 project_status: active
 title: FTFL-596 Configure Azure Backups
-type:
+type: null
+permalink: llmeon/30-library/200-projects/ftfl-596-configure-azure-backups
 ---
 
 ## FTFL-596: Configure the Azure Backups Module for NNUH & MKUH

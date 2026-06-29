@@ -1,15 +1,20 @@
 ---
-created: 2026-04-13T14:37:11+00:00
-created_utc: "2026-04-13T11:10:00Z"
+created: 2026-04-13 14:37:11+00:00
+created_utc: '2026-04-13T11:10:00Z'
 kind: procedure
-modified: 2026-05-26T11:44:33+00:00
-source_title: "Agentic Engineering and AI Workflow Management"
-source_url: "https://gemini.google.com/app/7a41bb3090001aa4"
+modified: 2026-05-26 11:44:33+00:00
+source_title: Agentic Engineering and AI Workflow Management
+source_url: https://gemini.google.com/app/7a41bb3090001aa4
 status: seed
-tags: [ai-automation, engineering-standards, process, workflow]
+tags:
+- ai-automation
+- engineering-standards
+- process
+- workflow
 title: Research-Plan-Implement Workflow
 type: atom
-upstream: "[[HEAD - Agentic Engineering and AI Workflow Management]]"
+upstream: '[[HEAD - Agentic Engineering and AI Workflow Management]]'
+permalink: llmeon/30-library/100-zettelkasten/research-plan-implement-workflow
 ---
 
 ## Research-Plan-Implement Workflow

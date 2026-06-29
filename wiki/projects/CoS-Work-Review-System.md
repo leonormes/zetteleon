@@ -2,10 +2,14 @@
 title: CoS Work-Review System
 wiki_type: dossier
 entity_kind: project
-created: 2026-05-26T12:00:00+00:00
-modified: 2026-05-26T12:00:00+00:00
-tags: [wiki, dossier]
-sources: [raw/2026-05-26-pieces-cos-work-review-jira.md]
+created: 2026-05-26 12:00:00+00:00
+modified: 2026-05-26 12:00:00+00:00
+tags:
+- wiki
+- dossier
+sources:
+- raw/2026-05-26-pieces-cos-work-review-jira.md
+permalink: llmeon/wiki/projects/co-s-work-review-system
 ---
 
 ## Summary

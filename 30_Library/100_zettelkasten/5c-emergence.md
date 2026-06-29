@@ -1,7 +1,8 @@
 ---
-created: 2026-05-04T08:01:26+00:00
-modified: 2026-05-26T11:44:37+00:00
+created: 2026-05-04 08:01:26+00:00
+modified: 2026-05-26 11:44:37+00:00
 title: 5c-emergence
+permalink: llmeon/30-library/100-zettelkasten/5c-emergence
 ---
 
 ## 5c-emergence

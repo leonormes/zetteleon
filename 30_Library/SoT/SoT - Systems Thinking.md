@@ -1,14 +1,22 @@
 ---
-aliases: ["Feedback Loops", "Holistic Thinking", "Systems Dynamics"]
-created: 2025-12-12T00:00:00Z
-last_reviewed: ""
-modified: 2026-02-04T07:27:00+00:00
-status: "stable"
-tags: ["complexity", "mental_models", "thinking", "topic/systems"]
-tier: "2-Strategy"
+aliases:
+- Feedback Loops
+- Holistic Thinking
+- Systems Dynamics
+created: 2025-12-12 00:00:00+00:00
+last_reviewed: ''
+modified: 2026-02-04 07:27:00+00:00
+status: stable
+tags:
+- complexity
+- mental_models
+- thinking
+- topic/systems
+tier: 2-Strategy
 title: SoT - Systems Thinking
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-systems-thinking
 ---
 
 ## Working Knowledge (Stable)

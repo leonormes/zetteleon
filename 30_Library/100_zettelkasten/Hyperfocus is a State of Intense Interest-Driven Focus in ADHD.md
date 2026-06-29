@@ -1,13 +1,21 @@
 ---
-aliases: ["ADHD Hyperfocus", "Entering the Zone"]
-created: 2025-07-16T17:30:01Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:32+00:00
-status: ""
-tags: ["focus", "interest", "TheHuman/Health/ADHD", "TheHuman/Motivation", "topic/productivity/hyperfocus"]
+aliases:
+- ADHD Hyperfocus
+- Entering the Zone
+created: 2025-07-16 17:30:01+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:32+00:00
+status: ''
+tags:
+- focus
+- interest
+- TheHuman/Health/ADHD
+- TheHuman/Motivation
+- topic/productivity/hyperfocus
 title: Hyperfocus is a State of Intense Interest-Driven Focus in ADHD
-type: "permanent"
-updated: 
+type: permanent
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/hyperfocus-is-a-state-of-intense-interest-driven-focus-in-adhd
 ---
 
 Hyperfocus is a phenomenon experienced by individuals with ADHD where they can enter a state of intense, sustained concentration on a task that genuinely interests or intrigues them. During hyperfocus, typical ADHD impairments such as distractibility can seem to vanish, and executive functions related to the task can soar.

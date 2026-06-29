@@ -1,9 +1,15 @@
 ---
 title: Terraform Iac — Pieces LTM 2026-05-27
-created: 2026-05-27T21:30:22.831947+00:00
+created: 2026-05-27 21:30:22.831947+00:00
 source: pieces-ltm
-pieces_ids: [34866d84-2186-42bc-9cbd-3c25254c8eaf, 31da620c-3587-4e5c-8016-b6aeb8f63d55, 2d2963e6-6094-46a0-9ff0-cc23f8295e27]
-tags: [raw, pieces]
+pieces_ids:
+- 34866d84-2186-42bc-9cbd-3c25254c8eaf
+- 31da620c-3587-4e5c-8016-b6aeb8f63d55
+- 2d2963e6-6094-46a0-9ff0-cc23f8295e27
+tags:
+- raw
+- pieces
+permalink: llmeon/raw/2026-05-27-pieces-terraform-iac
 ---
 
 ## Asset 1 (Pieces: 34866d84-2186-42bc-9cbd-3c25254c8eaf)

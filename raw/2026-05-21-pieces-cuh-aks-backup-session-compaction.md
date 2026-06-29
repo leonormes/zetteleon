@@ -1,10 +1,18 @@
 ---
-created: 2026-05-21T12:48:36+00:00
-modified: 2026-05-26T11:43:35+00:00
-pieces_ids: [1ce0fe65-de4f-422a-9e9f-3dfbcb1985fa, 8809d6de-e144-4517-9558-1749cf2742f3, b3535217-9689-4610-a7d6-41ee8015db46, d90eaf20-0e8c-4975-96a2-6d4829e2e45b, fc65fdb8-0b73-4320-924f-9a62f9d291fe]
+created: 2026-05-21 12:48:36+00:00
+modified: 2026-05-26 11:43:35+00:00
+pieces_ids:
+- 1ce0fe65-de4f-422a-9e9f-3dfbcb1985fa
+- 8809d6de-e144-4517-9558-1749cf2742f3
+- b3535217-9689-4610-a7d6-41ee8015db46
+- d90eaf20-0e8c-4975-96a2-6d4829e2e45b
+- fc65fdb8-0b73-4320-924f-9a62f9d291fe
 source: pieces-ltm
-tags: [pieces, raw]
+tags:
+- pieces
+- raw
 title: 2026-05-21-pieces-cuh-aks-backup-session-compaction
+permalink: llmeon/raw/2026-05-21-pieces-cuh-aks-backup-session-compaction
 ---
 
 ## Context

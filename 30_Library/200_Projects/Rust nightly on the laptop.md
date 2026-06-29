@@ -1,19 +1,20 @@
 ---
 aliases: []
-created: 2025-02-07T12:57:53Z
-last_reviewed: ""
-modified: 2026-06-08T11:49:22+00:00
+created: 2025-02-07 12:57:53+00:00
+last_reviewed: ''
+modified: 2026-06-08 11:49:22+00:00
 project_category: development
-project_name: "Debug Wiki"
+project_name: Debug Wiki
 project_status: archived
 see_also: []
-status: ""
-superseded_by: ""
-supersedes: ""
+status: ''
+superseded_by: ''
+supersedes: ''
 tags: []
 title: Rust nightly on the laptop
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/200-projects/rust-nightly-on-the-laptop
 ---
 
 Here's a comprehensive debug wiki page documenting the issues and solutions we encountered:

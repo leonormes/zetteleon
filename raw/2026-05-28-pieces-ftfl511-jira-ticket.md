@@ -1,9 +1,15 @@
 ---
-title: "FTFL-511 — Nginx HTTPS Ticket via Jira MCP"
-created: 2026-05-28T18:05:42+00:00
+title: FTFL-511 — Nginx HTTPS Ticket via Jira MCP
+created: 2026-05-28 18:05:42+00:00
 source: pieces-ltm
-pieces_ids: [2cd0a5fc-9388-4ed5-9ac5-8a25a732089c, 62a7d236-2902-4aaf-a4e7-b5d4b32334d1, d7a00c51-b046-4deb-b3a1-cfa991a5a526]
-tags: [raw, pieces]
+pieces_ids:
+- 2cd0a5fc-9388-4ed5-9ac5-8a25a732089c
+- 62a7d236-2902-4aaf-a4e7-b5d4b32334d1
+- d7a00c51-b046-4deb-b3a1-cfa991a5a526
+tags:
+- raw
+- pieces
+permalink: llmeon/raw/2026-05-28-pieces-ftfl511-jira-ticket
 ---
 
 ## Asset 1 (Pieces: 2cd0a5fc-9388-4ed5-9ac5-8a25a732089c)
@@ -205,4 +211,3 @@ Let me review what I found in each file:
 **cost-routing-pilot.md**: ✅ confirmed present with Phase A and Phase B
 
 I've verified most of the key documentation pieces are in place. A few files like crashloop-triage.md, helm-validate.md, and loki-label-audit.md weren't checked, but I confirmed the directory structure is correct since argocd-unstick.md exists at the expected path. Now I'm ready to compile the final deliverable.
-

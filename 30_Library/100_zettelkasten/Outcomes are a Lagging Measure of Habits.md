@@ -1,13 +1,19 @@
 ---
-aliases: ["Outcomes are a Lagging Measure"]
-created: 2025-11-06T19:56:00Z
-last_reviewed: "2025-11-06"
-modified: 2026-02-01T15:08:29+00:00
-status: "seedling"
-tags: ["measurement", "outcomes", "TheHuman/Habits", "topic/systems"]
+aliases:
+- Outcomes are a Lagging Measure
+created: 2025-11-06 19:56:00+00:00
+last_reviewed: '2025-11-06'
+modified: 2026-02-01 15:08:29+00:00
+status: seedling
+tags:
+- measurement
+- outcomes
+- TheHuman/Habits
+- topic/systems
 title: Outcomes are a Lagging Measure of Habits
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/outcomes-are-a-lagging-measure-of-habits
 ---
 
 ## Outcomes Are a Lagging Measure of Habits

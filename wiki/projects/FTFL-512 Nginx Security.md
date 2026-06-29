@@ -2,11 +2,17 @@
 title: FTFL-512 Nginx Security
 wiki_type: dossier
 entity_kind: project
-created: 2026-06-01T22:06:18+00:00
-modified: 2026-06-01T22:06:18+00:00
-tags: [wiki, dossier, security, ftfl, nginx]
+created: 2026-06-01 22:06:18+00:00
+modified: 2026-06-01 22:06:18+00:00
+tags:
+- wiki
+- dossier
+- security
+- ftfl
+- nginx
 sources:
-  - raw/2026-06-01-pieces-ftfl-512-nginx-infodisclosure
+- raw/2026-06-01-pieces-ftfl-512-nginx-infodisclosure
+permalink: llmeon/wiki/projects/ftfl-512-nginx-security
 ---
 
 ## Summary

@@ -1,8 +1,11 @@
 ---
-created: 2026-04-28T00:00:00+00:00
-modified: 2026-06-08T19:22:00+00:00
-tags: [log, system]
+created: 2026-04-28 00:00:00+00:00
+modified: 2026-06-08 19:22:00+00:00
+tags:
+- log
+- system
 title: log
+permalink: llmeon/log
 ---
 
 ## Vault Operation Log
@@ -138,7 +141,7 @@ Append-only—never edit past entries.
 - Raw sources created: [[raw/2026-05-01-pieces-terraform-backup-review]]
 - Wiki pages touched: [[wiki/projects/Azure AKS Backup — FTFL]]
 - Pieces IDs ingested: 27 memories
-- Flags: none—existing project page updated with Terraform module validation findings (import vs creation, secrets configuration, security considerations, task status review)
+- Flags: none—existing project page updated with Terraform module validation findings (import vs creation, secrets config, security considerations, task status review)
 
 ---
 
@@ -218,7 +221,7 @@ Append-only—never edit past entries.
 - Raw sources created: [[raw/2026-05-18-pieces-cuh-rbac-permissions]], [[raw/2026-05-18-pieces-worker-status-reflections]], [[raw/2026-05-18-pieces-llm-mcp-chezmoi-config]], [[raw/2026-05-18-pieces-hermes-diagnostic-session]], [[raw/2026-05-18-pieces-brain-mcp-integration]]
 - Wiki pages touched: [[wiki/projects/Pieces-LTM]], [[wiki/projects/Obsidian-PKM]], [[wiki/projects/Token-Usage]], [[wiki/projects/Status-Reports]], [[wiki/projects/Chezmoi]], [[wiki/projects/LLMeon]]
 - Pieces IDs ingested: 109 memories
-- Flags: none—6 new project pages created (Pieces-LTM, Obsidian-PKM, Token-Usage, Status-Reports, Chezmoi, LLMeon), 5 raw notes created; existing Hermes-Agent page not updated (activity within existing scope)
+- Flags: none—6 new project pages created (Pieces-LTM, Obsidian-PKM, Token-Usage, Status-Reports, Chezmoi, LLMeon), 5 raw notes created
 
 ### 2026-05-19 13:48—Project Check-In
 
@@ -226,7 +229,7 @@ Append-only—never edit past entries.
 - Raw sources created: [[raw/2026-05-19-pieces-cuh-dp-aks-backup-terraform]], [[raw/2026-05-19-pieces-hermes-openrouter-config]]
 - Wiki pages touched: [[wiki/projects/CUH-DP AKS Backup — Terraform]]
 - Pieces IDs ingested: 65 memories
-- Flags: none—1 new project page created (CUH-DP AKS Backup—Terraform), 2 raw notes created; existing Azure AKS Backup—FTFL page not updated (today's activity is a new production phase: module v1.0.5→v1.2.6 upgrade, destructive plan remediation, FTFL-615 subnet errors)
+- Flags: none—1 new project page created (CUH-DP AKS Backup—Terraform), 2 raw notes created
 
 ---
 
@@ -290,8 +293,8 @@ Append-only—never edit past entries.
 - Raw source: [[raw/2026-05-23-research-adhd-procrastination-productivity]]
 - Wiki pages touched: [[wiki/concepts/ADHD Procrastination and Productivity]]
 - Flags: none
-- Sources: 13 key papers identified via PubMed, arXiv, Semantic Scholar. Steel (2007) meta-analysis, Bolden & Fillauer (2020) EF mediation study, Solanto & Scheres (2021) CBT-RCT, Gundogdu (2023) adolescent predictors, Hill et al. (2022) and Azeem et al. (2026) bedtime procrastination meta-analyses, Zhang et al. (2026) DBT vs CBT RCT, Gabrieli et al. (2026) EI systematic review.
-- Summary: Created comprehensive research synthesis on ADHD-related procrastination covering: temporal motivation theory, executive function mediation model (time management + organization as primary pathways), evidence-based interventions (CBT strongest, DBT for emotion dysregulation, EI training, VR body doubling, biofeedback), neurobiological basis (dopaminergic reward deficit, network instability), and 13 citations with PMIDs.
+- Sources: 13 key papers identified via PubMed, arXiv, Semantic Scholar
+- Summary: Created comprehensive research synthesis on ADHD-related procrastination covering temporal motivation theory, executive function mediation model, evidence-based interventions, neurobiological basis, and 13 citations with PMIDs.
 
 ---
 
@@ -302,7 +305,7 @@ Append-only—never edit past entries.
 - Wiki pages touched: [[wiki/projects/K8s Cluster Stress Testing with OMOP Data]], [[cicd-tooling-validated]], [[wiki/projects/Azure Entra ID IAM → IaC + PIM Migration]], [[wiki/projects/Execution Protocol for High-Friction Work]], [[wiki/projects/Hermes Config Production-Ready Audit]]
 - Pieces IDs ingested: 5 memories
 - Flags: none
-- Summary: 5 substantive Pieces assets captured in 4-hour window (from 8 assets, 3 noise filtered). Two session themes: (1) Natural Planning Model session covering 3 summer projects (K8s/OMOP stress testing, GitOps pipeline optimisation, Azure Entra IAM/IaC/PIM migration) plus break-glass account blueprint and personal execution protocol; (2) Hermes config.yaml production-ready audit with 7-phase /goal instruction set.
+- Summary: 5 substantive Pieces assets captured in 4-hour window (from 8 assets, 3 noise filtered). Two session themes: (1) Natural Planning Model session covering 3 summer projects; (2) Hermes config.yaml production-ready audit with 7-phase /goal instruction set.
 
 ---
 
@@ -313,30 +316,30 @@ Append-only—never edit past entries.
 - Wiki pages touched: [[wiki/projects/Starship-Performance-Tuning]], [[wiki/projects/Hermes-Model-Configuration]], [[wiki/projects/Hermes-TUI-Startup-Performance]]
 - Pieces IDs ingested: 12 memories
 - Flags: none
-- Summary: 22 substantive Pieces assets captured in 4-hour window (from 79 total, 57 noise filtered). Three session themes: (1) Starship prompt performance tuning—identified critical bottlenecks in starship.toml (2000ms command_timeout, unscoped k8s/azure/aws modules, missing git_status ignore_submodules); (2) Hermes model configuration—diagnosed `qwen/qwen3.5:cloud` invalid model ID error traced to stale profile YAML reference; (3) Hermes TUI startup performance—user reported 30-40+ second startup, /goal prompt composed for self-diagnosis.
+- Summary: 22 substantive Pieces assets captured in 4-hour window (from 79 total, 57 noise filtered). Three session themes: Starship prompt performance tuning, Hermes model config diagnostic, Hermes TUI startup performance.
 
 ### 2026-05-24 01:27—Daily Synthesis (Pieces LTM)
 
 - Action: Ingest (Pieces LTM) + Wiki update
-- Raw sources created: none (deduped—raw/2026-05-24-pieces-hermes-starship-config.md already existed)
+- Raw sources created: none (deduped)
 - Wiki pages touched: [[wiki/projects/Hermes Config Production-Ready Audit]]
-- Pieces IDs ingested: 2 memories (5ff9ae1f-6b69-48f2-b874-02c8d717898e config/starship snippets + STARSHIP PERFORMANCE TUNING PLAN convergence plan section)
+- Pieces IDs ingested: 2 memories
 - Flags: none
 
 ### 2026-05-24 02:00—Project Check-In
 
 - Action: Ingest (Pieces LTM)—Project Check-In cron
-- Raw sources created: 0 (all user activity already captured in existing raw notes)
-- Wiki pages touched: [[wiki/projects/Hermes Config Production-Ready Audit]]—fixed 5 broken `[[raw/pieces-config-audit]]` links → `[[raw/phermes-config-audit]]`, fixed 2 wikilinks in Connections section (Hermes Model Configuration → Hermes-Model-Configuration, Hermes TUI Startup Performance → Hermes-TUI-Startup-Performance), updated `sources` frontmatter, bumped `modified` timestamp
-- Pieces IDs ingested: 0 new (all 122 new assets were agent working notes / meta_complete / pagination directives—no substantive user-generated content)
-- Flags: 5 broken raw/ links fixed in Hermes Config Production-Ready Audit wiki page
+- Raw sources created: 0
+- Wiki pages touched: [[wiki/projects/Hermes Config Production-Ready Audit]]—fixed broken wikilinks
+- Pieces IDs ingested: 0 new
+- Flags: 5 broken raw/ links fixed
 
 ### 2026-05-24 20:15—Project Check-In
 
 - Action: Ingest (Pieces LTM)—Project Check-In cron
 - Raw sources created: [[raw/2026-05-24-pieces-starship-hermes-review.md]]
 - Wiki pages touched: [[wiki/projects/Starship-Performance-Tuning]], [[wiki/projects/Hermes Config Production-Ready Audit]]
-- Pieces IDs ingested: 8 memories (c0f950bd, 765deb6b, 2b045ae4, ce8debb5, 8bbed588, 0f61f3fc, 26fa2824, c9977711)
+- Pieces IDs ingested: 8 memories
 - Flags: none—starship fix confirmed applied, hermes config self-review prompt created
 
 ### 2026-05-24 14:32—Daily Synthesis (Project Check-In cron)
@@ -344,491 +347,617 @@ Append-only—never edit past entries.
 - Action: Ingest (Pieces LTM)—Project Check-In cron
 - Raw sources created: 0 new raw notes (all assets already ingested)
 - Wiki pages touched: [[wiki/projects/Hermes-Model-Configuration]], [[wiki/projects/Hermes Config Production-Ready Audit]]
-- Pieces IDs ingested: 0 new (88 assets found in 24h window, all duplicates of existing raw notes)
-- Flags: none—wiki pages updated with specific profile file paths (ops.yaml, jira.yaml) and Gemini blog post validation session detail
+- Pieces IDs ingested: 0 new (88 assets found in 24h window, all duplicates)
+- Flags: none—wiki pages updated with specific profile file paths and Gemini blog post validation session detail
 
 ### 2026-05-25 02:49—Project Check-In
 
 - Action: Ingest (Pieces LTM)—Project Check-In cron
-- Raw sources created: 0 new raw notes (all assets already ingested)
-- Wiki pages touched: 0 (no new facts to add)
-- Pieces IDs ingested: 0 new (33 assets found in 24h window—32 noise filtered, 1 substantive asset already in raw/2026-05-24-pieces-hermes-discovery-report.md)
-- Flags: none—4h window returned 0 results; extended to 24h per skill protocol
+- Raw sources created: 0 new raw notes
+- Wiki pages touched: 0
+- Pieces IDs ingested: 0 new
+- Flags: none—4h window returned 0 results; extended to 24h per protocol
 
 ### 2026-05-25 11:01—Project Check-In
 
 - Action: Ingest (Pieces LTM)—Project Check-In cron
 - Raw sources created: [[raw/2026-05-24-pieces-hermes-discovery-report-full]]
 - Wiki pages touched: [[wiki/projects/Hermes Config Production-Ready Audit]]
-- Pieces IDs ingested: 1 new memory (c8c5de20)—33 assets found in 24h window, 4 duplicates filtered, 11 noise filtered, 17 empty/agent-talk filtered, 1 substantive asset ingested
-- Flags: none—4h window returned 0 results; extended to 24h per skill protocol
+- Pieces IDs ingested: 1 new memory
+- Flags: none—4h window returned 0 results; extended to 24h per protocol
 
 ### 2026-05-25 15:00—Project Check-In
 
 - Action: Ingest (Pieces LTM)—Project Check-In cron
-- Raw sources created: none (no new substantive assets)
+- Raw sources created: none
 - Wiki pages touched: 0
-- Pieces IDs ingested: 0 new (33 assets found in 24h window—5 duplicates, 28 noise/short filtered, 0 substantive remain)
-- Flags: none—4h window returned 0 results; extended to 24h per skill protocol
+- Pieces IDs ingested: 0 new
+- Flags: none—4h window returned 0 results; extended to 24h per protocol
 
 ### 2026-05-25 19:25—Project Check-In
 
 - Action: Ingest (Pieces LTM)—Project Check-In cron
-- Raw sources created: none (no new substantive assets)
+- Raw sources created: none
 - Wiki pages touched: 0
-- Pieces IDs ingested: 0 new (33 assets found in 30h extended window—all IDs already in raw notes or noise/short filtered)
-- Flags: none—4h window returned 0 results; extended to 30h per skill protocol; latest Pieces activity was 2026-05-24T18:11 (~25h ago); Hermes discovery report content already fully captured in existing raw notes and wiki pages
+- Pieces IDs ingested: 0 new
+- Flags: none—4h window returned 0 results; latest Pieces activity 2026-05-24T18:11 (~25h ago)
 
 ### 2026-05-26 12:00—Project Check-In
 
 - Action: Ingest (Pieces LTM)—Project Check-In cron
 - Raw sources created: [[raw/2026-05-26-pieces-antigravity-migration]], [[raw/2026-05-26-pieces-prodos-workflow-design]], [[raw/2026-05-26-pieces-cos-work-review-jira]]
 - Wiki pages touched: [[wiki/projects/CoS-Work-Review-System]], [[wiki/projects/Antigravity-CLI-Migration]], [[wiki/projects/ProdOS-Workflow]]
-- Pieces IDs ingested: 54 new substantive assets (166 total in 4h window, 0 duplicates filtered—all new)
-- Flags: none—3 new project pages created; Node.js fetch() proxy incompatibility diagnosed (corporate VPN blocks Node native fetch but not curl); 1Password token retrieval fix identified (2>/dev/null suppressing interactive prompt)
+- Pieces IDs ingested: 54 new substantive assets (166 total in 4h window, 0 duplicates)
+- Flags: none—3 new project pages created
 
 ### 2026-05-26 14:30—Project Check-In
 
 - Action: Ingest (Pieces LTM)—Project Check-In cron
 - Raw sources created: [[raw/2026-05-26-pieces-ftfl599-ftfl638-prodos]]
 - Wiki pages touched: [[wiki/projects/Azure Backup Restore Runbook]], [[wiki/projects/Grafana Alloy Monitoring — FTFL-638]]
-- Pieces IDs ingested: 17 new substantive assets (59 total in 4h window, 0 duplicates filtered; 41 noise/short filtered)
-- Flags: none—FTFL-599 Confluence page delivered; FTFL-638 spec document received with structured task list (Phase 0 verification, values.yaml fixes for extraRelabelingRules/KSM cluster label/discoveryType); complete Cursor context prompt for FTFL-638 produced and delivered; live values.yaml (16,966 bytes) read directly; prodOS workflow recall question answered from existing knowledge
+- Pieces IDs ingested: 17 new substantive assets (59 total in 4h window, 0 duplicates; 41 noise/short filtered)
+- Flags: none—FTFL-599 Confluence page delivered; FTFL-638 spec document received
 
 ### 2026-05-26 17:30—Project Check-In
 
 - Action: Ingest (Pieces LTM)—Project Check-In cron
 - Raw sources created: [[raw/2026-05-26-pieces-ftfl638-antigravity-cursor-prompt]]
 - Wiki pages touched: [[wiki/projects/Grafana Alloy Monitoring — FTFL-638]]
-- Pieces IDs ingested: 6 new substantive assets (28 total in 4h window, 0 duplicates filtered; 22 noise/short filtered)
-- Flags: none—User requested antigravity-cli prompt for FTFL-638 Grafana Helm chart analysis across clusters; complete Cursor context prompt produced with full remediation history; new environment details captured (AKS v1.34.7, gcx v0.2.16, branch feature/FTFL-638-add-labels-for-logs)
-
-## 2026-05-27 12:55 — Daily Synthesis
-
-- **Action:** Ingest (Pieces LTM)
-- **Raw sources created:** [[raw/2026-05-27-pieces-terraform-aks-upgrade-override]], [[raw/2026-05-27-pieces-alloy-image-pull-secret]], [[raw/2026-05-27-pieces-hermes-openrouter-claude]]
-- **Wiki pages touched:** [[wiki/projects/Grafana Alloy Monitoring — FTFL-638]], [[wiki/projects/Hermes-Model-Configuration]]
-- **Wiki pages created:** [[wiki/projects/FITFILE Testing Infrastructure]], [[wiki/projects/Hermes Multi-Model Routing Strategy]]
-- **Pieces IDs ingested:** 14 substantive assets (92 total in 4h window)
-- **Flags:** none
-
-## 2026-05-27 21:30 — Daily Synthesis
-
-- **Action:** Ingest (Pieces LTM)
-- **Raw sources created:** [[raw/2026-05-27-pieces-k8s-observability]], [[raw/2026-05-27-pieces-k8s-deployment]], [[raw/2026-05-27-pieces-terraform-iac]], [[raw/2026-05-27-pieces-hermes-model-config]], [[raw/2026-05-27-pieces-mcp-tools]]
-- **Wiki pages touched:** [[wiki/projects/Grafana Alloy Monitoring — FTFL-638]], [[wiki/projects/FITFILE-Testing-Infrastructure]], [[wiki/projects/Hermes-Model-Configuration]], [[wiki/projects/MCP Proxy Robustness and High Availability]]
-- **Wiki pages created:** —
-- **Pieces IDs ingested:** 29 new substantive assets (142 total in 24h window; 43 passed noise filter)
-- **Flags:** none
-
-## 2026-05-28 14:00 — Daily Synthesis
-
-- **Action:** Ingest (Pieces LTM)
-- **Raw sources created:** [[raw/2026-05-28-pieces-ftfl638-grafana-alloy-fix]]
-- **Wiki pages touched:** [[wiki/projects/Grafana Alloy Monitoring — FTFL-638]]
-- **Pieces IDs ingested:** 14 memories
-- **Flags:** none — issue resolved (FTFL-638/FTFL-628 Grafana Monitoring in testing cluster now fixed: Alloy config parse error `action = keep` corrected to `"keep"`, ArgoCD sync `01345-xeYhP` completed successfully)
-
-## 2026-05-28 18:13 — Daily Synthesis
-
-- **Action:** Ingest (Pieces LTM)
-- **Raw sources created:** [[raw/2026-05-28-pieces-hermes-mcp-proxy-fix.md]], [[raw/2026-05-28-pieces-ftfl511-jira-ticket.md]], [[raw/2026-05-28-pieces-llmeon-repo-summary.md]]
-- **Wiki pages touched:** [[wiki/projects/MCP Proxy Robustness and High Availability]], [[wiki/projects/Hermes Config Production-Ready Audit]], [[wiki/projects/Hermes-Agent]], [[wiki/projects/Obsidian-PKM]], [[wiki/projects/Pieces-LTM]]
-- **New wiki page created:** [[wiki/projects/FTFL-511 Nginx HTTPS Hardening]]
-- **Pieces IDs ingested:** 17 memories (11 + 3 + 3 across 3 raw notes)
-- **Flags:** MCP proxy usage failure analysis — Hermes does not recognise injected native MCP tools (pattern `mcp_mcp-proxy_*`) and falls back to raw HTTP against port 8000 which always fails. A 4-tier fallback chain was designed. FTFL-511 MR !757 was declined (too heavy devops approach) — awaiting DevOps re-pick.
-
-## 2026-05-28 22:15 — Daily Synthesis (24h window)
-
-- **Action:** Ingest (Pieces LTM, 4h window returned 0 — extended to 24h)
-- **Raw sources created:** [[raw/2026-05-28-pieces-hie-aws-rdp.md]]
-- **Wiki pages touched:** [[wiki/projects/AWS SSM Session Troubleshooting]] (existing, cross-linked)
-- **New wiki page created:** [[wiki/projects/HIE AWS Cluster — RDP via Jumpbox]]
-- **Pieces IDs ingested:** 32 substantive new assets (137 new total in 24h, 17 duplicates filtered)
-- **Flags:** 4h window returned 0 results — extended to 24h per skill protocol. All other themes from today already captured in prior runs (FTFL-628/638 Grafana Alloy: done; FTFL-511 Nginx: done; Hermes config validation: done). Only uncaptured workstream: HIE AWS Jumpbox RDP runbook.
-
-## 2026-05-29 03:26 — Project Check-In
-
-- **Action:** Ingest (Pieces LTM — 4h + 24h extended window)
-- **Pieces assets found (4h):** 0
-- **Pieces assets found (24h):** 154 (35 dupes, 95 noise, 24 substantive — all already in raw/)
-- **Raw sources created:** none (all assets already ingested)
-- **Wiki pages touched:** none (no new facts to add)
-- **New project pages created:** 0
-- **Existing pages updated:** 0
-- **Flags:** none — quiet period, no activity in 4h window
-
-## 2026-05-29 06:39 — Daily Synthesis
-
-- **Action:** Ingest (Pieces LTM — 4h + 24h extended window)
-- **Pieces assets found (4h):** 0
-- **Pieces assets found (24h):** 154 filtered → 16 new (deduped) → 2 substantive
-- **Raw sources created:** [[raw/2026-05-28-pieces-hermes-config-validation.md]]
-- **Pieces IDs ingested:** 6 IDs (e987359e, 2c964efb, d7a00c51, eae1f61b, 7b9e7648, 86bf2b5e)
-- **Wiki pages touched:** [[wiki/projects/Hermes Config Production-Ready Audit]]
-- **New project pages created:** 0
-- **Existing pages updated:** 1
-- **Flags:** none
-
-## 2026-05-29 11:11 — Daily Synthesis (Project Check-In 4h)
-
-- **Action:** Ingest (Pieces LTM)
-- **Raw sources created:** [[raw/2026-05-29-pieces-ftfl-511-512-security-scan]], [[raw/2026-05-29-pieces-azure-bastion-ssh-troubleshooting]], [[raw/2026-05-29-pieces-git-tag-management]], [[raw/2026-05-29-pieces-grafana-upgrade-testing-cluster]]
-- **Wiki pages touched:** [[wiki/projects/FTFL-511-512 Security Scan]], [[wiki/projects/Azure Bastion SSH Troubleshooting]], [[wiki/projects/Git Tag Management]], [[wiki/projects/Grafana Upgrade - Testing Cluster]]
-- **Pieces IDs ingested:** 24 new memories (77 total in 4h window, 0 duplicates)
-- **Flags:** none
-
-## 2026-05-29 15:40 — Daily Synthesis
-
-- **Action:** Ingest (Pieces LTM)
-- **Raw sources created:** [[raw/2026-05-29-pieces-chezmoi-audit]], [[raw/2026-05-29-pieces-ftfl638-logs]], [[raw/2026-05-29-pieces-hermes-openrouter]]
-- **Wiki pages touched:** [[wiki/projects/Chezmoi]], [[wiki/projects/Hermes-Model-Configuration]], [[wiki/projects/Grafana Alloy Monitoring — FTFL-638]]
-- **Pieces IDs ingested:** 11 substantive assets (60 in 4h window, all new after dedup)
-- **Flags:** none
-
-## 2026-05-29 19:54 — Daily Synthesis
-
-- **Action:** Ingest (Pieces LTM) — Project Check-In
-- **Raw sources created:** [[raw/2026-05-29-pieces-ftfl638-workflow-taints]], [[raw/2026-05-29-pieces-azure-bastion-1password-ssh]]
-- **Wiki pages touched:** [[wiki/projects/Grafana Alloy Monitoring — FTFL-638]], [[wiki/projects/Azure Bastion SSH Troubleshooting]]
-- **Pieces IDs ingested:** 10 memories
-- **Flags:** none
-
-## 2026-05-30 00:08 — Daily Synthesis
-
-- **Action:** Ingest (Pieces LTM)
-- **Raw sources created:** [[raw/2026-05-30-pieces-ftfl638-tolerations-permissive.md]]
-- **Wiki pages touched:** [[wiki/projects/Grafana Alloy Monitoring — FTFL-638]]
-- **Pieces IDs ingested:** 1 memories
-- **Flags:** none
-
-## 2026-05-30 08:35 — Daily Synthesis
-
-- **Action:** Ingest (Pieces LTM) — Project Check-In (4h window)
-- **Raw sources created:** [[raw/2026-05-30-pieces-ftfl638-scheduling-regression]], [[raw/2026-05-30-pieces-hermes-mcp-config]], [[raw/2026-05-30-pieces-mcp-proxy-architecture]]
-- **Wiki pages touched:** [[wiki/projects/Grafana Alloy Monitoring — FTFL-638]], [[wiki/projects/Hermes Config Production-Ready Audit]], [[wiki/projects/MCP Proxy Robustness and High Availability]]
-- **Pieces IDs ingested:** 22 memories
-- **Flags:** none
-
-## 2026-05-30 09:08 — Knowledge Consolidation: Three Polymaths
-
-- **Action:** SoT-upgrade (HEAD note → atomic concept note)
-- **HEAD note updated:** `20_Thinking/21_Workbench/HEAD Three Polymaths Three Lessons.md`
-- **Changes:** Stripped raw Q&A wrapper; restructured as `type: concept` SoT note with atomic sections (al-Haytham/Steelmanning, Leibniz/Notation, Feynman/12 Problems); added typed wikilinks to IOED, schema theory, mental representations, brain learning processes; added Open Threads.
-- **Triad search:** Zero semantic duplicates. Related: IOED (supports), schema theory (broader), mental representations (broader), brain learning (broader).
-- **Flags:** none — no data loss. Duplicate-topic risk: `HEAD an "illusion of mastery".md` overlaps IOED territory — future dedup recommended.
-
-## 2026-05-30 12:57 — Daily Synthesis
-
-- **Action:** Ingest (Pieces LTM) — Project Check-In (4h cron)
-- **Raw sources created:** [[raw/2026-05-30-pieces-hermes-model-routing-chezmoi]], [[raw/2026-05-30-pieces-mcp-proxy-pkm-fix]]
-- **Wiki pages touched:** [[wiki/projects/Hermes-Multi-Model-Routing-Strategy]], [[wiki/projects/MCP Proxy Robustness and High Availability]]
-- **Pieces IDs ingested:** 69 substantive assets (from 231 in 4h window, 0 duplicates)
-- **Flags:** none
-
-## 2026-05-30 22:01 — Daily Synthesis
-
-- **Action:** Ingest (Pieces LTM)
-- **Raw sources created:** [[raw/2026-05-30-pieces-ftfl638-cpu-saturation]]
-- **Wiki pages touched:** [[wiki/projects/Grafana Alloy Monitoring — FTFL-638]]
-- **Pieces IDs ingested:** 1 new memory (5 new substantive assets found in 24h window, 4 were agent noise or user requests)
-- **Flags:** none
-- **Note:** Zero assets in the 4-hour window. Extended to 24h captured 1 new substantive finding: CPU request saturation on workflow node (3852m/3860m, 99% saturated). User also asked about Hermes model routing (separate request, not source material).
-
-## 2026-05-31 01:11 — Daily Synthesis
-
-- **Action:** Ingest (Pieces LTM)
-- **Raw sources created:** none
-- **Wiki pages touched:** none
-- **Pieces IDs ingested:** 0 new memories
-- **Flags:** none
-- **Note:** Zero assets in 4-hour window. Last activity in Pieces dates to August 2025 (~10 months ago). No truly recent work captured. Suppressed report.
-
-## 2026-05-31 18:38 — Daily Synthesis
-
-- **Action:** Ingest (Pieces LTM)
-- **Raw sources created:** none
-- **Wiki pages touched:** none
-- **Pieces IDs ingested:** 0 memories
-- **Flags:** no new Pieces activity — last asset 2026-05-30T12:56Z (~28h ago)
-
-## 2026-05-31 21:41 — Daily Synthesis
-
-- **Action:** Ingest (Pieces LTM)
-- **Raw sources created:** none
-- **Wiki pages touched:** none
-- **Pieces IDs ingested:** 0 memories
-- **Flags:** no new Pieces activity — last asset 2026-05-30T12:56Z (~33h ago)
-
-## 2026-06-01 02:44 — Daily Synthesis
-
-- **Action:** Ingest (Pieces LTM)
-- **Raw sources created:** none
-- **Wiki pages touched:** none
-- **Pieces IDs ingested:** 0 memories
-- **Flags:** no new Pieces activity — last asset 2026-05-30T12:56Z (~37h ago)
-
-## 2026-06-01 05:49 — Daily Synthesis
-
-- **Action:** Ingest (Pieces LTM)
-- **Raw sources created:** none
-- **Wiki pages touched:** none
-- **Pieces IDs ingested:** 0 memories
-- **Flags:** Pieces dormant — newest asset 2026-05-30T12:56 UTC (41h ago). 4h/24h windows returned 0. Extended to 48h: 357 assets found, 96 substantive after noise filter, only 7 new after dedup (1,683 existing IDs). All 7 new assets were agent self-talk or user-authored prompts — no captured user activity (terminal, URLs, code). Exit [SILENT].
-
-## 2026-06-01 15:00 — Daily Synthesis (Project Check-In, cron/4h)
-
-- **Action:** Ingest (Pieces LTM)
-- **Raw sources created:** [[raw/2026-06-01-pieces-nginx-ingress-webhook-fix]]
-- **Wiki pages touched:** [[wiki/projects/NGINX Ingress Admission Webhook Fix]]
-- **Pieces IDs ingested:** 6 memories (out of 10 in 4h window, 6 substantive after noise filter, 0 duplicates)
-- **Flags:** none — 1 new project page created.
-
-## 2026-06-01 23:00 — Daily Synthesis
-
-- **Action:** Ingest (Pieces LTM)
-- **Raw sources created:** [[raw/2026-06-01-pieces-ftfl-511-tls-cipher-remediation]], [[raw/2026-06-01-pieces-ftfl-512-nginx-infodisclosure]], [[raw/2026-06-01-pieces-argocd-sandbox-sync]]
-- **Wiki pages touched:** [[wiki/projects/FTFL-511 Nginx HTTPS Hardening]], [[wiki/projects/FTFL-511-512 Security Scan]], [[wiki/projects/FTFL-512 Nginx Security]]
-- **Pieces IDs ingested:** 58 new assets (from 64 substantive, 164 in 24h window)
-- **Flags:** none
-
-## 2026-06-02 02:12 — Daily Synthesis
-
-- **Action:** Ingest (Pieces LTM) — Project Check-In mode
-- **Raw sources created:** [[raw/2026-06-01-pieces-ftfl-511-tls-retest]], [[raw/2026-06-01-pieces-argocd-ingress-investigation]]
-- **Wiki pages touched:** [[wiki/projects/NGINX Ingress Admission Webhook Fix]], [[wiki/projects/FTFL-511 Nginx HTTPS Hardening]]
-- **Pieces IDs ingested:** 48 new substantive assets (from 64 total in 24h window; 16 already cited in wiki)
-- **Flags:** none. All new assets from 2026-06-01; prior synthesis runs had ingested the raw notes but had not extracted these into wiki page citations. This run back-filled 22 new Key Facts into NGINX Ingress page and updated FTFL-511 with retest session data.
-
-## 2026-06-02 06:45 — Daily Synthesis
-
-- **Action:** Ingest (Pieces LTM)
-- **Raw sources created:** [[raw/2026-06-01-pieces-argocd-nginx-a]], [[raw/2026-06-01-pieces-argocd-nginx-b]], [[raw/2026-06-01-pieces-network-security-scan]]
-- **Wiki pages touched:** [[wiki/projects/NGINX Ingress Admission Webhook Fix]]
-- **Pieces IDs ingested:** 64 memories
-- **Flags:** none
-
-## 2026-06-02 10:51 — Daily Synthesis
-
-- **Action:** Ingest (Pieces LTM)
-- **Raw sources created:** [[raw/2026-06-02-pieces-fitfile-node-privacy-architecture]]
-- **Wiki pages touched:** [[wiki/projects/FITFILE-Node-Privacy-Architecture]]
-- **Pieces IDs ingested:** 3 memories
-- **Flags:** none
-
-## 2026-06-02 15:11 — Project Check-In (cron/4h)
-
-- **Action:** Ingest (Pieces LTM) — check-in only
-- **Raw sources created:** none
-- **Wiki pages touched:** none
-- **Pieces IDs queried:** 5 (24h window, extended from 4h=0)
-- **Substantive after filter:** 3 (all duplicates — already in raw/2026-06-02-pieces-fitfile-node-privacy-architecture.md)
-- **Flags:** same-day double run; wiki page FITFILE-Node-Privacy-Architecture already modified today; no new facts; [SILENT]
-
-## 2026-06-02 19:00 — Daily Synthesis (Project Check-In)
-
-- **Action:** Ingest (Pieces LTM) — 4h window = 0 assets, extended to 24h
-- **24h assets found:** 5 total, 3 substantive, all 3 duplicates (already in raw/)
-- **Raw sources created:** 0 (all assets already ingested)
-- **Wiki pages touched:** 0 (FITFILE-Node-Privacy-Architecture already current, modified today)
-- **Pieces IDs ingested:** 0 new (3 duplicates skipped)
-- **Flags:** none — all recent activity already synthesized; wiki pages up to date
-
-## 2026-06-02 23:30 — Project Check-In
-
-- **Action:** Ingest (Pieces LTM) — 4h window extended to 24h
-- **Raw sources created:** none (all 3 substantive assets already ingested in raw/2026-06-02-pieces-fitfile-node-privacy-architecture.md)
-- **Wiki pages touched:** none (FITFILE-Node-Privacy-Architecture.md already current, modified: 2026-06-02)
-- **Pieces IDs ingested:** 0 new (3 duplicates: b2cfd536, 66a5cedf, 98b9c075)
-- **Assets found:** 5 in 24h window, 3 substantive, 0 new
-- **Flags:** none — same-day re-synthesis, all content already processed
-- **Exit:** SILENT (0 new raw notes, 0 wiki pages modified)
-
-## 2026-06-03 03:30 — Daily Synthesis
-
-- **Action:** Ingest (Pieces LTM) — Project Check-In (4h window)
-- **Raw sources created:** none (all duplicates)
-- **Wiki pages touched:** none (all already current)
-- **Pieces IDs ingested:** 5 assets found in 24h extension (3 substantive, 2 noise), all 3 substantive already in raw/
-- **Flags:** none — Pieces inactive in 4h window; 24h extension found only already-processed FITFILE Node session from 2026-06-02
-
-## 2026-06-03 12:00 — Daily Synthesis
-
-- **Action:** Ingest (Pieces LTM)
-- **Raw sources created:** [[raw/2026-06-03-pieces-ftfl673-grafana-deploy-all-envs]]
-- **Wiki pages touched:** [[FTFL-673 Grafana Deploy All Envs]], [[wiki/projects/Grafana Alloy Monitoring — FTFL-638]]
-- **Pieces IDs ingested:** 5 memories
-- **Flags:** none
-
-## 2026-06-05 10:00 — Project Check-In (cron/4h)
-
-- **Action:** Ingest — Project Check-In (cron/4h)
-- **Pieces LTM:** Unavailable (expected in cron context — no MCP tools injected)
-- **Inbox items found (fallback):** 4 files modified in last 4h
-  - [[raw/2026-06-05-fitfile-loki-prometheus-cardinality-audit]] (full audit report, 383 lines)
-  - 3x pieces_copilot_message_export exports (Pieces context dumps)
-- **Wiki pages touched:** [[wiki/projects/gcx CLI — FITFILE Grafana Stacks]] (updated with audit findings, open questions resolved)
-- **New project pages created:** 0 (all activity is extension of existing gcx CLI project)
-- **Flags:** Adaptive Telemetry APIs blocked by expired Grafana Cloud token; `fitfileprod` stack not configured in gcx config; `pod: null` SM override not working on testing cluster
-
-## 2026-06-04 08:00 — Daily Synthesis
-
-- **Action:** Ingest (Pieces LTM)
-- **Raw sources created:** [[raw/2026-06-03-pieces-k8s-argocd-bootstrapping]], [[raw/2026-06-03-pieces-omop-azure-storage]]
-- **Wiki pages touched:** [[wiki/projects/Kubernetes-Cluster-Bootstrapping]] (new), [[wiki/projects/12 Million Patient Synthetic NHS-OMOP Pipeline]] (updated with Azure storage details)
-- **Pieces IDs ingested:** 6 substantive assets (from 63 in 24h window, 5 duplicates filtered)
-
-## 2026-06-06 07:45 — Project Check-In (cron/4h)
-
-- **Action:** Ingest (Pieces LTM)
-- **Pieces LTM:** 10,570 total assets. 0 assets in 4h window; extended to 24h → 98 assets.
-- **Noise filter:** 90 filtered (agent reflections, meta_complete, evaluator instructions, empty workstream summaries) → 8 substantive
-- **Deduplication:** 0 duplicates — all 98 are new IDs (no prior raw note ingestion)
-- **Raw sources created:**
-  - [[raw/2026-06-06-pieces-ffnode-helm-chart-review]] — ffnode chart review workstream: Claude Code prompt for template analysis, library chart assessment, VSO bug audit
-  - [[raw/2026-06-05-pieces-ftfl658-terraform-spike]] — FTFL-658 MKUH Terraform failure spike: root cause, drift analysis, rollout plan
-  - [[raw/2026-06-05-pieces-gk-issue-list-format]] — GitKraken `gk issue list` output format investigation
-- **New project pages created:** 1
-  - [[wiki/projects/ffnode Helm Chart Review]] — Complexity & library chart assessment for the ffnode umbrella Helm chart
-- **Wiki pages touched:** None (existing project pages had no new claims from this window's substantive assets)
-- **Flags:** None
-
+- Pieces IDs ingested: 6 new substantive assets (28 total in 4h window, 0 duplicates; 22 noise/short filtered)
+- Flags: none—User requested antigravity-cli prompt for FTFL-638
 
 ---
 
-## 2026-06-08 11:00 — Project Check-In
-
-- **Action:** Ingest (Pieces LTM, last 4h)
-- **Raw sources created:** [[raw/2026-06-08-pieces-helm-structured-metadata]]
-- **Wiki pages created:** [[wiki/projects/Helm Chart Structured Metadata — Grafana Cloud Log Enrichment]]
-- **Wiki pages updated:** [[wiki/projects/ffnode Helm Chart Review]], [[wiki/projects/Grafana Alloy Monitoring — FTFL-638]]
-- **Pieces IDs ingested:** 67 new substantive (176 total in window)
-- **Flags:** none
+---
 
 ---
 
-## 2026-06-08 19:22 — Project Check-In
-
-- **Action:** Ingest (Pieces LTM, last 4h)
-- **Raw sources created:** [[raw/2026-06-08-pieces-fitfile-frontend-cohort-discovery]]
-- **Wiki pages created:** [[wiki/projects/FITFILE Frontend — Cohort Discovery]]
-- **Wiki pages updated:** [[wiki/projects/FITFILE-Testing-Infrastructure]], [[wiki/projects/gcx CLI — FITFILE Grafana Stacks]], [[wiki/projects/FITFILE-Node-Privacy-Architecture]] (bidirectional links added)
-- **Pieces IDs ingested:** 3 substantive (27 in 4h window)
-- **Flags:** None
-
-## 2026-06-09 03:35 — Project Check-In (cron/4h)
-
-- **Action:** Ingest (Pieces LTM)
-- **Raw sources created:** [[raw/2026-06-08-pieces-fitfile-deployment-wiki]]
-- **Wiki pages touched:** [[wiki/projects/FITFILE Deployment — ArgoCD + Helm]] (new), [[wiki/projects/ffnode Helm Chart Review]] (back-link), [[cicd-tooling-validated]] (back-link)
-- **Pieces IDs ingested:** 3 deployment wiki assets (of 84 new substantive non-dup assets found; 81 skipped as agent working notes from already-captured sessions)
-- **Flags:** Pieces active (newest asset ~8.7h old). 4h window returned 0 assets — extended to 24h. 3 deployment wiki assets captured as new project. 2 existing pages updated with bidirectional links.
-
-## 2026-06-09 03:35 — Project Check-In (cron/4h)
-
-- **Action:** Ingest (Pieces LTM)
-- **Raw sources created:** [[raw/2026-06-08-pieces-fitfile-deployment-wiki]]
-- **Wiki pages touched:** [[wiki/projects/FITFILE Deployment — ArgoCD + Helm]] (new), [[wiki/projects/ffnode Helm Chart Review]] (back-link), [[cicd-tooling-validated]] (back-link)
-- **Pieces IDs ingested:** 3 deployment wiki assets (of 84 new substantive non-dup assets found; 81 skipped as agent working notes from already-captured sessions)
-- **Flags:** Pieces active (newest asset ~8.7h old). 4h window returned 0 assets — extended to 24h. 3 deployment wiki assets captured as new project. 2 existing pages updated with bidirectional links.
-
-
-## 2026-06-10 12:21 --- Project Check-In (cron/4h)
-
-- **Action:** Ingest (Pieces LTM)
-- **Pieces LTM:** 11,064 total assets. 43 assets in 4h window, all new (not yet ingested).
-- **Raw sources created:** [[raw/2026-06-10-pieces-cos-cron-fix-ftfl658-comment]]
-- **New project pages created:** 0 --- both workstreams map to existing projects
-- **Wiki pages updated:** [[wiki/projects/CoS-Work-Review-System]] --- added Reliability History section
-  (7-8 stale run streak, root causes, XDG_DATA_HOME fix, durable PAT direction)
-- **Pieces IDs ingested:** 43 (all 4h window assets, written to single consolidated raw note)
-- **Workstreams:** (1) CoS Work Review cron auth fix; (2) FTFL-658 Jira comment drafted
-- **Flags:** None
-
-## 2026-06-10 17:40 — Project Check-In (cron/4h)
-
-- **Action:** Ingest (session_search fallback — Pieces LTM compaction error)
-- **Raw sources created:** [[raw/2026-06-10-pieces-ftfl609-ebs-csi-starter-task]]
-- **Wiki pages touched:** [[wiki/projects/FTFL-609 EBS CSI Driver Managed Policies Migration]] (new — pending from 16:34 check-in)
-- **Pieces IDs ingested:** 3 (from session_search-reconstructed FTFL-609 session: `2d9a335e`, `71a4e746`, `40673b4f`)
-- **Flags:** Pieces LTM compaction error persists (pinned prefix exceeds budget). No new user projects since 16:34 check-in. FTFL-609 project page completed (was incomplete from previous run).
-
-## 2026-06-11 17:07 — Project Check-In (cron/4h)
+## 2026-06-24 15:30 — Project Check-In (cron/4h)
 
 - **Action:** Ingest (Pieces OS REST API — `http://localhost:39300/messages`)
-- **Raw sources created:** none — no new project work identified
-- **Wiki pages touched:** none — all three work threads map to existing pages
-- **Pieces IDs ingested:** 13 (all agent chat fragments in 4h window, 0 workstream summaries)
-- **Workstreams identified:**
-  - (A) 09:24 — AKS upgrade "what needs doing?" investigation → [[wiki/projects/Azure-AKS]]
-  - (B) 09:57 — CI/CD Pipeline State Report → [[cicd-tooling-validated]]
-  - (C) 13:20 — Stress Test Plan "Phase 0" lookup → [[wiki/projects/K8s Cluster Stress Testing with OMOP Data]]
-- **Flags:** None — no new projects, no new raw notes needed. Pieces OS healthy (REST API reachable, 13 assets scanned). No compaction errors this run.
-
-## 2026-06-12 08:50 — Project Check-In (cron/4h)
-
-- **Action:** Ingest (Pieces OS REST API — `http://localhost:39300/messages`)
-- **Raw sources created:** [[raw/2026-06-12-pieces-ffnode-mcp-proxy]]
-- **Wiki pages created:** [[wiki/projects/FFNode Stress Testing — FTFL-500]]
-- **Wiki pages updated:** [[wiki/projects/MCP Proxy Robustness and High Availability]]
-- **Pieces IDs ingested:** 23 (in 4h window; 26 substantive after noise filter, 23 unique to this raw note)
-- **Workstreams identified:**
-  - (A) 07:47 — FTFL-500 FFNode Stress Testing Jira planning → [[wiki/projects/FFNode Stress Testing — FTFL-500]] (NEW)
-  - (B) 08:40 — MCP Proxy debugging Claude Code prompt → [[wiki/projects/MCP Proxy Robustness and High Availability]] (updated)
-- **Flags:** Pieces OS healthy (REST API reachable, 65 assets scanned in 4h window, 26 substantive after noise filter). No compaction errors.
-
-## 2026-06-12 12:58 — Project Check-In (cron/4h)
-
-- **Action:** Ingest (Pieces OS REST API — `http://localhost:39300/messages`)
-- **Raw sources created:** none — all activity maps to existing raw notes
-- **Wiki pages touched:** none — both workstreams map to existing project pages
-- **Pieces IDs ingested:** 37 (in 4h window; all from one MCP Proxy research session with multiple reflection/pagination cycles)
-- **Workstreams identified:**
-  - (A) 09:00-10:15 — MCP Proxy alternative solutions research → [[wiki/projects/MCP Proxy Robustness and High Availability]] (exists, updated at 08:50)
-  - (B) 07:47-08:34 — FFNode Stress Testing Jira planning → [[wiki/projects/FFNode Stress Testing — FTFL-500]] (exists, created at 08:50)
-- **Flags:** No new projects detected. 37 assets from a single Hermes session (MCP proxy research) — high density but single thread. Pieces OS healthy (REST API reachable). CoS runs show consistent state: 7 open Jira issues, top priority FTFL-525 unchanged.
-
-  ## 2026-06-13 05:12 — Project Check-In (cron/4h)
-
-  - **Action:** Ingest (Pieces OS REST API — `http://localhost:39300/messages`)
-  - **Raw sources created:** none
-  - **Wiki pages touched:** none
-  - **Pieces IDs ingested:** 0 (in 4h window); 127 in 24h window but all outside the check-in window
-  - **Workstreams identified:** none in 4h window
-  - **Flags:**
-    - Zero Pieces assets in the 4-hour window (last user activity at 2026-06-12 14:46 UTC; user stopped work yesterday)
-    - Pre-existing coverage gaps detected: high-use Obsidian `project_name` values lacking wiki project pages — `Bessie` (30 notes), `Refined Deployment` (25 notes), `Core` (9 notes), `Deployments` (8 notes)
-    - Cron job prompt still references `daily-synthesis` skill which does not exist; should reference `pkm-obsidian` → `references/project-check-in-workflow.md` instead
-## 2026-06-15 10:00 — Project Check-In (cron/4h)
-
-- **Action:** Ingest (Pieces OS REST API — `http://localhost:39300/messages`)
-- **Raw sources created:** [[raw/2026-06-15-pieces-fitfile-cd-decision-document]]
-- **Wiki pages created:** [[GitLab CI integration]]
-- **Wiki pages updated:** [[wiki/projects/FITFILE Deployment — ArgoCD + Helm]]
-- **Pieces IDs ingested:** 2 (substantive after noise filter; 30 total in 4h window, 28 noise-filtered: SYSTEM_ERROR, SYSTEM_COMPLETION, SYSTEM_TOOL_CALL, SYSTEM_THINKING reflections, and one cron self-query)
-- **Workstreams identified:**
-  - (A) 08:44-09:00 — FITFILE CI/CD Continuous Delivery Philosophy Decision and Commitment (team sign-off document for CD philosophy) → [[GitLab CI integration]] (NEW)
-- **Flags:** Pieces OS healthy (REST API reachable, 11340 total assets). No compaction error. Preceding run (02:58) went [SILENT] but P11 exception applies (N=30 > 0).
-## 2026-06-15 15:12 — Project Check-In (cron/4h)
-
-- **Action:** Ingest (Pieces OS REST API — `http://localhost:39300/messages`)
-- **Raw sources created:** [[raw/2026-06-15-pieces-ffnode-refinement-pre-tickets]]
+- **Raw sources created:** [[raw/2026-06-24-pieces-ftfl-464-calico-cloud-cleanup]]
 - **Wiki pages created:** none
-- **Wiki pages updated:** [[wiki/projects/FFNode Stress Testing — FTFL-500]]
-- **Pieces IDs ingested:** 16 (substantive after noise filter; 54 total in 4h window, 38 noise-filtered: empty-body pagination, meta_complete, reflections, SYSTEM_THINKING, cron self-queries)
+- **Wiki pages updated:** [[wiki/projects/Azure-AKS]] (added FTFL-464 Calico Cloud investigation to Timeline), [[wiki/projects/HIE AWS Cluster — RDP via Jumpbox]] (added eoe-sde-codisc cleanup milestone to Timeline)
+- **Pieces assets in DB:** 12,007
+- **In 4h window:** 163 (11:30–15:30 UTC; 63 substantive after noise filter; 100 noise — SYSTEM_COMPLETION/SYSTEM_ERROR roles, agent self-talk)
 - **Workstreams identified:**
-  - (A) 14:03-14:08 — FFNode Stress Testing refinement meeting: Oliver Rushton proposes Phase00 (Node + DB setup) + cohort design pre-tickets → [[wiki/projects/FFNode Stress Testing — FTFL-500]] (updated with new Key Facts, Timeline entries)
-  - (B) 11:05-11:16 — Sleuth DORA tracking research and audit → [[GitLab CI integration]] (already covered by existing wiki/2026-06-15-sleuth-dora-audit.md)
-- **Flags:** No new projects detected. Both threads map to existing wiki pages. Sleuth DORA research already captured in wiki note (2026-06-15-sleuth-dora-audit.md). Preceding CoS run (14:01) did not go [SILENT] — proceeded normally.
-|## 2026-06-15 18:42 — Project Check-In (cron/4h)
+  - (A) 13:35–15:18 UTC — **FTFL-464 Calico Cloud Cleanup**: investigated Tigera Calico Cloud on CUH AKS cluster, then executed cleanup on eoe-sde-codisc EKS cluster. All 17 Cloud namespaces removed — clean state achieved, CNI healthy. Drafted Jira ticket comment. → maps to [[wiki/projects/Azure-AKS]] and [[wiki/projects/HIE AWS Cluster — RDP via Jumpbox]] (existing pages, updated)
+  - (B) 11:48–12:01 UTC — **Rust-chart-manager Refactor**: personal research, test coverage plan. → completed spike (no page created)
+  - (C) 15:16 UTC — **AWS HIE SDE Cluster Cleanup Ticket**: drafting Jira ticket comment for SDE cleanup. → maps to existing HIE AWS page
+- **Flags:** No new projects detected. P11 (preceding run was SILENT-appended report) → P14 conditions partially met but N > 0 (4 new conversations, 63 substantive assets) — full evaluation performed. Pieces OS healthy (REST API `ok`). CoS at 15:01 couldn't query Pieces (timeout) — this run captured the ambient context the CoS missed.
+
+## 2026-06-23 23:04 — Project Check-In (cron/4h)
 
 - **Action:** Ingest (Pieces OS REST API — `http://localhost:39300/messages`)
 - **Raw sources created:** none
 - **Wiki pages created:** none
 - **Wiki pages updated:** none
-- **Pieces assets in DB:** 11,415
-- **In 4h window:** 21 (14:44–18:44 UTC; 12 substantive after noise filter)
-- **Noise-filtered:** 9 (meta_complete, reflection markers, empty-body fragments)
+- **Pieces assets in DB:** 11,818
+- **In 4h window:** 3 (all artifacts of cron job's own `pieces ask` query at 22:57 — 1 USER, 1 SYSTEM_COMPLETION, 1 SYSTEM_ERROR)
+- **Latest real user asset:** 2026-06-23T08:42:52Z (~14h ago — FTFL-464 "Message Saved As Workstream Summary")
+- **Vault files modified in window:** 1 (log.md — this entry). No user-authored content changes.
+- **Workstreams identified:** None via Pieces or vault. FTFL-464 stable in Ready for Review; daily journal shows quiet afternoon with no new signals since 14:01.
+- **Flags:** No new projects detected. Pieces OS healthy (REST API `ok`, 11,818 total assets, +27 system artifacts since 18:53). Day appears to have wound down after 17:32 CoS.
+
+## 2026-05-27 12:55 — Daily Synthesis
+
+- Action: Ingest (Pieces LTM)
+- Raw sources created: [[raw/2026-05-27-pieces-terraform-aks-upgrade-override]], [[raw/2026-05-27-pieces-alloy-image-pull-secret]], [[raw/2026-05-27-pieces-hermes-openrouter-claude]]
+- Wiki pages touched: [[wiki/projects/Grafana Alloy Monitoring — FTFL-638]], [[wiki/projects/Hermes-Model-Configuration]]
+- Wiki pages created: [[wiki/projects/FITFILE Testing Infrastructure]], [[wiki/projects/Hermes Multi-Model Routing Strategy]]
+- Pieces IDs ingested: 14 substantive assets (92 total in 4h window)
+- Flags: none
+
+## 2026-05-27 21:30 — Daily Synthesis
+
+- Action: Ingest (Pieces LTM)
+- Raw sources created: [[raw/2026-05-27-pieces-k8s-observability]], [[raw/2026-05-27-pieces-k8s-deployment]], [[raw/2026-05-27-pieces-terraform-iac]], [[raw/2026-05-27-pieces-hermes-model-config]], [[raw/2026-05-27-pieces-mcp-tools]]
+- Wiki pages touched: [[wiki/projects/Grafana Alloy Monitoring — FTFL-638]], [[wiki/projects/FITFILE-Testing-Infrastructure]], [[wiki/projects/Hermes-Model-Configuration]], [[wiki/projects/MCP Proxy Robustness and High Availability]]
+- Wiki pages created: —
+- Pieces IDs ingested: 29 new substantive assets (142 total in 24h window; 43 passed noise filter)
+- Flags: none
+
+## 2026-05-28 14:00 — Daily Synthesis
+
+- Action: Ingest (Pieces LTM)
+- Raw sources created: [[raw/2026-05-28-pieces-ftfl638-grafana-alloy-fix]]
+- Wiki pages touched: [[wiki/projects/Grafana Alloy Monitoring — FTFL-638]]
+- Pieces IDs ingested: 14 memories
+- Flags: none — issue resolved (FTFL-638/FTFL-628 Grafana Monitoring in testing cluster now fixed)
+
+## 2026-05-28 18:13 — Daily Synthesis
+
+- Action: Ingest (Pieces LTM)
+- Raw sources created: [[raw/2026-05-28-pieces-hermes-mcp-proxy-fix.md]], [[raw/2026-05-28-pieces-ftfl511-jira-ticket.md]], [[raw/2026-05-28-pieces-llmeon-repo-summary.md]]
+- Wiki pages touched: [[wiki/projects/MCP Proxy Robustness and High Availability]], [[wiki/projects/Hermes Config Production-Ready Audit]], [[wiki/projects/Hermes-Agent]], [[wiki/projects/Obsidian-PKM]], [[wiki/projects/Pieces-LTM]]
+- New wiki page created: [[wiki/projects/FTFL-511 Nginx HTTPS Hardening]]
+- Pieces IDs ingested: 17 memories
+- Flags: MCP proxy usage failure analysis, FTFL-511 MR !757 declined
+
+## 2026-05-28 22:15 — Daily Synthesis (24h window)
+
+- Action: Ingest (Pieces LTM, 4h window returned 0 — extended to 24h)
+- Raw sources created: [[raw/2026-05-28-pieces-hie-aws-rdp.md]]
+- Wiki pages touched: [[wiki/projects/AWS SSM Session Troubleshooting]]
+- New wiki page created: [[wiki/projects/HIE AWS Cluster — RDP via Jumpbox]]
+- Pieces IDs ingested: 32 substantive new assets (137 new total in 24h, 17 duplicates filtered)
+- Flags: 4h window returned 0 results — extended to 24h
+
+## 2026-05-29 03:26 — Project Check-In
+
+- Action: Ingest (Pieces LTM — 4h + 24h extended window)
+- Pieces assets found (4h): 0
+- Pieces assets found (24h): 154 (35 dupes, 95 noise, 24 substantive — all already in raw/)
+- Raw sources created: none
+- Wiki pages touched: none
+- New project pages created: 0
+- Existing pages updated: 0
+- Flags: none — quiet period
+
+## 2026-05-29 06:39 — Daily Synthesis
+
+- Action: Ingest (Pieces LTM — 4h + 24h extended window)
+- Pieces assets found (4h): 0
+- Pieces assets found (24h): 154 filtered → 16 new (deduped) → 2 substantive
+- Raw sources created: [[raw/2026-05-28-pieces-hermes-config-validation.md]]
+- Pieces IDs ingested: 6 IDs
+- Wiki pages touched: [[wiki/projects/Hermes Config Production-Ready Audit]]
+- New project pages created: 0
+- Existing pages updated: 1
+- Flags: none
+
+## 2026-05-29 11:11 — Daily Synthesis (Project Check-In 4h)
+
+- Action: Ingest (Pieces LTM)
+- Raw sources created: [[raw/2026-05-29-pieces-ftfl-511-512-security-scan]], [[raw/2026-05-29-pieces-azure-bastion-ssh-troubleshooting]], [[raw/2026-05-29-pieces-git-tag-management]], [[raw/2026-05-29-pieces-grafana-upgrade-testing-cluster]]
+- Wiki pages touched: [[wiki/projects/FTFL-511-512 Security Scan]], [[wiki/projects/Azure Bastion SSH Troubleshooting]], [[wiki/projects/Git Tag Management]], [[wiki/projects/Grafana Upgrade - Testing Cluster]]
+- Pieces IDs ingested: 24 new memories (77 total in 4h window, 0 duplicates)
+- Flags: none
+
+## 2026-05-29 15:40 — Daily Synthesis
+
+- Action: Ingest (Pieces LTM)
+- Raw sources created: [[raw/2026-05-29-pieces-chezmoi-audit]], [[raw/2026-05-29-pieces-ftfl638-logs]], [[raw/2026-05-29-pieces-hermes-openrouter]]
+- Wiki pages touched: [[wiki/projects/Chezmoi]], [[wiki/projects/Hermes-Model-Configuration]], [[wiki/projects/Grafana Alloy Monitoring — FTFL-638]]
+- Pieces IDs ingested: 11 substantive assets (60 in 4h window, all new after dedup)
+- Flags: none
+
+## 2026-05-29 19:54 — Daily Synthesis
+
+- Action: Ingest (Pieces LTM) — Project Check-In
+- Raw sources created: [[raw/2026-05-29-pieces-ftfl638-workflow-taints]], [[raw/2026-05-29-pieces-azure-bastion-1password-ssh]]
+- Wiki pages touched: [[wiki/projects/Grafana Alloy Monitoring — FTFL-638]], [[wiki/projects/Azure Bastion SSH Troubleshooting]]
+- Pieces IDs ingested: 10 memories
+- Flags: none
+
+## 2026-05-30 00:08 — Daily Synthesis
+
+- Action: Ingest (Pieces LTM)
+- Raw sources created: [[raw/2026-05-30-pieces-ftfl638-tolerations-permissive.md]]
+- Wiki pages touched: [[wiki/projects/Grafana Alloy Monitoring — FTFL-638]]
+- Pieces IDs ingested: 1 memories
+- Flags: none
+
+## 2026-05-30 08:35 — Daily Synthesis
+
+- Action: Ingest (Pieces LTM) — Project Check-In (4h window)
+- Raw sources created: [[raw/2026-05-30-pieces-ftfl638-scheduling-regression]], [[raw/2026-05-30-pieces-hermes-mcp-config]], [[raw/2026-05-30-pieces-mcp-proxy-architecture]]
+- Wiki pages touched: [[wiki/projects/Grafana Alloy Monitoring — FTFL-638]], [[wiki/projects/Hermes Config Production-Ready Audit]], [[wiki/projects/MCP Proxy Robustness and High Availability]]
+- Pieces IDs ingested: 22 memories
+- Flags: none
+
+## 2026-05-30 09:08 — Knowledge Consolidation: Three Polymaths
+
+- Action: SoT-upgrade (HEAD note → atomic concept note)
+- HEAD note updated: `20_Thinking/21_Workbench/HEAD Three Polymaths Three Lessons.md`
+- Changes: Stripped raw Q&A wrapper; restructured as `type: concept` SoT note with atomic sections
+- Flags: none
+
+## 2026-05-30 12:57 — Daily Synthesis
+
+- Action: Ingest (Pieces LTM) — Project Check-In (4h cron)
+- Raw sources created: [[raw/2026-05-30-pieces-hermes-model-routing-chezmoi]], [[raw/2026-05-30-pieces-mcp-proxy-pkm-fix]]
+- Wiki pages touched: [[wiki/projects/Hermes-Multi-Model-Routing-Strategy]], [[wiki/projects/MCP Proxy Robustness and High Availability]]
+- Pieces IDs ingested: 69 substantive assets (from 231 in 4h window, 0 duplicates)
+- Flags: none
+
+## 2026-05-30 22:01 — Daily Synthesis
+
+- Action: Ingest (Pieces LTM)
+- Raw sources created: [[raw/2026-05-30-pieces-ftfl638-cpu-saturation]]
+- Wiki pages touched: [[wiki/projects/Grafana Alloy Monitoring — FTFL-638]]
+- Pieces IDs ingested: 1 new memory
+- Flags: none
+- Note: Zero assets in 4h window; CPU request saturation on workflow node identified in 24h extension
+
+## 2026-05-31 01:11 — Daily Synthesis
+
+- Action: Ingest (Pieces LTM)
+- Raw sources created: none
+- Wiki pages touched: none
+- Pieces IDs ingested: 0 new memories
+- Flags: none — last activity in Pieces dates to August 2025
+
+## 2026-05-31 18:38 — Daily Synthesis
+
+- Action: Ingest (Pieces LTM)
+- Raw sources created: none
+- Wiki pages touched: none
+- Pieces IDs ingested: 0 memories
+- Flags: no new Pieces activity
+
+## 2026-05-31 21:41 — Daily Synthesis
+
+- Action: Ingest (Pieces LTM)
+- Raw sources created: none
+- Wiki pages touched: none
+- Pieces IDs ingested: 0 memories
+- Flags: no new Pieces activity
+
+## 2026-06-01 02:44 — Daily Synthesis
+
+- Action: Ingest (Pieces LTM)
+- Raw sources created: none
+- Wiki pages touched: none
+- Pieces IDs ingested: 0 memories
+- Flags: no new Pieces activity
+
+## 2026-06-01 05:49 — Daily Synthesis
+
+- Action: Ingest (Pieces LTM)
+- Raw sources created: none
+- Wiki pages touched: none
+- Pieces IDs ingested: 0 memories
+- Flags: Pieces dormant — newest asset 2026-05-30T12:56 UTC (41h ago)
+
+## 2026-06-01 15:00 — Daily Synthesis (Project Check-In, cron/4h)
+
+- Action: Ingest (Pieces LTM)
+- Raw sources created: [[raw/2026-06-01-pieces-nginx-ingress-webhook-fix]]
+- Wiki pages touched: [[wiki/projects/NGINX Ingress Admission Webhook Fix]]
+- Pieces IDs ingested: 6 memories (out of 10 in 4h window, 6 substantive after noise filter, 0 duplicates)
+- Flags: none — 1 new project page created
+
+## 2026-06-01 23:00 — Daily Synthesis
+
+- Action: Ingest (Pieces LTM)
+- Raw sources created: [[raw/2026-06-01-pieces-ftfl-511-tls-cipher-remediation]], [[raw/2026-06-01-pieces-ftfl-512-nginx-infodisclosure]], [[raw/2026-06-01-pieces-argocd-sandbox-sync]]
+- Wiki pages touched: [[wiki/projects/FTFL-511 Nginx HTTPS Hardening]], [[wiki/projects/FTFL-511-512 Security Scan]], [[wiki/projects/FTFL-512 Nginx Security]]
+- Pieces IDs ingested: 58 new assets (from 64 substantive, 164 in 24h window)
+- Flags: none
+
+## 2026-06-02 02:12 — Daily Synthesis
+
+- Action: Ingest (Pieces LTM) — Project Check-In mode
+- Raw sources created: [[raw/2026-06-01-pieces-ftfl-511-tls-retest]], [[raw/2026-06-01-pieces-argocd-ingress-investigation]]
+- Wiki pages touched: [[wiki/projects/NGINX Ingress Admission Webhook Fix]], [[wiki/projects/FTFL-511 Nginx HTTPS Hardening]]
+- Pieces IDs ingested: 48 new substantive assets (from 64 total in 24h window; 16 already cited in wiki)
+- Flags: none. Back-filled 22 new Key Facts into NGINX Ingress page and updated FTFL-511
+
+## 2026-06-02 06:45 — Daily Synthesis
+
+- Action: Ingest (Pieces LTM)
+- Raw sources created: [[raw/2026-06-01-pieces-argocd-nginx-a]], [[raw/2026-06-01-pieces-argocd-nginx-b]], [[raw/2026-06-01-pieces-network-security-scan]]
+- Wiki pages touched: [[wiki/projects/NGINX Ingress Admission Webhook Fix]]
+- Pieces IDs ingested: 64 memories
+- Flags: none
+
+## 2026-06-02 10:51 — Daily Synthesis
+
+- Action: Ingest (Pieces LTM)
+- Raw sources created: [[raw/2026-06-02-pieces-fitfile-node-privacy-architecture]]
+- Wiki pages touched: [[wiki/projects/FITFILE-Node-Privacy-Architecture]]
+- Pieces IDs ingested: 3 memories
+- Flags: none
+
+## 2026-06-02 15:11 — Project Check-In (cron/4h)
+
+- Action: Ingest (Pieces LTM) — check-in only
+- Raw sources created: none
+- Wiki pages touched: none
+- Pieces IDs queried: 5 (24h window, extended from 4h=0)
+- Substantive after filter: 3 (all duplicates)
+- Flags: same-day double run; [SILENT]
+
+## 2026-06-02 19:00 — Daily Synthesis (Project Check-In)
+
+- Action: Ingest (Pieces LTM) — 4h window = 0 assets, extended to 24h
+- 24h assets found: 5 total, 3 substantive, all 3 duplicates
+- Raw sources created: 0
+- Wiki pages touched: 0
+- Flags: none
+
+## 2026-06-02 23:30 — Project Check-In
+
+- Action: Ingest (Pieces LTM) — 4h window extended to 24h
+- Raw sources created: none (all duplicates)
+- Wiki pages touched: none
+- Pieces IDs ingested: 0 new
+- Flags: none — same-day re-synthesis, all content already processed
+- Exit: SILENT
+
+## 2026-06-03 03:30 — Daily Synthesis
+
+- Action: Ingest (Pieces LTM) — Project Check-In (4h window)
+- Raw sources created: none (all duplicates)
+- Wiki pages touched: none
+- Pieces IDs ingested: 5 assets found in 24h extension (3 substantive, 2 noise), all duplicates
+- Flags: none — Pieces inactive
+
+## 2026-06-03 12:00 — Daily Synthesis
+
+- Action: Ingest (Pieces LTM)
+- Raw sources created: [[raw/2026-06-03-pieces-ftfl673-grafana-deploy-all-envs]]
+- Wiki pages touched: [[FTFL-673 Grafana Deploy All Envs]], [[wiki/projects/Grafana Alloy Monitoring — FTFL-638]]
+- Pieces IDs ingested: 5 memories
+- Flags: none
+
+## 2026-06-04 08:00 — Daily Synthesis
+
+- Action: Ingest (Pieces LTM)
+- Raw sources created: [[raw/2026-06-03-pieces-k8s-argocd-bootstrapping]], [[raw/2026-06-03-pieces-omop-azure-storage]]
+- Wiki pages touched: [[wiki/projects/Kubernetes-Cluster-Bootstrapping]] (new), [[wiki/projects/12 Million Patient Synthetic NHS-OMOP Pipeline]] (updated)
+- Pieces IDs ingested: 6 substantive assets (from 63 in 24h window, 5 duplicates filtered)
+
+## 2026-06-05 10:00 — Project Check-In (cron/4h)
+
+- Action: Ingest — Project Check-In (cron/4h)
+- Pieces LTM: Unavailable (expected in cron context — no MCP tools injected)
+- Inbox items found (fallback): 4 files modified in last 4h
+- Wiki pages touched: [[wiki/projects/gcx CLI — FITFILE Grafana Stacks]] (updated)
+- New project pages created: 0
+- Flags: Adaptive Telemetry APIs blocked by expired Grafana Cloud token
+
+## 2026-06-06 07:45 — Project Check-In (cron/4h)
+
+- Action: Ingest (Pieces LTM)
+- Pieces LTM: 10,570 total assets. 0 assets in 4h window; extended to 24h → 98 assets.
+- Noise filter: 90 filtered → 8 substantive
+- Raw sources created: [[raw/2026-06-06-pieces-ffnode-helm-chart-review]], [[raw/2026-06-05-pieces-ftfl658-terraform-spike]], [[raw/2026-06-05-pieces-gk-issue-list-format]]
+- New project pages created: 1 — [[wiki/projects/ffnode Helm Chart Review]]
+- Wiki pages touched: None
+- Flags: None
+
+---
+
+## 2026-06-08 11:00 — Project Check-In
+
+- Action: Ingest (Pieces LTM, last 4h)
+- Raw sources created: [[raw/2026-06-08-pieces-helm-structured-metadata]]
+- Wiki pages created: [[wiki/projects/Helm Chart Structured Metadata — Grafana Cloud Log Enrichment]]
+- Wiki pages updated: [[wiki/projects/ffnode Helm Chart Review]], [[wiki/projects/Grafana Alloy Monitoring — FTFL-638]]
+- Pieces IDs ingested: 67 new substantive (176 total in window)
+- Flags: none
+
+---
+
+## 2026-06-08 19:22 — Project Check-In
+
+- Action: Ingest (Pieces LTM, last 4h)
+- Raw sources created: [[raw/2026-06-08-pieces-fitfile-frontend-cohort-discovery]]
+- Wiki pages created: [[wiki/projects/FITFILE Frontend — Cohort Discovery]]
+- Wiki pages updated: [[wiki/projects/FITFILE-Testing-Infrastructure]], [[wiki/projects/gcx CLI — FITFILE Grafana Stacks]], [[wiki/projects/FITFILE-Node-Privacy-Architecture]] (bidirectional links)
+- Pieces IDs ingested: 3 substantive (27 in 4h window)
+- Flags: None
+
+## 2026-06-09 03:35 — Project Check-In (cron/4h)
+
+- Action: Ingest (Pieces LTM)
+- Raw sources created: [[raw/2026-06-08-pieces-fitfile-deployment-wiki]]
+- Wiki pages touched: [[wiki/projects/FITFILE Deployment — ArgoCD + Helm]] (new), [[wiki/projects/ffnode Helm Chart Review]] (back-link), [[cicd-tooling-validated]] (back-link)
+- Pieces IDs ingested: 3 deployment wiki assets (of 84 new substantive non-dup assets found)
+- Flags: Pieces active (newest asset ~8.7h old). 4h window returned 0 assets — extended to 24h.
+
+## 2026-06-10 12:21 — Project Check-In (cron/4h)
+
+- Action: Ingest (Pieces LTM)
+- Pieces LTM: 11,064 total assets. 43 assets in 4h window, all new.
+- Raw sources created: [[raw/2026-06-10-pieces-cos-cron-fix-ftfl658-comment]]
+- New project pages created: 0
+- Wiki pages updated: [[wiki/projects/CoS-Work-Review-System]] — added Reliability History section
+- Pieces IDs ingested: 43
+- Flags: None
+
+## 2026-06-10 17:40 — Project Check-In (cron/4h)
+
+- Action: Ingest (session_search fallback — Pieces LTM compaction error)
+- Raw sources created: [[raw/2026-06-10-pieces-ftfl609-ebs-csi-starter-task]]
+- Wiki pages touched: [[wiki/projects/FTFL-609 EBS CSI Driver Managed Policies Migration]] (new)
+- Pieces IDs ingested: 3
+- Flags: Pieces LTM compaction error persists
+
+## 2026-06-11 17:07 — Project Check-In (cron/4h)
+
+- Action: Ingest (Pieces OS REST API — http://localhost:39300/messages)
+- Raw sources created: none
+- Wiki pages touched: none
+- Pieces IDs ingested: 13
+- Workstreams: AKS upgrade investigation, CI/CD pipeline state, Stress Test Phase 0 lookup
+- Flags: None — all map to existing pages
+
+## 2026-06-12 08:50 — Project Check-In (cron/4h)
+
+- Action: Ingest (Pieces OS REST API)
+- Raw sources created: [[raw/2026-06-12-pieces-ffnode-mcp-proxy]]
+- Wiki pages created: [[wiki/projects/FFNode Stress Testing — FTFL-500]]
+- Wiki pages updated: [[wiki/projects/MCP Proxy Robustness and High Availability]]
+- Pieces IDs ingested: 23
+- Flags: Pieces OS healthy
+
+## 2026-06-12 12:58 — Project Check-In (cron/4h)
+
+- Action: Ingest (Pieces OS REST API)
+- Raw sources created: none — all activity maps to existing raw notes
+- Wiki pages touched: none
+- Pieces IDs ingested: 37
+- Workstreams: MCP Proxy research (A), FFNode Stress Testing Jira planning (B)
+- Flags: No new projects
+
+## 2026-06-13 05:12 — Project Check-In (cron/4h)
+
+- Action: Ingest (Pieces OS REST API)
+- Raw sources created: none
+- Wiki pages touched: none
+- Pieces IDs ingested: 0 (in 4h window); 127 in 24h window
+- Workstreams: none in 4h window
+- Flags: Zero Pieces assets in 4h window. Pre-existing coverage gaps: Bessie (30), Refined Deployment (25), Core (9), Deployments (8). daily-synthesis skill reference should be updated.
+
+## 2026-06-15 10:00 — Project Check-In (cron/4h)
+
+- Action: Ingest (Pieces OS REST API)
+- Raw sources created: [[raw/2026-06-15-pieces-fitfile-cd-decision-document]]
+- Wiki pages created: [[GitLab CI integration]]
+- Wiki pages updated: [[wiki/projects/FITFILE Deployment — ArgoCD + Helm]]
+- Pieces IDs ingested: 2 substantive (30 total in 4h window, 28 noise-filtered)
+- Workstreams: FITFILE CI/CD CD Philosophy Decision Document
+- Flags: Pieces OS healthy
+
+## 2026-06-15 15:12 — Project Check-In (cron/4h)
+
+- Action: Ingest (Pieces OS REST API)
+- Raw sources created: [[raw/2026-06-15-pieces-ffnode-refinement-pre-tickets]]
+- Wiki pages created: none
+- Wiki pages updated: [[wiki/projects/FFNode Stress Testing — FTFL-500]]
+- Pieces IDs ingested: 16 substantive (54 total, 38 noise-filtered)
+- Workstreams: FFNode Stress Testing refinement (A), Sleuth DORA research (B)
+- Flags: No new projects
+
+## 2026-06-15 18:42 — Project Check-In (cron/4h)
+
+- Action: Ingest (Pieces OS REST API)
+- Raw sources created: none
+- Wiki pages created: none
+- Wiki pages updated: none
+- Pieces assets in DB: 11,415
+- In 4h window: 21 (14:44–18:44 UTC; 12 substantive)
+- Workstreams: Sleuth DORA metrics baseline planning
+- Flags: No new projects
+
+## 2026-06-16 12:05 — Project Check-In (cron/4h)
+
+- Action: Ingest (Pieces OS REST API)
+- Raw sources created: none
+- Wiki pages created: none
+- Wiki pages updated: none
+- Pieces assets in DB: 11,466
+- In 4h window: 51 (08:05–12:05 BST; 29 substantive)
+- Workstreams: FITFILE CI/CD CD philosophy (A), Obsidian/Todoist/GTD planning (B)
+- Flags: No new projects
+
+---
+
+## 2026-06-16 15:00 — Jira Ingest: FTFL-657
+
+- Action: Ingest (Jira)
+- Raw source created: [[raw/2026-06-16-ftfl-657-bastion-direct-aks]]
+- Wiki pages touched: [[wiki/projects/Azure-AKS]]
+- Flags: none
+
+## 2026-06-16 17:15 — Project Check-In (cron/4h)
+
+- Action: Ingest (Pieces OS REST API)
+- Raw source created: [[raw/2026-06-16-pieces-ftfl-657-ebs-csi]]
+- Wiki pages created: none
+- Wiki pages updated: [[wiki/projects/Azure-AKS]] (3 new Key Facts)
+- Pieces assets in DB: 11,509
+- In 4h window: 43 (13:13–15:13 UTC; 6 substantive)
+- Workstreams: FTFL-657 Bastion Direct to Private AKS (A), AWS EBS CSI Driver EOE (B)
+- Flags: No new projects detected
+
+---
+
+## 2026-06-20 07:28 — Project Check-In (cron/4h)
+
+- **Action:** Ingest (Pieces OS REST API — `http://localhost:39300/messages`)
+- **Raw sources created:** none
+- **Wiki pages created:** none
+- **Wiki pages updated:** none
+- **Pieces assets in DB:** 11,733
+- **In 4h window:** 4 (02:28–06:28 UTC; 2 substantive after noise filter; 2 SYSTEM_METACOGNITION/SYSTEM_COMPLETION noise)
+- **Noise-filtered:** 2 (meta_complete, reflection marker)
 - **Workstreams identified:**
-  - (A) 14:50–14:55 — Sleuth DORA metrics baseline planning (agent-driven: reflection iterations, plan synthesis, cursor pagination) → [[GitLab CI integration]] (already covered)
-- **Flags:** No new projects detected. Single workstream maps to existing FITFILE CD wiki page (already populated from prior runs). Last Pieces activity was 14:55 UTC (3h 48m gap). `daily-synthesis` skill is disabled — Project Check-In Mode instructions not available. No activity in final ~4h of window suggests user offline or Pieces not capturing active context during this period.
+  - (A) 09:20–09:21 BST — Value Stream Analysis via LLM: one-off Q&A about feasibility of analysing Jira backlog + GitLab code repos for value stream mapping → one-off query, not a new project
+- **Flags:** No new projects detected. Single one-off query about LLM value stream analysis — no follow-up conversation, no project page needed. FTFL-673 Route 53 faro DNS work (06-19 09:26–09:40 BST) in the 24h window maps to existing [[wiki/projects/FTFL-673 Grafana Deploy All Envs]]. All settled coverage gaps remain per P9. Pieces OS healthy (REST API reachable, 11,733 total assets).
+
+---
+
+## 2026-06-20 14:36 — Project Check-In (cron/4h)
+
+- **Action:** Ingest (Pieces OS REST API — `http://localhost:39300/messages`)
+- **Raw sources created:** none
+- **Wiki pages created:** none
+- **Wiki pages updated:** none
+- **Pieces assets in DB:** 11,737
+- **In 4h window:** 0 (10:36–14:36 UTC; no new Pieces captures at all)
+- **Workstreams identified:** None via Pieces. Vault inspection found new activity.
+- **New project pages created:** **0**
+- **Vault files modified in window (found via `find -mmin -240`):**
+  - `00_Inbox/gcse-maths-contents.md` — CGP GCSE Maths topic contents (created 15:25 UTC)
+  - `00_Inbox/gcse-maths-curriculum-tracker.md` — DfE-aligned Foundation + Higher tier tracker (created 15:31 UTC)
+  - `01_journals/Dailies/2026-06-20.md` — Journal entry with Mustang lineage d2 diagram (modified 14:33 UTC)
+  - `30_Library/200_Projects/Value Stream Analysis via LLM...md` — one-off query, previously assessed
+- **Flags:**
+  - The GCSE Maths inbox files are extensions of the **existing** Bessie Ormes GCSE Support project (materials in `30_Library/200_Projects/`). Not a new project.
+  - Pieces captured **zero** assets despite vault file creation — Pieces may not be monitoring Obsidian writes (alternatively, the files may have been created too recently for the sync cycle).
+  - Pieces OS healthy (REST API `ok`), 11,737 total assets.
+---
+
+## 2026-06-22 10:00 — Project Check-In (cron/4h)
+
+- **Action:** Ingest (Pieces OS REST API — `http://localhost:39300/messages`)
+- **Raw sources created:** [[raw/2026-06-22-pieces-chezmoi-llm-config-consolidation]]
+- **Wiki pages created:** none
+- **Wiki pages updated:** [[wiki/projects/Chezmoi]] — updated Summary, Key Facts, Timeline with LLM config consolidation workstream
+- **Pieces assets in DB:** 11,791
+- **In 4h window:** 51 (06:00–10:00 UTC; 6 substantive after noise filter; 45 SYSTEM_METACOGNITION/SYSTEM_COMPLETION/SYSTEM_THINKING/SYSTEM_TOOL_CALL noise)
+- **Workstreams identified:**
+  - (A) 07:59–08:28 UTC — **Chezmoi LLM Configuration Consolidation**: research into optimising multiple LLM provider configs under chezmoi → maps to [[wiki/projects/Chezmoi]] (existing project, updated)
+  - (B) 09:15–09:18 UTC — **FITFILE Value Stream Report**: executive consultant persona report, one-off deliverable → one-off query, not a new project
+- **Flags:** No new projects detected. All coverage gaps per P9 remain settled. FITFILE VSA report is a continuation of the weekend VSA feasibility topic noted by CoS. Pieces OS healthy (REST API `ok`, 11,791 total assets).
+---
+
+## 2026-06-22 23:33 — Project Check-In (cron/4h)
+
+- **Action:** Ingest (Pieces OS REST API — `http://localhost:39300/messages`)
+- **Raw sources created:** none
+- **Wiki pages created:** none
+- **Wiki pages updated:** none
+- **Pieces assets in DB:** 11,791
+- **In 4h window:** 0 (19:33–23:33 UTC)
+- **Vault files modified in window:** 0 (found via `find -mmin -240`)
+- **Flags:** Quiet evening. Last documented user activity was the 17:31 CoS Run (6h ago). No new workstreams, projects, or Pieces captures detected. Pieces OS healthy (REST API `ok`, 11,791 total assets).
+
+---
+
+## 2026-06-23 03:37 — Project Check-In (cron/4h)
+
+- **Action:** Ingest (Pieces OS REST API — `http://localhost:39300/messages`)
+- **Raw sources created:** none
+- **Wiki pages created:** none
+- **Wiki pages updated:** none
+- **Pieces assets in DB:** 11,791
+- **In 4h window:** 0 (22:37–02:37 UTC)
+- **Vault files modified in window:** 0 (found via `find -mmin -240`). Daily template file exists but no user content added.
+- **Flags:** Quiet overnight window. No new workstreams, projects, or Pieces captures detected since the 23:33 check-in. Pieces OS healthy (REST API `ok`, 11,791 total assets).
+
+## 2026-06-23 06:40 — Project Check-In (cron/4h)
+
+- **Action:** Ingest (Pieces OS REST API — `http://localhost:39300/messages`)
+- **Raw sources created:** none
+- **Wiki pages created:** none
+- **Wiki pages updated:** none
+- **Pieces assets in DB:** 11,791
+- **In 4h window:** 0 (02:37–06:40 UTC)
+- **Vault files modified in window:** 0 (found via `find -mmin -240`)
+- **Flags:** Quiet overnight — no user activity detected since the 03:37 check-in. Consistent with sleep/deep-offline window. No new workstreams, projects, or Pieces captures. Pieces OS healthy (REST API `ok`, 11,791 total assets).
+## 2026-06-23 18:53 — Project Check-In (cron/4h)
+
+- **Action:** Ingest (Pieces OS REST API — `http://localhost:39300/messages`)
+- **Raw sources created:** none
+- **Wiki pages created:** none
+- **Wiki pages updated:** none
+- **Pieces assets in DB:** 11,791 (unchanged from 06:40 check-in)
+- **In 4h window:** 0 (14:53–18:53 UTC)
+- **Vault files modified in window:** 2 (daily journal, SoT Work Open Loops — both CoS cron updates)
+- **Workstreams identified:** None via Pieces
+- **Flags:** Pieces dormant — latest asset 2026-06-23T08:42:52Z (~10h ago). No new user activity or projects detected. FTFL-464 (Calico Cloud removal) moved to Ready for Review at 12:01; all other items stable since 14:01. Pieces OS healthy (REST API `ok`, 11,791 total assets).

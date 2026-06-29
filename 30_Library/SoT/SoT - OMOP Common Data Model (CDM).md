@@ -1,13 +1,21 @@
 ---
-aliases: ["Common Data Model", "OHDSI Schema", "OMOP CDM"]
-created: 2026-01-06T19:25:44+00:00
-last_reviewed: 
-modified: 2026-02-01T15:07:54+00:00
-status: "Active"
-tags: ["data-model", "ohdsi", "omop", "schema"]
+aliases:
+- Common Data Model
+- OHDSI Schema
+- OMOP CDM
+created: 2026-01-06 19:25:44+00:00
+last_reviewed: null
+modified: 2026-02-01 15:07:54+00:00
+status: Active
+tags:
+- data-model
+- ohdsi
+- omop
+- schema
 title: SoT - OMOP Common Data Model (CDM)
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-omop-common-data-model-cdm
 ---
 
 ## SoT - OMOP Common Data Model (CDM)

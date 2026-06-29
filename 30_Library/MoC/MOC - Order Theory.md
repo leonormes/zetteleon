@@ -1,10 +1,18 @@
 ---
-aliases: ["Lattice Theory MOC", "Mathematics of Hierarchy", "Order Theory"]
-created: 2026-02-04T00:00:00+00:00
-modified: 2026-02-05T15:47:29+00:00
-tags: ["logic", "math", "moc", "order-theory"]
+aliases:
+- Lattice Theory MOC
+- Mathematics of Hierarchy
+- Order Theory
+created: 2026-02-04 00:00:00+00:00
+modified: 2026-02-05 15:47:29+00:00
+tags:
+- logic
+- math
+- moc
+- order-theory
 title: MOC - Order Theory
 type: map
+permalink: llmeon/30-library/mo-c/moc-order-theory
 ---
 
 ## The Mathematics of Specificity

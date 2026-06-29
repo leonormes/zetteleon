@@ -1,13 +1,17 @@
 ---
-title: "FTFL-609 — EBS CSI Driver Managed Policies Migration"
+title: FTFL-609 — EBS CSI Driver Managed Policies Migration
 wiki_type: dossier
 entity_kind: project
-created: 2026-06-10T17:40:00+01:00
-modified: 2026-06-10T17:40:00+01:00
-tags: [wiki, dossier, project]
+created: 2026-06-10 17:40:00+01:00
+modified: 2026-06-10 17:40:00+01:00
+tags:
+- wiki
+- dossier
+- project
 sources:
-  - "[[raw/2026-06-10-pieces-ftfl609-ebs-csi-starter-task]]"
-  - "[[raw/2026-06-10-pieces-cos-cron-fix-ftfl658-comment]]"
+- '[[raw/2026-06-10-pieces-ftfl609-ebs-csi-starter-task]]'
+- '[[raw/2026-06-10-pieces-cos-cron-fix-ftfl658-comment]]'
+permalink: llmeon/wiki/projects/ftfl-609-ebs-csi-driver-managed-policies-migration
 ---
 
 # FTFL-609 — EBS CSI Driver Managed Policies Migration

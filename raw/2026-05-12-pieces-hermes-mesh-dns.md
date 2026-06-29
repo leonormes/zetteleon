@@ -1,10 +1,15 @@
 ---
-created: 2026-05-12T22:06:30+00:00
-modified: 2026-05-26T11:43:45+00:00
-pieces_ids: ["18d6eb3a-9edf-4169-a324-59fef99b1581", "7b69f4e0-38a5-499d-bfb8-12d584e7af82"]
+created: 2026-05-12 22:06:30+00:00
+modified: 2026-05-26 11:43:45+00:00
+pieces_ids:
+- 18d6eb3a-9edf-4169-a324-59fef99b1581
+- 7b69f4e0-38a5-499d-bfb8-12d584e7af82
 source: pieces-ltm
-tags: [pieces, raw]
+tags:
+- pieces
+- raw
 title: 2026-05-12-pieces-hermes-mesh-dns
+permalink: llmeon/raw/2026-05-12-pieces-hermes-mesh-dns
 ---
 
 ## Pieces LTM Ingest—Hermes MESH DNS

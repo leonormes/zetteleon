@@ -1,12 +1,13 @@
 ---
 captured: 2026-04-29T13:28:53+01:00 2026-04-29T13:28:53+01:00
-created: 2026-04-29T12:28:56+00:00
-modified: 2026-05-31T17:17:00+00:00
+created: 2026-04-29 12:28:56+00:00
+modified: 2026-05-31 17:17:00+00:00
 source: https://claude.ai/chat/891c087e-70b2-4b75-8c59-926c4c7108c1
-status:
-tags:
+status: null
+tags: null
 title: Accessing private AKS cluster via jumpbox SSH
 type: command
+permalink: llmeon/30-library/ops/accessing-private-aks-cluster-via-jumpbox-ssh
 ---
 
 I want to access my private aks cluster from my terminal via the jumpbox. I don't want to use the portal but be able to ssh (or equivilant) from my laptop so I can query the k8s api. How best can I do this?

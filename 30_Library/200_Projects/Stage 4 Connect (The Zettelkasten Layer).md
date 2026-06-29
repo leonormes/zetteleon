@@ -1,20 +1,21 @@
 ---
 aliases:
-  - Linking Stage
-  - Zettelkasten Layer
-created: 2025-12-04T12:23:40Z
-modified: 2026-06-08T11:49:22+00:00
+- Linking Stage
+- Zettelkasten Layer
+created: 2025-12-04 12:23:40+00:00
+modified: 2026-06-08 11:49:22+00:00
 project_category: prodos
 project_name: ProdOS
 project_status: active
 status: stable
 tags:
-  - connection
-  - pkm
-  - prodos
-  - writing
+- connection
+- pkm
+- prodos
+- writing
 title: Stage 4 Connect (The Zettelkasten Layer)
-type:
+type: null
+permalink: llmeon/30-library/200-projects/stage-4-connect-the-zettelkasten-layer
 ---
 
 _The Goal: To place your new understanding into the context of your existing knowledge._

@@ -1,13 +1,19 @@
 ---
 aliases: []
-created: 2025-11-01T09:51:13Z
-last_reviewed: "null"
-modified: 2026-02-01T15:08:29+00:00
-status: "seedling"
-tags: ["epistemology", "mental-model", "pragmatism", "topic/philosophy", "utility"]
+created: 2025-11-01 09:51:13+00:00
+last_reviewed: 'null'
+modified: 2026-02-01 15:08:29+00:00
+status: seedling
+tags:
+- epistemology
+- mental-model
+- pragmatism
+- topic/philosophy
+- utility
 title: Pragmatic Truth Focuses on Utility Over Absolute Correctness
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/pragmatic-truth-focuses-on-utility-over-absolute-correctness
 ---
 
 ## Pragmatic Truth Focuses on Utility Over Absolute Correctness

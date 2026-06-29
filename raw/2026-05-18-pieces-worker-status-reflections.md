@@ -1,4 +1,8 @@
 ---
+permalink: llmeon/raw/2026-05-18-pieces-worker-status-reflections
+---
+
+---
 title: **Reflection 3 · on track** — Worker synthesized early with 
 created: 2026-05-18T13:37:46.386780+00:00
 source: pieces-ltm

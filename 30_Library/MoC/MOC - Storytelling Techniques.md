@@ -1,15 +1,17 @@
 ---
 aliases: []
-created: 2025-10-31T12:28:00Z
-exclusions: "Specific literary works without technique focus"
-last_reviewed: ""
-modified: 2026-02-11T09:03:21+00:00
-scope: "Narrative structures and techniques"
-status: ""
-tags: ["storytelling"]
+created: 2025-10-31 12:28:00+00:00
+exclusions: Specific literary works without technique focus
+last_reviewed: ''
+modified: 2026-02-11 09:03:21+00:00
+scope: Narrative structures and techniques
+status: ''
+tags:
+- storytelling
 title: MOC - Storytelling Techniques
-type: "map"
-updated: 
+type: map
+updated: null
+permalink: llmeon/30-library/mo-c/moc-storytelling-techniques
 ---
 
 ## Foundational Structures

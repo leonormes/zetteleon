@@ -1,15 +1,20 @@
 ---
-created: 2026-04-14T11:11:48+00:00
-created_utc: "2026-04-14T10:35:00Z"
+created: 2026-04-14 11:11:48+00:00
+created_utc: '2026-04-14T10:35:00Z'
 kind: constraint
-modified: 2026-05-26T11:44:36+00:00
-source_title: "Networking Is Label Transformation Under Policy"
-source_url: "N/A"
+modified: 2026-05-26 11:44:36+00:00
+source_title: Networking Is Label Transformation Under Policy
+source_url: N/A
 status: seed
-tags: [ingress, load-balancing, ports, redirects]
+tags:
+- ingress
+- load-balancing
+- ports
+- redirects
 title: Custom Port End-to-End Consistency
 type: atom
-upstream: "[[SoT - External Ingress & SSL Architecture]]"
+upstream: '[[SoT - External Ingress & SSL Architecture]]'
+permalink: llmeon/30-library/100-zettelkasten/custom-port-end-to-end-consistency
 ---
 
 ## Custom Port End-to-End Consistency

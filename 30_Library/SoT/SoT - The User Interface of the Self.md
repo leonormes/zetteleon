@@ -1,13 +1,22 @@
 ---
-aliases: ["The Admin Illusion", "The Interpreter Module", "User Interface of the Self"]
-created: 2025-12-23T19:56:26Z
-last_reviewed: "2025-12-23"
-modified: 2026-02-01T15:07:49+00:00
-status: "stable"
-tags: ["agency", "cognitive_science", "mental_models", "TheHuman/Identity", "TheHuman/Neuroscience"]
+aliases:
+- The Admin Illusion
+- The Interpreter Module
+- User Interface of the Self
+created: 2025-12-23 19:56:26+00:00
+last_reviewed: '2025-12-23'
+modified: 2026-02-01 15:07:49+00:00
+status: stable
+tags:
+- agency
+- cognitive_science
+- mental_models
+- TheHuman/Identity
+- TheHuman/Neuroscience
 title: SoT - The User Interface of the Self
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-the-user-interface-of-the-self
 ---
 
 ## 1. Definitive Statement

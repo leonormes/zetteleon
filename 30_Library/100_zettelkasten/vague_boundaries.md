@@ -1,14 +1,17 @@
 ---
 aliases: []
-created: 2025-02-07T12:57:53Z
-ID: "3e"
-last_reviewed: ""
-modified: 2026-02-01T15:08:23+00:00
-status: ""
-tags: ["knowledge", "TheHuman/Cognition/thinking"]
+created: 2025-02-07 12:57:53+00:00
+ID: 3e
+last_reviewed: ''
+modified: 2026-02-01 15:08:23+00:00
+status: ''
+tags:
+- knowledge
+- TheHuman/Cognition/thinking
 title: vague_boundaries
-type: "permanent"
-updated: 
+type: permanent
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/vague-boundaries
 ---
 
 ## Vague Boundaries

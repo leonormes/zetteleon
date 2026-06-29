@@ -1,16 +1,17 @@
 ---
 aliases: []
-created: 2025-09-16T12:25:36Z
-last_reviewed: ""
-modified: 2026-05-26T11:44:22+00:00
+created: 2025-09-16 12:25:36+00:00
+last_reviewed: ''
+modified: 2026-05-26 11:44:22+00:00
 see_also: []
-status: ""
-superseded_by: ""
-supersedes: ""
+status: ''
+superseded_by: ''
+supersedes: ''
 tags: []
 title: MOC - Einstein, Relativity & Light Speed
-type: "map"
-updated: 
+type: map
+updated: null
+permalink: llmeon/30-library/mo-c/moc-einstein-relativity-light-speed
 ---
 
 ## Einstein, Relativity & Light Speed

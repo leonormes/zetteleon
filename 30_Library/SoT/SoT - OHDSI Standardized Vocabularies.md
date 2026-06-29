@@ -1,13 +1,21 @@
 ---
-aliases: ["Athena", "OMOP Vocabularies", "Standard Concepts"]
-created: 2026-01-06T18:52:00+00:00
-last_reviewed: 
-modified: 2026-05-26T11:44:18+00:00
-status: "Active"
-tags: ["ohdsi", "ontology", "semantics", "vocabulary"]
+aliases:
+- Athena
+- OMOP Vocabularies
+- Standard Concepts
+created: 2026-01-06 18:52:00+00:00
+last_reviewed: null
+modified: 2026-05-26 11:44:18+00:00
+status: Active
+tags:
+- ohdsi
+- ontology
+- semantics
+- vocabulary
 title: SoT - OHDSI Standardized Vocabularies
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-ohdsi-standardized-vocabularies
 ---
 
 ## SoT - OHDSI Standardized Vocabularies

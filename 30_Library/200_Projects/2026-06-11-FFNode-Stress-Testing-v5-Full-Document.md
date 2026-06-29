@@ -1,23 +1,24 @@
 ---
 author: Leon Ormes
-created: 2026-06-11T00:00:00+00:00
-modified: 2026-06-11T13:28:14+00:00
+created: 2026-06-11 00:00:00+00:00
+modified: 2026-06-11 13:28:14+00:00
 project_category: refined_deployment
 project_name: Refined Deployment
 project_status: active
 source: confluence/doc/v3=2839871490, v4=2841247752
 status: draft
 tags:
-  - confluence
-  - design-document
-  - ffnode
-  - ollie-rushton
-  - stress-testing
-  - v5
-  - weronika-jastrzebska
+- confluence
+- design-document
+- ffnode
+- ollie-rushton
+- stress-testing
+- v5
+- weronika-jastrzebska
 title: FFNode Stress Testing — Design Document V5
-type:
+type: null
 version: 5
+permalink: llmeon/30-library/200-projects/2026-06-11-ffnode-stress-testing-v5-full-document
 ---
 
 ## Option A: FFNode Stress Testing—Design Document V5

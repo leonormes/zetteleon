@@ -1,9 +1,13 @@
 ---
 title: Azure Bastion SSH — 1Password SSH Agent Fix for AAD Authentication
-created: 2026-05-29T19:54:32+00:00
+created: 2026-05-29 19:54:32+00:00
 source: pieces-ltm
-pieces_ids: [9dcbcf77-e097-4506-885a-de3c4bae68b0]
-tags: [raw, pieces]
+pieces_ids:
+- 9dcbcf77-e097-4506-885a-de3c4bae68b0
+tags:
+- raw
+- pieces
+permalink: llmeon/raw/2026-05-29-pieces-azure-bastion-1password-ssh
 ---
 
 ## Asset (Pieces: 9dcbcf77-e097-4506-885a-de3c4bae68b0)
@@ -46,4 +50,3 @@ This prevents 1Password from offering every key in your vault to every server.
 ---
 
 Option 1 is the right call for AAD-authenticated Bastion connections specifically — your personal keys are irrelevant to that auth flow anyway.
-

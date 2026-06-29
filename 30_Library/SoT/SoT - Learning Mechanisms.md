@@ -1,13 +1,22 @@
 ---
-aliases: ["Declarative vs Procedural", "Focused vs Diffuse", "Neural Web"]
-created: 2025-12-19T10:17:22Z
-last_reviewed: "2025-12-23"
-modified: 2026-02-01T15:07:55+00:00
-status: "stable"
-tags: ["cognition", "dopamine", "learning", "TheHuman/Cognition", "TheHuman/Neuroscience"]
+aliases:
+- Declarative vs Procedural
+- Focused vs Diffuse
+- Neural Web
+created: 2025-12-19 10:17:22+00:00
+last_reviewed: '2025-12-23'
+modified: 2026-02-01 15:07:55+00:00
+status: stable
+tags:
+- cognition
+- dopamine
+- learning
+- TheHuman/Cognition
+- TheHuman/Neuroscience
 title: SoT - Learning Mechanisms
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-learning-mechanisms
 ---
 
 ## 1. The Core Architecture: Focused vs. Diffuse Modes

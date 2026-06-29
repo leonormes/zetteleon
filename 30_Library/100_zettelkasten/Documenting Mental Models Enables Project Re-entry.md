@@ -1,13 +1,20 @@
 ---
-aliases: ["Mental Model Capture", "Thought Process Documentation"]
-created: 2025-10-30T15:00:39Z
-last_reviewed: "2025-10-30"
-modified: 2026-02-01T15:08:34+00:00
-status: "seedling"
-tags: ["documentation", "knowledge-capture", "mental-models", "project-continuity"]
+aliases:
+- Mental Model Capture
+- Thought Process Documentation
+created: 2025-10-30 15:00:39+00:00
+last_reviewed: '2025-10-30'
+modified: 2026-02-01 15:08:34+00:00
+status: seedling
+tags:
+- documentation
+- knowledge-capture
+- mental-models
+- project-continuity
 title: Documenting Mental Models Enables Project Re-entry
-type: "strategy"
-updated: 
+type: strategy
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/documenting-mental-models-enables-project-re-entry
 ---
 
 ## Documenting Mental Models Enables Project Re-entry

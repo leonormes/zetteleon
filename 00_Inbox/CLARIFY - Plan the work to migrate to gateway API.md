@@ -1,8 +1,12 @@
 ---
-created: 2026-06-05T09:00:00+01:00
-modified: 2026-06-11T10:25:37+00:00
-tags: [clarify, inbox, work]
+created: 2026-06-05 09:00:00+01:00
+modified: 2026-06-11 10:25:37+00:00
+tags:
+- clarify
+- inbox
+- work
 title: CLARIFY - Plan the work to migrate to gateway API
+permalink: llmeon/00-inbox/clarify-plan-the-work-to-migrate-to-gateway-api
 ---
 
 ## Capture

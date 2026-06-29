@@ -1,13 +1,20 @@
 ---
-aliases: ["Calendar Architecture", "Self-Expression Scheduling"]
-created: 2025-10-30T15:07:41Z
-last_reviewed: "2025-10-30"
-modified: 2026-02-01T15:08:29+00:00
-status: "seedling"
-tags: ["calendar-design", "deep-work", "scheduling", "time-management"]
+aliases:
+- Calendar Architecture
+- Self-Expression Scheduling
+created: 2025-10-30 15:07:41+00:00
+last_reviewed: '2025-10-30'
+modified: 2026-02-01 15:08:29+00:00
+status: seedling
+tags:
+- calendar-design
+- deep-work
+- scheduling
+- time-management
 title: Proactive Schedule Design Protects Creative Time From Reactive Demands
-type: "strategy"
-updated: 
+type: strategy
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/proactive-schedule-design-protects-creative-time-from-reactive-demands
 ---
 
 ## Proactive Schedule Design Protects Creative Time From Reactive Demands

@@ -1,13 +1,18 @@
 ---
 aliases: []
-created: 2025-11-10T15:15:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:26+00:00
-status: "seedling"
-tags: ["executive-function", "TheHuman/Health/ADHD", "topic/productivity", "topic/systems"]
+created: 2025-11-10 15:15:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:26+00:00
+status: seedling
+tags:
+- executive-function
+- TheHuman/Health/ADHD
+- topic/productivity
+- topic/systems
 title: The Atomic Action Framework Supports Executive Function
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/the-atomic-action-framework-supports-executive-function
 ---
 
 ## The Atomic Action Framework Supports Executive Function

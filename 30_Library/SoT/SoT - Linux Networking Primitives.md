@@ -1,13 +1,22 @@
 ---
-aliases: ["Container Networking Primitives", "IPTables Masquerade", "Linux Bridges", "Veth Pairs"]
-created: 2025-12-30T13:53:16+00:00
-last_reviewed: 
-modified: 2026-02-01T15:07:55+00:00
-status: "Active"
-tags: ["kernel", "SoftwareEngineering/Containers", "SoftwareEngineering/Linux", "SoftwareEngineering/Networking"]
+aliases:
+- Container Networking Primitives
+- IPTables Masquerade
+- Linux Bridges
+- Veth Pairs
+created: 2025-12-30 13:53:16+00:00
+last_reviewed: null
+modified: 2026-02-01 15:07:55+00:00
+status: Active
+tags:
+- kernel
+- SoftwareEngineering/Containers
+- SoftwareEngineering/Linux
+- SoftwareEngineering/Networking
 title: SoT - Linux Networking Primitives
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-linux-networking-primitives
 ---
 
 ## SoT - Linux Networking Primitives

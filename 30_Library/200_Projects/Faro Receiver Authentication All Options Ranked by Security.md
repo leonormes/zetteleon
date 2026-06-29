@@ -1,11 +1,12 @@
 ---
-created: 2026-06-05T09:05:54+00:00
-modified: 2026-06-08T11:49:16+00:00
+created: 2026-06-05 09:05:54+00:00
+modified: 2026-06-08 11:49:16+00:00
 project_category: refined_deployment
 project_name: Refined Deployment
 project_status: active
 title: Faro Receiver Authentication All Options Ranked by Security
-type:
+type: null
+permalink: llmeon/30-library/200-projects/faro-receiver-authentication-all-options-ranked-by-security
 ---
 
 _Shared Message from Pieces (<https://pieces.app>) by Leon Ormes (leonormes@gmail.com) on Friday Jun 5, 2026 - 10:05 AM_

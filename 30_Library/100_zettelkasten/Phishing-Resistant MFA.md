@@ -1,15 +1,20 @@
 ---
-created: 2026-04-14T20:24:52+00:00
-created_utc: "2026-04-14T13:00:00Z"
+created: 2026-04-14 20:24:52+00:00
+created_utc: '2026-04-14T13:00:00Z'
 kind: procedure
-modified: 2026-05-26T11:44:33+00:00
-source_title: "Azure Entra Identity Best Practices & Remediation Plan"
-source_url: "https://gemini.google.com/app/90721765fb79ed7a"
+modified: 2026-05-26 11:44:33+00:00
+source_title: Azure Entra Identity Best Practices & Remediation Plan
+source_url: https://gemini.google.com/app/90721765fb79ed7a
 status: seed
-tags: [identity, mfa, phishing-resistance, security]
+tags:
+- identity
+- mfa
+- phishing-resistance
+- security
 title: Phishing-Resistant MFA
 type: atom
-upstream: "[[SoT - Microsoft Entra Identity]]"
+upstream: '[[SoT - Microsoft Entra Identity]]'
+permalink: llmeon/30-library/100-zettelkasten/phishing-resistant-mfa
 ---
 
 ## Phishing-Resistant MFA

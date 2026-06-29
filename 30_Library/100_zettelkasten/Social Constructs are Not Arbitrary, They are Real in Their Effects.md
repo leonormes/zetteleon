@@ -1,13 +1,19 @@
 ---
-aliases: ["Constructed Reality"]
-created: 2025-11-06T19:58:01Z
-last_reviewed: "2025-11-06"
-modified: 2026-02-01T15:08:27+00:00
-status: "seedling"
-tags: ["meaning", "reality", "social-constructs", "TheHuman/Philosophy"]
+aliases:
+- Constructed Reality
+created: 2025-11-06 19:58:01+00:00
+last_reviewed: '2025-11-06'
+modified: 2026-02-01 15:08:27+00:00
+status: seedling
+tags:
+- meaning
+- reality
+- social-constructs
+- TheHuman/Philosophy
 title: Social Constructs are Not Arbitrary, They are Real in Their Effects
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/social-constructs-are-not-arbitrary-they-are-real-in-their-effects
 ---
 
 ## Social Constructs Are Not Arbitrary, They Are Real in Their Effects

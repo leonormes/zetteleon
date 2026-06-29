@@ -1,13 +1,18 @@
 ---
-aliases: ["PFC"]
-created: 2025-11-12T14:10:01Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:25+00:00
-status: "seedling"
-tags: ["brain", "executive-function", "TheHuman/Neuroscience"]
+aliases:
+- PFC
+created: 2025-11-12 14:10:01+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:25+00:00
+status: seedling
+tags:
+- brain
+- executive-function
+- TheHuman/Neuroscience
 title: The Prefrontal Cortex Provides Executive Control Over Action
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/the-prefrontal-cortex-provides-executive-control-over-action
 ---
 
 ## The Prefrontal Cortex Provides Executive Control Over Action

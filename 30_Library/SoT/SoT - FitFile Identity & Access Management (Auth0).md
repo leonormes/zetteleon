@@ -1,14 +1,25 @@
 ---
-aliases: [Auth0 Authentication Strategy, FitFile Identity Architecture]
-created: 2025-09-23T08:41:59Z
-last_reviewed: "2026-03-28"
-modified: 2026-05-26T11:44:19+00:00
-see_also: ["[[SoT - FitFile Deployment - Implementation Manual]]", "[[SoT - FitFile Deployment - Strategy & Architecture]]", "[[SoT - FitFile VSO Secrets Management]]"]
+aliases:
+- Auth0 Authentication Strategy
+- FitFile Identity Architecture
+created: 2025-09-23 08:41:59+00:00
+last_reviewed: '2026-03-28'
+modified: 2026-05-26 11:44:19+00:00
+see_also:
+- '[[SoT - FitFile Deployment - Implementation Manual]]'
+- '[[SoT - FitFile Deployment - Strategy & Architecture]]'
+- '[[SoT - FitFile VSO Secrets Management]]'
 status: evergreen
-tags: [auth0, ff_deploy, identity, security, sot]
+tags:
+- auth0
+- ff_deploy
+- identity
+- security
+- sot
 title: SoT - FitFile Identity & Access Management (Auth0)
 type: SoT
 updated: 2026-03-28
+permalink: llmeon/30-library/so-t/so-t-fit-file-identity-access-management-auth0
 ---
 
 ## 1. Executive Summary

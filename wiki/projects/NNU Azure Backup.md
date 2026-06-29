@@ -2,12 +2,15 @@
 title: NNU Azure Backup
 wiki_type: dossier
 entity_kind: project
-created: 2026-04-30T06:04:37+00:00
-modified: 2026-05-23T00:23:00+00:00
-tags: [wiki, dossier]
+created: 2026-04-30 06:04:37+00:00
+modified: 2026-05-23 00:23:00+00:00
+tags:
+- wiki
+- dossier
 sources:
-  - raw/2026-04-30-pieces-azure-backup-projects
-  - raw/2026-05-22-pieces-nnuh-mkuh-storage-public-access.md
+- raw/2026-04-30-pieces-azure-backup-projects
+- raw/2026-05-22-pieces-nnuh-mkuh-storage-public-access.md
+permalink: llmeon/wiki/projects/nnu-azure-backup
 ---
 
 ## Summary

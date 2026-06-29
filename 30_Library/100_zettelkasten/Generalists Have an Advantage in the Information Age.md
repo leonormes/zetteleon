@@ -1,13 +1,18 @@
 ---
-aliases: ["Generalist Advantage"]
-created: 2025-11-01T12:30:07Z
-last_reviewed: "2025-11-01"
-modified: 2026-02-01T15:08:33+00:00
-status: "seedling"
-tags: ["generalism", "information-age", "specialization"]
+aliases:
+- Generalist Advantage
+created: 2025-11-01 12:30:07+00:00
+last_reviewed: '2025-11-01'
+modified: 2026-02-01 15:08:33+00:00
+status: seedling
+tags:
+- generalism
+- information-age
+- specialization
 title: Generalists Have an Advantage in the Information Age
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/generalists-have-an-advantage-in-the-information-age
 ---
 
 ## Generalists Have an Advantage in the Information Age

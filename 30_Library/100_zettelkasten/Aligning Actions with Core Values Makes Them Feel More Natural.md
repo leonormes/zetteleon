@@ -1,13 +1,20 @@
 ---
-aliases: ["Self-Concordant Goals"]
-created: 2025-11-10T17:12:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:37+00:00
-status: "seedling"
-tags: ["action", "TheHuman/Identity", "TheHuman/Motivation", "TheHuman/Psychology", "values"]
+aliases:
+- Self-Concordant Goals
+created: 2025-11-10 17:12:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:37+00:00
+status: seedling
+tags:
+- action
+- TheHuman/Identity
+- TheHuman/Motivation
+- TheHuman/Psychology
+- values
 title: Aligning Actions with Core Values Makes Them Feel More Natural
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/aligning-actions-with-core-values-makes-them-feel-more-natural
 ---
 
 ## Aligning Actions with Core Values Makes Them Feel More Natural

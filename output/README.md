@@ -1,8 +1,12 @@
 ---
-created: 2026-05-10T00:00:00+00:00
-modified: 2026-05-26T11:43:53+00:00
-tags: [agent-protocol, index, output]
+created: 2026-05-10 00:00:00+00:00
+modified: 2026-05-26 11:43:53+00:00
+tags:
+- agent-protocol
+- index
+- output
 title: README
+permalink: llmeon/output/readme
 ---
 
 ## Output—Synthesised Deliverables

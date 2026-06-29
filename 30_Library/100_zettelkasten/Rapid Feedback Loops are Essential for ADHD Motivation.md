@@ -1,13 +1,19 @@
 ---
-aliases: ["Rapid Feedback Loops"]
-created: 2025-11-12T15:00:06Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:28+00:00
-status: "seedling"
-tags: ["dopamine", "feedback", "TheHuman/Health/ADHD", "TheHuman/Motivation"]
+aliases:
+- Rapid Feedback Loops
+created: 2025-11-12 15:00:06+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:28+00:00
+status: seedling
+tags:
+- dopamine
+- feedback
+- TheHuman/Health/ADHD
+- TheHuman/Motivation
 title: Rapid Feedback Loops are Essential for ADHD Motivation
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/rapid-feedback-loops-are-essential-for-adhd-motivation
 ---
 
 ## Rapid Feedback Loops Are Essential for ADHD Motivation

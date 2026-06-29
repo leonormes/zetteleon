@@ -1,13 +1,19 @@
 ---
-aliases: ["Socio-Technical Dissonance"]
-created: 2025-12-17T00:00:00Z
-last_reviewed: "2025-12-17"
-modified: 2026-02-01T15:08:02+00:00
-status: "stable"
-tags: ["complexity", "social-dynamics", "team-dynamics", "topic/systems"]
+aliases:
+- Socio-Technical Dissonance
+created: 2025-12-17 00:00:00+00:00
+last_reviewed: '2025-12-17'
+modified: 2026-02-01 15:08:02+00:00
+status: stable
+tags:
+- complexity
+- social-dynamics
+- team-dynamics
+- topic/systems
 title: SoT - Accidental Social Complexity
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-accidental-social-complexity
 ---
 
 ## 1. Definitive Statement

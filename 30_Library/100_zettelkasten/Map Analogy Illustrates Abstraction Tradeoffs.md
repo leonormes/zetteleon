@@ -1,13 +1,16 @@
 ---
 aliases: []
-created: 2025-10-31T11:23:00Z
-last_reviewed: ""
-modified: 2026-05-26T11:44:34+00:00
-status: "stable"
-tags: ["TheHuman/Cognition", "visualization"]
+created: 2025-10-31 11:23:00+00:00
+last_reviewed: ''
+modified: 2026-05-26 11:44:34+00:00
+status: stable
+tags:
+- TheHuman/Cognition
+- visualization
 title: Map Analogy Illustrates Abstraction Tradeoffs
-type: "example"
-updated: 
+type: example
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/map-analogy-illustrates-abstraction-tradeoffs
 ---
 
 ## Map Analogy Illustrates Abstraction Tradeoffs

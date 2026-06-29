@@ -1,12 +1,19 @@
 ---
-title: "Hermes OpenRouter + Claude Code CLI Configuration Research"
-created: "2026-05-27T12:13:00+00:00"
+title: Hermes OpenRouter + Claude Code CLI Configuration Research
+created: '2026-05-27T12:13:00+00:00'
 source: pieces-ltm
 pieces_ids:
-  - 78c22094-fd94-4479-af2a-b6b747ee689f
-  - fad6006c-7e79-418f-8b41-d6480f0e18bc
-  - 10a11651-64de-4c69-90a0-25f6f72ce0af
-tags: [raw, pieces, hermes, openrouter, claude-code, mesh]
+- 78c22094-fd94-4479-af2a-b6b747ee689f
+- fad6006c-7e79-418f-8b41-d6480f0e18bc
+- 10a11651-64de-4c69-90a0-25f6f72ce0af
+tags:
+- raw
+- pieces
+- hermes
+- openrouter
+- claude-code
+- mesh
+permalink: llmeon/raw/2026-05-27-pieces-hermes-openrouter-claude
 ---
 
 # Hermes OpenRouter + Claude Code CLI Configuration Research

@@ -1,8 +1,13 @@
 ---
-created: 2026-04-10T00:00:00+00:00
-modified: 2026-05-26T11:44:34+00:00
-tags: [decision-fatigue, discipline, efficiency, gtd]
+created: 2026-04-10 00:00:00+00:00
+modified: 2026-05-26 11:44:34+00:00
+tags:
+- decision-fatigue
+- discipline
+- efficiency
+- gtd
 title: Never Return an Item to the In-Tray Once Picked Up for Clarification
+permalink: llmeon/30-library/100-zettelkasten/never-return-an-item-to-the-in-tray-once-picked-up-for-clarification
 ---
 
 ## Never Return an Item to the In-Tray Once Picked Up for Clarification

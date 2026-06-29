@@ -1,14 +1,21 @@
 ---
-aliases: ["Breadth vs Depth", "Explorer vs Specialist", "Synthesist vs Expert"]
-created: 2025-09-11T20:23:51Z
-creation_date: "2025-09-11T00:00:00.000Z"
-last_reviewed: "null"
-modified: 2026-02-01T15:08:32+00:00
-status: "null"
-tags: ["academic-models", "intellectual-identity", "topic/learning/styles"]
+aliases:
+- Breadth vs Depth
+- Explorer vs Specialist
+- Synthesist vs Expert
+created: 2025-09-11 20:23:51+00:00
+creation_date: '2025-09-11T00:00:00.000Z'
+last_reviewed: 'null'
+modified: 2026-02-01 15:08:32+00:00
+status: 'null'
+tags:
+- academic-models
+- intellectual-identity
+- topic/learning/styles
 title: Intellectual Explorer vs Academic Specialist
-type: "null"
-updated: 
+type: 'null'
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/intellectual-explorer-vs-academic-specialist
 ---
 
 Intellectual explorers thrive on breadth and synthesis, seeking to understand connections across multiple domains rather than achieving exhaustive knowledge within a single field. This contrasts with academic specialists who pursue deep, narrow expertise through sustained focus on one area.

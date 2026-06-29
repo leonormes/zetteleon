@@ -1,13 +1,21 @@
 ---
-aliases: ["Pre-specification", "Reproducible Research", "Scientific Best Practices"]
-created: 2026-01-06T19:31:01+00:00
-last_reviewed: 
-modified: 2026-02-01T15:08:01+00:00
-status: "Active"
-tags: ["ethics", "methodology", "ohdsi", "science"]
+aliases:
+- Pre-specification
+- Reproducible Research
+- Scientific Best Practices
+created: 2026-01-06 19:31:01+00:00
+last_reviewed: null
+modified: 2026-02-01 15:08:01+00:00
+status: Active
+tags:
+- ethics
+- methodology
+- ohdsi
+- science
 title: SoT - Best Practices for Real-World Analysis
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-best-practices-for-real-world-analysis
 ---
 
 ## SoT - Best Practices for Real-World Analysis

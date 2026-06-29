@@ -1,11 +1,12 @@
 ---
 status: Project.Planned
 priority: B
-prodosProject: ""
-prodosCategory: ""
+prodosProject: ''
+prodosCategory: ''
 contexts: []
 tags:
-  - operon/parent
+- operon/parent
+permalink: llmeon/operon/templates/template-operon-parent-outcome
 ---
 
 ## Definition of done

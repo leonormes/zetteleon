@@ -1,13 +1,24 @@
 ---
-aliases: ["Affluence", "and Morality", "Effective Altruism Foundation", "Peter Singer's Famine", "Singerian Ethics"]
-created: 2025-12-14T00:00:00Z
-last_reviewed: "2025-12-14"
-modified: 2026-02-01T15:07:53+00:00
-status: "stable"
-tags: ["effective_altruism", "ethics", "moral_philosophy", "peter_singer", "utilitarianism"]
-title: "SoT - Peter Singer's Famine, Affluence, and Morality"
-type: "SoT"
-updated: 
+aliases:
+- Affluence
+- and Morality
+- Effective Altruism Foundation
+- Peter Singer's Famine
+- Singerian Ethics
+created: 2025-12-14 00:00:00+00:00
+last_reviewed: '2025-12-14'
+modified: 2026-02-01 15:07:53+00:00
+status: stable
+tags:
+- effective_altruism
+- ethics
+- moral_philosophy
+- peter_singer
+- utilitarianism
+title: SoT - Peter Singer's Famine, Affluence, and Morality
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-peter-singers-famine-affluence-and-morality
 ---
 
 ## 2. Conceptual Foundation: Obligation vs. Supererogation

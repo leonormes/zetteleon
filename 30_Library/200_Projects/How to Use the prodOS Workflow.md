@@ -1,11 +1,12 @@
 ---
-created: 2026-05-26T13:49:47+00:00
-modified: 2026-06-08T11:49:17+00:00
+created: 2026-05-26 13:49:47+00:00
+modified: 2026-06-08 11:49:17+00:00
 project_category: prodos
 project_name: ProdOS
 project_status: active
 title: How to Use the prodOS Workflow
-type:
+type: null
+permalink: llmeon/30-library/200-projects/how-to-use-the-prod-os-workflow
 ---
 
 Your ProdOS (Productivity Operating System) has two distinct but connected faces: the personal thinking loop (daily mental processing) and the work automation loop (Jira/Teams/Todoist via Hermes Gateway). Here's how each works.

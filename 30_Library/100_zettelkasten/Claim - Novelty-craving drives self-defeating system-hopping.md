@@ -1,11 +1,19 @@
 ---
-created: 2026-05-31T00:00:00+00:00
-modified: 2026-05-31T17:21:55+00:00
+created: 2026-05-31 00:00:00+00:00
+modified: 2026-05-31 17:21:55+00:00
 position-date: 2026-05-31
-related_to: ["[[Claim - Treat the system as iterative not perfectable]]", "[[Q - Iterating versus system-hopping]]", "[[System-Hopping]]"]
-tags: [adhd, motivation, novelty, system-hopping]
+related_to:
+- '[[Claim - Treat the system as iterative not perfectable]]'
+- '[[Q - Iterating versus system-hopping]]'
+- '[[System-Hopping]]'
+tags:
+- adhd
+- motivation
+- novelty
+- system-hopping
 title: Claim - Novelty-craving drives self-defeating system-hopping
 type: claim
+permalink: llmeon/30-library/100-zettelkasten/claim-novelty-craving-drives-self-defeating-system-hopping
 ---
 
 > [!claim] Statement

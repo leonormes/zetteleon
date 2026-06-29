@@ -1,9 +1,21 @@
 ---
 title: FTFL-638 — Workflow Node Taint Investigation for alloy-logs DaemonSet coverage
-created: 2026-05-29T19:54:32+00:00
+created: 2026-05-29 19:54:32+00:00
 source: pieces-ltm
-pieces_ids: [d8922edc-675e-44aa-a03b-b719fcf7780a, cf74bae5-299f-4da9-86f3-c94740c77269, 7c6fcf68-3c0e-4f47-ac18-c8d348f377e4, a839433b-9770-4a89-858f-1a49b8abd5ff, 9597cde8-0156-47a3-80d4-d634e7ea85bc, 6c429e3c-2cb5-49dc-900a-79d52e9c56f7, f52ff803-0036-42da-aa19-7b592e013e59, 4b065739-05db-45aa-a1f3-596ff3ef1c5e, c001ed38-a688-4707-9c0f-0df644e3d719]
-tags: [raw, pieces]
+pieces_ids:
+- d8922edc-675e-44aa-a03b-b719fcf7780a
+- cf74bae5-299f-4da9-86f3-c94740c77269
+- 7c6fcf68-3c0e-4f47-ac18-c8d348f377e4
+- a839433b-9770-4a89-858f-1a49b8abd5ff
+- 9597cde8-0156-47a3-80d4-d634e7ea85bc
+- 6c429e3c-2cb5-49dc-900a-79d52e9c56f7
+- f52ff803-0036-42da-aa19-7b592e013e59
+- 4b065739-05db-45aa-a1f3-596ff3ef1c5e
+- c001ed38-a688-4707-9c0f-0df644e3d719
+tags:
+- raw
+- pieces
+permalink: llmeon/raw/2026-05-29-pieces-ftfl638-workflow-taints
 ---
 
 ## Asset (Pieces: d8922edc-675e-44aa-a03b-b719fcf7780a)
@@ -321,4 +333,3 @@ I don't need to make any tool calls here — this is purely a Kubernetes concept
 ## Asset (Pieces: c001ed38-a688-4707-9c0f-0df644e3d719)
 
 if I add those tolerations will the pods still deploy to the other nodes that don't have them taints
-

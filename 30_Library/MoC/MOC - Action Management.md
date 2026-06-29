@@ -1,14 +1,24 @@
 ---
-aliases: [Action MOC, Doing MOC, Execution Map]
-created: 2025-12-08T00:00:00Z
+aliases:
+- Action MOC
+- Doing MOC
+- Execution Map
+created: 2025-12-08 00:00:00+00:00
 last_reviewed: 2026-04-18
-modified: 2026-05-26T11:44:23+00:00
-related-soTs: ["[[SoT - Execution Protocol (GTD & PARA)]]"]
+modified: 2026-05-26 11:44:23+00:00
+related-soTs:
+- '[[SoT - Execution Protocol (GTD & PARA)]]'
 status: evergreen
-tags: ["TheHuman/Health/ADHD", action, execution, gtd, prodos]
+tags:
+- TheHuman/Health/ADHD
+- action
+- execution
+- gtd
+- prodos
 title: MOC - Action Management
 type: map
-updated:
+updated: null
+permalink: llmeon/30-library/mo-c/moc-action-management
 ---
 
 ## MOC - Action Management

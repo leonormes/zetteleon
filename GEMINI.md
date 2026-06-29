@@ -1,13 +1,14 @@
 ---
 aliases: []
-created: 2025-07-08T12:32:39Z
-last_reviewed:
-modified: 2026-05-26T11:43:53+00:00
-status:
+created: 2025-07-08 12:32:39+00:00
+last_reviewed: null
+modified: 2026-05-26 11:43:53+00:00
+status: null
 tags: []
 title: GEMINI
-type:
-updated:
+type: null
+updated: null
+permalink: llmeon/gemini
 ---
 
 ## SYSTEM INSTRUCTIONS & TOOLING PROTOCOLS

@@ -1,16 +1,25 @@
 ---
-aliases: ["Assembly Theory", "Functional Information Theory", "The Fourth Law of Thermodynamics"]
-created: 2025-12-25T12:00:00Z
-last_reviewed: "2025-12-25"
-modified: 2026-05-26T11:44:16+00:00
+aliases:
+- Assembly Theory
+- Functional Information Theory
+- The Fourth Law of Thermodynamics
+created: 2025-12-25 12:00:00+00:00
+last_reviewed: '2025-12-25'
+modified: 2026-05-26 11:44:16+00:00
 see_also: []
-status: "stable"
-superseded_by: ""
-supersedes: ""
-tags: ["complexity", "evolution", "information_theory", "physics", "systems_theory"]
+status: stable
+superseded_by: ''
+supersedes: ''
+tags:
+- complexity
+- evolution
+- information_theory
+- physics
+- systems_theory
 title: SoT - The Law of Increasing Functional Information
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-the-law-of-increasing-functional-information
 ---
 
 ## 1. Definitive Statement

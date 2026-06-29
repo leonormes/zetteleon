@@ -1,11 +1,12 @@
 ---
-created: 2026-06-05T10:48:15+00:00
-modified: 2026-06-11T10:25:37+00:00
+created: 2026-06-05 10:48:15+00:00
+modified: 2026-06-11 10:25:37+00:00
 project_category: refined_deployment
-project_name: "Refined Deployment"
+project_name: Refined Deployment
 project_status: active
 title: OIDC Authentication — A Practical Wiki
 type: wiki
+permalink: llmeon/30-library/200-projects/oidc-authentication-wiki
 ---
 
 ## OpenID Connect (OIDC)—A Practical Wiki

@@ -1,13 +1,15 @@
 ---
 aliases: []
-created: 2025-05-28T19:20:57Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:36+00:00
-status: ""
-tags: [llm-understanding]
+created: 2025-05-28 19:20:57+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:36+00:00
+status: ''
+tags:
+- llm-understanding
 title: Code Comprehension vs. Language Processing
-type: ""
-updated:
+type: ''
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/code-comprehension-vs.-language-processing
 ---
 
 A key finding from fMRI research is that code comprehension appears to rely on different neural machinery than natural language understanding. While programming languages have syntax and semantics, the brain seems to process them primarily using the MD system, which is involved in executive functions like working memory, attention, and logical reasoning, rather than the classic left-hemisphere language network. This supports the idea that programming leverages general-purpose cognitive tools.

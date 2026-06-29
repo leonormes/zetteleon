@@ -1,13 +1,18 @@
 ---
 aliases: []
-created: 2025-10-20T09:56:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:26+00:00
-status: ""
-tags: ["brain", "models", "TheHuman/Cognition", "TheHuman/Neuroscience"]
+created: 2025-10-20 09:56:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:26+00:00
+status: ''
+tags:
+- brain
+- models
+- TheHuman/Cognition
+- TheHuman/Neuroscience
 title: The Brain as a Distributed Prediction Machine
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/the-brain-as-a-distributed-prediction-machine
 ---
 
 Neuroscience reveals that mental models are not located in a single, neat part of the brain. Instead, they are distributed and emergent properties of the brain's neural networks.

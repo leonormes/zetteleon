@@ -1,13 +1,14 @@
 ---
 aliases: []
-created: 2025-05-10T10:01:40Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:28+00:00
-status: ""
+created: 2025-05-10 10:01:40+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:28+00:00
+status: ''
 tags: []
 title: Purpose of my PKM system
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/purpose-of-my-pkm-system
 ---
 
 [[I am iterating on creating a thinking system]].

@@ -1,13 +1,14 @@
 ---
 aliases: []
-created: 2025-05-26T20:25:56Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:33+00:00
-status: ""
+created: 2025-05-26 20:25:56+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:33+00:00
+status: ''
 tags: []
 title: How the Brain Learns Core Cognitive Processes
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/how-the-brain-learns-core-cognitive-processes
 ---
 
 This note provides an umbrella framework for understanding the core cognitive processes that enable learning in any domain, with particular relevance to software development.

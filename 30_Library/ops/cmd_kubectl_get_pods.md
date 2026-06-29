@@ -1,13 +1,18 @@
 ---
-created: 2026-02-21T15:05:07+00:00
+created: 2026-02-21 15:05:07+00:00
 hop_level: local
-modified: 2026-03-14T11:10:10+00:00
+modified: 2026-03-14 11:10:10+00:00
 requires_tunnel: true
-tags: [atomic, kubectl, pods, verification]
+tags:
+- atomic
+- kubectl
+- pods
+- verification
 target_service: k8s
 title: cmd_kubectl_get_pods
 tool: kubectl
 type: atomic_command
+permalink: llmeon/30-library/ops/cmd-kubectl-get-pods
 ---
 
 ## Get Pods Wide Output

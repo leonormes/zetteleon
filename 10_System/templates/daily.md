@@ -1,11 +1,12 @@
 ---
 alias: []
-created: 2025-10-18T13:25:33+00:00
-modified: 2026-01-30T16:19:32+00:00
+created: 2025-10-18 13:25:33+00:00
+modified: 2026-01-30 16:19:32+00:00
 title: daily
 type: daily
-uid:
-updated:
+uid: null
+updated: null
+permalink: llmeon/10-system/templates/daily
 ---
 
 ```journal-nav

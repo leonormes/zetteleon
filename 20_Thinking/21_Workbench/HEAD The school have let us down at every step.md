@@ -1,12 +1,14 @@
 ---
-captured: "2026-06-10T09:42:47+01:00 2026-06-10T09:42:47+01:00"
-created: 2026-06-10T08:42:49+00:00
-modified: 2026-06-10T08:43:25+00:00
-source: "https://gemini.google.com/app/68d229744e965a52"
-status: "processing"
-tags: ["input"]
+captured: 2026-06-10T09:42:47+01:00 2026-06-10T09:42:47+01:00
+created: 2026-06-10 08:42:49+00:00
+modified: 2026-06-10 08:43:25+00:00
+source: https://gemini.google.com/app/68d229744e965a52
+status: processing
+tags:
+- input
 title: HEAD New chat
-type: "head"
+type: head
+permalink: llmeon/20-thinking/21-workbench/head-the-school-have-let-us-down-at-every-step
 ---
 
 ## Raw Output / Content

@@ -1,13 +1,16 @@
 ---
 aliases: []
-created: 2025-10-31T12:35:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:27+00:00
-status: "seedling"
-tags: ["coupling", "SoftwareEngineering/Architecture"]
+created: 2025-10-31 12:35:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:27+00:00
+status: seedling
+tags:
+- coupling
+- SoftwareEngineering/Architecture
 title: Strategic Duplication Reduces System Coupling
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/strategic-duplication-reduces-system-coupling
 ---
 
 ## Strategic Duplication Reduces System Coupling

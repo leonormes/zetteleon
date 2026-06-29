@@ -1,17 +1,25 @@
 ---
 title: FFNode Stress Testing — FTFL-500
-description: Stress testing programme for FFNode infrastructure across asset registration, pre-flight QA, and single-node baseline testing. Defined in FTFL-500 Epic.
+description: Stress testing programme for FFNode infrastructure across asset registration,
+  pre-flight QA, and single-node baseline testing. Defined in FTFL-500 Epic.
 wiki_type: dossier
 entity_kind: project
-created: 2026-06-12T08:50:00+00:00
-modified: 2026-06-15T14:08:00+00:00
-tags: [wiki, project, ffnode, stress-testing, ftfl, jira]
+created: 2026-06-12 08:50:00+00:00
+modified: 2026-06-15 14:08:00+00:00
+tags:
+- wiki
+- project
+- ffnode
+- stress-testing
+- ftfl
+- jira
 sources:
-  - raw/2026-06-12-pieces-ffnode-mcp-proxy
-  - raw/2026-06-15-pieces-ffnode-refinement-pre-tickets
-  - 30_Library/200_Projects/2026-06-11-FFNode-Stress-Testing-v5-Full-Document
-  - 00_Inbox/FFNode-Stress-Testing-Jira-Backlog-REVISED-2026-06-12
-  - 30_Library/200_Projects/Complete Jira Work Item Text Structure
+- raw/2026-06-12-pieces-ffnode-mcp-proxy
+- raw/2026-06-15-pieces-ffnode-refinement-pre-tickets
+- 30_Library/200_Projects/2026-06-11-FFNode-Stress-Testing-v5-Full-Document
+- 00_Inbox/FFNode-Stress-Testing-Jira-Backlog-REVISED-2026-06-12
+- 30_Library/200_Projects/Complete Jira Work Item Text Structure
+permalink: llmeon/wiki/projects/ffnode-stress-testing-ftfl-500
 ---
 
 ## Summary

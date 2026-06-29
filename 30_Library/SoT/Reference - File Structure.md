@@ -1,12 +1,13 @@
 ---
 aliases: []
-created: 2026-01-03T10:07:49+00:00
-last_reviewed: ""
-modified: 2026-02-01T15:08:03+00:00
-status: ""
+created: 2026-01-03 10:07:49+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:03+00:00
+status: ''
 tags: []
 title: Reference - File Structure
-type: ""
+type: ''
+permalink: llmeon/30-library/so-t/reference-file-structure
 ---
 
 ## Reference - File Structure & Naming Conventions

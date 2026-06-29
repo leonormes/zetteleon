@@ -1,13 +1,19 @@
 ---
-aliases: ["Blame vs Labour", "Causality vs Repair"]
-created: 2025-12-24T12:00:00Z
+aliases:
+- Blame vs Labour
+- Causality vs Repair
+created: 2025-12-24 12:00:00+00:00
 last_reviewed: 2025-12-24
-modified: 2026-02-01T15:08:25+00:00
-status: "stable"
-tags: ["conflict-resolution", "logic", "relationships"]
+modified: 2026-02-01 15:08:25+00:00
+status: stable
+tags:
+- conflict-resolution
+- logic
+- relationships
 title: The Fault vs Repair Distinction in Relationship Dynamics
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/the-fault-vs-repair-distinction-in-relationship-dynamics
 ---
 
 A common relational impasse occurs when a partner conflates the cause of a problem with the labour of solving it.

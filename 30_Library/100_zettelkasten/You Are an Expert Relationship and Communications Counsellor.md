@@ -1,16 +1,17 @@
 ---
 aliases: []
-created: 2025-11-11T09:27:40Z
-last_reviewed: ""
-modified: 2026-05-26T11:44:31+00:00
+created: 2025-11-11 09:27:40+00:00
+last_reviewed: ''
+modified: 2026-05-26 11:44:31+00:00
 see_also: []
-status: ""
-superseded_by: ""
-supersedes: ""
+status: ''
+superseded_by: ''
+supersedes: ''
 tags: []
 title: You Are an Expert Relationship and Communications Counsellor
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/you-are-an-expert-relationship-and-communications-counsellor
 ---
 
 ## Role: You Are an Expert Relationship and Communications Counsellor

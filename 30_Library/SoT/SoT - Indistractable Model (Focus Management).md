@@ -1,13 +1,22 @@
 ---
-aliases: ["Focus Management", "The Indistractable Model", "Traction vs Distraction"]
-created: 2025-12-24T12:10:45Z
-last_reviewed: "2025-12-24"
-modified: 2026-02-01T15:07:56+00:00
-status: "stable"
-tags: ["adhd", "focus", "indistractable", "productivity", "psychology"]
+aliases:
+- Focus Management
+- The Indistractable Model
+- Traction vs Distraction
+created: 2025-12-24 12:10:45+00:00
+last_reviewed: '2025-12-24'
+modified: 2026-02-01 15:07:56+00:00
+status: stable
+tags:
+- adhd
+- focus
+- indistractable
+- productivity
+- psychology
 title: SoT - Indistractable Model (Focus Management)
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-indistractable-model-focus-management
 ---
 
 ## SoT - Indistractable Model (Focus Management)

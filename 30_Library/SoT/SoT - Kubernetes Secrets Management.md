@@ -1,12 +1,20 @@
 ---
-aliases: [Etcd Encryption, Kubernetes Secret Security]
-created: 2025-02-07T12:57:56Z
+aliases:
+- Etcd Encryption
+- Kubernetes Secret Security
+created: 2025-02-07 12:57:56+00:00
 last_reviewed: 2026-02-13
-modified: 2026-02-13T13:38:39+00:00
+modified: 2026-02-13 13:38:39+00:00
 status: stable
-tags: [etcd, kubernetes, secrets, security, sot]
+tags:
+- etcd
+- kubernetes
+- secrets
+- security
+- sot
 title: SoT - Kubernetes Secrets Management
 type: SoT
+permalink: llmeon/30-library/so-t/so-t-kubernetes-secrets-management
 ---
 
 ## SoT - Kubernetes Secrets Management

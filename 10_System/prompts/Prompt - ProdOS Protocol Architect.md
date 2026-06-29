@@ -1,10 +1,15 @@
 ---
-created: 2026-03-30T14:56:12+00:00
-description: Refactor loose instructions into strict, binary Protocol notes or Todoist-ready actions (with Ignition variant).
-modified: 2026-05-26T11:44:37+00:00
-tags: [creation, prodos, type/system]
+created: 2026-03-30 14:56:12+00:00
+description: Refactor loose instructions into strict, binary Protocol notes or Todoist-ready
+  actions (with Ignition variant).
+modified: 2026-05-26 11:44:37+00:00
+tags:
+- creation
+- prodos
+- type/system
 title: Prompt - ProdOS Protocol Architect
 type: prompt
+permalink: llmeon/10-system/prompts/prompt-prod-os-protocol-architect
 ---
 
 ## SYSTEM ROLE

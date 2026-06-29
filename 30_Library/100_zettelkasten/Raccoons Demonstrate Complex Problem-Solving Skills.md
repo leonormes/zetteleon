@@ -1,13 +1,16 @@
 ---
 aliases: []
-created: 2025-10-31T09:54:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:28+00:00
-status: "seedling"
-tags: ["animal-cognition", "problem-solving"]
+created: 2025-10-31 09:54:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:28+00:00
+status: seedling
+tags:
+- animal-cognition
+- problem-solving
 title: Raccoons Demonstrate Complex Problem-Solving Skills
-type: "example"
-updated: 
+type: example
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/raccoons-demonstrate-complex-problem-solving-skills
 ---
 
 ## Raccoons Demonstrate Complex Problem-Solving Skills

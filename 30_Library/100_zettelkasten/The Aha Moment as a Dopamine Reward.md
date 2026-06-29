@@ -1,13 +1,18 @@
 ---
 aliases: []
-created: 2025-08-27T19:16:54Z
-last_reviewed: "null"
-modified: 2026-02-01T15:08:26+00:00
-status: "null"
-tags: ["TheHuman/Motivation", "TheHuman/Neuroscience", "TheHuman/Psychology", "topic/learning"]
+created: 2025-08-27 19:16:54+00:00
+last_reviewed: 'null'
+modified: 2026-02-01 15:08:26+00:00
+status: 'null'
+tags:
+- TheHuman/Motivation
+- TheHuman/Neuroscience
+- TheHuman/Psychology
+- topic/learning
 title: The Aha Moment as a Dopamine Reward
-type: "null"
-updated: 
+type: 'null'
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/the-aha-moment-as-a-dopamine-reward
 ---
 
 The feeling of cleverness experienced when grasping a new concept is a biological reward mechanism. When a new piece of information is successfully connected to existing knowledge (an "Aha!" moment), the brain releases a small burst of dopamine.

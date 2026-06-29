@@ -1,13 +1,15 @@
 ---
 aliases: []
-created: 2025-11-22T15:00:00Z
-last_reviewed: "2025-11-22"
-modified: 2026-02-01T15:08:35+00:00
-status: "seedling"
-tags: ["SoftwareEngineering/networking/tcp"]
+created: 2025-11-22 15:00:00+00:00
+last_reviewed: '2025-11-22'
+modified: 2026-02-01 15:08:35+00:00
+status: seedling
+tags:
+- SoftwareEngineering/networking/tcp
 title: Concept - TCP Three-Way Handshake
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/concept-tcp-three-way-handshake
 ---
 
 ## TCP Three-Way Handshake

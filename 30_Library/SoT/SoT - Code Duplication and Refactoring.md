@@ -1,13 +1,15 @@
 ---
 aliases: []
-created: 2025-12-12T00:00:00Z
+created: 2025-12-12 00:00:00+00:00
 last_reviewed: 2025-12-12
-modified: 2026-02-01T15:08:01+00:00
+modified: 2026-02-01 15:08:01+00:00
 status: stable
-tags: [llm-understanding]
+tags:
+- llm-understanding
 title: SoT - Code Duplication and Refactoring
 type: SoT
-updated:
+updated: null
+permalink: llmeon/30-library/so-t/so-t-code-duplication-and-refactoring
 ---
 
 ## 2. Kent Beck's Types of Duplication

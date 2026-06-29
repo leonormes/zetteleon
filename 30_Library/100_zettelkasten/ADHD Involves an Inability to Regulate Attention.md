@@ -1,13 +1,21 @@
 ---
-aliases: ["ADHD Focus Regulation", "Distractibility", "Hyperfocus"]
-created: 2025-11-06T19:54:00Z
-last_reviewed: "2025-11-06T00:00:00.000Z"
-modified: 2026-02-01T15:08:37+00:00
-status: "seedling"
-tags: ["focus", "hyperfocus", "TheHuman/Health/ADHD", "topic/productivity"]
+aliases:
+- ADHD Focus Regulation
+- Distractibility
+- Hyperfocus
+created: 2025-11-06 19:54:00+00:00
+last_reviewed: '2025-11-06T00:00:00.000Z'
+modified: 2026-02-01 15:08:37+00:00
+status: seedling
+tags:
+- focus
+- hyperfocus
+- TheHuman/Health/ADHD
+- topic/productivity
 title: ADHD Involves an Inability to Regulate Attention
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/adhd-involves-an-inability-to-regulate-attention
 ---
 
 ## ADHD Involves an Inability to Regulate Attention

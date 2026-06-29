@@ -1,15 +1,19 @@
 ---
-created: 2026-04-14T20:51:37+00:00
-created_utc: "2026-04-14T14:20:00Z"
+created: 2026-04-14 20:51:37+00:00
+created_utc: '2026-04-14T14:20:00Z'
 kind: procedure
-modified: 2026-05-26T11:44:34+00:00
-source_title: "Why Is AI Making My Job Worse?"
-source_url: "http://www.youtube.com/watch?v=NDyuJcR2GH4"
+modified: 2026-05-26 11:44:34+00:00
+source_title: Why Is AI Making My Job Worse?
+source_url: http://www.youtube.com/watch?v=NDyuJcR2GH4
 status: seed
-tags: [management-strategy, performance-metrics, value-creation]
+tags:
+- management-strategy
+- performance-metrics
+- value-creation
 title: Objective Scoreboards
 type: atom
-upstream: "[[SoT - Principles for Peaceful Productivity]]"
+upstream: '[[SoT - Principles for Peaceful Productivity]]'
+permalink: llmeon/30-library/100-zettelkasten/objective-scoreboards
 ---
 
 ## Objective Scoreboards

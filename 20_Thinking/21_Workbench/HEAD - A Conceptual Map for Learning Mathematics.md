@@ -1,9 +1,12 @@
 ---
 aliases: []
-created: 2026-05-28T00:00:46+00:00
-modified: 2026-05-28T12:31:13+00:00
-tags: [prodos/head, state/thinking]
+created: 2026-05-28 00:00:46+00:00
+modified: 2026-05-28 12:31:13+00:00
+tags:
+- prodos/head
+- state/thinking
 title: HEAD - A Conceptual Map for Learning Mathematics
+permalink: llmeon/20-thinking/21-workbench/head-a-conceptual-map-for-learning-mathematics
 ---
 
 This video from the channel _El Traductor de Ingeniería_ (The Engineering Translator) presents a "conceptual map" for learning mathematics in a structured way, which is ideal for someone preparing for university or studying engineering. The speaker, Damián, emphasises that mathematics is constructive and that topics should not be viewed as isolated pieces.

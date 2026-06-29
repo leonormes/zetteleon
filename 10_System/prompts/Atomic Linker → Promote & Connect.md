@@ -1,7 +1,8 @@
 ---
-created: 2026-04-10T10:43:23+00:00
-modified: 2026-05-26T11:44:37+00:00
+created: 2026-04-10 10:43:23+00:00
+modified: 2026-05-26 11:44:37+00:00
 title: Atomic Linker → Promote & Connect
+permalink: llmeon/10-system/prompts/atomic-linker-promote-connect
 ---
 
 ## Step 2 Prompt: Atomic Linker → Promote & Connect

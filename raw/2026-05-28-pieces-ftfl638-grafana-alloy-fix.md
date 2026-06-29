@@ -1,23 +1,26 @@
 ---
 title: Grafana Alloy FTFL-638 — Config Fix, ArgoCD Sync, and Resolution
-created: 2026-05-28T14:00:00+00:00
+created: 2026-05-28 14:00:00+00:00
 source: pieces-ltm
 pieces_ids:
-  - cb801a1a-0bca-4d3a-9893-10389e501fa8
-  - d766dadf-20b8-4ab6-9b5e-fe81d3e8fde1
-  - b185eecc-c488-432c-bebf-de39b0470e52
-  - 8e64aa14-02d3-45b4-ae48-1a1a1e19eef4
-  - 0dc6aa22-eb8b-49cf-bab0-bb7f2c2d0774
-  - df1054fe-1f65-494d-861b-8f159a442533
-  - eaaa7158-e26f-49de-8989-0fb3a85f0cf1
-  - eb033a66-71a3-45d9-81ac-4287575901b1
-  - 8f08c302-94ef-440d-8afa-1009449f6973
-  - 1857c195-17fa-440a-96bb-646c4f7e0b14
-  - 0f8faf1e-fdf2-4b8b-bb47-f75ead406427
-  - 48031f32-a7d5-4191-bddf-347b19528d81
-  - 63742416-0040-428f-bd13-f3206bc8b8b1
-  - 5675ee4c-4af5-4d50-b915-7629fa1f8827
-tags: [raw, pieces]
+- cb801a1a-0bca-4d3a-9893-10389e501fa8
+- d766dadf-20b8-4ab6-9b5e-fe81d3e8fde1
+- b185eecc-c488-432c-bebf-de39b0470e52
+- 8e64aa14-02d3-45b4-ae48-1a1a1e19eef4
+- 0dc6aa22-eb8b-49cf-bab0-bb7f2c2d0774
+- df1054fe-1f65-494d-861b-8f159a442533
+- eaaa7158-e26f-49de-8989-0fb3a85f0cf1
+- eb033a66-71a3-45d9-81ac-4287575901b1
+- 8f08c302-94ef-440d-8afa-1009449f6973
+- 1857c195-17fa-440a-96bb-646c4f7e0b14
+- 0f8faf1e-fdf2-4b8b-bb47-f75ead406427
+- 48031f32-a7d5-4191-bddf-347b19528d81
+- 63742416-0040-428f-bd13-f3206bc8b8b1
+- 5675ee4c-4af5-4d50-b915-7629fa1f8827
+tags:
+- raw
+- pieces
+permalink: llmeon/raw/2026-05-28-pieces-ftfl638-grafana-alloy-fix
 ---
 
 ## Asset 1 (Pieces: 0dc6aa22-eb8b-49cf-bab0-bb7f2c2d0774) — 2026-05-28T13:41:17Z

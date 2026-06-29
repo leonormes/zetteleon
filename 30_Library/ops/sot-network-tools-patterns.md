@@ -1,10 +1,20 @@
 ---
-aliases: ["Debugging Toolkit", "Netshoot Tools", "Network Tools SoT", "Tcpdump Guide"]
-created: 2026-02-04T00:00:00+00:00
-modified: 2026-02-19T15:01:06+00:00
-tags: ["debugging", "linux", "networking", "sot", "tools"]
+aliases:
+- Debugging Toolkit
+- Netshoot Tools
+- Network Tools SoT
+- Tcpdump Guide
+created: 2026-02-04 00:00:00+00:00
+modified: 2026-02-19 15:01:06+00:00
+tags:
+- debugging
+- linux
+- networking
+- sot
+- tools
 title: sot-network-tools-patterns
 type: sot
+permalink: llmeon/30-library/ops/sot-network-tools-patterns
 ---
 
 ## 1. The Strategy: Divide and Conquer (OSI Model)

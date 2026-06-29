@@ -1,13 +1,21 @@
 ---
-aliases: ["Collaborative Budgeting"]
-created: 2025-11-10T10:13:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:28+00:00
-status: "seedling"
-tags: ["autonomy", "budgeting", "finance", "relationship", "respect"]
-title: Respectful Budgeting is a Collaborative Process Focused on Shared Goals and Autonomy
-type: "concept"
-updated: 
+aliases:
+- Collaborative Budgeting
+created: 2025-11-10 10:13:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:28+00:00
+status: seedling
+tags:
+- autonomy
+- budgeting
+- finance
+- relationship
+- respect
+title: Respectful Budgeting is a Collaborative Process Focused on Shared Goals and
+  Autonomy
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/respectful-budgeting-is-a-collaborative-process-focused-on-shared-goals-and-autonomy
 ---
 
 ## Respectful Budgeting is a Collaborative Process Focused on Shared Goals and Autonomy

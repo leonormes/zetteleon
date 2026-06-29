@@ -1,10 +1,30 @@
 ---
 title: FTFL-511 — TLS Cipher Remediation & DNS Propagation
-created: 2026-06-01T22:03:23+00:00
+created: 2026-06-01 22:03:23+00:00
 source: pieces-ltm
-pieces_ids: [37e4252f-1b8e-45e5-a1e3-1908d114b3fd, ec9c756a-55c3-4760-9b16-f0da1bcf9f6c, 7e6890c9-d6bc-4390-891e-98961ae4f53f, 2e705a4f-892b-44ab-aaa4-195188d64534, 92b022c0-fd8a-4418-9442-8cca2cefe6f3, 480f2d8a-ccf4-4b1d-9d04-a75b69c29a7d, 9a572b4c-d9a1-4fb9-a5a2-51269582f7f1, be2e3a5e-3c95-46b1-a6dc-ce5b958490b7, e98472a6-f2be-477b-a36b-8d0ecf3ccde0, b023b25d-0208-4bd5-8bba-e5b2291ad098, 6ba298d9-2ca1-4ead-a773-dbf27b164efd, 001d11ea-4e94-4473-be02-3e8df852add8, 3314644d-e59b-4d73-a611-cd57e8ae2c49, 9ba83f8a-8a43-4419-bede-b79d9b8f82a2, 8e7b9778-4e55-4eac-b4bd-8e047982160f, 247ed4ba-d561-45e4-9dbb-a54b6f8ddc6f]
-tags: [raw, pieces]
+pieces_ids:
+- 37e4252f-1b8e-45e5-a1e3-1908d114b3fd
+- ec9c756a-55c3-4760-9b16-f0da1bcf9f6c
+- 7e6890c9-d6bc-4390-891e-98961ae4f53f
+- 2e705a4f-892b-44ab-aaa4-195188d64534
+- 92b022c0-fd8a-4418-9442-8cca2cefe6f3
+- 480f2d8a-ccf4-4b1d-9d04-a75b69c29a7d
+- 9a572b4c-d9a1-4fb9-a5a2-51269582f7f1
+- be2e3a5e-3c95-46b1-a6dc-ce5b958490b7
+- e98472a6-f2be-477b-a36b-8d0ecf3ccde0
+- b023b25d-0208-4bd5-8bba-e5b2291ad098
+- 6ba298d9-2ca1-4ead-a773-dbf27b164efd
+- 001d11ea-4e94-4473-be02-3e8df852add8
+- 3314644d-e59b-4d73-a611-cd57e8ae2c49
+- 9ba83f8a-8a43-4419-bede-b79d9b8f82a2
+- 8e7b9778-4e55-4eac-b4bd-8e047982160f
+- 247ed4ba-d561-45e4-9dbb-a54b6f8ddc6f
+tags:
+- raw
+- pieces
+permalink: llmeon/raw/2026-06-01-pieces-ftfl-511-tls-cipher-remediation
 ---
+
 ## Asset 1 (Pieces: 37e4252f-1b8e-45e5-a1e3-1908d114b3fd) — 2026-06-01T11:39
 
 The user is asking about what "server-tokens" means in the context of nginx/ingress-nginx, and whether it's safe to disable them. This is a technical question about nginx configuration, not a memory retrieval question. I can answer this from technical knowledge directly.

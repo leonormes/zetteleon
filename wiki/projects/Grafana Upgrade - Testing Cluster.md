@@ -2,10 +2,18 @@
 title: Grafana Upgrade - Testing Cluster
 wiki_type: dossier
 entity_kind: project
-created: 2026-05-29T11:05:35+00:00
-modified: 2026-05-29T11:05:35+00:00
-tags: [wiki, dossier, grafana, helm, monitoring, testing]
-sources: [[2026-05-29-pieces-grafana-upgrade-testing-cluster]]
+created: 2026-05-29 11:05:35+00:00
+modified: 2026-05-29 11:05:35+00:00
+tags:
+- wiki
+- dossier
+- grafana
+- helm
+- monitoring
+- testing
+sources:
+- - 2026-05-29-pieces-grafana-upgrade-testing-cluster
+permalink: llmeon/wiki/projects/grafana-upgrade-testing-cluster
 ---
 
 ## Summary

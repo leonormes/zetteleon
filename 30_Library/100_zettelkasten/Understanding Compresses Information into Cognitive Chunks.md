@@ -1,13 +1,18 @@
 ---
-aliases: ["Chunking", "Cognitive Compression"]
-created: 2025-10-31T11:22:00Z
-last_reviewed: ""
-modified: 2026-05-26T11:44:32+00:00
-status: "seedling"
-tags: ["memory", "TheHuman/Cognition"]
+aliases:
+- Chunking
+- Cognitive Compression
+created: 2025-10-31 11:22:00+00:00
+last_reviewed: ''
+modified: 2026-05-26 11:44:32+00:00
+status: seedling
+tags:
+- memory
+- TheHuman/Cognition
 title: Understanding Compresses Information into Cognitive Chunks
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/understanding-compresses-information-into-cognitive-chunks
 ---
 
 ## Understanding Compresses Information into Cognitive Chunks

@@ -1,11 +1,12 @@
 ---
-created: 2026-04-14T17:35:18+00:00
-created_utc: "2026-04-14T12:10:00Z"
-modified: 2026-05-26T11:44:23+00:00
-source_atoms: "[[tmp_atoms_calculus_roadmap.md]]"
+created: 2026-04-14 17:35:18+00:00
+created_utc: '2026-04-14T12:10:00Z'
+modified: 2026-05-26 11:44:23+00:00
+source_atoms: '[[tmp_atoms_calculus_roadmap.md]]'
 status: tmp
 title: _link_report_calculus_roadmap
 type: link_report
+permalink: llmeon/30-library/400-indexes/link-report-calculus-roadmap
 ---
 
 ## Link Report: The Roadmap to Calculus I Wish I Had

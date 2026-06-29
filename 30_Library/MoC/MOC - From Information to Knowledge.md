@@ -1,16 +1,21 @@
 ---
-aliases: ["MOC - Information to Knowledge"]
-created: 2025-11-01T12:10:00Z
-criteria: ""
-exclusions: "The data-information distinction, wisdom."
-last_reviewed: "null"
-modified: 2026-02-01T15:08:06+00:00
-scope: ""
-status: "null"
-tags: ["epistemology", "information", "knowledge"]
+aliases:
+- MOC - Information to Knowledge
+created: 2025-11-01 12:10:00+00:00
+criteria: ''
+exclusions: The data-information distinction, wisdom.
+last_reviewed: 'null'
+modified: 2026-02-01 15:08:06+00:00
+scope: ''
+status: 'null'
+tags:
+- epistemology
+- information
+- knowledge
 title: MOC - From Information to Knowledge
-type: "map"
-updated: 
+type: map
+updated: null
+permalink: llmeon/30-library/mo-c/moc-from-information-to-knowledge
 ---
 
 ## MOC - From Information to Knowledge

@@ -2,13 +2,16 @@
 title: FTFL-511 Nginx HTTPS Hardening
 wiki_type: dossier
 entity_kind: project
-created: 2026-05-28T18:05:00+00:00
-modified: 2026-06-02T02:22:11+00:00
-tags: [wiki, dossier]
+created: 2026-05-28 18:05:00+00:00
+modified: 2026-06-02 02:22:11+00:00
+tags:
+- wiki
+- dossier
 sources:
-  - raw/2026-05-28-pieces-ftfl511-jira-ticket.md
-  - raw/2026-06-01-pieces-ftfl-511-tls-cipher-remediation.md
-  - raw/2026-06-01-pieces-ftfl-511-tls-retest
+- raw/2026-05-28-pieces-ftfl511-jira-ticket.md
+- raw/2026-06-01-pieces-ftfl-511-tls-cipher-remediation.md
+- raw/2026-06-01-pieces-ftfl-511-tls-retest
+permalink: llmeon/wiki/projects/ftfl-511-nginx-https-hardening
 ---
 
 ## Summary
@@ -93,4 +96,3 @@ None identified.
 - ~~Who is the DevOps engineer that will re-pick the FTFL-511 fix?~~ **Resolved: No DevOps engineer needed — the issue was Cloudflare edge, not nginx origin.**
 - ~~Should the TLS hardening be applied via Helm values override or directly in the Helm chart?~~ **Resolved: Switching Cloudflare to DNS-only mode and validating at the origin was sufficient.**
 - Does the cipher suite hardening need to be applied to production as well?
-

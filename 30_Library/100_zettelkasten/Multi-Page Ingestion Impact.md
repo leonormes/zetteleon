@@ -1,15 +1,19 @@
 ---
-created: 2026-04-14T20:42:07+00:00
-created_utc: "2026-04-14T14:00:00Z"
+created: 2026-04-14 20:42:07+00:00
+created_utc: '2026-04-14T14:00:00Z'
 kind: mechanism
-modified: 2026-05-26T11:44:34+00:00
-source_title: "Hermes Agent and Karpathy’s LLM Wiki"
-source_url: "https://youtu.be/Mb5N08xcxtg"
+modified: 2026-05-26 11:44:34+00:00
+source_title: Hermes Agent and Karpathy’s LLM Wiki
+source_url: https://youtu.be/Mb5N08xcxtg
 status: seed
-tags: [consistency, data-integration, synchronization]
+tags:
+- consistency
+- data-integration
+- synchronization
 title: Multi-Page Ingestion Impact
 type: atom
-upstream: "[[SoT - LLM Wiki Pattern]]"
+upstream: '[[SoT - LLM Wiki Pattern]]'
+permalink: llmeon/30-library/100-zettelkasten/multi-page-ingestion-impact
 ---
 
 ## Multi-Page Ingestion Impact

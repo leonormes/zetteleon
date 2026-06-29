@@ -1,11 +1,19 @@
 ---
-created: 2026-05-31T00:00:00+00:00
-modified: 2026-05-31T17:21:49+00:00
-related_to: ["[[Claim - Novelty-craving drives self-defeating system-hopping]]", "[[Claim - Treat the system as iterative not perfectable]]", "[[System-Hopping]]"]
+created: 2026-05-31 00:00:00+00:00
+modified: 2026-05-31 17:21:49+00:00
+related_to:
+- '[[Claim - Novelty-craving drives self-defeating system-hopping]]'
+- '[[Claim - Treat the system as iterative not perfectable]]'
+- '[[System-Hopping]]'
 status: open
-tags: [adhd, meta, pkm, system-design]
+tags:
+- adhd
+- meta
+- pkm
+- system-design
 title: Q - Iterating versus system-hopping
 type: question
+permalink: llmeon/30-library/100-zettelkasten/q-iterating-versus-system-hopping
 ---
 
 ## Question—Where Is the line between Iterating and System-hopping?

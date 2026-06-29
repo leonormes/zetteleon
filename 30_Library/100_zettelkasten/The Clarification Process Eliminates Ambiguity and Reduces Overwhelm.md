@@ -1,13 +1,18 @@
 ---
 aliases: []
-created: 2025-11-10T15:12:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:26+00:00
-status: "seedling"
-tags: ["clarification", "gtd", "overwhelm", "topic/productivity"]
+created: 2025-11-10 15:12:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:26+00:00
+status: seedling
+tags:
+- clarification
+- gtd
+- overwhelm
+- topic/productivity
 title: The Clarification Process Eliminates Ambiguity and Reduces Overwhelm
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/the-clarification-process-eliminates-ambiguity-and-reduces-overwhelm
 ---
 
 Summary: The clarification process, which converts vague captured thoughts ("stuff") into atomic actions, eliminates ambiguity, creates immediate momentum, reduces overwhelm, and enables measurable progress.

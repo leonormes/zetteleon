@@ -1,16 +1,25 @@
 ---
 aliases: []
-created: 2025-10-26T17:19:00Z
-last_reviewed: "null"
-modified: 2026-06-08T11:49:15+00:00
+created: 2025-10-26 17:19:00+00:00
+last_reviewed: 'null'
+modified: 2026-06-08 11:49:15+00:00
 project_category: infrastructure
-project_name: "k8s"
+project_name: k8s
 project_status: archived
-status: "null"
-tags: ["calico", "cni", "flannel", "overlay", "SoftwareEngineering/Containers", "SoftwareEngineering/Kubernetes", "underlay", "weave"]
+status: 'null'
+tags:
+- calico
+- cni
+- flannel
+- overlay
+- SoftwareEngineering/Containers
+- SoftwareEngineering/Kubernetes
+- underlay
+- weave
 title: CNI plugins provide different network models and features
-type: "Fact"
-updated: 
+type: Fact
+updated: null
+permalink: llmeon/30-library/200-projects/cni-plugins-provide-different-network-models-and-features
 ---
 
 ## Summary

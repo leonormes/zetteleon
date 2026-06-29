@@ -1,13 +1,17 @@
 ---
 aliases: []
-created: 2025-10-31T10:06:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:30+00:00
-status: "seedling"
-tags: ["association", "learning", "memory"]
+created: 2025-10-31 10:06:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:30+00:00
+status: seedling
+tags:
+- association
+- learning
+- memory
 title: Mnemonic Devices Create Associative Memory Hooks
-type: "technique"
-updated: 
+type: technique
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/mnemonic-devices-create-associative-memory-hooks
 ---
 
 ## Mnemonic Devices Create Associative Memory Hooks

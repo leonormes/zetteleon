@@ -1,13 +1,17 @@
 ---
 aliases: []
-created: 2025-08-30T08:59:02Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:31+00:00
-status: ""
-tags: ["constants", "TheHuman/Cognition/mental-model", "topic/maths"]
+created: 2025-08-30 08:59:02+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:31+00:00
+status: ''
+tags:
+- constants
+- TheHuman/Cognition/mental-model
+- topic/maths
 title: Mathematical Constants as Fundamental Ratios and Processes
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/mathematical-constants-as-fundamental-ratios-and-processes
 ---
 
 Many important numbers are not quantities for counting but are concepts representing fundamental relationships or processes in the universe.

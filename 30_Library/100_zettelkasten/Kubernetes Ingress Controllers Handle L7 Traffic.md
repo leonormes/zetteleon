@@ -1,13 +1,19 @@
 ---
-aliases: ["Ingress Controller"]
-created: 2025-07-16T17:30:03Z
-last_reviewed: "null"
-modified: 2026-02-01T15:08:32+00:00
-status: "null"
-tags: ["http", "ingress", "SoftwareEngineering/Kubernetes", "SoftwareEngineering/Networking"]
+aliases:
+- Ingress Controller
+created: 2025-07-16 17:30:03+00:00
+last_reviewed: 'null'
+modified: 2026-02-01 15:08:32+00:00
+status: 'null'
+tags:
+- http
+- ingress
+- SoftwareEngineering/Kubernetes
+- SoftwareEngineering/Networking
 title: Kubernetes Ingress Controllers Handle L7 Traffic
-type: "null"
-updated: 
+type: 'null'
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/kubernetes-ingress-controllers-handle-l7-traffic
 ---
 
 An Ingress Controller (like NGINX) is a component within a Kubernetes cluster that manages external access to the services in the cluster, typically handling HTTP and HTTPS traffic (Layer 7).

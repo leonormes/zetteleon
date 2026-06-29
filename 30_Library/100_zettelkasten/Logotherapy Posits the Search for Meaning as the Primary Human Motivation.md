@@ -1,8 +1,13 @@
 ---
-created: 2026-04-10T00:00:00+00:00
-modified: 2026-05-26T11:44:34+00:00
-tags: [logotherapy, meaning, philosophy, psychology]
+created: 2026-04-10 00:00:00+00:00
+modified: 2026-05-26 11:44:34+00:00
+tags:
+- logotherapy
+- meaning
+- philosophy
+- psychology
 title: Logotherapy Posits the Search for Meaning as the Primary Human Motivation
+permalink: llmeon/30-library/100-zettelkasten/logotherapy-posits-the-search-for-meaning-as-the-primary-human-motivation
 ---
 
 ## Logotherapy Posits the Search for Meaning as the Primary Human Motivation

@@ -1,11 +1,12 @@
 ---
-created: 2026-04-14T11:11:58+00:00
-created_utc: "2026-04-14T10:45:00Z"
-modified: 2026-05-26T11:44:23+00:00
-source_atoms: "[[tmp_atoms_networking_label_transformation.md]]"
+created: 2026-04-14 11:11:58+00:00
+created_utc: '2026-04-14T10:45:00Z'
+modified: 2026-05-26 11:44:23+00:00
+source_atoms: '[[tmp_atoms_networking_label_transformation.md]]'
 status: tmp
 title: _link_report_networking_label_transformation
 type: link_report
+permalink: llmeon/30-library/400-indexes/link-report-networking-label-transformation
 ---
 
 ## Link Report: Networking Is Label Transformation Under Policy

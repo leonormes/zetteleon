@@ -1,13 +1,20 @@
 ---
-aliases: [Akrasia, Weakness of Will]
-created: 2025-11-10T17:07:00Z
-last_reviewed: ""
-modified: 2026-05-26T11:44:36+00:00
+aliases:
+- Akrasia
+- Weakness of Will
+created: 2025-11-10 17:07:00+00:00
+last_reviewed: ''
+modified: 2026-05-26 11:44:36+00:00
 status: seedling
-tags: [aristotle, ethics, TheHuman/Philosophy, willpower]
-title: "Akrasia is Acting Against One's Better Judgment"
+tags:
+- aristotle
+- ethics
+- TheHuman/Philosophy
+- willpower
+title: Akrasia is Acting Against One's Better Judgment
 type: concept
-updated:
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/akrasia-is-acting-against-ones-better-judgment
 ---
 
 ## Akrasia is Acting Against One's Better Judgment

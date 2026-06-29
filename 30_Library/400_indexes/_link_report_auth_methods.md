@@ -1,11 +1,12 @@
 ---
-created: 2026-04-13T14:47:45+00:00
-created_utc: "2026-04-13T11:30:00Z"
-modified: 2026-05-26T11:44:23+00:00
-source_atoms: "[[tmp_atoms_auth_methods.md]]"
+created: 2026-04-13 14:47:45+00:00
+created_utc: '2026-04-13T11:30:00Z'
+modified: 2026-05-26 11:44:23+00:00
+source_atoms: '[[tmp_atoms_auth_methods.md]]'
 status: tmp
 title: _link_report_auth_methods
 type: link_report
+permalink: llmeon/30-library/400-indexes/link-report-auth-methods
 ---
 
 ## Link Report: Every API Authentication Method Explained

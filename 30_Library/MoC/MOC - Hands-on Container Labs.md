@@ -1,13 +1,19 @@
 ---
 aliases: []
-created: 2025-10-26T17:16:00Z
-last_reviewed: "2026-02-06"
-modified: 2026-02-16T09:40:27+00:00
-status: "stable"
-tags: ["debugging", "hands-on", "lab", "SoftwareEngineering/Containers", "tutorial"]
+created: 2025-10-26 17:16:00+00:00
+last_reviewed: '2026-02-06'
+modified: 2026-02-16 09:40:27+00:00
+status: stable
+tags:
+- debugging
+- hands-on
+- lab
+- SoftwareEngineering/Containers
+- tutorial
 title: MOC - Hands-on Container Labs
-type: "map"
-updated: 
+type: map
+updated: null
+permalink: llmeon/30-library/mo-c/moc-hands-on-container-labs
 ---
 
 ## Summary

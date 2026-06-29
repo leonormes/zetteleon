@@ -1,7 +1,7 @@
 ---
 captured: 2026-04-09T11:58:06+01:00 2026-04-09T11:58:06+01:00
-created: 2026-04-09T10:58:07+00:00
-modified: 2026-06-08T11:49:17+00:00
+created: 2026-04-09 10:58:07+00:00
+modified: 2026-06-08 11:49:17+00:00
 project_category: personal
 project_status: archived
 source: https://gemini.google.com/app/9d92852ac8f63b97
@@ -9,6 +9,8 @@ status: archived
 tags: []
 title: HEAD EE Payment error
 type: head
+project_name: Family
+permalink: llmeon/30-library/200-projects/head-ee-payment-error
 ---
 
 ## Raw Output / Content

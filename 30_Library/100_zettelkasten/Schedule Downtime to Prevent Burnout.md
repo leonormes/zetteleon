@@ -1,13 +1,20 @@
 ---
-aliases: ["Downtime is a Necessary Part of a Routine"]
-created: 2025-10-29T16:10:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:27+00:00
-status: "seedling"
-tags: ["burnout", "energy-management", "rest", "routine", "self-care"]
+aliases:
+- Downtime is a Necessary Part of a Routine
+created: 2025-10-29 16:10:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:27+00:00
+status: seedling
+tags:
+- burnout
+- energy-management
+- rest
+- routine
+- self-care
 title: Schedule Downtime to Prevent Burnout
-type: "principle"
-updated: 
+type: principle
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/schedule-downtime-to-prevent-burnout
 ---
 
 A common failure mode for routines is overscheduling, which inevitably leads to burnout. To create a sustainable system, it is critical to intentionally and explicitly schedule downtime and breaks.

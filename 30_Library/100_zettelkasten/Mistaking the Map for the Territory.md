@@ -1,13 +1,20 @@
 ---
-aliases: ["Map-Territory Confusion", "Model-Reality Confusion"]
-created: 2025-09-11T21:37:21Z
-last_reviewed: "null"
-modified: 2026-02-01T15:08:30+00:00
-status: "stable"
-tags: ["error", "naive-realism", "TheHuman/Cognition", "TheHuman/Cognition/mental-model"]
+aliases:
+- Map-Territory Confusion
+- Model-Reality Confusion
+created: 2025-09-11 21:37:21+00:00
+last_reviewed: 'null'
+modified: 2026-02-01 15:08:30+00:00
+status: stable
+tags:
+- error
+- naive-realism
+- TheHuman/Cognition
+- TheHuman/Cognition/mental-model
 title: Mistaking the Map for the Territory
-type: "permanent"
-updated: 
+type: permanent
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/mistaking-the-map-for-the-territory
 ---
 
 The critical error occurs when we forget we are using a simplified model and treat it as if it were reality itself. This confusion leads to failure when we encounter situations where the model's omitted details become crucial.

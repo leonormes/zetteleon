@@ -1,13 +1,17 @@
 ---
-aliases: ["Number Theory"]
-created: 2025-11-01T11:22:13Z
-last_reviewed: "2025-11-01T00:00:00.000Z"
-modified: 2026-02-01T15:08:30+00:00
-status: "seedling"
-tags: ["fields", "topic/maths"]
+aliases:
+- Number Theory
+created: 2025-11-01 11:22:13+00:00
+last_reviewed: '2025-11-01T00:00:00.000Z'
+modified: 2026-02-01 15:08:30+00:00
+status: seedling
+tags:
+- fields
+- topic/maths
 title: Number Theory (Definition)
-type: "definition"
-updated: 
+type: definition
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/number-theory-definition
 ---
 
 Definition: Number theory is the branch of mathematics devoted to studying the deeper properties and patterns within the natural numbers and integers, particularly focusing on questions about divisibility, prime numbers, and solutions to equations in integers.

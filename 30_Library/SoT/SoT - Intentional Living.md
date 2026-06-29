@@ -1,13 +1,27 @@
 ---
-aliases: ["Bigger Better Offer", "Conscious Action", "Habit Mastery", "Heart and Direction", "The Deep Life", "The Sacred No", "ZTD"]
-created: 2025-12-24T12:00:00Z
-last_reviewed: "2025-12-25"
-modified: 2026-02-01T15:07:56+00:00
-status: "stable"
-tags: ["deep_life", "habits", "intentionality", "mindfulness", "productivity", "TheHuman/Philosophy"]
+aliases:
+- Bigger Better Offer
+- Conscious Action
+- Habit Mastery
+- Heart and Direction
+- The Deep Life
+- The Sacred No
+- ZTD
+created: 2025-12-24 12:00:00+00:00
+last_reviewed: '2025-12-25'
+modified: 2026-02-01 15:07:56+00:00
+status: stable
+tags:
+- deep_life
+- habits
+- intentionality
+- mindfulness
+- productivity
+- TheHuman/Philosophy
 title: SoT - Intentional Living
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-intentional-living
 ---
 
 ## 1. Definitive Statement

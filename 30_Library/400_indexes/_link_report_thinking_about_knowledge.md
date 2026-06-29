@@ -1,11 +1,12 @@
 ---
-created: 2026-04-14T13:25:19+00:00
-created_utc: "2026-04-14T11:45:00Z"
-modified: 2026-05-26T11:44:23+00:00
-source_atoms: "[[tmp_atoms_thinking_about_knowledge.md]]"
+created: 2026-04-14 13:25:19+00:00
+created_utc: '2026-04-14T11:45:00Z'
+modified: 2026-05-26 11:44:23+00:00
+source_atoms: '[[tmp_atoms_thinking_about_knowledge.md]]'
 status: tmp
 title: _link_report_thinking_about_knowledge
 type: link_report
+permalink: llmeon/30-library/400-indexes/link-report-thinking-about-knowledge
 ---
 
 ## Link Report: Thinking about Knowledge

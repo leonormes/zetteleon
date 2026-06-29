@@ -1,13 +1,21 @@
 ---
-aliases: ["Speed of Causality", "Speed of Light", "Universal Speed Limit"]
-created: 2025-09-20T06:38:14Z
-last_reviewed: 
-modified: 2026-02-01T15:07:49+00:00
-status: "Stable"
-tags: ["causality", "physics", "relativity", "time"]
+aliases:
+- Speed of Causality
+- Speed of Light
+- Universal Speed Limit
+created: 2025-09-20 06:38:14+00:00
+last_reviewed: null
+modified: 2026-02-01 15:07:49+00:00
+status: Stable
+tags:
+- causality
+- physics
+- relativity
+- time
 title: SoT - The Universal Speed of Causality
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-the-universal-speed-of-causality
 ---
 
 ## SoT - The Universal Speed of Causality

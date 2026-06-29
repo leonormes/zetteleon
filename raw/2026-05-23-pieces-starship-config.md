@@ -1,10 +1,17 @@
 ---
-created: 2026-05-23T20:15:00+01:00
-modified: 2026-05-26T11:43:32+00:00
-pieces_ids: ["0275d582-225a-42b3-aa44-640c8a8408ca", "215a8fa1-70cb-43bd-a6df-c95703210e3c", "42cc21a2-ec3a-4141-b253-9e80b142af38", "9f666d49-e2ef-45ab-97a1-ae65494c006b"]
+created: 2026-05-23 20:15:00+01:00
+modified: 2026-05-26 11:43:32+00:00
+pieces_ids:
+- 0275d582-225a-42b3-aa44-640c8a8408ca
+- 215a8fa1-70cb-43bd-a6df-c95703210e3c
+- 42cc21a2-ec3a-4141-b253-9e80b142af38
+- 9f666d49-e2ef-45ab-97a1-ae65494c006b
 source: pieces-ltm
-tags: [pieces, raw]
+tags:
+- pieces
+- raw
 title: 2026-05-23-pieces-starship-config
+permalink: llmeon/raw/2026-05-23-pieces-starship-config
 ---
 
 ## Starship Prompt Performance Tuning Analysis

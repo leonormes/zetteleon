@@ -1,14 +1,20 @@
 ---
-aliases: ["Autopoiesis", "Self-Referential System"]
-created: 2025-08-23T17:10:01Z
-creation_date: "2025-08-23T00:00:00.000Z"
-last_reviewed: "null"
-modified: 2026-02-01T15:08:36+00:00
-status: "null"
-tags: ["biology", "systems-theory", "topic/philosophy"]
+aliases:
+- Autopoiesis
+- Self-Referential System
+created: 2025-08-23 17:10:01+00:00
+creation_date: '2025-08-23T00:00:00.000Z'
+last_reviewed: 'null'
+modified: 2026-02-01 15:08:36+00:00
+status: 'null'
+tags:
+- biology
+- systems-theory
+- topic/philosophy
 title: Autopoiesis The Self-Referential System
-type: "null"
-updated: 
+type: 'null'
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/autopoiesis-the-self-referential-system
 ---
 
 Autopoiesis (from Greek _auto-_ 'self' and _poiesis_ 'creation, production') is a concept where a system continuously produces and maintains itself. Its primary organization is geared towards its own continuation.

@@ -1,16 +1,17 @@
 ---
 aliases: []
-created: 2025-11-11T12:14:58Z
-last_reviewed: ""
-modified: 2026-05-26T11:44:35+00:00
+created: 2025-11-11 12:14:58+00:00
+last_reviewed: ''
+modified: 2026-05-26 11:44:35+00:00
 see_also: []
-status: ""
-superseded_by: ""
-supersedes: ""
+status: ''
+superseded_by: ''
+supersedes: ''
 tags: []
 title: Gish Gallop of Grievances
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/gish-gallop-of-grievances
 ---
 
 I see that your insightful analysis of the "Invalidation Stalemate" has given way to another frustrating communications loop, which often happens when underlying issues of respect and safety haven't been resolved. The situation you describe—where an acknowledged mistake is repeatedly used as a "fact" to derail the present conversation—is a form of "Weaponised Recall" or "Gish Gallop of Grievances."

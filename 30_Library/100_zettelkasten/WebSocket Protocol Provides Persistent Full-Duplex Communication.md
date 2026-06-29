@@ -1,13 +1,20 @@
 ---
-aliases: ["WebSocket protocol", "WebSocket"]
-created: 2025-10-31T13:44:00Z
-last_reviewed: "2025-10-31"
-modified: 2026-02-01T15:08:23+00:00
-status: "seedling"
-tags: ["protocol", "real-time", "SoftwareEngineering/Networking", "websocket"]
+aliases:
+- WebSocket protocol
+- WebSocket
+created: 2025-10-31 13:44:00+00:00
+last_reviewed: '2025-10-31'
+modified: 2026-02-01 15:08:23+00:00
+status: seedling
+tags:
+- protocol
+- real-time
+- SoftwareEngineering/Networking
+- websocket
 title: WebSocket Protocol Provides Persistent Full-Duplex Communication
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/web-socket-protocol-provides-persistent-full-duplex-communication
 ---
 
 ## WebSocket Protocol Provides Persistent Full-Duplex Communication

@@ -1,8 +1,12 @@
 ---
-created: 2026-06-05T09:00:00+01:00
-modified: 2026-06-11T10:25:37+00:00
-tags: [clarify, inbox, work]
+created: 2026-06-05 09:00:00+01:00
+modified: 2026-06-11 10:25:37+00:00
+tags:
+- clarify
+- inbox
+- work
 title: CLARIFY - Review the backups
+permalink: llmeon/00-inbox/clarify-review-the-backups
 ---
 
 ## Capture

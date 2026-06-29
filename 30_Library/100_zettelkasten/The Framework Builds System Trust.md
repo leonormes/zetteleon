@@ -1,13 +1,19 @@
 ---
-aliases: ["System Trust"]
-created: 2025-11-10T15:17:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:25+00:00
-status: "seedling"
-tags: ["reliability", "topic/productivity", "topic/systems", "trust"]
+aliases:
+- System Trust
+created: 2025-11-10 15:17:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:25+00:00
+status: seedling
+tags:
+- reliability
+- topic/productivity
+- topic/systems
+- trust
 title: The Framework Builds System Trust
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/the-framework-builds-system-trust
 ---
 
 ## The Framework Builds System Trust

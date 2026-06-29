@@ -1,15 +1,17 @@
 ---
 aliases: []
-created: 2025-10-31T13:08:00Z
-exclusions: "Religious interpretations"
-last_reviewed: ""
-modified: 2026-02-01T15:08:05+00:00
-scope: "Theories of meaning from philosophy"
-status: ""
-tags: ["TheHuman/Philosophy"]
+created: 2025-10-31 13:08:00+00:00
+exclusions: Religious interpretations
+last_reviewed: ''
+modified: 2026-02-01 15:08:05+00:00
+scope: Theories of meaning from philosophy
+status: ''
+tags:
+- TheHuman/Philosophy
 title: MOC - Philosophical Perspectives on Meaning
-type: "map"
-updated: 
+type: map
+updated: null
+permalink: llmeon/30-library/mo-c/moc-philosophical-perspectives-on-meaning
 ---
 
 ## MOC - Philosophical Perspectives on Meaning

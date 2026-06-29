@@ -1,11 +1,12 @@
 ---
-created: 2026-06-08T11:35:53+00:00
-modified: 2026-06-08T11:49:17+00:00
+created: 2026-06-08 11:35:53+00:00
+modified: 2026-06-08 11:49:17+00:00
 project_category: hermes_optimisastion
 project_name: Hermes Optimisastion
 project_status: active
 title: Hermes Cost Routing - Cursor Implementation Prompt
-type:
+type: null
+permalink: llmeon/30-library/200-projects/hermes-cost-routing-cursor-implementation-prompt
 ---
 
 ## Hermes Cost Routing Implementation

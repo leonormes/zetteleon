@@ -1,13 +1,23 @@
 ---
-aliases: [Deployment SOP, FitFile Deployment Guide, Master Deployment Checklist, Phase 1-6 Manual]
-created: 2025-12-21T10:50:49Z
-last_reviewed: "2026-03-28"
-modified: 2026-05-26T11:44:20+00:00
+aliases:
+- Deployment SOP
+- FitFile Deployment Guide
+- Master Deployment Checklist
+- Phase 1-6 Manual
+created: 2025-12-21 10:50:49+00:00
+last_reviewed: '2026-03-28'
+modified: 2026-05-26 11:44:20+00:00
 status: evergreen
-tags: [deployment, ff_deploy, manual, ops, sop]
+tags:
+- deployment
+- ff_deploy
+- manual
+- ops
+- sop
 title: SoT - FitFile Deployment - Implementation Manual
 type: SoT
 updated: 2026-03-28
+permalink: llmeon/30-library/so-t/so-t-fit-file-deployment-implementation-manual
 ---
 
 ## 1. Overview & Critical Path

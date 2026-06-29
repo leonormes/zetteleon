@@ -1,13 +1,24 @@
 ---
-aliases: ["Breakdance Origins", "Four Elements of Hip Hop", "Hip Hop Culture SoT", "Hip Hop History"]
-created: 2025-12-12T00:00:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:07:49+00:00
-status: "stable"
-tags: ["art", "culture", "dance", "hip_hop", "history", "music"]
+aliases:
+- Breakdance Origins
+- Four Elements of Hip Hop
+- Hip Hop Culture SoT
+- Hip Hop History
+created: 2025-12-12 00:00:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:07:49+00:00
+status: stable
+tags:
+- art
+- culture
+- dance
+- hip_hop
+- history
+- music
 title: SoT - The Origins and Evolution of Hip Hop Culture
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-the-origins-and-evolution-of-hip-hop-culture
 ---
 
 > Hip Hop is a cultural movement that emerged in the 1970s South Bronx as a creative response to systemic neglect and urban decay. It is defined by Four Core Elements: "DJing (Aural), MCing (Oral), B-Boying/Breaking (Physical), and Graffiti (Visual)."

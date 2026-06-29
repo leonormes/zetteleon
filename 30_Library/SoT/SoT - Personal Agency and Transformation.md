@@ -1,13 +1,22 @@
 ---
-aliases: ["Agency Cultivation", "Taking Control", "The Gift of Desperation"]
-created: 2025-12-15T00:00:00Z
-last_reviewed: "2025-12-15"
-modified: 2026-02-01T15:07:53+00:00
-status: "stable"
-tags: ["agency", "personal_development", "TheHuman/Mindset", "TheHuman/Psychology", "transformation"]
+aliases:
+- Agency Cultivation
+- Taking Control
+- The Gift of Desperation
+created: 2025-12-15 00:00:00+00:00
+last_reviewed: '2025-12-15'
+modified: 2026-02-01 15:07:53+00:00
+status: stable
+tags:
+- agency
+- personal_development
+- TheHuman/Mindset
+- TheHuman/Psychology
+- transformation
 title: SoT - Personal Agency and Transformation
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-personal-agency-and-transformation
 ---
 
 ## 2. The Agency Cultivation Model

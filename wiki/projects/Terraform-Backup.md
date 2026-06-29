@@ -4,8 +4,13 @@ wiki_type: dossier
 entity_kind: project
 created: 2026-05-12T22:07:46+0000
 modified: 2026-05-12T22:07:46+0000
-tags: [wiki, dossier, project]
-sources: [raw/2026-05-12-pieces-terraform-backup]
+tags:
+- wiki
+- dossier
+- project
+sources:
+- raw/2026-05-12-pieces-terraform-backup
+permalink: llmeon/wiki/projects/terraform-backup
 ---
 
 The **Terraform Backup** workstream was identified from Pieces LTM activity captured on 2026-05-12. This page tracks the project's scope, timeline, and key facts.

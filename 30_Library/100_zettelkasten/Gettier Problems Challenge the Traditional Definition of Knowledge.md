@@ -1,13 +1,18 @@
 ---
-aliases: ["Gettier Problem"]
-created: 2025-11-01T12:10:07Z
-last_reviewed: "2025-11-01"
-modified: 2026-02-01T15:08:33+00:00
-status: "seedling"
-tags: ["epistemology", "knowledge", "TheHuman/Philosophy"]
+aliases:
+- Gettier Problem
+created: 2025-11-01 12:10:07+00:00
+last_reviewed: '2025-11-01'
+modified: 2026-02-01 15:08:33+00:00
+status: seedling
+tags:
+- epistemology
+- knowledge
+- TheHuman/Philosophy
 title: Gettier Problems Challenge the Traditional Definition of Knowledge
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/gettier-problems-challenge-the-traditional-definition-of-knowledge
 ---
 
 ## Gettier Problems Challenge the Traditional Definition of Knowledge

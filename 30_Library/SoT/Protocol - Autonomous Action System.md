@@ -1,15 +1,25 @@
 ---
-aliases: [Agent GTD, Autonomous Action, Todoist MCP Integration]
-created: 2026-04-02T12:00:00+01:00
+aliases:
+- Agent GTD
+- Autonomous Action
+- Todoist MCP Integration
+created: 2026-04-02 12:00:00+01:00
 last-synthesis: 2026-04-02
-modified: 2026-05-26T11:44:21+00:00
+modified: 2026-05-26 11:44:21+00:00
 source_of_truth: true
 status: evergreen
 synthesis-count: 1
-tags: [adhd, gtd, llm, prodos, system/protocol, todoist]
+tags:
+- adhd
+- gtd
+- llm
+- prodos
+- system/protocol
+- todoist
 title: Protocol - Autonomous Action System
 trust-level: stable
 type: protocol
+permalink: llmeon/30-library/so-t/protocol-autonomous-action-system
 ---
 
 ## Logic Map

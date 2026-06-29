@@ -1,13 +1,20 @@
 ---
-aliases: ["Illusion of Fluency"]
-created: 2025-11-10T16:01:00Z
-last_reviewed: ""
-modified: 2026-05-26T11:44:32+00:00
-status: "seedling"
-tags: ["learning", "metacognition", "TheHuman/Cognition", "TheHuman/Cognition/bias"]
-title: The Illusion of Fluency is a Cognitive Bias Where Ease of Processing is Mistaken for Deep Learning
-type: "concept"
-updated: 
+aliases:
+- Illusion of Fluency
+created: 2025-11-10 16:01:00+00:00
+last_reviewed: ''
+modified: 2026-05-26 11:44:32+00:00
+status: seedling
+tags:
+- learning
+- metacognition
+- TheHuman/Cognition
+- TheHuman/Cognition/bias
+title: The Illusion of Fluency is a Cognitive Bias Where Ease of Processing is Mistaken
+  for Deep Learning
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/the-illusion-of-fluency-is-a-cognitive-bias-where-ease-of-processing-is-mistaken-for-deep-learning
 ---
 
 Summary: The "Illusion of Fluency" is a pervasive cognitive bias where learners misinterpret the ease with which they process information (processing fluency) as a reliable indicator of genuine understanding and long-term retention.

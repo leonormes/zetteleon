@@ -1,10 +1,14 @@
 ---
 title: Network Security Scan — Pieces LTM Capture 2026-06-01
-created: 2026-06-01T12:00:00+00:00
+created: 2026-06-01 12:00:00+00:00
 source: pieces-ltm
 pieces_ids: []
-tags: [raw, pieces]
+tags:
+- raw
+- pieces
+permalink: llmeon/raw/2026-06-01-pieces-network-security-scan
 ---
+
 ## Asset 1 (Pieces: )
 *Captured: 2026-06-01T08:53:03.847117Z*
 

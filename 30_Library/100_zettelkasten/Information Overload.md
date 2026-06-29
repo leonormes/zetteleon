@@ -1,16 +1,19 @@
 ---
 aliases: []
-created: 2025-04-19T00:00:00Z
-deleted: "true"
-id: "56004fd6-9014-418c-8360-78c79657f5ad"
-last_reviewed: "null"
-modified: 2026-02-01T15:08:32+00:00
-source_image_url: ""
-status: "null"
-tags: ["information", "topic/pkm/zettelkasten"]
+created: 2025-04-19 00:00:00+00:00
+deleted: 'true'
+id: 56004fd6-9014-418c-8360-78c79657f5ad
+last_reviewed: 'null'
+modified: 2026-02-01 15:08:32+00:00
+source_image_url: ''
+status: 'null'
+tags:
+- information
+- topic/pkm/zettelkasten
 title: Information Overload
-type: "permanent"
-updated: 
+type: permanent
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/information-overload
 ---
 
 <https://youtu.be/cwxRqmTpffY?si=0h1296ouNYSeuaF1>

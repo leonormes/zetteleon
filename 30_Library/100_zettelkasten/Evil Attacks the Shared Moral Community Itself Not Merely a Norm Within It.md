@@ -1,8 +1,13 @@
 ---
-created: 2026-04-10T13:00:00+00:00
-modified: 2026-05-26T11:44:35+00:00
-tags: [community, morality, social-order, sociology]
+created: 2026-04-10 13:00:00+00:00
+modified: 2026-05-26 11:44:35+00:00
+tags:
+- community
+- morality
+- social-order
+- sociology
 title: Evil Attacks the Shared Moral Community Itself Not Merely a Norm Within It
+permalink: llmeon/30-library/100-zettelkasten/evil-attacks-the-shared-moral-community-itself-not-merely-a-norm-within-it
 ---
 
 ## Evil Attacks the Shared Moral Community Itself Not Merely a Norm Within It

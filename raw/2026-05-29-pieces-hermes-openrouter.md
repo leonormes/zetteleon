@@ -1,9 +1,15 @@
 ---
 title: Hermes + OpenRouter vs Ollama — 2026-05-29
-created: 2026-05-29T12:45:54+00:00
+created: 2026-05-29 12:45:54+00:00
 source: pieces-ltm
-pieces_ids: ["3737d524-416b-485c-8fe6-cd84aed42784", "9e88c044-c071-44aa-8ebe-66f349c4c1b5", "d6f89dd3-b969-4efe-86bc-32bf76afbf76"]
-tags: [raw, pieces]
+pieces_ids:
+- 3737d524-416b-485c-8fe6-cd84aed42784
+- 9e88c044-c071-44aa-8ebe-66f349c4c1b5
+- d6f89dd3-b969-4efe-86bc-32bf76afbf76
+tags:
+- raw
+- pieces
+permalink: llmeon/raw/2026-05-29-pieces-hermes-openrouter
 ---
 
 # Hermes + OpenRouter vs Ollama — 2026-05-29

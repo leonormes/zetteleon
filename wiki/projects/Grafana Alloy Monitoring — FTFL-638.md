@@ -2,22 +2,25 @@
 title: Grafana Alloy Monitoring — FTFL-638
 wiki_type: dossier
 entity_kind: project
-created: 2026-05-06T20:15:00+00:00
-modified: 2026-06-04T20:41:52+00:00
-tags: [wiki, dossier]
+created: 2026-05-06 20:15:00+00:00
+modified: 2026-06-04 20:41:52+00:00
+tags:
+- wiki
+- dossier
 sources:
-  - raw/2026-05-06-pieces-grafana-alloy-monitoring
-  - raw/2026-05-26-pieces-ftfl599-ftfl638-prodos
-  - raw/2026-05-26-pieces-ftfl638-antigravity-cursor-prompt
-  - raw/2026-05-27-pieces-alloy-image-pull-secret
-  - raw/2026-05-27-pieces-k8s-observability
-  - raw/2026-05-28-pieces-ftfl638-grafana-alloy-fix
-  - raw/2026-05-29-pieces-ftfl638-logs
-  - raw/2026-05-29-pieces-ftfl638-workflow-taints
-  - raw/2026-05-30-pieces-ftfl638-scheduling-regression
-  - raw/2026-05-30-pieces-ftfl638-cpu-saturation
-  - raw/2026-06-04-pieces-alloy-faro-grafana-explore
-  - raw/2026-06-04-pieces-k8s-labels-structured-metadata
+- raw/2026-05-06-pieces-grafana-alloy-monitoring
+- raw/2026-05-26-pieces-ftfl599-ftfl638-prodos
+- raw/2026-05-26-pieces-ftfl638-antigravity-cursor-prompt
+- raw/2026-05-27-pieces-alloy-image-pull-secret
+- raw/2026-05-27-pieces-k8s-observability
+- raw/2026-05-28-pieces-ftfl638-grafana-alloy-fix
+- raw/2026-05-29-pieces-ftfl638-logs
+- raw/2026-05-29-pieces-ftfl638-workflow-taints
+- raw/2026-05-30-pieces-ftfl638-scheduling-regression
+- raw/2026-05-30-pieces-ftfl638-cpu-saturation
+- raw/2026-06-04-pieces-alloy-faro-grafana-explore
+- raw/2026-06-04-pieces-k8s-labels-structured-metadata
+permalink: llmeon/wiki/projects/grafana-alloy-monitoring-ftfl-638
 ---
 
 ## Summary

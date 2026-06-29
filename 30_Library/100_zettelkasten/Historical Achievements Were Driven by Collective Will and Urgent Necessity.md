@@ -1,13 +1,18 @@
 ---
 aliases: []
-created: 2025-11-10T13:02:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:33+00:00
-status: "seedling"
-tags: ["achievement", "collaboration", "history", "TheHuman/Motivation"]
+created: 2025-11-10 13:02:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:33+00:00
+status: seedling
+tags:
+- achievement
+- collaboration
+- history
+- TheHuman/Motivation
 title: Historical Achievements Were Driven by Collective Will and Urgent Necessity
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/historical-achievements-were-driven-by-collective-will-and-urgent-necessity
 ---
 
 ## Historical Achievements Were Driven by Collective Will and Urgent Necessity

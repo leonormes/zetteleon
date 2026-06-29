@@ -1,13 +1,15 @@
 ---
 aliases: []
-created: 2025-08-26T09:26:20Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:32+00:00
-status: ""
-tags: ["information"]
+created: 2025-08-26 09:26:20+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:32+00:00
+status: ''
+tags:
+- information
 title: Information as Perceivable Pattern
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/information-as-perceivable-pattern
 ---
 
 Information is a perceivable pattern or structure that is distinguishable from random noise. For data to be considered informative in a practical or semantic sense, it must contain a degree of predictability, rules, or repetition.

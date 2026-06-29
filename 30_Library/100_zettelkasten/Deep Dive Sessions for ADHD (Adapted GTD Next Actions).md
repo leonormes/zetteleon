@@ -1,13 +1,18 @@
 ---
 aliases: []
-created: 2025-06-25T20:14:33Z
-last_reviewed: "2025-12-16"
-modified: 2026-02-01T15:08:35+00:00
-status: "active"
-tags: ["experiment", "hypothesis", "TheHuman/Health/ADHD", "topic/productivity"]
+created: 2025-06-25 20:14:33+00:00
+last_reviewed: '2025-12-16'
+modified: 2026-02-01 15:08:35+00:00
+status: active
+tags:
+- experiment
+- hypothesis
+- TheHuman/Health/ADHD
+- topic/productivity
 title: Deep Dive Sessions for ADHD (Adapted GTD Next Actions)
-type: "hypothesis"
-updated: 
+type: hypothesis
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/deep-dive-sessions-for-adhd-adapted-gtd-next-actions
 ---
 
 ## 1. The Hypothesis

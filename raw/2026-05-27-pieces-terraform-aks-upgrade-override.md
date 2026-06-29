@@ -1,15 +1,21 @@
 ---
-title: "Terraform AKS upgrade_override Fix — FITFILE Testing Cluster"
-created: "2026-05-27T12:13:00+00:00"
+title: Terraform AKS upgrade_override Fix — FITFILE Testing Cluster
+created: '2026-05-27T12:13:00+00:00'
 source: pieces-ltm
 pieces_ids:
-  - 34d03caa-8e79-4696-9bcf-a0abdb38a587
-  - 4f80d935-1bc0-44ea-b0e0-3e1c24a07f8d
-  - 804011cd-efc2-4983-afaf-c59320dcff4b
-  - 8aedc7fd-869c-49d7-8513-a8fffe34bf09
-  - 2786291a-0ade-44d1-9531-2807a745b29b
-  - 9d404c67-1e0d-407a-a7ae-9a57b0109194
-tags: [raw, pieces, terraform, aks, fitfile]
+- 34d03caa-8e79-4696-9bcf-a0abdb38a587
+- 4f80d935-1bc0-44ea-b0e0-3e1c24a07f8d
+- 804011cd-efc2-4983-afaf-c59320dcff4b
+- 8aedc7fd-869c-49d7-8513-a8fffe34bf09
+- 2786291a-0ade-44d1-9531-2807a745b29b
+- 9d404c67-1e0d-407a-a7ae-9a57b0109194
+tags:
+- raw
+- pieces
+- terraform
+- aks
+- fitfile
+permalink: llmeon/raw/2026-05-27-pieces-terraform-aks-upgrade-override
 ---
 
 # Terraform AKS upgrade_override Fix — FITFILE Testing Cluster

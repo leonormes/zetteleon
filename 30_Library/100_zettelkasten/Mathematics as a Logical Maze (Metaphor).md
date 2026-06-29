@@ -1,13 +1,18 @@
 ---
-aliases: ["Logical Maze Metaphor"]
-created: 2025-11-01T11:22:13Z
-last_reviewed: "2025-11-01T00:00:00.000Z"
-modified: 2026-02-01T15:08:31+00:00
-status: "seedling"
-tags: ["metaphor", "pedagogy", "topic/maths"]
+aliases:
+- Logical Maze Metaphor
+created: 2025-11-01 11:22:13+00:00
+last_reviewed: '2025-11-01T00:00:00.000Z'
+modified: 2026-02-01 15:08:31+00:00
+status: seedling
+tags:
+- metaphor
+- pedagogy
+- topic/maths
 title: Mathematics as a Logical Maze (Metaphor)
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/mathematics-as-a-logical-maze-metaphor
 ---
 
 Summary: Mathematics is consistently described as a "logical maze"—an intricate network of ideas where the task is to navigate through logical possibilities and discover new connections.

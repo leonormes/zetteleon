@@ -1,9 +1,23 @@
 ---
-title: "Hermes MCP Proxy — Failure Analysis & Cursor Fix Prompt"
-created: 2026-05-28T18:05:42+00:00
+title: Hermes MCP Proxy — Failure Analysis & Cursor Fix Prompt
+created: 2026-05-28 18:05:42+00:00
 source: pieces-ltm
-pieces_ids: [37930a3c-5ba1-4433-acda-1331d7f3b720, 577c3a10-8547-4a61-b115-2f724012ed55, 5b9878d5-de2e-4362-be83-88bf0e0daf32, ae6b9805-84b1-4a6c-84f2-b3614c8e6889, 58707d76-5957-43eb-844b-888e361c0010, ecc3cdf9-8da3-4a5f-a589-966cb160cb33, 515d572b-8d30-41d6-910d-8d0719c16bba, 53052570-7f80-493b-a454-e280db4f3284, 2c964efb-aca8-44ae-80f6-9a9517445ed2, 006233e1-6323-468a-82d8-22dafec454fc, 5638b2a9-14a2-4832-92db-8ceb2e08790a]
-tags: [raw, pieces]
+pieces_ids:
+- 37930a3c-5ba1-4433-acda-1331d7f3b720
+- 577c3a10-8547-4a61-b115-2f724012ed55
+- 5b9878d5-de2e-4362-be83-88bf0e0daf32
+- ae6b9805-84b1-4a6c-84f2-b3614c8e6889
+- 58707d76-5957-43eb-844b-888e361c0010
+- ecc3cdf9-8da3-4a5f-a589-966cb160cb33
+- 515d572b-8d30-41d6-910d-8d0719c16bba
+- 53052570-7f80-493b-a454-e280db4f3284
+- 2c964efb-aca8-44ae-80f6-9a9517445ed2
+- 006233e1-6323-468a-82d8-22dafec454fc
+- 5638b2a9-14a2-4832-92db-8ceb2e08790a
+tags:
+- raw
+- pieces
+permalink: llmeon/raw/2026-05-28-pieces-hermes-mcp-proxy-fix
 ---
 
 ## Asset 1 (Pieces: 37930a3c-5ba1-4433-acda-1331d7f3b720)
@@ -756,4 +770,3 @@ Let me search their memory for mcp-proxy related issues, failures, and context. 
 **Captured:** 2026-05-28T14:36:52.406375Z
 
 review all the historical failures of the mcp-proxy config and usage. it is very unstable and often the llm doesn't know it is there and spends multiple rounds, and lots of tokens, just working out how to use the mcp. Give me a prompt for claude to fix the mcp-proxy config in the chezmoi repo
-

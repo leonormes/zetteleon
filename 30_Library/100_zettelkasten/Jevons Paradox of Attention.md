@@ -1,15 +1,20 @@
 ---
-created: 2026-04-14T20:54:58+00:00
-created_utc: "2026-04-14T14:20:00Z"
+created: 2026-04-14 20:54:58+00:00
+created_utc: '2026-04-14T14:20:00Z'
 kind: claim
-modified: 2026-05-26T11:44:34+00:00
-source_title: "Why Is AI Making My Job Worse?"
-source_url: "http://www.youtube.com/watch?v=NDyuJcR2GH4"
+modified: 2026-05-26 11:44:34+00:00
+source_title: Why Is AI Making My Job Worse?
+source_url: http://www.youtube.com/watch?v=NDyuJcR2GH4
 status: seed
-tags: [attention-economy, digital-work, jevons-paradox, resource-economics]
+tags:
+- attention-economy
+- digital-work
+- jevons-paradox
+- resource-economics
 title: Jevons Paradox of Attention
 type: atom
-upstream: "[[SoT - Principles for Peaceful Productivity]]"
+upstream: '[[SoT - Principles for Peaceful Productivity]]'
+permalink: llmeon/30-library/100-zettelkasten/jevons-paradox-of-attention
 ---
 
 ## Jevons Paradox of Attention

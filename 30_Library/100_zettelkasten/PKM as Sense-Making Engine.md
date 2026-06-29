@@ -1,15 +1,20 @@
 ---
-created: 2026-04-14T13:21:45+00:00
-created_utc: "2026-04-14T11:35:00Z"
+created: 2026-04-14 13:21:45+00:00
+created_utc: '2026-04-14T11:35:00Z'
 kind: definition
-modified: 2026-05-26T11:44:33+00:00
-source_title: "Thinking about knowledge"
-source_url: "https://gemini.google.com/app/d3312dd6e13881e3"
+modified: 2026-05-26 11:44:33+00:00
+source_title: Thinking about knowledge
+source_url: https://gemini.google.com/app/d3312dd6e13881e3
 status: seed
-tags: [cognition, meta-cognition, pkm, sense-making]
+tags:
+- cognition
+- meta-cognition
+- pkm
+- sense-making
 title: PKM as Sense-Making Engine
 type: atom
-upstream: "[[SoT - Processing IS the Work]]"
+upstream: '[[SoT - Processing IS the Work]]'
+permalink: llmeon/30-library/100-zettelkasten/pkm-as-sense-making-engine
 ---
 
 ## PKM as Sense-Making Engine

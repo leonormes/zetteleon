@@ -1,13 +1,14 @@
 ---
 aliases: []
-created: 2025-05-28T18:46:40Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:35+00:00
-status: ""
+created: 2025-05-28 18:46:40+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:35+00:00
+status: ''
 tags: []
 title: Crafting Compelling Task Descriptions and Sustaining Motivation
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/crafting-compelling-task-descriptions-and-sustaining-motivation
 ---
 
 ## Writing Effective Task Descriptions

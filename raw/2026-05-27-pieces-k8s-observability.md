@@ -1,9 +1,20 @@
 ---
 title: K8S Observability — Pieces LTM 2026-05-27
-created: 2026-05-27T21:30:22.684101+00:00
+created: 2026-05-27 21:30:22.684101+00:00
 source: pieces-ltm
-pieces_ids: [3fc51dcf-dd4d-400b-88a7-bc5012d6b34f, 8f467603-00c8-4380-97cc-b3f17c2ef22e, 05295732-afd3-4c33-86c8-bdef43a4e9d7, d1cb671b-528c-4042-906d-97a7534178e7, 731cf7ae-64ad-477d-b1e4-17299fde113c, 093e4abc-4d0a-4446-9325-d52f187f87eb, b53c91c2-52ba-4eec-80ef-4bf7fca2120f, 5ffdfcc3-392a-4cc3-89ba-bac507176ede]
-tags: [raw, pieces]
+pieces_ids:
+- 3fc51dcf-dd4d-400b-88a7-bc5012d6b34f
+- 8f467603-00c8-4380-97cc-b3f17c2ef22e
+- 05295732-afd3-4c33-86c8-bdef43a4e9d7
+- d1cb671b-528c-4042-906d-97a7534178e7
+- 731cf7ae-64ad-477d-b1e4-17299fde113c
+- 093e4abc-4d0a-4446-9325-d52f187f87eb
+- b53c91c2-52ba-4eec-80ef-4bf7fca2120f
+- 5ffdfcc3-392a-4cc3-89ba-bac507176ede
+tags:
+- raw
+- pieces
+permalink: llmeon/raw/2026-05-27-pieces-k8s-observability
 ---
 
 ## Asset 1 (Pieces: 3fc51dcf-dd4d-400b-88a7-bc5012d6b34f)

@@ -1,13 +1,21 @@
 ---
-aliases: ["Cyberpunk Derivatives", "Punk Genres"]
-created: 2025-12-30T00:00:00Z
-last_reviewed: "2025-12-30"
-modified: 2026-02-01T15:08:00+00:00
-status: "stable"
-tags: ["biopunk", "genre", "scifi", "solarpunk", "steampunk"]
+aliases:
+- Cyberpunk Derivatives
+- Punk Genres
+created: 2025-12-30 00:00:00+00:00
+last_reviewed: '2025-12-30'
+modified: 2026-02-01 15:08:00+00:00
+status: stable
+tags:
+- biopunk
+- genre
+- scifi
+- solarpunk
+- steampunk
 title: SoT - Cyberpunk Derivatives
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-cyberpunk-derivatives
 ---
 
 ## 1. The Derivative Logic

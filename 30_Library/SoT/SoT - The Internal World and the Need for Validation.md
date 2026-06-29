@@ -1,13 +1,22 @@
 ---
-aliases: ["Inner Reflective Mode", "Soap Bubble Models", "The Fragile Brilliance"]
-created: 2025-12-12T18:33:11Z
-last_reviewed: "2025-12-23"
-modified: 2026-02-01T15:07:49+00:00
-status: "stable"
-tags: ["mental_models", "neurodivergence", "TheHuman/Creativity", "TheHuman/Psychology", "validation"]
+aliases:
+- Inner Reflective Mode
+- Soap Bubble Models
+- The Fragile Brilliance
+created: 2025-12-12 18:33:11+00:00
+last_reviewed: '2025-12-23'
+modified: 2026-02-01 15:07:49+00:00
+status: stable
+tags:
+- mental_models
+- neurodivergence
+- TheHuman/Creativity
+- TheHuman/Psychology
+- validation
 title: SoT - The Internal World and the Need for Validation
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-the-internal-world-and-the-need-for-validation
 ---
 
 ## 1. Definitive Statement

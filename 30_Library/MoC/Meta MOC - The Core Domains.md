@@ -1,18 +1,27 @@
 ---
-aliases: [Meta Map of Content, My Thinking Landscape, The Core Domains]
-created: 2025-12-16T09:45:00Z
-description: A high-level Meta MOC categorizing the primary domains of thought and Sources of Truth (SoT) within the vault.
+aliases:
+- Meta Map of Content
+- My Thinking Landscape
+- The Core Domains
+created: 2025-12-16 09:45:00+00:00
+description: A high-level Meta MOC categorizing the primary domains of thought and
+  Sources of Truth (SoT) within the vault.
 last_reviewed: 2026-04-02
-modified: 2026-05-26T11:44:22+00:00
+modified: 2026-05-26 11:44:22+00:00
 see_also: []
 status: evergreen
-superseded_by: ""
-supersedes: ""
+superseded_by: ''
+supersedes: ''
 synthesis-count: 2
-tags: [index, meta, structure, type/moc]
+tags:
+- index
+- meta
+- structure
+- type/moc
 title: Meta MOC - The Core Domains
 type: map
-updated:
+updated: null
+permalink: llmeon/30-library/mo-c/meta-moc-the-core-domains
 ---
 
 ## 1. The Intellectual Landscape: "Systems in Service of Meaning"

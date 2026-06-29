@@ -1,10 +1,16 @@
 ---
-aliases: [Note metadata schema, ProdOS frontmatter specification]
-created: 2026-04-08T18:00:00+00:00
-modified: 2026-05-26T11:44:18+00:00
-see_also: ["[[CLAUDE.md]]"]
-tags: [prodos/schema, topic/pkm]
+aliases:
+- Note metadata schema
+- ProdOS frontmatter specification
+created: 2026-04-08 18:00:00+00:00
+modified: 2026-05-26 11:44:18+00:00
+see_also:
+- '[[CLAUDE.md]]'
+tags:
+- prodos/schema
+- topic/pkm
 title: SoT - ProdOS Note Metadata (Frontmatter)
+permalink: llmeon/30-library/so-t/so-t-prod-os-note-metadata-frontmatter
 ---
 
 ## 1. Minimum Viable Understanding (MVU)

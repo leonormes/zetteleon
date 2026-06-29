@@ -1,14 +1,22 @@
 ---
-created: 2026-02-22T16:58:18+00:00
+created: 2026-02-22 16:58:18+00:00
 last_verified: 2026-02-22
-modified: 2026-03-14T11:10:09+00:00
+modified: 2026-03-14 11:10:09+00:00
 severity: p2
 status: active
-tags: [argocd, auth, dependencies, helm, oci, playbook, troubleshooting]
+tags:
+- argocd
+- auth
+- dependencies
+- helm
+- oci
+- playbook
+- troubleshooting
 target_service: argocd
 title: playbook_argocd_oci_helm_dependency_troubleshooting
-trigger: "ComparisonError during manifest generation for Helm charts with OCI sub-dependencies"
+trigger: ComparisonError during manifest generation for Helm charts with OCI sub-dependencies
 type: playbook
+permalink: llmeon/30-library/ops/playbook-argocd-oci-helm-dependency-troubleshooting
 ---
 
 ## Playbook: ArgoCD OCI Helm Dependency Troubleshooting

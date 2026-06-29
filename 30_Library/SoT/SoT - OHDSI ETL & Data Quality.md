@@ -1,13 +1,22 @@
 ---
-aliases: ["Data Quality Dashboard", "DQD", "OMOP ETL", "Rabbit-in-a-Hat"]
-created: 2026-01-06T19:27:38+00:00
-last_reviewed: 
-modified: 2026-05-26T11:44:18+00:00
-status: "Active"
-tags: ["data-quality", "etl", "ohdsi", "process"]
+aliases:
+- Data Quality Dashboard
+- DQD
+- OMOP ETL
+- Rabbit-in-a-Hat
+created: 2026-01-06 19:27:38+00:00
+last_reviewed: null
+modified: 2026-05-26 11:44:18+00:00
+status: Active
+tags:
+- data-quality
+- etl
+- ohdsi
+- process
 title: SoT - OHDSI ETL & Data Quality
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-ohdsi-etl-data-quality
 ---
 
 ## SoT - OHDSI ETL & Data Quality

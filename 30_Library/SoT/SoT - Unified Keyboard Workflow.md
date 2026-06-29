@@ -1,13 +1,14 @@
 ---
 aliases: []
-created: 2025-12-21T00:00:00Z
-last_reviewed: "2025-12-21"
-modified: 2026-02-01T15:07:48+00:00
-status: "stable"
+created: 2025-12-21 00:00:00+00:00
+last_reviewed: '2025-12-21'
+modified: 2026-02-01 15:07:48+00:00
+status: stable
 tags: []
 title: SoT - Unified Keyboard Workflow
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-unified-keyboard-workflow
 ---
 
 ## 1. Core Philosophy: "Scope by Modifier"

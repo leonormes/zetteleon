@@ -2,11 +2,14 @@
 title: AWS SSM Session Troubleshooting
 wiki_type: dossier
 entity_kind: project
-created: 2026-05-01T22:00:00+00:00
-modified: 2026-05-01T22:00:00+00:00
-tags: [wiki, dossier]
+created: 2026-05-01 22:00:00+00:00
+modified: 2026-05-01 22:00:00+00:00
+tags:
+- wiki
+- dossier
 sources:
-  - raw/2026-05-01-pieces-aws-ssm-troubleshooting
+- raw/2026-05-01-pieces-aws-ssm-troubleshooting
+permalink: llmeon/wiki/projects/aws-ssm-session-troubleshooting
 ---
 
 ## Summary

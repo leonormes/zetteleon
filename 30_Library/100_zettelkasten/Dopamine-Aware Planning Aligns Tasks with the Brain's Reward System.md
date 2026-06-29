@@ -1,13 +1,19 @@
 ---
-aliases: ["Dopamine-Aware Planning"]
-created: 2025-11-11T19:05:14Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:34+00:00
-status: "seedling"
-tags: ["dopamine", "planning", "TheHuman/Health/ADHD", "topic/productivity"]
-title: "Dopamine-Aware Planning Aligns Tasks with the Brain's Reward System"
-type: "strategy"
-updated: 
+aliases:
+- Dopamine-Aware Planning
+created: 2025-11-11 19:05:14+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:34+00:00
+status: seedling
+tags:
+- dopamine
+- planning
+- TheHuman/Health/ADHD
+- topic/productivity
+title: Dopamine-Aware Planning Aligns Tasks with the Brain's Reward System
+type: strategy
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/dopamine-aware-planning-aligns-tasks-with-the-brains-reward-system
 ---
 
 ## Dopamine-Aware Planning Aligns Tasks with the Brain's Reward System

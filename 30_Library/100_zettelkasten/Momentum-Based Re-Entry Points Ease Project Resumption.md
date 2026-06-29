@@ -1,13 +1,18 @@
 ---
-aliases: ["Shallow Entry Points"]
-created: 2025-11-11T19:05:06Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:30+00:00
-status: "seedling"
-tags: ["task-management", "TheHuman/Health/ADHD", "topic/productivity"]
+aliases:
+- Shallow Entry Points
+created: 2025-11-11 19:05:06+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:30+00:00
+status: seedling
+tags:
+- task-management
+- TheHuman/Health/ADHD
+- topic/productivity
 title: Momentum-Based Re-Entry Points Ease Project Resumption
-type: "strategy"
-updated: 
+type: strategy
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/momentum-based-re-entry-points-ease-project-resumption
 ---
 
 ## Momentum-Based Re-Entry Points Ease Project Resumption

@@ -1,10 +1,19 @@
 ---
-aliases: ["Lattice Theory", "Meet and Join", "Partial Orders", "Subsumption"]
-created: 2026-02-04T00:00:00+00:00
-modified: 2026-02-05T18:50:01+00:00
-tags: ["logic", "math", "sot", "theory"]
+aliases:
+- Lattice Theory
+- Meet and Join
+- Partial Orders
+- Subsumption
+created: 2026-02-04 00:00:00+00:00
+modified: 2026-02-05 18:50:01+00:00
+tags:
+- logic
+- math
+- sot
+- theory
 title: SoT - Order Theory & Lattices
 type: SoT
+permalink: llmeon/30-library/so-t/so-t-order-theory-lattices
 ---
 
 ## Minimum Viable Understanding (MVU)

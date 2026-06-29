@@ -2,10 +2,15 @@
 title: Starship Performance Tuning
 wiki_type: dossier
 entity_kind: project
-created: 2026-05-23T20:15:00+01:00
-modified: 2026-05-24T20:15:00+01:00
-tags: [wiki, dossier]
-sources: [raw/2026-05-23-pieces-starship-config.md, raw/2026-05-24-pieces-starship-hermes-review.md]
+created: 2026-05-23 20:15:00+01:00
+modified: 2026-05-24 20:15:00+01:00
+tags:
+- wiki
+- dossier
+sources:
+- raw/2026-05-23-pieces-starship-config.md
+- raw/2026-05-24-pieces-starship-hermes-review.md
+permalink: llmeon/wiki/projects/starship-performance-tuning
 ---
 
 # Starship Performance Tuning

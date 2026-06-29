@@ -2,10 +2,14 @@
 title: Antigravity CLI Migration
 wiki_type: dossier
 entity_kind: project
-created: 2026-05-26T12:00:00+00:00
-modified: 2026-05-26T12:00:00+00:00
-tags: [wiki, dossier]
-sources: [raw/2026-05-26-pieces-antigravity-migration.md]
+created: 2026-05-26 12:00:00+00:00
+modified: 2026-05-26 12:00:00+00:00
+tags:
+- wiki
+- dossier
+sources:
+- raw/2026-05-26-pieces-antigravity-migration.md
+permalink: llmeon/wiki/projects/antigravity-cli-migration
 ---
 
 ## Summary

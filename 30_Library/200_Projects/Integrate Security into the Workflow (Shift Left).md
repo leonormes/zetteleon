@@ -1,19 +1,20 @@
 ---
 aliases: []
-created: 2025-03-26T13:03:43Z
-last_reviewed: ""
-modified: 2026-06-08T11:49:21+00:00
+created: 2025-03-26 13:03:43+00:00
+last_reviewed: ''
+modified: 2026-06-22 09:14:06+00:00
 project_category: development
-project_name: "Core"
+project_name: Core
 project_status: archived
 see_also: []
-status: ""
-superseded_by: ""
-supersedes: ""
+status: ''
+superseded_by: ''
+supersedes: ''
 tags: []
 title: Integrate Security into the Workflow (Shift Left)
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/200-projects/integrate-security-into-the-workflow-shift-left
 ---
 
 Make security part of the process, not an afterthought.
@@ -40,5 +41,3 @@ Make security part of the process, not an afterthought.
 ## Secure Defaults and Templates
 
 - Provide secure base configurations, Docker images, or project templates. Make the secure way the easy way.
-
-[[Make the Threat Real and Relevant]]

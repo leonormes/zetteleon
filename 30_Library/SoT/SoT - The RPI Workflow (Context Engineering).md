@@ -1,11 +1,21 @@
 ---
-aliases: ["Context Economics", "Context Engineering Workflow", "Research Plan Implement", "RPI Protocol"]
-created: 2026-01-09T21:52:07+00:00
-modified: 2026-02-01T15:07:49+00:00
-status: "permanent"
-tags: ["ai/architecture", "mental-model", "prodos", "system/protocol", "workflow"]
+aliases:
+- Context Economics
+- Context Engineering Workflow
+- Research Plan Implement
+- RPI Protocol
+created: 2026-01-09 21:52:07+00:00
+modified: 2026-02-01 15:07:49+00:00
+status: permanent
+tags:
+- ai/architecture
+- mental-model
+- prodos
+- system/protocol
+- workflow
 title: SoT - The RPI Workflow (Context Engineering)
-type: "SoT"
+type: SoT
+permalink: llmeon/30-library/so-t/so-t-the-rpi-workflow-context-engineering
 ---
 
 ## Minimum Viable Understanding (MVU)

@@ -1,13 +1,16 @@
 ---
-aliases: ["NIC DMA"]
-created: 2025-11-22T15:00:06Z
-last_reviewed: "2025-11-22"
-modified: 2026-02-01T15:08:35+00:00
-status: "seedling"
-tags: ["SoftwareEngineering/networking/hardware"]
+aliases:
+- NIC DMA
+created: 2025-11-22 15:00:06+00:00
+last_reviewed: '2025-11-22'
+modified: 2026-02-01 15:08:35+00:00
+status: seedling
+tags:
+- SoftwareEngineering/networking/hardware
 title: Concept - NIC Direct Memory Access
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/concept-nic-direct-memory-access
 ---
 
 ## NIC Direct Memory Access

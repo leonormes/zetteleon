@@ -1,8 +1,13 @@
 ---
-created: 2026-04-10T13:00:00+00:00
-modified: 2026-05-26T11:44:32+00:00
-tags: [agents, automation, productivity, software-engineering]
+created: 2026-04-10 13:00:00+00:00
+modified: 2026-05-26 11:44:32+00:00
+tags:
+- agents
+- automation
+- productivity
+- software-engineering
 title: The Unit of Software Engineering Is Shifting from Code Lines to Intent Expressions
+permalink: llmeon/30-library/100-zettelkasten/the-unit-of-software-engineering-is-shifting-from-code-lines-to-intent-expressions
 ---
 
 ## The Unit of Software Engineering Is Shifting from Code Lines to Intent Expressions

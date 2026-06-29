@@ -1,8 +1,13 @@
 ---
-created: 2026-04-10T00:00:00+00:00
-modified: 2026-05-26T11:44:33+00:00
-tags: [criteria, evaluation, optimization, prompt-engineering]
+created: 2026-04-10 00:00:00+00:00
+modified: 2026-05-26 11:44:33+00:00
+tags:
+- criteria
+- evaluation
+- optimization
+- prompt-engineering
 title: Optimization Criteria Must Be Binary Single-Variable Testable Conditions
+permalink: llmeon/30-library/100-zettelkasten/optimization-criteria-must-be-binary-single-variable-testable-conditions
 ---
 
 ## Optimization Criteria Must Be Binary Single-Variable Testable Conditions

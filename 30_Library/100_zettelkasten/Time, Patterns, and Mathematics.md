@@ -1,17 +1,19 @@
 ---
 aliases: []
-created: 2025-10-26T00:00:00Z
-last_reviewed: ""
-modified: 2026-05-26T11:44:32+00:00
+created: 2025-10-26 00:00:00+00:00
+last_reviewed: ''
+modified: 2026-05-26 11:44:32+00:00
 see_also: []
-source: "https://gemini.google.com/share/9b6f6fdd7c5e"
-status: ""
-superseded_by: ""
-supersedes: ""
-tags: ["llm_session"]
+source: https://gemini.google.com/share/9b6f6fdd7c5e
+status: ''
+superseded_by: ''
+supersedes: ''
+tags:
+- llm_session
 title: Time, Patterns, and Mathematics
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/time-patterns-and-mathematics
 ---
 
 Humans are pattern detecting machines. But for there to be patterns we need linear tine. Time need to move in 1 direction. Without time out causality there can not be patterns. Some physicists suggest that time is an illusion the way humans perceive it. But without patterns there is no maths. Therefore we invented it. Photons don't experience time. To

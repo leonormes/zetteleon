@@ -1,10 +1,19 @@
 ---
-aliases: ["Helm to CUE", "Infrastructure Refactoring", "The Strangler Fig Pattern"]
-created: 2026-02-04T00:00:00+00:00
-modified: 2026-02-04T07:26:55+00:00
-tags: ["cue", "helm", "migration", "sot", "strategy"]
+aliases:
+- Helm to CUE
+- Infrastructure Refactoring
+- The Strangler Fig Pattern
+created: 2026-02-04 00:00:00+00:00
+modified: 2026-02-04 07:26:55+00:00
+tags:
+- cue
+- helm
+- migration
+- sot
+- strategy
 title: SoT - Strategy - Helm to CUE Migration
 type: SoT
+permalink: llmeon/30-library/so-t/so-t-strategy-helm-to-cue-migration
 ---
 
 ## The Strategic Goal

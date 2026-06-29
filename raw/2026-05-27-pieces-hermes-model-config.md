@@ -1,9 +1,15 @@
 ---
 title: Hermes Model Config — Pieces LTM 2026-05-27
-created: 2026-05-27T21:30:22.834681+00:00
+created: 2026-05-27 21:30:22.834681+00:00
 source: pieces-ltm
-pieces_ids: [1601aac4-eaab-4500-b1fe-f74c6f635137, c66f274f-ba9c-411a-b534-a2c682bb76b7, 3a8ea5cd-a70b-4f68-83a9-49803a16b8d3]
-tags: [raw, pieces]
+pieces_ids:
+- 1601aac4-eaab-4500-b1fe-f74c6f635137
+- c66f274f-ba9c-411a-b534-a2c682bb76b7
+- 3a8ea5cd-a70b-4f68-83a9-49803a16b8d3
+tags:
+- raw
+- pieces
+permalink: llmeon/raw/2026-05-27-pieces-hermes-model-config
 ---
 
 ## Asset 1 (Pieces: 1601aac4-eaab-4500-b1fe-f74c6f635137)

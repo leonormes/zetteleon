@@ -1,13 +1,18 @@
 ---
 aliases: []
-created: 2025-08-31T16:07:33Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:32+00:00
-status: ""
-tags: ["bilingualism", "development", "language-acquisition", "nature-nurture"]
+created: 2025-08-31 16:07:33+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:32+00:00
+status: ''
+tags:
+- bilingualism
+- development
+- language-acquisition
+- nature-nurture
 title: Language Acquisition and Development
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/language-acquisition-and-development
 ---
 
 Understanding the nature of pre-linguistic thought provides valuable insights into the process of language acquisition and development, highlighting the complex interplay between innate cognitive structures and environmental factors.

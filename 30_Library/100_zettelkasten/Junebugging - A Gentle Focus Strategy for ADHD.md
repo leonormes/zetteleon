@@ -1,13 +1,20 @@
 ---
 aliases: []
-created: 2025-10-26T11:14:00Z
-last_reviewed: "2025-12-16"
-modified: 2026-02-01T15:08:32+00:00
-status: "pending"
-tags: ["experiment", "focus", "hypothesis", "self-compassion", "TheHuman/Health/ADHD", "topic/productivity"]
+created: 2025-10-26 11:14:00+00:00
+last_reviewed: '2025-12-16'
+modified: 2026-02-01 15:08:32+00:00
+status: pending
+tags:
+- experiment
+- focus
+- hypothesis
+- self-compassion
+- TheHuman/Health/ADHD
+- topic/productivity
 title: Junebugging - A Gentle Focus Strategy for ADHD
-type: "hypothesis"
-updated: 
+type: hypothesis
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/junebugging-a-gentle-focus-strategy-for-adhd
 ---
 
 ## 1. The Hypothesis

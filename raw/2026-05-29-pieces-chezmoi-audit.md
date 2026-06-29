@@ -1,9 +1,17 @@
 ---
 title: Chezmoi Dotfiles Audit — 2026-05-29
-created: 2026-05-29T13:44:28+00:00
+created: 2026-05-29 13:44:28+00:00
 source: pieces-ltm
-pieces_ids: ["0564f203-1e28-4f6c-a485-5ab385382e8e", "913df5f6-aa3c-4c49-9914-dcf4b4df4c23", "cf86f34c-82cc-426e-b81b-331d70267dfc", "49ca1f2c-5d47-4510-b40a-73c2011fa406", "fa883503-057b-4ce2-a645-f7b59eed7e55"]
-tags: [raw, pieces]
+pieces_ids:
+- 0564f203-1e28-4f6c-a485-5ab385382e8e
+- 913df5f6-aa3c-4c49-9914-dcf4b4df4c23
+- cf86f34c-82cc-426e-b81b-331d70267dfc
+- 49ca1f2c-5d47-4510-b40a-73c2011fa406
+- fa883503-057b-4ce2-a645-f7b59eed7e55
+tags:
+- raw
+- pieces
+permalink: llmeon/raw/2026-05-29-pieces-chezmoi-audit
 ---
 
 # Chezmoi Dotfiles Audit — 2026-05-29

@@ -1,12 +1,14 @@
 ---
 captured: 2026-06-01T21:16:25+01:00 2026-06-01T21:16:25+01:00
-created: 2026-06-01T20:16:43+00:00
-modified: 2026-06-05T22:09:50+00:00
+created: 2026-06-01 20:16:43+00:00
+modified: 2026-06-05 22:09:50+00:00
 source: https://claude.ai/chat/70c8d419-143e-425f-9d90-5413b8fa7ae7
 status: processing
-tags: [input]
+tags:
+- input
 title: HEAD Managing focus with ADHD amid competing priorities
 type: head
+permalink: llmeon/20-thinking/21-workbench/head-managing-focus-with-adhd-amid-competing-priorities
 ---
 
 ## Raw Output / Content

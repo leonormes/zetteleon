@@ -1,8 +1,13 @@
 ---
-created: 2026-04-10T00:00:00+00:00
-modified: 2026-05-26T11:44:36+00:00
-tags: [cognitive-dissonance, logic, self-reflection, writing]
+created: 2026-04-10 00:00:00+00:00
+modified: 2026-05-26 11:44:36+00:00
+tags:
+- cognitive-dissonance
+- logic
+- self-reflection
+- writing
 title: Committing Thought to Language Reveals Actual Versus Assumed Beliefs
+permalink: llmeon/30-library/100-zettelkasten/committing-thought-to-language-reveals-actual-versus-assumed-beliefs
 ---
 
 ## Committing Thought to Language Reveals Actual Versus Assumed Beliefs

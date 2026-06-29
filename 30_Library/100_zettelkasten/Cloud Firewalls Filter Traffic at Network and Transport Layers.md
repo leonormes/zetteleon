@@ -1,13 +1,19 @@
 ---
-aliases: ["Network Security Groups", "NSGs"]
-created: 2025-10-31T10:31:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:36+00:00
-status: "seedling"
-tags: ["cloud", "SoftwareEngineering/Networking", "SoftwareEngineering/Security"]
+aliases:
+- Network Security Groups
+- NSGs
+created: 2025-10-31 10:31:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:36+00:00
+status: seedling
+tags:
+- cloud
+- SoftwareEngineering/Networking
+- SoftwareEngineering/Security
 title: Cloud Firewalls Filter Traffic at Network and Transport Layers
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/cloud-firewalls-filter-traffic-at-network-and-transport-layers
 ---
 
 ## Cloud Firewalls Filter Traffic at Network and Transport Layers

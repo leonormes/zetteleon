@@ -1,13 +1,19 @@
 ---
-aliases: ["Know Yourself to Build Your Routine"]
-created: 2025-10-29T16:10:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:27+00:00
-status: "seedling"
-tags: ["energy-management", "routine", "self-awareness", "sensory-processing"]
+aliases:
+- Know Yourself to Build Your Routine
+created: 2025-10-29 16:10:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:27+00:00
+status: seedling
+tags:
+- energy-management
+- routine
+- self-awareness
+- sensory-processing
 title: Self-Observation is the Foundation of Routine Building
-type: "strategy"
-updated: 
+type: strategy
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/self-observation-is-the-foundation-of-routine-building
 ---
 
 The foundation of any effective and sustainable routine is deep self-knowledge. Before implementing a new structure, one must first engage in a period of self-observation to understand their unique needs, patterns, and sensitivities.

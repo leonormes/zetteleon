@@ -1,13 +1,22 @@
 ---
-aliases: ["Cognitive Dissonance SoT", "The Ambiguity Barrier"]
-created: 2025-12-14T00:00:00Z
-last_reviewed: "2025-12-14"
-modified: 2026-02-01T15:08:01+00:00
-status: "stable"
-tags: ["ambiguity", "deep_work", "dissonance", "mental_models", "TheHuman/Cognition", "TheHuman/Psychology"]
+aliases:
+- Cognitive Dissonance SoT
+- The Ambiguity Barrier
+created: 2025-12-14 00:00:00+00:00
+last_reviewed: '2025-12-14'
+modified: 2026-02-01 15:08:01+00:00
+status: stable
+tags:
+- ambiguity
+- deep_work
+- dissonance
+- mental_models
+- TheHuman/Cognition
+- TheHuman/Psychology
 title: SoT - Cognitive Ambiguity and Deep Thinking
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-cognitive-ambiguity-and-deep-thinking
 ---
 
 ## 2. The Mechanics of Avoidance

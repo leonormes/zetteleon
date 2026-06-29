@@ -1,13 +1,15 @@
 ---
 aliases: []
-created: 2025-05-17T16:34:11Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:31+00:00
-status: ""
-tags: ["SoftwareEngineering/Networking"]
+created: 2025-05-17 16:34:11+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:31+00:00
+status: ''
+tags:
+- SoftwareEngineering/Networking
 title: Layer 7 Protocol Elements in Node.js
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/layer-7-protocol-elements-in-node.js
 ---
 
 Here's what represents Layer 7 in these examples:

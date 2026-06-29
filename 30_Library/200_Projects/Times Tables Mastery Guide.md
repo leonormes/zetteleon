@@ -1,11 +1,12 @@
 ---
-created: 2026-06-01T11:27:22+00:00
-modified: 2026-06-08T11:49:22+00:00
+created: 2026-06-01 11:27:22+00:00
+modified: 2026-06-08 11:49:22+00:00
 project_category: personal
 project_status: active
 title: Times Tables Mastery Guide
-type:
+type: null
 project_name: Bessie
+permalink: llmeon/30-library/200-projects/times-tables-mastery-guide
 ---
 
 ## Master Your Times Tables: A Comprehensive Guide

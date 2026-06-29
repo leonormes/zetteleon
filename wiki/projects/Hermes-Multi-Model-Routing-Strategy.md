@@ -2,12 +2,16 @@
 title: Hermes Multi-Model Routing Strategy
 wiki_type: dossier
 entity_kind: project
-created: 2026-05-27T09:12:00+00:00
-modified: 2026-05-30T12:54:43+00:00
-tags: [wiki, dossier, project]
+created: 2026-05-27 09:12:00+00:00
+modified: 2026-05-30 12:54:43+00:00
+tags:
+- wiki
+- dossier
+- project
 sources:
-  - raw/2026-05-30-pieces-hermes-model-routing-chezmoi.md
-  - raw/2026-05-27-pieces-hermes-openrouter-claude
+- raw/2026-05-30-pieces-hermes-model-routing-chezmoi.md
+- raw/2026-05-27-pieces-hermes-openrouter-claude
+permalink: llmeon/wiki/projects/hermes-multi-model-routing-strategy
 ---
 
 ## Summary

@@ -2,10 +2,14 @@
 title: Future Roadmap Planning
 wiki_type: dossier
 entity_kind: project
-created: 2026-04-29T08:35:00+00:00
-modified: 2026-04-29T08:35:00+00:00
-tags: [wiki, dossier]
-sources: [raw/2026-04-29-pieces-future-roadmap-planning]
+created: 2026-04-29 08:35:00+00:00
+modified: 2026-04-29 08:35:00+00:00
+tags:
+- wiki
+- dossier
+sources:
+- raw/2026-04-29-pieces-future-roadmap-planning
+permalink: llmeon/wiki/projects/future-roadmap-planning
 ---
 
 ## Summary

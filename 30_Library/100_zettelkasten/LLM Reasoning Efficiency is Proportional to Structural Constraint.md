@@ -1,9 +1,13 @@
 ---
-created: 2026-02-01T20:57:13+00:00
-modified: 2026-02-04T07:27:45+00:00
+created: 2026-02-01 20:57:13+00:00
+modified: 2026-02-04 07:27:45+00:00
 status: evergreen
-tags: [complexity, concept/llm-reasoning, domain/ai]
+tags:
+- complexity
+- concept/llm-reasoning
+- domain/ai
 title: LLM Reasoning Efficiency is Proportional to Structural Constraint
+permalink: llmeon/30-library/100-zettelkasten/llm-reasoning-efficiency-is-proportional-to-structural-constraint
 ---
 
 ## LLM Reasoning Efficiency is Proportional to Structural Constraint

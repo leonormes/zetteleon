@@ -1,30 +1,39 @@
 ---
-created: 2026-06-08T11:35:53+00:00
+created: 2026-06-08 11:35:53+00:00
 isProject: false
-modified: 2026-06-08T11:49:24+00:00
+modified: 2026-06-08 11:49:24+00:00
 name: Hermes daily-driver cost routing
-overview: Reconfigure Hermes so a free/cheap model handles gather+mechanical tool loops, while Claude is only used for bounded high-value reasoning steps (escalations), with strong guardrails, caching, and repeatable debugging patterns for daily coding+infra work.
+overview: Reconfigure Hermes so a free/cheap model handles gather+mechanical tool
+  loops, while Claude is only used for bounded high-value reasoning steps (escalations),
+  with strong guardrails, caching, and repeatable debugging patterns for daily coding+infra
+  work.
 project_category: hermes_optimisastion
 project_name: Hermes Optimisastion
 project_status: active
 title: hermes_daily-driver_cost_routing_487849b4.plan
 todos:
-  - id: audit-current-hermes-config
-    content: Audit `private_dot_hermes/private_config.yaml` and identify exact keys to change for approvals, aux models, delegation toolset restrictions, and aliases.
-    status: pending
-  - id: implement-gather-reason-act-routing
-    content: Update `private_dot_hermes/skills/route-task.md` to enforce Gather/Reason/Act classification and escalation to paid Claude only on defined signals.
-    status: pending
-  - id: add-mechanical-playbooks
-    content: Add 4 infra playbook skills (ArgoCD unstick, CrashLoop triage, Helm template validation, Loki label audit) designed for free-model execution.
-    status: pending
-  - id: tighten-mcp-filters
-    content: Add/verify MCP per-server tool allowlists/blacklists and disable unneeded MCP utilities to reduce prompt bloat and risk.
-    status: pending
-  - id: pilot-and-tune
-    content: Define a 2-phase trial (free-only dry run, then minimum-credit pilot) with success criteria and tuning knobs.
-    status: pending
-type:
+- id: audit-current-hermes-config
+  content: Audit `private_dot_hermes/private_config.yaml` and identify exact keys
+    to change for approvals, aux models, delegation toolset restrictions, and aliases.
+  status: pending
+- id: implement-gather-reason-act-routing
+  content: Update `private_dot_hermes/skills/route-task.md` to enforce Gather/Reason/Act
+    classification and escalation to paid Claude only on defined signals.
+  status: pending
+- id: add-mechanical-playbooks
+  content: Add 4 infra playbook skills (ArgoCD unstick, CrashLoop triage, Helm template
+    validation, Loki label audit) designed for free-model execution.
+  status: pending
+- id: tighten-mcp-filters
+  content: Add/verify MCP per-server tool allowlists/blacklists and disable unneeded
+    MCP utilities to reduce prompt bloat and risk.
+  status: pending
+- id: pilot-and-tune
+  content: Define a 2-phase trial (free-only dry run, then minimum-credit pilot) with
+    success criteria and tuning knobs.
+  status: pending
+type: null
+permalink: llmeon/30-library/200-projects/hermes-daily-driver-cost-routing-487849b4.plan
 ---
 
 ## Goal

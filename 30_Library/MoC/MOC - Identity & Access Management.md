@@ -1,15 +1,22 @@
 ---
-aliases: ["IAM MOC", "Identity MOC"]
-created: 2026-04-05T10:00:00Z
-last_reviewed: 
-modified: 2026-05-26T11:44:22+00:00
+aliases:
+- IAM MOC
+- Identity MOC
+created: 2026-04-05 10:00:00+00:00
+last_reviewed: null
+modified: 2026-05-26 11:44:22+00:00
 see_also: []
-status: "Active"
-superseded_by: ""
-supersedes: ""
-tags: ["iam", "infrastructure", "moc", "security"]
+status: Active
+superseded_by: ''
+supersedes: ''
+tags:
+- iam
+- infrastructure
+- moc
+- security
 title: MOC - Identity & Access Management
-type: "MOC"
+type: MOC
+permalink: llmeon/30-library/mo-c/moc-identity-access-management
 ---
 
 Identity and Access Management (IAM) is the framework of policies and technologies that ensures the right individuals have access to the right resources at the right times for the right reasons. In modern cloud-native environments, Identity is the new perimeter.

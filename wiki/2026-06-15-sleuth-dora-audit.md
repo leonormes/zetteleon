@@ -1,7 +1,14 @@
 ---
-tags: [sre, observability, dora, sleuth, audit, fitfile]
+tags:
+- sre
+- observability
+- dora
+- sleuth
+- audit
+- fitfile
 source: sleuth-graphql-api
 created: 2026-06-15
+permalink: llmeon/wiki/2026-06-15-sleuth-dora-audit
 ---
 
 # Sleuth DORA Audit — FITFILE

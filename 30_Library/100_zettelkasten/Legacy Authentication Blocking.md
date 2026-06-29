@@ -1,15 +1,20 @@
 ---
-created: 2026-04-14T20:24:56+00:00
-created_utc: "2026-04-14T13:00:00Z"
+created: 2026-04-14 20:24:56+00:00
+created_utc: '2026-04-14T13:00:00Z'
 kind: mechanism
-modified: 2026-05-26T11:44:34+00:00
-source_title: "Azure Entra Identity Best Practices & Remediation Plan"
-source_url: "https://gemini.google.com/app/90721765fb79ed7a"
+modified: 2026-05-26 11:44:34+00:00
+source_title: Azure Entra Identity Best Practices & Remediation Plan
+source_url: https://gemini.google.com/app/90721765fb79ed7a
 status: seed
-tags: [conditional-access, legacy-auth, microsoft-entra, security]
+tags:
+- conditional-access
+- legacy-auth
+- microsoft-entra
+- security
 title: Legacy Authentication Blocking
 type: atom
-upstream: "[[SoT - Microsoft Entra Identity]]"
+upstream: '[[SoT - Microsoft Entra Identity]]'
+permalink: llmeon/30-library/100-zettelkasten/legacy-authentication-blocking
 ---
 
 ## Legacy Authentication Blocking

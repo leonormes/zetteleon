@@ -1,12 +1,13 @@
 ---
 aliases: []
-created: 2026-01-03T18:24:19+00:00
-last_reviewed: ""
-modified: 2026-02-01T15:07:52+00:00
+created: 2026-01-03 18:24:19+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:07:52+00:00
 status: stable
 tags: []
 title: SoT - Rust Vec Data Structure
 type: SoT
+permalink: llmeon/30-library/so-t/so-t-rust-vec-data-structure
 ---
 
 ## SoT - Rust Vec Data Structure

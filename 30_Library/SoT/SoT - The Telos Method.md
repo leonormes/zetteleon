@@ -1,13 +1,21 @@
 ---
-aliases: [Chain of Explainability, Human 3.0 Framework, Self-Capture Architecture]
-created: 2025-12-24T12:12:06Z
+aliases:
+- Chain of Explainability
+- Human 3.0 Framework
+- Self-Capture Architecture
+created: 2025-12-24 12:12:06+00:00
 last_reviewed: 2025-12-24
-modified: 2026-02-01T15:07:49+00:00
+modified: 2026-02-01 15:07:49+00:00
 status: stable
-tags: ["ai_integration", "framework", "strategy", "telos"]
+tags:
+- ai_integration
+- framework
+- strategy
+- telos
 title: SoT - The Telos Method
 type: SoT
-updated:
+updated: null
+permalink: llmeon/30-library/so-t/so-t-the-telos-method
 ---
 
 > [!definition] Definition

@@ -1,12 +1,21 @@
 ---
-aliases: [Azure Jumpbox Preflight Check, Customer One-Pager, run_me_first.sh Guide]
-created: 2025-12-09T11:21:13Z
-modified: 2026-05-26T11:44:21+00:00
+aliases:
+- Azure Jumpbox Preflight Check
+- Customer One-Pager
+- run_me_first.sh Guide
+created: 2025-12-09 11:21:13+00:00
+modified: 2026-05-26 11:44:21+00:00
 Reviewed: true
 status: evergreen
-tags: [azure, bastion, ff_deploy, protocol, ssh]
+tags:
+- azure
+- bastion
+- ff_deploy
+- protocol
+- ssh
 title: Protocol - Azure Jumpbox Preflight
 type: Protocol
+permalink: llmeon/30-library/so-t/protocol-azure-jumpbox-preflight
 ---
 
 Goal:

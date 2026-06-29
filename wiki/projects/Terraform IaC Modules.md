@@ -2,11 +2,14 @@
 title: Terraform IaC Modules
 wiki_type: dossier
 entity_kind: project
-created: 2026-04-30T06:04:37+00:00
-modified: 2026-04-30T13:14:00+00:00
-tags: [wiki, dossier]
+created: 2026-04-30 06:04:37+00:00
+modified: 2026-04-30 13:14:00+00:00
+tags:
+- wiki
+- dossier
 sources:
-  - raw/2026-04-30-pieces-azure-backup-projects
+- raw/2026-04-30-pieces-azure-backup-projects
+permalink: llmeon/wiki/projects/terraform-ia-c-modules
 ---
 
 ## Summary

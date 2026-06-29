@@ -1,13 +1,18 @@
 ---
 aliases: []
-created: 2025-08-31T16:08:27Z
-last_reviewed: "null"
-modified: 2026-02-01T15:08:34+00:00
-status: "null"
-tags: ["epistemology", "knowledge", "non-linguistic-knowledge", "topic/philosophy"]
+created: 2025-08-31 16:08:27+00:00
+last_reviewed: 'null'
+modified: 2026-02-01 15:08:34+00:00
+status: 'null'
+tags:
+- epistemology
+- knowledge
+- non-linguistic-knowledge
+- topic/philosophy
 title: Epistemology and Knowledge Beyond Language
-type: "null"
-updated: 
+type: 'null'
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/epistemology-and-knowledge-beyond-language
 ---
 
 The gap between thought and language raises fundamental epistemological questions about the nature of knowledge and how it is acquired. This is particularly true for knowledge that exists beyond linguistic expression, reminding us that [[Words are Imperfect Representations of Meaning]]. One proposed structure for pre-linguistic thought is the [[Language of Thought]] hypothesis.

@@ -1,13 +1,23 @@
 ---
-aliases: ["Cognitive Physiology", "Initiation", "Mood Repair Trap", "Task Execution Stages"]
-created: 2025-12-10T00:00:00Z
-last_reviewed: "2026-01-03"
-modified: 2026-05-26T11:44:17+00:00
-status: "stable"
-tags: ["prodos", "productivity", "task_management", "TheHuman/Cognition", "TheHuman/Neuroscience"]
+aliases:
+- Cognitive Physiology
+- Initiation
+- Mood Repair Trap
+- Task Execution Stages
+created: 2025-12-10 00:00:00+00:00
+last_reviewed: '2026-01-03'
+modified: 2026-05-26 11:44:17+00:00
+status: stable
+tags:
+- prodos
+- productivity
+- task_management
+- TheHuman/Cognition
+- TheHuman/Neuroscience
 title: SoT - The Cognitive Physiology of Task Execution
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-the-cognitive-physiology-of-task-execution
 ---
 
 > ProdOS Design Goal: " To decouple these phases into distinct tool-supported steps."

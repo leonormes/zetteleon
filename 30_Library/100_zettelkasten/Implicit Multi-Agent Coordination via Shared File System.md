@@ -1,8 +1,13 @@
 ---
-created: 2026-04-10T12:00:00+00:00
-modified: 2026-05-26T11:44:34+00:00
-tags: [coordination, determinism, file-system, multi-agent-systems]
+created: 2026-04-10 12:00:00+00:00
+modified: 2026-05-26 11:44:34+00:00
+tags:
+- coordination
+- determinism
+- file-system
+- multi-agent-systems
 title: Implicit Multi-Agent Coordination via Shared File System
+permalink: llmeon/30-library/100-zettelkasten/implicit-multi-agent-coordination-via-shared-file-system
 ---
 
 ## Implicit Multi-Agent Coordination via Shared File System

@@ -1,12 +1,13 @@
 ---
 aliases: []
-created: 2026-01-03T10:24:34+00:00
-last_reviewed: ""
-modified: 2026-02-01T15:07:57+00:00
-status: ""
+created: 2026-01-03 10:24:34+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:07:57+00:00
+status: ''
 tags: []
 title: SoT - Habit Formation Framework
-type: ""
+type: ''
+permalink: llmeon/30-library/so-t/so-t-habit-formation-framework
 ---
 
 ## 1. Philosophy: Process Primacy

@@ -1,21 +1,22 @@
 ---
 aliases: []
-created: 2025-02-07T12:57:56Z
-id: "kubernetes_backup_improve_already_awesome_velero_with_openebs"
-last_reviewed: ""
-modified: 2026-06-08T11:49:24+00:00
+created: 2025-02-07 12:57:56+00:00
+id: kubernetes_backup_improve_already_awesome_velero_with_openebs
+last_reviewed: ''
+modified: 2026-06-08 11:49:24+00:00
 project_category: development
-project_name: "Core"
+project_name: Core
 project_status: archived
 see_also: []
-source: "https://blog.mayadata.io/openebs/suggesting-ways-to-improve-already-awesome-velero"
-status: ""
-superseded_by: ""
-supersedes: ""
+source: https://blog.mayadata.io/openebs/suggesting-ways-to-improve-already-awesome-velero
+status: ''
+superseded_by: ''
+supersedes: ''
 tags: []
 title: kubernetes_backup_improve_already_awesome_velero_with_openebs
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/200-projects/kubernetes-backup-improve-already-awesome-velero-with-openebs
 ---
 
 ## Kubernetes Backup Improve Already Awesome Velero with OpenEBS

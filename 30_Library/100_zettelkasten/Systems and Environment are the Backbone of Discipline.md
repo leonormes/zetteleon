@@ -1,14 +1,19 @@
 ---
 aliases: []
-created: 2025-10-30T12:04:03Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:26+00:00
-source: "[[MOC - How to Build Discipline]]"
-status: "seedling"
-tags: ["discipline", "environment", "TheHuman/Motivation", "topic/systems"]
+created: 2025-10-30 12:04:03+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:26+00:00
+source: '[[MOC - How to Build Discipline]]'
+status: seedling
+tags:
+- discipline
+- environment
+- TheHuman/Motivation
+- topic/systems
 title: Systems and Environment are the Backbone of Discipline
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/systems-and-environment-are-the-backbone-of-discipline
 ---
 
 Motivation is an unreliable and fleeting emotion, making it a poor foundation for long-term discipline. Instead, the backbone of sustainable discipline is a well-designed system and an environment that supports your goals. These external structures make disciplined action more automatic, reducing the need for constant willpower.

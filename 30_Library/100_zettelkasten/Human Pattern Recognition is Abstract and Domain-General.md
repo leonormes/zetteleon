@@ -1,13 +1,18 @@
 ---
-aliases: ["Abstract Pattern Recognition"]
-created: 2025-11-01T12:00:08Z
-last_reviewed: "2025-11-01"
-modified: 2026-02-01T15:08:33+00:00
-status: "seedling"
-tags: ["abstraction", "evolution", "TheHuman/Cognition"]
+aliases:
+- Abstract Pattern Recognition
+created: 2025-11-01 12:00:08+00:00
+last_reviewed: '2025-11-01'
+modified: 2026-02-01 15:08:33+00:00
+status: seedling
+tags:
+- abstraction
+- evolution
+- TheHuman/Cognition
 title: Human Pattern Recognition is Abstract and Domain-General
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/human-pattern-recognition-is-abstract-and-domain-general
 ---
 
 ## Human Pattern Recognition is Abstract and Domain-General

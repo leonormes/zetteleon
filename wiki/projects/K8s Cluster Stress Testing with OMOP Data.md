@@ -2,10 +2,14 @@
 title: K8s Cluster Stress Testing with OMOP Data
 wiki_type: dossier
 entity_kind: project
-created: 2026-05-23T12:52:00+00:00
-modified: 2026-05-23T12:52:00+00:00
-tags: [wiki, dossier]
-sources: [raw/2026-05-23-pieces-natural-planning-model.md]
+created: 2026-05-23 12:52:00+00:00
+modified: 2026-05-23 12:52:00+00:00
+tags:
+- wiki
+- dossier
+sources:
+- raw/2026-05-23-pieces-natural-planning-model.md
+permalink: llmeon/wiki/projects/k8s-cluster-stress-testing-with-omop-data
 ---
 
 ## Summary

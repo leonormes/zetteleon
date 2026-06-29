@@ -1,7 +1,8 @@
 ---
-created: 2026-04-01T11:10:50+00:00
-modified: 2026-05-26T11:43:57+00:00
+created: 2026-04-01 11:10:50+00:00
+modified: 2026-05-26 11:43:57+00:00
 title: Mindmap Builder
+permalink: llmeon/excalidraw/scripts/downloaded/mindmap-builder
 ---
 
 /*

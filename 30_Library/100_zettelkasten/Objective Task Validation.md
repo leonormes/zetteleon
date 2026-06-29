@@ -1,15 +1,19 @@
 ---
-created: 2026-04-13T14:53:30+00:00
-created_utc: "2026-04-13T11:40:00Z"
+created: 2026-04-13 14:53:30+00:00
+created_utc: '2026-04-13T11:40:00Z'
 kind: heuristic
-modified: 2026-05-26T11:44:34+00:00
-source_title: "Using Karpathy’s Original Framework (Auto Research)"
-source_url: "http://www.youtube.com/watch?v=bc4NrE0cOE0"
+modified: 2026-05-26 11:44:34+00:00
+source_title: Using Karpathy’s Original Framework (Auto Research)
+source_url: http://www.youtube.com/watch?v=bc4NrE0cOE0
 status: seed
-tags: [automation, evaluation, reliability]
+tags:
+- automation
+- evaluation
+- reliability
 title: Objective Task Validation
 type: atom
-upstream: "[[Using Karpathy’s Original Framework]]"
+upstream: '[[Using Karpathy’s Original Framework]]'
+permalink: llmeon/30-library/100-zettelkasten/objective-task-validation
 ---
 
 ## Objective Task Validation

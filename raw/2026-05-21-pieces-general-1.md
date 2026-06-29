@@ -1,10 +1,26 @@
 ---
-created: 2026-05-21T19:15:29+00:00
-modified: 2026-05-26T11:43:33+00:00
-pieces_ids: [007df444-28ad-41c2-9297-41a766549d62, 0b56cd03-2eb1-4735-bae2-fb38f4f9e249, 211edf45-1b37-4818-a14d-cfce281eb316, 23ebfa3a-7cc1-4443-a1f5-f35c9c26ad0b, 502cffc5-d25b-48d0-9a93-46901a5270ea, 5a1b9cd8-e284-47d3-93a2-f9b368053a29, 6f1e8c32-6cb7-424e-b979-0c8a6329b6d8, 70fdc9b7-5ba8-4264-924d-0a3049a4de6b, 8964895c-91f8-4ec1-93c3-b68789065976, 93165e8a-2da9-4ad5-af58-8aa3b5aa6645, a27ca36f-9595-4bab-b3ee-3620949606cc, a33dd8f9-ac2c-4f9a-8edf-c5b61de99f18, eb87f7d6-171f-499c-a3ef-a7cfc91b1b57]
+created: 2026-05-21 19:15:29+00:00
+modified: 2026-05-26 11:43:33+00:00
+pieces_ids:
+- 007df444-28ad-41c2-9297-41a766549d62
+- 0b56cd03-2eb1-4735-bae2-fb38f4f9e249
+- 211edf45-1b37-4818-a14d-cfce281eb316
+- 23ebfa3a-7cc1-4443-a1f5-f35c9c26ad0b
+- 502cffc5-d25b-48d0-9a93-46901a5270ea
+- 5a1b9cd8-e284-47d3-93a2-f9b368053a29
+- 6f1e8c32-6cb7-424e-b979-0c8a6329b6d8
+- 70fdc9b7-5ba8-4264-924d-0a3049a4de6b
+- 8964895c-91f8-4ec1-93c3-b68789065976
+- 93165e8a-2da9-4ad5-af58-8aa3b5aa6645
+- a27ca36f-9595-4bab-b3ee-3620949606cc
+- a33dd8f9-ac2c-4f9a-8edf-c5b61de99f18
+- eb87f7d6-171f-499c-a3ef-a7cfc91b1b57
 source: pieces-ltm
-tags: [pieces, raw]
+tags:
+- pieces
+- raw
 title: 2026-05-21-pieces-general-1
+permalink: llmeon/raw/2026-05-21-pieces-general-1
 ---
 
 ## Asset 1 (Pieces: 70fdc9b7-5ba8-4264-924d-0a3049a4de6b)—12:44:25

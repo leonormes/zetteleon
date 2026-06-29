@@ -1,10 +1,17 @@
 ---
-created: 2026-05-28T22:15:00+00:00
-modified: 2026-06-09T08:39:59+00:00
-pieces_ids: [5f2798af-0061-4829-b92f-b2dc771d67e3, 789e6885-496c-4185-b319-838496d5715c, e3ea73a9-7571-4dad-874e-b60d7620eb8e, f27fbcf0-6fbb-46ef-bd62-6490944b5160]
+created: 2026-05-28 22:15:00+00:00
+modified: 2026-06-09 08:39:59+00:00
+pieces_ids:
+- 5f2798af-0061-4829-b92f-b2dc771d67e3
+- 789e6885-496c-4185-b319-838496d5715c
+- e3ea73a9-7571-4dad-874e-b60d7620eb8e
+- f27fbcf0-6fbb-46ef-bd62-6490944b5160
 source: pieces-ltm
-tags: [pieces, raw]
+tags:
+- pieces
+- raw
 title: 2026-05-28-pieces-hie-aws-rdp
+permalink: llmeon/raw/2026-05-28-pieces-hie-aws-rdp
 ---
 
 ## Asset 1 (Pieces: e3ea73a9-7571-4dad-874e-b60d7620eb8e)—2026-05-28T09:06:26Z

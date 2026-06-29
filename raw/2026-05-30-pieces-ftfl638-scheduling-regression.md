@@ -1,9 +1,29 @@
 ---
 title: FTFL-638 Grafana Alloy — Pod Scheduling Regression After Commit d3c292
-created: 2026-05-30T08:31:27+00:00
+created: 2026-05-30 08:31:27+00:00
 source: pieces-ltm
-pieces_ids: ["ec7ab7b2-48ac-4fdf-9bd8-9b1274d43af5", "51f295f9-ccca-4865-b1d4-426669b4fd3e", "576fb13c-d2ff-4475-a07d-d0dedeef3441", "3dcbaa09-6b7c-4495-823a-c5a5187e926e", "41cd801e-2daf-453f-9bc6-561f19e9405c", "11ca42d0-2283-45de-98cd-cc0540e83ecd", "f95724a5-e8b8-4cad-b8ce-50ed9f70f1ae", "44b3081b-97b4-4a8d-9706-df09a132e298", "8cf63fe9-f5d0-4f95-ac2f-281ed967a02f", "fd542b5e-0a42-47d4-a495-2ad0f39b985f", "96099015-05ad-417d-bf40-04050f893eb0", "074fbe85-f93e-43c9-b270-b0e06e770854", "9e20bac1-90da-4144-a8de-31a700525924", "31e10293-be32-4710-b836-127d8ba3cd47", "bb722349-aed3-471a-8cfb-2e113c9d4d71", "ac04349f-25d8-4b5c-938e-e3b7d4206b49", "7e799f41-1445-4ebd-ba00-74ee955d0f35"]
-tags: [raw, pieces]
+pieces_ids:
+- ec7ab7b2-48ac-4fdf-9bd8-9b1274d43af5
+- 51f295f9-ccca-4865-b1d4-426669b4fd3e
+- 576fb13c-d2ff-4475-a07d-d0dedeef3441
+- 3dcbaa09-6b7c-4495-823a-c5a5187e926e
+- 41cd801e-2daf-453f-9bc6-561f19e9405c
+- 11ca42d0-2283-45de-98cd-cc0540e83ecd
+- f95724a5-e8b8-4cad-b8ce-50ed9f70f1ae
+- 44b3081b-97b4-4a8d-9706-df09a132e298
+- 8cf63fe9-f5d0-4f95-ac2f-281ed967a02f
+- fd542b5e-0a42-47d4-a495-2ad0f39b985f
+- 96099015-05ad-417d-bf40-04050f893eb0
+- 074fbe85-f93e-43c9-b270-b0e06e770854
+- 9e20bac1-90da-4144-a8de-31a700525924
+- 31e10293-be32-4710-b836-127d8ba3cd47
+- bb722349-aed3-471a-8cfb-2e113c9d4d71
+- ac04349f-25d8-4b5c-938e-e3b7d4206b49
+- 7e799f41-1445-4ebd-ba00-74ee955d0f35
+tags:
+- raw
+- pieces
+permalink: llmeon/raw/2026-05-30-pieces-ftfl638-scheduling-regression
 ---
 
 ## Asset 1 (Pieces: ec7ab7b2-48ac-4fdf-9bd8-9b1274d43af5)

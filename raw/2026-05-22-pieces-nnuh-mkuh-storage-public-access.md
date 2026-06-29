@@ -1,10 +1,14 @@
 ---
-created: 2026-05-23T00:23:00+00:00
-modified: 2026-05-26T11:43:32+00:00
-pieces_ids: ["5e900cc2-d3af-43d1-ab6b-4a0fd9cdd305"]
+created: 2026-05-23 00:23:00+00:00
+modified: 2026-05-26 11:43:32+00:00
+pieces_ids:
+- 5e900cc2-d3af-43d1-ab6b-4a0fd9cdd305
 source: pieces-ltm
-tags: [pieces, raw]
+tags:
+- pieces
+- raw
 title: 2026-05-22-pieces-nnuh-mkuh-storage-public-access
+permalink: llmeon/raw/2026-05-22-pieces-nnuh-mkuh-storage-public-access
 ---
 
 ## NNUH and MKUH Storage Accounts—Public Network Access Verification

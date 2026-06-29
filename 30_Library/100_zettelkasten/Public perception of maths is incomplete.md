@@ -1,13 +1,17 @@
 ---
 aliases: []
-created: 2025-07-21T13:34:27Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:28+00:00
-status: ""
-tags: ["idea/maths-education", "idea/perception", "status/seedling"]
+created: 2025-07-21 13:34:27+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:28+00:00
+status: ''
+tags:
+- idea/maths-education
+- idea/perception
+- status/seedling
 title: Public perception of maths is incomplete
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/public-perception-of-maths-is-incomplete
 ---
 
 Source: [[The Two Views of Maths]]

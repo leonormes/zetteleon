@@ -1,11 +1,16 @@
 ---
 aliases: []
-created: 2026-02-02T07:05:00+00:00
-description: The PKM/ProdOS philosophy and mechanics (binary architecture, epistemics, anti-hoarding goal).
-modified: 2026-05-26T11:44:37+00:00
-tags: [domain/pkm, system/prompt, type/context]
+created: 2026-02-02 07:05:00+00:00
+description: The PKM/ProdOS philosophy and mechanics (binary architecture, epistemics,
+  anti-hoarding goal).
+modified: 2026-05-26 11:44:37+00:00
+tags:
+- domain/pkm
+- system/prompt
+- type/context
 title: leon-context-pkm-philosophy
 type: prompt
+permalink: llmeon/10-system/prompts/leon-context-pkm-philosophy
 ---
 
 ## Knowledge Management Context (The Librarian)

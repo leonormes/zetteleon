@@ -1,10 +1,18 @@
 ---
-aliases: [Interest Analysis, Leon's Interests]
-created: 2026-06-10T09:24:30+00:00
-modified: 2026-06-10T09:37:58+00:00
-see_also: ["[[Meta MOC - The Core Domains]]", "[[MOC - PKM as Process vs Product]]"]
-tags: [prodos/meta, topic/pkm, type/reference]
+aliases:
+- Interest Analysis
+- Leon's Interests
+created: 2026-06-10 09:24:30+00:00
+modified: 2026-06-10 09:37:58+00:00
+see_also:
+- '[[Meta MOC - The Core Domains]]'
+- '[[MOC - PKM as Process vs Product]]'
+tags:
+- prodos/meta
+- topic/pkm
+- type/reference
 title: Reference - Vault Interest Map
+permalink: llmeon/30-library/so-t/reference-vault-interest-map
 ---
 
 ## Reference - Vault Interest Map

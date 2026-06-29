@@ -1,12 +1,19 @@
 ---
-aliases: [Task Decomposition Protocol, Vague-to-Action]
-created: 2026-04-04T12:00:00Z
+aliases:
+- Task Decomposition Protocol
+- Vague-to-Action
+created: 2026-04-04 12:00:00+00:00
 last-synthesis: 2026-04-04
-modified: 2026-05-26T11:44:21+00:00
+modified: 2026-05-26 11:44:21+00:00
 status: evergreen
-tags: [execution, prodos, protocol, task-decomposition]
+tags:
+- execution
+- prodos
+- protocol
+- task-decomposition
 title: Protocol - Vague-to-Action
 type: protocol
+permalink: llmeon/30-library/so-t/protocol-vague-to-action
 ---
 
 ## Objective

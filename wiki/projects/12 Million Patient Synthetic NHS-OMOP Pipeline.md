@@ -1,11 +1,17 @@
 ---
-created: 2026-04-28T16:55:00+00:00
+created: 2026-04-28 16:55:00+00:00
 entity_kind: project
-modified: 2026-06-04T08:05:28+00:00
-sources: [raw/2026-04-28-pieces-omop-stress-testing-plan.md, raw/2026-05-08-pieces-omop-ticket-context.md, raw/2026-06-03-pieces-omop-azure-storage.md]
-tags: [dossier, wiki]
+modified: 2026-06-04 08:05:28+00:00
+sources:
+- raw/2026-04-28-pieces-omop-stress-testing-plan.md
+- raw/2026-05-08-pieces-omop-ticket-context.md
+- raw/2026-06-03-pieces-omop-azure-storage.md
+tags:
+- dossier
+- wiki
 title: 12 Million Patient Synthetic NHS-OMOP Pipeline
 wiki_type: dossier
+permalink: llmeon/wiki/projects/12-million-patient-synthetic-nhs-omop-pipeline
 ---
 
 ## Summary

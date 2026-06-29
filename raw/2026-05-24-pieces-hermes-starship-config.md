@@ -1,10 +1,28 @@
 ---
-created: 2026-05-24T01:27:33+00:00
-modified: 2026-05-26T11:43:32+00:00
-pieces_ids: [0c48e7c9-f12e-4ee7-91bd-5100b400f96b, 26def251-74e5-4a60-8e4c-3e8e3b44267c, 3aa57a59-30c6-4fc1-8e48-9841c36c9a78, 43bc9d06-6dcd-4914-9f14-2aeb6e2c09ba, 44400f0d-8c1b-47a1-862e-ca3595627500, 5369a5c9-8644-4262-93d9-101b708e9a23, 77490689-3efc-438e-abf0-1f0e66d8dbbb, 854119c0-81e8-496c-af29-323a6ab0c04c, 8d01bb39-58d5-46d4-b3bc-f37bbf9a2664, 9054377c-6ced-459a-8dae-13abc8c4b8fb, 96d5bb83-c003-4ab0-b10f-b4ed4f8a7aba, a0026d8a-fe9b-4616-a694-161ef59ec29d, c4ce9edc-92a1-4759-baba-071bdee438d1, d4de3373-1200-4b20-b574-2c3b539c1878]
+created: 2026-05-24 01:27:33+00:00
+modified: 2026-05-26 11:43:32+00:00
+pieces_ids:
+- 0c48e7c9-f12e-4ee7-91bd-5100b400f96b
+- 26def251-74e5-4a60-8e4c-3e8e3b44267c
+- 3aa57a59-30c6-4fc1-8e48-9841c36c9a78
+- 43bc9d06-6dcd-4914-9f14-2aeb6e2c09ba
+- 44400f0d-8c1b-47a1-862e-ca3595627500
+- 5369a5c9-8644-4262-93d9-101b708e9a23
+- 77490689-3efc-438e-abf0-1f0e66d8dbbb
+- 854119c0-81e8-496c-af29-323a6ab0c04c
+- 8d01bb39-58d5-46d4-b3bc-f37bbf9a2664
+- 9054377c-6ced-459a-8dae-13abc8c4b8fb
+- 96d5bb83-c003-4ab0-b10f-b4ed4f8a7aba
+- a0026d8a-fe9b-4616-a694-161ef59ec29d
+- c4ce9edc-92a1-4759-baba-071bdee438d1
+- d4de3373-1200-4b20-b574-2c3b539c1878
 source: pieces-ltm
-tags: [1, pieces, raw]
+tags:
+- 1
+- pieces
+- raw
 title: 2026-05-24-pieces-hermes-starship-config
+permalink: llmeon/raw/2026-05-24-pieces-hermes-starship-config
 ---
 
 ## Hermes & Starship Config Work—2026-05-23

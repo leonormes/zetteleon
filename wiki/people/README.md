@@ -1,8 +1,12 @@
 ---
 title: People Index
-created: 2026-05-10T00:00:00+00:00
-modified: 2026-05-10T00:00:00+00:00
-tags: [wiki, people, index]
+created: 2026-05-10 00:00:00+00:00
+modified: 2026-05-10 00:00:00+00:00
+tags:
+- wiki
+- people
+- index
+permalink: llmeon/wiki/people/readme
 ---
 
 # People — Individual Entity Dossiers

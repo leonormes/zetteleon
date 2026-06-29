@@ -1,13 +1,20 @@
 ---
-aliases: ["If-Then Plans", "Implementation Intentions"]
-created: 2025-11-10T17:10:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:32+00:00
-status: "seedling"
-tags: ["behavior-change", "planning", "TheHuman/Habits", "TheHuman/Psychology"]
+aliases:
+- If-Then Plans
+- Implementation Intentions
+created: 2025-11-10 17:10:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:32+00:00
+status: seedling
+tags:
+- behavior-change
+- planning
+- TheHuman/Habits
+- TheHuman/Psychology
 title: Implementation Intentions Automate Action Initiation with If-Then Plans
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/implementation-intentions-automate-action-initiation-with-if-then-plans
 ---
 
 ## Implementation Intentions Automate Action Initiation with If-Then Plans

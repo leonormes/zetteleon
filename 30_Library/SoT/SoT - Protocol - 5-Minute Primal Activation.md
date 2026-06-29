@@ -1,13 +1,20 @@
 ---
-aliases: ["Daily Movement Snack", "Primal Activation"]
-created: 2025-12-24T12:00:00Z
+aliases:
+- Daily Movement Snack
+- Primal Activation
+created: 2025-12-24 12:00:00+00:00
 last_reviewed: 2025-12-24
-modified: 2026-02-01T15:07:53+00:00
-status: "stable"
-tags: ["adhd-friendly", "fitness", "primal_movement", "protocol"]
+modified: 2026-02-01 15:07:53+00:00
+status: stable
+tags:
+- adhd-friendly
+- fitness
+- primal_movement
+- protocol
 title: SoT - Protocol - 5-Minute Primal Activation
-type: "protocol"
-updated: 
+type: protocol
+updated: null
+permalink: llmeon/30-library/so-t/so-t-protocol-5-minute-primal-activation
 ---
 
 ## ⚡ The 5-Minute Primal Flow

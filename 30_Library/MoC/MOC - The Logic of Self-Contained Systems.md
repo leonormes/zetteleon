@@ -1,13 +1,17 @@
 ---
 aliases: []
-created: 2025-10-20T10:13:00Z
-last_reviewed: "null"
-modified: 2026-02-04T07:27:27+00:00
-status: "null"
-tags: ["logic", "perspective", "topic/systems"]
+created: 2025-10-20 10:13:00+00:00
+last_reviewed: 'null'
+modified: 2026-02-04 07:27:27+00:00
+status: 'null'
+tags:
+- logic
+- perspective
+- topic/systems
 title: MOC - The Logic of Self-Contained Systems
-type: "map"
-updated: 
+type: map
+updated: null
+permalink: llmeon/30-library/mo-c/moc-the-logic-of-self-contained-systems
 ---
 
 The behaviour of any given system can be understood as a three-stage process.

@@ -1,7 +1,8 @@
 ---
-created: 2026-05-04T08:01:26+00:00
-modified: 2026-05-26T11:44:34+00:00
+created: 2026-05-04 08:01:26+00:00
+modified: 2026-05-26 11:44:34+00:00
 title: Illusion of Explanatory Depth (IoED)
+permalink: llmeon/30-library/100-zettelkasten/illusion-of-explanatory-depth-io-ed
 ---
 
 ## Illusion of Explanatory Depth (IoED)

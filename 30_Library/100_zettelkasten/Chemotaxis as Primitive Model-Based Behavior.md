@@ -1,13 +1,18 @@
 ---
 aliases: []
-created: 2025-09-05T06:22:44Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:36+00:00
-status: ""
-tags: ["biology", "chemotaxis", "evolution", "primitive-cognition"]
+created: 2025-09-05 06:22:44+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:36+00:00
+status: ''
+tags:
+- biology
+- chemotaxis
+- evolution
+- primitive-cognition
 title: Chemotaxis as Primitive Model-Based Behavior
-type: "permanent"
-updated: 
+type: permanent
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/chemotaxis-as-primitive-model-based-behavior
 ---
 
 Chemotaxis in single-celled organisms represents the evolutionary precursor to emotion-driven model-based behavior in complex animals. While a bacterium doesn't have a brain or feelings, it has a remarkably similar mechanism for guiding action based on environmental assessment.

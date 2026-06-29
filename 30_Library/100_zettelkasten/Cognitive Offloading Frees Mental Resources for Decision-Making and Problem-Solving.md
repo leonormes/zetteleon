@@ -1,8 +1,13 @@
 ---
-created: 2026-04-10T00:00:00+00:00
-modified: 2026-05-26T11:44:36+00:00
-tags: [cognition, mental-models, pkm, productivity]
+created: 2026-04-10 00:00:00+00:00
+modified: 2026-05-26 11:44:36+00:00
+tags:
+- cognition
+- mental-models
+- pkm
+- productivity
 title: Cognitive Offloading Frees Mental Resources for Decision-Making and Problem-Solving
+permalink: llmeon/30-library/100-zettelkasten/cognitive-offloading-frees-mental-resources-for-decision-making-and-problem-solving
 ---
 
 ## Cognitive Offloading Frees Mental Resources for Decision-Making and Problem-Solving

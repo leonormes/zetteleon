@@ -1,9 +1,16 @@
 ---
 title: K8S Deployment — Pieces LTM 2026-05-27
-created: 2026-05-27T21:30:22.828493+00:00
+created: 2026-05-27 21:30:22.828493+00:00
 source: pieces-ltm
-pieces_ids: [eb92befa-5d20-400b-b20f-9260362af454, bda117be-c7ee-4082-af53-aed98aef6511, 1eb3505c-e35f-4764-a4e6-9732b392efba, 525cd726-f815-48c3-8e82-14f856bbd283]
-tags: [raw, pieces]
+pieces_ids:
+- eb92befa-5d20-400b-b20f-9260362af454
+- bda117be-c7ee-4082-af53-aed98aef6511
+- 1eb3505c-e35f-4764-a4e6-9732b392efba
+- 525cd726-f815-48c3-8e82-14f856bbd283
+tags:
+- raw
+- pieces
+permalink: llmeon/raw/2026-05-27-pieces-k8s-deployment
 ---
 
 ## Asset 1 (Pieces: eb92befa-5d20-400b-b20f-9260362af454)

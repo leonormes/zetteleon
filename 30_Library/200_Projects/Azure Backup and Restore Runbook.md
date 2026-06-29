@@ -1,11 +1,12 @@
 ---
-created: 2026-05-26T14:24:37+00:00
-modified: 2026-06-08T11:49:15+00:00
+created: 2026-05-26 14:24:37+00:00
+modified: 2026-06-08 11:49:15+00:00
 project_category: refined_deployment
 project_name: Refined Deployment
 project_status: active
 title: Azure Backup and Restore Runbook
-type:
+type: null
+permalink: llmeon/30-library/200-projects/azure-backup-and-restore-runbook
 ---
 
 Jira: [FTFL-599 — Update and test the runbook for Azure backup restore](https://fitfile.atlassian.net/browse/FTFL-599)

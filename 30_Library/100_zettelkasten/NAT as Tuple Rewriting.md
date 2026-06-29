@@ -1,15 +1,20 @@
 ---
-created: 2026-04-14T11:11:37+00:00
-created_utc: "2026-04-14T10:35:00Z"
+created: 2026-04-14 11:11:37+00:00
+created_utc: '2026-04-14T10:35:00Z'
 kind: definition
-modified: 2026-05-26T11:44:34+00:00
-source_title: "Networking Is Label Transformation Under Policy"
-source_url: "N/A"
+modified: 2026-05-26 11:44:34+00:00
+source_title: Networking Is Label Transformation Under Policy
+source_url: N/A
 status: seed
-tags: [nat, networking, state, tuple-rewriting]
+tags:
+- nat
+- networking
+- state
+- tuple-rewriting
 title: NAT as Tuple Rewriting
 type: atom
-upstream: "[[SoT - Linux Networking Primitives]]"
+upstream: '[[SoT - Linux Networking Primitives]]'
+permalink: llmeon/30-library/100-zettelkasten/nat-as-tuple-rewriting
 ---
 
 ## NAT as Tuple Rewriting

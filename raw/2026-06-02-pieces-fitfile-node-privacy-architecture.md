@@ -1,12 +1,15 @@
 ---
 title: FITFILE Node — Data Processing, Privacy Treatment & Architecture Diagrams
-created: 2026-06-02T10:51:00+00:00
+created: 2026-06-02 10:51:00+00:00
 source: pieces-ltm
 pieces_ids:
-  - b2cfd536-ad7f-4561-bada-86c7f9d4d5e0
-  - 66a5cedf-bdf5-4ad6-a802-77244634444e
-  - 98b9c075-5a51-4801-9614-0ce4eada14b5
-tags: [raw, pieces]
+- b2cfd536-ad7f-4561-bada-86c7f9d4d5e0
+- 66a5cedf-bdf5-4ad6-a802-77244634444e
+- 98b9c075-5a51-4801-9614-0ce4eada14b5
+tags:
+- raw
+- pieces
+permalink: llmeon/raw/2026-06-02-pieces-fitfile-node-privacy-architecture
 ---
 
 ## Asset 1 (Pieces: b2cfd536-ad7f-4561-bada-86c7f9d4d5e0)

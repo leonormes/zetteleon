@@ -1,11 +1,12 @@
 ---
-created: 2026-04-14T20:43:15+00:00
-created_utc: "2026-04-14T14:10:00Z"
-modified: 2026-05-26T11:44:23+00:00
-source_atoms: "[[tmp_atoms_llm_wiki_persistent_knowledge.md]]"
+created: 2026-04-14 20:43:15+00:00
+created_utc: '2026-04-14T14:10:00Z'
+modified: 2026-05-26 11:44:23+00:00
+source_atoms: '[[tmp_atoms_llm_wiki_persistent_knowledge.md]]'
 status: tmp
 title: _link_report_llm_wiki_persistent_knowledge
 type: link_report
+permalink: llmeon/30-library/400-indexes/link-report-llm-wiki-persistent-knowledge
 ---
 
 ## Link Report: Hermes Agent and Karpathy's LLM Wiki

@@ -1,13 +1,14 @@
 ---
 aliases: []
-created: 2025-07-10T10:12:15Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:33+00:00
-status: ""
+created: 2025-07-10 10:12:15+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:33+00:00
+status: ''
 tags: []
 title: Heart & Friendship Skills (Your Kind Heart)
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/heart-friendship-skills-your-kind-heart
 ---
 
 _These strengths are all about how you connect with other people and show you care._

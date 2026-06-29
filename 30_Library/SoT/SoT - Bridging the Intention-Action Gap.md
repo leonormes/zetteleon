@@ -1,12 +1,20 @@
 ---
-aliases: ["K2A Framework", "Knowledge-to-Action System", "The Motivation Bridge"]
-created: 2025-11-13T00:00:00Z
-last_reviewed: "2026-04-04"
-modified: 2026-05-26T11:44:20+00:00
-status: "deprecated"
-tags: ["execution", "TheHuman/Health/ADHD", "TheHuman/Psychology", "topic/productivity"]
+aliases:
+- K2A Framework
+- Knowledge-to-Action System
+- The Motivation Bridge
+created: 2025-11-13 00:00:00+00:00
+last_reviewed: '2026-04-04'
+modified: 2026-05-26 11:44:20+00:00
+status: deprecated
+tags:
+- execution
+- TheHuman/Health/ADHD
+- TheHuman/Psychology
+- topic/productivity
 title: SoT - Bridging the Intention-Action Gap
-type: "SoT"
+type: SoT
+permalink: llmeon/30-library/so-t/so-t-bridging-the-intention-action-gap
 ---
 
 ## DEPRECATED

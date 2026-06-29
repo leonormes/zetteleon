@@ -1,13 +1,22 @@
 ---
-aliases: ["Monad Pattern", "Monads as Design Pattern", "Pipeline Abstraction", "The Railway Track Model"]
-created: 2025-12-19T00:00:00Z
-last_reviewed: "2025-12-19"
-modified: 2026-02-01T15:07:49+00:00
-status: "stable"
-tags: ["design_patterns", "functional_programming", "monads", "SoftwareEngineering/Architecture"]
+aliases:
+- Monad Pattern
+- Monads as Design Pattern
+- Pipeline Abstraction
+- The Railway Track Model
+created: 2025-12-19 00:00:00+00:00
+last_reviewed: '2025-12-19'
+modified: 2026-02-01 15:07:49+00:00
+status: stable
+tags:
+- design_patterns
+- functional_programming
+- monads
+- SoftwareEngineering/Architecture
 title: SoT - The Monad Design Pattern (Pipeline Abstraction)
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-the-monad-design-pattern-pipeline-abstraction
 ---
 
 ## 1. Definitive Statement

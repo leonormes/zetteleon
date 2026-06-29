@@ -1,13 +1,18 @@
 ---
-created: 2026-02-19T13:14:51+00:00
+created: 2026-02-19 13:14:51+00:00
 hop_level: local
-modified: 2026-03-14T11:10:11+00:00
+modified: 2026-03-14 11:10:11+00:00
 requires_tunnel: false
-tags: [atomic, linux, namespaces, network]
+tags:
+- atomic
+- linux
+- namespaces
+- network
 target_service: host
 title: cmd-net-nsenter-node
 tool: nsenter
 type: atomic_command
+permalink: llmeon/30-library/ops/cmd-net-nsenter-node
 ---
 
 ## Enter Network Namespace (nsenter)

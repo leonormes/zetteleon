@@ -1,10 +1,18 @@
 ---
-created: 2026-05-12T22:06:30+00:00
-modified: 2026-05-26T11:43:45+00:00
-pieces_ids: ["010c0261-6ab4-40d8-b072-78cc48210ae0", "021f5cd5-89fc-464f-8aa3-44afd51c43ad", "9352d00f-4b12-4e20-a487-208df4848730", "b6da3a3b-cafb-4b54-9fb7-117b1ed5e4e2", "daf14c5f-b680-4476-931e-5b377863abb8"]
+created: 2026-05-12 22:06:30+00:00
+modified: 2026-05-26 11:43:45+00:00
+pieces_ids:
+- 010c0261-6ab4-40d8-b072-78cc48210ae0
+- 021f5cd5-89fc-464f-8aa3-44afd51c43ad
+- 9352d00f-4b12-4e20-a487-208df4848730
+- b6da3a3b-cafb-4b54-9fb7-117b1ed5e4e2
+- daf14c5f-b680-4476-931e-5b377863abb8
 source: pieces-ltm
-tags: [pieces, raw]
+tags:
+- pieces
+- raw
 title: 2026-05-12-pieces-grafana-monitoring
+permalink: llmeon/raw/2026-05-12-pieces-grafana-monitoring
 ---
 
 ## Pieces LTM Ingest—Grafana Monitoring

@@ -1,13 +1,17 @@
 ---
-created: 2026-02-04T09:12:25+00:00
+created: 2026-02-04 09:12:25+00:00
 last-synthesis: 2026-02-04
-modified: 2026-05-26T11:44:21+00:00
+modified: 2026-05-26 11:44:21+00:00
 source_of_truth: true
 status: evergreen
 synthesis-count: 1
-tags: [domain/productivity, tool/jira, type/SoT]
+tags:
+- domain/productivity
+- tool/jira
+- type/SoT
 title: Jira Dependency Management SoT
 trust-level: stable
+permalink: llmeon/30-library/so-t/jira-dependency-management-so-t
 ---
 
 ## Minimum Viable Understanding (MVU)

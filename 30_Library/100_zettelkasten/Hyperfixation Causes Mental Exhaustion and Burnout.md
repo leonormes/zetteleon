@@ -1,13 +1,14 @@
 ---
 aliases: []
-created: 2025-11-01T11:37:53Z
-last_reviewed: "2025-11-01T00:00:00.000Z"
-modified: 2026-02-01T15:08:33+00:00
-status: "seedling"
+created: 2025-11-01 11:37:53+00:00
+last_reviewed: '2025-11-01T00:00:00.000Z'
+modified: 2026-02-01 15:08:33+00:00
+status: seedling
 tags: []
 title: Hyperfixation Causes Mental Exhaustion and Burnout
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/hyperfixation-causes-mental-exhaustion-and-burnout
 ---
 
 Summary: Sustaining a state of hyperfixation is incredibly energy-intensive. The brain essentially burns through its available cognitive and emotional resources during intense hyperfocus, leading to burnout that contributes to the crash phase.

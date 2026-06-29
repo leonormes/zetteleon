@@ -4,11 +4,18 @@ wiki_type: dossier
 entity_kind: project
 created: 2026-06-06
 modified: 2026-06-06
-tags: [wiki, dossier, project, helm, kubernetes, observability]
+tags:
+- wiki
+- dossier
+- project
+- helm
+- kubernetes
+- observability
 sources:
-  - [[raw/2026-06-06-pieces-ffnode-helm-chart-review]]
-  - [[raw/2026-06-04-pieces-alloy-faro-grafana-explore]]
-  - [[raw/2026-06-04-pieces-k8s-labels-structured-metadata]]
+- - - raw/2026-06-06-pieces-ffnode-helm-chart-review
+- - - raw/2026-06-04-pieces-alloy-faro-grafana-explore
+- - - raw/2026-06-04-pieces-k8s-labels-structured-metadata
+permalink: llmeon/wiki/projects/ffnode-helm-chart-review
 ---
 
 # ffnode Helm Chart Review — Complexity & Library Chart Assessment

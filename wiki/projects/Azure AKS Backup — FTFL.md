@@ -1,13 +1,16 @@
 ---
 title: Azure AKS Backup — FTFL
-created: 2026-04-29T12:46:00+00:00
-modified: 2026-05-01T22:04:48+00:00
-tags: [wiki, dossier]
+created: 2026-04-29 12:46:00+00:00
+modified: 2026-05-01 22:04:48+00:00
+tags:
+- wiki
+- dossier
 sources:
-  - raw/2026-04-29-pieces-azure-aks-backup-ftfl
-  - raw/2026-04-30-pieces-aks-backup-iac
-  - raw/2026-05-01-pieces-terraform-backup-module-review
-  - raw/2026-05-01-pieces-terraform-backup-review
+- raw/2026-04-29-pieces-azure-aks-backup-ftfl
+- raw/2026-04-30-pieces-aks-backup-iac
+- raw/2026-05-01-pieces-terraform-backup-module-review
+- raw/2026-05-01-pieces-terraform-backup-review
+permalink: llmeon/wiki/projects/azure-aks-backup-ftfl
 ---
 
 ## Summary

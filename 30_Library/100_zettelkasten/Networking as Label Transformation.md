@@ -1,15 +1,20 @@
 ---
-created: 2026-04-14T11:11:37+00:00
-created_utc: "2026-04-14T10:35:00Z"
+created: 2026-04-14 11:11:37+00:00
+created_utc: '2026-04-14T10:35:00Z'
 kind: definition
-modified: 2026-05-26T11:44:34+00:00
-source_title: "Networking Is Label Transformation Under Policy"
-source_url: "N/A"
+modified: 2026-05-26 11:44:34+00:00
+source_title: Networking Is Label Transformation Under Policy
+source_url: N/A
 status: seed
-tags: [abstraction, labels, mental-model, networking]
+tags:
+- abstraction
+- labels
+- mental-model
+- networking
 title: Networking as Label Transformation
 type: atom
-upstream: "[[INSIGHT - Networking is data labeling not wires]]"
+upstream: '[[INSIGHT - Networking is data labeling not wires]]'
+permalink: llmeon/30-library/100-zettelkasten/networking-as-label-transformation
 ---
 
 ## Networking as Label Transformation

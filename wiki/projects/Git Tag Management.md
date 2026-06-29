@@ -2,10 +2,17 @@
 title: Git Tag Management
 wiki_type: dossier
 entity_kind: project
-created: 2026-05-29T11:05:35+00:00
-modified: 2026-05-29T11:05:35+00:00
-tags: [wiki, dossier, git, argocd, tags]
-sources: [[2026-05-29-pieces-git-tag-management]]
+created: 2026-05-29 11:05:35+00:00
+modified: 2026-05-29 11:05:35+00:00
+tags:
+- wiki
+- dossier
+- git
+- argocd
+- tags
+sources:
+- - 2026-05-29-pieces-git-tag-management
+permalink: llmeon/wiki/projects/git-tag-management
 ---
 
 ## Summary

@@ -1,8 +1,13 @@
 ---
-created: 2026-06-05T09:00:00+01:00
-modified: 2026-06-11T15:42:21+00:00
-tags: [clarify, inbox, learning, work]
+created: 2026-06-05 09:00:00+01:00
+modified: 2026-06-11 15:42:21+00:00
+tags:
+- clarify
+- inbox
+- learning
+- work
 title: CLARIFY - Check out the HCP operator
+permalink: llmeon/00-inbox/clarify-check-out-the-hcp-operator
 ---
 
 ## Capture

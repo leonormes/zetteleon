@@ -1,10 +1,14 @@
 ---
-created: 2026-02-21T15:07:25+00:00
-modified: 2026-02-22T17:30:20+00:00
+created: 2026-02-21 15:07:25+00:00
+modified: 2026-02-22 17:30:20+00:00
 service: vso
-tags: [identity, triage, vault]
+tags:
+- identity
+- triage
+- vault
 title: kb_vso_metadata_identifiers
 type: kb
+permalink: llmeon/30-library/ops/kb-vso-metadata-identifiers
 ---
 
 ## KB: VSO Metadata Identifiers

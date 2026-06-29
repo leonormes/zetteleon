@@ -1,13 +1,21 @@
 ---
-aliases: ["Atomic Notes vs. Interconnectedness", "Loose Coupling", "The Problem of False Atoms SoT"]
-created: 2025-12-12T00:00:00Z
-last_reviewed: "2025-12-12"
-modified: 2026-05-26T11:44:21+00:00
-status: "stable"
-tags: ["atomicity", "pkm", "topic/systems", "zettelkasten"]
+aliases:
+- Atomic Notes vs. Interconnectedness
+- Loose Coupling
+- The Problem of False Atoms SoT
+created: 2025-12-12 00:00:00+00:00
+last_reviewed: '2025-12-12'
+modified: 2026-05-26 11:44:21+00:00
+status: stable
+tags:
+- atomicity
+- pkm
+- topic/systems
+- zettelkasten
 title: SoT - Atomicity and Loose Coupling
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-atomicity-and-loose-coupling
 ---
 
 ## 2. The Core Tension: Independence vs. Interconnectedness

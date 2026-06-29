@@ -1,9 +1,18 @@
 ---
-aliases: [Context Compression, High-Signal Prompting, Information Density, Prompt Optimization]
-created: 2026-01-30T11:00:00+00:00
-modified: 2026-02-01T15:08:00+00:00
-tags: [ai-engineering, context-management, discipline, prompt-engineering]
+aliases:
+- Context Compression
+- High-Signal Prompting
+- Information Density
+- Prompt Optimization
+created: 2026-01-30 11:00:00+00:00
+modified: 2026-02-01 15:08:00+00:00
+tags:
+- ai-engineering
+- context-management
+- discipline
+- prompt-engineering
 title: SoT - Context Engineering
+permalink: llmeon/30-library/so-t/so-t-context-engineering
 ---
 
 ## Context Engineering

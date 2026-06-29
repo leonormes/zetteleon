@@ -1,13 +1,19 @@
 ---
 aliases: []
-created: 2025-10-25T15:00:00Z
-last_reviewed: "null"
-modified: 2026-02-01T15:08:28+00:00
-status: "null"
-tags: ["neurodiversity", "self-compassion", "stigma", "TheHuman/Health/ADHD", "TheHuman/Mindset"]
+created: 2025-10-25 15:00:00+00:00
+last_reviewed: 'null'
+modified: 2026-02-01 15:08:28+00:00
+status: 'null'
+tags:
+- neurodiversity
+- self-compassion
+- stigma
+- TheHuman/Health/ADHD
+- TheHuman/Mindset
 title: Reframing ADHD - From Deficit to Difference
-type: "permanent"
-updated: 
+type: permanent
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/reframing-adhd-from-deficit-to-difference
 ---
 
 A crucial mindset shift in understanding Attention-Deficit/Hyperactivity Disorder (ADHD) is to reframe it from a deficit-based model to a difference-based model of neurodiversity.

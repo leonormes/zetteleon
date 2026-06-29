@@ -1,13 +1,18 @@
 ---
-aliases: ["Contextual Knowledge"]
-created: 2025-11-01T12:10:04Z
-last_reviewed: "2025-11-01"
-modified: 2026-02-01T15:08:29+00:00
-status: "seedling"
-tags: ["context", "knowledge", "learning"]
+aliases:
+- Contextual Knowledge
+created: 2025-11-01 12:10:04+00:00
+last_reviewed: '2025-11-01'
+modified: 2026-02-01 15:08:29+00:00
+status: seedling
+tags:
+- context
+- knowledge
+- learning
 title: Personal Context and Relevance are Key to Knowledge Formation
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/personal-context-and-relevance-are-key-to-knowledge-formation
 ---
 
 ## Personal Context and Relevance Are Key to Knowledge Formation

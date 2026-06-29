@@ -1,13 +1,16 @@
 ---
 aliases: []
-created: 2025-10-31T12:15:00Z
-last_reviewed: "null"
-modified: 2026-02-01T15:08:37+00:00
-status: "seedling"
-tags: ["neurodiversity", "TheHuman/Health/ADHD"]
+created: 2025-10-31 12:15:00+00:00
+last_reviewed: 'null'
+modified: 2026-02-01 15:08:37+00:00
+status: seedling
+tags:
+- neurodiversity
+- TheHuman/Health/ADHD
 title: ADHD as Neurodiversity Not Deficit
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/adhd-as-neurodiversity-not-deficit
 ---
 
 ## ADHD as Neurodiversity Not Deficit

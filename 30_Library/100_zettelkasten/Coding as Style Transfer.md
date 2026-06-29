@@ -1,15 +1,20 @@
 ---
-created: 2026-04-14T20:30:46+00:00
-created_utc: "2026-04-14T13:40:00Z"
+created: 2026-04-14 20:30:46+00:00
+created_utc: '2026-04-14T13:40:00Z'
 kind: distinction
-modified: 2026-05-26T11:44:36+00:00
-source_title: "Deconstructing the interview with Jeremy Howard"
-source_url: "https://gemini.google.com/app/fa3a7e9a4a69844c"
+modified: 2026-05-26 11:44:36+00:00
+source_title: Deconstructing the interview with Jeremy Howard
+source_url: https://gemini.google.com/app/fa3a7e9a4a69844c
 status: seed
-tags: [architecture, automation, coding, software-engineering]
+tags:
+- architecture
+- automation
+- coding
+- software-engineering
 title: Coding as Style Transfer
 type: atom
-upstream: "[[SoT - Human vs AI Cognition]]"
+upstream: '[[SoT - Human vs AI Cognition]]'
+permalink: llmeon/30-library/100-zettelkasten/coding-as-style-transfer
 ---
 
 ## Coding as Style Transfer

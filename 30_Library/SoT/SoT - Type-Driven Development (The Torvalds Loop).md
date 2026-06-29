@@ -1,15 +1,28 @@
 ---
-aliases: ["Data-Centric Programming", "Parse Don't Validate", "The Torvalds Loop", "Type-Driven Design", "Type-First Development", "Typestate Pattern"]
-created: 2025-12-29T10:28:01+00:00
-last_reviewed: "2026-04-04"
-modified: 2026-05-26T11:44:16+00:00
+aliases:
+- Data-Centric Programming
+- Parse Don't Validate
+- The Torvalds Loop
+- Type-Driven Design
+- Type-First Development
+- Typestate Pattern
+created: 2025-12-29 10:28:01+00:00
+last_reviewed: '2026-04-04'
+modified: 2026-05-26 11:44:16+00:00
 source_of_truth: true
-status: "stable"
+status: stable
 synthesis-count: 3
-tags: ["design-patterns", "programming", "rust", "SoftwareEngineering/Architecture", "TheHuman/Philosophy", "type_theory"]
+tags:
+- design-patterns
+- programming
+- rust
+- SoftwareEngineering/Architecture
+- TheHuman/Philosophy
+- type_theory
 title: SoT - Type-Driven Development (The Torvalds Loop)
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-type-driven-development-the-torvalds-loop
 ---
 
 ## 0. The Lineage

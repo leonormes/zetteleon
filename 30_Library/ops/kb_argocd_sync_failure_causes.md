@@ -1,10 +1,14 @@
 ---
-created: 2026-02-21T15:05:08+00:00
-modified: 2026-03-14T11:10:10+00:00
+created: 2026-02-21 15:05:08+00:00
+modified: 2026-03-14 11:10:10+00:00
 service: argocd
-tags: [knowledge, triage, troubleshooting]
+tags:
+- knowledge
+- triage
+- troubleshooting
 title: kb_argocd_sync_failure_causes
 type: sot
+permalink: llmeon/30-library/ops/kb-argocd-sync-failure-causes
 ---
 
 ## KB: ArgoCD Sync Failure Causes

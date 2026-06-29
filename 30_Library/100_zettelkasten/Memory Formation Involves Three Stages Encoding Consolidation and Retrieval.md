@@ -1,13 +1,18 @@
 ---
-aliases: ["Stages of Memory"]
-created: 2025-11-10T16:14:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:30+00:00
-status: "seedling"
-tags: ["memory", "TheHuman/Cognition", "TheHuman/Neuroscience"]
+aliases:
+- Stages of Memory
+created: 2025-11-10 16:14:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:30+00:00
+status: seedling
+tags:
+- memory
+- TheHuman/Cognition
+- TheHuman/Neuroscience
 title: Memory Formation Involves Three Stages Encoding Consolidation and Retrieval
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/memory-formation-involves-three-stages-encoding-consolidation-and-retrieval
 ---
 
 ## Memory Formation Involves Three Stages Encoding Consolidation and Retrieval

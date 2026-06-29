@@ -1,13 +1,18 @@
 ---
-aliases: ["Visual Project Documentation"]
-created: 2025-11-11T19:05:05Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:24+00:00
-status: "seedling"
-tags: ["project-management", "topic/productivity", "visualization"]
+aliases:
+- Visual Project Documentation
+created: 2025-11-11 19:05:05+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:24+00:00
+status: seedling
+tags:
+- project-management
+- topic/productivity
+- visualization
 title: Visual Thinking Tools Preserve Project Mental Models
-type: "strategy"
-updated: 
+type: strategy
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/visual-thinking-tools-preserve-project-mental-models
 ---
 
 ## Visual Thinking Tools Preserve Project Mental Models

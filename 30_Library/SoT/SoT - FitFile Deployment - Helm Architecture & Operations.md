@@ -1,11 +1,18 @@
 ---
-created: 2025-02-07T12:57:55Z
-modified: 2026-05-26T11:44:20+00:00
+created: 2025-02-07 12:57:55+00:00
+modified: 2026-05-26 11:44:20+00:00
 Reviewed: false
 status: stable
-tags: [architecture, deployment, fitfile, helm, kubernetes, sop]
+tags:
+- architecture
+- deployment
+- fitfile
+- helm
+- kubernetes
+- sop
 title: SoT - FitFile Deployment - Helm Architecture & Operations
 type: SoT
+permalink: llmeon/30-library/so-t/so-t-fit-file-deployment-helm-architecture-operations
 ---
 
 ## 1. Overview

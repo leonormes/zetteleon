@@ -1,13 +1,18 @@
 ---
-aliases: ["Budgeted Fun Money"]
-created: 2025-11-18T14:40:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:33+00:00
-status: ""
-tags: ["budgeting", "finance", "TheHuman/Psychology"]
+aliases:
+- Budgeted Fun Money
+created: 2025-11-18 14:40:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:33+00:00
+status: ''
+tags:
+- budgeting
+- finance
+- TheHuman/Psychology
 title: Guilt-Free Spending is a Feature of Intentional Budgeting
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/guilt-free-spending-is-a-feature-of-intentional-budgeting
 ---
 
 A common misconception is that a budget's purpose is to eliminate all "fun" spending. In reality, an effective budget enables guilt-free spending by design.

@@ -1,10 +1,15 @@
 ---
 type: practice
-tags: [adhd, workflow, time-boxing, pomodoro]
+tags:
+- adhd
+- workflow
+- time-boxing
+- pomodoro
 created: 2026-05-31
 related_to:
-  - "[[Practice - Deferred low-pressure review]]"
-  - "[[Executive Function]]"
+- '[[Practice - Deferred low-pressure review]]'
+- '[[Executive Function]]'
+permalink: llmeon/30-library/100-zettelkasten/practice-micro-tasking-and-time-boxing
 ---
 
 # Practice — Micro-tasking and time-boxing

@@ -1,13 +1,16 @@
 ---
-created: 2026-05-23T13:37:04+00:00
+created: 2026-05-23 13:37:04+00:00
 last-synthesis: 2026-05-23
-modified: 2026-05-26T11:44:18+00:00
+modified: 2026-05-26 11:44:18+00:00
 source_of_truth: true
 status: evergreen
 synthesis-count: 1
-tags: [domain/mathematics, type/SoT]
+tags:
+- domain/mathematics
+- type/SoT
 title: SoT - Mathematical Thinking and Problem Solving
 trust-level: stable
+permalink: llmeon/30-library/so-t/so-t-mathematical-thinking-and-problem-solving
 ---
 
 ## Minimum Viable Understanding (MVU)

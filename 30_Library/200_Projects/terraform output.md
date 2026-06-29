@@ -1,16 +1,17 @@
 ---
 aliases: []
-created: 2025-02-07T12:57:56Z
-last_reviewed: ""
-modified: 2026-06-08T11:49:24+00:00
+created: 2025-02-07 12:57:56+00:00
+last_reviewed: ''
+modified: 2026-06-08 11:49:24+00:00
 project_category: infrastructure
-project_name: "DevOps"
+project_name: DevOps
 project_status: archived
-status: ""
+status: ''
 tags: []
 title: terraform output
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/200-projects/terraform-output
 ---
 
 Terraform outputs can be directly interpolated into template strings to create dynamic SSH commands. Here's how to achieve this for both single and multiple instances:

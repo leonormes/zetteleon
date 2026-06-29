@@ -1,13 +1,22 @@
 ---
-aliases: ["Feynman Technique", "Retrieval Practice", "The Peter Method"]
-created: 2025-12-23T22:35:33Z
-last_reviewed: "2025-12-23"
-modified: 2026-02-01T15:08:02+00:00
-status: "stable"
-tags: ["active_learning", "feynman", "learning", "protocol", "TheHuman/Cognition"]
+aliases:
+- Feynman Technique
+- Retrieval Practice
+- The Peter Method
+created: 2025-12-23 22:35:33+00:00
+last_reviewed: '2025-12-23'
+modified: 2026-02-01 15:08:02+00:00
+status: stable
+tags:
+- active_learning
+- feynman
+- learning
+- protocol
+- TheHuman/Cognition
 title: SoT - Active Learning Techniques
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-active-learning-techniques
 ---
 
 ## 1. Retrieval Practice (The Foundation)

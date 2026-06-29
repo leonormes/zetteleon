@@ -1,13 +1,20 @@
 ---
-aliases: ["ADHD Digital Tools", "ADHD Productivity Apps"]
-created: 2025-11-06T19:54:05Z
-last_reviewed: "2025-11-06T00:00:00.000Z"
-modified: 2026-05-26T11:44:35+00:00
-status: "seedling"
-tags: ["SoftwareEngineering", "TheHuman/Health/ADHD", "tools", "topic/productivity"]
+aliases:
+- ADHD Digital Tools
+- ADHD Productivity Apps
+created: 2025-11-06 19:54:05+00:00
+last_reviewed: '2025-11-06T00:00:00.000Z'
+modified: 2026-05-26 11:44:35+00:00
+status: seedling
+tags:
+- SoftwareEngineering
+- TheHuman/Health/ADHD
+- tools
+- topic/productivity
 title: Digital Tools Help Externalize Memory and Structure for ADHD Developers
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/digital-tools-help-externalize-memory-and-structure-for-adhd-developers
 ---
 
 ## Digital Tools Help Externalize Memory and Structure for ADHD Developers

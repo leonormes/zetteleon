@@ -1,11 +1,19 @@
 ---
-alias: ["Alloy Operator Upgrade Guide", "Grafana Migration Protocol"]
-created: 2026-02-05T00:00:00+00:00
-modified: 2026-02-06T09:23:01+00:00
+alias:
+- Alloy Operator Upgrade Guide
+- Grafana Migration Protocol
+created: 2026-02-05 00:00:00+00:00
+modified: 2026-02-06 09:23:01+00:00
 status: stable
-tags: ["grafana", "helm", "migration", "observability", "protocol"]
+tags:
+- grafana
+- helm
+- migration
+- observability
+- protocol
 title: Protocol - Grafana Observability Stack Upgrade
 type: protocol
+permalink: llmeon/30-library/so-t/protocol-grafana-observability-stack-upgrade
 ---
 
 ## Logic Map

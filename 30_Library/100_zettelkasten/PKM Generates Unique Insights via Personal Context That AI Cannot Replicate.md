@@ -1,8 +1,13 @@
 ---
-created: 2026-04-10T00:00:00+00:00
-modified: 2026-05-26T11:44:33+00:00
-tags: [ai, insight, knowledge-graphs, pkm]
+created: 2026-04-10 00:00:00+00:00
+modified: 2026-05-26 11:44:33+00:00
+tags:
+- ai
+- insight
+- knowledge-graphs
+- pkm
 title: PKM Generates Unique Insights via Personal Context That AI Cannot Replicate
+permalink: llmeon/30-library/100-zettelkasten/pkm-generates-unique-insights-via-personal-context-that-ai-cannot-replicate
 ---
 
 ## PKM Generates Unique Insights via Personal Context That AI Cannot Replicate

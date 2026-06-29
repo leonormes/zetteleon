@@ -1,13 +1,14 @@
 ---
 aliases: []
-created: 2025-05-16T05:39:58Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:32+00:00
-status: ""
+created: 2025-05-16 05:39:58+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:32+00:00
+status: ''
 tags: []
 title: I am enslaved to the work of zetteling
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/i-am-enslaved-to-the-work-of-zetteling
 ---
 
 I want to write out what I think. But it is not working. I am not getting the remarkable deep thinking I expected to get based on what people say they get from it.

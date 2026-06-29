@@ -1,16 +1,21 @@
 ---
 aliases: []
-created: 2025-10-24T15:25:00Z
-last_reviewed: "null"
-modified: 2026-06-08T11:49:22+00:00
+created: 2025-10-24 15:25:00+00:00
+last_reviewed: 'null'
+modified: 2026-06-08 11:49:22+00:00
 project_category: infrastructure
-project_name: "k8s"
+project_name: k8s
 project_status: archived
-status: "null"
-tags: ["filesystem", "kernel", "SoftwareEngineering/Linux", "vfs"]
+status: 'null'
+tags:
+- filesystem
+- kernel
+- SoftwareEngineering/Linux
+- vfs
 title: What is the Linux VFS (Virtual File System)
-type: "Factual"
-updated: 
+type: Factual
+updated: null
+permalink: llmeon/30-library/200-projects/what-is-the-linux-vfs-virtual-file-system
 ---
 
 Links:

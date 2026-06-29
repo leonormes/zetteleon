@@ -1,22 +1,24 @@
 ---
-title: "[API-5] Nginx allows outdated HTTPS connection methods"
+title: '[API-5] Nginx allows outdated HTTPS connection methods'
 type: jira-ticket
 tags:
-  - jira
-  - fitfile
-  - ftfl-511
-  - security
-  - nginx
-  - tls
-  - api
+- jira
+- fitfile
+- ftfl-511
+- security
+- nginx
+- tls
+- api
 status: To Do
 priority: High
-issue_id: "28766"
+issue_id: '28766'
 issue_key: FTFL-511
 url: https://fitfile.atlassian.net/browse/FTFL-511
 api_control: API-5
 created: 2026-05-07
+permalink: llmeon/jira/ftfl-511-nginx-outdated-https-connection-methods
 ---
+
 # FTFL-511: [API-5] Nginx allows outdated HTTPS connection methods
 
 ## Metadata

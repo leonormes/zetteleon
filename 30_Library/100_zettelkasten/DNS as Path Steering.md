@@ -1,15 +1,20 @@
 ---
-created: 2026-04-14T11:11:37+00:00
-created_utc: "2026-04-14T10:35:00Z"
+created: 2026-04-14 11:11:37+00:00
+created_utc: '2026-04-14T10:35:00Z'
 kind: distinction
-modified: 2026-05-26T11:44:36+00:00
-source_title: "Networking Is Label Transformation Under Policy"
-source_url: "N/A"
+modified: 2026-05-26 11:44:36+00:00
+source_title: Networking Is Label Transformation Under Policy
+source_url: N/A
 status: seed
-tags: [cloud-infrastructure, dns, routing, traffic-steering]
+tags:
+- cloud-infrastructure
+- dns
+- routing
+- traffic-steering
 title: DNS as Path Steering
 type: atom
-upstream: "[[SoT - DNS Core Components and Environments]]"
+upstream: '[[SoT - DNS Core Components and Environments]]'
+permalink: llmeon/30-library/100-zettelkasten/dns-as-path-steering
 ---
 
 ## DNS as Path Steering

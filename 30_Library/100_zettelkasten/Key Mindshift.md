@@ -1,13 +1,15 @@
 ---
 aliases: []
-created: 2025-05-10T10:37:03Z
-last_reviewed: "null"
-modified: 2026-02-01T15:08:32+00:00
-status: "null"
-tags: ["topic/pkm/zettelkasten"]
+created: 2025-05-10 10:37:03+00:00
+last_reviewed: 'null'
+modified: 2026-02-01 15:08:32+00:00
+status: 'null'
+tags:
+- topic/pkm/zettelkasten
 title: Key Mindshift
-type: "null"
-updated: 
+type: 'null'
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/key-mindshift
 ---
 
 Zettelkasten isn't about building a system. It's about offloading your thoughts so your brain can make connections. The more you focus on the system, the less you're thinking.

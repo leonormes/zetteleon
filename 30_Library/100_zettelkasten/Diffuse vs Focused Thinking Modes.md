@@ -1,13 +1,16 @@
 ---
 aliases: []
-created: 2025-10-31T12:45:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:34+00:00
-status: "seedling"
-tags: ["learning", "TheHuman/Neuroscience"]
+created: 2025-10-31 12:45:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:34+00:00
+status: seedling
+tags:
+- learning
+- TheHuman/Neuroscience
 title: Diffuse vs Focused Thinking Modes
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/diffuse-vs-focused-thinking-modes
 ---
 
 ## Diffuse Vs Focused Thinking Modes

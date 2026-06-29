@@ -1,10 +1,21 @@
 ---
-created: 2026-05-24T20:15:00+01:00
-modified: 2026-05-26T11:43:31+00:00
-pieces_ids: [0f61f3fc-37a9-46c7-9053-7a25c761201c, 26fa2824-fe54-4147-a3cf-82cdba2957ac, 2b045ae4-4b49-4f85-a499-6e48f1c5e27c, 765deb6b-7808-43d9-9741-507fabf8407e, 8bbed588-e456-49fe-905c-d4137ea9f152, c0f950bd-e3a2-4754-a5cd-d88f543b76df, c9977711-9381-44ed-bbaa-12bd86cda419, ce8debb5-fe1a-4507-88fa-1cb38b368d16]
+created: 2026-05-24 20:15:00+01:00
+modified: 2026-05-26 11:43:31+00:00
+pieces_ids:
+- 0f61f3fc-37a9-46c7-9053-7a25c761201c
+- 26fa2824-fe54-4147-a3cf-82cdba2957ac
+- 2b045ae4-4b49-4f85-a499-6e48f1c5e27c
+- 765deb6b-7808-43d9-9741-507fabf8407e
+- 8bbed588-e456-49fe-905c-d4137ea9f152
+- c0f950bd-e3a2-4754-a5cd-d88f543b76df
+- c9977711-9381-44ed-bbaa-12bd86cda419
+- ce8debb5-fe1a-4507-88fa-1cb38b368d16
 source: pieces-ltm
-tags: [pieces, raw]
+tags:
+- pieces
+- raw
 title: 2026-05-24-pieces-starship-hermes-review
+permalink: llmeon/raw/2026-05-24-pieces-starship-hermes-review
 ---
 
 ## Starship Tuning Completion & Hermes Config Self-Review (2026-05-24)

@@ -1,13 +1,22 @@
 ---
-aliases: ["MSS Clamping", "PMTUD", "Protocol Overhead"]
-created: 2025-12-23T22:39:13Z
-last_reviewed: "2025-12-23"
-modified: 2026-02-01T15:07:54+00:00
-status: "stable"
-tags: ["mtu", "overhead", "performance", "SoftwareEngineering/Networking", "vpn"]
+aliases:
+- MSS Clamping
+- PMTUD
+- Protocol Overhead
+created: 2025-12-23 22:39:13+00:00
+last_reviewed: '2025-12-23'
+modified: 2026-02-01 15:07:54+00:00
+status: stable
+tags:
+- mtu
+- overhead
+- performance
+- SoftwareEngineering/Networking
+- vpn
 title: SoT - Network Overhead & MTU
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-network-overhead-mtu
 ---
 
 ## 1. The Mathematics of Overhead

@@ -2,10 +2,14 @@
 title: Kubernetes Cluster Bootstrapping
 wiki_type: dossier
 entity_kind: project
-created: 2026-06-04T08:05:28+00:00
-modified: 2026-06-04T08:05:28+00:00
-tags: [wiki, dossier]
-sources: [raw/2026-06-03-pieces-k8s-argocd-bootstrapping.md]
+created: 2026-06-04 08:05:28+00:00
+modified: 2026-06-04 08:05:28+00:00
+tags:
+- wiki
+- dossier
+sources:
+- raw/2026-06-03-pieces-k8s-argocd-bootstrapping.md
+permalink: llmeon/wiki/projects/kubernetes-cluster-bootstrapping
 ---
 
 ## Summary

@@ -1,7 +1,8 @@
 ---
-created: 2026-06-08T09:13:34+00:00
-modified: 2026-06-08T09:18:49+00:00
+created: 2026-06-08 09:13:34+00:00
+modified: 2026-06-08 09:18:49+00:00
 title: FITFILE Platform—ArgoCD + Helm Deployment Wiki
+permalink: llmeon/10-system/prompts/fitfile-platform-argo-cd-helm-deployment-wiki
 ---
 
 ## FITFILE Platform—ArgoCD + Helm Deployment Wiki

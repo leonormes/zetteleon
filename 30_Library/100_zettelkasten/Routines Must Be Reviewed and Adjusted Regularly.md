@@ -1,13 +1,18 @@
 ---
-aliases: ["Regularly Review Your Routines"]
-created: 2025-10-29T16:10:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:28+00:00
-status: "seedling"
-tags: ["adaptability", "continuous-improvement", "routine"]
+aliases:
+- Regularly Review Your Routines
+created: 2025-10-29 16:10:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:28+00:00
+status: seedling
+tags:
+- adaptability
+- continuous-improvement
+- routine
 title: Routines Must Be Reviewed and Adjusted Regularly
-type: "principle"
-updated: 
+type: principle
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/routines-must-be-reviewed-and-adjusted-regularly
 ---
 
 A routine is not a static object to be created once and followed forever. It is a living system that must be regularly reviewed and adjusted to remain effective as life circumstances, energy levels, and priorities change.

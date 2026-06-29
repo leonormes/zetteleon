@@ -1,11 +1,12 @@
 ---
-created: 2026-04-14T20:55:38+00:00
-created_utc: "2026-04-14T14:30:00Z"
-modified: 2026-05-26T11:44:23+00:00
-source_atoms: "[[tmp_atoms_productivity_paradox.md]]"
+created: 2026-04-14 20:55:38+00:00
+created_utc: '2026-04-14T14:30:00Z'
+modified: 2026-05-26 11:44:23+00:00
+source_atoms: '[[tmp_atoms_productivity_paradox.md]]'
 status: tmp
 title: _link_report_productivity_paradox
 type: link_report
+permalink: llmeon/30-library/400-indexes/link-report-productivity-paradox
 ---
 
 ## Link Report: Why Is AI Making My Job Worse?

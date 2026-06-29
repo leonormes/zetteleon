@@ -1,10 +1,15 @@
 ---
-created: 2026-02-01T15:35:00+00:00
-modified: 2026-02-01T20:50:52+00:00
-status: "growing"
-tags: ["calico", "grafana", "kubernetes", "observability"]
+created: 2026-02-01 15:35:00+00:00
+modified: 2026-02-01 20:50:52+00:00
+status: growing
+tags:
+- calico
+- grafana
+- kubernetes
+- observability
 title: SoT - Calico Observability
-type: "SoT"
+type: SoT
+permalink: llmeon/30-library/so-t/so-t-calico-observability
 ---
 
 ## 1. Core Distinction: Engine vs. Dashboard

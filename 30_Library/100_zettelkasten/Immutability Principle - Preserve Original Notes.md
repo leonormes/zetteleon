@@ -1,13 +1,20 @@
 ---
-aliases: ["Note Immutability", "Preserving Original Thoughts"]
-created: 2025-10-30T15:33:36Z
-last_reviewed: "2025-10-30T00:00:00.000Z"
-modified: 2026-02-01T15:08:32+00:00
-status: "seedling"
-tags: ["evolution", "topic/pkm", "topic/pkm/zettelkasten", "versioning"]
+aliases:
+- Note Immutability
+- Preserving Original Thoughts
+created: 2025-10-30 15:33:36+00:00
+last_reviewed: '2025-10-30T00:00:00.000Z'
+modified: 2026-02-01 15:08:32+00:00
+status: seedling
+tags:
+- evolution
+- topic/pkm
+- topic/pkm/zettelkasten
+- versioning
 title: Immutability Principle - Preserve Original Notes
-type: "principle"
-updated: 
+type: principle
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/immutability-principle-preserve-original-notes
 ---
 
 ## Immutability Principle - Preserve Original Notes

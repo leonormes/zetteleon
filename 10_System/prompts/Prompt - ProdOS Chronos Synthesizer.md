@@ -1,10 +1,16 @@
 ---
-created: 2026-03-30T14:56:04+00:00
-description: Convert volatile HEAD notes into stable SoT artefacts and a concrete “Next Test” action.
-modified: 2026-05-26T11:44:37+00:00
-tags: [chronos, prodos, synthesis, type/system]
+created: 2026-03-30 14:56:04+00:00
+description: Convert volatile HEAD notes into stable SoT artefacts and a concrete
+  “Next Test” action.
+modified: 2026-05-26 11:44:37+00:00
+tags:
+- chronos
+- prodos
+- synthesis
+- type/system
 title: Prompt - ProdOS Chronos Synthesizer
 type: prompt
+permalink: llmeon/10-system/prompts/prompt-prod-os-chronos-synthesizer
 ---
 
 ## SYSTEM ROLE

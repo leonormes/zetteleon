@@ -2,10 +2,20 @@
 title: LLMeon
 wiki_type: dossier
 entity_kind: project
-created: 2026-05-18T13:40:46.778995+00:00
-modified: 2026-05-18T13:40:46.779042+00:00
-tags: [wiki, dossier, project]
-sources: ["2026-05-18-pieces-cuh-rbac-permissions.md", "2026-05-18-pieces-worker-status-reflections.md", "2026-05-18-pieces-hermes-gitlab-research.md", "2026-05-18-pieces-brain-mcp-integration.md", "2026-05-18-pieces-hermes-diagnostic-session.md", "2026-05-18-pieces-llm-mcp-chezmoi-config.md"]
+created: 2026-05-18 13:40:46.778995+00:00
+modified: 2026-05-18 13:40:46.779042+00:00
+tags:
+- wiki
+- dossier
+- project
+sources:
+- 2026-05-18-pieces-cuh-rbac-permissions.md
+- 2026-05-18-pieces-worker-status-reflections.md
+- 2026-05-18-pieces-hermes-gitlab-research.md
+- 2026-05-18-pieces-brain-mcp-integration.md
+- 2026-05-18-pieces-hermes-diagnostic-session.md
+- 2026-05-18-pieces-llm-mcp-chezmoi-config.md
+permalink: llmeon/wiki/projects/llmeon
 ---
 
 ## Summary

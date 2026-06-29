@@ -1,13 +1,19 @@
 ---
-aliases: ["LTP"]
-created: 2025-11-10T16:17:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:31+00:00
-status: "seedling"
-tags: ["learning", "memory", "synapses", "TheHuman/Neuroscience"]
+aliases:
+- LTP
+created: 2025-11-10 16:17:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:31+00:00
+status: seedling
+tags:
+- learning
+- memory
+- synapses
+- TheHuman/Neuroscience
 title: Long-Term Potentiation (LTP) is a Key Cellular Mechanism for Learning
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/long-term-potentiation-ltp-is-a-key-cellular-mechanism-for-learning
 ---
 
 ## Long-Term Potentiation (LTP) is a Key Cellular Mechanism for Learning

@@ -2,11 +2,15 @@
 title: HIE AWS Cluster — RDP via Jumpbox
 wiki_type: dossier
 entity_kind: project
-created: 2026-05-28T22:15:00+00:00
-modified: 2026-05-28T22:15:00+00:00
-tags: [wiki, dossier]
+created: 2026-05-28 22:15:00+00:00
+modified: 2026-06-24 15:30:00+00:00
+tags:
+- wiki
+- dossier
 sources:
-  - raw/2026-05-28-pieces-hie-aws-rdp
+- raw/2026-05-28-pieces-hie-aws-rdp
+- raw/2026-06-24-pieces-ftfl-464-calico-cloud-cleanup
+permalink: llmeon/wiki/projects/hie-aws-cluster-rdp-via-jumpbox
 ---
 
 ## Summary
@@ -29,6 +33,7 @@ Operational runbook for accessing the HIE (Health Information Exchange) AWS clus
 
 - **2026-05-28T09:06:** User requested RDP commands for HIE AWS cluster — runbook retrieved from Obsidian note `Protocol - AWS HIE Jumpbox Access` and delivered as a 4-step guide (authenticate → tunnel → RDP → stop)
 - **2026-05-28T22:15:** Runbook formalized into this wiki dossier from Pieces LTM captures
+- **2026-06-24:** FTFL-464: Executed Tigera Calico Cloud cleanup on `eoe-sde-codisc` EKS cluster (HIE SDE cluster, EU-West-2). All 17 Cloud namespaces removed — only `calico-system` + `tigera-operator` remain, CNI healthy. Drafted Jira ticket comment. — [[raw/2026-06-24-pieces-ftfl-464-calico-cloud-cleanup]]
 
 ## Connections
 

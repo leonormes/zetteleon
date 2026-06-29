@@ -1,13 +1,18 @@
 ---
 aliases: []
-created: 2025-10-24T14:25:58Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:34+00:00
-status: ""
-tags: ["aws", "cloud-computing", "ec2", "SoftwareEngineering/Networking"]
+created: 2025-10-24 14:25:58+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:34+00:00
+status: ''
+tags:
+- aws
+- cloud-computing
+- ec2
+- SoftwareEngineering/Networking
 title: EC2 Instance Configuration for AWS ALB
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/ec2-instance-configuration-for-aws-alb
 ---
 
 When using EC2 instances as targets behind an AWS Application Load Balancer (ALB), specific configurations are necessary:

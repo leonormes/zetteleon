@@ -1,21 +1,24 @@
 ---
-aliases: [Polymath Learning Strategies, Three Polymaths]
-created: 2026-05-30T09:08:56+01:00
-modified: 2026-05-30T09:08:56+01:00
+aliases:
+- Polymath Learning Strategies
+- Three Polymaths
+created: 2026-05-30 09:08:56+01:00
+modified: 2026-05-30 09:08:56+01:00
 prodos:
   kind: concept
   lifecycle: evergreen
   trust: stable
 status: evergreen
 tags:
-  - learning
-  - polymath
-  - strategy
-  - metacognition
-  - TheHuman/Cognition
-  - type/SoT
+- learning
+- polymath
+- strategy
+- metacognition
+- TheHuman/Cognition
+- type/SoT
 title: Three Polymaths Three Lessons
 type: concept
+permalink: llmeon/20-thinking/21-workbench/head-three-polymaths-three-lessons
 ---
 
 # Three Polymaths Three Lessons

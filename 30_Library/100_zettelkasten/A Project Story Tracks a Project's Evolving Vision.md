@@ -1,13 +1,18 @@
 ---
-aliases: [Project Story]
-created: 2025-11-11T19:05:10Z
-last_reviewed: "null"
-modified: 2026-05-26T11:44:37+00:00
+aliases:
+- Project Story
+created: 2025-11-11 19:05:10+00:00
+last_reviewed: 'null'
+modified: 2026-05-26 11:44:37+00:00
 status: seedling
-tags: [documentation, project-management, topic/productivity]
-title: "A Project Story Tracks a Project's Evolving Vision"
+tags:
+- documentation
+- project-management
+- topic/productivity
+title: A Project Story Tracks a Project's Evolving Vision
 type: strategy
-updated:
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/a-project-story-tracks-a-projects-evolving-vision
 ---
 
 ## A Project Story Tracks a Project's Evolving Vision

@@ -1,14 +1,23 @@
 ---
-alias: ["Formality Core", "Rust Formal Modeling", "Rust Type Theory", "The Price of Ignoring Theory"]
+alias:
+- Formality Core
+- Rust Formal Modeling
+- Rust Type Theory
+- The Price of Ignoring Theory
 aliases: []
-created: 2025-12-29T11:13:41+00:00
-last_reviewed: "2025-12-30"
-modified: 2026-02-01T15:07:52+00:00
-status: "stable"
-tags: ["critique", "formal-methods", "rust", "type-theory"]
+created: 2025-12-29 11:13:41+00:00
+last_reviewed: '2025-12-30'
+modified: 2026-02-01 15:07:52+00:00
+status: stable
+tags:
+- critique
+- formal-methods
+- rust
+- type-theory
 title: SoT - Rust Type Theory & Critique
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-rust-type-theory-critique
 ---
 
 ## 1. The Theoretical Debt

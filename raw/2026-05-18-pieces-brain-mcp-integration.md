@@ -1,4 +1,8 @@
 ---
+permalink: llmeon/raw/2026-05-18-pieces-brain-mcp-integration
+---
+
+---
 title: **Reflection 3 · on track** — Good STATUS report delivered b
 created: 2026-05-18T13:37:46.386886+00:00
 source: pieces-ltm

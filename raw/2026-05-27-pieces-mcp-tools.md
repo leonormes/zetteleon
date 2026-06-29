@@ -1,9 +1,15 @@
 ---
 title: Mcp Tools — Pieces LTM 2026-05-27
-created: 2026-05-27T21:30:22.835947+00:00
+created: 2026-05-27 21:30:22.835947+00:00
 source: pieces-ltm
-pieces_ids: [d3905143-5363-442a-a8f5-8fd940404da8, d9f1b9bd-96d3-4079-9f95-11a54e3fc0d7, cf9021ea-b7b8-4553-acee-03c91dc45f55]
-tags: [raw, pieces]
+pieces_ids:
+- d3905143-5363-442a-a8f5-8fd940404da8
+- d9f1b9bd-96d3-4079-9f95-11a54e3fc0d7
+- cf9021ea-b7b8-4553-acee-03c91dc45f55
+tags:
+- raw
+- pieces
+permalink: llmeon/raw/2026-05-27-pieces-mcp-tools
 ---
 
 ## Asset 1 (Pieces: d3905143-5363-442a-a8f5-8fd940404da8)

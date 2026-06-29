@@ -1,13 +1,20 @@
 ---
-aliases: ["Deep Work"]
-created: 2025-11-10T14:09:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:36+00:00
-status: "seedling"
-tags: ["deep-work", "focus", "time-blocking", "topic/productivity"]
-title: "Cal Newport's Deep Work Method Involves Rigorous Time Blocking to Maximize Concentration"
-type: "concept"
-updated: 
+aliases:
+- Deep Work
+created: 2025-11-10 14:09:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:36+00:00
+status: seedling
+tags:
+- deep-work
+- focus
+- time-blocking
+- topic/productivity
+title: Cal Newport's Deep Work Method Involves Rigorous Time Blocking to Maximize
+  Concentration
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/cal-newports-deep-work-method-involves-rigorous-time-blocking-to-maximize-concentration
 ---
 
 ## Cal Newport's Deep Work Method Involves Rigorous Time Blocking to Maximize Concentration

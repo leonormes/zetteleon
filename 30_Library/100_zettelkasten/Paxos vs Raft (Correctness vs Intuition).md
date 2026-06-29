@@ -1,15 +1,21 @@
 ---
-created: 2026-04-14T17:46:24+00:00
-created_utc: "2026-04-14T12:20:00Z"
+created: 2026-04-14 17:46:24+00:00
+created_utc: '2026-04-14T12:20:00Z'
 kind: claim
-modified: 2026-05-26T11:44:33+00:00
-source_title: "The Fundamental Challenge of Concurrent and Distributed Systems"
-source_url: "http://www.youtube.com/watch?v=U719vQz-WFs"
+modified: 2026-05-26 11:44:33+00:00
+source_title: The Fundamental Challenge of Concurrent and Distributed Systems
+source_url: http://www.youtube.com/watch?v=U719vQz-WFs
 status: seed
-tags: [consensus, correctness, intuition, paxos, raft]
+tags:
+- consensus
+- correctness
+- intuition
+- paxos
+- raft
 title: Paxos vs Raft (Correctness vs Intuition)
 type: atom
-upstream: "[[SoT - Rust Concurrency & Async Paradigms]]"
+upstream: '[[SoT - Rust Concurrency & Async Paradigms]]'
+permalink: llmeon/30-library/100-zettelkasten/paxos-vs-raft-correctness-vs-intuition
 ---
 
 ## Paxos Vs Raft (Correctness Vs Intuition)

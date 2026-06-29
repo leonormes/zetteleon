@@ -1,13 +1,18 @@
 ---
 aliases: []
-created: 2025-12-17T00:00:00Z
-last_reviewed: "2025-12-17"
-modified: 2026-02-01T15:08:00+00:00
-status: "stable"
-tags: ["conways-law", "organizational-structure", "SoftwareEngineering/Architecture", "systems-design"]
+created: 2025-12-17 00:00:00+00:00
+last_reviewed: '2025-12-17'
+modified: 2026-02-01 15:08:00+00:00
+status: stable
+tags:
+- conways-law
+- organizational-structure
+- SoftwareEngineering/Architecture
+- systems-design
 title: SoT - Conways Law and Structural Mismatch
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-conways-law-and-structural-mismatch
 ---
 
 ## 1. Definitive Statement

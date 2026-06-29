@@ -1,11 +1,12 @@
 ---
-created: 2026-04-14T20:32:21+00:00
-created_utc: "2026-04-14T13:50:00Z"
-modified: 2026-05-26T11:44:23+00:00
-source_atoms: "[[tmp_atoms_jeremy_howard_interview.md]]"
+created: 2026-04-14 20:32:21+00:00
+created_utc: '2026-04-14T13:50:00Z'
+modified: 2026-05-26 11:44:23+00:00
+source_atoms: '[[tmp_atoms_jeremy_howard_interview.md]]'
 status: tmp
 title: _link_report_jeremy_howard_interview
 type: link_report
+permalink: llmeon/30-library/400-indexes/link-report-jeremy-howard-interview
 ---
 
 ## Link Report: Deconstructing the Interview with Jeremy Howard

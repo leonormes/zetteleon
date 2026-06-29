@@ -1,8 +1,13 @@
 ---
-created: 2026-04-10T00:00:00+00:00
-modified: 2026-05-26T11:44:33+00:00
-tags: [attention-management, focus, gtd, processing]
+created: 2026-04-10 00:00:00+00:00
+modified: 2026-05-26 11:44:33+00:00
+tags:
+- attention-management
+- focus
+- gtd
+- processing
 title: Process the Top Item First and One at a Time to Prevent Emergency Scanning
+permalink: llmeon/30-library/100-zettelkasten/process-the-top-item-first-and-one-at-a-time-to-prevent-emergency-scanning
 ---
 
 ## Process the Top Item First and One at a Time to Prevent Emergency Scanning

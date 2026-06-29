@@ -1,13 +1,19 @@
 ---
-aliases: ["Build Flexibility into Routines"]
-created: 2025-10-29T16:10:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:33+00:00
-status: "seedling"
-tags: ["adaptability", "contingency-planning", "resilience", "routine"]
+aliases:
+- Build Flexibility into Routines
+created: 2025-10-29 16:10:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:33+00:00
+status: seedling
+tags:
+- adaptability
+- contingency-planning
+- resilience
+- routine
 title: Flexible Routines Require Contingency Planning
-type: "strategy"
-updated: 
+type: strategy
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/flexible-routines-require-contingency-planning
 ---
 
 A routine's effectiveness is determined not just by its structure, but by its flexibility. Life is unpredictable, and a rigid routine will shatter at the first disruption. Therefore, building in contingency plans is essential.

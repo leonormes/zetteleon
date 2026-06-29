@@ -1,11 +1,19 @@
 ---
-created: 2026-05-23T12:00:00+01:00
+created: 2026-05-23 12:00:00+01:00
 entity_kind: concept
-modified: 2026-05-23T11:49:02+00:00
-sources: [raw/2026-05-23-research-adhd-procrastination-productivity.md]
-tags: [adhd, concept, executive-function, procrastination, productivity, wiki]
+modified: 2026-05-23 11:49:02+00:00
+sources:
+- raw/2026-05-23-research-adhd-procrastination-productivity.md
+tags:
+- adhd
+- concept
+- executive-function
+- procrastination
+- productivity
+- wiki
 title: ADHD Procrastination and Productivity
 wiki_type: concept
+permalink: llmeon/wiki/concepts/adhd-procrastination-and-productivity
 ---
 
 ## ADHD Procrastination and Productivity

@@ -1,13 +1,14 @@
 ---
 aliases: []
-created: 2025-05-26T18:19:55Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:23+00:00
-status: ""
+created: 2025-05-26 18:19:55+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:23+00:00
+status: ''
 tags: []
-title: "Why Others' Opinions Can Feel Undeservedly Powerful"
-type: ""
-updated: 
+title: Why Others' Opinions Can Feel Undeservedly Powerful
+type: ''
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/why-others-opinions-can-feel-undeservedly-powerful
 ---
 
 [[2025-05-26]]

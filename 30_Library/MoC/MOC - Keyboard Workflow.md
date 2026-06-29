@@ -1,13 +1,18 @@
 ---
-aliases: [Keyboard MOC, MOC Keyboard]
-created: 2025-12-21T19:00:00Z
-last_reviewed:
-modified: 2026-02-01T15:08:05+00:00
-status:
-tags: [keyboard, workflow]
+aliases:
+- Keyboard MOC
+- MOC Keyboard
+created: 2025-12-21 19:00:00+00:00
+last_reviewed: null
+modified: 2026-02-01 15:08:05+00:00
+status: null
+tags:
+- keyboard
+- workflow
 title: MOC - Keyboard Workflow
 type: map
-updated:
+updated: null
+permalink: llmeon/30-library/mo-c/moc-keyboard-workflow
 ---
 
 ## MOC - Keyboard Workflow

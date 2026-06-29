@@ -1,9 +1,15 @@
 ---
 title: OMOP Parquet Data — Azure Storage Resource Names
-created: 2026-06-04T08:03:29+00:00
+created: 2026-06-04 08:03:29+00:00
 source: pieces-ltm
-pieces_ids: ["2abdd8ab-22ec-47c6-9a8b-617482a3ba1a", "82335225-9f79-41e1-bc97-f9109d04c22a", "54216833-0345-4373-a268-a0cae377cb01"]
-tags: [raw, pieces]
+pieces_ids:
+- 2abdd8ab-22ec-47c6-9a8b-617482a3ba1a
+- 82335225-9f79-41e1-bc97-f9109d04c22a
+- 54216833-0345-4373-a268-a0cae377cb01
+tags:
+- raw
+- pieces
+permalink: llmeon/raw/2026-06-03-pieces-omop-azure-storage
 ---
 
 ## Asset 1 (Pieces: 2abdd8ab-22ec-47c6-9a8b-617482a3ba1a)

@@ -1,13 +1,23 @@
 ---
-aliases: ["Hackett", "Interleaved Compilation", "Lisp-Haskell Fusion", "Type-Driven Macros"]
-created: 2025-12-18T00:00:00Z
-last_reviewed: "2025-12-18"
-modified: 2026-02-01T15:07:56+00:00
-status: "stable"
-tags: ["macros", "programming_languages", "racket", "SoftwareEngineering/Architecture", "type_systems"]
+aliases:
+- Hackett
+- Interleaved Compilation
+- Lisp-Haskell Fusion
+- Type-Driven Macros
+created: 2025-12-18 00:00:00+00:00
+last_reviewed: '2025-12-18'
+modified: 2026-02-01 15:07:56+00:00
+status: stable
+tags:
+- macros
+- programming_languages
+- racket
+- SoftwareEngineering/Architecture
+- type_systems
 title: SoT - Interleaved Compilation (The Hackett Architecture)
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-interleaved-compilation-the-hackett-architecture
 ---
 
 ## 1. Working Knowledge (Stable Foundation)

@@ -1,18 +1,19 @@
 ---
 status: Project.Planned
 priority: B
-prodosProject: "Bessie"
+prodosProject: Bessie
 prodosCategory: personal
 contexts:
-  - bessie
-  - home
+- bessie
+- home
 tags:
-  - operon/parent
-  - bessie
-datetimeCreated: 2026-06-11T16:00:00+01:00
+- operon/parent
+- bessie
+datetimeCreated: 2026-06-11 16:00:00+01:00
 Links:
-  - "[[Bessie's Master Guide to AQA GCSE Combined Science!]]"
-  - "[[SoT - Bessie GCSE Dashboard]]"
+- '[[Bessie''s Master Guide to AQA GCSE Combined Science!]]'
+- '[[SoT - Bessie GCSE Dashboard]]'
+permalink: llmeon/operon/projects/bessie-education
 ---
 
 ## Definition of done

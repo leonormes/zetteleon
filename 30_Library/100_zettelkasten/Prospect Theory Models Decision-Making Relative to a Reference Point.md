@@ -1,13 +1,17 @@
 ---
 aliases: []
-created: 2025-08-12T07:55:54Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:28+00:00
-status: ""
-tags: ["behavioural_economics", "decision_making", "model"]
+created: 2025-08-12 07:55:54+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:28+00:00
+status: ''
+tags:
+- behavioural_economics
+- decision_making
+- model
 title: Prospect Theory Models Decision-Making Relative to a Reference Point
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/prospect-theory-models-decision-making-relative-to-a-reference-point
 ---
 
 Prospect Theory, from Daniel Kahneman and Amos Tversky, is a descriptive model of how humans make choices under risk. It posits that people evaluate outcomes based on their potential value as gains or losses relative to a specific reference point (e.g., the status quo), rather than in absolute terms.

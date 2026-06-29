@@ -1,12 +1,20 @@
 ---
-aliases: [FitFile Security Index, Secret Management Map]
-created: 2026-01-08T12:45:00Z
+aliases:
+- FitFile Security Index
+- Secret Management Map
+created: 2026-01-08 12:45:00+00:00
 last_reviewed: 2026-02-13
-modified: 2026-03-28T13:39:14+00:00
+modified: 2026-03-28 13:39:14+00:00
 status: active
-tags: [fitfile, moc, secrets, security, vault]
+tags:
+- fitfile
+- moc
+- secrets
+- security
+- vault
 title: MoC - FitFile Security & Secrets
 type: map
+permalink: llmeon/30-library/mo-c/mo-c-fit-file-security-secrets
 ---
 
 ## 1. Core Architecture

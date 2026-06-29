@@ -1,13 +1,22 @@
 ---
-aliases: ["Cluster Networking", "K8s Networking", "Pod Networking"]
-created: 2025-12-16T13:52:08Z
-last_reviewed: "2025-12-23"
-modified: 2026-05-26T11:44:19+00:00
-status: "stable"
-tags: ["cni", "kubernetes", "service_discovery", "SoftwareEngineering/Networking", "SoftwareEngineering/networking/dns"]
+aliases:
+- Cluster Networking
+- K8s Networking
+- Pod Networking
+created: 2025-12-16 13:52:08+00:00
+last_reviewed: '2025-12-23'
+modified: 2026-05-26 11:44:19+00:00
+status: stable
+tags:
+- cni
+- kubernetes
+- service_discovery
+- SoftwareEngineering/Networking
+- SoftwareEngineering/networking/dns
 title: SoT - Kubernetes Networking & DNS
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-kubernetes-networking-dns
 ---
 
 ## 1. The Core Model: "Flat Network"

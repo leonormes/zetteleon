@@ -1,13 +1,17 @@
 ---
 aliases: []
-created: 2025-05-08T06:57:07Z
-last_reviewed: "null"
-modified: 2026-02-01T15:08:36+00:00
-status: "null"
-tags: ["novelty", "TheHuman/Cognition/bias", "TheHuman/Health/ADHD"]
+created: 2025-05-08 06:57:07+00:00
+last_reviewed: 'null'
+modified: 2026-02-01 15:08:36+00:00
+status: 'null'
+tags:
+- novelty
+- TheHuman/Cognition/bias
+- TheHuman/Health/ADHD
 title: Appeal to Novelty
-type: "permanent"
-updated: 
+type: permanent
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/appeal-to-novelty
 ---
 
 - Definition: Assuming newer solutions are better simply because they're new

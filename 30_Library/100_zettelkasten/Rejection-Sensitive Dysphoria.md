@@ -1,11 +1,17 @@
 ---
-created: 2026-05-31T00:00:00+00:00
-modified: 2026-05-31T17:25:24+00:00
-related_to: ["[[MOC - ADHD and PKM Systems]]"]
-supports: ["[[Claim - ADHD perfectionism is maladaptive compensation]]"]
-tags: [adhd, emotional-regulation, rsd]
+created: 2026-05-31 00:00:00+00:00
+modified: 2026-05-31 17:25:24+00:00
+related_to:
+- '[[MOC - ADHD and PKM Systems]]'
+supports:
+- '[[Claim - ADHD perfectionism is maladaptive compensation]]'
+tags:
+- adhd
+- emotional-regulation
+- rsd
 title: Rejection-Sensitive Dysphoria
 type: concept
+permalink: llmeon/30-library/100-zettelkasten/rejection-sensitive-dysphoria
 ---
 
 An intense, often disproportionate emotional response to perceived failure, criticism or rejection, commonly associated with ADHD.

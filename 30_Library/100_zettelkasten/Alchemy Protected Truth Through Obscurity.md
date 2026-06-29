@@ -1,13 +1,19 @@
 ---
 aliases: []
-created: 2025-07-20T13:32:44Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:37+00:00
-status: ""
-tags: ["alchemy", "esotericism", "knowledge", "methodology", "secrecy"]
+created: 2025-07-20 13:32:44+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:37+00:00
+status: ''
+tags:
+- alchemy
+- esotericism
+- knowledge
+- methodology
+- secrecy
 title: Alchemy Protected Truth Through Obscurity
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/alchemy-protected-truth-through-obscurity
 ---
 
 Alchemy's methodology was deliberately arcane. It operated on the principle that truth was a form of ancient, sacred wisdom that needed protection from the uninitiated. This protection was achieved through obscurity.

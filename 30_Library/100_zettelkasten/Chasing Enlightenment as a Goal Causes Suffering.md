@@ -1,13 +1,19 @@
 ---
-aliases: ["Enlightenment Trap"]
-created: 2025-11-01T12:20:01Z
-last_reviewed: "2025-11-01"
-modified: 2026-02-01T15:08:36+00:00
-status: "seedling"
-tags: ["buddhism", "suffering", "TheHuman/Mindset", "zen"]
+aliases:
+- Enlightenment Trap
+created: 2025-11-01 12:20:01+00:00
+last_reviewed: '2025-11-01'
+modified: 2026-02-01 15:08:36+00:00
+status: seedling
+tags:
+- buddhism
+- suffering
+- TheHuman/Mindset
+- zen
 title: Chasing Enlightenment as a Goal Causes Suffering
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/chasing-enlightenment-as-a-goal-causes-suffering
 ---
 
 ## Chasing Enlightenment as a Goal Causes Suffering

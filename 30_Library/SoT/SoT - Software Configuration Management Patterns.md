@@ -1,13 +1,22 @@
 ---
-aliases: ["Code as Configuration", "Configuration Management SoT", "SCM Patterns SoT"]
-created: 2025-12-12T00:00:00Z
-last_reviewed: 
-modified: 2026-02-01T15:07:52+00:00
-status: "stable"
-tags: ["devops", "patterns", "scm", "SoftwareEngineering", "SoftwareEngineering/Architecture"]
+aliases:
+- Code as Configuration
+- Configuration Management SoT
+- SCM Patterns SoT
+created: 2025-12-12 00:00:00+00:00
+last_reviewed: null
+modified: 2026-02-01 15:07:52+00:00
+status: stable
+tags:
+- devops
+- patterns
+- scm
+- SoftwareEngineering
+- SoftwareEngineering/Architecture
 title: SoT - Software Configuration Management Patterns
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-software-configuration-management-patterns
 ---
 
 > Core Principle: " A software system is the sum of all its code and artifacts (data, docs, tests). If you cannot reproduce the system from version control, you do not have control."

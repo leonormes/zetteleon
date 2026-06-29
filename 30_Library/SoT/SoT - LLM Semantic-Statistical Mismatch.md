@@ -1,18 +1,27 @@
 ---
-aliases: [Anthropomorphism Trap, LLM Category Error, Semantic vs Statistical, Statistical Mismatch]
-created: 2026-04-06T18:00:00+01:00
+aliases:
+- Anthropomorphism Trap
+- LLM Category Error
+- Semantic vs Statistical
+- Statistical Mismatch
+created: 2026-04-06 18:00:00+01:00
 last-synthesis: 2026-04-06
-modified: 2026-05-26T11:44:19+00:00
+modified: 2026-05-26 11:44:19+00:00
 see_also: []
 source_of_truth: true
 status: stable
-superseded_by: ""
-supersedes: ""
+superseded_by: ''
+supersedes: ''
 synthesis-count: 1
-tags: [ai-engineering, epistemology, llm, sot]
+tags:
+- ai-engineering
+- epistemology
+- llm
+- sot
 title: SoT - LLM Semantic-Statistical Mismatch
 trust-level: stable
 type: SoT
+permalink: llmeon/30-library/so-t/so-t-llm-semantic-statistical-mismatch
 ---
 
 ## Minimum Viable Understanding (MVU)

@@ -1,8 +1,12 @@
 ---
-created: 2026-06-11T16:00:00+01:00
-modified: 2026-06-11T14:36:04+00:00
-tags: [gtd, operon, prodos]
+created: 2026-06-11 16:00:00+01:00
+modified: 2026-06-11 14:36:04+00:00
+tags:
+- gtd
+- operon
+- prodos
 title: README
+permalink: llmeon/operon/readme
 ---
 
 ## Purpose

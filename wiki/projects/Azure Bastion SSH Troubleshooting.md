@@ -2,10 +2,19 @@
 title: Azure Bastion SSH Troubleshooting
 wiki_type: dossier
 entity_kind: project
-created: 2026-05-29T11:05:35+00:00
-modified: 2026-05-29T19:54:32+00:00
-tags: [wiki, dossier, azure, ssh, bastion, troubleshooting]
-sources: [[2026-05-29-pieces-azure-bastion-ssh-troubleshooting], [2026-05-29-pieces-azure-bastion-1password-ssh]]
+created: 2026-05-29 11:05:35+00:00
+modified: 2026-05-29 19:54:32+00:00
+tags:
+- wiki
+- dossier
+- azure
+- ssh
+- bastion
+- troubleshooting
+sources:
+- - 2026-05-29-pieces-azure-bastion-ssh-troubleshooting
+- - 2026-05-29-pieces-azure-bastion-1password-ssh
+permalink: llmeon/wiki/projects/azure-bastion-ssh-troubleshooting
 ---
 
 ## Summary

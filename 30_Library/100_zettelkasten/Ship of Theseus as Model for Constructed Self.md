@@ -1,13 +1,19 @@
 ---
 aliases: []
-created: 2025-11-01T09:51:13Z
-last_reviewed: "null"
-modified: 2026-02-01T15:08:27+00:00
-status: "seedling"
-tags: ["metaphor", "self", "TheHuman/Identity", "TheHuman/Philosophy", "topic/philosophy"]
+created: 2025-11-01 09:51:13+00:00
+last_reviewed: 'null'
+modified: 2026-02-01 15:08:27+00:00
+status: seedling
+tags:
+- metaphor
+- self
+- TheHuman/Identity
+- TheHuman/Philosophy
+- topic/philosophy
 title: Ship of Theseus as Model for Constructed Self
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/ship-of-theseus-as-model-for-constructed-self
 ---
 
 ## Ship of Theseus as Model for Constructed Self

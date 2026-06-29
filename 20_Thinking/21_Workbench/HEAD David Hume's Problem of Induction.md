@@ -1,12 +1,14 @@
 ---
-title: "New chat"
-source: "https://gemini.google.com/app/6fce549cb8088f1c"
-captured: "2026-06-04T14:02:31+01:00 2026-06-04T14:02:31+01:00"
-status: "processing"
+title: New chat
+source: https://gemini.google.com/app/6fce549cb8088f1c
+captured: 2026-06-04T14:02:31+01:00 2026-06-04T14:02:31+01:00
+status: processing
 tags:
-  - "input"
-type: "head"
+- input
+type: head
+permalink: llmeon/20-thinking/21-workbench/head-david-humes-problem-of-induction
 ---
+
 ## Raw Output / Content
 **You**
 

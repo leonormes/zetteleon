@@ -1,8 +1,14 @@
 ---
-created: 2026-04-10T00:00:00+00:00
-modified: 2026-05-26T11:44:34+00:00
-tags: [adhd, dopamine, motivation, neuroscience]
-title: Meaning-Driven Activity Activates Brain Reward Systems Independently of External Reinforcement
+created: 2026-04-10 00:00:00+00:00
+modified: 2026-05-26 11:44:34+00:00
+tags:
+- adhd
+- dopamine
+- motivation
+- neuroscience
+title: Meaning-Driven Activity Activates Brain Reward Systems Independently of External
+  Reinforcement
+permalink: llmeon/30-library/100-zettelkasten/meaning-driven-activity-activates-brain-reward-systems-independently-of-external-reinforcement
 ---
 
 ## Meaning-Driven Activity Activates Brain Reward Systems Independently of External Reinforcement

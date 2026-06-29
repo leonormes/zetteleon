@@ -1,11 +1,22 @@
 ---
-aliases: ["Cognitive Tools", "Depiction vs Explanation", "Discovery-Engineering Loop", "Visual Abstraction", "Visual-Spatial Reasoning"]
-created: 2026-01-09T21:57:29+00:00
-modified: 2026-02-01T15:08:01+00:00
-status: "permanent"
-tags: ["cognition", "design", "education", "mental-models", "visualization"]
+aliases:
+- Cognitive Tools
+- Depiction vs Explanation
+- Discovery-Engineering Loop
+- Visual Abstraction
+- Visual-Spatial Reasoning
+created: 2026-01-09 21:57:29+00:00
+modified: 2026-02-01 15:08:01+00:00
+status: permanent
+tags:
+- cognition
+- design
+- education
+- mental-models
+- visualization
 title: SoT - Cognitive Tools and Visual Abstraction
-type: "SoT"
+type: SoT
+permalink: llmeon/30-library/so-t/so-t-cognitive-tools-and-visual-abstraction
 ---
 
 ## SoT - Cognitive Tools and Visual Abstraction

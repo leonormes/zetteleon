@@ -1,7 +1,8 @@
 ---
-created: 2026-04-28T10:30:02+00:00
-modified: 2026-05-26T11:43:56+00:00
+created: 2026-04-28 10:30:02+00:00
+modified: 2026-05-26 11:43:56+00:00
 title: Jira-FTFL-596
+permalink: llmeon/work/jira/jira-ftfl-596
 ---
 
 ## FTFL-596: Configure the Azure Backups Module for NNUH & MKUH

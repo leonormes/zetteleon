@@ -1,25 +1,26 @@
 ---
 tags:
-  - jira
-  - fitfile
-  - task
-  - auth0
-  - security
-  - infrastructure
+- jira
+- fitfile
+- task
+- auth0
+- security
+- infrastructure
 status: To Do
 priority: High
 issuetype: Task
 assignee: Leon Ormes
 reporter: Leon Ormes
 labels:
-  - auth0
-  - security
-  - infrastructure
+- auth0
+- security
+- infrastructure
 created: 2026-05-28
 updated: 2026-05-28
-jira_id: "31912"
+jira_id: '31912'
 jira_key: FTFL-679
 jira_url: https://fitfile.atlassian.net/browse/FTFL-679
+permalink: llmeon/jira/ftfl-679-auth0-management-api-scope-changes
 ---
 
 # FTFL-679 — [AUTH0] Management API Scope Changes - Connection Options

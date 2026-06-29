@@ -1,13 +1,22 @@
 ---
-aliases: ["Problem Definition", "The Problem Concept", "What is a Problem"]
-created: 2025-12-07T00:00:00Z
-last_reviewed: "2025-12-07"
-modified: 2026-02-01T15:07:48+00:00
-status: "stable"
-tags: ["definition", "logic", "mental_model", "problem_solving", "topic/systems"]
+aliases:
+- Problem Definition
+- The Problem Concept
+- What is a Problem
+created: 2025-12-07 00:00:00+00:00
+last_reviewed: '2025-12-07'
+modified: 2026-02-01 15:07:48+00:00
+status: stable
+tags:
+- definition
+- logic
+- mental_model
+- problem_solving
+- topic/systems
 title: SoT - What is a Problem
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-what-is-a-problem
 ---
 
 > It exists effectively only when three components are present simultaneously: ""

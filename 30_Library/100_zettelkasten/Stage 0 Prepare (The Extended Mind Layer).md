@@ -1,13 +1,14 @@
 ---
 aliases: []
-created: 2025-08-11T15:30:49Z
-last_reviewed: ""
-modified: 2026-05-26T11:44:32+00:00
-status: ""
+created: 2025-08-11 15:30:49+00:00
+last_reviewed: ''
+modified: 2026-05-26 11:44:32+00:00
+status: ''
 tags: []
 title: Stage 0 Prepare (The Extended Mind Layer)
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/stage-0-prepare-the-extended-mind-layer
 ---
 
 _The Goal: To create a state of mind and body conducive to novel thought._

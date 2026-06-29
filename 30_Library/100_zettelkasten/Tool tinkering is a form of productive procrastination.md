@@ -1,13 +1,18 @@
 ---
 aliases: []
-created: 2025-08-23T20:59:17Z
-last_reviewed: "null"
-modified: 2026-02-01T15:08:24+00:00
-status: "null"
-tags: ["meta-work", "TheHuman/Cognition/bias", "topic/productivity", "topic/productivity/procrastination"]
+created: 2025-08-23 20:59:17+00:00
+last_reviewed: 'null'
+modified: 2026-02-01 15:08:24+00:00
+status: 'null'
+tags:
+- meta-work
+- TheHuman/Cognition/bias
+- topic/productivity
+- topic/productivity/procrastination
 title: Tool tinkering is a form of productive procrastination
-type: "permanent"
-updated: 
+type: permanent
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/tool-tinkering-is-a-form-of-productive-procrastination
 ---
 
 Engaging in meta-work, such as adjusting application settings, exploring plugins, organising file structures, or researching methodologies, can feel productive while being a form of procrastination. This 'tool tinkering' avoids the more difficult and cognitively demanding task of engaging with the actual work itself.

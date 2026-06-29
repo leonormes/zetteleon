@@ -1,13 +1,22 @@
 ---
-aliases: ["Atomic Chores Inventory", "Chores List", "Cleaning SOPs", "Home Maintenance Registry"]
-created: 2025-12-30T10:00:00Z
-last_reviewed: "2025-12-30"
-modified: 2026-02-01T15:07:55+00:00
-status: "proposal"
-tags: ["chores", "family", "inventory", "system"]
+aliases:
+- Atomic Chores Inventory
+- Chores List
+- Cleaning SOPs
+- Home Maintenance Registry
+created: 2025-12-30 10:00:00+00:00
+last_reviewed: '2025-12-30'
+modified: 2026-02-01 15:07:55+00:00
+status: proposal
+tags:
+- chores
+- family
+- inventory
+- system
 title: SoT - Master Household Chores Inventory
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-master-household-chores-inventory
 ---
 
 ## SoT - Master Household Chores Inventory

@@ -1,7 +1,8 @@
 ---
-created: 2026-04-19T07:15:38+00:00
-modified: 2026-05-26T11:44:23+00:00
+created: 2026-04-19 07:15:38+00:00
+modified: 2026-05-26 11:44:23+00:00
 title: Main Topics of Interest
+permalink: llmeon/30-library/400-indexes/main-topics-of-interest
 ---
 
 ## 🗺️ Main Topics of Interest

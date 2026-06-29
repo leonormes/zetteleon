@@ -1,11 +1,20 @@
 ---
-aliases: ["Emotional Hypersensitivity in ADHD", "Rejection Sensitivity", "RSD"]
-created: 2026-02-11T17:05:00+00:00
-modified: 2026-05-26T11:44:33+00:00
-status: "seedling"
-tags: ["ADHD", "emotion", "neurology", "RSD", "social-cognition"]
+aliases:
+- Emotional Hypersensitivity in ADHD
+- Rejection Sensitivity
+- RSD
+created: 2026-02-11 17:05:00+00:00
+modified: 2026-05-26 11:44:33+00:00
+status: seedling
+tags:
+- ADHD
+- emotion
+- neurology
+- RSD
+- social-cognition
 title: Rejection Sensitive Dysphoria (RSD)
-type: "zettel"
+type: zettel
+permalink: llmeon/30-library/100-zettelkasten/rejection-sensitive-dysphoria-rsd
 ---
 
 Rejection Sensitive Dysphoria (RSD) is a specialized, intense emotional response common in ADHD, characterized by extreme sensitivity to perceived or actual rejection, criticism, or failure. It is a neurological event, not a character flaw; the brain's emotional processing centers perceive social disapproval as a direct physical threat, triggering a "fight or flight" response to social stimuli.

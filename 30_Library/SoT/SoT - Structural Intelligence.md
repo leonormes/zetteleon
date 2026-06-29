@@ -1,9 +1,18 @@
 ---
-aliases: [AST-Based Retrieval, Deterministic Code Graph, Structural Intelligence]
-created: 2026-01-30T10:00:00+00:00
-modified: 2026-02-01T15:07:51+00:00
-tags: [architecture, ast, graph-theory, retrieval, tooling]
+aliases:
+- AST-Based Retrieval
+- Deterministic Code Graph
+- Structural Intelligence
+created: 2026-01-30 10:00:00+00:00
+modified: 2026-02-01 15:07:51+00:00
+tags:
+- architecture
+- ast
+- graph-theory
+- retrieval
+- tooling
 title: SoT - Structural Intelligence
+permalink: llmeon/30-library/so-t/so-t-structural-intelligence
 ---
 
 ## Structural Intelligence

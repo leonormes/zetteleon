@@ -1,26 +1,29 @@
 ---
 title: FTFL-599 Confluence Page + FTFL-638 Monitoring Fix + prodOS Workflow Query
-created: 2026-05-26T14:30:00+00:00
+created: 2026-05-26 14:30:00+00:00
 source: pieces-ltm
 pieces_ids:
-  - 19f3692b-4f6b-4a89-915e-a157fe518588
-  - 75765ed1-4c6c-4f4a-88b9-e9b91f8d2452
-  - 28bf8410-a435-4af2-b7c4-b99a11e560b6
-  - eb30f64c-b40a-467b-9a52-bf92ce3bde4b
-  - 90f6678a-9fc1-4d73-89a0-c2ddd9480685
-  - 34c4b6d3-7e65-4937-b626-e6ef63feb11e
-  - 79586e03-fc44-4bcd-84ba-be79547e60ab
-  - b0357e35-4778-49fc-b4dc-a156ed8b9833
-  - 01c62afd-9f7d-444f-825c-1213baddc4cb
-  - a95b6d84-ec23-4736-8d2b-c6aa919cec64
-  - c2e5f737-f616-4a75-9fe7-287a9ff318d3
-  - acbc5946-0a34-4b46-bc44-2fe5e6a0823e
-  - c37f499d-1216-4ef5-9ba1-cf0f96d754ce
-  - e185ae68-24c3-4a3b-bfff-1688a280f8f7
-  - ad241291-d780-4d86-b024-0eace180f19b
-  - 1da6e867-1256-4e39-b30a-afa5801d7260
-  - 52be56c3-9946-400e-a557-7b6850d262cd
-tags: [raw, pieces]
+- 19f3692b-4f6b-4a89-915e-a157fe518588
+- 75765ed1-4c6c-4f4a-88b9-e9b91f8d2452
+- 28bf8410-a435-4af2-b7c4-b99a11e560b6
+- eb30f64c-b40a-467b-9a52-bf92ce3bde4b
+- 90f6678a-9fc1-4d73-89a0-c2ddd9480685
+- 34c4b6d3-7e65-4937-b626-e6ef63feb11e
+- 79586e03-fc44-4bcd-84ba-be79547e60ab
+- b0357e35-4778-49fc-b4dc-a156ed8b9833
+- 01c62afd-9f7d-444f-825c-1213baddc4cb
+- a95b6d84-ec23-4736-8d2b-c6aa919cec64
+- c2e5f737-f616-4a75-9fe7-287a9ff318d3
+- acbc5946-0a34-4b46-bc44-2fe5e6a0823e
+- c37f499d-1216-4ef5-9ba1-cf0f96d754ce
+- e185ae68-24c3-4a3b-bfff-1688a280f8f7
+- ad241291-d780-4d86-b024-0eace180f19b
+- 1da6e867-1256-4e39-b30a-afa5801d7260
+- 52be56c3-9946-400e-a557-7b6850d262cd
+tags:
+- raw
+- pieces
+permalink: llmeon/raw/2026-05-26-pieces-ftfl599-ftfl638-prodos
 ---
 
 ## Asset 1 (Pieces: 19f3692b-4f6b-4a89-915e-a157fe518588)

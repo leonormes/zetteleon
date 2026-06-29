@@ -1,10 +1,18 @@
 ---
-created: 2026-05-19T22:29:21+00:00
-modified: 2026-05-26T11:43:35+00:00
-pieces_ids: [2474c2e1-ac86-4e73-b774-e3a8d6619e6d, 6b5a24ff-c41d-43f8-b0af-6cde6f90ae79, 7832f531-dad9-4bda-9629-4b0d7dbfa199, a4bd5558-c9be-4226-bb84-1db404eea34f, ab317018-890b-47e2-ae7b-7ca195f6118a]
+created: 2026-05-19 22:29:21+00:00
+modified: 2026-05-26 11:43:35+00:00
+pieces_ids:
+- 2474c2e1-ac86-4e73-b774-e3a8d6619e6d
+- 6b5a24ff-c41d-43f8-b0af-6cde6f90ae79
+- 7832f531-dad9-4bda-9629-4b0d7dbfa199
+- a4bd5558-c9be-4226-bb84-1db404eea34f
+- ab317018-890b-47e2-ae7b-7ca195f6118a
 source: pieces-ltm
-tags: [pieces, raw]
+tags:
+- pieces
+- raw
 title: 2026-05-19-pieces-gcx-cli-grafana-setup
+permalink: llmeon/raw/2026-05-19-pieces-gcx-cli-grafana-setup
 ---
 
 ## Asset 1 (Pieces: a4bd5558-c9be-4226-bb84-1db404eea34f)

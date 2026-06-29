@@ -1,7 +1,9 @@
 ---
-aliases: [Polymath Learning Strategies, Three Polymaths]
-created: 2026-05-30T09:08:56+01:00
-modified: 2026-05-30T09:08:56+01:00
+aliases:
+- Polymath Learning Strategies
+- Three Polymaths
+created: 2026-05-30 09:08:56+01:00
+modified: 2026-05-30 09:08:56+01:00
 wiki_type: concept
 entity_kind: concept
 status: evergreen
@@ -9,16 +11,17 @@ trust-level: stable
 synthesis-count: 1
 last-synthesis: 2026-05-30
 tags:
-  - learning
-  - polymath
-  - strategy
-  - metacognition
-  - wiki
-  - concept
-  - type/SoT
+- learning
+- polymath
+- strategy
+- metacognition
+- wiki
+- concept
+- type/SoT
 title: Three Polymaths Three Lessons
 sources:
-  - "20_Thinking/21_Workbench/HEAD Three Polymaths Three Lessons.md"
+- 20_Thinking/21_Workbench/HEAD Three Polymaths Three Lessons.md
+permalink: llmeon/wiki/concepts/three-polymaths-three-lessons
 ---
 
 # Three Polymaths Three Lessons

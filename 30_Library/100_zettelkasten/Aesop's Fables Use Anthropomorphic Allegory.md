@@ -1,13 +1,16 @@
 ---
 aliases: []
-created: 2025-10-31T12:25:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:37+00:00
-status: "seedling"
-tags: ["literature", "storytelling"]
-title: "Aesop's Fables Use Anthropomorphic Allegory"
-type: "concept"
-updated: 
+created: 2025-10-31 12:25:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:37+00:00
+status: seedling
+tags:
+- literature
+- storytelling
+title: Aesop's Fables Use Anthropomorphic Allegory
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/aesops-fables-use-anthropomorphic-allegory
 ---
 
 ## Aesop's Fables Use Anthropomorphic Allegory

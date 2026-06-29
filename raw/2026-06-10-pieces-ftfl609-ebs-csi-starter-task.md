@@ -1,12 +1,15 @@
 ---
-title: "2026-06-10 — FTFL-609 EBS CSI Driver Starter Task Discovery"
-created: 2026-06-10T14:50:00+01:00
+title: 2026-06-10 — FTFL-609 EBS CSI Driver Starter Task Discovery
+created: 2026-06-10 14:50:00+01:00
 source: pieces-ltm
 pieces_ids:
-  - "2d9a335e-8a71-441f-8"
-  - "71a4e746-173a-42bf-b"
-  - "40673b4f-9513-4fb6-9"
-tags: [raw, pieces]
+- 2d9a335e-8a71-441f-8
+- 71a4e746-173a-42bf-b
+- 40673b4f-9513-4fb6-9
+tags:
+- raw
+- pieces
+permalink: llmeon/raw/2026-06-10-pieces-ftfl609-ebs-csi-starter-task
 ---
 
 # FTFL-609 — EBS CSI Driver Starter Task Discovery

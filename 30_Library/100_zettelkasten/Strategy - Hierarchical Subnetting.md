@@ -1,13 +1,17 @@
 ---
 aliases: []
-created: 2025-11-22T15:05:01Z
-last_reviewed: "2025-11-22"
-modified: 2026-02-01T15:08:27+00:00
-status: "seedling"
-tags: ["best-practices", "SoftwareEngineering/Networking", "terraform"]
+created: 2025-11-22 15:05:01+00:00
+last_reviewed: '2025-11-22'
+modified: 2026-02-01 15:08:27+00:00
+status: seedling
+tags:
+- best-practices
+- SoftwareEngineering/Networking
+- terraform
 title: Strategy - Hierarchical Subnetting
-type: "strategy"
-updated: 
+type: strategy
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/strategy-hierarchical-subnetting
 ---
 
 ## Hierarchical Subnetting

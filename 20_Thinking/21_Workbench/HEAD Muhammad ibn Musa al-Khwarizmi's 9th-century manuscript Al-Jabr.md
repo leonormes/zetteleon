@@ -1,12 +1,14 @@
 ---
-title: "New chat"
-source: "https://gemini.google.com/app/423a94a7807f0b8e"
-captured: "2026-05-30T11:01:04+01:00 2026-05-30T11:01:04+01:00"
-status: "processing"
+title: New chat
+source: https://gemini.google.com/app/423a94a7807f0b8e
+captured: 2026-05-30T11:01:04+01:00 2026-05-30T11:01:04+01:00
+status: processing
 tags:
-  - "input"
-type: "head"
+- input
+type: head
+permalink: llmeon/20-thinking/21-workbench/head-muhammad-ibn-musa-al-khwarizmis-9th-century-manuscript-al-jabr
 ---
+
 ## Raw Output / Content
 **You**
 

@@ -1,20 +1,21 @@
 ---
 status: Project.InProgress
 priority: A
-prodosProject: "Hermes Optimisastion"
+prodosProject: Hermes Optimisastion
 prodosCategory: hermes_optimisastion
 contexts:
-  - computer
-  - deep-work
+- computer
+- deep-work
 tags:
-  - operon/parent
-  - hermes
-datetimeCreated: 2026-06-11T16:00:00+01:00
+- operon/parent
+- hermes
+datetimeCreated: 2026-06-11 16:00:00+01:00
 Links:
-  - "[[Hermes Cost Optimisation - Free Model Routing Strategy]]"
-  - "[[Hermes, OpenRouter, and Model Orchestration]]"
-created: 2026-06-11T14:33:28+00:00
-modified: 2026-06-11T14:38:35+00:00
+- '[[Hermes Cost Optimisation - Free Model Routing Strategy]]'
+- '[[Hermes, OpenRouter, and Model Orchestration]]'
+created: 2026-06-11 14:33:28+00:00
+modified: 2026-06-11 14:38:35+00:00
+permalink: llmeon/operon/projects/hermes-optimisation
 ---
 
 ## Definition of done

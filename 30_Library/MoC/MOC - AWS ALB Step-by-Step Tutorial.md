@@ -1,13 +1,20 @@
 ---
 aliases: []
-created: 2025-10-24T14:25:58Z
-last_reviewed: "null"
-modified: 2026-02-16T09:40:28+00:00
-status: "null"
-tags: ["aws", "load-balancing", "SoftwareEngineering/Networking", "SoftwareEngineering/networking/cloud-networking", "tutorial", "type/moc"]
+created: 2025-10-24 14:25:58+00:00
+last_reviewed: 'null'
+modified: 2026-02-16 09:40:28+00:00
+status: 'null'
+tags:
+- aws
+- load-balancing
+- SoftwareEngineering/Networking
+- SoftwareEngineering/networking/cloud-networking
+- tutorial
+- type/moc
 title: MOC - AWS ALB Step-by-Step Tutorial
-type: "map"
-updated: 
+type: map
+updated: null
+permalink: llmeon/30-library/mo-c/moc-aws-alb-step-by-step-tutorial
 ---
 
 This Map of Content (MOC) provides a structured overview of the steps involved in setting up an AWS Application Load Balancer (ALB) with EC2 instances, based on a step-by-step tutorial.

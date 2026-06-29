@@ -1,13 +1,22 @@
 ---
-aliases: ["Action-First Cognition", "Embodied Understanding", "Pre-Linguistic Cognition"]
-created: 2025-12-13T00:00:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:07:53+00:00
-status: "stable"
-tags: ["ai", "cognitive_science", "education", "linguistics", "TheHuman/Philosophy"]
+aliases:
+- Action-First Cognition
+- Embodied Understanding
+- Pre-Linguistic Cognition
+created: 2025-12-13 00:00:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:07:53+00:00
+status: stable
+tags:
+- ai
+- cognitive_science
+- education
+- linguistics
+- TheHuman/Philosophy
 title: SoT - Pre-Linguistic Understanding
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-pre-linguistic-understanding
 ---
 
 ## 2. Core Principles

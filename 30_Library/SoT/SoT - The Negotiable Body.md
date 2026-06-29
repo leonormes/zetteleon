@@ -1,13 +1,23 @@
 ---
-aliases: ["Body Schema", "Negotiable Bodily Platform", "Profound Embodiment", "Transparent Equipment"]
-created: 2025-12-23T19:53:33Z
-last_reviewed: "2025-12-23"
-modified: 2026-02-01T15:07:49+00:00
-status: "stable"
-tags: ["embodiment", "extended_mind", "somatics", "TheHuman/Cognition", "TheHuman/Neuroscience"]
+aliases:
+- Body Schema
+- Negotiable Bodily Platform
+- Profound Embodiment
+- Transparent Equipment
+created: 2025-12-23 19:53:33+00:00
+last_reviewed: '2025-12-23'
+modified: 2026-02-01 15:07:49+00:00
+status: stable
+tags:
+- embodiment
+- extended_mind
+- somatics
+- TheHuman/Cognition
+- TheHuman/Neuroscience
 title: SoT - The Negotiable Body
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-the-negotiable-body
 ---
 
 ## 1. Definitive Statement

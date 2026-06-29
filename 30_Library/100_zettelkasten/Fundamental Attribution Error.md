@@ -1,13 +1,17 @@
 ---
 aliases: []
-created: 2025-10-31T09:20:29Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:33+00:00
-status: "seedling"
-tags: ["TheHuman/Cognition/bias", "topic/social-cognition", "topic/social-perception"]
+created: 2025-10-31 09:20:29+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:33+00:00
+status: seedling
+tags:
+- TheHuman/Cognition/bias
+- topic/social-cognition
+- topic/social-perception
 title: Fundamental Attribution Error
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/fundamental-attribution-error
 ---
 
 ## Fundamental Attribution Error

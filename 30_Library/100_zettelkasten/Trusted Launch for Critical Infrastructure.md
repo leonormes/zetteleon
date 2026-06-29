@@ -1,15 +1,20 @@
 ---
-created: 2026-04-14T20:25:35+00:00
-created_utc: "2026-04-14T13:00:00Z"
+created: 2026-04-14 20:25:35+00:00
+created_utc: '2026-04-14T13:00:00Z'
 kind: mechanism
-modified: 2026-05-26T11:44:32+00:00
-source_title: "Azure Entra Identity Best Practices & Remediation Plan"
-source_url: "https://gemini.google.com/app/90721765fb79ed7a"
+modified: 2026-05-26 11:44:32+00:00
+source_title: Azure Entra Identity Best Practices & Remediation Plan
+source_url: https://gemini.google.com/app/90721765fb79ed7a
 status: seed
-tags: [azure, infrastructure-security, integrity, trusted-launch]
+tags:
+- azure
+- infrastructure-security
+- integrity
+- trusted-launch
 title: Trusted Launch for Critical Infrastructure
 type: atom
-upstream: "[[SoT - Linux Networking Primitives]]"
+upstream: '[[SoT - Linux Networking Primitives]]'
+permalink: llmeon/30-library/100-zettelkasten/trusted-launch-for-critical-infrastructure
 ---
 
 ## Trusted Launch for Critical Infrastructure

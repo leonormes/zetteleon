@@ -1,10 +1,12 @@
 ---
-created: 2026-04-09T10:48:38+00:00
-modified: 2026-06-08T11:49:16+00:00
+created: 2026-04-09 10:48:38+00:00
+modified: 2026-06-08 11:49:16+00:00
 project_category: personal
 project_status: archived
 title: Chat_Transcript EE owed bill threat
-type:
+type: null
+project_name: Family
+permalink: llmeon/30-library/200-projects/chat-transcript-ee-owed-bill-threat
 ---
 
 Time Zone: Europe/London

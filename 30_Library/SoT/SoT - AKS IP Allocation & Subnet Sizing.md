@@ -1,12 +1,20 @@
 ---
-alias: ["AKS CIDR Planning", "Subnet Sizing Standard"]
-created: 2026-02-05T00:00:00+00:00
-modified: 2026-05-26T11:44:21+00:00
+alias:
+- AKS CIDR Planning
+- Subnet Sizing Standard
+created: 2026-02-05 00:00:00+00:00
+modified: 2026-05-26 11:44:21+00:00
 status: stable
-tags: ["aks", "azure", "calico", "networking", "sot"]
+tags:
+- aks
+- azure
+- calico
+- networking
+- sot
 title: SoT - AKS IP Allocation & Subnet Sizing
 trust-level: stable
 type: SoT
+permalink: llmeon/30-library/so-t/so-t-aks-ip-allocation-subnet-sizing
 ---
 
 ## Minimum Viable Understanding (MVU)

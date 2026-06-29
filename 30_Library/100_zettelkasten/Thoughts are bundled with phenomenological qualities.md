@@ -1,13 +1,20 @@
 ---
-aliases: ["felt significance", "phenomenology of thought", "thought experience"]
-created: 2025-10-31T20:45:00Z
-last_reviewed: "2025-10-31"
-modified: 2026-02-01T15:08:24+00:00
-status: "seedling"
-tags: ["metacognition", "phenomenology", "TheHuman/Cognition"]
+aliases:
+- felt significance
+- phenomenology of thought
+- thought experience
+created: 2025-10-31 20:45:00+00:00
+last_reviewed: '2025-10-31'
+modified: 2026-02-01 15:08:24+00:00
+status: seedling
+tags:
+- metacognition
+- phenomenology
+- TheHuman/Cognition
 title: Thoughts are bundled with phenomenological qualities
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/thoughts-are-bundled-with-phenomenological-qualities
 ---
 
 ## Thoughts Are Bundled with Phenomenological Qualities

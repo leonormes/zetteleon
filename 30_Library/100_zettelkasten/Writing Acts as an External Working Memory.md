@@ -1,16 +1,18 @@
 ---
-aliases: ["Writing as an Extended Brain"]
-created: 2025-07-18T00:00:00Z
-last_reviewed: ""
-modified: 2026-05-26T11:44:31+00:00
+aliases:
+- Writing as an Extended Brain
+created: 2025-07-18 00:00:00+00:00
+last_reviewed: ''
+modified: 2026-05-26 11:44:31+00:00
 see_also: []
-status: ""
-superseded_by: ""
-supersedes: ""
+status: ''
+superseded_by: ''
+supersedes: ''
 tags: []
 title: Writing Acts as an External Working Memory
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/writing-acts-as-an-external-working-memory
 ---
 
 For individuals like Bessie who face working memory challenges, the act of writing can serve as a powerful external tool, effectively becoming an extension of the mind. By transferring thoughts, ideas, and tasks from transient working memory onto a stable medium like paper or a screen, cognitive resources are freed up.

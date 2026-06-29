@@ -1,15 +1,20 @@
 ---
-created: 2026-04-14T20:31:52+00:00
-created_utc: "2026-04-14T13:40:00Z"
+created: 2026-04-14 20:31:52+00:00
+created_utc: '2026-04-14T13:40:00Z'
 kind: heuristic
-modified: 2026-05-26T11:44:36+00:00
-source_title: "Deconstructing the interview with Jeremy Howard"
-source_url: "https://gemini.google.com/app/fa3a7e9a4a69844c"
+modified: 2026-05-26 11:44:36+00:00
+source_title: Deconstructing the interview with Jeremy Howard
+source_url: https://gemini.google.com/app/fa3a7e9a4a69844c
 status: seed
-tags: [automation, learning, psychology, skill-acquisition]
+tags:
+- automation
+- learning
+- psychology
+- skill-acquisition
 title: Desirable Difficulty in Skill Acquisition
 type: atom
-upstream: "[[SoT - Human vs AI Cognition]]"
+upstream: '[[SoT - Human vs AI Cognition]]'
+permalink: llmeon/30-library/100-zettelkasten/desirable-difficulty-in-skill-acquisition
 ---
 
 ## Desirable Difficulty in Skill Acquisition

@@ -1,14 +1,21 @@
 ---
 aliases: []
-created: 2025-10-30T12:00:02Z
-last_reviewed: "2025-12-16"
-modified: 2026-02-01T15:08:35+00:00
-source: "[[MOC - ADHD Task Management]]"
-status: "pending"
-tags: ["experiment", "hypothesis", "task-switching", "TheHuman/Health/ADHD", "TheHuman/Motivation", "topic/productivity"]
+created: 2025-10-30 12:00:02+00:00
+last_reviewed: '2025-12-16'
+modified: 2026-02-01 15:08:35+00:00
+source: '[[MOC - ADHD Task Management]]'
+status: pending
+tags:
+- experiment
+- hypothesis
+- task-switching
+- TheHuman/Health/ADHD
+- TheHuman/Motivation
+- topic/productivity
 title: Designed Task Switching Leverages Dopamine Boosts for ADHD Motivation
-type: "hypothesis"
-updated: 
+type: hypothesis
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/designed-task-switching-leverages-dopamine-boosts-for-adhd-motivation
 ---
 
 ## 1. The Hypothesis

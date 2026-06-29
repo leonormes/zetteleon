@@ -1,13 +1,22 @@
 ---
-aliases: ["Logical Computer", "One Computer Definition", "The Definition of a Computer"]
-created: 2025-12-31T13:48:45+00:00
-last_reviewed: 
-modified: 2026-02-01T15:07:49+00:00
-status: "Active"
-tags: ["cloud", "computer-science", "distributed-systems", "operating-systems", "virtualization"]
+aliases:
+- Logical Computer
+- One Computer Definition
+- The Definition of a Computer
+created: 2025-12-31 13:48:45+00:00
+last_reviewed: null
+modified: 2026-02-01 15:07:49+00:00
+status: Active
+tags:
+- cloud
+- computer-science
+- distributed-systems
+- operating-systems
+- virtualization
 title: SoT - The Logical Definition of a Computer
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-the-logical-definition-of-a-computer
 ---
 
 ## SoT - The Logical Definition of a Computer

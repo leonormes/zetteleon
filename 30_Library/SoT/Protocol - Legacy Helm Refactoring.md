@@ -1,11 +1,20 @@
 ---
-alias: ["Forensic Chart Analysis", "Helm Refactoring Strategy", "Tesler's Law Application"]
-created: 2026-02-05T00:00:00+00:00
-modified: 2026-02-05T17:41:10+00:00
+alias:
+- Forensic Chart Analysis
+- Helm Refactoring Strategy
+- Tesler's Law Application
+created: 2026-02-05 00:00:00+00:00
+modified: 2026-02-05 17:41:10+00:00
 status: stable
-tags: ["architecture", "helm", "protocol", "refactoring", "sot"]
+tags:
+- architecture
+- helm
+- protocol
+- refactoring
+- sot
 title: Protocol - Legacy Helm Refactoring
 type: protocol
+permalink: llmeon/30-library/so-t/protocol-legacy-helm-refactoring
 ---
 
 ## Logic Map

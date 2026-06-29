@@ -1,12 +1,13 @@
 ---
 aliases: []
-created: 2026-01-03T10:18:04+00:00
-last_reviewed: ""
-modified: 2026-02-16T09:40:34+00:00
-status: ""
+created: 2026-01-03 10:18:04+00:00
+last_reviewed: ''
+modified: 2026-02-16 09:40:34+00:00
+status: ''
 tags: []
 title: SoT - Cognitive Engineering Protocols
-type: ""
+type: ''
+permalink: llmeon/30-library/so-t/so-t-cognitive-engineering-protocols
 ---
 
 ## SoT - Cognitive Engineering Protocols

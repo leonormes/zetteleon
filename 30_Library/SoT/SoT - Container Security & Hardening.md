@@ -1,13 +1,21 @@
 ---
-aliases: ["Container Security Best Practices", "Hardening Containers", "K8s Security Hardening"]
-created: 2025-12-25T12:30:00Z
-last_reviewed: "2025-12-25"
-modified: 2026-02-01T15:08:00+00:00
-status: "stable"
-tags: ["kubernetes", "SoftwareEngineering/Architecture", "SoftwareEngineering/Containers", "SoftwareEngineering/Security"]
+aliases:
+- Container Security Best Practices
+- Hardening Containers
+- K8s Security Hardening
+created: 2025-12-25 12:30:00+00:00
+last_reviewed: '2025-12-25'
+modified: 2026-02-01 15:08:00+00:00
+status: stable
+tags:
+- kubernetes
+- SoftwareEngineering/Architecture
+- SoftwareEngineering/Containers
+- SoftwareEngineering/Security
 title: SoT - Container Security & Hardening
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-container-security-hardening
 ---
 
 ## 1. The Strategy: Defense in Depth

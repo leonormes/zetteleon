@@ -1,13 +1,20 @@
 ---
-aliases: ["Container Networking Map", "Linux Networking MOC"]
-created: 2025-10-22T09:39:10Z
-last_reviewed: 
-modified: 2026-02-01T15:08:07+00:00
-status: "Active"
-tags: ["containers", "linux", "moc", "networking"]
+aliases:
+- Container Networking Map
+- Linux Networking MOC
+created: 2025-10-22 09:39:10+00:00
+last_reviewed: null
+modified: 2026-02-01 15:08:07+00:00
+status: Active
+tags:
+- containers
+- linux
+- moc
+- networking
 title: Linux Networking
-type: "MoC"
-updated: 
+type: MoC
+updated: null
+permalink: llmeon/30-library/mo-c/linux-networking
 ---
 
 ## MoC - Linux Networking

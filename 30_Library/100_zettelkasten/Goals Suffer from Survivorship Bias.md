@@ -1,13 +1,19 @@
 ---
-aliases: ["Survivorship Bias of Goals"]
-created: 2025-11-06T19:57:00Z
-last_reviewed: "2025-11-06"
-modified: 2026-05-26T11:44:35+00:00
-status: "stable"
-tags: ["goals", "success", "survivorship-bias", "topic/systems"]
+aliases:
+- Survivorship Bias of Goals
+created: 2025-11-06 19:57:00+00:00
+last_reviewed: '2025-11-06'
+modified: 2026-05-26 11:44:35+00:00
+status: stable
+tags:
+- goals
+- success
+- survivorship-bias
+- topic/systems
 title: Goals Suffer from Survivorship Bias
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/goals-suffer-from-survivorship-bias
 ---
 
 ## Goals Suffer from Survivorship Bias

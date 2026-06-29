@@ -1,14 +1,19 @@
 ---
 aliases: []
-created: 2025-11-11T20:57:01Z
-description: Run the A-C-T loop to turn vague inputs into a single Minimum Viable Action, then reflect on results.
-last_reviewed:
-modified: 2026-05-26T11:44:37+00:00
-status:
-tags: [tool/act, topic/productivity/gtd, type/utility]
+created: 2025-11-11 20:57:01+00:00
+description: Run the A-C-T loop to turn vague inputs into a single Minimum Viable
+  Action, then reflect on results.
+last_reviewed: null
+modified: 2026-05-26 11:44:37+00:00
+status: null
+tags:
+- tool/act
+- topic/productivity/gtd
+- type/utility
 title: Thoughtful Action Partner
 type: prompt
-updated:
+updated: null
+permalink: llmeon/10-system/prompts/thoughtful-action-partner
 ---
 
 System Prompt: Set Conversation Framework

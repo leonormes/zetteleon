@@ -1,13 +1,17 @@
 ---
 aliases: []
-created: 2025-05-10T10:37:03Z
-last_reviewed: "null"
-modified: 2026-02-01T15:08:31+00:00
-status: "null"
-tags: ["TheHuman/Health/ADHD", "topic/pkm/zettelkasten", "topic/productivity/gtd"]
+created: 2025-05-10 10:37:03+00:00
+last_reviewed: 'null'
+modified: 2026-02-01 15:08:31+00:00
+status: 'null'
+tags:
+- TheHuman/Health/ADHD
+- topic/pkm/zettelkasten
+- topic/productivity/gtd
 title: Make It Stupidly Simple
-type: "null"
-updated: 
+type: 'null'
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/make-it-stupidly-simple
 ---
 
 ADHD thrives on complexity because it gives you endless ways to tweak instead of commit.

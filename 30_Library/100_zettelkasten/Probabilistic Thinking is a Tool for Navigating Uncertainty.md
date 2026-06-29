@@ -1,13 +1,19 @@
 ---
-aliases: ["Probabilistic Thinking"]
-created: 2025-11-06T19:59:02Z
-last_reviewed: "2025-11-06"
-modified: 2026-02-01T15:08:28+00:00
-status: "seedling"
-tags: ["decision-making", "mental-model", "probability", "uncertainty"]
+aliases:
+- Probabilistic Thinking
+created: 2025-11-06 19:59:02+00:00
+last_reviewed: '2025-11-06'
+modified: 2026-02-01 15:08:28+00:00
+status: seedling
+tags:
+- decision-making
+- mental-model
+- probability
+- uncertainty
 title: Probabilistic Thinking is a Tool for Navigating Uncertainty
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/probabilistic-thinking-is-a-tool-for-navigating-uncertainty
 ---
 
 ## Probabilistic Thinking is a Tool for Navigating Uncertainty

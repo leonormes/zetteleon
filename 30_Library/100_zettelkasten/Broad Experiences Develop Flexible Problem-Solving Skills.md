@@ -1,13 +1,18 @@
 ---
-aliases: ["Broad Training"]
-created: 2025-11-01T12:30:10Z
-last_reviewed: "2025-11-01"
-modified: 2026-02-01T15:08:36+00:00
-status: "seedling"
-tags: ["adaptability", "experience", "problem-solving"]
+aliases:
+- Broad Training
+created: 2025-11-01 12:30:10+00:00
+last_reviewed: '2025-11-01'
+modified: 2026-02-01 15:08:36+00:00
+status: seedling
+tags:
+- adaptability
+- experience
+- problem-solving
 title: Broad Experiences Develop Flexible Problem-Solving Skills
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/broad-experiences-develop-flexible-problem-solving-skills
 ---
 
 ## Broad Experiences Develop Flexible Problem-Solving Skills

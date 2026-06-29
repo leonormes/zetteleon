@@ -1,13 +1,19 @@
 ---
-aliases: ["Cognitive Distance"]
-created: 2025-11-06T20:00:02Z
-last_reviewed: "2025-11-06"
-modified: 2026-02-01T15:08:23+00:00
-status: "seedling"
-tags: ["self-reflection", "TheHuman/Cognition/bias", "thinking", "writing"]
+aliases:
+- Cognitive Distance
+created: 2025-11-06 20:00:02+00:00
+last_reviewed: '2025-11-06'
+modified: 2026-02-01 15:08:23+00:00
+status: seedling
+tags:
+- self-reflection
+- TheHuman/Cognition/bias
+- thinking
+- writing
 title: Writing Creates Cognitive Distance for Objective Evaluation
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/writing-creates-cognitive-distance-for-objective-evaluation
 ---
 
 ## Writing Creates Cognitive Distance for Objective Evaluation

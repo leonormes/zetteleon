@@ -1,13 +1,19 @@
 ---
-aliases: ["Rawness in Music"]
-created: 2025-11-10T11:04:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:25+00:00
-status: "seedling"
-tags: ["authenticity", "expression", "imperfection", "music"]
+aliases:
+- Rawness in Music
+created: 2025-11-10 11:04:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:25+00:00
+status: seedling
+tags:
+- authenticity
+- expression
+- imperfection
+- music
 title: The Rawness of Expressive Music is a Sign of its Honesty
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/the-rawness-of-expressive-music-is-a-sign-of-its-honesty
 ---
 
 ## The Rawness of Expressive Music is a Sign of Its Honesty

@@ -1,13 +1,21 @@
 ---
-aliases: ["Choice Architecture", "Nudge Theory"]
-created: 2025-11-10T17:13:00Z
-last_reviewed: ""
-modified: 2026-05-26T11:44:36+00:00
-status: "seedling"
-tags: ["behavior-change", "design", "environment", "nudge", "TheHuman/Psychology"]
+aliases:
+- Choice Architecture
+- Nudge Theory
+created: 2025-11-10 17:13:00+00:00
+last_reviewed: ''
+modified: 2026-05-26 11:44:36+00:00
+status: seedling
+tags:
+- behavior-change
+- design
+- environment
+- nudge
+- TheHuman/Psychology
 title: Choice Architecture Designs the Environment to Make Desired Behaviors Easier
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/choice-architecture-designs-the-environment-to-make-desired-behaviors-easier
 ---
 
 ## Choice Architecture Designs the Environment to Make Desired Behaviors Easier

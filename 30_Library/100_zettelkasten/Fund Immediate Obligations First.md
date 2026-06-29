@@ -1,13 +1,18 @@
 ---
-aliases: ["Budgeting Hierarchy"]
-created: 2025-11-18T14:37:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:33+00:00
-status: ""
-tags: ["budgeting", "finance", "prioritization"]
+aliases:
+- Budgeting Hierarchy
+created: 2025-11-18 14:37:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:33+00:00
+status: ''
+tags:
+- budgeting
+- finance
+- prioritization
 title: Fund Immediate Obligations First
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/fund-immediate-obligations-first
 ---
 
 A stable budget follows a clear hierarchy of priorities, wherein immediate obligations are always funded first. These are the costs required for survival and to maintain financial stability, such as housing, essential utilities, and minimum debt payments.

@@ -1,16 +1,17 @@
 ---
 aliases: []
-created: 2025-08-30T17:09:46Z
-last_reviewed: ""
-modified: 2026-05-26T11:44:22+00:00
+created: 2025-08-30 17:09:46+00:00
+last_reviewed: ''
+modified: 2026-05-26 11:44:22+00:00
 see_also: []
-status: ""
-superseded_by: ""
-supersedes: ""
+status: ''
+superseded_by: ''
+supersedes: ''
 tags: []
 title: MOC Symbols vs Concepts They Represent
-type: "map"
-updated: 
+type: map
+updated: null
+permalink: llmeon/30-library/mo-c/moc-symbols-vs-concepts-they-represent
 ---
 
 A fundamental insight across multiple domains: symbols, representations, and models are distinct from the concepts, realities, or territories they attempt to capture. This separation is crucial for deep understanding and avoiding conceptual confusion.

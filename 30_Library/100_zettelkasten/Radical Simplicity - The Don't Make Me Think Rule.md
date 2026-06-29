@@ -1,13 +1,14 @@
 ---
 aliases: []
-created: 2025-06-18T17:32:46Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:28+00:00
-status: ""
+created: 2025-06-18 17:32:46+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:28+00:00
+status: ''
 tags: []
-title: "Radical Simplicity - The Don't Make Me Think Rule"
-type: ""
-updated: 
+title: Radical Simplicity - The Don't Make Me Think Rule
+type: ''
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/radical-simplicity-the-dont-make-me-think-rule
 ---
 
 ## Minimal Components

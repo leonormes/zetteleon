@@ -1,13 +1,16 @@
 ---
-aliases: [Map of Content on Hybrid Cloud Networking]
-created: 2025-07-16T17:30:03Z
-last_reviewed: ""
-modified: 2026-02-04T07:27:28+00:00
-status: ""
-tags: ["SoftwareEngineering/Networking"]
+aliases:
+- Map of Content on Hybrid Cloud Networking
+created: 2025-07-16 17:30:03+00:00
+last_reviewed: ''
+modified: 2026-02-04 07:27:28+00:00
+status: ''
+tags:
+- SoftwareEngineering/Networking
 title: MOC - Hybrid Cloud Networking
 type: map
-updated:
+updated: null
+permalink: llmeon/30-library/mo-c/moc-hybrid-cloud-networking
 ---
 
 This Map of Content (MOC) organizes notes related to DNS resolution and traffic flow in a hybrid cloud environment connecting on-premises networks with cloud resources like Azure and Kubernetes.

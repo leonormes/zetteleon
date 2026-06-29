@@ -1,4 +1,8 @@
 ---
+permalink: llmeon/raw/2026-06-01-pieces-argocd-nginx-b
+---
+
+---
 title: Argocd Nginx — Pieces LTM Capture 2026-06-01
 created: 2026-06-01T12:00:00+00:00
 source: pieces-ltm

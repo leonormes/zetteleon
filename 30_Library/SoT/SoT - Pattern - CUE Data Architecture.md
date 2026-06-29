@@ -1,10 +1,18 @@
 ---
-alias: ["CUE Patterns", "Dotfiles Architecture", "FFNode Refactor"]
-created: 2026-02-04T00:00:00+00:00
-modified: 2026-02-16T09:40:32+00:00
-tags: ["architecture", "cue", "patterns", "sot"]
+alias:
+- CUE Patterns
+- Dotfiles Architecture
+- FFNode Refactor
+created: 2026-02-04 00:00:00+00:00
+modified: 2026-02-16 09:40:32+00:00
+tags:
+- architecture
+- cue
+- patterns
+- sot
 title: SoT - Pattern - CUE Data Architecture
 type: SoT
+permalink: llmeon/30-library/so-t/so-t-pattern-cue-data-architecture
 ---
 
 ## Pattern 1: The FFNode Refactor (Kubernetes)

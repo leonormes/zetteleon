@@ -1,51 +1,54 @@
 ---
-title: "2026-06-10 — CoS Work Review Cron Fix + FTFL-658 Change Freeze Comment"
-created: 2026-06-10T12:15:00+01:00
+title: 2026-06-10 — CoS Work Review Cron Fix + FTFL-658 Change Freeze Comment
+created: 2026-06-10 12:15:00+01:00
 source: pieces-ltm
 pieces_ids:
-  - "7bfdf756-0e3c-4a5f-ba7c-0b2231519767"
-  - "a98f090c-1831-40b5-bcf6-8a0f42e46f79"
-  - "3fd706a2-6ec5-4671-b7e0-da13ae95043a"
-  - "67a97d2a-919f-45f9-8b50-72d31d6daef3"
-  - "efcfd00b-2450-4165-b1fc-cd3765378d46"
-  - "c077ebbb-8067-4ec8-b85d-3859dccdd70c"
-  - "30b77d19-c81b-401b-8d2f-a4bd413b0004"
-  - "b857b451-25f7-4d9b-b1ed-83aab994a451"
-  - "140698ad-133f-43b8-af22-3e680d5aacf1"
-  - "43f66fd7-0ef1-43a2-9549-c306c2215a66"
-  - "4e40ee3f-75cc-44fc-85ae-bb82767536bf"
-  - "54c81bdb-c7df-4e2c-a5c0-c735596d984d"
-  - "b1e3f384-6bef-4c55-996a-936dbf4b6c37"
-  - "02ae59a9-ba09-4865-9e05-3af52f3390bd"
-  - "f1e4be21-229a-43bc-b52b-e123b28e7be3"
-  - "bf4098fe-0372-4049-b488-c9478863fe9a"
-  - "c6a32438-97bc-4a6b-9707-12ddb4c38cc7"
-  - "e5e8cee0-5bf0-4317-a3f8-07331fd5989e"
-  - "946bbd65-bfad-45b5-a837-701ef22be9c9"
-  - "0f2eedce-f0c0-442c-8796-18741367cd28"
-  - "5a9f30f5-5af9-4e7d-8c67-d4a1e96d73b1"
-  - "98548f3c-db2e-433b-9598-c23683079d3f"
-  - "006ca7e9-0b7d-4f03-bfd9-df83b0778e3a"
-  - "508868c0-d578-4fe1-9987-41b843b8a6aa"
-  - "cf3cfc29-90a4-4c3a-b695-a6f07f9caee6"
-  - "a5ee9dab-8f3e-44b7-91a2-08b94e49e447"
-  - "96711230-b7af-47b5-a399-4f630eff9186"
-  - "977bbee2-67b2-4495-9fc0-01be434d49df"
-  - "47bbad93-4b74-4700-b8e0-80793b04a4ea"
-  - "b9abf9a7-d708-42ba-9b94-ddf347b06822"
-  - "688aac5d-5b6f-4f29-904c-695f6c280957"
-  - "3fea744f-4e20-4a27-b973-2b0666c4b876"
-  - "07ea72ff-56be-426a-b04b-8789f9528801"
-  - "5041bf55-4e3d-4336-aa5c-ab00f7ff5f5b"
-  - "d878e071-87f5-49cf-9e98-6585ec266474"
-  - "fb562c2d-2337-4317-abe1-d4a4530b4f93"
-  - "d871d9c5-e41e-40c2-9826-5e5313a73489"
-  - "5ad03c46-0a92-4ad5-98f9-34eb839e794a"
-  - "c7749692-16f0-4e2a-9fff-25c7cbf5d1c2"
-  - "22bef4a2-d327-4154-9fa5-b17316841de8"
-  - "cf2c17b2-2fb1-47e9-9fbd-fdf4552cac15"
-  - "29455d41-c29c-4e77-95e3-1e2e526a3c58"
-tags: [raw, pieces]
+- 7bfdf756-0e3c-4a5f-ba7c-0b2231519767
+- a98f090c-1831-40b5-bcf6-8a0f42e46f79
+- 3fd706a2-6ec5-4671-b7e0-da13ae95043a
+- 67a97d2a-919f-45f9-8b50-72d31d6daef3
+- efcfd00b-2450-4165-b1fc-cd3765378d46
+- c077ebbb-8067-4ec8-b85d-3859dccdd70c
+- 30b77d19-c81b-401b-8d2f-a4bd413b0004
+- b857b451-25f7-4d9b-b1ed-83aab994a451
+- 140698ad-133f-43b8-af22-3e680d5aacf1
+- 43f66fd7-0ef1-43a2-9549-c306c2215a66
+- 4e40ee3f-75cc-44fc-85ae-bb82767536bf
+- 54c81bdb-c7df-4e2c-a5c0-c735596d984d
+- b1e3f384-6bef-4c55-996a-936dbf4b6c37
+- 02ae59a9-ba09-4865-9e05-3af52f3390bd
+- f1e4be21-229a-43bc-b52b-e123b28e7be3
+- bf4098fe-0372-4049-b488-c9478863fe9a
+- c6a32438-97bc-4a6b-9707-12ddb4c38cc7
+- e5e8cee0-5bf0-4317-a3f8-07331fd5989e
+- 946bbd65-bfad-45b5-a837-701ef22be9c9
+- 0f2eedce-f0c0-442c-8796-18741367cd28
+- 5a9f30f5-5af9-4e7d-8c67-d4a1e96d73b1
+- 98548f3c-db2e-433b-9598-c23683079d3f
+- 006ca7e9-0b7d-4f03-bfd9-df83b0778e3a
+- 508868c0-d578-4fe1-9987-41b843b8a6aa
+- cf3cfc29-90a4-4c3a-b695-a6f07f9caee6
+- a5ee9dab-8f3e-44b7-91a2-08b94e49e447
+- 96711230-b7af-47b5-a399-4f630eff9186
+- 977bbee2-67b2-4495-9fc0-01be434d49df
+- 47bbad93-4b74-4700-b8e0-80793b04a4ea
+- b9abf9a7-d708-42ba-9b94-ddf347b06822
+- 688aac5d-5b6f-4f29-904c-695f6c280957
+- 3fea744f-4e20-4a27-b973-2b0666c4b876
+- 07ea72ff-56be-426a-b04b-8789f9528801
+- 5041bf55-4e3d-4336-aa5c-ab00f7ff5f5b
+- d878e071-87f5-49cf-9e98-6585ec266474
+- fb562c2d-2337-4317-abe1-d4a4530b4f93
+- d871d9c5-e41e-40c2-9826-5e5313a73489
+- 5ad03c46-0a92-4ad5-98f9-34eb839e794a
+- c7749692-16f0-4e2a-9fff-25c7cbf5d1c2
+- 22bef4a2-d327-4154-9fa5-b17316841de8
+- cf2c17b2-2fb1-47e9-9fbd-fdf4552cac15
+- 29455d41-c29c-4e77-95e3-1e2e526a3c58
+tags:
+- raw
+- pieces
+permalink: llmeon/raw/2026-06-10-pieces-cos-cron-fix-ftfl658-comment
 ---
 
 # Workstream A: CoS Work Review Cron Job Fix

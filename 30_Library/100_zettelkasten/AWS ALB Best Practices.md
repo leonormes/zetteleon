@@ -1,13 +1,19 @@
 ---
 aliases: []
-created: 2025-10-24T14:25:58Z
-last_reviewed: "null"
-modified: 2026-02-01T15:08:37+00:00
-status: "null"
-tags: ["aws", "cost-optimization", "load-balancing", "SoftwareEngineering/networking/cloud-networking", "SoftwareEngineering/Security"]
+created: 2025-10-24 14:25:58+00:00
+last_reviewed: 'null'
+modified: 2026-02-01 15:08:37+00:00
+status: 'null'
+tags:
+- aws
+- cost-optimization
+- load-balancing
+- SoftwareEngineering/networking/cloud-networking
+- SoftwareEngineering/Security
 title: AWS ALB Best Practices
-type: "null"
-updated: 
+type: 'null'
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/aws-alb-best-practices
 ---
 
 Adhering to best practices when using AWS Application Load Balancers (ALBs) ensures optimal security, performance, and cost-efficiency.

@@ -1,15 +1,20 @@
 ---
-created: 2026-04-14T20:11:52+00:00
-created_utc: "2026-04-14T12:40:00Z"
+created: 2026-04-14 20:11:52+00:00
+created_utc: '2026-04-14T12:40:00Z'
 kind: claim
-modified: 2026-05-26T11:44:34+00:00
-source_title: "CUE — A Type System for the Cloud"
-source_url: "https://www.youtube.com/watch?v=FsUytTpDNro"
+modified: 2026-05-26 11:44:34+00:00
+source_title: CUE — A Type System for the Cloud
+source_url: https://www.youtube.com/watch?v=FsUytTpDNro
 status: seed
-tags: [automation, configuration, safety, turing-completeness]
+tags:
+- automation
+- configuration
+- safety
+- turing-completeness
 title: Non-Turing Completeness as a Feature
 type: atom
-upstream: "[[SoT - CUE Configuration]]"
+upstream: '[[SoT - CUE Configuration]]'
+permalink: llmeon/30-library/100-zettelkasten/non-turing-completeness-as-a-feature
 ---
 
 ## Non-Turing Completeness as a Feature

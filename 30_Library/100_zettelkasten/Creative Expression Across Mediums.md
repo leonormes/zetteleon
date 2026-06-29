@@ -1,13 +1,19 @@
 ---
 aliases: []
-created: 2025-08-31T16:09:01Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:35+00:00
-status: ""
-tags: ["art", "creative-expression", "multimedia", "music", "non-linguistic-expression"]
+created: 2025-08-31 16:09:01+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:35+00:00
+status: ''
+tags:
+- art
+- creative-expression
+- multimedia
+- music
+- non-linguistic-expression
 title: Creative Expression Across Mediums
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/creative-expression-across-mediums
 ---
 
 The gap between thought and language highlights the limitations of any single medium for expressing the entirety of human experience, encouraging exploration of diverse forms of creative expression to capture nuances that language alone cannot convey.

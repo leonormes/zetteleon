@@ -1,8 +1,13 @@
 ---
-created: 2026-04-10T00:00:00+00:00
-modified: 2026-05-26T11:44:35+00:00
-tags: [automation, evaluation, llm-judge, system-design]
+created: 2026-04-10 00:00:00+00:00
+modified: 2026-05-26 11:44:35+00:00
+tags:
+- automation
+- evaluation
+- llm-judge
+- system-design
 title: Evaluation Pipelines Should Distinguish LLM Judges from Deterministic Scripts
+permalink: llmeon/30-library/100-zettelkasten/evaluation-pipelines-should-distinguish-llm-judges-from-deterministic-scripts
 ---
 
 ## Evaluation Pipelines Should Distinguish LLM Judges from Deterministic Scripts

@@ -1,14 +1,23 @@
 ---
-aliases: ["DSPT", "NHS Compliance", "NHS England Blueprints"]
-created: 2026-04-05T10:45:00Z
+aliases:
+- DSPT
+- NHS Compliance
+- NHS England Blueprints
+created: 2026-04-05 10:45:00+00:00
 last-synthesis: 2026-04-05
-last_reviewed: 
-modified: 2026-05-26T11:44:18+00:00
-status: "Active"
+last_reviewed: null
+modified: 2026-05-26 11:44:18+00:00
+status: Active
 synthesis-count: 1
-tags: ["compliance", "healthcare", "iam", "nhs", "sot"]
+tags:
+- compliance
+- healthcare
+- iam
+- nhs
+- sot
 title: SoT - NHS Identity Compliance
-type: "SoT"
+type: SoT
+permalink: llmeon/30-library/so-t/so-t-nhs-identity-compliance
 ---
 
 ## Minimum Viable Understanding (MVU)

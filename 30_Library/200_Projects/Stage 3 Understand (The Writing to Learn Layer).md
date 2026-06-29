@@ -1,20 +1,21 @@
 ---
 aliases:
-  - Reflection Layer
-  - Writing to Learn
-created: 2025-12-04T12:23:40Z
-modified: 2026-06-08T11:49:22+00:00
+- Reflection Layer
+- Writing to Learn
+created: 2025-12-04 12:23:40+00:00
+modified: 2026-06-08 11:49:22+00:00
 project_category: prodos
 project_name: ProdOS
 project_status: active
 status: stable
 tags:
-  - pkm
-  - prodos
-  - understanding
-  - writing
+- pkm
+- prodos
+- understanding
+- writing
 title: Stage 3 Understand (The Writing to Learn Layer)
-type:
+type: null
+permalink: llmeon/30-library/200-projects/stage-3-understand-the-writing-to-learn-layer
 ---
 
 _The Goal: To reflect on the clarified idea and discover what you now know._

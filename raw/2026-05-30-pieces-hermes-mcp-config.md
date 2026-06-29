@@ -1,9 +1,15 @@
 ---
 title: Hermes MCP Config — Self-Fix Goal Prompt for Legacy MCP Settings
-created: 2026-05-30T08:31:27+00:00
+created: 2026-05-30 08:31:27+00:00
 source: pieces-ltm
-pieces_ids: ["19808e94-4125-495b-b2cb-85c5bad2a6f3", "19aa7a0e-e2ac-480e-bf87-17ef44da8a9a", "97f2e103-f3f2-421d-b4df-47146aed1b83"]
-tags: [raw, pieces]
+pieces_ids:
+- 19808e94-4125-495b-b2cb-85c5bad2a6f3
+- 19aa7a0e-e2ac-480e-bf87-17ef44da8a9a
+- 97f2e103-f3f2-421d-b4df-47146aed1b83
+tags:
+- raw
+- pieces
+permalink: llmeon/raw/2026-05-30-pieces-hermes-mcp-config
 ---
 
 ## Asset 1 (Pieces: 19808e94-4125-495b-b2cb-85c5bad2a6f3)

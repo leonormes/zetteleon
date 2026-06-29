@@ -1,13 +1,19 @@
 ---
-aliases: ["Teamwork in a Relationship"]
-created: 2025-11-10T10:06:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:26+00:00
-status: "seedling"
-tags: ["goals", "partnership", "relationship", "teamwork"]
+aliases:
+- Teamwork in a Relationship
+created: 2025-11-10 10:06:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:26+00:00
+status: seedling
+tags:
+- goals
+- partnership
+- relationship
+- teamwork
 title: Teamwork in a Partnership is Built on Shared Goals Reliability and Mutual Appreciation
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/teamwork-in-a-partnership-is-built-on-shared-goals-reliability-and-mutual-appreciation
 ---
 
 ## Teamwork in a Partnership is Built on Shared Goals Reliability and Mutual Appreciation

@@ -1,24 +1,25 @@
 ---
 tags:
-  - jira
-  - fitfile
-  - bug
-  - security
-  - API
-  - nginx
-  - cloudflare
+- jira
+- fitfile
+- bug
+- security
+- API
+- nginx
+- cloudflare
 status: In Progress
 priority: Low
 issuetype: Bug
 assignee: Leon Ormes
 reporter: Ollie Rushton
 labels:
-  - API
+- API
 created: 2026-03-24
 updated: 2026-05-18
-jira_id: "28767"
+jira_id: '28767'
 jira_key: FTFL-512
 jira_url: https://fitfile.atlassian.net/browse/FTFL-512
+permalink: llmeon/jira/ftfl-512-nginx-302-exposes-information
 ---
 
 # FTFL-512 — [API-6] Nginx 302 exposes information

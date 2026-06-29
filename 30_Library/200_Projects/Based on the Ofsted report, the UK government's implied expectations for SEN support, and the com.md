@@ -1,9 +1,11 @@
 ---
-created: 2026-05-04T08:01:26+00:00
-modified: 2026-06-08T11:49:24+00:00
-project_name: "Bessie"
-title: "Based on the Ofsted report, the UK government's implied expectations for SEN support, and the com"
+created: 2026-05-04 08:01:26+00:00
+modified: 2026-06-08 11:49:24+00:00
+project_name: Bessie
+title: Based on the Ofsted report, the UK government's implied expectations for SEN
+  support, and the com
 type: note
+permalink: llmeon/30-library/200-projects/based-on-the-ofsted-report-the-uk-governments-implied-expectations-for-sen-support-and-the-com
 ---
 
 Based on the Ofsted report, the UK government's implied expectations for SEN support, and the comprehensive information about your daughter Bessie, here is a summary of the failings of Belfairs Academy that you can raise in a meeting:

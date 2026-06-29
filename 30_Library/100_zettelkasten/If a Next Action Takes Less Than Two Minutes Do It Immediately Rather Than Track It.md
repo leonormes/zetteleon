@@ -1,8 +1,14 @@
 ---
-created: 2026-04-10T00:00:00+00:00
-modified: 2026-05-26T11:44:35+00:00
-tags: [efficiency, gtd, productivity, time-management]
-title: If a Next Action Takes Less Than Two Minutes Do It Immediately Rather Than Track It
+created: 2026-04-10 00:00:00+00:00
+modified: 2026-05-26 11:44:35+00:00
+tags:
+- efficiency
+- gtd
+- productivity
+- time-management
+title: If a Next Action Takes Less Than Two Minutes Do It Immediately Rather Than
+  Track It
+permalink: llmeon/30-library/100-zettelkasten/if-a-next-action-takes-less-than-two-minutes-do-it-immediately-rather-than-track-it
 ---
 
 ## If a Next Action Takes Less Than Two Minutes Do It Immediately Rather Than Track It

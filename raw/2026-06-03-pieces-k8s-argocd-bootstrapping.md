@@ -1,9 +1,15 @@
 ---
 title: Kubernetes Cluster Bootstrapping — ArgoCD after Terraform
-created: 2026-06-04T08:03:29+00:00
+created: 2026-06-04 08:03:29+00:00
 source: pieces-ltm
-pieces_ids: ["d36515fc-0012-4669-a78f-d088d2eb2a53", "95a5e00f-fd5a-483e-805a-fb4cf7eac6dd", "210f126f-42c7-4dba-9cbf-d6607e3f6feb"]
-tags: [raw, pieces]
+pieces_ids:
+- d36515fc-0012-4669-a78f-d088d2eb2a53
+- 95a5e00f-fd5a-483e-805a-fb4cf7eac6dd
+- 210f126f-42c7-4dba-9cbf-d6607e3f6feb
+tags:
+- raw
+- pieces
+permalink: llmeon/raw/2026-06-03-pieces-k8s-argocd-bootstrapping
 ---
 
 ## Asset 1 (Pieces: d36515fc-0012-4669-a78f-d088d2eb2a53)

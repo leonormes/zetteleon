@@ -1,14 +1,19 @@
 ---
 aliases: []
-created: 2025-02-07T12:57:55Z
-ID: "19a"
-last_reviewed: "null"
-modified: 2026-05-26T11:44:22+00:00
-status: "stable"
-tags: ["abstraction", "representation", "topic/pkm/zettelkasten", "topic/systems"]
+created: 2025-02-07 12:57:55+00:00
+ID: 19a
+last_reviewed: 'null'
+modified: 2026-05-26 11:44:22+00:00
+status: stable
+tags:
+- abstraction
+- representation
+- topic/pkm/zettelkasten
+- topic/systems
 title: MOC - Interpretation of References
-type: "map"
-updated: 
+type: map
+updated: null
+permalink: llmeon/30-library/mo-c/moc-interpretation-of-references
 ---
 
 ## Core Principle

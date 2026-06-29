@@ -1,12 +1,14 @@
 ---
-captured: "2026-06-12T08:52:17+01:00 2026-06-12T08:52:17+01:00"
-created: 2026-06-12T07:52:20+00:00
-modified: 2026-06-12T08:23:44+00:00
-source: "https://claude.ai/chat/07eb6366-0ccb-42c1-83be-9267fa2ed08d"
-status: "processing"
-tags: ["input"]
+captured: 2026-06-12T08:52:17+01:00 2026-06-12T08:52:17+01:00
+created: 2026-06-12 07:52:20+00:00
+modified: 2026-06-12 08:23:44+00:00
+source: https://claude.ai/chat/07eb6366-0ccb-42c1-83be-9267fa2ed08d
+status: processing
+tags:
+- input
 title: HEAD Helm template function explained
-type: "head"
+type: head
+permalink: llmeon/20-thinking/21-workbench/head-helm-template-function-explained
 ---
 
 ## Raw Output / Content

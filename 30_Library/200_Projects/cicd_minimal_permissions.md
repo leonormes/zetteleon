@@ -1,21 +1,24 @@
 ---
 aliases: []
-created: 2025-02-07T12:57:56Z
-dependencies: ""
-last_reviewed: ""
-modified: 2026-06-08T11:49:23+00:00
-name: "cicd_minimal_permissions"
+created: 2025-02-07 12:57:56+00:00
+dependencies: ''
+last_reviewed: ''
+modified: 2026-06-08 11:49:23+00:00
+name: cicd_minimal_permissions
 project_category: development
-project_name: "Core"
+project_name: Core
 project_status: archived
 see_also: []
-status: ""
-superseded_by: ""
-supersedes: ""
-tags: ["cli", "gitops"]
+status: ''
+superseded_by: ''
+supersedes: ''
+tags:
+- cli
+- gitops
 title: cicd_minimal_permissions
-type: "security_configuration"
-updated: 
+type: security_configuration
+updated: null
+permalink: llmeon/30-library/200-projects/cicd-minimal-permissions
 ---
 
 ## Minimal IAM Permissions for GitOps Infrastructure Deployment

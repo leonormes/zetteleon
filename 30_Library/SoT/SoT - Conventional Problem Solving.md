@@ -1,13 +1,23 @@
 ---
-aliases: ["Applicative Intelligence", "Framework-Bound Thinking", "Incremental Optimization", "Linear Problem Solving"]
-created: 2025-02-07T12:57:55Z
-last_reviewed: "2025-12-16"
-modified: 2026-02-01T15:08:00+00:00
-status: "stable"
-tags: ["mental_models", "optimization", "problem-solving", "strategy", "TheHuman/Cognition"]
+aliases:
+- Applicative Intelligence
+- Framework-Bound Thinking
+- Incremental Optimization
+- Linear Problem Solving
+created: 2025-02-07 12:57:55+00:00
+last_reviewed: '2025-12-16'
+modified: 2026-02-01 15:08:00+00:00
+status: stable
+tags:
+- mental_models
+- optimization
+- problem-solving
+- strategy
+- TheHuman/Cognition
 title: SoT - Conventional Problem Solving
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-conventional-problem-solving
 ---
 
 ## 1. Definitive Statement

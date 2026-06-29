@@ -1,19 +1,20 @@
 ---
 aliases: []
-created: 2025-08-17T12:31:05Z
-last_reviewed: ""
-modified: 2026-06-08T11:49:24+00:00
+created: 2025-08-17 12:31:05+00:00
+last_reviewed: ''
+modified: 2026-06-08 11:49:24+00:00
 project_category: development
-project_name: "Cryptography"
+project_name: Cryptography
 project_status: archived
 see_also: []
-status: ""
-superseded_by: ""
-supersedes: ""
+status: ''
+superseded_by: ''
+supersedes: ''
 tags: []
 title: mini rsa
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/200-projects/mini-rsa
 ---
 
 Of course. Let's build a complete, tiny RSA system using numbers small enough that you can see the results for yourself.

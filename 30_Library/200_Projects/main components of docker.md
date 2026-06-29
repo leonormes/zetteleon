@@ -1,16 +1,18 @@
 ---
 aliases: []
-created: 2025-02-07T12:57:54Z
-last_reviewed: ""
-modified: 2026-06-08T11:49:24+00:00
+created: 2025-02-07 12:57:54+00:00
+last_reviewed: ''
+modified: 2026-06-08 11:49:24+00:00
 project_category: infrastructure
-project_name: "k8s"
+project_name: k8s
 project_status: archived
-status: ""
-tags: ["SoftwareEngineering/Containers"]
+status: ''
+tags:
+- SoftwareEngineering/Containers
 title: main components of docker
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/200-projects/main-components-of-docker
 ---
 
 what are the main components of docker

@@ -1,15 +1,20 @@
 ---
-created: 2026-04-13T14:41:15+00:00
-created_utc: 2026-04-13T11:20:00Z
+created: 2026-04-13 14:41:15+00:00
+created_utc: 2026-04-13 11:20:00+00:00
 kind: mechanism
-modified: 2026-05-26T11:44:33+00:00
+modified: 2026-05-26 11:44:33+00:00
 source_title: AI Agent Architecture and the Modern Tech Stack
 source_url: https://gemini.google.com/app/509937047bd0b955
 status: seed
-tags: [data-retrieval, grounding, llm, rag]
+tags:
+- data-retrieval
+- grounding
+- llm
+- rag
 title: Retrieval-Augmented Generation (RAG)
 type: atom
-upstream: "[[HEAD The Failure of Human-Centric Design]]"
+upstream: '[[HEAD The Failure of Human-Centric Design]]'
+permalink: llmeon/30-library/100-zettelkasten/retrieval-augmented-generation-rag
 ---
 
 ## Retrieval-Augmented Generation (RAG)

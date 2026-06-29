@@ -1,13 +1,14 @@
 ---
 aliases: []
-created: 2025-08-30T12:00:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:30+00:00
-status: ""
+created: 2025-08-30 12:00:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:30+00:00
+status: ''
 tags: []
 title: Morita Therapy - Arugamama is Accepting Reality As It Is
-type: "permanent"
-updated: 
+type: permanent
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/morita-therapy-arugamama-is-accepting-reality-as-it-is
 ---
 
 Arugamama (あるがまま) is a central concept in [[Morita Therapy]] that translates to "as-it-is-ness." It is the practice of accepting reality as it is, without resistance or the immediate urge to change it.

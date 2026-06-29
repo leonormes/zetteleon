@@ -1,13 +1,20 @@
 ---
-aliases: ["Compassionate Attribution", "Neurobiological Limits"]
-created: 2025-10-30T15:04:20Z
-last_reviewed: "2025-10-30T00:00:00.000Z"
-modified: 2026-02-01T15:08:28+00:00
-status: "seedling"
-tags: ["attribution", "reframing", "self-compassion", "TheHuman/Health/ADHD"]
+aliases:
+- Compassionate Attribution
+- Neurobiological Limits
+created: 2025-10-30 15:04:20+00:00
+last_reviewed: '2025-10-30T00:00:00.000Z'
+modified: 2026-02-01 15:08:28+00:00
+status: seedling
+tags:
+- attribution
+- reframing
+- self-compassion
+- TheHuman/Health/ADHD
 title: Reframe Habit Setbacks as Capacity Limits Not Character Flaws
-type: "strategy"
-updated: 
+type: strategy
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/reframe-habit-setbacks-as-capacity-limits-not-character-flaws
 ---
 
 ## Reframe Habit Setbacks as Capacity Limits Not Character Flaws

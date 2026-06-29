@@ -1,12 +1,16 @@
 ---
-created: 2026-02-19T15:18:30+00:00
+created: 2026-02-19 15:18:30+00:00
 hop_level: cluster
-modified: 2026-03-14T11:10:11+00:00
-tags: [atomic, network, packets]
+modified: 2026-03-14 11:10:11+00:00
+tags:
+- atomic
+- network
+- packets
 target_service: network
 title: cmd-net-tcpdump-syn-watch
 tool: tcpdump
 type: atomic_command
+permalink: llmeon/30-library/ops/cmd-net-tcpdump-syn-watch
 ---
 
 ## Capture Outgoing SYN Retransmissions

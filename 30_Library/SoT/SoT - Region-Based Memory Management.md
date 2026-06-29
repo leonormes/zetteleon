@@ -1,13 +1,20 @@
 ---
-aliases: ["Region Memory Management", "Tofte-Talpin regions"]
-created: 2025-12-19T00:00:00Z
-last_reviewed: "2025-12-19"
-modified: 2026-02-01T15:07:52+00:00
-status: "stable"
-tags: ["compilers", "formal-methods", "memory-management", "type-theory"]
+aliases:
+- Region Memory Management
+- Tofte-Talpin regions
+created: 2025-12-19 00:00:00+00:00
+last_reviewed: '2025-12-19'
+modified: 2026-02-01 15:07:52+00:00
+status: stable
+tags:
+- compilers
+- formal-methods
+- memory-management
+- type-theory
 title: SoT - Region-Based Memory Management
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-region-based-memory-management
 ---
 
 ## 2. The Core Problem: The Limitations of Stack and Heap

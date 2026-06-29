@@ -1,13 +1,21 @@
 ---
-aliases: ["Launch Sequence", "The Initiation Algorithm"]
-created: 2025-12-23T20:00:20Z
-last_reviewed: "2025-12-23"
-modified: 2026-05-26T11:44:17+00:00
-status: "stable"
-tags: ["action", "adhd", "initiation", "productivity", "protocol"]
+aliases:
+- Launch Sequence
+- The Initiation Algorithm
+created: 2025-12-23 20:00:20+00:00
+last_reviewed: '2025-12-23'
+modified: 2026-05-26 11:44:17+00:00
+status: stable
+tags:
+- action
+- adhd
+- initiation
+- productivity
+- protocol
 title: SoT - Protocol - The Launch Sequence
-type: "Protocol"
-updated: 
+type: Protocol
+updated: null
+permalink: llmeon/30-library/so-t/so-t-protocol-the-launch-sequence
 ---
 
 ## 1. Goal: Bypassing the "Brainbound" Bottleneck

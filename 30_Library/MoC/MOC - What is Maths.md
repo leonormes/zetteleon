@@ -1,16 +1,20 @@
 ---
 aliases: []
-created: 2025-11-01T11:22:13Z
-criteria: ""
-exclusions: ""
-last_reviewed: "2025-11-01T00:00:00.000Z"
-modified: 2026-05-26T11:44:22+00:00
-scope: ""
-status: "evergreen"
-tags: ["foundations", "TheHuman/Philosophy", "topic/maths"]
+created: 2025-11-01 11:22:13+00:00
+criteria: ''
+exclusions: ''
+last_reviewed: '2025-11-01T00:00:00.000Z'
+modified: 2026-05-26 11:44:22+00:00
+scope: ''
+status: evergreen
+tags:
+- foundations
+- TheHuman/Philosophy
+- topic/maths
 title: MOC - What is Maths
-type: "map"
-updated: 
+type: map
+updated: null
+permalink: llmeon/30-library/mo-c/moc-what-is-maths
 ---
 
 ## MOC - What is Maths

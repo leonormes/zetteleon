@@ -1,13 +1,17 @@
 ---
-aliases: ["Dependency Hell"]
-created: 2025-10-31T12:36:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:35+00:00
-status: "seedling"
-tags: ["risk", "SoftwareEngineering/Architecture"]
+aliases:
+- Dependency Hell
+created: 2025-10-31 12:36:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:35+00:00
+status: seedling
+tags:
+- risk
+- SoftwareEngineering/Architecture
 title: Dependency Problems Create Cascading Failures
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/dependency-problems-create-cascading-failures
 ---
 
 ## Dependency Problems Create Cascading Failures

@@ -1,8 +1,11 @@
 ---
-created: 2026-04-28T00:00:00+00:00
-modified: 2026-06-09T03:35:00+01:00
-tags: [index, system]
+created: 2026-04-28 00:00:00+00:00
+modified: 2026-06-09 03:35:00+01:00
+tags:
+- index
+- system
 title: index
+permalink: llmeon/index
 ---
 
 ## Vault Index
@@ -23,7 +26,8 @@ _(empty—populated on first ingest)_
 - [[wiki/projects/12 Million Patient Synthetic NHS-OMOP Pipeline]]—FITFILE synthetic NHS OMOP data generation & stress-test initiative (up to 12M patients, 5-node Parquet datasets).
 - [[wiki/projects/Azure AKS Backup — FTFL]]—Azure Backup for AKS covering FTFL-596/599/615: vault, extension, RBAC, trusted access binding, Terraform dependencies; 9 validated components (private storage, PE subnet, DNS, vault, snapshot RG, extension, policy, trusted binding, backup instance); IaC action plan defined with Phase 1–3 roadmap and validation criteria; Terraform module review completed (2026-05-01) validating plan against manual CLI end-state, identifying import vs creation distinction, secrets configuration gaps, and security considerations.
 - [[wiki/projects/Azure Backup Restore Runbook]]—FTFL-599: operational runbook documenting az dataprotection CLI sequences for backup initialization, validation, and restore operations.
-- [[wiki/projects/Antigravity CLI Migration]]—Migration from Gemini CLI to Antigravity CLI (`agy`) before June 18, 2026 deadline; includes Claude Code prompt for chezmoi config migration (remove Gemini, install agy).
+|- [[wiki/projects/Antigravity CLI Migration]]—Migration from Gemini CLI to Antigravity CLI (`agy`) before June 18, 2026 deadline; includes Claude Code prompt for chezmoi config migration (remove Gemini, install agy).
+|- [[wiki/projects/Azure-AKS]]—Azure AKS cluster management, CUH Foundation Trust environment (aks-ff-uks-gp-01). Tracks FTFL-657 (Bastion Direct), FTFL-579 (jumpbox security), FTFL-464 (Calico Cloud cleanup).
 - [[wiki/projects/CoS-Work-Review-System]]—Automated Hermes cron job that queries Jira for open tickets, reviews against Obsidian PKM, and updates Source of Truth; built 2026-05-26 with curl-based jira-fetch.js workaround for Node.js fetch() proxy incompatibility on corporate VPN.
 - [[wiki/projects/Future Roadmap Planning]]—team roadmap presentation meeting set up by WJ; preparing two topics.
 - [[wiki/projects/MKUH Azure Backup]]—Azure Backup deployment for Milton Keynes University Hospital; part of EoE Data Providers program.
@@ -89,4 +93,4 @@ _(empty—populated on first ingest)_
 
 ---
 
-_Updated 2026-06-15 15:12 by Project Check-In (cron/4h): 54 Pieces assets scanned (16 substantive). No new project pages created. 1 existing page updated (FFNode Stress Testing — refinement meeting details). 1 raw note created._
+_Updated 2026-06-24 15:30 by Project Check-In (cron/4h): Azure-AKS page added to index, FTFL-464 Calico Cloud cleanup milestone captured. 63 substantive assets scanned. 1 raw note created._

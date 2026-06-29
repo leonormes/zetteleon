@@ -1,9 +1,18 @@
 ---
 title: MCP Proxy Fix — PKM Skill Update Request
-created: 2026-05-30T12:51:48.162179+00:00
+created: 2026-05-30 12:51:48.162179+00:00
 source: pieces-ltm
-pieces_ids: ["84b8d231-e636-4e62-84ae-358205080e41", "2cd3dc87-66f1-40d8-ae1e-be3581a20ce7", "665822c2-01d5-481e-9517-5a6564475933", "72170dbe-1941-4e3a-97c2-5035a5be40e2", "e176d7f3-538e-4058-8fac-d4a55d81b1c3", "712fd930-fff9-4e75-8c73-ff37afc5888e"]
-tags: [raw, pieces]
+pieces_ids:
+- 84b8d231-e636-4e62-84ae-358205080e41
+- 2cd3dc87-66f1-40d8-ae1e-be3581a20ce7
+- 665822c2-01d5-481e-9517-5a6564475933
+- 72170dbe-1941-4e3a-97c2-5035a5be40e2
+- e176d7f3-538e-4058-8fac-d4a55d81b1c3
+- 712fd930-fff9-4e75-8c73-ff37afc5888e
+tags:
+- raw
+- pieces
+permalink: llmeon/raw/2026-05-30-pieces-mcp-proxy-pkm-fix
 ---
 
 ## Asset 1 (Pieces: 84b8d231-e636-4e62-84ae-358205080e41)

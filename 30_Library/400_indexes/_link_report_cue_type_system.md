@@ -1,11 +1,12 @@
 ---
-created: 2026-04-14T20:19:45+00:00
-created_utc: "2026-04-14T12:50:00Z"
-modified: 2026-05-26T11:44:23+00:00
-source_atoms: "[[tmp_atoms_cue_type_system.md]]"
+created: 2026-04-14 20:19:45+00:00
+created_utc: '2026-04-14T12:50:00Z'
+modified: 2026-05-26 11:44:23+00:00
+source_atoms: '[[tmp_atoms_cue_type_system.md]]'
 status: tmp
 title: _link_report_cue_type_system
 type: link_report
+permalink: llmeon/30-library/400-indexes/link-report-cue-type-system
 ---
 
 ## Link Report: CUE—A Type System for the Cloud

@@ -1,12 +1,14 @@
 ---
-captured: "2026-06-10T10:28:54+01:00 2026-06-10T10:28:54+01:00"
-created: 2026-06-10T09:28:56+00:00
-modified: 2026-06-10T09:29:24+00:00
-source: "https://gemini.google.com/app/fc5d75a7653bbcbf"
-status: "processing"
-tags: ["input"]
+captured: 2026-06-10T10:28:54+01:00 2026-06-10T10:28:54+01:00
+created: 2026-06-10 09:28:56+00:00
+modified: 2026-06-10 09:29:24+00:00
+source: https://gemini.google.com/app/fc5d75a7653bbcbf
+status: processing
+tags:
+- input
 title: HEAD The Evolutionary Purpose of Hate
-type: "head"
+type: head
+permalink: llmeon/20-thinking/21-workbench/head-the-evolutionary-purpose-of-hate
 ---
 
 ## Raw Output / Content

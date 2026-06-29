@@ -1,7 +1,8 @@
 ---
-created: 2026-02-14T09:00:02+00:00
-modified: 2026-02-16T09:35:21+00:00
+created: 2026-02-14 09:00:02+00:00
+modified: 2026-02-16 09:35:21+00:00
 title: atomic-command-template
+permalink: llmeon/30-library/ops/atomic-command-template-1
 ---
 
 ## Purpose

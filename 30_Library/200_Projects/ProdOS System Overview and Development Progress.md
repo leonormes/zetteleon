@@ -1,11 +1,12 @@
 ---
-created: 2026-04-08T14:02:05+00:00
-modified: 2026-06-08T11:49:22+00:00
+created: 2026-04-08 14:02:05+00:00
+modified: 2026-06-08 11:49:22+00:00
 project_category: prodos
 project_name: ProdOS
 project_status: active
 title: ProdOS System Overview and Development Progress
-type:
+type: null
+permalink: llmeon/30-library/200-projects/prod-os-system-overview-and-development-progress
 ---
 
 ## ProdOS System: Overview and Development Progress

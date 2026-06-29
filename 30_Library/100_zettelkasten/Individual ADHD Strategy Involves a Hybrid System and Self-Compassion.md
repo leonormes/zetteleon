@@ -1,13 +1,19 @@
 ---
-aliases: ["ADHD Individual Strategies"]
-created: 2025-11-06T19:54:11Z
-last_reviewed: "2025-11-06"
-modified: 2026-02-01T15:08:32+00:00
-status: "seedling"
-tags: ["self-management", "strategies", "TheHuman/Health/ADHD", "topic/productivity"]
+aliases:
+- ADHD Individual Strategies
+created: 2025-11-06 19:54:11+00:00
+last_reviewed: '2025-11-06'
+modified: 2026-02-01 15:08:32+00:00
+status: seedling
+tags:
+- self-management
+- strategies
+- TheHuman/Health/ADHD
+- topic/productivity
 title: Individual ADHD Strategy Involves a Hybrid System and Self-Compassion
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/individual-adhd-strategy-involves-a-hybrid-system-and-self-compassion
 ---
 
 ## Individual ADHD Strategy Involves a Hybrid System and Self-Compassion

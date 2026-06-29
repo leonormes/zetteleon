@@ -1,10 +1,16 @@
 ---
-created: 2026-05-21T19:15:29+00:00
-modified: 2026-05-26T11:43:33+00:00
-pieces_ids: [54ba01e7-ccd6-4be9-b278-cffe404699b1, 5701ce53-a5ec-415c-9f55-2a49613260a3, 6c42a849-78d2-42be-865b-f03ed18c9da2]
+created: 2026-05-21 19:15:29+00:00
+modified: 2026-05-26 11:43:33+00:00
+pieces_ids:
+- 54ba01e7-ccd6-4be9-b278-cffe404699b1
+- 5701ce53-a5ec-415c-9f55-2a49613260a3
+- 6c42a849-78d2-42be-865b-f03ed18c9da2
 source: pieces-ltm
-tags: [pieces, raw]
+tags:
+- pieces
+- raw
 title: 2026-05-21-pieces-hermes-agent
+permalink: llmeon/raw/2026-05-21-pieces-hermes-agent
 ---
 
 ## Asset 1 (Pieces: 6c42a849-78d2-42be-865b-f03ed18c9da2)—11:05:45

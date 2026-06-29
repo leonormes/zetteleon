@@ -2,11 +2,18 @@
 title: FTFL-673 Grafana Deploy All Envs
 wiki_type: dossier
 entity_kind: project
-created: 2026-06-03T12:00:00+00:00
-modified: 2026-06-03T12:00:00+00:00
-tags: [wiki, dossier, grafana, helm, deployment, ftfl-673]
+created: 2026-06-03 12:00:00+00:00
+modified: 2026-06-03 12:00:00+00:00
+tags:
+- wiki
+- dossier
+- grafana
+- helm
+- deployment
+- ftfl-673
 sources:
-  - raw/2026-06-03-pieces-ftfl673-grafana-deploy-all-envs
+- raw/2026-06-03-pieces-ftfl673-grafana-deploy-all-envs
+permalink: llmeon/wiki/projects/ftfl-673-grafana-deploy-all-envs
 ---
 
 ## Summary

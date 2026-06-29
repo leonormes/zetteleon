@@ -1,13 +1,21 @@
 ---
-aliases: ["Inner Strength MOC", "Resilience Skills MOC", "Strong Spirit MOC"]
-created: 2025-07-10T10:12:15Z
-last_reviewed: "2025-11-01"
-modified: 2026-02-01T15:08:07+00:00
-status: "evergreen"
-tags: ["character-strength", "resilience", "type/moc", "virtue"]
+aliases:
+- Inner Strength MOC
+- Resilience Skills MOC
+- Strong Spirit MOC
+created: 2025-07-10 10:12:15+00:00
+last_reviewed: '2025-11-01'
+modified: 2026-02-01 15:08:07+00:00
+status: evergreen
+tags:
+- character-strength
+- resilience
+- type/moc
+- virtue
 title: Inner Strength & Resilience Skills (Your Strong Spirit)
-type: "map"
-updated: 
+type: map
+updated: null
+permalink: llmeon/30-library/mo-c/inner-strength-resilience-skills-your-strong-spirit
 ---
 
 These are the quiet strengths inside you that help you face challenges and stay true to yourself. They are the core components of a strong and resilient spirit.

@@ -1,7 +1,8 @@
 ---
-created: 2026-03-05T10:16:02+00:00
-modified: 2026-03-05T10:16:39+00:00
+created: 2026-03-05 10:16:02+00:00
+modified: 2026-03-05 10:16:39+00:00
 title: ec2-jumpbox-start-stop
+permalink: llmeon/30-library/ops/ec2-jumpbox-start-stop
 ---
 
 Stop the jumpbox:

@@ -1,15 +1,23 @@
 ---
-aliases: ["Architecture MOC", "MOC - Systems Architecture", "System Design Index"]
-created: 2025-10-31T12:38:00Z
-exclusions: "Data-Level Implementation Details (See [[MOC - Data-Centric Software Engineering]])"
-last_reviewed: "2025-12-31"
-modified: 2026-02-01T15:08:05+00:00
-scope: "Macro-Architecture (System-to-System)"
-status: "active"
-tags: ["boundaries", "SoftwareEngineering/Architecture", "systems_design", "type/moc"]
+aliases:
+- Architecture MOC
+- MOC - Systems Architecture
+- System Design Index
+created: 2025-10-31 12:38:00+00:00
+exclusions: Data-Level Implementation Details (See [[MOC - Data-Centric Software Engineering]])
+last_reviewed: '2025-12-31'
+modified: 2026-02-01 15:08:05+00:00
+scope: Macro-Architecture (System-to-System)
+status: active
+tags:
+- boundaries
+- SoftwareEngineering/Architecture
+- systems_design
+- type/moc
 title: MOC - Software Architecture Principles
-type: "map"
-updated: 
+type: map
+updated: null
+permalink: llmeon/30-library/mo-c/moc-software-architecture-principles
 ---
 
 ## 1. The Core Philosophy (System Integrity)

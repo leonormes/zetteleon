@@ -1,13 +1,23 @@
 ---
-aliases: ["Heih\\u014d and Emotion", "Heijo-shin", "Musashi's Emotional Mastery", "The Void and Emotion"]
-created: 2025-09-07T15:32:45Z
-last_reviewed: "2025-12-16"
-modified: 2026-02-01T15:07:55+00:00
-status: "stable"
-tags: ["emotional_regulation", "musashi", "stoicism", "strategy", "TheHuman/Philosophy"]
-title: "SoT - Miyamoto Musashi's Philosophy on Mastering Emotions"
-type: "SoT"
-updated: 
+aliases:
+- Heih\u014d and Emotion
+- Heijo-shin
+- Musashi's Emotional Mastery
+- The Void and Emotion
+created: 2025-09-07 15:32:45+00:00
+last_reviewed: '2025-12-16'
+modified: 2026-02-01 15:07:55+00:00
+status: stable
+tags:
+- emotional_regulation
+- musashi
+- stoicism
+- strategy
+- TheHuman/Philosophy
+title: SoT - Miyamoto Musashi's Philosophy on Mastering Emotions
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-miyamoto-musashis-philosophy-on-mastering-emotions
 ---
 
 ## 1. Definitive Statement

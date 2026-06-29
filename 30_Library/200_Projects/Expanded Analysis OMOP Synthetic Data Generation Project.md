@@ -1,11 +1,12 @@
 ---
-created: 2026-04-17T06:56:43+00:00
-modified: 2026-06-08T11:49:16+00:00
+created: 2026-04-17 06:56:43+00:00
+modified: 2026-06-08 11:49:16+00:00
 project_category: omop
 project_name: OMOP
 project_status: active
 title: Expanded Analysis OMOP Synthetic Data Generation Project
-type:
+type: null
+permalink: llmeon/30-library/200-projects/expanded-analysis-omop-synthetic-data-generation-project
 ---
 
 Based on your long-term memory, I can see this project has evolved significantly from your initial vision of high-fidelity clinical data to a more pragmatic "fit-for-purpose" approach. Here's an expanded breakdown with context from your discussions:

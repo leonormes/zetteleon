@@ -1,7 +1,13 @@
 ---
-tags: [azure, iam, terraform, fitfile, central-services]
+tags:
+- azure
+- iam
+- terraform
+- fitfile
+- central-services
 date: 2026-05-30
 source: terraform-central-services-repo
+permalink: llmeon/wiki/2026-05-11-terraform-central-services-azure-iam
 ---
 
 # Terraform Central Services — Azure IAM Current State

@@ -1,14 +1,22 @@
 ---
-created: 2026-02-11T16:00:00+00:00
+created: 2026-02-11 16:00:00+00:00
 last_synthesis: 2026-02-11
-modified: 2026-02-11T06:30:40+00:00
+modified: 2026-02-11 06:30:40+00:00
 source_of_truth: true
 status: evergreen
 synthesis-count: 1
-tags: [architecture, bootstrap, chezmoi, cue, mise, sot, workstation]
+tags:
+- architecture
+- bootstrap
+- chezmoi
+- cue
+- mise
+- sot
+- workstation
 title: SoT - Data-Oriented Workstation Setup
 trust-level: stable
 type: SoT
+permalink: llmeon/30-library/so-t/so-t-data-oriented-workstation-setup
 ---
 
 ## Minimum Viable Understanding (MVU)

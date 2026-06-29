@@ -1,13 +1,14 @@
 ---
 aliases: []
-created: 2025-07-26T19:03:14Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:31+00:00
-status: ""
+created: 2025-07-26 19:03:14+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:31+00:00
+status: ''
 tags: []
 title: Limited Human Information Processing Capacity
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/limited-human-information-processing-capacity
 ---
 
 Humans possess a finite capacity for processing and holding information simultaneously. This cognitive constraint means that our ability to absorb and integrate vast amounts of data at any given moment is limited, contributing to the myopic nature of our understanding.

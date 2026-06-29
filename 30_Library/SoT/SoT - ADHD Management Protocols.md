@@ -1,16 +1,21 @@
 ---
 aliases: []
-created: 2026-01-03T10:10:29+00:00
+created: 2026-01-03 10:10:29+00:00
 last-synthesis: 2026-02-11
-last_reviewed: ""
-modified: 2026-02-16T09:40:34+00:00
+last_reviewed: ''
+modified: 2026-02-16 09:40:34+00:00
 source_of_truth: true
-status: "evergreen"
+status: evergreen
 synthesis-count: 1
-tags: ["adhd", "initiation", "productivity", "system/protocol"]
+tags:
+- adhd
+- initiation
+- productivity
+- system/protocol
 title: SoT - ADHD Management Protocols
 trust-level: stable
-type: "SoT"
+type: SoT
+permalink: llmeon/30-library/so-t/so-t-adhd-management-protocols
 ---
 
 ## SoT - ADHD Management Protocols

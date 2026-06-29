@@ -1,13 +1,20 @@
 ---
-aliases: ["Cyberpunk", "High-Tech Low-Life"]
-created: 2025-12-30T00:00:00Z
-last_reviewed: "2025-12-30"
-modified: 2026-02-01T15:08:00+00:00
-status: "stable"
-tags: ["cyberpunk", "genre", "history", "scifi"]
+aliases:
+- Cyberpunk
+- High-Tech Low-Life
+created: 2025-12-30 00:00:00+00:00
+last_reviewed: '2025-12-30'
+modified: 2026-02-01 15:08:00+00:00
+status: stable
+tags:
+- cyberpunk
+- genre
+- history
+- scifi
 title: SoT - Cyberpunk Genre
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-cyberpunk-genre
 ---
 
 ## 1. Definitive Statement

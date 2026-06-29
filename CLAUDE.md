@@ -1,7 +1,8 @@
 ---
-created: 2026-04-06T17:20:35+00:00
-modified: 2026-05-26T11:43:57+00:00
+created: 2026-04-06 17:20:35+00:00
+modified: 2026-05-26 11:43:57+00:00
 title: CLAUDE
+permalink: llmeon/claude
 ---
 
 ## CLAUDE.md

@@ -1,10 +1,28 @@
 ---
 created: Invalid date
-modified: 2026-05-26T11:43:36+00:00
-pieces_ids: ["1f969f29-6b36-4aa1-9e61-895b992432f9", "1fc761b0-ced3-4026-ac09-570a5913365d", "278383cc-9714-4500-976f-2dc56ebce97e", "2ba11d98-d47c-4b75-8eb5-2fbc4f48fdaf", "34a72e96-7131-429b-8d8c-f5f006cf71f0", "354c5794-7cfb-4a39-9584-a4df224bf49a", "71f73509-eb68-45e4-bceb-47a558d4d1b5", "7727af00-f470-4d2c-be58-ae027ba06ddf", "9dd3aefc-8d02-4607-963d-ca1158552d87", "a527073c-c24b-4a24-a20f-b8a4e075b3f1", "a94d42e0-0bc7-47e7-b301-5a493d25828d", "abca6da2-90c3-49a5-b1d3-2bba87e799b2", "c325728a-9d67-4232-8940-287322d0c6bc", "d615b447-8221-42c9-ad10-1a64c6b91d68", "e47ad154-eaef-43dd-b5d6-db900badd581"]
+modified: 2026-05-26 11:43:36+00:00
+pieces_ids:
+- 1f969f29-6b36-4aa1-9e61-895b992432f9
+- 1fc761b0-ced3-4026-ac09-570a5913365d
+- 278383cc-9714-4500-976f-2dc56ebce97e
+- 2ba11d98-d47c-4b75-8eb5-2fbc4f48fdaf
+- 34a72e96-7131-429b-8d8c-f5f006cf71f0
+- 354c5794-7cfb-4a39-9584-a4df224bf49a
+- 71f73509-eb68-45e4-bceb-47a558d4d1b5
+- 7727af00-f470-4d2c-be58-ae027ba06ddf
+- 9dd3aefc-8d02-4607-963d-ca1158552d87
+- a527073c-c24b-4a24-a20f-b8a4e075b3f1
+- a94d42e0-0bc7-47e7-b301-5a493d25828d
+- abca6da2-90c3-49a5-b1d3-2bba87e799b2
+- c325728a-9d67-4232-8940-287322d0c6bc
+- d615b447-8221-42c9-ad10-1a64c6b91d68
+- e47ad154-eaef-43dd-b5d6-db900badd581
 source: pieces-ltm
-tags: [pieces, raw]
+tags:
+- pieces
+- raw
 title: 2026-05-19-pieces-cuh-dp-aks
+permalink: llmeon/raw/2026-05-19-pieces-cuh-dp-aks
 ---
 
 ## Asset 1 (Pieces: c325728a-9d67-4232-8940-287322d0c6bc)

@@ -1,12 +1,14 @@
 ---
 aliases: []
-created: 2026-01-01T19:03:57+00:00
-last_reviewed: ""
-modified: 2026-02-01T15:08:05+00:00
-status: ""
-tags: [type/moc]
+created: 2026-01-01 19:03:57+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:05+00:00
+status: ''
+tags:
+- type/moc
 title: MOC - Learning Registry
 type: map
+permalink: llmeon/30-library/mo-c/moc-learning-registry
 ---
 
 ## 🧠 Learning Registry

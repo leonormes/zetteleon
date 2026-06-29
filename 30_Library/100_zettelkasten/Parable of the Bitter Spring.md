@@ -1,13 +1,14 @@
 ---
 aliases: []
-created: 2025-10-12T09:41:52Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:29+00:00
-status: ""
+created: 2025-10-12 09:41:52+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:29+00:00
+status: ''
 tags: []
 title: Parable of the Bitter Spring
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/parable-of-the-bitter-spring
 ---
 
 A teacher, seeing his students working tirelessly, gathered them and said, "Let me tell you of the Village of Constant Toil, so that you may understand the nature of your work."

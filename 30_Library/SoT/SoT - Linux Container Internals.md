@@ -1,12 +1,13 @@
 ---
-created: 2025-12-24T12:00:00Z
-last_reviewed: "2025-12-30"
-modified: 2026-05-26T11:44:19+00:00
-status: "stable"
+created: 2025-12-24 12:00:00+00:00
+last_reviewed: '2025-12-30'
+modified: 2026-05-26 11:44:19+00:00
+status: stable
 tags: []
 title: SoT - Linux Container Internals
-type: "SoT"
-updated:
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-linux-container-internals
 ---
 
 ## 1. Definitive Statement

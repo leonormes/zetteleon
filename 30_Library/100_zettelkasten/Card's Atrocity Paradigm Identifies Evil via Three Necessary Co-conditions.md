@@ -1,8 +1,13 @@
 ---
-created: 2026-04-10T13:00:00+00:00
-modified: 2026-05-26T11:44:36+00:00
-tags: [atrocities, claudia-card, heuristic, moral-philosophy]
-title: "Card's Atrocity Paradigm Identifies Evil via Three Necessary Co-conditions"
+created: 2026-04-10 13:00:00+00:00
+modified: 2026-05-26 11:44:36+00:00
+tags:
+- atrocities
+- claudia-card
+- heuristic
+- moral-philosophy
+title: Card's Atrocity Paradigm Identifies Evil via Three Necessary Co-conditions
+permalink: llmeon/30-library/100-zettelkasten/cards-atrocity-paradigm-identifies-evil-via-three-necessary-co-conditions
 ---
 
 ## Card's Atrocity Paradigm Identifies Evil via Three Necessary Co-conditions

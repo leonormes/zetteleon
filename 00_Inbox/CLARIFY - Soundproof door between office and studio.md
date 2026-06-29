@@ -1,8 +1,12 @@
 ---
-created: 2026-06-05T09:00:00+01:00
-modified: 2026-06-11T10:25:37+00:00
-tags: [clarify, home, inbox]
+created: 2026-06-05 09:00:00+01:00
+modified: 2026-06-11 10:25:37+00:00
+tags:
+- clarify
+- home
+- inbox
 title: CLARIFY - Soundproof door between office and studio
+permalink: llmeon/00-inbox/clarify-soundproof-door-between-office-and-studio
 ---
 
 ## Capture

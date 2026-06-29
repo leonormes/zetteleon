@@ -1,9 +1,17 @@
 ---
 title: Azure Bastion SSH Troubleshooting
-created: 2026-05-29T11:00:59+00:00
+created: 2026-05-29 11:00:59+00:00
 source: pieces-ltm
-pieces_ids: ['faa2031b-a539-47f7-abbb-785b5e395d3d', '16a86501-6017-4534-9b7d-aa9a90a773e0', 'e90afdf5-e544-47b1-9d27-b96c7e395305', '9491075c-b191-45a5-9a7a-b92fbf21ae13', '4480ffce-524b-4010-bc41-9acfe834bc3d']
-tags: [raw, pieces]
+pieces_ids:
+- faa2031b-a539-47f7-abbb-785b5e395d3d
+- 16a86501-6017-4534-9b7d-aa9a90a773e0
+- e90afdf5-e544-47b1-9d27-b96c7e395305
+- 9491075c-b191-45a5-9a7a-b92fbf21ae13
+- 4480ffce-524b-4010-bc41-9acfe834bc3d
+tags:
+- raw
+- pieces
+permalink: llmeon/raw/2026-05-29-pieces-azure-bastion-ssh-troubleshooting
 ---
 
 ## Asset 1 (Pieces: faa2031b-a539-47f7-abbb-785b5e395d3d)

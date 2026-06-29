@@ -1,13 +1,21 @@
 ---
-aliases: ["Gemini MCP", "MCP"]
-created: 2025-12-21T00:00:00Z
-last_reviewed: "2025-12-21"
-modified: 2026-02-01T15:07:58+00:00
-status: "evolving"
-tags: ["extensions", "gemini-cli", "mcp", "SoftwareEngineering/Architecture", "tools"]
+aliases:
+- Gemini MCP
+- MCP
+created: 2025-12-21 00:00:00+00:00
+last_reviewed: '2025-12-21'
+modified: 2026-02-01 15:07:58+00:00
+status: evolving
+tags:
+- extensions
+- gemini-cli
+- mcp
+- SoftwareEngineering/Architecture
+- tools
 title: SoT - Extending Gemini CLI with MCP
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-extending-gemini-cli-with-mcp
 ---
 
 ## 1. Definitive Statement: "MCP Architecture"

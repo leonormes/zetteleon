@@ -1,15 +1,26 @@
 ---
-aliases: ["Bug in the Model", "Capability Ceilings", "Cognitive Ceilings", "Model-Based Mastery"]
-created: 2026-02-11T16:45:00+00:00
-modified: 2026-05-26T11:44:35+00:00
+aliases:
+- Bug in the Model
+- Capability Ceilings
+- Cognitive Ceilings
+- Model-Based Mastery
+created: 2026-02-11 16:45:00+00:00
+modified: 2026-05-26 11:44:35+00:00
 see_also: []
-superseded_by: ""
-supersedes: ""
+superseded_by: ''
+supersedes: ''
 synthesis-count: 1
-tags: ["bias", "cognition", "learning", "mastery", "mental_models", "prodos/sot"]
+tags:
+- bias
+- cognition
+- learning
+- mastery
+- mental_models
+- prodos/sot
 title: Flawed Mental Models Limit Mastery
-trust-level: "stable"
-type: "SoT"
+trust-level: stable
+type: SoT
+permalink: llmeon/30-library/100-zettelkasten/flawed-mental-models-limit-mastery
 ---
 
 ## Minimum Viable Understanding (MVU)

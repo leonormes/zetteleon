@@ -1,13 +1,18 @@
 ---
-aliases: ["WAF"]
-created: 2025-10-31T10:35:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:24+00:00
-status: "seedling"
-tags: ["SoftwareEngineering/Networking", "SoftwareEngineering/Security", "web"]
+aliases:
+- WAF
+created: 2025-10-31 10:35:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:24+00:00
+status: seedling
+tags:
+- SoftwareEngineering/Networking
+- SoftwareEngineering/Security
+- web
 title: Web Application Firewalls Protect Against Layer 7 Attacks
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/web-application-firewalls-protect-against-layer-7-attacks
 ---
 
 ## Web Application Firewalls Protect Against Layer 7 Attacks

@@ -1,12 +1,22 @@
 ---
-aliases: ["Data-Oriented IaC", "DevOps Philosophy", "FitFile Infrastructure Model", "Infrastructure Strategy"]
-created: 2026-01-02T23:30:00Z
-last_reviewed: "2026-01-02"
-modified: 2026-02-01T15:07:59+00:00
-status: "stable"
-tags: ["devops", "fitfile", "iac", "SoftwareEngineering/Architecture", "strategy"]
+aliases:
+- Data-Oriented IaC
+- DevOps Philosophy
+- FitFile Infrastructure Model
+- Infrastructure Strategy
+created: 2026-01-02 23:30:00+00:00
+last_reviewed: '2026-01-02'
+modified: 2026-02-01 15:07:59+00:00
+status: stable
+tags:
+- devops
+- fitfile
+- iac
+- SoftwareEngineering/Architecture
+- strategy
 title: SoT - DevOps & Infrastructure Architecture Strategy
-type: "SoT"
+type: SoT
+permalink: llmeon/30-library/so-t/so-t-dev-ops-infrastructure-architecture-strategy
 ---
 
 ## 1. The Core Tension: Complexity vs. Cognition

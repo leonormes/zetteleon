@@ -24,7 +24,7 @@ views:
       note.area: 150
       note.status: 100
       note.reviewed: 120
-  - type: table
+  - type: cards
     name: Visual Board
     order:
       - status

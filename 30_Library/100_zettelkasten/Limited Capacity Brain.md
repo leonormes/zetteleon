@@ -1,13 +1,16 @@
 ---
 aliases: []
-created: 2025-02-07T12:57:55Z
-last_reviewed: "null"
-modified: 2026-02-01T15:08:31+00:00
-status: "null"
-tags: ["ext-mind", "topic/pkm"]
+created: 2025-02-07 12:57:55+00:00
+last_reviewed: 'null'
+modified: 2026-02-01 15:08:31+00:00
+status: 'null'
+tags:
+- ext-mind
+- topic/pkm
 title: Limited Capacity Brain
-type: "permanent"
-updated: 
+type: permanent
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/limited-capacity-brain
 ---
 
 Working memory has several key limitations, primarily its small capacity and short duration. It can typically hold only about three or four pieces of information at a time.

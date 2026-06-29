@@ -1,13 +1,18 @@
 ---
 aliases: []
-created: 2025-11-10T15:09:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:24+00:00
-status: "seedling"
-tags: ["momentum", "task-initiation", "TheHuman/Health/ADHD", "topic/productivity"]
+created: 2025-11-10 15:09:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:24+00:00
+status: seedling
+tags:
+- momentum
+- task-initiation
+- TheHuman/Health/ADHD
+- topic/productivity
 title: The Three Rules of Starter Tasks
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/the-three-rules-of-starter-tasks
 ---
 
 ## The Three Rules of Starter Tasks

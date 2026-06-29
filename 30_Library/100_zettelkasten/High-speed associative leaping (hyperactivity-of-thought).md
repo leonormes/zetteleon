@@ -1,8 +1,10 @@
 ---
-created: 2026-05-04T08:01:26+00:00
-modified: 2026-05-26T11:44:34+00:00
-tags: [Literature]
+created: 2026-05-04 08:01:26+00:00
+modified: 2026-05-26 11:44:34+00:00
+tags:
+- Literature
 title: High-speed associative leaping (hyperactivity-of-thought)
+permalink: llmeon/30-library/100-zettelkasten/high-speed-associative-leaping-hyperactivity-of-thought
 ---
 
 ## High-speed Associative Leaping (hyperactivity-of-thought)

@@ -1,14 +1,16 @@
 ---
 aliases: []
-created: 2025-06-18T17:28:14Z
+created: 2025-06-18 17:28:14+00:00
 ID: emotional_reasoning
-last_reviewed: ""
-modified: 2026-02-01T15:08:34+00:00
-status: ""
-tags: [emotion]
+last_reviewed: ''
+modified: 2026-02-01 15:08:34+00:00
+status: ''
+tags:
+- emotion
 title: Emotional Reasoning
 type: permanent
-updated:
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/emotional-reasoning
 ---
 
 Emotional reasoning occurs when an individual's emotions dictate their perception of reality.

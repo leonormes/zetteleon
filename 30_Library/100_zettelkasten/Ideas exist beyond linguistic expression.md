@@ -1,13 +1,19 @@
 ---
-aliases: ["ideas beyond words", "pre-linguistic thought"]
-created: 2025-10-31T20:00:00Z
-last_reviewed: "2025-10-31"
-modified: 2026-02-01T15:08:32+00:00
-status: "seedling"
-tags: ["language", "philosophy-of-mind", "TheHuman/Cognition"]
+aliases:
+- ideas beyond words
+- pre-linguistic thought
+created: 2025-10-31 20:00:00+00:00
+last_reviewed: '2025-10-31'
+modified: 2026-02-01 15:08:32+00:00
+status: seedling
+tags:
+- language
+- philosophy-of-mind
+- TheHuman/Cognition
 title: Ideas exist beyond linguistic expression
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/ideas-exist-beyond-linguistic-expression
 ---
 
 ## Ideas Exist beyond Linguistic Expression

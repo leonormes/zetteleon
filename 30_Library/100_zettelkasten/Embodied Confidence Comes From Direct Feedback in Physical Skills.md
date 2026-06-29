@@ -1,13 +1,19 @@
 ---
 aliases: []
-created: 2025-11-01T09:51:13Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:34+00:00
-status: "seedling"
-tags: ["competence", "confidence", "embodiment", "learning", "topic/skill"]
+created: 2025-11-01 09:51:13+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:34+00:00
+status: seedling
+tags:
+- competence
+- confidence
+- embodiment
+- learning
+- topic/skill
 title: Embodied Confidence Comes From Direct Feedback in Physical Skills
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/embodied-confidence-comes-from-direct-feedback-in-physical-skills
 ---
 
 ## Embodied Confidence Comes From Direct Feedback in Physical Skills

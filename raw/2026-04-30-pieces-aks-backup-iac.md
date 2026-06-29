@@ -1,10 +1,25 @@
 ---
-created: 2026-04-30T09:08:23+00:00
-modified: 2026-05-26T11:43:52+00:00
-pieces_ids: ["123850ad-4515-4888-b8ab-ddf00a4456f1", "34008ead-155e-472e-b577-24d57d65eb10", "3ef456b5-2c2d-414a-81c3-68a64e3ec35f", "6c1b8344-a3fd-43ad-90c1-a7ac82b90978", "805d73d9-9823-48af-bd54-6340552e6e5f", "8f48b1a9-dbc3-43f0-a5b8-843c0f826103", "96c66bf2-364f-4fb3-9557-8da7b11a04d4", "976055bb-7d10-4d50-b407-a1ce5cd577fb", "ab351aa5-f88d-4c9d-9c57-a1c70ea5cb59", "ccd76984-9e75-4a9b-bbfa-155ef3103f10", "fc56451e-a1dc-4060-92fe-5175bd761ba9", "fdaeb966-5d4a-4611-b77f-364470104e04"]
+created: 2026-04-30 09:08:23+00:00
+modified: 2026-05-26 11:43:52+00:00
+pieces_ids:
+- 123850ad-4515-4888-b8ab-ddf00a4456f1
+- 34008ead-155e-472e-b577-24d57d65eb10
+- 3ef456b5-2c2d-414a-81c3-68a64e3ec35f
+- 6c1b8344-a3fd-43ad-90c1-a7ac82b90978
+- 805d73d9-9823-48af-bd54-6340552e6e5f
+- 8f48b1a9-dbc3-43f0-a5b8-843c0f826103
+- 96c66bf2-364f-4fb3-9557-8da7b11a04d4
+- 976055bb-7d10-4d50-b407-a1ce5cd577fb
+- ab351aa5-f88d-4c9d-9c57-a1c70ea5cb59
+- ccd76984-9e75-4a9b-bbfa-155ef3103f10
+- fc56451e-a1dc-4060-92fe-5175bd761ba9
+- fdaeb966-5d4a-4611-b77f-364470104e04
 source: pieces-ltm
-tags: [pieces, raw]
+tags:
+- pieces
+- raw
 title: 2026-04-30-pieces-aks-backup-iac
+permalink: llmeon/raw/2026-04-30-pieces-aks-backup-iac
 ---
 
 ## Azure AKS Backup IaC Planning Session

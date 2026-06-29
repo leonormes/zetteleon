@@ -1,13 +1,23 @@
 ---
-aliases: ["Hanging Mechanics", "Primal Progressions", "Technical Movement Standards", "The Seven Pillars of Movement"]
-created: 2025-12-30T16:00:00Z
-last_reviewed: "2025-12-30"
-modified: 2026-02-01T15:07:53+00:00
-status: "stable"
-tags: ["fitness", "longevity", "mobility", "primal_movement", "progressions"]
+aliases:
+- Hanging Mechanics
+- Primal Progressions
+- Technical Movement Standards
+- The Seven Pillars of Movement
+created: 2025-12-30 16:00:00+00:00
+last_reviewed: '2025-12-30'
+modified: 2026-02-01 15:07:53+00:00
+status: stable
+tags:
+- fitness
+- longevity
+- mobility
+- primal_movement
+- progressions
 title: SoT - Primal Movement Patterns
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-primal-movement-patterns
 ---
 
 ## SoT - Primal Movement Patterns

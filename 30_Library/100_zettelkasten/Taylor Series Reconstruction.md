@@ -1,15 +1,19 @@
 ---
-created: 2026-04-14T17:30:22+00:00
-created_utc: "2026-04-14T12:00:00Z"
+created: 2026-04-14 17:30:22+00:00
+created_utc: '2026-04-14T12:00:00Z'
 kind: mechanism
-modified: 2026-05-26T11:44:32+00:00
-source_title: "The Roadmap to Calculus I Wish I Had"
-source_url: "https://youtube.com/watch?v=FavU_QaY9wA"
+modified: 2026-05-26 11:44:32+00:00
+source_title: The Roadmap to Calculus I Wish I Had
+source_url: https://youtube.com/watch?v=FavU_QaY9wA
 status: seed
-tags: [approximation, calculus, taylor-series]
+tags:
+- approximation
+- calculus
+- taylor-series
 title: Taylor Series Reconstruction
 type: atom
-upstream: "[[Calculus (Definition)]]"
+upstream: '[[Calculus (Definition)]]'
+permalink: llmeon/30-library/100-zettelkasten/taylor-series-reconstruction
 ---
 
 ## Taylor Series Reconstruction

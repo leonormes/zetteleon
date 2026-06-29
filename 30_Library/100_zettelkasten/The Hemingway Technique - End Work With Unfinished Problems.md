@@ -1,13 +1,20 @@
 ---
-aliases: ["Subconscious Incubation", "Unfinished Sentence Technique"]
-created: 2025-10-30T15:07:41Z
-last_reviewed: "2025-10-30"
-modified: 2026-02-01T15:08:25+00:00
-status: "seedling"
-tags: ["subconscious-processing", "TheHuman/Creativity", "work-flow", "writing"]
+aliases:
+- Subconscious Incubation
+- Unfinished Sentence Technique
+created: 2025-10-30 15:07:41+00:00
+last_reviewed: '2025-10-30'
+modified: 2026-02-01 15:08:25+00:00
+status: seedling
+tags:
+- subconscious-processing
+- TheHuman/Creativity
+- work-flow
+- writing
 title: The Hemingway Technique - End Work With Unfinished Problems
-type: "strategy"
-updated: 
+type: strategy
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/the-hemingway-technique-end-work-with-unfinished-problems
 ---
 
 ## The Hemingway Technique - End Work With Unfinished Problems

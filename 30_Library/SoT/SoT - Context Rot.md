@@ -1,9 +1,16 @@
 ---
-aliases: [Context Degradation, Perspective Drift, Session Entropy]
-created: 2026-01-30T08:30:00+00:00
-modified: 2026-02-01T15:08:00+00:00
-tags: [context-engineering, llm-failure-mode, prompt-engineering]
+aliases:
+- Context Degradation
+- Perspective Drift
+- Session Entropy
+created: 2026-01-30 08:30:00+00:00
+modified: 2026-02-01 15:08:00+00:00
+tags:
+- context-engineering
+- llm-failure-mode
+- prompt-engineering
 title: SoT - Context Rot
+permalink: llmeon/30-library/so-t/so-t-context-rot
 ---
 
 ## Context Rot

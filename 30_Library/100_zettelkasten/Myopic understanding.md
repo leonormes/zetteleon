@@ -1,13 +1,14 @@
 ---
 aliases: []
-created: 2025-07-26T16:23:39Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:30+00:00
-status: ""
+created: 2025-07-26 16:23:39+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:30+00:00
+status: ''
 tags: []
 title: Myopic understanding
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/myopic-understanding
 ---
 
 Why understanding matters. When you know something you can make accurate predictions. You understand or can see how some things effect others. The wider your view the more info you have to predict things or workout the reason something is happening.

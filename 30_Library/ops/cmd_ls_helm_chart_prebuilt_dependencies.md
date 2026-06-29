@@ -1,15 +1,21 @@
 ---
-created: 2026-02-22T16:56:53+00:00
+created: 2026-02-22 16:56:53+00:00
 hop_level: local
 last_verified: 2026-02-22
-modified: 2026-03-14T11:10:10+00:00
+modified: 2026-03-14 11:10:10+00:00
 requires_tunnel: false
 status: active
-tags: [cache, cmd, dependencies, git, helm]
+tags:
+- cache
+- cmd
+- dependencies
+- git
+- helm
 target_service: helm
 title: cmd_ls_helm_chart_prebuilt_dependencies
 tool: ls
 type: command
+permalink: llmeon/30-library/ops/cmd-ls-helm-chart-prebuilt-dependencies
 ---
 
 ## List Helm Chart Pre-Built Dependencies

@@ -1,15 +1,24 @@
 ---
-aliases: ["Defense in Depth", "Layered Defense", "Network Security Components", "Security Architecture"]
-created: 2026-04-02T12:00:00Z
+aliases:
+- Defense in Depth
+- Layered Defense
+- Network Security Components
+- Security Architecture
+created: 2026-04-02 12:00:00+00:00
 last_synthesis: 2026-04-02
-modified: 2026-05-26T11:44:18+00:00
+modified: 2026-05-26 11:44:18+00:00
 source_of_truth: true
 status: evergreen
 synthesis-count: 1
-tags: ["architecture", "infrastructure", "networking", "security"]
+tags:
+- architecture
+- infrastructure
+- networking
+- security
 title: SoT - Network Security Architecture
 trust-level: stable
-type: "SoT"
+type: SoT
+permalink: llmeon/30-library/so-t/so-t-network-security-architecture
 ---
 
 ## Minimum Viable Understanding (MVU)

@@ -1,15 +1,20 @@
 ---
-created: 2026-04-14T19:58:03+00:00
-created_utc: "2026-04-14T12:40:00Z"
+created: 2026-04-14 19:58:03+00:00
+created_utc: '2026-04-14T12:40:00Z'
 kind: mechanism
-modified: 2026-05-26T11:44:36+00:00
-source_title: "CUE — A Type System for the Cloud"
-source_url: "https://youtube.com/watch?v=qgNuOjSZL9Y"
+modified: 2026-05-26 11:44:36+00:00
+source_title: CUE — A Type System for the Cloud
+source_url: https://youtube.com/watch?v=qgNuOjSZL9Y
 status: seed
-tags: [computer-science, cue, lattice-theory, type-systems]
+tags:
+- computer-science
+- cue
+- lattice-theory
+- type-systems
 title: CUE Lattice Model
 type: atom
-upstream: "[[SoT - CUE Configuration]]"
+upstream: '[[SoT - CUE Configuration]]'
+permalink: llmeon/30-library/100-zettelkasten/cue-lattice-model
 ---
 
 ## CUE Lattice Model

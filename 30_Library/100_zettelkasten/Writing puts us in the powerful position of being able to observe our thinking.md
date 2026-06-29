@@ -1,13 +1,16 @@
 ---
 aliases: []
-created: 2025-05-23T10:08:29Z
-last_reviewed: "null"
-modified: 2026-02-01T15:08:23+00:00
-status: "null"
-tags: ["topic/pkm/zettelkasten", "topic/writing"]
+created: 2025-05-23 10:08:29+00:00
+last_reviewed: 'null'
+modified: 2026-02-01 15:08:23+00:00
+status: 'null'
+tags:
+- topic/pkm/zettelkasten
+- topic/writing
 title: Writing puts us in the powerful position of being able to observe our thinking
-type: "null"
-updated: 
+type: 'null'
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/writing-puts-us-in-the-powerful-position-of-being-able-to-observe-our-thinking
 ---
 
 Writing affords us the ability to observe our thinking.

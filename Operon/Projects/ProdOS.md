@@ -1,19 +1,20 @@
 ---
 status: Project.InProgress
 priority: A
-prodosProject: "ProdOS"
+prodosProject: ProdOS
 prodosCategory: prodos
 contexts:
-  - computer
-  - admin
+- computer
+- admin
 tags:
-  - operon/parent
-  - prodos
-datetimeCreated: 2026-06-11T16:00:00+01:00
+- operon/parent
+- prodos
+datetimeCreated: 2026-06-11 16:00:00+01:00
 Links:
-  - "[[gtd-action-system]]"
-  - "[[ProdOS System Overview and Development Progress]]"
-  - "[[SoT - Work Open Loops]]"
+- '[[gtd-action-system]]'
+- '[[ProdOS System Overview and Development Progress]]'
+- '[[SoT - Work Open Loops]]'
+permalink: llmeon/operon/projects/prod-os
 ---
 
 ## Definition of done

@@ -4,8 +4,13 @@ wiki_type: dossier
 entity_kind: project
 created: 2026-05-12T22:07:51+0000
 modified: 2026-05-12T22:07:51+0000
-tags: [wiki, dossier, project]
-sources: [raw/2026-05-12-pieces-hermes-mesh-dns]
+tags:
+- wiki
+- dossier
+- project
+sources:
+- raw/2026-05-12-pieces-hermes-mesh-dns
+permalink: llmeon/wiki/projects/hermes-mesh-dns
 ---
 
 The **Hermes MESH DNS** workstream was identified from Pieces LTM activity captured on 2026-05-12. This page tracks the project's scope, timeline, and key facts.

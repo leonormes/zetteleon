@@ -1,14 +1,19 @@
 ---
 type: claim
-tags: [adhd, perfectionism, iteration, system-design]
+tags:
+- adhd
+- perfectionism
+- iteration
+- system-design
 created: 2026-05-31
 contrasts_with:
-  - "[[System-Hopping]]"
-  - "[[Claim - ADHD perfectionism is maladaptive compensation]]"
+- '[[System-Hopping]]'
+- '[[Claim - ADHD perfectionism is maladaptive compensation]]'
 related_to:
-  - "[[Q - Iterating versus system-hopping]]"
-confidence:
+- '[[Q - Iterating versus system-hopping]]'
+confidence: null
 position-date: 2026-05-31
+permalink: llmeon/30-library/100-zettelkasten/claim-treat-the-system-as-iterative-not-perfectable
 ---
 
 # Claim — Treat the system as iterative, not perfectable

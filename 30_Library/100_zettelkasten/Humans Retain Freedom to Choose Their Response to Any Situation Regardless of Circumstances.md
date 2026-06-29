@@ -1,8 +1,14 @@
 ---
-created: 2026-04-10T00:00:00+00:00
-modified: 2026-05-26T11:44:35+00:00
-tags: [agency, freedom, mindset, resilience]
-title: Humans Retain Freedom to Choose Their Response to Any Situation Regardless of Circumstances
+created: 2026-04-10 00:00:00+00:00
+modified: 2026-05-26 11:44:35+00:00
+tags:
+- agency
+- freedom
+- mindset
+- resilience
+title: Humans Retain Freedom to Choose Their Response to Any Situation Regardless
+  of Circumstances
+permalink: llmeon/30-library/100-zettelkasten/humans-retain-freedom-to-choose-their-response-to-any-situation-regardless-of-circumstances
 ---
 
 ## Humans Retain Freedom to Choose Their Response to Any Situation Regardless of Circumstances

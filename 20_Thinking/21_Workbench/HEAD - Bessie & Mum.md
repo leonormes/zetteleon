@@ -1,9 +1,12 @@
 ---
 aliases: []
-created: 2026-06-10T00:00:55+00:00
-modified: 2026-06-10T10:49:54+00:00
-tags: [prodos/head, state/thinking]
+created: 2026-06-10 00:00:55+00:00
+modified: 2026-06-10 10:49:54+00:00
+tags:
+- prodos/head
+- state/thinking
 title: HEAD - Bessie & Mum
+permalink: llmeon/20-thinking/21-workbench/head-bessie-mum
 ---
 
 ## Conversation: Bessie & Mum (Yesterday 22:01–22:17) + Email from Nikki

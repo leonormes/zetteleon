@@ -1,13 +1,20 @@
 ---
-aliases: ["Gemini Guide", "Gemini Workflow"]
-created: 2025-12-21T00:00:00Z
-last_reviewed: "2025-12-21"
-modified: 2026-02-01T15:07:57+00:00
-status: "evolving"
-tags: ["gemini-cli", "guide", "tools", "workflow"]
+aliases:
+- Gemini Guide
+- Gemini Workflow
+created: 2025-12-21 00:00:00+00:00
+last_reviewed: '2025-12-21'
+modified: 2026-02-01 15:07:57+00:00
+status: evolving
+tags:
+- gemini-cli
+- guide
+- tools
+- workflow
 title: SoT - Gemini CLI Operations & Workflow
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-gemini-cli-operations-workflow
 ---
 
 1. Runtime: " Requires Node.js v20 or higher."

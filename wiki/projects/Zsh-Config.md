@@ -2,14 +2,18 @@
 title: Zsh Config — Vim Command-Line Editing
 wiki_type: dossier
 entity_kind: project
-created: 2026-05-21T13:30:00+00:00
-modified: 2026-05-22T07:29:00+00:00
-tags: [wiki, dossier, project]
+created: 2026-05-21 13:30:00+00:00
+modified: 2026-05-22 07:29:00+00:00
+tags:
+- wiki
+- dossier
+- project
 sources:
-  - raw/2026-05-21-pieces-zsh-config
-  - raw/2026-05-21-pieces-zsh-edit-command-line-response
+- raw/2026-05-21-pieces-zsh-config
+- raw/2026-05-21-pieces-zsh-edit-command-line-response
 connections:
-  - [[Chezmoi]]
+- - - Chezmoi
+permalink: llmeon/wiki/projects/zsh-config
 ---
 
 ## Summary

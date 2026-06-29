@@ -1,15 +1,20 @@
 ---
-created: 2026-04-14T20:25:21+00:00
-created_utc: "2026-04-14T13:00:00Z"
+created: 2026-04-14 20:25:21+00:00
+created_utc: '2026-04-14T13:00:00Z'
 kind: heuristic
-modified: 2026-05-26T11:44:31+00:00
-source_title: "Azure Entra Identity Best Practices & Remediation Plan"
-source_url: "https://gemini.google.com/app/90721765fb79ed7a"
+modified: 2026-05-26 11:44:31+00:00
+source_title: Azure Entra Identity Best Practices & Remediation Plan
+source_url: https://gemini.google.com/app/90721765fb79ed7a
 status: seed
-tags: [2026-trends, ai-governance, security, workload-identity]
+tags:
+- 2026-trends
+- ai-governance
+- security
+- workload-identity
 title: Workload Identity Governance
 type: atom
-upstream: "[[SoT - Microsoft Entra Identity]]"
+upstream: '[[SoT - Microsoft Entra Identity]]'
+permalink: llmeon/30-library/100-zettelkasten/workload-identity-governance
 ---
 
 ## Workload Identity Governance

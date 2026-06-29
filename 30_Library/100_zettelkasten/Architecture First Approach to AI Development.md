@@ -1,14 +1,19 @@
 ---
 aliases: []
-created: 2025-10-10T08:29:26Z
-id: "20251008_Architecture_First_Approach_to_AI_Development"
-last_reviewed: ""
-modified: 2026-02-01T15:08:36+00:00
-status: ""
-tags: ["ADR", "Architecture", "Planning", "SoftwareEngineering/AI"]
+created: 2025-10-10 08:29:26+00:00
+id: 20251008_Architecture_First_Approach_to_AI_Development
+last_reviewed: ''
+modified: 2026-02-01 15:08:36+00:00
+status: ''
+tags:
+- ADR
+- Architecture
+- Planning
+- SoftwareEngineering/AI
 title: Architecture First Approach to AI Development
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/architecture-first-approach-to-ai-development
 ---
 
 An Architecture-First Approach is a disciplined methodology for developing AI agent systems that prioritises planning and documentation before code generation. This counters the tendency to jump directly to autonomous agents, which often results in unmaintainable code that lacks context.

@@ -1,13 +1,21 @@
 ---
 aliases: []
-created: 2025-10-26T11:07:00Z
-last_reviewed: "2025-12-16T00:00:00.000Z"
-modified: 2026-02-01T15:08:31+00:00
-status: "pending"
-tags: ["ai", "executive-function", "experiment", "hypothesis", "templates", "TheHuman/Health/ADHD", "topic/productivity"]
+created: 2025-10-26 11:07:00+00:00
+last_reviewed: '2025-12-16T00:00:00.000Z'
+modified: 2026-02-01 15:08:31+00:00
+status: pending
+tags:
+- ai
+- executive-function
+- experiment
+- hypothesis
+- templates
+- TheHuman/Health/ADHD
+- topic/productivity
 title: Leveraging AI and Templates for ADHD Productivity
-type: "hypothesis"
-updated: 
+type: hypothesis
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/leveraging-ai-and-templates-for-adhd-productivity
 ---
 
 ## 1. The Hypothesis

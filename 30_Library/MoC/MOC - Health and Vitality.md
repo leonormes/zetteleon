@@ -1,13 +1,21 @@
 ---
-aliases: [Health MOC, Physical and Mental Performance Map, Vitality Index]
-created: 2025-12-22T12:15:00Z
+aliases:
+- Health MOC
+- Physical and Mental Performance Map
+- Vitality Index
+created: 2025-12-22 12:15:00+00:00
 last_reviewed: 2026-04-08
-modified: 2026-05-26T11:44:22+00:00
+modified: 2026-05-26 11:44:22+00:00
 status: stable
-tags: [fitness, health, index, vitality]
+tags:
+- fitness
+- health
+- index
+- vitality
 title: MOC - Health and Vitality
 type: map
-updated:
+updated: null
+permalink: llmeon/30-library/mo-c/moc-health-and-vitality
 ---
 
 ## 1. The Core Philosophy

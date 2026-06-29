@@ -1,13 +1,17 @@
 ---
-aliases: ["Intentional Unfinishing"]
-created: 2025-11-11T19:05:07Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:31+00:00
-status: "seedling"
-tags: ["task-management", "topic/productivity"]
+aliases:
+- Intentional Unfinishing
+created: 2025-11-11 19:05:07+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:31+00:00
+status: seedling
+tags:
+- task-management
+- topic/productivity
 title: Leaving a Task Intentionally Unfinished Creates a Clear Starting Point
-type: "strategy"
-updated: 
+type: strategy
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/leaving-a-task-intentionally-unfinished-creates-a-clear-starting-point
 ---
 
 ## Leaving a Task Intentionally Unfinished Creates a Clear Starting Point

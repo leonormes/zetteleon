@@ -1,13 +1,18 @@
 ---
 aliases: []
-created: 2025-12-14T00:00:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:03+00:00
-status: "stable"
-tags: ["mathematics", "mental_model", "team_dynamics", "topic/systems"]
+created: 2025-12-14 00:00:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:03+00:00
+status: stable
+tags:
+- mathematics
+- mental_model
+- team_dynamics
+- topic/systems
 title: Resource - Mathematical Model of Team Understanding
-type: "Resource"
-updated: 
+type: Resource
+updated: null
+permalink: llmeon/30-library/so-t/resource-mathematical-model-of-team-understanding
 ---
 
 ## 🏗️ Runtime Protocol: "Debugging the Team"

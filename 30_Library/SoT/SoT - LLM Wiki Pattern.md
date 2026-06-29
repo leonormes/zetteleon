@@ -1,15 +1,26 @@
 ---
-aliases: [Compounding Knowledge Base, LLM Wiki, Persistent Knowledge Architecture, RAG Limitation]
-created: 2026-04-06T19:00:00+01:00
+aliases:
+- Compounding Knowledge Base
+- LLM Wiki
+- Persistent Knowledge Architecture
+- RAG Limitation
+created: 2026-04-06 19:00:00+01:00
 last-synthesis: 2026-04-06
-modified: 2026-05-26T11:44:19+00:00
+modified: 2026-05-26 11:44:19+00:00
 source_of_truth: true
 status: stable
 synthesis-count: 1
-tags: [ai-engineering, architecture, knowledge-management, llm, rag, sot]
+tags:
+- ai-engineering
+- architecture
+- knowledge-management
+- llm
+- rag
+- sot
 title: SoT - LLM Wiki Pattern
 trust-level: stable
 type: SoT
+permalink: llmeon/30-library/so-t/so-t-llm-wiki-pattern
 ---
 
 ## Minimum Viable Understanding (MVU)

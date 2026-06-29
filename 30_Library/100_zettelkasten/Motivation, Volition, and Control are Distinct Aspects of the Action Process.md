@@ -1,13 +1,17 @@
 ---
 aliases: []
-created: 2025-11-12T14:10:07Z
-last_reviewed: ""
-modified: 2026-05-26T11:44:34+00:00
-status: "stable"
-tags: ["action", "TheHuman/Motivation", "TheHuman/Psychology"]
+created: 2025-11-12 14:10:07+00:00
+last_reviewed: ''
+modified: 2026-05-26 11:44:34+00:00
+status: stable
+tags:
+- action
+- TheHuman/Motivation
+- TheHuman/Psychology
 title: Motivation, Volition, and Control are Distinct Aspects of the Action Process
-type: "concept"
-updated: 
+type: concept
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/motivation-volition-and-control-are-distinct-aspects-of-the-action-process
 ---
 
 ## Motivation, Volition, and Control Are Distinct Aspects of the Action Process

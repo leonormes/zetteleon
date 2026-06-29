@@ -1,13 +1,22 @@
 ---
-aliases: ["Vault Architecture", "Vault Data Model", "Vault Internal Design"]
-created: 2025-12-25T12:00:00Z
-last_reviewed: "2025-12-25"
-modified: 2026-02-01T15:07:57+00:00
-status: "stable"
-tags: ["data_structures", "hashicorp", "SoftwareEngineering/Architecture", "SoftwareEngineering/Security", "vault"]
+aliases:
+- Vault Architecture
+- Vault Data Model
+- Vault Internal Design
+created: 2025-12-25 12:00:00+00:00
+last_reviewed: '2025-12-25'
+modified: 2026-02-01 15:07:57+00:00
+status: stable
+tags:
+- data_structures
+- hashicorp
+- SoftwareEngineering/Architecture
+- SoftwareEngineering/Security
+- vault
 title: SoT - HashiCorp Vault Architecture
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-hashi-corp-vault-architecture
 ---
 
 ## 1. The First-Principles Mental Model

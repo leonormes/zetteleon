@@ -1,9 +1,18 @@
 ---
-title: "Hermes Config Update — Cursor Validation & Test Plan"
-created: 2026-05-29T06:39:00+00:00
+title: Hermes Config Update — Cursor Validation & Test Plan
+created: 2026-05-29 06:39:00+00:00
 source: pieces-ltm
-pieces_ids: [e987359e-137c-41e4-9d84-e9b63f7cddd5, 2c964efb-aca8-44ae-80f6-9a9517445ed2, d7a00c51-b046-4deb-b3a1-cfa991a5a526, eae1f61b-3629-41a3-aba3-3941884f97d1, 7b9e7648-7660-4547-82ee-f829cf6a68f1, 86bf2b5e-a70f-41d1-9472-b0a05b8987e7]
-tags: [raw, pieces]
+pieces_ids:
+- e987359e-137c-41e4-9d84-e9b63f7cddd5
+- 2c964efb-aca8-44ae-80f6-9a9517445ed2
+- d7a00c51-b046-4deb-b3a1-cfa991a5a526
+- eae1f61b-3629-41a3-aba3-3941884f97d1
+- 7b9e7648-7660-4547-82ee-f829cf6a68f1
+- 86bf2b5e-a70f-41d1-9472-b0a05b8987e7
+tags:
+- raw
+- pieces
+permalink: llmeon/raw/2026-05-28-pieces-hermes-config-validation
 ---
 
 ## Asset 1 — User Request (Pieces: 2c964efb-aca8-44ae-80f6-9a9517445ed2)

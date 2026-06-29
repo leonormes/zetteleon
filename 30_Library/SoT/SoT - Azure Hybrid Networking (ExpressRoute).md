@@ -1,14 +1,24 @@
 ---
-alias: ["Azure ExpressRoute Architecture", "Azure Secure Egress", "ExpressRoute Isolation", "Hybrid Cloud Security"]
+alias:
+- Azure ExpressRoute Architecture
+- Azure Secure Egress
+- ExpressRoute Isolation
+- Hybrid Cloud Security
 aliases: []
-created: 2025-12-30T11:41:24+00:00
-last_reviewed: "2025-12-30"
-modified: 2026-02-01T15:08:01+00:00
-status: "stable"
-tags: ["azure", "hybrid_cloud", "SoftwareEngineering/Architecture", "SoftwareEngineering/Networking", "SoftwareEngineering/Security"]
+created: 2025-12-30 11:41:24+00:00
+last_reviewed: '2025-12-30'
+modified: 2026-02-01 15:08:01+00:00
+status: stable
+tags:
+- azure
+- hybrid_cloud
+- SoftwareEngineering/Architecture
+- SoftwareEngineering/Networking
+- SoftwareEngineering/Security
 title: SoT - Azure Hybrid Networking (ExpressRoute)
-type: "SoT"
-updated: 
+type: SoT
+updated: null
+permalink: llmeon/30-library/so-t/so-t-azure-hybrid-networking-express-route
 ---
 
 ## 1. Core Architecture

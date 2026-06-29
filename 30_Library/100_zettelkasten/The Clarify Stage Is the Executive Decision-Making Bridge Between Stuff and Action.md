@@ -1,8 +1,14 @@
 ---
-created: 2026-04-10T00:00:00+00:00
-modified: 2026-05-26T11:44:32+00:00
-tags: [decision-making, gtd, productivity, workflow]
-title: The Clarify Stage Is the Executive Decision-Making Bridge Between Stuff and Action
+created: 2026-04-10 00:00:00+00:00
+modified: 2026-05-26 11:44:32+00:00
+tags:
+- decision-making
+- gtd
+- productivity
+- workflow
+title: The Clarify Stage Is the Executive Decision-Making Bridge Between Stuff and
+  Action
+permalink: llmeon/30-library/100-zettelkasten/the-clarify-stage-is-the-executive-decision-making-bridge-between-stuff-and-action
 ---
 
 ## The Clarify Stage Is the Executive Decision-Making Bridge Between Stuff and Action

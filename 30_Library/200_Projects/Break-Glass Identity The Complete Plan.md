@@ -1,11 +1,12 @@
 ---
-created: 2026-05-15T12:34:55+00:00
-modified: 2026-06-08T11:49:15+00:00
+created: 2026-05-15 12:34:55+00:00
+modified: 2026-06-08 11:49:15+00:00
 project_category: refined_deployment
 project_name: Refined Deployment
 project_status: active
 title: Break-Glass Identity The Complete Plan
-type:
+type: null
+permalink: llmeon/30-library/200-projects/break-glass-identity-the-complete-plan
 ---
 
 ## 1. Critique of the Draft

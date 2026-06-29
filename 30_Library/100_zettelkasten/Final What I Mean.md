@@ -1,16 +1,17 @@
 ---
 aliases: []
-created: 2025-11-19T21:43:33Z
-last_reviewed: ""
-modified: 2026-05-26T11:44:35+00:00
+created: 2025-11-19 21:43:33+00:00
+last_reviewed: ''
+modified: 2026-05-26 11:44:35+00:00
 see_also: []
-status: ""
-superseded_by: ""
-supersedes: ""
+status: ''
+superseded_by: ''
+supersedes: ''
 tags: []
 title: Final What I Mean
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/final-what-i-mean
 ---
 
 💡 Consolidated Note: Relationship Dynamic vs. Personality

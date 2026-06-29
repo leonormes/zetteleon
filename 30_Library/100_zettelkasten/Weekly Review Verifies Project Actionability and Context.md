@@ -1,13 +1,18 @@
 ---
 aliases: []
-created: 2025-11-10T15:19:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:23+00:00
-status: "seedling"
-tags: ["gtd", "project-management", "topic/productivity", "weekly-review"]
+created: 2025-11-10 15:19:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:23+00:00
+status: seedling
+tags:
+- gtd
+- project-management
+- topic/productivity
+- weekly-review
 title: Weekly Review Verifies Project Actionability and Context
-type: "instructional"
-updated: 
+type: instructional
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/weekly-review-verifies-project-actionability-and-context
 ---
 
 ## Weekly Review Verifies Project Actionability and Context

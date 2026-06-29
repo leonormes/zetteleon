@@ -1,11 +1,12 @@
 ---
-created: 2026-04-16T11:17:09+00:00
-modified: 2026-06-08T11:49:15+00:00
+created: 2026-04-16 11:17:09+00:00
+modified: 2026-06-08 11:49:15+00:00
 project_category: omop
 project_name: OMOP
 project_status: active
 title: 12 Million Patient Synthetic NHS-OMOP Pipeline
-type:
+type: null
+permalink: llmeon/30-library/200-projects/12-million-patient-synthetic-nhs-omop-pipeline
 ---
 
 This project structure organises the development of a high-scale, research-ready synthetic environment for the NHS. It prioritises the transition from raw clinical simulation to a structured OMOP Common Data Model (CDM) that handles 12 million patient identities and their associated 12 billion clinical rows.

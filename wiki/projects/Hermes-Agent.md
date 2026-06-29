@@ -3,9 +3,15 @@ title: Hermes Agent
 wiki_type: dossier
 entity_kind: project
 created: 2026-05-12T22:07:54+0000
-modified: 2026-05-16T09:13:00+01:00
-tags: [wiki, dossier, project]
-sources: [raw/2026-05-12-pieces-hermes-agent, raw/2026-05-16-pieces-hermes-session]
+modified: 2026-05-16 09:13:00+01:00
+tags:
+- wiki
+- dossier
+- project
+sources:
+- raw/2026-05-12-pieces-hermes-agent
+- raw/2026-05-16-pieces-hermes-session
+permalink: llmeon/wiki/projects/hermes-agent
 ---
 
 The **Hermes Agent** workstream was identified from Pieces LTM activity captured on 2026-05-12. This page tracks the project's scope, timeline, and key facts.

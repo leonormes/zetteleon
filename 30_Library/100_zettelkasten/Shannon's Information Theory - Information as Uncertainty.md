@@ -1,13 +1,16 @@
 ---
 aliases: []
-created: 2025-08-26T09:26:38Z
-last_reviewed: ""
-modified: 2026-05-26T11:44:33+00:00
-status: ""
-tags: ["information", 3]
-title: "Shannon's Information Theory - Information as Uncertainty"
-type: ""
-updated: 
+created: 2025-08-26 09:26:38+00:00
+last_reviewed: ''
+modified: 2026-05-26 11:44:33+00:00
+status: ''
+tags:
+- information
+- 3
+title: Shannon's Information Theory - Information as Uncertainty
+type: ''
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/shannons-information-theory-information-as-uncertainty
 ---
 
 💡 In Claude Shannon's formal information theory, information is a measure of uncertainty or surprise. The information content of a message is quantified by how much it reduces the receiver's uncertainty.

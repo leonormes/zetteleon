@@ -1,13 +1,19 @@
 ---
 aliases: []
-created: 2025-10-24T15:37:00Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:31+00:00
-status: ""
-tags: ["authorization", "IAM", "least-privilege", "RBAC", "SoftwareEngineering/Security"]
+created: 2025-10-24 15:37:00+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:31+00:00
+status: ''
+tags:
+- authorization
+- IAM
+- least-privilege
+- RBAC
+- SoftwareEngineering/Security
 title: Least Privilege Authorization with Terraform Cloud
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/least-privilege-authorization-with-terraform-cloud
 ---
 
 Applying the principle of least privilege is critical when configuring authorization for Terraform Cloud, especially when using [[Dynamic Provider Credentials (DPC) in Terraform Cloud|Dynamic Provider Credentials]]. This means granting only the minimum necessary permissions for Terraform runs to perform their intended operations, and nothing more.

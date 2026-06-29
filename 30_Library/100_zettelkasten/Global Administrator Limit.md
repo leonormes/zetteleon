@@ -1,15 +1,19 @@
 ---
-created: 2026-04-14T20:25:14+00:00
-created_utc: "2026-04-14T13:00:00Z"
+created: 2026-04-14 20:25:14+00:00
+created_utc: '2026-04-14T13:00:00Z'
 kind: constraint
-modified: 2026-05-26T11:44:35+00:00
-source_title: "Azure Entra Identity Best Practices & Remediation Plan"
-source_url: "https://gemini.google.com/app/90721765fb79ed7a"
+modified: 2026-05-26 11:44:35+00:00
+source_title: Azure Entra Identity Best Practices & Remediation Plan
+source_url: https://gemini.google.com/app/90721765fb79ed7a
 status: seed
-tags: [blast-radius, governance, identity-management]
+tags:
+- blast-radius
+- governance
+- identity-management
 title: Global Administrator Limit
 type: atom
-upstream: "[[SoT - Microsoft Entra Identity]]"
+upstream: '[[SoT - Microsoft Entra Identity]]'
+permalink: llmeon/30-library/100-zettelkasten/global-administrator-limit
 ---
 
 ## Global Administrator Limit

@@ -1,13 +1,14 @@
 ---
 aliases: []
-created: 2025-09-16T12:25:36Z
-last_reviewed: ""
-modified: 2026-02-01T15:08:31+00:00
-status: ""
+created: 2025-09-16 12:25:36+00:00
+last_reviewed: ''
+modified: 2026-02-01 15:08:31+00:00
+status: ''
 tags: []
 title: Mass-Energy Equivalence (E-mc-)
-type: ""
-updated: 
+type: ''
+updated: null
+permalink: llmeon/30-library/100-zettelkasten/mass-energy-equivalence-e-mc
 ---
 
 - Energy = Mass × (Speed of Light)^2

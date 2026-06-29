@@ -1,8 +1,11 @@
 ---
-created: 2026-06-11T16:00:00+01:00
-modified: 2026-06-11T17:00:00+01:00
+created: 2026-06-11 16:00:00+01:00
+modified: 2026-06-11 17:00:00+01:00
 title: Operon Dashboard
-tags: [operon, dashboard]
+tags:
+- operon
+- dashboard
+permalink: llmeon/operon/operon-dashboard
 ---
 
 ## Operon Dashboard
