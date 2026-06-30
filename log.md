@@ -961,3 +961,27 @@ Append-only—never edit past entries.
 - **Vault files modified in window:** 2 (daily journal, SoT Work Open Loops — both CoS cron updates)
 - **Workstreams identified:** None via Pieces
 - **Flags:** Pieces dormant — latest asset 2026-06-23T08:42:52Z (~10h ago). No new user activity or projects detected. FTFL-464 (Calico Cloud removal) moved to Ready for Review at 12:01; all other items stable since 14:01. Pieces OS healthy (REST API `ok`, 11,791 total assets).
+## 2026-06-29 16:09 — Project Check-In (cron/4h)
+
+- **Action:** Ingest (Pieces OS REST API — `http://localhost:39300/messages`)
+- **Raw sources created:** none
+- **Wiki pages created:** none
+- **Wiki pages updated:** none
+- **Pieces assets in DB:** 12,164
+- **In 4h window:** 3 (14:09–16:09 UTC; 0 substantive — all noise from `pieces ask` probe: 1 USER, 1 SYSTEM_ERROR, 1 SYSTEM_COMPLETION)
+- **In 24h window:** 123 total; 17 substantive (all from conversation `af8d6c43` — ArgoCD ACR 401 investigation at 08:16–08:45 UTC, outside 4h window)
+- **Vault files modified in window (via `find -mmin -240`):**
+  - `01_journals/Dailies/2026-06-29.md` — CoS cron updates (08:18, 10:02, 12:06, 14:01, 16:02)
+  - `00_Inbox/CLARIFY - Make versioned helm charts.md` — Todoist capture, CLARIFY-processed at 12:36 UTC (template with questions, not actioned)
+  - `30_Library/SoT/SoT - Data-Oriented Design.md` — Chronos synthesis update at 11:18 UTC
+  - `30_Library/200_Projects/GitLab CI integration.md` — existing project page updated at 12:12 UTC
+  - `200_projects/ProdOS/SoT - Work Open Loops.md` — CoS work tracking update
+- **Workstreams identified via daily journal:**
+  - (A) **FTFL-752 ACR credential fix** — went NEW → Ready for review by 12:06 UTC. Maps to existing [[wiki/projects/Azure-AKS]] + [[wiki/projects/FITFILE Deployment — ArgoCD + Helm]]
+  - (B) **FTFL-694 Phase 0 activation** — lingering top priority, no discernible progress
+  - (C) **"Make versioned helm charts"** — Todoist inbox item, CLARIFY-processed, not yet a project
+- **New project pages created:** 0
+- **Flags:**
+  - Pieces captured zero substantive assets in the 4h window despite vault activity (CoS cron, CLARIFY note). Pieces Copilot was active at 08:16–08:45 (ACR investigation) but that session ended before the 4h window.
+  - The CLARIFY note "Make versioned helm charts" is an unactioned inbox item — not yet a project. Monitor for follow-up in the next check-in.
+  - Pieces OS healthy (REST API `ok`), 12,164 total assets (up from 11,791 on Jun 23).

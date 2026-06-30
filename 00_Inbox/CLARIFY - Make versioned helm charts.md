@@ -1,9 +1,8 @@
 ---
 title: CLARIFY - Make versioned helm charts
-type: head
 tags:
-- clarify
-- inbox
+  - clarify
+  - inbox
 status: processing
 permalink: llmeon/00-inbox/clarify-make-versioned-helm-charts
 ---

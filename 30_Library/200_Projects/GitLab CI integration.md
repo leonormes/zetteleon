@@ -6,82 +6,23 @@ source: https://fitfile.atlassian.net/wiki/spaces/FITFILE/pages/2865528839
 captured: 2026-06-16T10:24:16+01:00 2026-06-16T10:24:16+01:00
 status: processing
 tags:
-- input
-- wiki
-- project
-- pieces
-- raw
-- confluence
-- pipeline
-- devops
-- cicd
-- fitfile
-type: head
+  - input
+  - wiki
+  - project
+  - pieces
+  - raw
+  - confluence
+  - pipeline
+  - devops
+  - cicd
+  - fitfile
+type:
 wiki_type: dossier
 entity_kind: project
 sources:
-- raw/2026-06-15-pieces-fitfile-cd-decision-document.md
-pieces_ids:
-- 017a945b-9379-448c-927a-7cf41974856e
-- 04265a3d-8617-461a-94ee-80425efde9b9
-- 0bf136a7-4c96-4232-9dbd-3e384945aa8c
-- 1192d0e9-fcb1-4815-bed3-0bd57b40fe49
-- 130e5cba-ed45-4b18-b16e-633b153c23e2
-- 1329d94d-55d1-460c-b013-54e3bee6848d
-- 13e151f2-c4bc-4f9a-8b0e-86933f24aa20
-- 187acfde-54bd-48f5-ab18-01ecfd3211d6
-- 1c1a00a0-b472-4272-b563-b1bd32e2d670
-- 2b058bc8-852e-49b5-9b0d-51cc5dd80fb4
-- 2bb08af2-e414-42cf-8d87-cbb614cd6b49
-- 2e47bae8-6903-4314-8585-7c9872d5b13d
-- 3583200e-fbbf-4a4e-8137-0c26ca3e5536
-- 3e1b3088-e6d2-45f8-95ab-6bb492bd8a80
-- 3e638ce7-6ed1-4821-a9a8-f6acc242243f
-- 4144541f-38e0-4a5d-b9cf-d9bab9974e57
-- 4feef0f8-b32f-4b2d-bbbe-d97ea32a1c80
-- 50273ba1-3f2f-40a1-92a0-8617e29f0899
-- 53a3d427-6ef3-4404-8d58-64d577b6a6cf
-- 56a2daf3-1699-4293-b6f0-709fbb9910be
-- 5ee6a861-a0d1-4430-8b2e-67e41c9044bd
-- 66b0ad9d-0bdb-4089-9d81-88986ffaaefa
-- 683a8f86-e68f-4ea7-8ec2-86cbf55ca2fc
-- 6cdb1fae-305f-4573-87ce-696d18b3df1a
-- 6d06c865-b188-4f49-bedd-c204a815e5f8
-- 76b3bb5e-3cae-403c-85fb-749c83daf28d
-- 776687bc-2a93-4ddc-b1e2-d09dcb93852b
-- 82a04cb2-9372-4852-af49-9094488c831e
-- 9623cb69-317b-496c-9ac5-fc648189c700
-- 9907164d-1153-4afd-ae87-adb86015d98b
-- 9a4c746e-1c35-4492-9f7e-d03a0db8a892
-- 9af79ec8-961a-4d75-bdca-77ce0eb923bf
-- a2c593a5-4222-4c61-95e7-4af9af7525be
-- a3d8bce9-c562-4ce0-9611-97ff5e96ee4b
-- abe2a222-2b50-411d-abf3-fe26e748ba26
-- ae491f53-7ab7-45e5-a1b8-4e02d27d9d4a
-- b4544219-519d-4aaa-83c7-7f746c9eda2a
-- bc4435a0-1d29-415a-8b98-4cb23240e926
-- c37ad7b5-b64f-4b36-a21a-61be63bcbb6a
-- c3f12af1-6e53-4435-9860-d6754a52ca47
-- c41af587-601e-4a85-9dd7-b74af884a23f
-- c5b37391-5279-4dec-83b1-6bedee366890
-- c69ff873-92ef-4a20-8ee3-01807a68142c
-- cabbfee4-3220-4df9-a2a6-53cb8525c444
-- cdb03d62-e993-466b-b8f2-b52835a6ae81
-- cdf356ba-21de-4dc7-9482-27e55249cfaa
-- ce524e0c-413a-4742-8c5e-a3ea507d61a0
-- ced7ca4a-67a2-42ef-88d7-579b3e2fee20
-- d31ef930-3769-47b2-b8ea-ac703271fcdf
-- e084e6c9-b10e-48bd-97ed-0f69fb0345d1
-- ea94e506-0435-47f1-b9f1-aa507a96ce74
-- ebc8ddd5-2694-46fe-9dff-584b1b1b327b
-- ef7f5834-16c5-47c7-a442-4a838d6fe460
-- f42dfba0-ccd8-4ccd-af3c-ff5077b8f4cb
-- f60aca38-6297-435c-8518-71164d40a11a
-- f724059b-1794-4c72-a76d-a90c0e979434
-- f7373b73-3140-4f54-abd1-bcc212b47dd0
-- ff00d840-a200-4108-98b7-eb9d43ef9bfc
+  - raw/2026-06-15-pieces-fitfile-cd-decision-document.md
 alias:
-- FITFILE CI/CD Pipeline Design Document
+  - FITFILE CI/CD Pipeline Design Document
 project_name: Pipeline
 permalink: llmeon/30-library/200-projects/git-lab-ci-integration
 ---

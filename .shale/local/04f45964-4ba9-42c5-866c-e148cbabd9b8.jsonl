@@ -1,0 +1,5 @@
+{"kind":"session_meta","at":"2026-06-29T07:25:21.556934Z","tool":"claude-code","model":"claude-sonnet-4-6","session_id":"04f45964-4ba9-42c5-866c-e148cbabd9b8"}
+{"kind":"prompt","at":"2026-06-29T07:26:52.468008Z","text":"/fort:fort-report"}
+{"kind":"command","at":"2026-06-29T07:27:01.222675Z","cmd":"fort --version 2\u003e\u00261"}
+{"kind":"session_end","at":"2026-06-29T07:27:13.025907Z"}
+{"kind":"session_end","at":"2026-06-29T07:47:31.365451Z"}
