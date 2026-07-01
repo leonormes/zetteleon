@@ -1,7 +1,7 @@
 ---
 title: Agent Review Queue
-created: 2026-06-29 00:00:00+00:00
-modified: 2026-06-29 00:00:00+00:00
+created: 2026-06-29T00:00:00+00:00
+modified: 2026-07-01T09:38:20+00:00
 tags:
   - system
   - agents
@@ -59,3 +59,7 @@ SORT file.mtime DESC
 5. Change `status: proposed` → `status: reviewed`.
 6. If the claim holds up: copy it to `30_Library/100_zettelkasten/Claim - <title>.md`, set `type: claim`, add typed links (`related_to`, `contrasts_with`).
 7. Delete or archive the stub in `raw/proposed-claims/`.
+
+
+
+
