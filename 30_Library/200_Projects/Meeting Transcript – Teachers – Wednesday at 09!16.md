@@ -1,10 +1,10 @@
 ---
-created: 2026-05-04 08:01:26+00:00
-modified: 2026-06-08 11:49:24+00:00
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-07-04T10:51:28+00:00
+permalink: llmeon/30-library/200-projects/meeting-transcript-teachers-wednesday-at-09-16
 project_name: Bessie
 title: Meeting Transcript – Teachers – Wednesday at 09!16
 type: note
-permalink: llmeon/30-library/200-projects/meeting-transcript-teachers-wednesday-at-09-16
 ---
 
 Meeting Transcript–Teachers–Wednesday at 09:16

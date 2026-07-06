@@ -1,12 +1,12 @@
 ---
-created: 2026-04-17 07:23:48+00:00
-modified: 2026-06-08 11:49:22+00:00
+created: 2026-04-17T07:23:48+00:00
+modified: 2026-07-04T10:51:25+00:00
+permalink: llmeon/30-library/200-projects/position-statement-clinical-fidelity-in-synthetic-omop-data-generation
 project_category: omop
 project_name: OMOP
 project_status: active
 title: Position Statement Clinical Fidelity in Synthetic OMOP Data Generation
 type: null
-permalink: llmeon/30-library/200-projects/position-statement-clinical-fidelity-in-synthetic-omop-data-generation
 ---
 
 ## My Position

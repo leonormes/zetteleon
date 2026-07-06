@@ -1,34 +1,11 @@
 ---
-created: 2026-05-26 11:42:49+00:00
-modified: 2026-05-26 11:43:29+00:00
-pieces_ids:
-- 0a17788f-c374-4d98-bb00-0675830aa37e
-- 17d6a7d9-e663-4976-9393-c4b56b436d05
-- 29459891-a006-46cf-82b5-2a16e2a03de3
-- 34b0e586-ebd1-4a4a-bd93-5a5acfcea103
-- 435c7268-168d-4c24-a0b2-af2cde06beef
-- 4c07fa14-4e4d-483b-b08d-78f26061c256
-- 56fb26e6-2a2d-403a-9a06-22c775f5546f
-- 58d84b67-11ff-473a-aae5-ded1cab03da1
-- 7b5ffddd-40e0-450d-81cc-e2c2d71eb7a8
-- 85cd9eeb-e088-40f7-89c2-a37b62b30861
-- 8720efc8-0a3b-451f-9eb5-205b57814cba
-- 896a77b5-af01-45f5-afca-79c3477c96f9
-- 91514026-6fa3-40c3-8f39-5a93f61f1001
-- 94288a8e-651f-4e20-bbf6-900a87045b45
-- 98819efa-e7a0-44cf-b1c3-7f498d05238c
-- 9d3580da-5501-49f8-a21d-bd2d2c44e302
-- a4a022a8-da3e-4441-bde2-ea169522e510
-- e8969234-0dc4-49a5-8655-efd1f1d184ed
-- efef4a83-ad2a-4f34-a746-0b30efe9132a
-- f373112b-c0ed-45fb-889b-9cfa43b202bb
-- f8b50902-f187-4dda-837e-19a45f9f61d2
-source: pieces-ltm
-tags:
-- pieces
-- raw
-title: 2026-05-26-pieces-prodos-workflow-design
+created: 2026-05-26T11:42:49+00:00
+modified: 2026-07-04T10:49:51+00:00
 permalink: llmeon/raw/2026-05-26-pieces-prodos-workflow-design
+pieces_ids: [0a17788f-c374-4d98-bb00-0675830aa37e, 17d6a7d9-e663-4976-9393-c4b56b436d05, 29459891-a006-46cf-82b5-2a16e2a03de3, 34b0e586-ebd1-4a4a-bd93-5a5acfcea103, 435c7268-168d-4c24-a0b2-af2cde06beef, 4c07fa14-4e4d-483b-b08d-78f26061c256, 56fb26e6-2a2d-403a-9a06-22c775f5546f, 58d84b67-11ff-473a-aae5-ded1cab03da1, 7b5ffddd-40e0-450d-81cc-e2c2d71eb7a8, 85cd9eeb-e088-40f7-89c2-a37b62b30861, 8720efc8-0a3b-451f-9eb5-205b57814cba, 896a77b5-af01-45f5-afca-79c3477c96f9, 91514026-6fa3-40c3-8f39-5a93f61f1001, 94288a8e-651f-4e20-bbf6-900a87045b45, 98819efa-e7a0-44cf-b1c3-7f498d05238c, 9d3580da-5501-49f8-a21d-bd2d2c44e302, a4a022a8-da3e-4441-bde2-ea169522e510, e8969234-0dc4-49a5-8655-efd1f1d184ed, efef4a83-ad2a-4f34-a746-0b30efe9132a, f373112b-c0ed-45fb-889b-9cfa43b202bb, f8b50902-f187-4dda-837e-19a45f9f61d2]
+source: pieces-ltm
+tags: [pieces, raw]
+title: 2026-05-26-pieces-prodos-workflow-design
 ---
 
 ## Asset 1 (Pieces: 896a77b5-af01-45f5-afca-79c3477c96f9)
@@ -889,7 +866,7 @@ Extend your ProdOS with a background Chief-of-Staff (CoS) intelligence layer run
 
 ### REQ-2: Data Sources
 
-#### REQ-2.1—Jira (via `mcp-atlassian`)
+#### REQ-2.1—Jira (Via `mcp-atlassian`)
 
 | Ref | Requirement |
 |---|---|
@@ -898,7 +875,7 @@ Extend your ProdOS with a background Chief-of-Staff (CoS) intelligence layer run
 | REQ-2.1.3 | Additionally query for issues where Leon is a watcher or reviewer, flagged as high priority. |
 | REQ-2.1.4 | Detect stale issues: in-progress tasks with no status change in > 3 days → surface as a stale loop. |
 
-#### REQ-2.2—Microsoft Teams (via Graph API Skill or Teams MCP)
+#### REQ-2.2—Microsoft Teams (Via Graph API Skill or Teams MCP)
 
 | Ref | Requirement |
 |---|---|
@@ -907,7 +884,7 @@ Extend your ProdOS with a background Chief-of-Staff (CoS) intelligence layer run
 | REQ-2.2.3 | Extract decisions, blockers, or requests directed at Leon from meeting chat (sprint planning, stand-ups). |
 | REQ-2.2.4 | If a Teams MCP server is not yet available, implement as a Hermes delegation skill wrapping the MS Graph API with the existing 1Password-managed credentials. |
 
-#### REQ-2.3—Pieces LTM (via `mcp_pieces_*`)
+#### REQ-2.3—Pieces LTM (Via `mcp_pieces_*`)
 
 | Ref | Requirement |
 |---|---|
@@ -1935,7 +1912,7 @@ The package powering it is:
 Installed globally at: /opt/homebrew/lib/node_modules/@aashari/mcp-server-atlassian-jira
 ```
 
-### Credential Location (grounded from memory)
+### Credential Location (Grounded from mEmory)
 
 Your Atlassian API token is stored in 1Password, confirmed by two separate memory events:
 
@@ -1972,7 +1949,7 @@ curl -s -u "leon.ormes@fitfile.com:${TOKEN}" \
 hermes run cos-work-review
 ```
 
-### Your Most Recent Open FTFL Tickets (from Sprint 18 Memory, 14 May 2026)
+### Your Most Recent Open FTFL Tickets (From Sprint 18 Memory, 14 May 2026)
 
 The last Jira board snapshot captured in your LTM shows Sprint 18 (13–20 May):
 
@@ -2016,7 +1993,7 @@ Finish reason: Stop
 
 User wants to verify that the ProdOS CoS work-review system can access Jira and retrieve their non-Done tickets.
 
-## Confirmed Facts (with citations)
+## Confirmed Facts (With cItations)
 
 - Jira user ID: `633ae2b9fedc6169aed8f601`—confirmed from JQL used in Todoist sync session (event `7d591a53`, 18 May 2026)
 - Jira URL: `fitfile.atlassian.net`, project `FTFL`, board `/boards/281`—confirmed from multiple Scrum board events
@@ -2040,7 +2017,7 @@ User wants to verify that the ProdOS CoS work-review system can access Jira and 
 - Skills directory `~/.hermes/skills/` is in `.chezmoiignore`; skills written directly there, not via chezmoi—confirmed from 23 May session
 - cos-work-review skill—created and verified as of 26 May 2026 at 09:38 (confirmed from user message in current turn: all 5 acceptance criteria met)
 
-## Tool-call Ledger (recent Successful calls)
+## Tool-call Ledger (Recent Successful cAlls)
 
 - `search_memory`(hints: jira FTFL tickets, jira search issues JQL, mcp-proxy jira tools, since Apr 2026) → 150 candidates; key hit: working curl command with 1Password credential, Sprint 18/19 tickets
 - `search_memory`(hints: JIRA_API_TOKEN 1password, assignee currentUser JQL, atlassian jira search) → 100 candidates; key hits: API token UUID, Atlassian account token management pages, `op://ff/JIRA_API_TOKEN/credential` reference
@@ -2128,7 +2105,7 @@ curl -s \
 
 This bypasses the MCP CLI entirely and uses the OS network stack which is proven to work. Use this same pattern in your `cos-work-review.md` skill file—no Node.js, no proxy issues, no CA bundle mismatches.
 
-### For the Mcp-proxy Registration (separate concern)
+### For the Mcp-proxy Registration (Separate cOncern)
 
 The same Node.js fetch issue will affect the MCP server when spawned by mcp-proxy. Until it's fixed, the direct curl approach in the skill file is the reliable path for automated Jira access in your ProdOS workflow.
 
@@ -2203,7 +2180,7 @@ If `${#TOKEN}` prints `0`, `op` still didn't return the value—most likely 1Pas
 
 ---
 
-## Your Active FTFL Tickets (from memory)
+## Your Active FTFL Tickets (From mEmory)
 
 From [FITFILE Sprint 19 Scrum board](https://fitfile.atlassian.net/jira/software/c/projects/FTFL/boards/281?assignee=633ae2b9fedc6169aed8f601)—confirmed browser visits as recently as today (26 May):
 
@@ -2411,7 +2388,7 @@ Everything is working end-to-end. A few key facts worth preserving for future se
 - Atlassian API endpoint change—the `GET /rest/api/3/search?jql=` endpoint has been removed. The correct endpoint is now `POST /rest/api/3/search/jql`. Any tooling still targeting the old GET endpoint will silently fail.
 - `~/.hermes/scripts/jira-fetch.js`—new canonical Jira query helper: pulls token from 1Password CLI (`op://ff/ziqhlt2yuicadmmeio4odmimhi/credential`), uses `https.request()`, calls the POST JQL endpoint.
 
-#### Live Ticket State (as of 2026-05-26 10:28 BST)
+#### Live Ticket State (As of 2026-05-26 10:28 BST)
 
 | Ticket | Summary | Status | Note |
 |---|---|---|---|

@@ -1,21 +1,14 @@
 ---
-aliases:
-- OHDSI Analytics
-- Patient-Level Prediction
-- Population-Level Estimation
-created: 2026-01-06 19:30:51+00:00
+aliases: [OHDSI Analytics, Patient-Level Prediction, Population-Level Estimation]
+created: 2026-01-06T19:30:51+00:00
 last_reviewed: null
-modified: 2026-02-01 15:07:54+00:00
+modified: 2026-07-04T10:50:54+00:00
+permalink: llmeon/30-library/so-t/so-t-ohdsi-evidence-generation
 status: Active
-tags:
-- analytics
-- ohdsi
-- science
-- statistics
+tags: [analytics, ohdsi, science, statistics]
 title: SoT - OHDSI Evidence Generation
 type: SoT
 updated: null
-permalink: llmeon/30-library/so-t/so-t-ohdsi-evidence-generation
 ---
 
 ## SoT - OHDSI Evidence Generation
@@ -24,7 +17,7 @@ permalink: llmeon/30-library/so-t/so-t-ohdsi-evidence-generation
 
 ### 1. The Three Use Cases
 
-#### A. Clinical Characterization ("What happened?")
+#### A. Clinical Characterization ("What Happened?")
 
 - Goal: Descriptive statistics.
 - Questions:
@@ -33,7 +26,7 @@ permalink: llmeon/30-library/so-t/so-t-ohdsi-evidence-generation
 - Method: Simple aggregation (`COUNT`, `GROUP BY`).
 - Feasibility: Highly viable in Read-Only architectures.
 
-#### B. Population-Level Effect Estimation ("What is the Causal effect?")
+#### B. Population-Level Effect Estimation ("What is the Causal Effect?")
 
 - Goal: Causal inference (Safety/Efficacy).
 - Questions:
@@ -43,7 +36,7 @@ permalink: llmeon/30-library/so-t/so-t-ohdsi-evidence-generation
     - Negative Controls: Calibrating for residual bias.
 - Feasibility: Hard in Read-Only (requires creating matched cohorts).
 
-#### C. Patient-Level Prediction ("What Will Happen to me?")
+#### C. Patient-Level Prediction ("What Will Happen to Me?")
 
 - Goal: Personalized risk scoring.
 - Questions:

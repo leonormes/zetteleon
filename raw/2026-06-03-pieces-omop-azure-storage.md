@@ -1,39 +1,38 @@
 ---
-title: OMOP Parquet Data — Azure Storage Resource Names
-created: 2026-06-04 08:03:29+00:00
-source: pieces-ltm
-pieces_ids:
-- 2abdd8ab-22ec-47c6-9a8b-617482a3ba1a
-- 82335225-9f79-41e1-bc97-f9109d04c22a
-- 54216833-0345-4373-a268-a0cae377cb01
-tags:
-- raw
-- pieces
+created: 2026-06-04T08:03:29+00:00
+modified: 2026-07-04T10:49:26+00:00
 permalink: llmeon/raw/2026-06-03-pieces-omop-azure-storage
+pieces_ids: [2abdd8ab-22ec-47c6-9a8b-617482a3ba1a, 54216833-0345-4373-a268-a0cae377cb01, 82335225-9f79-41e1-bc97-f9109d04c22a]
+source: pieces-ltm
+tags: [pieces, raw]
+title: 2026-06-03-pieces-omop-azure-storage
 ---
 
 ## Asset 1 (Pieces: 2abdd8ab-22ec-47c6-9a8b-617482a3ba1a)
-**Captured:** 2026-06-03T12:42:24.278448Z
+
+Captured: 2026-06-03T12:42:24.278448Z
 
 All pagination chains are now `sufficient`. Here's what your memory clearly confirms:
 
 ---
 
-## Resource group and storage names for the OMOP parquet data
+## Resource Group and Storage Names for the OMOP Parquet Data
 
-### Resource group
+### Resource Group
 
-**`omop-synthetic-rg`**
+`omop-synthetic-rg`
 
 This was explicitly created by you on 14 Apr 2026 with:
+
 ```bash
 az group create --name omop-synthetic-rg --location uksouth
 ```
-Subscription: **FITCloud Non-Production** (`249df46b-f75d-4492-8e78-b33a00473548`), UK South.
+
+Subscription: FITCloud Non-Production (`249df46b-f75d-4492-8e78-b33a00473548`), UK South.
 
 ### Storage account
 
-**`omopstorage12345`**
+`omopstorage12345`
 
 Created on 14 Apr 2026 (`Created: 4/14/2026, 8:52:19 AM`), also in `omop-synthetic-rg`, UK South. StorageV2 (general purpose v2), Standard LRS.
 
@@ -50,11 +49,13 @@ The parquet data itself lived at `omop-synthetic-data/omop_generator/synthea23m_
 For reference, the other OMOP resources in the same `omop-synthetic-rg` were `omopbatch12345` (Azure Batch account) and `omopacr0414172753` (Azure Container Registry).
 
 ## Asset 2 (Pieces: 82335225-9f79-41e1-bc97-f9109d04c22a)
-**Captured:** 2026-06-03T12:38:45.035679Z
+
+Captured: 2026-06-03T12:38:45.035679Z
 
 The user is asking about specific resource group and storage names they used for "parquet OMOP data". This is a RECALL scenario. Let me search their memory for this information.
 
 ## Asset 3 (Pieces: 54216833-0345-4373-a268-a0cae377cb01)
-**Captured:** 2026-06-03T12:38:36.928382Z
+
+Captured: 2026-06-03T12:38:36.928382Z
 
 what was the resource group and storage names i used for the parque omop data

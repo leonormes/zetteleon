@@ -1,22 +1,11 @@
 ---
-created: 2026-04-30 00:00:00+00:00
-jira:
-- '[FTFL-596](https://fitfile.atlassian.net/browse/FTFL-596)'
-- '[FTFL-599](https://fitfile.atlassian.net/browse/FTFL-599)'
-- '[FTFL-615](https://fitfile.atlassian.net/browse/FTFL-615)'
-modified: 2026-05-26 11:43:56+00:00
+created: 2026-04-30T00:00:00+00:00
+jira: ["[FTFL-596](https://fitfile.atlassian.net/browse/FTFL-596)", "[FTFL-599](https://fitfile.atlassian.net/browse/FTFL-599)", "[FTFL-615](https://fitfile.atlassian.net/browse/FTFL-615)"]
+modified: 2026-07-04T10:50:36+00:00
 module: terraform-azure-aks-backup
-tags:
-- aks
-- azure
-- backup
-- ftfl-596
-- ftfl-599
-- ftfl-615
-- infrastructure
-- terraform
-title: AKS Backup Terraform Module — Audit & Implementation Plan
 permalink: llmeon/work/aks-backup-terraform-module-audit-implementation-plan
+tags: [aks, azure, backup, ftfl-596, ftfl-599, ftfl-615, infrastructure, terraform]
+title: AKS Backup Terraform Module — Audit & Implementation Plan
 ---
 
 Module: `terraform-azure-aks-backup` (master, tag v1.1.2)
@@ -61,7 +50,7 @@ No `outputs.tf`. No `versions.tf`.
 
 ## 2. Gaps (What Is Missing to Replicate the End-to-End CLI Path)
 
-### Gap 1—Private Endpoint (most Critical, [FTFL-615](https://fitfile.atlassian.net/browse/FTFL-615))
+### Gap 1—Private Endpoint (Most Critical, [FTFL-615](https://fitfile.atlassian.net/browse/FTFL-615))
 
 The module has `backup_storage_account_allowed_subnet_ids` wired into `network_rules.virtual_network_subnet_ids`—that is a service endpoint mechanism, not a private endpoint. There is no `azurerm_private_endpoint`, no `azurerm_private_dns_zone`, and no VNet link. With `public_network_access_enabled = false` and no private endpoint, the backup instance cannot reach the storage account.
 
@@ -97,7 +86,7 @@ README states `shared_access_key_enabled = false`, but `main.tf:40` sets it to `
 
 ## 3. Proposed Changes
 
-### 3a. Private Endpoint + DNS (new resources)
+### 3a. Private Endpoint + DNS (New rEsources)
 
 Add four new variables and three conditional resources:
 
@@ -304,7 +293,7 @@ Prerequisite: `snet-ff-uks-gp-pe` subnet must already exist in the VNet (provisi
 7. Run `terraform plan`—confirm PE, DNS group, and (if applicable) new zone are created. No existing resources destroyed.
 8. Apply.
 
-### Phase 2—Vault, Policy, Extension (confirm State / import)
+### Phase 2—Vault, Policy, Extension (Confirm State / iMport)
 
 The module already provisions vault, policy, and extension. For environments created via CLI:
 
@@ -357,7 +346,7 @@ See §6 below.
 
 ---
 
-## 5. Sample HCL—Calling Stack (pentest-1)
+## 5. Sample HCL—Calling Stack (Pentest-1)
 
 ```hcl
 module "aks_backup" {
@@ -418,7 +407,7 @@ module "aks_backup" {
 
 ## 6. Validation & Testing Plan
 
-### DNS Resolution (private endpoint)
+### DNS Resolution (Private eNdpoint)
 
 ```bash
 # From a pod inside the AKS cluster
@@ -540,7 +529,7 @@ feat(backup): add private endpoint, fix extension RBAC, add outputs and version 
 
 ## 8. Assumptions & Risks
 
-### Assumptions (verify before applying)
+### Assumptions (Verify before aPplying)
 
 | # | Assumption | How to confirm |
 |---|---|---|

@@ -1,23 +1,13 @@
 ---
 author: Claude (read-only investigation)
-created: 2026-06-19 08:51:04+00:00
+created: 2026-06-19T08:51:04+00:00
 date: 2026-06-19
-modified: 2026-06-22 12:04:39+00:00
+modified: 2026-07-04T10:50:35+00:00
+permalink: llmeon/work/ftfl-512-ci-cd-pipeline-incident-investigation
 related_ticket: FTFL-512
 status: Investigation complete
-tags:
-- 1
-- 2/
-- 2567082445
-- argocd
-- cicd
-- fitfile
-- gitlab
-- incident
-- opa
-- postmortem
+tags: [1, 2/, 2567082445, argocd, cicd, fitfile, gitlab, incident, opa, postmortem]
 title: FTFL-512 CI-CD Pipeline Incident Investigation
-permalink: llmeon/work/ftfl-512-ci-cd-pipeline-incident-investigation
 ---
 
 ## FTFL-512—CI/CD Pipeline Post-Incident Investigation
@@ -32,7 +22,7 @@ There are three distinct gaps, not two. (1) Detection: the merge-gating pipeline
 
 ---
 
-### Live Cluster & ArgoCD Corroboration (staging AKS Cluster, read-only)
+### Live Cluster & ArgoCD Corroboration (Staging AKS Cluster, rEad-only)
 
 Using `kubectl` against context `fitfile-cloud-staging-aks-cluster` (namespace `argocd`), the screenshot's "Application conditions" entry was corroborated exactly, down to the second, against `argocd-application-controller-0` and `ingress-nginx-controller` pod logs (both pods had been running since `2026-06-18T05:07Z`, so logs covered the full incident window).
 
@@ -70,7 +60,7 @@ Sync/10: ff-test-a-mssql
 
 - No Kubernetes Events survived from the incident window (default TTL ~1h; only noise from the last few minutes remained at query time)—pod logs were the only viable historical source, and they happened to still cover the window because both pods had been running continuously since before the incident.
 
-#### Gap 3—Environment Targeting (new Finding, not in the Original report)
+#### Gap 3—Environment Targeting (New Finding, not in the Original rEport)
 
 - `charts/ffnode/values.yaml:96` sets the default `argocdApp.targetRevision: master` for every ffnode that doesn't override it. `ff-test-a`'s rendered Application confirms it uses this default verbatim—no override.
 - `ffnodes/fitfile/sandbox-testing-1/values.yaml:17` does override it: `targetRevision: sandbox-testing-1-latest-release`—a git tag, not a branch. Someone (presumably via `release.sh`, which drives tag-based GitLab releases) has to deliberately move that tag forward for sandbox-testing-1 to deploy anything. Sandbox-testing-1 has an actual promotion gate; `ff-test-a` (staging) does not.
@@ -98,7 +88,8 @@ return 200 '<html>...refresh...url=/fitfile...</html>';
 - The rejection happened at ArgoCD sync time and its exact text survives in the repo only because someone copy-pasted it into a code comment while fixing it—there is no test, alert config, or doc capturing it anywhere else in the repo:
 
 > `# Removing due to: admission webhook "validate.nginx.ingress.kubernetes.io" denied the request: nginx.ingress.kubernetes.io/configuration-snippet annotation cannot be used. Snippet directives are disabled by the Ingress administrator`
-(commit `73a6368b`, MR [!804](https://gitlab.com/fitfile/deployment/-/merge_requests/804) — ticket FTFL-999, "Promoting audit event types as loki streams," 2026-06-18 22:49, author `ollierushton`). A second commit `ed47703c` (MR [!805](https://gitlab.com/fitfile/deployment/-/merge_requests/805), 4 minutes later) had to comment out the second copy of the same annotation — confirmed live as the fix that actually mattered for `ff-test-a`, since that environment renders the chart's other Ingress block.
+(commit `73a6368b`, MR [!804](https://gitlab.com/fitfile/deployment/-/merge_requests/804)—ticket FTFL-999, "Promoting audit event types as loki streams," 2026-06-18 22:49, author `ollierushton`). A second commit `ed47703c` (MR [!805](https://gitlab.com/fitfile/deployment/-/merge_requests/805), 4 minutes later) had to comment out the second copy of the same annotation—confirmed live as the fix that actually mattered for `ff-test-a`, since that environment renders the chart's other Ingress block.
+
 - FTFL-999 is functionally unrelated to FTFL-512. The actual root-cause fix has no traceability back to FTFL-512—no linked issue, no regression test, no comment referencing the original ticket.
 
 Where this should have been caught, using tooling that already exists in this repo:
@@ -117,7 +108,7 @@ Did it actually block unrelated work? Commits `73a6368b`/`ed47703c` (MR!804/!805
 
 ---
 
-### Historical Pattern (partial; data-limited)
+### Historical Pattern (Partial; dAta-limited)
 
 - No prior commit message or comment in the full git history references an admission-webhook denial before this—first _traced_ instance of this failure class.
 - Master has 50 failed pipelines in the queried recent window; spot-checked failures are all `lint_workflows` failures—pipeline red is common but is noise from one flaky/unrelated job, not signal about deploy-time admission failures.

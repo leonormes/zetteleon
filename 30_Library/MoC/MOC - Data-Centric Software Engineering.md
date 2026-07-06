@@ -1,24 +1,14 @@
 ---
-aliases:
-- Data-Centric Design Index
-- Engineering MOC
-- SDLC MOC
-- The Data-First Hub
-created: 2025-02-15 07:24:57+00:00
-modified: 2026-05-26 11:44:22+00:00
+aliases: [Data-Centric Design Index, Engineering MOC, SDLC MOC, The Data-First Hub]
+created: 2025-02-15T07:24:57+00:00
+modified: 2026-07-04T10:51:11+00:00
+permalink: llmeon/30-library/mo-c/moc-data-centric-software-engineering
 source_of_truth: true
 status: evergreen
 synthesis-count: 4
-tags:
-- architecture
-- data-centric
-- engineering
-- prodos/moc
-- programming
-- sdlc
+tags: [architecture, data-centric, engineering, prodos/moc, programming, sdlc]
 title: MOC - Data-Centric Software Engineering
 type: map
-permalink: llmeon/30-library/mo-c/moc-data-centric-software-engineering
 ---
 
 ## 1. The Logical Thread: "Structure is Truth"

@@ -1,16 +1,14 @@
 ---
 aliases: []
-created: 2025-10-31 12:56:00+00:00
+created: 2025-10-31T12:56:00+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:35+00:00
+modified: 2026-07-04T10:51:53+00:00
+permalink: llmeon/30-library/100-zettelkasten/cognitive-reframing-of-criticism
 status: seedling
-tags:
-- growth
-- TheHuman/Psychology
+tags: [growth, TheHuman/Psychology]
 title: Cognitive Reframing of Criticism
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/cognitive-reframing-of-criticism
 ---
 
 ## Cognitive Reframing of Criticism

@@ -1,8 +1,8 @@
 ---
-created: 2026-04-10 10:43:23+00:00
-modified: 2026-05-26 11:44:37+00:00
-title: Atomic Linker → Promote & Connect
+created: 2026-04-10T10:43:23+00:00
+modified: 2026-07-04T10:52:07+00:00
 permalink: llmeon/10-system/prompts/atomic-linker-promote-connect
+title: Atomic Linker → Promote & Connect
 ---
 
 ## Step 2 Prompt: Atomic Linker → Promote & Connect
@@ -213,7 +213,7 @@ created_utc: "\<ISO 8601>"
 | [[Atom Title 2]] | 0 | (none) |
 | … | … | … |
 
-#### Orphan Atoms (no Links found)
+#### Orphan Atoms (No Links fOund)
 
 - [[Atom Title 2]]—may connect once more notes on \<topic> exist.
 
@@ -243,7 +243,7 @@ REPORT: 00_Inbox/_link_report_\<source_slug>.md
 
 ---
 
-#### User Template (copy-paste per run)
+#### User Template (Copy-paste per rUn)
 
 ```markdown
 Task: Promote atoms to permanent notes and link them into the vault.

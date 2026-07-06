@@ -1,18 +1,13 @@
 ---
-created: 2026-04-17 09:15:00+00:00
+created: 2026-04-17T09:15:00+00:00
 description: Audit and refresh a specific note by fixing broken links, verifying connectivity,
   and discovering new semantic neighbors.
-modified: 2026-05-26 11:44:37+00:00
-tags:
-- agent/refresher
-- domain/pkm
-- link-audit
-- sot
-- type/system
+modified: 2026-07-04T10:52:06+00:00
+permalink: llmeon/10-system/prompts/note-refresh-link-auditor
+tags: [agent/refresher, domain/pkm, link-audit, sot, type/system]
 title: Note Refresh & Link Auditor
 type: prompt
 version: 1
-permalink: llmeon/10-system/prompts/note-refresh-link-auditor
 ---
 
 ## SYSTEM ROLE: Principal Link Architect & Content Refresher

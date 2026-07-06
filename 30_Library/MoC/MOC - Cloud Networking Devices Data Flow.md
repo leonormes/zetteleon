@@ -1,22 +1,20 @@
 ---
 aliases: []
-created: 2025-10-31 10:36:00+00:00
+created: 2025-10-31T10:36:00+00:00
 criteria: Focus on packet transformations through each device.
 exclusions: Physical network devices.
 last_reviewed: ''
-modified: 2026-05-26 11:44:23+00:00
+modified: 2026-07-04T10:51:12+00:00
+permalink: llmeon/30-library/mo-c/moc-cloud-networking-devices-data-flow
 scope: Data-centric view of cloud networking devices.
 see_also: []
 status: ''
 superseded_by: ''
 supersedes: ''
-tags:
-- cloud
-- SoftwareEngineering/Networking
+tags: [cloud, SoftwareEngineering/Networking]
 title: MOC - Cloud Networking Devices Data Flow
 type: map
 updated: null
-permalink: llmeon/30-library/mo-c/moc-cloud-networking-devices-data-flow
 ---
 
 ## MOC - Cloud Networking Devices Data Flow

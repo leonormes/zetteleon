@@ -1,18 +1,14 @@
 ---
 aliases: []
-created: 2025-10-20 09:41:00+00:00
+created: 2025-10-20T09:41:00+00:00
 last_reviewed: 'null'
-modified: 2026-02-01 15:08:25+00:00
+modified: 2026-07-04T10:51:44+00:00
+permalink: llmeon/30-library/100-zettelkasten/the-disappointment-of-written-thoughts
 status: 'null'
-tags:
-- TheHuman/Cognition/thinking
-- TheHuman/Creativity
-- TheHuman/Psychology
-- topic/writing
+tags: [TheHuman/Cognition/thinking, TheHuman/Creativity, TheHuman/Psychology, topic/writing]
 title: The Disappointment of Written Thoughts
 type: 'null'
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/the-disappointment-of-written-thoughts
 ---
 
 This is the common and frustrating experience where thoughts that feel profound, rich, and interconnected in the mind appear dull, simplistic, or uninspiring once written down. This disappointment is a major obstacle that stops people from using writing as a tool for thinking.

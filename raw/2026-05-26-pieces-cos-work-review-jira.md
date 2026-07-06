@@ -1,38 +1,11 @@
 ---
-created: 2026-05-26 11:42:49+00:00
-modified: 2026-05-26 11:43:31+00:00
-pieces_ids:
-- 18b3ca1a-6ac6-4d93-9936-4b717eba9e25
-- 29de76d0-3e20-48d5-a1ac-cb1c22e7b90a
-- 3376b497-b497-491a-83c8-4ab20cc117f9
-- 44a08ceb-c73c-4a0b-840c-5722f63c676c
-- 46178970-5dec-4448-ab25-08ed13b8700b
-- 49425b4a-c1e6-45b6-8222-04a7f51adf99
-- 517cdb60-8baf-404f-9f5d-1daabcb84687
-- 667a0ca2-be9e-464d-917b-478aa1392049
-- 7c017459-c479-4923-864f-a30d0120f022
-- 8f1257d1-c1f0-4747-839b-6226d9d19681
-- 91b52a49-02e3-4097-a395-e6b048d71fa7
-- 947e2faf-e08c-4205-b624-226577909851
-- 995281b4-d229-4720-bd1a-7f4151eafb98
-- 9a45e141-8720-4230-a6eb-f50944899afe
-- a248a154-ae91-4a21-b60f-4d92cc7056cc
-- b999c433-488f-4e46-9c03-158ea1322144
-- c255144c-5a74-4e44-9639-e5ed3889a2c8
-- cb3faea5-8ea0-49aa-98b5-8eefdd47378d
-- e7e0c951-f0ec-4ef3-8f75-2ec094f952ed
-- eb53842d-e8fb-4b3b-b7b5-c6a73b3fe494
-- ec639b18-5648-42ea-a44a-6cd1b0c71514
-- f9edada7-d3ef-4b09-821a-f9fb734e3f15
-- fbe14fd2-4584-42ba-858f-c51241819333
-- fdd8cfbe-bbcd-4173-8436-0ddc9898f017
-source: pieces-ltm
-tags:
-- 0
-- pieces
-- raw
-title: 2026-05-26-pieces-cos-work-review-jira
+created: 2026-05-26T11:42:49+00:00
+modified: 2026-07-04T10:49:53+00:00
 permalink: llmeon/raw/2026-05-26-pieces-cos-work-review-jira
+pieces_ids: [18b3ca1a-6ac6-4d93-9936-4b717eba9e25, 29de76d0-3e20-48d5-a1ac-cb1c22e7b90a, 3376b497-b497-491a-83c8-4ab20cc117f9, 44a08ceb-c73c-4a0b-840c-5722f63c676c, 46178970-5dec-4448-ab25-08ed13b8700b, 49425b4a-c1e6-45b6-8222-04a7f51adf99, 517cdb60-8baf-404f-9f5d-1daabcb84687, 667a0ca2-be9e-464d-917b-478aa1392049, 7c017459-c479-4923-864f-a30d0120f022, 8f1257d1-c1f0-4747-839b-6226d9d19681, 91b52a49-02e3-4097-a395-e6b048d71fa7, 947e2faf-e08c-4205-b624-226577909851, 995281b4-d229-4720-bd1a-7f4151eafb98, 9a45e141-8720-4230-a6eb-f50944899afe, a248a154-ae91-4a21-b60f-4d92cc7056cc, b999c433-488f-4e46-9c03-158ea1322144, c255144c-5a74-4e44-9639-e5ed3889a2c8, cb3faea5-8ea0-49aa-98b5-8eefdd47378d, e7e0c951-f0ec-4ef3-8f75-2ec094f952ed, eb53842d-e8fb-4b3b-b7b5-c6a73b3fe494, ec639b18-5648-42ea-a44a-6cd1b0c71514, f9edada7-d3ef-4b09-821a-f9fb734e3f15, fbe14fd2-4584-42ba-858f-c51241819333, fdd8cfbe-bbcd-4173-8436-0ddc9898f017]
+source: pieces-ltm
+tags: [0, pieces, raw]
+title: 2026-05-26-pieces-cos-work-review-jira
 ---
 
 ## Asset 1 (Pieces: c255144c-5a74-4e44-9639-e5ed3889a2c8)
@@ -165,7 +138,7 @@ This means the `cos-work-review` skill's Step 2 (Jira query) will silently fail 
 
 ---
 
-### Your Jira Credential Details (confirmed from memory)
+### Your Jira Credential Details (Confirmed from mEmory)
 
 | Item | Value |
 |---|---|
@@ -336,7 +309,7 @@ The only difference from what you ran is the addition of `ATLASSIAN_SITE_NAME="f
 
 ---
 
-### Also Check Step 3 (the proxy)
+### Also Check Step 3 (The pRoxy)
 
 You Ctrl-C'd before it completed. Run this separately once the above works:
 
@@ -436,7 +409,7 @@ The error is identical despite having all three env vars set—which rules out m
 
 ### Diagnose with Two Quick Tests
 
-#### Test 1: Raw Curl to Jira (bypasses the MCP Client entirely)
+#### Test 1: Raw Curl to Jira (Bypasses the MCP Client eNtirely)
 
 ```bash
 curl -v \
@@ -488,7 +461,7 @@ Captured: 2026-05-26T10:11:25.622278+00:00
 
 Type: N/A
 
-~/.l/s/chezmoi on  development $✘!+?   on ☁ FitFile  on 🅰 (eu-west-2)  at 11:06:31
+~/.l/s/chezmoi on  development $✘!+? on ☁ FitFile on 🅰 (eu-west-2) at 11:06:31
 
 ❯ # Step 1: confirm the token resolves
 
@@ -604,7 +577,7 @@ For detailed error information, run with DEBUG=mcp:* environment variable.
 
 ^C
 
-~/.l/s/chezmoi on  development $✘!+?   on ☁ FitFile  on 🅰 (eu-west-2)  at 11:08:30
+~/.l/s/chezmoi on  development $✘!+? on ☁ FitFile on 🅰 (eu-west-2) at 11:08:30
 
 ❯ curl -v \
   -u "leon.ormes@fitfile.com:${TOKEN}" \
@@ -841,7 +814,7 @@ node --version
 
 scutil --proxy | grep -E '(HTTPSEnable|HTTPSProxy|HTTPSPort|ProxyAutoConfig)'
 
-## Test with TLS Verification Disabled (DIAGNOSTIC ONLY - not for production)
+## Test with TLS Verification Disabled (DIAGNOSTIC ONLY - not for pRoduction)
 
 NODE_TLS_REJECT_UNAUTHORIZED=0 \
 ATLASSIAN_SITE_NAME="fitfile.atlassian.net" \
@@ -859,7 +832,7 @@ Resource not found. Jira API: 404 Not Found
 
 For detailed error information, run with DEBUG=mcp:* environment variable.
 
-~/.l/s/chezmoi on  development $✘!+?   on ☁ FitFile  on 🅰 (eu-west-2)  at 11:14:26
+~/.l/s/chezmoi on  development $✘!+? on ☁ FitFile on 🅰 (eu-west-2) at 11:14:26
 
 ❯ # Drop this into ~/.hermes/skills/cos-work-review.md as the Jira query step
 
@@ -952,7 +925,7 @@ curl -s -G \
 
 jq: error (at <stdin>:0): Cannot iterate over null (null)
 
-~/.l/s/chezmoi on  development $✘!+?   on ☁ FitFile  on 🅰 (eu-west-2)  at 11:16:24
+~/.l/s/chezmoi on  development $✘!+? on ☁ FitFile on 🅰 (eu-west-2) at 11:16:24
 
 ❯ curl -s \
   -u "leon.ormes@fitfile.com:${TOKEN}" \

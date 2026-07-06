@@ -1,22 +1,14 @@
 ---
-aliases:
-- Active Perception
-- The Fractal Mind
-- Three Planes of Visualization
-created: 2025-12-15 00:00:00+00:00
+aliases: [Active Perception, The Fractal Mind, Three Planes of Visualization]
+created: 2025-12-15T00:00:00+00:00
 last_reviewed: '2025-12-15'
-modified: 2026-02-01 15:07:48+00:00
+modified: 2026-07-04T10:50:47+00:00
+permalink: llmeon/30-library/so-t/so-t-visualization-as-cognitive-architecture
 status: stable
-tags:
-- cognitive_science
-- mental_models
-- system_design
-- TheHuman/Neuroscience
-- visualization
+tags: [cognitive_science, mental_models, system_design, TheHuman/Neuroscience, visualization]
 title: SoT - Visualization as Cognitive Architecture
 type: SoT
 updated: null
-permalink: llmeon/30-library/so-t/so-t-visualization-as-cognitive-architecture
 ---
 
 > The mind operates on Fractal Logic: "it constructs the \"Big Picture\" by repeating a single \"Seed Pattern\" at different scales. To control the outcome, you must control the First Frame (the entry point of the primary visual cortex), not the final image."

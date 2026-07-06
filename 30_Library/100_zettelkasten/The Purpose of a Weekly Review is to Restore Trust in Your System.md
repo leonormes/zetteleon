@@ -1,18 +1,14 @@
 ---
 aliases: []
-created: 2025-10-20 08:00:04+00:00
+created: 2025-10-20T08:00:04+00:00
 last_reviewed: 'null'
-modified: 2026-02-01 15:08:25+00:00
+modified: 2026-07-04T10:51:44+00:00
+permalink: llmeon/30-library/100-zettelkasten/the-purpose-of-a-weekly-review-is-to-restore-trust-in-your-system
 status: 'null'
-tags:
-- planning
-- topic/productivity
-- topic/productivity/gtd
-- type/review
+tags: [planning, topic/productivity, topic/productivity/gtd, type/review]
 title: The Purpose of a Weekly Review is to Restore Trust in Your System
 type: 'null'
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/the-purpose-of-a-weekly-review-is-to-restore-trust-in-your-system
 ---
 
 The primary purpose of a Weekly Review in a productivity system like GTD (Getting Things Done) is to regain clarity, control, and perspective over one's commitments. Its ultimate goal is to make the system current and trustworthy.

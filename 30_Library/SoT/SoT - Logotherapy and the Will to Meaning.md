@@ -1,24 +1,14 @@
 ---
-aliases:
-- Logotherapy SoT
-- Meaning in Suffering
-- The Will to Meaning
-- Tragic Optimism
-- Viktor Frankl SoT
-created: 2025-12-12 00:00:00+00:00
+aliases: [Logotherapy SoT, Meaning in Suffering, The Will to Meaning, Tragic Optimism, Viktor Frankl SoT]
+created: 2025-12-12T00:00:00+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:07:55+00:00
+modified: 2026-07-04T10:50:55+00:00
+permalink: llmeon/30-library/so-t/so-t-logotherapy-and-the-will-to-meaning
 status: stable
-tags:
-- meaning
-- mental_models
-- resilience
-- TheHuman/Philosophy
-- TheHuman/Psychology
+tags: [meaning, mental_models, resilience, TheHuman/Philosophy, TheHuman/Psychology]
 title: SoT - Logotherapy and the Will to Meaning
 type: SoT
 updated: null
-permalink: llmeon/30-library/so-t/so-t-logotherapy-and-the-will-to-meaning
 ---
 
 > Unlike the "Will to Pleasure" (Freud) or the "Will to Power" (Adler), Frankl posits that human resilience relies on the discovery of meaning, even—and especially—in the face of unavoidable suffering. Its core tenet: "\"He who has a why to live for can bear almost any how.\" (Nietzsche, popularized by Frankl)."

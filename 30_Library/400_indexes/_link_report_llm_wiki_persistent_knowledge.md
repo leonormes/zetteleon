@@ -1,12 +1,12 @@
 ---
-created: 2026-04-14 20:43:15+00:00
+created: 2026-04-14T20:43:15+00:00
 created_utc: '2026-04-14T14:10:00Z'
-modified: 2026-05-26 11:44:23+00:00
+modified: 2026-07-04T10:51:14+00:00
+permalink: llmeon/30-library/400-indexes/link-report-llm-wiki-persistent-knowledge
 source_atoms: '[[tmp_atoms_llm_wiki_persistent_knowledge.md]]'
 status: tmp
 title: _link_report_llm_wiki_persistent_knowledge
 type: link_report
-permalink: llmeon/30-library/400-indexes/link-report-llm-wiki-persistent-knowledge
 ---
 
 ## Link Report: Hermes Agent and Karpathy's LLM Wiki
@@ -28,6 +28,6 @@ permalink: llmeon/30-library/400-indexes/link-report-llm-wiki-persistent-knowled
 | [[Knowledge Linting]] | 3 | [[SoT - LLM Wiki Pattern]]—upstream |
 | [[Multi-Page Ingestion Impact]] | 3 | [[SoT - LLM Wiki Pattern]]—upstream |
 
-### Orphan Atoms (no Links found)
+### Orphan Atoms (No Links fOund)
 
 (none)

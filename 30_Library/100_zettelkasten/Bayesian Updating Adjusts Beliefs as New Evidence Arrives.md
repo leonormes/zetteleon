@@ -1,18 +1,14 @@
 ---
 aliases: []
-created: 2025-11-01 09:51:13+00:00
+created: 2025-11-01T09:51:13+00:00
 last_reviewed: ''
-modified: 2026-02-10 18:51:49+00:00
+modified: 2026-07-04T10:51:54+00:00
+permalink: llmeon/30-library/100-zettelkasten/bayesian-updating-adjusts-beliefs-as-new-evidence-arrives
 status: seedling
-tags:
-- bayesian
-- learning
-- mental-model
-- reasoning
+tags: [bayesian, learning, mental-model, reasoning]
 title: Bayesian Updating Adjusts Beliefs as New Evidence Arrives
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/bayesian-updating-adjusts-beliefs-as-new-evidence-arrives
 ---
 
 Summary: Bayesian updating formalizes learning as iterative adjustment of beliefs, operationalizing open-mindedness without relativism.

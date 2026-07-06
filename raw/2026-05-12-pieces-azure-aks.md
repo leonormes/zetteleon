@@ -1,14 +1,11 @@
 ---
-created: 2026-05-12 22:06:30+00:00
-modified: 2026-05-26 11:43:45+00:00
-pieces_ids:
-- 23e03e0d-fccf-4ad1-85fd-5ee8ff14b8c4
-source: pieces-ltm
-tags:
-- pieces
-- raw
-title: 2026-05-12-pieces-azure-aks
+created: 2026-05-12T22:06:30+00:00
+modified: 2026-07-04T10:50:19+00:00
 permalink: llmeon/raw/2026-05-12-pieces-azure-aks
+pieces_ids: [23e03e0d-fccf-4ad1-85fd-5ee8ff14b8c4]
+source: pieces-ltm
+tags: [pieces, raw]
+title: 2026-05-12-pieces-azure-aks
 ---
 
 ## Pieces LTM Ingest—Azure AKS

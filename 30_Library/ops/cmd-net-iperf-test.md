@@ -1,21 +1,17 @@
 ---
-created: 2026-02-19 13:14:35+00:00
+created: 2026-02-19T13:14:35+00:00
 hop_level: local
-modified: 2026-03-14 11:10:11+00:00
+modified: 2026-07-04T10:50:43+00:00
+permalink: llmeon/30-library/ops/cmd-net-iperf-test
 requires_tunnel: false
-tags:
-- atomic
-- iperf
-- network
-- performance
+tags: [atomic, iperf, network, performance]
 target_service: network
 title: cmd-net-iperf-test
 tool: iperf3
 type: atomic_command
-permalink: llmeon/30-library/ops/cmd-net-iperf-test
 ---
 
-## Network Performance Test (iperf3)
+## Network Performance Test (Iperf3)
 
 ### 🎯 Intent
 

@@ -1,8 +1,8 @@
 ---
-created: 2026-05-04 08:01:26+00:00
-modified: 2026-05-26 11:44:37+00:00
-title: 2 Zettelkasten note
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-07-04T10:51:55+00:00
 permalink: llmeon/30-library/100-zettelkasten/2-zettelkasten-note
+title: 2 Zettelkasten note
 ---
 
 [Open: Pasted image 20240929100248.png](7ec2f533652b8c5d48d13b1ec9891147_MD5.jpeg)

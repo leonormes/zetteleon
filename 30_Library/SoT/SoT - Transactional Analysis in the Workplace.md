@@ -1,20 +1,14 @@
 ---
-aliases:
-- Ego States
-- TA
-created: 2025-12-17 00:00:00+00:00
+aliases: [Ego States, TA]
+created: 2025-12-17T00:00:00+00:00
 last_reviewed: '2025-12-17'
-modified: 2026-02-01 15:07:48+00:00
+modified: 2026-07-04T10:50:47+00:00
+permalink: llmeon/30-library/so-t/so-t-transactional-analysis-in-the-workplace
 status: stable
-tags:
-- communication
-- management
-- mental-model
-- TheHuman/Psychology
+tags: [communication, management, mental-model, TheHuman/Psychology]
 title: SoT - Transactional Analysis in the Workplace
 type: SoT
 updated: null
-permalink: llmeon/30-library/so-t/so-t-transactional-analysis-in-the-workplace
 ---
 
 ## 1. Definitive Statement

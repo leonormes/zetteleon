@@ -1,20 +1,15 @@
 ---
-aliases:
-- Daily bookends
-- Morning and evening routines
-created: 2025-10-30 17:32:00+00:00
+aliases: [Daily bookends, Morning and evening routines]
+created: 2025-10-30T17:32:00+00:00
 last_reviewed: ''
-modified: 2026-05-26 11:44:36+00:00
+modified: 2026-07-04T10:51:54+00:00
+permalink: llmeon/30-library/100-zettelkasten/bookend-routines-mark-the-start-and-end-of-day
 source: '[[MOC - Why Autistics and ADHDers NEED Routines]]'
 status: seedling
-tags:
-- daily-structure
-- routines
-- TheHuman/Health/ADHD
+tags: [daily-structure, routines, TheHuman/Health/ADHD]
 title: Bookend routines mark the start and end of day
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/bookend-routines-mark-the-start-and-end-of-day
 ---
 
 Bookend routines are anchor points placed at the beginning and end of each day that provide structure and consistency to the overall daily rhythm. Typically consisting of morning and evening sequences, these routines act as stable "containers" that bracket the more flexible middle portions of the day.

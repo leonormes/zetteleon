@@ -1,15 +1,14 @@
 ---
 aliases: []
-created: 2025-08-26 09:26:56+00:00
+created: 2025-08-26T09:26:56+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:25+00:00
+modified: 2026-07-04T10:51:44+00:00
+permalink: llmeon/30-library/100-zettelkasten/the-conflict-between-semantic-and-shannon-information
 status: ''
-tags:
-- information
+tags: [information]
 title: The Conflict Between Semantic and Shannon Information
 type: ''
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/the-conflict-between-semantic-and-shannon-information
 ---
 
 🆚 There is a core conflict between the intuitive definition of information and the technical definition from [[Shannon's Information Theory - Information as Uncertainty]].

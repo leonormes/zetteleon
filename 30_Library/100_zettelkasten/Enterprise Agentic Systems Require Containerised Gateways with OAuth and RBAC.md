@@ -1,13 +1,9 @@
 ---
-created: 2026-04-10 13:00:00+00:00
-modified: 2026-05-26 11:44:35+00:00
-tags:
-- enterprise-ai
-- gateways
-- governance
-- security
-title: Enterprise Agentic Systems Require Containerised Gateways with OAuth and RBAC
+created: 2026-04-10T13:00:00+00:00
+modified: 2026-07-04T10:51:52+00:00
 permalink: llmeon/30-library/100-zettelkasten/enterprise-agentic-systems-require-containerised-gateways-with-oauth-and-rbac
+tags: [enterprise-ai, gateways, governance, security]
+title: Enterprise Agentic Systems Require Containerised Gateways with OAuth and RBAC
 ---
 
 ## Enterprise Agentic Systems Require Containerised Gateways with OAuth and RBAC

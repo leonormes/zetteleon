@@ -1,17 +1,14 @@
 ---
 aliases: []
-created: 2025-08-30 08:57:56+00:00
+created: 2025-08-30T08:57:56+00:00
 last_reviewed: '2025-11-01T00:00:00.000Z'
-modified: 2026-02-01 15:08:30+00:00
+modified: 2026-07-04T10:51:48+00:00
+permalink: llmeon/30-library/100-zettelkasten/numbers-as-abstract-objects-platonism
 status: seedling
-tags:
-- platonism
-- topic/maths
-- topic/philosophy
+tags: [platonism, topic/maths, topic/philosophy]
 title: Numbers as Abstract Objects (Platonism)
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/numbers-as-abstract-objects-platonism
 ---
 
 Summary: Mathematical Platonism (or realism) is a philosophical view that mathematical objects—including numbers, sets, and geometric figures—exist independently of the human mind in an abstract, non-physical realm. Mathematicians are not inventors, but explorers discovering eternal truths.

@@ -1,22 +1,11 @@
 ---
-created: 2026-04-29 08:34:47+00:00
-modified: 2026-05-26 11:43:49+00:00
-pieces_ids:
-- 0cb1c751-9e4c-48ae-9d06-3c8c3116116f
-- 0e74b6c1-f174-4902-a493-88928b70603b
-- 17a99f0c-0ce7-483f-a5f6-7b30a13abb5e
-- 240149b9-a7eb-426f-a346-b5468c8dfef1
-- 76eec105-981b-4022-ac99-da5c663c1482
-- 909371aa-0ba9-43b8-acc1-4358b69ef789
-- 9ed11318-d9dd-4a3b-bf76-2125ba6133d4
-- a58e5c2f-bb9e-4d0c-9468-c4d4827fcb00
-- bb9e8929-09bd-4f7e-a3e3-95e816a66e25
-source: pieces-ltm
-tags:
-- pieces
-- raw
-title: 2026-04-29-pieces-unified-llm-router-cockpit
+created: 2026-04-29T08:34:47+00:00
+modified: 2026-07-04T10:50:28+00:00
 permalink: llmeon/raw/2026-04-29-pieces-unified-llm-router-cockpit
+pieces_ids: [0cb1c751-9e4c-48ae-9d06-3c8c3116116f, 0e74b6c1-f174-4902-a493-88928b70603b, 17a99f0c-0ce7-483f-a5f6-7b30a13abb5e, 240149b9-a7eb-426f-a346-b5468c8dfef1, 76eec105-981b-4022-ac99-da5c663c1482, 909371aa-0ba9-43b8-acc1-4358b69ef789, 9ed11318-d9dd-4a3b-bf76-2125ba6133d4, a58e5c2f-bb9e-4d0c-9468-c4d4827fcb00, bb9e8929-09bd-4f7e-a3e3-95e816a66e25]
+source: pieces-ltm
+tags: [pieces, raw]
+title: 2026-04-29-pieces-unified-llm-router-cockpit
 ---
 
 Asset: `a58e5c2f-bb9e-4d0c-9468-c4d4827fcb00`
@@ -163,9 +152,9 @@ After `chezmoi apply`:
    cd ~/.local/share/chezmoi && claude
    ```
 
-7. Paste the entire prompt above.
-8. Claude will execute the changes step by step, showing you diffs before applying anything.
-9. After reviewing the `chezmoi diff` output, you run `chezmoi apply` yourself.
+1. Paste the entire prompt above.
+2. Claude will execute the changes step by step, showing you diffs before applying anything.
+3. After reviewing the `chezmoi diff` output, you run `chezmoi apply` yourself.
 
 This prompt follows the same structure as your successful ["Fix MCP Proxy Once and for All"](file:///Users/leon.ormes/.local/share/chezmoi) prompt from yesterday—explicit identity, diagnosed problem, strict constraints, and measurable success criteria. The key additions are:
 
@@ -185,7 +174,7 @@ Captured: 2026-04-29T08:22:33.347275Z
 
 ```
 
-4. I'm mapping out the four implementation phases (Zellij layouts, Hermes config, memory layer, tool wiring) and making sure to account for chezmoi conventions like dot_ prefixes and.tmpl files, especially since they've already done similar work in their recent commit.
+1. I'm mapping out the four implementation phases (Zellij layouts, Hermes config, memory layer, tool wiring) and making sure to account for chezmoi conventions like dot_ prefixes and.tmpl files, especially since they've already done similar work in their recent commit.
 
 ```
 
@@ -196,7 +185,7 @@ Captured: 2026-04-29T08:22:32.664779Z
 
 ```
 
-3. They need to create three Zellij layout files, shell aliases, Hermes routing config, a route-task skill, PKM structure, and various chezmoi-managed files—and since they've already written structured prompts like the MCP proxy one, I should follow that same pattern for consistency.
+1. They need to create three Zellij layout files, shell aliases, Hermes routing config, a route-task skill, PKM structure, and various chezmoi-managed files—and since they've already written structured prompts like the MCP proxy one, I should follow that same pattern for consistency.
 
 ```
 
@@ -555,13 +544,13 @@ Captured: 2026-04-29T07:56:43.134970Z
 
 ```
 
-4. Gemini (paid)—already configured with CLI and working through an MCP proxy
-5. Pieces for Developers—providing the long-term memory context that's powering our conversation
-6. Cursor—his AI-augmented editor
-7. Zellij—terminal multiplexer with programmable layouts and startup scripts
-8. Obsidian—his knowledge vault at /Volumes/DAL/Zettelkasten/LLMeon
-9. Git—version control
-10. GitKraken—now with Agent Sessions (v12.0.0) that support Claude Code, Codex CLI, OpenCode, and Gemini CLI
+1. Gemini (paid)—already configured with CLI and working through an MCP proxy
+2. Pieces for Developers—providing the long-term memory context that's powering our conversation
+3. Cursor—his AI-augmented editor
+4. Zellij—terminal multiplexer with programmable layouts and startup scripts
+5. Obsidian—his knowledge vault at /Volumes/DAL/Zettelkasten/LLMeon
+6. Git—version control
+7. GitKraken—now with Agent Sessions (v12.0.0) that support Claude Code, Codex CLI, OpenCode, and Gemini CLI
 
 ```
 

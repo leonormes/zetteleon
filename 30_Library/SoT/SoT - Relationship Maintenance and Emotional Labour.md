@@ -1,21 +1,14 @@
 ---
-aliases:
-- Relational Labour
-- Relationship Maintenance
-- Repair Strategy
-created: 2025-12-24 12:00:00+00:00
+aliases: [Relational Labour, Relationship Maintenance, Repair Strategy]
+created: 2025-12-24T12:00:00+00:00
 last_reviewed: 2025-12-24
-modified: 2026-02-01 15:07:52+00:00
+modified: 2026-07-04T10:50:51+00:00
+permalink: llmeon/30-library/so-t/so-t-relationship-maintenance-and-emotional-labour
 status: stable
-tags:
-- communication
-- emotional-labour
-- maintenance
-- relationships
+tags: [communication, emotional-labour, maintenance, relationships]
 title: SoT - Relationship Maintenance and Emotional Labour
 type: SoT
 updated: null
-permalink: llmeon/30-library/so-t/so-t-relationship-maintenance-and-emotional-labour
 ---
 
 ## 1. Definitive Statement

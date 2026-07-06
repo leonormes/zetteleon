@@ -1,19 +1,15 @@
 ---
 aliases: []
-created: 2025-10-29 16:38:00+00:00
+created: 2025-10-29T16:38:00+00:00
 last_reviewed: 'null'
-modified: 2026-02-01 15:08:37+00:00
+modified: 2026-07-04T10:51:54+00:00
+permalink: llmeon/30-library/100-zettelkasten/adhd-causes-deficits-in-completing-long-term-projects
 source: '[[MOC - The Phases of Task Execution and the Impact of ADHD]]'
 status: seedling
-tags:
-- executive_function
-- project_management
-- task_completion
-- TheHuman/Health/ADHD
+tags: [executive_function, project_management, task_completion, TheHuman/Health/ADHD]
 title: ADHD Causes Deficits in Completing Long-Term Projects
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/adhd-causes-deficits-in-completing-long-term-projects
 ---
 
 Individuals with ADHD often struggle with the completion phase of tasks, particularly for long-term projects. This is due to difficulties in organizing behaviors and planning a path to achieve long-term goals. They may lose motivation partway through a project or become distracted by new interests, making it challenging to see the project through to completion.

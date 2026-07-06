@@ -1,19 +1,14 @@
 ---
-aliases:
-- Sustained attention brain regions
-- Vigilant attention network
-created: 2025-10-31 00:02:00+00:00
+aliases: [Sustained attention brain regions, Vigilant attention network]
+created: 2025-10-31T00:02:00+00:00
 last_reviewed: '2025-10-31'
-modified: 2026-02-01 15:08:26+00:00
+modified: 2026-07-04T10:51:45+00:00
+permalink: llmeon/30-library/100-zettelkasten/sustained-attention-activates-right-lateralized-fronto-parietal-networks
 status: seedling
-tags:
-- brain-networks
-- sustained-attention
-- TheHuman/Neuroscience
+tags: [brain-networks, sustained-attention, TheHuman/Neuroscience]
 title: Sustained attention activates right-lateralized fronto-parietal networks
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/sustained-attention-activates-right-lateralized-fronto-parietal-networks
 ---
 
 ## Sustained Attention Activates Right-lateralized Fronto-parietal Networks

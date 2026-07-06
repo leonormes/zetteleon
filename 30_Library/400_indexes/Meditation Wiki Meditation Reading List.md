@@ -1,13 +1,13 @@
 ---
 captured: 2026-03-28T17:55:14+00:00 2026-03-28T17:55:14+00:00
-created: 2026-03-28 17:55:19+00:00
-modified: 2026-05-26 11:44:23+00:00
+created: 2026-03-28T17:55:19+00:00
+modified: 2026-07-04T10:51:14+00:00
+permalink: llmeon/30-library/400-indexes/meditation-wiki-meditation-reading-list
 source: https://www.reddit.com/r/Meditation/wiki/booklist/
 status: processing
 tags: []
 title: Meditation Wiki Meditation Reading List
 type: index
-permalink: llmeon/30-library/400-indexes/meditation-wiki-meditation-reading-list
 ---
 
 ## Meditation Reading List

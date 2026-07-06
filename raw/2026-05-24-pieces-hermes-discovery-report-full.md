@@ -1,14 +1,11 @@
 ---
-created: 2026-05-24 18:11:44+00:00
-modified: 2026-05-26 11:43:31+00:00
-pieces_ids:
-- c8c5de20-42b9-45d4-a2b4-07c43e6c83fc
-source: pieces-ltm
-tags:
-- pieces
-- raw
-title: 2026-05-24-pieces-hermes-discovery-report-full
+created: 2026-05-24T18:11:44+00:00
+modified: 2026-07-04T10:49:54+00:00
 permalink: llmeon/raw/2026-05-24-pieces-hermes-discovery-report-full
+pieces_ids: [c8c5de20-42b9-45d4-a2b4-07c43e6c83fc]
+source: pieces-ltm
+tags: [pieces, raw]
+title: 2026-05-24-pieces-hermes-discovery-report-full
 ---
 
 ## Hermes Agent Discovery Report—Full Configuration Audit

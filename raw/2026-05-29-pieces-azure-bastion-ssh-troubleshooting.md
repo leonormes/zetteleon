@@ -1,22 +1,16 @@
 ---
-title: Azure Bastion SSH Troubleshooting
-created: 2026-05-29 11:00:59+00:00
-source: pieces-ltm
-pieces_ids:
-- faa2031b-a539-47f7-abbb-785b5e395d3d
-- 16a86501-6017-4534-9b7d-aa9a90a773e0
-- e90afdf5-e544-47b1-9d27-b96c7e395305
-- 9491075c-b191-45a5-9a7a-b92fbf21ae13
-- 4480ffce-524b-4010-bc41-9acfe834bc3d
-tags:
-- raw
-- pieces
+created: 2026-05-29T11:00:59+00:00
+modified: 2026-07-04T10:49:46+00:00
 permalink: llmeon/raw/2026-05-29-pieces-azure-bastion-ssh-troubleshooting
+pieces_ids: [16a86501-6017-4534-9b7d-aa9a90a773e0, 4480ffce-524b-4010-bc41-9acfe834bc3d, 9491075c-b191-45a5-9a7a-b92fbf21ae13, e90afdf5-e544-47b1-9d27-b96c7e395305, faa2031b-a539-47f7-abbb-785b5e395d3d]
+source: pieces-ltm
+tags: [pieces, raw]
+title: 2026-05-29-pieces-azure-bastion-ssh-troubleshooting
 ---
 
 ## Asset 1 (Pieces: faa2031b-a539-47f7-abbb-785b5e395d3d)
 
-**Captured:** 2026-05-29T09:16:11.296139Z
+Captured: 2026-05-29T09:16:11.296139Z
 
 ```
 The evaluator feedback is clear: I fabricated a detailed technical answer without calling any memory tools. The user just said "I use 1password for ssh keys" - I need to search memory first to understand context, then respond appropriately.
@@ -26,7 +20,7 @@ Let me search memory for relevant context about 1Password, SSH, and Azure Bastio
 
 ## Asset 2 (Pieces: 16a86501-6017-4534-9b7d-aa9a90a773e0)
 
-**Captured:** 2026-05-29T09:15:38.375610Z
+Captured: 2026-05-29T09:15:38.375610Z
 
 ```
 I use 1password for ssh keys.
@@ -34,7 +28,7 @@ I use 1password for ssh keys.
 
 ## Asset 3 (Pieces: e90afdf5-e544-47b1-9d27-b96c7e395305)
 
-**Captured:** 2026-05-29T09:14:31.726555Z
+Captured: 2026-05-29T09:14:31.726555Z
 
 ```
 The user is being prompted for a password when using `--auth-type "AAD"` with `IdentitiesOnly=yes`. The issue is that `IdentitiesOnly=yes` is preventing the AAD certificate from being used because it's telling SSH to only use explicitly specified identity files, but the AAD certificate path isn't being passed explicitly.
@@ -49,14 +43,16 @@ The core issue is that `IdentitiesOnly=yes` is preventing SSH from using the tem
 
 ## Asset 4 (Pieces: 9491075c-b191-45a5-9a7a-b92fbf21ae13)
 
-**Captured:** 2026-05-29T09:12:12.695752Z
+Captured: 2026-05-29T09:12:12.695752Z
 
 ```
 The error shows that `--ssh-args` isn't the right flag for this version of the Azure CLI's bastion command. Looking at the help examples, the correct syntax for passing additional SSH arguments is using `--` (double dash) separator after all the az command arguments.
 
 The correct syntax based on the help examples is:
 ```
-az network bastion ssh ... -- -o IdentitiesOnly=yes
+
+az network bastion ssh … -- -o IdentitiesOnly=yes
+
 ```
 
 The `--` separator tells the az CLI to pass everything after it directly to the underlying SSH command.
@@ -64,7 +60,7 @@ The `--` separator tells the az CLI to pass everything after it directly to the 
 
 ## Asset 5 (Pieces: 4480ffce-524b-4010-bc41-9acfe834bc3d)
 
-**Captured:** 2026-05-29T09:10:49.549758Z
+Captured: 2026-05-29T09:10:49.549758Z
 
 ```
 The user is sharing a terminal output from an Azure Bastion SSH connection attempt. The connection failed with "Too many authentication failures." Let me analyze what's happening and provide a solution.

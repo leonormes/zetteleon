@@ -1,17 +1,10 @@
 ---
-created: 2026-02-05 17:20:00+00:00
-modified: 2026-03-14 11:10:09+00:00
-status: permanent
-tags:
-- aks
-- az-cli
-- azure
-- cheatsheet
-- kubectl
-- networking
-- troubleshooting
-title: sot-az-aks-networking
+created: 2026-02-05T17:20:00+00:00
+modified: 2026-07-04T10:50:38+00:00
 permalink: llmeon/30-library/ops/sot-az-aks-networking
+status: permanent
+tags: [aks, az-cli, azure, cheatsheet, kubectl, networking, troubleshooting]
+title: sot-az-aks-networking
 ---
 
 This cheatsheet provides parameterized commands for common Azure AKS networking tasks, extracted from investigation logs involving NAT Gateways, DNAT/SNAT, and IP capacity planning.
@@ -80,7 +73,7 @@ az aks update
   --outbound-type userAssignedNATGateway
 ```
 
-### Discover Pod Subnet (Dynamic IP / Overlay info)
+### Discover Pod Subnet (Dynamic IP / Overlay iNfo)
 
 ```bash
 az aks show 

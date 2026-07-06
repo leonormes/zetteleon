@@ -1,21 +1,17 @@
 ---
 aliases: []
-created: 2025-02-07 12:57:54+00:00
+created: 2025-02-07T12:57:54+00:00
 last_reviewed: ''
-modified: 2026-06-08 11:49:22+00:00
+modified: 2026-07-04T10:51:24+00:00
+permalink: llmeon/30-library/200-projects/understanding-and-visualizing-linux-processes
 project_category: infrastructure
 project_name: k8s
 project_status: archived
 status: ''
-tags:
-- cli
-- Processes
-- SoftwareEngineering/Containers
-- SoftwareEngineering/Linux
+tags: [cli, Processes, SoftwareEngineering/Containers, SoftwareEngineering/Linux]
 title: Understanding and Visualizing Linux Processes
 type: ''
 updated: null
-permalink: llmeon/30-library/200-projects/understanding-and-visualizing-linux-processes
 ---
 
 Let's start with the fundamentals and build up to more advanced process visualization techniques. Think of processes like a family tree - they have parents, children, and relationships that tell us how they're connected and what they're doing.

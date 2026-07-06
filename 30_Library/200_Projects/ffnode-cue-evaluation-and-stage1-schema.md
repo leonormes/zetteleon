@@ -1,29 +1,15 @@
 ---
-created: 2026-06-06 00:00:00+00:00
-modified: 2026-06-08 11:49:23+00:00
+created: 2026-06-06T00:00:00+00:00
+modified: 2026-07-04T10:51:17+00:00
+permalink: llmeon/30-library/200-projects/ffnode-cue-evaluation-and-stage1-schema
 project_category: refined_deployment
 project_name: Refined Deployment
 project_status: active
-related:
-- '[[ffnode-templating-analysis]]'
-- '[[ffnode-templating-complexity-metrics]]'
-tags:
-- 1
-- 2
-- config
-- cue
-- cuelang
-- deployment
-- ffnode
-- helm
-- kubernetes
-- multi-cluster
-- type-safety
-- validation
+related: ["[[ffnode-templating-analysis]]", "[[ffnode-templating-complexity-metrics]]"]
+tags: [1, 2, config, cue, cuelang, deployment, ffnode, helm, kubernetes, multi-cluster, type-safety, validation]
 ticket: FTFL-673
 title: ffnode-cue-evaluation-and-stage1-schema
 type: null
-permalink: llmeon/30-library/200-projects/ffnode-cue-evaluation-and-stage1-schema
 ---
 
 > Evaluation of [CUE](https://cuelang.org/) for the `ffnode` deployment config, plus a working, fleet-tested Stage-1 validation schema.
@@ -52,7 +38,7 @@ Stage 1 (validation only) is almost pure upside and supersedes the `values.schem
 
 Six of the seven lowest scores. CUE is unusually well-aimed at this problem.
 
-## What CUE Does NOT Fix (be honest)
+## What CUE Does NOT Fix (Be hOnest)
 
 - The VSO `tpl`-escaping problem (A3) survives if CUE only generates `values.yaml` and Helm still `tpl`s them—the double-eval is a _Helm_ artifact. CUE only retires it if CUE generates the final `VaultStaticSecret` manifest directly, bypassing Helm `tpl` (that's Stage 3, the most invasive).
 - No native ArgoCD integration—Timoni→ArgoCD doesn't exist. Use ArgoCD CMP to run `cue export` at render time, or (simpler) run CUE in CI to _generate/validate_ the `ffnodes/*` overlays Helm already consumes.
@@ -61,7 +47,7 @@ Six of the seven lowest scores. CUE is unusually well-aimed at this problem.
 
 ---
 
-## Staged Adoption (ArgoCD untouched)
+## Staged Adoption (ArgoCD uNtouched)
 
 1. CUE as validator only (1–2 wks, lowest risk)—schema for `ffnodes/*` overlays, `cue vet` in CI. Everything else unchanged. Done below—it works.
 2. CUE generates the overlays (1–2 mo)—cluster config as small CUE files; `cue export` renders `values.yaml`. Enforces B1/B2/D3 by construction.
@@ -145,7 +131,7 @@ So the schema accepts every real cluster, rejects the exact bugs that shipped, a
 
 ---
 
-## CI Snippet (GitLab `validate` stage)
+## CI Snippet (GitLab `validate` sTage)
 
 Drop this next to `lint_workflows`. Targets the homogeneous cluster-root overlays and skips chart-style dirs (those with a sibling `Chart.yaml`).
 
@@ -169,7 +155,7 @@ vet_ffnodes:
     - changes: ["ffnodes//*", "ffnodes/schema/*.cue"]
 ```
 
-### Next Refinements (cheap, High value)
+### Next Refinements (Cheap, High vAlue)
 
 - Tighten `deploymentKey` to equal the directory name (catches copy-paste clusters).
 - Add a cross-field rule: if `proxy.enabled` then `argocdApp.globalIgnoreDifferences` must include the HTTP_PROXY excludes (CUH pattern).

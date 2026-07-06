@@ -1,12 +1,12 @@
 ---
-created: 2026-05-02 19:37:55+00:00
-modified: 2026-06-08 11:49:21+00:00
+created: 2026-05-02T19:37:55+00:00
+modified: 2026-07-04T10:51:28+00:00
+permalink: llmeon/30-library/200-projects/kubernetes-storage-fundamentals
 project_category: refined_deployment
 project_name: Refined Deployment
 project_status: active
 title: Kubernetes Storage Fundamentals
 type: null
-permalink: llmeon/30-library/200-projects/kubernetes-storage-fundamentals
 ---
 
 ## Kubernetes Storage Fundamentals

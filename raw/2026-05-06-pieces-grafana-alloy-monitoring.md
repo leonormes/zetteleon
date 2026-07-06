@@ -1,20 +1,11 @@
 ---
-created: 2026-05-06 20:15:00+00:00
-modified: 2026-05-26 11:43:48+00:00
-pieces_ids:
-- 3c77257a-9145-4e65-a66a-406c4aed6893
-- ab15ee24-34cc-429f-ae0f-2694a6a9fd5d
-- c9a75c99-4b4e-497b-b0bc-3c085719a034
-- cc31dc88-8370-40ed-8d2e-8ed5943921ad
-- d74f0ab3-0f16-4794-89f1-2b255a0d5556
-- f20e9fa0-752d-4fea-b364-c6a9bdff5608
-- f9293827-1de4-44c0-89a2-3a369d0820d4
-source: pieces-ltm
-tags:
-- pieces
-- raw
-title: 2026-05-06-pieces-grafana-alloy-monitoring
+created: 2026-05-06T20:15:00+00:00
+modified: 2026-07-04T10:50:25+00:00
 permalink: llmeon/raw/2026-05-06-pieces-grafana-alloy-monitoring
+pieces_ids: [3c77257a-9145-4e65-a66a-406c4aed6893, ab15ee24-34cc-429f-ae0f-2694a6a9fd5d, c9a75c99-4b4e-497b-b0bc-3c085719a034, cc31dc88-8370-40ed-8d2e-8ed5943921ad, d74f0ab3-0f16-4794-89f1-2b255a0d5556, f20e9fa0-752d-4fea-b364-c6a9bdff5608, f9293827-1de4-44c0-89a2-3a369d0820d4]
+source: pieces-ltm
+tags: [pieces, raw]
+title: 2026-05-06-pieces-grafana-alloy-monitoring
 ---
 
 ## Asset 1 (Pieces: ab15ee24-34cc-429f-ae0f-2694a6a9fd5d)

@@ -1,14 +1,14 @@
 ---
 aliases: []
-created: 2025-08-19 23:32:29+00:00
+created: 2025-08-19T23:32:29+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:29+00:00
+modified: 2026-07-04T10:51:47+00:00
+permalink: llmeon/30-library/100-zettelkasten/prime-numbers-create-a-mathematical-trapdoor
 status: ''
 tags: []
 title: Prime Numbers Create a Mathematical Trapdoor
 type: ''
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/prime-numbers-create-a-mathematical-trapdoor
 ---
 
 The security of modern public-key cryptography (like RSA) is built on a trapdoor function: an operation that is easy to do in one direction but extremely difficult to reverse without a secret piece of information.

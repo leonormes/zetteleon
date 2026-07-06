@@ -1,13 +1,9 @@
 ---
-created: 2026-02-10 00:00:00+00:00
-modified: 2026-02-15 15:53:50+00:00
-tags:
-- bash
-- devops
-- reference
-- shell
-title: Bash - Error Handling
+created: 2026-02-10T00:00:00+00:00
+modified: 2026-07-04T10:51:54+00:00
 permalink: llmeon/30-library/100-zettelkasten/bash-error-handling
+tags: [bash, devops, reference, shell]
+title: Bash - Error Handling
 ---
 
 ## Bash Error Handling

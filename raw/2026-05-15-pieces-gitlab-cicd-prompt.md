@@ -1,21 +1,11 @@
 ---
-created: 2026-05-15 20:55:00+00:00
-modified: 2026-05-26 11:43:40+00:00
-pieces_ids:
-- 0c5e5af5-f3c2-4d92-968a-a77543d3aa23
-- 41fe5938-9bfd-4861-a6ec-2c811e6f167a
-- 4c9f8544-83c8-4ca6-ad3f-8a3124c03f84
-- 93b90382-bef9-4892-bf96-e8c59930d55e
-- a93d7492-a54c-46c5-8df0-4e25554d8683
-- af088b8b-3dee-4e5b-90a6-25a333de30d9
-- cb4322c2-3980-4dd1-a944-21efa9bdb9fa
-- ea5b6a02-1de3-4784-9b10-2dc8428b3962
-source: pieces-ltm
-tags:
-- pieces
-- raw
-title: 2026-05-15-pieces-gitlab-cicd-prompt
+created: 2026-05-15T20:55:00+00:00
+modified: 2026-07-04T10:50:13+00:00
 permalink: llmeon/raw/2026-05-15-pieces-gitlab-cicd-prompt
+pieces_ids: [0c5e5af5-f3c2-4d92-968a-a77543d3aa23, 41fe5938-9bfd-4861-a6ec-2c811e6f167a, 4c9f8544-83c8-4ca6-ad3f-8a3124c03f84, 93b90382-bef9-4892-bf96-e8c59930d55e, a93d7492-a54c-46c5-8df0-4e25554d8683, af088b8b-3dee-4e5b-90a6-25a333de30d9, cb4322c2-3980-4dd1-a944-21efa9bdb9fa, ea5b6a02-1de3-4784-9b10-2dc8428b3962]
+source: pieces-ltm
+tags: [pieces, raw]
+title: 2026-05-15-pieces-gitlab-cicd-prompt
 ---
 
 ## GitLab CI/CD Prompt Engineering Session—2026-05-15

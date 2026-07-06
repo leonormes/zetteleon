@@ -1,17 +1,11 @@
 ---
 created: Invalid date
-modified: 2026-05-26 11:43:36+00:00
-pieces_ids:
-- 2cf9d16d-4b94-41ab-ba2c-6016852742b2
-- 9021743f-dd37-4f74-bd57-a205dabcc2c1
-- 9957a1d5-1092-4b6a-bfc7-8804badb5d44
-- 9c097ed5-8991-49e7-8a79-5569010904fb
-source: pieces-ltm
-tags:
-- pieces
-- raw
-title: 2026-05-19-pieces-azure-backup
+modified: 2026-07-04T10:50:04+00:00
 permalink: llmeon/raw/2026-05-19-pieces-azure-backup
+pieces_ids: [2cf9d16d-4b94-41ab-ba2c-6016852742b2, 9021743f-dd37-4f74-bd57-a205dabcc2c1, 9957a1d5-1092-4b6a-bfc7-8804badb5d44, 9c097ed5-8991-49e7-8a79-5569010904fb]
+source: pieces-ltm
+tags: [pieces, raw]
+title: 2026-05-19-pieces-azure-backup
 ---
 
 ## Asset 1 (Pieces: 9021743f-dd37-4f74-bd57-a205dabcc2c1)
@@ -173,7 +167,7 @@ az role assignment create \
 
 ---
 
-### If the Extension Already Exists (idempotent re-run)
+### If the Extension Already Exists (Idempotent rE-run)
 
 If `azbkuextension` already partially exists and the create errors with a conflict, use `update` instead:
 

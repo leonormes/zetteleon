@@ -1,14 +1,14 @@
 ---
 aliases: []
-created: 2025-11-15 19:15:19+00:00
+created: 2025-11-15T19:15:19+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:24+00:00
+modified: 2026-07-04T10:51:44+00:00
+permalink: llmeon/30-library/100-zettelkasten/the-sophistication-is-a-bug-not-a-feature
 status: ''
 tags: []
 title: The sophistication is a bug not a feature
 type: ''
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/the-sophistication-is-a-bug-not-a-feature
 ---
 
 I should be thinking and learning and understanding. Not automating and creating systems to make it easy. This should be the simplest thing possible that helps me remember.

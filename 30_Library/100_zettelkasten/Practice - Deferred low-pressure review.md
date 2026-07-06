@@ -1,18 +1,12 @@
 ---
-created: 2026-05-31 00:00:00+00:00
-instance_of:
-- '[[Claim - Over-capture plus deferred review is sustainable]]'
-modified: 2026-05-31 17:26:12+00:00
-related_to:
-- '[[Practice - Micro-tasking and time-boxing]]'
-- '[[Rejection-Sensitive Dysphoria]]'
-tags:
-- adhd
-- review
-- workflow
+created: 2026-05-31T00:00:00+00:00
+instance_of: ["[[Claim - Over-capture plus deferred review is sustainable]]"]
+modified: 2026-07-04T10:51:47+00:00
+permalink: llmeon/30-library/100-zettelkasten/practice-deferred-low-pressure-review
+related_to: ["[[Practice - Micro-tasking and time-boxing]]", "[[Rejection-Sensitive Dysphoria]]"]
+tags: [adhd, review, workflow]
 title: Practice - Deferred low-pressure review
 type: practice
-permalink: llmeon/30-library/100-zettelkasten/practice-deferred-low-pressure-review
 ---
 
 What: Separate capture from processing. Capture freely in the moment; process the inbox later in a short session explicitly framed as optional and imperfect.

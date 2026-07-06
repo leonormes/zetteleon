@@ -1,24 +1,14 @@
 ---
-aliases:
-- Epistemic Trespassing
-- Expert Authority
-- HiPPO Effect
-- Positional Authority
-created: 2025-12-17 00:00:00+00:00
+aliases: [Epistemic Trespassing, Expert Authority, HiPPO Effect, Positional Authority]
+created: 2025-12-17T00:00:00+00:00
 last_reviewed: '2026-01-10'
-modified: 2026-02-01 15:08:02+00:00
+modified: 2026-07-04T10:51:04+00:00
+permalink: llmeon/30-library/so-t/so-t-authority-competence-asymmetry
 status: stable
-tags:
-- authority
-- bias
-- decision-making
-- leadership
-- social-dynamics
-- team-dynamics
+tags: [authority, bias, decision-making, leadership, social-dynamics, team-dynamics]
 title: SoT - Authority-Competence Asymmetry
 type: SoT
 updated: null
-permalink: llmeon/30-library/so-t/so-t-authority-competence-asymmetry
 ---
 
 ## 1. Definitive Statement

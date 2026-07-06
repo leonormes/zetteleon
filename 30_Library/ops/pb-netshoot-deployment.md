@@ -1,17 +1,12 @@
 ---
-created: 2026-02-19 13:14:28+00:00
+created: 2026-02-19T13:14:28+00:00
 incident_type: diagnostic_deployment
-modified: 2026-03-14 11:10:10+00:00
-tags:
-- docker
-- k8s
-- netshoot
-- network
-- playbook
+modified: 2026-07-04T10:50:39+00:00
+permalink: llmeon/30-library/ops/pb-netshoot-deployment
+tags: [docker, k8s, netshoot, network, playbook]
 target_service: network
 title: pb-netshoot-deployment
 type: playbook
-permalink: llmeon/30-library/ops/pb-netshoot-deployment
 ---
 
 ## Playbook: Deploying Netshoot Diagnostic Environment

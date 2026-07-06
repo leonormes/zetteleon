@@ -1,19 +1,14 @@
 ---
-aliases:
-- Time Mapping
-created: 2025-11-10 14:15:00+00:00
+aliases: [Time Mapping]
+created: 2025-11-10T14:15:00+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:24+00:00
+modified: 2026-07-04T10:51:44+00:00
+permalink: llmeon/30-library/100-zettelkasten/time-mapping-is-a-visual-method-of-time-blocking-the-day
 status: seedling
-tags:
-- planning
-- time-blocking
-- time-management
-- topic/productivity
+tags: [planning, time-blocking, time-management, topic/productivity]
 title: Time Mapping is a Visual Method of Time Blocking the Day
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/time-mapping-is-a-visual-method-of-time-blocking-the-day
 ---
 
 ## Time Mapping is a Visual Method of Time Blocking the Day

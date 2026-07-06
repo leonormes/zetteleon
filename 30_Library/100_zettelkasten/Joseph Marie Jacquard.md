@@ -1,8 +1,8 @@
 ---
-created: 2026-05-04 08:01:26+00:00
-modified: 2026-05-26 11:44:37+00:00
-title: 4a4-joseph_marie_jacquard_1752-1834
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-07-04T10:51:50+00:00
 permalink: llmeon/30-library/100-zettelkasten/joseph-marie-jacquard
+title: Joseph Marie Jacquard
 ---
 
 ## Joseph Marie Jacquard 1752-1834

@@ -1,14 +1,14 @@
 ---
 aliases: []
-created: 2025-09-07 15:32:45+00:00
+created: 2025-09-07T15:32:45+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:29+00:00
+modified: 2026-07-04T10:51:48+00:00
+permalink: llmeon/30-library/100-zettelkasten/ownership-of-emotions
 status: ''
 tags: []
 title: Ownership of Emotions
 type: ''
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/ownership-of-emotions
 ---
 
 Psychologist Dr. Ramani Dervasula outlines seven steps to owning emotions, which aligns with Musashi's principles. These include:

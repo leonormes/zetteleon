@@ -1,27 +1,11 @@
 ---
-created: 2026-04-30 06:04:37+00:00
-modified: 2026-05-26 11:43:49+00:00
-pieces_ids:
-- 0f6003f2-2188-4cf9-b967-64a3adee35b1
-- 3d8b92b6-9d42-4ad6-afe8-dbbe1b0c7a82
-- 40145348-381a-40fe-b1ea-09a50cbff409
-- 5e6f3a96-8c7b-4e3d-9f2a-1b0c9d8e7f6a
-- 77d9d1e9-75c6-48a9-bfe7-91e42b3321a1
-- 7837b0b0-d338-4679-9322-b7d38f0c6c38
-- 874ed13c-6d5e-4f3a-8b2c-9d7e6f5a4b3c
-- 8b1af49b-67e9-4a30-9c4b-d82b3c8b9a41
-- 9252a949-01cd-44bd-a5b6-24b32572cd42
-- a1d8f3a0-4c7b-4b2d-9e28-1e3b9a5c6d7e
-- a89376bd-cdfa-4436-9098-ab10866bef7c
-- c05ffae3-308c-4da6-940d-ea12b9babfce
-- c5b92f80-3e4a-4d9b-8f2c-7a6e5d4c3b2a
-- ea5e3e20-abc7-4169-86e3-1833af4cf15f
-source: pieces-ltm
-tags:
-- pieces
-- raw
-title: 2026-04-30-pieces-azure-backup-projects
+created: 2026-04-30T06:04:37+00:00
+modified: 2026-07-04T10:50:27+00:00
 permalink: llmeon/raw/2026-04-30-pieces-azure-backup-projects
+pieces_ids: [0f6003f2-2188-4cf9-b967-64a3adee35b1, 3d8b92b6-9d42-4ad6-afe8-dbbe1b0c7a82, 40145348-381a-40fe-b1ea-09a50cbff409, 5e6f3a96-8c7b-4e3d-9f2a-1b0c9d8e7f6a, 77d9d1e9-75c6-48a9-bfe7-91e42b3321a1, 7837b0b0-d338-4679-9322-b7d38f0c6c38, 874ed13c-6d5e-4f3a-8b2c-9d7e6f5a4b3c, 8b1af49b-67e9-4a30-9c4b-d82b3c8b9a41, 9252a949-01cd-44bd-a5b6-24b32572cd42, a1d8f3a0-4c7b-4b2d-9e28-1e3b9a5c6d7e, a89376bd-cdfa-4436-9098-ab10866bef7c, c05ffae3-308c-4da6-940d-ea12b9babfce, c5b92f80-3e4a-4d9b-8f2c-7a6e5d4c3b2a, ea5e3e20-abc7-4169-86e3-1833af4cf15f]
+source: pieces-ltm
+tags: [pieces, raw]
+title: 2026-04-30-pieces-azure-backup-projects
 ---
 
 ## Pieces LTM Capture—Azure Backup Projects (Last 24 Hours)

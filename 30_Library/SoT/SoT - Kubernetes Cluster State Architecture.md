@@ -1,22 +1,14 @@
 ---
-aliases:
-- K8s Architecture
-- K8s Cluster State
-- K8s Mental Model
-created: 2025-12-16 00:00:00+00:00
+aliases: [K8s Architecture, K8s Cluster State, K8s Mental Model]
+created: 2025-12-16T00:00:00+00:00
 last_reviewed: '2025-12-16'
-modified: 2026-02-05 19:59:47+00:00
+modified: 2026-07-04T10:50:55+00:00
+permalink: llmeon/30-library/so-t/so-t-kubernetes-cluster-state-architecture
 status: stable
-tags:
-- devops
-- etcd
-- kubernetes
-- mental_model
-- SoftwareEngineering/Architecture
+tags: [devops, etcd, kubernetes, mental_model, SoftwareEngineering/Architecture]
 title: SoT - Kubernetes Cluster State Architecture
 type: SoT
 updated: null
-permalink: llmeon/30-library/so-t/so-t-kubernetes-cluster-state-architecture
 ---
 
 ## Minimum Viable Understanding (MVU)
@@ -25,7 +17,7 @@ Kubernetes is not a "Container Orchestrator" in the traditional sense; it is a D
 
 ---
 
-## 1. The Core Data Structure (etcd)
+## 1. The Core Data Structure (Etcd)
 
 At its heart, Kubernetes is a B+Tree key-value store.
 

@@ -1,12 +1,12 @@
 ---
-created: 2026-04-10 16:50:52+00:00
+created: 2026-04-10T16:50:52+00:00
 created_utc: '2026-04-10T13:00:00+00:00'
-modified: 2026-05-26 11:44:23+00:00
+modified: 2026-07-04T10:51:14+00:00
+permalink: llmeon/30-library/400-indexes/link-report-qdrant
 source_atoms: '[[tmp_atoms_qdrant]]'
 status: tmp
 title: _link_report_qdrant
 type: link_report
-permalink: llmeon/30-library/400-indexes/link-report-qdrant
 ---
 
 ## Link Report: Introduction to Qdrant—High-Performance Vector Search
@@ -28,6 +28,6 @@ permalink: llmeon/30-library/400-indexes/link-report-qdrant
 | [[Qdrant Outperforms PGVector for Search-Primary Architectures at Scale]] | 1 | [[SoT - Agentic AI Design Patterns]]—Resource-Aware Optimisation |
 | [[Qdrant Supports In-Memory, Disk, and Docker Deployment Modes]] | 1 | [[Ephemeral Agents and Environments in Terraform Cloud]]—shared mechanism |
 
-### Orphan Atoms (no Links found)
+### Orphan Atoms (No Links fOund)
 
 - [[Vector Similarity Metrics Serve Different Retrieval Objectives]]—may connect once more notes on linear algebra or embedding models exist.

@@ -1,17 +1,14 @@
 ---
 aliases: []
-created: 2025-11-01 11:22:13+00:00
+created: 2025-11-01T11:22:13+00:00
 last_reviewed: '2025-11-01T00:00:00.000Z'
-modified: 2026-02-01 15:08:26+00:00
+modified: 2026-07-04T10:51:45+00:00
+permalink: llmeon/30-library/100-zettelkasten/structuralism-mathematics-as-study-of-structure
 status: seedling
-tags:
-- structuralism
-- TheHuman/Philosophy
-- topic/maths
+tags: [structuralism, TheHuman/Philosophy, topic/maths]
 title: Structuralism (Mathematics as Study of Structure)
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/structuralism-mathematics-as-study-of-structure
 ---
 
 Summary: Structuralism is a modern philosophical view that holds mathematics to be the study of abstract structures or patterns. The nature of individual objects within a structure is irrelevant; what matters is the web of relationships between them.

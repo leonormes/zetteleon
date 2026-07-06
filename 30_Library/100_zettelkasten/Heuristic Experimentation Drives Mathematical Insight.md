@@ -1,19 +1,14 @@
 ---
-aliases:
-- Mathematical Experimentation
-- Tinkering
-created: 2025-11-01 11:22:13+00:00
+aliases: [Mathematical Experimentation, Tinkering]
+created: 2025-11-01T11:22:13+00:00
 last_reviewed: '2025-11-01T00:00:00.000Z'
-modified: 2026-02-01 15:08:33+00:00
+modified: 2026-07-04T10:51:50+00:00
+permalink: llmeon/30-library/100-zettelkasten/heuristic-experimentation-drives-mathematical-insight
 status: seedling
-tags:
-- heuristics
-- TheHuman/Creativity
-- topic/maths
+tags: [heuristics, TheHuman/Creativity, topic/maths]
 title: Heuristic Experimentation Drives Mathematical Insight
 type: strategy
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/heuristic-experimentation-drives-mathematical-insight
 ---
 
 Summary: Mathematical discovery involves breaking down complex problems into smaller components, examining them through trial and experimentation, and reconstructing understanding—an iterative process that embraces failure as learning.

@@ -1,14 +1,13 @@
 ---
 captured: 2026-06-10T08:52:52+01:00 2026-06-10T08:52:52+01:00
-created: 2026-06-10 07:52:55+00:00
-modified: 2026-06-10 09:39:07+00:00
+created: 2026-06-10T07:52:55+00:00
+modified: 2026-07-04T10:52:01+00:00
+permalink: llmeon/20-thinking/21-workbench/head-words-and-their-meanings-semiotics
 source: https://claude.ai/chat/0757b13d-e0da-49ef-98af-b471259106ea
 status: processing
-tags:
-- input
+tags: [input]
 title: HEAD Words and their meanings semiotics
 type: head
-permalink: llmeon/20-thinking/21-workbench/head-words-and-their-meanings-semiotics
 ---
 
 ## Raw Output / Content

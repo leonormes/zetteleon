@@ -1,20 +1,16 @@
 ---
-created: 2026-04-13 14:41:15+00:00
+created: 2026-04-13T14:41:15+00:00
 created_utc: 2026-04-13 11:20:00+00:00
 kind: mechanism
-modified: 2026-05-26 11:44:35+00:00
+modified: 2026-07-04T10:51:50+00:00
+permalink: llmeon/30-library/100-zettelkasten/graph-based-orchestration
 source_title: AI Agent Architecture and the Modern Tech Stack
 source_url: https://gemini.google.com/app/509937047bd0b955
 status: seed
-tags:
-- ai-agents
-- langgraph
-- orchestration
-- state-machines
+tags: [ai-agents, langgraph, orchestration, state-machines]
 title: Graph-Based Orchestration
 type: atom
 upstream: '[[HEAD The Failure of Human-Centric Design]]'
-permalink: llmeon/30-library/100-zettelkasten/graph-based-orchestration
 ---
 
 ## Graph-Based Orchestration

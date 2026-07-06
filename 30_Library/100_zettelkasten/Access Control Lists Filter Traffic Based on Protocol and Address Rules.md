@@ -1,18 +1,14 @@
 ---
-aliases:
-- ACLs
-created: 2025-10-31 10:16:00+00:00
+aliases: [ACLs]
+created: 2025-10-31T10:16:00+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:37+00:00
+modified: 2026-07-04T10:51:54+00:00
+permalink: llmeon/30-library/100-zettelkasten/access-control-lists-filter-traffic-based-on-protocol-and-address-rules
 status: seedling
-tags:
-- filtering
-- SoftwareEngineering/Networking
-- SoftwareEngineering/Security
+tags: [filtering, SoftwareEngineering/Networking, SoftwareEngineering/Security]
 title: Access Control Lists Filter Traffic Based on Protocol and Address Rules
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/access-control-lists-filter-traffic-based-on-protocol-and-address-rules
 ---
 
 ## Access Control Lists Filter Traffic Based on Protocol and Address Rules

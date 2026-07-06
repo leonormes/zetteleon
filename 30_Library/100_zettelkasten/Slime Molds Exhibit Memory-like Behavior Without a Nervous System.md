@@ -1,17 +1,14 @@
 ---
 aliases: []
-created: 2025-10-31 09:53:00+00:00
+created: 2025-10-31T09:53:00+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:27+00:00
+modified: 2026-07-04T10:51:45+00:00
+permalink: llmeon/30-library/100-zettelkasten/slime-molds-exhibit-memory-like-behavior-without-a-nervous-system
 status: seedling
-tags:
-- biology
-- memory
-- TheHuman/Cognition
+tags: [biology, memory, TheHuman/Cognition]
 title: Slime Molds Exhibit Memory-like Behavior Without a Nervous System
 type: example
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/slime-molds-exhibit-memory-like-behavior-without-a-nervous-system
 ---
 
 ## Slime Molds Exhibit Memory-like Behavior Without a Nervous System
@@ -25,6 +22,5 @@ Details: In experiments:
 - This behavior suggests a primitive form of spatial memory
 
 The mechanism involves chemical trails left behind during movement, demonstrating that memory can exist without neurons or brains. This challenges traditional definitions of intelligence and shows cognitive abilities exist on a spectrum.
-
 
 - [[Chemotaxis as Primitive Model-Based Behavior]] _(Chemotaxis as evolutionary precursor to emotion: bacteria implement sense→evaluate→act without a nervous system)_

@@ -1,16 +1,14 @@
 ---
 aliases: []
-created: 2025-10-31 12:27:00+00:00
+created: 2025-10-31T12:27:00+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:29+00:00
+modified: 2026-07-04T10:51:47+00:00
+permalink: llmeon/30-library/100-zettelkasten/political-subversion-through-animal-allegory
 status: seedling
-tags:
-- politics
-- storytelling
+tags: [politics, storytelling]
 title: Political Subversion Through Animal Allegory
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/political-subversion-through-animal-allegory
 ---
 
 ## Political Subversion Through Animal Allegory

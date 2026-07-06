@@ -1,8 +1,9 @@
 ---
 aliases: []
-created: 2025-03-26 13:03:43+00:00
+created: 2025-03-26T13:03:43+00:00
 last_reviewed: ''
-modified: 2026-06-22 09:14:06+00:00
+modified: 2026-07-04T10:51:29+00:00
+permalink: llmeon/30-library/200-projects/integrate-security-into-the-workflow-shift-left
 project_category: development
 project_name: Core
 project_status: archived
@@ -14,7 +15,6 @@ tags: []
 title: Integrate Security into the Workflow (Shift Left)
 type: ''
 updated: null
-permalink: llmeon/30-library/200-projects/integrate-security-into-the-workflow-shift-left
 ---
 
 Make security part of the process, not an afterthought.

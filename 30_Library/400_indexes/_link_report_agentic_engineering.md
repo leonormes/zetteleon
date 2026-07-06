@@ -1,12 +1,12 @@
 ---
-created: 2026-04-13 14:37:11+00:00
+created: 2026-04-13T14:37:11+00:00
 created_utc: '2026-04-13T11:10:00Z'
-modified: 2026-05-26 11:44:23+00:00
+modified: 2026-07-04T10:51:14+00:00
+permalink: llmeon/30-library/400-indexes/link-report-agentic-engineering
 source_atoms: '[[tmp_atoms_agentic_engineering.md]]'
 status: tmp
 title: _link_report_agentic_engineering
 type: link_report
-permalink: llmeon/30-library/400-indexes/link-report-agentic-engineering
 ---
 
 ## Link Report: Agentic Engineering and AI Workflow Management
@@ -32,6 +32,6 @@ permalink: llmeon/30-library/400-indexes/link-report-agentic-engineering
 | [[MCP Token Noise]] | 2 | [[Context Volume Plateau]]—shared mechanism |
 | [[Shift to High-Level Oversight]] | 3 | [[Shift to Architectural Oversight]]—direct concept match |
 
-### Orphan Atoms (no Links found)
+### Orphan Atoms (No Links fOund)
 
 (None)

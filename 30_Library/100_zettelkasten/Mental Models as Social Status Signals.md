@@ -1,18 +1,14 @@
 ---
 aliases: []
-created: 2025-10-20 09:55:00+00:00
+created: 2025-10-20T09:55:00+00:00
 last_reviewed: 'null'
-modified: 2026-02-01 15:08:30+00:00
+modified: 2026-07-04T10:51:49+00:00
+permalink: llmeon/30-library/100-zettelkasten/mental-models-as-social-status-signals
 status: 'null'
-tags:
-- sociology
-- status
-- TheHuman/Cognition
-- TheHuman/Psychology
+tags: [sociology, status, TheHuman/Cognition, TheHuman/Psychology]
 title: Mental Models as Social Status Signals
 type: 'null'
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/mental-models-as-social-status-signals
 ---
 
 Mental models are not just for individual navigation; they are a fundamental part of our social hierarchy and interaction. We use the perceived quality of others' mental models as a proxy for competence, which in turn confers social status.

@@ -1,14 +1,13 @@
 ---
 captured: 2026-06-20T10:32:28+01:00 2026-06-20T10:32:28+01:00
-created: 2026-06-20 09:32:44+00:00
-modified: 2026-06-20 09:33:32+00:00
+created: 2026-06-20T09:32:44+00:00
+modified: 2026-07-04T10:52:01+00:00
+permalink: llmeon/20-thinking/21-workbench/head-hidden-mathematical-truths-in-geometric-constraints
 source: https://claude.ai/chat/7aeab0cf-69c8-40b8-9f57-0de260fc6bdc
 status: processing
-tags:
-- input
+tags: [input]
 title: HEAD Hidden mathematical truths in geometric constraints
 type: head
-permalink: llmeon/20-thinking/21-workbench/head-hidden-mathematical-truths-in-geometric-constraints
 ---
 
 ## Raw Output / Content
@@ -46,7 +45,7 @@ Two of these don't just lack precision—they cut _against_ the point:
 - Information theory. In the Shannon sense, if the premises entail the conclusion, the conclusion's surprisal given the premises is −log(1) = 0. Classical information theory says the square's area carries _no new information_ once you have the radii. So invoking it to explain why the result feels informative is backwards. What you actually find fascinating is the _failure_ of the "logical omniscience" idealisation—real reasoners don't instantly see all consequences of what they already know.
 - Cryptography. Crypto hides things with a _secret key_ and _designed-in_ computational hardness. Here nothing is withheld and there's no key—anyone with the premises and the deductive skill recovers the answer. The difficulty is _yours_ (it's non-obvious), not a property engineered into the problem to keep you out. The analogy imports a secret that doesn't exist.
 
-### The Thing it Missed (and Should Have Led with)
+### The Thing it Missed (And Should Have Led wIth)
 
 What you're describing has a name: the informativeness of deduction, and the puzzle around it is sometimes called the "scandal of deduction" (or the paradox of inference).
 
@@ -64,7 +63,7 @@ Gemini hands you Platonism as the moral—"discovered, not invented… always th
 1. It's _contested_, not settled—formalists, intuitionists and fictionalists would all object.
 2. It's _unnecessary_. You can fully explain "the area is fixed by the premises" with zero metaphysical commitment: within these axioms, the theorem is derivable. Full stop. "Folded into the curvature, waiting" is poetry wearing the costume of an explanation—it isn't falsifiable and does no work the word _entailment_ doesn't already do.
 
-### The Answer it Should Have given (steal this)
+### The Answer it Should Have given (Steal tHis)
 
 > You're describing logical entailment—and, more pointedly, the _informativeness of deduction_: the puzzle that a result fully contained in its premises can still be non-obvious, effortful, and genuinely surprising to extract. Geometrically, the 5 m radii leave the figure zero degrees of freedom, so the area is forced; the "decoding" is just making the implicit explicit.
 
@@ -236,7 +235,7 @@ The teal nest is your latency island. The two ░ regions are _also_ truths—bu
 
 And yet—the awe survives the correction. The island's _interior_ (entailed-but-unextracted) is astronomically larger than everything anyone has ever consciously thought. Fermat's Last Theorem sat inside Peano arithmetic, fully entailed, for 350 years before Wiles dragged it across the bounded-extraction wall. That reservoir is real and colossal. It's simply (a) walled by your premises, (b) doesn't include the empirical world for free, (c) not exhaustible even in principle, and (d) barely tapped. Your fascination is well-placed; the only error is the word "all."
 
-## "If The Universe Has the Information, Can Brains Read it?"
+## "If The Universe Has the Information, Can Brains Read iT?"
 
 Two claims—and the second doesn't follow from the first.
 

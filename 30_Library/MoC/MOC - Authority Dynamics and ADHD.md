@@ -1,18 +1,14 @@
 ---
 aliases: []
-created: 2025-10-30 12:39:22+00:00
+created: 2025-10-30T12:39:22+00:00
 last_reviewed: 'null'
-modified: 2026-02-01 15:08:07+00:00
+modified: 2026-07-04T10:51:12+00:00
+permalink: llmeon/30-library/mo-c/moc-authority-dynamics-and-adhd
 status: 'null'
-tags:
-- authority
-- shame
-- TheHuman/Health/ADHD
-- TheHuman/Psychology
+tags: [authority, shame, TheHuman/Health/ADHD, TheHuman/Psychology]
 title: MOC - Authority Dynamics and ADHD
 type: map
 updated: null
-permalink: llmeon/30-library/mo-c/moc-authority-dynamics-and-adhd
 ---
 
 ## Authority Dynamics and ADHD

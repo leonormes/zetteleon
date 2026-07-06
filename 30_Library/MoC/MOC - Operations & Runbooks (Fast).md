@@ -1,25 +1,19 @@
 ---
-aliases:
-- On-Call Index
-- Ops Index
-- Runbooks Index
-created: 2026-04-08 00:00:00+00:00
-modified: 2026-05-26 11:44:22+00:00
+aliases: [On-Call Index, Ops Index, Runbooks Index]
+created: 2026-04-08T00:00:00+00:00
+modified: 2026-07-04T10:51:10+00:00
+permalink: llmeon/30-library/mo-c/moc-operations-runbooks-fast
 status: seedling
-tags:
-- moc
-- ops
-- triage
+tags: [moc, ops, triage]
 title: MOC - Operations & Runbooks (Fast)
 type: map
-permalink: llmeon/30-library/mo-c/moc-operations-runbooks-fast
 ---
 
 ## Navigation Hub: Operations & Runbooks (Fast)
 
 Purpose: fast entry points into the _most-used_ ops notes (by inbound links across the vault), plus a routing rubric for new ops notes.
 
-### 1) High-frequency "go-to" Notes (~15)
+### 1) High-frequency "Go-to" Notes (~15)
 
 #### Netshoot / Cluster Triage
 
@@ -49,7 +43,7 @@ Purpose: fast entry points into the _most-used_ ops notes (by inbound links acro
 
 ---
 
-## Routing Rubric for New Ops Notes (binary decisions)
+## Routing Rubric for New Ops Notes (Binary dEcisions)
 
 ### Step 0—Is This an Action, a Procedure, or Knowledge?
 
@@ -57,14 +51,14 @@ Purpose: fast entry points into the _most-used_ ops notes (by inbound links acro
 - If it is a multi-step procedure with decision points: create `pb-<symptom-or-goal>.md` (playbook)
 - If it is stable explanation / identifiers / invariants: create `kb-<topic>.md`
 
-### Step 1—Choose the Prefix (pick Exactly one)
+### Step 1—Choose the Prefix (Pick Exactly oNe)
 
 - `cmd-` = one primary command (may include small variants and flags)
 - `pb-` = incident workflow (symptoms → checks → branches → resolution)
 - `kb-` = reference knowledge that makes other notes shorter
 - `playbook_` / `cmd_` = only use if you are deliberately keeping legacy naming (otherwise prefer the short prefixes above)
 
-### Step 2—Required Sections (minimum Viable structure)
+### Step 2—Required Sections (Minimum Viable sTructure)
 
 #### For `cmd-*`
 
@@ -89,7 +83,7 @@ Purpose: fast entry points into the _most-used_ ops notes (by inbound links acro
 - Common confusions
 - Links to the cmd/pb notes that depend on it
 
-### Step 3—Mandatory Routing Links (make it navigable)
+### Step 3—Mandatory Routing Links (Make it nAvigable)
 
 - Add a backlink to: [[MOC - Operations & Runbooks (Fast)]] (or your canonical ops MoC)
 - Link out to exactly one "parent area" anchor:
@@ -99,7 +93,7 @@ Purpose: fast entry points into the _most-used_ ops notes (by inbound links acro
   - Secrets / VSO
   - Deployments (if applicable)
 
-### Step 4—Naming Test (if it Fails, rename)
+### Step 4—Naming Test (If it Fails, rEname)
 
 - Could you find it in 2 seconds by typing 3–5 letters?
 - Does the filename encode scope + action (for cmd/pb) or topic (for kb)?

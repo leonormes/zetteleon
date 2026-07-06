@@ -1,20 +1,16 @@
 ---
-created: 2026-04-14 20:26:10+00:00
+created: 2026-04-14T20:26:10+00:00
 created_utc: '2026-04-14T13:20:00Z'
 kind: mechanism
-modified: 2026-05-26 11:44:31+00:00
+modified: 2026-07-04T10:51:43+00:00
+permalink: llmeon/30-library/100-zettelkasten/workflow-as-yaml
 source_title: Archon and Extreme Harness Engineering
 source_url: https://youtube.com/watch?v=qMnClynCAmM
 status: seed
-tags:
-- archon
-- automation
-- devops
-- yaml
+tags: [archon, automation, devops, yaml]
 title: Workflow-as-YAML
 type: atom
 upstream: '[[SoT - Agentic AI Design Patterns]]'
-permalink: llmeon/30-library/100-zettelkasten/workflow-as-yaml
 ---
 
 ## Workflow-as-YAML

@@ -1,33 +1,36 @@
 ---
+created: 2026-06-22T14:55:49+00:00
+modified: 2026-07-04T10:50:37+00:00
+permalink: llmeon/aws/ebs-csi-driver-migration-quick-reference
 title: EBS_CSI_Driver_Migration_Quick_Reference
 type: note
-permalink: llmeon/aws/ebs-csi-driver-migration-quick-reference
 ---
 
-# EBS CSI Driver Policy Migration — Quick Reference
+## EBS CSI Driver Policy Migration—Quick Reference
 
-**Last Updated:** 16 June 2026  
-**Status:** Ready for Execution
+Last Updated: 16 June 2026
+
+Status: Ready for Execution
 
 ---
 
-## Summary
+### Summary
 
 | Aspect | Detail |
 |--------|--------|
-| **Affected Roles** | 2 |
-| **Affected Clusters** | 2 (eoe-sde-codisc, eoe-test-codisc) |
-| **Untagged Volumes** | 9 |
-| **Migration Type** | Managed Policy Swap |
-| **AWS Profile** | eoe-hie |
-| **Region** | eu-west-2 |
-| **Authorisation Level** | ✅ Sufficient |
+| Affected Roles | 2 |
+| Affected Clusters | 2 (eoe-sde-codisc, eoe-test-codisc) |
+| Untagged Volumes | 9 |
+| Migration Type | Managed Policy Swap |
+| AWS Profile | eoe-hie |
+| Region | eu-west-2 |
+| Authorisation Level | ✅ Sufficient |
 
 ---
 
-## Step-by-Step Migration
+### Step-by-Step Migration
 
-### Phase 1: Pre-Migration Validation
+#### Phase 1: Pre-Migration Validation
 
 ```bash
 # Confirm you can access AWS
@@ -43,13 +46,13 @@ aws iam list-attached-role-policies \
   --profile eoe-hie | grep -i ebscsi
 ```
 
-**Expected Output:** Should show `AmazonEBSCSIDriverPolicy` with ARN ending in `service-role/AmazonEBSCSIDriverPolicy`
+Expected Output: Should show `AmazonEBSCSIDriverPolicy` with ARN ending in `service-role/AmazonEBSCSIDriverPolicy`
 
 ---
 
-### Phase 2: Tag Untagged Volumes (CRITICAL)
+#### Phase 2: Tag Untagged Volumes (CRITICAL)
 
-Execute tagging for all 9 untagged volumes **before** policy migration:
+Execute tagging for all 9 untagged volumes before policy migration:
 
 ```bash
 # Volume vol-0f512bf32e7a77a79 (UNKNOWN CLUSTER — investigate first)
@@ -79,7 +82,8 @@ for VOL in vol-0495ed05c42bdb021 vol-0834da1f3486fea9a vol-0a929e0fedba97937 \
 done
 ```
 
-**Verification:**
+Verification:
+
 ```bash
 # Confirm all volumes now have CSI tags
 aws ec2 describe-volumes \
@@ -90,9 +94,9 @@ aws ec2 describe-volumes \
 
 ---
 
-### Phase 3: Detach Legacy Policy
+#### Phase 3: Detach Legacy Policy
 
-**DO NOT PROCEED if EBS CSI pods are not healthy.** Check first:
+DO NOT PROCEED if EBS CSI pods are not healthy. Check first:
 
 ```bash
 # For eoe-sde-codisc
@@ -120,7 +124,7 @@ aws iam detach-role-policy \
 
 ---
 
-### Phase 4: Attach New Policy
+#### Phase 4: Attach New Policy
 
 Attach the cluster-scoped policy to both roles:
 
@@ -138,7 +142,7 @@ aws iam attach-role-policy \
 
 ---
 
-### Phase 5: Verify Policy Migration
+#### Phase 5: Verify Policy Migration
 
 ```bash
 # Verify new policy is attached
@@ -155,7 +159,7 @@ aws iam list-attached-role-policies \
 
 ---
 
-### Phase 6: Restart EBS CSI Controller Pods
+#### Phase 6: Restart EBS CSI Controller Pods
 
 The pods need to re-authenticate with the new policy:
 
@@ -181,9 +185,9 @@ kubectl get pods -n kube-system -l app=ebs-csi-controller \
 
 ---
 
-### Phase 7: Functional Testing
+#### Phase 7: Functional Testing
 
-#### Test 1: Create a Test PVC
+##### Test 1: Create a Test PVC
 
 ```bash
 # For eoe-sde-codisc
@@ -219,7 +223,7 @@ spec:
 EOF
 ```
 
-#### Test 2: Verify Volume Creation
+##### Test 2: Verify Volume Creation
 
 ```bash
 # Check PVC status
@@ -233,7 +237,7 @@ aws ec2 describe-volumes \
   --query 'Volumes[-1].{VolumeId:VolumeId,Size:Size,State:State}'
 ```
 
-#### Test 3: Check Controller Logs
+##### Test 3: Check Controller Logs
 
 ```bash
 # For eoe-sde-codisc
@@ -245,9 +249,9 @@ kubectl logs -n kube-system -l app=ebs-csi-controller \
   --context eoe-test-codisc | tail -20
 ```
 
-**Look for:** No error messages about permissions or authentication failures.
+Look for: No error messages about permissions or authentication failures.
 
-#### Test 4: Cleanup Test Volumes
+##### Test 4: Cleanup Test Volumes
 
 ```bash
 # For eoe-sde-codisc
@@ -259,7 +263,7 @@ kubectl delete pvc ebs-csi-test-test --context eoe-test-codisc
 
 ---
 
-## Rollback (If Needed)
+### Rollback (If Needed)
 
 If issues occur, quickly revert to the legacy policy:
 
@@ -293,49 +297,51 @@ kubectl delete pod -n kube-system -l app=ebs-csi-controller --context eoe-test-c
 
 ---
 
-## Troubleshooting
+### Troubleshooting
 
-### Issue: EBS CSI pods won't start / CrashLoopBackOff
+#### Issue: EBS CSI Pods Won't Start / CrashLoopBackOff
 
-**Symptom:** Pods restart repeatedly, logs show authentication errors
+Symptom: Pods restart repeatedly, logs show authentication errors
 
-**Resolution:**
+Resolution:
+
 1. Verify policy is attached: `aws iam list-attached-role-policies --role-name <ROLE> --profile eoe-hie`
 2. Check IAM role trust policy hasn't changed: `aws iam get-role --role-name <ROLE> --profile eoe-hie`
 3. If trust policy is wrong, execute rollback
 4. Check service account annotation: `kubectl describe sa ebs-csi-controller-sa -n kube-system`
 
-### Issue: PVC stuck in "Pending" state
+#### Issue: PVC Stuck in "Pending" sTate
 
-**Symptom:** `kubectl get pvc` shows "Pending" despite having EBS storage class
+Symptom: `kubectl get pvc` shows "Pending" despite having EBS storage class
 
-**Resolution:**
+Resolution:
+
 1. Check controller pod logs: `kubectl logs -n kube-system -l app=ebs-csi-controller`
 2. Look for "AccessDenied" or permission errors
 3. Verify role has the new policy attached
 4. Check security group allows EBS API calls (unlikely in managed EKS)
 
-### Issue: Existing volumes become inaccessible
+#### Issue: Existing Volumes Become Inaccessible
 
-**Symptom:** Pods with mounted PVs fail to start; EBS errors in logs
+Symptom: Pods with mounted PVs fail to start; EBS errors in logs
 
-**Resolution:**
-1. This should **not** happen with cluster-scoped policy (broader permissions)
+Resolution:
+
+1. This should not happen with cluster-scoped policy (broader permissions)
 2. If it occurs, immediately rollback to legacy policy
 3. Investigate why specific volume operations are failing
 4. Contact AWS Support with full error logs
 
 ---
 
-## Verification Checklist
+### Verification Checklist
 
-- [ ] **Pre-Migration**
+- [ ] Pre-Migration
   - [ ] AWS CLI access confirmed
   - [ ] Both roles have legacy policy attached
   - [ ] EBS CSI pods healthy on both clusters
   - [ ] All volumes tagged with CSI cluster identifier
-
-- [ ] **Post-Migration**
+- [ ] Post-Migration
   - [ ] Legacy policy detached from both roles
   - [ ] Cluster-scoped policy attached to both roles
   - [ ] EBS CSI pods restarted and healthy
@@ -345,7 +351,7 @@ kubectl delete pod -n kube-system -l app=ebs-csi-controller --context eoe-test-c
 
 ---
 
-## Timeline Estimate
+### Timeline Estimate
 
 | Phase | Duration | Notes |
 |-------|----------|-------|
@@ -354,13 +360,14 @@ kubectl delete pod -n kube-system -l app=ebs-csi-controller --context eoe-test-c
 | Policy attach | 1–2 min | Immediate |
 | Pod restart | 1–2 min | Automatic, K8s handles |
 | Verification testing | 10–15 min | Create test PVC, check logs |
-| **Total** | **~30–40 min** | Can be done in a single maintenance window |
+| Total | ~30–40 min | Can be done in a single maintenance window |
 
 ---
 
-## Success Criteria
+### Success Criteria
 
-✅ **Migration complete when:**
+✅ Migration complete when:
+
 1. ✅ Both roles show `AmazonEBSCSIDriverEKSClusterScopedPolicy` attached
 2. ✅ Legacy `AmazonEBSCSIDriverPolicy` is detached
 3. ✅ All 9 volumes have CSI tags
@@ -370,4 +377,4 @@ kubectl delete pod -n kube-system -l app=ebs-csi-controller --context eoe-test-c
 
 ---
 
-**Ready to execute. Please proceed with Phase 1 validation.**
+Ready to execute. Please proceed with Phase 1 validation.

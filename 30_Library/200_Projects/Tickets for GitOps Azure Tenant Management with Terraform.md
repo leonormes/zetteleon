@@ -1,8 +1,9 @@
 ---
 aliases: []
-created: 2025-03-05 01:25:01+00:00
+created: 2025-03-05T01:25:01+00:00
 last_reviewed: ''
-modified: 2026-06-08 11:49:22+00:00
+modified: 2026-07-04T10:51:24+00:00
+permalink: llmeon/30-library/200-projects/tickets-for-git-ops-azure-tenant-management-with-terraform
 project_category: infrastructure
 project_name: DevOps
 project_status: archived
@@ -11,7 +12,6 @@ tags: []
 title: Tickets for GitOps Azure Tenant Management with Terraform
 type: ''
 updated: null
-permalink: llmeon/30-library/200-projects/tickets-for-git-ops-azure-tenant-management-with-terraform
 ---
 
 ## Tickets for GitOps Azure Tenant Management with Terraform

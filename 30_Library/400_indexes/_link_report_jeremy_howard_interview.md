@@ -1,12 +1,12 @@
 ---
-created: 2026-04-14 20:32:21+00:00
+created: 2026-04-14T20:32:21+00:00
 created_utc: '2026-04-14T13:50:00Z'
-modified: 2026-05-26 11:44:23+00:00
+modified: 2026-07-04T10:51:14+00:00
+permalink: llmeon/30-library/400-indexes/link-report-jeremy-howard-interview
 source_atoms: '[[tmp_atoms_jeremy_howard_interview.md]]'
 status: tmp
 title: _link_report_jeremy_howard_interview
 type: link_report
-permalink: llmeon/30-library/400-indexes/link-report-jeremy-howard-interview
 ---
 
 ## Link Report: Deconstructing the Interview with Jeremy Howard
@@ -29,6 +29,6 @@ permalink: llmeon/30-library/400-indexes/link-report-jeremy-howard-interview
 | [[Desirable Difficulty in Skill Acquisition]] | 3 | [[SoT - Human vs AI Cognition]]—upstream |
 | [[Centralisation Risk]] | 3 | [[SoT - Human vs AI Cognition]]—upstream |
 
-### Orphan Atoms (no Links found)
+### Orphan Atoms (No Links fOund)
 
 (none)

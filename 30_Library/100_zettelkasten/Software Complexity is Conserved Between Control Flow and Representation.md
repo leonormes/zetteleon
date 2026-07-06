@@ -1,13 +1,10 @@
 ---
-created: 2026-02-01 20:57:04+00:00
-modified: 2026-02-04 07:27:42+00:00
-status: evergreen
-tags:
-- concept/complexity
-- domain/software-engineering
-- law
-title: Software Complexity is Conserved Between Control Flow and Representation
+created: 2026-02-01T20:57:04+00:00
+modified: 2026-07-04T10:51:45+00:00
 permalink: llmeon/30-library/100-zettelkasten/software-complexity-is-conserved-between-control-flow-and-representation
+status: evergreen
+tags: [concept/complexity, domain/software-engineering, law]
+title: Software Complexity is Conserved Between Control Flow and Representation
 ---
 
 ## Software Complexity is Conserved Between Control Flow and Representation

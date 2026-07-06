@@ -1,18 +1,15 @@
 ---
 aliases: []
-created: 2025-07-21 13:35:11+00:00
+created: 2025-07-21T13:35:11+00:00
 last_reviewed: ''
-modified: 2026-02-11 06:55:20+00:00
+modified: 2026-07-04T10:51:55+00:00
+permalink: llmeon/30-library/100-zettelkasten/a-car-mechanic-versus-an-engineer-is-a-strong-analogy-for-the-two-views-of-maths
 status: ''
-tags:
-- analogy
-- idea/maths-education
-- status/evergreen
-title: A Car Mechanic Versus an Engineer Is a Strong Analogy for the Two Views of
+tags: [analogy, idea/maths-education, status/evergreen]
+title: A Car Mechanic Versus an Engineer Is a Strong Analogy for the Two Views of Maths
   Maths
 type: ''
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/a-car-mechanic-versus-an-engineer-is-a-strong-analogy-for-the-two-views-of-maths
 ---
 
 The Idea (In Detail):

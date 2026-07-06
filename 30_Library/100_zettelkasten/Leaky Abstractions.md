@@ -1,14 +1,14 @@
 ---
 aliases: []
-created: 2025-08-29 15:13:40+00:00
+created: 2025-08-29T15:13:40+00:00
 last_reviewed: ''
-modified: 2026-05-26 11:44:34+00:00
+modified: 2026-07-04T10:51:49+00:00
+permalink: llmeon/30-library/100-zettelkasten/leaky-abstractions
 status: ''
 tags: []
 title: Leaky Abstractions
 type: ''
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/leaky-abstractions
 ---
 
 An abstraction in software is a simplified view of a complex system that hides the underlying implementation details (e.g., a file API hides the complexity of disk sectors).

@@ -1,18 +1,11 @@
 ---
-created: 2026-05-19 22:29:21+00:00
-modified: 2026-05-26 11:43:35+00:00
-pieces_ids:
-- 2474c2e1-ac86-4e73-b774-e3a8d6619e6d
-- 6b5a24ff-c41d-43f8-b0af-6cde6f90ae79
-- 7832f531-dad9-4bda-9629-4b0d7dbfa199
-- a4bd5558-c9be-4226-bb84-1db404eea34f
-- ab317018-890b-47e2-ae7b-7ca195f6118a
-source: pieces-ltm
-tags:
-- pieces
-- raw
-title: 2026-05-19-pieces-gcx-cli-grafana-setup
+created: 2026-05-19T22:29:21+00:00
+modified: 2026-07-04T10:49:59+00:00
 permalink: llmeon/raw/2026-05-19-pieces-gcx-cli-grafana-setup
+pieces_ids: [2474c2e1-ac86-4e73-b774-e3a8d6619e6d, 6b5a24ff-c41d-43f8-b0af-6cde6f90ae79, 7832f531-dad9-4bda-9629-4b0d7dbfa199, a4bd5558-c9be-4226-bb84-1db404eea34f, ab317018-890b-47e2-ae7b-7ca195f6118a]
+source: pieces-ltm
+tags: [pieces, raw]
+title: 2026-05-19-pieces-gcx-cli-grafana-setup
 ---
 
 ## Asset 1 (Pieces: a4bd5558-c9be-4226-bb84-1db404eea34f)
@@ -211,7 +204,7 @@ gcx config set current-context fitfiletest
 
 ---
 
-### Step 3—Alternative: `gcx login` (browser OAuth)
+### Step 3—Alternative: `gcx login` (Browser OAuth)
 
 Your memory shows you previously tried `gcx login --context fitfiletest` and it presented the OAuth vs service-account-token choice but you aborted. For interactive use, this path works:
 
@@ -325,7 +318,7 @@ For LLM/agent use, service account tokens are the right auth method—not browse
 
 There are two methods. Method A (browser OAuth) is what you've been attempting—it works interactively but has been aborting for you. Method B (explicit token config) is the stable path for agent/LLM use.
 
-### Method B—explicit Config (recommended for LLM access)
+### Method B—explicit Config (Recommended for LLM aCcess)
 
 ```bash
 # --- fitfiletest context ---
@@ -340,7 +333,7 @@ gcx config set contexts.fitfileprod.grafana.token <your-fitfileprod-service-acco
 gcx config set current-context fitfiletest
 ```
 
-### Method A—browser OAuth (interactive, if You Prefer it)
+### Method A—browser OAuth (Interactive, if You Prefer iT)
 
 ```bash
 # For fitfiletest
@@ -454,7 +447,7 @@ gcx login --context fitfileprod
 
 ---
 
-### Step 2—Configure Contexts via Service account Tokens (recommended for LLM use)
+### Step 2—Configure Contexts via Service account Tokens (Recommended for LLM uSe)
 
 For an LLM agent to reliably read both stacks without browser flows, use service account tokens. Your Grafana Cloud org already has structured access policies at [grafana.com/orgs/garethhailes/access-policies](https://grafana.com/orgs/garethhailes/access-policies) including:
 

@@ -1,13 +1,9 @@
 ---
-created: 2026-04-10 00:00:00+00:00
-modified: 2026-05-26 11:44:36+00:00
-tags:
-- cognition
-- mental-models
-- pkm
-- productivity
-title: Cognitive Offloading Frees Mental Resources for Decision-Making and Problem-Solving
+created: 2026-04-10T00:00:00+00:00
+modified: 2026-07-04T10:51:53+00:00
 permalink: llmeon/30-library/100-zettelkasten/cognitive-offloading-frees-mental-resources-for-decision-making-and-problem-solving
+tags: [cognition, mental-models, pkm, productivity]
+title: Cognitive Offloading Frees Mental Resources for Decision-Making and Problem-Solving
 ---
 
 ## Cognitive Offloading Frees Mental Resources for Decision-Making and Problem-Solving
@@ -38,6 +34,4 @@ Applies whenever a thinking task demands more concurrent items than working memo
 
 - [[Externalize Memory Aggressively (cognitive offloading)]]
 - [[Limited Human Information Processing Capacity]]
-
-
 - [[Knowledge Artifacts]] _(Knowledge artifacts are the tangible products of cognitive offloading)_

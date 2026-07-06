@@ -1,12 +1,12 @@
 ---
-created: 2026-03-30 08:34:15+00:00
-modified: 2026-06-08 11:49:21+00:00
+created: 2026-03-30T08:34:15+00:00
+modified: 2026-07-04T10:51:28+00:00
+permalink: llmeon/30-library/200-projects/nwsde
 project_category: deployments
 project_name: Deployments
 project_status: active
 title: NWSDE
 type: null
-permalink: llmeon/30-library/200-projects/nwsde
 ---
 
 tenant ID: `eae2146b-01ed-4b70-8a27-caa5804ab9ca`

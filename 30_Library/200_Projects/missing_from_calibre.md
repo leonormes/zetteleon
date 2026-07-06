@@ -1,12 +1,12 @@
 ---
-created: 2026-06-09 15:14:50+00:00
-modified: 2026-06-11 13:34:53+00:00
+created: 2026-06-09T15:14:50+00:00
+modified: 2026-07-04T10:51:15+00:00
+permalink: llmeon/30-library/200-projects/missing-from-calibre
 project_category: personal
 project_name: Personal Library
 project_status: active
-title: Books to Download — BookFusion to Calibre
+title: missing_from_calibre
 type: task-list
-permalink: llmeon/30-library/200-projects/missing-from-calibre
 ---
 
 ## Books to Download—BookFusion → Calibre

@@ -1,27 +1,11 @@
 ---
-created: 2026-05-21 19:15:29+00:00
-modified: 2026-05-26 11:43:34+00:00
-pieces_ids:
-- 090bb794-7c62-4e31-b7e7-2d702a3f74a5
-- 13de5368-25e7-43b4-b57f-4812a7c653bc
-- 1c0b9241-01c1-4430-aa7b-6265bcbc5746
-- 9606afb5-85a3-4a60-a706-eadfdb6f4c9d
-- a8815bd0-3302-47ba-9b36-b7d074ace590
-- b2a21040-5738-4d13-8948-1d28b2a479ee
-- c072bc97-9fc7-49bc-8947-e62e6fcc9383
-- c9d65708-dd8f-4cb2-8eda-99f66997883a
-- cd6387d0-d7c6-4a4e-af8b-4d351db806f5
-- d1a7da1d-091b-4c14-acf1-93261772641b
-- d9561ded-a357-4d35-9957-7e51063b4132
-- e6ba010c-413b-41a0-b563-51391c19e338
-- f7428c1e-c415-4f9c-bacb-f9dd4b7c2f4e
-- f9276303-8ee8-4b9b-8164-af7eb0171fdc
-source: pieces-ltm
-tags:
-- pieces
-- raw
-title: 2026-05-21-pieces-cuh-azure-aks-1
+created: 2026-05-21T19:15:29+00:00
+modified: 2026-07-04T10:49:57+00:00
 permalink: llmeon/raw/2026-05-21-pieces-cuh-azure-aks-1
+pieces_ids: [090bb794-7c62-4e31-b7e7-2d702a3f74a5, 13de5368-25e7-43b4-b57f-4812a7c653bc, 1c0b9241-01c1-4430-aa7b-6265bcbc5746, 9606afb5-85a3-4a60-a706-eadfdb6f4c9d, a8815bd0-3302-47ba-9b36-b7d074ace590, b2a21040-5738-4d13-8948-1d28b2a479ee, c072bc97-9fc7-49bc-8947-e62e6fcc9383, c9d65708-dd8f-4cb2-8eda-99f66997883a, cd6387d0-d7c6-4a4e-af8b-4d351db806f5, d1a7da1d-091b-4c14-acf1-93261772641b, d9561ded-a357-4d35-9957-7e51063b4132, e6ba010c-413b-41a0-b563-51391c19e338, f7428c1e-c415-4f9c-bacb-f9dd4b7c2f4e, f9276303-8ee8-4b9b-8164-af7eb0171fdc]
+source: pieces-ltm
+tags: [pieces, raw]
+title: 2026-05-21-pieces-cuh-azure-aks-1
 ---
 
 ## Asset 1 (Pieces: 9606afb5-85a3-4a60-a706-eadfdb6f4c9d)—12:42:35
@@ -733,7 +717,7 @@ Start with steps 1 and 2—`az network bastion list` will tell you immediately w
 
 ## Asset 12 (Pieces: cd6387d0-d7c6-4a4e-af8b-4d351db806f5)—12:54:40
 
-/V/D/F/g/F/D/C/e/P/CUH-DP on  master $   on ☁ FitFile  on 🅰 (eu-west-2)  at 13:43:31
+/V/D/F/g/F/D/C/e/P/CUH-DP on  master $ on ☁ FitFile on 🅰 (eu-west-2) at 13:43:31
 
 ❯ az network bastion ssh \
   --name bas-ff-uks-gp \
@@ -749,14 +733,14 @@ Code: ResourceNotFound
 
 Message: The Resource 'Microsoft.Network/bastionHosts/bas-ff-uks-gp' under resource group 'rg-ff-uks-gp-net' was not found. For more details please go to <https://aka.ms/ARMResourceNotFoundFix>
 
-/V/D/F/g/F/D/C/e/P/CUH-DP on  master $   on ☁ FitFile on 🅰 (eu-west-2) at 13:44:01
+/V/D/F/g/F/D/C/e/P/CUH-DP on  master $ on ☁ FitFile on 🅰 (eu-west-2) at 13:44:01
 ❯ az vm list --resource-group rg-ff-uks-gp-net --query "[].{name:name, id:id}" -o table
 Name
 --------------
 
 FITFILEJumpbox
 
-/V/D/F/g/F/D/C/e/P/CUH-DP on  master $   on ☁ FitFile on 🅰 (eu-west-2) at 13:47:42
+/V/D/F/g/F/D/C/e/P/CUH-DP on  master $ on ☁ FitFile on 🅰 (eu-west-2) at 13:47:42
 
 ❯ az vm show \
   --resource-group rg-ff-uks-gp-net \
@@ -774,7 +758,7 @@ FITFILEJumpbox
 
 }
 
-/V/D/F/g/F/D/C/e/P/CUH-DP on  master $   on ☁ FitFile  on 🅰 (eu-west-2)  at 13:47:55
+/V/D/F/g/F/D/C/e/P/CUH-DP on  master $ on ☁ FitFile on 🅰 (eu-west-2) at 13:47:55
 
 ❯ JUMPBOX_ID=$(az vm show \
   --resource-group rg-ff-uks-gp-net \
@@ -796,7 +780,7 @@ Code: ResourceGroupNotFound
 
 Message: Resource group 'NNUHFT-SDE-Networking' could not be found.
 
-/V/D/F/g/F/D/C/e/P/CUH-DP on  master $   on ☁ FitFile  on 🅰 (eu-west-2)  at 13:51:01
+/V/D/F/g/F/D/C/e/P/CUH-DP on  master $ on ☁ FitFile on 🅰 (eu-west-2) at 13:51:01
 
 ❯ JUMPBOX_ID=$(az vm show \
   --resource-group rg-ff-uks-gp-net \
@@ -818,7 +802,7 @@ Code: ResourceNotFound
 
 Message: The Resource 'Microsoft.Network/bastionHosts/bas-ff-uks-gp' under resource group 'rg-ff-uks-gp-net' was not found. For more details please go to <https://aka.ms/ARMResourceNotFoundFix>
 
-/V/D/F/g/F/D/C/e/P/CUH-DP on  master $   on ☁ FitFile on 🅰 (eu-west-2) at 13:52:25
+/V/D/F/g/F/D/C/e/P/CUH-DP on  master $ on ☁ FitFile on 🅰 (eu-west-2) at 13:52:25
 
 ❯ # Verify the RG itself exists
 
@@ -878,7 +862,7 @@ nsg-ff-uks-gp-workflows rg-ff-uks-gp-net uksouth Microsoft.Network/networkSecuri
 
 nsg-ff-uks-gp-system rg-ff-uks-gp-net uksouth Microsoft.Network/networkSecurityGroups Succeeded
 
-/V/D/F/g/F/D/C/e/P/CUH-DP on  master $   on ☁ FitFile on 🅰 (eu-west-2) at 13:53:32
+/V/D/F/g/F/D/C/e/P/CUH-DP on  master $ on ☁ FitFile on 🅰 (eu-west-2) at 13:53:32
 
 ❯ # Find ALL bastionHosts in the subscription regardless of RG
 
@@ -893,7 +877,7 @@ az resource list \
   --resource-type Microsoft.Network/bastionHosts \
   --output table
 
-/V/D/F/g/F/D/C/e/P/CUH-DP on  master $   on ☁ FitFile on 🅰 (eu-west-2) at 13:53:46
+/V/D/F/g/F/D/C/e/P/CUH-DP on  master $ on ☁ FitFile on 🅰 (eu-west-2) at 13:53:46
 
 ❯ # Try show with full resource ID path (catches wrong-RG issues)
 
@@ -909,7 +893,7 @@ Code: ResourceNotFound
 
 Message: The Resource 'Microsoft.Network/bastionHosts/bas-ff-uks-gp' under resource group 'rg-ff-uks-gp-net' was not found. For more details please go to <https://aka.ms/ARMResourceNotFoundFix>
 
-/V/D/F/g/F/D/C/e/P/CUH-DP on  master $   on ☁ FitFile on 🅰 (eu-west-2) at 13:53:51
+/V/D/F/g/F/D/C/e/P/CUH-DP on  master $ on ☁ FitFile on 🅰 (eu-west-2) at 13:53:51
 
 ❯ # Get the VNet the jumpbox NIC is attached to
 
@@ -920,7 +904,7 @@ az vm show \
   --query "networkProfile.networkInterfaces[].id" \
   --output tsv
 
-## Then Check the VNet for AzureBastionSubnet (required for Bastion)
+## Then Check the VNet for AzureBastionSubnet (Required for Bastion)
 
 az network vnet subnet show \
   --name AzureBastionSubnet \
@@ -937,7 +921,7 @@ Code: NotFound
 
 Message: Resource /subscriptions/709f3d57-b6d7-48c6-8252-6b1c1174a541/resourceGroups/rg-ff-uks-gp-net/providers/Microsoft.Network/virtualNetworks/vnet-ff-uks-gp-01/subnets/AzureBastionSubnet not found.
 
-/V/D/F/g/F/D/C/e/P/CUH-DP on  master $   on ☁ FitFile on 🅰 (eu-west-2) at 13:54:03
+/V/D/F/g/F/D/C/e/P/CUH-DP on  master $ on ☁ FitFile on 🅰 (eu-west-2) at 13:54:03
 
 ❯ az monitor activity-log list \
   --subscription 709f3d57-b6d7-48c6-8252-6b1c1174a541 \
@@ -990,7 +974,7 @@ Additionally:
 
 The Bastion and the Jumpbox are in different subscriptions. The `az network bastion ssh` command requires both resources to be reachable—you need to either:
 
-#### Option A—Cross-subscription Bastion SSH (correct approach)
+#### Option A—Cross-subscription Bastion SSH (Correct aPproach)
 
 Point `--subscription` at the FitFile subscription for the Bastion, but use the full resource ID (which is already subscription-qualified) for the jumpbox target:
 
@@ -1009,7 +993,7 @@ az network bastion ssh \
 
 > Note: Azure Bastion can connect to VMs in peered VNets across subscriptions as long as the Bastion's VNet is peered to the target VM's VNet. Whether `vnet-ff-uks-gp-01` in the FitFile sub is peered to the CUH VNet matters here.
 
-#### Option B—Use Bastion Tunnel instead (more Reliable cross-sub)
+#### Option B—Use Bastion Tunnel instead (More Reliable cRoss-sub)
 
 If Option A fails due to cross-subscription VM targeting restrictions, use a tunnel:
 
@@ -1027,7 +1011,7 @@ az network bastion tunnel \
 ssh -p 2222 -o PubkeyAuthentication=no -o PreferredAuthentications=password azadmin@127.0.0.1
 ```
 
-#### Option C—Deploy Bastion into the CUH Subscription (proper Fix long-term)
+#### Option C—Deploy Bastion into the CUH Subscription (Proper Fix lOng-term)
 
 Your `az resource list` confirms there is no Bastion and no `AzureBastionSubnet` in the CUH `rg-ff-uks-gp-net`. The Terraform you were reviewing (`terraform-azure-aks-backup`, LTM event `8c9b0c2f`) had `azurerm_subnet "bastion"` + Bastion resources added—that code needs to be applied against the CUH subscription to get a native Bastion there.
 

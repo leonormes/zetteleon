@@ -1,21 +1,14 @@
 ---
-aliases:
-- Fleeting Thoughts
-- Quick Capture Notes
-- Temporary Notes
-created: 2025-10-30 15:31:09+00:00
+aliases: [Fleeting Thoughts, Quick Capture Notes, Temporary Notes]
+created: 2025-10-30T15:31:09+00:00
 last_reviewed: '2025-10-30T00:00:00.000Z'
-modified: 2026-02-01 15:08:33+00:00
+modified: 2026-07-04T10:51:51+00:00
+permalink: llmeon/30-library/100-zettelkasten/fleeting-notes-are-temporary-capture-mechanisms
 status: seedling
-tags:
-- capture
-- topic/pkm
-- topic/pkm/zettelkasten
-- workflow
+tags: [capture, topic/pkm, topic/pkm/zettelkasten, workflow]
 title: Fleeting Notes Are Temporary Capture Mechanisms
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/fleeting-notes-are-temporary-capture-mechanisms
 ---
 
 ## Fleeting Notes Are Temporary Capture Mechanisms

@@ -1,18 +1,14 @@
 ---
-aliases:
-- Synthesis Power
-created: 2025-11-01 12:30:12+00:00
+aliases: [Synthesis Power]
+created: 2025-11-01T12:30:12+00:00
 last_reviewed: '2025-11-01'
-modified: 2026-02-01 15:08:33+00:00
+modified: 2026-07-04T10:51:51+00:00
+permalink: llmeon/30-library/100-zettelkasten/generalization-and-synthesis-are-powerful-in-complex-environments
 status: seedling
-tags:
-- complexity
-- generalization
-- synthesis
+tags: [complexity, generalization, synthesis]
 title: Generalization and Synthesis are Powerful in Complex Environments
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/generalization-and-synthesis-are-powerful-in-complex-environments
 ---
 
 ## Generalization and Synthesis Are Powerful in Complex Environments

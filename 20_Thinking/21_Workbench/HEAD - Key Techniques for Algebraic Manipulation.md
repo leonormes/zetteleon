@@ -1,15 +1,13 @@
 ---
 aliases: []
-created: 2026-05-29 00:00:32+00:00
-modified: 2026-06-08 11:49:17+00:00
+created: 2026-05-29T00:00:32+00:00
+modified: 2026-07-04T10:52:03+00:00
+permalink: llmeon/20-thinking/21-workbench/head-key-techniques-for-algebraic-manipulation
 project_category: personal
 project_status: archived
-tags:
-- prodos/head
-- state/thinking
-title: HEAD - 2026-05-29 1356
+tags: [prodos/head, state/thinking]
+title: HEAD - Key Techniques for Algebraic Manipulation
 type: null
-permalink: llmeon/20-thinking/21-workbench/head-key-techniques-for-algebraic-manipulation
 ---
 
 Andy does a lot of equation work. he moves symbols about and is able to work out different data from given data. What is the manipulation of the equations called? How do I practice this kind of thing?

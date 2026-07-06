@@ -1,16 +1,14 @@
 ---
 aliases: []
-created: 2025-10-31 10:49:00+00:00
+created: 2025-10-31T10:49:00+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:33+00:00
+modified: 2026-07-04T10:51:50+00:00
+permalink: llmeon/30-library/100-zettelkasten/glue-records-solve-dns-chicken-and-egg-problems
 status: seedling
-tags:
-- SoftwareEngineering/Networking
-- SoftwareEngineering/networking/dns
+tags: [SoftwareEngineering/Networking, SoftwareEngineering/networking/dns]
 title: Glue Records Solve DNS Chicken-and-Egg Problems
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/glue-records-solve-dns-chicken-and-egg-problems
 ---
 
 ## Glue Records Solve DNS Chicken-and-Egg Problems

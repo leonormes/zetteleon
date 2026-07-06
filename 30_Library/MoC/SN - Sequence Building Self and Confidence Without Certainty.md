@@ -1,26 +1,20 @@
 ---
 aliases: []
-created: 2025-11-01 09:51:13+00:00
+created: 2025-11-01T09:51:13+00:00
 criteria: Include concepts that address the philosophical problem of building identity
   after loss of absolute certainty
 exclusions: Does not cover empirical psychology research or therapeutic interventions
 last_reviewed: ''
-modified: 2026-02-01 17:03:35+00:00
+modified: 2026-07-04T10:51:08+00:00
+permalink: llmeon/30-library/mo-c/sn-sequence-building-self-and-confidence-without-certainty
 scope: Traces the logical sequence from recognizing arbitrariness to reconstructing
   confidence through pragmatic frameworks
 source: https://gemini.google.com/share/0bf03c7ce4b5
 status: growing
-tags:
-- confidence
-- epistemology
-- sequence
-- structural
-- TheHuman/Identity
-- uncertainty
+tags: [confidence, epistemology, sequence, structural, TheHuman/Identity, uncertainty]
 title: SN - Sequence Building Self and Confidence Without Certainty
 type: map
 updated: null
-permalink: llmeon/30-library/mo-c/sn-sequence-building-self-and-confidence-without-certainty
 ---
 
 ## SN - Sequence: Building Self and Confidence Without Certainty

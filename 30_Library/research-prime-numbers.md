@@ -1,18 +1,12 @@
 ---
 books_analysed: 13
-created: 2026-05-22 14:30:00+01:00
+created: 2026-05-22T13:30:00+00:00
 graphify_query: prime numbers
-modified: 2026-05-26 11:43:57+00:00
-source: library-indexer v1.0.0
-tags:
-- calibre
-- cryptography
-- number-theory
-- prime-numbers
-- reading-list
-- research
-title: research-prime-numbers
+modified: 2026-07-04T10:50:38+00:00
 permalink: llmeon/30-library/research-prime-numbers
+source: library-indexer v1.0.0
+tags: [calibre, cryptography, number-theory, prime-numbers, reading-list, research]
+title: research-prime-numbers
 ---
 
 ## Research: Prime Numbers—Reading List & Concept Map

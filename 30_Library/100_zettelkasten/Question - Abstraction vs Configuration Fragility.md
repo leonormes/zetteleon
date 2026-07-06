@@ -1,15 +1,11 @@
 ---
-created: 2026-02-06 14:20:00+00:00
-modified: 2026-02-16 09:40:29+00:00
+created: 2026-02-06T14:20:00+00:00
+modified: 2026-07-04T10:51:46+00:00
+permalink: llmeon/30-library/100-zettelkasten/question-abstraction-vs-configuration-fragility
 status: open
-tags:
-- architecture/coupling
-- devops/configuration
-- engineering/complexity
-- state/thinking
+tags: [architecture/coupling, devops/configuration, engineering/complexity, state/thinking]
 title: Question - Abstraction vs Configuration Fragility
 type: question
-permalink: llmeon/30-library/100-zettelkasten/question-abstraction-vs-configuration-fragility
 ---
 
 ## Question: Is Configuration Fragility Inherent to Distributed Systems?

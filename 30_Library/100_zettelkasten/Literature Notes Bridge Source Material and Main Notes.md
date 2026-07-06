@@ -1,21 +1,14 @@
 ---
-aliases:
-- Literature Processing
-- Reference Notes
-- Source Notes
-created: 2025-10-30 15:31:09+00:00
+aliases: [Literature Processing, Reference Notes, Source Notes]
+created: 2025-10-30T15:31:09+00:00
 last_reviewed: '2025-10-30T00:00:00.000Z'
-modified: 2026-02-01 15:08:31+00:00
+modified: 2026-07-04T10:51:49+00:00
+permalink: llmeon/30-library/100-zettelkasten/literature-notes-bridge-source-material-and-main-notes
 status: seedling
-tags:
-- sources
-- topic/pkm
-- topic/pkm/zettelkasten
-- workflow
+tags: [sources, topic/pkm, topic/pkm/zettelkasten, workflow]
 title: Literature Notes Bridge Source Material and Main Notes
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/literature-notes-bridge-source-material-and-main-notes
 ---
 
 ## Literature Notes Bridge Source Material and Main Notes

@@ -1,22 +1,14 @@
 ---
-aliases:
-- Atomic Chores Inventory
-- Chores List
-- Cleaning SOPs
-- Home Maintenance Registry
-created: 2025-12-30 10:00:00+00:00
+aliases: [Atomic Chores Inventory, Chores List, Cleaning SOPs, Home Maintenance Registry]
+created: 2025-12-30T10:00:00+00:00
 last_reviewed: '2025-12-30'
-modified: 2026-02-01 15:07:55+00:00
+modified: 2026-07-04T10:50:55+00:00
+permalink: llmeon/30-library/so-t/so-t-master-household-chores-inventory
 status: proposal
-tags:
-- chores
-- family
-- inventory
-- system
+tags: [chores, family, inventory, system]
 title: SoT - Master Household Chores Inventory
 type: SoT
 updated: null
-permalink: llmeon/30-library/so-t/so-t-master-household-chores-inventory
 ---
 
 ## SoT - Master Household Chores Inventory
@@ -77,7 +69,7 @@ _Shared social space. Focus on clutter control and comfort._
 
 ---
 
-### 4. Zone: Bathrooms (x2)
+### 4. Zone: Bathrooms (X2)
 
 _Sanitation critical zones._
 

@@ -1,22 +1,15 @@
 ---
-aliases:
-- Contentment Practice
-- Taru o shiru
-created: 2025-10-29 16:35:00+00:00
+aliases: [Contentment Practice, Taru o shiru]
+created: 2025-10-29T16:35:00+00:00
 last_reviewed: ''
-modified: 2026-05-26 11:44:32+00:00
+modified: 2026-07-04T10:51:45+00:00
+permalink: llmeon/30-library/100-zettelkasten/taru-o-shiru-is-the-practice-of-contentment-with-what-one-has
 source: '[[SoT - Ikigai and the Logic of Purpose]]'
 status: seedling
-tags:
-- contentment
-- gratitude
-- Japanese_culture
-- mindfulness
-- TheHuman/Habits
+tags: [contentment, gratitude, Japanese_culture, mindfulness, TheHuman/Habits]
 title: Taru o shiru is the practice of contentment with what one has
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/taru-o-shiru-is-the-practice-of-contentment-with-what-one-has
 ---
 
 "Taru o shiru" is a Japanese principle of practicing contentment by focusing on what you already have rather than what you lack. This [[SoT - Mindfulness and Emotional Regulation|mindful habit]] is intended to cultivate inner peace and gratitude, leading to an immediate boost in happiness and alignment with one's [[SoT - Ikigai and the Logic of Purpose|purpose]].

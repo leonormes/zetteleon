@@ -1,15 +1,12 @@
 ---
-created: 2026-02-11 10:05:14+00:00
+created: 2026-02-11T10:05:14+00:00
 description: Refine Leon’s CV for UK infrastructure roles with micro-step feedback
   and concrete rewrites.
-modified: 2026-05-26 11:44:37+00:00
-tags:
-- domain/career
-- tool/writing
-- type/utility
+modified: 2026-07-04T10:52:06+00:00
+permalink: llmeon/10-system/prompts/cv-refinement-prompt
+tags: [domain/career, tool/writing, type/utility]
 title: CV Refinement Prompt
 type: prompt
-permalink: llmeon/10-system/prompts/cv-refinement-prompt
 ---
 
 ## CV Refinement Prompt
@@ -54,7 +51,7 @@ I operate on the principle that complexity is conserved (Tesler's Law)—it cann
 - Autonomy—given a problem space, not a task list
 - Wage commensurate with architecture expertise applied to technical execution
 
-#### What I Do NOT Want (for Your awareness—never Put This on the CV)
+#### What I Do NOT Want (For Your awareness—never Put This on the CV)
 
 - Pure management roles
 - Organisations where "Principal" means "post-technical" (just meetings)

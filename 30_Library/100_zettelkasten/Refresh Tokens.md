@@ -1,19 +1,16 @@
 ---
-created: 2026-04-13 14:47:45+00:00
+created: 2026-04-13T14:47:45+00:00
 created_utc: '2026-04-13T11:30:00Z'
 kind: mechanism
-modified: 2026-05-26 11:44:33+00:00
+modified: 2026-07-04T10:51:46+00:00
+permalink: llmeon/30-library/100-zettelkasten/refresh-tokens
 source_title: Every API Authentication Method Explained
 source_url: https://youtube.com/watch?v=_lTECv25N2U
 status: seed
-tags:
-- authentication
-- tokens
-- user-experience
+tags: [authentication, tokens, user-experience]
 title: Refresh Tokens
 type: atom
 upstream: '[[HEAD Authentication Methods and Concepts]]'
-permalink: llmeon/30-library/100-zettelkasten/refresh-tokens
 ---
 
 ## Refresh Tokens

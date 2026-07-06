@@ -1,19 +1,14 @@
 ---
 aliases: []
-created: 2025-10-24 14:25:58+00:00
+created: 2025-10-24T14:25:58+00:00
 last_reviewed: 'null'
-modified: 2026-02-01 15:08:37+00:00
+modified: 2026-07-04T10:51:54+00:00
+permalink: llmeon/30-library/100-zettelkasten/aws-alb-target-groups
 status: 'null'
-tags:
-- aws
-- health-checks
-- load-balancing
-- SoftwareEngineering/Networking
-- target-groups
+tags: [aws, health-checks, load-balancing, SoftwareEngineering/Networking, target-groups]
 title: AWS ALB Target Groups
 type: 'null'
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/aws-alb-target-groups
 ---
 
 An ALB Target Group is a logical grouping of targets (e.g., EC2 instances, IP addresses, Lambda functions) that an Application Load Balancer (ALB) routes requests to.

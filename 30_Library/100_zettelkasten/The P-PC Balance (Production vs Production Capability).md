@@ -1,17 +1,14 @@
 ---
 aliases: []
-created: 2025-10-20 09:09:00+00:00
+created: 2025-10-20T09:09:00+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:25+00:00
+modified: 2026-07-04T10:51:44+00:00
+permalink: llmeon/30-library/100-zettelkasten/the-p-pc-balance-production-vs-production-capability
 status: ''
-tags:
-- effectiveness
-- principles
-- sustainability
+tags: [effectiveness, principles, sustainability]
 title: The P-PC Balance (Production vs Production Capability)
 type: ''
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/the-p-pc-balance-production-vs-production-capability
 ---
 
 The P/PC Balance is a fundamental principle of effectiveness, illustrating the necessary balance between Production (P) and Production Capability (PC).

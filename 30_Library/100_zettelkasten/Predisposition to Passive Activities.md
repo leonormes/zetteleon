@@ -1,14 +1,14 @@
 ---
 aliases: []
-created: 2025-08-12 08:14:20+00:00
+created: 2025-08-12T08:14:20+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:29+00:00
+modified: 2026-07-04T10:51:47+00:00
+permalink: llmeon/30-library/100-zettelkasten/predisposition-to-passive-activities
 status: ''
 tags: []
 title: Predisposition to Passive Activities
 type: ''
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/predisposition-to-passive-activities
 ---
 
 The sources suggest that ADHD brains can lean towards activities that offer an illusion of progress and a dopamine reward without requiring significant effort or uncomfortable action, which can be interpreted as passive engagement.

@@ -1,22 +1,14 @@
 ---
-created: 2026-04-16 00:00:00+00:00
-modified: 2026-06-08 11:49:22+00:00
+created: 2026-04-16T00:00:00+00:00
+modified: 2026-07-04T10:51:26+00:00
+permalink: llmeon/30-library/200-projects/omop-data-generation-requirements
 project_category: omop
 project_name: OMOP
 project_status: active
-tags:
-- fitfile
-- omop
-- requirements
-tickets:
-- FTFL-475
-- FTFL-476
-- FTFL-479
-- FTFL-480
-- FTFL-488
+tags: [fitfile, omop, requirements]
+tickets: [FTFL-475, FTFL-476, FTFL-479, FTFL-480, FTFL-488]
 title: OMOP Data Generation - Requirements
 type: null
-permalink: llmeon/30-library/200-projects/omop-data-generation-requirements
 ---
 
 ## OMOP Data Generation—Project Requirements
@@ -64,7 +56,7 @@ An existing script generates synthetic data against MS SQL Server. This needs to
 - Concept statistics—produce DISTINCT counts of concept columns for each CDM table to show distribution
 - Sub-cohort injection _(stretch goal)_—inject sub-cohorts of interest (e.g. large diabetic population); may be too difficult to implement
 
-#### Storage Targets (after generation)
+#### Storage Targets (After gEneration)
 
 - Blob container
 - Docker container

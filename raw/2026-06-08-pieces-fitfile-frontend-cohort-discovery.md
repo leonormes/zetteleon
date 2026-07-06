@@ -1,14 +1,11 @@
 ---
-title: FITFILE Frontend — Cohort Discovery Architecture
-created: 2026-06-08 17:51:40.820000+00:00
-source: pieces-ltm
-pieces_ids:
-- 8ccc3135-904f-495b-bf2f-e65b41da73d4
-- 2b4ba166-33d9-40c4-b37d-ff0c7e18a333
-tags:
-- raw
-- pieces
+created: 2026-06-08T00:51:40+00:00
+modified: 2026-07-04T10:49:24+00:00
 permalink: llmeon/raw/2026-06-08-pieces-fitfile-frontend-cohort-discovery
+pieces_ids: [2b4ba166-33d9-40c4-b37d-ff0c7e18a333, 8ccc3135-904f-495b-bf2f-e65b41da73d4]
+source: pieces-ltm
+tags: [pieces, raw]
+title: 2026-06-08-pieces-fitfile-frontend-cohort-discovery
 ---
 
 ## Asset 1 (Pieces: 8ccc3135-904f-495b-bf2f-e65b41da73d4)
@@ -17,33 +14,33 @@ Both outstanding cursors have now returned `sufficient` (one) and a circuit-brea
 
 ---
 
-## Frontend components defining the cohort discovery screens
+## Frontend Components Defining the Cohort Discovery Screens
 
-The FITFILE frontend is a **Next.js** application (TypeScript, App Router). Based on all evidence retrieved from your memory, the cohort discovery screens are built on these components and routes:
+The FITFILE frontend is a Next.js application (TypeScript, App Router). Based on all evidence retrieved from your memory, the cohort discovery screens are built on these components and routes:
 
-### Route structure (App Router)
+### Route Structure (App Router)
 
-The "New Operation" entry point — seen live at `ff-test-a.fitfile.net/fitfile/project/<id>/new-o…` — is the top-level screen that presents the cohort discovery workflow. From your editor captures in the frontend repo (`src/app/`):
+The "New Operation" entry point—seen live at `ff-test-a.fitfile.net/fitfile/project/<id>/new-o…`—is the top-level screen that presents the cohort discovery workflow. From your editor captures in the frontend repo (`src/app/`):
 
-- **`src/app/project/[id]/new-operation/`** — the new-operation flow root
-  - **`data-extract/[userflowId]/layout.tsx`** — wraps the data extract / cohort discovery userflow; contains `useAppConfig()` / feature-flag checks
-  - **`custom-transformations/layout.tsx`** — adjacent layout for custom transformation step
-- **`src/app/project/[id]/queryPlan/[queryPlanId]/raw-edit/page.tsx`** — raw query-plan edit screen (gated by `features.updateQueryPlan`)
+- `src/app/project/[id]/new-operation/`—the new-operation flow root
+  - `data-extract/[userflowId]/layout.tsx`—wraps the data extract / cohort discovery userflow; contains `useAppConfig()` / feature-flag checks
+  - `custom-transformations/layout.tsx`—adjacent layout for custom transformation step
+- `src/app/project/[id]/queryPlan/[queryPlanId]/raw-edit/page.tsx`—raw query-plan edit screen (gated by `features.updateQueryPlan`)
 
-### Key component files (confirmed from editor captures)
+### Key Component Files (Confirmed from eDitor cAptures)
 
 | File | Role |
 |---|---|
-| `src/components/templates/ToggleDataDisclosureConfirmModals/EnableDataDisclosureConfirmModal.tsx` | Modal that appears when enabling data disclosure for a tenant — surfaces inline in cohort discovery flow |
-| `src/lib/networking/useGraphQL.ts` | GraphQL hook used by the frontend; was broken and debugged during a standup (error on line 48) — critical to cohort result fetching |
+| `src/components/templates/ToggleDataDisclosureConfirmModals/EnableDataDisclosureConfirmModal.tsx` | Modal that appears when enabling data disclosure for a tenant—surfaces inline in cohort discovery flow |
+| `src/lib/networking/useGraphQL.ts` | GraphQL hook used by the frontend; was broken and debugged during a standup (error on line 48)—critical to cohort result fetching |
 | `src/lib/networking/AppConfigProvider.tsx` | Provides the app config (feature flags) consumed by `useAppConfig()` in the layout components |
 | `src/lib/networking/getAppConfigEnv.ts` | Reads env vars that feed the config provider |
 | `src/components/FaroProvider.tsx` | Grafana Faro telemetry wrapper for the frontend app |
 | `src/lib/fitfileEnv.ts` | Environment abstraction layer |
 
-### Data shape: `CohortData` type
+### Data Shape: `CohortData` Type
 
-**Pavlo Kotov** (frontend engineer) defined and used this fixture in wireframing during the 15 Apr 2026 standup:
+Pavlo Kotov (frontend engineer) defined and used this fixture in wireframing during the 15 Apr 2026 standup:
 
 ```typescript
 export const n3Fixture: CohortData = {
@@ -63,29 +60,29 @@ export const n3Fixture: CohortData = {
 
 The `pairs` keys follow the convention `0_1` → `A_B` etc. (Oliver Rushton's formulation). This type feeds the cohort breakdown visualisation rendered on the "New Cohort" / cohort results screen.
 
-### Feature flags gating the screens
+### Feature Flags Gating the Screens
 
 The frontend checks `features.updateQueryPlan` and `features.updateDataDisclosure` (via `useAppConfig()`) before rendering certain cohort-related screens. These flags are injected through `AppConfigProvider.tsx` / `getAppConfigEnv.ts` and configured per-deployment in ArgoCD / ffnode Helm values.
 
-### Jira work items driving these screens
+### Jira Work Items Driving These Screens
 
 Active tickets from your sprint boards:
 
-- [**FTFL-494**](https://fitfile.atlassian.net/browse/FTFL-494) — *(De-duplication) Show union counts using entity resolution on Cohort Discovery* — the core sprint ticket driving the intersection/union visualisation on the cohort screen
-- **FTFL-501** — *Write Full component for Cohort* — explicitly a frontend component creation task
-- **FTFL-502** — *Integrate new cohort artifact components into the OMOP flow*
-- **FTFL-496** — *Change disambiguate and count task to produce a new artifact type*
-- **FTFL-31** — *Streamline Complex OMOP Query* — parent epic (65% done) that includes all Cohort Discovery child tasks
+- [FTFL-494](https://fitfile.atlassian.net/browse/FTFL-494)—_(De-duplication) Show union counts using entity resolution on Cohort Discovery_—the core sprint ticket driving the intersection/union visualisation on the cohort screen
+- FTFL-501—_Write Full component for Cohort_—explicitly a frontend component creation task
+- FTFL-502—_Integrate new cohort artifact components into the OMOP flow_
+- FTFL-496—_Change disambiguate and count task to produce a new artifact type_
+- FTFL-31—_Streamline Complex OMOP Query_—parent epic (65% done) that includes all Cohort Discovery child tasks
 
-### Platform context
+### Platform Context
 
-- The FITFILE platform UI (`FITFILE Platform V3`) showed a live cohort results screen with a `define-cohort-output-name`, `Total study populations`, and a breakdown by node (NNUH / CUH / MKUH) — confirming that the results display component renders per-data-source breakdowns with union intersections
-- The **AWSSDE** deployment (eastern SDE: `app.eoe-sde-codisc.privatelink.fitfile.net`) hosts the live cohort discovery workflow, with audit log event types including `CohortDiscoveryUsingFI` (Cohort Discovery Using FITtokens)
-- The "Select the type of operation" screen (captured in Teams on 8 Jun 2026) explicitly lists **"Cohort Discovery: Returning aggregate counts of unique records matching defined criteria"** as the first operation type — this is the entry-point screen rendered by the new-operation route
+- The FITFILE platform UI (`FITFILE Platform V3`) showed a live cohort results screen with a `define-cohort-output-name`, `Total study populations`, and a breakdown by node (NNUH / CUH / MKUH)—confirming that the results display component renders per-data-source breakdowns with union intersections
+- The AWSSDE deployment (eastern SDE: `app.eoe-sde-codisc.privatelink.fitfile.net`) hosts the live cohort discovery workflow, with audit log event types including `CohortDiscoveryUsingFI` (Cohort Discovery Using FITtokens)
+- The "Select the type of operation" screen (captured in Teams on 8 Jun 2026) explicitly lists "Cohort Discovery: Returning aggregate counts of unique records matching defined criteria" as the first operation type—this is the entry-point screen rendered by the new-operation route
 
-### Collaborators on the frontend cohort screens
+### Collaborators on the Frontend Cohort Screens
 
-- **Pavlo Kotov** — frontend engineer; owns the `CohortData` type and wireframe components
-- **Yasir Mansoor** — frontend; visible in standup debugging `useGraphQL.ts` and the Faro SDK setup (`src/components/FaroProvider.tsx`, `src/components/AppConfigProvider.tsx`)
-- **Weronika Jastrzebska** — PM; led the deduplication refinement sessions that produced the wireframe requirements
-- **Oliver Rushton** — backend/platform; defined the union intersection data format
+- Pavlo Kotov—frontend engineer; owns the `CohortData` type and wireframe components
+- Yasir Mansoor—frontend; visible in standup debugging `useGraphQL.ts` and the Faro SDK setup (`src/components/FaroProvider.tsx`, `src/components/AppConfigProvider.tsx`)
+- Weronika Jastrzebska—PM; led the deduplication refinement sessions that produced the wireframe requirements
+- Oliver Rushton—backend/platform; defined the union intersection data format

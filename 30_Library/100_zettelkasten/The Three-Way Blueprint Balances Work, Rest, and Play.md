@@ -1,20 +1,14 @@
 ---
-aliases:
-- Three-Way Planning
-created: 2025-11-01 21:09:00+00:00
+aliases: [Three-Way Planning]
+created: 2025-11-01T21:09:00+00:00
 last_reviewed: '2025-11-01'
-modified: 2026-02-01 15:08:24+00:00
+modified: 2026-07-04T10:51:44+00:00
+permalink: llmeon/30-library/100-zettelkasten/the-three-way-blueprint-balances-work-rest-and-play
 status: evergreen
-tags:
-- method
-- scheduling
-- time-management
-- topic/productivity
-- work-life-balance
+tags: [method, scheduling, time-management, topic/productivity, work-life-balance]
 title: The Three-Way Blueprint Balances Work, Rest, and Play
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/the-three-way-blueprint-balances-work-rest-and-play
 ---
 
 The three-way blueprint is a holistic approach to timeboxing that involves planning across three key areas: work, rest, and play.

@@ -1,23 +1,23 @@
 ---
-created: 2026-05-26 13:49:47+00:00
-modified: 2026-06-08 11:49:17+00:00
+created: 2026-05-26T13:49:47+00:00
+modified: 2026-07-04T10:51:29+00:00
+permalink: llmeon/30-library/200-projects/how-to-use-the-prod-os-workflow
 project_category: prodos
 project_name: ProdOS
 project_status: active
 title: How to Use the prodOS Workflow
 type: null
-permalink: llmeon/30-library/200-projects/how-to-use-the-prod-os-workflow
 ---
 
 Your ProdOS (Productivity Operating System) has two distinct but connected faces: the personal thinking loop (daily mental processing) and the work automation loop (Jira/Teams/Todoist via Hermes Gateway). Here's how each works.
 
 ---
 
-## Part 1—The Thinking Stream (daily Personal loop)
+## Part 1—The Thinking Stream (Daily Personal lOop)
 
 This is the "RAM" of the system—a low-friction loop for converting raw mental noise into action or structured knowledge. The governing rule is the Rule of Zero Toil: if it feels like "organising", stop. The loop is for _thinking and doing only_.
 
-### The CRPE Cycle (your Core loop)
+### The CRPE Cycle (Your Core lOop)
 
 1. CAPTURE—Dump everything raw into your Daily Note (`01_journals/`) or `00_Inbox/dump.md`. No formatting required. Raw text only.
 2. REFINE—If you're stuck or it's getting complex, create a `HEAD` note in `20_Thinking`. This is temporary working space.
@@ -39,7 +39,7 @@ This is the "RAM" of the system—a low-friction loop for converting raw mental 
 
 ---
 
-## Part 2—The Autonomous Action System (agent-driven loop)
+## Part 2—The Autonomous Action System (Agent-driven lOop)
 
 The Protocol - Autonomous Action System is the agentic version of the loop—your AI Chief of Staff (Hermes) handles the organising so you don't have to.
 
@@ -65,7 +65,7 @@ The Protocol - Autonomous Action System is the agentic version of the loop—you
 
 ---
 
-## Part 3—The Work Integration Loop (set up Today, 26 May)
+## Part 3—The Work Integration Loop (Set up Today, 26 May)
 
 This was configured this morning using the Hermes `/goal` prompt. The data flow is:
 
@@ -98,7 +98,7 @@ To trigger a CoS review manually, open Hermes TUI and use the `/goal` prompt tha
 
 ---
 
-## Open Questions from Your Design Session (not yet resolved)
+## Open Questions from Your Design Session (Not yet rEsolved)
 
 - Has the Hermes `/goal` prompt been executed yet, or only generated?
 - Microsoft Teams MCP connector—is there a working connector, or does this still need to be built?

@@ -1,21 +1,14 @@
 ---
-aliases:
-- Gödel's Law in Software
-- Incompleteness in Systems Architecture
-- The Meta-System Pattern
-created: 2026-01-05 07:34:29+00:00
+aliases: ["Gödel's Law in Software", Incompleteness in Systems Architecture, The Meta-System Pattern]
+created: 2026-01-05T07:34:29+00:00
 last_reviewed: null
-modified: 2026-02-01 15:07:51+00:00
+modified: 2026-07-04T10:50:50+00:00
+permalink: llmeon/30-library/so-t/so-t-system-incompleteness-and-meta-systems
 status: Active
-tags:
-- compilers
-- SoftwareEngineering/Architecture
-- systems-theory
-- TheHuman/Philosophy
+tags: [compilers, SoftwareEngineering/Architecture, systems-theory, TheHuman/Philosophy]
 title: SoT - System Incompleteness and Meta-Systems
 type: SoT
 updated: null
-permalink: llmeon/30-library/so-t/so-t-system-incompleteness-and-meta-systems
 ---
 
 ## SoT - System Incompleteness and Meta-Systems

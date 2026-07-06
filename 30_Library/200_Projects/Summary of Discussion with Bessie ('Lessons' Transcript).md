@@ -1,10 +1,10 @@
 ---
-created: 2026-05-04 08:01:26+00:00
-modified: 2026-06-08 11:49:24+00:00
-project_name: Bessie
-title: Summary of Discussion with Bessie ('Lessons' Transcript)
-type: note
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-07-04T10:51:24+00:00
 permalink: llmeon/30-library/200-projects/summary-of-discussion-with-bessie-lessons-transcript
+project_name: Bessie
+title: "Summary of Discussion with Bessie ('Lessons' Transcript)"
+type: note
 ---
 
 ## Summary of Discussion with Bessie ('Lessons' Transcript)

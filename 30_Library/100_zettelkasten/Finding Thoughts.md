@@ -1,17 +1,14 @@
 ---
 aliases: []
-created: 2025-05-09 20:07:21+00:00
+created: 2025-05-09T20:07:21+00:00
 last_reviewed: 'null'
-modified: 2026-02-01 15:08:33+00:00
+modified: 2026-07-04T10:51:51+00:00
+permalink: llmeon/30-library/100-zettelkasten/finding-thoughts
 status: 'null'
-tags:
-- ext-mind
-- TheHuman/Cognition/thinking
-- topic/pkm/zettelkasten
+tags: [ext-mind, TheHuman/Cognition/thinking, topic/pkm/zettelkasten]
 title: Finding Thoughts
 type: permanent
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/finding-thoughts
 ---
 
 I don't know how to find things in obsidian. Like this bullet point. Let's say another day I come back to this question. How do I continue from here and not just rewrite this same thought? This is a theme of my obsidian use. A theme of my PKM. And writing to think. I want to come back to this at a later date to add to it.

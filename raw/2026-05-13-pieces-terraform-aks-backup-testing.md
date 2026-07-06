@@ -1,67 +1,11 @@
 ---
-created: 2026-05-13 10:24:52+00:00
-modified: 2026-05-26 11:43:44+00:00
-pieces_ids:
-- 0a61bcfa-1f74-4ad8-bf9b-9e60688428c4
-- 13eeb2ae-4f43-4520-a8ae-adceb0d715fe
-- 164f79a5-dc64-4fd9-a80f-47cbeb7dc41f
-- 249ff991-39fc-48a9-ba18-023c33f30bad
-- 25acda0a-2448-426c-a32b-f95dfeba1ef3
-- 26aa79a9-515e-41c5-b0c6-639f89396d8c
-- 2a366b2a-3602-482f-bbd6-fb0cea6bf772
-- 2d325f64-62b5-4a3e-b05f-202e4b1675c0
-- 34823736-fdbc-4a6a-bb03-64617d97730c
-- 393ec4ac-19ff-4395-9b84-c0ca15a7111c
-- 3ad71ab8-70ac-4cf6-8da9-76fae9f57cb4
-- 40069319-99bd-4787-8007-58efa8d39af9
-- 40c47f4a-f7c7-4336-999b-3fe4b7c905ec
-- 439568f6-7359-4ec2-8383-8b5397d2a390
-- 462944f6-c6d6-4398-9b7a-2647502d7df9
-- 49dd717f-f01e-48be-832b-811f27732a8b
-- 4b378591-1882-4f4a-817f-e15fb5a0b851
-- 4c1e7eb6-d358-4451-951a-638ec29355d1
-- 58114802-8f03-41f1-8222-a5b9bd9f0f2a
-- 59b7af24-f1db-4932-a76f-c40a584f7f86
-- 5ee9cc27-96b7-405b-b498-ceb748251632
-- 722083df-b36d-4543-8d73-aec3393a0d89
-- 88ee1516-75a0-4475-b576-2cec0562860b
-- 8cb0e207-195b-4fdf-a520-bcb0408d9d73
-- 9111ec74-8626-4860-b08e-1e0406f6b754
-- 98878e66-dc7d-48e0-ae72-a0d0ff9a0d86
-- 9c7aaba8-e8e2-4cfb-bfa6-e5879ef77a7c
-- a66b4e6d-7a13-461f-934b-3fc25c3e3806
-- a75dcdcc-cdce-4127-ae6b-cbd0e8275e16
-- ae61fe3b-b348-4f5f-adb7-cf8326c911a8
-- b0e69cda-c1d3-4981-9c0e-6e54a6729858
-- b31dc549-94ca-4ebc-90bc-e0ad8aca17d5
-- b5ad380a-7cae-4932-95f5-16148720b46e
-- b668b5f3-bfbc-43ca-9154-73fa41d29aaf
-- b7c99b39-dc08-49e2-9649-341ee464c6ee
-- b8402260-6a3c-4800-b0fd-88eb21483365
-- b904ca87-7162-4159-ad50-baaacadd1ce5
-- b93af656-ee9d-42d0-ba57-956c5daf02b1
-- c17e491a-7e7b-49cb-b061-1bf66e87879a
-- c36d4e11-c546-470f-ac25-de3b60b2dd8b
-- c598c7a9-728d-41d1-aed2-b8bf6042371a
-- cdd91200-1e36-4a97-8421-e5ef59b59da9
-- cfc84d46-4ccf-4f05-bbe8-aa3f4cafd55a
-- d1f6f948-3a15-4bae-83ba-fee5a3abb98c
-- d382619b-ada7-4dc6-b4e6-a1be0f5ca2da
-- d7660a49-016d-49d3-93cd-6e3f531a3000
-- d8e814ca-17a6-4f5d-b059-6d8047958c22
-- e08cb8bd-c6a2-4b16-a6c5-d9aca8a65df7
-- e20d8cd5-4416-4deb-b852-47d4d86df68f
-- e83c5838-5a46-47cd-bba3-9418a9a426bb
-- ecb827db-e2da-49b3-80f4-9807fe3180b7
-- f105c91b-e531-4509-a4f9-0208d4be3cd5
-- f91947b8-c779-4a61-8635-052f1722eed0
-- ff88de82-e1b2-4ebf-ace1-d5690d223ccb
-source: pieces-ltm
-tags:
-- pieces
-- raw
-title: 2026-05-13-pieces-terraform-aks-backup-testing
+created: 2026-05-13T10:24:52+00:00
+modified: 2026-07-04T10:50:17+00:00
 permalink: llmeon/raw/2026-05-13-pieces-terraform-aks-backup-testing
+pieces_ids: [0a61bcfa-1f74-4ad8-bf9b-9e60688428c4, 13eeb2ae-4f43-4520-a8ae-adceb0d715fe, 164f79a5-dc64-4fd9-a80f-47cbeb7dc41f, 249ff991-39fc-48a9-ba18-023c33f30bad, 25acda0a-2448-426c-a32b-f95dfeba1ef3, 26aa79a9-515e-41c5-b0c6-639f89396d8c, 2a366b2a-3602-482f-bbd6-fb0cea6bf772, 2d325f64-62b5-4a3e-b05f-202e4b1675c0, 34823736-fdbc-4a6a-bb03-64617d97730c, 393ec4ac-19ff-4395-9b84-c0ca15a7111c, 3ad71ab8-70ac-4cf6-8da9-76fae9f57cb4, 40069319-99bd-4787-8007-58efa8d39af9, 40c47f4a-f7c7-4336-999b-3fe4b7c905ec, 439568f6-7359-4ec2-8383-8b5397d2a390, 462944f6-c6d6-4398-9b7a-2647502d7df9, 49dd717f-f01e-48be-832b-811f27732a8b, 4b378591-1882-4f4a-817f-e15fb5a0b851, 4c1e7eb6-d358-4451-951a-638ec29355d1, 58114802-8f03-41f1-8222-a5b9bd9f0f2a, 59b7af24-f1db-4932-a76f-c40a584f7f86, 5ee9cc27-96b7-405b-b498-ceb748251632, 722083df-b36d-4543-8d73-aec3393a0d89, 88ee1516-75a0-4475-b576-2cec0562860b, 8cb0e207-195b-4fdf-a520-bcb0408d9d73, 9111ec74-8626-4860-b08e-1e0406f6b754, 98878e66-dc7d-48e0-ae72-a0d0ff9a0d86, 9c7aaba8-e8e2-4cfb-bfa6-e5879ef77a7c, a66b4e6d-7a13-461f-934b-3fc25c3e3806, a75dcdcc-cdce-4127-ae6b-cbd0e8275e16, ae61fe3b-b348-4f5f-adb7-cf8326c911a8, b0e69cda-c1d3-4981-9c0e-6e54a6729858, b31dc549-94ca-4ebc-90bc-e0ad8aca17d5, b5ad380a-7cae-4932-95f5-16148720b46e, b668b5f3-bfbc-43ca-9154-73fa41d29aaf, b7c99b39-dc08-49e2-9649-341ee464c6ee, b8402260-6a3c-4800-b0fd-88eb21483365, b904ca87-7162-4159-ad50-baaacadd1ce5, b93af656-ee9d-42d0-ba57-956c5daf02b1, c17e491a-7e7b-49cb-b061-1bf66e87879a, c36d4e11-c546-470f-ac25-de3b60b2dd8b, c598c7a9-728d-41d1-aed2-b8bf6042371a, cdd91200-1e36-4a97-8421-e5ef59b59da9, cfc84d46-4ccf-4f05-bbe8-aa3f4cafd55a, d1f6f948-3a15-4bae-83ba-fee5a3abb98c, d382619b-ada7-4dc6-b4e6-a1be0f5ca2da, d7660a49-016d-49d3-93cd-6e3f531a3000, d8e814ca-17a6-4f5d-b059-6d8047958c22, e08cb8bd-c6a2-4b16-a6c5-d9aca8a65df7, e20d8cd5-4416-4deb-b852-47d4d86df68f, e83c5838-5a46-47cd-bba3-9418a9a426bb, ecb827db-e2da-49b3-80f4-9807fe3180b7, f105c91b-e531-4509-a4f9-0208d4be3cd5, f91947b8-c779-4a61-8635-052f1722eed0, ff88de82-e1b2-4ebf-ace1-d5690d223ccb]
+source: pieces-ltm
+tags: [pieces, raw]
+title: 2026-05-13-pieces-terraform-aks-backup-testing
 ---
 
 ## Pieces LTM Capture—2026-05-13
@@ -193,7 +137,7 @@ az aks show --subscription "$SUB_ID" -g "$AKS_RG" -n "$AKS_NAME" \
 az aks show --subscription "$SUB_ID" -g "$AKS_RG" -n "$AKS_NAME" \
   --query "identityProfile.kubeletidentity.objectId" -o tsv
 
-## 3. Confirm VNet ID (needed for vnet_id input)
+## 3. Confirm VNet ID (Needed for vnet_id iNput)
 
 az network vnet show --subscription "$SUB_ID" -g "$AKS_RG" \
   -n "vnet-ff-uks-gp-1" --query id -o tsv
@@ -228,7 +172,7 @@ Clean slate changes everything—no imports, no drift, no forced replacements to
 
 ---
 
-#### Phase 0—Module Fixes (unchanged—must Land first)
+#### Phase 0—Module Fixes (unchanged—must Land First)
 
 Ensure the corrected `terraform-azure-aks-backup` branch is tagged and published to the TFC registry as `v1.2.0` with all 10 fixes applied. No changes to this phase.
 
@@ -280,7 +224,7 @@ private_endpoint_subnet_id = azurerm_subnet.backup_pe.id
 
 ---
 
-#### Phase 3—`sandbox-testing-1/main.tf` Module Call (clean-slate version)
+#### Phase 3—`sandbox-testing-1/main.tf` Module Call (Clean-slate vErsion)
 
 ```hcl
 module "aks_backup" {
@@ -487,7 +431,7 @@ Everything looks good and I'm ready to run terraform apply.
 
 ### Asset 12 (Pieces: 4c1e7eb6-d358-4451-951a-638ec29355d1)
 
-## Step 1: Delete the PE (no --yes Flag for This command)
+## Step 1: Delete the PE (No --yes Flag for This cOmmand)
 
 az network private-endpoint delete \
   --subscription "$SUB_ID" \
@@ -592,7 +536,7 @@ Let me give them the corrected commands.
 
 ### Asset 16 (Pieces: e20d8cd5-4416-4deb-b852-47d4d86df68f)
 
-## Step 1: Delete the Private Endpoint (it's in the VNet RG, not the Backup RG)
+## Step 1: Delete the Private Endpoint (It's in the VNet RG, not the Backup RG)
 
 az network private-endpoint delete \
   --subscription "$SUB_ID" \
@@ -600,7 +544,7 @@ az network private-endpoint delete \
   --name "pe-stffuksgp1backup-blob" \
   --yes
 
-## Step 2: Wait for Azure to Clean up the NIC (it's Tied to the PE lifecycle)
+## Step 2: Wait for Azure to Clean up the NIC (It's Tied to the PE lIfecycle)
 
 echo "Waiting 60s for PE and NIC cleanup to propagate…"
 
@@ -614,7 +558,7 @@ az network vnet subnet delete \
   --vnet-name "vnet-ff-uks-gp-1" \
   --name "snet-ff-uks-gp-pe"
 
-## Step 4: Confirm Clean VNet State (snet-ff-uks-gp-pe Should Be absent)
+## Step 4: Confirm Clean VNet State (Snet-ff-uks-gp-pe Should Be aBsent)
 
 az network vnet subnet list \
   --subscription "$SUB_ID" \
@@ -663,7 +607,7 @@ Good—I have rich context from your memory on both the `sandbox-testing-1` subs
 
 ### Testing Plan: `terraform-azure-aks-backup` V2 Against `sandbox-testing-1`
 
-#### Environment Facts (from Your Recorded context)
+#### Environment Facts (From Your Recorded cOntext)
 
 | Parameter | Value |
 |---|---|
@@ -790,7 +734,7 @@ module "aks_backup" {
 
 ---
 
-#### Phase 3—Terraform Import (pre-existing resources)
+#### Phase 3—Terraform Import (Pre-existing rEsources)
 
 Your prior sessions established these exact import commands. Run them from the `sandbox-testing-1` workspace directory before the first `terraform plan`:
 
@@ -872,7 +816,7 @@ az dataprotection job list \
 
 ---
 
-#### Open Loops before This Plan is "ready to apply"
+#### Open Loops before This Plan is "Ready to aPply"
 
 - `snet-ff-uks-gp-pe` subnet: confirm it was created by the FTFL-615 work—the `bastion.tf` edit adding this subnet was done in the prior Claude Code session, but check it is merged and applied in the sandbox workspace before referencing it as the `private_endpoint_subnet_id`.
 - Extension name drift: the existing extension name (`azbkuextension` vs `azure-aks-backup`) must be reconciled before import—this may require destroying and recreating the extension resource.
@@ -1082,7 +1026,7 @@ _(Note: Terraform natively handles the Azure Backup policy object type behind th
 
 ---
 
-#### 3. "Ready To apply" Checklist for `sandbox-testing-1`
+#### 3. "Ready To aPply" Checklist for `sandbox-testing-1`
 
 When invoking this module in your `sandbox-testing-1` workspace's `main.tf`, you must pass the following key-value pairs (with accurate environment variables substituted):
 
@@ -2004,7 +1948,7 @@ Grounded in your architecture notes ([Azure Backup for AKS Architecture Document
 
 ---
 
-#### Storage Account (the Hardened Backup target)
+#### Storage Account (The Hardened Backup tArget)
 
 The backup storage account (`stffuksgp1backup` / `aksffuksgp01backupsa` / `aksmkuhuksprd01bkp01` depending on environment) must be configured with:
 
@@ -2040,7 +1984,7 @@ A known gotcha you hit: if the VNet lives in a different resource group from the
 
 ---
 
-#### Private DNS Zone + VNet Link (DNS Resolution chain)
+#### Private DNS Zone + VNet Link (DNS Resolution cHain)
 
 This is the required DNS chain so the AKS backup extension resolves the storage account to a private IP instead of the public endpoint:
 

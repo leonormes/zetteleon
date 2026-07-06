@@ -1,20 +1,16 @@
 ---
-created: 2026-04-14 17:45:34+00:00
+created: 2026-04-14T17:45:34+00:00
 created_utc: '2026-04-14T12:20:00Z'
 kind: constraint
-modified: 2026-05-26 11:44:36+00:00
+modified: 2026-07-04T10:51:54+00:00
+permalink: llmeon/30-library/100-zettelkasten/byzantine-fault-tolerance-requirements
 source_title: The Fundamental Challenge of Concurrent and Distributed Systems
 source_url: http://www.youtube.com/watch?v=U719vQz-WFs
 status: seed
-tags:
-- byzantine-fault-tolerance
-- distributed-systems
-- redundancy
-- security
+tags: [byzantine-fault-tolerance, distributed-systems, redundancy, security]
 title: Byzantine Fault Tolerance Requirements
 type: atom
 upstream: '[[SoT - Zero Trust Architecture]]'
-permalink: llmeon/30-library/100-zettelkasten/byzantine-fault-tolerance-requirements
 ---
 
 ## Byzantine Fault Tolerance Requirements

@@ -1,22 +1,14 @@
 ---
-aliases:
-- OBDA
-- Ontop
-- Semantic Data Access
-created: 2026-01-07 20:52:57+00:00
+aliases: [OBDA, Ontop, Semantic Data Access]
+created: 2026-01-07T20:52:57+00:00
 last_reviewed: null
-modified: 2026-02-01 15:07:48+00:00
+modified: 2026-07-04T10:50:47+00:00
+permalink: llmeon/30-library/so-t/so-t-virtual-knowledge-graph-paradigm
 status: Active
-tags:
-- architecture
-- data-centric
-- knowledge-graph
-- ontop
-- semantic-web
+tags: [architecture, data-centric, knowledge-graph, ontop, semantic-web]
 title: SoT - Virtual Knowledge Graph Paradigm
 type: SoT
 updated: null
-permalink: llmeon/30-library/so-t/so-t-virtual-knowledge-graph-paradigm
 ---
 
 ## SoT - Virtual Knowledge Graph Paradigm

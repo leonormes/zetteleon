@@ -1,16 +1,15 @@
 ---
 aliases: []
-created: 2025-02-07 12:57:55+00:00
+created: 2025-02-07T12:57:55+00:00
 ID: 2a2a1
 last_reviewed: 'null'
-modified: 2026-02-01 15:08:25+00:00
+modified: 2026-07-04T10:51:44+00:00
+permalink: llmeon/30-library/100-zettelkasten/the-processing-is-the-hard-part
 status: 'null'
-tags:
-- topic/pkm/zettelkasten
+tags: [topic/pkm/zettelkasten]
 title: The Processing Is the Hard Part
 type: permanent
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/the-processing-is-the-hard-part
 ---
 
 [[SoT - Illusion of Explanatory Depth (IoED)|collector's fallacy]]

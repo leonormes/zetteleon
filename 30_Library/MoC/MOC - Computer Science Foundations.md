@@ -1,25 +1,17 @@
 ---
-aliases:
-- Computing MOC
-- CS MOC
-- Software Engineering MOC
-- Tech Stack MOC
-created: 2025-12-13 09:15:00+00:00
+aliases: [Computing MOC, CS MOC, Software Engineering MOC, Tech Stack MOC]
+created: 2025-12-13T09:15:00+00:00
 last_reviewed: '2026-04-05T00:00:00.000Z'
-modified: 2026-05-26 11:44:23+00:00
+modified: 2026-07-04T10:51:12+00:00
+permalink: llmeon/30-library/mo-c/moc-computer-science-foundations
 see_also: []
 status: stable
 superseded_by: ''
 supersedes: ''
-tags:
-- cloud
-- computer-science
-- SoftwareEngineering
-- SoftwareEngineering/Architecture
+tags: [cloud, computer-science, SoftwareEngineering, SoftwareEngineering/Architecture]
 title: MOC - Computer Science Foundations
 type: map
 updated: null
-permalink: llmeon/30-library/mo-c/moc-computer-science-foundations
 ---
 
 ## Overview

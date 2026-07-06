@@ -1,19 +1,15 @@
 ---
-aliases:
-- Open Communication in a Relationship
-created: 2025-11-10 10:02:00+00:00
+aliases: [Open Communication in a Relationship]
+created: 2025-11-10T10:02:00+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:29+00:00
+modified: 2026-07-04T10:51:48+00:00
+permalink: llmeon/30-library/100-zettelkasten/open-communication-in-a-partnership-requires-active-listening-and-collaborative-problem-solving
 status: seedling
-tags:
-- communication
-- conflict-resolution
-- relationship
-title: Open Communication in a Partnership Requires Active Listening and Collaborative
+tags: [communication, conflict-resolution, relationship]
+title: Open Communication in a Partnership Requires Active Listening and Collaborative Problem-Solving
   Problem-Solving
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/open-communication-in-a-partnership-requires-active-listening-and-collaborative-problem-solving
 ---
 
 ## Open Communication in a Partnership Requires Active Listening and Collaborative Problem-Solving

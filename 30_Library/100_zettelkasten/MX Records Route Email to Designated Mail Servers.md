@@ -1,17 +1,14 @@
 ---
 aliases: []
-created: 2025-10-31 10:51:00+00:00
+created: 2025-10-31T10:51:00+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:31+00:00
+modified: 2026-07-04T10:51:49+00:00
+permalink: llmeon/30-library/100-zettelkasten/mx-records-route-email-to-designated-mail-servers
 status: seedling
-tags:
-- email
-- SoftwareEngineering/Networking
-- SoftwareEngineering/networking/dns
+tags: [email, SoftwareEngineering/Networking, SoftwareEngineering/networking/dns]
 title: MX Records Route Email to Designated Mail Servers
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/mx-records-route-email-to-designated-mail-servers
 ---
 
 ## MX Records Route Email to Designated Mail Servers

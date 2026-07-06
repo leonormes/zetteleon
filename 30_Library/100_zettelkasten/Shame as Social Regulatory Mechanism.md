@@ -1,17 +1,15 @@
 ---
 aliases: []
-created: 2025-10-30 12:37:12+00:00
+created: 2025-10-30T12:37:12+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:27+00:00
+modified: 2026-07-04T10:51:45+00:00
+permalink: llmeon/30-library/100-zettelkasten/shame-as-social-regulatory-mechanism
 source: '[[MOC - Authority Dynamics and ADHD]]'
 status: seedling
-tags:
-- social-dynamics
-- TheHuman/Psychology
+tags: [social-dynamics, TheHuman/Psychology]
 title: Shame as Social Regulatory Mechanism
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/shame-as-social-regulatory-mechanism
 ---
 
 Shame functions as a social regulatory emotion that evolved to:

@@ -1,14 +1,14 @@
 ---
 aliases: []
-created: 2025-08-11 15:30:49+00:00
+created: 2025-08-11T15:30:49+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:27+00:00
+modified: 2026-07-04T10:51:45+00:00
+permalink: llmeon/30-library/100-zettelkasten/stage-3-understand-the-writing-to-learn-layer
 status: ''
 tags: []
 title: Stage 3 Understand (The Writing to Learn Layer)
 type: ''
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/stage-3-understand-the-writing-to-learn-layer
 ---
 
 _The Goal: To reflect on the clarified idea and discover what you now know._

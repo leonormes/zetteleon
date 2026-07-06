@@ -1,13 +1,13 @@
 ---
-created: 2026-05-04 08:01:26+00:00
-modified: 2026-06-08 11:49:24+00:00
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-07-04T10:51:26+00:00
+permalink: llmeon/30-library/200-projects/philosophy-and-ethics-within-religious-studies-gcse
 project_name: Bessie
 title: Philosophy and Ethics (within Religious Studies GCSE)
 type: note
-permalink: llmeon/30-library/200-projects/philosophy-and-ethics-within-religious-studies-gcse
 ---
 
-## Philosophy and Ethics (within Religious Studies GCSE)
+## Philosophy and Ethics (Within Religious Studies GCSE)
 
 This subject encourages students to explore ultimate questions about life, morality, and belief, considering different religious and non-religious viewpoints.
 

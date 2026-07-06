@@ -1,15 +1,13 @@
 ---
 aliases: []
-created: 2026-06-11 00:00:02+00:00
-modified: 2026-06-11 11:53:24+00:00
-tags:
-- prodos/head
-- state/thinking
-title: HEAD - 2026-06-11 1253
+created: 2026-06-11T00:00:02+00:00
+modified: 2026-07-04T10:52:03+00:00
 permalink: llmeon/20-thinking/21-workbench/head-the-waves-dont-actually-cover-the-432-case-grid
+tags: [prodos/head, state/thinking]
+title: "HEAD - The Waves Don't Actually Cover the 432-case Grid"
 ---
 
-## 🔴 Blocking Issues (fix before circulating)
+## 🔴 Blocking Issues (Fix before cIrculating)
 
 ### 1. The Waves Don't Actually Cover the 432-case Grid
 
@@ -21,7 +19,7 @@ permalink: llmeon/20-thinking/21-workbench/head-the-waves-dont-actually-cover-th
 
 The principle: one-factor-at-a-time is the _right_ design under Position B time pressure—the error is the framing, not the method. Reword everywhere to "a structured subset of the 432-case grid, sequenced one variable at a time", and either add `E=Capped` to a wave or explicitly drop E with a rationale. Ollie will spot this; Weronika will quote "432" in the AS05 report.
 
-### 2. "Max concurrency" Success Criteria Vs Sequential-only Workload
+### 2. "Max cOncurrency" Success Criteria Vs Sequential-only Workload
 
 - §4.3 Workload Profile: _"Discrete test cases run sequentially within a wave. No concurrent or bursty request modelling."_
 - Axis B success criterion: _"document max concurrency before SLA breach."_ §4.1 example: _"five federated nodes break at Z concurrency."_
@@ -30,7 +28,7 @@ You cannot measure a concurrency limit with a sequential load generator. Either 
 
 ---
 
-## 🟡 Structural Issues (confusing, not fatal)
+## 🟡 Structural Issues (Confusing, not fAtal)
 
 ### 3. "Phase" Means Two Different Things
 

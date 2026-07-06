@@ -1,12 +1,12 @@
 ---
-created: 2026-04-13 14:53:30+00:00
+created: 2026-04-13T14:53:30+00:00
 created_utc: '2026-04-13T11:40:00Z'
-modified: 2026-05-26 11:44:23+00:00
+modified: 2026-07-04T10:51:14+00:00
+permalink: llmeon/30-library/400-indexes/link-report-auto-research-framework
 source_atoms: '[[tmp_atoms_auto_research_framework.md]]'
 status: tmp
 title: _link_report_auto_research_framework
 type: link_report
-permalink: llmeon/30-library/400-indexes/link-report-auto-research-framework
 ---
 
 ## Link Report: Using Karpathy's Original Framework (Auto Research)
@@ -28,6 +28,6 @@ permalink: llmeon/30-library/400-indexes/link-report-auto-research-framework
 | [[Optimal Iteration Count]] | 2 | [[Recursive Agent Improvement]]—shared mechanism |
 | [[Framework Cross-Pollination]] | 2 | [[Shift to High-Level Oversight]]—shared mechanism |
 
-### Orphan Atoms (no Links found)
+### Orphan Atoms (No Links fOund)
 
 (None)

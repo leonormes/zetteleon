@@ -1,20 +1,14 @@
 ---
-aliases:
-- cgroups
-- Control Groups
-created: 2025-12-24 12:00:00+00:00
+aliases: [cgroups, Control Groups]
+created: 2025-12-24T12:00:00+00:00
 last_reviewed: 2025-12-24
-modified: 2026-02-01 15:08:36+00:00
+modified: 2026-07-04T10:51:53+00:00
+permalink: llmeon/30-library/100-zettelkasten/cgroups-limit-and-manage-container-resources
 status: stable
-tags:
-- kernel
-- resource-management
-- SoftwareEngineering/Containers
-- SoftwareEngineering/Linux
+tags: [kernel, resource-management, SoftwareEngineering/Containers, SoftwareEngineering/Linux]
 title: Cgroups Limit and Manage Container Resources
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/cgroups-limit-and-manage-container-resources
 ---
 
 ## Control Groups (Cgroups)

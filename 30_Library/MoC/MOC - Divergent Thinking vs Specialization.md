@@ -1,22 +1,17 @@
 ---
-aliases:
-- MOC - Generalist vs Specialist
-created: 2025-11-01 12:30:00+00:00
+aliases: [MOC - Generalist vs Specialist]
+created: 2025-11-01T12:30:00+00:00
 criteria: ''
 exclusions: Specific examples of prodigies or detailed biographical information.
 last_reviewed: 'null'
-modified: 2026-02-01 15:08:06+00:00
+modified: 2026-07-04T10:51:11+00:00
+permalink: llmeon/30-library/mo-c/moc-divergent-thinking-vs-specialization
 scope: ''
 status: 'null'
-tags:
-- divergent-thinking
-- generalism
-- learning
-- specialization
+tags: [divergent-thinking, generalism, learning, specialization]
 title: MOC - Divergent Thinking vs Specialization
 type: map
 updated: null
-permalink: llmeon/30-library/mo-c/moc-divergent-thinking-vs-specialization
 ---
 
 ## MOC - Divergent Thinking Vs Specialization

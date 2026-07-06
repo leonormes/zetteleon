@@ -1,18 +1,14 @@
 ---
 aliases: []
-created: 2025-10-25 14:22:00+00:00
+created: 2025-10-25T14:22:00+00:00
 last_reviewed: 'null'
-modified: 2026-02-01 15:08:25+00:00
+modified: 2026-07-04T10:51:44+00:00
+permalink: llmeon/30-library/100-zettelkasten/the-duality-of-novelty-seeking-in-adhd
 status: 'null'
-tags:
-- TheHuman/Creativity
-- TheHuman/Health/ADHD
-- topic/productivity/hyperfocus
-- topic/productivity/procrastination
+tags: [TheHuman/Creativity, TheHuman/Health/ADHD, topic/productivity/hyperfocus, topic/productivity/procrastination]
 title: The Duality of Novelty Seeking in ADHD
 type: permanent
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/the-duality-of-novelty-seeking-in-adhd
 ---
 
 [[MOC - Novelty Seeking]] in ADHD is a double-edged sword, presenting both significant strengths and potential pitfalls.

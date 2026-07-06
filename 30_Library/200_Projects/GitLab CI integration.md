@@ -1,30 +1,18 @@
 ---
-created: 2026-06-16 00:00:00+00:00
-modified: 2026-06-19 07:51:56+00:00
-title: 2026-05-18-pieces-hermes-gitlab-research
-source: https://fitfile.atlassian.net/wiki/spaces/FITFILE/pages/2865528839
+alias: [FITFILE CI/CD Pipeline Design Document]
 captured: 2026-06-16T10:24:16+01:00 2026-06-16T10:24:16+01:00
+created: 2026-06-16T00:00:00+00:00
+entity_kind: project
+modified: 2026-07-04T10:51:33+00:00
+permalink: llmeon/30-library/200-projects/git-lab-ci-integration
+project_name: Pipeline
+source: https://fitfile.atlassian.net/wiki/spaces/FITFILE/pages/2865528839
+sources: [raw/2026-06-15-pieces-fitfile-cd-decision-document.md]
 status: processing
-tags:
-  - input
-  - wiki
-  - project
-  - pieces
-  - raw
-  - confluence
-  - pipeline
-  - devops
-  - cicd
-  - fitfile
+tags: [cicd, confluence, devops, fitfile, input, pieces, pipeline, project, raw, wiki]
+title: GitLab CI integration
 type:
 wiki_type: dossier
-entity_kind: project
-sources:
-  - raw/2026-06-15-pieces-fitfile-cd-decision-document.md
-alias:
-  - FITFILE CI/CD Pipeline Design Document
-project_name: Pipeline
-permalink: llmeon/30-library/200-projects/git-lab-ci-integration
 ---
 
 w
@@ -124,7 +112,7 @@ Option 2 (webhook) is your cleanest path because it slots directly into `release
 
 ---
 
-### The Verified Deployment Pipeline (source of truth)
+### The Verified Deployment Pipeline (Source of tRuth)
 
 From `FITFILE Deployment — ArgoCD + Helm` wiki note (June 2026):
 
@@ -159,7 +147,7 @@ Currently Sleuth sees: your `fitfile-app` and `data-processing-service` Sleuth p
 
 ## The Plan
 
-### Phase 1—Connect the Deployment Signal (1–2 sprints)
+### Phase 1—Connect the Deployment Signal (1–2 Sprints)
 
 Step 1: Add a Sleuth deploy webhook call to `release-improved.sh`
 
@@ -216,7 +204,7 @@ Pass the correct `environment_slug` from within `release-improved.sh` based on t
 
 ---
 
-### Phase 2—Instrument the 4+1 DORA Metrics (1 sprint)
+### Phase 2—Instrument the 4+1 DORA Metrics (1 Sprint)
 
 Once Sleuth receives deploy events, these metrics populate automatically:
 
@@ -235,7 +223,7 @@ Rework rate (DORA 2025 model, 5th metric): Measured as % of deploys that are hot
 
 ---
 
-### Phase 3—The Version Separation Problem (your Real blocker)
+### Phase 3—The Version Separation Problem (Your Real bLocker)
 
 The reason you said "we've found it hard to use Sleuth": the `{cluster}-latest-release` mutable tag is a shared signal across all services. When you push a chart bump for `fitconnect v1.0.741`, the `mkuh-prd-4-latest-release` tag moves—but so does it for every other cluster in that release batch.
 
@@ -260,7 +248,7 @@ This requires reading the GAPV output (already emitted in `output/${CI_PIPELINE_
 
 ---
 
-### Phase 4—Baselining (required before Claiming improvement)
+### Phase 4—Baselining (Required before Claiming iMprovement)
 
 Your CI/CD design doc, Version 3.0 (June 12 2026), is explicit:
 
@@ -304,225 +292,223 @@ The audio from the June 10 "Release Catch Up" meeting and Oliver's FFNode design
 - GAPV multi-package releases: The GAPV `dependency graph` in `gapv-packages.yaml` means some releases are compound (fitconnect depends on service-common). Sleuth lead time should be measured from the _leaf_ component's commit, not the umbrella release commit
 
 ## Raw Output / Content
-**You**
+
+You
 
 Our deployment pipeline is not very efficient. If anything breaks for the staging env we can't release anything else and can't easily roll back. Add some open loop items to my todoist inbox as reminders to figure out how to fix it
 
 ---
 
-**Claude**
+Claude
 
-4 tasks landed in your inbox. Here's what was added and **why each one exists**:
+4 tasks landed in your inbox. Here's what was added and why each one exists:
 
 ---
 
-#### What's in your inbox
+### What's in Your Inbox
 
 | # | Task | Priority | Why |
 | --- | --- | --- | --- |
-| 1 | **Spike: map current pipeline** | P2 | You can't fix what you haven't drawn. This is the unlock for all the others. |
-| 2 | Research: pipeline parallelism — decouple staging from releases | P3 | Staging should be a *non-blocking* path, not a global lock. |
-| 3 | Research: rollback strategy — ArgoCD sync history vs Helm rollback vs Git revert | P3 | Fast recovery depends on having a defined rollback mechanism before you need it. |
-| 4 | Research: environment promotion gates — per-service, not global | P3 | The real root cause — staging acting as a monolithic gate rather than per-service gates. |
+| 1 | Spike: map current pipeline | P2 | You can't fix what you haven't drawn. This is the unlock for all the others. |
+| 2 | Research: pipeline parallelism—decouple staging from releases | P3 | Staging should be a _non-blocking_ path, not a global lock. |
+| 3 | Research: rollback strategy—ArgoCD sync history vs Helm rollback vs Git revert | P3 | Fast recovery depends on having a defined rollback mechanism before you need it. |
+| 4 | Research: environment promotion gates—per-service, not global | P3 | The real root cause—staging acting as a monolithic gate rather than per-service gates. |
 
-Each task has a description with **starting questions** baked in, so when you open one you don't face a blank page.
+Each task has a description with starting questions baked in, so when you open one you don't face a blank page.
 
 ---
 
-#### The underlying problem (why these three areas)
+### The Underlying Problem (Why tHese tHree aReas)
 
-Your pipeline has a **shared mutable staging environment as a synchronous gate**. That's the pattern causing both problems:
+Your pipeline has a shared mutable staging environment as a synchronous gate. That's the pattern causing both problems:
 
-- **Can't release** → because the gate is *global* (one broken service blocks everything)
-- **Can't roll back** → because there's no defined previous-good-state to target
+- Can't release → because the gate is _global_ (one broken service blocks everything)
+- Can't roll back → because there's no defined previous-good-state to target
 
 The fix is almost certainly some combination of:
 
-1. **Per-service ArgoCD Apps** in staging (ApplicationSets are your friend here) so failures are scoped
-2. **A defined rollback primitive** (`argocd app rollback` or `helm rollback`) so recovery is a command, not a procedure
-3. **Decoupled promotion gates** — staging validation triggers per-service, not as a pipeline-wide lock
+1. Per-service ArgoCD Apps in staging (ApplicationSets are your friend here) so failures are scoped
+2. A defined rollback primitive (`argocd app rollback` or `helm rollback`) so recovery is a command, not a procedure
+3. Decoupled promotion gates—staging validation triggers per-service, not as a pipeline-wide lock
 
 ---
 
-#### Your next physical action
+### Your next Physical Action
 
-**Open the spike task** → grab a scratch file or Excalidraw → write down the 4 pipeline steps as they actually exist today (merge → staging trigger → gate → prod). That map will make the solution obvious.
+Open the spike task → grab a scratch file or Excalidraw → write down the 4 pipeline steps as they actually exist today (merge → staging trigger → gate → prod). That map will make the solution obvious.
 
 ## Raw Output / Content
-**You**
+
+You
 
 Use the atlassian connection to read [https://fitfile.atlassian.net/wiki/spaces/FITFILE/pages/2867986434/FITFILE+Pipeline+Philosophy+Commitments+for+Continuous+Delivery+Improvement](https://fitfile.atlassian.net/wiki/spaces/FITFILE/pages/2867986434/FITFILE+Pipeline+Philosophy+Commitments+for+Continuous+Delivery+Improvement) Validate the idea. I need the team to commit to a way so we can improve our pipeline.
 
 ---
 
-**Claude**
+Claude
 
 I'll read the Confluence page first, then give you a proper critique.
 
 ---
 
-**You**
+You
 
 Yes edit it those
 
 ---
 
-**Claude**
+Claude
 
-On it. Let me load the Confluence edit tool first, then make the surgical changes — only the eight evidence cells, nothing else.
+On it. Let me load the Confluence edit tool first, then make the surgical changes—only the eight evidence cells, nothing else.
 
 ---
 
-**You**
+You
 
 Split the 12 into 3 non-negotiables + 9 up-for-discussion, so one contested item (likely C8 trunk-based) can't sink the clean ones.
 
 ---
 
-**Claude**
+Claude
 
-Good call — this is the change that actually protects the document. Restructuring now.
+Good call—this is the change that actually protects the document. Restructuring now.
 
 ---
 
-**You**
+You
 
 Split the 12 into 3 non-negotiables + 9 up-for-discussion, so one contested item (likely C8 trunk-based) can't sink the clean ones.
 
 ---
 
-**Claude**
+Claude
 
-Locking in the split now. One judgment call I'm making explicit so you can override it — covered after the edit.
+Locking in the split now. One judgment call I'm making explicit so you can override it—covered after the edit.
 
-Here's the logic for *which* three are the axioms: the test for a non-negotiable isn't "most important," it's **"admits no reasonable evidenced alternative."** By that test, three pass cleanly — version control, pipeline-as-only-path, and measurement. Everything else is a *method* for honouring those, and methods are contestable in context.
+Here's the logic for _which_ three are the axioms: the test for a non-negotiable isn't "most important," it's "admits no reasonable evidenced alternative." By that test, three pass cleanly—version control, pipeline-as-only-path, and measurement. Everything else is a _method_ for honouring those, and methods are contestable in context.
 
 Writing it back.
 
 ---
 
-**You**
+You
 
 Do both changes now
 
 ---
 
-**Claude**
+Claude
 
-Both done in one pass — full body below.
+Both done in one pass—full body below.
 
 ---
 
-**You**
+You
 
 My intention was to have this as a starting position that all are invited to contribute and challenge. My comments shut having evidence was my fumbled attempt to avoid people just saying they prefer one way over another or just offering weak anicdotal evidence. But if we commit to measuring impact of different ways of working then the evidence is baked in.
 
 ---
 
-**Claude**
+Claude
 
-This is the right fix — and it's better than "soften the bar." It turns C10 (measure DORA) into double duty: a non-negotiable *and* the resolution mechanism for every Tier 2 dispute. That's a more coherent document, not a weaker one.
+This is the right fix—and it's better than "soften the bar." It turns C10 (measure DORA) into double duty: a non-negotiable _and_ the resolution mechanism for every Tier 2 dispute. That's a more coherent document, not a weaker one.
 
-One risk I'll build a guard against: "let's just try it and see" can become an indefinite trial if "see" is never defined. So the new framework asks for *what* would move and *roughly when* — turning "I prefer X" into a hypothesis with a falsification window, not an open-ended vibe check.
+One risk I'll build a guard against: "let's just try it and see" can become an indefinite trial if "see" is never defined. So the new framework asks for _what_ would move and _roughly when_—turning "I prefer X" into a hypothesis with a falsification window, not an open-ended vibe check.
 
 Updating now.
 
 ## Raw Output / Content
-**You**
+
+You
 
 Here are my messy notes on our cicd pipeline. review dedup and organise the content. I need a well structured design document page that clearly consolidates all my reseach. Give me a md wiki page I can use to inform my team of the state of our current pipeline, what the options are for improvement and what the industry gold standard is
 
 ---
 
-**Claude**
+Claude
 
 Structure is clean and balanced (the `#` at lines 293–310 are bash comments inside a fenced block, not headings). Final spot-check of the rendered top, then delivery:
 
 ---
 
-**You**
+You
 
 What would be ideal is to find out how devs actually work. It is hard to get people to change their workflow. So we need to start where they are and move into a shared approach. I am jsut frustrated after years of trying nothing really changes. We are a small team that is looking to grow and I feel it would be easier to build a strong CICD culture now so when people join the team it stays stable. Hence the slightly coercive language. I agree that this is not the way to go about it. How can we take the more inclusive ownership
 
 ---
 
-**Claude**
+Claude
 
-The frustration is earned, and the instinct underneath the coercive language was right — it was just aimed at the wrong target. And the strategic read is correct: building the culture now, while you're small, is much cheaper than retrofitting it later. With four or five people, norms transmit by osmosis — every joiner absorbs "how we ship here" as simply how things are. Wait until fifteen and you're fighting entrenched habits across sub-teams. So the goal is sound. You've done the thing you do well — conceded the method, kept the core intuition.
+The frustration is earned, and the instinct underneath the coercive language was right—it was just aimed at the wrong target. And the strategic read is correct: building the culture now, while you're small, is much cheaper than retrofitting it later. With four or five people, norms transmit by osmosis—every joiner absorbs "how we ship here" as simply how things are. Wait until fifteen and you're fighting entrenched habits across sub-teams. So the goal is sound. You've done the thing you do well—conceded the method, kept the core intuition.
 
-Here's the uncomfortable part. The strategy of *convince harder* — better document, clearer argument, more evidence — is the thing that hasn't worked, and the coercive tone was that strategy hitting its ceiling and shoving. People rarely resist change. They resist **being changed**. Evidence doesn't dissolve that, because it was never an evidence problem; it's an ownership problem. A flawless case that arrives finished is still *your* case. The unlock is counterintuitive: do less convincing and more co-discovering. Stop being the person with the answer and become the person who makes the problem impossible to ignore, then holds the space while the team reaches the answer. Slower. It sticks.
+Here's the uncomfortable part. The strategy of _convince harder_—better document, clearer argument, more evidence—is the thing that hasn't worked, and the coercive tone was that strategy hitting its ceiling and shoving. People rarely resist change. They resist being changed. Evidence doesn't dissolve that, because it was never an evidence problem; it's an ownership problem. A flawless case that arrives finished is still _your_ case. The unlock is counterintuitive: do less convincing and more co-discovering. Stop being the person with the answer and become the person who makes the problem impossible to ignore, then holds the space while the team reaches the answer. Slower. It sticks.
 
-### 1\. Observe before you prescribe — this is "how devs actually work"
+###1. Observe before you prescribe—this is "how devs actually work"k"
 
-**Value stream mapping, which you've already scoped.** Your own Phase A notes have a 60-minute session to trace one commit from workstation to production. Do it — but *with the team round a whiteboard*, not as an audit you present back. Draw every step from `git push` to running-in-prod, and mark the **waiting** time in red: time in the review queue, time blocked on the one reviewer, time waiting for staging. The bottleneck then emerges from the map *the team drew*, not from your mouth. You're the facilitator; the red bars do the arguing. The single-owner gate stops being Leon's opinion and becomes a thing everyone is staring at.
+Value stream mapping, which you've already scoped. Your own Phase A notes have a 60-minute session to trace one commit from workstation to production. Do it—but _with the team round a whiteboard_, not as an audit you present back. Draw every step from `git push` to running-in-prod, and mark the waiting time in red: time in the review queue, time blocked on the one reviewer, time waiting for staging. The bottleneck then emerges from the map _the team drew_, not from your mouth. You're the facilitator; the red bars do the arguing. The single-owner gate stops being Leon's opinion and becomes a thing everyone is staring at.
 
-**Ask where the pain is.** A five-minute, low-ceremony developer-experience pulse: where do you lose the most time, what breaks your flow, what do you dread. (The backing research is the DevEx framework — Noda, Storey, Forsgren, Greiler — and the friction/burnout axes DORA added in 2025, both already in your notes.) The instrument doesn't matter; asking instead of telling does. People defend conclusions they helped reach.
+Ask where the pain is. A five-minute, low-ceremony developer-experience pulse: where do you lose the most time, what breaks your flow, what do you dread. (The backing research is the DevEx framework—Noda, Storey, Forsgren, Greiler—and the friction/burnout axes DORA added in 2025, both already in your notes.) The instrument doesn't matter; asking instead of telling does. People defend conclusions they helped reach.
 
-### 2\. Start at their pain, not your destination
+### 2\. Start at Their Pain, not Your Destination
 
-Trunk-based dev and feature flags are the right *destination* and a toxic *opening demand* — they ask people to give up what feels safe for something abstract.
+Trunk-based dev and feature flags are the right _destination_ and a toxic _opening demand_—they ask people to give up what feels safe for something abstract.
 
-- **Find the smallest change that relieves a pain they named.** Broken staging blocking releases is the obvious one: it hurts everyone, it's nobody's pet theory, and fixing it buys real goodwill. Win there first. Trust is the currency that buys permission for the bigger moves.
-- **Your bottleneck reviewer is your first ally, not your obstacle.** The meeting quote — that he'd love to *not* be that person — is the most important sentence in your notes. He isn't resisting change; he's trapped by the current setup. Approach him first, framed as "how do we get this load off you," and the most senior, most respected engineer becomes co-sponsor of the change rather than its blocker. That inverts the entire politics of it.
+- Find the smallest change that relieves a pain they named. Broken staging blocking releases is the obvious one: it hurts everyone, it's nobody's pet theory, and fixing it buys real goodwill. Win there first. Trust is the currency that buys permission for the bigger moves.
+- Your bottleneck reviewer is your first ally, not your obstacle. The meeting quote—that he'd love to _not_ be that person—is the most important sentence in your notes. He isn't resisting change; he's trapped by the current setup. Approach him first, framed as "how do we get this load off you," and the most senior, most respected engineer becomes co-sponsor of the change rather than its blocker. That inverts the entire politics of it.
 
-### 3\. Make the roadmap theirs, not yours
+### 3\. Make the Roadmap Theirs, not Yours
 
-The v3.0 doc is excellent *input material* and a terrible finished verdict to hand down. To convert it into shared ownership:
+The v3.0 doc is excellent _input material_ and a terrible finished verdict to hand down. To convert it into shared ownership:
 
-- **Co-author, don't present.** Run a session where the team produces the roadmap, with your research as the reading material rather than the conclusion. Same content, completely different ownership — and the bits they change are the bits they'll defend.
-- **Write a working agreement, don't impose a policy.** Instead of "pipeline must pass to merge" decreed from above, the team writes its own short "what *done* means for us" — five or six lines, revisited each retro. People honour rules they authored.
-- **Time-box everything as an experiment.** "Let's turn on pipeline-must-pass-to-merge for two sprints, then review whether it helped or hurt" is a trial, not a treaty. Removing the fear of *permanent* commitment removes most of the resistance. If it works, it renews itself; if it doesn't, trust still went up because you kept your word to review it.
-- **Distribute ownership literally.** If one person owns the pipeline, everyone else is a guest in it. CODEOWNERS spreads review; a "pipeline gardener of the week" rota spreads the maintenance; everyone fixes one flaky test. You own what you can change.
+- Co-author, don't present. Run a session where the team produces the roadmap, with your research as the reading material rather than the conclusion. Same content, completely different ownership—and the bits they change are the bits they'll defend.
+- Write a working agreement, don't impose a policy. Instead of "pipeline must pass to merge" decreed from above, the team writes its own short "what _done_ means for us"—five or six lines, revisited each retro. People honour rules they authored.
+- Time-box everything as an experiment. "Let's turn on pipeline-must-pass-to-merge for two sprints, then review whether it helped or hurt" is a trial, not a treaty. Removing the fear of _permanent_ commitment removes most of the resistance. If it works, it renews itself; if it doesn't, trust still went up because you kept your word to review it.
+- Distribute ownership literally. If one person owns the pipeline, everyone else is a guest in it. CODEOWNERS spreads review; a "pipeline gardener of the week" rota spreads the maintenance; everyone fixes one flaky test. You own what you can change.
 
-### 4\. Then bank it for the growth you're planning
+### 4\. Then Bank it for the Growth You're Planning
 
-Once a practice is working, codify it *lightly* as a "How we ship here" page — but it has to be the **team's** page, written up from the working agreement above, or it's your manifesto with a new filename. That page is what makes a joiner in month six inherit your culture instead of importing their last company's. The thing you're building now isn't really the pipeline; it's the transmissible norm.
+Once a practice is working, codify it _lightly_ as a "How we ship here" page—but it has to be the team's page, written up from the working agreement above, or it's your manifesto with a new filename. That page is what makes a joiner in month six inherit your culture instead of importing their last company's. The thing you're building now isn't really the pipeline; it's the transmissible norm.
 
-### A straight word, since you asked for direct
+### A Straight Word, since You Asked for Direct
 
-A one-person culture campaign with no formal mandate is brutal, and "years and nothing changes" is partly the arithmetic of that. You likely need a **sponsor** — your manager, or that senior reviewer once he's onside — so the change carries a second voice that isn't yours. And be straight with yourself that this is a multi-quarter shift in how the team relates, not a document you ship next week. The compensating good news: at your size, two or three people changing how they work genuinely *is* the culture changing.
+A one-person culture campaign with no formal mandate is brutal, and "years and nothing changes" is partly the arithmetic of that. You likely need a sponsor—your manager, or that senior reviewer once he's onside—so the change carries a second voice that isn't yours. And be straight with yourself that this is a multi-quarter shift in how the team relates, not a document you ship next week. The compensating good news: at your size, two or three people changing how they work genuinely _is_ the culture changing.
 
-### The micro-step
+### The Micro-step
 
 Don't start with the document or the roadmap. Start with one conversation:
 
-> Put a 30-minute hold on your calendar this week with the bottleneck reviewer, titled something like *"getting the review load off you."* Walk in with no agenda except that question.
+> Put a 30-minute hold on your calendar this week with the bottleneck reviewer, titled something like _"getting the review load off you."_ Walk in with no agenda except that question.
 
-That single conversation moves more than the v3.0 doc can, because it turns your biggest obstacle into your first ally — and it costs you one calendar invite.
+That single conversation moves more than the v3.0 doc can, because it turns your biggest obstacle into your first ally—and it costs you one calendar invite.
 
 If it'd help, I can draft the actual words for that conversation, or the invite and framing for the value-stream-mapping session so it lands as "let's map this together" rather than "Leon's audit."
 
 ## Summary
 
-On 15 June 2026, Leon Ormes initiated a team-wide decision process to adopt the **Humble & Farley Continuous Delivery philosophy** as the governing principle for the FITFILE deployment pipeline. A decision & commitment document was drafted for Confluence, containing 12 team commitments derived from *Continuous Delivery* (2010) and *Accelerate* (2018), along with an alternatives framework for dissenting team members. The document requires sign-off from 8 team members and sets a philosophy-first approach before tool-level remediation.
+On 15 June 2026, Leon Ormes initiated a team-wide decision process to adopt the Humble & Farley Continuous Delivery philosophy as the governing principle for the FITFILE deployment pipeline. A decision & commitment document was drafted for Confluence, containing 12 team commitments derived from _Continuous Delivery_ (2010) and _Accelerate_ (2018), along with an alternatives framework for dissenting team members. The document requires sign-off from 8 team members and sets a philosophy-first approach before tool-level remediation.
 
 Mapped to Obsidian project_name: 'Refined Deployment' (30_Library/200_Projects)
 
 ## Key Facts
 
-- **Trigger** — The FITFILE deployment pipeline is unhealthy: 0% success rate on recent runs, zombie pipelines from 2024 still running, single-owner review gates halting throughput — [[raw/2026-06-15-pieces-fitfile-cd-decision-document]] (Pieces: 24475ea5-9fc)
-
-- **Decision document created** — A full "FITFILE CI/CD — Continuous Delivery Philosophy: Decision & Commitment" document was generated for Confluence on 15 June 2026 at 09:00 UTC. Status: 🟡 UNDER REVIEW — [[raw/2026-06-15-pieces-fitfile-cd-decision-document]] (Pieces: 10e3d434-663)
-
-- **12 commitments** — The document defines 12 commitments: (1) version control everything, (2) pipeline as exclusive gate, (3) pipeline verdict defines releasability, (4) build once deploy many, (5) deploy ≠ release, (6) small frequent changes, (7) pipeline as falsification mechanism, (8) trunk-based development, (9) same deployment mechanism everywhere, (10) DORA metrics tracking, (11) bring pain forward by doing it more often, (12) AI amplifies CD need — [[raw/2026-06-15-pieces-fitfile-cd-decision-document]]
-
-- **Sign-off team** — Team members to sign: Leon Ormes (Platform Engineer, ✅ Agree), Oliver Rushton, Yasir Mansoor, Robin Mofakham, Helena Ahlfors, Weronika Jastrzebska, Enric Serra, Susannah Thomas — [[raw/2026-06-15-pieces-fitfile-cd-decision-document]]
-
-- **Alternatives framework** — Team members who disagree with commitments must submit documented alternatives with evidence using a specified format. "We've always done it this way" is explicitly not accepted as evidence — [[raw/2026-06-15-pieces-fitfile-cd-decision-document]]
-
-- **Implementation risks** — Specific FITFILE risks identified: merge skew from batch releases, single-owner review bottleneck, no baseline DORA data, AI-generated large PRs, Helm/ffnode linting gap — [[raw/2026-06-15-pieces-fitfile-cd-decision-document]]
+- Trigger—The FITFILE deployment pipeline is unhealthy: 0% success rate on recent runs, zombie pipelines from 2024 still running, single-owner review gates halting throughput—[[raw/2026-06-15-pieces-fitfile-cd-decision-document]] (Pieces: 24475ea5-9fc)
+- Decision document created—A full "FITFILE CI/CD—Continuous Delivery Philosophy: Decision & Commitment" document was generated for Confluence on 15 June 2026 at 09:00 UTC. Status: 🟡 UNDER REVIEW—[[raw/2026-06-15-pieces-fitfile-cd-decision-document]] (Pieces: 10e3d434-663)
+- 12 commitments—The document defines 12 commitments: (1) version control everything, (2) pipeline as exclusive gate, (3) pipeline verdict defines releasability, (4) build once deploy many, (5) deploy ≠ release, (6) small frequent changes, (7) pipeline as falsification mechanism, (8) trunk-based development, (9) same deployment mechanism everywhere, (10) DORA metrics tracking, (11) bring pain forward by doing it more often, (12) AI amplifies CD need—[[raw/2026-06-15-pieces-fitfile-cd-decision-document]]
+- Sign-off team—Team members to sign: Leon Ormes (Platform Engineer, ✅ Agree), Oliver Rushton, Yasir Mansoor, Robin Mofakham, Helena Ahlfors, Weronika Jastrzebska, Enric Serra, Susannah Thomas—[[raw/2026-06-15-pieces-fitfile-cd-decision-document]]
+- Alternatives framework—Team members who disagree with commitments must submit documented alternatives with evidence using a specified format. "We've always done it this way" is explicitly not accepted as evidence—[[raw/2026-06-15-pieces-fitfile-cd-decision-document]]
+- Implementation risks—Specific FITFILE risks identified: merge skew from batch releases, single-owner review bottleneck, no baseline DORA data, AI-generated large PRs, Helm/ffnode linting gap—[[raw/2026-06-15-pieces-fitfile-cd-decision-document]]
 
 ## Timeline
 
-- **2026-06-15 08:44 UTC** — Leon requested a decision & commitment wiki page for CD philosophy buy-in
-- **2026-06-15 09:00 UTC** — Agent delivered full decision document ready for Confluence
-- **2026-06-15** — Status: 🟡 UNDER REVIEW, awaiting team sign-off
+- 2026-06-15 08:44 UTC—Leon requested a decision & commitment wiki page for CD philosophy buy-in
+- 2026-06-15 09:00 UTC—Agent delivered full decision document ready for Confluence
+- 2026-06-15—Status: 🟡 UNDER REVIEW, awaiting team sign-off
 
 ## Connections
 
-- [[wiki/projects/FITFILE Deployment — ArgoCD + Helm]] — Parent technical deployment project; this CD philosophy initiative provides the governance framework for pipeline remediation
-- [[wiki/projects/FFNode Stress Testing — FTFL-500]] — Stress testing programme that may be affected by pipeline changes
-- [[wiki/projects/FTFL-511 Nginx HTTPS Hardening]] — Example of deployment-pipeline-gated work
+- [[wiki/projects/FITFILE Deployment — ArgoCD + Helm]]—Parent technical deployment project; this CD philosophy initiative provides the governance framework for pipeline remediation
+- [[wiki/projects/FFNode Stress Testing — FTFL-500]]—Stress testing programme that may be affected by pipeline changes
+- [[wiki/projects/FTFL-511 Nginx HTTPS Hardening]]—Example of deployment-pipeline-gated work
 
 ## Contradictions
 
@@ -545,7 +531,7 @@ Projects: Hermes Agent development, GitLab CI/CD pipeline research, Azure Backup
 
 ---
 
-### Hermes Agent (32 assets)
+### Hermes Agent (32 Assets)
 
 #### Asset 1 (Pieces: 6cdb1fae-305f-4573-87ce-696d18b3df1a)
 
@@ -594,7 +580,7 @@ meta_complete (572963 input + 3882 output + 4555 reasoning tokens, $0.4550)
 
 _(+17 more assets in this category)_
 
-### Azure Backup (16 assets)
+### Azure Backup (16 Assets)
 
 #### Asset 1 (Pieces: 13e151f2-c4bc-4f9a-8b0e-86933f24aa20)
 
@@ -886,7 +872,7 @@ Next steps: Continue calling `search_memory` with the new `nextCursor` values fo
 
 _(+1 more assets in this category)_
 
-### Gitlab Cicd (10 assets)
+### Gitlab Cicd (10 Assets)
 
 #### Asset 1 (Pieces: bc4435a0-1d29-415a-8b98-4cb23240e926)
 
@@ -1553,41 +1539,41 @@ Principal Platform Architect, FITFILE
 
 |  |  |
 | --- | --- |
-| **Status** | Active — audit complete, remediation in planning |
-| **Version** | 3.0 (consolidates and supersedes all prior drafts, reports and research notes) |
-| **Date** | 12 June 2026 |
-| **Scope** | `InsightFILE`, `deployment`, `workflows-api`, `data-and-analytics`, `ude-cli` |
-| **Audience** | DevOps engineers, application developers, engineering management |
-| **Evidence base** | Static YAML analysis; `glab` CLI interrogation of live pipelines; GitLab subscription audit; end-to-end lifecycle trace (fitconnect); Release Catch Up meeting (10 Jun 2026); DORA 2025 report |
-| **Approach (non-negotiable)** | No disruption to the team's ability to ship. Small, incremental changes only. No big-bang pipeline replacement. Every change judged against the success metrics in §2, not opinion. |
+| Status | Active — audit complete, remediation in planning |
+| Version | 3.0 (consolidates and supersedes all prior drafts, reports and research notes) |
+| Date | 12 June 2026 |
+| Scope | `InsightFILE`, `deployment`, `workflows-api`, `data-and-analytics`, `ude-cli` |
+| Audience | DevOps engineers, application developers, engineering management |
+| Evidence base | Static YAML analysis; `glab` CLI interrogation of live pipelines; GitLab subscription audit; end-to-end lifecycle trace (fitconnect); Release Catch Up meeting (10 Jun 2026); DORA 2025 report |
+| Approach (non-negotiable) | No disruption to the team's ability to ship. Small, incremental changes only. No big-bang pipeline replacement. Every change judged against the success metrics in §2, not opinion. |
 
 none
 
 Executive summary
 -----------------
 
-**Where we are.** The pipeline is currently a blocker, not an enabler. At audit time it showed a **100% failure rate over the last 10 pipelines** (MR!2307); the last green `development` pipeline was five days prior. The *mechanical* commit-to-production path takes ~24 minutes, but real lead time is measured in **days** because a single-owner human review gate sits in front of staging. Four zombie pipelines have been consuming shared runner capacity since ~2024.
+Where we are. The pipeline is currently a blocker, not an enabler. At audit time it showed a 100% failure rate over the last 10 pipelines (MR!2307); the last green `development` pipeline was five days prior. The *mechanical* commit-to-production path takes ~24 minutes, but real lead time is measured in days because a single-owner human review gate sits in front of staging. Four zombie pipelines have been consuming shared runner capacity since ~2024.
 
-**Where we're going.** A tiered remediation roadmap: Tier 1 unblocks the pipeline this week, Tier 2 restructures it next sprint, Tier 3 replaces the human quality gate with automated quality enforcement and Tier 4 completes the developer experience transformation. Each tier is independently shippable and delivers measurable improvement on its own.
+Where we're going. A tiered remediation roadmap: Tier 1 unblocks the pipeline this week, Tier 2 restructures it next sprint, Tier 3 replaces the human quality gate with automated quality enforcement and Tier 4 completes the developer experience transformation. Each tier is independently shippable and delivers measurable improvement on its own.
 
-**How we get there.** Small, incremental, non-breaking changes. Every change measured against the success metrics in §2, not opinion. The DORA 2025 report is our north star.
+How we get there. Small, incremental, non-breaking changes. Every change measured against the success metrics in §2, not opinion. The DORA 2025 report is our north star.
 
 The document is organised into seven sections:
 
-1.  **Background & Current State** — detailed audit findings with hard numbers
-2.  **Success Metrics** — what we measure and how
-3.  **Tier 1 — Emergency Unblock** (this week)
-4.  **Tier 2 — Structural Reform** (next sprint)
-5.  **Tier 3 — Quality Gate Automation** (2 sprints)
-6.  **Tier 4 — Developer Experience** (2–3 sprints)
-7.  **Appendix** — detailed per-project callouts
+1.  Background & Current State — detailed audit findings with hard numbers
+2.  Success Metrics — what we measure and how
+3.  Tier 1 — Emergency Unblock (this week)
+4.  Tier 2 — Structural Reform (next sprint)
+5.  Tier 3 — Quality Gate Automation (2 sprints)
+6.  Tier 4 — Developer Experience (2–3 sprints)
+7.  Appendix — detailed per-project callouts
 
 Background & Current State
 --------------------------
 
 ### 1.1 Pipeline architecture (as found)
 
-The CI/CD landscape comprises **five GitLab projects** across two groups (*FITFILE* and *FITFILE Infra*):
+The CI/CD landscape comprises five GitLab projects across two groups (*FITFILE* and *FITFILE Infra*):
 
 | Project | Group | Role | Pipeline type | Key stage |
 |---|---|---|---|---|
@@ -1597,19 +1583,19 @@ The CI/CD landscape comprises **five GitLab projects** across two groups (*FITFI
 | `data-and-analytics` | FITFILE | Analytics infra | Deploy-only | Terraform |
 | `ude-cli` | FITFILE | CLI tool | Release | Version → Package |
 
-> **Why five separate projects?** Each was built independently by different teams/persons over time. No common pipeline template. No shared linting or standards. This is the root cause.
+> Why five separate projects? Each was built independently by different teams/persons over time. No common pipeline template. No shared linting or standards. This is the root cause.
 
 ### 1.2 Critical defects found
 
 #### Shared runner starvation
 
-Four pipelines (`InsightFILE` MR #2309, `deployment` #1066, #1058, `workflows-api` #1240) have been **in the `running` state since mid-2024 or early 2025**. The GitLab team plan limits shared runners to a single concurrent job. Three of these four are `manual` jobs (`schemaspy` in `InsightFILE`, `terraform-plan` in `deployment`, `publish_image` in `workflows-api`) that were started and never stopped — they hold the runner slot indefinitely. This blocks every other CI job for those projects.
+Four pipelines (`InsightFILE` MR #2309, `deployment` #1066, #1058, `workflows-api` #1240) have been in the `running` state since mid-2024 or early 2025. The GitLab team plan limits shared runners to a single concurrent job. Three of these four are `manual` jobs (`schemaspy` in `InsightFILE`, `terraform-plan` in `deployment`, `publish_image` in `workflows-api`) that were started and never stopped — they hold the runner slot indefinitely. This blocks every other CI job for those projects.
 
 #### Version pinning absent
 
-**No pipeline image tags.** All `image:` references across all five projects use `latest`. The `InsightFILE` base Docker image is rebuilt weekly and includes `s6-overlay`, `llama-box`, `Open WebUI`, `API clients` — a 4.1 GB monolith that changes underneath CI runs without notice.
+No pipeline image tags. All `image:` references across all five projects use `latest`. The `InsightFILE` base Docker image is rebuilt weekly and includes `s6-overlay`, `llama-box`, `Open WebUI`, `API clients` — a 4.1 GB monolith that changes underneath CI runs without notice.
 
-**No Terraform state version pinning.** Both Terraform pipelines (`deployment`, `data-and-analytics`) use the *current* state, not a pinned state version. A rollback requires manual state manipulation.
+No Terraform state version pinning. Both Terraform pipelines (`deployment`, `data-and-analytics`) use the *current* state, not a pinned state version. A rollback requires manual state manipulation.
 
 #### Terraform plan bypassed
 
@@ -1636,13 +1622,15 @@ No linting, no SAST, no secret detection runs on any project. No quality gate bl
 
 ### 1.4 Lifecycle trace (fitconnect)
 
-An **end-to-end trace** of the last successful production deploy (MR!2307 → production) showed the actual path:
+An end-to-end trace of the last successful production deploy (MR!2307 → production) showed the actual path:
 
 ```
+
 Commit → GitLab CI (quality) → Manual review → GitLab (deploy) → ArgoCD → Production
+
 ```
 
-The MR was opened 2025-11-18 and deployed 2026-06-10. That's **204 days** from open to production.
+The MR was opened 2025-11-18 and deployed 2026-06-10. That's 204 days from open to production.
 
 Lead time breakdown:
 
@@ -1652,13 +1640,13 @@ Lead time breakdown:
 | Pipeline failures (batch) | ~12 days | Repeated `latest` image breakage |
 | Deployment pipeline | ~24 min | Excellent mechanical performance |
 | ArgoCD sync | ~3 min | Fast once triggered |
-| **Total** | **~204 days** | |
+| Total | ~204 days | |
 
 The *mechanical* path (24 min) is excellent. The *organisational* path (204 days) is where value is lost.
 
 ### 1.5 Timelogging posture
 
-**No project** uses GitLab timelogging (`/spend`). Without time tracking there is no data to support cycle-time analysis, bottleneck identification, or capacity planning.
+No project uses GitLab timelogging (`/spend`). Without time tracking there is no data to support cycle-time analysis, bottleneck identification, or capacity planning.
 
 ### 1.6 DORA 2025 report — external benchmark
 
@@ -1671,7 +1659,7 @@ The DORA 2025 Accelerate State of DevOps Report defines:
 | Change Failure Rate | < 5% | Between 5% and 10% | Between 10% and 20% | Higher than 20% |
 | Time to Restore Service | < 1 hour | < 1 day | < 1 day | < 1 week |
 
-Current FITFILE position: **Low** across all four metrics.
+Current FITFILE position: Low across all four metrics.
 
 Success Metrics
 ---------------
@@ -1688,20 +1676,20 @@ Success Metrics
 
 ### 2.2 Secondary metrics
 
-**Pipeline process time** (≤ 30 min target), **Zombie pipeline count** (0 target), **MR auto-merge enablement**, **Developer satisfaction** (survey-based), **Timelogging adoption** (≥ 80% of MRs).
+Pipeline process time (≤ 30 min target), Zombie pipeline count (0 target), MR auto-merge enablement, Developer satisfaction (survey-based), Timelogging adoption (≥ 80% of MRs).
 
 ### 2.3 Measurement method
 
-Each metric is evaluated **every two weeks** at the sprint boundary. Pipeline failure rate uses a rolling window of the last 10 pipeline runs per project; deploy frequency and lead time use GitLab API timestamps.
+Each metric is evaluated every two weeks at the sprint boundary. Pipeline failure rate uses a rolling window of the last 10 pipeline runs per project; deploy frequency and lead time use GitLab API timestamps.
 
 Tier 1 — Emergency Unblock (this week)
 ---------------------------------------
 
 ### 3.1 Kill zombie pipelines
 
-**Goal:** Free runner capacity **today.**
+Goal: Free runner capacity today.
 
-**Procedure:**
+Procedure:
 
 ```bash
 # Identify zombies
@@ -1713,11 +1701,11 @@ glab ci cancel <job-id> -p InsightFILE
 
 Repeat for `deployment` and `workflows-api`. Verify with `glab ci status -p InsightFILE`.
 
-### 3.2 Pin CI image tags
+### 3.2 Pin CI Image Tags
 
-**Goal:** Stop `latest` breakage immediately.
+Goal: Stop `latest` breakage immediately.
 
-**Action:** Change every `image:` reference in every `.gitlab-ci.yml` from `image: <name>:latest` to `image: <name>@sha256:<current-digest>`. This is a one-line change per image, non-breaking, and makes CI reproducible immediately.
+Action: Change every `image:` reference in every `.gitlab-ci.yml` from `image: <name>:latest` to `image: <name>@sha256:<current-digest>`. This is a one-line change per image, non-breaking, and makes CI reproducible immediately.
 
 ```yaml
 # Before
@@ -1728,18 +1716,18 @@ image: python@sha256:2b1292622a45247c1aae81e2c3cd180e59039e09c3d97e12c56e0be7d10
 
 Apply to all five projects. Each project gets its own MR.
 
-### 3.3 Re-base broken MR branches
+### 3.3 Re-base Broken MR Branches
 
-**Action:** Rebase the known-broken MRs (MR!2307, MR!2309) on the newly-pinned CI base image. This is the fastest path to a green pipeline — trigger a pipeline on each rebased branch and verify.
+Action: Rebase the known-broken MRs (MR!2307, MR!2309) on the newly-pinned CI base image. This is the fastest path to a green pipeline—trigger a pipeline on each rebased branch and verify.
 
-### 3.4 File one gitlab-ci.yml issue per project
+### 3.4 File One gitlab-ci.yml Issue per Project
 
-**Action:** For each of the five projects, create a GitLab issue under that project's issue tracker recording the critical defects found in §1.2. Each issue should be one self-contained, actionable description of what's broken and what needs to change. Cross-reference from a single epic for tracking.
+Action: For each of the five projects, create a GitLab issue under that project's issue tracker recording the critical defects found in §1.2. Each issue should be one self-contained, actionable description of what's broken and what needs to change. Cross-reference from a single epic for tracking.
 
-Tier 2 — Structural Reform (next sprint)
+Tier 2—Structural Reform (next sprint)
 -----------------------------------------
 
-### 4.1 Pipeline template
+### 4.1 Pipeline Template
 
 Create a single `.gitlab-ci-template.yml` in a new `fitfile-ci-templates` repository. Every project's `.gitlab-ci.yml` becomes a thin consumer:
 
@@ -1755,45 +1743,45 @@ variables:
 
 Templates to create:
 
-- `docker-build.yml` — Standard Docker build + push
-- `terraform-plan.yml` — Plan stage + artifact
-- `terraform-apply.yml` — Apply stage (gated on plan)
-- `release.yml` — Version bump + tag + release
-- `quality.yml` — lint + SAST + secret detection (include everywhere)
+- `docker-build.yml`—Standard Docker build + push
+- `terraform-plan.yml`—Plan stage + artifact
+- `terraform-apply.yml`—Apply stage (gated on plan)
+- `release.yml`—Version bump + tag + release
+- `quality.yml`—lint + SAST + secret detection (include everywhere)
 
-### 4.2 Runner cost analysis
+### 4.2 Runner Cost Analysis
 
 Before buying a GitLab subscription upgrade, validate: do zombie pipelines fully explain the runner exhaustion? Collect last 90 days of runner utilisation from GitLab API. If the team genuinely needs more than 1 concurrent runner, Option A (GitLab Premium at $19/user/month) is the obvious choice. Option B (self-hosted runner on k8s) should only be considered if Option A is blocked for procurement reasons.
 
-### 4.3 Terraform plan-first enforcement
+### 4.3 Terraform Plan-first Enforcement
 
 In `deployment`, restructure the pipeline so `terraform-plan` is an automatic pre-merge check and `terraform-apply` requires the plan artifact. In `data-and-analytics`, add a `terraform-plan` stage.
 
-### 4.4 File epics
+### 4.4 File Epics
 
-Create a GitLab epic in the `FITFILE` group: **CI/CD Pipeline Remediation**. Each project's critical-defect issues from T1 §3.4 become children. Tier 2, 3, and 4 changes also get their own issue or epic as they mature.
+Create a GitLab epic in the `FITFILE` group: CI/CD Pipeline Remediation. Each project's critical-defect issues from T1 §3.4 become children. Tier 2, 3, and 4 changes also get their own issue or epic as they mature.
 
-Tier 3 — Quality Gate Automation (2 sprints)
+Tier 3—Quality Gate Automation (2 sprints)
 ---------------------------------------------
 
-### 5.1 GitLab CI/CD quality stage
+### 5.1 GitLab CI/CD Quality Stage
 
 Add a shared `quality` stage to every pipeline via the template from §4.1:
 
 | Job | Tool | Fails pipeline on |
 |---|---|---|
 | `lint` | `yamllint` / `flake8` | Syntax error |
-| `sast` | GitLab SAST (Free tier — Semgrep) | Critical severity |
+| `sast` | GitLab SAST (Free tier—Semgrep) | Critical severity |
 | `secret_detection` | GitLab Secret Detection (Free tier) | Credential in code |
 | `test` | pytest / vitest | Test failure |
 
-These run on every push, not just MRs. They are **fast** (< 2 min total).
+These run on every push, not just MRs. They are fast (< 2 min total).
 
-### 5.2 Merge request quality gate
+### 5.2 Merge Request Quality Gate
 
-Prevent merge to `development` if any quality job fails. In GitLab Free tier this is enforced by MR pipeline status — if the quality pipeline fails, the Merge button stays grey.
+Prevent merge to `development` if any quality job fails. In GitLab Free tier this is enforced by MR pipeline status—if the quality pipeline fails, the Merge button stays grey.
 
-### 5.3 Rollback capability
+### 5.3 Rollback Capability
 
 This is the hardest T3 change. Current Terraform state has no versioning. Plan:
 
@@ -1801,10 +1789,10 @@ This is the hardest T3 change. Current Terraform state has no versioning. Plan:
 - Each apply produces a versioned state snapshot
 - Rollback script: `terraform state push <previous-version>` (documented, not automated)
 
-Tier 4 — Developer Experience (2–3 sprints)
+Tier 4—Developer Experience (2–3 sprints)
 --------------------------------------------
 
-### 6.1 Traceability — metadata injection
+### 6.1 Traceability—metadata Injection
 
 Inject CI metadata into every build artifact:
 
@@ -1814,7 +1802,7 @@ Inject CI metadata into every build artifact:
 
 This connects the deployed artifact back to the exact MR that produced it.
 
-### 6.2 Timelogging script
+### 6.2 Timelogging Script
 
 Provide a one-liner that developers can paste after closing an MR:
 
@@ -1822,11 +1810,11 @@ Provide a one-liner that developers can paste after closing an MR:
 glab mr note <mr-id> -m "/spend 30m"
 ```
 
-(30m is placeholder — adjust per MR complexity.)
+(30m is placeholder—adjust per MR complexity.)
 
 Goal: get to 80%+ timelogging coverage within one sprint.
 
-### 6.3 Merge request template
+### 6.3 Merge Request Template
 
 Create `.gitlab/merge_request_templates/default.md` in each project with:
 
@@ -1846,13 +1834,13 @@ Create `.gitlab/merge_request_templates/default.md` in each project with:
 
 Standardisation reduces review friction.
 
-### 6.4 Technical debt — docs
+### 6.4 Technical debt—docs
 
 - Archive outdated README; replace with a brief project card
 - Create a one-page deploy runbook for each project's production release path
 - Document the CI/CD template repo in `fitfile-ci-templates/README.md`
 
-Appendix — Per-project callouts
+Appendix—Per-project callouts
 -------------------------------
 
 ### A.1 InsightFILE
@@ -1864,15 +1852,15 @@ Appendix — Per-project callouts
 | No linting/SAST | Defects reach production | T3 |
 | README references deleted `setup.sh` | Developer confusion | T4 |
 
-### A.2 deployment
+### A.2 Deployment
 
 | Issue | Impact | Fix tier |
 |---|---|---|
-| MR!1066 + !1058 runner leak (terraform-plan manual) | Blocks deploy pipeline | T1 |
-| Plan runs *after* apply | No review before change | T2 |
+| MR!1066 +!1058 runner leak (terraform-plan manual) | Blocks deploy pipeline | T1 |
+| Plan runs _after_ apply | No review before change | T2 |
 | No state versioning | Rollback is manual state surgery | T3 |
 
-### A.3 workflows-api
+### A.3 Workflows-api
 
 | Issue | Impact | Fix tier |
 |---|---|---|
@@ -1880,14 +1868,14 @@ Appendix — Per-project callouts
 | `image: latest` | Non-reproducible | T1 |
 | No linting/test | Defects reach production | T3 |
 
-### A.4 data-and-analytics
+### A.4 Data-and-analytics
 
 | Issue | Impact | Fix tier |
 |---|---|---|
 | No plan stage | No review before Terraform apply | T2 |
 | No state versioning | Rollback is manual state surgery | T3 |
 
-### A.5 ude-cli
+### A.5 Ude-cli
 
 | Issue | Impact | Fix tier |
 |---|---|---|

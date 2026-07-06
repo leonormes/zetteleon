@@ -1,16 +1,14 @@
 ---
 aliases: []
-created: 2025-10-31 12:37:00+00:00
+created: 2025-10-31T12:37:00+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:35+00:00
+modified: 2026-07-04T10:51:52+00:00
+permalink: llmeon/30-library/100-zettelkasten/dry-principle-vs-system-independence
 status: seedling
-tags:
-- principles
-- SoftwareEngineering/Architecture
+tags: [principles, SoftwareEngineering/Architecture]
 title: DRY Principle vs System Independence
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/dry-principle-vs-system-independence
 ---
 
 ## DRY Principle Vs System Independence

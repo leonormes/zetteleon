@@ -1,20 +1,16 @@
 ---
-created: 2026-04-14 13:21:45+00:00
+created: 2026-04-14T13:21:45+00:00
 created_utc: '2026-04-14T11:35:00Z'
 kind: procedure
-modified: 2026-05-26 11:44:33+00:00
+modified: 2026-07-04T10:51:45+00:00
+permalink: llmeon/30-library/100-zettelkasten/sitting-with-groundlessness
 source_title: Thinking about knowledge
 source_url: https://gemini.google.com/app/d3312dd6e13881e3
 status: seed
-tags:
-- focus
-- mindfulness
-- procrastination
-- psychological-flexibility
+tags: [focus, mindfulness, procrastination, psychological-flexibility]
 title: Sitting with Groundlessness
 type: atom
 upstream: '[[SoT - Mindfulness and Emotional Regulation]]'
-permalink: llmeon/30-library/100-zettelkasten/sitting-with-groundlessness
 ---
 
 ## Sitting with Groundlessness

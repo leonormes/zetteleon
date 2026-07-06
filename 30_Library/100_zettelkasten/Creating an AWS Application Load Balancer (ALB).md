@@ -1,18 +1,14 @@
 ---
 aliases: []
-created: 2025-10-24 14:25:58+00:00
+created: 2025-10-24T14:25:58+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:35+00:00
+modified: 2026-07-04T10:51:53+00:00
+permalink: llmeon/30-library/100-zettelkasten/creating-an-aws-application-load-balancer-alb
 status: ''
-tags:
-- aws
-- load-balancing
-- SoftwareEngineering/Networking
-- SoftwareEngineering/networking/cloud-networking
+tags: [aws, load-balancing, SoftwareEngineering/Networking, SoftwareEngineering/networking/cloud-networking]
 title: Creating an AWS Application Load Balancer (ALB)
 type: ''
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/creating-an-aws-application-load-balancer-alb
 ---
 
 The process of creating an AWS Application Load Balancer (ALB) involves several key configurations:

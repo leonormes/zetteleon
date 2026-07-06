@@ -1,17 +1,14 @@
 ---
 aliases: []
-created: 2025-08-29 15:17:35+00:00
+created: 2025-08-29T15:17:35+00:00
 last_reviewed: ''
-modified: 2026-05-26 11:44:35+00:00
+modified: 2026-07-04T10:51:52+00:00
+permalink: llmeon/30-library/100-zettelkasten/effective-theory
 status: ''
-tags:
-- physics
-- science
-- TheHuman/Cognition/mental-model
+tags: [physics, science, TheHuman/Cognition/mental-model]
 title: Effective Theory
 type: ''
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/effective-theory
 ---
 
 An effective theory is a model of the world that is highly accurate and predictive within a specific, limited domain, even if its foundational principles are known to be incomplete or incorrect on a deeper level.

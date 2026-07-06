@@ -1,20 +1,16 @@
 ---
-created: 2026-04-14 20:31:19+00:00
+created: 2026-04-14T20:31:19+00:00
 created_utc: '2026-04-14T13:40:00Z'
 kind: failure_mode
-modified: 2026-05-26 11:44:32+00:00
+modified: 2026-07-04T10:51:44+00:00
+permalink: llmeon/30-library/100-zettelkasten/understanding-debt
 source_title: Deconstructing the interview with Jeremy Howard
 source_url: https://gemini.google.com/app/fa3a7e9a4a69844c
 status: seed
-tags:
-- education
-- maintainability
-- technical-debt
-- understanding-debt
+tags: [education, maintainability, technical-debt, understanding-debt]
 title: Understanding Debt
 type: atom
 upstream: '[[SoT - Human vs AI Cognition]]'
-permalink: llmeon/30-library/100-zettelkasten/understanding-debt
 ---
 
 ## Understanding Debt

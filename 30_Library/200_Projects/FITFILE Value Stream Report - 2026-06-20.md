@@ -1,10 +1,10 @@
 ---
-created: 2026-06-20 10:01:33+00:00
-modified: 2026-06-22 08:08:42+00:00
+created: 2026-06-20T10:01:33+00:00
+modified: 2026-07-04T10:51:36+00:00
+permalink: llmeon/30-library/200-projects/fitfile-value-stream-report-2026-06-20
 project_name: Pipeline
 tags: []
 title: FITFILE Value Stream Report - 2026-06-20
-permalink: llmeon/30-library/200-projects/fitfile-value-stream-report-2026-06-20
 ---
 
 ## FITFILE Value Stream Report
@@ -77,7 +77,7 @@ Active sprint (Sprint 23, 29 issues / 151 pts): Ready for Release 12, In Progres
 
 Sprint stories with no detected GitLab activity: cross-referencing all 29 active-sprint keys against both repos' branches/MRs/commits/tags (FTFL-\d+ regex), roughly half show no match. Notably, 8 of the 12 "Ready for Release" tickets (FTFL-665–667, 672, 674–677—all Faro/observability and Data-Ops-UI work) have no matching branch, MR, or commit in either repo. This is either: work that lives in a third repo/config system not covered (plausible for Grafana/Faro dashboard config), a Jira status set prematurely, or a ticket-key/branch-naming mismatch—flagged as a gap, not asserted as a defect (see §5).
 
-#### Stage 3—Development (WIP & Stale branches)
+#### Stage 3—Development (WIP & Stale bRanches)
 
 WIP per assignee (limit Z=3):
 
@@ -155,7 +155,7 @@ Blocked tickets (12 found—note: status is named `🚫Blocked`, easy to miss wi
 | FTFL-658 | [SPIKE] MKUH Terraform (timeboxed 2–3d) | Leon | ~12 (4–6x over its own timebox) |
 | FTFL-525 | Ensure backups are ZRS | Leon | ~10 |
 
-### 4. Bottleneck Analysis (ranked)
+### 4. Bottleneck Analysis (Ranked)
 
 1. `InsightFILE` has no working release mechanism, and its CI gate fails ~half the time (floating tag only; pass rate 52%, dominated by `frontend_unit_tests`/`frontend_lint`/`verify_ffcloud`). Cross-validated by the Jira rollover list (12 tickets stuck "Ready for Release," several for 3–7 sprints). This is the highest-confidence, highest-impact finding—three independent signals point at the same chokepoint.
 2. Zero human code review on either repo. 0/88 merged MRs in-window have a review comment; CI is the _only_ quality gate, and it's unreliable on the app repo (finding 1). Risk compounds: nothing is catching what CI misses.
@@ -175,7 +175,7 @@ Blocked tickets (12 found—note: status is named `🚫Blocked`, easy to miss wi
 - ~half of active-sprint tickets (notably 8 of 12 "Ready for Release" items) have no GitLab artifact matched by ticket-key regex across the two repos checked—could mean a third repo/config system, premature status-setting, or branch-naming variance. Not asserted as any one of these—flagged for follow-up.
 - Lead Time for Changes (ticket-created → deployed) could only be partially joined—GitLab-side merge/tag timestamps exist, but per-ticket Jira `created` dates for the specific tagged tickets weren't pulled in this pass.
 
-### 6. Recommended Actions (prioritized)
+### 6. Recommended Actions (Prioritized)
 
 1. Fix `InsightFILE`'s release process—adopt real version tags/Releases (mirroring how `deployment` already works) instead of the floating `latest-release` pointer. _Directly addresses bottleneck 1._
 2. Triage `frontend_unit_tests` / `frontend_lint` / `verify_ffcloud`—together >85% of `InsightFILE`'s pipeline failures, pass rate is only 52%. Until fixed, CI can't function as the team's sole quality gate. _Addresses bottleneck 1/#2._

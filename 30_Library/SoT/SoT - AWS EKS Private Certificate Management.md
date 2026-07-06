@@ -1,23 +1,14 @@
 ---
-aliases:
-- ACM Private CA with Cert-Manager
-- EKS Private Certs
-- Private TLS Architecture
-created: 2025-07-23 13:42:04+00:00
+aliases: [ACM Private CA with Cert-Manager, EKS Private Certs, Private TLS Architecture]
+created: 2025-07-23T13:42:04+00:00
 last_reviewed: null
-modified: 2026-02-01 15:08:02+00:00
+modified: 2026-07-04T10:51:04+00:00
+permalink: llmeon/30-library/so-t/so-t-aws-eks-private-certificate-management
 status: Active
-tags:
-- aws
-- cert-manager
-- certificates
-- eks
-- security
-- tls
+tags: [aws, cert-manager, certificates, eks, security, tls]
 title: SoT - AWS EKS Private Certificate Management
 type: SoT
 updated: null
-permalink: llmeon/30-library/so-t/so-t-aws-eks-private-certificate-management
 ---
 
 ## SoT - AWS EKS Private Certificate Management

@@ -1,20 +1,16 @@
 ---
-created: 2026-04-13 14:37:11+00:00
+created: 2026-04-13T14:37:11+00:00
 created_utc: '2026-04-13T11:10:00Z'
 kind: constraint
-modified: 2026-05-26 11:44:36+00:00
+modified: 2026-07-04T10:51:53+00:00
+permalink: llmeon/30-library/100-zettelkasten/context-volume-plateau
 source_title: Agentic Engineering and AI Workflow Management
 source_url: https://gemini.google.com/app/7a41bb3090001aa4
 status: seed
-tags:
-- context-window
-- efficiency
-- llm-limitations
-- transformers
+tags: [context-window, efficiency, llm-limitations, transformers]
 title: Context Volume Plateau
 type: atom
 upstream: '[[HEAD - Agentic Engineering and AI Workflow Management]]'
-permalink: llmeon/30-library/100-zettelkasten/context-volume-plateau
 ---
 
 ## Context Volume Plateau

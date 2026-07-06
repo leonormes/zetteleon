@@ -1,20 +1,16 @@
 ---
-created: 2026-04-13 14:47:45+00:00
+created: 2026-04-13T14:47:45+00:00
 created_utc: '2026-04-13T11:30:00Z'
 kind: definition
-modified: 2026-05-26 11:44:34+00:00
+modified: 2026-07-04T10:51:48+00:00
+permalink: llmeon/30-library/100-zettelkasten/oauth-2.0
 source_title: Every API Authentication Method Explained
 source_url: https://youtube.com/watch?v=_lTECv25N2U
 status: seed
-tags:
-- authorisation
-- framework
-- oauth2
-- security
+tags: [authorisation, framework, oauth2, security]
 title: OAuth 2.0
 type: atom
 upstream: '[[HEAD Authentication Methods and Concepts]]'
-permalink: llmeon/30-library/100-zettelkasten/oauth-2.0
 ---
 
 ## OAuth 2.0

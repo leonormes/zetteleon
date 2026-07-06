@@ -1,12 +1,12 @@
 ---
-created: 2026-05-26 17:22:25+00:00
-modified: 2026-06-08 11:49:24+00:00
+created: 2026-05-26T17:22:25+00:00
+modified: 2026-07-04T10:51:16+00:00
+permalink: llmeon/30-library/200-projects/grafana-alloy-audit-report
 project_category: refined_deployment
 project_name: Refined Deployment
 project_status: active
 title: grafana_alloy_audit_report
 type: null
-permalink: llmeon/30-library/200-projects/grafana-alloy-audit-report
 ---
 
 ## Grafana Alloy Audit & Remediation Report (FTFL-638)
@@ -71,7 +71,7 @@ grafana-k8s-monitoring-alloy-logs-tfpk9                      2/2     Running   0
 
 #### 2b. Rendered Alloy Config
 
-##### Testing (v3.7.5) Config Extract
+##### Testing (V3.7.5) Config Extract
 
 The rendered Alloy config in the `grafana-k8s-monitoring-alloy-logs` ConfigMap contains the `stage.structured_metadata` block:
 
@@ -89,7 +89,7 @@ The rendered Alloy config in the `grafana-k8s-monitoring-alloy-logs` ConfigMap c
     }
 ```
 
-##### Staging (v1.5.4) Config Extract
+##### Staging (V1.5.4) Config Extract
 
 The staging ConfigMap does NOT use `stage.structured_metadata` or `stage.label_keep`. Instead, it simply passes the labels generated from discovery relabeling directly to the write stage:
 

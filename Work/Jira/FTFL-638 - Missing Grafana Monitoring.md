@@ -1,22 +1,15 @@
 ---
 assignee: Unassigned
-created: 2026-04-30 00:00:00+00:00
+created: 2026-04-30T00:00:00+00:00
 jira_key: FTFL-638
 jira_url: https://fitfile.atlassian.net/browse/FTFL-638
-modified: 2026-05-26 11:43:56+00:00
+modified: 2026-07-04T10:50:34+00:00
+permalink: llmeon/work/jira/ftfl-638-missing-grafana-monitoring
 priority: Highest
 reporter: Ollie Rushton
 status: Backlog
-tags:
-- bug
-- grafana
-- jira
-- kubernetes
-- loki
-- monitoring
-- prometheus
+tags: [bug, grafana, jira, kubernetes, loki, monitoring, prometheus]
 title: FTFL-638 - Missing Grafana Monitoring
-permalink: llmeon/work/jira/ftfl-638-missing-grafana-monitoring
 ---
 
 ## FTFL-638—Missing Grafana Monitoring in Testing Cluster

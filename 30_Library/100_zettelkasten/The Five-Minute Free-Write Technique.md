@@ -1,18 +1,14 @@
 ---
 aliases: []
-created: 2025-10-20 09:47:00+00:00
+created: 2025-10-20T09:47:00+00:00
 last_reviewed: 'null'
-modified: 2026-02-01 15:08:25+00:00
+modified: 2026-07-04T10:51:44+00:00
+permalink: llmeon/30-library/100-zettelkasten/the-five-minute-free-write-technique
 status: 'null'
-tags:
-- technique
-- TheHuman/Habits
-- topic/productivity/procrastination
-- topic/writing
+tags: [technique, TheHuman/Habits, topic/productivity/procrastination, topic/writing]
 title: The Five-Minute Free-Write Technique
 type: 'null'
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/the-five-minute-free-write-technique
 ---
 
 This is a practical exercise, inspired by a method described in William Zinsser's "Writing to Learn," designed to overcome the resistance and friction associated with [[The Disappointment of Written Thoughts]].

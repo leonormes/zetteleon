@@ -1,22 +1,11 @@
 ---
-created: 2026-05-12 22:06:30+00:00
-modified: 2026-05-26 11:43:46+00:00
-pieces_ids:
-- 1716f056-7355-4fa4-b1c3-d092a15f0a1b
-- 41f45a26-d921-4922-bdc2-eb5889e6d3ac
-- 73380c2e-13e2-49b5-9f86-8d79edd8c6b6
-- 8a4812f0-9c0d-4aa8-93db-152c710eab02
-- a6cbb346-81bb-4637-8e3c-0e0dd6dea53d
-- a6ce5b1d-5c39-4ee4-96fd-e23758f91f01
-- c75966d5-89e6-4c18-8af6-9887871ae721
-- cd4c4364-3bcc-46f5-8536-458013ddcdac
-- e251fec9-84e4-4795-8f1b-9075b37b9b3e
-source: pieces-ltm
-tags:
-- pieces
-- raw
-title: 2026-05-12-pieces-dns-audit
+created: 2026-05-12T22:06:30+00:00
+modified: 2026-07-04T10:50:19+00:00
 permalink: llmeon/raw/2026-05-12-pieces-dns-audit
+pieces_ids: [1716f056-7355-4fa4-b1c3-d092a15f0a1b, 41f45a26-d921-4922-bdc2-eb5889e6d3ac, 73380c2e-13e2-49b5-9f86-8d79edd8c6b6, 8a4812f0-9c0d-4aa8-93db-152c710eab02, a6cbb346-81bb-4637-8e3c-0e0dd6dea53d, a6ce5b1d-5c39-4ee4-96fd-e23758f91f01, c75966d5-89e6-4c18-8af6-9887871ae721, cd4c4364-3bcc-46f5-8536-458013ddcdac, e251fec9-84e4-4795-8f1b-9075b37b9b3e]
+source: pieces-ltm
+tags: [pieces, raw]
+title: 2026-05-12-pieces-dns-audit
 ---
 
 ## Pieces LTM Ingest—DNS Audit
@@ -112,7 +101,7 @@ This matches the 5 `old-*` records deleted in Wave 1 and the DEAD_UNMANAGED batc
 
 ---
 
-#### Remaining from the Original 18 (not yet deleted)
+#### Remaining from the Original 18 (Not yet dEleted)
 
 From your audit notes, 5 records still require a short verification before deletion:
 
@@ -247,7 +236,7 @@ Source: Cloudflare Audit Logs ([dash.cloudflare.com — Audit logs](https://dash
 
 ---
 
-#### Audit Log Entries (verbatim from Cloudflare)
+#### Audit Log Entries (Verbatim from Cloudflare)
 
 The following Batch DNS Records delete operations were logged today against `fitfile.net`:
 
@@ -265,7 +254,7 @@ Additionally, a Create NS Records action was logged at 09:15:25 (this may be a d
 
 ---
 
-#### Records Confirmed Deleted (from LTM Vision captures)
+#### Records Confirmed Deleted (From LTM Vision cAptures)
 
 The following individual deletions were captured in your screen recordings today:
 
@@ -322,8 +311,8 @@ The fetchMore cursors I need to paginate are from the 4 search_memory calls in t
 
 `
 
-2. "DNS drift audit fitfile" cursor: `eyJxIjoiaDpETlMgZHJpZnQgYXVkaXQgZml0ZmlsZXx0MF9mcm9tOjIwMjYtMDUtMTJUMDA6MDA6MDAuMDAwWnx0MF90bzoyMDI2LTA1LTEyVDIzOjU5OjU5LjAwMFoiLCJvIjo1MH0=`
-3. "cloud infrastructure" cursor and the fourth one from the "DNS propagation" search that I need to extract from the results. I'm going to make a few tool calls now to gather the information I need—pulling browser history filtered for Cloudflare activity today, and querying my memory for details about which DNS records were deleted.
+1. "DNS drift audit fitfile" cursor: `eyJxIjoiaDpETlMgZHJpZnQgYXVkaXQgZml0ZmlsZXx0MF9mcm9tOjIwMjYtMDUtMTJUMDA6MDA6MDAuMDAwWnx0MF90bzoyMDI2LTA1LTEyVDIzOjU5OjU5LjAwMFoiLCJvIjo1MH0=`
+2. "cloud infrastructure" cursor and the fourth one from the "DNS propagation" search that I need to extract from the results. I'm going to make a few tool calls now to gather the information I need—pulling browser history filtered for Cloudflare activity today, and querying my memory for details about which DNS records were deleted.
 
 ---
 

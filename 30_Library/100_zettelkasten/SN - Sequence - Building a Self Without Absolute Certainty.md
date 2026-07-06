@@ -1,27 +1,19 @@
 ---
-aliases:
-- Building a Self in Uncertainty
-created: 2025-11-06 19:58:04+00:00
+aliases: [Building a Self in Uncertainty]
+created: 2025-11-06T19:58:04+00:00
 criteria: Notes must relate to the epistemological crisis of certainty and the subsequent
   reconstruction of identity and confidence.
 exclusions: Simple factual claims or discussions of specific productivity systems.
 last_reviewed: ''
-modified: 2026-02-01 15:08:27+00:00
+modified: 2026-07-04T10:51:46+00:00
+permalink: llmeon/30-library/100-zettelkasten/sn-sequence-building-a-self-without-absolute-certainty
 scope: A philosophical framework for building a functional and confident self in the
   absence of absolute certainty.
 status: ''
-tags:
-- epistemology
-- map
-- self
-- sequence
-- structural
-- TheHuman/Identity
-- TheHuman/Philosophy
+tags: [epistemology, map, self, sequence, structural, TheHuman/Identity, TheHuman/Philosophy]
 title: SN - Sequence - Building a Self Without Absolute Certainty
 type: sn
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/sn-sequence-building-a-self-without-absolute-certainty
 ---
 
 ## SN - Sequence: Building a Self Without Absolute Certainty

@@ -1,20 +1,14 @@
 ---
-aliases:
-- Procras-working
-created: 2025-10-29 16:31:10+00:00
+aliases: [Procras-working]
+created: 2025-10-29T16:31:10+00:00
 last_reviewed: 'null'
-modified: 2026-02-01 15:08:28+00:00
+modified: 2026-07-04T10:51:47+00:00
+permalink: llmeon/30-library/100-zettelkasten/procras-working-builds-momentum-by-lowering-task-resistance
 status: seedling
-tags:
-- momentum
-- procrastination
-- task-initiation
-- TheHuman/Health/ADHD
-- topic/productivity
+tags: [momentum, procrastination, task-initiation, TheHuman/Health/ADHD, topic/productivity]
 title: Procras-working Builds Momentum by Lowering Task Resistance
 type: strategy
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/procras-working-builds-momentum-by-lowering-task-resistance
 ---
 
 Procras-working is the strategy of intentionally switching to a less daunting but still productive task when feeling stuck or resistant to a primary, high-priority task.

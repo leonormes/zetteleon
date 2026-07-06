@@ -1,25 +1,11 @@
 ---
-aliases:
-- AFM Formal Context
-- FCA Matrix
-- Topic Concept Lattice
-created: 2026-04-19 10:00:00+01:00
-modified: 2026-05-26 11:44:19+00:00
-see_also:
-- '[[MOC - Applied Formal Methods]]'
-- '[[Protocol - AFM Vault Constitutional Triage]]'
-- '[[SoT - Order Theory & Lattices]]'
-- '[[SoT - Structure is Truth is a Unifying Axiom Across Formal Systems]]'
-tags:
-- fca/attr/m10
-- fca/attr/m4
-- fca/level/c4
-- prodos/sot
-- topic/formal-methods
-- topic/mathematics
-- topic/pkm
-title: SoT - Formal Context (Applied Formal Methods)
+aliases: [AFM Formal Context, FCA Matrix, Topic Concept Lattice]
+created: 2026-04-19T09:00:00+00:00
+modified: 2026-07-04T10:50:59+00:00
 permalink: llmeon/30-library/so-t/so-t-formal-context-applied-formal-methods
+see_also: ["[[MOC - Applied Formal Methods]]", "[[Protocol - AFM Vault Constitutional Triage]]", "[[SoT - Order Theory & Lattices]]", "[[SoT - Structure is Truth is a Unifying Axiom Across Formal Systems]]"]
+tags: [fca/attr/m10, fca/attr/m4, fca/level/c4, prodos/sot, topic/formal-methods, topic/mathematics, topic/pkm]
+title: SoT - Formal Context (Applied Formal Methods)
 ---
 
 ## SoT—Formal Context (Applied Formal Methods)

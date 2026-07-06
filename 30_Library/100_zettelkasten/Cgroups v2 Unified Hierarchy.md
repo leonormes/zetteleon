@@ -1,19 +1,14 @@
 ---
-aliases:
-- cgroups v2
-- Unified Hierarchy
-created: 2025-12-24 12:00:00+00:00
+aliases: [cgroups v2, Unified Hierarchy]
+created: 2025-12-24T12:00:00+00:00
 last_reviewed: 2025-12-24
-modified: 2026-02-01 15:08:36+00:00
+modified: 2026-07-04T10:51:53+00:00
+permalink: llmeon/30-library/100-zettelkasten/cgroups-v2-unified-hierarchy
 status: stable
-tags:
-- kernel
-- modern-cgroups
-- SoftwareEngineering/Linux
+tags: [kernel, modern-cgroups, SoftwareEngineering/Linux]
 title: Cgroups v2 Unified Hierarchy
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/cgroups-v2-unified-hierarchy
 ---
 
 ## Cgroups V2

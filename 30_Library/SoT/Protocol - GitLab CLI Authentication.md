@@ -1,20 +1,15 @@
 ---
-created: 2026-04-01 15:50:00+00:00
+created: 2026-04-01T15:50:00+00:00
 last-synthesis: 2026-04-01
-modified: 2026-05-26 11:44:21+00:00
+modified: 2026-07-04T10:51:06+00:00
+permalink: llmeon/30-library/so-t/protocol-git-lab-cli-authentication
 source_of_truth: true
 status: evergreen
 synthesis-count: 1
-tags:
-- auth
-- cli
-- domain/ops
-- gitlab
-- protocol
+tags: [auth, cli, domain/ops, gitlab, protocol]
 title: Protocol - GitLab CLI Authentication
 trust-level: stable
 type: protocol
-permalink: llmeon/30-library/so-t/protocol-git-lab-cli-authentication
 ---
 
 ## Logic Map

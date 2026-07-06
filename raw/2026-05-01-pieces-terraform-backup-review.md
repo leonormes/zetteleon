@@ -1,35 +1,11 @@
 ---
-created: 2026-05-01 22:02:15+00:00
-modified: 2026-05-26 11:43:52+00:00
-pieces_ids:
-- 15f3ce2a-15af-4cf8-9bb4-c1320938bbe0
-- 1f0b4941-60f8-44b3-ab7d-88825cef960d
-- 28f6631e-06f6-40ef-b648-34795e97f0d6
-- 367af3f0-8a87-47c9-bfe2-cdff73300856
-- 3e5dcc36-b2a6-4e99-a8a1-b7bf235877e1
-- 43f19b1c-0a68-4483-a2da-e42126ea6523
-- 4c0b1e44-6bdc-4d69-b577-202dcb2f8240
-- 5afa0154-74ba-4f97-b012-d1502a48628e
-- 67aa67a1-387e-4a04-a48b-b70a09617ead
-- 785de42d-bce8-4818-86f1-942b4cda1050
-- 7aa052d0-cbcb-41d3-9a53-41bef5653a48
-- 8ad1dfac-05e1-42f8-941a-f7a099d72d17
-- 8c980488-a9e5-471d-b2fb-81dfdb85df77
-- 9b567817-4ec6-4296-8543-92133cbe61e0
-- a07b1bcf-355d-4e5d-9430-db31ed99a046
-- bec2f628-5f32-44f9-af7f-4af41adf3660
-- dc690c62-b030-4524-baff-2802c4e4c2d5
-- e155b11b-7dc4-4fc3-af08-eddc2d670e74
-- e748bb0e-145b-40eb-99dc-b8a95f2199f4
-- f713e179-656c-4971-ab3c-8598b06cc17c
-- f7d2c2ce-771c-4547-9d3a-53b1f5605eab
-- ffbf5ed5-690f-4da3-acdc-8aaadd642f9a
-source: pieces-ltm
-tags:
-- pieces
-- raw
-title: 2026-05-01-pieces-terraform-backup-review
+created: 2026-05-01T22:02:15+00:00
+modified: 2026-07-04T10:50:27+00:00
 permalink: llmeon/raw/2026-05-01-pieces-terraform-backup-review
+pieces_ids: [15f3ce2a-15af-4cf8-9bb4-c1320938bbe0, 1f0b4941-60f8-44b3-ab7d-88825cef960d, 28f6631e-06f6-40ef-b648-34795e97f0d6, 367af3f0-8a87-47c9-bfe2-cdff73300856, 3e5dcc36-b2a6-4e99-a8a1-b7bf235877e1, 43f19b1c-0a68-4483-a2da-e42126ea6523, 4c0b1e44-6bdc-4d69-b577-202dcb2f8240, 5afa0154-74ba-4f97-b012-d1502a48628e, 67aa67a1-387e-4a04-a48b-b70a09617ead, 785de42d-bce8-4818-86f1-942b4cda1050, 7aa052d0-cbcb-41d3-9a53-41bef5653a48, 8ad1dfac-05e1-42f8-941a-f7a099d72d17, 8c980488-a9e5-471d-b2fb-81dfdb85df77, 9b567817-4ec6-4296-8543-92133cbe61e0, a07b1bcf-355d-4e5d-9430-db31ed99a046, bec2f628-5f32-44f9-af7f-4af41adf3660, dc690c62-b030-4524-baff-2802c4e4c2d5, e155b11b-7dc4-4fc3-af08-eddc2d670e74, e748bb0e-145b-40eb-99dc-b8a95f2199f4, f713e179-656c-4971-ab3c-8598b06cc17c, f7d2c2ce-771c-4547-9d3a-53b1f5605eab, ffbf5ed5-690f-4da3-acdc-8aaadd642f9a]
+source: pieces-ltm
+tags: [pieces, raw]
+title: 2026-05-01-pieces-terraform-backup-review
 ---
 
 ## Terraform Azure Backup Module Review—Pieces LTM Capture
@@ -409,7 +385,7 @@ last "terraform apply" which may have affected this plan:
 
         }
 
-## (14 Unchanged Attributes hidden)
+## (14 Unchanged Attributes Hidden)
 
         # (1 unchanged block hidden)
     }
@@ -653,7 +629,7 @@ Terraform will perform the following actions:
       - scope = (known after apply)
       - skip_service_principal_aad_check = (known after apply)
 
-## (1 Unchanged Attribute hidden)
+## (1 Unchanged Attribute Hidden)
 
     }
 
@@ -1133,6 +1109,7 @@ By 3:37 PM on Wednesday Apr 29, the existing [backup instance](https://portal.az
 #### 1) Private Endpoint Subnet
 
 Manual CLI target: `snet-ff-uks-gp-pe` with `10.0.0.96/27`
+
 Plan: `azurerm_subnet.backup_pe` creates exactly that
 
 Assessment: ✅ Matches
@@ -1148,6 +1125,7 @@ Notes:
 #### 2) Backup Storage account + Container
 
 Manual CLI target: `stffuksgp1backup` + container `aks-backups`, hardened/private
+
 Plan: creates:
 
 - `azurerm_storage_account.backup_sa`
@@ -1206,6 +1184,7 @@ So this is fine as long as you verify post-apply that the storage blob FQDN reso
 #### 4) Backup Vault
 
 Manual CLI target: `aksbackupvault` in `pentest-1-backup-rg`, SystemAssigned identity
+
 Portal evidence at 1:33 PM and 3:37 PM showed [vault properties](https://portal.azure.com/#@fitfile.com/resource/subscriptions/7bbc8ae5-1710-48ab-ab83-59b52bd0de1a/resourceGroups/pentest-1-backup-rg/providers/Microsoft.DataProtection/BackupVaults/aksbackupvault/resourceProperties) / [vault dashboard](https://portal.azure.com/#view/Microsoft_Azure_DataProtection/GenericBackupInstanceDashboardBlade/id/%2Fsubscriptions%2F7bbc8ae5-1710-48ab-ab83-59b52bd0de1a%2FresourceGroups%2Fpentest-1-backup-rg%2Fproviders%2FMicrosoft.DataProtection%2FbackupVaults%2Faksbackupvault%2FbackupInstances%2Faks-ff-uks-gp-1-aks-ff-uks-gp-1-950fac30-43c0-11f1-867c-d20551df63e5/dataSourceType/AzureKubernetesServices/friendlyname/aks-ff-uks-gp-1%2Faks-ff-uks-gp-1-backup/isInCRRContext~/false) with:
 
 - System-assigned identity
@@ -1235,11 +1214,13 @@ Recommendation: change this unless you intentionally want to drift away from the
 #### 5) Snapshot Resource Group
 
 Manual CLI target: `pentest-1-backup-snapshots-rg`
+
 Plan: reads it as a data source, does not create it
 
 Assessment: ⚠️ Scope assumption
 
 This is okay if the RG is intentionally managed elsewhere.
+
 It does not fully reproduce the manual end-to-end CLI workflow from scratch.
 
 So:
@@ -1252,6 +1233,7 @@ So:
 #### 6) AKS Backup Extension
 
 Manual CLI target: `azure-aks-backup` / `Microsoft.DataProtection.Kubernetes`
+
 Manual proof also required extension configuration for storage details.
 
 Plan: creates `azurerm_kubernetes_cluster_extension.backup_extension`
@@ -1302,6 +1284,7 @@ This lines up well:
 #### 8) Trusted Access Binding
 
 Manual CLI target: binding name `azbkup-trust`, role `Microsoft.DataProtection/backupVaults/backup-operator`
+
 This was one of the key blockers you resolved in the manual flow.
 
 Plan: creates `azurerm_kubernetes_cluster_trusted_access_role_binding.aks_cluster_trusted_access`
@@ -1409,6 +1392,7 @@ That means this is almost certainly an import/adopt-state situation, not a green
 #### If This Workspace is Targeting the Same Testing Environment
 
 Do not apply as-is.
+
 You should first:
 
 1. import existing manually-created resources into Terraform state, or

@@ -1,20 +1,16 @@
 ---
-created: 2026-04-14 13:22:01+00:00
+created: 2026-04-14T13:22:01+00:00
 created_utc: '2026-04-14T11:35:00Z'
 kind: heuristic
-modified: 2026-05-26 11:44:36+00:00
+modified: 2026-07-04T10:51:53+00:00
+permalink: llmeon/30-library/100-zettelkasten/cognitive-defusion-from-narrative
 source_title: Thinking about knowledge
 source_url: https://gemini.google.com/app/d3312dd6e13881e3
 status: seed
-tags:
-- agency
-- cognitive-defusion
-- mindset
-- psychology
+tags: [agency, cognitive-defusion, mindset, psychology]
 title: Cognitive Defusion from Narrative
 type: atom
 upstream: '[[SoT - Mindfulness and Emotional Regulation]]'
-permalink: llmeon/30-library/100-zettelkasten/cognitive-defusion-from-narrative
 ---
 
 ## Cognitive Defusion from Narrative

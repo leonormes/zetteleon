@@ -1,13 +1,13 @@
 ---
 captured: 2026-04-29T13:28:53+01:00 2026-04-29T13:28:53+01:00
-created: 2026-04-29 12:28:56+00:00
-modified: 2026-05-31 17:17:00+00:00
+created: 2026-04-29T12:28:56+00:00
+modified: 2026-07-04T10:50:46+00:00
+permalink: llmeon/30-library/ops/accessing-private-aks-cluster-via-jumpbox-ssh
 source: https://claude.ai/chat/891c087e-70b2-4b75-8c59-926c4c7108c1
 status: null
-tags: null
+tags: [null]
 title: Accessing private AKS cluster via jumpbox SSH
 type: command
-permalink: llmeon/30-library/ops/accessing-private-aks-cluster-via-jumpbox-ssh
 ---
 
 I want to access my private aks cluster from my terminal via the jumpbox. I don't want to use the portal but be able to ssh (or equivilant) from my laptop so I can query the k8s api. How best can I do this?
@@ -27,7 +27,7 @@ You've got two viable patterns here, and I want to be clear about the trade-off 
 
 You want B. It's the canonical Microsoft-documented pattern for private AKS access.
 
-### Why SOCKS5 (the principle)
+### Why SOCKS5 (The pRinciple)
 
 A private AKS cluster's API server FQDN (`\<cluster>-\<hash>.\<region>.privatelink.azmk8s.io`) only resolves via a private DNS zone linked to the VNet. Your laptop can't resolve it—and even if you faked DNS with `/etc/hosts`, the API server has no public route.
 
@@ -39,7 +39,7 @@ SOCKS5 solves both problems in one move:
 
 The SSH-over-Bastion-tunnel piece is just the secure transport: Bastion gives you a TCP tunnel to port 22 on the jumpbox without exposing it publicly or needing a VPN.
 
-### Prerequisites (check These once)
+### Prerequisites (Check These oNce)
 
 - Bastion SKU: Native client tunnelling requires Standard SKU (not Basic/Developer). Check with:
 
@@ -57,11 +57,11 @@ az vm show -g rg-ff-uks-gp-net --name \<jumpbox-vm-name> --query osProfile.linux
 
 - AKS RBAC / kubeconfig: You'll still need `az aks get-credentials` to have run at least once, and your AAD identity must have AKS RBAC permissions. The proxy is _network-layer_—it doesn't bypass auth.
 
-### The Steps (each One is One command)
+### The Steps (Each One is One cOmmand)
 
 You'll have three terminal tabs open. That's the mental model.
 
-#### Tab 1—Open the Bastion Tunnel (leave running)
+#### Tab 1—Open the Bastion Tunnel (Leave rUnning)
 
 ```bash
 az network bastion tunnel \
@@ -74,7 +74,7 @@ az network bastion tunnel \
 
 This forwards `localhost:50022` → jumpbox:22 through Bastion. Leave it open.
 
-#### Tab 2—Open the SSH SOCKS Proxy (leave running)
+#### Tab 2—Open the SSH SOCKS Proxy (Leave rUnning)
 
 ```bash
 ssh -D 1080 -N -p 50022 -o IdentityAgent=none -o PreferredAuthentications=password -o PubkeyAuthentication=no azadmin@127.0.0.1
@@ -95,7 +95,7 @@ export no_proxy="$NO_PROXY"
 
 That's it. Every `kubectl` call now routes through the jumpbox, resolves the private API FQDN there, and tunnels the HTTPS request back.
 
-### Quality-of-life Polish (do This once it works)
+### Quality-of-life Polish (Do This once it wOrks)
 
 Wrap the whole thing in a shell function so it's a single command:
 
@@ -292,7 +292,7 @@ Claude
 | Admin user | `azadmin` | ✅ |
 | SSH public keys provisioned | `[]` (empty) | ⚠️ |
 
-### The Problem (and Why It's Not Really a Problem)
+### The Problem (And Why It's Not Really a Problem)
 
 `sshKeys: []` means the VM was created with password authentication, not key-based auth. That's not unusual for a Bastion-fronted jumpbox—Bastion is the security boundary, so the SSH layer behind it is sometimes treated more loosely.
 
@@ -302,7 +302,7 @@ You have three options. Pick based on what you actually know.
 
 Skip to the tunnel step. SSH will prompt for it. Done.
 
-#### Option B—You Don't Know the Password, but want Keys (recommended)
+#### Option B—You Don't Know the Password, but want Keys (Recommended)
 
 Inject _your_ public key onto the VM with one command. No reboot, no downtime, runs via the Azure VM agent:
 
@@ -361,7 +361,7 @@ You already have the credentials, so we skip the key-injection step entirely. He
 
 ### Three Tabs, In Order
 
-#### Tab 1—Bastion Tunnel (leave running)
+#### Tab 1—Bastion Tunnel (Leave rUnning)
 
 ```bash
 az network bastion tunnel \
@@ -374,7 +374,7 @@ az network bastion tunnel \
 
 You'll see something like `Opening tunnel on port: 50022` and `Tunnel is ready, connect on port 50022`. Leave this tab open—closing it kills the tunnel.
 
-#### Tab 2—SSH SOCKS Proxy (leave running)
+#### Tab 2—SSH SOCKS Proxy (Leave rUnning)
 
 ```bash
 ssh -D 1080 -N -p 50022 azadmin@127.0.0.1
@@ -404,7 +404,7 @@ kubectl get nodes
 
 The `HTTPS_PROXY` env var is what `kubectl` 's Go HTTP client picks up. DNS for the private API FQDN gets resolved on the jumpbox side of the SOCKS proxy—which is why this works without any DNS faffing on your laptop.
 
-### Pre-flight Check (do This once before Tab 1)
+### Pre-flight Check (Do This once before Tab 1)
 
 Make sure you have a kubeconfig for the cluster. From the same subscription:
 
@@ -480,7 +480,7 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 
 Type `yes`, then your password.
 
-### Verifying the Fingerprint (optional but proper)
+### Verifying the Fingerprint (Optional but pRoper)
 
 The fingerprint SSH shows you should match what's actually on the jumpbox. You can verify via Bastion's interactive SSH (different code path, no port-forwarding cache) or by running this on the VM once you're in:
 
@@ -490,7 +490,7 @@ sudo ssh-keygen -lf /etc/ssh/ssh_host_ed25519_key.pub
 
 If it matches `SHA256:UCGKDJN7GLx3A8s7Gn7NqGD1Ef1mmwY8xm2ivq+lDik`, you're golden. Given this is your own Bastion → your own VM in your own subscription, the MITM risk surface is essentially zero—but the discipline of checking once is worthwhile.
 
-### Long-Term Fix (worth Doing once)
+### Long-Term Fix (Worth Doing oNce)
 
 Add this to `~/.ssh/config` so localhost-tunnel collisions stop happening:
 
@@ -530,7 +530,7 @@ Claude
 
 ## Diagnosed: 1Password Agent is the Culprit
 
-### What's Happening (the principle)
+### What's Happening (The pRinciple)
 
 Your top-level `Host *` block tells every SSH connection to use the 1Password agent as its identity source. The 1Password agent then dutifully offers every key it has to the jumpbox, one after another.
 
@@ -540,7 +540,7 @@ You never see a password prompt because the connection dies during key offers.
 
 This is a classic 1Password-agent-meets-password-auth conflict. Two ways out: a one-shot flag, or a config block.
 
-### Fix Option 1—One-shot (quick, Validates the theory)
+### Fix Option 1—One-shot (Quick, Validates the tHeory)
 
 ```bash
 ssh -D 1080 -N -p 50022 \
@@ -560,7 +560,7 @@ What each flag does:
 
 If this works, the diagnosis is confirmed and you can move to Option 2 to make it permanent.
 
-### Fix Option 2—Permanent (do This once it works)
+### Fix Option 2—Permanent (Do This once it wOrks)
 
 Add a host block to `~/.ssh/config`. Crucially, place it ABOVE the `Host *` block—SSH applies the _first_ matching value for each option, so order matters.
 
@@ -628,7 +628,7 @@ Claude
 
 You're actually past the SSH hurdle. The `Password:` prompt appeared and (presumably) succeeded—the SOCKS tunnel is alive. But two new things have surfaced.
 
-### Problem 1—channel 2: Open Failed: Connect Failed (the SOCKS errors)
+### Problem 1—channel 2: Open Failed: Connect Failed (The SOCKS eRrors)
 
 These are coming from your SSH tunnel. They mean: a SOCKS client asked the jumpbox to open a TCP connection to some destination, and the jumpbox couldn't reach it.
 
@@ -740,13 +740,13 @@ laptop kubectl
 
 And the `curl … google.com → HTTP/2 200` confirms the jumpbox has general internet egress too—useful to know for future debugging.
 
-### What Just Worked (the Principle, Locked in)
+### What Just Worked (The Principle, Locked iN)
 
 - `socks5h://`—the `h` was the critical fix. Without it, your laptop tries to resolve the private AKS FQDN and fails. With it, DNS happens on the jumpbox, which is inside the VNet linked to the private DNS zone.
 - `NO_PROXY` for AAD/ARM—auth tokens fetched direct from your laptop, kube API traffic via SOCKS. Different planes, different paths.
 - `IdentityAgent=none` etc.—bypassed 1Password agent so password auth got a chance before `MaxAuthTries` killed the connection.
 
-### Make This Permanent (recommended, ~5 min)
+### Make This Permanent (Recommended, ~5 mIn)
 
 Right now this is fragile across new shells. Three things to do, in priority order.
 

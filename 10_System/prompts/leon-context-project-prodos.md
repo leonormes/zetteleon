@@ -1,15 +1,12 @@
 ---
 aliases: []
-created: 2026-02-02 07:05:00+00:00
+created: 2026-02-02T07:05:00+00:00
 description: Project context for building prodOS (vision, integrations, key concepts).
-modified: 2026-05-26 11:44:37+00:00
-tags:
-- domain/prodos
-- system/prompt
-- type/context
+modified: 2026-07-04T10:52:05+00:00
+permalink: llmeon/10-system/prompts/leon-context-project-prodos
+tags: [domain/prodos, system/prompt, type/context]
 title: leon-context-project-prodos
 type: prompt
-permalink: llmeon/10-system/prompts/leon-context-project-prodos
 ---
 
 ## Project Context: prodOS

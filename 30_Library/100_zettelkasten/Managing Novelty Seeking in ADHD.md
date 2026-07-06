@@ -1,17 +1,14 @@
 ---
 aliases: []
-created: 2025-10-25 14:24:00+00:00
+created: 2025-10-25T14:24:00+00:00
 last_reviewed: 'null'
-modified: 2026-02-01 15:08:31+00:00
+modified: 2026-07-04T10:51:49+00:00
+permalink: llmeon/30-library/100-zettelkasten/managing-novelty-seeking-in-adhd
 status: 'null'
-tags:
-- self-management
-- TheHuman/Health/ADHD
-- topic/productivity
+tags: [self-management, TheHuman/Health/ADHD, topic/productivity]
 title: Managing Novelty Seeking in ADHD
 type: permanent
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/managing-novelty-seeking-in-adhd
 ---
 
 Understanding the drive for [[MOC - Novelty Seeking]] is the first step toward managing it effectively. The goal is not to eliminate the trait, but to channel it productively.

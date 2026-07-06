@@ -1,15 +1,12 @@
 ---
-created: 2026-04-28 00:00:00+00:00
-modified: 2026-06-29 00:00:00+00:00
-tags:
-- agents
-- hermes
-- system
-title: AGENTS
+created: 2026-04-28T00:00:00+00:00
+modified: 2026-07-04T10:50:38+00:00
 permalink: llmeon/agents
+tags: [agents, hermes, system]
+title: AGENTS
 ---
 
-## AGENTS.md — Agent Rulebook
+## AGENTS.md—Agent Rulebook
 
 Authoritative schema for all agent interactions with this vault. Single source of truth; no external spec supersedes this file.
 
@@ -19,17 +16,17 @@ Authoritative schema for all agent interactions with this vault. Single source o
 
 Human-territory map. All agents must understand this structure to know what is off-limits and why.
 
-#### Note types
+#### Note Types
 
 | Type | Location | Naming convention | Agent rule |
 |------|----------|-------------------|-----------|
 | HEAD | `20_Thinking/21_Workbench/` | `YYYY-MM-DD-HHmm-HEAD` | Read-only. Human-authored working memory; never write here. |
 | SoT | `30_Library/SoT/` | `SoT - Title.md` | Read-only. Canonical knowledge updated by human via Chronos Synthesis. |
 | Protocol | `30_Library/SoT/` | `Protocol - Title.md` | Read-only. Binary imperative procedures. |
-| Atomic / Claim | `30_Library/100_zettelkasten/` | Full-sentence title; `Claim - Title.md`; `Q — Title.md` | Read-only. To propose a claim, write a stub to `raw/proposed-claims/` (§2.4) — never write directly into the zettelkasten. |
+| Atomic / Claim | `30_Library/100_zettelkasten/` | Full-sentence title; `Claim - Title.md`; `Q — Title.md` | Read-only. To propose a claim, write a stub to `raw/proposed-claims/` (§2.4)—never write directly into the zettelkasten. |
 | MoC | `30_Library/MoC/` | `MOC - Title.md` | Read-only. Hub notes owned by human. |
 
-#### Human-territory folder structure
+#### Human-territory Folder Structure
 
 ```
 00_Inbox/             ← capture entry point — read-only for agents
@@ -143,7 +140,7 @@ Ideas, frameworks, processes, domain knowledge.
 
 #### 2.4 Claim Stubs
 
-Proposed epistemic commitments surfaced by Hermes during Ingest, awaiting human completion. **The agent proposes; the human owns.**
+Proposed epistemic commitments surfaced by Hermes during Ingest, awaiting human completion. The agent proposes; the human owns.
 
 - Naming: `raw/proposed-claims/YYYY-MM-DD-<slug>.md`
 - Frontmatter:
@@ -163,7 +160,7 @@ Proposed epistemic commitments surfaced by Hermes during Ingest, awaiting human 
 
 - Body: one short paragraph of supporting context drawn verbatim or minimally paraphrased from the `source_raw` file. No synthesis. No inference beyond what the source directly supports. Tag any inferred statement `[inference]`; any quoted statement `[source: raw/filename]`.
 - Fields left intentionally blank for the human to complete: `falsifiers`, `crux`, `confidence`, `counter_positions`.
-- Rule: Hermes **must not** write to `30_Library/` — not even to create an atomic note. The stub goes to `raw/proposed-claims/` only. Promotion to `30_Library/` is a human action.
+- Rule: Hermes must not write to `30_Library/`—not even to create an atomic note. The stub goes to `raw/proposed-claims/` only. Promotion to `30_Library/` is a human action.
 
 ---
 
@@ -192,7 +189,7 @@ Steps (execute in order):
 4. Check for contradictions—compare new facts against existing `## Key Facts`. If a conflict is found, add it to `## Contradictions` on the wiki page. Do not silently overwrite existing facts.
 5. Update `index.md`—add or update the one-line entry for each touched wiki page.
 6. Append to `log.md`—record the ingest event (§5 format).
-7. Propose a Claim stub if warranted—if the ingested source contains a position the user appears to be defending (a repeated assertion, a design decision, a trade-off with a clear winner), create one stub at `raw/proposed-claims/YYYY-MM-DD-<slug>.md` per §2.4. Populate `claim_statement`, `source_raw`, and `steel_man` only. Leave `falsifiers`, `crux`, `confidence`, and `counter_positions` blank. Append a flag line to the `log.md` entry: `- Claim stub proposed: [[raw/proposed-claims/…]]`. If no defensible position is evident, skip this step — do not fabricate a claim.
+7. Propose a Claim stub if warranted—if the ingested source contains a position the user appears to be defending (a repeated assertion, a design decision, a trade-off with a clear winner), create one stub at `raw/proposed-claims/YYYY-MM-DD-<slug>.md` per §2.4. Populate `claim_statement`, `source_raw`, and `steel_man` only. Leave `falsifiers`, `crux`, `confidence`, and `counter_positions` blank. Append a flag line to the `log.md` entry: `- Claim stub proposed: [[raw/proposed-claims/…]]`. If no defensible position is evident, skip this step—do not fabricate a claim.
 
 #### 4.2 Sweep
 
@@ -262,7 +259,7 @@ Pieces backlink format (mandatory in all wiki claims sourced from Pieces):
 | Rule | Reason |
 |------|--------|
 | Never write to `00_Inbox/`, `20_Thinking/`, or `30_Library/` | Those are human ProdOS territory |
-| Never write or edit Claim cards in `30_Library/` — stubs only, to `raw/proposed-claims/` | The claim layer belongs to the human; agent crossing it erodes epistemic ownership |
+| Never write or edit Claim cards in `30_Library/`—stubs only, to `raw/proposed-claims/` | The claim layer belongs to the human; agent crossing it erodes epistemic ownership |
 | Never edit a `raw/` file after creation | Immutability is the audit trail |
 | Every wiki claim needs a `raw/` citation | Prevents hallucination compounding |
 | Contradictions must be surfaced, not resolved | Resolution requires human judgement |

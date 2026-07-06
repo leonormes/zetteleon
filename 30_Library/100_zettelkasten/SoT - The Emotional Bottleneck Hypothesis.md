@@ -1,16 +1,11 @@
 ---
-aliases:
-- ADHD Emotional Regulation
-- Emotional Bottleneck
-created: 2025-08-26 00:00:00+00:00
-modified: 2026-02-09 13:53:50+00:00
-tags:
-- adhd-optimization
-- emotional-regulation
-- prodos
+aliases: [ADHD Emotional Regulation, Emotional Bottleneck]
+created: 2025-08-26T00:00:00+00:00
+modified: 2026-07-04T10:51:45+00:00
+permalink: llmeon/30-library/100-zettelkasten/so-t-the-emotional-bottleneck-hypothesis
+tags: [adhd-optimization, emotional-regulation, prodos]
 title: SoT - The Emotional Bottleneck Hypothesis
 type: SoT
-permalink: llmeon/30-library/100-zettelkasten/so-t-the-emotional-bottleneck-hypothesis
 ---
 
 ## The Claim

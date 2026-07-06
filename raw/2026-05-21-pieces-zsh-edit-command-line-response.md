@@ -1,14 +1,11 @@
 ---
-created: 2026-05-21 13:12:28+00:00
-modified: 2026-05-26 11:43:32+00:00
-pieces_ids:
-- 5c936938-42de-45e9-9566-df1888aa2567
-source: pieces-ltm
-tags:
-- pieces
-- raw
-title: 2026-05-21-pieces-zsh-edit-command-line-response
+created: 2026-05-21T13:12:28+00:00
+modified: 2026-07-04T10:49:56+00:00
 permalink: llmeon/raw/2026-05-21-pieces-zsh-edit-command-line-response
+pieces_ids: [5c936938-42de-45e9-9566-df1888aa2567]
+source: pieces-ltm
+tags: [pieces, raw]
+title: 2026-05-21-pieces-zsh-edit-command-line-response
 ---
 
 ## Asset 1 (Pieces: 5c936938-42de-45e9-9566-df1888aa2567)—13:12:28

@@ -1,19 +1,14 @@
 ---
-aliases:
-- Knowledge Requires Truth
-created: 2025-11-01 12:10:08+00:00
+aliases: [Knowledge Requires Truth]
+created: 2025-11-01T12:10:08+00:00
 last_reviewed: '2025-11-01'
-modified: 2026-02-01 15:08:24+00:00
+modified: 2026-07-04T10:51:44+00:00
+permalink: llmeon/30-library/100-zettelkasten/truth-is-a-necessary-condition-for-knowledge
 status: seedling
-tags:
-- epistemology
-- knowledge
-- TheHuman/Philosophy
-- truth
+tags: [epistemology, knowledge, TheHuman/Philosophy, truth]
 title: Truth is a Necessary Condition for Knowledge
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/truth-is-a-necessary-condition-for-knowledge
 ---
 
 ## Truth is a Necessary Condition for Knowledge

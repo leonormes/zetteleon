@@ -1,14 +1,14 @@
 ---
 aliases: []
-created: 2025-11-12 15:00:02+00:00
+created: 2025-11-12T15:00:02+00:00
 last_reviewed: 'null'
-modified: 2026-05-26 11:44:37+00:00
+modified: 2026-07-04T10:51:54+00:00
+permalink: llmeon/30-library/100-zettelkasten/adhd-overthinking-is-a-substitute-for-action
 status: seedling
 tags: []
 title: ADHD Overthinking is a Substitute for Action
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/adhd-overthinking-is-a-substitute-for-action
 ---
 
 ## ADHD Overthinking is a Substitute for Action

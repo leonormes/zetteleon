@@ -1,18 +1,15 @@
 ---
-created: 2026-02-16 11:46:04+00:00
+created: 2026-02-16T11:46:04+00:00
 incident_type: sync_failure
-modified: 2026-03-14 11:10:10+00:00
-tags:
-- argocd
-- kubectl
-- playbook
+modified: 2026-07-04T10:50:40+00:00
+permalink: llmeon/30-library/ops/pb-argocd-sync-failure-triage
+tags: [argocd, kubectl, playbook]
 target_service: argocd
 title: pb-argocd-sync-failure-triage
 type: playbook
-permalink: llmeon/30-library/ops/pb-argocd-sync-failure-triage
 ---
 
-## Playbook: ArgoCD Sync Failure Triage (kubectl-only)
+## Playbook: ArgoCD Sync Failure Triage (Kubectl-only)
 
 ### 🧭 Trigger Condition
 

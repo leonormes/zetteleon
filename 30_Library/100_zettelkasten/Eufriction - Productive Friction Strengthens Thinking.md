@@ -1,21 +1,14 @@
 ---
-aliases:
-- Desirable Difficulty
-- Good Friction
-- Productive Friction
-created: 2025-10-30 15:33:36+00:00
+aliases: [Desirable Difficulty, Good Friction, Productive Friction]
+created: 2025-10-30T15:33:36+00:00
 last_reviewed: '2025-10-30'
-modified: 2026-02-01 15:08:34+00:00
+modified: 2026-07-04T10:51:52+00:00
+permalink: llmeon/30-library/100-zettelkasten/eufriction-productive-friction-strengthens-thinking
 status: seedling
-tags:
-- cognitive-work
-- learning
-- topic/pkm
-- topic/pkm/zettelkasten
+tags: [cognitive-work, learning, topic/pkm, topic/pkm/zettelkasten]
 title: Eufriction - Productive Friction Strengthens Thinking
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/eufriction-productive-friction-strengthens-thinking
 ---
 
 ## Eufriction - Productive Friction Strengthens Thinking

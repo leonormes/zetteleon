@@ -1,17 +1,14 @@
 ---
 aliases: []
-created: 2025-05-26 13:41:23+00:00
+created: 2025-05-26T13:41:23+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:23+00:00
+modified: 2026-07-04T10:51:43+00:00
+permalink: llmeon/30-library/100-zettelkasten/whats-the-difference-between-shame-humiliation-and-embarrassment
 status: ''
-tags:
-- emotion
-- shame
-- TheHuman/Health/ADHD
-title: What's the Difference Between Shame Humiliation and Embarrassment
+tags: [emotion, shame, TheHuman/Health/ADHD]
+title: "What's the Difference Between Shame Humiliation and Embarrassment"
 type: permanent
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/whats-the-difference-between-shame-humiliation-and-embarrassment
 ---
 
 While shame, humiliation, and embarrassment are all uncomfortable emotions that involve a sense of self-consciousness, they have distinct differences in their core nature, focus, and cause.

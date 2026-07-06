@@ -1,15 +1,12 @@
 ---
-created: 2026-02-04 09:12:25+00:00
-modified: 2026-02-04 09:51:16+00:00
+created: 2026-02-04T09:12:25+00:00
+modified: 2026-07-04T10:51:06+00:00
+permalink: llmeon/30-library/so-t/protocol-jira-dependency-configuration
 related-sot:
 - - Jira Dependency Management SoT
 status: active
-tags:
-- domain/jira
-- tool/jira
-- type/protocol
+tags: [domain/jira, tool/jira, type/protocol]
 title: Protocol - Jira Dependency Configuration
-permalink: llmeon/30-library/so-t/protocol-jira-dependency-configuration
 ---
 
 ## Logic Map

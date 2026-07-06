@@ -1,15 +1,11 @@
 ---
-title: Hermes MCP Config — Self-Fix Goal Prompt for Legacy MCP Settings
-created: 2026-05-30 08:31:27+00:00
-source: pieces-ltm
-pieces_ids:
-- 19808e94-4125-495b-b2cb-85c5bad2a6f3
-- 19aa7a0e-e2ac-480e-bf87-17ef44da8a9a
-- 97f2e103-f3f2-421d-b4df-47146aed1b83
-tags:
-- raw
-- pieces
+created: 2026-05-30T08:31:27+00:00
+modified: 2026-07-04T10:49:45+00:00
 permalink: llmeon/raw/2026-05-30-pieces-hermes-mcp-config
+pieces_ids: [19808e94-4125-495b-b2cb-85c5bad2a6f3, 19aa7a0e-e2ac-480e-bf87-17ef44da8a9a, 97f2e103-f3f2-421d-b4df-47146aed1b83]
+source: pieces-ltm
+tags: [pieces, raw]
+title: 2026-05-30-pieces-hermes-mcp-config
 ---
 
 ## Asset 1 (Pieces: 19808e94-4125-495b-b2cb-85c5bad2a6f3)
@@ -27,8 +23,8 @@ Here's the ready-to-paste `/goal` prompt:
 
 You are running on a macOS machine managed via chezmoi. Your MCP configuration is managed in TWO places that must stay in sync:
 
-- **Chezmoi source (authoritative):** `~/.local/share/chezmoi/private_dot_hermes/private_config.yaml`
-- **Live config (generated):** `~/.hermes/config.yaml`
+- Chezmoi source (authoritative): `~/.local/share/chezmoi/private_dot_hermes/private_config.yaml`
+- Live config (generated): `~/.hermes/config.yaml`
 
 All changes MUST be made to the chezmoi source first, then applied with `chezmoi apply --force ~/.hermes/config.yaml`. Never edit the live config directly — it will be overwritten.
 
@@ -104,7 +100,7 @@ mcp_servers:
 
 Remove ALL other `mcp_servers` entries. Do not modify any other top-level config keys (model, memory, approval, delegation, skills, profiles, etc.).
 
-#### PHASE 4: Apply and verify
+### PHASE 4: Apply and Verify
 
 1. Apply the chezmoi source to the live config:
    `chezmoi apply --force ~/.hermes/config.yaml 2>&1`
@@ -121,32 +117,34 @@ Remove ALL other `mcp_servers` entries. Do not modify any other top-level config
 5. Run doctor again to confirm no new issues:
    `hermes doctor 2>&1 | grep -E "(v|A|×|MCP|issue|error)"`
 
-6. Time the startup — target is under 12 seconds:
+6. Time the startup—target is under 12 seconds:
    `{ sleep 15; printf '/quit\n'; } | time hermes --tui 2>&1 | tail -5`
 
-#### PHASE 5: Report
+### PHASE 5: Report
 
 Produce a summary with:
+
 - What entries were found and why they were problematic
 - What was changed in the chezmoi source
 - Before/after startup time
 - Whether `hermes mcp list` confirms both `mcp-proxy` and `pieces` are connected and ready
 - Any remaining issues or caveats
 
-### CONSTRAINTS
+## CONSTRAINTS
 
 - DO NOT touch `auth.json`, `auth/` directory, or any credential files
 - DO NOT change the primary model or provider
 - DO NOT modify any profiles (ops.yaml, jira.yaml, etc.)
 - DO NOT modify `SOUL.md`
 - DO NOT remove the `pieces` MCP entry
-- ALL file edits must go through chezmoi source — never edit `~/.hermes/config.yaml` directly
+- ALL file edits must go through chezmoi source—never edit `~/.hermes/config.yaml` directly
 - If in doubt about an entry, document it and ask before removing it
+
 ```
 
 ---
 
-**How to use:** paste the whole block into `hermes --tui` after the `/goal` command (or use it as the goal directly). Hermes will work through the phases sequentially, show you what it found before removing anything, and produce a timing comparison at the end.
+How to use: paste the whole block into `hermes --tui` after the `/goal` command (or use it as the goal directly). Hermes will work through the phases sequentially, show you what it found before removing anything, and produce a timing comparison at the end.
 
 ---
 

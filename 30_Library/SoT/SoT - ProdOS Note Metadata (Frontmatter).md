@@ -1,16 +1,11 @@
 ---
-aliases:
-- Note metadata schema
-- ProdOS frontmatter specification
-created: 2026-04-08 18:00:00+00:00
-modified: 2026-05-26 11:44:18+00:00
-see_also:
-- '[[CLAUDE.md]]'
-tags:
-- prodos/schema
-- topic/pkm
-title: SoT - ProdOS Note Metadata (Frontmatter)
+aliases: [Note metadata schema, ProdOS frontmatter specification]
+created: 2026-04-08T18:00:00+00:00
+modified: 2026-07-04T10:50:52+00:00
 permalink: llmeon/30-library/so-t/so-t-prod-os-note-metadata-frontmatter
+see_also: ["[[CLAUDE.md]]"]
+tags: [prodos/schema, topic/pkm]
+title: SoT - ProdOS Note Metadata (Frontmatter)
 ---
 
 ## 1. Minimum Viable Understanding (MVU)
@@ -22,7 +17,7 @@ permalink: llmeon/30-library/so-t/so-t-prod-os-note-metadata-frontmatter
 
 ---
 
-## 2. Layer A—Core (all First-class notes)
+## 2. Layer A—Core (All First-class nOtes)
 
 | Field | Required | Type | Rule |
 |:------|:---------|:-----|:-----|
@@ -56,7 +51,7 @@ Do not add `updated` or `creation_date` on new notes; use only `created` / `modi
 | `interval` | string | `6 months` (free text) or later ISO 8601 duration |
 | `last_reviewed` | string (date) | `2026-04-08` |
 
-### 3.2 Enumerations (normative)
+### 3.2 Enumerations (Normative)
 
 `prodos.kind`—where the note lives in ProdOS routing (folder is normative; kind must agree):
 
@@ -180,7 +175,7 @@ prodos:
     inject_as: system_context
 ```
 
-### 4.7 `project` (optional)
+### 4.7 `project` (Optional)
 
 ```yaml
 prodos:
@@ -203,7 +198,7 @@ Optional top-level keys (wikilink or path string):
 
 ---
 
-## 6. Legacy Mapping (Phase 1—document only)
+## 6. Legacy Mapping (Phase 1—document oNly)
 
 | Legacy key | New location |
 |:-----------|:-------------|
@@ -222,7 +217,7 @@ Optional top-level keys (wikilink or path string):
 
 ## 7. Copy-paste Examples
 
-### HEAD (workbench)
+### HEAD (Workbench)
 
 ```yaml
 ---
@@ -237,7 +232,7 @@ prodos:
 ---
 ```
 
-### SoT (canonical)
+### SoT (Canonical)
 
 ```yaml
 ---
@@ -295,7 +290,7 @@ prodos:
 ---
 ```
 
-### Atomic (hypothesis)
+### Atomic (Hypothesis)
 
 ```yaml
 ---

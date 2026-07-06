@@ -1,20 +1,16 @@
 ---
-created: 2026-04-14 17:43:28+00:00
+created: 2026-04-14T17:43:28+00:00
 created_utc: '2026-04-14T12:20:00Z'
 kind: heuristic
-modified: 2026-05-26 11:44:31+00:00
+modified: 2026-07-04T10:51:43+00:00
+permalink: llmeon/30-library/100-zettelkasten/writing-as-cognitive-rigour
 source_title: The Fundamental Challenge of Concurrent and Distributed Systems
 source_url: http://www.youtube.com/watch?v=U719vQz-WFs
 status: seed
-tags:
-- cognition
-- documentation
-- rigour
-- writing
+tags: [cognition, documentation, rigour, writing]
 title: Writing as Cognitive Rigour
 type: atom
 upstream: '[[Daily Writing is a Cognitive Practice for Structuring Thought]]'
-permalink: llmeon/30-library/100-zettelkasten/writing-as-cognitive-rigour
 ---
 
 ## Writing as Cognitive Rigour

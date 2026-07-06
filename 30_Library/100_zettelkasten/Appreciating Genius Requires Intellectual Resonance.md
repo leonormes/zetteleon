@@ -1,17 +1,14 @@
 ---
 aliases: []
-created: 2025-08-27 19:20:05+00:00
+created: 2025-08-27T19:20:05+00:00
 last_reviewed: 'null'
-modified: 2026-02-01 15:08:36+00:00
+modified: 2026-07-04T10:51:54+00:00
+permalink: llmeon/30-library/100-zettelkasten/appreciating-genius-requires-intellectual-resonance
 status: 'null'
-tags:
-- epistemology
-- topic/learning
-- understanding
+tags: [epistemology, topic/learning, understanding]
 title: Appreciating Genius Requires Intellectual Resonance
 type: 'null'
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/appreciating-genius-requires-intellectual-resonance
 ---
 
 To truly appreciate a work of genius, one's own mind must be able to "resonate" with it. This is an active process of recognition, not passive reception.

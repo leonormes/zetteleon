@@ -1,20 +1,14 @@
 ---
-aliases:
-- Externalizing Progress
-- Visible Progress
-created: 2025-11-12 15:00:12+00:00
+aliases: [Externalizing Progress, Visible Progress]
+created: 2025-11-12T15:00:12+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:34+00:00
+modified: 2026-07-04T10:51:51+00:00
+permalink: llmeon/30-library/100-zettelkasten/externalizing-progress-makes-it-tangible-and-motivational
 status: seedling
-tags:
-- TheHuman/Health/ADHD
-- topic/productivity
-- visualization
-- working-memory
+tags: [TheHuman/Health/ADHD, topic/productivity, visualization, working-memory]
 title: Externalizing Progress Makes it Tangible and Motivational
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/externalizing-progress-makes-it-tangible-and-motivational
 ---
 
 ## Externalizing Progress Makes it Tangible and Motivational

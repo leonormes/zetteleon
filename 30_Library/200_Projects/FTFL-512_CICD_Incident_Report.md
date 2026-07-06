@@ -1,25 +1,17 @@
 ---
 classification: Blameless post-incident review
-created: 2026-06-19 09:52:25+00:00
+created: 2026-06-19T09:52:25+00:00
 date: 2026-06-19
-modified: 2026-06-19 14:03:34+00:00
-related_tickets:
-- FTFL-999
+modified: 2026-07-04T10:51:36+00:00
+permalink: llmeon/30-library/200-projects/ftfl-512-cicd-incident-report
+project_name: Pipeline
+related_tickets: [FTFL-999]
 sources: Two independent read-only investigations (live-cluster probe + LTM/SoT synthesis),
   reconciled
 status: Findings consolidated
-tags:
-- 1
-- 1/
-- 2
-- 3
-- 4
-- 5
-- 6/
+tags: [1, 1/, 2, 3, 4, 5, 6/]
 ticket: FTFL-512
 title: FTFL-512_CICD_Incident_Report
-project_name: Pipeline
-permalink: llmeon/30-library/200-projects/ftfl-512-cicd-incident-report
 ---
 
 ## TL;DR
@@ -52,7 +44,7 @@ nginx.ingress.kubernetes.io/configuration-snippet: |
 
 The change passed the only CI run that gated it (pipeline `2611792387`, _success_, 2 jobs), merged to `master`, was auto-deployed to `ff-test-a` (staging) by ArgoCD, rejected at sync, and then sat broken—blocking later sync-waves—until an unrelated ticket (FTFL-999) happened to comment the annotation out.
 
-### Recurrence (key Synthesis finding)
+### Recurrence (Key Synthesis fInding)
 
 This is not a first occurrence. The snippet rejection has now happened across at least two iterations of FTFL-512:
 
@@ -83,7 +75,7 @@ MTTR ≈ 8h47m (first → last denial), ~7h40m of it silent. The same unrelated 
 
 ---
 
-## 3. Gap 1—Detection (why it merged)
+## 3. Gap 1—Detection (Why it mErged)
 
 ### Mechanism
 
@@ -92,7 +84,7 @@ MTTR ≈ 8h47m (first → last denial), ~7h40m of it silent. The same unrelated 
 - MR!802's description ("removed ssl-passthrough…") was stale boilerplate that didn't describe the actual diff—a mismatch a single reviewer would likely have caught.
 - The webhook's denial text survives in the repo only because someone pasted it into a code comment while fixing it (commit `73a6368b`). There is no test, alert, or doc capturing this failure mode anywhere else.
 
-### Where it Should Have Been Caught (tooling that Already Exists here)
+### Where it Should Have Been Caught (Tooling that Already Exists hEre)
 
 - An OPA/Conftest framework already exists (`policies/*.rego`: `images.rego`, `volumes.rego`, `enforce_automated_sync_policy.rego`, …)—but has no rule for Ingress annotations. `policies/k8s/validating-webhook.yaml` is scoped to `resources: ["pods"]` only; Ingress objects would never reach it.
 - `scripts/argo-render` is a homegrown Go tool that renders manifests "exactly as ArgoCD would"—but its README still lists _"Integration with CI/CD pipelines"_ as an unchecked future enhancement. Built, never wired in.
@@ -100,9 +92,9 @@ MTTR ≈ 8h47m (first → last denial), ~7h40m of it silent. The same unrelated 
 
 ---
 
-## 4. Gap 2—Containment (why it Blocked Unrelated work)
+## 4. Gap 2—Containment (Why it Blocked Unrelated wOrk)
 
-### Mechanism (live-confirmed, and Corrected Vs the Secondary source)
+### Mechanism (Live-confirmed, and Corrected Vs the Secondary sOurce)
 
 Each environment is one app-of-apps `Application` that generates one child `Application` per component, each carrying an `argocd.argoproj.io/sync-wave` annotation. The parent's own task list—logged verbatim on every retry (`syncId 00120-HMGFN`, 15:05:01Z)—orders them:
 
@@ -137,7 +129,7 @@ Mechanically, yes—`certificates` and `mssql` were frozen for the duration. Whe
 
 ---
 
-## 5. Gap 3—Environment Targeting (why Staging, not sandbox)
+## 5. Gap 3—Environment Targeting (Why Staging, not sAndbox)
 
 - `charts/ffnode/values.yaml:96` sets the default `argocdApp.targetRevision: master` for every ffnode that doesn't override it. `ff-test-a`'s rendered Application uses this default verbatim—no override.
 - `ffnodes/fitfile/sandbox-testing-1/values.yaml:17` does override it: `targetRevision: sandbox-testing-1-latest-release`—a git tag, not a branch. Someone must deliberately move that tag (via `release.sh`) for sandbox to deploy. Sandbox has a real promotion gate; `ff-test-a`/staging does not.
@@ -167,7 +159,7 @@ This report fuses two read-only investigations of differing rigour:
 
 ---
 
-## 7. Recommendations (consolidated & ranked)
+## 7. Recommendations (Consolidated & rAnked)
 
 Ranked by leverage (impact ÷ effort). Tags: [D] detection · [T] targeting · [C] containment.
 
@@ -185,7 +177,7 @@ Suggested sequencing: 1 today (local, zero-risk) → 2 + 4 to make it a real gat
 
 ---
 
-## 8. Smallest First Steps (two Parallel, Different gaps)
+## 8. Smallest First Steps (Two Parallel, Different gAps)
 
 Both are low-risk, independently shippable, and use patterns/tools the team already owns.
 

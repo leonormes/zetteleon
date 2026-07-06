@@ -1,18 +1,13 @@
 ---
-aliases:
-- Pattern - Data Centric IaC
-created: 2026-01-07 10:14:28+00:00
+aliases: [Pattern - Data Centric IaC]
+created: 2026-01-07T10:14:28+00:00
 last_reviewed: 2026-01-07
-modified: 2026-02-05 20:00:16+00:00
+modified: 2026-07-04T10:51:48+00:00
+permalink: llmeon/30-library/100-zettelkasten/pattern-helm-chart-as-a-compiler
 status: stable
-tags:
-- SoftwareEngineering/Architecture
-- devops
-- helm
-- pattern
+tags: [devops, helm, pattern, SoftwareEngineering/Architecture]
 title: Pattern - Helm Chart as a Compiler
 type: concept
-permalink: llmeon/30-library/100-zettelkasten/pattern-helm-chart-as-a-compiler
 ---
 
 ## Pattern: Helm Chart as a Compiler

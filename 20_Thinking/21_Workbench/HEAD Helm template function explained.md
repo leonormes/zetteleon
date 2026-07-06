@@ -1,14 +1,13 @@
 ---
 captured: 2026-06-12T08:52:17+01:00 2026-06-12T08:52:17+01:00
-created: 2026-06-12 07:52:20+00:00
-modified: 2026-06-12 08:23:44+00:00
+created: 2026-06-12T07:52:20+00:00
+modified: 2026-07-04T10:52:01+00:00
+permalink: llmeon/20-thinking/21-workbench/head-helm-template-function-explained
 source: https://claude.ai/chat/07eb6366-0ccb-42c1-83be-9267fa2ed08d
 status: processing
-tags:
-- input
+tags: [input]
 title: HEAD Helm template function explained
 type: head
-permalink: llmeon/20-thinking/21-workbench/head-helm-template-function-explained
 ---
 
 ## Raw Output / Content
@@ -30,7 +29,7 @@ I'll cover the action in depth (with its more important sibling, `include`), the
 
 ---
 
-### 1\. The Template Action (inside charts)
+### 1\. The Template Action (Inside cHarts)
 
 #### What it is
 
@@ -101,7 +100,7 @@ YAML is whitespace-sensitive, so a helper's output almost always needs indenting
 
 ---
 
-### 3\. The Helm Template Command (the other meaning)
+### 3\. The Helm Template Command (The other mEaning)
 
 Renders a chart's templates locally and prints the resulting Kubernetes YAML to stdout:
 
@@ -114,7 +113,7 @@ helm template my-release ./mychart
 
 ---
 
-### Your next Action (micro-step)
+### Your next Action (Micro-step)
 
 Don't "study helm templating." Just get a sandbox you can _see_ working—`helm create` ships a `_helpers.tpl` full of real `define` / `include` examples:
 
@@ -158,9 +157,11 @@ The principle: rendering is just a _prefix_ of installing. Install and template 
 ### The Pipeline, in order
 
 1\. Load the chart
+
 Helm parses the chart into an in-memory object—`Chart.yaml`, `values.yaml`, everything under `templates/`, plus subcharts in `charts/`. Files prefixed with `_` are flagged as partials (helpers), not output candidates.
 
 2\. Coalesce the values
+
 This is where `.Values` is built, by merging sources in ascending precedence:
 
 - the chart's own `values.yaml` (lowest)
@@ -171,12 +172,14 @@ This is where `.Values` is built, by merging sources in ascending precedence:
 Parent values flow _down_ into subcharts; subcharts can't reach _up_. That asymmetry is deliberate—it keeps a subchart from depending on its parent's internals.
 
 3\. Build the render context (the `.` object)
+
 Helm assembles the top-level scope: `.Values`, `.Chart`, `.Release`, `.Capabilities`, `.Files`, `.Template`. The critical bit is that, with no cluster connection, several of these are synthesised from defaults:
 
 - `.Release.Name` defaults to `release-name` (or your arg), `.Revision` = 1, `.IsInstall` = true.
 - `.Capabilities.KubeVersion` is a default version baked into your Helm binary, _not_ your cluster's—unless you pass `--kube-version`. Same for `.Capabilities.APIVersions` (override with `-a/--api-versions`).
 
 4\. Render through the engine
+
 Each template file is compiled with Go's `text/template`, all sharing one namespace (hence global `define` names—see last turn). The function set is Sprig plus a small Helm-specific layer: `include`, `tpl`, `required`, `lookup`, and the `toYaml` / `fromYaml` family.
 
 5\. Post-process
@@ -187,13 +190,13 @@ Each template file is compiled with Go's `text/template`, all sharing one namesp
 
 6\. Print to stdout—done. Nothing touched your cluster, no state was stored.
 
-### The Principle that Will Bite You (and It's Relevant to ArgoCD)
+### The Principle that Will Bite You (And It's Relevant to ArgoCD)
 
 Because step 3 runs offline, `lookup` always returns empty during `helm template`. Any chart logic shaped like _"if this Secret already exists, reuse it"_ silently evaluates as _"it doesn't exist."_ Combined with the _guessed_ `.Capabilities.KubeVersion`, this means `helm template` can produce different YAML than a live `helm install`.
 
 This matters directly for you: ArgoCD renders Helm sources essentially this way (client-side template, then apply). So a chart that relies on `lookup` or real cluster capabilities will behave differently under Argo than under an interactive `helm install`—a classic GitOps footgun. `--kube-version` / `--api-versions` exist precisely to close part of that gap in CI.
 
-### Your next Action (micro-step)
+### Your next Action (Micro-step)
 
 See the offline-context effect with your own eyes in one command—compare the default capabilities against a forced one:
 

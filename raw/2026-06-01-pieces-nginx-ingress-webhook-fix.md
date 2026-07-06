@@ -1,29 +1,22 @@
 ---
-title: NGINX Ingress Admission Webhook Fix — Hermes Prompt Engineering
-created: 2026-06-01 17:57:30+00:00
-source: pieces-ltm
-pieces_ids:
-- 24a8b712-f922-40e9-a6b6-06e57e2445ee
-- 212a7336-2663-4126-bf24-4d95d7bd9a0e
-- 1c378604-c5d5-4d62-92b3-1fb8df02a019
-- d01de85a-1e3f-4049-9b89-7db7ae06f70d
-- e5500e50-e1fb-47e8-b6b2-9a37ce280806
-- 43a78b56-55a4-4e96-a5f6-b615de3f741f
-tags:
-- raw
-- pieces
+created: 2026-06-01T17:57:30+00:00
+modified: 2026-07-04T10:49:24+00:00
 permalink: llmeon/raw/2026-06-01-pieces-nginx-ingress-webhook-fix
+pieces_ids: [1c378604-c5d5-4d62-92b3-1fb8df02a019, 212a7336-2663-4126-bf24-4d95d7bd9a0e, 24a8b712-f922-40e9-a6b6-06e57e2445ee, 43a78b56-55a4-4e96-a5f6-b615de3f741f, d01de85a-1e3f-4049-9b89-7db7ae06f70d, e5500e50-e1fb-47e8-b6b2-9a37ce280806]
+source: pieces-ltm
+tags: [pieces, raw]
+title: 2026-06-01-pieces-nginx-ingress-webhook-fix
 ---
 
 ## Asset 1 (Pieces: 24a8b712-f922-40e9-a6b6-06e57e2445ee)
 
-*Captured: 2026-06-01T14:48:51.475249Z*
+_Captured: 2026-06-01T14:48:51.475249Z_
 
-Good constraint to lock in. The prompt needs to drop all `kubectl` live-cluster operations and pivot entirely to **IaC-only changes** — find the files in the repo, rewrite them, and let ArgoCD's own sync verify the fix.
+Good constraint to lock in. The prompt needs to drop all `kubectl` live-cluster operations and pivot entirely to IaC-only changes—find the files in the repo, rewrite them, and let ArgoCD's own sync verify the fix.
 
 ---
 
-## Revised Hermes Prompt — IaC-Only (Private Cluster)
+## Revised Hermes Prompt—IaC-Only (Private Cluster)
 
 ````text
 <|im_start|>system
@@ -195,18 +188,18 @@ Snippet directives are disabled by the Ingress administrator
 
 ---
 
-## What changed from the previous version
+## What Changed from the Previous Version
 
 | Area | Before | After |
 |---|---|---|
-| Cluster access | `kubectl apply --dry-run=server` allowed | Hard-banned — no kubectl at all |
+| Cluster access | `kubectl apply --dry-run=server` allowed | Hard-banned—no kubectl at all |
 | Verification | Live webhook dry-run | `helm template` / `kustomize build` / `yamllint` offline only |
 | Helm path | Generic mention | Explicit: fix `values.yaml` first, touch templates only if needed |
 | Kustomize path | Not covered | Explicit: patch vs base distinction, don't touch vendored upstream |
 | Commit message | Not included | Suggested commit message output block added |
 | Option 2 gate | "Admin only" | Now also requires the controller Helm release to be in-repo (IaC-owned) |
 
-## Workflow once Hermes produces the fix
+## Workflow once Hermes Produces the Fix
 
 ```
 repo change (Hermes)
@@ -220,30 +213,33 @@ admission webhook → accepts (no snippet) ✅
 ArgoCD reports Synced / Healthy
 ```
 
-ArgoCD sync **is** your `--dry-run=server` equivalent here — it hits the same webhook with the same payload, just for real.
+ArgoCD sync is your `--dry-run=server` equivalent here—it hits the same webhook with the same payload, just for real.
 
 ---
+
 ## Asset 2 (Pieces: 212a7336-2663-4126-bf24-4d95d7bd9a0e)
 
-*Captured: 2026-06-01T14:48:00.000769Z*
+_Captured: 2026-06-01T14:48:00.000769Z_
 
-The user is clarifying that Hermes (the LLM agent) cannot directly interact with the cluster (since it's on a private network), so it can only modify the Infrastructure as Code (IaC) — likely Helm charts, Kustomize overlays, or raw YAML manifests in a Git repo. I need to update the Hermes prompt to reflect this constraint: no `kubectl` commands, no live cluster interaction, only IaC file modifications.
+The user is clarifying that Hermes (the LLM agent) cannot directly interact with the cluster (since it's on a private network), so it can only modify the Infrastructure as Code (IaC)—likely Helm charts, Kustomize overlays, or raw YAML manifests in a Git repo. I need to update the Hermes prompt to reflect this constraint: no `kubectl` commands, no live cluster interaction, only IaC file modifications.
 
 Let me revise the prompt accordingly.
 
 ---
+
 ## Asset 3 (Pieces: 1c378604-c5d5-4d62-92b3-1fb8df02a019)
 
-*Captured: 2026-06-01T14:47:55.276169Z*
+_Captured: 2026-06-01T14:47:55.276169Z_
 
 the cluster is on a private network so hermes can only update the IaC rather than directly the cluster.
 
 ---
+
 ## Asset 4 (Pieces: d01de85a-1e3f-4049-9b89-7db7ae06f70d)
 
-*Captured: 2026-06-01T14:46:24.510806Z*
+_Captured: 2026-06-01T14:46:24.510806Z_
 
-## Hermes Prompt — NGINX Ingress Snippet Webhook Fix
+## Hermes Prompt—NGINX Ingress Snippet Webhook Fix
 
 Copy-paste ready. Works with Nous-Hermes 2, OpenHermes, or any ChatML-compatible model (Cursor, LM Studio, Ollama, etc.).
 
@@ -371,15 +367,15 @@ Snippet directives are disabled by the Ingress administrator
 
 ---
 
-## How to use this
+## How to Use This
 
 1. Copy the entire block above into your model's system prompt (Cursor `.cursorrules`, LM Studio system field, OpenWebUI system prompt, etc.)
 2. Replace `[PASTE YOUR INGRESS YAML HERE]` with your actual manifest
 3. The agent will identify what the snippet actually does, map it to a supported annotation, and produce a before/after diff with a `kubectl apply --dry-run=server` verification step
 
-## Quick pre-flight check before you paste
+## Quick Pre-flight Check before You Paste
 
-Run these locally first — they'll tell you the scope of what needs fixing:
+Run these locally first—they'll tell you the scope of what needs fixing:
 
 ```bash
 # Find all affected files in your repo
@@ -395,26 +391,28 @@ kubectl apply --dry-run=server -f <your-ingress.yaml>
 The dry-run output will confirm exactly which resources the webhook is rejecting before you touch anything.
 
 ---
+
 ## Asset 5 (Pieces: e5500e50-e1fb-47e8-b6b2-9a37ce280806)
 
-*Captured: 2026-06-01T14:45:40.138388Z*
+_Captured: 2026-06-01T14:45:40.138388Z_
 
 The user wants me to create a "Hermes prompt" to investigate and fix the NGINX Ingress admission webhook issue described. A "Hermes prompt" typically refers to a prompt formatted for use with the Hermes/Nous-Hermes model family, or more generally, a structured system prompt that can be pasted into an AI assistant (like a Cursor rule, Claude system prompt, etc.) to investigate and fix a specific technical issue.
 
 Given the context from the TRANSFER scenario (scenario 8), this is a prompt that can be pasted into another AI assistant/agent to help investigate and fix the issue. The user wants a self-contained, copy-paste ready bundle.
 
-
 I'm putting together a structured prompt that an AI agent can use to systematically investigate and resolve the NGINX Ingress webhook problem. I'll format it with clear sections for the problem statement, investigation steps, and potential solutions, making it self-contained and ready to paste directly into another AI tool or agent.
 
 ---
+
 ## Asset 6 (Pieces: 43a78b56-55a4-4e96-a5f6-b615de3f741f)
 
-*Captured: 2026-06-01T14:45:32.503900Z*
+_Captured: 2026-06-01T14:45:32.503900Z_
 
 give me a hermes prompt to investigate and fix this
-This is coming from the **NGINX Ingress admission webhook**, not ArgoCD itself. Argo is just surfacing the failure during the sync.
 
-### What the error means
+This is coming from the NGINX Ingress admission webhook, not ArgoCD itself. Argo is just surfacing the failure during the sync.
+
+### What the Error means
 
 ```
 admission webhook "validate.nginx.ingress.kubernetes.io" denied the request:
@@ -422,28 +420,28 @@ nginx.ingress.kubernetes.io/server-snippet annotation cannot be used.
 Snippet directives are disabled by the Ingress administrator
 ```
 
-**Translation:**
+Translation:
 
-* Your manifest (likely an `Ingress`) includes this annotation:
+- Your manifest (likely an `Ingress`) includes this annotation:
+
   ```yaml
   nginx.ingress.kubernetes.io/server-snippet: |
     ...
   ```
-* The **NGINX Ingress Controller** in your cluster has been configured to **disable snippet annotations**.
-* When Kubernetes tries to apply the resource, the **admission webhook blocks it** → so the resource never gets created/updated.
-* ArgoCD reports this as: *"one or more objects failed to apply"*.
 
-***
+- The NGINX Ingress Controller in your cluster has been configured to disable snippet annotations.
+- When Kubernetes tries to apply the resource, the admission webhook blocks it → so the resource never gets created/updated.
+- ArgoCD reports this as: _"one or more objects failed to apply"_.
 
-### Why snippet annotations are blocked
+### Why Snippet Annotations Are Blocked
 
 `server-snippet`, `configuration-snippet`, etc. allow injecting raw NGINX config.
 
-They are often **disabled for security reasons**, because they can:
+They are often disabled for security reasons, because they can:
 
-* Override routing/security rules
-* Introduce vulnerabilities
-* Break shared ingress behavior in multi-tenant clusters
+- Override routing/security rules
+- Introduce vulnerabilities
+- Break shared ingress behavior in multi-tenant clusters
 
 Cluster admins typically disable them with something like:
 
@@ -454,9 +452,7 @@ controller:
 
 (or equivalent config in Helm / ConfigMap)
 
-***
-
-### What is actually failing
+### What is Actually failing
 
 Your ArgoCD application likely includes an Ingress like:
 
@@ -470,31 +466,25 @@ metadata:
       ...
 ```
 
-That specific annotation is the **root cause** of the sync failure.
+That specific annotation is the root cause of the sync failure.
 
-***
+### How to Fix it
 
-### How to fix it
+You have three options, depending on your control over the cluster:
 
-You have **three options**, depending on your control over the cluster:
-
-***
-
-#### ✅ Option 1 — Remove the snippet (most common fix)
+#### ✅ Option 1—Remove the Snippet (Most cOmmon fIx)
 
 Refactor your Ingress to avoid the snippet.
 
-* Use supported annotations instead
-* Or move logic into:
-  * backend service
-  * app config
-  * standard ingress fields
+- Use supported annotations instead
+- Or move logic into:
+  - backend service
+  - app config
+  - standard ingress fields
 
 ✅ Best for: shared clusters / production environments
 
-***
-
-#### ✅ Option 2 — Ask platform team to enable snippets
+#### ✅ Option 2—Ask Platform Team to Enable Snippets
 
 If you really need it, an admin can enable:
 
@@ -506,21 +496,17 @@ allow-snippet-annotations: "true"
 
 ⚠️ This is often rejected in orgs due to risk.
 
-***
-
-#### ✅ Option 3 — Use a different mechanism
+#### ✅ Option 3—Use a Different Mechanism
 
 Depending on what your snippet does, alternatives include:
 
-* `nginx.ingress.kubernetes.io/rewrite-target`
-* `nginx.ingress.kubernetes.io/configuration-snippet` (still blocked if snippets disabled)
-* Custom NGINX template (cluster-wide)
-* API Gateway / service mesh
-* Separate ingress controller instance with relaxed rules
+- `nginx.ingress.kubernetes.io/rewrite-target`
+- `nginx.ingress.kubernetes.io/configuration-snippet` (still blocked if snippets disabled)
+- Custom NGINX template (cluster-wide)
+- API Gateway / service mesh
+- Separate ingress controller instance with relaxed rules
 
-***
-
-### How to confirm quickly
+### How to Confirm Quickly
 
 Run:
 
@@ -534,14 +520,10 @@ or inspect your repo for:
 grep -R "server-snippet" .
 ```
 
-***
-
-### Key takeaway
+### Key Takeaway
 
 Nothing is "broken" in ArgoCD or Kubernetes.
 
-👉 Your cluster is **intentionally rejecting unsafe ingress config**, and ArgoCD is correctly reporting the failure.
-
-***
+👉 Your cluster is intentionally rejecting unsafe ingress config, and ArgoCD is correctly reporting the failure.
 
 If you paste your ingress YAML, I can help you rewrite it without `server-snippet`.

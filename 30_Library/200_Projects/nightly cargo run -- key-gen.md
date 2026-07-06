@@ -1,13 +1,13 @@
 ---
-created: 2026-02-05 19:55:23+00:00
-modified: 2026-06-08 11:49:24+00:00
+created: 2026-02-05T19:55:23+00:00
+modified: 2026-07-04T10:51:15+00:00
+permalink: llmeon/30-library/200-projects/nightly-cargo-run-key-gen
 project_category: refined_deployment
 project_name: Refined Deployment
 project_status: active
 title: nightly cargo run -- key-gen
 type: null
 uuid: 933d0f4e-318d-4bee-a5ed-9e0ac7172dcf
-permalink: llmeon/30-library/200-projects/nightly-cargo-run-key-gen
 ---
 
 ```bash

@@ -1,8 +1,8 @@
 ---
-created: 2026-04-09 10:33:19+00:00
-modified: 2026-05-26 11:44:37+00:00
-title: Optimised GTD Context Auditor for Pieces LTM
+created: 2026-04-09T10:33:19+00:00
+modified: 2026-07-04T10:52:06+00:00
 permalink: llmeon/10-system/prompts/optimised-gtd-context-auditor-for-pieces-ltm
+title: Optimised GTD Context Auditor for Pieces LTM
 ---
 
 ## SYSTEM ROLE: Principal GTD Architect & Pieces LTM Context Auditor

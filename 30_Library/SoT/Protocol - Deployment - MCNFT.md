@@ -1,17 +1,13 @@
 ---
 aliases: []
-created: 2026-02-01 15:45:00+00:00
+created: 2026-02-01T15:45:00+00:00
 id: Protocol - Deployment - Mersey Care
-modified: 2026-02-04 07:26:55+00:00
+modified: 2026-07-04T10:51:07+00:00
+permalink: llmeon/30-library/so-t/protocol-deployment-mcnft
 status: active
-tags:
-- azure
-- deployment
-- mersey-care
-- protocol
+tags: [azure, deployment, mersey-care, protocol]
 title: Protocol - Deployment - MCNFT
 type: protocol
-permalink: llmeon/30-library/so-t/protocol-deployment-mcnft
 ---
 
 ## 1. Executive Summary

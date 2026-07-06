@@ -1,19 +1,11 @@
 ---
-aliases:
-- Configure Unify Execute
-- CUE Configuration
-- CUE Lang MOC
-created: 2026-02-04 00:00:00+00:00
-modified: 2026-02-11 15:22:37+00:00
-tags:
-- configuration
-- cue
-- devops
-- infrastructure
-- moc
+aliases: [Configure Unify Execute, CUE Configuration, CUE Lang MOC]
+created: 2026-02-04T00:00:00+00:00
+modified: 2026-07-04T10:51:11+00:00
+permalink: llmeon/30-library/mo-c/moc-cue-configuration
+tags: [configuration, cue, devops, infrastructure, moc]
 title: MOC - CUE Configuration
 type: map
-permalink: llmeon/30-library/mo-c/moc-cue-configuration
 ---
 
 ## The Engineering of Unification

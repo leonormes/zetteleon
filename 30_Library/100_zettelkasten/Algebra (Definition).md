@@ -1,17 +1,14 @@
 ---
-aliases:
-- Algebra
-created: 2025-11-01 11:22:13+00:00
+aliases: [Algebra]
+created: 2025-11-01T11:22:13+00:00
 last_reviewed: '2025-11-01T00:00:00.000Z'
-modified: 2026-02-01 15:08:37+00:00
+modified: 2026-07-04T10:51:54+00:00
+permalink: llmeon/30-library/100-zettelkasten/algebra-definition
 status: seedling
-tags:
-- fields
-- topic/maths
+tags: [fields, topic/maths]
 title: Algebra (Definition)
 type: definition
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/algebra-definition
 ---
 
 Definition: Algebra is the branch of mathematics that studies abstract structures defined by operations and their properties, generalizing the rules of arithmetic through the use of symbols and variables.

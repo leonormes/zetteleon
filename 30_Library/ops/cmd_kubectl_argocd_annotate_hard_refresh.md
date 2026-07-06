@@ -1,21 +1,16 @@
 ---
-created: 2026-02-22 17:01:03+00:00
+created: 2026-02-22T17:01:03+00:00
 hop_level: local
 last_verified: 2026-02-22
-modified: 2026-03-14 11:10:11+00:00
+modified: 2026-07-04T10:50:42+00:00
+permalink: llmeon/30-library/ops/cmd-kubectl-argocd-annotate-hard-refresh
 requires_tunnel: false
 status: active
-tags:
-- argocd
-- cache
-- cmd
-- refresh
-- sync
+tags: [argocd, cache, cmd, refresh, sync]
 target_service: argocd
 title: cmd_kubectl_argocd_annotate_hard_refresh
 tool: kubectl
 type: command
-permalink: llmeon/30-library/ops/cmd-kubectl-argocd-annotate-hard-refresh
 ---
 
 ## Annotate Hard Refresh of ArgoCD Application

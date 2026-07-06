@@ -1,21 +1,14 @@
 ---
-aliases:
-- FHIR Facade
-- OMOP on FHIR
-- Vulcan Accelerator
-created: 2026-01-06 19:30:40+00:00
+aliases: [FHIR Facade, OMOP on FHIR, Vulcan Accelerator]
+created: 2026-01-06T19:30:40+00:00
 last_reviewed: null
-modified: 2026-02-01 15:07:54+00:00
+modified: 2026-07-04T10:50:54+00:00
+permalink: llmeon/30-library/so-t/so-t-ohdsi-and-fhir-convergence
 status: Active
-tags:
-- fhir
-- interoperability
-- ohdsi
-- SoftwareEngineering/Architecture
+tags: [fhir, interoperability, ohdsi, SoftwareEngineering/Architecture]
 title: SoT - OHDSI and FHIR Convergence
 type: SoT
 updated: null
-permalink: llmeon/30-library/so-t/so-t-ohdsi-and-fhir-convergence
 ---
 
 ## SoT - OHDSI and FHIR Convergence

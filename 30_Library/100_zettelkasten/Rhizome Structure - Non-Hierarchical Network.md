@@ -1,21 +1,14 @@
 ---
-aliases:
-- Distributed Network
-- Non-Hierarchical Network
-- Rhizome
-created: 2025-10-30 15:33:36+00:00
+aliases: [Distributed Network, Non-Hierarchical Network, Rhizome]
+created: 2025-10-30T15:33:36+00:00
 last_reviewed: '2025-10-30T00:00:00.000Z'
-modified: 2026-02-01 15:08:28+00:00
+modified: 2026-07-04T10:51:46+00:00
+permalink: llmeon/30-library/100-zettelkasten/rhizome-structure-non-hierarchical-network
 status: seedling
-tags:
-- network-topology
-- structure
-- topic/pkm
-- topic/pkm/zettelkasten
+tags: [network-topology, structure, topic/pkm, topic/pkm/zettelkasten]
 title: Rhizome Structure - Non-Hierarchical Network
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/rhizome-structure-non-hierarchical-network
 ---
 
 ## Rhizome Structure - Non-Hierarchical Network

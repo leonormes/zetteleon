@@ -1,21 +1,16 @@
 ---
-created: 2026-02-22 16:53:14+00:00
+created: 2026-02-22T16:53:14+00:00
 hop_level: local
 last_verified: 2026-02-22
-modified: 2026-03-14 11:10:10+00:00
+modified: 2026-07-04T10:50:41+00:00
+permalink: llmeon/30-library/ops/cmd-kubectl-find-image-pull-secrets
 requires_tunnel: false
 status: active
-tags:
-- cmd
-- credentials
-- debug
-- registry
-- secrets
+tags: [cmd, credentials, debug, registry, secrets]
 target_service: kubernetes
 title: cmd_kubectl_find_image_pull_secrets
 tool: kubectl
 type: command
-permalink: llmeon/30-library/ops/cmd-kubectl-find-image-pull-secrets
 ---
 
 ## Find Image Pull Secrets for a Registry

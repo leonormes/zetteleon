@@ -1,12 +1,10 @@
 ---
 aliases: []
-created: 2026-06-16 00:00:30+00:00
-modified: 2026-06-16 11:03:13+00:00
-tags:
-- prodos/head
-- state/thinking
-title: HEAD - 2026-06-16 1200
+created: 2026-06-16T00:00:30+00:00
+modified: 2026-07-04T10:52:03+00:00
 permalink: llmeon/20-thinking/21-workbench/head-archery-practice
+tags: [prodos/head, state/thinking]
+title: HEAD - Archery Practice
 ---
 
 Here is a simpler way to think about Jake Kaminski's advice so you can easily practice it during your next session.
@@ -19,11 +17,11 @@ Here is how to break it down step-by-step for the shooting line:
 
 When beginners draw a bow, they usually put all their focus on the hand pulling the string back, while the hand holding the bow is just "there," acting like a passive kickstand. Jake is saying you need to actively _push_ into the bow's grip while you pull the string back. You are stretching your body in two opposite directions.
 
-2. Aim Your Push (The Power of Direction)
+1. Aim Your Push (The Power of Direction)
 
 Don't just push forward blindly. Imagine your bow arm is a laser beam, and the pressure you are putting into the grip needs to point _exactly_ at the center of the target (the 10-ring). Where you direct that pushing pressure is exactly where the arrow wants to go.
 
-3. The Brick Wall Mental Trick (The Immovable Object)
+1. The Brick Wall Mental Trick (The Immovable Object)
 
 This is the most important feeling to get right. You aren't trying to literally push your bow forward toward the target (that would ruin your shot). Instead, imagine the bow is a solid brick wall. You can't move a brick wall, but you can press your hand firmly and consistently against it. Keep that steady, firm pressure against the "wall" through your entire shot.
 

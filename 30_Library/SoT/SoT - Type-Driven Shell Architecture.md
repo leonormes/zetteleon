@@ -1,22 +1,13 @@
 ---
-aliases:
-- Shell Scripting Patterns
-- Shell Type Safety
-- Unix Philosophy
-created: 2025-12-13 00:00:00+00:00
+aliases: [Shell Scripting Patterns, Shell Type Safety, Unix Philosophy]
+created: 2025-12-13T00:00:00+00:00
 last_reviewed: '2026-03-28'
-modified: 2026-05-26 11:44:16+00:00
+modified: 2026-07-04T10:50:47+00:00
+permalink: llmeon/30-library/so-t/so-t-type-driven-shell-architecture
 status: growing
-tags:
-- architecture
-- automation
-- bash
-- shell
-- sot
-- unix
+tags: [architecture, automation, bash, shell, sot, unix]
 title: SoT - Type-Driven Shell Architecture
 type: SoT
-permalink: llmeon/30-library/so-t/so-t-type-driven-shell-architecture
 ---
 
 ## Minimum Viable Understanding (MVU)

@@ -1,19 +1,14 @@
 ---
-aliases:
-- L7 Routing
-- Virtual Hosting
-created: 2025-12-24 12:00:00+00:00
+aliases: [L7 Routing, Virtual Hosting]
+created: 2025-12-24T12:00:00+00:00
 last_reviewed: 2025-12-24
-modified: 2026-02-01 15:08:33+00:00
+modified: 2026-07-04T10:51:50+00:00
+permalink: llmeon/30-library/100-zettelkasten/host-based-routing-enables-virtual-hosting-in-cloud-infrastructure
 status: stable
-tags:
-- cloud
-- http
-- SoftwareEngineering/Networking
+tags: [cloud, http, SoftwareEngineering/Networking]
 title: Host-Based Routing Enables Virtual Hosting in Cloud Infrastructure
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/host-based-routing-enables-virtual-hosting-in-cloud-infrastructure
 ---
 
 ## Host-Based Routing

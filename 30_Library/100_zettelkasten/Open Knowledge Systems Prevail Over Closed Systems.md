@@ -1,14 +1,14 @@
 ---
 aliases: []
-created: 2025-07-20 13:32:17+00:00
+created: 2025-07-20T13:32:17+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:29+00:00
+modified: 2026-07-04T10:51:48+00:00
+permalink: llmeon/30-library/100-zettelkasten/open-knowledge-systems-prevail-over-closed-systems
 status: ''
 tags: []
 title: Open Knowledge Systems Prevail Over Closed Systems
 type: ''
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/open-knowledge-systems-prevail-over-closed-systems
 ---
 
 The historical trajectory of alchemy and mathematics suggests that open, transparent systems of knowledge are more robust and enduring than closed, esoteric ones.

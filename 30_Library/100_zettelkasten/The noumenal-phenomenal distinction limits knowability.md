@@ -1,21 +1,14 @@
 ---
-aliases:
-- Kantian epistemology
-- noumenon vs phenomenon
-- thing-in-itself
-created: 2025-10-31 20:06:00+00:00
+aliases: [Kantian epistemology, noumenon vs phenomenon, thing-in-itself]
+created: 2025-10-31T20:06:00+00:00
 last_reviewed: '2025-10-31'
-modified: 2026-02-01 15:08:24+00:00
+modified: 2026-07-04T10:51:44+00:00
+permalink: llmeon/30-library/100-zettelkasten/the-noumenal-phenomenal-distinction-limits-knowability
 status: seedling
-tags:
-- epistemology
-- Kant
-- limits-of-knowledge
-- TheHuman/Philosophy
+tags: [epistemology, Kant, limits-of-knowledge, TheHuman/Philosophy]
 title: The noumenal-phenomenal distinction limits knowability
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/the-noumenal-phenomenal-distinction-limits-knowability
 ---
 
 ## The Noumenal-phenomenal Distinction Limits Knowability

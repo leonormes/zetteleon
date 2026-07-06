@@ -1,13 +1,9 @@
 ---
-created: 2026-04-10 13:00:00+00:00
-modified: 2026-05-26 11:44:36+00:00
-tags:
-- adversarial-review
-- development
-- llm-auditing
-- multi-model-workflows
-title: Cross-Model Adversarial Auditing Uses an Independent LLM to Catch Blind Spots
+created: 2026-04-10T13:00:00+00:00
+modified: 2026-07-04T10:51:53+00:00
 permalink: llmeon/30-library/100-zettelkasten/cross-model-adversarial-auditing-uses-an-independent-llm-to-catch-blind-spots
+tags: [adversarial-review, development, llm-auditing, multi-model-workflows]
+title: Cross-Model Adversarial Auditing Uses an Independent LLM to Catch Blind Spots
 ---
 
 ## Cross-Model Adversarial Auditing Uses an Independent LLM to Catch Blind Spots

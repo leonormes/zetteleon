@@ -1,17 +1,11 @@
 ---
-created: 2026-05-31 00:00:00+00:00
-modified: 2026-05-31 17:21:54+00:00
-related_to:
-- '[[Cognitive Load]]'
-- '[[Executive Function]]'
-tags:
-- adhd
-- contexts
-- gtd
-- task-management
+created: 2026-05-31T00:00:00+00:00
+modified: 2026-07-04T10:51:47+00:00
+permalink: llmeon/30-library/100-zettelkasten/practice-context-based-task-lists
+related_to: ["[[Cognitive Load]]", "[[Executive Function]]"]
+tags: [adhd, contexts, gtd, task-management]
 title: Practice - Context-based task lists
 type: practice
-permalink: llmeon/30-library/100-zettelkasten/practice-context-based-task-lists
 ---
 
 ## Practice—Context-based Task Lists

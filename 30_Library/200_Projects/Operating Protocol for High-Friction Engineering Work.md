@@ -1,12 +1,12 @@
 ---
-created: 2026-05-15 08:22:55+00:00
-modified: 2026-06-08 11:49:22+00:00
+created: 2026-05-15T08:22:55+00:00
+modified: 2026-07-04T10:51:27+00:00
+permalink: llmeon/30-library/200-projects/operating-protocol-for-high-friction-engineering-work
 project_category: refined_deployment
 project_name: Refined Deployment
 project_status: active
 title: Operating Protocol for High-Friction Engineering Work
 type: null
-permalink: llmeon/30-library/200-projects/operating-protocol-for-high-friction-engineering-work
 ---
 
 Given my difficulty initiating tasks and the nature of these projects we have discussed give me a protocol or process for getting this work done Here is a tactical protocol designed to lower the barrier to entry for complex, high-friction engineering work. It treats human attention much like a Lean software delivery pipeline: optimising for small batches, limiting work-in-progress, and ensuring fast feedback loops. Phase 1: The Pre-Flight Routine (State Management) * Master Internal Triggers: Difficulty initiating is rarely about a lack of technical skill; it is often driven by the subconscious overwhelm of tackling massive, ambiguous architectural changes. Acknowledge the discomfort of the "blank IDE" before beginning. * Move to Focus: Before sitting down to map out the GitOps changes or Entra ID policies, engage in brief physical movement. Taking the dog for a brisk walk around the block serves as a powerful neurological reset, priming the brain for sustained mental effort and focus. Phase 2: The "Walking Skeleton" Initiation * Timebox the Atomic Action: Commit to doing just one thing at a time. Set a strict timebox of 15 to 25 minutes to execute only the very first, atomic action identified in your planning phase (e.g., writing the first Terraform resource block or querying the k8s cluster state). * Banish Perfection: Do not attempt to architect the perfect end-to-end deployment pipeline on the first attempt. The objective is simply to overcome inertia; start now and get perfect later. Phase 3: The "Unschedule" * Plan the Downtime First: Instead of staring down an open-ended, gruelling block of configuration work, schedule your breaks, meals, and leisure activities before scheduling the work itself. * Guilt-Free Play: Knowing exactly when you will stop working provides a psychological safety net. It replaces the dread of endless work with the promise of guaranteed, guilt-free downtime. Phase 4: Radical WIP Limits * Embrace Finitude: When designing and overhauling multiple distributed systems, attention is a strictly finite resource. You cannot execute all of these upgrades simultaneously. * Enforce Limits: Limit your personal Work-In-Progress (WIP) just as you would in a team delivery environment. Focus exclusively on one major project at a time and creatively neglect the others until the active task reaches a defined, testable milestone.
@@ -239,7 +239,7 @@ For projects that must land but lack external deadlines: create one. Tell your m
 
 The protocol assumes baseline conditions. If you're under-slept, under-exercised, or your medication regimen is unstable, no protocol will rescue you. Saying this directly because it's true, not as judgment: optimise the substrate before optimising the technique.
 
-#### 4.8 The "ugh field" Technique
+#### 4.8 The "Ugh fIeld" Technique
 
 Notice topics or files you flinch away from. Those flinches are signal. Make a list. Each item gets one 15-minute box of _"just look at it, don't fix it"_ before any other work happens. The ugh often dissolves on contact.
 
@@ -449,7 +449,7 @@ Every stress test scenario should be a falsifiable statement:
 
 This forces precision and makes the test outcome interesting regardless of result.
 
-#### 4.7 The "boring" Pre-flight Checklist
+#### 4.7 The "Boring" Pre-flight Checklist
 
 Before any actual load:
 

@@ -1,8 +1,9 @@
 ---
 aliases: []
-created: 2025-02-12 18:03:15+00:00
+created: 2025-02-12T18:03:15+00:00
 last_reviewed: ''
-modified: 2026-06-08 11:49:18+00:00
+modified: 2026-07-04T10:51:29+00:00
+permalink: llmeon/30-library/200-projects/iam-challenges
 project_category: development
 project_name: SDLC
 project_status: archived
@@ -10,12 +11,10 @@ see_also: []
 status: ''
 superseded_by: ''
 supersedes: ''
-tags:
-- IAM
+tags: [IAM]
 title: IAM challenges
 type: curriculum
 updated: null
-permalink: llmeon/30-library/200-projects/iam-challenges
 ---
 
 Beginner Challenges (Core Concepts & Basic Permissions)

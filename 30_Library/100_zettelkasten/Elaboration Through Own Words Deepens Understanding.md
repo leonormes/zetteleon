@@ -1,21 +1,14 @@
 ---
-aliases:
-- Elaboration
-- Own Words Requirement
-- Paraphrasing
-created: 2025-10-30 15:33:36+00:00
+aliases: [Elaboration, Own Words Requirement, Paraphrasing]
+created: 2025-10-30T15:33:36+00:00
 last_reviewed: '2025-10-30T00:00:00.000Z'
-modified: 2026-02-01 15:08:34+00:00
+modified: 2026-07-04T10:51:52+00:00
+permalink: llmeon/30-library/100-zettelkasten/elaboration-through-own-words-deepens-understanding
 status: seedling
-tags:
-- elaboration
-- learning
-- topic/pkm
-- topic/pkm/zettelkasten
+tags: [elaboration, learning, topic/pkm, topic/pkm/zettelkasten]
 title: Elaboration Through Own Words Deepens Understanding
 type: principle
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/elaboration-through-own-words-deepens-understanding
 ---
 
 ## Elaboration Through Own Words Deepens Understanding

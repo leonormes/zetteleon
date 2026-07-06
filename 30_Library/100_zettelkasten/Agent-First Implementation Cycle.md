@@ -1,20 +1,16 @@
 ---
-created: 2026-04-13 14:35:19+00:00
+created: 2026-04-13T14:35:19+00:00
 created_utc: '2026-04-13T11:00:00Z'
 kind: procedure
-modified: 2026-05-26 11:44:36+00:00
+modified: 2026-07-04T10:51:54+00:00
+permalink: llmeon/30-library/100-zettelkasten/agent-first-implementation-cycle
 source_title: The Agent-First Workflow
 source_url: https://gemini.google.com/app/3efdb3bd475edbb1
 status: seed
-tags:
-- ai-agents
-- automation
-- software-engineering
-- workflows
+tags: [ai-agents, automation, software-engineering, workflows]
 title: Agent-First Implementation Cycle
 type: atom
 upstream: '[[HEAD The Agent-First Workflow]]'
-permalink: llmeon/30-library/100-zettelkasten/agent-first-implementation-cycle
 ---
 
 ## Agent-First Implementation Cycle

@@ -1,19 +1,14 @@
 ---
-aliases:
-- Need for Autonomy in a Relationship
-created: 2025-11-10 10:10:00+00:00
+aliases: [Need for Autonomy in a Relationship]
+created: 2025-11-10T10:10:00+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:25+00:00
+modified: 2026-07-04T10:51:44+00:00
+permalink: llmeon/30-library/100-zettelkasten/the-need-for-autonomy-preserves-personal-identity-within-a-partnership
 status: seedling
-tags:
-- autonomy
-- needs
-- relationship
-- TheHuman/Identity
+tags: [autonomy, needs, relationship, TheHuman/Identity]
 title: The Need for Autonomy Preserves Personal Identity Within a Partnership
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/the-need-for-autonomy-preserves-personal-identity-within-a-partnership
 ---
 
 ## The Need for Autonomy Preserves Personal Identity Within a Partnership

@@ -1,16 +1,13 @@
 ---
-created: 2026-02-19 15:18:30+00:00
+created: 2026-02-19T15:18:30+00:00
 hop_level: local
-modified: 2026-03-14 11:10:11+00:00
-tags:
-- atomic
-- azure
-- network
+modified: 2026-07-04T10:50:44+00:00
+permalink: llmeon/30-library/ops/cmd-az-get-public-ip-owner
+tags: [atomic, azure, network]
 target_service: azure
 title: cmd-az-get-public-ip-owner
 tool: az
 type: atomic_command
-permalink: llmeon/30-library/ops/cmd-az-get-public-ip-owner
 ---
 
 ## Identify Azure Public IP Owner

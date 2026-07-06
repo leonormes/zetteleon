@@ -1,21 +1,14 @@
 ---
-aliases:
-- Alphanumeric IDs
-- Folgezettel System
-- Zettelkasten IDs
-created: 2025-10-30 15:33:36+00:00
+aliases: [Alphanumeric IDs, Folgezettel System, Zettelkasten IDs]
+created: 2025-10-30T15:33:36+00:00
 last_reviewed: '2025-10-30T00:00:00.000Z'
-modified: 2026-02-01 15:08:33+00:00
+modified: 2026-07-04T10:51:51+00:00
+permalink: llmeon/30-library/100-zettelkasten/folgezettel-ids-enable-non-hierarchical-branching
 status: seedling
-tags:
-- ids
-- linking
-- topic/pkm
-- topic/pkm/zettelkasten
+tags: [ids, linking, topic/pkm, topic/pkm/zettelkasten]
 title: Folgezettel IDs Enable Non-Hierarchical Branching
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/folgezettel-ids-enable-non-hierarchical-branching
 ---
 
 ## Folgezettel IDs Enable Non-Hierarchical Branching

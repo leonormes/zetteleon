@@ -1,12 +1,12 @@
 ---
-created: 2026-05-02 19:35:19+00:00
-modified: 2026-06-08 11:49:16+00:00
+created: 2026-05-02T19:35:19+00:00
+modified: 2026-07-04T10:51:37+00:00
+permalink: llmeon/30-library/200-projects/defining-one-computer-concept
 project_category: infrastructure
 project_name: k8s
 project_status: archived
 title: Defining One Computer Concept
 type: null
-permalink: llmeon/30-library/200-projects/defining-one-computer-concept
 ---
 
 ## Defining "One Computer" in the Context of Networks and Distributed Systems

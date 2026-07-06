@@ -1,20 +1,14 @@
 ---
-aliases:
-- 50/50 Say on Finances
-created: 2025-11-10 10:12:00+00:00
+aliases: [50/50 Say on Finances]
+created: 2025-11-10T10:12:00+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:29+00:00
+modified: 2026-07-04T10:51:48+00:00
+permalink: llmeon/30-library/100-zettelkasten/partners-should-have-equal-say-in-financial-decisions-regardless-of-income
 status: seedling
-tags:
-- budgeting
-- decision-making
-- equality
-- finance
-- relationship
+tags: [budgeting, decision-making, equality, finance, relationship]
 title: Partners Should Have Equal Say in Financial Decisions Regardless of Income
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/partners-should-have-equal-say-in-financial-decisions-regardless-of-income
 ---
 
 ## Partners Should Have Equal Say in Financial Decisions Regardless of Income

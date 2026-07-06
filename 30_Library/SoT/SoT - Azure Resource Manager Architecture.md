@@ -1,22 +1,13 @@
 ---
-aliases:
-- ARM Architecture
-- Azure Architecture
-- Azure Resource Manager
-created: 2025-12-10 13:06:37+00:00
+aliases: [ARM Architecture, Azure Architecture, Azure Resource Manager]
+created: 2025-12-10T13:06:37+00:00
 last_reviewed: '2026-03-28'
-modified: 2026-05-26 11:44:21+00:00
+modified: 2026-07-04T10:51:03+00:00
+permalink: llmeon/30-library/so-t/so-t-azure-resource-manager-architecture
 status: evergreen
-tags:
-- architecture
-- arm
-- azure
-- governance
-- security
-- sot
+tags: [architecture, arm, azure, governance, security, sot]
 title: SoT - Azure Resource Manager Architecture
 type: SoT
-permalink: llmeon/30-library/so-t/so-t-azure-resource-manager-architecture
 ---
 
 ## Minimum Viable Understanding (MVU)

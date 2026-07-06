@@ -1,20 +1,16 @@
 ---
-created: 2026-04-14 17:43:17+00:00
+created: 2026-04-14T17:43:17+00:00
 created_utc: '2026-04-14T12:20:00Z'
 kind: claim
-modified: 2026-05-26 11:44:33+00:00
+modified: 2026-07-04T10:51:47+00:00
+permalink: llmeon/30-library/100-zettelkasten/primacy-of-mathematical-abstraction
 source_title: The Fundamental Challenge of Concurrent and Distributed Systems
 source_url: http://www.youtube.com/watch?v=U719vQz-WFs
 status: seed
-tags:
-- abstraction
-- concurrency
-- mathematics
-- software-engineering
+tags: [abstraction, concurrency, mathematics, software-engineering]
 title: Primacy of Mathematical Abstraction
 type: atom
 upstream: '[[SoT - Rust Concurrency & Async Paradigms]]'
-permalink: llmeon/30-library/100-zettelkasten/primacy-of-mathematical-abstraction
 ---
 
 ## Primacy of Mathematical Abstraction

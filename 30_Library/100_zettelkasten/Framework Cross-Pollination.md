@@ -1,19 +1,16 @@
 ---
-created: 2026-04-13 14:53:30+00:00
+created: 2026-04-13T14:53:30+00:00
 created_utc: '2026-04-13T11:40:00Z'
 kind: heuristic
-modified: 2026-05-26 11:44:35+00:00
+modified: 2026-07-04T10:51:51+00:00
+permalink: llmeon/30-library/100-zettelkasten/framework-cross-pollination
 source_title: Using Karpathy’s Original Framework (Auto Research)
 source_url: http://www.youtube.com/watch?v=bc4NrE0cOE0
 status: seed
-tags:
-- adaptation
-- collaboration
-- refactoring
+tags: [adaptation, collaboration, refactoring]
 title: Framework Cross-Pollination
 type: atom
 upstream: '[[Using Karpathy’s Original Framework]]'
-permalink: llmeon/30-library/100-zettelkasten/framework-cross-pollination
 ---
 
 ## Framework Cross-Pollination

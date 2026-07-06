@@ -1,17 +1,15 @@
 ---
 aliases: []
-created: 2025-02-07 12:57:53+00:00
+created: 2025-02-07T12:57:53+00:00
 ID: 9e
 last_reviewed: 'null'
-modified: 2026-02-01 15:08:23+00:00
+modified: 2026-07-04T10:51:43+00:00
+permalink: llmeon/30-library/100-zettelkasten/writing-in-iterative-refinement
 status: 'null'
-tags:
-- topic/pkm/zettelkasten
-- topic/writing
+tags: [topic/pkm/zettelkasten, topic/writing]
 title: Writing in Iterative Refinement
 type: permanent
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/writing-in-iterative-refinement
 ---
 
 - Writing makes our thinking "stable" enough to systematically revise

@@ -1,12 +1,12 @@
 ---
-created: 2026-05-26 14:24:37+00:00
-modified: 2026-06-08 11:49:15+00:00
+created: 2026-05-26T14:24:37+00:00
+modified: 2026-07-04T10:51:40+00:00
+permalink: llmeon/30-library/200-projects/azure-backup-and-restore-runbook
 project_category: refined_deployment
 project_name: Refined Deployment
 project_status: active
 title: Azure Backup and Restore Runbook
 type: null
-permalink: llmeon/30-library/200-projects/azure-backup-and-restore-runbook
 ---
 
 Jira: [FTFL-599 — Update and test the runbook for Azure backup restore](https://fitfile.atlassian.net/browse/FTFL-599)
@@ -72,7 +72,7 @@ What you want to see: a binding where the source is your vault ID and the role i
 
 ---
 
-## Step 2—Create the Trusted Access Role Binding (if missing)
+## Step 2—Create the Trusted Access Role Binding (If mIssing)
 
 ```bash
 BINDING_NAME="azbkup-trust"

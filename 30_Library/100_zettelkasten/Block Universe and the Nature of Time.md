@@ -1,8 +1,9 @@
 ---
 aliases: []
-created: 2025-09-16 12:25:36+00:00
+created: 2025-09-16T12:25:36+00:00
 last_reviewed: ''
-modified: 2026-05-26 11:44:36+00:00
+modified: 2026-07-04T10:51:54+00:00
+permalink: llmeon/30-library/100-zettelkasten/block-universe-and-the-nature-of-time
 see_also: []
 status: ''
 superseded_by: ''
@@ -11,7 +12,6 @@ tags: []
 title: Block Universe and the Nature of Time
 type: ''
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/block-universe-and-the-nature-of-time
 ---
 
 Relativity implies:

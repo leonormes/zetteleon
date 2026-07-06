@@ -1,20 +1,16 @@
 ---
-created: 2026-04-14 20:41:50+00:00
+created: 2026-04-14T20:41:50+00:00
 created_utc: '2026-04-14T14:00:00Z'
 kind: procedure
-modified: 2026-05-26 11:44:34+00:00
+modified: 2026-07-04T10:51:50+00:00
+permalink: llmeon/30-library/100-zettelkasten/knowledge-linting
 source_title: Hermes Agent and Karpathy’s LLM Wiki
 source_url: https://youtu.be/Mb5N08xcxtg
 status: seed
-tags:
-- graph-theory
-- linting
-- maintenance
-- quality-assurance
+tags: [graph-theory, linting, maintenance, quality-assurance]
 title: Knowledge Linting
 type: atom
 upstream: '[[SoT - LLM Wiki Pattern]]'
-permalink: llmeon/30-library/100-zettelkasten/knowledge-linting
 ---
 
 ## Knowledge Linting

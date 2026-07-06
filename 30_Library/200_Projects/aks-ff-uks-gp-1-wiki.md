@@ -1,12 +1,12 @@
 ---
-created: 2026-06-08 11:35:53+00:00
-modified: 2026-06-08 11:49:22+00:00
+created: 2026-06-08T11:35:53+00:00
+modified: 2026-07-04T10:51:20+00:00
+permalink: llmeon/30-library/200-projects/aks-ff-uks-gp-1-wiki
 project_category: refined_deployment
 project_name: Refined Deployment
 project_status: active
 title: aks-ff-uks-gp-1-wiki
 type: projec
-permalink: llmeon/30-library/200-projects/aks-ff-uks-gp-1-wiki
 ---
 
 ## Wiki: Private AKS Cluster—`aks-ff-uks-gp-1`
@@ -84,7 +84,7 @@ All 37 resources, grouped by function.
 
 > Note on the Public IPs: These are for _egress_ from the cluster (outbound internet traffic from pods), not for inbound access to the API server. The API server itself has no public IP.
 
-#### 2.2 Private API Access (makes it "private")
+#### 2.2 Private API Access (Makes it "Private")
 
 | Name | Type | Resource Group |
 |------|------|---------------|
@@ -156,7 +156,7 @@ All 37 resources, grouped by function.
 
 ### 3. Why It's Private—The Core Concepts
 
-#### 3.1 What "private cluster" means
+#### 3.1 What "Private cLuster" means
 
 When you create a standard AKS cluster, the Kubernetes API server (the thing `kubectl` talks to) gets a public FQDN and a public IP. Anyone on the internet can attempt to reach it.
 
@@ -168,7 +168,7 @@ A private cluster removes that public endpoint entirely. The API server is only 
 
 This is a network interface (`kube-apiserver.nic.3363d41a-…`) with a private IP in `vnet-ff-uks-gp-1`. It's a "wire" from inside your VNet directly to the managed AKS control plane that Microsoft runs. Traffic never leaves the Azure backbone.
 
-2. Private DNS Zone (`f985395b-cb31-425a-8c2e-6cea863534f0.privatelink.uksouth.azmk8s.io`)
+1. Private DNS Zone (`f985395b-cb31-425a-8c2e-6cea863534f0.privatelink.uksouth.azmk8s.io`)
 
 When `kubectl` or `az aks get-credentials` gives you a kubeconfig, the API server address is an FQDN like `aks-ff-uks-gp-1-abc123.hcp.uksouth.azmk8s.io`. For a private cluster, this resolves to a private IP (from the private endpoint), not a public one.
 
@@ -176,7 +176,7 @@ This Private DNS Zone contains the A record that maps that FQDN → private IP. 
 
 Your laptop's DNS resolver is not connected to this zone—which is exactly why you can't run `kubectl` directly from your laptop.
 
-3. No public FQDN / API server access policy
+1. No public FQDN / API server access policy
 
 The cluster is configured at creation time with `--enable-private-cluster`. Azure simply does not create a public DNS record or expose the API server on the internet.
 

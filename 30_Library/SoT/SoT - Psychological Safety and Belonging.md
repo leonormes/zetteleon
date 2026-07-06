@@ -1,15 +1,15 @@
 ---
 aliases: []
-created: 2025-12-13 00:00:00+00:00
+created: 2025-12-13T00:00:00+00:00
 last_reviewed: ''
-modified: 2026-02-04 07:27:07+00:00
+modified: 2026-07-04T10:50:51+00:00
+permalink: llmeon/30-library/so-t/so-t-psychological-safety-and-belonging
 status: stable
 tags: []
 tier: 1-Foundation
 title: SoT - Psychological Safety and Belonging
 type: SoT
 updated: null
-permalink: llmeon/30-library/so-t/so-t-psychological-safety-and-belonging
 ---
 
 ## 2. The Core Mechanism: "The Amygdala as Guide Dog & The Social Brain"

@@ -1,8 +1,8 @@
 ---
-created: 2026-05-04 08:01:26+00:00
-modified: 2026-05-26 11:44:34+00:00
-title: Key questions when linking notes in the Zettelkasten method
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-07-04T10:51:50+00:00
 permalink: llmeon/30-library/100-zettelkasten/key-questions-when-linking-notes-in-the-zettelkasten-method
+title: Key questions when linking notes in the Zettelkasten method
 ---
 
 ## Key Questions when Linking Notes in the Zettelkasten Method

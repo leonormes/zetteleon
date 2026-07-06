@@ -1,15 +1,11 @@
 ---
-created: 2026-05-23 12:02:54+00:00
-modified: 2026-05-26 11:43:32+00:00
-pieces_ids:
-- 201d6e29-282f-4295-8bf1-44282a6752d3
-- 49049282-6f30-48f6-8a68-c5cc68b79bb8
-source: pieces-ltm
-tags:
-- pieces
-- raw
-title: 2026-05-23-pieces-natural-planning-model
+created: 2026-05-23T12:02:54+00:00
+modified: 2026-07-04T10:49:55+00:00
 permalink: llmeon/raw/2026-05-23-pieces-natural-planning-model
+pieces_ids: [201d6e29-282f-4295-8bf1-44282a6752d3, 49049282-6f30-48f6-8a68-c5cc68b79bb8]
+source: pieces-ltm
+tags: [pieces, raw]
+title: 2026-05-23-pieces-natural-planning-model
 ---
 
 ## Complex Projects—Natural Planning Model & Execution Protocol
@@ -27,12 +23,12 @@ Full structured note from Gemini chat covering:
 - Goal: Validate stability and resilience of distributed Kubernetes clusters under large OMOP data loads.
 - Key phases: Purpose & Principles (data privacy, zero prod disruption, compute cost cap), Vision (comprehensive cluster behaviour report, identified breaking points, tuned config), Brainstorm (DevOps + data scientists + network specialists; K8s pod eviction thresholds; OMOP data distributions; risks: cascading crashes, data corruption, OOM), Organise (timing, hard deadlines, ownership, tooling: Grafana/Prometheus, load gen tools, node scaling), Next Action: "Draft email to DevOps lead to schedule whiteboard session on K8s load testing parameters."
 
-2. GitOps Deployment Pipeline Optimisation
+1. GitOps Deployment Pipeline Optimisation
 
 - Goal: Improve a live GitOps process—investigation first, then incremental optimisation without disrupting team delivery.
 - Key phases: Purpose & Principles (reduce lead time, improve deployment frequency, eliminate manual bottlenecks; no big-bang replacements), Vision (immediate dev feedback, seamless ArgoCD reconciliation, zero config drift; Four Key Metrics), Brainstorm (current state vs documented state; queue/wait time analysis; CI/CD architecture review; trunk-based dev vs long-lived branches; secrets management in K8s), Organise (Phase A: Value stream mapping + metric baseline → Phase B: CI feedback loop → Phase C: CD sync policies & manifest management), Next Action: "Schedule 60-min value stream mapping session" or "Run query to extract average build times for last 30 days."
 
-3. Azure Entra ID IAM → IaC + PIM Migration
+1. Azure Entra ID IAM → IaC + PIM Migration
 
 - Goal: Move Entra ID configuration to Infrastructure as Code, implement PIM for privileged access, and tidy stale policies.
 - Key phases: Purpose & Principles (post-audit, stop portal config drift, Zero Trust; all IAM changes via pull request, no standing human privileges), Vision (all Conditional Access, App Registrations, Enterprise Apps in Terraform/Bicep; PIM gates all elevation; standing Global Admin eradicated), Brainstorm (stale guest accounts, undocumented groups, conflicting CA policies; Terraform AzureAD provider nuances; pipeline auth to Entra), Organise (Phase A: Audit & tidy → Phase B: Break-glass + baseline alerting → Phase C: PIM rollout → Phase D: Codification), Next Action: "Run PowerShell script to export CSV of all Global Admin and Privileged Role Admin assignments" or "Create empty git repo for Entra IaC project."

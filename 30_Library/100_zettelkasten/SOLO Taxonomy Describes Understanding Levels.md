@@ -1,16 +1,14 @@
 ---
 aliases: []
-created: 2025-10-31 11:24:00+00:00
+created: 2025-10-31T11:24:00+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:27+00:00
+modified: 2026-07-04T10:51:46+00:00
+permalink: llmeon/30-library/100-zettelkasten/solo-taxonomy-describes-understanding-levels
 status: seedling
-tags:
-- education
-- TheHuman/Cognition
+tags: [education, TheHuman/Cognition]
 title: SOLO Taxonomy Describes Understanding Levels
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/solo-taxonomy-describes-understanding-levels
 ---
 
 ## SOLO Taxonomy Describes Understanding Levels

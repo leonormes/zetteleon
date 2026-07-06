@@ -1,14 +1,14 @@
 ---
 aliases: []
-created: 2025-05-28 18:46:40+00:00
+created: 2025-05-28T18:46:40+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:28+00:00
+modified: 2026-07-04T10:51:46+00:00
+permalink: llmeon/30-library/100-zettelkasten/putting-it-all-together-example-workflow
 status: ''
 tags: []
 title: Putting It All Together Example Workflow
 type: ''
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/putting-it-all-together-example-workflow
 ---
 
 1. Describe the Task:

@@ -1,19 +1,16 @@
 ---
 aliases: []
-created: 2025-10-16 08:19:54+00:00
+created: 2025-10-16T08:19:54+00:00
 description: Background context on GTD for planning prompts (projects/actions, workflow,
   horizons, weekly review).
 last_reviewed: null
-modified: 2026-05-26 11:44:37+00:00
+modified: 2026-07-04T10:52:06+00:00
+permalink: llmeon/10-system/prompts/llm-gtd-context
 status: null
-tags:
-- domain/productivity
-- llm-understanding
-- type/context
+tags: [domain/productivity, llm-understanding, type/context]
 title: LLM GTD Context
 type: prompt
 updated: null
-permalink: llmeon/10-system/prompts/llm-gtd-context
 ---
 
 ## LLM Planning Context Prompt: Getting Things Done (GTD) and Making It All Work

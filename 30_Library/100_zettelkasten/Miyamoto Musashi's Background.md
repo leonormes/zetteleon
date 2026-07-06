@@ -1,14 +1,14 @@
 ---
 aliases: []
-created: 2025-09-07 15:32:45+00:00
+created: 2025-09-07T15:32:45+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:30+00:00
+modified: 2026-07-04T10:51:49+00:00
+permalink: llmeon/30-library/100-zettelkasten/miyamoto-musashis-background
 status: ''
 tags: []
-title: Miyamoto Musashi's Background
+title: "Miyamoto Musashi's Background"
 type: ''
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/miyamoto-musashis-background
 ---
 
 Musashi was a legendary Japanese swordsman, strategist, artist, and writer. He was undefeated in over 60 duels. His writings are considered foundational to samurai philosophy and the broader principles of self-improvement. His life and experiences heavily influenced his philosophical outlook.

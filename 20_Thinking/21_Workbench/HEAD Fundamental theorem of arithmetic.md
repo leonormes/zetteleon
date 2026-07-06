@@ -1,14 +1,13 @@
 ---
 captured: 2026-05-21T15:40:04+01:00 2026-05-21T15:40:04+01:00
-created: 2026-05-21 14:40:06+00:00
-modified: 2026-05-28 12:31:13+00:00
+created: 2026-05-21T14:40:06+00:00
+modified: 2026-07-04T10:52:02+00:00
+permalink: llmeon/20-thinking/21-workbench/head-fundamental-theorem-of-arithmetic
 source: https://claude.ai/chat/af9bd096-ef27-493e-8b30-859967b46e97
 status: processing
-tags:
-- input
+tags: [input]
 title: HEAD Fundamental theorem of arithmetic
 type: head
-permalink: llmeon/20-thinking/21-workbench/head-fundamental-theorem-of-arithmetic
 ---
 
 ## Raw Output / Content
@@ -396,7 +395,7 @@ Compare with ω(n), which is only additive when m and n share no primes:
 
 ω fails because 4 and 2 share a prime. Ω doesn't care—it just totals up the multiplicities.
 
-#### The Logarithm Analogy (the Deepest intuition)
+#### The Logarithm Analogy (The Deepest iNtuition)
 
 This rule should look familiar:
 

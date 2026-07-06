@@ -1,26 +1,11 @@
 ---
 created: Invalid date
-modified: 2026-05-26 11:43:53+00:00
-pieces_ids:
-- 0d45c972-323c-4db4-ac32-db7015670852
-- 0fe5dae4-33da-4080-b4d1-c99cf0e01a4f
-- 174e853b-e6d6-48de-bed8-cf1ad53098da
-- 320468e3-4b1c-4f1a-839c-f839b321bb6e
-- 63c8006e-9139-4915-ad68-e29496520114
-- 8269aa60-b2db-4b83-9b62-f32f04aa9cee
-- a09cf70e-29e6-4c79-95ec-5c8023042db8
-- b397eade-21e7-42bc-a2a1-e6fa3d6937c0
-- b994225f-74fc-419b-89e1-bedf1f9c5943
-- c31033ab-e206-4d60-944d-281e738c1e3e
-- dbb82172-1e30-4150-82c5-9f03a378e935
-- e0828b99-eb15-49db-b8a0-101e6c3b9d23
-- fa53e818-bc21-487e-80a3-e5a40da60676
-source: pieces-ltm
-tags:
-- pieces
-- raw
-title: 2026-04-28-pieces-omop-stress-testing-plan
+modified: 2026-07-04T10:50:30+00:00
 permalink: llmeon/raw/2026-04-28-pieces-omop-stress-testing-plan
+pieces_ids: [0d45c972-323c-4db4-ac32-db7015670852, 0fe5dae4-33da-4080-b4d1-c99cf0e01a4f, 174e853b-e6d6-48de-bed8-cf1ad53098da, 320468e3-4b1c-4f1a-839c-f839b321bb6e, 63c8006e-9139-4915-ad68-e29496520114, 8269aa60-b2db-4b83-9b62-f32f04aa9cee, a09cf70e-29e6-4c79-95ec-5c8023042db8, b397eade-21e7-42bc-a2a1-e6fa3d6937c0, b994225f-74fc-419b-89e1-bedf1f9c5943, c31033ab-e206-4d60-944d-281e738c1e3e, dbb82172-1e30-4150-82c5-9f03a378e935, e0828b99-eb15-49db-b8a0-101e6c3b9d23, fa53e818-bc21-487e-80a3-e5a40da60676]
+source: pieces-ltm
+tags: [pieces, raw]
+title: 2026-04-28-pieces-omop-stress-testing-plan
 ---
 
 ## Pieces ID: dbb82172-1e30-4150-82c5-9f03a378e935
@@ -38,11 +23,11 @@ Relevant anchors from LTM:
 
 ---
 
-## 1) Success Criteria Matrix (explicit + measurable)
+## 1) Success Criteria Matrix (Explicit + mEasurable)
 
 Your LTM consistently separates stress testing into Infrastructure, Algorithmic/Workflow, and ETL/Hyve pipeline concerns (esp. Apr 16 discussions about "what aspect are we stress testing?" and the FTFL‑480 permutation framing).
 
-### A. Infrastructure Stress (system + DB + federation)
+### A. Infrastructure Stress (System + DB + fEderation)
 
 | What we're proving | Metric(s) to record | Success criteria (measurable) |
 |---|---|---|
@@ -52,7 +37,7 @@ Your LTM consistently separates stress testing into Infrastructure, Algorithmic/
 | Reindex / heavy maintenance jobs | peak RSS, temp disk usage, duration | Reindex completes within defined maintenance window OR produces a clear "requires X memory / Y temp disk" spec (this was raised explicitly in your Apr 16 notes about reindexer OOM) |
 | Run failure recovery | restart/resume time; partial results; idempotency | A failed run can be re-run without manual DB surgery; all runs produce consistent outputs (RAP/auditability expectation) |
 
-### B. Algorithmic / Workflow Stress (FTFL‑480 Userflow permutations)
+### B. Algorithmic / Workflow Stress (FTFL‑480 Userflow Permutations)
 
 | What we're proving | Metric(s) to record | Success criteria (measurable) |
 |---|---|---|
@@ -61,7 +46,7 @@ Your LTM consistently separates stress testing into Infrastructure, Algorithmic/
 | Privacy treatment overhead | delta in latency & CPU; suppression counts | Privacy ON does not break referential integrity; overhead quantified (e.g., +X% runtime, +Y% CPU) |
 | Multi-source linkage scenarios | correct join counts; duplicate/missed links | Cross-node linkage preserves expected overlap behaviour (the Apr 16 meeting focus: "realistic overlap in cohorts") |
 
-### C. ETL / Hyve Pipeline Scalability (Hyve Doc alignment)
+### C. ETL / Hyve Pipeline Scalability (Hyve Doc aLignment)
 
 From the Hyve design doc you captured on Thu Apr 16 ~11:48 AM–12:08 PM, the unanswered questions were "what is the output (ideally Postgres)?" and "how long does OMOP take (daily/weekly/hourly updates)?".
 
@@ -73,7 +58,7 @@ From the Hyve design doc you captured on Thu Apr 16 ~11:48 AM–12:08 PM, the un
 
 ---
 
-## 2) Test Permutation Grid (FTFL‑480 variables)
+## 2) Test Permutation Grid (FTFL‑480 Variables)
 
 Your LTM defines these FTFL‑480 permutation variables repeatedly (Apr 16 planning):
 
@@ -85,7 +70,7 @@ Your LTM defines these FTFL‑480 permutation variables repeatedly (Apr 16 plann
 
 To keep this "all combinations" grid finite and actually runnable, you need discrete levels. Here is a complete matrix defined as level-sets (so "all combinations" = cartesian product of these sets).
 
-### Recommended Level Sets (copyable)
+### Recommended Level Sets (Copyable)
 
 - Cohort size (C): `{1k, 10k, 100k, 1M, NodeFull, 5NodeFull}`
 - Scope (S):
@@ -102,17 +87,18 @@ To keep this "all combinations" grid finite and actually runnable, you need disc
 ### Total Test Count
 
 If you run _every_ combination:
+
 `|C| * |S| * |E| * |P| * |L| = 6 * 3 * 2 * 2 * 3 = 216 test cases`
 
 That's your full permutation grid. In practice, you'll run it in waves (below) to avoid spending a week finding out your dashboard is missing one metric.
 
 ---
 
-## 3) Monitoring Requirements (FTFL‑476 + Grafana Dashboard expectations)
+## 3) Monitoring Requirements (FTFL‑476 + Grafana Dashboard Expectations)
 
 Your LTM around FTFL‑476 is explicit: "monitor resource consumption whilst running the OMOP workflows" and "improve the generic workflows monitoring dashboard" ([FTFL‑476](https://fitfile.atlassian.net/browse/FTFL-476)).
 
-### A. Must-have Metrics (per node)
+### A. Must-have Metrics (Per nOde)
 
 System / container
 
@@ -145,7 +131,7 @@ Workflow / application-level
 
 ---
 
-## 4) Known Failure Points (from Apr 16 Meeting + "Expanded Analysis" note)
+## 4) Known Failure Points (From Apr 16 Meeting + "Expanded Analysis" nOte)
 
 From your Apr 16 ~2:00–3:00 PM meeting synthesis and the "Expanded Analysis…" capture (Apr 17 9:54 AM in your notes), the repeatedly stated/implicit breaking points were:
 
@@ -165,7 +151,7 @@ From your Apr 16 ~2:00–3:00 PM meeting synthesis and the "Expanded Analysis…
 
 ---
 
-## 5) Hyve Integration Questions These Tests Must Answer (Confluence alignment)
+## 5) Hyve Integration Questions These Tests Must Answer (Confluence aLignment)
 
 Directly aligned to [OMOP/The Hyve Design Document](https://fitfile.atlassian.net/wiki/spaces/FITFILE/pages/1993637891/OMOP+The+Hyve+Design+Document?atl_f=PAGETREE) (captured in your LTM on Thu Apr 16 ~11:48 AM–12:08 PM):
 
@@ -182,11 +168,11 @@ Directly aligned to [OMOP/The Hyve Design Document](https://fitfile.atlassian.ne
 
 ---
 
-## 6) Data Quality Validation (WhiteRabbit + Achilles + "don't Test garbage" gate)
+## 6) Data Quality Validation (WhiteRabbit + Achilles + "Don't Test gArbage" gAte)
 
 Your LTM makes it clear the stress test is only meaningful if each node's dataset is internally coherent and OMOP-shaped, even if you accept "not clinically perfect" realism (Ollie's Apr 16 stance: "realistic overlap in cohorts–not realistic data").
 
-### Pre-flight Quality Gates (run before Any load)
+### Pre-flight Quality Gates (Run before Any lOad)
 
 Schema & integrity
 
@@ -221,22 +207,24 @@ Overlap validation (critical for your 5-node design)
 
 ---
 
-## Stress Test Execution Plan (end-to-end)
+## Stress Test Execution Plan (End-to-end)
 
-### Phase 0—Register the Assets (0.5 day)
+### Phase 0—Register the Assets (0.5 Day)
 
 Inputs: your 5 Parquet datasets (one per node).
+
 Outputs: a manifest:
 
 - dataset version, vocab version (if known), row counts, checksum
 - node ID mapping
 
-### Phase 1—Pre-flight Quality Gates (1–2 days)
+### Phase 1—Pre-flight Quality Gates (1–2 Days)
 
 Run: Schema checks + overlap stats + Achilles/WhiteRabbit.
+
 Stop condition: any node failing integrity gates blocks load tests until fixed (otherwise you only learn "garbage in, garbage out").
 
-### Phase 2—Baseline Single-node Performance (1–2 days)
+### Phase 2—Baseline Single-node Performance (1–2 Days)
 
 Run permutation subset:
 
@@ -246,7 +234,7 @@ Run permutation subset:
 - L=L1
 Purpose: establish "normal" curves and calibrate monitoring.
 
-### Phase 3—Full Permutation Waves (3–7 Days, parallelizable)
+### Phase 3—Full Permutation Waves (3–7 Days, Parallelizable)
 
 Run the 216-case grid in waves:
 
@@ -255,14 +243,14 @@ Run the 216-case grid in waves:
 3. add federation (L2 then L3)
 Output: a ranked list of breaking points with exact reproduction coordinates (C,S,E,P,L).
 
-### Phase 4—Hyve/ETL Aligned Runs (2–5 Days, Depending on Tooling readiness)
+### Phase 4—Hyve/ETL Aligned Runs (2–5 Days, Depending on Tooling Readiness)
 
 If you can route Parquet → Hyve pipeline (or Parquet→CSV→Hyve), run:
 
 - 100k, 1M, NodeFull
 Capture throughput, DQD profile, opt-out/privacy steps, and resource envelope.
 
-### Phase 5—Report out (0.5–1 day)
+### Phase 5—Report out (0.5–1 Day)
 
 Deliverables:
 
@@ -273,7 +261,7 @@ Deliverables:
 
 ---
 
-### Expected Completion Timeline (pragmatic)
+### Expected Completion Timeline (Pragmatic)
 
 Assuming monitoring is in place (or minimally sufficient):
 
@@ -282,7 +270,7 @@ Assuming monitoring is in place (or minimally sufficient):
 
 ---
 
-### Two Quick Clarifiers (so the Plan locks)
+### Two Quick Clarifiers (So the Plan lOcks)
 
 1. For your 5 Parquet node datasets, do you already have overlap engineered (same Person_ID across nodes), or are they currently disjoint? That determines whether L2/L3 are true "linkage" tests or just "federated volume" tests.
 2. What's your intended query harness for the "OMOP userflow" (FTFL‑480): is it the FITFILE workflow runner, direct SQL scripts, or a tool like Atlas/Achilles-driven queries? This affects what we define as "Selection Scope" concretely.
@@ -389,7 +377,7 @@ Variables to test across your 5 nodes:
 - Privacy Treatment: k-anonymity and nullification on/off
 - Linkage Scenarios: Join logic across multiple data sources
 
-#### 3. Hyve ETL Stress (from Design Document)
+#### 3. Hyve ETL Stress (From Design Document)
 
 - Can The Hyve pipeline scale from 100k patients → 12M without memory overflow or database crash?
 - How long does OMOP transformation take at scale?
@@ -465,7 +453,7 @@ Based on your LTM, here's the core stress test plan skeleton:
 - [ ] Identity Linkage at Scale: Test Master Person Service (MPS) logic across fragmented datasets
 - [ ] Network Bandwidth: Monitor data movement between nodes during federated queries
 
-#### Phase 4: Hyve ETL Simulation (if applicable)
+#### Phase 4: Hyve ETL Simulation (If aPplicable)
 
 - [ ] Transformation Throughput: Time the ETL pipeline processing each node's Parquet → OMOP ingestion
 - [ ] Memory Overflow Testing: Gradually increase node size until you hit memory limits

@@ -1,22 +1,16 @@
 ---
-created: 2026-06-08 11:35:53+00:00
+created: 2026-06-08T11:35:53+00:00
 date: 2026-05-28
-modified: 2026-06-08 11:49:17+00:00
+modified: 2026-07-04T10:51:30+00:00
+permalink: llmeon/30-library/200-projects/hermes-cost-optimisation-free-model-routing-strategy
 project: hermes-agent-orchestrator
 project_category: hermes_optimisastion
 project_name: Hermes Optimisastion
 project_status: active
 status: design-proposal
-tags:
-- agent-orchestration
-- claude
-- cost-optimization
-- hermes
-- llm-routing
-- openrouter
+tags: [agent-orchestration, claude, cost-optimization, hermes, llm-routing, openrouter]
 title: Hermes Cost Optimisation - Free Model Routing Strategy
 type: null
-permalink: llmeon/30-library/200-projects/hermes-cost-optimisation-free-model-routing-strategy
 ---
 
 ## Hermes Cost Optimisation—Free Model Routing Strategy
@@ -47,7 +41,7 @@ Phases 1 and 3 are largely mechanical. Phase 2 is where Claude earns its cost.
 
 ### What a Free Model Could Handle
 
-#### Mechanical Operations (free Model viable)
+#### Mechanical Operations (Free Model vIable)
 
 | Task Type | Examples from the Session |
 |---|---|
@@ -61,7 +55,7 @@ Phases 1 and 3 are largely mechanical. Phase 2 is where Claude earns its cost.
 | Reading known file paths | values.yaml, ConfigMap contents, ArgoCD Application CR |
 | Extracting and dumping structured data | kubectl jsonpath + pipe to file for later analysis |
 
-#### Concrete Example—ArgoCD Deadlock Cycle (repeated 5× in the session)
+#### Concrete Example—ArgoCD Deadlock Cycle (Repeated 5× in the sEssion)
 
 ```
 check app status →

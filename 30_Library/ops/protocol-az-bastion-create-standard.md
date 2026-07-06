@@ -1,16 +1,13 @@
 ---
-created: 2025-12-04 12:02:41+00:00
+created: 2025-12-04T12:02:41+00:00
 last_reviewed: null
-modified: 2026-03-14 11:10:09+00:00
+modified: 2026-07-04T10:50:38+00:00
+permalink: llmeon/30-library/ops/protocol-az-bastion-create-standard
 status: processing
-tags:
-- bastion
-- customer/lcrca
-- ssh
+tags: [bastion, customer/lcrca, ssh]
 title: protocol-az-bastion-create-standard
 type: protocol
 updated: null
-permalink: llmeon/30-library/ops/protocol-az-bastion-create-standard
 ---
 
 ## 1. Create the Standard Bastion

@@ -1,14 +1,13 @@
 ---
-created: 2025-02-07 12:57:56+00:00
-modified: 2026-05-26 11:44:21+00:00
+created: 2025-02-07T12:57:56+00:00
+modified: 2026-07-04T10:51:07+00:00
+permalink: llmeon/30-library/so-t/protocol-azure-customer-preparation
 Reviewed: false
 status: evergreen
-tags:
-- ff_deploy
+tags: [ff_deploy]
 title: Protocol - Azure Customer Preparation
 type: Protocol
 updated: 2026-02-01
-permalink: llmeon/30-library/so-t/protocol-azure-customer-preparation
 ---
 
 ## Azure Customer Preparation Checklist

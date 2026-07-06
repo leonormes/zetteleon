@@ -1,21 +1,16 @@
 ---
-created: 2026-04-14 20:17:56+00:00
+created: 2026-04-14T20:17:56+00:00
 created_utc: '2026-04-14T12:40:00Z'
 kind: mechanism
-modified: 2026-05-26 11:44:36+00:00
+modified: 2026-07-04T10:51:53+00:00
+permalink: llmeon/30-library/100-zettelkasten/closed-type-definitions
 source_title: CUE — A Type System for the Cloud
 source_url: https://www.youtube.com/watch?v=FsUytTpDNro
 status: seed
-tags:
-- cue
-- policy-enforcement
-- Profile
-- schema-validation
-- strictness
+tags: [cue, policy-enforcement, Profile, schema-validation, strictness]
 title: Closed Type Definitions
 type: atom
 upstream: '[[SoT - CUE Configuration]]'
-permalink: llmeon/30-library/100-zettelkasten/closed-type-definitions
 ---
 
 ## Closed Type Definitions

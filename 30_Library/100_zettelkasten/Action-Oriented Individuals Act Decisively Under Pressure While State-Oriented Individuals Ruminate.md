@@ -1,20 +1,15 @@
 ---
-aliases:
-- Action Orientation
-- State Orientation
-created: 2025-11-12 14:10:08+00:00
+aliases: [Action Orientation, State Orientation]
+created: 2025-11-12T14:10:08+00:00
 last_reviewed: ''
-modified: 2026-05-26 11:44:36+00:00
+modified: 2026-07-04T10:51:54+00:00
+permalink: llmeon/30-library/100-zettelkasten/action-oriented-individuals-act-decisively-under-pressure-while-state-oriented-individuals-ruminate
 status: stable
-tags:
-- personality
-- TheHuman/Psychology
-- volition
-title: Action-Oriented Individuals Act Decisively Under Pressure While State-Oriented
+tags: [personality, TheHuman/Psychology, volition]
+title: Action-Oriented Individuals Act Decisively Under Pressure While State-Oriented Individuals Ruminate
   Individuals Ruminate
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/action-oriented-individuals-act-decisively-under-pressure-while-state-oriented-individuals-ruminate
 ---
 
 ## Action-Oriented Individuals Act Decisively Under Pressure While State-Oriented Individuals Ruminate

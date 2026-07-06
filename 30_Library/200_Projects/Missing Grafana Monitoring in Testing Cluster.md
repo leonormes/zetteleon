@@ -1,12 +1,12 @@
 ---
-created: 2026-05-12 08:40:03+00:00
-modified: 2026-06-08 11:49:22+00:00
+created: 2026-05-12T08:40:03+00:00
+modified: 2026-07-04T10:51:28+00:00
+permalink: llmeon/30-library/200-projects/missing-grafana-monitoring-in-testing-cluster
 project_category: refined_deployment
 project_name: Refined Deployment
 project_status: active
 title: Missing Grafana Monitoring in Testing Cluster
 type: null
-permalink: llmeon/30-library/200-projects/missing-grafana-monitoring-in-testing-cluster
 ---
 
 No new findings. Both drained pages return `recommendation: 'fetchMore'` on their respective chains, but the content is entirely duplicative of what was already captured in the synthesis—the same kube-state-metrics collision warnings, the same `fitfile-image-pull-secret` event counts, and the same Alloy job-label fix details (MR!758, `feature/FTFL-638-add-labels-for-logs`, `GRAFANA_ALLOY_FIX_PLAN.md`). One genuinely new detail surfaced from the second chain:
@@ -34,24 +34,24 @@ The testing cluster (`fitfile-cloud-testing-aks-cluster`, Grafana Cloud stack: `
 
 ### Root Causes Identified
 
-#### Root Cause 1—Wrong Prometheus Push Endpoint (fixed)
+#### Root Cause 1—Wrong Prometheus Push Endpoint (Fixed)
 
 - File: `ffnodes/fitfile/testing/values.yaml:273`
 - What broke: `alloy-metrics` was pushing to `/api/v1/write`. The Grafana Cloud Prometheus backend silently rejects that path; it requires `/api/prom/push`.
 - Effect: All Prometheus metrics from the testing cluster were being silently dropped. Zero series flowing.
 
-#### Root Cause 2—`labelsToKeep` Regression in Base Chart (fixed, then iterated)
+#### Root Cause 2—`labelsToKeep` Regression in Base Chart (Fixed, then iTerated)
 
 - File: `charts/ffnode/values.yaml:536`
 - What broke: A cardinality-reduction attempt set `labelsToKeep: ["pod"]` only. The live Alloy config showed `stage.label_keep { values = ["_tenant_id_", "pod"] }`, stripping `namespace` and `container` from all pod log streams before shipping to Loki.
 - Effect measured live: 42 total log streams in the last 30 min; 37/42 pod log streams lost `namespace` and `container` as queryable labels. Any query like `{namespace="fitfile"}` returned nothing—logs could only be found by exact pod name (fragile, breaks on redeploy).
 
-#### Root Cause 3—Schema Mismatch: `podLogs` Vs `logs.pod_logs` (fixed)
+#### Root Cause 3—Schema Mismatch: `podLogs` Vs `logs.pod_logs` (Fixed)
 
 - File: `ffnodes/fitfile/testing/values.yaml`
 - What broke: The v3.x chart uses the key `logs.pod_logs.enabled`, not `podLogs.enabled`. The wrong key name meant the pod logs pipeline may not have been activating at all after the chart upgrade.
 
-#### Root Cause 4—Broken `job` Label Relabel Rule in Chart V3.7.5 (fixed)
+#### Root Cause 4—Broken `job` Label Relabel Rule in Chart V3.7.5 (Fixed)
 
 - Scope: Specific to `grafana-k8s-monitoring v3.7.5`
 - What broke: The chart generates a broken relabel rule for the `job` label on pod logs—it drops the container name, producing `job="namespace"` instead of `job="namespace/container"`. This breaks log filtering and analysis by job.
@@ -91,9 +91,9 @@ Confirmed by running `gcx logs query` and `gcx metrics query` against `fitfilete
 
 ---
 
-### Outstanding / Open Items (not yet fixed)
+### Outstanding / Open Items (Not yet fIxed)
 
-#### Issue 1—`kube-state-metrics` Timestamp Collision (ongoing Data loss)
+#### Issue 1—`kube-state-metrics` Timestamp Collision (Ongoing Data lOss)
 
 - Symptom: `alloy-metrics-0` logs this every 60 seconds:
 
@@ -106,7 +106,7 @@ Confirmed by running `gcx logs query` and `gcx metrics query` against `fitfilete
 - Recommended fix: Inspect `kubectl get endpoints grafana-k8s-monitoring-kube-state-metrics -n monitoring -o yaml` for multiple ports; switch discovery to `role = "service"` or constrain the port selector.
 - Status: Identified, not yet addressed in any PR.
 
-#### Issue 2—`fitfile-image-pull-secret` Missing Cluster-wide (pre-existing)
+#### Issue 2—`fitfile-image-pull-secret` Missing Cluster-wide (Pre-existing)
 
 - Symptom: 171–175+ `FailedToRetrieveImagePullSecret` warnings across `aks-system` and other namespaces (visible in Grafana Loki, `{namespace="thehyve", cluster="testing"}`).
 - Impact: Pods are currently running from node cache. Any pod rescheduled to a node without a cached image will fail to start.

@@ -1,14 +1,10 @@
 ---
-created: 2026-04-10 13:00:00+00:00
-modified: 2026-05-26 11:44:36+00:00
-tags:
-- economics
-- jevons-paradox
-- labor
-- software-industry
-title: Cheaper Code Production via Agents Increases Software Volume Rather Than Reducing
-  Developers
+created: 2026-04-10T13:00:00+00:00
+modified: 2026-07-04T10:51:53+00:00
 permalink: llmeon/30-library/100-zettelkasten/cheaper-code-production-via-agents-increases-software-volume-rather-than-reducing-developers
+tags: [economics, jevons-paradox, labor, software-industry]
+title: Cheaper Code Production via Agents Increases Software Volume Rather Than Reducing Developers
+  Developers
 ---
 
 ## Cheaper Code Production via Agents Increases Software Volume Rather Than Reducing Developers

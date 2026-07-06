@@ -1,17 +1,17 @@
 ---
-created: 2026-06-22 09:16:18+00:00
-modified: 2026-06-22 09:17:17+00:00
-title: configure-basic-memory.prompt
+created: 2026-06-22T09:16:18+00:00
+modified: 2026-07-04T10:52:05+00:00
 permalink: llmeon/10-system/prompts/configure-basic-memory.prompt
+title: configure-basic-memory.prompt
 ---
 
-## Task: Configure Basic Memory for the LLMeon Zettelkasten (chezmoi-managed, local-first)
+## Task: Configure Basic Memory for the LLMeon Zettelkasten (Chezmoi-managed, lOcal-first)
 
 You are my engineering assistant on macOS. Configure Basic Memory (<https://docs.basicmemory.com>) as a shared, local Markdown memory layer, with my existing Obsidian vault as the single source of truth. Work through my chezmoi-managed dotfiles. Be idempotent, discover the real state of my system rather than assuming, and stop at the one DECISION POINT below before proceeding.
 
 ---
 
-### Operating Constraints (read First, Do not violate)
+### Operating Constraints (Read First, Do not vIolate)
 
 - chezmoi is the source of truth for config. Every persistent config change is made in the chezmoi source directory, then applied with `chezmoi apply`. Never hand-edit a target file (e.g. `~/.hermes/config.yaml`) directly—locate its source with `chezmoi source-path <target>` and edit that.
 - Local-first. No cloud, no API keys. Embeddings run locally via `fastembed` (default). Do not enable `cloud_mode` or run any `bm cloud …` command.
@@ -42,7 +42,7 @@ Relevant facts about this machine:
 
 ---
 
-### 2. Hard Rules for Chezmoi (the Failure Modes to avoid)
+### 2. Hard Rules for Chezmoi (The Failure Modes to aVoid)
 
 | File / path | Manage in chezmoi? | Why |
 |---|---|---|
@@ -58,7 +58,7 @@ The `~/.basic-memory/config.json` mutation problem is the single most important 
 
 ---
 
-### 3. Pre-flight—discover, Don't Assume (run These, Report findings)
+### 3. Pre-flight—discover, Don't Assume (Run These, Report fIndings)
 
 ```bash
 command -v uv && uv --version                      # uv must be on PATH
@@ -88,7 +88,7 @@ bm --version
 
 ---
 
-### 5. Register the Vault as a project—via a Chezmoi `run_onchange_` Script (NOT a Static Config file)
+### 5. Register the Vault as a project—via a Chezmoi `run_onchange_` Script (NOT a Static Config fIle)
 
 Create this in the chezmoi source directory (alongside other dotfiles, not inside `private_dot_hermes/`):
 
@@ -163,7 +163,7 @@ Version caveat—do not be surprised: on Hermes `v0.14.0` the native `/bm-*` sla
 
 ---
 
-### 7. DECISION POINT—capture Policy (protect the Zettelkasten)—STOP AND ASK ME
+### 7. DECISION POINT—capture Policy (Protect the Zettelkasten)—STOP AND ASK ME
 
 The plugin's auto-capture writes a running transcript every turn plus an end-of-session summary. By default it targets project `hermes-memory` at `~/hermes-memory/`. Raw transcripts do not belong in a curated Zettelkasten. Present me these three options and wait for my choice:
 
@@ -194,7 +194,7 @@ If I pick B or C, write the chosen settings to the chezmoi source for `~/.hermes
 
 ---
 
-### 8. Wire the other Clients to the Same Vault (the "shared brain")
+### 8. Wire the other Clients to the Same Vault (The "Shared bRain")
 
 Register Basic Memory with Claude Desktop and Claude Code so they read/write the same `llmeon` vault (they should _not_ touch my agent's private `hermes-memory` log). Match my existing MCP config style from §3—if I aggregate through `mcp-proxy`, add it there once; otherwise add it to each client.
 
@@ -218,7 +218,7 @@ Canonical stdio entry:
 
 ---
 
-### 9. Verify End-to-end (then Clean up)
+### 9. Verify End-to-end (Then Clean uP)
 
 1. From a Hermes session: `bm_write` a throwaway note titled "Basic Memory smoke test" into `llmeon`.
 2. Confirm the `.md` file appears under `/Volumes/DAL/Zettelkasten/LLMeon/` and opens in Obsidian (backlinks/graph render).
@@ -230,7 +230,7 @@ Canonical stdio entry:
 
 ---
 
-### 10. Final Report to Me (concise, Micro-step format)
+### 10. Final Report to Me (Concise, Micro-step fOrmat)
 
 - What changed, and which files are now in chezmoi vs intentionally excluded (and why).
 - The capture option I chose and where auto-captured session notes land.

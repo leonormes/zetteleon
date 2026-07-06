@@ -1,21 +1,13 @@
 ---
-aliases:
-- Microsegmentation Deployment
-- NIST CSF Implementation
-- Zero Trust & NIST
-created: 2026-04-02 11:10:00+00:00
+aliases: [Microsegmentation Deployment, NIST CSF Implementation, Zero Trust & NIST]
+created: 2026-04-02T11:10:00+00:00
 last_reviewed: 2026-04-02
-modified: 2026-05-26 11:44:21+00:00
+modified: 2026-07-04T10:51:06+00:00
+permalink: llmeon/30-library/so-t/protocol-nist-csf-implementation-via-microsegmentation
 status: evergreen
-tags:
-- cybersecurity
-- microsegmentation
-- nist
-- protocol
-- zero-trust
+tags: [cybersecurity, microsegmentation, nist, protocol, zero-trust]
 title: Protocol - NIST CSF Implementation via Microsegmentation
 type: protocol
-permalink: llmeon/30-library/so-t/protocol-nist-csf-implementation-via-microsegmentation
 ---
 
 ## Logic Map

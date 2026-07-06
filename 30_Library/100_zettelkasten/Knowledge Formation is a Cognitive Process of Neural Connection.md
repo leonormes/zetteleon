@@ -1,18 +1,14 @@
 ---
-aliases:
-- Neural Basis of Knowledge
-created: 2025-11-01 12:10:05+00:00
+aliases: [Neural Basis of Knowledge]
+created: 2025-11-01T12:10:05+00:00
 last_reviewed: '2025-11-01'
-modified: 2026-02-01 15:08:32+00:00
+modified: 2026-07-04T10:51:49+00:00
+permalink: llmeon/30-library/100-zettelkasten/knowledge-formation-is-a-cognitive-process-of-neural-connection
 status: seedling
-tags:
-- knowledge
-- TheHuman/Cognition
-- TheHuman/Neuroscience
+tags: [knowledge, TheHuman/Cognition, TheHuman/Neuroscience]
 title: Knowledge Formation is a Cognitive Process of Neural Connection
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/knowledge-formation-is-a-cognitive-process-of-neural-connection
 ---
 
 ## Knowledge Formation is a Cognitive Process of Neural Connection

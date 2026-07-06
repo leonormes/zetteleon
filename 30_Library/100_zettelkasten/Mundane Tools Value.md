@@ -1,16 +1,15 @@
 ---
 aliases: []
-created: 2025-02-07 12:57:54+00:00
+created: 2025-02-07T12:57:54+00:00
 ID: mundane_tools_value
 last_reviewed: ''
-modified: 2026-02-01 15:08:30+00:00
+modified: 2026-07-04T10:51:49+00:00
+permalink: llmeon/30-library/100-zettelkasten/mundane-tools-value
 status: ''
-tags:
-- devex
+tags: [devex]
 title: Mundane Tools Value
 type: permanent
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/mundane-tools-value
 ---
 
 While often overlooked in favour of learning new technologies, mastering the tools you already use can significantly contribute to your effectiveness as a programmer.

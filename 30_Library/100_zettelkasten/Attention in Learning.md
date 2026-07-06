@@ -1,15 +1,14 @@
 ---
 aliases: []
-created: 2025-05-27 17:55:20+00:00
+created: 2025-05-27T17:55:20+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:36+00:00
+modified: 2026-07-04T10:51:54+00:00
+permalink: llmeon/30-library/100-zettelkasten/attention-in-learning
 status: ''
-tags:
-- learning
+tags: [learning]
 title: Attention in Learning
 type: ''
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/attention-in-learning
 ---
 
 Attention is the cognitive process of selectively concentrating on one aspect of the environment while ignoring other things.

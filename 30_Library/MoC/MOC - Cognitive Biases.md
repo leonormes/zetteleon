@@ -1,19 +1,14 @@
 ---
-aliases:
-- Cognitive Biases MOC
-created: 2025-12-12 12:05:00+00:00
+aliases: [Cognitive Biases MOC]
+created: 2025-12-12T12:05:00+00:00
 last_reviewed: ''
-modified: 2026-05-26 11:44:23+00:00
+modified: 2026-07-04T10:51:11+00:00
+permalink: llmeon/30-library/mo-c/moc-cognitive-biases
 status: seedling
-tags:
-- bias
-- TheHuman/Cognition
-- TheHuman/Psychology
-- type/moc
+tags: [bias, TheHuman/Cognition, TheHuman/Psychology, type/moc]
 title: MOC - Cognitive Biases
 type: map
 updated: null
-permalink: llmeon/30-library/mo-c/moc-cognitive-biases
 ---
 
 ## Overview

@@ -1,12 +1,12 @@
 ---
-created: 2026-05-29 08:55:46+00:00
-modified: 2026-06-08 11:49:16+00:00
+created: 2026-05-29T08:55:46+00:00
+modified: 2026-07-04T10:51:36+00:00
+permalink: llmeon/30-library/200-projects/fitfile
 project_category: deployments
 project_name: Deployments
 project_status: active
 title: FITFILE
 type: null
-permalink: llmeon/30-library/200-projects/fitfile
 ---
 
 ## Aks-ff-uks-gp-1

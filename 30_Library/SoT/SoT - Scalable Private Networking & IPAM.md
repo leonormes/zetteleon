@@ -1,24 +1,16 @@
 ---
-aliases:
-- BGP Hub and Spoke Architecture
-- Private IPAM Strategy
-- Scalable Network Connectivity
-created: 2026-02-11 08:15:00+00:00
+aliases: [BGP Hub and Spoke Architecture, Private IPAM Strategy, Scalable Network Connectivity]
+created: 2026-02-11T08:15:00+00:00
 last-synthesis: 2026-02-11
-modified: 2026-05-26 11:44:17+00:00
+modified: 2026-07-04T10:50:51+00:00
+permalink: llmeon/30-library/so-t/so-t-scalable-private-networking-ipam
 source_of_truth: true
 status: evergreen
 synthesis-count: 1
-tags:
-- architecture
-- domain/infrastructure
-- ipam
-- networking
-- sot
+tags: [architecture, domain/infrastructure, ipam, networking, sot]
 title: SoT - Scalable Private Networking & IPAM
 trust-level: stable
 type: SoT
-permalink: llmeon/30-library/so-t/so-t-scalable-private-networking-ipam
 ---
 
 ## Minimum Viable Understanding (MVU)

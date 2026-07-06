@@ -1,21 +1,14 @@
 ---
-created: 2026-02-06 14:30:00+00:00
+created: 2026-02-06T14:30:00+00:00
 last-synthesis: 2026-04-05
-modified: 2026-05-26 11:44:19+00:00
+modified: 2026-07-04T10:50:56+00:00
+permalink: llmeon/30-library/so-t/so-t-infrastructure-complexity
 source_of_truth: true
 status: evergreen
 synthesis_count: 3
-tags:
-- architecture/complexity
-- devops
-- domain/infrastructure
-- Schema
-- terraform
-- theory/systems
-- type/SoT
+tags: [architecture/complexity, devops, domain/infrastructure, Schema, terraform, theory/systems, type/SoT]
 title: SoT - Infrastructure Complexity
 trust-level: stable
-permalink: llmeon/30-library/so-t/so-t-infrastructure-complexity
 ---
 
 ## Minimum Viable Understanding (MVU)

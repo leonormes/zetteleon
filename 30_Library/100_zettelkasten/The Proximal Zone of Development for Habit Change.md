@@ -1,20 +1,14 @@
 ---
-aliases:
-- Growth Zone
-- Optimal Challenge Zone
-created: 2025-10-30 15:04:20+00:00
+aliases: [Growth Zone, Optimal Challenge Zone]
+created: 2025-10-30T15:04:20+00:00
 last_reviewed: '2025-10-30T00:00:00.000Z'
-modified: 2026-02-01 15:08:25+00:00
+modified: 2026-07-04T10:51:44+00:00
+permalink: llmeon/30-library/100-zettelkasten/the-proximal-zone-of-development-for-habit-change
 status: seedling
-tags:
-- growth
-- learning-theory
-- TheHuman/Habits
-- TheHuman/Health/ADHD
+tags: [growth, learning-theory, TheHuman/Habits, TheHuman/Health/ADHD]
 title: The Proximal Zone of Development for Habit Change
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/the-proximal-zone-of-development-for-habit-change
 ---
 
 ## The Proximal Zone of Development for Habit Change

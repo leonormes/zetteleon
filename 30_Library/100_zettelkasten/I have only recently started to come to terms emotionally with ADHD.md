@@ -1,15 +1,14 @@
 ---
 aliases: []
-created: 2025-05-18 09:46:26+00:00
+created: 2025-05-18T09:46:26+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:32+00:00
+modified: 2026-07-04T10:51:50+00:00
+permalink: llmeon/30-library/100-zettelkasten/i-have-only-recently-started-to-come-to-terms-emotionally-with-adhd
 status: ''
-tags:
-- TheHuman/Health/ADHD
+tags: [TheHuman/Health/ADHD]
 title: I have only recently started to come to terms emotionally with ADHD
 type: ''
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/i-have-only-recently-started-to-come-to-terms-emotionally-with-adhd
 ---
 
 [[I have a lot of shame about my life]]

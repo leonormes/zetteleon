@@ -1,22 +1,12 @@
 ---
-aliases:
-- AFM Hub
-- Applied Formal Methods Index
-- Formal Foundations Hub
-created: 2026-04-19 10:00:00+01:00
-modified: 2026-05-26 11:44:23+00:00
-see_also:
-- '[[MOC - Formal Logic & Philosophy (Triage)]]'
-- '[[MOC - The Unified Systems Paradigm]]'
-supersedes: '[[MOC - Formal Logic & Philosophy (Triage)]]'
-tags:
-- prodos/moc
-- topic/formal-methods
-- topic/mathematics
-- topic/software-architecture
-- topic/type-theory
-title: MOC - Applied Formal Methods
+aliases: [AFM Hub, Applied Formal Methods Index, Formal Foundations Hub]
+created: 2026-04-19T09:00:00+00:00
+modified: 2026-07-04T10:51:13+00:00
 permalink: llmeon/30-library/mo-c/moc-applied-formal-methods
+see_also: ["[[MOC - Formal Logic & Philosophy (Triage)]]", "[[MOC - The Unified Systems Paradigm]]"]
+supersedes: '[[MOC - Formal Logic & Philosophy (Triage)]]'
+tags: [prodos/moc, topic/formal-methods, topic/mathematics, topic/software-architecture, topic/type-theory]
+title: MOC - Applied Formal Methods
 ---
 
 ## MOC - Applied Formal Methods

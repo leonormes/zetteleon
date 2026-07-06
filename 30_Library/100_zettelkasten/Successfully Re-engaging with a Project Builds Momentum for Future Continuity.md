@@ -1,18 +1,14 @@
 ---
-aliases:
-- Evidence of Continuity
-created: 2025-11-11 19:05:15+00:00
+aliases: [Evidence of Continuity]
+created: 2025-11-11T19:05:15+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:26+00:00
+modified: 2026-07-04T10:51:45+00:00
+permalink: llmeon/30-library/100-zettelkasten/successfully-re-engaging-with-a-project-builds-momentum-for-future-continuity
 status: seedling
-tags:
-- TheHuman/Habits
-- TheHuman/Psychology
-- topic/productivity
+tags: [TheHuman/Habits, TheHuman/Psychology, topic/productivity]
 title: Successfully Re-engaging with a Project Builds Momentum for Future Continuity
 type: principle
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/successfully-re-engaging-with-a-project-builds-momentum-for-future-continuity
 ---
 
 ## Successfully Re-engaging with a Project Builds Momentum for Future Continuity

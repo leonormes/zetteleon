@@ -1,20 +1,15 @@
 ---
-aliases:
-- Shared Responsibility in a Relationship
-created: 2025-11-10 10:03:00+00:00
+aliases: [Shared Responsibility in a Relationship]
+created: 2025-11-10T10:03:00+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:27+00:00
+modified: 2026-07-04T10:51:45+00:00
+permalink: llmeon/30-library/100-zettelkasten/shared-responsibility-in-a-partnership-includes-physical-mental-and-emotional-labor
 status: seedling
-tags:
-- emotional-labor
-- mental-load
-- relationship
-- responsibility
-title: Shared Responsibility in a Partnership Includes Physical Mental and Emotional
+tags: [emotional-labor, mental-load, relationship, responsibility]
+title: Shared Responsibility in a Partnership Includes Physical Mental and Emotional Labor
   Labor
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/shared-responsibility-in-a-partnership-includes-physical-mental-and-emotional-labor
 ---
 
 ## Shared Responsibility in a Partnership Includes Physical Mental and Emotional Labor

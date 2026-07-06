@@ -1,21 +1,16 @@
 ---
-created: 2026-02-22 16:57:44+00:00
+created: 2026-02-22T16:57:44+00:00
 hop_level: local
 last_verified: 2026-02-22
-modified: 2026-03-14 11:10:10+00:00
+modified: 2026-07-04T10:50:42+00:00
+permalink: llmeon/30-library/ops/cmd-kubectl-argocd-get-repo-server-config
 requires_tunnel: false
 status: active
-tags:
-- argocd
-- cmd
-- config
-- repo-server
-- volume
+tags: [argocd, cmd, config, repo-server, volume]
 target_service: argocd
 title: cmd_kubectl_argocd_get_repo_server_config
 tool: kubectl
 type: command
-permalink: llmeon/30-library/ops/cmd-kubectl-argocd-get-repo-server-config
 ---
 
 ## Get ArgoCD Repo-Server Deployment Config

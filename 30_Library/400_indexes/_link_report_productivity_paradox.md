@@ -1,12 +1,12 @@
 ---
-created: 2026-04-14 20:55:38+00:00
+created: 2026-04-14T20:55:38+00:00
 created_utc: '2026-04-14T14:30:00Z'
-modified: 2026-05-26 11:44:23+00:00
+modified: 2026-07-04T10:51:14+00:00
+permalink: llmeon/30-library/400-indexes/link-report-productivity-paradox
 source_atoms: '[[tmp_atoms_productivity_paradox.md]]'
 status: tmp
 title: _link_report_productivity_paradox
 type: link_report
-permalink: llmeon/30-library/400-indexes/link-report-productivity-paradox
 ---
 
 ## Link Report: Why Is AI Making My Job Worse?
@@ -30,6 +30,6 @@ permalink: llmeon/30-library/400-indexes/link-report-productivity-paradox
 | [[Cognitive Firewalls]] | 3 | [[SoT - Principles for Peaceful Productivity]]—upstream |
 | [[Jevons Paradox of Attention]] | 3 | [[SoT - Principles for Peaceful Productivity]]—upstream |
 
-### Orphan Atoms (no Links found)
+### Orphan Atoms (No Links fOund)
 
 (none)

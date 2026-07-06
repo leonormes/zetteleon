@@ -1,14 +1,14 @@
 ---
 aliases: []
-created: 2025-05-26 20:23:10+00:00
+created: 2025-05-26T20:23:10+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:24+00:00
+modified: 2026-07-04T10:51:44+00:00
+permalink: llmeon/30-library/100-zettelkasten/thinking-patterns-biases-and-heuristics-in-development
 status: ''
 tags: []
 title: Thinking Patterns, Biases, and Heuristics in Development
 type: ''
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/thinking-patterns-biases-and-heuristics-in-development
 ---
 
 Software development is a rich landscape of problem-solving, where developers employ various thinking patterns, strategies, and mental shortcuts (heuristics) to navigate complexity. However, human cognition is also susceptible to systematic errors in thinking known as cognitive biases, which can impact decision-making and code quality.

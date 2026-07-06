@@ -1,14 +1,14 @@
 ---
-created: 2026-06-02 21:00:24+00:00
-modified: 2026-06-08 11:49:16+00:00
+created: 2026-06-02T21:00:24+00:00
+modified: 2026-07-04T10:51:37+00:00
 next-action: the exact Todoist task text
+permalink: llmeon/30-library/200-projects/decorate-office
 project_category: personal
+project_name: Home
 project_status: archived
 status: active
 title: Decorate office
 type: null
-project_name: Home
-permalink: llmeon/30-library/200-projects/decorate-office
 ---
 
 ## Outcome—definition Of Done
@@ -19,7 +19,7 @@ permalink: llmeon/30-library/200-projects/decorate-office
 
 the novelty or reason—this fuels initiation, not urgency
 
-## Next Physical Action → (lives in Todoist)
+## Next Physical Action → (Lives in Todoist)
 
 the single ≤15-min starter currently sitting in Todoist
 

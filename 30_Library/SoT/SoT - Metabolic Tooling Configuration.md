@@ -1,15 +1,11 @@
 ---
-created: 2026-01-10 09:34:38+00:00
-modified: 2026-02-01 15:07:55+00:00
+created: 2026-01-10T09:34:38+00:00
+modified: 2026-07-04T10:50:55+00:00
+permalink: llmeon/30-library/so-t/so-t-metabolic-tooling-configuration
 status: active
-tags:
-- configuration
-- health
-- nutracheck
-- tools
+tags: [configuration, health, nutracheck, tools]
 title: SoT - Metabolic Tooling Configuration
 type: sot
-permalink: llmeon/30-library/so-t/so-t-metabolic-tooling-configuration
 ---
 
 ## 1. Nutracheck Configuration

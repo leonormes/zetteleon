@@ -1,20 +1,16 @@
 ---
-created: 2026-04-14 20:26:00+00:00
+created: 2026-04-14T20:26:00+00:00
 created_utc: '2026-04-14T13:20:00Z'
 kind: definition
-modified: 2026-05-26 11:44:35+00:00
+modified: 2026-07-04T10:51:50+00:00
+permalink: llmeon/30-library/100-zettelkasten/harness-engineering
 source_title: Archon and Extreme Harness Engineering
 source_url: https://youtube.com/watch?v=qMnClynCAmM
 status: seed
-tags:
-- ai-agents
-- harness-engineering
-- methodology
-- orchestration
+tags: [ai-agents, harness-engineering, methodology, orchestration]
 title: Harness Engineering
 type: atom
 upstream: '[[SoT - Agentic AI Design Patterns]]'
-permalink: llmeon/30-library/100-zettelkasten/harness-engineering
 ---
 
 ## Harness Engineering

@@ -1,14 +1,10 @@
 ---
-created: 2026-04-02 11:10:00+01:00
-modified: 2026-05-26 11:44:22+00:00
-status: active
-tags:
-- moc
-- secrets
-- security
-- vault
-title: MOC - Secret Management
+created: 2026-04-02T10:10:00+00:00
+modified: 2026-07-04T10:51:09+00:00
 permalink: llmeon/30-library/mo-c/moc-secret-management
+status: active
+tags: [moc, secrets, security, vault]
+title: MOC - Secret Management
 ---
 
 ## MOC - Secret Management

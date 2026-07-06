@@ -1,20 +1,14 @@
 ---
-aliases:
-- Plato's Forms and Language
-created: 2025-07-16 17:30:04+00:00
+aliases: ["Plato's Forms and Language"]
+created: 2025-07-16T17:30:04+00:00
 last_reviewed: 'null'
-modified: 2026-02-01 15:08:24+00:00
+modified: 2026-07-04T10:51:44+00:00
+permalink: llmeon/30-library/100-zettelkasten/the-word-as-shadow-metaphor-in-philosophy
 status: 'null'
-tags:
-- language
-- paraphrasing
-- plato
-- semiotics
-- topic/philosophy
+tags: [language, paraphrasing, plato, semiotics, topic/philosophy]
 title: The Word-as-Shadow Metaphor in Philosophy
 type: 'null'
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/the-word-as-shadow-metaphor-in-philosophy
 ---
 
 The idea of Words as Imperfect Representations of Meaning resonates with several major philosophical concepts:

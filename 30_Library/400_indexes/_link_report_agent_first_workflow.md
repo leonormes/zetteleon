@@ -1,12 +1,12 @@
 ---
-created: 2026-04-13 14:35:19+00:00
+created: 2026-04-13T14:35:19+00:00
 created_utc: '2026-04-13T11:00:00Z'
-modified: 2026-05-26 11:44:23+00:00
+modified: 2026-07-04T10:51:14+00:00
+permalink: llmeon/30-library/400-indexes/link-report-agent-first-workflow
 source_atoms: '[[tmp_atoms_agent_first_workflow.md]]'
 status: tmp
 title: _link_report_agent_first_workflow
 type: link_report
-permalink: llmeon/30-library/400-indexes/link-report-agent-first-workflow
 ---
 
 ## Link Report: The Agent-First Workflow
@@ -30,6 +30,6 @@ permalink: llmeon/30-library/400-indexes/link-report-agent-first-workflow
 | [[Cost Reduction of Technical Exploration]] | 1 | [[Cheaper Code Production via Agents Increases Software Volume Rather Than Reducing Developers]]—shared mechanism |
 | [[Software Jevons Paradox]] | 2 | [[Cheaper Code Production via Agents Increases Software Volume Rather Than Reducing Developers]]—direct concept match |
 
-### Orphan Atoms (no Links found)
+### Orphan Atoms (No Links fOund)
 
 (None)

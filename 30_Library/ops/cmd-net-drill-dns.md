@@ -1,21 +1,17 @@
 ---
-created: 2026-02-19 13:14:43+00:00
+created: 2026-02-19T13:14:43+00:00
 hop_level: local
-modified: 2026-03-14 11:10:11+00:00
+modified: 2026-07-04T10:50:43+00:00
+permalink: llmeon/30-library/ops/cmd-net-drill-dns
 requires_tunnel: false
-tags:
-- atomic
-- dns
-- drill
-- network
+tags: [atomic, dns, drill, network]
 target_service: network
 title: cmd-net-drill-dns
 tool: drill
 type: atomic_command
-permalink: llmeon/30-library/ops/cmd-net-drill-dns
 ---
 
-## Advanced DNS Query (drill)
+## Advanced DNS Query (Drill)
 
 ### 🎯 Intent
 
@@ -52,7 +48,7 @@ drill <record_type> <hostname>
 drill -T <hostname>
 ```
 
-#### 4. Verbose Info (similar to Dig +trace)
+#### 4. Verbose Info (Similar to Dig +trace)
 
 ```bash
 drill -V 5 <hostname>

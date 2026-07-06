@@ -1,22 +1,14 @@
 ---
-aliases:
-- AWS vs Azure Networking
-- Cloud Networking Concepts
-- VPC and VNet Fundamentals
-created: 2025-12-29 20:01:57+00:00
+aliases: [AWS vs Azure Networking, Cloud Networking Concepts, VPC and VNet Fundamentals]
+created: 2025-12-29T20:01:57+00:00
 last_reviewed: null
-modified: 2026-02-06 08:35:06+00:00
+modified: 2026-07-04T10:51:03+00:00
+permalink: llmeon/30-library/so-t/so-t-cloud-networking-core-components
 status: Active
-tags:
-- aws
-- azure
-- cloud
-- kubernetes
-- networking
+tags: [aws, azure, cloud, kubernetes, networking]
 title: SoT - Cloud Networking Core Components
 type: SoT
 updated: null
-permalink: llmeon/30-library/so-t/so-t-cloud-networking-core-components
 ---
 
 > The Core Abstraction: Cloud networking is an overlay. While the physical implementation differs, both AWS and Azure expose the same logical primitives: Isolation (VPC/VNet), Segmentation (Subnets), Routing (Route Tables), and Filtering (Security Groups/NSGs).

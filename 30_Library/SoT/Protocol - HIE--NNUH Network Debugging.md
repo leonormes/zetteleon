@@ -1,23 +1,13 @@
 ---
-alias:
-- Connectivity Debugging
-- Kubernetes Network Debugging Protocol
-- Network Troubleshooting Checklist
+alias: [Connectivity Debugging, Kubernetes Network Debugging Protocol, Network Troubleshooting Checklist]
 aliases:
 - Protocol - HIE->NNUH Network Debugging
-created: 2026-02-04 00:00:00+00:00
-modified: 2026-05-26 11:44:21+00:00
-tags:
-- aws
-- azure
-- customer/nnuh
-- debugging
-- kubernetes
-- networking
-- protocol
+created: 2026-02-04T00:00:00+00:00
+modified: 2026-07-04T10:51:07+00:00
+permalink: llmeon/30-library/so-t/protocol-hie-nnuh-network-debugging
+tags: [aws, azure, customer/nnuh, debugging, kubernetes, networking, protocol]
 title: Protocol - HIE--NNUH Network Debugging
 type: protocol
-permalink: llmeon/30-library/so-t/protocol-hie-nnuh-network-debugging
 ---
 
 ## Logic Map
@@ -167,7 +157,7 @@ curl -v -k https://${K8S_INTERNAL_INGRESS_IP}
 curl -v -k --resolve ${TARGET_HOSTNAME}:443:${K8S_INTERNAL_INGRESS_IP} https://${TARGET_HOSTNAME}
 ```
 
-### B. Kubernetes Configuration (kubectl)
+### B. Kubernetes Configuration (Kubectl)
 
 ```bash
 # 4. List all LoadBalancer services (Is it Public or Internal?)

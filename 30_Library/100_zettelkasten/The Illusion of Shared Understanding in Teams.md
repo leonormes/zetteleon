@@ -1,14 +1,14 @@
 ---
 aliases: []
-created: 2025-08-29 15:18:49+00:00
+created: 2025-08-29T15:18:49+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:25+00:00
+modified: 2026-07-04T10:51:44+00:00
+permalink: llmeon/30-library/100-zettelkasten/the-illusion-of-shared-understanding-in-teams
 status: ''
 tags: []
 title: The Illusion of Shared Understanding in Teams
 type: ''
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/the-illusion-of-shared-understanding-in-teams
 ---
 
 In a team, there is often an illusion that a single, shared mental model of a system exists. In reality, the "team model" is a fragile patchwork of each member's individual, differing, and often tacit models.

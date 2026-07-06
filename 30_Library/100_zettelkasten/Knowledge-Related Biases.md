@@ -1,17 +1,15 @@
 ---
 aliases: []
-created: 2025-02-07 12:57:55+00:00
+created: 2025-02-07T12:57:55+00:00
 ID: knowledge
 last_reviewed: 'null'
-modified: 2026-02-01 15:08:32+00:00
+modified: 2026-07-04T10:51:49+00:00
+permalink: llmeon/30-library/100-zettelkasten/knowledge-related-biases
 status: 'null'
-tags:
-- knowledge
-- TheHuman/Cognition/bias
+tags: [knowledge, TheHuman/Cognition/bias]
 title: Knowledge-Related Biases
 type: permanent
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/knowledge-related-biases
 ---
 
 ## Curse of Knowledge

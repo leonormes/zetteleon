@@ -1,18 +1,14 @@
 ---
-aliases:
-- Environmental Anchoring
-created: 2025-11-11 19:05:12+00:00
+aliases: [Environmental Anchoring]
+created: 2025-11-11T19:05:12+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:34+00:00
+modified: 2026-07-04T10:51:52+00:00
+permalink: llmeon/30-library/100-zettelkasten/environmental-anchors-help-rebuild-project-specific-mental-context
 status: seedling
-tags:
-- TheHuman/Habits
-- TheHuman/Psychology
-- topic/productivity
+tags: [TheHuman/Habits, TheHuman/Psychology, topic/productivity]
 title: Environmental Anchors Help Rebuild Project-Specific Mental Context
 type: strategy
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/environmental-anchors-help-rebuild-project-specific-mental-context
 ---
 
 ## Environmental Anchors Help Rebuild Project-Specific Mental Context

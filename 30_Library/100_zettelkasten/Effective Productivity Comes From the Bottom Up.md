@@ -1,19 +1,14 @@
 ---
-aliases:
-- Bottom-Up Productivity
-created: 2025-11-10 15:22:00+00:00
+aliases: [Bottom-Up Productivity]
+created: 2025-11-10T15:22:00+00:00
 last_reviewed: ''
-modified: 2026-05-26 11:44:35+00:00
+modified: 2026-07-04T10:51:52+00:00
+permalink: llmeon/30-library/100-zettelkasten/effective-productivity-comes-from-the-bottom-up
 status: seedling
-tags:
-- action
-- foundation
-- topic/productivity
-- topic/systems
+tags: [action, foundation, topic/productivity, topic/systems]
 title: Effective Productivity Comes From the Bottom Up
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/effective-productivity-comes-from-the-bottom-up
 ---
 
 ## Effective Productivity Comes From the Bottom Up

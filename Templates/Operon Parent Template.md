@@ -1,19 +1,19 @@
 ---
-status: Project.InProgress
-priority: A
-prodosProject: ''
-prodosCategory: ''
-contexts:
-- computer
-- deep-work
-tags:
-- operon/parent
+contexts: [computer, deep-work]
+created: 2026-06-22T14:55:52+00:00
 datetimeCreated: null
 Links: []
+modified: 2026-07-04T10:50:33+00:00
 permalink: llmeon/templates/operon-parent-template
+priority: A
+prodosCategory: ''
+prodosProject: ''
+status: Project.InProgress
+tags: [operon/parent]
+title: Operon Parent Template
 ---
 
-## Definition of done
+## Definition of Done
 
 <!-- What does success look like? What measurable outcome tells you this project is finished? -->
 
@@ -21,6 +21,6 @@ permalink: llmeon/templates/operon-parent-template
 
 <!-- - [ ] tasks here, use Operon "Convert Selection" to enrich with metadata -->
 
-## Knowledge links
+## Knowledge Links
 
 <!-- - [[related notes]] -->

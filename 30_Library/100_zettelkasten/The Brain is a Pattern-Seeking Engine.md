@@ -1,19 +1,14 @@
 ---
-aliases:
-- Neocortex and Pattern Recognition
-- Pattern-Seeking Brain
-created: 2025-11-01 12:00:02+00:00
+aliases: [Neocortex and Pattern Recognition, Pattern-Seeking Brain]
+created: 2025-11-01T12:00:02+00:00
 last_reviewed: '2025-11-01'
-modified: 2026-02-01 15:08:26+00:00
+modified: 2026-07-04T10:51:45+00:00
+permalink: llmeon/30-library/100-zettelkasten/the-brain-is-a-pattern-seeking-engine
 status: seedling
-tags:
-- neocortex
-- TheHuman/Cognition
-- TheHuman/Neuroscience
+tags: [neocortex, TheHuman/Cognition, TheHuman/Neuroscience]
 title: The Brain is a Pattern-Seeking Engine
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/the-brain-is-a-pattern-seeking-engine
 ---
 
 ## The Brain is a Pattern-Seeking Engine

@@ -1,24 +1,17 @@
 ---
 author: Leon Ormes
-created: 2026-06-11 00:00:00+00:00
-modified: 2026-06-11 13:28:14+00:00
+created: 2026-06-11T00:00:00+00:00
+modified: 2026-07-04T10:51:43+00:00
+permalink: llmeon/30-library/200-projects/2026-06-11-ffnode-stress-testing-v5-full-document
 project_category: refined_deployment
 project_name: Refined Deployment
 project_status: active
 source: confluence/doc/v3=2839871490, v4=2841247752
 status: draft
-tags:
-- confluence
-- design-document
-- ffnode
-- ollie-rushton
-- stress-testing
-- v5
-- weronika-jastrzebska
-title: FFNode Stress Testing — Design Document V5
+tags: [confluence, design-document, ffnode, ollie-rushton, stress-testing, v5, weronika-jastrzebska]
+title: 2026-06-11-FFNode-Stress-Testing-v5-Full-Document
 type: null
 version: 5
-permalink: llmeon/30-library/200-projects/2026-06-11-ffnode-stress-testing-v5-full-document
 ---
 
 ## Option A: FFNode Stress Testing—Design Document V5
@@ -624,7 +617,7 @@ NEW11 acceptance criteria:
 
 ---
 
-### Appendix A—Reviewer Comment Resolutions (v3 → v5)
+### Appendix A—Reviewer Comment Resolutions (V3 → v5)
 
 _Delete this appendix before final publication._
 

@@ -1,21 +1,12 @@
 ---
-aliases:
-- Finitude
-- Subjective Time
-- Temporal Perception
-- The Myth of the Starting Gun
-created: 2026-04-05 13:30:00+01:00
-modified: 2026-05-26 11:44:16+00:00
+aliases: [Finitude, Subjective Time, Temporal Perception, The Myth of the Starting Gun]
+created: 2026-04-05T12:30:00+00:00
+modified: 2026-07-04T10:50:48+00:00
+permalink: llmeon/30-library/so-t/so-t-the-nature-of-time-and-perception
 status: stable
-tags:
-- existentialism
-- philosophy
-- psychology
-- sot
-- time
+tags: [existentialism, philosophy, psychology, sot, time]
 title: SoT - The Nature of Time and Perception
 type: SoT
-permalink: llmeon/30-library/so-t/so-t-the-nature-of-time-and-perception
 ---
 
 ## 1. Minimum Viable Understanding (MVU)

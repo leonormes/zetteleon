@@ -1,12 +1,10 @@
 ---
 aliases: []
-created: 2026-06-19 00:00:03+00:00
-modified: 2026-06-19 08:11:15+00:00
-tags:
-- prodos/head
-- state/thinking
-title: HEAD - 2026-06-19 0911
+created: 2026-06-19T00:00:03+00:00
+modified: 2026-07-04T10:52:03+00:00
 permalink: llmeon/20-thinking/21-workbench/head-the-neural-drivers-of-the-social-brain
+tags: [prodos/head, state/thinking]
+title: HEAD - The Neural Drivers of the Social Brain
 ---
 
 Human brains are biologically hardwired for social connection, an evolutionary adaptation that ensured our survival and serves as the foundation for building team trust and psychological safety. Understanding the "social brain" reveals that trust and safety are not just emotional states, but biological imperatives driven by specific neural mechanisms.

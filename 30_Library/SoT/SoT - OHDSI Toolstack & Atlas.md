@@ -1,22 +1,14 @@
 ---
-aliases:
-- Atlas
-- HADES
-- OHDSI Stack
-- WebAPI
-created: 2026-01-06 19:27:09+00:00
+aliases: [Atlas, HADES, OHDSI Stack, WebAPI]
+created: 2026-01-06T19:27:09+00:00
 last_reviewed: null
-modified: 2026-02-01 15:07:54+00:00
+modified: 2026-07-04T10:50:54+00:00
+permalink: llmeon/30-library/so-t/so-t-ohdsi-toolstack-atlas
 status: Active
-tags:
-- atlas
-- ohdsi
-- SoftwareEngineering
-- SoftwareEngineering/Architecture
+tags: [atlas, ohdsi, SoftwareEngineering, SoftwareEngineering/Architecture]
 title: SoT - OHDSI Toolstack & Atlas
 type: SoT
 updated: null
-permalink: llmeon/30-library/so-t/so-t-ohdsi-toolstack-atlas
 ---
 
 ## SoT - OHDSI Toolstack & Atlas

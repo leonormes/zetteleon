@@ -1,21 +1,14 @@
 ---
-aliases:
-- Anatomy of a URL
-- Uniform Resource Locator
-- URL Structure
-created: 2025-12-24 08:47:50+00:00
+aliases: [Anatomy of a URL, Uniform Resource Locator, URL Structure]
+created: 2025-12-24T08:47:50+00:00
 last_reviewed: '2025-12-23'
-modified: 2026-02-01 15:07:50+00:00
+modified: 2026-07-04T10:50:49+00:00
+permalink: llmeon/30-library/so-t/so-t-the-data-anatomy-of-a-url
 status: stable
-tags:
-- SoftwareEngineering/Architecture
-- SoftwareEngineering/Networking
-- topic/technology
-- url
+tags: [SoftwareEngineering/Architecture, SoftwareEngineering/Networking, topic/technology, url]
 title: SoT - The Data Anatomy of a URL
 type: SoT
 updated: null
-permalink: llmeon/30-library/so-t/so-t-the-data-anatomy-of-a-url
 ---
 
 ## 1. Definitive Statement

@@ -1,40 +1,30 @@
 ---
-title: Terraform AKS upgrade_override Fix — FITFILE Testing Cluster
-created: '2026-05-27T12:13:00+00:00'
-source: pieces-ltm
-pieces_ids:
-- 34d03caa-8e79-4696-9bcf-a0abdb38a587
-- 4f80d935-1bc0-44ea-b0e0-3e1c24a07f8d
-- 804011cd-efc2-4983-afaf-c59320dcff4b
-- 8aedc7fd-869c-49d7-8513-a8fffe34bf09
-- 2786291a-0ade-44d1-9531-2807a745b29b
-- 9d404c67-1e0d-407a-a7ae-9a57b0109194
-tags:
-- raw
-- pieces
-- terraform
-- aks
-- fitfile
+created: 2026-05-27T00:00:00+00:00
+modified: 2026-07-04T10:49:48+00:00
 permalink: llmeon/raw/2026-05-27-pieces-terraform-aks-upgrade-override
+pieces_ids: [2786291a-0ade-44d1-9531-2807a745b29b, 34d03caa-8e79-4696-9bcf-a0abdb38a587, 4f80d935-1bc0-44ea-b0e0-3e1c24a07f8d, 804011cd-efc2-4983-afaf-c59320dcff4b, 8aedc7fd-869c-49d7-8513-a8fffe34bf09, 9d404c67-1e0d-407a-a7ae-9a57b0109194]
+source: pieces-ltm
+tags: [aks, fitfile, pieces, raw, terraform]
+title: 2026-05-27-pieces-terraform-aks-upgrade-override
 ---
 
-# Terraform AKS upgrade_override Fix — FITFILE Testing Cluster
+## Terraform AKS upgrade_override Fix—FITFILE Testing Cluster
 
-## Asset 1 (Pieces: 34d03caa-8e79-4696-9bcf-a0abdb38a587)
+### Asset 1 (Pieces: 34d03caa-8e79-4696-9bcf-a0abdb38a587)
 
-**Captured:** 2026-05-27T12:07:20Z
+Captured: 2026-05-27T12:07:20Z
 
 > give me a hermes prompt to fix with option 1
 
-## Asset 2 (Pieces: 4f80d935-1bc0-44ea-b0e0-3e1c24a07f8d)
+### Asset 2 (Pieces: 4f80d935-1bc0-44ea-b0e0-3e1c24a07f8d)
 
-**Captured:** 2026-05-27T12:06:22Z
+Captured: 2026-05-27T12:06:22Z
 
 Now I have the full log. Here's the complete diagnosis.
 
-## Terraform Apply Failure — Diagnosis & Fix
+### Terraform Apply Failure—Diagnosis & Fix
 
-### The Error
+#### The Error
 
 ```
 Error: `upgrade_override` cannot be unset
@@ -42,23 +32,24 @@ Error: `upgrade_override` cannot be unset
   resource "azurerm_kubernetes_cluster" "main"
 ```
 
-**Resource:** `module.azure_public_infrastructure.azurerm_kubernetes_cluster.main`
+Resource: `module.azure_public_infrastructure.azurerm_kubernetes_cluster.main`
 
-### What's Happening
+#### What's Happening
 
-This is a **provider-state conflict**, not a code bug. The AKS cluster currently has `upgrade_override` set in Azure state, but the Terraform config doesn't declare it. The Azure provider refuses to let you "unset" a value that's present in the real resource.
+This is a provider-state conflict, not a code bug. The AKS cluster currently has `upgrade_override` set in Azure state, but the Terraform config doesn't declare it. The Azure provider refuses to let you "unset" a value that's present in the real resource.
 
-### Fix Option 1 — Add explicit `upgrade_settings` block
+#### Fix Option 1—Add Explicit `upgrade_settings` Block
 
 ```text
 /goal Fix `upgrade_override` Terraform azurerm_kubernetes_cluster upgrade_override error
 ```
 
-## Asset 3 (Pieces: 804011cd-efc2-4983-afaf-c59320dcff4b)
+### Asset 3 (Pieces: 804011cd-efc2-4983-afaf-c59320dcff4b)
 
-**Captured:** 2026-05-27T12:05:17Z
+Captured: 2026-05-27T12:05:17Z
 
 AKS cluster API response:
+
 ```json
 {
     "apiVersion": "2026-03-01",
@@ -75,29 +66,29 @@ AKS cluster API response:
 }
 ```
 
-## Asset 4 (Pieces: 8aedc7fd-869c-49d7-8513-a8fffe34bf09)
+### Asset 4 (Pieces: 8aedc7fd-869c-49d7-8513-a8fffe34bf09)
 
-**Captured:** 2026-05-27T12:13:23Z
+Captured: 2026-05-27T12:13:23Z
 
 Memory search confirmed: no pre-existing Hermes `/goal` prompt in LTM specifically for the `upgrade_override` Terraform fix.
 
-Here is the Hermes `/goal` prompt to fix Terraform `upgrade_override` error (Option 1 — add explicit `upgrade_settings` block):
+Here is the Hermes `/goal` prompt to fix Terraform `upgrade_override` error (Option 1—add explicit `upgrade_settings` block):
 
 ```text
 /goal Fix `upgrade_override` cannot be unset
 ```
 
-## Asset 5 (Pieces: 2786291a-0ade-44d1-9531-2807a745b29b)
+### Asset 5 (Pieces: 2786291a-0ade-44d1-9531-2807a745b29b)
 
-**Captured:** 2026-05-27T12:12:35Z
+Captured: 2026-05-27T12:12:35Z
 
-All memory pages confirmed consistent — no conflicting "option 1" definition. You haven't done this fix before.
+All memory pages confirmed consistent—no conflicting "option 1" definition. You haven't done this fix before.
 
-## Asset 6 (Pieces: 9d404c67-1e0d-407a-a7ae-9a57b0109194)
+### Asset 6 (Pieces: 9d404c67-1e0d-407a-a7ae-9a57b0109194)
 
-**Captured:** 2026-05-27T12:11:48Z
+Captured: 2026-05-27T12:11:48Z
 
-Hermes `/goal` Prompt — Fix `upgrade_override` Terraform Error
+Hermes `/goal` Prompt—Fix `upgrade_override` Terraform Error
 
 Paste this directly into `hermes --tui` (including the leading `/goal`):
 

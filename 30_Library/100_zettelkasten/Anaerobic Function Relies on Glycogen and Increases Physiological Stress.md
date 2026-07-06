@@ -1,18 +1,14 @@
 ---
-aliases:
-- Anaerobic Function
-created: 2026-01-08 12:42:00+00:00
+aliases: [Anaerobic Function]
+created: 2026-01-08T12:42:00+00:00
 last_reviewed: 2026-01-08
-modified: 2026-02-01 15:08:37+00:00
+modified: 2026-07-04T10:51:54+00:00
+permalink: llmeon/30-library/100-zettelkasten/anaerobic-function-relies-on-glycogen-and-increases-physiological-stress
 status: seedling
-tags:
-- cortisol
-- physiology
-- stress
+tags: [cortisol, physiology, stress]
 title: Anaerobic Function Relies on Glycogen and Increases Physiological Stress
 type: concept
 updated: 2026-01-08 12:42:00+00:00
-permalink: llmeon/30-library/100-zettelkasten/anaerobic-function-relies-on-glycogen-and-increases-physiological-stress
 ---
 
 ## Anaerobic Function Relies on Glycogen and Increases Physiological Stress

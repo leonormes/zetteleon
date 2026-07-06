@@ -1,18 +1,14 @@
 ---
-aliases:
-- Zettelkasten and Redundancy
-created: 2025-10-31 00:00:00+00:00
+aliases: [Zettelkasten and Redundancy]
+created: 2025-10-31T00:00:00+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:31+00:00
+modified: 2026-07-04T10:51:49+00:00
+permalink: llmeon/30-library/100-zettelkasten/linking-as-a-redundancy-reduction-strategy-in-zettelkasten
 status: seedling
-tags:
-- information-management
-- pkm
-- zettelkasten
+tags: [information-management, pkm, zettelkasten]
 title: Linking as a Redundancy Reduction Strategy in Zettelkasten
 type: permanent
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/linking-as-a-redundancy-reduction-strategy-in-zettelkasten
 ---
 
 The Zettelkasten method is fundamentally a system for managing and reducing information [[30_Library/100_zettelkasten/redundancy]]. Instead of repeating an idea across multiple notes, the core principle is to create a single, atomic, canonical note for that idea and then link to it from any other relevant context.

@@ -1,23 +1,14 @@
 ---
-aliases:
-- Planner vs Doer
-- Predictive vs Iterative Processing
-- Simulation vs Prototyping
-- The Core Divergence
-created: 2025-12-12 00:00:00+00:00
+aliases: [Planner vs Doer, Predictive vs Iterative Processing, Simulation vs Prototyping, The Core Divergence]
+created: 2025-12-12T00:00:00+00:00
 last_reviewed: null
-modified: 2026-02-01 15:08:01+00:00
+modified: 2026-07-04T10:51:03+00:00
+permalink: llmeon/30-library/so-t/so-t-cognitive-architectures-simulation-vs-prototyping
 status: stable
-tags:
-- cognition
-- collaboration
-- mental_models
-- system_design
-- TheHuman/Health/ADHD
+tags: [cognition, collaboration, mental_models, system_design, TheHuman/Health/ADHD]
 title: SoT - Cognitive Architectures (Simulation vs Prototyping)
 type: SoT
 updated: null
-permalink: llmeon/30-library/so-t/so-t-cognitive-architectures-simulation-vs-prototyping
 ---
 
 > The Core Divergence defines two distinct cognitive operating systems for problem-solving: ""

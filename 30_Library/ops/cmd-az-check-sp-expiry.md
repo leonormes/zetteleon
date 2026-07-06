@@ -1,16 +1,13 @@
 ---
-created: 2026-02-17 12:03:31+00:00
+created: 2026-02-17T12:03:31+00:00
 hop_level: local
-modified: 2026-03-14 11:10:11+00:00
-tags:
-- atomic
-- azure
-- identity
+modified: 2026-07-04T10:50:45+00:00
+permalink: llmeon/30-library/ops/cmd-az-check-sp-expiry
+tags: [atomic, azure, identity]
 target_service: identity
 title: cmd-az-check-sp-expiry
 tool: az
 type: atomic_command
-permalink: llmeon/30-library/ops/cmd-az-check-sp-expiry
 ---
 
 ## Check Service Principal Credential Expiry

@@ -1,19 +1,16 @@
 ---
-created: 2026-04-14 17:29:42+00:00
+created: 2026-04-14T17:29:42+00:00
 created_utc: '2026-04-14T12:00:00Z'
 kind: mechanism
-modified: 2026-05-26 11:44:35+00:00
+modified: 2026-07-04T10:51:51+00:00
+permalink: llmeon/30-library/100-zettelkasten/fundamental-theorem-of-calculus
 source_title: The Roadmap to Calculus I Wish I Had
 source_url: https://youtube.com/watch?v=FavU_QaY9wA
 status: seed
-tags:
-- calculus
-- fundamental-theorem
-- theory
+tags: [calculus, fundamental-theorem, theory]
 title: Fundamental Theorem of Calculus
 type: atom
 upstream: '[[Calculus (Definition)]]'
-permalink: llmeon/30-library/100-zettelkasten/fundamental-theorem-of-calculus
 ---
 
 ## Fundamental Theorem of Calculus

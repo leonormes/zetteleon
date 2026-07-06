@@ -1,22 +1,14 @@
 ---
-aliases:
-- Infrastructure State Models
-- Merkle vs Reconciliation
-- State Sync Patterns
-created: 2025-12-25 12:05:00+00:00
+aliases: [Infrastructure State Models, Merkle vs Reconciliation, State Sync Patterns]
+created: 2025-12-25T12:05:00+00:00
 last_reviewed: '2025-12-25'
-modified: 2026-02-01 15:07:51+00:00
+modified: 2026-07-04T10:50:50+00:00
+permalink: llmeon/30-library/so-t/so-t-state-synchronization-models
 status: stable
-tags:
-- distributed_systems
-- git
-- kubernetes
-- SoftwareEngineering/Architecture
-- theory
+tags: [distributed_systems, git, kubernetes, SoftwareEngineering/Architecture, theory]
 title: SoT - State Synchronization Models
 type: SoT
 updated: null
-permalink: llmeon/30-library/so-t/so-t-state-synchronization-models
 ---
 
 ## 1. The Core Divergence

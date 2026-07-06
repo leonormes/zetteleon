@@ -1,17 +1,14 @@
 ---
 aliases: []
-created: 2025-10-30 12:04:08+00:00
+created: 2025-10-30T12:04:08+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:05+00:00
+modified: 2026-07-04T10:51:10+00:00
+permalink: llmeon/30-library/mo-c/moc-how-to-build-discipline
 status: ''
-tags:
-- discipline
-- success
-- TheHuman/Habits
+tags: [discipline, success, TheHuman/Habits]
 title: MOC - How to Build Discipline
 type: map
 updated: null
-permalink: llmeon/30-library/mo-c/moc-how-to-build-discipline
 ---
 
 This note summarizes the core ideas from the video "How to Build Discipline So Strong Success Feels Easy" by Wise Joe.

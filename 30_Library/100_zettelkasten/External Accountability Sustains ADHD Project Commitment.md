@@ -1,20 +1,14 @@
 ---
-aliases:
-- Accountability Partners
-- Social Commitment for ADHD
-created: 2025-10-30 15:00:39+00:00
+aliases: [Accountability Partners, Social Commitment for ADHD]
+created: 2025-10-30T15:00:39+00:00
 last_reviewed: '2025-10-30'
-modified: 2026-02-01 15:08:34+00:00
+modified: 2026-07-04T10:51:51+00:00
+permalink: llmeon/30-library/100-zettelkasten/external-accountability-sustains-adhd-project-commitment
 status: seedling
-tags:
-- accountability
-- project-completion
-- social-motivation
-- TheHuman/Health/ADHD
+tags: [accountability, project-completion, social-motivation, TheHuman/Health/ADHD]
 title: External Accountability Sustains ADHD Project Commitment
 type: strategy
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/external-accountability-sustains-adhd-project-commitment
 ---
 
 ## External Accountability Sustains ADHD Project Commitment

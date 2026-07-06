@@ -1,18 +1,14 @@
 ---
 aliases: []
-created: 2025-08-27 19:18:03+00:00
+created: 2025-08-27T19:18:03+00:00
 last_reviewed: 'null'
-modified: 2026-05-26 11:44:32+00:00
+modified: 2026-07-04T10:51:44+00:00
+permalink: llmeon/30-library/100-zettelkasten/the-feeling-of-cleverness-is-an-engine-for-curiosity
 status: 'null'
-tags:
-- curiosity
-- TheHuman/Mindset
-- TheHuman/Psychology
-- topic/learning
+tags: [curiosity, TheHuman/Mindset, TheHuman/Psychology, topic/learning]
 title: The Feeling of Cleverness is an Engine for Curiosity
 type: 'null'
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/the-feeling-of-cleverness-is-an-engine-for-curiosity
 ---
 
 The internal feeling of "being clever" when learning is often misinterpreted as a competitive ranking against others. It is more accurately understood as the subjective experience of the brain's learning reward system.
@@ -71,7 +67,7 @@ The note says the feeling is "not a delusion or fool's game". As a motivational 
 
 A person feels equally clever learning astrology and learning tensor calculus. The feeling is agnostic to truth. Celebrating it uncritically is exactly how motivated reasoning feels from the inside.
 
-#### 4. "The Goal is to Enjoy This Feeling for what it is"
+#### 4. "The Goal is to Enjoy This Feeling for what it iS"
 
 This is the weakest line. It commits to almost nothing and misses the calibration move. The correct prescription is not _enjoy it_ but enjoy it and interrogate it:
 
@@ -87,7 +83,7 @@ Unexamined enjoyment of the feeling of understanding is the psychological base s
 
 "Mistaking this personal joy of discovery for a need to achieve public intellectual status"—who does this, specifically? The note implies a widespread error without naming it. If this is you arguing with a past self, say so. If it's a cultural critique, ground it. As written, it's tilting at a shape in the fog.
 
-#### 7. "Pure Joy of a Mind Making Sense of complexity"
+#### 7. "Pure Joy of a Mind Making Sense of cOmplexity"
 
 Rhetorically pretty, philosophically thin. Sense-making is not truth-tracking. Conspiracy theorists experience exquisite sense-making. The phenomenology of "it all fits together now" is identical whether the model is correct or not. A note about the feeling of understanding that doesn't grapple with this is incomplete.
 

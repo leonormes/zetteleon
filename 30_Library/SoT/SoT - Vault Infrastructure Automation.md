@@ -1,20 +1,14 @@
 ---
-created: 2026-04-02 11:05:00+01:00
+created: 2026-04-02T10:05:00+00:00
 last-synthesis: 2026-04-02
-modified: 2026-05-26 11:44:16+00:00
+modified: 2026-07-04T10:50:46+00:00
+permalink: llmeon/30-library/so-t/so-t-vault-infrastructure-automation
 source_of_truth: true
 status: evergreen
 synthesis-count: 1
-tags:
-- automation
-- gitops
-- iac
-- terraform
-- type/SoT
-- vault
+tags: [automation, gitops, iac, terraform, type/SoT, vault]
 title: SoT - Vault Infrastructure Automation
 trust-level: stable
-permalink: llmeon/30-library/so-t/so-t-vault-infrastructure-automation
 ---
 
 ## Minimum Viable Understanding (MVU)

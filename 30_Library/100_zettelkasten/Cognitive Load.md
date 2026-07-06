@@ -1,17 +1,11 @@
 ---
-created: 2026-05-31 00:00:00+00:00
-modified: 2026-05-31 17:27:10+00:00
-related_to:
-- '[[Claim - Flat associative structure beats rigid hierarchy]]'
-- '[[Executive Function]]'
-- '[[MOC - ADHD and PKM Systems]]'
-tags:
-- adhd
-- cognition
-- working-memory
+created: 2026-05-31T00:00:00+00:00
+modified: 2026-07-04T10:51:53+00:00
+permalink: llmeon/30-library/100-zettelkasten/cognitive-load
+related_to: ["[[Claim - Flat associative structure beats rigid hierarchy]]", "[[Executive Function]]", "[[MOC - ADHD and PKM Systems]]"]
+tags: [adhd, cognition, working-memory]
 title: Cognitive Load
 type: concept
-permalink: llmeon/30-library/100-zettelkasten/cognitive-load
 ---
 
 ## Cognitive Load

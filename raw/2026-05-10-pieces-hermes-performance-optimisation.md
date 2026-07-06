@@ -1,65 +1,19 @@
 ---
 created: Invalid date
-modified: 2026-05-26 11:43:47+00:00
-pieces_ids:
-- 02c23f11-85a1-4c14-9765-c9dbe9167ea4
-- 063670a2-0023-459e-b710-102e39e5eb53
-- 065c00dd-49a1-4e59-8b5d-21cbba11367f
-- 0fd1dd6b-d027-473f-adc7-4e52bea43b6a
-- 1583fce3-0b00-4c9b-9731-cd2e4dd0ffe1
-- 1dcefd66-d06b-4f12-b57f-d0a986e0c473
-- 21c43748-f450-4f33-b871-001ae9798693
-- 2347828e-42e2-4027-b425-93fe8c888586
-- 24ffa344-4dda-42c5-a6a8-a35a3a10cc47
-- 259d7d5d-393f-4a1c-9dd0-204e1aa704a3
-- 2828c632-beb9-46cb-95af-2c1cd877642b
-- 3aa2624a-4c48-44ab-af49-736aa230d542
-- 3bcc86a8-ade1-4d90-b69b-677b6145b59c
-- 432dffaf-038a-49e0-8219-0b80865636fd
-- 51b777b3-428a-4d68-ae06-14c648fa8833
-- 54d4b56d-ccfb-4611-89bf-2d3c1077e65f
-- 5df0ed42-455f-482d-b4be-dd3933d6157e
-- 6530df20-8589-4323-a8c2-48ea31bd13ea
-- 6706a9a0-91b7-4bb4-852b-ec3a9eaeedc7
-- 70acb3dd-b0d1-4a2b-bcff-587588496b33
-- 77e4c348-a7d8-4f5e-8ff1-a5085a434f92
-- 7bfcb32f-d84d-4687-af9a-a4e591f5b6a9
-- 7c07a598-4808-46be-9b9b-9bc9894edd2d
-- 7d0c0a6b-7351-4b12-b274-a8fd2fc43b42
-- 822cfe5a-f06c-45ec-9a3d-db0c72d31745
-- 851e2bca-e7df-4271-b4e7-bc30d3eb9f2a
-- 9ca90c62-2f87-44b7-ab80-7ddf78d9db90
-- 9e1e9302-5448-4c52-8779-6f555f59eac8
-- a0f6738b-8bd5-40a1-993a-b708d48a83ab
-- a968da88-dd92-407f-b4d8-490efce33bce
-- a9a3e2f7-93ed-495a-bf4b-14b8d3d9688e
-- ab38648f-b0a9-4969-9be8-5abb096228df
-- b50df0f5-e913-4c62-a210-88ec1e4a0986
-- bd1cdce1-7dd3-41e6-9c44-07f74851ccf3
-- bdfb7c45-f269-4f59-8ae0-b67fb9b47888
-- be42df0c-fc4d-4378-ba54-71e6f5965d3a
-- bf2b10a3-fbc1-42a8-9b07-6ec0cadd5f49
-- c00929de-77e0-4300-812f-6a8b495a4298
-- c376fa37-fce3-49de-a9f3-420bb1049c6c
-- ce22ba46-6fb2-4b9f-ac53-3c6ccdc6ebae
-- d2bb8ef5-51ae-4433-b076-67c1d006e515
-- d2c09a80-a533-4308-979b-dae835a9f9e4
-- d8ca3706-3ebf-4478-8a88-c868df3429af
-- dab0cc70-1707-4030-b5c1-dbf82270f11d
-- e2d98e81-b9dc-4327-b7f2-16739266f70e
-- ef33fabb-82d7-421c-b46c-8eb646d7d809
-source: pieces-ltm
-tags:
-- pieces
-- raw
-title: 2026-05-10-pieces-hermes-performance-optimisation
+modified: 2026-07-04T10:50:22+00:00
 permalink: llmeon/raw/2026-05-10-pieces-hermes-performance-optimisation
+pieces_ids: [02c23f11-85a1-4c14-9765-c9dbe9167ea4, 063670a2-0023-459e-b710-102e39e5eb53, 065c00dd-49a1-4e59-8b5d-21cbba11367f, 0fd1dd6b-d027-473f-adc7-4e52bea43b6a, 1583fce3-0b00-4c9b-9731-cd2e4dd0ffe1, 1dcefd66-d06b-4f12-b57f-d0a986e0c473, 21c43748-f450-4f33-b871-001ae9798693, 2347828e-42e2-4027-b425-93fe8c888586, 24ffa344-4dda-42c5-a6a8-a35a3a10cc47, 259d7d5d-393f-4a1c-9dd0-204e1aa704a3, 2828c632-beb9-46cb-95af-2c1cd877642b, 3aa2624a-4c48-44ab-af49-736aa230d542, 3bcc86a8-ade1-4d90-b69b-677b6145b59c, 432dffaf-038a-49e0-8219-0b80865636fd, 51b777b3-428a-4d68-ae06-14c648fa8833, 54d4b56d-ccfb-4611-89bf-2d3c1077e65f, 5df0ed42-455f-482d-b4be-dd3933d6157e, 6530df20-8589-4323-a8c2-48ea31bd13ea, 6706a9a0-91b7-4bb4-852b-ec3a9eaeedc7, 70acb3dd-b0d1-4a2b-bcff-587588496b33, 77e4c348-a7d8-4f5e-8ff1-a5085a434f92, 7bfcb32f-d84d-4687-af9a-a4e591f5b6a9, 7c07a598-4808-46be-9b9b-9bc9894edd2d, 7d0c0a6b-7351-4b12-b274-a8fd2fc43b42, 822cfe5a-f06c-45ec-9a3d-db0c72d31745, 851e2bca-e7df-4271-b4e7-bc30d3eb9f2a, 9ca90c62-2f87-44b7-ab80-7ddf78d9db90, 9e1e9302-5448-4c52-8779-6f555f59eac8, a0f6738b-8bd5-40a1-993a-b708d48a83ab, a968da88-dd92-407f-b4d8-490efce33bce, a9a3e2f7-93ed-495a-bf4b-14b8d3d9688e, ab38648f-b0a9-4969-9be8-5abb096228df, b50df0f5-e913-4c62-a210-88ec1e4a0986, bd1cdce1-7dd3-41e6-9c44-07f74851ccf3, bdfb7c45-f269-4f59-8ae0-b67fb9b47888, be42df0c-fc4d-4378-ba54-71e6f5965d3a, bf2b10a3-fbc1-42a8-9b07-6ec0cadd5f49, c00929de-77e0-4300-812f-6a8b495a4298, c376fa37-fce3-49de-a9f3-420bb1049c6c, ce22ba46-6fb2-4b9f-ac53-3c6ccdc6ebae, d2bb8ef5-51ae-4433-b076-67c1d006e515, d2c09a80-a533-4308-979b-dae835a9f9e4, d8ca3706-3ebf-4478-8a88-c868df3429af, dab0cc70-1707-4030-b5c1-dbf82270f11d, e2d98e81-b9dc-4327-b7f2-16739266f70e, ef33fabb-82d7-421c-b46c-8eb646d7d809]
+source: pieces-ltm
+tags: [pieces, raw]
+title: 2026-05-10-pieces-hermes-performance-optimisation
 ---
 
 ## Session Overview
 
 Captured: 2026-05-10 10:18
+
 Asset count: 46
+
 Theme: Hermes agent performance tuning, token spend reduction, Ollama optimisation
 
 ---
@@ -92,7 +46,7 @@ Your 13.6K context usage on a one-shot file read tells you roughly 11K tokens we
 
 ### Five Concrete Actions (Ordered by Impact)
 
-#### 1. Toolset Restriction on Every Session (`-t` flag)
+#### 1. Toolset Restriction on Every Session (`-t` Flag)
 
 Savings: ~3–5K tokens per request
 
@@ -772,7 +726,7 @@ MCP servers:
 
   mcp-proxy all tools enabled
 
-~/.l/s/chezmoi on  development $   on ☁ Testing on 🅰 (eu-west-2) at 15:23:23
+~/.l/s/chezmoi on  development $ on ☁ Testing on 🅰 (eu-west-2) at 15:23:23
 
 ❯ hermes profile --help
 
@@ -920,7 +874,7 @@ This is the exact issue your [Gemini conversation from Thursday ~1:08 PM](https:
 
 ### The Fix: Two Options
 
-#### Option A—Use `--toolsets` (quick, one-off)
+#### Option A—Use `--toolsets` (Quick, oNe-off)
 
 The flag for restricting tools is `-t` / `--toolsets`, and it must come before the `chat` command:
 
@@ -930,7 +884,7 @@ hermes -t terminal,read_file,write_file chat
 
 > Note: `plan` is not a toolset—it's a mode you enter _inside_ the chat session with `/plan`.
 
-#### Option B—Create a Named Profile (reusable)
+#### Option B—Create a Named Profile (Reusable)
 
 As Gemini suggested, create a permanent "thin" profile so you don't have to type the long flag string each time:
 
@@ -1015,7 +969,7 @@ hermes: error: argument command: invalid choice: 'terminal,read_file,write_file,
 
 _Captured: 2026-05-09T10:44:02.794685Z_
 
-## Why Hermes Frustrated You (and How to Fix It)
+## Why Hermes Frustrated You (And How to Fix It)
 
 Your frustration is completely valid, Leon. Looking at your sessions from Thursday and Friday, I can identify several compounding problems that turned what should have been a clean orchestration experiment into a thrashing mess. The good news: you actually diagnosed most of these issues yourself in your [Gemini conversation on Thursday](https://gemini.google.com/app/de7a8fa29b794105)—but then jumped straight into a complex Jira task before applying the fixes.
 
@@ -1052,7 +1006,7 @@ You designed a beautiful orchestration protocol in the Gemini session—tiered r
 
 Here's a staged approach, from trivial to complex, where each stage must pass before moving on:
 
-#### Stage 1: Prove the Plumbing (10 minutes)
+#### Stage 1: Prove the Plumbing (10 Minutes)
 
 Run Hermes with a thin profile as your Gemini conversation suggested:
 
@@ -1068,7 +1022,7 @@ Read ~/.hermes/config.yaml and tell me how many MCP servers are configured.
 
 Pass criteria: Completes in < 30 seconds, correct answer, no tool thrashing.
 
-#### Stage 2: Prove One MCP Tool Works (10 minutes)
+#### Stage 2: Prove One MCP Tool Works (10 Minutes)
 
 Load _only_ the MCP tools:
 
@@ -1084,7 +1038,7 @@ Use atlassian_jira_search to find issue FTFL-652. Return only the summary and st
 
 Pass criteria: Single tool call, correct result, < 60 seconds.
 
-#### Stage 3: Prove Plan Mode Works (15 minutes)
+#### Stage 3: Prove Plan Mode Works (15 Minutes)
 
 Start with `/plan` mode and give it a _slightly_ complex task:
 
@@ -1095,7 +1049,7 @@ Create a Jira Task in project FTFL with summary "Test orchestration" and descrip
 
 Pass criteria: Writes a clean plan to `hermes/plans/`, does NOT attempt to call the Jira API.
 
-#### Stage 4: Prove Delegation Works (15 minutes)
+#### Stage 4: Prove Delegation Works (15 Minutes)
 
 Now test the actual routing concept—have Hermes delegate ONE thing:
 

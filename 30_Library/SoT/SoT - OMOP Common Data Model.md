@@ -1,19 +1,13 @@
 ---
-aliases:
-- Common Data Model
-- OMOP CDM
-created: 2026-01-06 18:52:00+00:00
+aliases: [Common Data Model, OMOP CDM]
+created: 2026-01-06T18:52:00+00:00
 last_reviewed: 2026-01-06
-modified: 2026-05-26 11:44:18+00:00
+modified: 2026-07-04T10:50:53+00:00
+permalink: llmeon/30-library/so-t/so-t-omop-common-data-model
 status: stable
-tags:
-- data_model
-- ohdsi
-- schema
-- sot
+tags: [data_model, ohdsi, schema, sot]
 title: SoT - OMOP Common Data Model
 type: SoT
-permalink: llmeon/30-library/so-t/so-t-omop-common-data-model
 ---
 
 ## 1. Definitive Statement

@@ -1,20 +1,16 @@
 ---
-created: 2026-04-13 14:35:19+00:00
+created: 2026-04-13T14:35:19+00:00
 created_utc: '2026-04-13T11:00:00Z'
 kind: claim
-modified: 2026-05-26 11:44:34+00:00
+modified: 2026-07-04T10:51:50+00:00
+permalink: llmeon/30-library/100-zettelkasten/judgment-based-productivity-gains
 source_title: The Agent-First Workflow
 source_url: https://gemini.google.com/app/3efdb3bd475edbb1
 status: seed
-tags:
-- judgment
-- labor-market
-- productivity
-- senior-developers
+tags: [judgment, labor-market, productivity, senior-developers]
 title: Judgment-Based Productivity Gains
 type: atom
 upstream: '[[HEAD The Agent-First Workflow]]'
-permalink: llmeon/30-library/100-zettelkasten/judgment-based-productivity-gains
 ---
 
 ## Judgment-Based Productivity Gains

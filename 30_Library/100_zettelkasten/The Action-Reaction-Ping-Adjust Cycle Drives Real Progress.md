@@ -1,19 +1,14 @@
 ---
-aliases:
-- Action-Reaction Cycle
-created: 2025-07-17 10:07:00+00:00
+aliases: [Action-Reaction Cycle]
+created: 2025-07-17T10:07:00+00:00
 last_reviewed: 'null'
-modified: 2026-02-01 15:08:26+00:00
+modified: 2026-07-04T10:51:45+00:00
+permalink: llmeon/30-library/100-zettelkasten/the-action-reaction-ping-adjust-cycle-drives-real-progress
 status: 'null'
-tags:
-- action
-- feedback-loop
-- strategy
-- topic/learning
+tags: [action, feedback-loop, strategy, topic/learning]
 title: The Action-Reaction-Ping-Adjust Cycle Drives Real Progress
 type: 'null'
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/the-action-reaction-ping-adjust-cycle-drives-real-progress
 ---
 
 This is the systematic process for breaking the [[The Overthinking Loop Creates Mental Noise Not Clarity]]:

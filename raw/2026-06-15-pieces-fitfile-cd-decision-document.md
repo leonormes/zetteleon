@@ -1,13 +1,11 @@
 ---
-title: FITFILE CI/CD Continuous Delivery Philosophy Decision & Commitment
-created: 2026-06-15 08:44:00+01:00
-source: pieces
-pieces_ids:
-- 24475ea5-9fc
-- 10e3d434-663
-tags:
-- raw
+created: 2026-06-15T07:44:00+00:00
+modified: 2026-07-04T10:49:23+00:00
 permalink: llmeon/raw/2026-06-15-pieces-fitfile-cd-decision-document
+pieces_ids: [10e3d434-663, 24475ea5-9fc]
+source: pieces
+tags: [raw]
+title: 2026-06-15-pieces-fitfile-cd-decision-document
 ---
 
 ## User Prompt (08:44)
@@ -16,7 +14,7 @@ With the work to improve the FITFILE deployment pipeline I need to get buy in fo
 
 ## Agent Output (09:00)
 
-Generated a full "FITFILE CI/CD — Continuous Delivery Philosophy: Decision & Commitment" document for Confluence. Including:
+Generated a full "FITFILE CI/CD—Continuous Delivery Philosophy: Decision & Commitment" document for Confluence. Including:
 
 - Purpose: Decision and commitment document, not design document
 - Problem: Pipeline success rate 0%, zombie pipelines from 2024, single-owner review gates

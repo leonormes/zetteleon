@@ -1,16 +1,14 @@
 ---
 captured: 2026-06-17T11:44:24+01:00 2026-06-17T11:44:24+01:00
-created: 2026-06-17 10:44:25+00:00
-modified: 2026-06-17 10:45:06+00:00
+created: 2026-06-17T10:44:25+00:00
+modified: 2026-07-04T10:52:02+00:00
+permalink: llmeon/20-thinking/21-workbench/head-ai-enthusiasts-are-in-a-race-against-time-ai-skeptics-are-in-a-race-against-entropy
 source: https://charitydotwtf.substack.com/p/ai-enthusiasts-are-in-a-race-against
 status: processing
-tags:
-- input
-- 1
-title: HEAD AI enthusiasts are in a race against time, AI skeptics are in a race against
+tags: [1, input]
+title: HEAD AI enthusiasts are in a race against time, AI skeptics are in a race against entropy
   entropy
 type: head
-permalink: llmeon/20-thinking/21-workbench/head-ai-enthusiasts-are-in-a-race-against-time-ai-skeptics-are-in-a-race-against-entropy
 ---
 
 ## Raw Output / Content
@@ -77,7 +75,7 @@ Ok, that's fair. I'll show my work. Here is my north star example of what "good"
 
 ![](https://substackcdn.com/image/fetch/$s_!ZRCB!,w_1456,c_limit,f_webp,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc42a747e-06e0-45c5-a411-7d4427f5f106_1425x507.png)
 
-## No, It's not All Hype (the Fin story)
+## No, It's not All Hype (The Fin sTory)
 
 I have long looked up to the Fin (formerly Intercom) engineering org. When Christine and I put together our AI mandate [^1] last year, we drew a lot of inspiration from a piece by [Darragh Curran, CTO](https://substack.com/@darraghc), [called simply “2x”,](https://fin.ai/ideas/2x/) where he challenged the R&D org to double their productivity in the next 12 months.
 

@@ -1,21 +1,15 @@
 ---
-aliases:
-- Editorial Stage
-- Zinsser Layer
-created: 2025-12-04 12:23:40+00:00
-modified: 2026-06-08 11:49:22+00:00
+aliases: [Editorial Stage, Zinsser Layer]
+created: 2025-12-04T12:23:40+00:00
+modified: 2026-07-04T10:51:24+00:00
+permalink: llmeon/30-library/200-projects/stage-2-clarify-the-on-writing-well-layer
 project_category: prodos
 project_name: ProdOS
 project_status: active
 status: stable
-tags:
-- clarification
-- pkm
-- prodos
-- writing
+tags: [clarification, pkm, prodos, writing]
 title: Stage 2 Clarify (The On Writing Well Layer)
 type: null
-permalink: llmeon/30-library/200-projects/stage-2-clarify-the-on-writing-well-layer
 ---
 
 _The Goal: To transform raw energy into a clear, understandable idea._

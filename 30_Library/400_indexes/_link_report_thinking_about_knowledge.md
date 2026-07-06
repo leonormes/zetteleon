@@ -1,12 +1,12 @@
 ---
-created: 2026-04-14 13:25:19+00:00
+created: 2026-04-14T13:25:19+00:00
 created_utc: '2026-04-14T11:45:00Z'
-modified: 2026-05-26 11:44:23+00:00
+modified: 2026-07-04T10:51:14+00:00
+permalink: llmeon/30-library/400-indexes/link-report-thinking-about-knowledge
 source_atoms: '[[tmp_atoms_thinking_about_knowledge.md]]'
 status: tmp
 title: _link_report_thinking_about_knowledge
 type: link_report
-permalink: llmeon/30-library/400-indexes/link-report-thinking-about-knowledge
 ---
 
 ## Link Report: Thinking about Knowledge
@@ -30,6 +30,6 @@ permalink: llmeon/30-library/400-indexes/link-report-thinking-about-knowledge
 | [[Minimum Viable Experiment (MVE)]] | 2 | [[SoT - ADHD Management Protocols]]—upstream |
 | [[Cognitive Defusion from Narrative]] | 2 | [[SoT - Mindfulness and Emotional Regulation]]—upstream |
 
-### Orphan Atoms (no Links found)
+### Orphan Atoms (No Links fOund)
 
 (none)

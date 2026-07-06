@@ -1,19 +1,14 @@
 ---
-aliases:
-- Subjective Knowledge Creation
-created: 2025-11-01 12:10:09+00:00
+aliases: [Subjective Knowledge Creation]
+created: 2025-11-01T12:10:09+00:00
 last_reviewed: '2025-11-01'
-modified: 2026-02-01 15:08:32+00:00
+modified: 2026-07-04T10:51:50+00:00
+permalink: llmeon/30-library/100-zettelkasten/individual-interpretation-creates-different-knowledge-from-the-same-information
 status: seedling
-tags:
-- bias
-- interpretation
-- knowledge
-- TheHuman/Cognition
+tags: [bias, interpretation, knowledge, TheHuman/Cognition]
 title: Individual Interpretation Creates Different Knowledge from the Same Information
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/individual-interpretation-creates-different-knowledge-from-the-same-information
 ---
 
 ## Individual Interpretation Creates Different Knowledge from the Same Information

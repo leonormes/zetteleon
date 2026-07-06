@@ -1,24 +1,19 @@
 ---
-aliases:
-- MOC - The Enlightenment Trap
-created: 2025-11-01 12:20:00+00:00
+aliases: [MOC - The Enlightenment Trap]
+created: 2025-11-01T12:20:00+00:00
 criteria: Atomic notes must relate to Zen concepts of suffering, impermanence, and
   the nature of enlightenment.
 exclusions: Discussion of enlightenment from other spiritual traditions.
 last_reviewed: ''
-modified: 2026-02-01 15:08:04+00:00
+modified: 2026-07-04T10:51:08+00:00
+permalink: llmeon/30-library/mo-c/moc-why-chasing-enlightenment-causes-suffering
 scope: The Zen Buddhist perspective on why seeking enlightenment as a goal leads to
   suffering.
 status: ''
-tags:
-- buddhism
-- enlightenment
-- suffering
-- zen
+tags: [buddhism, enlightenment, suffering, zen]
 title: MOC - Why Chasing Enlightenment Causes Suffering
 type: map
 updated: null
-permalink: llmeon/30-library/mo-c/moc-why-chasing-enlightenment-causes-suffering
 ---
 
 ## MOC - Why Chasing Enlightenment Causes Suffering

@@ -1,17 +1,14 @@
 ---
 aliases: []
-created: 2025-08-29 15:20:43+00:00
+created: 2025-08-29T15:20:43+00:00
 last_reviewed: 'null'
-modified: 2026-02-01 15:08:26+00:00
+modified: 2026-07-04T10:51:45+00:00
+permalink: llmeon/30-library/100-zettelkasten/tacit-vs-explicit-knowledge
 status: 'null'
-tags:
-- teams
-- TheHuman/Cognition/mental-model
-- topic/knowledge-management
+tags: [teams, TheHuman/Cognition/mental-model, topic/knowledge-management]
 title: Tacit vs Explicit Knowledge
 type: 'null'
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/tacit-vs-explicit-knowledge
 ---
 
 A team's operational model of a system can be viewed through the lens of tacit and explicit knowledge, often visualised as an iceberg.

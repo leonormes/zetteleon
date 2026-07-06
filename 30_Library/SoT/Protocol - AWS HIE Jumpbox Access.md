@@ -1,20 +1,12 @@
 ---
-alias:
-- AWS SSM SSH Protocol
-- HIE Jumpbox Access
-created: 2026-02-05 00:00:00+00:00
-modified: 2026-02-16 09:40:35+00:00
+alias: [AWS SSM SSH Protocol, HIE Jumpbox Access]
+created: 2026-02-05T00:00:00+00:00
+modified: 2026-07-04T10:51:07+00:00
+permalink: llmeon/30-library/so-t/protocol-aws-hie-jumpbox-access
 status: stable
-tags:
-- aws
-- customer/hie
-- jumpbox
-- protocol
-- ssh
-- ssm
+tags: [aws, customer/hie, jumpbox, protocol, ssh, ssm]
 title: Protocol - AWS HIE Jumpbox Access
 type: protocol
-permalink: llmeon/30-library/so-t/protocol-aws-hie-jumpbox-access
 ---
 
 ## Logic Map

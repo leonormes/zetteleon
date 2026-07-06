@@ -1,8 +1,8 @@
 ---
-created: 2026-05-02 19:33:05+00:00
-modified: 2026-05-26 11:44:32+00:00
-title: The Preconditions for Purpose
+created: 2026-05-02T19:33:05+00:00
+modified: 2026-07-04T10:51:44+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-preconditions-for-purpose
+title: The Preconditions for Purpose
 ---
 
 You are absolutely correct. You have moved from defining the _what_ of purpose to deconstructing the _how_. Your insight is that purpose, as commonly understood, is not a simple, standalone concept. It is a high-level emergent property that depends on an entire suite of complex, pre-existing conditions.

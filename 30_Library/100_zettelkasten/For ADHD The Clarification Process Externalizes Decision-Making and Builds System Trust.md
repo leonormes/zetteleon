@@ -1,20 +1,15 @@
 ---
 aliases: []
-created: 2025-11-10 15:13:00+00:00
+created: 2025-11-10T15:13:00+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:33+00:00
+modified: 2026-07-04T10:51:51+00:00
+permalink: llmeon/30-library/100-zettelkasten/for-adhd-the-clarification-process-externalizes-decision-making-and-builds-system-trust
 status: seedling
-tags:
-- executive-function
-- gtd
-- system-trust
-- TheHuman/Health/ADHD
-- topic/productivity
-title: For ADHD The Clarification Process Externalizes Decision-Making and Builds
+tags: [executive-function, gtd, system-trust, TheHuman/Health/ADHD, topic/productivity]
+title: For ADHD The Clarification Process Externalizes Decision-Making and Builds System Trust
   System Trust
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/for-adhd-the-clarification-process-externalizes-decision-making-and-builds-system-trust
 ---
 
 Summary: For individuals with ADHD, the clarification process externalizes decision-making, prevents paralysis by providing clear next steps, and builds system trust through consistent actionability.

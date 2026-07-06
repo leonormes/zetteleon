@@ -1,12 +1,12 @@
 ---
-created: 2026-04-16 14:41:12+00:00
-modified: 2026-06-08 11:49:22+00:00
+created: 2026-04-16T14:41:12+00:00
+modified: 2026-07-04T10:51:28+00:00
+permalink: llmeon/30-library/200-projects/nhs-synthetic-data-omop-pipeline-meeting
 project_category: omop
 project_name: OMOP
 project_status: active
 title: NHS Synthetic Data & OMOP Pipeline Meeting
 type: null
-permalink: llmeon/30-library/200-projects/nhs-synthetic-data-omop-pipeline-meeting
 ---
 
 _Shared Message from Pieces (<https://pieces.app>) by Leon Ormes (leonormes@gmail.com) on Thursday Apr 16, 2026 - 3:41 PM_

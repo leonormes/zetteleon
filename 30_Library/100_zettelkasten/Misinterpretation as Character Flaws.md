@@ -1,14 +1,14 @@
 ---
 aliases: []
-created: 2025-06-26 15:03:54+00:00
+created: 2025-06-26T15:03:54+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:30+00:00
+modified: 2026-07-04T10:51:49+00:00
+permalink: llmeon/30-library/100-zettelkasten/misinterpretation-as-character-flaws
 status: ''
 tags: []
 title: Misinterpretation as Character Flaws
 type: ''
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/misinterpretation-as-character-flaws
 ---
 
 For decades, before widespread understanding, ADHD symptoms were often misinterpreted as intentional misbehavior or character flaws. For example, difficulties with attention, organization, planning, and time management (known as executive function challenges) were often seen as laziness, carelessness, bad attitude, or selfishness, rather than neurological differences. This constant misinterpretation and criticism, especially throughout childhood and early adulthood, deeply erodes self-esteem.

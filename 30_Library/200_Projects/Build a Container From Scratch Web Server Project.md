@@ -1,18 +1,17 @@
 ---
 aliases: []
-created: 2025-02-07 12:57:53+00:00
+created: 2025-02-07T12:57:53+00:00
 last_reviewed: 'null'
-modified: 2026-06-08 11:49:15+00:00
+modified: 2026-07-04T10:51:38+00:00
+permalink: llmeon/30-library/200-projects/build-a-container-from-scratch-web-server-project
 project_category: infrastructure
 project_name: k8s
 project_status: archived
 status: 'null'
-tags:
-- SoftwareEngineering/Containers
+tags: [SoftwareEngineering/Containers]
 title: Build a Container From Scratch Web Server Project
 type: tutorial
 updated: null
-permalink: llmeon/30-library/200-projects/build-a-container-from-scratch-web-server-project
 ---
 
 ## Project Overview

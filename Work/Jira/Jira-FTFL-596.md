@@ -1,8 +1,8 @@
 ---
-created: 2026-04-28 10:30:02+00:00
-modified: 2026-05-26 11:43:56+00:00
-title: Jira-FTFL-596
+created: 2026-04-28T10:30:02+00:00
+modified: 2026-07-04T10:50:34+00:00
 permalink: llmeon/work/jira/jira-ftfl-596
+title: Jira-FTFL-596
 ---
 
 ## FTFL-596: Configure the Azure Backups Module for NNUH & MKUH
@@ -50,7 +50,7 @@ Backup requirements we already know:
 
 ### Current State—2026-04-28
 
-#### Verified Facts (prod Audit Session, 10:56 AM–~12:00 PM)
+#### Verified Facts (Prod Audit Session, 10:56 AM–~12:00 PM)
 
 | Area | Finding |
 |:---|:---|
@@ -84,7 +84,7 @@ Backup requirements we already know:
 
 ### Delta Plan
 
-#### 1. OMOP Scope Remediation (FTFL-596 / immediate)
+#### 1. OMOP Scope Remediation (FTFL-596 / iMmediate)
 
 Recommendation: Option B—append namespaces to `includedNamespaces`.
 
@@ -343,14 +343,14 @@ Subscription: FITCloud Non-Production (`249df46b-f75d-4492-8e78-b33a00473548`)
 
 Testing cluster has no backup vault, instance, or extension—backups not configured.
 
-#### Policy (staging)
+#### Policy (Staging)
 
 | Setting | Value |
 |:---|:---|
 | Cadence | Daily at 21:00 UTC (`R/2024-09-02T21:00:00+00:00/P1D`) |
 | Retention | P14D (14 days)—matches prod |
 
-#### Backup Instance Scope (staging)
+#### Backup Instance Scope (Staging)
 
 | Setting | Value |
 |:---|:---|
@@ -393,7 +393,7 @@ Action required: Confirm whether staging is routinely stopped/started on a sched
 - Align the backup window to run only when the cluster is guaranteed to be up, or
 - Treat staging backup failures as expected during stop windows and update alerting accordingly.
 
-#### Storage Network Posture (staging)
+#### Storage Network Posture (Staging)
 
 | Setting | Value |
 |:---|:---|
@@ -419,11 +419,11 @@ No dedicated `private-endpoints` subnet exists on either cluster. `aks-appgatewa
 
 ### Non-Production Delta Plan
 
-#### Priority 0—Stop the Bleeding (staging Job failures)
+#### Priority 0—Stop the Bleeding (Staging Job fAilures)
 
 Confirm the cluster-stopped scenario and decide on backup window alignment or alerting adjustment. No Terraform change needed—cluster is already Running.
 
-#### Priority 1—OMOP Scope Remediation (staging)
+#### Priority 1—OMOP Scope Remediation (Staging)
 
 Add to `includedNamespaces` for the staging backup instance:
 
@@ -443,11 +443,11 @@ backup_included_namespaces = [
 
 > Cost note: Adding `omopdb` (1.2 TB PVCs) to snapshotted backup scope will significantly increase storage costs. Flag for cost-approval before apply.
 
-#### Priority 2—Testing Cluster (no backup)
+#### Priority 2—Testing Cluster (No bAckup)
 
 Testing does not have a vault or extension. Decide whether testing needs backup at all—likely not for ephemeral test data, but `thehyve-test` has 36d-old PVCs which may have value. Document the explicit decision.
 
-#### Priority 3—Private Networking (non-prod, Mirrors Prod FTFL-615)
+#### Priority 3—Private Networking (Non-prod, Mirrors Prod FTFL-615)
 
 Same pattern as prod required:
 

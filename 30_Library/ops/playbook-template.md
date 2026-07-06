@@ -1,8 +1,8 @@
 ---
-created: 2026-02-14 09:00:02+00:00
-modified: 2026-02-16 09:35:44+00:00
-title: playbook-template
+created: 2026-02-14T09:00:02+00:00
+modified: 2026-07-04T10:50:38+00:00
 permalink: llmeon/30-library/ops/playbook-template
+title: playbook-template
 ---
 
 ## Trigger Condition

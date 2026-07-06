@@ -1,27 +1,17 @@
 ---
-aliases:
-- Database and Structures Syllabus
-- DOP Learning Path
-- Systems Programming Curriculum
-created: 2025-12-31 00:00:00+00:00
+aliases: [Database and Structures Syllabus, DOP Learning Path, Systems Programming Curriculum]
+created: 2025-12-31T00:00:00+00:00
 lastreviewed: 2025-12-31
-modified: 2026-02-01 15:08:06+00:00
+modified: 2026-07-04T10:51:11+00:00
+permalink: llmeon/30-library/mo-c/moc-data-oriented-structures-internals
 reviewinterval: 3 months
-seealso:
-- '[[SoT - Curriculum - Data-Oriented Design]]'
-- '[[SoT - Data-Centric Software Engineering]]'
+seealso: ["[[SoT - Curriculum - Data-Oriented Design]]", "[[SoT - Data-Centric Software Engineering]]"]
 sourceoftruth: []
 status: active
-tags:
-- curriculum
-- database
-- dop
-- learning
-- type/moc
+tags: [curriculum, database, dop, learning, type/moc]
 title: MOC - Data-Oriented Structures & Internals
 type: map
 updated: null
-permalink: llmeon/30-library/mo-c/moc-data-oriented-structures-internals
 ---
 
 ## 1. The Core Curriculum

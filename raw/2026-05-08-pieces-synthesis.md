@@ -1,9 +1,9 @@
 ---
 created: Invalid date
-modified: 2026-05-26 11:43:45+00:00
+modified: 2026-07-04T10:50:22+00:00
+permalink: llmeon/raw/2026-05-08-pieces-synthesis
 source: pieces-ltm
 title: 2026-05-08-pieces-synthesis
-permalink: llmeon/raw/2026-05-08-pieces-synthesis
 ---
 
 ## Asset 1: fab5e793-7563-4b86-95e7-bd23

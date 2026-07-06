@@ -1,21 +1,14 @@
 ---
-aliases:
-- Active Processing
-- Good Enough Processing
-- Processing IS the Work
-created: 2025-12-07 00:00:00+00:00
+aliases: [Active Processing, Good Enough Processing, Processing IS the Work]
+created: 2025-12-07T00:00:00+00:00
 last_reviewed: ''
-modified: 2026-05-26 11:44:18+00:00
+modified: 2026-07-04T10:50:52+00:00
+permalink: llmeon/30-library/so-t/so-t-processing-is-the-work
 status: stable
-tags:
-- pkm
-- TheHuman/Health/ADHD
-- TheHuman/Mindset
-- topic/productivity
+tags: [pkm, TheHuman/Health/ADHD, TheHuman/Mindset, topic/productivity]
 title: SoT - Processing IS the Work
 type: SoT
 updated: null
-permalink: llmeon/30-library/so-t/so-t-processing-is-the-work
 ---
 
 ## 1. Definitive Statement

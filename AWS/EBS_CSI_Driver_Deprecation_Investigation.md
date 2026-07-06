@@ -1,16 +1,20 @@
 ---
-created: 2026-06-16 11:05:06+00:00
-modified: 2026-06-16 11:08:09+00:00
-title: EBS_CSI_Driver_Deprecation_Investigation
+created: 2026-06-16T11:05:06+00:00
+modified: 2026-07-04T10:50:37+00:00
 permalink: llmeon/aws/ebs-csi-driver-deprecation-investigation
+title: EBS_CSI_Driver_Deprecation_Investigation
 ---
 
 ## EBS CSI Driver Policy Deprecation Investigation Report
 
 Investigation Date: 16 June 2026
+
 AWS Account: 135808916559
+
 Region: eu-west-2
+
 Authenticated User: leon.ormes@fitfile.com (SSO)
+
 Role: AWSReservedSSO_DiscoveryEngineeringAccess_b38ff0a73dfb5f6d
 
 ---
@@ -512,42 +516,43 @@ Key Cluster Identifiers:
 
 End of Report
 
-
 ---
 
 ## ADDENDUM: Critical Finding on vol-0f512bf32e7a77a79
 
 ### Volume Classification Update
 
-**Volume:** vol-0f512bf32e7a77a79  
-**Status:** ⚠️ **NOT EKS-RELATED — JUMPBOX/KALI INSTANCE**
+Volume: vol-0f512bf32e7a77a79
+
+Status: ⚠️ NOT EKS-RELATED—JUMPBOX/KALI INSTANCE
 
 #### Details
 
 | Property | Value |
 |----------|-------|
-| **Attached Instance** | i-0c1ed2ec1275b511d |
-| **Instance Name** | KALI |
-| **Instance Type** | t2.xlarge |
-| **Instance State** | **STOPPED** |
-| **Volume State** | in-use |
-| **Launch Time** | 9 July 2025, 09:20:03 UTC |
-| **Device** | /dev/xvda (root volume) |
+| Attached Instance | i-0c1ed2ec1275b511d |
+| Instance Name | KALI |
+| Instance Type | t2.xlarge |
+| Instance State | STOPPED |
+| Volume State | in-use |
+| Launch Time | 9 July 2025, 09:20:03 UTC |
+| Device | /dev/xvda (root volume) |
 
 ### Assessment
 
-This volume is the **root volume** (`/dev/xvda`) of a stopped security testing instance (KALI), not a Kubernetes or EBS CSI-provisioned volume. 
+This volume is the root volume (`/dev/xvda`) of a stopped security testing instance (KALI), not a Kubernetes or EBS CSI-provisioned volume.
 
-**EBS CSI tagging requirement:** NOT APPLICABLE to this volume
+EBS CSI tagging requirement: NOT APPLICABLE to this volume
 
 The volume does not require the `ebs.csi.aws.com/cluster` tag because:
+
 1. It is not provisioned or managed by EBS CSI driver
 2. It is a node instance root volume, not a dynamically provisioned persistent volume
 3. It exists outside the EKS cluster architecture
 
 ### Revised Volume Assessment
 
-**Updated Untagged Volumes Count:** 8 (not 9)
+Updated Untagged Volumes Count: 8 (not 9)
 
 | Volume ID | Category | Recommendation | CSI Tag Required |
 |-----------|----------|-----------------|------------------|
@@ -555,7 +560,7 @@ The volume does not require the `ebs.csi.aws.com/cluster` tag because:
 | vol-03c23f95447153a18 | EKS PVC / High Risk | Tag with cluster name | ✅ YES |
 | vol-0834da1f3486fea9a | EKS Node / Medium Risk | Tag with cluster name | ✅ YES |
 | vol-0a929e0fedba97937 | EKS Node / Medium Risk | Tag with cluster name | ✅ YES |
-| **vol-0f512bf32e7a77a79** | **Non-EKS (KALI)** | **No action needed** | ❌ NO |
+| vol-0f512bf32e7a77a79 | Non-EKS (KALI) | No action needed | ❌ NO |
 | vol-045d9a2ba2ce0059c | EKS Node / Medium Risk | Tag with cluster name | ✅ YES |
 | vol-084a2470987348115 | EKS Node / Medium Risk | Tag with cluster name | ✅ YES |
 | vol-0c9b7bbfc0f08c77d | EKS Node / Medium Risk | Tag with cluster name | ✅ YES |
@@ -563,9 +568,10 @@ The volume does not require the `ebs.csi.aws.com/cluster` tag because:
 
 ### Revised Pre-Migration Action Items
 
-**UPDATED:** Only **8 volumes require tagging** (not 9).
+UPDATED: Only 8 volumes require tagging (not 9).
 
-**High-Risk Volumes (2) — Immediate Tagging:**
+High-Risk Volumes (2)—Immediate Tagging:
+
 ```bash
 # vol-03c23f95447153a18 (eoe-test-codisc PVC)
 aws ec2 create-tags --resources vol-03c23f95447153a18 \
@@ -578,7 +584,8 @@ aws ec2 create-tags --resources vol-0ec0cf31c76b3e885 \
   --region eu-west-2 --profile eoe-hie
 ```
 
-**Medium-Risk Volumes (6) — Tag with EKS Cluster Identifier:**
+Medium-Risk Volumes (6)—Tag with EKS Cluster Identifier:
+
 ```bash
 for VOL in vol-0495ed05c42bdb021 vol-0834da1f3486fea9a vol-0a929e0fedba97937 \
            vol-045d9a2ba2ce0059c vol-084a2470987348115 vol-0c9b7bbfc0f08c77d; do
@@ -591,9 +598,10 @@ for VOL in vol-0495ed05c42bdb021 vol-0834da1f3486fea9a vol-0a929e0fedba97937 \
 done
 ```
 
-**Non-EKS Volume (1) — NO ACTION REQUIRED:**
-- vol-0f512bf32e7a77a79 (KALI instance root volume) — skip tagging
+Non-EKS Volume (1)—NO ACTION REQUIRED:
+
+- vol-0f512bf32e7a77a79 (KALI instance root volume)—skip tagging
 
 ### Conclusion
 
-The discovery of vol-0f512bf32e7a77a79 as a non-EKS volume **does not impact the EBS CSI driver migration timeline or scope**. The migration can proceed as planned with only the 8 EKS-related volumes requiring tagging.
+The discovery of vol-0f512bf32e7a77a79 as a non-EKS volume does not impact the EBS CSI driver migration timeline or scope. The migration can proceed as planned with only the 8 EKS-related volumes requiring tagging.

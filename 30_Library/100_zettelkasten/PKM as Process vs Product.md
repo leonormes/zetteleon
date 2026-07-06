@@ -1,18 +1,14 @@
 ---
 aliases: []
-created: 2025-08-24 14:18:33+00:00
+created: 2025-08-24T14:18:33+00:00
 last_reviewed: 'null'
-modified: 2026-02-01 15:08:29+00:00
+modified: 2026-07-04T10:51:48+00:00
+permalink: llmeon/30-library/100-zettelkasten/pkm-as-process-vs-product
 status: 'null'
-tags:
-- process
-- TheHuman/Cognition/thinking
-- topic/pkm
-- topic/pkm/zettelkasten
+tags: [process, TheHuman/Cognition/thinking, topic/pkm, topic/pkm/zettelkasten]
 title: PKM as Process vs Product
 type: permanent
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/pkm-as-process-vs-product
 ---
 
 The most crucial distinction in personal knowledge management is between PKM as a product (a personal wiki) and PKM as a process (a thinking partner).

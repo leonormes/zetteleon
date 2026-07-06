@@ -1,40 +1,11 @@
 ---
-created: 2026-05-19 22:29:21+00:00
-modified: 2026-05-26 11:43:35+00:00
-pieces_ids:
-- 140489fe-4fe4-421a-b799-9c5c5880d794
-- 16e22ed8-e61d-4e2c-989d-e616e79ad803
-- 24c41e73-8c65-4a1a-8dca-dfcddf2812fe
-- 2baa3c78-88ac-4cdc-8745-978108ecb3ba
-- 417ee93a-5444-4c4b-8dd5-5e7bf00b8015
-- 494b0b46-a4e5-4e4a-83c3-9ef0ea139709
-- 4e4545c2-65a8-487f-8314-24302a2a8d56
-- 6350c885-9741-401e-b311-8459d0a334b0
-- 64b8bcbe-8776-470e-a9f5-18878d1a531e
-- 7dc06064-f5bc-4970-b3cc-627c84f1b9ba
-- 7fe455ad-5680-4595-8185-b4c34d36f6a8
-- 9a716e2f-9df5-436a-9cb2-bec5ab873663
-- aac02ce3-277c-4b29-b8d8-fdee2ea37404
-- aaddcaa2-8360-4750-8158-40932e68eda8
-- b6108825-a48d-4afc-84bf-609304ddc985
-- ba7bc3e8-7c13-4a86-b329-29419a202810
-- bee28613-769e-4c71-a47c-0bd465520ede
-- cb3d1366-8756-4f01-82db-ac3d631abd4a
-- cc59a09b-487b-44c8-b9fa-5c0dfe627f68
-- d0002e72-4ef5-45ed-b426-305b461ec1f8
-- d283db89-6aea-40d3-9455-65291da69cc1
-- dcfb39bb-3d2a-403a-85d2-1920cc35aa58
-- e6feea43-93e6-4698-8605-edbe89899f8b
-- e8302685-7bd8-4b72-bc76-07e7bea2dd06
-- ed31ce91-8a5b-4300-a9f5-c15443b3dc38
-- f28df051-70a5-4513-a58f-38fef2818705
-- fbfa2d7b-8977-4ff8-b352-bd38980cdf6c
-source: pieces-ltm
-tags:
-- pieces
-- raw
-title: 2026-05-19-pieces-cuh-aks-backup-rbac-permissions
+created: 2026-05-19T22:29:21+00:00
+modified: 2026-07-04T10:50:04+00:00
 permalink: llmeon/raw/2026-05-19-pieces-cuh-aks-backup-rbac-permissions
+pieces_ids: [140489fe-4fe4-421a-b799-9c5c5880d794, 16e22ed8-e61d-4e2c-989d-e616e79ad803, 24c41e73-8c65-4a1a-8dca-dfcddf2812fe, 2baa3c78-88ac-4cdc-8745-978108ecb3ba, 417ee93a-5444-4c4b-8dd5-5e7bf00b8015, 494b0b46-a4e5-4e4a-83c3-9ef0ea139709, 4e4545c2-65a8-487f-8314-24302a2a8d56, 6350c885-9741-401e-b311-8459d0a334b0, 64b8bcbe-8776-470e-a9f5-18878d1a531e, 7dc06064-f5bc-4970-b3cc-627c84f1b9ba, 7fe455ad-5680-4595-8185-b4c34d36f6a8, 9a716e2f-9df5-436a-9cb2-bec5ab873663, aac02ce3-277c-4b29-b8d8-fdee2ea37404, aaddcaa2-8360-4750-8158-40932e68eda8, b6108825-a48d-4afc-84bf-609304ddc985, ba7bc3e8-7c13-4a86-b329-29419a202810, bee28613-769e-4c71-a47c-0bd465520ede, cb3d1366-8756-4f01-82db-ac3d631abd4a, cc59a09b-487b-44c8-b9fa-5c0dfe627f68, d0002e72-4ef5-45ed-b426-305b461ec1f8, d283db89-6aea-40d3-9455-65291da69cc1, dcfb39bb-3d2a-403a-85d2-1920cc35aa58, e6feea43-93e6-4698-8605-edbe89899f8b, e8302685-7bd8-4b72-bc76-07e7bea2dd06, ed31ce91-8a5b-4300-a9f5-c15443b3dc38, f28df051-70a5-4513-a58f-38fef2818705, fbfa2d7b-8977-4ff8-b352-bd38980cdf6c]
+source: pieces-ltm
+tags: [pieces, raw]
+title: 2026-05-19-pieces-cuh-aks-backup-rbac-permissions
 ---
 
 ## Asset 1 (Pieces: dcfb39bb-3d2a-403a-85d2-1920cc35aa58)
@@ -632,7 +603,7 @@ Based on the resource data provided in `Azureresources.csv`, here is the validat
 - Backup Vault (`aksbackupvault`): Validated. This resource is correctly identified in this group.
 - Storage Account: Discrepancy found. The email identifies the storage account as `aksffuksgp01backupsa`. However, the CSV shows the storage account in this group is actually named `aksffuksgp01cuhbackup`. The name `aksffuksgp01backupsa` does not appear anywhere in the provided data.
 
-### 3. Claim: "aks-ff-uks-gp-01-backup-rg is the Active one"
+### 3. Claim: "aks-ff-uks-gp-01-backup-rg is the Active One"
 
 - Validated. This group contains the `aksbackupvault` mentioned as the primary vault. The alternative group, `rg-ff-uks-gp-bkup`, contains a different vault (`bkv-ff-uks-gp-01`), supporting the claim that the former is the intended active group for the current pipeline.
 
@@ -839,8 +810,8 @@ I gave hermes the instructions but got
 
 … (+43 more lines)
 
-5. Do NOT modify any non-backup resources (AKS config, ArgoCD, networking, etc).
-6. Output: updated main.tf section + variables.tf additions + any required moved.tf blocks.
+1. Do NOT modify any non-backup resources (AKS config, ArgoCD, networking, etc).
+2. Output: updated main.tf section + variables.tf additions + any required moved.tf blocks.
 
 ⚠ Provider resolver returned an empty API key. Set OPENROUTER_API_KEY or run: hermes setup
 

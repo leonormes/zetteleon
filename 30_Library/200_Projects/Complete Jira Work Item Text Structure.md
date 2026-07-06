@@ -1,9 +1,9 @@
 ---
-created: 2026-06-12 08:01:45+00:00
-modified: 2026-06-12 08:23:35+00:00
-title: Complete Jira Work Item Text Structure
-project_name: Refined Deployment
+created: 2026-06-12T08:01:45+00:00
+modified: 2026-07-04T10:51:37+00:00
 permalink: llmeon/30-library/200-projects/complete-jira-work-item-text-structure
+project_name: Refined Deployment
+title: Complete Jira Work Item Text Structure
 ---
 
 _Shared Message from Pieces (<https://pieces.app>) by Leon Ormes (leonormes@gmail.com) on Friday Jun 12, 2026 - 9:01 AM_
@@ -15,11 +15,14 @@ Ready to copy into Jira. Don't forget to replace placeholders with actual assign
 
 ---
 
-## EPIC: FTFL-500 — FFNode Stress Testing Programme (Phase 0–2: Asset Registration, Pre-flight QA, Single-Node Baseline)
+## EPIC: FTFL-500—FFNode Stress Testing Programme (Phase 0–2: Asset Registration, Pre-flight QA, Single-Node Baseline)
 
 Type: Epic
+
 Project: FTFL
+
 Summary: FFNode Stress Testing—Phase 0–2 Foundation, QA Gates, and Single-Node Baseline Execution
+
 Description:
 
 Comprehensive stress testing programme to measure system performance and establish known working limits up to the AS05 contractual requirement (31 July 2026). This epic covers three sequential phases:
@@ -37,18 +40,25 @@ Acceptance Criteria (Epic):
 - Kill criteria evaluated; Phase 3 readiness decision logged
 
 Parent Epic: FTFL-476 (OMOP stress-testing infra + monitoring)
+
 Linked Epics: FTFL-480 (userflow permutation script)
+
 Hard Deadline: 31 July 2026 (AS05 milestone)
+
 Priority: High
+
 Effort Estimate (Epic): 4–6 days total
 
 ---
 
-## STORY: FTFL-501 — Register and Manifest Stress Test Assets (Phase 0)
+## STORY: FTFL-501—Register and Manifest Stress Test Assets (Phase 0)
 
 Type: Story
+
 Parent Epic: FTFL-500
+
 Summary: Phase 0—Register Assets and Confirm Dataset Manifest
+
 Description:
 
 Assemble dataset inventory, confirm dataset quality, and validate overlap engineering prerequisites before pre-flight QA gates. Produce the authoritative dataset manifest that all subsequent phases reference.
@@ -73,20 +83,29 @@ Subtasks:
    Confirm at least 2 nodes have MEASUREMENT tables with ≥500M rows (AS05 requirement). Document row count summary per node.
 
 Effort: 0.5 days
+
 Story Points: 3
+
 Assignee: [DevOps/Infra Lead]
+
 Sprint: [Next Sprint]
+
 Labels: phase-0, stress-testing, asset-registration
+
 Depends on: Dataset pipeline (FTFL-485, if exists)
+
 Blocks: FTFL-502 (Pre-flight QA)
 
 ---
 
-## STORY: FTFL-502 — Pre-flight Quality Gates and Schema Validation (Phase 1)
+## STORY: FTFL-502—Pre-flight Quality Gates and Schema Validation (Phase 1)
 
 Type: Story
+
 Parent Epic: FTFL-500
+
 Summary: Phase 1—Pre-flight QA Gates (Achilles + Schema/FK Integrity)
+
 Description:
 
 Execute data quality profiling and schema validation on all nodes before baseline testing. Any failing node blocks Phase 2 progression and triggers root-cause investigation.
@@ -118,20 +137,29 @@ Subtasks:
    Check production node error rates at baseline, cost burn within documented ceiling, vault/cert-manager health. Document blockers; escalate if any critical.
 
 Effort: 1–2 days
+
 Story Points: 5
+
 Assignee: [QA/Data Lead]
+
 Sprint: [Next Sprint]
+
 Labels: phase-1, stress-testing, pre-flight-qa, data-quality
+
 Depends on: FTFL-501 (Asset Registration)
+
 Blocks: FTFL-503 (Single-Node Baseline)
 
 ---
 
-## STORY: FTFL-503 — Single-Node Baseline Capacity Characterization (Phase 2)
+## STORY: FTFL-503—Single-Node Baseline Capacity Characterization (Phase 2)
 
 Type: Story
+
 Parent Epic: FTFL-500
+
 Summary: Phase 2—Single-Node Baseline (Latency and Resource Metrics)
+
 Description:
 
 Execute a constrained permutation wave on a single node to establish baseline latency (p50/p95/p99) and resource utilization (CPU, memory, disk I/O) under normal federation load. Calibrate monitoring and validate harness restartability.
@@ -164,11 +192,17 @@ Subtasks:
    Compile baseline report: latency profiles, resource headroom, identified bottlenecks, recommendations for Phase 3 (waves A–D). Decision gate: proceed to multi-node federation or remediate first?
 
 Effort: 1–2 days
+
 Story Points: 8
+
 Assignee: [Performance/Test Lead]
+
 Sprint: [Sprint +1]
+
 Labels: phase-2, stress-testing, baseline, single-node
+
 Depends on: FTFL-502 (Pre-flight QA)
+
 Blocks: FTFL-504 (Phase 3 Permutation Waves—not included in this ticket set, for future sprint)
 
 ---

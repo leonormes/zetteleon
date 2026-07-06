@@ -1,8 +1,9 @@
 ---
 aliases: []
-created: 2025-06-20 13:06:13+00:00
+created: 2025-06-20T13:06:13+00:00
 last_reviewed: ''
-modified: 2026-05-26 11:44:34+00:00
+modified: 2026-07-04T10:51:48+00:00
+permalink: llmeon/30-library/100-zettelkasten/opportunities-for-achievement-assessment
 see_also: []
 status: ''
 superseded_by: ''
@@ -11,7 +12,6 @@ tags: []
 title: Opportunities for Achievement & Assessment
 type: ''
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/opportunities-for-achievement-assessment
 ---
 
 1. In your lessons, do you feel like you have opportunities to show what you know in different ways, not just by writing or speaking in front of the whole class? [17]

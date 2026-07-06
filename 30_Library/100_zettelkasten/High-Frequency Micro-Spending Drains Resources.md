@@ -1,18 +1,14 @@
 ---
-aliases:
-- Death by a Thousand Cuts Budgeting
-created: 2025-11-18 14:31:00+00:00
+aliases: [Death by a Thousand Cuts Budgeting]
+created: 2025-11-18T14:31:00+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:33+00:00
+modified: 2026-07-04T10:51:50+00:00
+permalink: llmeon/30-library/100-zettelkasten/high-frequency-micro-spending-drains-resources
 status: ''
-tags:
-- budgeting
-- finance
-- TheHuman/Habits
+tags: [budgeting, finance, TheHuman/Habits]
 title: High-Frequency Micro-Spending Drains Resources
 type: ''
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/high-frequency-micro-spending-drains-resources
 ---
 
 High-frequency, low-value purchases, such as daily coffees or small, frequent grocery trips, can drain significant financial resources without being noticed. This "death by a thousand cuts" phenomenon occurs because individual transactions seem insignificant, yet their cumulative effect can derail major financial goals.

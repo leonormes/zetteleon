@@ -1,18 +1,14 @@
 ---
 aliases: []
-created: 2025-10-20 10:03:00+00:00
+created: 2025-10-20T10:03:00+00:00
 last_reviewed: ''
-modified: 2026-05-26 11:44:36+00:00
+modified: 2026-07-04T10:51:53+00:00
+permalink: llmeon/30-library/100-zettelkasten/chemotaxis-as-a-primitive-precursor-to-emotion
 status: ''
-tags:
-- biology
-- emotion
-- evolution
-- topic/systems
+tags: [biology, emotion, evolution, topic/systems]
 title: Chemotaxis as a Primitive Precursor to Emotion
 type: ''
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/chemotaxis-as-a-primitive-precursor-to-emotion
 ---
 
 While single-celled organisms do not have emotions, they possess a remarkably similar and ancient foundational mechanism for guiding action called chemotaxis. This process serves as a primitive precursor to the complex emotional systems in animals.

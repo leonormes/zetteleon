@@ -1,6 +1,6 @@
 ---
 created: 2026-07-01T10:30:00+00:00
-modified: 2026-07-01T10:34:31+00:00
+modified: 2026-07-04T10:52:08+00:00
 permalink: llmeon/200-projects/prod-os/investigation-grafana-dpm-spike-2026-07-01
 source: hermes
 tags: [1, alloy, cost, grafana, incident, observability]
@@ -119,7 +119,7 @@ Applies to ALL clusters—the `_grafana.tpl` template is shared. Each cluster no
    - Removes the highest-cardinality label from `kube_pod_status_reason`, `kube_pod_info`, etc.
    - Estimated saving: 30-40% reduction in KSM-derived series
 
-2. Increase scrape intervals for non-critical ServiceMonitors
+1. Increase scrape intervals for non-critical ServiceMonitors
    - Scrape interval from 30s → 60s halves DPM
    - Apply selectively to spicedb, argocd (can tolerate lower resolution)
 

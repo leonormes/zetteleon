@@ -1,15 +1,11 @@
 ---
-created: 2026-02-06 14:20:00+00:00
-modified: 2026-02-06 20:53:48+00:00
+created: 2026-02-06T14:20:00+00:00
+modified: 2026-07-04T10:51:46+00:00
+permalink: llmeon/30-library/100-zettelkasten/question-is-configuration-fragility-inherent-to-distributed-systems
 status: answered
-tags:
-- architecture/coupling
-- devops/configuration
-- engineering/complexity
-- state/thinking
+tags: [architecture/coupling, devops/configuration, engineering/complexity, state/thinking]
 title: Question - Is Configuration Fragility Inherent to Distributed Systems
 type: question
-permalink: llmeon/30-library/100-zettelkasten/question-is-configuration-fragility-inherent-to-distributed-systems
 ---
 
 ## The Tension

@@ -1,21 +1,16 @@
 ---
-created: 2026-02-22 16:53:26+00:00
+created: 2026-02-22T16:53:26+00:00
 hop_level: local
 last_verified: 2026-02-22
-modified: 2026-03-14 11:10:10+00:00
+modified: 2026-07-04T10:50:41+00:00
+permalink: llmeon/30-library/ops/cmd-kubectl-restart-argocd-repo-server
 requires_tunnel: false
 status: active
-tags:
-- argocd
-- cache
-- cmd
-- credentials
-- restart
+tags: [argocd, cache, cmd, credentials, restart]
 target_service: argocd
 title: cmd_kubectl_restart_argocd_repo_server
 tool: kubectl
 type: command
-permalink: llmeon/30-library/ops/cmd-kubectl-restart-argocd-repo-server
 ---
 
 ## Restart ArgoCD Repo Server

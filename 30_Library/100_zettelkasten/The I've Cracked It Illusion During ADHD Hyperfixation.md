@@ -1,14 +1,14 @@
 ---
 aliases: []
-created: 2025-11-01 11:37:53+00:00
+created: 2025-11-01T11:37:53+00:00
 last_reviewed: '2025-11-01T00:00:00.000Z'
-modified: 2026-02-01 15:08:25+00:00
+modified: 2026-07-04T10:51:44+00:00
+permalink: llmeon/30-library/100-zettelkasten/the-ive-cracked-it-illusion-during-adhd-hyperfixation
 status: seedling
 tags: []
-title: The I've Cracked It Illusion During ADHD Hyperfixation
+title: "The I've Cracked It Illusion During ADHD Hyperfixation"
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/the-ive-cracked-it-illusion-during-adhd-hyperfixation
 ---
 
 Summary: During the intense period of hyperfixation, the clarity and motivation are so profound that people with ADHD often believe they've finally found their "one true passion." They may declare the new interest as their career path, life's hobby, or the system that will finally organize their life.

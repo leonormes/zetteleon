@@ -1,20 +1,14 @@
 ---
-aliases:
-- Dream State Insights
-- Waking Creativity
-created: 2025-10-30 15:07:41+00:00
+aliases: [Dream State Insights, Waking Creativity]
+created: 2025-10-30T15:07:41+00:00
 last_reviewed: '2025-10-30'
-modified: 2026-02-01 15:08:24+00:00
+modified: 2026-07-04T10:51:44+00:00
+permalink: llmeon/30-library/100-zettelkasten/transition-times-are-valuable-windows-for-creative-insight
 status: seedling
-tags:
-- insight
-- morning-routine
-- TheHuman/Creativity
-- transitions
+tags: [insight, morning-routine, TheHuman/Creativity, transitions]
 title: Transition Times Are Valuable Windows for Creative Insight
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/transition-times-are-valuable-windows-for-creative-insight
 ---
 
 ## Transition Times Are Valuable Windows for Creative Insight

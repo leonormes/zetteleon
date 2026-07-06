@@ -1,21 +1,14 @@
 ---
-aliases:
-- Compounding
-- Exponential Growth
-- The Rule of 70
-created: 2025-12-25 11:45:00+00:00
+aliases: [Compounding, Exponential Growth, The Rule of 70]
+created: 2025-12-25T11:45:00+00:00
 last_reviewed: 2025-12-25
-modified: 2026-02-01 15:07:50+00:00
+modified: 2026-07-04T10:50:49+00:00
+permalink: llmeon/30-library/so-t/so-t-the-exponential-function
 status: stable
-tags:
-- cognition
-- mathematics
-- mental_models
-- systems_thinking
+tags: [cognition, mathematics, mental_models, systems_thinking]
 title: SoT - The Exponential Function
 type: SoT
 updated: null
-permalink: llmeon/30-library/so-t/so-t-the-exponential-function
 ---
 
 ## SoT - The Exponential Function

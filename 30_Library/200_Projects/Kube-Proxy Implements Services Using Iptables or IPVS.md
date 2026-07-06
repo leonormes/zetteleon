@@ -1,24 +1,17 @@
 ---
 aliases: []
-created: 2025-10-26 17:19:00+00:00
+created: 2025-10-26T17:19:00+00:00
 last_reviewed: 'null'
-modified: 2026-06-08 11:49:21+00:00
+modified: 2026-07-04T10:51:29+00:00
+permalink: llmeon/30-library/200-projects/kube-proxy-implements-services-using-iptables-or-ipvs
 project_category: infrastructure
 project_name: k8s
 project_status: archived
 status: 'null'
-tags:
-- iptables
-- ipvs
-- kube-proxy
-- load-balancing
-- service
-- SoftwareEngineering/Containers
-- SoftwareEngineering/Kubernetes
+tags: [iptables, ipvs, kube-proxy, load-balancing, service, SoftwareEngineering/Containers, SoftwareEngineering/Kubernetes]
 title: Kube-Proxy Implements Services Using Iptables or IPVS
 type: Fact
 updated: null
-permalink: llmeon/30-library/200-projects/kube-proxy-implements-services-using-iptables-or-ipvs
 ---
 
 ## Summary

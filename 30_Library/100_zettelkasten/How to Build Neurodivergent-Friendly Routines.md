@@ -1,20 +1,14 @@
 ---
-aliases:
-- A Guide to Building Routines for Neurodivergent Minds
-created: 2025-10-29 16:10:00+00:00
+aliases: [A Guide to Building Routines for Neurodivergent Minds]
+created: 2025-10-29T16:10:00+00:00
 last_reviewed: 'null'
-modified: 2026-02-01 15:08:33+00:00
+modified: 2026-07-04T10:51:50+00:00
+permalink: llmeon/30-library/100-zettelkasten/how-to-build-neurodivergent-friendly-routines
 status: 'null'
-tags:
-- autism
-- map
-- routine
-- TheHuman/Health/ADHD
-- topic/productivity/productivity-system
+tags: [autism, map, routine, TheHuman/Health/ADHD, topic/productivity/productivity-system]
 title: How to Build Neurodivergent-Friendly Routines
 type: sequence
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/how-to-build-neurodivergent-friendly-routines
 ---
 
 This note outlines a sequence for building a supportive, flexible, and sustainable routine tailored for a neurodivergent brain.

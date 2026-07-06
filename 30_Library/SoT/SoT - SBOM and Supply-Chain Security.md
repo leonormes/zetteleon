@@ -1,21 +1,12 @@
 ---
-aliases:
-- Drift Detection
-- SBOM Analysis
-- Software Bill of Materials
-- Supply-Chain Security
-created: 2026-03-28 17:20:00+00:00
-modified: 2026-05-26 11:44:17+00:00
+aliases: [Drift Detection, SBOM Analysis, Software Bill of Materials, Supply-Chain Security]
+created: 2026-03-28T17:20:00+00:00
+modified: 2026-07-04T10:50:51+00:00
+permalink: llmeon/30-library/so-t/so-t-sbom-and-supply-chain-security
 status: seedling
-tags:
-- compliance
-- devops
-- sbom
-- security
-- supply-chain
+tags: [compliance, devops, sbom, security, supply-chain]
 title: SoT - SBOM and Supply-Chain Security
 type: SoT
-permalink: llmeon/30-library/so-t/so-t-sbom-and-supply-chain-security
 ---
 
 ## Minimum Viable Understanding (MVU)

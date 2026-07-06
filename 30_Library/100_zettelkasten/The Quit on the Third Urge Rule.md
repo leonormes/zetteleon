@@ -1,20 +1,16 @@
 ---
-created: 2026-04-14 13:22:01+00:00
+created: 2026-04-14T13:22:01+00:00
 created_utc: '2026-04-14T11:35:00Z'
 kind: procedure
-modified: 2026-05-26 11:44:32+00:00
+modified: 2026-07-04T10:51:44+00:00
+permalink: llmeon/30-library/100-zettelkasten/the-quit-on-the-third-urge-rule
 source_title: Thinking about knowledge
 source_url: https://gemini.google.com/app/d3312dd6e13881e3
 status: seed
-tags:
-- discipline
-- habit-formation
-- resistance
-- willpower
+tags: [discipline, habit-formation, resistance, willpower]
 title: The Quit on the Third Urge Rule
 type: atom
 upstream: '[[SoT - ADHD Management Protocols]]'
-permalink: llmeon/30-library/100-zettelkasten/the-quit-on-the-third-urge-rule
 ---
 
 ## The Quit on the Third Urge Rule

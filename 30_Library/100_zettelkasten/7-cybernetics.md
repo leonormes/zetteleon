@@ -1,8 +1,8 @@
 ---
-created: 2026-05-04 08:01:26+00:00
-modified: 2026-05-30 15:37:00+00:00
-title: 7-cybernetics
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-07-04T10:51:55+00:00
 permalink: llmeon/30-library/100-zettelkasten/7-cybernetics
+title: 7-cybernetics
 ---
 
 ## 7-cybernetics

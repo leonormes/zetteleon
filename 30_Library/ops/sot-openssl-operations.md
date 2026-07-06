@@ -1,18 +1,11 @@
 ---
-aliases:
-- Certificate Validation
-- OpenSSL Certs
-- PEM Inspection
-created: 2025-08-27 00:00:00+00:00
-modified: 2026-03-14 11:10:09+00:00
-tags:
-- certificates
-- cheatsheet
-- openssl
-- pki
+aliases: [Certificate Validation, OpenSSL Certs, PEM Inspection]
+created: 2025-08-27T00:00:00+00:00
+modified: 2026-07-04T10:50:38+00:00
+permalink: llmeon/30-library/ops/sot-openssl-operations
+tags: [certificates, cheatsheet, openssl, pki]
 title: sot-openssl-operations
 type: Instruction
-permalink: llmeon/30-library/ops/sot-openssl-operations
 ---
 
 ## Instruction SoT - OpenSSL Certificate Operations

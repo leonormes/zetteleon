@@ -1,14 +1,11 @@
 ---
 created: Invalid date
-modified: 2026-05-26 11:43:42+00:00
-pieces_ids:
-- 71081210-81a6-40be-bc57-b2bd88cbbd2f
-source: pieces-ltm
-tags:
-- pieces
-- raw
-title: 2026-05-14-pieces-omop
+modified: 2026-07-04T10:50:11+00:00
 permalink: llmeon/raw/2026-05-14-pieces-omop
+pieces_ids: [71081210-81a6-40be-bc57-b2bd88cbbd2f]
+source: pieces-ltm
+tags: [pieces, raw]
+title: 2026-05-14-pieces-omop
 ---
 
 ## Omop Session—2026-05-14

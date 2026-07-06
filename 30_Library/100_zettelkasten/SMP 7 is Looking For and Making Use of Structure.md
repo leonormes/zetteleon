@@ -1,18 +1,14 @@
 ---
-aliases:
-- SMP 7
-created: 2025-11-01 12:00:09+00:00
+aliases: [SMP 7]
+created: 2025-11-01T12:00:09+00:00
 last_reviewed: '2025-11-01'
-modified: 2026-02-01 15:08:27+00:00
+modified: 2026-07-04T10:51:46+00:00
+permalink: llmeon/30-library/100-zettelkasten/smp-7-is-looking-for-and-making-use-of-structure
 status: seedling
-tags:
-- education
-- maths
-- structure
+tags: [education, maths, structure]
 title: SMP 7 is Looking For and Making Use of Structure
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/smp-7-is-looking-for-and-making-use-of-structure
 ---
 
 ## SMP 7 is Looking For and Making Use of Structure

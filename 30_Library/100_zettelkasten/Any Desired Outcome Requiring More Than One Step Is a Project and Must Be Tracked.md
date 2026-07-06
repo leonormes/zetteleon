@@ -1,13 +1,9 @@
 ---
-created: 2026-04-10 00:00:00+00:00
-modified: 2026-05-26 11:44:36+00:00
-tags:
-- gtd
-- organisation
-- planning
-- project-management
-title: Any Desired Outcome Requiring More Than One Step Is a Project and Must Be Tracked
+created: 2026-04-10T00:00:00+00:00
+modified: 2026-07-04T10:51:54+00:00
 permalink: llmeon/30-library/100-zettelkasten/any-desired-outcome-requiring-more-than-one-step-is-a-project-and-must-be-tracked
+tags: [gtd, organisation, planning, project-management]
+title: Any Desired Outcome Requiring More Than One Step Is a Project and Must Be Tracked
 ---
 
 ## Any Desired Outcome Requiring More Than One Step Is a Project and Must Be Tracked

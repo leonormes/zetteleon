@@ -1,20 +1,14 @@
 ---
-aliases:
-- Cinema as Universal Language
-- Villeneuve Philosophy
-created: 2025-12-31 00:00:00+00:00
+aliases: [Cinema as Universal Language, Villeneuve Philosophy]
+created: 2025-12-31T00:00:00+00:00
 last_reviewed: '2025-12-31'
-modified: 2026-02-01 15:07:59+00:00
+modified: 2026-07-04T10:51:01+00:00
+permalink: llmeon/30-library/so-t/so-t-denis-villeneuve-directorial-philosophy
 status: stable
-tags:
-- film
-- language
-- sociology
-- TheHuman/Philosophy
+tags: [film, language, sociology, TheHuman/Philosophy]
 title: SoT - Denis Villeneuve (Directorial Philosophy)
 type: SoT
 updated: null
-permalink: llmeon/30-library/so-t/so-t-denis-villeneuve-directorial-philosophy
 ---
 
 ## 1. Core Thematic Framework

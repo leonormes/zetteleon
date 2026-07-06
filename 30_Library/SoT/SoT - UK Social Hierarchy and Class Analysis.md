@@ -1,22 +1,14 @@
 ---
-aliases:
-- British Class System
-- Great British Class Survey Analysis
-- UK Social Structure
-created: 2025-12-14 00:00:00+00:00
+aliases: [British Class System, Great British Class Survey Analysis, UK Social Structure]
+created: 2025-12-14T00:00:00+00:00
 last_reviewed: '2025-12-15'
-modified: 2026-02-01 15:07:48+00:00
+modified: 2026-07-04T10:50:46+00:00
+permalink: llmeon/30-library/so-t/so-t-uk-social-hierarchy-and-class-analysis
 status: stable
-tags:
-- class
-- economics
-- inequality
-- sociology
-- uk
+tags: [class, economics, inequality, sociology, uk]
 title: SoT - UK Social Hierarchy and Class Analysis
 type: SoT
 updated: null
-permalink: llmeon/30-library/so-t/so-t-uk-social-hierarchy-and-class-analysis
 ---
 
 ## 2. Theoretical Foundations

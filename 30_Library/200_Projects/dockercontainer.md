@@ -1,14 +1,14 @@
 ---
 author: Ivan Velichko
-created: 2026-05-02 06:54:32+00:00
-modified: 2026-06-08 11:49:23+00:00
+created: 2026-05-02T06:54:32+00:00
+modified: 2026-07-04T10:51:22+00:00
+permalink: llmeon/30-library/200-projects/dockercontainer
 project_category: infrastructure
 project_name: k8s
 project_status: archived
 source: https://labs.iximiuz.com/tutorials/container-filesystem-from-scratch
 title: dockercontainer
 type: null
-permalink: llmeon/30-library/200-projects/dockercontainer
 ---
 
 ## How Container Filesystem Works: Building a Docker-like Container From Scratch
@@ -855,7 +855,7 @@ sudo unshare --mount --pid --fork --cgroup --uts --net bash
 
 Finally, we're ready to prepare a fully isolated container filesystem!
 
-### Creating a Container from Scratch (end-to-end example)
+### Creating a Container from Scratch (End-to-end eXample)
 
 With all the above lessons learned, let's try creating our second container, this time applying all the necessary namespaces and rootfs adjustments.
 

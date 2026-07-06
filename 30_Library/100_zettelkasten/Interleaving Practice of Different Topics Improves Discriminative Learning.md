@@ -1,19 +1,14 @@
 ---
-aliases:
-- Interleaving
-- Varied Practice
-created: 2025-11-10 16:10:00+00:00
+aliases: [Interleaving, Varied Practice]
+created: 2025-11-10T16:10:00+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:32+00:00
+modified: 2026-07-04T10:51:50+00:00
+permalink: llmeon/30-library/100-zettelkasten/interleaving-practice-of-different-topics-improves-discriminative-learning
 status: seedling
-tags:
-- interleaving
-- learning
-- TheHuman/Habits
+tags: [interleaving, learning, TheHuman/Habits]
 title: Interleaving Practice of Different Topics Improves Discriminative Learning
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/interleaving-practice-of-different-topics-improves-discriminative-learning
 ---
 
 ## Interleaving Practice of Different Topics Improves Discriminative Learning

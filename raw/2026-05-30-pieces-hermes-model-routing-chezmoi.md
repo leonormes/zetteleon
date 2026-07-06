@@ -1,78 +1,16 @@
 ---
-title: Hermes Multi-Model Routing — chezmoi Config Investigation
-created: 2026-05-30 12:50:52.829244+00:00
-source: pieces-ltm
-pieces_ids:
-- 39693483-77e7-4a8b-a405-1f562b4091f4
-- 737411f0-f47a-4aac-a13e-44e76724a289
-- c0540f97-270b-458f-8d04-b6e64b7c87d8
-- d3cd01cb-dc72-4a95-a20a-94f54ab93a95
-- 1899ebd9-503d-461f-bb5f-0f50b55efee5
-- 42e9b853-e08e-4a55-a964-08b83dd80671
-- ae50929a-1295-4836-994d-98292a9ca412
-- dae81fd4-9624-4984-9284-fcec709f2da2
-- a4a65bef-10c9-427c-a0dc-0d5b746f8ebf
-- 95d3eb4d-f3c5-4894-a4c7-19f5875e4e6c
-- f8d17016-a75b-4a61-a3a0-137bd6615b39
-- 3c01a0c4-3d42-4289-8f85-98fd90b6780c
-- 9405af00-e924-4ae1-bfdd-84d2f42697e4
-- bcad830f-eb01-4277-9936-3a94ec80ec80
-- db154eaf-9096-4097-9499-c727bf1faeff
-- e70731de-cfb3-4aae-9b9a-e3aecd850f43
-- 5d348ad3-a5ef-4bc1-aa8c-685e2d192a90
-- b14b5955-b43a-472d-a4b3-8ef064e95b80
-- fb64f66c-fa1b-422e-b759-51829d25f253
-- fa01e3db-8d1e-4c2b-ac6e-8a7458e3c63b
-- df902221-6140-4227-a5ea-51bf0f9050ee
-- 15a7df9f-81ff-479b-9ce8-02a113774044
-- 2323eec1-3cdc-4a22-9c83-d753b9905404
-- 742b1dd4-a225-4981-8a07-b3a5ccbadd90
-- 978795e5-f660-4b7d-8150-42ce2b611b25
-- cf40892d-3043-45a3-a685-3ff16ec38ed1
-- 119d6527-3000-4eb7-8f04-6e275a12c180
-- ab69408f-7203-46bb-9e87-4065e1359c29
-- 76939ee0-e204-48b3-8d49-d957a89abb6c
-- d5e7a243-1910-4ff9-a53c-5ed23e45c4fd
-- e2974297-152f-4cdc-ab26-ef86d8b5048a
-- 171ed628-6928-4357-9d44-3598c76cab8d
-- 6ade3216-d78a-424f-81a7-bd2b726e4d57
-- 9dbe25e0-9901-466a-9ea8-4009eda7449b
-- 12cfe50d-0036-4b2f-844d-942aa6da14c4
-- 06f19431-a929-4f58-9d8a-adc7ce4d7e1e
-- 3ca2abbd-0388-4a84-9763-c5752d0877dd
-- 65f7dd72-3ddc-4d29-9c81-f25caa713ed3
-- 09946cac-d38a-4d7c-857c-9bae0a1ed0a5
-- 231972f8-68a6-466a-937e-193e8ef11f0b
-- 8a0eee56-ade7-4413-9c41-640db4ac3a58
-- 4c3ffaa8-80cd-415c-badc-eb7630789e99
-- 544e40b1-5590-4804-9a4d-6b7c4fa8d835
-- 8f73bd03-ff6b-43a9-8049-6a41f8c8d3e5
-- e7f80060-4950-4b6e-8e78-b89123ecb819
-- 10d7c307-79ff-4966-b16f-ff62c213726d
-- ce57deef-628c-4a97-994a-77c83a589997
-- 94b8cb87-c55d-4ba3-9f2e-4ee3e2a072fe
-- 01ce9619-8d3d-4e8b-b74d-71e7a2ab74f6
-- 8828b629-4e62-404e-906a-ea6db383014b
-- 37082a72-4eb4-4415-92e5-dfc304bf1c20
-- 1c30627f-599c-41c8-b4e9-9f8bed8d12ec
-- 80684807-9015-4691-ae82-9693a070e42d
-- f46e24c3-cbb1-411c-8ad2-a1ca7260d319
-- 1772eb0f-65be-4b7a-9c6f-527706f271e9
-- ab0575ad-7857-45d5-94a3-0aadbe5c218b
-- 55fd334d-db5e-456d-8344-912ae8103b0b
-- 28793e0e-2293-471e-831e-0562e663993e
-- e176d7f3-538e-4058-8fac-d4a55d81b1c3
-- bc5904b1-ef09-4911-9a64-2506f3fba57b
-- 8a9eda6c-9251-40aa-8bfb-40dc9777804a
-tags:
-- raw
-- pieces
+created: Invalid date
+modified: 2026-07-04T10:49:35+00:00
 permalink: llmeon/raw/2026-05-30-pieces-hermes-model-routing-chezmoi
+pieces_ids: [01ce9619-8d3d-4e8b-b74d-71e7a2ab74f6, 06f19431-a929-4f58-9d8a-adc7ce4d7e1e, 09946cac-d38a-4d7c-857c-9bae0a1ed0a5, 10d7c307-79ff-4966-b16f-ff62c213726d, 119d6527-3000-4eb7-8f04-6e275a12c180, 12cfe50d-0036-4b2f-844d-942aa6da14c4, 15a7df9f-81ff-479b-9ce8-02a113774044, 171ed628-6928-4357-9d44-3598c76cab8d, 1772eb0f-65be-4b7a-9c6f-527706f271e9, 1899ebd9-503d-461f-bb5f-0f50b55efee5, 1c30627f-599c-41c8-b4e9-9f8bed8d12ec, 231972f8-68a6-466a-937e-193e8ef11f0b, 2323eec1-3cdc-4a22-9c83-d753b9905404, 28793e0e-2293-471e-831e-0562e663993e, 37082a72-4eb4-4415-92e5-dfc304bf1c20, 39693483-77e7-4a8b-a405-1f562b4091f4, 3c01a0c4-3d42-4289-8f85-98fd90b6780c, 3ca2abbd-0388-4a84-9763-c5752d0877dd, 42e9b853-e08e-4a55-a964-08b83dd80671, 4c3ffaa8-80cd-415c-badc-eb7630789e99, 544e40b1-5590-4804-9a4d-6b7c4fa8d835, 55fd334d-db5e-456d-8344-912ae8103b0b, 5d348ad3-a5ef-4bc1-aa8c-685e2d192a90, 65f7dd72-3ddc-4d29-9c81-f25caa713ed3, 6ade3216-d78a-424f-81a7-bd2b726e4d57, 737411f0-f47a-4aac-a13e-44e76724a289, 742b1dd4-a225-4981-8a07-b3a5ccbadd90, 76939ee0-e204-48b3-8d49-d957a89abb6c, 80684807-9015-4691-ae82-9693a070e42d, 8828b629-4e62-404e-906a-ea6db383014b, 8a0eee56-ade7-4413-9c41-640db4ac3a58, 8a9eda6c-9251-40aa-8bfb-40dc9777804a, 8f73bd03-ff6b-43a9-8049-6a41f8c8d3e5, 9405af00-e924-4ae1-bfdd-84d2f42697e4, 94b8cb87-c55d-4ba3-9f2e-4ee3e2a072fe, 95d3eb4d-f3c5-4894-a4c7-19f5875e4e6c, 978795e5-f660-4b7d-8150-42ce2b611b25, 9dbe25e0-9901-466a-9ea8-4009eda7449b, a4a65bef-10c9-427c-a0dc-0d5b746f8ebf, ab0575ad-7857-45d5-94a3-0aadbe5c218b, ab69408f-7203-46bb-9e87-4065e1359c29, ae50929a-1295-4836-994d-98292a9ca412, b14b5955-b43a-472d-a4b3-8ef064e95b80, bc5904b1-ef09-4911-9a64-2506f3fba57b, bcad830f-eb01-4277-9936-3a94ec80ec80, c0540f97-270b-458f-8d04-b6e64b7c87d8, ce57deef-628c-4a97-994a-77c83a589997, cf40892d-3043-45a3-a685-3ff16ec38ed1, d3cd01cb-dc72-4a95-a20a-94f54ab93a95, d5e7a243-1910-4ff9-a53c-5ed23e45c4fd, dae81fd4-9624-4984-9284-fcec709f2da2, db154eaf-9096-4097-9499-c727bf1faeff, df902221-6140-4227-a5ea-51bf0f9050ee, e176d7f3-538e-4058-8fac-d4a55d81b1c3, e2974297-152f-4cdc-ab26-ef86d8b5048a, e70731de-cfb3-4aae-9b9a-e3aecd850f43, e7f80060-4950-4b6e-8e78-b89123ecb819, f46e24c3-cbb1-411c-8ad2-a1ca7260d319, f8d17016-a75b-4a61-a3a0-137bd6615b39, fa01e3db-8d1e-4c2b-ac6e-8a7458e3c63b, fb64f66c-fa1b-422e-b759-51829d25f253]
+source: pieces-ltm
+tags: [pieces, raw]
+title: 2026-05-30-pieces-hermes-model-routing-chezmoi
 ---
 
 ## Asset 1 (Pieces: 39693483-77e7-4a8b-a405-1f562b4091f4)
 
-## Copy-paste prompt for fixing Hermes model routing in your chezmoi repo
+## Copy-paste Prompt for Fixing Hermes Model Routing in Your Chezmoi Repo
 
 You are working inside my chezmoi-managed config repo at:
 
@@ -80,24 +18,24 @@ You are working inside my chezmoi-managed config repo at:
 
 I want you to inspect and fix my Hermes setup so it can route different tasks to different LLMs instead of always using the same model.
 
-### Problem statement
+### Problem Statement
 
-Hermes currently appears to use **Owl Alpha** for everything. I added OpenRouter credits because I want Hermes to be smarter about model choice:
+Hermes currently appears to use Owl Alpha for everything. I added OpenRouter credits because I want Hermes to be smarter about model choice:
 
-- use a **cheap/free model** for context gathering, orchestration, and CLI/tool work
-- use a **more capable reasoning model** for the “thinking” / synthesis part
-- use a **coding-specialized model** for coding sessions
-- use a **PKM-focused or general reasoning model** for Obsidian / personal knowledge management sessions
+- use a cheap/free model for context gathering, orchestration, and CLI/tool work
+- use a more capable reasoning model for the "thinking" / synthesis part
+- use a coding-specialized model for coding sessions
+- use a PKM-focused or general reasoning model for Obsidian / personal knowledge management sessions
 
-Right now it does not seem to do that. Even when I instruct it to use Claude, it appears to use the **Claude CLI** path rather than routing through OpenRouter. I want Hermes to select models based on task type and session context, not just default to one model everywhere.
+Right now it does not seem to do that. Even when I instruct it to use Claude, it appears to use the Claude CLI path rather than routing through OpenRouter. I want Hermes to select models based on task type and session context, not just default to one model everywhere.
 
-### What I want you to find
+### What I want You to Find
 
 Inspect the repo and identify:
 
 - where Hermes chooses its model or provider
 - where the default model is set
-- whether “Claude” is wired to a CLI wrapper instead of a provider abstraction
+- whether "Claude" is wired to a CLI wrapper instead of a provider abstraction
 - whether task/session classification already exists
 - whether there is any routing logic for:
   - PKM / notes
@@ -106,14 +44,14 @@ Inspect the repo and identify:
   - tool execution / CLI
   - fallback behavior
 
-### Desired behavior
+### Desired Behavior
 
-I want Hermes to follow a **planner/executor** style architecture:
+I want Hermes to follow a planner/executor style architecture:
 
-1. **Task classification**
+1. Task classification
    - Detect whether the current work is PKM, coding, research, general reasoning, or simple tool execution.
 
-2. **Model routing**
+2. Model routing
    - Use a cheap model for:
      - context collection
      - summarizing files
@@ -126,12 +64,12 @@ I want Hermes to follow a **planner/executor** style architecture:
    - Use a coding model for coding tasks.
    - Use a PKM-friendly model for Obsidian / note work.
 
-3. **Provider abstraction**
+3. Provider abstraction
    - Model choice should go through a provider/router layer.
-   - “Use Claude” should not automatically mean “invoke the Claude CLI.”
+   - "Use Claude" should not automatically mean "invoke the Claude CLI."
    - If Claude is desired, route it through the actual model/provider configuration intentionally, ideally via OpenRouter where appropriate.
 
-4. **Fallbacks**
+4. Fallbacks
    - Owl Alpha should be a fallback, not the universal default.
    - If the preferred model is unavailable, Hermes should degrade gracefully to another configured option.
 
@@ -146,7 +84,7 @@ I want Hermes to follow a **planner/executor** style architecture:
 - If there are tests, add or update them.
 - If there are no tests, add at least a minimal verification path or logging that proves the router is working.
 
-### What to implement
+### What to Implement
 
 Please do the following:
 
@@ -160,14 +98,14 @@ Please do the following:
    - reasoning/planning model
    - cheap context/tooling model
 5. Ensure OpenRouter can actually be used for the intended model calls.
-6. Make sure “Claude” requests do not silently bypass the routing layer.
+6. Make sure "Claude" requests do not silently bypass the routing layer.
 7. Add logging so I can see:
    - detected task type
    - selected provider
    - selected model
    - fallback reason if any
 
-### Acceptance criteria
+### Acceptance Criteria
 
 The fix is done when:
 
@@ -190,7 +128,7 @@ After making changes, verify by:
 - confirming fallback behavior still works
 - confirming no hardcoded single-model default remains unless intended as fallback
 
-### Important note
+### Important Note
 
 If you need to infer behavior because file contents are not fully obvious, do so carefully and state what you inferred. If you find multiple possible routing entrypoints, inspect the most central one first and prefer the smallest fix that makes the routing intelligent.
 
@@ -200,29 +138,29 @@ Now inspect the repo and implement the fix.
 
 ## Asset 2 (Pieces: 737411f0-f47a-4aac-a13e-44e76724a289)
 
-**Preparing user prompt deliverable**
+Preparing user prompt deliverable
 
-I need to address the user's request about continuing, but it seems there's no direct query from them—just some review feedback. I should focus on returning the prompt deliverable instead. I have enough info, so there's no need to use any tools. I need to include the repo path from the search results and create a polished, copy-paste-ready LLM prompt that provides full context. I want it to be concise and in markdown format, highlighting the repo path, observed behavior, and what the user aims for.**Crafting the LLM prompt**
+I need to address the user's request about continuing, but it seems there's no direct query from them—just some review feedback. I should focus on returning the prompt deliverable instead. I have enough info, so there's no need to use any tools. I need to include the repo path from the search results and create a polished, copy-paste-ready LLM prompt that provides full context. I want it to be concise and in markdown format, highlighting the repo path, observed behavior, and what the user aims for.Crafting the LLM prompt
 
-The user wants a prompt to fix their chezmoi repo. I should instruct the model to inspect the chezmoi configuration and identify router defaults to implement task-aware routing. Since they requested "llm prompt with full context," I'll create a prompt for a coding agent to handle the fix. I won't mention specific files, as they are unknown. Instead, I'll focus on the repo path and suggest verification steps. I’ll phrase it as a copy/paste prompt for their convenience.
+The user wants a prompt to fix their chezmoi repo. I should instruct the model to inspect the chezmoi configuration and identify router defaults to implement task-aware routing. Since they requested "llm prompt with full context," I'll create a prompt for a coding agent to handle the fix. I won't mention specific files, as they are unknown. Instead, I'll focus on the repo path and suggest verification steps. I'll phrase it as a copy/paste prompt for their convenience.
 
 ---
 
 ## Asset 3 (Pieces: c0540f97-270b-458f-8d04-b6e64b7c87d8)
 
-**Finalizing user deliverable**
+Finalizing user deliverable
 
-I need to address the user’s request clearly: they asked for a complete LLM prompt to address issues in their chezmoi repo. While we've searched, we haven't actually provided that prompt yet, just feedback. I can pull from the information we have, like the repo path, but it's important to note that this is inferred, not confirmed.
+I need to address the user's request clearly: they asked for a complete LLM prompt to address issues in their chezmoi repo. While we've searched, we haven't actually provided that prompt yet, just feedback. I can pull from the information we have, like the repo path, but it's important to note that this is inferred, not confirmed.
 
-The prompt should be usable for another LLM, explaining the behavior, desired changes, and constraints, without needing further tool calls. Let's ensure I don’t repeat what was said before!**Creating user prompt**
+The prompt should be usable for another LLM, explaining the behavior, desired changes, and constraints, without needing further tool calls. Let's ensure I don't repeat what was said before!Creating user prompt
 
-Since I haven’t referenced previous responses, I can create a fresh deliverable based on the available information. I should concisely mention the repo root while avoiding too much detail about any limitations. It's essential that the prompt is ready to copy and paste, so I can use a code fence for clarity. 
+Since I haven't referenced previous responses, I can create a fresh deliverable based on the available information. I should concisely mention the repo root while avoiding too much detail about any limitations. It's essential that the prompt is ready to copy and paste, so I can use a code fence for clarity.
 
-I’ll introduce the prompt briefly, include the repo path, and suggest inspecting chezmoi dotfiles if files aren’t present. Also, I’ll clarify that the code path is inferred due to limited access.**Tailoring the LLM prompt**
+I'll introduce the prompt briefly, include the repo path, and suggest inspecting chezmoi dotfiles if files aren't present. Also, I'll clarify that the code path is inferred due to limited access.Tailoring the LLM prompt
 
-The user wants a full context prompt to fix their chezmoi repo, so I’m thinking the prompt should instruct the coding agent to find pertinent elements like the router, model selection, and configurations. Since they mentioned their repo likely has dotfiles for Hermes, I can customize the prompt accordingly.
+The user wants a full context prompt to fix their chezmoi repo, so I'm thinking the prompt should instruct the coding agent to find pertinent elements like the router, model selection, and configurations. Since they mentioned their repo likely has dotfiles for Hermes, I can customize the prompt accordingly.
 
-I should clarify that the goal is to have Hermes choose different models based on task type, using OpenRouter for certain tasks while avoiding assumed defaults. I’ll structure the prompt to cover context, problems, desired behavior, places to check, acceptance criteria, and implementation guidelines.## Copy-paste prompt for your coding agent
+I should clarify that the goal is to have Hermes choose different models based on task type, using OpenRouter for certain tasks while avoiding assumed defaults. I'll structure the prompt to cover context, problems, desired behavior, places to check, acceptance criteria, and implementation guidelines.## Copy-paste prompt for your coding agent
 
 ```markdown
 You are working in my chezmoi-managed dotfiles repo at:
@@ -237,10 +175,10 @@ Right now Hermes appears to be using one global model path for almost everything
 
 What I expect:
 
-- **PKM / Obsidian work**: cheap model for gathering context and tool calls, stronger model for synthesis and higher-level thinking.
-- **Coding work**: coding-specialized model for deep reasoning, cheaper model for context collection and tool execution.
-- **General orchestration**: a lightweight router/planner first, then a task-appropriate model for the final pass.
-- **Owl Alpha** should be a fallback, not the universal default.
+- PKM / Obsidian work: cheap model for gathering context and tool calls, stronger model for synthesis and higher-level thinking.
+- Coding work: coding-specialized model for deep reasoning, cheaper model for context collection and tool execution.
+- General orchestration: a lightweight router/planner first, then a task-appropriate model for the final pass.
+- Owl Alpha should be a fallback, not the universal default.
 - If the user says “use Claude”, Hermes should prefer an OpenRouter Claude-compatible model unless there is a deliberate reason to call the Claude CLI directly.
 
 ### What to inspect
@@ -297,14 +235,14 @@ Use something like this conceptually:
 
 A good architecture is:
 
-- **planner/router**: cheap, fast, task classifier
-- **executor**: runs tools and collects context
-- **reasoner/synthesizer**: task-specific stronger model
-- **fallback**: Owl Alpha only when the preferred model is unavailable
+- planner/router: cheap, fast, task classifier
+- executor: runs tools and collects context
+- reasoner/synthesizer: task-specific stronger model
+- fallback: Owl Alpha only when the preferred model is unavailable
 
 ### Implementation guidance
 
-- Prefer a **single routing layer** that chooses from capability tags rather than hardcoding one model everywhere.
+- Prefer a single routing layer that chooses from capability tags rather than hardcoding one model everywhere.
 - If there is already a model config file, replace the single default with a per-task policy table.
 - If Hermes currently shells out to a CLI for Claude, decide whether that should remain a deliberate provider path or be replaced with OpenRouter-backed model selection.
 - Add logging so every model choice is explainable:
@@ -370,7 +308,7 @@ I was able to identify the repo root as `'/Users/leon.ormes/.local/share/chezmoi
 
 ## Asset 4 (Pieces: d3cd01cb-dc72-4a95-a20a-94f54ab93a95)
 
-## Copy-paste prompt for a coding LLM
+## Copy-paste Prompt for a Coding LLM
 
 ```markdown
 You are working in my chezmoi-managed repo.
@@ -465,19 +403,19 @@ Important constraints:
 - Preserve the repo’s existing style and conventions.
 ```
 
-If you want, I can also turn this into a **more opinionated version** that tells the coding model exactly how to structure the router file and config schema.
+If you want, I can also turn this into a more opinionated version that tells the coding model exactly how to structure the router file and config schema.
 
 ---
 
 ## Asset 5 (Pieces: 1899ebd9-503d-461f-bb5f-0f50b55efee5)
 
-**Preparing the final prompt**
+Preparing the final prompt
 
-I need to deliver a polished prompt for the user based on their request for fixing their chezmoi repo. I noticed I’ve included content twice in the prior response. The user mentioned wanting a prompt with "full context," so I'll ensure to provide that without referencing previous responses. I have verified the repo root but won’t fabricate specific file snippets since I don't have the actual details. I’ll craft a clear, copy-paste-ready prompt that includes inferred code paths and necessary context for another LLM.**Creating the LLM prompt**
+I need to deliver a polished prompt for the user based on their request for fixing their chezmoi repo. I noticed I've included content twice in the prior response. The user mentioned wanting a prompt with "full context," so I'll ensure to provide that without referencing previous responses. I have verified the repo root but won't fabricate specific file snippets since I don't have the actual details. I'll craft a clear, copy-paste-ready prompt that includes inferred code paths and necessary context for another LLM.Creating the LLM prompt
 
-I’m considering how to craft a prompt for the user to submit to an LLM. It's important to mention that the exact files in the chezmoi repo are not yet known and need to be discovered. I can verify the repo root but shouldn't pretend to know specific file paths. The user wants a prompt with "full context" to assist with fixing their repo. I'll create a simple introduction along with a markdown block for easy copy-pasting, including the verified repo path.**Crafting the prompt**
+I'm considering how to craft a prompt for the user to submit to an LLM. It's important to mention that the exact files in the chezmoi repo are not yet known and need to be discovered. I can verify the repo root but shouldn't pretend to know specific file paths. The user wants a prompt with "full context" to assist with fixing their repo. I'll create a simple introduction along with a markdown block for easy copy-pasting, including the verified repo path.Crafting the prompt
 
-I want to create a strong prompt that includes the necessary context from our conversation. I need to state, "Use the chezmoi repo at `/Users/leon.ormes/.local/share/chezmoi`." I'll mention the observed issue: Hermes always defaults to Owl Alpha instead of using Claude, which goes directly to the Claude CLI. I should ask the LLM to inspect the repo for config files and routing logic. Additionally, I might include acceptance criteria and suggest a testing implementation, asking the model to propose or edit where needed.Here’s a copy-paste-ready prompt you can give to an LLM to fix it in your chezmoi repo:
+I want to create a strong prompt that includes the necessary context from our conversation. I need to state, "Use the chezmoi repo at `/Users/leon.ormes/.local/share/chezmoi`." I'll mention the observed issue: Hermes always defaults to Owl Alpha instead of using Claude, which goes directly to the Claude CLI. I should ask the LLM to inspect the repo for config files and routing logic. Additionally, I might include acceptance criteria and suggest a testing implementation, asking the model to propose or edit where needed.Here's a copy-paste-ready prompt you can give to an LLM to fix it in your chezmoi repo:
 
 ```markdown
 You are working in my chezmoi repo at:
@@ -490,8 +428,8 @@ Goal: fix Hermes so it uses different models for different kinds of work instead
 
 Hermes currently appears to have a single default model path. In practice:
 
-- it keeps using **Owl Alpha** even when the task type changes
-- when I tell it to use Claude, it seems to use the **Claude CLI path** rather than routing through OpenRouter
+- it keeps using Owl Alpha even when the task type changes
+- when I tell it to use Claude, it seems to use the Claude CLI path rather than routing through OpenRouter
 - I expected Hermes to behave more like a task-aware orchestrator:
   - use a cheaper/free model to collect context and run CLI/tooling
   - use a stronger model for the “thinking” or synthesis step
@@ -593,21 +531,22 @@ Make the repo reflect task-aware model routing and show me exactly what changed.
 If you need to infer details from the repo structure, do that. If something is missing or ambiguous, inspect the code and config first rather than guessing.
 ```
 
-If you want, I can also turn this into a **more forceful implementation prompt** or a **GitHub issue / PR description version**.
+If you want, I can also turn this into a more forceful implementation prompt or a GitHub issue / PR description version.
 
 ---
 
 ## Asset 6 (Pieces: 42e9b853-e08e-4a55-a964-08b83dd80671)
 
-**Preparing the prompt for the user**
+Preparing the prompt for the user
 
-I'm focusing on making this prompt ready for the user who wants to inspect their chezmoi repo. They need to know the repo path directly from the tool's results. I should clearly mention the issue: Hermes is always using Owl Alpha instead of routing appropriately to other models or OpenRouter, even when Claude is specified. 
+I'm focusing on making this prompt ready for the user who wants to inspect their chezmoi repo. They need to know the repo path directly from the tool's results. I should clearly mention the issue: Hermes is always using Owl Alpha instead of routing appropriately to other models or OpenRouter, even when Claude is specified.
 
-I'll phrase it as "inspect the repo to find model selection/routing" since we can't access the code files. Also, I'll suggest searching for router/provider/model configurations if file names aren't clear.**Crafting the detailed prompt**
+I'll phrase it as "inspect the repo to find model selection/routing" since we can't access the code files. Also, I'll suggest searching for router/provider/model configurations if file names aren't clear.Crafting the detailed prompt
 
-I want to create an executable and detailed prompt for the user. I should specify that they're working in `/Users/leon.ormes/.local/share/chezmoi` and tell them to use exact paths found, since we don’t have more specific file information. 
+I want to create an executable and detailed prompt for the user. I should specify that they're working in `/Users/leon.ormes/.local/share/chezmoi` and tell them to use exact paths found, since we don't have more specific file information.
 
 It would be wise to include acceptance criteria: like a task classifier, a planner/executor split, prioritizing OpenRouter for planning, and using local/CLI for execution, with a fallback to Owl Alpha. I'll also mention inspecting chezmoi dotfiles and related config/prompt files while preserving existing patterns and keeping styles consistent without changing unrelated dotfiles.```text
+
 You are working in my chezmoi repo at:
 
 `/Users/leon.ormes/.local/share/chezmoi`
@@ -619,13 +558,13 @@ Current problem
 Hermes appears to use one default model for everything. I expected it to behave more like a multi-stage agent:
 
 - cheap model for gathering context / running CLI tools
-- stronger reasoning model for “thinking” and synthesis
+- stronger reasoning model for "thinking" and synthesis
 - different model choices depending on task type
   - PKM / Obsidian work should use a model that is better at note synthesis, context linking, and drafting
   - coding tasks should use a coding-capable model
   - tool execution should remain cheap and deterministic where possible
 
-What I’m seeing now:
+What I'm seeing now:
 
 - Hermes keeps using Owl Alpha
 - even when I instruct it to use Claude, it seems to go through the Claude CLI path instead of an OpenRouter-backed routing layer
@@ -643,23 +582,20 @@ Desired behavior
 
 Implement a clear model strategy along these lines:
 
-- **Planner / thinker**
+- Planner / thinker
   - handles synthesis, reasoning, decomposition, and higher-level decisions
   - should be selected based on task type
   - should preferably use OpenRouter-backed models when appropriate
-
-- **Executor / tool runner**
+- Executor / tool runner
   - handles CLI, filesystem, shell, and retrieval actions
   - can use a cheaper model or deterministic code path
   - should not consume an expensive reasoning model when not needed
-
-- **Task-aware routing**
+- Task-aware routing
   - PKM / Obsidian / note work → PKM-friendly model
   - coding / repo work → coding-friendly model
   - general reasoning → strongest reasonable model available
   - simple tool orchestration → cheap model or non-LLM path if possible
-
-- **Fallbacks**
+- Fallbacks
   - OpenRouter should not be bypassed accidentally
   - Owl Alpha should be a fallback, not the universal default
   - if a requested provider is unavailable, fail over intentionally and log why
@@ -686,7 +622,7 @@ Likely code smells to fix
 
 - a single global model setting used everywhere
 - hardcoded default provider selection
-- instructions like “use Claude” being mapped to a CLI wrapper instead of a routed model choice
+- instructions like "use Claude" being mapped to a CLI wrapper instead of a routed model choice
 - no explicit classification step before model selection
 - fallback logic that always lands on Owl Alpha too early
 - no logging of model decisions, so it is impossible to tell why a model was chosen
@@ -695,20 +631,16 @@ Implementation expectations
 
 Please make the fix in a way that is:
 
-- **configurable**
+- configurable
   - I should be able to change task → model mappings without rewriting the whole system
-
-- **transparent**
+- transparent
   - log which model was selected and why
-
-- **task-aware**
+- task-aware
   - different sessions / tasks can choose different models
-
-- **safe**
+- safe
   - preserve existing behavior where needed
   - keep CLI/tool execution reliable
-
-- **testable**
+- testable
   - add or update tests if the repo has a test suite
   - include at least one verification path that proves:
     - PKM tasks do not always select Owl Alpha
@@ -723,7 +655,7 @@ The fix is done when:
 - Hermes no longer uses Owl Alpha as the universal default
 - model choice depends on task type or session context
 - OpenRouter can be used for planning/thinking rather than being bypassed
-- “use Claude” does not accidentally mean “call the Claude CLI wrapper” if that bypasses the router
+- "use Claude" does not accidentally mean "call the Claude CLI wrapper" if that bypasses the router
 - fallback behavior is explicit and logged
 - the routing logic is easy to understand and maintain
 
@@ -748,6 +680,7 @@ If you find multiple viable designs, choose the simplest one that still gives:
 - logs for debugging
 
 Before finishing, verify the new routing behavior with tests or a reproducible check and summarize exactly what changed.
+
 ```
 
 ---
@@ -864,23 +797,28 @@ routing:
       executor: <deterministic-or-cheap-model>
 ```
 
-### 3. Separate planning from execution
+### 3. Separate Planning from Execution
+
 Where useful, make Hermes do:
+
 - context collection / tool orchestration first
 - higher-quality synthesis second
 
-### 4. Make provider selection explicit
+### 4. Make Provider Selection Explicit
+
 If Hermes currently invokes the Claude CLI directly, that should only happen if that is intentionally the desired provider path. Otherwise, route Claude requests through the normal provider abstraction so OpenRouter can be used when appropriate.
 
-### 5. Add observability
+### 5. Add Observability
+
 Add logs or debug output showing:
+
 - detected task type
 - selected model
 - selected provider
 - fallback path
 - whether OpenRouter was used
 
-## Acceptance criteria
+## Acceptance Criteria
 
 The change is done when:
 
@@ -893,7 +831,7 @@ The change is done when:
 - Existing behavior does not break for basic tasks.
 - There are tests for routing behavior if the repo has a test framework.
 
-## What to verify
+## What to Verify
 
 After implementing, verify at least these cases:
 
@@ -918,7 +856,7 @@ After implementing, verify at least these cases:
 - Add tests where feasible.
 - If you need to change multiple files, keep the changes cohesive and documented.
 
-## Output I want from you
+## Output I want from You
 
 1. Identify the routing code path.
 2. Implement task-aware routing.
@@ -927,10 +865,12 @@ After implementing, verify at least these cases:
 5. Tell me how to configure or override the routing policy if the repo supports that.
 
 If the codebase already has a model router, extend it rather than replacing it.
+
 If there is no router yet, add the smallest sane abstraction that makes the behavior above possible.
+
 ```
 
-If you want, I can also turn this into a **shorter Cursor/Claude Code version** or a **more opinionated implementation prompt** that tells the coding model exactly how to structure the router and config.
+If you want, I can also turn this into a shorter Cursor/Claude Code version or a more opinionated implementation prompt that tells the coding model exactly how to structure the router and config.
 
 ---
 
@@ -942,15 +882,15 @@ You are working in this repo:
 
 `/Users/leon.ormes/.local/share/chezmoi`
 
-I want you to fix Hermes so it uses **different LLMs for different kinds of work**, instead of always falling back to the same model.
+I want you to fix Hermes so it uses different LLMs for different kinds of work, instead of always falling back to the same model.
 
 ### Problem
 
 Right now Hermes appears to:
 
-- default to **Owl Alpha** for most tasks
+- default to Owl Alpha for most tasks
 - ignore the idea of using a cheaper model for context collection and a stronger model for reasoning
-- sometimes invoke the **Claude CLI** directly instead of routing through OpenRouter
+- sometimes invoke the Claude CLI directly instead of routing through OpenRouter
 - lack task-aware model selection across different session types, such as:
   - PKM / Obsidian workflows
   - coding workflows
@@ -959,14 +899,14 @@ Right now Hermes appears to:
 
 ### Desired behavior
 
-Hermes should act like a **task-aware model router**:
+Hermes should act like a task-aware model router:
 
 - use a cheaper or faster model for gathering context, tool orchestration, and simple extraction
 - use a more capable reasoning model for higher-level thinking, synthesis, and planning
 - use a coding-specialized model for coding sessions
 - choose models based on the current task or workspace context, not a single global default
-- prefer **OpenRouter** as the provider layer for model selection
-- keep **Owl Alpha** only as a fallback, not the universal default
+- prefer OpenRouter as the provider layer for model selection
+- keep Owl Alpha only as a fallback, not the universal default
 - if a user explicitly asks for a model, respect the request, but route it through the intended provider path rather than bypassing the router
 
 ### What to inspect
@@ -982,12 +922,12 @@ Please inspect the repository for:
 
 ### What to build
 
-Implement or improve a **routing layer** with:
+Implement or improve a routing layer with:
 
-1. **Task classification**
+1. Task classification
    - identify whether a request is PKM, coding, research, tooling, summarization, planning, or general chat
 
-2. **Model policy mapping**
+2. Model policy mapping
    - map task type → preferred model/provider
    - example intent:
      - PKM / Obsidian: strong general reasoning model
@@ -996,15 +936,15 @@ Implement or improve a **routing layer** with:
      - deeper synthesis: stronger model
      - fallback: Owl Alpha
 
-3. **Planner / executor split**
+3. Planner / executor split
    - one stage for collecting context and deciding what to do
    - another stage for the more capable thinking or synthesis step
 
-4. **OpenRouter-first selection**
+4. OpenRouter-first selection
    - ensure OpenRouter is the primary route for model choice when available
    - do not hardwire Claude CLI as the only path for “Claude” requests if that bypasses routing
 
-5. **Fallback behavior**
+5. Fallback behavior
    - if the preferred model fails or is unavailable, fall back in a controlled order
    - Owl Alpha should be a fallback, not the default for all tasks
 
@@ -1057,9 +997,9 @@ If you cannot fully verify a path from repo contents, make the smallest safe cha
 
 ## Asset 9 (Pieces: a4a65bef-10c9-427c-a0dc-0d5b746f8ebf)
 
-**Formatting code prompt**
+Formatting code prompt
 
-I need to clarify that the code path is inferred based on the user's behavior since no exact snippets were found in the files. I should provide a polished prompt in a markdown block for a different LLM to fix the repository. It must include the repo root, observed issues, desired outcomes, likely changes, constraints, verification steps, and guidance to infer from user context if the code cannot be inspected. I'll specify the path as `/Users/leon.ormes/.local/share/chezmoi`.**Crafting the deliverable prompt**
+I need to clarify that the code path is inferred based on the user's behavior since no exact snippets were found in the files. I should provide a polished prompt in a markdown block for a different LLM to fix the repository. It must include the repo root, observed issues, desired outcomes, likely changes, constraints, verification steps, and guidance to infer from user context if the code cannot be inspected. I'll specify the path as `/Users/leon.ormes/.local/share/chezmoi`.Crafting the deliverable prompt
 
 I don't need any tool calls at this point; I'm ready to produce the final answer. It should be in a code block with a markdown title, perhaps formatted as H2, without an H1. Since the user wants a prompt that's copy-paste-ready, I’ll use a fenced code block either labeled "markdown" or as plain text. This will include instructions like "You are working in..." and guide an LLM agent to fix the Hermes model routing in chezmoi.## Copy-paste prompt for the repo fix
 
@@ -1109,7 +1049,7 @@ If the repo structure is unclear, discover the actual entrypoints and config fil
 
 Implement or improve a routing policy with these properties:
 
-1. **Task classification**
+1. Task classification
    - Hermes should classify tasks into categories such as:
      - `pkm`
      - `coding`
@@ -1118,11 +1058,11 @@ Implement or improve a routing policy with these properties:
      - `general`
    - Classification can be simple and heuristic-based at first.
 
-2. **Planner/executor split**
+2. Planner/executor split
    - Use a cheaper or simpler model for gathering context, reading files, CLI/tool work, and summarization when appropriate.
    - Use a more capable model for deeper reasoning, synthesis, and final output.
 
-3. **Task-aware model selection**
+3. Task-aware model selection
    - Different task types should map to different model choices.
    - Example:
      - PKM / Obsidian sessions → general reasoning model
@@ -1130,18 +1070,18 @@ Implement or improve a routing policy with these properties:
      - tool execution / file inspection → cheap model or deterministic tooling
    - The model choice should be driven by config and/or a routing table, not hardcoded in one place.
 
-4. **OpenRouter-first where possible**
+4. OpenRouter-first where possible
    - Hermes should be able to use OpenRouter models directly for the reasoning/planning stage.
    - If a provider-specific CLI exists, it should not bypass the routing layer unless intentionally configured.
 
-5. **Fallback behavior**
+5. Fallback behavior
    - `owl alpha` should be a fallback, not the universal default.
    - Fallback should happen only when:
      - the selected model is unavailable
      - the request is trivial and doesn’t justify a stronger model
      - a configured policy explicitly chooses it
 
-6. **Observability**
+6. Observability
    - Add logging or tracing so each request records:
      - task type
      - selected provider/model
@@ -1181,9 +1121,9 @@ routing:
     primary: owl-alpha
 ```
 
-Adapt this to the repo’s actual config style.
+Adapt this to the repo's actual config style.
 
-## Acceptance criteria
+## Acceptance Criteria
 
 The fix is done when:
 
@@ -1216,18 +1156,19 @@ If there are no existing tests for routing, add focused tests for:
 
 ## Deliverable
 
-Make the smallest correct repo change that introduces task-aware model routing while preserving existing behavior where possible. Keep the implementation consistent with the repo’s current style and configuration patterns.
+Make the smallest correct repo change that introduces task-aware model routing while preserving existing behavior where possible. Keep the implementation consistent with the repo's current style and configuration patterns.
+
 ```
 
-If you want, I can also turn this into a **shorter, sharper “fix this codebase” prompt** or a **more detailed prompt for a coding agent**.
+If you want, I can also turn this into a shorter, sharper “fix this codebase” prompt or a more detailed prompt for a coding agent.
 
 ---
 
 ## Asset 10 (Pieces: 95d3eb4d-f3c5-4894-a4c7-19f5875e4e6c)
 
-**Crafting a self-contained prompt**
+Crafting a self-contained prompt
 
-I need to make a self-contained prompt for another LLM to fix routing issues in the chezmoi repository. It should include the repo path, the specific issue, desired outcomes, and any constraints. I can mention that the root path is `/.local/share/chezmoi`. I'll also include a request to inspect any routing logic or config files without assuming more than what's provided. Finally, I'll present this prompt in markdown, ensuring it's clear and ready for copy-paste.**Creating a clear prompt**
+I need to make a self-contained prompt for another LLM to fix routing issues in the chezmoi repository. It should include the repo path, the specific issue, desired outcomes, and any constraints. I can mention that the root path is `/.local/share/chezmoi`. I'll also include a request to inspect any routing logic or config files without assuming more than what's provided. Finally, I'll present this prompt in markdown, ensuring it's clear and ready for copy-paste.Creating a clear prompt
 
 Since I haven't verified the code, I'll clearly state that "this inspection only confirmed the chezmoi repo root." I'll also mention that "actual routing code paths were not verified due to limited access." To avoid H1, I might start with `## Prompt`. The deliverable should be just the prompt. I plan to use markdown, providing a fenced prompt that’s easy to copy and paste. Let’s ensure the prompt is structured with headings for clarity.## Copy-paste prompt
 
@@ -1326,7 +1267,7 @@ Output required:
 - Include any assumptions you had to make because the exact routing file locations were not pre-verified in this session.
 ```
 
-If you want, I can also turn this into a **shorter “agent instruction” version** or a **more opinionated implementation prompt** for a coding model.
+If you want, I can also turn this into a shorter "agent instruction" version or a more opinionated implementation prompt for a coding model.
 
 ---
 
@@ -1347,9 +1288,9 @@ Fix Hermes so it routes to different LLMs based on task type and session context
 
 Right now Hermes appears to:
 
-- use **Owl Alpha** for almost everything
-- ignore the fact that I added **OpenRouter credits**
-- use the **Claude CLI** when I say “use Claude,” instead of routing through OpenRouter
+- use Owl Alpha for almost everything
+- ignore the fact that I added OpenRouter credits
+- use the Claude CLI when I say “use Claude,” instead of routing through OpenRouter
 - fail to distinguish between different work modes, such as:
   - PKM / Obsidian note work
   - coding work
@@ -1365,19 +1306,19 @@ What I want is a smarter architecture where Hermes can:
 
 ## Desired behavior
 
-Implement a **task-aware model router** with something like this shape:
+Implement a task-aware model router with something like this shape:
 
-- **PKM / research / note synthesis** → a reasoning-strong general model
-- **coding** → a coding-specialized model
-- **tool execution / CLI / file ops** → a cheap or deterministic path
-- **simple answers** → cheap model
-- **fallback** → Owl Alpha only when needed
+- PKM / research / note synthesis → a reasoning-strong general model
+- coding → a coding-specialized model
+- tool execution / CLI / file ops → a cheap or deterministic path
+- simple answers → cheap model
+- fallback → Owl Alpha only when needed
 
 I want the system to separate:
 
-1. **context collection / orchestration**
-2. **thinking / synthesis**
-3. **tool execution**
+1. context collection / orchestration
+2. thinking / synthesis
+3. tool execution
 
 The best pattern is probably a planner/executor split:
 
@@ -1447,9 +1388,10 @@ routing:
     simple: openrouter:<cheap-model>
 ```
 
-The exact model names can be chosen from the repo’s existing provider support, but the selection must be task-aware.
+The exact model names can be chosen from the repo's existing provider support, but the selection must be task-aware.
 
-### 3) Separate planner and executor
+### 3) Separate Planner and Executor
+
 The planner should decide:
 
 - what kind of task this is
@@ -1463,23 +1405,26 @@ The executor should handle:
 - search / retrieval
 - deterministic automation
 
-### 4) Make OpenRouter the real model path
+### 4) Make OpenRouter the Real Model Path
+
 If OpenRouter is configured, Hermes should use it directly for the selected model family.
 
-If a user says “use Claude,” that should not automatically mean “invoke the Claude CLI.” It should mean Hermes selects a Claude-family model via the routing layer if that is the intended provider path.
+If a user says "use Claude," that should not automatically mean "invoke the Claude CLI." It should mean Hermes selects a Claude-family model via the routing layer if that is the intended provider path.
 
-### 5) Keep Owl Alpha as fallback only
+### 5) Keep Owl Alpha as Fallback only
+
 Owl Alpha should be a fallback, not the universal default.
 
 Use it only when:
+
 - the preferred model is unavailable
 - the chosen provider fails
 - the task is trivial and a cheap model is enough
 - a policy explicitly chooses it
 
-## Implementation requirements
+## Implementation Requirements
 
-- Make the routing decision **config-driven**
+- Make the routing decision config-driven
 - Make it easy to override per task type
 - Keep the system extensible so I can later add other model families
 - Preserve existing Hermes conventions and patterns
@@ -1491,25 +1436,26 @@ Use it only when:
   - reason for selection
   - whether fallback was used
 
-## Acceptance criteria
+## Acceptance Criteria
 
 I should be able to:
 
 - give Hermes a PKM / Obsidian-type task and see it route differently than a coding task
 - give Hermes a coding task and have it choose a coding-capable model
 - give Hermes a simple tool task and avoid wasting a high-end reasoning model
-- request “use Claude” and have it route through the model layer instead of blindly forcing the Claude CLI
+- request "use Claude" and have it route through the model layer instead of blindly forcing the Claude CLI
 - see fallback behavior clearly when the preferred model is unavailable
 
 ## Verification
 
 After implementing, verify with at least:
 
-1. the repo’s existing tests, if any
+1. the repo's existing tests, if any
 2. a new or updated test for routing selection
 3. a manual or logged check that different task types select different models
 
 If tests are missing, add the smallest useful test coverage for:
+
 - task classification
 - model selection
 - fallback behavior
@@ -1525,19 +1471,20 @@ If tests are missing, add the smallest useful test coverage for:
 ## Deliverable
 
 Make the repo changes needed so Hermes can route different task types to different models intelligently, with OpenRouter as the main configurable provider path and Owl Alpha as fallback only.
+
 ```
 
 ---
 
 ## Asset 12 (Pieces: 3c01a0c4-3d42-4289-8f85-98fd90b6780c)
 
-**Addressing Phase Progression**
+Addressing Phase Progression
 
-I need to acknowledge that I can't continue the phase progression since there's no visible prior phase status in our conversation. The user mentioned continuing with Phase 2, so I should create a "Phase 2" section that adopts a different approach, as requested in the feedback. However, I want to ensure I introduce new content, focusing on an "implementation routing strategy" or "validator" as suggested. I'll keep it concise to avoid repeating what we've already discussed.**Creating Phase 2 Addendum**
+I need to acknowledge that I can't continue the phase progression since there's no visible prior phase status in our conversation. The user mentioned continuing with Phase 2, so I should create a "Phase 2" section that adopts a different approach, as requested in the feedback. However, I want to ensure I introduce new content, focusing on an "implementation routing strategy" or "validator" as suggested. I'll keep it concise to avoid repeating what we've already discussed.Creating Phase 2 Addendum
 
 I should create a "Phase 2" section that provides a fundamentally different approach, focusing on a config-first routing shim instead of prompt-only heuristics. Since the user wants a prompt to fix their chezmoi repo, including a specific implementation plan for "policy file + session tags" seems essential. I'll avoid repeating earlier responses and deliver just the Phase 2 additions. A concise addendum for easy copy-pasting under "Implementation detail" works best, no need for a heading, and markdown is fine.## Phase 2 addendum
 
-Use this section as a follow-on block if you want the fix to be **config-driven and testable** rather than just prompt-guided:
+Use this section as a follow-on block if you want the fix to be config-driven and testable rather than just prompt-guided:
 
 ```text
 Phase 2: turn the routing idea into an explicit policy layer.
@@ -1569,7 +1516,7 @@ Verification:
 - Confirm fallback only happens when the preferred route fails.
 ```
 
-If you want, I can turn that into a **single complete repo prompt** with the earlier material folded into one clean copy-paste block.
+If you want, I can turn that into a single complete repo prompt with the earlier material folded into one clean copy-paste block.
 
 ---
 
@@ -1585,7 +1532,7 @@ Repo root:
 
 Fix Hermes so it can route to different LLMs based on the kind of work it is doing.
 
-Right now Hermes appears to default to **Owl Alpha** for everything. I added OpenRouter credits because I expected Hermes to:
+Right now Hermes appears to default to Owl Alpha for everything. I added OpenRouter credits because I expected Hermes to:
 
 - use a cheap/free model to gather context and run CLI/tooling work
 - use a stronger reasoning model for the actual “thinking” part
@@ -1600,19 +1547,19 @@ Implement task-aware model routing in Hermes so that model choice depends on the
 
 Examples:
 
-- **PKM / Obsidian / note synthesis**
+- PKM / Obsidian / note synthesis
   - gather context cheaply
   - then use a stronger general reasoning model for synthesis
 
-- **Coding**
+- Coding
   - gather repo context cheaply
   - then use a coding-specialized model for reasoning and edits
 
-- **Tool-heavy / CLI-heavy tasks**
+- Tool-heavy / CLI-heavy tasks
   - keep the tool runner cheap and deterministic
   - do not waste expensive models on simple extraction or shell execution
 
-- **Fallback**
+- Fallback
   - Owl Alpha should be a fallback, not the universal default
 
 ## Current problem to solve
@@ -1627,7 +1574,7 @@ Hermes likely has one of these design problems:
 
 ## Desired architecture
 
-Refactor Hermes toward a **planner / executor** split:
+Refactor Hermes toward a planner / executor split:
 
 ### 1) Planner
 A stronger model that:
@@ -1822,8 +1769,8 @@ Classification can use:
 ### 2) Planner / executor split
 Use a two-stage approach:
 
-- **Planner / context builder**: cheap model or deterministic logic for gathering context, summarizing inputs, and deciding what to do.
-- **Executor / thinker**: stronger model chosen by task type for deeper reasoning and synthesis.
+- Planner / context builder: cheap model or deterministic logic for gathering context, summarizing inputs, and deciding what to do.
+- Executor / thinker: stronger model chosen by task type for deeper reasoning and synthesis.
 
 ### 3) Model policy table
 Create an explicit routing table that maps task type → model/provider choice.
@@ -1891,37 +1838,38 @@ If you can, include a brief summary of:
 - how to override model selection per task or session
 ```
 
-If you want, I can also turn this into a **more opinionated implementation prompt** that tells the coding model exactly how to structure the router, config schema, and fallback logic.
+If you want, I can also turn this into a more opinionated implementation prompt that tells the coding model exactly how to structure the router, config schema, and fallback logic.
 
 ---
 
 ## Asset 15 (Pieces: db154eaf-9096-4097-9499-c727bf1faeff)
 
-**Preparing Markdown for Clarity**
+Preparing Markdown for Clarity
 
-I think I should use markdown with a heading and prompt content in a code fence for easy copy-pasting. It seems better to present the prompt in text within this fenced block while ensuring full context is included. Since I don't need to use tools right now, I'll emphasize the exact repo root path. 
+I think I should use markdown with a heading and prompt content in a code fence for easy copy-pasting. It seems better to present the prompt in text within this fenced block while ensuring full context is included. Since I don't need to use tools right now, I'll emphasize the exact repo root path.
 
 I should also mention inspecting the chezmoi dotfiles and scripts, along with tasks like locating the Hermes config, model router, and OpenRouter integration, and replacing the fixed owl alpha default with task-aware routing. Since the repo contents aren't verified, I'll note that they might need to search relevant files while preserving existing chezmoi patterns and minimizing modifications.```text
+
 You are working inside this repo root:
 
 `/Users/leon.ormes/Library/com.pieces.os/production/agentic_engine/.local/share/chezmoi`
 
 Task: make Hermes smarter about model routing so different kinds of work use different models/providers instead of always falling back to the same model.
 
-## Problem statement
+## Problem Statement
 
 Right now Hermes appears to behave like this:
 
 - It uses the same default model for most or all work.
 - Even when OpenRouter credits are available, Hermes is not consistently using OpenRouter for model routing.
-- In the user’s experience, Hermes is effectively pinned to a single model path (they observed `owl alpha` as the default behavior).
+- In the user's experience, Hermes is effectively pinned to a single model path (they observed `owl alpha` as the default behavior).
 - When the user explicitly asked for Claude, Hermes used the Claude CLI path rather than routing through OpenRouter.
 - The desired behavior is a split between:
   - cheap/deterministic model or tooling for context gathering and orchestration
-  - a more capable model for the actual “thinking” / synthesis step
+  - a more capable model for the actual "thinking" / synthesis step
   - task-specific model choice for PKM vs coding vs general reasoning
 
-## Desired outcome
+## Desired Outcome
 
 Implement task-aware model routing so Hermes can choose different models based on the kind of work being done.
 
@@ -1954,7 +1902,7 @@ Examples:
   - why that choice was made
 - Keep changes compatible with the existing repo style.
 
-## What to inspect
+## What to Inspect
 
 Find the parts of the repo that define:
 
@@ -1975,7 +1923,7 @@ Likely relevant files may include:
 - agent or workflow definitions
 - startup scripts or wrappers for Hermes
 
-## Implementation guidance
+## Implementation Guidance
 
 1. Identify where Hermes currently decides which model to call.
 2. Introduce a task classifier or routing table if one does not already exist.
@@ -1993,7 +1941,7 @@ Likely relevant files may include:
 7. Add explicit logging for the routing decision.
 8. Update any docs/comments/config examples that explain the model strategy.
 
-## Acceptance criteria
+## Acceptance Criteria
 
 The repo should end up with behavior like this:
 
@@ -2021,7 +1969,7 @@ After making the change, verify by:
 - if tests exist, run the relevant ones
 - if no tests exist, add a focused test or at least a reproducible manual verification path
 
-## Output expected from you
+## Output Expected from You
 
 Make the repo changes directly, then summarize:
 
@@ -2031,6 +1979,7 @@ Make the repo changes directly, then summarize:
 - any remaining limitations or follow-ups
 
 Important: if the exact routing implementation is not obvious, search the repo for the model/router/provider configuration first, then patch the smallest relevant entrypoint rather than rewriting the whole system.
+
 ```
 
 ---
@@ -2048,9 +1997,9 @@ Fix my Hermes setup so it can use different models for different kinds of work i
 
 Right now:
 
-- Hermes seems to use **Owl Alpha** for everything.
-- Even when I asked it to use Claude, it used the **Claude CLI path** rather than routing through OpenRouter.
-- I added credits to **OpenRouter** specifically so Hermes could use:
+- Hermes seems to use Owl Alpha for everything.
+- Even when I asked it to use Claude, it used the Claude CLI path rather than routing through OpenRouter.
+- I added credits to OpenRouter specifically so Hermes could use:
   - a cheaper model for context gathering / tool orchestration
   - a stronger model for deeper reasoning
   - a coding-focused model for coding tasks
@@ -2064,15 +2013,15 @@ Implement task-aware model routing so Hermes can choose different models based o
 
 Examples:
 
-- **PKM / Obsidian sessions**
+- PKM / Obsidian sessions
   - use a model better suited for note synthesis, summarization, planning, and knowledge work
   - use a cheaper model for gathering context if appropriate
-- **Coding sessions**
+- Coding sessions
   - use a coding-capable model for deeper reasoning and code changes
   - use a cheaper model for tool execution, file discovery, or prompt assembly
-- **Simple tool / CLI orchestration**
+- Simple tool / CLI orchestration
   - use the cheapest acceptable model, or no model when deterministic logic is enough
-- **Fallback behavior**
+- Fallback behavior
   - Owl Alpha should be a fallback, not the universal default
 
 ## What to look for in the repo
@@ -2105,7 +2054,7 @@ Look for:
 
 Prefer a design like this:
 
-1. **Task classification**
+1. Task classification
    - Determine what kind of work Hermes is doing:
      - PKM / notes
      - coding
@@ -2114,21 +2063,21 @@ Prefer a design like this:
      - quick answer
    - Use prompt intent, workspace context, and file/project signals if available.
 
-2. **Planner / executor split**
+2. Planner / executor split
    - Let a cheaper model do context collection / orchestration.
    - Let a stronger model do the actual reasoning or synthesis.
    - Do not use the same model for every stage unless it is explicitly the best choice.
 
-3. **Model policy table**
+3. Model policy table
    - Add a config or routing layer that maps task type → model/provider.
    - Make this explicit and easy to change.
 
-4. **Provider abstraction**
+4. Provider abstraction
    - Route through OpenRouter when possible.
    - Avoid bypassing the router via direct Claude CLI calls unless that is intentionally configured.
    - Keep Owl Alpha only as fallback.
 
-5. **Observability**
+5. Observability
    - Log which task type was detected.
    - Log which model was chosen and why.
    - Log when fallback was used.
@@ -2177,46 +2126,52 @@ If you cannot fully verify by running tests, clearly state what you verified and
 - A short summary of how to switch Hermes between PKM and coding model policies
 ```
 
-If you want, I can also turn this into a more **implementation-oriented prompt** for a coding agent, or a **shorter Cursor/Claude prompt** optimized for direct repo editing.
+If you want, I can also turn this into a more implementation-oriented prompt for a coding agent, or a shorter Cursor/Claude prompt optimized for direct repo editing.
 
 ---
 
 ## Asset 17 (Pieces: 5d348ad3-a5ef-4bc1-aa8c-685e2d192a90)
 
-**Delivering user prompt**
+Delivering user prompt
 
-I need to respond to the user's latest request regarding a prompt they want. They appear to be stuck in a loop of feedback but are asking for a final deliverable. Since I can't verify the actual repo content, I should provide the latest prompt while polishing it a bit. I won't repeat previous responses but ensure to include the repo root, the problem, desired behavior, constraints, and include a note that it’s based on the user’s description without exact snippets.**Preparing prompt for user**
+I need to respond to the user's latest request regarding a prompt they want. They appear to be stuck in a loop of feedback but are asking for a final deliverable. Since I can't verify the actual repo content, I should provide the latest prompt while polishing it a bit. I won't repeat previous responses but ensure to include the repo root, the problem, desired behavior, constraints, and include a note that it's based on the user's description without exact snippets.Preparing prompt for user
 
-I need to craft a prompt for another LLM to fix something in the user's repo. It seems I shouldn't include any tool calls right now. I think using markdown headings, like H2, would be a good idea for clarity since this is a deliverable. Since the user asked for a full-context prompt for their chezmoi repo, I should mention the repo root as `/Users/leon.ormes/.local/share/chezmoi`. I have to be careful to say it's based on user-provided behavior and not verified code.**Creating a prompt for LLM**
+I need to craft a prompt for another LLM to fix something in the user's repo. It seems I shouldn't include any tool calls right now. I think using markdown headings, like H2, would be a good idea for clarity since this is a deliverable. Since the user asked for a full-context prompt for their chezmoi repo, I should mention the repo root as `/Users/leon.ormes/.local/share/chezmoi`. I have to be careful to say it's based on user-provided behavior and not verified code.Creating a prompt for LLM
 
-I’m working on crafting a prompt for the user to paste into an LLM or Cursor. The context is that Hermes in their chezmoi repo doesn't route models by task; it defaults to Owl Alpha, even when it’s supposed to use Claude. I need to suggest making the routing smarter by introducing a planner/executor split, task classifier, and capability-based routing. It would be wise to ask the model to inspect the chezmoi repo and provide concrete code changes, along with desired outputs and acceptance criteria.```text
+I'm working on crafting a prompt for the user to paste into an LLM or Cursor. The context is that Hermes in their chezmoi repo doesn't route models by task; it defaults to Owl Alpha, even when it's supposed to use Claude. I need to suggest making the routing smarter by introducing a planner/executor split, task classifier, and capability-based routing. It would be wise to ask the model to inspect the chezmoi repo and provide concrete code changes, along with desired outputs and acceptance criteria.```text
+
 You are working in my chezmoi-managed dotfiles repo.
 
 Repo root:
+
 `/Users/leon.ormes/.local/share/chezmoi`
 
 Task:
+
 Fix Hermes so it can route different model families for different kinds of work instead of always using Owl Alpha.
 
 Current behavior:
+
 - Hermes appears to use a single default model for nearly everything.
 - It is not choosing different models for different task types.
 - Even when I explicitly instructed it to use Claude, it used the Claude CLI path instead of OpenRouter.
 - I want Hermes to be smarter about model selection:
   - cheap/free model for context gathering and tool/CLI orchestration
-  - stronger reasoning model for “thinking” / synthesis
+  - stronger reasoning model for "thinking" / synthesis
   - coding-specialized model for coding work
   - PKM / Obsidian-oriented model for note / knowledge work
 
 What I want you to do:
+
 1. Inspect the repo and locate the routing / model-selection logic.
 2. Identify where Hermes currently hardcodes Owl Alpha or otherwise falls back to one universal model.
 3. Refactor or extend the architecture so model selection is task-aware.
 4. Make OpenRouter part of the actual routing path, not just a side option.
-5. Ensure “Claude” instructions do not automatically mean “Claude CLI”; they should route through the model-selection layer unless there is a deliberate reason not to.
+5. Ensure "Claude" instructions do not automatically mean "Claude CLI"; they should route through the model-selection layer unless there is a deliberate reason not to.
 6. Keep the design compatible with chezmoi conventions in this repo.
 
 Desired architecture:
+
 - Add a task classifier that categorizes requests, e.g.:
   - `pkm_or_research`
   - `coding`
@@ -2238,6 +2193,7 @@ Desired architecture:
   - session/workspace context used for the decision
 
 Implementation goals:
+
 - The routing should be explicit and readable.
 - Model choice should be driven by task type and session context, not a single global default.
 - If there is already a configuration surface, extend it instead of inventing a one-off hidden path.
@@ -2245,6 +2201,7 @@ Implementation goals:
 - Prefer minimal, clear changes over a large rewrite.
 
 Important constraints:
+
 - Preserve existing behavior where it is correct.
 - Do not break current CLI/tool execution paths.
 - Do not assume OpenRouter is already wired correctly; verify the actual call path.
@@ -2253,6 +2210,7 @@ Important constraints:
 - If a direct Claude CLI path exists, only use it intentionally and document why.
 
 What to inspect:
+
 - Any Hermes config files
 - Any model router / provider abstraction
 - Any task classification / prompt orchestration code
@@ -2261,6 +2219,7 @@ What to inspect:
 - Any chezmoi templates or dotfile scripts that set model-related env vars
 
 What to change:
+
 - Add or update configuration so different task types can map to different models.
 - Ensure the planner and executor can use different models.
 - Route coding tasks to a coding-capable model.
@@ -2269,42 +2228,45 @@ What to change:
 - Keep a fallback chain, but do not collapse everything to Owl Alpha unless nothing else is available.
 
 Acceptance criteria:
+
 - Hermes no longer uses one universal model for all tasks.
 - Different task types can select different models.
 - OpenRouter is actually used for model selection where intended.
-- “Use Claude” does not silently mean “call Claude CLI” unless explicitly configured.
+- "Use Claude" does not silently mean "call Claude CLI" unless explicitly configured.
 - Logging clearly shows why a model was chosen.
 - Existing workflows still work.
 - The result is cleanly committed in the chezmoi repo style.
 
 Please:
+
 - Make the code changes directly.
 - Show me the files you changed.
 - Summarize the routing design you implemented.
 - Note any assumptions you had to make.
 - If you could not verify a detail from the repo, say so plainly instead of guessing.
+
 ```
 
 ---
 
 ## Asset 18 (Pieces: b14b5955-b43a-472d-a4b3-8ef064e95b80)
 
-**Delivering the final prompt**
+Delivering the final prompt
 
-I need to focus on what the user is asking for—a deliverable prompt. The previous discussion had some confusion about phase progression. It seems like the user is looking for a copy-paste-ready prompt. I should look back at past responses to ensure I’m not repeating myself. While I should include the repo root and context, I'll convey that this is inferred as I can’t verify file contents. The repo root I found is `/Users/leon.ormes/.local/share/chezmoi`.**Crafting a prompt for fixing the chezmoi repo**
+I need to focus on what the user is asking for—a deliverable prompt. The previous discussion had some confusion about phase progression. It seems like the user is looking for a copy-paste-ready prompt. I should look back at past responses to ensure I’m not repeating myself. While I should include the repo root and context, I'll convey that this is inferred as I can’t verify file contents. The repo root I found is `/Users/leon.ormes/.local/share/chezmoi`.Crafting a prompt for fixing the chezmoi repo
 
-I need to create a prompt for an LLM to address an issue in the chezmoi repo. It should be copy-paste-ready and provide full context, while respecting the user's note about no further work. I want to avoid claiming exact file contents, but I can indicate the verified repo root, like `/Users/leon.ormes/.local/share/chezmoi`. I should phrase it to include that I couldn't verify config files due to limited access, ensuring clarity. I'll structure the prompt with sections—objective, context, actions, routing policy, constraints, verification, and deliverable.**Providing the prompt for chezmoi repo**
+I need to create a prompt for an LLM to address an issue in the chezmoi repo. It should be copy-paste-ready and provide full context, while respecting the user's note about no further work. I want to avoid claiming exact file contents, but I can indicate the verified repo root, like `/Users/leon.ormes/.local/share/chezmoi`. I should phrase it to include that I couldn't verify config files due to limited access, ensuring clarity. I'll structure the prompt with sections—objective, context, actions, routing policy, constraints, verification, and deliverable.Providing the prompt for chezmoi repo
 
 The user is asking for a prompt to fix an issue in their chezmoi repo, and I need to provide that in a way that's clear and accessible. It's probably best to deliver the prompt directly in a code block without extra headings, as the focus should be on making it copy-paste-ready. Including headings within the prompt itself could help with readability, but since the aim is for a self-contained prompt, I'll keep it simple and formatted correctly. This way, the user can easily utilize it.```markdown
 You are working in my chezmoi repo at:
 
 `/Users/leon.ormes/.local/share/chezmoi`
 
-Your job is to fix Hermes so it uses **different models for different kinds of work** instead of defaulting to one model everywhere.
+Your job is to fix Hermes so it uses different models for different kinds of work instead of defaulting to one model everywhere.
 
 ## Problem
 
-Right now Hermes appears to be using only **Owl Alpha** for everything.
+Right now Hermes appears to be using only Owl Alpha for everything.
 
 That is not the behavior I want.
 
@@ -2338,14 +2300,14 @@ The ideal behavior is:
 
 Use a policy like this:
 
-- **PKM / Obsidian / knowledge synthesis**
+- PKM / Obsidian / knowledge synthesis
   - gather context cheaply
   - use a stronger general reasoning model for synthesis
-- **Coding**
+- Coding
   - use a coding-specialized model for deep reasoning and code changes
-- **Tool / CLI / filesystem / simple retrieval**
+- Tool / CLI / filesystem / simple retrieval
   - use a cheaper model or deterministic logic
-- **Fallback**
+- Fallback
   - only use Owl Alpha when the preferred route is unavailable
 
 If the codebase already has a router or provider abstraction, extend it.
@@ -2400,17 +2362,17 @@ Prefer a design where:
 
 A good structure would be:
 
-1. **Task classifier**
+1. Task classifier
    - inspects user request / workspace context
    - labels the task
-2. **Router**
+2. Router
    - maps task label → model choice
-3. **Provider abstraction**
+3. Provider abstraction
    - OpenRouter, Claude CLI, local/Owl Alpha, etc.
-4. **Planner / executor split**
+4. Planner / executor split
    - cheap model for context gathering
    - stronger model for reasoning and synthesis
-5. **Fallback chain**
+5. Fallback chain
    - preferred model → alternate model → Owl Alpha only as last resort
 
 ## If the repo already has a config format
@@ -2467,8 +2429,8 @@ Task: fix Hermes model routing so it can choose different models for different k
 Hermes is currently not using different models based on task type. I added OpenRouter credits specifically to let Hermes do cheaper context collection and more capable reasoning when appropriate, but that is not happening.
 
 Observed behavior:
-- Hermes keeps using **Owl Alpha** for everything.
-- Even when I instruct Hermes to use Claude, it seems to call the **Claude CLI** rather than routing through OpenRouter.
+- Hermes keeps using Owl Alpha for everything.
+- Even when I instruct Hermes to use Claude, it seems to call the Claude CLI rather than routing through OpenRouter.
 - I expected a split like:
   - cheap/free model for collecting context, running CLI tools, and orchestration
   - stronger model for “thinking” / synthesis
@@ -2504,15 +2466,15 @@ Examples:
 
 I expect a split like this:
 
-- **Planner / reasoner**:
+- Planner / reasoner:
   - selects task type
   - decides whether tools are needed
   - chooses the best model for the job
-- **Executor / tool runner**:
+- Executor / tool runner:
   - gathers files, runs CLI tools, reads context
-- **Routing table**:
+- Routing table:
   - maps task/session type to model/provider
-- **Fallback logic**:
+- Fallback logic:
   - only uses Owl Alpha if the preferred route is unavailable
 
 Useful task categories might include:
@@ -2575,19 +2537,19 @@ Please:
 5. tell me how to verify the behavior locally.
 ```
 
-If you want, I can also turn this into a **shorter, more directive agent prompt** or a **repo-specific implementation prompt** aimed at a coding agent.
+If you want, I can also turn this into a shorter, more directive agent prompt or a repo-specific implementation prompt aimed at a coding agent.
 
 ---
 
 ## Asset 20 (Pieces: fa01e3db-8d1e-4c2b-ac6e-8a7458e3c63b)
 
-**Finalizing prompt for user**
+Finalizing prompt for user
 
-I need to provide the user with a prompt for fixing the issue in the chezmoi repo. It seems there might have been some confusion since there's no previous prompt visible. The user asked for a clear prompt with context. I'll include the repo root at `/Users/leon.ormes/.local/share/chezmoi`, but I have to be careful not to mention specifics that aren't supported. I want to make sure I deliver a polished copy-paste response for them!**Preparing prompt context**
+I need to provide the user with a prompt for fixing the issue in the chezmoi repo. It seems there might have been some confusion since there's no previous prompt visible. The user asked for a clear prompt with context. I'll include the repo root at `/Users/leon.ormes/.local/share/chezmoi`, but I have to be careful not to mention specifics that aren't supported. I want to make sure I deliver a polished copy-paste response for them!Preparing prompt context
 
-I need to create a prompt for the user regarding "Hermes" using Owl Alpha and Claude CLI, focusing on task-aware routing. The review feedback suggests I should just return the prompt with minor polish. I already have prior guidance to draw from, but I'll make sure it’s formatted in markdown, likely using a code fence. I should include the repo root I found, but also note that I couldn't verify the repo's internals due to incomplete searches.**Generating prompt for user**
+I need to create a prompt for the user regarding "Hermes" using Owl Alpha and Claude CLI, focusing on task-aware routing. The review feedback suggests I should just return the prompt with minor polish. I already have prior guidance to draw from, but I'll make sure it's formatted in markdown, likely using a code fence. I should include the repo root I found, but also note that I couldn't verify the repo's internals due to incomplete searches.Generating prompt for user
 
-I need to create a concise yet high-quality prompt for the user regarding task-aware model routing in their chezmoi repo. The prompt should state: "You are helping me fix task-aware model routing in my chezmoi repo at...". I’ll include the context that Hermes uses Owl Alpha and invokes Claude CLI instead of OpenRouter. The user aims for a planner/executor split, with a focus on inspecting the repository, identifying routing and selection logic, and proposing necessary code changes.Use this as a copy-paste prompt for your coding LLM:
+I need to create a concise yet high-quality prompt for the user regarding task-aware model routing in their chezmoi repo. The prompt should state: "You are helping me fix task-aware model routing in my chezmoi repo at…". I'll include the context that Hermes uses Owl Alpha and invokes Claude CLI instead of OpenRouter. The user aims for a planner/executor split, with a focus on inspecting the repository, identifying routing and selection logic, and proposing necessary code changes.Use this as a copy-paste prompt for your coding LLM:
 
 ```markdown
 You are working inside my chezmoi-managed dotfiles repo:
@@ -2604,7 +2566,7 @@ Right now Hermes appears to:
 - invoke the Claude CLI when I say “use Claude,” instead of routing through OpenRouter
 - lack task-aware model selection
 
-I want Hermes to become smarter about model choice by using a **planner/executor split** and routing models by task type.
+I want Hermes to become smarter about model choice by using a planner/executor split and routing models by task type.
 
 ## Desired behavior
 
@@ -2654,10 +2616,10 @@ Add or improve a step that identifies what kind of work Hermes is doing:
 Route tasks to different model choices depending on task type.
 
 Example intent:
-- **context gathering / CLI / file inspection** → cheaper model
-- **planning / synthesis / hard reasoning** → stronger model
-- **coding tasks** → coding-capable model
-- **PKM tasks** → model suited to knowledge organization and writing
+- context gathering / CLI / file inspection → cheaper model
+- planning / synthesis / hard reasoning → stronger model
+- coding tasks → coding-capable model
+- PKM tasks → model suited to knowledge organization and writing
 
 ### 3. Planner/executor split
 Separate:
@@ -2715,17 +2677,18 @@ Return:
 - the verification steps
 ```
 
-If you want, I can also turn this into a **more forceful implementation prompt** or a **shorter Claude/Cursor-ready version**.
+If you want, I can also turn this into a more forceful implementation prompt or a shorter Claude/Cursor-ready version.
 
 ---
 
 ## Asset 21 (Pieces: df902221-6140-4227-a5ea-51bf0f9050ee)
 
-**Crafting LLM prompt**
+Crafting LLM prompt
 
-I need to ensure I use the exact returned path and be careful about citing any unverified code snippets. Since I haven’t read the exact files, I should mention that my insights are inferred from the user context rather than verified content. The user is asking for a final prompt, so it's important to include placeholder sections for snippets and clarify that I couldn't verify the file contents fully due to restrictions. Let's craft an effective prompt for the user to modify their chezmoi repo.**Clarifying repo context**
+I need to ensure I use the exact returned path and be careful about citing any unverified code snippets. Since I haven't read the exact files, I should mention that my insights are inferred from the user context rather than verified content. The user is asking for a final prompt, so it's important to include placeholder sections for snippets and clarify that I couldn't verify the file contents fully due to restrictions. Let's craft an effective prompt for the user to modify their chezmoi repo.Clarifying repo context
 
-Since I haven’t inspected any repo files, I need to highlight that the code path is inferred from the user's report. The user wants "full context," so I should include observed behavior and goals. I can provide the exact repo root and mention that "filesystem inspection was limited," suggesting they verify it themselves. However, since they only want the prompt, I might skip mentioning tool limitations but can add a "verification note" for locating the routing config. Let's specify the repo root and working directory clearly.```markdown
+Since I haven't inspected any repo files, I need to highlight that the code path is inferred from the user's report. The user wants "full context," so I should include observed behavior and goals. I can provide the exact repo root and mention that "filesystem inspection was limited," suggesting they verify it themselves. However, since they only want the prompt, I might skip mentioning tool limitations but can add a "verification note" for locating the routing config. Let's specify the repo root and working directory clearly.```markdown
+
 You are working in my chezmoi-managed repo at:
 
 `/Users/leon.ormes/.local/share/chezmoi`
@@ -2736,8 +2699,8 @@ Your task is to fix Hermes so it uses different models for different kinds of wo
 
 Hermes currently behaves like this:
 
-- It appears to always use **Owl Alpha** as the default model.
-- Even when I ask it to use Claude, it seems to call the **Claude CLI** directly instead of routing through **OpenRouter**.
+- It appears to always use Owl Alpha as the default model.
+- Even when I ask it to use Claude, it seems to call the Claude CLI directly instead of routing through OpenRouter.
 - It does not appear to distinguish between different task types such as:
   - PKM / Obsidian note work
   - coding work
@@ -2747,14 +2710,14 @@ Hermes currently behaves like this:
 What I want instead is:
 
 - a cheap model for collecting context and running tools
-- a more capable model for “thinking” / synthesis
+- a more capable model for "thinking" / synthesis
 - task-aware routing so PKM sessions can use PKM-suitable models
 - coding sessions can use coding-suitable models
 - the model choice should be explicit and inspectable, not hardcoded to one fallback
 
 ## Goal
 
-Refactor Hermes so model selection is **task-aware** and **policy-driven**.
+Refactor Hermes so model selection is task-aware and policy-driven.
 
 The desired behavior is:
 
@@ -2767,25 +2730,25 @@ The desired behavior is:
 - OpenRouter should be used as the routing layer where possible
 - Owl Alpha should be a fallback, not the universal default
 
-## Important context
+## Important Context
 
 I use Hermes in at least two modes:
 
-1. **Obsidian PKM mode**
+1. Obsidian PKM mode
    - Hermes should gather context, summarize notes, organize ideas, and help with knowledge management.
    - I expect a model suited to PKM / synthesis / writing.
 
-2. **Coding mode**
+2. Coding mode
    - Hermes should use a coding-capable model for deeper code reasoning.
    - I still want cheap context gathering and tool orchestration where possible.
 
-## What I want you to change
+## What I want You to Change
 
 Please inspect the repo and implement a proper model-routing layer.
 
-### Required behavior
+### Required Behavior
 
-1. **Task classification**
+1. Task classification
    - Determine the task type from the user request and/or session context.
    - Examples:
      - `pkm`
@@ -2795,36 +2758,36 @@ Please inspect the repo and implement a proper model-routing layer.
      - `tooling`
      - `general`
 
-2. **Model policy**
+2. Model policy
    - Add a routing table or equivalent policy mechanism.
    - Different task types should map to different model choices.
 
-3. **Planner / executor split**
+3. Planner / executor split
    - Context gathering and tool execution should not necessarily use the same model as final reasoning.
    - Prefer a split between:
      - a lightweight planner or orchestrator
      - a stronger model for synthesis / reasoning
 
-4. **OpenRouter integration**
+4. OpenRouter integration
    - If Hermes supports OpenRouter, use it as the provider for model selection.
    - Do not bypass OpenRouter when the task should be routed through it.
 
-5. **Claude handling**
+5. Claude handling
    - If I request Claude, Hermes should not simply shell out to the Claude CLI as a hardcoded path unless that is explicitly intended.
-   - Prefer a provider abstraction so “Claude” is a model choice, not a separate special-case execution path.
+   - Prefer a provider abstraction so "Claude" is a model choice, not a separate special-case execution path.
 
-6. **Fallback behavior**
+6. Fallback behavior
    - Owl Alpha should remain available as a fallback.
    - It should not be the default for every task.
 
-7. **Observability**
+7. Observability
    - Add logging or tracing so I can see:
      - detected task type
      - selected model
      - provider used
      - fallback reason if any
 
-## What to inspect
+## What to Inspect
 
 Please find the actual Hermes routing / model-selection logic in the repo.
 
@@ -2852,7 +2815,7 @@ Likely search terms:
 - `planner`
 - `executor`
 
-## Expected implementation shape
+## Expected Implementation Shape
 
 I expect something along these lines:
 
@@ -2879,9 +2842,9 @@ routing:
       executor: openrouter:<cheap-context-model>
 ```
 
-Use the repo’s existing conventions rather than forcing this exact shape.
+Use the repo's existing conventions rather than forcing this exact shape.
 
-## Acceptance criteria
+## Acceptance Criteria
 
 Please consider the fix complete only if:
 
@@ -2892,13 +2855,13 @@ Please consider the fix complete only if:
 - Claude requests do not bypass the routing layer unexpectedly
 - OpenRouter is used when appropriate
 - fallback behavior is explicit
-- the code is consistent with the repo’s current conventions
+- the code is consistent with the repo's current conventions
 
 ## Verification
 
 After implementing the change, verify it by:
 
-- running the repo’s relevant tests
+- running the repo's relevant tests
 - checking the routing path for at least:
   - a PKM-style task
   - a coding-style task
@@ -2908,7 +2871,7 @@ After implementing the change, verify it by:
 
 If there are no existing tests, add the minimum useful test coverage for the routing logic.
 
-## Output format
+## Output Format
 
 Please make the actual repo changes, and then summarize:
 
@@ -2918,15 +2881,16 @@ Please make the actual repo changes, and then summarize:
 - any caveats or follow-up work
 
 If you find that the repo structure is different from what I expect, adapt to the codebase rather than forcing this design verbatim.
+
 ```
 
 ---
 
 ## Asset 22 (Pieces: 15a7df9f-81ff-479b-9ce8-02a113774044)
 
-**Considering prompt adjustments**
+Considering prompt adjustments
 
-I think I need to mention that the file contents couldn't be verified because the searches returned no relevant matches. So, the prompt should instruct the agent to inspect the repository directly. The user wants the prompt to fix an issue in the repo, so I can ask the model to inspect the repo and correct the routing logic. Including the observed behavior will help—like Hermes consistently using owl alpha. I'll also focus on task-aware routing and consider formatting it as markdown without headings for clarity.**Structuring the prompt**
+I think I need to mention that the file contents couldn't be verified because the searches returned no relevant matches. So, the prompt should instruct the agent to inspect the repository directly. The user wants the prompt to fix an issue in the repo, so I can ask the model to inspect the repo and correct the routing logic. Including the observed behavior will help—like Hermes consistently using owl alpha. I'll also focus on task-aware routing and consider formatting it as markdown without headings for clarity.Structuring the prompt
 
 I think I should start the deliverable output with the prompt formatted in a code block. Including a system prompt or an assistant prompt might also be useful, presenting it as an "LLM prompt" for a coding agent. I can create a detailed prompt that covers the repo path, goals, constraints, and a step-by-step plan for verification. Since I can't verify the code, I should instruct the agent to inspect the files and implement changes while mentioning the exact repo path for the chezmoi-managed dotfiles. I'll avoid referencing any unverified files but will include the repo root path.Here’s a copy-paste-ready prompt you can give to a coding LLM to fix this in your chezmoi repo:
 
@@ -3094,13 +3058,13 @@ Make the repo changes directly, then report back with:
 Do not give me a generic explanation. I want the actual repo fix.
 ```
 
-If you want, I can also turn this into a **shorter, more aggressive “fix this now” prompt** or a **Cursor-style agent prompt** tuned for direct repo editing.
+If you want, I can also turn this into a shorter, more aggressive "fix this now" prompt or a Cursor-style agent prompt tuned for direct repo editing.
 
 ---
 
 ## Asset 23 (Pieces: 2323eec1-3cdc-4a22-9c83-d753b9905404)
 
-## Copy-paste prompt for your chezmoi repo
+## Copy-paste Prompt for Your Chezmoi Repo
 
 ```markdown
 You are working in my chezmoi repo at `/Users/leon.ormes/.local/share/chezmoi`.
@@ -3111,12 +3075,12 @@ Fix Hermes so it can use different models for different kinds of work instead of
 
 Right now the behavior I want is not happening:
 
-- Hermes seems to use **Owl Alpha** for everything.
-- Even when I instruct it to use Claude, it appears to call the **Claude CLI** path rather than routing through **OpenRouter**.
+- Hermes seems to use Owl Alpha for everything.
+- Even when I instruct it to use Claude, it appears to call the Claude CLI path rather than routing through OpenRouter.
 - I want task-aware model selection:
-  - **PKM / Obsidian-style work** should use a model better suited to note synthesis, context organization, and long-form reasoning.
-  - **Coding work** should use a coding-optimized model for deeper implementation tasks.
-  - **Cheap / free models** can still be used for context gathering, CLI/tool execution, and lightweight orchestration.
+  - PKM / Obsidian-style work should use a model better suited to note synthesis, context organization, and long-form reasoning.
+  - Coding work should use a coding-optimized model for deeper implementation tasks.
+  - Cheap / free models can still be used for context gathering, CLI/tool execution, and lightweight orchestration.
   - The “thinking” or synthesis step should use a more capable model chosen by task type.
 
 ## What I want you to investigate
@@ -3136,17 +3100,17 @@ Right now the behavior I want is not happening:
 
 I want Hermes to behave like this:
 
-- **Planner / orchestration layer**
+- Planner / orchestration layer
   - classifies the task
   - gathers context
   - decides which tools to use
   - chooses the right model for the actual reasoning step
 
-- **Executor / tool runner**
+- Executor / tool runner
   - runs CLI, filesystem, browser, or other deterministic actions
   - should not always consume an expensive model
 
-- **Model routing policy**
+- Model routing policy
   - `pkm` / `notes` / `research` → strong general reasoning model
   - `coding` / `implementation` → coding-specialized model
   - `tooling` / `cli` / `context collection` → cheaper model if appropriate
@@ -3172,12 +3136,12 @@ I want Hermes to behave like this:
 
 Please inspect the repo and implement the smallest clean change that makes this work. In particular:
 
-- introduce or improve a **task classifier**
-- add or improve a **model routing table**
-- separate **planner** vs **executor** behavior if that already fits the architecture
-- make sure **PKM sessions** and **coding sessions** can use different models
-- ensure **OpenRouter** can actually be used for the reasoning step
-- keep **Owl Alpha** as fallback, not the universal default
+- introduce or improve a task classifier
+- add or improve a model routing table
+- separate planner vs executor behavior if that already fits the architecture
+- make sure PKM sessions and coding sessions can use different models
+- ensure OpenRouter can actually be used for the reasoning step
+- keep Owl Alpha as fallback, not the universal default
 
 ## What to look for in the codebase
 
@@ -3223,15 +3187,15 @@ If the routing path is not obvious from the repo, infer the current behavior fro
 Start by locating the model-selection entrypoint, then trace how task type and provider choice flow through the system, then patch the routing logic accordingly.
 ```
 
-If you want, I can also turn this into a **shorter Cursor prompt** or a **more prescriptive implementation prompt** that tells the model exactly how to structure the routing layer.
+If you want, I can also turn this into a shorter Cursor prompt or a more prescriptive implementation prompt that tells the model exactly how to structure the routing layer.
 
 ---
 
 ## Asset 24 (Pieces: 742b1dd4-a225-4981-8a07-b3a5ccbadd90)
 
-**Structuring a prompt summary**
+Structuring a prompt summary
 
-I need to return a concise summary of changes and commands for verification. Since the user requested a prompt and not a code fix, I think I should present it in a markdown code fence labeled `text` or `markdown`. It makes sense to use an H2 title outside, as the response should be easily deliverable. I'll ensure it’s high-quality for the user to copy-paste. This approach feels organized and clear!## Copy-paste prompt
+I need to return a concise summary of changes and commands for verification. Since the user requested a prompt and not a code fix, I think I should present it in a markdown code fence labeled `text` or `markdown`. It makes sense to use an H2 title outside, as the response should be easily deliverable. I'll ensure it's high-quality for the user to copy-paste. This approach feels organized and clear!## Copy-paste prompt
 
 ```text
 You are working inside my chezmoi repo at:
@@ -3271,10 +3235,10 @@ Then implement or improve the routing so Hermes can choose different models base
 
 The final design should support something like:
 
-- **context gathering / tool orchestration / CLI work** → cheap or fast model
-- **PKM / note synthesis / summarization** → general strong reasoning model
-- **coding** → coding-specialized model
-- **fallback** → Owl Alpha only if preferred routing fails or is unavailable
+- context gathering / tool orchestration / CLI work → cheap or fast model
+- PKM / note synthesis / summarization → general strong reasoning model
+- coding → coding-specialized model
+- fallback → Owl Alpha only if preferred routing fails or is unavailable
 
 If the repo already has a routing abstraction, extend it. If it does not, add the smallest sensible abstraction that enables:
 
@@ -3367,51 +3331,51 @@ Make the repo changes needed to support task-aware model routing, and then summa
 - any assumptions you had to make because the repo structure was unclear
 ```
 
-If you want, I can also turn this into a more opinionated prompt tailored for either **Claude**, **Cursor**, or **ChatGPT**.
+If you want, I can also turn this into a more opinionated prompt tailored for either Claude, Cursor, or ChatGPT.
 
 ---
 
 ## Asset 25 (Pieces: 978795e5-f660-4b7d-8150-42ce2b611b25)
 
-**Crafting a prompt for LLM**
+Crafting a prompt for LLM
 
-I should include the repo path, problem statement, current behavior, desired architecture, acceptance criteria, and constraints. There's no need to reference previous responses, but I want to provide a new, detailed prompt for the user to use in another LLM. 
+I should include the repo path, problem statement, current behavior, desired architecture, acceptance criteria, and constraints. There's no need to reference previous responses, but I want to provide a new, detailed prompt for the user to use in another LLM.
 
-Since the user asked for a full context prompt for their chezmoi repo, I'll include that it resides at `/Users/leon.ormes/.local/share/chezmoi`. I might also mention that due to limited filesystem access, I couldn’t verify the exact file contents. This context is helpful!**Creating a task prompt**
+Since the user asked for a full context prompt for their chezmoi repo, I'll include that it resides at `/Users/leon.ormes/.local/share/chezmoi`. I might also mention that due to limited filesystem access, I couldn't verify the exact file contents. This context is helpful!Creating a task prompt
 
-I need to mention that Hermes uses Owl Alpha exclusively, even when I instruct it to use Claude. I want to outline the task-aware routing with OpenRouter and specify different models for various tasks, like PKM versus coding. 
+I need to mention that Hermes uses Owl Alpha exclusively, even when I instruct it to use Claude. I want to outline the task-aware routing with OpenRouter and specify different models for various tasks, like PKM versus coding.
 
-I'll include the desired output: inspecting the repo, finding the router/config, implementing a task classifier, and ensuring a planner/executor split. It’s important to preserve existing patterns and add logging/tests. I'll create a checklist and ask for a diff plan if needed, while avoiding unsupported details like "openrouter credits."## Copy-paste prompt for your LLM
+I'll include the desired output: inspecting the repo, finding the router/config, implementing a task classifier, and ensuring a planner/executor split. It's important to preserve existing patterns and add logging/tests. I'll create a checklist and ask for a diff plan if needed, while avoiding unsupported details like "openrouter credits."## Copy-paste prompt for your LLM
 
 You are working in my chezmoi-managed dotfiles repo at:
 
 `/Users/leon.ormes/.local/share/chezmoi`
 
-I want you to fix how **Hermes** chooses models.
+I want you to fix how Hermes chooses models.
 
 ### Problem
 
-Hermes is currently acting like it has one default model for everything. It keeps using **Owl Alpha** even when the work type changes. I added OpenRouter credits because I expected Hermes to do something smarter:
+Hermes is currently acting like it has one default model for everything. It keeps using Owl Alpha even when the work type changes. I added OpenRouter credits because I expected Hermes to do something smarter:
 
 - use a cheaper / lighter model to gather context and run CLI tools
-- use a more capable model for the actual “thinking” or synthesis
+- use a more capable model for the actual "thinking" or synthesis
 - choose different models depending on the task type
 
 Example expectations:
 
-- In my **Obsidian PKM** workflow, Hermes should orchestrate context collection and then use a model suited to PKM / writing / synthesis work.
-- In a **coding** session, Hermes should use a coding-optimized model for deeper reasoning and code changes.
-- If I explicitly say “use Claude,” that should not just force a Claude CLI path unless that is truly the intended provider route. I want Hermes to route intelligently through **OpenRouter** when appropriate, not just fall back to whatever CLI wrapper is hardcoded.
+- In my Obsidian PKM workflow, Hermes should orchestrate context collection and then use a model suited to PKM / writing / synthesis work.
+- In a coding session, Hermes should use a coding-optimized model for deeper reasoning and code changes.
+- If I explicitly say "use Claude," that should not just force a Claude CLI path unless that is truly the intended provider route. I want Hermes to route intelligently through OpenRouter when appropriate, not just fall back to whatever CLI wrapper is hardcoded.
 
-### What I want you to do
+### What I want You to Do
 
 Find the relevant Hermes configuration and model-routing code in this repo, then implement a smarter model-selection strategy.
 
-### Desired behavior
+### Desired Behavior
 
 Implement a routing design that supports:
 
-1. **Task classification**
+1. Task classification
    - Detect the kind of work being done, such as:
      - `pkm`
      - `coding`
@@ -3426,33 +3390,33 @@ Implement a routing design that supports:
      - session metadata
      - recent conversation/task context
 
-2. **Planner / executor split**
+2. Planner / executor split
    - A cheap or lightweight model can gather context, summarize files, and prepare tool calls.
    - A stronger model should handle the higher-level reasoning / synthesis step.
    - Tool execution itself should remain deterministic or use the cheapest appropriate model.
 
-3. **Task-based model routing**
+3. Task-based model routing
    - PKM-style work should route to a model appropriate for writing, synthesis, note organization, and context planning.
    - Coding work should route to a coding-capable model.
    - General or low-stakes work can use a cheaper model.
    - Owl Alpha should be a fallback, not the universal default.
 
-4. **OpenRouter-first model selection**
+4. OpenRouter-first model selection
    - If OpenRouter is configured, Hermes should use it for model selection rather than always forcing the same local/default provider.
-   - If “Claude” is requested, map that to the intended OpenRouter provider/model path where possible instead of blindly invoking a Claude CLI wrapper.
+   - If "Claude" is requested, map that to the intended OpenRouter provider/model path where possible instead of blindly invoking a Claude CLI wrapper.
 
-5. **Fallback behavior**
+5. Fallback behavior
    - If the preferred model fails or is unavailable, Hermes should fall back in a controlled order.
    - Fallback should not collapse everything back to Owl Alpha unless necessary.
 
-6. **Observability**
+6. Observability
    - Add logging or diagnostics so I can see:
      - the detected task type
      - the chosen provider/model
      - whether fallback was used
      - why that choice was made
 
-### What to inspect
+### What to Inspect
 
 Look for:
 
@@ -3471,7 +3435,7 @@ Look for:
 - Do not make the system depend on manual switching every time.
 - Keep the solution maintainable and easy to extend with future task types or providers.
 
-### Acceptance criteria
+### Acceptance Criteria
 
 I will consider this fixed when:
 
@@ -3479,7 +3443,7 @@ I will consider this fixed when:
 - PKM and coding sessions can be routed to different model choices.
 - Context gathering and higher-level reasoning can use different models.
 - OpenRouter is actually used in the routing path.
-- “Claude” does not just mean “call the Claude CLI” unless that is the explicit and correct provider path.
+- "Claude" does not just mean "call the Claude CLI" unless that is the explicit and correct provider path.
 - There is a clear fallback chain and diagnostics for model choice.
 
 ### Deliverable
@@ -3498,7 +3462,7 @@ If the repo structure is unclear, first locate the Hermes-related config and rou
 
 ## Asset 26 (Pieces: cf40892d-3043-45a3-a685-3ff16ec38ed1)
 
-## Copy-paste prompt for fixing Hermes in your chezmoi repo
+## Copy-paste Prompt for Fixing Hermes in Your Chezmoi Repo
 
 ```text
 You are working inside my chezmoi repo at:
@@ -3609,43 +3573,43 @@ Output format
 - Then give me a concise summary of the files changed, the routing logic you added, and how to verify it.
 ```
 
-If you want, I can also turn this into a **shorter Claude/Cursor-style prompt** or a **more directive code-fix prompt** aimed at a specific agent.
+If you want, I can also turn this into a shorter Claude/Cursor-style prompt or a more directive code-fix prompt aimed at a specific agent.
 
 ---
 
 ## Asset 27 (Pieces: 119d6527-3000-4eb7-8f04-6e275a12c180)
 
-**Preparing a response**
+Preparing a response
 
-The user appears to want a polished prompt, especially since they asked again due to system review feedback. I don't have the actual repo content because of failed searches, so I need to return a prompt based on the context they provided. I should avoid repeating myself and just focus on delivering a copy-paste-ready prompt. I might not mention the inability to verify code paths, but I can note that this prompt reflects their described behavior. Keeping it concise is key!**Crafting a prompt**
+The user appears to want a polished prompt, especially since they asked again due to system review feedback. I don't have the actual repo content because of failed searches, so I need to return a prompt based on the context they provided. I should avoid repeating myself and just focus on delivering a copy-paste-ready prompt. I might not mention the inability to verify code paths, but I can note that this prompt reflects their described behavior. Keeping it concise is key!Crafting a prompt
 
-I want to create a solid prompt for another LLM to help fix the Hermes routing in the chezmoi repo. I’ll include the discovered repo path as `/Users/leon.ormes/.local/share/chezmoi`, but also note I'm not verifying the code contents. I’ll make sure to frame the issue clearly, including goals and acceptance criteria, and format it in markdown for easy pasting. Since the user specifically asked for a prompt, I’ll remind them to use this prompt when inputting it into the coding LLM.**Creating a detailed prompt**
+I want to create a solid prompt for another LLM to help fix the Hermes routing in the chezmoi repo. I'll include the discovered repo path as `/Users/leon.ormes/.local/share/chezmoi`, but also note I'm not verifying the code contents. I'll make sure to frame the issue clearly, including goals and acceptance criteria, and format it in markdown for easy pasting. Since the user specifically asked for a prompt, I'll remind them to use this prompt when inputting it into the coding LLM.Creating a detailed prompt
 
-I need to mention the discovered path from the filesystem search. I can say something like, "If the code path cannot be verified, please state that and make conservative inferences." This approach is okay! I should also include specific details about the Hermes model's defaults and its routing capabilities. It would be good to describe the environment as well. Let’s put this all together in the prompt. I'll ensure it captures the task-aware routing instructions clearly!## Copy-paste prompt for a coding LLM
+I need to mention the discovered path from the filesystem search. I can say something like, "If the code path cannot be verified, please state that and make conservative inferences." This approach is okay! I should also include specific details about the Hermes model's defaults and its routing capabilities. It would be good to describe the environment as well. Let's put this all together in the prompt. I'll ensure it captures the task-aware routing instructions clearly!## Copy-paste prompt for a coding LLM
 
 You are working in this chezmoi repo:
 
 `/Users/leon.ormes/.local/share/chezmoi`
 
-Your task is to inspect the repo and fix Hermes so it uses **different models for different kinds of work** instead of always falling back to **Owl Alpha**.
+Your task is to inspect the repo and fix Hermes so it uses different models for different kinds of work instead of always falling back to Owl Alpha.
 
-### Problem statement
+### Problem Statement
 
 Right now Hermes appears to be using one default model for everything. The user expected:
 
 - a cheap/free model to gather context and run CLI/tooling steps
-- a stronger model for the “thinking” or synthesis step
+- a stronger model for the "thinking" or synthesis step
 - a coding-focused model for coding sessions
 - a PKM / Obsidian-friendly model for note / knowledge-base sessions
 
 Instead, Hermes seems to:
 
 - always use Owl Alpha
-- route “use Claude” requests through the Claude CLI path rather than OpenRouter
+- route "use Claude" requests through the Claude CLI path rather than OpenRouter
 - lack task-aware model selection
 - not differentiate by workspace or session type
 
-### What to look for
+### What to Look for
 
 Inspect the repo and find:
 
@@ -3658,11 +3622,11 @@ Inspect the repo and find:
 
 If you cannot find exact code paths, make your changes conservatively and explain what was inferred.
 
-### Desired behavior
+### Desired Behavior
 
 Implement a smarter routing strategy with these goals:
 
-1. **Task-aware model selection**
+1. Task-aware model selection
    - Hermes should classify work by type, such as:
      - PKM / notes / Obsidian
      - coding
@@ -3670,7 +3634,7 @@ Implement a smarter routing strategy with these goals:
      - tool execution / CLI coordination
      - general chat
 
-2. **Planner/executor split**
+2. Planner/executor split
    - Use a cheaper or faster model for:
      - gathering context
      - expanding prompts
@@ -3681,17 +3645,17 @@ Implement a smarter routing strategy with these goals:
      - code planning
      - PKM-oriented thinking
 
-3. **Session-aware routing**
+3. Session-aware routing
    - If the session is clearly in an Obsidian / PKM context, route to a PKM-appropriate model.
    - If the session is in a coding context, route to a coding-specialized model.
    - If the session is explicitly asking for a specific model, honor that preference when possible.
 
-4. **OpenRouter should be a real provider choice**
-   - Do not treat “use Claude” as automatically meaning “call Claude CLI.”
+4. OpenRouter should be a real provider choice
+   - Do not treat "use Claude" as automatically meaning "call Claude CLI."
    - If the architecture supports it, route via OpenRouter for the model selection layer.
    - Keep direct CLI provider calls only if they are intentional and clearly separated from OpenRouter routing.
 
-5. **Fallback behavior**
+5. Fallback behavior
    - Owl Alpha should be a fallback, not the universal default.
    - If the preferred model is unavailable, fall back gracefully and log why.
 
@@ -3706,7 +3670,7 @@ Implement a smarter routing strategy with these goals:
 - If there are tests, update or add tests for routing behavior.
 - If there are docs or prompts around Hermes behavior, update them too.
 
-### What to implement
+### What to Implement
 
 At minimum, add or fix:
 
@@ -3719,24 +3683,24 @@ At minimum, add or fix:
 - explicit fallback rules
 - observability for chosen model and routing reason
 
-### Suggested routing policy
+### Suggested Routing Policy
 
 A good first pass might be:
 
-- **PKM / Obsidian**
+- PKM / Obsidian
   - context collection: cheap model
   - synthesis: stronger general reasoning model
-- **Coding**
+- Coding
   - context collection: cheap model
   - reasoning / code planning: coding-specialized model
-- **Research / synthesis**
+- Research / synthesis
   - stronger general reasoning model
-- **CLI / tool execution**
+- CLI / tool execution
   - cheap model or deterministic logic
-- **Fallback**
+- Fallback
   - Owl Alpha only when preferred routing fails
 
-### Acceptance criteria
+### Acceptance Criteria
 
 The fix is done when:
 
@@ -3746,9 +3710,9 @@ The fix is done when:
 - OpenRouter is used intentionally and not bypassed by accident
 - Claude requests do not silently become Claude CLI calls unless that is explicitly desired
 - the selected model and routing reason are visible in logs or debug output
-- the behavior is documented or obvious enough that future changes won’t collapse back to one default model
+- the behavior is documented or obvious enough that future changes won't collapse back to one default model
 
-### Verification steps
+### Verification Steps
 
 After changing the code:
 
@@ -3762,7 +3726,7 @@ After changing the code:
    - provider failure → fallback works
 4. Confirm Owl Alpha is no longer the universal default.
 
-### Output format
+### Output Format
 
 When you finish, provide:
 
@@ -3771,20 +3735,21 @@ When you finish, provide:
 - any tests run
 - any caveats or inferred behavior if the repo structure was ambiguous
 
-If you want, I can also turn this into a **more aggressive agent prompt** that tells the coding model exactly how to inspect the repo and patch it step by step.
+If you want, I can also turn this into a more aggressive agent prompt that tells the coding model exactly how to inspect the repo and patch it step by step.
 
 ---
 
 ## Asset 28 (Pieces: ab69408f-7203-46bb-9e87-4065e1359c29)
 
-**Structuring a prompt**
+Structuring a prompt
 
-The user asked for a prompt with full context, so I want to create a well-organized one. I’ll include sections like Role, Repo/Context, Observed Issue, Desired Architecture, Tasks to Perform, Acceptance Criteria, Constraints, and Verification. It might be helpful to mention that if there’s no explicit task classifier, I should add one. I could give a routing table example as well. Since the user mentioned "llm prompt," I may want to include a code block for clarity.```markdown
+The user asked for a prompt with full context, so I want to create a well-organized one. I'll include sections like Role, Repo/Context, Observed Issue, Desired Architecture, Tasks to Perform, Acceptance Criteria, Constraints, and Verification. It might be helpful to mention that if there's no explicit task classifier, I should add one. I could give a routing table example as well. Since the user mentioned "llm prompt," I may want to include a code block for clarity.```markdown
+
 You are working in this repo:
 
 `/Users/leon.ormes/.local/share/chezmoi`
 
-Your job is to fix Hermes so it uses **different models for different kinds of work** instead of always falling back to one model.
+Your job is to fix Hermes so it uses different models for different kinds of work instead of always falling back to one model.
 
 ## Context
 
@@ -3796,45 +3761,41 @@ I added OpenRouter credits because I want Hermes to route intelligently by task:
 - PKM / Obsidian-related work should prefer a model that is good at note synthesis and knowledge organization
 - Owl Alpha should be a fallback, not the universal default
 
-## Observed bad behavior
+## Observed Bad Behavior
 
 Hermes currently appears to:
 
-- use **Owl Alpha for everything**
+- use Owl Alpha for everything
 - ignore task type / session type when picking a model
-- when I tell it to use Claude, it uses the **Claude CLI** path rather than routing through **OpenRouter**
+- when I tell it to use Claude, it uses the Claude CLI path rather than routing through OpenRouter
 - not distinguish between:
   - PKM / Obsidian-style work
   - coding work
   - tool-heavy orchestration work
   - general reasoning / synthesis
 
-## Expected behavior
+## Expected Behavior
 
-Implement a **task-aware model router** so Hermes can choose models based on the work being done.
+Implement a task-aware model router so Hermes can choose models based on the work being done.
 
-### Desired routing behavior
+### Desired Routing Behavior
 
-- **PKM / Obsidian sessions**
+- PKM / Obsidian sessions
   - use a strong general reasoning or knowledge-synthesis model for the thinking step
   - use a cheap model for context gathering and tool execution if needed
-
-- **Coding sessions**
+- Coding sessions
   - use a coding-focused model for the reasoning step
   - use a cheap model for lightweight orchestration / context gathering
-
-- **Tool execution / CLI / file operations**
+- Tool execution / CLI / file operations
   - keep this cheap and deterministic where possible
   - do not waste an expensive reasoning model on mechanical work
-
-- **Fallback**
+- Fallback
   - Owl Alpha should only be used when the preferred model is unavailable, unsupported, or explicitly chosen as fallback
-
-- **Claude requests**
+- Claude requests
   - if the user asks for Claude-like reasoning, that should map to an OpenRouter-backed Claude model unless there is a deliberate reason to use the Claude CLI directly
-  - do not silently bypass OpenRouter just because the word “Claude” appears in the request
+  - do not silently bypass OpenRouter just because the word "Claude" appears in the request
 
-## What to change
+## What to Change
 
 Inspect the repo and find:
 
@@ -3864,9 +3825,10 @@ Search especially for terms like:
 - `obsidian`
 - `coding`
 
-## Implementation goals
+## Implementation Goals
 
-### 1) Add task classification
+### 1) Add Task Classification
+
 Hermes should infer a task type such as:
 
 - `pkm`
@@ -3877,7 +3839,8 @@ Hermes should infer a task type such as:
 
 The classifier can be simple at first, but it must be explicit.
 
-### 2) Add a routing policy
+### 2) Add a Routing Policy
+
 Create a routing table that maps task type to model choice.
 
 Example shape:
@@ -3902,24 +3865,26 @@ routing:
 
 Use whatever config style the repo already uses, but keep the same idea.
 
-### 3) Separate “thinking” from “doing”
+### 3) Separate "Thinking" from "Doing"
+
 If Hermes currently uses one model for everything, split it into at least two stages:
 
-- **planner / thinker**
+- planner / thinker
   - decides what the task is
   - synthesizes context
   - chooses the right model for the job
-
-- **executor / tool runner**
+- executor / tool runner
   - gathers files, runs commands, fetches context
   - stays cheap and deterministic when possible
 
-### 4) Make OpenRouter the primary route
+### 4) Make OpenRouter the Primary Route
+
 If OpenRouter is connected, Hermes should use it for model inference by default.
 
 Do not let the Claude CLI path accidentally become the default just because a Claude model was requested.
 
-### 5) Keep fallback explicit
+### 5) Keep Fallback Explicit
+
 Owl Alpha should be a fallback path, not the default for every task.
 
 Fallback should happen only when:
@@ -3929,7 +3894,8 @@ Fallback should happen only when:
 - the user explicitly configures it
 - an error occurs and you need a safe fallback
 
-### 6) Add logging / visibility
+### 6) Add Logging / Visibility
+
 Add logs or trace output that show:
 
 - detected task type
@@ -3950,17 +3916,17 @@ This is important so I can verify the router is actually working.
 - Prefer minimal, maintainable changes over a large refactor
 - If the repo already has a config format, extend it rather than inventing a new system
 
-## What I want you to deliver
+## What I want You to Deliver
 
 1. Identify the current routing/model-selection code.
 2. Implement task-aware model routing.
 3. Ensure OpenRouter is used for the primary model path.
-4. Ensure Claude requests do not automatically mean “Claude CLI”.
+4. Ensure Claude requests do not automatically mean "Claude CLI".
 5. Keep Owl Alpha as fallback only.
 6. Add tests or verification steps if the repo supports them.
 7. Explain exactly what changed and how to adjust the routing policy later.
 
-## Acceptance criteria
+## Acceptance Criteria
 
 The fix is good if:
 
@@ -4002,15 +3968,16 @@ I want Hermes to behave like a real router:
 - Owl Alpha only as backup
 
 Please inspect the repo and make the smallest clean change that gets us there.
+
 ```
 
-If you want, I can also turn this into a **shorter, more direct prompt for Cursor** or a **more aggressive prompt for an autonomous coding agent**.
+If you want, I can also turn this into a shorter, more direct prompt for Cursor or a more aggressive prompt for an autonomous coding agent.
 
 ---
 
 ## Asset 29 (Pieces: 76939ee0-e204-48b3-8d49-d957a89abb6c)
 
-**Clarifying prompt assumptions**
+Clarifying prompt assumptions
 
 I want to ensure the prompt includes a helpful note. I'll say, "If you can't verify exact paths, make sure to state any assumptions." Since I can't access the current repo content, I should clarify that the "repo root inferred from local dotfiles path" is just context. It's important to mention that I can't inspect the file contents here, so the prompt is based on the user's description and the local repo root path.## Copy-paste prompt
 
@@ -4091,13 +4058,13 @@ Acceptance criteria:
 - The routing behavior is easy to extend later for new task types
 ```
 
-If you want, I can also turn this into a **shorter, more directive version for an LLM coding agent** or a **bug-fix prompt tailored to Claude Code / Cursor**.
+If you want, I can also turn this into a shorter, more directive version for an LLM coding agent or a bug-fix prompt tailored to Claude Code / Cursor.
 
 ---
 
 ## Asset 30 (Pieces: d5e7a243-1910-4ff9-a53c-5ed23e45c4fd)
 
-## Phase 2: repository-ready implementation prompt
+## Phase 2: Repository-ready Implementation Prompt
 
 ```text
 You are working in the chezmoi repo at:
@@ -4199,14 +4166,16 @@ fallback:
 - If it does not, create one so Hermes does not call Claude/Owl Alpha/OpenRouter in ad hoc ways.
 
 Acceptance criteria
+
 - PKM-style tasks and coding tasks can choose different model families.
 - OpenRouter is used where expected instead of always falling back to Owl Alpha.
-- “Use Claude” does not automatically mean “use the Claude CLI”; it should be routed intentionally.
+- "Use Claude" does not automatically mean "use the Claude CLI"; it should be routed intentionally.
 - The code has clear logs showing why a model was selected.
 - Existing behavior still works if routing cannot classify a task.
 - The change fits existing chezmoi conventions and does not break unrelated dotfiles.
 
 Verification checklist
+
 - Confirm the repo files you changed reflect the new routing policy.
 - Verify the task classifier is actually used before model selection.
 - Verify at least one PKM path and one coding path select different models.
@@ -4215,20 +4184,22 @@ Verification checklist
 - If tests do not exist, add a minimal check or document the routing behavior clearly in the repo.
 
 Deliverable
+
 - Make the smallest safe code change that fixes the routing behavior.
 - Keep the config understandable and easy to extend.
 - Preserve existing chezmoi patterns and avoid unnecessary refactors.
+
 ```
 
-If you want, I can also turn this into a **shorter cursor-style prompt** or a **more surgical implementation prompt** for the exact Hermes router file once you paste it.
+If you want, I can also turn this into a shorter cursor-style prompt or a more surgical implementation prompt for the exact Hermes router file once you paste it.
 
 ---
 
 ## Asset 31 (Pieces: e2974297-152f-4cdc-ab26-ef86d8b5048a)
 
-**Considering Phase 2 for prompt**
+Considering Phase 2 for prompt
 
-I think we need to provide Phase 2 of the prompt. The latest feedback suggests continuing without repeating previous responses. So, Phase 2 should be a more refined prompt with additional context. Since we don't have the previous prompt, we can create something based on our current understanding. It looks like we should instruct the LLM to inspect the repo path and implement task-aware model routing in chezmoi, ensuring it aligns with the user’s request to solve their problem.**Creating LLM prompt for chezmoi**
+I think we need to provide Phase 2 of the prompt. The latest feedback suggests continuing without repeating previous responses. So, Phase 2 should be a more refined prompt with additional context. Since we don't have the previous prompt, we can create something based on our current understanding. It looks like we should instruct the LLM to inspect the repo path and implement task-aware model routing in chezmoi, ensuring it aligns with the user’s request to solve their problem.Creating LLM prompt for chezmoi
 
 I need to deliver a prompt for an LLM to fix Hermes routing in the chezmoi repo. It should include essential details like the repo path, the problem, expected behavior, constraints, and acceptance criteria. Verification needs to note that the code path is inferred due to access issues. Since the latest feedback suggests hard grounding isn't necessary, I’ll return just the prompt, organized with headings, and labeled "Phase 2 — Implementation prompt" for clarity. It should be ready for copy-pasting.## Prompt for the code-fix agent
 
@@ -4236,43 +4207,43 @@ You are working inside my chezmoi repo at:
 
 `/Users/leon.ormes/.local/share/chezmoi`
 
-Your task is to fix how **Hermes** selects models so it can route different work to different LLMs instead of always using the same default model.
+Your task is to fix how Hermes selects models so it can route different work to different LLMs instead of always using the same default model.
 
 ### Problem summary
 
 Hermes is currently behaving like it has one global model choice. In practice, I want it to behave like this:
 
-- when the task is **PKM / Obsidian / notes work**, Hermes should use a model better suited for planning, synthesis, and knowledge-work style reasoning
-- when the task is **coding work**, Hermes should use a coding-oriented model
-- when the task is **tooling / CLI / context collection**, Hermes should use a cheaper or faster model for orchestration, then hand off the “thinking” stage to a stronger model
+- when the task is PKM / Obsidian / notes work, Hermes should use a model better suited for planning, synthesis, and knowledge-work style reasoning
+- when the task is coding work, Hermes should use a coding-oriented model
+- when the task is tooling / CLI / context collection, Hermes should use a cheaper or faster model for orchestration, then hand off the “thinking” stage to a stronger model
 - if the user explicitly asks for a model/provider, Hermes should respect that preference, but still route through the OpenRouter-backed model layer rather than bypassing it with a direct CLI path unless that is truly intended
 - `owl alpha` should not be the universal default for every task; it should be a fallback, not the primary brain
 
 ### What I want changed
 
-Please inspect the repo and implement a **task-aware model router** so Hermes can choose models by job type.
+Please inspect the repo and implement a task-aware model router so Hermes can choose models by job type.
 
 I want a design with these behaviors:
 
-1. **Task classification first**
+1. Task classification first
    - Detect the kind of work being done.
    - Examples: `pkm`, `coding`, `research`, `planning`, `tooling`, `summarization`, `general`.
 
-2. **Model selection by task**
+2. Model selection by task
    - Map task type to model/provider choices.
    - Use a stronger model for the reasoning/planning stage.
    - Use a cheaper or faster model for context gathering / CLI orchestration when appropriate.
 
-3. **Separate orchestration from reasoning**
+3. Separate orchestration from reasoning
    - The agent should be able to do a cheap first pass to gather context or execute commands.
    - Then it should hand off the synthesized context to a more capable model for the final reasoning/writing step.
 
-4. **OpenRouter should actually be used**
+4. OpenRouter should actually be used
    - If OpenRouter is configured, use it as the main routing surface for model choice.
    - Do not just invoke a provider-specific CLI path if that bypasses the intended routing layer.
    - If the code currently shells out directly to `claude` or another CLI, verify whether that is intentional; if not, replace it with a routed model call.
 
-5. **Keep sensible fallback behavior**
+5. Keep sensible fallback behavior
    - `owl alpha` can remain as a fallback.
    - But it should not be the only path every time.
    - If routing fails, fail over cleanly.
@@ -4313,15 +4284,15 @@ I suspect the current issue is one of these:
 
 Implement something like this:
 
-- **planner model**: handles task interpretation, context assembly, final synthesis
-- **executor model**: handles tool use, shell commands, file inspection, retrieval
-- **policy/router layer**: decides which model each task stage should use
-- **fallback model**: only used when the preferred route is unavailable
+- planner model: handles task interpretation, context assembly, final synthesis
+- executor model: handles tool use, shell commands, file inspection, retrieval
+- policy/router layer: decides which model each task stage should use
+- fallback model: only used when the preferred route is unavailable
 
 A good route should be based on both:
 
-- the current **task type**
-- the current **workspace/session context**
+- the current task type
+- the current workspace/session context
 
 Examples:
 
@@ -4369,7 +4340,7 @@ If you need to make a judgment call on the exact model names, choose sensible de
 
 ## Asset 32 (Pieces: 171ed628-6928-4357-9d44-3598c76cab8d)
 
-**Formatting the repo path prompt**
+Formatting the repo path prompt
 
 I should definitely mention the exact root path of the repo that I've found. Since I can't verify the code, I'll highlight that file paths and snippets may need to be discovered. I could include a note about potential different repo structures, suggesting they find the actual routing files if needed. The prompt should be ready for the user to copy and paste. I think using a fenced code block in markdown is the best option here!Use this as the prompt to another LLM:
 
@@ -4394,7 +4365,7 @@ Examples:
 
 - In an Obsidian PKM session, Hermes should gather notes/context cheaply, then use a model better suited for PKM-style reasoning and synthesis.
 - In a coding session, Hermes should use a coding-oriented model for deeper reasoning and code changes.
-- If I explicitly ask for Claude, I do **not** want Hermes to just invoke the Claude CLI path if that bypasses OpenRouter or model routing logic.
+- If I explicitly ask for Claude, I do not want Hermes to just invoke the Claude CLI path if that bypasses OpenRouter or model routing logic.
 - Hermes should not just use Owl Alpha for everything.
 
 ## Desired behavior
@@ -4411,9 +4382,9 @@ Please implement or repair task-aware model routing so Hermes can:
 
 I want a split like this:
 
-- **planner / reasoner**: decides what to do and synthesizes context
-- **tool executor**: runs shell, filesystem, browser, or other CLI actions
-- **router**: selects the right model/provider for the task
+- planner / reasoner: decides what to do and synthesizes context
+- tool executor: runs shell, filesystem, browser, or other CLI actions
+- router: selects the right model/provider for the task
 
 Please look for the existing model-selection logic in the repo and change it so the model is not globally fixed to Owl Alpha.
 
@@ -4453,11 +4424,11 @@ Please implement the smallest robust change that gets me:
 
 A good first-pass policy would be something like:
 
-- **PKM / notes / synthesis** → a strong general reasoning model
-- **coding** → a coding-specialized model
-- **tool execution / simple retrieval** → cheaper model or deterministic tools
-- **general assistant work** → balanced model
-- **fallback** → Owl Alpha only if needed
+- PKM / notes / synthesis → a strong general reasoning model
+- coding → a coding-specialized model
+- tool execution / simple retrieval → cheaper model or deterministic tools
+- general assistant work → balanced model
+- fallback → Owl Alpha only if needed
 
 You can improve the exact mapping if the codebase suggests a better design.
 
@@ -4492,45 +4463,45 @@ Please include:
 If you need to infer anything because the repo does not explicitly document it, say so clearly and keep the fix conservative.
 ```
 
-If you want, I can also turn this into a **shorter, more opinionated prompt** for a coding agent, or a **more detailed prompt** with a step-by-step implementation plan.
+If you want, I can also turn this into a shorter, more opinionated prompt for a coding agent, or a more detailed prompt with a step-by-step implementation plan.
 
 ---
 
 ## Asset 33 (Pieces: 6ade3216-d78a-424f-81a7-bd2b726e4d57)
 
-## Copy-paste prompt for the fixer LLM
+## Copy-paste Prompt for the Fixer LLM
 
 You are working inside this repo:
 
 `/Users/leon.ormes/.local/share/chezmoi`
 
-Your job is to inspect the Hermes setup in this chezmoi-managed config repo and fix its model routing so it can use different models for different kinds of work instead of always falling back to **Owl Alpha**.
+Your job is to inspect the Hermes setup in this chezmoi-managed config repo and fix its model routing so it can use different models for different kinds of work instead of always falling back to Owl Alpha.
 
-### Problem to solve
+### Problem to Solve
 
 Hermes currently appears to behave as if it has one default model path for everything. The intended behavior is more sophisticated:
 
-- For **PKM / Obsidian-style note work**, Hermes should use a model suited for context synthesis and knowledge-work reasoning.
-- For **coding tasks**, Hermes should use a coding-capable model.
-- For **tool-heavy / CLI / context collection** work, Hermes should use a cheaper or faster model where appropriate.
-- For **higher-order “thinking”**, Hermes should route to a stronger model, ideally via **OpenRouter**.
-- When the user explicitly says “use Claude,” Hermes should not merely call the Claude CLI wrapper if that bypasses the intended OpenRouter routing layer. The model selection should still be governed by Hermes’ own task-aware routing policy.
-- **Owl Alpha should be a fallback, not the universal default.**
+- For PKM / Obsidian-style note work, Hermes should use a model suited for context synthesis and knowledge-work reasoning.
+- For coding tasks, Hermes should use a coding-capable model.
+- For tool-heavy / CLI / context collection work, Hermes should use a cheaper or faster model where appropriate.
+- For higher-order "thinking", Hermes should route to a stronger model, ideally via OpenRouter.
+- When the user explicitly says "use Claude," Hermes should not merely call the Claude CLI wrapper if that bypasses the intended OpenRouter routing layer. The model selection should still be governed by Hermes' own task-aware routing policy.
+- Owl Alpha should be a fallback, not the universal default.
 
-### Expected behavior
+### Expected Behavior
 
 Implement or repair a routing layer that:
 
 1. Detects the task type from the request and/or session context.
 2. Chooses a model based on task type and environment.
 3. Separates:
-   - **context gathering / tool execution**
-   - **planning / synthesis / reasoning**
+   - context gathering / tool execution
+   - planning / synthesis / reasoning
 4. Uses OpenRouter where appropriate.
 5. Falls back cleanly when the preferred model is unavailable.
 6. Logs the routing decision so it is debuggable.
 
-### What to look for
+### What to Look for
 
 Search the repo for configuration, scripts, docs, or shell wrappers related to:
 
@@ -4551,27 +4522,27 @@ Also inspect any chezmoi templates, shell scripts, or dotfiles that define how H
 
 If the exact routing logic is not obvious, infer the flow from the existing configuration and make the smallest safe change that introduces task-aware routing.
 
-### Desired design
+### Desired Design
 
 A good implementation would look like this:
 
-- A **task classifier** that labels the request as something like:
+- A task classifier that labels the request as something like:
   - `pkm`
   - `coding`
   - `research`
   - `tooling`
   - `general`
-- A **routing table** that maps task type to model choice.
-- A **planner/executor split**:
+- A routing table that maps task type to model choice.
+- A planner/executor split:
   - planner: stronger model for deciding what to do
   - executor: cheaper or deterministic tool runner for collecting context and running CLI actions
-- A **fallback chain**:
+- A fallback chain:
   - preferred specialized model
   - alternate specialized model
   - generic fallback
   - Owl Alpha only as last resort
 
-### Implementation guidance
+### Implementation Guidance
 
 When editing the repo:
 
@@ -4583,13 +4554,13 @@ When editing the repo:
 - If Hermes currently shells out directly to a provider-specific CLI path, consider whether that bypasses the intended OpenRouter path.
 - Add comments only where the routing behavior is non-obvious.
 
-### Acceptance criteria
+### Acceptance Criteria
 
 Your fix is complete only if:
 
 - Hermes no longer always uses Owl Alpha by default.
 - Different task types can select different models.
-- OpenRouter can be used for the “thinking” / synthesis stage.
+- OpenRouter can be used for the "thinking" / synthesis stage.
 - PKM and coding workloads can route differently.
 - The routing behavior is configurable and understandable.
 - There is a clear fallback when the preferred model is unavailable.
@@ -4604,7 +4575,7 @@ After making changes, verify with whatever is available in the repo:
 - confirm the routing logic is actually reachable from the Hermes entrypoint
 - confirm the default path is no longer a single fixed model for all tasks
 
-If you can’t find a dedicated test suite, at minimum validate the config and trace the call path from the Hermes launch entrypoint to model selection.
+If you can't find a dedicated test suite, at minimum validate the config and trace the call path from the Hermes launch entrypoint to model selection.
 
 ### Deliverable
 
@@ -4615,13 +4586,13 @@ Return:
 3. Any remaining caveats or follow-ups.
 4. If relevant, the new routing policy in a small table or bullet list.
 
-If you need to make a judgment call, prefer the design that makes Hermes **task-aware, model-aware, and debuggable** instead of a single universal default.
+If you need to make a judgment call, prefer the design that makes Hermes task-aware, model-aware, and debuggable instead of a single universal default.
 
 ---
 
 ## Asset 34 (Pieces: 9dbe25e0-9901-466a-9ea8-4009eda7449b)
 
-## Copy-paste prompt for the coding agent
+## Copy-paste Prompt for the Coding Agent
 
 You are working in my chezmoi-managed repo at:
 
@@ -4629,9 +4600,9 @@ You are working in my chezmoi-managed repo at:
 
 I want you to fix Hermes so it can use different models for different kinds of work instead of always falling back to the same one.
 
-### Problem statement
+### Problem Statement
 
-Right now Hermes appears to use **Owl Alpha** for everything. I also tried telling it to use Claude, but it routed through the **Claude CLI** rather than OpenRouter. That means model selection is either hardcoded, too global, or happening at the wrong layer.
+Right now Hermes appears to use Owl Alpha for everything. I also tried telling it to use Claude, but it routed through the Claude CLI rather than OpenRouter. That means model selection is either hardcoded, too global, or happening at the wrong layer.
 
 What I want instead is:
 
@@ -4642,7 +4613,7 @@ What I want instead is:
 - OpenRouter should be the main path for model choice when appropriate
 - Owl Alpha should be fallback, not the universal default
 
-### What to inspect
+### What to Inspect
 
 Find where Hermes currently chooses:
 
@@ -4654,17 +4625,17 @@ Find where Hermes currently chooses:
 
 Look for config, scripts, prompts, router logic, or shell wrappers that decide which model gets used.
 
-### Desired behavior
+### Desired Behavior
 
 Implement task-aware model routing so Hermes can choose based on context like:
 
-- **PKM / Obsidian work** → model optimized for note synthesis, context organization, and memory-style reasoning
-- **Coding work** → coding-capable model
-- **Tool execution / CLI-heavy work** → cheap model or deterministic tool path
-- **General planning / thinking** → stronger reasoning model
-- **Fallback** → Owl Alpha only when the preferred model is unavailable or intentionally configured
+- PKM / Obsidian work → model optimized for note synthesis, context organization, and memory-style reasoning
+- Coding work → coding-capable model
+- Tool execution / CLI-heavy work → cheap model or deterministic tool path
+- General planning / thinking → stronger reasoning model
+- Fallback → Owl Alpha only when the preferred model is unavailable or intentionally configured
 
-### Routing rules I want
+### Routing Rules I want
 
 At minimum, create a clear policy that can distinguish between these work types:
 
@@ -4690,9 +4661,9 @@ routing:
 
 If the repo already has a config format, keep that format and adapt the idea to it.
 
-### Important constraints
+### Important Constraints
 
-- Preserve the repo’s existing conventions and structure.
+- Preserve the repo's existing conventions and structure.
 - Prefer small, targeted changes over broad refactors.
 - Do not break current Hermes workflows.
 - Do not remove existing provider support unless necessary.
@@ -4700,15 +4671,15 @@ If the repo already has a config format, keep that format and adapt the idea to 
 - If Claude is selected, make sure that means a real model-routing decision, not just shelling out to Claude CLI by default.
 - If OpenRouter is available, Hermes should use it directly for model selection where intended.
 
-### Implementation goals
+### Implementation Goals
 
 1. Add or improve task classification.
 2. Add a routing layer that chooses models by task type.
-3. Separate “context gathering / tool use” from “thinking / synthesis” if the architecture supports it.
+3. Separate "context gathering / tool use" from "thinking / synthesis" if the architecture supports it.
 4. Make model selection observable with logs or debug output.
 5. Ensure there is a clean fallback chain.
 
-### Acceptance criteria
+### Acceptance Criteria
 
 I should be able to see, in code:
 
@@ -4721,29 +4692,29 @@ And behaviorally:
 
 - Obsidian/PKM tasks do not always go to Owl Alpha
 - coding tasks can choose a coding model
-- “use Claude” does not silently bypass the intended routing policy
+- "use Claude" does not silently bypass the intended routing policy
 - fallback still works if the chosen provider fails
 
-### What to change
+### What to Change
 
 Make the smallest practical code change that gets Hermes from:
 
-- “one global model for everything”
+- "one global model for everything"
 
 to:
 
-- “task-aware routing with model selection by work type”
+- "task-aware routing with model selection by work type"
 
 ### Verification
 
 After making the change:
 
-- run the repo’s relevant tests or checks
+- run the repo's relevant tests or checks
 - add a minimal test if there is no existing coverage for routing
 - verify the default path, PKM path, coding path, and fallback path
 - confirm the model choice is logged or otherwise visible
 
-### Output I want from you
+### Output I want from You
 
 Please:
 
@@ -4759,34 +4730,34 @@ If you need to make an assumption because the repo structure is not obvious, kee
 
 ## Asset 35 (Pieces: 12cfe50d-0036-4b2f-844d-942aa6da14c4)
 
-## Copy-paste prompt
+## Copy-paste Prompt
 
 You are working in my chezmoi-managed dotfiles repo at:
 
 `/Users/leon.ormes/.local/share/chezmoi`
 
-I want you to fix how **Hermes** selects models.
+I want you to fix how Hermes selects models.
 
 ### Problem
 
-Hermes is currently acting like it has one default model for everything. Even after I added OpenRouter credits, it still seems to use **Owl Alpha** for all work. When I asked it to use Claude, it used the **Claude CLI** path instead of routing through OpenRouter. That means it is not doing task-aware model selection.
+Hermes is currently acting like it has one default model for everything. Even after I added OpenRouter credits, it still seems to use Owl Alpha for all work. When I asked it to use Claude, it used the Claude CLI path instead of routing through OpenRouter. That means it is not doing task-aware model selection.
 
-### Desired behavior
+### Desired Behavior
 
 Hermes should be smarter and use different models depending on the kind of work:
 
-- **PKM / Obsidian / notes work**
+- PKM / Obsidian / notes work
   - use a model better suited for summarization, context synthesis, and note-oriented reasoning
-- **coding work**
+- coding work
   - use a coding-optimized model for deeper implementation and debugging
-- **tool / CLI / context gathering**
+- tool / CLI / context gathering
   - use a cheaper model or lightweight planner to collect context and orchestrate tools
-- **thinking / synthesis**
+- thinking / synthesis
   - use a stronger model for the actual reasoning step
-- **fallback behavior**
+- fallback behavior
   - Owl Alpha should be a fallback, not the universal default
 
-### What I want you to do
+### What I want You to Do
 
 Inspect the repo and identify where Hermes is choosing models or providers. Then update the code/config so model selection is based on task type or workspace context rather than one fixed default.
 
@@ -4798,26 +4769,26 @@ I expect you to look for:
 - any path that invokes the Claude CLI directly instead of OpenRouter
 - config files, scripts, or templates that control Hermes behavior
 
-### Implementation goals
+### Implementation Goals
 
 Please make Hermes:
 
-1. **classify the task**
+1. classify the task
    - detect whether the request is PKM, coding, general research, or tool execution
 
-2. **route to the right model**
+2. route to the right model
    - use a routing table or policy layer instead of a single default model
 
-3. **separate planning from execution**
+3. separate planning from execution
    - cheap model for context gathering / orchestration
    - stronger model for reasoning / synthesis
    - specialized coding model for coding tasks
 
-4. **prefer OpenRouter when appropriate**
+4. prefer OpenRouter when appropriate
    - if I have OpenRouter credits, use them
    - do not silently keep falling back to Owl Alpha unless that is the explicit fallback policy
 
-5. **avoid direct Claude CLI bypasses**
+5. avoid direct Claude CLI bypasses
    - if Claude is chosen, it should be part of the routing policy, not just a hardcoded CLI shortcut that skips OpenRouter
 
 ### Constraints
@@ -4829,7 +4800,7 @@ Please make Hermes:
 - If exact model names need to be configured, expose them in a single obvious config location.
 - Keep the fallback chain explicit and understandable.
 
-### What I want from you in the repo
+### What I want from You in the Repo
 
 Please do the following:
 
@@ -4840,7 +4811,7 @@ Please do the following:
 5. Summarize how the new routing works.
 6. If appropriate, include a simple verification plan or test command.
 
-### Acceptance criteria
+### Acceptance Criteria
 
 The fix is good if:
 
@@ -4851,7 +4822,7 @@ The fix is good if:
 - Claude does not bypass OpenRouter unless that is intentionally configured
 - the routing logic is easy to adjust later
 
-### Output format
+### Output Format
 
 When you respond, please include:
 
@@ -4866,25 +4837,25 @@ If you need to infer the right integration point from the repo, do that and expl
 
 ## Asset 36 (Pieces: 06f19431-a929-4f58-9d8a-adc7ce4d7e1e)
 
-**Creating a final deliverable prompt**
+Creating a final deliverable prompt
 
-I need to focus on delivering a final prompt. I notice there’s a lack of grounded code content; the search results only provide the repo root path, which feels like a broad miss. The user indicated no further work is necessary, so I will present the prompt as is. 
+I need to focus on delivering a final prompt. I notice there's a lack of grounded code content; the search results only provide the repo root path, which feels like a broad miss. The user indicated no further work is necessary, so I will present the prompt as is.
 
-I should include the repo root at `/Users/leon.ormes/.local/share/chezmoi`, outline the problem framing, desired behavior, constraints, and verification points. I want to ensure it’s a polished prompt that addresses the user's needs.**Drafting a clear LLM prompt**
+I should include the repo root at `/Users/leon.ormes/.local/share/chezmoi`, outline the problem framing, desired behavior, constraints, and verification points. I want to ensure it's a polished prompt that addresses the user's needs.Drafting a clear LLM prompt
 
-I need to create a markdown prompt, but no H1. It makes sense to use a code block since the user requested an LLM prompt. The deliverable is the prompt itself, and I might mention that I couldn't verify the internals; this prompt relies on the user’s description. The last feedback indicated no further work is needed, so I'll focus on crafting a strong prompt that instructs an LLM to fix the Hermes in the chezmoi repo. I’ll include the repo root path, observed behavior, desired routing, constraints, acceptance criteria, and an ask to inspect the repo and implement fixes.**Crafting a detailed LLM prompt**
+I need to create a markdown prompt, but no H1. It makes sense to use a code block since the user requested an LLM prompt. The deliverable is the prompt itself, and I might mention that I couldn't verify the internals; this prompt relies on the user's description. The last feedback indicated no further work is needed, so I'll focus on crafting a strong prompt that instructs an LLM to fix the Hermes in the chezmoi repo. I'll include the repo root path, observed behavior, desired routing, constraints, acceptance criteria, and an ask to inspect the repo and implement fixes.Crafting a detailed LLM prompt
 
-The user mentioned that it's not needed, but I might want to include "repo root appears to be..." to provide grounding. I could mention that searches for Hermes, OpenRouter, Owl Alpha, and Claude returned no hits, although it might not be necessary. I can state, "Known location: `/.local/share/chezmoi`." Since this is a prompt, I’ll consider using the second person to give direct instructions suitable for another LLM. It’s important to be detailed, so I plan to include headings to structure the information clearly.## Copy-paste prompt for a coding LLM
+The user mentioned that it's not needed, but I might want to include "repo root appears to be…" to provide grounding. I could mention that searches for Hermes, OpenRouter, Owl Alpha, and Claude returned no hits, although it might not be necessary. I can state, "Known location: `/.local/share/chezmoi`." Since this is a prompt, I'll consider using the second person to give direct instructions suitable for another LLM. It's important to be detailed, so I plan to include headings to structure the information clearly.## Copy-paste prompt for a coding LLM
 
 You are working inside my chezmoi-managed dotfiles repo.
 
-### Repo root
+### Repo Root
 
 `/Users/leon.ormes/.local/share/chezmoi`
 
 ### Goal
 
-Fix Hermes so it can route **different model families for different kinds of work** instead of always using the same model.
+Fix Hermes so it can route different model families for different kinds of work instead of always using the same model.
 
 Right now, Hermes appears to:
 
@@ -4895,12 +4866,12 @@ Right now, Hermes appears to:
 
 I want Hermes to behave more intelligently:
 
-- **PKM / Obsidian / note synthesis** should use a model better suited to context-heavy knowledge work
-- **coding tasks** should use a coding-oriented model
-- **cheap context gathering / tool orchestration** should use a lower-cost model when appropriate
+- PKM / Obsidian / note synthesis should use a model better suited to context-heavy knowledge work
+- coding tasks should use a coding-oriented model
+- cheap context gathering / tool orchestration should use a lower-cost model when appropriate
 - the system should not rely on a single global default model for every session
 
-### What to inspect
+### What to Inspect
 
 Look through the repo for:
 
@@ -4920,28 +4891,28 @@ Look through the repo for:
 
 If the repo already has a session/config abstraction, use it. If not, introduce a small, maintainable routing layer.
 
-### Desired behavior
+### Desired Behavior
 
-Implement a **task-aware model router** with something like this flow:
+Implement a task-aware model router with something like this flow:
 
-1. **Classify the task**
+1. Classify the task
    - examples: `pkm`, `coding`, `research`, `tooling`, `planning`, `general`
 
-2. **Choose a model based on task type**
+2. Choose a model based on task type
    - PKM / Obsidian work → general reasoning/context model
    - coding work → coding-specialized model
    - tool orchestration / CLI glue → cheaper model if sufficient
    - fallback → only when the preferred provider is unavailable
 
-3. **Separate planning from execution**
+3. Separate planning from execution
    - cheap model or deterministic tools for gathering context
    - stronger model for synthesis / reasoning
    - do not use one model for every stage unless that is the explicit policy for that task
 
-4. **Make provider selection explicit**
+4. Make provider selection explicit
    - if Hermes supports OpenRouter, route through it intentionally
    - do not silently fall back to `owl alpha` as the universal answer
-   - if “use Claude” is requested, make sure that means the intended model path, not just a direct Claude CLI call unless that is explicitly desired
+   - if "use Claude" is requested, make sure that means the intended model path, not just a direct Claude CLI call unless that is explicitly desired
 
 ### Constraints
 
@@ -4953,7 +4924,7 @@ Implement a **task-aware model router** with something like this flow:
 - Avoid breaking current CLI flows
 - Preserve existing chezmoi conventions and file layout
 
-### Acceptance criteria
+### Acceptance Criteria
 
 The fix is good when:
 
@@ -4961,10 +4932,10 @@ The fix is good when:
 - PKM sessions and coding sessions can resolve to different model choices
 - the routing decision is explicit and observable
 - the system no longer always collapses to `owl alpha`
-- “use Claude” does not just mean “call the Claude CLI” unless that is the intended integration path
+- "use Claude" does not just mean "call the Claude CLI" unless that is the intended integration path
 - the implementation is understandable enough that I can later adjust task → model mappings in config
 
-### Suggested implementation shape
+### Suggested Implementation Shape
 
 A good solution would likely include:
 
@@ -4996,7 +4967,7 @@ Your output should be a concise implementation plan first, then the code changes
 
 ## Asset 37 (Pieces: 3ca2abbd-0388-4a84-9763-c5752d0877dd)
 
-**Formulating a prompt for LLM fix**
+Formulating a prompt for LLM fix
 
 I can create a structured prompt using sections like Context, What to Investigate, Desired Behavior, Constraints, Acceptance Criteria, and Deliverable. It's important to include the repository path and a caveat about verifying the code path against the repo if it differs, as the user's report indicated specific behavior. I want to make sure I'm not repeating content from previous responses and that I avoid using bare URLs in the output. Let's work on polishing this!Use this prompt:
 
@@ -5122,7 +5093,7 @@ Return:
 If you cannot fully verify a path, say so explicitly and explain what you were able to confirm from the repo.
 ```
 
-If you want, I can also turn this into a **more direct implementation prompt** for Cursor or Claude Code, with a stronger “edit the repo now” tone.
+If you want, I can also turn this into a more direct implementation prompt for Cursor or Claude Code, with a stronger "edit the repo now" tone.
 
 ---
 
@@ -5142,9 +5113,9 @@ You are working inside my chezmoi-managed dotfiles repo.
 Fix Hermes so it chooses models intelligently by task instead of using one default model everywhere.
 
 Right now Hermes appears to:
-- use **Owl Alpha** for almost everything
+- use Owl Alpha for almost everything
 - ignore task type differences
-- sometimes honor “use Claude” by calling the **Claude CLI**, not by routing through **OpenRouter**
+- sometimes honor “use Claude” by calling the Claude CLI, not by routing through OpenRouter
 - fail to use a cheaper model for context/tool gathering and a stronger model for higher-level reasoning
 - fail to switch behavior based on session context, such as:
   - Obsidian / PKM work
@@ -5152,24 +5123,24 @@ Right now Hermes appears to:
   - CLI/tool orchestration
   - synthesis / planning
 
-I want Hermes to become a **task-aware model router**.
+I want Hermes to become a task-aware model router.
 
 ## Desired behavior
 
 Implement or repair a routing layer so Hermes can do this:
 
 ### Example behavior
-- For **Obsidian PKM** sessions:
+- For Obsidian PKM sessions:
   - use a cheaper/free model for gathering context, notes, or tool outputs
   - use a more capable reasoning model for synthesis / analysis / planning
-- For **coding** sessions:
+- For coding sessions:
   - use a coding-capable model for deeper reasoning
   - use a cheaper model for retrieval / mechanical tool work
-- For **tool execution / CLI orchestration**:
+- For tool execution / CLI orchestration:
   - use the cheapest appropriate model or deterministic logic
-- For **high-level reasoning / synthesis**:
+- For high-level reasoning / synthesis:
   - use a stronger model
-- For **fallbacks**:
+- For fallbacks:
   - Owl Alpha should be a fallback, not the universal default
 
 ## What I want you to inspect
@@ -5266,20 +5237,22 @@ I have already observed the following behavior in Hermes:
 If the exact code path differs from my expectation, inspect the repo and adapt the fix to the actual implementation rather than assuming a particular file name.
 ```
 
-If you want, I can also turn this into a tighter **Cursor-style prompt** or a **Claude Code prompt** tailored to the exact assistant you’ll paste it into.
+If you want, I can also turn this into a tighter Cursor-style prompt or a Claude Code prompt tailored to the exact assistant you'll paste it into.
 
 ---
 
 ## Asset 39 (Pieces: 09946cac-d38a-4d7c-857c-9bae0a1ed0a5)
 
-**Structuring the prompt**
+Structuring the prompt
 
-I'm considering that the user is asking for a prompt to be used with another LLM within a repository. I should specify, "Assume the repo is the chezmoi-managed dotfiles tree at...". I think I need to set a goal regarding modifying the config/scripts so that Hermes can route the appropriate models.
+I'm considering that the user is asking for a prompt to be used with another LLM within a repository. I should specify, "Assume the repo is the chezmoi-managed dotfiles tree at…". I think I need to set a goal regarding modifying the config/scripts so that Hermes can route the appropriate models.
 
 If it turns out to be solely dotfiles, I'll direct it to locate Hermes config files in the home dotfiles. Presenting everything in a labeled markdown code block could be useful, along with a brief preface like, "Use this prompt:".```markdown
+
 You are working inside my chezmoi-managed dotfiles repo.
 
 Repo root:
+
 `/Users/leon.ormes/.local/share/chezmoi`
 
 ## Goal
@@ -5288,17 +5261,17 @@ Fix my Hermes setup so it can route to different LLMs based on task type instead
 
 Right now Hermes appears to:
 
-- default to **Owl Alpha** for most work
-- use the **Claude CLI** when I explicitly ask for Claude, instead of routing through OpenRouter
+- default to Owl Alpha for most work
+- use the Claude CLI when I explicitly ask for Claude, instead of routing through OpenRouter
 - fail to distinguish between different work modes like:
   - PKM / Obsidian note work
   - coding work
   - general reasoning / orchestration
   - CLI / tool execution
 
-I want Hermes to become **task-aware** and **model-aware**.
+I want Hermes to become task-aware and model-aware.
 
-## Desired behavior
+## Desired Behavior
 
 Implement or adjust the config/scripts so Hermes uses:
 
@@ -5316,7 +5289,7 @@ Implement or adjust the config/scripts so Hermes uses:
 - OpenRouter as the main route for model selection where possible
 - Owl Alpha only as a fallback, not the universal default
 
-## What I expect Hermes to do
+## What I Expect Hermes to Do
 
 When I give Hermes a task, it should:
 
@@ -5331,7 +5304,7 @@ When I give Hermes a task, it should:
 4. keep tool execution separate from deeper reasoning
 5. log or expose which model it chose and why
 
-## Problems to solve
+## Problems to Solve
 
 Please inspect the repo and find where Hermes model/provider selection is defined.
 
@@ -5339,12 +5312,12 @@ I suspect one or more of these problems exist:
 
 - a single global default model is hardcoded everywhere
 - Owl Alpha is the fallback but effectively acts like the primary model
-- “use Claude” maps to a Claude CLI wrapper instead of OpenRouter
+- "use Claude" maps to a Claude CLI wrapper instead of OpenRouter
 - there is no task classifier or routing policy
 - planner/executor are not separated
-- session context like “Obsidian PKM” vs “coding repo” is ignored
+- session context like "Obsidian PKM" vs "coding repo" is ignored
 
-## What to change
+## What to Change
 
 Please make the smallest sensible change that enables:
 
@@ -5367,10 +5340,10 @@ If the repo currently lacks a routing layer, add one in the most idiomatic way f
 - Prefer minimal, readable changes over large refactors.
 - Do not hardcode one model for all tasks.
 - Do not silently keep routing everything to Owl Alpha.
-- If Claude is requested, route to the intended model/provider path, not just the CLI wrapper, unless the repo’s architecture truly requires that.
+- If Claude is requested, route to the intended model/provider path, not just the CLI wrapper, unless the repo's architecture truly requires that.
 - Keep the design simple enough that I can maintain it later.
 
-## What to look for in the repo
+## What to Look for in the Repo
 
 Search for any config, script, or template referencing:
 
@@ -5389,7 +5362,7 @@ Search for any config, script, or template referencing:
 
 Also inspect likely chezmoi-managed locations for shell scripts, app configs, and template files.
 
-## Implementation expectations
+## Implementation Expectations
 
 I want a router that can choose models by capability, not just by brand name.
 
@@ -5409,7 +5382,7 @@ Examples of task-aware policy:
 - `general` → balanced model
 - fallback → Owl Alpha only if needed
 
-## Acceptance criteria
+## Acceptance Criteria
 
 After the change:
 
@@ -5431,6 +5404,7 @@ Please do the repo inspection, make the necessary change(s), and then summarize:
 5. any follow-up I should know about
 
 If you find multiple viable ways to implement this, choose the simplest one that fits the existing repo style.
+
 ```
 
 ---
@@ -5549,17 +5523,17 @@ Please implement the fix, and if needed, update the relevant config/docs so the 
 If the repo structure suggests a better architecture than the one above, prefer the repo’s conventions as long as the end result is task-aware routing instead of a single hardcoded model.
 ```
 
-If you want, I can also turn this into a more opinionated **Claude Code / Cursor-style system prompt** or a **repo issue / PR description** version.
+If you want, I can also turn this into a more opinionated Claude Code / Cursor-style system prompt or a repo issue / PR description version.
 
 ---
 
 ## Asset 41 (Pieces: 8a0eee56-ade7-4413-9c41-640db4ac3a58)
 
-**Creating a Markdown Prompt**
+Creating a Markdown Prompt
 
-I've got to create a prompt for the user that details the context of fixing something in their chezmoi repository. The user mentioned they don't need further work, so I shouldn't worry about tool failures or previous responses. I need to include the root path of their repo: /Users/leon.ormes/.local/share/chezmoi, along with the observed behavior reported by the user. The aim is to craft a copy-paste-ready prompt for them.**Crafting a High-Context Prompt**
+I've got to create a prompt for the user that details the context of fixing something in their chezmoi repository. The user mentioned they don't need further work, so I shouldn't worry about tool failures or previous responses. I need to include the root path of their repo: /Users/leon.ormes/.local/share/chezmoi, along with the observed behavior reported by the user. The aim is to craft a copy-paste-ready prompt for them.Crafting a High-Context Prompt
 
-I should include instructions for the user to inspect their repository and make changes as needed. I can create a high-context prompt that references the repository root, though I must clarify that I couldn't verify the files due to limited filesystem access. The user prefers no further investigation, so it's important to keep it simple. I'll format it in markdown with sections, starting with an H2 title. I’ll also ensure it’s copy-paste ready, focusing on the desired outcomes and acceptance criteria.**Drafting a Prompt for the User**
+I should include instructions for the user to inspect their repository and make changes as needed. I can create a high-context prompt that references the repository root, though I must clarify that I couldn't verify the files due to limited filesystem access. The user prefers no further investigation, so it's important to keep it simple. I'll format it in markdown with sections, starting with an H2 title. I'll also ensure it's copy-paste ready, focusing on the desired outcomes and acceptance criteria.Drafting a Prompt for the User
 
 This time, I can mention "Hermes" and "Owl Alpha" since the user brought them up. I'll be careful not to fabricate any specifics about the code. I should clarify that the exact code path hasn't been verified but is inferred from repo inspection. I'll create a prompt for the user to paste into a coding agent, stating that they are working in the chezmoi repo and describing the issue with Hermes always using Owl Alpha without task routing.## Prompt to fix Hermes model routing in my chezmoi repo
 
@@ -5572,17 +5546,17 @@ You are working in my chezmoi repository at:
 Hermes is not switching models by task type. I added OpenRouter credits expecting Hermes to:
 
 - use a cheap/free model to collect context and run CLI/tooling
-- use a stronger model for “thinking” and synthesis
+- use a stronger model for "thinking" and synthesis
 - choose different models depending on the session context, such as:
   - PKM / Obsidian note work
   - coding work
   - general research or planning
 
-Instead, Hermes is behaving like it has one global default. In practice it keeps using **Owl Alpha**, and even when I told it to use Claude it invoked the **Claude CLI path** rather than using OpenRouter.
+Instead, Hermes is behaving like it has one global default. In practice it keeps using Owl Alpha, and even when I told it to use Claude it invoked the Claude CLI path rather than using OpenRouter.
 
-I want Hermes to become **task-aware** and **model-aware**, not hardcoded to one fallback.
+I want Hermes to become task-aware and model-aware, not hardcoded to one fallback.
 
-### Important constraints
+### Important Constraints
 
 - Preserve existing repo conventions and chezmoi patterns.
 - Do not break current CLI/tool execution flow.
@@ -5591,15 +5565,15 @@ I want Hermes to become **task-aware** and **model-aware**, not hardcoded to one
 - If the code path is not obvious, inspect the repo and locate the actual model selection / routing logic before changing anything.
 - Treat this as a routing problem, not just a prompt-writing problem.
 
-### What I want Hermes to do
+### What I want Hermes to Do
 
 Hermes should have at least two stages:
 
-1. **Context collection / tool execution**
+1. Context collection / tool execution
    - cheap, fast, low-cost model if needed
    - suitable for gathering notes, reading files, planning tool use, summarizing context
 
-2. **Thinking / synthesis**
+2. Thinking / synthesis
    - stronger model chosen based on task type
    - for example:
      - PKM / notes / synthesis → stronger general reasoning model
@@ -5608,22 +5582,22 @@ Hermes should have at least two stages:
 
 This should be chosen automatically from the task/session context.
 
-### Desired behavior
+### Desired Behavior
 
 When I use Hermes in different contexts, it should route differently:
 
-- **Obsidian / PKM session**
+- Obsidian / PKM session
   - Hermes should prepare context and then use a model better suited for PKM-style synthesis.
-- **Coding session**
+- Coding session
   - Hermes should use a coding-capable model for deeper reasoning.
-- **Tool-heavy / CLI-heavy task**
+- Tool-heavy / CLI-heavy task
   - Hermes should use a cheaper model for orchestration where that is sufficient.
-- **Explicit model request**
+- Explicit model request
   - If I request a model or provider explicitly, Hermes should respect that request, but it should still route through the proper abstraction if possible.
-- **Fallback**
+- Fallback
   - Owl Alpha should be a fallback, not the universal default.
 
-### What to inspect in the repo
+### What to Inspect in the Repo
 
 Find the actual implementation for:
 
@@ -5631,26 +5605,26 @@ Find the actual implementation for:
 - provider routing
 - default model config
 - fallback logic
-- any “Claude” or “OpenRouter” integration
+- any "Claude" or "OpenRouter" integration
 - any task classification or session metadata handling
 
 If there is already a config file, prompt template, router module, or environment-based selection, update that instead of inventing a new mechanism.
 
-### Problems to fix
+### Problems to Fix
 
 Likely issues include one or more of these:
 
 - a single global model setting used everywhere
 - provider selection is hardcoded
-- “use Claude” is mapped to the Claude CLI instead of OpenRouter
+- "use Claude" is mapped to the Claude CLI instead of OpenRouter
 - no task classifier exists
 - planner and executor are not separated
 - fallback to Owl Alpha happens too early
 - OpenRouter is configured but never actually used in the path that Hermes takes
 
-### Implementation goal
+### Implementation Goal
 
-Make Hermes choose models based on **task type** and **context**, with a routing policy such as:
+Make Hermes choose models based on task type and context, with a routing policy such as:
 
 - PKM / notes → one model family
 - coding → coding model family
@@ -5658,17 +5632,17 @@ Make Hermes choose models based on **task type** and **context**, with a routing
 - simple tool orchestration → cheaper model
 - fallback → Owl Alpha only when needed
 
-### Suggested architecture
+### Suggested Architecture
 
 If helpful, implement:
 
-- a **task classifier**
-- a **routing table** from task type → model/provider
-- a **planner/executor split**
-- a **provider abstraction** so OpenRouter, Claude CLI, and Owl Alpha are all behind the same interface
+- a task classifier
+- a routing table from task type → model/provider
+- a planner/executor split
+- a provider abstraction so OpenRouter, Claude CLI, and Owl Alpha are all behind the same interface
 - logging for model decisions
 
-### Acceptance criteria
+### Acceptance Criteria
 
 Please make sure the fix satisfies all of these:
 
@@ -5676,12 +5650,12 @@ Please make sure the fix satisfies all of these:
 - task-aware routing exists
 - PKM-style and coding-style sessions can choose different models
 - OpenRouter is actually used where intended
-- “Claude” does not automatically mean “Claude CLI”; it should map to the right provider/model path
+- "Claude" does not automatically mean "Claude CLI"; it should map to the right provider/model path
 - there is a clear fallback path
 - the change is easy to understand and maintain
 - existing behavior still works for simple cases
 
-### Verification checklist
+### Verification Checklist
 
 After implementing, verify:
 
@@ -5710,9 +5684,9 @@ The exact code path has not been file-verified in this prompt; use repository in
 
 ## Asset 42 (Pieces: 4c3ffaa8-80cd-415c-badc-eb7630789e99)
 
-**Drafting final prompt**
+Drafting final prompt
 
-I need to focus on delivering a clear and polished prompt. Maybe I can refine the wording a bit, but ultimately, I might just want to keep it straightforward. I’m considering how to ensure that it meets the user's needs while being concise. Let’s draft this cleanly and get it ready for another review or final touch before submitting!## Copy-paste prompt for your coding LLM
+I need to focus on delivering a clear and polished prompt. Maybe I can refine the wording a bit, but ultimately, I might just want to keep it straightforward. I'm considering how to ensure that it meets the user's needs while being concise. Let's draft this cleanly and get it ready for another review or final touch before submitting!## Copy-paste prompt for your coding LLM
 
 ```markdown
 You are working in my chezmoi-managed dotfiles repo at:
@@ -5756,39 +5730,39 @@ I want Hermes to:
 
 A good architecture would separate:
 
-- **planner / reasoner**
+- planner / reasoner
   - chooses task type
   - decides whether tools are needed
   - synthesizes the final answer
 
-- **executor / tool runner**
+- executor / tool runner
   - runs CLI tools, filesystem reads, shell commands, repo searches
   - can be cheap and deterministic
 
-- **model router**
+- model router
   - maps task type + session context → provider/model choice
 
 ## Desired routing behavior
 
 Examples:
 
-- **PKM / Obsidian / note synthesis**
+- PKM / Obsidian / note synthesis
   - cheap model for gathering context
   - stronger general reasoning model for synthesis
 
-- **coding / repo work**
+- coding / repo work
   - coding-specialized model for analysis and implementation
   - cheap model for narrow tool orchestration if needed
 
-- **simple CLI / file operations**
+- simple CLI / file operations
   - deterministic or cheap model
   - do not waste a high-end reasoning model on raw tool execution
 
-- **explicit “use Claude” request**
+- explicit “use Claude” request
   - should select the intended model/provider in the router
   - should not simply bypass routing by invoking a hardcoded Claude CLI path unless that is explicitly the intended provider abstraction
 
-- **fallback**
+- fallback
   - Owl Alpha only when preferred models are unavailable or fail
   - not as the default for all work
 
@@ -5897,31 +5871,32 @@ Make the repo changes and summarize:
 
 ## Asset 43 (Pieces: 544e40b1-5590-4804-9a4d-6b7c4fa8d835)
 
-**Drafting prompt details**
+Drafting prompt details
 
-I want to make sure I'm clear about the deliverable without including unnecessary details. I can say, "I couldn't verify exact file contents from this session, so treat the path names below as likely places to inspect." It's also important to mention searching for equivalents if file names differ. 
+I want to make sure I'm clear about the deliverable without including unnecessary details. I can say, "I couldn't verify exact file contents from this session, so treat the path names below as likely places to inspect." It's also important to mention searching for equivalents if file names differ.
 
-So, I should prepare a markdown prompt with an H2 title, formatted for easy copy-pasting. I'll make it a direct prompt for an LLM or agent and specify the expected behavior clearly.**Creating a detailed prompt**
+So, I should prepare a markdown prompt with an H2 title, formatted for easy copy-pasting. I'll make it a direct prompt for an LLM or agent and specify the expected behavior clearly.Creating a detailed prompt
 
-I need to ask the user to inspect the repo for model selection and routing configuration, aiming for dynamic routing while keeping existing patterns intact. Since there's no file verification, I will suggest searching for the relevant config in the dotfiles under the chezmoi home directory. The user is likely looking for a prompt for a coding agent. 
+I need to ask the user to inspect the repo for model selection and routing configuration, aiming for dynamic routing while keeping existing patterns intact. Since there's no file verification, I will suggest searching for the relevant config in the dotfiles under the chezmoi home directory. The user is likely looking for a prompt for a coding agent.
 
-I’ll mention the discovered repo root path, `/Users/leon.ormes/.local/share/chezmoi`, and craft a prompt that includes sections like context, problem, desired behavior, implementation goals, constraints, acceptance criteria, and output format.```markdown
+I'll mention the discovered repo root path, `/Users/leon.ormes/.local/share/chezmoi`, and craft a prompt that includes sections like context, problem, desired behavior, implementation goals, constraints, acceptance criteria, and output format.```markdown
+
 You are working in my chezmoi repo at `/Users/leon.ormes/.local/share/chezmoi`.
 
 ## Context
 
-I use **Hermes** as an orchestration layer in different contexts, including:
+I use Hermes as an orchestration layer in different contexts, including:
 
-- **Obsidian / PKM work**
-- **Coding sessions**
+- Obsidian / PKM work
+- Coding sessions
 - general task planning and tool use
 
-Right now Hermes is not routing intelligently between models. It appears to always use the same model path, specifically **Owl Alpha**, even when I expect it to choose different models based on the task.
+Right now Hermes is not routing intelligently between models. It appears to always use the same model path, specifically Owl Alpha, even when I expect it to choose different models based on the task.
 
 I recently added OpenRouter credits because I want Hermes to be able to:
 
 - use a cheaper / faster model for context gathering and tool orchestration
-- use a stronger reasoning model for “thinking” and synthesis
+- use a stronger reasoning model for "thinking" and synthesis
 - use a coding-specialized model when the session is clearly coding-oriented
 - preserve direct CLI/tool execution behavior where appropriate
 
@@ -5929,7 +5904,7 @@ One example problem: when I explicitly instructed Hermes to use Claude, it still
 
 ## Goal
 
-Make Hermes **task-aware** and **model-aware** so that it can route different work to different models automatically.
+Make Hermes task-aware and model-aware so that it can route different work to different models automatically.
 
 I want the repo updated so that Hermes can distinguish between at least these kinds of work:
 
@@ -5938,16 +5913,18 @@ I want the repo updated so that Hermes can distinguish between at least these ki
 - tool-heavy orchestration / CLI gathering
 - simple, cheap, or low-stakes tasks
 
-## Desired behavior
+## Desired Behavior
 
-### For PKM / note work
+### For PKM / Note Work
+
 Hermes should:
 
 - gather context using a cheap model or deterministic tools
 - then hand off synthesis / reasoning to a better general-purpose model
 - prefer a model that is good at summarizing, connecting ideas, and structuring notes
 
-### For coding work
+### For Coding Work
+
 Hermes should:
 
 - detect that the session is coding-oriented
@@ -5955,22 +5932,24 @@ Hermes should:
 - still use cheaper models for preliminary context gathering if useful
 - not default to the same general model used for unrelated note work
 
-### For tool orchestration
+### For Tool Orchestration
+
 Hermes should:
 
 - be able to use a lightweight model for routing, extraction, and command planning
 - avoid spending expensive reasoning budget on mechanical work
 
-### For “use Claude” or similar instructions
+### For "Use Claude" or sImilar iNstructions
+
 If the user explicitly requests a model family, Hermes should:
 
 - respect the request if possible
 - route to the intended provider/model through the shared provider layer
 - not silently fall back to a hardcoded CLI path unless that is the intended implementation
 
-## What I want changed
+## What I want Changed
 
-Please inspect the repo and implement a **task-aware model router**.
+Please inspect the repo and implement a task-aware model router.
 
 Look for the following kinds of code and config:
 
@@ -5983,7 +5962,7 @@ Look for the following kinds of code and config:
 - any direct Claude CLI invocation path
 - any OpenRouter configuration or provider wrapper
 
-## Implementation requirements
+## Implementation Requirements
 
 Please make the solution production-quality:
 
@@ -5995,26 +5974,26 @@ Please make the solution production-quality:
 - Make it easy to override model choice per task or session
 - Add logging or tracing for which model was selected and why
 
-## Suggested architecture
+## Suggested Architecture
 
 A good implementation would include:
 
-1. **Task classification**
+1. Task classification
    - infer whether the work is PKM, coding, orchestration, summarization, etc.
 
-2. **Routing policy**
+2. Routing policy
    - map task type to a model family or provider choice
 
-3. **Planner / executor split**
+3. Planner / executor split
    - cheap model for context gathering and command planning
    - stronger model for synthesis / reasoning
    - specialist model for coding when relevant
 
-4. **Fallback chain**
+4. Fallback chain
    - if the preferred model is unavailable, use a sensible fallback
    - avoid collapsing everything into Owl Alpha unless it is truly the last resort
 
-5. **Observability**
+5. Observability
    - log the task type
    - log the selected provider/model
    - log fallback reasons
@@ -6028,13 +6007,13 @@ A good implementation would include:
 - If there is already a router or config system, extend it rather than replacing it blindly
 - If exact file names differ from what you expect, search the repo for the routing and model-selection entrypoints
 
-## Acceptance criteria
+## Acceptance Criteria
 
 I should be able to look at the repo and see that:
 
 - Hermes no longer blindly uses one default model for all work
 - different task types can route to different models
-- OpenRouter can be used for the “thinking” model path
+- OpenRouter can be used for the "thinking" model path
 - coding sessions can use a coding-optimized model
 - cheap models can still be used for context gathering or trivial orchestration
 - direct CLI-only model paths are not bypassing the router unless explicitly intended
@@ -6050,15 +6029,16 @@ Please make the code changes in the repo and summarize:
 - how to verify the behavior for PKM vs coding vs orchestration sessions
 
 If the repo structure differs from the expected layout, adapt to the actual codebase and explain the path you found.
+
 ```
 
-If you want, I can also turn this into a **shorter, more forceful agent prompt** or a **GitHub issue / PR description version**.
+If you want, I can also turn this into a shorter, more forceful agent prompt or a GitHub issue / PR description version.
 
 ---
 
 ## Asset 44 (Pieces: 8f73bd03-ff6b-43a9-8049-6a41f8c8d3e5)
 
-**Composing a prompt for repo inspection**
+Composing a prompt for repo inspection
 
 I think I need to consider including instructions like, “If the exact file differs, locate the nearest shell/agent config in the repo.” The user wants a fix in the chezmoi repo, so I should instruct the LLM to inspect the repository structure and find model routing to modify as needed. The repo path is /Users/leon.ormes/.local/share/chezmoi. I’ll highlight that the code path isn’t verified to provide full context in the prompt.Use this as your copy-paste prompt for another LLM or coding agent:
 
@@ -6158,7 +6138,7 @@ Make the code changes in the chezmoi repo and explain exactly what you changed, 
 - fallback cases
 ```
 
-If you want, I can also turn this into a **shorter, more aggressive “fix the code” prompt** or a **GitHub Copilot-style instruction block**.
+If you want, I can also turn this into a shorter, more aggressive "fix the code" prompt or a GitHub Copilot-style instruction block.
 
 ---
 
@@ -6283,15 +6263,15 @@ If you need to make an assumption, state it explicitly.
 If you cannot find the relevant code path, tell me what you searched and what was missing.
 ```
 
-If you want, I can also turn that into a **shorter “fix this codebase” prompt** or a **more surgical prompt for a specific file/class once you paste it in**.
+If you want, I can also turn that into a shorter "fix this codebase" prompt or a more surgical prompt for a specific file/class once you paste it in.
 
 ---
 
 ## Asset 46 (Pieces: 10d7c307-79ff-4966-b16f-ff62c213726d)
 
-**Gathering context for chezmoi**
+Gathering context for chezmoi
 
-I need to answer the user about fixing something in the chezmoi repository. First, I'll check the exact path at /Users/leon.ormes/.local/share/chezmoi for files. I’m considering using filesystem_search_paths to locate specific files, since I don't have a direct repo root. I'll search for relevant keywords like README and dotfiles. Given the mention of openrouter/hermes/owl alpha, it seems like the user might want help with their dotfiles configuration. I need to find files like .chezmoitemplates or other dot_config scripts for exact snippets.**Exploring filesystem for chezmoi files**
+I need to answer the user about fixing something in the chezmoi repository. First, I'll check the exact path at /Users/leon.ormes/.local/share/chezmoi for files. I'm considering using filesystem_search_paths to locate specific files, since I don't have a direct repo root. I'll search for relevant keywords like README and dotfiles. Given the mention of openrouter/hermes/owl alpha, it seems like the user might want help with their dotfiles configuration. I need to find files like.chezmoitemplates or other dot_config scripts for exact snippets.Exploring filesystem for chezmoi files
 
 I should use filesystem_search_paths to locate files likely in the repo, such as `.chezmoi`, `dot_config`, `run_onchange`, `home/.config`, `README.md`, and `*.tmpl`. I might also look for paths that match "bin" and "scripts." However, I need a full context prompt, so I should mention that without search results, I can't inspect the content. The developer wants a complete resolution, so I need to query the root path and look for common chezmoi patterns like `dot_`, `.chezmoiscripts`, and `private_`.
 
@@ -6305,26 +6285,26 @@ give me a llm prompt with full context to fix this in my chezmoi repo
 
 ## Asset 48 (Pieces: 94b8cb87-c55d-4ba3-9f2e-4ee3e2a072fe)
 
-## How to make Hermes route different models by task
+## How to Make Hermes Route Different Models by Task
 
 The behavior you describe usually comes from one of two design problems:
 
-1. **Hermes has one global model setting**, so every path uses the same default.
-2. **“Use Claude” is wired to the Claude CLI path**, not to the OpenRouter provider, so the instruction changes the tool backend but not the model-selection layer.
+1. Hermes has one global model setting, so every path uses the same default.
+2. "Use Claude" is wired to the Claude CLI path, not to the OpenRouter provider, so the instruction changes the tool backend but not the model-selection layer.
 
-What you want instead is a **planner/executor split** with a real routing layer in front of all model calls.
+What you want instead is a planner/executor split with a real routing layer in front of all model calls.
 
-## The routing model you want
+## The Routing Model You want
 
-### 1) Split Hermes into three roles
+### 1) Split Hermes into Three Roles
 
-- **Planner / reasoner**: decides what to do, summarizes context, makes higher-level judgments.
-- **Executor / tool runner**: runs CLI tools, gathers files, shells out, reads notes, fetches context.
-- **Fallback model**: only used when the preferred provider is unavailable, over budget, or the task is trivial.
+- Planner / reasoner: decides what to do, summarizes context, makes higher-level judgments.
+- Executor / tool runner: runs CLI tools, gathers files, shells out, reads notes, fetches context.
+- Fallback model: only used when the preferred provider is unavailable, over budget, or the task is trivial.
 
-That means Hermes should not be “one model that does everything.”
+That means Hermes should not be "one model that does everything."
 
-### 2) Route by task type, not by one default
+### 2) Route by Task Type, not by One Default
 
 Create a task classifier that labels a session or turn as something like:
 
@@ -6361,23 +6341,23 @@ routing:
       executor: local
 ```
 
-The key point: **OpenRouter should be the routing layer**, and the actual model choice should happen per task.
+The key point: OpenRouter should be the routing layer, and the actual model choice should happen per task.
 
-## The likely bug in Hermes today
+## The Likely Bug in Hermes Today
 
 Based on your description, Hermes is probably doing one or more of these:
 
-- using a **single `model` config value** everywhere
-- treating `claude` as a **direct CLI provider**, not as a model choice
-- lacking a **task classifier**, so it never knows when to switch from PKM-style thinking to coding-style thinking
-- applying model choice only in the **executor path**, while the planner stays stuck on Owl Alpha
-- falling back to Owl Alpha too early because the “smart routing” branch is either missing or disabled
+- using a single `model` config value everywhere
+- treating `claude` as a direct CLI provider, not as a model choice
+- lacking a task classifier, so it never knows when to switch from PKM-style thinking to coding-style thinking
+- applying model choice only in the executor path, while the planner stays stuck on Owl Alpha
+- falling back to Owl Alpha too early because the "smart routing" branch is either missing or disabled
 
-In other words: **there is no real policy engine**, just a default model plus a few hard-coded escape hatches.
+In other words: there is no real policy engine, just a default model plus a few hard-coded escape hatches.
 
-## What to change in Hermes
+## What to Change in Hermes
 
-### 1) Add separate config keys for planner and executor
+### 1) Add Separate Config Keys for Planner and Executor
 
 Do not keep one `model` field.
 
@@ -6401,7 +6381,7 @@ overrides:
   "research": research
 ```
 
-### 2) Add a task classifier before model selection
+### 2) Add a Task Classifier before Model Selection
 
 Hermes should inspect:
 
@@ -6413,14 +6393,14 @@ Hermes should inspect:
 
 Examples:
 
-- **Obsidian vault + markdown notes** → `pkm`
-- **Git repo + code files + tests** → `coding`
-- **web/docs/summary requests** → `research`
-- **single CLI command / fetch file / grep text** → `simple_tooling`
+- Obsidian vault + markdown notes → `pkm`
+- Git repo + code files + tests → `coding`
+- web/docs/summary requests → `research`
+- single CLI command / fetch file / grep text → `simple_tooling`
 
 Then select the model from that classification.
 
-### 3) Put OpenRouter behind a provider abstraction
+### 3) Put OpenRouter behind a Provider Abstraction
 
 Every model call should go through one interface, for example:
 
@@ -6436,19 +6416,20 @@ Then implement providers:
 - `ClaudeCliProvider` if you truly need it
 - `OwlAlphaProvider` as fallback
 
-But the important part is: **don’t let application logic call `claude` directly** unless you intentionally want to bypass routing.
+But the important part is: don't let application logic call `claude` directly unless you intentionally want to bypass routing.
 
-If you say “use Claude,” Hermes should translate that into an OpenRouter model ID when possible, not shell out to the Claude CLI.
+If you say "use Claude," Hermes should translate that into an OpenRouter model ID when possible, not shell out to the Claude CLI.
 
-### 4) Make the planner choose the model, not the prompt
+### 4) Make the Planner Choose the Model, not the Prompt
 
-The prompt should say what needs doing.  
+The prompt should say what needs doing.
+
 The router should decide which model handles it.
 
 Bad:
 
 - user asks for PKM work
-- prompt says “use Claude”
+- prompt says "use Claude"
 - Hermes blindly invokes Claude CLI
 
 Good:
@@ -6459,53 +6440,53 @@ Good:
 - executor gathers notes and context
 - planner synthesizes the answer
 
-### 5) Keep Owl Alpha as fallback only
+### 5) Keep Owl Alpha as Fallback only
 
 Owl Alpha should be used when:
 
 - OpenRouter is unavailable
 - the selected model errors
 - budget/cost caps are hit
-- the task is very small and doesn’t justify a stronger model
+- the task is very small and doesn't justify a stronger model
 
-It should **not** be the universal default for all work.
+It should not be the universal default for all work.
 
-## A practical routing policy
+## A Practical Routing Policy
 
-Here’s a sane first pass:
+Here's a sane first pass:
 
-- **PKM / Obsidian**: fast context model + stronger synthesis model
-- **Coding**: code-specialized model for reasoning, cheap model for retrieval
-- **Research**: strongest reasoning model you can afford
-- **Tooling / file ops**: cheap model or no model at all for execution
-- **Fallback**: Owl Alpha
+- PKM / Obsidian: fast context model + stronger synthesis model
+- Coding: code-specialized model for reasoning, cheap model for retrieval
+- Research: strongest reasoning model you can afford
+- Tooling / file ops: cheap model or no model at all for execution
+- Fallback: Owl Alpha
 
 A good split is:
 
-- **executor**: cheap or deterministic
-- **planner**: smarter model chosen by task type
+- executor: cheap or deterministic
+- planner: smarter model chosen by task type
 
-## The most important implementation rule
+## The Most Important Implementation Rule
 
-If Hermes is already in a multi-step workflow, use **different models for different stages**:
+If Hermes is already in a multi-step workflow, use different models for different stages:
 
-1. **Context gathering** → cheaper model or deterministic tools
-2. **Planning / synthesis** → stronger model
-3. **Final polish** → optionally a second strong model if needed
+1. Context gathering → cheaper model or deterministic tools
+2. Planning / synthesis → stronger model
+3. Final polish → optionally a second strong model if needed
 
 That gives you the behavior you expected: one model to collect and organize, another to think deeply.
 
-## What I would change first
+## What I Would Change First
 
 If you want the quickest win, do these in order:
 
-1. **Introduce a router module** with task classification.
-2. **Replace the single global model setting** with per-task policies.
-3. **Force all model calls through OpenRouter** unless explicitly exempted.
-4. **Move Owl Alpha to fallback only.**
-5. **Log every model decision** so you can see why a model was chosen.
+1. Introduce a router module with task classification.
+2. Replace the single global model setting with per-task policies.
+3. Force all model calls through OpenRouter unless explicitly exempted.
+4. Move Owl Alpha to fallback only.
+5. Log every model decision so you can see why a model was chosen.
 
-## Add observability immediately
+## Add Observability Immediately
 
 Log these fields for every Hermes turn:
 
@@ -6517,35 +6498,35 @@ Log these fields for every Hermes turn:
 - `fallback_used`
 - `cost_estimate`
 
-Without that, you’ll never know whether routing is working or just “feels smarter.”
+Without that, you'll never know whether routing is working or just "feels smarter."
 
-## Simple test matrix
+## Simple Test Matrix
 
 Test these cases:
 
 - Obsidian note summarization → PKM model selected
 - coding repo refactor → coding model selected
 - CLI file lookup → executor only, no fancy model
-- explicit “use Claude” request → OpenRouter Claude model, not Claude CLI
+- explicit "use Claude" request → OpenRouter Claude model, not Claude CLI
 - OpenRouter down → Owl Alpha fallback
 
 If those all behave differently, Hermes is finally routing intelligently.
 
-If you want, I can turn this into a concrete **Hermes config schema + router pseudocode** you can paste into the project.
+If you want, I can turn this into a concrete Hermes config schema + router pseudocode you can paste into the project.
 
 ---
 
 ## Asset 49 (Pieces: 01ce9619-8d3d-4e8b-b74d-71e7a2ab74f6)
 
-**Considering Hermes improvement strategies**
+Considering Hermes improvement strategies
 
-I need to answer the user's question about making Hermes smarter. Unfortunately, I can't access the filesystem for specific evidence, so I should rely on general knowledge. I have to be cautious not to promise grounded specifics since the filesystem access is blocked. Based on what I've seen, it's likely an architectural change. I should mention that if Hermes is directly calling Claude CLI, that might be bypassing OpenRouter. I'll provide a conceptual implementation pattern for the user.**Planning model selector layer**
+I need to answer the user's question about making Hermes smarter. Unfortunately, I can't access the filesystem for specific evidence, so I should rely on general knowledge. I have to be cautious not to promise grounded specifics since the filesystem access is blocked. Based on what I've seen, it's likely an architectural change. I should mention that if Hermes is directly calling Claude CLI, that might be bypassing OpenRouter. I'll provide a conceptual implementation pattern for the user.Planning model selector layer
 
-I need to come up with a route through a model selector layer, separating the planner and executor. I'll use task classification based on workspace and context, possibly proposing a configuration schema along with examples or pseudo-code. It's essential to note a bug where model selection is hard-coded to Owl Alpha by default. The planner should choose models according to task type. I should also mention that the executor should use a cost-effective model while the planner uses a more capable one. I'll include an example routing table for clarity.**Troubleshooting Hermes model usage**
+I need to come up with a route through a model selector layer, separating the planner and executor. I'll use task classification based on workspace and context, possibly proposing a configuration schema along with examples or pseudo-code. It's essential to note a bug where model selection is hard-coded to Owl Alpha by default. The planner should choose models according to task type. I should also mention that the executor should use a cost-effective model while the planner uses a more capable one. I'll include an example routing table for clarity.Troubleshooting Hermes model usage
 
-I need to consider why Hermes isn't using other models; it might be due to a static configuration without task classification or a failure to propagate model overrides to the planner. I could recommend a few steps: First, add an `intent` or `task_type` classification step. Second, introduce a `ModelPolicy` or `Router` configuration with rules based on workspace, file type, or command type. Third, separate the "planner," "executor," and "tool-runner." Lastly, I should emphasize observability by logging the `selected_model`, `reason`, `fallback_reason`, and `task_type`.**Proposing a system architecture**
+I need to consider why Hermes isn't using other models; it might be due to a static configuration without task classification or a failure to propagate model overrides to the planner. I could recommend a few steps: First, add an `intent` or `task_type` classification step. Second, introduce a `ModelPolicy` or `Router` configuration with rules based on workspace, file type, or command type. Third, separate the "planner," "executor," and "tool-runner." Lastly, I should emphasize observability by logging the `selected_model`, `reason`, `fallback_reason`, and `task_type`.Proposing a system architecture
 
-I'm thinking about a proposed architecture. For the planner, I could select tasks based on type and difficulty, possibly using a triage model to classify. The context collector could work with a cheap model or no LLM, just relying on CLI tools. I'd envision an executor as a deterministic tool runner without a model. For the reasoner, maybe a more capable model through OpenRouter could be useful. I should also mention I can't inspect code due to disk access constraints.**Creating model routing for Hermes**
+I'm thinking about a proposed architecture. For the planner, I could select tasks based on type and difficulty, possibly using a triage model to classify. The context collector could work with a cheap model or no LLM, just relying on CLI tools. I'd envision an executor as a deterministic tool runner without a model. For the reasoner, maybe a more capable model through OpenRouter could be useful. I should also mention I can't inspect code due to disk access constraints.Creating model routing for Hermes
 
 It sounds like the behavior you're describing indicates that Hermes operates with a single global model setting, where its 'use Claude' option interacts with the Claude CLI instead of the OpenRouter client. I want to address that feedback concisely while providing enough detail. To present this effectively, I could organize it under an H2 heading such as "How to Make Hermes Route Models by Task". I think this structure will enhance clarity and usability for the user.
 
@@ -6553,17 +6534,17 @@ It sounds like the behavior you're describing indicates that Hermes operates wit
 
 ## Asset 50 (Pieces: 8828b629-4e62-404e-906a-ea6db383014b)
 
-**Investigating Hermes model routing**
+Investigating Hermes model routing
 
-I need to provide an answer about the Hermes model routing. To start, I should look into the local files for relevant information. I shouldn't repeat what’s already been covered. It seems there weren't any search results, possibly due to a typo in the root path. Maybe I can expand the search to the entire sandbox root? I plan to use filesystem_search_paths to find project files and identify any relevant configuration or documentation. I'll look for filenames containing "openrouter" or "hermes."
+I need to provide an answer about the Hermes model routing. To start, I should look into the local files for relevant information. I shouldn't repeat what's already been covered. It seems there weren't any search results, possibly due to a typo in the root path. Maybe I can expand the search to the entire sandbox root? I plan to use filesystem_search_paths to find project files and identify any relevant configuration or documentation. I'll look for filenames containing "openrouter" or "hermes."
 
 ---
 
 ## Asset 51 (Pieces: 37082a72-4eb4-4415-92e5-dfc304bf1c20)
 
-**Inspecting codebase for Hermes**
+Inspecting codebase for Hermes
 
-I need to provide an answer likely based on the user's codebase and Hermes, maybe in the filesystem. I should inspect the repository and its documentation. It seems like they want advice on how to get Hermes to efficiently use different models. I need to find the relevant code or configuration. This definitely feels like a software engineering question about their codebase, so I’ll use filesystem search paths to gather more information.
+I need to provide an answer likely based on the user's codebase and Hermes, maybe in the filesystem. I should inspect the repository and its documentation. It seems like they want advice on how to get Hermes to efficiently use different models. I need to find the relevant code or configuration. This definitely feels like a software engineering question about their codebase, so I'll use filesystem search paths to gather more information.
 
 ---
 
@@ -6575,13 +6556,13 @@ Hermes is not using other models when doing different types of work. I have adde
 
 ## Asset 53 (Pieces: 80684807-9015-4691-ae82-9693a070e42d)
 
-**Connection lost**
+Connection lost
 
-**What to try:** The streaming connection was interrupted mid-response. Try again — the model usually recovers.
+What to try: The streaming connection was interrupted mid-response. Try again—the model usually recovers.
 
-**Try again:** Send another message (for example, **Keep going**) to resume from where the agent left off — the provider may have been temporarily overloaded.
+Try again: Send another message (for example, Keep going) to resume from where the agent left off—the provider may have been temporarily overloaded.
 
-**Technical detail:** openrouter rejected (400): Provider returned error
+Technical detail: openrouter rejected (400): Provider returned error
 
 ---
 
@@ -6590,12 +6571,11 @@ Hermes is not using other models when doing different types of work. I have adde
 The user is asking about "Hermes" - this appears to be some kind of AI assistant or agent system they're using. They want Hermes to intelligently route different types of work to different models (e.g., using free models for context gathering and CLI tools, but more capable specialized models for "thinking" work like PKM or coding tasks).
 
 Key points:
+
 1. Hermes is currently only using "owl alpha" for everything
 2. They've added OpenRouter credits to experiment
 3. They want model routing based on task type (PKM work → PKM-trained model, coding → coding model)
 4. When they instructed Hermes to use Claude, it used the Claude CLI instead of OpenRouter
-
-
 5. They're looking for better model orchestration
 
 I should search their memory to understand what Hermes is, how it's currently configured, and what OpenRouter setup they have in place.Let me investigate your Hermes setup, OpenRouter configuration, and any relevant context about how it's currently configured before suggesting a solution.
@@ -6608,7 +6588,7 @@ I now have everything needed. Here is the complete Hermes prompt.
 
 ---
 
-## Hermes Prompt — Fix the chezmoi-managed MCP Config
+## Hermes Prompt—Fix the Chezmoi-managed MCP Config
 
 Copy this entire block into a Hermes session. It is self-contained: Hermes can execute every step from it cold.
 
@@ -6752,27 +6732,25 @@ If you made any edits to chezmoi source files (especially .chezmoidata.toml):
 
 ---
 
-## What this prompt does and why
+## What This Prompt Does and why
 
-### Architecture grounded from your files
+### Architecture Grounded from Your Files
 
 | File | Role |
 |---|---|
-| `~/.local/share/chezmoi/.chezmoidata.toml` | Authoritative server list — 12 servers, each with `disabled` flag |
+| `~/.local/share/chezmoi/.chezmoidata.toml` | Authoritative server list—12 servers, each with `disabled` flag |
 | `dot_config/mcpproxy/mcp_proxy.json.tmpl` | Chezmoi template that filters disabled servers and renders to `mcp_proxy.json` |
 | `~/.config/mcpproxy/mcp_proxy.json` | Live rendered config (2641 bytes, 12 enabled servers as of today) |
-| `scripts/executable_smart-mcp-proxy` | Sets `MCPPROXY_CONFIG_PATH` env var before exec — critical for launchd |
+| `scripts/executable_smart-mcp-proxy` | Sets `MCPPROXY_CONFIG_PATH` env var before exec—critical for launchd |
 | `private_dot_hermes/private_config.yaml` | Hermes's own mcp-proxy entry with `connect_timeout: 8` |
 
-### Root causes the prompt targets
+### Root Causes the Prompt Targets
 
 From your memory and file evidence, the three recurring failure modes are:
 
-1. **Chezmoi drift** — you edit `.chezmoidata.toml` but forget `chezmoi apply`, so the live `mcp_proxy.json` is stale. The template's `$enabled_keys` filter means a drifted file can include servers that are supposed to be off, causing the proxy's lifespan startup to hang on unreachable backends.
-
-2. **Bare command paths under launchd** — `npx`, `uvx`, and `mcp-remote` without absolute paths silently fail when `com.user.mcpproxy` starts without your shell's `$PATH`. The live config already has the correct absolute paths for most entries; the prompt validates all of them.
-
-3. **FastMCP 500s** — confirmed May 27 debugging: the proxy returns HTTP 500 on all requests when a lifespan startup crash occurs silently. The fix is always restart + re-read config, not upgrading the package. The prompt enforces the known-good pin.
+1. Chezmoi drift—you edit `.chezmoidata.toml` but forget `chezmoi apply`, so the live `mcp_proxy.json` is stale. The template's `$enabled_keys` filter means a drifted file can include servers that are supposed to be off, causing the proxy's lifespan startup to hang on unreachable backends.
+2. Bare command paths under launchd—`npx`, `uvx`, and `mcp-remote` without absolute paths silently fail when `com.user.mcpproxy` starts without your shell's `$PATH`. The live config already has the correct absolute paths for most entries; the prompt validates all of them.
+3. FastMCP 500s—confirmed May 27 debugging: the proxy returns HTTP 500 on all requests when a lifespan startup crash occurs silently. The fix is always restart + re-read config, not upgrading the package. The prompt enforces the known-good pin.
 
 ---
 
@@ -6792,7 +6770,7 @@ I have hermes running in my pkm vault (LLMeon). create a prompt /goal with full 
 
 ## Asset 58 (Pieces: 28793e0e-2293-471e-831e-0562e663993e)
 
-**Looking into file searching**
+Looking into file searching
 
 I'm considering using a smaller root directory since the likely home directory is large. Another approach could be to search for specific hidden directory name patterns, like ".local/share/chezmoi." I think querying with those exact patterns might yield better results. I'll keep my tactics flexible to see what works best!
 
@@ -6800,24 +6778,24 @@ I'm considering using a smaller root directory since the likely home directory i
 
 ## Asset 59 (Pieces: e176d7f3-538e-4058-8fac-d4a55d81b1c3)
 
-**Exploring search paths**
+Exploring search paths
 
-I think I might need to verify if the root path exists first, or perhaps the repository isn't there at all. Looking for a README is an option, but the user is specifically after the chezmoi repo. It might be somewhere else in the sandbox, so I need to discover the right path. Although the current tool root is sandboxed, I should still check the broader filesystem, especially hidden directories under /Users/leon.ormes, possibly even in Documents. I'll focus on exact returned paths for my search.**Considering search methods**
+I think I might need to verify if the root path exists first, or perhaps the repository isn't there at all. Looking for a README is an option, but the user is specifically after the chezmoi repo. It might be somewhere else in the sandbox, so I need to discover the right path. Although the current tool root is sandboxed, I should still check the broader filesystem, especially hidden directories under /Users/leon.ormes, possibly even in Documents. I'll focus on exact returned paths for my search.Considering search methods
 
-I’m thinking about doing a parallel search for both paths and content, maybe even on broader roots. Since the review asks for this in one go, using `multi_tool_use.parallel` with both `filesystem_search_paths` and `filesystem_search_text` could work. However, it seems that the tool only allows developer tools, which is fine. I could search for "chezmoi" in /Users/leon.ormes, but the sandbox limits me. I might set roots to ["/Users/leon.ormes"] with include set to false.
+I'm thinking about doing a parallel search for both paths and content, maybe even on broader roots. Since the review asks for this in one go, using `multi_tool_use.parallel` with both `filesystem_search_paths` and `filesystem_search_text` could work. However, it seems that the tool only allows developer tools, which is fine. I could search for "chezmoi" in /Users/leon.ormes, but the sandbox limits me. I might set roots to ["/Users/leon.ormes"] with include set to false.
 
 ---
 
 ## Asset 60 (Pieces: bc5904b1-ef09-4911-9a64-2506f3fba57b)
 
-**Searching for evidence**
+Searching for evidence
 
-I need to gather some evidence, so I'll start by looking for broader patterns in files like "package.json," "pyproject.toml," "Cargo.toml," and "tsconfig." Each of these files serves a purpose in project configurations for different programming languages and frameworks. I’m aiming to pull information that connects these files, as that could help support my findings. It’ll be interesting to see what I can find from these patterns!
+I need to gather some evidence, so I'll start by looking for broader patterns in files like "package.json," "pyproject.toml," "Cargo.toml," and "tsconfig." Each of these files serves a purpose in project configurations for different programming languages and frameworks. I'm aiming to pull information that connects these files, as that could help support my findings. It'll be interesting to see what I can find from these patterns!
 
 ---
 
 ## Asset 61 (Pieces: 8a9eda6c-9251-40aa-8bfb-40dc9777804a)
 
-**Searching for file names**
+Searching for file names
 
-I’m thinking about searching for known file names like "README," "config," or "hermes." I could use the filesystem_search_paths tool and set the query to "README" in the root directory. If I can find those files, it might help me gather the information I’m looking for. It feels like a straightforward approach, and I want to ensure I effectively locate those relevant files. Let's see what I can find!
+I'm thinking about searching for known file names like "README," "config," or "hermes." I could use the filesystem_search_paths tool and set the query to "README" in the root directory. If I can find those files, it might help me gather the information I'm looking for. It feels like a straightforward approach, and I want to ensure I effectively locate those relevant files. Let's see what I can find!

@@ -1,19 +1,14 @@
 ---
-aliases:
-- Task Batching
-created: 2025-11-10 14:10:00+00:00
+aliases: [Task Batching]
+created: 2025-11-10T14:10:00+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:26+00:00
+modified: 2026-07-04T10:51:45+00:00
+permalink: llmeon/30-library/100-zettelkasten/task-batching-is-grouping-similar-tasks-to-reduce-context-switching
 status: seedling
-tags:
-- context-switching
-- efficiency
-- time-blocking
-- topic/productivity
+tags: [context-switching, efficiency, time-blocking, topic/productivity]
 title: Task Batching is Grouping Similar Tasks to Reduce Context Switching
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/task-batching-is-grouping-similar-tasks-to-reduce-context-switching
 ---
 
 ## Task Batching is Grouping Similar Tasks to Reduce Context Switching

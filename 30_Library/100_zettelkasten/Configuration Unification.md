@@ -1,20 +1,16 @@
 ---
-created: 2026-04-14 20:11:24+00:00
+created: 2026-04-14T20:11:24+00:00
 created_utc: '2026-04-14T12:40:00Z'
 kind: mechanism
-modified: 2026-05-26 11:44:36+00:00
+modified: 2026-07-04T10:51:53+00:00
+permalink: llmeon/30-library/100-zettelkasten/configuration-unification
 source_title: CUE — A Type System for the Cloud
 source_url: https://www.youtube.com/watch?v=FsUytTpDNro
 status: seed
-tags:
-- configuration-management
-- cue
-- logic-programming
-- unification
+tags: [configuration-management, cue, logic-programming, unification]
 title: Configuration Unification
 type: atom
 upstream: '[[SoT - CUE Configuration]]'
-permalink: llmeon/30-library/100-zettelkasten/configuration-unification
 ---
 
 ## Configuration Unification

@@ -1,20 +1,14 @@
 ---
-aliases:
-- Flexible Structure
-created: 2025-11-01 21:12:00+00:00
+aliases: [Flexible Structure]
+created: 2025-11-01T21:12:00+00:00
 last_reviewed: '2025-11-01'
-modified: 2026-05-26 11:44:35+00:00
+modified: 2026-07-04T10:51:51+00:00
+permalink: llmeon/30-library/100-zettelkasten/flexibility-within-structure-is-key-to-sustainable-timeboxing
 status: evergreen
-tags:
-- balance
-- flexibility
-- scheduling
-- time-management
-- topic/productivity
+tags: [balance, flexibility, scheduling, time-management, topic/productivity]
 title: Flexibility Within Structure is Key to Sustainable Timeboxing
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/flexibility-within-structure-is-key-to-sustainable-timeboxing
 ---
 
 The key to a successful and sustainable timeboxing practice is to build in flexibility. The goal is to create a guide for your time, not a rigid prison.

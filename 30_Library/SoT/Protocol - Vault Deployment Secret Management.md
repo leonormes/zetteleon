@@ -1,20 +1,12 @@
 ---
-alias:
-- Secret Management Protocol
-- Vault Onboarding
-created: 2026-02-05 00:00:00+00:00
-modified: 2026-05-26 11:44:21+00:00
+alias: [Secret Management Protocol, Vault Onboarding]
+created: 2026-02-05T00:00:00+00:00
+modified: 2026-07-04T10:51:06+00:00
+permalink: llmeon/30-library/so-t/protocol-vault-deployment-secret-management
 status: stable
-tags:
-- fitfile
-- onboarding
-- protocol
-- secrets
-- terraform
-- vault
+tags: [fitfile, onboarding, protocol, secrets, terraform, vault]
 title: Protocol - Vault Deployment Secret Management
 type: protocol
-permalink: llmeon/30-library/so-t/protocol-vault-deployment-secret-management
 ---
 
 ## Logic Map

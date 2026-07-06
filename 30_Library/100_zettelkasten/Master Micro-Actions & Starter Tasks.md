@@ -1,24 +1,14 @@
 ---
-aliases:
-- 5-Minute Rule
-- Micro-Actions
-- Starter Tasks
-created: 2025-12-16 13:15:00+00:00
+aliases: [5-Minute Rule, Micro-Actions, Starter Tasks]
+created: 2025-12-16T13:15:00+00:00
 last_reviewed: '2025-12-16T00:00:00.000Z'
-modified: 2026-02-01 15:08:31+00:00
+modified: 2026-07-04T10:51:49+00:00
+permalink: llmeon/30-library/100-zettelkasten/master-micro-actions-starter-tasks
 status: pending
-tags:
-- experiment
-- focus
-- hypothesis
-- momentum
-- The
-- TheHuman/Health/ADHD
-- topic/productivity
+tags: [experiment, focus, hypothesis, momentum, The, TheHuman/Health/ADHD, topic/productivity]
 title: Master Micro-Actions & Starter Tasks
 type: hypothesis
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/master-micro-actions-starter-tasks
 ---
 
 ## 1. The Hypothesis

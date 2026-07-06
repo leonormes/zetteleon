@@ -1,19 +1,16 @@
 ---
-created: 2026-04-13 14:53:30+00:00
+created: 2026-04-13T14:53:30+00:00
 created_utc: '2026-04-13T11:40:00Z'
 kind: constraint
-modified: 2026-05-26 11:44:34+00:00
+modified: 2026-07-04T10:51:48+00:00
+permalink: llmeon/30-library/100-zettelkasten/optimal-iteration-count
 source_title: Using Karpathy’s Original Framework (Auto Research)
 source_url: http://www.youtube.com/watch?v=bc4NrE0cOE0
 status: seed
-tags:
-- cost-management
-- efficiency
-- iteration
+tags: [cost-management, efficiency, iteration]
 title: Optimal Iteration Count
 type: atom
 upstream: '[[Using Karpathy’s Original Framework]]'
-permalink: llmeon/30-library/100-zettelkasten/optimal-iteration-count
 ---
 
 ## Optimal Iteration Count

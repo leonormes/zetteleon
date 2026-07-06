@@ -1,14 +1,9 @@
 ---
-created: 2026-04-10 13:00:00+00:00
-modified: 2026-05-26 11:44:33+00:00
-tags:
-- architecture
-- comparison
-- pgvector
-- qdrant
-- scalability
-title: Qdrant Outperforms PGVector for Search-Primary Architectures at Scale
+created: 2026-04-10T13:00:00+00:00
+modified: 2026-07-04T10:51:46+00:00
 permalink: llmeon/30-library/100-zettelkasten/qdrant-outperforms-pgvector-for-search-primary-architectures-at-scale
+tags: [architecture, comparison, pgvector, qdrant, scalability]
+title: Qdrant Outperforms PGVector for Search-Primary Architectures at Scale
 ---
 
 ## Qdrant Outperforms PGVector for Search-Primary Architectures at Scale

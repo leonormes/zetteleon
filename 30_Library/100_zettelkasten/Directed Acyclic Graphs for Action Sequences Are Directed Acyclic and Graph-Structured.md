@@ -1,19 +1,14 @@
 ---
-aliases:
-- DAG Properties
-created: 2025-11-10 15:08:00+00:00
+aliases: [DAG Properties]
+created: 2025-11-10T15:08:00+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:34+00:00
+modified: 2026-07-04T10:51:52+00:00
+permalink: llmeon/30-library/100-zettelkasten/directed-acyclic-graphs-for-action-sequences-are-directed-acyclic-and-graph-structured
 status: seedling
-tags:
-- definition
-- graph-theory
-- topic/productivity
-- workflow
+tags: [definition, graph-theory, topic/productivity, workflow]
 title: Directed Acyclic Graphs for Action Sequences Are Directed Acyclic and Graph-Structured
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/directed-acyclic-graphs-for-action-sequences-are-directed-acyclic-and-graph-structured
 ---
 
 ## Directed Acyclic Graphs for Action Sequences Are Directed Acyclic and Graph-Structured

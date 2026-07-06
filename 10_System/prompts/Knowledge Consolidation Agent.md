@@ -1,17 +1,13 @@
 ---
-created: 2026-02-01 14:02:03+00:00
+created: 2026-02-01T14:02:03+00:00
 description: Consolidate an input note into the vault by finding duplicates/related
   notes and producing merge+deprecation artefacts.
-modified: 2026-05-26 11:44:37+00:00
-tags:
-- agent/consolidation
-- domain/pkm
-- sot
-- type/system
+modified: 2026-07-04T10:52:06+00:00
+permalink: llmeon/10-system/prompts/knowledge-consolidation-agent
+tags: [agent/consolidation, domain/pkm, sot, type/system]
 title: Knowledge Consolidation Agent
 type: prompt
 version: 2
-permalink: llmeon/10-system/prompts/knowledge-consolidation-agent
 ---
 
 ## SYSTEM ROLE: Principal Knowledge Graph Engineer

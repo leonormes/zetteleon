@@ -1,20 +1,14 @@
 ---
-aliases:
-- Bottom-Up vs Top-Down
-- Emergent Structure
-created: 2025-10-30 15:33:36+00:00
+aliases: [Bottom-Up vs Top-Down, Emergent Structure]
+created: 2025-10-30T15:33:36+00:00
 last_reviewed: '2025-10-30T00:00:00.000Z'
-modified: 2026-02-01 15:08:36+00:00
+modified: 2026-07-04T10:51:54+00:00
+permalink: llmeon/30-library/100-zettelkasten/bottom-up-organization-allows-emergent-structure
 status: seedling
-tags:
-- emergence
-- organization
-- topic/pkm
-- topic/pkm/zettelkasten
+tags: [emergence, organization, topic/pkm, topic/pkm/zettelkasten]
 title: Bottom-Up Organization Allows Emergent Structure
 type: principle
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/bottom-up-organization-allows-emergent-structure
 ---
 
 ## Bottom-Up Organization Allows Emergent Structure

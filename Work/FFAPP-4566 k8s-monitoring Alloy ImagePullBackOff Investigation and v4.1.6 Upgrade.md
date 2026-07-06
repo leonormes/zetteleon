@@ -2,7 +2,7 @@
 author: Claude Sonnet 4.6 (rust-chart-manager session)
 created: 2026-06-24T00:00:00+00:00
 date: 2026-06-24
-modified: 2026-06-24T09:39:00+00:00
+modified: 2026-07-04T10:50:34+00:00
 permalink: llmeon/work/ffapp-4566-k8s-monitoring-alloy-image-pull-back-off-investigation-and-v4.1.6-upgrade
 related_project: rust-chart-manager (FFAPP-4566)
 status: Config fix applied locally (uncommitted); ACR image mirroring still outstanding
@@ -27,7 +27,7 @@ A live pod (`grafana-alloy-k8s-monitoring-alloy-events-5458b7dc67-m8f7n`, namesp
 
 ---
 
-### 2. Symptom (as reported)
+### 2. Symptom (As rEported)
 
 ```
 Normal   Scheduled  9m28s                   default-scheduler  Successfully assigned monitoring/grafana-alloy-k8s-monitoring-alloy-events-5458b7dc67-m8f7n to aks-system-23892849-vmss00001a
@@ -45,7 +45,7 @@ Both the main `alloy` container and the `configReloader` sidecar were failing—
 
 ---
 
-### 3. Gap 1—Override Path Bug (root Cause, now fixed)
+### 3. Gap 1—Override Path Bug (Root Cause, now fIxed)
 
 #### Mechanism
 
@@ -81,7 +81,7 @@ Confirmed by rendering the chart directly (`helm template … --show-only templa
 
 Note `kube-state-metrics`, `prometheus-node-exporter`, and `opencost` were unaffected by this bug—those genuinely are real Helm subchart aliases (declared as dependencies under the `telemetry-services` feature chart), so their existing `<alias>.image.registry` overrides work as a normal Helm pass-through.
 
-#### Pre-existing Partial Fix Attempt (found in the Working Tree before This session)
+#### Pre-existing Partial Fix Attempt (Found in the Working Tree before This sEssion)
 
 `git status` at session start already showed `config.yaml` as modified (uncommitted), pre-dating this conversation. The pre-existing diff against `HEAD` included an earlier, also-incorrect attempt to fix the same symptom: the `gitops.images` "alloy" entry had been changed from `registry_path: "global.image.registry"` / `tag_path: "alloy-metrics.image.tag"` to `registry_path: "alloy.image.registry"` / `tag_path: "alloy.image.tag"`—i.e. someone had already noticed `global.image.registry` was wrong and "fixed" it, but landed on `alloy.image.registry`, which is equally dead for the reason above. This confirms the CRD-architecture nuance was the actual blocker, not a typo.
 
@@ -118,7 +118,7 @@ Also corrected the still-active `gitops.images` "alloy" entry (used by `src/rewr
 
 ---
 
-### 4. Gap 2—ACR Content Gap (diagnosed; Remediation pending approval)
+### 4. Gap 2—ACR Content Gap (Diagnosed; Remediation pending aPproval)
 
 #### Mechanism
 
@@ -131,7 +131,7 @@ Even with the value path fixed, fixing _where_ the registry override lands doesn
 
 The repositories themselves exist in ACR (`grafana/alloy`, `prometheus-operator/prometheus-config-reloader`, `grafana/alloy-operator`, plus `bitnami/grafana-alloy` and `helm/grafana-alloy` artifacts)—only the specific tags the v4.x operator needs are missing.
 
-#### Why This Tool Can Never Auto-discover This (structural finding)
+#### Why This Tool Can Never Auto-discover This (Structural fInding)
 
 Traced the image-mirroring pipeline fully:
 
@@ -140,7 +140,7 @@ Traced the image-mirroring pipeline fully:
 - Even if it did match the shape, the actual tag (`v1.16.1` / `v0.91.0@sha256:…`) never appears in any rendered manifest at all—the operator's default tag is a constant compiled into its Go binary, filled in only at live reconcile time, completely outside Helm's rendering reach. Confirmed by diffing `collectors/alloy-values.yaml` (the chart's local defaults file) and `collectors/upstream/alloy-values.yaml` (the reference upstream-chart defaults)—neither is wired into the CR-building template path, and the chart ships no `annotations.images` metadata in `Chart.yaml` that could have served as an escape hatch (the tool's `scan_chart_metadata` function checks for exactly that, and it's absent here).
 - This means `src/importer.rs::internalize_chart` (which drives `az acr import` based on what `analysis.rs` discovers) never had a chance to mirror these two images. This is a genuine blind spot for any operator/CRD-pattern chart, not specific to a misconfiguration—Alloy is the first chart in this config where it bites.
 
-#### Proposed Remediation (not executed—needs Explicit Confirmation, Writes to Shared ACR)
+#### Proposed Remediation (Not executed—needs Explicit Confirmation, Writes to Shared ACR)
 
 ```sh
 az acr import --name fitfileregistry --source docker.io/grafana/alloy:v1.16.1 --image grafana/alloy:v1.16.1
@@ -158,7 +158,7 @@ The second command imports by digest specifically and tags it `v0.91.0` in ACR�
 
 User requested upgrading the vendored chart from 4.1.5 → 4.1.6 (separately from the bug fix above).
 
-#### What Changed (verified via `helm pull` + Diff, not assumed)
+#### What Changed (Verified via `helm pull` + Diff, not aSsumed)
 
 - `Chart.yaml`: chart version 4.1.5 → 4.1.6; `alloy-operator` dependency 0.5.9 → 0.5.10; `kube-state-metrics` dependency 7.3.0 → 7.5.1 (per `CHANGELOG.md`, also Beyla bump unrelated to this).
 - `CHANGELOG.md` (4.1.6 entries):

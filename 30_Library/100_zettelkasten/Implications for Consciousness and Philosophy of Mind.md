@@ -1,18 +1,14 @@
 ---
 aliases: []
-created: 2025-08-31 16:07:23+00:00
+created: 2025-08-31T16:07:23+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:32+00:00
+modified: 2026-07-04T10:51:50+00:00
+permalink: llmeon/30-library/100-zettelkasten/implications-for-consciousness-and-philosophy-of-mind
 status: ''
-tags:
-- consciousness
-- mental-representation
-- philosophy-of-mind
-- qualia
+tags: [consciousness, mental-representation, philosophy-of-mind, qualia]
 title: Implications for Consciousness and Philosophy of Mind
 type: ''
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/implications-for-consciousness-and-philosophy-of-mind
 ---
 
 The relationship between thought and language has profound implications for our understanding of consciousness and the philosophy of mind, challenging traditional views and opening new avenues of inquiry.

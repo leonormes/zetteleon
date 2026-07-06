@@ -1,12 +1,9 @@
 ---
-created: 2026-01-21 10:11:54+00:00
-modified: 2026-02-01 15:08:03+00:00
-tags:
-- llm
-- prompt-engineering
-- protocol
-title: Protocol - Context Injection
+created: 2026-01-21T10:11:54+00:00
+modified: 2026-07-04T10:51:07+00:00
 permalink: llmeon/30-library/so-t/protocol-context-injection
+tags: [llm, prompt-engineering, protocol]
+title: Protocol - Context Injection
 ---
 
 ## Protocol - Context Injection

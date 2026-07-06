@@ -1,18 +1,11 @@
 ---
-created: 2026-05-16 09:13:00+01:00
-modified: 2026-05-26 11:43:39+00:00
-pieces_ids:
-- 02e079a9-1f7c-44f8-b000-6e72e5e9effc
-- 42a0f7bf-b63f-4b0b-a420-a56374bbb3bf
-- e45bca2a-528b-4a12-9b90-ceb0bc714bf6
-- ebe60ea4-157f-47de-b5f3-3d643eeace5d
-- f5738669-223d-4c48-8c47-fe20cc869dae
-source: pieces-ltm
-tags:
-- pieces
-- raw
-title: 2026-05-16-pieces-hermes-session
+created: 2026-05-16T08:13:00+00:00
+modified: 2026-07-04T10:50:08+00:00
 permalink: llmeon/raw/2026-05-16-pieces-hermes-session
+pieces_ids: [02e079a9-1f7c-44f8-b000-6e72e5e9effc, 42a0f7bf-b63f-4b0b-a420-a56374bbb3bf, e45bca2a-528b-4a12-9b90-ceb0bc714bf6, ebe60ea4-157f-47de-b5f3-3d643eeace5d, f5738669-223d-4c48-8c47-fe20cc869dae]
+source: pieces-ltm
+tags: [pieces, raw]
+title: 2026-05-16-pieces-hermes-session
 ---
 
 ## Session Activity—2026-05-15 Afternoon

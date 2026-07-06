@@ -1,18 +1,14 @@
 ---
 aliases: []
-created: 2025-11-10 13:04:00+00:00
+created: 2025-11-10T13:04:00+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:30+00:00
+modified: 2026-07-04T10:51:49+00:00
+permalink: llmeon/30-library/100-zettelkasten/modern-productivity-systems-formalize-implicit-historical-strategies
 status: seedling
-tags:
-- gtd
-- TheHuman/Habits
-- topic/productivity
-- topic/systems
+tags: [gtd, TheHuman/Habits, topic/productivity, topic/systems]
 title: Modern Productivity Systems Formalize Implicit Historical Strategies
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/modern-productivity-systems-formalize-implicit-historical-strategies
 ---
 
 ## Modern Productivity Systems Formalize Implicit Historical Strategies

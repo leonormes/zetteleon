@@ -1,19 +1,12 @@
 ---
-contrasts_with:
-- '[[Claim - Treat the system as iterative not perfectable]]'
-created: 2026-05-31 00:00:00+00:00
-modified: 2026-05-31 17:21:46+00:00
-related_to:
-- '[[Claim - Novelty-craving drives self-defeating system-hopping]]'
-- '[[MOC - ADHD and PKM Systems]]'
-tags:
-- adhd
-- anti-pattern
-- novelty
-- productivity
+contrasts_with: ["[[Claim - Treat the system as iterative not perfectable]]"]
+created: 2026-05-31T00:00:00+00:00
+modified: 2026-07-04T10:51:45+00:00
+permalink: llmeon/30-library/100-zettelkasten/system-hopping
+related_to: ["[[Claim - Novelty-craving drives self-defeating system-hopping]]", "[[MOC - ADHD and PKM Systems]]"]
+tags: [adhd, anti-pattern, novelty, productivity]
 title: System-Hopping
 type: concept
-permalink: llmeon/30-library/100-zettelkasten/system-hopping
 ---
 
 ## System-Hopping

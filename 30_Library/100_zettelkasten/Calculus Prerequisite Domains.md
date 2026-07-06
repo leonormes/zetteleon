@@ -1,20 +1,16 @@
 ---
-created: 2026-04-14 17:19:19+00:00
+created: 2026-04-14T17:19:19+00:00
 created_utc: '2026-04-14T12:00:00Z'
 kind: constraint
-modified: 2026-05-26 11:44:36+00:00
+modified: 2026-07-04T10:51:53+00:00
+permalink: llmeon/30-library/100-zettelkasten/calculus-prerequisite-domains
 source_title: The Roadmap to Calculus I Wish I Had
 source_url: https://youtube.com/watch?v=FavU_QaY9wA
 status: seed
-tags:
-- education
-- foundations
-- mathematics
-- pre-calculus
+tags: [education, foundations, mathematics, pre-calculus]
 title: Calculus Prerequisite Domains
 type: atom
 upstream: '[[Calculus (Definition)]]'
-permalink: llmeon/30-library/100-zettelkasten/calculus-prerequisite-domains
 ---
 
 ## Calculus Prerequisite Domains

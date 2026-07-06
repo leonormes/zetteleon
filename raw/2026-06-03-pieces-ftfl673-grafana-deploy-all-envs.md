@@ -1,30 +1,25 @@
 ---
-title: FTFL-673 — Grafana Deployment Across Environments
-created: 2026-06-03 11:58:12.611008+00:00
-source: pieces-ltm
-pieces_ids:
-- 6f2632a6-67d8-4554-b931-bdb2ddbb9dad
-- 68396118-1dc1-449a-8f6c-aae16bf3f39a
-- 6085cac8-98bc-4f9c-a305-87639db2bc2c
-- 08adeb5d-f82c-437d-a1b0-d266f24756b0
-- 91471615-827f-4f57-ab51-97afe9d2a9b8
-tags:
-- raw
-- pieces
+created: 2026-06-03T00:58:12+00:00
+modified: 2026-07-04T10:49:27+00:00
 permalink: llmeon/raw/2026-06-03-pieces-ftfl673-grafana-deploy-all-envs
+pieces_ids: [08adeb5d-f82c-437d-a1b0-d266f24756b0, 6085cac8-98bc-4f9c-a305-87639db2bc2c, 68396118-1dc1-449a-8f6c-aae16bf3f39a, 6f2632a6-67d8-4554-b931-bdb2ddbb9dad, 91471615-827f-4f57-ab51-97afe9d2a9b8]
+source: pieces-ltm
+tags: [pieces, raw]
+title: 2026-06-03-pieces-ftfl673-grafana-deploy-all-envs
 ---
 
 ## Asset 1 (Pieces: 6f2632a6-67d8-4554-b931-bdb2ddbb9dad)
 
 The user wants a Hermes prompt that:
+
 1. Has Hermes collect all relevant context first (deployment repo, helm charts, environments, etc.)
 2. Then uses a smarter model via OpenRouter to create the actual plan
 3. The issue is that "owl alpha" (their current Hermes model) is getting stuck trying to figure out the plan
 
 So the Hermes prompt needs to be structured in two phases:
-1. **Context gathering phase** - Hermes does the legwork: reads repos, finds chart versions, enumerates environments, renders helm charts, etc.
-2. **Planning phase** - passes the gathered context to a smarter OpenRouter model (likely something like `anthropic/claude-opus-4`, `google/gemini-2.5-pro`, or `openai/o3` etc.) to create the actual migration plan
 
+1. Context gathering phase - Hermes does the legwork: reads repos, finds chart versions, enumerates environments, renders helm charts, etc.
+2. Planning phase - passes the gathered context to a smarter OpenRouter model (likely something like `anthropic/claude-opus-4`, `google/gemini-2.5-pro`, or `openai/o3` etc.) to create the actual migration plan
 
 I need to look through their memory to understand how they've set up Hermes with OpenRouter, what the FTFL-673 context is about, and how they structure prompts that delegate work across multiple models.
 
@@ -34,7 +29,7 @@ give me a hermes prompt to i want hermes to collect the relevant context then us
 
 ## Asset 3 (Pieces: 6085cac8-98bc-4f9c-a305-87639db2bc2c)
 
-Both pagination chains now return `sufficient`. The additional pages surfaced no new environment names, chart versions, or Hermes prompt format corrections that would change the deliverable. One notable new finding to incorporate: a 6 May 2026 note explicitly titled **"Grafana Alloy Monitoring - Prompt Crafting for Hermes Research"** confirms you've used exactly this pattern before (LTM-grounded Hermes research prompts for Grafana/Alloy deployment fixes), and there's also an important detail from the FTFL-673 Todoist task that surfaced in the last FTFL-673 pagination: the ticket's actual scope is **`k8s-monitoring` Helm chart `4.1.3` across all clusters except CUH** (covered separately by FTFL-681).
+Both pagination chains now return `sufficient`. The additional pages surfaced no new environment names, chart versions, or Hermes prompt format corrections that would change the deliverable. One notable new finding to incorporate: a 6 May 2026 note explicitly titled "Grafana Alloy Monitoring - Prompt Crafting for Hermes Research" confirms you've used exactly this pattern before (LTM-grounded Hermes research prompts for Grafana/Alloy deployment fixes), and there's also an important detail from the FTFL-673 Todoist task that surfaced in the last FTFL-673 pagination: the ticket's actual scope is `k8s-monitoring` Helm chart `4.1.3` across all clusters except CUH (covered separately by FTFL-681).
 
 Here is the complete, copy-paste-ready Hermes `/goal` prompt incorporating all grounded context:
 
@@ -156,7 +151,7 @@ The output is complete when:
 
 ---
 
-**One important note on the CUH exclusion:** your Todoist task explicitly states *"EXCEPT CUH (FTFL-681 covers CUH separately)"* — this is the critical scoping constraint I've built into the DO NOT block. The previous Hermes prompts you've generated for Grafana work (e.g. the 6 May 2026 `2026-05-06-pieces-grafana-alloy-monitoring` note) used `hermes --tui` with a `/goal` pasted directly, so paste the block above into `hermes --tui` when ready.
+One important note on the CUH exclusion: your Todoist task explicitly states _"EXCEPT CUH (FTFL-681 covers CUH separately)"_—this is the critical scoping constraint I've built into the DO NOT block. The previous Hermes prompts you've generated for Grafana work (e.g. the 6 May 2026 `2026-05-06-pieces-grafana-alloy-monitoring` note) used `hermes --tui` with a `/goal` pasted directly, so paste the block above into `hermes --tui` when ready.
 
 ## Asset 4 (Pieces: 08adeb5d-f82c-437d-a1b0-d266f24756b0)
 
@@ -166,4 +161,4 @@ Let me search their memory for context about this ticket and the Grafana/deploym
 
 ## Asset 5 (Pieces: 91471615-827f-4f57-ab51-97afe9d2a9b8)
 
-I have ticket https://fitfile.atlassian.net/browse/FTFL-673 to work on. After fixing the testing grafana with the updated grafana we now need to deploy this everywhere. Give me a hermes prompt to analyse the deployment repo and helm charts and plan to fix the grafana across other envs
+I have ticket <https://fitfile.atlassian.net/browse/FTFL-673> to work on. After fixing the testing grafana with the updated grafana we now need to deploy this everywhere. Give me a hermes prompt to analyse the deployment repo and helm charts and plan to fix the grafana across other envs

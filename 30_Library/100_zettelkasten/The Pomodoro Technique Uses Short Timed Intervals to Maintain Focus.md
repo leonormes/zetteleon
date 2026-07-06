@@ -1,19 +1,14 @@
 ---
-aliases:
-- Pomodoro
-created: 2025-11-10 14:07:00+00:00
+aliases: [Pomodoro]
+created: 2025-11-10T14:07:00+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:25+00:00
+modified: 2026-07-04T10:51:44+00:00
+permalink: llmeon/30-library/100-zettelkasten/the-pomodoro-technique-uses-short-timed-intervals-to-maintain-focus
 status: seedling
-tags:
-- focus
-- pomodoro-technique
-- time-management
-- topic/productivity
+tags: [focus, pomodoro-technique, time-management, topic/productivity]
 title: The Pomodoro Technique Uses Short Timed Intervals to Maintain Focus
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/the-pomodoro-technique-uses-short-timed-intervals-to-maintain-focus
 ---
 
 ## The Pomodoro Technique Uses Short Timed Intervals to Maintain Focus

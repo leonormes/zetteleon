@@ -1,18 +1,14 @@
 ---
-aliases:
-- MAF Test
-created: 2026-01-08 12:45:00+00:00
+aliases: [MAF Test]
+created: 2026-01-08T12:45:00+00:00
 last_reviewed: 2026-01-08
-modified: 2026-02-01 15:08:25+00:00
+modified: 2026-07-04T10:51:44+00:00
+permalink: llmeon/30-library/100-zettelkasten/the-maf-test-measures-aerobic-conditioning-progress
 status: seedling
-tags:
-- assessment
-- fitness
-- metrics
+tags: [assessment, fitness, metrics]
 title: The MAF Test Measures Aerobic Conditioning Progress
 type: instructional
 updated: 2026-01-08 12:45:00+00:00
-permalink: llmeon/30-library/100-zettelkasten/the-maf-test-measures-aerobic-conditioning-progress
 ---
 
 ## The MAF Test Measures Aerobic Conditioning Progress

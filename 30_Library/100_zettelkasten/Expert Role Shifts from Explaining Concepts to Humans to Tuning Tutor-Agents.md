@@ -1,13 +1,9 @@
 ---
-created: 2026-04-10 13:00:00+00:00
-modified: 2026-05-26 11:44:35+00:00
-tags:
-- ai-agents
-- education
-- knowledge-distillation
-- tutors
-title: Expert Role Shifts from Explaining Concepts to Humans to Tuning Tutor-Agents
+created: 2026-04-10T13:00:00+00:00
+modified: 2026-07-04T10:51:51+00:00
 permalink: llmeon/30-library/100-zettelkasten/expert-role-shifts-from-explaining-concepts-to-humans-to-tuning-tutor-agents
+tags: [ai-agents, education, knowledge-distillation, tutors]
+title: Expert Role Shifts from Explaining Concepts to Humans to Tuning Tutor-Agents
 ---
 
 ## Expert Role Shifts from Explaining Concepts to Humans to Tuning Tutor-Agents

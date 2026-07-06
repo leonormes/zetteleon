@@ -1,14 +1,14 @@
 ---
 aliases: []
-created: 2025-05-26 20:32:11+00:00
+created: 2025-05-26T20:32:11+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:32+00:00
+modified: 2026-07-04T10:51:50+00:00
+permalink: llmeon/30-library/100-zettelkasten/influence-of-programming-paradigms-on-mental-models
 status: ''
 tags: []
 title: Influence of Programming Paradigms on Mental Models
 type: ''
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/influence-of-programming-paradigms-on-mental-models
 ---
 
 Programming paradigms (e.g., Object-Oriented Programming, Functional Programming, Procedural Programming) are not merely collections of language features; they represent fundamental approaches to thinking about and structuring solutions to problems. As such, they profoundly influence the kinds of mental models developers construct.

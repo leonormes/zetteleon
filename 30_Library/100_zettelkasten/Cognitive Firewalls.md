@@ -1,20 +1,16 @@
 ---
-created: 2026-04-14 20:54:42+00:00
+created: 2026-04-14T20:54:42+00:00
 created_utc: '2026-04-14T14:20:00Z'
 kind: procedure
-modified: 2026-05-26 11:44:36+00:00
+modified: 2026-07-04T10:51:53+00:00
+permalink: llmeon/30-library/100-zettelkasten/cognitive-firewalls
 source_title: Why Is AI Making My Job Worse?
 source_url: http://www.youtube.com/watch?v=NDyuJcR2GH4
 status: seed
-tags:
-- deep-work
-- focus
-- time-blocking
-- workflow-design
+tags: [deep-work, focus, time-blocking, workflow-design]
 title: Cognitive Firewalls
 type: atom
 upstream: '[[SoT - Principles for Peaceful Productivity]]'
-permalink: llmeon/30-library/100-zettelkasten/cognitive-firewalls
 ---
 
 ## Cognitive Firewalls

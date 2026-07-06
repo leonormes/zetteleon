@@ -1,18 +1,14 @@
 ---
 aliases: []
-created: 2025-08-31 16:07:06+00:00
+created: 2025-08-31T16:07:06+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:35+00:00
+modified: 2026-07-04T10:51:53+00:00
+permalink: llmeon/30-library/100-zettelkasten/cross-cultural-communication-effectiveness
 status: ''
-tags:
-- cross-cultural-communication
-- culture
-- language
-- TheHuman/Cognition/bias
+tags: [cross-cultural-communication, culture, language, TheHuman/Cognition/bias]
 title: Cross-Cultural Communication Effectiveness
 type: ''
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/cross-cultural-communication-effectiveness
 ---
 
 Despite the inherent limitations of language and cultural differences, humans demonstrate a remarkable ability to communicate across linguistic and cultural boundaries. This effectiveness stems from several key factors.

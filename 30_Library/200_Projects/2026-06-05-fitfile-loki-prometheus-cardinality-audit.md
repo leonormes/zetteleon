@@ -1,21 +1,14 @@
 ---
-created: 2026-06-05 00:00:00+00:00
-modified: 2026-06-08 11:49:15+00:00
+created: 2026-06-05T00:00:00+00:00
+modified: 2026-07-04T10:51:41+00:00
+permalink: llmeon/30-library/200-projects/2026-06-05-fitfile-loki-prometheus-cardinality-audit
 project_category: refined_deployment
 project_name: Refined Deployment
 project_status: active
 source: gcx CLI audit (fitfiletest context)
-tags:
-- audit
-- cardinality
-- cost-optimisation
-- fitfile
-- grafana-cloud
-- loki
-- prometheus
+tags: [audit, cardinality, cost-optimisation, fitfile, grafana-cloud, loki, prometheus]
 title: 2026-06-05-fitfile-loki-prometheus-cardinality-audit
 type: null
-permalink: llmeon/30-library/200-projects/2026-06-05-fitfile-loki-prometheus-cardinality-audit
 ---
 
 ## FITFILE—Loki & Prometheus Cardinality Audit
@@ -159,7 +152,7 @@ Known opportunities (from observed data):
 
 ### 6. Recommended Alloy / values.yaml Changes
 
-#### Loki—`grafana-k8s-monitoring` values.yaml (testing cluster)
+#### Loki—`grafana-k8s-monitoring` values.yaml (Testing cLuster)
 
 ```yaml
 # Add under `logs` section:

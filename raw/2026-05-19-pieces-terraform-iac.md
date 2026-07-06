@@ -1,20 +1,11 @@
 ---
 created: Invalid date
-modified: 2026-05-26 11:43:35+00:00
-pieces_ids:
-- 01eed862-bad9-4871-ab9e-8c157c7af1a5
-- 88486d20-aa29-4a9a-aa44-dc318f400060
-- 937d50fb-f707-468c-bf36-095c2bc867e9
-- a4e75b56-6094-48ef-b660-5a548874f472
-- a55085fd-ea64-43cb-b750-4a1b62880c95
-- b86f62ea-f554-49c3-8f5f-d03a189d909b
-- ff577e34-97b5-43b6-9d92-45feab40fd0b
-source: pieces-ltm
-tags:
-- pieces
-- raw
-title: 2026-05-19-pieces-terraform-iac
+modified: 2026-07-04T10:50:00+00:00
 permalink: llmeon/raw/2026-05-19-pieces-terraform-iac
+pieces_ids: [01eed862-bad9-4871-ab9e-8c157c7af1a5, 88486d20-aa29-4a9a-aa44-dc318f400060, 937d50fb-f707-468c-bf36-095c2bc867e9, a4e75b56-6094-48ef-b660-5a548874f472, a55085fd-ea64-43cb-b750-4a1b62880c95, b86f62ea-f554-49c3-8f5f-d03a189d909b, ff577e34-97b5-43b6-9d92-45feab40fd0b]
+source: pieces-ltm
+tags: [pieces, raw]
+title: 2026-05-19-pieces-terraform-iac
 ---
 
 ## Asset 1 (Pieces: 88486d20-aa29-4a9a-aa44-dc318f400060)

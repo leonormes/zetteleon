@@ -1,20 +1,15 @@
 ---
-aliases:
-- Mutual Respect in a Relationship
-created: 2025-11-10 10:01:00+00:00
+aliases: [Mutual Respect in a Relationship]
+created: 2025-11-10T10:01:00+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:30+00:00
+modified: 2026-07-04T10:51:49+00:00
+permalink: llmeon/30-library/100-zettelkasten/mutual-respect-in-a-partnership-involves-valuing-opinions-speaking-kindly-and-honouring-boundaries
 status: seedling
-tags:
-- boundaries
-- communication
-- relationship
-- respect
-title: Mutual Respect in a Partnership Involves Valuing Opinions Speaking Kindly and
+tags: [boundaries, communication, relationship, respect]
+title: Mutual Respect in a Partnership Involves Valuing Opinions Speaking Kindly and Honouring Boundaries
   Honouring Boundaries
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/mutual-respect-in-a-partnership-involves-valuing-opinions-speaking-kindly-and-honouring-boundaries
 ---
 
 ## Mutual Respect in a Partnership Involves Valuing Opinions Speaking Kindly and Honouring Boundaries

@@ -1,17 +1,14 @@
 ---
 aliases: []
-created: 2025-08-11 17:28:13+00:00
+created: 2025-08-11T17:28:13+00:00
 last_reviewed: 'null'
-modified: 2026-02-01 15:08:25+00:00
+modified: 2026-07-04T10:51:44+00:00
+permalink: llmeon/30-library/100-zettelkasten/the-ping-as-a-signal-for-growth
 status: 'null'
-tags:
-- emotions
-- growth
-- TheHuman/Psychology
+tags: [emotions, growth, TheHuman/Psychology]
 title: The Ping as a Signal for Growth
 type: redirect
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/the-ping-as-a-signal-for-growth
 ---
 
 This note has been consolidated. See:

@@ -1,18 +1,12 @@
 ---
-aliases:
-- Pre-commitment Strategy
-- Strategic Constraint
-- Ulysses Pact
-created: 2026-01-12 12:20:00+00:00
-modified: 2026-02-01 15:08:01+00:00
+aliases: [Pre-commitment Strategy, Strategic Constraint, Ulysses Pact]
+created: 2026-01-12T12:20:00+00:00
+modified: 2026-07-04T10:51:03+00:00
+permalink: llmeon/30-library/so-t/so-t-commitment-devices-ulysses-pacts
 status: stable
-tags:
-- behavioral-science
-- prodos/sot
-- strategy
+tags: [behavioral-science, prodos/sot, strategy]
 title: SoT - Commitment Devices (Ulysses Pacts)
 type: SoT
-permalink: llmeon/30-library/so-t/so-t-commitment-devices-ulysses-pacts
 ---
 
 ## Commitment Devices (Ulysses Pacts)

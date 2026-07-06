@@ -1,21 +1,11 @@
 ---
-aliases:
-- Cross-Cloud Troubleshooting
-- DirectConnect Debugging
-- ExpressRoute Debugging
-- Hybrid Networking Debugging
-created: 2026-02-04 00:00:00+00:00
-modified: 2026-03-14 11:10:11+00:00
-tags:
-- aws
-- azure
-- hybrid-cloud
-- networking
-- sot
-- troubleshooting
+aliases: [Cross-Cloud Troubleshooting, DirectConnect Debugging, ExpressRoute Debugging, Hybrid Networking Debugging]
+created: 2026-02-04T00:00:00+00:00
+modified: 2026-07-04T10:50:44+00:00
+permalink: llmeon/30-library/ops/so-t-network-hybrid-debugging
+tags: [aws, azure, hybrid-cloud, networking, sot, troubleshooting]
 title: SoT - network-hybrid-debugging
 type: sot
-permalink: llmeon/30-library/ops/so-t-network-hybrid-debugging
 ---
 
 ## 1. The Hybrid Connectivity Stack

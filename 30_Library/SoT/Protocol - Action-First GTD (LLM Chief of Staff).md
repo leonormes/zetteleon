@@ -1,19 +1,12 @@
 ---
-aliases:
-- Action-First GTD
-- Dump Don't Organize
-- LLM Chief of Staff
-created: 2026-02-11 11:40:00+00:00
-modified: 2026-02-12 16:59:49+00:00
+aliases: ["Dump Don't Organize", Action-First GTD, LLM Chief of Staff]
+created: 2026-02-11T11:40:00+00:00
+modified: 2026-07-04T10:51:07+00:00
+permalink: llmeon/30-library/so-t/protocol-action-first-gtd-llm-chief-of-staff
 status: active
-tags:
-- adhd
-- gtd
-- llm
-- system/protocol
+tags: [adhd, gtd, llm, system/protocol]
 title: Protocol - Action-First GTD (LLM Chief of Staff)
 type: protocol
-permalink: llmeon/30-library/so-t/protocol-action-first-gtd-llm-chief-of-staff
 ---
 
 ## Logic Map

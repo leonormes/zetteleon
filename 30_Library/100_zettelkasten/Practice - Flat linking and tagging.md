@@ -1,18 +1,12 @@
 ---
-created: 2026-05-31 00:00:00+00:00
-instance_of:
-- '[[Claim - Flat associative structure beats rigid hierarchy]]'
-modified: 2026-05-31 17:21:56+00:00
-related_to:
-- '[[Cognitive Load]]'
-tags:
-- adhd
-- linking
-- pkm
-- structure
+created: 2026-05-31T00:00:00+00:00
+instance_of: ["[[Claim - Flat associative structure beats rigid hierarchy]]"]
+modified: 2026-07-04T10:51:47+00:00
+permalink: llmeon/30-library/100-zettelkasten/practice-flat-linking-and-tagging
+related_to: ["[[Cognitive Load]]"]
+tags: [adhd, linking, pkm, structure]
 title: Practice - Flat linking and tagging
 type: practice
-permalink: llmeon/30-library/100-zettelkasten/practice-flat-linking-and-tagging
 ---
 
 ## Practice—Flat Linking and Tagging

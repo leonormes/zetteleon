@@ -1,16 +1,11 @@
 ---
 aliases: []
-created: 2026-06-17 12:45:00+01:00
-modified: 2026-06-18 08:49:29+00:00
-tags:
-- as05-milestone
-- fitfile
-- infrastructure
-- management
-- testing
-title: EXEC - FFNode Stress Testing Summary
-project_name: Stress Testing
+created: 2026-06-17T11:45:00+00:00
+modified: 2026-07-04T10:51:37+00:00
 permalink: llmeon/30-library/200-projects/exec-ffnode-stress-testing-summary
+project_name: Stress Testing
+tags: [as05-milestone, fitfile, infrastructure, management, testing]
+title: EXEC - FFNode Stress Testing Summary
 ---
 
 ## FFNode Stress Testing—Executive Summary
@@ -19,7 +14,7 @@ Status: Draft | Author: Leon Ormes | Audience: Leadership / Stakeholders
 
 ---
 
-### The Problem (in Plain English)
+### The Problem (In Plain English)
 
 In April 2026, our FITFILE federated data system experienced a query timeout that we only learned about because a customer complained. We fixed the immediate symptom but discovered two underlying gaps:
 
@@ -40,7 +35,7 @@ This programme defines a structured testing plan to solve both.
 
 ---
 
-### Key Deliverables (by 31 July 2026)
+### Key Deliverables (By 31 July 2026)
 
 #### For Management
 

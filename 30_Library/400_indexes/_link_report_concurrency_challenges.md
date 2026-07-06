@@ -1,12 +1,12 @@
 ---
-created: 2026-04-14 17:47:56+00:00
+created: 2026-04-14T17:47:56+00:00
 created_utc: '2026-04-14T12:30:00Z'
-modified: 2026-05-26 11:44:23+00:00
+modified: 2026-07-04T10:51:14+00:00
+permalink: llmeon/30-library/400-indexes/link-report-concurrency-challenges
 source_atoms: '[[tmp_atoms_concurrency_challenges.md]]'
 status: tmp
 title: _link_report_concurrency_challenges
 type: link_report
-permalink: llmeon/30-library/400-indexes/link-report-concurrency-challenges
 ---
 
 ## Link Report: The Fundamental Challenge of Concurrent and Distributed Systems
@@ -30,6 +30,6 @@ permalink: llmeon/30-library/400-indexes/link-report-concurrency-challenges
 | [[Invariants vs Behavioural Sequences]] | 3 | [[SoT - Fundamentals of Mathematical Logic]]—upstream |
 | [[Paxos vs Raft (Correctness vs Intuition)]] | 3 | [[SoT - Rust Concurrency & Async Paradigms]]—upstream |
 
-### Orphan Atoms (no Links found)
+### Orphan Atoms (No Links fOund)
 
 (none)

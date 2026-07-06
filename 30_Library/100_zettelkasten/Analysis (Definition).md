@@ -1,18 +1,14 @@
 ---
-aliases:
-- Mathematical Analysis
-- Real Analysis
-created: 2025-11-01 11:22:13+00:00
+aliases: [Mathematical Analysis, Real Analysis]
+created: 2025-11-01T11:22:13+00:00
 last_reviewed: '2025-11-01'
-modified: 2026-02-01 15:08:37+00:00
+modified: 2026-07-04T10:51:54+00:00
+permalink: llmeon/30-library/100-zettelkasten/analysis-definition
 status: seedling
-tags:
-- fields
-- topic/maths
+tags: [fields, topic/maths]
 title: Analysis (Definition)
 type: definition
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/analysis-definition
 ---
 
 Definition: Analysis is the rigorous, formal study of limits, continuity, differentiation, integration, and infinite processes, providing the logical foundation for calculus.

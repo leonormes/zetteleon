@@ -1,21 +1,14 @@
 ---
-aliases:
-- Ephemeral Cohort Generation
-- Read-Only OMOP
-- Transient CTE Pattern
-created: 2026-01-06 19:27:24+00:00
+aliases: [Ephemeral Cohort Generation, Read-Only OMOP, Transient CTE Pattern]
+created: 2026-01-06T19:27:24+00:00
 last_reviewed: null
-modified: 2026-02-01 15:07:54+00:00
+modified: 2026-07-04T10:50:54+00:00
+permalink: llmeon/30-library/so-t/so-t-ohdsi-read-only-architecture
 status: Active
-tags:
-- ohdsi
-- read-only
-- SoftwareEngineering/Architecture
-- sql
+tags: [ohdsi, read-only, SoftwareEngineering/Architecture, sql]
 title: SoT - OHDSI Read-Only Architecture
 type: SoT
 updated: null
-permalink: llmeon/30-library/so-t/so-t-ohdsi-read-only-architecture
 ---
 
 ## SoT - OHDSI Read-Only Architecture

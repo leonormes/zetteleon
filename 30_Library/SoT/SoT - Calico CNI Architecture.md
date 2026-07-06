@@ -1,21 +1,12 @@
 ---
-aliases:
-- Calico Architecture
-- eBPF Data Plane
-- Felix
-- Project Calico
-created: 2026-02-05 00:00:00+00:00
-modified: 2026-02-05 19:59:37+00:00
+aliases: [Calico Architecture, eBPF Data Plane, Felix, Project Calico]
+created: 2026-02-05T00:00:00+00:00
+modified: 2026-07-04T10:51:03+00:00
+permalink: llmeon/30-library/so-t/so-t-calico-cni-architecture
 status: stable
-tags:
-- calico
-- ebpf
-- kubernetes
-- networking
-- sot
+tags: [calico, ebpf, kubernetes, networking, sot]
 title: SoT - Calico CNI Architecture
 type: SoT
-permalink: llmeon/30-library/so-t/so-t-calico-cni-architecture
 ---
 
 ## Minimum Viable Understanding (MVU)

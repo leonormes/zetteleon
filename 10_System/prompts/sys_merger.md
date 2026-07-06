@@ -1,14 +1,12 @@
 ---
-created: 2026-01-12 09:05:53+00:00
+created: 2026-01-12T09:05:53+00:00
 description: Merge multiple source notes into one authoritative target note with clean
   SoT/Protocol frontmatter.
-modified: 2026-05-26 11:44:37+00:00
-tags:
-- agent
-- type/system
+modified: 2026-07-04T10:52:05+00:00
+permalink: llmeon/10-system/prompts/sys-merger
+tags: [agent, type/system]
 title: sys_merger
 type: prompt
-permalink: llmeon/10-system/prompts/sys-merger
 ---
 
 ## Role: The Merger (Content Synthesizer)

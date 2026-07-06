@@ -1,15 +1,14 @@
 ---
 aliases: []
-created: 2025-05-17 16:31:44+00:00
+created: 2025-05-17T16:31:44+00:00
 last_reviewed: 'null'
-modified: 2026-02-01 15:08:31+00:00
+modified: 2026-07-04T10:51:49+00:00
+permalink: llmeon/30-library/100-zettelkasten/layer-7-application-layer
 status: 'null'
-tags:
-- SoftwareEngineering/Networking
+tags: [SoftwareEngineering/Networking]
 title: Layer 7 Application Layer
 type: 'null'
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/layer-7-application-layer
 ---
 
 The Application Layer is the OSI layer closest to the end user, which means both the end user and the application layer interact directly with the software application. This layer provides the interface between applications and the network, enabling applications to access network services. It is responsible for identifying and establishing the availability of intended communication partners, synchronizing cooperating applications, and establishing agreement on procedures for error recovery and control of data integrity.

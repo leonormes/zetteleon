@@ -1,15 +1,14 @@
 ---
 aliases: []
-created: 2025-08-26 09:27:23+00:00
+created: 2025-08-26T09:27:23+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:35+00:00
+modified: 2026-07-04T10:51:53+00:00
+permalink: llmeon/30-library/100-zettelkasten/cryptographys-goal-obfuscating-patterns
 status: ''
-tags:
-- information
-title: Cryptography's Goal - Obfuscating Patterns
+tags: [information]
+title: "Cryptography's Goal - Obfuscating Patterns"
 type: ''
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/cryptographys-goal-obfuscating-patterns
 ---
 
 🔑 Cryptography is a practical application that sits at the intersection of patterned and random-seeming data.

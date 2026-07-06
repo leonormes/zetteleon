@@ -1,19 +1,14 @@
 ---
-aliases:
-- Reduced Decision Fatigue
-created: 2025-11-01 21:04:00+00:00
+aliases: [Reduced Decision Fatigue]
+created: 2025-11-01T21:04:00+00:00
 last_reviewed: '2025-11-01'
-modified: 2026-02-01 15:08:24+00:00
+modified: 2026-07-04T10:51:44+00:00
+permalink: llmeon/30-library/100-zettelkasten/timeboxing-reduces-decision-fatigue
 status: evergreen
-tags:
-- decision-fatigue
-- TheHuman/Psychology
-- time-management
-- topic/productivity
+tags: [decision-fatigue, TheHuman/Psychology, time-management, topic/productivity]
 title: Timeboxing Reduces Decision Fatigue
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/timeboxing-reduces-decision-fatigue
 ---
 
 By pre-deciding what to work on and when, timeboxing eliminates the constant, low-level question of "What should I do now?"

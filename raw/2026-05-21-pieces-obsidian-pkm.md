@@ -1,15 +1,11 @@
 ---
-created: 2026-05-21 19:15:29+00:00
-modified: 2026-05-26 11:43:32+00:00
-pieces_ids:
-- 4c9ba5fd-2926-4abf-b978-f42e2fb2b85d
-- 53d0bb40-334f-4f0a-85b5-e63f0c717786
-source: pieces-ltm
-tags:
-- pieces
-- raw
-title: 2026-05-21-pieces-obsidian-pkm
+created: 2026-05-21T19:15:29+00:00
+modified: 2026-07-04T10:49:56+00:00
 permalink: llmeon/raw/2026-05-21-pieces-obsidian-pkm
+pieces_ids: [4c9ba5fd-2926-4abf-b978-f42e2fb2b85d, 53d0bb40-334f-4f0a-85b5-e63f0c717786]
+source: pieces-ltm
+tags: [pieces, raw]
+title: 2026-05-21-pieces-obsidian-pkm
 ---
 
 ## Asset 1 (Pieces: 4c9ba5fd-2926-4abf-b978-f42e2fb2b85d)—11:22:13

@@ -1,14 +1,14 @@
 ---
 aliases: []
-created: 2025-07-10 10:12:15+00:00
+created: 2025-07-10T10:12:15+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:23+00:00
+modified: 2026-07-04T10:51:43+00:00
+permalink: llmeon/30-library/100-zettelkasten/world-wonder-skills-how-you-connect-to-the-world
 status: ''
 tags: []
 title: World & Wonder Skills (How You Connect to the World)
 type: ''
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/world-wonder-skills-how-you-connect-to-the-world
 ---
 
 _These skills are about how you find joy, meaning, and your place in the wider world._

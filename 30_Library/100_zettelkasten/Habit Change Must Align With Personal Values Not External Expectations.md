@@ -1,20 +1,14 @@
 ---
-aliases:
-- Intrinsic Habit Motivation
-- Values-Driven Change
-created: 2025-10-30 15:04:20+00:00
+aliases: [Intrinsic Habit Motivation, Values-Driven Change]
+created: 2025-10-30T15:04:20+00:00
 last_reviewed: '2025-10-30'
-modified: 2026-02-01 15:08:33+00:00
+modified: 2026-07-04T10:51:50+00:00
+permalink: llmeon/30-library/100-zettelkasten/habit-change-must-align-with-personal-values-not-external-expectations
 status: seedling
-tags:
-- intrinsic-motivation
-- TheHuman/Habits
-- TheHuman/Health/ADHD
-- values
+tags: [intrinsic-motivation, TheHuman/Habits, TheHuman/Health/ADHD, values]
 title: Habit Change Must Align With Personal Values Not External Expectations
 type: principle
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/habit-change-must-align-with-personal-values-not-external-expectations
 ---
 
 ## Habit Change Must Align With Personal Values Not External Expectations

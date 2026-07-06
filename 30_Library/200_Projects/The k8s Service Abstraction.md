@@ -1,19 +1,17 @@
 ---
 aliases: []
-created: 2025-03-02 12:09:10+00:00
+created: 2025-03-02T12:09:10+00:00
 last_reviewed: ''
-modified: 2026-06-08 11:49:22+00:00
+modified: 2026-07-04T10:51:24+00:00
+permalink: llmeon/30-library/200-projects/the-k8s-service-abstraction
 project_category: infrastructure
 project_name: k8s
 project_status: archived
 status: ''
-tags:
-- k8s
-- service
+tags: [k8s, service]
 title: The k8s Service Abstraction
 type: ''
 updated: null
-permalink: llmeon/30-library/200-projects/the-k8s-service-abstraction
 ---
 
 ## Why Services Are the Core Networking Abstraction

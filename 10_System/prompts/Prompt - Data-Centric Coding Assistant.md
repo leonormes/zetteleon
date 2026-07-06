@@ -1,15 +1,12 @@
 ---
-created: 2026-03-21 10:00:00+00:00
+created: 2026-03-21T10:00:00+00:00
 description: Enforce data-structure-first problem solving (shape/access/invariants/logic)
   and eliminate validation-heavy code.
-modified: 2026-05-26 11:44:37+00:00
-tags:
-- domain/coding
-- engineering/philosophy
-- type/system
+modified: 2026-07-04T10:52:06+00:00
+permalink: llmeon/10-system/prompts/prompt-data-centric-coding-assistant
+tags: [domain/coding, engineering/philosophy, type/system]
 title: Prompt - Data-Centric Coding Assistant
 type: prompt
-permalink: llmeon/10-system/prompts/prompt-data-centric-coding-assistant
 ---
 
 ## Prompt: The Data-Centric Coding Assistant

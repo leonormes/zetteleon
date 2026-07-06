@@ -1,12 +1,12 @@
 ---
-created: 2026-05-15 12:34:55+00:00
-modified: 2026-06-08 11:49:15+00:00
+created: 2026-05-15T12:34:55+00:00
+modified: 2026-07-04T10:51:39+00:00
+permalink: llmeon/30-library/200-projects/break-glass-identity-the-complete-plan
 project_category: refined_deployment
 project_name: Refined Deployment
 project_status: active
 title: Break-Glass Identity The Complete Plan
 type: null
-permalink: llmeon/30-library/200-projects/break-glass-identity-the-complete-plan
 ---
 
 ## 1. Critique of the Draft
@@ -193,11 +193,11 @@ This is the connection back to your Entra IaC project (the previous conversation
 
 If your password manager (1Password, Bitwarden, etc.) is configured with Entra SSO, storing break-glass credentials in it is catastrophic—the credential needed to recover access is locked behind the same system that's broken. This is a real and frequent failure mode. Paper, in safes, full stop.
 
-### 4.2 The "we'll Test it later" Trap
+### 4.2 The "We'll Test it lAter" Trap
 
 The single most common failure: accounts created, never tested again. Untested break-glass is _worse_ than no break-glass—it creates false confidence. Calendar the quarterly tests now, before anything else.
 
-### 4.3 The "shared phone" Trap
+### 4.3 The "Shared pHone" Trap
 
 If MFA uses a phone number, whose phone is it? The IT team's? Then it's a single point of failure on a person and a device. Phone-based MFA for break-glass is not acceptable; this is why FIDO2 keys are the answer.
 
@@ -205,15 +205,15 @@ If MFA uses a phone number, whose phone is it? The IT team's? Then it's a single
 
 You exclude the accounts today. Six months later, a hurried PR adds a new policy without the exclusion. You don't notice until an actual emergency. The CI gate is non-negotiable—write the Graph API check before declaring the project done.
 
-### 4.5 The "let's Give it a Licence to Monitor it" Trap
+### 4.5 The "Let's Give it a Licence to Monitor iT" Trap
 
 Tempting: assign a licence so the account has a mailbox you can monitor. Don't. Monitoring goes via Log Analytics on the _sign-in and audit logs_, not via the account's own mailbox. A licensed account has more attack surface, more failure modes, and more standing dependencies.
 
-### 4.6 The "register Security info" Trap
+### 4.6 The "Register Security iNfo" Trap
 
 A user with Global Admin rights can self-register new MFA methods on themselves. If an attacker reaches a break-glass session, they can add their own FIDO2 key as a method. The audit alert on "MFA method added" catches this _after_ the fact—useful, but consider also Conditional Access User Actions ("Register security information") policies… with the break-glass accounts excluded, because they _do_ need to register methods initially. Tension to think through; not a clean answer.
 
-### 4.7 The "global Admin is enough" Assumption
+### 4.7 The "Global Admin is eNough" Assumption
 
 Global Administrator role does not automatically grant access to Azure subscriptions (RBAC is separate). For full recovery, the break-glass accounts may also need standing User Access Administrator at the root management group level—and toggling the "Elevate access" flag in Entra. Decide and document.
 

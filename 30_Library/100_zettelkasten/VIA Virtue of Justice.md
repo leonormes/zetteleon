@@ -1,19 +1,14 @@
 ---
-aliases:
-- Virtue of Justice
-created: 2025-07-16 17:30:02+00:00
+aliases: [Virtue of Justice]
+created: 2025-07-16T17:30:02+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:24+00:00
+modified: 2026-07-04T10:51:44+00:00
+permalink: llmeon/30-library/100-zettelkasten/via-virtue-of-justice
 status: ''
-tags:
-- character
-- justice
-- via-strengths
-- virtue
+tags: [character, justice, via-strengths, virtue]
 title: VIA Virtue of Justice
 type: ''
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/via-virtue-of-justice
 ---
 
 The virtue of Justice, as defined by the [[VIA Character Strengths]] framework, comprises civic strengths that underlie a healthy and thriving community life.

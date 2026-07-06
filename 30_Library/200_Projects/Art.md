@@ -1,10 +1,10 @@
 ---
-created: 2026-05-04 08:01:26+00:00
-modified: 2026-06-08 11:49:24+00:00
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-07-04T10:51:40+00:00
+permalink: llmeon/30-library/200-projects/art
 project_name: Bessie
 title: Art
 type: note
-permalink: llmeon/30-library/200-projects/art
 ---
 
 ## Art

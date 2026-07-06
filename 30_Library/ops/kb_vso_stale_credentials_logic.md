@@ -1,14 +1,11 @@
 ---
-created: 2026-02-21 15:07:26+00:00
-modified: 2026-03-14 11:10:10+00:00
+created: 2026-02-21T15:07:26+00:00
+modified: 2026-07-04T10:50:40+00:00
+permalink: llmeon/30-library/ops/kb-vso-stale-credentials-logic
 service: vso
-tags:
-- security
-- triage
-- vault
+tags: [security, triage, vault]
 title: kb_vso_stale_credentials_logic
 type: kb
-permalink: llmeon/30-library/ops/kb-vso-stale-credentials-logic
 ---
 
 ## KB: VSO Stale Credentials Logic

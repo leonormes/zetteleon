@@ -1,8 +1,9 @@
 ---
 aliases: []
-created: 2025-02-07 12:57:56+00:00
+created: 2025-02-07T12:57:56+00:00
 last_reviewed: ''
-modified: 2026-06-08 11:49:24+00:00
+modified: 2026-07-04T10:51:15+00:00
+permalink: llmeon/30-library/200-projects/terraform-file-read
 project_category: infrastructure
 project_name: DevOps
 project_status: archived
@@ -11,7 +12,6 @@ tags: []
 title: terraform file read
 type: ''
 updated: null
-permalink: llmeon/30-library/200-projects/terraform-file-read
 ---
 
 Terraform provides multiple methods for loading and processing files in Infrastructure-as-Code workflows, with distinct approaches for structured data (like CSV) and cloud-init configurations. Below are the key techniques:

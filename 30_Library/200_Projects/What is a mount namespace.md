@@ -1,22 +1,17 @@
 ---
 aliases: []
-created: 2025-10-24 15:26:00+00:00
+created: 2025-10-24T15:26:00+00:00
 last_reviewed: 'null'
-modified: 2026-06-08 11:49:22+00:00
+modified: 2026-07-04T10:51:23+00:00
+permalink: llmeon/30-library/200-projects/what-is-a-mount-namespace
 project_category: infrastructure
 project_name: k8s
 project_status: archived
 status: 'null'
-tags:
-- isolation
-- mount
-- namespace
-- SoftwareEngineering/Containers
-- SoftwareEngineering/Linux
+tags: [isolation, mount, namespace, SoftwareEngineering/Containers, SoftwareEngineering/Linux]
 title: What is a mount namespace
 type: Factual
 updated: null
-permalink: llmeon/30-library/200-projects/what-is-a-mount-namespace
 ---
 
 Links:

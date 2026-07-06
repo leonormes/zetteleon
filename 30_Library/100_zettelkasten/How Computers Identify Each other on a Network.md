@@ -1,15 +1,14 @@
 ---
 aliases: []
-created: 2025-05-12 05:13:56+00:00
+created: 2025-05-12T05:13:56+00:00
 last_reviewed: 'null'
-modified: 2026-02-01 15:08:33+00:00
+modified: 2026-07-04T10:51:50+00:00
+permalink: llmeon/30-library/100-zettelkasten/how-computers-identify-each-other-on-a-network
 status: 'null'
-tags:
-- SoftwareEngineering/networking/dns
+tags: [SoftwareEngineering/networking/dns]
 title: How Computers Identify Each other on a Network
 type: 'null'
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/how-computers-identify-each-other-on-a-network
 ---
 
 An important concept in DNS for us to know is that computers don't use the human friendly names to identify each other. We use something like `www.example.com`, but this is a label so we know what we are talking about. The BBC wants us to easily find their website serving computers. On the big public Internet those servers have a very non specific 'address';

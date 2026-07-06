@@ -1,18 +1,15 @@
 ---
 aliases: []
-created: 2025-02-07 12:57:54+00:00
+created: 2025-02-07T12:57:54+00:00
 ID: creating_meaningful_links
 last_reviewed: 'null'
-modified: 2026-02-01 15:08:35+00:00
+modified: 2026-07-04T10:51:53+00:00
+permalink: llmeon/30-library/100-zettelkasten/creating-meaningful-links
 status: 'null'
-tags:
-- knowledge-work
-- linking
-- topic/pkm/zettelkasten
+tags: [knowledge-work, linking, topic/pkm/zettelkasten]
 title: Creating Meaningful Links
 type: permanent
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/creating-meaningful-links
 ---
 
 Creating meaningful links between notes is the fundamental mechanism that transforms a collection of isolated thoughts into a dynamic knowledge system. The quality and intentionality of these connections determine whether a zettelkasten becomes a powerful thinking tool or merely a digital filing cabinet.

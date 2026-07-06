@@ -1,22 +1,14 @@
 ---
-aliases:
-- Cosmic Horror Logic
-- Lovecraftian Logic
-- The Significant Insignificance
-created: 2025-12-31 00:00:00+00:00
+aliases: [Cosmic Horror Logic, Lovecraftian Logic, The Significant Insignificance]
+created: 2025-12-31T00:00:00+00:00
 last_reviewed: '2025-12-31'
-modified: 2026-02-01 15:08:00+00:00
+modified: 2026-07-04T10:51:03+00:00
+permalink: llmeon/30-library/so-t/so-t-cosmic-horror-genre-logic
 status: stable
-tags:
-- cosmic-horror
-- genre
-- horror
-- media-analysis
-- TheHuman/Philosophy
+tags: [cosmic-horror, genre, horror, media-analysis, TheHuman/Philosophy]
 title: SoT - Cosmic Horror (Genre Logic)
 type: SoT
 updated: null
-permalink: llmeon/30-library/so-t/so-t-cosmic-horror-genre-logic
 ---
 
 ## 1. Definitive Statement

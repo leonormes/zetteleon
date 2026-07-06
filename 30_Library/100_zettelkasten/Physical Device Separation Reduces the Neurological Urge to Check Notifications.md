@@ -1,13 +1,9 @@
 ---
-created: 2026-04-10 13:00:00+00:00
-modified: 2026-05-26 11:44:33+00:00
-tags:
-- digital-minimalism
-- focus
-- habits
-- neuroscience
-title: Physical Device Separation Reduces the Neurological Urge to Check Notifications
+created: 2026-04-10T13:00:00+00:00
+modified: 2026-07-04T10:51:47+00:00
 permalink: llmeon/30-library/100-zettelkasten/physical-device-separation-reduces-the-neurological-urge-to-check-notifications
+tags: [digital-minimalism, focus, habits, neuroscience]
+title: Physical Device Separation Reduces the Neurological Urge to Check Notifications
 ---
 
 ## Physical Device Separation Reduces the Neurological Urge to Check Notifications

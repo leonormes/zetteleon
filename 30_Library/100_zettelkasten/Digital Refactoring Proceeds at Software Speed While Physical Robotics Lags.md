@@ -1,13 +1,9 @@
 ---
-created: 2026-04-10 13:00:00+00:00
-modified: 2026-05-26 11:44:35+00:00
-tags:
-- digital-transformation
-- economics
-- infrastructure
-- robotics
-title: Digital Refactoring Proceeds at Software Speed While Physical Robotics Lags
+created: 2026-04-10T13:00:00+00:00
+modified: 2026-07-04T10:51:52+00:00
 permalink: llmeon/30-library/100-zettelkasten/digital-refactoring-proceeds-at-software-speed-while-physical-robotics-lags
+tags: [digital-transformation, economics, infrastructure, robotics]
+title: Digital Refactoring Proceeds at Software Speed While Physical Robotics Lags
 ---
 
 ## Digital Refactoring Proceeds at Software Speed While Physical Robotics Lags

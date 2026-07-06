@@ -1,14 +1,14 @@
 ---
 aliases: []
-created: 2025-09-07 15:32:45+00:00
+created: 2025-09-07T15:32:45+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:26+00:00
+modified: 2026-07-04T10:51:45+00:00
+permalink: llmeon/30-library/100-zettelkasten/the-do-path-concept
 status: ''
 tags: []
-title: The 'Do' (Path) Concept
+title: "The 'Do' (Path) Concept"
 type: ''
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/the-do-path-concept
 ---
 
 Musashi emphasised the 'do', or path, which focuses on the journey rather than the destination. This concept is central to various Japanese martial arts and disciplines like Judo, Bushido, and Aikido. It's the continuous process of refinement and practice that leads to mastery.

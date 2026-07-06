@@ -1,23 +1,14 @@
 ---
-aliases:
-- Digital Identity Properties
-- Human Identity
-- Identity Fundamentals
-- Machine Identity
-created: 2025-12-29 20:02:16+00:00
+aliases: [Digital Identity Properties, Human Identity, Identity Fundamentals, Machine Identity]
+created: 2025-12-29T20:02:16+00:00
 last_reviewed: null
-modified: 2026-05-26 11:44:20+00:00
+modified: 2026-07-04T10:51:01+00:00
+permalink: llmeon/30-library/so-t/so-t-digital-identity
 status: Active
-tags:
-- concepts
-- iam
-- SoftwareEngineering/Architecture
-- SoftwareEngineering/Security
-- TheHuman/Identity
+tags: [concepts, iam, SoftwareEngineering/Architecture, SoftwareEngineering/Security, TheHuman/Identity]
 title: SoT - Digital Identity
 type: SoT
 updated: null
-permalink: llmeon/30-library/so-t/so-t-digital-identity
 ---
 
 ## SoT - Digital Identity

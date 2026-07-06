@@ -1,12 +1,13 @@
 ---
-created: 2026-06-08 11:35:53+00:00
+created: 2026-06-08T11:35:53+00:00
 isProject: false
-modified: 2026-06-08 11:49:24+00:00
+modified: 2026-07-04T10:51:16+00:00
 name: Hermes daily-driver cost routing
 overview: Reconfigure Hermes so a free/cheap model handles gather+mechanical tool
   loops, while Claude is only used for bounded high-value reasoning steps (escalations),
   with strong guardrails, caching, and repeatable debugging patterns for daily coding+infra
   work.
+permalink: llmeon/30-library/200-projects/hermes-daily-driver-cost-routing-487849b4.plan
 project_category: hermes_optimisastion
 project_name: Hermes Optimisastion
 project_status: active
@@ -33,21 +34,20 @@ todos:
     success criteria and tuning knobs.
   status: pending
 type: null
-permalink: llmeon/30-library/200-projects/hermes-daily-driver-cost-routing-487849b4.plan
 ---
 
 ## Goal
 
 Make Hermes a daily-driver agent for mixed coding + infra work with 3–5× lower cost by implementing your `Gather → Reason → Act` split: free model runs tool loops + executes known playbooks; paid Claude is invoked only for focused reasoning/diagnosis.
 
-## What You Already Have (good baseline)
+## What You Already Have (Good bAseline)
 
 - Main model is already free-heavy: `openrouter/owl-alpha` in `[private_dot_hermes/private_config.yaml](private_dot_hermes/private_config.yaml)`.
 - OpenRouter safety/routing knobs already present (`provider_routing.data_collection: deny`, `require_parameters: true`, response cache enabled).
 - Delegation is already configured to a paid Claude model via OpenRouter (`delegation.model: anthropic/claude-sonnet-4-6`).
 - You already have a routing skill `[private_dot_hermes/skills/route-task.md](private_dot_hermes/skills/route-task.md)` and a CLI-delegation skill `[private_dot_hermes/skills/premium/claude-code.md](private_dot_hermes/skills/premium/claude-code.md)`.
 
-## Plan (concrete changes)
+## Plan (Concrete cHanges)
 
 ### Model Routing Architecture
 
@@ -80,7 +80,7 @@ Implementation locations:
   - a required "context suitcase" schema
 - Add 2–4 playbook skills for the repeated patterns you listed (below).
 
-### Add Playbook Skills for Repeated Infra Loops (free Model executes)
+### Add Playbook Skills for Repeated Infra Loops (Free Model eXecutes)
 
 Create skills that are purely mechanical and return structured outputs, then re-run until stable:
 
@@ -108,7 +108,7 @@ OpenRouter also supports a `:free` model variant suffix and a Free Models Router
 - Switch `approvals.mode` from `manual` to `smart` for local CLI daily-driver use, but keep the always-on hardline blocklist.
 - Assign a cheap auxiliary model for `auxiliary.approval` (Hermes recommends this pattern) so approval scoring doesn't burn Claude tokens ([Security](https://hermes-agent.nousresearch.com/docs/user-guide/security), [Configuring Models](https://hermes-agent.nousresearch.com/docs/user-guide/configuring-models)).
 
-### Toolset and MCP Hygiene (avoid Accidental spend)
+### Toolset and MCP Hygiene (Avoid Accidental sPend)
 
 - Ensure default toolsets for the coding profile are limited to what you use daily (`terminal`, `file`, `git`, optional `web`) and keep risky toolsets disabled.
 - Review MCP servers in `[private_dot_hermes/private_config.yaml](private_dot_hermes/private_config.yaml)` and:
@@ -118,7 +118,7 @@ OpenRouter also supports a `:free` model variant suffix and a Free Models Router
 
 Hermes MCP filtering keys and naming conventions are in ([MCP docs](https://hermes-agent.nousresearch.com/docs/user-guide/features/mcp)) and ([MCP Config Reference](https://hermes-agent.nousresearch.com/docs/reference/mcp-config-reference)).
 
-## Rollout / Validation (before Buying Many credits)
+## Rollout / Validation (Before Buying Many cRedits)
 
 - Dry-run day: run Hermes with `owl-alpha` only, confirm gather loops + playbooks work; track where escalation triggers.
 - Small-credit pilot: buy the minimum OpenRouter credit amount, then:

@@ -1,17 +1,15 @@
 ---
 aliases: []
-created: 2024-03-19 10:42:55+00:00
+created: 2024-03-19T10:42:55+00:00
 id: 1d
 last_reviewed: 'null'
-modified: 2026-02-01 15:08:37+00:00
+modified: 2026-07-04T10:51:54+00:00
+permalink: llmeon/30-library/100-zettelkasten/alphanumeric-ids-are-addresses-not-categories
 status: 'null'
-tags:
-- note-taking
-- topic/pkm/zettelkasten
+tags: [note-taking, topic/pkm/zettelkasten]
 title: Alphanumeric IDs Are Addresses Not Categories
 type: permanent
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/alphanumeric-ids-are-addresses-not-categories
 ---
 
 Alphanumeric IDs in a Zettelkasten system function as addresses, not categories. They show that a relationship exists between notes but do not define the nature of that relationship.

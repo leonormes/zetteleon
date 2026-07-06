@@ -1,23 +1,16 @@
 ---
-aliases:
-- Behavioral Engineering
-- System > Willpower
-- The Hydraulic Architecture of Behavior
-created: 2026-02-03 10:00:00+00:00
+aliases: [Behavioral Engineering, System > Willpower, The Hydraulic Architecture of Behavior]
+created: 2026-02-03T10:00:00+00:00
 last_synthesis: 2026-02-03
-modified: 2026-02-05 19:59:55+00:00
+modified: 2026-07-04T10:51:04+00:00
+permalink: llmeon/30-library/so-t/so-t-behavioral-architecture
 source_of_truth: true
 status: evergreen
 synthesis-count: 1
-tags:
-- behavioral-science
-- design
-- prodos/sot
-- systems-thinking
+tags: [behavioral-science, design, prodos/sot, systems-thinking]
 title: SoT - Behavioral Architecture
 trust-level: stable
 type: SoT
-permalink: llmeon/30-library/so-t/so-t-behavioral-architecture
 ---
 
 ## Minimum Viable Understanding (MVU)

@@ -1,20 +1,17 @@
 ---
 aliases: []
-created: 2025-10-24 15:22:00+00:00
+created: 2025-10-24T15:22:00+00:00
 last_reviewed: '2026-04-08'
-modified: 2026-06-08 11:49:18+00:00
+modified: 2026-07-04T10:51:29+00:00
+permalink: llmeon/30-library/200-projects/insight-networking-is-data-labeling-not-wires
 project_category: infrastructure
 project_name: Networking
 project_status: archived
 status: refining
-tags:
-- mental-model
-- SoftwareEngineering/Networking
-- TheHuman/Philosophy
+tags: [mental-model, SoftwareEngineering/Networking, TheHuman/Philosophy]
 title: INSIGHT - Networking is data labeling not wires
 type: Insight
 updated: null
-permalink: llmeon/30-library/200-projects/insight-networking-is-data-labeling-not-wires
 ---
 
 Links:

@@ -1,21 +1,18 @@
 ---
 aliases: []
-created: 2025-10-30 16:30:00+00:00
+created: 2025-10-30T16:30:00+00:00
 last_reviewed: 'null'
-modified: 2026-05-26 11:44:22+00:00
+modified: 2026-07-04T10:51:08+00:00
+permalink: llmeon/30-library/mo-c/moc-why-autistics-and-adhders-need-routines
 see_also: []
 source: https://youtube.com/watch?v=M0QeofT0_qg
 status: 'null'
 superseded_by: ''
 supersedes: ''
-tags:
-- autism
-- routine-building
-- TheHuman/Health/ADHD
+tags: [autism, routine-building, TheHuman/Health/ADHD]
 title: MOC - Why Autistics and ADHDers NEED Routines
 type: map
 updated: null
-permalink: llmeon/30-library/mo-c/moc-why-autistics-and-adhders-need-routines
 ---
 
 ## MOC - Why Autistics and ADHDers NEED Routines

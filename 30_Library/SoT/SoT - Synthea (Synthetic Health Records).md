@@ -1,19 +1,14 @@
 ---
-created: 2026-04-02 10:15:00+00:00
+created: 2026-04-02T10:15:00+00:00
 last-synthesis: 2026-04-02
-modified: 2026-05-26 11:44:17+00:00
+modified: 2026-07-04T10:50:50+00:00
+permalink: llmeon/30-library/so-t/so-t-synthea-synthetic-health-records
 source_of_truth: true
 status: evergreen
 synthesis-count: 1
-tags:
-- ehr
-- ohdsi
-- simulation
-- synthetic-data
-- type/SoT
+tags: [ehr, ohdsi, simulation, synthetic-data, type/SoT]
 title: SoT - Synthea (Synthetic Health Records)
 trust-level: stable
-permalink: llmeon/30-library/so-t/so-t-synthea-synthetic-health-records
 ---
 
 ## Minimum Viable Understanding (MVU)

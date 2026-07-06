@@ -1,21 +1,12 @@
 ---
-aliases:
-- IBNS
-- ICNU
-- INCUP Framework
-- The ADHD Nervous System
-created: 2026-02-11 17:15:00+00:00
-modified: 2026-02-13 19:29:38+00:00
+aliases: [IBNS, ICNU, INCUP Framework, The ADHD Nervous System]
+created: 2026-02-11T17:15:00+00:00
+modified: 2026-07-04T10:51:44+00:00
+permalink: llmeon/30-library/100-zettelkasten/the-interest-based-nervous-system-in-adhd
 status: seedling
-tags:
-- ADHD
-- dopamine
-- motivation
-- neurology
-- productivity
+tags: [ADHD, dopamine, motivation, neurology, productivity]
 title: The Interest-Based Nervous System in ADHD
 type: zettel
-permalink: llmeon/30-library/100-zettelkasten/the-interest-based-nervous-system-in-adhd
 ---
 
 ## Minimum Viable Understanding (MVU)

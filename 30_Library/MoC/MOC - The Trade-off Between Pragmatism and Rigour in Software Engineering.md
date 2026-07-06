@@ -1,23 +1,18 @@
 ---
-aliases:
-- MOC Pragmatism vs Rigour
-created: 2025-12-19 13:18:01+00:00
+aliases: [MOC Pragmatism vs Rigour]
+created: 2025-12-19T13:18:01+00:00
 criteria: Links to canonical SoT notes defining the core principles of this conflict.
 exclusions: Implementation details of specific projects.
 last_reviewed: ''
-modified: 2026-05-26 11:44:22+00:00
+modified: 2026-07-04T10:51:08+00:00
+permalink: llmeon/30-library/mo-c/moc-the-trade-off-between-pragmatism-and-rigour-in-software-engineering
 scope: The core conflict between building software quickly (pragmatism) and building
   it correctly (rigour).
 status: ''
-tags:
-- map
-- mental-model
-- SoftwareEngineering
-- TheHuman/Philosophy
+tags: [map, mental-model, SoftwareEngineering, TheHuman/Philosophy]
 title: MOC - The Trade-off Between Pragmatism and Rigour in Software Engineering
 type: map
 updated: null
-permalink: llmeon/30-library/mo-c/moc-the-trade-off-between-pragmatism-and-rigour-in-software-engineering
 ---
 
 > Inclusion criteria: Links must be to canonical, stable SoT notes that define a core aspect of the pragmatism-rigour spectrum.

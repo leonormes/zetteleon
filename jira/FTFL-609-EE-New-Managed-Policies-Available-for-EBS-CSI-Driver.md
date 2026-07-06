@@ -1,23 +1,16 @@
 ---
-created: 2026-06-10 08:00:57+00:00
+created: 2026-06-10T08:00:57+00:00
 date: 2026-06-09
 jira-assignee: Leon Ormes
 jira-key: FTFL-609
 jira-reporter: Robin Mofakham
 jira-status: In Progress
-modified: 2026-06-10 08:12:54+00:00
+modified: 2026-07-04T10:50:33+00:00
+permalink: llmeon/jira/ftfl-609-ee-new-managed-policies-available-for-ebs-csi-driver
 project: FITFILE
 source: atlassian-jira
-tags:
-- aws
-- csi
-- ebs
-- eks
-- ftfl
-- iam
-- jira
+tags: [aws, csi, ebs, eks, ftfl, iam, jira]
 title: FTFL-609-EE-New-Managed-Policies-Available-for-EBS-CSI-Driver
-permalink: llmeon/jira/ftfl-609-ee-new-managed-policies-available-for-ebs-csi-driver
 ---
 
 ## FTFL-609—[EE] New Managed Policies Available for the EBS CSI Driver
@@ -82,8 +75,8 @@ ebs.csi.aws.com/cluster-name: <replace-with-cluster-name>
 
    This may already be in effect—needs verification. Must be done first before any changes.
 
-5. Attach `AmazonEBSCSIDriverEKSClusterScopedPolicy` to the IAM role.
-6. Detach the old `AmazonEBSCSIDriverPolicy` from the IAM role.
+1. Attach `AmazonEBSCSIDriverEKSClusterScopedPolicy` to the IAM role.
+2. Detach the old `AmazonEBSCSIDriverPolicy` from the IAM role.
 
 > ⚠️ Error prone—test first if downtime is not acceptable.
 > → Should be tested on the HIE Test Node first.

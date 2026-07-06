@@ -1,14 +1,14 @@
 ---
 aliases: []
-created: 2025-08-11 17:38:30+00:00
+created: 2025-08-11T17:38:30+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:25+00:00
+modified: 2026-07-04T10:51:45+00:00
+permalink: llmeon/30-library/100-zettelkasten/the-core-problem-confusing-preparation-with-action
 status: ''
 tags: []
 title: The Core Problem Confusing Preparation with Action
 type: ''
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/the-core-problem-confusing-preparation-with-action
 ---
 
 The book identifies a central error in thinking that fuels this type of procrastination: we mistake planning, deciding, and preparing for meaningful action.

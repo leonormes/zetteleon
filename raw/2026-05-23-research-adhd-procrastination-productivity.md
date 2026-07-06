@@ -1,17 +1,12 @@
 ---
-created: 2026-05-23 12:00:00+01:00
-modified: 2026-05-26 11:43:32+00:00
+created: 2026-05-23T11:00:00+00:00
+modified: 2026-07-04T10:49:55+00:00
+permalink: llmeon/raw/2026-05-23-research-adhd-procrastination-productivity
 source: research
 source_url: https://pubmed.ncbi.nlm.nih.gov/ (PubMed), https://arxiv.org/ (arXiv),
   https://api.semanticscholar.org/ (Semantic Scholar)
-tags:
-- adhd
-- procrastination
-- productivity
-- raw
-- research
+tags: [adhd, procrastination, productivity, raw, research]
 title: 2026-05-23-research-adhd-procrastination-productivity
-permalink: llmeon/raw/2026-05-23-research-adhd-procrastination-productivity
 ---
 
 ## Procrastination and Productivity with ADHD—Research Synthesis
@@ -53,6 +48,7 @@ Procrastination is classified as a quintessential self-regulatory failure—a vo
 #### 2.1 Executive Function Mediation (Bolden & Fillauer, 2020)
 
 Study: 114 undergraduates, May 2017–May 2018
+
 Journal: Journal of American College Health
 
 Key findings:
@@ -69,6 +65,7 @@ Implication: Interventions targeting time management and organization should red
 #### 2.2 Cognitive and Behavioral Predictors (Gundogdu, 2023)
 
 Study: 78 adolescents (56.4% female, aged 12–18), mental health clinic
+
 Journal: Clinical Child Psychology and Psychiatry
 
 Key findings:
@@ -98,6 +95,7 @@ ADHD + procrastination typically co-occurs with:
 #### 3.1 Meta-Analysis: Correlates and Sleep Outcomes (Hill Et Al., 2022)
 
 Journal: Sleep Medicine Reviews
+
 43 studies included
 
 Key findings:
@@ -111,6 +109,7 @@ Key findings:
 #### 3.2 Bedtime Procrastination and Psychological Distress (Azeem Et Al., 2026)
 
 Journal: Frontiers in Psychology
+
 18 studies, N = 35,097 university students
 
 Key findings:
@@ -131,6 +130,7 @@ Key findings:
 ##### Solanto & Scheres (2021)—College Students CBT Program
 
 Journal: Journal of Attention Disorders
+
 Format: 12 weekly group sessions, n=18 (two 9-person groups)
 
 Targeted domains:
@@ -155,6 +155,7 @@ Results:
 ##### Zhang Et Al. (2026)—DBT vs. CBT for Adults with ADHD
 
 Journal: BMC Psychiatry
+
 Design: Randomized controlled trial
 
 Key comparison:

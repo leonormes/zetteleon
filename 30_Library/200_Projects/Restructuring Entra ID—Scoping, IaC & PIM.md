@@ -1,12 +1,12 @@
 ---
-created: 2026-05-15 08:22:11+00:00
-modified: 2026-06-08 11:49:22+00:00
+created: 2026-05-15T08:22:11+00:00
+modified: 2026-07-04T10:51:25+00:00
+permalink: llmeon/30-library/200-projects/restructuring-entra-id-scoping-ia-c-pim
 project_category: refined_deployment
 project_name: Refined Deployment
 project_status: active
 title: Restructuring Entra ID—Scoping, IaC & PIM
 type: null
-permalink: llmeon/30-library/200-projects/restructuring-entra-id-scoping-ia-c-pim
 ---
 
 ## 1. The Real Problem (Reframe)
@@ -263,7 +263,7 @@ Given Fitfile's NHS context (MKUH), DSP Toolkit and ISO27001 controls likely app
 - Map each control area to an artefact this project produces
 - Save the auditor a discovery exercise; you save yourself a re-explanation in six months
 
-### 4.11 Watch for the "while I'm in here" Trap
+### 4.11 Watch for the "While I'm in hEre" Trap
 
 Entra is a coral reef of barnacles. Once you're auditing, you'll find:
 

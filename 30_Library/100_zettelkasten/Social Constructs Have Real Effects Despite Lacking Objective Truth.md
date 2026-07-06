@@ -1,19 +1,14 @@
 ---
 aliases: []
-created: 2025-11-01 09:51:13+00:00
+created: 2025-11-01T09:51:13+00:00
 last_reviewed: 'null'
-modified: 2026-02-01 15:08:27+00:00
+modified: 2026-07-04T10:51:45+00:00
+permalink: llmeon/30-library/100-zettelkasten/social-constructs-have-real-effects-despite-lacking-objective-truth
 status: seedling
-tags:
-- mental-model
-- pragmatism
-- reality
-- social-construction
-- topic/philosophy
+tags: [mental-model, pragmatism, reality, social-construction, topic/philosophy]
 title: Social Constructs Have Real Effects Despite Lacking Objective Truth
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/social-constructs-have-real-effects-despite-lacking-objective-truth
 ---
 
 ## Social Constructs Have Real Effects Despite Lacking Objective Truth

@@ -1,14 +1,13 @@
 ---
 captured: 2026-06-17T10:35:49+01:00 2026-06-17T10:35:49+01:00
-created: 2026-06-17 09:35:51+00:00
-modified: 2026-06-17 09:39:48+00:00
+created: 2026-06-17T09:35:51+00:00
+modified: 2026-07-04T10:52:01+00:00
+permalink: llmeon/20-thinking/21-workbench/head-provenance-is-the-new-version-control-the-phoenix-architecture
 source: https://aicoding.leaflet.pub/3mcbiyal7jc2y
 status: processing
-tags:
-- input
+tags: [input]
 title: HEAD Provenance Is the New Version Control - The Phoenix Architecture
 type: head
-permalink: llmeon/20-thinking/21-workbench/head-provenance-is-the-new-version-control-the-phoenix-architecture
 ---
 
 ## Raw Output / Content

@@ -1,17 +1,14 @@
 ---
 aliases: []
-created: 2025-05-28 14:26:24+00:00
+created: 2025-05-28T14:26:24+00:00
 last_reviewed: 'null'
-modified: 2026-02-01 15:08:37+00:00
+modified: 2026-07-04T10:51:54+00:00
+permalink: llmeon/30-library/100-zettelkasten/all-the-enthusiasm-and-energy-for-a-plan-disappears
 status: 'null'
-tags:
-- TheHuman/Health/ADHD
-- TheHuman/Motivation
-- topic/productivity/gtd
+tags: [TheHuman/Health/ADHD, TheHuman/Motivation, topic/productivity/gtd]
 title: All the Enthusiasm and Energy for a Plan Disappears
 type: 'null'
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/all-the-enthusiasm-and-energy-for-a-plan-disappears
 ---
 
 My main problem with the ADHD is the way all the enthusiasm and energy for a plan disappears.

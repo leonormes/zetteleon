@@ -1,19 +1,12 @@
 ---
-aliases:
-- Direct Proof
-- How to Prove It
-- Proof by Contradiction
-- Proof Methods
-created: 2026-01-12 10:10:00+00:00
-modified: 2026-02-01 15:07:55+00:00
+aliases: [Direct Proof, How to Prove It, Proof by Contradiction, Proof Methods]
+created: 2026-01-12T10:10:00+00:00
+modified: 2026-07-04T10:50:55+00:00
+permalink: llmeon/30-library/so-t/so-t-mathematical-proof-techniques
 status: stable
-tags:
-- logic
-- math/proofs
-- prodos/sot
+tags: [logic, math/proofs, prodos/sot]
 title: SoT - Mathematical Proof Techniques
 type: SoT
-permalink: llmeon/30-library/so-t/so-t-mathematical-proof-techniques
 ---
 
 ## Mathematical Proof Techniques

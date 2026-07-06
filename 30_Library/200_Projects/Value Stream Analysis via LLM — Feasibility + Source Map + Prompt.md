@@ -1,9 +1,9 @@
 ---
-created: 2026-06-20 09:22:42+00:00
-modified: 2026-06-20 14:37:03+00:00
-title: Value Stream Analysis via LLM — Feasibility + Source Map + Prompt
-project_name: Pipeline
+created: 2026-06-20T09:22:42+00:00
+modified: 2026-07-04T10:51:24+00:00
 permalink: llmeon/30-library/200-projects/value-stream-analysis-via-llm-feasibility-source-map-prompt
+project_name: Pipeline
+title: Value Stream Analysis via LLM — Feasibility + Source Map + Prompt
 ---
 
 _Shared Message from Pieces (<https://pieces.app>) by Leon Ormes (leonormes@gmail.com) on Saturday Jun 20, 2026 - 10:22 AM_
@@ -73,7 +73,7 @@ surface bottlenecks or anomalies.
 
 ---
 
-### STAGE 1—Demand & Discovery (What Are We Planning to build?)
+### STAGE 1—Demand & Discovery (What Are We Planning to bUild?)
 
 - List all epics and their associated stories currently in the backlog
   (status: Backlog / To Do / Open).
@@ -87,7 +87,7 @@ surface bottlenecks or anomalies.
 
 ---
 
-### STAGE 2—Planning & Commitment (What Have We Committed to?)
+### STAGE 2—Planning & Commitment (What Have We Committed tO?)
 
 - List all stories currently in active or upcoming sprints (status: Planned /
   Sprint Backlog / Committed).
@@ -100,7 +100,7 @@ surface bottlenecks or anomalies.
 
 ---
 
-### STAGE 3—Development (What is Actively Being built?)
+### STAGE 3—Development (What is Actively Being bUilt?)
 
 - For each Jira ticket in status In Progress / In Development:
     a. Find the associated GitLab branch (match on ticket ID in branch name
@@ -116,7 +116,7 @@ surface bottlenecks or anomalies.
 
 ---
 
-### STAGE 4—Review & Quality Gates (What is Waiting for approval?)
+### STAGE 4—Review & Quality Gates (What is Waiting for aPproval?)
 
 - List all open MRs and their current state: draft, ready for review, changes
   requested, approved-but-not-merged.
@@ -132,7 +132,7 @@ surface bottlenecks or anomalies.
 
 ---
 
-### STAGE 5—Released & Deployed (What Has shipped?)
+### STAGE 5—Released & Deployed (What Has sHipped?)
 
 - List all GitLab release tags / deployment events in the last [time window,
   e.g. 90 days], per environment (staging / production).

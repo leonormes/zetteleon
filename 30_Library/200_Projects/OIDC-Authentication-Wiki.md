@@ -1,12 +1,12 @@
 ---
-created: 2026-06-05 10:48:15+00:00
-modified: 2026-06-11 10:25:37+00:00
+created: 2026-06-05T10:48:15+00:00
+modified: 2026-07-04T10:51:26+00:00
+permalink: llmeon/30-library/200-projects/oidc-authentication-wiki
 project_category: refined_deployment
 project_name: Refined Deployment
 project_status: active
-title: OIDC Authentication — A Practical Wiki
+title: OIDC-Authentication-Wiki
 type: wiki
-permalink: llmeon/30-library/200-projects/oidc-authentication-wiki
 ---
 
 ## OpenID Connect (OIDC)—A Practical Wiki
@@ -15,7 +15,7 @@ permalink: llmeon/30-library/200-projects/oidc-authentication-wiki
 
 ---
 
-### 1. The Core Mental Model (read This first)
+### 1. The Core Mental Model (Read This fIrst)
 
 Hold these three ideas in your head and the rest is detail:
 
@@ -88,7 +88,7 @@ This trips people up. There are (up to) three tokens, with different jobs and di
 
 ---
 
-### 6. Anatomy of an ID Token (a JWT)
+### 6. Anatomy of an ID Token (A JWT)
 
 A JWT is three base64url-encoded parts joined by dots:
 
@@ -110,7 +110,7 @@ Describes how the token is signed and which key to use.
 }
 ```
 
-#### 6.2 Payload (the claims)
+#### 6.2 Payload (The cLaims)
 
 The actual statements about the user and the login event.
 
@@ -285,7 +285,7 @@ Authorization: Bearer SlAV32hkKG...
 { "sub": "248289761001", "name": "Leon", "email": "leon@example.com", "email_verified": true }
 ```
 
-#### 9.2 The other Flows (know They Exist; Mostly Don't Use them)
+#### 9.2 The other Flows (Know They Exist; Mostly Don't Use tHem)
 
 | Flow | Use case | Verdict |
 |---|---|---|
@@ -407,7 +407,7 @@ The common thread: OIDC replaces static, long-lived credentials with short-lived
 
 ---
 
-### 15. Glossary (quick reference)
+### 15. Glossary (Quick rEference)
 
 | Term | Meaning |
 |---|---|
@@ -428,7 +428,7 @@ The common thread: OIDC replaces static, long-lived credentials with short-lived
 
 ---
 
-### 16. Next Actions (start here)
+### 16. Next Actions (Start hEre)
 
 The fastest way to make this concrete is to _look at a real provider's machinery_, which is one JSON blob away:
 

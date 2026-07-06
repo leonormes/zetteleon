@@ -1,18 +1,14 @@
 ---
 aliases: []
-created: 2025-08-27 19:18:49+00:00
+created: 2025-08-27T19:18:49+00:00
 last_reviewed: 'null'
-modified: 2026-02-01 15:08:25+00:00
+modified: 2026-07-04T10:51:44+00:00
+permalink: llmeon/30-library/100-zettelkasten/the-distinction-between-appreciation-and-creation
 status: 'null'
-tags:
-- TheHuman/Creativity
-- TheHuman/Mindset
-- topic/learning
-- topic/philosophy
+tags: [TheHuman/Creativity, TheHuman/Mindset, topic/learning, topic/philosophy]
 title: The Distinction Between Appreciation and Creation
 type: 'null'
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/the-distinction-between-appreciation-and-creation
 ---
 
 There is a crucial distinction between the act of appreciating genius and the act of original creation. One can have a deep, technical, and passionate understanding of a field (like Formula 1, film, or music) without being a top-tier performer in it. This is the difference between the connoisseur and the creator.

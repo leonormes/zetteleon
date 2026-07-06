@@ -1,8 +1,9 @@
 ---
 aliases: []
-created: 2025-02-07 12:57:52+00:00
+created: 2025-02-07T12:57:52+00:00
 last_reviewed: ''
-modified: 2026-06-08 11:49:21+00:00
+modified: 2026-07-04T10:51:28+00:00
+permalink: llmeon/30-library/200-projects/merged-tdd-absolutism
 project_category: development
 project_name: TDD
 project_status: archived
@@ -10,13 +11,10 @@ see_also: []
 status: ''
 superseded_by: ''
 supersedes: ''
-tags:
-- SDLC
-- TDD
+tags: [SDLC, TDD]
 title: Merged TDD Absolutism
 type: null
 updated: null
-permalink: llmeon/30-library/200-projects/merged-tdd-absolutism
 ---
 
 ## TDD Absolutism

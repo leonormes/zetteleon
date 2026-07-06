@@ -1,22 +1,14 @@
 ---
-aliases:
-- Engineering Management
-- Project Planning
-- Software Estimation
-- Stakeholder Management
-created: 2025-12-27 20:38:44+00:00
+aliases: [Engineering Management, Project Planning, Software Estimation, Stakeholder Management]
+created: 2025-12-27T20:38:44+00:00
 last_reviewed: '2025-12-27'
-modified: 2026-02-01 15:07:51+00:00
+modified: 2026-07-04T10:50:50+00:00
+permalink: llmeon/30-library/so-t/so-t-software-estimation-and-management
 status: stable
-tags:
-- career
-- estimation
-- leadership
-- management
+tags: [career, estimation, leadership, management]
 title: SoT - Software Estimation and Management
 type: SoT
 updated: null
-permalink: llmeon/30-library/so-t/so-t-software-estimation-and-management
 ---
 
 ## 1. Definitive Statement

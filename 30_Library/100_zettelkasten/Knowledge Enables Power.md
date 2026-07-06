@@ -1,17 +1,15 @@
 ---
 aliases: []
-created: 2025-02-07 12:57:55+00:00
+created: 2025-02-07T12:57:55+00:00
 ID: 2e
 last_reviewed: ''
-modified: 2026-02-01 15:08:32+00:00
+modified: 2026-07-04T10:51:50+00:00
+permalink: llmeon/30-library/100-zettelkasten/knowledge-enables-power
 status: ''
-tags:
-- knowledge
-- power
+tags: [knowledge, power]
 title: Knowledge Enables Power
 type: permanent
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/knowledge-enables-power
 ---
 
 Knowledge serves as a source of power by enabling informed decision-making, problem-solving, and influence over outcomes.

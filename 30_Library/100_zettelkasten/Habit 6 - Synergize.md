@@ -1,18 +1,14 @@
 ---
 aliases: []
-created: 2025-10-20 09:07:00+00:00
+created: 2025-10-20T09:07:00+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:33+00:00
+modified: 2026-07-04T10:51:50+00:00
+permalink: llmeon/30-library/100-zettelkasten/habit-6-synergize
 status: ''
-tags:
-- cooperation
-- principles
-- TheHuman/Creativity
-- TheHuman/Habits
+tags: [cooperation, principles, TheHuman/Creativity, TheHuman/Habits]
 title: Habit 6 - Synergize
 type: ''
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/habit-6-synergize
 ---
 
 Habit 6: Synergize is the principle of creative cooperation. It is the habit of valuing differences and seeking out third alternatives. Synergy is the idea that the whole is greater than the sum of its parts (1 + 1 = 3 or more).

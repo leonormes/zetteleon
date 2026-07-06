@@ -1,18 +1,14 @@
 ---
-aliases:
-- Wicked Environment
-created: 2025-11-01 12:30:04+00:00
+aliases: [Wicked Environment]
+created: 2025-11-01T12:30:04+00:00
 last_reviewed: '2025-11-01T00:00:00.000Z'
-modified: 2026-02-01 15:08:23+00:00
+modified: 2026-07-04T10:51:43+00:00
+permalink: llmeon/30-library/100-zettelkasten/wicked-learning-environments-are-dynamic-and-unpredictable
 status: seedling
-tags:
-- environment
-- learning
-- unpredictability
+tags: [environment, learning, unpredictability]
 title: Wicked Learning Environments are Dynamic and Unpredictable
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/wicked-learning-environments-are-dynamic-and-unpredictable
 ---
 
 ## Wicked Learning Environments Are Dynamic and Unpredictable

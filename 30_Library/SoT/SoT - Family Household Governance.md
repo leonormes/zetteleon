@@ -1,24 +1,14 @@
 ---
-aliases:
-- Earned Access Protocol
-- Family Chores Framework
-- Family Maintenance SOPs
-- Household System
-- Parental Alignment Contract
-created: 2025-12-26 12:00:00+00:00
+aliases: [Earned Access Protocol, Family Chores Framework, Family Maintenance SOPs, Household System, Parental Alignment Contract]
+created: 2025-12-26T12:00:00+00:00
 last_reviewed: 2025-12-29
-modified: 2026-02-01 15:07:58+00:00
+modified: 2026-07-04T10:51:00+00:00
+permalink: llmeon/30-library/so-t/so-t-family-household-governance
 status: stable
-tags:
-- chores
-- family
-- governance
-- sops
-- systems
+tags: [chores, family, governance, sops, systems]
 title: SoT - Family Household Governance
 type: SoT
 updated: null
-permalink: llmeon/30-library/so-t/so-t-family-household-governance
 ---
 
 ## 1. Definitive Statement

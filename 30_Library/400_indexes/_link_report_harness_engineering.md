@@ -1,12 +1,12 @@
 ---
-created: 2026-04-14 20:28:32+00:00
+created: 2026-04-14T20:28:32+00:00
 created_utc: '2026-04-14T13:30:00Z'
-modified: 2026-05-26 11:44:23+00:00
+modified: 2026-07-04T10:51:14+00:00
+permalink: llmeon/30-library/400-indexes/link-report-harness-engineering
 source_atoms: '[[tmp_atoms_harness_engineering.md]]'
 status: tmp
 title: _link_report_harness_engineering
 type: link_report
-permalink: llmeon/30-library/400-indexes/link-report-harness-engineering
 ---
 
 ## Link Report: Archon and Extreme Harness Engineering
@@ -29,6 +29,6 @@ permalink: llmeon/30-library/400-indexes/link-report-harness-engineering
 | [[Prompt-Injected Non-Functional Requirements]] | 3 | [[SoT - Agentic AI Design Patterns]]—upstream |
 | [[Recursive Agent Improvement]] | 3 | [[SoT - Agentic AI Design Patterns]]—upstream |
 
-### Orphan Atoms (no Links found)
+### Orphan Atoms (No Links fOund)
 
 (none)

@@ -1,21 +1,14 @@
 ---
-aliases:
-- Clarification Ritual
-created: 2025-12-16 14:40:00+00:00
+aliases: [Clarification Ritual]
+created: 2025-12-16T14:40:00+00:00
 last_reviewed: '2025-12-16T00:00:00.000Z'
-modified: 2026-02-01 15:08:25+00:00
+modified: 2026-07-04T10:51:45+00:00
+permalink: llmeon/30-library/100-zettelkasten/the-clarification-ritual-stuff-to-action
 status: pending
-tags:
-- clarification
-- experiment
-- gtd
-- hypothesis
-- TheHuman/Health/ADHD
-- topic/productivity
+tags: [clarification, experiment, gtd, hypothesis, TheHuman/Health/ADHD, topic/productivity]
 title: The Clarification Ritual (Stuff to Action)
 type: hypothesis
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/the-clarification-ritual-stuff-to-action
 ---
 
 ## 1. The Hypothesis

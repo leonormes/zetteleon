@@ -1,19 +1,13 @@
 ---
 contrasts_with: []
-created: 2026-05-31 00:00:00+00:00
-modified: 2026-05-31 17:15:37+00:00
-related_to:
-- '[[ADHD]]'
-- '[[MOC – My Epistemic Stack]]'
+created: 2026-05-31T00:00:00+00:00
+modified: 2026-07-04T10:51:46+00:00
+permalink: llmeon/30-library/100-zettelkasten/q-what-am-i-actually-struggling-with-1
+related_to: ["[[ADHD]]", "[[MOC – My Epistemic Stack]]"]
 status: open
-tags:
-- adhd
-- epistemic-self-audit
-- metacognition
-- pkm
+tags: [adhd, epistemic-self-audit, metacognition, pkm]
 title: Q — What Am I Actually Struggling With-1
 type: question
-permalink: llmeon/30-library/100-zettelkasten/q-what-am-i-actually-struggling-with-1
 ---
 
 > [!question] Central question
@@ -23,7 +17,7 @@ This is a decomposition question, not a single claim. The point is to stop treat
 
 ---
 
-## The Three Candidate Explanations (steel-manned)
+## The Three Candidate Explanations (Steel-manned)
 
 | Label | What it would mean | Discriminating test (the falsifier) |
 |---|---|---|
@@ -33,7 +27,7 @@ This is a decomposition question, not a single claim. The point is to stop treat
 
 ---
 
-## Open Threads (the Session agenda)
+## Open Threads (The Session aGenda)
 
 - [ ] Is my PKM a memory, or an archive? Working hypothesis: it fails the extended-mind retrieval condition, so it's an archive. → does the fix live entirely on the _retrieval_ side?
 - [ ] Habit or missing links? The 60-second backlinks diagnostic—when I'm in flow, is the note I'd have searched for already one hop away? (Habit → traverse, don't search. Missing → semantic/LLM retrieval.)
@@ -43,7 +37,7 @@ This is a decomposition question, not a single claim. The point is to stop treat
 
 ---
 
-## Captured This Session (raw material—to Be metabolised)
+## Captured This Session (Raw material—to Be mEtabolised)
 
 - Volume _helps_ a content-addressable system (my brain) and _hurts_ a location-addressable one (keyword search). I've been scaling the wrong architecture.
 - Time-boxing should be interest-triggered, not clock-triggered—ride the novelty, don't schedule against it.
@@ -52,7 +46,7 @@ This is a decomposition question, not a single claim. The point is to stop treat
 
 ---
 
-## Position (dated)
+## Position (Dated)
 
 2026-05-31—I currently _suspect_ the proportions are weighted toward genuine-but-addressable ADHD initiation costs, with a non-trivial layer of imagined blocks, and less raw procrastination than my inner critic claims. Confidence: low. This is a prior to be tested by the tally above, not a conclusion.
 

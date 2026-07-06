@@ -1,14 +1,14 @@
 ---
 aliases: []
-created: 2025-06-18 17:28:14+00:00
+created: 2025-06-18T17:28:14+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:32+00:00
+modified: 2026-07-04T10:51:50+00:00
+permalink: llmeon/30-library/100-zettelkasten/implicit-social-hierarchies-authority
 status: ''
 tags: []
 title: Implicit Social Hierarchies Authority
 type: ''
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/implicit-social-hierarchies-authority
 ---
 
 Sometimes, even without explicit reasons, we might unconsciously grant more weight to the opinions of people we perceive as more confident, authoritative, or socially adept, even if they lack specific knowledge in the area being discussed.

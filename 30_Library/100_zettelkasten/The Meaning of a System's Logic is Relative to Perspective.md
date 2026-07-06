@@ -1,18 +1,14 @@
 ---
 aliases: []
-created: 2025-10-20 10:12:00+00:00
+created: 2025-10-20T10:12:00+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:25+00:00
+modified: 2026-07-04T10:51:44+00:00
+permalink: llmeon/30-library/100-zettelkasten/the-meaning-of-a-systems-logic-is-relative-to-perspective
 status: ''
-tags:
-- objectivity
-- perspective
-- relativism
-- subjectivity
-title: The Meaning of a System's Logic is Relative to Perspective
+tags: [objectivity, perspective, relativism, subjectivity]
+title: "The Meaning of a System's Logic is Relative to Perspective"
 type: ''
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/the-meaning-of-a-systems-logic-is-relative-to-perspective
 ---
 
 The logic and values that [[Systems Generate Internal Logic in Isolation|a system generates in isolation]] create a profound perceptual dichotomy.

@@ -1,20 +1,14 @@
 ---
-aliases:
-- Critical Question Process
-- MIQ Method
-created: 2025-10-30 15:07:41+00:00
+aliases: [Critical Question Process, MIQ Method]
+created: 2025-10-30T15:07:41+00:00
 last_reviewed: '2025-10-30'
-modified: 2026-02-01 15:08:25+00:00
+modified: 2026-07-04T10:51:44+00:00
+permalink: llmeon/30-library/100-zettelkasten/the-miq-process-most-important-question-for-deliberate-growth
 status: seedling
-tags:
-- deliberate-practice
-- growth
-- learning
-- waitzkin
+tags: [deliberate-practice, growth, learning, waitzkin]
 title: The MIQ Process - Most Important Question for Deliberate Growth
 type: strategy
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/the-miq-process-most-important-question-for-deliberate-growth
 ---
 
 ## The MIQ Process - Most Important Question for Deliberate Growth

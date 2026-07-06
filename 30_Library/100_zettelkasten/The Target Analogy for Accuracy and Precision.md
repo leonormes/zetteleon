@@ -1,20 +1,14 @@
 ---
-aliases:
-- Target Analogy
-created: 2025-07-21 00:00:00+00:00
+aliases: [Target Analogy]
+created: 2025-07-21T00:00:00+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:24+00:00
+modified: 2026-07-04T10:51:44+00:00
+permalink: llmeon/30-library/100-zettelkasten/the-target-analogy-for-accuracy-and-precision
 status: ''
-tags:
-- analogy
-- concepts
-- measurement
-- science
-- visualization
+tags: [analogy, concepts, measurement, science, visualization]
 title: The Target Analogy for Accuracy and Precision
 type: ''
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/the-target-analogy-for-accuracy-and-precision
 ---
 
 A common and effective analogy to visualize the difference between accuracy and precision is an archer shooting arrows at a target, where the bullseye represents the true value.

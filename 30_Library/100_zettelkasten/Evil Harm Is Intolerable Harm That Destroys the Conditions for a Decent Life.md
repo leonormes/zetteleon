@@ -1,13 +1,9 @@
 ---
-created: 2026-04-10 13:00:00+00:00
-modified: 2026-05-26 11:44:35+00:00
-tags:
-- claudia-card
-- ethics
-- harm-theory
-- philosophy
-title: Evil Harm Is Intolerable Harm That Destroys the Conditions for a Decent Life
+created: 2026-04-10T13:00:00+00:00
+modified: 2026-07-04T10:51:51+00:00
 permalink: llmeon/30-library/100-zettelkasten/evil-harm-is-intolerable-harm-that-destroys-the-conditions-for-a-decent-life
+tags: [claudia-card, ethics, harm-theory, philosophy]
+title: Evil Harm Is Intolerable Harm That Destroys the Conditions for a Decent Life
 ---
 
 ## Evil Harm Is Intolerable Harm That Destroys the Conditions for a Decent Life

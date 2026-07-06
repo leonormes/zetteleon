@@ -1,21 +1,16 @@
 ---
-created: 2026-02-22 17:00:59+00:00
+created: 2026-02-22T17:00:59+00:00
 hop_level: local
 last_verified: 2026-02-22
-modified: 2026-03-14 11:10:10+00:00
+modified: 2026-07-04T10:50:41+00:00
+permalink: llmeon/30-library/ops/cmd-kubectl-argocd-list-applications-table
 requires_tunnel: false
 status: active
-tags:
-- argocd
-- cmd
-- health
-- list
-- sync
+tags: [argocd, cmd, health, list, sync]
 target_service: argocd
 title: cmd_kubectl_argocd_list_applications_table
 tool: kubectl
 type: command
-permalink: llmeon/30-library/ops/cmd-kubectl-argocd-list-applications-table
 ---
 
 ## List ArgoCD Applications Table

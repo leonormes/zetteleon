@@ -1,12 +1,12 @@
 ---
-created: 2026-04-14 11:22:49+00:00
+created: 2026-04-14T11:22:49+00:00
 created_utc: '2026-04-14T11:15:00Z'
-modified: 2026-05-26 11:44:23+00:00
+modified: 2026-07-04T10:51:14+00:00
+permalink: llmeon/30-library/400-indexes/link-report-fowler-beck-reinventing-software
 source_atoms: '[[tmp_atoms_fowler_beck_reinventing_software.md]]'
 status: tmp
 title: _link_report_fowler_beck_reinventing_software
 type: link_report
-permalink: llmeon/30-library/400-indexes/link-report-fowler-beck-reinventing-software
 ---
 
 ## Link Report: Martin Fowler & Kent Beck - Reinventing Software
@@ -29,6 +29,6 @@ permalink: llmeon/30-library/400-indexes/link-report-fowler-beck-reinventing-sof
 | [[The Failure of No-Code Elimination]] | 3 | [[SoT - Pragmatism vs Rigour in Software]]—upstream |
 | [[Convergence of Developer and Agent Experience]] | 3 | [[SoT - Mental Models in Software Development]]—upstream |
 
-### Orphan Atoms (no Links found)
+### Orphan Atoms (No Links fOund)
 
 (none)

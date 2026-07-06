@@ -1,15 +1,14 @@
 ---
 aliases: []
-created: 2025-07-19 08:10:19+00:00
+created: 2025-07-19T08:10:19+00:00
 last_reviewed: 'null'
-modified: 2026-02-01 15:08:29+00:00
+modified: 2026-07-04T10:51:48+00:00
+permalink: llmeon/30-library/100-zettelkasten/open-source-knowledge
 status: 'null'
-tags:
-- topic/maths
+tags: [topic/maths]
 title: Open source knowledge
 type: 'null'
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/open-source-knowledge
 ---
 
 [[Alchemy Protected Truth Through Obscurity]]

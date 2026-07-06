@@ -1,34 +1,22 @@
 ---
 chart: k8s-monitoring 4.1.3 (alloy 1.8.1, Alloy app v1.16.1)
 cluster: testing
-created: 2026-06-04 00:00:00+00:00
-modified: 2026-06-11 15:43:55+00:00
+created: 2026-06-04T00:00:00+00:00
+modified: 2026-07-04T10:51:29+00:00
+permalink: llmeon/30-library/200-projects/grafana-k8s-monitoring-v2
 project_category: refined_deployment
 project_name: Refined Deployment
 project_status: active
 source: owl-audit-agent — consolidated from 4 audit drafts + Loki labels reference
   + Prometheus/Alloy Reference
 stack: fitfiletest (Grafana Cloud, prometheus-prod-05-gb-south-0)
-tags:
-- adaptive-metrics
-- alloy
-- audit
-- cardinality
-- grafana
-- kubernetes
-- labels
-- loki
-- monitoring
-- seedling
-- structured-metadata
-- testing-cluster
+tags: [adaptive-metrics, alloy, audit, cardinality, grafana, kubernetes, labels, loki, monitoring, seedling, structured-metadata, testing-cluster]
 ticket: FTFL-638
 title: Grafana k8s-monitoring v2
 type: infra-audit
-permalink: llmeon/30-library/200-projects/grafana-k8s-monitoring-v2
 ---
 
-## Grafana k8s-monitoring—Cardinality & Label Strategy (testing cluster)
+## Grafana k8s-monitoring—Cardinality & Label Strategy (Testing cLuster)
 
 > [!note] Consolidation provenance
 > Merged from four overlapping audit drafts of the `testing` cluster (all 2026-06-04) plus the Loki _Labels vs Structured Metadata_ reference. Canonical figures are taken from the three consistent drafts; one outlier draft is set aside—see [[#Data reconciliation note]]. All actions are robust to that discrepancy: only the _size_ of the saving is uncertain, not the fixes themselves.
@@ -46,7 +34,7 @@ The single rule everything below depends on:
 
 > Labels answer _"which stream?"_—Structured metadata answers _"which line within the stream?"_
 
-### Labels (indexed)
+### Labels (Indexed)
 
 Indexed key–value pairs that define and identify a stream (Loki) or series (Prometheus/Mimir).
 
@@ -59,7 +47,7 @@ Indexed key–value pairs that define and identify a stream (Loki) or series (Pr
  - Used for stream selection—the first stage of any query.
  - Directly drive cardinality and storage structure.
 
-## Structured Metadata (non-indexed)
+## Structured Metadata (Non-indexed)
 
 Non-indexed key–value pairs attached to individual log lines, not streams. Introduced in Loki 3.0 with OTLP-native support; sometimes called "non-indexed labels".
 
@@ -117,7 +105,7 @@ Same principle, different mechanism: every unique label combination is a new tim
 
 For a monitoring system, every time series and sample has both a resource cost and a human cost. If you have more than one expanding label on a metric, the impact is compounded, resulting in a combinatorial explosion of time series. The strict rule of thumb is that the cardinality of an arbitrary metric on one application instance should be kept below 10.
 
-## War story—FTFL-638 (the Lesson that Motivates the standard)
+## War story—FTFL-638 (The Lesson that Motivates the sTandard)
 
 During debugging of fitfile-cloud-testing-aks-cluster under ticket FTFL-638, the pod field was being written into Loki's structured_metadata block by the default chart config—which strips it from the stream labels, rendering it unusable as an indexed selector ({pod="…"} stops working).
 

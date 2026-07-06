@@ -1,19 +1,14 @@
 ---
-aliases:
-- Deductive Reasoning
-- Mathematical Proof
-created: 2025-11-01 11:22:13+00:00
+aliases: [Deductive Reasoning, Mathematical Proof]
+created: 2025-11-01T11:22:13+00:00
 last_reviewed: '2025-11-01T00:00:00.000Z'
-modified: 2026-02-01 15:08:35+00:00
+modified: 2026-07-04T10:51:52+00:00
+permalink: llmeon/30-library/100-zettelkasten/deductive-reasoning-underwrites-mathematical-proof
 status: seedling
-tags:
-- logic
-- proof
-- topic/maths
+tags: [logic, proof, topic/maths]
 title: Deductive Reasoning Underwrites Mathematical Proof
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/deductive-reasoning-underwrites-mathematical-proof
 ---
 
 Summary: Deductive reasoning forms the logical backbone of mathematics, providing "once-and-for-all guarantees" that certain lines of reasoning always work by deriving necessary conclusions from accepted axioms.

@@ -1,11 +1,9 @@
 ---
-created: 2026-04-28 00:00:00+00:00
-modified: 2026-06-09 03:35:00+01:00
-tags:
-- index
-- system
-title: index
+created: 2026-04-28T00:00:00+00:00
+modified: 2026-07-04T10:50:33+00:00
 permalink: llmeon/index
+tags: [index, system]
+title: index
 ---
 
 ## Vault Index
@@ -49,7 +47,7 @@ _(empty—populated on first ingest)_
 - [[wiki/projects/K8s Cluster Stress Testing with OMOP Data]]
 - [[wiki/projects/Kubernetes-Cluster-Bootstrapping]]—Automating ArgoCD deployment on private K8s clusters after Terraform provisioning; exploring argocd-autopilot, Terraform Helm/K8s providers, CAPI, Flux, Crossplane patterns.—Summer project to validate distributed Kubernetes cluster stability under large OMOP clinical data loads; scoped via GTD Natural Planning Model.
 - [[cicd-tooling-validated]]—GitLab CI/CD automation research for FITFILE/Hermes: comprehensive search synthesis, 7-phase TRANSFER artifact, cursor-based pagination workflow (2026-05-18).
-- [[FTFL-673 Grafana Deploy All Envs]] — FTFL-673: deploy fixed Grafana across all environments; extends FTFL-638 testing cluster upgrade with two-phase Hermes prompt (context gather → smarter model plan via OpenRouter).
+- [[FTFL-673 Grafana Deploy All Envs]]—FTFL-673: deploy fixed Grafana across all environments; extends FTFL-638 testing cluster upgrade with two-phase Hermes prompt (context gather → smarter model plan via OpenRouter).
 - [[wiki/projects/Grafana Alloy Monitoring — FTFL-638]]—Kubernetes monitoring stack: Grafana/Alloy Helm deployment, Loki log labeling, values.yaml schema design, and testing cluster fix plan for FTFL-638/511/512; acceptance criteria include cue vet validation, job label alignment (namespace/container), and ArgoCD-synced Alloy-logs DaemonSet.
 - [[wiki/projects/MCP Proxy Robustness and High Availability]]—Planning initiative to make mcp-proxy resilient across multiple AI consumers (Hermes, Claude, Cursor, Gemini); triggered by Hermes disabling four MCP servers without approval; 10-server restoration plan and chezmoi-config-guardrails.
 - [[wiki/projects/Pieces-LTM]]—Pieces LTM (Long-Term Memory) serves as the primary sensory input for the Obsidian PKM system, capturing snippets, terminal commands, open files, and annotations.

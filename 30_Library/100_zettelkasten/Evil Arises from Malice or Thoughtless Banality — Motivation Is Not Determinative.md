@@ -1,13 +1,9 @@
 ---
-created: 2026-04-10 13:00:00+00:00
-modified: 2026-05-26 11:44:35+00:00
-tags:
-- ethics
-- hannah-arendt
-- motivation
-- psychology
-title: Evil Arises from Malice or Thoughtless Banality — Motivation Is Not Determinative
+created: 2026-04-10T13:00:00+00:00
+modified: 2026-07-04T10:51:51+00:00
 permalink: llmeon/30-library/100-zettelkasten/evil-arises-from-malice-or-thoughtless-banality-motivation-is-not-determinative
+tags: [ethics, hannah-arendt, motivation, psychology]
+title: Evil Arises from Malice or Thoughtless Banality — Motivation Is Not Determinative
 ---
 
 ## Evil Arises from Malice or Thoughtless Banality—Motivation Is Not Determinative

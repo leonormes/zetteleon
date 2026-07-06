@@ -1,20 +1,15 @@
 ---
-aliases:
-- AWS IAM
-created: 2026-04-05 10:30:00+00:00
+aliases: [AWS IAM]
+created: 2026-04-05T10:30:00+00:00
 last-synthesis: 2026-04-05
 last_reviewed: null
-modified: 2026-05-26 11:44:21+00:00
+modified: 2026-07-04T10:51:04+00:00
+permalink: llmeon/30-library/so-t/so-t-aws-identity-access-management
 status: Active
 synthesis-count: 1
-tags:
-- aws
-- iam
-- security
-- sot
+tags: [aws, iam, security, sot]
 title: SoT - AWS Identity & Access Management
 type: SoT
-permalink: llmeon/30-library/so-t/so-t-aws-identity-access-management
 ---
 
 ## Minimum Viable Understanding (MVU)

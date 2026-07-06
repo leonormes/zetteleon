@@ -1,21 +1,16 @@
 ---
-created: 2026-02-22 17:06:50+00:00
+created: 2026-02-22T17:06:50+00:00
 hop_level: local
 last_verified: 2026-02-22
-modified: 2026-03-14 11:10:10+00:00
+modified: 2026-07-04T10:50:40+00:00
+permalink: llmeon/30-library/ops/cmd-kubectl-rollout-restart-deployment
 requires_tunnel: false
 status: active
-tags:
-- cmd
-- kubectl
-- pods
-- restart
-- rollout
+tags: [cmd, kubectl, pods, restart, rollout]
 target_service: deployment
 title: cmd_kubectl_rollout_restart_deployment
 tool: kubectl
 type: command
-permalink: llmeon/30-library/ops/cmd-kubectl-rollout-restart-deployment
 ---
 
 ## Rollout Restart Deployment

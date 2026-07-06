@@ -1,21 +1,15 @@
 ---
-aliases:
-- Outcome Layer
-- Synthesis Stage
-created: 2025-12-04 12:23:40+00:00
-modified: 2026-06-08 11:49:22+00:00
+aliases: [Outcome Layer, Synthesis Stage]
+created: 2025-12-04T12:23:40+00:00
+modified: 2026-07-04T10:51:24+00:00
+permalink: llmeon/30-library/200-projects/stage-5-synthesise-the-outcome-layer
 project_category: prodos
 project_name: ProdOS
 project_status: active
 status: stable
-tags:
-- pkm
-- prodos
-- synthesis
-- writing
+tags: [pkm, prodos, synthesis, writing]
 title: Stage 5 Synthesise (The Outcome Layer)
 type: null
-permalink: llmeon/30-library/200-projects/stage-5-synthesise-the-outcome-layer
 ---
 
 _The Goal: To use your connected notes to build larger arguments and summaries._

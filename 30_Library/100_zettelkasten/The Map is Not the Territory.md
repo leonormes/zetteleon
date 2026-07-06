@@ -1,19 +1,14 @@
 ---
-aliases:
-- The Map is Not the Territory
-created: 2025-11-06 19:59:03+00:00
+aliases: [The Map is Not the Territory]
+created: 2025-11-06T19:59:03+00:00
 last_reviewed: '2025-11-06'
-modified: 2026-02-01 15:08:25+00:00
+modified: 2026-07-04T10:51:44+00:00
+permalink: llmeon/30-library/100-zettelkasten/the-map-is-not-the-territory
 status: seedling
-tags:
-- epistemology
-- mental-model
-- perception
-- reality
+tags: [epistemology, mental-model, perception, reality]
 title: The Map is Not the Territory
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/the-map-is-not-the-territory
 ---
 
 ## The Map is Not the Territory

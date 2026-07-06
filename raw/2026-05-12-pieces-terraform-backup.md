@@ -1,18 +1,11 @@
 ---
-created: 2026-05-12 22:06:30+00:00
-modified: 2026-05-26 11:43:45+00:00
-pieces_ids:
-- 2ed900e8-f3cd-47af-9a18-524206b98740
-- 36a57340-865f-441d-ade1-3b5ee0874918
-- 8a89e604-f1e7-4ce5-9b6e-13cfdafd9875
-- a63f6781-2df1-425f-a2c0-fe6737980ef8
-- c08d112c-38a0-4e0e-a013-5625e906639c
-source: pieces-ltm
-tags:
-- pieces
-- raw
-title: 2026-05-12-pieces-terraform-backup
+created: 2026-05-12T22:06:30+00:00
+modified: 2026-07-04T10:50:13+00:00
 permalink: llmeon/raw/2026-05-12-pieces-terraform-backup
+pieces_ids: [2ed900e8-f3cd-47af-9a18-524206b98740, 36a57340-865f-441d-ade1-3b5ee0874918, 8a89e604-f1e7-4ce5-9b6e-13cfdafd9875, a63f6781-2df1-425f-a2c0-fe6737980ef8, c08d112c-38a0-4e0e-a013-5625e906639c]
+source: pieces-ltm
+tags: [pieces, raw]
+title: 2026-05-12-pieces-terraform-backup
 ---
 
 ## Pieces LTM Ingest—Terraform Backup
@@ -129,12 +122,12 @@ Two distinct root causes were identified and confirmed via live cluster inspecti
 - Issue: The `labelsToKeep` list was reduced to only `["pod"]` during a previous cardinality-reduction change. This caused the Alloy log collector to strip the `namespace` and `container` labels from all pod log streams.
 - Effect: 37 of 42 log streams were missing the `namespace` label. Queries like `{cluster="testing", namespace="fitfile"}` returned no results because the label didn't exist on the streams.
 
-##### 3. Additional Discovery: `kube-state-metrics` Timestamp Collision (ongoing)
+##### 3. Additional Discovery: `kube-state-metrics` Timestamp Collision (Ongoing)
 
 - Symptom: `alloy-metrics` logs showed `Error on ingesting samples with different value but same timestamp` from `prometheus.scrape.kube_state_metrics`.
 - Status: Identified but not yet fixed—described as needing further investigation.
 
-##### 4. Secondary Discovery: Missing `fitfile-image-pull-secret` (pre-existing, unrelated)
+##### 4. Secondary Discovery: Missing `fitfile-image-pull-secret` (Pre-existing, uNrelated)
 
 - Cluster events showed 171–175 `FailedToRetrieveImagePullSecret` warnings across `aks-system` pods.
 - Confirmed the secret does not exist in any namespace. Pods were running only due to node-level image caching.
@@ -160,7 +153,7 @@ Two fixes in one commit:
 - Branch: `feature/FTFL-638-missing-grafana-monitoring-in-testing-cluster`
 - Also modified `charts/ffnode/values.yaml` to include `namespace` and `container` labels, plus added `.gitignore` and `CLAUDE.md` entries for `graphify-out/` and agent directories.
 
-##### MR!752—"FTFL-638 Add 'namespace' and 'container' Labels to Grafana monitoring"—Merged
+##### MR!752—"FTFL-638 Add 'Namespace' and 'Container' Labels to Grafana monitoring"—Merged
 
 - Branch: `feature/FTFL-638-add-missing-labels`
 - Commit `6b19a3bb` by Leon Ormes
@@ -183,7 +176,7 @@ Two fixes in one commit:
 
 ---
 
-#### Current Status (as of 5–7 May 2026)
+#### Current Status (As of 5–7 May 2026)
 
 After all the above fixes were applied and synced via ArgoCD:
 
@@ -227,7 +220,7 @@ That's 6 of the original 18 already gone. 12 remain.
 
 ### Remaining 12 records—grouped by Confidence
 
-#### ✅ Delete with Full Confidence Today (7 records)
+#### ✅ Delete with Full Confidence Today (7 Records)
 
 These have `tcp_ok: false`, no Terraform entry, no active owner, and have been unreachable for years:
 
@@ -241,7 +234,7 @@ These have `tcp_ok: false`, no Terraform entry, no active owner, and have been u
 | `vpntesting.fitfile.net` | A | `18.134.26.213` | 2025-04-30 | Dead, no owner |
 | `nbtesting.fitfile.net` | A | `3.9.185.218` | 2025-04-30 | Dead, no owner |
 
-#### ⚠️ Sanity-check First, then Delete (5 records)
+#### ⚠️ Sanity-check First, then Delete (5 Records)
 
 These are dead by probe but touch external services or customer infrastructure—a 60-second check is warranted before deleting:
 
@@ -315,7 +308,7 @@ That's 6 of 18 done. You have 12 `DEAD_UNMANAGED` records remaining.
 
 Your `drift_results.json` (at `/Volumes/DAL/Fitfile/gitlab/FITFILE/central-services/dns-audit/data/drift_results.json`) has the record IDs for each.
 
-##### Delete with Full confidence—no Check Needed (9 records)
+##### Delete with Full confidence—no Check Needed (9 Records)
 
 | Record | Type | Content | Last modified |
 |---|---|---|---|
@@ -331,14 +324,14 @@ Your `drift_results.json` (at `/Volumes/DAL/Fitfile/gitlab/FITFILE/central-servi
 
 All `tcp.reachable: false`, none in Terraform, no active owner signals.
 
-##### Quick Sanity Check first—30 Seconds Each (3 records)
+##### Quick Sanity Check first—30 Seconds Each (3 Records)
 
 - `em6282.fitfile.net`, `s1._domainkey.fitfile.net`, `s2._domainkey.fitfile.net` → All point at `u30519247.wl248.sendgrid.net` (DEAD, tcp.reachable: false, last modified Dec 2022). Confirm your SendGrid account is genuinely decommissioned before deleting—if SendGrid is still used for transactional email anywhere, these DKIM keys matter. If you've fully moved off SendGrid, delete all three. The audit already notes SPF still references `include:sendgrid.net`, which is a signal to check.
 - `mkuh-prd-4.fitfile.net` → A record `51.11.146.209`, last modified 25 Mar 2026 (recent!), tcp.reachable: false. Confirm with the MKUH customer team that this cluster node is definitely decommissioned before deleting—the recent modification date warrants a 10-second check.
 
 ---
 
-#### The Delete Script (for the Remaining 12)
+#### The Delete Script (For the Remaining 12)
 
 Your audit plan already has this ready to run from `~/projects/dns-audit`:
 

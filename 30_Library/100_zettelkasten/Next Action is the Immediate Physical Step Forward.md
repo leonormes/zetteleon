@@ -1,20 +1,14 @@
 ---
-aliases:
-- Next Action
-- Next Physical Action
-created: 2025-11-01 20:22:24+00:00
+aliases: [Next Action, Next Physical Action]
+created: 2025-11-01T20:22:24+00:00
 last_reviewed: '2025-11-01'
-modified: 2026-02-01 15:08:30+00:00
+modified: 2026-07-04T10:51:48+00:00
+permalink: llmeon/30-library/100-zettelkasten/next-action-is-the-immediate-physical-step-forward
 status: seedling
-tags:
-- action
-- execution
-- gtd
-- topic/productivity
+tags: [action, execution, gtd, topic/productivity]
 title: Next Action is the Immediate Physical Step Forward
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/next-action-is-the-immediate-physical-step-forward
 ---
 
 Summary: The "next action" is the immediate, concrete, physical step required to move a project forward. Defining it is essential because it bridges the gap between abstract projects and tangible doing.

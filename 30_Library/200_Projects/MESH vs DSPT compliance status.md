@@ -1,12 +1,12 @@
 ---
-created: 2026-05-11 08:57:57+00:00
-modified: 2026-06-08 11:49:21+00:00
+created: 2026-05-11T08:57:57+00:00
+modified: 2026-07-04T10:51:28+00:00
+permalink: llmeon/30-library/200-projects/mesh-vs-dspt-compliance-status
 project_category: refined_deployment
 project_name: Refined Deployment
 project_status: active
 title: MESH vs DSPT compliance status
 type: null
-permalink: llmeon/30-library/200-projects/mesh-vs-dspt-compliance-status
 ---
 
 ## MESH Vs DSPT compliance Status

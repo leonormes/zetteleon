@@ -1,20 +1,15 @@
 ---
-alias:
-- Mindful Presence
+alias: [Mindful Presence]
 aliases: []
-created: 2025-11-01 12:20:06+00:00
+created: 2025-11-01T12:20:06+00:00
 last_reviewed: '2025-11-01'
-modified: 2026-02-01 15:08:30+00:00
+modified: 2026-07-04T10:51:49+00:00
+permalink: llmeon/30-library/100-zettelkasten/mindfulness-is-non-judgmental-present-moment-awareness
 status: seedling
-tags:
-- awareness
-- buddhism
-- mindfulness
-- zen
+tags: [awareness, buddhism, mindfulness, zen]
 title: Mindfulness is Non-Judgmental Present-Moment Awareness
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/mindfulness-is-non-judgmental-present-moment-awareness
 ---
 
 ## Mindfulness is Non-Judgmental Present-Moment Awareness

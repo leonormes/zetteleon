@@ -1,19 +1,16 @@
 ---
-created: 2026-04-14 20:27:35+00:00
+created: 2026-04-14T20:27:35+00:00
 created_utc: '2026-04-14T13:20:00Z'
 kind: procedure
-modified: 2026-05-26 11:44:33+00:00
+modified: 2026-07-04T10:51:46+00:00
+permalink: llmeon/30-library/100-zettelkasten/recursive-agent-improvement
 source_title: Archon and Extreme Harness Engineering
 source_url: https://youtube.com/watch?v=qMnClynCAmM
 status: seed
-tags:
-- autonomous-agents
-- feedback-loops
-- self-improvement
+tags: [autonomous-agents, feedback-loops, self-improvement]
 title: Recursive Agent Improvement
 type: atom
 upstream: '[[SoT - Agentic AI Design Patterns]]'
-permalink: llmeon/30-library/100-zettelkasten/recursive-agent-improvement
 ---
 
 ## Recursive Agent Improvement

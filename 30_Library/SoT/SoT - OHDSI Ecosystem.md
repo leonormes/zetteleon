@@ -1,19 +1,13 @@
 ---
-aliases:
-- Federated Research Model
-- OHDSI Network
-- OMOP Philosophy
-created: 2026-01-06 18:52:00+00:00
+aliases: [Federated Research Model, OHDSI Network, OMOP Philosophy]
+created: 2026-01-06T18:52:00+00:00
 last_reviewed: 2026-01-06
-modified: 2026-02-01 15:07:54+00:00
+modified: 2026-07-04T10:50:54+00:00
+permalink: llmeon/30-library/so-t/so-t-ohdsi-ecosystem
 status: stable
-tags:
-- ohdsi
-- SoftwareEngineering/Architecture
-- sot
+tags: [ohdsi, SoftwareEngineering/Architecture, sot]
 title: SoT - OHDSI Ecosystem
 type: SoT
-permalink: llmeon/30-library/so-t/so-t-ohdsi-ecosystem
 ---
 
 ## 1. Definitive Statement

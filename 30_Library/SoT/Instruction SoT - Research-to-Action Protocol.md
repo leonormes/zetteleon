@@ -1,16 +1,11 @@
 ---
-aliases:
-- Research Transducer
-created: 2026-01-12 16:15:00+00:00
-modified: 2026-02-01 15:08:03+00:00
-tags:
-- adhd-tools
-- prodos
-- protocol
-- research
+aliases: [Research Transducer]
+created: 2026-01-12T16:15:00+00:00
+modified: 2026-07-04T10:51:07+00:00
+permalink: llmeon/30-library/so-t/instruction-so-t-research-to-action-protocol
+tags: [adhd-tools, prodos, protocol, research]
 title: Instruction SoT - Research-to-Action Protocol
 type: Instruction
-permalink: llmeon/30-library/so-t/instruction-so-t-research-to-action-protocol
 ---
 
 ## Instruction SoT - Research-to-Action Protocol

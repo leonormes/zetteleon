@@ -1,22 +1,14 @@
 ---
-aliases:
-- Arguing Correctly
-- Healthy Communication
-- Relational Communication
-created: 2025-12-21 00:00:00+00:00
+aliases: [Arguing Correctly, Healthy Communication, Relational Communication]
+created: 2025-12-21T00:00:00+00:00
 last_reviewed: '2025-12-21'
-modified: 2026-02-01 15:07:57+00:00
+modified: 2026-07-04T10:50:58+00:00
+permalink: llmeon/30-library/so-t/so-t-framework-for-healthy-communication
 status: stable
-tags:
-- communication
-- family
-- framework
-- mental-models
-- relationships
+tags: [communication, family, framework, mental-models, relationships]
 title: SoT - Framework for Healthy Communication
 type: SoT
 updated: null
-permalink: llmeon/30-library/so-t/so-t-framework-for-healthy-communication
 ---
 
 ## 1. Definitive Statement: "Separating Experience from Causality"

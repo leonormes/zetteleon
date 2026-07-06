@@ -1,19 +1,16 @@
 ---
-created: 2026-04-14 17:29:29+00:00
+created: 2026-04-14T17:29:29+00:00
 created_utc: '2026-04-14T12:00:00Z'
 kind: definition
-modified: 2026-05-26 11:44:34+00:00
+modified: 2026-07-04T10:51:50+00:00
+permalink: llmeon/30-library/100-zettelkasten/integration-as-summation
 source_title: The Roadmap to Calculus I Wish I Had
 source_url: https://youtube.com/watch?v=FavU_QaY9wA
 status: seed
-tags:
-- accumulation
-- calculus
-- integration
+tags: [accumulation, calculus, integration]
 title: Integration as Summation
 type: atom
 upstream: '[[Calculus (Definition)]]'
-permalink: llmeon/30-library/100-zettelkasten/integration-as-summation
 ---
 
 ## Integration as Summation

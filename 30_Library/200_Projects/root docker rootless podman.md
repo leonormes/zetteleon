@@ -1,8 +1,9 @@
 ---
 aliases: []
-created: 2025-02-07 20:03:51+00:00
+created: 2025-02-07T20:03:51+00:00
 last_reviewed: ''
-modified: 2026-06-08 11:49:24+00:00
+modified: 2026-07-04T10:51:15+00:00
+permalink: llmeon/30-library/200-projects/root-docker-rootless-podman
 project_category: infrastructure
 project_name: k8s
 project_status: archived
@@ -11,7 +12,6 @@ tags: []
 title: root docker rootless podman
 type: ''
 updated: null
-permalink: llmeon/30-library/200-projects/root-docker-rootless-podman
 ---
 
 why does docker need root permissions? podman says it is better because it can run rootless. so that is obviously preferable so why is docker not rootless

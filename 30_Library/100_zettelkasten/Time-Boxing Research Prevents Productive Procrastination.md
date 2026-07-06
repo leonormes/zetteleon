@@ -1,23 +1,17 @@
 ---
-aliases:
-- Time-boxed Research
-created: 2025-11-12 15:00:10+00:00
+aliases: [Time-boxed Research]
+created: 2025-11-12T15:00:10+00:00
 last_reviewed: ''
-modified: 2026-05-26 11:44:32+00:00
+modified: 2026-07-04T10:51:44+00:00
+permalink: llmeon/30-library/100-zettelkasten/time-boxing-research-prevents-productive-procrastination
 see_also: []
 status: seedling
 superseded_by: ''
 supersedes: ''
-tags:
-- research
-- technique
-- TheHuman/Health/ADHD
-- time-management
-- topic/productivity
+tags: [research, technique, TheHuman/Health/ADHD, time-management, topic/productivity]
 title: Time-Boxing Research Prevents Productive Procrastination
 type: instructional
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/time-boxing-research-prevents-productive-procrastination
 ---
 
 ## Time-Boxing Research Prevents Productive Procrastination

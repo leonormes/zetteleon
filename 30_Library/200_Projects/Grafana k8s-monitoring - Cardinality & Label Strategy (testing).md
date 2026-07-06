@@ -1,33 +1,21 @@
 ---
 chart: k8s-monitoring 4.1.3 (alloy 1.8.1, Alloy app v1.16.1)
 cluster: testing
-created: 2026-06-04 00:00:00+00:00
-modified: 2026-06-08 11:49:17+00:00
+created: 2026-06-04T00:00:00+00:00
+modified: 2026-07-04T10:51:35+00:00
+permalink: llmeon/30-library/200-projects/grafana-k8s-monitoring-cardinality-label-strategy-testing
 project_category: refined_deployment
 project_name: Refined Deployment
 project_status: active
 source: owl-audit-agent — consolidated from 4 audit drafts + Loki labels reference
 stack: fitfiletest (Grafana Cloud, prometheus-prod-05-gb-south-0)
-tags:
-- adaptive-metrics
-- alloy
-- audit
-- cardinality
-- grafana
-- kubernetes
-- labels
-- loki
-- monitoring
-- seedling
-- structured-metadata
-- testing-cluster
+tags: [adaptive-metrics, alloy, audit, cardinality, grafana, kubernetes, labels, loki, monitoring, seedling, structured-metadata, testing-cluster]
 ticket: FTFL-638
 title: Grafana k8s-monitoring - Cardinality & Label Strategy (testing)
 type: infra-audit
-permalink: llmeon/30-library/200-projects/grafana-k8s-monitoring-cardinality-label-strategy-testing
 ---
 
-## Grafana k8s-monitoring—Cardinality & Label Strategy (testing cluster)
+## Grafana k8s-monitoring—Cardinality & Label Strategy (Testing cLuster)
 
 > [!note] Consolidation provenance
 > Merged from four overlapping audit drafts of the `testing` cluster (all 2026-06-04) plus the Loki _Labels vs Structured Metadata_ reference. Canonical figures are taken from the three consistent drafts; one outlier draft is set aside—see [[#Data reconciliation note]]. All actions are robust to that discrepancy: only the _size_ of the saving is uncertain, not the fixes themselves.
@@ -46,7 +34,7 @@ The single rule everything below depends on:
 
 > Labels answer _"which stream?"_—Structured metadata answers _"which line within the stream?"_
 
-### Labels (indexed)
+### Labels (Indexed)
 
 Indexed key–value pairs that define and identify a stream (Loki) or series (Prometheus/Mimir).
 
@@ -59,7 +47,7 @@ Indexed key–value pairs that define and identify a stream (Loki) or series (Pr
 - Used for stream selection—the first stage of any query.
 - Directly drive cardinality and storage structure.
 
-### Structured Metadata (non-indexed)
+### Structured Metadata (Non-indexed)
 
 Non-indexed key–value pairs attached to individual log lines, not streams. Introduced in Loki 3.0 with OTLP-native support; sometimes called "non-indexed labels".
 
@@ -119,7 +107,7 @@ A well-designed Loki setup uses 3–6 low-cardinality labels (`app`, `env`, `nam
 
 Same principle, different mechanism: every unique label combination is a new time series. Prometheus has no native structured-metadata equivalent (3.x adds native histograms and OTLP resource attributes, but labels remain the cardinality driver). Rule is identical: keep label values low-cardinality; never label on `requestID` or `userID`.
 
-### War story—FTFL-638 (the Lesson that Motivates the standard)
+### War story—FTFL-638 (The Lesson that Motivates the sTandard)
 
 During debugging of `fitfile-cloud-testing-aks-cluster` under ticket FTFL-638, the `pod` field was being written into Loki's `structured_metadata` block by the default chart config—which strips it from the stream labels, rendering it unusable as an indexed selector (`{pod="…"}` stops working).
 
@@ -172,7 +160,7 @@ Repeat the high-level ownership + cost + criticality labels on namespaces and us
 - DO NOT put rolling variables in selectors or pod-template labels:
   Git SHAs, release/container tags, build IDs, deployment timestamps.
 
-### Annotations (Kubernetes level)
+### Annotations (Kubernetes lEvel)
 
 Richer context for CI/CD, runbooks, and automation—never used as selectors.
 
@@ -185,7 +173,7 @@ Richer context for CI/CD, runbooks, and automation—never used as selectors.
 | `yourcompany.com/last-deployed-at` | ISO deploy timestamp |
 | `yourcompany.com/config-checksum` | ConfigMap/Secret hash (triggers rolling restarts) |
 
-### Structured Metadata / OTel Resource Attributes (observability level)
+### Structured Metadata / OTel Resource Attributes (Observability lEvel)
 
 Map Kubernetes metadata into stable resource attributes; do not promote all of them to metric/log labels.
 
@@ -294,9 +282,9 @@ podAnnotations:
 
 ### Optimisation Checklist
 
-- [x] Label/selector separation—no dynamic tags (image tags, build sigs) inside `spec.selector.matchLabels`.  [completion:: 2026-06-11]
-- [x] Standardise `job` pattern—`job = namespace/container` in the collector config (prevents index collisions).  [completion:: 2026-06-11]
-- [x] No duplicate metadata stages—a field is written to stream labels or structured metadata, never both (see FTFL-638).  [completion:: 2026-06-11]
+- [x] Label/selector separation—no dynamic tags (image tags, build sigs) inside `spec.selector.matchLabels`. [completion:: 2026-06-11]
+- [x] Standardise `job` pattern—`job = namespace/container` in the collector config (prevents index collisions). [completion:: 2026-06-11]
+- [x] No duplicate metadata stages—a field is written to stream labels or structured metadata, never both (see FTFL-638). [completion:: 2026-06-11]
 - [ ] Audit & drop high-cardinality indices—periodically confirm request IDs, user codes, and row hashes are never promoted to labels.
 
 ---
@@ -321,7 +309,7 @@ podAnnotations:
 | Config bug | node-exporter runs on every node but 0 host metrics reach Cloud |
 | Realistic active-series cut | ~6–9% immediate + large churn/index reduction from high-entropy drops |
 
-### Priority Action List (merged, deduped)
+### Priority Action List (Merged, dEduped)
 
 | # | Priority | Action | Effect | Data-loss risk |
 |---|---|---|---|---|
@@ -543,7 +531,7 @@ DaemonSet deployed (`telemetryServices.node-exporter.deploy: true`, `hostMetrics
 
 135-value containerd hash on `kube_pod_container_info` / `kube_pod_init_container_info`. Removes restart churn. Data-loss risk Low (only `container_id` joins).
 
-#### Issue 6—KSM `uid` across 45 Metrics (EVALUATE · FIX TYPE C preferred)
+#### Issue 6—KSM `uid` across 45 Metrics (EVALUATE · FIX TYPE C pReferred)
 
 95 current / ~220-value pod UUID on ~2,875 series; churns on every pod recreation. Preferred = Adaptive Metrics (already active): aggregate dropping `uid` where unused, keeping `pod`. Or a recording-rule rollup.
 

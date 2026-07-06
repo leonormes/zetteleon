@@ -1,12 +1,12 @@
 ---
-created: 2026-06-08 11:35:53+00:00
-modified: 2026-06-08 11:49:17+00:00
+created: 2026-06-08T11:35:53+00:00
+modified: 2026-07-04T10:51:30+00:00
+permalink: llmeon/30-library/200-projects/hermes-cost-routing-cursor-implementation-prompt
 project_category: hermes_optimisastion
 project_name: Hermes Optimisastion
 project_status: active
 title: Hermes Cost Routing - Cursor Implementation Prompt
 type: null
-permalink: llmeon/30-library/200-projects/hermes-cost-routing-cursor-implementation-prompt
 ---
 
 ## Hermes Cost Routing Implementation
@@ -15,7 +15,7 @@ permalink: llmeon/30-library/200-projects/hermes-cost-routing-cursor-implementat
 
 You are working in the chezmoi-managed Hermes config directory at `private_dot_hermes/`. The goal is to implement a Gather → Reason → Act cost routing strategy that keeps the free `owl-alpha` model as the workhorse and escalates to paid Claude only for bounded reasoning steps.
 
-### What Already Exists (do not break)
+### What Already Exists (Do not bReak)
 
 - `private_config.yaml`—Main config. Key relevant values:
   - `model.default: openrouter/owl-alpha`—main model is already free ✓
@@ -204,8 +204,8 @@ kubectl --context <ctx> get application <app> -n argocd \
 git -C <repo_path> fetch origin <branch> && git -C <repo_path> rev-parse origin/<branch>
 ```
 
-2. Decision: if `operationState.phase` is `Running` or `Failed` AND operation revision!= git HEAD → proceed. Otherwise stop.
-3. Terminate stuck operation
+1. Decision: if `operationState.phase` is `Running` or `Failed` AND operation revision!= git HEAD → proceed. Otherwise stop.
+2. Terminate stuck operation
 
 ```bash
 kubectl --context <ctx> patch application <app> -n argocd \
@@ -214,14 +214,14 @@ kubectl --context <ctx> patch application <app> -n argocd \
 
 If patch returns "invalid request" (no operation to remove), skip to step 5.
 
-4. Force hard refresh
+1. Force hard refresh
 
 ```bash
 kubectl --context <ctx> annotate application <app> -n argocd \
   argocd.argoproj.io/refresh=hard --overwrite
 ```
 
-5. Wait for new operation at HEAD
+1. Wait for new operation at HEAD
 
 ```bash
 until kubectl --context <ctx> get application <app> -n argocd \
@@ -229,7 +229,7 @@ until kubectl --context <ctx> get application <app> -n argocd \
   | grep -q "<HEAD_REVISION>"; do sleep 5; done
 ```
 
-6. Report: new operation revision + phase.
+1. Report: new operation revision + phase.
 
 ### Escalate if
 
@@ -270,13 +270,13 @@ kubectl --context <ctx> describe pod <pod> -n <ns> 2>&1 | \
   grep -E "State:|Reason:|Message:|Args:|Port:|Host Port:|Image:|hostNetwork:|Limits:|Requests:|Liveness:|Readiness:|Mounts:|Volumes:|Events:" 
 ```
 
-2. Collect recent namespace events
+1. Collect recent namespace events
 
 ```bash
 kubectl --context <ctx> get events -n <ns> --sort-by='.lastTimestamp' 2>&1 | tail -20
 ```
 
-3. Pattern match against known causes:
+1. Pattern match against known causes:
 
 | Pattern in logs | Known fix | Escalate? |
 |---|---|---|
@@ -339,7 +339,7 @@ helm template <release_name> <chart_path> \
   2>&1 | grep -A 15 "execution error\|^Error:"
 ```
 
-2. Pattern match errors:
+1. Pattern match errors:
 
 | Error pattern | Known fix |
 |---|---|
@@ -403,7 +403,7 @@ print(f'Streams with pod: {pod_count}/{len(streams)}')
 "
 ```
 
-2. Check for recent logs (last 1h):
+1. Check for recent logs (last 1h):
 
 ```bash
 gcx logs query --context <gcx_context> -d <loki_datasource> \
@@ -421,7 +421,7 @@ if result: print('Sample stream:', result[0].get('stream',{}))
 "
 ```
 
-3. Compare against baseline and report:
+1. Compare against baseline and report:
 
 ```
 PRESENT:   <list of expected labels found>
@@ -430,7 +430,7 @@ EXTRA:     <labels present but not in baseline>
 RECENT_LOGS: yes/no
 ```
 
-4. Known root causes for missing `pod` label:
+1. Known root causes for missing `pod` label:
 - v3.x chart: `stage.structured_metadata { "pod" = "pod" }` moves pod to structured metadata. Fix: remove from structuredMetadata or null it.
 - v4.x chart: same issue if `podLogsViaLoki.structuredMetadata.pod` is not set to `null`.
 

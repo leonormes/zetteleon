@@ -1,20 +1,16 @@
 ---
-created: 2026-04-14 13:21:45+00:00
+created: 2026-04-14T13:21:45+00:00
 created_utc: '2026-04-14T11:35:00Z'
 kind: distinction
-modified: 2026-05-26 11:44:34+00:00
+modified: 2026-07-04T10:51:50+00:00
+permalink: llmeon/30-library/100-zettelkasten/information-vs-knowledge
 source_title: Thinking about knowledge
 source_url: https://gemini.google.com/app/d3312dd6e13881e3
 status: seed
-tags:
-- epistemology
-- information
-- knowledge
-- pkm
+tags: [epistemology, information, knowledge, pkm]
 title: Information vs Knowledge
 type: atom
 upstream: '[[SoT - Human vs AI Cognition]]'
-permalink: llmeon/30-library/100-zettelkasten/information-vs-knowledge
 ---
 
 ## Information Vs Knowledge

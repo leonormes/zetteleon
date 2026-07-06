@@ -1,18 +1,12 @@
 ---
-created: 2026-02-05 21:05:00+00:00
-modified: 2026-02-06 09:22:57+00:00
+created: 2026-02-05T21:05:00+00:00
+modified: 2026-07-04T10:50:45+00:00
+permalink: llmeon/30-library/ops/protocol-legacy-to-cue-migration-strategy
 status: active
-tags:
-- cue
-- devops
-- helm
-- infra
-- migration
-- protocol
+tags: [cue, devops, helm, infra, migration, protocol]
 title: Protocol - Legacy-to-CUE Migration Strategy
 trust-level: high
 type: protocol
-permalink: llmeon/30-library/ops/protocol-legacy-to-cue-migration-strategy
 ---
 
 > Objective: Safely migrate from legacy configuration (Helm/YAML) to CUE without service interruption.

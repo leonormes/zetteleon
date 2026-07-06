@@ -1,16 +1,14 @@
 ---
 aliases: []
-created: 2025-02-07 12:57:53+00:00
+created: 2025-02-07T12:57:53+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:20+00:00
+modified: 2026-07-04T10:50:45+00:00
+permalink: llmeon/30-library/ops/getting-user-details-via-cli
 status: ''
-tags:
-- aws
-- cli
+tags: [aws, cli]
 title: Getting user details via cli
 type: ''
 updated: null
-permalink: llmeon/30-library/ops/getting-user-details-via-cli
 ---
 
 Here are some options to retrieve the user's configuration:

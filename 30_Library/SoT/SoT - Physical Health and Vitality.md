@@ -1,22 +1,14 @@
 ---
-aliases:
-- Functional Fitness
-- Longevity Protocol
-- Physical Hardware Maintenance
-created: 2025-12-15 00:00:00+00:00
+aliases: [Functional Fitness, Longevity Protocol, Physical Hardware Maintenance]
+created: 2025-12-15T00:00:00+00:00
 last_reviewed: '2025-12-15'
-modified: 2026-02-01 15:07:53+00:00
+modified: 2026-07-04T10:50:53+00:00
+permalink: llmeon/30-library/so-t/so-t-physical-health-and-vitality
 status: stable
-tags:
-- fitness
-- health
-- longevity
-- mobility
-- physical_hardware
+tags: [fitness, health, longevity, mobility, physical_hardware]
 title: SoT - Physical Health and Vitality
 type: SoT
 updated: null
-permalink: llmeon/30-library/so-t/so-t-physical-health-and-vitality
 ---
 
 > The goal is Compression of Morbidity: "maintaining high function until the very end of life, rather than a slow, painful decline."

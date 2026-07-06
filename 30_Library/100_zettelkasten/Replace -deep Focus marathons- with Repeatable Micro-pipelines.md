@@ -1,15 +1,14 @@
 ---
 aliases: []
-created: 2025-08-19 23:58:53+00:00
+created: 2025-08-19T23:58:53+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:28+00:00
+modified: 2026-07-04T10:51:46+00:00
+permalink: llmeon/30-library/100-zettelkasten/replace-deep-focus-marathons-with-repeatable-micro-pipelines
 status: ''
-tags:
-- topic/pkm
+tags: [topic/pkm]
 title: Replace -deep Focus marathons- with Repeatable Micro-pipelines
 type: ''
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/replace-deep-focus-marathons-with-repeatable-micro-pipelines
 ---
 
 - Set 25–50 minute "focus sprints" with one explicit outcome (e.g., "Prove lemma A," "Implement SHA-256 step 3," "Summarize section on category theory adjoints in 5 bullet points").

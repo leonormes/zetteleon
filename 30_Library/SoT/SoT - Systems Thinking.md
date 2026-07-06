@@ -1,22 +1,15 @@
 ---
-aliases:
-- Feedback Loops
-- Holistic Thinking
-- Systems Dynamics
-created: 2025-12-12 00:00:00+00:00
+aliases: [Feedback Loops, Holistic Thinking, Systems Dynamics]
+created: 2025-12-12T00:00:00+00:00
 last_reviewed: ''
-modified: 2026-02-04 07:27:00+00:00
+modified: 2026-07-04T10:50:50+00:00
+permalink: llmeon/30-library/so-t/so-t-systems-thinking
 status: stable
-tags:
-- complexity
-- mental_models
-- thinking
-- topic/systems
+tags: [complexity, mental_models, thinking, topic/systems]
 tier: 2-Strategy
 title: SoT - Systems Thinking
 type: SoT
 updated: null
-permalink: llmeon/30-library/so-t/so-t-systems-thinking
 ---
 
 ## Working Knowledge (Stable)
@@ -89,6 +82,4 @@ Donella Meadows identified that not all interventions are equal.
 - [[SoT - The Exponential Function]]—_Understanding compounding and reinforcing feedback loops._
 - [[SoT - Fundamental Description of Economics]]—_Systems thinking applied to resource allocation and markets._
 - [[SoT - What is a Problem]]—_Defining problems as emergent dysfunctions of a system._
-
-
 - [[5c-emergence]] _(Core definition of emergence: complex patterns arising from simple interactions, key concept in systems theory and complexity science)_

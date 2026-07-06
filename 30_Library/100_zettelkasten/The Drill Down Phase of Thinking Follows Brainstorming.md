@@ -1,19 +1,14 @@
 ---
-aliases:
-- Convergent thinking after divergent thinking
-created: 2025-07-18 00:00:00+00:00
+aliases: [Convergent thinking after divergent thinking]
+created: 2025-07-18T00:00:00+00:00
 last_reviewed: 'null'
-modified: 2026-02-01 15:08:25+00:00
+modified: 2026-07-04T10:51:44+00:00
+permalink: llmeon/30-library/100-zettelkasten/the-drill-down-phase-of-thinking-follows-brainstorming
 status: 'null'
-tags:
-- brainstorming
-- problem-solving
-- TheHuman/Cognition/thinking
-- TheHuman/Creativity
+tags: [brainstorming, problem-solving, TheHuman/Cognition/thinking, TheHuman/Creativity]
 title: The Drill Down Phase of Thinking Follows Brainstorming
 type: 'null'
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/the-drill-down-phase-of-thinking-follows-brainstorming
 ---
 
 A productive thinking process can involve two distinct phases. First, a "go wide" phase of brainstorming to generate a broad range of ideas (divergent thinking). This is followed by a "drill down" phase, where one focuses deeply on specific ideas to develop them, refine them, and uncover profound insights (convergent thinking).

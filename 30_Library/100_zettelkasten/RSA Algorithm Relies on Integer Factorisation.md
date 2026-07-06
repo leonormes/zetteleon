@@ -1,18 +1,14 @@
 ---
-aliases:
-- Rivest-Shamir-Adleman
-- RSA
-created: 2025-12-24 12:00:00+00:00
+aliases: [Rivest-Shamir-Adleman, RSA]
+created: 2025-12-24T12:00:00+00:00
 last_reviewed: 2025-12-24
-modified: 2026-02-01 15:08:28+00:00
+modified: 2026-07-04T10:51:46+00:00
+permalink: llmeon/30-library/100-zettelkasten/rsa-algorithm-relies-on-integer-factorisation
 status: stable
-tags:
-- cryptography
-- rsa
+tags: [cryptography, rsa]
 title: RSA Algorithm Relies on Integer Factorisation
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/rsa-algorithm-relies-on-integer-factorisation
 ---
 
 The RSA Algorithm (named after Rivest, Shamir, and Adleman) is the most widely used system for encryption and digital signatures. Its security rests on the Integer Factorisation Problem.

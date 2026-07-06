@@ -1,21 +1,14 @@
 ---
-aliases:
-- Amateur vs Professional Mindset
-- Resistance (Pressfield)
-- Turning Pro
-created: 2025-12-11 00:00:00+00:00
+aliases: [Amateur vs Professional Mindset, Resistance (Pressfield), Turning Pro]
+created: 2025-12-11T00:00:00+00:00
 last_reviewed: '2025-12-11'
-modified: 2026-02-01 15:08:24+00:00
+modified: 2026-07-04T10:51:44+00:00
+permalink: llmeon/30-library/100-zettelkasten/the-war-of-art-resistance-and-turning-pro
 status: sapling
-tags:
-- mental_model
-- pressfield
-- TheHuman/Psychology
-- topic/productivity
+tags: [mental_model, pressfield, TheHuman/Psychology, topic/productivity]
 title: The War of Art - Resistance and Turning Pro
 type: principle
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/the-war-of-art-resistance-and-turning-pro
 ---
 
 Core Insight: The greatest barrier to creative work is not lack of talent, but Resistance—an active, intelligent, and malicious force that opposes any growth or ascent from a lower to a higher state.

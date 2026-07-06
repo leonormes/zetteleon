@@ -1,20 +1,16 @@
 ---
-created: 2026-04-14 11:11:48+00:00
+created: 2026-04-14T11:11:48+00:00
 created_utc: '2026-04-14T10:35:00Z'
 kind: claim
-modified: 2026-05-26 11:44:36+00:00
+modified: 2026-07-04T10:51:53+00:00
+permalink: llmeon/30-library/100-zettelkasten/connectivity-specificity
 source_title: Networking Is Label Transformation Under Policy
 source_url: N/A
 status: seed
-tags:
-- connectivity
-- debugging
-- firewall-policy
-- protocols
+tags: [connectivity, debugging, firewall-policy, protocols]
 title: Connectivity Specificity
 type: atom
 upstream: '[[SoT - Network Security Architecture]]'
-permalink: llmeon/30-library/100-zettelkasten/connectivity-specificity
 ---
 
 ## Connectivity Specificity

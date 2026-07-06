@@ -1,25 +1,16 @@
 ---
-aliases:
-- NetEng
-- Network Engineering Map
-- Networking & DNS Index
-- Networking MOC
-created: 2025-10-24 14:25:58+00:00
+aliases: [NetEng, Network Engineering Map, Networking & DNS Index, Networking MOC]
+created: 2025-10-24T14:25:58+00:00
 last_reviewed: 2026-04-05
 last_synthesis: 2026-04-05
-modified: 2026-05-26 11:44:22+00:00
+modified: 2026-07-04T10:51:10+00:00
+permalink: llmeon/30-library/mo-c/moc-networking
 status: evergreen
 synthesis_count: 3
-tags:
-- dns
-- engineering
-- infrastructure
-- moc
-- SoftwareEngineering/Networking
+tags: [dns, engineering, infrastructure, moc, SoftwareEngineering/Networking]
 title: MOC - Networking
 type: map
 updated: 2026-04-05
-permalink: llmeon/30-library/mo-c/moc-networking
 ---
 
 ## MOC - Networking: The Nervous System of Distributed Computing

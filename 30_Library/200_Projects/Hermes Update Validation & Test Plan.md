@@ -1,12 +1,12 @@
 ---
-created: 2026-05-28 14:17:22+00:00
-modified: 2026-06-08 11:49:17+00:00
+created: 2026-05-28T14:17:22+00:00
+modified: 2026-07-04T10:51:30+00:00
+permalink: llmeon/30-library/200-projects/hermes-update-validation-test-plan
 project_category: hermes_optimisastion
 project_name: Hermes Optimisastion
 project_status: active
 title: Hermes Update Validation & Test Plan
 type: null
-permalink: llmeon/30-library/200-projects/hermes-update-validation-test-plan
 ---
 
 ## Validation: Changes Confirmed in Files
@@ -66,7 +66,7 @@ One note: the `delegation.model` is set to `anthropic/claude-sonnet-4-6` via `op
 
 ## Test Plan
 
-### 0. Pre-flight Checks (run before Anything else)
+### 0. Pre-flight Checks (Run before Anything eLse)
 
 ```bash
 # Confirm chezmoi source matches live config
@@ -163,7 +163,7 @@ Expected: exact commands from `argocd-unstick.md` steps 1–7 populated with you
 
 ---
 
-### 5. Infra protocol—escalation to `delegate_task` (Phase B gate)
+### 5. Infra protocol—escalation to `delegate_task` (Phase B gAte)
 
 Give Hermes an ambiguous infra symptom that doesn't match any playbook exactly:
 

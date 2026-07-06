@@ -1,17 +1,14 @@
 ---
 aliases: []
-created: 2025-11-01 11:22:13+00:00
+created: 2025-11-01T11:22:13+00:00
 last_reviewed: '2025-11-01T00:00:00.000Z'
-modified: 2026-02-01 15:08:24+00:00
+modified: 2026-07-04T10:51:44+00:00
+permalink: llmeon/30-library/100-zettelkasten/there-is-no-single-first-principle-of-mathematics
 status: seedling
-tags:
-- foundations
-- TheHuman/Philosophy
-- topic/maths
+tags: [foundations, TheHuman/Philosophy, topic/maths]
 title: There Is No Single First Principle of Mathematics
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/there-is-no-single-first-principle-of-mathematics
 ---
 
 Summary: There is no single, universally accepted "first principle" of mathematics from which all else flows. Instead, mathematics is characterized by multiple competing philosophical frameworks that each propose different fundamental natures for the discipline.

@@ -1,19 +1,17 @@
 ---
 aliases: []
-created: 2025-10-31 10:20:00+00:00
+created: 2025-10-31T10:20:00+00:00
 criteria: Focus on routing, ACLs, and data structures for network security.
 exclusions: Higher-layer (L4-L7) security concepts.
 last_reviewed: ''
-modified: 2026-02-01 15:08:05+00:00
-scope: Technical concepts from 'L3 Network Security Explained.md'.
+modified: 2026-07-04T10:51:10+00:00
+permalink: llmeon/30-library/mo-c/moc-layer-3-network-security-concepts
+scope: "Technical concepts from 'L3 Network Security Explained.md'."
 status: ''
-tags:
-- SoftwareEngineering/Networking
-- SoftwareEngineering/Security
+tags: [SoftwareEngineering/Networking, SoftwareEngineering/Security]
 title: MOC - Layer 3 Network Security Concepts
 type: map
 updated: null
-permalink: llmeon/30-library/mo-c/moc-layer-3-network-security-concepts
 ---
 
 ## MOC - Layer 3 Network Security Concepts

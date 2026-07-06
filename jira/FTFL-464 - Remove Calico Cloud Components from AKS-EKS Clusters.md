@@ -5,7 +5,7 @@ epic: Infrastructure Cleanup
 jira_key: FTFL-464
 jira_url: https://fitfile.atlassian.net/browse/FTFL-464
 labels: [calico, kubernetes, platform-engineering, tech-debt]
-modified: 2026-06-23T08:17:12+00:00
+modified: 2026-07-04T10:50:33+00:00
 permalink: llmeon/jira/ftfl-464-remove-calico-cloud-components-from-aks-eks-clusters
 priority: Medium
 project: FTFL (FITFILE 2026)

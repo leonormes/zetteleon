@@ -1,19 +1,15 @@
 ---
-aliases:
-- Becoming tool agnostic
-created: 2025-04-30 01:58:44+00:00
+aliases: [Becoming tool agnostic]
+created: 2025-04-30T01:58:44+00:00
 id: Becoming tool agnostic
 last_reviewed: ''
-modified: 2026-05-26 11:44:36+00:00
+modified: 2026-07-04T10:51:54+00:00
+permalink: llmeon/30-library/100-zettelkasten/becoming-system-agnostic
 status: permanent
-tags:
-- dependencies
-- simple
-- topic/systems
+tags: [dependencies, simple, topic/systems]
 title: Becoming System Agnostic
 type: permanent
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/becoming-system-agnostic
 ---
 
 I Don't Like Dependencies.

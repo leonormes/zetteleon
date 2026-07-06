@@ -1,21 +1,16 @@
 ---
 aliases: []
-created: 2025-10-31 11:25:00+00:00
-criteria:
-- Cognitive Load
-- Definition
-- Demonstration
+created: 2025-10-31T11:25:00+00:00
+criteria: [Cognitive Load, Definition, Demonstration]
 last_reviewed: ''
-modified: 2026-02-01 15:08:35+00:00
+modified: 2026-07-04T10:51:53+00:00
+permalink: llmeon/30-library/100-zettelkasten/comparison-knowing-vs-understanding
 status: ''
 subject: Knowing vs Understanding
-tags:
-- comparison
-- TheHuman/Cognition
+tags: [comparison, TheHuman/Cognition]
 title: Comparison - Knowing vs Understanding
 type: comparison
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/comparison-knowing-vs-understanding
 ---
 
 ## Comparison - Knowing Vs Understanding

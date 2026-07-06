@@ -1,20 +1,14 @@
 ---
-aliases:
-- Antifragility
-created: 2025-11-01 09:51:13+00:00
+aliases: [Antifragility]
+created: 2025-11-01T09:51:13+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:36+00:00
+modified: 2026-07-04T10:51:54+00:00
+permalink: llmeon/30-library/100-zettelkasten/anti-fragility-means-systems-that-benefit-from-volatility
 status: seedling
-tags:
-- anti-fragility
-- chaos
-- mental-model
-- resilience
-- strategy
+tags: [anti-fragility, chaos, mental-model, resilience, strategy]
 title: Anti-Fragility Means Systems That Benefit From Volatility
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/anti-fragility-means-systems-that-benefit-from-volatility
 ---
 
 ## Anti-Fragility Means Systems That Benefit From Volatility

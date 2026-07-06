@@ -1,19 +1,16 @@
 ---
-created: 2026-04-14 20:25:18+00:00
+created: 2026-04-14T20:25:18+00:00
 created_utc: '2026-04-14T13:00:00Z'
 kind: procedure
-modified: 2026-05-26 11:44:35+00:00
+modified: 2026-07-04T10:51:52+00:00
+permalink: llmeon/30-library/100-zettelkasten/emergency-access-account-protocol
 source_title: Azure Entra Identity Best Practices & Remediation Plan
 source_url: https://gemini.google.com/app/90721765fb79ed7a
 status: seed
-tags:
-- break-glass
-- disaster-recovery
-- security-ops
+tags: [break-glass, disaster-recovery, security-ops]
 title: Emergency Access Account Protocol
 type: atom
 upstream: '[[SoT - Microsoft Entra Identity]]'
-permalink: llmeon/30-library/100-zettelkasten/emergency-access-account-protocol
 ---
 
 Organizations must maintain "break-glass" emergency access accounts that are cloud-only and excluded from standard MFA and Conditional Access policies. These accounts serve as a final recovery path if primary authentication or identity services fail; as high-risk assets, they must be rigorously monitored for any sign-in activity.

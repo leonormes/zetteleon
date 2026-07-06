@@ -1,20 +1,14 @@
 ---
-aliases:
-- Agentic REPL
-- RLM
-created: 2026-01-31 00:00:00+00:00
+aliases: [Agentic REPL, RLM]
+created: 2026-01-31T00:00:00+00:00
 last_reviewed: null
-modified: 2026-02-04 07:27:06+00:00
+modified: 2026-07-04T10:50:51+00:00
+permalink: llmeon/30-library/so-t/so-t-recursive-language-models
 status: evergreen
-tags:
-- agents
-- architecture
-- research
-- rlm
+tags: [agents, architecture, research, rlm]
 title: SoT - Recursive Language Models
 type: SoT
 updated: null
-permalink: llmeon/30-library/so-t/so-t-recursive-language-models
 ---
 
 ## The Core Problem: Context Rot & Complexity

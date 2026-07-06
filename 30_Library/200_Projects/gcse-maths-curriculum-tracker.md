@@ -1,9 +1,9 @@
 ---
-created: 2026-06-20 15:31:28+00:00
-modified: 2026-06-22 08:04:05+00:00
-title: gcse-maths-curriculum-tracker
-project_name: Bessie
+created: 2026-06-20T15:31:28+00:00
+modified: 2026-07-04T10:51:17+00:00
 permalink: llmeon/30-library/200-projects/gcse-maths-curriculum-tracker
+project_name: Bessie
+title: gcse-maths-curriculum-tracker
 ---
 
 ## GCSE (9–1) Mathematics—Curriculum Tracker
@@ -14,7 +14,7 @@ permalink: llmeon/30-library/200-projects/gcse-maths-curriculum-tracker
 
 ### 📘 Foundation Tier
 
-#### 1. Number (22–28% of assessment)
+#### 1. Number (22–28% of Assessment)
 
 ##### Structure and Calculation
 
@@ -41,7 +41,7 @@ permalink: llmeon/30-library/200-projects/gcse-maths-curriculum-tracker
 - [ ] N15: Round numbers to decimal places or significant figures; use inequality notation for simple error intervals (truncation/rounding).
 - [ ] N16: Apply and interpret limits of accuracy.
 
-#### 2. Algebra (17–23% of assessment)
+#### 2. Algebra (17–23% of Assessment)
 
 ##### Notation, Vocabulary and Manipulation
 
@@ -76,7 +76,7 @@ permalink: llmeon/30-library/200-projects/gcse-maths-curriculum-tracker
 - [ ] A24: Recognise triangular, square, cube numbers, arithmetic progressions, Fibonacci sequences, quadratic sequences, and geometric progressions.
 - [ ] A25: Deduce expressions for the $n$th term of linear sequences.
 
-#### 3. Ratio, Proportion and Rates of Change (22–28% of assessment)
+#### 3. Ratio, Proportion and Rates of Change (22–28% of Assessment)
 
 - [ ] R1: Change freely between standard units and compound units.
 - [ ] R2: Use scale factors, scale diagrams, and maps.
@@ -90,7 +90,7 @@ permalink: llmeon/30-library/200-projects/gcse-maths-curriculum-tracker
 - [ ] R13 & R14: Understand and interpret inverse proportion ($X \propto \frac{1}{Y}$); interpret the gradient of a straight line as a rate of change.
 - [ ] R16: Set up and solve growth and decay problems, including compound interest.
 
-#### 4. Geometry and Measures (12–18% of assessment)
+#### 4. Geometry and Measures (12–18% of Assessment)
 
 ##### Properties and Constructions
 
@@ -114,14 +114,14 @@ permalink: llmeon/30-library/200-projects/gcse-maths-curriculum-tracker
 
 - [ ] G24 & G25: Describe translations as 2D column vectors; apply addition, subtraction, and scalar multiplication.
 
-#### 5. Probability (Probability + Statistics: 12–18% of assessment)
+#### 5. Probability (Probability + Statistics: 12–18% of aSsessment)
 
 - [ ] P1–P3: Record and analyse frequencies using tables and frequency trees; understand randomness, fairness, and the 0–1 probability scale.
 - [ ] P4: Apply the property that exhaustive sets of mutually exclusive outcomes sum to 1.
 - [ ] P5–P7: Venn diagrams, tree diagrams, grids, and sample space diagrams to calculate theoretical probabilities.
 - [ ] P8: Calculate probabilities of independent and dependent combined events.
 
-#### 6. Statistics (Probability + Statistics: 12–18% of assessment)
+#### 6. Statistics (Probability + Statistics: 12–18% of aSsessment)
 
 - [ ] S1 & S2: Sampling limitations; interpret/construct charts (bar charts, pie charts, pictograms, vertical line charts, time series tables/graphs).
 - [ ] S4: Calculate/compare measures of central tendency (mean, median, mode, modal class) and spread (range, identifying outliers).
@@ -133,7 +133,7 @@ permalink: llmeon/30-library/200-projects/gcse-maths-curriculum-tracker
 
 > Higher students are assessed on all Foundation topics plus the advanced subtopics below.
 
-#### 1. Number (12–18% of assessment)
+#### 1. Number (12–18% of Assessment)
 
 - [ ] N5: Apply the product rule for counting.
 - [ ] N6: Estimate powers and roots of any given positive number.
@@ -142,7 +142,7 @@ permalink: llmeon/30-library/200-projects/gcse-maths-curriculum-tracker
 - [ ] N10: Convert recurring decimals into fractions and vice versa.
 - [ ] N16: Apply limits of accuracy using upper and lower bounds.
 
-#### 2. Algebra (27–33% of assessment)
+#### 2. Algebra (27–33% of Assessment)
 
 ##### Manipulation and Functions
 
@@ -169,12 +169,12 @@ permalink: llmeon/30-library/200-projects/gcse-maths-curriculum-tracker
 
 - [ ] A25: Deduce expressions for the $n$th term of quadratic sequences.
 
-#### 3. Ratio, Proportion and Rates of Change (17–23% of assessment)
+#### 3. Ratio, Proportion and Rates of Change (17–23% of Assessment)
 
 - [ ] R14 & R15: Interpret the gradient at a point on a curve as an instantaneous rate of change (using chords and tangents).
 - [ ] R16: Set up, solve, and work with general iterative processes for exponential growth and decay.
 
-#### 4. Geometry and Measures (17–23% of assessment)
+#### 4. Geometry and Measures (17–23% of Assessment)
 
 ##### Advanced Shapes and Proofs
 
@@ -189,11 +189,11 @@ permalink: llmeon/30-library/200-projects/gcse-maths-curriculum-tracker
 - [ ] G22 & G23: Know and apply the Sine Rule ($\frac{a}{\sin A} = \frac{b}{\sin B}$), Cosine Rule ($a^2 = b^2 + c^2 - 2bc\cos A$), and Area formula ($\text{Area} = \frac{1}{2}ab\sin C$) for any triangle.
 - [ ] G25: Use vectors to construct geometric arguments and formal proofs.
 
-#### 5. Probability (Probability + Statistics: 12–18% of assessment)
+#### 5. Probability (Probability + Statistics: 12–18% of aSsessment)
 
 - [ ] P9: Calculate and interpret conditional probabilities using expected frequencies, two-way tables, tree diagrams, and Venn diagrams.
 
-#### 6. Statistics (Probability + Statistics: 12–18% of assessment)
+#### 6. Statistics (Probability + Statistics: 12–18% of aSsessment)
 
 - [ ] S3: Construct and interpret histograms with unequal class intervals.
 - [ ] S4: Construct and interpret cumulative frequency graphs and box plots (including quartiles and inter-quartile range).

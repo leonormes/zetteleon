@@ -2,7 +2,7 @@
 aliases: [Anemic Domain Model, Cache Optimization, DOD, Performance Engineering, The Physics of DOD]
 created: 2026-01-30T09:00:00+00:00
 last_synthesis: 2026-04-02
-modified: 2026-06-29T11:18:42+00:00
+modified: 2026-07-04T10:51:01+00:00
 permalink: llmeon/30-library/so-t/so-t-data-oriented-design
 source_of_truth: true
 status: evergreen

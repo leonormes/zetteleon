@@ -1,18 +1,14 @@
 ---
 aliases: []
-created: 2025-10-20 09:01:00+00:00
+created: 2025-10-20T09:01:00+00:00
 last_reviewed: ''
-modified: 2026-02-11 22:25:07+00:00
+modified: 2026-07-04T10:51:50+00:00
+permalink: llmeon/30-library/100-zettelkasten/habit-1-be-proactive
 status: ''
-tags:
-- principles
-- proactivity
-- responsibility
-- TheHuman/Habits
+tags: [principles, proactivity, responsibility, TheHuman/Habits]
 title: Habit 1 - Be Proactive
 type: ''
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/habit-1-be-proactive
 ---
 
 Habit 1: Be Proactive is the foundation of [[MOC - The 7 Habits - The Maturity Continuum]]. It asserts that we are responsible for our own lives. Our behavior is a function of our decisions, not our conditions. Proactive people recognize they have the responsibility and the ability to choose their response to any stimulus.

@@ -1,7 +1,7 @@
 ---
-created: 2026-04-11 08:38:45+00:00
+created: 2026-04-11T08:38:45+00:00
 isProject: false
-modified: 2026-06-08 11:49:15+00:00
+modified: 2026-07-04T10:51:40+00:00
 name: Data vs implementation split
 overview: Analysis anchored on [ff-test-1/docs](file:///Volumes/DAL/Fitfile/gitlab/FITFILE/New_Customer/ff-test-1/docs)
   — the two-phase bootstrap vs managed model, TFC state as the pipe into CUE, and
@@ -9,11 +9,11 @@ overview: Analysis anchored on [ff-test-1/docs](file:///Volumes/DAL/Fitfile/gitl
   The spine (customer.yaml + common → Terraform → infra_facts → CUE → Helm) is right;
   mixing comes from three deployment generations, dual truth paths, and duplicated
   chart defaults in the Helm repo.
+permalink: llmeon/30-library/200-projects/additions-to-the-data-first-customer-ia-c-plan
 project_category: refined_deployment
 project_name: Refined Deployment
 project_status: active
-tags:
-- InfraFacts
+tags: [InfraFacts]
 title: Additions to the Data-First Customer IaC Plan
 todos:
 - id: state-sot-plumbing
@@ -34,7 +34,6 @@ todos:
     vs managed, and remediation tiers (MASTER_REMEDIATION_PLAN) for onboarding
   status: pending
 type: null
-permalink: llmeon/30-library/200-projects/additions-to-the-data-first-customer-ia-c-plan
 ---
 
 ## 1. Pre-Requisite: Fix Live Bugs _Before_ Module Extraction
@@ -175,7 +174,7 @@ The IDE plan is architecturally correct but insufficiently sequenced. It describ
 
 The plan's risk callout about big-bang extraction is spot-on—your own MASTER_REMEDIATION_PLAN confirms incremental is the only safe path. Start with Step 0 patches, then extract merge helpers, then catalogs, then generators.
 
-## Data-first Split (redo): Anchored on `ff-test-1/docs`
+## Data-first Split (Redo): Anchored on `ff-test-1/docs`
 
 ### Canonical Documentation Set
 
@@ -194,7 +193,7 @@ The diagram in CONTRACTS.md is the authoritative layer stack for "where data goe
 
 ---
 
-### Target Data Flow (from Your Own docs)
+### Target Data Flow (From Your Own dOcs)
 
 ```mermaid
 flowchart TB
@@ -225,7 +224,7 @@ Data-first / state-SoT prompt adds: after bootstrap, downstream consumers should
 
 ---
 
-### Where Each Kind of Data Should Go (repo ownership)
+### Where Each Kind of Data Should Go (Repo oWnership)
 
 Aligned with Single Source of Truth Customer Deployment Plan + CONTRACTS.md:
 
@@ -241,7 +240,7 @@ CUE "too much hardcoded deployment detail" in the plan doc means: resist putting
 
 ---
 
-### What is Still Mixed (from TERRAFORM_STATE + CONTRACTS)
+### What is Still Mixed (From TERRAFORM_STATE + CONTRACTS)
 
 #### 1. `infra_facts` Is Mostly Plan-time Config, not Live Resource Attributes
 
@@ -253,7 +252,7 @@ Structural outputs that already exist in TF (e.g. `oidc_issuer_url`, `ingress_ip
 
 Same doc: the script overrides `terraform output infra_facts` with re-reads from `customer.yaml` and recomputed fields. That breaks determinism and contradicts CONTRACTS.md ("consumer: CUE ingests Terraform output"). The prescribed fix is trust TF output; stale state becomes an error, not a silent override.
 
-#### 3. Three "generations" of Deployment Model (why it Feels tangled)
+#### 3. Three "Generations" of Deployment Model (Why it Feels tAngled)
 
 Single Source of Truth Customer Deployment Plan lists overlapping models: legacy central-services/manual paths, bootstrap-era repos, and Terraform → CUE → Helm. PIPELINE_AUDIT / MASTER_REMEDIATION_PLAN reinforce that. Mixed visibility of old and new flows is a process problem as much as a code problem.
 
@@ -271,7 +270,7 @@ Your Surgical Bootstrap and Migration docs aim to separate one-time setup from G
 
 ---
 
-### Optimizations (prioritized like Your Remediation tiers)
+### Optimizations (Prioritized like Your Remediation tIers)
 
 Tier 0—Truth pipe (highest leverage, matches your own TERRAFORM_STATE doc)
 
@@ -377,7 +376,7 @@ And the rule:
 
 This directly addresses the class of issues you found around VaultAuth and other duplicated ownership.
 
-### 4) Change the Operating Model from "2-mode" to "3-phase Runtime reality"
+### 4) Change the Operating Model from "2-mode" to "3-phase Runtime Reality"
 
 Strategically, bootstrap vs managed still makes sense.
 
@@ -565,7 +564,7 @@ I'd add a tracked sequence:
 
 That dependency should be explicit in the roadmap, otherwise you risk preserving the bypass inside the new module architecture.
 
-### 10) Add a "bad extraction" Prevention Checklist
+### 10) Add a "Bad eXtraction" Prevention Checklist
 
 Before moving anything from [locals.tf](file:///Volumes/DAL/Fitfile/gitlab/FITFILE/New_Customer/ff-test-1/locals.tf) into a shared module, require this checklist:
 
@@ -621,7 +620,7 @@ argocd_catalog:
     owner: cue
 ```
 
-## C. Tighten the "add a field" Workflow
+## C. Tighten the "Add a fIeld" Workflow
 
 Upgrade "optional validate in CI" to mandatory.
 
@@ -732,14 +731,14 @@ If you want, I can turn this into a merge-ready addendum for [MASTER_REMEDIATION
 
 Here is the redone analysis, now anchored on [ff-test-1/docs](file:///Volumes/DAL/Fitfile/gitlab/FITFILE/New_Customer/ff-test-1/docs) instead of `helm_chart_deployment/docs`.
 
-### What Those Docs Already Say (your Intended architecture)
+### What Those Docs Already Say (Your Intended aRchitecture)
 
 - [CONTRACTS.md](file:///Volumes/DAL/Fitfile/gitlab/FITFILE/New_Customer/ff-test-1/docs/CONTRACTS.md)—Layer stack and interface SSOT: merged YAML → Terraform → `infra_facts` JSON → CUE (`#InfraFacts` + render) → `generated/*.yaml` → Helm. Merge semantics are spelled out here.
 - [TERRAFORM_STATE_AS_SOURCE_OF_TRUTH.md](file:///Volumes/DAL/Fitfile/gitlab/FITFILE/New_Customer/ff-test-1/docs/TERRAFORM_STATE_AS_SOURCE_OF_TRUTH.md)—North star: TFC state should back what flows to CUE; documents that today `infra_facts` is still mostly config-derived, the live-output gaps (e.g. OIDC URL, ingress IP), and the anti-pattern: `scripts/infra-facts-for-cue.sh` overriding `terraform output` with re-reads from `customer.yaml`.
 - [Single Source of Truth Customer Deployment Plan.md](file:///Volumes/DAL/Fitfile/gitlab/FITFILE/New_Customer/ff-test-1/docs/Single%20Source%20of%20Truth%20Customer%20Deployment%20Plan.md)—Mode A (bootstrap) vs Mode B (managed); repo ownership table; explicit warning that CUE must not become a second customer config store.
 - [Planning Prompt Data-First State-as-Source-of-Truth.md](file:///Volumes/DAL/Fitfile/gitlab/FITFILE/New_Customer/ff-test-1/docs/Planning%20Prompt%20Data-First%20%20State-as-Source-of-Truth.md)—Structured audit: per-domain "what's in state vs `infra_facts` vs re-derived elsewhere."
 
-### Refined Diagnosis (why it Still Feels mixed)
+### Refined Diagnosis (Why it Still Feels mIxed)
 
 1. Truth pipe incomplete—Docs admit one live field in `infra_facts` today (`values_repo_url`); the rest is largely merged YAML at plan time, while other structural values sit in TF/jumpbox only. That contradicts the "output-only into CUE" goal until Gap A is closed.
 2. Dual truth—The shell script overriding TF output is called out in-repo as B-10 / non-deterministic `generate-values`.

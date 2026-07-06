@@ -1,27 +1,16 @@
 ---
-aliases:
-- Concurrent Systems Theory
-- Formal Abstraction
-- State Machine Models
-- The Lamport Method
-- TLA+
-created: 2026-04-02 10:00:00+00:00
+aliases: [Concurrent Systems Theory, Formal Abstraction, State Machine Models, The Lamport Method, TLA+]
+created: 2026-04-02T10:00:00+00:00
 last_synthesis: 2026-04-02
-modified: 2026-05-26 11:44:21+00:00
+modified: 2026-07-04T10:51:04+00:00
+permalink: llmeon/30-library/so-t/so-t-abstracting-concurrent-systems
 source_of_truth: true
 status: evergreen
 synthesis-count: 1
-tags:
-- concurrency
-- distributed-systems
-- formal-methods
-- lamport
-- state-machines
-- tla+
+tags: [concurrency, distributed-systems, formal-methods, lamport, state-machines, tla+]
 title: SoT - Abstracting Concurrent Systems
 trust-level: stable
 type: SoT
-permalink: llmeon/30-library/so-t/so-t-abstracting-concurrent-systems
 ---
 
 ## Minimum Viable Understanding (MVU)

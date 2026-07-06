@@ -1,20 +1,16 @@
 ---
-created: 2026-04-14 17:44:07+00:00
+created: 2026-04-14T17:44:07+00:00
 created_utc: '2026-04-14T12:20:00Z'
 kind: definition
-modified: 2026-05-26 11:44:35+00:00
+modified: 2026-07-04T10:51:50+00:00
+permalink: llmeon/30-library/100-zettelkasten/happens-before-as-logical-ordering
 source_title: The Fundamental Challenge of Concurrent and Distributed Systems
 source_url: http://www.youtube.com/watch?v=U719vQz-WFs
 status: seed
-tags:
-- distributed-systems
-- happens-before
-- logical-time
-- relativity
+tags: [distributed-systems, happens-before, logical-time, relativity]
 title: Happens-before as Logical Ordering
 type: atom
 upstream: '[[SoT - Rust Concurrency & Async Paradigms)]]'
-permalink: llmeon/30-library/100-zettelkasten/happens-before-as-logical-ordering
 ---
 
 ## Happens-before as Logical Ordering

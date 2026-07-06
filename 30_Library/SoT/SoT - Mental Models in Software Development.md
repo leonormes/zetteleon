@@ -1,25 +1,16 @@
 ---
-aliases:
-- Developer Cognition
-- Internal Representations
-- Mental Models in Coding
-- The Developer's Compass
-created: 2026-02-03 12:30:00+00:00
+aliases: ["The Developer's Compass", Developer Cognition, Internal Representations, Mental Models in Coding]
+created: 2026-02-03T12:30:00+00:00
 last_synthesis: 2026-02-03
-modified: 2026-02-04 07:26:55+00:00
+modified: 2026-07-04T10:50:55+00:00
+permalink: llmeon/30-library/so-t/so-t-mental-models-in-software-development
 source_of_truth: true
 status: evergreen
 synthesis-count: 1
-tags:
-- cognition
-- devex
-- mental_models
-- prodos/sot
-- software-engineering
+tags: [cognition, devex, mental_models, prodos/sot, software-engineering]
 title: SoT - Mental Models in Software Development
 trust-level: stable
 type: SoT
-permalink: llmeon/30-library/so-t/so-t-mental-models-in-software-development
 ---
 
 ## Minimum Viable Understanding (MVU)

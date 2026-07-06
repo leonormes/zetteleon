@@ -1,17 +1,13 @@
 ---
-created: 2026-04-08 14:00:00+00:00
+created: 2026-04-08T14:00:00+00:00
 description: Analyse a large volume of unprocessed vault notes, categorise them into
   the ProdOS architecture, and generate navigational hubs (MOCs).
-modified: 2026-05-26 11:44:37+00:00
-tags:
-- agent/triage
-- domain/pkm
-- moc
-- type/system
+modified: 2026-07-04T10:52:06+00:00
+permalink: llmeon/10-system/prompts/principal-vault-triage-architect
+tags: [agent/triage, domain/pkm, moc, type/system]
 title: Principal Vault Triage Architect
 type: prompt
 version: 1
-permalink: llmeon/10-system/prompts/principal-vault-triage-architect
 ---
 
 ## SYSTEM ROLE: Principal Vault Triage Architect

@@ -1,19 +1,14 @@
 ---
 aliases: []
-created: 2025-07-16 17:30:01+00:00
+created: 2025-07-16T17:30:01+00:00
 last_reviewed: null
-modified: 2026-05-26 11:44:22+00:00
+modified: 2026-07-04T10:51:10+00:00
+permalink: llmeon/30-library/mo-c/moc-metacognition-deficits-in-adhd-impact-self-awareness-of-motivation
 status: null
-tags:
-- TheHuman/Health/ADHD
-- TheHuman/Motivation
-- metacognition
-- self-awareness
-- type/moc
+tags: [metacognition, self-awareness, TheHuman/Health/ADHD, TheHuman/Motivation, type/moc]
 title: MOC - Metacognition Deficits in ADHD Impact Self-Awareness of Motivation
 type: map
 updated: null
-permalink: llmeon/30-library/mo-c/moc-metacognition-deficits-in-adhd-impact-self-awareness-of-motivation
 ---
 
 This Map of Content (MOC) explores the complex relationship between Attention-Deficit/Hyperactivity Disorder (ADHD) and metacognition, specifically how deficits in "thinking about thinking" impact self-awareness of motivation and overall functioning.

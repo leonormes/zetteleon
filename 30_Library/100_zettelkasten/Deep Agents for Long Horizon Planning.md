@@ -1,19 +1,15 @@
 ---
 aliases: []
-created: 2025-10-10 08:34:04+00:00
+created: 2025-10-10T08:34:04+00:00
 id: 20251008_Deep_Agents_for_Long_Horizon_Planning
 last_reviewed: ''
-modified: 2026-02-01 15:08:35+00:00
+modified: 2026-07-04T10:51:52+00:00
+permalink: llmeon/30-library/100-zettelkasten/deep-agents-for-long-horizon-planning
 status: ''
-tags:
-- LangGraph
-- Planning
-- SoftwareEngineering/AI
-- SoftwareEngineering/AI/agents
+tags: [LangGraph, Planning, SoftwareEngineering/AI, SoftwareEngineering/AI/agents]
 title: Deep Agents for Long Horizon Planning
 type: ''
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/deep-agents-for-long-horizon-planning
 ---
 
 Deep Agents is a framework built on `LangGraph` for creating agents capable of long-horizon planning and complex problem-solving. These agents use a loop to reason about a task, take actions, and reflect on the results.

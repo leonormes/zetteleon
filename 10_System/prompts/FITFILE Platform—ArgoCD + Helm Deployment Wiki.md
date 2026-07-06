@@ -1,8 +1,8 @@
 ---
-created: 2026-06-08 09:13:34+00:00
-modified: 2026-06-08 09:18:49+00:00
-title: FITFILE Platform—ArgoCD + Helm Deployment Wiki
+created: 2026-06-08T09:13:34+00:00
+modified: 2026-07-04T10:52:07+00:00
 permalink: llmeon/10-system/prompts/fitfile-platform-argo-cd-helm-deployment-wiki
+title: FITFILE Platform—ArgoCD + Helm Deployment Wiki
 ---
 
 ## FITFILE Platform—ArgoCD + Helm Deployment Wiki
@@ -171,7 +171,7 @@ ArgoCD (argocd namespace)
     └── ... (blob-csi-driver, mutating-proxy-webhook, etc.)
 ```
 
-#### Root Application Spec (multi-source, the Defining pattern)
+#### Root Application Spec (Multi-source, the Defining pAttern)
 
 ```yaml
 apiVersion: argoproj.io/v1alpha1
@@ -216,7 +216,7 @@ spec:
 
 Critical: `selfHeal: true` means all changes MUST go through GitOps source—`kubectl patch` commands are reverted within minutes.
 
-#### Child Application Example (grafana)
+#### Child Application Example (Grafana)
 
 ```yaml
 {{- if eq .Values.deploy.monitoring true }}
@@ -339,7 +339,7 @@ spec:
   vaultConnectionRef: default
 ```
 
-#### VaultStaticSecret Example (from `values.yaml`)
+#### VaultStaticSecret Example (From `values.yaml`)
 
 ```yaml
 argoWorkflows:

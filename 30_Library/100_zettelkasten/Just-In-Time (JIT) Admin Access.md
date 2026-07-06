@@ -1,20 +1,16 @@
 ---
-created: 2026-04-14 20:25:10+00:00
+created: 2026-04-14T20:25:10+00:00
 created_utc: '2026-04-14T13:00:00Z'
 kind: heuristic
-modified: 2026-05-26 11:44:34+00:00
+modified: 2026-07-04T10:51:50+00:00
+permalink: llmeon/30-library/100-zettelkasten/just-in-time-jit-admin-access
 source_title: Azure Entra Identity Best Practices & Remediation Plan
 source_url: https://gemini.google.com/app/90721765fb79ed7a
 status: seed
-tags:
-- jit
-- least-privilege
-- pim
-- security
+tags: [jit, least-privilege, pim, security]
 title: Just-In-Time (JIT) Admin Access
 type: atom
 upstream: '[[SoT - Microsoft Entra Identity]]'
-permalink: llmeon/30-library/100-zettelkasten/just-in-time-jit-admin-access
 ---
 
 ## Just-In-Time (JIT) Admin Access

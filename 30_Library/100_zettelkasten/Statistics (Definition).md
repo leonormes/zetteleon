@@ -1,17 +1,14 @@
 ---
-aliases:
-- Statistical Science
-created: 2025-11-01 11:22:13+00:00
+aliases: [Statistical Science]
+created: 2025-11-01T11:22:13+00:00
 last_reviewed: '2025-11-01T00:00:00.000Z'
-modified: 2026-02-01 15:08:27+00:00
+modified: 2026-07-04T10:51:45+00:00
+permalink: llmeon/30-library/100-zettelkasten/statistics-definition
 status: seedling
-tags:
-- fields
-- topic/maths
+tags: [fields, topic/maths]
 title: Statistics (Definition)
 type: definition
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/statistics-definition
 ---
 
 Definition: Statistics is the science of collecting, analyzing, interpreting, and presenting data, using probabilistic models to draw inferences and make decisions in the face of uncertainty.

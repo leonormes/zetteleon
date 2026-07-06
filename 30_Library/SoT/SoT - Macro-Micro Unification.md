@@ -1,17 +1,10 @@
 ---
-aliases:
-- Grand Unifying Theory of Code
-- Macro-Micro Gap
-- The Physics Metaphor
-created: 2026-01-30 07:45:00+00:00
-modified: 2026-02-01 15:07:55+00:00
-tags:
-- cognitive-science
-- mental-model
-- software-architecture
-- system-design
-title: SoT - Macro-Micro Unification
+aliases: [Grand Unifying Theory of Code, Macro-Micro Gap, The Physics Metaphor]
+created: 2026-01-30T07:45:00+00:00
+modified: 2026-07-04T10:50:55+00:00
 permalink: llmeon/30-library/so-t/so-t-macro-micro-unification
+tags: [cognitive-science, mental-model, software-architecture, system-design]
+title: SoT - Macro-Micro Unification
 ---
 
 ## Macro-Micro Unification

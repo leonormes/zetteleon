@@ -1,46 +1,25 @@
 ---
 branch: feature/FTFL-673-grafana-alloy-upgrade
-created: 2026-06-06 00:00:00+00:00
+created: 2026-06-06T00:00:00+00:00
 kind: project-note
 lifecycle: active
-modified: 2026-06-08 11:49:23+00:00
+modified: 2026-07-04T10:51:19+00:00
 mr: '!787'
+permalink: llmeon/30-library/200-projects/ffnode-templating-analysis
 project_category: refined_deployment
 project_name: Refined Deployment
 project_status: active
-related:
-- '[[ffnode-templating-analysis]]'
-- '[[Grafana k8s-monitoring v2]]'
-- '[[grafana_alloy_audit_report]]'
-tags:
-- 1
-- 2
-- 3
-- complexity
-- developer-experience
-- faro
-- ffnode
-- FTFL-673
-- grafana-alloy
-- helm
-- kubernetes
-- metrics
-- multi-cluster
-- observability
-- scaling
-- seedling
-- templating
-- work
+related: ["[[ffnode-templating-analysis]]", "[[Grafana k8s-monitoring v2]]", "[[grafana_alloy_audit_report]]"]
+tags: [1, 2, 3, complexity, developer-experience, faro, ffnode, FTFL-673, grafana-alloy, helm, kubernetes, metrics, multi-cluster, observability, scaling, seedling, templating, work]
 ticket: FTFL-673
 title: ffnode-templating-analysis
 type: null
-permalink: llmeon/30-library/200-projects/ffnode-templating-analysis
 ---
 
 > Every claim below is grounded in a file or commit that was read directly. File references use `path:line`.
 > Scope of evidence: `charts/ffnode/` and `ffnodes/` on `master` as of commit `92caecaa`.
 
-## 0. Important Grounding Corrections (read first)
+## 0. Important Grounding Corrections (Read fIrst)
 
 The session brief made three assumptions that the repository contradicts. They are corrected here so nothing downstream is built on them:
 
@@ -84,7 +63,7 @@ The overlay is deliberately thin: a cluster file typically sets only `namespace`
 
 ## 2. Template Inventory
 
-### `.tpl` Libraries (named Templates, no Output of Their own)
+### `.tpl` Libraries (Named Templates, no Output of Their oWn)
 
 | File | Purpose | Defines | Gotchas |
 |---|---|---|---|
@@ -98,7 +77,7 @@ The overlay is deliberately thin: a cluster file typically sets only `namespace`
 
 \* `mongodbHost` is referenced (`values.yaml:587,730`, `_frontend.tpl:33`) and defined in `_mongodb.tpl`.
 
-### Application Templates (emit One ArgoCD `Application` each)
+### Application Templates (Emit One ArgoCD `Application` eAch)
 
 `argo-workflows`, `blob-csi-driver`, `cert-manager`, `certificates`, `ffcloud`, `fitconnect`, `frontend`, `grafana-alloy`, `minio`, `mongodb`, `mongodb-next`, `mssql`, `mutating-proxy-webhook`, `postgresql`, `prometheus-crds`, `seed`, `spicedb`, `workflow-templates`, `workflows-api`, `workflows-integration-tests-templates`. Plus `extra-deploy.yaml` (raw `extraDeploy` + `extraVaultSecrets` passthrough) and `mongodb-copy-data-job.yaml`.
 
@@ -122,7 +101,7 @@ Solves: keeps deeply nested sub-chart values DRY and computable (hostnames, CORS
 
 Risk: `include → toYaml → fromYaml` round-trips lose types and silently swallow templating errors as strings. No schema guards what the factory emits. A typo in a factory key is invisible until ArgoCD rejects the rendered sub-chart.
 
-### P2—Feature-flag Gating on `deploy.*` (Application level) and Feature Blocks (values level)
+### P2—Feature-flag Gating on `deploy.*` (Application lEvel) and Feature Blocks (Values lEvel)
 
 ```yaml
 {{- if eq .Values.deploy.monitoring true }}   # grafana-alloy-application.yaml:1
@@ -144,7 +123,7 @@ global: {{ .Values.global | toYaml | nindent 2 }}   # _grafana.tpl:6, _frontend.
 {{- $values := merge .Values.grafanaAlloy (dict "global" .Values.global) -}}   # (pre-factory style, still used elsewhere)
 ```
 
-### P5—List-merge-by-name (env Vars, extraVaultSecrets)
+### P5—List-merge-by-name (Env Vars, extraVaultSecrets)
 
 `_frontend.tpl:68-85` merges default `env` with user `env` keyed by `.name` so a cluster can override `RESULT_DETAILS_LIMIT` without dropping defaults; `:88-104` does the same for `extraVaultSecrets` keyed by `.secretName` to splice in the Faro secret. Risk: bespoke, repeated, and easy to copy wrong; this is exactly what a library helper should own.
 
@@ -158,7 +137,7 @@ The headline complexity. Two coexisting escaping conventions (single raw-string 
 
 ---
 
-## 4. The VSO Double-evaluation Mechanism (and the `disableTpl` Escape hatch)
+## 4. The VSO Double-evaluation Mechanism (And the `disableTpl` Escape hAtch)
 
 ### What `generateVaultDynamicSecrets` Does
 
@@ -181,7 +160,7 @@ A VSO `transformation.templates[].text` is meant to contain a VSO-runtime Go tem
 
 When path B runs `tpl` over that block, Helm tries to evaluate `{{ get.Secrets "x" }}` itself, fails to find `.Secrets`, and aborts the whole render (`nil pointer evaluating interface {}.Secrets` / `can't evaluate field Secrets`). That is the "double-evaluation bug": the expression is intended for VSO's evaluation pass, but Helm's `tpl` greedily takes a pass at it first.
 
-### How the Codebase Copes Today (two conventions—itself a footgun)
+### How the Codebase Copes Today (Two conventions—itself a fOotgun)
 
 The author-side fix is to escape the `{{ … }}` so it survives Helm's `tpl` pass and lands in the manifest as a literal for VSO:
 
@@ -232,7 +211,7 @@ grafanaAlloy:
 
 (`cuh-prod-1/values.yaml:102-106`). Enabled on 9 clusters: ff-test-a (`faro-staging`), sandbox-testing-1, testing, ff-a (`faro-app`), barts/prod (`faro-app`—same host as ff-a, intentional per commit `6ae25319`), hie-prod-34, hie-test-34, cuh-prod-1, nnuh-prod-1.
 
-### Drift Risks (real)
+### Drift Risks (Real)
 
 1. `ingress.host` is the single point of truth for three different things—the Faro Ingress rule (`_grafana.tpl:37,55`), the cert-manager `Certificate` `dnsNames` (`_certs.tpl:7`), and the frontend's `FARO_COLLECTOR_URL` env (`_frontend.tpl:45`). It must also have a matching Cloudflare DNS record and (for `privatelink` hosts) private DNS. Nothing in the chart validates that the DNS record exists; a typo in the host produces a cert that never validates and a frontend that POSTs to a dead URL.
 2. Vault path drift. `vaultPath` strings (`application`, `monitoring`, `mesh`, `argo-workflows`, `cloudflare`) and the per-key names in `secretTransformation` must match what actually exists in HCP Vault at `admin/deployments/<deploymentKey>` (`_helpers.tpl:20`). No CI check ties chart keys to Vault contents.
@@ -255,9 +234,9 @@ Minimum viable documentation: (a) a one-paragraph "this is an App-of-Apps genera
 
 ---
 
-## 7. Bugs Found while Reading (verify & fix)
+## 7. Bugs Found while Reading (Verify & fIx)
 
-### Bug 1—Faro Receiver is Gated on the Map, not `.enabled` (always-on)
+### Bug 1—Faro Receiver is Gated on the Map, not `.enabled` (Always-on)
 
 `_grafana.tpl:11` `{{- if.Values.grafanaAlloy.frontendObservability }}` and `:202` `{{- if.Values.grafanaAlloy.frontendObservability }}` test the whole map, which is always defined in `values.yaml:470`, so the Faro `applicationObservability`, the `alloy-faro` Ingress, and the `alloy-faro` collector render on every monitored cluster regardless of `enabled: false`. The frontend (`_frontend.tpl:43,88`) and certs (`_certs.tpl:3`) correctly test `.enabled`, so the two halves disagree: a cluster with `enabled:false` still gets a Faro receiver + Ingress (referencing an empty `ingress.host`) but no cert and no frontend env. Fix: `if.Values.grafanaAlloy.frontendObservability.enabled` in both places. (Note `ingress.host` has a `required` only inside the `tls` branch at `:37`, so an always-on render with empty host may still slip through via the `else` path at `:55`.)
 
@@ -273,7 +252,7 @@ Not currently broken, but `values.yaml` mixes single-raw-string and string-liter
 
 ## 8. Recommendations for Type-safe, Flexible Multi-cluster Management
 
-### 8.1 `values.schema.json` (highest ROI)
+### 8.1 `values.schema.json` (Highest ROI)
 
 Add a JSON schema to `charts/ffnode/` enforcing at least:
 
@@ -327,7 +306,7 @@ Your goal: have a type-safe, self-documenting, multi-cluster-safe process for ma
 
 ---
 
-## What Was Changed (FTFL-673 summary)
+## What Was Changed (FTFL-673 sUmmary)
 
 | File | Change |
 |---|---|
@@ -806,7 +785,7 @@ A simple architectural map explaining the flow:
 
 Each metric has an objective proxy you can compute in CI and trend over time. The trend matters more than the absolute value: as cluster count grows, you want each curve flat or falling.
 
-### A. Authoring Complexity (cognitive Load to Change a thing)
+### A. Authoring Complexity (Cognitive Load to Change a tHing)
 
 | Metric | How to measure (proxy) | Why it matters at scale |
 |---|---|---|
@@ -815,7 +794,7 @@ Each metric has an objective proxy you can compute in CI and trend over time. Th
 | A3 Meta-templating depth | Layers of `tpl`-over-`tpl` / escape nesting | The escaping is the single hardest thing to onboard |
 | A4 Convention count | Number of distinct ways to do one task (e.g. secret transforms) | N ways = N×learning + the next dev copies the wrong one |
 
-### B. Coupling & Drift Control (keeping Clusters aligned)
+### B. Coupling & Drift Control (Keeping Clusters aLigned)
 
 | Metric | Proxy | Why |
 |---|---|---|
@@ -824,7 +803,7 @@ Each metric has an objective proxy you can compute in CI and trend over time. Th
 | B3 External-contract validation | % of Vault paths / DNS hosts checked in CI | Unvalidated contracts fail per-cluster, at runtime |
 | B4 Blast-radius containment | Can a base edit break all clusters with no gate? (y/n) | Determines whether scaling multiplies risk |
 
-### C. Safety Net & Feedback (ease + confidence)
+### C. Safety Net & Feedback (Ease + cOnfidence)
 
 | Metric | Proxy | Why |
 |---|---|---|
@@ -844,7 +823,7 @@ Each metric has an objective proxy you can compute in CI and trend over time. Th
 
 ---
 
-## Scorecard (1 = Poor, 5 = excellent)
+## Scorecard (1 = Poor, 5 = Excellent)
 
 | # | Metric | Score | Grounded evidence |
 |---|---|---|---|
@@ -882,7 +861,7 @@ The scaling danger: B4 + C4 compound. Every new cluster widens the blast radius 
 
 ---
 
-## Three Highest-leverage Moves (in order)
+## Three Highest-leverage Moves (In oRder)
 
 1. Add `helm template ffnodes/<each>/values.yaml | kubeconform` to the `validate` stage.
    Biggest single jump: converts C3/C4 from runtime → per-MR, and catches the always-on-Faro class of bug. Cheapest item here.
@@ -895,7 +874,7 @@ These touch only the weak dimensions, not the strong architecture. Realistic pos
 
 ---
 
-## How to Instrument This (so the Scores Become a Tracked trend)
+## How to Instrument This (So the Scores Become a Tracked tRend)
 
 - A1/A2: static count of `include`/`toYaml`/`fromYaml` per render path—a `grep | wc` in CI, alert if it rises.
 - B1: for each "hot" value (e.g. `ingress.host`), a grep-count of consumers; fail if a value has >1 consumer and no helper.

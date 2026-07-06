@@ -1,19 +1,14 @@
 ---
-aliases:
-- Python socket operations
-created: 2025-10-31 13:39:00+00:00
+aliases: [Python socket operations]
+created: 2025-10-31T13:39:00+00:00
 last_reviewed: '2025-10-31'
-modified: 2026-02-01 15:08:27+00:00
+modified: 2026-07-04T10:51:45+00:00
+permalink: llmeon/30-library/100-zettelkasten/socket-lifecycle-in-python-programming
 status: seedling
-tags:
-- programming
-- python
-- socket
-- SoftwareEngineering/Networking
+tags: [programming, python, socket, SoftwareEngineering/Networking]
 title: Socket Lifecycle in Python Programming
 type: instructional
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/socket-lifecycle-in-python-programming
 ---
 
 ## Socket Lifecycle in Python Programming

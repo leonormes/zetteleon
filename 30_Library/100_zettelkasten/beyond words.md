@@ -1,8 +1,8 @@
 ---
-created: 2026-05-02 20:33:41+00:00
-modified: 2026-05-26 11:44:31+00:00
-title: beyond words
+created: 2026-05-02T20:33:41+00:00
+modified: 2026-07-04T10:51:43+00:00
 permalink: llmeon/30-library/100-zettelkasten/beyond-words
+title: beyond words
 ---
 
 ## Beyond Words

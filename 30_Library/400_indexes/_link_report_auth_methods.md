@@ -1,12 +1,12 @@
 ---
-created: 2026-04-13 14:47:45+00:00
+created: 2026-04-13T14:47:45+00:00
 created_utc: '2026-04-13T11:30:00Z'
-modified: 2026-05-26 11:44:23+00:00
+modified: 2026-07-04T10:51:14+00:00
+permalink: llmeon/30-library/400-indexes/link-report-auth-methods
 source_atoms: '[[tmp_atoms_auth_methods.md]]'
 status: tmp
 title: _link_report_auth_methods
 type: link_report
-permalink: llmeon/30-library/400-indexes/link-report-auth-methods
 ---
 
 ## Link Report: Every API Authentication Method Explained
@@ -34,6 +34,6 @@ permalink: llmeon/30-library/400-indexes/link-report-auth-methods
 | [[OpenID Connect (OIDC)]] | 3 | [[SoT - Modern Authentication Standards]]—direct concept match |
 | [[Single Sign-On (SSO)]] | 2 | [[OpenID Connect (OIDC)]]—shared mechanism |
 
-### Orphan Atoms (no Links found)
+### Orphan Atoms (No Links fOund)
 
 (None)

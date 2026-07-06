@@ -1,20 +1,14 @@
 ---
-aliases:
-- Courage
-created: 2025-11-01 21:20:00+00:00
+aliases: [Courage]
+created: 2025-11-01T21:20:00+00:00
 last_reviewed: '2025-11-01'
-modified: 2026-02-01 15:08:36+00:00
+modified: 2026-07-04T10:51:54+00:00
+permalink: llmeon/30-library/100-zettelkasten/bravery-is-not-shrinking-from-what-is-frightening
 status: evergreen
-tags:
-- bravery
-- character-strength
-- courage
-- fear
-- virtue
+tags: [bravery, character-strength, courage, fear, virtue]
 title: Bravery is Not Shrinking From What is Frightening
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/bravery-is-not-shrinking-from-what-is-frightening
 ---
 
 Bravery, also known as courage, is the inner strength to face things that are frightening or difficult.

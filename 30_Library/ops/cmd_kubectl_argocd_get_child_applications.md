@@ -1,20 +1,16 @@
 ---
-created: 2026-02-22 17:01:23+00:00
+created: 2026-02-22T17:01:23+00:00
 hop_level: local
 last_verified: 2026-02-22
-modified: 2026-03-14 11:10:10+00:00
+modified: 2026-07-04T10:50:42+00:00
+permalink: llmeon/30-library/ops/cmd-kubectl-argocd-get-child-applications
 requires_tunnel: false
 status: active
-tags:
-- app-of-apps
-- argocd
-- child
-- cmd
+tags: [app-of-apps, argocd, child, cmd]
 target_service: argocd
 title: cmd_kubectl_argocd_get_child_applications
 tool: kubectl
 type: command
-permalink: llmeon/30-library/ops/cmd-kubectl-argocd-get-child-applications
 ---
 
 ## List ArgoCD Child Applications

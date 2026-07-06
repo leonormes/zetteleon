@@ -1,14 +1,14 @@
 ---
 aliases: []
-created: 2025-09-07 15:32:45+00:00
+created: 2025-09-07T15:32:45+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:37+00:00
+modified: 2026-07-04T10:51:54+00:00
+permalink: llmeon/30-library/100-zettelkasten/achieving-mental-stability
 status: ''
 tags: []
 title: Achieving Mental Stability
 type: ''
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/achieving-mental-stability
 ---
 
 Musashi advised removing expectations to prevent emotional turmoil. He stated that peace of mind comes from aligning reality with expectations. Mental stability is not a destination but a continuous path of practice and self-awareness.

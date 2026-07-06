@@ -1,17 +1,13 @@
 ---
-created: 2026-02-19 15:18:30+00:00
+created: 2026-02-19T15:18:30+00:00
 hop_level: local
-modified: 2026-03-14 11:10:11+00:00
-tags:
-- atomic
-- ingress
-- network
-- spoof
+modified: 2026-07-04T10:50:43+00:00
+permalink: llmeon/30-library/ops/cmd-net-curl-spoof-host
+tags: [atomic, ingress, network, spoof]
 target_service: network
 title: cmd-net-curl-spoof-host
 tool: curl
 type: atomic_command
-permalink: llmeon/30-library/ops/cmd-net-curl-spoof-host
 ---
 
 ## Spoof Host Header (Resolve Bypass)

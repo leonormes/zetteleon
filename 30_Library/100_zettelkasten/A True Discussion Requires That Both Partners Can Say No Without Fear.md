@@ -1,20 +1,14 @@
 ---
-aliases:
-- Right to Say No
-created: 2025-11-10 10:20:00+00:00
+aliases: [Right to Say No]
+created: 2025-11-10T10:20:00+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:37+00:00
+modified: 2026-07-04T10:51:55+00:00
+permalink: llmeon/30-library/100-zettelkasten/a-true-discussion-requires-that-both-partners-can-say-no-without-fear
 status: seedling
-tags:
-- boundaries
-- communication
-- conflict
-- consent
-- relationship
+tags: [boundaries, communication, conflict, consent, relationship]
 title: A True Discussion Requires That Both Partners Can Say No Without Fear
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/a-true-discussion-requires-that-both-partners-can-say-no-without-fear
 ---
 
 ## A True Discussion Requires That Both Partners Can Say No Without Fear

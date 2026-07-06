@@ -1,19 +1,14 @@
 ---
-aliases:
-- Shoshin
-created: 2025-11-01 12:20:05+00:00
+aliases: [Shoshin]
+created: 2025-11-01T12:20:05+00:00
 last_reviewed: '2025-11-01'
-modified: 2026-02-10 18:52:13+00:00
+modified: 2026-07-04T10:51:54+00:00
+permalink: llmeon/30-library/100-zettelkasten/beginners-mind-is-a-state-of-openness-and-curiosity
 status: seedling
-tags:
-- buddhism
-- curiosity
-- TheHuman/Mindset
-- zen
-title: Beginner's Mind is a State of Openness and Curiosity
+tags: [buddhism, curiosity, TheHuman/Mindset, zen]
+title: "Beginner's Mind is a State of Openness and Curiosity"
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/beginners-mind-is-a-state-of-openness-and-curiosity
 ---
 
 Summary: "Beginner's mind" (Shoshin) is a concept from Zen Buddhism that involves approaching every situation with an attitude of openness, eagerness, and a lack of preconceptions, just as a beginner would.

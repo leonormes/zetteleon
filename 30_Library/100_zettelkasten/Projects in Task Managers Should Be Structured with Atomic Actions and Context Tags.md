@@ -1,19 +1,15 @@
 ---
 aliases: []
-created: 2025-11-10 15:18:00+00:00
+created: 2025-11-10T15:18:00+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:28+00:00
+modified: 2026-07-04T10:51:47+00:00
+permalink: llmeon/30-library/100-zettelkasten/projects-in-task-managers-should-be-structured-with-atomic-actions-and-context-tags
 status: seedling
-tags:
-- project-management
-- task-management
-- topic/productivity
-- topic/systems
-title: Projects in Task Managers Should Be Structured with Atomic Actions and Context
+tags: [project-management, task-management, topic/productivity, topic/systems]
+title: Projects in Task Managers Should Be Structured with Atomic Actions and Context Tags
   Tags
 type: instructional
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/projects-in-task-managers-should-be-structured-with-atomic-actions-and-context-tags
 ---
 
 ## Projects in Task Managers Should Be Structured with Atomic Actions and Context Tags

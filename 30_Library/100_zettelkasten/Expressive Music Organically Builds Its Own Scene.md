@@ -1,20 +1,14 @@
 ---
-aliases:
-- Organic Music Scenes
-created: 2025-11-10 11:03:00+00:00
+aliases: [Organic Music Scenes]
+created: 2025-11-10T11:03:00+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:34+00:00
+modified: 2026-07-04T10:51:51+00:00
+permalink: llmeon/30-library/100-zettelkasten/expressive-music-organically-builds-its-own-scene
 status: seedling
-tags:
-- authenticity
-- community
-- culture
-- expression
-- music
+tags: [authenticity, community, culture, expression, music]
 title: Expressive Music Organically Builds Its Own Scene
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/expressive-music-organically-builds-its-own-scene
 ---
 
 ## Expressive Music Organically Builds Its Own Scene

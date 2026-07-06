@@ -1,21 +1,14 @@
 ---
-aliases:
-- Rich Hickey
-- Simple Made Easy
-- Simplicity vs Complexity
-created: 2026-01-07 00:00:00+00:00
+aliases: [Rich Hickey, Simple Made Easy, Simplicity vs Complexity]
+created: 2026-01-07T00:00:00+00:00
 last_reviewed: null
-modified: 2026-02-03 19:47:53+00:00
+modified: 2026-07-04T10:50:49+00:00
+permalink: llmeon/30-library/so-t/so-t-simple-made-easy-rich-hickey
 status: Stable
-tags:
-- complexity
-- design
-- rich-hickey
-- simplicity
+tags: [complexity, design, rich-hickey, simplicity]
 title: SoT - Simple Made Easy (Rich Hickey)
 type: SoT
 updated: null
-permalink: llmeon/30-library/so-t/so-t-simple-made-easy-rich-hickey
 ---
 
 > The Axiom: Simple!= Easy.

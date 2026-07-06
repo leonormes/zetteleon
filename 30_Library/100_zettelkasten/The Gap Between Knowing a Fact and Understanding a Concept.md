@@ -1,18 +1,14 @@
 ---
 aliases: []
-created: 2025-08-27 19:20:43+00:00
+created: 2025-08-27T19:20:43+00:00
 last_reviewed: 'null'
-modified: 2026-02-01 15:08:25+00:00
+modified: 2026-07-04T10:51:44+00:00
+permalink: llmeon/30-library/100-zettelkasten/the-gap-between-knowing-a-fact-and-understanding-a-concept
 status: 'null'
-tags:
-- communication
-- epistemology
-- topic/learning
-- understanding
+tags: [communication, epistemology, topic/learning, understanding]
 title: The Gap Between Knowing a Fact and Understanding a Concept
 type: 'null'
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/the-gap-between-knowing-a-fact-and-understanding-a-concept
 ---
 
 There is a profound difference between _knowing a fact_ and _understanding a concept_.

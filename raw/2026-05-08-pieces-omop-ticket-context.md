@@ -1,15 +1,11 @@
 ---
-created: 2026-05-08 09:00:17+00:00
-modified: 2026-05-26 11:43:45+00:00
-pieces_ids:
-- 1efc1dd6-3ff8-4248-96af-d3820b31a90d
-- 9eda528f-ced1-4825-9509-3faa760999fe
-source: pieces-ltm
-tags:
-- pieces
-- raw
-title: 2026-05-08-pieces-omop-ticket-context
+created: 2026-05-08T09:00:17+00:00
+modified: 2026-07-04T10:50:22+00:00
 permalink: llmeon/raw/2026-05-08-pieces-omop-ticket-context
+pieces_ids: [1efc1dd6-3ff8-4248-96af-d3820b31a90d, 9eda528f-ced1-4825-9509-3faa760999fe]
+source: pieces-ltm
+tags: [pieces, raw]
+title: 2026-05-08-pieces-omop-ticket-context
 ---
 
 ## Asset 1 (Pieces: 9eda528f-ced1-4825-9509-3faa760999fe)

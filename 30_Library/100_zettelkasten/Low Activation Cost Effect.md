@@ -1,20 +1,16 @@
 ---
-created: 2026-04-14 20:47:44+00:00
+created: 2026-04-14T20:47:44+00:00
 created_utc: '2026-04-14T14:20:00Z'
 kind: mechanism
-modified: 2026-05-26 11:44:34+00:00
+modified: 2026-07-04T10:51:49+00:00
+permalink: llmeon/30-library/100-zettelkasten/low-activation-cost-effect
 source_title: Why Is AI Making My Job Worse?
 source_url: http://www.youtube.com/watch?v=NDyuJcR2GH4
 status: seed
-tags:
-- activation-cost
-- cognitive-load
-- communication
-- efficiency
+tags: [activation-cost, cognitive-load, communication, efficiency]
 title: Low Activation Cost Effect
 type: atom
 upstream: '[[SoT - Principles for Peaceful Productivity]]'
-permalink: llmeon/30-library/100-zettelkasten/low-activation-cost-effect
 ---
 
 ## Low Activation Cost Effect

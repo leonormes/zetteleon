@@ -1,18 +1,14 @@
 ---
-created: 2026-04-01 21:47:06+00:00
+created: 2026-04-01T21:47:06+00:00
 last-synthesis: 2026-04-02
-modified: 2026-05-26 11:44:18+00:00
+modified: 2026-07-04T10:50:53+00:00
+permalink: llmeon/30-library/so-t/so-t-network-segmentation
 source_of_truth: true
 status: evergreen
 synthesis-count: 2
-tags:
-- domain/networking
-- security/segmentation
-- theory/zero-trust
-- type/SoT
+tags: [domain/networking, security/segmentation, theory/zero-trust, type/SoT]
 title: SoT - Network Segmentation
 trust-level: stable
-permalink: llmeon/30-library/so-t/so-t-network-segmentation
 ---
 
 ## Minimum Viable Understanding (MVU)

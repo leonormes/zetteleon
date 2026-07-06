@@ -1,16 +1,12 @@
 ---
-created: 2026-02-17 12:03:31+00:00
+created: 2026-02-17T12:03:31+00:00
 incident_type: auth_failure
-modified: 2026-03-14 11:10:10+00:00
-tags:
-- acr
-- argocd
-- oci
-- playbook
+modified: 2026-07-04T10:50:40+00:00
+permalink: llmeon/30-library/ops/pb-argocd-oci-auth-fail
+tags: [acr, argocd, oci, playbook]
 target_service: argocd
 title: pb-argocd-oci-auth-fail
 type: playbook
-permalink: llmeon/30-library/ops/pb-argocd-oci-auth-fail
 ---
 
 ## Playbook: Debugging ArgoCD Helm OCI Auth (401 Unauthorized)

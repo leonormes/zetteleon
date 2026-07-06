@@ -1,23 +1,17 @@
 ---
 cluster: fitfile-cloud-testing-aks-cluster
-created: 2026-05-28 13:38:16+00:00
+created: 2026-05-28T13:38:16+00:00
 date: 2026-05-28
 jira: FTFL-638
-modified: 2026-06-08 11:49:16+00:00
+modified: 2026-07-04T10:51:35+00:00
+permalink: llmeon/30-library/200-projects/ftfl-638-grafana-monitoring-fix-testing-cluster
 project_category: refined_deployment
 project_name: Refined Deployment
 project_status: active
 status: resolved
-tags:
-- aks
-- ftfl-638
-- grafana
-- infrastructure
-- kubernetes
-- monitoring
+tags: [aks, ftfl-638, grafana, infrastructure, kubernetes, monitoring]
 title: FTFL-638 Grafana Monitoring Fix - Testing Cluster
 type: null
-permalink: llmeon/30-library/200-projects/ftfl-638-grafana-monitoring-fix-testing-cluster
 ---
 
 ## FTFL-638—Missing Grafana Monitoring in Testing Cluster
@@ -154,7 +148,7 @@ Confirmed fixed: 46/340 testing streams now have `pod` as a stream label (count 
 
 ### Remaining Gaps in Testing Vs Staging
 
-#### Testing Missing (vs Staging)
+#### Testing Missing (Vs Staging)
 
 | Gap | Explanation | Priority |
 |---|---|---|
@@ -190,7 +184,7 @@ Fix needed (staging, separate ticket): Either recreate the `logs_service` secret
 | `ffnodes/fitfile/testing/values.yaml` | Full v3.x → v4.x migration; 9 separate commits |
 | No chart code changed | All fixes were values-only |
 
-### Commits (FTFL-638 branch)
+### Commits (FTFL-638 bRanch)
 
 - `432a39c6` Initial extraDiscoveryRules migration
 - `3d430081` Migrate to v3.x extraDiscoveryRules syntax

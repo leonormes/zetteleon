@@ -1,39 +1,37 @@
 ---
-title: MCP Proxy Fix — PKM Skill Update Request
-created: 2026-05-30 12:51:48.162179+00:00
-source: pieces-ltm
-pieces_ids:
-- 84b8d231-e636-4e62-84ae-358205080e41
-- 2cd3dc87-66f1-40d8-ae1e-be3581a20ce7
-- 665822c2-01d5-481e-9517-5a6564475933
-- 72170dbe-1941-4e3a-97c2-5035a5be40e2
-- e176d7f3-538e-4058-8fac-d4a55d81b1c3
-- 712fd930-fff9-4e75-8c73-ff37afc5888e
-tags:
-- raw
-- pieces
+created: 2026-05-30T17:51:48+00:00
+modified: 2026-07-04T10:49:35+00:00
 permalink: llmeon/raw/2026-05-30-pieces-mcp-proxy-pkm-fix
+pieces_ids: [2cd3dc87-66f1-40d8-ae1e-be3581a20ce7, 665822c2-01d5-481e-9517-5a6564475933, 712fd930-fff9-4e75-8c73-ff37afc5888e, 72170dbe-1941-4e3a-97c2-5035a5be40e2, 84b8d231-e636-4e62-84ae-358205080e41, e176d7f3-538e-4058-8fac-d4a55d81b1c3]
+source: pieces-ltm
+tags: [pieces, raw]
+title: 2026-05-30-pieces-mcp-proxy-pkm-fix
 ---
 
 ## Asset 1 (Pieces: 84b8d231-e636-4e62-84ae-358205080e41)
 
 the mcp proxy still often fails. Root Cause Confirmed
 
-Diagnostic                        Result
-────────────────────────────────  ──────────────────────────────────────────────────────────────────────────────────────────────
-mcp_mcp-proxy_* tools in session  Not present — registered 0 tools
-mcpproxy-healthcheck.sh           Timed out — proxy is down
-Result                            retrieve_tools and call_tool are unavailable, so I had no choice but to fall back to grep/find
+Diagnostic Result
 
-This is a proxy infrastructure issue, not a skill loading issue. The pkm-obsidian skill and mcp-integration skill are both correctly installed — but without a live proxy, the MCP path is dead. My fallback tosearch_files was the only available path, but it's the wrong path (literal regex, not semantic).
+──────────────────────────────── ──────────────────────────────────────────────────────────────────────────────────────────────
+
+mcp_mcp-proxy_* tools in session Not present—registered 0 tools
+
+mcpproxy-healthcheck.sh Timed out—proxy is down
+
+Result retrieve_tools and call_tool are unavailable, so I had no choice but to fall back to grep/find
+
+This is a proxy infrastructure issue, not a skill loading issue. The pkm-obsidian skill and mcp-integration skill are both correctly installed—but without a live proxy, the MCP path is dead. My fallback tosearch_files was the only available path, but it's the wrong path (literal regex, not semantic).
 
 Correct Remediation (Priority Order)
 
-1. Restart the proxy — until mcpproxy-healthcheck.sh returns healthy and mcp_mcp-proxy_* tools appear in the session, PKM semantic search is impossible
+1. Restart the proxy—until mcpproxy-healthcheck.sh returns healthy and mcp_mcp-proxy_* tools appear in the session, PKM semantic search is impossible
 2. Keep Obsidian open with Local REST API plugin active on port 27124 (required for obsidian_mcp_tools_search_vault_smart)
-3. Then rerun this task — load skill_view("custom/pkm-obsidian"), use mcp_mcp-proxy_retrieve_tools(query="obsidian search") → obsidian_mcp_tools_search_vault_smart, and rescan the vault semantically before addinglinks
+3. Then rerun this task—load skill_view("custom/pkm-obsidian"), use mcp_mcp-proxy_retrieve_tools(query="obsidian search") → obsidian_mcp_tools_search_vault_smart, and rescan the vault semantically before addinglinks
 
 The links I added in the previous pass were syntactically correct but discovered via literal grep, so they may miss conceptually related notes. Want me to retry after you've restarted the proxy?
+
 Help debug and create a prompt for hermes to fix the chezmoi managed mcp config
 
 ---
@@ -44,7 +42,7 @@ Confirmed. SOUL.md Step 4 is exactly as described. Here is the complete, copy-pa
 
 ---
 
-## `/goal` Prompt — Hermes PKM Skill Upgrade
+## `/goal` Prompt—Hermes PKM Skill Upgrade
 
 Paste this verbatim into a Hermes session running in your LLMeon vault (`hermes -p pkm` or `hermes --profile pkm`):
 
@@ -103,7 +101,7 @@ metadata:
 
 # PKM Obsidian Skill — LLMeon Vault
 
-**Vault path:** `/Volumes/DAL/Zettelkasten/LLMeon`
+Vault path: `/Volumes/DAL/Zettelkasten/LLMeon`
 
 ## CRITICAL: tool priority
 
@@ -149,13 +147,13 @@ Raw captures land in 00_Inbox/ → refined to HEAD → synthesised to SoT → ar
 File: ~/.local/share/chezmoi/private_dot_hermes/SOUL.md
 
 Find this exact line (Step 4 of Triage Steps):
-4. **Obsidian vs integrations** — For **vault search** (prior notes, architecture), use the `obsidian` skill on `/Volumes/DAL/Zettelkasten/LLMeon`. For **live Jira/Confluence/Todoist/Obsidian MCP APIs**, use native tools `mcp_mcp-proxy_*` per `skill_view("custom/mcp-integration")` — never HTTP to port 8000.
+4. Obsidian vs integrations — For vault search (prior notes, architecture), use the `obsidian` skill on `/Volumes/DAL/Zettelkasten/LLMeon`. For live Jira/Confluence/Todoist/Obsidian MCP APIs, use native tools `mcp_mcp-proxy_*` per `skill_view("custom/mcp-integration")` — never HTTP to port 8000.
 
 Replace with:
-4. **Obsidian vs integrations**
-   - **Semantic PKM search** (find notes by concept/meaning): `skill_view("custom/pkm-obsidian")`, then `mcp_mcp-proxy_call_tool` → `obsidian_mcp_tools_search_vault_smart`. **Never use `grep` or `find` for conceptual lookup.**
-   - **Structural vault ops** (read a specific note, list files, write): use the `obsidian` skill with file tools on `/Volumes/DAL/Zettelkasten/LLMeon`.
-   - **Live Jira/Confluence/Todoist/Obsidian MCP APIs**: `mcp_mcp-proxy_*` per `skill_view("custom/mcp-integration")` — never HTTP to port 8000.
+4. Obsidian vs integrations
+   - Semantic PKM search (find notes by concept/meaning): `skill_view("custom/pkm-obsidian")`, then `mcp_mcp-proxy_call_tool` → `obsidian_mcp_tools_search_vault_smart`. Never use `grep` or `find` for conceptual lookup.
+   - Structural vault ops (read a specific note, list files, write): use the `obsidian` skill with file tools on `/Volumes/DAL/Zettelkasten/LLMeon`.
+   - Live Jira/Confluence/Todoist/Obsidian MCP APIs: `mcp_mcp-proxy_*` per `skill_view("custom/mcp-integration")` — never HTTP to port 8000.
 
 ### Change 3: Add pkm-obsidian to the PKM profile's preloaded skills
 File: ~/.local/share/chezmoi/private_dot_hermes/profiles/pkm.yaml
@@ -198,7 +196,7 @@ I now have everything needed. Here is the complete, ready-to-paste `/goal` promp
 
 ---
 
-## `/goal` Prompt — Hermes PKM Skill Upgrade
+## `/goal` Prompt—Hermes PKM Skill Upgrade
 
 Copy and paste this directly into Hermes in the LLMeon vault (`hermes --tui` or `hermes -p pkm`):
 
@@ -242,7 +240,7 @@ Write it to:
 
 This skill must define the following for Hermes inside LLMeon:
 
-**Tool priority table (enforce this order):**
+Tool priority table (enforce this order):
 
 | Intent | Tool | Never use |
 |---|---|---|
@@ -253,12 +251,12 @@ This skill must define the following for Hermes inside LLMeon:
 | Append to a note | obsidian CLI or patch | — |
 | List dead-ends / orphans | mcp_mcp-proxy_call_tool → obsidian_mcp_tools_get_vault_stats | find, ls |
 
-**MCP discovery pattern (mandatory before first MCP call):**
+MCP discovery pattern (mandatory before first MCP call):
 1. skill_view("custom/mcp-integration")
 2. mcp_mcp-proxy_retrieve_tools(query="obsidian search")
 3. mcp_mcp-proxy_call_tool(name="<resolved tool name>", args={...})
 
-**Vault paths:**
+Vault paths:
 - Root: /Volumes/DAL/Zettelkasten/LLMeon
 - Inbox: 00_Inbox/
 - Active thinking: 20_Thinking/21_Workbench/
@@ -267,18 +265,18 @@ This skill must define the following for Hermes inside LLMeon:
 - Wiki (agent-compiled): wiki/
 - Jira notes: jira/
 
-**PKM workflow (capture → synthesise → archive):**
+PKM workflow (capture → synthesise → archive):
 1. Capture: write HEAD notes to 20_Thinking/21_Workbench/
 2. Synthesise: semantic search → read neighbours → write to 30_Library/ or
    100_zettelkasten/ with [[wikilinks]]
 3. Archive: move processed HEADs to 30_Library/
 
-**Hard rule:**
+Hard rule:
 grep and find are FORBIDDEN for semantic or conceptual lookup.
 They only match literals. Any task whose intent is "find related notes about
 <topic>" MUST use obsidian_mcp_tools_search_vault_smart.
 
-**Wikilink convention:**
+Wikilink convention:
 Every new link must have a 1-sentence italicised annotation:
 [[Note Name]] _Why this connects._
 
@@ -286,19 +284,19 @@ Every new link must have a 1-sentence italicised annotation:
 
 File: ~/.local/share/chezmoi/private_dot_hermes/SOUL.md
 
-Find line 61 (the current Step 4 which begins "**Obsidian vs integrations**").
+Find line 61 (the current Step 4 which begins "Obsidian vs integrations").
 
 Replace ONLY that bullet with:
 
-4. **Obsidian vs integrations** —
-   - **Semantic PKM search** (find related notes/concepts by meaning): load
+4. Obsidian vs integrations —
+   - Semantic PKM search (find related notes/concepts by meaning): load
      `skill_view("custom/pkm-obsidian")`, then call
      `mcp_mcp-proxy_call_tool` → `obsidian_mcp_tools_search_vault_smart`.
-     **NEVER use grep, find, or search_files for semantic intent.**
-   - **Literal/structural vault ops** (read a specific known note, list a
+     NEVER use grep, find, or search_files for semantic intent.
+   - Literal/structural vault ops (read a specific known note, list a
      folder): use the `obsidian` skill with file tools on
      `/Volumes/DAL/Zettelkasten/LLMeon`.
-   - **Live Jira/Confluence/Todoist/Obsidian MCP APIs** (create notes via
+   - Live Jira/Confluence/Todoist/Obsidian MCP APIs (create notes via
      API, fetch Jira issues, write to Obsidian REST): use `mcp_mcp-proxy_*`
      per `skill_view("custom/mcp-integration")` — never raw HTTP to port 8000.
 
@@ -365,12 +363,12 @@ British English throughout. Concise inline commentary only — no prose padding.
 
 ---
 
-## Notes on the prompt
+## Notes on the Prompt
 
-**Why it's structured this way** — grounded from your actual chezmoi repo:
+Why it's structured this way—grounded from your actual chezmoi repo:
 
 - The skill write path (`dot_hermes_custom_skills/custom/`) matches the `skills.external_dirs: [~/.hermes_custom_skills]` entry confirmed in `private_config.yaml` line 320. New custom skills go here, not under `private_dot_hermes/skills/`.
-- The SOUL.md line 61 patch target is exact — confirmed from the filesystem text search result showing the current Step 4 text.
+- The SOUL.md line 61 patch target is exact—confirmed from the filesystem text search result showing the current Step 4 text.
 - The `pkm.yaml` preload block addresses the gap identified: the profile exists (confirmed at `private_dot_hermes/profiles/pkm.yaml`) but has no skill preloading and no explicit prohibition on grep.
 - The acceptance criteria mirror the pattern from your prior successful `/goal` prompts (the startup fix prompt from 23 May showed exactly this structure: numbered AC list + DO NOT block + chezmoi path table).
 
@@ -379,6 +377,7 @@ British English throughout. Concise inline commentary only — no prose padding.
 ## Asset 4 (Pieces: 72170dbe-1941-4e3a-97c2-5035a5be40e2)
 
 The user wants me to create a ready-to-paste `/goal` prompt for Hermes that will:
+
 1. Fix the PKM tooling issue (using grep/find instead of MCP semantic search / obsidian CLI)
 2. Create/update the necessary skills
 3. Do all config changes via the chezmoi repo (not directly to ~/.hermes/)
@@ -386,7 +385,6 @@ The user wants me to create a ready-to-paste `/goal` prompt for Hermes that will
 I need to produce a complete, self-contained `/goal` prompt that Hermes can execute. Let me use everything I've gathered from the memory search and filesystem reads to craft this.
 
 Key facts I have:
-
 
 - Hermes config is managed via chezmoi source at `~/.local/share/chezmoi/private_dot_hermes/`
 - Custom skills go to `~/.local/share/chezmoi/dot_hermes_custom_skills/custom/<name>/SKILL.md` (per SOUL.md §7.2)
@@ -405,11 +403,11 @@ Now I'm mapping out the exact file paths and crafting a precise `/goal` prompt f
 
 ## Asset 5 (Pieces: e176d7f3-538e-4058-8fac-d4a55d81b1c3)
 
-**Exploring search paths**
+Exploring search paths
 
-I think I might need to verify if the root path exists first, or perhaps the repository isn't there at all. Looking for a README is an option, but the user is specifically after the chezmoi repo. It might be somewhere else in the sandbox, so I need to discover the right path. Although the current tool root is sandboxed, I should still check the broader filesystem, especially hidden directories under /Users/leon.ormes, possibly even in Documents. I'll focus on exact returned paths for my search.**Considering search methods**
+I think I might need to verify if the root path exists first, or perhaps the repository isn't there at all. Looking for a README is an option, but the user is specifically after the chezmoi repo. It might be somewhere else in the sandbox, so I need to discover the right path. Although the current tool root is sandboxed, I should still check the broader filesystem, especially hidden directories under /Users/leon.ormes, possibly even in Documents. I'll focus on exact returned paths for my search.Considering search methods
 
-I’m thinking about doing a parallel search for both paths and content, maybe even on broader roots. Since the review asks for this in one go, using `multi_tool_use.parallel` with both `filesystem_search_paths` and `filesystem_search_text` could work. However, it seems that the tool only allows developer tools, which is fine. I could search for "chezmoi" in /Users/leon.ormes, but the sandbox limits me. I might set roots to ["/Users/leon.ormes"] with include set to false.
+I'm thinking about doing a parallel search for both paths and content, maybe even on broader roots. Since the review asks for this in one go, using `multi_tool_use.parallel` with both `filesystem_search_paths` and `filesystem_search_text` could work. However, it seems that the tool only allows developer tools, which is fine. I could search for "chezmoi" in /Users/leon.ormes, but the sandbox limits me. I might set roots to ["/Users/leon.ormes"] with include set to false.
 
 ---
 

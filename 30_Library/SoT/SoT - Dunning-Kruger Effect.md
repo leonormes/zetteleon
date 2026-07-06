@@ -1,20 +1,14 @@
 ---
-aliases:
-- DKE
-- Dunning Kruger
-created: 2025-12-12 00:00:00+00:00
+aliases: [DKE, Dunning Kruger]
+created: 2025-12-12T00:00:00+00:00
 last_reviewed: '2025-12-13'
-modified: 2026-02-01 15:07:59+00:00
+modified: 2026-07-04T10:51:01+00:00
+permalink: llmeon/30-library/so-t/so-t-dunning-kruger-effect
 status: stable
-tags:
-- bias
-- metacognition
-- TheHuman/Cognition
-- TheHuman/Psychology
+tags: [bias, metacognition, TheHuman/Cognition, TheHuman/Psychology]
 title: SoT - Dunning-Kruger Effect
 type: SoT
 updated: null
-permalink: llmeon/30-library/so-t/so-t-dunning-kruger-effect
 ---
 
 ## 2. The Core Mechanism: The "Double Burden"

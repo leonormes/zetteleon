@@ -1,15 +1,14 @@
 ---
 aliases: []
-created: 2025-06-25 20:14:33+00:00
+created: 2025-06-25T20:14:33+00:00
 last_reviewed: 'null'
-modified: 2026-05-26 11:44:33+00:00
+modified: 2026-07-04T10:51:47+00:00
+permalink: llmeon/30-library/100-zettelkasten/plan-to-plan-just-in-time-for-adhd
 status: 'null'
-tags:
-- TheHuman/Health/ADHD
+tags: [TheHuman/Health/ADHD]
 title: Plan To Plan-Just-In-Time for ADHD
 type: permanent
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/plan-to-plan-just-in-time-for-adhd
 ---
 
 The key mindset shift for [[SoT - ADHD Neurology & Core Concepts|ADHD productivity]] is not to plan all steps in advance, but to "plan to plan—just-in-time". This adapts [[SoT - Execution Protocol (GTD & PARA)|GTD principles]] to allow for intuitive, meandering workflow while providing structure.

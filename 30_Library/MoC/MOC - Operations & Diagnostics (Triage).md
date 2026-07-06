@@ -1,19 +1,12 @@
 ---
-aliases:
-- Ops Triage
-- Protocol Triage
-created: 2026-04-08 00:00:00+00:00
-modified: 2026-05-26 11:44:22+00:00
+aliases: [Ops Triage, Protocol Triage]
+created: 2026-04-08T00:00:00+00:00
+modified: 2026-07-04T10:51:10+00:00
+permalink: llmeon/30-library/mo-c/moc-operations-diagnostics-triage
 status: seedling
-tags:
-- devops
-- moc
-- operations
-- protocols
-- triage
+tags: [devops, moc, operations, protocols, triage]
 title: MOC - Operations & Diagnostics (Triage)
 type: map
-permalink: llmeon/30-library/mo-c/moc-operations-diagnostics-triage
 ---
 
 ## Navigation Hub: Operations & Diagnostics

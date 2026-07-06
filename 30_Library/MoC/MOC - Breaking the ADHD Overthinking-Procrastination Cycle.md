@@ -1,25 +1,19 @@
 ---
-aliases:
-- ADHD Overthinking Playbook
-created: 2025-11-12 15:15:00+00:00
+aliases: [ADHD Overthinking Playbook]
+created: 2025-11-12T15:15:00+00:00
 criteria: Atomic notes must relate to the psychological drivers of the ADHD procrastination
   cycle or feedback-based strategies to counteract it.
 exclusions: General productivity advice not tailored to ADHD neurobiology.
 last_reviewed: '2026-04-08'
-modified: 2026-05-26 11:44:23+00:00
+modified: 2026-07-04T10:51:12+00:00
+permalink: llmeon/30-library/mo-c/moc-breaking-the-adhd-overthinking-procrastination-cycle
 scope: A framework for understanding and breaking the overthinking-procrastination
   cycle in ADHD using feedback-driven momentum.
 status: growing
-tags:
-- executive-function
-- procrastination
-- TheHuman/Health/ADHD
-- TheHuman/Psychology
-- topic/productivity
+tags: [executive-function, procrastination, TheHuman/Health/ADHD, TheHuman/Psychology, topic/productivity]
 title: MOC - Breaking the ADHD Overthinking-Procrastination Cycle
 type: map
 updated: null
-permalink: llmeon/30-library/mo-c/moc-breaking-the-adhd-overthinking-procrastination-cycle
 ---
 
 ## MOC - Breaking the ADHD Overthinking-Procrastination Cycle
@@ -84,6 +78,4 @@ These techniques translate the principles into a practical, immediate toolkit.
 - [[SoT - ADHD Neurology & Core Concepts]]—_Foundational neurobiology, including the Shame-Procrastination Cycle._
 - [[SoT - Breaking the Creation Cycle]]—_Generating momentum via micro-steps and the "Starter Task" protocol._
 - 3.6 Pre-define the Transition Rule: [[Action Triggers Bridge the Gap Between Motion and Action|Action Triggers]] eliminate the decision of when to act by pre-committing to a concrete handoff point ('After X preparation step, I will begin Y execution'), cutting off the infinite preparation loop at the root.
-
-
 - [[Part 1 The Psychology of ADHD-Driven Overthinking]] _(Psychological deep-dive into ADHD overthinking: executive dysfunction, working memory deficits, dopamine-seeking, and RSD as drivers)_

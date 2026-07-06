@@ -1,8 +1,9 @@
 ---
 aliases: []
-created: 2025-02-07 12:57:52+00:00
+created: 2025-02-07T12:57:52+00:00
 last_reviewed: ''
-modified: 2026-06-08 11:49:22+00:00
+modified: 2026-07-04T10:51:28+00:00
+permalink: llmeon/30-library/200-projects/nightmare-pipeline
 project_category: development
 project_name: SDLC
 project_status: archived
@@ -10,12 +11,10 @@ see_also: []
 status: ''
 superseded_by: ''
 supersedes: ''
-tags:
-- SDLC
+tags: [SDLC]
 title: Nightmare pipeline
 type: ''
 updated: null
-permalink: llmeon/30-library/200-projects/nightmare-pipeline
 ---
 
 Our Delivery Pipeline should be an utter nightmare for any defect trying to get through to production.

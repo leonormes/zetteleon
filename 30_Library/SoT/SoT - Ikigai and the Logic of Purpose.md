@@ -1,22 +1,14 @@
 ---
-aliases:
-- Process-Based Purpose
-- The Anti-Venn Diagram
-- The True Meaning of Ikigai
-created: 2025-12-15 00:00:00+00:00
+aliases: [Process-Based Purpose, The Anti-Venn Diagram, The True Meaning of Ikigai]
+created: 2025-12-15T00:00:00+00:00
 last_reviewed: '2025-12-15'
-modified: 2026-02-01 15:07:56+00:00
+modified: 2026-07-04T10:50:57+00:00
+permalink: llmeon/30-library/so-t/so-t-ikigai-and-the-logic-of-purpose
 status: stable
-tags:
-- ikigai
-- japanese_philosophy
-- meaning
-- process
-- purpose
+tags: [ikigai, japanese_philosophy, meaning, process, purpose]
 title: SoT - Ikigai and the Logic of Purpose
 type: SoT
 updated: null
-permalink: llmeon/30-library/so-t/so-t-ikigai-and-the-logic-of-purpose
 ---
 
 ## 2. Ikigai: The Two Models

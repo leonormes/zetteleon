@@ -1,44 +1,11 @@
 ---
 created: Invalid date
-modified: 2026-05-26 11:43:38+00:00
-pieces_ids:
-- 00fa2e1f-0264-4337-b320-6a772d6ea391
-- 0110a90e-7cee-4790-94c6-b00d8388ad7a
-- 0dcca52a-2799-4544-a979-caffc9cde1ae
-- 14932fe0-2065-41a0-abcd-192afe726b1e
-- 1c961931-21a1-4d58-a205-57f8f0b3de44
-- 2968963c-4a72-4f91-b089-a2823454c2f4
-- 3eb801d4-f4a9-4490-8ee9-ef2053a2403a
-- 406e80f1-a47a-4ce1-8b07-658d5fc10cfd
-- 460646b2-6535-45e0-a7b8-0b8d999813de
-- 4d85664e-abd0-4294-8dc6-654d5e86a10d
-- 50d96766-f7d3-4fed-b143-9d31fadd92e9
-- 5f01e183-bdbf-43fb-aeb1-9e4551e3f840
-- 662a9ef8-72fc-4bbe-9c67-b3154bad35d2
-- 673de449-40c8-412f-a44a-a21b05b23ff0
-- 6eb00b1b-3fcc-44a6-9c0a-54f6b99f449f
-- 6fe64703-5474-4e02-9efc-b1bb6615d4a7
-- 88f611b5-fd60-4532-9f66-391af9d6d884
-- 8d9c88db-71ba-4721-a822-aae6b43046dc
-- 9a528fd8-b309-4d8c-8b86-8c2129999128
-- a838fc94-5a23-4d94-8fec-3cf3292be055
-- a9bf62c5-7825-4803-8f14-e69b1cee05b4
-- afaa196e-46c8-4217-9259-b847d68c8ca8
-- b464daa1-e111-4663-9a02-7279c7404d5f
-- c9d63e01-160d-4334-9748-5f96d78b88ee
-- cbd31da0-1a50-450e-9b7f-47b74b3d1720
-- d21df255-e711-498b-8a70-466b94eb396e
-- db637b45-b846-4fda-82eb-0ebf83ce8422
-- def74d1f-3016-42ae-896d-6b975991a6d4
-- e2fbd711-7f84-415e-b762-e45116035c0c
-- ec730397-eb08-4fdd-a0f1-783f00211d85
-- f7781e56-2fb7-4b5e-be24-e0e8c2e5cda8
-source: pieces-ltm
-tags:
-- pieces
-- raw
-title: 2026-05-18-pieces-cuh-rbac-permissions
+modified: 2026-07-04T10:50:03+00:00
 permalink: llmeon/raw/2026-05-18-pieces-cuh-rbac-permissions
+pieces_ids: [00fa2e1f-0264-4337-b320-6a772d6ea391, 0110a90e-7cee-4790-94c6-b00d8388ad7a, 0dcca52a-2799-4544-a979-caffc9cde1ae, 14932fe0-2065-41a0-abcd-192afe726b1e, 1c961931-21a1-4d58-a205-57f8f0b3de44, 2968963c-4a72-4f91-b089-a2823454c2f4, 3eb801d4-f4a9-4490-8ee9-ef2053a2403a, 406e80f1-a47a-4ce1-8b07-658d5fc10cfd, 460646b2-6535-45e0-a7b8-0b8d999813de, 4d85664e-abd0-4294-8dc6-654d5e86a10d, 50d96766-f7d3-4fed-b143-9d31fadd92e9, 5f01e183-bdbf-43fb-aeb1-9e4551e3f840, 662a9ef8-72fc-4bbe-9c67-b3154bad35d2, 673de449-40c8-412f-a44a-a21b05b23ff0, 6eb00b1b-3fcc-44a6-9c0a-54f6b99f449f, 6fe64703-5474-4e02-9efc-b1bb6615d4a7, 88f611b5-fd60-4532-9f66-391af9d6d884, 8d9c88db-71ba-4721-a822-aae6b43046dc, 9a528fd8-b309-4d8c-8b86-8c2129999128, a838fc94-5a23-4d94-8fec-3cf3292be055, a9bf62c5-7825-4803-8f14-e69b1cee05b4, afaa196e-46c8-4217-9259-b847d68c8ca8, b464daa1-e111-4663-9a02-7279c7404d5f, c9d63e01-160d-4334-9748-5f96d78b88ee, cbd31da0-1a50-450e-9b7f-47b74b3d1720, d21df255-e711-498b-8a70-466b94eb396e, db637b45-b846-4fda-82eb-0ebf83ce8422, def74d1f-3016-42ae-896d-6b975991a6d4, e2fbd711-7f84-415e-b762-e45116035c0c, ec730397-eb08-4fdd-a0f1-783f00211d85, f7781e56-2fb7-4b5e-be24-e0e8c2e5cda8]
+source: pieces-ltm
+tags: [pieces, raw]
+title: 2026-05-18-pieces-cuh-rbac-permissions
 ---
 
 ## Asset 1 (Pieces: 14932fe0-2065-41a0-abcd-192afe726b1e)
@@ -407,7 +374,7 @@ User asked to reword an email to Alexis McKenna (CUH) explaining the private end
 - Pagination cursor from last search_memory for Robin Mofakham persona: `eyJxIjoicDpSb2JpbiBNb2Zha2hhbSIsIm8iOjUwfQ==`—needs to be paginated (recommendation: 'fetchMore')
 - Need to search for 'permissions plan CUH RBAC' and 'Storage Blob Data Contributor role assignment' to find any existing permissions plan document
 
-## Confirmed Facts (with citations)
+## Confirmed Facts (With cItations)
 
 - Alexis McKenna email: `alexis.mckenna1@nhs.net`—Cambridge University Hospitals NHS Foundation Trust—event `8fc9f57a-9d9a-4845-9780-0b11f5953436`
 - Terraform SP object ID: `48d9047f-3ac6-4d1a-9c6f-b43e9352c01f`—event `961147f7-4aea-47e0-94b8-0aa3ebdb3af9`
@@ -422,7 +389,7 @@ User asked to reword an email to Alexis McKenna (CUH) explaining the private end
 - Robin's idea: Scope CUH RBAC assignment to only assign 'Storage Blob Data Contributor' role—Azure ABAC condition on roleDefinitionID—needs web_search verification
 - Previous email draft produced: Subject 'Technical Update: Required Terraform Permissions for CUH Private AKS Backups'—requesting Role Based Access Control Administrator scoped to 3 RGs—event `8fc9f57a`
 
-## Tool-call Ledger (recent Successful calls)
+## Tool-call Ledger (Recent Successful cAlls)
 
 - `search_memory(hints=['CUH private endpoint backup reason','pentest remediation','Alexis McKenna'])` → 50 results, fetchMore cursor available; key hits: AKS IaC Planning rationale doc (event `8ab182f0`), FTFL-615 Jira ticket, private endpoint implementation guides
 - `search_memory(hints=['Microsoft.Authorization/roleAssignments/write','User Access Administrator','AuthorizationFailed'])` → 50 results sufficient; key hits: pentest run error `run-qeQ41dgowhaGbMLn`, Feb 2026 research confirming 'Role Based Access Control Administrator' as minimal role

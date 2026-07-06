@@ -1,18 +1,14 @@
 ---
 aliases: []
-created: 2025-10-24 14:25:58+00:00
+created: 2025-10-24T14:25:58+00:00
 last_reviewed: 'null'
-modified: 2026-02-04 07:27:27+00:00
+modified: 2026-07-04T10:51:10+00:00
+permalink: llmeon/30-library/mo-c/moc-load-balancing
 status: 'null'
-tags:
-- load-balancing
-- SoftwareEngineering/Networking
-- sre
-- type/moc
+tags: [load-balancing, SoftwareEngineering/Networking, sre, type/moc]
 title: MOC - Load Balancing
 type: map
 updated: null
-permalink: llmeon/30-library/mo-c/moc-load-balancing
 ---
 
 This Map of Content (MOC) covers various aspects of load balancing, a critical component for distributing network traffic and ensuring high availability and scalability of applications.

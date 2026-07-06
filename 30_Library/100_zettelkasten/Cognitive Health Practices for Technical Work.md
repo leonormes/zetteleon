@@ -1,16 +1,14 @@
 ---
 aliases: []
-created: 2025-10-31 12:46:00+00:00
+created: 2025-10-31T12:46:00+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:36+00:00
+modified: 2026-07-04T10:51:53+00:00
+permalink: llmeon/30-library/100-zettelkasten/cognitive-health-practices-for-technical-work
 status: seedling
-tags:
-- TheHuman/Neuroscience
-- topic/productivity
+tags: [TheHuman/Neuroscience, topic/productivity]
 title: Cognitive Health Practices for Technical Work
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/cognitive-health-practices-for-technical-work
 ---
 
 ## Cognitive Health Practices for Technical Work

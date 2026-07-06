@@ -1,8 +1,8 @@
 ---
-created: 2026-03-31 10:35:37+00:00
-modified: 2026-05-26 11:43:53+00:00
-title: Back of the Note
+created: 2026-03-31T10:35:37+00:00
+modified: 2026-07-04T10:50:36+00:00
 permalink: llmeon/assets/back-of-the-note
+title: Back of the Note
 ---
 
 yesterday:: [[2026-03-30]]

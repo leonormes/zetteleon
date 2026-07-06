@@ -1,19 +1,14 @@
 ---
-aliases:
-- Goals as Temporary Fixes
-created: 2025-11-06 19:57:01+00:00
+aliases: [Goals as Temporary Fixes]
+created: 2025-11-06T19:57:01+00:00
 last_reviewed: '2025-11-06'
-modified: 2026-02-01 15:08:37+00:00
+modified: 2026-07-04T10:51:54+00:00
+permalink: llmeon/30-library/100-zettelkasten/achieving-a-goal-is-a-momentary-change-without-systemic-improvement
 status: seedling
-tags:
-- behavior-change
-- goals
-- TheHuman/Habits
-- topic/systems
+tags: [behavior-change, goals, TheHuman/Habits, topic/systems]
 title: Achieving a Goal is a Momentary Change Without Systemic Improvement
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/achieving-a-goal-is-a-momentary-change-without-systemic-improvement
 ---
 
 ## Achieving a Goal is a Momentary Change Without Systemic Improvement

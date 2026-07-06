@@ -1,16 +1,11 @@
 ---
-created: 2026-05-23 20:15:00+01:00
-modified: 2026-05-26 11:43:32+00:00
-pieces_ids:
-- 17a5978e-4cc2-4a6e-93d8-8dca33bb5109
-- 991b3b21-9faf-4743-a76f-129642603351
-- f79dcc22-400c-4969-bec9-268e7bce00e0
-source: pieces-ltm
-tags:
-- pieces
-- raw
-title: 2026-05-23-pieces-hermes-tui-slow
+created: 2026-05-23T19:15:00+00:00
+modified: 2026-07-04T10:49:55+00:00
 permalink: llmeon/raw/2026-05-23-pieces-hermes-tui-slow
+pieces_ids: [17a5978e-4cc2-4a6e-93d8-8dca33bb5109, 991b3b21-9faf-4743-a76f-129642603351, f79dcc22-400c-4969-bec9-268e7bce00e0]
+source: pieces-ltm
+tags: [pieces, raw]
+title: 2026-05-23-pieces-hermes-tui-slow
 ---
 
 ## Hermes TUI Slow Startup Diagnosis

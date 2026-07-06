@@ -1,20 +1,16 @@
 ---
-created: 2026-04-14 11:11:37+00:00
+created: 2026-04-14T11:11:37+00:00
 created_utc: '2026-04-14T10:35:00Z'
 kind: mechanism
-modified: 2026-05-26 11:44:35+00:00
+modified: 2026-07-04T10:51:50+00:00
+permalink: llmeon/30-library/100-zettelkasten/host-response-logic
 source_title: Networking Is Label Transformation Under Policy
 source_url: N/A
 status: seed
-tags:
-- host-behaviour
-- routing
-- source-tuple
-- tcp-ip
+tags: [host-behaviour, routing, source-tuple, tcp-ip]
 title: Host Response Logic
 type: atom
 upstream: '[[SoT - Linux Networking Primitives]]'
-permalink: llmeon/30-library/100-zettelkasten/host-response-logic
 ---
 
 ## Host Response Logic

@@ -1,21 +1,15 @@
 ---
-aliases:
-- Dopamine Hyposensitivity
-- Striatal Dopamine Deficit
-created: 2025-10-29 16:38:00+00:00
+aliases: [Dopamine Hyposensitivity, Striatal Dopamine Deficit]
+created: 2025-10-29T16:38:00+00:00
 last_reviewed: 'null'
-modified: 2026-05-26 11:44:37+00:00
+modified: 2026-07-04T10:51:54+00:00
+permalink: llmeon/30-library/100-zettelkasten/adhd-causes-task-initiation-deficits-due-to-dopamine-hyposensitivity
 source: '[[MOC - ADHD (The Master Map)]]'
 status: evergreen
-tags:
-- dopamine
-- executive_function
-- TheHuman/Health/ADHD
-- TheHuman/Neuroscience
+tags: [dopamine, executive_function, TheHuman/Health/ADHD, TheHuman/Neuroscience]
 title: ADHD Causes Task Initiation Deficits Due to Dopamine Hyposensitivity
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/adhd-causes-task-initiation-deficits-due-to-dopamine-hyposensitivity
 ---
 
 Individuals with ADHD often struggle with [[MOC - Why Task Initiation is Difficult in ADHD|task initiation]] because their brains require significantly more energy to begin a task. This difficulty is linked to a hyposensitivity of dopamine neurons in the striatum, meaning that the perceived importance of a task does not trigger sufficient neurotransmitter activity to generate internal motivation, especially for tasks that are boring or repetitive.

@@ -1,18 +1,14 @@
 ---
 aliases: []
-created: 2025-10-26 11:10:00+00:00
+created: 2025-10-26T11:10:00+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:34+00:00
+modified: 2026-07-04T10:51:52+00:00
+permalink: llmeon/30-library/100-zettelkasten/environmental-and-physical-hacks-for-adhd-focus
 status: ''
-tags:
-- environment
-- focus
-- TheHuman/Health/ADHD
-- topic/productivity
+tags: [environment, focus, TheHuman/Health/ADHD, topic/productivity]
 title: Environmental and Physical Hacks for ADHD Focus
 type: permanent
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/environmental-and-physical-hacks-for-adhd-focus
 ---
 
 ## Environmental and Physical Hacks for ADHD Focus

@@ -1,8 +1,9 @@
 ---
 aliases: []
-created: 2025-11-11 09:23:56+00:00
+created: 2025-11-11T09:23:56+00:00
 last_reviewed: ''
-modified: 2026-05-26 11:44:33+00:00
+modified: 2026-07-04T10:51:45+00:00
+permalink: llmeon/30-library/100-zettelkasten/silent-void
 see_also: []
 status: ''
 superseded_by: ''
@@ -11,7 +12,6 @@ tags: []
 title: Silent Void
 type: ''
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/silent-void
 ---
 
 You've done exceptional analytical work identifying this pattern. The "Invalidation Stalemate" is indeed the crux, and you're right that the standard "validate feelings" advice hits a wall when one partner's feeling is literally "this isn't a problem."

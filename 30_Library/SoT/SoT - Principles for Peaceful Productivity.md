@@ -1,21 +1,14 @@
 ---
-aliases:
-- 10 Rules for Life
-- Peaceful Productivity
-created: 2025-12-21 00:00:00+00:00
+aliases: [10 Rules for Life, Peaceful Productivity]
+created: 2025-12-21T00:00:00+00:00
 last_reviewed: '2025-12-21'
-modified: 2026-05-26 11:44:17+00:00
+modified: 2026-07-04T10:50:51+00:00
+permalink: llmeon/30-library/so-t/so-t-principles-for-peaceful-productivity
 status: stable
-tags:
-- boundaries
-- principles
-- rules
-- TheHuman/Mindset
-- topic/productivity
+tags: [boundaries, principles, rules, TheHuman/Mindset, topic/productivity]
 title: SoT - Principles for Peaceful Productivity
 type: SoT
 updated: null
-permalink: llmeon/30-library/so-t/so-t-principles-for-peaceful-productivity
 ---
 
 ## 2. The 10 Core Principles

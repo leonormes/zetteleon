@@ -1,16 +1,14 @@
 ---
 aliases: []
-created: 2025-08-26 09:26:38+00:00
+created: 2025-08-26T09:26:38+00:00
 last_reviewed: ''
-modified: 2026-05-26 11:44:33+00:00
+modified: 2026-07-04T10:51:45+00:00
+permalink: llmeon/30-library/100-zettelkasten/shannons-information-theory-information-as-uncertainty
 status: ''
-tags:
-- information
-- 3
-title: Shannon's Information Theory - Information as Uncertainty
+tags: [3, information]
+title: "Shannon's Information Theory - Information as Uncertainty"
 type: ''
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/shannons-information-theory-information-as-uncertainty
 ---
 
 💡 In Claude Shannon's formal information theory, information is a measure of uncertainty or surprise. The information content of a message is quantified by how much it reduces the receiver's uncertainty.
@@ -27,18 +25,18 @@ This definition directly contradicts the common-sense notion of [[Information as
 
 ## Critique: "Shannon's Information Theory - Information as Uncertainty"
 
-### 1. Frontmatter Issues (mechanical)
+### 1. Frontmatter Issues (Mechanical)
 
 - Empty strings vs bare `null`: `last_reviewed: ""`, `status: ""`, `type: ""`—better than the previous note's `"null"` string, but still populated. If these are meant to be absent, use bare `null` or omit the keys. Dataview will treat empty strings as non-empty values in some comparisons.
 - `modified` / `updated` duplication—same issue as the other note. Pick one. You have `updated:` (bare empty) and `modified: 2026-02-01…` side by side.
 - Tags are anaemic: `["information"]` alone is too flat. Compare with the other note's `TheHuman/Psychology` hierarchy. Candidates: `mathematics/information-theory`, `epistemology`, `concepts/counterintuitive`. Pick a tagging convention and apply it across your vault.
 - Title/filename mismatch: filename has `Shannon_s_Information_Theory_-_Information_as_Uncertainty` (underscore-apostrophe, hyphen-colon). The frontmatter title should almost certainly be `Shannon's Information Theory: Information as Uncertainty` (proper colon), not an em-dash substitute.
 
-### 2. Technical Issues (substantive—this is the Important section)
+### 2. Technical Issues (substantive—this is the Important Section)
 
 The note commits several small-but-meaningful conflations that a permanent note on this topic needs to resolve.
 
-#### 2a. "Information Equals uncertainty" is Sloppy Shorthand
+#### 2a. "Information Equals uNcertainty" is Sloppy Shorthand
 
 Shannon's framework distinguishes at least three quantities the note is treating as one:
 
@@ -50,11 +48,11 @@ Shannon's framework distinguishes at least three quantities the note is treating
 
 The opening sentence says "information is a measure of uncertainty" and the next says it's quantified by "how much it reduces the receiver's uncertainty." Those are two _different_ quantities (entropy vs mutual information). The note treats them as the same thing.
 
-#### 2b. "Maximum Randomness = Maximum information" Needs a Constraint
+#### 2b. "Maximum Randomness = Maximum iNformation" Needs a Constraint
 
 Entropy is maximised by the uniform distribution _relative to a given support_. A uniform distribution over {A, B} has H = 1 bit; over 256 symbols, H = 8 bits. There is no absolute "maximum information"—it scales with the alphabet size (or, in the continuous case, the known moments—see Jaynes's _maximum entropy principle_). The note presents max entropy as an absolute ceiling.
 
-#### 2c. The "AAAAA Has Zero entropy" Example is the Crux Misconception
+#### 2c. The "AAAAA Has Zero eNtropy" Example is the Crux Misconception
 
 This is the most important issue. Shannon entropy is a property of distributions, not of strings.
 
@@ -79,7 +77,7 @@ $$
 
 This matters because Obsidian's MathJax will render this inconsistently and it won't search cleanly.
 
-#### 2e. "Directly contradicts" Is Too Strong
+#### 2e. "Directly cOntradicts" Is Too Strong
 
 The final sentence says Shannon's definition "directly contradicts" the common-sense notion of information as pattern. It doesn't—it _abstracts away_ from meaning. Shannon explicitly wrote in the 1948 paper that "these semantic aspects of communication are irrelevant to the engineering problem." The two notions measure orthogonal things (syntactic surprisal vs semantic pattern-recognition). They coexist; they don't contradict. The link `[[The Conflict Between Semantic and Shannon Information]]` suggests you know this—so "contradicts" is the wrong verb here.
 

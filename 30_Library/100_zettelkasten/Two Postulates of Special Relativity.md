@@ -1,14 +1,14 @@
 ---
 aliases: []
-created: 2025-09-16 12:25:36+00:00
+created: 2025-09-16T12:25:36+00:00
 last_reviewed: ''
-modified: 2026-02-01 15:08:24+00:00
+modified: 2026-07-04T10:51:44+00:00
+permalink: llmeon/30-library/100-zettelkasten/two-postulates-of-special-relativity
 status: ''
 tags: []
 title: Two Postulates of Special Relativity
 type: ''
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/two-postulates-of-special-relativity
 ---
 
 Einstein's framework rests on two key principles:

@@ -1,20 +1,14 @@
 ---
-aliases:
-- Confidence from Utility
-- Pragmatic Truth
-created: 2025-11-06 19:58:02+00:00
+aliases: [Confidence from Utility, Pragmatic Truth]
+created: 2025-11-06T19:58:02+00:00
 last_reviewed: '2025-11-06'
-modified: 2026-02-01 15:08:27+00:00
+modified: 2026-07-04T10:51:45+00:00
+permalink: llmeon/30-library/100-zettelkasten/shift-from-seeking-rightness-to-seeking-utility
 status: seedling
-tags:
-- confidence
-- pragmatism
-- truth
-- utility
+tags: [confidence, pragmatism, truth, utility]
 title: Shift from Seeking Rightness to Seeking Utility
 type: concept
 updated: null
-permalink: llmeon/30-library/100-zettelkasten/shift-from-seeking-rightness-to-seeking-utility
 ---
 
 ## Shift from Seeking Rightness to Seeking Utility

@@ -1,16 +1,10 @@
 ---
-created: 2026-06-12 08:33:46+00:00
-cssclasses:
-- cards
-- cards-cols-3
-modified: 2026-06-12 08:48:17+00:00
-tags:
-- cinema-2026
-- database
-- film-tracking
-- wiki
-title: Best_Films_of_2026_Obsidian_Wiki
+created: 2026-06-12T08:33:46+00:00
+cssclasses: [cards, cards-cols-3]
+modified: 2026-07-04T10:51:14+00:00
 permalink: llmeon/30-library/400-indexes/best-films-of-2026-obsidian-wiki
+tags: [cinema-2026, database, film-tracking, wiki]
+title: Best_Films_of_2026_Obsidian_Wiki
 ---
 
 ## 🎬 Best Films of 2026 Tracker
@@ -31,7 +25,7 @@ A comprehensive tracking wiki page designed for Obsidian to manage and log viewi
 ### 🗓️ Master Film Directory
 
 | Status | Film Title                      | Key Cast / Directors                               | Primary Genre                        | Availability / Platform (UK)                     |
-| :----: | :------------------------------ | :------------------------------------------------- | :----------------------------------- | :----------------------------------------------- |
+|:----: |:------------------------------ |:------------------------------------------------- |:----------------------------------- |:----------------------------------------------- |
 |   🟥   | Song Sung Blue                  | Hugh Jackman, Kate Hudson                          | True-Life Comedy / Drama             | Streaming on Peacock / Sky/NOW                   |
 |   🟥   | Hamnet                          | Paul Mescal, Jessie Buckley / Chloé Zhao           | Shakespearean Tragedy                | Streaming on Peacock / Sky/NOW                   |
 |   🟥   | 28 Years Later: The Bone Temple | Ralph Fiennes, Jack O'Connell / Nia DaCosta        | Zombie Horror / Action               | PVOD Purchase/Rental (Apple TV, Amazon Prime)    |

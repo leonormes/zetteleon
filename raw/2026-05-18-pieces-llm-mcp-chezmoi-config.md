@@ -1,37 +1,11 @@
 ---
 created: Invalid date
-modified: 2026-05-26 11:43:38+00:00
-pieces_ids:
-- 02eae4dc-0211-4316-a427-e30d79aeb6c4
-- 04483b27-4b9c-4f45-8607-a7da3bf1775c
-- 15c55c35-8b86-4797-9478-73def5e09bc0
-- 1e3eb196-5cb7-47b3-94f2-ff05de1721d6
-- 33fbe599-a721-4851-9654-64bbf6c8cca6
-- 43dce2f5-e917-4b9d-8d63-e68aea75ec9f
-- 461c9867-f848-4766-b872-9b9204733b7c
-- 4dd1e31a-16cc-4244-bfd7-e246198df17c
-- 51531ced-7ba9-4c96-ae5a-6c9d686930c7
-- 7f837586-3838-4ae1-a774-c9b462bb07b4
-- 84a47308-6997-4f8f-9925-3dce7ed27587
-- 88a34ac6-2a1f-4f75-bf83-54449a49833b
-- 8cb4d0b3-af4b-48a8-9097-439d1cc3c4ca
-- 8f7e8191-dde4-48f6-821d-1710829a8fb8
-- ba46138e-1246-4469-8c4b-bee3b4e04c33
-- c5829c36-8a1c-4c3b-82c2-635b582298ec
-- d5b22036-e80b-4aee-b019-7fe3c22a0845
-- df02cf72-7fb5-4f48-8407-c2a93bdfc5e4
-- e282627d-6c0b-400d-8ba0-3c9cbb5c281d
-- e960f424-4743-4ea4-a8b1-9c96f644360e
-- e9a46fc7-b86f-48d1-88fd-d105e706b15a
-- ed3c6d78-8df8-44f2-907c-995f480e7974
-- edbfd550-f03a-4b3f-88c1-3664095bc30b
-- f4ee4a8e-77da-4077-8f89-b98ee8de1670
-source: pieces-ltm
-tags:
-- pieces
-- raw
-title: 2026-05-18-pieces-llm-mcp-chezmoi-config
+modified: 2026-07-04T10:50:07+00:00
 permalink: llmeon/raw/2026-05-18-pieces-llm-mcp-chezmoi-config
+pieces_ids: [02eae4dc-0211-4316-a427-e30d79aeb6c4, 04483b27-4b9c-4f45-8607-a7da3bf1775c, 15c55c35-8b86-4797-9478-73def5e09bc0, 1e3eb196-5cb7-47b3-94f2-ff05de1721d6, 33fbe599-a721-4851-9654-64bbf6c8cca6, 43dce2f5-e917-4b9d-8d63-e68aea75ec9f, 461c9867-f848-4766-b872-9b9204733b7c, 4dd1e31a-16cc-4244-bfd7-e246198df17c, 51531ced-7ba9-4c96-ae5a-6c9d686930c7, 7f837586-3838-4ae1-a774-c9b462bb07b4, 84a47308-6997-4f8f-9925-3dce7ed27587, 88a34ac6-2a1f-4f75-bf83-54449a49833b, 8cb4d0b3-af4b-48a8-9097-439d1cc3c4ca, 8f7e8191-dde4-48f6-821d-1710829a8fb8, ba46138e-1246-4469-8c4b-bee3b4e04c33, c5829c36-8a1c-4c3b-82c2-635b582298ec, d5b22036-e80b-4aee-b019-7fe3c22a0845, df02cf72-7fb5-4f48-8407-c2a93bdfc5e4, e282627d-6c0b-400d-8ba0-3c9cbb5c281d, e960f424-4743-4ea4-a8b1-9c96f644360e, e9a46fc7-b86f-48d1-88fd-d105e706b15a, ed3c6d78-8df8-44f2-907c-995f480e7974, edbfd550-f03a-4b3f-88c1-3664095bc30b, f4ee4a8e-77da-4077-8f89-b98ee8de1670]
+source: pieces-ltm
+tags: [pieces, raw]
+title: 2026-05-18-pieces-llm-mcp-chezmoi-config
 ---
 
 ## Asset 1 (Pieces: 02eae4dc-0211-4316-a427-e30d79aeb6c4)
@@ -350,7 +324,7 @@ Your proxy runs as streamable HTTP (requires `mcp-session-id` header handshake),
 
 ---
 
-#### Corrected Prompt (drop-in replacement)
+#### Corrected Prompt (Drop-in rEplacement)
 
 ```markdown
 # MISSION: EXPAND COGNITIVE LAYER VIA MCPPROXY (CHEZMOI PROTOCOL)
@@ -701,7 +675,7 @@ launchctl stop com.user.mcpproxy 2>/dev/null || pkill -f mcpproxy; sleep 2
 > `/mcp list` directly. They are discoverable via `mcp_mcp-proxy_retrieve_tools`.
 > Do NOT register brain-mcp in Hermes' local config—preserve Single Point of Discovery.
 
-#### 5. SOUL.md UPDATE (optional)
+#### 5. SOUL.md UPDATE (Optional)
 
 Note in `SOUL.md` that brain-mcp knowledge tools are accessible via the mcpproxy
 
