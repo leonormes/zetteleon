@@ -1,9 +1,9 @@
 ---
 chart-version: 4.1.6
-created: 2026-06-25T09:40:58+00:00
+created: 2026-07-07T08:56:09+00:00
 date: 2026-06-25
-modified: 2026-07-04T10:50:31+00:00
-permalink: llmeon/k8s-monitoring-helm-deep-analysis
+modified: 2026-07-07T09:28:47+00:00
+permalink: llmeon/k8s-monitoring-helm-deep-analysis-1-1
 related: '[[FITFILE k8s-monitoring Config Audit]]'
 source: /Volumes/DAL/other/k8s-monitoring-helm
 tags: [1, alloy, argocd, grafana, helm, kubernetes, observability]
