@@ -1,32 +1,14 @@
 ---
-created: 2026-07-08 00:00:00+00:00
-modified: 2026-07-08 08:57:48+00:00
+created: 2026-07-08T00:00:00+00:00
+modified: 2026-07-09T11:35:04+00:00
+permalink: llmeon/30-library/200-projects/omop-data-generation-full-project-context-2026-07-08
 project_category: omop
 project_name: OMOP
 project_status: active
-tags:
-- azure-batch
-- context-consolidation
-- ffapp-4566
-- fitfile
-- ftfl-475
-- ftfl-694
-- ftfl-696
-- ftfl-721
-- omop
-- synthea
-tickets:
-- FTFL-475
-- FTFL-476
-- FTFL-479
-- FTFL-480
-- FTFL-488
-- FTFL-694
-- FTFL-696
-- FTFL-721
+tags: [azure-batch, context-consolidation, ffapp-4566, fitfile, ftfl-475, ftfl-694, ftfl-696, ftfl-721, omop, synthea]
+tickets: [FTFL-475, FTFL-476, FTFL-479, FTFL-480, FTFL-488, FTFL-694, FTFL-696, FTFL-721]
 title: OMOP Data Generation - Full Project Context (2026-07-08)
 type: null
-permalink: llmeon/30-library/200-projects/omop-data-generation-full-project-context-2026-07-08
 ---
 
 ## Purpose of This Note
