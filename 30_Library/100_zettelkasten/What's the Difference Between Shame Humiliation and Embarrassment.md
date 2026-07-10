@@ -43,4 +43,4 @@ In essence:
 
 [[Your emotions are real but they are your responsibility]]
 
-[[The Shame-Procrastination Cycle]]
+[[SoT - ADHD Neurology & Core Concepts#2.1 The Shame-Procrastination Cycle|The Shame-Procrastination Cycle]]

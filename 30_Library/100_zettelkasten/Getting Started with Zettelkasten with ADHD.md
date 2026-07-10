@@ -11,7 +11,7 @@ type: permanent
 updated: null
 ---
 
-To overcome the inertia of starting a Zettelkasten, especially with ADHD, the key is to allow for imperfection. The goal is not to build a perfect system, but to start thinking and connecting ideas, embracing the concept that [[Your Zettelkasten is a Mirror not a Monument]].
+To overcome the inertia of starting a Zettelkasten, especially with ADHD, the key is to allow for imperfection. The goal is not to build a perfect system, but to start thinking and connecting ideas, embracing the concept that your Zettelkasten is a mirror not a monument.
 
 Here are some practical steps:
 

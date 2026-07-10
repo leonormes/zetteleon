@@ -17,4 +17,4 @@ Counting requires the ability to identify an object and distinguish it from its 
 
 Without separation, there is no quantity. This is explored in [[The Continuum Thought Experiment]].
 
-Links: [[The Nature of Number]], [[Set Theory Requires Distinct Objects]]
+Links: [[MOC - What is Maths|The Nature of Number]], [[Set Theory Requires Distinct Objects]]

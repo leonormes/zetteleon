@@ -29,7 +29,7 @@ This discomfort connects to [[Rejection Sensitive Dysphoria|Rejection Sensitive 
 
 ### Shame, Procrastination, and ADHD
 
-The conversation revealed a deep connection between shame and executive functioning challenges in ADHD. The [[ADHD Shame-Procrastination Cycle|shame-procrastination cycle]] is a well-documented pattern where:
+The conversation revealed a deep connection between shame and executive functioning challenges in ADHD. The [[SoT - ADHD Neurology & Core Concepts#2.1 The Shame-Procrastination Cycle|shame-procrastination cycle]] is a well-documented pattern where:
 
 1. Executive functioning challenges make it difficult to initiate tasks and maintain focus
 2. Shame develops from repeated experiences of not meeting expectations

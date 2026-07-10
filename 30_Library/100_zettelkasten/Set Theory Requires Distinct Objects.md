@@ -17,4 +17,4 @@ Set theory, a foundational system for mathematics, is based on the concept of a 
 
 This formalises the intuition that [[Discreteness as a Precondition for Counting]] is the starting point from which we build the entire structure of numbers.
 
-Links: [[Discreteness as a Precondition for Counting]], [[The Nature of Number]]
+Links: [[Discreteness as a Precondition for Counting]], [[MOC - What is Maths|The Nature of Number]]

@@ -29,4 +29,4 @@ While Unified Threat Management (UTM) consolidated features (AV, IPS, VPN) into 
 
 Strategic Importance:
 
-NGFWs are essential for implementing [[Zero Trust]] architectures, as they provide the granular visibility required to enforce "least privilege" access based on application context and user identity.
+NGFWs are essential for implementing [[SoT - Zero Trust Architecture|Zero Trust]] architectures, as they provide the granular visibility required to enforce "least privilege" access based on application context and user identity.

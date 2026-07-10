@@ -22,4 +22,4 @@ The question of "why am I atypical?" or "how should my brain feel about boring t
 - [[The ADHD nervous system is primarily interest-driven]], meaning it's activated by tasks that are novel, challenging, or personally interesting.
 - In contrast, [[Neurotypical motivation is primarily importance-driven]], allowing for action based on a task's perceived importance or future rewards, even without immediate interest.
 
-The struggle with boring tasks isn't a personal failing, but a predictable outcome of an interest-based nervous system interacting with a world largely designed for importance-based motivation. Other related challenges, like [[Consistency and Momentum]] and [[Perfectionism]], also stem from these neurological differences rather than character.
+The struggle with boring tasks isn't a personal failing, but a predictable outcome of an interest-based nervous system interacting with a world largely designed for importance-based motivation. Other related challenges, like [[Consistency and Momentum]] and [[SoT - Perfectionism and Analysis Paralysis|Perfectionism]], also stem from these neurological differences rather than character.

@@ -17,4 +17,4 @@ Many important numbers are not quantities for counting but are concepts represen
 - Euler's Number ($e$): Represents the concept of perfect, continuous growth. It is the base rate of change found throughout nature and finance.
 - TREE(3): A number so large it cannot be written down. Its existence is defined by a process or rule in graph theory. This demonstrates that a number's concept can exist even if its symbolic representation is impossible.
 
-Links: [[The Nature of Number]], [[Number vs Numeral]]
+Links: [[MOC - What is Maths|The Nature of Number]], [[Number vs Numeral]]

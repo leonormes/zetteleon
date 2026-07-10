@@ -16,7 +16,7 @@ Focusing on the intrinsic value of the learning process itself rather than exter
 
 For [[The ADHD nervous system is primarily interest-driven|interest-driven minds]], this approach aligns with natural motivation patterns. The [[The Aha Moment as a Dopamine Reward|dopamine release from insight]] becomes the primary reward rather than external validation or completion metrics. This prevents [[Goal Displacement]] where the means (credentials, completion) replace the ends (understanding, growth).
 
-This mindset helps counter [[Perfectionism]] and [[MOC - Shame]] cycles that arise when outcomes don't match ambitious expectations. Instead of viewing incomplete projects as failures, they become valuable learning experiences that contributed to intellectual growth and pattern recognition abilities.
+This mindset helps counter [[SoT - Perfectionism and Analysis Paralysis|Perfectionism]] and [[MOC - Shame]] cycles that arise when outcomes don't match ambitious expectations. Instead of viewing incomplete projects as failures, they become valuable learning experiences that contributed to intellectual growth and pattern recognition abilities.
 
 The process focus also supports [[Hunter vs Farmer Brain Metaphor|hunter brain]] patterns - celebrating the intense three-hour deep dive into BGP routing as a complete success rather than a failure for not leading to certification. Each exploration adds to the growing network of knowledge that enables [[Success is Connection Not Mastery|cross-domain synthesis]].
 

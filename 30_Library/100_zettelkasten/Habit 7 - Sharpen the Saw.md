@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-20T09:08:00+00:00
 last_reviewed: ''
-modified: 2026-07-04T10:51:50+00:00
+modified: 2026-07-10T12:22:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/habit-7-sharpen-the-saw
 status: ''
 tags: [effectiveness, principles, renewal, self_care, TheHuman/Habits]
@@ -18,7 +18,7 @@ This habit is the practical application of [[The P-PC Balance (Production vs Pro
 ## The Four Dimensions of Renewal
 
 1. Physical: Caring for your physical body through nutrition, exercise, and rest.
-2. Spiritual: Clarifying your core values and purpose. This can be done through meditation, studying wisdom literature, or spending time in nature. This dimension is the source of your [[12 - Core Principles and Values]].
+2. Spiritual: Clarifying your core values and purpose. This can be done through meditation, studying wisdom literature, or spending time in nature. This dimension is the source of your [[SoT - Goal Architecture (Vision and Alignment)|12 - Core Principles and Values]].
 3. Mental: Continually developing your mind through reading, learning, planning, and writing.
 4. Social/Emotional: Making consistent deposits in the Emotional Bank Accounts of others through service, empathy, and practicing Habits 4, 5, and 6.
 
@@ -26,6 +26,6 @@ This habit is the practical application of [[The P-PC Balance (Production vs Pro
 
 Sharpen the Saw is a critical [[The Time Management Matrix (Eisenhower Matrix)]] Quadrant II activity. It is important but rarely urgent, so it must be proactively scheduled.
 
-- The Unschedule: The [[11 - Time Management (Timeboxing and The Unschedule)]] method is a direct implementation of this habit, where renewal and leisure are scheduled _first_.
+- The Unschedule: The [[SoT - Temporal Management (Blocking and Boxing)|11 - Time Management (Timeboxing and The Unschedule)]] method is a direct implementation of this habit, where renewal and leisure are scheduled _first_.
 - ADHD & Energy: For an [[ADHD and Productivity]] system, this is non-negotiable. Regular renewal is essential for managing energy and maintaining focus. The use of immediate rewards after work blocks is a micro-form of sharpening the saw.
-- The Weekly Review: The [[10 - The Review and Reflection Process]] is a form of mental renewal and is the time to ensure you are scheduling renewal activities for the week ahead.
+- The Weekly Review: The [[Protocol - Weekly Command Centre|10 - The Review and Reflection Process]] is a form of mental renewal and is the time to ensure you are scheduling renewal activities for the week ahead.

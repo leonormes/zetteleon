@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-20T09:06:00+00:00
 last_reviewed: ''
-modified: 2026-07-04T10:51:50+00:00
+modified: 2026-07-10T12:22:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/habit-5-seek-first-to-understand-then-to-be-understood
 status: ''
 tags: [communication, empathy, principles, TheHuman/Habits]
@@ -23,8 +23,8 @@ The core principle is to diagnose before you prescribe. A professional would nev
 
 ## ProdOS Integration
 
-This habit is directly aligned with the [[12 - Core Principles and Values]] of "Cultivate Belonging Through Empathy." It is a practical skill for building the psychological safety necessary for effective teams.
+This habit is directly aligned with the [[SoT - Goal Architecture (Vision and Alignment)|12 - Core Principles and Values]] of "Cultivate Belonging Through Empathy." It is a practical skill for building the psychological safety necessary for effective teams.
 
-Within the [[MOC - ProdOS]], the [[07 - LLM as a Productivity Partner (CoS)]] is designed to model this behavior in its Socratic Coach mode, always seeking to clarify and understand the user's intent before providing a solution.
+Within the [[MOC - ProdOS]], the [[Protocol - Action-First GTD (LLM Chief of Staff)|07 - LLM as a Productivity Partner (CoS)]] is designed to model this behavior in its Socratic Coach mode, always seeking to clarify and understand the user's intent before providing a solution.
 
 Only after you have a deep understanding of the other person's perspective can you move to the creative cooperation of [[Habit 6 - Synergize]].

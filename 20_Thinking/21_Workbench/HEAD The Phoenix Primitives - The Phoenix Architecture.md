@@ -5,9 +5,11 @@ modified: 2026-07-04T10:52:00+00:00
 permalink: llmeon/20-thinking/21-workbench/head-the-phoenix-primitives-the-phoenix-architecture
 source: https://aicoding.leaflet.pub/3mjfruwwuck2d
 status: processing
-tags: [input]
+tags:
+  - input
 title: HEAD The Phoenix Primitives - The Phoenix Architecture
 type: head
+project_name: Hermes Optimisastion
 ---
 
 ## Raw Output / Content

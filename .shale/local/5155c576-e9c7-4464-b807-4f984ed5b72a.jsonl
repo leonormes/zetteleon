@@ -35,3 +35,53 @@
 {"kind":"completion","at":"2026-06-30T15:47:25.610526Z","note":"Created SSOT version of Dotfiles Audit Report, deduplicating the 4 merged versions."}
 {"kind":"intent","at":"2026-07-07T15:10:37.982924Z","title":"Retry previous session - looking for FTFL-696","body":"Checking for FTFL-696 locally and via Pieces, but MCP tools are unavailable."}
 {"kind":"completion","at":"2026-07-07T15:11:34.61359Z","note":"Cross-referenced FTFL-696 with the broader OMOP data generation requirements without using MCP tools since the ticket was found locally."}
+{"kind":"intent","at":"2026-07-10T10:11:52.304931Z","title":"Deep Refresh of Applying Previous Knowledge.md","body":"Fixing broken links and adding semantic connections as per prompt"}
+{"kind":"completion","at":"2026-07-10T10:12:14.56739Z","note":"Fixed 4 broken links and added 3 semantic links with annotations in Applying Previous Knowledge.md"}
+{"kind":"intent","at":"2026-07-10T10:15:21.410831Z","title":"Semantic expansion of Zen Practice Centers on Accepting Impermanence","body":"Adding links to Wabi-Sabi, Four Noble Truths, and Letting Go of Fixed Views in See Also section"}
+{"kind":"completion","at":"2026-07-10T10:15:40.520176Z","note":"Audited and added 4 semantic links to Zen Practice Centers on Accepting Impermanence.md"}
+{"kind":"intent","at":"2026-07-10T10:18:04.511742Z","title":"Semantic expansion of Zen Defines Enlightenment as a Process Not a Destination","body":"Adding links to Zen Activity, MOC Chasing Enlightenment, and Zen Practice in See Also section"}
+{"kind":"completion","at":"2026-07-10T10:18:22.005882Z","note":"Audited and added 3 semantic links to Zen Defines Enlightenment as a Process Not a Destination.md"}
+{"kind":"intent","at":"2026-07-10T10:23:44.864231Z","title":"Deep Refresh of Bessie's Working Memory note","body":"Fixing broken links using SoTs/MOCs and adding See Also section"}
+{"kind":"completion","at":"2026-07-10T10:24:09.843497Z","note":"Audited and fixed 6 broken links in Bessie's Working Memory note"}
+{"kind":"intent","at":"2026-07-10T10:27:57.421886Z","title":"Deep Refresh of Limited Capacity Brain note","body":"Fixing broken links and adding semantic connections"}
+{"kind":"completion","at":"2026-07-10T10:28:12.778578Z","note":"Audited and fixed 2 broken links in Limited Capacity Brain note"}
+{"kind":"intent","at":"2026-07-10T10:58:33.565357Z","title":"Deep Refresh of External Structure and ADHD note","body":"Fixing broken links using MCP semantic search and adding See Also section"}
+{"kind":"completion","at":"2026-07-10T10:58:46.570971Z","note":"Audited and fixed 2 broken links in External Structure and ADHD note using Obsidian MCP search"}
+{"kind":"intent","at":"2026-07-10T11:08:03.790557Z","title":"Deep Refresh of The Concept of a Character Ideal","body":"Resolving broken links for VIA Character Strengths via MCP search and appending semantic links."}
+{"kind":"completion","at":"2026-07-10T11:08:16.864025Z","note":"Audited and fixed broken links in The Concept of a Character Ideal using Obsidian MCP search"}
+{"kind":"intent","at":"2026-07-10T11:10:18.685153Z","title":"Deep Refresh of Information Addiction in Overthinkers","body":"Resolving broken phantom links for Type 1 and Type 2 Information to match their more precise proposed titles."}
+{"kind":"completion","at":"2026-07-10T11:10:34.466726Z","note":"Audited and resolved Type 1 and Type 2 Information phantom links in Information Addiction in Overthinkers"}
+{"kind":"intent","at":"2026-07-10T11:12:51.461467Z","title":"Deep Refresh of all five core VIA Virtue notes","body":"Resolving broken links for VIA Character Strengths via MCP search and appending semantic links to the central MOC."}
+{"kind":"completion","at":"2026-07-10T11:13:19.604409Z","note":"Audited and resolved VIA Character Strengths links in the five remaining core VIA Virtue notes"}
+{"kind":"intent","at":"2026-07-10T11:16:23.163078Z","title":"Deep Refresh of 3 notes to resolve broken Extended Mind Thesis links","body":"Updating Blub Studies, The Processing Is the Hard Part, and Writing in Iterative Refinement to point to the canonical SoT - The Extended Mind."}
+{"kind":"completion","at":"2026-07-10T11:16:39.731683Z","note":"Resolved The Extended Mind Thesis broken links by mapping them to the canonical SoT - The Extended Mind note"}
+{"kind":"intent","at":"2026-07-10T11:19:51.527937Z","title":"Deep Refresh of Executive Function Challenges are Central to ADHD","body":"Resolving 4 broken links to their true counterparts (Reframing ADHD, Master Map, Working Memory, IBNS)"}
+{"kind":"completion","at":"2026-07-10T11:20:03.942931Z","note":"Audited and resolved four broken links in Executive Function Challenges are Central to ADHD by remapping them to their correct canonical notes."}
+{"kind":"intent","at":"2026-07-10T11:21:59.738836Z","title":"Deep Refresh of Habit and Phase Zettelkasten notes","body":"Resolving legacy numbering links (02, 04, 05, 07, 09, 10, 11, 12) to their canonical system and SoT notes."}
+{"kind":"completion","at":"2026-07-10T11:22:46.781291Z","note":"Resolved legacy numbered phantom links (02-12) across 8 Habit and Phase system notes, mapping them to the new ProdOS canonical SoT frameworks (e.g. LLM GTD Context, Weekly Command Centre)."}
+{"kind":"intent","at":"2026-07-10T11:51:26.994483Z","title":"Deep Refresh of Shame-Procrastination Cycle references","body":"Resolving the phantom link 'The Shame-Procrastination Cycle' (and its variations) across 8 notes to the canonical section in 'SoT - ADHD Neurology \u0026 Core Concepts'."}
+{"kind":"completion","at":"2026-07-10T11:52:14.478411Z","note":"Resolved the phantom link 'The Shame-Procrastination Cycle' (and its variations) across 9 notes to point to the canonical section in 'SoT - ADHD Neurology \u0026 Core Concepts'."}
+{"kind":"intent","at":"2026-07-10T12:18:47.93079Z","title":"Deep Refresh of Overthinking Loop references","body":"Resolving the phantom link 'The Overthinking Loop Creates Mental Noise Not Clarity' to the canonical 'MOC - Breaking the ADHD Overthinking-Procrastination Cycle' note."}
+{"kind":"intent","at":"2026-07-10T12:19:28.463861Z","title":"Deep Refresh of Nature of Number references","body":"Resolving the phantom link 'The Nature of Number' to the canonical 'MOC - What is Maths' note."}
+{"kind":"completion","at":"2026-07-10T12:19:57.783247Z","note":"Resolved 'The Nature of Number' and 'The Overthinking Loop Creates Mental Noise Not Clarity' to their respective canonical MoC notes"}
+{"kind":"intent","at":"2026-07-10T12:20:42.480777Z","title":"Deep Refresh of Type 2 Information references","body":"Resolving the phantom links 'Type 2 Information is Experiential' and 'Type 2 Information is Experiential and Feared by Overthinkers' to the canonical note 'Knowledge Emerges Through Application and Experience'."}
+{"kind":"completion","at":"2026-07-10T12:21:02.537905Z","note":"Resolved 'Type 2 Information is Experiential' and 'Type 2 Information is Experiential and Feared by Overthinkers' to 'Knowledge Emerges Through Application and Experience.md'"}
+{"kind":"intent","at":"2026-07-10T12:26:52.564555Z","title":"Resolve 'cicd-tooling-validated' phantom links","body":"Replace [[cicd-tooling-validated]] with [[SOT - CI-CD Pipelines]] in project notes, and remove dead entries from index.md."}
+{"kind":"completion","at":"2026-07-10T12:27:25.05113Z","note":"Resolved all cicd-tooling-validated phantom links to point to the canonical SOT - CI-CD Pipelines note"}
+{"kind":"intent","at":"2026-07-10T12:27:50.870115Z","title":"Resolve 'Perfectionism' phantom links","body":"Replace [[Perfectionism]] with [[SoT - Perfectionism and Analysis Paralysis|Perfectionism]] in 5 zettelkasten notes."}
+{"kind":"completion","at":"2026-07-10T12:28:14.025094Z","note":"Resolved Perfectionism phantom links by redirecting to SoT - Perfectionism and Analysis Paralysis"}
+{"kind":"intent","at":"2026-07-10T12:43:50.6974Z","title":"Resolve 'Type 1 Information' phantom links","body":"Map Type 1 Information phantom links to Information Addiction in Overthinkers.md"}
+{"kind":"completion","at":"2026-07-10T12:44:08.561912Z","note":"Resolved 'Type 1 Information' phantom links by mapping them to Information Addiction in Overthinkers.md"}
+{"kind":"intent","at":"2026-07-10T13:04:57.765117Z","title":"Resolve 'Emergence' phantom links","body":"Map Emergence phantom links to SoT - Emergence.md"}
+{"kind":"completion","at":"2026-07-10T13:05:11.735284Z","note":"Resolved Emergence phantom links by mapping them to SoT - Emergence.md"}
+{"kind":"intent","at":"2026-07-10T13:05:23.894593Z","title":"Resolve 'raw_data' phantom links","body":"Map raw_data phantom links to What is information.md or another canonical note"}
+{"kind":"intent","at":"2026-07-10T13:17:48.000863Z","title":"Resolve 2025-05-26 phantom links","body":"Map 2025-05-26 phantom links to their correct path 01_journals/Dailies/2025-05-26"}
+{"kind":"completion","at":"2026-07-10T13:18:10.050583Z","note":"Resolved 2025-05-26 phantom links by mapping them to 01_journals/Dailies/2025-05-26"}
+{"kind":"intent","at":"2026-07-10T13:22:56.654977Z","title":"Resolve 'Your Zettelkasten is a Mirror not a Monument' phantom links","body":"Unlink occurrences of 'Your Zettelkasten is a Mirror not a Monument'"}
+{"kind":"completion","at":"2026-07-10T13:23:10.949815Z","note":"Unlinked 'Your Zettelkasten is a Mirror not a Monument' phantom links since no canonical note exists for it."}
+{"kind":"intent","at":"2026-07-10T13:23:35.159463Z","title":"Resolve 'raw_data' phantom links","body":"Unlink occurrences of 'raw_data'"}
+{"kind":"completion","at":"2026-07-10T13:23:48.632918Z","note":"Unlinked 'raw_data' phantom links since 'What is information' handles the definition of data"}
+{"kind":"intent","at":"2026-07-10T13:25:31.78819Z","title":"Resolve 'Zero Trust' phantom links","body":"Map [[Zero Trust]] to [[SoT - Zero Trust Architecture|Zero Trust]]"}
+{"kind":"completion","at":"2026-07-10T13:25:45.120857Z","note":"Mapped 'Zero Trust' phantom links to 'SoT - Zero Trust Architecture.md'"}
+{"kind":"intent","at":"2026-07-10T13:26:41.005045Z","title":"Resolve 'Phase 1 - The Perceptual Shift to Neutralise Perfectionism' phantom links","body":"Unlink occurrences of 'Phase 1 - The Perceptual Shift to Neutralise Perfectionism'"}
+{"kind":"completion","at":"2026-07-10T13:31:11.520583Z","note":"Unlinked 'Phase 1 - The Perceptual Shift to Neutralise Perfectionism' phantom links"}

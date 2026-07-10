@@ -33,7 +33,7 @@ This insight reveals why traditional habit-building advice fails for ADHD brains
 
 ## The Broader Pattern
 
-These triggers are part of [[SoT - The Shame-Procrastination Cycle]], where:
+These triggers are part of [[SoT - ADHD Neurology & Core Concepts#2.1 The Shame-Procrastination Cycle|The Shame-Procrastination Cycle]], where:
 
 1. Tasks feel overwhelming due to lack of reward anticipation
 2. Avoidance increases as the mental effort required exceeds available energy

@@ -1,7 +1,7 @@
 ---
 aliases: [ADHD as an EF Deficit, Core ADHD Impairments, EF Dysfunction in ADHD]
 created: 2026-02-11T16:55:00+00:00
-modified: 2026-07-04T10:51:51+00:00
+modified: 2026-07-10T12:19:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/executive-function-challenges-are-central-to-adhd
 status: seedling
 tags: [ADHD, cognition, executive-function, neurology, self-regulation]
@@ -45,7 +45,7 @@ These challenges are rooted in the brain's physical architecture and chemistry:
 
 - [[SoT - Prosthetic Executive Function]] (The "Prosthetic" solution)
 - [[SoT - ADHD Neurology & Core Concepts]] (The core diagnosis)
-- [[SoT - ADHD and Motivation]] (The fuel problem)
-- [[Working Memory Limitations in ADHD]] (The memory bottleneck)
-- [[ADHD is a Neurodevelopmental Disorder Not a Character Flaw]] (Reframing)
-- [[MOC - ADHD Management]] (Strategies for thriving)
+- [[The Interest-Based Nervous System in ADHD|SoT - ADHD and Motivation]] (The fuel problem)
+- [[SoT - Working Memory & Schema Theory|Working Memory Limitations in ADHD]] (The memory bottleneck)
+- [[Reframing ADHD - From Deficit to Difference|ADHD is a Neurodevelopmental Disorder Not a Character Flaw]] (Reframing)
+- [[MOC - ADHD (The Master Map)|MOC - ADHD Management]] (Strategies for thriving)

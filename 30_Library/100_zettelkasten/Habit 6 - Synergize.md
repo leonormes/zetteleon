@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-20T09:07:00+00:00
 last_reviewed: ''
-modified: 2026-07-04T10:51:50+00:00
+modified: 2026-07-10T12:22:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/habit-6-synergize
 status: ''
 tags: [cooperation, principles, TheHuman/Creativity, TheHuman/Habits]
@@ -23,6 +23,6 @@ When you synergize, you are not just compromising (where 1 + 1 = 1.5). You are e
 
 Within the [[MOC - ProdOS]], synergy is encouraged during the creative phases of planning.
 
-- The [[10 - The Review and Reflection Process]], specifically during the "Get Creative" phase of the Weekly Review, is a prime opportunity to look for synergistic opportunities. For example, combining a goal from a `Parent` role with a goal from a `Sharpen the Saw` role (like going for a bike ride with a child) creates a synergistic outcome.
+- The [[Protocol - Weekly Command Centre|10 - The Review and Reflection Process]], specifically during the "Get Creative" phase of the Weekly Review, is a prime opportunity to look for synergistic opportunities. For example, combining a goal from a `Parent` role with a goal from a `Sharpen the Saw` role (like going for a bike ride with a child) creates a synergistic outcome.
 
 Synergy is the habit that makes the Public Victory possible, but to sustain it, one must practice continuous renewal, which is the focus of [[Habit 7 - Sharpen the Saw]].

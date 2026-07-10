@@ -15,7 +15,7 @@ This protocol is a high-velocity framework for getting work done by systematical
 
 The protocol consists of three sequential phases:
 
-1. [[Phase 1 - The Perceptual Shift to Neutralise Perfectionism]]: A series of mindset shifts to emotionally detach from the work and remove the pressure of finality.
+1. Phase 1 - The Perceptual Shift to Neutralise Perfectionism: A series of mindset shifts to emotionally detach from the work and remove the pressure of finality.
 2. [[Phase 2 - Aggressive Initiation to Overcome Paralysis]]: A set of tactics to start work immediately and build momentum, bypassing the resistance that leads to procrastination.
 3. [[Phase 3 - Compartmentalized Focus to Beat Distraction]]: A disciplined approach to execution that involves isolating high-value tasks and single-tasking to completion.
 

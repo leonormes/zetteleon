@@ -3,7 +3,7 @@ aliases: []
 created: 2025-02-07T12:57:55+00:00
 ID: 2a2a1
 last_reviewed: 'null'
-modified: 2026-07-04T10:51:44+00:00
+modified: 2026-07-10T12:16:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/the-processing-is-the-hard-part
 status: 'null'
 tags: [topic/pkm/zettelkasten]
@@ -28,7 +28,7 @@ Because it is so challenging to describe a feeling and I want it to be so accura
 
 The words never match my understanding, which is why [[Paraphrasing is a Complex Cognitive Skill|paraphrasing is such a complex cognitive skill]].
 
-[[30_Library/100_zettelkasten/The Extended Mind Thesis]]
+[[SoT - The Extended Mind|The Extended Mind Thesis]]
 
 [[Cognitive Engagement Activates Zettelkasten]]
 

@@ -24,7 +24,7 @@ A fundamental insight across multiple domains: symbols, representations, and mod
 
 ### Numbers Vs Numerals
 
-- [[The Nature of Number]] - Numbers are abstract concepts, not the symbols used to write them
+- [[MOC - What is Maths|The Nature of Number]] - Numbers are abstract concepts, not the symbols used to write them
 - [[Number As Symbol is a Flawed Initial Mental Model]] - How conflating numbers with symbols breaks down with irrational numbers, infinity, and continuity
 - [[Number vs Numeral]] - The distinction between the concept and its representation
 

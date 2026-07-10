@@ -11,6 +11,6 @@ type: ''
 updated: null
 ---
 
-"Shrinking the loop" is a method to overcome the [[The Overthinking Loop Creates Mental Noise Not Clarity|Overthinking Loop]] by taking small, manageable, and safe actions. This approach allows for the gathering of real-world feedback ([[Type 2 Information is Experiential and Feared by Overthinkers|Experiential Information Fear]]) without triggering overwhelming fear.
+"Shrinking the loop" is a method to overcome the [[MOC - Breaking the ADHD Overthinking-Procrastination Cycle|Overthinking Loop]] by taking small, manageable, and safe actions. This approach allows for the gathering of real-world feedback ([[Knowledge Emerges Through Application and Experience|Experiential Information Fear]]) without triggering overwhelming fear.
 
 This process builds confidence and enables gradual forward movement through the [[The Action-Reaction-Ping-Adjust Cycle Drives Real Progress]].

@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-20T09:05:00+00:00
 last_reviewed: ''
-modified: 2026-07-04T10:51:50+00:00
+modified: 2026-07-10T12:22:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/habit-4-think-win-win
 status: ''
 tags: [collaboration, leadership, principles, TheHuman/Habits]
@@ -26,7 +26,7 @@ This habit is built upon the Abundance Mentality—the paradigm that there is pl
 
 ## ProdOS Integration
 
-In the context of [[MOC - ProdOS]], this habit is crucial for managing the [[05 - Horizons of Focus]] Horizon 2: Areas of Focus and Accountability, especially in roles that involve other people (e.g., manager, spouse, team member).
+In the context of [[MOC - ProdOS]], this habit is crucial for managing the [[LLM GTD Context|05 - Horizons of Focus]] Horizon 2: Areas of Focus and Accountability, especially in roles that involve other people (e.g., manager, spouse, team member).
 
 Effective delegation is achieved through Stewardship Agreements, which are a formal embodiment of the Win-Win principle. They clarify expectations in five areas: Desired Results, Guidelines, Resources, Accountability, and Consequences.
 

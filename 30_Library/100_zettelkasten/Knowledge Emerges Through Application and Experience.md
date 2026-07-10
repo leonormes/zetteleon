@@ -15,4 +15,4 @@ updated: null
 
 Summary: Knowledge is formed when a person can apply information in practical situations to solve problems, make decisions, or gain new insights.
 
-Details: The act of using information in real-world contexts develops a more nuanced and actionable understanding than purely theoretical learning. Experience transforms abstract data into practical wisdom. This aligns with the concept of [[Type 2 Information is Experiential]].
+Details: The act of using information in real-world contexts develops a more nuanced and actionable understanding than purely theoretical learning. Experience transforms abstract data into practical wisdom. This aligns with the concept of **Type 2 Information (Experiential)**.

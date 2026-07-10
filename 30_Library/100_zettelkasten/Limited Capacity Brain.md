@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-02-07T12:57:55+00:00
 last_reviewed: 'null'
-modified: 2026-07-04T10:51:49+00:00
+modified: 2026-07-10T11:28:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/limited-capacity-brain
 status: 'null'
 tags: [ext-mind, topic/pkm]
@@ -21,6 +21,11 @@ The brain is also limited in its ability to pay attention, with a "window of con
 
 ## Related Concepts
 
-[[Memory in learning]]—`elaborates-on`—Detailed explanation of WM capacity and components
+[[SoT - Learning Mechanisms|Memory in learning]]—`elaborates-on`—Detailed explanation of WM capacity and components
 
-[[Working Memory Limitations in ADHD]]—`specific-case`—How WM limitations manifest in ADHD
+[[SoT - Working Memory & Schema Theory|Working Memory Limitations in ADHD]]—`specific-case`—How WM limitations manifest in ADHD
+
+## See Also
+
+- [[SoT - Illusion of Explanatory Depth (IoED)]] - _Explains the brain's tendency to jump to conclusions and construct convincing, albeit inaccurate, narratives to fill gaps in limited memory._
+- [[SoT - Prosthetic Executive Function]] - _Discusses strategies for cognitive offloading to compensate for the brain's inherent recall limitations._

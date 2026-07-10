@@ -33,7 +33,7 @@ Summer engineering project to validate stability and resilience of distributed K
 
 ## Connections
 
-- [[cicd-tooling-validated]] — sister project from same planning session
+- [[SOT - CI-CD Pipelines|CI/CD Pipelines]] — sister project from same planning session
 - [[Azure Entra ID IAM → IaC + PIM Migration]] — sister project from same planning session
 - [[12 Million Patient Synthetic NHS-OMOP Pipeline]] — related OMOP data pipeline project
 

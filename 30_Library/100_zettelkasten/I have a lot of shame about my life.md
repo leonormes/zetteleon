@@ -24,7 +24,7 @@ I think my [[MOC - Shame|obsession]] with [[Creating a GTD Map in Excalidraw|GTD
 
 ## Links
 
-- `example-of::` [[The Shame-Procrastination Cycle]]
+- `example-of::` [[SoT - ADHD Neurology & Core Concepts#2.1 The Shame-Procrastination Cycle|The Shame-Procrastination Cycle]]
 - `relates-to::` [[System Tweaking as a Form of Procrastination in ADHD]]
 - `relates-to::` [[Tool tinkering is a form of productive procrastination]]
 - `relates-to::` [[Productive Procrastination as an Avoidance Strategy]]

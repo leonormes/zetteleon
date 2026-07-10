@@ -47,7 +47,7 @@ For the ADHD brain, the Negativity Bias is not just a background hum; it is a si
 
 When the ADHD brain is under-stimulated, it defaults to the Default Mode Network (DMN). Because of the Negativity Bias, the DMN naturally drifts toward rumination and "Simulating Disaster."
 
-- _Result:_ We create [[The Shame-Procrastination Cycle]]—avoiding work to avoid the negative feelings we have simulated.
+- _Result:_ We create [[SoT - ADHD Neurology & Core Concepts#2.1 The Shame-Procrastination Cycle|The Shame-Procrastination Cycle]]—avoiding work to avoid the negative feelings we have simulated.
 
 ### C. Emotional Reasoning
 

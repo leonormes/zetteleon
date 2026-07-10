@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "obsidian-filesystem": {
+      "command": "/Users/leon.ormes/.local/bin/npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/Volumes/DAL/Zettelkasten/LLMeon"
+      ],
+      "env": {}
+    }
+  }
+}

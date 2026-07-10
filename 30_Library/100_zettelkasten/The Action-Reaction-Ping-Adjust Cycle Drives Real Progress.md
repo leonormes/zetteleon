@@ -11,7 +11,7 @@ type: 'null'
 updated: null
 ---
 
-This is the systematic process for breaking the [[The Overthinking Loop Creates Mental Noise Not Clarity]]:
+This is the systematic process for breaking the [[MOC - Breaking the ADHD Overthinking-Procrastination Cycle|The Overthinking Loop Creates Mental Noise Not Clarity]]:
 
 1. Action: Take a small, manageable action ([[Shrinking the Loop Gathers Experiential Feedback Safely]]).
 2. Reaction: Experience the resulting sensation or feedback.

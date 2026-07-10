@@ -13,4 +13,4 @@ updated: null
 
 For many, the external world serves as a sounding board to test the validity of their thoughts and perceptions. When others agree with us, it can reinforce our sense of reality and make our thoughts feel more tangible and "real." If your internal world is vast and detailed but rarely interfaces with external perspectives, it might lack this grounding.
 
-[[2025-05-26]]
+[[01_journals/Dailies/2025-05-26|2025-05-26]]

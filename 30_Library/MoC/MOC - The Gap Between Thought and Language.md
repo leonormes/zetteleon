@@ -24,7 +24,7 @@ updated: 2026-04-05
 
 Before the gap manifests, we must understand the raw materials of thought:
 
-- [[raw_data]] - The basic building blocks.
+- Data - The basic building blocks.
 - [[Information as Foundation of Knowledge]] - How data transforms into a mental model.
 - [[Information in Everyday Language]] - How information theory maps to common speech.
 - [[Knowledge Enables Power]] - The utility of processed information.

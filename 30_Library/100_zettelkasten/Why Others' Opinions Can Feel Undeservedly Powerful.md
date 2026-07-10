@@ -11,7 +11,7 @@ type: ''
 updated: null
 ---
 
-[[2025-05-26]]
+[[01_journals/Dailies/2025-05-26|2025-05-26]]
 
 ## The "Negativity Bias"
 

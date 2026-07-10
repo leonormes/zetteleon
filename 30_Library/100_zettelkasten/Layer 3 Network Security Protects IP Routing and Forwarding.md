@@ -26,7 +26,7 @@ Core Mechanisms:
 Key Protection Areas:
 
 - IP Spoofing: Blocking packets with invalid or forged source addresses.
-- Boundary Defense: Establishing the "Trusted" vs. "Untrusted" perimeter (though modern systems are shifting toward [[Zero Trust]]).
+- Boundary Defense: Establishing the "Trusted" vs. "Untrusted" perimeter (though modern systems are shifting toward [[SoT - Zero Trust Architecture|Zero Trust]]).
 - DoS Mitigation: Filtering volumetric traffic at the ingress point.
 
 Comparison to Layer 2 security:

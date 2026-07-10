@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-20T09:03:00+00:00
 last_reviewed: ''
-modified: 2026-07-04T10:51:50+00:00
+modified: 2026-07-10T12:22:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/habit-3-put-first-things-first
 status: ''
 tags: [execution, management, principles, TheHuman/Habits]
@@ -21,8 +21,8 @@ Effective people stay out of Quadrants III and IV and spend most of their time i
 
 This habit is the engine of the [[MOC - ProdOS]]. The entire system is designed to facilitate Quadrant II living.
 
-- The Weekly Review: The [[10 - The Review and Reflection Process]] is the essential Quadrant II activity that allows you to plan the week ahead, ensuring you are scheduling your priorities.
-- Timeboxing & The Unschedule: The techniques described in [[11 - Time Management (Timeboxing and The Unschedule)]] are direct implementations of Habit 3. You schedule the "big rocks" (important goals) first.
-- Engaging Actions: The Four-Criteria Model (Context, Time, Energy, Priority) used to choose what to do, as described in [[04 - Atomic Actions and Next Actions]], is the moment-to-moment practice of putting first things first.
+- The Weekly Review: The [[Protocol - Weekly Command Centre|10 - The Review and Reflection Process]] is the essential Quadrant II activity that allows you to plan the week ahead, ensuring you are scheduling your priorities.
+- Timeboxing & The Unschedule: The techniques described in [[SoT - Temporal Management (Blocking and Boxing)|11 - Time Management (Timeboxing and The Unschedule)]] are direct implementations of Habit 3. You schedule the "big rocks" (important goals) first.
+- Engaging Actions: The Four-Criteria Model (Context, Time, Energy, Priority) used to choose what to do, as described in [[Protocol - Action-First GTD (LLM Chief of Staff)|04 - Atomic Actions and Next Actions]], is the moment-to-moment practice of putting first things first.
 
 This habit is the bridge between your vision and your daily actions, leading towards the Public Victory, which begins with [[Habit 4 - Think Win-Win]].

@@ -37,7 +37,7 @@ FITFILE deploys infrastructure and applications using ArgoCD, Helm charts via th
 ## Connections
 
 - [[wiki/projects/ffnode Helm Chart Review]] — Detailed review of the FFNode umbrella chart structure, dependencies, and CI pipelines
-- [[cicd-tooling-validated]] — Incremental optimisation of the GitOps pipeline measured via Four Key Metrics
+- [[SOT - CI-CD Pipelines|CI/CD Pipelines]] — Incremental optimisation of the GitOps pipeline measured via Four Key Metrics
 - [[wiki/projects/Grafana Alloy Monitoring — FTFL-638]] — Monitoring stack deployed via the FFNode chart and ArgoCD pipeline
 - [[wiki/projects/Helm Chart Structured Metadata — Grafana Cloud Log Enrichment]] — Structured metadata experiment deploying through the ffnode chart
 - [[GitLab CI integration]] — CD philosophy decision process providing governance framework for pipeline remediation

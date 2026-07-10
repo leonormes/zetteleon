@@ -74,7 +74,7 @@ _Focus: Managing the "Storms" and Rejection Sensitivity._
 - [[Rejection Sensitive Dysphoria (RSD)]]
 - [[Defensive Hypervigilance]]
 
-> The Shame-Procrastination Cycle is not yet a standalone SoT note.
+> The Shame-Procrastination Cycle is covered in [[SoT - ADHD Neurology & Core Concepts#2.1 The Shame-Procrastination Cycle|SoT - ADHD Neurology & Core Concepts]].
 
 ### Focus & Executive Function
 
@@ -122,7 +122,7 @@ _Verifiable actions to maintain the system._
 - `SoT - Hanging Mechanics and Progressions`—dead hangs, scapular pull-ups, progressions
 - `Morning HIIT Boosts BDNF and Neuroplasticity`—exercise-induced neuroplasticity mechanism
 - `Optimal Memory Function Requires Sleep, Stress Management and Mental Exercise`—sleep/memory consolidation
-- `SoT - The Shame-Procrastination Cycle`—shame → freeze → avoidance loop
+- [[SoT - ADHD Neurology & Core Concepts#2.1 The Shame-Procrastination Cycle|The Shame-Procrastination Cycle]]—shame → freeze → avoidance loop
 - `SoT - Dopamine Menu`—curated list of healthy dopamine sources
 - `Reduced Dopamine D2/D3 Receptors Impair Motivation in ADHD`—receptor density mechanism
 - `Low-Carb Raw Breakfast Supports Mental Clarity`—breakfast protocol for focus

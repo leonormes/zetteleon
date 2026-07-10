@@ -2,7 +2,7 @@
 aliases: [Character Ideal, Virtue Ethics]
 created: 2025-07-16T17:30:02+00:00
 last_reviewed: 'null'
-modified: 2026-07-04T10:51:45+00:00
+modified: 2026-07-10T12:08:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/the-concept-of-a-character-ideal
 status: 'null'
 tags: [character, ethics, topic/philosophy, virtue]
@@ -15,6 +15,11 @@ The notion of a "character ideal" is a cornerstone of virtue ethics, a philosoph
 
 For Aristotle, the ideal character was found in the "golden mean"–the desirable middle ground between two extremes (defects). For example, [[VIA Virtue of Courage|Courage]] is the mean between the defect of cowardice and the excess of recklessness.
 
-In a more modern context, this concept is explored through psychological frameworks like the [[VIA Character Strengths]].
+In a more modern context, this concept is explored through psychological frameworks like the [[MOC - Character and Virtue|VIA Character Strengths]].
 
 The character ideal is not a rigid standard for perfect conformity, but a guide for personal growth. The act of acknowledging a need for support is itself a sign of virtues like humility and courage.
+
+## See Also
+
+- [[MOC - Character and Virtue]] - _The comprehensive map organizing all notes related to the VIA framework._
+- [[VIA Virtue of Courage]] - _An example of an Aristotelian golden mean applied within the VIA framework._

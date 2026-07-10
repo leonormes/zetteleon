@@ -13,9 +13,9 @@ updated: null
 
 The ADHD brain can struggle with processing multiple tasks, managing emotions, and filtering sensory input. A system like Zettelkasten, with its perceived rules, linking requirements, and the sheer volume of potential notes, can trigger cognitive overwhelm (too many thoughts/options), task overwhelm (too many steps), and logistic overwhelm (too many decisions about organization). This feeling of being overloaded can lead to frustration, anxiety, and ultimately, shutdown or avoidance. Trying to fit everything into the system or over-collecting information without clear processing pathways exacerbates this.
 
-[[Perfectionism]]
+[[SoT - Perfectionism and Analysis Paralysis|Perfectionism]]
 
-[[The Shame-Procrastination Cycle]]
+[[SoT - ADHD Neurology & Core Concepts#2.1 The Shame-Procrastination Cycle|The Shame-Procrastination Cycle]]
 
 [[I have only recently started to come to terms emotionally with ADHD]]
 

@@ -44,7 +44,7 @@ Investigation into automating ArgoCD deployment on a private Kubernetes cluster 
 
 ## Connections
 
-- [[cicd-tooling-validated]] — related GitOps/ArgoCD pipeline work
+- [[SOT - CI-CD Pipelines|CI/CD Pipelines]] — related GitOps/ArgoCD pipeline work
 - [[Azure-AKS]] — AKS cluster deployments
 - [[Terraform IaC Modules]] — Terraform infrastructure provisioning
 

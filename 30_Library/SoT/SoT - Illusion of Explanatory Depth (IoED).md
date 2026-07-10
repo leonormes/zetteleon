@@ -3,7 +3,7 @@ aliases: ["Collector's Fallacy", Causal Opacity, Consumption Trap, Heuristic Sub
 created: 2025-12-12T00:00:00+00:00
 last_reviewed: '2025-12-15'
 last_synthesis: 2026-04-08
-modified: 2026-07-04T10:50:57+00:00
+modified: 2026-07-10T11:17:47+00:00
 permalink: llmeon/30-library/so-t/so-t-illusion-of-explanatory-depth-io-ed
 status: stable
 synthesis_count: 3

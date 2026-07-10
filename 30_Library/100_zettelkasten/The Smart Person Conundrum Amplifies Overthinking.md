@@ -11,6 +11,6 @@ type: 'null'
 updated: null
 ---
 
-Highly intelligent individuals can perceive a greater number of potential risks and negative outcomes for any given action. This heightened risk perception leads to increased hesitation and a stronger tendency to avoid real-world experiences ([[Type 2 Information is Experiential and Feared by Overthinkers]]).
+Highly intelligent individuals can perceive a greater number of potential risks and negative outcomes for any given action. This heightened risk perception leads to increased hesitation and a stronger tendency to avoid real-world experiences ([[Knowledge Emerges Through Application and Experience|Type 2 Information (Experiential)]]).
 
-This amplifies the [[The Overthinking Loop Creates Mental Noise Not Clarity]], as intelligence is used to generate more reasons for inaction rather than to find a path forward.
+This amplifies the [[MOC - Breaking the ADHD Overthinking-Procrastination Cycle|The Overthinking Loop Creates Mental Noise Not Clarity]], as intelligence is used to generate more reasons for inaction rather than to find a path forward.

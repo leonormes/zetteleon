@@ -2,7 +2,7 @@
 aliases: [Virtue of Transcendence]
 created: 2025-07-16T17:30:02+00:00
 last_reviewed: ''
-modified: 2026-07-04T10:51:44+00:00
+modified: 2026-07-10T12:12:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/via-virtue-of-transcendence
 status: ''
 tags: [character, transcendence, via-strengths, virtue]
@@ -11,7 +11,7 @@ type: ''
 updated: null
 ---
 
-The virtue of Transcendence, as defined by the [[VIA Character Strengths]] framework, involves strengths that forge connections to the larger universe and provide meaning to life.
+The virtue of Transcendence, as defined by the [[MOC - Character and Virtue|VIA Character Strengths]] framework, involves strengths that forge connections to the larger universe and provide meaning to life.
 
 ## Strengths of Transcendence
 
@@ -20,3 +20,7 @@ The virtue of Transcendence, as defined by the [[VIA Character Strengths]] frame
 - Hope (Optimism): Expecting the best in the future and working to achieve it.
 - Humor (Playfulness): Liking to laugh and tease; bringing smiles to other people; seeing the light side of life.
 - Spirituality (Faith, Purpose): Having coherent beliefs about the higher purpose and meaning of the universe and one's place within it.
+
+## See Also
+
+- [[MOC - Character and Virtue]] - _The comprehensive map organizing all notes related to the VIA framework._

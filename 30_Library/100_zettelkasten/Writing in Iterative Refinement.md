@@ -3,7 +3,7 @@ aliases: []
 created: 2025-02-07T12:57:53+00:00
 ID: 9e
 last_reviewed: 'null'
-modified: 2026-07-04T10:51:43+00:00
+modified: 2026-07-10T12:16:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/writing-in-iterative-refinement
 status: 'null'
 tags: [topic/pkm/zettelkasten, topic/writing]
@@ -16,6 +16,6 @@ updated: null
 - We can experiment with different phrasings and organizations
 - Each revision cycle improves not just the writing but our underlying understanding
 
-[[30_Library/100_zettelkasten/The Extended Mind Thesis]]
+[[SoT - The Extended Mind|The Extended Mind Thesis]]
 
 [[Educating Your Zettelkasten]]

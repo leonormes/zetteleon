@@ -12,13 +12,13 @@ type: ''
 updated: null
 ---
 
-Overthinkers often fear and actively avoid [[Type 2 Information is Experiential|experiential information]] because it involves risk, uncertainty, and potential emotional discomfort. This avoidance keeps them trapped in the theoretical safety of [[Type 1 Information is Theoretical|passive information consumption]].
+Overthinkers often fear and actively avoid [[Knowledge Emerges Through Application and Experience|experiential information]] because it involves risk, uncertainty, and potential emotional discomfort. This avoidance keeps them trapped in the theoretical safety of [[Information Addiction in Overthinkers|passive information consumption]].
 
 The avoidance stems from several psychological factors:
 
 - Fear of failure or negative feedback
 - Preference for the controllable world of theory over unpredictable reality
-- [[Perfectionism]] that demands certainty before action
+- [[SoT - Perfectionism and Analysis Paralysis|Perfectionism]] that demands certainty before action
 - [[MOC - Shame]] and identity protection mechanisms
 - Loss aversion that magnifies potential negative outcomes
 
@@ -26,6 +26,6 @@ This pattern creates a vicious cycle where the lack of real-world experience rei
 
 The avoidance is often rationalized as "needing more preparation" or "waiting for the right moment," but these are sophisticated forms of [[The Core Problem Confusing Preparation with Action|preparation-action confusion]].
 
-Breaking this pattern requires recognizing that [[Type 2 Information is Experiential]] is the only path to genuine learning and growth. The discomfort of experiential feedback is temporary, while the stagnation from avoidance compounds over time.
+Breaking this pattern requires recognizing that [[Knowledge Emerges Through Application and Experience|Type 2 Information (Experiential)]] is the only path to genuine learning and growth. The discomfort of experiential feedback is temporary, while the stagnation from avoidance compounds over time.
 
-Links: [[Type 2 Information is Experiential]], [[Information Addiction in Overthinkers]], [[The Core Problem Confusing Preparation with Action]], [[Perfectionism]]
+Links: [[Knowledge Emerges Through Application and Experience|Type 2 Information is Experiential]], [[Information Addiction in Overthinkers]], [[The Core Problem Confusing Preparation with Action]], [[SoT - Perfectionism and Analysis Paralysis|Perfectionism]]

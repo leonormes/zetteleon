@@ -33,7 +33,7 @@ A common source of friction in habit formation and task initiation, particularly
 ### Related
 
 - [[SoT - The Childish Mind (Behavioral Resistance)]]—direct concept match: identifies the Mind Movie as a primary source of tantrums from the "Childish Mind."
-- [[Perfectionism]]—shared mechanism: both describe the paralyzing effect of impossible standards.
+- [[SoT - Perfectionism and Analysis Paralysis|Perfectionism]]—shared mechanism: both describe the paralyzing effect of impossible standards.
 
 ### See Also
 

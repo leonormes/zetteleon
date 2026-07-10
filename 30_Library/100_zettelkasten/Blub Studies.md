@@ -3,7 +3,7 @@ aliases: []
 created: 2025-02-07T12:57:55+00:00
 ID: blub_studies
 last_reviewed: ''
-modified: 2026-07-04T10:51:54+00:00
+modified: 2026-07-10T12:16:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/blub-studies
 status: ''
 tags: [devex, mastery, topic/learning]
@@ -28,6 +28,6 @@ Practical Value: [[Mundane Tools Value|Mastering mundane tools]] can significant
 
 Blub studies represents a form of [[SoT - Conventional Problem Solving]] that builds expertise through systematic exploration of familiar systems. It's the programming equivalent of becoming a master craftsperson rather than a dilettante.
 
-The approach also relates to [[30_Library/100_zettelkasten/The Extended Mind Thesis]] - by deeply understanding our tools, we effectively extend our cognitive capabilities through intimate familiarity with our technological environment.
+The approach also relates to [[SoT - The Extended Mind|The Extended Mind Thesis]] - by deeply understanding our tools, we effectively extend our cognitive capabilities through intimate familiarity with our technological environment.
 
 [[Knowledge Applicability of Blub Studies]]

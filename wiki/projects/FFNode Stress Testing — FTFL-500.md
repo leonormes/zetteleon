@@ -57,7 +57,7 @@ Stress testing programme for the FFNode Kubernetes platform, spawned from the "S
 
 - [[wiki/projects/K8s Cluster Stress Testing with OMOP Data]] — *Related stress testing initiative specifically for OMOP clinical data pipeline workloads under existing epics FTFL-476/480.*
 - [[wiki/projects/ffnode Helm Chart Review]] — *Related FFNode infrastructure workstream assessing umbrella chart complexity and library chart migration.*
-- [[cicd-tooling-validated]] — *Umbrella project covering FITFILE software delivery practices; stress testing is a sub-workstream.*
+- [[SOT - CI-CD Pipelines|CI/CD Pipelines]] — *Umbrella project covering FITFILE software delivery practices; stress testing is a sub-workstream.*
 
 ## Open Questions
 

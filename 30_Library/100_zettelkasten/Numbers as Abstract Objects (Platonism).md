@@ -21,4 +21,4 @@ Example: The number '7' is not just a symbol; it is the perfect, abstract form o
 
 Challenge (The Access Problem): How can we, as physical beings, access or have knowledge of this non-physical, acausal realm? This epistemological hurdle is a significant philosophical challenge to Platonism.
 
-Links: [[The Nature of Number]], [[Number vs Numeral]]
+Links: [[MOC - What is Maths|The Nature of Number]], [[Number vs Numeral]]
