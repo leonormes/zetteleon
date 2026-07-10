@@ -58,3 +58,10 @@ permalink: llmeon/wiki/log
   - [[wiki/projects/Hermes-Multi-Model-Routing-Strategy]] (parent project dossier)
   - [[wiki/projects/Hermes-Model-Configuration]] (sibling dossier, predecessor problem space)
   - [[2026-05-29-chezmoi-dotfiles-audit]] (structural sibling, same config substrate)
+### 2026-07-09 00:00 — CUH-DP Jumpbox Bastion SSH Dossier
+
+- **Action:** Ingest
+- **Raw source:** [[raw/2026-07-09-cuh-dp-jumpbox-bastion-ssh-setup]]
+- **Wiki pages touched:** [[wiki/projects/CUH-DP Jumpbox — Bastion SSH Access]]
+- **Flags:** none
+- **Notes:** New dossier documenting Azure Bastion SSH access to the CUH-DP `FITFILEJumpbox` VM (direct SSH, tunnel + scp, host-key-warning fix). Linked from Azure Bastion SSH Troubleshooting, HIE AWS Cluster — RDP via Jumpbox, CUH-DP AKS Backup — Terraform, Azure-AKS.
