@@ -1,6 +1,6 @@
 ---
 created: 2026-05-04T08:01:26+00:00
-modified: 2026-07-04T10:51:55+00:00
+modified: 2026-07-10T23:16:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/21-wtf-is-knowledge-anyway
 title: 21-wtf_is_knowledge_anyway
 ---
@@ -19,7 +19,7 @@ The difference between information and knowledge is significant, though the term
 
 ### Definition and Nature of Knowledge
 
-[21a-definition_and_nature_of_information.md](21a-definition_and_nature_of_information.md)
+[[What is information]]
 
 ### Processing and Outcome
 

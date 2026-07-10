@@ -2,7 +2,7 @@
 aliases: [Goals as Temporary Fixes]
 created: 2025-11-06T19:57:01+00:00
 last_reviewed: '2025-11-06'
-modified: 2026-07-04T10:51:54+00:00
+modified: 2026-07-10T23:18:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/achieving-a-goal-is-a-momentary-change-without-systemic-improvement
 status: seedling
 tags: [behavior-change, goals, TheHuman/Habits, topic/systems]
@@ -16,3 +16,7 @@ updated: null
 Summary: A goal-oriented approach provides only a momentary change because it addresses a symptom without fixing the underlying system that caused it.
 
 Details: Lasting improvement requires solving problems at the systems level. For example, cleaning a messy room achieves the goal of a clean room, but it is a temporary fix. If the sloppy habits (the system) that led to the mess are not changed, the clutter will inevitably return. True, sustainable change only occurs when the underlying process is corrected.
+
+## Related
+
+- [[Systems Drive Progress Through the Compounding Effect of Atomic Habits]]

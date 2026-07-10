@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T00:00:00+00:00
-modified: 2026-07-04T10:51:54+00:00
+modified: 2026-07-10T23:25:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/any-desired-outcome-requiring-more-than-one-step-is-a-project-and-must-be-tracked
 tags: [gtd, organisation, planning, project-management]
 title: Any Desired Outcome Requiring More Than One Step Is a Project and Must Be Tracked
@@ -25,7 +25,6 @@ Applies at the desired-outcome definition step within the Clarify stage, after a
 
 ### Related
 
-- [[SoT - Execution Protocol (GTD & PARA)]]—direct concept match: the protocol defines a GTD Project as "a specific, finishable goal that requires >1 action step" and prescribes the PARA Container as its home.
 - [[Weekly Review Verifies Project Actionability and Context]]—extends: the weekly review operates directly on the master Projects list that this atom's rule populates; the two atoms form a define-then-verify loop.
 
 ### See Also

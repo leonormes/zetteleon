@@ -2,7 +2,7 @@
 aliases: [Action Orientation, State Orientation]
 created: 2025-11-12T14:10:08+00:00
 last_reviewed: ''
-modified: 2026-07-04T10:51:54+00:00
+modified: 2026-07-10T23:18:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/action-oriented-individuals-act-decisively-under-pressure-while-state-oriented-individuals-ruminate
 status: stable
 tags: [personality, TheHuman/Psychology, volition]
@@ -25,6 +25,4 @@ Details: When faced with adverse or demanding conditions, action-oriented indivi
 - [[Motivation, Volition, and Control are Distinct Aspects of the Action Process]]—_Distinguishes between the drive to act (Motivation) and the deliberate experience of acting (Volition)._
 - [[The DMN as a Demon - Negative Rumination in ADHD]]—_Explores the neurological basis of state-orientation when the Default Mode Network becomes a source of self-critical brooding._
 - [[ADHD Working Memory Deficits Create a Compulsive Re-Planning Loop]]—_An example of state-orientation where cognitive insecurity leads to repetitive planning as a substitute for action._
-- [[SoT - The Cognitive Physiology of Task Execution]]—_Deconstructs the transition from thinking to doing and the neurological bottlenecks that can trap an individual in "State Mode."_
 - [[Dereflection Counters Rumination by Redirecting Attention from Self to External Values]]—_A therapeutic technique for shifting from a ruminative state-orientation toward value-driven action._
-- [[SoT - Behavioral Architecture]]—_Focuses on using environmental "Pipes" to reduce the volitional load required to move from a state of rumination into action._

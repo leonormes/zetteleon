@@ -2,7 +2,7 @@
 aliases: [Packet Anatomy, TCP Packet Example]
 created: 2025-10-21T13:23:09+00:00
 last_reviewed: ''
-modified: 2026-07-04T10:51:54+00:00
+modified: 2026-07-10T23:25:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/an-example-of-a-tcp-packet-with-all-layers
 status: evergreen
 tags: [SoftwareEngineering/Networking]
@@ -21,7 +21,7 @@ updated: null
 
 ### Transport Layer: TCP Header (Layer 4)
 
-_See: [[SoT - Protocol Data Units (PDU)#Layer 4: The TCP Segment (Reliability)|TCP Segment Details]]_
+_See: TCP Segment Details_
 
 | Field            | Example Value   | Notes                                       |
 |:--------------- |:-------------- |:------------------------------------------ |
@@ -41,7 +41,7 @@ _See: [[SoT - Protocol Data Units (PDU)#Layer 4: The TCP Segment (Reliability)|T
 
 ### Network Layer: IP Header (Layer 3 - IPv4)
 
-_See: [[SoT - Protocol Data Units (PDU)#Layer 3: The IP Packet (Routing)|IP Packet Details]]_
+_See: IP Packet Details_
 
 | Field                | Example Value | Notes                         |
 |:------------------- |:------------ |:---------------------------- |
@@ -60,7 +60,7 @@ _See: [[SoT - Protocol Data Units (PDU)#Layer 3: The IP Packet (Routing)|IP Pack
 
 ### Data Link Layer: Ethernet Header (Layer 2)
 
-_See: [[SoT - Protocol Data Units (PDU)#Layer 2: The Ethernet Frame (Local Delivery)|Ethernet Frame Details]]_
+_See: Ethernet Frame Details_
 
 | Field           | Example Value     | Notes                  |
 |:-------------- |:---------------- |:--------------------- |
@@ -85,10 +85,3 @@ _See: [[SoT - Protocol Data Units (PDU)#Layer 2: The Ethernet Frame (Local Deliv
 ---
 
 This condensed presentation lets you reference key fields for packet analysis, teaching, or debugging workflows.
-
-## Related
-
-- [[SoT - Protocol Data Units (PDU)]]: _The canonical Source of Truth for PDU naming conventions (Frames, Packets, Segments) and layer responsibilities._
-- [[SoT - The Architecture of Packet Encapsulation (TCP-IP)]]: _Describes the "Russian Doll" mechanism of nesting headers as data moves down the stack._
-- [[SoT - Network Security Architecture]]: _Provides the broader context for how packet headers are used in firewalling and traffic segmentation._
-- [[SoT - Linux Networking Primitives]]: _Technical implementation of these protocol headers within the Linux kernel networking stack._

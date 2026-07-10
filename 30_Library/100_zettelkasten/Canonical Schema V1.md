@@ -2,7 +2,7 @@
 aliases: [Schema V1]
 created: 2025-10-31T08:17:00+00:00
 last_reviewed: '2025-10-31'
-modified: 2026-07-04T10:51:53+00:00
+modified: 2026-07-10T23:25:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/canonical-schema-v1
 status: seedling
 tags: [metadata, schema, zettelkasten]

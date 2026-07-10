@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-11-10T11:10:00+00:00
 last_reviewed: ''
-modified: 2026-07-04T10:51:54+00:00
+modified: 2026-07-10T23:25:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/asking-why-a-song-exists-helps-determine-its-authenticity
 status: seedling
 tags: [analysis, critical-thinking, music, question]
@@ -26,3 +26,7 @@ Example:
 
 - An early Bob Dylan song likely exists because he felt a need to comment on social injustice.
 - A modern pop song that sounds very similar to other hits may exist because a record label identified a profitable trend.
+
+## Related
+
+- [[Authentic Music Creates Communities While Commercial Music Creates Consumers]]

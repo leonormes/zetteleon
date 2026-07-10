@@ -2,7 +2,7 @@
 aliases: [General Semantics, Korzybski, Map-Territory Origin]
 created: 2025-09-11T21:37:21+00:00
 last_reviewed: 'null'
-modified: 2026-07-04T10:51:54+00:00
+modified: 2026-07-10T23:18:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/alfred-korzybski-and-general-semantics
 status: 'null'
 tags: [language, semantics, TheHuman/Cognition, topic/philosophy]
@@ -31,7 +31,7 @@ Korzybski's work anticipated many concepts in:
 
 - Cognitive science's understanding of [[Mental Models as Evolutionary Filters|mental models]]
 - Systems thinking and cybernetics
-- [[Metacognitive Awareness]] in psychology
+- Metacognitive Awareness in psychology
 - Philosophy of science's recognition that theories are tools, not truth
 
 His emphasis on the provisional nature of all knowledge connects to modern understanding of [[Leaky Abstractions]] and the importance of recognizing model limitations.
