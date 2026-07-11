@@ -987,3 +987,10 @@ Append-only—never edit past entries.
   - Pieces captured zero substantive assets in the 4h window despite vault activity (CoS cron, CLARIFY note). Pieces Copilot was active at 08:16–08:45 (ACR investigation) but that session ended before the 4h window.
   - The CLARIFY note "Make versioned helm charts" is an unactioned inbox item—not yet a project. Monitor for follow-up in the next check-in.
   - Pieces OS healthy (REST API `ok`), 12,164 total assets (up from 11,791 on Jun 23).
+
+## 2026-07-11 15:56 — Frontmatter Bulk Migration (Phase 3)
+
+- Action: Output-created
+- Raw source: N/A
+- Wiki pages touched: N/A
+- Flags: 1126 files migrated; 944 exceptions skipped. Final report generated at [[output/reports/2026-07-11-frontmatter-migration-report]]

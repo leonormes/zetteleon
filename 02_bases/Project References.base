@@ -4,6 +4,9 @@ filters:
 views:
   - type: table
     name: Table
+    groupBy:
+      property: project_name
+      direction: ASC
     order:
       - file.name
       - project_name
