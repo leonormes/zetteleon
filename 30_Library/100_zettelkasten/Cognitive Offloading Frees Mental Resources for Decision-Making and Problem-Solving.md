@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T00:00:00+00:00
-modified: 2026-07-04T10:51:53+00:00
+modified: 2026-07-10T23:27:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/cognitive-offloading-frees-mental-resources-for-decision-making-and-problem-solving
 tags: [cognition, mental-models, pkm, productivity]
 title: Cognitive Offloading Frees Mental Resources for Decision-Making and Problem-Solving
@@ -26,12 +26,10 @@ Applies whenever a thinking task demands more concurrent items than working memo
 ### Related
 
 - [[Writing Acts as an External Working Memory]]—direct concept match: both describe offloading to free working memory for deeper cognitive work.
-- [[SoT - The Extended Mind]]—shared mechanism: active externalism; this atom instantiates the EMT's claim that external artifacts become literal constituents of the cognitive system.
-- [[SoT - Working Memory & Schema Theory]]—shared mechanism: "Externalization" is the canonical WM mitigation strategy, offloading storage to the environment to protect limited RAM.
 - [[Epistemic Actions - Thinking via Doing]]—shared mechanism: both describe redirecting cognitive computation to the physical world to reduce internal simulation load.
 
 ### See Also
 
 - [[Externalize Memory Aggressively (cognitive offloading)]]
 - [[Limited Human Information Processing Capacity]]
-- [[Knowledge Artifacts]] _(Knowledge artifacts are the tangible products of cognitive offloading)_
+- Knowledge Artifacts _(Knowledge artifacts are the tangible products of cognitive offloading)_

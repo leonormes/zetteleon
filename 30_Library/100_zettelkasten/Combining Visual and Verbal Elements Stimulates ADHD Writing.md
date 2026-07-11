@@ -2,9 +2,8 @@
 aliases: []
 created: 2025-10-30T12:10:05+00:00
 last_reviewed: ''
-modified: 2026-07-04T10:51:53+00:00
+modified: 2026-07-10T23:27:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/combining-visual-and-verbal-elements-stimulates-adhd-writing
-source: '[[MOC - Daily Writing for Clarity and ADHD-Friendly Techniques]]'
 status: seedling
 tags: [TheHuman/Creativity, TheHuman/Health/ADHD, visual-thinking, writing]
 title: Combining Visual and Verbal Elements Stimulates ADHD Writing
@@ -13,3 +12,7 @@ updated: null
 ---
 
 Combining visual elements with writing can make the process more stimulating for the ADHD brain. This can include color-coding emotions, mind-mapping ideas, doodling alongside notes, or even charting the day as a comic strip. This engages multiple neural pathways and can make the writing process more enjoyable.
+
+## Related
+
+- [[Changing Environments Provides Novelty for ADHD Writing]]

@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-20T09:17:00+00:00
 last_reviewed: ''
-modified: 2026-07-04T10:51:53+00:00
+modified: 2026-07-10T23:27:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/coherent-llm-output-signals-meaningful-processing
 status: ''
 tags: [coherence, SoftwareEngineering/AI, TheHuman/Cognition]
@@ -17,4 +17,4 @@ An LLM provides the opposite: a structured, coherent analysis that breaks down i
 
 ---
 
-Links: [[LLMs mimic human conversational patterns]]
+Links: LLMs mimic human conversational patterns
