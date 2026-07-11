@@ -1,11 +1,14 @@
 ---
-created: 2026-06-20T10:01:33+00:00
-modified: 2026-07-04T10:51:36+00:00
+created: 2026-06-20 10:01:33+00:00
+modified: 2026-07-04 10:51:36+00:00
 permalink: llmeon/30-library/200-projects/fitfile-value-stream-report-2026-06-20
 project_name: Pipeline
 tags: []
 title: FITFILE Value Stream Report - 2026-06-20
+prodos:
+  kind: project
 ---
+
 
 ## FITFILE Value Stream Report
 

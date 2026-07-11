@@ -1,9 +1,12 @@
 ---
-created: 2026-04-10T10:43:23+00:00
-modified: 2026-07-04T10:52:07+00:00
+created: 2026-04-10 10:43:23+00:00
+modified: 2026-07-04 10:52:07+00:00
 permalink: llmeon/10-system/prompts/atomic-linker-promote-connect
 title: Atomic Linker → Promote & Connect
+prodos:
+  kind: prompt
 ---
+
 
 ## Step 2 Prompt: Atomic Linker → Promote & Connect
 

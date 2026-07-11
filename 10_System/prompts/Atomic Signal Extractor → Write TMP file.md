@@ -1,9 +1,12 @@
 ---
-created: 2026-04-09T08:57:06+00:00
-modified: 2026-07-04T10:52:07+00:00
+created: 2026-04-09 08:57:06+00:00
+modified: 2026-07-04 10:52:07+00:00
 permalink: llmeon/10-system/prompts/atomic-signal-extractor-write-tmp-file
 title: Atomic Signal Extractor → Write TMP file
+prodos:
+  kind: prompt
 ---
+
 
 Role and Objective
 

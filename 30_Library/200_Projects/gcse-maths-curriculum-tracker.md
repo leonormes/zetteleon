@@ -1,10 +1,13 @@
 ---
-created: 2026-06-20T15:31:28+00:00
-modified: 2026-07-04T10:51:17+00:00
+created: 2026-06-20 15:31:28+00:00
+modified: 2026-07-04 10:51:17+00:00
 permalink: llmeon/30-library/200-projects/gcse-maths-curriculum-tracker
 project_name: Bessie
 title: gcse-maths-curriculum-tracker
+prodos:
+  kind: project
 ---
+
 
 ## GCSE (9–1) Mathematics—Curriculum Tracker
 

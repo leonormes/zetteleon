@@ -1,11 +1,16 @@
 ---
 aliases: []
-created: 2026-06-02T00:00:35+00:00
-modified: 2026-07-04T10:52:03+00:00
+created: 2026-06-02 00:00:35+00:00
+modified: 2026-07-04 10:52:03+00:00
 permalink: llmeon/20-thinking/21-workbench/head-states-where-my-focus-goes
-tags: [prodos/head, state/thinking]
+tags:
+- prodos/head
+- state/thinking
 title: HEAD - States where my focus goes
+prodos:
+  kind: head
 ---
+
 
 Today was a good example of my ADHD/attention distractibility. I had 1 thing to do, but then had a meeting about the sprint and had lots of different work assigned to me. After that, I couldn't focus on anything. That feeling of clarity is gone and I am stuck feeling unsettled and confused. It is the fault of the team not having enough people and the leadership not knowing how to prioritise. But I am responsible for what happens re my focus and productivity. What can I do
 

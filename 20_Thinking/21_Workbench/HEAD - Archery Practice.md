@@ -1,11 +1,16 @@
 ---
 aliases: []
-created: 2026-06-16T00:00:30+00:00
-modified: 2026-07-04T10:52:03+00:00
+created: 2026-06-16 00:00:30+00:00
+modified: 2026-07-04 10:52:03+00:00
 permalink: llmeon/20-thinking/21-workbench/head-archery-practice
-tags: [prodos/head, state/thinking]
+tags:
+- prodos/head
+- state/thinking
 title: HEAD - Archery Practice
+prodos:
+  kind: head
 ---
+
 
 Here is a simpler way to think about Jake Kaminski's advice so you can easily practice it during your next session.
 

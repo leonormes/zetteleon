@@ -3,11 +3,12 @@ alias: []
 created: 2025-10-18 13:25:33+00:00
 modified: 2026-01-30 16:19:32+00:00
 title: daily
-type: daily
-uid: null
-updated: null
 permalink: llmeon/10-system/templates/daily
+prodos:
+  kind: journal
+  id: null
 ---
+
 
 ```journal-nav
 

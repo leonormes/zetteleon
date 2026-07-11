@@ -1,10 +1,13 @@
 ---
-created: 2026-06-20T09:22:42+00:00
-modified: 2026-07-04T10:51:24+00:00
+created: 2026-06-20 09:22:42+00:00
+modified: 2026-07-04 10:51:24+00:00
 permalink: llmeon/30-library/200-projects/value-stream-analysis-via-llm-feasibility-source-map-prompt
 project_name: Pipeline
 title: Value Stream Analysis via LLM — Feasibility + Source Map + Prompt
+prodos:
+  kind: project
 ---
+
 
 _Shared Message from Pieces (<https://pieces.app>) by Leon Ormes (leonormes@gmail.com) on Saturday Jun 20, 2026 - 10:22 AM_
 ---

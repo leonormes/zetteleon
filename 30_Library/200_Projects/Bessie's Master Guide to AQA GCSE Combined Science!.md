@@ -1,10 +1,13 @@
 ---
-created: 2026-06-11T12:08:06+00:00
-modified: 2026-07-04T10:51:39+00:00
+created: 2026-06-11 12:08:06+00:00
+modified: 2026-07-04 10:51:39+00:00
 permalink: llmeon/30-library/200-projects/bessies-master-guide-to-aqa-gcse-combined-science
 project_name: Bessie
-title: "Bessie's Master Guide to AQA GCSE Combined Science!"
+title: Bessie's Master Guide to AQA GCSE Combined Science!
+prodos:
+  kind: project
 ---
+
 
 Hello Bessie! Welcome to your friendly, easy-to-read outline of the AQA GCSE Combined Science (Trilogy) curriculum. Science can seem like a huge mountain to climb, but once we break it down into smaller topics, it's totally manageable. You're going to do brilliantly! 💪
 

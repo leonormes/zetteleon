@@ -1,9 +1,12 @@
 ---
-created: 2026-06-22T09:16:18+00:00
-modified: 2026-07-04T10:52:05+00:00
+created: 2026-06-22 09:16:18+00:00
+modified: 2026-07-04 10:52:05+00:00
 permalink: llmeon/10-system/prompts/configure-basic-memory.prompt
 title: configure-basic-memory.prompt
+prodos:
+  kind: prompt
 ---
+
 
 ## Task: Configure Basic Memory for the LLMeon Zettelkasten (Chezmoi-managed, lOcal-first)
 

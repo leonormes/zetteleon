@@ -1,11 +1,16 @@
 ---
 aliases: []
-created: 2026-06-11T00:00:02+00:00
-modified: 2026-07-04T10:52:03+00:00
+created: 2026-06-11 00:00:02+00:00
+modified: 2026-07-04 10:52:03+00:00
 permalink: llmeon/20-thinking/21-workbench/head-the-waves-dont-actually-cover-the-432-case-grid
-tags: [prodos/head, state/thinking]
-title: "HEAD - The Waves Don't Actually Cover the 432-case Grid"
+tags:
+- prodos/head
+- state/thinking
+title: HEAD - The Waves Don't Actually Cover the 432-case Grid
+prodos:
+  kind: head
 ---
+
 
 ## 🔴 Blocking Issues (Fix before cIrculating)
 
