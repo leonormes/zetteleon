@@ -1,7 +1,8 @@
 ---
-created: 2026-07-11T14:29:07+00:00
-modified: 2026-07-11T14:29:10+00:00
+created: 2026-07-11 14:29:07+00:00
+modified: 2026-07-11 14:29:10+00:00
 title: Untitled
+permalink: llmeon/00-inbox/typed-answer-contracts-tac
 ---
 
 This is an exceptionally solid approach. The idea of using Typed Answer Contracts (TAC) is practically bulletproof for your use cases because it directly addresses the fundamental flaw of generative models: their infinite degrees of freedom. By treating LLM outputs as strict data extraction tasks rather than creative writing exercises, you eliminate the "hallucination camouflage" that text provides. Whether applied to a production RAG pipeline or your ProdOS Obsidian vault, enforcing a rigid schema ensures that if an LLM cannot definitively answer a prompt or properly format a note, it fails safely and predictably.

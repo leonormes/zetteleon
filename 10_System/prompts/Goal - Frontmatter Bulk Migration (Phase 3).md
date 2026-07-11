@@ -14,8 +14,8 @@ prodos:
     description: Bulk-migrate legacy frontmatter (type/status/updated/last_reviewed)
       to the prodos object across ProdOS territory.
     inject_as: system_context
+permalink: llmeon/10-system/prompts/goal-frontmatter-bulk-migration-phase-3
 ---
-
 
 ## /goal — Frontmatter Bulk Migration (Phase 3)
 

@@ -14,8 +14,8 @@ prodos:
     description: Daily cron that triages 10 orphan notes, proposing links, merges,
       or archival — proposals only, human promotes.
     inject_as: system_context
+permalink: llmeon/10-system/prompts/goal-orphan-triage-sweep-daily-cron
 ---
-
 
 ## /goal — Orphan Triage Sweep (daily cron, 10 notes/day)
 
