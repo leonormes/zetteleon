@@ -1,17 +1,24 @@
 ---
-created: 2026-02-22T16:56:49+00:00
+created: 2026-02-22 16:56:49+00:00
 hop_level: local
 last_verified: 2026-02-22
-modified: 2026-07-04T10:50:43+00:00
+modified: 2026-07-04 10:50:43+00:00
 permalink: llmeon/30-library/ops/cmd-cat-helm-chart-dependencies
 requires_tunnel: false
-status: active
-tags: [chart, cmd, dependencies, git, helm]
+tags:
+- chart
+- cmd
+- dependencies
+- git
+- helm
 target_service: helm
 title: cmd_cat_helm_chart_dependencies
 tool: cat
-type: command
+prodos:
+  kind: ops
+  lifecycle: active
 ---
+
 
 ## Cat Helm Chart Dependencies
 

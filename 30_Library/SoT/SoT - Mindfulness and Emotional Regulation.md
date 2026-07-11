@@ -1,15 +1,25 @@
 ---
-aliases: [Anicca, Meditation as Navigation, Mindfulness for ADHD, The Observer Self]
-created: 2025-12-12T00:00:00+00:00
-last_reviewed: '2025-12-12'
-modified: 2026-07-04T10:50:54+00:00
+aliases:
+- Anicca
+- Meditation as Navigation
+- Mindfulness for ADHD
+- The Observer Self
+created: 2025-12-12 00:00:00+00:00
+modified: 2026-07-04 10:50:54+00:00
 permalink: llmeon/30-library/so-t/so-t-mindfulness-and-emotional-regulation
-status: stable
-tags: [emotional-regulation, meditation, mental-health, mindfulness]
+tags:
+- emotional-regulation
+- meditation
+- mental-health
+- mindfulness
 title: SoT - Mindfulness and Emotional Regulation
-type: SoT
-updated: null
+prodos:
+  kind: sot
+  lifecycle: stable
+  review:
+    last_reviewed: '2025-12-12'
 ---
+
 
 ## 2. The Core Mechanism: Developing the "Observer Self"
 

@@ -1,15 +1,21 @@
 ---
 aliases: []
-created: 2025-12-18T00:00:00+00:00
-last_reviewed: '2025-12-18'
-modified: 2026-07-04T10:50:49+00:00
+created: 2025-12-18 00:00:00+00:00
+modified: 2026-07-04 10:50:49+00:00
 permalink: llmeon/30-library/so-t/so-t-the-curry-howard-correspondence-propositions-as-types
-status: stable
-tags: [computer_science, formal_methods, logic, type_theory]
+tags:
+- computer_science
+- formal_methods
+- logic
+- type_theory
 title: SoT - The Curry-Howard Correspondence (Propositions as Types)
-type: SoT
-updated: null
+prodos:
+  kind: sot
+  lifecycle: stable
+  review:
+    last_reviewed: '2025-12-18'
 ---
+
 
 ## 1. Working Knowledge (Stable Foundation)
 

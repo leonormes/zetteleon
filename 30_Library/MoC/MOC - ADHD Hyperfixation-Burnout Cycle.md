@@ -1,19 +1,22 @@
 ---
 aliases: []
-created: 2025-11-01T11:37:53+00:00
+created: 2025-11-01 11:37:53+00:00
 criteria: ''
 exclusions: General ADHD topics not directly related to the hyperfixation-burnout
   cycle.
-last_reviewed: 2026-02-07 00:00:00+00:00
-modified: 2026-07-04T10:51:13+00:00
+modified: 2026-07-04 10:51:13+00:00
 permalink: llmeon/30-library/mo-c/moc-adhd-hyperfixation-burnout-cycle
 scope: ''
-status: seedling
-tags: [TheHuman/Health/ADHD]
+tags:
+- TheHuman/Health/ADHD
 title: MOC - ADHD Hyperfixation-Burnout Cycle
-type: map
-updated: null
+prodos:
+  kind: moc
+  lifecycle: seedling
+  review:
+    last_reviewed: 2026-02-07 00:00:00+00:00
 ---
+
 
 ## MOC - ADHD Hyperfixation-Burnout Cycle
 

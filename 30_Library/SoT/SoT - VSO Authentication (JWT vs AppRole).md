@@ -1,14 +1,25 @@
 ---
-aliases: [OIDC Auth for VSO, Vault Kubernetes Authentication Best Practice, VSO JWT Auth]
-created: 2026-03-12T09:30:00+00:00
-modified: 2026-07-04T10:50:47+00:00
+aliases:
+- OIDC Auth for VSO
+- Vault Kubernetes Authentication Best Practice
+- VSO JWT Auth
+created: 2026-03-12 09:30:00+00:00
+modified: 2026-07-04 10:50:47+00:00
 permalink: llmeon/30-library/so-t/so-t-vso-authentication-jwt-vs-app-role
-status: evergreen
-tags: [architecture, jwt, kubernetes, oidc, security, vault, vso]
+tags:
+- architecture
+- jwt
+- kubernetes
+- oidc
+- security
+- vault
+- vso
 title: SoT - VSO Authentication (JWT vs AppRole)
-type: SoT
-updated: 2026-03-12
+prodos:
+  kind: sot
+  lifecycle: evergreen
 ---
+
 
 ## SoT - VSO Authentication (JWT Vs AppRole)
 

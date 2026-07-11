@@ -1,15 +1,26 @@
 ---
-aliases: [Financial Physics, Money as Energy, Ontology of Money, Spendfulness]
-created: 2025-12-30T15:50:00+00:00
-last_reviewed: '2025-12-30'
-modified: 2026-07-04T10:50:59+00:00
+aliases:
+- Financial Physics
+- Money as Energy
+- Ontology of Money
+- Spendfulness
+created: 2025-12-30 15:50:00+00:00
+modified: 2026-07-04 10:50:59+00:00
 permalink: llmeon/30-library/so-t/so-t-financial-philosophy-and-spendfulness
-status: stable
-tags: [finance, ontology, physics, psychology, TheHuman/Mindset]
+tags:
+- finance
+- ontology
+- physics
+- psychology
+- TheHuman/Mindset
 title: SoT - Financial Philosophy and Spendfulness
-type: SoT
-updated: null
+prodos:
+  kind: sot
+  lifecycle: stable
+  review:
+    last_reviewed: '2025-12-30'
 ---
+
 
 ## SoT - Financial Philosophy and Spendfulness
 

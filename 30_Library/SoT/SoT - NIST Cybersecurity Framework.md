@@ -1,17 +1,28 @@
 ---
-aliases: [Cybersecurity Governance, NIST CSF, NIST Cybersecurity Framework 2.0]
-created: 2026-04-02T11:00:00+00:00
-last_synthesis: 2026-04-02
-modified: 2026-07-04T10:50:54+00:00
+aliases:
+- Cybersecurity Governance
+- NIST CSF
+- NIST Cybersecurity Framework 2.0
+created: 2026-04-02 11:00:00+00:00
+modified: 2026-07-04 10:50:54+00:00
 permalink: llmeon/30-library/so-t/so-t-nist-cybersecurity-framework
 source_of_truth: true
-status: evergreen
-synthesis-count: 1
-tags: [compliance, cybersecurity, governance, nist, resilience]
+tags:
+- compliance
+- cybersecurity
+- governance
+- nist
+- resilience
 title: SoT - NIST Cybersecurity Framework
-trust-level: stable
-type: SoT
+prodos:
+  kind: sot
+  lifecycle: evergreen
+  trust: stable
+  chronos:
+    last_synthesis: 2026-04-02
+    synthesis_count: 1
 ---
+
 
 ## Minimum Viable Understanding (MVU)
 

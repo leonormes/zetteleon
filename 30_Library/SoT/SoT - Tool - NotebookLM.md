@@ -1,15 +1,25 @@
 ---
-aliases: [AI Research Assistant, Google NotebookLM, NotebookLM Studio]
-created: 2025-12-26T00:00:00+00:00
-last_reviewed: '2025-12-26'
-modified: 2026-07-04T10:50:48+00:00
+aliases:
+- AI Research Assistant
+- Google NotebookLM
+- NotebookLM Studio
+created: 2025-12-26 00:00:00+00:00
+modified: 2026-07-04 10:50:48+00:00
 permalink: llmeon/30-library/so-t/so-t-tool-notebook-lm
-status: stable
-tags: [ai, google, research, synthesis, tool]
+tags:
+- ai
+- google
+- research
+- synthesis
+- tool
 title: SoT - Tool - NotebookLM
-type: SoT
-updated: null
+prodos:
+  kind: sot
+  lifecycle: stable
+  review:
+    last_reviewed: '2025-12-26'
 ---
+
 
 > [!definition] Definition
 > NotebookLM: An AI-powered "Knowledge Engine" that uses RAG (Retrieval-Augmented Generation) to ground responses _exclusively_ in user-uploaded documents, eliminating hallucinations.

@@ -1,15 +1,25 @@
 ---
-aliases: [CI/CD Documentation, FITFILE Pipelines, GitLab CI Flows]
-created: 2025-12-16T00:00:00+00:00
-last_reviewed: '2025-12-16'
-modified: 2026-07-04T10:51:04+00:00
+aliases:
+- CI/CD Documentation
+- FITFILE Pipelines
+- GitLab CI Flows
+created: 2025-12-16 00:00:00+00:00
+modified: 2026-07-04 10:51:04+00:00
 permalink: llmeon/30-library/so-t/sot-ci-cd-pipelines
-status: stable
-tags: [automation, cicd, devops, gitlab, pipeline]
+tags:
+- automation
+- cicd
+- devops
+- gitlab
+- pipeline
 title: SOT - CI-CD Pipelines
-type: SoT
-updated: null
+prodos:
+  kind: sot
+  lifecycle: stable
+  review:
+    last_reviewed: '2025-12-16'
 ---
+
 
 1. Main Pipeline (`.gitlab-ci.yml`): " Focuses on \"Continuous Integration\" \u2014 building artifacts (Docker images) and validating code/workflows."
 2. Staging/Deploy Pipeline (`staging.gitlab-ci.yml`): " Focuses on \"Continuous Deployment\" \u2014 synchronizing state via ArgoCD and executing integration tests."

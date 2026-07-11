@@ -1,13 +1,22 @@
 ---
-aliases: [Family Triage, Relational Triage]
-created: 2026-04-08T00:00:00+00:00
-modified: 2026-07-04T10:51:09+00:00
+aliases:
+- Family Triage
+- Relational Triage
+created: 2026-04-08 00:00:00+00:00
+modified: 2026-07-04 10:51:09+00:00
 permalink: llmeon/30-library/mo-c/moc-relational-dynamics-family-triage
-status: seedling
-tags: [family, moc, parenting, relationships, triage]
+tags:
+- family
+- moc
+- parenting
+- relationships
+- triage
 title: MOC - Relational Dynamics & Family (Triage)
-type: map
+prodos:
+  kind: moc
+  lifecycle: seedling
 ---
+
 
 ## Navigation Hub: Relational Dynamics & Family
 

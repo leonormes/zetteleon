@@ -1,15 +1,24 @@
 ---
-created: 2026-04-02T10:55:00+00:00
+created: 2026-04-02 10:55:00+00:00
 last-synthesis: 2026-04-02
-modified: 2026-07-04T10:50:51+00:00
+modified: 2026-07-04 10:50:51+00:00
 permalink: llmeon/30-library/so-t/so-t-prod-os-thinking-stream
 source_of_truth: true
-status: evergreen
-synthesis-count: 1
-tags: [prodos, system/protocol, thinking, type/SoT, workflow]
+tags:
+- prodos
+- system/protocol
+- thinking
+- type/SoT
+- workflow
 title: SoT - ProdOS Thinking Stream
-trust-level: stable
+prodos:
+  kind: sot
+  lifecycle: evergreen
+  trust: stable
+  chronos:
+    synthesis_count: 1
 ---
+
 
 ## Minimum Viable Understanding (MVU)
 

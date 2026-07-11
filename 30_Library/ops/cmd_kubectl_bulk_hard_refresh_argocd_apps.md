@@ -1,17 +1,24 @@
 ---
-created: 2026-02-22T16:53:28+00:00
+created: 2026-02-22 16:53:28+00:00
 hop_level: local
 last_verified: 2026-02-22
-modified: 2026-07-04T10:50:41+00:00
+modified: 2026-07-04 10:50:41+00:00
 permalink: llmeon/30-library/ops/cmd-kubectl-bulk-hard-refresh-argocd-apps
 requires_tunnel: false
-status: active
-tags: [argocd, cache, cmd, debug, refresh]
+tags:
+- argocd
+- cache
+- cmd
+- debug
+- refresh
 target_service: argocd
 title: cmd_kubectl_bulk_hard_refresh_argocd_apps
 tool: kubectl
-type: command
+prodos:
+  kind: ops
+  lifecycle: active
 ---
+
 
 ## Bulk Hard-Refresh Failing ArgoCD Applications
 

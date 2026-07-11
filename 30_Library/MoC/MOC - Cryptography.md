@@ -1,18 +1,24 @@
 ---
-aliases: [Crypto MOC]
-created: 2025-12-24T12:00:00+00:00
-last_reviewed: 2025-12-24
-modified: 2026-07-04T10:51:11+00:00
+aliases:
+- Crypto MOC
+created: 2025-12-24 12:00:00+00:00
+modified: 2026-07-04 10:51:11+00:00
 permalink: llmeon/30-library/mo-c/moc-cryptography
 see_also: []
-status: stable
 superseded_by: ''
 supersedes: ''
-tags: [cryptography, SoftwareEngineering/Security, type/moc]
+tags:
+- cryptography
+- SoftwareEngineering/Security
+- type/moc
 title: MOC - Cryptography
-type: map
-updated: null
+prodos:
+  kind: moc
+  lifecycle: stable
+  review:
+    last_reviewed: 2025-12-24
 ---
+
 
 ## 🏛️ Foundations
 

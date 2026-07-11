@@ -1,9 +1,12 @@
 ---
-created: 2026-03-05T10:16:02+00:00
-modified: 2026-07-04T10:50:40+00:00
+created: 2026-03-05 10:16:02+00:00
+modified: 2026-07-04 10:50:40+00:00
 permalink: llmeon/30-library/ops/ec2-jumpbox-start-stop
 title: ec2-jumpbox-start-stop
+prodos:
+  kind: ops
 ---
+
 
 Stop the jumpbox:
 

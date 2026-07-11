@@ -1,15 +1,21 @@
 ---
-created: 2026-02-19T13:14:59+00:00
+created: 2026-02-19 13:14:59+00:00
 hop_level: local
-modified: 2026-07-04T10:50:44+00:00
+modified: 2026-07-04 10:50:44+00:00
 permalink: llmeon/30-library/ops/cmd-net-grpcurl-test
 requires_tunnel: false
-tags: [api, atomic, grpc, network]
+tags:
+- api
+- atomic
+- grpc
+- network
 target_service: api
 title: cmd-net-grpcurl-test
 tool: grpcurl
-type: atomic_command
+prodos:
+  kind: ops
 ---
+
 
 ## Test gRPC Service (Grpcurl)
 

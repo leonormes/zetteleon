@@ -1,15 +1,24 @@
 ---
-aliases: [ADHD Barriers, Task Initiation Failure, Triggers for Procrastination]
-created: 2025-08-16T13:14:06+00:00
-last_reviewed: '2025-12-24'
-modified: 2026-07-04T10:51:10+00:00
+aliases:
+- ADHD Barriers
+- Task Initiation Failure
+- Triggers for Procrastination
+created: 2025-08-16 13:14:06+00:00
+modified: 2026-07-04 10:51:10+00:00
 permalink: llmeon/30-library/mo-c/moc-procrastination-triggers
-status: stable
-tags: [procrastination, psychology, TheHuman/Health/ADHD, TheHuman/Motivation]
+tags:
+- procrastination
+- psychology
+- TheHuman/Health/ADHD
+- TheHuman/Motivation
 title: MOC - Procrastination Triggers
-type: map
-updated: null
+prodos:
+  kind: moc
+  lifecycle: stable
+  review:
+    last_reviewed: '2025-12-24'
 ---
+
 
 Personal observations about what triggers procrastination, particularly around mundane tasks that lack immediate reward or interest.
 

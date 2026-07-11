@@ -1,15 +1,25 @@
 ---
-aliases: [Event-Driven Shell, IPC Workflows, Signal Traps, Terminal Automation]
-created: 2025-12-26T13:00:00+00:00
-last_reviewed: '2025-12-26'
-modified: 2026-07-04T10:50:50+00:00
+aliases:
+- Event-Driven Shell
+- IPC Workflows
+- Signal Traps
+- Terminal Automation
+created: 2025-12-26 13:00:00+00:00
+modified: 2026-07-04 10:50:50+00:00
 permalink: llmeon/30-library/so-t/so-t-shell-automation-and-ipc
-status: stable
-tags: [automation, ipc, shell, SoftwareEngineering/Linux]
+tags:
+- automation
+- ipc
+- shell
+- SoftwareEngineering/Linux
 title: SoT - Shell Automation and IPC
-type: SoT
-updated: null
+prodos:
+  kind: sot
+  lifecycle: stable
+  review:
+    last_reviewed: '2025-12-26'
 ---
+
 
 ## 1. Definitive Statement
 

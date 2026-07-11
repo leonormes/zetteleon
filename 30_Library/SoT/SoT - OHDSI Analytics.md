@@ -1,14 +1,24 @@
 ---
-aliases: [Cohort Generation, Evidence Generation, OHDSI Analytics]
-created: 2026-01-06T18:52:01+00:00
-last_reviewed: 2026-01-06
-modified: 2026-07-04T10:50:54+00:00
+aliases:
+- Cohort Generation
+- Evidence Generation
+- OHDSI Analytics
+created: 2026-01-06 18:52:01+00:00
+modified: 2026-07-04 10:50:54+00:00
 permalink: llmeon/30-library/so-t/so-t-ohdsi-analytics
-status: stable
-tags: [analytics, evidence, ohdsi, sot]
+tags:
+- analytics
+- evidence
+- ohdsi
+- sot
 title: SoT - OHDSI Analytics
-type: SoT
+prodos:
+  kind: sot
+  lifecycle: stable
+  review:
+    last_reviewed: 2026-01-06
 ---
+
 
 ## 1. Definitive Statement
 

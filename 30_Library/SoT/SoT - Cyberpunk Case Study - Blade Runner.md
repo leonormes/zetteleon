@@ -1,15 +1,24 @@
 ---
-aliases: [Blade Runner Universe, Replicant Sociology, Voight-Kampff Framework]
-created: 2025-12-31T00:00:00+00:00
-last_reviewed: '2025-12-31'
-modified: 2026-07-04T10:51:02+00:00
+aliases:
+- Blade Runner Universe
+- Replicant Sociology
+- Voight-Kampff Framework
+created: 2025-12-31 00:00:00+00:00
+modified: 2026-07-04 10:51:02+00:00
 permalink: llmeon/30-library/so-t/so-t-cyberpunk-case-study-blade-runner
-status: stable
-tags: [case_study, cyberpunk, film, sociology]
+tags:
+- case_study
+- cyberpunk
+- film
+- sociology
 title: SoT - Cyberpunk Case Study - Blade Runner
-type: SoT
-updated: null
+prodos:
+  kind: sot
+  lifecycle: stable
+  review:
+    last_reviewed: '2025-12-31'
 ---
+
 
 ## 1. Ontological Framework: Biological vs. Mechanical
 

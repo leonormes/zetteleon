@@ -1,18 +1,27 @@
 ---
-aliases: [Analysis Paralysis, Fear of Failure, The Perfectionism Trap]
-created: 2025-10-28T00:00:00+00:00
-last_reviewed: '2025-12-22'
-modified: 2026-07-04T10:50:53+00:00
+aliases:
+- Analysis Paralysis
+- Fear of Failure
+- The Perfectionism Trap
+created: 2025-10-28 00:00:00+00:00
+modified: 2026-07-04 10:50:53+00:00
 permalink: llmeon/30-library/so-t/so-t-perfectionism-and-analysis-paralysis
 see_also: []
-status: stable
 superseded_by: ''
 supersedes: ''
-tags: [prodos, TheHuman/Cognition/bias, TheHuman/Mindset, TheHuman/Psychology]
+tags:
+- prodos
+- TheHuman/Cognition/bias
+- TheHuman/Mindset
+- TheHuman/Psychology
 title: SoT - Perfectionism and Analysis Paralysis
-type: SoT
-updated: null
+prodos:
+  kind: sot
+  lifecycle: stable
+  review:
+    last_reviewed: '2025-12-22'
 ---
+
 
 > In ADHD, it manifests as Analysis Paralysis: "the inability to start a task because the cost of \"doing it wrong\" feels existentially threatening."
 

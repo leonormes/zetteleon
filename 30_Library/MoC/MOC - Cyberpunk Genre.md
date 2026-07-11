@@ -1,18 +1,26 @@
 ---
-aliases: [Cyberpunk Index, MOC - Cyberpunk]
-created: 2025-12-30T00:00:00+00:00
-last_reviewed: 2025-12-30
-modified: 2026-07-04T10:51:11+00:00
+aliases:
+- Cyberpunk Index
+- MOC - Cyberpunk
+created: 2025-12-30 00:00:00+00:00
+modified: 2026-07-04 10:51:11+00:00
 permalink: llmeon/30-library/mo-c/moc-cyberpunk-genre
 see_also: []
-status: active
 superseded_by: ''
 supersedes: ''
-tags: [cyberpunk, index, scifi, type/moc]
+tags:
+- cyberpunk
+- index
+- scifi
+- type/moc
 title: MOC - Cyberpunk Genre
-type: map
-updated: null
+prodos:
+  kind: moc
+  lifecycle: active
+  review:
+    last_reviewed: 2025-12-30
 ---
+
 
 ## 1. Overview
 

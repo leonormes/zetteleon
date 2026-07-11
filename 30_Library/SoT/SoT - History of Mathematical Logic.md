@@ -1,13 +1,20 @@
 ---
-aliases: [Development of Mathematical Logic, History of Logic]
-created: 2026-01-12T10:00:00+00:00
-modified: 2026-07-04T10:50:58+00:00
+aliases:
+- Development of Mathematical Logic
+- History of Logic
+created: 2026-01-12 10:00:00+00:00
+modified: 2026-07-04 10:50:58+00:00
 permalink: llmeon/30-library/so-t/so-t-history-of-mathematical-logic
-status: stable
-tags: [logic, math/history, prodos/sot]
+tags:
+- logic
+- math/history
+- prodos/sot
 title: SoT - History of Mathematical Logic
-type: SoT
+prodos:
+  kind: sot
+  lifecycle: stable
 ---
+
 
 ## History of Mathematical Logic
 

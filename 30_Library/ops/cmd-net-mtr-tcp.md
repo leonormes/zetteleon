@@ -1,14 +1,19 @@
 ---
-created: 2026-02-19T15:18:30+00:00
+created: 2026-02-19 15:18:30+00:00
 hop_level: cluster
-modified: 2026-07-04T10:50:43+00:00
+modified: 2026-07-04 10:50:43+00:00
 permalink: llmeon/30-library/ops/cmd-net-mtr-tcp
-tags: [atomic, network, triage]
+tags:
+- atomic
+- network
+- triage
 target_service: network
 title: cmd-net-mtr-tcp
 tool: mtr
-type: atomic_command
+prodos:
+  kind: ops
 ---
+
 
 ## TCP Path Trace (MTR)
 

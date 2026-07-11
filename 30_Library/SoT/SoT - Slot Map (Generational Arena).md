@@ -1,15 +1,26 @@
 ---
-aliases: [Generational Arena, Generational Indices, Safe Indices, Slot Map]
-created: 2025-12-31T00:00:00+00:00
-last_reviewed: '2025-12-31'
-modified: 2026-07-04T10:50:50+00:00
+aliases:
+- Generational Arena
+- Generational Indices
+- Safe Indices
+- Slot Map
+created: 2025-12-31 00:00:00+00:00
+modified: 2026-07-04 10:50:50+00:00
 permalink: llmeon/30-library/so-t/so-t-slot-map-generational-arena
-status: stable
-tags: [data_structures, memory_safety, performance, rust, typescript]
+tags:
+- data_structures
+- memory_safety
+- performance
+- rust
+- typescript
 title: SoT - Slot Map (Generational Arena)
-type: SoT
-updated: null
+prodos:
+  kind: sot
+  lifecycle: stable
+  review:
+    last_reviewed: '2025-12-31'
 ---
+
 
 ## 1. Definitive Statement
 

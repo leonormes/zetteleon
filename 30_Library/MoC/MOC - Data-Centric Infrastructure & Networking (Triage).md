@@ -1,13 +1,23 @@
 ---
-aliases: [Infrastructure Triage, Networking Triage]
-created: 2026-04-08T00:00:00+00:00
-modified: 2026-07-04T10:51:11+00:00
+aliases:
+- Infrastructure Triage
+- Networking Triage
+created: 2026-04-08 00:00:00+00:00
+modified: 2026-07-04 10:51:11+00:00
 permalink: llmeon/30-library/mo-c/moc-data-centric-infrastructure-networking-triage
-status: seedling
-tags: [cloud, devops, infrastructure, moc, networking, triage]
+tags:
+- cloud
+- devops
+- infrastructure
+- moc
+- networking
+- triage
 title: MOC - Data-Centric Infrastructure & Networking (Triage)
-type: map
+prodos:
+  kind: moc
+  lifecycle: seedling
 ---
+
 
 ## Navigation Hub: Data-Centric Infrastructure & Networking
 

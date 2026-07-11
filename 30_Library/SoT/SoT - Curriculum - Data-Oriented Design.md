@@ -1,15 +1,26 @@
 ---
-aliases: [Data-First Challenges, DOD Curriculum, DOP Learning Path, Protocol - Data-Oriented Design]
-created: 2025-12-31T00:00:00+00:00
-last_reviewed: '2026-01-01'
-modified: 2026-07-04T10:51:02+00:00
+aliases:
+- Data-First Challenges
+- DOD Curriculum
+- DOP Learning Path
+- Protocol - Data-Oriented Design
+created: 2025-12-31 00:00:00+00:00
+modified: 2026-07-04 10:51:02+00:00
 permalink: llmeon/30-library/so-t/so-t-curriculum-data-oriented-design
-status: active
-tags: [curriculum, dop, exercises, learning-engine, practice]
+tags:
+- curriculum
+- dop
+- exercises
+- learning-engine
+- practice
 title: SoT - Curriculum - Data-Oriented Design
-type: SoT
-updated: null
+prodos:
+  kind: sot
+  lifecycle: active
+  review:
+    last_reviewed: '2026-01-01'
 ---
+
 
 ## SoT - Curriculum - Data-Oriented Design
 

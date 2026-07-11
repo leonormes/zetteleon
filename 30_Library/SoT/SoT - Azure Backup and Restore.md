@@ -1,16 +1,18 @@
 ---
 aliases: []
-created: 2025-12-21T00:00:00+00:00
-last_reviewed: 2025-12-21
-modified: 2026-07-04T10:51:04+00:00
+created: 2025-12-21 00:00:00+00:00
+modified: 2026-07-04 10:51:04+00:00
 permalink: llmeon/30-library/so-t/so-t-azure-backup-and-restore
-status: stable
 tags: []
 tier: 3-Tactic
 title: SoT - Azure Backup and Restore
-type: SoT
-updated: null
+prodos:
+  kind: sot
+  lifecycle: stable
+  review:
+    last_reviewed: 2025-12-21
 ---
+
 
 ## 2. Core Concepts
 

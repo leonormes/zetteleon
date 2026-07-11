@@ -1,15 +1,26 @@
 ---
-aliases: [IAM GitOps, Infrastructure as Code Permissions, PIM via Terraform, Temporal Permissions]
-created: 2025-12-30T12:02:15+00:00
-last_reviewed: '2025-12-30'
-modified: 2026-07-04T10:50:57+00:00
+aliases:
+- IAM GitOps
+- Infrastructure as Code Permissions
+- PIM via Terraform
+- Temporal Permissions
+created: 2025-12-30 12:02:15+00:00
+modified: 2026-07-04 10:50:57+00:00
 permalink: llmeon/30-library/so-t/so-t-git-ops-for-iam-and-permissions
-status: stable
-tags: [gitops, iam, SoftwareEngineering/Architecture, SoftwareEngineering/Security, type_theory]
+tags:
+- gitops
+- iam
+- SoftwareEngineering/Architecture
+- SoftwareEngineering/Security
+- type_theory
 title: SoT - GitOps for IAM and Permissions
-type: SoT
-updated: null
+prodos:
+  kind: sot
+  lifecycle: stable
+  review:
+    last_reviewed: '2025-12-30'
 ---
+
 
 ## 1. The Core Principle: Repository as Authority
 

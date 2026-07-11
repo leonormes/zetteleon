@@ -1,15 +1,25 @@
 ---
-aliases: [Bad is Stronger than Good, Negativity Bias, Threat Detection System]
-created: 2025-06-18T17:28:14+00:00
-last_reviewed: '2025-12-16'
-modified: 2026-07-04T10:50:48+00:00
+aliases:
+- Bad is Stronger than Good
+- Negativity Bias
+- Threat Detection System
+created: 2025-06-18 17:28:14+00:00
+modified: 2026-07-04 10:50:48+00:00
 permalink: llmeon/30-library/so-t/so-t-the-negativity-bias
-status: stable
-tags: [emotional_regulation, evolution, TheHuman/Cognition/bias, TheHuman/Health/ADHD, TheHuman/Psychology]
+tags:
+- emotional_regulation
+- evolution
+- TheHuman/Cognition/bias
+- TheHuman/Health/ADHD
+- TheHuman/Psychology
 title: SoT - The Negativity Bias
-type: SoT
-updated: null
+prodos:
+  kind: sot
+  lifecycle: stable
+  review:
+    last_reviewed: '2025-12-16'
 ---
+
 
 ## 1. Definitive Statement
 

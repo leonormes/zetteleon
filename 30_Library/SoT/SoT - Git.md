@@ -1,18 +1,28 @@
 ---
-aliases: [Distributed Version Control, Git, Version Control System]
-created: 2025-12-13T00:00:00+00:00
-last_reviewed: '2025-12-13'
-modified: 2026-07-04T10:50:58+00:00
+aliases:
+- Distributed Version Control
+- Git
+- Version Control System
+created: 2025-12-13 00:00:00+00:00
+modified: 2026-07-04 10:50:58+00:00
 permalink: llmeon/30-library/so-t/so-t-git
-review_interval: 6 months
-see_also: ["[[SoT - Software Configuration Management Patterns]]"]
+see_also:
+- '[[SoT - Software Configuration Management Patterns]]'
 source_of_truth: []
-status: stable
-tags: [devops, git, scm, version_control]
+tags:
+- devops
+- git
+- scm
+- version_control
 title: SoT - Git
-type: SoT
-updated: null
+prodos:
+  kind: sot
+  lifecycle: stable
+  review:
+    last_reviewed: '2025-12-13'
+    interval: 6 months
 ---
+
 
 ## 2. Working Knowledge (Core Concepts)
 

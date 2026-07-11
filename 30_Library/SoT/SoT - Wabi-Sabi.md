@@ -1,15 +1,28 @@
 ---
-aliases: [Beauty of Impermanence, Japanese Philosophy of Imperfection, Kintsugi, Mono no aware, Wabi-Sabi]
-created: 2025-12-16T00:00:00+00:00
-last_reviewed: '2026-01-10'
-modified: 2026-07-04T10:50:47+00:00
+aliases:
+- Beauty of Impermanence
+- Japanese Philosophy of Imperfection
+- Kintsugi
+- Mono no aware
+- Wabi-Sabi
+created: 2025-12-16 00:00:00+00:00
+modified: 2026-07-04 10:50:47+00:00
 permalink: llmeon/30-library/so-t/so-t-wabi-sabi
-status: stable
-tags: [aesthetics, buddhism, japanese_philosophy, mindfulness, resilience, TheHuman/Philosophy]
+tags:
+- aesthetics
+- buddhism
+- japanese_philosophy
+- mindfulness
+- resilience
+- TheHuman/Philosophy
 title: SoT - Wabi-Sabi
-type: SoT
-updated: null
+prodos:
+  kind: sot
+  lifecycle: stable
+  review:
+    last_reviewed: '2026-01-10'
 ---
+
 
 ## 1. Definitive Statement
 

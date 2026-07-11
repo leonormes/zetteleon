@@ -1,14 +1,22 @@
 ---
-aliases: [AI Coding MOC, LLM Engineering Map]
-created: 2026-01-30T08:00:00+00:00
+aliases:
+- AI Coding MOC
+- LLM Engineering Map
+created: 2026-01-30 08:00:00+00:00
 last-synthesis: 2026-04-04
-modified: 2026-07-04T10:51:13+00:00
+modified: 2026-07-04 10:51:13+00:00
 permalink: llmeon/30-library/mo-c/moc-ai-software-engineering
-synthesis-count: 3
-tags: [ai-engineering, map-of-content, moc]
+tags:
+- ai-engineering
+- map-of-content
+- moc
 title: MOC - AI Software Engineering
-type: map
+prodos:
+  kind: moc
+  chronos:
+    synthesis_count: 3
 ---
+
 
 Core Theme: Engineering the "Cognitive Bridge" between probabilistic AI models and deterministic software systems.
 

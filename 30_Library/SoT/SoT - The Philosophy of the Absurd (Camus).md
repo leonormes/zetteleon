@@ -1,15 +1,24 @@
 ---
-aliases: [Absurdism, The Absurd, The Myth of Sisyphus]
-created: 2025-12-12T00:00:00+00:00
-last_reviewed: '2025-12-12'
-modified: 2026-07-04T10:50:48+00:00
+aliases:
+- Absurdism
+- The Absurd
+- The Myth of Sisyphus
+created: 2025-12-12 00:00:00+00:00
+modified: 2026-07-04 10:50:48+00:00
 permalink: llmeon/30-library/so-t/so-t-the-philosophy-of-the-absurd-camus
-status: stable
-tags: [absurdism, existentialism, meaning, TheHuman/Philosophy]
+tags:
+- absurdism
+- existentialism
+- meaning
+- TheHuman/Philosophy
 title: SoT - The Philosophy of the Absurd (Camus)
-type: SoT
-updated: null
+prodos:
+  kind: sot
+  lifecycle: stable
+  review:
+    last_reviewed: '2025-12-12'
 ---
+
 
 > The Absurd is not a property of the universe nor of the human mind, but the irresolvable conflict born from their confrontation: ""
 > 1. The Human Need: " Our innate, desperate drive to find meaning, order, and rational explanations for our existence."

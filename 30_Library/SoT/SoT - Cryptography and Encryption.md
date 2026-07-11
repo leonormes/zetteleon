@@ -1,15 +1,22 @@
 ---
-aliases: [Cryptography SoT, Encryption SoT]
-created: 2025-12-24T12:00:00+00:00
-last_reviewed: 2025-12-24
-modified: 2026-07-04T10:51:02+00:00
+aliases:
+- Cryptography SoT
+- Encryption SoT
+created: 2025-12-24 12:00:00+00:00
+modified: 2026-07-04 10:51:02+00:00
 permalink: llmeon/30-library/so-t/so-t-cryptography-and-encryption
-status: stable
-tags: [cryptography, SoftwareEngineering/Security, SoT]
+tags:
+- cryptography
+- SoftwareEngineering/Security
+- SoT
 title: SoT - Cryptography and Encryption
-type: SoT
-updated: null
+prodos:
+  kind: sot
+  lifecycle: stable
+  review:
+    last_reviewed: 2025-12-24
 ---
+
 
 ## 1. The Core Principle: The Trapdoor
 

@@ -1,15 +1,25 @@
 ---
-aliases: [AuthN Standards, Modern Auth Protocols, OAuth and OIDC]
-created: 2025-12-25T13:00:00+00:00
-last_reviewed: '2025-12-30'
-modified: 2026-07-04T10:50:54+00:00
+aliases:
+- AuthN Standards
+- Modern Auth Protocols
+- OAuth and OIDC
+created: 2025-12-25 13:00:00+00:00
+modified: 2026-07-04 10:50:54+00:00
 permalink: llmeon/30-library/so-t/so-t-modern-authentication-standards
-status: stable
-tags: [authentication, oauth, oidc, SoftwareEngineering/Security, standards]
+tags:
+- authentication
+- oauth
+- oidc
+- SoftwareEngineering/Security
+- standards
 title: SoT - Modern Authentication Standards
-type: SoT
-updated: null
+prodos:
+  kind: sot
+  lifecycle: stable
+  review:
+    last_reviewed: '2025-12-30'
 ---
+
 
 ## 1. The Paradigm Shift
 

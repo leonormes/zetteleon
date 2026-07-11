@@ -1,15 +1,25 @@
 ---
-aliases: [K8s Architecture, K8s Cluster State, K8s Mental Model]
-created: 2025-12-16T00:00:00+00:00
-last_reviewed: '2025-12-16'
-modified: 2026-07-04T10:50:55+00:00
+aliases:
+- K8s Architecture
+- K8s Cluster State
+- K8s Mental Model
+created: 2025-12-16 00:00:00+00:00
+modified: 2026-07-04 10:50:55+00:00
 permalink: llmeon/30-library/so-t/so-t-kubernetes-cluster-state-architecture
-status: stable
-tags: [devops, etcd, kubernetes, mental_model, SoftwareEngineering/Architecture]
+tags:
+- devops
+- etcd
+- kubernetes
+- mental_model
+- SoftwareEngineering/Architecture
 title: SoT - Kubernetes Cluster State Architecture
-type: SoT
-updated: null
+prodos:
+  kind: sot
+  lifecycle: stable
+  review:
+    last_reviewed: '2025-12-16'
 ---
+
 
 ## Minimum Viable Understanding (MVU)
 

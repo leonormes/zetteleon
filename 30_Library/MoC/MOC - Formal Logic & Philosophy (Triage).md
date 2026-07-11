@@ -1,13 +1,22 @@
 ---
-aliases: [Logic Triage, Philosophy Triage]
-created: 2026-04-08T00:00:00+00:00
-modified: 2026-07-04T10:51:11+00:00
+aliases:
+- Logic Triage
+- Philosophy Triage
+created: 2026-04-08 00:00:00+00:00
+modified: 2026-07-04 10:51:11+00:00
 permalink: llmeon/30-library/mo-c/moc-formal-logic-philosophy-triage
-status: seedling
-tags: [logic, mathematics, moc, philosophy, triage]
+tags:
+- logic
+- mathematics
+- moc
+- philosophy
+- triage
 title: MOC - Formal Logic & Philosophy (Triage)
-type: map
+prodos:
+  kind: moc
+  lifecycle: seedling
 ---
+
 
 ## Navigation Hub: Formal Logic & Philosophy
 

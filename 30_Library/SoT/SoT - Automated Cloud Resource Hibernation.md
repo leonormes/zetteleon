@@ -1,16 +1,27 @@
 ---
-aliases: [AKS Auto-Shutdown, Cloud Cost Saving, Environment Hibernation]
-created: 2025-11-13T00:00:00+00:00
-last_reviewed: ''
-modified: 2026-07-04T10:51:04+00:00
+aliases:
+- AKS Auto-Shutdown
+- Cloud Cost Saving
+- Environment Hibernation
+created: 2025-11-13 00:00:00+00:00
+modified: 2026-07-04 10:51:04+00:00
 permalink: llmeon/30-library/so-t/so-t-automated-cloud-resource-hibernation
-status: stable
-tags: [aks, azure, cloud, cost-optimization, devops, terraform]
+tags:
+- aks
+- azure
+- cloud
+- cost-optimization
+- devops
+- terraform
 tier: 3-Tactic
 title: SoT - Automated Cloud Resource Hibernation
-type: SoT
-updated: null
+prodos:
+  kind: sot
+  lifecycle: stable
+  review:
+    last_reviewed: ''
 ---
+
 
 ## 1. Working Knowledge (Stable Foundation)
 

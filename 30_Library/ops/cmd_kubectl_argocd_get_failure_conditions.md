@@ -1,17 +1,24 @@
 ---
-created: 2026-02-22T17:01:20+00:00
+created: 2026-02-22 17:01:20+00:00
 hop_level: local
 last_verified: 2026-02-22
-modified: 2026-07-04T10:50:42+00:00
+modified: 2026-07-04 10:50:42+00:00
 permalink: llmeon/30-library/ops/cmd-kubectl-argocd-get-failure-conditions
 requires_tunnel: false
-status: active
-tags: [argocd, cmd, conditions, error, sync]
+tags:
+- argocd
+- cmd
+- conditions
+- error
+- sync
 target_service: argocd
 title: cmd_kubectl_argocd_get_failure_conditions
 tool: kubectl
-type: command
+prodos:
+  kind: ops
+  lifecycle: active
 ---
+
 
 ## Get ArgoCD Application Failure Conditions
 

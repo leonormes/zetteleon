@@ -1,15 +1,24 @@
 ---
-aliases: [Dominance Hierarchies, Evolutionary Status, Neuroscience of Status]
-created: 2025-12-14T00:00:00+00:00
-last_reviewed: ''
-modified: 2026-07-04T10:50:49+00:00
+aliases:
+- Dominance Hierarchies
+- Evolutionary Status
+- Neuroscience of Status
+created: 2025-12-14 00:00:00+00:00
+modified: 2026-07-04 10:50:49+00:00
 permalink: llmeon/30-library/so-t/so-t-the-evolutionary-biology-of-status
-status: stable
-tags: [behavior, status, TheHuman/Neuroscience, TheHuman/Psychology]
+tags:
+- behavior
+- status
+- TheHuman/Neuroscience
+- TheHuman/Psychology
 title: SoT - The Evolutionary Biology of Status
-type: SoT
-updated: null
+prodos:
+  kind: sot
+  lifecycle: stable
+  review:
+    last_reviewed: ''
 ---
+
 
 ## 2. Evolutionary Drivers
 

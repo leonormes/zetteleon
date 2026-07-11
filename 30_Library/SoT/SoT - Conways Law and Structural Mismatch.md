@@ -1,15 +1,21 @@
 ---
 aliases: []
-created: 2025-12-17T00:00:00+00:00
-last_reviewed: '2025-12-17'
-modified: 2026-07-04T10:51:02+00:00
+created: 2025-12-17 00:00:00+00:00
+modified: 2026-07-04 10:51:02+00:00
 permalink: llmeon/30-library/so-t/so-t-conways-law-and-structural-mismatch
-status: stable
-tags: [conways-law, organizational-structure, SoftwareEngineering/Architecture, systems-design]
+tags:
+- conways-law
+- organizational-structure
+- SoftwareEngineering/Architecture
+- systems-design
 title: SoT - Conways Law and Structural Mismatch
-type: SoT
-updated: null
+prodos:
+  kind: sot
+  lifecycle: stable
+  review:
+    last_reviewed: '2025-12-17'
 ---
+
 
 ## 1. Definitive Statement
 

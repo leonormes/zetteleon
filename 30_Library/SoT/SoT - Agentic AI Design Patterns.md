@@ -1,13 +1,24 @@
 ---
-aliases: [Agentic AI Workflows, Agentic Workflow Taxonomy, AI Agent Patterns]
-created: 2026-04-05T12:00:00+00:00
-modified: 2026-07-04T10:51:04+00:00
+aliases:
+- Agentic AI Workflows
+- Agentic Workflow Taxonomy
+- AI Agent Patterns
+created: 2026-04-05 12:00:00+00:00
+modified: 2026-07-04 10:51:04+00:00
 permalink: llmeon/30-library/so-t/so-t-agentic-ai-design-patterns
-status: stable
-tags: [agents, ai, architecture, design-patterns, llm, sot]
+tags:
+- agents
+- ai
+- architecture
+- design-patterns
+- llm
+- sot
 title: SoT - Agentic AI Design Patterns
-type: SoT
+prodos:
+  kind: sot
+  lifecycle: stable
 ---
+
 
 ## 1. Minimum Viable Understanding (MVU)
 

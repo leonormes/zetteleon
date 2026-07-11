@@ -1,15 +1,25 @@
 ---
-aliases: [Cognitive Superniche, Material Symbols Thesis, Scaffolding]
-created: 2025-12-23T19:53:27+00:00
-last_reviewed: '2025-12-23'
-modified: 2026-07-04T10:50:55+00:00
+aliases:
+- Cognitive Superniche
+- Material Symbols Thesis
+- Scaffolding
+created: 2025-12-23 19:53:27+00:00
+modified: 2026-07-04 10:50:55+00:00
 permalink: llmeon/30-library/so-t/so-t-material-symbols
-status: stable
-tags: [extended_mind, language, logic, scaffolding, TheHuman/Cognition]
+tags:
+- extended_mind
+- language
+- logic
+- scaffolding
+- TheHuman/Cognition
 title: SoT - Material Symbols
-type: SoT
-updated: null
+prodos:
+  kind: sot
+  lifecycle: stable
+  review:
+    last_reviewed: '2025-12-23'
 ---
+
 
 ## 1. Definitive Statement
 

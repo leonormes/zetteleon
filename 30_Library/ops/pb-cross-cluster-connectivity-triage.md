@@ -1,13 +1,20 @@
 ---
-created: 2026-02-17T08:49:16+00:00
+created: 2026-02-17 08:49:16+00:00
 incident_type: connectivity_failure
-modified: 2026-07-04T10:50:38+00:00
+modified: 2026-07-04 10:50:38+00:00
 permalink: llmeon/30-library/ops/pb-cross-cluster-connectivity-triage
-tags: [cross-cluster, customer/hie, customer/nnuh, network, playbook]
+tags:
+- cross-cluster
+- customer/hie
+- customer/nnuh
+- network
+- playbook
 target_service: network
 title: pb-cross-cluster-connectivity-triage
-type: playbook
+prodos:
+  kind: ops
 ---
+
 
 ## Playbook: Cross-Cluster Connectivity Triage
 

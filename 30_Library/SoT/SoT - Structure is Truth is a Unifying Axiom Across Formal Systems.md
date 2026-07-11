@@ -1,12 +1,36 @@
 ---
-aliases: [Constitutive Structure, Structure as Truth, The Unifying Axiom]
-created: 2026-04-19T10:00:00+00:00
-modified: 2026-07-04T10:50:50+00:00
+aliases:
+- Constitutive Structure
+- Structure as Truth
+- The Unifying Axiom
+created: 2026-04-19 10:00:00+00:00
+modified: 2026-07-04 10:50:50+00:00
 permalink: llmeon/30-library/so-t/so-t-structure-is-truth-is-a-unifying-axiom-across-formal-systems
-see_also: ["[[MOC - ADHD Functional Neurology & Scaffolding]]", "[[MOC - Applied Formal Methods]]", "[[Protocol - AFM Vault Constitutional Triage]]", "[[SoT - Conservation of Complexity]]", "[[SoT - Order Theory & Lattices]]", "[[SoT - The Curry-Howard Correspondence (Propositions as Types)]]", "[[SoT - The Data-Centric Philosophy]]"]
-tags: [fca/attr/m10, fca/attr/m4, fca/level/c4, fca/m2-framed, prodos/sot, topic/adhd, topic/formal-methods, topic/philosophy, topic/pkm, topic/software-architecture, topic/type-theory]
+see_also:
+- '[[MOC - ADHD Functional Neurology & Scaffolding]]'
+- '[[MOC - Applied Formal Methods]]'
+- '[[Protocol - AFM Vault Constitutional Triage]]'
+- '[[SoT - Conservation of Complexity]]'
+- '[[SoT - Order Theory & Lattices]]'
+- '[[SoT - The Curry-Howard Correspondence (Propositions as Types)]]'
+- '[[SoT - The Data-Centric Philosophy]]'
+tags:
+- fca/attr/m10
+- fca/attr/m4
+- fca/level/c4
+- fca/m2-framed
+- prodos/sot
+- topic/adhd
+- topic/formal-methods
+- topic/philosophy
+- topic/pkm
+- topic/software-architecture
+- topic/type-theory
 title: SoT - Structure is Truth is a Unifying Axiom Across Formal Systems
+prodos:
+  kind: sot
 ---
+
 
 Structure does not _represent_ truth—it _constitutes_ it. In any formal system, the structure defines the domain of valid facts; there is no pre-structural truth for the schema to "point at." The practical consequence is immediate and exact: complexity is conserved ([[SoT - Conservation of Complexity|Tesler's Law]]), and every unit of complexity that is not embedded in structure must be handled by the runtime—whether that runtime is a CPU, a data engineer, an infrastructure operator, or an ADHD brain's working memory.
 

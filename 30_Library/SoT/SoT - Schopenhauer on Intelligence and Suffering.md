@@ -1,17 +1,29 @@
 ---
-aliases: ["Schopenhauer's Pessimism", Metaphysics of Will, Schopenhauer on Solitude]
-created: 2025-09-16T13:23:23+00:00
-last_synthesis: 2026-02-07
-modified: 2026-07-04T10:50:51+00:00
+aliases:
+- Schopenhauer's Pessimism
+- Metaphysics of Will
+- Schopenhauer on Solitude
+created: 2025-09-16 13:23:23+00:00
+modified: 2026-07-04 10:50:51+00:00
 permalink: llmeon/30-library/so-t/so-t-schopenhauer-on-intelligence-and-suffering
 source_of_truth: true
-status: evergreen
-synthesis-count: 1
-tags: [intelligence, philosophy, schopenhauer, solitude, suffering, type/SoT]
+tags:
+- intelligence
+- philosophy
+- schopenhauer
+- solitude
+- suffering
+- type/SoT
 title: SoT - Schopenhauer on Intelligence and Suffering
-trust-level: stable
-type: SoT
+prodos:
+  kind: sot
+  lifecycle: evergreen
+  trust: stable
+  chronos:
+    last_synthesis: 2026-02-07
+    synthesis_count: 1
 ---
+
 
 ## Minimum Viable Understanding (MVU)
 

@@ -1,15 +1,21 @@
 ---
-created: 2026-02-21T15:05:07+00:00
+created: 2026-02-21 15:05:07+00:00
 hop_level: local
-modified: 2026-07-04T10:50:43+00:00
+modified: 2026-07-04 10:50:43+00:00
 permalink: llmeon/30-library/ops/cmd-argocd-refresh-app
 requires_tunnel: true
-tags: [argocd, atomic, cache, refresh]
+tags:
+- argocd
+- atomic
+- cache
+- refresh
 target_service: argocd
 title: cmd_argocd_refresh_app
 tool: argocd
-type: atomic_command
+prodos:
+  kind: ops
 ---
+
 
 ## Hard Refresh ArgoCD Application
 

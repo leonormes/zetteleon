@@ -1,15 +1,20 @@
 ---
-created: 2026-02-16T11:46:04+00:00
+created: 2026-02-16 11:46:04+00:00
 hop_level: local
-modified: 2026-07-04T10:50:44+00:00
+modified: 2026-07-04 10:50:44+00:00
 permalink: llmeon/30-library/ops/cmd-k8s-annotate-vault-rotation
 requires_tunnel: true
-tags: [atomic, kubectl, vault]
+tags:
+- atomic
+- kubectl
+- vault
 target_service: vault-secrets-operator
 title: cmd-k8s-annotate-vault-rotation
 tool: kubectl
-type: atomic_command
+prodos:
+  kind: ops
 ---
+
 
 ## Force Vault Secret Rotation
 

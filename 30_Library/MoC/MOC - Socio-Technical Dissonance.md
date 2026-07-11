@@ -1,15 +1,21 @@
 ---
-aliases: [Socio-Technical Dissonance MOC]
-created: 2025-12-17T00:00:00+00:00
-last_reviewed: 2025-12-17 00:00:00+00:00
-modified: 2026-07-04T10:51:09+00:00
+aliases:
+- Socio-Technical Dissonance MOC
+created: 2025-12-17 00:00:00+00:00
+modified: 2026-07-04 10:51:09+00:00
 permalink: llmeon/30-library/mo-c/moc-socio-technical-dissonance
-status: stable
-tags: [social-dynamics, SoftwareEngineering/Architecture, topic/systems]
+tags:
+- social-dynamics
+- SoftwareEngineering/Architecture
+- topic/systems
 title: MOC - Socio-Technical Dissonance
-type: map
-updated: null
+prodos:
+  kind: moc
+  lifecycle: stable
+  review:
+    last_reviewed: 2025-12-17 00:00:00+00:00
 ---
+
 
 ## 1. Definitive Statement
 

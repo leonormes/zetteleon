@@ -1,17 +1,25 @@
 ---
-created: 2026-02-22T17:07:12+00:00
+created: 2026-02-22 17:07:12+00:00
 last_verified: 2026-02-22
-modified: 2026-07-04T10:50:39+00:00
+modified: 2026-07-04 10:50:39+00:00
 permalink: llmeon/30-library/ops/playbook-ff-deployment-auth0-tenant-mismatch
 severity: p1
-status: active
-tags: [auth0, crashloopbackoff, deployment, init, playbook, vault]
+tags:
+- auth0
+- crashloopbackoff
+- deployment
+- init
+- playbook
+- vault
 target_service: fitconnect
 title: playbook_ff_deployment_auth0_tenant_mismatch
 trigger: ffcloud / fitconnect CrashLoopBackOff during new environment deployment with
   Auth0 M2M
-type: playbook
+prodos:
+  kind: ops
+  lifecycle: active
 ---
+
 
 ## Playbook: FFNode Auth0 Tenant Parity Failure
 

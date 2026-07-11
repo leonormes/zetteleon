@@ -1,15 +1,21 @@
 ---
-created: 2026-05-23T13:35:24+00:00
+created: 2026-05-23 13:35:24+00:00
 last-synthesis: 2026-05-23
-modified: 2026-07-04T10:51:01+00:00
+modified: 2026-07-04 10:51:01+00:00
 permalink: llmeon/30-library/so-t/so-t-empirical-origins-of-mathematics
 source_of_truth: true
-status: evergreen
-synthesis-count: 1
-tags: [domain/history-of-mathematics, type/SoT]
+tags:
+- domain/history-of-mathematics
+- type/SoT
 title: SoT - Empirical Origins of Mathematics
-trust-level: stable
+prodos:
+  kind: sot
+  lifecycle: evergreen
+  trust: stable
+  chronos:
+    synthesis_count: 1
 ---
+
 
 ## Minimum Viable Understanding (MVU)
 

@@ -1,17 +1,30 @@
 ---
-aliases: [Configuration Generator Pattern, Contract-Based Infrastructure, Generative Config, GIC Framework]
-created: 2025-12-13T00:00:00+00:00
-last_reviewed: '2026-02-05'
-modified: 2026-07-04T10:50:58+00:00
+aliases:
+- Configuration Generator Pattern
+- Contract-Based Infrastructure
+- Generative Config
+- GIC Framework
+created: 2025-12-13 00:00:00+00:00
+modified: 2026-07-04 10:50:58+00:00
 permalink: llmeon/30-library/so-t/so-t-generative-infrastructure-configuration-framework
-status: stable
-synthesis-count: 3
-tags: [configuration_management, cue, devops, infrastructure_as_code, SoftwareEngineering/Architecture, terraform]
+tags:
+- configuration_management
+- cue
+- devops
+- infrastructure_as_code
+- SoftwareEngineering/Architecture
+- terraform
 title: SoT - Generative Infrastructure Configuration Framework
-trust-level: high
-type: SoT
-updated: null
+prodos:
+  kind: sot
+  lifecycle: stable
+  trust: high
+  review:
+    last_reviewed: '2026-02-05'
+  chronos:
+    synthesis_count: 3
 ---
+
 
 > Core Principle: "By defining a minimal, declarative Configuration Kernel (intent) and processing it through a validated Configuration Generator (code), the system automatically derives complex, error-prone values (protocols), ensuring consistency, reducing cognitive load, and making changes explicitly evident."
 

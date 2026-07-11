@@ -1,15 +1,21 @@
 ---
-created: 2026-05-23T13:38:13+00:00
+created: 2026-05-23 13:38:13+00:00
 last-synthesis: 2026-05-23
-modified: 2026-07-04T10:50:55+00:00
+modified: 2026-07-04 10:50:55+00:00
 permalink: llmeon/30-library/so-t/so-t-mathematics-learning-curriculum
 source_of_truth: true
-status: evergreen
-synthesis-count: 1
-tags: [domain/mathematics, type/SoT]
+tags:
+- domain/mathematics
+- type/SoT
 title: SoT - Mathematics Learning Curriculum
-trust-level: stable
+prodos:
+  kind: sot
+  lifecycle: evergreen
+  trust: stable
+  chronos:
+    synthesis_count: 1
 ---
+
 
 ## Minimum Viable Understanding (MVU)
 

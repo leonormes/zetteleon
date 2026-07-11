@@ -1,15 +1,24 @@
 ---
-aliases: [Chain of Explainability, Human 3.0 Framework, Self-Capture Architecture]
-created: 2025-12-24T12:12:06+00:00
-last_reviewed: 2025-12-24
-modified: 2026-07-04T10:50:48+00:00
+aliases:
+- Chain of Explainability
+- Human 3.0 Framework
+- Self-Capture Architecture
+created: 2025-12-24 12:12:06+00:00
+modified: 2026-07-04 10:50:48+00:00
 permalink: llmeon/30-library/so-t/so-t-the-telos-method
-status: stable
-tags: [ai_integration, framework, strategy, telos]
+tags:
+- ai_integration
+- framework
+- strategy
+- telos
 title: SoT - The Telos Method
-type: SoT
-updated: null
+prodos:
+  kind: sot
+  lifecycle: stable
+  review:
+    last_reviewed: 2025-12-24
 ---
+
 
 > [!definition] Definition
 > The Telos Method: An open-source framework for "self-capture," designed to create deep machine-readable context about a user's values and goals.

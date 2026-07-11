@@ -1,15 +1,24 @@
 ---
-aliases: [Metagame Strategy, Strategic Context SoT, The Game Beyond the Game]
-created: 2025-12-10T00:00:00+00:00
-last_reviewed: '2025-12-10'
-modified: 2026-07-04T10:50:48+00:00
+aliases:
+- Metagame Strategy
+- Strategic Context SoT
+- The Game Beyond the Game
+created: 2025-12-10 00:00:00+00:00
+modified: 2026-07-04 10:50:48+00:00
 permalink: llmeon/30-library/so-t/so-t-the-metagame-strategic-context
-status: stable
-tags: [game-theory, metagame, strategy, topic/systems]
+tags:
+- game-theory
+- metagame
+- strategy
+- topic/systems
 title: SoT - The Metagame (Strategic Context)
-type: SoT
-updated: null
+prodos:
+  kind: sot
+  lifecycle: stable
+  review:
+    last_reviewed: '2025-12-10'
 ---
+
 
 ## 2. Core Mechanisms
 
