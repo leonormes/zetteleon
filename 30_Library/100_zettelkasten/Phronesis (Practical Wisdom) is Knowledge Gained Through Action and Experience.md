@@ -1,15 +1,26 @@
 ---
-aliases: [Phronesis, Practical Wisdom]
-created: 2025-11-10T17:06:00+00:00
-last_reviewed: ''
-modified: 2026-07-04T10:51:47+00:00
+aliases:
+- Phronesis
+- Practical Wisdom
+created: 2025-11-10 17:06:00+00:00
+modified: 2026-07-04 10:51:47+00:00
 permalink: llmeon/30-library/100-zettelkasten/phronesis-practical-wisdom-is-knowledge-gained-through-action-and-experience
-status: seedling
-tags: [action, aristotle, knowledge, TheHuman/Philosophy, wisdom]
+tags:
+- action
+- aristotle
+- knowledge
+- TheHuman/Philosophy
+- wisdom
 title: Phronesis (Practical Wisdom) is Knowledge Gained Through Action and Experience
-type: concept
-updated: null
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: seedling
+  review:
+    last_reviewed: ''
 ---
+
 
 ## Phronesis (Practical Wisdom) is Knowledge Gained Through Action and Experience
 

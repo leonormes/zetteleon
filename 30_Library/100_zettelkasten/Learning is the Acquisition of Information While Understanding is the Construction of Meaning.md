@@ -1,16 +1,25 @@
 ---
-aliases: [Learning vs Understanding]
-created: 2025-11-10T16:00:00+00:00
-last_reviewed: ''
-modified: 2026-07-04T10:51:49+00:00
+aliases:
+- Learning vs Understanding
+created: 2025-11-10 16:00:00+00:00
+modified: 2026-07-04 10:51:49+00:00
 permalink: llmeon/30-library/100-zettelkasten/learning-is-the-acquisition-of-information-while-understanding-is-the-construction-of-meaning
-status: seedling
-tags: [learning, pedagogy, TheHuman/Cognition, understanding]
-title: Learning is the Acquisition of Information While Understanding is the Construction of Meaning
-  of Meaning
-type: concept
-updated: null
+tags:
+- learning
+- pedagogy
+- TheHuman/Cognition
+- understanding
+title: Learning is the Acquisition of Information While Understanding is the Construction
+  of Meaning of Meaning
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: seedling
+  review:
+    last_reviewed: ''
 ---
+
 
 ## Learning is the Acquisition of Information While Understanding is the Construction of Meaning
 

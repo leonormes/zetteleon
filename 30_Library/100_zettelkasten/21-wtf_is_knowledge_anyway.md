@@ -1,9 +1,12 @@
 ---
-created: 2026-05-04T08:01:26+00:00
-modified: 2026-07-10T23:16:00+01:00
+created: 2026-05-04 08:01:26+00:00
+modified: 2026-07-10 23:16:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/21-wtf-is-knowledge-anyway
 title: 21-wtf_is_knowledge_anyway
+prodos:
+  kind: atomic
 ---
+
 
 ## WTF is Knowledge Anyway
 

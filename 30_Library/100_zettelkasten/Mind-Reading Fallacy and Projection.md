@@ -1,15 +1,22 @@
 ---
 aliases: []
-created: 2025-10-31T09:20:29+00:00
-last_reviewed: 'null'
-modified: 2026-07-04T10:51:49+00:00
+created: 2025-10-31 09:20:29+00:00
+modified: 2026-07-04 10:51:49+00:00
 permalink: llmeon/30-library/100-zettelkasten/mind-reading-fallacy-and-projection
-status: seedling
-tags: [TheHuman/Cognition/bias, topic/social-cognition, topic/social-perception]
+tags:
+- TheHuman/Cognition/bias
+- topic/social-cognition
+- topic/social-perception
 title: Mind-Reading Fallacy and Projection
-type: concept
-updated: null
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: seedling
+  review:
+    last_reviewed: 'null'
 ---
+
 
 ## Mind-Reading Fallacy and Projection
 

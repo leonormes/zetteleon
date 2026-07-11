@@ -1,15 +1,25 @@
 ---
-aliases: [file descriptor, socket handle]
-created: 2025-10-31T13:40:00+00:00
-last_reviewed: '2025-10-31'
-modified: 2026-07-04T10:51:51+00:00
+aliases:
+- file descriptor
+- socket handle
+created: 2025-10-31 13:40:00+00:00
+modified: 2026-07-04 10:51:51+00:00
 permalink: llmeon/30-library/100-zettelkasten/file-descriptor-as-os-socket-handle
-status: seedling
-tags: [file-descriptor, operating-system, socket, unix]
+tags:
+- file-descriptor
+- operating-system
+- socket
+- unix
 title: File Descriptor as OS Socket Handle
-type: concept
-updated: null
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: seedling
+  review:
+    last_reviewed: '2025-10-31'
 ---
+
 
 ## File Descriptor as OS Socket Handle
 

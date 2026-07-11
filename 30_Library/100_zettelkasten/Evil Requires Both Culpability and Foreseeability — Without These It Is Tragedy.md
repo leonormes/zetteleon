@@ -1,10 +1,17 @@
 ---
-created: 2026-04-10T13:00:00+00:00
-modified: 2026-07-04T10:51:51+00:00
+created: 2026-04-10 13:00:00+00:00
+modified: 2026-07-04 10:51:51+00:00
 permalink: llmeon/30-library/100-zettelkasten/evil-requires-both-culpability-and-foreseeability-without-these-it-is-tragedy
-tags: [agency, culpability, law, responsibility]
+tags:
+- agency
+- culpability
+- law
+- responsibility
 title: Evil Requires Both Culpability and Foreseeability — Without These It Is Tragedy
+prodos:
+  kind: atomic
 ---
+
 
 ## Evil Requires Both Culpability and Foreseeability—Without These It Is Tragedy
 

@@ -1,15 +1,20 @@
 ---
 aliases: []
-created: 2025-11-22T15:00:11+00:00
-last_reviewed: '2025-11-22'
-modified: 2026-07-04T10:51:53+00:00
+created: 2025-11-22 15:00:11+00:00
+modified: 2026-07-04 10:51:53+00:00
 permalink: llmeon/30-library/100-zettelkasten/concept-udp-vs-tcp
-status: seedling
-tags: [SoftwareEngineering/networking/protocol]
+tags:
+- SoftwareEngineering/networking/protocol
 title: Concept - UDP vs TCP
-type: concept
-updated: null
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: seedling
+  review:
+    last_reviewed: '2025-11-22'
 ---
+
 
 ## UDP Vs TCP
 

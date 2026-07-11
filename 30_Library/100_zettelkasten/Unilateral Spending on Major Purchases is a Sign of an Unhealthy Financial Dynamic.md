@@ -1,16 +1,25 @@
 ---
-aliases: [Unilateral Spending]
-created: 2025-11-10T10:17:00+00:00
-last_reviewed: ''
-modified: 2026-07-04T10:51:44+00:00
+aliases:
+- Unilateral Spending
+created: 2025-11-10 10:17:00+00:00
+modified: 2026-07-04 10:51:44+00:00
 permalink: llmeon/30-library/100-zettelkasten/unilateral-spending-on-major-purchases-is-a-sign-of-an-unhealthy-financial-dynamic
-status: seedling
-tags: [boundaries, conflict, finance, relationship]
-title: Unilateral Spending on Major Purchases is a Sign of an Unhealthy Financial Dynamic
-  Dynamic
-type: concept
-updated: null
+tags:
+- boundaries
+- conflict
+- finance
+- relationship
+title: Unilateral Spending on Major Purchases is a Sign of an Unhealthy Financial
+  Dynamic Dynamic
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: seedling
+  review:
+    last_reviewed: ''
 ---
+
 
 ## Unilateral Spending on Major Purchases is a Sign of an Unhealthy Financial Dynamic
 

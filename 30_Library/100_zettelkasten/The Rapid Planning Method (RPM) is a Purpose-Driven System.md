@@ -1,15 +1,25 @@
 ---
-aliases: [RPM]
-created: 2025-11-10T14:14:00+00:00
-last_reviewed: ''
-modified: 2026-07-04T10:51:44+00:00
+aliases:
+- RPM
+created: 2025-11-10 14:14:00+00:00
+modified: 2026-07-04 10:51:44+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-rapid-planning-method-rpm-is-a-purpose-driven-system
-status: seedling
-tags: [goals, purpose, TheHuman/Motivation, topic/productivity, topic/systems]
+tags:
+- goals
+- purpose
+- TheHuman/Motivation
+- topic/productivity
+- topic/systems
 title: The Rapid Planning Method (RPM) is a Purpose-Driven System
-type: concept
-updated: null
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: seedling
+  review:
+    last_reviewed: ''
 ---
+
 
 ## The Rapid Planning Method (RPM) is a Purpose-Driven System
 

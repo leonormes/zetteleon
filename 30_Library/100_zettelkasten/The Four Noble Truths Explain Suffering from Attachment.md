@@ -1,15 +1,25 @@
 ---
-aliases: [Dukkha, Four Noble Truths]
-created: 2025-11-01T12:20:03+00:00
-last_reviewed: '2025-11-01'
-modified: 2026-07-04T10:51:44+00:00
+aliases:
+- Dukkha
+- Four Noble Truths
+created: 2025-11-01 12:20:03+00:00
+modified: 2026-07-04 10:51:44+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-four-noble-truths-explain-suffering-from-attachment
-status: seedling
-tags: [attachment, buddhism, suffering, zen]
+tags:
+- attachment
+- buddhism
+- suffering
+- zen
 title: The Four Noble Truths Explain Suffering from Attachment
-type: concept
-updated: null
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: seedling
+  review:
+    last_reviewed: '2025-11-01'
 ---
+
 
 ## The Four Noble Truths Explain Suffering from Attachment
 

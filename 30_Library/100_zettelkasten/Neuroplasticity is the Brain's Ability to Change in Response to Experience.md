@@ -1,15 +1,24 @@
 ---
-aliases: [Neuroplasticity]
-created: 2025-11-10T16:16:00+00:00
-last_reviewed: ''
-modified: 2026-07-04T10:51:48+00:00
+aliases:
+- Neuroplasticity
+created: 2025-11-10 16:16:00+00:00
+modified: 2026-07-04 10:51:48+00:00
 permalink: llmeon/30-library/100-zettelkasten/neuroplasticity-is-the-brains-ability-to-change-in-response-to-experience
-status: seedling
-tags: [brain, learning, neuroplasticity, TheHuman/Neuroscience]
-title: "Neuroplasticity is the Brain's Ability to Change in Response to Experience"
-type: concept
-updated: null
+tags:
+- brain
+- learning
+- neuroplasticity
+- TheHuman/Neuroscience
+title: Neuroplasticity is the Brain's Ability to Change in Response to Experience
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: seedling
+  review:
+    last_reviewed: ''
 ---
+
 
 ## Neuroplasticity is the Brain's Ability to Change in Response to Experience
 

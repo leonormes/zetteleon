@@ -1,15 +1,24 @@
 ---
-aliases: [ADS, Aerobic Deficiency Syndrome]
-created: 2026-01-08T12:43:00+00:00
-last_reviewed: 2026-01-08
-modified: 2026-07-10T23:18:00+01:00
+aliases:
+- ADS
+- Aerobic Deficiency Syndrome
+created: 2026-01-08 12:43:00+00:00
+modified: 2026-07-10 23:18:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/aerobic-deficiency-syndrome-results-from-an-underdeveloped-aerobic-system
-status: seedling
-tags: [fatigue, health, syndrome]
+tags:
+- fatigue
+- health
+- syndrome
 title: Aerobic Deficiency Syndrome Results from an Underdeveloped Aerobic System
-type: concept
-updated: 2026-01-08 12:43:00+00:00
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: seedling
+  review:
+    last_reviewed: 2026-01-08
 ---
+
 
 ## Aerobic Deficiency Syndrome Results from an Underdeveloped Aerobic System
 

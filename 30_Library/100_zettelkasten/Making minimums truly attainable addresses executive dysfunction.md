@@ -1,16 +1,26 @@
 ---
-aliases: [Attainable minimums, Executive dysfunction strategy]
-created: 2025-10-30T18:06:00+00:00
-last_reviewed: 'null'
-modified: 2026-07-04T10:51:49+00:00
+aliases:
+- Attainable minimums
+- Executive dysfunction strategy
+created: 2025-10-30 18:06:00+00:00
+modified: 2026-07-04 10:51:49+00:00
 permalink: llmeon/30-library/100-zettelkasten/making-minimums-truly-attainable-addresses-executive-dysfunction
 source: '[[MOC - The Honeyman Method]]'
-status: seedling
-tags: [executive-dysfunction, routines, strategy, TheHuman/Health/ADHD]
+tags:
+- executive-dysfunction
+- routines
+- strategy
+- TheHuman/Health/ADHD
 title: Making minimums truly attainable addresses executive dysfunction
-type: concept
-updated: null
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: seedling
+  review:
+    last_reviewed: 'null'
 ---
+
 
 Making minimums truly attainable addresses executive dysfunction by setting the bar for "success" low enough that it remains achievable even during periods of severe executive function impairment, while still maintaining the routine structure that prevents complete habit collapse.
 

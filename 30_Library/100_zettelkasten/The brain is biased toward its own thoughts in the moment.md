@@ -1,15 +1,24 @@
 ---
-aliases: [first-person thought bias, self-thought bias]
-created: 2025-10-31T20:47:00+00:00
-last_reviewed: '2025-10-31'
-modified: 2026-07-04T10:51:44+00:00
+aliases:
+- first-person thought bias
+- self-thought bias
+created: 2025-10-31 20:47:00+00:00
+modified: 2026-07-04 10:51:44+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-brain-is-biased-toward-its-own-thoughts-in-the-moment
-status: seedling
-tags: [bias, metacognition, TheHuman/Cognition]
+tags:
+- bias
+- metacognition
+- TheHuman/Cognition
 title: The brain is biased toward its own thoughts in the moment
-type: concept
-updated: null
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: seedling
+  review:
+    last_reviewed: '2025-10-31'
 ---
+
 
 ## The Brain is Biased toward Its Own Thoughts in the Moment
 

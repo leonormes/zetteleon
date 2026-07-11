@@ -1,15 +1,26 @@
 ---
-aliases: [Modern Fables]
-created: 2025-11-01T21:39:00+00:00
-last_reviewed: '2025-11-01'
-modified: 2026-07-04T10:51:51+00:00
+aliases:
+- Modern Fables
+created: 2025-11-01 21:39:00+00:00
+modified: 2026-07-04 10:51:51+00:00
 permalink: llmeon/30-library/100-zettelkasten/fables-in-modern-media-range-from-cartoons-to-political-allegory
-status: evergreen
-tags: [animation, fable, history, literature, modern-media, storytelling]
+tags:
+- animation
+- fable
+- history
+- literature
+- modern-media
+- storytelling
 title: Fables in Modern Media Range from Cartoons to Political Allegory
-type: concept
-updated: null
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: evergreen
+  review:
+    last_reviewed: '2025-11-01'
 ---
+
 
 In the 20th and 21st centuries, the fable form has been adapted into a wide range of modern media, demonstrating its enduring flexibility.
 

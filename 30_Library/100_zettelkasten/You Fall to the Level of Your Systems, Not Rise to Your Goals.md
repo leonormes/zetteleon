@@ -1,15 +1,25 @@
 ---
-aliases: [Process Primacy, System-Level Determines Outcomes]
-created: 2025-11-06T19:55:02+00:00
-last_reviewed: '2025-11-06'
-modified: 2026-07-04T10:51:43+00:00
+aliases:
+- Process Primacy
+- System-Level Determines Outcomes
+created: 2025-11-06 19:55:02+00:00
+modified: 2026-07-04 10:51:43+00:00
 permalink: llmeon/30-library/100-zettelkasten/you-fall-to-the-level-of-your-systems-not-rise-to-your-goals
-status: seedling
-tags: [goals, outcomes, TheHuman/Habits, topic/systems]
+tags:
+- goals
+- outcomes
+- TheHuman/Habits
+- topic/systems
 title: You Fall to the Level of Your Systems, Not Rise to Your Goals
-type: concept
-updated: null
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: seedling
+  review:
+    last_reviewed: '2025-11-06'
 ---
+
 
 ## You Fall to the Level of Your Systems, Not Rise to Your Goals
 

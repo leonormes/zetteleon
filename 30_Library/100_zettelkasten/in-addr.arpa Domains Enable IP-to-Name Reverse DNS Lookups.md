@@ -1,15 +1,22 @@
 ---
-aliases: [Reverse DNS]
-created: 2025-10-31T10:50:00+00:00
-last_reviewed: ''
-modified: 2026-07-04T10:51:43+00:00
+aliases:
+- Reverse DNS
+created: 2025-10-31 10:50:00+00:00
+modified: 2026-07-04 10:51:43+00:00
 permalink: llmeon/30-library/100-zettelkasten/in-addr.arpa-domains-enable-ip-to-name-reverse-dns-lookups
-status: seedling
-tags: [SoftwareEngineering/Networking, SoftwareEngineering/networking/dns]
+tags:
+- SoftwareEngineering/Networking
+- SoftwareEngineering/networking/dns
 title: in-addr.arpa Domains Enable IP-to-Name Reverse DNS Lookups
-type: concept
-updated: null
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: seedling
+  review:
+    last_reviewed: ''
 ---
+
 
 ## in-addr.arpa Domains Enable IP-to-Name Reverse DNS Lookups
 

@@ -1,15 +1,24 @@
 ---
-aliases: [Originality as Synthesis]
-created: 2025-11-06T19:59:00+00:00
-last_reviewed: '2025-11-06'
-modified: 2026-07-04T10:51:48+00:00
+aliases:
+- Originality as Synthesis
+created: 2025-11-06 19:59:00+00:00
+modified: 2026-07-04 10:51:48+00:00
 permalink: llmeon/30-library/100-zettelkasten/originality-is-the-unique-synthesis-of-existing-ideas
-status: stable
-tags: [ideas, originality, synthesis, TheHuman/Creativity]
+tags:
+- ideas
+- originality
+- synthesis
+- TheHuman/Creativity
 title: Originality is the Unique Synthesis of Existing Ideas
-type: concept
-updated: null
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: stable
+  review:
+    last_reviewed: '2025-11-06'
 ---
+
 
 ## Originality is the Unique Synthesis of Existing Ideas
 

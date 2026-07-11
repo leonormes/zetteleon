@@ -1,15 +1,23 @@
 ---
-aliases: [Modern Work Complexity]
-created: 2025-11-01T12:30:05+00:00
-last_reviewed: '2025-11-01'
-modified: 2026-07-04T10:51:49+00:00
+aliases:
+- Modern Work Complexity
+created: 2025-11-01 12:30:05+00:00
+modified: 2026-07-04 10:51:49+00:00
 permalink: llmeon/30-library/100-zettelkasten/modern-work-environments-are-typically-wicked
-status: seedling
-tags: [adaptability, environment, work]
+tags:
+- adaptability
+- environment
+- work
 title: Modern Work Environments are Typically Wicked
-type: concept
-updated: null
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: seedling
+  review:
+    last_reviewed: '2025-11-01'
 ---
+
 
 ## Modern Work Environments Are Typically Wicked
 

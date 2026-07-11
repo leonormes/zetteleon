@@ -1,15 +1,22 @@
 ---
 aliases: []
-created: 2025-10-31T10:15:00+00:00
-last_reviewed: ''
-modified: 2026-07-04T10:51:49+00:00
+created: 2025-10-31 10:15:00+00:00
+modified: 2026-07-04 10:51:49+00:00
 permalink: llmeon/30-library/100-zettelkasten/layer-3-network-security-protects-ip-routing-and-forwarding
-status: seedling
-tags: [layer3, SoftwareEngineering/Networking, SoftwareEngineering/Security]
+tags:
+- layer3
+- SoftwareEngineering/Networking
+- SoftwareEngineering/Security
 title: Layer 3 Network Security Protects IP Routing and Forwarding
-type: concept
-updated: null
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: seedling
+  review:
+    last_reviewed: ''
 ---
+
 
 ## Layer 3 Network Security Protects IP Routing and Forwarding
 

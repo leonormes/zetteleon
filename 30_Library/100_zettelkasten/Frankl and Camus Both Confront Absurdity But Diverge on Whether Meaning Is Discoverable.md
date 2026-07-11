@@ -1,11 +1,18 @@
 ---
-created: 2026-04-10T00:00:00+00:00
-modified: 2026-07-04T10:51:51+00:00
+created: 2026-04-10 00:00:00+00:00
+modified: 2026-07-04 10:51:51+00:00
 permalink: llmeon/30-library/100-zettelkasten/frankl-and-camus-both-confront-absurdity-but-diverge-on-whether-meaning-is-discoverable
-tags: [existentialism, meaning, philosophy, resilience]
-title: Frankl and Camus Both Confront Absurdity But Diverge on Whether Meaning Is Discoverable
-  Discoverable
+tags:
+- existentialism
+- meaning
+- philosophy
+- resilience
+title: Frankl and Camus Both Confront Absurdity But Diverge on Whether Meaning Is
+  Discoverable Discoverable
+prodos:
+  kind: atomic
 ---
+
 
 ## Frankl and Camus Both Confront Absurdity But Diverge on Whether Meaning Is Discoverable
 

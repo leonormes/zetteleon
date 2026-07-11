@@ -1,10 +1,17 @@
 ---
-created: 2026-04-10T13:00:00+00:00
-modified: 2026-07-04T10:51:45+00:00
+created: 2026-04-10 13:00:00+00:00
+modified: 2026-07-04 10:51:45+00:00
 permalink: llmeon/30-library/100-zettelkasten/structured-collaboration-systems-replace-hyperactive-hive-mind-messaging-cultures
-tags: [collaboration, communication, team-efficiency, workflow]
+tags:
+- collaboration
+- communication
+- team-efficiency
+- workflow
 title: Structured Collaboration Systems Replace Hyperactive Hive-Mind Messaging Cultures
+prodos:
+  kind: atomic
 ---
+
 
 ## Structured Collaboration Systems Replace Hyperactive Hive-Mind Messaging Cultures
 

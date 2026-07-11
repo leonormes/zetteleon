@@ -1,15 +1,21 @@
 ---
 aliases: []
-created: 2025-10-31T12:47:00+00:00
-last_reviewed: ''
-modified: 2026-07-11T12:34:00+01:00
+created: 2025-10-31 12:47:00+00:00
+modified: 2026-07-11 12:34:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/constructive-debate-in-psychological-safety
-status: seedling
-tags: [teamwork, TheHuman/Psychology]
+tags:
+- teamwork
+- TheHuman/Psychology
 title: Constructive Debate in Psychological Safety
-type: concept
-updated: null
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: seedling
+  review:
+    last_reviewed: ''
 ---
+
 
 ## Constructive Debate in Psychological Safety
 

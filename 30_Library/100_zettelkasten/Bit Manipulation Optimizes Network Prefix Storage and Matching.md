@@ -1,15 +1,22 @@
 ---
 aliases: []
-created: 2025-10-31T10:19:00+00:00
-last_reviewed: ''
-modified: 2026-07-04T10:51:54+00:00
+created: 2025-10-31 10:19:00+00:00
+modified: 2026-07-04 10:51:54+00:00
 permalink: llmeon/30-library/100-zettelkasten/bit-manipulation-optimizes-network-prefix-storage-and-matching
-status: seedling
-tags: [algorithms, optimization, SoftwareEngineering/Networking]
+tags:
+- algorithms
+- optimization
+- SoftwareEngineering/Networking
 title: Bit Manipulation Optimizes Network Prefix Storage and Matching
-type: concept
-updated: null
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: seedling
+  review:
+    last_reviewed: ''
 ---
+
 
 ## Bit Manipulation Optimizes Network Prefix Storage and Matching
 

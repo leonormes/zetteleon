@@ -1,15 +1,24 @@
 ---
-aliases: [felt vs actual importance, significance-substance gap]
-created: 2025-10-31T20:48:00+00:00
-last_reviewed: '2025-10-31'
-modified: 2026-07-04T10:51:51+00:00
+aliases:
+- felt vs actual importance
+- significance-substance gap
+created: 2025-10-31 20:48:00+00:00
+modified: 2026-07-04 10:51:51+00:00
 permalink: llmeon/30-library/100-zettelkasten/felt-significance-of-thoughts-can-mislead-about-their-substance
-status: seedling
-tags: [critical-thinking, metacognition, TheHuman/Cognition]
+tags:
+- critical-thinking
+- metacognition
+- TheHuman/Cognition
 title: Felt significance of thoughts can mislead about their substance
-type: concept
-updated: null
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: seedling
+  review:
+    last_reviewed: '2025-10-31'
 ---
+
 
 ## Felt Significance of Thoughts Can Mislead about Their Substance
 

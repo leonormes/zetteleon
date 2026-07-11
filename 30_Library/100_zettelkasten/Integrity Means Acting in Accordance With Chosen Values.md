@@ -1,15 +1,24 @@
 ---
 aliases: []
-created: 2025-11-01T09:51:13+00:00
-last_reviewed: 'null'
-modified: 2026-07-04T10:51:50+00:00
+created: 2025-11-01 09:51:13+00:00
+modified: 2026-07-04 10:51:50+00:00
 permalink: llmeon/30-library/100-zettelkasten/integrity-means-acting-in-accordance-with-chosen-values
-status: seedling
-tags: [authenticity, integrity, TheHuman/Identity, topic/philosophy, values]
+tags:
+- authenticity
+- integrity
+- TheHuman/Identity
+- topic/philosophy
+- values
 title: Integrity Means Acting in Accordance With Chosen Values
-type: concept
-updated: null
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: seedling
+  review:
+    last_reviewed: 'null'
 ---
+
 
 ## Integrity Means Acting in Accordance With Chosen Values
 

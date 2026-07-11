@@ -1,15 +1,27 @@
 ---
-aliases: [C10K problem, maximum sockets, socket limits]
-created: 2025-10-31T13:43:00+00:00
-last_reviewed: '2025-10-31'
-modified: 2026-07-04T10:51:46+00:00
+aliases:
+- C10K problem
+- maximum sockets
+- socket limits
+created: 2025-10-31 13:43:00+00:00
+modified: 2026-07-04 10:51:46+00:00
 permalink: llmeon/30-library/100-zettelkasten/server-socket-scalability-limits
-status: seedling
-tags: [performance, scalability, server, socket, SoftwareEngineering/Networking]
+tags:
+- performance
+- scalability
+- server
+- socket
+- SoftwareEngineering/Networking
 title: Server Socket Scalability Limits
-type: concept
-updated: null
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: seedling
+  review:
+    last_reviewed: '2025-10-31'
 ---
+
 
 ## Server Socket Scalability Limits
 

@@ -1,16 +1,23 @@
 ---
 aliases: []
-created: 2025-10-30T12:10:02+00:00
-last_reviewed: ''
-modified: 2026-07-04T10:51:51+00:00
+created: 2025-10-30 12:10:02+00:00
+modified: 2026-07-04 10:51:51+00:00
 permalink: llmeon/30-library/100-zettelkasten/focus-on-the-process-not-the-product-in-daily-writing
 source: '[[MOC - Daily Writing for Clarity and ADHD-Friendly Techniques]]'
-status: stable
-tags: [process, TheHuman/Mindset, writing]
+tags:
+- process
+- TheHuman/Mindset
+- writing
 title: Focus on the Process Not the Product in Daily Writing
-type: concept
-updated: null
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: stable
+  review:
+    last_reviewed: ''
 ---
+
 
 ## Focus on the Process Not the Product in Daily Writing
 

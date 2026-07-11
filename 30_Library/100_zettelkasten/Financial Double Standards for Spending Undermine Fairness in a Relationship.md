@@ -1,15 +1,24 @@
 ---
-aliases: [Spending Double Standards]
-created: 2025-11-10T10:18:00+00:00
-last_reviewed: ''
-modified: 2026-07-04T10:51:51+00:00
+aliases:
+- Spending Double Standards
+created: 2025-11-10 10:18:00+00:00
+modified: 2026-07-04 10:51:51+00:00
 permalink: llmeon/30-library/100-zettelkasten/financial-double-standards-for-spending-undermine-fairness-in-a-relationship
-status: seedling
-tags: [conflict, fairness, finance, relationship]
+tags:
+- conflict
+- fairness
+- finance
+- relationship
 title: Financial Double Standards for Spending Undermine Fairness in a Relationship
-type: concept
-updated: null
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: seedling
+  review:
+    last_reviewed: ''
 ---
+
 
 ## Financial Double Standards for Spending Undermine Fairness in a Relationship
 

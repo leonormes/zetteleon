@@ -1,15 +1,23 @@
 ---
-aliases: [AWS Shield, Azure DDoS Protection]
-created: 2025-12-24T12:00:00+00:00
-last_reviewed: ''
-modified: 2026-07-11T12:34:00+01:00
+aliases:
+- AWS Shield
+- Azure DDoS Protection
+created: 2025-12-24 12:00:00+00:00
+modified: 2026-07-11 12:34:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/ddo-s-protection-service
-status: seedling
-tags: [SoftwareEngineering/Networking, SoftwareEngineering/Security]
+tags:
+- SoftwareEngineering/Networking
+- SoftwareEngineering/Security
 title: DDoS Protection Service
-type: concept
-updated: null
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: seedling
+  review:
+    last_reviewed: ''
 ---
+
 
 ## DDoS Protection Service
 

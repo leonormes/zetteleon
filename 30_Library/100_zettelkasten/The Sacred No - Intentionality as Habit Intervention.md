@@ -1,15 +1,25 @@
 ---
-aliases: [Habit Intervention, Intentional Choice, The Sacred Yes]
-created: 2025-12-24T12:00:00+00:00
-last_reviewed: 2025-12-24
-modified: 2026-07-04T10:51:44+00:00
+aliases:
+- Habit Intervention
+- Intentional Choice
+- The Sacred Yes
+created: 2025-12-24 12:00:00+00:00
+modified: 2026-07-04 10:51:44+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-sacred-no-intentionality-as-habit-intervention
-status: stable
-tags: [action, intentionality, productivity]
+tags:
+- action
+- intentionality
+- productivity
 title: The Sacred No - Intentionality as Habit Intervention
-type: concept
-updated: null
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: stable
+  review:
+    last_reviewed: 2025-12-24
 ---
+
 
 To live intentionally, an agent must cultivate the ability to perform a Sacred No.
 

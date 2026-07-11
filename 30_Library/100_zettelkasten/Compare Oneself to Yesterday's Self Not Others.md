@@ -1,15 +1,23 @@
 ---
-aliases: [Self-Comparison]
-created: 2025-11-01T12:30:09+00:00
-last_reviewed: '2025-11-01'
-modified: 2026-07-04T10:51:53+00:00
+aliases:
+- Self-Comparison
+created: 2025-11-01 12:30:09+00:00
+modified: 2026-07-04 10:51:53+00:00
 permalink: llmeon/30-library/100-zettelkasten/compare-oneself-to-yesterdays-self-not-others
-status: seedling
-tags: [growth, self-improvement, TheHuman/Mindset]
-title: "Compare Oneself to Yesterday's Self Not Others"
-type: concept
-updated: null
+tags:
+- growth
+- self-improvement
+- TheHuman/Mindset
+title: Compare Oneself to Yesterday's Self Not Others
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: seedling
+  review:
+    last_reviewed: '2025-11-01'
 ---
+
 
 ## Compare Oneself to Yesterday's Self Not Others
 

@@ -1,15 +1,25 @@
 ---
-aliases: [Archivist vs Writer Mindset, Storage vs Discovery]
-created: 2025-10-30T15:33:36+00:00
-last_reviewed: '2025-10-30T00:00:00.000Z'
-modified: 2026-07-04T10:51:43+00:00
+aliases:
+- Archivist vs Writer Mindset
+- Storage vs Discovery
+created: 2025-10-30 15:33:36+00:00
+modified: 2026-07-04 10:51:43+00:00
 permalink: llmeon/30-library/100-zettelkasten/writer-thinking-vs-archivist-thinking
-status: seedling
-tags: [organization, TheHuman/Mindset, topic/pkm, topic/pkm/zettelkasten]
+tags:
+- organization
+- TheHuman/Mindset
+- topic/pkm
+- topic/pkm/zettelkasten
 title: Writer Thinking vs Archivist Thinking
-type: concept
-updated: null
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: seedling
+  review:
+    last_reviewed: '2025-10-30T00:00:00.000Z'
 ---
+
 
 ## Writer Thinking Vs Archivist Thinking
 

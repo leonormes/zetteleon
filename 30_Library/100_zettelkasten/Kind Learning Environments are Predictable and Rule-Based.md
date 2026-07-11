@@ -1,15 +1,23 @@
 ---
-aliases: [Kind Environment]
-created: 2025-11-01T12:30:03+00:00
-last_reviewed: '2025-11-01'
-modified: 2026-07-04T10:51:49+00:00
+aliases:
+- Kind Environment
+created: 2025-11-01 12:30:03+00:00
+modified: 2026-07-04 10:51:49+00:00
 permalink: llmeon/30-library/100-zettelkasten/kind-learning-environments-are-predictable-and-rule-based
-status: seedling
-tags: [environment, learning, predictability]
+tags:
+- environment
+- learning
+- predictability
 title: Kind Learning Environments are Predictable and Rule-Based
-type: concept
-updated: null
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: seedling
+  review:
+    last_reviewed: '2025-11-01'
 ---
+
 
 ## Kind Learning Environments Are Predictable and Rule-Based
 

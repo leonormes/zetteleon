@@ -2,9 +2,7 @@
 aliases:
 - External Knowledge Gap
 created: 2025-11-06 20:01:01+00:00
-last_reviewed: '2025-11-06'
 modified: 2026-02-01 15:08:25+00:00
-status: seedling
 tags:
 - collaboration
 - group-dynamics
@@ -12,10 +10,16 @@ tags:
 - mental-model
 title: The Knowledge Gap is the Difference Between Total Understanding and a Team's
   Collective Knowledge
-type: concept
-updated: null
 permalink: llmeon/30-library/100-zettelkasten/the-knowledge-gap-is-the-difference-between-total-understanding-and-a-teams-collective-knowledge
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: seedling
+  review:
+    last_reviewed: '2025-11-06'
 ---
+
 
 ## The Knowledge Gap is the Difference Between Total Understanding and a Team's Collective Knowledge
 

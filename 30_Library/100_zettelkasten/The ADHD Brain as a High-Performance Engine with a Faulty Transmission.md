@@ -1,15 +1,23 @@
 ---
-aliases: [Race Car Brain Bicycle Brakes]
-created: 2025-11-12T15:00:01+00:00
-last_reviewed: ''
-modified: 2026-07-04T10:51:45+00:00
+aliases:
+- Race Car Brain Bicycle Brakes
+created: 2025-11-12 15:00:01+00:00
+modified: 2026-07-04 10:51:45+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-adhd-brain-as-a-high-performance-engine-with-a-faulty-transmission
-status: seedling
-tags: [executive-function, metaphor, TheHuman/Health/ADHD]
+tags:
+- executive-function
+- metaphor
+- TheHuman/Health/ADHD
 title: The ADHD Brain as a High-Performance Engine with a Faulty Transmission
-type: concept
-updated: null
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: seedling
+  review:
+    last_reviewed: ''
 ---
+
 
 ## The ADHD Brain as a High-Performance Engine with a Faulty Transmission
 

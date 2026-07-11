@@ -1,13 +1,23 @@
 ---
-created: 2026-05-31T00:00:00+00:00
-modified: 2026-07-04T10:51:51+00:00
+created: 2026-05-31 00:00:00+00:00
+modified: 2026-07-04 10:51:51+00:00
 permalink: llmeon/30-library/100-zettelkasten/executive-function
-prerequisite_of: ["[[Claim - Capture is easy but processing is hard]]"]
-related_to: ["[[Cognitive Load]]", "[[MOC - ADHD and PKM Systems]]"]
-tags: [adhd, cognition, executive-function]
+prerequisite_of:
+- '[[Claim - Capture is easy but processing is hard]]'
+related_to:
+- '[[Cognitive Load]]'
+- '[[MOC - ADHD and PKM Systems]]'
+tags:
+- adhd
+- cognition
+- executive-function
 title: Executive Function
-type: concept
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
 ---
+
 
 ## Executive Function
 

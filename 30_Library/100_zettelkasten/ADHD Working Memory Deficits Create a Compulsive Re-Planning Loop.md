@@ -1,15 +1,24 @@
 ---
-aliases: [Re-planning Loop]
-created: 2025-11-12T15:00:03+00:00
-last_reviewed: ''
-modified: 2026-07-04T10:51:54+00:00
+aliases:
+- Re-planning Loop
+created: 2025-11-12 15:00:03+00:00
+modified: 2026-07-04 10:51:54+00:00
 permalink: llmeon/30-library/100-zettelkasten/adhd-working-memory-deficits-create-a-compulsive-re-planning-loop
-status: seedling
-tags: [anxiety, rumination, TheHuman/Health/ADHD, working-memory]
+tags:
+- anxiety
+- rumination
+- TheHuman/Health/ADHD
+- working-memory
 title: ADHD Working Memory Deficits Create a Compulsive Re-Planning Loop
-type: concept
-updated: null
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: seedling
+  review:
+    last_reviewed: ''
 ---
+
 
 ## ADHD Working Memory Deficits Create a Compulsive Re-Planning Loop
 

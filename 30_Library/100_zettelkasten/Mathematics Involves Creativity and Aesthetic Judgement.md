@@ -1,15 +1,23 @@
 ---
-aliases: [Mathematics as Creative Art]
-created: 2025-11-01T11:22:13+00:00
-last_reviewed: '2025-11-01T00:00:00.000Z'
-modified: 2026-07-04T10:51:49+00:00
+aliases:
+- Mathematics as Creative Art
+created: 2025-11-01 11:22:13+00:00
+modified: 2026-07-04 10:51:49+00:00
 permalink: llmeon/30-library/100-zettelkasten/mathematics-involves-creativity-and-aesthetic-judgement
-status: seedling
-tags: [aesthetics, TheHuman/Creativity, topic/maths]
+tags:
+- aesthetics
+- TheHuman/Creativity
+- topic/maths
 title: Mathematics Involves Creativity and Aesthetic Judgement
-type: concept
-updated: null
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: seedling
+  review:
+    last_reviewed: '2025-11-01T00:00:00.000Z'
 ---
+
 
 Summary: Mathematics is fundamentally an art form and creative field where mathematicians engage in creativity, visualization, pattern detection, and experimentation, much like artists and musicians.
 

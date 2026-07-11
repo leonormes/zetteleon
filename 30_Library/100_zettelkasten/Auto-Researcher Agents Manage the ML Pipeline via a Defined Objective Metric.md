@@ -1,10 +1,17 @@
 ---
-created: 2026-04-10T13:00:00+00:00
-modified: 2026-07-04T10:51:54+00:00
+created: 2026-04-10 13:00:00+00:00
+modified: 2026-07-04 10:51:54+00:00
 permalink: llmeon/30-library/100-zettelkasten/auto-researcher-agents-manage-the-ml-pipeline-via-a-defined-objective-metric
-tags: [automl, machine-learning, optimisation, research-agents]
+tags:
+- automl
+- machine-learning
+- optimisation
+- research-agents
 title: Auto-Researcher Agents Manage the ML Pipeline via a Defined Objective Metric
+prodos:
+  kind: atomic
 ---
+
 
 ## Auto-Researcher Agents Manage the ML Pipeline via a Defined Objective Metric
 

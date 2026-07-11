@@ -1,15 +1,26 @@
 ---
-aliases: [Entry Index, Index, Keyword List]
-created: 2025-10-30T15:33:36+00:00
-last_reviewed: '2025-10-30T00:00:00.000Z'
-modified: 2026-07-04T10:51:50+00:00
+aliases:
+- Entry Index
+- Index
+- Keyword List
+created: 2025-10-30 15:33:36+00:00
+modified: 2026-07-04 10:51:50+00:00
 permalink: llmeon/30-library/100-zettelkasten/keyword-index-provides-sparse-entry-points
-status: seedling
-tags: [indexing, navigation, topic/pkm, topic/pkm/zettelkasten]
+tags:
+- indexing
+- navigation
+- topic/pkm
+- topic/pkm/zettelkasten
 title: Keyword Index Provides Sparse Entry Points
-type: concept
-updated: null
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: seedling
+  review:
+    last_reviewed: '2025-10-30T00:00:00.000Z'
 ---
+
 
 ## Keyword Index Provides Sparse Entry Points
 

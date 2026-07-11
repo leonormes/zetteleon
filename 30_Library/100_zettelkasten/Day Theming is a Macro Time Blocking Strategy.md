@@ -1,15 +1,25 @@
 ---
-aliases: [Day Theming]
-created: 2025-11-10T14:11:00+00:00
-last_reviewed: ''
-modified: 2026-07-11T12:34:00+01:00
+aliases:
+- Day Theming
+created: 2025-11-10 14:11:00+00:00
+modified: 2026-07-11 12:34:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/day-theming-is-a-macro-time-blocking-strategy
-status: seedling
-tags: [planning, strategy, time-blocking, topic/productivity]
+tags:
+- planning
+- strategy
+- time-blocking
+- topic/productivity
 title: Day Theming is a Macro Time Blocking Strategy
-type: concept
-updated: null
+project_name: ProdOS
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: seedling
+  review:
+    last_reviewed: ''
 ---
+
 
 ## Day Theming is a Macro Time Blocking Strategy
 

@@ -1,15 +1,23 @@
 ---
-aliases: [Patternicity]
-created: 2025-11-01T12:00:03+00:00
-last_reviewed: '2025-11-01'
-modified: 2026-07-04T10:51:54+00:00
+aliases:
+- Patternicity
+created: 2025-11-01 12:00:03+00:00
+modified: 2026-07-04 10:51:54+00:00
 permalink: llmeon/30-library/100-zettelkasten/apophenia-is-the-tendency-to-perceive-patterns-in-random-data
-status: seedling
-tags: [apophenia, bias, TheHuman/Cognition]
+tags:
+- apophenia
+- bias
+- TheHuman/Cognition
 title: Apophenia is the Tendency to Perceive Patterns in Random Data
-type: concept
-updated: null
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: seedling
+  review:
+    last_reviewed: '2025-11-01'
 ---
+
 
 ## Apophenia is the Tendency to Perceive Patterns in Random Data
 

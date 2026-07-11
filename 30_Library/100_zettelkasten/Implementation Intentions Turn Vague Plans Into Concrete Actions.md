@@ -1,15 +1,25 @@
 ---
-aliases: [Specific Plans, When-Where Planning]
-created: 2025-11-01T20:22:24+00:00
-last_reviewed: '2025-11-01'
-modified: 2026-07-04T10:51:50+00:00
+aliases:
+- Specific Plans
+- When-Where Planning
+created: 2025-11-01 20:22:24+00:00
+modified: 2026-07-04 10:51:50+00:00
 permalink: llmeon/30-library/100-zettelkasten/implementation-intentions-turn-vague-plans-into-concrete-actions
-status: seedling
-tags: [planning, strategy, TheHuman/Habits, topic/productivity]
+tags:
+- planning
+- strategy
+- TheHuman/Habits
+- topic/productivity
 title: Implementation Intentions Turn Vague Plans Into Concrete Actions
-type: concept
-updated: null
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: seedling
+  review:
+    last_reviewed: '2025-11-01'
 ---
+
 
 Summary: Implementation intentions are specific plans for when and where actions will occur, transforming vague notions into concrete plans that sweep away ambiguity and create triggers for action.
 

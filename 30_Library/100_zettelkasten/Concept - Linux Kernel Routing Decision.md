@@ -1,15 +1,20 @@
 ---
 aliases: []
-created: 2025-11-22T15:00:02+00:00
-last_reviewed: '2025-11-22'
-modified: 2026-07-04T10:51:53+00:00
+created: 2025-11-22 15:00:02+00:00
+modified: 2026-07-04 10:51:53+00:00
 permalink: llmeon/30-library/100-zettelkasten/concept-linux-kernel-routing-decision
-status: seedling
-tags: [SoftwareEngineering/networking/routing]
+tags:
+- SoftwareEngineering/networking/routing
 title: Concept - Linux Kernel Routing Decision
-type: concept
-updated: null
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: seedling
+  review:
+    last_reviewed: '2025-11-22'
 ---
+
 
 ## Linux Kernel Routing Decision
 

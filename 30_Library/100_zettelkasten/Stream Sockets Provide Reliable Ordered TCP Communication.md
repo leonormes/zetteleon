@@ -1,15 +1,25 @@
 ---
-aliases: [stream sockets, TCP sockets]
-created: 2025-10-31T13:37:00+00:00
-last_reviewed: '2025-10-31'
-modified: 2026-07-04T10:51:45+00:00
+aliases:
+- stream sockets
+- TCP sockets
+created: 2025-10-31 13:37:00+00:00
+modified: 2026-07-04 10:51:45+00:00
 permalink: llmeon/30-library/100-zettelkasten/stream-sockets-provide-reliable-ordered-tcp-communication
-status: seedling
-tags: [protocol, socket, SoftwareEngineering/Networking, tcp]
+tags:
+- protocol
+- socket
+- SoftwareEngineering/Networking
+- tcp
 title: Stream Sockets Provide Reliable Ordered TCP Communication
-type: concept
-updated: null
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: seedling
+  review:
+    last_reviewed: '2025-10-31'
 ---
+
 
 ## Stream Sockets Provide Reliable Ordered TCP Communication
 

@@ -1,10 +1,17 @@
 ---
-created: 2026-04-10T12:00:00+00:00
-modified: 2026-07-04T10:51:53+00:00
+created: 2026-04-10 12:00:00+00:00
+modified: 2026-07-04 10:51:53+00:00
 permalink: llmeon/30-library/100-zettelkasten/continuous-autonomous-agent-loops-incur-significant-api-cost
-tags: [api-costs, constraints, economics, scalability]
+tags:
+- api-costs
+- constraints
+- economics
+- scalability
 title: Continuous Autonomous Agent Loops Incur Significant API Cost
+prodos:
+  kind: atomic
 ---
+
 
 ## Continuous Autonomous Agent Loops Incur Significant API Cost
 

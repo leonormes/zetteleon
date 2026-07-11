@@ -1,15 +1,28 @@
 ---
-aliases: [epoll, event-driven IO, kqueue]
-created: 2025-10-31T13:42:00+00:00
-last_reviewed: '2025-10-31'
-modified: 2026-07-04T10:51:51+00:00
+aliases:
+- epoll
+- event-driven IO
+- kqueue
+created: 2025-10-31 13:42:00+00:00
+modified: 2026-07-04 10:51:51+00:00
 permalink: llmeon/30-library/100-zettelkasten/event-driven-socket-handling-with-epoll-and-kqueue
-status: seedling
-tags: [bsd, performance, scalability, socket, SoftwareEngineering/Linux, SoftwareEngineering/Networking]
+tags:
+- bsd
+- performance
+- scalability
+- socket
+- SoftwareEngineering/Linux
+- SoftwareEngineering/Networking
 title: Event-Driven Socket Handling with epoll and kqueue
-type: concept
-updated: null
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: seedling
+  review:
+    last_reviewed: '2025-10-31'
 ---
+
 
 ## Event-Driven Socket Handling with Epoll and Kqueue
 

@@ -1,15 +1,23 @@
 ---
-aliases: [Aerobic Function]
-created: 2026-01-08T12:41:00+00:00
-last_reviewed: 2026-01-08
-modified: 2026-07-10T23:18:00+01:00
+aliases:
+- Aerobic Function
+created: 2026-01-08 12:41:00+00:00
+modified: 2026-07-10 23:18:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/aerobic-function-efficiently-burns-fat-for-long-term-energy
-status: seedling
-tags: [fat-burning, fitness, physiology]
+tags:
+- fat-burning
+- fitness
+- physiology
 title: Aerobic Function Efficiently Burns Fat for Long-Term Energy
-type: concept
-updated: 2026-01-08 12:41:00+00:00
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: seedling
+  review:
+    last_reviewed: 2026-01-08
 ---
+
 
 ## Aerobic Function Efficiently Burns Fat for Long-Term Energy
 

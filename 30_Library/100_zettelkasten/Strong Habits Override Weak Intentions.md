@@ -1,15 +1,24 @@
 ---
-aliases: [Habits Override Intentions]
-created: 2025-11-06T19:56:01+00:00
-last_reviewed: '2025-11-06'
-modified: 2026-07-04T10:51:45+00:00
+aliases:
+- Habits Override Intentions
+created: 2025-11-06 19:56:01+00:00
+modified: 2026-07-04 10:51:45+00:00
 permalink: llmeon/30-library/100-zettelkasten/strong-habits-override-weak-intentions
-status: seedling
-tags: [intentions, TheHuman/Habits, TheHuman/Motivation, topic/systems]
+tags:
+- intentions
+- TheHuman/Habits
+- TheHuman/Motivation
+- topic/systems
 title: Strong Habits Override Weak Intentions
-type: concept
-updated: null
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: seedling
+  review:
+    last_reviewed: '2025-11-06'
 ---
+
 
 ## Strong Habits Override Weak Intentions
 

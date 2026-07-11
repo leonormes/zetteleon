@@ -1,15 +1,24 @@
 ---
 aliases: []
-created: 2025-11-01T09:51:13+00:00
-last_reviewed: ''
-modified: 2026-07-04T10:51:49+00:00
+created: 2025-11-01 09:51:13+00:00
+modified: 2026-07-04 10:51:49+00:00
 permalink: llmeon/30-library/100-zettelkasten/narrative-identity-is-the-story-we-construct-about-our-experiences
-status: seedling
-tags: [narrative-identity, self, storytelling, TheHuman/Identity, TheHuman/Psychology]
+tags:
+- narrative-identity
+- self
+- storytelling
+- TheHuman/Identity
+- TheHuman/Psychology
 title: Narrative Identity is the Story We Construct About Our Experiences
-type: concept
-updated: null
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: seedling
+  review:
+    last_reviewed: ''
 ---
+
 
 ## Narrative Identity is the Story We Construct About Our Experiences
 

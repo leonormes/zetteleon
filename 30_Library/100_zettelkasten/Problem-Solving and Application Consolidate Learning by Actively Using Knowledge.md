@@ -1,15 +1,24 @@
 ---
-aliases: [Learning by Doing]
-created: 2025-11-10T16:13:00+00:00
-last_reviewed: ''
-modified: 2026-07-04T10:51:47+00:00
+aliases:
+- Learning by Doing
+created: 2025-11-10 16:13:00+00:00
+modified: 2026-07-04 10:51:47+00:00
 permalink: llmeon/30-library/100-zettelkasten/problem-solving-and-application-consolidate-learning-by-actively-using-knowledge
-status: seedling
-tags: [application, learning, problem-solving, schema-theory]
+tags:
+- application
+- learning
+- problem-solving
+- schema-theory
 title: Problem-Solving and Application Consolidate Learning by Actively Using Knowledge
-type: concept
-updated: null
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: seedling
+  review:
+    last_reviewed: ''
 ---
+
 
 ## Problem-Solving and Application Consolidate Learning by Actively Using Knowledge
 

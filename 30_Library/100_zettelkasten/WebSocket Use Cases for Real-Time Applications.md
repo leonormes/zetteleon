@@ -1,15 +1,24 @@
 ---
-aliases: [WebSocket applications]
-created: 2025-10-31T13:45:00+00:00
-last_reviewed: '2025-10-31'
-modified: 2026-07-04T10:51:43+00:00
+aliases:
+- WebSocket applications
+created: 2025-10-31 13:45:00+00:00
+modified: 2026-07-04 10:51:43+00:00
 permalink: llmeon/30-library/100-zettelkasten/web-socket-use-cases-for-real-time-applications
-status: seedling
-tags: [applications, real-time, use-cases, websocket]
+tags:
+- applications
+- real-time
+- use-cases
+- websocket
 title: WebSocket Use Cases for Real-Time Applications
-type: concept
-updated: null
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: seedling
+  review:
+    last_reviewed: '2025-10-31'
 ---
+
 
 ## WebSocket Use Cases for Real-Time Applications
 

@@ -1,16 +1,24 @@
 ---
-alias: [Prime Density, Prime Number Theorem]
+alias:
+- Prime Density
+- Prime Number Theorem
 aliases: []
-created: 2025-12-24T12:00:00+00:00
-last_reviewed: 2025-12-24
-modified: 2026-07-04T10:51:47+00:00
+created: 2025-12-24 12:00:00+00:00
+modified: 2026-07-04 10:51:47+00:00
 permalink: llmeon/30-library/100-zettelkasten/primes-become-rarer-but-remain-searchable
-status: stable
-tags: [cryptography, maths]
+tags:
+- cryptography
+- maths
 title: Primes Become Rarer But Remain Searchable
-type: concept
-updated: null
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: stable
+  review:
+    last_reviewed: 2025-12-24
 ---
+
 
 As numbers get larger, the Density of Primes decreases. This is because larger numbers have more opportunities to be divisible by smaller primes (the "filtering effect").
 

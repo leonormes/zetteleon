@@ -1,10 +1,18 @@
 ---
-created: 2026-04-10T13:00:00+00:00
-modified: 2026-07-04T10:51:54+00:00
+created: 2026-04-10 13:00:00+00:00
+modified: 2026-07-04 10:51:54+00:00
 permalink: llmeon/30-library/100-zettelkasten/cli-ai-automation-can-ingest-external-data-streams-into-markdown-vaults
-tags: [api-ingestion, automation, claude-code, obsidian, second-brain]
+tags:
+- api-ingestion
+- automation
+- claude-code
+- obsidian
+- second-brain
 title: CLI-AI Automation Can Ingest External Data Streams into Markdown Vaults
+prodos:
+  kind: atomic
 ---
+
 
 ## CLI-AI Automation Can Ingest External Data Streams into Markdown Vaults
 

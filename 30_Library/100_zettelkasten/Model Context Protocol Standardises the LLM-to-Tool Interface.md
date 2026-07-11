@@ -1,10 +1,17 @@
 ---
-created: 2026-04-10T13:00:00+00:00
-modified: 2026-07-04T10:51:49+00:00
+created: 2026-04-10 13:00:00+00:00
+modified: 2026-07-04 10:51:49+00:00
 permalink: llmeon/30-library/100-zettelkasten/model-context-protocol-standardises-the-llm-to-tool-interface
-tags: [ai-infrastructure, interoperability, mcp, standardization]
+tags:
+- ai-infrastructure
+- interoperability
+- mcp
+- standardization
 title: Model Context Protocol Standardises the LLM-to-Tool Interface
+prodos:
+  kind: atomic
 ---
+
 
 ## Model Context Protocol Standardises the LLM-to-Tool Interface
 

@@ -1,15 +1,22 @@
 ---
 aliases: []
-created: 2025-10-31T09:25:27+00:00
-last_reviewed: ''
-modified: 2026-07-04T10:51:49+00:00
+created: 2025-10-31 09:25:27+00:00
+modified: 2026-07-04 10:51:49+00:00
 permalink: llmeon/30-library/100-zettelkasten/load-balancer-health-checks-ensure-traffic-is-routed-only-to-healthy-servers
-status: seedling
-tags: [load-balancing, reliability, SoftwareEngineering/Networking]
+tags:
+- load-balancing
+- reliability
+- SoftwareEngineering/Networking
 title: Load Balancer Health Checks Ensure Traffic is Routed Only to Healthy Servers
-type: concept
-updated: null
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: seedling
+  review:
+    last_reviewed: ''
 ---
+
 
 ## Load Balancer Health Checks Ensure Traffic is Routed Only to Healthy Servers
 

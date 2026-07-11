@@ -1,15 +1,24 @@
 ---
-aliases: [Accepting Impermanence]
-created: 2025-11-01T12:20:02+00:00
-last_reviewed: '2025-11-01'
-modified: 2026-07-10T11:15:00+01:00
+aliases:
+- Accepting Impermanence
+created: 2025-11-01 12:20:02+00:00
+modified: 2026-07-10 11:15:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/zen-practice-centers-on-accepting-impermanence
-status: seedling
-tags: [acceptance, buddhism, impermanence, zen]
+tags:
+- acceptance
+- buddhism
+- impermanence
+- zen
 title: Zen Practice Centers on Accepting Impermanence
-type: concept
-updated: null
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: seedling
+  review:
+    last_reviewed: '2025-11-01'
 ---
+
 
 ## Zen Practice Centers on Accepting Impermanence
 

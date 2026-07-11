@@ -1,15 +1,24 @@
 ---
 aliases: []
-created: 2025-11-10T13:06:00+00:00
-last_reviewed: ''
-modified: 2026-07-04T10:51:47+00:00
+created: 2025-11-10 13:06:00+00:00
+modified: 2026-07-04 10:51:47+00:00
 permalink: llmeon/30-library/100-zettelkasten/proto-systems-function-through-social-accountability-and-implicit-learning
-status: seedling
-tags: [accountability, history, sociology, topic/productivity, topic/systems]
+tags:
+- accountability
+- history
+- sociology
+- topic/productivity
+- topic/systems
 title: Proto-systems Function Through Social Accountability and Implicit Learning
-type: concept
-updated: null
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: seedling
+  review:
+    last_reviewed: ''
 ---
+
 
 ## Proto-systems Function Through Social Accountability and Implicit Learning
 

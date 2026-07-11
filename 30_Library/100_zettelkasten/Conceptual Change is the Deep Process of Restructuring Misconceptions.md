@@ -1,15 +1,24 @@
 ---
-aliases: [Conceptual Change]
-created: 2025-11-10T16:04:00+00:00
-last_reviewed: ''
-modified: 2026-07-10T23:27:00+01:00
+aliases:
+- Conceptual Change
+created: 2025-11-10 16:04:00+00:00
+modified: 2026-07-10 23:27:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/conceptual-change-is-the-deep-process-of-restructuring-misconceptions
-status: seedling
-tags: [conceptual-change, learning, misconceptions, TheHuman/Cognition]
+tags:
+- conceptual-change
+- learning
+- misconceptions
+- TheHuman/Cognition
 title: Conceptual Change is the Deep Process of Restructuring Misconceptions
-type: concept
-updated: null
+prodos:
+  kind: atomic
+  atomic:
+    form: concept
+  lifecycle: seedling
+  review:
+    last_reviewed: ''
 ---
+
 
 ## Conceptual Change is the Deep Process of Restructuring Misconceptions
 
