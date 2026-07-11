@@ -2,9 +2,8 @@
 aliases: []
 created: 2025-10-30T12:01:05+00:00
 last_reviewed: ''
-modified: 2026-07-04T10:51:53+00:00
+modified: 2026-07-11T12:34:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/consistent-creative-practice-strengthens-the-habit
-source: '[[MOC - You Need to Romanticize Your Process]]'
 status: seedling
 tags: [consistency, TheHuman/Creativity, TheHuman/Habits]
 title: Consistent Creative Practice Strengthens the Habit

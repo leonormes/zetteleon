@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-31T12:47:00+00:00
 last_reviewed: ''
-modified: 2026-07-04T10:51:53+00:00
+modified: 2026-07-11T12:34:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/constructive-debate-in-psychological-safety
 status: seedling
 tags: [teamwork, TheHuman/Psychology]
