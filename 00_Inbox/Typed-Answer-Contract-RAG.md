@@ -1,6 +1,6 @@
 ---
 created: 2026-07-10T17:08:29+00:00
-modified: 2026-07-10T17:10:28+00:00
+modified: 2026-07-12T06:41:15+00:00
 permalink: llmeon/00-inbox/typed-answer-contract-rag
 tags: [8A]
 title: Typed-Answer-Contract-RAG
@@ -11,13 +11,9 @@ type: note
 
 > TDS Article: _Stop Returning Text from RAG: The Typed Answer Contract That Prevents Hallucination_ (July 4, 2026)[^1]
 
-*
-
 ### Executive Summary
 
 The article argues that returning free-form text from a RAG pipeline is the _primary architectural source_ of hallucinations in production systems—not just bad retrieval. The fix is to replace the "answer in prose" step with a Typed Answer Contract (TAC): a strict Pydantic/JSON Schema that the LLM must populate. If the output doesn't conform to the schema, the pipeline rejects it. This transforms the LLM from a creative writer into a deterministic data extractor—verifiable, testable, and integrable directly into downstream systems.[^2][^3]
-
-*
 
 ### The Core Problem: Unlimited Degrees of Freedom
 
@@ -28,8 +24,6 @@ Standard RAG pipelines end with an instruction like _"Based on the context, answ
 - Produce output downstream systems (CRM, ERP, workflows) cannot parse without error-prone regex or another LLM call[^2]
 
 Production debugging data cited in the article estimates ~30% of hallucinations are not due to bad retrieval but due to the LLM generating content with no grounding in the provided text—because fluency is rewarded over accuracy in training. A block of free-form text hides false dates, wrong prices, or fabricated legal clauses in plain sight.[^4][^5]
-
-*
 
 ### The Solution: Schema is the Contract
 
@@ -59,8 +53,6 @@ class EvidenceField(BaseModel):
     page_number: int
 ```
 
-*
-
 ### Implementation: The `instructor` Library
 
 Enforcement relies on constrained decoding at the API level. Every major LLM provider as of 2026 supports structured output modes—OpenAI `response_format` with JSON Schema, Anthropic Tool Use, Gemini `response_mime_type`. The recommended library is `instructor` (v3.x), which wraps any LLM client and enforces Pydantic validation with automatic retry:[^6][^4][^2]
@@ -84,8 +76,6 @@ def ask_rag(question: str, context: str) -> RAGAnswer:
 
 `instructor` automatically converts the Pydantic model to a JSON schema, passes it as a tool definition, validates the response, and retries with the validation error message if it fails—achieving 95%+ correction on first retry. For self-hosted infrastructure (vLLM, llama.cpp), constrained decoding enforces JSON grammar at the token-generation level, making non-conforming outputs structurally impossible.[^7][^6]
 
-*
-
 ### Text-based RAG vs. Typed Answer Contract
 
 | Feature | Text-based RAG | Typed Answer Contract |
@@ -98,10 +88,6 @@ def ask_rag(question: str, context: str) -> RAGAnswer:
 | Auditability | Weak—no source linkage | Strong—every field tied to a chunk ID |
 | Failure handling | Silent wrong answer | Pipeline rejects or flags automatically |
 
-[^8][^2][^3]
-
-*
-
 ### Validation and Completeness Checks
 
 The article goes beyond schema enforcement and introduces two additional safety layers:[^2]
@@ -109,8 +95,6 @@ The article goes beyond schema enforcement and introduces two additional safety 
 Self-assessment fields—Confidence scores, extraction methods, and `evidence_conflict` flags are embedded directly in the schema. This turns the LLM into an active diagnostic tool: it signals whether retrieved context was complete or whether contradictions were found, enabling the pipeline to trigger a broader retrieval search before presenting results.[^2]
 
 Overlap page verification—Because LLMs can only evaluate what they see, a truncated document may _look_ complete. The architecture pulls an additional overlap page alongside the primary retrieved context. While the model generates its response, the pipeline checks the trailing page to confirm whether lists or clauses were cut off artificially. If continuation content is found, the partial result is rejected and retrieval is retried.[^2]
-
-*
 
 ### Claimed Results and Validation
 
@@ -123,8 +107,6 @@ What the article does _not_ claim:
 - TAC is not a complete fix—broken retrieval still produces broken answers within a valid schema[^4]
 - Schema complexity is a genuine trade-off; schemas with 15+ nested fields degrade model performance[^4]
 - Self-assessed confidence fields can themselves be overconfident; secondary validation or a second LLM call is recommended for critical fields[^4]
-
-*
 
 ### What This Offers You (Leon—DevOps / AI Pipeline Context)
 
@@ -145,8 +127,6 @@ Given your Go learning track, infrastructure automation focus, and LLM prompt en
 #### ADHD-workflow Fit
 
 The pattern removes ambiguity from the _output_ of AI tools you use in your own workflow. A structured response with `confidence`, `missing_info`, and `source_ids` gives you immediate, scannable signal—no need to re-read a paragraph to judge if an AI answer is trustworthy.
-
-*
 
 ### Key Takeaway
 
