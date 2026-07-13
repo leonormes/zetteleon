@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T00:00:00+00:00
-modified: 2026-07-13T08:44:57+00:00
+modified: 2026-07-13T08:52:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/meaning-is-discovered-through-creative-experiential-and-attitudinal-values
 tags: [creativity, meaning, suffering, values]
 title: Meaning Is Discovered Through Creative Experiential and Attitudinal Values

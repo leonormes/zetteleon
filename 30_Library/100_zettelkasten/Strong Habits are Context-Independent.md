@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-10-30T12:05:03+00:00
-modified: 2026-07-13T08:45:00+00:00
+modified: 2026-07-13T08:52:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/strong-habits-are-context-independent
 source: '[[MOC - The Science of Making and Breaking Habits]]'
 tags: [automation, context, TheHuman/Habits]

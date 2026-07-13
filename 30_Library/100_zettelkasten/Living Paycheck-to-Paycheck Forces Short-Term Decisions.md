@@ -2,7 +2,7 @@
 aliases: [The Paycheck Cycle Trap]
 created: 2025-11-18T14:36:00+00:00
 last_reviewed: ''
-modified: 2026-07-13T08:44:57+00:00
+modified: 2026-07-13T08:52:28+00:00
 permalink: llmeon/30-library/100-zettelkasten/living-paycheck-to-paycheck-forces-short-term-decisions
 status: ''
 tags: [budgeting, finance, TheHuman/Psychology]

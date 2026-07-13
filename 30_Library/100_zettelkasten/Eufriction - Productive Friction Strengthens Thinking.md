@@ -1,7 +1,7 @@
 ---
 aliases: [Desirable Difficulty, Good Friction, Productive Friction]
 created: 2025-10-30T15:33:36+00:00
-modified: 2026-07-13T08:44:55+00:00
+modified: 2026-07-13T08:52:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/eufriction-productive-friction-strengthens-thinking
 tags: [cognitive-work, learning, topic/pkm, topic/pkm/zettelkasten]
 title: Eufriction - Productive Friction Strengthens Thinking

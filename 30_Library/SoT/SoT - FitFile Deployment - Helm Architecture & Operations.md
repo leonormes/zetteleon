@@ -1,6 +1,6 @@
 ---
 created: 2025-02-07T12:57:55+00:00
-modified: 2026-07-13T08:45:12+00:00
+modified: 2026-07-13T08:52:46+00:00
 permalink: llmeon/30-library/so-t/so-t-fit-file-deployment-helm-architecture-operations
 Reviewed: false
 tags: [architecture, deployment, fitfile, helm, kubernetes, sop]

@@ -1,7 +1,7 @@
 ---
 aliases: [Fixed Schedule Productivity]
 created: 2025-11-01T21:06:00+00:00
-modified: 2026-07-13T08:44:55+00:00
+modified: 2026-07-13T08:52:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/fixed-schedule-productivity-creates-artificial-constraints-to-drive-efficiency
 tags: [method, scheduling, time-management, topic/productivity]
 title: Fixed-Schedule Productivity Creates Artificial Constraints to Drive Efficiency

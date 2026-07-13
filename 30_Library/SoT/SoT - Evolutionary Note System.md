@@ -1,7 +1,7 @@
 ---
 aliases: [Evolving Notes, Living Note System, NeuroStack Workflow, The Merge Protocol]
 created: 2025-11-13T00:00:00+00:00
-modified: 2026-07-13T08:45:12+00:00
+modified: 2026-07-13T08:52:46+00:00
 permalink: llmeon/30-library/so-t/so-t-evolutionary-note-system
 tags: [ai, knowledge-management, pkm, synthesis, TheHuman/Cognition, thinking]
 title: SoT - Evolutionary Note System

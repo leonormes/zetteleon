@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-11-01T09:51:13+00:00
-modified: 2026-07-13T08:44:58+00:00
+modified: 2026-07-13T08:52:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/probabilistic-thinking-treats-beliefs-as-hypotheses-with-confidence-levels
 tags: [epistemology, mental-model, probabilistic-thinking, uncertainty]
 title: Probabilistic Thinking Treats Beliefs as Hypotheses With Confidence Levels

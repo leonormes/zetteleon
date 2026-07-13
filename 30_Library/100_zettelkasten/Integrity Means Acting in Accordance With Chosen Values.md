@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-11-01T09:51:13+00:00
-modified: 2026-07-13T08:44:56+00:00
+modified: 2026-07-13T08:52:28+00:00
 permalink: llmeon/30-library/100-zettelkasten/integrity-means-acting-in-accordance-with-chosen-values
 tags: [authenticity, integrity, TheHuman/Identity, topic/philosophy, values]
 title: Integrity Means Acting in Accordance With Chosen Values

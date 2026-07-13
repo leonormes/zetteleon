@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T12:00:00+00:00
-modified: 2026-07-13T08:44:56+00:00
+modified: 2026-07-13T08:52:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/heartbeat-intervention-protocol
 tags: [autonomous-agents, loops, optimization, protocol]
 title: Heartbeat Intervention Protocol

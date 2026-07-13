@@ -1,7 +1,7 @@
 ---
 aliases: [DAG Properties]
 created: 2025-11-10T15:08:00+00:00
-modified: 2026-07-13T08:44:55+00:00
+modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/directed-acyclic-graphs-for-action-sequences-are-directed-acyclic-and-graph-structured
 tags: [definition, graph-theory, topic/productivity, workflow]
 title: Directed Acyclic Graphs for Action Sequences Are Directed Acyclic and Graph-Structured

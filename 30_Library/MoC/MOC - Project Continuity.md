@@ -4,7 +4,7 @@ created: 2025-11-11T19:05:01+00:00
 criteria: Atomic notes explaining the cognitive challenges or providing specific strategies
   to bridge work sessions.
 exclusions: General project management techniques not focused on cognitive re-engagement.
-modified: 2026-07-13T08:45:06+00:00
+modified: 2026-07-13T08:52:38+00:00
 permalink: llmeon/30-library/mo-c/moc-project-continuity
 scope: Strategies for maintaining engagement and continuity in long-term projects,
   especially for neurodivergent minds.

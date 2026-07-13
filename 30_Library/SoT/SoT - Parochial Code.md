@@ -1,7 +1,7 @@
 ---
 aliases: [Boundary Violation, Location-Unaware Code, Myopic Coding]
 created: 2026-01-30T06:57:15+00:00
-modified: 2026-07-13T08:45:19+00:00
+modified: 2026-07-13T08:52:52+00:00
 permalink: llmeon/30-library/so-t/so-t-parochial-code
 see_also: []
 superseded_by: ''

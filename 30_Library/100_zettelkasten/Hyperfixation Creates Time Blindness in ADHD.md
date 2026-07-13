@@ -1,7 +1,7 @@
 ---
 aliases: [Loss of Time Awareness in ADHD, Time Blindness During Hyperfocus]
 created: 2025-11-01T11:37:53+00:00
-modified: 2026-07-13T08:44:56+00:00
+modified: 2026-07-13T08:52:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/hyperfixation-creates-time-blindness-in-adhd
 tags: [hyperfocus, TheHuman/Cognition, TheHuman/Health/ADHD, time-perception]
 title: Hyperfixation Creates Time Blindness in ADHD

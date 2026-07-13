@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-27T19:18:49+00:00
 last_reviewed: 'null'
-modified: 2026-07-13T08:45:00+00:00
+modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-distinction-between-appreciation-and-creation
 status: 'null'
 tags: [TheHuman/Creativity, TheHuman/Mindset, topic/learning, topic/philosophy]

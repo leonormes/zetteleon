@@ -1,7 +1,7 @@
 ---
 aliases: [Flexible Structure]
 created: 2025-11-01T21:12:00+00:00
-modified: 2026-07-13T08:44:55+00:00
+modified: 2026-07-13T08:52:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/flexibility-within-structure-is-key-to-sustainable-timeboxing
 tags: [balance, flexibility, scheduling, time-management, topic/productivity]
 title: Flexibility Within Structure is Key to Sustainable Timeboxing

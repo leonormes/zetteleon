@@ -1,7 +1,7 @@
 ---
 aliases: [Learning to Learn]
 created: 2025-11-01T12:00:07+00:00
-modified: 2026-07-13T08:44:58+00:00
+modified: 2026-07-13T08:52:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/patterns-are-the-scaffolding-of-knowledge
 tags: [learning, scaffolding, TheHuman/Cognition]
 title: Patterns are the Scaffolding of Knowledge

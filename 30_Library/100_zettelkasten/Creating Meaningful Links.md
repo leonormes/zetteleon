@@ -3,7 +3,7 @@ aliases: []
 created: 2025-02-07T12:57:54+00:00
 ID: creating_meaningful_links
 last_reviewed: 'null'
-modified: 2026-07-13T08:44:54+00:00
+modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/creating-meaningful-links
 status: 'null'
 tags: [knowledge-work, linking, topic/pkm/zettelkasten]

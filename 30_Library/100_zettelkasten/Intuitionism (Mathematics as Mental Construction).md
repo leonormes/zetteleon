@@ -1,7 +1,7 @@
 ---
 aliases: [Constructivism]
 created: 2025-11-01T11:22:13+00:00
-modified: 2026-07-13T08:44:56+00:00
+modified: 2026-07-13T08:52:28+00:00
 permalink: llmeon/30-library/100-zettelkasten/intuitionism-mathematics-as-mental-construction
 tags: [constructivism, TheHuman/Philosophy, topic/maths]
 title: Intuitionism (Mathematics as Mental Construction)

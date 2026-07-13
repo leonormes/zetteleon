@@ -1,7 +1,7 @@
 ---
 aliases: [Music and Community]
 created: 2025-11-10T11:09:00+00:00
-modified: 2026-07-13T08:44:53+00:00
+modified: 2026-07-13T08:52:24+00:00
 permalink: llmeon/30-library/100-zettelkasten/authentic-music-creates-communities-while-commercial-music-creates-consumers
 tags: [authenticity, community, consumerism, music]
 title: Authentic Music Creates Communities While Commercial Music Creates Consumers

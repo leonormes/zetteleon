@@ -1,7 +1,7 @@
 ---
 aliases: [Basal Ganglia Action Selection]
 created: 2025-11-10T17:04:00+00:00
-modified: 2026-07-13T08:44:53+00:00
+modified: 2026-07-13T08:52:23+00:00
 permalink: llmeon/30-library/100-zettelkasten/action-initiation-involves-a-balance-between-direct-and-indirect-pathways-in-the-basal-ganglia
 tags: [action, basal-ganglia, brain, TheHuman/Neuroscience]
 title: Action Initiation Involves a Balance Between Direct and Indirect Pathways in the Basal Ganglia

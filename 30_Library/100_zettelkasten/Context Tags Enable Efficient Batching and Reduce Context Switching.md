@@ -1,7 +1,7 @@
 ---
 aliases: [Context Tag Benefits]
 created: 2025-11-10T15:05:00+00:00
-modified: 2026-07-13T08:44:54+00:00
+modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/context-tags-enable-efficient-batching-and-reduce-context-switching
 tags: [action, context, organization, topic/productivity]
 title: Context Tags Enable Efficient Batching and Reduce Context Switching

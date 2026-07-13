@@ -1,7 +1,7 @@
 ---
 aliases: [ADHD Coping Mechanisms, ADHD Strengths SoT, Race Car Brain with Bicycle Brakes, Vitamin Connect]
 created: 2026-02-03T10:30:00+00:00
-modified: 2026-07-13T08:45:09+00:00
+modified: 2026-07-13T08:52:42+00:00
 permalink: llmeon/30-library/so-t/so-t-adhd-self-compassion-strengths
 source_of_truth: true
 tags: [emotional-regulation, mental-health, prodos/sot, self-compassion, TheHuman/Health/ADHD]

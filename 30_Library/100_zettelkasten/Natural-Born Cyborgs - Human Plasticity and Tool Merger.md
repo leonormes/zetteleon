@@ -2,7 +2,7 @@
 alias: [Human-Machine Merger, Neural Plasticity and Tools]
 aliases: []
 created: 2025-12-24T12:00:00+00:00
-modified: 2026-07-13T08:44:58+00:00
+modified: 2026-07-13T08:52:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/natural-born-cyborgs-human-plasticity-and-tool-merger
 tags: [evolution, neuroplasticity, TheHuman/Philosophy]
 title: Natural-Born Cyborgs - Human Plasticity and Tool Merger

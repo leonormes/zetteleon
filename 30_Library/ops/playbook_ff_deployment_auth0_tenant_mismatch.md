@@ -1,7 +1,7 @@
 ---
 created: 2026-02-22T17:07:12+00:00
 last_verified: 2026-02-22
-modified: 2026-07-13T08:45:31+00:00
+modified: 2026-07-13T08:53:03+00:00
 permalink: llmeon/30-library/ops/playbook-ff-deployment-auth0-tenant-mismatch
 severity: p1
 tags: [auth0, crashloopbackoff, deployment, init, playbook, vault]

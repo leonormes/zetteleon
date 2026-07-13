@@ -1,7 +1,7 @@
 ---
 aliases: [180-Formula, MAF Heart Rate]
 created: 2026-01-08T12:40:00+00:00
-modified: 2026-07-13T08:45:00+00:00
+modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-maf-180-formula-calculates-the-maximum-aerobic-heart-rate
 tags: [fitness, health, heart-rate]
 title: The MAF 180-Formula Calculates the Maximum Aerobic Heart Rate

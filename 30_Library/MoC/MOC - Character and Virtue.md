@@ -1,7 +1,7 @@
 ---
 aliases: [24 Character Strengths, Character and Virtue MOC, Map of Content on Character, VIA Character Strengths]
 created: 2025-07-16T17:30:02+00:00
-modified: 2026-07-13T08:45:03+00:00
+modified: 2026-07-13T08:52:36+00:00
 permalink: llmeon/30-library/mo-c/moc-character-and-virtue
 tags: [character, ethics, TheHuman/Psychology, virtue]
 title: MOC - Character and Virtue

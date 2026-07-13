@@ -1,7 +1,7 @@
 ---
 aliases: [The Map is Not the Territory]
 created: 2025-11-06T19:59:03+00:00
-modified: 2026-07-13T08:45:00+00:00
+modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-map-is-not-the-territory
 tags: [epistemology, mental-model, perception, reality]
 title: The Map is Not the Territory

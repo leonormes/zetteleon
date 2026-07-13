@@ -1,7 +1,7 @@
 ---
 aliases: ["Dump Don't Organize", Action-First GTD, LLM Chief of Staff]
 created: 2026-02-11T11:40:00+00:00
-modified: 2026-07-13T08:45:07+00:00
+modified: 2026-07-13T08:52:40+00:00
 permalink: llmeon/30-library/so-t/protocol-action-first-gtd-llm-chief-of-staff
 status: active
 tags: [adhd, gtd, llm, system/protocol]

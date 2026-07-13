@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-11T15:30:49+00:00
 last_reviewed: ''
-modified: 2026-07-13T08:44:59+00:00
+modified: 2026-07-13T08:52:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/stage-0-prepare-the-extended-mind-layer
 status: ''
 tags: []

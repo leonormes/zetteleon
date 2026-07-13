@@ -1,7 +1,7 @@
 ---
 aliases: [Eudaimonia, The Psychology of Duty, Values-Based Living]
 created: 2025-12-14T00:00:00+00:00
-modified: 2026-07-13T08:45:23+00:00
+modified: 2026-07-13T08:52:56+00:00
 permalink: llmeon/30-library/so-t/so-t-values-and-eudaimonia
 tags: [eudaimonia, TheHuman/Health/ADHD, TheHuman/Philosophy, TheHuman/Psychology, values]
 tier: 1-Foundation

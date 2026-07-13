@@ -1,7 +1,7 @@
 ---
 aliases: [Grand Unified Theory of Code, GUT, The Context Engine, The Surgeon Anti-Pattern]
 created: 2026-01-30T10:30:00+00:00
-modified: 2026-07-13T08:45:22+00:00
+modified: 2026-07-13T08:52:54+00:00
 permalink: llmeon/30-library/so-t/so-t-the-context-engine
 tags: [architecture, context-engineering, failure-analysis, history]
 title: SoT - The Context Engine

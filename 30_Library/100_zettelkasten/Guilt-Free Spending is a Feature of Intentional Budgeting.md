@@ -2,7 +2,7 @@
 aliases: [Budgeted Fun Money]
 created: 2025-11-18T14:40:00+00:00
 last_reviewed: ''
-modified: 2026-07-13T08:44:56+00:00
+modified: 2026-07-13T08:52:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/guilt-free-spending-is-a-feature-of-intentional-budgeting
 status: ''
 tags: [budgeting, finance, TheHuman/Psychology]

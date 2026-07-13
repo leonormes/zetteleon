@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-23T20:25:32+00:00
 last_reviewed: 'null'
-modified: 2026-07-13T08:44:55+00:00
+modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/deep-processing-is-the-core-of-zettelkasten
 status: 'null'
 tags: [topic/learning, topic/pkm/zettelkasten]

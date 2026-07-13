@@ -2,7 +2,7 @@
 aliases: [Common Data Model, OHDSI Schema, OMOP CDM]
 created: 2026-01-06T19:25:44+00:00
 last_reviewed: null
-modified: 2026-07-13T08:45:18+00:00
+modified: 2026-07-13T08:52:51+00:00
 permalink: llmeon/30-library/so-t/so-t-omop-common-data-model-cdm
 status: Active
 tags: [data-model, ohdsi, omop, schema]

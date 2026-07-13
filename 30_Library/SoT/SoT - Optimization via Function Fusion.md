@@ -1,7 +1,7 @@
 ---
 aliases: [Deforestation, Fusion, Stream Fusion]
 created: 2025-12-19T00:00:00+00:00
-modified: 2026-07-13T08:45:18+00:00
+modified: 2026-07-13T08:52:51+00:00
 permalink: llmeon/30-library/so-t/so-t-optimization-via-function-fusion
 tags: [compilers, functional-programming, optimization]
 title: SoT - Optimization via Function Fusion

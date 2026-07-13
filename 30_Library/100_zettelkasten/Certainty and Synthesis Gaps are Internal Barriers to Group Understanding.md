@@ -1,7 +1,7 @@
 ---
 aliases: [Certainty Gap, Synthesis Gap]
 created: 2025-11-06T20:01:02+00:00
-modified: 2026-07-13T08:44:53+00:00
+modified: 2026-07-13T08:52:24+00:00
 permalink: llmeon/30-library/100-zettelkasten/certainty-and-synthesis-gaps-are-internal-barriers-to-group-understanding
 tags: [collaboration, communication, group-dynamics, knowledge, TheHuman/Cognition/bias]
 title: Certainty and Synthesis Gaps are Internal Barriers to Group Understanding

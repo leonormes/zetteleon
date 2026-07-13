@@ -1,7 +1,7 @@
 ---
 aliases: [Hierarchy, Social Inequality, Social Stratification]
 created: 2025-12-10T00:00:00+00:00
-modified: 2026-07-13T08:45:21+00:00
+modified: 2026-07-13T08:52:53+00:00
 permalink: llmeon/30-library/so-t/so-t-social-stratification
 tags: [class, inequality, power, sociology, status, structure]
 title: SoT - Social Stratification

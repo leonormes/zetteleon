@@ -1,7 +1,7 @@
 ---
 aliases: [Functional Equivalence, The Inga and Otto Case]
 created: 2025-12-24T12:00:00+00:00
-modified: 2026-07-13T08:45:00+00:00
+modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-parity-principle-functional-equivalence-in-cognition
 tags: [cognition, logic, TheHuman/Philosophy]
 title: The Parity Principle - Functional Equivalence in Cognition

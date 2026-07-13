@@ -1,7 +1,7 @@
 ---
 aliases: [Inner Reflective Mode, Soap Bubble Models, The Fragile Brilliance]
 created: 2025-12-12T18:33:11+00:00
-modified: 2026-07-13T08:45:22+00:00
+modified: 2026-07-13T08:52:55+00:00
 permalink: llmeon/30-library/so-t/so-t-the-internal-world-and-the-need-for-validation
 tags: [mental_models, neurodivergence, TheHuman/Creativity, TheHuman/Psychology, validation]
 title: SoT - The Internal World and the Need for Validation

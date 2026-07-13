@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-11-10T10:00:00+00:00
-modified: 2026-07-13T08:44:59+00:00
+modified: 2026-07-13T08:52:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/reciprocity-is-the-central-pillar-of-a-healthy-partnership
 tags: [partnership, principle, relationship]
 title: Reciprocity is the Central Pillar of a Healthy Partnership

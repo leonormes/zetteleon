@@ -1,7 +1,7 @@
 ---
 aliases: [Creative Intelligence, Framework Generation, Generative Thinking, Paradigm Shift Intelligence, Revolutionary Science]
 created: 2024-03-30T00:00:00+00:00
-modified: 2026-07-13T08:45:14+00:00
+modified: 2026-07-13T08:52:48+00:00
 permalink: llmeon/30-library/so-t/so-t-generative-intelligence
 source_of_truth: true
 tags: [innovation, intelligence, philosophy-of-science, prodos/sot, TheHuman/Cognition, TheHuman/Health/ADHD]

@@ -2,7 +2,7 @@
 alias: [Vault KV Data Structure]
 aliases: []
 created: 2025-12-25T00:00:00+00:00
-modified: 2026-07-13T08:45:23+00:00
+modified: 2026-07-13T08:52:56+00:00
 permalink: llmeon/30-library/so-t/so-t-vault-kv-data-structure
 tags: [data-structures, infrastructure, SoftwareEngineering/Security, vault]
 title: SoT - Vault KV Data Structure

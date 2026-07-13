@@ -1,7 +1,7 @@
 ---
 aliases: [Kind Environment]
 created: 2025-11-01T12:30:03+00:00
-modified: 2026-07-13T08:44:57+00:00
+modified: 2026-07-13T08:52:28+00:00
 permalink: llmeon/30-library/100-zettelkasten/kind-learning-environments-are-predictable-and-rule-based
 tags: [environment, learning, predictability]
 title: Kind Learning Environments are Predictable and Rule-Based

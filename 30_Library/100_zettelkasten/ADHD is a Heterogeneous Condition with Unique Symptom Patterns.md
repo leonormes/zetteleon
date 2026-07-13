@@ -1,7 +1,7 @@
 ---
 aliases: [ADHD Heterogeneity, Unique Symptom Patterns]
 created: 2025-10-30T12:07:04+00:00
-modified: 2026-07-13T08:44:52+00:00
+modified: 2026-07-13T08:52:23+00:00
 permalink: llmeon/30-library/100-zettelkasten/adhd-is-a-heterogeneous-condition-with-unique-symptom-patterns
 source: '[[MOC - ADHD (The Master Map)]]'
 tags: [heterogeneity, TheHuman/Health/ADHD, TheHuman/Neuroscience]

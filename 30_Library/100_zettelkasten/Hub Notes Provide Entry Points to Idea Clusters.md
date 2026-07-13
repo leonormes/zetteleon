@@ -1,7 +1,7 @@
 ---
 aliases: [Access Points, Entry Point Notes, Hub Notes]
 created: 2025-10-30T15:33:36+00:00
-modified: 2026-07-13T08:44:56+00:00
+modified: 2026-07-13T08:52:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/hub-notes-provide-entry-points-to-idea-clusters
 tags: [navigation, structure, topic/pkm, topic/pkm/zettelkasten]
 title: Hub Notes Provide Entry Points to Idea Clusters

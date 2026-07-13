@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-10-30T12:01:06+00:00
-modified: 2026-07-13T08:45:00+00:00
+modified: 2026-07-13T08:52:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/stillness-and-quiet-time-are-vital-for-idea-generation
 source: '[[MOC - You Need to Romanticize Your Process]]'
 tags: [ideation, mindfulness, stillness, TheHuman/Creativity]

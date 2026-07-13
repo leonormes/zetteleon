@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-10-30T12:06:02+00:00
-modified: 2026-07-13T08:44:55+00:00
+modified: 2026-07-13T08:52:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/effective-systems-are-built-from-tiny-initial-actions
 source: '[[MOC - Systems Thinking for Goal Achievement]]'
 tags: [TheHuman/Habits, topic/systems]

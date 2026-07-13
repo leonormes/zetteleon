@@ -2,7 +2,7 @@
 aliases: [Flow Engineering, LLM Orchestration, Programmatic Gates, Prompt Engineering vs Flow Engineering]
 created: 2026-04-06T17:00:00+00:00
 last-synthesis: 2026-04-06
-modified: 2026-07-13T08:45:13+00:00
+modified: 2026-07-13T08:52:48+00:00
 permalink: llmeon/30-library/so-t/so-t-flow-engineering
 see_also: []
 source_of_truth: true

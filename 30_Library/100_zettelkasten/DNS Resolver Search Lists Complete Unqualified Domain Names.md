@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-10-31T10:46:00+00:00
-modified: 2026-07-13T08:44:54+00:00
+modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/dns-resolver-search-lists-complete-unqualified-domain-names
 tags: [SoftwareEngineering/Networking, SoftwareEngineering/networking/dns]
 title: DNS Resolver Search Lists Complete Unqualified Domain Names

@@ -3,7 +3,7 @@ aliases: []
 created: 2025-02-07T12:57:54+00:00
 ID: mundane_tools_value
 last_reviewed: ''
-modified: 2026-07-13T08:44:57+00:00
+modified: 2026-07-13T08:52:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/mundane-tools-value
 status: ''
 tags: [devex]

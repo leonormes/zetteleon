@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-07-18T14:12:00+00:00
-modified: 2026-07-13T08:44:57+00:00
+modified: 2026-07-13T08:52:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/mathematics-is-frequently-described-as-the-science-of-patterns
 tags: [topic/maths]
 title: Mathematics Is Frequently Described as the Science of Patterns

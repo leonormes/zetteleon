@@ -1,7 +1,7 @@
 ---
 aliases: [Organic Music Scenes]
 created: 2025-11-10T11:03:00+00:00
-modified: 2026-07-13T08:44:55+00:00
+modified: 2026-07-13T08:52:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/expressive-music-organically-builds-its-own-scene
 tags: [authenticity, community, culture, expression, music]
 title: Expressive Music Organically Builds Its Own Scene

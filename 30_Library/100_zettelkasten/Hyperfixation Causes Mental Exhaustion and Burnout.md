@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-11-01T11:37:53+00:00
-modified: 2026-07-13T08:44:56+00:00
+modified: 2026-07-13T08:52:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/hyperfixation-causes-mental-exhaustion-and-burnout
 tags: []
 title: Hyperfixation Causes Mental Exhaustion and Burnout

@@ -1,7 +1,7 @@
 ---
 aliases: [Connection over Mastery, Hunter Mindset, Overcoming Imposter Syndrome, The Explorer Mindset]
 created: 2025-08-19T12:05:33+00:00
-modified: 2026-07-13T08:45:20+00:00
+modified: 2026-07-13T08:52:53+00:00
 permalink: llmeon/30-library/so-t/so-t-reframe-your-mindset-from-pretender-to-explorer
 tags: [imposter_syndrome, learning, TheHuman/Health/ADHD, TheHuman/Identity, TheHuman/Mindset]
 title: SoT - Reframe Your Mindset From Pretender to Explorer

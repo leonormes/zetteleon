@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-10-31T10:34:00+00:00
-modified: 2026-07-13T08:44:58+00:00
+modified: 2026-07-13T08:52:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/nat-gateways-enable-private-resources-to-access-internet
 tags: [cloud, SoftwareEngineering/Networking, SoftwareEngineering/Security]
 title: NAT Gateways Enable Private Resources to Access Internet

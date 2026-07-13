@@ -1,7 +1,7 @@
 ---
 aliases: [Cognitive Load, Expertise, Schema Theory, Working Memory]
 created: 2025-12-07T00:00:00+00:00
-modified: 2026-07-13T08:45:23+00:00
+modified: 2026-07-13T08:52:56+00:00
 permalink: llmeon/30-library/so-t/so-t-working-memory-schema-theory
 tags: [learning, psychology, TheHuman/Cognition, TheHuman/Neuroscience]
 title: SoT - Working Memory & Schema Theory

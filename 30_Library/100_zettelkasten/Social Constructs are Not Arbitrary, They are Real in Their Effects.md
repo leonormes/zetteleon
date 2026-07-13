@@ -1,7 +1,7 @@
 ---
 aliases: [Constructed Reality]
 created: 2025-11-06T19:58:01+00:00
-modified: 2026-07-13T08:44:59+00:00
+modified: 2026-07-13T08:52:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/social-constructs-are-not-arbitrary-they-are-real-in-their-effects
 tags: [meaning, reality, social-constructs, TheHuman/Philosophy]
 title: Social Constructs are Not Arbitrary, They are Real in Their Effects

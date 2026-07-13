@@ -1,7 +1,7 @@
 ---
 aliases: [CSR Graph, DOP Data Structures, High-Performance Data Structures, Implicit Heap, Ring Buffer]
 created: 2025-12-31T00:00:00+00:00
-modified: 2026-07-13T08:45:15+00:00
+modified: 2026-07-13T08:52:49+00:00
 permalink: llmeon/30-library/so-t/so-t-high-performance-data-structures
 tags: [data_structures, performance, rust, typescript]
 title: SoT - High-Performance Data Structures

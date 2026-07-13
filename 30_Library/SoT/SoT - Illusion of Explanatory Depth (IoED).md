@@ -1,7 +1,7 @@
 ---
 aliases: ["Collector's Fallacy", Causal Opacity, Consumption Trap, Heuristic Substitution, Information Hoarding, IoED, Passive Consumption, The Toilet Illusion]
 created: 2025-12-12T00:00:00+00:00
-modified: 2026-07-13T08:45:15+00:00
+modified: 2026-07-13T08:52:49+00:00
 permalink: llmeon/30-library/so-t/so-t-illusion-of-explanatory-depth-io-ed
 synthesis_count: 3
 tags: [bias, learning, mental_models, TheHuman/Cognition, TheHuman/Health/ADHD]

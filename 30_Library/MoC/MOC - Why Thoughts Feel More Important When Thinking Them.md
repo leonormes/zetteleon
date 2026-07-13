@@ -6,7 +6,7 @@ criteria: Must directly relate to the phenomenology of thought, externalization 
 exclusions: General philosophy of mind, consciousness studies not directly related
   to the thought-writing distinction
 last_reviewed: '2026-04-08'
-modified: 2026-07-13T08:45:07+00:00
+modified: 2026-07-13T08:52:40+00:00
 permalink: llmeon/30-library/mo-c/moc-why-thoughts-feel-more-important-when-thinking-them
 scope: Explores why thoughts feel more important in the moment of thinking than when
   written down, and the cognitive mechanisms underlying this phenomenon

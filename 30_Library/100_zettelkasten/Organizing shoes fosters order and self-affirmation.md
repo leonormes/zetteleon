@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-10-29T16:35:00+00:00
-modified: 2026-07-13T08:44:58+00:00
+modified: 2026-07-13T08:52:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/organizing-shoes-fosters-order-and-self-affirmation
 source: '[[MOC - 8 simple Japanese habits]]'
 tags: [Japanese_culture, mindfulness, TheHuman/Habits]

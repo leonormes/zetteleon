@@ -1,7 +1,7 @@
 ---
 aliases: [Cognitive Dissonance SoT, The Ambiguity Barrier]
 created: 2025-12-14T00:00:00+00:00
-modified: 2026-07-13T08:45:10+00:00
+modified: 2026-07-13T08:52:44+00:00
 permalink: llmeon/30-library/so-t/so-t-cognitive-ambiguity-and-deep-thinking
 tags: [ambiguity, deep_work, dissonance, mental_models, TheHuman/Cognition, TheHuman/Psychology]
 title: SoT - Cognitive Ambiguity and Deep Thinking

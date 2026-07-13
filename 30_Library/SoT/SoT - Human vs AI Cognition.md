@@ -2,7 +2,7 @@
 aliases: [Active Inference, Anthropomorphism, Cognitive Architectures, Eliza Effect, Grounded Cognition, Human vs LLM]
 created: 2025-12-21T00:00:00+00:00
 last-synthesis: 2026-04-04
-modified: 2026-07-13T08:45:14+00:00
+modified: 2026-07-13T08:52:49+00:00
 permalink: llmeon/30-library/so-t/so-t-human-vs-ai-cognition
 source_of_truth: true
 tags: [ai, epistemology, llm, mental-models, TheHuman/Cognition, TheHuman/Philosophy]

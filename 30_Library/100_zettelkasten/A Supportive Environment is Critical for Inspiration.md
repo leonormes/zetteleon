@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-10-30T12:01:04+00:00
-modified: 2026-07-13T08:44:52+00:00
+modified: 2026-07-13T08:52:23+00:00
 permalink: llmeon/30-library/100-zettelkasten/a-supportive-environment-is-critical-for-inspiration
 tags: [environment, inspiration, TheHuman/Creativity]
 title: A Supportive Environment is Critical for Inspiration

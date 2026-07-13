@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-05-28T14:26:24+00:00
 last_reviewed: 'null'
-modified: 2026-07-13T08:44:53+00:00
+modified: 2026-07-13T08:52:23+00:00
 permalink: llmeon/30-library/100-zettelkasten/all-the-enthusiasm-and-energy-for-a-plan-disappears
 status: 'null'
 tags: [TheHuman/Health/ADHD, TheHuman/Motivation, topic/productivity/gtd]

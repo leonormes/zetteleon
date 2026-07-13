@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-10-29T16:35:00+00:00
-modified: 2026-07-13T08:44:59+00:00
+modified: 2026-07-13T08:52:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/returning-a-chair-to-its-place-shows-respect-for-others
 source: '[[MOC - 8 simple Japanese habits]]'
 tags: [Japanese_culture, mindfulness, respect, TheHuman/Habits]

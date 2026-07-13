@@ -1,7 +1,7 @@
 ---
 aliases: [Mathematics as Creative Art]
 created: 2025-11-01T11:22:13+00:00
-modified: 2026-07-13T08:44:57+00:00
+modified: 2026-07-13T08:52:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/mathematics-involves-creativity-and-aesthetic-judgement
 tags: [aesthetics, TheHuman/Creativity, topic/maths]
 title: Mathematics Involves Creativity and Aesthetic Judgement

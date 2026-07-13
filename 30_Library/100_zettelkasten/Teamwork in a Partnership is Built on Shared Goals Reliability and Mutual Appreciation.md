@@ -1,7 +1,7 @@
 ---
 aliases: [Teamwork in a Relationship]
 created: 2025-11-10T10:06:00+00:00
-modified: 2026-07-13T08:45:00+00:00
+modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/teamwork-in-a-partnership-is-built-on-shared-goals-reliability-and-mutual-appreciation
 tags: [goals, partnership, relationship, teamwork]
 title: Teamwork in a Partnership is Built on Shared Goals Reliability and Mutual Appreciation

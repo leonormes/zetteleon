@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T00:00:00+00:00
-modified: 2026-07-13T08:44:54+00:00
+modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/committing-thought-to-language-reveals-actual-versus-assumed-beliefs
 tags: [cognitive-dissonance, logic, self-reflection, writing]
 title: Committing Thought to Language Reveals Actual Versus Assumed Beliefs

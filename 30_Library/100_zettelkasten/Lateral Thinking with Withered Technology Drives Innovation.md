@@ -1,7 +1,7 @@
 ---
 aliases: [Withered Technology Innovation]
 created: 2025-11-01T12:30:06+00:00
-modified: 2026-07-13T08:44:57+00:00
+modified: 2026-07-13T08:52:28+00:00
 permalink: llmeon/30-library/100-zettelkasten/lateral-thinking-with-withered-technology-drives-innovation
 tags: [innovation, lateral-thinking, TheHuman/Creativity]
 title: Lateral Thinking with Withered Technology Drives Innovation

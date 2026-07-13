@@ -1,7 +1,7 @@
 ---
 aliases: [Theory-Practice Gap]
 created: 2025-11-12T14:10:06+00:00
-modified: 2026-07-13T08:45:00+00:00
+modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-theory-practice-gap-is-the-disconnect-between-academic-knowledge-and-practical-application
 tags: [education, learning, pedagogy]
 title: The Theory-Practice Gap is the Disconnect Between Academic Knowledge and Practical Application

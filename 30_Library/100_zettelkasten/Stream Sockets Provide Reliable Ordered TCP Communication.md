@@ -1,7 +1,7 @@
 ---
 aliases: [stream sockets, TCP sockets]
 created: 2025-10-31T13:37:00+00:00
-modified: 2026-07-13T08:45:00+00:00
+modified: 2026-07-13T08:52:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/stream-sockets-provide-reliable-ordered-tcp-communication
 tags: [protocol, socket, SoftwareEngineering/Networking, tcp]
 title: Stream Sockets Provide Reliable Ordered TCP Communication

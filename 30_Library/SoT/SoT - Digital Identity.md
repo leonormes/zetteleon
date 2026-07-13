@@ -2,7 +2,7 @@
 aliases: [Digital Identity Properties, Human Identity, Identity Fundamentals, Machine Identity]
 created: 2025-12-29T20:02:16+00:00
 last_reviewed: null
-modified: 2026-07-13T08:45:12+00:00
+modified: 2026-07-13T08:52:46+00:00
 permalink: llmeon/30-library/so-t/so-t-digital-identity
 status: Active
 tags: [concepts, iam, SoftwareEngineering/Architecture, SoftwareEngineering/Security, TheHuman/Identity]

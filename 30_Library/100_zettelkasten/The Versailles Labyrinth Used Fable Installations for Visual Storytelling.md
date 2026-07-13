@@ -1,7 +1,7 @@
 ---
 aliases: [Versailles Fable Labyrinth]
 created: 2025-11-01T21:38:00+00:00
-modified: 2026-07-13T08:45:01+00:00
+modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-versailles-labyrinth-used-fable-installations-for-visual-storytelling
 tags: [art, fable, history, SoftwareEngineering/Architecture, storytelling, versailles]
 title: The Versailles Labyrinth Used Fable Installations for Visual Storytelling

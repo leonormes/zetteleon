@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-26T00:00:00+00:00
 last_reviewed: ''
-modified: 2026-07-13T08:45:01+00:00
+modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/time-patterns-and-mathematics
 see_also: []
 source: https://gemini.google.com/share/9b6f6fdd7c5e

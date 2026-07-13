@@ -1,7 +1,7 @@
 ---
 aliases: [Body Schema, Negotiable Bodily Platform, Profound Embodiment, Transparent Equipment]
 created: 2025-12-23T19:53:33+00:00
-modified: 2026-07-13T08:45:22+00:00
+modified: 2026-07-13T08:52:55+00:00
 permalink: llmeon/30-library/so-t/so-t-the-negotiable-body
 tags: [embodiment, extended_mind, somatics, TheHuman/Cognition, TheHuman/Neuroscience]
 title: SoT - The Negotiable Body

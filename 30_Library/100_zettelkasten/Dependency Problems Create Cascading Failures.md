@@ -1,7 +1,7 @@
 ---
 aliases: [Dependency Hell]
 created: 2025-10-31T12:36:00+00:00
-modified: 2026-07-13T08:44:54+00:00
+modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/dependency-problems-create-cascading-failures
 tags: [risk, SoftwareEngineering/Architecture]
 title: Dependency Problems Create Cascading Failures

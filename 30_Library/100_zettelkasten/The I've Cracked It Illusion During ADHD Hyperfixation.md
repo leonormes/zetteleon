@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-11-01T11:37:53+00:00
-modified: 2026-07-13T08:45:00+00:00
+modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-ive-cracked-it-illusion-during-adhd-hyperfixation
 tags: []
 title: "The I've Cracked It Illusion During ADHD Hyperfixation"

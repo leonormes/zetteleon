@@ -1,7 +1,7 @@
 ---
 aliases: [Shared Responsibility in a Relationship]
 created: 2025-11-10T10:03:00+00:00
-modified: 2026-07-13T08:44:59+00:00
+modified: 2026-07-13T08:52:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/shared-responsibility-in-a-partnership-includes-physical-mental-and-emotional-labor
 tags: [emotional-labor, mental-load, relationship, responsibility]
 title: Shared Responsibility in a Partnership Includes Physical Mental and Emotional Labor

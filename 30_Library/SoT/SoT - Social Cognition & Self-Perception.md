@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-12-12T00:00:00+00:00
-modified: 2026-07-13T08:45:21+00:00
+modified: 2026-07-13T08:52:53+00:00
 permalink: llmeon/30-library/so-t/so-t-social-cognition-self-perception
 tags: []
 title: SoT - Social Cognition & Self-Perception

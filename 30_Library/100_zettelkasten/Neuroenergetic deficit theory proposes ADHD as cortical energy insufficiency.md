@@ -1,7 +1,7 @@
 ---
 aliases: [ADHD as energy deficiency, Cortical energy deficit in ADHD]
 created: 2025-10-31T00:03:00+00:00
-modified: 2026-07-13T08:44:58+00:00
+modified: 2026-07-13T08:52:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/neuroenergetic-deficit-theory-proposes-adhd-as-cortical-energy-insufficiency
 tags: [metabolism, neurobiology, TheHuman/Health/ADHD]
 title: Neuroenergetic deficit theory proposes ADHD as cortical energy insufficiency

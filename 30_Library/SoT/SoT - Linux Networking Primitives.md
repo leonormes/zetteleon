@@ -2,7 +2,7 @@
 aliases: [Container Networking Primitives, IPTables Masquerade, Linux Bridges, Veth Pairs]
 created: 2025-12-30T13:53:16+00:00
 last_reviewed: null
-modified: 2026-07-13T08:45:17+00:00
+modified: 2026-07-13T08:52:50+00:00
 permalink: llmeon/30-library/so-t/so-t-linux-networking-primitives
 status: Active
 tags: [kernel, SoftwareEngineering/Containers, SoftwareEngineering/Linux, SoftwareEngineering/Networking]

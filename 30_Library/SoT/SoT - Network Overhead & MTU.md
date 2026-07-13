@@ -1,7 +1,7 @@
 ---
 aliases: [MSS Clamping, PMTUD, Protocol Overhead]
 created: 2025-12-23T22:39:13+00:00
-modified: 2026-07-13T08:45:18+00:00
+modified: 2026-07-13T08:52:51+00:00
 permalink: llmeon/30-library/so-t/so-t-network-overhead-mtu
 tags: [mtu, overhead, performance, SoftwareEngineering/Networking, vpn]
 title: SoT - Network Overhead & MTU

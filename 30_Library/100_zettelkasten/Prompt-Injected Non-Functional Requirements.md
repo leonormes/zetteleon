@@ -2,7 +2,7 @@
 created: 2026-04-14T20:27:29+00:00
 created_utc: '2026-04-14T13:20:00Z'
 kind: claim
-modified: 2026-07-13T08:44:58+00:00
+modified: 2026-07-13T08:52:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/prompt-injected-non-functional-requirements
 source_title: Archon and Extreme Harness Engineering
 source_url: https://youtube.com/watch?v=qMnClynCAmM

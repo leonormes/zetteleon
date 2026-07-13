@@ -1,6 +1,6 @@
 ---
 created: 2026-05-02T20:25:00+00:00
-modified: 2026-07-13T08:44:55+00:00
+modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/developing-the-idea-of-pre-linguistic-understanding
 title: Developing the Idea of Pre-Linguistic Understanding
 ---

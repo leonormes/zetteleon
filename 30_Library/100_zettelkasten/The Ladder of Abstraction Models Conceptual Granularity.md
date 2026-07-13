@@ -1,7 +1,7 @@
 ---
 aliases: ["Hayakawa's Ladder"]
 created: 2025-10-31T11:21:00+00:00
-modified: 2026-07-13T08:45:00+00:00
+modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-ladder-of-abstraction-models-conceptual-granularity
 tags: [abstraction, TheHuman/Cognition]
 title: The Ladder of Abstraction Models Conceptual Granularity

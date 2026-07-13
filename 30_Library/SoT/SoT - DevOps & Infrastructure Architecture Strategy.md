@@ -1,7 +1,7 @@
 ---
 aliases: [Data-Oriented IaC, DevOps Philosophy, FitFile Infrastructure Model, Infrastructure Strategy]
 created: 2026-01-02T23:30:00+00:00
-modified: 2026-07-13T08:45:11+00:00
+modified: 2026-07-13T08:52:46+00:00
 permalink: llmeon/30-library/so-t/so-t-dev-ops-infrastructure-architecture-strategy
 tags: [devops, fitfile, iac, SoftwareEngineering/Architecture, strategy]
 title: SoT - DevOps & Infrastructure Architecture Strategy

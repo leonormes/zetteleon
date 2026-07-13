@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-12-10T12:00:00+00:00
-modified: 2026-07-13T08:44:57+00:00
+modified: 2026-07-13T08:52:28+00:00
 permalink: llmeon/30-library/100-zettelkasten/love-of-learning-is-mastering-new-skills-and-knowledge
 tags: [character-strength, love-of-learning, wisdom]
 title: Love of Learning is Mastering New Skills and Knowledge

@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2024-03-30T00:00:00+00:00
-modified: 2026-07-13T08:44:56+00:00
+modified: 2026-07-13T08:52:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/fundamental-insight-creation
 tags: [insight, topic/pkm, topic/pkm/zettelkasten]
 title: Fundamental Insight Creation

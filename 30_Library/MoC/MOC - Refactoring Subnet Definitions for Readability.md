@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-11-22T15:05:03+00:00
-modified: 2026-07-13T08:45:06+00:00
+modified: 2026-07-13T08:52:38+00:00
 permalink: llmeon/30-library/mo-c/moc-refactoring-subnet-definitions-for-readability
 tags: [SoftwareEngineering/Networking, terraform]
 title: MOC - Refactoring Subnet Definitions for Readability

@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-10-30T12:10:07+00:00
-modified: 2026-07-13T08:44:53+00:00
+modified: 2026-07-13T08:52:24+00:00
 permalink: llmeon/30-library/100-zettelkasten/changing-environments-provides-novelty-for-adhd-writing
 tags: [environment, novelty, TheHuman/Health/ADHD, writing]
 title: Changing Environments Provides Novelty for ADHD Writing

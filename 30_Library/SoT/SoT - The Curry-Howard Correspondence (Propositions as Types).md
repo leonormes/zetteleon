@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-12-18T00:00:00+00:00
-modified: 2026-07-13T08:45:22+00:00
+modified: 2026-07-13T08:52:55+00:00
 permalink: llmeon/30-library/so-t/so-t-the-curry-howard-correspondence-propositions-as-types
 tags: [computer_science, formal_methods, logic, type_theory]
 title: SoT - The Curry-Howard Correspondence (Propositions as Types)

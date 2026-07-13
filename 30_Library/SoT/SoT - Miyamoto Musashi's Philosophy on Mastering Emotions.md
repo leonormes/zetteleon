@@ -1,7 +1,7 @@
 ---
 aliases: ["Musashi's Emotional Mastery", Heih\u014d and Emotion, Heijo-shin, The Void and Emotion]
 created: 2025-09-07T15:32:45+00:00
-modified: 2026-07-13T08:45:17+00:00
+modified: 2026-07-13T08:52:51+00:00
 permalink: llmeon/30-library/so-t/so-t-miyamoto-musashis-philosophy-on-mastering-emotions
 tags: [emotional_regulation, musashi, stoicism, strategy, TheHuman/Philosophy]
 title: "SoT - Miyamoto Musashi's Philosophy on Mastering Emotions"

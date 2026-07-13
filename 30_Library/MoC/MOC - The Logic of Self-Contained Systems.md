@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-20T10:13:00+00:00
 last_reviewed: 'null'
-modified: 2026-07-13T08:45:06+00:00
+modified: 2026-07-13T08:52:39+00:00
 permalink: llmeon/30-library/mo-c/moc-the-logic-of-self-contained-systems
 status: 'null'
 tags: [logic, perspective, topic/systems]

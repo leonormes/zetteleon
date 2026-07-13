@@ -1,6 +1,6 @@
 ---
 created: 2026-06-12T08:01:45+00:00
-modified: 2026-07-13T08:44:36+00:00
+modified: 2026-07-13T08:52:02+00:00
 permalink: llmeon/30-library/200-projects/complete-jira-work-item-text-structure
 project_name: Refined Deployment
 title: Complete Jira Work Item Text Structure

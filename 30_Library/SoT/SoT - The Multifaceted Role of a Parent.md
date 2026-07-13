@@ -1,7 +1,7 @@
 ---
 aliases: [Child Development Pillars, Parental Responsibilities, Parenting Role]
 created: 2025-12-13T00:00:00+00:00
-modified: 2026-07-13T08:45:22+00:00
+modified: 2026-07-13T08:52:55+00:00
 permalink: llmeon/30-library/so-t/so-t-the-multifaceted-role-of-a-parent
 tags: [child_development, family, parenting, social_roles, TheHuman/Psychology]
 title: SoT - The Multifaceted Role of a Parent

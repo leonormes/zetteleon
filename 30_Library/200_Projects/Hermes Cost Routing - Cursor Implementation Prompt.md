@@ -1,6 +1,6 @@
 ---
 created: 2026-06-08T11:35:53+00:00
-modified: 2026-07-13T08:44:42+00:00
+modified: 2026-07-13T08:52:10+00:00
 permalink: llmeon/30-library/200-projects/hermes-cost-routing-cursor-implementation-prompt
 project_category: hermes_optimisastion
 project_name: Hermes Optimisastion

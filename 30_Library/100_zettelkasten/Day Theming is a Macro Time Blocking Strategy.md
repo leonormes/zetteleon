@@ -1,7 +1,7 @@
 ---
 aliases: [Day Theming]
 created: 2025-11-10T14:11:00+00:00
-modified: 2026-07-13T08:44:54+00:00
+modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/day-theming-is-a-macro-time-blocking-strategy
 project_name: ProdOS
 tags: [planning, strategy, time-blocking, topic/productivity]

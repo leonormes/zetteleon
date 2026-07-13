@@ -1,6 +1,6 @@
 ---
 created: 2026-05-02T19:33:05+00:00
-modified: 2026-07-13T08:45:00+00:00
+modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-preconditions-for-purpose
 title: The Preconditions for Purpose
 ---

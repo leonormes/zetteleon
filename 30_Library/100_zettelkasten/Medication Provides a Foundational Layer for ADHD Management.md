@@ -1,7 +1,7 @@
 ---
 aliases: [ADHD Medication, ADHD Treatment]
 created: 2025-11-06T19:54:04+00:00
-modified: 2026-07-13T08:44:57+00:00
+modified: 2026-07-13T08:52:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/medication-provides-a-foundational-layer-for-adhd-management
 tags: [medication, TheHuman/Health/ADHD, topic/productivity, treatment]
 title: Medication Provides a Foundational Layer for ADHD Management

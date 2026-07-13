@@ -1,7 +1,7 @@
 ---
 aliases: [If-Then Plans, Implementation Intentions]
 created: 2025-11-10T17:10:00+00:00
-modified: 2026-07-13T08:44:56+00:00
+modified: 2026-07-13T08:52:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/implementation-intentions-automate-action-initiation-with-if-then-plans
 tags: [behavior-change, planning, TheHuman/Habits, TheHuman/Psychology]
 title: Implementation Intentions Automate Action Initiation with If-Then Plans

@@ -1,7 +1,7 @@
 ---
 aliases: [Complexity Theory, Emergent Properties, Self-Organization, The Whole is Greater Than the Sum of the Parts]
 created: 2026-02-03T10:45:00+00:00
-modified: 2026-07-13T08:45:11+00:00
+modified: 2026-07-13T08:52:46+00:00
 permalink: llmeon/30-library/so-t/so-t-emergence
 source_of_truth: true
 tags: [complexity, emergence, prodos/sot, systems-thinking]

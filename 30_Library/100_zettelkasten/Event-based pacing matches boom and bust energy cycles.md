@@ -1,7 +1,7 @@
 ---
 aliases: [Boom-bust pacing, Energy cycle matching]
 created: 2025-10-30T17:36:00+00:00
-modified: 2026-07-13T08:44:55+00:00
+modified: 2026-07-13T08:52:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/event-based-pacing-matches-boom-and-bust-energy-cycles
 source: '[[MOC - How To Create And Use Mini Routines]]'
 tags: [autism, energy-management, TheHuman/Health/ADHD]

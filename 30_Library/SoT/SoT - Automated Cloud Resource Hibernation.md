@@ -1,7 +1,7 @@
 ---
 aliases: [AKS Auto-Shutdown, Cloud Cost Saving, Environment Hibernation]
 created: 2025-11-13T00:00:00+00:00
-modified: 2026-07-13T08:45:09+00:00
+modified: 2026-07-13T08:52:43+00:00
 permalink: llmeon/30-library/so-t/so-t-automated-cloud-resource-hibernation
 tags: [aks, azure, cloud, cost-optimization, devops, terraform]
 tier: 3-Tactic

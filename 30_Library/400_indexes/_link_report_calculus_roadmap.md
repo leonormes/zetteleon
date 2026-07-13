@@ -1,7 +1,7 @@
 ---
 created: 2026-04-14T17:35:18+00:00
 created_utc: '2026-04-14T12:10:00Z'
-modified: 2026-07-13T08:45:02+00:00
+modified: 2026-07-13T08:52:35+00:00
 permalink: llmeon/30-library/400-indexes/link-report-calculus-roadmap
 source_atoms: '[[tmp_atoms_calculus_roadmap.md]]'
 status: tmp

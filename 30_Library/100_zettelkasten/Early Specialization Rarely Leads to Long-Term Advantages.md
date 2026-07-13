@@ -1,7 +1,7 @@
 ---
 aliases: [Prodigy Pathway]
 created: 2025-11-01T12:30:02+00:00
-modified: 2026-07-13T08:44:55+00:00
+modified: 2026-07-13T08:52:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/early-specialization-rarely-leads-to-long-term-advantages
 tags: [development, learning, specialization]
 title: Early Specialization Rarely Leads to Long-Term Advantages

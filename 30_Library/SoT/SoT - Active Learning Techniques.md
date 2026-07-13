@@ -1,7 +1,7 @@
 ---
 aliases: [Feynman Technique, Retrieval Practice, The Peter Method]
 created: 2025-12-23T22:35:33+00:00
-modified: 2026-07-13T08:45:09+00:00
+modified: 2026-07-13T08:52:43+00:00
 permalink: llmeon/30-library/so-t/so-t-active-learning-techniques
 tags: [active_learning, feynman, learning, protocol, TheHuman/Cognition]
 title: SoT - Active Learning Techniques

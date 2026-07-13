@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-12-21T00:00:00+00:00
-modified: 2026-07-13T08:45:23+00:00
+modified: 2026-07-13T08:52:56+00:00
 permalink: llmeon/30-library/so-t/so-t-unified-keyboard-workflow
 tags: []
 title: SoT - Unified Keyboard Workflow

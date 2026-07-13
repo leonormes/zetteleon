@@ -4,7 +4,7 @@ created: 2025-10-31T10:36:00+00:00
 criteria: Focus on packet transformations through each device.
 exclusions: Physical network devices.
 last_reviewed: ''
-modified: 2026-07-13T08:45:03+00:00
+modified: 2026-07-13T08:52:36+00:00
 permalink: llmeon/30-library/mo-c/moc-cloud-networking-devices-data-flow
 scope: Data-centric view of cloud networking devices.
 see_also: []

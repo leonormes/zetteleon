@@ -1,7 +1,7 @@
 ---
 aliases: [Event-based reduces pressure, Reduces time anxiety]
 created: 2025-10-30T17:33:00+00:00
-modified: 2026-07-13T08:44:55+00:00
+modified: 2026-07-13T08:52:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/event-based-structure-reduces-time-pressure-anxiety
 source: '[[MOC - How To Create And Use Mini Routines]]'
 tags: [anxiety, TheHuman/Health/ADHD, time-management]

@@ -1,7 +1,7 @@
 ---
 aliases: [Behavioral Resistance, The Childish Mind, The Rider and the Elephant]
 created: 2026-01-12T12:05:00+00:00
-modified: 2026-07-13T08:45:21+00:00
+modified: 2026-07-13T08:52:54+00:00
 permalink: llmeon/30-library/so-t/so-t-the-childish-mind-behavioral-resistance
 tags: [behavioral-science, prodos/sot, psychology]
 title: SoT - The Childish Mind (Behavioral Resistance)

@@ -1,7 +1,7 @@
 ---
 aliases: [Aesthetic Value, Mathematical Beauty]
 created: 2025-11-01T11:22:13+00:00
-modified: 2026-07-13T08:44:53+00:00
+modified: 2026-07-13T08:52:24+00:00
 permalink: llmeon/30-library/100-zettelkasten/beauty-is-a-guiding-value-in-mathematics
 tags: [aesthetics, topic/maths]
 title: Beauty Is a Guiding Value in Mathematics

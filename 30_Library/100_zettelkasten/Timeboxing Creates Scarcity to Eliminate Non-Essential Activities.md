@@ -1,7 +1,7 @@
 ---
 aliases: [Productivity through Scarcity]
 created: 2025-11-01T21:03:00+00:00
-modified: 2026-07-13T08:45:01+00:00
+modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/timeboxing-creates-scarcity-to-eliminate-non-essential-activities
 tags: [efficiency, scarcity, time-management, topic/productivity]
 title: Timeboxing Creates Scarcity to Eliminate Non-Essential Activities

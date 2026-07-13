@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T00:00:00+00:00
-modified: 2026-07-13T08:45:01+00:00
+modified: 2026-07-13T08:52:33+00:00
 permalink: llmeon/30-library/100-zettelkasten/writing-in-own-words-distinguishes-comprehension-from-the-illusion-of-knowledge
 tags: [comprehension, learning, pkm, writing]
 title: Writing in Own Words Distinguishes Comprehension from the Illusion of Knowledge

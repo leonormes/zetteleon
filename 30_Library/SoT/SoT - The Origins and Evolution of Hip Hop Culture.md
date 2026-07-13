@@ -1,7 +1,7 @@
 ---
 aliases: [Breakdance Origins, Four Elements of Hip Hop, Hip Hop Culture SoT, Hip Hop History]
 created: 2025-12-12T00:00:00+00:00
-modified: 2026-07-13T08:45:22+00:00
+modified: 2026-07-13T08:52:55+00:00
 permalink: llmeon/30-library/so-t/so-t-the-origins-and-evolution-of-hip-hop-culture
 tags: [art, culture, dance, hip_hop, history, music]
 title: SoT - The Origins and Evolution of Hip Hop Culture

@@ -1,7 +1,7 @@
 ---
 aliases: [Experiential Knowledge]
 created: 2025-11-01T12:10:02+00:00
-modified: 2026-07-13T08:44:57+00:00
+modified: 2026-07-13T08:52:28+00:00
 permalink: llmeon/30-library/100-zettelkasten/knowledge-emerges-through-application-and-experience
 tags: [experience, knowledge, learning]
 title: Knowledge Emerges Through Application and Experience

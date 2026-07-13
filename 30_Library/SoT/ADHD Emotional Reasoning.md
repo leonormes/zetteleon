@@ -1,6 +1,6 @@
 ---
 created: 2026-02-02T20:03:15+00:00
-modified: 2026-07-13T08:45:07+00:00
+modified: 2026-07-13T08:52:40+00:00
 permalink: llmeon/30-library/so-t/adhd-emotional-reasoning
 source_of_truth: true
 title: ADHD Emotional Reasoning

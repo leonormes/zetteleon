@@ -1,7 +1,7 @@
 ---
 aliases: [K8s Network Model, Pod Networking Rules]
 created: 2026-02-05T00:00:00+00:00
-modified: 2026-07-13T08:45:16+00:00
+modified: 2026-07-13T08:52:50+00:00
 permalink: llmeon/30-library/so-t/so-t-kubernetes-networking-model
 tags: [kubernetes, networking, sot]
 title: SoT - Kubernetes Networking Model

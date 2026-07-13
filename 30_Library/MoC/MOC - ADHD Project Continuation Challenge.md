@@ -1,7 +1,7 @@
 ---
 aliases: [ADHD Project Return Problem, Mental Model Dissipation, The Fresh Start Loop]
 created: 2025-10-30T15:00:39+00:00
-modified: 2026-07-13T08:45:03+00:00
+modified: 2026-07-13T08:52:35+00:00
 permalink: llmeon/30-library/mo-c/moc-adhd-project-continuation-challenge
 source_of_truth: true
 tags: [dopamine, prodos/moc, project-continuity, TheHuman/Health/ADHD]

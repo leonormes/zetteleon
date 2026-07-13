@@ -1,7 +1,7 @@
 ---
 aliases: [file descriptor, socket handle]
 created: 2025-10-31T13:40:00+00:00
-modified: 2026-07-13T08:44:55+00:00
+modified: 2026-07-13T08:52:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/file-descriptor-as-os-socket-handle
 tags: [file-descriptor, operating-system, socket, unix]
 title: File Descriptor as OS Socket Handle

@@ -1,7 +1,7 @@
 ---
 aliases: [CI/CD Documentation, FITFILE Pipelines, GitLab CI Flows]
 created: 2025-12-16T00:00:00+00:00
-modified: 2026-07-13T08:45:09+00:00
+modified: 2026-07-13T08:52:42+00:00
 permalink: llmeon/30-library/so-t/sot-ci-cd-pipelines
 tags: [automation, cicd, devops, gitlab, pipeline]
 title: SOT - CI-CD Pipelines

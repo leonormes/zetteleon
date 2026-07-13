@@ -1,7 +1,7 @@
 ---
 aliases: [Planner vs Doer, Predictive vs Iterative Processing, Simulation vs Prototyping, The Core Divergence]
 created: 2025-12-12T00:00:00+00:00
-modified: 2026-07-13T08:45:10+00:00
+modified: 2026-07-13T08:52:44+00:00
 permalink: llmeon/30-library/so-t/so-t-cognitive-architectures-simulation-vs-prototyping
 tags: [cognition, collaboration, mental_models, system_design, TheHuman/Health/ADHD]
 title: SoT - Cognitive Architectures (Simulation vs Prototyping)

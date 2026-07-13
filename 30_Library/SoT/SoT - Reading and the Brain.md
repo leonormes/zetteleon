@@ -1,7 +1,7 @@
 ---
 aliases: [Neurobiology of Literacy, Reading Rewires the Brain, The Reading Brain]
 created: 2025-12-23T19:54:57+00:00
-modified: 2026-07-13T08:45:20+00:00
+modified: 2026-07-13T08:52:53+00:00
 permalink: llmeon/30-library/so-t/so-t-reading-and-the-brain
 tags: [intelligence, neuroplasticity, reading, TheHuman/Cognition, TheHuman/Neuroscience]
 title: SoT - Reading and the Brain

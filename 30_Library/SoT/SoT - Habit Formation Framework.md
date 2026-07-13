@@ -2,7 +2,7 @@
 aliases: []
 created: 2026-01-03T10:24:34+00:00
 last_reviewed: ''
-modified: 2026-07-13T08:45:14+00:00
+modified: 2026-07-13T08:52:49+00:00
 permalink: llmeon/30-library/so-t/so-t-habit-formation-framework
 status: ''
 tags: []

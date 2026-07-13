@@ -1,6 +1,6 @@
 ---
 created: 2026-05-04T08:01:26+00:00
-modified: 2026-07-13T08:44:45+00:00
+modified: 2026-07-13T08:52:13+00:00
 permalink: llmeon/30-library/200-projects/photography
 project_name: Bessie
 title: Photography

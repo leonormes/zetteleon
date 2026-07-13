@@ -1,7 +1,7 @@
 ---
 aliases: [Hackett, Interleaved Compilation, Lisp-Haskell Fusion, Type-Driven Macros]
 created: 2025-12-18T00:00:00+00:00
-modified: 2026-07-13T08:45:15+00:00
+modified: 2026-07-13T08:52:50+00:00
 permalink: llmeon/30-library/so-t/so-t-interleaved-compilation-the-hackett-architecture
 tags: [macros, programming_languages, racket, SoftwareEngineering/Architecture, type_systems]
 title: SoT - Interleaved Compilation (The Hackett Architecture)

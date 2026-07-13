@@ -1,7 +1,7 @@
 ---
 aliases: [Epistemic Trespassing, Expert Authority, HiPPO Effect, Positional Authority]
 created: 2025-12-17T00:00:00+00:00
-modified: 2026-07-13T08:45:09+00:00
+modified: 2026-07-13T08:52:43+00:00
 permalink: llmeon/30-library/so-t/so-t-authority-competence-asymmetry
 tags: [authority, bias, decision-making, leadership, social-dynamics, team-dynamics]
 title: SoT - Authority-Competence Asymmetry

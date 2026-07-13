@@ -1,7 +1,7 @@
 ---
 aliases: [Specific Plans, When-Where Planning]
 created: 2025-11-01T20:22:24+00:00
-modified: 2026-07-13T08:44:56+00:00
+modified: 2026-07-13T08:52:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/implementation-intentions-turn-vague-plans-into-concrete-actions
 tags: [planning, strategy, TheHuman/Habits, topic/productivity]
 title: Implementation Intentions Turn Vague Plans Into Concrete Actions

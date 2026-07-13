@@ -1,7 +1,7 @@
 ---
 aliases: [Systems as Scaffolding]
 created: 2025-11-10T13:01:00+00:00
-modified: 2026-07-13T08:44:58+00:00
+modified: 2026-07-13T08:52:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/productivity-systems-are-scaffolding-not-the-engine-of-progress
 tags: [optimization, TheHuman/Cognition, topic/productivity, topic/systems]
 title: Productivity Systems Are Scaffolding Not the Engine of Progress

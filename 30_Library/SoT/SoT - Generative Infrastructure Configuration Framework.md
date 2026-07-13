@@ -1,7 +1,7 @@
 ---
 aliases: [Configuration Generator Pattern, Contract-Based Infrastructure, Generative Config, GIC Framework]
 created: 2025-12-13T00:00:00+00:00
-modified: 2026-07-13T08:45:14+00:00
+modified: 2026-07-13T08:52:48+00:00
 permalink: llmeon/30-library/so-t/so-t-generative-infrastructure-configuration-framework
 tags: [configuration_management, cue, devops, infrastructure_as_code, SoftwareEngineering/Architecture, terraform]
 title: SoT - Generative Infrastructure Configuration Framework

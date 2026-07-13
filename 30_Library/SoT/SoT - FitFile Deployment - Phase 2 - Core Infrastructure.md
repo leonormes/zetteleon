@@ -1,7 +1,7 @@
 ---
 alias: [AWS/Azure Infrastructure SOP, Phase 2 Infrastructure Guide, Terraform Deployment Guide]
 created: 2025-02-07T12:57:53+00:00
-modified: 2026-07-13T08:45:13+00:00
+modified: 2026-07-13T08:52:47+00:00
 permalink: llmeon/30-library/so-t/so-t-fit-file-deployment-phase-2-core-infrastructure
 tags: [aws, azure, ff_deploy, sot, terraform]
 title: SoT - FitFile Deployment - Phase 2 - Core Infrastructure

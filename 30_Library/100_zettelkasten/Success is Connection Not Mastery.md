@@ -3,7 +3,7 @@ aliases: [Connection Over Mastery, Synthesis Over Specialization]
 created: 2025-09-11T20:22:57+00:00
 creation_date: '2025-09-11T00:00:00.000Z'
 last_reviewed: 'null'
-modified: 2026-07-13T08:45:00+00:00
+modified: 2026-07-13T08:52:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/success-is-connection-not-mastery
 status: 'null'
 tags: [success-metrics, synthesis, TheHuman/Health/ADHD, topic/learning]

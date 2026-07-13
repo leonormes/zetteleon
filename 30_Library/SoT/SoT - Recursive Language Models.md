@@ -1,7 +1,7 @@
 ---
 aliases: [Agentic REPL, RLM]
 created: 2026-01-31T00:00:00+00:00
-modified: 2026-07-13T08:45:20+00:00
+modified: 2026-07-13T08:52:53+00:00
 permalink: llmeon/30-library/so-t/so-t-recursive-language-models
 tags: [agents, architecture, research, rlm]
 title: SoT - Recursive Language Models

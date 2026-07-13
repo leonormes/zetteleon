@@ -3,7 +3,7 @@ aliases: []
 created: 2025-01-17T20:51:48+00:00
 ID: 2a4d
 last_reviewed: 'null'
-modified: 2026-07-13T08:44:55+00:00
+modified: 2026-07-13T08:52:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/embracing-the-garbage
 status: 'null'
 tags: [topic/pkm/zettelkasten]

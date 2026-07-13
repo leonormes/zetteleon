@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-11-01T09:51:13+00:00
-modified: 2026-07-13T08:44:56+00:00
+modified: 2026-07-13T08:52:28+00:00
 permalink: llmeon/30-library/100-zettelkasten/jazz-musician-metaphor-for-originality-through-unique-expression
 tags: [jazz, metaphor, originality, TheHuman/Creativity, topic/creativity]
 title: Jazz Musician Metaphor for Originality Through Unique Expression

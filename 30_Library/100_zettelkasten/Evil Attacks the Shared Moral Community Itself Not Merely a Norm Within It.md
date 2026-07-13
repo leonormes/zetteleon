@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-07-13T08:44:55+00:00
+modified: 2026-07-13T08:52:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/evil-attacks-the-shared-moral-community-itself-not-merely-a-norm-within-it
 tags: [community, morality, social-order, sociology]
 title: Evil Attacks the Shared Moral Community Itself Not Merely a Norm Within It

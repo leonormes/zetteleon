@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-10-31T12:25:00+00:00
-modified: 2026-07-13T08:44:53+00:00
+modified: 2026-07-13T08:52:23+00:00
 permalink: llmeon/30-library/100-zettelkasten/aesops-fables-use-anthropomorphic-allegory
 tags: [literature, storytelling]
 title: "Aesop's Fables Use Anthropomorphic Allegory"

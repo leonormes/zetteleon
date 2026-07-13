@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-07-13T08:45:01+00:00
+modified: 2026-07-13T08:52:33+00:00
 permalink: llmeon/30-library/100-zettelkasten/vector-similarity-metrics-serve-different-retrieval-objectives
 tags: [cosine-similarity, euclidean-distance, similarity-metrics, vector-math]
 title: Vector Similarity Metrics Serve Different Retrieval Objectives

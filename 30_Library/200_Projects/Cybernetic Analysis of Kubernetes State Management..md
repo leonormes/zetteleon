@@ -1,6 +1,6 @@
 ---
 created: 2026-05-02T19:36:27+00:00
-modified: 2026-07-13T08:44:36+00:00
+modified: 2026-07-13T08:52:02+00:00
 permalink: llmeon/30-library/200-projects/cybernetic-analysis-of-kubernetes-state-management.
 project_category: infrastructure
 project_name: k8s

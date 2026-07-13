@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-10-31T09:20:29+00:00
-modified: 2026-07-13T08:44:58+00:00
+modified: 2026-07-13T08:52:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/non-verbal-cues-in-social-judgment
 tags: [topic/social-cognition, topic/social-perception]
 title: Non-Verbal Cues in Social Judgment

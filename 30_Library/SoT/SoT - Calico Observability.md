@@ -1,6 +1,6 @@
 ---
 created: 2026-02-01T15:35:00+00:00
-modified: 2026-07-13T08:45:10+00:00
+modified: 2026-07-13T08:52:44+00:00
 permalink: llmeon/30-library/so-t/so-t-calico-observability
 status: growing
 tags: [calico, grafana, kubernetes, observability]

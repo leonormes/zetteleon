@@ -1,7 +1,7 @@
 ---
 aliases: [Cluster Networking, K8s Networking, Pod Networking]
 created: 2025-12-16T13:52:08+00:00
-modified: 2026-07-13T08:45:16+00:00
+modified: 2026-07-13T08:52:50+00:00
 permalink: llmeon/30-library/so-t/so-t-kubernetes-networking-dns
 tags: [cni, kubernetes, service_discovery, SoftwareEngineering/Networking, SoftwareEngineering/networking/dns]
 title: SoT - Kubernetes Networking & DNS

@@ -1,7 +1,7 @@
 ---
 aliases: [Flowtime]
 created: 2025-11-10T14:13:00+00:00
-modified: 2026-07-13T08:45:00+00:00
+modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-flowtime-technique-is-a-flexible-alternative-to-pomodoro-based-on-natural-focus
 tags: [flow-state, focus, TheHuman/Creativity, topic/productivity]
 title: The Flowtime Technique is a Flexible Alternative to Pomodoro Based on Natural Focus

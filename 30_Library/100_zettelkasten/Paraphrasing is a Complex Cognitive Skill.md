@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-07-16T17:30:04+00:00
 last_reviewed: 'null'
-modified: 2026-07-13T08:44:58+00:00
+modified: 2026-07-13T08:52:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/paraphrasing-is-a-complex-cognitive-skill
 status: 'null'
 tags: [paraphrasing, TheHuman/Cognition, TheHuman/Cognition/thinking, topic/learning]

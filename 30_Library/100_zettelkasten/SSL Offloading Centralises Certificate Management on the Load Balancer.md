@@ -1,7 +1,7 @@
 ---
 aliases: [SSL Termination]
 created: 2025-10-31T09:25:29+00:00
-modified: 2026-07-13T08:44:59+00:00
+modified: 2026-07-13T08:52:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/ssl-offloading-centralises-certificate-management-on-the-load-balancer
 tags: [load-balancing, SoftwareEngineering/Networking, SoftwareEngineering/Security, ssl, tls]
 title: SSL Offloading Centralises Certificate Management on the Load Balancer

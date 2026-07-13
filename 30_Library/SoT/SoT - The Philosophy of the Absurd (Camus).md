@@ -1,7 +1,7 @@
 ---
 aliases: [Absurdism, The Absurd, The Myth of Sisyphus]
 created: 2025-12-12T00:00:00+00:00
-modified: 2026-07-13T08:45:23+00:00
+modified: 2026-07-13T08:52:55+00:00
 permalink: llmeon/30-library/so-t/so-t-the-philosophy-of-the-absurd-camus
 tags: [absurdism, existentialism, meaning, TheHuman/Philosophy]
 title: SoT - The Philosophy of the Absurd (Camus)

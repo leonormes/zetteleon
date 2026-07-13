@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-26T17:19:00+00:00
 last_reviewed: 'null'
-modified: 2026-07-13T08:44:45+00:00
+modified: 2026-07-13T08:52:13+00:00
 permalink: llmeon/30-library/200-projects/network-policies-control-traffic-flow-between-pods-using-labels-and-namespaces
 project_category: infrastructure
 project_name: k8s

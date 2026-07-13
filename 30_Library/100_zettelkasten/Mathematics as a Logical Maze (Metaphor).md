@@ -1,7 +1,7 @@
 ---
 aliases: [Logical Maze Metaphor]
 created: 2025-11-01T11:22:13+00:00
-modified: 2026-07-13T08:44:57+00:00
+modified: 2026-07-13T08:52:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/mathematics-as-a-logical-maze-metaphor
 tags: [metaphor, pedagogy, topic/maths]
 title: Mathematics as a Logical Maze (Metaphor)

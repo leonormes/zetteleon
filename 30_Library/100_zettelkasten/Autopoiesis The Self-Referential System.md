@@ -3,7 +3,7 @@ aliases: [Autopoiesis, Self-Referential System]
 created: 2025-08-23T17:10:01+00:00
 creation_date: '2025-08-23T00:00:00.000Z'
 last_reviewed: 'null'
-modified: 2026-07-13T08:44:53+00:00
+modified: 2026-07-13T08:52:24+00:00
 permalink: llmeon/30-library/100-zettelkasten/autopoiesis-the-self-referential-system
 status: 'null'
 tags: [biology, systems-theory, topic/philosophy]

@@ -1,7 +1,7 @@
 ---
 aliases: [Alphanumeric IDs, Folgezettel System, Zettelkasten IDs]
 created: 2025-10-30T15:33:36+00:00
-modified: 2026-07-13T08:44:55+00:00
+modified: 2026-07-13T08:52:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/folgezettel-ids-enable-non-hierarchical-branching
 tags: [ids, linking, topic/pkm, topic/pkm/zettelkasten]
 title: Folgezettel IDs Enable Non-Hierarchical Branching

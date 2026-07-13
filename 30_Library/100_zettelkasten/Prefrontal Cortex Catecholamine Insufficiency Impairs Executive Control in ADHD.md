@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-10-30T12:07:03+00:00
-modified: 2026-07-13T08:44:58+00:00
+modified: 2026-07-13T08:52:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/prefrontal-cortex-catecholamine-insufficiency-impairs-executive-control-in-adhd
 source: '[[MOC - The Neuroscience of Task Initiation in ADHD]]'
 tags: [dopamine, norepinephrine, prefrontal-cortex, TheHuman/Health/ADHD, TheHuman/Neuroscience]

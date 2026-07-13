@@ -1,7 +1,7 @@
 ---
 aliases: [Crisis of Certainty, Loss of Epistemic Ground]
 created: 2025-11-06T19:58:00+00:00
-modified: 2026-07-13T08:45:00+00:00
+modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-realization-that-knowledge-is-contingent-can-lead-to-a-crisis-of-certainty
 tags: [certainty, epistemology, TheHuman/Cognition/bias, TheHuman/Philosophy]
 title: The Realization that Knowledge is Contingent Can Lead to a Crisis of Certainty

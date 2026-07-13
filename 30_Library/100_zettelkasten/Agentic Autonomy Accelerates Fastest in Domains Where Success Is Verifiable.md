@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-07-13T08:44:53+00:00
+modified: 2026-07-13T08:52:23+00:00
 permalink: llmeon/30-library/100-zettelkasten/agentic-autonomy-accelerates-fastest-in-domains-where-success-is-verifiable
 tags: [ai-progress, coding, reinforcement-learning, verification]
 title: Agentic Autonomy Accelerates Fastest in Domains Where Success Is Verifiable

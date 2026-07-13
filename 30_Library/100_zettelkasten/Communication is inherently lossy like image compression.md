@@ -1,7 +1,7 @@
 ---
 aliases: [communication lossy compression, encoding-decoding gap, translation problem]
 created: 2025-10-31T20:02:00+00:00
-modified: 2026-07-13T08:44:54+00:00
+modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/communication-is-inherently-lossy-like-image-compression
 tags: [communication, information-theory, linguistics]
 title: Communication is inherently lossy like image compression

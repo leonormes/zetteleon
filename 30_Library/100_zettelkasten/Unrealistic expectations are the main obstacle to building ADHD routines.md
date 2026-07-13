@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-10-29T16:40:00+00:00
-modified: 2026-07-13T08:45:01+00:00
+modified: 2026-07-13T08:52:33+00:00
 permalink: llmeon/30-library/100-zettelkasten/unrealistic-expectations-are-the-main-obstacle-to-building-adhd-routines
 source: '[[MOC - ADHD Routine Building Strategies]]'
 tags: [TheHuman/Habits, TheHuman/Health/ADHD, TheHuman/Mindset, topic/productivity]

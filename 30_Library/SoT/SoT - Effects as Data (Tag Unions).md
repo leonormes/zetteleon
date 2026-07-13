@@ -1,7 +1,7 @@
 ---
 aliases: [Effect Systems, Roc Language Effects, Tag Unions]
 created: 2025-12-19T09:29:36+00:00
-modified: 2026-07-13T08:45:11+00:00
+modified: 2026-07-13T08:52:45+00:00
 permalink: llmeon/30-library/so-t/so-t-effects-as-data-tag-unions
 tags: [functional-programming, roc, SoftwareEngineering/Architecture, type-theory]
 title: SoT - Effects as Data (Tag Unions)

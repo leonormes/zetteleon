@@ -1,7 +1,7 @@
 ---
 aliases: [Silent Void, The Absence of Engagement]
 created: 2025-12-24T12:00:00+00:00
-modified: 2026-07-13T08:45:00+00:00
+modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-silent-void-absence-of-engagement-as-a-response
 tags: [communication, patterns, relationships]
 title: The Silent Void - Absence of Engagement as a Response

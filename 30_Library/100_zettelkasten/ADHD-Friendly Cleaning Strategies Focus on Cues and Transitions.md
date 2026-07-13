@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-10-30T12:08:06+00:00
-modified: 2026-07-13T08:44:53+00:00
+modified: 2026-07-13T08:52:23+00:00
 permalink: llmeon/30-library/100-zettelkasten/adhd-friendly-cleaning-strategies-focus-on-cues-and-transitions
 tags: [cleaning, environmental-cues, TheHuman/Habits, TheHuman/Health/ADHD]
 title: ADHD-Friendly Cleaning Strategies Focus on Cues and Transitions

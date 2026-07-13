@@ -1,7 +1,7 @@
 ---
 aliases: [Dominance Hierarchies, Evolutionary Status, Neuroscience of Status]
 created: 2025-12-14T00:00:00+00:00
-modified: 2026-07-13T08:45:22+00:00
+modified: 2026-07-13T08:52:54+00:00
 permalink: llmeon/30-library/so-t/so-t-the-evolutionary-biology-of-status
 tags: [behavior, status, TheHuman/Neuroscience, TheHuman/Psychology]
 title: SoT - The Evolutionary Biology of Status

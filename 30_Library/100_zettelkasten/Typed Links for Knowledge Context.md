@@ -1,7 +1,7 @@
 ---
 aliases: [Relation Fields, Semantic Links]
 created: 2025-10-31T08:19:00+00:00
-modified: 2026-07-13T08:45:01+00:00
+modified: 2026-07-13T08:52:33+00:00
 permalink: llmeon/30-library/100-zettelkasten/typed-links-for-knowledge-context
 tags: [linking, semantics, zettelkasten]
 title: Typed Links for Knowledge Context

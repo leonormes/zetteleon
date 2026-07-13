@@ -1,7 +1,7 @@
 ---
 aliases: [lo]
 created: 2025-11-22T15:00:12+00:00
-modified: 2026-07-13T08:44:54+00:00
+modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/concept-loopback-interface
 tags: [SoftwareEngineering/networking/kernel]
 title: Concept - Loopback Interface

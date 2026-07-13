@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-11-10T15:13:00+00:00
-modified: 2026-07-13T08:44:55+00:00
+modified: 2026-07-13T08:52:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/for-adhd-the-clarification-process-externalizes-decision-making-and-builds-system-trust
 tags: [executive-function, gtd, system-trust, TheHuman/Health/ADHD, topic/productivity]
 title: For ADHD The Clarification Process Externalizes Decision-Making and Builds System Trust

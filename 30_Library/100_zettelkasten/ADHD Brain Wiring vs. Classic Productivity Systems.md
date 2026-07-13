@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-06-25T20:14:33+00:00
 last_reviewed: 'null'
-modified: 2026-07-13T08:44:52+00:00
+modified: 2026-07-13T08:52:23+00:00
 permalink: llmeon/30-library/100-zettelkasten/adhd-brain-wiring-vs.-classic-productivity-systems
 status: 'null'
 tags: [TheHuman/Health/ADHD]

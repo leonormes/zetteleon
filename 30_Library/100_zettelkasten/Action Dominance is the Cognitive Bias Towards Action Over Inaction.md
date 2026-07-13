@@ -1,7 +1,7 @@
 ---
 aliases: [Action Bias]
 created: 2025-11-12T14:10:04+00:00
-modified: 2026-07-13T08:44:53+00:00
+modified: 2026-07-13T08:52:23+00:00
 permalink: llmeon/30-library/100-zettelkasten/action-dominance-is-the-cognitive-bias-towards-action-over-inaction
 tags: [bias, TheHuman/Cognition, TheHuman/Psychology]
 title: Action Dominance is the Cognitive Bias Towards Action Over Inaction

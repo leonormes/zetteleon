@@ -1,7 +1,7 @@
 ---
 aliases: [Learning Math as an Adult, Mathematical Mindset, Thinking Like a Mathematician]
 created: 2026-01-12T10:15:00+00:00
-modified: 2026-07-13T08:45:17+00:00
+modified: 2026-07-13T08:52:50+00:00
 permalink: llmeon/30-library/so-t/so-t-mathematical-thinking-habits
 tags: [math/pedagogy, mental-models, prodos/sot]
 title: SoT - Mathematical Thinking Habits

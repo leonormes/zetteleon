@@ -1,7 +1,7 @@
 ---
 aliases: [Grit, Perseverance]
 created: 2025-11-01T21:21:00+00:00
-modified: 2026-07-13T08:44:58+00:00
+modified: 2026-07-13T08:52:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/perseverance-is-finishing-what-you-start-despite-difficulty
 tags: [character-strength, determination, grit, perseverance, virtue]
 title: Perseverance is Finishing What You Start Despite Difficulty

@@ -1,7 +1,7 @@
 ---
 aliases: ["Tesler's Law", Conservation of Complexity, Software Complexity Law]
 created: 2026-01-08T12:05:00+00:00
-modified: 2026-07-13T08:45:10+00:00
+modified: 2026-07-13T08:52:44+00:00
 permalink: llmeon/30-library/so-t/so-t-conservation-of-complexity
 tags: [architecture, complexity, mental_models, software_engineering, sot]
 title: SoT - Conservation of Complexity

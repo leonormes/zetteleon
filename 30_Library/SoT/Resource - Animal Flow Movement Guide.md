@@ -2,7 +2,7 @@
 aliases: [Animal Flow Guide, Primal Movement Reference]
 created: 2025-12-15T00:00:00+00:00
 last_reviewed: ''
-modified: 2026-07-13T08:45:08+00:00
+modified: 2026-07-13T08:52:42+00:00
 permalink: llmeon/30-library/so-t/resource-animal-flow-movement-guide
 status: stable
 tags: [exercise, health, somatics, TheHuman/Health/ADHD]

@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-10-30T12:10:05+00:00
-modified: 2026-07-13T08:44:54+00:00
+modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/combining-visual-and-verbal-elements-stimulates-adhd-writing
 tags: [TheHuman/Creativity, TheHuman/Health/ADHD, visual-thinking, writing]
 title: Combining Visual and Verbal Elements Stimulates ADHD Writing

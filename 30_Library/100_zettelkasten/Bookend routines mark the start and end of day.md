@@ -1,7 +1,7 @@
 ---
 aliases: [Daily bookends, Morning and evening routines]
 created: 2025-10-30T17:32:00+00:00
-modified: 2026-07-13T08:44:53+00:00
+modified: 2026-07-13T08:52:24+00:00
 permalink: llmeon/30-library/100-zettelkasten/bookend-routines-mark-the-start-and-end-of-day
 source: '[[MOC - Why Autistics and ADHDers NEED Routines]]'
 tags: [daily-structure, routines, TheHuman/Health/ADHD]

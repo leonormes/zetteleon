@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-10-31T12:45:00+00:00
-modified: 2026-07-13T08:44:55+00:00
+modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/diffuse-vs-focused-thinking-modes
 tags: [learning, TheHuman/Neuroscience]
 title: Diffuse vs Focused Thinking Modes

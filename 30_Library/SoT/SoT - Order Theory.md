@@ -1,7 +1,7 @@
 ---
 created: 2026-02-02T09:54:00+00:00
 last-synthesis: 2026-02-02
-modified: 2026-07-13T08:45:18+00:00
+modified: 2026-07-13T08:52:51+00:00
 permalink: llmeon/30-library/so-t/so-t-order-theory
 source_of_truth: true
 tags: [domain/theory, tool/cue, topic/configuration-management, type/SoT]

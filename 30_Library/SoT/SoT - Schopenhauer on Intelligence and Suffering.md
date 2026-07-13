@@ -1,7 +1,7 @@
 ---
 aliases: ["Schopenhauer's Pessimism", Metaphysics of Will, Schopenhauer on Solitude]
 created: 2025-09-16T13:23:23+00:00
-modified: 2026-07-13T08:45:20+00:00
+modified: 2026-07-13T08:52:53+00:00
 permalink: llmeon/30-library/so-t/so-t-schopenhauer-on-intelligence-and-suffering
 source_of_truth: true
 tags: [intelligence, philosophy, schopenhauer, solitude, suffering, type/SoT]

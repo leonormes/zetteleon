@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-10-30T12:05:00+00:00
-modified: 2026-07-13T08:44:58+00:00
+modified: 2026-07-13T08:52:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/neuroplasticity-is-the-foundation-for-habit-change
 source: '[[MOC - The Science of Making and Breaking Habits]]'
 tags: [learning, neuroplasticity, TheHuman/Habits, TheHuman/Neuroscience]

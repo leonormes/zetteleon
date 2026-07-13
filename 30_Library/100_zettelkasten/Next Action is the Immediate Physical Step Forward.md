@@ -1,7 +1,7 @@
 ---
 aliases: [Next Action, Next Physical Action]
 created: 2025-11-01T20:22:24+00:00
-modified: 2026-07-13T08:44:58+00:00
+modified: 2026-07-13T08:52:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/next-action-is-the-immediate-physical-step-forward
 tags: [action, execution, gtd, topic/productivity]
 title: Next Action is the Immediate Physical Step Forward

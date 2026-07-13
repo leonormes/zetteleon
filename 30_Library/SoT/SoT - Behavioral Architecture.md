@@ -1,7 +1,7 @@
 ---
 aliases: [Behavioral Engineering, System > Willpower, The Hydraulic Architecture of Behavior]
 created: 2026-02-03T10:00:00+00:00
-modified: 2026-07-13T08:45:10+00:00
+modified: 2026-07-13T08:52:43+00:00
 permalink: llmeon/30-library/so-t/so-t-behavioral-architecture
 source_of_truth: true
 tags: [behavioral-science, design, prodos/sot, systems-thinking]

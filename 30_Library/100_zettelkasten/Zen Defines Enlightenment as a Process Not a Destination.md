@@ -1,7 +1,7 @@
 ---
 aliases: [Enlightenment as Process]
 created: 2025-11-01T12:20:07+00:00
-modified: 2026-07-13T08:45:01+00:00
+modified: 2026-07-13T08:52:33+00:00
 permalink: llmeon/30-library/100-zettelkasten/zen-defines-enlightenment-as-a-process-not-a-destination
 tags: [buddhism, enlightenment, non-duality, zen]
 title: Zen Defines Enlightenment as a Process Not a Destination

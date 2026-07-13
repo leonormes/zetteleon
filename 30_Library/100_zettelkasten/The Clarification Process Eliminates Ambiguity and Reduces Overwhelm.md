@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-11-10T15:12:00+00:00
-modified: 2026-07-13T08:45:00+00:00
+modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-clarification-process-eliminates-ambiguity-and-reduces-overwhelm
 tags: [clarification, gtd, overwhelm, topic/productivity]
 title: The Clarification Process Eliminates Ambiguity and Reduces Overwhelm

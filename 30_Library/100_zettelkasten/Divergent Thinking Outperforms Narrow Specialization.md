@@ -1,7 +1,7 @@
 ---
 aliases: [Divergent Thinking Advantage]
 created: 2025-11-01T12:30:01+00:00
-modified: 2026-07-13T08:44:55+00:00
+modified: 2026-07-13T08:52:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/divergent-thinking-outperforms-narrow-specialization
 tags: [adaptability, divergent-thinking, innovation, specialization]
 title: Divergent Thinking Outperforms Narrow Specialization

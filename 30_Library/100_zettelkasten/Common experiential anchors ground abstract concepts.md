@@ -1,7 +1,7 @@
 ---
 aliases: [existential anchors, human commonalities, universal experiences]
 created: 2025-10-31T20:07:00+00:00
-modified: 2026-07-13T08:44:54+00:00
+modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/common-experiential-anchors-ground-abstract-concepts
 tags: [anthropology, communication, phenomenology]
 title: Common experiential anchors ground abstract concepts

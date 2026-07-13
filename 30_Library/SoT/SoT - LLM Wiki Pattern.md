@@ -2,7 +2,7 @@
 aliases: [Compounding Knowledge Base, LLM Wiki, Persistent Knowledge Architecture, RAG Limitation]
 created: 2026-04-06T18:00:00+00:00
 last-synthesis: 2026-04-06
-modified: 2026-07-13T08:45:17+00:00
+modified: 2026-07-13T08:52:50+00:00
 permalink: llmeon/30-library/so-t/so-t-llm-wiki-pattern
 source_of_truth: true
 tags: [ai-engineering, architecture, knowledge-management, llm, rag, sot]

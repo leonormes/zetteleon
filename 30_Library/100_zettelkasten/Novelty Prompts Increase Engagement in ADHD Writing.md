@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-10-30T12:10:04+00:00
-modified: 2026-07-13T08:44:58+00:00
+modified: 2026-07-13T08:52:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/novelty-prompts-increase-engagement-in-adhd-writing
 source: '[[MOC - Daily Writing for Clarity and ADHD-Friendly Techniques]]'
 tags: [dopamine, novelty, TheHuman/Health/ADHD, writing]

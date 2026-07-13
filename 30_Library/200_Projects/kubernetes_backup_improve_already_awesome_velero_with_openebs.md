@@ -3,7 +3,7 @@ aliases: []
 created: 2025-02-07T12:57:56+00:00
 id: kubernetes_backup_improve_already_awesome_velero_with_openebs
 last_reviewed: ''
-modified: 2026-07-13T08:44:51+00:00
+modified: 2026-07-13T08:52:22+00:00
 permalink: llmeon/30-library/200-projects/kubernetes-backup-improve-already-awesome-velero-with-openebs
 project_category: development
 project_name: Core

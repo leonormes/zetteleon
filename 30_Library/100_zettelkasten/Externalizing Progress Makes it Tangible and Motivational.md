@@ -1,7 +1,7 @@
 ---
 aliases: [Externalizing Progress, Visible Progress]
 created: 2025-11-12T15:00:12+00:00
-modified: 2026-07-13T08:44:55+00:00
+modified: 2026-07-13T08:52:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/externalizing-progress-makes-it-tangible-and-motivational
 tags: [TheHuman/Health/ADHD, topic/productivity, visualization, working-memory]
 title: Externalizing Progress Makes it Tangible and Motivational

@@ -1,7 +1,7 @@
 ---
 aliases: [TGW, Virtual WAN]
 created: 2025-12-24T12:00:00+00:00
-modified: 2026-07-13T08:45:01+00:00
+modified: 2026-07-13T08:52:33+00:00
 permalink: llmeon/30-library/100-zettelkasten/transit-gateway
 tags: [aws, azure, SoftwareEngineering/Networking]
 title: Transit Gateway

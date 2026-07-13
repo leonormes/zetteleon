@@ -1,7 +1,7 @@
 ---
 aliases: [Eat The Frog]
 created: 2025-11-10T14:12:00+00:00
-modified: 2026-07-13T08:45:00+00:00
+modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-eat-the-frog-method-involves-tackling-the-most-important-task-first
 tags: [prioritization, procrastination, topic/productivity]
 title: The Eat The Frog Method Involves Tackling the Most Important Task First

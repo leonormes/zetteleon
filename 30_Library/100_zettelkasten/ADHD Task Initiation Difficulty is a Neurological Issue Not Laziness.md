@@ -1,7 +1,7 @@
 ---
 aliases: [ADHD is not laziness]
 created: 2025-10-30T12:03:00+00:00
-modified: 2026-07-13T08:44:52+00:00
+modified: 2026-07-13T08:52:23+00:00
 permalink: llmeon/30-library/100-zettelkasten/adhd-task-initiation-difficulty-is-a-neurological-issue-not-laziness
 source: '[[MOC - The Neurological Basis of Task Initiation Difficulty in ADHD]]'
 tags: [laziness, TheHuman/Health/ADHD, TheHuman/Mindset, TheHuman/Motivation]

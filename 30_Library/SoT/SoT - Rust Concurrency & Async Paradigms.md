@@ -1,7 +1,7 @@
 ---
 aliases: [Async Rust, Rust Concurrency, Shared-Nothing Architecture, Structured Concurrency]
 created: 2026-01-02T14:30:00+00:00
-modified: 2026-07-13T08:45:20+00:00
+modified: 2026-07-13T08:52:53+00:00
 permalink: llmeon/30-library/so-t/so-t-rust-concurrency-async-paradigms
 tags: [async, concurrency, performance, rust, SoftwareEngineering/Architecture]
 title: SoT - Rust Concurrency & Async Paradigms

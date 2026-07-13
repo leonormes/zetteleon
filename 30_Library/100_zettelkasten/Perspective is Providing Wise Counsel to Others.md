@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-12-10T12:00:00+00:00
-modified: 2026-07-13T08:44:58+00:00
+modified: 2026-07-13T08:52:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/perspective-is-providing-wise-counsel-to-others
 tags: [character-strength, perspective, wisdom]
 title: Perspective is Providing Wise Counsel to Others

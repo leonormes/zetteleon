@@ -1,6 +1,6 @@
 ---
 created: 2026-05-15T08:22:11+00:00
-modified: 2026-07-13T08:44:46+00:00
+modified: 2026-07-13T08:52:14+00:00
 permalink: llmeon/30-library/200-projects/restructuring-entra-id-scoping-ia-c-pim
 project_category: refined_deployment
 project_name: Refined Deployment

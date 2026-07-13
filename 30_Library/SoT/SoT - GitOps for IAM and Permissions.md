@@ -1,7 +1,7 @@
 ---
 aliases: [IAM GitOps, Infrastructure as Code Permissions, PIM via Terraform, Temporal Permissions]
 created: 2025-12-30T12:02:15+00:00
-modified: 2026-07-13T08:45:14+00:00
+modified: 2026-07-13T08:52:49+00:00
 permalink: llmeon/30-library/so-t/so-t-git-ops-for-iam-and-permissions
 tags: [gitops, iam, SoftwareEngineering/Architecture, SoftwareEngineering/Security, type_theory]
 title: SoT - GitOps for IAM and Permissions

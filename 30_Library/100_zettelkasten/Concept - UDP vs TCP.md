@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-11-22T15:00:11+00:00
-modified: 2026-07-13T08:44:54+00:00
+modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/concept-udp-vs-tcp
 tags: [SoftwareEngineering/networking/protocol]
 title: Concept - UDP vs TCP

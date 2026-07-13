@@ -1,7 +1,7 @@
 ---
 aliases: [Borrow Checker, Rust Lifetimes, Rust Ownership]
 created: 2025-12-19T00:00:00+00:00
-modified: 2026-07-13T08:45:20+00:00
+modified: 2026-07-13T08:52:53+00:00
 permalink: llmeon/30-library/so-t/so-t-rusts-ownership-model
 tags: [compilers, memory-management, rust, type-system]
 title: "SoT - Rust's Ownership Model"

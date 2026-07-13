@@ -1,7 +1,7 @@
 ---
 created: 2026-04-10T16:51:17+00:00
 created_utc: '2026-04-10T13:00:00+00:00'
-modified: 2026-07-13T08:45:02+00:00
+modified: 2026-07-13T08:52:34+00:00
 permalink: llmeon/30-library/400-indexes/link-report-analytical-exploration-of-evil
 source_atoms: '[[tmp_atoms_analytical_exploration_of_evil]]'
 status: tmp

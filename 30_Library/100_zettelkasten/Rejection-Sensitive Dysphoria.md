@@ -1,6 +1,6 @@
 ---
 created: 2026-05-31T00:00:00+00:00
-modified: 2026-07-13T08:44:59+00:00
+modified: 2026-07-13T08:52:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/rejection-sensitive-dysphoria
 related_to: ["[[MOC - ADHD and PKM Systems]]"]
 supports: ["[[Claim - ADHD perfectionism is maladaptive compensation]]"]

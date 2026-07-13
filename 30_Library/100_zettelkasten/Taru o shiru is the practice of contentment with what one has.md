@@ -1,7 +1,7 @@
 ---
 aliases: [Contentment Practice, Taru o shiru]
 created: 2025-10-29T16:35:00+00:00
-modified: 2026-07-13T08:45:00+00:00
+modified: 2026-07-13T08:52:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/taru-o-shiru-is-the-practice-of-contentment-with-what-one-has
 source: '[[SoT - Ikigai and the Logic of Purpose]]'
 tags: [contentment, gratitude, Japanese_culture, mindfulness, TheHuman/Habits]

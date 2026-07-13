@@ -1,7 +1,7 @@
 ---
 aliases: [Map-Territory Confusion, Model-Reality Confusion]
 created: 2025-09-11T21:37:21+00:00
-modified: 2026-07-13T08:44:57+00:00
+modified: 2026-07-13T08:52:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/mistaking-the-map-for-the-territory
 tags: [error, naive-realism, TheHuman/Cognition, TheHuman/Cognition/mental-model]
 title: Mistaking the Map for the Territory

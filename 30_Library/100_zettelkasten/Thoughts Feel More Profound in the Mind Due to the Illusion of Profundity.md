@@ -2,7 +2,7 @@
 aliases: [Illusion of Profundity]
 created: 2025-11-06T20:00:00+00:00
 last_reviewed: '2025-11-06'
-modified: 2026-07-13T08:45:01+00:00
+modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/thoughts-feel-more-profound-in-the-mind-due-to-the-illusion-of-profundity
 status: superseded
 superseded-by: '[[SoT - Illusion of Explanatory Depth (IoED)]]'

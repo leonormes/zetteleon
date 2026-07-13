@@ -1,7 +1,7 @@
 ---
 aliases: [Attainable minimums, Executive dysfunction strategy]
 created: 2025-10-30T18:06:00+00:00
-modified: 2026-07-13T08:44:57+00:00
+modified: 2026-07-13T08:52:28+00:00
 permalink: llmeon/30-library/100-zettelkasten/making-minimums-truly-attainable-addresses-executive-dysfunction
 source: '[[MOC - The Honeyman Method]]'
 tags: [executive-dysfunction, routines, strategy, TheHuman/Health/ADHD]

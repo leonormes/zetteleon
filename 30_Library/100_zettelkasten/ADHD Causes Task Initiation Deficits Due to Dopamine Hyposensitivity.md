@@ -1,7 +1,7 @@
 ---
 aliases: [Dopamine Hyposensitivity, Striatal Dopamine Deficit]
 created: 2025-10-29T16:38:00+00:00
-modified: 2026-07-13T08:44:52+00:00
+modified: 2026-07-13T08:52:23+00:00
 permalink: llmeon/30-library/100-zettelkasten/adhd-causes-task-initiation-deficits-due-to-dopamine-hyposensitivity
 source: '[[MOC - ADHD (The Master Map)]]'
 tags: [dopamine, executive_function, TheHuman/Health/ADHD, TheHuman/Neuroscience]

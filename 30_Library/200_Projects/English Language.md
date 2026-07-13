@@ -1,6 +1,6 @@
 ---
 created: 2026-05-04T08:01:26+00:00
-modified: 2026-07-13T08:44:37+00:00
+modified: 2026-07-13T08:52:02+00:00
 permalink: llmeon/30-library/200-projects/english-language
 project_name: Bessie
 title: English Language

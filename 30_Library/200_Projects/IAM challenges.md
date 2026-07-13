@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-02-12T18:03:15+00:00
 last_reviewed: ''
-modified: 2026-07-13T08:44:42+00:00
+modified: 2026-07-13T08:52:11+00:00
 permalink: llmeon/30-library/200-projects/iam-challenges
 project_category: development
 project_name: SDLC

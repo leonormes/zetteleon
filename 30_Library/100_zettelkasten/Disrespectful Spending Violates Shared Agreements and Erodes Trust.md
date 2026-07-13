@@ -1,7 +1,7 @@
 ---
 aliases: [Disrespectful Spending, Financial Infidelity]
 created: 2025-11-10T10:15:00+00:00
-modified: 2026-07-13T08:44:55+00:00
+modified: 2026-07-13T08:52:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/disrespectful-spending-violates-shared-agreements-and-erodes-trust
 tags: [boundaries, finance, relationship, respect, trust]
 title: Disrespectful Spending Violates Shared Agreements and Erodes Trust

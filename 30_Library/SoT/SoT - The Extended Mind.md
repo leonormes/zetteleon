@@ -1,7 +1,7 @@
 ---
 aliases: [Active Externalism, Cumulative Thinking, Distributed Cognition, Embodied Cognition, EMT, HEC, Hypothesis of Extended Cognition, The Extended Mind Thesis]
 created: 2025-12-07T18:28:36+00:00
-modified: 2026-07-13T08:45:22+00:00
+modified: 2026-07-13T08:52:55+00:00
 permalink: llmeon/30-library/so-t/so-t-the-extended-mind
 tags: [extended_mind, mental_models, pkm, TheHuman/Cognition, TheHuman/Health/ADHD, TheHuman/Philosophy]
 title: SoT - The Extended Mind

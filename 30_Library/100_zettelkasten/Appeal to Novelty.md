@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-05-08T06:57:07+00:00
 last_reviewed: 'null'
-modified: 2026-07-13T08:44:53+00:00
+modified: 2026-07-13T08:52:24+00:00
 permalink: llmeon/30-library/100-zettelkasten/appeal-to-novelty
 status: 'null'
 tags: [novelty, TheHuman/Cognition/bias, TheHuman/Health/ADHD]

@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-10-30T16:21:00+00:00
-modified: 2026-07-13T08:45:00+00:00
+modified: 2026-07-13T08:52:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/structure-conserves-cognitive-energy-for-neurodivergent-brains
 source: '[[MOC - Why Autistics and ADHDers NEED Routines]]'
 tags: [autism, energy-management, executive-function, TheHuman/Health/ADHD]

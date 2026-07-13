@@ -1,7 +1,7 @@
 ---
 aliases: ["Euclid's Theorem on Primes", Infinite Primes]
 created: 2025-08-19T23:32:29+00:00
-modified: 2026-07-13T08:44:56+00:00
+modified: 2026-07-13T08:52:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/infinitude-of-primes-guarantees-a-limitless-supply-for-keys
 tags: [cryptography, maths]
 title: Infinitude of Primes Guarantees a Limitless Supply for Keys

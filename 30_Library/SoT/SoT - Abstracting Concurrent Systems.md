@@ -1,7 +1,7 @@
 ---
 aliases: [Concurrent Systems Theory, Formal Abstraction, State Machine Models, The Lamport Method, TLA+]
 created: 2026-04-02T10:00:00+00:00
-modified: 2026-07-13T08:45:09+00:00
+modified: 2026-07-13T08:52:43+00:00
 permalink: llmeon/30-library/so-t/so-t-abstracting-concurrent-systems
 source_of_truth: true
 tags: [concurrency, distributed-systems, formal-methods, lamport, state-machines, tla+]

@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-08-14T00:00:00+00:00
-modified: 2026-07-13T08:45:22+00:00
+modified: 2026-07-13T08:52:54+00:00
 permalink: llmeon/30-library/so-t/so-t-the-data-architecture-of-tls-1.3
 tags: [SoftwareEngineering/Security]
 title: SoT - The Data Architecture of TLS 1.3

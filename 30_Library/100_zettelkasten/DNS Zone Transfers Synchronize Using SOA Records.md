@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-10-31T10:47:00+00:00
-modified: 2026-07-13T08:44:54+00:00
+modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/dns-zone-transfers-synchronize-using-soa-records
 tags: [SoftwareEngineering/Networking, SoftwareEngineering/networking/dns]
 title: DNS Zone Transfers Synchronize Using SOA Records

@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-10-30T12:05:06+00:00
-modified: 2026-07-13T08:45:00+00:00
+modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-day-can-be-divided-into-three-phases-for-habit-mapping
 source: '[[MOC - The Science of Making and Breaking Habits]]'
 tags: [chronobiology, energy-management, TheHuman/Habits, topic/productivity]

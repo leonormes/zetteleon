@@ -1,7 +1,7 @@
 ---
 created: 2026-02-19T15:18:30+00:00
 hop_level: cluster
-modified: 2026-07-13T08:45:27+00:00
+modified: 2026-07-13T08:52:59+00:00
 permalink: llmeon/30-library/ops/cmd-net-tcpdump-syn-watch
 tags: [atomic, network, packets]
 target_service: network

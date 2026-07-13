@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-10-30T16:28:00+00:00
-modified: 2026-07-13T08:44:59+00:00
+modified: 2026-07-13T08:52:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/sensory-supports-facilitate-routine-transitions
 source: '[[MOC - Why Autistics and ADHDers NEED Routines]]'
 tags: [coping-tools, sensory-support, transition-aids]

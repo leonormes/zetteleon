@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-10-30T12:07:01+00:00
-modified: 2026-07-13T08:44:54+00:00
+modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/clinical-models-recognize-activation-as-a-core-impairment-in-adhd
 tags: [assessment, diagnosis, executive-function, TheHuman/Health/ADHD]
 title: Clinical Models Recognize Activation as a Core Impairment in ADHD

@@ -1,7 +1,7 @@
 ---
 aliases: [Assembly Theory, Functional Information Theory, The Fourth Law of Thermodynamics]
 created: 2025-12-25T12:00:00+00:00
-modified: 2026-07-13T08:45:22+00:00
+modified: 2026-07-13T08:52:55+00:00
 permalink: llmeon/30-library/so-t/so-t-the-law-of-increasing-functional-information
 see_also: []
 superseded_by: ''

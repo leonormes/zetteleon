@@ -1,7 +1,7 @@
 ---
 aliases: [Frozen Context, Token Caching]
 created: 2026-01-08T16:10:00+00:00
-modified: 2026-07-13T08:44:54+00:00
+modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/context-caching-freezes-large-static-datasets-for-efficient-inference
 tags: [context-engineering, economics, llm, llm-understanding]
 title: Context Caching Freezes Large Static Datasets for Efficient Inference

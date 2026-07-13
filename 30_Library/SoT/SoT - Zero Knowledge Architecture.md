@@ -2,7 +2,7 @@
 aliases: [Plonky3, Proof of SQL, Zero Knowledge Proofs, ZK Architecture]
 created: 2026-01-06T19:46:24+00:00
 last_reviewed: null
-modified: 2026-07-13T08:45:23+00:00
+modified: 2026-07-13T08:52:56+00:00
 permalink: llmeon/30-library/so-t/so-t-zero-knowledge-architecture
 status: Active
 tags: [cryptography, data, rust, SoftwareEngineering/Architecture, zkp]

@@ -1,7 +1,7 @@
 ---
 aliases: [Cognitive Economics of Patterns]
 created: 2025-11-01T12:00:05+00:00
-modified: 2026-07-13T08:44:58+00:00
+modified: 2026-07-13T08:52:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/pattern-recognition-is-an-efficient-cognitive-heuristic
 tags: [efficiency, heuristics, TheHuman/Cognition]
 title: Pattern Recognition is an Efficient Cognitive Heuristic

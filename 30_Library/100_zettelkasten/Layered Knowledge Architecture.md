@@ -2,7 +2,7 @@
 created: 2026-04-14T20:38:44+00:00
 created_utc: '2026-04-14T14:00:00Z'
 kind: distinction
-modified: 2026-07-13T08:44:57+00:00
+modified: 2026-07-13T08:52:28+00:00
 permalink: llmeon/30-library/100-zettelkasten/layered-knowledge-architecture
 source_title: Hermes Agent and Karpathy’s LLM Wiki
 source_url: https://youtu.be/Mb5N08xcxtg

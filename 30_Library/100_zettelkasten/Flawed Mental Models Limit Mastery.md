@@ -1,7 +1,7 @@
 ---
 aliases: [Bug in the Model, Capability Ceilings, Cognitive Ceilings, Model-Based Mastery]
 created: 2026-02-11T16:45:00+00:00
-modified: 2026-07-13T08:44:55+00:00
+modified: 2026-07-13T08:52:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/flawed-mental-models-limit-mastery
 see_also: []
 superseded_by: ''

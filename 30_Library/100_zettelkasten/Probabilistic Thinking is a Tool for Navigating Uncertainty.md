@@ -1,7 +1,7 @@
 ---
 aliases: [Probabilistic Thinking]
 created: 2025-11-06T19:59:02+00:00
-modified: 2026-07-13T08:44:58+00:00
+modified: 2026-07-13T08:52:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/probabilistic-thinking-is-a-tool-for-navigating-uncertainty
 tags: [decision-making, mental-model, probability, uncertainty]
 title: Probabilistic Thinking is a Tool for Navigating Uncertainty

@@ -1,7 +1,7 @@
 ---
 aliases: [Akrasia, Weakness of Will]
 created: 2025-11-10T17:07:00+00:00
-modified: 2026-07-13T08:44:53+00:00
+modified: 2026-07-13T08:52:23+00:00
 permalink: llmeon/30-library/100-zettelkasten/akrasia-is-acting-against-ones-better-judgment
 tags: [aristotle, ethics, TheHuman/Philosophy, willpower]
 title: "Akrasia is Acting Against One's Better Judgment"

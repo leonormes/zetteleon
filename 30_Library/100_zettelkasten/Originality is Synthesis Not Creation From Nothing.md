@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-11-01T09:51:13+00:00
-modified: 2026-07-13T08:44:58+00:00
+modified: 2026-07-13T08:52:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/originality-is-synthesis-not-creation-from-nothing
 tags: [mental-model, originality, synthesis, TheHuman/Creativity, topic/creativity]
 title: Originality is Synthesis Not Creation From Nothing

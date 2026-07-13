@@ -1,7 +1,7 @@
 ---
 aliases: [NIC DMA]
 created: 2025-11-22T15:00:06+00:00
-modified: 2026-07-13T08:44:54+00:00
+modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/concept-nic-direct-memory-access
 tags: [SoftwareEngineering/networking/hardware]
 title: Concept - NIC Direct Memory Access

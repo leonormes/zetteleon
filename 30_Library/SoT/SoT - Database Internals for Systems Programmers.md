@@ -1,7 +1,7 @@
 ---
 aliases: [B-Trees vs LSM, Database Internals, MVCC, Query Planning, Storage Engines]
 created: 2025-12-31T00:00:00+00:00
-modified: 2026-07-13T08:45:11+00:00
+modified: 2026-07-13T08:52:45+00:00
 permalink: llmeon/30-library/so-t/so-t-database-internals-for-systems-programmers
 tags: [database, internals, learning, performance, SoftwareEngineering/Architecture]
 title: SoT - Database Internals for Systems Programmers

@@ -1,7 +1,7 @@
 ---
 aliases: [ADHD Creation Cycle, Breaking the Loop, Continuation Protocol]
 created: 2025-11-13T00:00:00+00:00
-modified: 2026-07-13T08:45:10+00:00
+modified: 2026-07-13T08:52:44+00:00
 permalink: llmeon/30-library/so-t/so-t-breaking-the-creation-cycle
 tags: [developer_workflow, mental_model, TheHuman/Health/ADHD, topic/productivity]
 title: SoT - Breaking the Creation Cycle

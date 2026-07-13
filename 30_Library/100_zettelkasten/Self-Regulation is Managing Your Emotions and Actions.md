@@ -1,7 +1,7 @@
 ---
 aliases: [Self-Control]
 created: 2025-11-01T21:23:00+00:00
-modified: 2026-07-13T08:44:59+00:00
+modified: 2026-07-13T08:52:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/self-regulation-is-managing-your-emotions-and-actions
 tags: [character-strength, emotional-intelligence, self-control, self-regulation, virtue]
 title: Self-Regulation is Managing Your Emotions and Actions

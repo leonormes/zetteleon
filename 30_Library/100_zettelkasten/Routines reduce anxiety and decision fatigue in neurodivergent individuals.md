@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-10-30T16:20:00+00:00
-modified: 2026-07-13T08:44:59+00:00
+modified: 2026-07-13T08:52:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/routines-reduce-anxiety-and-decision-fatigue-in-neurodivergent-individuals
 source: ''
 tags: [anxiety-reduction, autism, decision-fatigue, TheHuman/Health/ADHD]

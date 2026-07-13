@@ -1,7 +1,7 @@
 ---
 aliases: [Communication Theory, Cross-Cultural Communication, Experiential Filter, Misunderstanding, Shared Understanding]
 created: 2026-01-02T15:20:00+00:00
-modified: 2026-07-13T08:45:10+00:00
+modified: 2026-07-13T08:52:44+00:00
 permalink: llmeon/30-library/so-t/so-t-communication-misunderstanding-the-experiential-filter
 tags: [communication, misunderstanding, psychology, social-cognition]
 title: SoT - Communication & Misunderstanding (The Experiential Filter)

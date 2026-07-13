@@ -3,7 +3,7 @@ aliases: []
 created: 2025-02-07T12:57:56+00:00
 dependencies: ''
 last_reviewed: ''
-modified: 2026-07-13T08:44:48+00:00
+modified: 2026-07-13T08:52:17+00:00
 name: cicd_minimal_permissions
 permalink: llmeon/30-library/200-projects/cicd-minimal-permissions
 project_category: development

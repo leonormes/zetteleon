@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-10-30T12:04:03+00:00
-modified: 2026-07-13T08:45:00+00:00
+modified: 2026-07-13T08:52:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/systems-and-environment-are-the-backbone-of-discipline
 source: '[[MOC - How to Build Discipline]]'
 tags: [discipline, environment, TheHuman/Motivation, topic/systems]

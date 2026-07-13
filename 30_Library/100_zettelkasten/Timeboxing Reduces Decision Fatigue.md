@@ -1,7 +1,7 @@
 ---
 aliases: [Reduced Decision Fatigue]
 created: 2025-11-01T21:04:00+00:00
-modified: 2026-07-13T08:45:01+00:00
+modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/timeboxing-reduces-decision-fatigue
 tags: [decision-fatigue, TheHuman/Psychology, time-management, topic/productivity]
 title: Timeboxing Reduces Decision Fatigue

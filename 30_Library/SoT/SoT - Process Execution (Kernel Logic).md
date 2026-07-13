@@ -1,6 +1,6 @@
 ---
 created: 2025-12-26T12:30:00+00:00
-modified: 2026-07-13T08:45:19+00:00
+modified: 2026-07-13T08:52:52+00:00
 permalink: llmeon/30-library/so-t/so-t-process-execution-kernel-logic
 tags: [kernel, operating-systems, programming, SoftwareEngineering/Linux]
 title: SoT - Process Execution (Kernel Logic)

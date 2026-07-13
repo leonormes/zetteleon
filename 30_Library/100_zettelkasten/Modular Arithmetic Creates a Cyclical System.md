@@ -1,7 +1,7 @@
 ---
 aliases: [Clock Arithmetic, Modular Math, Modulo]
 created: 2025-12-24T12:00:00+00:00
-modified: 2026-07-13T08:44:57+00:00
+modified: 2026-07-13T08:52:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/modular-arithmetic-creates-a-cyclical-system
 tags: [cryptography, maths]
 title: Modular Arithmetic Creates a Cyclical System

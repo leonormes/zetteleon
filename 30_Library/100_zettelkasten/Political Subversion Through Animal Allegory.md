@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-10-31T12:27:00+00:00
-modified: 2026-07-13T08:44:58+00:00
+modified: 2026-07-13T08:52:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/political-subversion-through-animal-allegory
 tags: [politics, storytelling]
 title: Political Subversion Through Animal Allegory

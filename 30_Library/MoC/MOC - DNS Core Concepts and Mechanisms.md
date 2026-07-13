@@ -4,7 +4,7 @@ created: 2025-10-31T10:52:00+00:00
 criteria: Focus on protocol-level concepts.
 exclusions: Implementation-specific details or cloud DNS services.
 last_reviewed: ''
-modified: 2026-07-13T08:45:04+00:00
+modified: 2026-07-13T08:52:37+00:00
 permalink: llmeon/30-library/mo-c/moc-dns-core-concepts-and-mechanisms
 scope: "Fundamental DNS mechanisms from 'DNS Explained.md'."
 status: ''

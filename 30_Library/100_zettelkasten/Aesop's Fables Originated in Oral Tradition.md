@@ -1,7 +1,7 @@
 ---
 aliases: ["Aesop's Oral Fables"]
 created: 2025-11-01T21:35:00+00:00
-modified: 2026-07-13T08:44:53+00:00
+modified: 2026-07-13T08:52:23+00:00
 permalink: llmeon/30-library/100-zettelkasten/aesops-fables-originated-in-oral-tradition
 tags: [aesop, fable, history, oral-tradition, storytelling]
 title: "Aesop's Fables Originated in Oral Tradition"

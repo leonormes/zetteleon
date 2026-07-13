@@ -2,7 +2,7 @@
 alias: [Formality Core, Rust Formal Modeling, Rust Type Theory, The Price of Ignoring Theory]
 aliases: []
 created: 2025-12-29T11:13:41+00:00
-modified: 2026-07-13T08:45:20+00:00
+modified: 2026-07-13T08:52:53+00:00
 permalink: llmeon/30-library/so-t/so-t-rust-type-theory-critique
 tags: [critique, formal-methods, rust, type-theory]
 title: SoT - Rust Type Theory & Critique

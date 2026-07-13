@@ -1,7 +1,7 @@
 ---
 aliases: [ECS, Entity Component System]
 created: 2025-12-31T00:00:00+00:00
-modified: 2026-07-13T08:45:11+00:00
+modified: 2026-07-13T08:52:46+00:00
 permalink: llmeon/30-library/so-t/so-t-entity-component-system-ecs
 tags: [ecs, game_development, rust, SoftwareEngineering/Architecture]
 title: SoT - Entity Component System (ECS)

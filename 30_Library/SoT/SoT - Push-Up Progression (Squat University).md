@@ -1,7 +1,7 @@
 ---
 aliases: [Bodyweight Strength, Push-Up Program, Push-Up Technique]
 created: 2025-12-26T14:00:00+00:00
-modified: 2026-07-13T08:45:20+00:00
+modified: 2026-07-13T08:52:53+00:00
 permalink: llmeon/30-library/so-t/so-t-push-up-progression-squat-university
 tags: [calisthenics, fitness, strength, technique]
 title: SoT - Push-Up Progression (Squat University)

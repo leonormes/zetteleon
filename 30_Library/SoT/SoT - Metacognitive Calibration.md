@@ -1,7 +1,7 @@
 ---
 aliases: [Commit Threshold, Insight Validation, The Recursion Error]
 created: 2025-12-23T20:22:33+00:00
-modified: 2026-07-13T08:45:17+00:00
+modified: 2026-07-13T08:52:50+00:00
 permalink: llmeon/30-library/so-t/so-t-metacognitive-calibration
 tags: [epistemology, intelligence, mental_models, metacognition, validation]
 title: SoT - Metacognitive Calibration

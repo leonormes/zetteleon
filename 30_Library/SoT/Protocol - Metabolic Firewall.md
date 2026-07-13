@@ -1,6 +1,6 @@
 ---
 created: 2026-01-10T09:27:00+00:00
-modified: 2026-07-13T08:45:08+00:00
+modified: 2026-07-13T08:52:41+00:00
 permalink: llmeon/30-library/so-t/protocol-metabolic-firewall
 status: active
 tags: [health, metabolic, system-architecture]

@@ -1,7 +1,7 @@
 ---
 created: 2026-04-13T14:53:30+00:00
 created_utc: '2026-04-13T11:40:00Z'
-modified: 2026-07-13T08:45:02+00:00
+modified: 2026-07-13T08:52:34+00:00
 permalink: llmeon/30-library/400-indexes/link-report-auto-research-framework
 source_atoms: '[[tmp_atoms_auto_research_framework.md]]'
 status: tmp

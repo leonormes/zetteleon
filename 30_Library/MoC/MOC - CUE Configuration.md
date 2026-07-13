@@ -1,7 +1,7 @@
 ---
 aliases: [Configure Unify Execute, CUE Configuration, CUE Lang MOC]
 created: 2026-02-04T00:00:00+00:00
-modified: 2026-07-13T08:45:03+00:00
+modified: 2026-07-13T08:52:36+00:00
 permalink: llmeon/30-library/mo-c/moc-cue-configuration
 tags: [configuration, cue, devops, infrastructure, moc]
 title: MOC - CUE Configuration

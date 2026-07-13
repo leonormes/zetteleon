@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-11-01T09:51:13+00:00
-modified: 2026-07-13T08:45:00+00:00
+modified: 2026-07-13T08:52:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/strong-opinions-loosely-held-balances-confidence-with-humility
 tags: [adaptation, decision-making, intellectual-humility, mental-model, TheHuman/Mindset]
 title: Strong Opinions Loosely Held Balances Confidence With Humility

@@ -1,7 +1,7 @@
 ---
 aliases: [Mutual Respect in a Relationship]
 created: 2025-11-10T10:01:00+00:00
-modified: 2026-07-13T08:44:57+00:00
+modified: 2026-07-13T08:52:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/mutual-respect-in-a-partnership-involves-valuing-opinions-speaking-kindly-and-honouring-boundaries
 tags: [boundaries, communication, relationship, respect]
 title: Mutual Respect in a Partnership Involves Valuing Opinions Speaking Kindly and Honouring Boundaries

@@ -1,7 +1,7 @@
 ---
 aliases: [Dual Coding]
 created: 2025-11-10T16:12:00+00:00
-modified: 2026-07-13T08:44:55+00:00
+modified: 2026-07-13T08:52:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/dual-coding-theory-suggests-using-verbal-and-visual-channels-enhances-memory
 tags: [dual-coding, learning, memory, TheHuman/Cognition]
 title: Dual Coding Theory Suggests Using Verbal and Visual Channels Enhances Memory

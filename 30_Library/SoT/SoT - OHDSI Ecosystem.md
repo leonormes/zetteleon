@@ -1,7 +1,7 @@
 ---
 aliases: [Federated Research Model, OHDSI Network, OMOP Philosophy]
 created: 2026-01-06T18:52:00+00:00
-modified: 2026-07-13T08:45:18+00:00
+modified: 2026-07-13T08:52:51+00:00
 permalink: llmeon/30-library/so-t/so-t-ohdsi-ecosystem
 tags: [ohdsi, SoftwareEngineering/Architecture, sot]
 title: SoT - OHDSI Ecosystem

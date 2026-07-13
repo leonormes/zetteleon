@@ -1,7 +1,7 @@
 ---
 aliases: [Timeboxing Definition]
 created: 2025-11-01T21:00:00+00:00
-modified: 2026-07-13T08:45:01+00:00
+modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/timeboxing-is-allocating-specific-time-slots-for-specific-tasks
 tags: [definition, scheduling, time-management, topic/productivity]
 title: Timeboxing is Allocating Specific Time Slots for Specific Tasks

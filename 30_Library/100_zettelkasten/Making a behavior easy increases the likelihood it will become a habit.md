@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-10-29T16:40:00+00:00
-modified: 2026-07-13T08:44:57+00:00
+modified: 2026-07-13T08:52:28+00:00
 permalink: llmeon/30-library/100-zettelkasten/making-a-behavior-easy-increases-the-likelihood-it-will-become-a-habit
 source: '[[MOC - ADHD Routine Building Strategies]]'
 tags: [TheHuman/Habits, TheHuman/Health/ADHD, TheHuman/Psychology, topic/productivity]

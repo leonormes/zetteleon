@@ -4,7 +4,7 @@ created: 2025-11-01T12:30:00+00:00
 criteria: ''
 exclusions: Specific examples of prodigies or detailed biographical information.
 last_reviewed: 'null'
-modified: 2026-07-13T08:45:04+00:00
+modified: 2026-07-13T08:52:37+00:00
 permalink: llmeon/30-library/mo-c/moc-divergent-thinking-vs-specialization
 scope: ''
 status: 'null'

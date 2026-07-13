@@ -2,7 +2,7 @@
 aliases: [Data Quality Dashboard, DQD, OMOP ETL, Rabbit-in-a-Hat]
 created: 2026-01-06T19:27:38+00:00
 last_reviewed: null
-modified: 2026-07-13T08:45:18+00:00
+modified: 2026-07-13T08:52:51+00:00
 permalink: llmeon/30-library/so-t/so-t-ohdsi-etl-data-quality
 status: Active
 tags: [data-quality, etl, ohdsi, process]

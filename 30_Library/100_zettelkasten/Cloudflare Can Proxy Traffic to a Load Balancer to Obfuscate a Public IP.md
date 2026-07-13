@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-10-31T09:25:33+00:00
-modified: 2026-07-13T08:44:54+00:00
+modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/cloudflare-can-proxy-traffic-to-a-load-balancer-to-obfuscate-a-public-ip
 tags: [cloudflare, homelab, SoftwareEngineering/Networking, SoftwareEngineering/networking/dns, SoftwareEngineering/Security]
 title: Cloudflare Can Proxy Traffic to a Load Balancer to Obfuscate a Public IP

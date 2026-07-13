@@ -1,7 +1,7 @@
 ---
 aliases: [Deployment Master Guide, FitFile Deployment Playbook, Start Here - Deployment]
 created: 2025-12-21T09:34:38+00:00
-modified: 2026-07-13T08:45:04+00:00
+modified: 2026-07-13T08:52:37+00:00
 permalink: llmeon/30-library/mo-c/moc-fit-file-deployment
 Reviewed: false
 tags: [ff_deploy, index, process]

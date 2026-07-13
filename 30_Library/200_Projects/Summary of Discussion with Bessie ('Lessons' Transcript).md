@@ -1,6 +1,6 @@
 ---
 created: 2026-05-04T08:01:26+00:00
-modified: 2026-07-13T08:44:46+00:00
+modified: 2026-07-13T08:52:15+00:00
 permalink: llmeon/30-library/200-projects/summary-of-discussion-with-bessie-lessons-transcript
 project_name: Bessie
 title: "Summary of Discussion with Bessie ('Lessons' Transcript)"

@@ -2,7 +2,7 @@
 aliases: [Launch Sequence, The Initiation Algorithm]
 created: 2025-12-23T20:00:20+00:00
 last_reviewed: '2025-12-23'
-modified: 2026-07-13T08:45:20+00:00
+modified: 2026-07-13T08:52:53+00:00
 permalink: llmeon/30-library/so-t/so-t-protocol-the-launch-sequence
 status: stable
 tags: [action, adhd, initiation, productivity, protocol]

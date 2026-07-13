@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-10-30T16:25:00+00:00
-modified: 2026-07-13T08:44:59+00:00
+modified: 2026-07-13T08:52:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/regular-routine-review-prevents-stagnation
 source: '[[MOC - Why Autistics and ADHDers NEED Routines]]'
 tags: [adaptation, review-cycles, routine-maintenance]

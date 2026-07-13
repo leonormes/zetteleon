@@ -1,7 +1,7 @@
 ---
 aliases: [Aristotelian Knowledge, Episteme-Techne-Phronesis]
 created: 2025-11-12T14:10:02+00:00
-modified: 2026-07-13T08:44:53+00:00
+modified: 2026-07-13T08:52:24+00:00
 permalink: llmeon/30-library/100-zettelkasten/aristotle-distinguished-between-episteme-techne-and-phronesis
 tags: [aristotle, knowledge, TheHuman/Philosophy]
 title: Aristotle Distinguished Between Episteme, Techne, and Phronesis

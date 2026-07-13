@@ -3,7 +3,7 @@ aliases: []
 created: 2025-02-07T12:57:55+00:00
 ID: information_as_an_organizing_principle
 last_reviewed: ''
-modified: 2026-07-13T08:44:56+00:00
+modified: 2026-07-13T08:52:28+00:00
 permalink: llmeon/30-library/100-zettelkasten/information-as-an-organizing-principle
 status: ''
 tags: [information]

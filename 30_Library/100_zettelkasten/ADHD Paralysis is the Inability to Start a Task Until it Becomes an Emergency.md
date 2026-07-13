@@ -1,7 +1,7 @@
 ---
 aliases: [ADHD Paralysis]
 created: 2025-10-29T16:38:00+00:00
-modified: 2026-07-13T08:44:52+00:00
+modified: 2026-07-13T08:52:23+00:00
 permalink: llmeon/30-library/100-zettelkasten/adhd-paralysis-is-the-inability-to-start-a-task-until-it-becomes-an-emergency
 source: '[[MOC - The Phases of Task Execution and the Impact of ADHD]]'
 tags: [executive_function, task_initiation, TheHuman/Health/ADHD]

@@ -1,7 +1,7 @@
 ---
 aliases: [K8s Architecture, K8s Cluster State, K8s Mental Model]
 created: 2025-12-16T00:00:00+00:00
-modified: 2026-07-13T08:45:15+00:00
+modified: 2026-07-13T08:52:50+00:00
 permalink: llmeon/30-library/so-t/so-t-kubernetes-cluster-state-architecture
 tags: [devops, etcd, kubernetes, mental_model, SoftwareEngineering/Architecture]
 title: SoT - Kubernetes Cluster State Architecture

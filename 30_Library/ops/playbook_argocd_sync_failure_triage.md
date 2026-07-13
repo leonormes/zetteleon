@@ -1,7 +1,7 @@
 ---
 created: 2026-02-21T15:05:08+00:00
 last_verified: 2026-02-22
-modified: 2026-07-13T08:45:30+00:00
+modified: 2026-07-13T08:53:02+00:00
 permalink: llmeon/30-library/ops/playbook-argocd-sync-failure-triage
 severity: p3
 tags: [argocd, debug, drift, kubectl, playbook, sync]

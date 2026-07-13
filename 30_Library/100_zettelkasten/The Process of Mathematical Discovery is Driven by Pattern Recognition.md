@@ -1,7 +1,7 @@
 ---
 aliases: [Mathematical Discovery Process]
 created: 2025-11-01T12:00:11+00:00
-modified: 2026-07-13T08:45:00+00:00
+modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-process-of-mathematical-discovery-is-driven-by-pattern-recognition
 tags: [discovery, maths, methodology, proof, TheHuman/Creativity]
 title: The Process of Mathematical Discovery is Driven by Pattern Recognition

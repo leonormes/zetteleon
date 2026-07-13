@@ -1,7 +1,7 @@
 ---
 aliases: [Axiomatic Set Theory, ZF, ZFC]
 created: 2025-11-01T11:22:13+00:00
-modified: 2026-07-13T08:44:53+00:00
+modified: 2026-07-13T08:52:24+00:00
 permalink: llmeon/30-library/100-zettelkasten/axiomatic-set-theory-is-a-foundational-framework-for-mathematics
 tags: [foundations, set-theory, topic/maths]
 title: Axiomatic Set Theory Is a Foundational Framework for Mathematics

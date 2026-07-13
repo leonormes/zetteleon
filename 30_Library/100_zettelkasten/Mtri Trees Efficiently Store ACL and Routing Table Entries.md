@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-10-31T10:18:00+00:00
-modified: 2026-07-13T08:44:57+00:00
+modified: 2026-07-13T08:52:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/mtri-trees-efficiently-store-acl-and-routing-table-entries
 tags: [algorithms, data-structures, SoftwareEngineering/Networking]
 title: Mtri Trees Efficiently Store ACL and Routing Table Entries

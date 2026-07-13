@@ -1,7 +1,7 @@
 ---
 created: 2026-04-01T15:50:00+00:00
 last-synthesis: 2026-04-01
-modified: 2026-07-13T08:45:07+00:00
+modified: 2026-07-13T08:52:41+00:00
 permalink: llmeon/30-library/so-t/protocol-git-lab-cli-authentication
 source_of_truth: true
 status: evergreen

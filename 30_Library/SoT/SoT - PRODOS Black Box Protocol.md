@@ -1,7 +1,7 @@
 ---
 aliases: [Black Box Thinking, Error Engine, Marginal Gains]
 created: 2026-01-11T21:20:00+00:00
-modified: 2026-07-13T08:45:18+00:00
+modified: 2026-07-13T08:52:52+00:00
 permalink: llmeon/30-library/so-t/so-t-prodos-black-box-protocol
 tags: [adhd-tools, improvement-logic, prodos, system-architecture]
 title: SoT - PRODOS Black Box Protocol

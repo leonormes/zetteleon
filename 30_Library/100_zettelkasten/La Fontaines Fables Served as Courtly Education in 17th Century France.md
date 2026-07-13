@@ -1,7 +1,7 @@
 ---
 aliases: ["La Fontaine's Fables"]
 created: 2025-11-01T21:37:00+00:00
-modified: 2026-07-13T08:44:57+00:00
+modified: 2026-07-13T08:52:28+00:00
 permalink: llmeon/30-library/100-zettelkasten/la-fontaines-fables-served-as-courtly-education-in-17th-century-france
 tags: [fable, french-literature, history, la-fontaine, storytelling]
 title: La Fontaines Fables Served as Courtly Education in 17th Century France

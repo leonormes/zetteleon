@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-10-29T16:35:00+00:00
-modified: 2026-07-13T08:44:56+00:00
+modified: 2026-07-13T08:52:28+00:00
 permalink: llmeon/30-library/100-zettelkasten/itadakimasu-expresses-gratitude-for-a-meal
 source: '[[MOC - 8 simple Japanese habits]]'
 tags: [gratitude, Japanese_culture, mindfulness, TheHuman/Habits]

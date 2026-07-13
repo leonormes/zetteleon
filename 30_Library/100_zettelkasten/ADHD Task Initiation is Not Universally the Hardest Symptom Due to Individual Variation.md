@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-10-30T12:07:00+00:00
-modified: 2026-07-13T08:44:52+00:00
+modified: 2026-07-13T08:52:23+00:00
 permalink: llmeon/30-library/100-zettelkasten/adhd-task-initiation-is-not-universally-the-hardest-symptom-due-to-individual-variation
 source: '[[MOC - The Neuroscience of Task Initiation in ADHD]]'
 tags: [executive-function, task-initiation, TheHuman/Health/ADHD]

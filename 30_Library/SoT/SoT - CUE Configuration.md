@@ -1,7 +1,7 @@
 ---
 aliases: [Configure Unify Execute, CUE Configuration, CUE Lang, CUE Logic, Unification Engine, Value Lattice]
 created: 2026-02-03T19:15:00+00:00
-modified: 2026-07-13T08:45:10+00:00
+modified: 2026-07-13T08:52:44+00:00
 permalink: llmeon/30-library/so-t/so-t-cue-configuration
 source_of_truth: true
 tags: [configuration-management, cue, infrastructure-as-code, prodos/sot, tool/cue]

@@ -1,7 +1,7 @@
 ---
 aliases: [Container Security Best Practices, Hardening Containers, K8s Security Hardening]
 created: 2025-12-25T12:30:00+00:00
-modified: 2026-07-13T08:45:10+00:00
+modified: 2026-07-13T08:52:44+00:00
 permalink: llmeon/30-library/so-t/so-t-container-security-hardening
 tags: [kubernetes, SoftwareEngineering/Architecture, SoftwareEngineering/Containers, SoftwareEngineering/Security]
 title: SoT - Container Security & Hardening

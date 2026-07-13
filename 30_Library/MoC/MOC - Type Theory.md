@@ -2,7 +2,7 @@
 alias: [PLT MOC, Programming Language Theory Index, Type Theory Index]
 aliases: []
 created: 2025-12-29T21:52:02+00:00
-modified: 2026-07-13T08:45:06+00:00
+modified: 2026-07-13T08:52:39+00:00
 permalink: llmeon/30-library/mo-c/moc-type-theory
 tags: [logic, programming, SoftwareEngineering/Architecture, type_theory, type/moc]
 title: MOC - Type Theory

@@ -1,7 +1,7 @@
 ---
 aliases: [WebSocket applications]
 created: 2025-10-31T13:45:00+00:00
-modified: 2026-07-13T08:45:01+00:00
+modified: 2026-07-13T08:52:33+00:00
 permalink: llmeon/30-library/100-zettelkasten/web-socket-use-cases-for-real-time-applications
 tags: [applications, real-time, use-cases, websocket]
 title: WebSocket Use Cases for Real-Time Applications

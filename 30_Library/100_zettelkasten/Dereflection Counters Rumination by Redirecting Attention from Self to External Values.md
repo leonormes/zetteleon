@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T00:00:00+00:00
-modified: 2026-07-13T08:44:54+00:00
+modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/dereflection-counters-rumination-by-redirecting-attention-from-self-to-external-values
 tags: [anxiety, attention, technique, therapy]
 title: Dereflection Counters Rumination by Redirecting Attention from Self to External Values

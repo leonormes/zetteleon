@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-07-26T16:43:52+00:00
 last_reviewed: ''
-modified: 2026-07-13T08:45:01+00:00
+modified: 2026-07-13T08:52:33+00:00
 permalink: llmeon/30-library/100-zettelkasten/understanding-enables-accurate-predictions
 status: ''
 tags: []

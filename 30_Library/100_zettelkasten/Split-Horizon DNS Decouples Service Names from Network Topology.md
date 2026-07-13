@@ -1,7 +1,7 @@
 ---
 aliases: [Split-Brain DNS, Split-View DNS]
 created: 2025-12-24T12:00:00+00:00
-modified: 2026-07-13T08:44:59+00:00
+modified: 2026-07-13T08:52:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/split-horizon-dns-decouples-service-names-from-network-topology
 tags: [hybrid-cloud, SoftwareEngineering/networking/dns, SoftwareEngineering/Security]
 title: Split-Horizon DNS Decouples Service Names from Network Topology

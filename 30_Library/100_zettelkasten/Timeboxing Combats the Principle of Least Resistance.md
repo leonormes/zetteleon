@@ -1,7 +1,7 @@
 ---
 aliases: [Structure vs Least Resistance]
 created: 2025-11-01T21:02:00+00:00
-modified: 2026-07-13T08:45:01+00:00
+modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/timeboxing-combats-the-principle-of-least-resistance
 tags: [deep-work, TheHuman/Psychology, time-management, topic/productivity]
 title: Timeboxing Combats the Principle of Least Resistance

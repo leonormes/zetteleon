@@ -1,7 +1,7 @@
 ---
 aliases: [Abstract Pattern Recognition]
 created: 2025-11-01T12:00:08+00:00
-modified: 2026-07-13T08:44:56+00:00
+modified: 2026-07-13T08:52:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/human-pattern-recognition-is-abstract-and-domain-general
 tags: [abstraction, evolution, TheHuman/Cognition]
 title: Human Pattern Recognition is Abstract and Domain-General

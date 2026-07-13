@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-10-31T11:06:00+00:00
-modified: 2026-07-13T08:44:54+00:00
+modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/dns-protocol-uses-udp-and-tcp-for-message-transport
 tags: [protocols, SoftwareEngineering/Networking, SoftwareEngineering/networking/dns]
 title: DNS Protocol Uses UDP and TCP for Message Transport

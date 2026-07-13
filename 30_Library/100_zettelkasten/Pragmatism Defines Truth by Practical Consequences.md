@@ -1,7 +1,7 @@
 ---
 aliases: [Pragmatism]
 created: 2025-11-10T17:08:00+00:00
-modified: 2026-07-13T08:44:58+00:00
+modified: 2026-07-13T08:52:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/pragmatism-defines-truth-by-practical-consequences
 tags: [action, pragmatism, TheHuman/Philosophy, truth]
 title: Pragmatism Defines Truth by Practical Consequences

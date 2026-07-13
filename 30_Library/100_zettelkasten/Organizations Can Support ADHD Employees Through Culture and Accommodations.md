@@ -1,7 +1,7 @@
 ---
 aliases: [Neurodiversity in the Workplace, Supporting ADHD Employees]
 created: 2025-11-06T19:54:12+00:00
-modified: 2026-07-13T08:44:58+00:00
+modified: 2026-07-13T08:52:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/organizations-can-support-adhd-employees-through-culture-and-accommodations
 tags: [accommodation, management, neurodiversity, TheHuman/Health/ADHD]
 title: Organizations Can Support ADHD Employees Through Culture and Accommodations

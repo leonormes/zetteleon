@@ -1,7 +1,7 @@
 ---
 aliases: ["Gödel's Theorems"]
 created: 2025-11-01T11:22:13+00:00
-modified: 2026-07-13T08:44:56+00:00
+modified: 2026-07-13T08:52:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/godels-incompleteness-theorems-constrain-foundational-programs
 tags: [foundations, godel, logic, topic/maths]
 title: "Gödel's Incompleteness Theorems Constrain Foundational Programs"

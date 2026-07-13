@@ -2,7 +2,7 @@
 aliases: [OBDA, Ontop, Semantic Data Access]
 created: 2026-01-07T20:52:57+00:00
 last_reviewed: null
-modified: 2026-07-13T08:45:23+00:00
+modified: 2026-07-13T08:52:56+00:00
 permalink: llmeon/30-library/so-t/so-t-virtual-knowledge-graph-paradigm
 status: Active
 tags: [architecture, data-centric, knowledge-graph, ontop, semantic-web]

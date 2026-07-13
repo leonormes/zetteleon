@@ -1,7 +1,7 @@
 ---
 aliases: [Family Meetings]
 created: 2025-11-10T14:18:00+00:00
-modified: 2026-07-13T08:44:59+00:00
+modified: 2026-07-13T08:52:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/regular-family-meetings-are-vital-for-collaborative-planning
 tags: [communication, family, organization, planning, process]
 title: Regular Family Meetings are Vital for Collaborative Planning

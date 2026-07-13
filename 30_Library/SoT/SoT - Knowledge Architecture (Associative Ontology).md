@@ -3,7 +3,7 @@ alias: [Intellectual Landscape, Knowledge Map, Ontology]
 aliases: []
 created: 2026-01-05T06:58:46+00:00
 last_reviewed: null
-modified: 2026-07-13T08:45:15+00:00
+modified: 2026-07-13T08:52:50+00:00
 permalink: llmeon/30-library/so-t/so-t-knowledge-architecture-associative-ontology
 see_also: []
 status: Active

@@ -1,7 +1,7 @@
 ---
 aliases: [Dynamic Linking, Shared Libraries, Static Linking]
 created: 2025-12-19T00:00:00+00:00
-modified: 2026-07-13T08:45:21+00:00
+modified: 2026-07-13T08:52:54+00:00
 permalink: llmeon/30-library/so-t/so-t-static-vs-dynamic-linking
 tags: [compilers, devops, linking, SoftwareEngineering/Security]
 title: SoT - Static vs Dynamic Linking

@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-02-07T12:57:54+00:00
 last_reviewed: ''
-modified: 2026-07-13T08:44:48+00:00
+modified: 2026-07-13T08:52:17+00:00
 permalink: llmeon/30-library/200-projects/building-containers-using-linux-primitives
 project_category: infrastructure
 project_name: k8s

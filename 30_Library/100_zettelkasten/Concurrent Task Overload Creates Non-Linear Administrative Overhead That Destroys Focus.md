@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-07-13T08:44:54+00:00
+modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/concurrent-task-overload-creates-non-linear-administrative-overhead-that-destroys-focus
 tags: [administrative-overhead, focus, productivity, workload-management]
 title: Concurrent Task Overload Creates Non-Linear Administrative Overhead That Destroys Focus

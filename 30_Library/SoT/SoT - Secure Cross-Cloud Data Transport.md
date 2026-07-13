@@ -1,7 +1,7 @@
 ---
 aliases: [Cross-Cloud Security, Secure Data Transport, SoT - Cross-Cloud]
 created: 2025-03-13T15:51:37+00:00
-modified: 2026-07-13T08:45:20+00:00
+modified: 2026-07-13T08:52:53+00:00
 permalink: llmeon/30-library/so-t/so-t-secure-cross-cloud-data-transport
 tags: [cloud, data-centric, SoftwareEngineering/Architecture, SoftwareEngineering/Security, sot]
 title: SoT - Secure Cross-Cloud Data Transport

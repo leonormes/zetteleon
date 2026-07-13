@@ -2,7 +2,7 @@
 created: 2026-02-22T16:53:26+00:00
 hop_level: local
 last_verified: 2026-02-22
-modified: 2026-07-13T08:45:29+00:00
+modified: 2026-07-13T08:53:01+00:00
 permalink: llmeon/30-library/ops/cmd-kubectl-restart-argocd-repo-server
 requires_tunnel: false
 tags: [argocd, cache, cmd, credentials, restart]

@@ -3,7 +3,7 @@ aliases: [Journey Over Destination, Learning Process Value, Process Focus]
 created: 2025-09-11T20:23:33+00:00
 creation_date: '2025-09-11T00:00:00.000Z'
 last_reviewed: 'null'
-modified: 2026-07-13T08:44:58+00:00
+modified: 2026-07-13T08:52:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/process-over-outcome-mindset
 status: 'null'
 tags: [TheHuman/Health/ADHD, TheHuman/Mindset, TheHuman/Motivation, topic/learning]

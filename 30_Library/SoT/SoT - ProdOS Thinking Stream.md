@@ -1,7 +1,7 @@
 ---
 created: 2026-04-02T10:55:00+00:00
 last-synthesis: 2026-04-02
-modified: 2026-07-13T08:45:20+00:00
+modified: 2026-07-13T08:52:52+00:00
 permalink: llmeon/30-library/so-t/so-t-prod-os-thinking-stream
 source_of_truth: true
 tags: [prodos, system/protocol, thinking, type/SoT, workflow]

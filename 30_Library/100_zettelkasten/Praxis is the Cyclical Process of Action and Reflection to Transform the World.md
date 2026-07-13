@@ -1,7 +1,7 @@
 ---
 aliases: [Praxis]
 created: 2025-11-12T14:10:03+00:00
-modified: 2026-07-13T08:44:58+00:00
+modified: 2026-07-13T08:52:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/praxis-is-the-cyclical-process-of-action-and-reflection-to-transform-the-world
 tags: [action, TheHuman/Philosophy, theory]
 title: Praxis is the Cyclical Process of Action and Reflection to Transform the World

@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-26T17:16:00+00:00
 last_reviewed: 'null'
-modified: 2026-07-13T08:45:04+00:00
+modified: 2026-07-13T08:52:37+00:00
 permalink: llmeon/30-library/mo-c/moc-container-runtime-orchestration
 status: 'null'
 tags: [cni, cri, docker, kubernetes, orchestration, SoftwareEngineering/Containers, SoftwareEngineering/Kubernetes, type/moc]

@@ -1,7 +1,7 @@
 ---
 aliases: [Social Drag]
 created: 2025-12-17T00:00:00+00:00
-modified: 2026-07-13T08:45:21+00:00
+modified: 2026-07-13T08:52:53+00:00
 permalink: llmeon/30-library/so-t/so-t-social-friction-coefficient
 tags: [efficiency, team-dynamics, topic/productivity, topic/systems]
 title: SoT - Social Friction Coefficient

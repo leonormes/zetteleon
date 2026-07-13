@@ -2,7 +2,7 @@
 aliases: [Algebra]
 created: 2025-11-01T11:22:13+00:00
 last_reviewed: '2025-11-01T00:00:00.000Z'
-modified: 2026-07-13T08:44:53+00:00
+modified: 2026-07-13T08:52:23+00:00
 permalink: llmeon/30-library/100-zettelkasten/algebra-definition
 status: seedling
 tags: [fields, topic/maths]

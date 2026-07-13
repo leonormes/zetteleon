@@ -1,7 +1,7 @@
 ---
 aliases: [Asymmetric Keys, Key Pair Asymmetry]
 created: 2025-08-19T23:32:29+00:00
-modified: 2026-07-13T08:44:59+00:00
+modified: 2026-07-13T08:52:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/public-and-private-keys-are-mathematically-asymmetric
 tags: [cryptography, maths, SoftwareEngineering/Security]
 title: Public and Private Keys Are Mathematically Asymmetric

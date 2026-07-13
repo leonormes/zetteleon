@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-07-13T08:45:00+00:00
+modified: 2026-07-13T08:52:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/standard-assessments-are-functionally-obsolete-where-ai-can-generate-acceptable-output
 tags: [ai-impact, assessment, education, pedagogy]
 title: Standard Assessments Are Functionally Obsolete Where AI Can Generate Acceptable Output

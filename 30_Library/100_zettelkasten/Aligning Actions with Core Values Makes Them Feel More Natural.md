@@ -1,7 +1,7 @@
 ---
 aliases: [Self-Concordant Goals]
 created: 2025-11-10T17:12:00+00:00
-modified: 2026-07-13T08:44:53+00:00
+modified: 2026-07-13T08:52:23+00:00
 permalink: llmeon/30-library/100-zettelkasten/aligning-actions-with-core-values-makes-them-feel-more-natural
 tags: [action, TheHuman/Identity, TheHuman/Motivation, TheHuman/Psychology, values]
 title: Aligning Actions with Core Values Makes Them Feel More Natural

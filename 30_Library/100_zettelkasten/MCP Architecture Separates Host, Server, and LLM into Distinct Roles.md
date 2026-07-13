@@ -1,6 +1,6 @@
 ---
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-07-13T08:44:57+00:00
+modified: 2026-07-13T08:52:28+00:00
 permalink: llmeon/30-library/100-zettelkasten/mcp-architecture-separates-host-server-and-llm-into-distinct-roles
 tags: [agentic-ai, architecture, mcp, system-design]
 title: MCP Architecture Separates Host, Server, and LLM into Distinct Roles

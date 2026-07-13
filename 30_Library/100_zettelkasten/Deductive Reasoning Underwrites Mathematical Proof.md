@@ -1,7 +1,7 @@
 ---
 aliases: [Deductive Reasoning, Mathematical Proof]
 created: 2025-11-01T11:22:13+00:00
-modified: 2026-07-13T08:44:54+00:00
+modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/deductive-reasoning-underwrites-mathematical-proof
 tags: [logic, proof, topic/maths]
 title: Deductive Reasoning Underwrites Mathematical Proof

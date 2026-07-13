@@ -1,6 +1,6 @@
 ---
 created: 2026-02-01T20:57:13+00:00
-modified: 2026-07-13T08:45:00+00:00
+modified: 2026-07-13T08:52:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/targeting-llm-attention-requires-encoding-relevance-as-structure
 tags: [architecture, concept/attention, domain/ai]
 title: Targeting LLM Attention Requires Encoding Relevance as Structure

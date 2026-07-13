@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-11-01T09:51:13+00:00
-modified: 2026-07-13T08:44:53+00:00
+modified: 2026-07-13T08:52:24+00:00
 permalink: llmeon/30-library/100-zettelkasten/bayesian-updating-adjusts-beliefs-as-new-evidence-arrives
 tags: [bayesian, learning, mental-model, reasoning]
 title: Bayesian Updating Adjusts Beliefs as New Evidence Arrives

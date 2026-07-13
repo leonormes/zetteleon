@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-08-30T08:57:56+00:00
-modified: 2026-07-13T08:44:58+00:00
+modified: 2026-07-13T08:52:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/numbers-as-abstract-objects-platonism
 tags: [platonism, topic/maths, topic/philosophy]
 title: Numbers as Abstract Objects (Platonism)

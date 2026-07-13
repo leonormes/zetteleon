@@ -1,7 +1,7 @@
 ---
 aliases: [Open Communication in a Relationship]
 created: 2025-11-10T10:02:00+00:00
-modified: 2026-07-13T08:44:58+00:00
+modified: 2026-07-13T08:52:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/open-communication-in-a-partnership-requires-active-listening-and-collaborative-problem-solving
 tags: [communication, conflict-resolution, relationship]
 title: Open Communication in a Partnership Requires Active Listening and Collaborative Problem-Solving

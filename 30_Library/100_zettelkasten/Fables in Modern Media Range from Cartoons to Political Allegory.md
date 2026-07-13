@@ -1,7 +1,7 @@
 ---
 aliases: [Modern Fables]
 created: 2025-11-01T21:39:00+00:00
-modified: 2026-07-13T08:44:55+00:00
+modified: 2026-07-13T08:52:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/fables-in-modern-media-range-from-cartoons-to-political-allegory
 tags: [animation, fable, history, literature, modern-media, storytelling]
 title: Fables in Modern Media Range from Cartoons to Political Allegory

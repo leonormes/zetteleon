@@ -1,7 +1,7 @@
 ---
 created: 2026-02-17T12:03:31+00:00
 incident_type: auth_failure
-modified: 2026-07-13T08:45:29+00:00
+modified: 2026-07-13T08:53:01+00:00
 permalink: llmeon/30-library/ops/pb-argocd-oci-auth-fail
 tags: [acr, argocd, oci, playbook]
 target_service: argocd

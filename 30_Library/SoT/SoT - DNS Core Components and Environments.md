@@ -2,7 +2,7 @@
 aliases: [CoreDNS Configuration, DNS Architecture, Hybrid Cloud DNS, Protective DNS, Split-View DNS]
 created: 2026-01-06T20:15:48+00:00
 last_reviewed: '2026-03-28'
-modified: 2026-07-13T08:45:11+00:00
+modified: 2026-07-13T08:52:45+00:00
 permalink: llmeon/30-library/so-t/so-t-dns-core-components-and-environments
 status: Active
 tags: [aws, azure, dns, networking, security, SoftwareEngineering/Architecture]

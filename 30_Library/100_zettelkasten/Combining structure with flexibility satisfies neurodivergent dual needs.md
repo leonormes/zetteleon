@@ -1,7 +1,7 @@
 ---
 aliases: [Dual needs satisfaction, Structure with flexibility]
 created: 2025-10-30T18:05:00+00:00
-modified: 2026-07-13T08:44:54+00:00
+modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/combining-structure-with-flexibility-satisfies-neurodivergent-dual-needs
 tags: [autism, neurodivergence, routines, TheHuman/Health/ADHD]
 title: Combining structure with flexibility satisfies neurodivergent dual needs

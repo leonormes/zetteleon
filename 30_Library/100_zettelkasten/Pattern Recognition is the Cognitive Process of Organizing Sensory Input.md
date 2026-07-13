@@ -1,7 +1,7 @@
 ---
 aliases: [Pattern Recognition]
 created: 2025-11-01T12:00:01+00:00
-modified: 2026-07-13T08:44:58+00:00
+modified: 2026-07-13T08:52:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/pattern-recognition-is-the-cognitive-process-of-organizing-sensory-input
 tags: [learning, perception, TheHuman/Cognition]
 title: Pattern Recognition is the Cognitive Process of Organizing Sensory Input

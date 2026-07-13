@@ -1,7 +1,7 @@
 ---
 aliases: [Container Primitives MOC, Linux Primitives Map]
 created: 2025-10-26T17:16:00+00:00
-modified: 2026-07-13T08:45:05+00:00
+modified: 2026-07-13T08:52:38+00:00
 permalink: llmeon/30-library/mo-c/moc-linux-container-primitives
 tags: [kernel, SoftwareEngineering/Containers, SoftwareEngineering/Linux, type/moc]
 title: MOC - Linux Container Primitives

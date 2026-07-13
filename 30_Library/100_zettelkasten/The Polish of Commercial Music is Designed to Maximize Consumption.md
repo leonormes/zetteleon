@@ -1,7 +1,7 @@
 ---
 aliases: [Polished Music Production]
 created: 2025-11-10T11:07:00+00:00
-modified: 2026-07-13T08:45:00+00:00
+modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-polish-of-commercial-music-is-designed-to-maximize-consumption
 tags: [commerce, music, product, production]
 title: The Polish of Commercial Music is Designed to Maximize Consumption

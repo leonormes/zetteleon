@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-10-30T12:04:00+00:00
-modified: 2026-07-13T08:44:55+00:00
+modified: 2026-07-13T08:52:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/discipline-is-freedom-from-chaos-and-anxiety
 source: '[[MOC - How to Build Discipline]]'
 tags: [discipline, freedom, TheHuman/Mindset]

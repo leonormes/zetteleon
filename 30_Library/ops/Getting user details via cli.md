@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-02-07T12:57:53+00:00
 last_reviewed: ''
-modified: 2026-07-13T08:45:25+00:00
+modified: 2026-07-13T08:52:57+00:00
 permalink: llmeon/30-library/ops/getting-user-details-via-cli
 status: ''
 tags: [aws, cli]

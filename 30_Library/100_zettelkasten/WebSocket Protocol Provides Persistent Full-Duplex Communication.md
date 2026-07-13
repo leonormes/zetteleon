@@ -1,7 +1,7 @@
 ---
 aliases: [WebSocket, WebSocket protocol]
 created: 2025-10-31T13:44:00+00:00
-modified: 2026-07-13T08:45:01+00:00
+modified: 2026-07-13T08:52:33+00:00
 permalink: llmeon/30-library/100-zettelkasten/web-socket-protocol-provides-persistent-full-duplex-communication
 tags: [protocol, real-time, SoftwareEngineering/Networking, websocket]
 title: WebSocket Protocol Provides Persistent Full-Duplex Communication

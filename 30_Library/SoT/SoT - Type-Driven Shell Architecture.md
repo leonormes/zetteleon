@@ -2,7 +2,7 @@
 aliases: [Shell Scripting Patterns, Shell Type Safety, Unix Philosophy]
 created: 2025-12-13T00:00:00+00:00
 last_reviewed: '2026-03-28'
-modified: 2026-07-13T08:45:23+00:00
+modified: 2026-07-13T08:52:55+00:00
 permalink: llmeon/30-library/so-t/so-t-type-driven-shell-architecture
 status: growing
 tags: [architecture, automation, bash, shell, sot, unix]

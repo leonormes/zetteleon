@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-20T10:11:00+00:00
 last_reviewed: ''
-modified: 2026-07-13T08:45:00+00:00
+modified: 2026-07-13T08:52:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/systems-generate-internal-logic-in-isolation
 status: ''
 tags: [culture, emergence, self-organization, topic/systems]

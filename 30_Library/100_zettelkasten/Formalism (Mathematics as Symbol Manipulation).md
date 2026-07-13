@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-11-01T11:22:13+00:00
-modified: 2026-07-13T08:44:55+00:00
+modified: 2026-07-13T08:52:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/formalism-mathematics-as-symbol-manipulation
 tags: [foundations, TheHuman/Philosophy, topic/maths]
 title: Formalism (Mathematics as Symbol Manipulation)

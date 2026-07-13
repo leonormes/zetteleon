@@ -5,7 +5,7 @@ criteria: Steps and concepts directly related to the NetworkChuck tutorial on Ke
   LoadMaster.
 exclusions: General load balancing theory or other vendor products.
 last_reviewed: ''
-modified: 2026-07-13T08:45:06+00:00
+modified: 2026-07-13T08:52:39+00:00
 permalink: llmeon/30-library/mo-c/moc-setting-up-a-kemp-load-balancer-in-a-home-network
 scope: A procedural guide for setting up a Kemp LoadMaster in a home lab for secure
   service exposure.

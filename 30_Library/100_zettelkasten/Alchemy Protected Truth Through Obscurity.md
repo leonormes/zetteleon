@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-07-20T13:32:44+00:00
 last_reviewed: ''
-modified: 2026-07-13T08:44:53+00:00
+modified: 2026-07-13T08:52:23+00:00
 permalink: llmeon/30-library/100-zettelkasten/alchemy-protected-truth-through-obscurity
 status: ''
 tags: [alchemy, esotericism, knowledge, methodology, secrecy]

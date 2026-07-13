@@ -1,7 +1,7 @@
 ---
 aliases: [Letting Go of Preferences]
 created: 2025-11-01T12:20:04+00:00
-modified: 2026-07-13T08:44:57+00:00
+modified: 2026-07-13T08:52:28+00:00
 permalink: llmeon/30-library/100-zettelkasten/letting-go-of-fixed-views-leads-to-peace
 tags: [buddhism, compassion, peace, zen]
 title: Letting Go of Fixed Views Leads to Peace

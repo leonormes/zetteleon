@@ -1,7 +1,7 @@
 ---
 aliases: [Functional Fitness, Longevity Protocol, Physical Hardware Maintenance]
 created: 2025-12-15T00:00:00+00:00
-modified: 2026-07-13T08:45:19+00:00
+modified: 2026-07-13T08:52:52+00:00
 permalink: llmeon/30-library/so-t/so-t-physical-health-and-vitality
 tags: [fitness, health, longevity, mobility, physical_hardware]
 title: SoT - Physical Health and Vitality

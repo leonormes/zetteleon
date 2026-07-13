@@ -1,7 +1,7 @@
 ---
 aliases: [Logotherapy SoT, Meaning in Suffering, The Will to Meaning, Tragic Optimism, Viktor Frankl SoT]
 created: 2025-12-12T00:00:00+00:00
-modified: 2026-07-13T08:45:17+00:00
+modified: 2026-07-13T08:52:50+00:00
 permalink: llmeon/30-library/so-t/so-t-logotherapy-and-the-will-to-meaning
 tags: [meaning, mental_models, resilience, TheHuman/Philosophy, TheHuman/Psychology]
 title: SoT - Logotherapy and the Will to Meaning

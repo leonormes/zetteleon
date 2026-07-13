@@ -1,7 +1,7 @@
 ---
 aliases: [Change Capacity Limits, Snap-Back Effect]
 created: 2025-10-30T15:04:20+00:00
-modified: 2026-07-13T08:45:00+00:00
+modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-rubber-band-metaphor-for-change-capacity
 tags: [capacity, change-management, metaphor, TheHuman/Health/ADHD]
 title: The Rubber Band Metaphor for Change Capacity

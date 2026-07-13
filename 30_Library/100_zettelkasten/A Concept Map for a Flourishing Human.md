@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-07-07T09:40:14+00:00
-modified: 2026-07-13T08:44:52+00:00
+modified: 2026-07-13T08:52:23+00:00
 permalink: llmeon/30-library/100-zettelkasten/a-concept-map-for-a-flourishing-human
 tags: [prodos/sot, topic/learning]
 title: A Concept Map for a Flourishing Human

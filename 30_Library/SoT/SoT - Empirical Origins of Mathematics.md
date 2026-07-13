@@ -1,7 +1,7 @@
 ---
 created: 2026-05-23T13:35:24+00:00
 last-synthesis: 2026-05-23
-modified: 2026-07-13T08:45:11+00:00
+modified: 2026-07-13T08:52:46+00:00
 permalink: llmeon/30-library/so-t/so-t-empirical-origins-of-mathematics
 source_of_truth: true
 tags: [domain/history-of-mathematics, type/SoT]

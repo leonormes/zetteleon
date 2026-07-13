@@ -2,7 +2,7 @@
 aliases: [Time-boxed Research]
 created: 2025-11-12T15:00:10+00:00
 last_reviewed: ''
-modified: 2026-07-13T08:45:01+00:00
+modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/time-boxing-research-prevents-productive-procrastination
 see_also: []
 status: seedling

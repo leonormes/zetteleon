@@ -2,7 +2,7 @@
 aliases: [Automated Privilege Management, GitOps PIM, JIT Access with IaC]
 created: 2025-07-04T07:32:01+00:00
 last_reviewed: null
-modified: 2026-07-13T08:45:14+00:00
+modified: 2026-07-13T08:52:49+00:00
 permalink: llmeon/30-library/so-t/so-t-git-ops-for-privileged-identity-management
 status: Active
 tags: [azure, gitops, iam, pim, security, terraform]

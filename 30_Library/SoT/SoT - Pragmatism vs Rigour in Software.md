@@ -1,7 +1,7 @@
 ---
 aliases: [Pragmatism vs Theory in Software, Rigour vs Velocity]
 created: 2025-12-19T00:00:00+00:00
-modified: 2026-07-13T08:45:19+00:00
+modified: 2026-07-13T08:52:52+00:00
 permalink: llmeon/30-library/so-t/so-t-pragmatism-vs-rigour-in-software
 tags: [mental-model, SoftwareEngineering, TheHuman/Philosophy]
 title: SoT - Pragmatism vs Rigour in Software

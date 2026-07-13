@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-11-01T09:51:13+00:00
-modified: 2026-07-13T08:44:54+00:00
+modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/confidence-as-trust-in-process-not-certainty-in-outcomes
 tags: [adaptation, confidence, mental-model, process, TheHuman/Mindset]
 title: Confidence as Trust in Process Not Certainty in Outcomes

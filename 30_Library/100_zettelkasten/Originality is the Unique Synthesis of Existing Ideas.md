@@ -1,7 +1,7 @@
 ---
 aliases: [Originality as Synthesis]
 created: 2025-11-06T19:59:00+00:00
-modified: 2026-07-13T08:44:58+00:00
+modified: 2026-07-13T08:52:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/originality-is-the-unique-synthesis-of-existing-ideas
 tags: [ideas, originality, synthesis, TheHuman/Creativity]
 title: Originality is the Unique Synthesis of Existing Ideas

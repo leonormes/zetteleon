@@ -1,7 +1,7 @@
 ---
 aliases: [Self-Control]
 created: 2025-12-10T12:00:00+00:00
-modified: 2026-07-13T08:44:59+00:00
+modified: 2026-07-13T08:52:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/self-regulation-is-disciplining-ones-feelings-and-appetites
 tags: [character-strength, self-regulation, temperance]
 title: "Self-Regulation is Disciplining One's Feelings and Appetites"

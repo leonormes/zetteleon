@@ -1,7 +1,7 @@
 ---
 aliases: [Learning by Doing]
 created: 2025-11-10T16:13:00+00:00
-modified: 2026-07-13T08:44:58+00:00
+modified: 2026-07-13T08:52:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/problem-solving-and-application-consolidate-learning-by-actively-using-knowledge
 tags: [application, learning, problem-solving, schema-theory]
 title: Problem-Solving and Application Consolidate Learning by Actively Using Knowledge

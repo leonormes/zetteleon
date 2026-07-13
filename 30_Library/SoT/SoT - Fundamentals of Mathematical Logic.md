@@ -1,7 +1,7 @@
 ---
 aliases: [First-Order Logic Basics, Mathematical Quantifiers, Propositional Logic]
 created: 2026-01-12T10:05:00+00:00
-modified: 2026-07-13T08:45:14+00:00
+modified: 2026-07-13T08:52:48+00:00
 permalink: llmeon/30-library/so-t/so-t-fundamentals-of-mathematical-logic
 tags: [fundamentals, math/logic, prodos/sot]
 title: SoT - Fundamentals of Mathematical Logic

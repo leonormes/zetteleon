@@ -1,7 +1,7 @@
 ---
 aliases: [LTD]
 created: 2025-10-30T12:05:07+00:00
-modified: 2026-07-13T08:44:57+00:00
+modified: 2026-07-13T08:52:28+00:00
 permalink: llmeon/30-library/100-zettelkasten/long-term-depression-is-a-mechanism-for-breaking-habits
 source: '[[MOC - The Science of Making and Breaking Habits]]'
 tags: [learning, TheHuman/Habits, TheHuman/Neuroscience]

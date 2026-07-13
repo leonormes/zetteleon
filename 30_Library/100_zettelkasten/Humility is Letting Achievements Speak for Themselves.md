@@ -1,7 +1,7 @@
 ---
 aliases: [Modesty]
 created: 2025-11-01T21:25:00+00:00
-modified: 2026-07-13T08:44:56+00:00
+modified: 2026-07-13T08:52:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/humility-is-letting-achievements-speak-for-themselves
 tags: [character-strength, ego, humility, modesty, virtue]
 title: Humility is Letting Achievements Speak for Themselves

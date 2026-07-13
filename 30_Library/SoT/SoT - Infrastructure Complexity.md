@@ -1,7 +1,7 @@
 ---
 created: 2026-02-06T14:30:00+00:00
 last-synthesis: 2026-04-05
-modified: 2026-07-13T08:45:15+00:00
+modified: 2026-07-13T08:52:49+00:00
 permalink: llmeon/30-library/so-t/so-t-infrastructure-complexity
 source_of_truth: true
 synthesis_count: 3

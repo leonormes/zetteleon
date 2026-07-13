@@ -1,7 +1,7 @@
 ---
 aliases: [Helm to CUE, Infrastructure Refactoring, The Strangler Fig Pattern]
 created: 2026-02-04T00:00:00+00:00
-modified: 2026-07-13T08:45:21+00:00
+modified: 2026-07-13T08:52:54+00:00
 permalink: llmeon/30-library/so-t/so-t-strategy-helm-to-cue-migration
 tags: [cue, helm, migration, sot, strategy]
 title: SoT - Strategy - Helm to CUE Migration

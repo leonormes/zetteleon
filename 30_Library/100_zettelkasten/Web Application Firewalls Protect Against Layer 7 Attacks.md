@@ -1,7 +1,7 @@
 ---
 aliases: [WAF]
 created: 2025-10-31T10:35:00+00:00
-modified: 2026-07-13T08:45:01+00:00
+modified: 2026-07-13T08:52:33+00:00
 permalink: llmeon/30-library/100-zettelkasten/web-application-firewalls-protect-against-layer-7-attacks
 tags: [SoftwareEngineering/Networking, SoftwareEngineering/Security, web]
 title: Web Application Firewalls Protect Against Layer 7 Attacks

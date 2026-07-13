@@ -1,7 +1,7 @@
 ---
 aliases: [ADHD Time Perception, Time Blindness]
 created: 2025-11-06T19:53:02+00:00
-modified: 2026-07-13T08:45:01+00:00
+modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/time-agnosia-impairs-planning-for-developers-with-adhd
 tags: [planning, TheHuman/Health/ADHD, time-agnosia, time-management]
 title: Time Agnosia Impairs Planning for Developers with ADHD

@@ -5,7 +5,7 @@ criteria: Atomic notes must relate to Zen concepts of suffering, impermanence, a
   the nature of enlightenment.
 exclusions: Discussion of enlightenment from other spiritual traditions.
 last_reviewed: ''
-modified: 2026-07-13T08:45:06+00:00
+modified: 2026-07-13T08:52:39+00:00
 permalink: llmeon/30-library/mo-c/moc-why-chasing-enlightenment-causes-suffering
 scope: The Zen Buddhist perspective on why seeking enlightenment as a goal leads to
   suffering.

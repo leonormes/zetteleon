@@ -1,7 +1,7 @@
 ---
 aliases: [Sincerity, Truthfulness]
 created: 2025-11-01T21:22:00+00:00
-modified: 2026-07-13T08:44:56+00:00
+modified: 2026-07-13T08:52:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/honesty-is-being-truthful-and-sincere
 tags: [character-strength, honesty, integrity, trust, virtue]
 title: Honesty is Being Truthful and Sincere

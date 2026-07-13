@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-10-31T00:05:00+00:00
-modified: 2026-07-13T08:44:52+00:00
+modified: 2026-07-13T08:52:23+00:00
 permalink: llmeon/30-library/100-zettelkasten/adhd-dmn-deactivation-failure
 tags: []
 title: ADHD DMN Deactivation Failure

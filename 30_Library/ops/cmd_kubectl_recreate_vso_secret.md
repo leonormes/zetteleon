@@ -1,6 +1,6 @@
 ---
 created: 2026-02-21T15:07:24+00:00
-modified: 2026-07-13T08:45:29+00:00
+modified: 2026-07-13T08:53:01+00:00
 permalink: llmeon/30-library/ops/cmd-kubectl-recreate-vso-secret
 risk: high
 service: vso

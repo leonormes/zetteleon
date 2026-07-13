@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-10-31T09:25:27+00:00
-modified: 2026-07-13T08:44:57+00:00
+modified: 2026-07-13T08:52:28+00:00
 permalink: llmeon/30-library/100-zettelkasten/load-balancer-health-checks-ensure-traffic-is-routed-only-to-healthy-servers
 tags: [load-balancing, reliability, SoftwareEngineering/Networking]
 title: Load Balancer Health Checks Ensure Traffic is Routed Only to Healthy Servers

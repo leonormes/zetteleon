@@ -1,7 +1,7 @@
 ---
 created: 2026-04-02T09:05:00+00:00
 last-synthesis: 2026-04-02
-modified: 2026-07-13T08:45:21+00:00
+modified: 2026-07-13T08:52:54+00:00
 permalink: llmeon/30-library/so-t/so-t-test-driven-development
 source_of_truth: true
 tags: [ai/guardrails, domain/software-engineering, testing/tdd, theory/software-craftsmanship, type/SoT]

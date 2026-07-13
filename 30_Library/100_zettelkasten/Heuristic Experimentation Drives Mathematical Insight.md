@@ -2,7 +2,7 @@
 aliases: [Mathematical Experimentation, Tinkering]
 created: 2025-11-01T11:22:13+00:00
 last_reviewed: '2025-11-01T00:00:00.000Z'
-modified: 2026-07-13T08:44:56+00:00
+modified: 2026-07-13T08:52:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/heuristic-experimentation-drives-mathematical-insight
 status: seedling
 tags: [heuristics, TheHuman/Creativity, topic/maths]

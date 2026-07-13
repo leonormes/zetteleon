@@ -2,7 +2,7 @@
 aliases: [Rich Hickey, Simple Made Easy, Simplicity vs Complexity]
 created: 2026-01-07T00:00:00+00:00
 last_reviewed: null
-modified: 2026-07-13T08:45:21+00:00
+modified: 2026-07-13T08:52:53+00:00
 permalink: llmeon/30-library/so-t/so-t-simple-made-easy-rich-hickey
 status: Stable
 tags: [complexity, design, rich-hickey, simplicity]

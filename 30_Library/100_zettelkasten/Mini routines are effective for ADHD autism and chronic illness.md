@@ -1,7 +1,7 @@
 ---
 aliases: [Mini routine effectiveness, Neurodivergent-friendly routines]
 created: 2025-10-30T17:38:00+00:00
-modified: 2026-07-13T08:44:57+00:00
+modified: 2026-07-13T08:52:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/mini-routines-are-effective-for-adhd-autism-and-chronic-illness
 source: '[[MOC - How To Create And Use Mini Routines]]'
 tags: [autism, chronic-illness, routines, TheHuman/Health/ADHD]

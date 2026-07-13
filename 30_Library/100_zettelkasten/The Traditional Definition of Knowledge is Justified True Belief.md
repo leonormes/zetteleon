@@ -1,7 +1,7 @@
 ---
 aliases: [JTB, Justified True Belief]
 created: 2025-11-01T12:10:06+00:00
-modified: 2026-07-13T08:45:01+00:00
+modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-traditional-definition-of-knowledge-is-justified-true-belief
 tags: [epistemology, knowledge, TheHuman/Philosophy]
 title: The Traditional Definition of Knowledge is Justified True Belief

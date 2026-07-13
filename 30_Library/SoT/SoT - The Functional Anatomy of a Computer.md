@@ -1,7 +1,7 @@
 ---
 aliases: [Computer Architecture, CPU I/O, Hardware Communication]
 created: 2025-12-13T00:00:00+00:00
-modified: 2026-07-13T08:45:22+00:00
+modified: 2026-07-13T08:52:55+00:00
 permalink: llmeon/30-library/so-t/so-t-the-functional-anatomy-of-a-computer
 tags: [computer-science, cpu, hardware, SoftwareEngineering/Architecture]
 title: SoT - The Functional Anatomy of a Computer

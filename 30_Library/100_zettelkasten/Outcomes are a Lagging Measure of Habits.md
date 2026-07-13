@@ -1,7 +1,7 @@
 ---
 aliases: [Outcomes are a Lagging Measure]
 created: 2025-11-06T19:56:00+00:00
-modified: 2026-07-13T08:44:58+00:00
+modified: 2026-07-13T08:52:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/outcomes-are-a-lagging-measure-of-habits
 tags: [measurement, outcomes, TheHuman/Habits, topic/systems]
 title: Outcomes are a Lagging Measure of Habits

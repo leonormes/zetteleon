@@ -1,23 +1,15 @@
 ---
-created: 2026-06-02 00:00:00+00:00
-modified: 2026-06-08 11:49:24+00:00
+created: 2026-06-02T00:00:00+00:00
+modified: 2026-07-13T08:52:21+00:00
+permalink: llmeon/30-library/200-projects/gtd-action-system
 project_category: prodos
 project_name: ProdOS
 project_status: active
-source: Distilled from the processing note "HEAD — Gaining Control The 5 Stages of Work Flow" (Claude + Gemini sessions, 2026-06-02)
+source: 'Distilled from the processing note "HEAD — Gaining Control The 5 Stages of Work Flow" (Claude + Gemini sessions, 2026-06-02)'
 status: active
-tags:
-- 5
-- gtd
-- jira
-- obsidian
-- productivity
-- system
-- todoist
-- workflow
+tags: [5, gtd, jira, obsidian, productivity, system, todoist, workflow]
 title: gtd-action-system
 type: practice
-permalink: llmeon/30-library/200-projects/gtd-action-system
 ---
 
 > [!abstract] The system in one paragraph
@@ -36,7 +28,7 @@ permalink: llmeon/30-library/200-projects/gtd-action-system
 | Actions | Todoist | The single next physical action, across _all_ of life | The runway |
 | Hard landscape | Native calendar | Only date/time-specific, must-happen commitments | The calendar |
 
-### The Rule that Kills the Jira/Todoist "duplication"
+### The Rule that Kills the Jira/Todoist "Duplication"
 
 The overlap between Jira and Todoist _feels_ real but is an illusion—they sit at different altitudes:
 
@@ -120,7 +112,7 @@ The five GTD stages mapped onto your tools.
 
 Todoist is the capture engine because it is everywhere: Global Quick Add, natural-language parsing, and Ramble voice-to-text. A newly assigned Jira ticket is an open loop—drop a placeholder (e.g. _"Review newly assigned IP ticket"_) into the Inbox.
 
-### Clarify → Empty the Inbox (daily)
+### Clarify → Empty the Inbox (Daily)
 
 For each item, ask "Is it actionable?"
 
@@ -202,7 +194,7 @@ The single view that shows absolute truth—every ASAP action on your runway, no
 
 ---
 
-## Part 5—Reference: Canonical GTD (condensed)
+## Part 5—Reference: Canonical GTD (Condensed)
 
 A keep-forever refresher so you needn't re-read Allen.
 

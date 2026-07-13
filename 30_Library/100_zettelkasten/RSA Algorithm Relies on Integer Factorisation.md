@@ -1,7 +1,7 @@
 ---
 aliases: [Rivest-Shamir-Adleman, RSA]
 created: 2025-12-24T12:00:00+00:00
-modified: 2026-07-13T08:44:59+00:00
+modified: 2026-07-13T08:52:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/rsa-algorithm-relies-on-integer-factorisation
 tags: [cryptography, rsa]
 title: RSA Algorithm Relies on Integer Factorisation
