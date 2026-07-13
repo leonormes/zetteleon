@@ -1,20 +1,13 @@
 ---
-created: 2026-02-21 15:07:23+00:00
-modified: 2026-07-04 10:50:41+00:00
+created: 2026-02-21T15:07:23+00:00
+modified: 2026-07-13T08:45:29+00:00
 permalink: llmeon/30-library/ops/cmd-kubectl-get-secret-origin
 risk: read-only
 service: vso
-tags:
-- k8s
-- secrets
-- triage
-- vso
+tags: [k8s, secrets, triage, vso]
 title: cmd_kubectl_get_secret_origin
 tool: kubectl
-prodos:
-  kind: ops
 ---
-
 
 ## Get Secret Origin Metadata
 

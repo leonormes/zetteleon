@@ -1,25 +1,11 @@
 ---
-aliases:
-- La Fontaine's Fables
-created: 2025-11-01 21:37:00+00:00
-modified: 2026-07-04 10:51:49+00:00
+aliases: ["La Fontaine's Fables"]
+created: 2025-11-01T21:37:00+00:00
+modified: 2026-07-13T08:44:57+00:00
 permalink: llmeon/30-library/100-zettelkasten/la-fontaines-fables-served-as-courtly-education-in-17th-century-france
-tags:
-- fable
-- french-literature
-- history
-- la-fontaine
-- storytelling
+tags: [fable, french-literature, history, la-fontaine, storytelling]
 title: La Fontaines Fables Served as Courtly Education in 17th Century France
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: evergreen
-  review:
-    last_reviewed: '2025-11-01'
 ---
-
 
 In the 17th century, Jean de La Fontaine adapted the classic fable form for the French court, creating sophisticated and witty poems that served as a tool for courtly education.
 

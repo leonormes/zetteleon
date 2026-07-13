@@ -3,7 +3,7 @@ aliases: []
 created: 2025-02-07T12:57:54+00:00
 ID: 20a
 last_reviewed: ''
-modified: 2026-07-11T13:54:02+00:00
+modified: 2026-07-13T08:45:01+00:00
 permalink: llmeon/30-library/100-zettelkasten/what-is-information
 status: ''
 tags: [information]

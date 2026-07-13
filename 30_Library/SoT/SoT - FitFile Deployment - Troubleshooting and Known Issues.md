@@ -1,22 +1,11 @@
 ---
-aliases:
-- Deployment Troubleshooting
-- Known Issues
-- Recovery Procedures
-created: 2026-02-01 15:05:00+00:00
-modified: 2026-07-04 10:50:59+00:00
+aliases: [Deployment Troubleshooting, Known Issues, Recovery Procedures]
+created: 2026-02-01T15:05:00+00:00
+modified: 2026-07-13T08:45:13+00:00
 permalink: llmeon/30-library/so-t/so-t-fit-file-deployment-troubleshooting-and-known-issues
-tags:
-- ff_deploy
-- ops
-- sot
-- troubleshooting
+tags: [ff_deploy, ops, sot, troubleshooting]
 title: SoT - FitFile Deployment - Troubleshooting and Known Issues
-prodos:
-  kind: sot
-  lifecycle: evergreen
 ---
-
 
 ## 1. Overview
 

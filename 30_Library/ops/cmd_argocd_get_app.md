@@ -1,21 +1,14 @@
 ---
-created: 2026-02-21 15:05:07+00:00
+created: 2026-02-21T15:05:07+00:00
 hop_level: local
-modified: 2026-07-04 10:50:43+00:00
+modified: 2026-07-13T08:45:27+00:00
 permalink: llmeon/30-library/ops/cmd-argocd-get-app
 requires_tunnel: true
-tags:
-- argocd
-- atomic
-- status
-- triage
+tags: [argocd, atomic, status, triage]
 target_service: argocd
 title: cmd_argocd_get_app
 tool: argocd
-prodos:
-  kind: ops
 ---
-
 
 ## Get ArgoCD Application Status
 

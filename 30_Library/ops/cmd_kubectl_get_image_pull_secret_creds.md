@@ -1,24 +1,15 @@
 ---
-created: 2026-02-22 16:53:22+00:00
+created: 2026-02-22T16:53:22+00:00
 hop_level: local
 last_verified: 2026-02-22
-modified: 2026-07-04 10:50:41+00:00
+modified: 2026-07-13T08:45:28+00:00
 permalink: llmeon/30-library/ops/cmd-kubectl-get-image-pull-secret-creds
 requires_tunnel: false
-tags:
-- cmd
-- credentials
-- debug
-- registry
-- secrets
+tags: [cmd, credentials, debug, registry, secrets]
 target_service: kubernetes
 title: cmd_kubectl_get_image_pull_secret_creds
 tool: kubectl
-prodos:
-  kind: ops
-  lifecycle: active
 ---
-
 
 ## Get Image Pull Secret Credentials
 

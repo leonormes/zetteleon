@@ -1,23 +1,11 @@
 ---
-aliases:
-- Withered Technology Innovation
-created: 2025-11-01 12:30:06+00:00
-modified: 2026-07-04 10:51:49+00:00
+aliases: [Withered Technology Innovation]
+created: 2025-11-01T12:30:06+00:00
+modified: 2026-07-13T08:44:57+00:00
 permalink: llmeon/30-library/100-zettelkasten/lateral-thinking-with-withered-technology-drives-innovation
-tags:
-- innovation
-- lateral-thinking
-- TheHuman/Creativity
+tags: [innovation, lateral-thinking, TheHuman/Creativity]
 title: Lateral Thinking with Withered Technology Drives Innovation
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: '2025-11-01'
 ---
-
 
 ## Lateral Thinking with Withered Technology Drives Innovation
 

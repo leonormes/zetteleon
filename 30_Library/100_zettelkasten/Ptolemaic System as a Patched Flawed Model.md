@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-29T15:17:54+00:00
 last_reviewed: 'null'
-modified: 2026-07-04T10:51:47+00:00
+modified: 2026-07-13T08:44:58+00:00
 permalink: llmeon/30-library/100-zettelkasten/ptolemaic-system-as-a-patched-flawed-model
 status: 'null'
 tags: [analogy, history, science, TheHuman/Cognition/mental-model]

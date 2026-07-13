@@ -1,31 +1,12 @@
 ---
-aliases:
-- Configure Unify Execute
-- CUE Configuration
-- CUE Lang
-- CUE Logic
-- Unification Engine
-- Value Lattice
-created: 2026-02-03 19:15:00+00:00
-modified: 2026-07-04 10:51:03+00:00
+aliases: [Configure Unify Execute, CUE Configuration, CUE Lang, CUE Logic, Unification Engine, Value Lattice]
+created: 2026-02-03T19:15:00+00:00
+modified: 2026-07-13T08:45:10+00:00
 permalink: llmeon/30-library/so-t/so-t-cue-configuration
 source_of_truth: true
-tags:
-- configuration-management
-- cue
-- infrastructure-as-code
-- prodos/sot
-- tool/cue
+tags: [configuration-management, cue, infrastructure-as-code, prodos/sot, tool/cue]
 title: SoT - CUE Configuration
-prodos:
-  kind: sot
-  lifecycle: evergreen
-  trust: stable
-  chronos:
-    last_synthesis: 2026-04-02
-    synthesis_count: 2
 ---
-
 
 ## Minimum Viable Understanding (MVU)
 

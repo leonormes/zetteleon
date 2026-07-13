@@ -1,23 +1,11 @@
 ---
-aliases:
-- Hostname-based Routing
-- Layer 7 Routing
-created: 2025-10-31 09:25:24+00:00
-modified: 2026-07-04 10:51:53+00:00
+aliases: [Hostname-based Routing, Layer 7 Routing]
+created: 2025-10-31T09:25:24+00:00
+modified: 2026-07-13T08:44:54+00:00
 permalink: llmeon/30-library/100-zettelkasten/content-switching-allows-layer-7-routing-based-on-hostname-or-url-path
-tags:
-- load-balancing
-- SoftwareEngineering/Networking
+tags: [load-balancing, SoftwareEngineering/Networking]
 title: Content Switching Allows Layer 7 Routing Based on Hostname or URL Path
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: ''
 ---
-
 
 ## Content Switching Allows Layer 7 Routing Based on Hostname or URL Path
 

@@ -1,24 +1,11 @@
 ---
-aliases:
-- Top-Down Music
-created: 2025-11-10 11:05:00+00:00
-modified: 2026-07-04 10:51:49+00:00
+aliases: [Top-Down Music]
+created: 2025-11-10T11:05:00+00:00
+modified: 2026-07-13T08:44:57+00:00
 permalink: llmeon/30-library/100-zettelkasten/music-as-a-product-is-born-from-a-market-driven-goal
-tags:
-- commerce
-- marketing
-- music
-- product
+tags: [commerce, marketing, music, product]
 title: Music as a Product is Born From a Market-Driven Goal
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: ''
 ---
-
 
 ## Music as a Product is Born From a Market-Driven Goal
 

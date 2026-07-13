@@ -1,23 +1,11 @@
 ---
-aliases:
-- Logic as Grammar
-created: 2025-11-01 11:22:13+00:00
-modified: 2026-07-04 10:51:49+00:00
+aliases: [Logic as Grammar]
+created: 2025-11-01T11:22:13+00:00
+modified: 2026-07-13T08:44:57+00:00
 permalink: llmeon/30-library/100-zettelkasten/logic-is-the-grammar-of-rigorous-argument
-tags:
-- logic
-- methodology
-- topic/maths
+tags: [logic, methodology, topic/maths]
 title: Logic Is the Grammar of Rigorous Argument
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: '2025-11-01T00:00:00.000Z'
 ---
-
 
 Summary: Logic serves as the "grammar of reason" in mathematics, providing the rules for valid reasoning and the syntax for expressing mathematical structures precisely.
 

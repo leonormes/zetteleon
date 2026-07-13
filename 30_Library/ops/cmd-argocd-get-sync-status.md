@@ -5,7 +5,7 @@ created: 2026-02-14T00:00:00+00:00
 hop_level: bastion
 k8s_version: '1.29'
 last_verified: 2026-02-14
-modified: 2026-07-04T10:50:45+00:00
+modified: 2026-07-13T08:45:26+00:00
 namespace: argocd
 permalink: llmeon/30-library/ops/cmd-argocd-get-sync-status
 status: verified

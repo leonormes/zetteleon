@@ -1,25 +1,11 @@
 ---
-aliases:
-- Mob Programming
-- Pair Programming for ADHD
-created: 2025-11-06 19:54:10+00:00
-modified: 2026-07-04 10:51:53+00:00
+aliases: [Mob Programming, Pair Programming for ADHD]
+created: 2025-11-06T19:54:10+00:00
+modified: 2026-07-13T08:44:54+00:00
 permalink: llmeon/30-library/100-zettelkasten/collaborative-programming-mitigates-rsd-and-focus-issues-in-adhd
-tags:
-- accommodation
-- pair-programming
-- rsd
-- TheHuman/Health/ADHD
+tags: [accommodation, pair-programming, rsd, TheHuman/Health/ADHD]
 title: Collaborative Programming Mitigates RSD and Focus Issues in ADHD
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: 2025-11-06 00:00:00+00:00
 ---
-
 
 ## Collaborative Programming Mitigates RSD and Focus Issues in ADHD
 

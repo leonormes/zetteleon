@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-26T11:14:00+00:00
 last_reviewed: '2025-12-16'
-modified: 2026-07-04T10:51:50+00:00
+modified: 2026-07-13T08:44:57+00:00
 permalink: llmeon/30-library/100-zettelkasten/junebugging-a-gentle-focus-strategy-for-adhd
 status: pending
 tags: [experiment, focus, hypothesis, self-compassion, TheHuman/Health/ADHD, topic/productivity]

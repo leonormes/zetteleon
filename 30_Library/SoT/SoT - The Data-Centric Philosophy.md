@@ -1,34 +1,12 @@
 ---
-aliases:
-- Linus's Law
-- Data Dominates Code
-- Data-Centric Software Engineering
-- Data-Oriented Programming
-- DOD
-- DOP
-- The Axiom of Data
-- The Data-Centric Philosophy
-created: 2025-12-22 00:00:00+00:00
-modified: 2026-07-04 10:50:49+00:00
+aliases: ["Linus's Law", Data Dominates Code, Data-Centric Software Engineering, Data-Oriented Programming, DOD, DOP, The Axiom of Data, The Data-Centric Philosophy]
+created: 2025-12-22T00:00:00+00:00
+modified: 2026-07-13T08:45:22+00:00
 permalink: llmeon/30-library/so-t/so-t-the-data-centric-philosophy
 source_of_truth: true
-tags:
-- complexity
-- data-centric
-- dod
-- dop
-- philosophy
-- prodos/sot
-- software-engineering
+tags: [complexity, data-centric, dod, dop, philosophy, prodos/sot, software-engineering]
 title: SoT - The Data-Centric Philosophy
-prodos:
-  kind: sot
-  lifecycle: evergreen
-  trust: stable
-  chronos:
-    synthesis_count: 4
 ---
-
 
 ## Minimum Viable Understanding (MVU)
 

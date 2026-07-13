@@ -1,24 +1,11 @@
 ---
-aliases:
-- Enlightened Activity
-created: 2025-11-01 12:20:08+00:00
-modified: 2026-07-04 10:51:43+00:00
+aliases: [Enlightened Activity]
+created: 2025-11-01T12:20:08+00:00
+modified: 2026-07-13T08:45:01+00:00
 permalink: llmeon/30-library/100-zettelkasten/zen-emphasizes-enlightened-activity-over-enlightened-people
-tags:
-- action
-- buddhism
-- compassion
-- zen
+tags: [action, buddhism, compassion, zen]
 title: Zen Emphasizes Enlightened Activity Over Enlightened People
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: '2025-11-01'
 ---
-
 
 ## Zen Emphasizes Enlightened Activity Over Enlightened People
 

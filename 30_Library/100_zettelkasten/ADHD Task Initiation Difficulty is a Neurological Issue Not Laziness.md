@@ -1,25 +1,12 @@
 ---
-aliases:
-- ADHD is not laziness
-created: 2025-10-30 12:03:00+00:00
-modified: 2026-07-04 10:51:54+00:00
+aliases: [ADHD is not laziness]
+created: 2025-10-30T12:03:00+00:00
+modified: 2026-07-13T08:44:52+00:00
 permalink: llmeon/30-library/100-zettelkasten/adhd-task-initiation-difficulty-is-a-neurological-issue-not-laziness
 source: '[[MOC - The Neurological Basis of Task Initiation Difficulty in ADHD]]'
-tags:
-- laziness
-- TheHuman/Health/ADHD
-- TheHuman/Mindset
-- TheHuman/Motivation
+tags: [laziness, TheHuman/Health/ADHD, TheHuman/Mindset, TheHuman/Motivation]
 title: ADHD Task Initiation Difficulty is a Neurological Issue Not Laziness
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: 'null'
 ---
-
 
 The difficulty with task initiation experienced by individuals with ADHD is an involuntary neurological symptom, not a sign of laziness. Laziness implies a lack of will or desire, whereas the struggle to start tasks in ADHD is rooted in measurable structural and chemical differences in the brain.
 

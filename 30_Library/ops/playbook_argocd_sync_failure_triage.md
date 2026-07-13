@@ -1,24 +1,14 @@
 ---
-created: 2026-02-21 15:05:08+00:00
+created: 2026-02-21T15:05:08+00:00
 last_verified: 2026-02-22
-modified: 2026-07-04 10:50:39+00:00
+modified: 2026-07-13T08:45:30+00:00
 permalink: llmeon/30-library/ops/playbook-argocd-sync-failure-triage
 severity: p3
-tags:
-- argocd
-- debug
-- drift
-- kubectl
-- playbook
-- sync
+tags: [argocd, debug, drift, kubectl, playbook, sync]
 target_service: argocd
 title: playbook_argocd_sync_failure_triage
 trigger: ArgoCD Application is OutOfSync, Degraded, or stuck on a SyncError
-prodos:
-  kind: ops
-  lifecycle: active
 ---
-
 
 ## Playbook: ArgoCD Sync Failure Triage
 

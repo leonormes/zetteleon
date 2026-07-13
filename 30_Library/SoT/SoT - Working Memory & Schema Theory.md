@@ -1,25 +1,11 @@
 ---
-aliases:
-- Cognitive Load
-- Expertise
-- Schema Theory
-- Working Memory
-created: 2025-12-07 00:00:00+00:00
-modified: 2026-07-04 10:50:46+00:00
+aliases: [Cognitive Load, Expertise, Schema Theory, Working Memory]
+created: 2025-12-07T00:00:00+00:00
+modified: 2026-07-13T08:45:23+00:00
 permalink: llmeon/30-library/so-t/so-t-working-memory-schema-theory
-tags:
-- learning
-- psychology
-- TheHuman/Cognition
-- TheHuman/Neuroscience
+tags: [learning, psychology, TheHuman/Cognition, TheHuman/Neuroscience]
 title: SoT - Working Memory & Schema Theory
-prodos:
-  kind: sot
-  lifecycle: stable
-  review:
-    last_reviewed: '2025-12-24'
 ---
-
 
 ## 2. Core Memory Systems
 

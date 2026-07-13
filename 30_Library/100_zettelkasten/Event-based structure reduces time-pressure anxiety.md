@@ -1,25 +1,12 @@
 ---
-aliases:
-- Event-based reduces pressure
-- Reduces time anxiety
-created: 2025-10-30 17:33:00+00:00
-modified: 2026-07-04 10:51:51+00:00
+aliases: [Event-based reduces pressure, Reduces time anxiety]
+created: 2025-10-30T17:33:00+00:00
+modified: 2026-07-13T08:44:55+00:00
 permalink: llmeon/30-library/100-zettelkasten/event-based-structure-reduces-time-pressure-anxiety
 source: '[[MOC - How To Create And Use Mini Routines]]'
-tags:
-- anxiety
-- TheHuman/Health/ADHD
-- time-management
+tags: [anxiety, TheHuman/Health/ADHD, time-management]
 title: Event-based structure reduces time-pressure anxiety
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: ''
 ---
-
 
 Event-based scheduling structures minimize time-pressure anxiety and reduce the psychological burden of clock-watching by decoupling routines from specific times and instead tying them to completed activities or natural life events.
 

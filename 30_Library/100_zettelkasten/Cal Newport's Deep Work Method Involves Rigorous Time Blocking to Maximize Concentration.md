@@ -7,8 +7,7 @@ tags:
 - focus
 - time-blocking
 - topic/productivity
-title: Cal Newport's Deep Work Method Involves Rigorous Time Blocking to Maximize
-  Concentration
+title: Cal Newport's Deep Work Method Involves Rigorous Time Blocking to Maximize Concentration
 prodos:
   kind: atomic
   atomic:

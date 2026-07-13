@@ -8,8 +8,7 @@ tags:
 - group-dynamics
 - knowledge
 - mental-model
-title: The Knowledge Gap is the Difference Between Total Understanding and a Team's
-  Collective Knowledge
+title: The Knowledge Gap is the Difference Between Total Understanding and a Team's Collective Knowledge
 permalink: llmeon/30-library/100-zettelkasten/the-knowledge-gap-is-the-difference-between-total-understanding-and-a-teams-collective-knowledge
 prodos:
   kind: atomic

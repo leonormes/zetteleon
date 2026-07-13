@@ -1,24 +1,12 @@
 ---
-aliases:
-- Deployment Master Guide
-- FitFile Deployment Playbook
-- Start Here - Deployment
-created: 2025-12-21 09:34:38+00:00
-modified: 2026-07-04 10:51:11+00:00
+aliases: [Deployment Master Guide, FitFile Deployment Playbook, Start Here - Deployment]
+created: 2025-12-21T09:34:38+00:00
+modified: 2026-07-13T08:45:04+00:00
 permalink: llmeon/30-library/mo-c/moc-fit-file-deployment
 Reviewed: false
-tags:
-- ff_deploy
-- index
-- process
+tags: [ff_deploy, index, process]
 title: MOC - FitFile Deployment
-prodos:
-  kind: moc
-  lifecycle: stable
-  review:
-    last_reviewed: 2026-02-01
 ---
-
 
 ## MOC - FITFILE Deployment Playbook
 

@@ -1,24 +1,11 @@
 ---
-aliases:
-- Habits
-created: 2025-11-10 17:11:00+00:00
-modified: 2026-07-04 10:51:50+00:00
+aliases: [Habits]
+created: 2025-11-10T17:11:00+00:00
+modified: 2026-07-13T08:44:56+00:00
 permalink: llmeon/30-library/100-zettelkasten/habits-are-automatic-behaviors-triggered-by-environmental-cues
-tags:
-- automaticity
-- behavior-change
-- TheHuman/Habits
-- TheHuman/Psychology
+tags: [automaticity, behavior-change, TheHuman/Habits, TheHuman/Psychology]
 title: Habits are Automatic Behaviors Triggered by Environmental Cues
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: ''
 ---
-
 
 ## Habits Are Automatic Behaviors Triggered by Environmental Cues
 

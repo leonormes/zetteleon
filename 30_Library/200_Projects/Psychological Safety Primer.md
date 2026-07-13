@@ -1,7 +1,7 @@
 ---
 captured: 2026-06-16
 created: 2026-06-16T00:00:00+00:00
-modified: 2026-07-04T10:51:25+00:00
+modified: 2026-07-13T08:44:46+00:00
 permalink: llmeon/30-library/200-projects/psychological-safety-primer
 project_name: Team work
 source: https://gemini.google.com/app/bd855ef5efc22a11

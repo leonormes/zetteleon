@@ -1,30 +1,12 @@
 ---
-aliases:
-- Identity as Perimeter
-- Never Trust Always Verify
-- Zero Trust
-- ZT Architecture
-created: 2026-04-04 14:30:00+00:00
+aliases: [Identity as Perimeter, Never Trust Always Verify, Zero Trust, ZT Architecture]
+created: 2026-04-04T14:30:00+00:00
 last-synthesis: 2026-04-04
-modified: 2026-07-04 10:50:46+00:00
+modified: 2026-07-13T08:45:23+00:00
 permalink: llmeon/30-library/so-t/so-t-zero-trust-architecture
-tags:
-- architecture
-- iam
-- networking
-- security
-- zero-trust
+tags: [architecture, iam, networking, security, zero-trust]
 title: SoT - Zero Trust Architecture
-prodos:
-  kind: sot
-  lifecycle: evergreen
-  trust: stable
-  review:
-    last_reviewed: null
-  chronos:
-    synthesis_count: 1
 ---
-
 
 ## Minimum Viable Understanding (MVU)
 

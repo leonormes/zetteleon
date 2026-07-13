@@ -1,25 +1,15 @@
 ---
-created: 2026-02-22 17:06:21+00:00
+created: 2026-02-22T17:06:21+00:00
 hop_level: local
 last_verified: 2026-02-22
-modified: 2026-07-04 10:50:41+00:00
+modified: 2026-07-13T08:45:29+00:00
 permalink: llmeon/30-library/ops/cmd-kubectl-get-init-container-logs
 requires_tunnel: false
-tags:
-- cmd
-- crash
-- debug
-- init
-- kubectl
-- logs
+tags: [cmd, crash, debug, init, kubectl, logs]
 target_service: pod
 title: cmd_kubectl_get_init_container_logs
 tool: kubectl
-prodos:
-  kind: ops
-  lifecycle: active
 ---
-
 
 ## Get Init-Container Logs
 

@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-31T16:06:51+00:00
 last_reviewed: ''
-modified: 2026-07-04T10:51:08+00:00
+modified: 2026-07-13T08:45:07+00:00
 permalink: llmeon/30-library/mo-c/qualia-and-linguistic-limitations
 status: ''
 tags: [consciousness, language-limitations, philosophy-of-mind, qualia]

@@ -1,21 +1,14 @@
 ---
-created: 2026-02-19 13:14:43+00:00
+created: 2026-02-19T13:14:43+00:00
 hop_level: local
-modified: 2026-07-04 10:50:43+00:00
+modified: 2026-07-13T08:45:26+00:00
 permalink: llmeon/30-library/ops/cmd-net-drill-dns
 requires_tunnel: false
-tags:
-- atomic
-- dns
-- drill
-- network
+tags: [atomic, dns, drill, network]
 target_service: network
 title: cmd-net-drill-dns
 tool: drill
-prodos:
-  kind: ops
 ---
-
 
 ## Advanced DNS Query (Drill)
 

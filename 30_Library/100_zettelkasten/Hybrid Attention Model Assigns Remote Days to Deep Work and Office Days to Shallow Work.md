@@ -1,18 +1,11 @@
 ---
-created: 2026-04-10 13:00:00+00:00
-modified: 2026-07-04 10:51:50+00:00
+created: 2026-04-10T13:00:00+00:00
+modified: 2026-07-13T08:44:56+00:00
 permalink: llmeon/30-library/100-zettelkasten/hybrid-attention-model-assigns-remote-days-to-deep-work-and-office-days-to-shallow-work
-tags:
-- attention-management
-- deep-work
-- hybrid-work
-- team-productivity
-title: Hybrid Attention Model Assigns Remote Days to Deep Work and Office Days to
+tags: [attention-management, deep-work, hybrid-work, team-productivity]
+title: Hybrid Attention Model Assigns Remote Days to Deep Work and Office Days to Shallow Work
   Shallow Work Shallow Work
-prodos:
-  kind: atomic
 ---
-
 
 ## Hybrid Attention Model Assigns Remote Days to Deep Work and Office Days to Shallow Work
 

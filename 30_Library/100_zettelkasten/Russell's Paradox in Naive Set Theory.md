@@ -1,24 +1,11 @@
 ---
-aliases:
-- Russell's Paradox
-created: 2025-11-01 11:22:13+00:00
-modified: 2026-07-04 10:51:46+00:00
+aliases: ["Russell's Paradox"]
+created: 2025-11-01T11:22:13+00:00
+modified: 2026-07-13T08:44:59+00:00
 permalink: llmeon/30-library/100-zettelkasten/russells-paradox-in-naive-set-theory
-tags:
-- foundations
-- paradox
-- set-theory
-- topic/maths
-title: Russell's Paradox in Naive Set Theory
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: '2025-11-01'
+tags: [foundations, paradox, set-theory, topic/maths]
+title: "Russell's Paradox in Naive Set Theory"
 ---
-
 
 Summary: Russell's Paradox (1901) exposed a fundamental contradiction in naive set theory by constructing the set of all sets that do not contain themselves, demonstrating that unrestricted set comprehension leads to logical inconsistency.
 

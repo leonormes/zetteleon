@@ -1,24 +1,11 @@
 ---
-aliases:
-- Generalization
-- Mathematical Abstraction
-created: 2025-11-01 11:22:13+00:00
-modified: 2026-07-04 10:51:54+00:00
+aliases: [Generalization, Mathematical Abstraction]
+created: 2025-11-01T11:22:13+00:00
+modified: 2026-07-13T08:44:53+00:00
 permalink: llmeon/30-library/100-zettelkasten/abstraction-and-generalization-are-core-mathematical-methods
-tags:
-- abstraction
-- methodology
-- topic/maths
+tags: [abstraction, methodology, topic/maths]
 title: Abstraction and Generalization Are Core Mathematical Methods
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: '2025-11-01T00:00:00.000Z'
 ---
-
 
 Summary: Abstraction and generalization are fundamental mathematical methods that enable mathematicians to move from specific instances to universal structures, capturing invariant properties across diverse contexts.
 

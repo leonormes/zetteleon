@@ -1,26 +1,11 @@
 ---
-aliases:
-- Async Rust
-- Rust Concurrency
-- Shared-Nothing Architecture
-- Structured Concurrency
-created: 2026-01-02 14:30:00+00:00
-modified: 2026-07-04 10:50:50+00:00
+aliases: [Async Rust, Rust Concurrency, Shared-Nothing Architecture, Structured Concurrency]
+created: 2026-01-02T14:30:00+00:00
+modified: 2026-07-13T08:45:20+00:00
 permalink: llmeon/30-library/so-t/so-t-rust-concurrency-async-paradigms
-tags:
-- async
-- concurrency
-- performance
-- rust
-- SoftwareEngineering/Architecture
+tags: [async, concurrency, performance, rust, SoftwareEngineering/Architecture]
 title: SoT - Rust Concurrency & Async Paradigms
-prodos:
-  kind: sot
-  lifecycle: stable
-  review:
-    last_reviewed: '2026-01-02'
 ---
-
 
 ## 1. The Core Tension: Work-Stealing vs. Shared-Nothing
 

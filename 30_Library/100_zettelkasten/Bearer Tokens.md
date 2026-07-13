@@ -2,7 +2,7 @@
 created: 2026-04-13T14:47:45+00:00
 created_utc: '2026-04-13T11:30:00Z'
 kind: mechanism
-modified: 2026-07-04T10:51:54+00:00
+modified: 2026-07-13T08:44:53+00:00
 permalink: llmeon/30-library/100-zettelkasten/bearer-tokens
 source_title: Every API Authentication Method Explained
 source_url: https://youtube.com/watch?v=_lTECv25N2U

@@ -1,24 +1,15 @@
 ---
-created: 2026-02-22 17:06:27+00:00
+created: 2026-02-22T17:06:27+00:00
 hop_level: local
 last_verified: 2026-02-22
-modified: 2026-07-04 10:50:40+00:00
+modified: 2026-07-13T08:45:29+00:00
 permalink: llmeon/30-library/ops/cmd-kubectl-get-vaultstaticsecret
 requires_tunnel: false
-tags:
-- cmd
-- kubectl
-- secrets
-- static
-- vso
+tags: [cmd, kubectl, secrets, static, vso]
 target_service: vso
 title: cmd_kubectl_get_vaultstaticsecret
 tool: kubectl
-prodos:
-  kind: ops
-  lifecycle: active
 ---
-
 
 ## Get VaultStaticSecret Manifest
 

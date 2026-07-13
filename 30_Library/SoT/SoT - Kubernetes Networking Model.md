@@ -1,20 +1,11 @@
 ---
-aliases:
-- K8s Network Model
-- Pod Networking Rules
-created: 2026-02-05 00:00:00+00:00
-modified: 2026-07-04 10:50:55+00:00
+aliases: [K8s Network Model, Pod Networking Rules]
+created: 2026-02-05T00:00:00+00:00
+modified: 2026-07-13T08:45:16+00:00
 permalink: llmeon/30-library/so-t/so-t-kubernetes-networking-model
-tags:
-- kubernetes
-- networking
-- sot
+tags: [kubernetes, networking, sot]
 title: SoT - Kubernetes Networking Model
-prodos:
-  kind: sot
-  lifecycle: stable
 ---
-
 
 ## Minimum Viable Understanding (MVU)
 

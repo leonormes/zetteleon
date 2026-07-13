@@ -3,7 +3,7 @@ aliases: [AWS IAM]
 created: 2026-04-05T10:30:00+00:00
 last-synthesis: 2026-04-05
 last_reviewed: null
-modified: 2026-07-04T10:51:04+00:00
+modified: 2026-07-13T08:45:09+00:00
 permalink: llmeon/30-library/so-t/so-t-aws-identity-access-management
 status: Active
 synthesis-count: 1

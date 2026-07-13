@@ -1,24 +1,11 @@
 ---
-aliases:
-- Fixed Schedule Productivity
-created: 2025-11-01 21:06:00+00:00
-modified: 2026-07-04 10:51:51+00:00
+aliases: [Fixed Schedule Productivity]
+created: 2025-11-01T21:06:00+00:00
+modified: 2026-07-13T08:44:55+00:00
 permalink: llmeon/30-library/100-zettelkasten/fixed-schedule-productivity-creates-artificial-constraints-to-drive-efficiency
-tags:
-- method
-- scheduling
-- time-management
-- topic/productivity
+tags: [method, scheduling, time-management, topic/productivity]
 title: Fixed-Schedule Productivity Creates Artificial Constraints to Drive Efficiency
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: evergreen
-  review:
-    last_reviewed: '2025-11-01'
 ---
-
 
 Fixed-schedule productivity is a strict implementation of timeboxing where every minute of the workday is planned in advance, and a hard stop time is established.
 

@@ -2,7 +2,7 @@
 aliases: [Speed of Causality, Speed of Light, Universal Speed Limit]
 created: 2025-09-20T06:38:14+00:00
 last_reviewed: null
-modified: 2026-07-04T10:50:48+00:00
+modified: 2026-07-13T08:45:22+00:00
 permalink: llmeon/30-library/so-t/so-t-the-universal-speed-of-causality
 status: Stable
 tags: [causality, physics, relativity, time]

@@ -1,23 +1,11 @@
 ---
-aliases:
-- Dystopian Theory
-- Fiction as Sociology
-created: 2025-12-14 00:00:00+00:00
-modified: 2026-07-04 10:51:01+00:00
+aliases: [Dystopian Theory, Fiction as Sociology]
+created: 2025-12-14T00:00:00+00:00
+modified: 2026-07-13T08:45:11+00:00
 permalink: llmeon/30-library/so-t/so-t-dystopian-frameworks-and-social-control
-tags:
-- dystopia
-- literature
-- sociology
-- TheHuman/Philosophy
+tags: [dystopia, literature, sociology, TheHuman/Philosophy]
 title: SoT - Dystopian Frameworks and Social Control
-prodos:
-  kind: sot
-  lifecycle: stable
-  review:
-    last_reviewed: ''
 ---
-
 
 ## 1. Definitive Statement
 

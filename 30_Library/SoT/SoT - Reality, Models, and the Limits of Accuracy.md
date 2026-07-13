@@ -1,25 +1,11 @@
 ---
-aliases:
-- General Semantics
-- Model-Dependent Realism
-- The Map vs Territory
-created: 2025-12-12 18:34:35+00:00
-modified: 2026-07-04 10:50:51+00:00
+aliases: [General Semantics, Model-Dependent Realism, The Map vs Territory]
+created: 2025-12-12T18:34:35+00:00
+modified: 2026-07-13T08:45:20+00:00
 permalink: llmeon/30-library/so-t/so-t-reality-models-and-the-limits-of-accuracy
-tags:
-- epistemology
-- logic
-- mental_models
-- TheHuman/Cognition
-- TheHuman/Philosophy
+tags: [epistemology, logic, mental_models, TheHuman/Cognition, TheHuman/Philosophy]
 title: SoT - Reality, Models, and the Limits of Accuracy
-prodos:
-  kind: sot
-  lifecycle: stable
-  review:
-    last_reviewed: '2025-12-23'
 ---
-
 
 ## 1. Definitive Statement
 

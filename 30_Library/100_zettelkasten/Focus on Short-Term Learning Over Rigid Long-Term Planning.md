@@ -1,23 +1,11 @@
 ---
-aliases:
-- Adaptive Planning
-created: 2025-11-01 12:30:08+00:00
-modified: 2026-07-04 10:51:51+00:00
+aliases: [Adaptive Planning]
+created: 2025-11-01T12:30:08+00:00
+modified: 2026-07-13T08:44:55+00:00
 permalink: llmeon/30-library/100-zettelkasten/focus-on-short-term-learning-over-rigid-long-term-planning
-tags:
-- adaptability
-- learning
-- planning
+tags: [adaptability, learning, planning]
 title: Focus on Short-Term Learning Over Rigid Long-Term Planning
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: '2025-11-01'
 ---
-
 
 ## Focus on Short-Term Learning Over Rigid Long-Term Planning
 

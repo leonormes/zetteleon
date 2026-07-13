@@ -1,23 +1,11 @@
 ---
-aliases:
-- Finance Map
-- Money MOC
-created: 2025-12-23 22:23:09+00:00
-modified: 2026-07-04 10:51:11+00:00
+aliases: [Finance Map, Money MOC]
+created: 2025-12-23T22:23:09+00:00
+modified: 2026-07-13T08:45:04+00:00
 permalink: llmeon/30-library/mo-c/moc-family-finance
-tags:
-- family
-- finance
-- index
-- wealth
+tags: [family, finance, index, wealth]
 title: MOC - Family & Finance
-prodos:
-  kind: moc
-  lifecycle: stable
-  review:
-    last_reviewed: '2025-12-23'
 ---
-
 
 ## Family & Finance - Map of Content
 

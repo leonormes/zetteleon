@@ -1,26 +1,14 @@
 ---
-aliases:
-- Modularity by Information Hiding
-- Parnas Information Hiding
-created: 2025-12-12 00:00:00+00:00
-modified: 2026-07-04 10:50:56+00:00
+aliases: [Modularity by Information Hiding, Parnas Information Hiding]
+created: 2025-12-12T00:00:00+00:00
+modified: 2026-07-13T08:45:15+00:00
 permalink: llmeon/30-library/so-t/so-t-information-hiding-parnas
 see_also: []
 superseded_by: ''
 supersedes: ''
-tags:
-- design-principles
-- modularity
-- SoftwareEngineering
-- SoftwareEngineering/Architecture
+tags: [design-principles, modularity, SoftwareEngineering, SoftwareEngineering/Architecture]
 title: SoT - Information Hiding (Parnas)
-prodos:
-  kind: sot
-  lifecycle: stable
-  review:
-    last_reviewed: '2025-12-12'
 ---
-
 
 ## 2. Core Principles
 

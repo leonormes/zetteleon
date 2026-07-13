@@ -2,7 +2,7 @@
 aliases: [K2A Framework, Knowledge-to-Action System, The Motivation Bridge]
 created: 2025-11-13T00:00:00+00:00
 last_reviewed: '2026-04-04'
-modified: 2026-07-04T10:51:03+00:00
+modified: 2026-07-13T08:45:10+00:00
 permalink: llmeon/30-library/so-t/so-t-bridging-the-intention-action-gap
 status: deprecated
 tags: [execution, TheHuman/Health/ADHD, TheHuman/Psychology, topic/productivity]

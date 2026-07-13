@@ -1,23 +1,29 @@
 ---
-type: link_report
-status: tmp
-source_atoms: '[[tmp_atoms_neuro-variable-execution]]'
+created: 2026-07-13T08:31:46+00:00
 created_utc: '2026-07-13T08:17:00Z'
+modified: 2026-07-13T08:45:02+00:00
 permalink: llmeon/00-inbox/link-report-neuro-variable-execution
+source_atoms: '[[tmp_atoms_neuro-variable-execution]]'
+status: tmp
+title: _link_report_neuro-variable-execution
+type: link_report
 ---
 
-### Link Report: Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture
+## Link Report: Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture
 
-#### Summary
+### Summary
+
 - Atoms processed: 20
 - Notes created: 20
-- Total links made: 62 (Related: 41, Tensions: 3, See Also: 8, plus dedicated linking targets in existing near-duplicate notes: 10 — see Overlap Notes below)
+- Total links made: 62 (Related: 41, Tensions: 3, See Also: 8, plus dedicated linking targets in existing near-duplicate notes: 10—see Overlap Notes below)
 - Unlinked atoms (no connections found): 0
 
-#### Method Note
-The live Obsidian MCP semantic-search tool (`mcp-tools-istefox`, port 27200) was unreachable — all outbound network calls from the sandbox and `pc osascript`/`pc bash` are blocked for safety. In its place, the 5-lens Semantic Connection Protocol (Direct Concept Match → Shared Mechanism → Tension/Contradiction → Supports/Extends → Common Tag Cluster) was applied manually via targeted `grep` sweeps and full reads of ~30 candidate notes across `30_Library/100_zettelkasten`, `30_Library/MoC`, and `30_Library/SoT`. Every `[[wikilink]]` below points to a note confirmed to exist in the vault by direct read — no phantom links.
+### Method Note
 
-#### Link Map
+The live Obsidian MCP semantic-search tool (`mcp-tools-istefox`, port 27200) was unreachable—all outbound network calls from the sandbox and `pc osascript`/`pc bash` are blocked for safety. In its place, the 5-lens Semantic Connection Protocol (Direct Concept Match → Shared Mechanism → Tension/Contradiction → Supports/Extends → Common Tag Cluster) was applied manually via targeted `grep` sweeps and full reads of ~30 candidate notes across `30_Library/100_zettelkasten`, `30_Library/MoC`, and `30_Library/SoT`. Every `[[wikilink]]` below points to a note confirmed to exist in the vault by direct read—no phantom links.
+
+### Link Map
+
 | Atom | Links | Strongest Connection |
 |------|-------|---------------------|
 | [[Dopamine Neurons Encode Reward Prediction Error, Not Pleasure]] | 3 | [[Dopamine Regulates Motivation (Wanting) Separately from Pleasure (Liking)]]—shared mechanism |
@@ -41,8 +47,10 @@ The live Obsidian MCP semantic-search tool (`mcp-tools-istefox`, port 27200) was
 | [[The Five-Step Initiation Chain for Neuro-Variable Execution]] | 5 | [[ADHD Task-Paralysis Reflects DMN-FPN Maturational Lag, Not Willpower Failure]]—extends |
 | [[Local-First Obsidian with MCP and RAG Is the Best-Fit Substrate for Data-Sovereign PKM]] | 3 | [[Git-Based Vault Synchronisation Provides Free Version-Controlled Note Backup]]—direct concept match |
 
-#### Overlap Notes (Concepts Already in Vault — Linked Only, Not Recreated)
+### Overlap Notes (Concepts Already in Vault—Linked Only, Not Recreated)
+
 These report concepts already exist as dedicated permanent notes and were deliberately NOT duplicated, per the anti-hoarding principle. New atoms link to them instead:
+
 - [[Dual Coding Theory Suggests Using Verbal and Visual Channels Enhances Memory]]
 - [[Task-Positive Network (TPN) and Default Mode Network (DMN) Defined]]
 - [[ADHD DMN Deactivation Failure]]
@@ -58,5 +66,6 @@ These report concepts already exist as dedicated permanent notes and were delibe
 - [[PKM as Process vs Product]]
 - [[Git-Based Vault Synchronisation Provides Free Version-Controlled Note Backup]]
 
-#### Orphan Atoms (No Links Found)
-None — every atom found at least two existing anchor points in the vault.
+### Orphan Atoms (No Links Found)
+
+None—every atom found at least two existing anchor points in the vault.

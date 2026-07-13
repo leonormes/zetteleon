@@ -1,6 +1,6 @@
 ---
 created: 2026-05-04T08:01:26+00:00
-modified: 2026-07-04T10:51:28+00:00
+modified: 2026-07-13T08:44:43+00:00
 permalink: llmeon/30-library/200-projects/linking-the-language-of-maths
 project_name: Bessie
 title: Linking the Language of Maths

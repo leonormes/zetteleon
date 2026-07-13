@@ -1,25 +1,11 @@
 ---
-aliases:
-- cognitive representations
-- mental models
-- schemas
-created: 2025-10-31 20:01:00+00:00
-modified: 2026-07-04 10:51:49+00:00
+aliases: [cognitive representations, mental models, schemas]
+created: 2025-10-31T20:01:00+00:00
+modified: 2026-07-13T08:44:57+00:00
 permalink: llmeon/30-library/100-zettelkasten/mental-representations-take-multiple-forms
-tags:
-- cognitive-science
-- mental-representation
-- TheHuman/Neuroscience
+tags: [cognitive-science, mental-representation, TheHuman/Neuroscience]
 title: Mental representations take multiple forms
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: '2025-10-31'
 ---
-
 
 ## Mental Representations Take Multiple Forms
 

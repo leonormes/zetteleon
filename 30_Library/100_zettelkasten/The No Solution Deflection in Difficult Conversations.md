@@ -1,24 +1,11 @@
 ---
-aliases:
-- Immutable Trait Reframe
-- Shutting Down Change
-created: 2025-12-24 12:00:00+00:00
-modified: 2026-07-04 10:51:44+00:00
+aliases: [Immutable Trait Reframe, Shutting Down Change]
+created: 2025-12-24T12:00:00+00:00
+modified: 2026-07-13T08:45:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-no-solution-deflection-in-difficult-conversations
-tags:
-- communication
-- deflection
-- relationships
+tags: [communication, deflection, relationships]
 title: The No Solution Deflection in Difficult Conversations
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: stable
-  review:
-    last_reviewed: 2025-12-24
 ---
-
 
 The phrase "There is no solution" is often a defensive meta-response used to end a conversation about accountability. It reframes a specific behavioural choice (like failing to remember a concern) as an immutable, unfixable trait.
 

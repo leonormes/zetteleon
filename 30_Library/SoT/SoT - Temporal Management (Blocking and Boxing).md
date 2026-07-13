@@ -1,34 +1,12 @@
 ---
-aliases:
-- Cal Newport
-- Finitude
-- Planning Systems
-- Sarah Hart-Unger
-- Subjective Time
-- Temporal Perception
-- The Myth of the Starting Gun
-created: 2025-12-29 20:02:17+00:00
-modified: 2026-07-04 10:50:49+00:00
+aliases: [Cal Newport, Finitude, Planning Systems, Sarah Hart-Unger, Subjective Time, Temporal Perception, The Myth of the Starting Gun]
+created: 2025-12-29T20:02:17+00:00
+modified: 2026-07-13T08:45:21+00:00
 permalink: llmeon/30-library/so-t/so-t-temporal-management-blocking-and-boxing
 source_of_truth: true
-tags:
-- cal-newport
-- parkinsons-law
-- sarah-hart-unger
-- scheduling
-- strategy
-- time-management
-- topic/productivity
+tags: [cal-newport, parkinsons-law, sarah-hart-unger, scheduling, strategy, time-management, topic/productivity]
 title: SoT - Temporal Management (Blocking and Boxing)
-prodos:
-  kind: sot
-  lifecycle: evergreen
-  trust: stable
-  chronos:
-    last_synthesis: 2026-04-05
-    synthesis_count: 4
 ---
-
 
 ## Minimum Viable Understanding (MVU)
 

@@ -1,22 +1,11 @@
 ---
 aliases: []
-created: 2025-10-26 17:16:00+00:00
-modified: 2026-07-04 10:51:11+00:00
+created: 2025-10-26T17:16:00+00:00
+modified: 2026-07-13T08:45:05+00:00
 permalink: llmeon/30-library/mo-c/moc-hands-on-container-labs
-tags:
-- debugging
-- hands-on
-- lab
-- SoftwareEngineering/Containers
-- tutorial
+tags: [debugging, hands-on, lab, SoftwareEngineering/Containers, tutorial]
 title: MOC - Hands-on Container Labs
-prodos:
-  kind: moc
-  lifecycle: stable
-  review:
-    last_reviewed: '2026-02-06'
 ---
-
 
 ## Summary
 

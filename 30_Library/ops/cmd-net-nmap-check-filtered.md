@@ -1,19 +1,13 @@
 ---
-created: 2026-02-19 15:18:30+00:00
+created: 2026-02-19T15:18:30+00:00
 hop_level: cluster
-modified: 2026-07-04 10:50:43+00:00
+modified: 2026-07-13T08:45:27+00:00
 permalink: llmeon/30-library/ops/cmd-net-nmap-check-filtered
-tags:
-- atomic
-- network
-- security
+tags: [atomic, network, security]
 target_service: network
 title: cmd-net-nmap-check-filtered
 tool: nmap
-prodos:
-  kind: ops
 ---
-
 
 ## Check Port Filtered Status (Nmap)
 

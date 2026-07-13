@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-25T14:24:00+00:00
 last_reviewed: 'null'
-modified: 2026-07-04T10:51:49+00:00
+modified: 2026-07-13T08:44:57+00:00
 permalink: llmeon/30-library/100-zettelkasten/managing-novelty-seeking-in-adhd
 status: 'null'
 tags: [self-management, TheHuman/Health/ADHD, topic/productivity]

@@ -2,7 +2,7 @@
 aliases: [Agent GTD, Autonomous Action, Todoist MCP Integration]
 created: 2026-04-02T11:00:00+00:00
 last-synthesis: 2026-04-02
-modified: 2026-07-04T10:51:07+00:00
+modified: 2026-07-13T08:45:07+00:00
 permalink: llmeon/30-library/so-t/protocol-autonomous-action-system
 source_of_truth: true
 status: evergreen

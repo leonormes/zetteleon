@@ -1,6 +1,6 @@
 ---
 created: 2026-06-09T15:14:50+00:00
-modified: 2026-07-04T10:51:15+00:00
+modified: 2026-07-13T08:44:52+00:00
 permalink: llmeon/30-library/200-projects/missing-from-calibre
 project_category: personal
 project_name: Personal Library

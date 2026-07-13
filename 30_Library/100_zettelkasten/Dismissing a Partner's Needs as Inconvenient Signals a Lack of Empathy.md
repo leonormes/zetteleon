@@ -1,24 +1,11 @@
 ---
-aliases:
-- Dismissing Partner's Needs
-created: 2025-11-10 10:21:00+00:00
-modified: 2026-07-04 10:51:52+00:00
+aliases: ["Dismissing Partner's Needs"]
+created: 2025-11-10T10:21:00+00:00
+modified: 2026-07-13T08:44:55+00:00
 permalink: llmeon/30-library/100-zettelkasten/dismissing-a-partners-needs-as-inconvenient-signals-a-lack-of-empathy
-tags:
-- conflict
-- empathy
-- relationship
-- respect
-title: Dismissing a Partner's Needs as Inconvenient Signals a Lack of Empathy
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: ''
+tags: [conflict, empathy, relationship, respect]
+title: "Dismissing a Partner's Needs as Inconvenient Signals a Lack of Empathy"
 ---
-
 
 ## Dismissing a Partner's Needs as Inconvenient Signals a Lack of Empathy
 

@@ -1,27 +1,11 @@
 ---
-aliases:
-- Encapsulation
-- Network Units
-- PDU
-- SDU
-- The Russian Doll Mechanism
-created: 2025-12-23 22:38:57+00:00
-modified: 2026-07-04 10:50:51+00:00
+aliases: [Encapsulation, Network Units, PDU, SDU, The Russian Doll Mechanism]
+created: 2025-12-23T22:38:57+00:00
+modified: 2026-07-13T08:45:20+00:00
 permalink: llmeon/30-library/so-t/so-t-protocol-data-units-pdu
-tags:
-- osi
-- pdu
-- protocol
-- SoftwareEngineering/Networking
-- topic/technology
+tags: [osi, pdu, protocol, SoftwareEngineering/Networking, topic/technology]
 title: SoT - Protocol Data Units (PDU)
-prodos:
-  kind: sot
-  lifecycle: stable
-  review:
-    last_reviewed: '2026-04-04'
 ---
-
 
 ## 1. Definitive Statement
 

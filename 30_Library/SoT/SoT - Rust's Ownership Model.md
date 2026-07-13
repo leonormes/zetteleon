@@ -1,24 +1,11 @@
 ---
-aliases:
-- Borrow Checker
-- Rust Lifetimes
-- Rust Ownership
-created: 2025-12-19 00:00:00+00:00
-modified: 2026-07-04 10:50:51+00:00
+aliases: [Borrow Checker, Rust Lifetimes, Rust Ownership]
+created: 2025-12-19T00:00:00+00:00
+modified: 2026-07-13T08:45:20+00:00
 permalink: llmeon/30-library/so-t/so-t-rusts-ownership-model
-tags:
-- compilers
-- memory-management
-- rust
-- type-system
-title: SoT - Rust's Ownership Model
-prodos:
-  kind: sot
-  lifecycle: stable
-  review:
-    last_reviewed: '2025-12-19'
+tags: [compilers, memory-management, rust, type-system]
+title: "SoT - Rust's Ownership Model"
 ---
-
 
 ## 2. The Core Problem: The Chaos of Shared Mutable State
 

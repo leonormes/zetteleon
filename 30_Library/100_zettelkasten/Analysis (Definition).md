@@ -2,7 +2,7 @@
 aliases: [Mathematical Analysis, Real Analysis]
 created: 2025-11-01T11:22:13+00:00
 last_reviewed: '2025-11-01'
-modified: 2026-07-04T10:51:54+00:00
+modified: 2026-07-13T08:44:53+00:00
 permalink: llmeon/30-library/100-zettelkasten/analysis-definition
 status: seedling
 tags: [fields, topic/maths]

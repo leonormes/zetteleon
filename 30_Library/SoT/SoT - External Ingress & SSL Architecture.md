@@ -1,24 +1,11 @@
 ---
-alias:
-- Cross-Cluster HTTPS
-- DNS-IP Ownership Model
-- External Ingress SSL
-created: 2026-02-05 00:00:00+00:00
-modified: 2026-07-04 10:51:00+00:00
+alias: [Cross-Cluster HTTPS, DNS-IP Ownership Model, External Ingress SSL]
+created: 2026-02-05T00:00:00+00:00
+modified: 2026-07-13T08:45:12+00:00
 permalink: llmeon/30-library/so-t/so-t-external-ingress-ssl-architecture
-tags:
-- cert-manager
-- cloudflare
-- ingress
-- kubernetes
-- sot
-- ssl
+tags: [cert-manager, cloudflare, ingress, kubernetes, sot, ssl]
 title: SoT - External Ingress & SSL Architecture
-prodos:
-  kind: sot
-  lifecycle: stable
 ---
-
 
 ## Minimum Viable Understanding (MVU)
 

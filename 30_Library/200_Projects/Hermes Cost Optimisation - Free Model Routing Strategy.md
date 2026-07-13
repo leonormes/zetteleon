@@ -1,7 +1,7 @@
 ---
 created: 2026-06-08T11:35:53+00:00
 date: 2026-05-28
-modified: 2026-07-04T10:51:30+00:00
+modified: 2026-07-13T08:44:42+00:00
 permalink: llmeon/30-library/200-projects/hermes-cost-optimisation-free-model-routing-strategy
 project: hermes-agent-orchestrator
 project_category: hermes_optimisastion

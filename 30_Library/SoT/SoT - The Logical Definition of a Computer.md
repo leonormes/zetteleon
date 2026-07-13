@@ -2,7 +2,7 @@
 aliases: [Logical Computer, One Computer Definition, The Definition of a Computer]
 created: 2025-12-31T13:48:45+00:00
 last_reviewed: null
-modified: 2026-07-04T10:50:49+00:00
+modified: 2026-07-13T08:45:22+00:00
 permalink: llmeon/30-library/so-t/so-t-the-logical-definition-of-a-computer
 status: Active
 tags: [cloud, computer-science, distributed-systems, operating-systems, virtualization]

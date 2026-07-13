@@ -1,23 +1,11 @@
 ---
-aliases:
-- Assertiveness Algorithm
-- SBI Model for Planning
-created: 2025-12-17 00:00:00+00:00
-modified: 2026-07-04 10:50:49+00:00
+aliases: [Assertiveness Algorithm, SBI Model for Planning]
+created: 2025-12-17T00:00:00+00:00
+modified: 2026-07-13T08:45:22+00:00
 permalink: llmeon/30-library/so-t/so-t-the-data-impact-proposal-check-framework
-tags:
-- assertiveness
-- communication
-- framework
-- mental-model
+tags: [assertiveness, communication, framework, mental-model]
 title: SoT - The Data-Impact-Proposal-Check Framework
-prodos:
-  kind: sot
-  lifecycle: stable
-  review:
-    last_reviewed: '2025-12-17'
 ---
-
 
 ## 1. Definitive Statement
 

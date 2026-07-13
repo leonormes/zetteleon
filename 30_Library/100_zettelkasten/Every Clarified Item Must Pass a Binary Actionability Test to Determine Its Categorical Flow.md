@@ -1,18 +1,11 @@
 ---
-created: 2026-04-10 00:00:00+00:00
-modified: 2026-07-04 10:51:51+00:00
+created: 2026-04-10T00:00:00+00:00
+modified: 2026-07-13T08:44:55+00:00
 permalink: llmeon/30-library/100-zettelkasten/every-clarified-item-must-pass-a-binary-actionability-test-to-determine-its-categorical-flow
-tags:
-- filtering
-- gtd
-- logic
-- triage
-title: Every Clarified Item Must Pass a Binary Actionability Test to Determine Its
+tags: [filtering, gtd, logic, triage]
+title: Every Clarified Item Must Pass a Binary Actionability Test to Determine Its Categorical Flow
   Categorical Flow Categorical Flow
-prodos:
-  kind: atomic
 ---
-
 
 ## Every Clarified Item Must Pass a Binary Actionability Test to Determine Its Categorical Flow
 

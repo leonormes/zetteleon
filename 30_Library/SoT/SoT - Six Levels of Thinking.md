@@ -1,23 +1,11 @@
 ---
-aliases:
-- Six Levels of Awareness
-- Thinking vs Awareness
-created: 2025-12-14 00:00:00+00:00
-modified: 2026-07-04 10:50:50+00:00
+aliases: [Six Levels of Awareness, Thinking vs Awareness]
+created: 2025-12-14T00:00:00+00:00
+modified: 2026-07-13T08:45:21+00:00
 permalink: llmeon/30-library/so-t/so-t-six-levels-of-thinking
-tags:
-- awareness
-- mental_model
-- metacognition
-- TheHuman/Psychology
+tags: [awareness, mental_model, metacognition, TheHuman/Psychology]
 title: SoT - Six Levels of Thinking
-prodos:
-  kind: sot
-  lifecycle: stable
-  review:
-    last_reviewed: '2025-12-14'
 ---
-
 
 ## 2. The Framework: Thinking vs. Awareness
 

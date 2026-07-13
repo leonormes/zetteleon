@@ -1,24 +1,11 @@
 ---
-aliases:
-- OHDSI ETL
-- Rabbit-in-a-Hat
-- WhiteRabbit
-created: 2026-01-06 18:52:01+00:00
-modified: 2026-07-04 10:50:54+00:00
+aliases: [OHDSI ETL, Rabbit-in-a-Hat, WhiteRabbit]
+created: 2026-01-06T18:52:01+00:00
+modified: 2026-07-13T08:45:18+00:00
 permalink: llmeon/30-library/so-t/so-t-ohdsi-etl-process
-tags:
-- data_engineering
-- etl
-- ohdsi
-- sot
+tags: [data_engineering, etl, ohdsi, sot]
 title: SoT - OHDSI ETL Process
-prodos:
-  kind: sot
-  lifecycle: stable
-  review:
-    last_reviewed: 2026-01-06
 ---
-
 
 ## 1. Definitive Statement
 

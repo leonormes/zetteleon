@@ -1,24 +1,11 @@
 ---
-aliases:
-- AuthN MOC
-- Cloud Security Map
-- Identity Map
-created: 2025-12-25 13:05:00+00:00
-modified: 2026-07-04 10:51:12+00:00
+aliases: [AuthN MOC, Cloud Security Map, Identity Map]
+created: 2025-12-25T13:05:00+00:00
+modified: 2026-07-13T08:45:03+00:00
 permalink: llmeon/30-library/mo-c/moc-cloud-native-authentication
-tags:
-- authentication
-- map
-- SoftwareEngineering/Security
-- type/moc
+tags: [authentication, map, SoftwareEngineering/Security, type/moc]
 title: MOC - Cloud-Native Authentication
-prodos:
-  kind: moc
-  lifecycle: stable
-  review:
-    last_reviewed: 2025-12-25"
 ---
-
 
 ## 1. The Core Trinity
 

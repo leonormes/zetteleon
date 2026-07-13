@@ -2,7 +2,7 @@
 created: 2026-04-14T20:26:00+00:00
 created_utc: '2026-04-14T13:20:00Z'
 kind: definition
-modified: 2026-07-04T10:51:50+00:00
+modified: 2026-07-13T08:44:56+00:00
 permalink: llmeon/30-library/100-zettelkasten/harness-engineering
 source_title: Archon and Extreme Harness Engineering
 source_url: https://youtube.com/watch?v=qMnClynCAmM

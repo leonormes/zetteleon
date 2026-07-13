@@ -3,7 +3,7 @@ aliases: []
 created: 2025-02-07T12:57:55+00:00
 ID: cultural_and_linguistic_knowledge_in_paraphrasing
 last_reviewed: ''
-modified: 2026-07-04T10:51:13+00:00
+modified: 2026-07-13T08:45:02+00:00
 permalink: llmeon/30-library/mo-c/cultural-and-linguistic-knowledge-in-paraphrasing
 status: ''
 tags: [paraphrasing]

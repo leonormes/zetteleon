@@ -1,25 +1,11 @@
 ---
-aliases:
-- Feynman Technique
-- Prot\u00e9g\u00e9 Effect
-created: 2025-11-10 16:09:00+00:00
-modified: 2026-07-04 10:51:51+00:00
+aliases: [Feynman Technique, Prot\u00e9g\u00e9 Effect]
+created: 2025-11-10T16:09:00+00:00
+modified: 2026-07-13T08:44:55+00:00
 permalink: llmeon/30-library/100-zettelkasten/explaining-to-others-enhances-ones-own-learning
-tags:
-- learning
-- teaching
-- TheHuman/Habits
-- understanding
-title: Explaining to Others Enhances One's Own Learning
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: stable
-  review:
-    last_reviewed: ''
+tags: [learning, teaching, TheHuman/Habits, understanding]
+title: "Explaining to Others Enhances One's Own Learning"
 ---
-
 
 ## Explaining to Others Enhances One's Own Learning
 

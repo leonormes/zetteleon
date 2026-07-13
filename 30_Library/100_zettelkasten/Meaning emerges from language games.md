@@ -1,25 +1,11 @@
 ---
-aliases:
-- forms of life
-- meaning in use
-- Wittgensteinian pragmatics
-created: 2025-10-31 20:05:00+00:00
-modified: 2026-07-04 10:51:49+00:00
+aliases: [forms of life, meaning in use, Wittgensteinian pragmatics]
+created: 2025-10-31T20:05:00+00:00
+modified: 2026-07-13T08:44:57+00:00
 permalink: llmeon/30-library/100-zettelkasten/meaning-emerges-from-language-games
-tags:
-- philosophy-of-language
-- pragmatics
-- Wittgenstein
+tags: [philosophy-of-language, pragmatics, Wittgenstein]
 title: Meaning emerges from language games
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: '2025-10-31'
 ---
-
 
 ## Meaning Emerges from Language Games
 

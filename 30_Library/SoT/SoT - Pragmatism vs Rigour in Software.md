@@ -1,22 +1,11 @@
 ---
-aliases:
-- Pragmatism vs Theory in Software
-- Rigour vs Velocity
-created: 2025-12-19 00:00:00+00:00
-modified: 2026-07-04 10:50:53+00:00
+aliases: [Pragmatism vs Theory in Software, Rigour vs Velocity]
+created: 2025-12-19T00:00:00+00:00
+modified: 2026-07-13T08:45:19+00:00
 permalink: llmeon/30-library/so-t/so-t-pragmatism-vs-rigour-in-software
-tags:
-- mental-model
-- SoftwareEngineering
-- TheHuman/Philosophy
+tags: [mental-model, SoftwareEngineering, TheHuman/Philosophy]
 title: SoT - Pragmatism vs Rigour in Software
-prodos:
-  kind: sot
-  lifecycle: stable
-  review:
-    last_reviewed: '2025-12-19'
 ---
-
 
 > The Pragmatism-Rigour Conflict is the central tension in software engineering between two opposing value systems: ""
 > 1. Pragmatism (Velocity): " Values speed of implementation, adaptability, and delivering \"good enough\" solutions quickly. It prioritizes market adoption and iteration."

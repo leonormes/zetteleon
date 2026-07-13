@@ -1,19 +1,13 @@
 ---
-created: 2026-02-21 15:07:25+00:00
-modified: 2026-07-04 10:50:40+00:00
+created: 2026-02-21T15:07:25+00:00
+modified: 2026-07-13T08:45:29+00:00
 permalink: llmeon/30-library/ops/cmd-kubectl-verify-reflector-sync
 risk: read-only
 service: reflector
-tags:
-- reflector
-- secrets
-- verification
+tags: [reflector, secrets, verification]
 title: cmd_kubectl_verify_reflector_sync
 tool: kubectl
-prodos:
-  kind: ops
 ---
-
 
 ## Verify Reflector Secret Sync
 

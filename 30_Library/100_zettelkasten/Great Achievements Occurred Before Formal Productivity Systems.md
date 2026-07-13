@@ -1,23 +1,11 @@
 ---
 aliases: []
-created: 2025-11-10 13:00:00+00:00
-modified: 2026-07-04 10:51:50+00:00
+created: 2025-11-10T13:00:00+00:00
+modified: 2026-07-13T08:44:56+00:00
 permalink: llmeon/30-library/100-zettelkasten/great-achievements-occurred-before-formal-productivity-systems
-tags:
-- achievement
-- history
-- topic/productivity
-- topic/systems
+tags: [achievement, history, topic/productivity, topic/systems]
 title: Great Achievements Occurred Before Formal Productivity Systems
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: ''
 ---
-
 
 ## Great Achievements Occurred Before Formal Productivity Systems
 

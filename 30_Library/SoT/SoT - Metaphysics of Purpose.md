@@ -1,27 +1,12 @@
 ---
-aliases:
-- Taxonomy of Cosmic Purpose
-- Teleological Framework
-- The Four Universes of Purpose
-created: 2026-02-03 10:15:00+00:00
-modified: 2026-07-04 10:50:54+00:00
+aliases: [Taxonomy of Cosmic Purpose, Teleological Framework, The Four Universes of Purpose]
+created: 2026-02-03T10:15:00+00:00
+modified: 2026-07-13T08:45:17+00:00
 permalink: llmeon/30-library/so-t/so-t-metaphysics-of-purpose
 source_of_truth: true
-tags:
-- metaphysics
-- philosophy
-- prodos/sot
-- teleology
+tags: [metaphysics, philosophy, prodos/sot, teleology]
 title: SoT - Metaphysics of Purpose
-prodos:
-  kind: sot
-  lifecycle: evergreen
-  trust: stable
-  chronos:
-    last_synthesis: 2026-02-03
-    synthesis_count: 1
 ---
-
 
 ## Minimum Viable Understanding (MVU)
 

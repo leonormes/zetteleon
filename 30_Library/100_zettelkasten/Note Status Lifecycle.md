@@ -1,24 +1,11 @@
 ---
-aliases:
-- Note Maturity
-- Status Progression
-created: 2025-10-31 08:20:00+00:00
-modified: 2026-07-04 10:51:48+00:00
+aliases: [Note Maturity, Status Progression]
+created: 2025-10-31T08:20:00+00:00
+modified: 2026-07-13T08:44:58+00:00
 permalink: llmeon/30-library/100-zettelkasten/note-status-lifecycle
-tags:
-- quality
-- workflow
-- zettelkasten
+tags: [quality, workflow, zettelkasten]
 title: Note Status Lifecycle
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: '2025-10-31'
 ---
-
 
 ## Note Status Lifecycle
 

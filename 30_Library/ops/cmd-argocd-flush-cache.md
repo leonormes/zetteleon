@@ -1,21 +1,14 @@
 ---
-created: 2026-02-17 12:03:31+00:00
+created: 2026-02-17T12:03:31+00:00
 hop_level: local
-modified: 2026-07-04 10:50:45+00:00
+modified: 2026-07-13T08:45:26+00:00
 permalink: llmeon/30-library/ops/cmd-argocd-flush-cache
 requires_tunnel: true
-tags:
-- argocd
-- atomic
-- cache
-- kubectl
+tags: [argocd, atomic, cache, kubectl]
 target_service: argocd
 title: cmd-argocd-flush-cache
 tool: kubectl
-prodos:
-  kind: ops
 ---
-
 
 ## Nuclear ArgoCD Cache Flush
 

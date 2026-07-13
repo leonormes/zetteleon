@@ -1,23 +1,12 @@
 ---
 aliases: []
-created: 2025-10-30 12:37:54+00:00
-modified: 2026-07-04 10:51:47+00:00
+created: 2025-10-30T12:37:54+00:00
+modified: 2026-07-13T08:44:58+00:00
 permalink: llmeon/30-library/100-zettelkasten/productive-vs-destructive-shame
 source: '[[MOC - Authority Dynamics and ADHD]]'
-tags:
-- neurodiversity
-- shame
-- TheHuman/Psychology
+tags: [neurodiversity, shame, TheHuman/Psychology]
 title: Productive vs Destructive Shame
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: ''
 ---
-
 
 Shame can be categorized into two functional types:
 

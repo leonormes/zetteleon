@@ -1,24 +1,12 @@
 ---
-aliases:
-- ADHD Paralysis
-created: 2025-10-29 16:38:00+00:00
-modified: 2026-07-04 10:51:54+00:00
+aliases: [ADHD Paralysis]
+created: 2025-10-29T16:38:00+00:00
+modified: 2026-07-13T08:44:52+00:00
 permalink: llmeon/30-library/100-zettelkasten/adhd-paralysis-is-the-inability-to-start-a-task-until-it-becomes-an-emergency
 source: '[[MOC - The Phases of Task Execution and the Impact of ADHD]]'
-tags:
-- executive_function
-- task_initiation
-- TheHuman/Health/ADHD
+tags: [executive_function, task_initiation, TheHuman/Health/ADHD]
 title: ADHD Paralysis is the Inability to Start a Task Until it Becomes an Emergency
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: 'null'
 ---
-
 
 "ADHD Paralysis" describes a state where an individual with ADHD is unable to initiate a task. This often occurs because the brain's reward system is not sufficiently stimulated by the task itself. The paralysis is only broken when the task becomes an acute emergency, which provides a large enough dopamine rush to finally trigger action.
 

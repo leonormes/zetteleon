@@ -1,24 +1,11 @@
 ---
-aliases:
-- ProdOS Index
-- Productivity Operating System
-- Start Here
-created: 2025-12-04 14:38:32+00:00
-modified: 2026-07-04 10:51:10+00:00
+aliases: [ProdOS Index, Productivity Operating System, Start Here]
+created: 2025-12-04T14:38:32+00:00
+modified: 2026-07-13T08:45:05+00:00
 permalink: llmeon/30-library/mo-c/moc-prod-os
-tags:
-- moc
-- prodos
-- SoftwareEngineering/Architecture
+tags: [moc, prodos, SoftwareEngineering/Architecture]
 title: MOC - ProdOS
-prodos:
-  kind: moc
-  lifecycle: stable
-  review:
-    last_reviewed: 2026-04-02
-  id: MOC - ProdOS
 ---
-
 
 ## ProdOS - Productivity Operating System
 

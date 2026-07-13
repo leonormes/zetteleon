@@ -1,25 +1,12 @@
 ---
-aliases:
-- Family Money Concept
-created: 2025-11-10 10:11:00+00:00
-modified: 2026-07-04 10:51:51+00:00
+aliases: [Family Money Concept]
+created: 2025-11-10T10:11:00+00:00
+modified: 2026-07-13T08:44:55+00:00
 permalink: llmeon/30-library/100-zettelkasten/finances-in-an-unequal-income-partnership-should-be-treated-as-shared-family-money
-tags:
-- budgeting
-- equality
-- finance
-- relationship
-title: Finances in an Unequal-Income Partnership Should Be Treated as Shared Family
+tags: [budgeting, equality, finance, relationship]
+title: Finances in an Unequal-Income Partnership Should Be Treated as Shared Family Money
   Money Money
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: ''
 ---
-
 
 ## Finances in an Unequal-Income Partnership Should Be Treated as Shared Family Money
 

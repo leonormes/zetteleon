@@ -1,26 +1,11 @@
 ---
-aliases:
-- Communication Theory
-- Cross-Cultural Communication
-- Experiential Filter
-- Misunderstanding
-- Shared Understanding
-created: 2026-01-02 15:20:00+00:00
-modified: 2026-07-04 10:51:03+00:00
+aliases: [Communication Theory, Cross-Cultural Communication, Experiential Filter, Misunderstanding, Shared Understanding]
+created: 2026-01-02T15:20:00+00:00
+modified: 2026-07-13T08:45:10+00:00
 permalink: llmeon/30-library/so-t/so-t-communication-misunderstanding-the-experiential-filter
-tags:
-- communication
-- misunderstanding
-- psychology
-- social-cognition
+tags: [communication, misunderstanding, psychology, social-cognition]
 title: SoT - Communication & Misunderstanding (The Experiential Filter)
-prodos:
-  kind: sot
-  lifecycle: stable
-  review:
-    last_reviewed: '2026-01-02'
 ---
-
 
 ## 1. The Mechanic of Communication
 

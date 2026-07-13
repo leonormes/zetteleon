@@ -1,6 +1,6 @@
 ---
 created: 2026-06-05T08:50:57+00:00
-modified: 2026-07-04T10:51:36+00:00
+modified: 2026-07-13T08:44:38+00:00
 permalink: llmeon/30-library/200-projects/fitfile-grafana-cloud-observability-audit-stack-review-gaps-cost-optimisation
 project_category: refined_deployment
 project_name: Refined Deployment

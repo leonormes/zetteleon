@@ -1,21 +1,11 @@
 ---
 aliases: []
-created: 2025-10-31 13:07:00+00:00
-modified: 2026-07-04 10:51:48+00:00
+created: 2025-10-31T13:07:00+00:00
+modified: 2026-07-13T08:44:58+00:00
 permalink: llmeon/30-library/100-zettelkasten/nihilism-vs-constructed-meaning
-tags:
-- TheHuman/Philosophy
-- TheHuman/Psychology
+tags: [TheHuman/Philosophy, TheHuman/Psychology]
 title: Nihilism vs Constructed Meaning
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: ''
 ---
-
 
 ## Nihilism Vs Constructed Meaning
 

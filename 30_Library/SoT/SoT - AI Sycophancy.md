@@ -1,25 +1,11 @@
 ---
-aliases:
-- AI People-Pleasing
-- Model Sycophancy
-- Sycophancy in AI
-created: 2026-01-01 12:00:00+00:00
-modified: 2026-07-04 10:51:04+00:00
+aliases: [AI People-Pleasing, Model Sycophancy, Sycophancy in AI]
+created: 2026-01-01T12:00:00+00:00
+modified: 2026-07-13T08:45:09+00:00
 permalink: llmeon/30-library/so-t/so-t-ai-sycophancy
-tags:
-- ai
-- alignment
-- bias
-- mental_models
-- risk
+tags: [ai, alignment, bias, mental_models, risk]
 title: SoT - AI Sycophancy
-prodos:
-  kind: sot
-  lifecycle: active
-  review:
-    last_reviewed: '2026-01-01'
 ---
-
 
 ## SoT - AI Sycophancy
 

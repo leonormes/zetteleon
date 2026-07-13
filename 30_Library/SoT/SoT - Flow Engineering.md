@@ -1,32 +1,16 @@
 ---
-aliases:
-- Flow Engineering
-- LLM Orchestration
-- Programmatic Gates
-- Prompt Engineering vs Flow Engineering
-created: 2026-04-06 17:00:00+00:00
+aliases: [Flow Engineering, LLM Orchestration, Programmatic Gates, Prompt Engineering vs Flow Engineering]
+created: 2026-04-06T17:00:00+00:00
 last-synthesis: 2026-04-06
-modified: 2026-07-04 10:50:58+00:00
+modified: 2026-07-13T08:45:13+00:00
 permalink: llmeon/30-library/so-t/so-t-flow-engineering
 see_also: []
 source_of_truth: true
 superseded_by: ''
 supersedes: ''
-tags:
-- ai-engineering
-- architecture
-- llm
-- orchestration
-- sot
+tags: [ai-engineering, architecture, llm, orchestration, sot]
 title: SoT - Flow Engineering
-prodos:
-  kind: sot
-  lifecycle: stable
-  trust: stable
-  chronos:
-    synthesis_count: 1
 ---
-
 
 ## Minimum Viable Understanding (MVU)
 

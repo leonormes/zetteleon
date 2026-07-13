@@ -1,23 +1,11 @@
 ---
 aliases: []
-created: 2024-03-30 00:00:00+00:00
-modified: 2026-07-04 10:51:51+00:00
+created: 2024-03-30T00:00:00+00:00
+modified: 2026-07-13T08:44:56+00:00
 permalink: llmeon/30-library/100-zettelkasten/fundamental-insight-creation
-tags:
-- insight
-- topic/pkm
-- topic/pkm/zettelkasten
+tags: [insight, topic/pkm, topic/pkm/zettelkasten]
 title: Fundamental Insight Creation
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: active
-  review:
-    last_reviewed: 'null'
-  id: '20240330002'
 ---
-
 
 This type of problem-solving generates entirely new frameworks of understanding and solutions that were previously inconceivable. It often involves redefining the problem itself and making conceptual leaps that transform our understanding.
 

@@ -1,24 +1,11 @@
 ---
-aliases:
-- Songwriting Camps
-created: 2025-11-10 11:06:00+00:00
-modified: 2026-07-10 23:27:00+01:00
+aliases: [Songwriting Camps]
+created: 2025-11-10T11:06:00+00:00
+modified: 2026-07-13T08:44:54+00:00
 permalink: llmeon/30-library/100-zettelkasten/commercial-music-is-engineered-for-mass-appeal-by-specialist-teams
-tags:
-- commerce
-- music
-- product
-- production
+tags: [commerce, music, product, production]
 title: Commercial Music is Engineered for Mass Appeal by Specialist Teams
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: ''
 ---
-
 
 ## Commercial Music is Engineered for Mass Appeal by Specialist Teams
 

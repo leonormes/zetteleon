@@ -1,26 +1,11 @@
 ---
-aliases:
-- Sincerity
-- Truthfulness
-created: 2025-11-01 21:22:00+00:00
-modified: 2026-07-04 10:51:50+00:00
+aliases: [Sincerity, Truthfulness]
+created: 2025-11-01T21:22:00+00:00
+modified: 2026-07-13T08:44:56+00:00
 permalink: llmeon/30-library/100-zettelkasten/honesty-is-being-truthful-and-sincere
-tags:
-- character-strength
-- honesty
-- integrity
-- trust
-- virtue
+tags: [character-strength, honesty, integrity, trust, virtue]
 title: Honesty is Being Truthful and Sincere
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: evergreen
-  review:
-    last_reviewed: '2025-11-01'
 ---
-
 
 Honesty is the virtue of telling the truth, being sincere, and acting in a way that is worthy of trust.
 

@@ -1,23 +1,11 @@
 ---
-aliases:
-- SMP 8
-created: 2025-11-01 12:00:10+00:00
-modified: 2026-07-04 10:51:46+00:00
+aliases: [SMP 8]
+created: 2025-11-01T12:00:10+00:00
+modified: 2026-07-13T08:44:59+00:00
 permalink: llmeon/30-library/100-zettelkasten/smp-8-is-looking-for-and-expressing-regularity-in-repeated-reasoning
-tags:
-- education
-- maths
-- reasoning
+tags: [education, maths, reasoning]
 title: SMP 8 is Looking For and Expressing Regularity in Repeated Reasoning
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: '2025-11-01'
 ---
-
 
 ## SMP 8 is Looking For and Expressing Regularity in Repeated Reasoning
 

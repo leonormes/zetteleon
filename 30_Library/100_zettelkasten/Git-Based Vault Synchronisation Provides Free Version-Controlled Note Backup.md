@@ -1,18 +1,10 @@
 ---
-created: 2026-04-10 13:00:00+00:00
-modified: 2026-07-04 10:51:51+00:00
+created: 2026-04-10T13:00:00+00:00
+modified: 2026-07-13T08:44:56+00:00
 permalink: llmeon/30-library/100-zettelkasten/git-based-vault-synchronisation-provides-free-version-controlled-note-backup
-tags:
-- cost-optimization
-- git
-- obsidian
-- sync
-- version-control
+tags: [cost-optimization, git, obsidian, sync, version-control]
 title: Git-Based Vault Synchronisation Provides Free Version-Controlled Note Backup
-prodos:
-  kind: atomic
 ---
-
 
 ## Git-Based Vault Synchronisation Provides Free Version-Controlled Note Backup
 

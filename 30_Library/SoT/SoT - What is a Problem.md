@@ -1,25 +1,11 @@
 ---
-aliases:
-- Problem Definition
-- The Problem Concept
-- What is a Problem
-created: 2025-12-07 00:00:00+00:00
-modified: 2026-07-04 10:50:47+00:00
+aliases: [Problem Definition, The Problem Concept, What is a Problem]
+created: 2025-12-07T00:00:00+00:00
+modified: 2026-07-13T08:45:23+00:00
 permalink: llmeon/30-library/so-t/so-t-what-is-a-problem
-tags:
-- definition
-- logic
-- mental_model
-- problem_solving
-- topic/systems
+tags: [definition, logic, mental_model, problem_solving, topic/systems]
 title: SoT - What is a Problem
-prodos:
-  kind: sot
-  lifecycle: stable
-  review:
-    last_reviewed: '2025-12-07'
 ---
-
 
 > It exists effectively only when three components are present simultaneously: ""
 > 1. Current State: " Where you are now (Reality)."

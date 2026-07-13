@@ -1,21 +1,11 @@
 ---
-created: 2025-12-26 12:30:00+00:00
-modified: 2026-07-04 10:50:52+00:00
+created: 2025-12-26T12:30:00+00:00
+modified: 2026-07-13T08:45:19+00:00
 permalink: llmeon/30-library/so-t/so-t-process-execution-kernel-logic
-tags:
-- kernel
-- operating-systems
-- programming
-- SoftwareEngineering/Linux
+tags: [kernel, operating-systems, programming, SoftwareEngineering/Linux]
 title: SoT - Process Execution (Kernel Logic)
 uuid: ecdfeb35-57ef-4788-9c81-663ac48b8b48
-prodos:
-  kind: sot
-  lifecycle: stable
-  review:
-    last_reviewed: 2025-12-26
 ---
-
 
 ## 1. Definitive Statement
 

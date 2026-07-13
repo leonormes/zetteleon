@@ -1,25 +1,15 @@
 ---
-created: 2026-02-22 17:01:31+00:00
+created: 2026-02-22T17:01:31+00:00
 hop_level: local
 last_verified: 2026-02-22
-modified: 2026-07-04 10:50:42+00:00
+modified: 2026-07-13T08:45:28+00:00
 permalink: llmeon/30-library/ops/cmd-kubectl-argocd-grep-drifting-configmap
 requires_tunnel: false
-tags:
-- argocd
-- cmd
-- configmap
-- drift
-- helm
-- secrets
+tags: [argocd, cmd, configmap, drift, helm, secrets]
 target_service: argocd
 title: cmd_kubectl_argocd_grep_drifting_configmap
 tool: kubectl
-prodos:
-  kind: ops
-  lifecycle: active
 ---
-
 
 ## Grep Deployment for Drifting ConfigMap Reference
 

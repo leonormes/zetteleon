@@ -2,7 +2,7 @@
 aliases: [Emotional Feedback Signal, Nervous System Ping, The Ping]
 created: 2025-07-17T10:05:00+00:00
 last_reviewed: ''
-modified: 2026-07-04T10:51:08+00:00
+modified: 2026-07-13T08:45:07+00:00
 permalink: llmeon/30-library/mo-c/the-ping-as-nervous-system-signal
 status: ''
 tags: []

@@ -1,27 +1,11 @@
 ---
-aliases:
-- Atomic Notes
-- Evergreen Notes
-- Main Notes
-- Permanent Notes
-created: 2025-10-30 15:31:09+00:00
-modified: 2026-07-04 10:51:49+00:00
+aliases: [Atomic Notes, Evergreen Notes, Main Notes, Permanent Notes]
+created: 2025-10-30T15:31:09+00:00
+modified: 2026-07-13T08:44:57+00:00
 permalink: llmeon/30-library/100-zettelkasten/main-notes-are-the-essential-building-blocks
-tags:
-- knowledge-work
-- note-types
-- topic/pkm
-- topic/pkm/zettelkasten
+tags: [knowledge-work, note-types, topic/pkm, topic/pkm/zettelkasten]
 title: Main Notes Are the Essential Building Blocks
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: '2025-10-30T00:00:00.000Z'
 ---
-
 
 ## Main Notes Are the Essential Building Blocks
 

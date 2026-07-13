@@ -1,24 +1,11 @@
 ---
-aliases:
-- externalization effect
-- writing strips phenomenology
-created: 2025-10-31 20:46:00+00:00
-modified: 2026-07-04 10:51:43+00:00
+aliases: [externalization effect, writing strips phenomenology]
+created: 2025-10-31T20:46:00+00:00
+modified: 2026-07-13T08:45:01+00:00
 permalink: llmeon/30-library/100-zettelkasten/writing-isolates-propositional-content-from-phenomenological-experience
-tags:
-- metacognition
-- TheHuman/Cognition
-- writing
+tags: [metacognition, TheHuman/Cognition, writing]
 title: Writing isolates propositional content from phenomenological experience
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: '2025-10-31'
 ---
-
 
 ## Writing Isolates Propositional Content from Phenomenological Experience
 

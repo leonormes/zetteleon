@@ -1,23 +1,11 @@
 ---
-aliases:
-- Container Primitives MOC
-- Linux Primitives Map
-created: 2025-10-26 17:16:00+00:00
-modified: 2026-07-04 10:51:10+00:00
+aliases: [Container Primitives MOC, Linux Primitives Map]
+created: 2025-10-26T17:16:00+00:00
+modified: 2026-07-13T08:45:05+00:00
 permalink: llmeon/30-library/mo-c/moc-linux-container-primitives
-tags:
-- kernel
-- SoftwareEngineering/Containers
-- SoftwareEngineering/Linux
-- type/moc
+tags: [kernel, SoftwareEngineering/Containers, SoftwareEngineering/Linux, type/moc]
 title: MOC - Linux Container Primitives
-prodos:
-  kind: moc
-  lifecycle: stable
-  review:
-    last_reviewed: 2025-12-24
 ---
-
 
 ## 🏛️ Foundational Principles
 

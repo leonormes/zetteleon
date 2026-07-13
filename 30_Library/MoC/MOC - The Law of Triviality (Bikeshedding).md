@@ -3,7 +3,7 @@ aliases: [Bikeshedding]
 created: 2025-08-23T17:07:03+00:00
 creation_date: '2025-08-23'
 last_reviewed: ''
-modified: 2026-07-04T10:51:08+00:00
+modified: 2026-07-13T08:45:06+00:00
 permalink: llmeon/30-library/mo-c/moc-the-law-of-triviality-bikeshedding
 status: ''
 tags: [sociology, TheHuman/Cognition/bias, TheHuman/Psychology]

@@ -4,8 +4,7 @@ modified: 2026-06-08 11:49:24+00:00
 project_category: prodos
 project_name: ProdOS
 project_status: active
-source: Distilled from the processing note "HEAD — Gaining Control The 5 Stages of
-  Work Flow" (Claude + Gemini sessions, 2026-06-02)
+source: Distilled from the processing note "HEAD — Gaining Control The 5 Stages of Work Flow" (Claude + Gemini sessions, 2026-06-02)
 status: active
 tags:
 - 5

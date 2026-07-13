@@ -1,24 +1,11 @@
 ---
-aliases:
-- Mundane Thoughts as Raw Material
-created: 2025-11-06 20:01:00+00:00
-modified: 2026-07-04 10:51:49+00:00
+aliases: [Mundane Thoughts as Raw Material]
+created: 2025-11-06T20:01:00+00:00
+modified: 2026-07-13T08:44:57+00:00
 permalink: llmeon/30-library/100-zettelkasten/mundane-written-thoughts-are-the-starting-point-for-deeper-insight
-tags:
-- process
-- TheHuman/Creativity
-- thinking
-- writing
+tags: [process, TheHuman/Creativity, thinking, writing]
 title: Mundane Written Thoughts are the Starting Point for Deeper Insight
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: '2025-11-06'
 ---
-
 
 ## Mundane Written Thoughts Are the Starting Point for Deeper Insight
 

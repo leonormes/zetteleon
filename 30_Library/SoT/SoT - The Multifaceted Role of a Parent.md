@@ -1,25 +1,11 @@
 ---
-aliases:
-- Child Development Pillars
-- Parental Responsibilities
-- Parenting Role
-created: 2025-12-13 00:00:00+00:00
-modified: 2026-07-04 10:50:48+00:00
+aliases: [Child Development Pillars, Parental Responsibilities, Parenting Role]
+created: 2025-12-13T00:00:00+00:00
+modified: 2026-07-13T08:45:22+00:00
 permalink: llmeon/30-library/so-t/so-t-the-multifaceted-role-of-a-parent
-tags:
-- child_development
-- family
-- parenting
-- social_roles
-- TheHuman/Psychology
+tags: [child_development, family, parenting, social_roles, TheHuman/Psychology]
 title: SoT - The Multifaceted Role of a Parent
-prodos:
-  kind: sot
-  lifecycle: stable
-  review:
-    last_reviewed: '2025-12-13'
 ---
-
 
 The role of a parent is one of the most complex and multifaceted responsibilities an individual can undertake. It is a dynamic role that evolves as a child grows, but its core function is to nurture a child's development from complete dependence into a capable, independent, and well-adjusted adult.
 

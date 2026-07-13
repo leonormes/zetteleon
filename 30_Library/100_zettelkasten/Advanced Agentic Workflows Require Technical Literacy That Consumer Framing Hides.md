@@ -1,18 +1,11 @@
 ---
-created: 2026-04-10 13:00:00+00:00
-modified: 2026-07-04 10:51:54+00:00
+created: 2026-04-10T13:00:00+00:00
+modified: 2026-07-13T08:44:53+00:00
 permalink: llmeon/30-library/100-zettelkasten/advanced-agentic-workflows-require-technical-literacy-that-consumer-framing-hides
-tags:
-- ai-agents
-- barrier-to-entry
-- implementation
-- technical-debt
-title: Advanced Agentic Workflows Require Technical Literacy That Consumer Framing
+tags: [ai-agents, barrier-to-entry, implementation, technical-debt]
+title: Advanced Agentic Workflows Require Technical Literacy That Consumer Framing Hides
   Hides Hides
-prodos:
-  kind: atomic
 ---
-
 
 ## Advanced Agentic Workflows Require Technical Literacy That Consumer Framing Hides
 

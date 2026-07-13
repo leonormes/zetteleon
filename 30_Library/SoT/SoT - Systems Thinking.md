@@ -1,25 +1,12 @@
 ---
-aliases:
-- Feedback Loops
-- Holistic Thinking
-- Systems Dynamics
-created: 2025-12-12 00:00:00+00:00
-modified: 2026-07-04 10:50:50+00:00
+aliases: [Feedback Loops, Holistic Thinking, Systems Dynamics]
+created: 2025-12-12T00:00:00+00:00
+modified: 2026-07-13T08:45:21+00:00
 permalink: llmeon/30-library/so-t/so-t-systems-thinking
-tags:
-- complexity
-- mental_models
-- thinking
-- topic/systems
+tags: [complexity, mental_models, thinking, topic/systems]
 tier: 2-Strategy
 title: SoT - Systems Thinking
-prodos:
-  kind: sot
-  lifecycle: stable
-  review:
-    last_reviewed: ''
 ---
-
 
 ## Working Knowledge (Stable)
 
@@ -92,6 +79,4 @@ Donella Meadows identified that not all interventions are equal.
 - [[SoT - Fundamental Description of Economics]]—_Systems thinking applied to resource allocation and markets._
 - [[SoT - What is a Problem]]—_Defining problems as emergent dysfunctions of a system._
 - [[5c-emergence]] _(Core definition of emergence: complex patterns arising from simple interactions, key concept in systems theory and complexity science)_
-
 - [[SoT - Cynefin Framework]]—_Sense-making model for categorizing problems by cause-effect predictability (Clear/Complicated/Complex/Chaotic); explains why treating a Complex system as Complicated risks collapse into Chaos._
-

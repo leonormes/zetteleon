@@ -1,26 +1,11 @@
 ---
-aliases:
-- AKS Troubleshooting
-- Azure Kubernetes Service Operations
-- Karpenter for AKS
-created: 2026-01-08 12:00:00+00:00
-modified: 2026-07-04 10:51:04+00:00
+aliases: [AKS Troubleshooting, Azure Kubernetes Service Operations, Karpenter for AKS]
+created: 2026-01-08T12:00:00+00:00
+modified: 2026-07-13T08:45:09+00:00
 permalink: llmeon/30-library/so-t/so-t-azure-kubernetes-service-aks-operations
-tags:
-- aks
-- autoscaling
-- azure
-- kubernetes
-- ops
-- troubleshooting
+tags: [aks, autoscaling, azure, kubernetes, ops, troubleshooting]
 title: SoT - Azure Kubernetes Service (AKS) Operations
-prodos:
-  kind: sot
-  lifecycle: evergreen
-  review:
-    last_reviewed: '2026-03-28'
 ---
-
 
 ## 1. Operational Constraints & Common Errors
 

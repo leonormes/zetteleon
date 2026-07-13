@@ -1,7 +1,7 @@
 ---
 aliases: [Context Economics, Context Engineering Workflow, Research Plan Implement, RPI Protocol]
 created: 2026-01-09T21:52:07+00:00
-modified: 2026-07-04T10:50:48+00:00
+modified: 2026-07-13T08:45:22+00:00
 permalink: llmeon/30-library/so-t/so-t-the-rpi-workflow-context-engineering
 status: permanent
 tags: [ai/architecture, mental-model, prodos, system/protocol, workflow]

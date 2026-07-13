@@ -1,30 +1,12 @@
 ---
-aliases:
-- Oracle SBC
-- Perimeta
-- SBC
-- SIP Security
-- Voice Policy Enforcement
-created: 2026-04-02 12:10:00+00:00
-modified: 2026-07-04 10:50:50+00:00
+aliases: [Oracle SBC, Perimeta, SBC, SIP Security, Voice Policy Enforcement]
+created: 2026-04-02T12:10:00+00:00
+modified: 2026-07-13T08:45:20+00:00
 permalink: llmeon/30-library/so-t/so-t-session-border-controllers-sbc
 source_of_truth: true
-tags:
-- networking
-- security
-- sip
-- voice
-- voip
+tags: [networking, security, sip, voice, voip]
 title: SoT - Session Border Controllers (SBC)
-prodos:
-  kind: sot
-  lifecycle: evergreen
-  trust: stable
-  chronos:
-    last_synthesis: 2026-04-02
-    synthesis_count: 1
 ---
-
 
 ## Minimum Viable Understanding (MVU)
 

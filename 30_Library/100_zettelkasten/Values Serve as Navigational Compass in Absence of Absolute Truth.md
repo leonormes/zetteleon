@@ -1,24 +1,11 @@
 ---
 aliases: []
-created: 2025-11-01 09:51:13+00:00
-modified: 2026-07-04 10:51:44+00:00
+created: 2025-11-01T09:51:13+00:00
+modified: 2026-07-13T08:45:01+00:00
 permalink: llmeon/30-library/100-zettelkasten/values-serve-as-navigational-compass-in-absence-of-absolute-truth
-tags:
-- decision-making
-- navigation
-- pragmatism
-- topic/philosophy
-- values
+tags: [decision-making, navigation, pragmatism, topic/philosophy, values]
 title: Values Serve as Navigational Compass in Absence of Absolute Truth
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: 'null'
 ---
-
 
 ## Values Serve as Navigational Compass in Absence of Absolute Truth
 

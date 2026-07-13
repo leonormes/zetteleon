@@ -1,25 +1,12 @@
 ---
-alias:
-- Human-Machine Merger
-- Neural Plasticity and Tools
+alias: [Human-Machine Merger, Neural Plasticity and Tools]
 aliases: []
-created: 2025-12-24 12:00:00+00:00
-modified: 2026-07-04 10:51:48+00:00
+created: 2025-12-24T12:00:00+00:00
+modified: 2026-07-13T08:44:58+00:00
 permalink: llmeon/30-library/100-zettelkasten/natural-born-cyborgs-human-plasticity-and-tool-merger
-tags:
-- evolution
-- neuroplasticity
-- TheHuman/Philosophy
+tags: [evolution, neuroplasticity, TheHuman/Philosophy]
 title: Natural-Born Cyborgs - Human Plasticity and Tool Merger
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: stable
-  review:
-    last_reviewed: 2025-12-24
 ---
-
 
 Humans are "Natural-Born Cyborgs" not because of silicon implants, but because our biological brains possess extreme plasticity designed to co-opt and annex external props.
 

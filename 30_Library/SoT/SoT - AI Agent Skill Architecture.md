@@ -1,24 +1,11 @@
 ---
-aliases:
-- Agent Capabilities
-- AI Agent Skills
-- Claude Code Skills
-created: 2026-03-28 17:00:00+00:00
-modified: 2026-07-04 10:51:05+00:00
+aliases: [Agent Capabilities, AI Agent Skills, Claude Code Skills]
+created: 2026-03-28T17:00:00+00:00
+modified: 2026-07-13T08:45:09+00:00
 permalink: llmeon/30-library/so-t/so-t-ai-agent-skill-architecture
-tags:
-- agents
-- ai
-- architecture
-- claude
-- mcp
-- skills
+tags: [agents, ai, architecture, claude, mcp, skills]
 title: SoT - AI Agent Skill Architecture
-prodos:
-  kind: sot
-  lifecycle: seedling
 ---
-
 
 ## Minimum Viable Understanding (MVU)
 

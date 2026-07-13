@@ -1,25 +1,15 @@
 ---
-created: 2026-02-22 17:06:45+00:00
+created: 2026-02-22T17:06:45+00:00
 hop_level: local
 last_verified: 2026-02-22
-modified: 2026-07-04 10:50:43+00:00
+modified: 2026-07-13T08:45:27+00:00
 permalink: llmeon/30-library/ops/cmd-curl-auth0-token-test
 requires_tunnel: false
-tags:
-- auth0
-- cmd
-- curl
-- isolation
-- m2m
-- token
+tags: [auth0, cmd, curl, isolation, m2m, token]
 target_service: auth0
 title: cmd_curl_auth0_token_test
 tool: curl
-prodos:
-  kind: ops
-  lifecycle: active
 ---
-
 
 ## Test Auth0 M2M Token Exchange via cURL
 

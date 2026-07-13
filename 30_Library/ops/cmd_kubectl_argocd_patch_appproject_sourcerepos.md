@@ -1,24 +1,15 @@
 ---
-created: 2026-02-22 16:57:13+00:00
+created: 2026-02-22T16:57:13+00:00
 hop_level: local
 last_verified: 2026-02-22
-modified: 2026-07-04 10:50:41+00:00
+modified: 2026-07-13T08:45:28+00:00
 permalink: llmeon/30-library/ops/cmd-kubectl-argocd-patch-appproject-sourcerepos
 requires_tunnel: false
-tags:
-- appproject
-- argocd
-- cmd
-- patch
-- rbac
+tags: [appproject, argocd, cmd, patch, rbac]
 target_service: argocd
 title: cmd_kubectl_argocd_patch_appproject_sourcerepos
 tool: kubectl
-prodos:
-  kind: ops
-  lifecycle: active
 ---
-
 
 ## Allow OCI Sources in ArgoCD Project
 

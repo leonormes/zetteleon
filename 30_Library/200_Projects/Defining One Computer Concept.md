@@ -1,6 +1,6 @@
 ---
 created: 2026-05-02T19:35:19+00:00
-modified: 2026-07-04T10:51:37+00:00
+modified: 2026-07-13T08:44:36+00:00
 permalink: llmeon/30-library/200-projects/defining-one-computer-concept
 project_category: infrastructure
 project_name: k8s

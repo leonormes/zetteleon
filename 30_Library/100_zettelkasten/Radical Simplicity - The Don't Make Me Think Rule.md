@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-06-18T17:32:46+00:00
 last_reviewed: ''
-modified: 2026-07-04T10:51:46+00:00
+modified: 2026-07-13T08:44:59+00:00
 permalink: llmeon/30-library/100-zettelkasten/radical-simplicity-the-dont-make-me-think-rule
 status: ''
 tags: []

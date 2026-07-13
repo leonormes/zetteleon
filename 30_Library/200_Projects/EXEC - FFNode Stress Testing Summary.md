@@ -1,20 +1,12 @@
 ---
 aliases: []
-created: 2026-06-17 11:45:00+00:00
-modified: 2026-07-04 10:51:37+00:00
+created: 2026-06-17T11:45:00+00:00
+modified: 2026-07-13T08:44:37+00:00
 permalink: llmeon/30-library/200-projects/exec-ffnode-stress-testing-summary
 project_name: Stress Testing
-tags:
-- as05-milestone
-- fitfile
-- infrastructure
-- management
-- testing
+tags: [as05-milestone, fitfile, infrastructure, management, testing]
 title: EXEC - FFNode Stress Testing Summary
-prodos:
-  kind: project
 ---
-
 
 ## FFNode Stress Testing—Executive Summary
 

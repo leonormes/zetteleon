@@ -1,24 +1,11 @@
 ---
-aliases:
-- Cognitive Offloading
-- Thinking by Doing
-created: 2025-12-24 12:00:00+00:00
-modified: 2026-07-04 10:51:52+00:00
+aliases: [Cognitive Offloading, Thinking by Doing]
+created: 2025-12-24T12:00:00+00:00
+modified: 2026-07-13T08:44:55+00:00
 permalink: llmeon/30-library/100-zettelkasten/epistemic-actions-thinking-via-doing
-tags:
-- action
-- cognition
-- psychology
+tags: [action, cognition, psychology]
 title: Epistemic Actions - Thinking via Doing
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: stable
-  review:
-    last_reviewed: 2025-12-24
 ---
-
 
 Epistemic Actions are physical actions performed not to change the world (Pragmatic Actions), but to simplify a cognitive task.
 

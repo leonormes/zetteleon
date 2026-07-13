@@ -1,21 +1,11 @@
 ---
 aliases: []
-created: 2025-10-31 11:20:00+00:00
-modified: 2026-07-04 10:51:50+00:00
+created: 2025-10-31T11:20:00+00:00
+modified: 2026-07-13T08:44:56+00:00
 permalink: llmeon/30-library/100-zettelkasten/higher-abstraction-levels-increase-breadth-but-reduce-depth
-tags:
-- abstraction
-- TheHuman/Cognition
+tags: [abstraction, TheHuman/Cognition]
 title: Higher Abstraction Levels Increase Breadth But Reduce Depth
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: ''
 ---
-
 
 ## Higher Abstraction Levels Increase Breadth But Reduce Depth
 

@@ -2,7 +2,7 @@
 aliases: []
 created: 2026-01-03T10:10:15+00:00
 last_reviewed: ''
-modified: 2026-07-04T10:51:05+00:00
+modified: 2026-07-13T08:45:09+00:00
 permalink: llmeon/30-library/so-t/so-t-adhd-neurology-core-concepts
 status: ''
 tags: []

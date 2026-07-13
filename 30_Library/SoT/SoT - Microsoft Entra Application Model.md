@@ -1,18 +1,10 @@
 ---
-created: 2026-02-09 17:00:00+00:00
-modified: 2026-07-04 10:50:54+00:00
+created: 2026-02-09T17:00:00+00:00
+modified: 2026-07-13T08:45:17+00:00
 permalink: llmeon/30-library/so-t/so-t-microsoft-entra-application-model
-tags:
-- architecture
-- azure
-- entra
-- identity
-- SoT
+tags: [architecture, azure, entra, identity, SoT]
 title: SoT - Microsoft Entra Application Model
-prodos:
-  kind: sot
 ---
-
 
 ## Minimum Viable Understanding (MVU)
 

@@ -1,7 +1,7 @@
 ---
 alias: [Alloy Operator Upgrade Guide, Grafana Migration Protocol]
 created: 2026-02-05T00:00:00+00:00
-modified: 2026-07-04T10:51:06+00:00
+modified: 2026-07-13T08:45:08+00:00
 permalink: llmeon/30-library/so-t/protocol-grafana-observability-stack-upgrade
 status: stable
 tags: [grafana, helm, migration, observability, protocol]

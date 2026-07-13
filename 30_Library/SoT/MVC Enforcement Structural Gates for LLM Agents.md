@@ -1,17 +1,10 @@
 ---
-created: 2026-02-01 20:57:22+00:00
-modified: 2026-07-04 10:51:08+00:00
+created: 2026-02-01T20:57:22+00:00
+modified: 2026-07-13T08:45:07+00:00
 permalink: llmeon/30-library/so-t/mvc-enforcement-structural-gates-for-llm-agents
-tags:
-- domain/ai
-- governance
-- type/protocol
+tags: [domain/ai, governance, type/protocol]
 title: MVC Enforcement Structural Gates for LLM Agents
-prodos:
-  kind: sot
-  lifecycle: evergreen
 ---
-
 
 ## MVC Enforcement: Structural Gates for LLM Agents
 

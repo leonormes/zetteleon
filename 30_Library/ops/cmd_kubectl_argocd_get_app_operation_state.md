@@ -1,24 +1,15 @@
 ---
-created: 2026-02-22 16:52:48+00:00
+created: 2026-02-22T16:52:48+00:00
 hop_level: local
 last_verified: 2026-02-22
-modified: 2026-07-04 10:50:42+00:00
+modified: 2026-07-13T08:45:28+00:00
 permalink: llmeon/30-library/ops/cmd-kubectl-argocd-get-app-operation-state
 requires_tunnel: false
-tags:
-- argocd
-- cmd
-- debug
-- error
-- sync
+tags: [argocd, cmd, debug, error, sync]
 target_service: argocd
 title: cmd_kubectl_argocd_get_app_operation_state
 tool: kubectl
-prodos:
-  kind: ops
-  lifecycle: active
 ---
-
 
 ## Get ArgoCD Application Operation State
 

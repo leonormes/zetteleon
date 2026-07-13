@@ -1,25 +1,11 @@
 ---
-aliases:
-- ADHD Executive Functioning
-- Core ADHD Deficits in Developers
-created: 2025-11-06 19:53:00+00:00
-modified: 2026-07-04 10:51:51+00:00
+aliases: [ADHD Executive Functioning, Core ADHD Deficits in Developers]
+created: 2025-11-06T19:53:00+00:00
+modified: 2026-07-13T08:44:55+00:00
 permalink: llmeon/30-library/100-zettelkasten/executive-function-deficits-in-adhd-impact-developer-productivity
-tags:
-- executive-function
-- SoftwareEngineering
-- TheHuman/Health/ADHD
-- topic/productivity
+tags: [executive-function, SoftwareEngineering, TheHuman/Health/ADHD, topic/productivity]
 title: Executive Function Deficits in ADHD Impact Developer Productivity
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: '2025-11-06T00:00:00.000Z'
 ---
-
 
 ## Executive Function Deficits in ADHD Impact Developer Productivity
 

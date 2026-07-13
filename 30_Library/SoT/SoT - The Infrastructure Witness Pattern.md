@@ -1,26 +1,11 @@
 ---
-aliases:
-- Infrastructure Witness
-- Proof-Carrying Infrastructure
-- Type Witness
-- Witness Pattern
-created: 2025-12-30 10:39:13+00:00
-modified: 2026-07-04 10:50:49+00:00
+aliases: [Infrastructure Witness, Proof-Carrying Infrastructure, Type Witness, Witness Pattern]
+created: 2025-12-30T10:39:13+00:00
+modified: 2026-07-13T08:45:22+00:00
 permalink: llmeon/30-library/so-t/so-t-the-infrastructure-witness-pattern
-tags:
-- iac
-- pattern
-- SoftwareEngineering/Architecture
-- SoftwareEngineering/Security
-- type_theory
+tags: [iac, pattern, SoftwareEngineering/Architecture, SoftwareEngineering/Security, type_theory]
 title: SoT - The Infrastructure Witness Pattern
-prodos:
-  kind: sot
-  lifecycle: stable
-  review:
-    last_reviewed: '2025-12-30'
 ---
-
 
 ## 1. Definition
 

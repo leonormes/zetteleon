@@ -5,7 +5,7 @@ criteria: Atomic notes defining foundational concepts of respect, communication,
   needs, and financial fairness in a relationship.
 exclusions: Specific therapeutic advice or non-cooperative relationship models.
 last_reviewed: ''
-modified: 2026-07-04T10:51:11+00:00
+modified: 2026-07-13T08:45:05+00:00
 permalink: llmeon/30-library/mo-c/moc-healthy-relationship-expectations-and-needs
 scope: Core principles, common needs, and financial dynamics within a healthy, cooperative
   partnership, particularly for a married parent.

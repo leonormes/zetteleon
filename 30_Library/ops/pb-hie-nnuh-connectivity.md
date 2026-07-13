@@ -1,21 +1,13 @@
 ---
-created: 2026-02-05 10:40:21+00:00
+created: 2026-02-05T10:40:21+00:00
 customer: nnuh
 incident_type: connectivity_failure
-modified: 2026-07-04 10:50:39+00:00
+modified: 2026-07-13T08:45:30+00:00
 permalink: llmeon/30-library/ops/pb-hie-nnuh-connectivity
-tags:
-- hie
-- network
-- nnuh
-- playbook
+tags: [hie, network, nnuh, playbook]
 target_service: network
 title: pb-hie-nnuh-connectivity
-prodos:
-  kind: ops
-  lifecycle: active
 ---
-
 
 ## Playbook: HIE -> NNUH Connectivity Triage (Live Run)
 

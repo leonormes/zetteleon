@@ -1,26 +1,11 @@
 ---
-aliases:
-- ADHD Lab
-- ADHD Strategy Experiments
-- Protocol Testing
-created: 2025-12-16 12:00:00+00:00
-modified: 2026-07-04 10:51:13+00:00
+aliases: [ADHD Lab, ADHD Strategy Experiments, Protocol Testing]
+created: 2025-12-16T12:00:00+00:00
+modified: 2026-07-13T08:45:03+00:00
 permalink: llmeon/30-library/mo-c/moc-adhd-experiments-protocols
-tags:
-- experiments
-- hypothesis
-- protocols
-- TheHuman/Health/ADHD
-- topic/productivity
-- type/moc
+tags: [experiments, hypothesis, protocols, TheHuman/Health/ADHD, topic/productivity, type/moc]
 title: MOC - ADHD Experiments & Protocols
-prodos:
-  kind: moc
-  lifecycle: active
-  review:
-    last_reviewed: '2025-12-16T00:00:00.000Z'
 ---
-
 
 > [!dashboard] Live View
 > For the full status board of all experiments, see: [[Lab Experiments.base]]

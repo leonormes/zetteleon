@@ -1,25 +1,14 @@
 ---
-created: 2026-02-22 16:53:55+00:00
+created: 2026-02-22T16:53:55+00:00
 last_verified: 2026-02-22
-modified: 2026-07-04 10:50:39+00:00
+modified: 2026-07-13T08:45:30+00:00
 permalink: llmeon/30-library/ops/playbook-argocd-vso-oci-registry-auth-failure
 severity: p2
-tags:
-- argocd
-- auth
-- failure
-- oci
-- playbook
-- registry
-- vso
+tags: [argocd, auth, failure, oci, playbook, registry, vso]
 target_service: argocd
 title: playbook_argocd_vso_oci_registry_auth_failure
 trigger: ArgoCD Application Sync Failed with 401 Unauthorized against Helm Registry
-prodos:
-  kind: ops
-  lifecycle: active
 ---
-
 
 ## Playbook: ArgoCD VSO OCI Registry Authentication Failure
 

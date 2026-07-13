@@ -1,24 +1,11 @@
 ---
-aliases:
-- Metacognition
-created: 2025-11-10 16:05:00+00:00
-modified: 2026-07-04 10:51:49+00:00
+aliases: [Metacognition]
+created: 2025-11-10T16:05:00+00:00
+modified: 2026-07-13T08:44:57+00:00
 permalink: llmeon/30-library/100-zettelkasten/metacognition-is-essential-for-guiding-the-deep-learning-process
-tags:
-- learning
-- metacognition
-- self-awareness
-- TheHuman/Cognition
+tags: [learning, metacognition, self-awareness, TheHuman/Cognition]
 title: Metacognition is Essential for Guiding the Deep Learning Process
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: ''
 ---
-
 
 ## Metacognition is Essential for Guiding the Deep Learning Process
 

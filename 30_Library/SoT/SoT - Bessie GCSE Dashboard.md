@@ -2,7 +2,7 @@
 aliases: [Bessie Dashboard]
 created: 2026-01-08T07:48:54+00:00
 last_reviewed: ''
-modified: 2026-07-04T10:51:03+00:00
+modified: 2026-07-13T08:45:10+00:00
 permalink: llmeon/30-library/so-t/so-t-bessie-gcse-dashboard
 status: active
 tags: [bessie, dashboard, education]

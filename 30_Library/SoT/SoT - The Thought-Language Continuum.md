@@ -1,17 +1,11 @@
 ---
 aliases: []
-created: 2025-12-11 00:00:00+00:00
-modified: 2026-07-04 10:50:48+00:00
+created: 2025-12-11T00:00:00+00:00
+modified: 2026-07-13T08:45:22+00:00
 permalink: llmeon/30-library/so-t/so-t-the-thought-language-continuum
 tags: []
 title: SoT - The Thought-Language Continuum
-prodos:
-  kind: sot
-  lifecycle: stable
-  review:
-    last_reviewed: ''
 ---
-
 
 ## 2. Core Concepts
 

@@ -1,31 +1,12 @@
 ---
-aliases:
-- Creative Intelligence
-- Framework Generation
-- Generative Thinking
-- Paradigm Shift Intelligence
-- Revolutionary Science
-created: 2024-03-30 00:00:00+00:00
-modified: 2026-07-04 10:50:58+00:00
+aliases: [Creative Intelligence, Framework Generation, Generative Thinking, Paradigm Shift Intelligence, Revolutionary Science]
+created: 2024-03-30T00:00:00+00:00
+modified: 2026-07-13T08:45:14+00:00
 permalink: llmeon/30-library/so-t/so-t-generative-intelligence
 source_of_truth: true
-tags:
-- innovation
-- intelligence
-- philosophy-of-science
-- prodos/sot
-- TheHuman/Cognition
-- TheHuman/Health/ADHD
+tags: [innovation, intelligence, philosophy-of-science, prodos/sot, TheHuman/Cognition, TheHuman/Health/ADHD]
 title: SoT - Generative Intelligence
-prodos:
-  kind: sot
-  lifecycle: evergreen
-  trust: stable
-  chronos:
-    last_synthesis: 2026-02-03
-    synthesis_count: 2
 ---
-
 
 ## Minimum Viable Understanding (MVU)
 

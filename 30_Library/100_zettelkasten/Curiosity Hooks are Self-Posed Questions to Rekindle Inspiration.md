@@ -1,23 +1,11 @@
 ---
-aliases:
-- Curiosity Hooks
-created: 2025-11-11 19:05:11+00:00
-modified: 2026-07-04 10:51:53+00:00
+aliases: [Curiosity Hooks]
+created: 2025-11-11T19:05:11+00:00
+modified: 2026-07-13T08:44:54+00:00
 permalink: llmeon/30-library/100-zettelkasten/curiosity-hooks-are-self-posed-questions-to-rekindle-inspiration
-tags:
-- TheHuman/Creativity
-- TheHuman/Motivation
-- topic/productivity
+tags: [TheHuman/Creativity, TheHuman/Motivation, topic/productivity]
 title: Curiosity Hooks are Self-Posed Questions to Rekindle Inspiration
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: ''
 ---
-
 
 ## Curiosity Hooks Are Self-Posed Questions to Rekindle Inspiration
 

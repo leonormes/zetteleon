@@ -1,25 +1,11 @@
 ---
-aliases:
-- Equality Reflection
-- Extensional Type Theory
-- Identity Types
-- Intensional Type Theory
-created: 2025-12-18 00:00:00+00:00
-modified: 2026-07-04 10:51:01+00:00
+aliases: [Equality Reflection, Extensional Type Theory, Identity Types, Intensional Type Theory]
+created: 2025-12-18T00:00:00+00:00
+modified: 2026-07-13T08:45:12+00:00
 permalink: llmeon/30-library/so-t/so-t-equality-in-type-theory-intensional-vs-extensional
-tags:
-- equality
-- formal_methods
-- SoftwareEngineering/Architecture
-- type_theory
+tags: [equality, formal_methods, SoftwareEngineering/Architecture, type_theory]
 title: SoT - Equality in Type Theory (Intensional vs Extensional)
-prodos:
-  kind: sot
-  lifecycle: stable
-  review:
-    last_reviewed: '2025-12-18'
 ---
-
 
 ## 1. Working Knowledge (Stable Foundation)
 

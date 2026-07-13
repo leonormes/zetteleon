@@ -1,21 +1,11 @@
 ---
-aliases:
-- qdisc
-created: 2025-11-22 15:00:04+00:00
-modified: 2026-07-04 10:51:53+00:00
+aliases: [qdisc]
+created: 2025-11-22T15:00:04+00:00
+modified: 2026-07-13T08:44:54+00:00
 permalink: llmeon/30-library/100-zettelkasten/concept-linux-queuing-discipline
-tags:
-- SoftwareEngineering/networking/kernel
+tags: [SoftwareEngineering/networking/kernel]
 title: Concept - Linux Queuing Discipline
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: '2025-11-22'
 ---
-
 
 ## Linux Queuing Discipline
 

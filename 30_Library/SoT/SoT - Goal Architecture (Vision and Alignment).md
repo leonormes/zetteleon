@@ -1,27 +1,11 @@
 ---
-aliases:
-- Goal Attainment Architecture
-- The Compass Protocol
-- Value-Based Visioning
-- Vision Design
-created: 2025-12-19 00:00:00+00:00
-modified: 2026-07-04 10:50:58+00:00
+aliases: [Goal Attainment Architecture, The Compass Protocol, Value-Based Visioning, Vision Design]
+created: 2025-12-19T00:00:00+00:00
+modified: 2026-07-13T08:45:14+00:00
 permalink: llmeon/30-library/so-t/so-t-goal-architecture-vision-and-alignment
-tags:
-- goals
-- nlp
-- SoftwareEngineering/Architecture
-- strategy
-- TheHuman/Psychology
-- vision
+tags: [goals, nlp, SoftwareEngineering/Architecture, strategy, TheHuman/Psychology, vision]
 title: SoT - Goal Architecture (Vision and Alignment)
-prodos:
-  kind: sot
-  lifecycle: stable
-  review:
-    last_reviewed: '2025-12-19'
 ---
-
 
 ## 1. Definitive Statement
 

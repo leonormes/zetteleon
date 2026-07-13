@@ -1,7 +1,7 @@
 ---
 created: 2026-05-26T09:39:03+00:00
 last_updated: 2026-06-08 10:01:27+01:00
-modified: 2026-07-04T10:51:24+00:00
+modified: 2026-07-13T08:44:47+00:00
 permalink: llmeon/30-library/200-projects/so-t-work-open-loops
 project_category: prodos
 project_name: ProdOS

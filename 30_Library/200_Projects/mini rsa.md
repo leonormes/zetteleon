@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-17T12:31:05+00:00
 last_reviewed: ''
-modified: 2026-07-04T10:51:15+00:00
+modified: 2026-07-13T08:44:52+00:00
 permalink: llmeon/30-library/200-projects/mini-rsa
 project_category: development
 project_name: Cryptography

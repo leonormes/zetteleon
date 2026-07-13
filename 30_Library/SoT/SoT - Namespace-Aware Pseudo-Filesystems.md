@@ -1,24 +1,11 @@
 ---
-aliases:
-- Namespace-Aware FS
-- Virtualized /proc
-created: 2025-12-23 22:28:46+00:00
-modified: 2026-07-04 10:50:54+00:00
+aliases: [Namespace-Aware FS, Virtualized /proc]
+created: 2025-12-23T22:28:46+00:00
+modified: 2026-07-13T08:45:18+00:00
 permalink: llmeon/30-library/so-t/so-t-namespace-aware-pseudo-filesystems
-tags:
-- kernel
-- namespace
-- procfs
-- SoftwareEngineering/Linux
-- sysfs
+tags: [kernel, namespace, procfs, SoftwareEngineering/Linux, sysfs]
 title: SoT - Namespace-Aware Pseudo-Filesystems
-prodos:
-  kind: sot
-  lifecycle: stable
-  review:
-    last_reviewed: '2025-12-23'
 ---
-
 
 ## 1. Definitive Statement
 

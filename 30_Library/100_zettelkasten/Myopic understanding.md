@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-07-26T16:23:39+00:00
 last_reviewed: ''
-modified: 2026-07-04T10:51:49+00:00
+modified: 2026-07-13T08:44:58+00:00
 permalink: llmeon/30-library/100-zettelkasten/myopic-understanding
 status: ''
 tags: []

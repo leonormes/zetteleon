@@ -1,21 +1,11 @@
 ---
 aliases: []
-created: 2025-10-31 10:48:00+00:00
-modified: 2026-07-04 10:51:52+00:00
+created: 2025-10-31T10:48:00+00:00
+modified: 2026-07-13T08:44:54+00:00
 permalink: llmeon/30-library/100-zettelkasten/dns-delegation-handles-subdomain-authority-transfers
-tags:
-- SoftwareEngineering/Networking
-- SoftwareEngineering/networking/dns
+tags: [SoftwareEngineering/Networking, SoftwareEngineering/networking/dns]
 title: DNS Delegation Handles Subdomain Authority Transfers
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: ''
 ---
-
 
 ## DNS Delegation Handles Subdomain Authority Transfers
 

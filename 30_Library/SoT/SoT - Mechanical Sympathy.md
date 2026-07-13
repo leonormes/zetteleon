@@ -2,7 +2,7 @@
 aliases: [Hardware Sympathy, Mechanical Empathy]
 created: 2026-01-07T00:00:00+00:00
 last_reviewed: null
-modified: 2026-07-04T10:50:55+00:00
+modified: 2026-07-13T08:45:17+00:00
 permalink: llmeon/30-library/so-t/so-t-mechanical-sympathy
 status: Stable
 tags: [hardware, mindset, performance]

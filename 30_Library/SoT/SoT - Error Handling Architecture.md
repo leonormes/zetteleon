@@ -2,7 +2,7 @@
 aliases: [Designing Errors, Error Design, The Error Handling Protocol]
 created: 2026-01-06T19:00:03+00:00
 last_reviewed: null
-modified: 2026-07-04T10:51:01+00:00
+modified: 2026-07-13T08:45:12+00:00
 permalink: llmeon/30-library/so-t/so-t-error-handling-architecture
 status: Active
 tags: [error-handling, observability, rust, SoftwareEngineering/Architecture]

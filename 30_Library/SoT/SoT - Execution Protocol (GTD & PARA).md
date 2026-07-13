@@ -2,7 +2,7 @@
 aliases: [Execution Protocol, Hybrid GTD PARA]
 created: 2026-01-08T07:41:15+00:00
 last_reviewed: ''
-modified: 2026-07-04T10:51:00+00:00
+modified: 2026-07-13T08:45:12+00:00
 permalink: llmeon/30-library/so-t/so-t-execution-protocol-gtd-para
 status: permanent
 tags: [gtd, para, system/protocol]

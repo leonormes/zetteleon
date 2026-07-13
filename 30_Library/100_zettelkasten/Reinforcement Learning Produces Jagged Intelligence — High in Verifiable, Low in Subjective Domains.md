@@ -1,18 +1,11 @@
 ---
-created: 2026-04-10 13:00:00+00:00
-modified: 2026-07-04 10:51:46+00:00
+created: 2026-04-10T13:00:00+00:00
+modified: 2026-07-13T08:44:59+00:00
 permalink: llmeon/30-library/100-zettelkasten/reinforcement-learning-produces-jagged-intelligence-high-in-verifiable-low-in-subjective-domains
-tags:
-- constraints
-- intelligence
-- llm
-- reinforcement-learning
-title: Reinforcement Learning Produces Jagged Intelligence — High in Verifiable, Low
+tags: [constraints, intelligence, llm, reinforcement-learning]
+title: Reinforcement Learning Produces Jagged Intelligence — High in Verifiable, Low in Subjective Domains
   in Subjective Domains in Subjective Domains
-prodos:
-  kind: atomic
 ---
-
 
 ## Reinforcement Learning Produces Jagged Intelligence—High in Verifiable, Low in Subjective Domains
 

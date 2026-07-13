@@ -1,27 +1,11 @@
 ---
-aliases:
-- Economic Principles
-- Economics
-- Resource Allocation
-- Scarcity
-- Trade-offs
-created: 2025-12-13 00:00:00+00:00
-modified: 2026-07-04 10:50:58+00:00
+aliases: [Economic Principles, Economics, Resource Allocation, Scarcity, Trade-offs]
+created: 2025-12-13T00:00:00+00:00
+modified: 2026-07-13T08:45:14+00:00
 permalink: llmeon/30-library/so-t/so-t-fundamental-description-of-economics
-tags:
-- decision_making
-- economics
-- resource_allocation
-- scarcity
-- trade_offs
+tags: [decision_making, economics, resource_allocation, scarcity, trade_offs]
 title: SoT - Fundamental Description of Economics
-prodos:
-  kind: sot
-  lifecycle: stable
-  review:
-    last_reviewed: '2025-12-13'
 ---
-
 
 ## 2. Key Definitions and Concepts
 

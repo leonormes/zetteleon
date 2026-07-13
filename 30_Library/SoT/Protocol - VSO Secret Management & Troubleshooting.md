@@ -2,7 +2,7 @@
 aliases: [Secret Rotation Protocol, VSO Troubleshooting]
 created: 2026-03-12T08:52:25+00:00
 last_synthesis: 2026-04-05
-modified: 2026-07-04T10:51:06+00:00
+modified: 2026-07-13T08:45:08+00:00
 permalink: llmeon/30-library/so-t/protocol-vso-secret-management-troubleshooting
 status: evergreen
 tags: [aks, argocd, hcp-vault, kubernetes, protocol, secrets, vault, vso]

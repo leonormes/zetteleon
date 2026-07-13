@@ -1,23 +1,11 @@
 ---
-aliases:
-- Deforestation
-- Fusion
-- Stream Fusion
-created: 2025-12-19 00:00:00+00:00
-modified: 2026-07-04 10:50:53+00:00
+aliases: [Deforestation, Fusion, Stream Fusion]
+created: 2025-12-19T00:00:00+00:00
+modified: 2026-07-13T08:45:18+00:00
 permalink: llmeon/30-library/so-t/so-t-optimization-via-function-fusion
-tags:
-- compilers
-- functional-programming
-- optimization
+tags: [compilers, functional-programming, optimization]
 title: SoT - Optimization via Function Fusion
-prodos:
-  kind: sot
-  lifecycle: stable
-  review:
-    last_reviewed: '2025-12-19'
 ---
-
 
 ## 2. The Core Problem: The Waste of Intermediate Collections
 

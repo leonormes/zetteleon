@@ -3,7 +3,7 @@ alias: ["Lockhart's Lament", Generative vs Applicative Maths, The Art of Explana
 aliases: []
 created: 2026-01-06T19:41:54+00:00
 last_reviewed: null
-modified: 2026-07-04T10:50:48+00:00
+modified: 2026-07-13T08:45:23+00:00
 permalink: llmeon/30-library/so-t/so-t-the-philosophy-of-mathematics-education
 status: Active
 tags: [education, maths, pedagogy, TheHuman/Philosophy]

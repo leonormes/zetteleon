@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-06-25T20:14:33+00:00
 last_reviewed: 'null'
-modified: 2026-07-04T10:51:44+00:00
+modified: 2026-07-13T08:45:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-done-state-as-a-boundary-for-adhd-projects
 status: 'null'
 tags: [TheHuman/Health/ADHD]

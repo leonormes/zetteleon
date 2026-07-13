@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-02-07T12:57:53+00:00
 last_reviewed: 'null'
-modified: 2026-07-04T10:51:38+00:00
+modified: 2026-07-13T08:44:36+00:00
 permalink: llmeon/30-library/200-projects/build-a-container-from-scratch-web-server-project
 project_category: infrastructure
 project_name: k8s

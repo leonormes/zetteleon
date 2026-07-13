@@ -1,24 +1,11 @@
 ---
-aliases:
-- Schema Theory
-created: 2025-11-10 16:03:00+00:00
-modified: 2026-07-04 10:51:47+00:00
+aliases: [Schema Theory]
+created: 2025-11-10T16:03:00+00:00
+modified: 2026-07-13T08:44:58+00:00
 permalink: llmeon/30-library/100-zettelkasten/prior-knowledge-organized-as-schemas-provides-the-foundation-for-new-learning
-tags:
-- learning
-- memory
-- schema-theory
-- TheHuman/Cognition
+tags: [learning, memory, schema-theory, TheHuman/Cognition]
 title: Prior Knowledge Organized as Schemas Provides the Foundation for New Learning
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: ''
 ---
-
 
 ## Prior Knowledge Organized as Schemas Provides the Foundation for New Learning
 

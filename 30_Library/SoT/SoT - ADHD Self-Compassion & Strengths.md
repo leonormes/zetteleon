@@ -1,29 +1,12 @@
 ---
-aliases:
-- ADHD Coping Mechanisms
-- ADHD Strengths SoT
-- Race Car Brain with Bicycle Brakes
-- Vitamin Connect
-created: 2026-02-03 10:30:00+00:00
-modified: 2026-07-04 10:51:05+00:00
+aliases: [ADHD Coping Mechanisms, ADHD Strengths SoT, Race Car Brain with Bicycle Brakes, Vitamin Connect]
+created: 2026-02-03T10:30:00+00:00
+modified: 2026-07-13T08:45:09+00:00
 permalink: llmeon/30-library/so-t/so-t-adhd-self-compassion-strengths
 source_of_truth: true
-tags:
-- emotional-regulation
-- mental-health
-- prodos/sot
-- self-compassion
-- TheHuman/Health/ADHD
+tags: [emotional-regulation, mental-health, prodos/sot, self-compassion, TheHuman/Health/ADHD]
 title: SoT - ADHD Self-Compassion & Strengths
-prodos:
-  kind: sot
-  lifecycle: evergreen
-  trust: stable
-  chronos:
-    last_synthesis: 2026-04-04
-    synthesis_count: 2
 ---
-
 
 ## Minimum Viable Understanding (MVU)
 

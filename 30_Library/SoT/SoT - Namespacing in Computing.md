@@ -1,24 +1,11 @@
 ---
-aliases:
-- Namespace Architecture
-- Resource Isolation Patterns
-created: 2025-12-13 08:50:56+00:00
-modified: 2026-07-04 10:50:54+00:00
+aliases: [Namespace Architecture, Resource Isolation Patterns]
+created: 2025-12-13T08:50:56+00:00
+modified: 2026-07-13T08:45:18+00:00
 permalink: llmeon/30-library/so-t/so-t-namespacing-in-computing
-tags:
-- isolation
-- kubernetes
-- SoftwareEngineering/Architecture
-- SoftwareEngineering/Linux
-- SoftwareEngineering/Networking
+tags: [isolation, kubernetes, SoftwareEngineering/Architecture, SoftwareEngineering/Linux, SoftwareEngineering/Networking]
 title: SoT - Namespacing in Computing
-prodos:
-  kind: sot
-  lifecycle: stable
-  review:
-    last_reviewed: '2025-12-23'
 ---
-
 
 ## 1. Definitive Statement
 

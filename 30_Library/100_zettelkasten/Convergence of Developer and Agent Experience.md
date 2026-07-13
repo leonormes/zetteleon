@@ -3,8 +3,7 @@ created: 2026-04-14 11:22:44+00:00
 created_utc: '2026-04-14T11:05:00Z'
 kind: claim
 modified: 2026-05-26 11:44:36+00:00
-source_title: 'Martin Fowler & Kent Beck: Frameworks for reinventing software, again
-  and again'
+source_title: 'Martin Fowler & Kent Beck: Frameworks for reinventing software, again and again'
 source_url: http://www.youtube.com/watch?v=CZs8J1ZD0CE
 status: seed
 tags:

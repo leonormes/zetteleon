@@ -1,24 +1,12 @@
 ---
 aliases: []
-created: 2025-11-10 14:01:00+00:00
-modified: 2026-07-11 12:13:52+00:00
+created: 2025-11-10T14:01:00+00:00
+modified: 2026-07-13T08:45:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-core-principles-of-time-blocking-are-proactive-planning-single-tasking-and-visual-schedule-integration
-tags:
-- principles
-- time-blocking
-- time-management
-- topic/productivity
-title: The Core Principles of Time Blocking are Proactive Planning Single-Tasking
+tags: [principles, time-blocking, time-management, topic/productivity]
+title: The Core Principles of Time Blocking are Proactive Planning Single-Tasking and Visual Schedule Integration
   and Visual Schedule Integration and Visual Schedule Integration
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: ''
 ---
-
 
 ## The Core Principles of Time Blocking Are Proactive Planning Single-Tasking and Visual Schedule Integration
 

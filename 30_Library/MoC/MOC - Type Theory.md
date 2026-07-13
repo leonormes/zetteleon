@@ -1,26 +1,12 @@
 ---
-alias:
-- PLT MOC
-- Programming Language Theory Index
-- Type Theory Index
+alias: [PLT MOC, Programming Language Theory Index, Type Theory Index]
 aliases: []
-created: 2025-12-29 21:52:02+00:00
-modified: 2026-07-04 10:51:08+00:00
+created: 2025-12-29T21:52:02+00:00
+modified: 2026-07-13T08:45:06+00:00
 permalink: llmeon/30-library/mo-c/moc-type-theory
-tags:
-- logic
-- programming
-- SoftwareEngineering/Architecture
-- type_theory
-- type/moc
+tags: [logic, programming, SoftwareEngineering/Architecture, type_theory, type/moc]
 title: MOC - Type Theory
-prodos:
-  kind: moc
-  lifecycle: stable
-  review:
-    last_reviewed: '2026-02-06'
 ---
-
 
 ## 1. The Thesis (Applied Type Theory)
 

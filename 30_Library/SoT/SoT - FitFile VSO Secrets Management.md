@@ -1,31 +1,12 @@
 ---
-aliases:
-- FitFile Secrets SoT
-- Secrets Management Source of Truth
-- VSO Secrets Management
-created: 2026-03-14 12:00:00+00:00
-modified: 2026-07-04 10:50:59+00:00
+aliases: [FitFile Secrets SoT, Secrets Management Source of Truth, VSO Secrets Management]
+created: 2026-03-14T12:00:00+00:00
+modified: 2026-07-13T08:45:13+00:00
 permalink: llmeon/30-library/so-t/so-t-fit-file-vso-secrets-management
 source_of_truth: true
-tags:
-- argocd
-- fitfile
-- kubernetes
-- secrets
-- security
-- sot
-- vault
-- vso
+tags: [argocd, fitfile, kubernetes, secrets, security, sot, vault, vso]
 title: SoT - FitFile VSO Secrets Management
-prodos:
-  kind: sot
-  lifecycle: evergreen
-  trust: stable
-  chronos:
-    last_synthesis: 2026-04-02
-    synthesis_count: 3
 ---
-
 
 ## Minimum Viable Understanding (MVU)
 

@@ -1,25 +1,11 @@
 ---
-aliases:
-- Bouncing Back
-created: 2025-11-01 21:26:00+00:00
-modified: 2026-07-04 10:51:46+00:00
+aliases: [Bouncing Back]
+created: 2025-11-01T21:26:00+00:00
+modified: 2026-07-13T08:44:59+00:00
 permalink: llmeon/30-library/100-zettelkasten/resilience-is-the-ability-to-bounce-back-from-setbacks
-tags:
-- character-strength
-- growth
-- resilience
-- TheHuman/Psychology
-- virtue
+tags: [character-strength, growth, resilience, TheHuman/Psychology, virtue]
 title: Resilience is the Ability to Bounce Back from Setbacks
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: evergreen
-  review:
-    last_reviewed: '2025-11-01'
 ---
-
 
 Resilience is the psychological capacity to adapt to and recover from stress, adversity, trauma, or disappointment.
 

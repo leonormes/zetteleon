@@ -1,23 +1,14 @@
 ---
 aliases: []
-created: 2025-11-01 11:22:13+00:00
+created: 2025-11-01T11:22:13+00:00
 criteria: ''
 exclusions: ''
-modified: 2026-07-04 10:51:08+00:00
+modified: 2026-07-13T08:45:06+00:00
 permalink: llmeon/30-library/mo-c/moc-what-is-maths
 scope: ''
-tags:
-- foundations
-- TheHuman/Philosophy
-- topic/maths
+tags: [foundations, TheHuman/Philosophy, topic/maths]
 title: MOC - What is Maths
-prodos:
-  kind: moc
-  lifecycle: evergreen
-  review:
-    last_reviewed: '2025-11-01T00:00:00.000Z'
 ---
-
 
 ## MOC - What is Maths
 

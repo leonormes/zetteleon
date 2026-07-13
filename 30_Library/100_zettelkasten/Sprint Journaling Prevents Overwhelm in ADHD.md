@@ -1,23 +1,12 @@
 ---
-aliases:
-- Sprint Journaling
-created: 2025-10-30 12:10:03+00:00
-modified: 2026-07-04 10:51:45+00:00
+aliases: [Sprint Journaling]
+created: 2025-10-30T12:10:03+00:00
+modified: 2026-07-13T08:44:59+00:00
 permalink: llmeon/30-library/100-zettelkasten/sprint-journaling-prevents-overwhelm-in-adhd
 source: '[[MOC - Daily Writing for Clarity and ADHD-Friendly Techniques]]'
-tags:
-- TheHuman/Health/ADHD
-- time-management
-- topic/productivity
-- writing
+tags: [TheHuman/Health/ADHD, time-management, topic/productivity, writing]
 title: Sprint Journaling Prevents Overwhelm in ADHD
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
 ---
-
 
 Sprint journaling, a technique within [[MOC - Daily Writing for Clarity and ADHD-Friendly Techniques]], is an ADHD-friendly writing method that uses short, timed bursts of writing (e.g., 5-10 minutes) to prevent [[Executive Function Challenges are Central to ADHD|overwhelm]] and leverage the brain's [[Hyperfocus is a State of Intense Interest-Driven Focus in ADHD|hyperfocus windows]].
 

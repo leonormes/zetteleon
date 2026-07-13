@@ -1,26 +1,11 @@
 ---
-aliases:
-- DNS Architecture
-- FQDN
-- Hierarchical Naming
-- Reverse DNS
-created: 2025-03-04 13:42:19+00:00
-modified: 2026-07-04 10:50:49+00:00
+aliases: [DNS Architecture, FQDN, Hierarchical Naming, Reverse DNS]
+created: 2025-03-04T13:42:19+00:00
+modified: 2026-07-13T08:45:22+00:00
 permalink: llmeon/30-library/so-t/so-t-the-data-architecture-of-dns
-tags:
-- data-centric
-- SoftwareEngineering/Architecture
-- SoftwareEngineering/Networking
-- SoftwareEngineering/networking/dns
-- topic/technology
+tags: [data-centric, SoftwareEngineering/Architecture, SoftwareEngineering/Networking, SoftwareEngineering/networking/dns, topic/technology]
 title: SoT - The Data Architecture of DNS
-prodos:
-  kind: sot
-  lifecycle: stable
-  review:
-    last_reviewed: '2025-12-23'
 ---
-
 
 ## 1. Definitive Statement
 

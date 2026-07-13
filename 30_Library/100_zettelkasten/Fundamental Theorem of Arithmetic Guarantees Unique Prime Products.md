@@ -1,23 +1,12 @@
 ---
-alias:
-- Fundamental Theorem of Arithmetic
-- Prime Factorisation Uniqueness
+alias: [Fundamental Theorem of Arithmetic, Prime Factorisation Uniqueness]
 aliases: []
-created: 2025-12-24 12:00:00+00:00
-modified: 2026-07-04 10:51:51+00:00
+created: 2025-12-24T12:00:00+00:00
+modified: 2026-07-13T08:44:56+00:00
 permalink: llmeon/30-library/100-zettelkasten/fundamental-theorem-of-arithmetic-guarantees-unique-prime-products
-tags:
-- maths
+tags: [maths]
 title: Fundamental Theorem of Arithmetic Guarantees Unique Prime Products
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: stable
-  review:
-    last_reviewed: 2025-12-24
 ---
-
 
 The Fundamental Theorem of Arithmetic states that every whole number greater than 1 is either a prime number itself or can be written as a unique product of prime numbers.
 

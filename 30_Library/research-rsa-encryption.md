@@ -2,7 +2,7 @@
 books_analysed: 13
 created: 2026-05-22T14:00:00+00:00
 graphify_queries: [key exchange, modular arithmetic, public key cryptography, RSA encryption]
-modified: 2026-07-04T10:50:38+00:00
+modified: 2026-07-13T08:44:32+00:00
 permalink: llmeon/30-library/research-rsa-encryption
 source: library-indexer v1.0.0
 tags: [calibre, cryptography, encryption, public-key, reading-list, research, rsa]

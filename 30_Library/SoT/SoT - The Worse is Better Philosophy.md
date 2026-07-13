@@ -1,21 +1,11 @@
 ---
-aliases:
-- Worse is Better
-created: 2025-12-19 00:00:00+00:00
-modified: 2026-07-04 10:50:48+00:00
+aliases: [Worse is Better]
+created: 2025-12-19T00:00:00+00:00
+modified: 2026-07-13T08:45:23+00:00
 permalink: llmeon/30-library/so-t/so-t-the-worse-is-better-philosophy
-tags:
-- market-dynamics
-- SoftwareEngineering
-- TheHuman/Philosophy
+tags: [market-dynamics, SoftwareEngineering, TheHuman/Philosophy]
 title: SoT - The Worse is Better Philosophy
-prodos:
-  kind: sot
-  lifecycle: stable
-  review:
-    last_reviewed: '2025-12-19'
 ---
-
 
 ## 2. The Core Problem: The Market's Selection Filter
 

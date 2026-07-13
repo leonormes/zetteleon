@@ -1,6 +1,6 @@
 ---
 created: 2026-02-21T15:05:08+00:00
-modified: 2026-07-04T10:50:40+00:00
+modified: 2026-07-13T08:45:29+00:00
 permalink: llmeon/30-library/ops/kb-argocd-sync-failure-causes
 service: argocd
 tags: [knowledge, triage, troubleshooting]

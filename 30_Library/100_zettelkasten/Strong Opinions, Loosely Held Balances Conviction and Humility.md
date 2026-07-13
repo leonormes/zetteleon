@@ -1,24 +1,11 @@
 ---
-aliases:
-- Strong Opinions Loosely Held
-created: 2025-11-06 19:59:01+00:00
-modified: 2026-07-04 10:51:45+00:00
+aliases: [Strong Opinions Loosely Held]
+created: 2025-11-06T19:59:01+00:00
+modified: 2026-07-13T08:45:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/strong-opinions-loosely-held-balances-conviction-and-humility
-tags:
-- confidence
-- decision-making
-- humility
-- mental-model
+tags: [confidence, decision-making, humility, mental-model]
 title: Strong Opinions, Loosely Held Balances Conviction and Humility
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: '2025-11-06'
 ---
-
 
 ## 'Strong Opinions, Loosely Held' Balances Conviction and Humility
 

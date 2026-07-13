@@ -1,24 +1,11 @@
 ---
-aliases:
-- Concept Mapping
-created: 2025-11-10 16:11:00+00:00
-modified: 2026-07-10 23:27:00+01:00
+aliases: [Concept Mapping]
+created: 2025-11-10T16:11:00+00:00
+modified: 2026-07-13T08:44:54+00:00
 permalink: llmeon/30-library/100-zettelkasten/concept-mapping-is-a-technique-for-visually-organizing-knowledge
-tags:
-- concept-mapping
-- learning
-- understanding
-- visualization
+tags: [concept-mapping, learning, understanding, visualization]
 title: Concept Mapping is a Technique for Visually Organizing Knowledge
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: ''
 ---
-
 
 ## Concept Mapping is a Technique for Visually Organizing Knowledge
 

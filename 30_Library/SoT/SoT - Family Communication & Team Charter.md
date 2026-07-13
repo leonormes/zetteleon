@@ -1,24 +1,11 @@
 ---
-aliases:
-- Intent vs Impact
-- Respect Agreement
-- The Team Charter
-created: 2026-01-07 00:00:00+00:00
-modified: 2026-07-04 10:51:00+00:00
+aliases: [Intent vs Impact, Respect Agreement, The Team Charter]
+created: 2026-01-07T00:00:00+00:00
+modified: 2026-07-13T08:45:12+00:00
 permalink: llmeon/30-library/so-t/so-t-family-communication-team-charter
-tags:
-- communication
-- conflict-resolution
-- family
-- relationship
+tags: [communication, conflict-resolution, family, relationship]
 title: SoT - Family Communication & Team Charter
-prodos:
-  kind: sot
-  lifecycle: stable
-  review:
-    last_reviewed: null
 ---
-
 
 ## SoT - Family Communication & Team Charter
 

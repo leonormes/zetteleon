@@ -1,18 +1,11 @@
 ---
 aliases: []
-created: 2025-08-14 00:00:00+00:00
-modified: 2026-07-04 10:50:49+00:00
+created: 2025-08-14T00:00:00+00:00
+modified: 2026-07-13T08:45:22+00:00
 permalink: llmeon/30-library/so-t/so-t-the-data-architecture-of-tls-1.3
-tags:
-- SoftwareEngineering/Security
+tags: [SoftwareEngineering/Security]
 title: SoT - The Data Architecture of TLS 1.3
-prodos:
-  kind: sot
-  lifecycle: stable
-  review:
-    last_reviewed: 2025-12-22
 ---
-
 
 > From a data-centric perspective, it is a distributed state machine driven by a Hierarchical Key Schedule. It deconstructs the security problem into two phases: "the negotiation of a shared secret (Handshake) and the recursive framing of payloads within authenticated encryption envelopes (Record Layer)."
 

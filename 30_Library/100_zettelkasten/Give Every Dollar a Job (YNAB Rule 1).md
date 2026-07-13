@@ -1,27 +1,11 @@
 ---
-aliases:
-- Give Every Pound a Job
-- Intentional Allocation
-- Proactive Budgeting
-- Zero-Based Budgeting
-created: 2025-11-18 14:32:00+00:00
-modified: 2026-07-04 10:51:50+00:00
+aliases: [Give Every Pound a Job, Intentional Allocation, Proactive Budgeting, Zero-Based Budgeting]
+created: 2025-11-18T14:32:00+00:00
+modified: 2026-07-13T08:44:56+00:00
 permalink: llmeon/30-library/100-zettelkasten/give-every-dollar-a-job-ynab-rule-1
-tags:
-- budgeting
-- finance
-- psychology
-- ynab
+tags: [budgeting, finance, psychology, ynab]
 title: Give Every Dollar a Job (YNAB Rule 1)
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: stable
-  review:
-    last_reviewed: 2025-12-24
 ---
-
 
 The foundational principle of the YNAB method is to "Give Every Dollar (or Pound) a Job." This practice operationalises Zero-Based Budgeting (ZBB) by proactively assigning every unit of currency currently possessed to a specific category until the "Ready to Assign" balance reaches zero.
 

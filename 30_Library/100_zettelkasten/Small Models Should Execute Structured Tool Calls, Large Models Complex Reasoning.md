@@ -1,17 +1,10 @@
 ---
-created: 2026-04-10 13:00:00+00:00
-modified: 2026-07-04 10:51:45+00:00
+created: 2026-04-10T13:00:00+00:00
+modified: 2026-07-13T08:44:59+00:00
 permalink: llmeon/30-library/100-zettelkasten/small-models-should-execute-structured-tool-calls-large-models-complex-reasoning
-tags:
-- cost-optimization
-- local-models
-- performance
-- semantic-routing
+tags: [cost-optimization, local-models, performance, semantic-routing]
 title: Small Models Should Execute Structured Tool Calls, Large Models Complex Reasoning
-prodos:
-  kind: atomic
 ---
-
 
 ## Small Models Should Execute Structured Tool Calls, Large Models Complex Reasoning
 

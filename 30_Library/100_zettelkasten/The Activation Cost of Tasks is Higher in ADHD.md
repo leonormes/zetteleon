@@ -3,7 +3,7 @@ aliases: []
 created: 2025-10-30T11:08:48+00:00
 last_reviewed: ''
 llm-action: redirect-created
-modified: 2026-07-04T10:51:45+00:00
+modified: 2026-07-13T08:45:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-activation-cost-of-tasks-is-higher-in-adhd
 status: superseded
 superseded-by: '[[SoT - Bridging the Intention-Action Gap]]'

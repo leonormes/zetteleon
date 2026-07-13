@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-07-10T10:12:15+00:00
 last_reviewed: ''
-modified: 2026-07-04T10:51:50+00:00
+modified: 2026-07-13T08:44:56+00:00
 permalink: llmeon/30-library/100-zettelkasten/heart-friendship-skills-your-kind-heart
 status: ''
 tags: []

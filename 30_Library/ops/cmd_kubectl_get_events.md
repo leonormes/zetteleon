@@ -1,21 +1,14 @@
 ---
-created: 2026-02-21 15:05:07+00:00
+created: 2026-02-21T15:05:07+00:00
 hop_level: local
-modified: 2026-07-04 10:50:41+00:00
+modified: 2026-07-13T08:45:29+00:00
 permalink: llmeon/30-library/ops/cmd-kubectl-get-events
 requires_tunnel: true
-tags:
-- atomic
-- events
-- kubectl
-- triage
+tags: [atomic, events, kubectl, triage]
 target_service: k8s
 title: cmd_kubectl_get_events
 tool: kubectl
-prodos:
-  kind: ops
 ---
-
 
 ## Get Namespace Events
 

@@ -2,7 +2,7 @@
 created: 2026-04-13T14:41:15+00:00
 created_utc: 2026-04-13 11:20:00+00:00
 kind: mechanism
-modified: 2026-07-04T10:51:50+00:00
+modified: 2026-07-13T08:44:56+00:00
 permalink: llmeon/30-library/100-zettelkasten/graph-based-orchestration
 source_title: AI Agent Architecture and the Modern Tech Stack
 source_url: https://gemini.google.com/app/509937047bd0b955

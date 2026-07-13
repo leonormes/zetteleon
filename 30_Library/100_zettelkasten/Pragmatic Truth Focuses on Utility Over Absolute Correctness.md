@@ -1,24 +1,11 @@
 ---
 aliases: []
-created: 2025-11-01 09:51:13+00:00
-modified: 2026-07-04 10:51:47+00:00
+created: 2025-11-01T09:51:13+00:00
+modified: 2026-07-13T08:44:58+00:00
 permalink: llmeon/30-library/100-zettelkasten/pragmatic-truth-focuses-on-utility-over-absolute-correctness
-tags:
-- epistemology
-- mental-model
-- pragmatism
-- topic/philosophy
-- utility
+tags: [epistemology, mental-model, pragmatism, topic/philosophy, utility]
 title: Pragmatic Truth Focuses on Utility Over Absolute Correctness
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: 'null'
 ---
-
 
 ## Pragmatic Truth Focuses on Utility Over Absolute Correctness
 

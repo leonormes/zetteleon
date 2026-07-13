@@ -1,24 +1,11 @@
 ---
-aliases:
-- Comfort of Motion
-created: 2025-11-01 20:31:00+00:00
-modified: 2026-07-04 10:51:45+00:00
+aliases: [Comfort of Motion]
+created: 2025-11-01T20:31:00+00:00
+modified: 2026-07-13T08:45:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-comfort-of-motion-hinders-genuine-action
-tags:
-- comfort-zone
-- procrastination
-- TheHuman/Psychology
-- topic/productivity
+tags: [comfort-zone, procrastination, TheHuman/Psychology, topic/productivity]
 title: The Comfort of Motion Hinders Genuine Action
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: evergreen
-  review:
-    last_reviewed: '2025-11-01'
 ---
-
 
 Motion provides a sense of accomplishment without requiring the discomfort of genuine action. It allows individuals to feel productive while staying within their comfort zone.
 

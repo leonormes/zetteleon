@@ -1,26 +1,11 @@
 ---
-aliases:
-- Host-based Routing
-- Networking Indirection
-- Path-based Routing
-- The Packet Journey
-created: 2025-03-14 13:38:49+00:00
-modified: 2026-07-04 10:50:49+00:00
+aliases: [Host-based Routing, Networking Indirection, Path-based Routing, The Packet Journey]
+created: 2025-03-14T13:38:49+00:00
+modified: 2026-07-13T08:45:22+00:00
 permalink: llmeon/30-library/so-t/so-t-the-data-centric-theory-of-networking
-tags:
-- data-centric
-- routing
-- SoftwareEngineering/Architecture
-- SoftwareEngineering/Networking
-- topic/technology
+tags: [data-centric, routing, SoftwareEngineering/Architecture, SoftwareEngineering/Networking, topic/technology]
 title: SoT - The Data-Centric Theory of Networking
-prodos:
-  kind: sot
-  lifecycle: stable
-  review:
-    last_reviewed: '2026-04-04'
 ---
-
 
 ## 1. Definitive Statement
 

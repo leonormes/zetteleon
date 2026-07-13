@@ -1,7 +1,7 @@
 ---
 aliases: [Azure Jumpbox Preflight Check, Customer One-Pager, run_me_first.sh Guide]
 created: 2025-12-09T11:21:13+00:00
-modified: 2026-07-04T10:51:07+00:00
+modified: 2026-07-13T08:45:07+00:00
 permalink: llmeon/30-library/so-t/protocol-azure-jumpbox-preflight
 Reviewed: true
 status: evergreen

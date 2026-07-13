@@ -1,22 +1,11 @@
 ---
 aliases: []
-created: 2025-08-30 09:00:44+00:00
-modified: 2026-07-04 10:51:46+00:00
+created: 2025-08-30T09:00:44+00:00
+modified: 2026-07-13T08:44:59+00:00
 permalink: llmeon/30-library/100-zettelkasten/set-theory-requires-distinct-objects
-tags:
-- foundations
-- set-theory
-- topic/maths
+tags: [foundations, set-theory, topic/maths]
 title: Set Theory Requires Distinct Objects
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: '2025-11-01T00:00:00.000Z'
 ---
-
 
 The idea that distinction is necessary for numbers is not just philosophical; it is embedded in the formal foundations of modern mathematics.
 

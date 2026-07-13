@@ -1,26 +1,11 @@
 ---
-aliases:
-- Kolb's Cycle
-- Active Learning Pedagogy
-- Experiential Learning
-- Inquiry-Based Learning
-created: 2026-01-02 15:10:00+00:00
-modified: 2026-07-04 10:51:00+00:00
+aliases: ["Kolb's Cycle", Active Learning Pedagogy, Experiential Learning, Inquiry-Based Learning]
+created: 2026-01-02T15:10:00+00:00
+modified: 2026-07-13T08:45:12+00:00
 permalink: llmeon/30-library/so-t/so-t-experiential-learning-education
-tags:
-- active-learning
-- education
-- kolb
-- learning
-- pedagogy
+tags: [active-learning, education, kolb, learning, pedagogy]
 title: SoT - Experiential Learning & Education
-prodos:
-  kind: sot
-  lifecycle: stable
-  review:
-    last_reviewed: '2026-01-02'
 ---
-
 
 ## 1. Core Pedagogical Principle
 

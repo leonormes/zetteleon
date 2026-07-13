@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-05-16T13:37:49+00:00
 last_reviewed: ''
-modified: 2026-07-04T10:51:43+00:00
+modified: 2026-07-13T08:45:01+00:00
 permalink: llmeon/30-library/100-zettelkasten/youve-captured-the-impulse-and-thats-often-enough
 status: ''
 tags: [TheHuman/Health/ADHD]

@@ -2,8 +2,7 @@
 type: atom
 status: seed
 kind: claim
-source_title: 'Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture:
-  An Investigative Report'
+source_title: 'Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture: An Investigative Report'
 source_url: ''
 created_utc: '2026-07-13T08:17:00Z'
 confidence: high

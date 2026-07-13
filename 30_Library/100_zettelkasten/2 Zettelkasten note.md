@@ -1,12 +1,9 @@
 ---
-created: 2026-05-04 08:01:26+00:00
-modified: 2026-07-10 11:17:58+00:00
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-07-13T08:44:52+00:00
 permalink: llmeon/30-library/100-zettelkasten/2-zettelkasten-note
 title: 2 Zettelkasten note
-prodos:
-  kind: atomic
 ---
-
 
 ## Components of a Zettel
 

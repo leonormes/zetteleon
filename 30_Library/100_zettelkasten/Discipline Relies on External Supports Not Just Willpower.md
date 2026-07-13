@@ -1,25 +1,11 @@
 ---
-aliases:
-- Discipline vs Willpower
-created: 2025-11-10 13:03:00+00:00
-modified: 2026-07-04 10:51:52+00:00
+aliases: [Discipline vs Willpower]
+created: 2025-11-10T13:03:00+00:00
+modified: 2026-07-13T08:44:55+00:00
 permalink: llmeon/30-library/100-zettelkasten/discipline-relies-on-external-supports-not-just-willpower
-tags:
-- accountability
-- discipline
-- environment
-- topic/productivity
-- willpower
+tags: [accountability, discipline, environment, topic/productivity, willpower]
 title: Discipline Relies on External Supports Not Just Willpower
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: ''
 ---
-
 
 ## Discipline Relies on External Supports Not Just Willpower
 

@@ -1,21 +1,14 @@
 ---
-created: 2026-02-19 13:15:17+00:00
+created: 2026-02-19T13:15:17+00:00
 hop_level: local
-modified: 2026-07-04 10:50:43+00:00
+modified: 2026-07-13T08:45:27+00:00
 permalink: llmeon/30-library/ops/cmd-net-swaks-smtp
 requires_tunnel: false
-tags:
-- atomic
-- mail
-- network
-- smtp
+tags: [atomic, mail, network, smtp]
 target_service: mail
 title: cmd-net-swaks-smtp
 tool: swaks
-prodos:
-  kind: ops
 ---
-
 
 ## Test SMTP Delivery (Swaks)
 

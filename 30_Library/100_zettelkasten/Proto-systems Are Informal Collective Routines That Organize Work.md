@@ -1,25 +1,11 @@
 ---
-aliases:
-- Proto-systems
-created: 2025-11-10 13:05:00+00:00
-modified: 2026-07-04 10:51:47+00:00
+aliases: [Proto-systems]
+created: 2025-11-10T13:05:00+00:00
+modified: 2026-07-13T08:44:58+00:00
 permalink: llmeon/30-library/100-zettelkasten/proto-systems-are-informal-collective-routines-that-organize-work
-tags:
-- culture
-- history
-- sociology
-- topic/productivity
-- topic/systems
+tags: [culture, history, sociology, topic/productivity, topic/systems]
 title: Proto-systems Are Informal Collective Routines That Organize Work
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: ''
 ---
-
 
 ## Proto-systems Are Informal Collective Routines That Organize Work
 

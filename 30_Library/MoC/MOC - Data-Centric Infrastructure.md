@@ -1,24 +1,11 @@
 ---
-aliases:
-- Data Structures in Infrastructure
-- Data-Centric View
-- Infrastructure as Data
-created: 2025-12-25 12:10:00+00:00
-modified: 2026-07-04 10:51:11+00:00
+aliases: [Data Structures in Infrastructure, Data-Centric View, Infrastructure as Data]
+created: 2025-12-25T12:10:00+00:00
+modified: 2026-07-13T08:45:04+00:00
 permalink: llmeon/30-library/mo-c/moc-data-centric-infrastructure
-tags:
-- data_structures
-- infrastructure
-- mental_models
-- type/moc
+tags: [data_structures, infrastructure, mental_models, type/moc]
 title: MOC - Data-Centric Infrastructure
-prodos:
-  kind: moc
-  lifecycle: stable
-  review:
-    last_reviewed: 2025-12-25
 ---
-
 
 ## 1. The Core Thesis
 

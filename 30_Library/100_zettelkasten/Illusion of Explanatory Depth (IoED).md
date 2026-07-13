@@ -1,12 +1,9 @@
 ---
-created: 2026-05-04 08:01:26+00:00
-modified: 2026-07-04 10:51:50+00:00
+created: 2026-05-04T08:01:26+00:00
+modified: 2026-07-13T08:44:56+00:00
 permalink: llmeon/30-library/100-zettelkasten/illusion-of-explanatory-depth-io-ed
 title: Illusion of Explanatory Depth (IoED)
-prodos:
-  kind: atomic
 ---
-
 
 ## Illusion of Explanatory Depth (IoED)
 

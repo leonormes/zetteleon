@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-02-07T12:57:52+00:00
 last_reviewed: ''
-modified: 2026-07-04T10:51:28+00:00
+modified: 2026-07-13T08:44:43+00:00
 permalink: llmeon/30-library/200-projects/merged-tdd-absolutism
 project_category: development
 project_name: TDD

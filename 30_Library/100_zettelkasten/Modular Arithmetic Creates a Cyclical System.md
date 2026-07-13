@@ -1,24 +1,11 @@
 ---
-aliases:
-- Clock Arithmetic
-- Modular Math
-- Modulo
-created: 2025-12-24 12:00:00+00:00
-modified: 2026-07-04 10:51:49+00:00
+aliases: [Clock Arithmetic, Modular Math, Modulo]
+created: 2025-12-24T12:00:00+00:00
+modified: 2026-07-13T08:44:57+00:00
 permalink: llmeon/30-library/100-zettelkasten/modular-arithmetic-creates-a-cyclical-system
-tags:
-- cryptography
-- maths
+tags: [cryptography, maths]
 title: Modular Arithmetic Creates a Cyclical System
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: stable
-  review:
-    last_reviewed: 2025-12-24
 ---
-
 
 Modular Arithmetic (often called "Clock Arithmetic") is the mathematical foundation of modern cryptography. It defines a system where numbers "wrap around" after reaching a certain value called the Modulus.
 

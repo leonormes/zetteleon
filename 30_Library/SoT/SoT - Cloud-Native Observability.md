@@ -1,24 +1,11 @@
 ---
-aliases:
-- K8s Observability
-- Logging and Tracing
-- Monitoring Strategy
-created: 2026-01-08 12:05:00+00:00
-modified: 2026-07-04 10:51:03+00:00
+aliases: [K8s Observability, Logging and Tracing, Monitoring Strategy]
+created: 2026-01-08T12:05:00+00:00
+modified: 2026-07-13T08:45:10+00:00
 permalink: llmeon/30-library/so-t/so-t-cloud-native-observability
-tags:
-- devops
-- kubernetes
-- monitoring
-- observability
+tags: [devops, kubernetes, monitoring, observability]
 title: SoT - Cloud-Native Observability
-prodos:
-  kind: sot
-  lifecycle: stable
-  review:
-    last_reviewed: '2026-01-08'
 ---
-
 
 ## 1. The Necessity of Observability
 

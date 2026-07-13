@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-26T17:19:00+00:00
 last_reviewed: 'null'
-modified: 2026-07-04T10:51:28+00:00
+modified: 2026-07-13T08:44:43+00:00
 permalink: llmeon/30-library/200-projects/kubernetes-provides-node-port-and-load-balancer-for-external-service-access
 project_category: infrastructure
 project_name: k8s

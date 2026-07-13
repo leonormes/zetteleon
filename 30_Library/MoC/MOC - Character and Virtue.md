@@ -1,25 +1,11 @@
 ---
-aliases:
-- 24 Character Strengths
-- Character and Virtue MOC
-- Map of Content on Character
-- VIA Character Strengths
-created: 2025-07-16 17:30:02+00:00
-modified: 2026-07-04 10:51:11+00:00
+aliases: [24 Character Strengths, Character and Virtue MOC, Map of Content on Character, VIA Character Strengths]
+created: 2025-07-16T17:30:02+00:00
+modified: 2026-07-13T08:45:03+00:00
 permalink: llmeon/30-library/mo-c/moc-character-and-virtue
-tags:
-- character
-- ethics
-- TheHuman/Psychology
-- virtue
+tags: [character, ethics, TheHuman/Psychology, virtue]
 title: MOC - Character and Virtue
-prodos:
-  kind: moc
-  lifecycle: evergreen
-  review:
-    last_reviewed: 2025-11-02
 ---
-
 
 This Map of Content (MOC) organizes notes related to chara[[MOC - Character and Virtue|VIA Character Strengths]]oncept of a Character Ideal]]
 

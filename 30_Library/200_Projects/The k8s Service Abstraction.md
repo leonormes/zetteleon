@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-03-02T12:09:10+00:00
 last_reviewed: ''
-modified: 2026-07-04T10:51:24+00:00
+modified: 2026-07-13T08:44:46+00:00
 permalink: llmeon/30-library/200-projects/the-k8s-service-abstraction
 project_category: infrastructure
 project_name: k8s

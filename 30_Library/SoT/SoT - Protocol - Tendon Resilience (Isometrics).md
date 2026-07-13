@@ -1,25 +1,12 @@
 ---
-alias:
-- Connective Tissue Resilience
-- Isometric Tendon Protocol
-- Tendon Strengthening
+alias: [Connective Tissue Resilience, Isometric Tendon Protocol, Tendon Strengthening]
 aliases: []
-created: 2025-12-26 00:00:00+00:00
-modified: 2026-07-04 10:50:51+00:00
+created: 2025-12-26T00:00:00+00:00
+modified: 2026-07-13T08:45:20+00:00
 permalink: llmeon/30-library/so-t/so-t-protocol-tendon-resilience-isometrics
-tags:
-- action
-- health
-- protocol
-- tendons
+tags: [action, health, protocol, tendons]
 title: SoT - Protocol - Tendon Resilience (Isometrics)
-prodos:
-  kind: sot
-  lifecycle: stable
-  review:
-    last_reviewed: '2025-12-26'
 ---
-
 
 > Concept: Tendons adapt more slowly than muscles. They require Time Under Tension (TUT) and end-range loading to trigger collagen remodeling.
 > Frequency: 3x per week (Mandatory Rest Days for collagen synthesis).

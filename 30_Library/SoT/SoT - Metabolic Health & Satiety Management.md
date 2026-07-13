@@ -1,26 +1,11 @@
 ---
-aliases:
-- Metabolic Health
-- Post-Mounjaro Maintenance
-- Protein Leverage
-- Satiety Management
-created: 2025-12-26 16:00:00+00:00
-modified: 2026-07-04 10:50:55+00:00
+aliases: [Metabolic Health, Post-Mounjaro Maintenance, Protein Leverage, Satiety Management]
+created: 2025-12-26T16:00:00+00:00
+modified: 2026-07-13T08:45:17+00:00
 permalink: llmeon/30-library/so-t/so-t-metabolic-health-satiety-management
-tags:
-- health
-- metabolism
-- mounjaro
-- nutrition
-- satiety
+tags: [health, metabolism, mounjaro, nutrition, satiety]
 title: SoT - Metabolic Health & Satiety Management
-prodos:
-  kind: sot
-  lifecycle: stable
-  review:
-    last_reviewed: '2025-12-26'
 ---
-
 
 ## 1. Definitive Statement
 

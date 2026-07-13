@@ -1,25 +1,11 @@
 ---
-aliases:
-- Post-Crash Executive Function Problems
-- Trough Phase Executive Dysfunction
-created: 2025-11-01 11:37:53+00:00
-modified: 2026-07-04 10:51:51+00:00
+aliases: [Post-Crash Executive Function Problems, Trough Phase Executive Dysfunction]
+created: 2025-11-01T11:37:53+00:00
+modified: 2026-07-13T08:44:55+00:00
 permalink: llmeon/30-library/100-zettelkasten/executive-function-impairment-during-adhd-trough-phase
-tags:
-- brain-fog
-- executive-function
-- TheHuman/Cognition
-- TheHuman/Health/ADHD
+tags: [brain-fog, executive-function, TheHuman/Cognition, TheHuman/Health/ADHD]
 title: Executive Function Impairment During ADHD Trough Phase
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: '2025-11-01'
 ---
-
 
 Summary: During the trough phase following hyperfixation, executive functions—which are already challenging for people with ADHD—become particularly impaired, making it extremely difficult to initiate tasks, plan, organize, or regulate emotions.
 

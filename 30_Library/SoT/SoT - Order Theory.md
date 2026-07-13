@@ -1,23 +1,12 @@
 ---
-created: 2026-02-02 09:54:00+00:00
+created: 2026-02-02T09:54:00+00:00
 last-synthesis: 2026-02-02
-modified: 2026-07-04 10:50:53+00:00
+modified: 2026-07-13T08:45:18+00:00
 permalink: llmeon/30-library/so-t/so-t-order-theory
 source_of_truth: true
-tags:
-- domain/theory
-- tool/cue
-- topic/configuration-management
-- type/SoT
+tags: [domain/theory, tool/cue, topic/configuration-management, type/SoT]
 title: SoT - Order Theory
-prodos:
-  kind: sot
-  lifecycle: evergreen
-  trust: stable
-  chronos:
-    synthesis_count: 1
 ---
-
 
 ## Minimum Viable Understanding (MVU)
 

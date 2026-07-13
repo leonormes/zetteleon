@@ -1,21 +1,11 @@
 ---
-aliases:
-- GIC MOC
-created: 2025-01-15 10:10:00+00:00
-modified: 2026-07-04 10:51:10+00:00
+aliases: [GIC MOC]
+created: 2025-01-15T10:10:00+00:00
+modified: 2026-07-13T08:45:04+00:00
 permalink: llmeon/30-library/mo-c/moc-generative-infrastructure-configuration
-tags:
-- automation
-- configuration
-- infrastructure
+tags: [automation, configuration, infrastructure]
 title: MOC - Generative Infrastructure Configuration
-prodos:
-  kind: moc
-  lifecycle: active
-  review:
-    last_reviewed: '2025-01-15T00:00:00.000Z'
 ---
-
 
 ## Generative Infrastructure Configuration MOC
 

@@ -2,7 +2,7 @@
 created: 2026-04-14T20:31:52+00:00
 created_utc: '2026-04-14T13:40:00Z'
 kind: heuristic
-modified: 2026-07-04T10:51:52+00:00
+modified: 2026-07-13T08:44:54+00:00
 permalink: llmeon/30-library/100-zettelkasten/desirable-difficulty-in-skill-acquisition
 source_title: Deconstructing the interview with Jeremy Howard
 source_url: https://gemini.google.com/app/fa3a7e9a4a69844c

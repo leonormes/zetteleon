@@ -1,19 +1,11 @@
 ---
 aliases: []
-created: 2025-11-22 15:05:03+00:00
-modified: 2026-07-04 10:51:10+00:00
+created: 2025-11-22T15:05:03+00:00
+modified: 2026-07-13T08:45:06+00:00
 permalink: llmeon/30-library/mo-c/moc-refactoring-subnet-definitions-for-readability
-tags:
-- SoftwareEngineering/Networking
-- terraform
+tags: [SoftwareEngineering/Networking, terraform]
 title: MOC - Refactoring Subnet Definitions for Readability
-prodos:
-  kind: moc
-  lifecycle: seedling
-  review:
-    last_reviewed: '2025-11-22'
 ---
-
 
 Summary: This note details a refactoring of Terraform subnet definitions, moving from opaque, direct indexing to a clearer, hierarchical approach.
 

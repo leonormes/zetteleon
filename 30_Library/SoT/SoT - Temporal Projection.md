@@ -1,21 +1,11 @@
 ---
-aliases:
-- Blast Radius
-- Future-Proofing Metrics
-- Strategic Architectural Cost
-created: 2026-01-30 08:15:00+00:00
-modified: 2026-07-04 10:50:50+00:00
+aliases: [Blast Radius, Future-Proofing Metrics, Strategic Architectural Cost]
+created: 2026-01-30T08:15:00+00:00
+modified: 2026-07-13T08:45:21+00:00
 permalink: llmeon/30-library/so-t/so-t-temporal-projection
-tags:
-- code-quality
-- maintainability
-- metrics
-- software-architecture
+tags: [code-quality, maintainability, metrics, software-architecture]
 title: SoT - Temporal Projection
-prodos:
-  kind: sot
 ---
-
 
 ## Temporal Projection
 

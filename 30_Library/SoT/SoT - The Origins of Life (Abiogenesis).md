@@ -1,29 +1,12 @@
 ---
-aliases:
-- Abiogenesis
-- Chemical Evolution
-- LUCA
-- Protocells
-- RNA World
-created: 2026-02-03 11:00:00+00:00
-modified: 2026-07-04 10:50:48+00:00
+aliases: [Abiogenesis, Chemical Evolution, LUCA, Protocells, RNA World]
+created: 2026-02-03T11:00:00+00:00
+modified: 2026-07-13T08:45:22+00:00
 permalink: llmeon/30-library/so-t/so-t-the-origins-of-life-abiogenesis
 source_of_truth: true
-tags:
-- biology
-- evolution
-- prodos/sot
-- science
+tags: [biology, evolution, prodos/sot, science]
 title: SoT - The Origins of Life (Abiogenesis)
-prodos:
-  kind: sot
-  lifecycle: evergreen
-  trust: stable
-  chronos:
-    last_synthesis: 2026-02-03
-    synthesis_count: 1
 ---
-
 
 ## Minimum Viable Understanding (MVU)
 

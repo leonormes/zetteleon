@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-05-26T20:23:10+00:00
 last_reviewed: ''
-modified: 2026-07-04T10:51:51+00:00
+modified: 2026-07-13T08:44:55+00:00
 permalink: llmeon/30-library/100-zettelkasten/foundations-of-learning-and-cognition-for-developers
 status: ''
 tags: []

@@ -1,22 +1,11 @@
 ---
 aliases: []
-created: 2025-11-10 16:02:00+00:00
-modified: 2026-07-04 10:51:48+00:00
+created: 2025-11-10T16:02:00+00:00
+modified: 2026-07-13T08:44:58+00:00
 permalink: llmeon/30-library/100-zettelkasten/passive-study-habits-foster-the-illusion-of-fluency
-tags:
-- learning
-- TheHuman/Cognition/bias
-- TheHuman/Habits
+tags: [learning, TheHuman/Cognition/bias, TheHuman/Habits]
 title: Passive Study Habits Foster the Illusion of Fluency
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: ''
 ---
-
 
 Summary: Common passive study habits, such as rereading texts and highlighting key passages, inadvertently foster the "Illusion of Fluency."
 

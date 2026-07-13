@@ -1,6 +1,6 @@
 ---
 created: 2026-04-17T06:56:43+00:00
-modified: 2026-07-04T10:51:36+00:00
+modified: 2026-07-13T08:44:37+00:00
 permalink: llmeon/30-library/200-projects/expanded-analysis-omop-synthetic-data-generation-project
 project_category: omop
 project_name: OMOP

@@ -1,23 +1,11 @@
 ---
-aliases:
-- Cyberpunk Philosophy
-- High-Tech Dystopia
-created: 2025-12-30 00:00:00+00:00
-modified: 2026-07-04 10:51:02+00:00
+aliases: [Cyberpunk Philosophy, High-Tech Dystopia]
+created: 2025-12-30T00:00:00+00:00
+modified: 2026-07-13T08:45:11+00:00
 permalink: llmeon/30-library/so-t/so-t-cyberpunk-philosophy
-tags:
-- capitalism
-- sociology
-- TheHuman/Philosophy
-- transhumanism
+tags: [capitalism, sociology, TheHuman/Philosophy, transhumanism]
 title: SoT - Cyberpunk Philosophy
-prodos:
-  kind: sot
-  lifecycle: stable
-  review:
-    last_reviewed: '2025-12-30'
 ---
-
 
 ## 1. Socio-Economic Critique: Hyper-Neoliberalism
 

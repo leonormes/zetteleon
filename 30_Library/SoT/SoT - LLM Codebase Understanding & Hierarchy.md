@@ -1,25 +1,12 @@
 ---
-created: 2026-02-06 09:00:00+00:00
+created: 2026-02-06T09:00:00+00:00
 last-synthesis: 2026-02-06
-modified: 2026-07-04 10:50:55+00:00
+modified: 2026-07-13T08:45:17+00:00
 permalink: llmeon/30-library/so-t/so-t-llm-codebase-understanding-hierarchy
 source_of_truth: true
-tags:
-- concept/code-analysis
-- concept/code-representation
-- concept/context-management
-- domain/llm-architecture
-- llm
-- type/SoT
+tags: [concept/code-analysis, concept/code-representation, concept/context-management, domain/llm-architecture, llm, type/SoT]
 title: SoT - LLM Codebase Understanding & Hierarchy
-prodos:
-  kind: sot
-  lifecycle: evergreen
-  trust: stable
-  chronos:
-    synthesis_count: 1
 ---
-
 
 ## Minimum Viable Understanding (MVU)
 

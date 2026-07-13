@@ -3,7 +3,7 @@ aliases: []
 created: 2025-02-07T12:57:54+00:00
 ID: knowledge_applicability
 last_reviewed: 'null'
-modified: 2026-07-04T10:51:50+00:00
+modified: 2026-07-13T08:44:57+00:00
 permalink: llmeon/30-library/100-zettelkasten/knowledge-applicability-of-blub-studies
 status: 'null'
 tags: [topic/learning]

@@ -1,21 +1,11 @@
 ---
 aliases: []
-created: 2025-10-31 12:16:00+00:00
-modified: 2026-07-04 10:51:45+00:00
+created: 2025-10-31T12:16:00+00:00
+modified: 2026-07-13T08:44:59+00:00
 permalink: llmeon/30-library/100-zettelkasten/societal-stigma-of-adhd-motivation
-tags:
-- society
-- TheHuman/Health/ADHD
+tags: [society, TheHuman/Health/ADHD]
 title: Societal Stigma of ADHD Motivation
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: ''
 ---
-
 
 ## Societal Stigma of ADHD Motivation
 

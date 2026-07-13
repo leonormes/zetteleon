@@ -1,26 +1,11 @@
 ---
-aliases:
-- Monomorphization
-- Rust ADTs
-- Rust Generics
-- Rust Traits
-- Rust Type System
-created: 2025-12-27 20:28:33+00:00
-modified: 2026-07-04 10:50:51+00:00
+aliases: [Monomorphization, Rust ADTs, Rust Generics, Rust Traits, Rust Type System]
+created: 2025-12-27T20:28:33+00:00
+modified: 2026-07-13T08:45:20+00:00
 permalink: llmeon/30-library/so-t/so-t-rust-type-mechanics
-tags:
-- compilers
-- rust
-- SoftwareEngineering/Architecture
-- type-system
+tags: [compilers, rust, SoftwareEngineering/Architecture, type-system]
 title: SoT - Rust Type Mechanics
-prodos:
-  kind: sot
-  lifecycle: stable
-  review:
-    last_reviewed: '2025-12-30'
 ---
-
 
 ## 1. Definitive Statement
 

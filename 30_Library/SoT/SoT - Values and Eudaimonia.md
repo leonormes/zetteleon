@@ -1,26 +1,12 @@
 ---
-aliases:
-- Eudaimonia
-- The Psychology of Duty
-- Values-Based Living
-created: 2025-12-14 00:00:00+00:00
-modified: 2026-07-04 10:50:47+00:00
+aliases: [Eudaimonia, The Psychology of Duty, Values-Based Living]
+created: 2025-12-14T00:00:00+00:00
+modified: 2026-07-13T08:45:23+00:00
 permalink: llmeon/30-library/so-t/so-t-values-and-eudaimonia
-tags:
-- eudaimonia
-- TheHuman/Health/ADHD
-- TheHuman/Philosophy
-- TheHuman/Psychology
-- values
+tags: [eudaimonia, TheHuman/Health/ADHD, TheHuman/Philosophy, TheHuman/Psychology, values]
 tier: 1-Foundation
 title: SoT - Values and Eudaimonia
-prodos:
-  kind: sot
-  lifecycle: stable
-  review:
-    last_reviewed: '2025-12-14'
 ---
-
 
 > Eudaimonia (human flourishing) is the distinct form of well-being that arises from acting in alignment with deeply held values and meaningful duties, rather than the pursuit of momentary pleasure (Hedonia).
 

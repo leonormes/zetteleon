@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-05-26T14:09:19+00:00
 last_reviewed: ''
-modified: 2026-07-04T10:51:48+00:00
+modified: 2026-07-13T08:44:58+00:00
 permalink: llmeon/30-library/100-zettelkasten/overwhelm
 status: ''
 tags: []

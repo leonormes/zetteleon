@@ -1,24 +1,11 @@
 ---
-aliases:
-- 3-Switch Protocol
-- The 15-Second Reset
-- The Physiological Reset
-created: 2025-12-25 11:45:00+00:00
-modified: 2026-07-04 10:50:50+00:00
+aliases: [3-Switch Protocol, The 15-Second Reset, The Physiological Reset]
+created: 2025-12-25T11:45:00+00:00
+modified: 2026-07-13T08:45:21+00:00
 permalink: llmeon/30-library/so-t/so-t-the-3-switch-protocol-emotional-reset
-tags:
-- adhd
-- emotional_regulation
-- protocol
-- TheHuman/Neuroscience
+tags: [adhd, emotional_regulation, protocol, TheHuman/Neuroscience]
 title: SoT - The 3-Switch Protocol (Emotional Reset)
-prodos:
-  kind: sot
-  lifecycle: stable
-  review:
-    last_reviewed: 2025-12-25
 ---
-
 
 ## SoT - The 3-Switch Protocol (Emotional Reset)
 

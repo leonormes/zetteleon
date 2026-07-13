@@ -1,24 +1,11 @@
 ---
-aliases:
-- Systems Consolidation
-created: 2025-11-10 16:15:00+00:00
-modified: 2026-07-04 10:51:45+00:00
+aliases: [Systems Consolidation]
+created: 2025-11-10T16:15:00+00:00
+modified: 2026-07-13T08:45:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/systems-consolidation-is-the-gradual-reorganization-of-memory-in-the-brain
-tags:
-- hippocampus
-- memory
-- neocortex
-- TheHuman/Neuroscience
+tags: [hippocampus, memory, neocortex, TheHuman/Neuroscience]
 title: Systems Consolidation is the Gradual Reorganization of Memory in the Brain
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: ''
 ---
-
 
 ## Systems Consolidation is the Gradual Reorganization of Memory in the Brain
 

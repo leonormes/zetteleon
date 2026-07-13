@@ -1,27 +1,11 @@
 ---
-aliases:
-- FitFile Secrets Index
-- Secrets MoC
-- Vault Secrets Index
-- VSO Secrets Map
-created: 2026-03-14 12:00:00+00:00
-modified: 2026-07-04 10:51:08+00:00
+aliases: [FitFile Secrets Index, Secrets MoC, Vault Secrets Index, VSO Secrets Map]
+created: 2026-03-14T12:00:00+00:00
+modified: 2026-07-13T08:45:07+00:00
 permalink: llmeon/30-library/mo-c/mo-c-fit-file-secrets-management
-tags:
-- fitfile
-- moc
-- secrets
-- security
-- vault
-- vso
+tags: [fitfile, moc, secrets, security, vault, vso]
 title: MoC - FitFile Secrets Management
-prodos:
-  kind: moc
-  lifecycle: evergreen
-  review:
-    last_reviewed: 2026-03-14
 ---
-
 
 ## MoC - FitFile Secrets Management
 

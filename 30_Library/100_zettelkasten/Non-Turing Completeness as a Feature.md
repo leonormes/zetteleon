@@ -2,7 +2,7 @@
 created: 2026-04-14T20:11:52+00:00
 created_utc: '2026-04-14T12:40:00Z'
 kind: claim
-modified: 2026-07-04T10:51:48+00:00
+modified: 2026-07-13T08:44:58+00:00
 permalink: llmeon/30-library/100-zettelkasten/non-turing-completeness-as-a-feature
 source_title: CUE — A Type System for the Cloud
 source_url: https://www.youtube.com/watch?v=FsUytTpDNro

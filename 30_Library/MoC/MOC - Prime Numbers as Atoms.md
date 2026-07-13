@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-19T23:30:13+00:00
 last_reviewed: ''
-modified: 2026-07-04T10:51:10+00:00
+modified: 2026-07-13T08:45:05+00:00
 permalink: llmeon/30-library/mo-c/moc-prime-numbers-as-atoms
 status: ''
 tags: []

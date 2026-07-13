@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-24T14:25:58+00:00
 last_reviewed: 'null'
-modified: 2026-07-04T10:51:54+00:00
+modified: 2026-07-13T08:44:53+00:00
 permalink: llmeon/30-library/100-zettelkasten/aws-alb-best-practices
 status: 'null'
 tags: [aws, cost-optimization, load-balancing, SoftwareEngineering/networking/cloud-networking, SoftwareEngineering/Security]

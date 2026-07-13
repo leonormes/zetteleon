@@ -1,26 +1,11 @@
 ---
-aliases:
-- Carefulness
-- Foresight
-created: 2025-11-01 21:24:00+00:00
-modified: 2026-07-04 10:51:47+00:00
+aliases: [Carefulness, Foresight]
+created: 2025-11-01T21:24:00+00:00
+modified: 2026-07-13T08:44:58+00:00
 permalink: llmeon/30-library/100-zettelkasten/prudence-is-making-careful-choices-for-the-future
-tags:
-- character-strength
-- decision-making
-- prudence
-- virtue
-- wisdom
+tags: [character-strength, decision-making, prudence, virtue, wisdom]
 title: Prudence is Making Careful Choices for the Future
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: evergreen
-  review:
-    last_reviewed: '2025-11-01'
 ---
-
 
 Prudence is the virtue of making careful, considered choices with an eye toward the future.
 

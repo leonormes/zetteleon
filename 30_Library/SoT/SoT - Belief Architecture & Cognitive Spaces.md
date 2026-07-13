@@ -1,26 +1,11 @@
 ---
-aliases:
-- Belief Architecture
-- Cognitive Spaces
-- Limiting Beliefs SoT
-- Mindset Engineering
-created: 2025-12-16 00:00:00+00:00
-modified: 2026-07-04 10:51:03+00:00
+aliases: [Belief Architecture, Cognitive Spaces, Limiting Beliefs SoT, Mindset Engineering]
+created: 2025-12-16T00:00:00+00:00
+modified: 2026-07-13T08:45:10+00:00
 permalink: llmeon/30-library/so-t/so-t-belief-architecture-cognitive-spaces
-tags:
-- beliefs
-- cognition
-- mental_models
-- TheHuman/Mindset
-- TheHuman/Psychology
+tags: [beliefs, cognition, mental_models, TheHuman/Mindset, TheHuman/Psychology]
 title: SoT - Belief Architecture & Cognitive Spaces
-prodos:
-  kind: sot
-  lifecycle: stable
-  review:
-    last_reviewed: '2025-12-16'
 ---
-
 
 > A belief is not merely "true" or "false" in a vacuum; it is Limiting (shrinking the space) or Empowering (expanding the space). The ProdOS approach judges beliefs by their Utility: "_Does this belief expand my agency?_"
 

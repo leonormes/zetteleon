@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-07-19T08:10:19+00:00
 last_reviewed: 'null'
-modified: 2026-07-04T10:51:48+00:00
+modified: 2026-07-13T08:44:58+00:00
 permalink: llmeon/30-library/100-zettelkasten/open-source-knowledge
 status: 'null'
 tags: [topic/maths]

@@ -1,21 +1,14 @@
 ---
-created: 2026-02-21 15:05:08+00:00
+created: 2026-02-21T15:05:08+00:00
 hop_level: local
-modified: 2026-07-04 10:50:42+00:00
+modified: 2026-07-13T08:45:27+00:00
 permalink: llmeon/30-library/ops/cmd-argocd-rollback-app
 requires_tunnel: true
-tags:
-- argocd
-- atomic
-- recovery
-- rollback
+tags: [argocd, atomic, recovery, rollback]
 target_service: argocd
 title: cmd_argocd_rollback_app
 tool: argocd
-prodos:
-  kind: ops
 ---
-
 
 ## Rollback ArgoCD Application
 

@@ -2,7 +2,7 @@
 aliases: [Gemini MCP, MCP]
 created: 2025-12-21T00:00:00+00:00
 last_reviewed: '2025-12-21'
-modified: 2026-07-04T10:51:00+00:00
+modified: 2026-07-13T08:45:12+00:00
 permalink: llmeon/30-library/so-t/so-t-extending-gemini-cli-with-mcp
 status: evolving
 tags: [extensions, gemini-cli, mcp, SoftwareEngineering/Architecture, tools]

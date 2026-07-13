@@ -1,7 +1,7 @@
 ---
 created: 2026-04-14T20:19:45+00:00
 created_utc: '2026-04-14T12:50:00Z'
-modified: 2026-07-04T10:51:14+00:00
+modified: 2026-07-13T08:45:02+00:00
 permalink: llmeon/30-library/400-indexes/link-report-cue-type-system
 source_atoms: '[[tmp_atoms_cue_type_system.md]]'
 status: tmp

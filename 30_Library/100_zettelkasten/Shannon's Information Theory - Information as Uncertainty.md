@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-26T09:26:38+00:00
 last_reviewed: ''
-modified: 2026-07-04T10:51:45+00:00
+modified: 2026-07-13T08:44:59+00:00
 permalink: llmeon/30-library/100-zettelkasten/shannons-information-theory-information-as-uncertainty
 status: ''
 tags: [3, information]

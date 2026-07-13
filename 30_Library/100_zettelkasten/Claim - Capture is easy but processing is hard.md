@@ -1,6 +1,6 @@
 ---
 created: 2026-05-31T00:00:00+00:00
-modified: 2026-07-04T10:51:53+00:00
+modified: 2026-07-13T08:44:54+00:00
 permalink: llmeon/30-library/100-zettelkasten/claim-capture-is-easy-but-processing-is-hard
 position-date: 2026-05-31
 prerequisite_of: ["[[Claim - Over-capture plus deferred review is sustainable]]"]

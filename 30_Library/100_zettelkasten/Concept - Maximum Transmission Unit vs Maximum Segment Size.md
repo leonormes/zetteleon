@@ -1,21 +1,11 @@
 ---
-aliases:
-- MTU vs MSS
-created: 2025-11-22 15:00:05+00:00
-modified: 2026-07-04 10:51:53+00:00
+aliases: [MTU vs MSS]
+created: 2025-11-22T15:00:05+00:00
+modified: 2026-07-13T08:44:54+00:00
 permalink: llmeon/30-library/100-zettelkasten/concept-maximum-transmission-unit-vs-maximum-segment-size
-tags:
-- SoftwareEngineering/networking/protocol
+tags: [SoftwareEngineering/networking/protocol]
 title: Concept - Maximum Transmission Unit vs Maximum Segment Size
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: '2025-11-22'
 ---
-
 
 ## Maximum Transmission Unit Vs Maximum Segment Size
 

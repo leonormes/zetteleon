@@ -1,19 +1,11 @@
 ---
 aliases: []
-created: 2025-10-31 00:00:00+00:00
-modified: 2026-07-04 10:51:52+00:00
+created: 2025-10-31T00:00:00+00:00
+modified: 2026-07-13T08:44:55+00:00
 permalink: llmeon/30-library/100-zettelkasten/dopamine-reward-pathway-dysfunction-causes-adhd-task-initiation-difficulty
 tags: []
 title: Dopamine reward pathway dysfunction causes ADHD task initiation difficulty
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: '2025-10-31T00:00:00.000Z'
 ---
-
 
 ## Dopamine Reward Pathway Dysfunction Causes ADHD Task Initiation Difficulty
 

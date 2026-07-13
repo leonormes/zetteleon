@@ -1,21 +1,11 @@
 ---
 aliases: []
-created: 2025-08-12 07:56:06+00:00
-modified: 2026-07-04 10:51:08+00:00
+created: 2025-08-12T07:56:06+00:00
+modified: 2026-07-13T08:45:07+00:00
 permalink: llmeon/30-library/mo-c/the-emotional-cost-of-being-wrong-is-magnified-by-loss-aversion
-tags:
-- ego
-- epistemology
-- TheHuman/Cognition
-- topic/learning
+tags: [ego, epistemology, TheHuman/Cognition, topic/learning]
 title: The Emotional Cost of Being Wrong is Magnified by Loss Aversion
-prodos:
-  kind: moc
-  lifecycle: stable
-  review:
-    last_reviewed: '2026-04-06'
 ---
-
 
 Being proven wrong can be framed as an emotional or intellectual "loss," while being right is a "gain." Applying the principle of Loss Aversion to this domain, the pain of being wrong is approximately twice as potent as the pleasure of being right.
 

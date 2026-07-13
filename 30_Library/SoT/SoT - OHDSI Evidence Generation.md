@@ -2,7 +2,7 @@
 aliases: [OHDSI Analytics, Patient-Level Prediction, Population-Level Estimation]
 created: 2026-01-06T19:30:51+00:00
 last_reviewed: null
-modified: 2026-07-04T10:50:54+00:00
+modified: 2026-07-13T08:45:18+00:00
 permalink: llmeon/30-library/so-t/so-t-ohdsi-evidence-generation
 status: Active
 tags: [analytics, ohdsi, science, statistics]

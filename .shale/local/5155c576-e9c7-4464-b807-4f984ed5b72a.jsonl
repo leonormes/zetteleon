@@ -104,3 +104,5 @@
 {"kind":"intent","at":"2026-07-11T14:53:10.130651Z","title":"Execute Phase 3 frontmatter bulk migration in batches","body":"Process batches 1 to 3, commit each, validate, and report."}
 {"kind":"completion","at":"2026-07-11T14:56:50.393284Z","note":"Completed Phase 3 frontmatter migration. Batches 1-3 committed. Report generated."}
 {"kind":"intent","at":"2026-07-11T15:08:36.512996Z","title":"Phase 3 migration - exception sweep","body":"Map unhandled legacy status and type values to prodos spec using closest allowed enums, then commit changes."}
+{"kind":"intent","at":"2026-07-13T08:48:33.447367Z","title":"Fix malformed YAML frontmatter in Obsidian notes to allow linter parsing","body":"Obsidian linter is throwing YAMLParseError due to improperly wrapped long strings in frontmatter. Will identify the broken strings and reformat them correctly."}
+{"kind":"completion","at":"2026-07-13T08:51:01.481983Z","note":"Fixed 30 malformed YAML frontmatters by unwrapping strings that were improperly wrapped across lines"}

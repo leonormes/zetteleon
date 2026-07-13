@@ -1,24 +1,15 @@
 ---
-created: 2026-02-22 16:57:52+00:00
+created: 2026-02-22T16:57:52+00:00
 hop_level: local
 last_verified: 2026-02-22
-modified: 2026-07-04 10:50:41+00:00
+modified: 2026-07-13T08:45:28+00:00
 permalink: llmeon/30-library/ops/cmd-kubectl-argocd-logs-repo-server
 requires_tunnel: false
-tags:
-- argocd
-- auth
-- cmd
-- helm
-- logs
+tags: [argocd, auth, cmd, helm, logs]
 target_service: argocd
 title: cmd_kubectl_argocd_logs_repo_server
 tool: kubectl
-prodos:
-  kind: ops
-  lifecycle: active
 ---
-
 
 ## Stream ArgoCD Repo-Server Auth Logs
 

@@ -1,23 +1,11 @@
 ---
-aliases:
-- Pattern-Sniffing
-created: 2025-11-01 12:00:04+00:00
-modified: 2026-07-04 10:51:48+00:00
+aliases: [Pattern-Sniffing]
+created: 2025-11-01T12:00:04+00:00
+modified: 2026-07-13T08:44:58+00:00
 permalink: llmeon/30-library/100-zettelkasten/pattern-recognition-conferred-an-evolutionary-survival-advantage
-tags:
-- evolution
-- survival
-- TheHuman/Cognition
+tags: [evolution, survival, TheHuman/Cognition]
 title: Pattern Recognition Conferred an Evolutionary Survival Advantage
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: '2025-11-01'
 ---
-
 
 ## Pattern Recognition Conferred an Evolutionary Survival Advantage
 

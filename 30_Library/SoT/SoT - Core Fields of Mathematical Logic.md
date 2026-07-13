@@ -1,28 +1,12 @@
 ---
-aliases:
-- Model Theory
-- Proof Theory
-- Set Theory Basics
-- Subfields of Logic
-created: 2026-01-12 10:20:00+00:00
-modified: 2026-07-04 10:51:03+00:00
+aliases: [Model Theory, Proof Theory, Set Theory Basics, Subfields of Logic]
+created: 2026-01-12T10:20:00+00:00
+modified: 2026-07-13T08:45:10+00:00
 permalink: llmeon/30-library/so-t/so-t-core-fields-of-mathematical-logic
 source_of_truth: true
-tags:
-- foundation
-- math/logic
-- math/set-theory
-- prodos/sot
+tags: [foundation, math/logic, math/set-theory, prodos/sot]
 title: SoT - Core Fields of Mathematical Logic
-prodos:
-  kind: sot
-  lifecycle: evergreen
-  trust: stable
-  chronos:
-    last_synthesis: 2026-04-02
-    synthesis_count: 2
 ---
-
 
 ## Minimum Viable Understanding (MVU)
 

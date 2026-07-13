@@ -2,7 +2,7 @@
 created: 2026-04-14T17:43:17+00:00
 created_utc: '2026-04-14T12:20:00Z'
 kind: claim
-modified: 2026-07-04T10:51:47+00:00
+modified: 2026-07-13T08:44:58+00:00
 permalink: llmeon/30-library/100-zettelkasten/primacy-of-mathematical-abstraction
 source_title: The Fundamental Challenge of Concurrent and Distributed Systems
 source_url: http://www.youtube.com/watch?v=U719vQz-WFs

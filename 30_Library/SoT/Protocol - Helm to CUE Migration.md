@@ -1,7 +1,7 @@
 ---
 alias: [Configuration Migration Protocol, Helm to CUE Strategy, Shadow & Strangulate]
 created: 2026-02-05T00:00:00+00:00
-modified: 2026-07-04T10:51:07+00:00
+modified: 2026-07-13T08:45:08+00:00
 permalink: llmeon/30-library/so-t/protocol-helm-to-cue-migration
 status: stable
 tags: [cue, helm, migration, protocol, sot]

@@ -1,19 +1,13 @@
 ---
-created: 2026-02-21 15:07:24+00:00
-modified: 2026-07-04 10:50:41+00:00
+created: 2026-02-21T15:07:24+00:00
+modified: 2026-07-13T08:45:28+00:00
 permalink: llmeon/30-library/ops/cmd-kubectl-decode-secret-data
 risk: read-only
 service: k8s
-tags:
-- decode
-- kubectl
-- secrets
+tags: [decode, kubectl, secrets]
 title: cmd_kubectl_decode_secret_data
 tool: kubectl
-prodos:
-  kind: ops
 ---
-
 
 ## Decode Secret Data
 

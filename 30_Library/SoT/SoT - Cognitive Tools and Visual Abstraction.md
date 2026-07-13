@@ -1,7 +1,7 @@
 ---
 aliases: [Cognitive Tools, Depiction vs Explanation, Discovery-Engineering Loop, Visual Abstraction, Visual-Spatial Reasoning]
 created: 2026-01-09T21:57:29+00:00
-modified: 2026-07-04T10:51:03+00:00
+modified: 2026-07-13T08:45:10+00:00
 permalink: llmeon/30-library/so-t/so-t-cognitive-tools-and-visual-abstraction
 status: permanent
 tags: [cognition, design, education, mental-models, visualization]

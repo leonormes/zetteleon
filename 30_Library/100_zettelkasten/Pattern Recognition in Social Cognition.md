@@ -1,21 +1,11 @@
 ---
 aliases: []
-created: 2025-10-31 09:20:29+00:00
-modified: 2026-07-04 10:51:48+00:00
+created: 2025-10-31T09:20:29+00:00
+modified: 2026-07-13T08:44:58+00:00
 permalink: llmeon/30-library/100-zettelkasten/pattern-recognition-in-social-cognition
-tags:
-- topic/social-cognition
-- topic/social-perception
+tags: [topic/social-cognition, topic/social-perception]
 title: Pattern Recognition in Social Cognition
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: ''
 ---
-
 
 ## Pattern Recognition in Social Cognition
 

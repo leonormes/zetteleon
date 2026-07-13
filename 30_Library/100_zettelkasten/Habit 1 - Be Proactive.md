@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-20T09:01:00+00:00
 last_reviewed: ''
-modified: 2026-07-04T10:51:50+00:00
+modified: 2026-07-13T08:44:56+00:00
 permalink: llmeon/30-library/100-zettelkasten/habit-1-be-proactive
 status: ''
 tags: [principles, proactivity, responsibility, TheHuman/Habits]

@@ -1,17 +1,10 @@
 ---
-created: 2026-04-10 13:00:00+00:00
-modified: 2026-07-04 10:51:45+00:00
+created: 2026-04-10T13:00:00+00:00
+modified: 2026-07-13T08:45:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/students-rate-identical-feedback-higher-when-they-believe-it-comes-from-a-human
-tags:
-- education
-- feedback
-- human-ai-interaction
-- psychology
+tags: [education, feedback, human-ai-interaction, psychology]
 title: Students Rate Identical Feedback Higher When They Believe It Comes from a Human
-prodos:
-  kind: atomic
 ---
-
 
 ## Students Rate Identical Feedback Higher When They Believe It Comes from a Human
 

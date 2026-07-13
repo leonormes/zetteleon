@@ -1,29 +1,15 @@
 ---
-aliases:
-- ADHD Master Map
-- Neurodiversity Hub
-- The ADHD Entry Point
-created: 2026-04-02 14:00:00+00:00
-modified: 2026-07-04 10:51:13+00:00
+aliases: [ADHD Master Map, Neurodiversity Hub, The ADHD Entry Point]
+created: 2026-04-02T14:00:00+00:00
+modified: 2026-07-13T08:45:02+00:00
 permalink: llmeon/30-library/mo-c/moc-adhd-the-master-map
 see_also: []
 source_of_truth: true
 superseded_by: ''
 supersedes: ''
-tags:
-- adhd
-- executive-function
-- neurodiversity
-- prodos/moc
+tags: [adhd, executive-function, neurodiversity, prodos/moc]
 title: MOC - ADHD (The Master Map)
-prodos:
-  kind: moc
-  lifecycle: evergreen
-  chronos:
-    last_synthesis: 2026-04-02
-    synthesis_count: 2
 ---
-
 
 ## Overview: The ADHD Operating System
 

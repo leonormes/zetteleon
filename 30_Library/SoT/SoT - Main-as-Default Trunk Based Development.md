@@ -1,25 +1,11 @@
 ---
-aliases:
-- Commit to Main
-- Main-as-Default TBD
-- Trunk Based Development SoT
-created: 2025-12-15 00:00:00+00:00
-modified: 2026-07-04 10:50:55+00:00
+aliases: [Commit to Main, Main-as-Default TBD, Trunk Based Development SoT]
+created: 2025-12-15T00:00:00+00:00
+modified: 2026-07-13T08:45:17+00:00
 permalink: llmeon/30-library/so-t/so-t-main-as-default-trunk-based-development
-tags:
-- agile
-- devops
-- git
-- SoftwareEngineering
-- tbd
+tags: [agile, devops, git, SoftwareEngineering, tbd]
 title: SoT - Main-as-Default Trunk Based Development
-prodos:
-  kind: sot
-  lifecycle: stable
-  review:
-    last_reviewed: '2025-12-15'
 ---
-
 
 > [!definition] Definition: "Main-as-Default TBD"
 > The core hypothesis is: "\"Optimizing for continually integrating and shipping the smallest robust increments of change will in itself ensure quality and stability.\""

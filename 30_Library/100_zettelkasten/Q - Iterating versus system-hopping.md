@@ -1,6 +1,6 @@
 ---
 created: 2026-05-31T00:00:00+00:00
-modified: 2026-07-04T10:51:46+00:00
+modified: 2026-07-13T08:44:59+00:00
 permalink: llmeon/30-library/100-zettelkasten/q-iterating-versus-system-hopping
 related_to: ["[[Claim - Novelty-craving drives self-defeating system-hopping]]", "[[Claim - Treat the system as iterative not perfectable]]", "[[System-Hopping]]"]
 status: open

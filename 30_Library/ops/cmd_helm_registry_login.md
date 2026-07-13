@@ -1,25 +1,15 @@
 ---
-created: 2026-02-22 16:57:17+00:00
+created: 2026-02-22T16:57:17+00:00
 hop_level: local
 last_verified: 2026-02-22
-modified: 2026-07-04 10:50:42+00:00
+modified: 2026-07-13T08:45:27+00:00
 permalink: llmeon/30-library/ops/cmd-helm-registry-login
 requires_tunnel: false
-tags:
-- acr
-- auth
-- cmd
-- helm
-- oci
-- test
+tags: [acr, auth, cmd, helm, oci, test]
 target_service: registry
 title: cmd_helm_registry_login
 tool: helm
-prodos:
-  kind: ops
-  lifecycle: active
 ---
-
 
 ## Test Helm OCI Registry Login
 

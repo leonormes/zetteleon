@@ -1,23 +1,11 @@
 ---
-aliases:
-- Mass vs Weight
-- SI Unit of Mass
-- The Kilogram Definition
-created: 2025-12-12 00:00:00+00:00
-modified: 2026-07-04 10:50:55+00:00
+aliases: [Mass vs Weight, SI Unit of Mass, The Kilogram Definition]
+created: 2025-12-12T00:00:00+00:00
+modified: 2026-07-13T08:45:17+00:00
 permalink: llmeon/30-library/so-t/so-t-mass-vs-weight-and-the-kilogram
-tags:
-- measurement
-- physics
-- science
+tags: [measurement, physics, science]
 title: SoT - Mass vs Weight and the Kilogram
-prodos:
-  kind: sot
-  lifecycle: stable
-  review:
-    last_reviewed: '2025-12-12'
 ---
-
 
 ## 2. The Core Distinction
 

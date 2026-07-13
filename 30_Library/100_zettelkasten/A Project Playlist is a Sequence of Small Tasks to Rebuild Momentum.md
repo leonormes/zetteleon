@@ -1,22 +1,11 @@
 ---
-aliases:
-- Project Playlist
-created: 2025-11-11 19:05:08+00:00
-modified: 2026-07-04 10:51:54+00:00
+aliases: [Project Playlist]
+created: 2025-11-11T19:05:08+00:00
+modified: 2026-07-13T08:44:52+00:00
 permalink: llmeon/30-library/100-zettelkasten/a-project-playlist-is-a-sequence-of-small-tasks-to-rebuild-momentum
-tags:
-- task-management
-- topic/productivity
+tags: [task-management, topic/productivity]
 title: A Project Playlist is a Sequence of Small Tasks to Rebuild Momentum
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-  lifecycle: seedling
-  review:
-    last_reviewed: ''
 ---
-
 
 ## A Project Playlist is a Sequence of Small Tasks to Rebuild Momentum
 

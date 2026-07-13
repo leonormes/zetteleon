@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-20T08:05:02+00:00
 last_reviewed: ''
-modified: 2026-07-04T10:51:50+00:00
+modified: 2026-07-13T08:44:56+00:00
 permalink: llmeon/30-library/100-zettelkasten/inaction-erodes-self-trust
 status: ''
 tags: [confidence, inaction, self_esteem, TheHuman/Psychology]

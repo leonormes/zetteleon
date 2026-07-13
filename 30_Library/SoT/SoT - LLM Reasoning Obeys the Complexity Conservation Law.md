@@ -1,20 +1,11 @@
 ---
 aliases: []
-created: 2026-01-31 00:00:00+00:00
-modified: 2026-07-04 10:50:55+00:00
+created: 2026-01-31T00:00:00+00:00
+modified: 2026-07-13T08:45:17+00:00
 permalink: llmeon/30-library/so-t/so-t-llm-reasoning-obeys-the-complexity-conservation-law
-tags:
-- complexity
-- llm-understanding
-- prompt-engineering
+tags: [complexity, llm-understanding, prompt-engineering]
 title: SoT - LLM Reasoning Obeys the Complexity Conservation Law
-prodos:
-  kind: sot
-  lifecycle: evergreen
-  review:
-    last_reviewed: null
 ---
-
 
 ## The Core Insight
 

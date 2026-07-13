@@ -1,27 +1,12 @@
 ---
-aliases:
-- A-C-T Framework
-- Action-Container-Thought
-- Kinetic Valve
-- The Cognitive Loop
-created: 2026-04-04 12:30:00+00:00
+aliases: [A-C-T Framework, Action-Container-Thought, Kinetic Valve, The Cognitive Loop]
+created: 2026-04-04T12:30:00+00:00
 last-synthesis: 2026-04-04
-modified: 2026-07-04 10:50:53+00:00
+modified: 2026-07-13T08:45:19+00:00
 permalink: llmeon/30-library/so-t/so-t-prodos-the-cognitive-loop-a-c-t-framework
-tags:
-- adhd
-- cognitive-loop
-- framework
-- prodos
-- protocol
+tags: [adhd, cognitive-loop, framework, prodos, protocol]
 title: SoT - PRODOS - The Cognitive Loop (A-C-T Framework)
-prodos:
-  kind: sot
-  lifecycle: stable
-  chronos:
-    synthesis_count: 2
 ---
-
 
 ## 1. Minimum Viable Understanding (MVU)
 

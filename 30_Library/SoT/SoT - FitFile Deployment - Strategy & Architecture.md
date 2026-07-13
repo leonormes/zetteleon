@@ -1,26 +1,11 @@
 ---
-aliases:
-- Deployment Strategy
-- FitFile Cloud Architecture
-created: 2025-12-14 18:04:39+00:00
-modified: 2026-07-04 10:50:59+00:00
+aliases: [Deployment Strategy, FitFile Cloud Architecture]
+created: 2025-12-14T18:04:39+00:00
+modified: 2026-07-13T08:45:13+00:00
 permalink: llmeon/30-library/so-t/so-t-fit-file-deployment-strategy-architecture
-tags:
-- architecture
-- azure
-- deployment
-- fitfile
-- gitops
-- kubernetes
-- sot
+tags: [architecture, azure, deployment, fitfile, gitops, kubernetes, sot]
 title: SoT - FitFile Deployment - Strategy & Architecture
-prodos:
-  kind: sot
-  lifecycle: evergreen
-  review:
-    last_reviewed: '2026-03-28'
 ---
-
 
 ## 1. Executive Summary
 

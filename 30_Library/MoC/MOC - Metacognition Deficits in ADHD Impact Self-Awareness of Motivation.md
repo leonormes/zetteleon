@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-07-16T17:30:01+00:00
 last_reviewed: null
-modified: 2026-07-04T10:51:10+00:00
+modified: 2026-07-13T08:45:05+00:00
 permalink: llmeon/30-library/mo-c/moc-metacognition-deficits-in-adhd-impact-self-awareness-of-motivation
 status: null
 tags: [metacognition, self-awareness, TheHuman/Health/ADHD, TheHuman/Motivation, type/moc]
