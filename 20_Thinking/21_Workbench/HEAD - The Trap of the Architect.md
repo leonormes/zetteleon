@@ -1,6 +1,6 @@
 ---
 created: 2026-07-11T15:00:46+00:00
-modified: 2026-07-11T20:49:47+00:00
+modified: 2026-07-13T22:03:06+00:00
 permalink: llmeon/10-system/templates/head-note-template-4
 title: HEAD - The Trap of the Architect
 ---

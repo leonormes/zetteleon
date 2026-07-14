@@ -1,7 +1,7 @@
 ---
 captured: 2026-06-20T10:32:28+01:00 2026-06-20T10:32:28+01:00
 created: 2026-06-20T09:32:44+00:00
-modified: 2026-07-04T10:52:01+00:00
+modified: 2026-07-13T22:04:57+00:00
 permalink: llmeon/20-thinking/21-workbench/head-hidden-mathematical-truths-in-geometric-constraints
 source: https://claude.ai/chat/7aeab0cf-69c8-40b8-9f57-0de260fc6bdc
 status: processing

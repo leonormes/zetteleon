@@ -1,0 +1,28 @@
+---
+created: 2026-07-13 22:00:00+00:00
+status: draft
+tags:
+- cognition
+- judgement
+- ego
+- tribalism
+title: Binary Person-Judgement Is a Cognitive Default, Not a Character Flaw
+permalink: llmeon/30-library/100-zettelkasten/binary-person-judgement-is-a-cognitive-default-not-a-character-flaw
+---
+
+## Binary Person-Judgement Is a Cognitive Default, Not a Character Flaw
+
+Summary: Sorting people into right/wrong bins is close to a factory setting — three stacked mechanisms produce it: cognitive economy, beliefs as tribal badges, and ego-fusion.
+
+Details: Categorising is cheap; suspended judgement is expensive — brains under load sort people into bins because bins are fast. Opinions do not just describe the world; they signal group membership, so judging people by their beliefs is ancient social sorting machinery doing its job. And if your beliefs are fused with your *self*, disagreement registers as an attack on you — the sting of disagreement is that fusion, not a character flaw. Recognising the machinery as normal removes the shame from the habit and makes deliberate override possible.
+
+## Related
+
+- [[Mental Models as Social Status Signals]]
+- [[Cognitive Biases Reinforce Mental Models]]
+- [[Fundamental Attribution Error]]
+- [[Why Others' Opinions Can Feel Undeservedly Powerful]]
+
+## Provenance
+
+Extracted from [[HEAD New chat]] (Gemini conversation, 2026-07-13).

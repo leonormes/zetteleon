@@ -1,6 +1,6 @@
 ---
 created: 2026-05-31T00:00:00+00:00
-modified: 2026-07-13T08:52:26+00:00
+modified: 2026-07-14T05:51:52+00:00
 permalink: llmeon/30-library/100-zettelkasten/executive-function
 prerequisite_of: ["[[Claim - Capture is easy but processing is hard]]"]
 related_to: ["[[Cognitive Load]]", "[[MOC - ADHD and PKM Systems]]"]

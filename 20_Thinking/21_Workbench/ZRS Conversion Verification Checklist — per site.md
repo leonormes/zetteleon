@@ -1,7 +1,7 @@
 ---
 title: pieces_copilot_message_export_july_13_2026_4_11pm
 type: note
-permalink: llmeon/00-inbox/pieces-copilot-message-export-july-13-2026-4-11pm
+permalink: llmeon/00-inbox/pieces-copilot-message-export-july-13-2026-4-11pm-1
 ---
 
 *Shared Message from Pieces (https://pieces.app) by Leon Ormes (leonormes@gmail.com) on Monday Jul 13, 2026 - 4:11 PM*

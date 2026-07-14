@@ -1,8 +1,10 @@
 ---
-created: 2026-07-13T15:45:51+00:00
-modified: 2026-07-13T15:47:42+00:00
-permalink: llmeon/00-inbox/pieces-copilot-message-export-july-13-2026-4-45pm
-tags: [2, 4]
+created: 2026-07-13 15:45:51+00:00
+modified: 2026-07-13 15:47:42+00:00
+permalink: llmeon/00-inbox/pieces-copilot-message-export-july-13-2026-4-45pm-1
+tags:
+- 2
+- 4
 title: FITFILE AS04 Scale Test — Questions to Answer Wiki
 type: note
 ---
