@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-12T08:15:09+00:00
 last_reviewed: ''
-modified: 2026-07-13T08:52:30+00:00
+modified: 2026-07-16T07:41:38+00:00
 permalink: llmeon/30-library/100-zettelkasten/predisposition-to-low-risk-activities
 status: ''
 tags: []
@@ -17,4 +17,8 @@ This part of the statement is not supported by the sources and is, in fact, cont
 - Individuals with ADHD are described as those who "jump right in without testing the waters first," characteristic of a higher-risk approach.
 - The concept of "finding your right difficult" is crucial for ADHD brains, as they "want what others avoid" and "need the stimulation of intense challenge" because "easy is boring". This directly counteracts the idea of preferring low-risk activities.
 
-[[ADHD brains are predisposed to lean toward passive activities that offer immediate gratification]]
+## Related
+
+- [[Finding Your Right Difficult A Strategy for ADHD Engagement]]—_Emphasizes identifying challenges that are stimulating enough to engage creativity, directly contradicting the idea of preferring low-risk activities._
+- [[The Interest-Based Nervous System in ADHD]]—_Explains why ADHD brains require novelty and interest, driving them away from easy, low-risk tasks._
+- [[ADHD Causes Task Initiation Deficits Due to Dopamine Hyposensitivity]]—_Describes how boring or repetitive tasks fail to trigger sufficient motivation due to dopamine hyposensitivity._
