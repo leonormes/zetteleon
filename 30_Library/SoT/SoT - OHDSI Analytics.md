@@ -53,3 +53,10 @@ Just because code runs doesn't mean the evidence is valid. OHDSI enforces qualit
 - Software Validity: Unit testing the HASES packages.
 - Clinical Validity: Using PheValuator to probabilistically estimate the sensitivity/specificity of a cohort definition against a gold standard.
 - Method Validity: Using Negative Controls (outcomes known _not_ to be caused by the exposure) to calibrate p-values and detect systematic error/bias.
+
+---
+
+## Related
+
+- [[SoT - OHDSI Evidence Generation]] — _Systematically applying best-practice methods across a federated network._
+- [[SoT - OHDSI Ecosystem]] — _Global collaborative dedicated to generating reliable evidence from observational data._

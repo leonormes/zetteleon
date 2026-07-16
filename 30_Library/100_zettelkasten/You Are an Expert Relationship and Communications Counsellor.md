@@ -73,3 +73,10 @@ Ask for her input on solutions that respect both realities.
 - Stay calm: If the conversation escalates, pause and suggest revisiting it later when both of you are calm.[^1_4][^1_3]
 
 This approach helps break the stalemate by shifting the dynamic from "whose reality is correct" to "how can we both feel respected and supported?".[^1_2][^1_1][^1_3]
+
+
+## Related
+
+- [[Open Communication in a Partnership Requires Active Listening and Collaborative Problem-Solving]] - The target state for the communication dynamic.
+- [[Habit 5 - Seek First to Understand, Then to Be Understood]] - The core principle needed to break the invalidation stalemate.
+

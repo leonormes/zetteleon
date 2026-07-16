@@ -123,3 +123,10 @@ Most fundamental fix: Establish that distress overrides neutrality in partnershi
 Initial conversation goal: Not to solve everything, but to establish ONE mutual agreement—that when one partner is in distress, it becomes a team problem, regardless of whether the other shares the feeling.
 
 Everything else (chores systems, communication scripts, Team Charter details) builds from this foundation. Without it, you're building on sand.
+
+
+## Related
+
+- [[SoT - Framework for Healthy Communication]] - Connects conversational strategies with separating experience from causality.
+- [[MOC - Assertiveness Through System Design]] - Contextualizes the communication strategy within broader assertiveness.
+

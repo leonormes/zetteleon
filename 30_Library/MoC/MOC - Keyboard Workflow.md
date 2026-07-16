@@ -29,3 +29,8 @@ The definitive and detailed specification of the entire workflow, from the physi
 - [[SoT - Unified Keyboard Workflow]]
 
 All other notes regarding specific keyboard layers or tools should be considered supporting documents to this central SoT.
+
+## Related
+
+- [[leon-context-dev-environment]]
+- [[SoT - Unified Keyboard Workflow]]

@@ -16,3 +16,10 @@ This note has been consolidated. See:
 - [[The Ping as Nervous System Signal]] - Comprehensive atomic note combining both aspects of the ping
 
 This consolidation eliminates duplication while preserving the atomic nature of the concept.
+
+
+## Related
+
+- [[The Ping as Nervous System Signal]] - Connects the feeling of a ping to actionable growth.
+- [[The Action-Reaction-Ping-Adjust Cycle Drives Real Progress]] - The core learning cycle utilizing the ping.
+

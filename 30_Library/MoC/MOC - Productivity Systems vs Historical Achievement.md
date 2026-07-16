@@ -54,3 +54,8 @@ In essence, routines and systems serve as the invisible banks and pipes for our 
 - [[SoT - PRODOS Core Specification]]—_Defines the "Logic-Dopamine Mismatch" that makes external scaffolding mandatory for neurodivergent high-achievers._
 - [[Consistency and Momentum]]—_Addresses the challenge of sustaining long-term effort when the internal "engine" of motivation is volatile._
 - [[Strong Habits Override Weak Intentions]]—_The psychological mechanism explaining why systems (habits) are more reliable than goals (intentions)._
+
+## Related
+
+- [[Modern Productivity Systems Formalize Implicit Historical Strategies]]
+- [[Great Achievements Occurred Before Formal Productivity Systems]]

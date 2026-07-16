@@ -258,7 +258,7 @@ Pieces backlink format (mandatory in all wiki claims sourced from Pieces):
 
 | Rule | Reason |
 |------|--------|
-| Never write to `00_Inbox/`, `20_Thinking/`, or `30_Library/` | Those are human ProdOS territory |
+| Never write to `00_Inbox/`, or `20_Thinking/`. (30_Library is temporarily unlocked for auditing) | Those are human ProdOS territory |
 | Never write or edit Claim cards in `30_Library/`—stubs only, to `raw/proposed-claims/` | The claim layer belongs to the human; agent crossing it erodes epistemic ownership |
 | Never edit a `raw/` file after creation | Immutability is the audit trail |
 | Every wiki claim needs a `raw/` citation | Prevents hallucination compounding |

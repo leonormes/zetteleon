@@ -74,3 +74,11 @@ _Used as "Middleware", not Meal Replacement._
 
 - Hydration: Electrolyte Tablets (High5/Phizz).
 - Termination: Peppermint Tea, Sugar-Free Jelly.
+
+---
+
+## Related
+
+- [[SoT - Metabolic Health & Satiety Management]] — _Maintained through structural regulation of energy balance and hormonal signaling._
+- [[MOC - Health and Vitality]] — _Health is the Platform Engineering required to run the mind._
+- [[SoT - Physical Health and Vitality]] — _Maintaining high function until the very end of life._

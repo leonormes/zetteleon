@@ -18,3 +18,10 @@ type: head
 - 3. Nefertiti (Miles Davis)–Colaiuta famously listened to this every night at Berklee. It taught him about high-level musical conversation and the importance of being an attentive listener.
 - 2. The Inner Mounting Flame (Mahavishnu Orchestra)–This fusion of jazz, rock, and Indian classical music showed that technical complexity and emotional depth could be combined into "pure fire."
 - 1. Ego (Tony Williams)–The ultimate "detonation point" for Colaiuta. It provided a complete philosophical reorientation toward what drumming could become when following a concept without compromise.
+
+
+## Related
+
+- [[A Project Playlist is a Sequence of Small Tasks to Rebuild Momentum]]
+- [[A Project Playlist is a Sequence of Small Tasks to Rebuild Momentum]]
+- [[Interest Pairing Can Increase Engagement in Mundane Tasks for ADHD]]

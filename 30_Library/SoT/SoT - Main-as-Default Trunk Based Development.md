@@ -83,3 +83,10 @@ To switch your team to TBD:
 4. Refactor: Don't wait for a rewrite. Apply "Strangler Fig" patterns to legacy code.
 
 See also: [[SoT - Accelerate & DORA]]
+
+---
+
+## Related
+
+- [[SoT - Software Configuration Management Patterns]] — _Everything is Code, The Mainline Model, and Continuous Integration._
+- [[SoT - DevOps & Infrastructure Architecture Strategy]] — _Addressing complexity vs. cognition in DevOps practices._

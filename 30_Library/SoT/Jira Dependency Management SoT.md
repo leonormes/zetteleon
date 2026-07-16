@@ -45,3 +45,7 @@ For high-velocity engineers, the Jira Web UI is often a bottleneck. Lazyjira pro
 ## Current Understanding
 
 The user requires a specific protocol for the "Automation Workaround" pattern to enable a GTD-like "Next Actions" list for deployment workflows. This process is codified in [[Protocol - Jira Dependency Configuration]].
+
+## Related
+
+- [[Protocol - Jira Dependency Configuration]]

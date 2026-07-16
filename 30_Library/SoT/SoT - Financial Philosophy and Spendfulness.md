@@ -65,3 +65,12 @@ To trigger healthy spending adjustments without willpower, we induce Perceived S
 1. Alignment over Restriction: A budget is a tool for Permission (Guilt-Free Spending) rather than deprivation.
 2. Resources are for Deploying: Stored energy that is never used does no work.
 3. Own Your Time: The ultimate goal of financial energy management is to purchase autonomy.
+
+---
+
+## Related
+
+- [[Give Every Dollar a Job (YNAB Rule 1)]] — _The hierarchy of jobs and questions for allocating new funds._
+- [[Reactive Spending Creates Financial Stress]] — _The spend-first, categorize-later approach as a source of anxiety._
+- [[MOC - Family & Finance]] — _The method, psychology, and implementation of zero-based budgeting._
+

@@ -14,3 +14,10 @@ updated: null
 I think I just learned something. `www` on a url is actually a subdomain! It is the address for the web server on a host, like `www.example.com`. It is a very common one that usually means the web server. You could also have `ftp.example.com` which would point to a different server.
 
 [[How Computers Identify Each other on a Network]]
+
+
+## Related
+
+- [[SoT - The Data Architecture of DNS]] - Provides the formal hierarchy and definition of FQDNs.
+- [[SoT - The Data Anatomy of a URL]] - Contextualizes the subdomain within the broader URL structure.
+

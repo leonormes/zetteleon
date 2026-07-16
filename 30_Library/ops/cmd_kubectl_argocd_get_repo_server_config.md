@@ -44,3 +44,13 @@ kubectl get deployment argocd-repo-server -n argocd -o yaml | grep -A 10 'volume
 
 - Symptom: Silent output.
   - Fix: The Deployment may have a different name in your cluster (e.g., `argo-cd-repo-server`). List the deployments and correct the name `kubectl get deploy -n argocd`.
+
+---
+
+## Related
+
+- [[cmd_kubectl_argocd_exec_cat_helm_registry_config]]
+- [[cmd_kubectl_restart_argocd_repo_server]]
+- [[cmd_kubectl_argocd_exec_helm_registry_login]]
+- [[FITFILE Platform—ArgoCD + Helm Deployment Wiki]]
+- [[cmd_kubectl_argocd_logs_repo_server]]

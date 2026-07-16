@@ -120,3 +120,5 @@ This is the essence of what [[Writing Creates Cognitive Distance for Objective E
 ### Extended Mind and PKM
 
 > `The Extended Mind Thesis`, `My Vision of a Thought Partner`, and `Thought Capture as a Core Thought Partner Feature` are not yet created.
+
+- [[SoT - Six Levels of Thinking]]

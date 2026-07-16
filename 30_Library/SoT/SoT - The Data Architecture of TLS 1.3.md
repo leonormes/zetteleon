@@ -82,3 +82,10 @@ Because the data is structured as a hierarchical key schedule and a set of suppo
 ### Performance Optimization: 1-RTT Handshake
 
 TLS 1.3 optimises for latency by speculative state inclusion. The client sends its `KeyShare` atom in the first packet (`ClientHello`), allowing the server to derive the `Handshake Secret` immediately. This reduces the logic of connection establishment from 2-RTT (TLS 1.2) to 1-RTT.
+
+
+## Related
+
+- [[Hybrid Encryption Combines Symmetric Speed with Asymmetric Security]]
+- [[Concept - TCP Three-Way Handshake]]
+

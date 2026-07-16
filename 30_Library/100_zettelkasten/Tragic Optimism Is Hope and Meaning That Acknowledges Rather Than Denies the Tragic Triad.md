@@ -33,3 +33,10 @@ Applies to situations involving unavoidable suffering—loss, mortality, guilt f
 ### Tensions
 
 - [[SoT - The Philosophy of the Absurd (Camus)]]—core tension: both Camus's Revolt and Tragic Optimism confront the tragic triad directly, but Camus explicitly rejects hope as "philosophical suicide"—a leap of faith that evades the Absurd. Frankl retains hope as grounded in discovered meaning. The divergence is whether hope is honest or evasive when facing a silent universe.
+
+
+## Related
+
+- [[Hope is Expecting the Best in the Future and Working for It]] - Contrasts the definition of hope with tragic optimism.
+- [[Frankl and Camus Both Confront Absurdity But Diverge on Whether Meaning Is Discoverable]] - Explores the philosophical roots of Frankl's tragic optimism.
+

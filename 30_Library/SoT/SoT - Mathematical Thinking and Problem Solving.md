@@ -28,3 +28,11 @@ Mathematical thinking is a methodology for problem-solving that extends beyond c
 ## Current Understanding
 
 True mathematical fluency requires transcending the "rigorous" stage of formal rules to reach a "post-rigorous" state where intuition leads the way, supported by rigorous verification. This mindset can be universally applied to real-world problems by treating them as structural puzzles: identifying the core essence, deconstructing the parts, and applying algorithms. Asking "dumb" or foundational questions—like attempting to disprove an assumed truth—often unlocks the necessary perspective for a breakthrough.
+
+---
+
+## Related
+
+- [[Writing as Cognitive Rigour]] — _Writing is the primary tool for achieving technical and mathematical rigour._
+- [[Formalism (Mathematics as Symbol Manipulation)]] — _Mathematics as the manipulation of meaningless symbols according to pre-defined rules._
+- [[Analytical Rigour Applies to Facts, the Ecological Model to Values]] — _Mathematical theorems possess singular axiomatic truths._

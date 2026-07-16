@@ -17,3 +17,9 @@ title: Taru o shiru is the practice of contentment with what one has
 - [[SoT - Mindfulness and Emotional Regulation]]: _Provides the psychological framework for the mindful habit of focusing on the present and cultivating gratitude._
 - [[Itadakimasu expresses gratitude for a meal]]: _A practical, ritualized application of gratitude within Japanese culture._
 - [[SoT - Values and Eudaimonia]]: _Discusses the philosophical roots of flourishing and contentment beyond mere material accumulation._
+
+
+## Related
+- [[SoT - Ikigai and the Logic of Purpose]]
+- [[SoT - Wabi-Sabi]]
+

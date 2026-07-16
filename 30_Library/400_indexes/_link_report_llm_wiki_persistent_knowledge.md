@@ -31,3 +31,9 @@ type: link_report
 ### Orphan Atoms (No Links fOund)
 
 (none)
+
+## Related
+
+- [[Convergence of Developer and Agent Experience]]
+- [[Model Context Protocol Standardises the LLM-to-Tool Interface]]
+

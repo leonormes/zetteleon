@@ -60,3 +60,12 @@ Protocol: Shift focus from "The Output" (The App) to "The Outcome" (The Business
 1. Ranges, Not Dates: Uncertainty is a fact of physics. Represent it.
 2. Discovery is Work: You cannot estimate what you do not understand.
 3. Trade-offs, Not Magic: Time, Scope, Quality. You can only pick two.
+
+
+## Related
+
+- [[Value Stream Analysis via LLM — Feasibility + Source Map + Prompt]]
+- [[SoT - Pragmatism vs Rigour in Software]]
+- [[Shift to Architectural Oversight]]
+- [[SoT - Accelerate & DORA]]
+

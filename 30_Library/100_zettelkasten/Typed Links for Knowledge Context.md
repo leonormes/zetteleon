@@ -28,3 +28,10 @@ Example: Instead of `[[Error Budgets]]`, you write `[[Error Budgets]] rel:: miti
 Typed links are placed inline within the narrative of a structural note (map, argument, comparison). They become queryable via Dataview, enabling you to ask questions like "show me all atomic notes that contradict this argument" or "find examples of X".
 
 Without typed links, a MOC is just a list of links. With typed links, it becomes a semantic graph.
+
+
+## Related
+
+- [[Creating Meaningful Links]] - Details how typed links add the necessary context.
+- [[Personal Context and Relevance are Key to Knowledge Formation]] - Why contextual metadata is critical for a Zettelkasten.
+

@@ -54,3 +54,11 @@ In ProdOS, we apply Metagame thinking to Productivity:
 - The Metagame: Designing the environment (Context) so that completing tasks is the path of least resistance.
   - _Example:_ [[SoT - The Honeyman Method (Adaptive Routines)]] is a metagame strategy to "hack" the energy levels of an ADHD brain.
   - _Example:_ [[SoT - Temporal Management (Blocking and Boxing)]] manipulates the "Time" variable to force efficiency (Parkinson's Law).
+
+
+## Related
+
+- [[SoT - Conventional Problem Solving]]
+- [[Meta MOC - The Core Domains]]
+- [[SoT - Six Levels of Thinking]]
+

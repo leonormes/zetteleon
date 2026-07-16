@@ -28,3 +28,10 @@ type: link_report
 | [[CLI-AI Automation Can Ingest External Data Streams into Markdown Vaults]] | 1 | [[SoT - Gemini CLI Operations & Workflow]]—shared mechanism |
 | [[Git-Based Vault Synchronisation Provides Free Version-Controlled Note Backup]] | 1 | [[Strategic Duplication Reduces System Coupling]]—shared mechanism |
 | [[Advanced Agentic Workflows Require Technical Literacy That Consumer Framing Hides]] | 2 | [[Leaky Abstractions]]—direct concept match |
+
+
+## Related
+
+- [[PKM Generates Unique Insights via Personal Context That AI Cannot Replicate]]
+- [[PKM as Sense-Making Engine]]
+- [[PKM Generates Unique Insights via Personal Context That AI Cannot Replicate]]

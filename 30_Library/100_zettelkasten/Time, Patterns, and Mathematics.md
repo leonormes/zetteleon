@@ -86,3 +86,10 @@ This is where the Block Universe model becomes so useful again. In that framewor
 The fundamental laws of physics are not processes that happen _in_ time; they are the timeless rules that dictate the overall shape and structure of the entire spacetime block. The Higgs mechanism doesn't _happen_—it's a fundamental property of the universe that describes relationships within that block.
 
 So, while our human experience, embedded within time, perceives the _creation_ of the pattern, mathematics is capable of describing both the temporal creation process _and_ the final timeless pattern itself. The existence of a temporal origin story doesn't negate the existence of a final, static, and mathematically describable form.
+
+
+## Related
+
+- [[The Process vs. The Pattern]] - Distinguishes the creation sequence from the finished structure.
+- [[A Timeless View of Causality]] - Connects these concepts to the Block Universe model.
+

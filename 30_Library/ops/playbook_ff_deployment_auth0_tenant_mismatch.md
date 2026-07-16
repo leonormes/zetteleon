@@ -114,3 +114,12 @@ _Force the orchestrator to spin down failing pods and boot fresh ones leveraging
 Vault does not validate identity context.
 
 It will happily inject credentials that cannot possibly work with your configured Auth0 domain. Kubernetes then faithfully deploys a system that can never authenticate. Ensure Vault payloads match Helm environments.
+
+---
+
+## Related
+
+- [[cmd_kubectl_get_init_container_logs]]
+- [[cmd_curl_auth0_token_test]]
+- [[SoT - FitFile Identity & Access Management (Auth0)]]
+- [[Protocol - VSO Secret Management & Troubleshooting]]

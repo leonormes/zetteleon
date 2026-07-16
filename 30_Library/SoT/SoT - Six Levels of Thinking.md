@@ -45,3 +45,13 @@ This framework provides the theoretical basis for several ProdOS mechanisms:
 ## 4. Sources
 
 - Video: "The Highest Levels of Thinking Explained" by Seeking Satsang. [YouTube Link](http://www.youtube.com/watch?v=8UL-iATA1Nc)
+
+
+## Related
+
+- [[Metacognitive Awareness]]
+- [[MOC - Why Thoughts Feel More Important When Thinking Them]]
+- [[SoT - Mindfulness and Emotional Regulation]]
+- [[Mistaking the Map for the Territory]]
+- [[SoT - Belief Architecture & Cognitive Spaces]]
+

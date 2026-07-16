@@ -21,3 +21,11 @@ Historically, mathematics often did not begin as an abstract pursuit, but rather
 ## Current Understanding
 
 The abstract purity of modern mathematics often obscures its deeply empirical and practical origins. From Fibonacci's commercial arithmetic to Kepler's cask volumes and Newton's rigorous physical experiments, the most profound mathematical leaps were frequently born from a direct need to measure, model, or manipulate the physical world. This aligns with the broader methodological view that mathematical abstraction is fundamentally about "stripping to essence" from lived, empirical reality.
+
+---
+
+## Related
+
+- [[Antithetical Knowledge Systems in the 17th Century]] — _Alchemy's secrecy vs. Mathematics' openness and rigor._
+- [[Newtonian Physics as an Effective Theory]] — _A model that functions accurately for everyday phenomena despite flawed foundational principles._
+

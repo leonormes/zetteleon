@@ -57,3 +57,8 @@ SORT completed_date desc
 
 1. The Slot Rule: There is only one "Active" slot. To move a card from `queued` to `active`, you must first move the current `active` project to `finished` or `paused`.
 2. The Boss Rule: No project enters `active` without a defined Boss Fight (a concrete deliverable).
+
+## Related
+
+- [[leon-context-pkm-philosophy]]
+- [[Information vs Knowledge]]

@@ -61,3 +61,9 @@ Looking at our four categories from the last discussion:
 - This explains why Absolute Purposelessness is the default state of the physical universe—it lacks this cognitive framework.
 - It shows what is required for Created Purpose to come into being—the evolution or existence of an agent with this framework.
 - It deepens the mystery of Inherent Purpose, which posits that a cosmic purpose could exist without any of these cognitive preconditions, as a fundamental law of reality itself.
+
+
+## Related
+
+- [[SoT - Metaphysics of Purpose]] - Explores the necessary preconditions for purpose to exist in reality.
+

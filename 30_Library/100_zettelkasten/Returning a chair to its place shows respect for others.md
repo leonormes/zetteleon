@@ -9,3 +9,8 @@ title: Returning a chair to its place shows respect for others
 ---
 
 Returning a chair to its proper position after use is a Japanese habit that demonstrates respect and consideration for others. This small act of thoughtfulness lightens the load for others and is rooted in empathy.
+
+
+## Related
+- [[Silent Void]]
+

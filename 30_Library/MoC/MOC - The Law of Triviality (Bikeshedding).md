@@ -21,5 +21,8 @@ This phenomenon occurs because people gravitate toward topics where they feel co
 Bikeshedding is also driven by Focusing Illusion - when attention narrows to the immediate, accessible topic, its perceived importance becomes magnified far beyond its actual significance. This creates [[Contextual Myopia]], where the original important goal (effective decision-making) gets displaced by the more manageable but trivial concern.
 
 The underlying mechanism connects to [[Flawed Mental Models Limit Mastery]] - when people lack adequate mental models for complex topics, they default to areas where their existing models feel sufficient, regardless of relative importance.
-
 Links: [[SoT - Illusion of Explanatory Depth (IoED)]], [[Flawed Mental Models Limit Mastery]], [[Contextual Relationships]] (context narrowing, goal displacement, and related MoC threads)
+
+## Related
+
+- [[SoT - Conservation of Complexity]]

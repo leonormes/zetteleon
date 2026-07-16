@@ -12,3 +12,10 @@ title: Visual Schedules Help Children Understand Routines and Manage Transitions
 Summary: Visual schedules are highly effective tools for helping children, particularly younger or neurodivergent children, understand daily routines, anticipate upcoming activities, and manage transitions between tasks.
 
 Details: By using clear pictures, icons, or words to represent a sequence of steps, visual schedules encourage independence, reduce anxiety by making routines predictable, and can aid in emotional regulation. They empower children by allowing them to see what's next without constant verbal reminders.
+
+
+## Related
+
+- [[Visual schedules enhance routine adherence]] - Applies this concept more broadly to executive function.
+- [[Visual Schedules Make Routines Tangible]] - Details how external visual aids reduce cognitive load.
+

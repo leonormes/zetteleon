@@ -1,20 +1,17 @@
 ---
-created: 2026-07-13 22:00:00+00:00
-status: draft
-tags:
-- epistemology
-- ego
-- decoupling
-- popper
-title: Truth-Status Belongs to Propositions, Not Persons
+created: 2026-07-13T22:00:00+00:00
+modified: 2026-07-14T16:01:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/truth-status-belongs-to-propositions-not-persons
+status: draft
+tags: [decoupling, ego, epistemology, popper]
+title: Truth-Status Belongs to Propositions, Not Persons
 ---
 
 ## Truth-Status Belongs to Propositions, Not Persons
 
-Summary: Rightness is a predicate over propositions, not people — "you are wrong" wounds; "that claim is false, I wonder what grew it" is just gardening.
+Summary: Rightness is a predicate over propositions, not people—"you are wrong" wounds; "that claim is false, I wonder what grew it" is just gardening.
 
-Details: The repair image is two gardeners arguing over a specimen on the table between them: neither gardener *is* the plant. Exteriorising claims lets you apply full severity to what people claim while keeping full compassion for how they came to believe it. What hurts for decades is not believing in truth but locating truth-status in persons, including yourself (deepened in [[Locating Truth-Status in Persons Is What Wounds, Not Believing in Truth]]). This is Popper's trick: let the theories die in your place. The operational mantra: "The claim is on the table, not in my chest."
+Details: The repair image is two gardeners arguing over a specimen on the table between them: neither gardener _is_ the plant. Exteriorising claims lets you apply full severity to what people claim while keeping full compassion for how they came to believe it. What hurts for decades is not believing in truth but locating truth-status in persons, including yourself (deepened in [[Locating Truth-Status in Persons Is What Wounds, Not Believing in Truth]]). This is Popper's trick: let the theories die in your place. The operational mantra: "The claim is on the table, not in my chest."
 
 ## Related
 

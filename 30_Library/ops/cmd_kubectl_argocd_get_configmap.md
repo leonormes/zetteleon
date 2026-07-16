@@ -43,3 +43,13 @@ kubectl get configmap argocd-cm -n argocd -o yaml | grep -i 'helm\|oci'
 
 - Symptom: `Error from server (NotFound): configmaps "argocd-cm" not found`.
   - Fix: Ensure you are actively targeting the `argocd` namespace.
+
+---
+
+## Related
+
+- [[FITFILE Platform—ArgoCD + Helm Deployment Wiki]]
+- [[cmd_kubectl_argocd_get_repo_server_config]]
+- [[cmd_kubectl_argocd_get_app_source]]
+- [[cmd_kubectl_argocd_grep_drifting_configmap]]
+- [[SoT - FitFile Deployment - Platform Module]]

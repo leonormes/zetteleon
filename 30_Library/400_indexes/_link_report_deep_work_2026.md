@@ -28,3 +28,10 @@ type: link_report
 | [[Social Media Now Requires a Sobriety Approach Rather Than a Craftsman Approach]] | 2 | [[Unpredictable Rewards Accelerate Habit Formation]]—extends |
 | [[Structured Collaboration Systems Replace Hyperactive Hive-Mind Messaging Cultures]] | 2 | [[Task Batching is Grouping Similar Tasks to Reduce Context Switching]]—shared mechanism |
 | [[Concurrent Task Overload Creates Non-Linear Administrative Overhead That Destroys Focus]] | 2 | [[Timeboxing Creates Scarcity to Eliminate Non-Essential Activities]]—shared mechanism |
+
+
+## Related
+
+- [[Cal Newport's Deep Work Method Involves Rigorous Time Blocking to Maximize Concentration]]
+- [[Pseudo-productivity Heuristic]]
+- [[Cal Newport's Deep Work Method Involves Rigorous Time Blocking to Maximize Concentration]]

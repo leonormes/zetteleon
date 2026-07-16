@@ -86,3 +86,10 @@ The "Commercialization vs. Authenticity" tension defines the modern era.
 - Integrated Note: [[hiprapgraffi]] (Archived)
 - Key Text: _Can't Stop Won't Stop_ by Jeff Chang.
 - Related Concept: [[Expressive Music Organically Builds Its Own Scene]]
+
+
+## Related
+
+- [[Expressive Music Organically Builds Its Own Scene]]
+- [[Authentic Music Creates Communities While Commercial Music Creates Consumers]]
+

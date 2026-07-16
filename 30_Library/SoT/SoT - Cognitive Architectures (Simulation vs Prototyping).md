@@ -103,3 +103,4 @@ Iterators change course when they learn. Planners see this as "flakiness."
 
 - [[The Core Divergence Simulation vs. Prototyping]] (Inbox Note)
 - [[Predictive Processing and the Bayesian Brain]]
+- [[MOC - The Nature and Origins of Intelligence]]

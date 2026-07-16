@@ -23,3 +23,9 @@ The character ideal is not a rigid standard for perfect conformity, but a guide 
 
 - [[MOC - Character and Virtue]] - _The comprehensive map organizing all notes related to the VIA framework._
 - [[VIA Virtue of Courage]] - _An example of an Aristotelian golden mean applied within the VIA framework._
+
+
+## Related
+
+- [[MOC - Character and Virtue]] - Provides a framework for understanding character through positive psychology.
+

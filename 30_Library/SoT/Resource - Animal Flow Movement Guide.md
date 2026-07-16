@@ -97,3 +97,7 @@ _Source: [YouTube Link](https://youtu.be/jKVk9lK9kCk)_
 
 - When to use: As a "Transition Ritual" between work and home to reset the nervous system.
 - Why for ADHD: It uses Proprioception (body awareness) to ground the mind, acting as a "manual reset" for a scattered brain.
+
+## Related
+
+- [[SoT - Protocol - 5-Minute Primal Activation]]

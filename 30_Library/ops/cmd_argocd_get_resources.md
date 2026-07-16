@@ -48,3 +48,8 @@ argocd app resources <APP_NAME>
 
 - [[cmd_kubectl_get_events]]
 - [[cmd_kubectl_get_pods]]
+- [[cmd-argocd-get-sync-status]]
+- [[Atomic Command Template]]
+- [[cmd_argocd_get_app]]
+- [[cmd_kubectl_argocd_get_failing_resources]]
+- [[cmd_argocd_sync_app]]

@@ -34,3 +34,4 @@ title: MOC - Social Stratification
 
 - Evolutionary Psychology: [[SoT - The Evolutionary Biology of Status]]—_The tension between status-seeking firmware and egalitarian hardware._
 - Political Economy: The role of the state and policy in compressing or amplifying inequality.
+- [[SoT - Social Stratification]]

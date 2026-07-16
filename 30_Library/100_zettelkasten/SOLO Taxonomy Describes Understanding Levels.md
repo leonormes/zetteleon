@@ -23,3 +23,9 @@ Application:
 
 - Assess learning depth
 - Design curriculum progression
+
+
+## Related
+- [[Understanding Compresses Information into Cognitive Chunks]]
+- [[Comparison - Knowing vs Understanding]]
+

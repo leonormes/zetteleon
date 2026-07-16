@@ -1,6 +1,6 @@
 ---
 created: 2026-07-13T22:30:00+00:00
-modified: 2026-07-13T21:56:21+00:00
+modified: 2026-07-14T14:00:54+00:00
 permalink: llmeon/30-library/100-zettelkasten/locating-truth-status-in-persons-is-what-wounds-not-believing-in-truth
 status: draft
 tags: [decoupling, ego, epistemology, identity, self-compassion]

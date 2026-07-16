@@ -70,3 +70,10 @@ Singer's argument implies that most affluent individuals are living morally unac
 
 - Full discussion video: [http://www.youtube.com/watch?v=KVl5kMXz1vA](http://www.youtube.com/watch?v=KVl5kMXz1vA)
 - Effective Altruism: Singer's work is a foundational text for the effective altruism movement, which advocates for using evidence and reason to determine the most effective ways to benefit others.
+
+---
+
+## Related
+
+- [[Claim - Persons are outcomes of nature and nurture, not right or wrong axioms]] — _Human minds are shaped by environment rather than rigid logic engines._
+- [[The P-PC Balance (Production vs Production Capability)]] — _The fundamental principle of effectiveness and balancing output with capability._

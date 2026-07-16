@@ -41,3 +41,4 @@ This map organizes concepts about intelligence as a biological phenomenon that e
 
 - [[Foundations of Learning and Cognition for Developers]]
 - [[The Neuroscience of Developer Cognition]]
+- [[Intelligence is a Flexible Problem-Solving Toolbox]]

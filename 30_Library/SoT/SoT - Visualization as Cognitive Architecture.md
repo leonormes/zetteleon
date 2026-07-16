@@ -68,3 +68,11 @@ Do not start with the context.
 4. Let the World Build: Trust the Ground Plane (Plane 3) to fill itself in.
 
 _Why this works:_ It respects the brain's bandwidth limits. By locking the "First Frame," you provide the stable geometry the brain needs to render the rest of the simulation.
+
+
+## Related
+
+- [[Mental representations take multiple forms]]
+- [[Mental Models as Evolutionary Filters]]
+- [[The Brain as a Distributed Prediction Machine]]
+

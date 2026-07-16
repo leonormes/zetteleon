@@ -80,3 +80,7 @@ Experiments to Increase $R$:
 1. Increase Diversity ($\\cup$): Add a person with low overlap (disjoint set).
 2. Increase Efficiency ($C$): Improve documentation, use diagrams, enforce "echo backs".
 3. Calibrate Certainty ($P \approx K$): Use pre-mortems to lower delusional confidence.
+
+## Related
+
+- [[The Knowledge Gap is the Difference Between Total Understanding and a Team's Collective Knowledge]]

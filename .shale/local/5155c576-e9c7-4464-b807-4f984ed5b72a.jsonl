@@ -106,3 +106,71 @@
 {"kind":"intent","at":"2026-07-11T15:08:36.512996Z","title":"Phase 3 migration - exception sweep","body":"Map unhandled legacy status and type values to prodos spec using closest allowed enums, then commit changes."}
 {"kind":"intent","at":"2026-07-13T08:48:33.447367Z","title":"Fix malformed YAML frontmatter in Obsidian notes to allow linter parsing","body":"Obsidian linter is throwing YAMLParseError due to improperly wrapped long strings in frontmatter. Will identify the broken strings and reformat them correctly."}
 {"kind":"completion","at":"2026-07-13T08:51:01.481983Z","note":"Fixed 30 malformed YAML frontmatters by unwrapping strings that were improperly wrapped across lines"}
+{"kind":"intent","at":"2026-07-15T14:03:48.782728Z","title":"extracting atomic notes from HEAD note into zettelkasten","body":"Following user instruction to incorporate HEAD note into PKM by creating new notes in 30_Library/100_zettelkasten"}
+{"kind":"completion","at":"2026-07-15T14:04:10.792327Z","note":"Extracted 3 atomic notes from the HEAD note and placed them into the zettelkasten library"}
+{"kind":"intent","at":"2026-07-15T14:05:45.583564Z","title":"linking atomic notes into PKM","body":"Running semantic searches and updating the 3 new atomic notes with links"}
+{"kind":"completion","at":"2026-07-15T14:06:09.337253Z","note":"Ran semantic searches via Obsidian MCP and linked the new notes to existing vault notes"}
+{"kind":"intent","at":"2026-07-15T21:28:47.613471Z","title":"running link auditor on two unlinked notes","body":"Finding and adding missing outbound semantic links"}
+{"kind":"completion","at":"2026-07-15T21:29:08.731618Z","note":"Ran link auditor on two unlinked notes: 'A True Discussion Requires That Both Partners Can Say No Without Fear' and 'Anti-Fragility Means Systems That Benefit From Volatility'. Discovered semantic neighbors via mcp semantic search and appended related sections."}
+{"kind":"intent","at":"2026-07-15T21:31:24.264455Z","title":"running link auditor on SoT - Psychological Safety and Belonging","body":"Finding semantic links for orphaned note"}
+{"kind":"completion","at":"2026-07-15T21:31:38.795053Z","note":"Ran link auditor on orphaned note 'SoT - Psychological Safety and Belonging'"}
+{"kind":"intent","at":"2026-07-15T21:33:11.814761Z","title":"Updating 5 orphaned notes with related links via Note Refresh \u0026 Link Auditor","body":"Appending ## Related section with semantic search results"}
+{"kind":"completion","at":"2026-07-15T21:33:35.349764Z","note":"Updated 5 orphaned notes with related links via Note Refresh \u0026 Link Auditor"}
+{"kind":"intent","at":"2026-07-15T21:34:46.186668Z","title":"Updating next 10 orphaned notes with related links via Note Refresh \u0026 Link Auditor","body":"Appending ## Related section with semantic search results"}
+{"kind":"completion","at":"2026-07-15T21:35:20.631065Z","note":"Updated next 10 orphaned notes with related links via Note Refresh \u0026 Link Auditor"}
+{"kind":"intent","at":"2026-07-15T21:36:44.850893Z","title":"Append related links to 15 orphaned notes","body":"Appending ## Related sections to 15 notes based on semantic search results"}
+{"kind":"completion","at":"2026-07-15T21:37:19.067602Z","note":"Appended semantic related links to 15 orphaned notes from the 30_Library"}
+{"kind":"intent","at":"2026-07-15T21:38:27.04925Z","title":"Note Refresh \u0026 Link Auditor - Reading and the Brain","body":"Running semantic search and appending ## Related links"}
+{"kind":"intent","at":"2026-07-15T21:38:27.109951Z","title":"Note Refresh \u0026 Link Auditor - Psychological Safety and Belonging","body":"Running semantic search and appending ## Related links"}
+{"kind":"intent","at":"2026-07-15T21:38:27.161063Z","title":"Note Refresh \u0026 Link Auditor - Personal Agency and Transformation","body":"Running semantic search and appending ## Related links"}
+{"kind":"completion","at":"2026-07-15T21:39:03.45886Z","note":"Appended ## Related links to Reading and the Brain"}
+{"kind":"completion","at":"2026-07-15T21:39:03.896185Z","note":"Appended ## Related links to Psychological Safety and Belonging"}
+{"kind":"completion","at":"2026-07-15T21:39:04.238657Z","note":"Appended ## Related links to Personal Agency and Transformation"}
+{"kind":"intent","at":"2026-07-15T21:39:06.318664Z","title":"Note Refresh \u0026 Link Auditor - Pre-Linguistic Understanding","body":"Running semantic search and appending ## Related links"}
+{"kind":"intent","at":"2026-07-15T21:39:06.52368Z","title":"Note Refresh \u0026 Link Auditor - Peter Singer's Famine, Affluence, and Morality","body":"Running semantic search and appending ## Related links"}
+{"kind":"intent","at":"2026-07-15T21:39:06.571189Z","title":"Note Refresh \u0026 Link Auditor - OHDSI Ecosystem","body":"Running semantic search and appending ## Related links"}
+{"kind":"completion","at":"2026-07-15T21:39:42.224614Z","note":"Appended ## Related links to Pre-Linguistic Understanding"}
+{"kind":"completion","at":"2026-07-15T21:39:42.791602Z","note":"Appended ## Related links to Peter Singer's Famine, Affluence, and Morality"}
+{"kind":"completion","at":"2026-07-15T21:39:43.308308Z","note":"Appended ## Related links to OHDSI Ecosystem"}
+{"kind":"intent","at":"2026-07-15T21:39:43.826192Z","title":"Note Refresh \u0026 Link Auditor - OHDSI ETL Process","body":"Running semantic search and appending ## Related links"}
+{"kind":"intent","at":"2026-07-15T21:39:44.479461Z","title":"Note Refresh \u0026 Link Auditor - OHDSI Analytics","body":"Running semantic search and appending ## Related links"}
+{"kind":"intent","at":"2026-07-15T21:39:44.991345Z","title":"Note Refresh \u0026 Link Auditor - Metabolic Tooling Configuration","body":"Running semantic search and appending ## Related links"}
+{"kind":"intent","at":"2026-07-15T21:39:45.518888Z","title":"Note Refresh \u0026 Link Auditor - Metacognitive Calibration","body":"Running semantic search and appending ## Related links"}
+{"kind":"intent","at":"2026-07-15T21:39:46.008514Z","title":"Note Refresh \u0026 Link Auditor - Mathematical Thinking and Problem Solving","body":"Running semantic search and appending ## Related links"}
+{"kind":"intent","at":"2026-07-15T21:39:46.596195Z","title":"Note Refresh \u0026 Link Auditor - Mathematics Learning Curriculum","body":"Running semantic search and appending ## Related links"}
+{"kind":"intent","at":"2026-07-15T21:39:46.879222Z","title":"Note Refresh \u0026 Link Auditor - Master Household Chores Inventory","body":"Running semantic search and appending ## Related links"}
+{"kind":"completion","at":"2026-07-15T21:40:40.363185Z","note":"Appended ## Related links to OHDSI ETL Process"}
+{"kind":"completion","at":"2026-07-15T21:40:40.88102Z","note":"Appended ## Related links to OHDSI Analytics"}
+{"kind":"completion","at":"2026-07-15T21:40:41.310721Z","note":"Appended ## Related links to Metabolic Tooling Configuration"}
+{"kind":"completion","at":"2026-07-15T21:40:41.896824Z","note":"Appended ## Related links to Metacognitive Calibration"}
+{"kind":"completion","at":"2026-07-15T21:40:42.452772Z","note":"Appended ## Related links to Mathematical Thinking and Problem Solving"}
+{"kind":"completion","at":"2026-07-15T21:40:43.097279Z","note":"Appended ## Related links to Mathematics Learning Curriculum"}
+{"kind":"completion","at":"2026-07-15T21:40:43.655046Z","note":"Appended ## Related links to Master Household Chores Inventory"}
+{"kind":"intent","at":"2026-07-15T21:40:44.243334Z","title":"Note Refresh \u0026 Link Auditor - Main-as-Default Trunk Based Development","body":"Running semantic search and appending ## Related links"}
+{"kind":"intent","at":"2026-07-15T21:40:44.85849Z","title":"Note Refresh \u0026 Link Auditor - GitOps for Privileged Identity Management","body":"Running semantic search and appending ## Related links"}
+{"kind":"intent","at":"2026-07-15T21:40:45.477815Z","title":"Note Refresh \u0026 Link Auditor - Financial Philosophy and Spendfulness","body":"Running semantic search and appending ## Related links"}
+{"kind":"intent","at":"2026-07-15T21:40:46.108954Z","title":"Note Refresh \u0026 Link Auditor - Error Handling Architecture","body":"Running semantic search and appending ## Related links"}
+{"kind":"intent","at":"2026-07-15T21:40:46.693098Z","title":"Note Refresh \u0026 Link Auditor - Empirical Origins of Mathematics","body":"Running semantic search and appending ## Related links"}
+{"kind":"intent","at":"2026-07-15T21:40:47.211182Z","title":"Note Refresh \u0026 Link Auditor - Dystopian Frameworks and Social Control","body":"Running semantic search and appending ## Related links"}
+{"kind":"intent","at":"2026-07-15T21:40:47.623956Z","title":"Note Refresh \u0026 Link Auditor - Denis Villeneuve (Directorial Philosophy)","body":"Running semantic search and appending ## Related links"}
+{"kind":"completion","at":"2026-07-15T21:41:44.126233Z","note":"Appended ## Related links to Main-as-Default Trunk Based Development"}
+{"kind":"completion","at":"2026-07-15T21:41:44.666318Z","note":"Appended ## Related links to GitOps for Privileged Identity Management"}
+{"kind":"completion","at":"2026-07-15T21:41:44.981414Z","note":"Appended ## Related links to Financial Philosophy and Spendfulness"}
+{"kind":"completion","at":"2026-07-15T21:41:45.693683Z","note":"Appended ## Related links to Error Handling Architecture"}
+{"kind":"completion","at":"2026-07-15T21:41:46.299181Z","note":"Appended ## Related links to Empirical Origins of Mathematics"}
+{"kind":"completion","at":"2026-07-15T21:41:48.174965Z","note":"Appended ## Related links to Dystopian Frameworks and Social Control"}
+{"kind":"completion","at":"2026-07-15T21:41:48.359823Z","note":"Appended ## Related links to Denis Villeneuve (Directorial Philosophy)"}
+{"kind":"intent","at":"2026-07-15T21:43:58.552785Z","title":"Updating orphaned notes 52-71 with related links","body":"Running semantic search and appending ## Related sections to 20 notes from the 30_Library directory."}
+{"kind":"completion","at":"2026-07-15T21:46:11.640054Z","note":"Updated orphaned notes 52-71 with ## Related semantic links"}
+{"kind":"intent","at":"2026-07-15T21:47:04.185047Z","title":"Audit and update orphaned notes 72-91 with Related sections","body":"Processing next 20 orphaned notes from 30_Library to find related notes via semantic search and append a ## Related section with annotated links."}
+{"kind":"intent","at":"2026-07-15T21:51:26.709919Z","title":"Update orphaned notes 92-111 with Related links via semantic search","body":"Processing batch of 20 notes to append semantic links as per instructions"}
+{"kind":"completion","at":"2026-07-15T21:53:49.996908Z","note":"Updated 20 orphaned notes (indices 91-110 in 30_Library) with semantic links"}
+{"kind":"intent","at":"2026-07-15T21:57:23.946656Z","title":"Refresh 20 orphaned notes (indices 111-130) with semantic links","body":"Running semantic search to find related notes and appending a ## Related section."}
+{"kind":"completion","at":"2026-07-15T21:58:37.260928Z","note":"Refreshed orphaned notes 111-130 with semantic links"}
+{"kind":"intent","at":"2026-07-15T21:59:27.71558Z","title":"semantic search and update for orphaned note The Concept of a Character Ideal","body":"Running semantic search to find related notes, then appending related links"}
+{"kind":"completion","at":"2026-07-15T21:59:45.674736Z","note":"appended related links to orphaned note The Concept of a Character Ideal"}
+{"kind":"intent","at":"2026-07-15T21:59:53.459678Z","title":"semantic search and update for the remaining 19 orphaned notes","body":"Running semantic search to find related notes, then appending related links for a batch of orphaned notes"}
+{"kind":"completion","at":"2026-07-15T22:01:07.667224Z","note":"appended related links to the remaining 19 orphaned notes"}
+{"kind":"intent","at":"2026-07-15T22:01:56.554538Z","title":"semantic search and update for orphaned notes 151-170","body":"Running semantic search to find related notes, then appending related links"}
+{"kind":"completion","at":"2026-07-15T22:03:12.783584Z","note":"appended related links to orphaned notes 151-170"}
+{"kind":"intent","at":"2026-07-15T22:04:07.400757Z","title":"temporarily modify AGENTS.md to allow 30_Library auditing"}

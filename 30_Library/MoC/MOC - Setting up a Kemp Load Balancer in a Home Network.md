@@ -41,3 +41,7 @@ This map of content outlines the process for setting up a Kemp LoadMaster virtua
 5. Port Forwarding: On your router, forward TCP port 443 to the load balancer's VIP.
 6. Routing Rules: Set up [[Content Switching Allows Layer 7 Routing Based on Hostname or URL Path|content switching rules]] to route requests for specific hostnames (e.g., `plex.yourdomain.com`) to the correct backend server.
 7. Health & Monitoring: Enable [[Load Balancer Health Checks Ensure Traffic is Routed Only to Healthy Servers|health checks]] for each backend service to ensure automatic failover.
+
+## Related
+
+- [[Creating an AWS Application Load Balancer (ALB)]]

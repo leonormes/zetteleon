@@ -25,3 +25,8 @@ This sequence traces the historical development of the fable as a storytelling f
 ### Key Continuity
 
 Throughout this evolution, a core element has remained constant: [[Animal Allegory is a Persistent Feature of Fables for Social Commentary|the use of animal allegory for social commentary]].
+
+
+## Related
+- [[Animal Allegory is a Persistent Feature of Fables for Social Commentary]]
+

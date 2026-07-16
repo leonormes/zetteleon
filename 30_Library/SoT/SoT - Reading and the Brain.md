@@ -44,3 +44,11 @@ The brain's plasticity makes it vulnerable to the "Skimming Model" of digital co
 ## 5. Summary
 
 Reading is a "cognitive superniche" that we overlay on the world. By consistently engaging in deep reading, we "wire" our brains for higher-order thinking, sustained attention, and structural efficiency.
+
+---
+
+## Related
+
+- [[Neuroplasticity is the Brain's Ability to Change in Response to Experience]] — _Neuroplasticity is the fundamental capacity to change physical structure and function._
+- [[Neuroplasticity is the Foundation for Habit Change]] — _Rewiring neural circuits in response to repeated experiences._
+- [[SoT - Learning Mechanisms]] — _Learning involves creating and strengthening connections between neurons._

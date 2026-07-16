@@ -17,3 +17,9 @@ Details:
 2. Duration: 5-15 minutes maximum (ideally 1-5 minutes).
 3. Simplicity: A single, non-complex physical action that is easy to begin.
 These rules ensure that the activation energy required to start is as low as possible, making it easier to overcome task initiation barriers.
+
+
+## Related
+
+- [[Chaining Starter Tasks Creates a Momentum Ramp]] - A direct application of the starter task rules.
+

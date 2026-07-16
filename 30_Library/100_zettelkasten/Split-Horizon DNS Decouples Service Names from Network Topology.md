@@ -26,3 +26,8 @@ Managing a service (e.g., `app.mycorp.com`) that exists on both public and priva
 ### 🔐 Strategic Importance
 
 This pattern allows hardcoded logical service names in application code to remain constant across all environments. The infrastructure transparently provides the context-aware network location, eliminating environment-specific configuration logic.
+
+
+## Related
+- [[SoT - FitFile Deployment - Networking and Security]]
+

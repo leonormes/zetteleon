@@ -147,3 +147,8 @@ Recommendation: If your primary concern is Kubernetes workload backup flexibilit
 - Recommendations:
     - Enable immutability for ransomware protection.
     - Enable Resource Guard protection.
+
+## Related
+
+- [[Azure Backup and Restore Runbook]]
+- [[kubernetes_backup_improve_already_awesome_velero_with_openebs]]

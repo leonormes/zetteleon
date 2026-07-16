@@ -16,3 +16,8 @@ The universal psychological needs outlined in Self-Determination Theory—Autono
 Links: [[Neurotypical motivation is primarily importance-driven]]
 
 Reference: User-provided text on ADHD and motivation.
+
+
+## Related
+- [[Neurotypical motivation is primarily importance-driven]]
+

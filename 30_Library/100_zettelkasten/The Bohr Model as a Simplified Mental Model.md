@@ -18,3 +18,8 @@ However, the model is fundamentally incorrect. Electrons exist in probabilistic 
 Links: [[Flawed Mental Models Limit Mastery]]
 
 [[Bug in the model]]
+
+
+## Related
+- [[Mistaking the Map for the Territory]]
+

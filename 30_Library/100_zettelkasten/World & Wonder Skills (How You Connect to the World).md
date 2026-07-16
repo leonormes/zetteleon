@@ -24,3 +24,10 @@ _These skills are about how you find joy, meaning, and your place in the wider w
 _PSHE: Personal, Social, Health and Economic education is a key part of the curriculum that teaches many of these life skills._
 
 [[A Concept Map for a Flourishing Human]]
+
+
+## Related
+
+- [[Appreciation of Beauty is Noticing Excellence in the World]] - A primary element of these skills.
+- [[A Concept Map for a Flourishing Human]] - Provides the holistic context for how these skills fit into overall flourishing.
+

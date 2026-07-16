@@ -109,3 +109,10 @@ To verify the migration is safe to proceed to the next step:
 
 1. Deterministic Output: Running the generator twice produces identical SHA sums.
 2. Legacy Match: `cue export` output matches `helm template` baseline (ignoring whitespace/comments).
+
+
+## Related
+
+- [[Protocol - Helm to CUE Migration]]
+- [[SoT - Strategy - Helm to CUE Migration]]
+

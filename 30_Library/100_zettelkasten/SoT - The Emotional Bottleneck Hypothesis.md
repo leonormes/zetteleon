@@ -30,3 +30,9 @@ Extracted from daily note `2025-08-26`:
 > _"I have come to believe that my ADHD problems are mostly emotional. My memory and lack of motivation for non interesting tasks can be handled with extended mind and the other techniques but mostly it is emotional issues that hold me back."_
 
 > _"Don't dismiss myself. I enjoy revelling in the wonder of things. So what if it's not practical or productive."_
+
+
+## Related
+- [[SoT - The 3-Switch Protocol (Emotional Reset)]]
+- [[Rejection Sensitive Dysphoria (RSD)]]
+

@@ -30,3 +30,7 @@ Derived from an LLM analysis of ~2,650 notes (1,075 atomic zettels, ~200 SoT/Pro
 ### The Unifying Pattern
 
 A pull towards systems and first principles—whether the system is a Kubernetes cluster, a brain, mathematics, or a family, nearly every note asks "what is the underlying mechanism?"
+
+## Related
+
+- [[SoT - HashiCorp Vault Architecture]]

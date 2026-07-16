@@ -50,3 +50,11 @@ You cannot stay in the "Review" phase indefinitely.
 
 - Protocol: If an idea passes the Steel Man test and offers predictive validity, you must treat it as "current best truth" and act on it.
 - Maintenance: Acknowledge that a "patch" (update) may be required later as more data arrives.
+
+---
+
+## Related
+
+- [[SoT - Dunning-Kruger Effect]] — _Intelligence calibration: Certainty vs. Fluidity and the Error-Correction interval._
+- [[Meta-Accuracy in Social Perception]] — _Correspondence between how you believe others perceive you and how they actually do._
+- [[SoT - Illusion of Explanatory Depth (IoED)]] — _Confabulation and mistaking familiarity for causal understanding._

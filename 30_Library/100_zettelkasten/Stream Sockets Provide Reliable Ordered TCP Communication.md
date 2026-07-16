@@ -30,3 +30,8 @@ Use Cases:
 - Any application where data integrity and order are critical
 
 The trade-off for reliability is slightly higher latency and overhead compared to datagram sockets.
+
+
+## Related
+- [[Concept - UDP vs TCP]]
+

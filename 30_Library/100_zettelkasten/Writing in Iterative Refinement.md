@@ -19,3 +19,10 @@ updated: null
 [[SoT - The Extended Mind|The Extended Mind Thesis]]
 
 [[Educating Your Zettelkasten]]
+
+
+## Related
+
+- [[Writing as Cognitive Rigour]] - Highlights how the process of writing exposes flaws in thought.
+- [[Writing puts us in the powerful position of being able to observe our thinking]] - The mechanism that makes iterative refinement possible.
+

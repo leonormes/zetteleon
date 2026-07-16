@@ -49,3 +49,8 @@ The "C10K problem" (handling 10,000 concurrent connections) was considered diffi
 Practical considerations:
 
 Socket limits are rarely the bottleneck for most applications. Application logic, database connections, and business requirements usually impose lower practical limits.
+
+
+## Related
+- [[Event-Driven Socket Handling with epoll and kqueue]]
+

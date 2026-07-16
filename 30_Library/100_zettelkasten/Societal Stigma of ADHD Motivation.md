@@ -22,3 +22,9 @@ Impact:
 - Reduced self-esteem
 - Workplace discrimination
 - Educational mismatches
+
+
+## Related
+- [[MOC - Procrastination Triggers]]
+- [[The Interest-Based Nervous System in ADHD]]
+

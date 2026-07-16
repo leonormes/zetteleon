@@ -19,3 +19,9 @@ The "Performer Upgrade Framework" provides the necessary environment to [[Train 
 4. Feedback: The Performer needs quality feedback to improve its actions over time.
 
 By creating an environment with these elements, the Performer is forced to act. Repeated action rebuilds its strength and confidence, leading to the development of genuine self-discipline.
+
+
+## Related
+
+- [[You Fall to the Level of Your Systems, Not Rise to Your Goals]] - Emphasizes systems and environments for upgrading performance.
+

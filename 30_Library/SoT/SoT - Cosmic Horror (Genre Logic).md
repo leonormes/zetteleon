@@ -48,3 +48,7 @@ title: SoT - Cosmic Horror (Genre Logic)
 1. Insignificance over Malice: The universe isn't trying to hurt you; it just doesn't know you exist.
 2. Reality is a Model: Cosmic horror exploits the gap between our _model_ of reality and the _raw data_ of the universe.
 3. Loss of Autonomy: Humans are tools, transmitters, or prey—never the protagonist of the cosmic story.
+
+## Related
+
+- [[MOC - Storytelling Techniques]]

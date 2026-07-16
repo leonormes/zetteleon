@@ -50,3 +50,8 @@ The Method: Active Reflection
 > Outcome: A conscious understanding of the core insight you have just unearthed. You have moved from a vague feeling of profundity to an articulated piece of knowledge.
 
 [[100_zettelkasten/The Unified Writing to Think Process]]
+
+
+## Related
+- [[Stage 2 Clarify (The On Writing Well Layer)]]
+

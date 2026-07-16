@@ -148,3 +148,13 @@ fn main() {
     }
 }
 ```
+
+
+## Related
+
+- [[SoT - High-Performance Data Structures]]
+- [[SoT - Rust's Ownership Model]]
+- [[SoT - Region-Based Memory Management]]
+- [[SoT - Slot Map (Generational Arena)]]
+- [[SoT - Rust Type Mechanics]]
+

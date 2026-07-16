@@ -65,3 +65,8 @@ To prevent "All-or-Nothing" collapse, define 3 tiers of execution.
 ### The Morning Handshake
 
 Check your battery daily. Declare your Tier. Adjust the Todoist view accordingly (e.g., in Tier 3, hide everything except P1 tasks).
+
+## Related
+
+- [[MOC - ADHD Project Continuation Challenge]]
+- [[MOC - How to Build Discipline]]

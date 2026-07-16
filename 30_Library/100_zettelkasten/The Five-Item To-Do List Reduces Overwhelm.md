@@ -48,3 +48,10 @@ updated: null
 Original Context:
 
 Derived from [[Momentum-Building Strategies for ADHD]].
+
+
+## Related
+
+- [[The 5-Minute Action Overcomes Initiation Barriers]] - Another strategy for managing overwhelm and initiation.
+- [[Deep Dive Sessions for ADHD (Adapted GTD Next Actions)]] - Explores alternative ways to manage tasks beyond long lists.
+

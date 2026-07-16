@@ -82,3 +82,6 @@ ArgoCD reconciles desired state (Git) with live state (cluster). `app get` is th
 - Next step → [[get-argocd-app-resources]] (if Degraded)
 - Rollback → [[argocd-rollback-app]]
 - Playbook → [[playbook-argocd-sync-failure-triage]]
+- [[Atomic Command Template]]
+- [[cmd_argocd_get_app]]
+- [[cmd_argocd_sync_app]]

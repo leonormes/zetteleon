@@ -52,3 +52,12 @@ To maximize utility, synthetic data generation must adhere to strict standards:
 - Semantic Mapping: [[SoT - OHDSI Standardized Vocabularies]]
 - Structural Target: [[SoT - OMOP Common Data Model]]
 - Validation Tools: [[SoT - OHDSI ETL & Data Quality]]
+
+
+## Related
+
+- [[Expanded Analysis OMOP Synthetic Data Generation Project]]
+- [[12 Million Patient Synthetic NHS-OMOP Pipeline]]
+- [[SoT - OHDSI Ecosystem]]
+- [[MoC - OHDSI & OMOP Architecture]]
+

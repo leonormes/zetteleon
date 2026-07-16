@@ -56,3 +56,10 @@ WebSockets provide a higher-level protocol that works through firewalls and prox
 Protocol overhead:
 
 After the initial HTTP upgrade handshake, WebSocket messages have only 2-14 bytes of overhead per message, making them efficient for real-time data.
+
+
+## Related
+
+- [[WebSocket Use Cases for Real-Time Applications]] - The practical applications of this protocol.
+- [[Stream Sockets Provide Reliable Ordered TCP Communication]] - The underlying TCP communication layer that WebSockets build upon.
+

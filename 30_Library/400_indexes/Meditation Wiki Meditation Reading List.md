@@ -35,3 +35,10 @@ type: index
 - [ ] A Time to Grieve: Meditations for Healing After the Death of a Loved One by Carol Staudacher
 - [ ] Zen Mind, Beginner's Mind: Informal Talks on Zen Meditation and Practice by Shunryu Suzuki
 - [ ] Lovingkindness: The Revolutionary Art of Happiness by Sharon Salzberg
+
+
+## Related
+
+- [[SoT - Mindfulness and Emotional Regulation]]
+- [[SoT - Schopenhauer on Intelligence and Suffering]]
+- [[Mindfulness is Non-Judgmental Present-Moment Awareness]]

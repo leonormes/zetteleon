@@ -33,3 +33,8 @@ title: MOC - Secret Management
 
 - [ ] Implement JSON Schema validation for the Vault manifest.
 - [ ] Migrate manual AppRole SecretIDs to temporary OIDC-based bootstrap.
+
+## Related
+
+- [[SoT - CUE Configuration]]
+- [[cmd_kubectl_recreate_vso_secret]]

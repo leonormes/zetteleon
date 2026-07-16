@@ -141,3 +141,11 @@ _Tasks that span the whole house._
 - [Atomic] Indoor Consolidation: Collect bags from all indoor bins (Kitchen, Bathrooms, Bedrooms).
 - [Atomic] Outdoor Disposal: Place consolidated bags into Wheelie Bins.
 - [Atomic] Bin Presentation: Drag Wheelie Bins to curb for collection (Sunday/Monday).
+
+---
+
+## Related
+
+- [[SoT - Family Household Governance]] — _The home is a Distributed System where maintenance is a shared operational requirement._
+- [[Emotional Labor is the Invisible Work of Managing a Household and Family]] — _The mental load required to manage a family and household._
+

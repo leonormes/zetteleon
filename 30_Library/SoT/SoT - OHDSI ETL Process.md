@@ -62,3 +62,11 @@ OHDSI promotes a standardized workflow to ensure transparency and quality.
 
 - Definition: The derived table `OBSERVATION_PERIOD` defines the "trust interval" for a patient.
 - Constraint: You cannot query for "absence of disease" outside of these dates. If a patient is not in an observation period, they effectively do not exist.
+
+---
+
+## Related
+
+- [[SoT - OHDSI ETL & Data Quality]] — _The ETL Lifecycle: Design -> Map -> Implement -> Evaluate._
+- [[SoT - OMOP Common Data Model]] — _Person-centric relational database schema for standardizing health data._
+- [[SoT - OHDSI Ecosystem]] — _Global open-science collaborative operating on a Federated Research Network model._

@@ -33,3 +33,10 @@ Instead of context-switching between different types of tasks throughout the day
 - It complements [[Timeboxing as a To-Do List Alternative for ADHD]] by providing a framework within which to schedule specific time blocks.
 
 _Source: Synthesized from notes on ADHD productivity hacks._
+
+
+## Related
+
+- [[Day Theming is a Macro Time Blocking Strategy]] - Explains the fundamental mechanics of the technique.
+- [[Hyperfocus is a State of Intense Interest-Driven Focus in ADHD]] - Shows how this strategy can induce flow states.
+

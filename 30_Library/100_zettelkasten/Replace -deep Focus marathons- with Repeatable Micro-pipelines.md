@@ -19,3 +19,9 @@ updated: null
 This technique is a form of [[Timeboxing for ADHD Management]] that creates structure and momentum. The "state dump" is a practical application of an [[Exit Ritual For ADHD Time Boxes]] and helps mitigate [[Working Memory Limitations in ADHD]] by externalizing the task's context.
 
 This approach contrasts with unstructured [[Deep Dive Sessions for ADHD (Adapted GTD Next Actions)]] and is a core component of [[ADHD Behavioral Strategies for Productivity]]. It helps build [[Consistency and Momentum]] and is a strategy for [[Overcoming Intelligent Paralysis MOC]].
+
+
+## Related
+- [[Structured Collaboration Systems Replace Hyperactive Hive-Mind Messaging Cultures]]
+- [[Deep Dive Sessions for ADHD (Adapted GTD Next Actions)]]
+

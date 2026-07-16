@@ -17,3 +17,10 @@ updated: null
 This note's thinking has been integrated into [[SoT - Illusion of Explanatory Depth (IoED)]] on 2026-04-08.
 
 See: [[SoT - Illusion of Explanatory Depth (IoED)#3.1. The Illusion of Profundity|§ 3.1 The Illusion of Profundity]]—which covers the support gap, tacit knowledge, emotional scaffolding, and the ADHD intensifier.
+
+
+## Related
+
+- [[SoT - Illusion of Explanatory Depth (IoED)]] - The cognitive bias underpinning this phenomenon.
+- [[Felt significance of thoughts can mislead about their substance]] - Further explores the disconnect between feeling and reality.
+

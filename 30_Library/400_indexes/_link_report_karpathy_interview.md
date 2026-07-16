@@ -29,3 +29,10 @@ type: link_report
 | [[Reinforcement Learning Produces Jagged Intelligence — High in Verifiable, Low in Subjective Domains]] | 2 | [[AI and Machine Understanding]]—extends |
 | [[Cheaper Code Production via Agents Increases Software Volume Rather Than Reducing Developers]] | 2 | [[Generalists Have an Advantage in the Information Age]]—shared mechanism |
 | [[Expert Role Shifts from Explaining Concepts to Humans to Tuning Tutor-Agents]] | 1 | [[PKM Generates Unique Insights via Personal Context That AI Cannot Replicate]]—extends |
+
+
+## Related
+
+- [[_link_report_auto_research_framework]]
+- [[The Unit of Software Engineering Is Shifting from Code Lines to Intent Expressions]]
+- [[Resource - Animal Flow Movement Guide]]

@@ -38,3 +38,10 @@ az network bastion ssh \
   --username azadmin \
   -- -o PubkeyAuthentication=no -o PreferredAuthentications=password
 ```
+
+---
+
+## Related
+
+- [[LCRCA]]
+- [[aks-ff-uks-gp-1-wiki]]

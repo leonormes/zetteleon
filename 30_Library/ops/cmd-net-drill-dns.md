@@ -73,3 +73,7 @@ Expected signal:
 
 - [[sot-network-tools-patterns]]
 - [[cmd-k8s-run-netshoot]]
+- [[SoT - DNS Core Components and Environments]]
+- [[MOC - DNS Core Concepts and Mechanisms]]
+- [[in-addr.arpa Domains Enable IP-to-Name Reverse DNS Lookups]]
+- [[Glue Records Solve DNS Chicken-and-Egg Problems]]

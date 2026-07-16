@@ -16,3 +16,7 @@ The behaviour of any given system can be understood as a three-stage process.
 1. It begins with the premise that [[Systems are Blind to Their Broader Context]].
 2. This inherent limitation forces them to [[Systems Generate Internal Logic in Isolation]] in order to function.
 3. The consequence of this is that [[The Meaning of a System's Logic is Relative to Perspective]], appearing absolutely vital from within but often arbitrary from without.
+
+## Related
+
+- [[Systems are Blind to Their Broader Context]]

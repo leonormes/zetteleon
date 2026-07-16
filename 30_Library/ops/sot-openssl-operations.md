@@ -76,3 +76,9 @@ echo "test" | openssl rsautl -encrypt -pubin -inkey public.pem -out test.bin
 # Decrypt with the private key — should print "test"
 openssl rsautl -decrypt -inkey private.pem -in test.bin
 ```
+
+---
+
+## Related
+
+- [[Protocol - HIE--NNUH Network Debugging]]

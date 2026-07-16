@@ -28,3 +28,11 @@ The progression of mathematical study can be structured into eight core phases:
 ## Current Understanding
 
 The structured approach highlights a critical turning point in mathematical education: the shift from computation to proof writing. Foundational logic and rigorous proofs (as introduced in phase 1 and mastered in phase 2 real analysis) form the essential bridge between early mathematical computation and the ability to grasp higher-order abstract structures in topology, abstract algebra, and advanced mathematical statistics.
+
+---
+
+## Related
+
+- [[Topology (Definition)]] — _Branch of mathematics studying properties preserved under continuous deformations._
+- [[SoT - Core Fields of Mathematical Logic]] — _Set theory as the foundational language of modern mathematics._
+- [[HEAD - A Conceptual Map for Learning Mathematics]] — _The foundations of measuring, counting, and arithmetic properties._

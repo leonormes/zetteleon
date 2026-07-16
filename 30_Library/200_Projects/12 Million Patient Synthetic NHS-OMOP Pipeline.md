@@ -76,3 +76,10 @@ Goal: Build a robust, parallelised pipeline to generate a national-scale synthet
 ## Orchestration Requirement (RAP Compliance)
 
 All tasks must be delivered as a Reproducible Analytical Pipeline (RAP) using the Kedro framework. This ensures that the transformation from `swpc_synthea` raw output to the final OMOP database is auditable, automated, and maintainable.
+
+
+## Related
+
+- [[wiki/projects/12 Million Patient Synthetic NHS-OMOP Pipeline]] - The wiki dossier tracking this entity.
+- [[NHS Synthetic Data & OMOP Pipeline Meeting]] - A related project artifact containing meeting context.
+

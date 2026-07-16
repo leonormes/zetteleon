@@ -85,3 +85,8 @@ In private networking, internal clients often access services via their _public_
 - Private Endpoints: Ensure the EKS API server is private-only or restricted.
 - Rotation: Let cert-manager handle rotation automatically (short-lived certs = better security).
 - Network Policies: certificates encrypt the data, but Network Policies restrict _who_ can connect. Use both.
+
+## Related
+
+- [[MOC - AWS Networking]]
+

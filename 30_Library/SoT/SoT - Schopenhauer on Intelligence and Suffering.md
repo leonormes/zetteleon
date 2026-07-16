@@ -48,3 +48,12 @@ The current model integrates Schopenhauer's pessimism into a coherent lifestyle 
 ## Sources & Legacy
 
 - Originally consolidated from: [[Intelligent People Reject Social Life]], [[Suffering Can Be a Pathway to Liberation]], [[Detachment is the Ultimate Form of Freedom]].
+
+
+## Related
+
+- [[SoT - The Nature of Time and Perception]]
+- [[The Four Noble Truths Explain Suffering from Attachment]]
+- [[Multiplicity Is a Stage to Pass Through, Not a Destination]]
+- [[Zen Practice Centers on Accepting Impermanence]]
+

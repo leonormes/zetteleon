@@ -12,3 +12,10 @@ updated: null
 ---
 
 During a "Deep Dive" time block, leverage the ADHD "superpower" by continuously asking "What's the very next physical action to move towards my 'Done' state?" and doing it just-in-time. This incorporates brainstorming and organizing on the fly.
+
+
+## Related
+
+- [[Focus on Process Not Completion to Reduce ADHD Overwhelm]] - Shifts the focus from the intimidating final state to the immediate action.
+- [[Practice - Micro-tasking and time-boxing]] - The structural technique that facilitates this loop.
+

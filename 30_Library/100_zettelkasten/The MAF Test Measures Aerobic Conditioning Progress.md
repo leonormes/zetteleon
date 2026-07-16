@@ -29,3 +29,10 @@ Failure modes:
 - Inconsistent testing conditions (terrain, weather, time of day).
 
 Example: Running 3 miles where Mile 1 is 10:00, Mile 2 is 10:15, and Mile 3 is 10:30.
+
+
+## Related
+
+- [[The MAF 180-Formula Calculates the Maximum Aerobic Heart Rate]] - The formula needed to execute the MAF test.
+- [[Aerobic Function Efficiently Burns Fat for Long-Term Energy]] - The underlying physiological benefit measured by the test.
+

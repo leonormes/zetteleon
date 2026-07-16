@@ -48,3 +48,4 @@ Bonhoeffer's theory posits that functional stupidity is not an intellectual fail
 
 - [[Judgment is Thinking Things Through and Examining All Sides|Critical Thinking]]
 - [[MOC - From Information to Knowledge]]
+- [[SoT - Dystopian Frameworks and Social Control]]

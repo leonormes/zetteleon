@@ -50,3 +50,13 @@ kubectl get secret <SECRET_NAME> -n argocd -o jsonpath='{.data.url}' | base64 -d
 
 - Symptom: The working cluster expects `myregistry.azurecr.io` but the failing cluster's secret specifies `oci://myregistry.azurecr.io`.
   - Fix: ArgoCD `repo-server` is failing string interpolation. Reconfigure the secret generation engine (or VSO manifest) to drop or add the scheme protocol as required.
+
+---
+
+## Related
+
+- [[cmd_kubectl_argocd_find_repo_creds]]
+- [[cmd_kubectl_argocd_find_repo_secrets]]
+- [[cmd_kubectl_argocd_get_secret_creds]]
+- [[playbook_argocd_oci_helm_dependency_troubleshooting]]
+- [[cmd_ls_helm_chart_prebuilt_dependencies]]

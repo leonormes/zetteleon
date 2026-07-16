@@ -12,3 +12,10 @@ Timeboxing transforms abstract intentions into concrete, scheduled commitments, 
 By assigning a task to a specific block of time on a calendar, the intention is no longer a floating item on a to-do list. It becomes a tangible appointment that the mind treats more seriously.
 
 This visual representation makes the commitment feel more "real" and harder to ignore, increasing the likelihood that the task will be completed as planned.
+
+
+## Related
+
+- [[Timeboxing Creates Scarcity to Eliminate Non-Essential Activities]] - A complementary psychological effect of timeboxing.
+- [[Timeboxing Combats the Principle of Least Resistance]] - How this tangible commitment overcomes procrastination.
+

@@ -28,3 +28,4 @@ updated: null
 ## Cross-Disciplinary Views
 
 - [[Diagram - Philosophy-Productivity Connections]] (for narrative framing)
+- [[SoT - The Thought-Language Continuum]]

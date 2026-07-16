@@ -60,3 +60,11 @@ To reliably compare SBOMs across versions or formats, components should be match
 - [[SoT - Container Security & Hardening]]
 - [[SoT - SOT - CI-CD Pipelines]]
 - [[GitHub - rezmosssbomlyze SBOM diff & analysis tool for software supply-chain security, integrity drift detection, and CICD enforcement]]
+
+
+## Related
+
+- [[SoT - Container Security & Hardening]]
+- [[Integrate Security into the Workflow (Shift Left)]]
+- [[Protocol - NIST CSF Implementation via Microsegmentation]]
+

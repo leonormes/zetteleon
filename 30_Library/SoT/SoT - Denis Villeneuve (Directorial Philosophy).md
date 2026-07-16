@@ -49,3 +49,11 @@ Villeneuve treats his career as a linear learning process, where each project pr
 - Incendies: A narrative of familial inheritance and the power of truth to dissolve cycles.
 - Prisoners: An interrogation of paternal instinct vs. moral descent.
 - Blade Runner 2049: A masterclass in authenticity within a manufactured world.
+
+---
+
+## Related
+
+- [[SoT - Cyberpunk Derivatives]] — _Biological variants and themes of genetic determinism._
+- [[SoT - Cosmic Horror (Genre Logic)]] — _Scale, insignificance, and the indifferent reality._
+

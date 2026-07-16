@@ -12,3 +12,10 @@ title: The Rawness of Expressive Music is a Sign of its Honesty
 Summary: The unpolished and sometimes imperfect sound of expressive music is a key part of its power and a marker of its honesty.
 
 Details: In music as expression, elements that might be considered 'mistakes' in a commercial context—such as feedback, off-key notes, or a lack of polish—are often the sound of human beings pushing boundaries and prioritizing genuine feeling over technical perfection. This rawness reflects the authentic moment of creation.
+
+
+## Related
+
+- [[Expressive Music Organically Builds Its Own Scene]] - Demonstrates how this rawness fosters authentic community.
+- [[Asking Why a Song Exists Helps Determine Its Authenticity]] - Provides a lens for evaluating intent vs commercialism.
+

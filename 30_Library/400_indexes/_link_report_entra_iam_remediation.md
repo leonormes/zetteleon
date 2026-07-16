@@ -36,3 +36,10 @@ type: link_report
 ### Orphan Atoms (No Links fOund)
 
 (none)
+
+
+## Related
+
+- [[Azure Entra ID IAM → IaC + PIM Migration]]
+- [[SoT - Microsoft Entra Identity]]
+- [[MOC - Identity & Access Management]]

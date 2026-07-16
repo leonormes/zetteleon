@@ -36,3 +36,12 @@ If the Hurry Timer fires first:
 - [ ] `#SAVESTATE`: Log the specific Context Gap you identified (what you now know you don't know).
 - [ ] Set the Next Starter Task: Define the exact search query or doc page to open when you resume.
 - [ ] Close the file. Do not "just five more minutes" it.
+
+
+## Related
+
+- [[MOC - ADHD Experiments & Protocols]]
+- [[MOC - ADHD (The Master Map)]]
+- [[MOC - ADHD Project Continuation Challenge]]
+- [[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]
+

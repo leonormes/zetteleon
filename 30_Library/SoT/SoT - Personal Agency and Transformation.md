@@ -45,3 +45,12 @@ Once momentum is established, apply these three rules to sustain high agency:
 
 - Identity Shift: This model provides the _engine_ for the Identity Shift described in [[SoT - Identity-Based Habit Formation]]. Desperation is the fuel; Agency is the vehicle.
 - Neural Debugging: The "Court Rejection" tactic is a practical application of [[SoT - Cognitive Refactoring (Neural Debugging)]]—forcing the brain to re-evaluate the "danger" of failure.
+
+---
+
+## Related
+
+- [[Resilience is the Ability to Bounce Back from Setbacks]] — _Psychological capacity to adapt to and recover from stress._
+- [[Inner Strength & Resilience Skills (Your Strong Spirit)]] — _Core resilience skills such as bravery, perseverance, and honesty._
+- [[The Self is Constructed Through Curation of Influences]] — _The self is an ongoing editorial process that selects, filters, and integrates influences._
+- [[Humans Retain Freedom to Choose Their Response to Any Situation Regardless of Circumstances]] — _Freedom to choose response to any situation._

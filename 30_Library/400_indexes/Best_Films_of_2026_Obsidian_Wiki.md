@@ -135,3 +135,10 @@ To make this look optimal inside your Obsidian vault:
 1. Copy this source code into an empty `.md` file inside your workspace.
 2. Ensure you have the Dataview plugin installed if you wish to run automated queries across your logs.
 3. Utilize the metadata properties block (`tags`) to filter your media trackers globally.
+
+
+## Related
+
+- [[2026-05-26-pieces-ftfl599-ftfl638-prodos]]
+- [[SoT - Denis Villeneuve (Directorial Philosophy)]]
+- [[2026-05-26-pieces-prodos-workflow-design]]

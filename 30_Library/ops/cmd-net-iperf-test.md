@@ -64,3 +64,6 @@ Expected signal:
 
 - [[pb-netshoot-deployment]]
 - [[cmd-k8s-run-netshoot]]
+- [[SoT - Cloud Networking Principles]]
+- [[SoT - Network Overhead & MTU]]
+- [[sot-network-tools-patterns]]

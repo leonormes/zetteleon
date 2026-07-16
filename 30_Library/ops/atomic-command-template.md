@@ -67,3 +67,4 @@ Expected output pattern:
 - Next step → [[next-logical-command]]
 - Rollback → [[undo-or-rollback-command]]
 - Playbook → [[parent-playbook-name]]
+- [[playbook-template]]

@@ -72,3 +72,10 @@ How is the hierarchy maintained?
 
 - Elite Athletes (The Pop-Aristocracy): High economic capital but precarious status. Unlike the Aristocracy (permanent lineage), their status is performance-dependent and evaporates with fame.
 - The Class Ceiling: Working-class entrants to elite professions earn ~16% less than their privileged peers due to a lack of "soft skills" and "cultural fit" (The Sponsorship Gap).
+
+
+## Related
+
+- [[SoT - Social Stratification]]
+- [[MOC - Social Stratification]]
+

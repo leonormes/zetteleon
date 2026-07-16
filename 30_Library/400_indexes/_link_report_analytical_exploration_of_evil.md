@@ -30,3 +30,10 @@ type: link_report
 | [[Evil Requires Both Culpability and Foreseeability — Without These It Is Tragedy]] | 1 | [[Akrasia is Acting Against One's Better Judgment]]—tension |
 | [[Card's Atrocity Paradigm Identifies Evil via Three Necessary Co-conditions]] | 2 | [[The Traditional Definition of Knowledge is Justified True Belief]]—shared mechanism |
 | [[Evil Attacks the Shared Moral Community Itself Not Merely a Norm Within It]] | 2 | [[Humans Are Social Creatures]]—extends |
+
+
+## Related
+
+- [[Evil Arises from Malice or Thoughtless Banality — Motivation Is Not Determinative]]
+- [[Evil Structurally Requires a Radical Power Asymmetry Directed at the Defenceless]]
+- [[Evil Attacks the Shared Moral Community Itself Not Merely a Norm Within It]]

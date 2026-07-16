@@ -75,3 +75,10 @@ Before the PR is merged, Open Policy Agent (OPA) acts as the Policy Decision Poi
 
 - Domain III (Data-Centric Systems): Access is defined as data (HCL), not ad-hoc clicks.
 - Domain IV (Generative Infra): The "Access Kernel" (Who/What/When) generates the complex PIM schedules.
+
+---
+
+## Related
+
+- [[SoT - GitOps for IAM and Permissions]] — _The Git Repository as the sole Source of Truth for identity and access management._
+- [[cicd_minimal_permissions]] — _Minimal IAM permissions for a secure GitOps workflow._

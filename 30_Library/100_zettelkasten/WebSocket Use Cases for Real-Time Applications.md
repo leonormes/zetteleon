@@ -66,3 +66,9 @@ Alternative considered:
 - Long polling: Better but still overhead from repeated connections
 - Server-Sent Events (SSE): Unidirectional (server to client only)
 - WebSocket: Best for bidirectional real-time needs
+
+
+## Related
+
+- [[WebSocket Protocol Provides Persistent Full-Duplex Communication]] - The foundational protocol that enables these use cases.
+

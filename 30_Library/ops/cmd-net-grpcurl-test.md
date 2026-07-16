@@ -68,3 +68,6 @@ Expected signal:
 
 - [[pb-netshoot-deployment]]
 - [[cmd-k8s-run-netshoot]]
+- [[cmd_curl_auth0_token_test]]
+- [[sot-network-tools-patterns]]
+- [[SoT - The Data-Centric Theory of Networking]]

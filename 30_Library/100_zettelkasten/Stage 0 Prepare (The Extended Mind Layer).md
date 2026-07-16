@@ -22,3 +22,9 @@ The Method: Prime Your Mind for Insight
 3. Tune into Interoception: Pay attention to your internal bodily signals—your "gut feelings." These sensations are a form of non-conscious pattern recognition. A feeling of unease or excitement about an idea is valuable data. Don't ignore it; note it.
 
 > Outcome: You arrive at the page not with a "cold" brain, but with a mind that is warmed up, attentive, and open to new connections.
+
+
+## Related
+- [[Stage 2 Clarify (The On Writing Well Layer)]]
+- [[Chaining Starter Tasks Creates a Momentum Ramp]]
+

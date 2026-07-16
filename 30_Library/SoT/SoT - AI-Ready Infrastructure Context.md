@@ -69,3 +69,4 @@ The context path is documented in the agent's core instructions (e.g., `CLAUDE.m
 
 - [[SoT - LLM Codebase Understanding & Hierarchy]]
 - [[SoT - Cloud-Native Observability]]
+- [[_link_report_agent_first_workflow]]

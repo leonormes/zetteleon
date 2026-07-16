@@ -43,3 +43,9 @@ The Professional's Code:
 When you defeat Resistance by sitting down to work, you invoke a higher force. By committing to the ritual of the work, you signal your seriousness to the "Muse" (or the unconscious), which then provides the inspiration you were waiting for.
 
 - Rule: Inspiration strikes, but it has to find you working.
+
+
+## Related
+
+- [[SoT - Personal Agency and Transformation]] - Relates the act of overcoming resistance to personal agency.
+

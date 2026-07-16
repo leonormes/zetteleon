@@ -53,3 +53,12 @@ OHDSI infrastructure (often packaged in RO-Crates) supports the "Five Safes" of 
 3. Safe Data: Is the data treated to limit disclosure risk?
 4. Safe Settings: Does the access environment prevent unauthorized export?
 5. Safe Outputs: Are the aggregate results non-disclosive?
+
+---
+
+## Related
+
+- [[SoT - OHDSI Analytics]] — _Categorization of observational research into Characterization, PLE, and PLP._
+- [[MoC - OHDSI & OMOP Architecture]] — _Core standards including the Common Data Model (CDM) and Standardized Vocabularies._
+- [[SoT - OHDSI Evidence Generation]] — _Generating reliable evidence by applying best-practice methods across a federated network._
+- [[SoT - Synthea (Synthetic Health Records)]] — _Synthetic patient data generation in the OMOP format._

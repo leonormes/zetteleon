@@ -36,3 +36,8 @@ vm_subnet_address_prefix = [cidrsubnet(local.jumpbox_block_prefix, 3, 0)] # Resu
 ```
 
 This method yields the exact same [[Concept - CIDR Subnet Sizes|CIDR ranges]] but makes the layout explicit: the generic block covers the range `.128-.191`, and the specific VM subnet occupies the first slice of that block.
+
+## Related
+
+- [[Strategy - Hierarchical Subnetting]]
+- [[Atomic Command Template]]

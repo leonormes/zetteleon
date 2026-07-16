@@ -22,3 +22,10 @@ Intentionality is not just wanting to change; it is the active intervention in t
 
 - Saying no to a social media notification to protect a Deep Work session.
 - Saying no to a reactive email response to protect time for family presence.
+
+
+## Related
+
+- [[SoT - Intentional Living]] - The tactical architecture supporting the intentional choice.
+- [[Strong Habits Override Weak Intentions]] - Explains why intentionality must be built into habits.
+

@@ -1,6 +1,6 @@
 ---
 created: 2026-07-13T22:00:00+00:00
-modified: 2026-07-13T21:51:59+00:00
+modified: 2026-07-14T20:01:16+00:00
 permalink: llmeon/30-library/100-zettelkasten/a-false-belief-does-not-diminish-a-persons-worth
 status: draft
 tags: [compassion, decoupling, judgement, worth]

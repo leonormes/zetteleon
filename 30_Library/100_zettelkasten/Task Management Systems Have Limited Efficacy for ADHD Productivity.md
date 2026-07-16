@@ -9,3 +9,8 @@ title: Task Management Systems Have Limited Efficacy for ADHD Productivity
 ---
 
 Task management systems are only as effective as their capacity to reliably capture information, track deadlines, and remain easily accessible. For individuals with ADHD, these systems do not automatically lead to productivity because the primary challenge is not the organization of tasks, but the executive function of initiating them.
+
+
+## Related
+- [[ADHD Brain Wiring vs. Classic Productivity Systems]]
+

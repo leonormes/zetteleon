@@ -1,17 +1,15 @@
 ---
-created: 2026-07-13 22:00:00+00:00
-status: draft
-tags:
-- epistemology
-- facts-vs-values
-- rigour
-title: Analytical Rigour Applies to Facts, the Ecological Model to Values
+created: 2026-07-13T22:00:00+00:00
+modified: 2026-07-14T19:56:23+00:00
 permalink: llmeon/30-library/100-zettelkasten/analytical-rigour-applies-to-facts-the-ecological-model-to-values
+status: draft
+tags: [epistemology, facts-vs-values, rigour]
+title: Analytical Rigour Applies to Facts, the Ecological Model to Values
 ---
 
 ## Analytical Rigour Applies to Facts, the Ecological Model to Values
 
-Summary: Mathematical theorems and engineering principles possess singular, axiomatic truths; social systems, personal values, and emotional responses do not — apply different tools to each.
+Summary: Mathematical theorems and engineering principles possess singular, axiomatic truths; social systems, personal values, and emotional responses do not—apply different tools to each.
 
 Details: The failure mode of the axiomatic mindset is applying theorem-grade truth-seeking to domains that do not have theorem-grade truths. Maintain full analytical rigour for factual and formal claims (where evidence and logic settle the matter), and apply the ecological "plant" model to opinions, preferences, and beliefs (where a person's conclusion is a grown artefact of their inputs). Confusing the two domains produces either false certainty about values or false relativism about facts.
 

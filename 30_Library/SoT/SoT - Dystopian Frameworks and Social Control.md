@@ -40,3 +40,12 @@ title: SoT - Dystopian Frameworks and Social Control
 
 - 1984's Outer Party: Represents the Squeezed Middle. Educated enough to know they are enslaved, but too fearful to act. The true victims.
 - The Proles: Ignorant but free.
+
+---
+
+## Related
+
+- [[MOC - Cyberpunk Genre]] — _Technological ubiquity and societal collapse._
+- [[SoT - Cyberpunk Case Study - Blade Runner]] — _The architecture of control and institutionalized dehumanization._
+- [[MOC - Socio-Technical Dissonance]] — _Social capital vs. technical merit in low-trust environments._
+

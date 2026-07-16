@@ -20,3 +20,10 @@ Usage:
 - Experts move fluidly between levels, understanding when to generalize and when to focus on specifics. This flexibility is crucial for effective problem-solving and communication.
 - Communication requires matching the audience's level of abstraction. Failing to do so can lead to misunderstanding or [[Leaky Abstractions|leaky abstractions]] where underlying details unexpectedly become relevant.
 - The concept of different levels of abstraction also applies to how we define and process information, as explored in [[Three Perspectives on Information (Map of Content)]], where information can be viewed with varying degrees of granularity.
+
+
+## Related
+
+- [[Higher Abstraction Levels Increase Breadth But Reduce Depth]] - Details the tradeoff of moving up the abstraction ladder.
+- [[MOC Symbols vs Concepts They Represent]] - Relates to how abstractions are symbolized.
+

@@ -9,3 +9,8 @@ title: Stillness and Quiet Time are Vital for Idea Generation
 ---
 
 Stillness and quiet time are vital for allowing new ideas to surface. In a world of constant distraction, it is important to resist the urge to fill every moment of silence. Inspiration is often found in these quiet moments when the mind is allowed to wander and listen.
+
+
+## Related
+- [[Transition Times Are Valuable Windows for Creative Insight]]
+
