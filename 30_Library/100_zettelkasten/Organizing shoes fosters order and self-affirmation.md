@@ -6,6 +6,9 @@ permalink: llmeon/30-library/100-zettelkasten/organizing-shoes-fosters-order-and
 source: '[[MOC - 8 simple Japanese habits]]'
 tags: [Japanese_culture, mindfulness, TheHuman/Habits]
 title: Organizing shoes fosters order and self-affirmation
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Arranging shoes neatly after taking them off is a simple Japanese habit that fosters a sense of order and self-affirmation. It provides an immediate reward for a small, deliberate action.

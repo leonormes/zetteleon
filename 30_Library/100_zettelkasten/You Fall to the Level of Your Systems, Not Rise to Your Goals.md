@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:33+00:00
 permalink: llmeon/30-library/100-zettelkasten/you-fall-to-the-level-of-your-systems-not-rise-to-your-goals
 tags: [goals, outcomes, TheHuman/Habits, topic/systems]
 title: You Fall to the Level of Your Systems, Not Rise to Your Goals
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## You Fall to the Level of Your Systems, Not Rise to Your Goals

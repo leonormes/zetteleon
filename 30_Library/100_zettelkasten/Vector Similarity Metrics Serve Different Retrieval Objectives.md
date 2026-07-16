@@ -4,6 +4,9 @@ modified: 2026-07-13T08:52:33+00:00
 permalink: llmeon/30-library/100-zettelkasten/vector-similarity-metrics-serve-different-retrieval-objectives
 tags: [cosine-similarity, euclidean-distance, similarity-metrics, vector-math]
 title: Vector Similarity Metrics Serve Different Retrieval Objectives
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Vector Similarity Metrics Serve Different Retrieval Objectives

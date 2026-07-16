@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/patterns-are-the-scaffolding-of-knowledge
 tags: [learning, scaffolding, TheHuman/Cognition]
 title: Patterns are the Scaffolding of Knowledge
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Patterns Are the Scaffolding of Knowledge

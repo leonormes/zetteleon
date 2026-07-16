@@ -6,6 +6,9 @@ permalink: llmeon/30-library/100-zettelkasten/long-term-depression-is-a-mechanis
 source: '[[MOC - The Science of Making and Breaking Habits]]'
 tags: [learning, TheHuman/Habits, TheHuman/Neuroscience]
 title: Long-Term Depression is a Mechanism for Breaking Habits
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Long-Term Depression (LTD) is a neuroscientific principle that can be leveraged to break bad habits. It involves weakening neural pathways by intentionally dissociating a trigger from its associated habitual response. This follows the principle that "neurons that stop firing together, stop wiring together." This can be done by inserting a pause or a different action between the trigger and the unwanted habit.

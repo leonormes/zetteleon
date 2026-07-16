@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-framework-builds-system-trust
 tags: [reliability, topic/productivity, topic/systems, trust]
 title: The Framework Builds System Trust
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## The Framework Builds System Trust

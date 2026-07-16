@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/set-theory-requires-distinct-objects
 tags: [foundations, set-theory, topic/maths]
 title: Set Theory Requires Distinct Objects
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 The idea that distinction is necessary for numbers is not just philosophical; it is embedded in the formal foundations of modern mathematics.

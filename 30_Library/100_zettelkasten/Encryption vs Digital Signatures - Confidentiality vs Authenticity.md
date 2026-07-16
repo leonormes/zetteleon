@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/encryption-vs-digital-signatures-confidentiality-vs-authenticity
 tags: [cryptography, SoftwareEngineering/Security]
 title: Encryption vs Digital Signatures - Confidentiality vs Authenticity
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 While asymmetric keys use the same underlying modular exponentiation, the process and goal are fundamentally different based on which key is used first.

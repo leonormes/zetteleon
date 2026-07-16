@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:24+00:00
 permalink: llmeon/30-library/100-zettelkasten/cgroups-v2-unified-hierarchy
 tags: [kernel, modern-cgroups, SoftwareEngineering/Linux]
 title: Cgroups v2 Unified Hierarchy
+type: concept
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Cgroups V2

@@ -6,6 +6,9 @@ permalink: llmeon/30-library/100-zettelkasten/finances-in-an-unequal-income-part
 tags: [budgeting, equality, finance, relationship]
 title: Finances in an Unequal-Income Partnership Should Be Treated as Shared Family Money
   Money Money
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Finances in an Unequal-Income Partnership Should Be Treated as Shared Family Money

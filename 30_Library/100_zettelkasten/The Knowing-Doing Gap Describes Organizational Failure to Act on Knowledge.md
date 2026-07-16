@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-knowing-doing-gap-describes-organizational-failure-to-act-on-knowledge
 tags: [business, management, organizational-behavior]
 title: The Knowing-Doing Gap Describes Organizational Failure to Act on Knowledge
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## The Knowing-Doing Gap Describes Organizational Failure to Act on Knowledge

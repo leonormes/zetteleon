@@ -6,6 +6,9 @@ permalink: llmeon/30-library/100-zettelkasten/sensory-supports-facilitate-routin
 source: '[[MOC - Why Autistics and ADHDers NEED Routines]]'
 tags: [coping-tools, sensory-support, transition-aids]
 title: Sensory supports facilitate routine transitions
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Sensory supports (noise-cancelling headphones, fidget tools, weighted objects, sleep masks) facilitate smooth transitions between routine activities and help manage sensory overwhelm when routines are disrupted.

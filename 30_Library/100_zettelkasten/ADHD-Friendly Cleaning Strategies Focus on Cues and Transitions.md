@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:23+00:00
 permalink: llmeon/30-library/100-zettelkasten/adhd-friendly-cleaning-strategies-focus-on-cues-and-transitions
 tags: [cleaning, environmental-cues, TheHuman/Habits, TheHuman/Health/ADHD]
 title: ADHD-Friendly Cleaning Strategies Focus on Cues and Transitions
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 For cleaning to be ADHD-friendly and less stressful, tasks should be woven into existing routines using immediate environmental cues. Instead of setting aside dedicated time for cleaning, small cleaning actions should be aligned with natural transitions in the day (e.g., unloading the dishwasher after breakfast, taking out the trash when leaving the house).

@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/executive-function-deficits-in-adhd-impact-developer-productivity
 tags: [executive-function, SoftwareEngineering, TheHuman/Health/ADHD, topic/productivity]
 title: Executive Function Deficits in ADHD Impact Developer Productivity
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Executive Function Deficits in ADHD Impact Developer Productivity

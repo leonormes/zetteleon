@@ -5,6 +5,9 @@ permalink: llmeon/30-library/100-zettelkasten/tragic-optimism-is-hope-and-meanin
 tags: [optimism, perspective, resilience, suffering]
 title: Tragic Optimism Is Hope and Meaning That Acknowledges Rather Than Denies the Tragic Triad
   Tragic Triad Tragic Triad
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Tragic Optimism Is Hope and Meaning That Acknowledges Rather Than Denies the Tragic Triad

@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-traditional-definition-of-knowledge-is-justified-true-belief
 tags: [epistemology, knowledge, TheHuman/Philosophy]
 title: The Traditional Definition of Knowledge is Justified True Belief
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## The Traditional Definition of Knowledge is Justified True Belief

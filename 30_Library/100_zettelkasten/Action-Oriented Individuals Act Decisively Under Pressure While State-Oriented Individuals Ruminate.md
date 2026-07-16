@@ -6,6 +6,9 @@ permalink: llmeon/30-library/100-zettelkasten/action-oriented-individuals-act-de
 tags: [personality, TheHuman/Psychology, volition]
 title: Action-Oriented Individuals Act Decisively Under Pressure While State-Oriented Individuals Ruminate
   Individuals Ruminate Individuals Ruminate
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Action-Oriented Individuals Act Decisively Under Pressure While State-Oriented Individuals Ruminate

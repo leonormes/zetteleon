@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:23+00:00
 permalink: llmeon/30-library/100-zettelkasten/adhd-working-memory-deficits-create-a-compulsive-re-planning-loop
 tags: [anxiety, rumination, TheHuman/Health/ADHD, working-memory]
 title: ADHD Working Memory Deficits Create a Compulsive Re-Planning Loop
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## ADHD Working Memory Deficits Create a Compulsive Re-Planning Loop

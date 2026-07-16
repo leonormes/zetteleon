@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/praxis-is-the-cyclical-process-of-action-and-reflection-to-transform-the-world
 tags: [action, TheHuman/Philosophy, theory]
 title: Praxis is the Cyclical Process of Action and Reflection to Transform the World
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Praxis is the Cyclical Process of Action and Reflection to Transform the World

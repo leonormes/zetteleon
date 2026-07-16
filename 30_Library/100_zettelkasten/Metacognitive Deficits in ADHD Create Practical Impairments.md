@@ -17,4 +17,4 @@ When a person with ADHD struggles with metacognition, it leads to tangible, real
 
 - [[ADHD Emotional Reasoning]]
 - [[The DMN as a Demon - Negative Rumination in ADHD]]
-- [[Why Importance and Rewards Fail to Motivate ADHD Brains]]
+- [[Claim - Intrinsic motivation lowers ADHD activation cost compared to external pressure]]

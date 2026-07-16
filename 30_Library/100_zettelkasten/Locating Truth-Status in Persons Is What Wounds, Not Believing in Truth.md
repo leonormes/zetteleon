@@ -5,6 +5,9 @@ permalink: llmeon/30-library/100-zettelkasten/locating-truth-status-in-persons-i
 status: draft
 tags: [decoupling, ego, epistemology, identity, self-compassion]
 title: Locating Truth-Status in Persons Is What Wounds, Not Believing in Truth
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Locating Truth-Status in Persons Is What Wounds, Not Believing in Truth

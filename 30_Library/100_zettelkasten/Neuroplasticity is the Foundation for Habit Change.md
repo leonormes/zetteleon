@@ -6,6 +6,9 @@ permalink: llmeon/30-library/100-zettelkasten/neuroplasticity-is-the-foundation-
 source: '[[MOC - The Science of Making and Breaking Habits]]'
 tags: [learning, neuroplasticity, TheHuman/Habits, TheHuman/Neuroscience]
 title: Neuroplasticity is the Foundation for Habit Change
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Neuroplasticity is the brain's ability to rewire its neural circuits in response to repeated experiences. This is the fundamental mechanism underlying all habit formation and change. It involves processes like Hebbian learning ("neurons that fire together, wire together") and NMDA receptor activation.

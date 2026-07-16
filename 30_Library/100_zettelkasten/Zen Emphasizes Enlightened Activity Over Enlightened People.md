@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:33+00:00
 permalink: llmeon/30-library/100-zettelkasten/zen-emphasizes-enlightened-activity-over-enlightened-people
 tags: [action, buddhism, compassion, zen]
 title: Zen Emphasizes Enlightened Activity Over Enlightened People
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Zen Emphasizes Enlightened Activity Over Enlightened People

@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/proto-systems-are-informal-collective-routines-that-organize-work
 tags: [culture, history, sociology, topic/productivity, topic/systems]
 title: Proto-systems Are Informal Collective Routines That Organize Work
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Proto-systems Are Informal Collective Routines That Organize Work

@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/dns-resolver-search-lists-complete-unqualified-domain-names
 tags: [SoftwareEngineering/Networking, SoftwareEngineering/networking/dns]
 title: DNS Resolver Search Lists Complete Unqualified Domain Names
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## DNS Resolver Search Lists Complete Unqualified Domain Names

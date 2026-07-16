@@ -6,6 +6,9 @@ permalink: llmeon/30-library/100-zettelkasten/strong-habits-are-context-independ
 source: '[[MOC - The Science of Making and Breaking Habits]]'
 tags: [automation, context, TheHuman/Habits]
 title: Strong Habits are Context-Independent
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Strong, deeply embedded habits are context-independent. This means they can be performed automatically, regardless of external factors like location, mood, or disruptions to a routine. Context-independence is a key indicator that a habit has been successfully formed.

@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/digital-tools-help-externalize-memory-and-structure-for-adhd-developers
 tags: [SoftwareEngineering, TheHuman/Health/ADHD, tools, topic/productivity]
 title: Digital Tools Help Externalize Memory and Structure for ADHD Developers
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Digital Tools Help Externalize Memory and Structure for ADHD Developers

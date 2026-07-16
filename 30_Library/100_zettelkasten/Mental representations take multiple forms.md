@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/mental-representations-take-multiple-forms
 tags: [cognitive-science, mental-representation, TheHuman/Neuroscience]
 title: Mental representations take multiple forms
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Mental Representations Take Multiple Forms

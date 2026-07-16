@@ -6,6 +6,9 @@ permalink: llmeon/30-library/100-zettelkasten/okagesamade-acknowledges-the-suppo
 source: '[[MOC - 8 simple Japanese habits]]'
 tags: [community, gratitude, Japanese_culture, TheHuman/Habits]
 title: "Okagesamade acknowledges the support of others in one's wellbeing"
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 "Okagesamade" is a Japanese expression that acknowledges the interconnectedness of one's wellbeing with the support of others. It translates to the sentiment, "I am well, thanks to you and everyone who supports me," fostering humility and a strong sense of community.

@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/perspective-is-providing-wise-counsel-to-others
 tags: [character-strength, perspective, wisdom]
 title: Perspective is Providing Wise Counsel to Others
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Perspective is the ability to provide wise counsel to others. It involves having ways of looking at the world that make sense to oneself and to others.

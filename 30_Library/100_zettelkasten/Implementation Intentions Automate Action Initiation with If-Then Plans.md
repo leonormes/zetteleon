@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/implementation-intentions-automate-action-initiation-with-if-then-plans
 tags: [behavior-change, planning, TheHuman/Habits, TheHuman/Psychology]
 title: Implementation Intentions Automate Action Initiation with If-Then Plans
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Implementation Intentions Automate Action Initiation with If-Then Plans

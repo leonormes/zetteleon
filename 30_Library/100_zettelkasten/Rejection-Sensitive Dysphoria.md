@@ -6,6 +6,9 @@ related_to: ["[[MOC - ADHD and PKM Systems]]"]
 supports: ["[[Claim - ADHD perfectionism is maladaptive compensation]]"]
 tags: [adhd, emotional-regulation, rsd]
 title: Rejection-Sensitive Dysphoria
+type: concept
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 An intense, often disproportionate emotional response to perceived failure, criticism or rejection, commonly associated with ADHD.

@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-rapid-planning-method-rpm-is-a-purpose-driven-system
 tags: [goals, purpose, TheHuman/Motivation, topic/productivity, topic/systems]
 title: The Rapid Planning Method (RPM) is a Purpose-Driven System
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## The Rapid Planning Method (RPM) is a Purpose-Driven System

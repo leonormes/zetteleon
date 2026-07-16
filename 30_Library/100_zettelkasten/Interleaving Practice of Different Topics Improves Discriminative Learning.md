@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:28+00:00
 permalink: llmeon/30-library/100-zettelkasten/interleaving-practice-of-different-topics-improves-discriminative-learning
 tags: [interleaving, learning, TheHuman/Habits]
 title: Interleaving Practice of Different Topics Improves Discriminative Learning
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Interleaving Practice of Different Topics Improves Discriminative Learning

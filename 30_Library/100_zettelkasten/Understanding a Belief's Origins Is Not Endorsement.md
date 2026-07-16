@@ -8,6 +8,9 @@ tags:
 - politics
 title: Understanding a Belief's Origins Is Not Endorsement
 permalink: llmeon/30-library/100-zettelkasten/understanding-a-beliefs-origins-is-not-endorsement
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Understanding a Belief's Origins Is Not Endorsement

@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/meta-accuracy-in-social-perception
 tags: [topic/social-cognition, topic/social-perception]
 title: Meta-Accuracy in Social Perception
+type: concept
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Meta-Accuracy in Social Perception

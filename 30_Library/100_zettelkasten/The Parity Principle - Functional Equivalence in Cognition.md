@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-parity-principle-functional-equivalence-in-cognition
 tags: [cognition, logic, TheHuman/Philosophy]
 title: The Parity Principle - Functional Equivalence in Cognition
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 The Parity Principle is the philosophical heart of the [[SoT - The Extended Mind Thesis|EMT]]. It states:

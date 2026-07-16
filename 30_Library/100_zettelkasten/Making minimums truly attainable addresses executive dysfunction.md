@@ -6,6 +6,9 @@ permalink: llmeon/30-library/100-zettelkasten/making-minimums-truly-attainable-a
 source: '[[MOC - The Honeyman Method]]'
 tags: [executive-dysfunction, routines, strategy, TheHuman/Health/ADHD]
 title: Making minimums truly attainable addresses executive dysfunction
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Making minimums truly attainable addresses executive dysfunction by setting the bar for "success" low enough that it remains achievable even during periods of severe executive function impairment, while still maintaining the routine structure that prevents complete habit collapse.

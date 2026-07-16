@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/cognitive-reframing-of-criticism
 tags: [growth, TheHuman/Psychology]
 title: Cognitive Reframing of Criticism
+type: concept
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Cognitive Reframing of Criticism

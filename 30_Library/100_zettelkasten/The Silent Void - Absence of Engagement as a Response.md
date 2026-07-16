@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-silent-void-absence-of-engagement-as-a-response
 tags: [communication, patterns, relationships]
 title: The Silent Void - Absence of Engagement as a Response
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 The Silent Void is a communication pattern where a partner consistently fails to engage with, remember, or revisit valid concerns raised by the other. This absence of engagement is not a "lack of response" but an active signal regarding the division of emotional labour.

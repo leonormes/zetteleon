@@ -6,6 +6,9 @@ modified: 2026-07-13T08:52:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/mindfulness-is-non-judgmental-present-moment-awareness
 tags: [awareness, buddhism, mindfulness, zen]
 title: Mindfulness is Non-Judgmental Present-Moment Awareness
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Mindfulness is Non-Judgmental Present-Moment Awareness

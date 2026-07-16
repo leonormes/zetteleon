@@ -32,7 +32,7 @@ Commonly observed in modern digital communication environments and AI-assisted t
 
 ### Related
 
-- [[The Activation Cost of Tasks is Higher in ADHD]]—shared mechanism: identifying activation cost as a primary bottleneck for task initiation.
+- [[Claim - Intrinsic motivation lowers ADHD activation cost compared to external pressure]]—shared mechanism: identifying activation cost as a primary bottleneck for task initiation.
 - [[Micro-Stepping Reduces Cognitive Load for Task Initiation]]—supports: by providing a counter-mechanism to manage high activation costs.
 
 ### See Also

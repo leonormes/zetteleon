@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/prior-knowledge-organized-as-schemas-provides-the-foundation-for-new-learning
 tags: [learning, memory, schema-theory, TheHuman/Cognition]
 title: Prior Knowledge Organized as Schemas Provides the Foundation for New Learning
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Prior Knowledge Organized as Schemas Provides the Foundation for New Learning

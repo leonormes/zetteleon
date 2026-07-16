@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/pattern-helm-chart-as-a-compiler
 tags: [devops, helm, pattern, SoftwareEngineering/Architecture]
 title: Pattern - Helm Chart as a Compiler
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Pattern: Helm Chart as a Compiler

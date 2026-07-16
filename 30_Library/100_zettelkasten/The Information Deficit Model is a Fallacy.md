@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-information-deficit-model-is-a-fallacy
 tags: [behavior-change, fallacy, TheHuman/Psychology]
 title: The Information Deficit Model is a Fallacy
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## The Information Deficit Model is a Fallacy

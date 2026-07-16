@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/controlling-financial-behavior-is-unilateral-and-removes-a-partners-agency
 tags: [autonomy, finance, relationship]
 title: "Controlling Financial Behavior is Unilateral and Removes a Partner's Agency"
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Controlling Financial Behavior is Unilateral and Removes a Partner's Agency

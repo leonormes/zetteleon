@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/give-every-dollar-a-job-ynab-rule-1
 tags: [budgeting, finance, psychology, ynab]
 title: Give Every Dollar a Job (YNAB Rule 1)
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 The foundational principle of the YNAB method is to "Give Every Dollar (or Pound) a Job." This practice operationalises Zero-Based Budgeting (ZBB) by proactively assigning every unit of currency currently possessed to a specific category until the "Ready to Assign" balance reaches zero.

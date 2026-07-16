@@ -6,6 +6,9 @@ permalink: llmeon/30-library/100-zettelkasten/protecting-attention-is-the-first-
 source: '[[MOC - How to Build Discipline]]'
 tags: [attention, digital-minimalism, discipline, focus]
 title: Protecting Attention is the First Rule of Discipline
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 In the modern world of constant digital distraction and dopamine hijacking, the first rule of discipline is to protect your time, energy, and attention. This is more critical than relying on pure willpower, as the environment is actively working against your ability to focus.

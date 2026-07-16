@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-self-is-constructed-through-a-commitment-to-chosen-values
 tags: [existentialism, integrity, self, TheHuman/Identity, values]
 title: The Self is Constructed Through a Commitment to Chosen Values
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## The Self is Constructed Through a Commitment to Chosen Values

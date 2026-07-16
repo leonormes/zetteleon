@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/executive-function-impairment-during-adhd-trough-phase
 tags: [brain-fog, executive-function, TheHuman/Cognition, TheHuman/Health/ADHD]
 title: Executive Function Impairment During ADHD Trough Phase
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Summary: During the trough phase following hyperfixation, executive functions—which are already challenging for people with ADHD—become particularly impaired, making it extremely difficult to initiate tasks, plan, organize, or regulate emotions.

@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/originality-is-the-unique-synthesis-of-existing-ideas
 tags: [ideas, originality, synthesis, TheHuman/Creativity]
 title: Originality is the Unique Synthesis of Existing Ideas
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Originality is the Unique Synthesis of Existing Ideas

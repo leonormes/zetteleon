@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/social-constructs-are-not-arbitrary-they-are-real-in-their-effects
 tags: [meaning, reality, social-constructs, TheHuman/Philosophy]
 title: Social Constructs are Not Arbitrary, They are Real in Their Effects
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Social Constructs Are Not Arbitrary, They Are Real in Their Effects

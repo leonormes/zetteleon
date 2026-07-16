@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/next-generation-firewalls-ngfw-provide-application-aware-security
 tags: [SoftwareEngineering/Networking, SoftwareEngineering/Security]
 title: Next-Generation Firewalls (NGFW) Provide Application-Aware Security
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Next-Generation Firewalls (NGFW) Provide Application-Aware Security

@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/formalism-mathematics-as-symbol-manipulation
 tags: [foundations, TheHuman/Philosophy, topic/maths]
 title: Formalism (Mathematics as Symbol Manipulation)
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Summary: Formalism holds that mathematics is not about anything "real" but is the manipulation of meaningless symbols according to pre-defined, formal rules. The focus is on internal consistency rather than meaning or connection to reality.

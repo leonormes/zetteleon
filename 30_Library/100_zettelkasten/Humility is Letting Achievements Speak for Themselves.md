@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/humility-is-letting-achievements-speak-for-themselves
 tags: [character-strength, ego, humility, modesty, virtue]
 title: Humility is Letting Achievements Speak for Themselves
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Humility is the quality of being modest and having a low view of one's own importance. It is not about thinking less of yourself, but about thinking of yourself less.

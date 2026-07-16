@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/embodied-confidence-comes-from-direct-feedback-in-physical-skills
 tags: [competence, confidence, embodiment, learning, topic/skill]
 title: Embodied Confidence Comes From Direct Feedback in Physical Skills
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Embodied Confidence Comes From Direct Feedback in Physical Skills

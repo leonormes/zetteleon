@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/concept-network-bridge-vs-router
 tags: [SoftwareEngineering/networking/infrastructure]
 title: Concept - Network Bridge vs Router
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Network Bridge Vs Router

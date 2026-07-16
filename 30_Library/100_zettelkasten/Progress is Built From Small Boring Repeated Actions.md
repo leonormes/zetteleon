@@ -6,6 +6,9 @@ permalink: llmeon/30-library/100-zettelkasten/progress-is-built-from-small-borin
 source: '[[MOC - How to Build Discipline]]'
 tags: [consistency, discipline, progress, TheHuman/Habits]
 title: Progress is Built From Small Boring Repeated Actions
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Real progress is built from small, consistently repeated actions that are often boring and invisible. While grand gestures get attention, true achievement comes from the discipline of sticking with mundane, repetitive tasks over a long period, even when there are no immediate visible results.

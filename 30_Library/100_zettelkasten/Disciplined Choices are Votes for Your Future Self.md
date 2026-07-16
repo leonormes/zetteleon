@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/disciplined-choices-are-votes-for-your-future-self
 tags: [discipline, TheHuman/Habits, TheHuman/Identity, TheHuman/Mindset]
 title: Disciplined Choices are Votes for Your Future Self
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Every small, disciplined choice you make is a "vote" for the future version of yourself you want to become. Conversely, regressing or drifting away from your goals is the result of repeated, undisciplined votes. This framing turns every action, no matter how small, into a meaningful step toward building your desired identity.

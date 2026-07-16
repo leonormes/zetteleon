@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/smp-8-is-looking-for-and-expressing-regularity-in-repeated-reasoning
 tags: [education, maths, reasoning]
 title: SMP 8 is Looking For and Expressing Regularity in Repeated Reasoning
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SMP 8 is Looking For and Expressing Regularity in Repeated Reasoning

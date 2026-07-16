@@ -6,6 +6,9 @@ prerequisite_of: ["[[Claim - Capture is easy but processing is hard]]"]
 related_to: ["[[Cognitive Load]]", "[[MOC - ADHD and PKM Systems]]"]
 tags: [adhd, cognition, executive-function]
 title: Executive Function
+type: concept
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Executive Function

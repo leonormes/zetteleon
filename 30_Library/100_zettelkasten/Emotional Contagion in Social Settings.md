@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/emotional-contagion-in-social-settings
 tags: [emotion, topic/social-cognition, topic/social-perception]
 title: Emotional Contagion in Social Settings
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Emotional Contagion in Social Settings

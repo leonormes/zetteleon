@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-noumenal-phenomenal-distinction-limits-knowability
 tags: [epistemology, Kant, limits-of-knowledge, TheHuman/Philosophy]
 title: The noumenal-phenomenal distinction limits knowability
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## The Noumenal-phenomenal Distinction Limits Knowability

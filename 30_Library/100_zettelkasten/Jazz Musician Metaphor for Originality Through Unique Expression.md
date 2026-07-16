@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:28+00:00
 permalink: llmeon/30-library/100-zettelkasten/jazz-musician-metaphor-for-originality-through-unique-expression
 tags: [jazz, metaphor, originality, TheHuman/Creativity, topic/creativity]
 title: Jazz Musician Metaphor for Originality Through Unique Expression
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Jazz Musician Metaphor for Originality Through Unique Expression

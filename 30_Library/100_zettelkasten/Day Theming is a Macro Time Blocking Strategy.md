@@ -6,6 +6,9 @@ permalink: llmeon/30-library/100-zettelkasten/day-theming-is-a-macro-time-blocki
 project_name: ProdOS
 tags: [planning, strategy, time-blocking, topic/productivity]
 title: Day Theming is a Macro Time Blocking Strategy
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Day Theming is a Macro Time Blocking Strategy

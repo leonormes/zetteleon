@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/mathematics-is-frequently-described-as-the-science-of-patterns
 tags: [topic/maths]
 title: Mathematics Is Frequently Described as the Science of Patterns
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Summary: Mathematics is the science of patterns, defined as the study of structure, order, and regularity in all its forms. This represents a modern synthesis that unifies diverse mathematical activities under a single principle.

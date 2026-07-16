@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/political-subversion-through-animal-allegory
 tags: [politics, storytelling]
 title: Political Subversion Through Animal Allegory
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Political Subversion Through Animal Allegory

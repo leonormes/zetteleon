@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/higher-abstraction-levels-increase-breadth-but-reduce-depth
 tags: [abstraction, TheHuman/Cognition]
 title: Higher Abstraction Levels Increase Breadth But Reduce Depth
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Higher Abstraction Levels Increase Breadth But Reduce Depth

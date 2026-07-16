@@ -6,6 +6,9 @@ permalink: llmeon/30-library/100-zettelkasten/learning-is-the-acquisition-of-inf
 tags: [learning, pedagogy, TheHuman/Cognition, understanding]
 title: Learning is the Acquisition of Information While Understanding is the Construction of Meaning
   of Meaning of Meaning
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Learning is the Acquisition of Information While Understanding is the Construction of Meaning

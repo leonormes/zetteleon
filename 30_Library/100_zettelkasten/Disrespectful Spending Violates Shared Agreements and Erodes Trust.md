@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/disrespectful-spending-violates-shared-agreements-and-erodes-trust
 tags: [boundaries, finance, relationship, respect, trust]
 title: Disrespectful Spending Violates Shared Agreements and Erodes Trust
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Disrespectful Spending Violates Shared Agreements and Erodes Trust

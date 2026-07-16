@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/contexts-reduce-overwhelm-and-support-working-memory-for-adhd
 tags: [action, context, executive-function, TheHuman/Health/ADHD, topic/productivity]
 title: Contexts Reduce Overwhelm and Support Working Memory for ADHD
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Contexts Reduce Overwhelm and Support Working Memory for ADHD

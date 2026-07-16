@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/problem-solving-and-application-consolidate-learning-by-actively-using-knowledge
 tags: [application, learning, problem-solving, schema-theory]
 title: Problem-Solving and Application Consolidate Learning by Actively Using Knowledge
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Problem-Solving and Application Consolidate Learning by Actively Using Knowledge

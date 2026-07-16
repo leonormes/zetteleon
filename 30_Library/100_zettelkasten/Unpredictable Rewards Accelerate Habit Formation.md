@@ -6,6 +6,9 @@ permalink: llmeon/30-library/100-zettelkasten/unpredictable-rewards-accelerate-h
 source: '[[MOC - The Science of Making and Breaking Habits]]'
 tags: [dopamine, rewards, TheHuman/Habits, TheHuman/Neuroscience]
 title: Unpredictable Rewards Accelerate Habit Formation
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Dopaminergic rewards accelerate habit formation, but unpredictable or "surprise" rewards have the strongest effect. The brain responds more strongly to unexpected positive outcomes. This principle can be leveraged by using subjective anticipation and self-reward, but avoiding consistently externalizing rewards, to increase the "stickiness" of a new habit.

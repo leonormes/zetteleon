@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/flow-state-is-a-state-of-optimal-dopamine-stimulation
 tags: [dopamine, TheHuman/Health/ADHD, TheHuman/Psychology, topic/productivity]
 title: Flow State is a State of Optimal Dopamine Stimulation
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Flow State is a State of Optimal Dopamine Stimulation

@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/concept-maximum-transmission-unit-vs-maximum-segment-size
 tags: [SoftwareEngineering/networking/protocol]
 title: Concept - Maximum Transmission Unit vs Maximum Segment Size
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Maximum Transmission Unit Vs Maximum Segment Size

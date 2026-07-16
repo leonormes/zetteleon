@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/problems-are-fundamental-to-meaningful-work
 tags: [TheHuman/Psychology, topic/productivity]
 title: Problems Are Fundamental to Meaningful Work
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Problems Are Fundamental to Meaningful Work

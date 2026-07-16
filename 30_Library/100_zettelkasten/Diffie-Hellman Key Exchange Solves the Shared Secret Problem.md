@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/diffie-hellman-key-exchange-solves-the-shared-secret-problem
 tags: [cryptography, diffie-hellman]
 title: Diffie-Hellman Key Exchange Solves the Shared Secret Problem
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Diffie-Hellman (DH) is a method for two parties to agree on a shared secret key over a public, insecure channel. Unlike RSA, it is not used for encrypting messages themselves, but for establishing the session key for symmetric encryption.

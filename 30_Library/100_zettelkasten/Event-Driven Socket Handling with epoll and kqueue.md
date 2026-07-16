@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/event-driven-socket-handling-with-epoll-and-kqueue
 tags: [bsd, performance, scalability, socket, SoftwareEngineering/Linux, SoftwareEngineering/Networking]
 title: Event-Driven Socket Handling with epoll and kqueue
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Event-Driven Socket Handling with Epoll and Kqueue

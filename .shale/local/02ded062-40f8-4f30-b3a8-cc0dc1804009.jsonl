@@ -1,0 +1,4 @@
+{"kind":"session_meta","at":"2026-07-16T15:11:30.85361Z","tool":"claude-code","session_id":"02ded062-40f8-4f30-b3a8-cc0dc1804009"}
+{"kind":"session_end","at":"2026-07-16T15:11:31.683063Z"}
+{"kind":"intent","at":"2026-07-16T15:11:50.577755Z","title":"Refactor SoT - ProdOS Note Metadata to incorporate TAC schemas","body":"Updating the Source of Truth for frontmatter to align with the new Typed Answer Contracts (TAC) required by the latest ProdOS plans."}
+{"kind":"intent","at":"2026-07-16T15:12:37.493407Z","title":"Refactor MOC - ADHD and PKM Systems to adhere to TAC map schema","body":"Updating the frontmatter to use 'type: map' and adding TAC conformance flags, as well as updating the body text to reflect the new Typed Answer Contract constraints."}

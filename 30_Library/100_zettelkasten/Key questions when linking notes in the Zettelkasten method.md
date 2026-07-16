@@ -3,6 +3,9 @@ created: 2026-05-04T08:01:26+00:00
 modified: 2026-07-13T08:52:28+00:00
 permalink: llmeon/30-library/100-zettelkasten/key-questions-when-linking-notes-in-the-zettelkasten-method
 title: Key questions when linking notes in the Zettelkasten method
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Key Questions when Linking Notes in the Zettelkasten Method

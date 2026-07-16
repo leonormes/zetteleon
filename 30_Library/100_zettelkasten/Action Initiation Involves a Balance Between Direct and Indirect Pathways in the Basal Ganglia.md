@@ -6,6 +6,9 @@ permalink: llmeon/30-library/100-zettelkasten/action-initiation-involves-a-balan
 tags: [action, basal-ganglia, brain, TheHuman/Neuroscience]
 title: Action Initiation Involves a Balance Between Direct and Indirect Pathways in the Basal Ganglia
   the Basal Ganglia the Basal Ganglia
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Action Initiation Involves a Balance Between Direct and Indirect Pathways in the Basal Ganglia

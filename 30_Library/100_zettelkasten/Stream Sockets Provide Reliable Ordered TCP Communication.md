@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/stream-sockets-provide-reliable-ordered-tcp-communication
 tags: [protocol, socket, SoftwareEngineering/Networking, tcp]
 title: Stream Sockets Provide Reliable Ordered TCP Communication
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Stream Sockets Provide Reliable Ordered TCP Communication

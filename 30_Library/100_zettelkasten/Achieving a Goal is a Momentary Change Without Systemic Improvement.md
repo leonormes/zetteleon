@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:23+00:00
 permalink: llmeon/30-library/100-zettelkasten/achieving-a-goal-is-a-momentary-change-without-systemic-improvement
 tags: [behavior-change, goals, TheHuman/Habits, topic/systems]
 title: Achieving a Goal is a Momentary Change Without Systemic Improvement
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Achieving a Goal is a Momentary Change Without Systemic Improvement

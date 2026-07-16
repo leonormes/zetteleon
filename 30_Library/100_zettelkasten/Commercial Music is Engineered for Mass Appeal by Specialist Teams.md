@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/commercial-music-is-engineered-for-mass-appeal-by-specialist-teams
 tags: [commerce, music, product, production]
 title: Commercial Music is Engineered for Mass Appeal by Specialist Teams
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Commercial Music is Engineered for Mass Appeal by Specialist Teams

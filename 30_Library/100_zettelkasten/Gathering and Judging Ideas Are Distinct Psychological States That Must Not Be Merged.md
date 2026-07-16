@@ -5,6 +5,9 @@ permalink: llmeon/30-library/100-zettelkasten/gathering-and-judging-ideas-are-di
 tags: [cognition, gtd, psychology, workflow]
 title: Gathering and Judging Ideas Are Distinct Psychological States That Must Not Be Merged
   Be Merged Be Merged
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Gathering and Judging Ideas Are Distinct Psychological States That Must Not Be Merged

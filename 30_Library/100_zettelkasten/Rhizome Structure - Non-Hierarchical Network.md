@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/rhizome-structure-non-hierarchical-network
 tags: [network-topology, structure, topic/pkm, topic/pkm/zettelkasten]
 title: Rhizome Structure - Non-Hierarchical Network
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Rhizome Structure - Non-Hierarchical Network

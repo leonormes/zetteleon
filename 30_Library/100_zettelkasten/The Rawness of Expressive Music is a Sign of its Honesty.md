@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-rawness-of-expressive-music-is-a-sign-of-its-honesty
 tags: [authenticity, expression, imperfection, music]
 title: The Rawness of Expressive Music is a Sign of its Honesty
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## The Rawness of Expressive Music is a Sign of Its Honesty

@@ -6,6 +6,9 @@ permalink: llmeon/30-library/100-zettelkasten/making-a-behavior-easy-increases-t
 source: '[[MOC - ADHD Routine Building Strategies]]'
 tags: [TheHuman/Habits, TheHuman/Health/ADHD, TheHuman/Psychology, topic/productivity]
 title: Making a behavior easy increases the likelihood it will become a habit
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 A fundamental principle of habit formation, especially relevant for ADHD, is that the easier a behavior is to perform, the more likely it is to stick. Once a simple habit feels automatic, new habits can be layered on top, one at a time, to gradually build a more complex routine.

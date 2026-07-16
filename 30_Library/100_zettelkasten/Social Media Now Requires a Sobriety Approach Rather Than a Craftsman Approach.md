@@ -4,6 +4,9 @@ modified: 2026-07-13T08:52:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/social-media-now-requires-a-sobriety-approach-rather-than-a-craftsman-approach
 tags: [addiction, digital-minimalism, dopamine, social-media]
 title: Social Media Now Requires a Sobriety Approach Rather Than a Craftsman Approach
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Social Media Now Requires a Sobriety Approach Rather Than a Craftsman Approach

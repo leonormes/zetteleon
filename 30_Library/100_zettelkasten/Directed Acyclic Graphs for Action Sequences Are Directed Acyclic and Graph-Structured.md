@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/directed-acyclic-graphs-for-action-sequences-are-directed-acyclic-and-graph-structured
 tags: [definition, graph-theory, topic/productivity, workflow]
 title: Directed Acyclic Graphs for Action Sequences Are Directed Acyclic and Graph-Structured
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Directed Acyclic Graphs for Action Sequences Are Directed Acyclic and Graph-Structured

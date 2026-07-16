@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/externalizing-progress-makes-it-tangible-and-motivational
 tags: [TheHuman/Health/ADHD, topic/productivity, visualization, working-memory]
 title: Externalizing Progress Makes it Tangible and Motivational
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Externalizing Progress Makes it Tangible and Motivational

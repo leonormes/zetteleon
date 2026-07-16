@@ -8,6 +8,9 @@ tags:
 - judgement
 title: Judge a Worldview by Its Utility in Its Environment, Not Its Correctness
 permalink: llmeon/30-library/100-zettelkasten/judge-a-worldview-by-its-utility-in-its-environment-not-its-correctness
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Judge a Worldview by Its Utility in Its Environment, Not Its Correctness

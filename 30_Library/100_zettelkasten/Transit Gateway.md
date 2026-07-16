@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:33+00:00
 permalink: llmeon/30-library/100-zettelkasten/transit-gateway
 tags: [aws, azure, SoftwareEngineering/Networking]
 title: Transit Gateway
+type: concept
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Transit Gateway

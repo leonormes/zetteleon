@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/neuroplasticity-is-the-brains-ability-to-change-in-response-to-experience
 tags: [brain, learning, neuroplasticity, TheHuman/Neuroscience]
 title: "Neuroplasticity is the Brain's Ability to Change in Response to Experience"
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Neuroplasticity is the Brain's Ability to Change in Response to Experience

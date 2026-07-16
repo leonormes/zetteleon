@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/chasing-enlightenment-as-a-goal-causes-suffering
 tags: [buddhism, suffering, TheHuman/Mindset, zen]
 title: Chasing Enlightenment as a Goal Causes Suffering
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Chasing Enlightenment as a Goal Causes Suffering

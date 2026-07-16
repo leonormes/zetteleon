@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:33+00:00
 permalink: llmeon/30-library/100-zettelkasten/zen-practice-centers-on-accepting-impermanence
 tags: [acceptance, buddhism, impermanence, zen]
 title: Zen Practice Centers on Accepting Impermanence
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Zen Practice Centers on Accepting Impermanence

@@ -6,6 +6,9 @@ modified: 2026-07-13T08:52:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/primes-become-rarer-but-remain-searchable
 tags: [cryptography, maths]
 title: Primes Become Rarer But Remain Searchable
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 As numbers get larger, the Density of Primes decreases. This is because larger numbers have more opportunities to be divisible by smaller primes (the "filtering effect").

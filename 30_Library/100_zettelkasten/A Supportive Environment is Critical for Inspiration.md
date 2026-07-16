@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:23+00:00
 permalink: llmeon/30-library/100-zettelkasten/a-supportive-environment-is-critical-for-inspiration
 tags: [environment, inspiration, TheHuman/Creativity]
 title: A Supportive Environment is Critical for Inspiration
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 A supportive environment is critical for fostering creativity. This involves intentionally designing your workspace with things you love and that inspire you. When possible, taking your work outdoors can also provide a significant boost to inspiration and offer a mental reset.

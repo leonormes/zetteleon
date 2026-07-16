@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:33+00:00
 permalink: llmeon/30-library/100-zettelkasten/typed-links-for-knowledge-context
 tags: [linking, semantics, zettelkasten]
 title: Typed Links for Knowledge Context
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Typed Links for Knowledge Context

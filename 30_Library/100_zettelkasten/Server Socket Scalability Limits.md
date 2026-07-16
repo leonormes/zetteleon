@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/server-socket-scalability-limits
 tags: [performance, scalability, server, socket, SoftwareEngineering/Networking]
 title: Server Socket Scalability Limits
+type: concept
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Server Socket Scalability Limits

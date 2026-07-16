@@ -4,6 +4,9 @@ modified: 2026-07-13T08:52:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/optimization-criteria-must-be-binary-single-variable-testable-conditions
 tags: [criteria, evaluation, optimization, prompt-engineering]
 title: Optimization Criteria Must Be Binary Single-Variable Testable Conditions
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Optimization Criteria Must Be Binary Single-Variable Testable Conditions

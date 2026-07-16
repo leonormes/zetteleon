@@ -5,6 +5,9 @@ modified: 2026-07-16T07:39:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/goals-set-the-direction-for-change
 tags: [direction-setting, goals, topic/productivity]
 title: Goals Set the Direction for Change
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Goals Set the Direction for Change

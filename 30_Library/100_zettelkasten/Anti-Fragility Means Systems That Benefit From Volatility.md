@@ -5,6 +5,9 @@ modified: 2026-07-15T21:28:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/anti-fragility-means-systems-that-benefit-from-volatility
 tags: [anti-fragility, chaos, mental-model, resilience, strategy]
 title: Anti-Fragility Means Systems That Benefit From Volatility
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Anti-Fragility Means Systems That Benefit From Volatility

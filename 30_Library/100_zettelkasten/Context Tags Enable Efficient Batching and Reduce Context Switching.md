@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/context-tags-enable-efficient-batching-and-reduce-context-switching
 tags: [action, context, organization, topic/productivity]
 title: Context Tags Enable Efficient Batching and Reduce Context Switching
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Context Tags Enable Efficient Batching and Reduce Context Switching

@@ -5,6 +5,9 @@ permalink: llmeon/30-library/100-zettelkasten/a-false-belief-does-not-diminish-a
 status: draft
 tags: [compassion, decoupling, judgement, worth]
 title: "A False Belief Does Not Diminish a Person's Worth"
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## A False Belief Does Not Diminish a Person's Worth

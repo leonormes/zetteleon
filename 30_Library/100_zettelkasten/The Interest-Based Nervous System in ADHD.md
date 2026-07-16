@@ -48,6 +48,6 @@ This system is a result of Dopamine Hyposensitivity in the brain's reward center
 
 - [[SoT - ADHD and Motivation]] (The central hub)
 - [[Dopamine Dysregulation is a Key Factor in ADHD Motivation]] (The fuel source)
-- [[Why Importance and Rewards Fail to Motivate ADHD Brains]] (The disconnect)
+- [[Claim - Intrinsic motivation lowers ADHD activation cost compared to external pressure]] (The disconnect)
 - [[Executive Function Challenges are Central to ADHD]] (The management failure)
 - [[MOC - Novelty Seeking]] (The novelty drive)

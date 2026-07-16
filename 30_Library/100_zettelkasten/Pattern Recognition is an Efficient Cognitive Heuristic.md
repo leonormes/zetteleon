@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/pattern-recognition-is-an-efficient-cognitive-heuristic
 tags: [efficiency, heuristics, TheHuman/Cognition]
 title: Pattern Recognition is an Efficient Cognitive Heuristic
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Pattern Recognition is an Efficient Cognitive Heuristic

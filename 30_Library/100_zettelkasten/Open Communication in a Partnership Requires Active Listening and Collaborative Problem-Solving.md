@@ -6,6 +6,9 @@ permalink: llmeon/30-library/100-zettelkasten/open-communication-in-a-partnershi
 tags: [communication, conflict-resolution, relationship]
 title: Open Communication in a Partnership Requires Active Listening and Collaborative Problem-Solving
   Problem-Solving Problem-Solving
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Open Communication in a Partnership Requires Active Listening and Collaborative Problem-Solving

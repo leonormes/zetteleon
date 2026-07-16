@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:24+00:00
 permalink: llmeon/30-library/100-zettelkasten/choice-architecture-designs-the-environment-to-make-desired-behaviors-easier
 tags: [behavior-change, design, environment, nudge, TheHuman/Psychology]
 title: Choice Architecture Designs the Environment to Make Desired Behaviors Easier
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Choice Architecture Designs the Environment to Make Desired Behaviors Easier

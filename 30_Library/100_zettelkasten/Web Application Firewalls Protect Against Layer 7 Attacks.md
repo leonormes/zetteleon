@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:33+00:00
 permalink: llmeon/30-library/100-zettelkasten/web-application-firewalls-protect-against-layer-7-attacks
 tags: [SoftwareEngineering/Networking, SoftwareEngineering/Security, web]
 title: Web Application Firewalls Protect Against Layer 7 Attacks
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Web Application Firewalls Protect Against Layer 7 Attacks

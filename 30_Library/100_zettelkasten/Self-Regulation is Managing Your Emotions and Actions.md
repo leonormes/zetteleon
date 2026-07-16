@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/self-regulation-is-managing-your-emotions-and-actions
 tags: [character-strength, emotional-intelligence, self-control, self-regulation, virtue]
 title: Self-Regulation is Managing Your Emotions and Actions
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Self-regulation is the ability to manage your emotions, thoughts, and actions in a controlled and deliberate way.

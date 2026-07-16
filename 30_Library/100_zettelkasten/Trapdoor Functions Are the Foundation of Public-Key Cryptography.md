@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:33+00:00
 permalink: llmeon/30-library/100-zettelkasten/trapdoor-functions-are-the-foundation-of-public-key-cryptography
 tags: [cryptography, maths]
 title: Trapdoor Functions Are the Foundation of Public-Key Cryptography
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 A Trapdoor One-Way Function is a mathematical operation that is easy to compute in one direction but extremely difficult to reverse unless you possess a secret piece of information (the "trapdoor").

@@ -4,6 +4,9 @@ modified: 2026-07-13T08:52:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/implicit-multi-agent-coordination-via-shared-file-system
 tags: [coordination, determinism, file-system, multi-agent-systems]
 title: Implicit Multi-Agent Coordination via Shared File System
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Implicit Multi-Agent Coordination via Shared File System

@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/note-status-lifecycle
 tags: [quality, workflow, zettelkasten]
 title: Note Status Lifecycle
+type: concept
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Note Status Lifecycle

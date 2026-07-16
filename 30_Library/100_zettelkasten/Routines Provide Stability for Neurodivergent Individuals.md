@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/routines-provide-stability-for-neurodivergent-individuals
 tags: [anxiety-reduction, autism, routine, stability, TheHuman/Health/ADHD]
 title: Routines Provide Stability for Neurodivergent Individuals
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Routines provide essential stability and predictability for autistic and ADHD individuals, serving as a powerful tool to mitigate common challenges like anxiety, sensory overwhelm, and decision fatigue.

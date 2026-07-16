@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-fault-vs-repair-distinction-in-relationship-dynamics
 tags: [conflict-resolution, logic, relationships]
 title: The Fault vs Repair Distinction in Relationship Dynamics
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 A common relational impasse occurs when a partner conflates the cause of a problem with the labour of solving it.

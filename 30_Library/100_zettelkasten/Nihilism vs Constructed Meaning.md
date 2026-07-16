@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/nihilism-vs-constructed-meaning
 tags: [TheHuman/Philosophy, TheHuman/Psychology]
 title: Nihilism vs Constructed Meaning
+type: concept
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Nihilism Vs Constructed Meaning

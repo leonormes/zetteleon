@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/conceptual-change-is-the-deep-process-of-restructuring-misconceptions
 tags: [conceptual-change, learning, misconceptions, TheHuman/Cognition]
 title: Conceptual Change is the Deep Process of Restructuring Misconceptions
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Conceptual Change is the Deep Process of Restructuring Misconceptions

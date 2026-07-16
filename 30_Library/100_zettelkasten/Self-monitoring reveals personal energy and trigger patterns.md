@@ -6,6 +6,9 @@ permalink: llmeon/30-library/100-zettelkasten/self-monitoring-reveals-personal-e
 source: '[[MOC - Why Autistics and ADHDers NEED Routines]]'
 tags: [energy-management, routine-design, self-monitoring]
 title: Self-monitoring reveals personal energy and trigger patterns
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Self-monitoring for one week reveals personal patterns of energy levels, mood fluctuations, and environmental triggers, providing essential data for designing routines that align with individual neurodivergent needs and rhythms.

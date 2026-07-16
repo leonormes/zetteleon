@@ -6,6 +6,9 @@ permalink: llmeon/30-library/100-zettelkasten/unilateral-spending-on-major-purch
 tags: [boundaries, conflict, finance, relationship]
 title: Unilateral Spending on Major Purchases is a Sign of an Unhealthy Financial Dynamic
   Dynamic Dynamic
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Unilateral Spending on Major Purchases is a Sign of an Unhealthy Financial Dynamic

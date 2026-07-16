@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:23+00:00
 permalink: llmeon/30-library/100-zettelkasten/access-control-lists-filter-traffic-based-on-protocol-and-address-rules
 tags: [filtering, SoftwareEngineering/Networking, SoftwareEngineering/Security]
 title: Access Control Lists Filter Traffic Based on Protocol and Address Rules
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Access Control Lists Filter Traffic Based on Protocol and Address Rules

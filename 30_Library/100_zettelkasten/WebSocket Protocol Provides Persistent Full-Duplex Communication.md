@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:33+00:00
 permalink: llmeon/30-library/100-zettelkasten/web-socket-protocol-provides-persistent-full-duplex-communication
 tags: [protocol, real-time, SoftwareEngineering/Networking, websocket]
 title: WebSocket Protocol Provides Persistent Full-Duplex Communication
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## WebSocket Protocol Provides Persistent Full-Duplex Communication

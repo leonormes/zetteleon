@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/fleeting-notes-are-temporary-capture-mechanisms
 tags: [capture, topic/pkm, topic/pkm/zettelkasten, workflow]
 title: Fleeting Notes Are Temporary Capture Mechanisms
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Fleeting Notes Are Temporary Capture Mechanisms

@@ -6,6 +6,9 @@ permalink: llmeon/30-library/100-zettelkasten/success-is-the-result-of-disciplin
 source: '[[MOC - How to Build Discipline]]'
 tags: [discipline, repetition, success, TheHuman/Habits]
 title: Success is the Result of Disciplined Repetition
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Success is not the result of a single event, but the accumulation of relentless, repetitive, disciplined actions over time. What often appears as "luck" or "talent" is, in reality, the visible outcome of thousands of small, consistent choices stacked on top of each other.

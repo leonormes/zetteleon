@@ -8,6 +8,9 @@ tags:
 - diagnosis
 title: Extreme Political Beliefs Are Stress Responses to Real Environmental Pain
 permalink: llmeon/30-library/100-zettelkasten/extreme-political-beliefs-are-stress-responses-to-real-environmental-pain
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Extreme Political Beliefs Are Stress Responses to Real Environmental Pain

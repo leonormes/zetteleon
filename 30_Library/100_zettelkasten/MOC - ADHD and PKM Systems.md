@@ -1,16 +1,19 @@
 ---
+title: MOC - ADHD and PKM Systems
+type: map
 created: 2026-05-31T00:00:00+00:00
-modified: 2026-07-13T08:52:28+00:00
+modified: 2026-07-16T15:12:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/moc-adhd-and-pkm-systems
 related_to: ["[[MOC – My Epistemic Stack]]"]
-tags: [adhd, executive-function, pkm, productivity]
-title: MOC - ADHD and PKM Systems
-type: moc
+tags: [adhd, executive-function, pkm, productivity, prodos/moc]
+conformant: true
 ---
 
 ## MOC–ADHD And PKM Systems
 
 Atomic notes distilled from the long-form report _Overcoming ADHD Challenges in Implementing GTD and Zettelkasten_. The report's spine is one tension: for an ADHD brain, capture is cheap and processing is expensive—and the emotional response to that asymmetry (perfectionism, novelty-seeking) makes it worse.
+
+**TAC Constraints:** This map and all linked atoms are governed by the Typed Answer Contract (TAC) schema. Every claim, concept, or procedure branching from here must strictly adhere to the `ClaimNote`, `ConceptNote`, or `ProcedureNote` Pydantic models.
 
 Three layers, in line with the house style: hub → thesis-level claims → support cards.
 

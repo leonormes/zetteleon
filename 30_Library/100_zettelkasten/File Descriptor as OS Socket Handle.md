@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/file-descriptor-as-os-socket-handle
 tags: [file-descriptor, operating-system, socket, unix]
 title: File Descriptor as OS Socket Handle
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## File Descriptor as OS Socket Handle

@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-realization-that-knowledge-is-contingent-can-lead-to-a-crisis-of-certainty
 tags: [certainty, epistemology, TheHuman/Cognition/bias, TheHuman/Philosophy]
 title: The Realization that Knowledge is Contingent Can Lead to a Crisis of Certainty
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## The Realization that Knowledge is Contingent Can Lead to a Crisis of Certainty

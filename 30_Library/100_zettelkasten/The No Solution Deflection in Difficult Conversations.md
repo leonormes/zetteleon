@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-no-solution-deflection-in-difficult-conversations
 tags: [communication, deflection, relationships]
 title: The No Solution Deflection in Difficult Conversations
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 The phrase "There is no solution" is often a defensive meta-response used to end a conversation about accountability. It reframes a specific behavioural choice (like failing to remember a concern) as an immutable, unfixable trait.

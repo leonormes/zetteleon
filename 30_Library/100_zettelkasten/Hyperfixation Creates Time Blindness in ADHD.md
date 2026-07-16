@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/hyperfixation-creates-time-blindness-in-adhd
 tags: [hyperfocus, TheHuman/Cognition, TheHuman/Health/ADHD, time-perception]
 title: Hyperfixation Creates Time Blindness in ADHD
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Summary: During hyperfixation, people with ADHD become so absorbed in the activity that they lose track of time, may forget to eat, and neglect other responsibilities. The rest of the world and its demands seem to disappear into a fuzzy background.

@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:33+00:00
 permalink: llmeon/30-library/100-zettelkasten/writing-creates-cognitive-distance-for-objective-evaluation
 tags: [self-reflection, TheHuman/Cognition/bias, thinking, writing]
 title: Writing Creates Cognitive Distance for Objective Evaluation
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Writing Creates Cognitive Distance for Objective Evaluation

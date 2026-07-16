@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/outcomes-are-a-lagging-measure-of-habits
 tags: [measurement, outcomes, TheHuman/Habits, topic/systems]
 title: Outcomes are a Lagging Measure of Habits
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Outcomes Are a Lagging Measure of Habits

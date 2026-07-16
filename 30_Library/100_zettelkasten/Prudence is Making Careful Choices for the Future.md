@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/prudence-is-making-careful-choices-for-the-future
 tags: [character-strength, decision-making, prudence, virtue, wisdom]
 title: Prudence is Making Careful Choices for the Future
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Prudence is the virtue of making careful, considered choices with an eye toward the future.

@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-sacred-no-intentionality-as-habit-intervention
 tags: [action, intentionality, productivity]
 title: The Sacred No - Intentionality as Habit Intervention
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 To live intentionally, an agent must cultivate the ability to perform a Sacred No.

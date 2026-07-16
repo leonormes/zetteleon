@@ -6,6 +6,9 @@ permalink: llmeon/30-library/100-zettelkasten/defensive-hypervigilance
 source: '[[MOC - Authority Dynamics and ADHD]]'
 tags: [coping-strategies, TheHuman/Health/ADHD, TheHuman/Psychology]
 title: Defensive Hypervigilance
+type: concept
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Defensive hypervigilance is a coping mechanism where individuals anxiously scan for evidence of their own failures before others can point them out. This self-protective mechanism attempts to guard against unexpected criticism and connects directly to rejection sensitivity. In people with ADHD, this often manifests as constantly looking for mistakes in their own work and feeling intense anxiety about potential judgment.

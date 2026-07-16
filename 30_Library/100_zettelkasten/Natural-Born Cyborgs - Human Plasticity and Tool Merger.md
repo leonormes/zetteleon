@@ -6,6 +6,9 @@ modified: 2026-07-13T08:52:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/natural-born-cyborgs-human-plasticity-and-tool-merger
 tags: [evolution, neuroplasticity, TheHuman/Philosophy]
 title: Natural-Born Cyborgs - Human Plasticity and Tool Merger
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Humans are "Natural-Born Cyborgs" not because of silicon implants, but because our biological brains possess extreme plasticity designed to co-opt and annex external props.

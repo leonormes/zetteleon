@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:23+00:00
 permalink: llmeon/30-library/100-zettelkasten/akrasia-is-acting-against-ones-better-judgment
 tags: [aristotle, ethics, TheHuman/Philosophy, willpower]
 title: "Akrasia is Acting Against One's Better Judgment"
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Akrasia is Acting Against One's Better Judgment

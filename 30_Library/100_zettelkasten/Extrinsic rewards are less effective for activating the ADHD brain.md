@@ -11,4 +11,4 @@ type: permanent
 updated: null
 ---
 
-This note has been consolidated into [[Why Importance and Rewards Fail to Motivate ADHD Brains]].
+This note has been consolidated into [[Claim - Intrinsic motivation lowers ADHD activation cost compared to external pressure]].

@@ -5,6 +5,9 @@ permalink: llmeon/30-library/100-zettelkasten/outsourcing-writing-to-ai-bypasses
 tags: [ai, cognitive-fitness, professional-development, writing]
 title: Outsourcing Writing to AI Bypasses the Cognitive Strain That Builds Professional Competence
   Competence Competence
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Outsourcing Writing to AI Bypasses the Cognitive Strain That Builds Professional Competence

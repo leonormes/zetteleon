@@ -6,6 +6,9 @@ permalink: llmeon/30-library/100-zettelkasten/flexible-routines-accommodate-hype
 source: '[[MOC - How To Create And Use Mini Routines]]'
 tags: [flexibility, hyperfocus, task-switching, TheHuman/Health/ADHD]
 title: Flexible routines accommodate hyperfocus and task-switching patterns
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Built-in flexibility within event-based routine structures naturally accommodates common ADHD behavioral patterns including task-switching impulses, extended hyperfocus episodes, and dopamine-seeking behavior, without requiring these patterns to be suppressed or creating guilt when they occur.

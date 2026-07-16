@@ -6,6 +6,9 @@ permalink: llmeon/30-library/100-zettelkasten/a-healthy-family-balances-the-need
 tags: [boundaries, family, needs, parenting, relationship]
 title: A Healthy Family Balances the Needs of Children with the Needs of the Spousal Relationship
   Relationship Relationship
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## A Healthy Family Balances the Needs of Children with the Needs of the Spousal Relationship

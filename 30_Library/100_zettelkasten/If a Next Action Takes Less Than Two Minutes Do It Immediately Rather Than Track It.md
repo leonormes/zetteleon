@@ -5,6 +5,9 @@ permalink: llmeon/30-library/100-zettelkasten/if-a-next-action-takes-less-than-t
 tags: [efficiency, gtd, productivity, time-management]
 title: If a Next Action Takes Less Than Two Minutes Do It Immediately Rather Than Track It
   Track It Track It
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## If a Next Action Takes Less Than Two Minutes Do It Immediately Rather Than Track It

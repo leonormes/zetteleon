@@ -5,6 +5,9 @@ modified: 2026-07-13T21:55:38+00:00
 permalink: llmeon/30-library/100-zettelkasten/truth-is-a-necessary-condition-for-knowledge
 tags: [epistemology, knowledge, TheHuman/Philosophy, truth]
 title: Truth is a Necessary Condition for Knowledge
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Truth is a Necessary Condition for Knowledge

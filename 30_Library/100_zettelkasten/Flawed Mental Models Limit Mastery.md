@@ -8,6 +8,9 @@ superseded_by: ''
 supersedes: ''
 tags: [bias, cognition, learning, mastery, mental_models, prodos/sot]
 title: Flawed Mental Models Limit Mastery
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

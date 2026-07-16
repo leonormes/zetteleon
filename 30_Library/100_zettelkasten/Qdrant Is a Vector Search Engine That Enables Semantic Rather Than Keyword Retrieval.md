@@ -5,6 +5,9 @@ permalink: llmeon/30-library/100-zettelkasten/qdrant-is-a-vector-search-engine-t
 tags: [embeddings, qdrant, semantic-search, vector-database]
 title: Qdrant Is a Vector Search Engine That Enables Semantic Rather Than Keyword Retrieval
   Retrieval Retrieval
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Qdrant Is a Vector Search Engine That Enables Semantic Rather Than Keyword Retrieval

@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/reciprocity-is-the-central-pillar-of-a-healthy-partnership
 tags: [partnership, principle, relationship]
 title: Reciprocity is the Central Pillar of a Healthy Partnership
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Reciprocity is the Central Pillar of a Healthy Partnership

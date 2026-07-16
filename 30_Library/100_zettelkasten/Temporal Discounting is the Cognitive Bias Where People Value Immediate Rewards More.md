@@ -6,6 +6,9 @@ permalink: llmeon/30-library/100-zettelkasten/temporal-discounting-is-the-cognit
 tags: [decision-making, procrastination, TheHuman/Cognition/bias, TheHuman/Psychology]
 title: Temporal Discounting is the Cognitive Bias Where People Value Immediate Rewards More
   More More
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Temporal Discounting is the Cognitive Bias Where People Value Immediate Rewards More

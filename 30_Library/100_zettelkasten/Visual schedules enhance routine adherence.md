@@ -6,6 +6,9 @@ permalink: llmeon/30-library/100-zettelkasten/visual-schedules-enhance-routine-a
 source: '[[MOC - Why Autistics and ADHDers NEED Routines]]'
 tags: [external-scaffolding, routine-adherence, visual-aids]
 title: Visual schedules enhance routine adherence
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Visual schedules (using apps, charts, or physical boards) make abstract time concepts tangible and reduce the cognitive load of remembering routine steps, serving as external scaffolding for executive function deficits.

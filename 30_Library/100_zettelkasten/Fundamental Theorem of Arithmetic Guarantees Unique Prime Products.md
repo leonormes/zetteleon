@@ -6,6 +6,9 @@ modified: 2026-07-13T08:52:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/fundamental-theorem-of-arithmetic-guarantees-unique-prime-products
 tags: [maths]
 title: Fundamental Theorem of Arithmetic Guarantees Unique Prime Products
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 The Fundamental Theorem of Arithmetic states that every whole number greater than 1 is either a prime number itself or can be written as a unique product of prime numbers.

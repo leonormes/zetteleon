@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/diffuse-vs-focused-thinking-modes
 tags: [learning, TheHuman/Neuroscience]
 title: Diffuse vs Focused Thinking Modes
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Diffuse Vs Focused Thinking Modes

@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:33+00:00
 permalink: llmeon/30-library/100-zettelkasten/wicked-learning-environments-are-dynamic-and-unpredictable
 tags: [environment, learning, unpredictability]
 title: Wicked Learning Environments are Dynamic and Unpredictable
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Wicked Learning Environments Are Dynamic and Unpredictable

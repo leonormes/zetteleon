@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/shift-from-seeking-rightness-to-seeking-utility
 tags: [confidence, pragmatism, truth, utility]
 title: Shift from Seeking Rightness to Seeking Utility
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Shift from Seeking Rightness to Seeking Utility

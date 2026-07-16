@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/timeboxing-is-allocating-specific-time-slots-for-specific-tasks
 tags: [definition, scheduling, time-management, topic/productivity]
 title: Timeboxing is Allocating Specific Time Slots for Specific Tasks
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Timeboxing is the practice of dedicating specific, fixed blocks of time to particular tasks or activities.

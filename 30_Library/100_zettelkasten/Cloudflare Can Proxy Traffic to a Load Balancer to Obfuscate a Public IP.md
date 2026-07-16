@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/cloudflare-can-proxy-traffic-to-a-load-balancer-to-obfuscate-a-public-ip
 tags: [cloudflare, homelab, SoftwareEngineering/Networking, SoftwareEngineering/networking/dns, SoftwareEngineering/Security]
 title: Cloudflare Can Proxy Traffic to a Load Balancer to Obfuscate a Public IP
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Cloudflare Can Proxy Traffic to a Load Balancer to Obfuscate a Public IP

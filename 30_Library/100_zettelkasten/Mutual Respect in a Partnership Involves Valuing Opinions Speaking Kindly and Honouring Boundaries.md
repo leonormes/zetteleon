@@ -6,6 +6,9 @@ permalink: llmeon/30-library/100-zettelkasten/mutual-respect-in-a-partnership-in
 tags: [boundaries, communication, relationship, respect]
 title: Mutual Respect in a Partnership Involves Valuing Opinions Speaking Kindly and Honouring Boundaries
   Honouring Boundaries Honouring Boundaries
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Mutual Respect in a Partnership Involves Valuing Opinions Speaking Kindly and Honouring Boundaries

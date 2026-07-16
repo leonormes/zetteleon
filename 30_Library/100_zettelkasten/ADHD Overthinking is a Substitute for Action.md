@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:23+00:00
 permalink: llmeon/30-library/100-zettelkasten/adhd-overthinking-is-a-substitute-for-action
 tags: []
 title: ADHD Overthinking is a Substitute for Action
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## ADHD Overthinking is a Substitute for Action

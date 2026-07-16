@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/pragmatic-truth-focuses-on-utility-over-absolute-correctness
 tags: [epistemology, mental-model, pragmatism, topic/philosophy, utility]
 title: Pragmatic Truth Focuses on Utility Over Absolute Correctness
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Pragmatic Truth Focuses on Utility Over Absolute Correctness

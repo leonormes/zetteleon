@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/personal-context-and-relevance-are-key-to-knowledge-formation
 tags: [context, knowledge, learning]
 title: Personal Context and Relevance are Key to Knowledge Formation
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Personal Context and Relevance Are Key to Knowledge Formation

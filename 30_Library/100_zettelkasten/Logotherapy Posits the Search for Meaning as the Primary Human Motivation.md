@@ -4,6 +4,9 @@ modified: 2026-07-13T08:52:28+00:00
 permalink: llmeon/30-library/100-zettelkasten/logotherapy-posits-the-search-for-meaning-as-the-primary-human-motivation
 tags: [logotherapy, meaning, philosophy, psychology]
 title: Logotherapy Posits the Search for Meaning as the Primary Human Motivation
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Logotherapy Posits the Search for Meaning as the Primary Human Motivation

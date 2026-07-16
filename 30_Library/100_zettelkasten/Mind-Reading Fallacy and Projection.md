@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/mind-reading-fallacy-and-projection
 tags: [TheHuman/Cognition/bias, topic/social-cognition, topic/social-perception]
 title: Mind-Reading Fallacy and Projection
+type: concept
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Mind-Reading Fallacy and Projection

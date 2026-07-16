@@ -5,6 +5,9 @@ permalink: llmeon/30-library/100-zettelkasten/dismissing-people-who-disagree-cos
 status: draft
 tags: [error-correction, feedback, judgement, relationships]
 title: Dismissing People Who Disagree Costs You Your Best Error-Detectors
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Dismissing People Who Disagree Costs You Your Best Error-Detectors

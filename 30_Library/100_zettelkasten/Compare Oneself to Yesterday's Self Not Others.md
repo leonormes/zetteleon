@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/compare-oneself-to-yesterdays-self-not-others
 tags: [growth, self-improvement, TheHuman/Mindset]
 title: "Compare Oneself to Yesterday's Self Not Others"
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Compare Oneself to Yesterday's Self Not Others

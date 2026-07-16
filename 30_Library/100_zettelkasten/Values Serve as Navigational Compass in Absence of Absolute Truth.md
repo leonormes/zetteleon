@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:33+00:00
 permalink: llmeon/30-library/100-zettelkasten/values-serve-as-navigational-compass-in-absence-of-absolute-truth
 tags: [decision-making, navigation, pragmatism, topic/philosophy, values]
 title: Values Serve as Navigational Compass in Absence of Absolute Truth
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Values Serve as Navigational Compass in Absence of Absolute Truth

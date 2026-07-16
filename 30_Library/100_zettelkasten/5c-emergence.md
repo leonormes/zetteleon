@@ -3,6 +3,9 @@ created: 2026-05-04T08:01:26+00:00
 modified: 2026-07-13T08:52:23+00:00
 permalink: llmeon/30-library/100-zettelkasten/5c-emergence
 title: 5c-emergence
+type: concept
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 5c-emergence

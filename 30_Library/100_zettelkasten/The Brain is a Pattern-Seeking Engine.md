@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-brain-is-a-pattern-seeking-engine
 tags: [neocortex, TheHuman/Cognition, TheHuman/Neuroscience]
 title: The Brain is a Pattern-Seeking Engine
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## The Brain is a Pattern-Seeking Engine

@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-need-for-physical-intimacy-and-affection-is-a-vital-form-of-connection
 tags: [affection, intimacy, needs, relationship]
 title: The Need for Physical Intimacy and Affection is a Vital Form of Connection
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## The Need for Physical Intimacy and Affection is a Vital Form of Connection

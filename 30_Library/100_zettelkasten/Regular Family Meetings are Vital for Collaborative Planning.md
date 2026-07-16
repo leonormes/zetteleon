@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/regular-family-meetings-are-vital-for-collaborative-planning
 tags: [communication, family, organization, planning, process]
 title: Regular Family Meetings are Vital for Collaborative Planning
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Regular Family Meetings Are Vital for Collaborative Planning

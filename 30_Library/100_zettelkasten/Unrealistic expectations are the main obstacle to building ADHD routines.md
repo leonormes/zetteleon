@@ -6,6 +6,9 @@ permalink: llmeon/30-library/100-zettelkasten/unrealistic-expectations-are-the-m
 source: '[[MOC - ADHD Routine Building Strategies]]'
 tags: [TheHuman/Habits, TheHuman/Health/ADHD, TheHuman/Mindset, topic/productivity]
 title: Unrealistic expectations are the main obstacle to building ADHD routines
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 The primary obstacle to building sustainable routines for individuals with ADHD is not inconsistency, but setting unrealistic expectations. Trying to change too much too quickly leads to overwhelm and failure, reinforcing a negative cycle. The key is to start with small, manageable changes.

@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:28+00:00
 permalink: llmeon/30-library/100-zettelkasten/layer-3-network-security-protects-ip-routing-and-forwarding
 tags: [layer3, SoftwareEngineering/Networking, SoftwareEngineering/Security]
 title: Layer 3 Network Security Protects IP Routing and Forwarding
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Layer 3 Network Security Protects IP Routing and Forwarding

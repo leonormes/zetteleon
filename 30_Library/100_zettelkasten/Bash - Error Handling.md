@@ -4,6 +4,9 @@ modified: 2026-07-13T08:52:24+00:00
 permalink: llmeon/30-library/100-zettelkasten/bash-error-handling
 tags: [bash, devops, reference, shell]
 title: Bash - Error Handling
+type: concept
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Bash Error Handling

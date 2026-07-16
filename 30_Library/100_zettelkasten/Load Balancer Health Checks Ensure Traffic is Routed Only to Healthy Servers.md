@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:28+00:00
 permalink: llmeon/30-library/100-zettelkasten/load-balancer-health-checks-ensure-traffic-is-routed-only-to-healthy-servers
 tags: [load-balancing, reliability, SoftwareEngineering/Networking]
 title: Load Balancer Health Checks Ensure Traffic is Routed Only to Healthy Servers
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Load Balancer Health Checks Ensure Traffic is Routed Only to Healthy Servers

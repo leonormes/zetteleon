@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/pattern-recognition-conferred-an-evolutionary-survival-advantage
 tags: [evolution, survival, TheHuman/Cognition]
 title: Pattern Recognition Conferred an Evolutionary Survival Advantage
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Pattern Recognition Conferred an Evolutionary Survival Advantage

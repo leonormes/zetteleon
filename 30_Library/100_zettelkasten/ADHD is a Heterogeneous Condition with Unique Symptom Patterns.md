@@ -6,6 +6,9 @@ permalink: llmeon/30-library/100-zettelkasten/adhd-is-a-heterogeneous-condition-
 source: '[[MOC - ADHD (The Master Map)]]'
 tags: [heterogeneity, TheHuman/Health/ADHD, TheHuman/Neuroscience]
 title: ADHD is a Heterogeneous Condition with Unique Symptom Patterns
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ADHD is a heterogeneous condition, meaning its presentation varies significantly from person to person. A network analysis study found that 91.8% of individuals with ADHD had a unique symptom pattern, with 116,220 possible combinations. This highlights that the "average ADHD patient" has limited informative value and that a one-size-fits-all approach to understanding or treating ADHD is inappropriate.

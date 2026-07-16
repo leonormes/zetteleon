@@ -6,6 +6,9 @@ permalink: llmeon/30-library/100-zettelkasten/positive-cargo-is-a-strategy-for-o
 source: '[[MOC - The Science of Making and Breaking Habits]]'
 tags: [behavior-change, TheHuman/Habits]
 title: Positive Cargo is a Strategy for Overwriting Bad Habits
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 "Positive cargo" is a strategy for breaking bad habits by attaching a new, adaptive behavior immediately after the unwanted one. This "post-bad-habit add-on" helps to weaken the neural pathway of the old habit while simultaneously strengthening a new, more desirable one.

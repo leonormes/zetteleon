@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/proto-systems-function-through-social-accountability-and-implicit-learning
 tags: [accountability, history, sociology, topic/productivity, topic/systems]
 title: Proto-systems Function Through Social Accountability and Implicit Learning
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Proto-systems Function Through Social Accountability and Implicit Learning

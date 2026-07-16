@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-atomic-action-framework-supports-executive-function
 tags: [executive-function, TheHuman/Health/ADHD, topic/productivity, topic/systems]
 title: The Atomic Action Framework Supports Executive Function
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## The Atomic Action Framework Supports Executive Function

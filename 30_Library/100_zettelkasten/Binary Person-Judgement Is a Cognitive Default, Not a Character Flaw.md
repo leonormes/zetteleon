@@ -8,6 +8,9 @@ tags:
 - tribalism
 title: Binary Person-Judgement Is a Cognitive Default, Not a Character Flaw
 permalink: llmeon/30-library/100-zettelkasten/binary-person-judgement-is-a-cognitive-default-not-a-character-flaw
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Binary Person-Judgement Is a Cognitive Default, Not a Character Flaw

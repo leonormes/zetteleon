@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/metacognition-is-essential-for-guiding-the-deep-learning-process
 tags: [learning, metacognition, self-awareness, TheHuman/Cognition]
 title: Metacognition is Essential for Guiding the Deep Learning Process
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Metacognition is Essential for Guiding the Deep Learning Process

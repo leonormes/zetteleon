@@ -6,6 +6,9 @@ permalink: llmeon/30-library/100-zettelkasten/focus-on-the-process-not-the-produ
 source: '[[MOC - Daily Writing for Clarity and ADHD-Friendly Techniques]]'
 tags: [process, TheHuman/Mindset, writing]
 title: Focus on the Process Not the Product in Daily Writing
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Focus on the Process Not the Product in Daily Writing

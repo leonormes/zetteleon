@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-map-is-not-the-territory
 tags: [epistemology, mental-model, perception, reality]
 title: The Map is Not the Territory
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## The Map is Not the Territory

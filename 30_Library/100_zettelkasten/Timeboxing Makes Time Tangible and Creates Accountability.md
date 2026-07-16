@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/timeboxing-makes-time-tangible-and-creates-accountability
 tags: [accountability, TheHuman/Psychology, time-management, topic/productivity]
 title: Timeboxing Makes Time Tangible and Creates Accountability
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Timeboxing transforms abstract intentions into concrete, scheduled commitments, which creates a powerful sense of psychological accountability.

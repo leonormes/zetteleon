@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/perseverance-is-finishing-what-you-start-despite-difficulty
 tags: [character-strength, determination, grit, perseverance, virtue]
 title: Perseverance is Finishing What You Start Despite Difficulty
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Perseverance, also known as grit, is the quality of finishing what you start, even when it becomes difficult or challenging.

@@ -5,6 +5,9 @@ permalink: llmeon/30-library/100-zettelkasten/dereflection-counters-rumination-b
 tags: [anxiety, attention, technique, therapy]
 title: Dereflection Counters Rumination by Redirecting Attention from Self to External Values
   Values Values
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Dereflection Counters Rumination by Redirecting Attention from Self to External Values

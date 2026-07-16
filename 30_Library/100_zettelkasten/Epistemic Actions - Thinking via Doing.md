@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/epistemic-actions-thinking-via-doing
 tags: [action, cognition, psychology]
 title: Epistemic Actions - Thinking via Doing
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Epistemic Actions are physical actions performed not to change the world (Pragmatic Actions), but to simplify a cognitive task.

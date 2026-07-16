@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:24+00:00
 permalink: llmeon/30-library/100-zettelkasten/aristotle-distinguished-between-episteme-techne-and-phronesis
 tags: [aristotle, knowledge, TheHuman/Philosophy]
 title: Aristotle Distinguished Between Episteme, Techne, and Phronesis
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Aristotle Distinguished Between Episteme, Techne, and Phronesis

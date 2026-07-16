@@ -3,6 +3,9 @@ created: 2026-05-04T08:01:26+00:00
 modified: 2026-07-13T08:52:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/illusion-of-explanatory-depth-io-ed
 title: Illusion of Explanatory Depth (IoED)
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Illusion of Explanatory Depth (IoED)

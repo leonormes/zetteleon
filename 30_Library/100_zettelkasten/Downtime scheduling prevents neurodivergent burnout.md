@@ -6,6 +6,9 @@ permalink: llmeon/30-library/100-zettelkasten/downtime-scheduling-prevents-neuro
 source: '[[MOC - Why Autistics and ADHDers NEED Routines]]'
 tags: [burnout-prevention, rest, self-care]
 title: Downtime scheduling prevents neurodivergent burnout
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Scheduling downtime as a non-negotiable part of routines prevents burnout in neurodivergent individuals, acknowledging that rest is not optional but essential for sustainable functioning and recovery from sensory and cognitive demands.

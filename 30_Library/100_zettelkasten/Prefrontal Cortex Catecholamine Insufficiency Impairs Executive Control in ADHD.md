@@ -7,6 +7,9 @@ source: '[[MOC - The Neuroscience of Task Initiation in ADHD]]'
 tags: [dopamine, norepinephrine, prefrontal-cortex, TheHuman/Health/ADHD, TheHuman/Neuroscience]
 title: Prefrontal Cortex Catecholamine Insufficiency Impairs Executive Control in ADHD
   ADHD ADHD
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Prefrontal cortex catecholamine insufficiency impairs the brain's executive control center in individuals with ADHD. The prefrontal cortex requires optimal levels of norepinephrine and dopamine to function properly. In ADHD, inadequate catecholamine signaling creates an "out of tune" prefrontal cortex, making it difficult for neural networks to maintain goal representations or allocate attention to non-salient but important tasks.

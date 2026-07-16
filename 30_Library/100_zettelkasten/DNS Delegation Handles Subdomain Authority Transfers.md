@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/dns-delegation-handles-subdomain-authority-transfers
 tags: [SoftwareEngineering/Networking, SoftwareEngineering/networking/dns]
 title: DNS Delegation Handles Subdomain Authority Transfers
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## DNS Delegation Handles Subdomain Authority Transfers

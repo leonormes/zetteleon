@@ -6,6 +6,9 @@ permalink: llmeon/30-library/100-zettelkasten/bookend-routines-mark-the-start-an
 source: '[[MOC - Why Autistics and ADHDers NEED Routines]]'
 tags: [daily-structure, routines, TheHuman/Health/ADHD]
 title: Bookend routines mark the start and end of day
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Bookend routines are anchor points placed at the beginning and end of each day that provide structure and consistency to the overall daily rhythm. Typically consisting of morning and evening sequences, these routines act as stable "containers" that bracket the more flexible middle portions of the day.

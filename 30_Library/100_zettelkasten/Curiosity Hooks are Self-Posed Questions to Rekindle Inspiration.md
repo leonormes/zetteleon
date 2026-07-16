@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/curiosity-hooks-are-self-posed-questions-to-rekindle-inspiration
 tags: [TheHuman/Creativity, TheHuman/Motivation, topic/productivity]
 title: Curiosity Hooks are Self-Posed Questions to Rekindle Inspiration
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Curiosity Hooks Are Self-Posed Questions to Rekindle Inspiration

@@ -5,6 +5,9 @@ permalink: llmeon/30-library/100-zettelkasten/truth-status-belongs-to-propositio
 status: draft
 tags: [decoupling, ego, epistemology, popper]
 title: Truth-Status Belongs to Propositions, Not Persons
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Truth-Status Belongs to Propositions, Not Persons

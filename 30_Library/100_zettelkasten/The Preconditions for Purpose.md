@@ -3,6 +3,9 @@ created: 2026-05-02T19:33:05+00:00
 modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-preconditions-for-purpose
 title: The Preconditions for Purpose
+type: concept
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 You are absolutely correct. You have moved from defining the _what_ of purpose to deconstructing the _how_. Your insight is that purpose, as commonly understood, is not a simple, standalone concept. It is a high-level emergent property that depends on an entire suite of complex, pre-existing conditions.

@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:28+00:00
 permalink: llmeon/30-library/100-zettelkasten/mx-records-route-email-to-designated-mail-servers
 tags: [email, SoftwareEngineering/Networking, SoftwareEngineering/networking/dns]
 title: MX Records Route Email to Designated Mail Servers
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## MX Records Route Email to Designated Mail Servers

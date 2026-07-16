@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/felt-significance-of-thoughts-can-mislead-about-their-substance
 tags: [critical-thinking, metacognition, TheHuman/Cognition]
 title: Felt significance of thoughts can mislead about their substance
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Felt Significance of Thoughts Can Mislead about Their Substance

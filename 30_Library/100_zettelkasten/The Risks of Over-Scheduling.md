@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-risks-of-over-scheduling
 tags: [burnout, risk, scheduling, time-management, topic/productivity]
 title: The Risks of Over-Scheduling
+type: concept
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 While timeboxing provides valuable structure, an overly rigid or packed schedule can be counterproductive and lead to negative consequences.

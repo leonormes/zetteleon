@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/communication-requires-iterative-approximation
 tags: [communication, conversation, pragmatics]
 title: Communication requires iterative approximation
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Communication Requires Iterative Approximation

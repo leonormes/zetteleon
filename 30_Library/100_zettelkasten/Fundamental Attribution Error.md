@@ -5,6 +5,9 @@ modified: 2026-07-14T21:36:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/fundamental-attribution-error
 tags: [TheHuman/Cognition/bias, topic/social-cognition, topic/social-perception]
 title: Fundamental Attribution Error
+type: concept
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Fundamental Attribution Error

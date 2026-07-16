@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/concept-tcp-three-way-handshake
 tags: [SoftwareEngineering/networking/tcp]
 title: Concept - TCP Three-Way Handshake
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## TCP Three-Way Handshake

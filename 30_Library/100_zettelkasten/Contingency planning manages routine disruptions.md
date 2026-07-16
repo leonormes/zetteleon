@@ -6,6 +6,9 @@ permalink: llmeon/30-library/100-zettelkasten/contingency-planning-manages-routi
 source: '[[MOC - Why Autistics and ADHDers NEED Routines]]'
 tags: [adaptation, contingency-planning, flexibility]
 title: Contingency planning manages routine disruptions
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Contingency planning with alternative options (Plan B, Plan C) helps neurodivergent individuals manage routine disruptions without experiencing overwhelm, providing pre-decided pathways when unexpected changes occur.

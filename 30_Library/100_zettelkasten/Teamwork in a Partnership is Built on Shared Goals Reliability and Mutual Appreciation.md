@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/teamwork-in-a-partnership-is-built-on-shared-goals-reliability-and-mutual-appreciation
 tags: [goals, partnership, relationship, teamwork]
 title: Teamwork in a Partnership is Built on Shared Goals Reliability and Mutual Appreciation
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Teamwork in a Partnership is Built on Shared Goals Reliability and Mutual Appreciation

@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:23+00:00
 permalink: llmeon/30-library/100-zettelkasten/adhd-hangover-or-brain-fog-following-hyperfixation
 tags: []
 title: ADHD Hangover or Brain Fog Following Hyperfixation
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Summary: Following the crash from hyperfixation comes a period often described as an "ADHD hangover" or "brain fog"—a time when the brain feels fuzzy, bored, and under-stimulated, making it difficult to think clearly or initiate any tasks.

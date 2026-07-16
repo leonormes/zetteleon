@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:33+00:00
 permalink: llmeon/30-library/100-zettelkasten/web-socket-use-cases-for-real-time-applications
 tags: [applications, real-time, use-cases, websocket]
 title: WebSocket Use Cases for Real-Time Applications
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## WebSocket Use Cases for Real-Time Applications

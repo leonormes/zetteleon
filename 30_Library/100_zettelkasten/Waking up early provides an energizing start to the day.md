@@ -6,6 +6,9 @@ permalink: llmeon/30-library/100-zettelkasten/waking-up-early-provides-an-energi
 source: '[[MOC - 8 simple Japanese habits]]'
 tags: [Japanese_culture, mindfulness, routine, TheHuman/Habits]
 title: Waking up early provides an energizing start to the day
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Going to bed early and waking up early is a Japanese habit that reflects a traditional reverence for the sunrise and the fresh energy of the morning. This practice anchors the day, helping to create an energizing and grateful mindset.

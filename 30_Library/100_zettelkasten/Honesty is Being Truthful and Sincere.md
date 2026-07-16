@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/honesty-is-being-truthful-and-sincere
 tags: [character-strength, honesty, integrity, trust, virtue]
 title: Honesty is Being Truthful and Sincere
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Honesty is the virtue of telling the truth, being sincere, and acting in a way that is worthy of trust.

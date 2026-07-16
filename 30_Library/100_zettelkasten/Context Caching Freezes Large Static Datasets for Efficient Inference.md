@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/context-caching-freezes-large-static-datasets-for-efficient-inference
 tags: [context-engineering, economics, llm, llm-understanding]
 title: Context Caching Freezes Large Static Datasets for Efficient Inference
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Context Caching Freezes Large Static Datasets for Efficient Inference

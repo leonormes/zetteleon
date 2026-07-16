@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/strong-opinions-loosely-held-balances-conviction-and-humility
 tags: [confidence, decision-making, humility, mental-model]
 title: Strong Opinions, Loosely Held Balances Conviction and Humility
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 'Strong Opinions, Loosely Held' Balances Conviction and Humility

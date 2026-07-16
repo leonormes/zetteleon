@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-eat-the-frog-method-involves-tackling-the-most-important-task-first
 tags: [prioritization, procrastination, topic/productivity]
 title: The Eat The Frog Method Involves Tackling the Most Important Task First
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## The Eat The Frog Method Involves Tackling the Most Important Task First

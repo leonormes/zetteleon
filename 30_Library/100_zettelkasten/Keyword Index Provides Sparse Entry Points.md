@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:28+00:00
 permalink: llmeon/30-library/100-zettelkasten/keyword-index-provides-sparse-entry-points
 tags: [indexing, navigation, topic/pkm, topic/pkm/zettelkasten]
 title: Keyword Index Provides Sparse Entry Points
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Keyword Index Provides Sparse Entry Points

@@ -8,6 +8,9 @@ tags:
 - relativism
 title: Multiplicity Is a Stage to Pass Through, Not a Destination
 permalink: llmeon/30-library/100-zettelkasten/multiplicity-is-a-stage-to-pass-through-not-a-destination
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Multiplicity Is a Stage to Pass Through, Not a Destination

@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/generalists-have-an-advantage-in-the-information-age
 tags: [generalism, information-age, specialization]
 title: Generalists Have an Advantage in the Information Age
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Generalists Have an Advantage in the Information Age

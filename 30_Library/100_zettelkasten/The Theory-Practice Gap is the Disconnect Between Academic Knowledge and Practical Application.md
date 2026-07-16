@@ -6,6 +6,9 @@ permalink: llmeon/30-library/100-zettelkasten/the-theory-practice-gap-is-the-dis
 tags: [education, learning, pedagogy]
 title: The Theory-Practice Gap is the Disconnect Between Academic Knowledge and Practical Application
   Application Application
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## The Theory-Practice Gap is the Disconnect Between Academic Knowledge and Practical Application

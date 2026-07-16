@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:28+00:00
 permalink: llmeon/30-library/100-zettelkasten/kind-learning-environments-are-predictable-and-rule-based
 tags: [environment, learning, predictability]
 title: Kind Learning Environments are Predictable and Rule-Based
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Kind Learning Environments Are Predictable and Rule-Based

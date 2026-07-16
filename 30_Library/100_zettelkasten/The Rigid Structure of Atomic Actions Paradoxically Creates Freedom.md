@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-rigid-structure-of-atomic-actions-paradoxically-creates-freedom
 tags: [action, freedom, paradox, structure, topic/productivity]
 title: The Rigid Structure of Atomic Actions Paradoxically Creates Freedom
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## The Rigid Structure of Atomic Actions Paradoxically Creates Freedom

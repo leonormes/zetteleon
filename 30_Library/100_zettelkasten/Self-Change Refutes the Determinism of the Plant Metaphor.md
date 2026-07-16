@@ -8,6 +8,9 @@ tags:
 - metaphor
 title: Self-Change Refutes the Determinism of the Plant Metaphor
 permalink: llmeon/30-library/100-zettelkasten/self-change-refutes-the-determinism-of-the-plant-metaphor
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Self-Change Refutes the Determinism of the Plant Metaphor

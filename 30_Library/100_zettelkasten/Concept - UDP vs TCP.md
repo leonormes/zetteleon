@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/concept-udp-vs-tcp
 tags: [SoftwareEngineering/networking/protocol]
 title: Concept - UDP vs TCP
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## UDP Vs TCP

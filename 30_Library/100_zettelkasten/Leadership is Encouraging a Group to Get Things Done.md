@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:28+00:00
 permalink: llmeon/30-library/100-zettelkasten/leadership-is-encouraging-a-group-to-get-things-done
 tags: [character-strength, justice, leadership]
 title: Leadership is Encouraging a Group to Get Things Done
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Leadership is encouraging a group of which one is a member to get things done, and at the same time maintaining good relations within the group. It involves organizing group activities and seeing that they happen.

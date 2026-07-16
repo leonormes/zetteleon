@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:28+00:00
 permalink: llmeon/30-library/100-zettelkasten/knowledge-emerges-through-application-and-experience
 tags: [experience, knowledge, learning]
 title: Knowledge Emerges Through Application and Experience
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Knowledge Emerges Through Application and Experience

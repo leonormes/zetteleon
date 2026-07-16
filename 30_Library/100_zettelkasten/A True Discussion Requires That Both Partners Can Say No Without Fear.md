@@ -5,6 +5,9 @@ modified: 2026-07-15T21:28:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/a-true-discussion-requires-that-both-partners-can-say-no-without-fear
 tags: [boundaries, communication, conflict, consent, relationship]
 title: A True Discussion Requires That Both Partners Can Say No Without Fear
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## A True Discussion Requires That Both Partners Can Say No Without Fear

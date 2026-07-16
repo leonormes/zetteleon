@@ -5,6 +5,9 @@ permalink: llmeon/30-library/100-zettelkasten/critiquing-ideas-with-ego-fused-pe
 status: draft
 tags: [communication, conflict, decoupling, ego]
 title: Critiquing Ideas with Ego-Fused People Requires Linguistic Decoupling
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Critiquing Ideas with Ego-Fused People Requires Linguistic Decoupling

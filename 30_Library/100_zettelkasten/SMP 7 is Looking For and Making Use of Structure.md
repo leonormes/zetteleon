@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/smp-7-is-looking-for-and-making-use-of-structure
 tags: [education, maths, structure]
 title: SMP 7 is Looking For and Making Use of Structure
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SMP 7 is Looking For and Making Use of Structure

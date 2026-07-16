@@ -4,6 +4,9 @@ modified: 2026-07-13T08:52:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/committing-thought-to-language-reveals-actual-versus-assumed-beliefs
 tags: [cognitive-dissonance, logic, self-reflection, writing]
 title: Committing Thought to Language Reveals Actual Versus Assumed Beliefs
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Committing Thought to Language Reveals Actual Versus Assumed Beliefs

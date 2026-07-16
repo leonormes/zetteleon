@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:23+00:00
 permalink: llmeon/30-library/100-zettelkasten/aesops-fables-use-anthropomorphic-allegory
 tags: [literature, storytelling]
 title: "Aesop's Fables Use Anthropomorphic Allegory"
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Aesop's Fables Use Anthropomorphic Allegory

@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/thoughts-are-bundled-with-phenomenological-qualities
 tags: [metacognition, phenomenology, TheHuman/Cognition]
 title: Thoughts are bundled with phenomenological qualities
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Thoughts Are Bundled with Phenomenological Qualities

@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-need-for-autonomy-preserves-personal-identity-within-a-partnership
 tags: [autonomy, needs, relationship, TheHuman/Identity]
 title: The Need for Autonomy Preserves Personal Identity Within a Partnership
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## The Need for Autonomy Preserves Personal Identity Within a Partnership

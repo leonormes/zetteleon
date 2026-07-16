@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-brain-is-biased-toward-its-own-thoughts-in-the-moment
 tags: [bias, metacognition, TheHuman/Cognition]
 title: The brain is biased toward its own thoughts in the moment
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## The Brain is Biased toward Its Own Thoughts in the Moment

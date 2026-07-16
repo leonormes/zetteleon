@@ -4,6 +4,9 @@ modified: 2026-07-13T08:52:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/evil-structurally-requires-a-radical-power-asymmetry-directed-at-the-defenceless
 tags: [ethics, power-dynamics, social-psychology, vulnerability]
 title: Evil Structurally Requires a Radical Power Asymmetry Directed at the Defenceless
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Evil Structurally Requires a Radical Power Asymmetry Directed at the Defenceless

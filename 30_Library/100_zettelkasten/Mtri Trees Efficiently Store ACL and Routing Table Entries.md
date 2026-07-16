@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/mtri-trees-efficiently-store-acl-and-routing-table-entries
 tags: [algorithms, data-structures, SoftwareEngineering/Networking]
 title: Mtri Trees Efficiently Store ACL and Routing Table Entries
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Mtri Trees Efficiently Store ACL and Routing Table Entries

@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/hybrid-encryption-combines-symmetric-speed-with-asymmetric-security
 tags: [cryptography, infrastructure]
 title: Hybrid Encryption Combines Symmetric Speed with Asymmetric Security
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 In the real world, we rarely use RSA or ECC to encrypt large amounts of data. Asymmetric encryption is computationally slow and has data size limits. Instead, we use Hybrid Encryption.

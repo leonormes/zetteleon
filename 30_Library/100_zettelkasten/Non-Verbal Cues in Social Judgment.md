@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/non-verbal-cues-in-social-judgment
 tags: [topic/social-cognition, topic/social-perception]
 title: Non-Verbal Cues in Social Judgment
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Non-Verbal Cues in Social Judgment

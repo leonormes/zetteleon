@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:23+00:00
 permalink: llmeon/30-library/100-zettelkasten/action-dominance-is-the-cognitive-bias-towards-action-over-inaction
 tags: [bias, TheHuman/Cognition, TheHuman/Psychology]
 title: Action Dominance is the Cognitive Bias Towards Action Over Inaction
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Action Dominance is the Cognitive Bias Towards Action Over Inaction

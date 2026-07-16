@@ -4,6 +4,9 @@ modified: 2026-07-13T08:52:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/minimum-viable-context-for-llms-prevents-hallucination-via-structural-boundaries
 tags: [concept/mvc, domain/ai, governance]
 title: Minimum Viable Context for LLMs Prevents Hallucination via Structural Boundaries
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Context for LLMs Prevents Hallucination via Structural Boundaries

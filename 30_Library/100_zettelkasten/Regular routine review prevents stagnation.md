@@ -6,6 +6,9 @@ permalink: llmeon/30-library/100-zettelkasten/regular-routine-review-prevents-st
 source: '[[MOC - Why Autistics and ADHDers NEED Routines]]'
 tags: [adaptation, review-cycles, routine-maintenance]
 title: Regular routine review prevents stagnation
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Regular review and adjustment of routines (monthly and seasonally) prevents stagnation and ensures routines continue to meet changing needs, acknowledging that neurodivergent support needs vary with life circumstances and seasonal factors.

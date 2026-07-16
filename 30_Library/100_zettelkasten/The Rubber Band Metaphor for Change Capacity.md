@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-rubber-band-metaphor-for-change-capacity
 tags: [capacity, change-management, metaphor, TheHuman/Health/ADHD]
 title: The Rubber Band Metaphor for Change Capacity
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## The Rubber Band Metaphor for Change Capacity

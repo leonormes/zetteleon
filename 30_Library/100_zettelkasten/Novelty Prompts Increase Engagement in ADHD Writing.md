@@ -6,6 +6,9 @@ permalink: llmeon/30-library/100-zettelkasten/novelty-prompts-increase-engagemen
 source: '[[MOC - Daily Writing for Clarity and ADHD-Friendly Techniques]]'
 tags: [dopamine, novelty, TheHuman/Health/ADHD, writing]
 title: Novelty Prompts Increase Engagement in ADHD Writing
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Using novelty prompts and random selection can increase engagement in a daily writing habit for individuals with ADHD. By keeping a list of unusual or quirky prompts and randomly selecting one for each session, the novelty of the task spikes dopamine and makes it more engaging.

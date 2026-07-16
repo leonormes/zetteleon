@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:23+00:00
 permalink: llmeon/30-library/100-zettelkasten/a-concept-map-for-a-flourishing-human
 tags: [prodos/sot, topic/learning]
 title: A Concept Map for a Flourishing Human
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## A Concept Map for a Flourishing Human: Bessie's Skills

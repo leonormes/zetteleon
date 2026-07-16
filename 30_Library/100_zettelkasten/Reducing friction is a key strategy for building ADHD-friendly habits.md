@@ -6,6 +6,9 @@ permalink: llmeon/30-library/100-zettelkasten/reducing-friction-is-a-key-strateg
 source: '[[MOC - ADHD Routine Building Strategies]]'
 tags: [strategy, TheHuman/Habits, TheHuman/Health/ADHD, topic/productivity]
 title: Reducing friction is a key strategy for building ADHD-friendly habits
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 A core strategy for building successful ADHD-friendly habits is to identify and reduce friction points. By tackling the biggest obstacles with the simplest possible tweaks—the "low-hanging fruit"—one can build momentum and make desired behaviors easier to perform consistently.

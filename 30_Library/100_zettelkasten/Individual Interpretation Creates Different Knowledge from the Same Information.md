@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/individual-interpretation-creates-different-knowledge-from-the-same-information
 tags: [bias, interpretation, knowledge, TheHuman/Cognition]
 title: Individual Interpretation Creates Different Knowledge from the Same Information
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Individual Interpretation Creates Different Knowledge from the Same Information

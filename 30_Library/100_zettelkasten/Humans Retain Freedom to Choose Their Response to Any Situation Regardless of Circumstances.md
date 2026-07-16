@@ -5,6 +5,9 @@ permalink: llmeon/30-library/100-zettelkasten/humans-retain-freedom-to-choose-th
 tags: [agency, freedom, mindset, resilience]
 title: Humans Retain Freedom to Choose Their Response to Any Situation Regardless of Circumstances
   of Circumstances of Circumstances
+type: claim
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Humans Retain Freedom to Choose Their Response to Any Situation Regardless of Circumstances
