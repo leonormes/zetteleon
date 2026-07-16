@@ -1,7 +1,7 @@
 ---
 created: 2026-07-16T00:00:00+00:00
 method: full link-graph extraction, keyword clustering, hub reading, bridge tracing
-modified: 2026-07-16T09:20:03+00:00
+modified: 2026-07-16T09:40:48+00:00
 permalink: llmeon/output/analysis-hidden-research-agenda-of-100-zettelkasten-2026-07-16
 scope: 30_Library/100_zettelkasten (1,110 notes)
 title: Analysis - Hidden Research Agenda of 100_zettelkasten (2026-07-16)
@@ -59,7 +59,7 @@ The central proposition of the whole vault, stated explicitly in "MOC - ADHD and
 
 "Rapid Feedback Loops are Essential for ADHD Motivation" (explicitly: shrink the idea-to-feedback loop; TDD and REPLs as dopamine infrastructure), "Prediction Error Breaks Feedback Loops", "Objective Scoreboards", "Celebrate Small Successes to Build Routine Momentum". The larger idea: motivation is a control-systems problem—the ADHD brain needs a shorter loop between actuator and sensor, exactly like any unstable controller.
 
-#### 5. Agent Architecture ↔ Human Action Initiation [I — strong]
+#### 5. Agent Architecture ↔ Human Action Initiation [I—strong]
 
 "Agentic Autonomy as State Machine Logic" (agent "autonomy" is really constrained execution inside a developer-defined graph) mirrors "The Five-Step Initiation Chain for Neuro-Variable Execution" (human initiation engineered as a five-stage pipeline with triggers, zero-calculation first actions, and bounded sessions). Add "Agentic Autonomy Accelerates Fastest in Domains Where Success Is Verifiable" next to "Objective Scoreboards" and the isomorphism is hard to miss: both agents and ADHD humans perform best when constraint replaces open-ended judgement and success is externally verifiable. No single note states this equivalence outright—it is the strongest _implicit_ thesis in the vault.
 
