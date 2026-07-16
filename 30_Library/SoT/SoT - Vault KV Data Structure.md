@@ -6,6 +6,9 @@ modified: 2026-07-13T08:52:56+00:00
 permalink: llmeon/30-library/so-t/so-t-vault-kv-data-structure
 tags: [data-structures, infrastructure, SoftwareEngineering/Security, vault]
 title: SoT - Vault KV Data Structure
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 0. The Lineage

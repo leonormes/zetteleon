@@ -6,6 +6,9 @@ permalink: llmeon/30-library/so-t/so-t-vault-infrastructure-automation
 source_of_truth: true
 tags: [automation, gitops, iac, terraform, type/SoT, vault]
 title: SoT - Vault Infrastructure Automation
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

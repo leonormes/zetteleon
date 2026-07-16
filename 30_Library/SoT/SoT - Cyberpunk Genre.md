@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:45+00:00
 permalink: llmeon/30-library/so-t/so-t-cyberpunk-genre
 tags: [cyberpunk, genre, history, scifi]
 title: SoT - Cyberpunk Genre
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Definitive Statement

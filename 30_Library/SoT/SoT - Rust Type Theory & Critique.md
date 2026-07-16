@@ -6,6 +6,9 @@ modified: 2026-07-13T08:52:53+00:00
 permalink: llmeon/30-library/so-t/so-t-rust-type-theory-critique
 tags: [critique, formal-methods, rust, type-theory]
 title: SoT - Rust Type Theory & Critique
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. The Theoretical Debt

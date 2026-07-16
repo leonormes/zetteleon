@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:54+00:00
 permalink: llmeon/30-library/so-t/so-t-the-childish-mind-behavioral-resistance
 tags: [behavioral-science, prodos/sot, psychology]
 title: SoT - The Childish Mind (Behavioral Resistance)
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Effective systems engineering requires acknowledging that the human operator is not a unitary rational agent. We possess a dual-process cognition.

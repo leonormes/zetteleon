@@ -5,6 +5,9 @@ permalink: llmeon/30-library/so-t/so-t-process-execution-kernel-logic
 tags: [kernel, operating-systems, programming, SoftwareEngineering/Linux]
 title: SoT - Process Execution (Kernel Logic)
 uuid: ecdfeb35-57ef-4788-9c81-663ac48b8b48
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Definitive Statement

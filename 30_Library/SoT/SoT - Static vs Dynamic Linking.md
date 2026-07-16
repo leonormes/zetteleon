@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:54+00:00
 permalink: llmeon/30-library/so-t/so-t-static-vs-dynamic-linking
 tags: [compilers, devops, linking, SoftwareEngineering/Security]
 title: SoT - Static vs Dynamic Linking
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 > Linking is the process of collecting and combining various pieces of code and data into a single file that can be loaded into memory and executed. The two primary strategies for this are: ""

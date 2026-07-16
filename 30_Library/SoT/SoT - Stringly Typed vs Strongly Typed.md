@@ -7,8 +7,10 @@ permalink: llmeon/30-library/so-t/so-t-stringly-typed-vs-strongly-typed
 status: Active
 tags: [anti-pattern, devops, SoftwareEngineering/Architecture, types]
 title: SoT - Stringly Typed vs Strongly Typed
-type: SoT
+type: sot
 updated: null
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SoT - Stringly Typed Vs Strongly Typed

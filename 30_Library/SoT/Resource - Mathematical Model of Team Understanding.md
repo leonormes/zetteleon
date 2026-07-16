@@ -7,8 +7,10 @@ permalink: llmeon/30-library/so-t/resource-mathematical-model-of-team-understand
 status: stable
 tags: [mathematics, mental_model, team_dynamics, topic/systems]
 title: Resource - Mathematical Model of Team Understanding
-type: Resource
+type: sot
 updated: null
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 🏗️ Runtime Protocol: "Debugging the Team"

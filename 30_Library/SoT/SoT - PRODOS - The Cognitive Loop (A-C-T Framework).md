@@ -6,6 +6,9 @@ modified: 2026-07-13T08:52:52+00:00
 permalink: llmeon/30-library/so-t/so-t-prodos-the-cognitive-loop-a-c-t-framework
 tags: [adhd, cognitive-loop, framework, prodos, protocol]
 title: SoT - PRODOS - The Cognitive Loop (A-C-T Framework)
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Minimum Viable Understanding (MVU)

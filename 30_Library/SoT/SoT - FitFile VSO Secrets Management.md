@@ -6,6 +6,9 @@ permalink: llmeon/30-library/so-t/so-t-fit-file-vso-secrets-management
 source_of_truth: true
 tags: [argocd, fitfile, kubernetes, secrets, security, sot, vault, vso]
 title: SoT - FitFile VSO Secrets Management
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

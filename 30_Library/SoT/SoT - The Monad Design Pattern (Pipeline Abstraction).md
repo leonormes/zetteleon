@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:55+00:00
 permalink: llmeon/30-library/so-t/so-t-the-monad-design-pattern-pipeline-abstraction
 tags: [design_patterns, functional_programming, monads, SoftwareEngineering/Architecture]
 title: SoT - The Monad Design Pattern (Pipeline Abstraction)
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Definitive Statement

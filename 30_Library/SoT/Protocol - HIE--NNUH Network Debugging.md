@@ -8,6 +8,8 @@ permalink: llmeon/30-library/so-t/protocol-hie-nnuh-network-debugging
 tags: [aws, azure, customer/nnuh, debugging, kubernetes, networking, protocol]
 title: Protocol - HIE--NNUH Network Debugging
 type: protocol
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Logic Map

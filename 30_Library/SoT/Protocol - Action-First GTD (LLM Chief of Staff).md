@@ -7,6 +7,8 @@ status: active
 tags: [adhd, gtd, llm, system/protocol]
 title: Protocol - Action-First GTD (LLM Chief of Staff)
 type: protocol
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Logic Map

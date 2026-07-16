@@ -7,8 +7,10 @@ permalink: llmeon/30-library/so-t/so-t-linux-networking-primitives
 status: Active
 tags: [kernel, SoftwareEngineering/Containers, SoftwareEngineering/Linux, SoftwareEngineering/Networking]
 title: SoT - Linux Networking Primitives
-type: SoT
+type: sot
 updated: null
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SoT - Linux Networking Primitives

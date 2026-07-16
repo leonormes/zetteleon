@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:46+00:00
 permalink: llmeon/30-library/so-t/so-t-family-financial-wellness
 tags: [budget, family, finance, wealth, ynab]
 title: SoT - Family Financial Wellness
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SoT - Family Financial Wellness

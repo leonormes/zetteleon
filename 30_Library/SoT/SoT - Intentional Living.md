@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:49+00:00
 permalink: llmeon/30-library/so-t/so-t-intentional-living
 tags: [deep_life, habits, intentionality, mindfulness, productivity, TheHuman/Philosophy]
 title: SoT - Intentional Living
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Definitive Statement

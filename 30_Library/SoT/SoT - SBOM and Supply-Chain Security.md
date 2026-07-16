@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:53+00:00
 permalink: llmeon/30-library/so-t/so-t-sbom-and-supply-chain-security
 tags: [compliance, devops, sbom, security, supply-chain]
 title: SoT - SBOM and Supply-Chain Security
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

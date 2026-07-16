@@ -8,6 +8,9 @@ related:
 source_of_truth: true
 tags: [concept/complexity, domain/software-engineering, type/SoT]
 title: SoT - Complexity Conservation
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

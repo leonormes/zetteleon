@@ -6,7 +6,9 @@ permalink: llmeon/30-library/so-t/so-t-the-rpi-workflow-context-engineering
 status: permanent
 tags: [ai/architecture, mental-model, prodos, system/protocol, workflow]
 title: SoT - The RPI Workflow (Context Engineering)
-type: SoT
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

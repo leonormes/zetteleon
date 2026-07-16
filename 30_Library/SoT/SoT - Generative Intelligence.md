@@ -6,6 +6,9 @@ permalink: llmeon/30-library/so-t/so-t-generative-intelligence
 source_of_truth: true
 tags: [innovation, intelligence, philosophy-of-science, prodos/sot, TheHuman/Cognition, TheHuman/Health/ADHD]
 title: SoT - Generative Intelligence
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

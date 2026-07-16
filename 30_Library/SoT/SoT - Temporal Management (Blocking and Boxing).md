@@ -6,6 +6,9 @@ permalink: llmeon/30-library/so-t/so-t-temporal-management-blocking-and-boxing
 source_of_truth: true
 tags: [cal-newport, parkinsons-law, sarah-hart-unger, scheduling, strategy, time-management, topic/productivity]
 title: SoT - Temporal Management (Blocking and Boxing)
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

@@ -7,8 +7,10 @@ permalink: llmeon/30-library/so-t/so-t-protocol-5-minute-primal-activation
 status: stable
 tags: [adhd-friendly, fitness, primal_movement, protocol]
 title: SoT - Protocol - 5-Minute Primal Activation
-type: protocol
+type: sot
 updated: null
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## ⚡ The 5-Minute Primal Flow

@@ -6,6 +6,9 @@ permalink: llmeon/30-library/so-t/so-t-adhd-self-compassion-strengths
 source_of_truth: true
 tags: [emotional-regulation, mental-health, prodos/sot, self-compassion, TheHuman/Health/ADHD]
 title: SoT - ADHD Self-Compassion & Strengths
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

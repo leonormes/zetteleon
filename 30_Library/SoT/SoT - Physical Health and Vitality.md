@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:52+00:00
 permalink: llmeon/30-library/so-t/so-t-physical-health-and-vitality
 tags: [fitness, health, longevity, mobility, physical_hardware]
 title: SoT - Physical Health and Vitality
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 > The goal is Compression of Morbidity: "maintaining high function until the very end of life, rather than a slow, painful decline."

@@ -6,6 +6,9 @@ permalink: llmeon/30-library/so-t/so-t-azure-backup-and-restore
 tags: []
 tier: 3-Tactic
 title: SoT - Azure Backup and Restore
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 2. Core Concepts

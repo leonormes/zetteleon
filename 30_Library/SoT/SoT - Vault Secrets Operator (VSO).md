@@ -6,6 +6,9 @@ permalink: llmeon/30-library/so-t/so-t-vault-secrets-operator-vso
 source_of_truth: true
 tags: [architecture, kubernetes, secrets, type/SoT, vault, vso]
 title: SoT - Vault Secrets Operator (VSO)
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

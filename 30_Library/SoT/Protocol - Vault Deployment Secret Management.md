@@ -7,6 +7,8 @@ status: stable
 tags: [fitfile, onboarding, protocol, secrets, terraform, vault]
 title: Protocol - Vault Deployment Secret Management
 type: protocol
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Logic Map

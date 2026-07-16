@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:47+00:00
 permalink: llmeon/30-library/so-t/so-t-fit-file-deployment-networking-and-security
 tags: [ff_deploy, networking, security, sot]
 title: SoT - FitFile Deployment - Networking and Security
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Overview

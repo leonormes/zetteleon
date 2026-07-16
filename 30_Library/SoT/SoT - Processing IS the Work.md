@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:52+00:00
 permalink: llmeon/30-library/so-t/so-t-processing-is-the-work
 tags: [pkm, TheHuman/Health/ADHD, TheHuman/Mindset, topic/productivity]
 title: SoT - Processing IS the Work
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Definitive Statement

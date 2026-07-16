@@ -6,6 +6,9 @@ permalink: llmeon/30-library/so-t/so-t-network-segmentation
 source_of_truth: true
 tags: [domain/networking, security/segmentation, theory/zero-trust, type/SoT]
 title: SoT - Network Segmentation
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

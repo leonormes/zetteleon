@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:50+00:00
 permalink: llmeon/30-library/so-t/so-t-kubernetes-networking-dns
 tags: [cni, kubernetes, service_discovery, SoftwareEngineering/Networking, SoftwareEngineering/networking/dns]
 title: SoT - Kubernetes Networking & DNS
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. The Core Model: "Flat Network"

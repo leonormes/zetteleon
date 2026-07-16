@@ -6,6 +6,9 @@ permalink: llmeon/30-library/so-t/so-t-synthea-synthetic-health-records
 source_of_truth: true
 tags: [ehr, ohdsi, simulation, synthetic-data, type/SoT]
 title: SoT - Synthea (Synthetic Health Records)
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

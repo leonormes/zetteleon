@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:53+00:00
 permalink: llmeon/30-library/so-t/so-t-secure-cross-cloud-data-transport
 tags: [cloud, data-centric, SoftwareEngineering/Architecture, SoftwareEngineering/Security, sot]
 title: SoT - Secure Cross-Cloud Data Transport
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Definitive Statement

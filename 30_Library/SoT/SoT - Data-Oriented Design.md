@@ -6,6 +6,9 @@ permalink: llmeon/30-library/so-t/so-t-data-oriented-design
 source_of_truth: true
 tags: [cache, data-oriented-design, hardware, mechanical-sympathy, performance]
 title: SoT - Data-Oriented Design
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

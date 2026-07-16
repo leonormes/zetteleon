@@ -7,7 +7,9 @@ permalink: llmeon/30-library/so-t/so-t-adhd-neurology-core-concepts
 status: ''
 tags: []
 title: SoT - ADHD Neurology & Core Concepts
-type: ''
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SoT - ADHD Neurology & Core Concepts

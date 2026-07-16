@@ -7,6 +7,8 @@ status: stable
 tags: [aws, customer/hie, jumpbox, protocol, ssh, ssm]
 title: Protocol - AWS HIE Jumpbox Access
 type: protocol
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Logic Map

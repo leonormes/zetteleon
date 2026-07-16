@@ -1,17 +1,36 @@
 filters:
   and:
-    - type.contains("sot")
-    - '!file.path.startsWith("99")'
+    - or:
+        - type == "sot"
+        - type == "protocol"
+    - status != "archived"
 views:
   - type: table
-    name: Table
+    name: All Active SoTs & Protocols
     order:
       - file.name
-      - tier
       - type
-      - trust-level
+      - status
+      - conformant
     sort:
-      - property: file.size
+      - property: file.name
         direction: ASC
     columnSize:
       file.name: 432
+  - type: table
+    name: Non-Conformant Review
+    filters:
+      and:
+        - conformant == false
+    order:
+      - file.name
+      - type
+      - non_conformance_reason
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: Archived
+    filters:
+      and:
+        - status == "archived"

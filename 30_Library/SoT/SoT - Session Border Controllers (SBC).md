@@ -6,6 +6,9 @@ permalink: llmeon/30-library/so-t/so-t-session-border-controllers-sbc
 source_of_truth: true
 tags: [networking, security, sip, voice, voip]
 title: SoT - Session Border Controllers (SBC)
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

@@ -4,6 +4,9 @@ modified: 2026-07-13T08:52:40+00:00
 permalink: llmeon/30-library/so-t/protocol-context-injection
 tags: [llm, prompt-engineering, protocol]
 title: Protocol - Context Injection
+type: protocol
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Protocol - Context Injection

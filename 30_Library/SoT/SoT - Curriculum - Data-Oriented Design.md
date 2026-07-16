@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:45+00:00
 permalink: llmeon/30-library/so-t/so-t-curriculum-data-oriented-design
 tags: [curriculum, dop, exercises, learning-engine, practice]
 title: SoT - Curriculum - Data-Oriented Design
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SoT - Curriculum - Data-Oriented Design

@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:52+00:00
 permalink: llmeon/30-library/so-t/so-t-primal-movement-patterns
 tags: [fitness, longevity, mobility, primal_movement, progressions]
 title: SoT - Primal Movement Patterns
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SoT - Primal Movement Patterns

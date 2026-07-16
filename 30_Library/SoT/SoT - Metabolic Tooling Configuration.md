@@ -6,6 +6,8 @@ status: active
 tags: [configuration, health, nutracheck, tools]
 title: SoT - Metabolic Tooling Configuration
 type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Nutracheck Configuration

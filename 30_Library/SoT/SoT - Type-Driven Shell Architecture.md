@@ -7,7 +7,9 @@ permalink: llmeon/30-library/so-t/so-t-type-driven-shell-architecture
 status: growing
 tags: [architecture, automation, bash, shell, sot, unix]
 title: SoT - Type-Driven Shell Architecture
-type: SoT
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

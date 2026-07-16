@@ -6,6 +6,9 @@ permalink: llmeon/30-library/so-t/so-t-automated-cloud-resource-hibernation
 tags: [aks, azure, cloud, cost-optimization, devops, terraform]
 tier: 3-Tactic
 title: SoT - Automated Cloud Resource Hibernation
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Working Knowledge (Stable Foundation)

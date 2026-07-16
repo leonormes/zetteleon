@@ -8,6 +8,9 @@ superseded_by: ''
 supersedes: ''
 tags: [prodos, TheHuman/Cognition/bias, TheHuman/Mindset, TheHuman/Psychology]
 title: SoT - Perfectionism and Analysis Paralysis
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 > In ADHD, it manifests as Analysis Paralysis: "the inability to start a task because the cost of \"doing it wrong\" feels existentially threatening."

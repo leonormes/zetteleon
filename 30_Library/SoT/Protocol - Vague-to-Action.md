@@ -8,6 +8,8 @@ status: evergreen
 tags: [execution, prodos, protocol, task-decomposition]
 title: Protocol - Vague-to-Action
 type: protocol
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Objective

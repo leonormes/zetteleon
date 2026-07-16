@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:52+00:00
 permalink: llmeon/30-library/so-t/so-t-pragmatism-vs-rigour-in-software
 tags: [mental-model, SoftwareEngineering, TheHuman/Philosophy]
 title: SoT - Pragmatism vs Rigour in Software
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 > The Pragmatism-Rigour Conflict is the central tension in software engineering between two opposing value systems: ""

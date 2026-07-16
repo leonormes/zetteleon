@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:45+00:00
 permalink: llmeon/30-library/so-t/so-t-dunning-kruger-effect
 tags: [bias, metacognition, TheHuman/Cognition, TheHuman/Psychology]
 title: SoT - Dunning-Kruger Effect
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 2. The Core Mechanism: The "Double Burden"

@@ -7,8 +7,10 @@ permalink: llmeon/30-library/so-t/so-t-system-incompleteness-and-meta-systems
 status: Active
 tags: [compilers, SoftwareEngineering/Architecture, systems-theory, TheHuman/Philosophy]
 title: SoT - System Incompleteness and Meta-Systems
-type: SoT
+type: sot
 updated: null
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SoT - System Incompleteness and Meta-Systems

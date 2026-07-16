@@ -6,6 +6,9 @@ permalink: llmeon/30-library/so-t/so-t-core-fields-of-mathematical-logic
 source_of_truth: true
 tags: [foundation, math/logic, math/set-theory, prodos/sot]
 title: SoT - Core Fields of Mathematical Logic
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

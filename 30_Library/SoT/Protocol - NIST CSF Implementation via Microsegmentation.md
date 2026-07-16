@@ -8,6 +8,8 @@ status: evergreen
 tags: [cybersecurity, microsegmentation, nist, protocol, zero-trust]
 title: Protocol - NIST CSF Implementation via Microsegmentation
 type: protocol
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Logic Map

@@ -7,8 +7,10 @@ permalink: llmeon/30-library/so-t/so-t-error-handling-architecture
 status: Active
 tags: [error-handling, observability, rust, SoftwareEngineering/Architecture]
 title: SoT - Error Handling Architecture
-type: SoT
+type: sot
 updated: null
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SoT - Error Handling Architecture

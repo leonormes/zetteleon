@@ -7,8 +7,10 @@ permalink: llmeon/30-library/so-t/so-t-virtual-knowledge-graph-paradigm
 status: Active
 tags: [architecture, data-centric, knowledge-graph, ontop, semantic-web]
 title: SoT - Virtual Knowledge Graph Paradigm
-type: SoT
+type: sot
 updated: null
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SoT - Virtual Knowledge Graph Paradigm

@@ -7,7 +7,9 @@ permalink: llmeon/30-library/so-t/so-t-bridging-the-intention-action-gap
 status: deprecated
 tags: [execution, TheHuman/Health/ADHD, TheHuman/Psychology, topic/productivity]
 title: SoT - Bridging the Intention-Action Gap
-type: SoT
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## DEPRECATED

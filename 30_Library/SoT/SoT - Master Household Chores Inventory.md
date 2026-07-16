@@ -7,8 +7,10 @@ permalink: llmeon/30-library/so-t/so-t-master-household-chores-inventory
 status: proposal
 tags: [chores, family, inventory, system]
 title: SoT - Master Household Chores Inventory
-type: SoT
+type: sot
 updated: null
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SoT - Master Household Chores Inventory

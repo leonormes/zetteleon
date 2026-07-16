@@ -6,6 +6,9 @@ permalink: llmeon/30-library/so-t/so-t-prod-os-note-metadata-frontmatter
 see_also: ["[[CLAUDE.md]]", "[[ProdOS-TAC-Plan]]"]
 tags: [prodos/schema, topic/pkm]
 title: SoT - ProdOS Note Metadata (Frontmatter) & TAC Schemas
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Typed Answer Contracts (TAC) Overview

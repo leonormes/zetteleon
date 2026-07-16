@@ -7,8 +7,10 @@ permalink: llmeon/30-library/so-t/so-t-ohdsi-read-only-architecture
 status: Active
 tags: [ohdsi, read-only, SoftwareEngineering/Architecture, sql]
 title: SoT - OHDSI Read-Only Architecture
-type: SoT
+type: sot
 updated: null
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SoT - OHDSI Read-Only Architecture

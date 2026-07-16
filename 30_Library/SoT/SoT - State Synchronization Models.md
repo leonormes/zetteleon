@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:54+00:00
 permalink: llmeon/30-library/so-t/so-t-state-synchronization-models
 tags: [distributed_systems, git, kubernetes, SoftwareEngineering/Architecture, theory]
 title: SoT - State Synchronization Models
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. The Core Divergence

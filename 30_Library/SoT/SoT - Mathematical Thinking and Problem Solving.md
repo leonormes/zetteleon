@@ -6,6 +6,9 @@ permalink: llmeon/30-library/so-t/so-t-mathematical-thinking-and-problem-solving
 source_of_truth: true
 tags: [domain/mathematics, type/SoT]
 title: SoT - Mathematical Thinking and Problem Solving
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

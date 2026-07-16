@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:48+00:00
 permalink: llmeon/30-library/so-t/so-t-fundamentals-of-mathematical-logic
 tags: [fundamentals, math/logic, prodos/sot]
 title: SoT - Fundamentals of Mathematical Logic
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Logic provides the rigour, language, and inferential machinery for mathematics. It serves as the bedrock upon which mathematical structures are built.

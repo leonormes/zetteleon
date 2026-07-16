@@ -6,6 +6,9 @@ modified: 2026-07-13T08:52:56+00:00
 permalink: llmeon/30-library/so-t/so-t-zero-trust-architecture
 tags: [architecture, iam, networking, security, zero-trust]
 title: SoT - Zero Trust Architecture
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

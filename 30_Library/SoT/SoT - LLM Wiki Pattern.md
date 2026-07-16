@@ -7,6 +7,9 @@ permalink: llmeon/30-library/so-t/so-t-llm-wiki-pattern
 source_of_truth: true
 tags: [ai-engineering, architecture, knowledge-management, llm, rag, sot]
 title: SoT - LLM Wiki Pattern
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

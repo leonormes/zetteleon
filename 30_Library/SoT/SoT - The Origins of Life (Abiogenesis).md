@@ -6,6 +6,9 @@ permalink: llmeon/30-library/so-t/so-t-the-origins-of-life-abiogenesis
 source_of_truth: true
 tags: [biology, evolution, prodos/sot, science]
 title: SoT - The Origins of Life (Abiogenesis)
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

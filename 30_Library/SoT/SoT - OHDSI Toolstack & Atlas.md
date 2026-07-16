@@ -7,8 +7,10 @@ permalink: llmeon/30-library/so-t/so-t-ohdsi-toolstack-atlas
 status: Active
 tags: [atlas, ohdsi, SoftwareEngineering, SoftwareEngineering/Architecture]
 title: SoT - OHDSI Toolstack & Atlas
-type: SoT
+type: sot
 updated: null
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SoT - OHDSI Toolstack & Atlas

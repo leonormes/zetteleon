@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:43+00:00
 permalink: llmeon/30-library/so-t/so-t-belief-architecture-cognitive-spaces
 tags: [beliefs, cognition, mental_models, TheHuman/Mindset, TheHuman/Psychology]
 title: SoT - Belief Architecture & Cognitive Spaces
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 > A belief is not merely "true" or "false" in a vacuum; it is Limiting (shrinking the space) or Empowering (expanding the space). The ProdOS approach judges beliefs by their Utility: "_Does this belief expand my agency?_"

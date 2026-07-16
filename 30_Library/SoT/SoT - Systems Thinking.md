@@ -6,6 +6,9 @@ permalink: llmeon/30-library/so-t/so-t-systems-thinking
 tags: [complexity, mental_models, thinking, topic/systems]
 tier: 2-Strategy
 title: SoT - Systems Thinking
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Working Knowledge (Stable)

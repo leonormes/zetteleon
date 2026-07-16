@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:51+00:00
 permalink: llmeon/30-library/so-t/so-t-ohdsi-etl-process
 tags: [data_engineering, etl, ohdsi, sot]
 title: SoT - OHDSI ETL Process
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Definitive Statement

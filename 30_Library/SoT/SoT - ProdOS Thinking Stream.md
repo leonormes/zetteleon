@@ -6,6 +6,9 @@ permalink: llmeon/30-library/so-t/so-t-prod-os-thinking-stream
 source_of_truth: true
 tags: [prodos, system/protocol, thinking, type/SoT, workflow]
 title: SoT - ProdOS Thinking Stream
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

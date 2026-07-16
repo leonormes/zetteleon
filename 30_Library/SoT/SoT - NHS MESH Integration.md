@@ -7,7 +7,9 @@ permalink: llmeon/30-library/so-t/so-t-nhs-mesh-integration
 status: growing
 tags: [compliance, healthcare, mesh, nhs, sot]
 title: SoT - NHS MESH Integration
-type: SoT
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

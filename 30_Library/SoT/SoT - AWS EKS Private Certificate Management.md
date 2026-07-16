@@ -7,8 +7,10 @@ permalink: llmeon/30-library/so-t/so-t-aws-eks-private-certificate-management
 status: Active
 tags: [aws, cert-manager, certificates, eks, security, tls]
 title: SoT - AWS EKS Private Certificate Management
-type: SoT
+type: sot
 updated: null
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SoT - AWS EKS Private Certificate Management

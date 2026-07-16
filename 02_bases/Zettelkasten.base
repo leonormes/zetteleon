@@ -1,0 +1,51 @@
+filters:
+  and:
+    - file.folder == "30_Library/100_zettelkasten"
+views:
+  - type: table
+    name: Review Queue (Non-Conformant)
+    filters:
+      and:
+        - conformant == false
+    order:
+      - file.name
+      - type
+      - non_conformance_reason
+    sort:
+      - property: type
+        direction: ASC
+  - type: table
+    name: All Claims
+    filters:
+      and:
+        - type == "claim"
+    order:
+      - file.name
+      - epistemic_status
+      - conformant
+  - type: table
+    name: All Concepts
+    filters:
+      and:
+        - type == "concept"
+    order:
+      - file.name
+      - conformant
+  - type: table
+    name: Evidence & Procedures
+    filters:
+      or:
+        - type == "evidence"
+        - type == "procedure"
+    order:
+      - file.name
+      - type
+      - conformant
+  - type: table
+    name: Questions
+    filters:
+      and:
+        - type == "question"
+    order:
+      - file.name
+      - conformant

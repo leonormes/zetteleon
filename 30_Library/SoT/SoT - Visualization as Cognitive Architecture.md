@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:56+00:00
 permalink: llmeon/30-library/so-t/so-t-visualization-as-cognitive-architecture
 tags: [cognitive_science, mental_models, system_design, TheHuman/Neuroscience, visualization]
 title: SoT - Visualization as Cognitive Architecture
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 > The mind operates on Fractal Logic: "it constructs the \"Big Picture\" by repeating a single \"Seed Pattern\" at different scales. To control the outcome, you must control the First Frame (the entry point of the primary visual cortex), not the final image."

@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:55+00:00
 permalink: llmeon/30-library/so-t/so-t-the-data-architecture-of-dns
 tags: [data-centric, SoftwareEngineering/Architecture, SoftwareEngineering/Networking, SoftwareEngineering/networking/dns, topic/technology]
 title: SoT - The Data Architecture of DNS
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Definitive Statement

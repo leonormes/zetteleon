@@ -6,6 +6,9 @@ permalink: llmeon/30-library/so-t/so-t-the-data-centric-philosophy
 source_of_truth: true
 tags: [complexity, data-centric, dod, dop, philosophy, prodos/sot, software-engineering]
 title: SoT - The Data-Centric Philosophy
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

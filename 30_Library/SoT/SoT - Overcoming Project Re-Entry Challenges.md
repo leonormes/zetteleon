@@ -6,7 +6,9 @@ permalink: llmeon/30-library/so-t/so-t-overcoming-project-re-entry-challenges
 status: evergreen
 tags: [dopamine, project-management, task-management, TheHuman/Health/ADHD, TheHuman/Psychology, topic/productivity]
 title: SoT - Overcoming Project Re-Entry Challenges
-type: permanent
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## REDIRECT

@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:44+00:00
 permalink: llmeon/30-library/so-t/so-t-cognitive-architectures-simulation-vs-prototyping
 tags: [cognition, collaboration, mental_models, system_design, TheHuman/Health/ADHD]
 title: SoT - Cognitive Architectures (Simulation vs Prototyping)
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 > The Core Divergence defines two distinct cognitive operating systems for problem-solving: ""

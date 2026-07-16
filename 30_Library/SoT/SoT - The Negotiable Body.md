@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:55+00:00
 permalink: llmeon/30-library/so-t/so-t-the-negotiable-body
 tags: [embodiment, extended_mind, somatics, TheHuman/Cognition, TheHuman/Neuroscience]
 title: SoT - The Negotiable Body
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Definitive Statement

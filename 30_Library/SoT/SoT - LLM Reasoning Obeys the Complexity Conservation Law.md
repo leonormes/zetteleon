@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:50+00:00
 permalink: llmeon/30-library/so-t/so-t-llm-reasoning-obeys-the-complexity-conservation-law
 tags: [complexity, llm-understanding, prompt-engineering]
 title: SoT - LLM Reasoning Obeys the Complexity Conservation Law
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## The Core Insight

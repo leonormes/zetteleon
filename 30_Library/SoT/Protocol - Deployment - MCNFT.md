@@ -8,6 +8,8 @@ status: active
 tags: [azure, deployment, mersey-care, protocol]
 title: Protocol - Deployment - MCNFT
 type: protocol
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Executive Summary

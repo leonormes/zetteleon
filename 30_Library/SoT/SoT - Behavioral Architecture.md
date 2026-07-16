@@ -6,6 +6,9 @@ permalink: llmeon/30-library/so-t/so-t-behavioral-architecture
 source_of_truth: true
 tags: [behavioral-science, design, prodos/sot, systems-thinking]
 title: SoT - Behavioral Architecture
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

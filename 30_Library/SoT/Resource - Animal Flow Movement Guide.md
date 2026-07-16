@@ -7,8 +7,10 @@ permalink: llmeon/30-library/so-t/resource-animal-flow-movement-guide
 status: stable
 tags: [exercise, health, somatics, TheHuman/Health/ADHD]
 title: Resource - Animal Flow Movement Guide
-type: Resource
+type: sot
 updated: null
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 🏗️ Runtime Protocol: "The 5-Minute Reset"

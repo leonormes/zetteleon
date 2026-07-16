@@ -7,8 +7,10 @@ permalink: llmeon/30-library/so-t/so-t-protocol-the-launch-sequence
 status: stable
 tags: [action, adhd, initiation, productivity, protocol]
 title: SoT - Protocol - The Launch Sequence
-type: Protocol
+type: sot
 updated: null
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Goal: Bypassing the "Brainbound" Bottleneck

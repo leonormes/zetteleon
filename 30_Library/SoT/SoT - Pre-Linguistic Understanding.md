@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:52+00:00
 permalink: llmeon/30-library/so-t/so-t-pre-linguistic-understanding
 tags: [ai, cognitive_science, education, linguistics, TheHuman/Philosophy]
 title: SoT - Pre-Linguistic Understanding
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 2. Core Principles

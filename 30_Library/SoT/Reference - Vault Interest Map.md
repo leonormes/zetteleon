@@ -6,6 +6,9 @@ permalink: llmeon/30-library/so-t/reference-vault-interest-map
 see_also: ["[[Meta MOC - The Core Domains]]", "[[MOC - PKM as Process vs Product]]"]
 tags: [prodos/meta, topic/pkm, type/reference]
 title: Reference - Vault Interest Map
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Reference - Vault Interest Map

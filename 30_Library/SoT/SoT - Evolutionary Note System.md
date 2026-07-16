@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:46+00:00
 permalink: llmeon/30-library/so-t/so-t-evolutionary-note-system
 tags: [ai, knowledge-management, pkm, synthesis, TheHuman/Cognition, thinking]
 title: SoT - Evolutionary Note System
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 > The mechanism of growth is the Merge Protocol: "systematically squashing ephemeral thinking (`HEAD` notes) into durable answers (`SoT` notes)."

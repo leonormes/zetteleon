@@ -6,6 +6,9 @@ permalink: llmeon/30-library/so-t/so-t-cue-configuration
 source_of_truth: true
 tags: [configuration-management, cue, infrastructure-as-code, prodos/sot, tool/cue]
 title: SoT - CUE Configuration
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

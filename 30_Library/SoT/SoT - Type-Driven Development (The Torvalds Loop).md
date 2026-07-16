@@ -6,6 +6,9 @@ permalink: llmeon/30-library/so-t/so-t-type-driven-development-the-torvalds-loop
 source_of_truth: true
 tags: [design-patterns, programming, rust, SoftwareEngineering/Architecture, TheHuman/Philosophy, type_theory]
 title: SoT - Type-Driven Development (The Torvalds Loop)
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 0. The Lineage

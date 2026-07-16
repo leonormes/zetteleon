@@ -6,6 +6,9 @@ permalink: llmeon/30-library/so-t/so-t-fit-file-identity-access-management-auth0
 see_also: ["[[SoT - FitFile Deployment - Implementation Manual]]", "[[SoT - FitFile Deployment - Strategy & Architecture]]", "[[SoT - FitFile VSO Secrets Management]]"]
 tags: [auth0, ff_deploy, identity, security, sot]
 title: SoT - FitFile Identity & Access Management (Auth0)
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Executive Summary

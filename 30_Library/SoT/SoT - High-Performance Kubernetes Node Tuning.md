@@ -7,8 +7,10 @@ permalink: llmeon/30-library/so-t/so-t-high-performance-kubernetes-node-tuning
 status: Active
 tags: [kubernetes, linux, numa, performance, tuning]
 title: SoT - High-Performance Kubernetes Node Tuning
-type: SoT
+type: sot
 updated: null
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SoT - High-Performance Kubernetes Node Tuning

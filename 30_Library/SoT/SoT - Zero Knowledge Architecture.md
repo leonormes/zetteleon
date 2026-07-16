@@ -7,8 +7,10 @@ permalink: llmeon/30-library/so-t/so-t-zero-knowledge-architecture
 status: Active
 tags: [cryptography, data, rust, SoftwareEngineering/Architecture, zkp]
 title: SoT - Zero Knowledge Architecture
-type: SoT
+type: sot
 updated: null
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SoT - Zero Knowledge Architecture

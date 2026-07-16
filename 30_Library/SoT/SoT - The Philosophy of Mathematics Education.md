@@ -8,8 +8,10 @@ permalink: llmeon/30-library/so-t/so-t-the-philosophy-of-mathematics-education
 status: Active
 tags: [education, maths, pedagogy, TheHuman/Philosophy]
 title: SoT - The Philosophy of Mathematics Education
-type: SoT
+type: sot
 updated: null
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SoT - The Philosophy of Mathematics Education

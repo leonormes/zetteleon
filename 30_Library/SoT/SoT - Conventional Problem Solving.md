@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:45+00:00
 permalink: llmeon/30-library/so-t/so-t-conventional-problem-solving
 tags: [mental_models, optimization, problem-solving, strategy, TheHuman/Cognition]
 title: SoT - Conventional Problem Solving
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Definitive Statement

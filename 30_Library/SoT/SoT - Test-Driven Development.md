@@ -6,6 +6,9 @@ permalink: llmeon/30-library/so-t/so-t-test-driven-development
 source_of_truth: true
 tags: [ai/guardrails, domain/software-engineering, testing/tdd, theory/software-craftsmanship, type/SoT]
 title: SoT - Test-Driven Development
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

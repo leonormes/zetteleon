@@ -7,6 +7,9 @@ see_also: ["[[SoT - Software Configuration Management Patterns]]"]
 source_of_truth: []
 tags: [devops, git, scm, version_control]
 title: SoT - Git
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 2. Working Knowledge (Core Concepts)

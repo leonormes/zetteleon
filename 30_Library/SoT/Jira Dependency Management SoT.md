@@ -6,6 +6,9 @@ permalink: llmeon/30-library/so-t/jira-dependency-management-so-t
 source_of_truth: true
 tags: [domain/productivity, tool/jira, type/SoT]
 title: Jira Dependency Management SoT
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

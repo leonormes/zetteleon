@@ -11,8 +11,10 @@ superseded_by: ''
 supersedes: ''
 tags: [architecture, knowledge-management, meta, ontology]
 title: SoT - Knowledge Architecture (Associative Ontology)
-type: SoT
+type: sot
 updated: null
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 > The Thesis: The user's intellectual landscape is not a collection of isolated facts, but a Unified System where principles of Type Theory (Software) mirror principles of Cognitive Engineering (Mind), all governed by an Existential substrate (Meaning) and executed via PRODOS (Action).

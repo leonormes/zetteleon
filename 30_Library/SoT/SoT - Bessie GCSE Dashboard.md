@@ -7,7 +7,9 @@ permalink: llmeon/30-library/so-t/so-t-bessie-gcse-dashboard
 status: active
 tags: [bessie, dashboard, education]
 title: SoT - Bessie GCSE Dashboard
-type: ''
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SoT - Bessie GCSE Dashboard

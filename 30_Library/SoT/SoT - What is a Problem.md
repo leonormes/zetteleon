@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:56+00:00
 permalink: llmeon/30-library/so-t/so-t-what-is-a-problem
 tags: [definition, logic, mental_model, problem_solving, topic/systems]
 title: SoT - What is a Problem
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 > It exists effectively only when three components are present simultaneously: ""

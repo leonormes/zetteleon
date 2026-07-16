@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:53+00:00
 permalink: llmeon/30-library/so-t/so-t-recursive-language-models
 tags: [agents, architecture, research, rlm]
 title: SoT - Recursive Language Models
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## The Core Problem: Context Rot & Complexity

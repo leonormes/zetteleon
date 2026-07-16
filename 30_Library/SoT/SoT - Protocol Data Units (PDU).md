@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:53+00:00
 permalink: llmeon/30-library/so-t/so-t-protocol-data-units-pdu
 tags: [osi, pdu, protocol, SoftwareEngineering/Networking, topic/technology]
 title: SoT - Protocol Data Units (PDU)
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Definitive Statement

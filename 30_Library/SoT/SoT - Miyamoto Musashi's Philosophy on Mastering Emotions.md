@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:51+00:00
 permalink: llmeon/30-library/so-t/so-t-miyamoto-musashis-philosophy-on-mastering-emotions
 tags: [emotional_regulation, musashi, stoicism, strategy, TheHuman/Philosophy]
 title: "SoT - Miyamoto Musashi's Philosophy on Mastering Emotions"
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Definitive Statement

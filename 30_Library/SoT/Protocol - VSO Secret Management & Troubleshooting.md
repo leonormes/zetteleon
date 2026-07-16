@@ -7,8 +7,10 @@ permalink: llmeon/30-library/so-t/protocol-vso-secret-management-troubleshooting
 status: evergreen
 tags: [aks, argocd, hcp-vault, kubernetes, protocol, secrets, vault, vso]
 title: Protocol - VSO Secret Management & Troubleshooting
-type: Protocol
+type: protocol
 updated: 2026-04-05
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Protocol - VSO Secret Management & Troubleshooting

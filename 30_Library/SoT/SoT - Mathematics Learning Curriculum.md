@@ -6,6 +6,9 @@ permalink: llmeon/30-library/so-t/so-t-mathematics-learning-curriculum
 source_of_truth: true
 tags: [domain/mathematics, type/SoT]
 title: SoT - Mathematics Learning Curriculum
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

@@ -7,6 +7,9 @@ permalink: llmeon/30-library/so-t/so-t-human-vs-ai-cognition
 source_of_truth: true
 tags: [ai, epistemology, llm, mental-models, TheHuman/Cognition, TheHuman/Philosophy]
 title: SoT - Human vs AI Cognition
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

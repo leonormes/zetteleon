@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:54+00:00
 permalink: llmeon/30-library/so-t/so-t-six-levels-of-thinking
 tags: [awareness, mental_model, metacognition, TheHuman/Psychology]
 title: SoT - Six Levels of Thinking
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 2. The Framework: Thinking vs. Awareness

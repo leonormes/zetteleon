@@ -6,6 +6,9 @@ permalink: llmeon/30-library/so-t/so-t-cynefin-framework
 source_of_truth: true
 tags: [domain/systems-thinking, framework/cynefin, type/SoT]
 title: SoT - Cynefin Framework
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:43+00:00
 permalink: llmeon/30-library/so-t/so-t-active-learning-techniques
 tags: [active_learning, feynman, learning, protocol, TheHuman/Cognition]
 title: SoT - Active Learning Techniques
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Retrieval Practice (The Foundation)

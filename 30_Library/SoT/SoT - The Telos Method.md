@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:55+00:00
 permalink: llmeon/30-library/so-t/so-t-the-telos-method
 tags: [ai_integration, framework, strategy, telos]
 title: SoT - The Telos Method
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 > [!definition] Definition

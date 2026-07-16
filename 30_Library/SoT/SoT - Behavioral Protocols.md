@@ -7,7 +7,9 @@ permalink: llmeon/30-library/so-t/so-t-behavioral-protocols
 status: ''
 tags: []
 title: SoT - Behavioral Protocols
-type: ''
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Protocol: Change (Map-Build-Dismantle)

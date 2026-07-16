@@ -7,6 +7,9 @@ permalink: llmeon/30-library/so-t/so-t-adhd-management-protocols
 source_of_truth: true
 tags: [adhd, initiation, productivity, system/protocol]
 title: SoT - ADHD Management Protocols
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SoT - ADHD Management Protocols

@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:49+00:00
 permalink: llmeon/30-library/so-t/so-t-history-of-mathematical-logic
 tags: [logic, math/history, prodos/sot]
 title: SoT - History of Mathematical Logic
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## History of Mathematical Logic

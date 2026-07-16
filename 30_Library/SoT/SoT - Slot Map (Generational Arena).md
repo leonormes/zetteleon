@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:53+00:00
 permalink: llmeon/30-library/so-t/so-t-slot-map-generational-arena
 tags: [data_structures, memory_safety, performance, rust, typescript]
 title: SoT - Slot Map (Generational Arena)
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Definitive Statement

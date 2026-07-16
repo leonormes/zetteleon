@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:53+00:00
 permalink: llmeon/30-library/so-t/so-t-rust-concurrency-async-paradigms
 tags: [async, concurrency, performance, rust, SoftwareEngineering/Architecture]
 title: SoT - Rust Concurrency & Async Paradigms
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. The Core Tension: Work-Stealing vs. Shared-Nothing

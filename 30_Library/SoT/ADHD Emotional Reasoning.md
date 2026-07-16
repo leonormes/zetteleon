@@ -4,6 +4,9 @@ modified: 2026-07-13T08:52:40+00:00
 permalink: llmeon/30-library/so-t/adhd-emotional-reasoning
 source_of_truth: true
 title: ADHD Emotional Reasoning
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Working Knowledge (Stable Foundation)

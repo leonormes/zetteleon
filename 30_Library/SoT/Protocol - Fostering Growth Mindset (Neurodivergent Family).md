@@ -11,6 +11,8 @@ tags: [bessie, growth-mindset, neurodiversity, parenting, protocol]
 title: Protocol - Fostering Growth Mindset (Neurodivergent Family)
 trust-level: stable
 type: protocol
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Logic Map

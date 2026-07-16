@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:53+00:00
 permalink: llmeon/30-library/so-t/so-t-reframe-your-mindset-from-pretender-to-explorer
 tags: [imposter_syndrome, learning, TheHuman/Health/ADHD, TheHuman/Identity, TheHuman/Mindset]
 title: SoT - Reframe Your Mindset From Pretender to Explorer
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Definitive Statement

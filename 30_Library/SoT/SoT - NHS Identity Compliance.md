@@ -9,7 +9,9 @@ status: Active
 synthesis-count: 1
 tags: [compliance, healthcare, iam, nhs, sot]
 title: SoT - NHS Identity Compliance
-type: SoT
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

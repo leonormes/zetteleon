@@ -6,6 +6,9 @@ permalink: llmeon/30-library/so-t/so-t-prodos-core-specification
 tags: [adhd-optimization, execution, prodos, system-architecture]
 tier: 1-Foundation
 title: SoT - PRODOS Core Specification
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## PRODOS Unified Specification

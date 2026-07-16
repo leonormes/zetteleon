@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:50+00:00
 permalink: llmeon/30-library/so-t/so-t-metacognitive-calibration
 tags: [epistemology, intelligence, mental_models, metacognition, validation]
 title: SoT - Metacognitive Calibration
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. The Recursion Error

@@ -7,6 +7,9 @@ permalink: llmeon/30-library/so-t/so-t-aws-eks-networking-architecture
 source_of_truth: true
 tags: [domain/cloud, networking, provider/aws, service/eks, type/SoT]
 title: SoT - AWS EKS Networking Architecture
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

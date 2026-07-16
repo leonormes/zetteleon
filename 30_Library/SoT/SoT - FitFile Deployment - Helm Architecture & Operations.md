@@ -5,6 +5,9 @@ permalink: llmeon/30-library/so-t/so-t-fit-file-deployment-helm-architecture-ope
 Reviewed: false
 tags: [architecture, deployment, fitfile, helm, kubernetes, sop]
 title: SoT - FitFile Deployment - Helm Architecture & Operations
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Overview

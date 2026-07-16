@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:43+00:00
 permalink: llmeon/30-library/so-t/so-t-accelerate-dora
 tags: [ai, architecture, culture, devops, dora, leadership, tdd]
 title: SoT - Accelerate & DORA
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SoT - Accelerate: The Science of Software Delivery

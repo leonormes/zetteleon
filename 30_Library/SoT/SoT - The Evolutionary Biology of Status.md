@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:54+00:00
 permalink: llmeon/30-library/so-t/so-t-the-evolutionary-biology-of-status
 tags: [behavior, status, TheHuman/Neuroscience, TheHuman/Psychology]
 title: SoT - The Evolutionary Biology of Status
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 2. Evolutionary Drivers

@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:54+00:00
 permalink: llmeon/30-library/so-t/so-t-the-exponential-function
 tags: [cognition, mathematics, mental_models, systems_thinking]
 title: SoT - The Exponential Function
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SoT - The Exponential Function

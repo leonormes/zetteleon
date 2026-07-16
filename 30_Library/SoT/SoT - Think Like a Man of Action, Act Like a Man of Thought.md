@@ -6,6 +6,9 @@ permalink: llmeon/30-library/so-t/so-t-think-like-a-man-of-action-act-like-a-man
 tags: [action, adhd, thinking, topic/productivity]
 tier: 1-Foundation
 title: SoT - Think Like a Man of Action, Act Like a Man of Thought
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Minimum Viable Understanding (MVU)

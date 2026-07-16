@@ -6,6 +6,9 @@ permalink: llmeon/30-library/so-t/so-t-psychological-safety-and-belonging
 tags: []
 tier: 1-Foundation
 title: SoT - Psychological Safety and Belonging
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 2. The Core Mechanism: "The Amygdala as Guide Dog & The Social Brain"

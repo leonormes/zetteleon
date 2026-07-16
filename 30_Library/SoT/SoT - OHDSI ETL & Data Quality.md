@@ -7,8 +7,10 @@ permalink: llmeon/30-library/so-t/so-t-ohdsi-etl-data-quality
 status: Active
 tags: [data-quality, etl, ohdsi, process]
 title: SoT - OHDSI ETL & Data Quality
-type: SoT
+type: sot
 updated: null
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SoT - OHDSI ETL & Data Quality

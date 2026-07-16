@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:48+00:00
 permalink: llmeon/30-library/so-t/so-t-framework-for-healthy-communication
 tags: [communication, family, framework, mental-models, relationships]
 title: SoT - Framework for Healthy Communication
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Definitive Statement: "Separating Experience from Causality"

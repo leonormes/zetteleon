@@ -11,6 +11,8 @@ tags: [adhd, gtd, llm, prodos, system/protocol, todoist]
 title: Protocol - Autonomous Action System
 trust-level: stable
 type: protocol
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Logic Map

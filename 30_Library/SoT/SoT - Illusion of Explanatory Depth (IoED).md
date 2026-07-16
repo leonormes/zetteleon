@@ -6,6 +6,9 @@ permalink: llmeon/30-library/so-t/so-t-illusion-of-explanatory-depth-io-ed
 synthesis_count: 3
 tags: [bias, learning, mental_models, TheHuman/Cognition, TheHuman/Health/ADHD]
 title: SoT - Illusion of Explanatory Depth (IoED)
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 > [!definition] Definition: "The Illusion of Explanatory Depth (IoED)"

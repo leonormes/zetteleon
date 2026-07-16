@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:53+00:00
 permalink: llmeon/30-library/so-t/so-t-reality-models-and-the-limits-of-accuracy
 tags: [epistemology, logic, mental_models, TheHuman/Cognition, TheHuman/Philosophy]
 title: SoT - Reality, Models, and the Limits of Accuracy
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Definitive Statement

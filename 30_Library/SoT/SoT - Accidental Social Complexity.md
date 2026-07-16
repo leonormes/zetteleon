@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:43+00:00
 permalink: llmeon/30-library/so-t/so-t-accidental-social-complexity
 tags: [complexity, social-dynamics, team-dynamics, topic/systems]
 title: SoT - Accidental Social Complexity
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Definitive Statement

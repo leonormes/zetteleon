@@ -5,6 +5,9 @@ permalink: llmeon/30-library/so-t/so-t-data-oriented-workstation-setup
 source_of_truth: true
 tags: [architecture, bootstrap, chezmoi, cue, mise, sot, workstation]
 title: SoT - Data-Oriented Workstation Setup
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

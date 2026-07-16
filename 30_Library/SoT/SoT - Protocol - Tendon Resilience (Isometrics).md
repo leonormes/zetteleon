@@ -6,6 +6,9 @@ modified: 2026-07-13T08:52:53+00:00
 permalink: llmeon/30-library/so-t/so-t-protocol-tendon-resilience-isometrics
 tags: [action, health, protocol, tendons]
 title: SoT - Protocol - Tendon Resilience (Isometrics)
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 > Concept: Tendons adapt more slowly than muscles. They require Time Under Tension (TUT) and end-range loading to trigger collagen remodeling.

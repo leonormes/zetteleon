@@ -7,8 +7,10 @@ permalink: llmeon/30-library/so-t/so-t-simple-made-easy-rich-hickey
 status: Stable
 tags: [complexity, design, rich-hickey, simplicity]
 title: SoT - Simple Made Easy (Rich Hickey)
-type: SoT
+type: sot
 updated: null
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 > The Axiom: Simple!= Easy.

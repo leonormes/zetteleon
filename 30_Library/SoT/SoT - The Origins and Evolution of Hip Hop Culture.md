@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:55+00:00
 permalink: llmeon/30-library/so-t/so-t-the-origins-and-evolution-of-hip-hop-culture
 tags: [art, culture, dance, hip_hop, history, music]
 title: SoT - The Origins and Evolution of Hip Hop Culture
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 > Hip Hop is a cultural movement that emerged in the 1970s South Bronx as a creative response to systemic neglect and urban decay. It is defined by Four Core Elements: "DJing (Aural), MCing (Oral), B-Boying/Breaking (Physical), and Graffiti (Visual)."

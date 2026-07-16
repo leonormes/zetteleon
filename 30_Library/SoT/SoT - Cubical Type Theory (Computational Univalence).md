@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:45+00:00
 permalink: llmeon/30-library/so-t/so-t-cubical-type-theory-computational-univalence
 tags: [cubical, hott, mathematics, SoftwareEngineering/Architecture, type_theory]
 title: SoT - Cubical Type Theory (Computational Univalence)
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Working Knowledge (Stable Foundation)

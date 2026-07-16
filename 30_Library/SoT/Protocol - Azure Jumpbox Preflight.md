@@ -7,7 +7,9 @@ Reviewed: true
 status: evergreen
 tags: [azure, bastion, ff_deploy, protocol, ssh]
 title: Protocol - Azure Jumpbox Preflight
-type: Protocol
+type: protocol
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Goal:

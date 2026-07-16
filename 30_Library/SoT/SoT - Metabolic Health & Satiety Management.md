@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:50+00:00
 permalink: llmeon/30-library/so-t/so-t-metabolic-health-satiety-management
 tags: [health, metabolism, mounjaro, nutrition, satiety]
 title: SoT - Metabolic Health & Satiety Management
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Definitive Statement

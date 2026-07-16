@@ -6,6 +6,9 @@ permalink: llmeon/30-library/so-t/so-t-order-theory
 source_of_truth: true
 tags: [domain/theory, tool/cue, topic/configuration-management, type/SoT]
 title: SoT - Order Theory
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

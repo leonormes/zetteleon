@@ -6,6 +6,9 @@ modified: 2026-07-13T08:52:52+00:00
 permalink: llmeon/30-library/so-t/so-t-prosthetic-executive-function
 tags: [adhd, behavior-change, prodos/sot, systems-engineering]
 title: SoT - Prosthetic Executive Function
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Prosthetic Executive Function

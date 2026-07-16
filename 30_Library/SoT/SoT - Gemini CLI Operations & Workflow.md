@@ -7,8 +7,10 @@ permalink: llmeon/30-library/so-t/so-t-gemini-cli-operations-workflow
 status: evolving
 tags: [gemini-cli, guide, tools, workflow]
 title: SoT - Gemini CLI Operations & Workflow
-type: SoT
+type: sot
 updated: null
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 1. Runtime: " Requires Node.js v20 or higher."

@@ -8,6 +8,9 @@ superseded_by: ''
 supersedes: ''
 tags: [anti-pattern, llm-failure-mode, software-architecture]
 title: SoT - Parochial Code
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Parochial Code

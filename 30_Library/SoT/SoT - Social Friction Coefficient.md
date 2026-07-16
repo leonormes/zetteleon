@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:53+00:00
 permalink: llmeon/30-library/so-t/so-t-social-friction-coefficient
 tags: [efficiency, team-dynamics, topic/productivity, topic/systems]
 title: SoT - Social Friction Coefficient
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Definitive Statement

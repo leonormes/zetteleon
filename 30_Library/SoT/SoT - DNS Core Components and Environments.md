@@ -7,8 +7,10 @@ permalink: llmeon/30-library/so-t/so-t-dns-core-components-and-environments
 status: Active
 tags: [aws, azure, dns, networking, security, SoftwareEngineering/Architecture]
 title: SoT - DNS Core Components and Environments
-type: SoT
+type: sot
 updated: null
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 > Architectural Pattern: This deployment utilizes a Split-View DNS architecture. Domain names resolve to different IP addresses depending on the origin of the query (Internal vs. External). This is achieved via reciprocal conditional forwarding between Cloud CoreDNS and On-Premise DNS servers.

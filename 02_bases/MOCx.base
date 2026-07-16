@@ -1,36 +1,24 @@
 filters:
   and:
-    - file.ext == "md"
-    - '!file.folder.startsWith("99_Archive")'
+    - type == "map"
     - status != "archived"
 views:
   - type: table
-    name: Table
-    filters:
-      or:
-        - type == "map"
-        - type == "MOC"
-        - type == "moc"
-        - file.name.contains("MOC")
-        - type == "index"
+    name: Active Maps
     order:
       - file.name
+      - status
+      - conformant
       - file.mtime
-      - type
     sort:
       - property: file.name
         direction: ASC
     columnSize:
-      note.type: 136
-      file.name: 502
+      file.name: 450
   - type: list
     name: Recently Updated
     filters:
       and:
-        - or:
-            - type == "map"
-            - type == "MOC"
-            - type == "moc"
         - file.mtime > now() - "30 days"
     order:
       - file.name
@@ -39,13 +27,9 @@ views:
       - property: file.mtime
         direction: DESC
   - type: table
-    name: Stale MOCs
+    name: Stale Maps
     filters:
       and:
-        - or:
-            - type == "map"
-            - type == "MOC"
-            - type == "moc"
         - file.mtime < now() - "6 months"
     order:
       - file.name
@@ -54,15 +38,11 @@ views:
     sort:
       - property: file.mtime
         direction: ASC
-  - type: cards
-    name: MOCs as Cards
+  - type: table
+    name: Non-Conformant
     filters:
-      or:
-        - type == "map"
-        - type == "MOC"
-        - type == "moc"
+      and:
+        - conformant == false
     order:
       - file.name
-      - status
-      - purpose
-      - tags
+      - non_conformance_reason

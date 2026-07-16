@@ -7,6 +7,8 @@ status: stable
 tags: [cue, helm, migration, protocol, sot]
 title: Protocol - Helm to CUE Migration
 type: protocol
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Logic Map

@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:52+00:00
 permalink: llmeon/30-library/so-t/so-t-personal-agency-and-transformation
 tags: [agency, personal_development, TheHuman/Mindset, TheHuman/Psychology, transformation]
 title: SoT - Personal Agency and Transformation
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 2. The Agency Cultivation Model

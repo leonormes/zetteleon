@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:55+00:00
 permalink: llmeon/30-library/so-t/so-t-the-philosophy-of-the-absurd-camus
 tags: [absurdism, existentialism, meaning, TheHuman/Philosophy]
 title: SoT - The Philosophy of the Absurd (Camus)
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 > The Absurd is not a property of the universe nor of the human mind, but the irresolvable conflict born from their confrontation: ""

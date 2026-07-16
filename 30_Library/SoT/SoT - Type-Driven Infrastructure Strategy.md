@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:56+00:00
 permalink: llmeon/30-library/so-t/so-t-type-driven-infrastructure-strategy
 tags: [cdktf, devops, iac, rust, SoftwareEngineering/Architecture, terraform, type-theory]
 title: SoT - Type-Driven Infrastructure Strategy
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SoT - Type-Driven Infrastructure Strategy

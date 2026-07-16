@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:55+00:00
 permalink: llmeon/30-library/so-t/so-t-the-internal-world-and-the-need-for-validation
 tags: [mental_models, neurodivergence, TheHuman/Creativity, TheHuman/Psychology, validation]
 title: SoT - The Internal World and the Need for Validation
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Definitive Statement

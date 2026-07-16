@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:46+00:00
 permalink: llmeon/30-library/so-t/so-t-dev-ops-infrastructure-architecture-strategy
 tags: [devops, fitfile, iac, SoftwareEngineering/Architecture, strategy]
 title: SoT - DevOps & Infrastructure Architecture Strategy
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. The Core Tension: Complexity vs. Cognition

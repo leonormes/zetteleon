@@ -1,6 +1,7 @@
 filters:
   and:
     - file.folder == "30_Library/200_Projects"
+    - status != "archived"
 views:
   - type: table
     name: Table
@@ -11,13 +12,15 @@ views:
       - file.name
       - project_name
       - type
+      - conformant
     sort:
       - property: project_name
         direction: ASC
-      - property: type
-        direction: ASC
-      - property: project_status
-        direction: ASC
     columnSize:
-      file.name: 591
-      note.project_name: 220
+      file.name: 500
+      note.project_name: 200
+  - type: table
+    name: Archived References
+    filters:
+      and:
+        - status == "archived"

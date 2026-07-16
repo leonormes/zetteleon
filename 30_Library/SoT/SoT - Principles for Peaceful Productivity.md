@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:52+00:00
 permalink: llmeon/30-library/so-t/so-t-principles-for-peaceful-productivity
 tags: [boundaries, principles, rules, TheHuman/Mindset, topic/productivity]
 title: SoT - Principles for Peaceful Productivity
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 2. The 10 Core Principles

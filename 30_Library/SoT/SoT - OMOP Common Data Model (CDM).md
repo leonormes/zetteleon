@@ -7,8 +7,10 @@ permalink: llmeon/30-library/so-t/so-t-omop-common-data-model-cdm
 status: Active
 tags: [data-model, ohdsi, omop, schema]
 title: SoT - OMOP Common Data Model (CDM)
-type: SoT
+type: sot
 updated: null
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SoT - OMOP Common Data Model (CDM)

@@ -7,8 +7,10 @@ permalink: llmeon/30-library/so-t/so-t-extending-gemini-cli-with-mcp
 status: evolving
 tags: [extensions, gemini-cli, mcp, SoftwareEngineering/Architecture, tools]
 title: SoT - Extending Gemini CLI with MCP
-type: SoT
+type: sot
 updated: null
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Definitive Statement: "MCP Architecture"

@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:44+00:00
 permalink: llmeon/30-library/so-t/so-t-conservation-of-complexity
 tags: [architecture, complexity, mental_models, software_engineering, sot]
 title: SoT - Conservation of Complexity
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

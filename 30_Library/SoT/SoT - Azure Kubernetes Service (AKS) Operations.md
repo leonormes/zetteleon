@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:43+00:00
 permalink: llmeon/30-library/so-t/so-t-azure-kubernetes-service-aks-operations
 tags: [aks, autoscaling, azure, kubernetes, ops, troubleshooting]
 title: SoT - Azure Kubernetes Service (AKS) Operations
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Operational Constraints & Common Errors

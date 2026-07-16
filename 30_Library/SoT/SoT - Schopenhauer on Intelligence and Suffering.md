@@ -6,6 +6,9 @@ permalink: llmeon/30-library/so-t/so-t-schopenhauer-on-intelligence-and-sufferin
 source_of_truth: true
 tags: [intelligence, philosophy, schopenhauer, solitude, suffering, type/SoT]
 title: SoT - Schopenhauer on Intelligence and Suffering
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

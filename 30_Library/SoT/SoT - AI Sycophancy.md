@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:42+00:00
 permalink: llmeon/30-library/so-t/so-t-ai-sycophancy
 tags: [ai, alignment, bias, mental_models, risk]
 title: SoT - AI Sycophancy
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SoT - AI Sycophancy

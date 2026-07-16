@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:54+00:00
 permalink: llmeon/30-library/so-t/so-t-the-data-centric-theory-of-networking
 tags: [data-centric, routing, SoftwareEngineering/Architecture, SoftwareEngineering/Networking, topic/technology]
 title: SoT - The Data-Centric Theory of Networking
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Definitive Statement

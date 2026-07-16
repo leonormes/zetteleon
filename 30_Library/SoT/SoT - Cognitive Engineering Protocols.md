@@ -7,7 +7,9 @@ permalink: llmeon/30-library/so-t/so-t-cognitive-engineering-protocols
 status: ''
 tags: []
 title: SoT - Cognitive Engineering Protocols
-type: ''
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SoT - Cognitive Engineering Protocols

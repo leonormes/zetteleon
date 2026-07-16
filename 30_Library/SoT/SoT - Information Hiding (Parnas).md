@@ -8,6 +8,9 @@ superseded_by: ''
 supersedes: ''
 tags: [design-principles, modularity, SoftwareEngineering, SoftwareEngineering/Architecture]
 title: SoT - Information Hiding (Parnas)
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 2. Core Principles

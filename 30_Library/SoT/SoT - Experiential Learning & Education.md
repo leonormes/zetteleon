@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:46+00:00
 permalink: llmeon/30-library/so-t/so-t-experiential-learning-education
 tags: [active-learning, education, kolb, learning, pedagogy]
 title: SoT - Experiential Learning & Education
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Core Pedagogical Principle

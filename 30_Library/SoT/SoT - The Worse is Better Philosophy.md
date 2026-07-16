@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:55+00:00
 permalink: llmeon/30-library/so-t/so-t-the-worse-is-better-philosophy
 tags: [market-dynamics, SoftwareEngineering, TheHuman/Philosophy]
 title: SoT - The Worse is Better Philosophy
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 2. The Core Problem: The Market's Selection Filter

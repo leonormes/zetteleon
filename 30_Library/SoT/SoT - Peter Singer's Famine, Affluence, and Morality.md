@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:52+00:00
 permalink: llmeon/30-library/so-t/so-t-peter-singers-famine-affluence-and-morality
 tags: [effective_altruism, ethics, moral_philosophy, peter_singer, utilitarianism]
 title: "SoT - Peter Singer's Famine, Affluence, and Morality"
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 2. Conceptual Foundation: Obligation vs. Supererogation

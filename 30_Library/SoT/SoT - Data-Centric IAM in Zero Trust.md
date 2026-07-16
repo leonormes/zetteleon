@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:45+00:00
 permalink: llmeon/30-library/so-t/so-t-data-centric-iam-in-zero-trust
 tags: [data-centric, IAM, SoftwareEngineering/Architecture, SoftwareEngineering/Security, TheHuman/Identity, zero-trust]
 title: SoT - Data-Centric IAM in Zero Trust
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Definitive Statement

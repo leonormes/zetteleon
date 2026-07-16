@@ -6,6 +6,8 @@ status: active
 tags: [health, metabolic, system-architecture]
 title: Protocol - Metabolic Firewall
 type: protocol
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Protocol: Metabolic Firewall (Post-Mounjaro)

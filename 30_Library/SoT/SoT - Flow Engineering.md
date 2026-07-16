@@ -10,6 +10,9 @@ superseded_by: ''
 supersedes: ''
 tags: [ai-engineering, architecture, llm, orchestration, sot]
 title: SoT - Flow Engineering
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

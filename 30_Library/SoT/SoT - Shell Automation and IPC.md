@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:53+00:00
 permalink: llmeon/30-library/so-t/so-t-shell-automation-and-ipc
 tags: [automation, ipc, shell, SoftwareEngineering/Linux]
 title: SoT - Shell Automation and IPC
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Definitive Statement

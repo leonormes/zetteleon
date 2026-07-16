@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:53+00:00
 permalink: llmeon/30-library/so-t/so-t-relationship-maintenance-and-emotional-labour
 tags: [communication, emotional-labour, maintenance, relationships]
 title: SoT - Relationship Maintenance and Emotional Labour
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Definitive Statement

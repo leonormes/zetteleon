@@ -7,8 +7,10 @@ permalink: llmeon/30-library/so-t/so-t-ohdsi-and-fhir-convergence
 status: Active
 tags: [fhir, interoperability, ohdsi, SoftwareEngineering/Architecture]
 title: SoT - OHDSI and FHIR Convergence
-type: SoT
+type: sot
 updated: null
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SoT - OHDSI and FHIR Convergence

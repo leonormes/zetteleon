@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:53+00:00
 permalink: llmeon/30-library/so-t/so-t-social-stratification
 tags: [class, inequality, power, sociology, status, structure]
 title: SoT - Social Stratification
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 2. The Three Dimensions (Weber's Triad)

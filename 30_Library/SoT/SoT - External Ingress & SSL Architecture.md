@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:46+00:00
 permalink: llmeon/30-library/so-t/so-t-external-ingress-ssl-architecture
 tags: [cert-manager, cloudflare, ingress, kubernetes, sot, ssl]
 title: SoT - External Ingress & SSL Architecture
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

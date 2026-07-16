@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:54+00:00
 permalink: llmeon/30-library/so-t/so-t-software-configuration-management-patterns
 tags: [devops, patterns, scm, SoftwareEngineering, SoftwareEngineering/Architecture]
 title: SoT - Software Configuration Management Patterns
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 > Core Principle: " A software system is the sum of all its code and artifacts (data, docs, tests). If you cannot reproduce the system from version control, you do not have control."

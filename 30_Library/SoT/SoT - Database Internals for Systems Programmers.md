@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:45+00:00
 permalink: llmeon/30-library/so-t/so-t-database-internals-for-systems-programmers
 tags: [database, internals, learning, performance, SoftwareEngineering/Architecture]
 title: SoT - Database Internals for Systems Programmers
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. The Core Thesis

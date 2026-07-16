@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:42+00:00
 permalink: llmeon/30-library/so-t/so-t-ai-ready-infrastructure-context
 tags: [ai, context, devops, documentation, kubernetes, monitoring]
 title: SoT - AI-Ready Infrastructure Context
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

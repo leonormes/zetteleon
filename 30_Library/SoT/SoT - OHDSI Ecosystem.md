@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:51+00:00
 permalink: llmeon/30-library/so-t/so-t-ohdsi-ecosystem
 tags: [ohdsi, SoftwareEngineering/Architecture, sot]
 title: SoT - OHDSI Ecosystem
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Definitive Statement

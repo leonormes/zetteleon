@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:46+00:00
 permalink: llmeon/30-library/so-t/so-t-financial-philosophy-and-spendfulness
 tags: [finance, ontology, physics, psychology, TheHuman/Mindset]
 title: SoT - Financial Philosophy and Spendfulness
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SoT - Financial Philosophy and Spendfulness

@@ -7,6 +7,9 @@ source_of_truth: true
 synthesis_count: 3
 tags: [architecture/complexity, devops, domain/infrastructure, Schema, terraform, theory/systems, type/SoT]
 title: SoT - Infrastructure Complexity
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

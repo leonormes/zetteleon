@@ -6,8 +6,10 @@ Reviewed: false
 status: evergreen
 tags: [ff_deploy]
 title: Protocol - Azure Customer Preparation
-type: Protocol
+type: protocol
 updated: 2026-02-01
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Azure Customer Preparation Checklist

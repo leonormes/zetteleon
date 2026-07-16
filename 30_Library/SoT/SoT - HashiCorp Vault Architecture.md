@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:49+00:00
 permalink: llmeon/30-library/so-t/so-t-hashi-corp-vault-architecture
 tags: [data_structures, hashicorp, SoftwareEngineering/Architecture, SoftwareEngineering/Security, vault]
 title: SoT - HashiCorp Vault Architecture
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. The First-Principles Mental Model

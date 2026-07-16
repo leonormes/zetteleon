@@ -7,6 +7,9 @@ permalink: llmeon/30-library/so-t/so-t-scalable-private-networking-ipam
 source_of_truth: true
 tags: [architecture, domain/infrastructure, ipam, networking, sot]
 title: SoT - Scalable Private Networking & IPAM
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

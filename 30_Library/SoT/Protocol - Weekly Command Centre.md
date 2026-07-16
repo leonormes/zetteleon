@@ -7,8 +7,10 @@ permalink: llmeon/30-library/so-t/protocol-weekly-command-centre
 status: stable
 tags: []
 title: Protocol - Weekly Command Centre
-type: Protocol
+type: protocol
 updated: null
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Protocol - Weekly Command Centre (System Reset)

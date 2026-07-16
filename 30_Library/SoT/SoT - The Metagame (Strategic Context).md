@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:55+00:00
 permalink: llmeon/30-library/so-t/so-t-the-metagame-strategic-context
 tags: [game-theory, metagame, strategy, topic/systems]
 title: SoT - The Metagame (Strategic Context)
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 2. Core Mechanisms

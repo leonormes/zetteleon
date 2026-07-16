@@ -7,8 +7,10 @@ permalink: llmeon/30-library/so-t/so-t-git-ops-for-privileged-identity-managemen
 status: Active
 tags: [azure, gitops, iam, pim, security, terraform]
 title: SoT - GitOps for Privileged Identity Management
-type: SoT
+type: sot
 updated: null
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SoT - GitOps for Privileged Identity Management

@@ -8,6 +8,9 @@ superseded_by: ''
 supersedes: ''
 tags: [complexity, evolution, information_theory, physics, systems_theory]
 title: SoT - The Law of Increasing Functional Information
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Definitive Statement

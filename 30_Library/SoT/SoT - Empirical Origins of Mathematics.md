@@ -6,6 +6,9 @@ permalink: llmeon/30-library/so-t/so-t-empirical-origins-of-mathematics
 source_of_truth: true
 tags: [domain/history-of-mathematics, type/SoT]
 title: SoT - Empirical Origins of Mathematics
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

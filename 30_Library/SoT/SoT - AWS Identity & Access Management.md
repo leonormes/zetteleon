@@ -9,7 +9,9 @@ status: Active
 synthesis-count: 1
 tags: [aws, iam, security, sot]
 title: SoT - AWS Identity & Access Management
-type: SoT
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

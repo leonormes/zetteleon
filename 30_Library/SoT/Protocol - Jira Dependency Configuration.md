@@ -6,6 +6,9 @@ related-sot:
 - - Jira Dependency Management SoT
 tags: [domain/jira, tool/jira, type/protocol]
 title: Protocol - Jira Dependency Configuration
+type: protocol
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Logic Map

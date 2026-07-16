@@ -5,7 +5,9 @@ modified: 2026-07-13T08:52:40+00:00
 permalink: llmeon/30-library/so-t/instruction-so-t-research-to-action-protocol
 tags: [adhd-tools, prodos, protocol, research]
 title: Instruction SoT - Research-to-Action Protocol
-type: Instruction
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Instruction SoT - Research-to-Action Protocol

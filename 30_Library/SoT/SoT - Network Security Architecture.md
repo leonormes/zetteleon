@@ -6,6 +6,9 @@ permalink: llmeon/30-library/so-t/so-t-network-security-architecture
 source_of_truth: true
 tags: [architecture, infrastructure, networking, security]
 title: SoT - Network Security Architecture
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

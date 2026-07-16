@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:50+00:00
 permalink: llmeon/30-library/so-t/so-t-logotherapy-and-the-will-to-meaning
 tags: [meaning, mental_models, resilience, TheHuman/Philosophy, TheHuman/Psychology]
 title: SoT - Logotherapy and the Will to Meaning
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 > Unlike the "Will to Pleasure" (Freud) or the "Will to Power" (Adler), Frankl posits that human resilience relies on the discovery of meaning, even—and especially—in the face of unavoidable suffering. Its core tenet: "\"He who has a why to live for can bear almost any how.\" (Nietzsche, popularized by Frankl)."

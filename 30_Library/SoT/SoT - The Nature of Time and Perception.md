@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:55+00:00
 permalink: llmeon/30-library/so-t/so-t-the-nature-of-time-and-perception
 tags: [existentialism, philosophy, psychology, sot, time]
 title: SoT - The Nature of Time and Perception
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Minimum Viable Understanding (MVU)

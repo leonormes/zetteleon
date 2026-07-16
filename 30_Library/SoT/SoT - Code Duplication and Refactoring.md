@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:44+00:00
 permalink: llmeon/30-library/so-t/so-t-code-duplication-and-refactoring
 tags: [llm-understanding]
 title: SoT - Code Duplication and Refactoring
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 2. Kent Beck's Types of Duplication

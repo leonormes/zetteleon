@@ -7,7 +7,9 @@ permalink: llmeon/30-library/so-t/so-t-execution-protocol-gtd-para
 status: permanent
 tags: [gtd, para, system/protocol]
 title: SoT - Execution Protocol (GTD & PARA)
-type: process
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Purpose: To harmonize the structural organization of PARA with the execution workflow of GTD. This protocol is the single source of truth for defining work and "done."

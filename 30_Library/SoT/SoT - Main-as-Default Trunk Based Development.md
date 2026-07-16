@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:50+00:00
 permalink: llmeon/30-library/so-t/so-t-main-as-default-trunk-based-development
 tags: [agile, devops, git, SoftwareEngineering, tbd]
 title: SoT - Main-as-Default Trunk Based Development
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 > [!definition] Definition: "Main-as-Default TBD"

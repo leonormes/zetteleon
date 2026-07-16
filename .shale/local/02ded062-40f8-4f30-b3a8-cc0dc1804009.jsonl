@@ -2,3 +2,5 @@
 {"kind":"session_end","at":"2026-07-16T15:11:31.683063Z"}
 {"kind":"intent","at":"2026-07-16T15:11:50.577755Z","title":"Refactor SoT - ProdOS Note Metadata to incorporate TAC schemas","body":"Updating the Source of Truth for frontmatter to align with the new Typed Answer Contracts (TAC) required by the latest ProdOS plans."}
 {"kind":"intent","at":"2026-07-16T15:12:37.493407Z","title":"Refactor MOC - ADHD and PKM Systems to adhere to TAC map schema","body":"Updating the frontmatter to use 'type: map' and adding TAC conformance flags, as well as updating the body text to reflect the new Typed Answer Contract constraints."}
+{"kind":"intent","at":"2026-07-16T15:18:11.528947Z","title":"Refactor Obsidian Bases to TAC Schemas","body":"Updating SoT.base, MOCx.base, Project Dashboard.base, Project References.base, and creating Zettelkasten.base to align with the new Typed Answer Contract schemas."}
+{"kind":"intent","at":"2026-07-16T15:22:09.822296Z","title":"Bulk update 330 SoT notes to include type and TAC flags","body":"Fixing missing frontmatter in the SoT directory so the SoT base renders accurately per the TAC plan."}

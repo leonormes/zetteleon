@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:45+00:00
 permalink: llmeon/30-library/so-t/so-t-cyberpunk-case-study-blade-runner
 tags: [case_study, cyberpunk, film, sociology]
 title: SoT - Cyberpunk Case Study - Blade Runner
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Ontological Framework: Biological vs. Mechanical

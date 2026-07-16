@@ -6,6 +6,9 @@ permalink: llmeon/30-library/so-t/so-t-nist-cybersecurity-framework
 source_of_truth: true
 tags: [compliance, cybersecurity, governance, nist, resilience]
 title: SoT - NIST Cybersecurity Framework
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

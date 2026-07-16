@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:49+00:00
 permalink: llmeon/30-library/so-t/so-t-goal-architecture-vision-and-alignment
 tags: [goals, nlp, SoftwareEngineering/Architecture, strategy, TheHuman/Psychology, vision]
 title: SoT - Goal Architecture (Vision and Alignment)
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Definitive Statement

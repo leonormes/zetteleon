@@ -9,7 +9,9 @@ status: Active
 synthesis-count: 1
 tags: [azure, iam, security, sot]
 title: SoT - Microsoft Entra Identity
-type: SoT
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

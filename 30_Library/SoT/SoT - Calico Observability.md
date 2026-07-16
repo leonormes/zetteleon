@@ -5,7 +5,9 @@ permalink: llmeon/30-library/so-t/so-t-calico-observability
 status: growing
 tags: [calico, grafana, kubernetes, observability]
 title: SoT - Calico Observability
-type: SoT
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Core Distinction: Engine vs. Dashboard

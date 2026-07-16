@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:56+00:00
 permalink: llmeon/30-library/so-t/so-t-uk-social-hierarchy-and-class-analysis
 tags: [class, economics, inequality, sociology, uk]
 title: SoT - UK Social Hierarchy and Class Analysis
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 2. Theoretical Foundations

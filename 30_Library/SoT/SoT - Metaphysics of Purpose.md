@@ -6,6 +6,9 @@ permalink: llmeon/30-library/so-t/so-t-metaphysics-of-purpose
 source_of_truth: true
 tags: [metaphysics, philosophy, prodos/sot, teleology]
 title: SoT - Metaphysics of Purpose
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

@@ -6,6 +6,9 @@ permalink: llmeon/30-library/so-t/so-t-mental-models-in-software-development
 source_of_truth: true
 tags: [cognition, devex, mental_models, prodos/sot, software-engineering]
 title: SoT - Mental Models in Software Development
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

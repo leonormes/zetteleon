@@ -2,31 +2,37 @@ filters:
   and:
     - file.ext == "md"
     - type == "project"
-    - '!file.path.startsWith("Templates")'
+    - status != "archived"
 views:
   - type: table
     name: Active Projects Review
-    filters:
-      and:
-        - status == "ongoing"
+    groupBy:
+      property: project_category
+      direction: ASC
     order:
       - file.name
-      - outcome
-      - area
+      - project_name
+      - project_category
       - status
-      - reviewed
+      - conformant
     sort:
-      - property: reviewed
+      - property: project_name
         direction: ASC
     columnSize:
-      file.name: 400
-      note.outcome: 350
-      note.area: 150
-      note.status: 100
-      note.reviewed: 120
+      file.name: 350
+      note.project_name: 250
   - type: cards
     name: Visual Board
     order:
       - status
+      - project_name
       - file.name
-      - type
+  - type: table
+    name: Non-Conformant
+    filters:
+      and:
+        - conformant == false
+    order:
+      - file.name
+      - project_name
+      - non_conformance_reason

@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:45+00:00
 permalink: llmeon/30-library/so-t/so-t-conways-law-and-structural-mismatch
 tags: [conways-law, organizational-structure, SoftwareEngineering/Architecture, systems-design]
 title: SoT - Conways Law and Structural Mismatch
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Definitive Statement

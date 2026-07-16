@@ -10,6 +10,9 @@ superseded_by: ''
 supersedes: ''
 tags: [ai-engineering, epistemology, llm, sot]
 title: SoT - LLM Semantic-Statistical Mismatch
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

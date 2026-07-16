@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:43+00:00
 permalink: llmeon/30-library/so-t/so-t-atomicity-and-loose-coupling
 tags: [atomicity, pkm, topic/systems, zettelkasten]
 title: SoT - Atomicity and Loose Coupling
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 2. The Core Tension: Independence vs. Interconnectedness

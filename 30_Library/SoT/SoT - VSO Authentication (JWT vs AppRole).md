@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:56+00:00
 permalink: llmeon/30-library/so-t/so-t-vso-authentication-jwt-vs-app-role
 tags: [architecture, jwt, kubernetes, oidc, security, vault, vso]
 title: SoT - VSO Authentication (JWT vs AppRole)
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SoT - VSO Authentication (JWT Vs AppRole)

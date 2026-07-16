@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:50+00:00
 permalink: llmeon/30-library/so-t/so-t-ml-engineering-for-ai-agents
 tags: [agents, ai, devops, engineering, machine-learning, workflows]
 title: SoT - ML Engineering for AI Agents
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

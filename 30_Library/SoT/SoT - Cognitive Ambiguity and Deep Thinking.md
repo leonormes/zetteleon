@@ -5,6 +5,9 @@ modified: 2026-07-13T08:52:44+00:00
 permalink: llmeon/30-library/so-t/so-t-cognitive-ambiguity-and-deep-thinking
 tags: [ambiguity, deep_work, dissonance, mental_models, TheHuman/Cognition, TheHuman/Psychology]
 title: SoT - Cognitive Ambiguity and Deep Thinking
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 2. The Mechanics of Avoidance

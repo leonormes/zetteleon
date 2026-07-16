@@ -7,8 +7,10 @@ permalink: llmeon/30-library/so-t/so-t-ohdsi-evidence-generation
 status: Active
 tags: [analytics, ohdsi, science, statistics]
 title: SoT - OHDSI Evidence Generation
-type: SoT
+type: sot
 updated: null
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SoT - OHDSI Evidence Generation

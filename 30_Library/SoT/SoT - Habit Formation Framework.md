@@ -7,7 +7,9 @@ permalink: llmeon/30-library/so-t/so-t-habit-formation-framework
 status: ''
 tags: []
 title: SoT - Habit Formation Framework
-type: ''
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Philosophy: Process Primacy

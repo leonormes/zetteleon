@@ -7,8 +7,10 @@ permalink: llmeon/30-library/so-t/so-t-digital-identity
 status: Active
 tags: [concepts, iam, SoftwareEngineering/Architecture, SoftwareEngineering/Security, TheHuman/Identity]
 title: SoT - Digital Identity
-type: SoT
+type: sot
 updated: null
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SoT - Digital Identity

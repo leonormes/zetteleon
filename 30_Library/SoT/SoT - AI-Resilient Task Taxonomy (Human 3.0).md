@@ -6,6 +6,9 @@ modified: 2026-07-13T08:52:42+00:00
 permalink: llmeon/30-library/so-t/so-t-ai-resilient-task-taxonomy-human-3.0
 tags: [career, economics, future_of_work, llm, prodos, strategy]
 title: SoT - AI-Resilient Task Taxonomy (Human 3.0)
+type: sot
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 > [!definition] Definition

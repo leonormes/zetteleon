@@ -7,8 +7,10 @@ permalink: llmeon/30-library/so-t/so-t-mechanical-sympathy
 status: Stable
 tags: [hardware, mindset, performance]
 title: SoT - Mechanical Sympathy
-type: SoT
+type: sot
 updated: null
+conformant: false
+non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 > "You don't have to be an engineer to be a racing driver, but you have to have Mechanical Sympathy."—Jackie Stewart
