@@ -36,7 +36,7 @@ The complete, formatted Markdown content for the new Target Note.
 
 ### TAC Frontmatter Compliance (Mandatory)
 
-> Canonical schema: [[Typed-Answer-Contract-RAG]]. The Target Note inherits the shared `FrontmatterContract` envelope from that spec — this is a hard constraint, not optional guidance.
+> Canonical schema: [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]. The Target Note inherits the shared `FrontmatterContract` envelope from that spec — this is a hard constraint, not optional guidance.
 
 1. Frontmatter: Include standard Obsidian frontmatter.
     - `title`: matches the filename exactly.

@@ -9,7 +9,7 @@ tags:
 - topic/pkm
 - migration
 aliases: []
-description: "One-off, dated bulk-migration task (2026-07-11) that moves legacy frontmatter (type/status/updated/last_reviewed) to the prodos object across ProdOS territory, per [[Typed-Answer-Contract-RAG]] §6. Historical/checkpointed — re-run only if the migration was interrupted or new legacy notes are discovered."
+description: "One-off, dated bulk-migration task (2026-07-11) that moves legacy frontmatter (type/status/updated/last_reviewed) to the prodos object across ProdOS territory, per [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]] §6. Historical/checkpointed — re-run only if the migration was interrupted or new legacy notes are discovered."
 prodos:
   kind: prompt
   lifecycle: active
@@ -22,7 +22,7 @@ permalink: llmeon/10-system/prompts/goal-frontmatter-bulk-migration-phase-3
 
 ## /goal — Frontmatter Bulk Migration (Phase 3)
 
-You are executing Phase 3 (bulk normalisation) of [[Typed-Answer-Contract-RAG]]. That SoT is the canonical spec; its §6 legacy mapping table governs every transformation. This prompt adds scope, ordering, and safety rails only.
+You are executing Phase 3 (bulk normalisation) of [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]. That SoT is the canonical spec; its §6 legacy mapping table governs every transformation. This prompt adds scope, ordering, and safety rails only.
 
 ### Scope
 

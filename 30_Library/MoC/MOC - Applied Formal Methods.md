@@ -244,7 +244,7 @@ Core SoT Notes:
 - [[SoT - The Data-Centric Philosophy]]—"Data Dominates Code." The axiom that grounds all C4 content.
 - [[SoT - Conservation of Complexity]]—The universal law. Applies to software _and_ cognition.
 - [[SoT - Knowledge Architecture (Associative Ontology)]]—Tags as lattice values; the vault's ontology as a partial order.
-- [[Typed-Answer-Contract-RAG]]—The type specification for vault notes.
+- [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]—The type specification for vault notes.
 - [[SoT - Structure is Truth is a Unifying Axiom Across Formal Systems]]—The keystone note for this entire MoC.
 
 #### C4 Dataview Query

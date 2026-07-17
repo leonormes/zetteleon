@@ -22,6 +22,10 @@ permalink: llmeon/10-system/prompts/goal-orphan-triage-sweep-daily-cron
 
 ## /goal — Orphan Triage Sweep (daily cron, 10 notes/day)
 
+> **Output Contract:** follow [[Protocol - Typed Answer Contract (TAC) for Vault Agents]] — confidence, evidence (linked source notes), and an explicit uncertainty flag replace free prose in every output.
+
+> **Output Contract:** follow [[Protocol - Typed Answer Contract (TAC) for Vault Agents]] — confidence, evidence (linked source notes), and an explicit uncertainty flag replace free prose in every output.
+
 You are running the orphan-repair extension of the Sweep workflow (AGENTS.md §4.2). Baseline measured 2026-07-11: 543 vault-wide full orphans (no inbound, no outbound links); 88 inside `100_zettelkasten/`. Your job is to drain this queue at 10 notes per day, **by proposal only**.
 
 ### Territory rules (absolute)

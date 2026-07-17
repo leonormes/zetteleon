@@ -43,7 +43,7 @@ Human-territory map. All agents must understand this structure to know what is o
 
 #### Frontmatter
 
-Canonical spec: [[Typed-Answer-Contract-RAG]]. New notes use `prodos.kind` and `prodos.lifecycle`. Do not add legacy keys (`type`, `status`, `updated`, `creation_date`) to new content.
+Canonical spec: [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]. New notes use `prodos.kind` and `prodos.lifecycle`. Do not add legacy keys (`type`, `status`, `updated`, `creation_date`) to new content.
 
 ---
 

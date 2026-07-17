@@ -33,7 +33,7 @@ Essential for maintaining data integrity and structural flexibility in persisten
 ### Related
 
 - [[SoT - LLM Wiki Pattern]]—direct concept match: defines the three-layer architecture.
-- [[Typed-Answer-Contract-RAG]]—shared mechanism: metadata (frontmatter) is a component of the schema layer.
+- [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]—shared mechanism: metadata (frontmatter) is a component of the schema layer.
 
 ### See Also
 
