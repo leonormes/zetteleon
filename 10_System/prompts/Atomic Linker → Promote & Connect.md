@@ -1,10 +1,11 @@
 ---
 created: 2026-04-10 10:43:23+00:00
-modified: 2026-07-04 10:52:07+00:00
+modified: 2026-07-17
 permalink: llmeon/10-system/prompts/atomic-linker-promote-connect
 title: Atomic Linker → Promote & Connect
-prodos:
-  kind: prompt
+type: prompt
+tags: [type/system, domain/pkm, pipeline/atomic-capture]
+description: "Step 2 of 2 in the atomic-capture pipeline. Reads a tmp_atoms_*.md file produced by the Atomic Signal Extractor (step 1), semantically links each atom into the existing vault graph, and promotes each atom into a permanent standalone note. Requires step 1 to have run first."
 ---
 
 
@@ -29,6 +30,25 @@ You are NOT an author. You do NOT add new ideas. You are a librarian and cartogr
 and map what already exists.
 
 ---
+
+### TAC FRONTMATTER COMPLIANCE (MANDATORY)
+
+> Canonical schema: [[Typed-Answer-Contract-RAG]]. Every promoted note inherits the shared `FrontmatterContract` envelope from that spec — this is a hard constraint, not optional guidance.
+
+`type: atom` is NOT a valid top-level TAC type. The atom's `Kind` (from Step 1) is a finer-grained classification that belongs in `prodos.atomic.form`, not in the top-level `type` field. Map `Kind` → canonical `type` using this table:
+
+| Atom `Kind` | Top-level `type` |
+|---|---|
+| `definition` | `concept` |
+| `distinction` | `concept` |
+| `claim` | `claim` |
+| `mechanism` | `claim` |
+| `heuristic` | `claim` |
+| `constraint` | `claim` |
+| `failure_mode` | `claim` |
+| `procedure` | `procedure` |
+
+Every promoted note MUST include, at top level: `title`, `type` (from the table above), `tags` (non-empty), `conformant` (boolean), and `non_conformance_reason` (required string if `conformant: false`, omitted otherwise). If the `Kind` → `type` mapping is genuinely ambiguous, pick the closest canonical type and set `conformant: false` with the reason — do not invent a new `type` value and do not skip these fields.
 
 ### Inputs Required
 
@@ -112,11 +132,16 @@ For each atom, create ONE markdown file with this structure:
 
 ---
 
-type: atom
+title: \<Atom Title>
+
+type: \<claim | concept | procedure — mapped from Kind via the table above>
 
 status: seed
 
-kind: \<definition | claim | mechanism | procedure | heuristic | distinction | constraint | failure_mode>
+prodos:
+  kind: atomic
+  atomic:
+    form: \<definition | claim | mechanism | procedure | heuristic | distinction | constraint | failure_mode>
 
 source_title: "\<from TMP file frontmatter>"
 
@@ -132,6 +157,10 @@ tags:
   - \<tag2>
   - \<tag3>
 upstream: "[[\<Source/HEAD note if it exists>]]"
+
+conformant: \<true | false>
+
+non_conformance_reason: "\<required if conformant: false, omit otherwise>"
 
 ---
 
@@ -242,6 +271,10 @@ REPORT: 00_Inbox/_link_report_\<source_slug>.md
 - No MOC creation. The link report is operational, not architectural.
 - Grounded only in vault contents. If a connection is not supported by
   what you read in the vault index, do not assert it.
+- TAC compliance is non-negotiable. Every promoted note MUST carry `title`, a
+  canonical `type` (never `atom`), `tags`, `conformant`, and
+  `non_conformance_reason` per [[Typed-Answer-Contract-RAG]]. Fine-grained
+  atom classification lives in `prodos.atomic.form`, not in `type`.
 ```
 
 ---

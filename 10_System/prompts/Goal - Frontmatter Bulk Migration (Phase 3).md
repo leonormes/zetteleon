@@ -1,12 +1,15 @@
 ---
 title: Goal - Frontmatter Bulk Migration (Phase 3)
 created: 2026-07-11 00:00:00+00:00
-modified: 2026-07-11 00:00:00+00:00
+modified: 2026-07-17
+type: prompt
 tags:
 - prodos/prompt
+- type/task-log
 - topic/pkm
 - migration
 aliases: []
+description: "One-off, dated bulk-migration task (2026-07-11) that moves legacy frontmatter (type/status/updated/last_reviewed) to the prodos object across ProdOS territory, per [[Typed-Answer-Contract-RAG]] §6. Historical/checkpointed — re-run only if the migration was interrupted or new legacy notes are discovered."
 prodos:
   kind: prompt
   lifecycle: active
@@ -19,18 +22,18 @@ permalink: llmeon/10-system/prompts/goal-frontmatter-bulk-migration-phase-3
 
 ## /goal — Frontmatter Bulk Migration (Phase 3)
 
-You are executing Phase 3 (bulk normalisation) of [[SoT - ProdOS Note Metadata (Frontmatter)]]. That SoT is the canonical spec; its §6 legacy mapping table governs every transformation. This prompt adds scope, ordering, and safety rails only.
+You are executing Phase 3 (bulk normalisation) of [[Typed-Answer-Contract-RAG]]. That SoT is the canonical spec; its §6 legacy mapping table governs every transformation. This prompt adds scope, ordering, and safety rails only.
 
 ### Scope
 
 **In scope:** `30_Library/**`, `20_Thinking/**`, `10_System/**`, `01_journals/**`, `00_Inbox/**`.
-**Out of scope — never touch:** `raw/` (sealed per AGENTS.md §2.1), `wiki/` (has its own dossier schema), `output/`, `.trash/`, `.obsidian/`, `AGENTS.md`, `index.md`, `log.md`.
+**Out of scope — never touch:** `raw/` (immutable per [[AGENTS.md]]—append-only source material), `wiki/` (has its own dossier schema), `output/`, `.trash/`, `.obsidian/`, `AGENTS.md`, `index.md`, `log.md`.
 
 This is an explicitly authorised human-instructed bulk edit of `30_Library/` frontmatter ONLY. Note bodies are read-only: change nothing below the closing `---`. Abort any file where the frontmatter cannot be parsed as YAML; log it instead.
 
 ### Mapping rules (measured against current vault state, 2026-07-11)
 
-Folder is normative for `prodos.kind` (spec §3.2). Legacy `type` values and counts, with targets:
+Folder is normative for `prodos.kind` (spec §7). Legacy `type` values and counts, with targets:
 
 | Legacy `type` | Count | Action |
 |:---|:---|:---|

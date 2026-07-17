@@ -1,10 +1,11 @@
 ---
 created: 2026-04-09 10:33:19+00:00
-modified: 2026-07-04 10:52:06+00:00
+modified: 2026-07-17
 permalink: llmeon/10-system/prompts/optimised-gtd-context-auditor-for-pieces-ltm
 title: Optimised GTD Context Auditor for Pieces LTM
-prodos:
-  kind: prompt
+type: prompt
+tags: [type/system, domain/productivity, tool/pieces]
+description: "Parses Pieces LTM event streams (vision/clipboard/audio_input/audio_output) to identify genuine unfinished GTD 'open loops' without hallucinating commitments. Use after a heavy multi-context-switch work session captured by Pieces, to recover dropped threads."
 ---
 
 
@@ -141,7 +142,7 @@ Generate a GTD-compliant "Brain Dump" by scanning Pieces LTM for:
 
 After generating the audit:
 
-1. Auto-Inject into Obsidian: Suggest creating a daily note titled `Brain Dump - [Date].md` in the `00_Inbox` folder
+1. Auto-Inject into Obsidian: Suggest creating a daily note titled `Brain Dump - [Date].md` in the `00_Inbox` folder. If the note is created, its frontmatter must be TAC-conformant per [[Typed-Answer-Contract-RAG]]: `title`, `type: journal`, `tags`, `conformant`, `non_conformance_reason` (if applicable).
 2. Todoist Sync: For high-priority technical tasks, generate Todoist-compatible action items:
 
    ```

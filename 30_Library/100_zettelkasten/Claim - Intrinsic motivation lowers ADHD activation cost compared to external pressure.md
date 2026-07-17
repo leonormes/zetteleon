@@ -1,12 +1,17 @@
 ---
-type: claim
 conformant: false
+created: 2026-07-16T15:11:33+00:00
+modified: 2026-07-16T19:33:55+00:00
 non_conformance_reason: Merged during bulk deduplication.
 permalink: llmeon/30-library/100-zettelkasten/claim-intrinsic-motivation-lowers-adhd-activation-cost-compared-to-external-pressure
+title: Claim - Intrinsic motivation lowers ADHD activation cost compared to external pressure
+type: claim
 ---
 
-### From ADHD routines should be based on intrinsic motivation not external pressure.md:
+## From ADHD Routines Should Be Based on Intrinsic Motivation not External pressure.md
+
 ---
+
 aliases: []
 created: 2025-10-29T16:39:27+00:00
 last_reviewed: ''
@@ -23,9 +28,10 @@ updated: null
 
 This note's unique thinking has been integrated into the canonical Source of Truth: SoT - Bridging the Intention-Action Gap on 2025-11-13.
 
+## From The Activation Cost of Tasks is Higher in ADHD.md
 
-### From The Activation Cost of Tasks is Higher in ADHD.md:
 ---
+
 aliases: []
 created: 2025-10-30T11:08:48+00:00
 last_reviewed: ''
@@ -42,9 +48,10 @@ updated: null
 
 This note's unique thinking has been integrated into the canonical Source of Truth: [[SoT - Bridging the Intention-Action Gap]] on 2025-11-13.
 
+## From Why Importance and Rewards Fail to Motivate ADHD Brains.md
 
-### From Why Importance and Rewards Fail to Motivate ADHD Brains.md:
 ---
+
 aliases: []
 created: 2025-10-18T13:25:36+00:00
 last_reviewed: ''

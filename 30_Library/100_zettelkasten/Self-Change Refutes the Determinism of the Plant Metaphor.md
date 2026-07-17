@@ -1,5 +1,6 @@
 ---
 created: 2026-07-13 22:00:00+00:00
+modified: 2026-07-17T09:00:00+00:00
 status: draft
 tags:
 - neuroplasticity
@@ -25,6 +26,7 @@ Details: The plant model explains how beliefs grow from genes and environment, w
 - [[Ship of Theseus as Model for Constructed Self]]
 - [[Breaking Free from Flawed Models]]
 - [[Conceptual Change is the Deep Process of Restructuring Misconceptions]]
+- [[Dividing a Process Does Not Make the Intact Process Illusory]] — *both defend a dynamic, changeable self that is real as process rather than fixed substance.*
 
 ## Provenance
 

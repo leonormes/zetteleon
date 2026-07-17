@@ -1,12 +1,15 @@
 ---
 title: Goal - Orphan Triage Sweep (Daily Cron)
 created: 2026-07-11 00:00:00+00:00
-modified: 2026-07-11 00:00:00+00:00
+modified: 2026-07-16
+type: prompt
 tags:
 - prodos/prompt
+- type/protocol
 - topic/pkm
 - sweep
 aliases: []
+description: "Recurring daily cron protocol that triages 10 orphan notes at a time (proposals only — LINK/MERGE/ARCHIVE/UNSURE), draining the vault's orphan queue without ever editing a note directly. Human promotes proposals from the dated report."
 prodos:
   kind: prompt
   lifecycle: active

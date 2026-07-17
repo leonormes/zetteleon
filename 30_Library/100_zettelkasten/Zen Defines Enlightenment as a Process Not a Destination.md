@@ -1,7 +1,7 @@
 ---
 aliases: [Enlightenment as Process]
 created: 2025-11-01T12:20:07+00:00
-modified: 2026-07-13T08:52:33+00:00
+modified: 2026-07-17T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/zen-defines-enlightenment-as-a-process-not-a-destination
 tags: [buddhism, enlightenment, non-duality, zen]
 title: Zen Defines Enlightenment as a Process Not a Destination
@@ -21,3 +21,4 @@ Details: This waking up involves the direct recognition of interconnectedness, i
 - [[Zen Emphasizes Enlightened Activity Over Enlightened People]] - _Shifts the focus from achieving a permanent status to engaging in compassionate, mindful action in each moment._
 - [[MOC - Why Chasing Enlightenment Causes Suffering]] - _Explores how the pursuit of a static enlightened state paradoxically traps the practitioner in suffering._
 - [[Zen Practice Centers on Accepting Impermanence]] - _Provides the foundational context that all things, including the self and moments of clarity, are in a constant state of flux._
+- [[Harris Uses the Split Brain to Deny the Unified Self]] — *Harris's case against the metaphysically simple self mirrors Zen's denial of a fixed, permanent self.*

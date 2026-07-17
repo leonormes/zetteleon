@@ -84,3 +84,16 @@ views:
         width: 200
       description:
         width: 420
+  - type: table
+    name: Task Logs (historical, do not reuse)
+    filters:
+      and:
+        - file.folder == "10_System/prompts"
+        - file.tags.contains("type/task-log")
+    order:
+      - file.name
+    properties:
+      tags:
+        width: 200
+      description:
+        width: 420

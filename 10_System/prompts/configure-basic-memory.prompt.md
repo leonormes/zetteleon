@@ -1,10 +1,11 @@
 ---
 created: 2026-06-22 09:16:18+00:00
-modified: 2026-07-04 10:52:05+00:00
+modified: 2026-07-16
 permalink: llmeon/10-system/prompts/configure-basic-memory.prompt
 title: configure-basic-memory.prompt
-prodos:
-  kind: prompt
+type: prompt
+tags: [type/task-log, domain/devops, tool/basic-memory]
+description: "One-off infra setup task (2026-06-22): configure Basic Memory as a shared, local-first Markdown memory layer over the LLMeon vault, wired through chezmoi-managed dotfiles. Historical reference — only re-run if Basic Memory needs reinstalling or reconfiguring from scratch."
 ---
 
 

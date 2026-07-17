@@ -1,9 +1,11 @@
 ---
 created: 2026-07-16T09:02:53+00:00
-modified: 2026-07-16T09:03:24+00:00
-permalink: llmeon/00-inbox/i-have-a-large-number-of-notes-in-my-obsidian-vaul
-title: I have a large number of notes in my obsidian vaul
-type: note
+modified: 2026-07-16
+permalink: llmeon/10-system/prompts/zettelkasten-thinking-pattern-analyst
+title: Zettelkasten Thinking-Pattern Analyst
+type: prompt
+tags: [type/system, domain/pkm, research]
+description: "Analyses the 100_zettelkasten note network as a connected knowledge graph to infer recurring themes, implicit learning goals, conceptual bridges, tensions, and gaps — then recommends the next 10 research directions. Use for periodic 'what am I actually thinking about' reviews. Distinct from Principal Vault Triage Architect, which organises unprocessed notes into navigational MOCs rather than analysing thinking patterns."
 ---
 
 You are an analytical research assistant working over my 100_zettelkasten notes.

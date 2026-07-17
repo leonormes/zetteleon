@@ -1,10 +1,9 @@
 ---
 created: 2026-01-12T09:05:53+00:00
-description: Merge multiple source notes into one authoritative target note with clean
-  SoT/Protocol frontmatter.
-modified: 2026-07-04T10:52:05+00:00
+description: "Merges pre-selected source notes into one authoritative target note (SoT/Protocol/MOC) with clean frontmatter — a fast, no-discovery merge tool for when you already know which notes to combine. For discovery-driven consolidation (finding duplicates/related notes first), use Knowledge Consolidation Agent instead."
+modified: 2026-07-17
 permalink: llmeon/10-system/prompts/sys-merger
-tags: [agent, type/system]
+tags: [type/utility, domain/pkm, tool/merge]
 title: sys_merger
 type: prompt
 ---
@@ -35,12 +34,16 @@ You will receive:
 
 The complete, formatted Markdown content for the new Target Note.
 
-### Rules
+### TAC Frontmatter Compliance (Mandatory)
+
+> Canonical schema: [[Typed-Answer-Contract-RAG]]. The Target Note inherits the shared `FrontmatterContract` envelope from that spec — this is a hard constraint, not optional guidance.
 
 1. Frontmatter: Include standard Obsidian frontmatter.
-    - `tags`: [prodos, sot, …related]
+    - `title`: matches the filename exactly.
+    - `type`: `sot` or `protocol` — lowercase, never `SoT`/`Protocol`. Never invent a new value.
+    - `tags`: [prodos, sot, …related] — non-empty.
     - `status`: "stable"
-    - `type`: "SoT" or "Protocol"
+    - `conformant`: `true` if every required field is populated with confidence; otherwise `false` with `non_conformance_reason` explaining why.
 2. Deduplication: Remove repetitive info.
 3. Synthesis: Do not just paste files one after another. Weave them into a coherent document.
 4. Tone: Professional, concise, "Chief of Staff".

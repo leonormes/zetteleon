@@ -1,10 +1,11 @@
 ---
 created: 2026-04-09 08:57:06+00:00
-modified: 2026-07-04 10:52:07+00:00
+modified: 2026-07-17
 permalink: llmeon/10-system/prompts/atomic-signal-extractor-write-tmp-file
 title: Atomic Signal Extractor → Write TMP file
-prodos:
-  kind: prompt
+type: prompt
+tags: [type/system, domain/pkm, pipeline/atomic-capture]
+description: "Step 1 of 2 in the atomic-capture pipeline. Extracts atomic knowledge units from a source text and writes them to a tmp_atoms_*.md file in 00_Inbox/. Always followed by Atomic Linker → Promote & Connect (step 2) — never run standalone."
 ---
 
 
@@ -29,6 +30,10 @@ Hard Constraints
 - British English.
 - No external facts, speculation, or hallucinations.
 - If the source does not support the idea, exclude it.
+
+### TAC Note
+
+This tmp file (`type: tmp_atoms`, `status: tmp`) is a temporary staging artefact, not a permanent knowledge node — it is exempt from the [[Typed-Answer-Contract-RAG]] `FrontmatterContract` (no `conformant`/`non_conformance_reason` needed here). Full TAC compliance is enforced downstream, at promotion time, by [[Atomic Linker → Promote & Connect]]. Do not add `conformant` fields to this file; it would be meaningless before the atom has a canonical `type`.
 
 ---
 

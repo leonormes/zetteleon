@@ -1,7 +1,7 @@
 ---
 aliases: [Akrasia, Weakness of Will]
 created: 2025-11-10T17:07:00+00:00
-modified: 2026-07-13T08:52:23+00:00
+modified: 2026-07-17T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/akrasia-is-acting-against-ones-better-judgment
 tags: [aristotle, ethics, TheHuman/Philosophy, willpower]
 title: "Akrasia is Acting Against One's Better Judgment"
@@ -23,3 +23,4 @@ Holton's Distinction: Philosopher Richard Holton distinguishes between _akrasia_
 - [[Motivation, Volition, and Control are Distinct Aspects of the Action Process]] _Akrasia is precisely the failure of volition—the bridge between intention and execution collapses under the weight of competing desires._
 - [[Phronesis (Practical Wisdom) is Knowledge Gained Through Action and Experience]] _Aristotle's companion concept: phronesis is the practical wisdom that akrasia directly undermines, since the akratic person possesses knowledge but cannot translate it into right action._
 - [[Implementation Intentions Automate Action Initiation with If-Then Plans]] _The modern cognitive counter to akrasia: pre-committing to an if-then rule removes the moment-of-action decision before desire or emotion can override it._
+- [[Callosotomy Can Produce Divergent Simultaneous Intentions]] — *neurologically parallels akrasia: both are instances of a will divided against itself, one at the hemisphere level, one at the motivational level.*
