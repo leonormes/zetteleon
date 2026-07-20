@@ -27,4 +27,4 @@ Details: A plant grows a certain way to survive its unique conditions; a worldvi
 
 ## Provenance
 
-Extracted from [[HEAD New chat]] (Gemini conversation, 2026-07-13).
+Extracted from [[HEAD Being Right or Wrong About Things in Life]] (Gemini conversation, 2026-07-13).

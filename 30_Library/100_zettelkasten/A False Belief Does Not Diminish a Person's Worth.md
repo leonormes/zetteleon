@@ -24,4 +24,4 @@ Details: In the axiomatic framework, one incorrect premise flags the entire pers
 
 ## Provenance
 
-Extracted from [[HEAD New chat]] (Gemini conversation, 2026-07-13).
+Extracted from [[HEAD Being Right or Wrong About Things in Life]] (Gemini conversation, 2026-07-13).

@@ -27,4 +27,4 @@ Details: The goal of the ecological model is not to agree with or excuse a harmf
 
 ## Provenance
 
-Extracted from [[HEAD New chat]] (Gemini conversation, 2026-07-13).
+Extracted from [[HEAD Being Right or Wrong About Things in Life]] (Gemini conversation, 2026-07-13).

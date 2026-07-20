@@ -28,4 +28,4 @@ Details: "There is no right or wrong" is textbook multiplicity — a transitiona
 
 ## Provenance
 
-Extracted from [[HEAD New chat]] (Gemini conversation, 2026-07-13).
+Extracted from [[HEAD Being Right or Wrong About Things in Life]] (Gemini conversation, 2026-07-13).

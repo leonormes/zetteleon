@@ -25,4 +25,4 @@ Details: The ecological framework replaces the axiomatic framework (a single obj
 
 ## Provenance
 
-Extracted from [[HEAD New chat]] (Gemini conversation, 2026-07-13).
+Extracted from [[HEAD Being Right or Wrong About Things in Life]] (Gemini conversation, 2026-07-13).

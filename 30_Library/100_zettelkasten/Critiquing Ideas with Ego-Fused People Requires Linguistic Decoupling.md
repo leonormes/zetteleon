@@ -25,4 +25,4 @@ Details: Four structural adjustments. (1) Linguistic decoupling: remove "you/you
 
 ## Provenance
 
-Extracted from [[HEAD New chat]] (Gemini conversation, 2026-07-13).
+Extracted from [[HEAD Being Right or Wrong About Things in Life]] (Gemini conversation, 2026-07-13).

@@ -25,4 +25,4 @@ Details: Judging people as wrong-as-humans is a highly efficient way to protect 
 
 ## Provenance
 
-Extracted from [[HEAD New chat]] (Gemini conversation, 2026-07-13).
+Extracted from [[HEAD Being Right or Wrong About Things in Life]] (Gemini conversation, 2026-07-13).

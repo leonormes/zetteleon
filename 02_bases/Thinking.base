@@ -13,6 +13,7 @@ views:
       - status
       - file.tags
       - type
+      - tags
     sort:
       - property: file.size
         direction: ASC

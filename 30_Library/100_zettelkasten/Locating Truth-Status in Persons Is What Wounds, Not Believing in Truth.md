@@ -41,4 +41,4 @@ Implications that grow from the correction:
 
 ## Provenance
 
-Deepens a line from [[Truth-Status Belongs to Propositions, Not Persons]], itself extracted from [[HEAD New chat]] (Gemini conversation, 2026-07-13).
+Deepens a line from [[Truth-Status Belongs to Propositions, Not Persons]], itself extracted from [[HEAD Being Right or Wrong About Things in Life]] (Gemini conversation, 2026-07-13).

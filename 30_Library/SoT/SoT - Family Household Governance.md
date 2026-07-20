@@ -135,71 +135,24 @@ _Focus: Long-term maintenance._
 
 ---
 
-## 6. Standard Operating Procedures (SOPs) & DoD
+## 5. Standard Operating Procedures (SOPs) & DoD
 
-### 🧺 Laundry Loop (Daily)
+To maintain a single source of truth, all detailed technical Standard Operating Procedures (SOPs) and Definitions of Done (DoD) for household tasks have been consolidated.
 
-Definition of Done (DoD): Bedroom floor is clear of clothes; all dirty items are inside the downstairs basket (not just near it).
-
-### 🗑️ Waste Management (Weekly)
-
-Definition of Done (DoD):
-
-- Extraction: All indoor bins (Bathrooms, Bedrooms, Office, Kitchen) emptied into outdoor Wheelie Bins.
-- Hygiene: Bin liners replaced if soiled/full.
-- Completion: Outdoor bins presented for collection (if Sunday evening).
-
-### 🧊 Cold Storage (Fridge)
-
-Definition of Done (DoD): No visible spills, no expired items, and the drainage hole at the back is clear of ice/debris.
-
-SOP:
-
-1. Extraction: Clear one shelf at a time.
-2. Audit: Check Use-By dates. Wipe sticky jars.
-3. Sanitisation: Spray anti-bacterial; wipe with damp cloth; dry with microfibre.
-4. Restock: Ready-to-eat (Top), Raw Meat (Bottom/Sealed), Veg (Drawers).
-
-### 🚗 Mobile Node (Car Interior Valet)
-
-Definition of Done (DoD): No rubbish in door pockets, mats are grit-free, and windows are smear-free.
-
-SOP:
-
-1. De-clutter: Remove all loose items.
-2. Gravity Clean: Brush crumbs to floor; shake mats outside.
-3. Suction: Vacuum seats then footwells (use crevice tool).
-4. Clarity: Glass cleaner on interior windows (spray cloth, not glass).
-5. Touch-Points: Wipe steering wheel/gear stick with anti-bacterial.
-
-### 🧼 Bathrooms
-
-Definition of Done (DoD):
-
-- Reflection: Mirrors/Chrome have zero spots.
-- Surface: No hair/dust on basin or toilet lid.
-- Sanitation: Toilet bowl clear and smells disinfected.
-- Inventory: Hand towel fresh, loo roll restocked.
+- Refer to [[SoT - Master Household Chores Inventory]] for the official, step-by-step SOPs and DoDs for the Laundry Loop, Waste Management, Cold Storage (Fridge), Mobile Node (Car Interior Valet), and Bathroom deep cleaning.
 
 ---
 
-## 7. The Contribution Ledger (Rotation)
+## 6. The Contribution Ledger (Rotation)
 
-Logic: Tasks rotate weekly.
+The active rotation ledger and weekly assignment schedules are managed dynamically to reflect school calendars and family logistics.
 
-- Week A: Rae (Kitchen), Bessie (Bathrooms), Pearl (Bins/Car)
-- Week B: Pearl (Kitchen), Rae (Bathrooms), Bessie (Bins/Car)
-- Week C: Bessie (Kitchen), Pearl (Bathrooms), Rae (Bins/Car)
-
-| Task | Assigned | Frequency | QA Status (Audit) |
-|:--- |:--- |:--- |:--- |
-| Kitchen Reset | Rotating | Daily | [] Approved |
-| Bathrooms (1 & 2) | Rotating | Weekly | [] Approved |
-| Indoor Bins & Car | Rotating | Weekly | [] Approved |
+- Refer to the **Tier 1 active plan** at [[Family Chores Operational Plan]] for the parent-facing rotation schedules and audit-gate timings.
+- Refer to the **Tier 2 family-facing guide** at [[Family Chores - Everyone's Guide]] for the simplified, non-technical schedule and rotation table.
 
 ---
 
-## 8. Storage Architecture (Zoning Law)
+## 7. Storage Architecture (Zoning Law)
 
 | Tier | Category | Frequency | Allowed Assets | Prohibited Assets |
 |:--- |:--- |:--- |:--- |:--- |

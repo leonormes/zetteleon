@@ -98,6 +98,12 @@ When a study task is at risk or has failed, the sequence is fixed. Consistency h
 - Bins & Car Valet: Assigned to the weekly "Bins & Car" child.
 - Audit Gate: Completed and audited by [insert agreed time, e.g., Sunday 17:00] prior to the start of the school week.
 
+### 2.4 Pet Care Routing
+
+- **Parent-Only Medical Tier:** The dog's Addison's disease medication, monthly vet injections, and stress management are strictly managed by Mum or Dad. These tasks are critical and high-stakes, and must never be delegated.
+- **Child-Shared Routine Tier:** Cat care (daily feeding, litter tray) and snake environment/feeding checks are routine tasks. These are shared among the children (Rae, Bessie, and Pearl).
+- **Detailed SOPs:** The official technical definitions of done for both pet tiers are maintained in [[SoT - Master Household Chores Inventory]].
+
 ---
 
 ## 3. Neurodiverse Scaffolding (Focus on Bessie)

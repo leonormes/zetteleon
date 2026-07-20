@@ -1,7 +1,7 @@
 ---
 captured: 2026-07-13T16:50:06+01:00 2026-07-13T16:50:06+01:00
 created: 2026-07-13T15:50:09+00:00
-modified: 2026-07-13T21:42:36+00:00
+modified: 2026-07-20T16:18:44+00:00
 permalink: llmeon/20-thinking/21-workbench/head-new-chat
 source: https://gemini.google.com/app/dd7fd18f2310946a
 status: processing
@@ -39,11 +39,11 @@ Gemini
 
 ### Shifting the Framework
 
-| The Axiomatic Framework | The Ecological Framework (Your Plant Model) |
-| --- | --- |
-| Premise | Assumes a single, objective "Truth" built from core axioms. |
-| Conflict | Disagreement is an error or a failure in logic that needs correcting. |
-| Judgement | People are categorised strictly as "right" or "wrong." |
+| The Axiomatic Framework | The Ecological Framework (Your Plant Model)                           |
+| ----------------------- | --------------------------------------------------------------------- |
+| Premise                 | Assumes a single, objective "Truth" built from core axioms.           |
+| Conflict                | Disagreement is an error or a failure in logic that needs correcting. |
+| Judgement               | People are categorised strictly as "right" or "wrong."                |
 
 ### Strategies for Implementation
 
@@ -100,46 +100,45 @@ Want to try applying this to another specific scenario?
 
 You
 
-## Yes—profoundly normal
+## Yes—profoundly Normal
 
 Binary person-judgement is close to a factory setting, not a personal defect. Three mechanisms stack:
 
- **Cognitive economy.** Categorising is cheap; suspended judgement is expensive. Brains under load sort people into bins because bins are fast.
+ Cognitive economy. Categorising is cheap; suspended judgement is expensive. Brains under load sort people into bins because bins are fast.
 
-- **Beliefs as tribal badges.** Opinions don't just describe the world—they signal group membership. Judging people by their beliefs is ancient social sorting machinery doing its job.
+- Beliefs as tribal badges. Opinions don't just describe the world—they signal group membership. Judging people by their beliefs is ancient social sorting machinery doing its job.
+- Ego-fusion. If your beliefs are part of your _self_, then disagreement is an attack on you. The sting you've felt for decades is that fusion, not a character flaw.
 
-- **Ego-fusion.** If your beliefs are part of your *self*, then disagreement is an attack on you. The sting you've felt for decades is that fusion, not a character flaw.
+Better still: the transition you're attempting is so normal it has a stage map. William Perry's scheme of intellectual development runs dualism (there's one Truth; disagreers are wrong) → multiplicity ("everyone's just different; no right or wrong") → relativism with commitment (I hold positions, fallibly, while understanding how others grew theirs). You've spent decades in stage one and are currently mid-leap. Which brings me to the guard-rail.
 
-Better still: the transition you're attempting is so normal it has a stage map. William Perry's scheme of intellectual development runs **dualism** (there's one Truth; disagreers are wrong) → **multiplicity** ("everyone's just different; no right or wrong") → **relativism with commitment** (I hold positions, fallibly, while understanding how others grew theirs). You've spent decades in stage one and are currently mid-leap. Which brings me to the guard-rail.
-
-## The bundle needs unpicking
+## The Bundle Needs Unpicking
 
 "There is no right or wrong" is textbook multiplicity—a stage to pass through, not a place to pitch your tent. You've bundled two claims:
 
 | Claim | Status |
 |---|---|
 
-| **Persons** aren't right or wrong—they're outcomes of nature and nurture | **Keep.** This is the insight, and it's true. Rightness is a predicate over *propositions*, not people |
+| Persons aren't right or wrong—they're outcomes of nature and nurture | Keep. This is the insight, and it's true. Rightness is a predicate over _propositions_, not people |
 
-| **Nothing** is right or wrong | **Drop.** Self-undermining—and you don't believe it |
+| Nothing is right or wrong | Drop. Self-undermining—and you don't believe it |
 
-The tell is your own sentence: *"I find myself missing out on a lot."* That's an evaluation—the old way was **worse**. A model with no better-or-worse can't even express your reason for adopting it.
+The tell is your own sentence: _"I find myself missing out on a lot."_ That's an evaluation—the old way was worse. A model with no better-or-worse can't even express your reason for adopting it.
 
-## The repair, in one image
+## The Repair, in One Image
 
-Two gardeners arguing over a specimen on the table between them. Neither gardener *is* the plant. That's what you're actually reaching for: exteriorise the claims. What hurt you for fifty years wasn't believing in truth—it was locating truth-status in persons, including yourself. "You are wrong" wounds. "That claim is false—I wonder what grew it" is just gardening.
+Two gardeners arguing over a specimen on the table between them. Neither gardener _is_ the plant. That's what you're actually reaching for: exteriorise the claims. What hurt you for fifty years wasn't believing in truth—it was locating truth-status in persons, including yourself. "You are wrong" wounds. "That claim is false—I wonder what grew it" is just gardening.
 
 Keep full compassion for how people came to believe. Keep full severity for what they claim. Popper's whole trick: let the theories die in your place.
 
-## What the model can't explain
+## What the Model Can't Explain
 
 Taken literally, plants can't replant themselves. You, at 52, are doing exactly that—which means the metaphor's compassion is right and its determinism is wrong. The fact you're changing is the refutation, and the encouragement, in one.
 
 And yes—the cost was real. Binary person-judgement filtered your relationships by conclusions and your information by source. Worst of all, it cost you your best error-detectors: the people most likely to find your mistakes are precisely the ones who disagree.
 
-## Smallest next action
+## Smallest next Action
 
-No new note—this needs a rep, not structure. Next time this week you feel the sting of a disagreement, say internally: **"The claim is on the table, not in my chest."** Then one line in that day's daily note recording that you did it. That's the whole action.
+No new note—this needs a rep, not structure. Next time this week you feel the sting of a disagreement, say internally: "The claim is on the table, not in my chest." Then one line in that day's daily note recording that you did it. That's the whole action.
 
 ---
 

@@ -30,4 +30,4 @@ Details: The plant model explains how beliefs grow from genes and environment, w
 
 ## Provenance
 
-Extracted from [[HEAD New chat]] (Gemini conversation, 2026-07-13).
+Extracted from [[HEAD Being Right or Wrong About Things in Life]] (Gemini conversation, 2026-07-13).

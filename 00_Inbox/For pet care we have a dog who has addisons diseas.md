@@ -2,6 +2,8 @@
 title: For pet care we have a dog who has addisons diseas
 type: note
 permalink: llmeon/00-inbox/for-pet-care-we-have-a-dog-who-has-addisons-diseas
+tags:
+  - chores
 ---
 
 <img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" style="height:64px;margin-right:32px"/>

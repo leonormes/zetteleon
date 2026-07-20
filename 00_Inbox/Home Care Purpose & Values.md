@@ -2,6 +2,8 @@
 title: pieces_copilot_message_export_july_20_2026_1_54pm
 type: note
 permalink: llmeon/00-inbox/pieces-copilot-message-export-july-20-2026-1-54pm
+tags:
+  - chores
 ---
 
 *Shared Message from Pieces (https://pieces.app) by Leon Ormes (leonormes@gmail.com) on Monday Jul 20, 2026 - 1:54 PM*

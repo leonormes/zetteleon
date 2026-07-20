@@ -26,4 +26,4 @@ Details: The repair image is two gardeners arguing over a specimen on the table 
 
 ## Provenance
 
-Extracted from [[HEAD New chat]] (Gemini conversation, 2026-07-13).
+Extracted from [[HEAD Being Right or Wrong About Things in Life]] (Gemini conversation, 2026-07-13).

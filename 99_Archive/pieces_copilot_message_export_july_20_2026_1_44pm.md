@@ -1,10 +1,12 @@
 ---
-title: pieces_copilot_message_export_july_20_2026_1_27pm
+title: pieces_copilot_message_export_july_20_2026_1_44pm
 type: note
-permalink: llmeon/00-inbox/pieces-copilot-message-export-july-20-2026-1-27pm
+permalink: llmeon/00-inbox/pieces-copilot-message-export-july-20-2026-1-44pm
+tags:
+  - chores
 ---
 
-*Shared Message from Pieces (https://pieces.app) by Leon Ormes (leonormes@gmail.com) on Monday Jul 20, 2026 - 1:27 PM*
+*Shared Message from Pieces (https://pieces.app) by Leon Ormes (leonormes@gmail.com) on Monday Jul 20, 2026 - 1:44 PM*
 ---
 ## Chore categories that need urgent operational definitions
 
