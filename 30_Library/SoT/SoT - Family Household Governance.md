@@ -44,7 +44,40 @@ Physical storage is architected by Access Frequency, not Volume.
 
 ---
 
-## 3. Operational Protocols
+## 3. Educational Support & Study Cadence (Formal Job Category)
+
+"Educational Support & Study Cadence" is hereby a formal family job category, with equal standing to physical household chores. It is a **dual node**: Bessie owns a child-side daily responsibility, and parents own a logistics ledger. Both sides are auditable, and neither side may quietly absorb the other's work.
+
+### Governing Principles
+
+- **Prosthetic executive function, not nagging.** Bessie's working memory (2nd percentile, standard score 69) cannot track routines or multi-step directions unaided. All education tasks are externalised into printed or digital checklists. A parent's job is to maintain the scaffolding, never to be the scaffolding.
+- **Home is the low-friction environment.** Bessie masks at school and collapses after it. Education support at home must reduce cognitive friction: atomised steps, pre-printed materials, predictable scripts. Vague instructions are treated as a system defect, not a compliance failure.
+- **Earned Access linkage.** Family Link restrictions (4h 30m daily limit; hard downtime 21:00–09:00) are structural locks tied to the daily 18:00 Audit Gate, which now requires both physical chores completion and Study Sprint verification. The locks are impersonal and automatic; parents do not renegotiate them ad hoc.
+- **Co-regulation standard.** Bessie has a named, consistent co-regulator trained in female ADHD masking presentation. Conflict resolution follows the unified-parent setup: no emotional rescuing, and neutral Grey Rock responses to defensive venting. Study-related conflict is handled through the Grace Period & Failure Autopsy protocol only.
+- **Standing accommodations (non-negotiable at home and coordinated externally):**
+  - All printed study and curriculum materials on blue paper or with overlays (Meares-Irlen visual stress).
+  - Laptop/word processor as the default for all extended writing and tests.
+  - No board copying or screen-to-paper transcription; complex tasks arrive atomised with pre-printed or digital notes.
+
+### The Parent Ledger — Education & School Logistics
+
+Parent-owned recurring responsibilities:
+
+- Ensure blue paper refill supplies are printed or ordered before stocks run low (weekly stock check).
+- Verify the weekly school-to-AP transition transport schedule (Belfairs Academy ↔ Fast Progress).
+- Coordinate with Fast Progress mentors and Belfairs Academy Art staff to confirm accommodations are consistently executed: blue paper materials, laptop default, no board copying.
+- Track EHCP delivery (Case Ref: EHC/26/0123): the funded 15-hour weekly Fast Progress package (core academics and therapeutic mentoring, subject to site-visit verification) and the Belfairs Art-only enrolment.
+- Keep the GCSE subject track visible in planning (Summer 2028): Art & Design (Edexcel), Photography (Edexcel), Film Studies (Eduqas), AQA Combined Science Trilogy, English Language (AQA), English Literature (Edexcel), History (Edexcel), Philosophy & Ethics (AQA Religious Studies), Mathematics (Edexcel Foundation — "Language of Maths" and algebraic formula rearrangement focus).
+
+### Boundary Statement
+
+- Parents maintain the ledger; Bessie is never responsible for parent-ledger items and is never blamed for their failure.
+- Bessie owns the Night-Before Reset and the Study Session Reset DoD; parents verify but do not perform them.
+- The Audit Gate is the only enforcement point. Outside it, education is not policed.
+
+---
+
+## 4. Operational Protocols
 
 ### A. The "No Rescue" Protocol (Anti-Failover)
 
@@ -72,7 +105,7 @@ Physical storage is architected by Access Frequency, not Volume.
 
 ---
 
-## 4. The Operational Cadence
+## 5. The Operational Cadence
 
 ### Daily Maintenance (Mon-Fri)
 
@@ -102,7 +135,7 @@ _Focus: Long-term maintenance._
 
 ---
 
-## 5. Standard Operating Procedures (SOPs) & DoD
+## 6. Standard Operating Procedures (SOPs) & DoD
 
 ### 🧺 Laundry Loop (Daily)
 
