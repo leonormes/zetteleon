@@ -1,13 +1,13 @@
 ---
 aliases: [Event-Driven Shell, IPC Workflows, Signal Traps, Terminal Automation]
+conformant: false
 created: 2025-12-26T13:00:00+00:00
-modified: 2026-07-13T08:52:53+00:00
+modified: 2026-07-20T16:33:44+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-shell-automation-and-ipc
 tags: [automation, ipc, shell, SoftwareEngineering/Linux]
 title: SoT - Shell Automation and IPC
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Definitive Statement

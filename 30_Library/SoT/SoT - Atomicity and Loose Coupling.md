@@ -1,13 +1,13 @@
 ---
 aliases: [Atomic Notes vs. Interconnectedness, Loose Coupling, The Problem of False Atoms SoT]
+conformant: false
 created: 2025-12-12T00:00:00+00:00
-modified: 2026-07-13T08:52:43+00:00
+modified: 2026-07-20T16:33:53+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-atomicity-and-loose-coupling
 tags: [atomicity, pkm, topic/systems, zettelkasten]
 title: SoT - Atomicity and Loose Coupling
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 2. The Core Tension: Independence vs. Interconnectedness

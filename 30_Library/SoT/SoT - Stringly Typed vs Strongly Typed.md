@@ -1,16 +1,16 @@
 ---
 aliases: [Primitive Obsession, String Blindness, Stringly Typed]
+conformant: false
 created: 2026-01-06T18:58:05+00:00
 last_reviewed: null
-modified: 2026-07-13T08:52:54+00:00
+modified: 2026-07-20T16:33:44+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-stringly-typed-vs-strongly-typed
 status: Active
 tags: [anti-pattern, devops, SoftwareEngineering/Architecture, types]
 title: SoT - Stringly Typed vs Strongly Typed
 type: sot
 updated: null
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SoT - Stringly Typed Vs Strongly Typed

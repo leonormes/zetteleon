@@ -1,13 +1,13 @@
 ---
 aliases: [Assertiveness Algorithm, SBI Model for Planning]
+conformant: false
 created: 2025-12-17T00:00:00+00:00
-modified: 2026-07-13T08:52:54+00:00
+modified: 2026-07-20T16:33:43+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-the-data-impact-proposal-check-framework
 tags: [assertiveness, communication, framework, mental-model]
 title: SoT - The Data-Impact-Proposal-Check Framework
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Definitive Statement

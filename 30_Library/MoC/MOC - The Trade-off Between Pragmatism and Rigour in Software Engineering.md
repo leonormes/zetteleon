@@ -4,7 +4,7 @@ created: 2025-12-19T13:18:01+00:00
 criteria: Links to canonical SoT notes defining the core principles of this conflict.
 exclusions: Implementation details of specific projects.
 last_reviewed: ''
-modified: 2026-07-13T08:52:39+00:00
+modified: 2026-07-20T16:33:57+00:00
 permalink: llmeon/30-library/mo-c/moc-the-trade-off-between-pragmatism-and-rigour-in-software-engineering
 scope: The core conflict between building software quickly (pragmatism) and building
   it correctly (rigour).

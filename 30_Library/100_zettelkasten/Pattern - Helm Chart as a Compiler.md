@@ -1,13 +1,13 @@
 ---
 aliases: [Pattern - Data Centric IaC]
+conformant: false
 created: 2026-01-07T10:14:28+00:00
-modified: 2026-07-13T08:52:30+00:00
+modified: 2026-07-20T16:34:27+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/pattern-helm-chart-as-a-compiler
 tags: [devops, helm, pattern, SoftwareEngineering/Architecture]
 title: Pattern - Helm Chart as a Compiler
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Pattern: Helm Chart as a Compiler

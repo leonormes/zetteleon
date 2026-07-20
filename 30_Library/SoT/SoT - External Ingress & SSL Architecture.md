@@ -1,13 +1,13 @@
 ---
 alias: [Cross-Cluster HTTPS, DNS-IP Ownership Model, External Ingress SSL]
+conformant: false
 created: 2026-02-05T00:00:00+00:00
-modified: 2026-07-13T08:52:46+00:00
+modified: 2026-07-20T16:33:51+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-external-ingress-ssl-architecture
 tags: [cert-manager, cloudflare, ingress, kubernetes, sot, ssl]
 title: SoT - External Ingress & SSL Architecture
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

@@ -1,13 +1,13 @@
 ---
 aliases: [CSPRNG, Entropy, Environmental Randomness]
+conformant: false
 created: 2025-12-24T12:00:00+00:00
-modified: 2026-07-13T08:52:30+00:00
+modified: 2026-07-20T16:34:26+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/randomness-in-computing-relies-on-environmental-entropy
 tags: [computing, SoftwareEngineering/Security]
 title: Randomness in Computing Relies on Environmental Entropy
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Because computer processes are deterministic, they cannot generate true randomness through pure software logic. To generate cryptographic keys, they must harvest chaos from the physical world.

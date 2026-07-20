@@ -1,13 +1,13 @@
 ---
 aliases: [Deforestation, Fusion, Stream Fusion]
+conformant: false
 created: 2025-12-19T00:00:00+00:00
-modified: 2026-07-13T08:52:51+00:00
+modified: 2026-07-20T16:33:46+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-optimization-via-function-fusion
 tags: [compilers, functional-programming, optimization]
 title: SoT - Optimization via Function Fusion
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 2. The Core Problem: The Waste of Intermediate Collections

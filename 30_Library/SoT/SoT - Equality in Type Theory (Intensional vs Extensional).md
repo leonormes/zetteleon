@@ -1,13 +1,13 @@
 ---
 aliases: [Equality Reflection, Extensional Type Theory, Identity Types, Intensional Type Theory]
+conformant: false
 created: 2025-12-18T00:00:00+00:00
-modified: 2026-07-13T08:52:46+00:00
+modified: 2026-07-20T16:33:51+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-equality-in-type-theory-intensional-vs-extensional
 tags: [equality, formal_methods, SoftwareEngineering/Architecture, type_theory]
 title: SoT - Equality in Type Theory (Intensional vs Extensional)
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Working Knowledge (Stable Foundation)

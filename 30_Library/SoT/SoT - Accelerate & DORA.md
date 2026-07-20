@@ -1,13 +1,13 @@
 ---
 aliases: [Accelerate, DORA Research, Software Delivery Performance, Verification Gap]
+conformant: false
 created: 2026-01-08T16:30:00+00:00
-modified: 2026-07-13T08:52:43+00:00
+modified: 2026-07-20T16:33:53+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-accelerate-dora
 tags: [ai, architecture, culture, devops, dora, leadership, tdd]
 title: SoT - Accelerate & DORA
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SoT - Accelerate: The Science of Software Delivery

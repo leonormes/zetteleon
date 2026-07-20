@@ -1,6 +1,6 @@
 ---
 created: 2026-06-08T00:51:40+00:00
-modified: 2026-07-04T10:49:24+00:00
+modified: 2026-07-20T16:32:35+00:00
 permalink: llmeon/raw/2026-06-08-pieces-fitfile-frontend-cohort-discovery
 pieces_ids: [2b4ba166-33d9-40c4-b37d-ff0c7e18a333, 8ccc3135-904f-495b-bf2f-e65b41da73d4]
 source: pieces-ltm

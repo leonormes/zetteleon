@@ -1,7 +1,7 @@
 ---
 aliases: [Map of Rust, Rust MOC]
 created: 2025-12-27T14:11:28+00:00
-modified: 2026-07-13T08:52:39+00:00
+modified: 2026-07-20T16:33:57+00:00
 permalink: llmeon/30-library/mo-c/moc-rust-programming-language
 tags: [programming, rust, type/moc]
 title: MOC - Rust Programming Language

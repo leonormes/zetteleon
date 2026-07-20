@@ -1,7 +1,7 @@
 ---
 captured: 2026-06-20T13:21:18+01:00 2026-06-20T13:21:18+01:00
 created: 2026-06-20T12:21:30+00:00
-modified: 2026-07-04T10:52:01+00:00
+modified: 2026-07-20T16:34:34+00:00
 permalink: llmeon/20-thinking/21-workbench/head-the-seven-generations-of-mustang
 source: https://gemini.google.com/app/1ccd19f0310b167c
 status: processing

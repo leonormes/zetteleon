@@ -1,15 +1,15 @@
 ---
 aliases: []
+conformant: false
 created: 2026-01-03T10:07:49+00:00
 last_reviewed: ''
-modified: 2026-07-13T08:52:42+00:00
+modified: 2026-07-20T16:33:54+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/reference-file-structure
 status: ''
 tags: []
 title: Reference - File Structure
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Reference - File Structure & Naming Conventions

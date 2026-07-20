@@ -1,6 +1,6 @@
 ---
 created: 2026-07-16T15:05:47+00:00
-modified: 2026-07-20T09:24:50+00:00
+modified: 2026-07-20T16:34:45+00:00
 permalink: llmeon/00-inbox/zettelkasten-analysis
 title: zettelkasten_analysis
 type: note

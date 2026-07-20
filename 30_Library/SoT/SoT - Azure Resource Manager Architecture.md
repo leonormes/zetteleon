@@ -1,13 +1,13 @@
 ---
 aliases: [ARM Architecture, Azure Architecture, Azure Resource Manager]
+conformant: false
 created: 2025-12-10T13:06:37+00:00
-modified: 2026-07-13T08:52:43+00:00
+modified: 2026-07-20T16:33:53+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-azure-resource-manager-architecture
 tags: [architecture, arm, azure, governance, security, sot]
 title: SoT - Azure Resource Manager Architecture
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

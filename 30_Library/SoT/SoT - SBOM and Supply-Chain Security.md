@@ -1,13 +1,13 @@
 ---
 aliases: [Drift Detection, SBOM Analysis, Software Bill of Materials, Supply-Chain Security]
+conformant: false
 created: 2026-03-28T17:20:00+00:00
-modified: 2026-07-13T08:52:53+00:00
+modified: 2026-07-20T16:33:44+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-sbom-and-supply-chain-security
 tags: [compliance, devops, sbom, security, supply-chain]
 title: SoT - SBOM and Supply-Chain Security
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)
@@ -64,10 +64,8 @@ To reliably compare SBOMs across versions or formats, components should be match
 - [[SoT - SOT - CI-CD Pipelines]]
 - [[GitHub - rezmosssbomlyze SBOM diff & analysis tool for software supply-chain security, integrity drift detection, and CICD enforcement]]
 
-
 ## Related
 
 - [[SoT - Container Security & Hardening]]
 - [[Integrate Security into the Workflow (Shift Left)]]
 - [[Protocol - NIST CSF Implementation via Microsegmentation]]
-

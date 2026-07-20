@@ -1,6 +1,8 @@
 ---
+conformant: false
 created: 2025-02-07T12:57:56+00:00
-modified: 2026-07-13T08:52:40+00:00
+modified: 2026-07-20T16:33:56+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/protocol-azure-customer-preparation
 Reviewed: false
 status: evergreen
@@ -8,8 +10,6 @@ tags: [ff_deploy]
 title: Protocol - Azure Customer Preparation
 type: protocol
 updated: 2026-02-01
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Azure Customer Preparation Checklist

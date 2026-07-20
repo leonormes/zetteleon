@@ -1,6 +1,6 @@
 ---
 created: 2026-06-01T22:03:23+00:00
-modified: 2026-07-04T10:49:38+00:00
+modified: 2026-07-20T16:32:42+00:00
 permalink: llmeon/raw/2026-06-01-pieces-argocd-sandbox-sync
 pieces_ids: [06b78766-90fd-4f36-b3f5-e23d13acf69b, 248a4007-b72a-4cdd-bd99-b932818133d1, 38b50523-2ac9-4ca6-b1f7-dd3b23f1e5c6, 39e1c8d2-a946-4dd8-94a3-06f8b88e96db, 40c42170-e9a4-442f-9f03-2888fe3200dc, 60badcff-4999-4358-8c53-7f023c94ad89, 7def6b4c-f5db-4de3-a281-7b1f89e5abb9, b7c93523-cb0b-4ac0-8c1b-c41d2916f87a, ba7df6f3-313c-4e05-bd72-cf3d1df05229, ff90d29d-0696-4efa-a944-6f8dc178b886]
 source: pieces-ltm

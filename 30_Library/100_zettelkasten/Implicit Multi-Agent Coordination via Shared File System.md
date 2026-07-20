@@ -1,12 +1,12 @@
 ---
+conformant: false
 created: 2026-04-10T12:00:00+00:00
-modified: 2026-07-13T08:52:27+00:00
+modified: 2026-07-20T16:34:29+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/implicit-multi-agent-coordination-via-shared-file-system
 tags: [coordination, determinism, file-system, multi-agent-systems]
 title: Implicit Multi-Agent Coordination via Shared File System
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Implicit Multi-Agent Coordination via Shared File System

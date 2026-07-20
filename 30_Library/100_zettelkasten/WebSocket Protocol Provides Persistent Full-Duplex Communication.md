@@ -1,13 +1,13 @@
 ---
 aliases: [WebSocket, WebSocket protocol]
+conformant: false
 created: 2025-10-31T13:44:00+00:00
-modified: 2026-07-13T08:52:33+00:00
+modified: 2026-07-20T16:34:23+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/web-socket-protocol-provides-persistent-full-duplex-communication
 tags: [protocol, real-time, SoftwareEngineering/Networking, websocket]
 title: WebSocket Protocol Provides Persistent Full-Duplex Communication
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## WebSocket Protocol Provides Persistent Full-Duplex Communication
@@ -60,9 +60,7 @@ Protocol overhead:
 
 After the initial HTTP upgrade handshake, WebSocket messages have only 2-14 bytes of overhead per message, making them efficient for real-time data.
 
-
 ## Related
 
 - [[WebSocket Use Cases for Real-Time Applications]] - The practical applications of this protocol.
 - [[Stream Sockets Provide Reliable Ordered TCP Communication]] - The underlying TCP communication layer that WebSockets build upon.
-

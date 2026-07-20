@@ -1,13 +1,13 @@
 ---
 aliases: [Task Batching]
+conformant: false
 created: 2025-11-10T14:10:00+00:00
-modified: 2026-07-13T08:52:31+00:00
+modified: 2026-07-20T16:34:24+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/task-batching-is-grouping-similar-tasks-to-reduce-context-switching
 tags: [context-switching, efficiency, time-blocking, topic/productivity]
 title: Task Batching is Grouping Similar Tasks to Reduce Context Switching
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Task Batching is Grouping Similar Tasks to Reduce Context Switching

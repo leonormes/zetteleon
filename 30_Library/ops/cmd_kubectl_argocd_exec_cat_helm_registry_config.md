@@ -2,7 +2,7 @@
 created: 2026-02-22T16:57:54+00:00
 hop_level: local
 last_verified: 2026-02-22
-modified: 2026-07-13T08:52:59+00:00
+modified: 2026-07-20T16:33:37+00:00
 permalink: llmeon/30-library/ops/cmd-kubectl-argocd-exec-cat-helm-registry-config
 requires_tunnel: false
 tags: [argocd, cmd, config, exec, registry]

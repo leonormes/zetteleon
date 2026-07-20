@@ -1,13 +1,13 @@
 ---
 aliases: [Cognitive Superniche, Material Symbols Thesis, Scaffolding]
+conformant: false
 created: 2025-12-23T19:53:27+00:00
-modified: 2026-07-13T08:52:50+00:00
+modified: 2026-07-20T16:33:47+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-material-symbols
 tags: [extended_mind, language, logic, scaffolding, TheHuman/Cognition]
 title: SoT - Material Symbols
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Definitive Statement

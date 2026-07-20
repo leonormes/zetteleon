@@ -1,14 +1,14 @@
 ---
 aliases: [Creative Intelligence, Framework Generation, Generative Thinking, Paradigm Shift Intelligence, Revolutionary Science]
+conformant: false
 created: 2024-03-30T00:00:00+00:00
-modified: 2026-07-13T08:52:48+00:00
+modified: 2026-07-20T16:33:49+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-generative-intelligence
 source_of_truth: true
 tags: [innovation, intelligence, philosophy-of-science, prodos/sot, TheHuman/Cognition, TheHuman/Health/ADHD]
 title: SoT - Generative Intelligence
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

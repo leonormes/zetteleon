@@ -1,13 +1,13 @@
 ---
 aliases: [Faith, Meaning, Purpose]
+conformant: false
 created: 2025-12-10T12:00:00+00:00
-modified: 2026-07-13T08:52:31+00:00
+modified: 2026-07-20T16:34:25+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/spirituality-is-having-beliefs-about-the-higher-purpose-of-life
 tags: [character-strength, spirituality, transcendence]
 title: Spirituality is Having Beliefs About the Higher Purpose of Life
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Spirituality (Faith, Purpose) is having coherent beliefs about the higher purpose and meaning of the universe. It involves knowing where one fits within the larger scheme and having beliefs that shape conduct and provide comfort.

@@ -1,13 +1,13 @@
 ---
 aliases: [Habit Intervention, Intentional Choice, The Sacred Yes]
+conformant: false
 created: 2025-12-24T12:00:00+00:00
-modified: 2026-07-13T08:52:32+00:00
+modified: 2026-07-20T16:34:23+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/the-sacred-no-intentionality-as-habit-intervention
 tags: [action, intentionality, productivity]
 title: The Sacred No - Intentionality as Habit Intervention
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 To live intentionally, an agent must cultivate the ability to perform a Sacred No.
@@ -26,9 +26,7 @@ Intentionality is not just wanting to change; it is the active intervention in t
 - Saying no to a social media notification to protect a Deep Work session.
 - Saying no to a reactive email response to protect time for family presence.
 
-
 ## Related
 
 - [[SoT - Intentional Living]] - The tactical architecture supporting the intentional choice.
 - [[Strong Habits Override Weak Intentions]] - Explains why intentionality must be built into habits.
-

@@ -1,13 +1,13 @@
 ---
 aliases: [WebSocket applications]
+conformant: false
 created: 2025-10-31T13:45:00+00:00
-modified: 2026-07-13T08:52:33+00:00
+modified: 2026-07-20T16:34:23+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/web-socket-use-cases-for-real-time-applications
 tags: [applications, real-time, use-cases, websocket]
 title: WebSocket Use Cases for Real-Time Applications
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## WebSocket Use Cases for Real-Time Applications
@@ -70,8 +70,6 @@ Alternative considered:
 - Server-Sent Events (SSE): Unidirectional (server to client only)
 - WebSocket: Best for bidirectional real-time needs
 
-
 ## Related
 
 - [[WebSocket Protocol Provides Persistent Full-Duplex Communication]] - The foundational protocol that enables these use cases.
-

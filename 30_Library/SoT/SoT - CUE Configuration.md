@@ -1,14 +1,14 @@
 ---
 aliases: [Configure Unify Execute, CUE Configuration, CUE Lang, CUE Logic, Unification Engine, Value Lattice]
+conformant: false
 created: 2026-02-03T19:15:00+00:00
-modified: 2026-07-13T08:52:44+00:00
+modified: 2026-07-20T16:33:53+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-cue-configuration
 source_of_truth: true
 tags: [configuration-management, cue, infrastructure-as-code, prodos/sot, tool/cue]
 title: SoT - CUE Configuration
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

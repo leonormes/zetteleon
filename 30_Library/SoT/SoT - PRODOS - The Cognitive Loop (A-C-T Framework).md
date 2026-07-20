@@ -1,14 +1,14 @@
 ---
 aliases: [A-C-T Framework, Action-Container-Thought, Kinetic Valve, The Cognitive Loop]
+conformant: false
 created: 2026-04-04T12:30:00+00:00
 last-synthesis: 2026-04-04
-modified: 2026-07-13T08:52:52+00:00
+modified: 2026-07-20T16:33:45+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-prodos-the-cognitive-loop-a-c-t-framework
 tags: [adhd, cognitive-loop, framework, prodos, protocol]
 title: SoT - PRODOS - The Cognitive Loop (A-C-T Framework)
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Minimum Viable Understanding (MVU)

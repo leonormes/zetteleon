@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-06-16T00:00:30+00:00
-modified: 2026-07-13T22:05:29+00:00
+modified: 2026-07-20T16:34:36+00:00
 permalink: llmeon/20-thinking/21-workbench/head-archery-practice
 tags: [prodos/head, state/thinking]
 title: HEAD - Archery Practice

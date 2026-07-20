@@ -1,13 +1,13 @@
 ---
 aliases: [Dystopian Theory, Fiction as Sociology]
+conformant: false
 created: 2025-12-14T00:00:00+00:00
-modified: 2026-07-13T08:52:45+00:00
+modified: 2026-07-20T16:33:51+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-dystopian-frameworks-and-social-control
 tags: [dystopia, literature, sociology, TheHuman/Philosophy]
 title: SoT - Dystopian Frameworks and Social Control
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Definitive Statement
@@ -48,7 +48,6 @@ non_conformance_reason: "Bulk inferred type. Needs review."
 
 ## Related
 
-- [[MOC - Cyberpunk Genre]] — _Technological ubiquity and societal collapse._
-- [[SoT - Cyberpunk Case Study - Blade Runner]] — _The architecture of control and institutionalized dehumanization._
-- [[MOC - Socio-Technical Dissonance]] — _Social capital vs. technical merit in low-trust environments._
-
+- [[MOC - Cyberpunk Genre]]—_Technological ubiquity and societal collapse._
+- [[SoT - Cyberpunk Case Study - Blade Runner]]—_The architecture of control and institutionalized dehumanization._
+- [[MOC - Socio-Technical Dissonance]]—_Social capital vs. technical merit in low-trust environments._

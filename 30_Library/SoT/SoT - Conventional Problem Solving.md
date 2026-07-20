@@ -1,13 +1,13 @@
 ---
 aliases: [Applicative Intelligence, Framework-Bound Thinking, Incremental Optimization, Linear Problem Solving]
+conformant: false
 created: 2025-02-07T12:57:55+00:00
-modified: 2026-07-13T08:52:45+00:00
+modified: 2026-07-20T16:33:52+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-conventional-problem-solving
 tags: [mental_models, optimization, problem-solving, strategy, TheHuman/Cognition]
 title: SoT - Conventional Problem Solving
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Definitive Statement

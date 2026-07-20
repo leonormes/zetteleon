@@ -1,13 +1,13 @@
 ---
 aliases: [Grand Unified Theory of Code, GUT, The Context Engine, The Surgeon Anti-Pattern]
+conformant: false
 created: 2026-01-30T10:30:00+00:00
-modified: 2026-07-13T08:52:54+00:00
+modified: 2026-07-20T16:33:43+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-the-context-engine
 tags: [architecture, context-engineering, failure-analysis, history]
 title: SoT - The Context Engine
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## The Context Engine (Formerly "Grand Unifying Theory")

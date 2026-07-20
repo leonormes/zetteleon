@@ -1,16 +1,16 @@
 ---
 aliases: [Animal Flow Guide, Primal Movement Reference]
+conformant: false
 created: 2025-12-15T00:00:00+00:00
 last_reviewed: ''
-modified: 2026-07-13T08:52:42+00:00
+modified: 2026-07-20T16:33:54+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/resource-animal-flow-movement-guide
 status: stable
 tags: [exercise, health, somatics, TheHuman/Health/ADHD]
 title: Resource - Animal Flow Movement Guide
 type: sot
 updated: null
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 🏗️ Runtime Protocol: "The 5-Minute Reset"

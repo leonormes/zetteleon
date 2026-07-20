@@ -1,6 +1,6 @@
 ---
 created: Invalid date
-modified: 2026-07-04T10:49:49+00:00
+modified: 2026-07-20T16:33:00+00:00
 permalink: llmeon/raw/2026-05-27-pieces-hermes-model-config
 pieces_ids: [1601aac4-eaab-4500-b1fe-f74c6f635137, 3a8ea5cd-a70b-4f68-83a9-49803a16b8d3, c66f274f-ba9c-411a-b534-a2c682bb76b7]
 source: pieces-ltm

@@ -1,13 +1,13 @@
 ---
 aliases: [C10K problem, maximum sockets, socket limits]
+conformant: false
 created: 2025-10-31T13:43:00+00:00
-modified: 2026-07-13T08:52:31+00:00
+modified: 2026-07-20T16:34:25+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/server-socket-scalability-limits
 tags: [performance, scalability, server, socket, SoftwareEngineering/Networking]
 title: Server Socket Scalability Limits
 type: concept
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Server Socket Scalability Limits
@@ -53,7 +53,6 @@ Practical considerations:
 
 Socket limits are rarely the bottleneck for most applications. Application logic, database connections, and business requirements usually impose lower practical limits.
 
-
 ## Related
-- [[Event-Driven Socket Handling with epoll and kqueue]]
 
+- [[Event-Driven Socket Handling with epoll and kqueue]]

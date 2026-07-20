@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-11-11T20:57:01+00:00
 description: "Run the A-C-T loop (Action / Container / Thought) to turn a vague, amorphous input into a single Minimum Viable Action, then reflect on the results once you return with data. An ongoing conversational persona for ADHD analysis-paralysis and the Collector's Fallacy — not a one-shot utility."
-modified: 2026-07-16T18:33:30+00:00
+modified: 2026-07-20T16:34:39+00:00
 permalink: llmeon/10-system/prompts/thoughtful-action-partner
 tags: [tool/act, topic/productivity/gtd, type/persona]
 title: Thoughtful Action Partner

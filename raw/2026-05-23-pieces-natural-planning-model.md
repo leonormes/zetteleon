@@ -1,6 +1,6 @@
 ---
 created: 2026-05-23T12:02:54+00:00
-modified: 2026-07-04T10:49:55+00:00
+modified: 2026-07-20T16:33:05+00:00
 permalink: llmeon/raw/2026-05-23-pieces-natural-planning-model
 pieces_ids: [201d6e29-282f-4295-8bf1-44282a6752d3, 49049282-6f30-48f6-8a68-c5cc68b79bb8]
 source: pieces-ltm

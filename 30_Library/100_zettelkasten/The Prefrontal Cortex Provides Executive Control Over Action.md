@@ -1,13 +1,13 @@
 ---
 aliases: [PFC]
+conformant: false
 created: 2025-11-12T14:10:01+00:00
-modified: 2026-07-13T08:52:32+00:00
+modified: 2026-07-20T16:34:24+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/the-prefrontal-cortex-provides-executive-control-over-action
 tags: [brain, executive-function, TheHuman/Neuroscience]
 title: The Prefrontal Cortex Provides Executive Control Over Action
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## The Prefrontal Cortex Provides Executive Control Over Action

@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-09-07T15:32:45+00:00
 last_reviewed: ''
-modified: 2026-07-13T08:52:26+00:00
+modified: 2026-07-20T16:34:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/fudo-the-path-of-immovability
 status: ''
 tags: []

@@ -1,16 +1,16 @@
 ---
 aliases: [Automated Privilege Management, GitOps PIM, JIT Access with IaC]
+conformant: false
 created: 2025-07-04T07:32:01+00:00
 last_reviewed: null
-modified: 2026-07-13T08:52:49+00:00
+modified: 2026-07-20T16:33:48+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-git-ops-for-privileged-identity-management
 status: Active
 tags: [azure, gitops, iam, pim, security, terraform]
 title: SoT - GitOps for Privileged Identity Management
 type: sot
 updated: null
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SoT - GitOps for Privileged Identity Management
@@ -82,5 +82,5 @@ Before the PR is merged, Open Policy Agent (OPA) acts as the Policy Decision Poi
 
 ## Related
 
-- [[SoT - GitOps for IAM and Permissions]] — _The Git Repository as the sole Source of Truth for identity and access management._
-- [[cicd_minimal_permissions]] — _Minimal IAM permissions for a secure GitOps workflow._
+- [[SoT - GitOps for IAM and Permissions]]—_The Git Repository as the sole Source of Truth for identity and access management._
+- [[cicd_minimal_permissions]]—_Minimal IAM permissions for a secure GitOps workflow._

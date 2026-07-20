@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-02-07T12:57:55+00:00
 last_reviewed: ''
-modified: 2026-07-13T08:52:26+00:00
+modified: 2026-07-20T16:34:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/discipline-and-values
 status: ''
 tags: [beliefs, discipline, values]

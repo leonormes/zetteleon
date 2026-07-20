@@ -1,13 +1,13 @@
 ---
 aliases: []
+conformant: false
 created: 2025-08-14T00:00:00+00:00
-modified: 2026-07-13T08:52:54+00:00
+modified: 2026-07-20T16:33:43+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-the-data-architecture-of-tls-1.3
 tags: [SoftwareEngineering/Security]
 title: SoT - The Data Architecture of TLS 1.3
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 > From a data-centric perspective, it is a distributed state machine driven by a Hierarchical Key Schedule. It deconstructs the security problem into two phases: "the negotiation of a shared secret (Handshake) and the recursive framing of payloads within authenticated encryption envelopes (Record Layer)."
@@ -86,9 +86,7 @@ Because the data is structured as a hierarchical key schedule and a set of suppo
 
 TLS 1.3 optimises for latency by speculative state inclusion. The client sends its `KeyShare` atom in the first packet (`ClientHello`), allowing the server to derive the `Handshake Secret` immediately. This reduces the logic of connection establishment from 2-RTT (TLS 1.2) to 1-RTT.
 
-
 ## Related
 
 - [[Hybrid Encryption Combines Symmetric Speed with Asymmetric Security]]
 - [[Concept - TCP Three-Way Handshake]]
-

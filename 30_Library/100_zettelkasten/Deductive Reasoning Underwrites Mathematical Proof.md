@@ -1,13 +1,13 @@
 ---
 aliases: [Deductive Reasoning, Mathematical Proof]
+conformant: false
 created: 2025-11-01T11:22:13+00:00
-modified: 2026-07-13T08:52:25+00:00
+modified: 2026-07-20T16:34:31+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/deductive-reasoning-underwrites-mathematical-proof
 tags: [logic, proof, topic/maths]
 title: Deductive Reasoning Underwrites Mathematical Proof
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Summary: Deductive reasoning forms the logical backbone of mathematics, providing "once-and-for-all guarantees" that certain lines of reasoning always work by deriving necessary conclusions from accepted axioms.

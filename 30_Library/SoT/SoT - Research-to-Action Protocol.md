@@ -1,13 +1,13 @@
 ---
 aliases: [Research Transducer]
+conformant: false
 created: 2026-01-12T16:15:00+00:00
-modified: 2026-07-13T08:52:53+00:00
+modified: 2026-07-20T16:33:45+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-research-to-action-protocol
 tags: [adhd-tools, prodos, protocol, research]
 title: SoT - Research-to-Action Protocol
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Instruction SoT - Research-to-Action Protocol
@@ -39,11 +39,9 @@ If the Hurry Timer fires first:
 - [ ] Set the Next Starter Task: Define the exact search query or doc page to open when you resume.
 - [ ] Close the file. Do not "just five more minutes" it.
 
-
 ## Related
 
 - [[MOC - ADHD Experiments & Protocols]]
 - [[MOC - ADHD (The Master Map)]]
 - [[MOC - ADHD Project Continuation Challenge]]
 - [[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]
-

@@ -1,13 +1,13 @@
 ---
+conformant: false
 created: 2026-07-13T22:00:00+00:00
-modified: 2026-07-13T21:50:08+00:00
+modified: 2026-07-20T16:34:31+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/critiquing-ideas-with-ego-fused-people-requires-linguistic-decoupling
 status: draft
 tags: [communication, conflict, decoupling, ego]
 title: Critiquing Ideas with Ego-Fused People Requires Linguistic Decoupling
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Critiquing Ideas with Ego-Fused People Requires Linguistic Decoupling

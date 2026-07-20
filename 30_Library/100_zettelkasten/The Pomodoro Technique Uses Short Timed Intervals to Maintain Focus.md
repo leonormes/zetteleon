@@ -1,13 +1,13 @@
 ---
 aliases: [Pomodoro]
+conformant: false
 created: 2025-11-10T14:07:00+00:00
-modified: 2026-07-13T08:52:32+00:00
+modified: 2026-07-20T16:34:24+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/the-pomodoro-technique-uses-short-timed-intervals-to-maintain-focus
 tags: [focus, pomodoro-technique, time-management, topic/productivity]
 title: The Pomodoro Technique Uses Short Timed Intervals to Maintain Focus
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## The Pomodoro Technique Uses Short Timed Intervals to Maintain Focus

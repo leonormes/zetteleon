@@ -1,7 +1,9 @@
 ---
 aliases: [Modularity by Information Hiding, Parnas Information Hiding]
+conformant: false
 created: 2025-12-12T00:00:00+00:00
-modified: 2026-07-13T08:52:49+00:00
+modified: 2026-07-20T16:33:48+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-information-hiding-parnas
 see_also: []
 superseded_by: ''
@@ -9,8 +11,6 @@ supersedes: ''
 tags: [design-principles, modularity, SoftwareEngineering, SoftwareEngineering/Architecture]
 title: SoT - Information Hiding (Parnas)
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 2. Core Principles

@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-11-11T09:27:40+00:00
 last_reviewed: ''
-modified: 2026-07-13T08:52:33+00:00
+modified: 2026-07-20T16:34:22+00:00
 permalink: llmeon/30-library/100-zettelkasten/you-are-an-expert-relationship-and-communications-counsellor
 see_also: []
 status: ''
@@ -74,9 +74,7 @@ Ask for her input on solutions that respect both realities.
 
 This approach helps break the stalemate by shifting the dynamic from "whose reality is correct" to "how can we both feel respected and supported?".[^1_2][^1_1][^1_3]
 
-
 ## Related
 
 - [[Open Communication in a Partnership Requires Active Listening and Collaborative Problem-Solving]] - The target state for the communication dynamic.
 - [[Habit 5 - Seek First to Understand, Then to Be Understood]] - The core principle needed to break the invalidation stalemate.
-

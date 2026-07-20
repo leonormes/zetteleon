@@ -1,10 +1,8 @@
 ---
-created: 2026-07-13 15:45:51+00:00
-modified: 2026-07-13 15:47:42+00:00
+created: 2026-07-13T15:45:51+00:00
+modified: 2026-07-20T16:34:38+00:00
 permalink: llmeon/00-inbox/pieces-copilot-message-export-july-13-2026-4-45pm-1
-tags:
-- 2
-- 4
+tags: [2, 4]
 title: FITFILE AS04 Scale Test — Questions to Answer Wiki
 type: note
 ---
@@ -19,7 +17,7 @@ This is a working wiki to resolve the ambiguity in the AS04 - Perform Scale Test
 
 This sits inside the [FITFILE Stress Testing Synthetic Data Strategy](https://fitfile.atlassian.net/wiki/spaces/~712020a5830ffled484bb2b0dd9c7abeba35d0/pages/2896068618/FITFILE+Stress+Testing+Synthetic+Data+-+version+1.1.0) document (version 1.1.0), whose background states it "outlines FITFILE's planned approach to stress testing a scaled-up system in accordance with the parameters agreed with the EE SDE using synthetic data… focuses on the implementation strategy for AS04… AS05 remains the reference point for next steps once stress testing is complete."
 
-### Open Questions the Team is Trying to Resolve (From today's teams thread)
+### Open Questions the Team is Trying to Resolve (From tOday's tEams tHread)
 
 1. Does "500 million rows" describe the source data at the node, or the extract size?
    Today's thread converges on: source data. The recurring articulation is `"Two of the data providers must have 500m rows in their source data (before query)"` and `"The extract can contain less than 500m rows — otherwise the query has to be 'all rows'"`. One participant states it most explicitly: `"the 500 million rows describes the source data at the nodes, not the extract size. So the extract can contain less records based on the cohort we will select. The 500M figure is a scale constraint on the synthetic data, not on what gets pulled out."`
@@ -54,7 +52,7 @@ Cross-referencing the live debate against artifacts already in your workstream m
 
 Per Laura Clarke's email today (`laura.clarke@healthinnovationeast.co.uk`, 13 Jul 15:00, subject "Node testing"): she added `20260710_FITFILEStressTestingSynthData_v1.1.17.docx` to SharePoint for review, noted Keiran's comment on Synthea realism, and flagged `"The Data team will aim to review this document by the end of next week, but depending on progress with MKUH and NNUH, there may be a delay."` This puts a soft external deadline on resolving these interpretation questions—the review clock is already running on a document version (`v1.1.17`) that may not yet reflect today's clarified interpretation.
 
-### Recommended next Actions (Synthesized, not yet decided by the team)
+### Recommended next Actions (Synthesized, not yet dEcided by the tEam)
 
 - Formalize the agreed interpretation (source-data-scale, not extract-scale) back into the v1.1.0/v1.1.17 doc so it isn't re-litigated at each review.
 - Cross-check whether FFNode Design Doc v5's "Extract cap: Uncapped" decision already answers the "what's a reasonable query" question, or whether AS04 needs its own explicit extract-size definition distinct from the v5 permutation grid.

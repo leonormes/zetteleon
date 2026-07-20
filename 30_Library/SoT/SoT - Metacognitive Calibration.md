@@ -1,13 +1,13 @@
 ---
 aliases: [Commit Threshold, Insight Validation, The Recursion Error]
+conformant: false
 created: 2025-12-23T20:22:33+00:00
-modified: 2026-07-13T08:52:50+00:00
+modified: 2026-07-20T16:33:47+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-metacognitive-calibration
 tags: [epistemology, intelligence, mental_models, metacognition, validation]
 title: SoT - Metacognitive Calibration
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. The Recursion Error
@@ -58,6 +58,6 @@ You cannot stay in the "Review" phase indefinitely.
 
 ## Related
 
-- [[SoT - Dunning-Kruger Effect]] — _Intelligence calibration: Certainty vs. Fluidity and the Error-Correction interval._
-- [[Meta-Accuracy in Social Perception]] — _Correspondence between how you believe others perceive you and how they actually do._
-- [[SoT - Illusion of Explanatory Depth (IoED)]] — _Confabulation and mistaking familiarity for causal understanding._
+- [[SoT - Dunning-Kruger Effect]]—_Intelligence calibration: Certainty vs. Fluidity and the Error-Correction interval._
+- [[Meta-Accuracy in Social Perception]]—_Correspondence between how you believe others perceive you and how they actually do._
+- [[SoT - Illusion of Explanatory Depth (IoED)]]—_Confabulation and mistaking familiarity for causal understanding._

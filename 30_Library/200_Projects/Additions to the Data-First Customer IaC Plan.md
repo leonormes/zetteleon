@@ -1,7 +1,7 @@
 ---
 created: 2026-04-11T08:38:45+00:00
 isProject: false
-modified: 2026-07-13T08:52:00+00:00
+modified: 2026-07-20T16:34:20+00:00
 name: Data vs implementation split
 overview: Analysis anchored on [ff-test-1/docs](file:///Volumes/DAL/Fitfile/gitlab/FITFILE/New_Customer/ff-test-1/docs)
   — the two-phase bootstrap vs managed model, TFC state as the pipe into CUE, and

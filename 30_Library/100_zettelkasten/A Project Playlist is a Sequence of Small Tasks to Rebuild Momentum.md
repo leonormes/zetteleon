@@ -1,13 +1,13 @@
 ---
 aliases: [Project Playlist]
+conformant: false
 created: 2025-11-11T19:05:08+00:00
-modified: 2026-07-13T08:52:23+00:00
+modified: 2026-07-20T16:34:33+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/a-project-playlist-is-a-sequence-of-small-tasks-to-rebuild-momentum
 tags: [task-management, topic/productivity]
 title: A Project Playlist is a Sequence of Small Tasks to Rebuild Momentum
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## A Project Playlist is a Sequence of Small Tasks to Rebuild Momentum

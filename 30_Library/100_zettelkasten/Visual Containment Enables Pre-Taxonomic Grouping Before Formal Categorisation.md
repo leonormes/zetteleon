@@ -2,7 +2,7 @@
 created: 2026-07-13T08:31:11+00:00
 created_utc: '2026-07-13T08:17:00Z'
 kind: mechanism
-modified: 2026-07-13T08:52:33+00:00
+modified: 2026-07-20T16:34:23+00:00
 permalink: llmeon/00-inbox/visual-containment-enables-pre-taxonomic-grouping-before-formal-categorisation
 source_title: 'Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture: An Investigative Report'
 source_url: ''

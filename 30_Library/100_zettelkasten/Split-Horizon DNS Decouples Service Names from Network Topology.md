@@ -1,13 +1,13 @@
 ---
 aliases: [Split-Brain DNS, Split-View DNS]
+conformant: false
 created: 2025-12-24T12:00:00+00:00
-modified: 2026-07-13T08:52:31+00:00
+modified: 2026-07-20T16:34:25+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/split-horizon-dns-decouples-service-names-from-network-topology
 tags: [hybrid-cloud, SoftwareEngineering/networking/dns, SoftwareEngineering/Security]
 title: Split-Horizon DNS Decouples Service Names from Network Topology
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Split-Horizon DNS
@@ -30,7 +30,6 @@ Managing a service (e.g., `app.mycorp.com`) that exists on both public and priva
 
 This pattern allows hardcoded logical service names in application code to remain constant across all environments. The infrastructure transparently provides the context-aware network location, eliminating environment-specific configuration logic.
 
-
 ## Related
-- [[SoT - FitFile Deployment - Networking and Security]]
 
+- [[SoT - FitFile Deployment - Networking and Security]]

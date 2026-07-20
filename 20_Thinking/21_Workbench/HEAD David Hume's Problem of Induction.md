@@ -1,7 +1,7 @@
 ---
 captured: 2026-06-04T14:02:31+01:00 2026-06-04T14:02:31+01:00
 created: 2026-06-22T14:53:53+00:00
-modified: 2026-07-04T10:52:03+00:00
+modified: 2026-07-20T16:34:36+00:00
 permalink: llmeon/20-thinking/21-workbench/head-david-humes-problem-of-induction
 source: https://gemini.google.com/app/6fce549cb8088f1c
 status: processing

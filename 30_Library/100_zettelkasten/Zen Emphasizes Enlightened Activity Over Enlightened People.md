@@ -1,13 +1,13 @@
 ---
 aliases: [Enlightened Activity]
+conformant: false
 created: 2025-11-01T12:20:08+00:00
-modified: 2026-07-13T08:52:33+00:00
+modified: 2026-07-20T16:34:22+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/zen-emphasizes-enlightened-activity-over-enlightened-people
 tags: [action, buddhism, compassion, zen]
 title: Zen Emphasizes Enlightened Activity Over Enlightened People
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Zen Emphasizes Enlightened Activity Over Enlightened People

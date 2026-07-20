@@ -1,13 +1,13 @@
 ---
 aliases: [ADHD Emotional Regulation, Emotional Bottleneck]
+conformant: false
 created: 2025-08-26T00:00:00+00:00
-modified: 2026-07-13T08:52:31+00:00
+modified: 2026-07-20T16:34:25+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/so-t-the-emotional-bottleneck-hypothesis
 tags: [adhd-optimization, emotional-regulation, prodos]
 title: SoT - The Emotional Bottleneck Hypothesis
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## The Claim
@@ -34,8 +34,7 @@ Extracted from daily note `2025-08-26`:
 
 > _"Don't dismiss myself. I enjoy revelling in the wonder of things. So what if it's not practical or productive."_
 
-
 ## Related
+
 - [[SoT - The 3-Switch Protocol (Emotional Reset)]]
 - [[Rejection Sensitive Dysphoria (RSD)]]
-

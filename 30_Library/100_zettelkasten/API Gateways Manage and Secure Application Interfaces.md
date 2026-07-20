@@ -1,13 +1,13 @@
 ---
 aliases: []
+conformant: false
 created: 2025-10-31T10:33:00+00:00
-modified: 2026-07-13T08:52:23+00:00
+modified: 2026-07-20T16:34:33+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/api-gateways-manage-and-secure-application-interfaces
 tags: [apis, cloud, SoftwareEngineering/Networking]
 title: API Gateways Manage and Secure Application Interfaces
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## API Gateways Manage and Secure Application Interfaces

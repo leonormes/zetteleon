@@ -1,13 +1,13 @@
 ---
 aliases: [Hostname-based Routing, Layer 7 Routing]
+conformant: false
 created: 2025-10-31T09:25:24+00:00
-modified: 2026-07-13T08:52:25+00:00
+modified: 2026-07-20T16:34:32+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/content-switching-allows-layer-7-routing-based-on-hostname-or-url-path
 tags: [load-balancing, SoftwareEngineering/Networking]
 title: Content Switching Allows Layer 7 Routing Based on Hostname or URL Path
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Content Switching Allows Layer 7 Routing Based on Hostname or URL Path

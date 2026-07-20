@@ -1,6 +1,6 @@
 ---
 created: 2026-06-24T15:30:00+00:00
-modified: 2026-07-04T10:49:23+00:00
+modified: 2026-07-20T16:32:35+00:00
 permalink: llmeon/raw/2026-06-24-pieces-ftfl-464-calico-cloud-cleanup
 pieces_ids: [035d4a34-ecc7-4144-bd06-01c77567b8e3, 21881f50-4f82-40d8-a785-92e4cdb3f596, 3316032e-4e57-4b9a-bc1b-665d7c472336, 756b99ec-7f03-45fd-b0af-6048cfdc7a3e, ba5ed068-d05d-4415-bef6-fd65284a4d8c, e7f69745-5fec-4e43-94df-ee644fb8be82, ea58c91a-1bb7-4dd7-8cac-4de4da9c57e8, ef5c465b-0158-4e64-a582-b28ff42a8c9a]
 source: pieces

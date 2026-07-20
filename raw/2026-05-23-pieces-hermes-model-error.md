@@ -1,6 +1,6 @@
 ---
 created: 2026-05-23T19:15:00+00:00
-modified: 2026-07-04T10:49:55+00:00
+modified: 2026-07-20T16:33:05+00:00
 permalink: llmeon/raw/2026-05-23-pieces-hermes-model-error
 pieces_ids: [6b51a1a5-8b0d-4486-882c-357389e69e2a, 731b9ccf-4135-4c1f-8bd1-92ea4b77ca6e, 978debe8-6314-45e4-bded-677ffc55ad6c, e0116cd3-e5c8-4d67-9f36-2f0becd652e0, eca53792-f633-4ed1-a886-d0a9cca0a8b2]
 source: pieces-ltm

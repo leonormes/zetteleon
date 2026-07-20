@@ -1,6 +1,6 @@
 ---
 created: 2026-05-06T11:50:00+00:00
-modified: 2026-07-04T10:50:24+00:00
+modified: 2026-07-20T16:33:26+00:00
 permalink: llmeon/raw/2026-05-06-pieces-hermes-integration
 pieces_ids: [02bf7ea4-d449-4977-bd64-f07096475b59, 260ac1fc-3163-449b-be2d-82cb16cd1e46, 9bb443c9-9cbd-40af-ac17-cde84d20b553, bab757b9-71eb-497b-a309-b2b97dd40f12, c867f159-ae8e-476c-8da5-25926a26f7b5, ef0b7cf3-f2a6-4f46-99c7-8d01d9af5fc9, ff5a8d3b-41b3-47c4-8c8d-30396e59c12f]
 source: pieces-ltm

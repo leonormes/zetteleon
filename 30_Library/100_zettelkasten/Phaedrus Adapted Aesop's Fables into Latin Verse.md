@@ -1,13 +1,13 @@
 ---
 aliases: ["Phaedrus' Latin Fables"]
+conformant: false
 created: 2025-11-01T21:36:00+00:00
-modified: 2026-07-13T08:52:30+00:00
+modified: 2026-07-20T16:34:27+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/phaedrus-adapted-aesops-fables-into-latin-verse
 tags: [fable, history, latin-literature, phaedrus, storytelling]
 title: "Phaedrus Adapted Aesop's Fables into Latin Verse"
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Phaedrus, a Roman poet of the 1st century CE, played a crucial role in the evolution of the fable by translating Aesop's oral tales into Latin verse.

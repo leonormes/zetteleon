@@ -1,11 +1,11 @@
 ---
+conformant: false
 created: 2026-05-04T08:01:26+00:00
-modified: 2026-07-13T08:52:29+00:00
+modified: 2026-07-20T16:34:27+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/my-main-pkm-problem-is-the-continuity-of-thinking.
 title: "My main PKM problem is the continuity of thinking. "
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ADHD causes a problem for me in not being able to return to something I was creating before. I always want to start again. As I make something and my thoughts are wrapped up in it it feels right. I am enjoying it and the mental model i have feels good and strong. It feels unique to me and I can feel the bigger picture, the hierachy of process or the system as a whole. When I come back to it my thoughts are no longer wrapped up in it and it doesn't have that same feeling. And is often too complex to get back to where i was as I have forgotten it. So I start afesh with a revolutionary idea and process.

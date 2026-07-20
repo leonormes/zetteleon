@@ -1,13 +1,13 @@
 ---
 aliases: [Habits]
+conformant: false
 created: 2025-11-10T17:11:00+00:00
-modified: 2026-07-13T08:52:27+00:00
+modified: 2026-07-20T16:34:30+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/habits-are-automatic-behaviors-triggered-by-environmental-cues
 tags: [automaticity, behavior-change, TheHuman/Habits, TheHuman/Psychology]
 title: Habits are Automatic Behaviors Triggered by Environmental Cues
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Habits Are Automatic Behaviors Triggered by Environmental Cues

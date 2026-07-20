@@ -1,13 +1,13 @@
 ---
 aliases: [Development of Mathematical Logic, History of Logic]
+conformant: false
 created: 2026-01-12T10:00:00+00:00
-modified: 2026-07-13T08:52:49+00:00
+modified: 2026-07-20T16:33:48+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-history-of-mathematical-logic
 tags: [logic, math/history, prodos/sot]
 title: SoT - History of Mathematical Logic
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## History of Mathematical Logic

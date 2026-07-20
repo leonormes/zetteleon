@@ -2,7 +2,7 @@
 created: 2026-02-11T10:05:14+00:00
 description: Refine Leon’s CV for UK infrastructure roles with micro-step feedback
   and concrete rewrites.
-modified: 2026-07-04T10:52:06+00:00
+modified: 2026-07-20T16:34:40+00:00
 permalink: llmeon/10-system/prompts/cv-refinement-prompt
 tags: [domain/career, tool/writing, type/utility]
 title: CV Refinement Prompt

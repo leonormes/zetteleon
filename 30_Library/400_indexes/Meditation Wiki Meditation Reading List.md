@@ -1,7 +1,7 @@
 ---
 captured: 2026-03-28T17:55:14+00:00 2026-03-28T17:55:14+00:00
 created: 2026-03-28T17:55:19+00:00
-modified: 2026-07-13T08:52:34+00:00
+modified: 2026-07-20T16:34:01+00:00
 permalink: llmeon/30-library/400-indexes/meditation-wiki-meditation-reading-list
 source: https://www.reddit.com/r/Meditation/wiki/booklist/
 status: processing
@@ -35,7 +35,6 @@ type: index
 - [ ] A Time to Grieve: Meditations for Healing After the Death of a Loved One by Carol Staudacher
 - [ ] Zen Mind, Beginner's Mind: Informal Talks on Zen Meditation and Practice by Shunryu Suzuki
 - [ ] Lovingkindness: The Revolutionary Art of Happiness by Sharon Salzberg
-
 
 ## Related
 

@@ -1,6 +1,6 @@
 ---
 created: 2026-02-21T15:07:24+00:00
-modified: 2026-07-13T08:53:00+00:00
+modified: 2026-07-20T16:33:37+00:00
 permalink: llmeon/30-library/ops/cmd-kubectl-decode-secret-data
 risk: read-only
 service: k8s

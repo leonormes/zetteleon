@@ -1,13 +1,13 @@
 ---
 aliases: [NIC DMA]
+conformant: false
 created: 2025-11-22T15:00:06+00:00
-modified: 2026-07-13T08:52:25+00:00
+modified: 2026-07-20T16:34:32+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/concept-nic-direct-memory-access
 tags: [SoftwareEngineering/networking/hardware]
 title: Concept - NIC Direct Memory Access
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## NIC Direct Memory Access

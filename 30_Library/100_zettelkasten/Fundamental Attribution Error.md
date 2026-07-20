@@ -1,13 +1,13 @@
 ---
 aliases: []
+conformant: false
 created: 2025-10-31T09:20:29+00:00
-modified: 2026-07-14T21:36:00+00:00
+modified: 2026-07-20T16:34:30+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/fundamental-attribution-error
 tags: [TheHuman/Cognition/bias, topic/social-cognition, topic/social-perception]
 title: Fundamental Attribution Error
 type: concept
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Fundamental Attribution Error

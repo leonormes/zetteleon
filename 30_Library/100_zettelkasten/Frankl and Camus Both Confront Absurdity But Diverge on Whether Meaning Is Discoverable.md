@@ -1,13 +1,13 @@
 ---
+conformant: false
 created: 2026-04-10T00:00:00+00:00
-modified: 2026-07-13T08:52:26+00:00
+modified: 2026-07-20T16:34:30+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/frankl-and-camus-both-confront-absurdity-but-diverge-on-whether-meaning-is-discoverable
 tags: [existentialism, meaning, philosophy, resilience]
 title: Frankl and Camus Both Confront Absurdity But Diverge on Whether Meaning Is Discoverable
   Discoverable Discoverable
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Frankl and Camus Both Confront Absurdity But Diverge on Whether Meaning Is Discoverable

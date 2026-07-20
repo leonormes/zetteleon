@@ -1,6 +1,6 @@
 ---
 created: 2026-06-01T17:57:30+00:00
-modified: 2026-07-04T10:49:24+00:00
+modified: 2026-07-20T16:32:38+00:00
 permalink: llmeon/raw/2026-06-01-pieces-nginx-ingress-webhook-fix
 pieces_ids: [1c378604-c5d5-4d62-92b3-1fb8df02a019, 212a7336-2663-4126-bf24-4d95d7bd9a0e, 24a8b712-f922-40e9-a6b6-06e57e2445ee, 43a78b56-55a4-4e96-a5f6-b615de3f741f, d01de85a-1e3f-4049-9b89-7db7ae06f70d, e5500e50-e1fb-47e8-b6b2-9a37ce280806]
 source: pieces-ltm

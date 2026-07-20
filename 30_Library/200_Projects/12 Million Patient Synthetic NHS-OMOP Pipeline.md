@@ -1,6 +1,6 @@
 ---
 created: 2026-04-16T11:17:09+00:00
-modified: 2026-07-13T08:51:57+00:00
+modified: 2026-07-20T16:34:22+00:00
 permalink: llmeon/30-library/200-projects/12-million-patient-synthetic-nhs-omop-pipeline
 project_category: omop
 project_name: OMOP
@@ -77,9 +77,7 @@ Goal: Build a robust, parallelised pipeline to generate a national-scale synthet
 
 All tasks must be delivered as a Reproducible Analytical Pipeline (RAP) using the Kedro framework. This ensures that the transformation from `swpc_synthea` raw output to the final OMOP database is auditable, automated, and maintainable.
 
-
 ## Related
 
 - [[wiki/projects/12 Million Patient Synthetic NHS-OMOP Pipeline]] - The wiki dossier tracking this entity.
 - [[NHS Synthetic Data & OMOP Pipeline Meeting]] - A related project artifact containing meeting context.
-

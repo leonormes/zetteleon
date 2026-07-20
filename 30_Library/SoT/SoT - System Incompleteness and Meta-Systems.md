@@ -1,16 +1,16 @@
 ---
 aliases: ["Gödel's Law in Software", Incompleteness in Systems Architecture, The Meta-System Pattern]
+conformant: false
 created: 2026-01-05T07:34:29+00:00
 last_reviewed: null
-modified: 2026-07-13T08:52:54+00:00
+modified: 2026-07-20T16:33:43+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-system-incompleteness-and-meta-systems
 status: Active
 tags: [compilers, SoftwareEngineering/Architecture, systems-theory, TheHuman/Philosophy]
 title: SoT - System Incompleteness and Meta-Systems
 type: sot
 updated: null
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SoT - System Incompleteness and Meta-Systems

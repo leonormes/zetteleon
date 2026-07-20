@@ -1,13 +1,13 @@
 ---
+conformant: false
 created: 2025-12-26T12:30:00+00:00
-modified: 2026-07-13T08:52:52+00:00
+modified: 2026-07-20T16:33:45+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-process-execution-kernel-logic
 tags: [kernel, operating-systems, programming, SoftwareEngineering/Linux]
 title: SoT - Process Execution (Kernel Logic)
-uuid: ecdfeb35-57ef-4788-9c81-663ac48b8b48
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
+uuid: ecdfeb35-57ef-4788-9c81-663ac48b8b48
 ---
 
 ## 1. Definitive Statement

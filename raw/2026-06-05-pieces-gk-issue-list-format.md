@@ -1,6 +1,6 @@
 ---
 created: 2026-06-05T13:23:20+00:00
-modified: 2026-07-04T10:49:24+00:00
+modified: 2026-07-20T16:32:36+00:00
 permalink: llmeon/raw/2026-06-05-pieces-gk-issue-list-format
 pieces_ids: [55699589-ac61-4ece-be76-8d1f2e7f66ff, fe4f9ec1-e4e2-40b8-8985-c2076255d4d9]
 source: pieces-ltm

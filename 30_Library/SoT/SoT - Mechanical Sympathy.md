@@ -1,16 +1,16 @@
 ---
 aliases: [Hardware Sympathy, Mechanical Empathy]
+conformant: false
 created: 2026-01-07T00:00:00+00:00
 last_reviewed: null
-modified: 2026-07-13T08:52:50+00:00
+modified: 2026-07-20T16:33:47+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-mechanical-sympathy
 status: Stable
 tags: [hardware, mindset, performance]
 title: SoT - Mechanical Sympathy
 type: sot
 updated: null
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 > "You don't have to be an engineer to be a racing driver, but you have to have Mechanical Sympathy."—Jackie Stewart

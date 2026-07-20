@@ -1,13 +1,13 @@
 ---
 aliases: [AI Context Builder, Droidctx Pattern, Infrastructure Snapshotting]
+conformant: false
 created: 2026-03-28T17:10:00+00:00
-modified: 2026-07-13T08:52:42+00:00
+modified: 2026-07-20T16:33:54+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-ai-ready-infrastructure-context
 tags: [ai, context, devops, documentation, kubernetes, monitoring]
 title: SoT - AI-Ready Infrastructure Context
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

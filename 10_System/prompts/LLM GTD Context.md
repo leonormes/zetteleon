@@ -1,12 +1,12 @@
 ---
 aliases: []
 created: 2025-10-16T08:19:54+00:00
-modified: 2026-07-16
+description: "Background context on the Getting Things Done (GTD) methodology — projects vs. next actions, the five phases of workflow control, and the six horizons of focus. Inject alongside planning, review, or task-triage prompts that assume GTD vocabulary."
+modified: 2026-07-20T16:34:39+00:00
 permalink: llmeon/10-system/prompts/llm-gtd-context
+tags: [domain/productivity, type/context]
 title: LLM GTD Context
 type: prompt
-tags: [type/context, domain/productivity]
-description: "Background context on the Getting Things Done (GTD) methodology — projects vs. next actions, the five phases of workflow control, and the six horizons of focus. Inject alongside planning, review, or task-triage prompts that assume GTD vocabulary."
 ---
 
 ## LLM Planning Context Prompt: Getting Things Done (GTD) and Making It All Work

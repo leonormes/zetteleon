@@ -1,13 +1,13 @@
 ---
+conformant: false
 created: 2026-01-10T09:34:38+00:00
-modified: 2026-07-13T08:52:50+00:00
+modified: 2026-07-20T16:33:47+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-metabolic-tooling-configuration
 status: active
 tags: [configuration, health, nutracheck, tools]
 title: SoT - Metabolic Tooling Configuration
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Nutracheck Configuration
@@ -81,6 +81,6 @@ _Used as "Middleware", not Meal Replacement._
 
 ## Related
 
-- [[SoT - Metabolic Health & Satiety Management]] — _Maintained through structural regulation of energy balance and hormonal signaling._
-- [[MOC - Health and Vitality]] — _Health is the Platform Engineering required to run the mind._
-- [[SoT - Physical Health and Vitality]] — _Maintaining high function until the very end of life._
+- [[SoT - Metabolic Health & Satiety Management]]—_Maintained through structural regulation of energy balance and hormonal signaling._
+- [[MOC - Health and Vitality]]—_Health is the Platform Engineering required to run the mind._
+- [[SoT - Physical Health and Vitality]]—_Maintaining high function until the very end of life._

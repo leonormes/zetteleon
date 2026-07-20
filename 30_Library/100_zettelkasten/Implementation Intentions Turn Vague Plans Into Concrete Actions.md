@@ -1,13 +1,13 @@
 ---
 aliases: [Specific Plans, When-Where Planning]
+conformant: false
 created: 2025-11-01T20:22:24+00:00
-modified: 2026-07-13T08:52:27+00:00
+modified: 2026-07-20T16:34:29+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/implementation-intentions-turn-vague-plans-into-concrete-actions
 tags: [planning, strategy, TheHuman/Habits, topic/productivity]
 title: Implementation Intentions Turn Vague Plans Into Concrete Actions
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Summary: Implementation intentions are specific plans for when and where actions will occur, transforming vague notions into concrete plans that sweep away ambiguity and create triggers for action.

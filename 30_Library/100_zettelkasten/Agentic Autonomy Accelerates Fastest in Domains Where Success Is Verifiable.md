@@ -1,12 +1,12 @@
 ---
+conformant: false
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-07-13T08:52:23+00:00
+modified: 2026-07-20T16:34:33+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/agentic-autonomy-accelerates-fastest-in-domains-where-success-is-verifiable
 tags: [ai-progress, coding, reinforcement-learning, verification]
 title: Agentic Autonomy Accelerates Fastest in Domains Where Success Is Verifiable
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Agentic Autonomy Accelerates Fastest in Domains Where Success Is Verifiable

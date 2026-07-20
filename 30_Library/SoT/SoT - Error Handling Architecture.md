@@ -1,16 +1,16 @@
 ---
 aliases: [Designing Errors, Error Design, The Error Handling Protocol]
+conformant: false
 created: 2026-01-06T19:00:03+00:00
 last_reviewed: null
-modified: 2026-07-13T08:52:46+00:00
+modified: 2026-07-20T16:33:51+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-error-handling-architecture
 status: Active
 tags: [error-handling, observability, rust, SoftwareEngineering/Architecture]
 title: SoT - Error Handling Architecture
 type: sot
 updated: null
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SoT - Error Handling Architecture
@@ -65,7 +65,6 @@ Humans need the narrative. We need to know the _logical path_ the request took.
 - [[SoT - Rust Type Mechanics]] (Using Enums for Error Kinds).
 - [[SoT - Systems Thinking]] (Errors as Feedback Loops).
 - [[SoT - Parse, Don't Validate]] (Validation errors are Domain Errors).
-- [[SoT - Effects as Data (Tag Unions)]] — _Accumulating Anonymous Unions for precision and ergonomics._
-- [[SoT - Padded Cell vs Nanny Languages]] — _The architecture of managed runtimes vs. system-level error handling._
-- [[SoT - Type-Driven Development (The Torvalds Loop)]] — _Prioritizing structure over logic to ensure valid states._
-
+- [[SoT - Effects as Data (Tag Unions)]]—_Accumulating Anonymous Unions for precision and ergonomics._
+- [[SoT - Padded Cell vs Nanny Languages]]—_The architecture of managed runtimes vs. system-level error handling._
+- [[SoT - Type-Driven Development (The Torvalds Loop)]]—_Prioritizing structure over logic to ensure valid states._

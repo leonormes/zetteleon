@@ -1,14 +1,14 @@
 ---
 aliases: [Feedback Loops, Holistic Thinking, Systems Dynamics]
+conformant: false
 created: 2025-12-12T00:00:00+00:00
-modified: 2026-07-13T08:52:54+00:00
+modified: 2026-07-20T16:33:43+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-systems-thinking
 tags: [complexity, mental_models, thinking, topic/systems]
 tier: 2-Strategy
 title: SoT - Systems Thinking
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Working Knowledge (Stable)

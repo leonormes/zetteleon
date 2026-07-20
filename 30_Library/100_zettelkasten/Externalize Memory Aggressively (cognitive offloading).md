@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-19T23:58:53+00:00
 last_reviewed: ''
-modified: 2026-07-13T08:52:26+00:00
+modified: 2026-07-20T16:34:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/externalize-memory-aggressively-cognitive-offloading
 status: ''
 tags: [topic/pkm]

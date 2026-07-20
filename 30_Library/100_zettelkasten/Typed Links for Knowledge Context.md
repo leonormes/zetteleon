@@ -1,13 +1,13 @@
 ---
 aliases: [Relation Fields, Semantic Links]
+conformant: false
 created: 2025-10-31T08:19:00+00:00
-modified: 2026-07-13T08:52:33+00:00
+modified: 2026-07-20T16:34:23+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/typed-links-for-knowledge-context
 tags: [linking, semantics, zettelkasten]
 title: Typed Links for Knowledge Context
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Typed Links for Knowledge Context
@@ -32,9 +32,7 @@ Typed links are placed inline within the narrative of a structural note (map, ar
 
 Without typed links, a MOC is just a list of links. With typed links, it becomes a semantic graph.
 
-
 ## Related
 
 - [[Creating Meaningful Links]] - Details how typed links add the necessary context.
 - [[Personal Context and Relevance are Key to Knowledge Formation]] - Why contextual metadata is critical for a Zettelkasten.
-

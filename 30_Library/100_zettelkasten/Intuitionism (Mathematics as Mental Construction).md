@@ -1,13 +1,13 @@
 ---
 aliases: [Constructivism]
+conformant: false
 created: 2025-11-01T11:22:13+00:00
-modified: 2026-07-13T08:52:28+00:00
+modified: 2026-07-20T16:34:29+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/intuitionism-mathematics-as-mental-construction
 tags: [constructivism, TheHuman/Philosophy, topic/maths]
 title: Intuitionism (Mathematics as Mental Construction)
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Summary: Intuitionism asserts that mathematics is a purely mental activity of the human mind. A mathematical object exists only if it can be mentally constructed, and a proof is valid only if it provides a method for that construction.

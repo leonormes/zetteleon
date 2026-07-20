@@ -1,7 +1,7 @@
 ---
 captured: 2026-06-17T10:35:35+01:00 2026-06-17T10:35:35+01:00
 created: 2026-06-17T09:35:37+00:00
-modified: 2026-07-04T10:52:03+00:00
+modified: 2026-07-20T16:34:36+00:00
 permalink: llmeon/20-thinking/21-workbench/head-ai-demands-more-engineering-discipline.-not-less
 source: https://charitydotwtf.substack.com/p/ai-demands-more-engineering-discipline
 status: processing

@@ -1,6 +1,6 @@
 ---
 created: 2026-05-19T22:29:21+00:00
-modified: 2026-07-04T10:49:59+00:00
+modified: 2026-07-20T16:33:08+00:00
 permalink: llmeon/raw/2026-05-19-pieces-gcx-cli-grafana-setup
 pieces_ids: [2474c2e1-ac86-4e73-b774-e3a8d6619e6d, 6b5a24ff-c41d-43f8-b0af-6cde6f90ae79, 7832f531-dad9-4bda-9629-4b0d7dbfa199, a4bd5558-c9be-4226-bb84-1db404eea34f, ab317018-890b-47e2-ae7b-7ca195f6118a]
 source: pieces-ltm

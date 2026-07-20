@@ -1,13 +1,13 @@
 ---
 aliases: [Functional Fitness, Longevity Protocol, Physical Hardware Maintenance]
+conformant: false
 created: 2025-12-15T00:00:00+00:00
-modified: 2026-07-13T08:52:52+00:00
+modified: 2026-07-20T16:33:45+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-physical-health-and-vitality
 tags: [fitness, health, longevity, mobility, physical_hardware]
 title: SoT - Physical Health and Vitality
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 > The goal is Compression of Morbidity: "maintaining high function until the very end of life, rather than a slow, painful decline."

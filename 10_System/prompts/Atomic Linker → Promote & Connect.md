@@ -1,13 +1,12 @@
 ---
-created: 2026-04-10 10:43:23+00:00
-modified: 2026-07-17
+created: 2026-04-10T10:43:23+00:00
+description: "Step 2 of 2 in the atomic-capture pipeline. Reads a tmp_atoms_*.md file produced by the Atomic Signal Extractor (step 1), semantically links each atom into the existing vault graph, and promotes each atom into a permanent standalone note. Requires step 1 to have run first."
+modified: 2026-07-20T16:34:41+00:00
 permalink: llmeon/10-system/prompts/atomic-linker-promote-connect
+tags: [domain/pkm, pipeline/atomic-capture, type/system]
 title: Atomic Linker → Promote & Connect
 type: prompt
-tags: [type/system, domain/pkm, pipeline/atomic-capture]
-description: "Step 2 of 2 in the atomic-capture pipeline. Reads a tmp_atoms_*.md file produced by the Atomic Signal Extractor (step 1), semantically links each atom into the existing vault graph, and promotes each atom into a permanent standalone note. Requires step 1 to have run first."
 ---
-
 
 ## Step 2 Prompt: Atomic Linker → Promote & Connect
 
@@ -17,9 +16,9 @@ description: "Step 2 of 2 in the atomic-capture pipeline. Reads a tmp_atoms_*.md
 
 ### Role and Objective
 
-> **Output Contract:** follow [[Protocol - Typed Answer Contract (TAC) for Vault Agents]] — confidence, evidence (linked source notes), and an explicit uncertainty flag replace free prose in every output.
+> Output Contract: follow [[Protocol - Typed Answer Contract (TAC) for Vault Agents]]—confidence, evidence (linked source notes), and an explicit uncertainty flag replace free prose in every output.
 
-> **Output Contract:** follow [[Protocol - Typed Answer Contract (TAC) for Vault Agents]] — confidence, evidence (linked source notes), and an explicit uncertainty flag replace free prose in every output.
+> Output Contract: follow [[Protocol - Typed Answer Contract (TAC) for Vault Agents]]—confidence, evidence (linked source notes), and an explicit uncertainty flag replace free prose in every output.
 
 You are a Vault Connection Architect for a Zettelkasten-based Personal Knowledge Management (PKM) vault.
 
@@ -37,7 +36,7 @@ and map what already exists.
 
 ### TAC FRONTMATTER COMPLIANCE (MANDATORY)
 
-> Canonical schema: [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]. Every promoted note inherits the shared `FrontmatterContract` envelope from that spec — this is a hard constraint, not optional guidance.
+> Canonical schema: [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]. Every promoted note inherits the shared `FrontmatterContract` envelope from that spec—this is a hard constraint, not optional guidance.
 
 `type: atom` is NOT a valid top-level TAC type. The atom's `Kind` (from Step 1) is a finer-grained classification that belongs in `prodos.atomic.form`, not in the top-level `type` field. Map `Kind` → canonical `type` using this table:
 
@@ -52,7 +51,7 @@ and map what already exists.
 | `failure_mode` | `claim` |
 | `procedure` | `procedure` |
 
-Every promoted note MUST include, at top level: `title`, `type` (from the table above), `tags` (non-empty), `conformant` (boolean), and `non_conformance_reason` (required string if `conformant: false`, omitted otherwise). If the `Kind` → `type` mapping is genuinely ambiguous, pick the closest canonical type and set `conformant: false` with the reason — do not invent a new `type` value and do not skip these fields.
+Every promoted note MUST include, at top level: `title`, `type` (from the table above), `tags` (non-empty), `conformant` (boolean), and `non_conformance_reason` (required string if `conformant: false`, omitted otherwise). If the `Kind` → `type` mapping is genuinely ambiguous, pick the closest canonical type and set `conformant: false` with the reason—do not invent a new `type` value and do not skip these fields.
 
 ### Inputs Required
 
@@ -138,13 +137,16 @@ For each atom, create ONE markdown file with this structure:
 
 title: \<Atom Title>
 
-type: \<claim | concept | procedure — mapped from Kind via the table above>
+type: \<claim | concept | procedure—mapped from Kind via the table above>
 
 status: seed
 
 prodos:
+
   kind: atomic
+
   atomic:
+
     form: \<definition | claim | mechanism | procedure | heuristic | distinction | constraint | failure_mode>
 
 source_title: "\<from TMP file frontmatter>"

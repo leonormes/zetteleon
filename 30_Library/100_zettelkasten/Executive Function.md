@@ -1,14 +1,14 @@
 ---
+conformant: false
 created: 2026-05-31T00:00:00+00:00
-modified: 2026-07-14T05:51:52+00:00
+modified: 2026-07-20T16:34:30+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/executive-function
 prerequisite_of: ["[[Claim - Capture is easy but processing is hard]]"]
 related_to: ["[[Cognitive Load]]", "[[MOC - ADHD and PKM Systems]]"]
 tags: [adhd, cognition, executive-function]
 title: Executive Function
 type: concept
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Executive Function

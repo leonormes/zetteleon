@@ -1,12 +1,12 @@
 ---
+conformant: false
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-07-13T08:52:27+00:00
+modified: 2026-07-20T16:34:30+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/git-based-vault-synchronisation-provides-free-version-controlled-note-backup
 tags: [cost-optimization, git, obsidian, sync, version-control]
 title: Git-Based Vault Synchronisation Provides Free Version-Controlled Note Backup
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Git-Based Vault Synchronisation Provides Free Version-Controlled Note Backup

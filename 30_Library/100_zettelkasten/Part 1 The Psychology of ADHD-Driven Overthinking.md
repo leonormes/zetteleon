@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-11T17:22:48+00:00
 last_reviewed: ''
-modified: 2026-07-13T08:52:29+00:00
+modified: 2026-07-20T16:34:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/part-1-the-psychology-of-adhd-driven-overthinking
 status: ''
 tags: []

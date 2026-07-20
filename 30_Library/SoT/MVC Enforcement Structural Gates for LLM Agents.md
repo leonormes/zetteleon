@@ -1,12 +1,12 @@
 ---
+conformant: false
 created: 2026-02-01T20:57:22+00:00
-modified: 2026-07-13T08:52:40+00:00
+modified: 2026-07-20T16:33:56+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/mvc-enforcement-structural-gates-for-llm-agents
 tags: [domain/ai, governance, type/protocol]
 title: MVC Enforcement Structural Gates for LLM Agents
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## MVC Enforcement: Structural Gates for LLM Agents

@@ -1,13 +1,13 @@
 ---
 aliases: [Mundane Thoughts as Raw Material]
+conformant: false
 created: 2025-11-06T20:01:00+00:00
-modified: 2026-07-13T08:52:29+00:00
+modified: 2026-07-20T16:34:27+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/mundane-written-thoughts-are-the-starting-point-for-deeper-insight
 tags: [process, TheHuman/Creativity, thinking, writing]
 title: Mundane Written Thoughts are the Starting Point for Deeper Insight
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Mundane Written Thoughts Are the Starting Point for Deeper Insight

@@ -2,14 +2,14 @@
 alias: [Connectivity Debugging, Kubernetes Network Debugging Protocol, Network Troubleshooting Checklist]
 aliases:
 - Protocol - HIE->NNUH Network Debugging
+conformant: false
 created: 2026-02-04T00:00:00+00:00
-modified: 2026-07-13T08:52:41+00:00
+modified: 2026-07-20T16:33:55+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/protocol-hie-nnuh-network-debugging
 tags: [aws, azure, customer/nnuh, debugging, kubernetes, networking, protocol]
 title: Protocol - HIE--NNUH Network Debugging
 type: protocol
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Logic Map

@@ -1,13 +1,13 @@
 ---
 aliases: [Chunking, Cognitive Compression]
+conformant: false
 created: 2025-10-31T11:22:00+00:00
-modified: 2026-07-13T08:52:33+00:00
+modified: 2026-07-20T16:34:23+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/understanding-compresses-information-into-cognitive-chunks
 tags: [memory, TheHuman/Cognition]
 title: Understanding Compresses Information into Cognitive Chunks
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Understanding Compresses Information into Cognitive Chunks

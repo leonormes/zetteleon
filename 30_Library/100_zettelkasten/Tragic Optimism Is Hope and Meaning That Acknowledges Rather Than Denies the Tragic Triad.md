@@ -1,13 +1,13 @@
 ---
+conformant: false
 created: 2026-04-10T00:00:00+00:00
-modified: 2026-07-13T08:52:33+00:00
+modified: 2026-07-20T16:34:23+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/tragic-optimism-is-hope-and-meaning-that-acknowledges-rather-than-denies-the-tragic-triad
 tags: [optimism, perspective, resilience, suffering]
 title: Tragic Optimism Is Hope and Meaning That Acknowledges Rather Than Denies the Tragic Triad
   Tragic Triad Tragic Triad
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Tragic Optimism Is Hope and Meaning That Acknowledges Rather Than Denies the Tragic Triad
@@ -37,9 +37,7 @@ Applies to situations involving unavoidable suffering—loss, mortality, guilt f
 
 - [[SoT - The Philosophy of the Absurd (Camus)]]—core tension: both Camus's Revolt and Tragic Optimism confront the tragic triad directly, but Camus explicitly rejects hope as "philosophical suicide"—a leap of faith that evades the Absurd. Frankl retains hope as grounded in discovered meaning. The divergence is whether hope is honest or evasive when facing a silent universe.
 
-
 ## Related
 
 - [[Hope is Expecting the Best in the Future and Working for It]] - Contrasts the definition of hope with tragic optimism.
 - [[Frankl and Camus Both Confront Absurdity But Diverge on Whether Meaning Is Discoverable]] - Explores the philosophical roots of Frankl's tragic optimism.
-

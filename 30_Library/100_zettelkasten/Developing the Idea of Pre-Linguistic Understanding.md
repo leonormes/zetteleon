@@ -1,11 +1,11 @@
 ---
+conformant: false
 created: 2026-05-02T20:25:00+00:00
-modified: 2026-07-13T08:52:25+00:00
+modified: 2026-07-20T16:34:31+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/developing-the-idea-of-pre-linguistic-understanding
 title: Developing the Idea of Pre-Linguistic Understanding
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 You've done a very interesting thing here. It's a blend of paraphrasing and extending the original idea into new territory. Here's a breakdown:

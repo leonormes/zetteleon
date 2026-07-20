@@ -1,13 +1,13 @@
 ---
 aliases: [Structure vs Least Resistance]
+conformant: false
 created: 2025-11-01T21:02:00+00:00
-modified: 2026-07-13T08:52:32+00:00
+modified: 2026-07-20T16:34:23+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/timeboxing-combats-the-principle-of-least-resistance
 tags: [deep-work, TheHuman/Psychology, time-management, topic/productivity]
 title: Timeboxing Combats the Principle of Least Resistance
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Without a clear structure, it is natural to gravitate toward shallow, easy tasks—the path of least resistance. Timeboxing provides the necessary structure to counteract this tendency.
@@ -16,9 +16,7 @@ By scheduling specific blocks for deep, difficult work, an individual creates a 
 
 This structure facilitates deliberate choice, ensuring that important, high-effort tasks are not perpetually pushed aside in favor of more trivial activities.
 
-
 ## Related
 
 - [[Timeboxing Creates Scarcity to Eliminate Non-Essential Activities]] - Another way timeboxing overrides default behaviors.
 - [[The Core Principles of Time Boxing are Fixed Time Allocation a Goal-Oriented Approach and Commitment to Focus]] - The foundational concepts that enable this structure.
-

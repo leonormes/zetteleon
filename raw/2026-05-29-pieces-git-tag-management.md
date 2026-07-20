@@ -1,6 +1,6 @@
 ---
 created: 2026-05-29T11:00:59+00:00
-modified: 2026-07-04T10:49:46+00:00
+modified: 2026-07-20T16:32:57+00:00
 permalink: llmeon/raw/2026-05-29-pieces-git-tag-management
 pieces_ids: [8274dabd-1d3d-443c-9bff-853e39ca5360]
 source: pieces-ltm

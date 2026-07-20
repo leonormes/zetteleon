@@ -1,13 +1,13 @@
 ---
 aliases: [Dynamic Linking, Shared Libraries, Static Linking]
+conformant: false
 created: 2025-12-19T00:00:00+00:00
-modified: 2026-07-13T08:52:54+00:00
+modified: 2026-07-20T16:33:44+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-static-vs-dynamic-linking
 tags: [compilers, devops, linking, SoftwareEngineering/Security]
 title: SoT - Static vs Dynamic Linking
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 > Linking is the process of collecting and combining various pieces of code and data into a single file that can be loaded into memory and executed. The two primary strategies for this are: ""

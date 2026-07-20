@@ -2,7 +2,7 @@
 chart-version: 4.1.6
 created: 2026-07-07T08:56:09+00:00
 date: 2026-06-25
-modified: 2026-07-07T09:28:47+00:00
+modified: 2026-07-20T16:33:30+00:00
 permalink: llmeon/k8s-monitoring-helm-deep-analysis-1-1
 related: '[[FITFILE k8s-monitoring Config Audit]]'
 source: /Volumes/DAL/other/k8s-monitoring-helm

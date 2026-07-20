@@ -1,13 +1,13 @@
 ---
 aliases: [Six Levels of Awareness, Thinking vs Awareness]
+conformant: false
 created: 2025-12-14T00:00:00+00:00
-modified: 2026-07-13T08:52:54+00:00
+modified: 2026-07-20T16:33:44+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-six-levels-of-thinking
 tags: [awareness, mental_model, metacognition, TheHuman/Psychology]
 title: SoT - Six Levels of Thinking
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 2. The Framework: Thinking vs. Awareness
@@ -49,7 +49,6 @@ This framework provides the theoretical basis for several ProdOS mechanisms:
 
 - Video: "The Highest Levels of Thinking Explained" by Seeking Satsang. [YouTube Link](http://www.youtube.com/watch?v=8UL-iATA1Nc)
 
-
 ## Related
 
 - [[Metacognitive Awareness]]
@@ -57,4 +56,3 @@ This framework provides the theoretical basis for several ProdOS mechanisms:
 - [[SoT - Mindfulness and Emotional Regulation]]
 - [[Mistaking the Map for the Territory]]
 - [[SoT - Belief Architecture & Cognitive Spaces]]
-

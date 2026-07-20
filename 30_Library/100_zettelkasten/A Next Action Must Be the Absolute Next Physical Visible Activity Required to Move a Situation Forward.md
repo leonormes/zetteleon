@@ -1,13 +1,13 @@
 ---
+conformant: false
 created: 2026-04-10T00:00:00+00:00
-modified: 2026-07-13T08:52:23+00:00
+modified: 2026-07-20T16:34:33+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/a-next-action-must-be-the-absolute-next-physical-visible-activity-required-to-move-a-situation-forward
 tags: [action-definition, clarity, execution, gtd]
 title: A Next Action Must Be the Absolute Next Physical Visible Activity Required to Move a Situation Forward
   to Move a Situation Forward to Move a Situation Forward
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## A Next Action Must Be the Absolute Next Physical Visible Activity Required to Move a Situation Forward

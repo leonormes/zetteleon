@@ -1,13 +1,13 @@
 ---
 aliases: [Broad Training]
+conformant: false
 created: 2025-11-01T12:30:10+00:00
-modified: 2026-07-13T08:52:24+00:00
+modified: 2026-07-20T16:34:32+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/broad-experiences-develop-flexible-problem-solving-skills
 tags: [adaptability, experience, problem-solving]
 title: Broad Experiences Develop Flexible Problem-Solving Skills
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Broad Experiences Develop Flexible Problem-Solving Skills

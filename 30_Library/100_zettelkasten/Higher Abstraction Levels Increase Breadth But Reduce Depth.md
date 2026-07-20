@@ -1,13 +1,13 @@
 ---
 aliases: []
+conformant: false
 created: 2025-10-31T11:20:00+00:00
-modified: 2026-07-17T09:00:00+00:00
+modified: 2026-07-20T16:34:29+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/higher-abstraction-levels-increase-breadth-but-reduce-depth
 tags: [abstraction, TheHuman/Cognition]
 title: Higher Abstraction Levels Increase Breadth But Reduce Depth
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Higher Abstraction Levels Increase Breadth But Reduce Depth
@@ -28,4 +28,4 @@ Examples:
 
 ## Related
 
-- [[The Mereological Fallacy in Neuroscience]] — *the fallacy confuses levels of description; predicates true at the whole-person (high abstraction) level are misapplied at the part-level (lower abstraction).*
+- [[The Mereological Fallacy in Neuroscience]]—_the fallacy confuses levels of description; predicates true at the whole-person (high abstraction) level are misapplied at the part-level (lower abstraction)._

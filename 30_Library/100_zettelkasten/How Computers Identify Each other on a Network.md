@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-05-12T05:13:56+00:00
 last_reviewed: 'null'
-modified: 2026-07-13T08:52:27+00:00
+modified: 2026-07-20T16:34:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/how-computers-identify-each-other-on-a-network
 status: 'null'
 tags: [SoftwareEngineering/networking/dns]

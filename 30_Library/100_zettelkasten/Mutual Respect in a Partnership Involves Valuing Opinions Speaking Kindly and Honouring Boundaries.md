@@ -1,14 +1,14 @@
 ---
 aliases: [Mutual Respect in a Relationship]
+conformant: false
 created: 2025-11-10T10:01:00+00:00
-modified: 2026-07-13T08:52:29+00:00
+modified: 2026-07-20T16:34:27+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/mutual-respect-in-a-partnership-involves-valuing-opinions-speaking-kindly-and-honouring-boundaries
 tags: [boundaries, communication, relationship, respect]
 title: Mutual Respect in a Partnership Involves Valuing Opinions Speaking Kindly and Honouring Boundaries
   Honouring Boundaries Honouring Boundaries
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Mutual Respect in a Partnership Involves Valuing Opinions Speaking Kindly and Honouring Boundaries

@@ -1,7 +1,7 @@
 ---
 aliases: [Inner Strength MOC, Resilience Skills MOC, Strong Spirit MOC]
 created: 2025-07-10T10:12:15+00:00
-modified: 2026-07-13T08:52:35+00:00
+modified: 2026-07-20T16:34:00+00:00
 permalink: llmeon/30-library/mo-c/inner-strength-resilience-skills-your-strong-spirit
 tags: [character-strength, resilience, type/moc, virtue]
 title: Inner Strength & Resilience Skills (Your Strong Spirit)

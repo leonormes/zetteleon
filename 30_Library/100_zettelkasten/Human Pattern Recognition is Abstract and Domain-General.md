@@ -1,13 +1,13 @@
 ---
 aliases: [Abstract Pattern Recognition]
+conformant: false
 created: 2025-11-01T12:00:08+00:00
-modified: 2026-07-13T08:52:27+00:00
+modified: 2026-07-20T16:34:29+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/human-pattern-recognition-is-abstract-and-domain-general
 tags: [abstraction, evolution, TheHuman/Cognition]
 title: Human Pattern Recognition is Abstract and Domain-General
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Human Pattern Recognition is Abstract and Domain-General

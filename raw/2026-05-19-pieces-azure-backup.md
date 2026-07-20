@@ -1,6 +1,6 @@
 ---
 created: Invalid date
-modified: 2026-07-04T10:50:04+00:00
+modified: 2026-07-20T16:33:12+00:00
 permalink: llmeon/raw/2026-05-19-pieces-azure-backup
 pieces_ids: [2cf9d16d-4b94-41ab-ba2c-6016852742b2, 9021743f-dd37-4f74-bd57-a205dabcc2c1, 9957a1d5-1092-4b6a-bfc7-8804badb5d44, 9c097ed5-8991-49e7-8a79-5569010904fb]
 source: pieces-ltm

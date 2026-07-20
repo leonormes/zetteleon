@@ -1,16 +1,16 @@
 ---
 aliases: [Launch Sequence, The Initiation Algorithm]
+conformant: false
 created: 2025-12-23T20:00:20+00:00
 last_reviewed: '2025-12-23'
-modified: 2026-07-13T08:52:53+00:00
+modified: 2026-07-20T16:33:45+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-protocol-the-launch-sequence
 status: stable
 tags: [action, adhd, initiation, productivity, protocol]
 title: SoT - Protocol - The Launch Sequence
 type: sot
 updated: null
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Goal: Bypassing the "Brainbound" Bottleneck

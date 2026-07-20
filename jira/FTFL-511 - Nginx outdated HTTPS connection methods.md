@@ -3,7 +3,7 @@ api_control: API-5
 created: 2026-05-07T00:00:00+00:00
 issue_id: '28766'
 issue_key: FTFL-511
-modified: 2026-07-04T10:50:33+00:00
+modified: 2026-07-20T16:33:32+00:00
 permalink: llmeon/jira/ftfl-511-nginx-outdated-https-connection-methods
 priority: High
 status: To Do

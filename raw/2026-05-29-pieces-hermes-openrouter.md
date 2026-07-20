@@ -1,6 +1,6 @@
 ---
 created: 2026-05-29T12:45:54+00:00
-modified: 2026-07-04T10:49:45+00:00
+modified: 2026-07-20T16:32:57+00:00
 permalink: llmeon/raw/2026-05-29-pieces-hermes-openrouter
 pieces_ids: [3737d524-416b-485c-8fe6-cd84aed42784, 9e88c044-c071-44aa-8ebe-66f349c4c1b5, d6f89dd3-b969-4efe-86bc-32bf76afbf76]
 source: pieces-ltm

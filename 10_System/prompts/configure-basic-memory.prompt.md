@@ -1,13 +1,12 @@
 ---
-created: 2026-06-22 09:16:18+00:00
-modified: 2026-07-16
+created: 2026-06-22T09:16:18+00:00
+description: "One-off infra setup task (2026-06-22): configure Basic Memory as a shared, local-first Markdown memory layer over the LLMeon vault, wired through chezmoi-managed dotfiles. Historical reference — only re-run if Basic Memory needs reinstalling or reconfiguring from scratch."
+modified: 2026-07-20T16:34:38+00:00
 permalink: llmeon/10-system/prompts/configure-basic-memory.prompt
+tags: [domain/devops, tool/basic-memory, type/task-log]
 title: configure-basic-memory.prompt
 type: prompt
-tags: [type/task-log, domain/devops, tool/basic-memory]
-description: "One-off infra setup task (2026-06-22): configure Basic Memory as a shared, local-first Markdown memory layer over the LLMeon vault, wired through chezmoi-managed dotfiles. Historical reference — only re-run if Basic Memory needs reinstalling or reconfiguring from scratch."
 ---
-
 
 ## Task: Configure Basic Memory for the LLMeon Zettelkasten (Chezmoi-managed, lOcal-first)
 

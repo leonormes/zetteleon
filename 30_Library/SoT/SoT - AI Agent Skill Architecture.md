@@ -1,13 +1,13 @@
 ---
 aliases: [Agent Capabilities, AI Agent Skills, Claude Code Skills]
+conformant: false
 created: 2026-03-28T17:00:00+00:00
-modified: 2026-07-13T08:52:42+00:00
+modified: 2026-07-20T16:33:54+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-ai-agent-skill-architecture
 tags: [agents, ai, architecture, claude, mcp, skills]
 title: SoT - AI Agent Skill Architecture
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

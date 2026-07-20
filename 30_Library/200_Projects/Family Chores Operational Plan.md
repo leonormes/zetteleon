@@ -1,7 +1,7 @@
 ---
 conformant: true
 created: 2026-07-20T00:00:00+00:00
-modified: 2026-07-20T13:12:03+00:00
+modified: 2026-07-20T16:34:02+00:00
 permalink: llmeon/30-library/200-projects/family-chores-operational-plan
 project_category: personal
 project_name: Family Chores
@@ -64,31 +64,31 @@ _Note: Rotating keeps the system fair and prevents stagnation. Standard tasks ar
 
 - Shared Zones: Clear table, wipe table, load/unload dishwasher (assigned to the weekly "Kitchen Reset" child).
 - Private Quarters (All Children): Bed made, floor clear of clothes/rubbish, and laundry extracted to the downstairs basket.
-- Audit Gate: Daily reset checked by a parent at [insert agreed time, e.g., 18:00]. **Now also conditional on verified completion of daily home-education Study Sprint (see sections below).** If private quarters, assigned tasks, or study sprints are incomplete, discretionary Wi-Fi/screen access is suspended until done.
+- Audit Gate: Daily reset checked by a parent at [insert agreed time, e.g., 18:00]. Now also conditional on verified completion of daily home-education Study Sprint (see sections below). If private quarters, assigned tasks, or study sprints are incomplete, discretionary Wi-Fi/screen access is suspended until done.
 
-#### Study Sprints — Definition
+#### Study Sprints—Definition
 
 A Study Sprint is the daily unit of home-education work. It is designed around Bessie's working memory profile (2nd percentile; standard score 69), so it never relies on her holding a plan in her head:
 
 - One sprint = one target task, pre-atomised into exactly 3 physical, verb-driven actions written down before the sprint starts.
 - The sprint begins only after the Study Session Reset DoD (see [[SoT - Master Household Chores Inventory]]) is fully satisfied.
 - Sprint materials follow the standing accommodations: blue paper or overlays for all printed matter, laptop as default for extended writing, no copying from a screen or board into notes.
-- The sprint is "verified complete" when the 3 written actions are ticked off — not when a time period elapses. Effort is bounded by the checklist, not the clock.
+- The sprint is "verified complete" when the 3 written actions are ticked off—not when a time period elapses. Effort is bounded by the checklist, not the clock.
 
 #### Grace Period & Failure Autopsy Protocol (Study Tasks)
 
-When a study task is at risk or has failed, the sequence is fixed. Consistency here is the point — the protocol replaces nagging with a predictable, low-friction script:
+When a study task is at risk or has failed, the sequence is fixed. Consistency here is the point—the protocol replaces nagging with a predictable, low-friction script:
 
-1. **Single neutral reminder (Grace Period).** One reminder only, delivered calmly: _"Bessie, the study audit is in 30 minutes. Let's check your checklist."_ No follow-up prompts, no hovering, no tone escalation.
-2. **Failure Autopsy (if the task fails).** A calm, blame-free review done _with_ Bessie, treating the failure as a systems problem, not a character problem:
+1. Single neutral reminder (Grace Period). One reminder only, delivered calmly: _"Bessie, the study audit is in 30 minutes. Let's check your checklist."_ No follow-up prompts, no hovering, no tone escalation.
+2. Failure Autopsy (if the task fails). A calm, blame-free review done _with_ Bessie, treating the failure as a systems problem, not a character problem:
    - _What was the plan?_
    - _Where did it get stuck?_
    - _What is the variable to change?_ (e.g., did we leave the phone in sight, or did we try a step that was too big?)
-3. **Acknowledge effort and apply the Power of Yet.** Close with: _"You haven't mastered this revision tracking yet, but we are designing this checklist sequence to help you do it."_
+3. Acknowledge effort and apply the Power of Yet. Close with: _"You haven't mastered this revision tracking yet, but we are designing this checklist sequence to help you do it."_
 
-**Notes for parents:**
+Notes for parents:
 
-- The Autopsy adjusts the _system_ (checklist, environment, step size), never the _person_. If a step failed, the step was too big — atomise it further.
+- The Autopsy adjusts the _system_ (checklist, environment, step size), never the _person_. If a step failed, the step was too big—atomise it further.
 - If Bessie is dysregulated (post-school masking collapse), the Autopsy is deferred. Regulate first; review later. A flooded nervous system cannot do systems analysis.
 - Defensive venting during the Autopsy is met with neutral Grey Rock responses per the Governance SoT. No emotional rescuing, no debate.
 
@@ -100,9 +100,9 @@ When a study task is at risk or has failed, the sequence is fixed. Consistency h
 
 ### 2.4 Pet Care Routing
 
-- **Parent-Only Medical Tier:** The dog's Addison's disease medication, monthly vet injections, and stress management are strictly managed by Mum or Dad. These tasks are critical and high-stakes, and must never be delegated.
-- **Child-Shared Routine Tier:** Cat care (daily feeding, litter tray) and snake environment/feeding checks are routine tasks. These are shared among the children (Rae, Bessie, and Pearl).
-- **Detailed SOPs:** The official technical definitions of done for both pet tiers are maintained in [[SoT - Master Household Chores Inventory]].
+- Parent-Only Medical Tier: The dog's Addison's disease medication, monthly vet injections, and stress management are strictly managed by Mum or Dad. These tasks are critical and high-stakes, and must never be delegated.
+- Child-Shared Routine Tier: Cat care (daily feeding, litter tray) and snake environment/feeding checks are routine tasks. These are shared among the children (Rae, Bessie, and Pearl).
+- Detailed SOPs: The official technical definitions of done for both pet tiers are maintained in [[SoT - Master Household Chores Inventory]].
 
 ---
 

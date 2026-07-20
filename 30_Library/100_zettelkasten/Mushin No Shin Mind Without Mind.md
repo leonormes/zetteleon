@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-09-07T15:32:45+00:00
 last_reviewed: ''
-modified: 2026-07-17T09:00:00+00:00
+modified: 2026-07-20T16:34:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/mushin-no-shin-mind-without-mind
 status: ''
 tags: []
@@ -16,7 +16,8 @@ This Japanese concept involves distancing oneself from thoughts, emotions, and t
 Links: [[SoT - Miyamoto Musashi's Philosophy on Mastering Emotions]], [[Responding vs. Reacting]]
 
 Related:
-- [[Split-Brain Confabulation Reveals a Post-Hoc Interpreter]] — *Mushin achieves silence of the interpreter; the confabulation study reveals what happens when the interpreter cannot be silenced.*
+
+- [[Split-Brain Confabulation Reveals a Post-Hoc Interpreter]]—_Mushin achieves silence of the interpreter; the confabulation study reveals what happens when the interpreter cannot be silenced._
 
 ---
 

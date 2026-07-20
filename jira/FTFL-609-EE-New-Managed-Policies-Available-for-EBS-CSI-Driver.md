@@ -5,7 +5,7 @@ jira-assignee: Leon Ormes
 jira-key: FTFL-609
 jira-reporter: Robin Mofakham
 jira-status: In Progress
-modified: 2026-07-04T10:50:33+00:00
+modified: 2026-07-20T16:33:31+00:00
 permalink: llmeon/jira/ftfl-609-ee-new-managed-policies-available-for-ebs-csi-driver
 project: FITFILE
 source: atlassian-jira

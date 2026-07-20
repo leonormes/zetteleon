@@ -1,8 +1,10 @@
 ---
 aliases: []
+conformant: false
 created: 2026-02-07T10:22:14+00:00
 last-synthesis: 2026-02-07
-modified: 2026-07-13T08:52:44+00:00
+modified: 2026-07-20T16:33:53+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-bonhoeffers-theory-of-functional-stupidity
 see_also: []
 source_of_truth: true
@@ -14,8 +16,6 @@ tags: [domain/psychology, domain/sociology, type/SoT]
 title: "SoT - Bonhoeffer's Theory of Functional Stupidity"
 trust-level: stable
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

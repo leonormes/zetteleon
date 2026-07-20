@@ -1,11 +1,11 @@
 ---
+conformant: false
 created: 2026-05-02T20:38:21+00:00
-modified: 2026-07-13T08:52:27+00:00
+modified: 2026-07-20T16:34:29+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/in-physics-how-profound-a-property-of-matter-is-it...
 title: In physics how profound a property of matter is it...
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 It's arguably the most profound and fundamental property of matter. Without it, the universe would be a completely dark, cold, and structureless collection of non-interacting particles. There would be no atoms, no stars, no planets, and no life. The very existence of reality as we perceive it is entirely dependent on the fact that objects affect one another.

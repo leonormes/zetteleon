@@ -1,14 +1,14 @@
 ---
+conformant: false
 contrasts_with: ["[[Claim - Treat the system as iterative not perfectable]]"]
 created: 2026-05-31T00:00:00+00:00
-modified: 2026-07-14T05:56:49+00:00
+modified: 2026-07-20T16:34:24+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/system-hopping
 related_to: ["[[Claim - Novelty-craving drives self-defeating system-hopping]]", "[[MOC - ADHD and PKM Systems]]"]
 tags: [adhd, anti-pattern, novelty, productivity]
 title: System-Hopping
 type: concept
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## System-Hopping

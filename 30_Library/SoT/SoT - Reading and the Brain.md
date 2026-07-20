@@ -1,13 +1,13 @@
 ---
 aliases: [Neurobiology of Literacy, Reading Rewires the Brain, The Reading Brain]
+conformant: false
 created: 2025-12-23T19:54:57+00:00
-modified: 2026-07-13T08:52:53+00:00
+modified: 2026-07-20T16:33:45+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-reading-and-the-brain
 tags: [intelligence, neuroplasticity, reading, TheHuman/Cognition, TheHuman/Neuroscience]
 title: SoT - Reading and the Brain
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Definitive Statement
@@ -52,6 +52,6 @@ Reading is a "cognitive superniche" that we overlay on the world. By consistentl
 
 ## Related
 
-- [[Neuroplasticity is the Brain's Ability to Change in Response to Experience]] — _Neuroplasticity is the fundamental capacity to change physical structure and function._
-- [[Neuroplasticity is the Foundation for Habit Change]] — _Rewiring neural circuits in response to repeated experiences._
-- [[SoT - Learning Mechanisms]] — _Learning involves creating and strengthening connections between neurons._
+- [[Neuroplasticity is the Brain's Ability to Change in Response to Experience]]—_Neuroplasticity is the fundamental capacity to change physical structure and function._
+- [[Neuroplasticity is the Foundation for Habit Change]]—_Rewiring neural circuits in response to repeated experiences._
+- [[SoT - Learning Mechanisms]]—_Learning involves creating and strengthening connections between neurons._

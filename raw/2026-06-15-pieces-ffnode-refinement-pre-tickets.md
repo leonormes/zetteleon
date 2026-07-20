@@ -1,6 +1,6 @@
 ---
 created: 2026-06-15T14:03:00+00:00
-modified: 2026-07-04T10:49:23+00:00
+modified: 2026-07-20T16:32:35+00:00
 permalink: llmeon/raw/2026-06-15-pieces-ffnode-refinement-pre-tickets
 pieces_ids: [1c6b6bf3-cf07-4e42-8a09-9ff4a4ae72fb, 918c44fc-34b4-43ae-a02e-a6533e884570, badc8227-e2a7-4321-89c0-84ee157b701b, c44e57d3-bddb-4f52-9f21-75e940db7325]
 source: pieces

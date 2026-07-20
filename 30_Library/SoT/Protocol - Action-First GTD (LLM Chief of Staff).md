@@ -1,14 +1,14 @@
 ---
 aliases: ["Dump Don't Organize", Action-First GTD, LLM Chief of Staff]
+conformant: false
 created: 2026-02-11T11:40:00+00:00
-modified: 2026-07-13T08:52:40+00:00
+modified: 2026-07-20T16:33:56+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/protocol-action-first-gtd-llm-chief-of-staff
 status: active
 tags: [adhd, gtd, llm, system/protocol]
 title: Protocol - Action-First GTD (LLM Chief of Staff)
 type: protocol
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Logic Map

@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-23T20:31:00+00:00
 last_reviewed: ''
-modified: 2026-07-13T08:52:27+00:00
+modified: 2026-07-20T16:34:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/getting-started-with-zettelkasten-with-adhd
 status: ''
 tags: [TheHuman/Health/ADHD, topic/pkm/zettelkasten, topic/productivity]

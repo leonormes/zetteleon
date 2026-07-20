@@ -1,13 +1,13 @@
 ---
 aliases: [Pre-commitment Strategy, Strategic Constraint, Ulysses Pact]
+conformant: false
 created: 2026-01-12T12:20:00+00:00
-modified: 2026-07-13T08:52:45+00:00
+modified: 2026-07-20T16:33:52+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-commitment-devices-ulysses-pacts
 tags: [behavioral-science, prodos/sot, strategy]
 title: SoT - Commitment Devices (Ulysses Pacts)
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Commitment Devices (Ulysses Pacts)

@@ -1,6 +1,6 @@
 ---
 created: 2026-05-27T10:30:22+00:00
-modified: 2026-07-04T10:49:49+00:00
+modified: 2026-07-20T16:33:00+00:00
 permalink: llmeon/raw/2026-05-27-pieces-k8s-observability
 pieces_ids: [05295732-afd3-4c33-86c8-bdef43a4e9d7, 093e4abc-4d0a-4446-9325-d52f187f87eb, 3fc51dcf-dd4d-400b-88a7-bc5012d6b34f, 5ffdfcc3-392a-4cc3-89ba-bac507176ede, 731cf7ae-64ad-477d-b1e4-17299fde113c, 8f467603-00c8-4380-97cc-b3f17c2ef22e, b53c91c2-52ba-4eec-80ef-4bf7fca2120f, d1cb671b-528c-4042-906d-97a7534178e7]
 source: pieces-ltm

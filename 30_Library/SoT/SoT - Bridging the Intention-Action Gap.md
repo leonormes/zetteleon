@@ -1,15 +1,15 @@
 ---
 aliases: [K2A Framework, Knowledge-to-Action System, The Motivation Bridge]
+conformant: false
 created: 2025-11-13T00:00:00+00:00
 last_reviewed: '2026-04-04'
-modified: 2026-07-13T08:52:44+00:00
+modified: 2026-07-20T16:33:53+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-bridging-the-intention-action-gap
 status: deprecated
 tags: [execution, TheHuman/Health/ADHD, TheHuman/Psychology, topic/productivity]
 title: SoT - Bridging the Intention-Action Gap
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## DEPRECATED

@@ -1,14 +1,14 @@
 ---
 aliases: []
+conformant: false
 created: 2025-12-13T00:00:00+00:00
-modified: 2026-07-15T21:31:00+00:00
+modified: 2026-07-20T16:33:45+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-psychological-safety-and-belonging
 tags: []
 tier: 1-Foundation
 title: SoT - Psychological Safety and Belonging
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 2. The Core Mechanism: "The Amygdala as Guide Dog & The Social Brain"
@@ -26,7 +26,8 @@ Mutual cooperation is intrinsically rewarding. Studies show: ""
 ---
 
 ## Related
-- [[HEAD - The Neural Drivers of the Social Brain]] — _Provides the broader evolutionary context for how the social brain establishes psychological safety._
-- [[SoT - ADHD Self-Compassion & Strengths]] — _Details how oxytocin acts as a biological requirement for calming the amygdala and re-engaging the prefrontal cortex._
-- [[SoT - Social Cognition & Self-Perception]] — _Explains the rapid, subconscious data collection mechanisms our brains use to navigate social dynamics._
-- [[Constructive Debate in Psychological Safety]] — _True psychological safety enables challenging ideas._
+
+- [[HEAD - The Neural Drivers of the Social Brain]]—_Provides the broader evolutionary context for how the social brain establishes psychological safety._
+- [[SoT - ADHD Self-Compassion & Strengths]]—_Details how oxytocin acts as a biological requirement for calming the amygdala and re-engaging the prefrontal cortex._
+- [[SoT - Social Cognition & Self-Perception]]—_Explains the rapid, subconscious data collection mechanisms our brains use to navigate social dynamics._
+- [[Constructive Debate in Psychological Safety]]—_True psychological safety enables challenging ideas._

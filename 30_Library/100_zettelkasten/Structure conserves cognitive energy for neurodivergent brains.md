@@ -1,14 +1,14 @@
 ---
 aliases: []
+conformant: false
 created: 2025-10-30T16:21:00+00:00
-modified: 2026-07-13T08:52:31+00:00
+modified: 2026-07-20T16:34:25+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/structure-conserves-cognitive-energy-for-neurodivergent-brains
 source: '[[MOC - Why Autistics and ADHDers NEED Routines]]'
 tags: [autism, energy-management, executive-function, TheHuman/Health/ADHD]
 title: Structure conserves cognitive energy for neurodivergent brains
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Structure in daily routines conserves cognitive energy for neurodivergent individuals by reducing the executive function demands of planning and decision-making, allowing that energy to be redirected toward more meaningful tasks.

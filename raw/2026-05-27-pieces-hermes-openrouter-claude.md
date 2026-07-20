@@ -1,6 +1,6 @@
 ---
 created: 2026-05-27T00:00:00+00:00
-modified: 2026-07-04T10:49:49+00:00
+modified: 2026-07-20T16:33:00+00:00
 permalink: llmeon/raw/2026-05-27-pieces-hermes-openrouter-claude
 pieces_ids: [10a11651-64de-4c69-90a0-25f6f72ce0af, 78c22094-fd94-4479-af2a-b6b747ee689f, fad6006c-7e79-418f-8b41-d6480f0e18bc]
 source: pieces-ltm

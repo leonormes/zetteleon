@@ -1,13 +1,13 @@
 ---
+conformant: false
 created: 2026-07-13T22:00:00+00:00
-modified: 2026-07-14T20:01:28+00:00
+modified: 2026-07-20T16:34:31+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/dismissing-people-who-disagree-costs-you-your-best-error-detectors
 status: draft
 tags: [error-correction, feedback, judgement, relationships]
 title: Dismissing People Who Disagree Costs You Your Best Error-Detectors
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Dismissing People Who Disagree Costs You Your Best Error-Detectors

@@ -1,13 +1,13 @@
 ---
 aliases: [Calico Architecture, eBPF Data Plane, Felix, Project Calico]
+conformant: false
 created: 2026-02-05T00:00:00+00:00
-modified: 2026-07-13T08:52:44+00:00
+modified: 2026-07-20T16:33:52+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-calico-cni-architecture
 tags: [calico, ebpf, kubernetes, networking, sot]
 title: SoT - Calico CNI Architecture
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

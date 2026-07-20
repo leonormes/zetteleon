@@ -1,16 +1,16 @@
 ---
 aliases: [CoreDNS Configuration, DNS Architecture, Hybrid Cloud DNS, Protective DNS, Split-View DNS]
+conformant: false
 created: 2026-01-06T20:15:48+00:00
 last_reviewed: '2026-03-28'
-modified: 2026-07-13T08:52:45+00:00
+modified: 2026-07-20T16:33:52+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-dns-core-components-and-environments
 status: Active
 tags: [aws, azure, dns, networking, security, SoftwareEngineering/Architecture]
 title: SoT - DNS Core Components and Environments
 type: sot
 updated: null
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 > Architectural Pattern: This deployment utilizes a Split-View DNS architecture. Domain names resolve to different IP addresses depending on the origin of the query (Internal vs. External). This is achieved via reciprocal conditional forwarding between Cloud CoreDNS and On-Premise DNS servers.

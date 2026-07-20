@@ -1,12 +1,12 @@
 ---
+conformant: false
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-07-13T08:52:26+00:00
+modified: 2026-07-20T16:34:30+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/evil-arises-from-malice-or-thoughtless-banality-motivation-is-not-determinative
 tags: [ethics, hannah-arendt, motivation, psychology]
 title: Evil Arises from Malice or Thoughtless Banality — Motivation Is Not Determinative
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Evil Arises from Malice or Thoughtless Banality—Motivation Is Not Determinative

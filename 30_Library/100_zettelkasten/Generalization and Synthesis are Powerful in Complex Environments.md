@@ -1,13 +1,13 @@
 ---
 aliases: [Synthesis Power]
+conformant: false
 created: 2025-11-01T12:30:12+00:00
-modified: 2026-07-13T08:52:27+00:00
+modified: 2026-07-20T16:34:30+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/generalization-and-synthesis-are-powerful-in-complex-environments
 tags: [complexity, generalization, synthesis]
 title: Generalization and Synthesis are Powerful in Complex Environments
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Generalization and Synthesis Are Powerful in Complex Environments

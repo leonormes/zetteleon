@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-07-26T19:03:03+00:00
 last_reviewed: ''
-modified: 2026-07-13T08:52:27+00:00
+modified: 2026-07-20T16:34:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/human-understanding-is-inherently-myopic
 status: ''
 tags: [llm-understanding]

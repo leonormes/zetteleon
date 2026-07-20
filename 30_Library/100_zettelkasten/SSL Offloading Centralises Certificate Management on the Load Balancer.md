@@ -1,13 +1,13 @@
 ---
 aliases: [SSL Termination]
+conformant: false
 created: 2025-10-31T09:25:29+00:00
-modified: 2026-07-13T08:52:31+00:00
+modified: 2026-07-20T16:34:25+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/ssl-offloading-centralises-certificate-management-on-the-load-balancer
 tags: [load-balancing, SoftwareEngineering/Networking, SoftwareEngineering/Security, ssl, tls]
 title: SSL Offloading Centralises Certificate Management on the Load Balancer
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SSL Offloading Centralises Certificate Management on the Load Balancer

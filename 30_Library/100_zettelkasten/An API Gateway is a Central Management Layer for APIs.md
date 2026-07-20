@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-26T17:05:00+00:00
 last_reviewed: ''
-modified: 2026-07-13T08:52:24+00:00
+modified: 2026-07-20T16:34:33+00:00
 permalink: llmeon/30-library/100-zettelkasten/an-api-gateway-is-a-central-management-layer-for-apis
 status: ''
 tags: [api, SoftwareEngineering/Architecture, tech]

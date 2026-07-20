@@ -1,6 +1,6 @@
 ---
 created: 2026-05-23T11:38:34+00:00
-modified: 2026-07-04T10:49:54+00:00
+modified: 2026-07-20T16:33:05+00:00
 permalink: llmeon/raw/2026-05-23-phermes-config-audit
 pieces_ids: [c0418ed9-8a4a-4091-9d41-3ff994acbdc2, d8d6bdcc-bbd2-400f-ae0b-ef936b251e4c, ff8ec9bd-41bd-4497-86de-a374967ef2e9]
 source: pieces-ltm

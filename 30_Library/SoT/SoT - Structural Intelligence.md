@@ -1,13 +1,13 @@
 ---
 aliases: [AST-Based Retrieval, Deterministic Code Graph, Structural Intelligence]
+conformant: false
 created: 2026-01-30T10:00:00+00:00
-modified: 2026-07-13T08:52:54+00:00
+modified: 2026-07-20T16:33:44+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-structural-intelligence
 tags: [architecture, ast, graph-theory, retrieval, tooling]
 title: SoT - Structural Intelligence
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Structural Intelligence

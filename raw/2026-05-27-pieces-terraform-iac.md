@@ -1,6 +1,6 @@
 ---
 created: Invalid date
-modified: 2026-07-04T10:49:48+00:00
+modified: 2026-07-20T16:32:59+00:00
 permalink: llmeon/raw/2026-05-27-pieces-terraform-iac
 pieces_ids: [2d2963e6-6094-46a0-9ff0-cc23f8295e27, 31da620c-3587-4e5c-8016-b6aeb8f63d55, 34866d84-2186-42bc-9cbd-3c25254c8eaf]
 source: pieces-ltm

@@ -1,13 +1,13 @@
 ---
 aliases: [existential anchors, human commonalities, universal experiences]
+conformant: false
 created: 2025-10-31T20:07:00+00:00
-modified: 2026-07-13T08:52:25+00:00
+modified: 2026-07-20T16:34:32+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/common-experiential-anchors-ground-abstract-concepts
 tags: [anthropology, communication, phenomenology]
 title: Common experiential anchors ground abstract concepts
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Common Experiential Anchors Ground Abstract Concepts

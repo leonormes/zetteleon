@@ -1,13 +1,13 @@
 ---
 aliases: [Experiential Knowledge]
+conformant: false
 created: 2025-11-01T12:10:02+00:00
-modified: 2026-07-13T08:52:28+00:00
+modified: 2026-07-20T16:34:29+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/knowledge-emerges-through-application-and-experience
 tags: [experience, knowledge, learning]
 title: Knowledge Emerges Through Application and Experience
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Knowledge Emerges Through Application and Experience

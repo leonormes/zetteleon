@@ -1,14 +1,14 @@
 ---
 aliases: []
+conformant: false
 created: 2025-11-10T14:03:00+00:00
-modified: 2026-07-13T08:52:32+00:00
+modified: 2026-07-20T16:34:24+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/the-core-principles-of-time-boxing-are-fixed-time-allocation-a-goal-oriented-approach-and-commitment-to-focus
 tags: [principles, time-boxing, time-management, topic/productivity]
 title: The Core Principles of Time Boxing are Fixed Time Allocation a Goal-Oriented Approach and Commitment to Focus
   Approach and Commitment to Focus Approach and Commitment to Focus
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## The Core Principles of Time Boxing Are Fixed Time Allocation a Goal-Oriented Approach and Commitment to Focus
@@ -22,9 +22,7 @@ Details:
 3. Focus and Commitment: The individual commits to working diligently and without distraction for the entire timebox.
 4. Review and Iteration: Progress is assessed at the end of the timebox to inform future planning.
 
-
 ## Related
 
 - [[Timeboxing Creates Scarcity to Eliminate Non-Essential Activities]] - Highlights how fixed time frames force prioritization.
 - [[Flexibility Within Structure is Key to Sustainable Timeboxing]] - Discusses balancing strict time allocation with needed flexibility.
-

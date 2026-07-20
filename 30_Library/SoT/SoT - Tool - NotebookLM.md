@@ -1,13 +1,13 @@
 ---
 aliases: [AI Research Assistant, Google NotebookLM, NotebookLM Studio]
+conformant: false
 created: 2025-12-26T00:00:00+00:00
-modified: 2026-07-13T08:52:55+00:00
+modified: 2026-07-20T16:33:42+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-tool-notebook-lm
 tags: [ai, google, research, synthesis, tool]
 title: SoT - Tool - NotebookLM
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 > [!definition] Definition
@@ -69,10 +69,8 @@ _Protocol:_
 - Input Limit: 300 Sources.
 - Privacy: Data is ostensibly private to the user's workspace (Enterprise data handling rules apply).
 
-
 ## Related
 
 - [[Retrieval-Augmented Generation (RAG)]]
 - [[SoT - Recursive Language Models]]
 - [[SoT - LLM Wiki Pattern]]
-

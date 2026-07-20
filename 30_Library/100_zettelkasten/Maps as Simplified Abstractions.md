@@ -2,7 +2,7 @@
 aliases: [Abstraction Simplification, Model Simplification]
 created: 2025-09-11T21:37:21+00:00
 last_reviewed: ''
-modified: 2026-07-13T08:52:28+00:00
+modified: 2026-07-20T16:34:28+00:00
 permalink: llmeon/30-library/100-zettelkasten/maps-as-simplified-abstractions
 status: ''
 tags: []

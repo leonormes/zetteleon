@@ -1,13 +1,13 @@
 ---
 aliases: []
+conformant: false
 created: 2025-11-22T15:00:00+00:00
-modified: 2026-07-13T08:52:25+00:00
+modified: 2026-07-20T16:34:32+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/concept-tcp-three-way-handshake
 tags: [SoftwareEngineering/networking/tcp]
 title: Concept - TCP Three-Way Handshake
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## TCP Three-Way Handshake

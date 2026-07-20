@@ -1,13 +1,13 @@
 ---
 aliases: [Need for Respect in a Relationship]
+conformant: false
 created: 2025-11-10T10:07:00+00:00
-modified: 2026-07-13T08:52:32+00:00
+modified: 2026-07-20T16:34:24+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/the-need-to-feel-respected-and-admired-is-a-core-human-need-in-a-partnership
 tags: [admiration, competence, needs, relationship, respect]
 title: The Need to Feel Respected and Admired is a Core Human Need in a Partnership
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Summary: A fundamental human need often prioritized in long-term relationships is the need to feel respected and admired by one's partner.

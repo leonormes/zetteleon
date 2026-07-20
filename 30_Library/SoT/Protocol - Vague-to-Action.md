@@ -1,15 +1,15 @@
 ---
 aliases: [Task Decomposition Protocol, Vague-to-Action]
+conformant: false
 created: 2026-04-04T12:00:00+00:00
 last-synthesis: 2026-04-04
-modified: 2026-07-13T08:52:42+00:00
+modified: 2026-07-20T16:33:54+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/protocol-vague-to-action
 status: evergreen
 tags: [execution, prodos, protocol, task-decomposition]
 title: Protocol - Vague-to-Action
 type: protocol
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Objective

@@ -1,13 +1,13 @@
 ---
 aliases: [Cinema as Universal Language, Villeneuve Philosophy]
+conformant: false
 created: 2025-12-31T00:00:00+00:00
-modified: 2026-07-13T08:52:45+00:00
+modified: 2026-07-20T16:33:51+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-denis-villeneuve-directorial-philosophy
 tags: [film, language, sociology, TheHuman/Philosophy]
 title: SoT - Denis Villeneuve (Directorial Philosophy)
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Core Thematic Framework
@@ -57,6 +57,5 @@ Villeneuve treats his career as a linear learning process, where each project pr
 
 ## Related
 
-- [[SoT - Cyberpunk Derivatives]] — _Biological variants and themes of genetic determinism._
-- [[SoT - Cosmic Horror (Genre Logic)]] — _Scale, insignificance, and the indifferent reality._
-
+- [[SoT - Cyberpunk Derivatives]]—_Biological variants and themes of genetic determinism._
+- [[SoT - Cosmic Horror (Genre Logic)]]—_Scale, insignificance, and the indifferent reality._

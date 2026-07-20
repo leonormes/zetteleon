@@ -1,16 +1,16 @@
 ---
 aliases: [Secret Rotation Protocol, VSO Troubleshooting]
+conformant: false
 created: 2026-03-12T08:52:25+00:00
 last_synthesis: 2026-04-05
-modified: 2026-07-13T08:52:42+00:00
+modified: 2026-07-20T16:33:55+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/protocol-vso-secret-management-troubleshooting
 status: evergreen
 tags: [aks, argocd, hcp-vault, kubernetes, protocol, secrets, vault, vso]
 title: Protocol - VSO Secret Management & Troubleshooting
 type: protocol
 updated: 2026-04-05
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Protocol - VSO Secret Management & Troubleshooting

@@ -1,6 +1,6 @@
 ---
 created: 2026-06-04T08:03:29+00:00
-modified: 2026-07-04T10:49:26+00:00
+modified: 2026-07-20T16:32:38+00:00
 permalink: llmeon/raw/2026-06-03-pieces-k8s-argocd-bootstrapping
 pieces_ids: [210f126f-42c7-4dba-9cbf-d6607e3f6feb, 95a5e00f-fd5a-483e-805a-fb4cf7eac6dd, d36515fc-0012-4669-a78f-d088d2eb2a53]
 source: pieces-ltm

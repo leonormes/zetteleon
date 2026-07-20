@@ -1,13 +1,13 @@
 ---
 aliases: ["Gödel's Theorems"]
+conformant: false
 created: 2025-11-01T11:22:13+00:00
-modified: 2026-07-13T08:52:27+00:00
+modified: 2026-07-20T16:34:30+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/godels-incompleteness-theorems-constrain-foundational-programs
 tags: [foundations, godel, logic, topic/maths]
 title: "Gödel's Incompleteness Theorems Constrain Foundational Programs"
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Summary: Gödel's Incompleteness Theorems (1931) demonstrated fundamental limitations of formal systems, showing that any system strong enough to contain basic arithmetic will have true statements it cannot prove and cannot prove its own consistency.

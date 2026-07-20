@@ -1,16 +1,16 @@
 ---
 aliases: [Gemini Guide, Gemini Workflow]
+conformant: false
 created: 2025-12-21T00:00:00+00:00
 last_reviewed: '2025-12-21'
-modified: 2026-07-13T08:52:48+00:00
+modified: 2026-07-20T16:33:49+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-gemini-cli-operations-workflow
 status: evolving
 tags: [gemini-cli, guide, tools, workflow]
 title: SoT - Gemini CLI Operations & Workflow
 type: sot
 updated: null
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 1. Runtime: " Requires Node.js v20 or higher."

@@ -1,6 +1,6 @@
 ---
 created: 2026-05-23T11:00:00+00:00
-modified: 2026-07-04T10:49:55+00:00
+modified: 2026-07-20T16:33:05+00:00
 permalink: llmeon/raw/2026-05-23-research-adhd-procrastination-productivity
 source: research
 source_url: https://pubmed.ncbi.nlm.nih.gov/ (PubMed), https://arxiv.org/ (arXiv),

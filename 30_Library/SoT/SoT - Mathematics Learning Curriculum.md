@@ -1,14 +1,14 @@
 ---
+conformant: false
 created: 2026-05-23T13:38:13+00:00
 last-synthesis: 2026-05-23
-modified: 2026-07-13T08:52:50+00:00
+modified: 2026-07-20T16:33:47+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-mathematics-learning-curriculum
 source_of_truth: true
 tags: [domain/mathematics, type/SoT]
 title: SoT - Mathematics Learning Curriculum
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)
@@ -36,6 +36,6 @@ The structured approach highlights a critical turning point in mathematical educ
 
 ## Related
 
-- [[Topology (Definition)]] — _Branch of mathematics studying properties preserved under continuous deformations._
-- [[SoT - Core Fields of Mathematical Logic]] — _Set theory as the foundational language of modern mathematics._
-- [[HEAD - A Conceptual Map for Learning Mathematics]] — _The foundations of measuring, counting, and arithmetic properties._
+- [[Topology (Definition)]]—_Branch of mathematics studying properties preserved under continuous deformations._
+- [[SoT - Core Fields of Mathematical Logic]]—_Set theory as the foundational language of modern mathematics._
+- [[HEAD - A Conceptual Map for Learning Mathematics]]—_The foundations of measuring, counting, and arithmetic properties._

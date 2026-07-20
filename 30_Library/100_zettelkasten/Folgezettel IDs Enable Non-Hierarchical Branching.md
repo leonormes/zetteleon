@@ -1,13 +1,13 @@
 ---
 aliases: [Alphanumeric IDs, Folgezettel System, Zettelkasten IDs]
+conformant: false
 created: 2025-10-30T15:33:36+00:00
-modified: 2026-07-13T08:52:26+00:00
+modified: 2026-07-20T16:34:30+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/folgezettel-ids-enable-non-hierarchical-branching
 tags: [ids, linking, topic/pkm, topic/pkm/zettelkasten]
 title: Folgezettel IDs Enable Non-Hierarchical Branching
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Folgezettel IDs Enable Non-Hierarchical Branching

@@ -1,13 +1,13 @@
 ---
 aliases: [External Knowledge Gap]
+conformant: false
 created: 2025-11-06T20:01:01+00:00
-modified: 2026-07-13T08:52:32+00:00
+modified: 2026-07-20T16:34:24+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/the-knowledge-gap-is-the-difference-between-total-understanding-and-a-teams-collective-knowledge
 tags: [collaboration, group-dynamics, knowledge, mental-model]
 title: "The Knowledge Gap is the Difference Between Total Understanding and a Team's Collective Knowledge"
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## The Knowledge Gap is the Difference Between Total Understanding and a Team's Collective Knowledge

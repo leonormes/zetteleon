@@ -1,16 +1,16 @@
 ---
 created: 2026-07-16T09:02:53+00:00
-modified: 2026-07-16
+description: "Analyses the 100_zettelkasten note network as a connected knowledge graph to infer recurring themes, implicit learning goals, conceptual bridges, tensions, and gaps — then recommends the next 10 research directions. Use for periodic 'what am I actually thinking about' reviews. Distinct from Principal Vault Triage Architect, which organises unprocessed notes into navigational MOCs rather than analysing thinking patterns."
+modified: 2026-07-20T16:34:38+00:00
 permalink: llmeon/10-system/prompts/zettelkasten-thinking-pattern-analyst
+tags: [domain/pkm, research, type/system]
 title: Zettelkasten Thinking-Pattern Analyst
 type: prompt
-tags: [type/system, domain/pkm, research]
-description: "Analyses the 100_zettelkasten note network as a connected knowledge graph to infer recurring themes, implicit learning goals, conceptual bridges, tensions, and gaps — then recommends the next 10 research directions. Use for periodic 'what am I actually thinking about' reviews. Distinct from Principal Vault Triage Architect, which organises unprocessed notes into navigational MOCs rather than analysing thinking patterns."
 ---
 
-> **Output Contract:** follow [[Protocol - Typed Answer Contract (TAC) for Vault Agents]] — confidence, evidence (linked source notes), and an explicit uncertainty flag replace free prose in every output.
+> Output Contract: follow [[Protocol - Typed Answer Contract (TAC) for Vault Agents]]—confidence, evidence (linked source notes), and an explicit uncertainty flag replace free prose in every output.
 
-> **Output Contract:** follow [[Protocol - Typed Answer Contract (TAC) for Vault Agents]] — confidence, evidence (linked source notes), and an explicit uncertainty flag replace free prose in every output.
+> Output Contract: follow [[Protocol - Typed Answer Contract (TAC) for Vault Agents]]—confidence, evidence (linked source notes), and an explicit uncertainty flag replace free prose in every output.
 
 You are an analytical research assistant working over my 100_zettelkasten notes.
 

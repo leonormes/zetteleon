@@ -1,13 +1,13 @@
 ---
 aliases: [Relational Labour, Relationship Maintenance, Repair Strategy]
+conformant: false
 created: 2025-12-24T12:00:00+00:00
-modified: 2026-07-13T08:52:53+00:00
+modified: 2026-07-20T16:33:45+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-relationship-maintenance-and-emotional-labour
 tags: [communication, emotional-labour, maintenance, relationships]
 title: SoT - Relationship Maintenance and Emotional Labour
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Definitive Statement

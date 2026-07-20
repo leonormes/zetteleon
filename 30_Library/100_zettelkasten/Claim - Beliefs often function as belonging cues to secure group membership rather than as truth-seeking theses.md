@@ -2,7 +2,7 @@
 created: 2026-07-15T14:04:06+00:00
 created_utc: '2026-07-15T14:04:00Z'
 kind: claim
-modified: 2026-07-15T14:04:39+00:00
+modified: 2026-07-20T16:34:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/claim-beliefs-often-function-as-belonging-cues-to-secure-group-membership-rather-than-as-truth-seeking-theses
 source_title: ecological-mind-model
 source_url: https://gemini.google.com/app/dd7fd18f2310946a
@@ -26,16 +26,16 @@ Applies to highly cohesive groups and polarized environments where holding a spe
 > "Adopting the prevailing narrative of their community, family, or chosen media ecosystem is a way of signaling, 'I am one of you. I am safe to have in the tribe.'"
 
 #### Implications
+
 - When someone holds a poorly thought-out position, it is often not a failure of intellect, but an efficient survival mechanism for their specific social environment.
 - Judging someone for not "doing the work" on their beliefs unfairly expects them to act as independent logic engines rather than social survival mechanisms.
 
 #### Related
-- [[Extreme Political Beliefs Are Stress Responses to Real Environmental Pain]] — extends: explains how distress feeds into simplified tribal narratives
-- [[Binary Person-Judgement Is a Cognitive Default, Not a Character Flaw]] — extends: explains the evolutionary context of this behavior
-- [[Fundamental Attribution Error]] — shared mechanism: explains the cognitive bias of blaming the person's nature rather than situational/tribal factors
 
+- [[Extreme Political Beliefs Are Stress Responses to Real Environmental Pain]]—extends: explains how distress feeds into simplified tribal narratives
+- [[Binary Person-Judgement Is a Cognitive Default, Not a Character Flaw]]—extends: explains the evolutionary context of this behavior
+- [[Fundamental Attribution Error]]—shared mechanism: explains the cognitive bias of blaming the person's nature rather than situational/tribal factors
 
 ## Related
 
 - [[Decoupling the person from the proposition allows for rigorous idea evaluation without attacking human worth]] - A strategy for addressing beliefs that are actually belonging cues.
-

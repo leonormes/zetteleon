@@ -1,14 +1,14 @@
 ---
 aliases: [Basal Ganglia Action Selection]
+conformant: false
 created: 2025-11-10T17:04:00+00:00
-modified: 2026-07-13T08:52:23+00:00
+modified: 2026-07-20T16:34:33+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/action-initiation-involves-a-balance-between-direct-and-indirect-pathways-in-the-basal-ganglia
 tags: [action, basal-ganglia, brain, TheHuman/Neuroscience]
 title: Action Initiation Involves a Balance Between Direct and Indirect Pathways in the Basal Ganglia
   the Basal Ganglia the Basal Ganglia
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Action Initiation Involves a Balance Between Direct and Indirect Pathways in the Basal Ganglia

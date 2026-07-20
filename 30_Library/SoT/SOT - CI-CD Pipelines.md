@@ -1,13 +1,13 @@
 ---
 aliases: [CI/CD Documentation, FITFILE Pipelines, GitLab CI Flows]
+conformant: false
 created: 2025-12-16T00:00:00+00:00
-modified: 2026-07-13T08:52:42+00:00
+modified: 2026-07-20T16:33:54+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/sot-ci-cd-pipelines
 tags: [automation, cicd, devops, gitlab, pipeline]
 title: SOT - CI-CD Pipelines
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 1. Main Pipeline (`.gitlab-ci.yml`): " Focuses on \"Continuous Integration\" \u2014 building artifacts (Docker images) and validating code/workflows."

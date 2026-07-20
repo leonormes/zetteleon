@@ -1,6 +1,6 @@
 ---
 created: 2026-06-10T13:50:00+00:00
-modified: 2026-07-04T10:49:23+00:00
+modified: 2026-07-20T16:32:35+00:00
 permalink: llmeon/raw/2026-06-10-pieces-ftfl609-ebs-csi-starter-task
 pieces_ids: [2d9a335e-8a71-441f-8, 40673b4f-9513-4fb6-9, 71a4e746-173a-42bf-b]
 source: pieces-ltm

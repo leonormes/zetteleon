@@ -1,6 +1,6 @@
 ---
 created: 2026-05-23T19:15:00+00:00
-modified: 2026-07-04T10:49:55+00:00
+modified: 2026-07-20T16:33:05+00:00
 permalink: llmeon/raw/2026-05-23-pieces-starship-config
 pieces_ids: [0275d582-225a-42b3-aa44-640c8a8408ca, 215a8fa1-70cb-43bd-a6df-c95703210e3c, 42cc21a2-ec3a-4141-b253-9e80b142af38, 9f666d49-e2ef-45ab-97a1-ae65494c006b]
 source: pieces-ltm

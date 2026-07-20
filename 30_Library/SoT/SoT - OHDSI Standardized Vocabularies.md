@@ -1,16 +1,16 @@
 ---
 aliases: [Athena, OMOP Vocabularies, Standard Concepts]
+conformant: false
 created: 2026-01-06T18:52:00+00:00
 last_reviewed: null
-modified: 2026-07-13T08:52:51+00:00
+modified: 2026-07-20T16:33:46+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-ohdsi-standardized-vocabularies
 status: Active
 tags: [ohdsi, ontology, semantics, vocabulary]
 title: SoT - OHDSI Standardized Vocabularies
 type: sot
 updated: null
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SoT - OHDSI Standardized Vocabularies

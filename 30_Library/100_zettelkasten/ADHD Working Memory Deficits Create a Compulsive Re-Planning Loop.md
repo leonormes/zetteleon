@@ -1,13 +1,13 @@
 ---
 aliases: [Re-planning Loop]
+conformant: false
 created: 2025-11-12T15:00:03+00:00
-modified: 2026-07-13T08:52:23+00:00
+modified: 2026-07-20T16:34:33+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/adhd-working-memory-deficits-create-a-compulsive-re-planning-loop
 tags: [anxiety, rumination, TheHuman/Health/ADHD, working-memory]
 title: ADHD Working Memory Deficits Create a Compulsive Re-Planning Loop
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## ADHD Working Memory Deficits Create a Compulsive Re-Planning Loop

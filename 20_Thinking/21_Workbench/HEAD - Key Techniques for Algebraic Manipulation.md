@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-05-29T00:00:32+00:00
-modified: 2026-07-04T10:52:03+00:00
+modified: 2026-07-20T16:34:36+00:00
 permalink: llmeon/20-thinking/21-workbench/head-key-techniques-for-algebraic-manipulation
 project_category: personal
 project_status: archived

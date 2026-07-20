@@ -1,13 +1,13 @@
 ---
 aliases: [Routines Create Predictability for Neurodivergents]
+conformant: false
 created: 2025-10-29T16:10:00+00:00
-modified: 2026-07-13T08:52:30+00:00
+modified: 2026-07-20T16:34:26+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/routines-provide-stability-for-neurodivergent-individuals
 tags: [anxiety-reduction, autism, routine, stability, TheHuman/Health/ADHD]
 title: Routines Provide Stability for Neurodivergent Individuals
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Routines provide essential stability and predictability for autistic and ADHD individuals, serving as a powerful tool to mitigate common challenges like anxiety, sensory overwhelm, and decision fatigue.

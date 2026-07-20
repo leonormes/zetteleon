@@ -1,14 +1,14 @@
 ---
 aliases: ["Collector's Fallacy", Causal Opacity, Consumption Trap, Heuristic Substitution, Information Hoarding, IoED, Passive Consumption, The Toilet Illusion]
+conformant: false
 created: 2025-12-12T00:00:00+00:00
-modified: 2026-07-13T08:52:49+00:00
+modified: 2026-07-20T16:33:48+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-illusion-of-explanatory-depth-io-ed
 synthesis_count: 3
 tags: [bias, learning, mental_models, TheHuman/Cognition, TheHuman/Health/ADHD]
 title: SoT - Illusion of Explanatory Depth (IoED)
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 > [!definition] Definition: "The Illusion of Explanatory Depth (IoED)"

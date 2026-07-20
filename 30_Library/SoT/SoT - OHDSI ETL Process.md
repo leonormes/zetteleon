@@ -1,13 +1,13 @@
 ---
 aliases: [OHDSI ETL, Rabbit-in-a-Hat, WhiteRabbit]
+conformant: false
 created: 2026-01-06T18:52:01+00:00
-modified: 2026-07-13T08:52:51+00:00
+modified: 2026-07-20T16:33:46+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-ohdsi-etl-process
 tags: [data_engineering, etl, ohdsi, sot]
 title: SoT - OHDSI ETL Process
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Definitive Statement
@@ -70,6 +70,6 @@ OHDSI promotes a standardized workflow to ensure transparency and quality.
 
 ## Related
 
-- [[SoT - OHDSI ETL & Data Quality]] — _The ETL Lifecycle: Design -> Map -> Implement -> Evaluate._
-- [[SoT - OMOP Common Data Model]] — _Person-centric relational database schema for standardizing health data._
-- [[SoT - OHDSI Ecosystem]] — _Global open-science collaborative operating on a Federated Research Network model._
+- [[SoT - OHDSI ETL & Data Quality]]—_The ETL Lifecycle: Design -> Map -> Implement -> Evaluate._
+- [[SoT - OMOP Common Data Model]]—_Person-centric relational database schema for standardizing health data._
+- [[SoT - OHDSI Ecosystem]]—_Global open-science collaborative operating on a Federated Research Network model._

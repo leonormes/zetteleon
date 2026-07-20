@@ -2,7 +2,7 @@
 auditor: Claude (Fable 5)
 created: 2026-07-02T12:55:43+00:00
 date: 2026-07-02
-modified: 2026-07-04T10:49:23+00:00
+modified: 2026-07-20T16:32:34+00:00
 permalink: llmeon/security/chezmoi-cli-security-audit-2026-07-02
 repo: git@github.com:leonormes/chezmoi.git (private)
 scope: ~/.local/share/chezmoi dotfiles, CLI environment

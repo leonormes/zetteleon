@@ -1,14 +1,14 @@
 ---
 aliases: ["Parse Don't Validate", Data-Centric Programming, The Torvalds Loop, Type-Driven Design, Type-First Development, Typestate Pattern]
+conformant: false
 created: 2025-12-29T10:28:01+00:00
-modified: 2026-07-13T08:52:56+00:00
+modified: 2026-07-20T16:33:42+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-type-driven-development-the-torvalds-loop
 source_of_truth: true
 tags: [design-patterns, programming, rust, SoftwareEngineering/Architecture, TheHuman/Philosophy, type_theory]
 title: SoT - Type-Driven Development (The Torvalds Loop)
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 0. The Lineage

@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-05-12T15:31:43+00:00
 last_reviewed: 'null'
-modified: 2026-07-13T08:52:33+00:00
+modified: 2026-07-20T16:34:22+00:00
 permalink: llmeon/30-library/100-zettelkasten/www-is-just-a-normal-subdomain
 status: 'null'
 tags: [SoftwareEngineering/networking/dns]
@@ -15,9 +15,7 @@ I think I just learned something. `www` on a url is actually a subdomain! It is 
 
 [[How Computers Identify Each other on a Network]]
 
-
 ## Related
 
 - [[SoT - The Data Architecture of DNS]] - Provides the formal hierarchy and definition of FQDNs.
 - [[SoT - The Data Anatomy of a URL]] - Contextualizes the subdomain within the broader URL structure.
-

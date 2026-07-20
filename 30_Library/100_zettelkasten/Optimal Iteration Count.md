@@ -2,7 +2,7 @@
 created: 2026-04-13T14:53:30+00:00
 created_utc: '2026-04-13T11:40:00Z'
 kind: constraint
-modified: 2026-07-13T08:52:29+00:00
+modified: 2026-07-20T16:34:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/optimal-iteration-count
 source_title: Using Karpathy’s Original Framework (Auto Research)
 source_url: http://www.youtube.com/watch?v=bc4NrE0cOE0

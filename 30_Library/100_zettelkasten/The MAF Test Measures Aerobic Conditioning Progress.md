@@ -2,7 +2,7 @@
 aliases: [MAF Test]
 created: 2026-01-08T12:45:00+00:00
 last_reviewed: 2026-01-08
-modified: 2026-07-13T08:52:32+00:00
+modified: 2026-07-20T16:34:24+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-maf-test-measures-aerobic-conditioning-progress
 status: seedling
 tags: [assessment, fitness, metrics]
@@ -30,9 +30,7 @@ Failure modes:
 
 Example: Running 3 miles where Mile 1 is 10:00, Mile 2 is 10:15, and Mile 3 is 10:30.
 
-
 ## Related
 
 - [[The MAF 180-Formula Calculates the Maximum Aerobic Heart Rate]] - The formula needed to execute the MAF test.
 - [[Aerobic Function Efficiently Burns Fat for Long-Term Energy]] - The underlying physiological benefit measured by the test.
-

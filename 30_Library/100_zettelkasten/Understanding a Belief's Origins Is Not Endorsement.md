@@ -1,16 +1,13 @@
 ---
-created: 2026-07-13 22:00:00+00:00
-status: draft
-tags:
-- empathy
-- judgement
-- boundaries
-- politics
-title: Understanding a Belief's Origins Is Not Endorsement
-permalink: llmeon/30-library/100-zettelkasten/understanding-a-beliefs-origins-is-not-endorsement
-type: claim
 conformant: false
+created: 2026-07-13T22:00:00+00:00
+modified: 2026-07-20T16:34:23+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
+permalink: llmeon/30-library/100-zettelkasten/understanding-a-beliefs-origins-is-not-endorsement
+status: draft
+tags: [boundaries, empathy, judgement, politics]
+title: "Understanding a Belief's Origins Is Not Endorsement"
+type: claim
 ---
 
 ## Understanding a Belief's Origins Is Not Endorsement

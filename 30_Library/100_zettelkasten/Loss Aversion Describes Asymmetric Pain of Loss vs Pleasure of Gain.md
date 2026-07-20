@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-12T07:56:26+00:00
 last_reviewed: ''
-modified: 2026-07-13T08:52:28+00:00
+modified: 2026-07-20T16:34:28+00:00
 permalink: llmeon/30-library/100-zettelkasten/loss-aversion-describes-asymmetric-pain-of-loss-vs-pleasure-of-gain
 status: ''
 tags: []

@@ -2,7 +2,7 @@
 created: 2026-02-22T17:01:20+00:00
 hop_level: local
 last_verified: 2026-02-22
-modified: 2026-07-13T08:53:00+00:00
+modified: 2026-07-20T16:33:37+00:00
 permalink: llmeon/30-library/ops/cmd-kubectl-argocd-get-failure-conditions
 requires_tunnel: false
 tags: [argocd, cmd, conditions, error, sync]

@@ -1,12 +1,12 @@
 ---
+conformant: false
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-07-13T08:52:26+00:00
+modified: 2026-07-20T16:34:30+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/evil-attacks-the-shared-moral-community-itself-not-merely-a-norm-within-it
 tags: [community, morality, social-order, sociology]
 title: Evil Attacks the Shared Moral Community Itself Not Merely a Norm Within It
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Evil Attacks the Shared Moral Community Itself Not Merely a Norm Within It

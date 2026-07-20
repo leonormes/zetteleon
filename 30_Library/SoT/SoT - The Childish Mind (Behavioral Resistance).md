@@ -1,13 +1,13 @@
 ---
 aliases: [Behavioral Resistance, The Childish Mind, The Rider and the Elephant]
+conformant: false
 created: 2026-01-12T12:05:00+00:00
-modified: 2026-07-13T08:52:54+00:00
+modified: 2026-07-20T16:33:43+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-the-childish-mind-behavioral-resistance
 tags: [behavioral-science, prodos/sot, psychology]
 title: SoT - The Childish Mind (Behavioral Resistance)
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Effective systems engineering requires acknowledging that the human operator is not a unitary rational agent. We possess a dual-process cognition.

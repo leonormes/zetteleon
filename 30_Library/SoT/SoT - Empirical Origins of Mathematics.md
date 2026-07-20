@@ -1,14 +1,14 @@
 ---
+conformant: false
 created: 2026-05-23T13:35:24+00:00
 last-synthesis: 2026-05-23
-modified: 2026-07-13T08:52:46+00:00
+modified: 2026-07-20T16:33:51+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-empirical-origins-of-mathematics
 source_of_truth: true
 tags: [domain/history-of-mathematics, type/SoT]
 title: SoT - Empirical Origins of Mathematics
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)
@@ -29,6 +29,5 @@ The abstract purity of modern mathematics often obscures its deeply empirical an
 
 ## Related
 
-- [[Antithetical Knowledge Systems in the 17th Century]] — _Alchemy's secrecy vs. Mathematics' openness and rigor._
-- [[Newtonian Physics as an Effective Theory]] — _A model that functions accurately for everyday phenomena despite flawed foundational principles._
-
+- [[Antithetical Knowledge Systems in the 17th Century]]—_Alchemy's secrecy vs. Mathematics' openness and rigor._
+- [[Newtonian Physics as an Effective Theory]]—_A model that functions accurately for everyday phenomena despite flawed foundational principles._

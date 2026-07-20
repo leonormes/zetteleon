@@ -1,13 +1,13 @@
 ---
 aliases: ["Hayakawa's Ladder"]
+conformant: false
 created: 2025-10-31T11:21:00+00:00
-modified: 2026-07-13T08:52:32+00:00
+modified: 2026-07-20T16:34:24+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/the-ladder-of-abstraction-models-conceptual-granularity
 tags: [abstraction, TheHuman/Cognition]
 title: The Ladder of Abstraction Models Conceptual Granularity
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Summary: S.I. Hayakawa's ladder of abstraction describes a continuum from concrete specifics to abstract generalizations, with each rung representing a different level of conceptual granularity. This model is fundamental to understanding [[The Science of Modelling and Abstraction]] and how we construct [[Mental Models MOC|mental models]] of reality.
@@ -24,9 +24,7 @@ Usage:
 - Communication requires matching the audience's level of abstraction. Failing to do so can lead to misunderstanding or [[Leaky Abstractions|leaky abstractions]] where underlying details unexpectedly become relevant.
 - The concept of different levels of abstraction also applies to how we define and process information, as explored in [[Three Perspectives on Information (Map of Content)]], where information can be viewed with varying degrees of granularity.
 
-
 ## Related
 
 - [[Higher Abstraction Levels Increase Breadth But Reduce Depth]] - Details the tradeoff of moving up the abstraction ladder.
 - [[MOC Symbols vs Concepts They Represent]] - Relates to how abstractions are symbolized.
-

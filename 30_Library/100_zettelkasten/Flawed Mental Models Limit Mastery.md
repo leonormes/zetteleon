@@ -1,7 +1,9 @@
 ---
 aliases: [Bug in the Model, Capability Ceilings, Cognitive Ceilings, Model-Based Mastery]
+conformant: false
 created: 2026-02-11T16:45:00+00:00
-modified: 2026-07-13T08:52:26+00:00
+modified: 2026-07-20T16:34:30+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/flawed-mental-models-limit-mastery
 see_also: []
 superseded_by: ''
@@ -9,8 +11,6 @@ supersedes: ''
 tags: [bias, cognition, learning, mastery, mental_models, prodos/sot]
 title: Flawed Mental Models Limit Mastery
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

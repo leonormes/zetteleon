@@ -1,15 +1,15 @@
 ---
+conformant: false
 created: 2026-02-06T14:30:00+00:00
 last-synthesis: 2026-04-05
-modified: 2026-07-13T08:52:49+00:00
+modified: 2026-07-20T16:33:48+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-infrastructure-complexity
 source_of_truth: true
 synthesis_count: 3
 tags: [architecture/complexity, devops, domain/infrastructure, Schema, terraform, theory/systems, type/SoT]
 title: SoT - Infrastructure Complexity
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

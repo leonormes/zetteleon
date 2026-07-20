@@ -1,13 +1,13 @@
 ---
 aliases: [Stages of Memory]
+conformant: false
 created: 2025-11-10T16:14:00+00:00
-modified: 2026-07-13T08:52:29+00:00
+modified: 2026-07-20T16:34:28+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/memory-formation-involves-three-stages-encoding-consolidation-and-retrieval
 tags: [memory, TheHuman/Cognition, TheHuman/Neuroscience]
 title: Memory Formation Involves Three Stages Encoding Consolidation and Retrieval
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Memory Formation Involves Three Stages Encoding Consolidation and Retrieval

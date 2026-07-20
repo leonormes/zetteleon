@@ -1,12 +1,17 @@
 ---
-type: question
 conformant: false
+created: 2026-07-16T15:12:03+00:00
+modified: 2026-07-20T16:34:26+00:00
 non_conformance_reason: Merged during bulk deduplication.
 permalink: llmeon/30-library/100-zettelkasten/question-is-configuration-fragility-inherent-to-distributed-systems
+title: Question - Is Configuration Fragility Inherent to Distributed Systems
+type: question
 ---
 
-### From Question - Is Configuration Fragility Inherent to Distributed Systems.md:
+## From Question - Is Configuration Fragility Inherent to Distributed Systems.md
+
 ---
+
 created: 2026-02-06T14:20:00+00:00
 modified: 2026-07-13T08:52:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/question-is-configuration-fragility-inherent-to-distributed-systems
@@ -42,9 +47,10 @@ See: [[SoT - Infrastructure Complexity]]
 
 Ref: [[SoT - Order Theory]]
 
+### From Question - Abstraction Vs Configuration Fragility.md
 
-### From Question - Abstraction vs Configuration Fragility.md:
 ---
+
 created: 2026-02-06T14:20:00+00:00
 modified: 2026-07-13T08:52:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/question-abstraction-vs-configuration-fragility

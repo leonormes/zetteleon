@@ -1,13 +1,13 @@
 ---
 aliases: [Map-Territory Confusion, Model-Reality Confusion]
+conformant: false
 created: 2025-09-11T21:37:21+00:00
-modified: 2026-07-13T08:52:29+00:00
+modified: 2026-07-20T16:34:27+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/mistaking-the-map-for-the-territory
 tags: [error, naive-realism, TheHuman/Cognition, TheHuman/Cognition/mental-model]
 title: Mistaking the Map for the Territory
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 The critical error occurs when we forget we are using a simplified model and treat it as if it were reality itself. This confusion leads to failure when we encounter situations where the model's omitted details become crucial.

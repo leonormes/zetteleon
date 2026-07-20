@@ -1,13 +1,13 @@
 ---
 aliases: [Enlightenment Trap]
+conformant: false
 created: 2025-11-01T12:20:01+00:00
-modified: 2026-07-13T08:52:25+00:00
+modified: 2026-07-20T16:34:32+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/chasing-enlightenment-as-a-goal-causes-suffering
 tags: [buddhism, suffering, TheHuman/Mindset, zen]
 title: Chasing Enlightenment as a Goal Causes Suffering
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Chasing Enlightenment as a Goal Causes Suffering

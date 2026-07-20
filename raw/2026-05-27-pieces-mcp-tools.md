@@ -1,6 +1,6 @@
 ---
 created: Invalid date
-modified: 2026-07-04T10:49:49+00:00
+modified: 2026-07-20T16:32:59+00:00
 permalink: llmeon/raw/2026-05-27-pieces-mcp-tools
 pieces_ids: [cf9021ea-b7b8-4553-acee-03c91dc45f55, d3905143-5363-442a-a8f5-8fd940404da8, d9f1b9bd-96d3-4079-9f95-11a54e3fc0d7]
 source: pieces-ltm

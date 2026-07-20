@@ -1,13 +1,13 @@
 ---
+conformant: false
 created: 2026-02-01T15:35:00+00:00
-modified: 2026-07-13T08:52:44+00:00
+modified: 2026-07-20T16:33:52+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-calico-observability
 status: growing
 tags: [calico, grafana, kubernetes, observability]
 title: SoT - Calico Observability
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Core Distinction: Engine vs. Dashboard

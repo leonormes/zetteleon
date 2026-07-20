@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T08:34:07+00:00
-modified: 2026-07-20T07:36:19+00:00
+modified: 2026-07-20T16:34:12+00:00
 permalink: llmeon/30-library/200-projects/mkuh
 project_category: deployments
 project_name: Deployments
@@ -17,7 +17,7 @@ Activate PIM: <https://portal.azure.com/#view/Microsoft_Azure_PIMCommon/Activati
 
 Contact: Joao.Andre@mkuh.nhs.uk
 
-## Key Identifiers (verified 17 Jul 2026)
+## Key Identifiers (Verified 17 Jul 2026)
 
 | Item | Value |
 |---|---|
@@ -36,14 +36,14 @@ Full backup-instance resource ID:
 /subscriptions/454e1659-7f91-4963-b468-668ac7cef106/resourceGroups/aks-mkuh-uks-prd-01-backup-rg/providers/Microsoft.DataProtection/backupVaults/aks-mkuh-uks-prd-01-backupvault/backupInstances/aks-mkuh-uks-prd-01-aks-mkuh-uks-prd-01-c39aa3ec-4a0b-11f1-a04a-00155d666a09
 ```
 
-## Gotchas (learned the hard way)
+## Gotchas (Learned the hArd wAy)
 
-- **`--rule-name "Daily"` fails** with `BMSUserErrorDPPAdhocBackupNotAllowedForBackupType`. `Daily` and `Default` are `AzureRetentionRule` entries (retention tags), not backup rules. The only triggerable backup rule in `dailyaksbackups-v1` is `BackupHourly`. Working pattern: `--rule-name BackupHourly --retention-tag-override Daily` (routes the recovery point into the Daily/vault tier). Same pattern as NNUH.
-- **`backup-policy show --name` takes the bare policy name** (`dailyaksbackups-v1`), not the full ARM resource ID — full ID gives `BMSUserErrorInvalidInput`.
+- `--rule-name "Daily"` fails with `BMSUserErrorDPPAdhocBackupNotAllowedForBackupType`. `Daily` and `Default` are `AzureRetentionRule` entries (retention tags), not backup rules. The only triggerable backup rule in `dailyaksbackups-v1` is `BackupHourly`. Working pattern: `--rule-name BackupHourly --retention-tag-override Daily` (routes the recovery point into the Daily/vault tier). Same pattern as NNUH.
+- `backup-policy show --name` takes the bare policy name (`dailyaksbackups-v1`), not the full ARM resource ID—full ID gives `BMSUserErrorInvalidInput`.
 - First `az dataprotection` command prompts to install the extension. To skip prompts: `az config set extension.use_dynamic_install=yes_without_prompt`
 - Backup schedule: every 4 hours (01:00, 05:00, 09:00, 13:00, 17:00, 21:00 UTC), ~7–10 min each.
 
-## RBAC — Check Role Assignment on Snapshot RG
+## RBAC—Check Role Assignment on Snapshot RG
 
 Confirm the vault MSI has Contributor on the snapshot RG (needed for Tiering; was the blocker under `SPEC-FTFL-525`, fixed by Joao 17 Jul):
 
@@ -102,7 +102,7 @@ az dataprotection backup-policy show \
 
 Result (17 Jul 2026): `BackupHourly` = AzureBackupRule (schedule-triggered); `Default`, `Daily` = AzureRetentionRule.
 
-## Trigger On-Demand (Adhoc) Backup — WORKING COMMAND
+## Trigger On-Demand (Adhoc) Backup—WORKING COMMAND
 
 Verified working 17 Jul 2026 (returned job `68f71d0d-96c5-44ac-9c11-190ca891f7d1`):
 
@@ -180,7 +180,7 @@ done
 
 Status values: `InProgress` → `Completed` / `Failed` / `CompletedWithWarnings`. Backups typically take 5–15 min.
 
-## Storage Account Replication (ZRS conversion, FTFL-525)
+## Storage Account Replication (ZRS cOnversion, FTFL-525)
 
 ```bash
 az storage account show \
@@ -189,8 +189,8 @@ az storage account show \
   --query "sku.name" -o tsv
 ```
 
-Confirmed `Standard_ZRS` on 17 Jul 2026 — ZRS conversion done. (If ever needed again: `az storage account migration start --sku Standard_ZRS`, per NNUH pattern.)
+Confirmed `Standard_ZRS` on 17 Jul 2026—ZRS conversion done. (If ever needed again: `az storage account migration start --sku Standard_ZRS`, per NNUH pattern.)
 
 ## Status Log
 
-- **17 Jul 2026**: Contributor role confirmed on snapshot RG for vault MSI (Joao). Adhoc backup triggered successfully with `BackupHourly` + `Daily` override. Storage already `Standard_ZRS`. Scheduled backups completing every 4 h; **Tiering jobs still failing repeatedly** (~13:16 UTC daily among others) — check whether they succeed now RBAC has propagated.
+- 17 Jul 2026: Contributor role confirmed on snapshot RG for vault MSI (Joao). Adhoc backup triggered successfully with `BackupHourly` + `Daily` override. Storage already `Standard_ZRS`. Scheduled backups completing every 4 h; Tiering jobs still failing repeatedly (~13:16 UTC daily among others)—check whether they succeed now RBAC has propagated.

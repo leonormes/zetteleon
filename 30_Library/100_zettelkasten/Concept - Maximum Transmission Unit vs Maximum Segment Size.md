@@ -1,13 +1,13 @@
 ---
 aliases: [MTU vs MSS]
+conformant: false
 created: 2025-11-22T15:00:05+00:00
-modified: 2026-07-13T08:52:25+00:00
+modified: 2026-07-20T16:34:32+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/concept-maximum-transmission-unit-vs-maximum-segment-size
 tags: [SoftwareEngineering/networking/protocol]
 title: Concept - Maximum Transmission Unit vs Maximum Segment Size
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Maximum Transmission Unit Vs Maximum Segment Size

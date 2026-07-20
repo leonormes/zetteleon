@@ -3,7 +3,7 @@ aliases: [Bikeshedding]
 created: 2025-08-23T17:07:03+00:00
 creation_date: '2025-08-23'
 last_reviewed: ''
-modified: 2026-07-13T08:52:39+00:00
+modified: 2026-07-20T16:33:57+00:00
 permalink: llmeon/30-library/mo-c/moc-the-law-of-triviality-bikeshedding
 status: ''
 tags: [sociology, TheHuman/Cognition/bias, TheHuman/Psychology]
@@ -21,6 +21,7 @@ This phenomenon occurs because people gravitate toward topics where they feel co
 Bikeshedding is also driven by Focusing Illusion - when attention narrows to the immediate, accessible topic, its perceived importance becomes magnified far beyond its actual significance. This creates [[Contextual Myopia]], where the original important goal (effective decision-making) gets displaced by the more manageable but trivial concern.
 
 The underlying mechanism connects to [[Flawed Mental Models Limit Mastery]] - when people lack adequate mental models for complex topics, they default to areas where their existing models feel sufficient, regardless of relative importance.
+
 Links: [[SoT - Illusion of Explanatory Depth (IoED)]], [[Flawed Mental Models Limit Mastery]], [[Contextual Relationships]] (context narrowing, goal displacement, and related MoC threads)
 
 ## Related

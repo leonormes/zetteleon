@@ -1,13 +1,12 @@
 ---
-created: 2026-06-08 09:13:34+00:00
-modified: 2026-07-16
+created: 2026-06-08T09:13:34+00:00
+description: "Reference context on the FITFILE platform's GitOps repo topology, ArgoCD Application structure, and Helm chart layout (accurate as of June 2026). Inject when working on FITFILE deployment, Helm chart, ArgoCD, or central-services Terraform tasks."
+modified: 2026-07-20T16:34:40+00:00
 permalink: llmeon/10-system/prompts/fitfile-platform-argo-cd-helm-deployment-wiki
+tags: [domain/devops, project/fitfile, type/context]
 title: FITFILE Platform—ArgoCD + Helm Deployment Wiki
 type: prompt
-tags: [type/context, domain/devops, project/fitfile]
-description: "Reference context on the FITFILE platform's GitOps repo topology, ArgoCD Application structure, and Helm chart layout (accurate as of June 2026). Inject when working on FITFILE deployment, Helm chart, ArgoCD, or central-services Terraform tasks."
 ---
-
 
 ## FITFILE Platform—ArgoCD + Helm Deployment Wiki
 

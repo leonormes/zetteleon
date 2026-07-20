@@ -1,6 +1,6 @@
 ---
 created: 2026-05-26T16:30:00+00:00
-modified: 2026-07-04T10:49:52+00:00
+modified: 2026-07-20T16:33:03+00:00
 permalink: llmeon/raw/2026-05-26-pieces-ftfl638-antigravity-cursor-prompt
 pieces_ids: [06dac053-7d88-4d03-9f0f-87fd147949dd, 10a829f1-4ae6-4e3c-848f-1c7d15ddc7ab, 4c73b9cb-71e6-481b-bbbf-8e6db1ac904b, 59181fac-0d3a-4176-8071-58cec7e668b8, 93cd432f-51c7-42d5-8cfc-4b9419098954, fc7a97ab-1c99-4714-ba9d-ed686bc43e71]
 source: pieces-ltm

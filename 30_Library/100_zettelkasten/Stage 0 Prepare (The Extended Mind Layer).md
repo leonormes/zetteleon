@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-11T15:30:49+00:00
 last_reviewed: ''
-modified: 2026-07-13T08:52:31+00:00
+modified: 2026-07-20T16:34:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/stage-0-prepare-the-extended-mind-layer
 status: ''
 tags: []
@@ -23,8 +23,7 @@ The Method: Prime Your Mind for Insight
 
 > Outcome: You arrive at the page not with a "cold" brain, but with a mind that is warmed up, attentive, and open to new connections.
 
-
 ## Related
+
 - [[Stage 2 Clarify (The On Writing Well Layer)]]
 - [[Chaining Starter Tasks Creates a Momentum Ramp]]
-

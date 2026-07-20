@@ -1,13 +1,13 @@
 ---
+conformant: false
 created: 2026-07-13T22:00:00+00:00
-modified: 2026-07-14T20:01:16+00:00
+modified: 2026-07-20T16:34:33+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/a-false-belief-does-not-diminish-a-persons-worth
 status: draft
 tags: [compassion, decoupling, judgement, worth]
 title: "A False Belief Does Not Diminish a Person's Worth"
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## A False Belief Does Not Diminish a Person's Worth

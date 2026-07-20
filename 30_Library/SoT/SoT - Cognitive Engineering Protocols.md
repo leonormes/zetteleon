@@ -1,15 +1,15 @@
 ---
 aliases: []
+conformant: false
 created: 2026-01-03T10:18:04+00:00
 last_reviewed: ''
-modified: 2026-07-13T08:52:44+00:00
+modified: 2026-07-20T16:33:52+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-cognitive-engineering-protocols
 status: ''
 tags: []
 title: SoT - Cognitive Engineering Protocols
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SoT - Cognitive Engineering Protocols

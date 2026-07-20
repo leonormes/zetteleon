@@ -1,15 +1,15 @@
 ---
 aliases: [Active Inference, Anthropomorphism, Cognitive Architectures, Eliza Effect, Grounded Cognition, Human vs LLM]
+conformant: false
 created: 2025-12-21T00:00:00+00:00
 last-synthesis: 2026-04-04
-modified: 2026-07-13T08:52:49+00:00
+modified: 2026-07-20T16:33:48+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-human-vs-ai-cognition
 source_of_truth: true
 tags: [ai, epistemology, llm, mental-models, TheHuman/Cognition, TheHuman/Philosophy]
 title: SoT - Human vs AI Cognition
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

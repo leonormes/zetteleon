@@ -1,6 +1,6 @@
 ---
 created: 2026-07-20T16:28:00+00:00
-modified: 2026-07-20T16:31:23+00:00
+modified: 2026-07-20T16:34:02+00:00
 permalink: llmeon/30-library/200-projects/family-chores-everyones-guide
 tags: [chores, family, guide]
 title: "Family Chores - Everyone's Guide"
@@ -14,7 +14,7 @@ This guide is here to make sure everyone knows what is expected of them, when th
 
 ---
 
-### "Why dO I hAve to dO iT?"
+### "Why Do I Have to Do It?"
 
 It is a fair question, and here is the honest answer. Everyone in this family does jobs every single day to keep our lives running.
 

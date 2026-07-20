@@ -1,13 +1,13 @@
 ---
 aliases: [Agentic AI Workflows, Agentic Workflow Taxonomy, AI Agent Patterns]
+conformant: false
 created: 2026-04-05T12:00:00+00:00
-modified: 2026-07-13T08:52:43+00:00
+modified: 2026-07-20T16:33:53+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-agentic-ai-design-patterns
 tags: [agents, ai, architecture, design-patterns, llm, sot]
 title: SoT - Agentic AI Design Patterns
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Minimum Viable Understanding (MVU)
@@ -48,7 +48,7 @@ Agentic AI Design Patterns are modular architectural strategies that move beyond
 
 ### E. Quality, Safety & Learning
 
-- Knowledge Retrieval (RAG): Indexing and retrieving grounded context from document databases. _Limitation_: standard RAG is stateless—nothing accumulates across sessions. See [[SoT - LLM Wiki Pattern]] for the stateful evolution of this pattern. Even a stateful RAG system still needs an output-side reliability gate — see [[SoT - Typed Answer Contract (TAC) for LLM Output]] for forcing confidence, evidence, and an explicit uncertainty flag instead of free prose. Even a stateful RAG system still needs an output-side reliability gate — see [[SoT - Typed Answer Contract (TAC) for LLM Output]] for forcing confidence, evidence, and an explicit uncertainty flag instead of free prose.
+- Knowledge Retrieval (RAG): Indexing and retrieving grounded context from document databases. _Limitation_: standard RAG is stateless—nothing accumulates across sessions. See [[SoT - LLM Wiki Pattern]] for the stateful evolution of this pattern. Even a stateful RAG system still needs an output-side reliability gate—see [[SoT - Typed Answer Contract (TAC) for LLM Output]] for forcing confidence, evidence, and an explicit uncertainty flag instead of free prose. Even a stateful RAG system still needs an output-side reliability gate—see [[SoT - Typed Answer Contract (TAC) for LLM Output]] for forcing confidence, evidence, and an explicit uncertainty flag instead of free prose.
 - Learning & Adaptation: Collecting feedback and outcomes to update system prompts or policies.
 - Evaluation & Monitoring: Using quality gates and test suites to track performance drift and regressions.
 - Guardrails & Safety: Sanitizing inputs (injection detection) and moderating output risk.
@@ -59,7 +59,7 @@ Agentic AI Design Patterns are modular architectural strategies that move beyond
 
 - Tooling: Leverages MCP (Model Context Protocol) for Tool Use and Knowledge Retrieval.
 - Efficiency: Use Resource-Aware Optimisation by delegating surgical tasks to local/fast models and synthesis to frontier models.
-- Reliability: Apply Reflection and Prompt Chaining to high-stakes knowledge synthesis (Chronos Synthesis). Every governed vault-agent prompt also carries a [[Protocol - Typed Answer Contract (TAC) for Vault Agents|Typed Answer Contract]] output-discipline requirement — see [[SoT - Typed Answer Contract (TAC) for LLM Output]]. Every governed vault-agent prompt also carries a [[Protocol - Typed Answer Contract (TAC) for Vault Agents|Typed Answer Contract]] output-discipline requirement — see [[SoT - Typed Answer Contract (TAC) for LLM Output]].
+- Reliability: Apply Reflection and Prompt Chaining to high-stakes knowledge synthesis (Chronos Synthesis). Every governed vault-agent prompt also carries a [[Protocol - Typed Answer Contract (TAC) for Vault Agents|Typed Answer Contract]] output-discipline requirement—see [[SoT - Typed Answer Contract (TAC) for LLM Output]]. Every governed vault-agent prompt also carries a [[Protocol - Typed Answer Contract (TAC) for Vault Agents|Typed Answer Contract]] output-discipline requirement—see [[SoT - Typed Answer Contract (TAC) for LLM Output]].
 
 ---
 

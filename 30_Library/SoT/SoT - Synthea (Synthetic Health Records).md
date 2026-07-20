@@ -1,14 +1,14 @@
 ---
+conformant: false
 created: 2026-04-02T10:15:00+00:00
 last-synthesis: 2026-04-02
-modified: 2026-07-13T08:52:54+00:00
+modified: 2026-07-20T16:33:43+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-synthea-synthetic-health-records
 source_of_truth: true
 tags: [ehr, ohdsi, simulation, synthetic-data, type/SoT]
 title: SoT - Synthea (Synthetic Health Records)
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)
@@ -56,11 +56,9 @@ To maximize utility, synthetic data generation must adhere to strict standards:
 - Structural Target: [[SoT - OMOP Common Data Model]]
 - Validation Tools: [[SoT - OHDSI ETL & Data Quality]]
 
-
 ## Related
 
 - [[Expanded Analysis OMOP Synthetic Data Generation Project]]
 - [[12 Million Patient Synthetic NHS-OMOP Pipeline]]
 - [[SoT - OHDSI Ecosystem]]
 - [[MoC - OHDSI & OMOP Architecture]]
-

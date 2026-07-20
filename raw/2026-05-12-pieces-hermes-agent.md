@@ -1,6 +1,6 @@
 ---
 created: 2026-05-12T22:06:30+00:00
-modified: 2026-07-04T10:50:18+00:00
+modified: 2026-07-20T16:33:22+00:00
 permalink: llmeon/raw/2026-05-12-pieces-hermes-agent
 pieces_ids: [196c6cce-bc64-46f8-b66c-ea5cd31dbc8e]
 source: pieces-ltm

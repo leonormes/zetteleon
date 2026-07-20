@@ -1,13 +1,13 @@
 ---
 aliases: [Hierarchy, Social Inequality, Social Stratification]
+conformant: false
 created: 2025-12-10T00:00:00+00:00
-modified: 2026-07-13T08:52:53+00:00
+modified: 2026-07-20T16:33:44+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-social-stratification
 tags: [class, inequality, power, sociology, status, structure]
 title: SoT - Social Stratification
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 2. The Three Dimensions (Weber's Triad)

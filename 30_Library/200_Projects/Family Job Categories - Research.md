@@ -1,7 +1,7 @@
 ---
 conformant: true
 created: 2026-07-20T12:02:00+00:00
-modified: 2026-07-20T13:17:36+00:00
+modified: 2026-07-20T16:34:02+00:00
 permalink: llmeon/30-library/200-projects/family-job-categories-research
 project_category: personal
 project_name: Family Chores
@@ -118,7 +118,7 @@ Not hypothetical for us: one dog with Addison's disease, one cat, and two snakes
 - Shared routine tier (children can own or rotate):
     - Cat: feeding morning/evening, litter tray, grooming.
     - Snakes: daily temperature/humidity checks, feeding every 1–2 weeks (calendar-tracked), water and substrate cleaning, shed monitoring.
-- Boarding/cover during travel: parent-arranged — the Addison's medication handover makes this higher-stakes than typical boarding.
+- Boarding/cover during travel: parent-arranged—the Addison's medication handover makes this higher-stakes than typical boarding.
 
 Family-facing version of this split lives in [[Family Chores - Everyone's Guide]].
 
@@ -139,24 +139,24 @@ Categorizing by how often tasks recur helps decide what belongs on a daily chore
 
 ## Whole-Family Ownership Map
 
-The chore chart only shows the children's slice of the system. The rest of the family's work is invisible to them, which is precisely what fuels "why do I have to do it?" arguments — the children can only see their own contribution, so any demand looks arbitrary. The fix is transparency: publish the full map so every family member's load is visible.
+The chore chart only shows the children's slice of the system. The rest of the family's work is invisible to them, which is precisely what fuels "why do I have to do it?" arguments—the children can only see their own contribution, so any demand looks arbitrary. The fix is transparency: publish the full map so every family member's load is visible.
 
-Ownership below reflects what is currently documented in the vault. Items marked _TBC_ need to be agreed (Mum/Dad split) at a family or parental meeting — do not let them silently default to one parent.
+Ownership below reflects what is currently documented in the vault. Items marked _TBC_ need to be agreed (Mum/Dad split) at a family or parental meeting—do not let them silently default to one parent.
 
 | # | Job category | Who carries it today | Visible to the kids? |
 |:- |:------------ |:-------------------- |:-------------------- |
-| 1 | Income generation | Mum & Dad | Should be — name it in the guide |
+| 1 | Income generation | Mum & Dad | Should be—name it in the guide |
 | 2 | Household chores | Whole family: children rotate the three weekly nodes; parents own repairs, appliances, vehicle, monthly infrastructure | Kids' slice yes; parents' slice now added to the guide |
 | 3 | Meal planning & food | Mum & Dad (split TBC) | Now in guide |
 | 4 | Education & school logistics | Mum & Dad (split TBC) | Partially |
 | 5 | Transport & scheduling | Mum & Dad (split TBC) | Now in guide |
 | 6 | Health & medical | Mum & Dad; dog's Addison's care strictly parent-only | Yes (guide) |
 | 7 | Finance & admin | Mum & Dad (split TBC) | Now in guide |
-| 8 | Social & emotional labour | Mum & Dad (split TBC — highest risk of silent single-parent default) | Hard to show, but name it |
+| 8 | Social & emotional labour | Mum & Dad (split TBC—highest risk of silent single-parent default) | Hard to show, but name it |
 | 9 | Occasions & seasonal | Mum & Dad (split TBC) | Now in guide |
 | 10 | Pet care | Two tiers: parents (dog medical), children shared (cat, snakes) | Yes (guide) |
 
-Principle: **every category has a named owner, and the whole map is public within the family.** Fairness challenges are then answered by pointing at the map, not by relitigating each task.
+Principle: every category has a named owner, and the whole map is public within the family. Fairness challenges are then answered by pointing at the map, not by relitigating each task.
 
 ---
 
@@ -167,7 +167,7 @@ The current [[Family Chores Operational Plan]] focuses on physical household cho
 1. Parents carry several additional "invisible" job categories (mental load, finance, transport, medical, emotional labor) that don't appear on a chore chart but still need explicit ownership or a Tag-Team Handover protocol, consistent with [[SoT - Family Communication & Team Charter]].
 2. Some categories (education support, transport, special occasions) could be partially delegated to older children as they mature—extending the "Earned Access" model beyond physical chores.
 3. Naming the mental/emotional labor category explicitly reduces the risk it silently defaults to one parent, which research shows is the most common failure mode in dual-earner households.
-4. Making the parents' job categories visible to the children directly defuses the recurring "why do I have to do it?" argument: the answer stops being an assertion of authority and becomes an observable fact — everyone in the house has jobs, every day, and the children's rotation is a small, age-sized share of the total. This is the transparency principle now reflected in [[Family Chores - Everyone's Guide]].
+4. Making the parents' job categories visible to the children directly defuses the recurring "why do I have to do it?" argument: the answer stops being an assertion of authority and becomes an observable fact—everyone in the house has jobs, every day, and the children's rotation is a small, age-sized share of the total. This is the transparency principle now reflected in [[Family Chores - Everyone's Guide]].
 
 ## Sources
 

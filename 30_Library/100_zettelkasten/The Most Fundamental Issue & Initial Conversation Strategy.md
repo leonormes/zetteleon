@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-11-11T04:37:15+00:00
 last_reviewed: ''
-modified: 2026-07-13T08:52:32+00:00
+modified: 2026-07-20T16:34:24+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-most-fundamental-issue-initial-conversation-strategy
 see_also: []
 status: ''
@@ -124,9 +124,7 @@ Initial conversation goal: Not to solve everything, but to establish ONE mutual 
 
 Everything else (chores systems, communication scripts, Team Charter details) builds from this foundation. Without it, you're building on sand.
 
-
 ## Related
 
 - [[SoT - Framework for Healthy Communication]] - Connects conversational strategies with separating experience from causality.
 - [[MOC - Assertiveness Through System Design]] - Contextualizes the communication strategy within broader assertiveness.
-

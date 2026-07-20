@@ -1,13 +1,13 @@
 ---
 aliases: [Constructed Reality]
+conformant: false
 created: 2025-11-06T19:58:01+00:00
-modified: 2026-07-13T08:52:31+00:00
+modified: 2026-07-20T16:34:25+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/social-constructs-are-not-arbitrary-they-are-real-in-their-effects
 tags: [meaning, reality, social-constructs, TheHuman/Philosophy]
 title: Social Constructs are Not Arbitrary, They are Real in Their Effects
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Social Constructs Are Not Arbitrary, They Are Real in Their Effects

@@ -1,13 +1,13 @@
 ---
 aliases: [Comfort of Motion]
+conformant: false
 created: 2025-11-01T20:31:00+00:00
-modified: 2026-07-13T08:52:32+00:00
+modified: 2026-07-20T16:34:24+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/the-comfort-of-motion-hinders-genuine-action
 tags: [comfort-zone, procrastination, TheHuman/Psychology, topic/productivity]
 title: The Comfort of Motion Hinders Genuine Action
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Motion provides a sense of accomplishment without requiring the discomfort of genuine action. It allows individuals to feel productive while staying within their comfort zone.

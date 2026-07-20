@@ -1,6 +1,6 @@
 ---
 created: 2026-07-16T08:53:55+00:00
-modified: 2026-07-20T09:24:50+00:00
+modified: 2026-07-20T16:34:46+00:00
 permalink: llmeon/00-inbox/pieces-copilot-message-export-july-16-2026-10-20am
 title: "Current Terraform SP permissions vs what's needed for private ZRS backups"
 type: note

@@ -1,14 +1,14 @@
 ---
+conformant: false
 created: 2026-02-04T09:12:25+00:00
-modified: 2026-07-13T08:52:41+00:00
+modified: 2026-07-20T16:33:55+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/protocol-jira-dependency-configuration
 related-sot:
 - - Jira Dependency Management SoT
 tags: [domain/jira, tool/jira, type/protocol]
 title: Protocol - Jira Dependency Configuration
 type: protocol
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Logic Map

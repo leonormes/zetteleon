@@ -1,6 +1,6 @@
 ---
 created: 2026-05-21T19:15:29+00:00
-modified: 2026-07-04T10:49:56+00:00
+modified: 2026-07-20T16:33:06+00:00
 permalink: llmeon/raw/2026-05-21-pieces-semble
 pieces_ids: [020c64e5-6c28-46ca-b081-4d9a49b17cb5, 5701ce53-a5ec-415c-9f55-2a49613260a3, 6c42a849-78d2-42be-865b-f03ed18c9da2, 965db98b-b067-466f-ab29-aa796ab76e6a, b6bbcfba-c0ff-4a78-a304-7e1da2c52b1b, f9e677dc-35ad-44ad-9e5f-ba0fb6a056e5]
 source: pieces-ltm

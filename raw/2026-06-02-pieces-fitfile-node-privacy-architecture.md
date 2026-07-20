@@ -1,6 +1,6 @@
 ---
 created: 2026-06-02T10:51:00+00:00
-modified: 2026-07-04T10:49:24+00:00
+modified: 2026-07-20T16:32:38+00:00
 permalink: llmeon/raw/2026-06-02-pieces-fitfile-node-privacy-architecture
 pieces_ids: [66a5cedf-bdf5-4ad6-a802-77244634444e, 98b9c075-5a51-4801-9614-0ce4eada14b5, b2cfd536-ad7f-4561-bada-86c7f9d4d5e0]
 source: pieces-ltm

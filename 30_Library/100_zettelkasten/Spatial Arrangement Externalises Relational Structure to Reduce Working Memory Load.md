@@ -2,7 +2,7 @@
 created: 2026-07-13T08:31:04+00:00
 created_utc: '2026-07-13T08:17:00Z'
 kind: mechanism
-modified: 2026-07-16T19:34:18+00:00
+modified: 2026-07-20T16:34:25+00:00
 permalink: llmeon/00-inbox/spatial-arrangement-externalises-relational-structure-to-reduce-working-memory-load
 source_title: 'Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture: An Investigative Report'
 source_url: ''

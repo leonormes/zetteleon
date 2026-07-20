@@ -4,7 +4,7 @@ created: 2025-11-01T12:10:00+00:00
 criteria: ''
 exclusions: The data-information distinction, wisdom.
 last_reviewed: 'null'
-modified: 2026-07-13T08:52:38+00:00
+modified: 2026-07-20T16:33:58+00:00
 permalink: llmeon/30-library/mo-c/moc-from-information-to-knowledge
 scope: ''
 status: 'null'

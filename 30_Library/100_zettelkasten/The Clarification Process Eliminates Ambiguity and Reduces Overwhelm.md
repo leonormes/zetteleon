@@ -1,13 +1,13 @@
 ---
 aliases: []
+conformant: false
 created: 2025-11-10T15:12:00+00:00
-modified: 2026-07-13T08:52:32+00:00
+modified: 2026-07-20T16:34:24+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/the-clarification-process-eliminates-ambiguity-and-reduces-overwhelm
 tags: [clarification, gtd, overwhelm, topic/productivity]
 title: The Clarification Process Eliminates Ambiguity and Reduces Overwhelm
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Summary: The clarification process, which converts vague captured thoughts ("stuff") into atomic actions, eliminates ambiguity, creates immediate momentum, reduces overwhelm, and enables measurable progress.

@@ -1,13 +1,13 @@
 ---
 aliases: [British Class System, Great British Class Survey Analysis, UK Social Structure]
+conformant: false
 created: 2025-12-14T00:00:00+00:00
-modified: 2026-07-13T08:52:56+00:00
+modified: 2026-07-20T16:33:42+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-uk-social-hierarchy-and-class-analysis
 tags: [class, economics, inequality, sociology, uk]
 title: SoT - UK Social Hierarchy and Class Analysis
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 2. Theoretical Foundations
@@ -76,9 +76,7 @@ How is the hierarchy maintained?
 - Elite Athletes (The Pop-Aristocracy): High economic capital but precarious status. Unlike the Aristocracy (permanent lineage), their status is performance-dependent and evaporates with fame.
 - The Class Ceiling: Working-class entrants to elite professions earn ~16% less than their privileged peers due to a lack of "soft skills" and "cultural fit" (The Sponsorship Gap).
 
-
 ## Related
 
 - [[SoT - Social Stratification]]
 - [[MOC - Social Stratification]]
-

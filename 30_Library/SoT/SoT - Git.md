@@ -1,15 +1,15 @@
 ---
 aliases: [Distributed Version Control, Git, Version Control System]
+conformant: false
 created: 2025-12-13T00:00:00+00:00
-modified: 2026-07-13T08:52:49+00:00
+modified: 2026-07-20T16:33:49+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-git
 see_also: ["[[SoT - Software Configuration Management Patterns]]"]
 source_of_truth: []
 tags: [devops, git, scm, version_control]
 title: SoT - Git
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 2. Working Knowledge (Core Concepts)

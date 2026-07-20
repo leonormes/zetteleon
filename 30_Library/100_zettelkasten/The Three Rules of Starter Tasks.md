@@ -1,13 +1,13 @@
 ---
 aliases: []
+conformant: false
 created: 2025-11-10T15:09:00+00:00
-modified: 2026-07-13T08:52:32+00:00
+modified: 2026-07-20T16:34:23+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/the-three-rules-of-starter-tasks
 tags: [momentum, task-initiation, TheHuman/Health/ADHD, topic/productivity]
 title: The Three Rules of Starter Tasks
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## The Three Rules of Starter Tasks
@@ -21,8 +21,6 @@ Details:
 3. Simplicity: A single, non-complex physical action that is easy to begin.
 These rules ensure that the activation energy required to start is as low as possible, making it easier to overcome task initiation barriers.
 
-
 ## Related
 
 - [[Chaining Starter Tasks Creates a Momentum Ramp]] - A direct application of the starter task rules.
-

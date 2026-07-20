@@ -1,13 +1,13 @@
 ---
 alias: [AKS CIDR Planning, Subnet Sizing Standard]
+conformant: false
 created: 2026-02-05T00:00:00+00:00
-modified: 2026-07-13T08:52:42+00:00
+modified: 2026-07-20T16:33:54+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-aks-ip-allocation-subnet-sizing
 tags: [aks, azure, calico, networking, sot]
 title: SoT - AKS IP Allocation & Subnet Sizing
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

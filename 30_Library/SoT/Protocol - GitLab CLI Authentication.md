@@ -1,7 +1,9 @@
 ---
+conformant: false
 created: 2026-04-01T15:50:00+00:00
 last-synthesis: 2026-04-01
-modified: 2026-07-13T08:52:41+00:00
+modified: 2026-07-20T16:33:55+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/protocol-git-lab-cli-authentication
 source_of_truth: true
 status: evergreen
@@ -10,8 +12,6 @@ tags: [auth, cli, domain/ops, gitlab, protocol]
 title: Protocol - GitLab CLI Authentication
 trust-level: stable
 type: protocol
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Logic Map

@@ -1,14 +1,14 @@
 ---
 aliases: [Complexity Theory, Emergent Properties, Self-Organization, The Whole is Greater Than the Sum of the Parts]
+conformant: false
 created: 2026-02-03T10:45:00+00:00
-modified: 2026-07-13T08:52:46+00:00
+modified: 2026-07-20T16:33:51+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-emergence
 source_of_truth: true
 tags: [complexity, emergence, prodos/sot, systems-thinking]
 title: SoT - Emergence
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

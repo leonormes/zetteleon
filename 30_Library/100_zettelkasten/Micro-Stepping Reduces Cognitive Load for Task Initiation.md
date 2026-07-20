@@ -1,14 +1,14 @@
 ---
 aliases: [Task Chunking]
+conformant: false
 created: 2025-10-30T12:09:03+00:00
-modified: 2026-07-13T08:52:29+00:00
+modified: 2026-07-20T16:34:28+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/micro-stepping-reduces-cognitive-load-for-task-initiation
 source: '[[MOC - Why Task Initiation is Difficult in ADHD]]'
 tags: [task-management, TheHuman/Health/ADHD, topic/productivity]
 title: Micro-Stepping Reduces Cognitive Load for Task Initiation
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Micro-stepping, or "task chunking," is a behavioral intervention for ADHD that involves breaking down large or overwhelming tasks into the smallest possible actionable steps. This reduces the cognitive load and lowers the internal "activation cost" required to get started, making it easier to initiate action.

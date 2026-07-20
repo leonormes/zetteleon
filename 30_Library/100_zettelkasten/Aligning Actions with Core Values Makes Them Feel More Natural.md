@@ -1,13 +1,13 @@
 ---
 aliases: [Self-Concordant Goals]
+conformant: false
 created: 2025-11-10T17:12:00+00:00
-modified: 2026-07-13T08:52:23+00:00
+modified: 2026-07-20T16:34:33+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/aligning-actions-with-core-values-makes-them-feel-more-natural
 tags: [action, TheHuman/Identity, TheHuman/Motivation, TheHuman/Psychology, values]
 title: Aligning Actions with Core Values Makes Them Feel More Natural
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Aligning Actions with Core Values Makes Them Feel More Natural

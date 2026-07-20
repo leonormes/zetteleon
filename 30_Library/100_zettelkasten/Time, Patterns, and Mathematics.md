@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-26T00:00:00+00:00
 last_reviewed: ''
-modified: 2026-07-13T08:52:32+00:00
+modified: 2026-07-20T16:34:23+00:00
 permalink: llmeon/30-library/100-zettelkasten/time-patterns-and-mathematics
 see_also: []
 source: https://gemini.google.com/share/9b6f6fdd7c5e
@@ -87,9 +87,7 @@ The fundamental laws of physics are not processes that happen _in_ time; they ar
 
 So, while our human experience, embedded within time, perceives the _creation_ of the pattern, mathematics is capable of describing both the temporal creation process _and_ the final timeless pattern itself. The existence of a temporal origin story doesn't negate the existence of a final, static, and mathematically describable form.
 
-
 ## Related
 
 - [[The Process vs. The Pattern]] - Distinguishes the creation sequence from the finished structure.
 - [[A Timeless View of Causality]] - Connects these concepts to the Block Universe model.
-

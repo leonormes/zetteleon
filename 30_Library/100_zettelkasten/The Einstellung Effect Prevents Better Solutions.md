@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-29T15:13:59+00:00
 last_reviewed: 'null'
-modified: 2026-07-13T08:52:32+00:00
+modified: 2026-07-20T16:34:24+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-einstellung-effect-prevents-better-solutions
 status: 'null'
 tags: [problem-solving, TheHuman/Cognition, TheHuman/Cognition/bias]

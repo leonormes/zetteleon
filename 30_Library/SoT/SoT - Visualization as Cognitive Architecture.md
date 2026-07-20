@@ -1,13 +1,13 @@
 ---
 aliases: [Active Perception, The Fractal Mind, Three Planes of Visualization]
+conformant: false
 created: 2025-12-15T00:00:00+00:00
-modified: 2026-07-13T08:52:56+00:00
+modified: 2026-07-20T16:33:41+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-visualization-as-cognitive-architecture
 tags: [cognitive_science, mental_models, system_design, TheHuman/Neuroscience, visualization]
 title: SoT - Visualization as Cognitive Architecture
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 > The mind operates on Fractal Logic: "it constructs the \"Big Picture\" by repeating a single \"Seed Pattern\" at different scales. To control the outcome, you must control the First Frame (the entry point of the primary visual cortex), not the final image."
@@ -72,10 +72,8 @@ Do not start with the context.
 
 _Why this works:_ It respects the brain's bandwidth limits. By locking the "First Frame," you provide the stable geometry the brain needs to render the rest of the simulation.
 
-
 ## Related
 
 - [[Mental representations take multiple forms]]
 - [[Mental Models as Evolutionary Filters]]
 - [[The Brain as a Distributed Prediction Machine]]
-

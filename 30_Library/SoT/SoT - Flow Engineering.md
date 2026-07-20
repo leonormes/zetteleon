@@ -1,8 +1,10 @@
 ---
 aliases: [Flow Engineering, LLM Orchestration, Programmatic Gates, Prompt Engineering vs Flow Engineering]
+conformant: false
 created: 2026-04-06T17:00:00+00:00
 last-synthesis: 2026-04-06
-modified: 2026-07-13T08:52:48+00:00
+modified: 2026-07-20T16:33:49+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-flow-engineering
 see_also: []
 source_of_truth: true
@@ -11,8 +13,6 @@ supersedes: ''
 tags: [ai-engineering, architecture, llm, orchestration, sot]
 title: SoT - Flow Engineering
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

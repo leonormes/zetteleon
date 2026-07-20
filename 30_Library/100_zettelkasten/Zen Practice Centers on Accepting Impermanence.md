@@ -1,13 +1,13 @@
 ---
 aliases: [Accepting Impermanence]
+conformant: false
 created: 2025-11-01T12:20:02+00:00
-modified: 2026-07-13T08:52:33+00:00
+modified: 2026-07-20T16:34:22+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/zen-practice-centers-on-accepting-impermanence
 tags: [acceptance, buddhism, impermanence, zen]
 title: Zen Practice Centers on Accepting Impermanence
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Zen Practice Centers on Accepting Impermanence

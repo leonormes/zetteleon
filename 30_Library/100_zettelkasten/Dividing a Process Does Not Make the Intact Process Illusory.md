@@ -1,18 +1,14 @@
 ---
 aliases: [The Self Is Not Illusory Just Because It Divides, Water and Wetness Argument]
+conformant: true
 created: 2026-07-16T15:50:54+00:00
-modified: 2026-07-17T08:26:16+00:00
+modified: 2026-07-20T16:34:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/dividing-a-process-does-not-make-the-intact-process-illusory
 source_title: "Waking Up (Sam Harris) — reviewed LLM summary and critique"
 status: seed
-prodos:
-  kind: atomic
-  atomic:
-    form: claim
 tags: [consciousness, emergence, philosophy-of-mind, self, TheHuman/Identity, TheHuman/Philosophy]
 title: Dividing a Process Does Not Make the Intact Process Illusory
 type: claim
-conformant: true
 ---
 
 ## Dividing a Process Does Not Make the Intact Process Illusory
@@ -35,7 +31,7 @@ Details: This objection defends a _process_ or _emergent_ account of the self ag
 - [[The Self is Constructed Through a Commitment to Chosen Values]]—extends: a constructed, value-committed self is real as a process.
 - [[Ship of Theseus as Model for Constructed Self]]—shared mechanism: identity as persisting pattern, not unchanging material.
 - [[SoT - The User Interface of the Self]]—shared mechanism: the self as a functional interface rather than a metaphysical simple.
-- [[Self-Change Refutes the Determinism of the Plant Metaphor]] — *reinforces a dynamic, changeable self that is real as a process rather than a fixed substance.*
+- [[Self-Change Refutes the Determinism of the Plant Metaphor]]—_reinforces a dynamic, changeable self that is real as a process rather than a fixed substance._
 
 ### Tensions
 

@@ -1,13 +1,13 @@
 ---
 aliases: [Metagame Strategy, Strategic Context SoT, The Game Beyond the Game]
+conformant: false
 created: 2025-12-10T00:00:00+00:00
-modified: 2026-07-13T08:52:55+00:00
+modified: 2026-07-20T16:33:42+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-the-metagame-strategic-context
 tags: [game-theory, metagame, strategy, topic/systems]
 title: SoT - The Metagame (Strategic Context)
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 2. Core Mechanisms
@@ -58,10 +58,8 @@ In ProdOS, we apply Metagame thinking to Productivity:
   - _Example:_ [[SoT - The Honeyman Method (Adaptive Routines)]] is a metagame strategy to "hack" the energy levels of an ADHD brain.
   - _Example:_ [[SoT - Temporal Management (Blocking and Boxing)]] manipulates the "Time" variable to force efficiency (Parkinson's Law).
 
-
 ## Related
 
 - [[SoT - Conventional Problem Solving]]
 - [[Meta MOC - The Core Domains]]
 - [[SoT - Six Levels of Thinking]]
-

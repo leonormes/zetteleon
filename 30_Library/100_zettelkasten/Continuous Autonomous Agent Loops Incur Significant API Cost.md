@@ -1,12 +1,12 @@
 ---
+conformant: false
 created: 2026-04-10T12:00:00+00:00
-modified: 2026-07-13T08:52:25+00:00
+modified: 2026-07-20T16:34:32+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/continuous-autonomous-agent-loops-incur-significant-api-cost
 tags: [api-costs, constraints, economics, scalability]
 title: Continuous Autonomous Agent Loops Incur Significant API Cost
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Continuous Autonomous Agent Loops Incur Significant API Cost

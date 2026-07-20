@@ -1,14 +1,14 @@
 ---
 aliases: [Model Theory, Proof Theory, Set Theory Basics, Subfields of Logic]
+conformant: false
 created: 2026-01-12T10:20:00+00:00
-modified: 2026-07-13T08:52:45+00:00
+modified: 2026-07-20T16:33:52+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-core-fields-of-mathematical-logic
 source_of_truth: true
 tags: [foundation, math/logic, math/set-theory, prodos/sot]
 title: SoT - Core Fields of Mathematical Logic
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

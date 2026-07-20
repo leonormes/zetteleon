@@ -1,13 +1,13 @@
 ---
 aliases: [Data-First Challenges, DOD Curriculum, DOP Learning Path, Protocol - Data-Oriented Design]
+conformant: false
 created: 2025-12-31T00:00:00+00:00
-modified: 2026-07-13T08:52:45+00:00
+modified: 2026-07-20T16:33:52+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-curriculum-data-oriented-design
 tags: [curriculum, dop, exercises, learning-engine, practice]
 title: SoT - Curriculum - Data-Oriented Design
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SoT - Curriculum - Data-Oriented Design

@@ -1,13 +1,13 @@
 ---
 aliases: [ADHD Time Perception, Time Blindness]
+conformant: false
 created: 2025-11-06T19:53:02+00:00
-modified: 2026-07-13T08:52:32+00:00
+modified: 2026-07-20T16:34:23+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/time-agnosia-impairs-planning-for-developers-with-adhd
 tags: [planning, TheHuman/Health/ADHD, time-agnosia, time-management]
 title: Time Agnosia Impairs Planning for Developers with ADHD
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Time Agnosia Impairs Planning for Developers with ADHD

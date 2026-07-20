@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-07-10T10:12:15+00:00
 last_reviewed: ''
-modified: 2026-07-13T08:52:33+00:00
+modified: 2026-07-20T16:34:22+00:00
 permalink: llmeon/30-library/100-zettelkasten/world-wonder-skills-how-you-connect-to-the-world
 status: ''
 tags: []
@@ -25,9 +25,7 @@ _PSHE: Personal, Social, Health and Economic education is a key part of the curr
 
 [[A Concept Map for a Flourishing Human]]
 
-
 ## Related
 
 - [[Appreciation of Beauty is Noticing Excellence in the World]] - A primary element of these skills.
 - [[A Concept Map for a Flourishing Human]] - Provides the holistic context for how these skills fit into overall flourishing.
-

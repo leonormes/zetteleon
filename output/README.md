@@ -1,6 +1,6 @@
 ---
 created: 2026-05-10T00:00:00+00:00
-modified: 2026-07-04T10:50:30+00:00
+modified: 2026-07-20T16:32:34+00:00
 permalink: llmeon/output/readme
 tags: [agent-protocol, index, output]
 title: README

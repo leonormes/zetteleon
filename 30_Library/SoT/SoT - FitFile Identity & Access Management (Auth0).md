@@ -1,14 +1,14 @@
 ---
 aliases: [Auth0 Authentication Strategy, FitFile Identity Architecture]
+conformant: false
 created: 2025-09-23T08:41:59+00:00
-modified: 2026-07-13T08:52:47+00:00
+modified: 2026-07-20T16:33:50+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-fit-file-identity-access-management-auth0
 see_also: ["[[SoT - FitFile Deployment - Implementation Manual]]", "[[SoT - FitFile Deployment - Strategy & Architecture]]", "[[SoT - FitFile VSO Secrets Management]]"]
 tags: [auth0, ff_deploy, identity, security, sot]
 title: SoT - FitFile Identity & Access Management (Auth0)
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Executive Summary

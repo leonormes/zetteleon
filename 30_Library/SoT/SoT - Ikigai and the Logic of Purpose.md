@@ -1,13 +1,13 @@
 ---
 aliases: [Process-Based Purpose, The Anti-Venn Diagram, The True Meaning of Ikigai]
+conformant: false
 created: 2025-12-15T00:00:00+00:00
-modified: 2026-07-13T08:52:49+00:00
+modified: 2026-07-20T16:33:48+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-ikigai-and-the-logic-of-purpose
 tags: [ikigai, japanese_philosophy, meaning, process, purpose]
 title: SoT - Ikigai and the Logic of Purpose
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 2. Ikigai: The Two Models

@@ -2,7 +2,7 @@
 chart: k8s-monitoring 4.1.3 (alloy 1.8.1, Alloy app v1.16.1)
 cluster: testing
 created: 2026-06-04T00:00:00+00:00
-modified: 2026-07-13T08:52:06+00:00
+modified: 2026-07-20T16:34:15+00:00
 permalink: llmeon/30-library/200-projects/grafana-k8s-monitoring-cardinality-label-strategy-testing
 project_category: refined_deployment
 project_name: Refined Deployment

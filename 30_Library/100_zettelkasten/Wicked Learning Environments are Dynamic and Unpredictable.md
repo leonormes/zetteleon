@@ -1,13 +1,13 @@
 ---
 aliases: [Wicked Environment]
+conformant: false
 created: 2025-11-01T12:30:04+00:00
-modified: 2026-07-13T08:52:33+00:00
+modified: 2026-07-20T16:34:23+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/wicked-learning-environments-are-dynamic-and-unpredictable
 tags: [environment, learning, unpredictability]
 title: Wicked Learning Environments are Dynamic and Unpredictable
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Wicked Learning Environments Are Dynamic and Unpredictable

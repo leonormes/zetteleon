@@ -1,13 +1,13 @@
 ---
 aliases: []
+conformant: false
 created: 2025-11-01T09:51:13+00:00
-modified: 2026-07-13T08:52:25+00:00
+modified: 2026-07-20T16:34:32+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/confidence-as-trust-in-process-not-certainty-in-outcomes
 tags: [adaptation, confidence, mental-model, process, TheHuman/Mindset]
 title: Confidence as Trust in Process Not Certainty in Outcomes
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Confidence as Trust in Process Not Certainty in Outcomes

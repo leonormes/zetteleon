@@ -1,14 +1,14 @@
 ---
+conformant: false
 created: 2026-05-31T00:00:00+00:00
-modified: 2026-07-13T08:52:30+00:00
+modified: 2026-07-20T16:34:26+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/rejection-sensitive-dysphoria
 related_to: ["[[MOC - ADHD and PKM Systems]]"]
 supports: ["[[Claim - ADHD perfectionism is maladaptive compensation]]"]
 tags: [adhd, emotional-regulation, rsd]
 title: Rejection-Sensitive Dysphoria
 type: concept
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 An intense, often disproportionate emotional response to perceived failure, criticism or rejection, commonly associated with ADHD.

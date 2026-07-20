@@ -1,7 +1,7 @@
 ---
 aliases: [Inequality MOC, Social Stratification Index]
 created: 2025-12-10T12:00:00+00:00
-modified: 2026-07-13T08:52:39+00:00
+modified: 2026-07-20T16:33:57+00:00
 permalink: llmeon/30-library/mo-c/moc-social-stratification
 tags: [inequality, sociology, structure]
 title: MOC - Social Stratification

@@ -1,15 +1,15 @@
 ---
 aliases: []
+conformant: false
 created: 2025-10-30T00:00:00+00:00
-modified: 2026-07-13T08:52:24+00:00
+modified: 2026-07-20T16:34:33+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/balanced-relationships-involve-active-listening-remembering-events-offering-help-and-sharing-conversation-time
 source: '[[MOC - Understanding Self-Focus in Neurodivergent Individuals]]'
 tags: []
 title: Balanced relationships involve active listening remembering events offering help and sharing conversation time
   help and sharing conversation time help and sharing conversation time
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 In balanced, healthy relationships, people typically demonstrate several key behaviors that indicate appropriate levels of other-focus:

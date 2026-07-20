@@ -1,6 +1,6 @@
 ---
 created: 2026-06-22T14:56:01+00:00
-modified: 2026-07-04T10:50:08+00:00
+modified: 2026-07-20T16:33:15+00:00
 permalink: llmeon/raw/2026-05-18-pieces-brain-mcp-integration
 title: 2026-05-18-pieces-brain-mcp-integration
 ---

@@ -1,6 +1,6 @@
 ---
 created: 2026-07-02T08:18:56+00:00
-modified: 2026-07-04T10:52:08+00:00
+modified: 2026-07-20T16:33:31+00:00
 permalink: llmeon/00-inbox/spec-ftfl-525
 title: SPEC-FTFL-525
 type: note

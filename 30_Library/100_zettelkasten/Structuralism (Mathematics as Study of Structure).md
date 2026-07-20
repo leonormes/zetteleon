@@ -1,13 +1,13 @@
 ---
 aliases: []
+conformant: false
 created: 2025-11-01T11:22:13+00:00
-modified: 2026-07-13T08:52:31+00:00
+modified: 2026-07-20T16:34:25+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/structuralism-mathematics-as-study-of-structure
 tags: [structuralism, TheHuman/Philosophy, topic/maths]
 title: Structuralism (Mathematics as Study of Structure)
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Summary: Structuralism is a modern philosophical view that holds mathematics to be the study of abstract structures or patterns. The nature of individual objects within a structure is irrelevant; what matters is the web of relationships between them.

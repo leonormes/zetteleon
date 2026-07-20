@@ -1,13 +1,13 @@
 ---
 aliases: [50/50 Say on Finances]
+conformant: false
 created: 2025-11-10T10:12:00+00:00
-modified: 2026-07-13T08:52:29+00:00
+modified: 2026-07-20T16:34:27+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/partners-should-have-equal-say-in-financial-decisions-regardless-of-income
 tags: [budgeting, decision-making, equality, finance, relationship]
 title: Partners Should Have Equal Say in Financial Decisions Regardless of Income
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Partners Should Have Equal Say in Financial Decisions Regardless of Income

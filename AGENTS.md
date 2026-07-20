@@ -1,6 +1,6 @@
 ---
 created: 2026-04-28T00:00:00+00:00
-modified: 2026-07-04T10:50:38+00:00
+modified: 2026-07-20T16:33:35+00:00
 permalink: llmeon/agents
 tags: [agents, hermes, system]
 title: AGENTS

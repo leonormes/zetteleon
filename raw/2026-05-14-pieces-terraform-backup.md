@@ -1,6 +1,6 @@
 ---
 created: Invalid date
-modified: 2026-07-04T10:50:13+00:00
+modified: 2026-07-20T16:33:19+00:00
 permalink: llmeon/raw/2026-05-14-pieces-terraform-backup
 pieces_ids: [0c242825-29c4-4113-b6b3-01012755d790, 18aa90e5-225b-4968-af7a-a08d33aa88c3, 496b4c3b-2f7a-419c-bfc8-c8f39711eb07, 58df8212-81a5-456f-b04b-05ccb05cafcb, 5e8edf0f-dfb5-4ca2-ac07-92e8ce1fbd75, 8d36147c-97ce-4c05-acc6-30371c5994db, bafa1ee9-2c9d-4c1d-9723-11252d0d06f7, ca3abf4d-ae95-4217-93e7-df088203d727, e8bd6cf8-158f-4078-881a-4278b9e3d4e2, f274c12d-9883-4e8e-ab30-f27a53b705ab]
 source: pieces-ltm

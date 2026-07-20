@@ -1,16 +1,16 @@
 ---
 aliases: [Plonky3, Proof of SQL, Zero Knowledge Proofs, ZK Architecture]
+conformant: false
 created: 2026-01-06T19:46:24+00:00
 last_reviewed: null
-modified: 2026-07-13T08:52:56+00:00
+modified: 2026-07-20T16:33:41+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-zero-knowledge-architecture
 status: Active
 tags: [cryptography, data, rust, SoftwareEngineering/Architecture, zkp]
 title: SoT - Zero Knowledge Architecture
 type: sot
 updated: null
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SoT - Zero Knowledge Architecture

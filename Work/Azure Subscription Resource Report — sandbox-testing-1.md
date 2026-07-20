@@ -1,6 +1,6 @@
 ---
 created: 2026-04-30T12:34:36+00:00
-modified: 2026-07-04T10:50:35+00:00
+modified: 2026-07-20T16:33:33+00:00
 permalink: llmeon/work/azure-subscription-resource-report-sandbox-testing-1
 title: Azure Subscription Resource Report — sandbox-testing-1
 ---

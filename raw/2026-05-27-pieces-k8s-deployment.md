@@ -1,6 +1,6 @@
 ---
 created: Invalid date
-modified: 2026-07-04T10:49:47+00:00
+modified: 2026-07-20T16:33:00+00:00
 permalink: llmeon/raw/2026-05-27-pieces-k8s-deployment
 pieces_ids: [1eb3505c-e35f-4764-a4e6-9732b392efba, 525cd726-f815-48c3-8e82-14f856bbd283, bda117be-c7ee-4082-af53-aed98aef6511, eb92befa-5d20-400b-b20f-9260362af454]
 source: pieces-ltm

@@ -1,13 +1,13 @@
 ---
 aliases: [Dual needs satisfaction, Structure with flexibility]
+conformant: false
 created: 2025-10-30T18:05:00+00:00
-modified: 2026-07-13T08:52:25+00:00
+modified: 2026-07-20T16:34:32+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/combining-structure-with-flexibility-satisfies-neurodivergent-dual-needs
 tags: [autism, neurodivergence, routines, TheHuman/Health/ADHD]
 title: Combining structure with flexibility satisfies neurodivergent dual needs
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Combining structure with flexibility satisfies the dual needs of neurodivergent individuals—particularly those with co-occurring autism and ADHD—by providing the predictable framework that reduces anxiety while allowing the adaptation capacity that prevents rigidity-induced failure.

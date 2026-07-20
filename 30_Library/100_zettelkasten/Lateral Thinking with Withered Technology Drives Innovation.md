@@ -1,13 +1,13 @@
 ---
 aliases: [Withered Technology Innovation]
+conformant: false
 created: 2025-11-01T12:30:06+00:00
-modified: 2026-07-13T08:52:28+00:00
+modified: 2026-07-20T16:34:28+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/lateral-thinking-with-withered-technology-drives-innovation
 tags: [innovation, lateral-thinking, TheHuman/Creativity]
 title: Lateral Thinking with Withered Technology Drives Innovation
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Lateral Thinking with Withered Technology Drives Innovation

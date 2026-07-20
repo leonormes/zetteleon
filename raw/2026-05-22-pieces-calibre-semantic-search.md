@@ -1,6 +1,6 @@
 ---
 created: 2026-05-22T12:30:00+00:00
-modified: 2026-07-04T10:49:55+00:00
+modified: 2026-07-20T16:33:05+00:00
 permalink: llmeon/raw/2026-05-22-pieces-calibre-semantic-search
 pieces_ids: [10a3d3e1-1cd2-4777-92ac-aae9c9a6dffe, 32b9c984-dcfe-41f9-b896-a9680c02b8c3, 3b698fd5-a1d3-4fed-a9bd-2798d6a50dfa, 47332891-902c-4b0a-badf-6cbd31e69336, 61d5ea5e-9ce6-4f7b-b94b-a5db310038fc, 6f2dc9ac-6ad4-41ed-b9c8-7b5e1e86e830, 7c890f05-212c-4e8c-99c3-3ec4b73a369a, 8b06088b-d3cc-4b76-930f-f2b311008b6c, 9a160297-7df1-48ab-8e90-a13a63e0fe90, 9b2e947b-4970-49e5-874a-1cd317022ab9, add67161-349a-4c86-96c8-23d07ffec735, c033815c-da14-4a08-8349-fe1dbdf7e85b, f8aac3ee-37b9-46fc-a23f-cb05c8e7694c]
 source: pieces-ltm

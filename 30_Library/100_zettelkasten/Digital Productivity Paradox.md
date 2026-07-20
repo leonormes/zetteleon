@@ -2,7 +2,7 @@
 created: 2026-04-14T20:47:07+00:00
 created_utc: '2026-04-14T14:20:00Z'
 kind: claim
-modified: 2026-07-13T08:52:25+00:00
+modified: 2026-07-20T16:34:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/digital-productivity-paradox
 source_title: Why Is AI Making My Job Worse?
 source_url: http://www.youtube.com/watch?v=NDyuJcR2GH4

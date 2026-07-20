@@ -1,7 +1,7 @@
 ---
 captured: 2026-06-10T08:52:52+01:00 2026-06-10T08:52:52+01:00
 created: 2026-06-10T07:52:55+00:00
-modified: 2026-07-04T10:52:01+00:00
+modified: 2026-07-20T16:34:34+00:00
 permalink: llmeon/20-thinking/21-workbench/head-words-and-their-meanings-semiotics
 source: https://claude.ai/chat/0757b13d-e0da-49ef-98af-b471259106ea
 status: processing

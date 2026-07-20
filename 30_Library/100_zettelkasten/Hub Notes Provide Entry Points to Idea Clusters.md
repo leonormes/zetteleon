@@ -1,13 +1,13 @@
 ---
 aliases: [Access Points, Entry Point Notes, Hub Notes]
+conformant: false
 created: 2025-10-30T15:33:36+00:00
-modified: 2026-07-13T08:52:27+00:00
+modified: 2026-07-20T16:34:29+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/hub-notes-provide-entry-points-to-idea-clusters
 tags: [navigation, structure, topic/pkm, topic/pkm/zettelkasten]
 title: Hub Notes Provide Entry Points to Idea Clusters
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Hub Notes Provide Entry Points to Idea Clusters

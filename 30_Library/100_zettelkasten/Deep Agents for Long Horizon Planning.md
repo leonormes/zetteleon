@@ -3,7 +3,7 @@ aliases: []
 created: 2025-10-10T08:34:04+00:00
 id: 20251008_Deep_Agents_for_Long_Horizon_Planning
 last_reviewed: ''
-modified: 2026-07-13T08:52:25+00:00
+modified: 2026-07-20T16:34:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/deep-agents-for-long-horizon-planning
 status: ''
 tags: [LangGraph, Planning, SoftwareEngineering/AI, SoftwareEngineering/AI/agents]

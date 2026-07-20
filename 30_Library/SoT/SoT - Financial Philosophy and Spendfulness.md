@@ -1,13 +1,13 @@
 ---
 aliases: [Financial Physics, Money as Energy, Ontology of Money, Spendfulness]
+conformant: false
 created: 2025-12-30T15:50:00+00:00
-modified: 2026-07-13T08:52:46+00:00
+modified: 2026-07-20T16:33:50+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-financial-philosophy-and-spendfulness
 tags: [finance, ontology, physics, psychology, TheHuman/Mindset]
 title: SoT - Financial Philosophy and Spendfulness
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SoT - Financial Philosophy and Spendfulness
@@ -73,7 +73,6 @@ To trigger healthy spending adjustments without willpower, we induce Perceived S
 
 ## Related
 
-- [[Give Every Dollar a Job (YNAB Rule 1)]] — _The hierarchy of jobs and questions for allocating new funds._
-- [[Reactive Spending Creates Financial Stress]] — _The spend-first, categorize-later approach as a source of anxiety._
-- [[MOC - Family & Finance]] — _The method, psychology, and implementation of zero-based budgeting._
-
+- [[Give Every Dollar a Job (YNAB Rule 1)]]—_The hierarchy of jobs and questions for allocating new funds._
+- [[Reactive Spending Creates Financial Stress]]—_The spend-first, categorize-later approach as a source of anxiety._
+- [[MOC - Family & Finance]]—_The method, psychology, and implementation of zero-based budgeting._

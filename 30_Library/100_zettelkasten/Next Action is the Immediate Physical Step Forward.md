@@ -1,13 +1,13 @@
 ---
 aliases: [Next Action, Next Physical Action]
+conformant: false
 created: 2025-11-01T20:22:24+00:00
-modified: 2026-07-13T08:52:29+00:00
+modified: 2026-07-20T16:34:27+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/next-action-is-the-immediate-physical-step-forward
 tags: [action, execution, gtd, topic/productivity]
 title: Next Action is the Immediate Physical Step Forward
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Summary: The "next action" is the immediate, concrete, physical step required to move a project forward. Defining it is essential because it bridges the gap between abstract projects and tangible doing.

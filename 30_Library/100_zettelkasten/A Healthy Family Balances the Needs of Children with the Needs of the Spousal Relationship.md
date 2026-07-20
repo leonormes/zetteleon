@@ -1,14 +1,14 @@
 ---
 aliases: [Balancing Family Needs]
+conformant: false
 created: 2025-11-10T10:19:00+00:00
-modified: 2026-07-13T08:52:23+00:00
+modified: 2026-07-20T16:34:33+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/a-healthy-family-balances-the-needs-of-children-with-the-needs-of-the-spousal-relationship
 tags: [boundaries, family, needs, parenting, relationship]
 title: A Healthy Family Balances the Needs of Children with the Needs of the Spousal Relationship
   Relationship Relationship
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## A Healthy Family Balances the Needs of Children with the Needs of the Spousal Relationship

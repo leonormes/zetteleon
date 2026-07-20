@@ -1,13 +1,13 @@
 ---
 aliases: [felt vs actual importance, significance-substance gap]
+conformant: false
 created: 2025-10-31T20:48:00+00:00
-modified: 2026-07-13T08:52:26+00:00
+modified: 2026-07-20T16:34:30+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/felt-significance-of-thoughts-can-mislead-about-their-substance
 tags: [critical-thinking, metacognition, TheHuman/Cognition]
 title: Felt significance of thoughts can mislead about their substance
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Felt Significance of Thoughts Can Mislead about Their Substance

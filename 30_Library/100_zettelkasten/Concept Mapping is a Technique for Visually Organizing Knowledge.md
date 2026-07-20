@@ -1,13 +1,13 @@
 ---
 aliases: [Concept Mapping]
+conformant: false
 created: 2025-11-10T16:11:00+00:00
-modified: 2026-07-13T08:52:25+00:00
+modified: 2026-07-20T16:34:32+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/concept-mapping-is-a-technique-for-visually-organizing-knowledge
 tags: [concept-mapping, learning, understanding, visualization]
 title: Concept Mapping is a Technique for Visually Organizing Knowledge
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Concept Mapping is a Technique for Visually Organizing Knowledge

@@ -1,6 +1,6 @@
 ---
 created: 2026-04-29T08:34:47+00:00
-modified: 2026-07-04T10:50:28+00:00
+modified: 2026-07-20T16:33:29+00:00
 permalink: llmeon/raw/2026-04-29-pieces-general
 pieces_ids: [18052b1a-3d8b-43cc-8b02-f0bac29324f5, 3a5452ee-f7cc-45fe-b1d1-c302d2736975, 4b15e9a5-1ec5-444f-86ac-552acf466ffd, 4b491f1c-b2b7-4e11-8bd5-318ca651967b, a0f6c57f-f04a-4e3c-937b-e307b1a296d1, abb574af-d887-4611-bbdf-5b15aabf7339, b8cb073f-dd7b-4efa-bd4d-6ae1e94e7a3c, c29b18d3-cefa-4937-9987-62546deaccfe, dd2b39c3-3e7a-4e4b-867e-56235b825c43]
 source: pieces-ltm

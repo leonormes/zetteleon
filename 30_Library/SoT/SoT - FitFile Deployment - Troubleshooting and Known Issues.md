@@ -1,13 +1,13 @@
 ---
 aliases: [Deployment Troubleshooting, Known Issues, Recovery Procedures]
+conformant: false
 created: 2026-02-01T15:05:00+00:00
-modified: 2026-07-13T08:52:47+00:00
+modified: 2026-07-20T16:33:50+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-fit-file-deployment-troubleshooting-and-known-issues
 tags: [ff_deploy, ops, sot, troubleshooting]
 title: SoT - FitFile Deployment - Troubleshooting and Known Issues
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Overview

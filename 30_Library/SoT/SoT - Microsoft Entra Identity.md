@@ -1,17 +1,17 @@
 ---
 aliases: [Azure AD, Entra ID, Microsoft Entra Identity]
+conformant: false
 created: 2026-04-05T10:15:00+00:00
 last-synthesis: 2026-04-05
 last_reviewed: null
-modified: 2026-07-13T08:52:50+00:00
+modified: 2026-07-20T16:33:46+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-microsoft-entra-identity
 status: Active
 synthesis-count: 1
 tags: [azure, iam, security, sot]
 title: SoT - Microsoft Entra Identity
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

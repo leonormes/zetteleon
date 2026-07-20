@@ -1,13 +1,13 @@
 ---
 aliases: []
+conformant: false
 created: 2025-11-01T09:51:13+00:00
-modified: 2026-07-13T21:51:36+00:00
+modified: 2026-07-20T16:34:25+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/ship-of-theseus-as-model-for-constructed-self
 tags: [metaphor, self, TheHuman/Identity, TheHuman/Philosophy, topic/philosophy]
 title: Ship of Theseus as Model for Constructed Self
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Ship of Theseus as Model for Constructed Self

@@ -1,6 +1,6 @@
 ---
 created: 2026-02-05T21:05:00+00:00
-modified: 2026-07-13T08:52:58+00:00
+modified: 2026-07-20T16:33:39+00:00
 permalink: llmeon/30-library/ops/protocol-legacy-to-cue-migration-strategy
 status: active
 tags: [cue, devops, helm, infra, migration, protocol]
@@ -110,9 +110,7 @@ To verify the migration is safe to proceed to the next step:
 1. Deterministic Output: Running the generator twice produces identical SHA sums.
 2. Legacy Match: `cue export` output matches `helm template` baseline (ignoring whitespace/comments).
 
-
 ## Related
 
 - [[Protocol - Helm to CUE Migration]]
 - [[SoT - Strategy - Helm to CUE Migration]]
-

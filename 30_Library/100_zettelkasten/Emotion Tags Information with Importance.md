@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-09-05T06:22:44+00:00
 last_reviewed: ''
-modified: 2026-07-13T08:52:26+00:00
+modified: 2026-07-20T16:34:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/emotion-tags-information-with-importance
 status: ''
 tags: [amygdala, emotion, memory, TheHuman/Cognition, TheHuman/Cognition/mental-model]

@@ -1,12 +1,12 @@
 ---
+conformant: false
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-07-13T08:52:24+00:00
+modified: 2026-07-20T16:34:32+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/cli-ai-automation-can-ingest-external-data-streams-into-markdown-vaults
 tags: [api-ingestion, automation, claude-code, obsidian, second-brain]
 title: CLI-AI Automation Can Ingest External Data Streams into Markdown Vaults
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## CLI-AI Automation Can Ingest External Data Streams into Markdown Vaults

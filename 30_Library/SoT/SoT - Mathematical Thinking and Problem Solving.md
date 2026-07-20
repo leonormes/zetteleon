@@ -1,14 +1,14 @@
 ---
+conformant: false
 created: 2026-05-23T13:37:04+00:00
 last-synthesis: 2026-05-23
-modified: 2026-07-13T08:52:50+00:00
+modified: 2026-07-20T16:33:47+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-mathematical-thinking-and-problem-solving
 source_of_truth: true
 tags: [domain/mathematics, type/SoT]
 title: SoT - Mathematical Thinking and Problem Solving
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)
@@ -36,6 +36,6 @@ True mathematical fluency requires transcending the "rigorous" stage of formal r
 
 ## Related
 
-- [[Writing as Cognitive Rigour]] — _Writing is the primary tool for achieving technical and mathematical rigour._
-- [[Formalism (Mathematics as Symbol Manipulation)]] — _Mathematics as the manipulation of meaningless symbols according to pre-defined rules._
-- [[Analytical Rigour Applies to Facts, the Ecological Model to Values]] — _Mathematical theorems possess singular axiomatic truths._
+- [[Writing as Cognitive Rigour]]—_Writing is the primary tool for achieving technical and mathematical rigour._
+- [[Formalism (Mathematics as Symbol Manipulation)]]—_Mathematics as the manipulation of meaningless symbols according to pre-defined rules._
+- [[Analytical Rigour Applies to Facts, the Ecological Model to Values]]—_Mathematical theorems possess singular axiomatic truths._

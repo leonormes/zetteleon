@@ -1,13 +1,13 @@
 ---
 aliases: [Namespace Architecture, Resource Isolation Patterns]
+conformant: false
 created: 2025-12-13T08:50:56+00:00
-modified: 2026-07-13T08:52:51+00:00
+modified: 2026-07-20T16:33:46+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-namespacing-in-computing
 tags: [isolation, kubernetes, SoftwareEngineering/Architecture, SoftwareEngineering/Linux, SoftwareEngineering/Networking]
 title: SoT - Namespacing in Computing
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Definitive Statement

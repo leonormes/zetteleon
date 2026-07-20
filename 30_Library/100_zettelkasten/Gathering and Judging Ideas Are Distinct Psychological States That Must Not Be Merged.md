@@ -1,13 +1,13 @@
 ---
+conformant: false
 created: 2026-04-10T00:00:00+00:00
-modified: 2026-07-13T08:52:27+00:00
+modified: 2026-07-20T16:34:30+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/gathering-and-judging-ideas-are-distinct-psychological-states-that-must-not-be-merged
 tags: [cognition, gtd, psychology, workflow]
 title: Gathering and Judging Ideas Are Distinct Psychological States That Must Not Be Merged
   Be Merged Be Merged
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Gathering and Judging Ideas Are Distinct Psychological States That Must Not Be Merged

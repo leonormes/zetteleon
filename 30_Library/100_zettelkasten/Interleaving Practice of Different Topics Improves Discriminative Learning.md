@@ -1,13 +1,13 @@
 ---
 aliases: [Interleaving, Varied Practice]
+conformant: false
 created: 2025-11-10T16:10:00+00:00
-modified: 2026-07-13T08:52:28+00:00
+modified: 2026-07-20T16:34:29+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/interleaving-practice-of-different-topics-improves-discriminative-learning
 tags: [interleaving, learning, TheHuman/Habits]
 title: Interleaving Practice of Different Topics Improves Discriminative Learning
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Interleaving Practice of Different Topics Improves Discriminative Learning

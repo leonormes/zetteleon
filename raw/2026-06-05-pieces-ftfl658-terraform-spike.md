@@ -1,6 +1,6 @@
 ---
 created: 2026-06-05T13:52:21+00:00
-modified: 2026-07-04T10:49:24+00:00
+modified: 2026-07-20T16:32:38+00:00
 permalink: llmeon/raw/2026-06-05-pieces-ftfl658-terraform-spike
 pieces_ids: [990f2d90-c3fa-4705-99df-0b1901f78e89, 9c005f05-45d6-4a43-8256-54ed7cf360ae]
 source: pieces-ltm

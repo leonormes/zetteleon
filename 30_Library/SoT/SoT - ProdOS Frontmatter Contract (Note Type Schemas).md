@@ -1,34 +1,19 @@
 ---
-title: SoT - ProdOS Frontmatter Contract (Note Type Schemas)
-created: 2026-07-17
-modified: 2026-07-17
-tags: [prodos/sot, domain/pkm, topic/frontmatter]
-aliases: [Frontmatter Contract, FrontmatterContract, TAC Frontmatter Schema, Note Type Schemas]
-prodos:
-  kind: sot
-  lifecycle: stable
-  trust: authoritative
-  review:
-    interval: 6 months
-    last_reviewed: 2026-07-17
-  chronos:
-    last_synthesis: 2026-07-17
-    synthesis_count: 1
-see_also:
-  - "[[SoT - Typed Answer Contract (TAC) for LLM Output]]"
-  - "[[Protocol - Typed Answer Contract (TAC) for Vault Agents]]"
-  - "[[Goal - Frontmatter Bulk Migration (Phase 3)]]"
-  - "[[SoT - PRODOS Core Specification]]"
+aliases: [Frontmatter Contract, FrontmatterContract, Note Type Schemas, TAC Frontmatter Schema]
+created: 2026-07-17T00:00:00+00:00
+modified: 2026-07-20T16:33:41+00:00
 permalink: llmeon/30-library/so-t/so-t-prodos-frontmatter-contract-note-type-schemas
-supersedes:
-  - "[[Typed-Answer-Contract-RAG]]"
+see_also: ["[[Goal - Frontmatter Bulk Migration (Phase 3)]]", "[[Protocol - Typed Answer Contract (TAC) for Vault Agents]]", "[[SoT - PRODOS Core Specification]]", "[[SoT - Typed Answer Contract (TAC) for LLM Output]]"]
+supersedes: ["[[Typed-Answer-Contract-RAG]]"]
+tags: [domain/pkm, prodos/sot, topic/frontmatter]
+title: SoT - ProdOS Frontmatter Contract (Note Type Schemas)
 ---
 
-> **Canonical status:** this note is the authoritative frontmatter schema spec for the vault, superseding the same content previously living inside the `20_Thinking/21_Workbench/Typed-Answer-Contract-RAG.md` scratch note (now retired to `.trash/`). `AGENTS.md`, `sys_merger`, and every prompt with a `## TAC FRONTMATTER COMPLIANCE (MANDATORY)` block link here. Section numbers (§1–§9) are preserved unchanged from the workbench version so existing citations by number remain correct.
+> Canonical status: this note is the authoritative frontmatter schema spec for the vault, superseding the same content previously living inside the `20_Thinking/21_Workbench/Typed-Answer-Contract-RAG.md` scratch note (now retired to `.trash/`). `AGENTS.md`, `sys_merger`, and every prompt with a `## TAC FRONTMATTER COMPLIANCE (MANDATORY)` block link here. Section numbers (§1–§9) are preserved unchanged from the workbench version so existing citations by number remain correct.
 
 ## Minimum Viable Understanding (MVU)
 
-Every note's frontmatter is a typed data contract, not free-form YAML. An agent editing or creating a note must fill in the required `FrontmatterContract` fields (§2) — and, for the five canonical knowledge-node types, the type-specific schema (§3) — or explicitly set `conformant: false` with a `non_conformance_reason` rather than writing an incomplete or guessed frontmatter block. This is the frontmatter-specific instance of the vault's broader Typed Answer Contract principle (see [[SoT - Typed Answer Contract (TAC) for LLM Output]] for the output/prose-side instance, and [[Protocol - Typed Answer Contract (TAC) for Vault Agents]] for the enforcement callout used across prompts).
+Every note's frontmatter is a typed data contract, not free-form YAML. An agent editing or creating a note must fill in the required `FrontmatterContract` fields (§2)—and, for the five canonical knowledge-node types, the type-specific schema (§3)—or explicitly set `conformant: false` with a `non_conformance_reason` rather than writing an incomplete or guessed frontmatter block. This is the frontmatter-specific instance of the vault's broader Typed Answer Contract principle (see [[SoT - Typed Answer Contract (TAC) for LLM Output]] for the output/prose-side instance, and [[Protocol - Typed Answer Contract (TAC) for Vault Agents]] for the enforcement callout used across prompts).
 
 ## 1. Typed Answer Contracts (TAC) Overview
 
@@ -135,18 +120,18 @@ _(Note: As the TAC architecture rolls out, elements of `prodos` may be fully mig
 
 ## 6. Legacy Frontmatter Mapping (Migration Table)
 
-> Formalised 2026-07-17. [[Goal - Frontmatter Bulk Migration (Phase 3)]] cited this section by number before it existed in this document — the table below is that migration's own mapping rules, promoted here so the spec and the prompt that depends on it actually agree. No new policy invented; this is what the 2026-07-11 migration run already used.
+> Formalised 2026-07-17. [[Goal - Frontmatter Bulk Migration (Phase 3)]] cited this section by number before it existed in this document—the table below is that migration's own mapping rules, promoted here so the spec and the prompt that depends on it actually agree. No new policy invented; this is what the 2026-07-11 migration run already used.
 
-Legacy `type` values map to `prodos.kind` as follows (folder context disambiguates ties — see §7):
+Legacy `type` values map to `prodos.kind` as follows (folder context disambiguates ties—see §7):
 
 | Legacy `type` (context) | Target |
 |:---|:---|
 | `concept`, `atom`, `permanent`, `note`, `''`, `null`, `'null'` (in `100_zettelkasten/`) | `prodos.kind: atomic`; set `prodos.atomic.form: concept` unless tags indicate `hypothesis`/`claim`/`definition` |
 | `SoT` / `sot` | `prodos.kind: sot`; if filename starts `Protocol - `, use `prodos.kind: protocol` instead and top-level `type: protocol` |
 | `daily` | `prodos.kind: journal` |
-| `map` | `prodos.kind: moc` (top-level `type` stays `map` — `moc` is the routing kind, not the FrontmatterContract type) |
+| `map` | `prodos.kind: moc` (top-level `type` stays `map`—`moc` is the routing kind, not the FrontmatterContract type) |
 | `command`, `atomic_command`, `playbook` | `prodos.kind: ops`; keep disambiguation (`cmd` vs `playbook`) in `tags` |
-| anything else | Do NOT guess — log to an exceptions report for human decision |
+| anything else | Do NOT guess—log to an exceptions report for human decision |
 
 Legacy key renames (apply after the type mapping above):
 
@@ -157,15 +142,15 @@ Legacy key renames (apply after the type mapping above):
 | `last_reviewed`, `review_interval` | `prodos.review.*` |
 | `last_synthesis`, `synthesis-count` | `prodos.chronos.*` |
 | `id`, `ID`, `uid` | `prodos.id` |
-| `updated`, `creation_date` | Delete — but only after preserving their value into `created`/`modified` if those are missing. |
+| `updated`, `creation_date` | Delete—but only after preserving their value into `created`/`modified` if those are missing. |
 
-Hard rules: if a note already has a `prodos` object, merge — never overwrite existing `prodos` values with legacy-derived ones. Never delete a legacy value that could not be mapped; exceptions keep their legacy keys untouched.
+Hard rules: if a note already has a `prodos` object, merge—never overwrite existing `prodos` values with legacy-derived ones. Never delete a legacy value that could not be mapped; exceptions keep their legacy keys untouched.
 
 ---
 
 ## 7. Folder-to-`prodos.kind` Normativity
 
-> Formalised 2026-07-17, referenced as "§3.2" by [[Goal - Frontmatter Bulk Migration (Phase 3)]] before this section existed. The table is inferred from actual vault folder structure and the §6 mapping above — treat it as a strong default, not an unquestionable law; a note's content can override its folder's default `prodos.kind` when the two genuinely disagree.
+> Formalised 2026-07-17, referenced as "§3.2" by [[Goal - Frontmatter Bulk Migration (Phase 3)]] before this section existed. The table is inferred from actual vault folder structure and the §6 mapping above—treat it as a strong default, not an unquestionable law; a note's content can override its folder's default `prodos.kind` when the two genuinely disagree.
 
 The folder a note lives in is normative for its expected `prodos.kind`, absent a stronger signal from the note's own `type`/content:
 
@@ -188,9 +173,9 @@ When a note's folder and its content-inferred `prodos.kind` disagree, trust the 
 
 > Formalised 2026-07-17, referenced as "§8 priority" by [[Goal - Frontmatter Bulk Migration (Phase 3)]] before this section existed.
 
-TAC governs frontmatter in: `30_Library/**`, `20_Thinking/**`, `10_System/**`, `01_journals/**`, `00_Inbox/**`. It never governs: `raw/` (sealed), `wiki/` (own dossier schema), `output/`, `.trash/`, `.obsidian/`, `AGENTS.md`, `index.md`, `log.md`.
+TAC governs frontmatter in: `30_Library/`, `20_Thinking/`, `10_System/`, `01_journals/`, `00_Inbox/`. It never governs: `raw/` (sealed), `wiki/` (own dossier schema), `output/`, `.trash/`, `.obsidian/`, `AGENTS.md`, `index.md`, `log.md`.
 
-When multiple notes need bringing into conformance at once, prioritise in this order (highest-traffic, most-linked-against first): `30_Library/MoC/` and `30_Library/SoT/` and `30_Library/ops/` → `30_Library/100_zettelkasten/` → `30_Library/200_Projects/`, `20_Thinking/`, `10_System/`, `01_journals/`. A specific bulk-migration run may checkpoint this into dated batches with git commits — see [[Goal - Frontmatter Bulk Migration (Phase 3)]] for that operational detail; this section states the priority principle only.
+When multiple notes need bringing into conformance at once, prioritise in this order (highest-traffic, most-linked-against first): `30_Library/MoC/` and `30_Library/SoT/` and `30_Library/ops/` → `30_Library/100_zettelkasten/` → `30_Library/200_Projects/`, `20_Thinking/`, `10_System/`, `01_journals/`. A specific bulk-migration run may checkpoint this into dated batches with git commits—see [[Goal - Frontmatter Bulk Migration (Phase 3)]] for that operational detail; this section states the priority principle only.
 
 ---
 
@@ -200,10 +185,10 @@ When multiple notes need bringing into conformance at once, prioritise in this o
 
 The canonical validator is `gemini-scribe/scripts/validate_note_frontmatter.py`, run over the vault after any bulk migration to confirm every in-scope note satisfies §2 (FrontmatterContract) and, where applicable, §3 (the 5 canonical note-type schemas).
 
-**Status: this script does not currently exist in the repository** (checked 2026-07-17 — no `gemini-scribe/` directory found in the vault). Any prompt or process that assumes it can run this validation will fail until the script is written. Until then, conformance checking is manual: spot-check `conformant`/`non_conformance_reason` presence and `type` enum membership per §2.
+Status: this script does not currently exist in the repository (checked 2026-07-17—no `gemini-scribe/` directory found in the vault). Any prompt or process that assumes it can run this validation will fail until the script is written. Until then, conformance checking is manual: spot-check `conformant`/`non_conformance_reason` presence and `type` enum membership per §2.
 
 ## Tensions & Gaps
 
-- **Validator doesn't exist yet.** §9 documents an aspirational tool path (`gemini-scribe/scripts/validate_note_frontmatter.py`) that has not been written. Conformance is currently self-reported and spot-checked, not machine-enforced.
-- **Two parallel schemas in flight.** Notes may carry either the flatter legacy schema (`type`, `conformant`, `non_conformance_reason` at top level) or the modern `prodos:` nested object — §6 exists precisely because both are live simultaneously during the migration. Don't assume one schema is universal until migration is complete.
-- **`type` enum collision with routing `prodos.kind`.** §6's `map` → `prodos.kind: moc` mapping is a reminder that the top-level `type` field and `prodos.kind` are not always the same string — read both before assuming a note's category.
+- Validator doesn't exist yet. §9 documents an aspirational tool path (`gemini-scribe/scripts/validate_note_frontmatter.py`) that has not been written. Conformance is currently self-reported and spot-checked, not machine-enforced.
+- Two parallel schemas in flight. Notes may carry either the flatter legacy schema (`type`, `conformant`, `non_conformance_reason` at top level) or the modern `prodos:` nested object—§6 exists precisely because both are live simultaneously during the migration. Don't assume one schema is universal until migration is complete.
+- `type` enum collision with routing `prodos.kind`. §6's `map` → `prodos.kind: moc` mapping is a reminder that the top-level `type` field and `prodos.kind` are not always the same string—read both before assuming a note's category.

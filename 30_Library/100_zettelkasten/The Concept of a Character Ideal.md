@@ -2,7 +2,7 @@
 aliases: [Character Ideal, Virtue Ethics]
 created: 2025-07-16T17:30:02+00:00
 last_reviewed: 'null'
-modified: 2026-07-10T12:08:00+01:00
+modified: 2026-07-20T16:34:24+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-concept-of-a-character-ideal
 status: 'null'
 tags: [character, ethics, topic/philosophy, virtue]
@@ -24,8 +24,6 @@ The character ideal is not a rigid standard for perfect conformity, but a guide 
 - [[MOC - Character and Virtue]] - _The comprehensive map organizing all notes related to the VIA framework._
 - [[VIA Virtue of Courage]] - _An example of an Aristotelian golden mean applied within the VIA framework._
 
-
 ## Related
 
 - [[MOC - Character and Virtue]] - Provides a framework for understanding character through positive psychology.
-

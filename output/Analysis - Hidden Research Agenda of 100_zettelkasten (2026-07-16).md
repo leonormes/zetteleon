@@ -1,7 +1,7 @@
 ---
 created: 2026-07-16T00:00:00+00:00
 method: full link-graph extraction, keyword clustering, hub reading, bridge tracing
-modified: 2026-07-16T09:40:53+00:00
+modified: 2026-07-20T16:32:35+00:00
 permalink: llmeon/output/analysis-hidden-research-agenda-of-100-zettelkasten-2026-07-16
 scope: 30_Library/100_zettelkasten (1,110 notes)
 title: Analysis - Hidden Research Agenda of 100_zettelkasten (2026-07-16)

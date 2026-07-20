@@ -6,7 +6,7 @@ jira_id: '28767'
 jira_key: FTFL-512
 jira_url: https://fitfile.atlassian.net/browse/FTFL-512
 labels: [API]
-modified: 2026-07-04T10:50:33+00:00
+modified: 2026-07-20T16:33:31+00:00
 permalink: llmeon/jira/ftfl-512-nginx-302-exposes-information
 priority: Low
 reporter: Ollie Rushton

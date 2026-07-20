@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-19T23:58:53+00:00
 last_reviewed: ''
-modified: 2026-07-13T08:52:30+00:00
+modified: 2026-07-20T16:34:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/replace-deep-focus-marathons-with-repeatable-micro-pipelines
 status: ''
 tags: [topic/pkm]
@@ -20,8 +20,7 @@ This technique is a form of [[Timeboxing for ADHD Management]] that creates stru
 
 This approach contrasts with unstructured [[Deep Dive Sessions for ADHD (Adapted GTD Next Actions)]] and is a core component of [[ADHD Behavioral Strategies for Productivity]]. It helps build [[Consistency and Momentum]] and is a strategy for [[Overcoming Intelligent Paralysis MOC]].
 
-
 ## Related
+
 - [[Structured Collaboration Systems Replace Hyperactive Hive-Mind Messaging Cultures]]
 - [[Deep Dive Sessions for ADHD (Adapted GTD Next Actions)]]
-

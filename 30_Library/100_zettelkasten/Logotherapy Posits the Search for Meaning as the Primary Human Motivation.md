@@ -1,12 +1,12 @@
 ---
+conformant: false
 created: 2026-04-10T00:00:00+00:00
-modified: 2026-07-13T08:52:28+00:00
+modified: 2026-07-20T16:34:28+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/logotherapy-posits-the-search-for-meaning-as-the-primary-human-motivation
 tags: [logotherapy, meaning, philosophy, psychology]
 title: Logotherapy Posits the Search for Meaning as the Primary Human Motivation
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Logotherapy Posits the Search for Meaning as the Primary Human Motivation

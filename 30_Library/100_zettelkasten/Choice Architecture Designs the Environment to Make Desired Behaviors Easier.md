@@ -1,13 +1,13 @@
 ---
 aliases: [Choice Architecture, Nudge Theory]
+conformant: false
 created: 2025-11-10T17:13:00+00:00
-modified: 2026-07-13T08:52:24+00:00
+modified: 2026-07-20T16:34:32+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/choice-architecture-designs-the-environment-to-make-desired-behaviors-easier
 tags: [behavior-change, design, environment, nudge, TheHuman/Psychology]
 title: Choice Architecture Designs the Environment to Make Desired Behaviors Easier
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Choice Architecture Designs the Environment to Make Desired Behaviors Easier

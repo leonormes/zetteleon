@@ -1,13 +1,13 @@
 ---
 aliases: []
+conformant: false
 created: 2025-11-01T09:51:13+00:00
-modified: 2026-07-13T08:52:32+00:00
+modified: 2026-07-20T16:34:23+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/the-self-is-constructed-through-curation-of-influences
 tags: [agency, curation, self-construction, TheHuman/Identity, TheHuman/Psychology]
 title: The Self is Constructed Through Curation of Influences
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## The Self is Constructed Through Curation of Influences

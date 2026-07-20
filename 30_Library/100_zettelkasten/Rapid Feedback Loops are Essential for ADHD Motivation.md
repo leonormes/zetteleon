@@ -1,13 +1,13 @@
 ---
 aliases: [Rapid Feedback Loops]
+conformant: false
 created: 2025-11-12T15:00:06+00:00
-modified: 2026-07-13T08:52:30+00:00
+modified: 2026-07-20T16:34:26+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/rapid-feedback-loops-are-essential-for-adhd-motivation
 tags: [dopamine, feedback, TheHuman/Health/ADHD, TheHuman/Motivation]
 title: Rapid Feedback Loops are Essential for ADHD Motivation
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Rapid Feedback Loops Are Essential for ADHD Motivation

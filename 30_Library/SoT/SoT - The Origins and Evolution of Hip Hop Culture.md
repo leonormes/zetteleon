@@ -1,13 +1,13 @@
 ---
 aliases: [Breakdance Origins, Four Elements of Hip Hop, Hip Hop Culture SoT, Hip Hop History]
+conformant: false
 created: 2025-12-12T00:00:00+00:00
-modified: 2026-07-13T08:52:55+00:00
+modified: 2026-07-20T16:33:42+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-the-origins-and-evolution-of-hip-hop-culture
 tags: [art, culture, dance, hip_hop, history, music]
 title: SoT - The Origins and Evolution of Hip Hop Culture
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 > Hip Hop is a cultural movement that emerged in the 1970s South Bronx as a creative response to systemic neglect and urban decay. It is defined by Four Core Elements: "DJing (Aural), MCing (Oral), B-Boying/Breaking (Physical), and Graffiti (Visual)."
@@ -90,9 +90,7 @@ The "Commercialization vs. Authenticity" tension defines the modern era.
 - Key Text: _Can't Stop Won't Stop_ by Jeff Chang.
 - Related Concept: [[Expressive Music Organically Builds Its Own Scene]]
 
-
 ## Related
 
 - [[Expressive Music Organically Builds Its Own Scene]]
 - [[Authentic Music Creates Communities While Commercial Music Creates Consumers]]
-

@@ -1,13 +1,13 @@
 ---
 aliases: [Cognitive Physiology, Initiation, Mood Repair Trap, Task Execution Stages]
+conformant: false
 created: 2025-12-10T00:00:00+00:00
-modified: 2026-07-13T16:20:02+00:00
+modified: 2026-07-20T16:33:43+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-the-cognitive-physiology-of-task-execution
 tags: [prodos, productivity, task_management, TheHuman/Cognition, TheHuman/Neuroscience]
 title: SoT - The Cognitive Physiology of Task Execution
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 > ProdOS Design Goal: " To decouple these phases into distinct tool-supported steps."

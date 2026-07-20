@@ -3,7 +3,7 @@ aliases: []
 created: 2025-02-07T12:57:55+00:00
 ID: 2e
 last_reviewed: ''
-modified: 2026-07-13T08:52:28+00:00
+modified: 2026-07-20T16:34:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/knowledge-enables-power
 status: ''
 tags: [knowledge, power]

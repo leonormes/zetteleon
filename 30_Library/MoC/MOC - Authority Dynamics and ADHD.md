@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-30T12:39:22+00:00
 last_reviewed: 'null'
-modified: 2026-07-13T08:52:36+00:00
+modified: 2026-07-20T16:33:59+00:00
 permalink: llmeon/30-library/mo-c/moc-authority-dynamics-and-adhd
 status: 'null'
 tags: [authority, shame, TheHuman/Health/ADHD, TheHuman/Psychology]

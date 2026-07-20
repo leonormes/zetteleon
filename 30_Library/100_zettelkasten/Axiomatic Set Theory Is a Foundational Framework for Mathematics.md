@@ -1,13 +1,13 @@
 ---
 aliases: [Axiomatic Set Theory, ZF, ZFC]
+conformant: false
 created: 2025-11-01T11:22:13+00:00
-modified: 2026-07-13T08:52:24+00:00
+modified: 2026-07-20T16:34:33+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/axiomatic-set-theory-is-a-foundational-framework-for-mathematics
 tags: [foundations, set-theory, topic/maths]
 title: Axiomatic Set Theory Is a Foundational Framework for Mathematics
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Summary: Axiomatic set theory, particularly the Zermelo-Fraenkel axioms (ZF) with the Axiom of Choice (ZFC), serves as the primary foundational framework for modern mathematics, providing a rigorous basis for defining all mathematical objects.

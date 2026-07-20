@@ -1,13 +1,13 @@
 ---
 aliases: []
+conformant: false
 created: 2025-12-12T00:00:00+00:00
-modified: 2026-07-13T08:52:53+00:00
+modified: 2026-07-20T16:33:44+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-social-cognition-self-perception
 tags: []
 title: SoT - Social Cognition & Self-Perception
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 2. How We Make Social Judgments: The Social Detective & Moral Intuition

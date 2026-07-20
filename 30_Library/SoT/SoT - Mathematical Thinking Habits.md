@@ -1,13 +1,13 @@
 ---
 aliases: [Learning Math as an Adult, Mathematical Mindset, Thinking Like a Mathematician]
+conformant: false
 created: 2026-01-12T10:15:00+00:00
-modified: 2026-07-13T08:52:50+00:00
+modified: 2026-07-20T16:33:47+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-mathematical-thinking-habits
 tags: [math/pedagogy, mental-models, prodos/sot]
 title: SoT - Mathematical Thinking Habits
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Mathematical Thinking Habits

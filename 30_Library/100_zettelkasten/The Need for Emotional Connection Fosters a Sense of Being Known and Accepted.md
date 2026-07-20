@@ -1,13 +1,13 @@
 ---
 aliases: [Need for Emotional Connection]
+conformant: false
 created: 2025-11-10T10:09:00+00:00
-modified: 2026-07-13T08:52:32+00:00
+modified: 2026-07-20T16:34:24+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/the-need-for-emotional-connection-fosters-a-sense-of-being-known-and-accepted
 tags: [emotional-connection, needs, relationship, vulnerability]
 title: The Need for Emotional Connection Fosters a Sense of Being Known and Accepted
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## The Need for Emotional Connection Fosters a Sense of Being Known and Accepted

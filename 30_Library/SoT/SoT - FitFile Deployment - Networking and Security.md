@@ -1,13 +1,13 @@
 ---
 aliases: [FitFile Networking Guide, Network Security SOP]
+conformant: false
 created: 2026-02-01T15:00:00+00:00
-modified: 2026-07-13T08:52:47+00:00
+modified: 2026-07-20T16:33:50+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-fit-file-deployment-networking-and-security
 tags: [ff_deploy, networking, security, sot]
 title: SoT - FitFile Deployment - Networking and Security
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Overview

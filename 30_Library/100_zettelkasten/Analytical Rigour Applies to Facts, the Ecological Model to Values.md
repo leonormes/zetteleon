@@ -1,13 +1,13 @@
 ---
+conformant: false
 created: 2026-07-13T22:00:00+00:00
-modified: 2026-07-14T19:56:23+00:00
+modified: 2026-07-20T16:34:33+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/analytical-rigour-applies-to-facts-the-ecological-model-to-values
 status: draft
 tags: [epistemology, facts-vs-values, rigour]
 title: Analytical Rigour Applies to Facts, the Ecological Model to Values
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Analytical Rigour Applies to Facts, the Ecological Model to Values

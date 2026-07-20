@@ -1,14 +1,14 @@
 ---
 aliases: []
+conformant: false
 created: 2025-10-30T12:05:06+00:00
-modified: 2026-07-13T08:52:32+00:00
+modified: 2026-07-20T16:34:24+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/the-day-can-be-divided-into-three-phases-for-habit-mapping
 source: '[[MOC - The Science of Making and Breaking Habits]]'
 tags: [chronobiology, energy-management, TheHuman/Habits, topic/productivity]
 title: The Day Can Be Divided Into Three Phases for Habit Mapping
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 The day can be divided into three phases based on natural neurochemical fluctuations, and habits can be mapped to the phase where they are most likely to succeed:

@@ -1,13 +1,13 @@
 ---
 aliases: [Common Data Model, OMOP CDM]
+conformant: false
 created: 2026-01-06T18:52:00+00:00
-modified: 2026-07-13T08:52:51+00:00
+modified: 2026-07-20T16:33:46+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-omop-common-data-model
 tags: [data_model, ohdsi, schema, sot]
 title: SoT - OMOP Common Data Model
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Definitive Statement

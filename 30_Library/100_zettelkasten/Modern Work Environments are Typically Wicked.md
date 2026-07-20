@@ -1,13 +1,13 @@
 ---
 aliases: [Modern Work Complexity]
+conformant: false
 created: 2025-11-01T12:30:05+00:00
-modified: 2026-07-13T08:52:29+00:00
+modified: 2026-07-20T16:34:27+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/modern-work-environments-are-typically-wicked
 tags: [adaptability, environment, work]
 title: Modern Work Environments are Typically Wicked
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Modern Work Environments Are Typically Wicked

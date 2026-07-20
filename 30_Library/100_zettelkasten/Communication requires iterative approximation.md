@@ -1,13 +1,13 @@
 ---
 aliases: [communicative feedback, iterative understanding, repair mechanisms]
+conformant: false
 created: 2025-10-31T20:04:00+00:00
-modified: 2026-07-13T08:52:25+00:00
+modified: 2026-07-20T16:34:32+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/communication-requires-iterative-approximation
 tags: [communication, conversation, pragmatics]
 title: Communication requires iterative approximation
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Communication Requires Iterative Approximation

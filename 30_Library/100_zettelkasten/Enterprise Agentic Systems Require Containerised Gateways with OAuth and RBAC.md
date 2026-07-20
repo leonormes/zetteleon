@@ -1,12 +1,12 @@
 ---
+conformant: false
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-07-13T08:52:26+00:00
+modified: 2026-07-20T16:34:31+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/enterprise-agentic-systems-require-containerised-gateways-with-oauth-and-rbac
 tags: [enterprise-ai, gateways, governance, security]
 title: Enterprise Agentic Systems Require Containerised Gateways with OAuth and RBAC
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Enterprise Agentic Systems Require Containerised Gateways with OAuth and RBAC

@@ -1,13 +1,13 @@
 ---
 aliases: [Modesty]
+conformant: false
 created: 2025-11-01T21:25:00+00:00
-modified: 2026-07-13T08:52:27+00:00
+modified: 2026-07-20T16:34:29+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/humility-is-letting-achievements-speak-for-themselves
 tags: [character-strength, ego, humility, modesty, virtue]
 title: Humility is Letting Achievements Speak for Themselves
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Humility is the quality of being modest and having a low view of one's own importance. It is not about thinking less of yourself, but about thinking of yourself less.

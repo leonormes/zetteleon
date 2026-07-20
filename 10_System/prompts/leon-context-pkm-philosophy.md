@@ -3,7 +3,7 @@ aliases: []
 created: 2026-02-02T07:05:00+00:00
 description: The PKM/ProdOS philosophy and mechanics (binary architecture, epistemics,
   anti-hoarding goal).
-modified: 2026-07-04T10:52:05+00:00
+modified: 2026-07-20T16:34:38+00:00
 permalink: llmeon/10-system/prompts/leon-context-pkm-philosophy
 tags: [domain/pkm, system/prompt, type/context]
 title: leon-context-pkm-philosophy

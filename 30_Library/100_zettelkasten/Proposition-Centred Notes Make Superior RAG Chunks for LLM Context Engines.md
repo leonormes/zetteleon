@@ -2,7 +2,7 @@
 created: 2026-07-13T08:31:03+00:00
 created_utc: '2026-07-13T08:17:00Z'
 kind: claim
-modified: 2026-07-16T19:41:45+00:00
+modified: 2026-07-20T16:34:26+00:00
 permalink: llmeon/00-inbox/proposition-centred-notes-make-superior-rag-chunks-for-llm-context-engines
 source_title: 'Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture: An Investigative Report'
 source_url: ''

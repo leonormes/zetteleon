@@ -1,13 +1,13 @@
 ---
 aliases: [3-Switch Protocol, The 15-Second Reset, The Physiological Reset]
+conformant: false
 created: 2025-12-25T11:45:00+00:00
-modified: 2026-07-13T08:52:54+00:00
+modified: 2026-07-20T16:33:43+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-the-3-switch-protocol-emotional-reset
 tags: [adhd, emotional_regulation, protocol, TheHuman/Neuroscience]
 title: SoT - The 3-Switch Protocol (Emotional Reset)
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SoT - The 3-Switch Protocol (Emotional Reset)

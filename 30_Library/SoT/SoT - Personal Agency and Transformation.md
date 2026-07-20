@@ -1,13 +1,13 @@
 ---
 aliases: [Agency Cultivation, Taking Control, The Gift of Desperation]
+conformant: false
 created: 2025-12-15T00:00:00+00:00
-modified: 2026-07-13T08:52:52+00:00
+modified: 2026-07-20T16:33:45+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-personal-agency-and-transformation
 tags: [agency, personal_development, TheHuman/Mindset, TheHuman/Psychology, transformation]
 title: SoT - Personal Agency and Transformation
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 2. The Agency Cultivation Model
@@ -53,7 +53,7 @@ Once momentum is established, apply these three rules to sustain high agency:
 
 ## Related
 
-- [[Resilience is the Ability to Bounce Back from Setbacks]] — _Psychological capacity to adapt to and recover from stress._
-- [[Inner Strength & Resilience Skills (Your Strong Spirit)]] — _Core resilience skills such as bravery, perseverance, and honesty._
-- [[The Self is Constructed Through Curation of Influences]] — _The self is an ongoing editorial process that selects, filters, and integrates influences._
-- [[Humans Retain Freedom to Choose Their Response to Any Situation Regardless of Circumstances]] — _Freedom to choose response to any situation._
+- [[Resilience is the Ability to Bounce Back from Setbacks]]—_Psychological capacity to adapt to and recover from stress._
+- [[Inner Strength & Resilience Skills (Your Strong Spirit)]]—_Core resilience skills such as bravery, perseverance, and honesty._
+- [[The Self is Constructed Through Curation of Influences]]—_The self is an ongoing editorial process that selects, filters, and integrates influences._
+- [[Humans Retain Freedom to Choose Their Response to Any Situation Regardless of Circumstances]]—_Freedom to choose response to any situation._

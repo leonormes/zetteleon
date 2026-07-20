@@ -1,6 +1,6 @@
 ---
 created: 2026-05-31T00:00:00+00:00
-modified: 2026-07-14T05:54:50+00:00
+modified: 2026-07-20T16:34:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/claim-over-capture-plus-deferred-review-is-sustainable
 position-date: 2026-05-31
 related_to: ["[[Claim - Capture is easy but processing is hard]]", "[[Practice - Deferred low-pressure review]]"]

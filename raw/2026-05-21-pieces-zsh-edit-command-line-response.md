@@ -1,6 +1,6 @@
 ---
 created: 2026-05-21T13:12:28+00:00
-modified: 2026-07-04T10:49:56+00:00
+modified: 2026-07-20T16:33:05+00:00
 permalink: llmeon/raw/2026-05-21-pieces-zsh-edit-command-line-response
 pieces_ids: [5c936938-42de-45e9-9566-df1888aa2567]
 source: pieces-ltm

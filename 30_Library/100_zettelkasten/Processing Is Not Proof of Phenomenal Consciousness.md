@@ -1,18 +1,14 @@
 ---
 aliases: [Access vs Phenomenal Consciousness, Information Processing Is Not Subjectivity]
+conformant: true
 created: 2026-07-16T15:50:54+00:00
-modified: 2026-07-17T08:26:16+00:00
+modified: 2026-07-20T16:34:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/processing-is-not-proof-of-phenomenal-consciousness
 source_title: "Waking Up (Sam Harris) — reviewed LLM summary and critique"
 status: seed
-prodos:
-  kind: atomic
-  atomic:
-    form: distinction
 tags: [consciousness, philosophy-of-mind, qualia, split-brain, TheHuman/Philosophy]
 title: Processing Is Not Proof of Phenomenal Consciousness
 type: concept
-conformant: true
 ---
 
 ## Processing Is Not Proof of Phenomenal Consciousness
@@ -40,4 +36,4 @@ Details: This is the strongest objection to Harris's leap from "the right hemisp
 
 ### See Also
 
-- [[beyond words]] — *both mark the gap between a representation or process and the lived experience it cannot fully capture.*
+- [[beyond words]]—_both mark the gap between a representation or process and the lived experience it cannot fully capture._

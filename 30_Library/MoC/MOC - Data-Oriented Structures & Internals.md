@@ -2,7 +2,7 @@
 aliases: [Database and Structures Syllabus, DOP Learning Path, Systems Programming Curriculum]
 created: 2025-12-31T00:00:00+00:00
 lastreviewed: 2025-12-31
-modified: 2026-07-13T08:52:37+00:00
+modified: 2026-07-20T16:33:58+00:00
 permalink: llmeon/30-library/mo-c/moc-data-oriented-structures-internals
 reviewinterval: 3 months
 seealso: ["[[SoT - Curriculum - Data-Oriented Design]]", "[[SoT - Data-Centric Software Engineering]]"]

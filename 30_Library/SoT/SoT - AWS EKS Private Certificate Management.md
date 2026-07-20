@@ -1,16 +1,16 @@
 ---
 aliases: [ACM Private CA with Cert-Manager, EKS Private Certs, Private TLS Architecture]
+conformant: false
 created: 2025-07-23T13:42:04+00:00
 last_reviewed: null
-modified: 2026-07-13T08:52:43+00:00
+modified: 2026-07-20T16:33:53+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-aws-eks-private-certificate-management
 status: Active
 tags: [aws, cert-manager, certificates, eks, security, tls]
 title: SoT - AWS EKS Private Certificate Management
 type: sot
 updated: null
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SoT - AWS EKS Private Certificate Management
@@ -91,4 +91,3 @@ In private networking, internal clients often access services via their _public_
 ## Related
 
 - [[MOC - AWS Networking]]
-

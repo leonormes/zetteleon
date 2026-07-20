@@ -1,13 +1,13 @@
 ---
+conformant: false
 created: 2026-07-13T22:00:00+00:00
-modified: 2026-07-13T21:55:46+00:00
+modified: 2026-07-20T16:34:28+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/minds-are-like-plants-unique-products-of-genes-and-environment
 status: draft
 tags: [compassion, epistemology, judgement, mental-models]
 title: Minds Are Like Plants - Unique Products of Genes and Environment
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minds Are Like Plants - Unique Products of Genes and Environment

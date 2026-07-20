@@ -1,13 +1,13 @@
 ---
 aliases: [JTB, Justified True Belief]
+conformant: false
 created: 2025-11-01T12:10:06+00:00
-modified: 2026-07-13T08:52:32+00:00
+modified: 2026-07-20T16:34:23+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/the-traditional-definition-of-knowledge-is-justified-true-belief
 tags: [epistemology, knowledge, TheHuman/Philosophy]
 title: The Traditional Definition of Knowledge is Justified True Belief
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## The Traditional Definition of Knowledge is Justified True Belief

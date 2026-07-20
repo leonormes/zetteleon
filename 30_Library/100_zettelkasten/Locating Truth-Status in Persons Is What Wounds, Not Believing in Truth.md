@@ -1,13 +1,13 @@
 ---
+conformant: false
 created: 2026-07-13T22:30:00+00:00
-modified: 2026-07-14T14:00:54+00:00
+modified: 2026-07-20T16:34:28+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/locating-truth-status-in-persons-is-what-wounds-not-believing-in-truth
 status: draft
 tags: [decoupling, ego, epistemology, identity, self-compassion]
 title: Locating Truth-Status in Persons Is What Wounds, Not Believing in Truth
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Locating Truth-Status in Persons Is What Wounds, Not Believing in Truth

@@ -1,6 +1,6 @@
 ---
 created: 2026-06-08T11:00:00+00:00
-modified: 2026-07-04T10:49:23+00:00
+modified: 2026-07-20T16:32:35+00:00
 permalink: llmeon/raw/2026-06-08-pieces-helm-structured-metadata
 pieces_ids: [1879599e-0642-4337-b40f-0e2eebfa61e2, 205e2486-a55f-48bb-996a-6fe0f9ad12c3, 4fb49ed6-54b6-482d-ade0-8111a2afb146, 80120449-7b3f-4ebc-8ae5-341e0bce4a46, aba394bc-3ca8-4995-a8cb-ec622b4fee7c, c0470216-6d54-486b-8481-2e67e2bbab2c, ccf9ac96-54bf-4c04-b676-56882a94e5da, e7af65bf-8a96-4f6f-8834-a03f1031f8e5, f0c51431-bd39-4155-b09d-d2e03d61fb0a, f220d2f8-0c00-4239-95c8-602328fcb022]
 source: pieces-ltm

@@ -1,13 +1,13 @@
 ---
 aliases: [DAG Properties]
+conformant: false
 created: 2025-11-10T15:08:00+00:00
-modified: 2026-07-13T08:52:25+00:00
+modified: 2026-07-20T16:34:31+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/directed-acyclic-graphs-for-action-sequences-are-directed-acyclic-and-graph-structured
 tags: [definition, graph-theory, topic/productivity, workflow]
 title: Directed Acyclic Graphs for Action Sequences Are Directed Acyclic and Graph-Structured
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Directed Acyclic Graphs for Action Sequences Are Directed Acyclic and Graph-Structured

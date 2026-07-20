@@ -1,13 +1,13 @@
 ---
 aliases: [Federated Research Model, OHDSI Network, OMOP Philosophy]
+conformant: false
 created: 2026-01-06T18:52:00+00:00
-modified: 2026-07-13T08:52:51+00:00
+modified: 2026-07-20T16:33:46+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-ohdsi-ecosystem
 tags: [ohdsi, SoftwareEngineering/Architecture, sot]
 title: SoT - OHDSI Ecosystem
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Definitive Statement
@@ -61,7 +61,7 @@ OHDSI infrastructure (often packaged in RO-Crates) supports the "Five Safes" of 
 
 ## Related
 
-- [[SoT - OHDSI Analytics]] — _Categorization of observational research into Characterization, PLE, and PLP._
-- [[MoC - OHDSI & OMOP Architecture]] — _Core standards including the Common Data Model (CDM) and Standardized Vocabularies._
-- [[SoT - OHDSI Evidence Generation]] — _Generating reliable evidence by applying best-practice methods across a federated network._
-- [[SoT - Synthea (Synthetic Health Records)]] — _Synthetic patient data generation in the OMOP format._
+- [[SoT - OHDSI Analytics]]—_Categorization of observational research into Characterization, PLE, and PLP._
+- [[MoC - OHDSI & OMOP Architecture]]—_Core standards including the Common Data Model (CDM) and Standardized Vocabularies._
+- [[SoT - OHDSI Evidence Generation]]—_Generating reliable evidence by applying best-practice methods across a federated network._
+- [[SoT - Synthea (Synthetic Health Records)]]—_Synthetic patient data generation in the OMOP format._

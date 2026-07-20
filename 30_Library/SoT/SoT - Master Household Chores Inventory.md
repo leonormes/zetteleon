@@ -3,7 +3,7 @@ aliases: [Atomic Chores Inventory, Chores List, Cleaning SOPs, Home Maintenance 
 conformant: false
 created: 2025-12-30T10:00:00+00:00
 last_reviewed: '2025-12-30'
-modified: 2026-07-20T14:53:14+00:00
+modified: 2026-07-20T16:33:47+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-master-household-chores-inventory
 status: proposal
@@ -53,12 +53,13 @@ _The engine room of the house. High throughput, high hygiene requirement._
 - [Atomic] Dishwasher Filter: Remove and rinse filter.
 
 ##### [SOP] Cold Storage (Fridge)
-- **Definition of Done (DoD):** No visible spills, no expired items, and the drainage hole at the back is clear of ice/debris.
-- **Steps:**
-  1. **Extraction:** Clear one shelf at a time.
-  2. **Audit:** Check Use-By dates. Wipe sticky jars.
-  3. **Sanitisation:** Spray anti-bacterial; wipe with damp cloth; dry with microfibre.
-  4. **Restock:** Ready-to-eat (Top), Raw Meat (Bottom/Sealed), Veg (Drawers).
+
+- Definition of Done (DoD): No visible spills, no expired items, and the drainage hole at the back is clear of ice/debris.
+- Steps:
+  1. Extraction: Clear one shelf at a time.
+  2. Audit: Check Use-By dates. Wipe sticky jars.
+  3. Sanitisation: Spray anti-bacterial; wipe with damp cloth; dry with microfibre.
+  4. Restock: Ready-to-eat (Top), Raw Meat (Bottom/Sealed), Veg (Drawers).
 
 ---
 
@@ -98,10 +99,11 @@ _Sanitation critical zones._
 - [Atomic] Bin Empty: Empty small bathroom bin to main refuse.
 
 ##### [DoD] Bathrooms Deep Clean
-- **Reflection:** Mirrors/Chrome have zero spots.
-- **Surface:** No hair/dust on basin or toilet lid.
-- **Sanitation:** Toilet bowl clear and smells disinfected.
-- **Inventory:** Hand towel fresh, loo roll restocked.
+
+- Reflection: Mirrors/Chrome have zero spots.
+- Surface: No hair/dust on basin or toilet lid.
+- Sanitation: Toilet bowl clear and smells disinfected.
+- Inventory: Hand towel fresh, loo roll restocked.
 
 ---
 
@@ -163,6 +165,7 @@ _Tasks that span the whole house._
 - [Atomic] Put Away: Return folded clothes to drawers/wardrobes.
 
 ##### [DoD] Laundry Loop (Daily)
+
 - Bedroom floor is clear of clothes; all dirty items are inside the downstairs basket (not just near it).
 
 #### Waste Management
@@ -172,9 +175,10 @@ _Tasks that span the whole house._
 - [Atomic] Bin Presentation: Drag Wheelie Bins to curb for collection (Sunday/Monday).
 
 ##### [DoD] Waste Management (Weekly)
-- **Extraction:** All indoor bins (Bathrooms, Bedrooms, Office, Kitchen) emptied into outdoor Wheelie Bins.
-- **Hygiene:** Bin liners replaced if soiled/full.
-- **Completion:** Outdoor bins presented for collection on Sunday evening.
+
+- Extraction: All indoor bins (Bathrooms, Bedrooms, Office, Kitchen) emptied into outdoor Wheelie Bins.
+- Hygiene: Bin liners replaced if soiled/full.
+- Completion: Outdoor bins presented for collection on Sunday evening.
 
 ---
 
@@ -194,14 +198,15 @@ Reset note: if the sprint stalls, re-run this DoD from the top before restarting
 ### 8. Zone: Mobile & Vehicle (Car)
 
 #### [SOP] Mobile Node (Car Interior Valet)
-- **Frequency:** Weekly
-- **Definition of Done (DoD):** No rubbish in door pockets, mats are grit-free, and windows are smear-free.
-- **Steps:**
-  1. **De-clutter:** Remove all loose items.
-  2. **Gravity Clean:** Brush crumbs to floor; shake mats outside.
-  3. **Suction:** Vacuum seats then footwells (use crevice tool).
-  4. **Clarity:** Glass cleaner on interior windows (spray cloth, not glass).
-  5. **Touch-Points:** Wipe steering wheel/gear stick with anti-bacterial.
+
+- Frequency: Weekly
+- Definition of Done (DoD): No rubbish in door pockets, mats are grit-free, and windows are smear-free.
+- Steps:
+  1. De-clutter: Remove all loose items.
+  2. Gravity Clean: Brush crumbs to floor; shake mats outside.
+  3. Suction: Vacuum seats then footwells (use crevice tool).
+  4. Clarity: Glass cleaner on interior windows (spray cloth, not glass).
+  5. Touch-Points: Wipe steering wheel/gear stick with anti-bacterial.
 
 ---
 
@@ -210,31 +215,33 @@ Reset note: if the sprint stalls, re-run this DoD from the top before restarting
 _Routines to ensure the health and safety of the family animals._
 
 #### [SOP] Dog Medical Care (Parent-Only)
-- **Frequency:** Daily & Monthly
-- **Definition of Done (DoD):** Medication administered on schedule, warning symptoms monitored, stress levels minimised.
-- **Rules:**
-  - **Daily Steroid Tablets:** Give steroid tablets (prednisone/prednisolone) every morning with food to replace cortisol. *Crucial: Missing doses risks a relapse of symptoms.*
-  - **Monthly Injection:** Schedule and attend vet-administered Zycortal/fludrocortisone injection.
-  - **Stress Management:** Keep routines consistent and handling calm to prevent Addisonian crises. Consult vet about temporary dose increases before stressful events (fireworks, moves, boarding).
-  - **Watch-list Symptoms:** Same-day vet contact is mandatory if the dog shows lethargy, vomiting, diarrhoea, loss of appetite, or collapse.
-  - **Medication Safety:** NSAIDs (Rimadyl, Metacam, Meloxicam) are unsafe; only give vet-approved pain relief (Tramadol, Gabapentin).
-  - **Blood Tests:** Monitor electrolytes (sodium/potassium) every 2-3 months.
+
+- Frequency: Daily & Monthly
+- Definition of Done (DoD): Medication administered on schedule, warning symptoms monitored, stress levels minimised.
+- Rules:
+  - Daily Steroid Tablets: Give steroid tablets (prednisone/prednisolone) every morning with food to replace cortisol. _Crucial: Missing doses risks a relapse of symptoms._
+  - Monthly Injection: Schedule and attend vet-administered Zycortal/fludrocortisone injection.
+  - Stress Management: Keep routines consistent and handling calm to prevent Addisonian crises. Consult vet about temporary dose increases before stressful events (fireworks, moves, boarding).
+  - Watch-list Symptoms: Same-day vet contact is mandatory if the dog shows lethargy, vomiting, diarrhoea, loss of appetite, or collapse.
+  - Medication Safety: NSAIDs (Rimadyl, Metacam, Meloxicam) are unsafe; only give vet-approved pain relief (Tramadol, Gabapentin).
+  - Blood Tests: Monitor electrolytes (sodium/potassium) every 2-3 months.
 
 #### [SOP] Cat & Snake Care (Shared/Rotating)
-- **Frequency:** Daily & Weekly
-- **Definition of Done (DoD):** Animals fed, enclosures cleaned, environment verified.
-- **Rules:**
-  - **Cat Care:** Feed morning and evening, clean litter tray daily, groom/brush regularly.
-  - **Snake Care (2 Snakes):**
-    - *Daily Check:* Verify temperature gradient and humidity levels in the enclosures.
-    - *Feeding:* Feed every 1-2 weeks according to the schedule (check calendar).
-    - *Water & Substrate:* Provide fresh water daily; spot-clean substrate as needed.
-    - *Shedding:* Monitor for incomplete sheds (especially around eyes/tail).
+
+- Frequency: Daily & Weekly
+- Definition of Done (DoD): Animals fed, enclosures cleaned, environment verified.
+- Rules:
+  - Cat Care: Feed morning and evening, clean litter tray daily, groom/brush regularly.
+  - Snake Care (2 Snakes):
+    - _Daily Check:_ Verify temperature gradient and humidity levels in the enclosures.
+    - _Feeding:_ Feed every 1-2 weeks according to the schedule (check calendar).
+    - _Water & Substrate:_ Provide fresh water daily; spot-clean substrate as needed.
+    - _Shedding:_ Monitor for incomplete sheds (especially around eyes/tail).
 
 ---
 
 ## Related
 
-- [[SoT - Family Household Governance]] — _The home is a Distributed System where maintenance is a shared operational requirement._
-- [[Emotional Labor is the Invisible Work of Managing a Household and Family]] — _The mental load required to manage a family and household._
-- [[For pet care we have a dog who has addisons diseas]] — _Original pet care research and context._
+- [[SoT - Family Household Governance]]—_The home is a Distributed System where maintenance is a shared operational requirement._
+- [[Emotional Labor is the Invisible Work of Managing a Household and Family]]—_The mental load required to manage a family and household._
+- [[For pet care we have a dog who has addisons diseas]]—_Original pet care research and context._

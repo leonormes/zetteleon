@@ -1,6 +1,6 @@
 ---
 created: 2026-06-20T09:22:42+00:00
-modified: 2026-07-13T08:52:15+00:00
+modified: 2026-07-20T16:34:08+00:00
 permalink: llmeon/30-library/200-projects/value-stream-analysis-via-llm-feasibility-source-map-prompt
 project_name: Pipeline
 title: Value Stream Analysis via LLM — Feasibility + Source Map + Prompt

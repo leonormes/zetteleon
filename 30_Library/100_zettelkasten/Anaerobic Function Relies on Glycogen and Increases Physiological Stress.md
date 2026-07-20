@@ -1,13 +1,13 @@
 ---
 aliases: [Anaerobic Function]
+conformant: false
 created: 2026-01-08T12:42:00+00:00
-modified: 2026-07-13T08:52:24+00:00
+modified: 2026-07-20T16:34:33+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/anaerobic-function-relies-on-glycogen-and-increases-physiological-stress
 tags: [cortisol, physiology, stress]
 title: Anaerobic Function Relies on Glycogen and Increases Physiological Stress
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Anaerobic Function Relies on Glycogen and Increases Physiological Stress

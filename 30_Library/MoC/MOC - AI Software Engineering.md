@@ -2,7 +2,7 @@
 aliases: [AI Coding MOC, LLM Engineering Map]
 created: 2026-01-30T08:00:00+00:00
 last-synthesis: 2026-04-04
-modified: 2026-07-13T08:52:35+00:00
+modified: 2026-07-20T16:34:00+00:00
 permalink: llmeon/30-library/mo-c/moc-ai-software-engineering
 tags: [ai-engineering, map-of-content, moc]
 title: MOC - AI Software Engineering
@@ -62,7 +62,7 @@ Standard RAG is stateless—nothing accumulates. The LLM Wiki Pattern flips this
 
 ### 8. The Typed Answer Contract (TAC)
 
-Free-text output is the same liability on the output side that stateless RAG is on the retrieval side: confident-sounding prose is indistinguishable from grounded prose until a human catches the error. TAC forces every answer into a small contract instead — stated confidence, cited evidence, and an explicit "insufficient context" flag — so ungrounded output is caught at generation time rather than after it has already been written into a note. This vault enforces a markdown-native version of TAC across its governed prompt library via [[Protocol - Typed Answer Contract (TAC) for Vault Agents]].
+Free-text output is the same liability on the output side that stateless RAG is on the retrieval side: confident-sounding prose is indistinguishable from grounded prose until a human catches the error. TAC forces every answer into a small contract instead—stated confidence, cited evidence, and an explicit "insufficient context" flag—so ungrounded output is caught at generation time rather than after it has already been written into a note. This vault enforces a markdown-native version of TAC across its governed prompt library via [[Protocol - Typed Answer Contract (TAC) for Vault Agents]].
 
 - [[SoT - Typed Answer Contract (TAC) for LLM Output]]—Schema fields, production results, and the code-to-markdown adaptation for this vault.
 

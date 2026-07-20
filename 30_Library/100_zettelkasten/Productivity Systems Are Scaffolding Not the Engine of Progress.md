@@ -1,13 +1,13 @@
 ---
 aliases: [Systems as Scaffolding]
+conformant: false
 created: 2025-11-10T13:01:00+00:00
-modified: 2026-07-13T08:52:30+00:00
+modified: 2026-07-20T16:34:26+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/productivity-systems-are-scaffolding-not-the-engine-of-progress
 tags: [optimization, TheHuman/Cognition, topic/productivity, topic/systems]
 title: Productivity Systems Are Scaffolding Not the Engine of Progress
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Productivity Systems Are Scaffolding Not the Engine of Progress

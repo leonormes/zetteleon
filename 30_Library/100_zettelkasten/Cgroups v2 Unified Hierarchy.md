@@ -1,13 +1,13 @@
 ---
 aliases: [cgroups v2, Unified Hierarchy]
+conformant: false
 created: 2025-12-24T12:00:00+00:00
-modified: 2026-07-13T08:52:24+00:00
+modified: 2026-07-20T16:34:32+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/cgroups-v2-unified-hierarchy
 tags: [kernel, modern-cgroups, SoftwareEngineering/Linux]
 title: Cgroups v2 Unified Hierarchy
 type: concept
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Cgroups V2

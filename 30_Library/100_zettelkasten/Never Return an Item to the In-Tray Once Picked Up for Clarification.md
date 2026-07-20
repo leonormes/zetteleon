@@ -1,12 +1,12 @@
 ---
+conformant: false
 created: 2026-04-10T00:00:00+00:00
-modified: 2026-07-13T08:52:29+00:00
+modified: 2026-07-20T16:34:27+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/never-return-an-item-to-the-in-tray-once-picked-up-for-clarification
 tags: [decision-fatigue, discipline, efficiency, gtd]
 title: Never Return an Item to the In-Tray Once Picked Up for Clarification
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Never Return an Item to the In-Tray Once Picked Up for Clarification

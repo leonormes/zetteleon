@@ -1,7 +1,7 @@
 ---
 created: 2026-04-10T16:51:08+00:00
 created_utc: '2026-04-10T13:00:00+00:00'
-modified: 2026-07-13T08:52:35+00:00
+modified: 2026-07-20T16:34:01+00:00
 permalink: llmeon/30-library/400-indexes/link-report-karpathy-interview
 source_atoms: '[[tmp_atoms_karpathy_interview]]'
 status: tmp
@@ -29,7 +29,6 @@ type: link_report
 | [[Reinforcement Learning Produces Jagged Intelligence — High in Verifiable, Low in Subjective Domains]] | 2 | [[AI and Machine Understanding]]—extends |
 | [[Cheaper Code Production via Agents Increases Software Volume Rather Than Reducing Developers]] | 2 | [[Generalists Have an Advantage in the Information Age]]—shared mechanism |
 | [[Expert Role Shifts from Explaining Concepts to Humans to Tuning Tutor-Agents]] | 1 | [[PKM Generates Unique Insights via Personal Context That AI Cannot Replicate]]—extends |
-
 
 ## Related
 

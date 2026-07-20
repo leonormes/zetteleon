@@ -1,13 +1,13 @@
 ---
 aliases: [Mental Load, The Hidden Load]
+conformant: false
 created: 2025-11-10T10:04:00+00:00
-modified: 2026-07-13T08:52:26+00:00
+modified: 2026-07-20T16:34:31+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/emotional-labor-is-the-invisible-work-of-managing-a-household-and-family
 tags: [emotional-labor, mental-load, relationship, responsibility]
 title: Emotional Labor is the Invisible Work of Managing a Household and Family
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Emotional Labor is the Invisible Work of Managing a Household and Family

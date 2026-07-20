@@ -1,13 +1,13 @@
 ---
 aliases: [Arguing Correctly, Healthy Communication, Relational Communication]
+conformant: false
 created: 2025-12-21T00:00:00+00:00
-modified: 2026-07-13T08:52:48+00:00
+modified: 2026-07-20T16:33:49+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-framework-for-healthy-communication
 tags: [communication, family, framework, mental-models, relationships]
 title: SoT - Framework for Healthy Communication
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Definitive Statement: "Separating Experience from Causality"

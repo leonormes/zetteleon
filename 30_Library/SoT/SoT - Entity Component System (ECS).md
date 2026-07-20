@@ -1,13 +1,13 @@
 ---
 aliases: [ECS, Entity Component System]
+conformant: false
 created: 2025-12-31T00:00:00+00:00
-modified: 2026-07-13T08:52:46+00:00
+modified: 2026-07-20T16:33:51+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-entity-component-system-ecs
 tags: [ecs, game_development, rust, SoftwareEngineering/Architecture]
 title: SoT - Entity Component System (ECS)
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Definitive Statement

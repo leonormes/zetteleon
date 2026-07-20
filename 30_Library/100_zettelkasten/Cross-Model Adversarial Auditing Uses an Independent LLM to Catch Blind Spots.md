@@ -1,12 +1,12 @@
 ---
+conformant: false
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-07-13T08:52:25+00:00
+modified: 2026-07-20T16:34:31+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/cross-model-adversarial-auditing-uses-an-independent-llm-to-catch-blind-spots
 tags: [adversarial-review, development, llm-auditing, multi-model-workflows]
 title: Cross-Model Adversarial Auditing Uses an Independent LLM to Catch Blind Spots
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Cross-Model Adversarial Auditing Uses an Independent LLM to Catch Blind Spots

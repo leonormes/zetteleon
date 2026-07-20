@@ -1,13 +1,13 @@
 ---
 aliases: [Conditional Yes, Yes And If]
+conformant: false
 created: 2025-12-17T00:00:00+00:00
-modified: 2026-07-13T08:52:55+00:00
+modified: 2026-07-20T16:33:42+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-the-yes-and-if-protocol-for-scope-management
 tags: [communication, negotiation, scope-management, topic/productivity]
 title: SoT - The Yes, And-If Protocol for Scope Management
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Definitive Statement

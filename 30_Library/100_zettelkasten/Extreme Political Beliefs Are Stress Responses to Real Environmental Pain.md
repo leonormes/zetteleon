@@ -1,23 +1,20 @@
 ---
-created: 2026-07-13 22:00:00+00:00
-status: draft
-tags:
-- politics
-- narratives
-- stress
-- diagnosis
-title: Extreme Political Beliefs Are Stress Responses to Real Environmental Pain
-permalink: llmeon/30-library/100-zettelkasten/extreme-political-beliefs-are-stress-responses-to-real-environmental-pain
-type: claim
 conformant: false
+created: 2026-07-13T22:00:00+00:00
+modified: 2026-07-20T16:34:30+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
+permalink: llmeon/30-library/100-zettelkasten/extreme-political-beliefs-are-stress-responses-to-real-environmental-pain
+status: draft
+tags: [diagnosis, narratives, politics, stress]
+title: Extreme Political Beliefs Are Stress Responses to Real Environmental Pain
+type: claim
 ---
 
 ## Extreme Political Beliefs Are Stress Responses to Real Environmental Pain
 
-Summary: Scapegoating political beliefs are often stress responses, not logically derived positions — real distress plus a simplified narrative that misattributes its cause.
+Summary: Scapegoating political beliefs are often stress responses, not logically derived positions—real distress plus a simplified narrative that misattributes its cause.
 
-Details: The soil: chronic systemic degradation — failing public services, stagnant wages, housing shortages, lost community cohesion. The distress is real even when the diagnosis is wrong. The fertiliser: when a complex system degrades, the brain struggles with multi-variable failure and demands a single point of failure; political movements supply a simple narrative pointing at a visible external factor (e.g. immigration). The resulting belief is defensive, angry, and misdirected. Useful override when triggered: separate the *distress* from the *diagnosis* — "this person experiences real symptoms of a degraded environment but lacks the telemetry to see the root causes."
+Details: The soil: chronic systemic degradation—failing public services, stagnant wages, housing shortages, lost community cohesion. The distress is real even when the diagnosis is wrong. The fertiliser: when a complex system degrades, the brain struggles with multi-variable failure and demands a single point of failure; political movements supply a simple narrative pointing at a visible external factor (e.g. immigration). The resulting belief is defensive, angry, and misdirected. Useful override when triggered: separate the _distress_ from the _diagnosis_—"this person experiences real symptoms of a degraded environment but lacks the telemetry to see the root causes."
 
 ## Related
 

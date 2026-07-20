@@ -1,9 +1,11 @@
 ---
 alias: [Intellectual Landscape, Knowledge Map, Ontology]
 aliases: []
+conformant: false
 created: 2026-01-05T06:58:46+00:00
 last_reviewed: null
-modified: 2026-07-13T08:52:50+00:00
+modified: 2026-07-20T16:33:48+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-knowledge-architecture-associative-ontology
 see_also: []
 status: Active
@@ -13,8 +15,6 @@ tags: [architecture, knowledge-management, meta, ontology]
 title: SoT - Knowledge Architecture (Associative Ontology)
 type: sot
 updated: null
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 > The Thesis: The user's intellectual landscape is not a collection of isolated facts, but a Unified System where principles of Type Theory (Software) mirror principles of Cognitive Engineering (Mind), all governed by an Existential substrate (Meaning) and executed via PRODOS (Action).

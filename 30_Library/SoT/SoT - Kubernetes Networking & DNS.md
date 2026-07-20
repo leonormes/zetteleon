@@ -1,13 +1,13 @@
 ---
 aliases: [Cluster Networking, K8s Networking, Pod Networking]
+conformant: false
 created: 2025-12-16T13:52:08+00:00
-modified: 2026-07-13T08:52:50+00:00
+modified: 2026-07-20T16:33:47+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-kubernetes-networking-dns
 tags: [cni, kubernetes, service_discovery, SoftwareEngineering/Networking, SoftwareEngineering/networking/dns]
 title: SoT - Kubernetes Networking & DNS
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. The Core Model: "Flat Network"

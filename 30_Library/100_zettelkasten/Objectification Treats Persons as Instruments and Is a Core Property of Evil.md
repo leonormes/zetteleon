@@ -1,12 +1,12 @@
 ---
+conformant: false
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-07-13T08:52:29+00:00
+modified: 2026-07-20T16:34:27+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/objectification-treats-persons-as-instruments-and-is-a-core-property-of-evil
 tags: [dignity, human-rights, objectification, philosophy]
 title: Objectification Treats Persons as Instruments and Is a Core Property of Evil
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Objectification Treats Persons as Instruments and Is a Core Property of Evil

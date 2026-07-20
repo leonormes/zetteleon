@@ -1,13 +1,13 @@
 ---
 aliases: [Action Bias]
+conformant: false
 created: 2025-11-12T14:10:04+00:00
-modified: 2026-07-13T08:52:23+00:00
+modified: 2026-07-20T16:34:33+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/action-dominance-is-the-cognitive-bias-towards-action-over-inaction
 tags: [bias, TheHuman/Cognition, TheHuman/Psychology]
 title: Action Dominance is the Cognitive Bias Towards Action Over Inaction
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Action Dominance is the Cognitive Bias Towards Action Over Inaction

@@ -1,13 +1,13 @@
 ---
 aliases: [Earned Access Protocol, Family Chores Framework, Family Maintenance SOPs, Household System, Parental Alignment Contract]
+conformant: false
 created: 2025-12-26T12:00:00+00:00
-modified: 2026-07-13T08:52:47+00:00
+modified: 2026-07-20T16:33:51+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-family-household-governance
 tags: [chores, family, governance, sops, systems]
 title: SoT - Family Household Governance
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Definitive Statement
@@ -46,20 +46,20 @@ Physical storage is architected by Access Frequency, not Volume.
 
 ## 3. Educational Support & Study Cadence (Formal Job Category)
 
-"Educational Support & Study Cadence" is hereby a formal family job category, with equal standing to physical household chores. It is a **dual node**: Bessie owns a child-side daily responsibility, and parents own a logistics ledger. Both sides are auditable, and neither side may quietly absorb the other's work.
+"Educational Support & Study Cadence" is hereby a formal family job category, with equal standing to physical household chores. It is a dual node: Bessie owns a child-side daily responsibility, and parents own a logistics ledger. Both sides are auditable, and neither side may quietly absorb the other's work.
 
 ### Governing Principles
 
-- **Prosthetic executive function, not nagging.** Bessie's working memory (2nd percentile, standard score 69) cannot track routines or multi-step directions unaided. All education tasks are externalised into printed or digital checklists. A parent's job is to maintain the scaffolding, never to be the scaffolding.
-- **Home is the low-friction environment.** Bessie masks at school and collapses after it. Education support at home must reduce cognitive friction: atomised steps, pre-printed materials, predictable scripts. Vague instructions are treated as a system defect, not a compliance failure.
-- **Earned Access linkage.** Family Link restrictions (4h 30m daily limit; hard downtime 21:00–09:00) are structural locks tied to the daily 18:00 Audit Gate, which now requires both physical chores completion and Study Sprint verification. The locks are impersonal and automatic; parents do not renegotiate them ad hoc.
-- **Co-regulation standard.** Bessie has a named, consistent co-regulator trained in female ADHD masking presentation. Conflict resolution follows the unified-parent setup: no emotional rescuing, and neutral Grey Rock responses to defensive venting. Study-related conflict is handled through the Grace Period & Failure Autopsy protocol only.
-- **Standing accommodations (non-negotiable at home and coordinated externally):**
+- Prosthetic executive function, not nagging. Bessie's working memory (2nd percentile, standard score 69) cannot track routines or multi-step directions unaided. All education tasks are externalised into printed or digital checklists. A parent's job is to maintain the scaffolding, never to be the scaffolding.
+- Home is the low-friction environment. Bessie masks at school and collapses after it. Education support at home must reduce cognitive friction: atomised steps, pre-printed materials, predictable scripts. Vague instructions are treated as a system defect, not a compliance failure.
+- Earned Access linkage. Family Link restrictions (4h 30m daily limit; hard downtime 21:00–09:00) are structural locks tied to the daily 18:00 Audit Gate, which now requires both physical chores completion and Study Sprint verification. The locks are impersonal and automatic; parents do not renegotiate them ad hoc.
+- Co-regulation standard. Bessie has a named, consistent co-regulator trained in female ADHD masking presentation. Conflict resolution follows the unified-parent setup: no emotional rescuing, and neutral Grey Rock responses to defensive venting. Study-related conflict is handled through the Grace Period & Failure Autopsy protocol only.
+- Standing accommodations (non-negotiable at home and coordinated externally):
   - All printed study and curriculum materials on blue paper or with overlays (Meares-Irlen visual stress).
   - Laptop/word processor as the default for all extended writing and tests.
   - No board copying or screen-to-paper transcription; complex tasks arrive atomised with pre-printed or digital notes.
 
-### The Parent Ledger — Education & School Logistics
+### The Parent Ledger—Education & School Logistics
 
 Parent-owned recurring responsibilities:
 
@@ -67,7 +67,7 @@ Parent-owned recurring responsibilities:
 - Verify the weekly school-to-AP transition transport schedule (Belfairs Academy ↔ Fast Progress).
 - Coordinate with Fast Progress mentors and Belfairs Academy Art staff to confirm accommodations are consistently executed: blue paper materials, laptop default, no board copying.
 - Track EHCP delivery (Case Ref: EHC/26/0123): the funded 15-hour weekly Fast Progress package (core academics and therapeutic mentoring, subject to site-visit verification) and the Belfairs Art-only enrolment.
-- Keep the GCSE subject track visible in planning (Summer 2028): Art & Design (Edexcel), Photography (Edexcel), Film Studies (Eduqas), AQA Combined Science Trilogy, English Language (AQA), English Literature (Edexcel), History (Edexcel), Philosophy & Ethics (AQA Religious Studies), Mathematics (Edexcel Foundation — "Language of Maths" and algebraic formula rearrangement focus).
+- Keep the GCSE subject track visible in planning (Summer 2028): Art & Design (Edexcel), Photography (Edexcel), Film Studies (Eduqas), AQA Combined Science Trilogy, English Language (AQA), English Literature (Edexcel), History (Edexcel), Philosophy & Ethics (AQA Religious Studies), Mathematics (Edexcel Foundation—"Language of Maths" and algebraic formula rearrangement focus).
 
 ### Boundary Statement
 
@@ -147,8 +147,8 @@ To maintain a single source of truth, all detailed technical Standard Operating 
 
 The active rotation ledger and weekly assignment schedules are managed dynamically to reflect school calendars and family logistics.
 
-- Refer to the **Tier 1 active plan** at [[Family Chores Operational Plan]] for the parent-facing rotation schedules and audit-gate timings.
-- Refer to the **Tier 2 family-facing guide** at [[Family Chores - Everyone's Guide]] for the simplified, non-technical schedule and rotation table.
+- Refer to the Tier 1 active plan at [[Family Chores Operational Plan]] for the parent-facing rotation schedules and audit-gate timings.
+- Refer to the Tier 2 family-facing guide at [[Family Chores - Everyone's Guide]] for the simplified, non-technical schedule and rotation table.
 
 ---
 

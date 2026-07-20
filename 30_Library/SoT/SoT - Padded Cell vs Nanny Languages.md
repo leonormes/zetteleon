@@ -1,13 +1,13 @@
 ---
 aliases: [Language Safety Models, Nanny Languages, Padded Cell Languages]
+conformant: false
 created: 2025-12-19T00:00:00+00:00
-modified: 2026-07-13T08:52:52+00:00
+modified: 2026-07-20T16:33:45+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-padded-cell-vs-nanny-languages
 tags: [abstraction, mental-model, programming-languages, safety]
 title: SoT - Padded Cell vs Nanny Languages
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 > The "Padded Cell vs. Nanny" framework is a metaphor for classifying programming languages based on their dominant safety philosophy: ""

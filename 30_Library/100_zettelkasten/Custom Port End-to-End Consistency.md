@@ -2,7 +2,7 @@
 created: 2026-04-14T11:11:48+00:00
 created_utc: '2026-04-14T10:35:00Z'
 kind: constraint
-modified: 2026-07-13T08:52:25+00:00
+modified: 2026-07-20T16:34:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/custom-port-end-to-end-consistency
 source_title: Networking Is Label Transformation Under Policy
 source_url: N/A

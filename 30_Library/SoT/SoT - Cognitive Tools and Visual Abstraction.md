@@ -1,14 +1,14 @@
 ---
 aliases: [Cognitive Tools, Depiction vs Explanation, Discovery-Engineering Loop, Visual Abstraction, Visual-Spatial Reasoning]
+conformant: false
 created: 2026-01-09T21:57:29+00:00
-modified: 2026-07-13T08:52:44+00:00
+modified: 2026-07-20T16:33:52+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-cognitive-tools-and-visual-abstraction
 status: permanent
 tags: [cognition, design, education, mental-models, visualization]
 title: SoT - Cognitive Tools and Visual Abstraction
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SoT - Cognitive Tools and Visual Abstraction

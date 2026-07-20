@@ -1,13 +1,13 @@
 ---
 aliases: [Engineering Management, Project Planning, Software Estimation, Stakeholder Management]
+conformant: false
 created: 2025-12-27T20:38:44+00:00
-modified: 2026-07-13T08:52:54+00:00
+modified: 2026-07-20T16:33:44+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-software-estimation-and-management
 tags: [career, estimation, leadership, management]
 title: SoT - Software Estimation and Management
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Definitive Statement
@@ -64,11 +64,9 @@ Protocol: Shift focus from "The Output" (The App) to "The Outcome" (The Business
 2. Discovery is Work: You cannot estimate what you do not understand.
 3. Trade-offs, Not Magic: Time, Scope, Quality. You can only pick two.
 
-
 ## Related
 
 - [[Value Stream Analysis via LLM — Feasibility + Source Map + Prompt]]
 - [[SoT - Pragmatism vs Rigour in Software]]
 - [[Shift to Architectural Oversight]]
 - [[SoT - Accelerate & DORA]]
-

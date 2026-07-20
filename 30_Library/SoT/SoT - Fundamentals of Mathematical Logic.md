@@ -1,13 +1,13 @@
 ---
 aliases: [First-Order Logic Basics, Mathematical Quantifiers, Propositional Logic]
+conformant: false
 created: 2026-01-12T10:05:00+00:00
-modified: 2026-07-13T08:52:48+00:00
+modified: 2026-07-20T16:33:49+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-fundamentals-of-mathematical-logic
 tags: [fundamentals, math/logic, prodos/sot]
 title: SoT - Fundamentals of Mathematical Logic
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Logic provides the rigour, language, and inferential machinery for mathematics. It serves as the bedrock upon which mathematical structures are built.

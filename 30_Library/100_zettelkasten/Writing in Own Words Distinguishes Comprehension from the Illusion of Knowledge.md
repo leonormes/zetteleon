@@ -1,12 +1,12 @@
 ---
+conformant: false
 created: 2026-04-10T00:00:00+00:00
-modified: 2026-07-13T08:52:33+00:00
+modified: 2026-07-20T16:34:22+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/writing-in-own-words-distinguishes-comprehension-from-the-illusion-of-knowledge
 tags: [comprehension, learning, pkm, writing]
 title: Writing in Own Words Distinguishes Comprehension from the Illusion of Knowledge
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Writing in Own Words Distinguishes Comprehension from the Illusion of Knowledge

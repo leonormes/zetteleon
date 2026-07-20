@@ -1,11 +1,16 @@
 ---
-created: 2026-07-02T13:05:14+00:00
+created: 2026-07-02 13:05:14+00:00
 date: 2026-07-02
-modified: 2026-07-04T10:49:23+00:00
+modified: 2026-07-20 16:32:34+00:00
 permalink: llmeon/security/chezmoi-security-remediation-plan-2026-07-02
 source: Chezmoi CLI Security Audit 2026-07-02
-tags: [chezmoi, plan, remediation, security]
+tags:
+- chezmoi
+- plan
+- remediation
+- security
 title: Chezmoi Security Remediation Plan 2026-07-02
+type: note
 ---
 
 ## Chezmoi Security Remediation Plan—2026-07-02

@@ -1,13 +1,13 @@
 ---
 aliases: []
+conformant: false
 created: 2025-10-31T00:05:00+00:00
-modified: 2026-07-13T08:52:23+00:00
+modified: 2026-07-20T16:34:33+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/adhd-dmn-deactivation-failure
 tags: []
 title: ADHD DMN Deactivation Failure
 type: concept
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Summary: During sustained attention tasks, healthy controls show progressive deactivation of the default mode network (particularly the precuneus) as attention load increases, but ADHD individuals fail to show this deactivation pattern, indicating problems with task-appropriate network suppression.

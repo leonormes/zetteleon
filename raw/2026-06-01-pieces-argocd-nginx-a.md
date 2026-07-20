@@ -1,6 +1,6 @@
 ---
 created: 2026-06-22T14:56:06+00:00
-modified: 2026-07-04T10:49:42+00:00
+modified: 2026-07-20T16:32:46+00:00
 permalink: llmeon/raw/2026-06-01-pieces-argocd-nginx-a
 title: 2026-06-01-pieces-argocd-nginx-a
 ---

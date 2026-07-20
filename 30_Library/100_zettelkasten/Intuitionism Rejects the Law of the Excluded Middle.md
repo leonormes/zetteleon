@@ -1,13 +1,13 @@
 ---
 aliases: [Law of Excluded Middle Rejection]
+conformant: false
 created: 2025-11-01T11:22:13+00:00
-modified: 2026-07-13T08:52:28+00:00
+modified: 2026-07-20T16:34:29+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/intuitionism-rejects-the-law-of-the-excluded-middle
 tags: [constructivism, logic, topic/maths]
 title: Intuitionism Rejects the Law of the Excluded Middle
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Summary: Intuitionism rejects the classical law of excluded middle—the principle that for any proposition P, either P or ¬P must be true—arguing that a statement can be neither provably true nor provably false.

@@ -2,7 +2,7 @@
 created: 2026-02-22T16:53:22+00:00
 hop_level: local
 last_verified: 2026-02-22
-modified: 2026-07-13T08:53:00+00:00
+modified: 2026-07-20T16:33:36+00:00
 permalink: llmeon/30-library/ops/cmd-kubectl-get-image-pull-secret-creds
 requires_tunnel: false
 tags: [cmd, credentials, debug, registry, secrets]

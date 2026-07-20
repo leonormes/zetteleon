@@ -1,7 +1,7 @@
 ---
 aliases: [Goldberg Layer, Timed Writing]
 created: 2025-12-04T12:23:40+00:00
-modified: 2026-07-13T08:52:15+00:00
+modified: 2026-07-20T16:34:09+00:00
 permalink: llmeon/30-library/200-projects/stage-1-generate-the-goldberg-layer
 project_category: prodos
 project_name: ProdOS

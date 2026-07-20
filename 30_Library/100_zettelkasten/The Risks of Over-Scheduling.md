@@ -1,13 +1,13 @@
 ---
 aliases: [Over-Scheduling Risks]
+conformant: false
 created: 2025-11-01T21:11:00+00:00
-modified: 2026-07-13T08:52:32+00:00
+modified: 2026-07-20T16:34:23+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/the-risks-of-over-scheduling
 tags: [burnout, risk, scheduling, time-management, topic/productivity]
 title: The Risks of Over-Scheduling
 type: concept
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 While timeboxing provides valuable structure, an overly rigid or packed schedule can be counterproductive and lead to negative consequences.

@@ -1,13 +1,13 @@
 ---
 aliases: [Systems Consolidation]
+conformant: false
 created: 2025-11-10T16:15:00+00:00
-modified: 2026-07-13T08:52:31+00:00
+modified: 2026-07-20T16:34:24+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/systems-consolidation-is-the-gradual-reorganization-of-memory-in-the-brain
 tags: [hippocampus, memory, neocortex, TheHuman/Neuroscience]
 title: Systems Consolidation is the Gradual Reorganization of Memory in the Brain
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Systems Consolidation is the Gradual Reorganization of Memory in the Brain
@@ -16,7 +16,6 @@ Summary: Systems consolidation is the gradual process by which memory traces are
 
 Details: Initially, new explicit memories are heavily dependent on the hippocampus. Over time, through a dialogue between the hippocampus and the neocortex (often via "neural replay" during rest or sleep), these memories are integrated into distributed networks in the neocortex, making them more stable and permanent.
 
-
 ## Related
-- [[Memory Formation Involves Three Stages Encoding Consolidation and Retrieval]]
 
+- [[Memory Formation Involves Three Stages Encoding Consolidation and Retrieval]]

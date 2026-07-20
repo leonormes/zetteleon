@@ -1,14 +1,14 @@
 ---
 aliases: [Oracle SBC, Perimeta, SBC, SIP Security, Voice Policy Enforcement]
+conformant: false
 created: 2026-04-02T12:10:00+00:00
-modified: 2026-07-13T08:52:53+00:00
+modified: 2026-07-20T16:33:44+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-session-border-controllers-sbc
 source_of_truth: true
 tags: [networking, security, sip, voice, voip]
 title: SoT - Session Border Controllers (SBC)
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

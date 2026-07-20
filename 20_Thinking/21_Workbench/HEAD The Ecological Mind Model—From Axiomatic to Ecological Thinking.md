@@ -1,7 +1,7 @@
 ---
 captured: 2026-07-15T11:43:04+01:00 2026-07-15T11:43:04+01:00
 created: 2026-07-15T10:42:36+00:00
-modified: 2026-07-15T14:04:47+00:00
+modified: 2026-07-20T16:34:35+00:00
 permalink: llmeon/00-inbox/ecological-mind-model
 source: https://gemini.google.com/app/dd7fd18f2310946a
 status: processing

@@ -1,17 +1,17 @@
 ---
 aliases: [AWS IAM]
+conformant: false
 created: 2026-04-05T10:30:00+00:00
 last-synthesis: 2026-04-05
 last_reviewed: null
-modified: 2026-07-13T08:52:43+00:00
+modified: 2026-07-20T16:33:53+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-aws-identity-access-management
 status: Active
 synthesis-count: 1
 tags: [aws, iam, security, sot]
 title: SoT - AWS Identity & Access Management
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

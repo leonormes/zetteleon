@@ -1,12 +1,12 @@
 ---
+conformant: false
 created: 2026-02-10T00:00:00+00:00
-modified: 2026-07-13T08:52:24+00:00
+modified: 2026-07-20T16:34:33+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/bash-error-handling
 tags: [bash, devops, reference, shell]
 title: Bash - Error Handling
 type: concept
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Bash Error Handling

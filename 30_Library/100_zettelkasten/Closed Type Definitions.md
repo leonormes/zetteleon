@@ -2,7 +2,7 @@
 created: 2026-04-14T20:17:56+00:00
 created_utc: '2026-04-14T12:40:00Z'
 kind: mechanism
-modified: 2026-07-13T08:52:25+00:00
+modified: 2026-07-20T16:34:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/closed-type-definitions
 source_title: CUE — A Type System for the Cloud
 source_url: https://www.youtube.com/watch?v=FsUytTpDNro

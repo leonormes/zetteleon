@@ -1,13 +1,13 @@
 ---
 aliases: ["Peter Singer's Famine", Affluence, and Morality, Effective Altruism Foundation, Singerian Ethics]
+conformant: false
 created: 2025-12-14T00:00:00+00:00
-modified: 2026-07-13T08:52:52+00:00
+modified: 2026-07-20T16:33:45+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-peter-singers-famine-affluence-and-morality
 tags: [effective_altruism, ethics, moral_philosophy, peter_singer, utilitarianism]
 title: "SoT - Peter Singer's Famine, Affluence, and Morality"
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 2. Conceptual Foundation: Obligation vs. Supererogation
@@ -78,5 +78,5 @@ Singer's argument implies that most affluent individuals are living morally unac
 
 ## Related
 
-- [[Claim - Persons are outcomes of nature and nurture, not right or wrong axioms]] — _Human minds are shaped by environment rather than rigid logic engines._
-- [[The P-PC Balance (Production vs Production Capability)]] — _The fundamental principle of effectiveness and balancing output with capability._
+- [[Claim - Persons are outcomes of nature and nurture, not right or wrong axioms]]—_Human minds are shaped by environment rather than rigid logic engines._
+- [[The P-PC Balance (Production vs Production Capability)]]—_The fundamental principle of effectiveness and balancing output with capability._

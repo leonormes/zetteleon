@@ -1,13 +1,13 @@
 ---
 aliases: [Knowledge Requires Truth]
+conformant: false
 created: 2025-11-01T12:10:08+00:00
-modified: 2026-07-13T21:55:38+00:00
+modified: 2026-07-20T16:34:23+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/truth-is-a-necessary-condition-for-knowledge
 tags: [epistemology, knowledge, TheHuman/Philosophy, truth]
 title: Truth is a Necessary Condition for Knowledge
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Truth is a Necessary Condition for Knowledge

@@ -1,13 +1,13 @@
 ---
 aliases: ["Euclid's Theorem on Primes", Infinite Primes]
+conformant: false
 created: 2025-08-19T23:32:29+00:00
-modified: 2026-07-13T08:52:27+00:00
+modified: 2026-07-20T16:34:29+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/infinitude-of-primes-guarantees-a-limitless-supply-for-keys
 tags: [cryptography, maths]
 title: Infinitude of Primes Guarantees a Limitless Supply for Keys
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 There is an infinite number of prime numbers. As proven by Euclid over 2,000 years ago, no matter how large a prime you find, there is always a larger one.

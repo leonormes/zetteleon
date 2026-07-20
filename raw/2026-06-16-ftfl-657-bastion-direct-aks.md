@@ -1,6 +1,6 @@
 ---
 created: 2026-06-16T14:00:00+00:00
-modified: 2026-07-04T10:49:23+00:00
+modified: 2026-07-20T16:32:35+00:00
 permalink: llmeon/raw/2026-06-16-ftfl-657-bastion-direct-aks
 source: jira
 source_url: https://fitfile.atlassian.net/browse/FTFL-657

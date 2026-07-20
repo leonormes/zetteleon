@@ -1,13 +1,13 @@
 ---
 aliases: [Certainty Gap, Synthesis Gap]
+conformant: false
 created: 2025-11-06T20:01:02+00:00
-modified: 2026-07-13T08:52:24+00:00
+modified: 2026-07-20T16:34:32+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/certainty-and-synthesis-gaps-are-internal-barriers-to-group-understanding
 tags: [collaboration, communication, group-dynamics, knowledge, TheHuman/Cognition/bias]
 title: Certainty and Synthesis Gaps are Internal Barriers to Group Understanding
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Summary: Even when knowledge exists within a team, two internal gaps can prevent it from being used effectively: the Certainty Gap (bias) and the Synthesis Gap (poor communication).

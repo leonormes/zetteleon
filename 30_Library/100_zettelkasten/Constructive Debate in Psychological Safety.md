@@ -1,13 +1,13 @@
 ---
 aliases: []
+conformant: false
 created: 2025-10-31T12:47:00+00:00
-modified: 2026-07-14T21:37:42+00:00
+modified: 2026-07-20T16:34:32+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/constructive-debate-in-psychological-safety
 tags: [teamwork, TheHuman/Psychology]
 title: Constructive Debate in Psychological Safety
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Constructive Debate in Psychological Safety

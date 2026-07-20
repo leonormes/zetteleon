@@ -2,7 +2,7 @@
 author: Claude (read-only investigation)
 created: 2026-06-19T08:51:04+00:00
 date: 2026-06-19
-modified: 2026-07-04T10:50:35+00:00
+modified: 2026-07-20T16:33:33+00:00
 permalink: llmeon/work/ftfl-512-ci-cd-pipeline-incident-investigation
 related_ticket: FTFL-512
 status: Investigation complete

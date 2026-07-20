@@ -1,13 +1,13 @@
 ---
 aliases: [Reverse DNS]
+conformant: false
 created: 2025-10-31T10:50:00+00:00
-modified: 2026-07-13T08:52:33+00:00
+modified: 2026-07-20T16:34:22+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/in-addr.arpa-domains-enable-ip-to-name-reverse-dns-lookups
 tags: [SoftwareEngineering/Networking, SoftwareEngineering/networking/dns]
 title: in-addr.arpa Domains Enable IP-to-Name Reverse DNS Lookups
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## in-addr.arpa Domains Enable IP-to-Name Reverse DNS Lookups

@@ -1,13 +1,13 @@
 ---
 aliases: [Action-First Cognition, Embodied Understanding, Pre-Linguistic Cognition]
+conformant: false
 created: 2025-12-13T00:00:00+00:00
-modified: 2026-07-13T08:52:52+00:00
+modified: 2026-07-20T16:33:45+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-pre-linguistic-understanding
 tags: [ai, cognitive_science, education, linguistics, TheHuman/Philosophy]
 title: SoT - Pre-Linguistic Understanding
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 2. Core Principles
@@ -54,6 +54,6 @@ non_conformance_reason: "Bulk inferred type. Needs review."
 
 ## Related
 
-- [[Pre-Linguistic Thought]] — _Cognitive processes that occur before or independent of language acquisition._
-- [[Language Acquisition and Development]] — _Mapping linguistic symbols onto pre-existing conceptual frameworks._
-- [[Mental representations take multiple forms]] — _Pre-linguistic thought may manifest as visual/spatial representations or embodied knowledge._
+- [[Pre-Linguistic Thought]]—_Cognitive processes that occur before or independent of language acquisition._
+- [[Language Acquisition and Development]]—_Mapping linguistic symbols onto pre-existing conceptual frameworks._
+- [[Mental representations take multiple forms]]—_Pre-linguistic thought may manifest as visual/spatial representations or embodied knowledge._

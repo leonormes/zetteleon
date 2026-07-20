@@ -1,7 +1,8 @@
 ---
 created: 2026-07-14T09:12:51+00:00
-modified: 2026-07-14T09:31:04+00:00
+modified: 2026-07-20T16:33:31+00:00
 permalink: llmeon/ftfl-698-monitoring-gap-report-2026-07-14
+tags: [1]
 title: FTFL-698 Monitoring Gap Report 2026-07-14
 type: note
 ---
@@ -139,11 +140,11 @@ Query Store is already ON and capturing (AUTO mode) on `dev-mssql`/`OMOP`. This 
 
 Not applied: the Postgres `ALTER SYSTEM` fix from section 3 was not run against `ff-test-a` or `dev` in this session—confirming state, not changing it, was the ask. Flagging it as ready to run since DB access now exists; say the word and I'll run it (staging `ff-test-a` and testing `dev` are both writable from here), but it's a restart-incurring change so I'd want explicit go-ahead per instance rather than doing it opportunistically.
 
-### 3b. Addendum—gap #1 partially revised (2026-07-14, via [[Sandbox Cluster Dashboard Plan 2026-07-14]])
+### 3b. Addendum—gap 1 Partially Revised (2026-07-14, via [[Sandbox Cluster Dashboard Plan 2026-07-14]])
 
 Follow-up work on the `sandbox-testing-1` cluster (`aks-ff-uks-gp-1`) found that `ffcloud-service` already emits structured `WorkflowInstanceStarted`/`Completed`/`Failed` audit events to Loki, with `instanceId`, `workflowName`, `stageName`, pre-computed `duration`, and (on `Failed`) the full error text naming the failing task step. This was missed in section 2 because that pass only checked Prometheus/PromQL (`.*run_id.*`/`.*scenario.*` series), not Loki/LogQL.
 
-**Net effect on gap #1:** run ID, stage timings, and error taxonomy are **not absent**—they exist today as logs and just need a Loki-backed dashboard, not new instrumentation. What's still genuinely missing: **rows scanned/returned** isn't in these events, and none of it is in Prometheus as metrics (so PromQL-only tooling, alerting on numeric thresholds, etc. still can't see it without a log-to-metric bridge). See the linked plan doc §3.3 for detail. Downgrades gap #1 from "blocks Phase 2, needs code instrumentation" to "partially covered by a dashboard build; rows-scanned/returned is the remaining real gap."
+Net effect on gap 1: run ID, stage timings, and error taxonomy are not absent—they exist today as logs and just need a Loki-backed dashboard, not new instrumentation. What's still genuinely missing: rows scanned/returned isn't in these events, and none of it is in Prometheus as metrics (so PromQL-only tooling, alerting on numeric thresholds, etc. still can't see it without a log-to-metric bridge). See the linked plan doc §3.3 for detail. Downgrades gap 1 from "blocks Phase 2, needs code instrumentation" to "partially covered by a dashboard build; rows-scanned/returned is the remaining real gap."
 
 ### 4. Gaps Found
 

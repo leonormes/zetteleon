@@ -1,13 +1,13 @@
 ---
 aliases: [Versailles Fable Labyrinth]
+conformant: false
 created: 2025-11-01T21:38:00+00:00
-modified: 2026-07-13T08:52:32+00:00
+modified: 2026-07-20T16:34:23+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/the-versailles-labyrinth-used-fable-installations-for-visual-storytelling
 tags: [art, fable, history, SoftwareEngineering/Architecture, storytelling, versailles]
 title: The Versailles Labyrinth Used Fable Installations for Visual Storytelling
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 The Labyrinth of Versailles, a garden maze built for King Louis XIV, represented a shift in fable storytelling towards a visual and interactive medium.

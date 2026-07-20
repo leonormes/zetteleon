@@ -1,13 +1,13 @@
 ---
 aliases: [Feynman Technique, Prot\u00e9g\u00e9 Effect]
+conformant: false
 created: 2025-11-10T16:09:00+00:00
-modified: 2026-07-13T08:52:26+00:00
+modified: 2026-07-20T16:34:30+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/explaining-to-others-enhances-ones-own-learning
 tags: [learning, teaching, TheHuman/Habits, understanding]
 title: "Explaining to Others Enhances One's Own Learning"
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Explaining to Others Enhances One's Own Learning

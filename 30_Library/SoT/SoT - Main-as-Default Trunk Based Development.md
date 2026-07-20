@@ -1,13 +1,13 @@
 ---
 aliases: [Commit to Main, Main-as-Default TBD, Trunk Based Development SoT]
+conformant: false
 created: 2025-12-15T00:00:00+00:00
-modified: 2026-07-13T08:52:50+00:00
+modified: 2026-07-20T16:33:47+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-main-as-default-trunk-based-development
 tags: [agile, devops, git, SoftwareEngineering, tbd]
 title: SoT - Main-as-Default Trunk Based Development
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 > [!definition] Definition: "Main-as-Default TBD"
@@ -91,5 +91,5 @@ See also: [[SoT - Accelerate & DORA]]
 
 ## Related
 
-- [[SoT - Software Configuration Management Patterns]] — _Everything is Code, The Mainline Model, and Continuous Integration._
-- [[SoT - DevOps & Infrastructure Architecture Strategy]] — _Addressing complexity vs. cognition in DevOps practices._
+- [[SoT - Software Configuration Management Patterns]]—_Everything is Code, The Mainline Model, and Continuous Integration._
+- [[SoT - DevOps & Infrastructure Architecture Strategy]]—_Addressing complexity vs. cognition in DevOps practices._

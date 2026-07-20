@@ -1,6 +1,6 @@
 ---
 created: 2026-05-31T00:00:00+00:00
-modified: 2026-07-13T08:52:24+00:00
+modified: 2026-07-20T16:34:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/claim-adhd-perfectionism-is-maladaptive-compensation
 position-date: 2026-05-31
 related_to: ["[[Claim - Treat the system as iterative not perfectable]]", "[[Rejection-Sensitive Dysphoria]]"]

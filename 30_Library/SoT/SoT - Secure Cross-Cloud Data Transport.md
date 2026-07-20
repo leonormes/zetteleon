@@ -1,13 +1,13 @@
 ---
 aliases: [Cross-Cloud Security, Secure Data Transport, SoT - Cross-Cloud]
+conformant: false
 created: 2025-03-13T15:51:37+00:00
-modified: 2026-07-13T08:52:53+00:00
+modified: 2026-07-20T16:33:44+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-secure-cross-cloud-data-transport
 tags: [cloud, data-centric, SoftwareEngineering/Architecture, SoftwareEngineering/Security, sot]
 title: SoT - Secure Cross-Cloud Data Transport
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Definitive Statement

@@ -1,11 +1,11 @@
 ---
+conformant: false
 created: 2026-05-02T20:33:41+00:00
-modified: 2026-07-17T09:00:00+00:00
+modified: 2026-07-20T16:34:22+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/beyond-words
 title: beyond words
 type: concept
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Beyond Words
@@ -400,11 +400,9 @@ Understanding this relationship illuminates not just how we communicate but who 
 
 ## Related
 
-- [[Processing Is Not Proof of Phenomenal Consciousness]] — *both mark the unbridgeable gap between a mechanism or representation and the lived, qualitative experience that cannot be fully captured by mechanism or language.*
-
+- [[Processing Is Not Proof of Phenomenal Consciousness]]—_both mark the unbridgeable gap between a mechanism or representation and the lived, qualitative experience that cannot be fully captured by mechanism or language._
 
 ## Related
 
 - [[Creative Expression Across Mediums]] - Connects non-linguistic expression to specific mediums.
 - [[Ideas exist beyond linguistic expression]] - The foundational concept that thoughts precede their verbalization.
-

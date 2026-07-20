@@ -1,16 +1,16 @@
 ---
 aliases: [Digital Identity Properties, Human Identity, Identity Fundamentals, Machine Identity]
+conformant: false
 created: 2025-12-29T20:02:16+00:00
 last_reviewed: null
-modified: 2026-07-13T08:52:46+00:00
+modified: 2026-07-20T16:33:51+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-digital-identity
 status: Active
 tags: [concepts, iam, SoftwareEngineering/Architecture, SoftwareEngineering/Security, TheHuman/Identity]
 title: SoT - Digital Identity
 type: sot
 updated: null
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SoT - Digital Identity

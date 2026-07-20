@@ -1,13 +1,13 @@
 ---
 aliases: []
+conformant: false
 created: 2025-11-01T09:51:13+00:00
-modified: 2026-07-13T08:52:30+00:00
+modified: 2026-07-20T16:34:26+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/probabilistic-thinking-treats-beliefs-as-hypotheses-with-confidence-levels
 tags: [epistemology, mental-model, probabilistic-thinking, uncertainty]
 title: Probabilistic Thinking Treats Beliefs as Hypotheses With Confidence Levels
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Probabilistic Thinking Treats Beliefs as Hypotheses With Confidence Levels

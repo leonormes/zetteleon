@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-20T08:05:02+00:00
 last_reviewed: ''
-modified: 2026-07-16T07:35:00+00:00
+modified: 2026-07-20T16:34:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/inaction-erodes-self-trust
 status: ''
 tags: [confidence, inaction, self_esteem, TheHuman/Psychology]
@@ -20,5 +20,6 @@ This is why [[Building self-trust is essential for creating sustainable ADHD rou
 A primary defense against this erosion is ensuring you have a system you can trust. [[The Purpose of a Weekly Review is to Restore Trust in Your System|The entire purpose of a weekly review]] is to perform the [[Weekly Review Verifies Project Actionability and Context|Core Actions of a GTD Weekly Review]] that make your plans reliable and actionable. A trusted system makes action possible, which in turn rebuilds self-trust and allows for [[Disciplined Choices are Votes for Your Future Self|disciplined choices that vote for your future self]].
 
 ## Related
-- [[Action Triggers Bridge the Gap Between Motion and Action]] — _Strategies for bridging the gap from motion to genuine action._
-- [[ADHD Overthinking is a Substitute for Action]] — _Explains how overthinking feeds a procrastination loop that destroys self-trust._
+
+- [[Action Triggers Bridge the Gap Between Motion and Action]]—_Strategies for bridging the gap from motion to genuine action._
+- [[ADHD Overthinking is a Substitute for Action]]—_Explains how overthinking feeds a procrastination loop that destroys self-trust._

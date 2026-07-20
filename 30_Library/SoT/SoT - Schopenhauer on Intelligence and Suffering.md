@@ -1,14 +1,14 @@
 ---
 aliases: ["Schopenhauer's Pessimism", Metaphysics of Will, Schopenhauer on Solitude]
+conformant: false
 created: 2025-09-16T13:23:23+00:00
-modified: 2026-07-13T08:52:53+00:00
+modified: 2026-07-20T16:33:44+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-schopenhauer-on-intelligence-and-suffering
 source_of_truth: true
 tags: [intelligence, philosophy, schopenhauer, solitude, suffering, type/SoT]
 title: SoT - Schopenhauer on Intelligence and Suffering
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)
@@ -52,11 +52,9 @@ The current model integrates Schopenhauer's pessimism into a coherent lifestyle 
 
 - Originally consolidated from: [[Intelligent People Reject Social Life]], [[Suffering Can Be a Pathway to Liberation]], [[Detachment is the Ultimate Form of Freedom]].
 
-
 ## Related
 
 - [[SoT - The Nature of Time and Perception]]
 - [[The Four Noble Truths Explain Suffering from Attachment]]
 - [[Multiplicity Is a Stage to Pass Through, Not a Destination]]
 - [[Zen Practice Centers on Accepting Impermanence]]
-

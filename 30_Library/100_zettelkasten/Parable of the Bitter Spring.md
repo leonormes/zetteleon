@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-12T09:41:52+00:00
 last_reviewed: ''
-modified: 2026-07-13T08:52:29+00:00
+modified: 2026-07-20T16:34:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/parable-of-the-bitter-spring
 status: ''
 tags: []

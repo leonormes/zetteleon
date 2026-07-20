@@ -1,14 +1,14 @@
 ---
 aliases: [Cloud Networking Requirements, Network Architecture Principles, Networking Fundamentals]
+conformant: false
 created: 2026-01-09T22:08:05+00:00
-modified: 2026-07-13T08:52:44+00:00
+modified: 2026-07-20T16:33:52+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-cloud-networking-principles
 status: Permanent
 tags: [architecture, cloud, networking, principles, security]
 title: SoT - Cloud Networking Principles
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Definitive Statement

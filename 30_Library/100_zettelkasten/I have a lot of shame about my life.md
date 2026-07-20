@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-05-18T08:57:31+00:00
 last_reviewed: '2025-10-31'
-modified: 2026-07-13T08:52:27+00:00
+modified: 2026-07-20T16:34:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/i-have-a-lot-of-shame-about-my-life
 status: seedling
 tags: [meta-work, procrastination, shame, TheHuman/Health/ADHD, topic/productivity]

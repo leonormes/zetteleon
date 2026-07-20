@@ -1,13 +1,13 @@
 ---
 aliases: [Bouncing Back]
+conformant: false
 created: 2025-11-01T21:26:00+00:00
-modified: 2026-07-13T08:52:30+00:00
+modified: 2026-07-20T16:34:26+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/resilience-is-the-ability-to-bounce-back-from-setbacks
 tags: [character-strength, growth, resilience, TheHuman/Psychology, virtue]
 title: Resilience is the Ability to Bounce Back from Setbacks
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Resilience is the psychological capacity to adapt to and recover from stress, adversity, trauma, or disappointment.

@@ -1,13 +1,13 @@
 ---
 aliases: [Frozen Context, Token Caching]
+conformant: false
 created: 2026-01-08T16:10:00+00:00
-modified: 2026-07-13T08:52:25+00:00
+modified: 2026-07-20T16:34:32+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/context-caching-freezes-large-static-datasets-for-efficient-inference
 tags: [context-engineering, economics, llm, llm-understanding]
 title: Context Caching Freezes Large Static Datasets for Efficient Inference
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Context Caching Freezes Large Static Datasets for Efficient Inference

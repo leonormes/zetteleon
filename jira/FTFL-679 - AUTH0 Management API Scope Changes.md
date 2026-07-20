@@ -6,7 +6,7 @@ jira_id: '31912'
 jira_key: FTFL-679
 jira_url: https://fitfile.atlassian.net/browse/FTFL-679
 labels: [auth0, infrastructure, security]
-modified: 2026-07-04T10:50:33+00:00
+modified: 2026-07-20T16:33:31+00:00
 permalink: llmeon/jira/ftfl-679-auth0-management-api-scope-changes
 priority: High
 reporter: Leon Ormes

@@ -1,6 +1,6 @@
 ---
 created: 2026-06-01T11:27:22+00:00
-modified: 2026-07-13T08:52:15+00:00
+modified: 2026-07-20T16:34:09+00:00
 permalink: llmeon/30-library/200-projects/times-tables-mastery-guide
 project_category: personal
 project_name: Bessie

@@ -1,6 +1,6 @@
 ---
 created: 2026-05-30T08:31:27+00:00
-modified: 2026-07-04T10:49:45+00:00
+modified: 2026-07-20T16:32:57+00:00
 permalink: llmeon/raw/2026-05-30-pieces-hermes-mcp-config
 pieces_ids: [19808e94-4125-495b-b2cb-85c5bad2a6f3, 19aa7a0e-e2ac-480e-bf87-17ef44da8a9a, 97f2e103-f3f2-421d-b4df-47146aed1b83]
 source: pieces-ltm

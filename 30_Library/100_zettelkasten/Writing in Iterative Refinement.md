@@ -3,7 +3,7 @@ aliases: []
 created: 2025-02-07T12:57:53+00:00
 ID: 9e
 last_reviewed: 'null'
-modified: 2026-07-10T12:16:00+01:00
+modified: 2026-07-20T16:34:22+00:00
 permalink: llmeon/30-library/100-zettelkasten/writing-in-iterative-refinement
 status: 'null'
 tags: [topic/pkm/zettelkasten, topic/writing]
@@ -20,9 +20,7 @@ updated: null
 
 [[Educating Your Zettelkasten]]
 
-
 ## Related
 
 - [[Writing as Cognitive Rigour]] - Highlights how the process of writing exposes flaws in thought.
 - [[Writing puts us in the powerful position of being able to observe our thinking]] - The mechanism that makes iterative refinement possible.
-

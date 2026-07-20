@@ -1,13 +1,13 @@
 ---
 aliases: [Cohort Generation, Evidence Generation, OHDSI Analytics]
+conformant: false
 created: 2026-01-06T18:52:01+00:00
-modified: 2026-07-13T08:52:51+00:00
+modified: 2026-07-20T16:33:46+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-ohdsi-analytics
 tags: [analytics, evidence, ohdsi, sot]
 title: SoT - OHDSI Analytics
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Definitive Statement
@@ -61,5 +61,5 @@ Just because code runs doesn't mean the evidence is valid. OHDSI enforces qualit
 
 ## Related
 
-- [[SoT - OHDSI Evidence Generation]] — _Systematically applying best-practice methods across a federated network._
-- [[SoT - OHDSI Ecosystem]] — _Global collaborative dedicated to generating reliable evidence from observational data._
+- [[SoT - OHDSI Evidence Generation]]—_Systematically applying best-practice methods across a federated network._
+- [[SoT - OHDSI Ecosystem]]—_Global collaborative dedicated to generating reliable evidence from observational data._

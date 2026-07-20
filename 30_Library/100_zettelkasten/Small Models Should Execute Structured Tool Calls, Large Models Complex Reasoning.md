@@ -1,12 +1,12 @@
 ---
+conformant: false
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-07-13T08:52:31+00:00
+modified: 2026-07-20T16:34:25+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/small-models-should-execute-structured-tool-calls-large-models-complex-reasoning
 tags: [cost-optimization, local-models, performance, semantic-routing]
 title: Small Models Should Execute Structured Tool Calls, Large Models Complex Reasoning
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Small Models Should Execute Structured Tool Calls, Large Models Complex Reasoning

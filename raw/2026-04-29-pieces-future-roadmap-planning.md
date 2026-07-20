@@ -1,6 +1,6 @@
 ---
 created: 2026-04-29T08:34:48+00:00
-modified: 2026-07-04T10:50:28+00:00
+modified: 2026-07-20T16:33:29+00:00
 permalink: llmeon/raw/2026-04-29-pieces-future-roadmap-planning
 pieces_ids: [11cd4f4c-397d-4989-9392-61ec4457bd01, 808b74d7-c693-4120-8811-6e0ac790422e]
 source: pieces-ltm

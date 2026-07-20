@@ -1,13 +1,13 @@
 ---
 aliases: [Cognitive Distance]
+conformant: false
 created: 2025-11-06T20:00:02+00:00
-modified: 2026-07-13T08:52:33+00:00
+modified: 2026-07-20T16:34:22+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/writing-creates-cognitive-distance-for-objective-evaluation
 tags: [self-reflection, TheHuman/Cognition/bias, thinking, writing]
 title: Writing Creates Cognitive Distance for Objective Evaluation
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Writing Creates Cognitive Distance for Objective Evaluation

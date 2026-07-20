@@ -2,7 +2,7 @@
 created: 2026-04-14T11:22:35+00:00
 created_utc: '2026-04-14T11:05:00Z'
 kind: distinction
-modified: 2026-07-13T08:52:28+00:00
+modified: 2026-07-20T16:34:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/intent-as-high-level-source-code
 source_title: 'Martin Fowler & Kent Beck: Frameworks for reinventing software, again and again'
 source_url: http://www.youtube.com/watch?v=CZs8J1ZD0CE

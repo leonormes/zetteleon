@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-11-15T19:15:19+00:00
 last_reviewed: ''
-modified: 2026-07-13T08:52:32+00:00
+modified: 2026-07-20T16:34:23+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-sophistication-is-a-bug-not-a-feature
 status: ''
 tags: []

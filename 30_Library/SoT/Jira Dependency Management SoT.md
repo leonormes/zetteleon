@@ -1,14 +1,14 @@
 ---
+conformant: false
 created: 2026-02-04T09:12:25+00:00
 last-synthesis: 2026-02-04
-modified: 2026-07-13T08:52:40+00:00
+modified: 2026-07-20T16:33:56+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/jira-dependency-management-so-t
 source_of_truth: true
 tags: [domain/productivity, tool/jira, type/SoT]
 title: Jira Dependency Management SoT
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

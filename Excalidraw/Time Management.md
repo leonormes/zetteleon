@@ -1,22 +1,21 @@
 ---
+created: 2026-07-11T12:10:20+00:00
+excalidraw-plugin: parsed
+modified: 2026-07-20T16:33:34+00:00
+permalink: llmeon/excalidraw/time-management
+tags: [excalidraw]
 title: Time Management
 type: note
-permalink: llmeon/excalidraw/time-management
-excalidraw-plugin: parsed
-tags:
-  - excalidraw
 ---
 
+==⚠ Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠== You can decompress Drawing data with the command palette: 'Decompress current Excalidraw file'. For more info check in plugin settings under 'Saving'
 
+## Excalidraw Data
 
+### Text Elements
 
-==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠== You can decompress Drawing data with the command palette: 'Decompress current Excalidraw file'. For more info check in plugin settings under 'Saving'
+### Element Links
 
-
-# Excalidraw Data
-
-## Text Elements
-## Element Links
 fbCNFxKS: [[Flexibility Within Structure is Key to Sustainable Timeboxing]]
 
 zuQYTy6R: [[The Pomodoro Technique Uses Short Timed Intervals to Maintain Focus]]
@@ -38,7 +37,9 @@ OQuV4kVJ: [[The Core Principles of Time Blocking are Proactive Planning Single-T
 sVInG8IN: [[Time Mapping is a Visual Method of Time Blocking the Day]]
 
 %%
-## Drawing
+
+### Drawing
+
 ```compressed-json
 N4IgLgngDgpiBcIYA8DGBDANgSwCYCd0B3EAGhADcZ8BnbAewDsEAmcm+gV31TkQAswYKDXgB6MQHNsYfpwBGAOlT0AtmIBeNCtlQbs6RmPry6uA4wC0KDDgLFLUTJ2l
 
@@ -128,4 +129,5 @@ AG/IKq4DAEHD4CxVUEZARHwHyDTgKt3vwH3tTrns31ExMAACt08khORfIoB1xk7z7PB06hVSSqBpx3bM
 
 if6TtRNzAaAVVI4kx84z0bRBTKcTxsIO5qAEgaYkBfIL6Z19wiHFxX7kwsV8x1w8AtZ68H6uqD16GqG36CqtsYHPAgHGBn7DJMgVBEhVtmBRN74m5IogA===
 ```
+
 %%

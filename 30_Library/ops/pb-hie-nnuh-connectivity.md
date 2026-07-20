@@ -2,7 +2,7 @@
 created: 2026-02-05T10:40:21+00:00
 customer: nnuh
 incident_type: connectivity_failure
-modified: 2026-07-13T08:53:01+00:00
+modified: 2026-07-20T16:33:36+00:00
 permalink: llmeon/30-library/ops/pb-hie-nnuh-connectivity
 tags: [hie, network, nnuh, playbook]
 target_service: network

@@ -1,13 +1,13 @@
 ---
 aliases: [DKE, Dunning Kruger]
+conformant: false
 created: 2025-12-12T00:00:00+00:00
-modified: 2026-07-13T08:52:45+00:00
+modified: 2026-07-20T16:33:51+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-dunning-kruger-effect
 tags: [bias, metacognition, TheHuman/Cognition, TheHuman/Psychology]
 title: SoT - Dunning-Kruger Effect
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 2. The Core Mechanism: The "Double Burden"

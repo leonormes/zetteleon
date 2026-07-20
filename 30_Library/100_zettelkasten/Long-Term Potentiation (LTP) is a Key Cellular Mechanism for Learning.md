@@ -1,13 +1,13 @@
 ---
 aliases: [LTP]
+conformant: false
 created: 2025-11-10T16:17:00+00:00
-modified: 2026-07-13T08:52:28+00:00
+modified: 2026-07-20T16:34:28+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/long-term-potentiation-ltp-is-a-key-cellular-mechanism-for-learning
 tags: [learning, memory, synapses, TheHuman/Neuroscience]
 title: Long-Term Potentiation (LTP) is a Key Cellular Mechanism for Learning
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Long-Term Potentiation (LTP) is a Key Cellular Mechanism for Learning

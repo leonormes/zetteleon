@@ -1,13 +1,13 @@
 ---
 aliases: [Neural Network Foundations, The Switch-Bump-Staircase Model, Universal Approximation Theorem]
+conformant: false
 created: 2026-04-05T11:45:00+00:00
-modified: 2026-07-13T08:52:50+00:00
+modified: 2026-07-20T16:33:47+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-machine-learning-foundations-neural-networks
 tags: [ai, computer-science, machine-learning, mathematics, neural-networks, sot]
 title: SoT - Machine Learning Foundations (Neural Networks)
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## 1. Minimum Viable Understanding (MVU)

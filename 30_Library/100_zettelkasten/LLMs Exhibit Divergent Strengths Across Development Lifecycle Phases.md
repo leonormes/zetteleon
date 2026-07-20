@@ -1,12 +1,12 @@
 ---
+conformant: false
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-07-13T08:52:28+00:00
+modified: 2026-07-20T16:34:28+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/llms-exhibit-divergent-strengths-across-development-lifecycle-phases
 tags: [claude, gpt, model-selection, software-engineering, specialization]
 title: LLMs Exhibit Divergent Strengths Across Development Lifecycle Phases
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## LLMs Exhibit Divergent Strengths Across Development Lifecycle Phases

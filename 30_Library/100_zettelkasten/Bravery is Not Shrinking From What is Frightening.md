@@ -1,13 +1,13 @@
 ---
 aliases: [Courage]
+conformant: false
 created: 2025-11-01T21:20:00+00:00
-modified: 2026-07-13T08:52:24+00:00
+modified: 2026-07-20T16:34:32+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/bravery-is-not-shrinking-from-what-is-frightening
 tags: [bravery, character-strength, courage, fear, virtue]
 title: Bravery is Not Shrinking From What is Frightening
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Bravery, also known as courage, is the inner strength to face things that are frightening or difficult.

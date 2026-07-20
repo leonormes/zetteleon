@@ -1,14 +1,14 @@
 ---
 aliases: [Day Theming]
+conformant: false
 created: 2025-11-10T14:11:00+00:00
-modified: 2026-07-13T08:52:25+00:00
+modified: 2026-07-20T16:34:31+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/day-theming-is-a-macro-time-blocking-strategy
 project_name: ProdOS
 tags: [planning, strategy, time-blocking, topic/productivity]
 title: Day Theming is a Macro Time Blocking Strategy
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Day Theming is a Macro Time Blocking Strategy

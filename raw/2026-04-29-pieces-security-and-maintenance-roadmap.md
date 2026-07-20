@@ -1,6 +1,6 @@
 ---
 created: 2026-04-29T08:34:48+00:00
-modified: 2026-07-04T10:50:28+00:00
+modified: 2026-07-20T16:33:29+00:00
 permalink: llmeon/raw/2026-04-29-pieces-security-and-maintenance-roadmap
 pieces_ids: [1245dff5-c287-4131-8a0c-4825a367dda4, 2bb99982-828c-4126-9610-e25ac846b041, 2c32b6a7-9ec8-43cf-9969-c98bdec19497, 2dde824a-4759-467a-84db-100e7745db42, 4fa0276d-6dae-48a4-9f7e-8b3b8431e634, 8509d2ff-c79a-46d3-8f3f-ef0961888df3]
 source: pieces-ltm

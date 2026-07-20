@@ -1,7 +1,7 @@
 ---
 aliases: [ADHD Shame, Feeling Defective, Shame MOC]
 created: 2025-05-26T13:50:29+00:00
-modified: 2026-07-13T08:52:38+00:00
+modified: 2026-07-20T16:33:57+00:00
 permalink: llmeon/30-library/mo-c/moc-shame
 tags: [emotion, map, shame, TheHuman/Health/ADHD]
 title: MOC - Shame

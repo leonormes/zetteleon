@@ -1,7 +1,7 @@
 ---
 created: 2026-02-16T11:46:14+00:00
 icon: layout-dashboard
-modified: 2026-07-13T08:52:57+00:00
+modified: 2026-07-20T16:33:39+00:00
 permalink: llmeon/30-library/ops/ops-dashboard
 tags: [automated, dashboard, ops]
 title: Ops Dashboard
@@ -73,11 +73,9 @@ SORT file.name ASC
 - [ ] [[Atomic Command Template|Create New Atomic Command]]
 - [ ] [[playbook-template|Create New Playbook]]
 
-
 ## Related
 
 - [[SoT - FitFile VSO Secrets Management]]
 - [[Atomic Command Template]]
 - [[MOC - Operations & Diagnostics (Triage)]]
 - [[MOC - Operations & Runbooks (Fast)]]
-

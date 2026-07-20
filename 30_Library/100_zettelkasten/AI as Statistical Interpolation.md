@@ -2,7 +2,7 @@
 created: 2026-04-14T20:30:42+00:00
 created_utc: '2026-04-14T13:40:00Z'
 kind: claim
-modified: 2026-07-13T08:52:23+00:00
+modified: 2026-07-20T16:34:33+00:00
 permalink: llmeon/30-library/100-zettelkasten/ai-as-statistical-interpolation
 source_title: Deconstructing the interview with Jeremy Howard
 source_url: https://gemini.google.com/app/fa3a7e9a4a69844c

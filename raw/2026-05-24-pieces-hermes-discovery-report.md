@@ -1,6 +1,6 @@
 ---
 created: 2026-05-24T18:09:28+00:00
-modified: 2026-07-04T10:49:49+00:00
+modified: 2026-07-20T16:33:05+00:00
 permalink: llmeon/raw/2026-05-24-pieces-hermes-discovery-report
 pieces_ids: [70503f11-16c7-4a75-9935-66516e96dfe6, d7b19381-e081-4ee1-ad1e-59e4785fc3ac, dc22f99a-56a2-445b-8f7f-63d70699adef, ee492eb2-78f3-49dc-8842-514461e3f794]
 source: pieces-ltm

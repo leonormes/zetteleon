@@ -6,7 +6,7 @@ jira_id: '31913'
 jira_key: FTFL-680
 jira_url: https://fitfile.atlassian.net/browse/FTFL-680
 labels: [azure, mana, networking]
-modified: 2026-07-04T10:50:33+00:00
+modified: 2026-07-20T16:33:31+00:00
 permalink: llmeon/jira/ftfl-680-azure-mana-compatibility-verification
 priority: High
 reporter: Leon Ormes

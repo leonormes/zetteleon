@@ -1,14 +1,14 @@
 ---
 aliases: [Boom-bust pacing, Energy cycle matching]
+conformant: false
 created: 2025-10-30T17:36:00+00:00
-modified: 2026-07-13T08:52:26+00:00
+modified: 2026-07-20T16:34:30+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/event-based-pacing-matches-boom-and-bust-energy-cycles
 source: '[[MOC - How To Create And Use Mini Routines]]'
 tags: [autism, energy-management, TheHuman/Health/ADHD]
 title: Event-based pacing matches boom and bust energy cycles
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Event-based pacing systems can match the natural "boom and bust" energy cycles common in ADHD and autism by allowing high-energy periods to run longer and low-energy periods to compress or rest, rather than forcing all activities into predetermined time blocks.

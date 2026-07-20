@@ -4,7 +4,7 @@ created: 2025-10-30T15:04:20+00:00
 criteria: ''
 exclusions: ''
 last_reviewed: 'null'
-modified: 2026-07-13T08:52:39+00:00
+modified: 2026-07-20T16:33:57+00:00
 permalink: llmeon/30-library/mo-c/moc-the-one-degree-change-framework-for-adhd
 scope: ''
 source: How to ADHD - How to Stick to Habits and Routines Without Falling Off

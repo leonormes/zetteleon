@@ -1,14 +1,14 @@
 ---
 aliases: [Context Economics, Context Engineering Workflow, Research Plan Implement, RPI Protocol]
+conformant: false
 created: 2026-01-09T21:52:07+00:00
-modified: 2026-07-13T08:52:55+00:00
+modified: 2026-07-20T16:33:42+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-the-rpi-workflow-context-engineering
 status: permanent
 tags: [ai/architecture, mental-model, prodos, system/protocol, workflow]
 title: SoT - The RPI Workflow (Context Engineering)
 type: sot
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Minimum Viable Understanding (MVU)

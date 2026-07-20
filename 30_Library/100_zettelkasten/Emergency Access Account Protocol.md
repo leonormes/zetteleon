@@ -2,7 +2,7 @@
 created: 2026-04-14T20:25:18+00:00
 created_utc: '2026-04-14T13:00:00Z'
 kind: procedure
-modified: 2026-07-13T08:52:26+00:00
+modified: 2026-07-20T16:34:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/emergency-access-account-protocol
 source_title: Azure Entra Identity Best Practices & Remediation Plan
 source_url: https://gemini.google.com/app/90721765fb79ed7a

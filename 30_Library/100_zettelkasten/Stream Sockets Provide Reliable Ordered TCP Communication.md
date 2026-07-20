@@ -1,13 +1,13 @@
 ---
 aliases: [stream sockets, TCP sockets]
+conformant: false
 created: 2025-10-31T13:37:00+00:00
-modified: 2026-07-13T08:52:31+00:00
+modified: 2026-07-20T16:34:25+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/stream-sockets-provide-reliable-ordered-tcp-communication
 tags: [protocol, socket, SoftwareEngineering/Networking, tcp]
 title: Stream Sockets Provide Reliable Ordered TCP Communication
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Stream Sockets Provide Reliable Ordered TCP Communication
@@ -34,7 +34,6 @@ Use Cases:
 
 The trade-off for reliability is slightly higher latency and overhead compared to datagram sockets.
 
-
 ## Related
-- [[Concept - UDP vs TCP]]
 
+- [[Concept - UDP vs TCP]]

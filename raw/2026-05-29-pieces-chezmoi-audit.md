@@ -1,6 +1,6 @@
 ---
 created: 2026-05-29T13:44:28+00:00
-modified: 2026-07-04T10:49:46+00:00
+modified: 2026-07-20T16:32:59+00:00
 permalink: llmeon/raw/2026-05-29-pieces-chezmoi-audit
 pieces_ids: [0564f203-1e28-4f6c-a485-5ab385382e8e, 49ca1f2c-5d47-4510-b40a-73c2011fa406, 913df5f6-aa3c-4c49-9914-dcf4b4df4c23, cf86f34c-82cc-426e-b81b-331d70267dfc, fa883503-057b-4ce2-a645-f7b59eed7e55]
 source: pieces-ltm

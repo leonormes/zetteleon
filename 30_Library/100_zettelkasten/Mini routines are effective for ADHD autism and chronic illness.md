@@ -1,14 +1,14 @@
 ---
 aliases: [Mini routine effectiveness, Neurodivergent-friendly routines]
+conformant: false
 created: 2025-10-30T17:38:00+00:00
-modified: 2026-07-13T08:52:29+00:00
+modified: 2026-07-20T16:34:28+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/mini-routines-are-effective-for-adhd-autism-and-chronic-illness
 source: '[[MOC - How To Create And Use Mini Routines]]'
 tags: [autism, chronic-illness, routines, TheHuman/Health/ADHD]
 title: Mini routines are effective for ADHD autism and chronic illness
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 Mini routine systems are particularly effective for individuals with ADHD, autism, or chronic illnesses because they provide necessary structure and predictability while accommodating the variable energy levels, sensory sensitivities, executive function challenges, and need for flexibility that characterize these conditions.

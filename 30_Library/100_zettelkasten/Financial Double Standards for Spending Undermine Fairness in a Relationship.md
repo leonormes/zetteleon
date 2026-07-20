@@ -1,13 +1,13 @@
 ---
 aliases: [Spending Double Standards]
+conformant: false
 created: 2025-11-10T10:18:00+00:00
-modified: 2026-07-13T08:52:26+00:00
+modified: 2026-07-20T16:34:30+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/financial-double-standards-for-spending-undermine-fairness-in-a-relationship
 tags: [conflict, fairness, finance, relationship]
 title: Financial Double Standards for Spending Undermine Fairness in a Relationship
 type: claim
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## Financial Double Standards for Spending Undermine Fairness in a Relationship
