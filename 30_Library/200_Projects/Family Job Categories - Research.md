@@ -1,7 +1,7 @@
 ---
 conformant: true
 created: 2026-07-20T12:02:00+00:00
-modified: 2026-07-20T16:34:02+00:00
+modified: 2026-07-20T18:48:00+01:00
 permalink: llmeon/30-library/200-projects/family-job-categories-research
 project_category: personal
 project_name: Family Chores
@@ -10,6 +10,9 @@ tags: [chores, family, mental-load, plan, research]
 title: Family Job Categories - Research
 type: reference
 ---
+
+> [!info] Tier 1 — Parent research
+> Supporting map for parents. Not for kids. Family-facing chores: [[Family Chores - Everyone's Guide]].
 
 ## Purpose
 
@@ -106,21 +109,13 @@ This is the least visible category and the one most often skewed toward one pare
 
 ## 10. Pet Care
 
-Not hypothetical for us: one dog with Addison's disease, one cat, and two snakes. Splits into two tiers (per [[For pet care we have a dog who has addisons diseas]]):
+Category ownership only (one dog with Addison's, one cat, two snakes). Do not duplicate medical rules here.
 
-- Parent-only medical tier (non-delegable):
-    - Dog's daily steroid tablets, given every morning with food.
-    - Monthly vet-administered hormone injection (recurring calendar appointment).
-    - Stress management and pre-emptive vet consultation before known stressors (fireworks, boarding).
-    - Red-flag monitoring: lethargy, vomiting, diarrhoea, collapse → same-day vet contact.
-    - Medication safety: no NSAIDs (Rimadyl, Metacam, Meloxicam); vet-approved pain relief only.
-    - Regular electrolyte blood tests.
-- Shared routine tier (children can own or rotate):
-    - Cat: feeding morning/evening, litter tray, grooming.
-    - Snakes: daily temperature/humidity checks, feeding every 1–2 weeks (calendar-tracked), water and substrate cleaning, shed monitoring.
-- Boarding/cover during travel: parent-arranged—the Addison's medication handover makes this higher-stakes than typical boarding.
-
-Family-facing version of this split lives in [[Family Chores - Everyone's Guide]].
+| Tier | Owner | Canonical detail |
+|:--- |:--- |:--- |
+| Parent-only medical | Mum / Dad | [[SoT - Master Household Chores Inventory]] §9 (from [[For pet care we have a dog who has addisons diseas]]) |
+| Shared routine (cat, snakes) | Children can help / rotate | Same inventory SoP; family wording in [[Family Chores - Everyone's Guide]] |
+| Boarding / travel cover | Parent-arranged | Higher stakes because of Addison's medication handover |
 
 ---
 

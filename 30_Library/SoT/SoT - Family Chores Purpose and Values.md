@@ -1,10 +1,13 @@
 ---
 created: 2026-07-20T12:52:00+00:00
-modified: 2026-07-20T16:33:41+00:00
+modified: 2026-07-20T18:48:00+01:00
 permalink: llmeon/30-library/so-t/so-t-family-chores-purpose-and-values
 tags: [chores, family, planning, purpose, values]
 title: SoT - Family Chores Purpose and Values
 ---
+
+> [!info] Tier 1 — Parent SoT (why)
+> Purpose and values for parents. Day-to-day family use: [[Family Chores - Everyone's Guide]] only.
 
 ## SoT - Family Chores Purpose and Values
 
@@ -42,24 +45,19 @@ What does it look and feel like when our household systems are running smoothly?
 
 ### 3. Brainstorming: What Must We Consider?
 
-- Executive Function Scaffolding: How do we make tasks easy to initiate?
-    - _Visual aids:_ Keeping laminated, step-by-step checklists in the kitchen and bathrooms.
-    - _Dopamine pairing:_ Allowing the kids to listen to music, podcasts, or audiobooks while cleaning.
-    - _Micro-stepping:_ Breaking down large jobs (like "clean the car") into tiny, physical steps that take less than 5 minutes to start.
-- Parent-Only Responsibilities: Keeping high-stakes routines, such as our dog's daily Addison's disease medication and monthly injections, strictly with Mum and Dad to ensure safety.
-- Handling Distractions and Resistance: Using neutral, single reminders 30 minutes before check-ins. If someone gets stuck, we run a non-punitive "Failure Autopsy" to see where they lost focus and how to change the environment next time (e.g., putting the phone in a kitchen drawer).
+- Executive Function Scaffolding: laminated zone checklists; music/podcast pairing while cleaning; micro-steps under 5 minutes to start.
+- Parent-only medical pet care (dog Addison's)—canonical rules in [[SoT - Master Household Chores Inventory]], not restated here.
+- Missed-job handling: single neutral reminder + non-punitive review—operational detail in [[Family Chores Operational Plan]]; family wording in [[Family Chores - Everyone's Guide]].
 
 ---
 
 ### 4. Organising: How is the System Structured?
 
-Our system is split into three clear operational tiers:
+Three layers (schedules and checklists live in the Tier 1 plan and Tier 2 guide, not here):
 
-1. Daily Quarters (Individual): Personal rooms kept tidy, beds made, and laundry moved to the downstairs basket daily.
-2. Weekly Rotations (Shared): Rotating jobs (Kitchen Reset, Bathrooms, Bins & Car Valet) that shift every Monday.
-3. Pet Care Split:
-    - _Parent-Owned (Medical):_ Dog's Addison's disease treatment and monitoring.
-    - _Child-Shared (Routine):_ Daily feeding and cleaning for the cat and snakes.
+1. Daily personal quarters (rooms, beds, laundry to downstairs basket).
+2. Weekly rotating shared jobs (Kitchen Reset, Bathrooms, Bins & Car)—Monday rotation.
+3. Pet care split: parent medical vs child-shared routine.
 
 ---
 
@@ -80,4 +78,5 @@ Our system is split into three clear operational tiers:
 - Team Charter SOT: [[SoT - Family Communication & Team Charter]]—_Handling differences in system values (Efficiency vs. Immediacy) and implementing tag-team handovers._
 - Growth Mindset Protocol: [[Protocol - Fostering Growth Mindset (Neurodivergent Family)]]—_Deconstructing perfectionism, process-based parenting, and running failure autopsies._
 - ADHD Scaffolding SOT: [[SoT - ADHD Management Protocols]]—_Initiation tactics (starter tasks, 120-second commitments, body doubling) and dopamine menus._
-- Pet Care Inbox Note: [[For pet care we have a dog who has addisons diseas]]—_The medical requirements of our dog and standard care for the cat and snakes._
+- Master Inventory: [[SoT - Master Household Chores Inventory]]—_Canonical SoPs/DoDs including pet medical care._
+- Pet Care Inbox Note: [[For pet care we have a dog who has addisons diseas]]—_Original research capture (superseded for operations by the Master Inventory)._

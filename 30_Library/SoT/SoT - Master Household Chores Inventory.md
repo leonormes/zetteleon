@@ -3,7 +3,7 @@ aliases: [Atomic Chores Inventory, Chores List, Cleaning SOPs, Home Maintenance 
 conformant: false
 created: 2025-12-30T10:00:00+00:00
 last_reviewed: '2025-12-30'
-modified: 2026-07-20T16:33:47+00:00
+modified: 2026-07-20T18:48:00+01:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-master-household-chores-inventory
 status: proposal
@@ -212,7 +212,7 @@ Reset note: if the sprint stalls, re-run this DoD from the top before restarting
 
 ### 9. Global Systems: Pet Care
 
-_Routines to ensure the health and safety of the family animals._
+_Canonical Tier 1 pet SoPs. Family-facing summary only: [[Family Chores - Everyone's Guide]]. Source research capture: [[For pet care we have a dog who has addisons diseas]]._
 
 #### [SOP] Dog Medical Care (Parent-Only)
 

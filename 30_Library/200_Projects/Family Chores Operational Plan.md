@@ -1,7 +1,7 @@
 ---
 conformant: true
 created: 2026-07-20T00:00:00+00:00
-modified: 2026-07-20T16:34:02+00:00
+modified: 2026-07-20T18:48:00+01:00
 permalink: llmeon/30-library/200-projects/family-chores-operational-plan
 project_category: personal
 project_name: Family Chores
@@ -10,6 +10,9 @@ tags: [chores, family, plan, project]
 title: Family Chores Operational Plan
 type: project
 ---
+
+> [!info] Tier 1 — Parent technical plan
+> Parent-facing working reference (DoDs, audit-gate logic, study scaffolding, open loops). The family-facing note is [[Family Chores - Everyone's Guide]] only. Do not send kids or partner to this note for day-to-day use.
 
 ## Outcome—Definition Of Done
 
@@ -100,9 +103,12 @@ Notes for parents:
 
 ### 2.4 Pet Care Routing
 
-- Parent-Only Medical Tier: The dog's Addison's disease medication, monthly vet injections, and stress management are strictly managed by Mum or Dad. These tasks are critical and high-stakes, and must never be delegated.
-- Child-Shared Routine Tier: Cat care (daily feeding, litter tray) and snake environment/feeding checks are routine tasks. These are shared among the children (Rae, Bessie, and Pearl).
-- Detailed SOPs: The official technical definitions of done for both pet tiers are maintained in [[SoT - Master Household Chores Inventory]].
+Two tiers only—do not restate medical SoPs here:
+
+- Parent-only medical: dog Addison's care (non-delegable).
+- Child-shared routine: cat and snake day-to-day care.
+
+Canonical SoPs and DoDs: [[SoT - Master Household Chores Inventory]] §9. Family-facing wording: [[Family Chores - Everyone's Guide]].
 
 ---
 
@@ -152,7 +158,9 @@ Before we lock this plan, we need to resolve the following details:
 
 ## Related Notes
 
+- [[Family Chores - Everyone's Guide]] — Tier 2 family-facing guide (canonical for kids/partner)
 - [[SoT - Family Household Governance]]
 - [[SoT - Master Household Chores Inventory]]
 - [[SoT - Family Communication & Team Charter]]
 - [[Protocol - Fostering Growth Mindset (Neurodivergent Family)]]
+- [[SoT - Family Chores Purpose and Values]]

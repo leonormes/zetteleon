@@ -1,43 +1,36 @@
 ---
 created: 2026-07-20T16:28:00+00:00
-modified: 2026-07-20T16:34:02+00:00
+modified: 2026-07-20T18:48:00+01:00
 permalink: llmeon/30-library/200-projects/family-chores-everyones-guide
 tags: [chores, family, guide]
 title: "Family Chores - Everyone's Guide"
 ---
 
-## What We're Doing and Why
+# Family Chores — Everyone's Guide
 
-Welcome to our family guide! A clean and comfortable home is something we all build together. Just like a sports team or a school group, we all have different roles to play to keep things running smoothly.
+This is the only chores note for Rae, Bessie, Pearl, and Mum to use day to day.
 
-This guide is here to make sure everyone knows what is expected of them, when things need to be done, and how we help each other out. This isn't about demands. It is about sharing the work fairly so that everyone has plenty of free time to relax and play. By working as a team, we can make our home a calmer, happier place for all of us!
+Mum and Dad keep a separate planning note with extra detail. You do not need it for normal days. If you ever want the full plan, it is here: [[Family Chores Operational Plan]].
 
 ---
 
-### "Why Do I Have to Do It?"
+## What We're Doing and Why
 
-It is a fair question, and here is the honest answer. Everyone in this family does jobs every single day to keep our lives running.
+We share the work of our home so it stays calm, clean, and fair.
 
-Most of Mum and Dad's jobs are invisible:
+We do this because:
 
-- Earning the money to pay for our home and activities.
-- Planning, shopping for, and cooking meals.
-- Washing, drying, and folding everyone's laundry.
-- Driving everyone to school, clubs, and appointments.
-- Paying bills and doing official paperwork.
-- Organising doctor, dentist, and vet appointments.
-- Fixing things around the house and taking care of the car.
-- Planning birthdays, holidays, and family fun.
+- Looking after a home is a life skill you will need one day.
+- Clear jobs and checklists make it easier to start and finish when our brains feel busy or tired.
+- When everyone knows what "done" looks like, we argue less and have more free time.
 
-Your chores are your share of the family's work, sized for your age. The tables below show _everyone's_ jobs so that the system is clear and fair for all of us.
+Everyone in this family does jobs. Mum and Dad's jobs are often quieter ones: earning money, cooking, laundry, driving, bills, appointments, fixing things, and planning birthdays and holidays. Your chores are your share, sized for your age.
 
 ---
 
 ## Who Does What
 
-To keep things fair, the three main weekly jobs rotate between Rae, Bessie, and Pearl.
-
-### Weekly Job Rotation
+The three main weekly jobs rotate so nobody is stuck with the same one forever. The jobs change every Monday.
 
 | Week | Rae | Bessie | Pearl |
 |:--- |:--- |:--- |:--- |
@@ -45,145 +38,145 @@ To keep things fair, the three main weekly jobs rotate between Rae, Bessie, and 
 | Week B | Bins & Car | Kitchen Reset | Bathrooms |
 | Week C | Bathrooms | Bins & Car | Kitchen Reset |
 
-_Note: The jobs rotate every Monday morning. You can check this table to see what your job is for the week._
+Check the fridge chart if you are unsure which week we are on.
 
-### Daily Responsibilities
+### Every day (everyone)
 
-Every family member has things they do every single day to keep their own spaces nice.
+**Rae, Bessie, and Pearl**
 
-- Rae, Bessie, and Pearl:
-    - Tidy your bedroom.
-    - Make your bed.
-    - Put your dirty clothes inside the laundry basket downstairs.
-    - Complete your rotating weekly job.
-- Mum and Dad:
-    - Keep our own bedroom tidy and get our laundry to the basket.
-    - Manage our dog's medical care and safety.
-    - Support the team and help answer any questions.
-    - Check completed jobs to make sure they are finished.
+- Tidy your bedroom.
+- Make your bed.
+- Put dirty clothes _inside_ the laundry basket downstairs (not next to it).
+- Do your weekly job for this week.
+
+**Mum and Dad**
+
+- Keep our own space tidy and get laundry to the basket.
+- Look after our dog's medical care (see Pet Care below).
+- Help if you get stuck.
+- Do the evening check-in.
 
 ---
 
 ## Daily Checklist
 
-Our daily routines keep the shared parts of our house feeling clean and ready to use.
+### If you are the Kitchen Reset helper this week
 
-### For the Kitchen Reset Helper (Rae, Bessie, or Pearl)
+- Clear the table after meals.
+- Wipe the table so it is free of crumbs.
+- Load the dishwasher (make sure the spray arms can spin).
+- Unload clean, dry dishes into the cupboards.
+- Wipe the kitchen worktops.
+- Empty the sink strainer, scrub the sink, and rinse it.
+- Sweep crumbs off the kitchen floor after meals.
 
-- Clear the table: Remove all plates, cups, and cutlery from the dining table after meals.
-- Wipe the table: Spray the dining table and wipe it down so it is free of crumbs.
-- Load the dishwasher: Put dirty dishes and cups inside the dishwasher. Make sure the spray arms can spin freely.
-- Unload the dishwasher: Put clean, dry dishes and cups back in their cupboards.
-- Wipe the counters: Spray and wipe the kitchen worktops.
-- Clean the sink: Empty the sink strainer, scrub the sink basin, and rinse it out.
-- Sweep the floor: Sweep up any crumbs or food dropped on the kitchen floor after meals.
+### Everyone, every day
 
-### For Everyone (Every Day)
+- Bedroom: floors clear of clothes and rubbish; bed made.
+- Laundry: dirty clothes go inside the downstairs basket.
+- Car: take your rubbish, bags, and shoes with you when you get out.
 
-- Bedroom Reset: Keep bedroom floors clear of clothes and rubbish. Make your bed.
-- Laundry Basket: Bring all dirty clothes downstairs and put them _inside_ the laundry basket (not next to it!).
-- Car Clean: Take all rubbish, bags, and shoes with you when you get out of the car.
+### Evening check-in
 
-### Daily Check-in
-
-- We will do a quick check-in each evening (we are suggesting 6:00 pm—we can agree this time together).
-- When your bedroom is tidy and your daily chores are done, Wi-Fi and screen access are open for the evening!
+- We aim for a quick check-in around **6:00 pm** (we can agree a better time together).
+- When your bedroom and daily jobs are done, Wi-Fi and screens are available for the evening.
 
 ---
 
 ## Weekly Checklist
 
-On weekends, we do a deeper clean to reset the house for the school week ahead. These tasks are checked on Sunday at 5:00 pm (we can agree this time together).
+Weekend jobs reset the house for the school week. We aim to finish by **Sunday 5:00 pm** (we can agree this time together).
 
-### Kitchen Reset Helper
+### Kitchen Reset helper
 
-- Deep floor clean: Vacuum around the edges of the kitchen and mop the whole kitchen floor.
-- Clean the microwave: Steam and wipe down the inside of the microwave.
-- Clean the hob: Scrub the stovetop and wipe the tiles behind it.
-- Wipe the cabinets: Wipe down the front of the cupboard doors and handles.
+- Vacuum kitchen edges and mop the whole kitchen floor.
+- Steam and wipe the microwave inside.
+- Scrub the hob and wipe the tiles behind it.
+- Wipe cupboard doors and handles.
 
-### Bathrooms Helper
+### Bathrooms helper
 
-- Clean the toilets: Bleach and scrub the toilet bowls. Wipe down the seats, lids, and flush handles with disinfectant.
-- Scrub the bath and shower: Wash away any grime or hair, and rinse them thoroughly.
-- Polish the sinks: Clean the basins and wipe the taps until they are shiny and spot-free.
-- Clean the mirrors: Wipe the mirrors with glass cleaner so they are streak-free.
-- Mop the floors: Mop both bathroom floors with disinfectant.
-- Empty the bathroom bins: Take the small rubbish bags from the bathrooms and put them in the main kitchen bin.
+- Bleach and scrub the toilet bowls; wipe seats, lids, and flush handles.
+- Scrub the bath and shower; rinse well.
+- Clean basins and polish taps.
+- Clean mirrors with glass cleaner.
+- Mop both bathroom floors.
+- Empty bathroom bins into the main kitchen bin.
 
-### Bins & Car Valet Helper
+### Bins & Car helper
 
-- Collect the rubbish: Gather all the small rubbish bags from the bathrooms, bedrooms, office, and kitchen.
-- Fill the big bins: Put all the collected bags into the big wheelie bins outside.
-- Put the bins out: Drag the wheelie bins to the curb on Sunday evening for collection.
-- Put clean liners in: Place fresh rubbish bags into all the empty indoor bins.
+- Collect rubbish bags from bathrooms, bedrooms, office, and kitchen.
+- Put them in the outdoor wheelie bins.
+- Put the wheelie bins out on Sunday evening for collection.
+- Put fresh liners in empty indoor bins.
 - Clean the car:
-    1. Take out all loose items and rubbish.
-    2. Shake the car mats outside to get rid of dirt.
-    3. Vacuum the seats and the floors.
-    4. Wipe the inside of the windows with glass cleaner.
-    5. Wipe down the steering wheel and gear stick.
+  1. Take out loose items and rubbish.
+  2. Shake the mats outside.
+  3. Vacuum seats and floors.
+  4. Wipe inside windows with glass cleaner.
+  5. Wipe the steering wheel and gear stick.
 
-### Everyone (Own Bedroom)
+### Everyone (your own bedroom)
 
-- Change your bedding: Strip the dirty sheets and put fresh linen on your bed.
-- Dust surfaces: Dust your desk, bedside table, and shelves.
-- Vacuum: Vacuum your bedroom carpet.
-- Empty your bin: Put your bedroom rubbish bag in the kitchen bin.
+- Change your bedding.
+- Dust desk, bedside table, and shelves.
+- Vacuum your carpet.
+- Empty your bedroom bin into the kitchen bin.
 
 ---
 
 ## What Happens If Something's Missed
 
-We know that life gets busy, and sometimes tasks are hard to start or easy to forget. We want to help everyone succeed! Here is how we handle things when a chore gets missed:
+Life gets busy. Forgetting is normal. Here is how we help each other:
 
-- Gentle Reminders: We will give a single, calm reminder 30 minutes before check-in time: _"Just a reminder, we are checking chores in 30 minutes. Let's take a look at the checklist."_
-- Dopamine Boosts: If a job feels boring or hard to start, you are welcome to pair it with your favourite music, audiobook, or podcast! Put your headphones on and enjoy your content while you clean.
-- Learning from Mistakes: If a job is missed or isn't finished, we won't get angry or shout. Instead, we'll sit down together for a quick, friendly chat to figure out how to make it easier next time.
-    - _What was the plan?_
-    - _Where did it get stuck?_ (For example: getting distracted by a phone or not finding the right cleaning spray).
-    - _What is one simple thing we can change next time?_ (For example: keeping the phone in a kitchen drawer while cleaning).
-- The Power of Yet: We do not expect perfection. If you struggle with a task, we say: _"You haven't mastered this yet, but we are working together to build routines that help."_
-- Screen Time and Wi-Fi: Screen time and Wi-Fi are paused if chores are incomplete at check-in time. They are turned back on as soon as the chores are completed. It is a simple, neutral choice: chores first, screens next.
+- **One calm reminder** about 30 minutes before check-in: _"Just a reminder — we are checking chores in 30 minutes. Let's look at the checklist."_
+- **Music while you clean:** you may listen to music, an audiobook, or a podcast while you do your job.
+- **Friendly problem-solving:** if something is missed or unfinished, we do not shout. We sit down briefly and ask:
+  - What was the plan?
+  - Where did it get stuck?
+  - What is one simple change for next time? (example: phone stays in a kitchen drawer while cleaning)
+- **Not yet, not never:** _"You haven't mastered this yet — we are building habits that help."_
+- **Screens wait for finished jobs:** if chores are not done at check-in, screen time and Wi-Fi pause until they are. Then they turn back on. Chores first, screens next — no drama.
 
 ---
 
 ## Pet Care Routines
 
-Our pets are a huge part of our family, and they need special care to stay healthy and happy. Because some of their care is very high-stakes, we split these tasks up:
+Our pets are part of the family. Some care is shared. Some care is **parent-only** because it is medical and high-stakes.
 
-### Parent-Only Tasks (Our Dog's Medical Care)
+### 🛑 Parent-only: our dog's medical care
 
-Because our dog has Addison's disease, their medical needs are very strict and must only be handled by Mum or Dad:
+Our dog has **Addison's disease**. Only Mum or Dad handle this:
 
-- Daily Tablets: Must be given every morning _with food_ to replace cortisol. Missing a dose is highly dangerous and can make our dog very ill.
-- Monthly Vet Injections: Taking the dog to the vet for their regular hormone injection.
-- Stress Management: Keeping things calm around the dog. Addison's dogs cannot handle stress (like fireworks or big changes) and may need temporary dose adjustments by the vet.
-- Warning Signs: Watching out for vomiting, diarrhoea, extreme tiredness, or collapse. These are medical emergencies—contact the vet immediately.
-- Safe Medications: Never giving common pain relief like Metacam or Rimadyl, which are unsafe for our dog. Only vet-approved pain relief may be given.
+- **Morning tablets with food every day** — missing a dose can make the dog very ill.
+- Monthly vet injection appointment.
+- Keeping life calm around the dog (fireworks and big changes are hard for Addison's dogs).
+- Watching for warning signs: vomiting, diarrhoea, extreme tiredness, or collapse — if you see these, tell Mum or Dad right away.
+- Never give common dog pain medicines like Metacam or Rimadyl — only medicine the vet has approved.
 
-### Shared Pet Care (For Rae, Bessie, and Pearl to Help With)
+### ✅ Shared pet care (Rae, Bessie, and Pearl can help)
 
-These jobs can be shared or done together to make sure our other pets are happy:
+**Cat**
 
-- Cat Care:
-    - Feed the cat morning and evening.
-    - Keep the litter tray clean.
-    - Brush the cat regularly.
-- Snake Care (2 Snakes):
-    - Daily environment check: Verify that the temperatures and humidity in the enclosures are correct.
-    - Feeding schedule: Feed the snakes every 1 to 2 weeks (check the calendar to make sure we don't forget!).
-    - Water and cleaning: Clean out dirty spots in the enclosure and provide fresh water.
-    - Shedding checks: Make sure the snakes shed their skin fully and cleanly.
+- Feed morning and evening.
+- Keep the litter tray clean.
+- Brush regularly.
 
----
+**Snakes (2)**
 
-## Questions or Concerns?
-
-This guide belongs to all of us. If you think the rotation is unfair, if a task is too hard, if the times don't work, or if you have ideas to make the system better, please speak up! We want Mum, Dad, and the kids to all feel like this is a team effort. We can sit down together and adjust this guide at any time to make sure it works for everyone.
-
-Our Team Agreement: We don't debate or argue about a job while it is happening. If something feels unfair, complete the job, and then bring it to our next family chat. Every concern gets a proper hearing there, and this guide can genuinely change. That way, nobody has to argue mid-chore, and good ideas actually get heard.
+- Daily check: temperatures and humidity in the enclosures look right.
+- Feeding every 1–2 weeks (check the calendar).
+- Fresh water and clean dirty spots in the enclosure.
+- Watch shedding — skin should come off fully and cleanly.
 
 ---
 
-_For the full background planning, rules, and system details, please see the [[Family Chores Operational Plan]]. For the "why" behind it all, see [[SoT - Family Chores Purpose and Values]]._
+## Questions or Concerns
+
+This guide belongs to all of us.
+
+If a job feels unfair, too hard, or the times do not work — or if you have an idea to make things better — please say so. Mum, Dad, and the kids all get a voice.
+
+**Our team agreement:** we do not argue about a job while it is happening. Finish the job first, then bring the concern to our next family chat. Every concern gets a proper hearing, and this guide can change.
+
+We are a team. We can adjust this anytime so it works for everyone.
