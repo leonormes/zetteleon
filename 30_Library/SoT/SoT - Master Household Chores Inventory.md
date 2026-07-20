@@ -1,16 +1,16 @@
 ---
 aliases: [Atomic Chores Inventory, Chores List, Cleaning SOPs, Home Maintenance Registry]
+conformant: false
 created: 2025-12-30T10:00:00+00:00
 last_reviewed: '2025-12-30'
-modified: 2026-07-13T08:52:50+00:00
+modified: 2026-07-20T14:53:14+00:00
+non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-master-household-chores-inventory
 status: proposal
 tags: [chores, family, inventory, system]
 title: SoT - Master Household Chores Inventory
 type: sot
 updated: null
-conformant: false
-non_conformance_reason: "Bulk inferred type. Needs review."
 ---
 
 ## SoT - Master Household Chores Inventory
@@ -118,6 +118,16 @@ _Individual responsibility zones._
 - [Atomic] Floor Clear: No clothes or rubbish on the floor.
 - [Atomic] Laundry Extraction: Dirty clothes moved to Downstairs Basket.
 
+#### Bessie—The Night-Before Reset: Academic Kit Review
+
+Completed each evening before downtime (by 21:00). Binary check—every item is yes/no:
+
+- [ ] Laptop packed, charger enclosed, and device battery verified at >=80%.
+- [ ] Blue-paper study notebooks, overlays, and specialist visual materials checked inside her binder.
+- [ ] School/AP uniform and sensory-friendly base layers laid out.
+
+Verification: parent sight-check at evening handover. If an item cannot be completed (e.g., laptop not charged in time), it is logged neutrally and resolved in the morning ledger—it is not carried as a fault.
+
 #### Weekly (Occupant/Deep)
 
 - [Atomic] Change Bedding: Strip sheets, put on fresh linen.
@@ -146,8 +156,20 @@ _Tasks that span the whole house._
 
 ---
 
+### 8. Definition of Done (DoD)—Bessie's Study Workspace
+
+The Study Sprint may begin only when every line below is true. All items are binary.
+
+- Workspace: Free of non-study visual clutter.
+- Technology: Only authorised school apps/sites are open on her laptop. Phone is placed in the "Kitchen drawer proxy" to bypass distraction.
+- Materials: Work has been translated onto preferred blue paper; target task is broken down into exactly 3 physical, verb-driven actions.
+- Sensory: Low-stimulation headphones are active, and work is paired with a high-interest Spotify playlist or podcast under the Interest Pairing rule—this content is only available while actively completing the task.
+
+Reset note: if the sprint stalls, re-run this DoD from the top before restarting. The checklist is the restart mechanism; no discussion required.
+
+---
+
 ## Related
 
-- [[SoT - Family Household Governance]] — _The home is a Distributed System where maintenance is a shared operational requirement._
-- [[Emotional Labor is the Invisible Work of Managing a Household and Family]] — _The mental load required to manage a family and household._
-
+- [[SoT - Family Household Governance]]—_The home is a Distributed System where maintenance is a shared operational requirement._
+- [[Emotional Labor is the Invisible Work of Managing a Household and Family]]—_The mental load required to manage a family and household._

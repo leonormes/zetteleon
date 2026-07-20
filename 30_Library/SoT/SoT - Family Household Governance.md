@@ -183,7 +183,7 @@ Definition of Done (DoD):
 
 ---
 
-## 6. The Contribution Ledger (Rotation)
+## 7. The Contribution Ledger (Rotation)
 
 Logic: Tasks rotate weekly.
 
@@ -199,7 +199,7 @@ Logic: Tasks rotate weekly.
 
 ---
 
-## 7. Storage Architecture (Zoning Law)
+## 8. Storage Architecture (Zoning Law)
 
 | Tier | Category | Frequency | Allowed Assets | Prohibited Assets |
 |:--- |:--- |:--- |:--- |:--- |
