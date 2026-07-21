@@ -1,10 +1,9 @@
 ---
 aliases: [Atomic Chores Inventory, Chores List, Cleaning SOPs, Home Maintenance Registry]
-conformant: false
+conformant: true
 created: 2025-12-30T10:00:00+00:00
 last_reviewed: '2025-12-30'
-modified: 2026-07-20T18:48:00+01:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+modified: 2026-07-21T13:58:00+01:00
 permalink: llmeon/30-library/so-t/so-t-master-household-chores-inventory
 status: proposal
 tags: [chores, family, inventory, system]
@@ -52,7 +51,7 @@ _The engine room of the house. High throughput, high hygiene requirement._
 - [Atomic] Bin Deep Clean: Disinfect inside of kitchen bin.
 - [Atomic] Dishwasher Filter: Remove and rinse filter.
 
-##### [SOP] Cold Storage (Fridge)
+##### [SOP] Cold Storage (Fridge) & Meal Planning
 
 - Definition of Done (DoD): No visible spills, no expired items, and the drainage hole at the back is clear of ice/debris.
 - Steps:
@@ -60,6 +59,7 @@ _The engine room of the house. High throughput, high hygiene requirement._
   2. Audit: Check Use-By dates. Wipe sticky jars.
   3. Sanitisation: Spray anti-bacterial; wipe with damp cloth; dry with microfibre.
   4. Restock: Ready-to-eat (Top), Raw Meat (Bottom/Sealed), Veg (Drawers).
+- System Rule (Meal Planning & Batch Cooking): Periodically "shop the pantry and freezer" to use up existing assets before buying new ones. Cook in large batches and freeze extras to reduce daily cooking cognitive load.
 
 ---
 
@@ -113,11 +113,13 @@ _First impressions and connecting arteries._
 
 #### Daily
 
+- [Atomic] Entryway Drop Zone: Verify entryway drop zone is clear; shoes paired, keys hung, and coats on the rack to prevent clutter spreading to living or dining zones.
 - [Atomic] Shoe Rack Tidy: Ensure shoes are paired and on the rack/in box.
 - [Atomic] Coat Rack Audit: Hang up coats; remove items not currently in use.
 
 #### Weekly
 
+- [Atomic] Entryway Reset: Clean entryway surfaces and check L1 hot storage equilibrium.
 - [Atomic] Stair Vacuum: Vacuum treads and risers (corners focus).
 - [Atomic] Hall/Landing Vacuum: Vacuum walkways.
 - [Atomic] Dust Banisters: Wipe down handrails and spindles.

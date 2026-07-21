@@ -1,9 +1,11 @@
 ---
+conformant: true
 created: 2026-07-20T16:28:00+00:00
-modified: 2026-07-20T18:48:00+01:00
+modified: 2026-07-21T14:01:00+01:00
 permalink: llmeon/30-library/200-projects/family-chores-everyones-guide
 tags: [chores, family, guide]
 title: "Family Chores - Everyone's Guide"
+type: project
 ---
 
 # Family Chores — Everyone's Guide
@@ -74,7 +76,9 @@ Check the fridge chart if you are unsure which week we are on.
 
 - Bedroom: floors clear of clothes and rubbish; bed made.
 - Laundry: dirty clothes go inside the downstairs basket.
+- Entryway: place your shoes and bags in their dedicated slots.
 - Car: take your rubbish, bags, and shoes with you when you get out.
+- Quick Resets: join in the quick 10-15 minute family pick-up times when scheduled.
 
 ### Evening check-in
 
@@ -129,7 +133,10 @@ Weekend jobs reset the house for the school week. We aim to finish by **Sunday 5
 
 Life gets busy. Forgetting is normal. Here is how we help each other:
 
+- **Predictable Routine & Warnings:** daily routines stay the same so there are no surprises. Parents will give calm warnings (like "10 minutes left") before it is time to check chores or clean up.
 - **One calm reminder** about 30 minutes before check-in: _"Just a reminder — we are checking chores in 30 minutes. Let's look at the checklist."_
+- **Command center & Binders:** check the whiteboard on the fridge or open your chores binder to review the tasks. Pointing to the checklist keeps things clear and neutral.
+- **Zero Loopholes — What "Done" Means:** always finish your job from beginning to end. For example, "wipe the kitchen table" means wiping it clean *and* sweeping up the crumbs from the floor. "Empty the bin" means putting a new bag inside. Check the list so you know what is expected!
 - **Music while you clean:** you may listen to music, an audiobook, or a podcast while you do your job.
 - **Friendly problem-solving:** if something is missed or unfinished, we do not shout. We sit down briefly and ask:
   - What was the plan?

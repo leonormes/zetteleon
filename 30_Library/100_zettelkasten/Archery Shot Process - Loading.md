@@ -2,7 +2,7 @@
 title: Archery Shot Process - Loading
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-loading
 created: "2026-07-21T09:02:00+00:00"
-modified: "2026-07-21T09:33:00+00:00"
+modified: "2026-07-21T09:58:00+00:00"
 tags: [prodos/atomic, archery, technique]
 aliases: []
 prodos:
@@ -44,4 +44,10 @@ Details:
   2. Draw the bow using the elbow sling **without placing your fingers on the string**.
   3. Practice full-draw holds and releases driven entirely by the draw elbow and scapula.
 
-- **Reference**: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Rogue Archery TV, Online Archery Academy, and Jake Kaminski's hook tutorials.
+#### **Thumb & Pinky Wiggle Drill**
+* **Purpose:** Actively detects hand or wrist over-tensioning during the draw cycle.
+* **How to do it**:
+  1. As you pull the bow through your draw cycle, continuously wiggle your drawing-hand thumb and pinky finger.
+  2. If you subconsciously over-grip, build hand tension, or curl the wrist, the thumb and pinky will instantly freeze and lock up, signaling the form breakdown.
+
+- **Reference**: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Rogue Archery TV, Online Archery Academy, and World Archery release technique guidelines.

@@ -1,9 +1,8 @@
 ---
 aliases: [Earned Access Protocol, Family Chores Framework, Family Maintenance SOPs, Household System, Parental Alignment Contract]
-conformant: false
+conformant: true
 created: 2025-12-26T12:00:00+00:00
-modified: 2026-07-20T18:48:00+01:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+modified: 2026-07-21T14:01:00+01:00
 permalink: llmeon/30-library/so-t/so-t-family-household-governance
 tags: [chores, family, governance, sops, systems]
 title: SoT - Family Household Governance
@@ -34,13 +33,13 @@ Privileges (Wi-Fi, Transport, Discretionary Funds) are not rights; they are Syst
 To eliminate subjective arguments ("It's clean enough"), all tasks must pass a binary Quality Assurance (QA) Gate.
 
 - The Audit: A parent acts as the "Inspector," not the "Nag."
-- The Standard: If a task fails one criteria of the DoD, it is marked Incomplete.
+- The Standard: If a task fails one criteria of the DoD, it is marked Incomplete. Tasks are defined from beginning to end with zero loopholes (e.g., "wipe table" must include wiping and sweeping up crumbs, not just shifting items) to keep expectations consistent and prevent children tuning out.
 
 ### III. Storage Hierarchy (Latency vs. Utility)
 
 Physical storage is architected by Access Frequency, not Volume.
 
-- L1 (Hot): Daily use (Countertops, Eye-level).
+- L1 (Hot): Daily use (Countertops, Eye-level). The entryway serves as the primary L1 "drop zone" for shoes, keys, and daily exit assets; it must have dedicated, bounded slots to prevent clutter spreading to living or dining zones.
 - L2 (Warm): Weekly use (Cupboards).
 - L3 (Cold): Annual use (Loft/Garage).
 - Rule: Placing L3 items (e.g., Christmas decorations) in L1/L2 zones is a System Failure that blocks functional throughput.
@@ -78,15 +77,21 @@ Parent-owned recurring responsibilities:
 - Bessie owns the Night-Before Reset and the Study Session Reset DoD; parents verify but do not perform them.
 - The Audit Gate is the only enforcement point. Outside it, education is not policed.
 
+### Parent Work-Life Boundary Control
+
+Parents establish strict boundaries to protect their professional work time from household operations:
+- Use strict time blocking: household tasks are prohibited from bleeding into dedicated business hours.
+- Rely on family teamwork to distribute physical chores rather than default-absorbing tasks when busy.
+
 ---
 
 ## 4. Operational Protocols
 
 ### A. The "No Rescue" Protocol (Anti-Failover)
 
-- Principle: If a child fails to execute a task, the parent must not perform the task for them.
-- Rationale: "Rescuing" the system teaches the child that resistance leads to task deletion.
-- Outcome: The resulting entropy (mess) is a temporary cost accepted for long-term behavioral correction.
+- Principle: If a family member (child or partner) fails to execute an assigned task, other members must not step in to perform it for them.
+- Rationale: Constant rescuing breeds resentment, hides systemic failures, and prevents the individual from learning through natural consequences (letting the "plates drop").
+- Outcome: Temporary entropy (mess, missed admin) is accepted as a necessary signal to allow the responsible person the space to step up.
 
 ### B. The Parental Alignment SLA (Signal Integrity)
 
@@ -105,6 +110,7 @@ Parent-owned recurring responsibilities:
 - Trigger: New items entering the home (Christmas, Birthdays).
 - Rule: One-In, One-Out.
 - Process: New assets (Clothes, Tech) must displace old assets (Donate/Trash) to maintain storage equilibrium.
+- Child Involvement: Involve children directly in sorting through outgrown clothes and old toys to donate, teaching them decluttering habits rather than performing the sweep for them.
 
 ---
 
@@ -152,6 +158,13 @@ The active rotation ledger and weekly assignment schedules are managed dynamical
 
 - Refer to the Tier 1 active plan at [[Family Chores Operational Plan]] for the parent-facing rotation schedules and audit-gate timings.
 - Refer to the Tier 2 family-facing guide at [[Family Chores - Everyone's Guide]] for the simplified, non-technical schedule and rotation table.
+
+### 6.1 Parental Division of Labor (Static vs. Transient)
+
+To manage mental load and prevent resentment, parent tasks are divided based on capacity and natural aptitude:
+
+- **Static Ownership**: Chores that belong 100% to one parent (e.g., dog medical care, school transit coordinating). This eliminates ambiguity and reduces coordination overhead.
+- **Transient Tasks**: Fluid chores (e.g., laundry loads, dishwasher resets) that are performed dynamically based on real-time availability, with the understanding that capacity shifts and we do not "keep score."
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 conformant: true
 created: 2026-07-20T00:00:00+00:00
-modified: 2026-07-20T18:38:30+01:00
+modified: 2026-07-21T14:01:00+01:00
 permalink: llmeon/30-library/200-projects/family-chores-operational-plan
 project_category: personal
 project_name: Family Chores
@@ -67,6 +67,8 @@ _Note: Rotating keeps the system fair and prevents stagnation. Standard tasks ar
 
 - Shared Zones: Clear table, wipe table, load/unload dishwasher (assigned to the weekly "Kitchen Reset" child).
 - Private Quarters (All Children): Bed made, floor clear of clothes/rubbish, and laundry extracted to the downstairs basket.
+- Transition Support: Establish high predictability for daily routines. Give calm warnings (e.g., "10 minutes left," "5 minutes left") before transition points to reduce child anxiety and resistance.
+- Routine Sprints: Establish quick 10-15 minute family "pick-up times" once or twice a day to maintain baseline order without friction.
 - Audit Gate: Daily reset checked by a parent at [insert agreed time, e.g., 18:00]. Now also conditional on verified completion of daily home-education Study Sprint (see sections below). If private quarters, assigned tasks, or study sprints are incomplete, discretionary Wi-Fi/screen access is suspended until done.
 
 #### Study Sprints—Definition
@@ -100,6 +102,7 @@ Notes for parents:
 - Bathrooms Deep Clean: Assigned to the weekly "Bathrooms" child.
 - Bins & Car Valet: Assigned to the weekly "Bins & Car" child.
 - Audit Gate: Completed and audited by [insert agreed time, e.g., Sunday 17:00] prior to the start of the school week.
+- Parental Planning: Parents set aside dedicated planning time (e.g., Sunday morning) to log goals and appointments, conducting a "brain dump" to prevent administrative overload.
 
 ### 2.4 Pet Care Routing
 
@@ -116,32 +119,21 @@ Canonical SoPs and DoDs: [[SoT - Master Household Chores Inventory]] §9. Family
 
 Because Bessie's working memory is easily overwhelmed, standard chore assignments will fail without intentional support structure. We will implement the following:
 
-### 3.1 Visual Task Checklists (External Working Memory)
+### 3.1 Visual Task Checklists & Binders (External Working Memory)
 
-We will create laminated, physical checklists in the zones themselves, breaking down tasks into atomic steps (based on [[SoT - Master Household Chores Inventory]]):
-
-- Bathrooms checklist example:
-  1. Spray and wipe the basin.
-  2. Clean the mirror with glass cleaner.
-  3. Wipe the toilet lid, seat, and flush handle.
-  4. Mop the floor and empty the small bin.
-- _Visual support allows Bessie to tick off items as she goes, preventing cognitive overload._
+- Visual Checklists: We will create laminated, physical checklists in the zones themselves, breaking down tasks into atomic steps based on the canonical [[SoT - Master Household Chores Inventory]].
+- Chores Binders: Organise homeschooling, cleaning checklists, and pet schedules into dedicated, physical binders. When routines fail, parents or children point directly to the binder rather than lecturing.
+- Family Command Center: Maintain a central whiteboard or fridge chart in a high-traffic area (e.g., kitchen/dining room) to display the active rotation and critical audit timings so they cannot be missed.
 
 ### 3.2 Interest Pairing (Dopamine Boosting)
 
 - Rule: Bessie is encouraged to pair tedious chores with high-interest content (e.g., her favourite music or podcasts) that she is _only_ allowed to listen to while performing the chore.
 - This pairs a low-dopamine task with a high-dopamine trigger, facilitating task initiation.
 
-### 3.3 The Grace Period & Failure Autopsy
+### 3.3 Boundary Management & Failure Autopsy
 
-- If Bessie forgets her daily chores, we will separate _forgetting_ (executive dysfunction) from _refusing_ (resistance).
-- Process:
-  1. A single neutral reminder is given: _"Bessie, the audit is in 30 minutes. Let's check your checklist."_
-  2. If the task fails the QA gate, instead of immediate emotional reaction, we hold a Failure Autopsy:
-     - _What was the plan?_
-     - _Where did it get stuck?_ (e.g., "I forgot where the clean towels were" or "I got distracted by my phone").
-     - _What is the variable to change?_ (e.g., put phone in kitchen drawer while cleaning).
-  3. Apply the Power of Yet: _"You haven't mastered keeping track of the weekly routine yet, but we are building the checklist system to help."_
+- For chore and study task failures, we execute the Failure Autopsy protocol detailed in [[Protocol - Fostering Growth Mindset (Neurodivergent Family)]].
+- We separate *forgetting* (executive dysfunction) from *refusing* (resistance). If a chore fails the QA gate, instead of an emotional response, parents hold a blame-free Failure Autopsy to adjust the system, environment, or step size, applying the Power of Yet.
 
 ---
 
