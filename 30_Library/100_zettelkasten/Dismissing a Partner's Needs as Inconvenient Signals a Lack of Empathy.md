@@ -1,12 +1,16 @@
 ---
-aliases: ["Dismissing Partner's Needs"]
-conformant: false
+aliases:
+  - Dismissing Partner's Needs
+conformant: true
 created: 2025-11-10T10:21:00+00:00
-modified: 2026-07-21T09:15:05+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+modified: 2026-07-21T15:15:47+00:00
 permalink: llmeon/30-library/100-zettelkasten/dismissing-a-partners-needs-as-inconvenient-signals-a-lack-of-empathy
-tags: [conflict, empathy, relationship, respect]
-title: "Dismissing a Partner's Needs as Inconvenient Signals a Lack of Empathy"
+tags:
+  - conflict
+  - empathy
+  - relationship
+  - respect
+title: Dismissing a Partner's Needs as Inconvenient Signals a Lack of Empathy
 type: claim
 ---
 

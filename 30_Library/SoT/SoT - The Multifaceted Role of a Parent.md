@@ -1,11 +1,18 @@
 ---
-aliases: [Child Development Pillars, Parental Responsibilities, Parenting Role]
-conformant: false
+aliases:
+  - Child Development Pillars
+  - Parental Responsibilities
+  - Parenting Role
+conformant: true
 created: 2025-12-13T00:00:00+00:00
-modified: 2026-07-20T16:33:42+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+modified: 2026-07-21T15:18:07+00:00
 permalink: llmeon/30-library/so-t/so-t-the-multifaceted-role-of-a-parent
-tags: [child_development, family, parenting, social_roles, TheHuman/Psychology]
+tags:
+  - child_development
+  - family
+  - parenting
+  - social_roles
+  - TheHuman/Psychology
 title: SoT - The Multifaceted Role of a Parent
 type: sot
 ---

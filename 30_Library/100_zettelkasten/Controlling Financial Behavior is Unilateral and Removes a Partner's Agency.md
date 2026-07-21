@@ -1,12 +1,15 @@
 ---
-aliases: [Financial Control]
-conformant: false
+aliases:
+  - Financial Control
+conformant: true
 created: 2025-11-10T10:14:00+00:00
-modified: 2026-07-21T09:15:04+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+modified: 2026-07-21T15:15:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/controlling-financial-behavior-is-unilateral-and-removes-a-partners-agency
-tags: [autonomy, finance, relationship]
-title: "Controlling Financial Behavior is Unilateral and Removes a Partner's Agency"
+tags:
+  - autonomy
+  - finance
+  - relationship
+title: Controlling Financial Behavior is Unilateral and Removes a Partner's Agency
 type: claim
 ---
 

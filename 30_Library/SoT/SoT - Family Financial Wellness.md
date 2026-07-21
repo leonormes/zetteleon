@@ -1,11 +1,20 @@
 ---
-aliases: [Family Budgeting System, Financial Peace Protocol, The YNAB Method, UK Household Allocation, Zero-Based Budgeting]
-conformant: false
+aliases:
+  - Family Budgeting System
+  - Financial Peace Protocol
+  - The YNAB Method
+  - UK Household Allocation
+  - Zero-Based Budgeting
+conformant: true
 created: 2025-12-14T18:44:03+00:00
-modified: 2026-07-21T14:35:00+01:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+modified: 2026-07-21T15:18:59+00:00
 permalink: llmeon/30-library/so-t/so-t-family-financial-wellness
-tags: [budget, family, finance, wealth, ynab]
+tags:
+  - budget
+  - family
+  - finance
+  - wealth
+  - ynab
 title: SoT - Family Financial Wellness
 type: sot
 ---

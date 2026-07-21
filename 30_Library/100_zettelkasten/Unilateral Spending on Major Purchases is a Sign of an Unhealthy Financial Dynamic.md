@@ -1,13 +1,16 @@
 ---
-aliases: [Unilateral Spending]
-conformant: false
+aliases:
+  - Unilateral Spending
+conformant: true
 created: 2025-11-10T10:17:00+00:00
-modified: 2026-07-21T09:15:12+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+modified: 2026-07-21T15:23:19+00:00
 permalink: llmeon/30-library/100-zettelkasten/unilateral-spending-on-major-purchases-is-a-sign-of-an-unhealthy-financial-dynamic
-tags: [boundaries, conflict, finance, relationship]
-title: Unilateral Spending on Major Purchases is a Sign of an Unhealthy Financial Dynamic
-  Dynamic Dynamic
+tags:
+  - boundaries
+  - conflict
+  - finance
+  - relationship
+title: Unilateral Spending on Major Purchases is a Sign of an Unhealthy Financial Dynamic Dynamic Dynamic
 type: claim
 ---
 

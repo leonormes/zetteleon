@@ -68,6 +68,12 @@ views:
       - file.name
       - type
       - non_conformance_reason
+      - conformant
     sort:
+      - property: type
+        direction: ASC
       - property: file.name
         direction: ASC
+    columnSize:
+      file.name: 631
+      note.type: 83
