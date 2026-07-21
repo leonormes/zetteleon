@@ -8,8 +8,6 @@ views:
       - file.name
       - description
     sort:
-      - property: description
-        direction: ASC
       - property: file.ctime
         direction: DESC
     properties:

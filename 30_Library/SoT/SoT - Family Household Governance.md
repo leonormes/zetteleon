@@ -2,7 +2,7 @@
 aliases: [Earned Access Protocol, Family Chores Framework, Family Maintenance SOPs, Household System, Parental Alignment Contract]
 conformant: true
 created: 2025-12-26T12:00:00+00:00
-modified: 2026-07-21T14:01:00+01:00
+modified: 2026-07-21T15:00:00+01:00
 permalink: llmeon/30-library/so-t/so-t-family-household-governance
 tags: [chores, family, governance, sops, systems]
 title: SoT - Family Household Governance
@@ -46,7 +46,7 @@ Physical storage is architected by Access Frequency, not Volume.
 
 ---
 
-## 3. Educational Support & Study Cadence (Formal Job Category)
+## 3. Educational Support & Study Cadence
 
 "Educational Support & Study Cadence" is hereby a formal family job category, with equal standing to physical household chores. It is a dual node: Bessie owns a child-side daily responsibility, and parents own a logistics ledger. Both sides are auditable, and neither side may quietly absorb the other's work.
 
@@ -61,27 +61,33 @@ Physical storage is architected by Access Frequency, not Volume.
   - Laptop/word processor as the default for all extended writing and tests.
   - No board copying or screen-to-paper transcription; complex tasks arrive atomised with pre-printed or digital notes.
 
+### Study Sprints
+
+A Study Sprint is the daily unit of home-education work. It is designed around Bessie's working memory profile:
+- One sprint = one target task, pre-atomised into exactly 3 physical, verb-driven actions written down before the sprint starts.
+- The sprint begins only after the Study Session Reset DoD (see [[SoT - Master Household Chores Inventory]]) is fully satisfied.
+- Sprint materials follow the standing accommodations (blue paper, laptop default, no copying from a screen).
+- The sprint is "verified complete" when the 3 written actions are ticked off—not when a time period elapses. Effort is bounded by the checklist, not the clock.
+
+### Grace Period & Failure Autopsy Protocol (Study Tasks)
+
+When a study task is at risk or has failed, the sequence is fixed. This protocol replaces nagging with a predictable, low-friction script:
+
+1. Single neutral reminder (Grace Period). One reminder only, delivered calmly: _"Bessie, the study audit is in 30 minutes. Let's check your checklist."_ No follow-up prompts, no hovering, no tone escalation.
+2. Failure Autopsy (if the task fails). A calm, blame-free review done _with_ Bessie, treating the failure as a systems problem, not a character problem:
+   - _What was the plan?_
+   - _Where did it get stuck?_
+   - _What is the variable to change?_ (e.g., did we leave the phone in sight, or did we try a step that was too big?)
+3. Acknowledge effort and apply the Power of Yet. Close with: _"You haven't mastered this revision tracking yet, but we are designing this checklist sequence to help you do it."_
+
 ### The Parent Ledger—Education & School Logistics
 
 Parent-owned recurring responsibilities:
-
 - Ensure blue paper refill supplies are printed or ordered before stocks run low (weekly stock check).
 - Verify the weekly school-to-AP transition transport schedule (Belfairs Academy ↔ Fast Progress).
-- Coordinate with Fast Progress mentors and Belfairs Academy Art staff to confirm accommodations are consistently executed: blue paper materials, laptop default, no board copying.
-- Track EHCP delivery (Case Ref: EHC/26/0123): the funded 15-hour weekly Fast Progress package (core academics and therapeutic mentoring, subject to site-visit verification) and the Belfairs Art-only enrolment.
-- Keep the GCSE subject track visible in planning (Summer 2028): Art & Design (Edexcel), Photography (Edexcel), Film Studies (Eduqas), AQA Combined Science Trilogy, English Language (AQA), English Literature (Edexcel), History (Edexcel), Philosophy & Ethics (AQA Religious Studies), Mathematics (Edexcel Foundation—"Language of Maths" and algebraic formula rearrangement focus).
-
-### Boundary Statement
-
-- Parents maintain the ledger; Bessie is never responsible for parent-ledger items and is never blamed for their failure.
-- Bessie owns the Night-Before Reset and the Study Session Reset DoD; parents verify but do not perform them.
-- The Audit Gate is the only enforcement point. Outside it, education is not policed.
-
-### Parent Work-Life Boundary Control
-
-Parents establish strict boundaries to protect their professional work time from household operations:
-- Use strict time blocking: household tasks are prohibited from bleeding into dedicated business hours.
-- Rely on family teamwork to distribute physical chores rather than default-absorbing tasks when busy.
+- Coordinate with Fast Progress mentors and Belfairs Academy Art staff to confirm accommodations are consistently executed.
+- Track EHCP delivery (Case Ref: EHC/26/0123).
+- Keep the GCSE subject track visible in planning (Summer 2028).
 
 ---
 
@@ -90,7 +96,7 @@ Parents establish strict boundaries to protect their professional work time from
 ### A. The "No Rescue" Protocol (Anti-Failover)
 
 - Principle: If a family member (child or partner) fails to execute an assigned task, other members must not step in to perform it for them.
-- Rationale: Constant rescuing breeds resentment, hides systemic failures, and prevents the individual from learning through natural consequences (letting the "plates drop").
+- Rationale: Constant rescuing breeds resentment, hides systemic failures, and prevents the individual from learning through natural consequences.
 - Outcome: Temporary entropy (mess, missed admin) is accepted as a necessary signal to allow the responsible person the space to step up.
 
 ### B. The Parental Alignment SLA (Signal Integrity)
@@ -98,19 +104,21 @@ Parents establish strict boundaries to protect their professional work time from
 - Principle: The "System Administrators" (Parents) must present a unified front.
 - Rule: Decisions are binary and shared. No "appealing to the lenient parent."
 - Conflict: Disagreements on standards must be resolved in private (Back-end), never in front of the Users (Front-end).
+- Process vs. Outcome: Bridge the gap between Efficiency Value (long-term systems) and Immediacy Value (immediate stress reduction).
+- Tag-Team Handover: When one parent is saturated, they "Tap Out" and the other parent "Taps In" to take full authority over the process.
 
 ### C. The "Grey Rock" Conflict Protocol
 
 - Trigger: When a child argues, complains, or claims "unfairness."
 - Response: Zero emotional engagement. Treat the complaint as System Noise.
 - Script: _"The system is binary. Work = Access. The choice is yours."_
+- Paper Tiger Framing: When chore pushback or meltdowns occur, parents prompt each other: *"Is this a real tiger, or a paper tiger?"* Recognising chore resistance as a paper tiger allows parents to remain calm and tap out/tap in smoothly.
 
 ### D. The New Item Integration (NII) Protocol
 
 - Trigger: New items entering the home (Christmas, Birthdays).
 - Rule: One-In, One-Out.
-- Process: New assets (Clothes, Tech) must displace old assets (Donate/Trash) to maintain storage equilibrium.
-- Child Involvement: Involve children directly in sorting through outgrown clothes and old toys to donate, teaching them decluttering habits rather than performing the sweep for them.
+- Process: New assets must displace old assets (Donate/Trash) to maintain storage equilibrium.
 
 ---
 
@@ -120,20 +128,23 @@ Parents establish strict boundaries to protect their professional work time from
 
 _Focus: Resetting shared zones to baseline._
 
-- Kitchen: Table clear, Dishwasher cycle.
-- Laundry Node: Personal dirty clothes transported to Downstairs Basket (Zero-Bedroom Rule).
-- Personal Nodes: Floor clear, Bed made, Personal waste extracted.
-- Mobile Node (Car): Zero-Exit rule (No rubbish left behind).
+- Shared Zones: Clear table, wipe table, load/unload dishwasher (assigned to the weekly "Kitchen Reset" child).
+- Private Quarters (All Children): Bed made, floor clear of clothes/rubbish, and laundry extracted to the downstairs basket.
+- Transition Support: Establish high predictability for daily routines. Give calm warnings (e.g., "10 minutes left") before transition points.
+- Routine Sprints: Establish quick 10-15 minute family "pick-up times" once or twice a day.
+- Audit Gate: Daily reset checked by a parent at 18:00. Conditional on verified completion of daily home-education Study Sprint and physical chores.
 
 ### Weekly Sprints (Weekend)
 
 _Focus: Deep cleaning and system reset._
 
-- Rotation Nodes (Children): Tasks rotate weekly between D10, D13, D15 (See Ledger).
-    - Bathrooms: "White Glove" sanitation of toilets/sinks.
-    - Waste Management: Emptying all indoor bins to outdoor refuse.
+- Rotation Nodes (Children): Tasks rotate weekly.
+    - Bathrooms: Deep Clean of toilets/sinks.
+    - Waste Management: Bins & Car Valet.
 - Floors: Vacuuming of communal high-traffic areas.
 - Inventory: Fridge audit (expiry check) and restocking.
+- Audit Gate: Completed and audited by Sunday 17:00 prior to the start of the school week.
+- Parental Planning: Parents set aside dedicated planning time (e.g., Sunday morning) to log goals and appointments.
 
 ### Monthly Infrastructure
 
@@ -144,31 +155,103 @@ _Focus: Long-term maintenance._
 
 ---
 
-## 5. Standard Operating Procedures (SOPs) & DoD
+## 6. Standard Operating Procedures (SOPs) & DoD
 
 To maintain a single source of truth, all detailed technical Standard Operating Procedures (SOPs) and Definitions of Done (DoD) for household tasks have been consolidated.
 
-- Refer to [[SoT - Master Household Chores Inventory]] for the official, step-by-step SOPs and DoDs for the Laundry Loop, Waste Management, Cold Storage (Fridge), Mobile Node (Car Interior Valet), and Bathroom deep cleaning.
+- Refer to [[SoT - Master Household Chores Inventory]] for the official, step-by-step SOPs. The active rotation ledger and weekly assignment schedules are managed dynamically to reflect school calendars and family logistics.
 
----
-
-## 6. The Contribution Ledger (Rotation)
-
-The active rotation ledger and weekly assignment schedules are managed dynamically to reflect school calendars and family logistics.
-
-- Refer to the Tier 1 active plan at [[Family Chores Operational Plan]] for the parent-facing rotation schedules and audit-gate timings.
+- The parent-facing rotation schedules and audit-gate timings are defined above in Section 5 and Section 7.
 - Refer to the Tier 2 family-facing guide at [[Family Chores - Everyone's Guide]] for the simplified, non-technical schedule and rotation table.
 
-### 6.1 Parental Division of Labor (Static vs. Transient)
+---
 
-To manage mental load and prevent resentment, parent tasks are divided based on capacity and natural aptitude:
+## 7. The Contribution Ledger (Rotation)
 
-- **Static Ownership**: Chores that belong 100% to one parent (e.g., dog medical care, school transit coordinating). This eliminates ambiguity and reduces coordination overhead.
-- **Transient Tasks**: Fluid chores (e.g., laundry loads, dishwasher resets) that are performed dynamically based on real-time availability, with the understanding that capacity shifts and we do not "keep score."
+To ensure fairness, chores rotate weekly among the children (Rae, Bessie, and Pearl).
+
+| Week   | Rae           | Bessie        | Pearl         |
+|:----- |:------------ |:------------ |:------------ |
+| Week A | Kitchen Reset | Bathrooms     | Bins & Car    |
+| Week B | Bins & Car    | Kitchen Reset | Bathrooms     |
+| Week C | Bathrooms     | Bins & Car    | Kitchen Reset |
+
+_Note: Rotating keeps the system fair and prevents stagnation._
 
 ---
 
-## 7. Storage Architecture (Zoning Law)
+## 8. Neurodiverse Scaffolding (Focus on Bessie)
+
+Because Bessie's working memory is easily overwhelmed, standard chore assignments will fail without intentional support structure.
+
+### Visual Task Checklists & Binders (External Working Memory)
+- Visual Checklists: We will create laminated, physical checklists in the zones themselves, breaking down tasks into atomic steps based on the canonical [[SoT - Master Household Chores Inventory]].
+- Chores Binders: Organise homeschooling, cleaning checklists, and pet schedules into dedicated, physical binders. When routines fail, parents or children point directly to the binder rather than lecturing.
+- Family Command Center: Maintain a central whiteboard or fridge chart in a high-traffic area to display the active rotation and critical audit timings so they cannot be missed.
+
+### Interest Pairing (Dopamine Boosting)
+- Rule: Bessie is encouraged to pair tedious chores with high-interest content (e.g., her favourite music or podcasts) that she is _only_ allowed to listen to while performing the chore. This pairs a low-dopamine task with a high-dopamine trigger.
+
+---
+
+## 9. Whole-Family Ownership & Job Categories
+
+Household chores are only one slice of the total work a family does. The chart below maps the whole set of "jobs" a family runs to ensure the operational plan accounts for the full system, making invisible work visible.
+
+### The 10 Family Job Categories
+1. **Income Generation:** Salary, investments, side income.
+2. **Household Chores & Maintenance:** Physical upkeep, repairs, appliances.
+3. **Meal Planning & Food Logistics:** Menus, groceries, school lunches.
+4. **Education & School Logistics:** Homework support, SEN meetings, admin.
+5. **Transport & Scheduling:** The "Family Taxi", calendar coordination.
+6. **Health & Medical Management:** Appointments, prescriptions, sick days.
+7. **Finance & Household Administration:** Bills, insurance, tax, budgeting.
+8. **Social, Emotional & Relationship Labor:** Emotional regulation support, maintaining extended relationships, meta-parenting.
+9. **Special Occasions & Seasonal Planning:** Birthdays, holidays, school year prep.
+10. **Pet Care:** Parent-only medical (Addison's) and shared routine care.
+
+### Whole-Family Ownership Map
+The chore chart only shows the children's slice of the system. The rest of the family's work must be transparently mapped so everyone's load is visible, defusing the "why do I have to do it?" argument.
+
+| # | Job category | Who carries it today |
+|:- |:------------ |:-------------------- |
+| 1 | Income generation | Mum & Dad |
+| 2 | Household chores | Whole family: children rotate weekly nodes; parents own repairs & monthly infrastructure |
+| 3 | Meal planning & food | Mum & Dad |
+| 4 | Education & school logistics | Mum & Dad |
+| 5 | Transport & scheduling | Mum & Dad |
+| 6 | Health & medical | Mum & Dad; dog's Addison's care strictly parent-only |
+| 7 | Finance & admin | Mum & Dad |
+| 8 | Social & emotional labour | Mum & Dad |
+| 9 | Occasions & seasonal | Mum & Dad |
+| 10| Pet care | Two tiers: parents (dog medical), children shared (cat, snakes) |
+
+_Note: Any tasks marked for Mum & Dad should have an explicit split agreed upon to prevent silent single-parent defaults._
+
+---
+
+## 10. Co-Admin Onboarding Protocol (Zofja)
+
+When aligning on system administration, the system must be framed as a stress-reduction tool, not a criticism of existing standards.
+
+### The Framing
+1. Sanctuary, not standards. Use the vault's own language: a calm, restful sanctuary; fewer arguments; more free time. Avoid the words "standards", "mess", "discipline".
+2. The system is the bad guy. Wi-Fi and screens are locked by the Audit Gate, not by her. "Work = Access" means she never has to argue, negotiate, or be the villain.
+3. Scripts replace improvisation. The Grace Period and Failure Autopsy provide fixed scripts.
+4. The Tap-Out is her safety valve. Validated by the Parental SLA.
+5. Her invisible work is on the map. The Ownership Map shows the children that Mum's quieter jobs count as jobs.
+
+### Onboarding Sequence
+1. Review [[Family Chores - Everyone's Guide]] together.
+2. Co-decide audit times (e.g. 18:00 daily / Sunday 17:00), the exact privilege list, and access-control mechanics.
+3. Agree the two non-negotiables for her role: No Rescue and Grey Rock.
+4. Rehearse the two scripts aloud once each (reminder + Grey Rock line).
+5. Agree the Tap-Out signal (a word or gesture).
+6. Run one practice week with one parent as lead Inspector and the other observing.
+
+---
+
+## 11. Storage Architecture (Zoning Law)
 
 | Tier | Category | Frequency | Allowed Assets | Prohibited Assets |
 |:--- |:--- |:--- |:--- |:--- |

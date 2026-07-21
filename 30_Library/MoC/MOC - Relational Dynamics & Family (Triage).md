@@ -19,13 +19,10 @@ This hub triages the "Domain VI" (The Human: Life & Vitality) cluster, focusing 
 
 These notes manage physical household systems, rotas, and child-led choring habits.
 
-- [[Family Chores Operational Plan]] — _Parent-facing Tier 1 plan: rotation tables, audit gates, study sprints, and open loops._
 - [[Family Chores - Everyone's Guide]] — _Child-facing Tier 2 manual with daily checklists, pet care summaries, and family values._
 - [[SoT - Family Chores Purpose and Values]] — _GTD Natural Planning Model articulating the why behind shared home maintenance._
-- [[SoT - Family Household Governance]] — _Core rules: distributed system, earned access, no-rescue constraint, and grey-rock enforcement._
+- [[SoT - Family Household Governance]] — _Canonical Tier 1 Parent SoT: rotation tables, study sprints, whole-family ownership, Zofja onboarding, and operational cadence._
 - [[SoT - Master Household Chores Inventory]] — _Canonical checklists, Definitions of Done, and pet-care SoPs for all household tasks._
-- [[Family Chores - Zofja Onboarding Plan]] — _Onboarding framework and boundary stress-testing checklists for domestic systems._
-- [[Family Job Categories - Research]] — _Initial research and categorisation work on domestic labour allocation._
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 conformant: true
 created: 2026-07-20T12:52:00+00:00
-modified: 2026-07-21T14:08:00+01:00
+modified: 2026-07-21T13:46:23+00:00
 permalink: llmeon/30-library/so-t/so-t-family-chores-purpose-and-values
 tags: [chores, family, planning, purpose, values]
 title: SoT - Family Chores Purpose and Values
@@ -84,4 +84,3 @@ Three layers (schedules and checklists live in the Tier 1 plan and Tier 2 guide,
 - Growth Mindset Protocol: [[Protocol - Fostering Growth Mindset (Neurodivergent Family)]]—_Deconstructing perfectionism, process-based parenting, and running failure autopsies._
 - ADHD Scaffolding SOT: [[SoT - ADHD Management Protocols]]—_Initiation tactics (starter tasks, 120-second commitments, body doubling) and dopamine menus._
 - Master Inventory: [[SoT - Master Household Chores Inventory]]—_Canonical SoPs/DoDs including pet medical care._
-- Pet Care Inbox Note: [[For pet care we have a dog who has addisons diseas]]—_Original research capture (superseded for operations by the Master Inventory)._
