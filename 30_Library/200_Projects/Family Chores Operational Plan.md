@@ -1,7 +1,7 @@
 ---
 conformant: true
 created: 2026-07-20T00:00:00+00:00
-modified: 2026-07-20T18:48:00+01:00
+modified: 2026-07-20T18:38:30+01:00
 permalink: llmeon/30-library/200-projects/family-chores-operational-plan
 project_category: personal
 project_name: Family Chores

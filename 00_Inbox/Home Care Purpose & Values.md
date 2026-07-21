@@ -1,13 +1,9 @@
 ---
 created: 2026-07-20T12:54:19+00:00
-modified: 2026-07-20T16:34:45+00:00
+modified: 2026-07-20T18:39:10+00:00
 permalink: llmeon/00-inbox/pieces-copilot-message-export-july-20-2026-1-54pm
-tags: [chores]
 title: Home Care Purpose & Values
 type: note
----
-
-_Shared Message from Pieces (<https://pieces.app>) by Leon Ormes (leonormes@gmail.com) on Monday Jul 20, 2026 - 1:54 PM_
 ---
 
 ## Optional Add-on: One-page Printable "Home Care Purpose & Values" (Kid-friendly, GTD-style)
@@ -15,6 +11,7 @@ _Shared Message from Pieces (<https://pieces.app>) by Leon Ormes (leonormes@gmai
 Title: Home Care = Teamwork (so our house is calm)
 
 Purpose (why we do this):
+
 We look after our home together so it stays clean, safe, and easy to live in—and so everyone learns how to run their own home one day.
 
 What we're practising (values):
@@ -26,6 +23,7 @@ What we're practising (values):
 - Respect: We treat each other kindly while we do boring jobs.
 
 Vision (what success looks like):
+
 Most days, the house resets quickly, we know what to do, and we have more time for fun with less stress.
 
 Our simple rules (how we work):
@@ -37,6 +35,7 @@ Our simple rules (how we work):
 5. When it's done, it's done. We celebrate and move on.
 
 Daily reset time: `____:____`
+
 Weekend reset time: `____:____`
 
 If you feel stuck (the next-action trick):

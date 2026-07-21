@@ -1,6 +1,6 @@
 ---
 conformant: true
-created: 2026-07-20T12:02:00+00:00
+created: 2026-07-20T18:38:50+00:00
 modified: 2026-07-20T18:48:00+01:00
 permalink: llmeon/30-library/200-projects/family-job-categories-research
 project_category: personal

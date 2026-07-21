@@ -177,6 +177,6 @@ This guide belongs to all of us.
 
 If a job feels unfair, too hard, or the times do not work — or if you have an idea to make things better — please say so. Mum, Dad, and the kids all get a voice.
 
-**Our team agreement:** we do not argue about a job while it is happening. Finish the job first, then bring the concern to our next family chat. Every concern gets a proper hearing, and this guide can change.
+**Our team agreement:** we do not argue about a job while it is happening. Finish the job first, then bring the concern to our next family chat—Every concern gets a proper hearing, and this guide can change.
 
 We are a team. We can adjust this anytime so it works for everyone.
