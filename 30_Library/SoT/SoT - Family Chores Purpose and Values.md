@@ -1,7 +1,7 @@
 ---
 conformant: true
 created: 2026-07-20T12:52:00+00:00
-modified: 2026-07-21T14:06:00+01:00
+modified: 2026-07-21T14:08:00+01:00
 permalink: llmeon/30-library/so-t/so-t-family-chores-purpose-and-values
 tags: [chores, family, planning, purpose, values]
 title: SoT - Family Chores Purpose and Values
@@ -30,6 +30,7 @@ This note outlines the underlying purpose, values, and vision for our household 
 - Process over Perfection: We value effort, improvement, and consistency over flawless execution. We treat mistakes or missed steps as neutral data to learn from, not as sources of shame. Focus on habit-building rather than forcing task compliance in the moment.
 - Choose Your Difficult: We commit to the system and be persistent. If we give up, the chores fall back on the parents, leading to resentment and burnout. We consciously choose the difficulty of enforcing the routine over the difficulty of doing everything ourselves.
 - Constructive Action (Constructive Living): We accept our feelings (anxiety, dread, lack of motivation) as natural and uncontrollable, but we do not let them dictate our behaviour. We bypass the need to "feel motivated" before starting chores. Instead, we ask, *“What needs to be done next?”* and take physical, behavioural action regardless of our emotional state.
+- The Premack Principle (Eat the Frog): We perform the most difficult or undesirable chore first thing in a cleaning slot. Tackling the hardest task immediately preserves mental energy and prevents procrastination from draining the rest of the day.
 - Objective and Transparent Standards: We use written, physical checklists to define when a job is done. This eliminates personal opinions and prevents arguments about whether something is "clean enough".
 - Neutral and Automated Access: Contributions to the household are tied to discretionary privileges (Wi-Fi, screens, transport) in a clear, matter-of-fact way: _Work = Access_. Parents act as friendly checkers rather than constant enforcers.
 - Mutual Support & Tag-Team Handover: If one person (parent or child) reaches their limit or feels overwhelmed, they are encouraged to communicate it. We step in to support each other without judgment.

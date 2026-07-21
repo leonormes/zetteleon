@@ -1,11 +1,12 @@
 ---
 aliases: [Healthy Relationship Map]
+conformant: true
 created: 2025-11-10T10:22:00+00:00
 criteria: Atomic notes defining foundational concepts of respect, communication, responsibility,
   needs, and financial fairness in a relationship.
 exclusions: Specific therapeutic advice or non-cooperative relationship models.
 last_reviewed: ''
-modified: 2026-07-20T16:33:58+00:00
+modified: 2026-07-21T14:35:00+01:00
 permalink: llmeon/30-library/mo-c/moc-healthy-relationship-expectations-and-needs
 scope: Core principles, common needs, and financial dynamics within a healthy, cooperative
   partnership, particularly for a married parent.
@@ -15,8 +16,6 @@ title: MOC - Healthy Relationship Expectations and Needs
 type: map
 updated: null
 ---
-
-[[Conversation Guide - Our Partnership]]
 
 ## MOC - Healthy Relationship Expectations and Needs
 

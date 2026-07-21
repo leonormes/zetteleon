@@ -1,10 +1,12 @@
 ---
 aliases: [Finance Map, Money MOC]
+conformant: true
 created: 2025-12-23T22:23:09+00:00
-modified: 2026-07-20T16:33:58+00:00
+modified: 2026-07-21T14:35:00+01:00
 permalink: llmeon/30-library/mo-c/moc-family-finance
 tags: [family, finance, index, wealth]
 title: MOC - Family & Finance
+type: map
 ---
 
 ## Family & Finance - Map of Content
@@ -18,9 +20,7 @@ title: MOC - Family & Finance
 
 The rules and mechanics of effective money management.
 
-- [[SoT - The YNAB Method]]—_Rule One (Jobs), The Five Questions, and the mechanics of Zero-Based Budgeting._
-- [[SoT - Personal Budgeting Methodologies]]—_Comparing ZBB, 50/30/20, Envelope, and Pay-Yourself-First systems._
-- [[SoT - Process Primacy (Systems Over Goals)]]—_Why the habit of budgeting beats the goal of saving._
+- [[SoT - Family Financial Wellness]] — _Canonical UK household plan: YNAB four rules, 76/24 allocation, payday protocol, and one-pot model._
 
 ---
 
@@ -28,8 +28,7 @@ The rules and mechanics of effective money management.
 
 Breaking the internal loops that drive financial anxiety.
 
-- [[SoT - The Psychology of Spendfulness]]—_Redefining scarcity, ending the debt cycle, and achieving guilt-free spending._
-- [[SoT - Values and Eudaimonia]]—_Aligning spending with what actually leads to flourishing._
+- [[SoT - Values and Eudaimonia]] — _Aligning spending with what actually leads to flourishing._
 
 ---
 
@@ -37,12 +36,26 @@ Breaking the internal loops that drive financial anxiety.
 
 Practical guidelines for your specific household.
 
-- [[SoT - Family Financial Wellness]]—_The UK allocation plan (76/24 split), fixed vs variable funding, and the Payday Protocol._
-- [[SoT - Ontology of Money and Wealth]]—_The philosophical nature of money as potential energy._
+- [[SoT - Family Financial Wellness]] — _The UK allocation plan (76/24 split), fixed vs variable funding, and the Payday Protocol._
+- [[A Fair Financial System Uses a Shared Pot and Equal Personal Spending Money]] — _Atomic claim underpinning the one-pot relational architecture._
 
 ---
 
-### 4. Key Rituals
+### 4. Relational Finance Claims
+
+Atomic propositions on financial fairness within the partnership. Operational detail lives in [[SoT - Family Financial Wellness]].
+
+- [[Finances in an Unequal-Income Partnership Should Be Treated as Shared Family Money]] — _Decouple earnings from spending authority._
+- [[Partners Should Have Equal Say in Financial Decisions Regardless of Income]] — _Equal voice on major financial decisions._
+- [[Controlling Financial Behavior is Unilateral and Removes a Partner's Agency]] — _Unilateral control versus collaborative budgeting._
+- [[Respectful Budgeting is a Collaborative Process Focused on Shared Goals and Autonomy]] — _Collaborative goal-setting with personal spending autonomy._
+- [[Disrespectful Spending Violates Shared Agreements and Erodes Trust]] — _Spending that breaches agreed boundaries._
+- [[Unilateral Spending on Major Purchases is a Sign of an Unhealthy Financial Dynamic]] — _Major purchases without discussion._
+- [[Financial Double Standards for Spending Undermine Fairness in a Relationship]] — _Asymmetric spending rules between partners._
+
+---
+
+### 5. Key Rituals
 
 - The Budget Date Night: Monthly value-alignment and forecasting.
 - Whack-a-Mole (WAM): Weekly adjustment to reality.

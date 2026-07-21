@@ -2,7 +2,7 @@
 aliases: [Family Budgeting System, Financial Peace Protocol, The YNAB Method, UK Household Allocation, Zero-Based Budgeting]
 conformant: false
 created: 2025-12-14T18:44:03+00:00
-modified: 2026-07-20T16:33:51+00:00
+modified: 2026-07-21T14:35:00+01:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-family-financial-wellness
 tags: [budget, family, finance, wealth, ynab]
@@ -94,3 +94,15 @@ Leverage the [[SoT - YNAB Current Goal Feature]] to hack the "Mere Exposure Effe
 1. Forecast Nothing: Only assign money you physically have today.
 2. Smooth the Spikes: Large bills are monthly contributions, not surprises.
 3. WAM Guilt-Free: Moving money between buckets is how the system adapts to reality.
+
+---
+
+### 7. Related Claims
+
+These atomic propositions underpin the relational architecture in §4.II:
+
+- [[A Fair Financial System Uses a Shared Pot and Equal Personal Spending Money]]
+- [[Finances in an Unequal-Income Partnership Should Be Treated as Shared Family Money]]
+- [[Partners Should Have Equal Say in Financial Decisions Regardless of Income]]
+- [[Controlling Financial Behavior is Unilateral and Removes a Partner's Agency]]
+- [[Respectful Budgeting is a Collaborative Process Focused on Shared Goals and Autonomy]]

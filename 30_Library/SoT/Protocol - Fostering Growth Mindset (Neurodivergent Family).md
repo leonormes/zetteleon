@@ -3,7 +3,7 @@ aliases: [Deconstructing Perfectionism, Growth Mindset Protocol, Parenting for N
 conformant: true
 created: 2026-02-03T12:00:00+00:00
 last_synthesis: 2026-02-03
-modified: 2026-07-21T14:06:00+01:00
+modified: 2026-07-21T14:08:00+01:00
 permalink: llmeon/30-library/so-t/protocol-fostering-growth-mindset-neurodivergent-family
 source_of_truth: true
 status: evergreen
@@ -56,15 +56,20 @@ Let Bessie see the messy process.
 - _Envy:_ "Wow, their garden is amazing. I feel a bit jealous, but mostly inspired."
 - _Failure:_ "Oops, I burnt dinner. Learned that recipe isn't for me!"
 
-### 2. Family Culture of Process
+### 2. Family Culture of Process & Regulation Zones
 
-Shift the post-school interrogation from _Outcome_ to _Process_.
+Shift the post-school interrogation from _Outcome_ to _Process_, and establish emotional safety:
 
 - Don't Ask: "What mark did you get?"
 - Ask:
     - "What was the hardest part, and how did you handle it?"
     - "What mistake did you make that you learned from?"
     - "What interesting question did you ask?"
+- **The Brain Zones (Green/Yellow/Red)**:
+  - *Green Brain (Rational)*: Calm, regulated state. Teachable moments, chores audits, and Failure Autopsies occur *only* here.
+  - *Yellow Brain (Transition)*: Frustration building. Cue for children to take a break and for parents to prepare for handovers.
+  - *Red Brain (Amygdala/Hijack)*: Fight/flight/freeze. Pure reaction. Suspension of all choring, teaching, and auditing. Prioritise regulation and safety.
+- **Connection Before Correction**: Secure emotional connection before redirecting behaviour. Strive for a 3-to-5 ratio of positive interactions to negative ones. Spend 10–20 minutes of daily child-led, undivided one-on-one time to build "connection capital."
 - Actionable Room Reset Protocol: Never issue a vague directive like "Clean your room" (which triggers cognitive overwhelm and meltdowns). Instead, break the mess down into simple, visual, sequential steps (e.g., floor clear -> bed made -> laundry to basket) so the child learns how to scaffold the process.
 
 ### 3. Deconstruct Comparison

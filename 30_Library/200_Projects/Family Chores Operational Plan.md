@@ -1,7 +1,7 @@
 ---
 conformant: true
 created: 2026-07-20T00:00:00+00:00
-modified: 2026-07-21T14:01:00+01:00
+modified: 2026-07-21T14:08:00+01:00
 permalink: llmeon/30-library/200-projects/family-chores-operational-plan
 project_category: personal
 project_name: Family Chores
@@ -48,6 +48,7 @@ This plan integrates and operationalises protocols from key vault documents:
 
 - Role: System Administrators. Parents act as objective "Inspectors" who check against the binary QA gate, not "Nags."
 - Protocol: If a parent is overwhelmed, invoke the Tag-Team Handover. One goes to rest, and the other enforces the kids' chore execution.
+- Paper Tiger Framing: When chore pushback or meltdowns occur, parents prompt each other: *"Is this a real tiger, or a paper tiger?"* Chore resistance is not a survival threat. Recognising it as a paper tiger allows parents to remain calm, avoid joining the child in the Red Brain, and tap out/tap in smoothly before reaching emotional saturation.
 
 ### 2.2 The Contribution Ledger (Rotation)
 
@@ -94,7 +95,7 @@ When a study task is at risk or has failed, the sequence is fixed. Consistency h
 Notes for parents:
 
 - The Autopsy adjusts the _system_ (checklist, environment, step size), never the _person_. If a step failed, the step was too big—atomise it further.
-- If Bessie is dysregulated (post-school masking collapse), the Autopsy is deferred. Regulate first; review later. A flooded nervous system cannot do systems analysis.
+- If Bessie is dysregulated or in the Red Brain (post-school masking collapse / sensory overload), the Autopsy is strictly deferred. No choring or auditing occurs during emotional hijacks. Regulate first; hold the Autopsy only when everyone is safely returned to the Green Brain. A flooded nervous system cannot do systems analysis.
 - Defensive venting during the Autopsy is met with neutral Grey Rock responses per the Governance SoT. No emotional rescuing, no debate.
 
 #### Weekly Cadence (Weekend Sprints)

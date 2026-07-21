@@ -1,0 +1,69 @@
+filters:
+  and:
+    - file.ext == "md"
+    - or:
+        - file.tags.contains("family")
+        - file.tags.contains("chores")
+        - file.tags.contains("parenting")
+        - file.tags.contains("relationship")
+        - file.tags.contains("bessie")
+        - file.tags.contains("growth-mindset")
+views:
+  - type: table
+    name: All Active Family Notes
+    filters:
+      and:
+        - status != "archived"
+    order:
+      - file.name
+      - type
+      - status
+      - tags
+      - conformant
+    sort:
+      - property: file.name
+        direction: ASC
+    columnSize:
+      file.name: 645
+  - type: table
+    name: Projects & Guides
+    filters:
+      and:
+        - type == "project"
+        - status != "archived"
+    order:
+      - file.name
+      - project_name
+      - status
+      - conformant
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: Sources of Truth & Protocols
+    filters:
+      and:
+        - or:
+            - type == "sot"
+            - type == "protocol"
+        - status != "archived"
+    order:
+      - file.name
+      - type
+      - status
+      - conformant
+    sort:
+      - property: file.name
+        direction: ASC
+  - type: table
+    name: Non-Conformant Review
+    filters:
+      and:
+        - conformant == false
+    order:
+      - file.name
+      - type
+      - non_conformance_reason
+    sort:
+      - property: file.name
+        direction: ASC

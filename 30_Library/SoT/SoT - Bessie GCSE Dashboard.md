@@ -3,7 +3,7 @@ aliases: [Bessie Dashboard]
 conformant: false
 created: 2026-01-08T07:48:54+00:00
 last_reviewed: ''
-modified: 2026-07-20T16:33:53+00:00
+modified: 2026-07-21T14:35:00+01:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-bessie-gcse-dashboard
 status: active
@@ -40,12 +40,14 @@ _Year 11 Subjects (Maths, Eng Lit, Art, Chemistry) are parked until Summer 2026.
 
 ### 🧠 Ways of Working (Neurodiversity Protocol)
 
-_Synthesised from [[Bessie GCSE Education Pathway]] & [[2025-06-17]]_
+_Synthesised from [[A Personalised Educational Pathway for Bessie Ormes! A Comprehensive GCSE Support Plan]]_
 
 1. Abstract-Conceptual First: Always present the "Big Picture" (Why/Context) _before_ detail.
 2. Blue Paper/Chunking: Use blue backgrounds/paper. Break tasks into <20 min chunks.
 3. Green Feedback: Focus on identifying "Green" (successful) moments to build self-efficacy.
 4. No "Copying": Provide keywords/printed notes. Do not force copying from boards/screens.
+
+_See also: [[Bessie's Working Memory is Overwhelmed by Large Information Volumes]] and [[Protocol - Fostering Growth Mindset (Neurodivergent Family)]]._
 
 ### 📥 Inbox & Open Loops
 
@@ -53,12 +55,13 @@ _Mined from Daily Notes & Review_
 
 - [ ] Photography: Email Tutors & Exams (Romford) to confirm AQA 8206 NEA Authentication fee for private candidates using Sharp Shots.
 - [ ] Admin: Confirm Exam Centre status for English Spoken Language Endorsement.
-- [ ] Routine: Define the "Structured Day" timetable (Address 2025-12-05 note).
-- [ ] Review: Adapt "IEP Evaluation Questions" (from [[2025-06-17]]) into a weekly Home Ed review checklist.
+- [ ] Routine: Define the "Structured Day" timetable.
+- [ ] Review: Adapt IEP evaluation questions into a weekly Home Ed review checklist.
 - [ ] Biology: Purchase/Download "Cambridge IGCSE Biology Coursebook" (Mary Jones).
 - [ ] Sociology: Create flashcards for "Subject Specific Vocabulary".
+- [ ] Template: Create `Template - Neuro-Inclusive Day` daily protocol note (referenced but not yet authored).
 
 ### 🛠️ Routine & Tools
 
-- Daily Protocol: [[Template - Neuro-Inclusive Day]]
+- Daily Protocol: _Pending — [[Template - Neuro-Inclusive Day]] not yet created._
 - Exam Board Links: [AQA](https://www.aqa.org.uk) | [CIE](https://www.cambridgeinternational.org)

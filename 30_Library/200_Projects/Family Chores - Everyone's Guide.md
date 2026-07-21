@@ -1,7 +1,7 @@
 ---
 conformant: true
 created: 2026-07-20T16:28:00+00:00
-modified: 2026-07-21T14:01:00+01:00
+modified: 2026-07-21T14:29:00+01:00
 permalink: llmeon/30-library/200-projects/family-chores-everyones-guide
 tags: [chores, family, guide]
 title: "Family Chores - Everyone's Guide"
@@ -21,10 +21,12 @@ Mum and Dad keep a separate planning note with extra detail. You do not need it 
 We share the work of our home so it stays calm, clean, and fair.
 
 We do this because:
-
-- Looking after a home is a life skill you will need one day.
-- Clear jobs and checklists make it easier to start and finish when our brains feel busy or tired.
-- When everyone knows what "done" looks like, we argue less and have more free time.
+- **Learning for the Future**: Looking after a home is a fundamental life skill you will need one day.
+- **Fairness**: Everyone helps. No one person is the "default cleaner."
+- **Clarity**: We agree what "done" looks like so we don't argue about whether something is clean enough.
+- **Calm Voices**: We fix problems without shouting or blaming.
+- **Small Steps**: If a chore feels hard or overwhelming, we focus on the next tiny step.
+- **Respect**: We treat each other kindly, even when doing boring jobs.
 
 Everyone in this family does jobs. Mum and Dad's jobs are often quieter ones: earning money, cooking, laundry, driving, bills, appointments, fixing things, and planning birthdays and holidays. Your chores are your share, sized for your age.
 
@@ -84,6 +86,16 @@ Check the fridge chart if you are unsure which week we are on.
 
 - We aim for a quick check-in around **6:00 pm** (we can agree a better time together).
 - When your bedroom and daily jobs are done, Wi-Fi and screens are available for the evening.
+
+#### 5-Minute Family Check-in Script
+
+Use this sequence during the daily reset check-in:
+1. **Purpose (10 seconds)**: *"We're doing this so the house is calm and fair—and so everyone learns."*
+2. **What 'Done' Looks Like (30 seconds)**: *"We're aiming for clear surfaces, rubbish out, and things put where they belong. No loopholes."*
+3. **Who Owns What (60 seconds)**: *"Today, you've got [Chore A], you've got [Chore B], and I've got [Chore C]."*
+4. **Next Tiny Step (60 seconds)**: Ask each child: *"What's your first tiny step?"* If they are stuck, offer a choice: *"Start with rubbish, or start with clothes?"*
+5. **Check & Finish (60 seconds)**: *"Show me when you think it's done."* If not complete, identify the smallest visible fix: *"What's the one thing to fix?"*
+6. **Close (30 seconds)**: *"Thanks, team. We did it. Wi-Fi and screen time starts now."*
 
 ---
 
