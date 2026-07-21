@@ -1,5 +1,6 @@
 ---
-aliases: ["Bessie's Working Memory Challenges"]
+aliases:
+  - Bessie's Working Memory Challenges
 created: 2025-07-18T00:00:00+00:00
 last_reviewed: ""
 modified: 2026-07-21T09:15:03+00:00
@@ -8,9 +9,10 @@ see_also: []
 status: ""
 superseded_by: ""
 supersedes: ""
-tags: [bessie]
-title: "Bessie's Working Memory is Overwhelmed by Large Information Volumes"
-type: ""
+tags:
+  - bessie
+title: Bessie's Working Memory is Overwhelmed by Large Information Volumes
+type: claim
 updated:
 ---
 
