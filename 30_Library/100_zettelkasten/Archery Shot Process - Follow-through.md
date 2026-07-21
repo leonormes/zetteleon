@@ -2,7 +2,7 @@
 title: Archery Shot Process - Follow-through
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-follow-through
 created: "2026-07-21T09:02:00+00:00"
-modified: "2026-07-21T09:15:00+00:00"
+modified: "2026-07-21T09:19:00+00:00"
 tags: [prodos/atomic, archery, technique]
 aliases: []
 prodos:
@@ -18,10 +18,13 @@ Summary:
 Follow-through is the dynamic reaction of the body and bow after release, showing the continuation of tension maintained prior to the shot.
 
 Details:
-- **Draw Arm & Hand**:
+- **Draw Arm & Hand (Level Follow-Through)**:
   - Maintain the back tension and elbow squeeze post-release.
   - Sourced from back tension, the draw hand will fly straight back to the area between the ear and neck.
-  - **Scratch-Neck Visualization**: Imagine scratching your neck with your fingernails as your hand naturally flies back.
+  - **Avoid the "Chest Drop"**: Avoid pulling downwards and ending with the hand on your chest (an overcorrection to fix plucking). Keep follow-through level: the hand must travel straight back along the jaw and neck at the same horizontal height.
+  - **Scratch-Neck / Parrot-Shoulder Visualization**:
+    - Imagine scratching your neck with your fingernails as your hand naturally flies back.
+    - *Parrot Cue*: Aim to *"knock a parrot off your shoulder"* with your hand rather than patting yourself on the chest. Check the hand's finishing height after every shot.
 - **Bow Arm & Hand**:
   - Keep the bow arm straight and let the bow's natural weight and forward reaction pull your bow hand down.
   - Keep the bow hand completely relaxed. Let the bow jump and fall naturally on its finger sling without torquing or grabbing the riser.
@@ -37,4 +40,4 @@ Details:
   2. Practice sliding your fingertips backwards, "scratching" along your neck as your elbow squeezes around your spine.
   3. Ensure the bicep remains relaxed so the hand isn't forcefully snapped or plucked outwards.
 
-- **Reference**: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Rogue Archery TV, and Online Archery Academy release technique guidelines.
+- **Reference**: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Rogue Archery TV, and Mike Peart coaching cues.
