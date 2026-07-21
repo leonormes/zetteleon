@@ -4,7 +4,7 @@ created: 2025-02-07 12:57:54+00:00
 ID: '3'
 last_reviewed: ''
 modified: 2026-07-21 15:28:32+00:00
-permalink: llmeon/30-library/100-zettelkasten/sorites-paradox
+permalink: llmeon/30-library/100-zettelkasten/sorites-paradox-1
 status: ''
 tags: null
 title: sorites_paradox
@@ -16,7 +16,7 @@ A philosophical puzzle highlighting the difficulty in defining precise boundarie
 
 ## Related Boundary Problems
 
-- [[vague_boundaries]] - The general problem of categorizing concepts on continuums
+- [[[[Vague Boundaries]] The general problem of categorizing concepts on continuums
 - [[The Spectrum of Character - Ideals vs Defects]] - Character traits exist on spectrums with no clear boundary between virtue and flaw
 - [[The Done State as a Boundary for ADHD Projects]] - Practical application: defining when something is "complete"
 

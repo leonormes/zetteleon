@@ -33,7 +33,8 @@ Details:
   - Point your bow-hand index finger straight down upon release, keeping the thumb forward of the pinky to avoid twisting the wrist or weakening the grip.
   - Keep the bow arm straight and let the bow's natural weight and forward reaction pull your bow hand down.
   - **Hold the Position**: Hold your physical position with the bow arm raised until the arrow hits the target. Actively dropping the bow too early will ruin your accuracy.
-  - Keep the bow hand completely relaxed. Let the bow jump and fall naturally on its finger sling without torquing or grabbing the riser.
+  - **Maintain Bow Hand Structure**: Do not completely relax the entire bow hand (which makes it passive and causes it to move unpredictably or collapse sideways). Having direction and purpose in the bow hand ensures that the force of the bow drives straight forward into the target on every shot.
+  - Let the bow jump and fall naturally on its finger sling without torquing or grabbing the riser. The fingers remain relaxed, but the hand structure remains active.
 - **Core & Head Stability**:
   - Keep your central core completely solid and your head perfectly still. If your head moves, your body will naturally follow and throw off the shot.
 - **Diagnostic Feedback (The Reflect Phase)**:

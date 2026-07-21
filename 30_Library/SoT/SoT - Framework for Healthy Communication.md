@@ -1,26 +1,17 @@
 ---
-aliases:
-  - Arguing Correctly
-  - Healthy Communication
-  - Relational Communication
+aliases: [Arguing Correctly, Healthy Communication, Relational Communication]
 conformant: true
 created: 2025-12-21T00:00:00+00:00
-modified: 2026-07-21T15:18:50+00:00
+modified: 2026-07-21T16:25:59+00:00
 permalink: llmeon/30-library/so-t/so-t-framework-for-healthy-communication
-tags:
-  - communication
-  - family
-  - framework
-  - mental-models
-  - relationships
+tags: [communication, family, framework, mental-models, relationships]
 title: SoT - Framework for Healthy Communication
 type: sot
 ---
 
 ## 1. Definitive Statement: "Separating Experience from Causality"
 
-The core thesis is: "\"My feelings are a diagnostic report of my current state. You are treating a diagnostic report as a personal attack. I am asking you to use the report to help recalibrate our communication, rather than trying to delete the data.\""
----
+The core thesis is: "My feelings are a diagnostic report of my current state. You are treating a diagnostic report as a personal attack. I am asking you to use the report to help recalibrate our communication, rather than trying to delete the data."
 
 ## 2. Core Principles of a Healthy Feedback Loop
 
