@@ -1,13 +1,16 @@
 ---
-aliases: [Shared Responsibility in a Relationship]
-conformant: false
+aliases:
+  - Shared Responsibility in a Relationship
+conformant: true
 created: 2025-11-10T10:03:00+00:00
-modified: 2026-07-21T09:15:10+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+modified: 2026-07-21T15:26:54+00:00
 permalink: llmeon/30-library/100-zettelkasten/shared-responsibility-in-a-partnership-includes-physical-mental-and-emotional-labor
-tags: [emotional-labor, mental-load, relationship, responsibility]
-title: Shared Responsibility in a Partnership Includes Physical Mental and Emotional Labor
-  Labor Labor
+tags:
+  - emotional-labor
+  - mental-load
+  - relationship
+  - responsibility
+title: Shared Responsibility in a Partnership Includes Physical Mental and Emotional Labor Labor Labor
 type: claim
 ---
 

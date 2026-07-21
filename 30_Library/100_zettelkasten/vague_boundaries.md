@@ -18,7 +18,7 @@ The lack of clear-cut criteria for categorizing concepts that exist on a continu
 
 ## Core Examples
 
-- [[sorites_paradox]] - The classic philosophical puzzle demonstrating this problem
+- [[Sorites Paradox]] - The classic philosophical puzzle demonstrating this problem
 - [[The Spectrum of Character - Ideals vs Defects]] - Character traits exist on continuums without clear virtue/flaw boundaries
 
 ## Mathematical Implications

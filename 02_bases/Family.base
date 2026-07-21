@@ -22,7 +22,7 @@ views:
       - conformant
     sort:
       - property: conformant
-        direction: DESC
+        direction: ASC
       - property: type
         direction: ASC
       - property: file.name
