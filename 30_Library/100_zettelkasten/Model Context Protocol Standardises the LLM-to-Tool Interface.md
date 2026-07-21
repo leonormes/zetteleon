@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-07-20T16:34:27+00:00
+modified: 2026-07-21T09:15:08+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/model-context-protocol-standardises-the-llm-to-tool-interface
 tags: [ai-infrastructure, interoperability, mcp, standardization]

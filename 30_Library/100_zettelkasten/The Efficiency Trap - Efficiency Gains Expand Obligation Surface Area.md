@@ -2,7 +2,7 @@
 created: 2026-07-13T08:31:10+00:00
 created_utc: '2026-07-13T08:17:00Z'
 kind: claim
-modified: 2026-07-20T16:34:24+00:00
+modified: 2026-07-21T09:15:11+00:00
 permalink: llmeon/00-inbox/the-efficiency-trap-efficiency-gains-expand-obligation-surface-area
 source_title: 'Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture: An Investigative Report'
 source_url: ''

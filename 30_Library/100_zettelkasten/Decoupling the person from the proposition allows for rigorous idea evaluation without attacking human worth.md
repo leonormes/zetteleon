@@ -2,7 +2,7 @@
 created: 2026-07-15T14:04:05+00:00
 created_utc: '2026-07-15T14:04:00Z'
 kind: mechanism
-modified: 2026-07-20T16:34:31+00:00
+modified: 2026-07-21T09:15:04+00:00
 permalink: llmeon/30-library/100-zettelkasten/decoupling-the-person-from-the-proposition-allows-for-rigorous-idea-evaluation-without-attacking-human-worth
 source_title: ecological-mind-model
 source_url: https://gemini.google.com/app/dd7fd18f2310946a

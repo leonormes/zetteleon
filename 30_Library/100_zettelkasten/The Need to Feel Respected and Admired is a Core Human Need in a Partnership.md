@@ -2,7 +2,7 @@
 aliases: [Need for Respect in a Relationship]
 conformant: false
 created: 2025-11-10T10:07:00+00:00
-modified: 2026-07-20T16:34:24+00:00
+modified: 2026-07-21T09:15:11+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/the-need-to-feel-respected-and-admired-is-a-core-human-need-in-a-partnership
 tags: [admiration, competence, needs, relationship, respect]

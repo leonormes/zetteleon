@@ -2,7 +2,7 @@
 aliases: [Growth Zone, Optimal Challenge Zone]
 conformant: false
 created: 2025-10-30T15:04:20+00:00
-modified: 2026-07-20T16:34:24+00:00
+modified: 2026-07-21T09:15:11+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/the-proximal-zone-of-development-for-habit-change
 tags: [growth, learning-theory, TheHuman/Habits, TheHuman/Health/ADHD]

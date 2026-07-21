@@ -2,7 +2,7 @@
 aliases: [Convergent thinking after divergent thinking]
 created: 2025-07-18T00:00:00+00:00
 last_reviewed: 'null'
-modified: 2026-07-20T16:34:24+00:00
+modified: 2026-07-21T09:15:11+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-drill-down-phase-of-thinking-follows-brainstorming
 status: 'null'
 tags: [brainstorming, problem-solving, TheHuman/Cognition/thinking, TheHuman/Creativity]

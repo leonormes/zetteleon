@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-05-09T20:07:21+00:00
 last_reviewed: 'null'
-modified: 2026-07-20T16:34:30+00:00
+modified: 2026-07-21T09:15:05+00:00
 permalink: llmeon/30-library/100-zettelkasten/finding-thoughts
 status: 'null'
 tags: [ext-mind, TheHuman/Cognition/thinking, topic/pkm/zettelkasten]

@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2026-04-10T12:00:00+00:00
-modified: 2026-07-20T16:34:33+00:00
+modified: 2026-07-21T09:15:03+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/advanced-intelligence-adi-architecture
 tags: [adi, agents, ai-architecture, orchestration]

@@ -3,7 +3,7 @@ aliases: [Cognitive Operating Systems, Farmer Brain, Hunter Brain]
 created: 2025-09-11T20:23:16+00:00
 creation_date: '2025-09-11T00:00:00.000Z'
 last_reviewed: 'null'
-modified: 2026-07-20T16:34:29+00:00
+modified: 2026-07-21T09:15:06+00:00
 permalink: llmeon/30-library/100-zettelkasten/hunter-vs-farmer-brain-metaphor
 status: 'null'
 tags: [cognitive-styles, metaphor, neurodiversity, TheHuman/Health/ADHD]

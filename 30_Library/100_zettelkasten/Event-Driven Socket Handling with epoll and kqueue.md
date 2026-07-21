@@ -2,7 +2,7 @@
 aliases: [epoll, event-driven IO, kqueue]
 conformant: false
 created: 2025-10-31T13:42:00+00:00
-modified: 2026-07-20T16:34:30+00:00
+modified: 2026-07-21T09:15:05+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/event-driven-socket-handling-with-epoll-and-kqueue
 tags: [bsd, performance, scalability, socket, SoftwareEngineering/Linux, SoftwareEngineering/Networking]

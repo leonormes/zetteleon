@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-29T15:20:28+00:00
 last_reviewed: 'null'
-modified: 2026-07-20T16:34:25+00:00
+modified: 2026-07-21T09:15:10+00:00
 permalink: llmeon/30-library/100-zettelkasten/semantic-diffusion-creates-false-alignment
 status: 'null'
 tags: [communication, language, teams, TheHuman/Cognition/mental-model]

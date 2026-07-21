@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-10-30T12:09:02+00:00
-modified: 2026-07-20T16:34:33+00:00
+modified: 2026-07-21T09:15:03+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/behavioral-interventions-for-adhd-compensate-for-neurobiological-deficits
 source: '[[MOC - Why Task Initiation is Difficult in ADHD]]'

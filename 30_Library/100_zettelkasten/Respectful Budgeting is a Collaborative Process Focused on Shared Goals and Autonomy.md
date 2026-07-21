@@ -2,7 +2,7 @@
 aliases: [Collaborative Budgeting]
 conformant: false
 created: 2025-11-10T10:13:00+00:00
-modified: 2026-07-20T16:34:26+00:00
+modified: 2026-07-21T09:15:09+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/respectful-budgeting-is-a-collaborative-process-focused-on-shared-goals-and-autonomy
 tags: [autonomy, budgeting, finance, relationship, respect]

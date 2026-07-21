@@ -2,7 +2,7 @@
 aliases: [Accommodates ADHD patterns, Flexible for hyperfocus]
 conformant: false
 created: 2025-10-30T17:37:00+00:00
-modified: 2026-07-20T16:34:30+00:00
+modified: 2026-07-21T09:15:05+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/flexible-routines-accommodate-hyperfocus-and-task-switching-patterns
 source: '[[MOC - How To Create And Use Mini Routines]]'

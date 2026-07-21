@@ -1,7 +1,7 @@
 ---
 aliases: [Emotional Hypersensitivity in ADHD, Rejection Sensitivity, RSD]
 created: 2026-02-11T17:05:00+00:00
-modified: 2026-07-20T16:34:26+00:00
+modified: 2026-07-21T09:15:09+00:00
 permalink: llmeon/30-library/100-zettelkasten/rejection-sensitive-dysphoria-rsd
 status: seedling
 tags: [ADHD, emotion, neurology, RSD, social-cognition]

@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-06-25T20:14:33+00:00
 last_reviewed: 'null'
-modified: 2026-07-20T16:34:28+00:00
+modified: 2026-07-21T09:15:08+00:00
 permalink: llmeon/30-library/100-zettelkasten/mindful-llm-research-workflow-for-adhd
 status: 'null'
 tags: [llm-understanding, TheHuman/Health/ADHD]

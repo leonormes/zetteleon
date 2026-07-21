@@ -2,7 +2,7 @@
 aliases: [Unilateral Spending]
 conformant: false
 created: 2025-11-10T10:17:00+00:00
-modified: 2026-07-20T16:34:23+00:00
+modified: 2026-07-21T09:15:12+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/unilateral-spending-on-major-purchases-is-a-sign-of-an-unhealthy-financial-dynamic
 tags: [boundaries, conflict, finance, relationship]

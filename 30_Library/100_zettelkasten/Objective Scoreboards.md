@@ -2,7 +2,7 @@
 created: 2026-04-14T20:51:37+00:00
 created_utc: '2026-04-14T14:20:00Z'
 kind: procedure
-modified: 2026-07-20T16:34:27+00:00
+modified: 2026-07-21T09:15:08+00:00
 permalink: llmeon/30-library/100-zettelkasten/objective-scoreboards
 source_title: Why Is AI Making My Job Worse?
 source_url: http://www.youtube.com/watch?v=NDyuJcR2GH4

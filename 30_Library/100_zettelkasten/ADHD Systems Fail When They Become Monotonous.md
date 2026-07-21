@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-11-01T11:37:53+00:00
 last_reviewed: '2025-11-01T00:00:00.000Z'
-modified: 2026-07-20T16:34:33+00:00
+modified: 2026-07-21T09:15:02+00:00
 permalink: llmeon/30-library/100-zettelkasten/adhd-systems-fail-when-they-become-monotonous
 status: seedling
 tags: []

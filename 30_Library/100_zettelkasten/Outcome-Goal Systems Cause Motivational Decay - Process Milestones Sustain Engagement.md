@@ -2,7 +2,7 @@
 created: 2026-07-13T08:30:56+00:00
 created_utc: '2026-07-13T08:17:00Z'
 kind: heuristic
-modified: 2026-07-20T16:34:27+00:00
+modified: 2026-07-21T09:15:08+00:00
 permalink: llmeon/00-inbox/outcome-goal-systems-cause-motivational-decay-process-milestones-sustain-engagement
 source_title: 'Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture: An Investigative Report'
 source_url: ''

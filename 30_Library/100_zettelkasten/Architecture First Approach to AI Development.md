@@ -3,7 +3,7 @@ aliases: []
 created: 2025-10-10T08:29:26+00:00
 id: 20251008_Architecture_First_Approach_to_AI_Development
 last_reviewed: ''
-modified: 2026-07-20T16:34:33+00:00
+modified: 2026-07-21T09:15:03+00:00
 permalink: llmeon/30-library/100-zettelkasten/architecture-first-approach-to-ai-development
 status: ''
 tags: [ADR, Architecture, Planning, SoftwareEngineering/AI]

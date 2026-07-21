@@ -2,7 +2,7 @@
 aliases: [Budgeting Hierarchy]
 created: 2025-11-18T14:37:00+00:00
 last_reviewed: ''
-modified: 2026-07-20T16:34:30+00:00
+modified: 2026-07-21T09:15:06+00:00
 permalink: llmeon/30-library/100-zettelkasten/fund-immediate-obligations-first
 status: ''
 tags: [budgeting, finance, prioritization]

@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-11-11T09:23:56+00:00
 last_reviewed: ''
-modified: 2026-07-20T16:34:25+00:00
+modified: 2026-07-21T09:15:10+00:00
 permalink: llmeon/30-library/100-zettelkasten/silent-void
 see_also: []
 status: ''

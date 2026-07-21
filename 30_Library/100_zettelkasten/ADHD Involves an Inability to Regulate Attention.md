@@ -2,7 +2,7 @@
 aliases: [ADHD Focus Regulation, Distractibility, Hyperfocus]
 conformant: false
 created: 2025-11-06T19:54:00+00:00
-modified: 2026-07-20T16:34:33+00:00
+modified: 2026-07-21T09:15:02+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/adhd-involves-an-inability-to-regulate-attention
 tags: [focus, hyperfocus, TheHuman/Health/ADHD, topic/productivity]

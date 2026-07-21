@@ -1,7 +1,7 @@
 ---
 conformant: true
 created: 2026-05-31T00:00:00+00:00
-modified: 2026-07-20T16:34:28+00:00
+modified: 2026-07-21T09:15:07+00:00
 permalink: llmeon/30-library/100-zettelkasten/moc-adhd-and-pkm-systems
 related_to: ["[[MOC – My Epistemic Stack]]"]
 tags: [adhd, executive-function, pkm, prodos/moc, productivity]

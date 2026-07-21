@@ -2,7 +2,7 @@
 aliases: [Contentment Practice, Taru o shiru]
 conformant: false
 created: 2025-10-29T16:35:00+00:00
-modified: 2026-07-20T16:34:24+00:00
+modified: 2026-07-21T09:15:10+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/taru-o-shiru-is-the-practice-of-contentment-with-what-one-has
 source: '[[SoT - Ikigai and the Logic of Purpose]]'

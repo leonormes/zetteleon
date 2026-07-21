@@ -2,7 +2,7 @@
 aliases: [ADHD Paralysis]
 conformant: false
 created: 2025-10-29T16:38:00+00:00
-modified: 2026-07-20T16:34:33+00:00
+modified: 2026-07-21T09:15:02+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/adhd-paralysis-is-the-inability-to-start-a-task-until-it-becomes-an-emergency
 source: '[[MOC - The Phases of Task Execution and the Impact of ADHD]]'

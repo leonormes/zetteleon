@@ -2,7 +2,7 @@
 aliases: [Shared Responsibility in a Relationship]
 conformant: false
 created: 2025-11-10T10:03:00+00:00
-modified: 2026-07-20T16:34:25+00:00
+modified: 2026-07-21T09:15:10+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/shared-responsibility-in-a-partnership-includes-physical-mental-and-emotional-labor
 tags: [emotional-labor, mental-load, relationship, responsibility]

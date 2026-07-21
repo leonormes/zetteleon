@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-05-26T13:51:06+00:00
 last_reviewed: 'null'
-modified: 2026-07-20T16:34:29+00:00
+modified: 2026-07-21T09:15:06+00:00
 permalink: llmeon/30-library/100-zettelkasten/humiliation
 status: 'null'
 tags: [emotion, TheHuman/Health/ADHD]

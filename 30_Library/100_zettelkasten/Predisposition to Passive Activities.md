@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-12T08:14:20+00:00
 last_reviewed: ''
-modified: 2026-07-20T16:34:26+00:00
+modified: 2026-07-21T09:15:09+00:00
 permalink: llmeon/30-library/100-zettelkasten/predisposition-to-passive-activities
 status: ''
 tags: []

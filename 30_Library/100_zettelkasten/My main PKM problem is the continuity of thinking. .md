@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2026-05-04T08:01:26+00:00
-modified: 2026-07-20T16:34:27+00:00
+modified: 2026-07-21T09:15:08+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/my-main-pkm-problem-is-the-continuity-of-thinking.
 title: "My main PKM problem is the continuity of thinking. "

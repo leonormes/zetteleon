@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-26T11:09:00+00:00
 last_reviewed: ''
-modified: 2026-07-20T16:34:31+00:00
+modified: 2026-07-21T09:15:05+00:00
 permalink: llmeon/30-library/100-zettelkasten/dopamine-management-in-adhd-productivity
 status: ''
 tags: [dopamine, reward-system, TheHuman/Health/ADHD, TheHuman/Motivation, topic/productivity]

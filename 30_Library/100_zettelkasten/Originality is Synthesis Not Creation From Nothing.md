@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-11-01T09:51:13+00:00
-modified: 2026-07-20T16:34:27+00:00
+modified: 2026-07-21T09:15:08+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/originality-is-synthesis-not-creation-from-nothing
 tags: [mental-model, originality, synthesis, TheHuman/Creativity, topic/creativity]

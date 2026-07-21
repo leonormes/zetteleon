@@ -2,7 +2,7 @@
 aliases: [WebSocket, WebSocket protocol]
 conformant: false
 created: 2025-10-31T13:44:00+00:00
-modified: 2026-07-20T16:34:23+00:00
+modified: 2026-07-21T09:15:12+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/web-socket-protocol-provides-persistent-full-duplex-communication
 tags: [protocol, real-time, SoftwareEngineering/Networking, websocket]

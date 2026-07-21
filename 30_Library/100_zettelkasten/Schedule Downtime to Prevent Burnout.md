@@ -2,7 +2,7 @@
 aliases: [Downtime is a Necessary Part of a Routine]
 created: 2025-10-29T16:10:00+00:00
 last_reviewed: ''
-modified: 2026-07-20T16:34:25+00:00
+modified: 2026-07-21T09:15:09+00:00
 permalink: llmeon/30-library/100-zettelkasten/schedule-downtime-to-prevent-burnout
 status: seedling
 tags: [burnout, energy-management, rest, routine, self-care]

@@ -3,7 +3,7 @@ aliases: []
 created: 2025-02-07T12:57:55+00:00
 ID: 4a3d
 last_reviewed: ''
-modified: 2026-07-20T16:34:22+00:00
+modified: 2026-07-21T09:15:13+00:00
 permalink: llmeon/30-library/100-zettelkasten/redundancy
 status: ''
 tags: [information]

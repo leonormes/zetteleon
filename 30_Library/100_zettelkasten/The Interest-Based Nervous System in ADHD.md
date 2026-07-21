@@ -1,7 +1,7 @@
 ---
 aliases: [IBNS, ICNU, INCUP Framework, The ADHD Nervous System]
 created: 2026-02-11T17:15:00+00:00
-modified: 2026-07-20T16:34:24+00:00
+modified: 2026-07-21T09:15:11+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-interest-based-nervous-system-in-adhd
 status: seedling
 tags: [ADHD, dopamine, motivation, neurology, productivity]

@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-05-10T10:01:40+00:00
 last_reviewed: ''
-modified: 2026-07-20T16:34:26+00:00
+modified: 2026-07-21T09:15:09+00:00
 permalink: llmeon/30-library/100-zettelkasten/purpose-of-my-pkm-system
 status: ''
 tags: []

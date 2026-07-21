@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-07-08T18:23:46+00:00
 last_reviewed: ''
-modified: 2026-07-20T16:34:30+00:00
+modified: 2026-07-21T09:15:05+00:00
 permalink: llmeon/30-library/100-zettelkasten/extrinsic-rewards-are-less-effective-for-activating-the-adhd-brain
 status: ''
 tags: [TheHuman/Health/ADHD]

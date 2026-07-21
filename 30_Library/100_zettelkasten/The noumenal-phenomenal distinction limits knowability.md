@@ -2,7 +2,7 @@
 aliases: [Kantian epistemology, noumenon vs phenomenon, thing-in-itself]
 conformant: false
 created: 2025-10-31T20:06:00+00:00
-modified: 2026-07-20T16:34:23+00:00
+modified: 2026-07-21T09:15:11+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/the-noumenal-phenomenal-distinction-limits-knowability
 tags: [epistemology, Kant, limits-of-knowledge, TheHuman/Philosophy]

@@ -4,7 +4,7 @@ created: 2025-04-19T00:00:00+00:00
 deleted: 'true'
 id: 56004fd6-9014-418c-8360-78c79657f5ad
 last_reviewed: 'null'
-modified: 2026-07-20T16:34:29+00:00
+modified: 2026-07-21T09:15:06+00:00
 permalink: llmeon/30-library/100-zettelkasten/information-overload
 source_image_url: ''
 status: 'null'

@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-11-10T13:02:00+00:00
-modified: 2026-07-20T16:34:29+00:00
+modified: 2026-07-21T09:15:06+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/historical-achievements-were-driven-by-collective-will-and-urgent-necessity
 tags: [achievement, collaboration, history, TheHuman/Motivation]

@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-10-30T12:01:06+00:00
-modified: 2026-07-20T16:34:25+00:00
+modified: 2026-07-21T09:15:10+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/stillness-and-quiet-time-are-vital-for-idea-generation
 source: '[[MOC - You Need to Romanticize Your Process]]'

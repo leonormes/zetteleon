@@ -2,7 +2,7 @@
 created: 2026-04-14T13:21:45+00:00
 created_utc: '2026-04-14T11:35:00Z'
 kind: definition
-modified: 2026-07-20T16:34:27+00:00
+modified: 2026-07-21T09:15:08+00:00
 permalink: llmeon/30-library/100-zettelkasten/pkm-as-sense-making-engine
 source_title: Thinking about knowledge
 source_url: https://gemini.google.com/app/d3312dd6e13881e3

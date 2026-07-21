@@ -3,7 +3,7 @@ alias: [Mindful Presence]
 aliases: []
 conformant: false
 created: 2025-11-01T12:20:06+00:00
-modified: 2026-07-20T16:34:28+00:00
+modified: 2026-07-21T09:15:08+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/mindfulness-is-non-judgmental-present-moment-awareness
 tags: [awareness, buddhism, mindfulness, zen]

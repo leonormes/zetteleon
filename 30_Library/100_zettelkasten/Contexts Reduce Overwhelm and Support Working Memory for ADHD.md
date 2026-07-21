@@ -2,7 +2,7 @@
 aliases: [ADHD Context Benefits]
 conformant: false
 created: 2025-11-10T15:06:00+00:00
-modified: 2026-07-20T16:34:32+00:00
+modified: 2026-07-21T09:15:04+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/contexts-reduce-overwhelm-and-support-working-memory-for-adhd
 tags: [action, context, executive-function, TheHuman/Health/ADHD, topic/productivity]

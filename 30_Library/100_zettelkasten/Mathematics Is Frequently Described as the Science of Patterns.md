@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-07-18T14:12:00+00:00
-modified: 2026-07-20T16:34:28+00:00
+modified: 2026-07-21T09:15:07+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/mathematics-is-frequently-described-as-the-science-of-patterns
 tags: [topic/maths]

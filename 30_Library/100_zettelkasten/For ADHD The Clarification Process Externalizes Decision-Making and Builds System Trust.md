@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-11-10T15:13:00+00:00
-modified: 2026-07-20T16:34:30+00:00
+modified: 2026-07-21T09:15:05+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/for-adhd-the-clarification-process-externalizes-decision-making-and-builds-system-trust
 tags: [executive-function, gtd, system-trust, TheHuman/Health/ADHD, topic/productivity]

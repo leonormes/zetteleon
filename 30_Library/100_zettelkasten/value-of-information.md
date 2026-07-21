@@ -3,7 +3,7 @@ aliases: []
 created: 2024-12-24T18:56:42+00:00
 ID: 2g
 last_reviewed: ''
-modified: 2026-07-20T16:34:22+00:00
+modified: 2026-07-21T09:15:13+00:00
 permalink: llmeon/30-library/100-zettelkasten/value-of-information
 status: ''
 tags: [information]

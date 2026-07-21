@@ -2,7 +2,7 @@
 aliases: [Action Orientation, State Orientation]
 conformant: false
 created: 2025-11-12T14:10:08+00:00
-modified: 2026-07-20T16:34:33+00:00
+modified: 2026-07-21T09:15:03+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/action-oriented-individuals-act-decisively-under-pressure-while-state-oriented-individuals-ruminate
 tags: [personality, TheHuman/Psychology, volition]

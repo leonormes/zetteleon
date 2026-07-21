@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-20T08:00:04+00:00
 last_reviewed: 'null'
-modified: 2026-07-20T16:34:23+00:00
+modified: 2026-07-21T09:15:11+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-purpose-of-a-weekly-review-is-to-restore-trust-in-your-system
 status: 'null'
 tags: [planning, topic/productivity, topic/productivity/gtd, type/review]

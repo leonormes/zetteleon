@@ -2,7 +2,7 @@
 aliases: [SMP 7]
 conformant: false
 created: 2025-11-01T12:00:09+00:00
-modified: 2026-07-20T16:34:26+00:00
+modified: 2026-07-21T09:15:09+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/smp-7-is-looking-for-and-making-use-of-structure
 tags: [education, maths, structure]
