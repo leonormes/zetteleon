@@ -21,6 +21,7 @@ Details:
 - **Drawing Mechanics**:
   - Lead the pull using your draw elbow, moving the drawing hand straight back toward your neck. Move the entire drawing shoulder as a unit.
   - Draw the remaining length by engaging the back muscles (scapular retractors) and moving the draw elbow in an **"up and around" path**.
+  - **Alignment & Weight Transfer**: Your drawing elbow, wrist, and the arrow should form a straight line. Squeezing your shoulder blades together achieves the final inch of draw length and transfers the heavy bow weight from your arm muscles to your stronger back muscles.
 - **Locking the Hook (Draw Length Creep Prevention)**:
   - Single-string bows lack a mechanical draw stop. Any change in how your fingers curl directly alters your effective draw length, holding weight, and vertical point of impact.
   - As the bow's draw weight increases continuously during the pull, actively increase forearm flexor tension to lock the hook in place. Do not let the bow's weight drag your fingers open.

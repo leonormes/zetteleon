@@ -21,6 +21,8 @@ views:
       - tags
       - conformant
     sort:
+      - property: conformant
+        direction: DESC
       - property: type
         direction: ASC
       - property: file.name

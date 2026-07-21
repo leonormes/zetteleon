@@ -1,7 +1,7 @@
 ---
 conformant: true
 created: 2026-07-20T16:28:00+00:00
-modified: 2026-07-21T14:29:00+01:00
+modified: 2026-07-21T14:01:34+00:00
 permalink: llmeon/30-library/200-projects/family-chores-everyones-guide
 tags:
   - chores
@@ -16,7 +16,6 @@ status: ongoing
 
 This is the only chores note for Rae, Bessie, Pearl, and Mum to use day to day.
 
-Mum and Dad keep a separate planning note with extra detail. You do not need it for normal days. If you ever want the full plan, it is here: [[Family Chores Operational Plan]].
 
 ---
 

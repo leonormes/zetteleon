@@ -18,7 +18,7 @@ Summary:
 Release is the act of letting go of the string, which should be an involuntary, natural reaction to the clicker when the preceding steps are executed correctly.
 
 Details:
-- **Passive Relaxation vs. Active Opening**: A clean release occurs when you relax the hand's flexor muscles, allowing the bowstring to push the fingers out of the way, rather than actively using your extensor muscles to "claw" or force the hand open.
+- **Passive Relaxation vs. Active Opening**: A clean release occurs when you relax the hand's flexor muscles, allowing the bowstring to push the fingers out of the way, rather than actively using your extensor muscles to "claw" or force the hand open. Slowly relax your fingers while continuously pulling backward with your shoulder tension.
 - **Involuntary Action**: Treat the release as a reaction to the clicker rather than a conscious opening of the fingers.
 - **The Tension Drop Mindset (The 40% Rule)**: 
   - Avoid thinking of the release as going from 100% hold to 0% by actively opening the fingers. Consciously opening your fingers causes a wide, "flappy" release where the hand flies outwards away from the face.

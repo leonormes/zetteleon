@@ -32,6 +32,7 @@ Details:
   - Balance the rearward force upon release by driving the front side downward in a clean "sit" motion.
   - Point your bow-hand index finger straight down upon release, keeping the thumb forward of the pinky to avoid twisting the wrist or weakening the grip.
   - Keep the bow arm straight and let the bow's natural weight and forward reaction pull your bow hand down.
+  - **Hold the Position**: Hold your physical position with the bow arm raised until the arrow hits the target. Actively dropping the bow too early will ruin your accuracy.
   - Keep the bow hand completely relaxed. Let the bow jump and fall naturally on its finger sling without torquing or grabbing the riser.
 - **Core & Head Stability**:
   - Keep your central core completely solid and your head perfectly still. If your head moves, your body will naturally follow and throw off the shot.

@@ -48,6 +48,6 @@ Details:
   - Push into the riser using the flat bone intersection between the index finger and thumb metacarpals (the knuckle bone joint), rather than the soft webbing of the thumb.
   - Drive tension into the pit/pressure point of the bow hand towards the target.
   - Keep the thumb alongside the bow and slightly retract your knuckles.
-  - Keep fingers relaxed, curling them in without squeezing or touching the bow.
+  - Keep fingers relaxed, curling them in without squeezing or touching the bow. **Avoid the "Death Grip"**: Gripping the bow tightly introduces torque, which will twist the bow upon release and throw your arrows off target. Hold the bow as gently as you would a "sick sparrow."
   - Relax the thumb downwards, maintaining slight tension into the riser.
 - **Reference**: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Rogue Archery TV, Online Archery Academy, Jake Kaminski's hook tutorials, NUSensei form tips, and World Archery release technique guidelines.
