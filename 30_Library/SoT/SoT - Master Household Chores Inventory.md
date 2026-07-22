@@ -3,7 +3,7 @@ aliases: [Atomic Chores Inventory, Chores List, Cleaning SOPs, Home Maintenance 
 conformant: true
 created: 2025-12-30T10:00:00+00:00
 last_reviewed: '2025-12-30'
-modified: 2026-07-21T13:58:00+01:00
+modified: 2026-07-21T21:01:39+00:00
 permalink: llmeon/30-library/so-t/so-t-master-household-chores-inventory
 status: proposal
 tags: [chores, family, inventory, system]
@@ -246,4 +246,3 @@ _Canonical Tier 1 pet SoPs. Family-facing summary only: [[Family Chores - Everyo
 
 - [[SoT - Family Household Governance]]—_The home is a Distributed System where maintenance is a shared operational requirement._
 - [[Emotional Labor is the Invisible Work of Managing a Household and Family]]—_The mental load required to manage a family and household._
-- [[For pet care we have a dog who has addisons diseas]]—_Original pet care research and context._

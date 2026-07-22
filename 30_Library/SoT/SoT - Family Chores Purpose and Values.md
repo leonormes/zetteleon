@@ -1,14 +1,14 @@
 ---
 conformant: true
 created: 2026-07-20T12:52:00+00:00
-modified: 2026-07-21T13:46:23+00:00
+modified: 2026-07-21T20:30:26+00:00
 permalink: llmeon/30-library/so-t/so-t-family-chores-purpose-and-values
 tags: [chores, family, planning, purpose, values]
 title: SoT - Family Chores Purpose and Values
 type: sot
 ---
 
-> [!info] Tier 1 — Parent SoT (why)
+> [!info] Tier 1—Parent SoT (why)
 > Purpose and values for parents. Day-to-day family use: [[Family Chores - Everyone's Guide]] only.
 
 ## SoT - Family Chores Purpose and Values
@@ -21,7 +21,7 @@ This note outlines the underlying purpose, values, and vision for our household 
 
 #### Our Purpose: Why Are We Doing This?
 
-- Learning for the Future: The number one reason we work together on our home is to teach Rae, Bessie, and Pearl how to run and manage their own households one day. Teaching independence is "love in action" — preparing them for adult life. We ease them in, starting with micro-responsibilities (e.g., packing snacks/water before handling whole lunches) to build confidence.
+- Learning for the Future: The number one reason we work together on our home is to teach Rae, Bessie, and Pearl how to run and manage their own households one day. Teaching independence is "love in action"—preparing them for adult life. We ease them in, starting with micro-responsibilities (e.g., packing snacks/water before handling whole lunches) to build confidence.
 - Managing Executive Function Together: Because we all experience challenges with executive function (including ADHD, dyslexia, and working memory fatigue), we must make a conscious, structured effort to support one another. By externalising our routines into clear, visual checklists, we reduce the mental energy needed to start and finish tasks.
 - Reducing Friction and Stress: Ad-hoc, vague requests often lead to arguments, misunderstandings, and tasks not getting done. Creating a clear, predictable, and objective system with well-defined expectations protects our family relationships from the stress of nagging and frustration.
 
@@ -29,7 +29,7 @@ This note outlines the underlying purpose, values, and vision for our household 
 
 - Process over Perfection: We value effort, improvement, and consistency over flawless execution. We treat mistakes or missed steps as neutral data to learn from, not as sources of shame. Focus on habit-building rather than forcing task compliance in the moment.
 - Choose Your Difficult: We commit to the system and be persistent. If we give up, the chores fall back on the parents, leading to resentment and burnout. We consciously choose the difficulty of enforcing the routine over the difficulty of doing everything ourselves.
-- Constructive Action (Constructive Living): We accept our feelings (anxiety, dread, lack of motivation) as natural and uncontrollable, but we do not let them dictate our behaviour. We bypass the need to "feel motivated" before starting chores. Instead, we ask, *“What needs to be done next?”* and take physical, behavioural action regardless of our emotional state.
+- Constructive Action (Constructive Living): We accept our feelings (anxiety, dread, lack of motivation) as natural and uncontrollable, but we do not let them dictate our behaviour. We bypass the need to "feel motivated" before starting chores. Instead, we ask, _"What needs to be done next?"_ and take physical, behavioural action regardless of our emotional state.
 - The Premack Principle (Eat the Frog): We perform the most difficult or undesirable chore first thing in a cleaning slot. Tackling the hardest task immediately preserves mental energy and prevents procrastination from draining the rest of the day.
 - Objective and Transparent Standards: We use written, physical checklists to define when a job is done. This eliminates personal opinions and prevents arguments about whether something is "clean enough".
 - Neutral and Automated Access: Contributions to the household are tied to discretionary privileges (Wi-Fi, screens, transport) in a clear, matter-of-fact way: _Work = Access_. Parents act as friendly checkers rather than constant enforcers.

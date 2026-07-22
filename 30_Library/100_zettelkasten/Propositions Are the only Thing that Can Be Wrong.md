@@ -1,14 +1,14 @@
 ---
 conformant: false
 created: 2026-05-04T08:01:26+00:00
-modified: 2026-07-21T09:15:02+00:00
+modified: 2026-07-22T09:22:41+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/2c.-propositions-are-the-only-thing-that-can-be-wrong
-title: 2c. Propositions Are the only Thing that Can Be Wrong
+title: Propositions Are the only Thing that Can Be Wrong
 type: claim
 ---
 
-## 2c. They Are the only Thing that Can Be Wrong
+## They Are the only Thing that Can Be Wrong
 
 This is the critical one for PKM. A topic note titled _"Kubernetes networking"_ cannot be falsified, challenged, or contradicted—it's just a bucket. A proposition note titled _"Pod-to-pod traffic bypasses kube-proxy when using Cilium's eBPF dataplane"_ can be:
 
@@ -23,4 +23,3 @@ This is why Luhmann's Zettelkasten, Ahrens's _How to Take Smart Notes_, and Andy
 
 - [[Main Notes Are the Essential Building Blocks]] - _Details the structure and requirements of atomic notes in the Zettelkasten framework._
 - [[Note Status Lifecycle]] - _Provides the lifecycle stages for claim-shaped atomic notes._
-- [[The Atomicity Principle - One Idea Per Note]] - _Focuses specifically on the principle of one idea per note, which underpins proposition-based notes._

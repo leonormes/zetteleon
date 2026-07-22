@@ -3,7 +3,7 @@ aliases: [Deconstructing Perfectionism, Growth Mindset Protocol, Parenting for N
 conformant: true
 created: 2026-02-03T12:00:00+00:00
 last_synthesis: 2026-02-03
-modified: 2026-07-21T14:08:00+01:00
+modified: 2026-07-21T20:53:50+00:00
 permalink: llmeon/30-library/so-t/protocol-fostering-growth-mindset-neurodivergent-family
 source_of_truth: true
 status: evergreen
@@ -65,11 +65,11 @@ Shift the post-school interrogation from _Outcome_ to _Process_, and establish e
     - "What was the hardest part, and how did you handle it?"
     - "What mistake did you make that you learned from?"
     - "What interesting question did you ask?"
-- **The Brain Zones (Green/Yellow/Red)**:
-  - *Green Brain (Rational)*: Calm, regulated state. Teachable moments, chores audits, and Failure Autopsies occur *only* here.
-  - *Yellow Brain (Transition)*: Frustration building. Cue for children to take a break and for parents to prepare for handovers.
-  - *Red Brain (Amygdala/Hijack)*: Fight/flight/freeze. Pure reaction. Suspension of all choring, teaching, and auditing. Prioritise regulation and safety.
-- **Connection Before Correction**: Secure emotional connection before redirecting behaviour. Strive for a 3-to-5 ratio of positive interactions to negative ones. Spend 10–20 minutes of daily child-led, undivided one-on-one time to build "connection capital."
+- The Brain Zones (Green/Yellow/Red):
+  - _Green Brain (Rational)_: Calm, regulated state. Teachable moments, chores audits, and Failure Autopsies occur _only_ here.
+  - _Yellow Brain (Transition)_: Frustration building. Cue for children to take a break and for parents to prepare for handovers.
+  - _Red Brain (Amygdala/Hijack)_: Fight/flight/freeze. Pure reaction. Suspension of all choring, teaching, and auditing. Prioritise regulation and safety.
+- Connection Before Correction: Secure emotional connection before redirecting behaviour. Strive for a 3-to-5 ratio of positive interactions to negative ones. Spend 10–20 minutes of daily child-led, undivided one-on-one time to build "connection capital."
 - Actionable Room Reset Protocol: Never issue a vague directive like "Clean your room" (which triggers cognitive overwhelm and meltdowns). Instead, break the mess down into simple, visual, sequential steps (e.g., floor clear -> bed made -> laundry to basket) so the child learns how to scaffold the process.
 
 ### 3. Deconstruct Comparison
@@ -101,10 +101,10 @@ Shift the post-school interrogation from _Outcome_ to _Process_, and establish e
 - Concept: Avoid letting the under-engaged brain slip into the rumination and task-paralysis of the Default Mode Network ("The Demon").
 - The Reset: Before starting a low-stimulation task, execute 60 seconds of physical stimulation (balancing, jumping jacks, quick stretch) or pair it with a high-dopamine starter task.
 
-### 4. The Unschedule (Proactive Downtime defense)
+### 4. The Unschedule (Proactive Downtime dEfense)
 
 - Concept: Avoid viewing schedules as lists of obligations that trigger task rebellion.
-- Process: Block out play, leisure, and self-care breaks (like coffee/tea breaks) *first* in your planner. Defending your free time shifts the mindset from deprivation to abundance and reduces resistance to chores.
+- Process: Block out play, leisure, and self-care breaks (like coffee/tea breaks) _first_ in your planner. Defending your free time shifts the mindset from deprivation to abundance and reduces resistance to chores.
 
 ### 5. The 30-Day "Beginner" Challenge
 

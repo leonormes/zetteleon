@@ -28,7 +28,7 @@ Details: A severed system and an integrated system are different systems, not th
 
 ### Related
 
-- [[5c-emergence]]—direct concept match: unified properties arise from interaction and cannot be read off the isolated components.
+- [[Emergence]]—direct concept match: unified properties arise from interaction and cannot be read off the isolated components.
 - [[Bottom-Up Organization Allows Emergent Structure]]—shared mechanism: structure/unity emerges from connections between parts, not from the parts alone.
 - [[SoT - Emergence]]—extends: the intact-brain unity is a candidate emergent property.
 

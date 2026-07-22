@@ -29,7 +29,7 @@ type: link_report
 | [[Harris Speculates Intact Brains May Host Overlapping Subjectivity]] | 2 | [[Extrapolating Pathology to Normal Function Is a Hasty Generalisation]]—tension |
 | [[The Mereological Fallacy in Neuroscience]] | 3 | [[Mistaking the Map for the Territory]]—shared mechanism |
 | [[Processing Is Not Proof of Phenomenal Consciousness]] | 2 | [[Harris Claims Consciousness Is Divisible]]—tension |
-| [[Extrapolating Pathology to Normal Function Is a Hasty Generalisation]] | 4 | [[5c-emergence]]—direct concept match |
+| [[Extrapolating Pathology to Normal Function Is a Hasty Generalisation]] | 4 | [[Emergence]]—direct concept match |
 | [[Dividing a Process Does Not Make the Intact Process Illusory]] | 4 | [[Harris Uses the Split Brain to Deny the Unified Self]]—tension |
 
 ### Structural Note

@@ -13,6 +13,8 @@ views:
       - status
       - conformant
     sort:
+      - property: type
+        direction: ASC
       - property: file.name
         direction: ASC
     columnSize:
