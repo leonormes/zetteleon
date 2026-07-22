@@ -6,8 +6,9 @@ project_category: personal
 project_name: Bessie
 project_status: active
 title: Times Tables Mastery Guide
-type: null
-tags: [bessie]
+type: note
+tags:
+  - bessie
 ---
 
 ## Master Your Times Tables: A Comprehensive Guide
