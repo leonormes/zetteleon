@@ -5,6 +5,7 @@ permalink: llmeon/30-library/200-projects/bessie-sees-it-different
 project_name: Bessie
 title: Bessie Sees it Different
 type: note
+tags: [bessie]
 ---
 
 ## Bessie Sees it Different

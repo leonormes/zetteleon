@@ -5,6 +5,7 @@ permalink: llmeon/30-library/200-projects/linking-the-language-of-maths
 project_name: Bessie
 title: Linking the Language of Maths
 type: note
+tags: [bessie]
 ---
 
 ## Linking the Language of Maths

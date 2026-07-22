@@ -5,6 +5,7 @@ permalink: llmeon/30-library/200-projects/art
 project_name: Bessie
 title: Art
 type: note
+tags: [bessie]
 ---
 
 ## Art

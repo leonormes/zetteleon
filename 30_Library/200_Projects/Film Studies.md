@@ -5,6 +5,7 @@ permalink: llmeon/30-library/200-projects/film-studies
 project_name: Bessie
 title: Film Studies
 type: note
+tags: [bessie]
 ---
 
 ## Film Studies

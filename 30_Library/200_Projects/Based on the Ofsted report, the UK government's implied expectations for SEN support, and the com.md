@@ -5,6 +5,7 @@ permalink: llmeon/30-library/200-projects/based-on-the-ofsted-report-the-uk-gove
 project_name: Bessie
 title: "Based on the Ofsted report, the UK government's implied expectations for SEN support, and the com"
 type: note
+tags: [bessie]
 ---
 
 Based on the Ofsted report, the UK government's implied expectations for SEN support, and the comprehensive information about your daughter Bessie, here is a summary of the failings of Belfairs Academy that you can raise in a meeting:

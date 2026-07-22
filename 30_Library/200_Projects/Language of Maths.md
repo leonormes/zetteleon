@@ -5,6 +5,7 @@ permalink: llmeon/30-library/200-projects/language-of-maths
 project_name: Bessie
 title: Language of Maths
 type: note
+tags: [bessie]
 ---
 
 ## Language of Maths

@@ -5,6 +5,7 @@ permalink: llmeon/30-library/200-projects/summary-of-discussion-with-bessie-less
 project_name: Bessie
 title: "Summary of Discussion with Bessie ('Lessons' Transcript)"
 type: note
+tags: [bessie]
 ---
 
 ## Summary of Discussion with Bessie ('Lessons' Transcript)

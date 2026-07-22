@@ -5,6 +5,7 @@ permalink: llmeon/30-library/200-projects/to-assess-how-consistently-bessies-tea
 project_name: Bessie
 title: "To assess how consistently Bessie's teachers are implementing her support, drawing on her Individ"
 type: note
+tags: [bessie]
 ---
 
 To assess how consistently Bessie's teachers are implementing her support, drawing on her Individualized Education Program (IEP), Individual Support Plan (ISP), and related reports, here is a set of comprehensive questions you can ask Bessie. These questions aim to understand her day-to-day experience and the practical application of her support strategies:

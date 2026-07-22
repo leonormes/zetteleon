@@ -5,6 +5,7 @@ permalink: llmeon/30-library/200-projects/english-language
 project_name: Bessie
 title: English Language
 type: note
+tags: [bessie]
 ---
 
 ## English Language

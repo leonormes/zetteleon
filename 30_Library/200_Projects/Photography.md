@@ -5,6 +5,7 @@ permalink: llmeon/30-library/200-projects/photography
 project_name: Bessie
 title: Photography
 type: note
+tags: [bessie]
 ---
 
 ## Photography

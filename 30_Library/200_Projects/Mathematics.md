@@ -5,6 +5,7 @@ permalink: llmeon/30-library/200-projects/mathematics
 project_name: Bessie
 title: Mathematics
 type: note
+tags: [bessie]
 ---
 
 ## Mathematics

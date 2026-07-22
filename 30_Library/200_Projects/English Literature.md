@@ -5,6 +5,7 @@ permalink: llmeon/30-library/200-projects/english-literature
 project_name: Bessie
 title: English Literature
 type: note
+tags: [bessie]
 ---
 
 ## English Literature

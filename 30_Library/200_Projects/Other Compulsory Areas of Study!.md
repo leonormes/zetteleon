@@ -5,6 +5,7 @@ permalink: llmeon/30-library/200-projects/other-compulsory-areas-of-study
 project_name: Bessie
 title: Other Compulsory Areas of Study!
 type: note
+tags: [bessie]
 ---
 
 ## Other Compulsory Areas of Study

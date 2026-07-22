@@ -8,7 +8,7 @@ see_also: []
 status: ''
 superseded_by: ''
 supersedes: ''
-tags: []
+tags: [bessie]
 title: Writing Acts as an External Working Memory
 type: ''
 updated: null

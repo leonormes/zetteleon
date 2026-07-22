@@ -8,7 +8,7 @@ see_also: []
 status: ''
 superseded_by: ''
 supersedes: ''
-tags: []
+tags: [bessie]
 title: Writing Reduces Cognitive Load by Chunking Information
 type: ''
 updated: null

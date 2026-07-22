@@ -5,6 +5,7 @@ permalink: llmeon/30-library/200-projects/bessies-year-9-subjects
 project_name: Bessie
 title: Bessie’s Year 9 Subjects
 type: note
+tags: [bessie]
 ---
 
 ## Bessie's Year 9 Subjects

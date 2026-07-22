@@ -5,7 +5,7 @@ last_reviewed: ''
 modified: 2026-07-21T09:15:08+00:00
 permalink: llmeon/30-library/100-zettelkasten/misinterpretation-as-character-flaws
 status: ''
-tags: []
+tags: [bessie]
 title: Misinterpretation as Character Flaws
 type: ''
 updated: null

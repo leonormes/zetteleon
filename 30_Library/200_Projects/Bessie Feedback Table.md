@@ -5,6 +5,7 @@ permalink: llmeon/30-library/200-projects/bessie-feedback-table
 project_name: Bessie
 title: Bessie Feedback Table
 type: note
+tags: [bessie]
 ---
 
 ## Bessie Feedback Table

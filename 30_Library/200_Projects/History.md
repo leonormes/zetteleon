@@ -5,6 +5,7 @@ permalink: llmeon/30-library/200-projects/history
 project_name: Bessie
 title: History
 type: note
+tags: [bessie]
 ---
 
 ## History

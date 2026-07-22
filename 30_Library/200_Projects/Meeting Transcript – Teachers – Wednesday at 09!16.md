@@ -5,6 +5,7 @@ permalink: llmeon/30-library/200-projects/meeting-transcript-teachers-wednesday-
 project_name: Bessie
 title: Meeting Transcript – Teachers – Wednesday at 09!16
 type: note
+tags: [bessie]
 ---
 
 Meeting Transcript–Teachers–Wednesday at 09:16

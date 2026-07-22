@@ -5,6 +5,7 @@ permalink: llmeon/30-library/200-projects/optional-subjects
 project_name: Bessie
 title: Optional Subjects
 type: note
+tags: [bessie]
 ---
 
 ## Optional Subjects

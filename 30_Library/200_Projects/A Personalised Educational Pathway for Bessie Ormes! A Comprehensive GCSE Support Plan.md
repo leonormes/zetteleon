@@ -6,6 +6,7 @@ project_name: Bessie
 title: A Personalised Educational Pathway for Bessie Ormes! A Comprehensive GCSE Support Plan
   Plan
 type: note
+tags: [bessie]
 ---
 
 ## A Personalised Educational Pathway for Bessie Ormes: A Comprehensive GCSE Support Plan

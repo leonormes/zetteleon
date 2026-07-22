@@ -5,6 +5,7 @@ permalink: llmeon/30-library/200-projects/subjects
 project_name: Bessie
 title: Subjects
 type: note
+tags: [bessie]
 ---
 
 ## Subjects

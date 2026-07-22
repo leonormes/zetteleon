@@ -5,6 +5,7 @@ permalink: llmeon/30-library/200-projects/combined-science
 project_name: Bessie
 title: Combined Science
 type: note
+tags: [bessie]
 ---
 
 ## Combined Science

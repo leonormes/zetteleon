@@ -5,6 +5,7 @@ permalink: llmeon/30-library/200-projects/maths-and-english-language
 project_name: Bessie
 title: Maths and English Language
 type: note
+tags: [bessie]
 ---
 
 ## Maths and English Language

@@ -8,7 +8,7 @@ see_also: []
 status: ''
 superseded_by: ''
 supersedes: ''
-tags: [TheHuman/Health/ADHD]
+tags: [bessie, TheHuman/Health/ADHD]
 title: Distorted Negative Self-Image
 type: ''
 updated: null
