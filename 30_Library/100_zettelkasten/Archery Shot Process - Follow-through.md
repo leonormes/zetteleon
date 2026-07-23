@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T00:00:00+00:00
-modified: 2026-07-22T13:45:13+00:00
+modified: 2026-07-23T10:13:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-follow-through
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Follow-through
@@ -30,7 +30,8 @@ Details:
   - Point your bow-hand index finger straight down upon release, keeping the thumb forward of the pinky to avoid twisting the wrist or weakening the grip.
   - Keep the bow arm straight and let the bow's natural weight and forward reaction pull your bow hand down.
   - Hold the Position: Hold your physical position with the bow arm raised until the arrow hits the target. Actively dropping the bow too early will ruin your accuracy.
-  - Maintain Bow Hand Structure: Do not completely relax the entire bow hand (which makes it passive and causes it to move unpredictably or collapse sideways). Having direction and purpose in the bow hand ensures that the force of the bow drives straight forward into the target on every shot. Upon release, your bow arm should naturally jump slightly straight forward toward the target, not swing to the left or right.
+  - Maintain Bow Hand Structure: Do not completely relax the entire bow hand (which makes it passive and causes it to move unpredictably or collapse sideways). Having direction and purpose in the bow hand ensures that the force of the bow drives straight forward into the target on every shot.
+  - **Natural Forward Push**: Due to the physical law of equal and opposite reactions, your bow arm should naturally jump or push slightly straight forward and away the moment the string drops, rather than swinging to the left or right. **If your bow arm remains completely frozen upon release, it indicates you anticipated the shot and consciously stopped your momentum.**
   - Let the bow jump and fall naturally on its finger sling without torquing or grabbing the riser. The fingers remain relaxed, but the hand structure remains active.
 - Core & Head Stability:
   - Keep your central core completely solid and your head perfectly still. If your head moves, your body will naturally follow and throw off the shot.
@@ -64,4 +65,4 @@ Details:
   2. Execute the shot. When expanding through the shot with proper back tension, your elbow should move straight back and cleanly slide away from the object.
   3. If you lack tension and collapse upon release, your elbow will pluck outward and strike the dangling guide.
 
-- Reference: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Rogue Archery TV, Online Archery Academy, Kramer Ammons, and World Archery release technique guidelines.
+- Reference: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Rogue Archery TV, Online Archery Academy, Kramer Ammons, World Archery release technique guidelines, and MFJJ (ElkShape) follow-through momentum cues.

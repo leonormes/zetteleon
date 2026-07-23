@@ -2,7 +2,7 @@
 title: Archery Shot Process - Setup
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-setup
 created: "2026-07-21T09:02:00+00:00"
-modified: "2026-07-21T09:58:00+00:00"
+modified: "2026-07-23T10:13:00+01:00"
 tags: [prodos/atomic, archery, technique]
 aliases: []
 prodos:
@@ -44,6 +44,7 @@ Details:
   - Keep the pinky relaxed and neutral. The thumb should rest just below the shelf.
   - Maintain a neutral wrist.
 - **The Grip (Bow Hand)**:
+  - **Firm Placement Before Drawing**: Firmly establish your hand placement on the bow grip *before* you even begin to draw. Focus entirely on seating your hand perfectly into the grip early in the setup.
   - **Avoid "Total Relaxation" Flaw**: A common misconception is to completely relax the entire bow hand. While this stops beginners from grabbing the bow, a completely passive, floppy hand slides around in the grip, loses direction, and disconnects the bow arm from the shoulder. Proper technique requires a distinction between passive fingers and an active hand structure.
   - Place the 'Y' of your hand into the grip so the pressure point sits directly on the thumb pad.
   - Push into the riser using the flat bone intersection between the index finger and thumb metacarpals (the knuckle bone joint), rather than the soft webbing of the thumb.
@@ -51,4 +52,4 @@ Details:
   - **Knuckle Alignment (Active)**: Keep the thumb alongside the bow and slightly retract your knuckles to a **45-degree angle**. Maintaining this requires purposeful hand placement rather than passive relaxation.
   - **Thumb Direction (Active)**: The thumb should be actively directed straight toward the target rather than collapsing off to the side.
   - **Fingers (Passive)**: Keep fingers relaxed, curling them in without squeezing or touching the bow. **Avoid the "Death Grip"**: Gripping the bow tightly introduces torque, which will twist the bow upon release and throw your arrows off target. Hold the bow as gently as you would a "sick sparrow."
-- **Reference**: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Rogue Archery TV, Online Archery Academy, Jake Kaminski's hook tutorials, NUSensei form tips, and World Archery release technique guidelines.
+- **Reference**: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Rogue Archery TV, Online Archery Academy, Jake Kaminski's hook tutorials, NUSensei form tips, World Archery release technique guidelines, and MFJJ (ElkShape) grip setup cues.

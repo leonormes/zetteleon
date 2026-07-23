@@ -2,7 +2,7 @@
 title: Archery Shot Process - Loading
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-loading
 created: "2026-07-21T09:02:00+00:00"
-modified: "2026-07-21T09:58:00+00:00"
+modified: "2026-07-23T10:18:00+01:00"
 tags: [prodos/atomic, archery, technique]
 aliases: []
 prodos:
@@ -22,6 +22,7 @@ Details:
   - Lead the pull using your draw elbow, moving the drawing hand straight back toward your neck. Move the entire drawing shoulder as a unit.
   - Draw the remaining length by engaging the back muscles (scapular retractors) and moving the draw elbow in an **"up and around" path**.
   - **Alignment & Weight Transfer**: Your drawing elbow, wrist, and the arrow should form a straight line. Squeezing your shoulder blades together achieves the final inch of draw length and transfers the heavy bow weight from your arm muscles to your stronger back muscles.
+  - **The Proprioception Trap**: Beginners often lack the advanced bodily awareness to isolate fine muscle contractions. When told to "feel their back muscles" for back tension, they often mistakenly over-retract their shoulders until they hit a skeletal wall, squeezing their back muscles without actually expanding through the shot. Focus on structural position and elbow path rather than "feeling" the muscle squeeze.
 - **Locking the Hook (Draw Length Creep Prevention)**:
   - Single-string bows lack a mechanical draw stop. Any change in how your fingers curl directly alters your effective draw length, holding weight, and vertical point of impact.
   - As the bow's draw weight increases continuously during the pull, actively increase forearm flexor tension to lock the hook in place. Do not let the bow's weight drag your fingers open.
@@ -51,4 +52,4 @@ Details:
   1. As you pull the bow through your draw cycle, continuously wiggle your drawing-hand thumb and pinky finger.
   2. If you subconsciously over-grip, build hand tension, or curl the wrist, the thumb and pinky will instantly freeze and lock up, signaling the form breakdown.
 
-- **Reference**: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Rogue Archery TV, Online Archery Academy, and World Archery release technique guidelines.
+- **Reference**: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Rogue Archery TV (including proprioception cues), Online Archery Academy, and World Archery release technique guidelines.
