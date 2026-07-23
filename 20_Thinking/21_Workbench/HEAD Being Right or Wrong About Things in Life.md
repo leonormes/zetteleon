@@ -1,11 +1,12 @@
 ---
 captured: 2026-07-13T16:50:06+01:00 2026-07-13T16:50:06+01:00
-created: 2026-07-13T15:50:09+00:00
-modified: 2026-07-20T16:34:34+00:00
-permalink: llmeon/20-thinking/21-workbench/head-new-chat
+created: 2026-07-13 15:50:09+00:00
+modified: 2026-07-20 16:34:34+00:00
+permalink: llmeon/20-thinking/21-workbench/head-new-chat-1
 source: https://gemini.google.com/app/dd7fd18f2310946a
 status: processing
-tags: [input]
+tags:
+- input
 title: HEAD Being Right or Wrong About Things in Life
 type: head
 ---

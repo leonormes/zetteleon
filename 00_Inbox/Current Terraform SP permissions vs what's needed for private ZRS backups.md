@@ -1,8 +1,8 @@
 ---
-created: 2026-07-16T08:53:55+00:00
-modified: 2026-07-20T16:34:46+00:00
-permalink: llmeon/00-inbox/pieces-copilot-message-export-july-16-2026-10-20am
-title: "Current Terraform SP permissions vs what's needed for private ZRS backups"
+created: 2026-07-16 08:53:55+00:00
+modified: 2026-07-20 16:34:46+00:00
+permalink: llmeon/00-inbox/pieces-copilot-message-export-july-16-2026-9-53am
+title: Current Terraform SP permissions vs what's needed for private ZRS backups
 type: note
 ---
 

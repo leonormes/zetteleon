@@ -1,11 +1,12 @@
 ---
 captured: 2026-07-20T13:50:47+01:00 2026-07-20T13:50:47+01:00
-created: 2026-07-20T12:50:49+00:00
-modified: 2026-07-20T16:34:34+00:00
-permalink: llmeon/20-thinking/21-workbench/head-new-chat-1
+created: 2026-07-20 12:50:49+00:00
+modified: 2026-07-20 16:34:34+00:00
+permalink: llmeon/20-thinking/21-workbench/head-new-chat-1-1
 source: https://gemini.google.com/app/e56d7e0ebf91cea9
 status: processing
-tags: [input]
+tags:
+- input
 title: HEAD In Azure What Exactly Is a Bastion
 type: head
 ---
