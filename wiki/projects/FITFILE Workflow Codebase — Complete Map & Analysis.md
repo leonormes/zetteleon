@@ -101,7 +101,7 @@ Builder targets `concatenate-two-datasets-template`; Deployment is `concatenate-
 CLIs + Rabbit publishers exist. Custom WorkflowBuilder does NOT set onExit. No onExit references in Deployment task/query YAMLs.
 
 ### Q3: No workflows.out consumer in FitConnect
-Exit handlers publish to amq.topic routing key workflows.out.<status>. FitConnect has stale Rabbit config but no active consumer.
+Exit handlers publish to amq.topic routing key workflows.out.\<status>. FitConnect has stale Rabbit config but no active consumer.
 
 ### Q4: LoadArtifactTaskBuilder.output_fits_into() returns None
 Method should return a list of consumer tasks, not bare [].

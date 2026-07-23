@@ -9,3 +9,19 @@
 {"kind":"completion","at":"2026-07-23T10:25:09.597177Z","note":"Updated Anchor and Loading notes with aiming, vision, string alignment, and aiming path consistency cues from ArcheryWinchester"}
 {"kind":"intent","at":"2026-07-23T13:02:17.577285Z","title":"Updating Archery Shot Process notes with consolidated feedback","body":"Consolidating Barebow Basics cues into Setup, Anchor, and Nocking notes as explicitly instructed by the user."}
 {"kind":"completion","at":"2026-07-23T13:02:55.945412Z","note":"Consolidated new archery feedback into Setup, Anchor, and Nocking files"}
+{"kind":"intent","at":"2026-07-23T13:45:45.477638Z","title":"Adding 3D Object Hyper-Focus drill to Practice Drills","body":"Consolidating CatholicHack's 3D aiming trick into the Archery Practice Drills note."}
+{"kind":"completion","at":"2026-07-23T13:46:05.741162Z","note":"Added 3D Object Hyper-Focus drill to Archery Practice Drills"}
+{"kind":"intent","at":"2026-07-23T13:47:27.852735Z","title":"Updating Setup, Anchor, and Follow-through with Jake Kaminski's tips","body":"Consolidating 3 easy tips: clothing clearance, bone-to-bone anchor, and follow-through stillness."}
+{"kind":"completion","at":"2026-07-23T13:47:55.315014Z","note":"Added Jake Kaminski's 3 Easy Tips to Setup, Anchor, and Follow-through"}
+{"kind":"intent","at":"2026-07-23T13:50:46.796013Z","title":"Updating Loading, Anchor, and Practice Drills with Online Archery Academy recurve release tips","body":"Consolidating bow fitness, string connection alignment, back tension mindset, and real full draw into the archery notes."}
+{"kind":"completion","at":"2026-07-23T13:51:24.774255Z","note":"Consolidated Online Archery Academy release tips into Loading, Anchor, and Practice Drills"}
+{"kind":"intent","at":"2026-07-23T13:52:24.042731Z","title":"Updating Setup note with Jake Kaminski's torque experiment findings","body":"Consolidating findings on grip torque vs draw hand torque and their effects on horizontal and vertical arrow drift."}
+{"kind":"completion","at":"2026-07-23T13:52:45.300413Z","note":"Consolidated Jake Kaminski's torque experiment findings into Setup note"}
+{"kind":"intent","at":"2026-07-23T14:01:13.953547Z","title":"Updating Posture, Loading, and Practice Drills with Online Archery Academy alignment tips","body":"Consolidating upper body rotation, avoiding arched back, bow shoulder pivot, and alignment drills."}
+{"kind":"completion","at":"2026-07-23T14:01:47.567864Z","note":"Consolidated Online Archery Academy alignment drills into Loading and Posture notes"}
+{"kind":"intent","at":"2026-07-23T14:06:10.954462Z","title":"Updating Archery Knowledge Consolidation prompt","body":"Refactoring prompt to instruct LLMs to rely on Obsidian 1MCP tools for searching, reading, and writing, eliminating manual copy-pasting."}
+{"kind":"completion","at":"2026-07-23T14:06:38.398268Z","note":"Updated Archery Knowledge Consolidation prompt to enforce Obsidian 1MCP and Shale usage"}
+{"kind":"intent","at":"2026-07-23T14:12:27.057314Z","title":"Consolidating Clay Hayes archery technique into shot process notes","body":"Extracting and merging cues on mental focus, pre-aiming, and tactile draw length markers into Pre-draw, Loading, Expansion, and Practice Drills notes."}
+{"kind":"completion","at":"2026-07-23T14:13:00.09965Z","note":"Merged Clay Hayes cues into Pre-draw, Loading, Expansion, and Practice Drills notes"}
+{"kind":"intent","at":"2026-07-23T14:43:42.372404Z","title":"Consolidating Inside Out Precision anchor technique into Anchor note","body":"Extracting and merging cues on 3 points of contact, peep alignment, and smooth settling into the Anchor step."}
+{"kind":"completion","at":"2026-07-23T14:44:06.582739Z","note":"Merged Inside Out Precision anchor consistency cues into Anchor note"}

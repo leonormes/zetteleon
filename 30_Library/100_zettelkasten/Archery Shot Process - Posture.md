@@ -2,7 +2,7 @@
 title: Archery Shot Process - Posture
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-posture
 created: "2026-07-21T09:02:00+00:00"
-modified: "2026-07-23T10:13:00+01:00"
+modified: "2026-07-23T15:00:14+01:00"
 tags: [prodos/atomic, archery, technique]
 aliases: []
 prodos:
@@ -19,10 +19,10 @@ Posture focuses on engaging the core, positioning the hips and torso to transfer
 
 Details:
 - **Core Engagement (Chest-Down Position / "Flat Back")**:
-  - Archery posture differs from standard vertical "proud posture" (chest out, back arched), which is counterproductive.
+  - Archery posture differs from standard vertical "proud posture" (chest out, back arched), which is counterproductive. Arching the lower back disconnects the shoulder blades from the rib cage, destroys core stability, and physically restricts your rotational range of motion when trying to align your shoulders.
   - **How to set it**: Exhale 100% of the air out of your chest to let your ribcage drop, then lock it down. Once locked, breathe strictly using your **diaphragm**.
   - **Reset Breathing**: Between every single shot, take three long, slow, deep breaths (in through the nose, out through the mouth) to completely reset mentally and physically before resuming your posture.
-  - **Hip Tuck**: Squeeze your glutes (as if holding a coin between your butt cheeks) to tuck your pelvis under. Combined with a dropped chest, this flattens your spine into a solid, vertical column. Avoid arching the lower back.
+  - **Hip Tuck**: Squeeze your glutes (as if holding a coin between your butt cheeks) to tuck your pelvis under. Combined with a dropped chest and slight tension in the abdomen (feeling as if you are about to be punched in the stomach), this flattens your spine into a solid, vertical column. Avoid arching the lower back.
   - **Clearance & Stability**: Dropping your chest shortens the abdominal wall for stability and creates substantial clearance so the string doesn't slap your chest or clothing at full draw.
 - **Active Posture & Settling**: Posture must be actively engaged and maintained throughout the entire shot sequence—it is never "set and forgotten." Stack your shoulders directly over your hips and allow your body weight to **settle downwards** to prevent fatigue and establish a grounded base.
 - **Spine & Alignment (Tug-of-War Principle)**:
@@ -57,4 +57,4 @@ Details:
   2. Have a partner gently hold your head or cap in place without applying force.
   3. Execute your draw. If your head shifts or rotates, you will instantly feel resistance against your partner's hands.
 
-- **Reference**: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Sjef van den Berg guidelines, Rogue Archery TV coaching sessions, Jake Kaminski (Recurve Form Series Episode 4), and MFJJ (ElkShape) postural settling/breathing cues.
+- **Reference**: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Sjef van den Berg guidelines, Rogue Archery TV coaching sessions, Jake Kaminski (Recurve Form Series Episode 4), MFJJ (ElkShape) postural settling/breathing cues, and Online Archery Academy (alignment mechanics).

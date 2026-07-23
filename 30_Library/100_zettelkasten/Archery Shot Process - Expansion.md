@@ -28,7 +28,8 @@ Details:
   - Squeeze the draw elbow around the spine throughout the click, release, and follow-through. Continue this action until the arrow strikes the target to prevent early collapse/plucking.
   - **Internal Focus (Eyes Closed Practice)**: Once anchored comfortably, try closing your eyes to focus entirely on the internal feeling of the shot. Keep building this push/pull tension until the release fires completely by surprise.
 - **Dynamic Action**: Favour a dynamic, firm, aggressive release with strong elbow continuation (emulating Korean archers like An San or Yun Mi-jin) pulling firmly into the face. Avoid trying to force an ultra-soft, "effortless" release (the Kim Woo-jin trap) which often causes intermediate archers to collapse.
-- **Clicker Execution**: To pull the final couple of millimeters through the clicker, do not just pull backward with your hand. Instead, squeeze your draw elbow around your back/body.
+- **Clicker Execution & Psychological Triggers**: To pull the final couple of millimeters through the clicker, do not just pull backward with your hand. Instead, squeeze your draw elbow around your back/body.
+  - **Tactile Draw Length Marker (Clicker Alternative)**: For traditional or barebow archers without a mechanical clicker, use a "psychological trigger." Cut arrow shafts to a precise length so that at full draw and proper expansion, the back edge or barb of the point physically contacts the knuckle of the bow hand. Once the sight picture is set, focus strictly on building continuous back tension until feeling that tactile touch triggers a clean, controlled release.
 - **Taut Rope Visualization**: Imagine you are continuously pulling against a taut rope.
 - **Two-Way Fluid Motion**:
   - **Back Half (Expansion)**: Raise the draw elbow slightly while continuing a rounding motion with the scapula and lifting slightly with the pec muscle.
@@ -47,4 +48,4 @@ Details:
   2. Place the loop around your draw arm so the arrow shaft sits directly in the crease of your elbow joint.
   3. At full draw, focus on squeezing the arrow shaft around behind your body to pull the final millimetres through the clicker.
 
-- **Reference**: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], [[20_Thinking/21_Workbench/HEAD - Archery Practice|HEAD - Archery Practice]], Rogue Archery TV, Online Archery Academy release technique guidelines, Jake Kaminski's KSL Shot Cycle tutorials (also referencing *Total Archery: Inside the Archer* by Kisik Lee and Tyler Benner), and MFJJ (ElkShape) push/pull surprise release cues.
+- **Reference**: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], [[20_Thinking/21_Workbench/HEAD - Archery Practice|HEAD - Archery Practice]], Rogue Archery TV, Online Archery Academy release technique guidelines, Jake Kaminski's KSL Shot Cycle tutorials (also referencing *Total Archery: Inside the Archer* by Kisik Lee and Tyler Benner), MFJJ (ElkShape) push/pull surprise release cues, and Clay Hayes (tactile draw length markers).

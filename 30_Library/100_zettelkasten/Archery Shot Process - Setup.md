@@ -2,7 +2,7 @@
 title: Archery Shot Process - Setup
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-setup
 created: "2026-07-21T09:02:00+00:00"
-modified: "2026-07-23T14:01:19+01:00"
+modified: "2026-07-23T14:51:38+01:00"
 tags: [prodos/atomic, archery, technique]
 aliases: []
 prodos:
@@ -21,6 +21,7 @@ Details:
 - **Order of Execution**: Always **hook the string first**, then place the hand into the bow grip. Setting the bow hand first forces you to grip tightly; setting the hook first allows the bow hand to remain relaxed.
 - **Shoulder Positioning**: Keep shoulders **open** relative to the target line. Avoid aligning the shoulders prematurely in this phase (premature shoulder alignment forces an excessively high raise and relies on gravity/momentum to drop into full draw, straining the shoulder joints).
 - **Mandatory Protection**: Always use a finger tab or archery glove to protect against painful and permanent nerve damage.
+- **Clothing & Gear Clearance**: Ensure no bulky clothing, hoodie strings, or sticking-out collars can catch the bowstring. String contact against a sleeve is often unfelt but drastically alters downrange arrow impact. Wear tight-fitting clothing on your upper body and use an arm guard to pull any loose fabric flat against your bow arm.
 - **The Hook (Draw Hand)**:
   - **Hook Consistency**: Executing the *exact same hook* on every single arrow is more critical than the specific depth you use.
   - **Visual Verification**: Visually inspect your finger placement on the string during setup until a clear, repeatable physical feel is established.
@@ -39,6 +40,7 @@ Details:
     - There is no single universal dogmatic ratio, but the top two fingers carry the main load (e.g. 40% index, 50% middle, with the ring finger acting as a stabilizing guide at ~10%).
     - Note that weight distribution can naturally shift between fingers as you move from the initial draw phase to full draw.
     - Shifting pressure between fingers dynamically (e.g. index more than ring) alters the tune of the bow, causing significant vertical misses downrange.
+  - **Torque Impact (Draw Hand vs. Grip)**: Intentionally twisting or torquing the hook (draw hand) against your face at anchor produces very little horizontal shift compared to grip torque. Changing finger pressure distribution on the string impacts vertical height significantly more than horizontal drift.
   - **Tactile Sensitivity**: Keeping a rigid, unchanged hook allows your nervous system to immediately detect micro-variations (2–5%) in pressure or alignment.
   - Align fingers starting with the first groove of the middle finger. Note that all four fingers (including the pinky) affect finger tension on the string.
   - Place one finger above the arrow and two below (split finger setup).
@@ -51,6 +53,7 @@ Details:
   - Push into the riser using the flat bone intersection between the index finger and thumb metacarpals (the knuckle bone joint), rather than the soft webbing of the thumb.
   - **Pressure Point Engagement (Active)**: Drive tension into the pit/pressure point of the bow hand towards the target. This creates a direct connection through your wrist into your bow shoulder and skeletal alignment.
   - **Balanced Pressure**: The bow hand must exert **balanced pressure along the center line of the grip into the palm**. Avoid torquing, heeling, or high-wristing the bow.
+  - **The Dominance of Grip Torque**: Grip torque dominates horizontal drift. Torquing or twisting the bow hand right or left heavily affects arrow impact (e.g., torquing the riser to the left can cause a dramatic horizontal shift of 1.5 to 2 inches to the left at 20 yards). If you experience unexplained left/right arrow drifts downrange and your string alignment is solid, troubleshoot your bow hand to ensure a consistent, torque-free grip position on every shot.
   - **Knuckle Alignment (Active)**: Keep the thumb alongside the bow and slightly retract your knuckles to a **45-degree angle**. Maintaining this requires purposeful hand placement rather than passive relaxation.
   - **Thumb Direction (Active)**: The thumb should be actively directed straight toward the target rather than collapsing off to the side.
   - **Fingers (Passive)**: Keep fingers completely relaxed, curling them in without squeezing or touching the bow. Once you apply string tension, the riser will naturally press into your palm; at this point, fingers should act like **"jelly fingers"** to prevent unnecessary muscle tension. **Avoid the "Death Grip"**: Gripping the bow tightly introduces torque, which will twist the bow upon release and throw your arrows off target. Hold the bow as gently as you would a "sick sparrow."
@@ -63,4 +66,4 @@ Details:
 ### Alternative Views / Corrections
 - **Barebow Hooking ("Three Fingers Under")**: While Olympic recurve typically uses a split-finger setup (one finger above the arrow, two below), barebow archers use a **"three fingers under"** hook. Place the string at the joint of the index finger, just inside the first joint of the middle finger, and inside or at the joint of the ring finger. This deep hook prevents lateral deflections and premature releases.
 
-- **Reference**: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Rogue Archery TV, Online Archery Academy (including slipping hook cues), Jake Kaminski's hook tutorials, NUSensei form tips, World Archery release technique guidelines, MFJJ (ElkShape) grip setup cues, and Barebow Basics: Shot Process Basics.
+- **Reference**: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Rogue Archery TV, Online Archery Academy (including slipping hook cues), Jake Kaminski's hook tutorials, 3 Easy Tips, and torque experiments, NUSensei form tips, World Archery release technique guidelines, MFJJ (ElkShape) grip setup cues, and Barebow Basics: Shot Process Basics.

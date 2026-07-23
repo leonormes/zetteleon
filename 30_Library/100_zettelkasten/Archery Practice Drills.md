@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-22T00:00:00+00:00
-modified: 2026-07-23T10:18:00+01:00
+modified: 2026-07-23T14:49:53+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-practice-drills
 tags: [archery, practice, prodos/atomic, training]
 title: Archery Practice Drills
@@ -98,6 +98,23 @@ Instead of chasing feelings, use this three-step framework for skill acquisition
 
 _(Note: This is a diagnostic drill detailed in the [[Archery Shot Process - Follow-through]] note to check for proper skeletal back tension vs collapsing upon release.)_
 
+#### 11. 3D Object Hyper-Focus ("The Robin Hood Trick")
+
+- The Goal: Combat visual complacency (the "2D Target Trap") and tighten arrow groups by narrowing your field of view.
+- How to do it: Place a small, 3-dimensional, highly visible object (like an old arrow shaft with orange foam, or a dandelion) directly into the target face. Actively try to "Robin Hood" your next shots directly into the back of that physical object.
+- Why it works: Aiming at a large flat target face causes your brain to naturally take in the bigger picture, leading to loose form. Giving yourself a physical 3D object to hyper-focus on tricks your brain into narrowing its attention, instantly forcing your focus back to the basics of your shot cycle, form, and consistency.
+
+#### 12. Bow Fitness (Draw-ups and Holds)
+
+- The Goal: Build the sheer physical capacity required to hold, expand, and execute without collapsing. (Lacking physical strength is the single most common cause of a poor release).
+- How to do it: Perform draw-ups and hold drills using a resistance band or a shot trainer replica. Progress over time to using your actual bow so you can hold full draw effortlessly.
+- Supplement: Use spring-loaded hand exercisers to build finger and grip strength, which helps lock in a straight connection through your draw hand and wrist.
+
+#### 13. Focus on Process, Not the External Result
+
+- The Goal: Prevent target fixation from distracting you from body mechanics.
+- How to do it: Shift your mindset to focus on execution and yourself rather than the external target. Because you cannot control the arrow once it leaves the bow, your complete mental focus should remain on executing your internal progression (setting the aim, drawing, anchoring, building back tension, and expanding). If you execute each step perfectly, accuracy becomes the natural outcome.
+
 ---
 
-Reference: Insights compiled from Kramer Ammons ("9 Archery Drills To Hack The Mind"), MFJJ (ElkShape) blind baling and homework routines, Rogue Archery TV ("feelings" and mastery framework), and generalized target panic/practice philosophy guidelines.
+Reference: Insights compiled from Kramer Ammons ("9 Archery Drills To Hack The Mind"), MFJJ (ElkShape) blind baling and homework routines, Rogue Archery TV ("feelings" and mastery framework), CatholicHack's Traditional Archery (3D hyper-focus trick), Online Archery Academy (bow fitness), Clay Hayes (process over result), and generalized target panic/practice philosophy guidelines.
