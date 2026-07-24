@@ -41,7 +41,7 @@ Applies to phasic dopamine signalling as characterised in Schultz's foundational
 
 ## Knowledge Graph
 
-Supports [[The Interest-Based Nervous System in ADHD]] — why novelty (prediction error) is an ignition key.
+Supports [[The ADHD brain operates on an Interest-Based Nervous System]] — why novelty (prediction error) is an ignition key.
 
 %%claim.supports{The Interest-Based Nervous System in ADHD}%%
 

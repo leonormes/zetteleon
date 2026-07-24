@@ -3,12 +3,12 @@ created: 2026-02-11 17:15:00+00:00
 modified: 2026-07-24 09:35:00+00:00
 status: stable
 tags:
-- ADHD
-- dopamine
-- motivation
-- neurology
-- productivity
-- gtd
+  - ADHD
+  - dopamine
+  - motivation
+  - neurology
+  - productivity
+  - gtd
 title: The Interest-Based Nervous System in ADHD
 type: claim
 conformant: true

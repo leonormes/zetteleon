@@ -27,7 +27,7 @@ The ADHD brain is often interest-driven and craves novelty. This note serves as 
 
 ## Broader Context
 
-- [[The Interest-Based Nervous System in ADHD]]
+- [[The ADHD brain operates on an Interest-Based Nervous System]]
 - [[Novelty Effect]]
 - [[Prediction Error Breaks Feedback Loops]]
 - [[MOC - ADHD (The Master Map)]]

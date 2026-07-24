@@ -44,5 +44,5 @@ These triggers are part of [[SoT - ADHD Neurology & Core Concepts#2.1 The Shame-
 ## Related Concepts
 
 - [[Executive Function Deficits in ADHD Impact Developer Productivity|ADHD Executive Functioning]] - Task initiation as core EF deficit
-- [[The Interest-Based Nervous System in ADHD]] - Why interest matters more than importance
+- [[The ADHD brain operates on an Interest-Based Nervous System]] - Why interest matters more than importance
 - [[Working Memory Limitations in ADHD]] - Cognitive load of managing multiple small tasks

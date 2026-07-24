@@ -42,7 +42,7 @@ updated: null
 
 Critically, [[Downtime scheduling prevents neurodivergent burnout]] - rest periods must be treated as non-negotiable routine elements, not optional additions. This acknowledges the higher energy expenditure required for neurodivergent individuals to navigate neurotypical environments.
 
-[[Celebrating small wins builds routine momentum]] through positive reinforcement. This approach aligns with [[The Interest-Based Nervous System in ADHD]], using intrinsic motivation rather than external pressure.
+[[Celebrating small wins builds routine momentum]] through positive reinforcement. This approach aligns with [[The ADHD brain operates on an Interest-Based Nervous System]], using intrinsic motivation rather than external pressure.
 
 ### Practical Implementation Framework
 
@@ -72,5 +72,5 @@ This approach integrates with [[MOC - Strategies for ADHD Brains in a Neurotypic
 
 - [[Executive Function Challenges are Central to ADHD]]
 - [[Routines Provide Stability for Neurodivergent Individuals]]
-- [[The Interest-Based Nervous System in ADHD]]
+- [[The ADHD brain operates on an Interest-Based Nervous System]]
 - [[MOC - Strategies for ADHD Brains in a Neurotypical World]]

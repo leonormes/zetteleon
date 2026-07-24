@@ -16,7 +16,7 @@ A crucial mindset shift in understanding Attention-Deficit/Hyperactivity Disorde
 ## From Disorder to Neurodiversity
 
 - The Deficit View: Traditionally, ADHD has been viewed as a disorder—a collection of deficits that need to be "fixed" or "cured." This perspective often leads to societal stigma and personal shame, framing challenges with executive functions as moral failings like "laziness" or a "lack of willpower."
-- The Neurodiversity View: This modern perspective sees the ADHD brain as simply "wired differently." It is a natural variation in human brain function, not a character flaw. This view is foundational to understanding the unique motivational and processing styles of the ADHD brain, such as [[The Interest-Based Nervous System in ADHD]].
+- The Neurodiversity View: This modern perspective sees the ADHD brain as simply "wired differently." It is a natural variation in human brain function, not a character flaw. This view is foundational to understanding the unique motivational and processing styles of the ADHD brain, such as [[The ADHD brain operates on an Interest-Based Nervous System]].
 
 ## The Impact of Reframing
 

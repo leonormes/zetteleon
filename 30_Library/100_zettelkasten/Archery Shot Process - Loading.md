@@ -2,7 +2,7 @@
 title: Archery Shot Process - Loading
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-loading
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-07-23T15:00:14+01:00
+modified: 2026-07-24T17:55:00+01:00
 tags:
   - prodos/atomic
   - archery
@@ -48,11 +48,11 @@ Details:
   2. Perform a draw, focusing on setting the shoulder blade down and back, leading the draw by driving your elbow "up and around". The partner should feel the shoulder blade slide firmly inwards towards the spine.
 
 #### **Shot Trainer / Elbow Sling Drawing**
-* **Purpose:** Isolates elbow drive and back tension while removing hand and finger clenching.
+* **Purpose:** Isolates elbow drive and back tension while removing hand and finger clenching. It forces you to pull with your elbow and back muscles while completely eliminating any kinks in your wrist.
 * **How to do it**:
-  1. Attach a shot trainer (e.g. Astra Shot Trainer / Form Master) to your draw elbow.
-  2. Draw the bow using the elbow sling **without placing your fingers on the string**.
-  3. Practice full-draw holds and releases driven entirely by the draw elbow and scapula.
+  1. Attach a shot trainer (e.g. Astra Shot Trainer / Form Master) or a resistance band to your draw elbow.
+  2. Draw the bow or band using the elbow sling **without placing your fingers on the string**.
+  3. Practice full-draw holds and releases driven entirely by the draw elbow and scapula, ensuring the wrist remains entirely relaxed and straight.
 
 #### **Thumb & Pinky Wiggle Drill**
 * **Purpose:** Actively detects hand or wrist over-tensioning during the draw cycle.
@@ -81,4 +81,4 @@ Details:
   2. Keeping your hips square and arms straight, reach across your body with your draw hand toward your bow hand.
   3. Observe how your torso and stomach must twist to achieve this reach. Replicate this exact upper-body rotation when raising and drawing your bow.
 
-- **Reference**: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Rogue Archery TV (including proprioception cues), Online Archery Academy (continuous elbow movement, camera drills, recurve release tips, and alignment mechanics), ArcheryWinchester (consistent aiming path), World Archery release technique guidelines, and Clay Hayes (refining sight picture).
+- **Reference**: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Rogue Archery TV (including proprioception cues), Online Archery Academy (continuous elbow movement, camera drills, recurve release tips, alignment mechanics, shot trainer draw-ups), ArcheryWinchester (consistent aiming path), World Archery release technique guidelines, and Clay Hayes (refining sight picture).

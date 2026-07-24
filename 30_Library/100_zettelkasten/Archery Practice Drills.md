@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-22T00:00:00+00:00
-modified: 2026-07-23T14:49:53+01:00
+modified: 2026-07-24T17:55:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-practice-drills
 tags:
   - archery
@@ -17,6 +17,23 @@ type: procedure
 Summary:
 
 A collection of mental frameworks, physical drills, and practice methodologies designed to improve archery consistency, combat score-chasing, and build subconscious muscle memory.
+
+### Do You Actually Need a Plan?
+
+A strict training plan isn't for everyone. If your goal is to aggressively improve, hit new score milestones, or compete, a structured plan is essential. However, if you shoot purely for relaxation and fun, a rigid training plan might strip the enjoyment out of the sport. It's okay to just work on minor technique tweaks at your own pace!
+
+### The Benchmark Phase
+
+Before you can build a training plan, you must establish exactly where you are starting from so you can measure your future progress:
+- **Video Benchmarks:** Record your technique from multiple angles. Using a clock face as a reference, prioritize the 3, 6, and 9 o'clock positions.
+- **Physical Benchmarks:** Test your current fitness level, such as timing how long you can hold a specific bow training drill (e.g., sets of 30 seconds on, 30 seconds off).
+- **Score Benchmarks:** Know your current averages so you have a factual baseline.
+
+### Splitting Strength vs. Skill
+
+When breaking down your technique, divide your training into two distinct areas:
+- **Strength (The Gym):** Foundational physical conditioning is required to execute proper form. This includes core circuits, shoulder pre-hab exercises, and wrist-strengthening circuits.
+- **Skill (The Drills):** Use manageable tools (like stretch bands, shot trainers, and very lightweight bows) to build muscle memory without the fatigue of a heavy bow.
 
 ### The Foundation: Grouping Over Scoring
 
@@ -47,9 +64,10 @@ Instead of chasing feelings, use this three-step framework for skill acquisition
 
 ### Core Practice Strategies & Mindset Hacks
 
-#### 1. Blank Bale Muscle Programming (Blind Baling)
+#### 1. Blank Bale Muscle Programming (Blind Baling) & The "No-Shooting" Strategy
 
-- The Goal: Isolate form correction entirely from the anxiety of aiming and cure target panic.
+- The Goal: Isolate form correction entirely from the anxiety of aiming, cure target panic, and rebuild technique.
+- **The "No-Shooting" Strategy**: If attempting a massive technique rebuild, the most efficient training plan might involve **zero actual shooting** for a period of time. Shooting arrows at a target often causes panic, aiming focus, and an instant reversion to bad habits. Dedicate sessions entirely to blank-bale drills, stretch bands, core workouts, and bow-training circuits to force permanent muscle memory before reintroducing the distraction of a target.
 - How to do it: Stand 2 to 5 meters away from a large, blank target face (or simply start very close). Remove the fear of missing. Dedicate 100% of your mental focus to a specific physical sensation (e.g., getting your elbow in line, checking your grip) to overwrite flawed default habits without stressing about accuracy.
 - **Remove Visual Feedback:** Completely remove your sight and peep. This eliminates the visual feedback that typically causes an archer to flinch, punch the trigger, or nervously move their bow arm (target panic).
 - **The Surprise Release:** Use blind baling to prioritize the physical sensation of a clean shot execution. By removing the target, you can practice letting the bow fire as a true surprise. If you know exactly when the bow will fire, your brain will instinctively brace for it, ruining the shot.
@@ -128,4 +146,4 @@ _(Note: This is a diagnostic drill detailed in the [[Archery Shot Process - Foll
 
 ---
 
-Reference: Insights compiled from Kramer Ammons ("9 Archery Drills To Hack The Mind"), MFJJ (ElkShape) blind baling and homework routines, Rogue Archery TV ("feelings" and mastery framework), CatholicHack's Traditional Archery (3D hyper-focus trick), Online Archery Academy (bow fitness), Clay Hayes (process over result), Jake Kaminski (aiming experiments), and generalized target panic/practice philosophy guidelines.
+Reference: Insights compiled from Kramer Ammons ("9 Archery Drills To Hack The Mind"), MFJJ (ElkShape) blind baling and homework routines, Rogue Archery TV ("feelings" and mastery framework), CatholicHack's Traditional Archery (3D hyper-focus trick), Online Archery Academy (bow fitness, training plans, benchmarks), Clay Hayes (process over result), Jake Kaminski (aiming experiments), and generalized target panic/practice philosophy guidelines.

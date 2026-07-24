@@ -24,4 +24,4 @@ The process focus also supports [[Hunter vs Farmer Brain Metaphor|hunter brain]]
 
 Confidence grounded in process trusts your ability to sense, decide, and adjust rather than the guarantee of a particular outcome. This perspective transforms errors into information and reinforces a cycle of iteration and learning. When self-worth is decoupled from being right and attached instead to learning capability, you build process-based confidence that compounds with each iteration. See [[Confidence as Trust in Process Not Certainty in Outcomes]].
 
-Links: [[SoT - Reframe Your Mindset From Pretender to Explorer]], [[The Interest-Based Nervous System in ADHD]], [[Hyperfocus is a State of Intense Interest-Driven Focus in ADHD]], [[Confidence as Trust in Process Not Certainty in Outcomes]]
+Links: [[SoT - Reframe Your Mindset From Pretender to Explorer]], [[The ADHD brain operates on an Interest-Based Nervous System]], [[Hyperfocus is a State of Intense Interest-Driven Focus in ADHD]], [[Confidence as Trust in Process Not Certainty in Outcomes]]

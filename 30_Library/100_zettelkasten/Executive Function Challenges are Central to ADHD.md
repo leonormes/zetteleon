@@ -45,7 +45,7 @@ These challenges are rooted in the brain's physical architecture and chemistry:
 
 - [[SoT - Prosthetic Executive Function]] (The "Prosthetic" solution)
 - [[SoT - ADHD Neurology & Core Concepts]] (The core diagnosis)
-- [[The Interest-Based Nervous System in ADHD|SoT - ADHD and Motivation]] (The fuel problem)
+- [[The ADHD brain operates on an Interest-Based Nervous System|SoT - ADHD and Motivation]] (The fuel problem)
 - [[SoT - Working Memory & Schema Theory|Working Memory Limitations in ADHD]] (The memory bottleneck)
 - [[Reframing ADHD - From Deficit to Difference|ADHD is a Neurodevelopmental Disorder Not a Character Flaw]] (Reframing)
 - [[MOC - ADHD (The Master Map)|MOC - ADHD Management]] (Strategies for thriving)

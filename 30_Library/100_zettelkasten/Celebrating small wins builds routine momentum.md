@@ -17,5 +17,5 @@ This practice involves actively looking for and acknowledging signs of progress,
 
 ## Related
 
-- [[The Interest-Based Nervous System in ADHD]]
+- [[The ADHD brain operates on an Interest-Based Nervous System]]
 - [[Claim - Intrinsic motivation lowers ADHD activation cost compared to external pressure]]

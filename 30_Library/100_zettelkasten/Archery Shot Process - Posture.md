@@ -2,7 +2,7 @@
 title: Archery Shot Process - Posture
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-posture
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-07-23T15:00:14+01:00
+modified: 2026-07-24T17:55:00+01:00
 tags:
   - prodos/atomic
   - archery
@@ -47,6 +47,12 @@ Details:
 
 ### Training Drills
 
+#### **Mirror Posture Drill**
+* **Purpose:** Ensures the back is flat and the lower back does not arch when raising or drawing.
+* **How to do it**:
+  1. Use a stretch band in front of a mirror (preferably without a shirt on to clearly see your back musculature).
+  2. Practice drawing the band while watching your reflection to ensure you do not arch your lower back.
+
 #### **Upper Chest Balance Test**
 * **Purpose:** Verifies that body weight is properly centred and core muscles are braced.
 * **How to do it**:
@@ -61,4 +67,4 @@ Details:
   2. Have a partner gently hold your head or cap in place without applying force.
   3. Execute your draw. If your head shifts or rotates, you will instantly feel resistance against your partner's hands.
 
-- **Reference**: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Sjef van den Berg guidelines, Rogue Archery TV coaching sessions, Jake Kaminski (Recurve Form Series Episode 4), MFJJ (ElkShape) postural settling/breathing cues, and Online Archery Academy (alignment mechanics).
+- **Reference**: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Sjef van den Berg guidelines, Rogue Archery TV coaching sessions, Jake Kaminski (Recurve Form Series Episode 4), MFJJ (ElkShape) postural settling/breathing cues, and Online Archery Academy (alignment mechanics, mirror posture drills).

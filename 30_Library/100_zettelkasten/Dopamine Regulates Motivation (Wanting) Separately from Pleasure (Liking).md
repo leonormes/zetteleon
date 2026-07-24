@@ -20,7 +20,7 @@ Dual Roles: Dopamine serves dual roles in both motivation and learning. Phasic d
 
 ## Knowledge Graph
 
-Supports [[The Interest-Based Nervous System in ADHD]] — why completion yields relief, not a wanting/reward signal.
+Supports [[The ADHD brain operates on an Interest-Based Nervous System]] — why completion yields relief, not a wanting/reward signal.
 
 %%claim.supports{The Interest-Based Nervous System in ADHD}%%
 

@@ -1,23 +1,26 @@
 ---
 aliases: []
-concepts: ['id: "system-resources']
+concepts:
+  - 'id: "system-resources'
 created: 2024-02-06T00:00:00+00:00
-dependencies: ''
-exports: ['concept: "system-resources']
-id: '20240206143000'
-imports: ['from: "linux-core']
-last_reviewed: ''
+dependencies: ""
+exports:
+  - 'concept: "system-resources'
+id: "20240206143000"
+imports:
+  - 'from: "linux-core'
+last_reviewed: ""
 modified: 2026-07-20T16:34:03+00:00
 permalink: llmeon/30-library/200-projects/linux-namespaces
 project_category: infrastructure
 project_name: k8s
 project_status: archived
-status: active
-strength: '4'
+status: seed
+strength: "4"
 tags: []
 title: linux-namespaces
 type: concept
-updated: null
+updated:
 validation_notes: Core Linux kernel documentation verified
 validation_state: validated
 ---

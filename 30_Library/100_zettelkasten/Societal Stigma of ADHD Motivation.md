@@ -29,4 +29,4 @@ Impact:
 ## Related
 
 - [[MOC - Procrastination Triggers]]
-- [[The Interest-Based Nervous System in ADHD]]
+- [[The ADHD brain operates on an Interest-Based Nervous System]]

@@ -13,7 +13,7 @@ updated: null
 
 ## Dopamine Management in ADHD Productivity
 
-Because the ADHD brain operates on an [[The Interest-Based Nervous System in ADHD|Interest-Based Nervous System]], actively managing dopamine is a core productivity principle. This involves structuring work and rewards to provide the consistent stimulation the brain needs to stay engaged.
+Because the ADHD brain operates on an [[The ADHD brain operates on an Interest-Based Nervous System|Interest-Based Nervous System]], actively managing dopamine is a core productivity principle. This involves structuring work and rewards to provide the consistent stimulation the brain needs to stay engaged.
 
 ### Core Strategies
 

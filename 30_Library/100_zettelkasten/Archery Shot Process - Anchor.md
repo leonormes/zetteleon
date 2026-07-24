@@ -2,7 +2,7 @@
 title: Archery Shot Process - Anchor
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-anchor
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-07-23T14:49:53+01:00
+modified: 2026-07-24T17:55:00+01:00
 tags:
   - prodos/atomic
   - archery
@@ -41,6 +41,15 @@ Details:
 - **Equipment & Jaw Contact (Tab Platforms)**: Decide your setup (with tab platform, without platform, or with thumb resting on the shelf) based on your individual jawline angle and facial structure. The objective is to obtain distinct, repeatable tactile feedback against the jaw on every shot without scraping or dragging across the skin.
   - **Kisser and Nose Buttons**: While they can offer tactile confirmation for beginners, relying heavily on them can cause you to spend unnecessary time at full draw fidgeting rather than executing the shot. Master the fundamental 3-point contact first.
 
+### Training Drills
+
+#### **Full Draw & Anchor Holds**
+* **Purpose:** Builds physical strength and establishes exact, correct alignment in the anchor position before battling the weight of a heavy bow.
+* **How to do it**:
+  1. Use a stretch band or an ultra-light training bow.
+  2. Draw to your anchor point and find your perfect alignment.
+  3. Perform static holds in this exact position to build muscle memory and specific strength.
+
 ### Aiming & Vision
 - **Set the Peep to the Anchor (Not the Anchor to the Peep)**: Never adapt your body to the equipment. Close your eyes, draw back, and settle comfortably into your natural anchor. Open your eyes; if the peep sight is not centered naturally over the front sight ring, adjust the physical position of the peep sight along the bowstring rather than changing your head posture or anchor position.
 - **Wait Until Anchor**: Do not start consciously aiming until your body is fully in position and you have firmly reached your anchor point.
@@ -52,4 +61,4 @@ Details:
 - **Master Your String Alignment**: At full draw, the bowstring appears as a large blur in front of your face. You must consistently align this blur to a specific spot (e.g., the edge of the riser or alongside the sight pin). String alignment fixes lateral misses: moving the string alignment to the right pushes arrows left, and moving it left pushes arrows right.
 - **Beware of Lighting Illusions**: The angle of sunlight or overhead lighting can play tricks on your eyes, making the string or sight pin appear to shift. Adjusting for this optical illusion will cause sideways misses.
 
-- **Reference**: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Rogue Archery TV, Mike Peart coaching cues, ArcheryWinchester (Aiming and Vision cues), Barebow Basics: Shot Process Basics, Jake Kaminski's 3 Easy Tips and aiming tutorials (Watch it to keep it, accepting the float), Online Archery Academy (release tips), and Inside Out Precision (anchor consistency, peep alignment).
+- **Reference**: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Rogue Archery TV, Mike Peart coaching cues, ArcheryWinchester (Aiming and Vision cues), Barebow Basics: Shot Process Basics, Jake Kaminski's 3 Easy Tips and aiming tutorials (Watch it to keep it, accepting the float), Online Archery Academy (release tips, anchor holds), and Inside Out Precision (anchor consistency, peep alignment).

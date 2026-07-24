@@ -29,7 +29,7 @@ Task initiation is not a matter of willpower; it is a "neurologically expensive"
 
 - Dopamine Dysregulation: [[Dopamine reward pathway dysfunction causes ADHD task initiation difficulty|Low dopamine in the reward centers]]%%map.synthesizes{Dopamine reward pathway dysfunction causes ADHD task initiation difficulty}%% prevents the "anticipatory dopamine" required to start a task.
 - Receptor Deficiency: [[Reduced Dopamine D2 D3 Receptors Impair Motivation in ADHD|Reduced D2/D3 receptors]] impair the brain's ability to perceive the value of starting.
-- The "Interest-Based" Nervous System: The [[The Interest-Based Nervous System in ADHD|ADHD nervous system]]%%map.synthesizes{The Interest-Based Nervous System in ADHD}%% requires high novelty, urgency, or personal meaning to trigger enough dopamine for activation.
+- The "Interest-Based" Nervous System: The [[The ADHD brain operates on an Interest-Based Nervous System|ADHD nervous system]]%%map.synthesizes{The Interest-Based Nervous System in ADHD}%% requires high novelty, urgency, or personal meaning to trigger enough dopamine for activation.
 
 #### B. Executive Control & Energy
 

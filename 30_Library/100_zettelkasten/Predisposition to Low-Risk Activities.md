@@ -20,5 +20,5 @@ This part of the statement is not supported by the sources and is, in fact, cont
 ## Related
 
 - [[Finding Your Right Difficult A Strategy for ADHD Engagement]]—_Emphasizes identifying challenges that are stimulating enough to engage creativity, directly contradicting the idea of preferring low-risk activities._
-- [[The Interest-Based Nervous System in ADHD]]—_Explains why ADHD brains require novelty and interest, driving them away from easy, low-risk tasks._
+- [[The ADHD brain operates on an Interest-Based Nervous System]]—_Explains why ADHD brains require novelty and interest, driving them away from easy, low-risk tasks._
 - [[ADHD Causes Task Initiation Deficits Due to Dopamine Hyposensitivity]]—_Describes how boring or repetitive tasks fail to trigger sufficient motivation due to dopamine hyposensitivity._

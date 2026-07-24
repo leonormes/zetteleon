@@ -17,7 +17,7 @@ Links: [[The ADHD nervous system is primarily interest-driven]]
 
 Reference: User-provided text on ADHD and motivation.
 
-In contrast to the [[The Interest-Based Nervous System in ADHD]], neurotypical individuals often operate on an "importance-based nervous system." This system allows them to initiate and complete tasks because they are deemed important, regardless of whether they are inherently interesting.
+In contrast to the [[The ADHD brain operates on an Interest-Based Nervous System]], neurotypical individuals often operate on an "importance-based nervous system." This system allows them to initiate and complete tasks because they are deemed important, regardless of whether they are inherently interesting.
 
 Key drivers for this motivational system include:
 
@@ -30,7 +30,7 @@ A key subjective experience for neurotypicals is receiving a "little shot of dop
 
 ## Knowledge Graph
 
-Supports [[The Interest-Based Nervous System in ADHD]] — the importance-based contrast the model is defined against.
+Supports [[The ADHD brain operates on an Interest-Based Nervous System]] — the importance-based contrast the model is defined against.
 
 %%claim.supports{The Interest-Based Nervous System in ADHD}%%
 

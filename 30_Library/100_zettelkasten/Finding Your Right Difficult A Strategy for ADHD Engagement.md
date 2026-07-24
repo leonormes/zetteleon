@@ -21,6 +21,6 @@ Links:
 
 - [[Leveraging ADHD Strengths and Superpowers]]
 - [[The DMN as a Demon - Negative Rumination in ADHD]]
-- [[The Interest-Based Nervous System in ADHD]]
+- [[The ADHD brain operates on an Interest-Based Nervous System]]
 - Hyperfixation is a State of Intense Interest-Driven Focus in ADHD
 - [[ADHD and Motivation MOC]]
