@@ -25,3 +25,10 @@ Behavioral Manifestations:
 - [[SoT - The Cognitive Physiology of Task Execution]]: _Explains the dopamine circuitry and the 'Wall of Awful' that creates the initiation gap._
 - [[MOC - Why Task Initiation is Difficult in ADHD]]: _A specific Map of Content for the neurological bottlenecks of time blindness and activation cost._
 - [[Claim - Intrinsic motivation lowers ADHD activation cost compared to external pressure]]: _Explores the energetic requirements for transitioning from state-to-state in neurodivergent brains._
+
+## Knowledge Graph
+
+Supports [[The Interest-Based Nervous System in ADHD]] — the striatal hyposensitivity that leaves the brain in a low-power state.
+
+%%claim.supports{The Interest-Based Nervous System in ADHD}%%
+

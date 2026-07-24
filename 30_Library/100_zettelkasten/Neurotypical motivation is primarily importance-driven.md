@@ -7,7 +7,7 @@ permalink: llmeon/30-library/100-zettelkasten/neurotypical-motivation-is-primari
 status: 'null'
 tags: [importance, neurotypical, TheHuman/Health/ADHD, TheHuman/Motivation]
 title: Neurotypical motivation is primarily importance-driven
-type: permanent
+type: claim
 updated: null
 ---
 
@@ -27,3 +27,10 @@ Key drivers for this motivational system include:
 - Long-Term Goals: The ability to find motivation in consistent, incremental effort toward a future objective.
 
 A key subjective experience for neurotypicals is receiving a "little shot of dopamine" upon task completion, which provides a feeling of pleasure and reinforces the behavior. This is a key point of divergence from the ADHD experience, as explored in [[The 'Dopamine Shot' vs 'Relief from Anxiety' in Task Completion]].
+
+## Knowledge Graph
+
+Supports [[The Interest-Based Nervous System in ADHD]] — the importance-based contrast the model is defined against.
+
+%%claim.supports{The Interest-Based Nervous System in ADHD}%%
+

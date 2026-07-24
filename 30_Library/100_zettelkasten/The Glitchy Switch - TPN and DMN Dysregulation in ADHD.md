@@ -7,7 +7,7 @@ permalink: llmeon/30-library/100-zettelkasten/the-glitchy-switch-tpn-and-dmn-dys
 status: 'null'
 tags: [brain-networks, distraction, DMN, dysregulation, rumination, TheHuman/Health/ADHD, TheHuman/Neuroscience, TPN]
 title: The Glitchy Switch - TPN and DMN Dysregulation in ADHD
-type: permanent
+type: claim
 updated: null
 ---
 
@@ -27,3 +27,14 @@ Links:
 - [[ADHD Emotional Reasoning]]
 - [[Reframing Negative Thought Patterns in ADHD]]
 - [[MOC - Emotional Dysregulation]]
+
+## Knowledge Graph
+
+[[Task-Positive Network (TPN) and Default Mode Network (DMN) Defined]] — presupposes the TPN/DMN definitions before describing their dysregulation
+
+%%claim.depends_on{Task-Positive Network (TPN) and Default Mode Network (DMN) Defined}%%
+
+[[Executive Function Challenges are Central to ADHD]] — TPN/DMN dysregulation is a named neurobiological underpinning of EF challenges
+
+%%claim.supports{Executive Function Challenges are Central to ADHD}%%
+

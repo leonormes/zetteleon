@@ -3,9 +3,14 @@ created: 2026-07-21T09:05:00+00:00
 description: Guides LLMs in extracting knowledge from raw archery HEAD notes and consolidating it into the 10-step shot process notes.
 modified: 2026-07-23T13:49:30+00:00
 permalink: llmeon/10-system/prompts/archery-shot-process---knowledge-consolidation
-tags: [agent/consolidation, domain/archery, type/system]
+tags:
+  - agent/consolidation
+  - domain/archery
+  - type/system
 title: Archery Shot Process - Knowledge Consolidation
-type: prompt
+type:
+  - prompt
+  - procedure
 version: 1
 ---
 

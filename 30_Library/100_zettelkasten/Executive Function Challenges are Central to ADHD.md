@@ -6,7 +6,7 @@ permalink: llmeon/30-library/100-zettelkasten/executive-function-challenges-are-
 status: seedling
 tags: [ADHD, cognition, executive-function, neurology, self-regulation]
 title: Executive Function Challenges are Central to ADHD
-type: zettel
+type: claim
 ---
 
 ## Minimum Viable Understanding (MVU)
@@ -49,3 +49,14 @@ These challenges are rooted in the brain's physical architecture and chemistry:
 - [[SoT - Working Memory & Schema Theory|Working Memory Limitations in ADHD]] (The memory bottleneck)
 - [[Reframing ADHD - From Deficit to Difference|ADHD is a Neurodevelopmental Disorder Not a Character Flaw]] (Reframing)
 - [[MOC - ADHD (The Master Map)|MOC - ADHD Management]] (Strategies for thriving)
+
+## Consequences
+
+[[Executive Dysfunction - The Root of Analysis Paralysis]] — analysis paralysis is EF activation-domain failure playing out in technical work
+
+%%claim.supports{Executive Dysfunction - The Root of Analysis Paralysis}%%
+
+[[Metacognitive Deficits in ADHD Create Practical Impairments]] — EF's own "Metacognitive Blindness" practical implication, made explicit as its own claim
+
+%%claim.supports{Metacognitive Deficits in ADHD Create Practical Impairments}%%
+

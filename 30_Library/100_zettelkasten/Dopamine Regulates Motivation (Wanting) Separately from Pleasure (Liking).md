@@ -17,3 +17,10 @@ Summary: Neuroscience reveals that dopamine's primary role in action is to regul
 Details: The "wanting" system, mediated by mesolimbic dopamine pathways, drives approach behaviors and goal pursuit. The "liking" system, mediated by opioid systems, is responsible for the feeling of enjoyment. This dissociation explains behaviors like addiction (strong wanting without liking) and anhedonia (liking without wanting). Action depends primarily on the "wanting" system.
 
 Dual Roles: Dopamine serves dual roles in both motivation and learning. Phasic dopamine signaling acts as a teaching signal that reinforces rewarded behaviors through synaptic plasticity. Simultaneously, it has immediate neuromodulatory effects, making latent behavioral goals more accessible and promoting instrumental, performance-dependent motivation.
+
+## Knowledge Graph
+
+Supports [[The Interest-Based Nervous System in ADHD]] — why completion yields relief, not a wanting/reward signal.
+
+%%claim.supports{The Interest-Based Nervous System in ADHD}%%
+

@@ -1,15 +1,19 @@
 ---
 title: Archery Shot Process - Anchor
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-anchor
-created: "2026-07-21T09:02:00+00:00"
-modified: "2026-07-23T14:49:53+01:00"
-tags: [prodos/atomic, archery, technique]
+created: 2026-07-21T09:02:00+00:00
+modified: 2026-07-23T14:49:53+01:00
+tags:
+  - prodos/atomic
+  - archery
+  - technique
 aliases: []
 prodos:
   kind: atomic
   lifecycle: seedling
   atomic:
     form: concept
+type: procedure
 ---
 
 ## Archery Shot Process - Anchor
@@ -41,8 +45,11 @@ Details:
 - **Set the Peep to the Anchor (Not the Anchor to the Peep)**: Never adapt your body to the equipment. Close your eyes, draw back, and settle comfortably into your natural anchor. Open your eyes; if the peep sight is not centered naturally over the front sight ring, adjust the physical position of the peep sight along the bowstring rather than changing your head posture or anchor position.
 - **Wait Until Anchor**: Do not start consciously aiming until your body is fully in position and you have firmly reached your anchor point.
 - **Shoot With Both Eyes Open**: Experienced target shooters shoot with both eyes open. This provides more visual information, helps maintain proper posture and a vertical bow, improves vision in dim lighting, prevents eye fatigue, and gives a more accurate picture of the pin's location.
-- **Focus on the Target, Not the Pin**: Your eyes must focus correctly on the target so the bullseye is perfectly clear, while the sight pin appears slightly blurry. Focusing on the pin will blur the target and cause you to see double targets when you open your second eye.
+- **Focus on the Target, Not the Pin ("Watch It to Keep It")**: Your eyes must focus 100% on the target so the bullseye is perfectly clear, while the sight pin appears slightly blurry. Focusing on the pin will blur the target and cause you to see double targets when you open your second eye.
+- **Accept the Float (Do Not Over-Aim)**: Allow your sight pin to naturally float in front of the target in your peripheral vision without trying to force it to stay completely still. Your brain and nervous system will naturally center the shot subconsciously.
+  - **The Flaw of Trying to Hold Still**: Actively forcing your body to hold the pin perfectly static creates muscle tension, degrades the sight picture (making it shake more erratically), and triggers shot anticipation (target panic), where you feel forced to execute only when the pin hits dead center.
+  - **Shift Focus to Execution**: Because accuracy relies on repeatable biomechanics rather than a static sight picture, shift your mental energy away from aiming and back into your form—specifically your dynamic tension, directional push/pull, and continuous expansion.
 - **Master Your String Alignment**: At full draw, the bowstring appears as a large blur in front of your face. You must consistently align this blur to a specific spot (e.g., the edge of the riser or alongside the sight pin). String alignment fixes lateral misses: moving the string alignment to the right pushes arrows left, and moving it left pushes arrows right.
 - **Beware of Lighting Illusions**: The angle of sunlight or overhead lighting can play tricks on your eyes, making the string or sight pin appear to shift. Adjusting for this optical illusion will cause sideways misses.
 
-- **Reference**: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Rogue Archery TV, Mike Peart coaching cues, ArcheryWinchester (Aiming and Vision cues), Barebow Basics: Shot Process Basics, Jake Kaminski's 3 Easy Tips, Online Archery Academy (release tips), and Inside Out Precision (anchor consistency, peep alignment).
+- **Reference**: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Rogue Archery TV, Mike Peart coaching cues, ArcheryWinchester (Aiming and Vision cues), Barebow Basics: Shot Process Basics, Jake Kaminski's 3 Easy Tips and aiming tutorials (Watch it to keep it, accepting the float), Online Archery Academy (release tips), and Inside Out Precision (anchor consistency, peep alignment).

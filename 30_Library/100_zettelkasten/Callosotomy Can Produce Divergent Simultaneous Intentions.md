@@ -1,12 +1,20 @@
 ---
-aliases: [Draftsman vs Racing Driver, Dueling Intentions]
+aliases:
+  - Draftsman vs Racing Driver
+  - Dueling Intentions
 conformant: true
 created: 2026-07-16T15:50:54+00:00
 modified: 2026-07-21T09:15:03+00:00
 permalink: llmeon/30-library/100-zettelkasten/callosotomy-can-produce-divergent-simultaneous-intentions
-source_title: "Waking Up (Sam Harris) — reviewed LLM summary and critique"
-status: seed
-tags: [agency, consciousness, neuroscience, philosophy-of-mind, split-brain, TheHuman/Identity]
+source_title: Waking Up (Sam Harris) — reviewed LLM summary and critique
+status: draft
+tags:
+  - agency
+  - consciousness
+  - neuroscience
+  - philosophy-of-mind
+  - split-brain
+  - TheHuman/Identity
 title: Callosotomy Can Produce Divergent Simultaneous Intentions
 type: claim
 ---

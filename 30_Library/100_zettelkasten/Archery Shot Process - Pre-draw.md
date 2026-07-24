@@ -3,8 +3,12 @@ aliases: []
 created: 2026-07-21T00:00:00+00:00
 modified: 2026-07-23T10:47:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-pre-draw
-tags: [archery, prodos/atomic, technique]
+tags:
+  - archery
+  - prodos/atomic
+  - technique
 title: Archery Shot Process - Pre-draw
+type: procedure
 ---
 
 ## Archery Shot Process - Pre-draw

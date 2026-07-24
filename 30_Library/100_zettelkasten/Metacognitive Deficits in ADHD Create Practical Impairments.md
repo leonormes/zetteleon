@@ -7,7 +7,7 @@ permalink: llmeon/30-library/100-zettelkasten/metacognitive-deficits-in-adhd-cre
 status: 'null'
 tags: [TheHuman/Health/ADHD]
 title: Metacognitive Deficits in ADHD Create Practical Impairments
-type: permanent
+type: claim
 updated: null
 ---
 

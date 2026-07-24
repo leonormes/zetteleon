@@ -7,7 +7,7 @@ permalink: llmeon/30-library/100-zettelkasten/executive-dysfunction-the-root-of-
 status: ''
 tags: []
 title: Executive Dysfunction - The Root of Analysis Paralysis
-type: ''
+type: claim
 updated: null
 ---
 

@@ -1,15 +1,19 @@
 ---
 title: Archery Shot Process - Setup
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-setup
-created: "2026-07-21T09:02:00+00:00"
-modified: "2026-07-23T14:51:38+01:00"
-tags: [prodos/atomic, archery, technique]
+created: 2026-07-21T09:02:00+00:00
+modified: 2026-07-23T14:51:38+01:00
+tags:
+  - prodos/atomic
+  - archery
+  - technique
 aliases: []
 prodos:
   kind: atomic
   lifecycle: seedling
   atomic:
     form: concept
+type: procedure
 ---
 
 ## Archery Shot Process - Setup

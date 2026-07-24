@@ -1,0 +1,20 @@
+filters:
+  and:
+    - type == "question"
+views:
+  - type: fileclass-table
+    name: Question
+    order:
+      - file.name
+      - tension
+      - candidate_answers
+      - related_claims
+      - title
+      - type
+      - project_name
+      - project_category
+      - status
+      - tags
+      - conformant
+      - non_conformance_reason
+      - prodos

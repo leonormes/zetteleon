@@ -13,3 +13,14 @@ type: claim
 ---
 
 Prefrontal cortex catecholamine insufficiency impairs the brain's executive control center in individuals with ADHD. The prefrontal cortex requires optimal levels of norepinephrine and dopamine to function properly. In ADHD, inadequate catecholamine signaling creates an "out of tune" prefrontal cortex, making it difficult for neural networks to maintain goal representations or allocate attention to non-salient but important tasks.
+
+## Knowledge Graph
+
+[[The Prefrontal Cortex Provides Executive Control Over Action]] — presupposes the PFC's baseline executive role before describing its impairment
+
+%%claim.depends_on{The Prefrontal Cortex Provides Executive Control Over Action}%%
+
+[[Executive Function Challenges are Central to ADHD]] — catecholamine insufficiency is the chemical mechanism behind EF impairment
+
+%%claim.supports{Executive Function Challenges are Central to ADHD}%%
+

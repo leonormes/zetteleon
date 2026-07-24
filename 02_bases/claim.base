@@ -1,0 +1,24 @@
+filters:
+  and:
+    - type == "claim"
+views:
+  - type: fileclass-table
+    name: claim
+    groupBy:
+      property: conformant
+      direction: DESC
+    order:
+      - file.name
+      - proposition
+      - epistemic_status
+      - evidence_links
+      - contradicts
+      - title
+      - type
+      - project_name
+      - project_category
+      - status
+      - tags
+      - conformant
+      - non_conformance_reason
+      - prodos

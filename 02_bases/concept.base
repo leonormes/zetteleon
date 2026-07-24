@@ -1,0 +1,20 @@
+filters:
+  and:
+    - type == "concept"
+views:
+  - type: fileclass-table
+    name: concept
+    order:
+      - file.name
+      - definition
+      - distinguishes_from
+      - used_in_claims
+      - title
+      - type
+      - project_name
+      - project_category
+      - status
+      - tags
+      - conformant
+      - non_conformance_reason
+      - prodos

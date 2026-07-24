@@ -7,7 +7,7 @@ permalink: llmeon/30-library/100-zettelkasten/shiny-object-syndrome-in-adhd
 status: 'null'
 tags: [novelty, TheHuman/Health/ADHD, topic/productivity/procrastination]
 title: Shiny Object Syndrome in ADHD
-type: permanent
+type: claim
 updated: null
 ---
 

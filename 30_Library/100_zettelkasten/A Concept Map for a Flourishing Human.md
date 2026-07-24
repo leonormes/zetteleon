@@ -3,11 +3,13 @@ aliases: []
 conformant: false
 created: 2025-07-07T09:40:14+00:00
 modified: 2026-07-21T09:15:02+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/100-zettelkasten/a-concept-map-for-a-flourishing-human
-tags: [prodos/sot, topic/learning]
+tags:
+  - prodos/sot
+  - topic/learning
 title: A Concept Map for a Flourishing Human
-type: claim
+type: map
 ---
 
 ## A Concept Map for a Flourishing Human: Bessie's Skills

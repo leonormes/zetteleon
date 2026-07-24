@@ -7,7 +7,7 @@ permalink: llmeon/30-library/100-zettelkasten/adhd-systems-fail-when-they-become
 status: seedling
 tags: []
 title: ADHD Systems Fail When They Become Monotonous
-type: strategy
+type: claim
 updated: null
 ---
 

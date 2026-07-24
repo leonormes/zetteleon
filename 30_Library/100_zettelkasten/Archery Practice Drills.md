@@ -3,8 +3,13 @@ aliases: []
 created: 2026-07-22T00:00:00+00:00
 modified: 2026-07-23T14:49:53+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-practice-drills
-tags: [archery, practice, prodos/atomic, training]
+tags:
+  - archery
+  - practice
+  - prodos/atomic
+  - training
 title: Archery Practice Drills
+type: procedure
 ---
 
 ## Archery Practice Drills and Strategies
@@ -115,6 +120,12 @@ _(Note: This is a diagnostic drill detailed in the [[Archery Shot Process - Foll
 - The Goal: Prevent target fixation from distracting you from body mechanics.
 - How to do it: Shift your mindset to focus on execution and yourself rather than the external target. Because you cannot control the arrow once it leaves the bow, your complete mental focus should remain on executing your internal progression (setting the aim, drawing, anchoring, building back tension, and expanding). If you execute each step perfectly, accuracy becomes the natural outcome.
 
+#### 14. The Arrow Aiming Experiment (Floating Demonstration)
+
+- The Goal: Physically demonstrate how over-aiming degrades accuracy and causes target panic, proving that you must "accept the float."
+- How to do it: Without a bow, hold a single arrow upside down by the point at arm's length. First, look directly at a small target spot and simply **watch the spot while letting the arrow point float naturally** in your peripheral vision (Passive Floating Test). Then, look at the same spot and **try to hold the arrow point as rock-solid still as physically possible** (Forced Aiming Test).
+- The Result: You will immediately notice that consciously trying to force the point to hold still causes it to wobble faster and more erratically, raising physical tension. Letting it float naturally produces a much steadier, relaxed aim.
+
 ---
 
-Reference: Insights compiled from Kramer Ammons ("9 Archery Drills To Hack The Mind"), MFJJ (ElkShape) blind baling and homework routines, Rogue Archery TV ("feelings" and mastery framework), CatholicHack's Traditional Archery (3D hyper-focus trick), Online Archery Academy (bow fitness), Clay Hayes (process over result), and generalized target panic/practice philosophy guidelines.
+Reference: Insights compiled from Kramer Ammons ("9 Archery Drills To Hack The Mind"), MFJJ (ElkShape) blind baling and homework routines, Rogue Archery TV ("feelings" and mastery framework), CatholicHack's Traditional Archery (3D hyper-focus trick), Online Archery Academy (bow fitness), Clay Hayes (process over result), Jake Kaminski (aiming experiments), and generalized target panic/practice philosophy guidelines.

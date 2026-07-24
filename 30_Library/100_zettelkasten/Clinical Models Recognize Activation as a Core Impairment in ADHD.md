@@ -11,3 +11,10 @@ type: claim
 ---
 
 Clinical models and assessment tools for ADHD recognize "Activation" or "Initiate" as a core cluster of executive function impairment. The Behavior Rating Inventory of Executive Function (BRIEF), a widely-used assessment tool, includes "Initiate" as a core subscale. Similarly, Dr. Thomas Brown's influential model places "Activation" as the first of six executive function clusters impaired in ADHD, describing it as the difficulty with organizing, prioritizing, and getting started on tasks.
+
+## Knowledge Graph
+
+Supports [[The Interest-Based Nervous System in ADHD]] — clinical grounding for activation as a core impairment.
+
+%%claim.supports{The Interest-Based Nervous System in ADHD}%%
+

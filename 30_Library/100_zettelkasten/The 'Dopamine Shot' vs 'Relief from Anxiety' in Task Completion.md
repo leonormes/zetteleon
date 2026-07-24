@@ -7,7 +7,7 @@ permalink: llmeon/30-library/100-zettelkasten/the-dopamine-shot-vs-relief-from-a
 status: 'null'
 tags: [dopamine, neurotypical, reward-system, TheHuman/Health/ADHD, TheHuman/Motivation]
 title: "The 'Dopamine Shot' vs 'Relief from Anxiety' in Task Completion"
-type: permanent
+type: claim
 updated: null
 ---
 

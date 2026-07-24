@@ -1,15 +1,19 @@
 ---
 title: Archery Shot Process - Posture
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-posture
-created: "2026-07-21T09:02:00+00:00"
-modified: "2026-07-23T15:00:14+01:00"
-tags: [prodos/atomic, archery, technique]
+created: 2026-07-21T09:02:00+00:00
+modified: 2026-07-23T15:00:14+01:00
+tags:
+  - prodos/atomic
+  - archery
+  - technique
 aliases: []
 prodos:
   kind: atomic
   lifecycle: seedling
   atomic:
     form: concept
+type: procedure
 ---
 
 ## Archery Shot Process - Posture

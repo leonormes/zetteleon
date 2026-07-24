@@ -7,8 +7,15 @@ permalink: llmeon/30-library/100-zettelkasten/extrinsic-rewards-are-less-effecti
 status: ''
 tags: [TheHuman/Health/ADHD]
 title: Extrinsic rewards are less effective for activating the ADHD brain
-type: permanent
+type: claim
 updated: null
 ---
 
 This note has been consolidated into [[Claim - Intrinsic motivation lowers ADHD activation cost compared to external pressure]].
+
+## Knowledge Graph
+
+Supports [[The Interest-Based Nervous System in ADHD]] — why secondary rewards fail to ignite the ADHD brain.
+
+%%claim.supports{The Interest-Based Nervous System in ADHD}%%
+
