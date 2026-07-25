@@ -1,13 +1,19 @@
 ---
-aliases: [Dopamine Wanting vs Liking]
+aliases:
+  - Dopamine Wanting vs Liking
 conformant: false
 created: 2025-11-10T17:05:00+00:00
 modified: 2026-07-21T09:15:05+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/100-zettelkasten/dopamine-regulates-motivation-wanting-separately-from-pleasure-liking
-tags: [dopamine, reward, TheHuman/Motivation, TheHuman/Neuroscience]
+tags:
+  - dopamine
+  - reward
+  - TheHuman/Motivation
+  - TheHuman/Neuroscience
 title: Dopamine Regulates Motivation (Wanting) Separately from Pleasure (Liking)
 type: claim
+axiom: "true"
 ---
 
 ## Dopamine Regulates Motivation (Wanting) Separately from Pleasure (Liking)

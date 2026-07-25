@@ -1,16 +1,21 @@
 ---
 created: 2026-07-13T08:30:48+00:00
-created_utc: '2026-07-13T08:17:00Z'
+created_utc: 2026-07-13T08:17:00Z
 kind: claim
 modified: 2026-07-21T09:15:05+00:00
 permalink: llmeon/00-inbox/dopamine-neurons-encode-reward-prediction-error-not-pleasure
-source_title: 'Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture: An Investigative Report'
-source_url: ''
+source_title: "Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture: An Investigative Report"
+source_url: ""
 status: seed
-tags: [dopamine, motivation, neuroscience, reward-prediction-error]
+tags:
+  - dopamine
+  - motivation
+  - neuroscience
+  - reward-prediction-error
 title: Dopamine Neurons Encode Reward Prediction Error, Not Pleasure
 type: claim
-upstream: '[[Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture]]'
+upstream: "[[Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture]]"
+axiom: true
 ---
 
 ## Dopamine Neurons Encode Reward Prediction Error, Not Pleasure

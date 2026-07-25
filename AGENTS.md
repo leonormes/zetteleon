@@ -315,4 +315,55 @@ $OBSIDIAN_VAULT_PATH/
 
 ---
 
+### 9. Typed Edge / Justification Graph Workflow
+
+Governs how agents interact with the vault's typed-edge system and argument-graph compiler. Canonical syntax: [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]]. Canonical capabilities: [[SoT - Knowledge Compiler (Argument Graph Spec)]]. Applies to any task touching a claim, concept, or SoT note that participates in the justification graph—not to general vault work.
+
+#### 9.1 Tool preference for vault I/O
+
+In order:
+
+1. Obsidian tools exposed via 1MCP (`http://127.0.0.1:3050/mcp?app=claude-code`), server `obsidian-mcp-tools`—called **directly by name**, e.g. `obsidian-mcp-tools_1mcp_<tool>`. There is no discovery step: 1MCP replaced the old `retrieve_tools`/`call_tool` proxy pattern in June 2026 and exposes every upstream tool under its own name, same as any native tool. Never reintroduce a `retrieve_tools`/`call_tool` two-step. If a tool seems unavailable, run `curl -s http://127.0.0.1:3050/health | jq .servers` before assuming it doesn't exist—don't fall back silently.
+2. The `obsidian` CLI when the MCP path isn't reachable: `read`, `create`, `append`, `property:set`, `search:context`, `backlinks`, `unresolved`, `eval`. Verified working whenever the Obsidian desktop app is running.
+3. Raw filesystem Read/Write only as a last resort, and never blind—`read` the file via one of the above first. A blind fs write bypasses Obsidian's `metadataCache`, so Dataview/backlinks/graph view can silently desync from disk until a reload.
+
+`edge_lint.py`'s own full-vault batch scan is exempt from this—it reads files directly by design (`os.walk`), because a single-file-at-a-time CLI/MCP round trip does not scale to a whole-vault audit. This rule governs interactive single-note reads/writes, not the compiler's ingest step.
+
+#### 9.2 Pre-task graph-state check
+
+Mirrors §7's Pieces-context rule. Before adding or editing a typed edge, an `axiom:` marker, or any note that participates in the argument graph, run:
+
+```
+uv run --with pyyaml python3 10_System/scripts/edge_lint.py --audit
+```
+
+and, if working a specific claim, `--why "<title>"` and/or `--impact "<title>"` on it. State what the graph currently looks like before changing it—don't add a duplicate edge or an `axiom:` flag onto a claim that's already grounded.
+
+#### 9.3 Write scope in `30_Library` (the sanctioned exception to §0 / §6)
+
+Agents MAY write directly into `30_Library/100_zettelkasten/`, `30_Library/SoT/`, `30_Library/MoC/`, and `30_Library/200_Projects/` notes, but ONLY to:
+
+- add, edit, or remove a `%%[relationship:: [[target]]]%%` typed-edge line,
+- set the `axiom: true` frontmatter boolean,
+- maintain [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]] and [[SoT - Knowledge Compiler (Argument Graph Spec)]] themselves.
+
+Agents MUST NOT, under this exception: edit a claim's `proposition` or body prose, delete or rename a claim note, or author a brand-new claim note directly—new claims still go through the stub path (§2.4). This exception exists because typed-edge/axiom bookkeeping is mechanical—recording a relationship the human already asserted in prose, not a judgement on the claim itself—and because without it, "help with the justification graph" cannot be fulfilled at all. Anything outside this narrow scope reverts to the general rule: propose, don't write.
+
+#### 9.4 Mandatory validation gate
+
+Before considering any typed-edge or `axiom:` edit complete:
+
+```
+uv run --with pyyaml python3 10_System/scripts/edge_lint.py --path "<file or vault root>"
+```
+
+must report `0 error(s)`. Do not report success with a residual ERROR. Fix warnings too where trivial (e.g. a note target written bare instead of as a wikilink)—they don't block completion, but leaving one is not "done."
+
+#### 9.5 How to actually do the work
+
+- One note's links/edges need fixing or expanding → [[Note Refresh & Link Auditor]].
+- The whole graph needs auditing for gaps/foundations/conflicts, and gaps closed → [[Justification Graph Audit & Gap Closure]].
+
+---
+
 _This file is managed by the Hermes PKM workflow. Do not delete._

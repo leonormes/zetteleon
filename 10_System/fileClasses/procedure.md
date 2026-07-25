@@ -15,7 +15,7 @@ fields:
   id: verification
   type: Input
   path: ''
-permalink: llmeon/10-system/file-classes/procedure
+permalink: llmeon/10-system/file-classes/procedure-1
 ---
 
 # Procedure
