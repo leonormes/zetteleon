@@ -21,9 +21,9 @@ Human-territory map. All agents must understand this structure to know what is o
 | Type | Location | Naming convention | Agent rule |
 |------|----------|-------------------|-----------|
 | HEAD | `20_Thinking/21_Workbench/` | `YYYY-MM-DD-HHmm-HEAD` | Read-only. Human-authored working memory; never write here. |
-| SoT | `30_Library/SoT/` | `SoT - Title.md` | Read-only. Canonical knowledge updated by human via Chronos Synthesis. |
+| SoT | `30_Library/SoT/` | `SoT - Title.md` | Read-only, except typed-edge lines / `axiom:` (see §9.3). Canonical knowledge updated by human via Chronos Synthesis. |
 | Protocol | `30_Library/SoT/` | `Protocol - Title.md` | Read-only. Binary imperative procedures. |
-| Atomic / Claim | `30_Library/100_zettelkasten/` | Full-sentence title; `Claim - Title.md`; `Q — Title.md` | Read-only. To propose a claim, write a stub to `raw/proposed-claims/` (§2.4)—never write directly into the zettelkasten. |
+| Atomic / Claim | `30_Library/100_zettelkasten/` | Full-sentence title; `Claim - Title.md`; `Q — Title.md` | Read-only, except typed-edge lines / `axiom:` (see §9.3). To propose a claim, write a stub to `raw/proposed-claims/` (§2.4)—never write directly into the zettelkasten. |
 | MoC | `30_Library/MoC/` | `MOC - Title.md` | Read-only. Hub notes owned by human. |
 
 #### Human-territory Folder Structure
@@ -258,8 +258,9 @@ Pieces backlink format (mandatory in all wiki claims sourced from Pieces):
 
 | Rule | Reason |
 |------|--------|
-| Never write to `00_Inbox/`, or `20_Thinking/`. (30_Library is temporarily unlocked for auditing) | Those are human ProdOS territory |
-| Never write or edit Claim cards in `30_Library/`—stubs only, to `raw/proposed-claims/` | The claim layer belongs to the human; agent crossing it erodes epistemic ownership |
+| Never write to `00_Inbox/`, or `20_Thinking/`. | Those are human ProdOS territory |
+| Never write or edit Claim/SoT content in `30_Library/`—stubs only, to `raw/proposed-claims/`—except the §9.3 typed-edge/`axiom:` exception | The claim layer belongs to the human; agent crossing it erodes epistemic ownership. §9.3 is the one sanctioned, narrowly-scoped exception—no new claims, no proposition edits, no deletions under it |
+| Every typed-edge or `axiom:` edit must leave `edge_lint.py` at 0 errors before being considered done | A report-only compiler is only trustworthy if the edges it reports on are kept valid (see §9.4) |
 | Never edit a `raw/` file after creation | Immutability is the audit trail |
 | Every wiki claim needs a `raw/` citation | Prevents hallucination compounding |
 | Contradictions must be surfaced, not resolved | Resolution requires human judgement |
