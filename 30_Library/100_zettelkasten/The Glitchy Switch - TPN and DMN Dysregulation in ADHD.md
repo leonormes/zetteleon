@@ -4,7 +4,7 @@ created: 2025-10-24T15:16:00+00:00
 last_reviewed: "null"
 modified: 2026-07-21T09:15:11+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-glitchy-switch-tpn-and-dmn-dysregulation-in-adhd
-status: "null"
+status: stable
 tags:
   - brain-networks
   - distraction
