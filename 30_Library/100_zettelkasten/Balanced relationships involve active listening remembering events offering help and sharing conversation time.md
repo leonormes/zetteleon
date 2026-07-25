@@ -8,7 +8,6 @@ permalink: llmeon/30-library/100-zettelkasten/balanced-relationships-involve-act
 source: '[[MOC - Understanding Self-Focus in Neurodivergent Individuals]]'
 tags: []
 title: Balanced relationships involve active listening remembering events offering help and sharing conversation time
-  help and sharing conversation time help and sharing conversation time
 type: claim
 ---
 

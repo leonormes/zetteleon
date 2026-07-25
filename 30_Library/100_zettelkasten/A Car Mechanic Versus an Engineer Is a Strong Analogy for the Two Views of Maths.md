@@ -7,7 +7,6 @@ permalink: llmeon/30-library/100-zettelkasten/a-car-mechanic-versus-an-engineer-
 status: ''
 tags: [analogy, idea/maths-education, status/evergreen]
 title: A Car Mechanic Versus an Engineer Is a Strong Analogy for the Two Views of Maths
-  Maths
 type: ''
 updated: null
 ---

@@ -6,7 +6,6 @@ non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/standard-assessments-are-functionally-obsolete-where-ai-can-generate-acceptable-output
 tags: [ai-impact, assessment, education, pedagogy]
 title: Standard Assessments Are Functionally Obsolete Where AI Can Generate Acceptable Output
-  Output Output
 type: claim
 ---
 

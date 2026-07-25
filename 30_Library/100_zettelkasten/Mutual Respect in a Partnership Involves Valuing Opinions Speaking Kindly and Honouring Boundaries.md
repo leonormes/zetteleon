@@ -10,7 +10,7 @@ tags:
   - communication
   - relationship
   - respect
-title: Mutual Respect in a Partnership Involves Valuing Opinions Speaking Kindly and Honouring Boundaries Honouring Boundaries Honouring Boundaries
+title: Mutual Respect in a Partnership Involves Valuing Opinions Speaking Kindly and Honouring Boundaries
 type: claim
 ---
 

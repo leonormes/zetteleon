@@ -6,7 +6,6 @@ non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/hybrid-attention-model-assigns-remote-days-to-deep-work-and-office-days-to-shallow-work
 tags: [attention-management, deep-work, hybrid-work, team-productivity]
 title: Hybrid Attention Model Assigns Remote Days to Deep Work and Office Days to Shallow Work
-  Shallow Work Shallow Work
 type: claim
 ---
 

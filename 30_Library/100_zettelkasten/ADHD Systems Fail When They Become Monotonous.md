@@ -1,14 +1,14 @@
 ---
 aliases: []
 created: 2025-11-01T11:37:53+00:00
-last_reviewed: '2025-11-01T00:00:00.000Z'
+last_reviewed: 2025-11-01T00:00:00.000Z
 modified: 2026-07-21T09:15:02+00:00
 permalink: llmeon/30-library/100-zettelkasten/adhd-systems-fail-when-they-become-monotonous
-status: seedling
+status: seed
 tags: []
 title: ADHD Systems Fail When They Become Monotonous
 type: claim
-updated: null
+updated:
 ---
 
 Summary: The very systems and processes people with ADHD implement to manage their condition often fall victim to the hyperfixation-burnout cycle. Systems fail not because of personal failure, but because routine maintenance becomes monotonous and stops providing dopamine rewards.

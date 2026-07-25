@@ -7,7 +7,6 @@ non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/action-oriented-individuals-act-decisively-under-pressure-while-state-oriented-individuals-ruminate
 tags: [personality, TheHuman/Psychology, volition]
 title: Action-Oriented Individuals Act Decisively Under Pressure While State-Oriented Individuals Ruminate
-  Individuals Ruminate Individuals Ruminate
 type: claim
 ---
 

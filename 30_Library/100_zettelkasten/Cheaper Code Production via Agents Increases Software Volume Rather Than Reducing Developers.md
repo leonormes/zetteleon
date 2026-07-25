@@ -6,7 +6,6 @@ non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/cheaper-code-production-via-agents-increases-software-volume-rather-than-reducing-developers
 tags: [economics, jevons-paradox, labor, software-industry]
 title: Cheaper Code Production via Agents Increases Software Volume Rather Than Reducing Developers
-  Developers Developers
 type: claim
 ---
 

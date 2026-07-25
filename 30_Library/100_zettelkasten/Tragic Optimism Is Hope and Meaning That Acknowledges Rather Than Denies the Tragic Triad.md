@@ -6,7 +6,6 @@ non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/tragic-optimism-is-hope-and-meaning-that-acknowledges-rather-than-denies-the-tragic-triad
 tags: [optimism, perspective, resilience, suffering]
 title: Tragic Optimism Is Hope and Meaning That Acknowledges Rather Than Denies the Tragic Triad
-  Tragic Triad Tragic Triad
 type: claim
 ---
 
@@ -41,3 +40,9 @@ Applies to situations involving unavoidable suffering—loss, mortality, guilt f
 
 - [[Hope is Expecting the Best in the Future and Working for It]] - Contrasts the definition of hope with tragic optimism.
 - [[Frankl and Camus Both Confront Absurdity But Diverge on Whether Meaning Is Discoverable]] - Explores the philosophical roots of Frankl's tragic optimism.
+
+## Knowledge Graph
+
+[[Humans Retain Freedom to Choose Their Response to Any Situation Regardless of Circumstances]] — presupposition. Tragic optimism is a _stance_ taken toward the unchangeable. If attitudinal freedom did not survive extreme circumstance, "choosing meaning within the tragedy" would be an empty instruction. Attitudinal freedom is the premise; tragic optimism is one particular exercise of it.
+
+%%[depends_on:: [[Humans Retain Freedom to Choose Their Response to Any Situation Regardless of Circumstances]]]%%

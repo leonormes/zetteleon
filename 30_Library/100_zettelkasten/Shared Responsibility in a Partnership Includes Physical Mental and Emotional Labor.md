@@ -10,7 +10,7 @@ tags:
   - mental-load
   - relationship
   - responsibility
-title: Shared Responsibility in a Partnership Includes Physical Mental and Emotional Labor Labor Labor
+title: Shared Responsibility in a Partnership Includes Physical Mental and Emotional Labor
 type: claim
 ---
 

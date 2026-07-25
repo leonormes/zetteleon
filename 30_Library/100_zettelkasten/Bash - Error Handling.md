@@ -10,9 +10,7 @@ tags:
   - reference
   - shell
 title: Bash - Error Handling
-type:
-  - concept
-  - procedure
+type: procedure
 ---
 
 ## Bash Error Handling

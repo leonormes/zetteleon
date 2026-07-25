@@ -8,7 +8,6 @@ permalink: llmeon/30-library/100-zettelkasten/the-neuroenergetic-deficit-theory-
 source: '[[MOC - The Phases of Task Execution and the Impact of ADHD]]'
 tags: [TheHuman/Health/ADHD, TheHuman/Neuroscience, theory]
 title: The Neuroenergetic Deficit Theory Posits Chronic Energy Insufficiency in ADHD Brains
-  Brains Brains
 type: claim
 ---
 

@@ -6,7 +6,6 @@ non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/a-next-action-must-be-the-absolute-next-physical-visible-activity-required-to-move-a-situation-forward
 tags: [action-definition, clarity, execution, gtd]
 title: A Next Action Must Be the Absolute Next Physical Visible Activity Required to Move a Situation Forward
-  to Move a Situation Forward to Move a Situation Forward
 type: claim
 ---
 

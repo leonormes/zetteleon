@@ -7,7 +7,6 @@ non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/learning-is-the-acquisition-of-information-while-understanding-is-the-construction-of-meaning
 tags: [learning, pedagogy, TheHuman/Cognition, understanding]
 title: Learning is the Acquisition of Information While Understanding is the Construction of Meaning
-  of Meaning of Meaning
 type: claim
 ---
 

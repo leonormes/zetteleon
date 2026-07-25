@@ -1,10 +1,18 @@
 ---
-aliases: [Emotional Hypersensitivity in ADHD, Rejection Sensitivity, RSD]
+aliases:
+  - Emotional Hypersensitivity in ADHD
+  - Rejection Sensitivity
+  - RSD
 created: 2026-02-11T17:05:00+00:00
 modified: 2026-07-21T09:15:09+00:00
 permalink: llmeon/30-library/100-zettelkasten/rejection-sensitive-dysphoria-rsd
-status: seedling
-tags: [ADHD, emotion, neurology, RSD, social-cognition]
+status: seed
+tags:
+  - ADHD
+  - emotion
+  - neurology
+  - RSD
+  - social-cognition
 title: Rejection Sensitive Dysphoria (RSD)
 type: claim
 ---
@@ -51,9 +59,9 @@ RSD acts as a powerful amplifier for [[ADHD Emotional Reasoning]], where the _fe
 
 [[Collaborative Programming Mitigates RSD and Focus Issues in ADHD]] — RSD is the psychological mechanism this mitigation strategy explicitly targets
 
-%%claim.supports{Collaborative Programming Mitigates RSD and Focus Issues in ADHD}%%
+%%[supports:: [[Collaborative Programming Mitigates RSD and Focus Issues in ADHD]]]%%
 
 [[ADHD Emotional Reasoning]] — RSD's own text: "RSD Amplification ... turning a minor worry ... into a perceived factual certainty"
 
-%%claim.supports{ADHD Emotional Reasoning}%%
+%%[supports:: [[ADHD Emotional Reasoning]]]%%
 

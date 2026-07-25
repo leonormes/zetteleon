@@ -15,3 +15,9 @@ type: claim
 Summary: In a world of social constructs, the "self" is not a pre-existing entity to be found, but an act of construction built upon a commitment to consciously chosen values.
 
 Details: This approach grants the freedom to choose which constructs to live by. The process involves acknowledging inherited imprints, actively choosing a set of core values (e.g., compassion, integrity, curiosity), and defining oneself through the commitment to act in accordance with them. Confidence is then reborn from integrity—acting in alignment with one's chosen values—rather than from being factually "right."
+
+## Knowledge Graph
+
+Supported by:
+
+- [[Humans Retain Freedom to Choose Their Response to Any Situation Regardless of Circumstances]] — the enabling condition. Values-commitment is a macro-level construction; attitudinal freedom is the micro-level instance that makes any such choosing possible. If circumstance could remove the capacity to choose a stance, a self built on chosen values would be a fiction. The `supports` edge is emitted from that claim.

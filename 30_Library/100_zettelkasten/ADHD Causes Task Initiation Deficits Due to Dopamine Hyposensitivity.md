@@ -30,5 +30,5 @@ Behavioral Manifestations:
 
 Supports [[The ADHD brain operates on an Interest-Based Nervous System]] — the striatal hyposensitivity that leaves the brain in a low-power state.
 
-%%claim.supports{The Interest-Based Nervous System in ADHD}%%
+%%[supports:: [[The Interest-Based Nervous System in ADHD]]]%%
 

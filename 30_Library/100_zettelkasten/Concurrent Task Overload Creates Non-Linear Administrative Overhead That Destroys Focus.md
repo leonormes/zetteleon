@@ -6,7 +6,6 @@ non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/concurrent-task-overload-creates-non-linear-administrative-overhead-that-destroys-focus
 tags: [administrative-overhead, focus, productivity, workload-management]
 title: Concurrent Task Overload Creates Non-Linear Administrative Overhead That Destroys Focus
-  Focus Focus
 type: claim
 ---
 

@@ -6,7 +6,6 @@ non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/the-clarify-stage-is-the-executive-decision-making-bridge-between-stuff-and-action
 tags: [decision-making, gtd, productivity, workflow]
 title: The Clarify Stage Is the Executive Decision-Making Bridge Between Stuff and Action
-  Action Action
 type: claim
 ---
 

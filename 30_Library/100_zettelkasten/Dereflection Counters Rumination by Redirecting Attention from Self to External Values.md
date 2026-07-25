@@ -6,7 +6,6 @@ non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/dereflection-counters-rumination-by-redirecting-attention-from-self-to-external-values
 tags: [anxiety, attention, technique, therapy]
 title: Dereflection Counters Rumination by Redirecting Attention from Self to External Values
-  Values Values
 type: claim
 ---
 

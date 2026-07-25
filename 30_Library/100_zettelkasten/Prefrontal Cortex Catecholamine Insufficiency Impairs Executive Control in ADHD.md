@@ -8,7 +8,6 @@ permalink: llmeon/30-library/100-zettelkasten/prefrontal-cortex-catecholamine-in
 source: '[[MOC - The Neuroscience of Task Initiation in ADHD]]'
 tags: [dopamine, norepinephrine, prefrontal-cortex, TheHuman/Health/ADHD, TheHuman/Neuroscience]
 title: Prefrontal Cortex Catecholamine Insufficiency Impairs Executive Control in ADHD
-  ADHD ADHD
 type: claim
 ---
 
@@ -18,9 +17,9 @@ Prefrontal cortex catecholamine insufficiency impairs the brain's executive cont
 
 [[The Prefrontal Cortex Provides Executive Control Over Action]] — presupposes the PFC's baseline executive role before describing its impairment
 
-%%claim.depends_on{The Prefrontal Cortex Provides Executive Control Over Action}%%
+%%[depends_on:: [[The Prefrontal Cortex Provides Executive Control Over Action]]]%%
 
 [[Executive Function Challenges are Central to ADHD]] — catecholamine insufficiency is the chemical mechanism behind EF impairment
 
-%%claim.supports{Executive Function Challenges are Central to ADHD}%%
+%%[supports:: [[Executive Function Challenges are Central to ADHD]]]%%
 

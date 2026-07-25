@@ -17,5 +17,5 @@ This note has been consolidated into [[Claim - Intrinsic motivation lowers ADHD 
 
 Supports [[The ADHD brain operates on an Interest-Based Nervous System]] — why secondary rewards fail to ignite the ADHD brain.
 
-%%claim.supports{The Interest-Based Nervous System in ADHD}%%
+%%[supports:: [[The Interest-Based Nervous System in ADHD]]]%%
 

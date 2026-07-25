@@ -7,7 +7,6 @@ non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/the-theory-practice-gap-is-the-disconnect-between-academic-knowledge-and-practical-application
 tags: [education, learning, pedagogy]
 title: The Theory-Practice Gap is the Disconnect Between Academic Knowledge and Practical Application
-  Application Application
 type: claim
 ---
 

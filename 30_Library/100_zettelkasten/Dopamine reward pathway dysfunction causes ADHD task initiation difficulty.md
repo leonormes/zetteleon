@@ -24,5 +24,5 @@ Clinical Manifestation: Adults with ADHD describe this as "ADHD Paralysis" - the
 
 Supports [[The ADHD brain operates on an Interest-Based Nervous System]] — the reward-pathway dysfunction behind the ignition requirement.
 
-%%claim.supports{The Interest-Based Nervous System in ADHD}%%
+%%[supports:: [[The Interest-Based Nervous System in ADHD]]]%%
 

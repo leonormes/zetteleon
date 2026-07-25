@@ -32,9 +32,9 @@ Links:
 
 [[Task-Positive Network (TPN) and Default Mode Network (DMN) Defined]] — presupposes the TPN/DMN definitions before describing their dysregulation
 
-%%claim.depends_on{Task-Positive Network (TPN) and Default Mode Network (DMN) Defined}%%
+%%[depends_on:: [[Task-Positive Network (TPN) and Default Mode Network (DMN) Defined]]]%%
 
 [[Executive Function Challenges are Central to ADHD]] — TPN/DMN dysregulation is a named neurobiological underpinning of EF challenges
 
-%%claim.supports{Executive Function Challenges are Central to ADHD}%%
+%%[supports:: [[Executive Function Challenges are Central to ADHD]]]%%
 

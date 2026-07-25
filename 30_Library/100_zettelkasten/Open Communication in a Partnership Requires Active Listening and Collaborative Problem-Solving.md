@@ -9,7 +9,7 @@ tags:
   - communication
   - conflict-resolution
   - relationship
-title: Open Communication in a Partnership Requires Active Listening and Collaborative Problem-Solving Problem-Solving Problem-Solving
+title: Open Communication in a Partnership Requires Active Listening and Collaborative Problem-Solving
 type: claim
 ---
 

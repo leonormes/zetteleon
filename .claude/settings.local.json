@@ -42,7 +42,13 @@
       "Bash(awk -F': ' '{print $2}')",
       "Bash(curl -s http://localhost:39300/model_context_protocol/2025-03-26/mcp -H 'Content-Type: application/json' -H 'Accept: application/json' -H 'mcp-session-id: 1779117748463' -d '{\"jsonrpc\":\"2.0\",\"id\":2,\"method\":\"tools/list\",\"params\":{}}' --max-time 10)",
       "Bash(fort *)",
-      "mcp__claude_ai_Atlassian_Rovo__addCommentToJiraIssue"
+      "mcp__claude_ai_Atlassian_Rovo__addCommentToJiraIssue",
+      "Bash(obsidian eval *)",
+      "Bash(uv run *)",
+      "Bash(grep -v ':0$')",
+      "Bash(awk -F: '{s+=$2} END {print s\" edges in \"NR\" notes\"}')",
+      "Bash(echo \"clean lint exit=$? \\(expect 0\\)\")",
+      "Bash(echo \"no-pyyaml exit=$? \\(expect 1\\)\")"
     ]
   },
   "spinnerTipsEnabled": false

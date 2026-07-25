@@ -6,7 +6,6 @@ non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/every-clarified-item-must-pass-a-binary-actionability-test-to-determine-its-categorical-flow
 tags: [filtering, gtd, logic, triage]
 title: Every Clarified Item Must Pass a Binary Actionability Test to Determine Its Categorical Flow
-  Categorical Flow Categorical Flow
 type: claim
 ---
 

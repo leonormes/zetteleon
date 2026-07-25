@@ -7,7 +7,6 @@ permalink: llmeon/30-library/100-zettelkasten/projects-in-task-managers-should-b
 status: seedling
 tags: [project-management, task-management, topic/productivity, topic/systems]
 title: Projects in Task Managers Should Be Structured with Atomic Actions and Context Tags
-  Tags
 type: instructional
 updated: null
 ---

@@ -7,7 +7,6 @@ non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/the-flowtime-technique-is-a-flexible-alternative-to-pomodoro-based-on-natural-focus
 tags: [flow-state, focus, TheHuman/Creativity, topic/productivity]
 title: The Flowtime Technique is a Flexible Alternative to Pomodoro Based on Natural Focus
-  Focus Focus
 type: claim
 ---
 

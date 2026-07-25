@@ -1,12 +1,13 @@
 ---
-conformant: false
+aliases: [Attitudinal Freedom, Freedom of Will (Frankl), The Last of the Human Freedoms]
+conformant: true
 created: 2026-04-10T00:00:00+00:00
-modified: 2026-07-21T09:15:06+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+epistemic_status: high
+modified: 2026-07-24T00:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/humans-retain-freedom-to-choose-their-response-to-any-situation-regardless-of-circumstances
+proposition: No external circumstance, however extreme, can remove a person's capacity to choose the attitude they take toward it.
 tags: [agency, freedom, mindset, resilience]
 title: Humans Retain Freedom to Choose Their Response to Any Situation Regardless of Circumstances
-  of Circumstances of Circumstances
 type: claim
 ---
 
@@ -27,8 +28,24 @@ Does not imply freedom from consequences, suffering, or constraint. The claim is
 - Establishes individual agency even in extreme adversity; responsibility cannot be entirely externalized to circumstances.
 - Reframes suffering from a passive event inflicted on a person to an active choice of how to stand in relation to it.
 
-### Related
+## Knowledge Graph
 
-- [[SoT - Logotherapy and the Will to Meaning]]—direct concept match: Freedom of Will is Pillar A of the SoT—"the last of the human freedoms."
-- [[Responding vs. Reacting]]—direct concept match: both articulate the "space between stimulus and response" as the location of freedom and intentional agency; both cite the same underlying principle from different traditions (Frankl / Mushin).
-- [[The Self is Constructed Through a Commitment to Chosen Values]]—shared mechanism: both ground personal identity and agency in chosen response rather than inherited or imposed conditions; attitudinal freedom is the micro-level instance; values-commitment is the macro-level instance.
+### Rests on
+
+[[Responding vs. Reacting]] — presupposition. The claim only has content if there _is_ a space between stimulus and response in which an attitude can be selected. That gap is the premise; this claim is the assertion that the gap survives any circumstance. Mushin reaches the same structure from a different tradition.
+
+%%[depends_on:: [[Responding vs. Reacting]]]%%
+
+[[SoT - Logotherapy and the Will to Meaning]] — source and grounding. Freedom of Will is Pillar A of the SoT ("the last of the human freedoms"), which carries Frankl's camp testimony. The supporting edge is emitted from the SoT; this is the human-readable half of it.
+
+### Carries
+
+[[Meaning Is Discovered Through Creative Experiential and Attitudinal Values]] — attitudinal values are only a coherent pathway if attitude is choosable. This claim is the precondition for Frankl's third avenue to meaning.
+
+%%[supports:: [[Meaning Is Discovered Through Creative Experiential and Attitudinal Values]]]%%
+
+[[The Self is Constructed Through a Commitment to Chosen Values]] — shared mechanism: both ground identity and agency in chosen response rather than inherited or imposed conditions. Attitudinal freedom is the micro-level instance and the enabling condition; values-commitment is the macro-level construction built on it.
+
+%%[supports:: [[The Self is Constructed Through a Commitment to Chosen Values]]]%%
+
+Depended on by [[Tragic Optimism Is Hope and Meaning That Acknowledges Rather Than Denies the Tragic Triad]] — that edge is emitted from the Tragic Optimism note.

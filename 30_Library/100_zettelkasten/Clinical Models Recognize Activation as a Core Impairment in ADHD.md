@@ -16,5 +16,5 @@ Clinical models and assessment tools for ADHD recognize "Activation" or "Initiat
 
 Supports [[The ADHD brain operates on an Interest-Based Nervous System]] — clinical grounding for activation as a core impairment.
 
-%%claim.supports{The Interest-Based Nervous System in ADHD}%%
+%%[supports:: [[The Interest-Based Nervous System in ADHD]]]%%
 

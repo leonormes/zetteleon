@@ -10,7 +10,7 @@ tags:
   - conflict
   - finance
   - relationship
-title: Unilateral Spending on Major Purchases is a Sign of an Unhealthy Financial Dynamic Dynamic Dynamic
+title: Unilateral Spending on Major Purchases is a Sign of an Unhealthy Financial Dynamic
 type: claim
 ---
 

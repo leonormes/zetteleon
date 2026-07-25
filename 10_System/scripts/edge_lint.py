@@ -5,9 +5,19 @@ edge_lint.py — the link/edge half of the ProdOS knowledge compiler.
 Implements the compiler contract from
   30_Library/SoT/SoT - Typed Edge Vocabulary (Knowledge Graph Relations).md  (§6)
 
-It extracts every typed edge  %%<type>.<rel>{<target>[|attrs]}%%  from the vault,
+It extracts every typed edge  %%[<rel>:: [[<target>]][, attrs]]%%  from the vault,
 checks each against the controlled vocabulary and attribute rules, resolves every
 target, and prints a report.
+
+The edge interior is a Dataview inline field, so the same on-disk encoding serves
+two readers: Dataview answers single-hop questions interactively inside Obsidian
+("LIST WHERE contradicts"), and this compiler answers what DQL structurally
+cannot — vocabulary validation, gap/foundation audit, cycle detection, and
+multi-hop provenance.
+
+Note targets are wikilinks, so Obsidian's own rename refactoring keeps them
+correct. Bare (non-wikilink) targets are reserved for content-block ids, which
+are not notes and so cannot be linked.
 
 It is REPORT-ONLY. It never edits a note (mirrors the dry-run/UNSURE discipline in
 Protocol - Typed Answer Contract (TAC) for Vault Agents). Exit code is non-zero if
@@ -17,9 +27,13 @@ Usage:
     python3 edge_lint.py                # lint the whole vault (auto-detected root)
     python3 edge_lint.py --path .       # lint a specific folder
     python3 edge_lint.py --quiet        # only print files that have findings + summary
+    python3 edge_lint.py --audit        # + C1 gaps, C2 foundations, C3 conflicts
+    python3 edge_lint.py --why TITLE    # C4: what a claim rests on
+    python3 edge_lint.py --impact TITLE # C4: what rests on a claim
 
-Dependencies: PyYAML (only used to read note frontmatter). If it is missing the
-script still runs, falling back to filename-only note resolution and warning once.
+Dependencies: PyYAML — REQUIRED. Frontmatter carries `title` (edge resolution)
+and `type` (claim detection for C1), so without it the tool reports false
+danglers and a false-empty gap audit. It refuses to run rather than mislead.
 """
 from __future__ import annotations
 
@@ -54,11 +68,13 @@ EXCLUDE_DIRS = {
 # ---------------------------------------------------------------------------
 # Regexes
 # ---------------------------------------------------------------------------
-# %%sourceType.relationship{targetId}%%   or   {...|k=v,k=v}
-EDGE_RE = re.compile(
-    r"%%\s*([A-Za-z][\w-]*)\.([A-Za-z][\w-]*)\s*"
-    r"\{\s*([^}|]+?)\s*(?:\|\s*([^}]*?)\s*)?\}\s*%%"
-)
+# %%[relationship:: [[Target]]]%%   or   %%[relationship:: [[Target]], k=v, k=v]%%
+# The interior is a Dataview inline field, so Dataview indexes the same edge
+# the compiler reads (SoT - Typed Edge Vocabulary §1). Non-greedy up to `]%%`
+# terminates correctly on the `]]` of a wikilink.
+EDGE_RE = re.compile(r"%%\[\s*([A-Za-z][\w-]*)\s*::\s*(.*?)\s*\]%%")
+# A wikilink target: [[Note]], [[Note|Alias]], [[Note#Heading]], [[Note#^block]]
+WIKILINK_RE = re.compile(r"\[\[([^\]]+)\]\]")
 # <!--content-block-start type="concept" id="user-namespace"-->
 BLOCK_ID_RE = re.compile(r"<!--\s*content-block-start[^>]*\bid=\"([^\"]+)\"")
 # Inline code span, for masking documentation examples.
@@ -105,14 +121,19 @@ class Index:
     def _all_maps(self):
         return (self.block_ids, self.note_ids, self.titles, self.aliases)
 
-    def resolve(self, target: str):
-        """Return (matches, kind) following SoT §4 priority order."""
-        for mp, kind in (
-            (self.block_ids, "block"),
+    def resolve(self, target: str, is_link: bool = False):
+        """Return (matches, kind) following SoT §4 priority order.
+
+        A wikilink target ([[…]]) names a note, so note maps are consulted
+        first; a bare target names a content-block id, so blocks come first."""
+        note_maps = (
             (self.note_ids, "prodos.id"),
             (self.titles, "title"),
             (self.aliases, "alias"),
-        ):
+        )
+        block_map = ((self.block_ids, "block"),)
+        order = note_maps + block_map if is_link else block_map + note_maps
+        for mp, kind in order:
             if target in mp:
                 return mp[target], kind
         return [], None
@@ -127,12 +148,27 @@ class Index:
         return None
 
 
-def try_import_yaml():
+def require_yaml():
+    """PyYAML is mandatory, not optional.
+
+    Without it no frontmatter is read, so `title:` never registers (every
+    title-targeted edge false-flags as dangling) and `type:` is always empty
+    (so is_claim() never matches and the C1 gap audit silently reports zero
+    gaps). A report-only tool that prints confident wrong answers is worse
+    than one that refuses to run, so this is a hard failure."""
     try:
         import yaml  # noqa
         return yaml
-    except Exception:
-        return None
+    except ImportError:
+        sys.exit(
+            "edge_lint: PyYAML is required but not installed.\n"
+            "  Without it, frontmatter titles and types are invisible: edges "
+            "resolve\n  incorrectly and the argument audit reports false "
+            "results.\n\n"
+            "  Install it:      python3 -m pip install pyyaml\n"
+            "  Or run via uv:   uv run --with pyyaml python3 "
+            "10_System/scripts/edge_lint.py\n"
+        )
 
 
 def split_frontmatter(text: str):
@@ -193,6 +229,44 @@ def build_index(files, yaml_mod) -> Index:
     return idx
 
 
+@dataclass
+class Edge:
+    """One parsed %%[rel:: target, attrs]%% marker."""
+    rel: str
+    target: str          # normalised: wikilink stripped to its note name
+    is_link: bool        # True if written as [[…]] (a note), False if a bare id
+    attrs_raw: str
+    line: int
+
+
+def parse_edge(rel: str, payload: str, line: int) -> Edge:
+    """Split `[[Some, Note]], strength=4` into target + attribute remainder.
+
+    A wikilink is consumed whole before commas are treated as separators, so
+    note titles containing commas survive (several exist in this vault)."""
+    payload = payload.strip()
+    m = WIKILINK_RE.match(payload)
+    if m:
+        inner, rest = m.group(1), payload[m.end():]
+        # [[Note|Alias]] -> Note ; [[Note#Heading]] / [[Note#^id]] -> Note
+        target = inner.split("|", 1)[0]
+        if "#" in target:
+            head = target.split("#", 1)[0].strip()
+            target = head or target
+        is_link = True
+    else:
+        target, _, rest = payload.partition(",")
+        is_link = False
+    return Edge(rel, target.strip(), is_link, rest.lstrip(" ,").strip(), line)
+
+
+def iter_edges(masked: str):
+    """Yield every Edge in already-code-masked text, with 1-based line numbers."""
+    for m in EDGE_RE.finditer(masked):
+        yield m, parse_edge(m.group(1), m.group(2),
+                            masked[: m.start()].count("\n") + 1)
+
+
 def parse_attrs(raw: str):
     """'strength=4,confidence=high' -> ({'strength':'4',...}, [malformed parts])."""
     attrs, bad = {}, []
@@ -217,17 +291,16 @@ def lint_file(fp: str, idx: Index) -> tuple[list[Finding], int]:
 
     text = mask_code(text)
     edge_count = 0
-    for m in EDGE_RE.finditer(text):
+    for _m, e in iter_edges(text):
         edge_count += 1
-        line = text[: m.start()].count("\n") + 1
-        _src, rel, target, attr_raw = m.group(1), m.group(2), m.group(3).strip(), m.group(4)
+        line, rel, target, attr_raw = e.line, e.rel, e.target, e.attrs_raw
 
         # (§6.2) vocabulary
         if rel not in VOCABULARY:
             findings.append(Finding(
                 "ERROR", line,
                 f"unknown relationship '{rel}' (not in vocabulary) "
-                f"in %%{_src}.{rel}{{{target}}}%%"))
+                f"in %%[{rel}:: {target}]%%"))
 
         # (§6.4) attributes
         if attr_raw:
@@ -249,7 +322,7 @@ def lint_file(fp: str, idx: Index) -> tuple[list[Finding], int]:
                         f"unknown attribute '{k}' (only strength, confidence defined) on target '{target}'"))
 
         # (§6.3) target resolution
-        matches, kind = idx.resolve(target)
+        matches, kind = idx.resolve(target, e.is_link)
         # de-dup by file for the count
         distinct = list(dict.fromkeys(matches))
         if len(distinct) == 0:
@@ -257,6 +330,12 @@ def lint_file(fp: str, idx: Index) -> tuple[list[Finding], int]:
             extra = f" — did you mean '{hint}'? (case mismatch)" if hint else ""
             findings.append(Finding("ERROR", line,
                 f"dangling edge: target '{target}' resolves to nothing{extra}"))
+        elif not e.is_link and kind != "block":
+            # Resolved, but written bare. Only content-block ids may be bare;
+            # a note target must be a wikilink so renames stay safe (§4).
+            findings.append(Finding("WARN", line,
+                f"note target '{target}' is written bare — use [[{target}]] "
+                f"so Obsidian rewrites it on rename"))
         elif len(distinct) > 1:
             findings.append(Finding("WARN", line,
                 f"ambiguous edge: target '{target}' ({kind}) matches "
@@ -328,9 +407,9 @@ def parse_blocks(masked: str):
     return blocks
 
 
-def resolve_to_node(target: str, idx: Index):
+def resolve_to_node(target: str, idx: Index, is_link: bool = False):
     """Map an edge target to a unique node key, or None if unresolved/ambiguous."""
-    matches, kind = idx.resolve(target)
+    matches, kind = idx.resolve(target, is_link)
     distinct = list(dict.fromkeys(matches))
     if len(distinct) != 1:
         return None
@@ -360,9 +439,8 @@ def build_graph(files, idx: Index, yaml_mod):
         for b in blocks:
             nodes[("block", b["id"])] = Node(b["type"], b["axiom"], b["id"], fp)
 
-        for m in EDGE_RE.finditer(masked):
-            rel = m.group(2)
-            if rel not in GRAPH_RELS:
+        for m, e in iter_edges(masked):
+            if e.rel not in GRAPH_RELS:
                 continue
             pos = m.start()
             src = note_key
@@ -370,10 +448,10 @@ def build_graph(files, idx: Index, yaml_mod):
                 if b["start"] <= pos < b["end"]:
                     src = ("block", b["id"])
                     break
-            tgt = resolve_to_node(m.group(3).strip(), idx)
+            tgt = resolve_to_node(e.target, idx, e.is_link)
             if tgt is None:
                 continue  # dangling/ambiguous already flagged by the linter
-            edges.append((src, rel, tgt))
+            edges.append((src, e.rel, tgt))
     return nodes, edges
 
 
@@ -637,11 +715,7 @@ def main() -> int:
     args = ap.parse_args()
 
     root = os.path.abspath(args.path) if args.path else default_root()
-    yaml_mod = try_import_yaml()
-    if yaml_mod is None:
-        print("note: PyYAML not installed — resolving notes by filename only "
-              "(prodos.id / title / alias targets may false-flag). "
-              "`pip install pyyaml` for full resolution.\n", file=sys.stderr)
+    yaml_mod = require_yaml()
 
     files = collect_files(root)
     idx = build_index(files, yaml_mod)

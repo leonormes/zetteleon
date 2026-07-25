@@ -6,7 +6,6 @@ non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/meaning-driven-activity-activates-brain-reward-systems-independently-of-external-reinforcement
 tags: [adhd, dopamine, motivation, neuroscience]
 title: Meaning-Driven Activity Activates Brain Reward Systems Independently of External Reinforcement
-  Reinforcement Reinforcement
 type: claim
 ---
 

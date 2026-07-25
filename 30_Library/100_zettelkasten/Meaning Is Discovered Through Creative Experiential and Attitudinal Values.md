@@ -32,6 +32,12 @@ The three-pathway structure is a practical taxonomy, not an abstract hierarchy. 
 - [[SoT - Values and Eudaimonia]]—shared mechanism: Eudaimonia's distinction between hedonic (pleasure) and eudaimonic (duty/meaning) well-being maps onto the Creative and Attitudinal Values respectively; both offer a structured non-hedonic account of the good life.
 - [[The Four Noble Truths Explain Suffering from Attachment]]—shared mechanism: both traditions validate unavoidable suffering as something to be faced rather than merely escaped; attitudinal values (logotherapy) and acceptance of Dukkha (Buddhism) address the same existential problem from different frameworks.
 
+### Knowledge Graph
+
+Supported by:
+
+- [[Humans Retain Freedom to Choose Their Response to Any Situation Regardless of Circumstances]] — the third pathway (Attitudinal Values) presupposes that attitude is choosable under unavoidable suffering. That claim is the precondition for this taxonomy being complete rather than two-thirds usable. The `supports` edge is emitted from that claim.
+
 ### Tensions
 
 - [[Absurdism as Rebellion Against Meaninglessness]]—tension over the source of meaning: logotherapy holds that meaning is discovered (objective, detectable); absurdism holds that it is created through revolt (subjective, constructed). Both validate suffering but diverge on whether the value found within it is real or imposed.

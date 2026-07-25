@@ -8,7 +8,6 @@ permalink: llmeon/30-library/100-zettelkasten/adhd-task-initiation-is-not-univer
 source: '[[MOC - The Neuroscience of Task Initiation in ADHD]]'
 tags: [executive-function, task-initiation, TheHuman/Health/ADHD]
 title: ADHD Task Initiation is Not Universally the Hardest Symptom Due to Individual Variation
-  Variation Variation
 type: claim
 ---
 

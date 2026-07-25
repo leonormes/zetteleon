@@ -7,7 +7,6 @@ non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/the-illusion-of-fluency-is-a-cognitive-bias-where-ease-of-processing-is-mistaken-for-deep-learning
 tags: [learning, metacognition, TheHuman/Cognition, TheHuman/Cognition/bias]
 title: The Illusion of Fluency is a Cognitive Bias Where Ease of Processing is Mistaken for Deep Learning
-  for Deep Learning for Deep Learning
 type: claim
 ---
 

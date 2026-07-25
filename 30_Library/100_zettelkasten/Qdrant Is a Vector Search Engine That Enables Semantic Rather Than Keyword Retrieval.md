@@ -6,7 +6,6 @@ non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/qdrant-is-a-vector-search-engine-that-enables-semantic-rather-than-keyword-retrieval
 tags: [embeddings, qdrant, semantic-search, vector-database]
 title: Qdrant Is a Vector Search Engine That Enables Semantic Rather Than Keyword Retrieval
-  Retrieval Retrieval
 type: claim
 ---
 

@@ -108,3 +108,13 @@ Both confront the "Absurd" (the silence of the universe), but their responses di
 - Primary Text: _Man's Search for Meaning_ by Viktor Frankl.
 - Integrated Note: [[Victor Frankl]] (Archived)
 - Related SoT: [[SoT - Identity-Based Habit Formation]] (Identity as a vehicle for meaning).
+
+## 8. Knowledge Graph
+
+This SoT is a **bedrock leaf** of the argument graph (see [[SoT - Knowledge Compiler (Argument Graph Spec)]] §C2): it carries the primary text and the camp testimony, so it grounds atoms rather than being grounded by them.
+
+[[Humans Retain Freedom to Choose Their Response to Any Situation Regardless of Circumstances]] — §2A Freedom of Will. The Nazi-camp observation ("everything can be taken from a man but one thing") is the evidential ground for the atomic claim.
+
+%%[supports:: [[Humans Retain Freedom to Choose Their Response to Any Situation Regardless of Circumstances]]]%%
+
+Other atoms extracted from this SoT — [[Logotherapy Posits the Search for Meaning as the Primary Human Motivation]] (§2B), [[Meaning Is Discovered Through Creative Experiential and Attitudinal Values]] (§3), [[Tragic Optimism Is Hope and Meaning That Acknowledges Rather Than Denies the Tragic Triad]] (§4) — are not yet wired with justification edges. Seed them one at a time as the argument actually needs them.
