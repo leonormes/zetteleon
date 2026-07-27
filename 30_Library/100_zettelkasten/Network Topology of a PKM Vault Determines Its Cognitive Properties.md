@@ -2,12 +2,12 @@
 created: 2026-07-13T08:30:56+00:00
 created_utc: '2026-07-13T08:17:00Z'
 kind: definition
-modified: 2026-07-21T09:15:08+00:00
+modified: 2026-07-27T11:50:15+00:00
 permalink: llmeon/00-inbox/network-topology-of-a-pkm-vault-determines-its-cognitive-properties
 source_title: 'Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture: An Investigative Report'
 source_url: ''
 status: seed
-tags: [moc, network-topology, spacing-effect, zettelkasten]
+tags: [moc, network-topology, spacing-effect, topic/knowledge-architecture, zettelkasten]
 title: Network Topology of a PKM Vault Determines Its Cognitive Properties
 type: atom
 upstream: '[[Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture]]'
@@ -35,3 +35,6 @@ Dense bidirectional linking additionally exploits the spacing effect and retriev
 - [[SoT - Knowledge Architecture (Associative Ontology)]]—direct concept match: this note supplies the topology-spectrum framework and spacing-effect rationale underlying that broader source of truth.
 - [[MOC - From Information to Knowledge]]—supports: names MOCs as the specific mechanism enabling the distributed/decentralised topology this note describes.
 - [[Claim - Flat associative structure beats rigid hierarchy]]—shared mechanism: both argue flatter, associative structures outperform rigid hierarchy for knowledge retention and discovery.
+
+%%[supports:: [[SoT - Structure is Truth is a Unifying Axiom Across Formal Systems]], strength=5, confidence=high]%%
+%%[supports:: [[Claim - Flat associative structure beats rigid hierarchy]], strength=4, confidence=high]%%

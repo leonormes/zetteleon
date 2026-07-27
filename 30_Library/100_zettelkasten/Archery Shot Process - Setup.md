@@ -2,7 +2,7 @@
 title: Archery Shot Process - Setup
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-setup
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-07-23T14:51:38+01:00
+modified: 2026-07-27T09:20:00+01:00
 tags:
   - prodos/atomic
   - archery
@@ -62,6 +62,7 @@ Details:
   - **Thumb Direction (Active)**: The thumb should be actively directed straight toward the target rather than collapsing off to the side.
   - **Fingers (Passive)**: Keep fingers completely relaxed, curling them in without squeezing or touching the bow. Once you apply string tension, the riser will naturally press into your palm; at this point, fingers should act like **"jelly fingers"** to prevent unnecessary muscle tension. **Avoid the "Death Grip"**: Gripping the bow tightly introduces torque, which will twist the bow upon release and throw your arrows off target. Hold the bow as gently as you would a "sick sparrow."
   - **Sling Usage**: Because your fingers are completely relaxed ("jelly fingers"), utilizing a finger sling or wrist sling is **absolutely critical**. It ensures the bow won't fall to the ground and promotes a natural forward follow-through upon release.
+  - **Off-Center Initial Alignment**: During setup, the bow will naturally point slightly off-center (to the left for right-handed archers). Keep your bow hand still and properly seated; as you draw straight back during the loading phase, the bow handle will naturally pivot in your palm to align directly with the target.
 - **String Walking (Barebow Aiming Method)**:
   - **The Crawl**: To aim at different distances without a sight, barebow archers slide their finger tab down the string to a predetermined mark (called a "crawl").
   - **Adjusting the Crawl**: To change arrow impact, slide the tab in the direction you want the arrow to move. If hitting too low, move the tab higher up the string. If hitting too high, move the tab lower.
@@ -70,4 +71,4 @@ Details:
 ### Alternative Views / Corrections
 - **Barebow Hooking ("Three Fingers Under")**: While Olympic recurve typically uses a split-finger setup (one finger above the arrow, two below), barebow archers use a **"three fingers under"** hook. Place the string at the joint of the index finger, just inside the first joint of the middle finger, and inside or at the joint of the ring finger. This deep hook prevents lateral deflections and premature releases.
 
-- **Reference**: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Rogue Archery TV, Online Archery Academy (including slipping hook cues), Jake Kaminski's hook tutorials, 3 Easy Tips, and torque experiments, NUSensei form tips, World Archery release technique guidelines, MFJJ (ElkShape) grip setup cues, and Barebow Basics: Shot Process Basics.
+- **Reference**: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Rogue Archery TV, Online Archery Academy (including slipping hook cues), Jake Kaminski's hook tutorials, 3 Easy Tips, torque experiments, and Recurve Form Series (Loading and Load Position), NUSensei form tips, World Archery release technique guidelines, MFJJ (ElkShape) grip setup cues, and Barebow Basics: Shot Process Basics.

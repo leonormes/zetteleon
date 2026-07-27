@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-22T00:00:00+00:00
-modified: 2026-07-24T17:55:00+01:00
+modified: 2026-07-27T13:55:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-practice-drills
 tags:
   - archery
@@ -28,6 +28,7 @@ Before you can build a training plan, you must establish exactly where you are s
 - **Video Benchmarks:** Record your technique from multiple angles. Using a clock face as a reference, prioritize the 3, 6, and 9 o'clock positions.
 - **Physical Benchmarks:** Test your current fitness level, such as timing how long you can hold a specific bow training drill (e.g., sets of 30 seconds on, 30 seconds off).
 - **Score Benchmarks:** Know your current averages so you have a factual baseline.
+- **Equipment Tune Benchmarks:** Do not overcomplicate your equipment when pursuing major score milestones (e.g., shooting 600+ on a 720 round). Ensure your limbs are straight and your center shot is positioned correctly (slightly left for right-handed archers). As long as your bare shafts land in the same group as your fletched arrows at 18 meters and 30 meters, your tune is more than sufficient for a 600+ score.
 
 ### Splitting Strength vs. Skill
 
@@ -37,7 +38,7 @@ When breaking down your technique, divide your training into two distinct areas:
 
 ### The Foundation: Grouping Over Scoring
 
-- Consistency is Key: When starting or refining technique, building consistent, repeatable habits is far more valuable than the final score. Accuracy is simply consistency repeated.
+- Consistency is Key: When starting or refining technique, building consistent, repeatable habits is far more valuable than the final score. Accuracy is simply consistency repeated. You do not need absolute perfection or world-class technique to achieve competitive score milestones (such as 600+ at 70m); instead, focus on solid fundamentals that prevent large, inconsistent mistakes.
 - The Bullseye Trap: Hitting the center does not guarantee good technique. Focusing purely on the score can accidentally reinforce bad physical habits just because an arrow landed in the middle.
 - What a Tight Group Tells You: A tight cluster of arrows—even if outside the center—proves your body has developed solid muscle memory and is executing the shot the same way every time. To increase scores, you must first shrink the group.
 - Sighting and Aiming: Aiming is a separate, mechanical skill that comes _after_ form is reliable. If your arrows group tightly in the red ring, you are executing perfectly but your sight is misaligned. Always adjust your sight based on the average center of the group, not a single shot.
@@ -129,8 +130,19 @@ _(Note: This is a diagnostic drill detailed in the [[Archery Shot Process - Foll
 
 #### 12. Bow Fitness (Draw-ups and Holds)
 
-- The Goal: Build the sheer physical capacity required to hold, expand, and execute without collapsing. (Lacking physical strength is the single most common cause of a poor release).
+- The Goal: Build the sheer physical capacity required to hold, expand, and execute without collapsing. Good bow fitness is the foundation for avoiding fatigue and preventing a jumpy, jolting release when pulling through the clicker late in a round.
 - How to do it: Perform draw-ups and hold drills using a resistance band or a shot trainer replica. Progress over time to using your actual bow so you can hold full draw effortlessly.
+- **The 30-Minute Static Hold Routine**: A high-efficiency drill to simultaneously build archery strength, stamina, and posture without the anxiety of aiming:
+  - **Execution**: Draw the bow, pull through the clicker around the 15-second mark, and continue a slow, continuous expansion to hold the shot for a full 30 seconds without flinching.
+  - **Rest & Volume**: Rest for exactly 30 seconds between repetitions. Perform 30 repetitions total (taking exactly 30 minutes), aiming for 3 days per week.
+  - **Drop Bow Weight If Needed**: If you cannot hold your current bow back for 30 seconds, it is too heavy for this routine. Temporarily drop your poundage to complete sets with proper structure and back tension rather than fighting the draw weight.
+  - **Scapula Engagement Split**: Perform the first 15 sets using your standard finger tab. For the final 15 sets (as your forearms fatigue), attach a shot trainer or formaster device that pulls directly from your elbow. This forces your body to lead with the draw elbow and properly engage the scapula retractors in your upper back.
+- **The 20:40 SPT (Specific Physical Training) Routine**: A foundational archery fitness drill designed to build posture, skeletal alignment, and muscular endurance at full draw.
+  - **Work-to-Rest Ratio**: Perform **20 seconds** of static hold at full draw followed by **40 seconds** of rest, for **10 repetitions** total (approx. 10 minutes).
+  - **Strict Technique First**: Execute every single second with correct form. If fatigue causes posture or alignment to break down at any point, do not muscle through it—let down immediately and reset for the next set, as muscling through bad form reinforces poor muscle memory.
+  - **Load Selection**: You can use your main bow setup, a lighter set of limbs, or a dedicated bow trainer. Using a lighter setup allows you to focus strictly on alignment without fighting draw weight.
+  - **Neuromuscular Efficiency & Accessibility**: Sustaining longer holds teaches your nervous system which muscles require active tension and which can remain relaxed. Can be practiced anywhere (home, on the range, or in a hotel room).
+  - **The 7-Day Challenge**: Perform this 10-minute 20:40 SPT routine every day for **7 consecutive days** to rapidly build holding strength and increase shot stability.
 - Supplement: Use spring-loaded hand exercisers to build finger and grip strength, which helps lock in a straight connection through your draw hand and wrist.
 
 #### 13. Focus on Process, Not the External Result
@@ -146,4 +158,4 @@ _(Note: This is a diagnostic drill detailed in the [[Archery Shot Process - Foll
 
 ---
 
-Reference: Insights compiled from Kramer Ammons ("9 Archery Drills To Hack The Mind"), MFJJ (ElkShape) blind baling and homework routines, Rogue Archery TV ("feelings" and mastery framework), CatholicHack's Traditional Archery (3D hyper-focus trick), Online Archery Academy (bow fitness, training plans, benchmarks), Clay Hayes (process over result), Jake Kaminski (aiming experiments), and generalized target panic/practice philosophy guidelines.
+Reference: Insights compiled from Kramer Ammons ("9 Archery Drills To Hack The Mind"), MFJJ (ElkShape) blind baling and homework routines, Rogue Archery TV ("feelings", mastery framework, and "20:40 SPT | Guided Bow Fitness Drill"), CatholicHack's Traditional Archery (3D hyper-focus trick), Online Archery Academy (bow fitness, 30-minute static hold routine, training plans, 600+ score benchmarks), Clay Hayes (process over result), Jake Kaminski (aiming experiments), and generalized target panic/practice philosophy guidelines.

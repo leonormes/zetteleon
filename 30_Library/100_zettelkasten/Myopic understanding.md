@@ -1,56 +1,73 @@
 ---
-aliases: []
-created: 2025-07-26T16:23:39+00:00
-last_reviewed: ''
-modified: 2026-07-21T09:15:08+00:00
-permalink: llmeon/30-library/100-zettelkasten/myopic-understanding
-status: ''
-tags: []
+aliases:
+- The Nature and Scope of Understanding
+- Myopia and Abstraction
+conformant: false
+created: 2025-07-26 16:23:39+00:00
+modified: 2026-07-25 19:20:00+01:00
+non_conformance_reason: 'type: map but filed in 100_zettelkasten/; per AGENTS.md §0
+  map notes belong in 30_Library/MoC/. Not moved — a move is a rename-class action
+  outside agent write scope, and six notes backlink to this path.'
+permalink: llmeon/30-library/100-zettelkasten/myopic-understanding-1
+prodos:
+  kind: moc
+  lifecycle: budding
+  trust: working
+tags:
+- abstraction
+- epistemology
+- TheHuman/Cognition
+- topic/understanding
 title: Myopic understanding
-type: ''
-updated: null
+type: map
 ---
 
-Why understanding matters. When you know something you can make accurate predictions. You understand or can see how some things effect others. The wider your view the more info you have to predict things or workout the reason something is happening.
+> **What this note is.** A seed capture from 2025-07-26 that was subsequently atomised. Every proposition below now lives in its own note; this page's remaining job is to hold them in the order that makes them an *argument* rather than a list. Six notes backlink here, so it stays at this path.
 
-Our understanding is myopic. We don't really know what is going on. The days we have helps. We can only hold a little amount at once so the high the abstraction the more you see. Like climbing up a hill.
+## The Original Capture
 
-- Understanding enables accurate predictions.
-- Understanding reveals cause-and-effect relationships.
-- Broader understanding provides more information for prediction and causality.
-- Human understanding is myopic/limited.
-- Humans can only hold a small amount of information at once.
-- Higher abstraction levels increase understanding/visibility.
-- This is analogous to climbing a hill for a wider view.
+_Preserved verbatim — the human seed the cluster grew from._
 
-Understanding allows for accurate predictions and the recognition of cause-and-effect relationships. A broader perspective provides more data for prediction and determining causality. However, human understanding is inherently limited, as individuals can only process a small amount of information simultaneously. Therefore, higher levels of abstraction improve comprehension, similar to gaining a wider view by ascending a hill.
+> Why understanding matters. When you know something you can make accurate predictions. You understand or can see how some things effect others. The wider your view the more info you have to predict things or workout the reason something is happening.
+>
+> Our understanding is myopic. We don't really know what is going on. The days we have helps. We can only hold a little amount at once so the high the abstraction the more you see. Like climbing up a hill.
 
-Idea A: Understanding facilitates accurate predictions.
+## The Argument in Sequence
 
-Idea B: Understanding allows for the recognition of cause-and-effect relationships.
+**1 — Understanding pays out as prediction.** [[Understanding Enables Accurate Predictions]]—_The first move: comprehension of underlying dynamics is what lets you anticipate an outcome rather than merely observe it._ %%[synthesizes:: [[Understanding Enables Accurate Predictions]], confidence=high]%%
 
-Idea C: The scope of understanding directly correlates with the ability to predict and discern causality.
+**2 — And, more deeply, as causal insight.** [[Understanding Reveals Cause-and-Effect]]—_Prediction can be had from correlation alone; knowing why B follows A is the stronger claim._ %%[synthesizes:: [[Understanding Reveals Cause-and-Effect]], confidence=high]%%
 
-Idea D: Human understanding is inherently limited or "myopic."
+**3 — Both scale with the width of your view.** [[Broader Understanding Enhances Predictive & Causal Insight]]—_More context in scope means more information to reason over, so scope is the lever on both payouts._ %%[synthesizes:: [[Broader Understanding Enhances Predictive & Causal Insight]], confidence=high]%%
 
-Idea E: The cognitive capacity for processing information simultaneously is finite.
+**4 — But the view is structurally narrow.** [[Human Understanding is Inherently Myopic]]—_The turn in the argument: we perceive a fraction of the picture, so the lever from step 3 is exactly the one we cannot pull directly._ %%[synthesizes:: [[Human Understanding is Inherently Myopic]], strength=5, confidence=high]%%
 
-Idea F: Higher levels of abstraction enhance the breadth of understanding.
+**5 — Because the bottleneck is capacity, not effort.** [[Limited Human Information Processing Capacity]]—_Names the mechanism behind the myopia: finite simultaneous processing, which no amount of trying widens._ %%[synthesizes:: [[Limited Human Information Processing Capacity]], confidence=high]%% %%[depends_on:: [[SoT - Working Memory & Schema Theory]], confidence=high]%%
 
-Idea G: Analogy: Gaining a wider perspective through abstraction is like climbing a hill.
+**6 — Abstraction is the workaround.** [[Abstraction as Climbing a Hill]]—_You cannot enlarge the buffer, so you compress what goes in it; height buys breadth by discarding detail._ %%[synthesizes:: [[Abstraction as Climbing a Hill]], strength=5, confidence=high]%% %%[depends_on:: [[Understanding Compresses Information into Cognitive Chunks]], confidence=high]%%
 
-[[Understanding Enables Accurate Predictions]]
+## Where the Original Capture Was Too Optimistic
 
-[[Understanding Reveals Cause-and-Effect]]
+The seed says "the higher the abstraction the more you see." The vault's own atoms qualify that in two directions, and this is the most useful thing the cluster has to say.
 
-[[Broader Understanding Enhances Predictive & Causal Insight]]
+- [[Higher Abstraction Levels Increase Breadth But Reduce Depth]]—_The trade is not free: what the hill buys in breadth it spends in resolution, and both cannot be maximised at once._ %%[synthesizes:: [[Higher Abstraction Levels Increase Breadth But Reduce Depth]], strength=5, confidence=high]%%
+- [[Deep Focus on a Single Concept Sparks Innovation]]—_The productive counter-argument: narrowing the view deliberately — digging a well rather than climbing a hill — is its own route to insight, which cuts against this note's core thesis._ %%[contradicts:: [[Deep Focus on a Single Concept Sparks Innovation]], confidence=medium]%%
+- [[SoT - Illusion of Explanatory Depth (IoED)]]—_The seed's "we don't really know what is going on" has a named failure mode: myopia is invisible from the inside, so felt understanding is not evidence of scope._ %%[depends_on:: [[SoT - Illusion of Explanatory Depth (IoED)]], confidence=medium]%%
 
-[[Human Understanding is Inherently Myopic]]
+## See Also
 
-[[Limited Human Information Processing Capacity]]
+Adjacent but not standing in one of the six edge relationships.
 
-[[MOC - Abstraction Improves Breadth of Understanding]]
+- [[The Ladder of Abstraction Models Conceptual Granularity]]—_Hayakawa's continuum; the formal model of the hill this note climbs informally._
+- [[Map Analogy Illustrates Abstraction Tradeoffs]]—_Street map vs country map: the same trade-off made concrete._
+- [[Leaky Abstractions]]—_The failure case, where discarded detail forces its way back up the ladder._
+- [[Comparison - Knowing vs Understanding]]—_Tabulates the distinction this note's step 1 assumes._
+- [[The Gap Between Knowing a Fact and Understanding a Concept]]—_The same distinction argued rather than tabulated._
+- [[Learning is the Acquisition of Information While Understanding is the Construction of Meaning]]—_Locates understanding as construction, which is why compression is available to it at all._
+- [[SOLO Taxonomy Describes Understanding Levels]]—_A graded scale for the "how much do you see" question this note poses binarily._
+- [[MOC - From Information to Knowledge]]—_The broader epistemology map this cluster sits inside._
 
-[[Abstraction as Climbing a Hill]]
+## Refresh Log
 
-[[MOC The Nature and Scope of Understanding]]
+- **2026-07-25** — Deduplicated. The note previously stated the same seven propositions four times over (raw capture, bullet list, paraphrase, and an "Idea A–G" enumeration) followed by a bare wikilink dump. The three derived restatements were removed; each proposition already exists as its own atom and is now linked in argument order above.
+- **Broken links fixed:** `[[MOC - Abstraction Improves Breadth of Understanding]]` did not exist → replaced with [[Higher Abstraction Levels Increase Breadth But Reduce Depth]] and [[The Ladder of Abstraction Models Conceptual Granularity]]. `[[MOC The Nature and Scope of Understanding]]` did not exist → nearest live map is [[MOC - From Information to Knowledge]]; retained as an alias on this note instead. **UNSURE** — if a note by either original title was intended, these substitutions should be revisited.

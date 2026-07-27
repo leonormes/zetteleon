@@ -2,12 +2,12 @@
 created: 2026-07-13T08:31:03+00:00
 created_utc: '2026-07-13T08:17:00Z'
 kind: distinction
-modified: 2026-07-21T09:15:09+00:00
+modified: 2026-07-27T09:40:54+00:00
 permalink: llmeon/00-inbox/proposition-centred-notes-create-cognitive-leverage-that-topical-notes-lack
 source_title: 'Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture: An Investigative Report'
 source_url: ''
 status: seed
-tags: [epistemics, pkm-architecture, proposition, zettelkasten]
+tags: [epistemics, pkm-architecture, proposition, topic/knowledge-architecture, zettelkasten]
 title: Proposition-Centred Notes Create Cognitive Leverage That Topical Notes Lack
 type: atom
 upstream: '[[Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture]]'

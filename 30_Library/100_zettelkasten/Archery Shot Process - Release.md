@@ -2,7 +2,7 @@
 title: Archery Shot Process - Release
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-release
 created: "2026-07-21T09:02:00+00:00"
-modified: "2026-07-21T09:58:00+00:00"
+modified: "2026-07-25T12:53:00+01:00"
 tags: [prodos/atomic, archery, technique]
 aliases: []
 prodos:
@@ -38,6 +38,7 @@ Details:
   - *Static Release*: Avoid trying to freeze your hand at anchor upon release, as this alters bow-arm tension timing and causes inconsistent target impact under pressure.
   - *Plucking & Collapsing*: Losing back tension at the exact moment the clicker drops causes the draw hand to pluck outward or collapse forward.
   - *Premature Shot Ending*: A shot cycle does not end when the clicker drops or when the string leaves your fingers; it ends only when you hit a full static finish.
+  - *"Jumpy" Release (Fatigue & Clicker Struggle)*: A jumpy release occurs when an archer lacks muscular endurance and is fatigued, struggling to pull smoothly through the clicker. This causes sudden, jolting movements that throw the bow off target upon release. The release must remain explosive yet completely balanced across the body.
 
 ### Training Drills
 
@@ -62,4 +63,4 @@ Details:
   2. **Half Draw (Chest Level)**: Draw with a bent bow arm to chest level. Focus entirely on the internal physical sensation of relaxing your hand rather than watching it.
   3. **Full Draw**: Step into your standard full-draw posture and practice the same passive hand relaxation.
 
-- **Reference**: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Rogue Archery TV, Online Archery Academy, and World Archery release technique guidelines.
+- **Reference**: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Rogue Archery TV, Online Archery Academy (including 600+ at 70m balanced release guidelines), and World Archery release technique guidelines.

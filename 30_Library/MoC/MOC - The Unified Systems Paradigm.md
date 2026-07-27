@@ -2,9 +2,9 @@
 alias: [Constructive Realism, System Reliability Map, The Unified Systems Paradigm, Type-Driven Data Design]
 aliases: []
 created: 2025-12-30T12:08:43+00:00
-modified: 2026-07-20T16:33:57+00:00
+modified: 2026-07-27T11:50:15+00:00
 permalink: llmeon/30-library/mo-c/moc-the-unified-systems-paradigm
-tags: [root, SoftwareEngineering/Architecture, TheHuman/Philosophy, type/moc]
+tags: [root, SoftwareEngineering/Architecture, TheHuman/Philosophy, topic/knowledge-architecture, type/moc]
 title: MOC - The Unified Systems Paradigm
 ---
 
@@ -111,3 +111,5 @@ Concepts described in this MoC without dedicated notes:
 - `Video - What is Software-Defined`—applying Compilation to physical hardware
 - `Digital Twin`—Executable (Physics) vs Declarative (Specs)
 - `Verification Threading`—continuous verification of hardware specs against software needs
+
+%%[extends:: [[SoT - Structure is Truth is a Unifying Axiom Across Formal Systems]], strength=4, confidence=medium]%%

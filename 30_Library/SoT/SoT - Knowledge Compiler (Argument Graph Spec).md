@@ -2,10 +2,10 @@
 aliases: [Argument Compiler, Argument Graph, Belief Tracing, Knowledge Compiler]
 conformant: true
 created: 2026-07-24T00:00:00+00:00
-modified: 2026-07-25T08:45:04+00:00
+modified: 2026-07-27T11:51:38+00:00
 permalink: llmeon/30-library/so-t/so-t-knowledge-compiler-argument-graph-spec
 see_also: ["[[Protocol - Typed Answer Contract (TAC) for Vault Agents]]", "[[SoT - PRODOS Core Specification]]", "[[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]", "[[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]]"]
-tags: [domain/pkm, prodos/sot, topic/knowledge-graph]
+tags: [domain/pkm, prodos/sot, topic/knowledge-architecture, topic/knowledge-graph]
 title: SoT - Knowledge Compiler (Argument Graph Spec)
 type: sot
 ---
@@ -112,3 +112,7 @@ Each phase is shippable alone and adds exactly one epistemic answer. Do not buil
 - Every gap is a leaf, which may mean the definition is too generous. All 12 C1 gaps are single-hop leaves feeding one hub claim, and the graph is two levels deep. A shallow star is exactly the shape that makes C1 look productive while telling you little — the "gaps" are simply the outermost ring, and adding support to any of them just moves the ring outward. C1 earns its place only once the graph has depth; until then, read its output as "here is the current frontier", not "here are 12 defects".
 - Author-asserted, not validated. Every edge is a claim _you_ made about your own reasoning. The compiler can find a gap or a contradiction in the _shape_ of what you asserted; it cannot tell you whether an individual `supports` is actually a good reason. It sharpens your thinking; it does not outsource it.
 - Atomicity discipline required. The graph is only as clean as the claims are atomic. A note bundling three assertions cannot be cleanly supported or contradicted—the Zettelkasten "one claim per node" rule is a hard prerequisite, not a stylistic preference.
+
+%%[depends_on:: [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]], strength=5, confidence=high]%%
+
+%%[supports:: [[Claim - Domains relate through named relations, not undifferentiated association]], strength=4, confidence=medium]%%

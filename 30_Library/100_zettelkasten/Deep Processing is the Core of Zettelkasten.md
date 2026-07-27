@@ -1,14 +1,17 @@
 ---
 aliases: []
 created: 2025-08-23T20:25:32+00:00
-last_reviewed: 'null'
-modified: 2026-07-21T09:15:04+00:00
+last_reviewed: "null"
+modified: 2026-07-27T09:40:54+00:00
 permalink: llmeon/30-library/100-zettelkasten/deep-processing-is-the-core-of-zettelkasten
-status: 'null'
-tags: [topic/learning, topic/pkm/zettelkasten]
+status: "null"
+tags:
+  - topic/learning
+  - topic/pkm/zettelkasten
+  - topic/knowledge-architecture
 title: Deep Processing is the Core of Zettelkasten
-type: permanent
-updated: null
+type: claim
+updated:
 ---
 
 The core of interaction with a Zettelkasten is not mere collection, but deep processing. This is why paraphrasing_is_a_complex_cognitive_skill; it forces us to understand an idea well enough to rephrase it, as discussed in paraphrasing_put_another_way. This act of translation is where true learning occurs.

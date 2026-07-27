@@ -2,7 +2,7 @@
 title: Archery Shot Process - Anchor
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-anchor
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-07-24T17:55:00+01:00
+modified: 2026-07-27T13:55:00+01:00
 tags:
   - prodos/atomic
   - archery
@@ -29,11 +29,12 @@ Details:
   - **Avoid "Feathering"**: Avoid hovering on the edge of the jaw with zero backward load by touching the string too lightly to the face. Maintain firm, active backward pressure driving back against your jawline. Without active backward tension, releasing the string causes the hand to stay still, collapse forward, or pluck outwards.
   - **Real Full Draw**: General alignment gets you close to anchor, but reaching "real full draw" requires a deliberate micro-movement to lock into your final skeletal position. Achieving this true full draw provides a distinct feeling of structural readiness, enabling clean, consistent execution.
   - **Settle In "One Time"**: Avoid pulling back and searching or fidgeting for your anchor point. Practice drawing straight back and settling smoothly into your anchor in a single, fluid motion before beginning your execution.
+  - **Stable Posture vs. Flawless Alignment**: Skeletal alignment does not have to be flawless (even top international archers exhibit slight structural variations), but you must be able to hold a solid, stable, and repeatable posture at full draw.
 - **Avoid Anchoring Too High**: Anchoring higher up on the cheek pushes the string away from the face due to facial contours. It forces the drawing shoulder upward and forces the peep sight to sit very low on the string, which severely limits the sight range for adjustable sight housings and long-distance capability.
 - **Reference Points (Skeletal)**: Ensure the index finger and bow shelf are aligned on the same level. Feel both contact points simultaneously to ensure vertical consistency.
   - *Alternative / Beginner Anchor*: A common alternative anchor is placing the tip of your index finger at the corner of your mouth and resting your thumb knuckle against the back of your jaw.
   - **Barebow Anchor (Upper Tooth Line)**: For a rock-solid, unchanging distance between the arrow and your dominant aiming eye, barebow archers often utilize the upper tooth line or gum line (e.g., pressing the tab against the gap of a specific canine tooth).
-- **Reference Points (Soft Tissue / String)**: The string should touch the center (or slightly right) of your nose and slightly right on your chin.
+- **Reference Points (Soft Tissue / String)**: The string should touch the center (or slightly right) of your nose and slightly right on your chin. Note that initial string contact with the tip of your nose and corner of your chin should already occur at the **load position** (roughly half an inch below the jaw) before moving up into your final anchor.
 - **The 3 Primary Points of Contact (Compound/Release Aids)**:
   - **Tip of the Nose:** Lightly rests on the bowstring. Provides a tiny, highly defined reference point that gives immediate feedback if misaligned.
   - **Corner of the Mouth / Cheek:** The string lightly skims past the corner of the mouth or slightly above it, without pressing hard or creating face pressure.
@@ -49,6 +50,7 @@ Details:
   1. Use a stretch band or an ultra-light training bow.
   2. Draw to your anchor point and find your perfect alignment.
   3. Perform static holds in this exact position to build muscle memory and specific strength.
+  4. Maintain solid, steady face pressure against your facial anchor point throughout the full duration of the static hold (e.g., during 20:40 SPT exercises) without letting fatigue weaken your contact.
 
 ### Aiming & Vision
 - **Set the Peep to the Anchor (Not the Anchor to the Peep)**: Never adapt your body to the equipment. Close your eyes, draw back, and settle comfortably into your natural anchor. Open your eyes; if the peep sight is not centered naturally over the front sight ring, adjust the physical position of the peep sight along the bowstring rather than changing your head posture or anchor position.
@@ -61,4 +63,4 @@ Details:
 - **Master Your String Alignment**: At full draw, the bowstring appears as a large blur in front of your face. You must consistently align this blur to a specific spot (e.g., the edge of the riser or alongside the sight pin). String alignment fixes lateral misses: moving the string alignment to the right pushes arrows left, and moving it left pushes arrows right.
 - **Beware of Lighting Illusions**: The angle of sunlight or overhead lighting can play tricks on your eyes, making the string or sight pin appear to shift. Adjusting for this optical illusion will cause sideways misses.
 
-- **Reference**: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Rogue Archery TV, Mike Peart coaching cues, ArcheryWinchester (Aiming and Vision cues), Barebow Basics: Shot Process Basics, Jake Kaminski's 3 Easy Tips and aiming tutorials (Watch it to keep it, accepting the float), Online Archery Academy (release tips, anchor holds), and Inside Out Precision (anchor consistency, peep alignment).
+- **Reference**: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Rogue Archery TV (including "20:40 SPT | Guided Bow Fitness Drill"), Mike Peart coaching cues, ArcheryWinchester (Aiming and Vision cues), Barebow Basics: Shot Process Basics, Jake Kaminski's 3 Easy Tips, aiming tutorials (Watch it to keep it, accepting the float), and Recurve Form Series (Loading and Load Position), Online Archery Academy (release tips, anchor holds, 600+ posture fundamentals), and Inside Out Precision (anchor consistency, peep alignment).

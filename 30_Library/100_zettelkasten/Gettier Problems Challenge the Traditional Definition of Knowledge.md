@@ -2,7 +2,7 @@
 aliases: [Gettier Problem]
 conformant: false
 created: 2025-11-01T12:10:07+00:00
-modified: 2026-07-21T09:15:06+00:00
+modified: 2026-07-25T20:43:45+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/gettier-problems-challenge-the-traditional-definition-of-knowledge
 tags: [epistemology, knowledge, TheHuman/Philosophy]
@@ -15,3 +15,4 @@ type: claim
 Summary: Gettier problems are counterexamples in philosophy that challenge the traditional definition of knowledge as "justified true belief."
 
 Details: In 1963, Edmund Gettier published a short paper presenting scenarios where an individual holds a belief that is both true and justified, but which we would intuitively hesitate to call knowledge. These cases typically involve a degree of luck or coincidence, suggesting that the justification, while valid, is not appropriately connected to the truth of the belief. This has led to extensive debate and attempts to amend the traditional definition of knowledge.
+%%[contradicts:: [[The Traditional Definition of Knowledge is Justified True Belief]]]%%

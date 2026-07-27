@@ -2,11 +2,11 @@
 conformant: false
 created: 2026-02-02T09:54:00+00:00
 last-synthesis: 2026-02-02
-modified: 2026-07-20T16:33:45+00:00
+modified: 2026-07-27T09:40:54+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-order-theory
 source_of_truth: true
-tags: [domain/theory, tool/cue, topic/configuration-management, type/SoT]
+tags: [domain/theory, tool/cue, topic/configuration-management, topic/knowledge-architecture, type/SoT]
 title: SoT - Order Theory
 type: sot
 ---

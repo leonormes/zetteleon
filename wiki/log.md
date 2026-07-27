@@ -65,3 +65,12 @@ permalink: llmeon/wiki/log
 - **Wiki pages touched:** [[wiki/projects/CUH-DP Jumpbox — Bastion SSH Access]]
 - **Flags:** none
 - **Notes:** New dossier documenting Azure Bastion SSH access to the CUH-DP `FITFILEJumpbox` VM (direct SSH, tunnel + scp, host-key-warning fix). Linked from Azure Bastion SSH Troubleshooting, HIE AWS Cluster — RDP via Jumpbox, CUH-DP AKS Backup — Terraform, Azure-AKS.
+
+
+### 2026-07-25 19:02 — Ingest BBC Report on ADHD in the Workplace
+
+- **Action:** Ingest
+- **Raw source:** [[raw/2026-07-25-bbc-adhd-workplace-consequences]]
+- **Wiki pages touched:** [[wiki/concepts/ADHD and Neurodivergence in the Workplace]], [[wiki/index]], this page
+- **Flags:** Contradictions surfaced (employer neurodiversity readiness confidence vs employee psychological safety; soaring clinic waiting lists vs epidemiological adult underdiagnosis). Claim stub proposed: [[raw/proposed-claims/2026-07-25-universal-workplace-scaffolding-for-neurodivergence]].
+- **Notes:** Ingested BBC article on employment tribunals, reasonable adjustments under the Equality Act 2010, and universal workplace scaffolding vs medical model. Pre-task context check: Pieces LTM tools (`mcp_pieces_*`) unavailable on this gateway (skipped per AGENTS.md §7).

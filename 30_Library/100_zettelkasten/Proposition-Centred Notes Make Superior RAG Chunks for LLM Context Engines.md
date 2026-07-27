@@ -2,12 +2,12 @@
 created: 2026-07-13T08:31:03+00:00
 created_utc: '2026-07-13T08:17:00Z'
 kind: claim
-modified: 2026-07-21T09:15:09+00:00
+modified: 2026-07-27T09:42:54+00:00
 permalink: llmeon/00-inbox/proposition-centred-notes-make-superior-rag-chunks-for-llm-context-engines
 source_title: 'Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture: An Investigative Report'
 source_url: ''
 status: seed
-tags: [llm-context, mcp, pcm, proposition, rag]
+tags: [llm-context, mcp, pcm, proposition, rag, topic/knowledge-architecture]
 title: Proposition-Centred Notes Make Superior RAG Chunks for LLM Context Engines
 type: atom
 upstream: '[[Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture]]'
@@ -40,3 +40,5 @@ Assumes a local-first plain-text vault (e.g. Obsidian) as the substrate, chunked
 ### See Also
 
 - [[SoT - Context Engineering]]
+
+%%[supports:: [[Proposition-Centred Notes Create Cognitive Leverage That Topical Notes Lack]], strength=4, confidence=high]%%

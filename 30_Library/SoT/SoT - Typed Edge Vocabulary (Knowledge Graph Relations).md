@@ -1,10 +1,10 @@
 ---
 aliases: [Typed Edges, Edge Vocabulary, Knowledge Graph Relations, Edge Syntax]
 created: 2026-07-24T00:00:00+00:00
-modified: 2026-07-24T21:00:25+00:00
+modified: 2026-07-27T11:50:15+00:00
 permalink: llmeon/30-library/so-t/so-t-typed-edge-vocabulary-knowledge-graph-relations
 see_also: ["[[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]", "[[Protocol - Typed Answer Contract (TAC) for Vault Agents]]", "[[SoT - PRODOS Core Specification]]"]
-tags: [domain/pkm, prodos/sot, topic/knowledge-graph]
+tags: [domain/pkm, prodos/sot, topic/knowledge-architecture, topic/knowledge-graph]
 title: SoT - Typed Edge Vocabulary (Knowledge Graph Relations)
 type: sot
 conformant: true
@@ -116,3 +116,6 @@ This is the link/edge half of the validator [[SoT - ProdOS Frontmatter Contract 
 - **Block ids are vault-unique by assumption.** §4 resolves block ids globally, but nothing yet *enforces* uniqueness of a `content-block` id across notes. The compiler's ambiguity warning is the only guard; a stronger scheme (namespacing ids by note) may be needed if collisions appear.
 - **Overlap with frontmatter relations is a convention, not a gate.** §2 says "prefer the frontmatter field for note→note", but nothing stops an author recording the same fact both ways. If this drifts in practice, promote the rule to a compiler check that flags an inline edge duplicating a frontmatter relation.
 - **Vocabulary is seeded, not proven.** The six relationships come from one POC plus the existing Claim/Evidence fields. Expect to add or merge types once real edges accumulate — treat `lifecycle: seedling` literally.
+
+%%[implements:: [[Claim - Domains relate through named relations, not undifferentiated association]], strength=4, confidence=high]%%
+%%[implements:: [[Typed Links for Knowledge Context]], strength=5, confidence=high]%%

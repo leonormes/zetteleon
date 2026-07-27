@@ -1,11 +1,11 @@
 ---
 aliases: [AFM Hub, Applied Formal Methods Index, Formal Foundations Hub]
 created: 2026-04-19T09:00:00+00:00
-modified: 2026-07-20T16:34:00+00:00
+modified: 2026-07-27T09:42:54+00:00
 permalink: llmeon/30-library/mo-c/moc-applied-formal-methods
 see_also: ["[[MOC - Formal Logic & Philosophy (Triage)]]", "[[MOC - The Unified Systems Paradigm]]"]
 supersedes: '[[MOC - Formal Logic & Philosophy (Triage)]]'
-tags: [prodos/moc, topic/formal-methods, topic/mathematics, topic/software-architecture, topic/type-theory]
+tags: [prodos/moc, topic/formal-methods, topic/knowledge-architecture, topic/mathematics, topic/software-architecture, topic/type-theory]
 title: MOC - Applied Formal Methods
 ---
 
@@ -325,3 +325,5 @@ Cross-link notes:
 | [[MOC - ProdOS]] | C4 | Satellite hub—vault as formal system |
 | [[MOC - Formal Logic & Philosophy (Triage)]] | C16 | Partially superseded (technical arm); philosophy arm retained |
 | [[MOC - ADHD Functional Neurology & Scaffolding]] | Bridge (C13) | Cross-civilisation bridge—cognitive scaffolding equivalent |
+
+%%[depends_on:: [[SoT - Formal Context (Applied Formal Methods)]], strength=5, confidence=high]%%

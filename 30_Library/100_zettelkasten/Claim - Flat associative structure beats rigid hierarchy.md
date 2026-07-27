@@ -1,10 +1,10 @@
 ---
 created: 2026-05-31T00:00:00+00:00
-modified: 2026-07-21T09:15:04+00:00
+modified: 2026-07-27T11:50:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/claim-flat-associative-structure-beats-rigid-hierarchy
 position-date: 2026-05-31
 related_to: ["[[Cognitive Load]]", "[[Practice - Flat linking and tagging]]"]
-tags: [adhd, linking, pkm, structure]
+tags: [adhd, linking, pkm, structure, topic/knowledge-architecture]
 title: Claim - Flat associative structure beats rigid hierarchy
 type: claim
 ---
@@ -43,3 +43,5 @@ type: claim
 ## Open Threads
 
 - The practice form of this claim: [[Practice - Flat linking and tagging]]. Note the tension with your own pull towards elaborate schemas.
+
+%%[supports:: [[SoT - Structure is Truth is a Unifying Axiom Across Formal Systems]], strength=5, confidence=high]%%

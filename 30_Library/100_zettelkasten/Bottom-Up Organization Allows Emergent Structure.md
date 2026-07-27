@@ -2,10 +2,10 @@
 aliases: [Bottom-Up vs Top-Down, Emergent Structure]
 created: 2025-10-30T15:33:36+00:00
 last_reviewed: '2025-10-30T00:00:00.000Z'
-modified: 2026-07-21T09:15:03+00:00
+modified: 2026-07-27T09:42:54+00:00
 permalink: llmeon/30-library/100-zettelkasten/bottom-up-organization-allows-emergent-structure
 status: seedling
-tags: [emergence, organization, topic/pkm, topic/pkm/zettelkasten]
+tags: [emergence, organization, topic/knowledge-architecture, topic/pkm, topic/pkm/zettelkasten]
 title: Bottom-Up Organization Allows Emergent Structure
 type: principle
 updated: null
@@ -27,3 +27,5 @@ Links:
 >
 > - seedling → growing: has summary + details + at least 1 inbound link.
 > - growing → evergreen: has 2+ inbound links from structural notes, purpose set, confidence justified, 1–3 `see_also`.
+
+%%[supports:: [[Claim - Flat associative structure beats rigid hierarchy]], strength=4, confidence=high]%%

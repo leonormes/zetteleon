@@ -2,10 +2,10 @@
 aliases: [Zettelkasten and Redundancy]
 conformant: false
 created: 2025-10-31T00:00:00+00:00
-modified: 2026-07-21T09:15:07+00:00
+modified: 2026-07-27T09:40:54+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/linking-as-a-redundancy-reduction-strategy-in-zettelkasten
-tags: [information-management, pkm, zettelkasten]
+tags: [information-management, pkm, topic/knowledge-architecture, zettelkasten]
 title: Linking as a Redundancy Reduction Strategy in Zettelkasten
 type: claim
 ---

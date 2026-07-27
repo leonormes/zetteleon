@@ -1,10 +1,10 @@
 ---
 created: 2026-05-31T00:00:00+00:00
 instance_of: ["[[Claim - Flat associative structure beats rigid hierarchy]]"]
-modified: 2026-07-21T09:15:09+00:00
+modified: 2026-07-27T09:42:54+00:00
 permalink: llmeon/30-library/100-zettelkasten/practice-flat-linking-and-tagging
 related_to: ["[[Cognitive Load]]"]
-tags: [adhd, linking, pkm, structure]
+tags: [adhd, linking, pkm, structure, topic/knowledge-architecture]
 title: Practice - Flat linking and tagging
 type: practice
 ---
@@ -21,3 +21,5 @@ Micro-step: On your next new note, add one [[wiki-link]] to an existing note ins
 
 - Instance of [[Claim - Flat associative structure beats rigid hierarchy]].
 - A [[Cognitive Load]] reduction tactic.
+
+%%[implements:: [[Claim - Flat associative structure beats rigid hierarchy]], strength=5, confidence=high]%%

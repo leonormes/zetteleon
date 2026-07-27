@@ -2,7 +2,7 @@
 aliases: [Grand Unified Theory of Code, GUT, The Context Engine, The Surgeon Anti-Pattern]
 conformant: false
 created: 2026-01-30T10:30:00+00:00
-modified: 2026-07-20T16:33:43+00:00
+modified: 2026-07-27T16:01:00+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-the-context-engine
 tags: [architecture, context-engineering, failure-analysis, history]
@@ -43,5 +43,6 @@ The modern "GUT" is not a single script, but a pipeline:
 3. The Coder: Executes within the boundaries of the RepoMap.
 
 ---
+%%[implements:: [[SoT - Context Engineering]]]%%
 
-See Also: [[SoT - Structural Intelligence]], [[SoT - Context Rot]], [[SoT - Parochial Code]]
+See Also: [[SoT - Context Engineering]], [[SoT - Structural Intelligence]], [[SoT - Context Rot]], [[SoT - Parochial Code]]

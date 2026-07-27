@@ -1,7 +1,7 @@
 ---
 title: Wiki Index
 created: 2026-05-10 00:00:00+00:00
-modified: 2026-05-10 00:00:00+00:00
+modified: 2026-07-25 19:02:23+01:00
 tags:
 - wiki
 - index
@@ -21,7 +21,7 @@ The wiki/ directory contains **agent-compiled knowledge** extracted from immutab
 
 | Subdirectory | Content Type | Status |
 |--------------|--------------|--------|
-| [[wiki/concepts/|concepts/]] | Frameworks, ideas, processes, domain knowledge | 🟡 Empty |
+| [[wiki/concepts/|concepts/]] | Frameworks, ideas, processes, domain knowledge | ✅ Active (2 files) |
 | [[wiki/orgs/|orgs/]] | Organisations, companies, institutions | 🟡 Empty |
 | [[wiki/people/|people/]] | Individuals, contacts, stakeholders | 🟡 Empty |
 | [[wiki/projects/|projects/]] | Project dossiers with timelines and milestones | ✅ Active (13 files) |
@@ -75,4 +75,4 @@ This wiki layer is **Layer 2** of the three-layer agent architecture:
 
 ---
 
-*Last updated: 2026-05-10*
+*Last updated: 2026-07-25*

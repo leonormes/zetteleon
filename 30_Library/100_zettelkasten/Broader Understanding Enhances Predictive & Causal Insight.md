@@ -13,4 +13,4 @@ updated: null
 
 The breadth or scope of one's understanding directly correlates with the amount of information available for analysis. A wider informational context significantly improves the ability to make accurate predictions and to discern complex cause-and-effect relationships.
 
-[[Myopic understanding]]
+[[Myopic Understanding]]

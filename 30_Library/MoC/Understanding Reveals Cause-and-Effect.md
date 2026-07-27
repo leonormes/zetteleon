@@ -16,7 +16,7 @@ updated: null
 
 Beyond mere prediction, a deeper understanding allows individuals to identify and comprehend the cause-and-effect relationships between different phenomena. This insight into how elements interact and influence each other is crucial for problem-solving and systemic comprehension.
 
-[[Myopic understanding]]
+[[Myopic Understanding]]
 
 [[SoT - Illusion of Explanatory Depth (IoED)#Familiarity vs. Comprehension|Familiarity is Mistaken for Comprehension in IoED]]
 

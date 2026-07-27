@@ -2,10 +2,10 @@
 aliases: []
 created: 2025-10-20T09:44:00+00:00
 last_reviewed: 'null'
-modified: 2026-07-21T09:15:10+00:00
+modified: 2026-07-27T09:42:54+00:00
 permalink: llmeon/30-library/100-zettelkasten/structure-notes-as-maps-of-thought-trails
 status: 'null'
-tags: [organization, topic/pkm, topic/pkm/zettelkasten]
+tags: [organization, topic/knowledge-architecture, topic/pkm, topic/pkm/zettelkasten]
 title: Structure Notes as Maps of Thought Trails
 type: 'null'
 updated: null
@@ -27,3 +27,5 @@ This approach transforms the polished note from a static conclusion into a dynam
 ---
 
 Links: [[MOC - PKM as Process vs Product]]
+
+%%[extends:: [[Hub Notes Provide Entry Points to Idea Clusters]], strength=3, confidence=medium]%%

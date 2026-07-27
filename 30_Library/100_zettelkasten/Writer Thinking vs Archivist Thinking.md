@@ -2,10 +2,10 @@
 aliases: [Archivist vs Writer Mindset, Storage vs Discovery]
 conformant: false
 created: 2025-10-30T15:33:36+00:00
-modified: 2026-07-21T09:15:12+00:00
+modified: 2026-07-27T09:40:54+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/writer-thinking-vs-archivist-thinking
-tags: [organization, TheHuman/Mindset, topic/pkm, topic/pkm/zettelkasten]
+tags: [organization, TheHuman/Mindset, topic/knowledge-architecture, topic/pkm, topic/pkm/zettelkasten]
 title: Writer Thinking vs Archivist Thinking
 type: claim
 ---

@@ -15,4 +15,4 @@ A critical limitation of human cognition is the inherent myopia of our understan
 
 [[Information Overload]].
 
-[[Myopic understanding]]
+[[Myopic Understanding]]

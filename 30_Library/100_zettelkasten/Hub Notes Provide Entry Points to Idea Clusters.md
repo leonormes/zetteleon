@@ -2,10 +2,10 @@
 aliases: [Access Points, Entry Point Notes, Hub Notes]
 conformant: false
 created: 2025-10-30T15:33:36+00:00
-modified: 2026-07-21T09:15:06+00:00
+modified: 2026-07-27T09:42:54+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/hub-notes-provide-entry-points-to-idea-clusters
-tags: [navigation, structure, topic/pkm, topic/pkm/zettelkasten]
+tags: [navigation, structure, topic/knowledge-architecture, topic/pkm, topic/pkm/zettelkasten]
 title: Hub Notes Provide Entry Points to Idea Clusters
 type: claim
 ---
@@ -26,3 +26,5 @@ Links:
 >
 > - seedling → growing: has summary + details + at least 1 inbound link.
 > - growing → evergreen: has 2+ inbound links from structural notes, purpose set, confidence justified, 1–3 `see_also`.
+
+%%[depends_on:: [[Rhizome Structure - Non-Hierarchical Network]], strength=5, confidence=high]%%

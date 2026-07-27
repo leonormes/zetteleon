@@ -2,10 +2,10 @@
 aliases: [Alphanumeric IDs, Folgezettel System, Zettelkasten IDs]
 conformant: false
 created: 2025-10-30T15:33:36+00:00
-modified: 2026-07-21T09:15:05+00:00
+modified: 2026-07-27T09:42:54+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/folgezettel-ids-enable-non-hierarchical-branching
-tags: [ids, linking, topic/pkm, topic/pkm/zettelkasten]
+tags: [ids, linking, topic/knowledge-architecture, topic/pkm, topic/pkm/zettelkasten]
 title: Folgezettel IDs Enable Non-Hierarchical Branching
 type: claim
 ---
@@ -25,3 +25,5 @@ Links:
 >
 > - seedling → growing: has summary + details + at least 1 inbound link.
 > - growing → evergreen: has 2+ inbound links from structural notes, purpose set, confidence justified, 1–3 `see_also`.
+
+%%[supports:: [[Claim - Flat associative structure beats rigid hierarchy]], strength=4, confidence=high]%%

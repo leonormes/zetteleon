@@ -2,7 +2,7 @@
 aliases: [AI Agent Roles, Multi-Agent Architecture, The Surgical Team]
 conformant: false
 created: 2026-01-30T12:00:00+00:00
-modified: 2026-07-20T16:33:53+00:00
+modified: 2026-07-27T16:01:00+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-agentic-roles
 tags: [agents, architecture, context-engine, roles]
@@ -33,5 +33,6 @@ To execute [[SoT - Macro-Micro Unification]], we divide the cognitive load acros
 5. Verify: The Architect reviews the output against the constraints.
 
 ---
+%%[implements:: [[SoT - The Context Engine]]]%%
 
 See Also: [[SoT - The Context Engine]], [[SoT - Macro-Micro Unification]]

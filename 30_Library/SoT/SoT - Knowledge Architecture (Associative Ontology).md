@@ -4,18 +4,31 @@ aliases: []
 conformant: false
 created: 2026-01-05T06:58:46+00:00
 last_reviewed: null
-modified: 2026-07-20T16:33:48+00:00
+modified: 2026-07-27T09:42:54+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-knowledge-architecture-associative-ontology
 see_also: []
-status: Active
-superseded_by: ''
+status: archived
+superseded_by: "[[SoT - Structure is Truth is a Unifying Axiom Across Formal Systems]]"
 supersedes: ''
-tags: [architecture, knowledge-management, meta, ontology]
+tags: [architecture, knowledge-management, meta, ontology, topic/knowledge-architecture]
 title: SoT - Knowledge Architecture (Associative Ontology)
 type: sot
 updated: null
+prodos:
+  kind: sot
+  lifecycle: archived
+  trust: low
 ---
+
+> [!warning] Archived — superseded 2026-07-27
+> This note has been retired as a live source of truth. It attempted three jobs at once; each is now done better elsewhere:
+>
+> - **The thesis** (§4 "Structure determines Behavior") → [[SoT - Structure is Truth is a Unifying Axiom Across Formal Systems]], which supplies the mechanism (complexity conservation), three falsification tests, and an FCA derivation instead of an assertion.
+> - **The topography** (§1, §3) → [[Meta MOC - The Core Domains]], which routes through MoCs and triage hubs rather than raw SoTs.
+> - **The membership criteria** (§5) → [[MOC - Applied Formal Methods]], which states per-level admission tests.
+>
+> §2's Relationship Matrix was the one section with no better treatment elsewhere; it has been harvested to [[Claim - Domains relate through named relations, not undifferentiated association]]. The file is preserved rather than deleted, per [[Immutability Principle - Preserve Original Notes]]. Nothing live rests on it: all inbound justification edges have been rehomed.
 
 > The Thesis: The user's intellectual landscape is not a collection of isolated facts, but a Unified System where principles of Type Theory (Software) mirror principles of Cognitive Engineering (Mind), all governed by an Existential substrate (Meaning) and executed via PRODOS (Action).
 
@@ -35,7 +48,7 @@ updated: null
 - Core Axiom: "Interest > Importance." The nervous system is fuel-dependent (Dopamine); it cannot run on abstract "Shoulds."
 - Key Notes:
     - [[SoT - ADHD Neurology & Core Concepts]]
-    - [[SoT - Cognitive Refactoring (Neural Debugging)]]
+    - [[SoT - Belief Architecture & Cognitive Spaces|Cognitive Refactoring (Neural Debugging)]]
     - [[SoT - Active Learning Techniques]]
 
 ### Domain III: Data-Centric Systems (The Logic)
@@ -44,10 +57,10 @@ updated: null
 - Core Axiom: "Data > Code." Complexity obeys a conservation law; move it from fragile Logic to robust Structure (Types).
 - Key Notes:
     - [[SoT - The Data-Centric Philosophy]]
-    - [[MOC - Data-Oriented Design]]
+    - [[MOC - Data-Oriented Structures & Internals|Data-Oriented Design]]
     - [[SoT - Rust Type Theory & Critique]]
     - [[SoT - The Logical Definition of a Computer]]
-    - [[SoT - Type Theory & Data Structures]]
+    - [[MOC - Type Theory|Type Theory & Data Structures]]
     - [[SoT - Virtual Knowledge Graph Paradigm]]
     - [[SoT - Order Theory & Lattices]]
 
@@ -161,3 +174,11 @@ This unification is formalized by Order Theory.
 - Conflict (The Bottom): Incompatible branches (e.g., `#Project` and `#Reference`) unify to $\bot$ (Bottom/Error), proving that an entity cannot topologically be both.
 
 This provides the rigorous proof that "Categories" are not arbitrary containers, but logical constraints on the value of information.
+
+%%[synthesizes:: [[SoT - PRODOS Core Specification]], strength=5, confidence=high]%%
+%%[synthesizes:: [[SoT - ADHD Neurology & Core Concepts]], strength=5, confidence=high]%%
+%%[synthesizes:: [[SoT - The Data-Centric Philosophy]], strength=5, confidence=high]%%
+%%[synthesizes:: [[SoT - Generative Infrastructure Configuration Framework]], strength=4, confidence=high]%%
+%%[synthesizes:: [[SoT - Logotherapy and the Will to Meaning]], strength=4, confidence=high]%%
+%%[synthesizes:: [[SoT - The Universal Speed of Causality]], strength=3, confidence=medium]%%
+%%[depends_on:: [[SoT - Order Theory & Lattices]], strength=5, confidence=high]%%

@@ -2,10 +2,10 @@
 aliases: [Relation Fields, Semantic Links]
 conformant: false
 created: 2025-10-31T08:19:00+00:00
-modified: 2026-07-21T09:15:12+00:00
+modified: 2026-07-27T09:40:54+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/typed-links-for-knowledge-context
-tags: [linking, semantics, zettelkasten]
+tags: [linking, semantics, topic/knowledge-architecture, zettelkasten]
 title: Typed Links for Knowledge Context
 type: claim
 ---

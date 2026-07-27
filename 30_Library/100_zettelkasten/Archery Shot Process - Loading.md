@@ -2,7 +2,7 @@
 title: Archery Shot Process - Loading
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-loading
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-07-24T17:55:00+01:00
+modified: 2026-07-27T09:20:00+01:00
 tags:
   - prodos/atomic
   - archery
@@ -22,7 +22,13 @@ Summary:
 Loading is the act of drawing the bow using the scapular retractors and shoulder extensors to achieve full alignment and correct back tension.
 
 Details:
+- **Loading vs. Load Position**:
+  - **Loading (The Action)**: The active movement of drawing the bowstring back.
+  - **Load Position (The Position)**: The momentary stopping point or physical baseline reached *just before* moving up into the final facial anchor point.
 - **Drawing Mechanics**:
+  - **The "Lawnmower Pull" Analogy**: Avoid pulling the bowstring back using bicep or forearm muscles. Instead, pull as if starting a lawnmower—engaging the core, torso, and back muscles to generate drawing power.
+  - **Lead with "LAN2" (Posterior Deltoid)**: Initiate the draw by leading with the back of the drawing shoulder (LAN2) rather than trying to pull the string back with your fingers.
+  - **Angular Motion for a Straight Line**: While the drawing shoulder moves in a rounded, angular rotational arc behind the body, the drawing hand must move in a clean, straight line directly toward the jaw/chin. Do not loop the hand outward and inward.
   - Lead the pull using your draw elbow, moving the drawing hand straight back toward your neck. Move the entire drawing shoulder as a unit.
   - **Continuous Elbow Movement**: The draw elbow must continuously move *away* from the target and *around* your body throughout the entire shot cycle. As you draw and anchor, the elbow should naturally trace a slight downward "V" shape, continuing around your back as you expand.
   - **Avoid Collapsing**: At no point should the draw elbow collapse or be pulled forward toward the target. If it collapses, you immediately lose the structural connection between your hand, elbow, and scapula, ruining your alignment.
@@ -30,6 +36,14 @@ Details:
   - Draw the remaining length by engaging the back muscles (scapular retractors) and moving the draw elbow in an **"up and around" path**.
   - **Alignment & Weight Transfer**: Your drawing elbow, wrist, and the arrow should form a straight line. Avoid bending or kinking your wrist inward, as this prevents the force from transferring cleanly through your scapula and back muscles. To achieve proper skeletal alignment, rotate your torso and upper thoracic spine from the setup position rather than just forcing the bow shoulder forward. Visualize the bow shoulder joint as the pivot point, hinging your body around it to bring your draw side into line. Proper shoulder alignment ensures expansion forces act along this straight line; poor alignment forces the drawing hand to bounce outward (plucking) during execution. Squeezing your shoulder blades together achieves the final inch of draw length and transfers the heavy bow weight from your arm muscles to your stronger back muscles.
   - **The Proprioception Trap**: Beginners often lack the advanced bodily awareness to isolate fine muscle contractions. When told to "feel their back muscles" for back tension, they often mistakenly over-retract their shoulders until they hit a skeletal wall. Actively thinking about flexing specific back muscles often causes unwanted tension in the upper traps and a failure to expand through the shot. Focus on the overall direction of physical movement (structural position and elbow path) rather than trying to isolate micro-muscle contractions or "feeling" the muscle squeeze.
+- **Pivoting Bow Hand**: During the setup position, the bow points slightly off-center (to the left for right-handed archers). As you load straight back, the bow hand remains still while the bow handle naturally pivots in your palm to align directly with the target.
+- **Optimizing the Load Position**:
+  - **"Hitting the Wall"**: Treat reaching the load position like hitting a solid wall on a compound bow. You should achieve nearly **100% of your draw length** before moving up into anchor.
+  - **Target Hand Height**: The optimal load position is roughly **1/2 inch below the jaw**. Do not load more than an inch below the jaw, as rising up into anchor from too low causes a loss of back tension.
+  - **Facial Contacts**: At the load position, the bowstring should already make contact with the corner of your chin and the tip of your nose before raising the hand up into final anchor.
+- **Clicker Clearance & Diagnostic Checking**:
+  - **Clicker Clearance**: At the load position (and following transfer), you should be **1 to 4 millimeters** away from dropping the clicker (about half the bulge of an Easton X10 point).
+  - **Visual Flash Check**: Beginners and intermediate archers can briefly flash their eyes down to visually confirm that the clicker blade has crossed the arrow point's bulge before raising the hand up into anchor.
 - **Locking the Hook (Draw Length Creep Prevention)**:
   - Single-string bows lack a mechanical draw stop. Any change in how your fingers curl directly alters your effective draw length, holding weight, and vertical point of impact.
   - As the bow's draw weight increases continuously during the pull, actively increase forearm flexor tension to lock the hook in place. Do not let the bow's weight drag your fingers open.
@@ -81,4 +95,4 @@ Details:
   2. Keeping your hips square and arms straight, reach across your body with your draw hand toward your bow hand.
   3. Observe how your torso and stomach must twist to achieve this reach. Replicate this exact upper-body rotation when raising and drawing your bow.
 
-- **Reference**: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Rogue Archery TV (including proprioception cues), Online Archery Academy (continuous elbow movement, camera drills, recurve release tips, alignment mechanics, shot trainer draw-ups), ArcheryWinchester (consistent aiming path), World Archery release technique guidelines, and Clay Hayes (refining sight picture).
+- **Reference**: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Rogue Archery TV (including proprioception cues), Online Archery Academy (continuous elbow movement, camera drills, recurve release tips, alignment mechanics, shot trainer draw-ups), ArcheryWinchester (consistent aiming path), World Archery release technique guidelines, Clay Hayes (refining sight picture), and Jake Kaminski's Recurve Form Series (Loading and Load Position, NTS/KSL BEST).

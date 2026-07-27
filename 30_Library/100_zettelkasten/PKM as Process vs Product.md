@@ -2,10 +2,10 @@
 aliases: []
 created: 2025-08-24T14:18:33+00:00
 last_reviewed: 'null'
-modified: 2026-07-21T09:15:08+00:00
+modified: 2026-07-27T09:40:54+00:00
 permalink: llmeon/30-library/100-zettelkasten/pkm-as-process-vs-product
 status: 'null'
-tags: [process, TheHuman/Cognition/thinking, topic/pkm, topic/pkm/zettelkasten]
+tags: [process, TheHuman/Cognition/thinking, topic/knowledge-architecture, topic/pkm, topic/pkm/zettelkasten]
 title: PKM as Process vs Product
 type: permanent
 updated: null

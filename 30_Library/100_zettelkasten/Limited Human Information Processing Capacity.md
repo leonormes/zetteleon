@@ -13,4 +13,4 @@ updated: null
 
 Humans possess a finite capacity for processing and holding information simultaneously. This cognitive constraint means that our ability to absorb and integrate vast amounts of data at any given moment is limited, contributing to the myopic nature of our understanding.
 
-[[Myopic understanding]]
+[[Myopic Understanding]]

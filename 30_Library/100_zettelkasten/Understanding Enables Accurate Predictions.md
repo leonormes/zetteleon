@@ -13,4 +13,4 @@ updated: null
 
 A fundamental benefit of genuine understanding is the capacity it provides to make accurate predictions about future events or outcomes. When one comprehends the underlying principles or dynamics of a situation, they are better equipped to anticipate how it will unfold.
 
-[[Myopic understanding]]
+[[Myopic Understanding]]

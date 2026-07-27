@@ -2,16 +2,22 @@
 created: 2026-04-13T14:37:11+00:00
 created_utc: '2026-04-13T11:10:00Z'
 kind: procedure
-modified: 2026-07-21T09:15:09+00:00
+modified: 2026-07-27T15:55:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/research-plan-implement-workflow
+prodos:
+  kind: atomic
+  lifecycle: archived
 source_title: Agentic Engineering and AI Workflow Management
 source_url: https://gemini.google.com/app/7a41bb3090001aa4
-status: seed
+status: archived
 tags: [ai-automation, engineering-standards, process, workflow]
 title: Research-Plan-Implement Workflow
 type: atom
 upstream: '[[HEAD - Agentic Engineering and AI Workflow Management]]'
 ---
+
+> [!NOTE] Archived Note
+> This note has been superseded and subordinated to **[[SoT - The RPI Workflow (Context Engineering)]]**, which provides the canonical Source of Truth and operational framework for this process. This record is preserved in place for audit lineage.
 
 ## Research-Plan-Implement Workflow
 

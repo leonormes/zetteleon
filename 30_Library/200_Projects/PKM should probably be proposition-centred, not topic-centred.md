@@ -1,12 +1,13 @@
 ---
 created: 2026-04-23T15:27:21+00:00
-modified: 2026-07-20T16:34:10+00:00
+modified: 2026-07-27T09:42:54+00:00
 permalink: llmeon/30-library/200-projects/pkm-should-probably-be-proposition-centred-not-topic-centred
 project_category: prodos
 project_name: ProdOS
 project_status: active
 title: PKM should probably be proposition-centred, not topic-centred
 type: null
+tags: [topic/knowledge-architecture]
 ---
 
 ## PKM Should Probably Be Proposition-centred, not Topic-centred
@@ -42,3 +43,5 @@ Note on Maps: Index notes or Maps of Content (MOCs) may exist sparingly to serve
 > A PKM is a belief revision system, not an information warehouse.
 
 By sticking to these five types, you ensure that your system remains a "Runtime Environment for Thought" rather than a stagnant database of facts.
+
+%%[supports:: [[Proposition-Centred Notes Create Cognitive Leverage That Topical Notes Lack]], strength=4, confidence=high]%%

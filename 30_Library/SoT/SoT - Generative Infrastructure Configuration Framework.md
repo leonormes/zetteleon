@@ -134,4 +134,4 @@ For high-maturity environments, CUE (Configure, Unify, Execute) replaces simple 
 
 - [[SoT - FitFile Deployment - Strategy & Architecture]]
 - [[SoT - Software Configuration Management Patterns]]
-- [[SoT - CUE Configuration Logic]]
+- [[SoT - CUE Configuration]]

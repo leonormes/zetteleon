@@ -1,5 +1,5 @@
 ---
-aliases: [Context Compression, High-Signal Prompting, Information Density, Prompt Optimization]
+aliases: [Context Engineering, Context Compression, High-Signal Prompting, Information Density, Prompt Optimization]
 conformant: false
 created: 2026-01-30T11:00:00+00:00
 modified: 2026-07-20T16:33:52+00:00

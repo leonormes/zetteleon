@@ -3,12 +3,12 @@ aliases: [Meta Map of Content, My Thinking Landscape, The Core Domains]
 created: 2025-12-16T09:45:00+00:00
 description: A high-level Meta MOC categorizing the primary domains of thought and
   Sources of Truth (SoT) within the vault.
-modified: 2026-07-20T16:33:56+00:00
+modified: 2026-07-27T09:40:54+00:00
 permalink: llmeon/30-library/mo-c/meta-moc-the-core-domains
 see_also: []
 superseded_by: ''
 supersedes: ''
-tags: [index, meta, structure, type/moc]
+tags: [index, meta, structure, topic/knowledge-architecture, type/moc]
 title: Meta MOC - The Core Domains
 ---
 
@@ -80,7 +80,6 @@ _Understanding the external forces of money, status, and social hierarchy._
 _The biological and relational foundation._
 
 - Triage Hub: [[MOC - Relational Dynamics & Family (Triage)]]
-- Family: [[Bessie Complete Index]]
 - Health: [[MOC - Health and Vitality]] & [[SoT - Physical Health and Vitality]]
 - Dynamics: [[MOC - Healthy Relationship Expectations and Needs]]
 
