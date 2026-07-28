@@ -3,7 +3,7 @@ title: MCP Proxy Robustness and High Availability
 wiki_type: dossier
 entity_kind: project
 created: 2026-05-08 16:02:00+00:00
-modified: 2026-06-12 08:50:00+00:00
+modified: 2026-07-27 17:40:00+00:00
 tags:
 - wiki
 - dossier
@@ -14,6 +14,7 @@ sources:
 - raw/2026-05-28-pieces-hermes-mcp-proxy-fix.md
 - raw/2026-05-30-pieces-mcp-proxy-architecture
 - raw/2026-06-12-pieces-ffnode-mcp-proxy
+- raw/2026-07-27-thenewstack-mcp-spec-rewrite.md
 permalink: llmeon/wiki/projects/mcp-proxy-robustness-and-high-availability
 ---
 
@@ -63,12 +64,28 @@ A planning initiative to make the local `mcp-proxy` installation resilient, high
 
 - **2026-06-12**: User reported ongoing mcp-proxy integration issues: LLMs continue to struggle using the proxy effectively, taking minutes to negotiate the connection. A targeted Claude Code prompt was created to analyse the chezmoi-managed mcp-proxy configuration and diagnose the root cause of fragility — [[raw/2026-06-12-pieces-ffnode-mcp-proxy]] (Pieces: a594a72a)
 
+- **2026-07-27**: **The protocol change that removes this project's root cause.** The MCP 2026-07-28 specification (release candidate frozen 21 May, final 28 July) removes the `initialize`/`initialized` handshake (SEP-2575) and the protocol-level session with its `Mcp-Session-Id` header (SEP-2567). Protocol version, client info and client capabilities now travel in `_meta` on every request, and `server/discover` makes server capabilities independently queryable — [[raw/2026-07-27-thenewstack-mcp-spec-rewrite]]
+  > "As more servers moved into remote, horizontally scaled deployments, those sessions became the problem... A team shipping an MCP server was paying to solve a distributed-systems problem the protocol had created for them." — [[raw/2026-07-27-thenewstack-mcp-spec-rewrite]]
+
+  This bears directly on the 2026-05-28 root cause recorded above. The diagnosis was that MCP streamable-HTTP "requires session negotiation, SSE, and correct `Accept` headers that sandbox `urllib` calls cannot provide". **Under the new revision there is no session negotiation to fail.** The 2026-06-12 symptom — LLMs "taking minutes to negotiate the connection" — is a handshake cost that the specification removes rather than optimises [inference].
+
+- **2026-07-27**: The 2026-05-30 requirement that "proxy startup should be decoupled from LLM client startup" becomes a protocol property rather than a workaround. With capabilities queryable on demand via `server/discover` and carried per-request in `_meta`, there is no connect-time negotiation for startup to wait on — [[raw/2026-07-27-thenewstack-mcp-spec-rewrite]] [inference]
+
+- **2026-07-27**: Caching change relevant to proxy latency. Affected list and read results must now carry `ttlMs` and `cacheScope`, modelled on HTTP `Cache-Control`, so a client can hold a tool catalogue for a stated interval rather than refetching. Servers are also asked to return tools in deterministic order, which the draft ties to better prompt-cache hit rates — [[raw/2026-07-27-thenewstack-mcp-spec-rewrite]]
+
+- **2026-07-27**: Caveat on what statelessness does **not** fix.
+  > "Statelessness at the protocol layer buys routability, not determinism. Two replicas will accept the same request without consulting protocol state, and they will still return different answers if they run different versions or read different downstream data." — [[raw/2026-07-27-thenewstack-mcp-spec-rewrite]]
+
+  Note also that the recurring failure in this project was never purely session negotiation: the 2026-05-30 diagnostic found `mcp_mcp-proxy_*` tools **not present in the session at all** (0 tools registered). Tool-injection failure is a client-side wiring problem that the specification change does not address [inference].
+
 ## Timeline
 
 - **2026-05-08 ~11:41** — Hermes disables ast-grep, atlassian, todoist, and sequential-thinking in the mcp-proxy config.
 - **2026-05-08 ~14:26** — Leon drafts a prompt for his coding agent to plan robustness improvements, restore disabled servers, and prevent future unauthorised changes.
 - **2026-05-30** — User articulated centralized MCP proxy architecture: proxy runs independently, all LLMs discover and use shared proxy
 - **2026-06-12** — User reported ongoing fragility: LLMs still struggle with mcp-proxy. Claude Code prompt created for chezmoi-based root cause analysis
+- **2026-05-21** — (learned 2026-07-27) MCP maintainers freeze the 2026-07-28 release candidate removing sessions and the initialization handshake
+- **2026-07-28** — MCP 2026-07-28 specification ships. Beta SDKs already available for Python, TypeScript, Go and C#
 
 ## Connections
 
@@ -85,4 +102,12 @@ A planning initiative to make the local `mcp-proxy` installation resilient, high
 - What exact `mcp-proxy` version is installed, and which CLI flags support resilience (timeouts, retries, health endpoints)?
 - Is the current drift between `~/.local/share/chezmoi/dot_config/mcpproxy/mcp_proxy.json.tmpl` and the rendered `~/.config/mcpproxy/mcp_proxy.json` limited to the four disabled servers, or are there additional discrepancies?
 - Should each AI consumer (Claude, Cursor, Gemini, Hermes) share a single proxy endpoint, or should they have dedicated proxy instances for isolation?
+  - **2026-07-27 — materially weakened as a question.** Isolation was largely a session-affinity concern. With the protocol session removed, a single shared endpoint behind round-robin is the specification's intended deployment shape — [[raw/2026-07-27-thenewstack-mcp-spec-rewrite]] [inference]
 - What is the best process-management approach on macOS for `mcp-proxy` — `launchd` plist, wrapper script, or another method?
+
+### New questions raised 2026-07-27
+
+- **Does `mcp-proxy` itself survive the spec change, or does it become unnecessary?** Much of what a local proxy provides — connection pooling, session persistence across clients, keeping servers warm — exists because the protocol demanded a session. If remote servers become ordinary stateless HTTP, the aggregation case for a proxy weakens to tool-surface consolidation. Worth answering **before** further investment in proxy HA — [[raw/2026-07-27-thenewstack-mcp-spec-rewrite]] [inference]
+- Which of the 10 configured servers depend on the deprecated Sampling or Logging features, and what does migration cost each? Sampling in particular is a role change, not a swap: a server calling a provider API directly becomes a credential holder, a billing party, and a separate processor of user data — see [[raw/proposed-claims/2026-07-27-deprecating-client-mediated-sampling-transfers-liability-to-servers]]
+- Do the pinned SDK versions in the chezmoi-managed config track the beta SDKs, and does anything in the current setup depend on `Mcp-Session-Id` or resumability?
+- Does the tool-injection gap (`mcp_mcp-proxy_*` absent from session, 0 tools registered) have anything to do with session negotiation at all — or is it entirely a client-side registration bug that will persist unchanged after 28 July? The 2026-05-30 diagnostic suggests the latter, which would mean the spec change fixes the *slow* failure but not the *silent* one.

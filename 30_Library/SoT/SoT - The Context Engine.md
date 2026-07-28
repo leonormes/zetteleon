@@ -10,6 +10,8 @@ title: SoT - The Context Engine
 type: sot
 ---
 
+%%[depends_on:: [[The Architectural Guardian]], strength=4, confidence=high]%%
+
 ## The Context Engine (Formerly "Grand Unifying Theory")
 
 The Context Engine is the system designed to solve [[SoT - Context Rot]] by bridging the [[SoT - Macro-Micro Unification|Macro-Micro Gap]]. It has evolved through two distinct phases of architectural thinking.

@@ -13,7 +13,6 @@ tags:
   - TheHuman/Neuroscience
 title: Dopamine Regulates Motivation (Wanting) Separately from Pleasure (Liking)
 type: claim
-axiom: "true"
 ---
 
 ## Dopamine Regulates Motivation (Wanting) Separately from Pleasure (Liking)

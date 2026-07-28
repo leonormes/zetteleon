@@ -1,8 +1,8 @@
 ---
-aliases: []
+aliases: [LLM Reasoning Efficiency is Proportional to Structural Constraint]
 conformant: false
 created: 2026-01-31T00:00:00+00:00
-modified: 2026-07-20T16:33:47+00:00
+modified: 2026-07-27T00:00:00+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-llm-reasoning-obeys-the-complexity-conservation-law
 tags: [complexity, llm-understanding, prompt-engineering]
@@ -42,3 +42,19 @@ Context stuffing (linear reading) treats code as Geography. The LLM gets lost in
 Recursive exploration (RLM) treats code as Topology. The LLM follows the "lines" (data flow/edges) of the Semantic Graph.
 
 Conclusion: To minimize tokens and maximize accuracy, we must perform the "Data -> Information" conversion _before_ sending the prompt. We provide the "Skeleton" so the model doesn't have to perform the "Surgery" of understanding on its own.
+
+## 5. The Law in LLM Context
+
+Large Language Models do not fail due to a lack of "intelligence" in the traditional sense; they fail when forced to reason over procedural entropy instead of structural constraint. LLMs are essentially statistical traversers of symbolic space — High-Performance at mapping structure to implication (e.g., traversing a graph or following a schema), but Low-Performance at simulating long execution traces or tracking hidden mutable state.
+
+If [[Software Complexity is Conserved Between Control Flow and Representation|Complexity is Conserved]], providing an LLM with raw, unstructured code forces it to _reconstruct_ the underlying data model mentally while simultaneously trying to solve the problem. This "double burden" leads to:
+
+1. Hallucination: The model fills in missing structural gaps with plausible but incorrect guesses.
+2. Context Rot: High token counts of procedural detail dilute the model's attention on core constraints.
+
+### Strategic Shift
+
+To maximize LLM leverage, engineers must shift from **Prompt Engineering** (trying to explain the "how") to **Structural Engineering** (providing the "what").
+
+- Context stuffing is a category error. Larger context windows often worsen reasoning if the contents are procedural rather than structural.
+- MVC (Minimum Viable Context) is the required boundary to prevent these failures.

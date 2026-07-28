@@ -38,8 +38,8 @@ An effective Architectural Guardian prompt consists of three structural pillars:
 
 ### Structural Connections
 
-- `supports::` [[SoT - Agentic Roles]] %%[supports:: [[SoT - Agentic Roles]]]%%—_The Architect role enforces this prompt to safeguard macro constraints._
-- `supports::` [[SoT - Context Engineering]] %%[supports:: [[SoT - Context Engineering]]]%%—_Acts as the persistent meta-context 'Superego' injected into agent workflows._
-- `supports::` [[SoT - The Context Engine]] %%[supports:: [[SoT - The Context Engine]]]%%—_Serves as the second stage of the operational stack following repository reconnaissance._
+- `supports::` [[SoT - Agentic Roles]]—_The Architect role enforces this prompt to safeguard macro constraints._
+- `supports::` [[SoT - Context Engineering]]—_Acts as the persistent meta-context 'Superego' injected into agent workflows._
+- `supports::` [[SoT - The Context Engine]]—_Serves as the second stage of the operational stack following repository reconnaissance._
 
 See Also: [[SoT - Agentic Roles]], [[SoT - Context Engineering]], [[SoT - The Context Engine]], [[SoT - Macro-Micro Unification]]

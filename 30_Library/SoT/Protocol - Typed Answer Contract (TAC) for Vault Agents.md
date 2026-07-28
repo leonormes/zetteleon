@@ -1,16 +1,21 @@
 ---
 created: 2026-07-17T00:00:00+00:00
-description: Universal output-discipline protocol for any ProdOS vault agent. Enforces
-  stated confidence, cited evidence, and an explicit uncertainty flag on every response
-  "— no unlabelled free prose. Reference this from any prompt's Output Contract callout;"
-  route here for the enforcement rule, and to SoT - Typed Answer Contract (TAC) for
-  LLM Output for the underlying theory.
-modified: 2026-07-20T16:34:38+00:00
-permalink: llmeon/10-system/prompts/protocol-typed-answer-contract-tac-for-vault-agents
-see_also: ["[[Goal - Orphan Triage Sweep (Daily Cron)]]", "[[SoT - Typed Answer Contract (TAC) for LLM Output]]"]
-tags: [domain/ai, type/protocol]
+description: Universal output-discipline protocol for any ProdOS vault agent. Enforces stated confidence, cited evidence, and an explicit uncertainty flag on every response " — no unlabelled free prose. Reference this from any prompt's Output Contract callout;" route here for the enforcement rule, and to SoT - Typed Answer Contract (TAC) for LLM Output for the underlying theory.
+modified: 2026-07-27T19:45:00+01:00
+permalink: llmeon/30-library/so-t/protocol-typed-answer-contract-tac-for-vault-agents
+see_also:
+  - "[[Goal - Orphan Triage Sweep (Daily Cron)]]"
+  - "[[SoT - Typed Answer Contract (TAC) for LLM Output]]"
+source_of_truth: true
+tags:
+  - domain/ai
+  - type/protocol
+  - sot
 title: Protocol - Typed Answer Contract (TAC) for Vault Agents
+type: protocol
 ---
+
+%%[implements:: [[SoT - Typed Answer Contract (TAC) for LLM Output]], strength=5, confidence=high]%%
 
 > Output Contract: this note IS the Output Contract. It defines the rule other prompts point to—it has no upstream contract to follow, only the rules below.
 

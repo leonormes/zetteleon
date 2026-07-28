@@ -31,3 +31,12 @@ Requires active, manual linking rather than passive accumulation. The distinctio
 - [[Individual Interpretation Creates Different Knowledge from the Same Information]]—direct concept match: the same source information yields different knowledge depending on personal context; this atom gives the PKM-specific form of that claim.
 - [[Personal Context and Relevance are Key to Knowledge Formation]]—direct concept match: personal context is precisely the variable that determines whether information becomes actionable knowledge.
 - [[SoT - Human vs AI Cognition]]—shared mechanism: this atom's claim that AI cannot replicate personal-context insight directly mirrors the HvAI distinction between Grounded Cognition (human) and Distributional Semantics (AI); the AI operates on a closed loop of language without access to the user's experiential ground.
+
+## Tensions
+
+### Automated consolidation vs personal-context curation
+
+This note asserts that the vault's primary value is the human's lived experience and subjective connection-making. [[Proposition-Centred Notes Make Superior RAG Chunks for LLM Context Engines]] and [[Local-First Obsidian with MCP and RAG Is the Best-Fit Substrate for Data-Sovereign PKM]] assume the vault's value is as an LLM context substrate.
+
+Both are true of this vault — it serves both masters — but neither note states which primary reader it assumes. The tension becomes operational when a design decision optimises for one at the expense of the other (e.g. atomic claim chunks for RAG vs. narrative prose for human sense-making).
+

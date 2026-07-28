@@ -76,3 +76,11 @@ An agent only activates a skill based on its description. Vague descriptions (e.
 - [[SoT - Gemini CLI Operations & Workflow]]
 - [[SoT - Flow Engineering]]—Pattern B is an instance of this broader orchestration discipline
 - [[SoT - LLM Semantic-Statistical Mismatch]]—Why Pattern B (scripts for deterministic tasks) is necessary
+
+---
+
+## Tensions
+
+### General assistant vs task-specific agent
+
+This note advocates progressive disclosure — keeping one agent lean by loading skills on demand. [[SoT - Agentic Roles]] divides cognitive load across five specialised roles in separate processes. The question is whether context isolation is achieved by *lazy loading* (this note's approach) or by *separate processes* (Agentic Roles). This note's own Skill/MCP/Subagent table nearly resolves the question but stops short of stating the decision rule.

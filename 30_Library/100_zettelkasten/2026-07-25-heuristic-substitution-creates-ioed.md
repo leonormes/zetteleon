@@ -3,13 +3,18 @@ title: Heuristic Substitution Creates the Illusion of Explanatory Depth
 type: claim
 proposition: The brain conserves effort by substituting the easy question "do I recognise X?" for the hard question "do I understand X?", tagging familiar labels as "known" without auditing the underlying causal logic.
 epistemic_status: medium
-evidence_links: ["[[SoT - Illusion of Explanatory Depth (IoED)]]"]
+evidence_links:
+  - "[[SoT - Illusion of Explanatory Depth (IoED)]]"
 contradicts: []
 conformant: false
-non_conformance_reason: "evidence_links points to a synthesis SoT note, not a dedicated Evidence note; no standalone EvidenceNote exists yet for this claim."
+non_conformance_reason: evidence_links points to a synthesis SoT note, not a dedicated Evidence note; no standalone EvidenceNote exists yet for this claim.
 created: 2026-07-25T11:17:00+00:00
 modified: 2026-07-25T12:00:00+00:00
-tags: [bias, learning, mental_models, TheHuman/Cognition]
+tags:
+  - bias
+  - learning
+  - mental_models
+  - TheHuman/Cognition
 permalink: llmeon/30-library/100-zettelkasten/2026-07-25-heuristic-substitution-creates-ioed
 ---
 

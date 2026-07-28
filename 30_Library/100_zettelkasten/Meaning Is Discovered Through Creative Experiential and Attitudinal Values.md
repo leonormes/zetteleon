@@ -29,7 +29,7 @@ The three-pathway structure is a practical taxonomy, not an abstract hierarchy. 
 ### Related
 
 - [[SoT - Logotherapy and the Will to Meaning]]—direct concept match: the Three Pathways are Section 3 of the SoT; the atom provides a standalone, context-free summary.
-- [[SoT - Values and Eudaimonia]]—shared mechanism: Eudaimonia's distinction between hedonic (pleasure) and eudaimonic (duty/meaning) well-being maps onto the Creative and Attitudinal Values respectively; both offer a structured non-hedonic account of the good life. %%[supports:: [[SoT - Values and Eudaimonia]]]%%
+- [[SoT - Values and Eudaimonia]]—shared mechanism: Eudaimonia's distinction between hedonic (pleasure) and eudaimonic (duty/meaning) well-being maps onto the Creative and Attitudinal Values respectively; both offer a structured non-hedonic account of the good life.
 - [[The Four Noble Truths Explain Suffering from Attachment]]—shared mechanism: both traditions validate unavoidable suffering as something to be faced rather than merely escaped; attitudinal values (logotherapy) and acceptance of Dukkha (Buddhism) address the same existential problem from different frameworks.
 
 ### Knowledge Graph

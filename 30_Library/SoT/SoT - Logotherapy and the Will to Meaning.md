@@ -119,6 +119,4 @@ This SoT is a **bedrock leaf** of the argument graph (see [[SoT - Knowledge Comp
 
 [[SoT - Values and Eudaimonia]] — §2B The Will to Meaning & §3 Pathways to Meaning. Grounds the architecture of eudaimonistic duty and purpose over momentary pleasure.
 
-%%[supports:: [[SoT - Values and Eudaimonia]]]%%
-
 Other atoms extracted from this SoT — [[Logotherapy Posits the Search for Meaning as the Primary Human Motivation]] (§2B), [[Meaning Is Discovered Through Creative Experiential and Attitudinal Values]] (§3), [[Tragic Optimism Is Hope and Meaning That Acknowledges Rather Than Denies the Tragic Triad]] (§4) — are not yet wired with justification edges. Seed them one at a time as the argument actually needs them.

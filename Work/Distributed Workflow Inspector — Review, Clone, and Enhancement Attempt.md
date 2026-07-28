@@ -1,7 +1,7 @@
 ---
 created: 2026-07-17T13:20:18+00:00
 date: 2026-07-17
-modified: 2026-07-20T16:33:32+00:00
+modified: 2026-07-27T20:49:32+00:00
 permalink: llmeon/work/distributed-workflow-inspector-review-clone-and-enhancement-attempt
 project: Sandbox Stress-Test Dashboards & Observability
 related_note: kube_pod_labels Metrics Plan — Sandbox Stress-Test Observability.md
@@ -24,14 +24,14 @@ Ollie (workflows-api team) independently built the exact drill-down dashboard ou
 
 Our [earlier plan](kube_pod_labels%20Metrics%20Plan%20—%20Sandbox%20Stress-Test%20Observability.md) assumed the only way to join FFCloud's instance UUID to Argo Workflow pods was a Kubernetes pod label (`ffcloud.io/instance-id`) plus the `kube_pod_labels` metric fix. Ollie's dashboard proves workflows-api solved this differently—with two purpose-built bridge metrics, confirmed live via `gcx metrics query`:
 
-```
+```sh
 argo_workflow_by_fitfile_workflow{cluster, fitfile_workflow_id, argo_workflow_id, argo_workflow_name}
 argo_workflow_by_pod{cluster, workflow_name, pod_name}
 ```
 
 Sample data (`sandbox-testing-2`):
 
-```
+```sh
 argo_workflow_by_fitfile_workflow{argo_workflow_id="28d6613a-905f-47d4-bb8c-b588e29f04c5",
   argo_workflow_name="100k-patients-single-source-privacy-on-1-workflow-7zr7b",
   fitfile_workflow_id="e6e3c571-290e-4f94-871d-45895954b3c3"}

@@ -1,13 +1,15 @@
 ---
 conformant: false
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-07-21T09:15:09+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+modified: 2026-07-27T22:24:48+00:00
+non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/100-zettelkasten/reinforcement-learning-produces-jagged-intelligence-high-in-verifiable-low-in-subjective-domains
 tags: [constraints, intelligence, llm, reinforcement-learning]
 title: Reinforcement Learning Produces Jagged Intelligence — High in Verifiable, Low in Subjective Domains
 type: claim
 ---
+
+%%[supports:: [[Agentic Autonomy Accelerates Fastest in Domains Where Success Is Verifiable]], strength=4, confidence=high]%%
 
 ## Reinforcement Learning Produces Jagged Intelligence—High in Verifiable, Low in Subjective Domains
 

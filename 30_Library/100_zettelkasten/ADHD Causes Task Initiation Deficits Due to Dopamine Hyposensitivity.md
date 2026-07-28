@@ -1,6 +1,5 @@
 ---
 aliases: [Dopamine Hyposensitivity, Striatal Dopamine Deficit]
-axiom: "true"
 conformant: false
 created: 2025-10-29T16:38:00+00:00
 modified: 2026-07-26T19:33:43+00:00

@@ -9,6 +9,9 @@ title: Evaluation Pipelines Should Distinguish LLM Judges from Deterministic Scr
 type: claim
 ---
 
+%%[synthesizes:: [[Objective Task Validation]], strength=3, confidence=high]%%
+%%[synthesizes:: [[Subjective Task Validation]], strength=3, confidence=high]%%
+
 ## Evaluation Pipelines Should Distinguish LLM Judges from Deterministic Scripts
 
 Evaluation pipelines must select their evaluation mechanism based on the nature of the task: subjective or creative tasks require an LLM judge capable of nuanced interpretation, while objective tasks—those with a ground truth or a binary pass/fail—are better handled by a deterministic script. Using an LLM to evaluate an objectively measurable outcome wastes tokens, introduces non-determinism, and creates a risk of the LLM rationalising rather than measuring.

@@ -2,10 +2,10 @@
 aliases: [Limbic Friction]
 conformant: false
 created: 2025-10-30T12:05:02+00:00
-modified: 2026-07-21T09:15:07+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+modified: 2026-07-28T06:32:45+00:00
+non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/100-zettelkasten/limbic-friction-is-the-activation-energy-for-habits
-source: '[[MOC - The Science of Making and Breaking Habits]]'
+source: "[[MOC - The Science of Making and Breaking Habits]]"
 tags: [limbic-system, TheHuman/Habits, TheHuman/Motivation, TheHuman/Neuroscience]
 title: Limbic Friction is the Activation Energy for Habits
 type: claim

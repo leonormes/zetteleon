@@ -9,6 +9,8 @@ title: MVC Enforcement Structural Gates for LLM Agents
 type: sot
 ---
 
+%%[implements:: [[SoT - Flow Engineering]], strength=4, confidence=high]%%
+
 ## MVC Enforcement: Structural Gates for LLM Agents
 
 Minimum Viable Context (MVC) must be enforced by structural gates, not by human discipline or prompt instructions. Agents should be physically unable to receive information that violates MVC.
@@ -45,5 +47,7 @@ If an agent mentions a symbol not found in its current structural interface, or 
 ---
 
 rel:: enforces [[Minimum Viable Context for LLMs Prevents Hallucination via Structural Boundaries]]
+
+%%[supports:: [[Minimum Viable Context for LLMs Prevents Hallucination via Structural Boundaries]], strength=4, confidence=high]%%
 
 rel:: justifies [[Agentic REPL]]

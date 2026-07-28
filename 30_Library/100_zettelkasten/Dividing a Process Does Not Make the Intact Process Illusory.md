@@ -1,20 +1,12 @@
 ---
-aliases:
-  - The Self Is Not Illusory Just Because It Divides
-  - Water and Wetness Argument
+aliases: [The Self Is Not Illusory Just Because It Divides, Water and Wetness Argument]
 conformant: true
 created: 2026-07-16T15:50:54+00:00
-modified: 2026-07-21T09:15:05+00:00
+modified: 2026-07-27T20:50:12+00:00
 permalink: llmeon/30-library/100-zettelkasten/dividing-a-process-does-not-make-the-intact-process-illusory
 source_title: Waking Up (Sam Harris) — reviewed LLM summary and critique
 status: draft
-tags:
-  - consciousness
-  - emergence
-  - philosophy-of-mind
-  - self
-  - TheHuman/Identity
-  - TheHuman/Philosophy
+tags: [consciousness, emergence, philosophy-of-mind, self, TheHuman/Identity, TheHuman/Philosophy]
 title: Dividing a Process Does Not Make the Intact Process Illusory
 type: claim
 ---

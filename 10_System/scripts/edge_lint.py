@@ -687,6 +687,100 @@ def run_thread(files, idx: Index, yaml_mod, query: str, mode: str):
     return 0
 
 
+def run_route(files, idx: Index, yaml_mod, proposition: str, max_hits: int) -> int:
+    """Find nearest existing claims by token overlap, with grounding status.
+    
+    Tokenises the proposition into words, scores each claim title by word
+    overlap (Jaccard-like), and returns the top N hits with their grounding
+    status: grounded / axiom / gap.
+    """
+    nodes, edges = build_graph(files, idx, yaml_mod)
+    from collections import Counter
+
+    sup_in, sup_out = Counter(), Counter()
+    for src, rel, tgt in edges:
+        if rel == "supports":
+            sup_out[src] += 1; sup_in[tgt] += 1
+        elif rel == "depends_on":
+            sup_out[src] += 1; sup_in[tgt] += 1
+
+    participating = {k for e in edges for k in (e[0], e[2])}
+    label = lambda k: nodes[k].label if k in nodes else k[1]
+    is_axiom = lambda k: bool(nodes.get(k)) and nodes[k].axiom
+    grounded = lambda k: sup_in[k] >= 1 or is_axiom(k)
+    is_claim = lambda k: bool(nodes.get(k)) and nodes[k].type == "claim"
+
+    # Tokenise the query
+    query_tokens = set(re.findall(r"[a-z0-9]+", proposition.lower()))
+
+    # Score every claim participating in the graph
+    scores = []
+    for k in participating:
+        if not is_claim(k):
+            continue
+        title = label(k)
+        title_tokens = set(re.findall(r"[a-z0-9]+", title.lower()))
+        if not title_tokens:
+            continue
+        overlap = len(query_tokens & title_tokens)
+        if overlap == 0:
+            continue
+        jaccard = overlap / len(query_tokens | title_tokens)
+        scores.append((jaccard, overlap, k, title))
+
+    scores.sort(key=lambda x: (-x[0], -x[1], x[3]))
+    scores = scores[:max_hits]
+
+    print("=" * 60)
+    print(f"ROUTE: {proposition}")
+    print("=" * 60)
+    print(f"  {len(scores)} claim(s) matched in graph\n")
+
+    if not scores:
+        print("  No graph-participating claims matched. Try --audit for C1 gaps.")
+        return 0
+
+    print(f"  {'Score':>6}  {'Status':>10}  {'Title'}")
+    print(f"  {'-'*6}  {'-'*10}  {'-'*50}")
+    for jaccard, overlap, k, title in scores:
+        if grounded(k):
+            status = "grounded"
+        elif is_axiom(k):
+            status = "axiom"
+        else:
+            status = "GAP"
+        print(f"  {jaccard:>5.2f}  {status:>10}  {title}")
+
+    # Also show unmatched claim titles from the vault (those not in graph)
+    # by scanning the full vault
+    print("\n--- Claims not yet in the graph (no edges) ---")
+    unmatched = 0
+    for fp in files:
+        try:
+            text = open(fp, encoding="utf-8").read()
+        except (UnicodeDecodeError, OSError):
+            continue
+        ntype, naxiom, ntitle = note_meta(text, yaml_mod, fp)
+        if ntype != "claim":
+            continue
+        if ("note", fp) in participating:
+            continue
+        title_tokens = set(re.findall(r"[a-z0-9]+", ntitle.lower()))
+        if not title_tokens:
+            continue
+        overlap = len(query_tokens & title_tokens)
+        if overlap == 0:
+            continue
+        jaccard = overlap / len(query_tokens | title_tokens)
+        if jaccard < 0.15:
+            continue
+        unmatched += 1
+        if unmatched <= max_hits:
+            print(f"  • {ntitle}  (score={jaccard:.2f})")
+
+    return 0
+
+
 def collect_files(root: str):
     out = []
     for dirpath, dirnames, filenames in os.walk(root):
@@ -708,6 +802,10 @@ def main() -> int:
     ap.add_argument("--quiet", action="store_true", help="only show files with findings")
     ap.add_argument("--audit", action="store_true",
                     help="also print the argument audit (C1 gaps + C2 foundations + C3 conflicts)")
+    ap.add_argument("--route", metavar="PROPOSITION",
+                    help="find nearest existing claims for a proposition, with grounding status")
+    ap.add_argument("--max-route-hits", default=12, type=int, metavar="N",
+                    help="max results for --route (default 12)")
     ap.add_argument("--why", metavar="TITLE",
                     help="print the justification tree for a claim (what it rests on)")
     ap.add_argument("--impact", metavar="TITLE",
@@ -720,7 +818,9 @@ def main() -> int:
     files = collect_files(root)
     idx = build_index(files, yaml_mod)
 
-    # Focused provenance queries skip the lint report entirely.
+    # Focused queries skip the lint report entirely.
+    if args.route:
+        return run_route(files, idx, yaml_mod, args.route, args.max_route_hits)
     if args.why:
         return run_thread(files, idx, yaml_mod, args.why, "why")
     if args.impact:

@@ -1,11 +1,17 @@
 ---
-aliases: [communication lossy compression, encoding-decoding gap, translation problem]
+aliases:
+  - communication lossy compression
+  - encoding-decoding gap
+  - translation problem
 conformant: false
 created: 2025-10-31T20:02:00+00:00
 modified: 2026-07-21T09:15:04+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/100-zettelkasten/communication-is-inherently-lossy-like-image-compression
-tags: [communication, information-theory, linguistics]
+tags:
+  - communication
+  - information-theory
+  - linguistics
 title: Communication is inherently lossy like image compression
 type: claim
 ---

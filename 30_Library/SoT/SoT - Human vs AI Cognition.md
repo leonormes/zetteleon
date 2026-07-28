@@ -1,16 +1,18 @@
 ---
-aliases: [Active Inference, Anthropomorphism, Cognitive Architectures, Eliza Effect, Grounded Cognition, Human vs LLM]
+aliases: [Human vs AI Cognition, Human Cognitive Architecture, The Brain Is Not A GPU]
 conformant: false
-created: 2025-12-21T00:00:00+00:00
-last-synthesis: 2026-04-04
-modified: 2026-07-20T16:33:48+00:00
+created: 2026-01-30T14:30:00+00:00
+last-synthesis: 2026-01-30
+modified: 2026-07-20T16:33:44+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-human-vs-ai-cognition
 source_of_truth: true
-tags: [ai, epistemology, llm, mental-models, TheHuman/Cognition, TheHuman/Philosophy]
+tags: [comparative-cognition, epistemology, llm, sot]
 title: SoT - Human vs AI Cognition
 type: sot
 ---
+
+%%[supports:: [[SoT - LLM Codebase Understanding & Hierarchy]], strength=3, confidence=medium]%%
 
 ## Minimum Viable Understanding (MVU)
 

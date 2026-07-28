@@ -2,11 +2,16 @@
 conformant: false
 created: 2026-02-01T20:57:13+00:00
 modified: 2026-07-21T09:15:10+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/100-zettelkasten/targeting-llm-attention-requires-encoding-relevance-as-structure
-tags: [architecture, concept/attention, domain/ai]
+tags:
+  - architecture
+  - concept/attention
+  - domain/ai
 title: Targeting LLM Attention Requires Encoding Relevance as Structure
 type: claim
+aliases:
+  - Targeting LLM Attention via Structural Constraints
 ---
 
 ## Targeting LLM Attention Requires Encoding Relevance as Structure
@@ -28,3 +33,5 @@ Every token not structurally justified is adversarial noise. If a piece of infor
 rel:: supports [[Minimum Viable Context for LLMs Prevents Hallucination via Structural Boundaries]]
 
 rel:: explains [[Targeting LLM Attention via Structural Constraints]]
+
+%%[supports:: [[Minimum Viable Context for LLMs Prevents Hallucination via Structural Boundaries]], strength=4, confidence=high]%%

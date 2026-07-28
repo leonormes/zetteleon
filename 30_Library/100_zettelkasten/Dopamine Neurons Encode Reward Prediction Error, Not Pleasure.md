@@ -15,7 +15,6 @@ tags:
 title: Dopamine Neurons Encode Reward Prediction Error, Not Pleasure
 type: claim
 upstream: "[[Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture]]"
-axiom: true
 ---
 
 ## Dopamine Neurons Encode Reward Prediction Error, Not Pleasure

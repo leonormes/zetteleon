@@ -10,6 +10,8 @@ title: SoT - Agentic Roles
 type: sot
 ---
 
+%%[depends_on:: [[The Architectural Guardian]], strength=4, confidence=high]%%
+
 ## The Surgical Team (Agentic Roles)
 
 To execute [[SoT - Macro-Micro Unification]], we divide the cognitive load across specialized agent roles. No single agent can hold the entire context; therefore, we rely on a Role-Based Architecture.
@@ -36,3 +38,9 @@ To execute [[SoT - Macro-Micro Unification]], we divide the cognitive load acros
 %%[implements:: [[SoT - The Context Engine]]]%%
 
 See Also: [[SoT - The Context Engine]], [[SoT - Macro-Micro Unification]]
+
+## Tensions
+
+### General assistant vs task-specific agent
+
+This note divides cognitive load across five specialised roles (Architect, Scout, Cartographer, Historian, Coder) in separate processes. [[SoT - AI Agent Skill Architecture]] advocates progressive disclosure — keeping one agent lean by loading skills on demand. The unresolved question is whether context isolation is better achieved by separate processes (this note) or by lazy loading within a single agent. This note's own table nearly resolves it but does not state the decision rule.

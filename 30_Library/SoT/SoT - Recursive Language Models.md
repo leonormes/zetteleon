@@ -1,68 +1,21 @@
 ---
-aliases: [Agentic REPL, RLM]
-conformant: false
-created: 2026-01-31T00:00:00+00:00
-modified: 2026-07-20T16:33:45+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
-permalink: llmeon/30-library/so-t/so-t-recursive-language-models
-tags: [agents, architecture, research, rlm]
 title: SoT - Recursive Language Models
-type: sot
+type: note
+permalink: llmeon/30-library/so-t/so-t-recursive-language-models
 ---
 
-## The Core Problem: Context Rot & Complexity
+# SoT - Recursive Language Models
 
-"Context Rot" is not just about document length; it is about Task Complexity.
+A Source of Truth note on Recursive Language Models — models that apply language model inference recursively, either over their own outputs or over structured intermediate representations, to handle tasks requiring multi-hop reasoning.
 
-Complex documents (codebases, legal contracts) are not linear stories. They have high internal self-reference (functions calling functions, clauses referencing clauses).
+Recursive language models are distinguished from single-pass inference by their ability to chain reasoning steps, revisit intermediate conclusions, and integrate outputs across multiple inference passes. This makes them better suited for tasks requiring logical composition, multi-step deduction, or reasoning over structured knowledge graphs, where flat semantic similarity retrieval is insufficient.
 
-### Failure of Current Methods
+Key claim: RAG is "brittle for multi-hop reasoning because it relies on semantic similarity rather than logical relationships." Querying raw retrieval is structurally flawed for tasks where the answer depends on a chain of inferences rather than a single nearest-neighbour lookup.
 
-1. Context Stuffing: Simply adding more text to the prompt leads to performance deterioration (Attention Dilution) and higher costs.
-2. Summarisation: This is "lossy"; vital context is often discarded, causing the agent to drift off-task.
-3. RAG (Retrieval Augmented Generation): Good for simple Q&A, but brittle for multi-hop reasoning because it relies on semantic similarity rather than logical relationships.
+## Tensions
 
-## The Solution: Recursive Language Models (RLMs)
+### Long context vs retrieval
 
-The solution involves using a REPL (Read-Evaluate-Print Loop) environment combined with Recursion.
+This note argues that RAG is "brittle for multi-hop reasoning because it relies on semantic similarity rather than logical relationships" and that querying raw retrieval is structurally flawed. [[Retrieval-Augmented Generation (RAG)]] and the Qdrant notes treat retrieval as a working mechanism.
 
-How it works: Instead of feeding the text directly into the model, the document/codebase is assigned to a variable or accessible via a tool. The AI then uses code execution to:
-
-1. Read: Access specific parts of the data.
-2. Evaluate: Perform functions on the data (e.g., keyword match, slice, AST lookup).
-3. Print: Return the result to the loop.
-4. Recursion: The model can "hand off" sub-tasks or query itself, effectively creating a dependency graph of information.
-
-## New Mental Model: Dependency Graphs
-
-Stop treating complex data as a linear book. Model it as a dependency graph:
-
-- Nodes: Functions, Classes, Clauses.
-- Edges: Calls, Imports, References.
-
-This allows the agent to "intelligently search" and traverse the structure.
-
-## Operational Implementation: The Agentic Loop
-
-To implement this, one must move from a "Linear Reader" architecture to a "Recursive Agent" architecture.
-
-Linear (Old):
-
-1. Scan files.
-2. Dump everything into `CONTEXT.md`.
-3. LLM reads huge file -> Guesses Plan.
-
-Recursive (New):
-
-1. Agent receives Task.
-2. Agent starts with Zero Context.
-3. Loop:
-    - _Thought:_ "I need to find class X."
-    - _Action:_ `Scout.lookup("X")`
-    - _Observation:_ "X is in file Y."
-    - _Thought:_ "I need to see who calls X."
-    - _Action:_ `Scout.refs("X")`
-    - …
-4. Agent synthesizes Plan.
-
-This shifts the computational load from "Memory" (Context Window) to "Compute" (Reasoning Loop).
+This is a scope tension, not a disagreement: single-hop factual lookup vs multi-hop reasoning have different optimal strategies. The RAG notes are definitional rather than advocacy, so the tension is about which regime applies to a given task, not which is correct.

@@ -2,7 +2,7 @@
 title: Archery Shot Process - Posture
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-posture
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-07-24T17:55:00+01:00
+modified: 2026-07-27T18:35:00+01:00
 tags:
   - prodos/atomic
   - archery
@@ -44,6 +44,7 @@ Details:
   - *During Raise*: Arching the lower back to lift the bow.
   - *During Draw*: Pulling back with the spine/back instead of drawing with the scapula.
   - *During Follow-Through*: Leaning back or collapsing as the arrow leaves.
+- **Eliminating Postural Sway**: Maintain complete torso and core stability along the shooting line with zero swaying or leaning forward/backward during the draw and execution. If your body sways, you cannot accurately feel what your shoulders and upper back muscles are doing, leading to inconsistent shots where something feels "off" without an identifiable root cause.
 
 ### Training Drills
 
@@ -67,4 +68,24 @@ Details:
   2. Have a partner gently hold your head or cap in place without applying force.
   3. Execute your draw. If your head shifts or rotates, you will instantly feel resistance against your partner's hands.
 
-- **Reference**: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Sjef van den Berg guidelines, Rogue Archery TV coaching sessions, Jake Kaminski (Recurve Form Series Episode 4), MFJJ (ElkShape) postural settling/breathing cues, and Online Archery Academy (alignment mechanics, mirror posture drills).
+#### **Feet-Together Shooting Drill**
+* **Purpose:** Eliminates lateral weight shifting and sharpens kinesthetic awareness of body balance during shot execution.
+* **How to do it**:
+  1. Stand at close range in front of a blank bale.
+  2. Place your feet completely together to narrow your base of support.
+  3. Execute shots while maintaining a rock-solid, motionless torso and core.
+
+#### **Visual Reference (Tripod) Drill**
+* **Purpose:** Visually detects subtle forward or backward torso sway relative to a stationary vertical line.
+* **How to do it**:
+  1. Set up a tripod or vertical stand slightly off to the side between yourself and the target.
+  2. Use a video recorder or observer to check your alignment against this fixed vertical line throughout the shot cycle.
+  3. Ensure zero forward or backward postural drift from setup through execution.
+
+#### **Balance & Eyes-Closed Drills**
+* **Purpose:** Heightens internal balance and postural proprioception without relying on visual orientation.
+* **How to do it**:
+  1. Practice blank-bale shooting while standing on a wobble cushion, or with your eyes closed during execution.
+  2. Focus purely on internal core stability and maintaining complete torso stillness along the shooting line.
+
+- **Reference**: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Sjef van den Berg guidelines, Rogue Archery TV coaching sessions, Jake Kaminski (Recurve Form Series Episode 4), MFJJ (ElkShape) postural settling/breathing cues, and Online Archery Academy (alignment mechanics, mirror posture drills, postural sway elimination, feet-together/tripod/wobble drills).

@@ -2,11 +2,17 @@
 conformant: false
 created: 2026-04-10T00:00:00+00:00
 modified: 2026-07-21T09:15:03+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/100-zettelkasten/automated-optimization-loops-degrade-beyond-15-iterations
-tags: [iterations, optimization, quality-control, token-management]
+tags:
+  - iterations
+  - optimization
+  - quality-control
+  - token-management
 title: Automated Optimization Loops Degrade Beyond 15 Iterations
 type: claim
+aliases:
+  - Optimal Iteration Count
 ---
 
 ## Automated Optimization Loops Degrade Beyond 15 Iterations
@@ -17,14 +23,17 @@ Effective automated optimization typically requires 5 to 10 iterations to conver
 
 Applies when setting the loop count for recursive optimization tasks in agentic frameworks. The 5–10 / 15 heuristic is empirical guidance from a specific framework (Auto Research), not a universal law. The appropriate number may vary with task complexity and context window management strategies. The principle—that longer loops introduce diminishing returns and eventual quality regression—is the transferable insight.
 
+Specifically covers iterative improvement cycles where an agent attempts to refine its own output based on feedback. In cost-management contexts, the cap also serves as a hard spend ceiling for API-intensive automated research workflows.
+
 ### Evidence
 
 > "recommends running 5 to 10 iterations; going beyond 15 can degrade the output and unnecessarily increase your token costs [17:00]"
 
 ### Implications
 
-- Prevents quality "drift" or over-fitting in long agentic optimization loops.
-- Functions as a primary cost-management constraint: token spend scales with iteration count, so a hard ceiling is both a quality and an economics control.
+- Prevents quality "drift" or **over-fitting** in long agentic optimization loops.
+- Functions as a primary **cost-management** constraint: token spend scales with iteration count, so a hard ceiling is both a quality and an economics control—including managing API spend during automated research.
+- Acts as a concrete bound for the "Recursive Self-Improvement" pattern: it governs a pattern that frameworks describe structurally but typically leave unconstrained numerically.
 
 ### Related
 

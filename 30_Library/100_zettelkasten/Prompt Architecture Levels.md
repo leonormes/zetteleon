@@ -34,3 +34,10 @@ Used to increase the reliability and formatting precision of LLM outputs.
 
 - [[Context Curation Necessity]]—supports: prompt architecture is a primary method for implementing context curation.
 - [[SoT - Context Engineering]]—shared mechanism: provides the broader framework for constructing these high-signal prompts.
+
+## Tensions
+
+### Rules vs demonstrations
+
+This note treats few-shot examples as a level of prompt architecture. [[SoT - Context Engineering]] advocates a 'Domain Manifesto' approach — stating the laws of the universe as declarative rules. The relative effectiveness of demonstrations vs rules for constraining LLM output is genuinely unadjudicated in the vault. Neither approach has empirical evidence recorded here.
+

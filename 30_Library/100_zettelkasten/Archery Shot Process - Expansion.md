@@ -2,7 +2,7 @@
 title: Archery Shot Process - Expansion
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-expansion
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-07-27T09:20:00+01:00
+modified: 2026-07-27T18:35:00+01:00
 tags:
   - prodos/atomic
   - archery
@@ -33,6 +33,7 @@ Details:
   - **Internal Focus (Eyes Closed Practice)**: Once anchored comfortably, try closing your eyes to focus entirely on the internal feeling of the shot. Keep building this push/pull tension until the release fires completely by surprise.
 - **Dynamic Action**: Favour a dynamic, firm, aggressive release with strong elbow continuation (emulating Korean archers like An San or Yun Mi-jin) pulling firmly into the face. Avoid trying to force an ultra-soft, "effortless" release (the Kim Woo-jin trap) which often causes intermediate archers to collapse.
 - **Minimal Distance Through the Clicker**: When you reach full draw and anchor, you should have only a tiny fraction of the arrow left under the clicker blade—ideally **1 to 4 millimeters** (approximately half the bulge of an Easton X10 point). Leaving 0.5 cm or 1 cm of arrow shaft forces a large physical expansion movement, leading to body posture shifts and erratic shot execution.
+- **Smooth, Continuous Clicker Expansion**: Develop a repeatable, smooth method of expanding through those last few millimeters of the clicker without stalling, collapsing forward, or jerking the release. Unbroken expansion ensures clean bowstring clearance and actively defends against fatigue-induced collapsing late in a session or match.
 - **Imperceptible Motion (World-Class Standard)**: Expansion should be almost completely imperceptible to an observer. The overall body shape, head position, and posture must remain static. The expansion occurs internally through refined back tension without swinging the head backward or driving the bow shoulder forward.
 - **Common Signs of Flawed Expansion**:
   - **Head & Neck Drift**: The head visibly shifts backward as you try to force the arrow through the clicker.
@@ -65,4 +66,4 @@ Details:
   2. Place the loop around your draw arm so the arrow shaft sits directly in the crease of your elbow joint.
   3. At full draw, focus on squeezing the arrow shaft around behind your body to pull the final millimetres through the clicker.
 
-- **Reference**: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], [[20_Thinking/21_Workbench/HEAD - Archery Practice|HEAD - Archery Practice]], Rogue Archery TV, Online Archery Academy (release technique guidelines, expansion video analysis), Jake Kaminski's KSL Shot Cycle tutorials and Recurve Form Series (also referencing *Total Archery: Inside the Archer* by Kisik Lee and Tyler Benner), MFJJ (ElkShape) push/pull surprise release cues, and Clay Hayes (tactile draw length markers).
+- **Reference**: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], [[20_Thinking/21_Workbench/HEAD - Archery Practice|HEAD - Archery Practice]], Rogue Archery TV, Online Archery Academy (release technique guidelines, expansion video analysis, smooth clicker expansion without stalling), Jake Kaminski's KSL Shot Cycle tutorials and Recurve Form Series (also referencing *Total Archery: Inside the Archer* by Kisik Lee and Tyler Benner), MFJJ (ElkShape) push/pull surprise release cues, and Clay Hayes (tactile draw length markers).

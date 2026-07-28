@@ -15,6 +15,8 @@ title: SoT - Flow Engineering
 type: sot
 ---
 
+%%[depends_on:: [[SoT - LLM Semantic-Statistical Mismatch]], strength=5, confidence=high]%%
+
 ## Minimum Viable Understanding (MVU)
 
 Flow Engineering is the discipline of enforcing LLM workflow constraints through a deterministic orchestration layer (code), rather than natural language prompt text. The LLM is reduced to what it actually is—a pure text-in/text-out transformation function—while all state management, gate enforcement, and feedback loops are handled by the surrounding programme.
@@ -93,6 +95,12 @@ A prompt-based "skill" attempts to build a state machine in English. Flow Engine
 
 - Natural language prompts: Single-task instructions with highly constrained output scope. Use few-shot examples and mechanical constraints (not philosophical ones).
 - Orchestration code: All state, all gates, all feedback loops, all file system operations.
+
+---
+
+### Prompt-Injected NFRs vs structural gates
+
+[[Prompt-Injected Non-Functional Requirements (NFRs) for Autonomous Agents]] asserts that prompt instructions reliably injected by a harness are structural gates. This note (Flow Engineering) defines structural gates as *deterministic enforcement in code*, not prompt text. The question — *is a reliably-injected prompt instruction a structural gate, or still a statistical filter?* — is the same category error the Semantic-Statistical Mismatch identifies, and neither note states its assumption about where 'structural' begins.
 
 ---
 

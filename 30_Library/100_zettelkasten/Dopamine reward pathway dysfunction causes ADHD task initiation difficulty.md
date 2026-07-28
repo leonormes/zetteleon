@@ -10,7 +10,6 @@ tags:
   - gtd
 title: Dopamine reward pathway dysfunction causes ADHD task initiation difficulty
 type: claim
-axiom: "true"
 ---
 
 ## Dopamine Reward Pathway Dysfunction Causes ADHD Task Initiation Difficulty

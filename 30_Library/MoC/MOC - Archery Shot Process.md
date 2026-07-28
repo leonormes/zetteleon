@@ -2,7 +2,7 @@
 title: MOC - Archery Shot Process
 permalink: llmeon/30-library/mo-c/moc-archery-shot-process
 created: "2026-07-21T09:02:00+00:00"
-modified: "2026-07-21T09:46:00+00:00"
+modified: "2026-07-27T23:05:00+01:00"
 tags: [prodos/moc, archery, sport, technique]
 aliases: []
 prodos:
@@ -57,5 +57,6 @@ Focuses on expansion, extending the bow, triggering the release, and follow-thro
 
 ## Starter Materials & References
 
+- [[Archery Practice Plan - Peter's Protocol|Archery Practice Plan - Peter's Protocol]] (Structured 3-phase training plan and complete 10-step shot recipe)
 - [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]] (Workbench Source)
 - [[20_Thinking/21_Workbench/HEAD - Archery Practice|HEAD - Archery Practice]] (Jake Kaminski push/pull concept note)

@@ -13,7 +13,6 @@ tags:
   - working-memory
 title: ADHD Working Memory Deficits Create a Compulsive Re-Planning Loop
 type: claim
-axiom: "true"
 ---
 
 ## ADHD Working Memory Deficits Create a Compulsive Re-Planning Loop

@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-22T00:00:00+00:00
-modified: 2026-07-27T13:55:00+01:00
+modified: 2026-07-27T23:05:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-practice-drills
 tags:
   - archery
@@ -17,6 +17,9 @@ type: procedure
 Summary:
 
 A collection of mental frameworks, physical drills, and practice methodologies designed to improve archery consistency, combat score-chasing, and build subconscious muscle memory.
+
+### Active Structured Plans
+- **[[Archery Practice Plan - Peter's Protocol|Archery Practice Plan - Peter's Protocol]]**: A structured 3-phase training program combining at-home resistance band practice, bow hold conditioning, blank-bale sessions with Peter, and a clear step-by-step summary of the 10-Step Shot Recipe.
 
 ### Do You Actually Need a Plan?
 

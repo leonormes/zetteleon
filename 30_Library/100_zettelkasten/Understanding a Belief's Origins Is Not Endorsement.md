@@ -1,8 +1,8 @@
 ---
 conformant: false
 created: 2026-07-13T22:00:00+00:00
-modified: 2026-07-21T09:15:12+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+modified: 2026-07-27T22:21:10+00:00
+non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/100-zettelkasten/understanding-a-beliefs-origins-is-not-endorsement
 status: draft
 tags: [boundaries, empathy, judgement, politics]

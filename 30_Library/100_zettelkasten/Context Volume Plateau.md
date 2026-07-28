@@ -13,6 +13,8 @@ type: atom
 upstream: '[[HEAD - Agentic Engineering and AI Workflow Management]]'
 ---
 
+%%[supports:: [[Minimum Viable Context for LLMs Prevents Hallucination via Structural Boundaries]], strength=4, confidence=high]%%
+
 ## Context Volume Plateau
 
 LLM reasoning performance is non-linear relative to context volume, often plateauing or degrading once a context window exceeds 50% capacity. This "lost-in-the-middle" phenomenon dictates a "minimal viable context" approach to maintain high-quality model output.

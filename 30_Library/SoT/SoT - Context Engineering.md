@@ -10,6 +10,8 @@ title: SoT - Context Engineering
 type: sot
 ---
 
+%%[depends_on:: [[The Architectural Guardian]], strength=4, confidence=high]%%
+
 ## Context Engineering
 
 Context Engineering is the technical discipline of optimizing the information flow between a codebase and an LLM. Its goal is to maximize Architectural Signal while minimizing Token Noise.
@@ -47,3 +49,10 @@ Prompts should resemble a Domain Manifesto. State the "Laws of the Universe" (e.
 ---
 
 See Also: [[SoT - Context Rot]], [[SoT - Macro-Micro Unification]], [[SoT - Structural Intelligence]]
+
+## Tensions
+
+### Rules vs demonstrations
+
+This note advocates stating the 'laws of the universe' (invariants, constraints, domain manifestos) as declarative rules. [[Prompt Architecture Levels]] treats few-shot examples as a distinct prompt-architecture level. The vault has no recorded evidence comparing the effectiveness of rules vs demonstrations for constraining LLM output — this is a genuinely open question.
+

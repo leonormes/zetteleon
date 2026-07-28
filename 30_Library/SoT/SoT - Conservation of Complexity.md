@@ -1,5 +1,5 @@
 ---
-aliases: ["Tesler's Law", Conservation of Complexity, Software Complexity Law]
+aliases: ["Tesler's Law", Conservation of Complexity, Software Complexity Law, SoT - Complexity Conservation]
 conformant: false
 created: 2026-01-08T12:05:00+00:00
 modified: 2026-07-20T16:33:52+00:00
@@ -82,6 +82,22 @@ Complexity is conserved: You either pay the tax upfront (Azure/Schema Design) or
 ## 4. Relation to LLMs
 
 This law is the foundation for the [[LLM Reasoning Efficiency is Proportional to Structural Constraint|LLM Corollary]]. LLMs are significantly more effective at traversing structure (Knowledge Graphs, Schemas) than simulating execution (simulating a CPU).
+
+---
+
+## 5. Case Study: Federated Medical Research
+
+A practical example of separating structural vs. algorithmic complexity.
+
+The Problem: Analyze post-COVID cardiovascular risk across isolated NHS Trusts without moving patient data.
+
+Complexity Allocation:
+
+- Structural Complexity (Privacy & Governance): Handled by the _Data Architecture_.
+    - Nodes hold identifiable data (Invariant: Raw data never leaves).
+    - Hub receives only aggregates (Invariant: No PII in wire format).
+- Algorithmic Complexity (Statistics): Handled by the _Hub_.
+    - Meta-analysis and bias correction are the "irreducible remainder" requiring algorithmic sophistication.
 
 ---
 

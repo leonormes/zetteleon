@@ -38,3 +38,9 @@ Replaces the traditional human-led implementation followed by testing. Effective
 ### See Also
 
 - [[SoT - Agentic AI Design Patterns]]
+
+## Tensions
+
+### Cognitive strain as cost vs as mechanism
+
+Automation treats cognitive friction as a cost to be eliminated. [[Outsourcing Writing to AI Bypasses the Cognitive Strain That Builds Professional Competence]] argues that strain is the mechanism of skill development. The resolution depends on whether the output artefact or the author's competence is the primary goal.

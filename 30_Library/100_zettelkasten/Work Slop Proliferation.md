@@ -13,6 +13,8 @@ type: atom
 upstream: '[[SoT - Principles for Peaceful Productivity]]'
 ---
 
+%%[supports:: [[Outsourcing Writing to AI Bypasses the Cognitive Strain That Builds Professional Competence]], strength=4, confidence=high]%%
+
 ## Work Slop Proliferation
 
 Low-effort automated outputs, or "work slop," often consume more total time through the necessary clarification and editing cycles than a high-effort manual draft would have required. While AI allows for the near-instant generation of text, the lack of precision in the initial output increases the administrative burden of review and correction, negating any initial speed gains.

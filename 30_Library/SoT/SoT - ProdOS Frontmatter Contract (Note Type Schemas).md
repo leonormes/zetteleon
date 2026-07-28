@@ -1,12 +1,26 @@
 ---
-aliases: [Frontmatter Contract, FrontmatterContract, Note Type Schemas, TAC Frontmatter Schema]
+aliases:
+  - Frontmatter Contract
+  - FrontmatterContract
+  - Note Type Schemas
+  - TAC Frontmatter Schema
 created: 2026-07-17T00:00:00+00:00
 modified: 2026-07-27T09:40:54+00:00
 permalink: llmeon/30-library/so-t/so-t-prodos-frontmatter-contract-note-type-schemas
-see_also: ["[[Goal - Frontmatter Bulk Migration (Phase 3)]]", "[[Protocol - Typed Answer Contract (TAC) for Vault Agents]]", "[[SoT - PRODOS Core Specification]]", "[[SoT - Typed Answer Contract (TAC) for LLM Output]]"]
-supersedes: ["[[Typed-Answer-Contract-RAG]]"]
-tags: [domain/pkm, prodos/sot, topic/frontmatter, topic/knowledge-architecture]
+see_also:
+  - "[[Goal - Frontmatter Bulk Migration (Phase 3)]]"
+  - "[[Protocol - Typed Answer Contract (TAC) for Vault Agents]]"
+  - "[[SoT - PRODOS Core Specification]]"
+  - "[[SoT - Typed Answer Contract (TAC) for LLM Output]]"
+supersedes:
+  - "[[SoT - Typed Answer Contract (TAC) for LLM Output]]"
+tags:
+  - domain/pkm
+  - prodos/sot
+  - topic/frontmatter
+  - topic/knowledge-architecture
 title: SoT - ProdOS Frontmatter Contract (Note Type Schemas)
+allowlist_decision: Option C — Documented allowlist. Legacy set frozen. New files must pass 0 errors. allowlist maintained in this file's frontmatter at `non_conformant_allowlist`.
 ---
 
 > Canonical status: this note is the authoritative frontmatter schema spec for the vault, superseding the same content previously living inside the `20_Thinking/21_Workbench/Typed-Answer-Contract-RAG.md` scratch note (now retired to `.trash/`). `AGENTS.md`, `sys_merger`, and every prompt with a `## TAC FRONTMATTER COMPLIANCE (MANDATORY)` block link here. Section numbers (§1–§9) are preserved unchanged from the workbench version so existing citations by number remain correct.

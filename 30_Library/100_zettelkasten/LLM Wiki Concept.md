@@ -13,6 +13,8 @@ type: atom
 upstream: '[[SoT - LLM Wiki Pattern]]'
 ---
 
+%%[implements:: [[SoT - LLM Wiki Pattern]], strength=4, confidence=high]%%
+
 ## LLM Wiki Concept
 
 An LLM Wiki is a persistent, structured knowledge base of markdown files maintained by an AI agent to preserve research insights across independent chat sessions. This model moves away from the stateless nature of traditional Retrieval-Augmented Generation (RAG) by ensuring that new information is synthesized and recorded into a compounding codebase of knowledge rather than being rediscovered from scratch in every session.

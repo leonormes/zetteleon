@@ -2,9 +2,12 @@
 conformant: false
 created: 2026-02-01T20:57:04+00:00
 modified: 2026-07-21T09:15:10+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/100-zettelkasten/software-complexity-is-conserved-between-control-flow-and-representation
-tags: [concept/complexity, domain/software-engineering, law]
+tags:
+  - concept/complexity
+  - domain/software-engineering
+  - law
 title: Software Complexity is Conserved Between Control Flow and Representation
 type: claim
 ---
@@ -35,5 +38,7 @@ This law is the foundation for the [[LLM Reasoning Efficiency is Proportional to
 ---
 
 rel:: supports [[SoT - Complexity Conservation]]
+
+%%[supports:: [[SoT - Complexity Conservation]], strength=4, confidence=high]%%
 
 source:: [[Code vs Data Structures (Torvalds Essay)]]

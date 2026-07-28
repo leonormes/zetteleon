@@ -6,7 +6,10 @@ permalink: llmeon/30-library/so-t/so-t-typed-answer-contract-tac-for-llm-output
 see_also: ["[[MOC - AI Software Engineering]]", "[[MVC Enforcement Structural Gates for LLM Agents]]", "[[SoT - Agentic AI Design Patterns]]", "[[SoT - AI Agent Skill Architecture]]", "[[SoT - PRODOS Core Specification]]"]
 tags: [domain/ai, prodos/sot, topic/pkm]
 title: SoT - Typed Answer Contract (TAC) for LLM Output
+type: sot
 ---
+
+%%[implements:: [[SoT - Flow Engineering]], strength=4, confidence=high]%%
 
 ## Minimum Viable Understanding (MVU)
 

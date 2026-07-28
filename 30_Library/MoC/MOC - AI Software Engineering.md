@@ -8,7 +8,7 @@ tags: [ai-engineering, map-of-content, moc]
 title: MOC - AI Software Engineering
 ---
 
-Core Theme: Engineering the "Cognitive Bridge" between probabilistic AI models and deterministic software systems.
+Core Theme: [[SoT - LLM Codebase Understanding & Hierarchy|Engineering the "Cognitive Bridge"]] between probabilistic AI models and deterministic software systems.
 
 ## 🌌 The "Unified Field" Theory
 
@@ -23,7 +23,7 @@ _Reconciling the "Quantum" (Micro-Logic) with "Relativity" (Macro-Architecture).
 
 ### 1. The Cognitive Bridge
 
-The successful isomorphism between a repository's Static Analysis Graph (RIG) and the model's transient attention state. It is the process of reducing prompt entropy by encoding relationships as explicit structure.
+The successful isomorphism between a repository's Static Analysis Graph (RIG) and the model's transient attention state — defined in full by [[SoT - LLM Codebase Understanding & Hierarchy]]. It is the process of reducing prompt entropy by encoding relationships as explicit structure.
 
 ### 2. Context Rot
 

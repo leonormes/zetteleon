@@ -13,6 +13,8 @@ type: atom
 upstream: '[[HEAD - Agentic Engineering and AI Workflow Management]]'
 ---
 
+%%[supports:: [[Minimum Viable Context for LLMs Prevents Hallucination via Structural Boundaries]], strength=3, confidence=medium]%%
+
 ## MCP Token Noise
 
 Excessive use of Model Context Protocol (MCP) servers introduces "token noise" that can confuse LLM reasoning and lead to execution errors. Selective activation of tools for specific sub-tasks is necessary to maintain model focus and precision in multi-tool environments.

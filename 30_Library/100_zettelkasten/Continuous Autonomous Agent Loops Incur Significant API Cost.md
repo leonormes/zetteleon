@@ -30,3 +30,10 @@ Applies to agentic frameworks consuming commercial LLM APIs (e.g., OpenAI, Anthr
 
 - [[Automated Optimization Loops Degrade Beyond 15 Iterations]]—extends: that heuristic establishes a quality ceiling on loops (15 iterations); this constraint adds the financial dimension—the cost argument independently motivates the same loop-bounding behaviour, making the two notes mutually reinforcing.
 - [[Heartbeat Intervention Protocol]]—extends: the Heartbeat Protocol is a direct architectural response to this constraint; bounded interrupts limit runaway cost exposure while preserving autonomous operation.
+
+## Tensions
+
+### Single-agent vs multi-agent (cost vs horizon)
+
+This note documents the cost ceiling of multi-agent loops. [[Implicit Multi-Agent Coordination via Shared File System (CORAL)]] and [[SoT - Agentic Roles]] argue for multi-agent architectures. The trade-off between cost (this note) and capability/decomposition (the multi-agent notes) is not stated anywhere in the vault. Resolution depends on cost tolerance and task horizon.
+

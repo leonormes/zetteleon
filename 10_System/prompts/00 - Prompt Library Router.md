@@ -1,7 +1,7 @@
 ---
 created: 2026-07-16T00:00:00+00:00
 description: "The canonical routing index for 10_System/prompts. Read this note first to decide which prompt to inject for a given task — defines the taxonomy, the routing table, and which prompts are historical task-logs rather than reusable prompts."
-modified: 2026-07-20T16:34:41+00:00
+modified: 2026-07-27T20:51:13+00:00
 permalink: llmeon/10-system/prompts/00-prompt-library-router
 tags: [domain/pkm, moc, type/index]
 title: 00 - Prompt Library Router
@@ -33,6 +33,7 @@ This note is the decision layer for the ProdOS Chief of Staff LLM. Every prompt 
 
 | Task | Prompt | Why |
 |---|---|---|
+| I have new vault content and don't know what to do with it | [[Prompt - Vault Ingest Router]] | Front door—runs locate→classify→test→route before any downstream prompt. Refuses to create a canonical note |
 | I pasted raw source text/notes and want atomic knowledge units extracted | [[Atomic Signal Extractor → Write TMP file]] | Step 1 of the atomic-capture pipeline |
 | I have a tmp_atoms file ready to link into the vault | [[Atomic Linker → Promote & Connect]] | Step 2—always run after step 1 |
 | I have a NEW note and need to find where it belongs | [[Knowledge Consolidation Agent]] | Discovery-first merge/dedupe |
@@ -90,7 +91,7 @@ This note is the decision layer for the ProdOS Chief of Staff LLM. Every prompt 
 
 - Atomic-capture pipeline (sequential): [[Atomic Signal Extractor → Write TMP file]] → [[Atomic Linker → Promote & Connect]]. Never run step 2 without step 1's output.
 - Consolidation vs Harvesting (inverse pair): [[Knowledge Consolidation Agent]] starts from a _new note_ and finds its home. [[Knowledge Harvesting & Normalization Agent]] starts from an _established home_ and hunts fragments. Pick based on which end you're holding.
-- Graph bootstrap → hygiene → epistemics (three-stage pipeline): [[LLM Graph Bootstrap Agent]] surveys an unmapped domain cluster and *proposes* canonical candidates, duplicates, conflicts, and edges—it writes a report and stubs, never canonical notes. Then [[Note Refresh & Link Auditor]] makes individual notes edge-conformant, and [[Justification Graph Audit & Gap Closure]] audits the resulting graph. Running Gap Closure on a cluster that was never bootstrapped will report a near-empty graph and look like there's nothing wrong.
+- Graph bootstrap → hygiene → epistemics (three-stage pipeline): [[LLM Graph Bootstrap Agent]] surveys an unmapped domain cluster and _proposes_ canonical candidates, duplicates, conflicts, and edges—it writes a report and stubs, never canonical notes. Then [[Note Refresh & Link Auditor]] makes individual notes edge-conformant, and [[Justification Graph Audit & Gap Closure]] audits the resulting graph. Running Gap Closure on a cluster that was never bootstrapped will report a near-empty graph and look like there's nothing wrong.
 - Link hygiene vs. graph epistemics (sequential pair): [[Note Refresh & Link Auditor]] makes ONE note's links/edges conformant to syntax (does it parse, do targets resolve). [[Justification Graph Audit & Gap Closure]] then audits the whole argument graph those edges form for semantic soundness (is it actually grounded, or just syntactically valid). Run the Auditor first if a claim isn't edge-conformant yet—the Gap Closure prompt's `--audit` will otherwise miss it.
 - Triage vs Thinking-Pattern Analysis: [[Principal Vault Triage Architect]] organises a backlog (breadth, navigation). [[Zettelkasten Thinking-Pattern Analyst]] analyses an already-connected graph (depth, insight). Don't use Triage when you want insight, or Analyst when you want a cleanup plan.
 - Three ProdOS Architects (distinct outputs, same family): [[Prompt - ProdOS Chronos Synthesizer]] outputs a SoT. [[Prompt - ProdOS MoC Cartographer]] outputs a MOC. [[Prompt - ProdOS Protocol Architect]] outputs a Protocol. Choose by desired artefact type, not by task description alone.

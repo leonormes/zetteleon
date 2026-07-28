@@ -2,7 +2,7 @@
 title: Archery Shot Process - Anchor
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-anchor
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-07-27T13:55:00+01:00
+modified: 2026-07-27T18:35:00+01:00
 tags:
   - prodos/atomic
   - archery
@@ -30,6 +30,7 @@ Details:
   - **Real Full Draw**: General alignment gets you close to anchor, but reaching "real full draw" requires a deliberate micro-movement to lock into your final skeletal position. Achieving this true full draw provides a distinct feeling of structural readiness, enabling clean, consistent execution.
   - **Settle In "One Time"**: Avoid pulling back and searching or fidgeting for your anchor point. Practice drawing straight back and settling smoothly into your anchor in a single, fluid motion before beginning your execution.
   - **Stable Posture vs. Flawless Alignment**: Skeletal alignment does not have to be flawless (even top international archers exhibit slight structural variations), but you must be able to hold a solid, stable, and repeatable posture at full draw.
+- **Full-Draw Clicker Setup Consistency**: In recurve archery, "anchor" encompasses the entire full-draw setup—including shoulder alignment, head position, facial contacts, and reaching the exact same starting point on the clicker blade every single time. Establishing an identical full-draw position ensures that the distance required to pull through the clicker remains perfectly repeatable on every arrow.
 - **Avoid Anchoring Too High**: Anchoring higher up on the cheek pushes the string away from the face due to facial contours. It forces the drawing shoulder upward and forces the peep sight to sit very low on the string, which severely limits the sight range for adjustable sight housings and long-distance capability.
 - **Reference Points (Skeletal)**: Ensure the index finger and bow shelf are aligned on the same level. Feel both contact points simultaneously to ensure vertical consistency.
   - *Alternative / Beginner Anchor*: A common alternative anchor is placing the tip of your index finger at the corner of your mouth and resting your thumb knuckle against the back of your jaw.
@@ -52,6 +53,18 @@ Details:
   3. Perform static holds in this exact position to build muscle memory and specific strength.
   4. Maintain solid, steady face pressure against your facial anchor point throughout the full duration of the static hold (e.g., during 20:40 SPT exercises) without letting fatigue weaken your contact.
 
+#### **Light Bow Draw-Ups**
+* **Purpose:** Provides authentic bowstring tactile feedback against facial references without the fatigue of a heavy bow or the unnatural feel of a stretch band.
+* **How to do it**:
+  1. Perform repeated draw-ups using a lightweight bow rather than a stretch band.
+  2. Focus strictly on feeling the string cleanly seat into your consistent facial reference points at anchor.
+
+#### **Clicker Camera Feedback Drill**
+* **Purpose:** Visually verifies that your full-draw anchor sets your arrow at the identical starting point on the clicker blade every time.
+* **How to do it**:
+  1. Set up a camera or video-delay monitoring system zoomed directly onto your clicker blade and arrow point.
+  2. Draw to anchor and verify that the starting point under the clicker blade remains mechanically identical across repeated draws.
+
 ### Aiming & Vision
 - **Set the Peep to the Anchor (Not the Anchor to the Peep)**: Never adapt your body to the equipment. Close your eyes, draw back, and settle comfortably into your natural anchor. Open your eyes; if the peep sight is not centered naturally over the front sight ring, adjust the physical position of the peep sight along the bowstring rather than changing your head posture or anchor position.
 - **Wait Until Anchor**: Do not start consciously aiming until your body is fully in position and you have firmly reached your anchor point.
@@ -63,4 +76,4 @@ Details:
 - **Master Your String Alignment**: At full draw, the bowstring appears as a large blur in front of your face. You must consistently align this blur to a specific spot (e.g., the edge of the riser or alongside the sight pin). String alignment fixes lateral misses: moving the string alignment to the right pushes arrows left, and moving it left pushes arrows right.
 - **Beware of Lighting Illusions**: The angle of sunlight or overhead lighting can play tricks on your eyes, making the string or sight pin appear to shift. Adjusting for this optical illusion will cause sideways misses.
 
-- **Reference**: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Rogue Archery TV (including "20:40 SPT | Guided Bow Fitness Drill"), Mike Peart coaching cues, ArcheryWinchester (Aiming and Vision cues), Barebow Basics: Shot Process Basics, Jake Kaminski's 3 Easy Tips, aiming tutorials (Watch it to keep it, accepting the float), and Recurve Form Series (Loading and Load Position), Online Archery Academy (release tips, anchor holds, 600+ posture fundamentals), and Inside Out Precision (anchor consistency, peep alignment).
+- **Reference**: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Rogue Archery TV (including "20:40 SPT | Guided Bow Fitness Drill"), Mike Peart coaching cues, ArcheryWinchester (Aiming and Vision cues), Barebow Basics: Shot Process Basics, Jake Kaminski's 3 Easy Tips, aiming tutorials (Watch it to keep it, accepting the float), and Recurve Form Series (Loading and Load Position), Online Archery Academy (release tips, anchor holds, 600+ posture fundamentals, full-draw clicker setup consistency, camera feedback drills), and Inside Out Precision (anchor consistency, peep alignment).

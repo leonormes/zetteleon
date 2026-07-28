@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-07-21T09:15:08+00:00
+modified: 2026-07-27T17:49:09+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/outsourcing-writing-to-ai-bypasses-the-cognitive-strain-that-builds-professional-competence
 tags: [ai, cognitive-fitness, professional-development, writing]
@@ -30,3 +30,11 @@ Applies to professional writing tasks (emails, reports, memos) that serve simult
 
 - [[Writing Acts as an External Working Memory]]—extends: if AI handles writing, the external working-memory benefit is also lost—not just the fitness of the act, but the structural record of the thinking.
 - [[Writing Creates Cognitive Distance for Objective Evaluation]]—tension: the cognitive-distance benefit of writing (stepping back to evaluate) also requires personal authorship; AI-written text gives the author distance from text they did not produce, which is not the same cognitive process.
+
+## Tensions
+
+### Cognitive Strain as Cost Vs as Mechanism
+
+This note argues that the cognitive strain of writing is the mechanism of professional competence—it should not be optimised away. Notes advocating automation ([[Agent-First Implementation Cycle]], [[CLI-AI Automation Can Ingest External Data Streams into Markdown Vaults]]) treat that strain as a cost to eliminate.
+
+The distinction depends on whether the task's purpose is the finished artefact or the author's learning process. [[Work Slop Proliferation]] supplies evidence for side A; [[Desirable Difficulty in Skill Acquisition]] and [[Eufriction - Productive Friction Strengthens Thinking]] supply the general mechanism.
