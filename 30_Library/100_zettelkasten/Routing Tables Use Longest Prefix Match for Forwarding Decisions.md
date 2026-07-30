@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-10-31T10:17:00+00:00
-modified: 2026-07-21T09:15:09+00:00
+modified: 2026-07-28T09:12:50+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/routing-tables-use-longest-prefix-match-for-forwarding-decisions
 tags: [routing, SoftwareEngineering/Networking]

@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-29T15:16:02+00:00
 last_reviewed: 'null'
-modified: 2026-07-21T09:15:10+00:00
+modified: 2026-07-28T09:12:50+00:00
 permalink: llmeon/30-library/100-zettelkasten/satisficing-leads-to-sub-optimal-solutions
 status: 'null'
 tags: [decision-making, problem-solving, TheHuman/Cognition]

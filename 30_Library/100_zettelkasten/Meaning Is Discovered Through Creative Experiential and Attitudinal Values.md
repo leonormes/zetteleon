@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2026-04-10T00:00:00+00:00
-modified: 2026-07-21T09:15:07+00:00
+modified: 2026-07-28T09:12:48+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/meaning-is-discovered-through-creative-experiential-and-attitudinal-values
 tags: [creativity, meaning, suffering, values]
@@ -36,7 +36,7 @@ The three-pathway structure is a practical taxonomy, not an abstract hierarchy. 
 
 Supported by:
 
-- [[Humans Retain Freedom to Choose Their Response to Any Situation Regardless of Circumstances]] — the third pathway (Attitudinal Values) presupposes that attitude is choosable under unavoidable suffering. That claim is the precondition for this taxonomy being complete rather than two-thirds usable. The `supports` edge is emitted from that claim.
+- [[Humans Retain Freedom to Choose Their Response to Any Situation Regardless of Circumstances]]—the third pathway (Attitudinal Values) presupposes that attitude is choosable under unavoidable suffering. That claim is the precondition for this taxonomy being complete rather than two-thirds usable. The `supports` edge is emitted from that claim.
 
 ### Tensions
 

@@ -1,18 +1,11 @@
 ---
-aliases:
-  - ADHD Hyperfocus
-  - Entering the Zone
+aliases: [ADHD Hyperfocus, Entering the Zone]
 created: 2025-07-16T17:30:01+00:00
 last_reviewed: ""
-modified: 2026-07-21T09:15:06+00:00
+modified: 2026-07-28T09:12:47+00:00
 permalink: llmeon/30-library/100-zettelkasten/hyperfocus-is-a-state-of-intense-interest-driven-focus-in-adhd
 status: stable
-tags:
-  - focus
-  - interest
-  - TheHuman/Health/ADHD
-  - TheHuman/Motivation
-  - topic/productivity/hyperfocus
+tags: [focus, interest, TheHuman/Health/ADHD, TheHuman/Motivation, topic/productivity/hyperfocus]
 title: Hyperfocus is a State of Intense Interest-Driven Focus in ADHD
 type: claim
 updated:

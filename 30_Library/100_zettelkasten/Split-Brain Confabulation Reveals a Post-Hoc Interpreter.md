@@ -2,7 +2,7 @@
 aliases: [EGG Confabulation Demo, The Left-Hemisphere Interpreter]
 conformant: true
 created: 2026-07-16T15:50:54+00:00
-modified: 2026-07-21T09:15:10+00:00
+modified: 2026-07-28T09:12:51+00:00
 permalink: llmeon/30-library/100-zettelkasten/split-brain-confabulation-reveals-a-post-hoc-interpreter
 source_title: "Waking Up (Sam Harris) — reviewed LLM summary and critique"
 status: seed
@@ -29,7 +29,6 @@ Details: In the classic demonstration, "EGG" is shown to the right hemisphere; t
 ### Related
 
 - [[Mind-Reading Fallacy and Projection]]—shared mechanism: the mind fills causal gaps with invented narratives it treats as fact.
-- [[Fundamental Attribution Error]]—shared mechanism: confident causal attribution made without access to the real cause.
 - [[The brain is biased toward its own thoughts in the moment]]—extends: the interpreter privileges its own generated story as the true account.
 
 ### See Also

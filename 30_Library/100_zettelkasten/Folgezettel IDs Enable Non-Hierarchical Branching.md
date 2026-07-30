@@ -1,19 +1,11 @@
 ---
-aliases:
-  - Alphanumeric IDs
-  - Folgezettel System
-  - Zettelkasten IDs
+aliases: [Alphanumeric IDs, Folgezettel System, Zettelkasten IDs]
 conformant: false
 created: 2025-10-30T15:33:36+00:00
-modified: 2026-07-27T09:42:54+00:00
+modified: 2026-07-28T09:12:46+00:00
 non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/100-zettelkasten/folgezettel-ids-enable-non-hierarchical-branching
-tags:
-  - ids
-  - linking
-  - topic/knowledge-architecture
-  - topic/pkm
-  - topic/pkm/zettelkasten
+tags: [ids, linking, topic/knowledge-architecture, topic/pkm, topic/pkm/zettelkasten]
 title: Folgezettel IDs Enable Non-Hierarchical Branching
 type: claim
 ---

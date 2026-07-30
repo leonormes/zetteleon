@@ -1,16 +1,11 @@
 ---
-aliases:
-  - Family Money Concept
+aliases: [Family Money Concept]
 conformant: true
 created: 2025-11-10T10:11:00+00:00
-modified: 2026-07-21T09:15:05+00:00
+modified: 2026-07-28T09:12:46+00:00
 non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/100-zettelkasten/finances-in-an-unequal-income-partnership-should-be-treated-as-shared-family-money
-tags:
-  - budgeting
-  - equality
-  - finance
-  - relationship
+tags: [budgeting, equality, finance, relationship]
 title: Finances in an Unequal-Income Partnership Should Be Treated as Shared Family Money
 type: claim
 ---

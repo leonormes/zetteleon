@@ -3,7 +3,7 @@ aliases: [PFC]
 axiom: true
 conformant: false
 created: 2025-11-12T14:10:01+00:00
-modified: 2026-07-21T09:15:11+00:00
+modified: 2026-07-28T09:12:52+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/the-prefrontal-cortex-provides-executive-control-over-action
 tags: [brain, executive-function, TheHuman/Neuroscience]
@@ -19,7 +19,6 @@ Details: The PFC sends bias signals throughout the brain to orchestrate task per
 
 ## Knowledge Graph
 
-[[Executive Function Challenges are Central to ADHD]] — the PFC is the executive control center whose impairment defines EF challenges
+[[Executive Function Challenges are Central to ADHD]]—the PFC is the executive control center whose impairment defines EF challenges
 
 %%[supports:: [[Executive Function Challenges are Central to ADHD]]]%%
-

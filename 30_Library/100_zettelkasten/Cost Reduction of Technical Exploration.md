@@ -2,7 +2,7 @@
 created: 2026-04-13T14:35:19+00:00
 created_utc: '2026-04-13T11:00:00Z'
 kind: mechanism
-modified: 2026-07-21T09:15:04+00:00
+modified: 2026-07-28T09:12:45+00:00
 permalink: llmeon/30-library/100-zettelkasten/cost-reduction-of-technical-exploration
 source_title: The Agent-First Workflow
 source_url: https://gemini.google.com/app/3efdb3bd475edbb1

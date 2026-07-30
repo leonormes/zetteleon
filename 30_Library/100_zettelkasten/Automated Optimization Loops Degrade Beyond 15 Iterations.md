@@ -1,18 +1,13 @@
 ---
+aliases: [Optimal Iteration Count]
 conformant: false
 created: 2026-04-10T00:00:00+00:00
-modified: 2026-07-21T09:15:03+00:00
+modified: 2026-07-28T09:12:43+00:00
 non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/100-zettelkasten/automated-optimization-loops-degrade-beyond-15-iterations
-tags:
-  - iterations
-  - optimization
-  - quality-control
-  - token-management
+tags: [iterations, optimization, quality-control, token-management]
 title: Automated Optimization Loops Degrade Beyond 15 Iterations
 type: claim
-aliases:
-  - Optimal Iteration Count
 ---
 
 ## Automated Optimization Loops Degrade Beyond 15 Iterations
@@ -31,8 +26,8 @@ Specifically covers iterative improvement cycles where an agent attempts to refi
 
 ### Implications
 
-- Prevents quality "drift" or **over-fitting** in long agentic optimization loops.
-- Functions as a primary **cost-management** constraint: token spend scales with iteration count, so a hard ceiling is both a quality and an economics control—including managing API spend during automated research.
+- Prevents quality "drift" or over-fitting in long agentic optimization loops.
+- Functions as a primary cost-management constraint: token spend scales with iteration count, so a hard ceiling is both a quality and an economics control—including managing API spend during automated research.
 - Acts as a concrete bound for the "Recursive Self-Improvement" pattern: it governs a pattern that frameworks describe structurally but typically leave unconstrained numerically.
 
 ### Related

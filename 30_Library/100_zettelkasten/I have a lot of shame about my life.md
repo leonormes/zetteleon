@@ -3,7 +3,7 @@ aliases: []
 conformant: true
 created: 2025-05-18T08:57:31+00:00
 last_reviewed: '2025-10-31'
-modified: 2026-07-24T10:35:00+00:00
+modified: 2026-07-28T09:12:47+00:00
 permalink: llmeon/30-library/100-zettelkasten/i-have-a-lot-of-shame-about-my-life
 status: seedling
 tags: [meta-work, procrastination, shame, TheHuman/Health/ADHD, topic/productivity]
@@ -22,8 +22,8 @@ I think my [[MOC - Shame|obsession]] with [[MOC - ADHD and PKM Systems|GTD]] and
 
 - [[Distorted Negative Self-Image|The Roots of Shame and Feeling Defective]] - Understanding shame's origins
 - [[Reframe Habit Setbacks as Capacity Limits Not Character Flaws]] - Reframing failure attribution
-- [[SoT - Perfectionism and Analysis Paralysis]] - *Explains how the drive for the perfect system feeds directly into avoidance behaviors and shame.*
-- [[SoT - ADHD Self-Compassion & Strengths]] - *Provides frameworks for combating the deep-seated shame associated with executive dysfunction.*
+- [[SoT - Perfectionism and Analysis Paralysis]] - _Explains how the drive for the perfect system feeds directly into avoidance behaviors and shame._
+- [[SoT - ADHD Self-Compassion & Strengths]] - _Provides frameworks for combating the deep-seated shame associated with executive dysfunction._
 
 ## Links
 

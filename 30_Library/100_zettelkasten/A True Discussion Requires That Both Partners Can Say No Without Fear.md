@@ -1,16 +1,10 @@
 ---
-aliases:
-  - Right to Say No
+aliases: [Right to Say No]
 conformant: true
 created: 2025-11-10T10:20:00+00:00
-modified: 2026-07-21T15:13:24+00:00
+modified: 2026-07-28T09:12:42+00:00
 permalink: llmeon/30-library/100-zettelkasten/a-true-discussion-requires-that-both-partners-can-say-no-without-fear
-tags:
-  - boundaries
-  - communication
-  - conflict
-  - consent
-  - relationship
+tags: [boundaries, communication, conflict, consent, relationship]
 title: A True Discussion Requires That Both Partners Can Say No Without Fear
 type: claim
 ---

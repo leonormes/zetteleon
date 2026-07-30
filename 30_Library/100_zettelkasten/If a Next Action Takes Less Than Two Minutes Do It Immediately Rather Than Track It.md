@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2026-04-10T00:00:00+00:00
-modified: 2026-07-21T09:15:06+00:00
+modified: 2026-07-28T09:12:47+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/if-a-next-action-takes-less-than-two-minutes-do-it-immediately-rather-than-track-it
 tags: [efficiency, gtd, productivity, time-management]

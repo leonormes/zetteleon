@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-20T09:53:00+00:00
 last_reviewed: 'null'
-modified: 2026-07-21T09:15:04+00:00
+modified: 2026-07-28T09:12:44+00:00
 permalink: llmeon/30-library/100-zettelkasten/cognitive-biases-reinforce-mental-models
 status: 'null'
 tags: [belief, TheHuman/Cognition, TheHuman/Cognition/bias, TheHuman/Psychology]

@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-26T09:27:12+00:00
 last_reviewed: ''
-modified: 2026-07-21T09:15:07+00:00
+modified: 2026-07-28T09:12:47+00:00
 permalink: llmeon/30-library/100-zettelkasten/kolmogorov-complexity-information-as-compressibility
 status: ''
 tags: [information]
@@ -11,7 +11,7 @@ type: ''
 updated: null
 ---
 
-An alternative mathematical framework that aligns more closely with the intuitive idea of [[Information as Perceivable Pattern]] is Algorithmic Information Theory, specifically Kolmogorov Complexity.
+An alternative mathematical framework that aligns more closely with the intuitive idea of [[Information as a Perceivable Pattern]] is Algorithmic Information Theory, specifically Kolmogorov Complexity.
 
 - Definition: The Kolmogorov complexity of an object (like a string of text) is the length of the shortest computer program that can produce it as output.
 
@@ -22,4 +22,4 @@ This defines information in terms of compressibility:
 
 In this view, "information" as a usable pattern corresponds to low Kolmogorov complexity. Pure noise is unstructured and therefore not "informative" in a descriptive sense.
 
-- Links: [[Information as Perceivable Pattern]], [[The Conflict Between Semantic and Shannon Information]], [[Shannon's Information Theory - Information as Uncertainty]]
+- Links: [[Information as a Perceivable Pattern]], [[The Conflict Between Semantic and Shannon Information]], [[Shannon's Information Theory - Information as Uncertainty]]

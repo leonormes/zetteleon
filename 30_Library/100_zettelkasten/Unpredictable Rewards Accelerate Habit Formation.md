@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-10-30T12:05:09+00:00
-modified: 2026-07-21T09:15:12+00:00
+modified: 2026-07-28T09:12:52+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/unpredictable-rewards-accelerate-habit-formation
 source: '[[MOC - The Science of Making and Breaking Habits]]'

@@ -2,7 +2,7 @@
 created: 2026-07-13T08:30:56+00:00
 created_utc: '2026-07-13T08:17:00Z'
 kind: definition
-modified: 2026-07-27T11:50:15+00:00
+modified: 2026-07-28T09:12:49+00:00
 permalink: llmeon/00-inbox/network-topology-of-a-pkm-vault-determines-its-cognitive-properties
 source_title: 'Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture: An Investigative Report'
 source_url: ''
@@ -37,4 +37,5 @@ Dense bidirectional linking additionally exploits the spacing effect and retriev
 - [[Claim - Flat associative structure beats rigid hierarchy]]—shared mechanism: both argue flatter, associative structures outperform rigid hierarchy for knowledge retention and discovery.
 
 %%[supports:: [[SoT - Structure is Truth is a Unifying Axiom Across Formal Systems]], strength=5, confidence=high]%%
+
 %%[supports:: [[Claim - Flat associative structure beats rigid hierarchy]], strength=4, confidence=high]%%

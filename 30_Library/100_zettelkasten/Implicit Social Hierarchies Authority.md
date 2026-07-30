@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-06-18T17:28:14+00:00
 last_reviewed: ''
-modified: 2026-07-21T09:15:06+00:00
+modified: 2026-07-28T09:12:47+00:00
 permalink: llmeon/30-library/100-zettelkasten/implicit-social-hierarchies-authority
 status: ''
 tags: []

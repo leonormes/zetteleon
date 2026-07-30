@@ -2,7 +2,7 @@
 aliases: [Self-Control]
 conformant: false
 created: 2025-11-01T21:23:00+00:00
-modified: 2026-07-21T09:15:09+00:00
+modified: 2026-07-28T09:12:50+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/self-regulation-is-managing-your-emotions-and-actions
 tags: [character-strength, emotional-intelligence, self-control, self-regulation, virtue]

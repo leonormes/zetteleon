@@ -2,7 +2,7 @@
 aliases: [Death by a Thousand Cuts Budgeting]
 created: 2025-11-18T14:31:00+00:00
 last_reviewed: ''
-modified: 2026-07-21T09:15:06+00:00
+modified: 2026-07-28T09:12:47+00:00
 permalink: llmeon/30-library/100-zettelkasten/high-frequency-micro-spending-drains-resources
 status: ''
 tags: [budgeting, finance, TheHuman/Habits]

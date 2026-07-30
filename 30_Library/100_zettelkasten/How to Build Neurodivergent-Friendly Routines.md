@@ -2,7 +2,7 @@
 aliases: [A Guide to Building Routines for Neurodivergent Minds]
 created: 2025-10-29T16:10:00+00:00
 last_reviewed: 'null'
-modified: 2026-07-21T09:15:06+00:00
+modified: 2026-07-28T09:12:47+00:00
 permalink: llmeon/30-library/100-zettelkasten/how-to-build-neurodivergent-friendly-routines
 status: 'null'
 tags: [autism, map, routine, TheHuman/Health/ADHD, topic/productivity/productivity-system]

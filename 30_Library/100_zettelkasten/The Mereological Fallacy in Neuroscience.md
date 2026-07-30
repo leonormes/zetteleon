@@ -2,7 +2,7 @@
 aliases: [Ascribing Mind to Brain Parts, Homunculus Problem, Mereological Fallacy]
 conformant: true
 created: 2026-07-16T15:50:54+00:00
-modified: 2026-07-21T09:15:11+00:00
+modified: 2026-07-28T09:12:52+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-mereological-fallacy-in-neuroscience
 source_title: "Waking Up (Sam Harris) — reviewed LLM summary and critique"
 status: seed
@@ -29,7 +29,6 @@ Details: Named in Bennett and Hacker's critique of neuroscience, the objection h
 ### Related
 
 - [[Mistaking the Map for the Territory]]—shared mechanism: mistaking a convenient model (parts-as-agents) for the reality it stands in for.
-- [[Fundamental Attribution Error]]—shared mechanism: mis-locating agency by projecting whole-person traits onto the wrong level.
 
 ### See Also
 

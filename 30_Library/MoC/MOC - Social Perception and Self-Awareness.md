@@ -62,7 +62,6 @@ Understanding and improving the accuracy of social self-perception:
 - [[Meta-Accuracy in Social Perception]] rel:: is-calibrated-by [[Feedback-Seeking Strategies for Calibration]]
 - [[Feedback-Seeking Strategies for Calibration]] rel:: supports [[Reality Testing]]
 - [[Prediction Error Breaks Feedback Loops]] rel:: improves [[Meta-Accuracy in Social Perception]]
-- [[Reality Testing]] rel:: corrects [[Mind-Reading Fallacy and Projection]]
 
 Key insight: Meta-accuracy is moderate (~50–60%); systematic feedback-seeking and outcome tracking provide reality checks that break self-reinforcing bias loops.
 

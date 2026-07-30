@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-05-17T16:32:24+00:00
 last_reviewed: ''
-modified: 2026-07-21T09:15:07+00:00
+modified: 2026-07-28T09:12:48+00:00
 permalink: llmeon/30-library/100-zettelkasten/layer-5-session-layer
 status: ''
 tags: [SoftwareEngineering/Networking]

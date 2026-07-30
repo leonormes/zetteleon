@@ -2,7 +2,7 @@
 aliases: [The Self as a Curated Set of Values]
 conformant: false
 created: 2025-11-06T19:58:03+00:00
-modified: 2026-07-21T09:15:11+00:00
+modified: 2026-07-28T09:12:52+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/the-self-is-constructed-through-a-commitment-to-chosen-values
 tags: [existentialism, integrity, self, TheHuman/Identity, values]
@@ -20,4 +20,4 @@ Details: This approach grants the freedom to choose which constructs to live by.
 
 Supported by:
 
-- [[Humans Retain Freedom to Choose Their Response to Any Situation Regardless of Circumstances]] — the enabling condition. Values-commitment is a macro-level construction; attitudinal freedom is the micro-level instance that makes any such choosing possible. If circumstance could remove the capacity to choose a stance, a self built on chosen values would be a fiction. The `supports` edge is emitted from that claim.
+- [[Humans Retain Freedom to Choose Their Response to Any Situation Regardless of Circumstances]]—the enabling condition. Values-commitment is a macro-level construction; attitudinal freedom is the micro-level instance that makes any such choosing possible. If circumstance could remove the capacity to choose a stance, a self built on chosen values would be a fiction. The `supports` edge is emitted from that claim.

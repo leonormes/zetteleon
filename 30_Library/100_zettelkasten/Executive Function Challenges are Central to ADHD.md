@@ -1,18 +1,10 @@
 ---
-aliases:
-  - ADHD as an EF Deficit
-  - Core ADHD Impairments
-  - EF Dysfunction in ADHD
+aliases: [ADHD as an EF Deficit, Core ADHD Impairments, EF Dysfunction in ADHD]
 created: 2026-02-11T16:55:00+00:00
-modified: 2026-07-10T12:19:00+01:00
+modified: 2026-07-28T09:12:46+00:00
 permalink: llmeon/30-library/100-zettelkasten/executive-function-challenges-are-central-to-adhd
 status: seed
-tags:
-  - ADHD
-  - cognition
-  - executive-function
-  - neurology
-  - self-regulation
+tags: [ADHD, cognition, executive-function, neurology, self-regulation]
 title: Executive Function Challenges are Central to ADHD
 type: claim
 ---
@@ -60,11 +52,10 @@ These challenges are rooted in the brain's physical architecture and chemistry:
 
 ## Consequences
 
-[[Executive Dysfunction - The Root of Analysis Paralysis]] — analysis paralysis is EF activation-domain failure playing out in technical work
+[[Executive Dysfunction - The Root of Analysis Paralysis]]—analysis paralysis is EF activation-domain failure playing out in technical work
 
 %%[supports:: [[Executive Dysfunction - The Root of Analysis Paralysis]]]%%
 
-[[Metacognitive Deficits in ADHD Create Practical Impairments]] — EF's own "Metacognitive Blindness" practical implication, made explicit as its own claim
+[[Metacognitive Deficits in ADHD Create Practical Impairments]]—EF's own "Metacognitive Blindness" practical implication, made explicit as its own claim
 
 %%[supports:: [[Metacognitive Deficits in ADHD Create Practical Impairments]]]%%
-

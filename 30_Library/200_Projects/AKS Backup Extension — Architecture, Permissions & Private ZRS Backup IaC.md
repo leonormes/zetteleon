@@ -4,6 +4,7 @@ modified: 2026-07-20T16:34:46+00:00
 permalink: llmeon/00-inbox/pieces-copilot-message-export-july-16-2026-10-49am
 title: AKS Backup Extension — Architecture, Permissions & Private ZRS Backup IaC
 type: note
+project_name: backups
 ---
 
 ## AKS Backup Extension—Architecture, Permissions & Private ZRS Backup IaC

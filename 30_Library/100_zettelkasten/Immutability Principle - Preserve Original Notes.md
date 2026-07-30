@@ -2,7 +2,7 @@
 aliases: [Note Immutability, Preserving Original Thoughts]
 created: 2025-10-30T15:33:36+00:00
 last_reviewed: '2025-10-30T00:00:00.000Z'
-modified: 2026-07-27T09:40:54+00:00
+modified: 2026-07-28T09:12:47+00:00
 permalink: llmeon/30-library/100-zettelkasten/immutability-principle-preserve-original-notes
 status: seedling
 tags: [evolution, topic/knowledge-architecture, topic/pkm, topic/pkm/zettelkasten, versioning]

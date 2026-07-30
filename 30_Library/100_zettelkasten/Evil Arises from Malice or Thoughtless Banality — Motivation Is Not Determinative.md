@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-07-21T09:15:05+00:00
+modified: 2026-07-28T09:12:46+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/evil-arises-from-malice-or-thoughtless-banality-motivation-is-not-determinative
 tags: [ethics, hannah-arendt, motivation, psychology]
@@ -29,4 +29,3 @@ References the Arendtian concept of the "banality of evil" as applied to bureauc
 ### Related
 
 - [[Fundamental Attribution Error]]—shared mechanism: attributing evil exclusively to malice is a direct instance of the Fundamental Attribution Error—over-weighting dispositional (character) factors while under-weighting situational and structural ones.
-- [[Values Serve as Navigational Compass in Absence of Absolute Truth]]—extends: the banality pathway reveals what happens when values are absent as a navigational mechanism—not malice but moral vacuum, which produces equivalent harm.

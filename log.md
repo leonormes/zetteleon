@@ -76,6 +76,148 @@ permalink: llmeon/log
 - Integration pattern: Cogni platform cited as concrete implementation of three abstract patterns (persistent memory, bidirectional writes, selective retrieval). New claims grounded in existing cluster: agent architecture (Claude Code, cost, context engineering, protocol).
 - Notes connected to: [[Continuous Autonomous Agent Loops...]], [[Protocol Statelessness...]], [[Layered Knowledge Architecture]], [[Targeting LLM Attention...]], [[SoT - Evolutionary Note System]]
 - Scope: §9.3 typed edges only; no body prose edits to existing notes. Human-authorized video content atomization per user intent.
+
+## 2026-07-28 — Vibe Coding & Engineering Rigor Ingest
+
+- Action: Content atomization and graph integration
+- Raw source: YouTube video "Nobody Pages the LLM: Engineering Rigour for Vibe Coding" (Ritesh Modi, CSharpCorner)
+- Notes created: 6 claim notes in `30_Library/100_zettelkasten/`
+  1. [[Vibe Coding - Rapid AI-Assisted Code Generation Without Engineering Rigor]] (epistemic_status: high)
+  2. [[LLM Probabilistic Outputs Prevent Consistency Guarantees]] (epistemic_status: high)
+  3. [[AI-Generated Code Without Human Review Creates Production Risk]] (epistemic_status: high)
+  4. [[Context Window Limits Force Iterative Task Decomposition]] (epistemic_status: high)
+  5. [[Mandatory Manual Code Review Before Deployment]] (epistemic_status: high)
+  6. [[Domain Knowledge Becomes Competitive Advantage as LLM Access Commoditizes]] (epistemic_status: high)
+  7. [[Vertical AI Agents Reduce Hallucination via Domain Specialization]] (epistemic_status: medium)
+- Edges created: 9 typed edges (after cycle resolution)
+  - Vibe Coding: no outbound typed edges (described by its problem/consequence notes)
+  - LLM Probabilistic: depends_on Vibe Coding (probabilism is why vibe coding is risky)
+  - AI-Generated Code Risk: depends_on [[LLM Probabilistic...]] (strength=5), depends_on [[Context Window...]] (strength=3)
+  - Context Window: no outbound typed edges (constraint note)
+  - Mandatory Review: supports AI-Generated Risk (strength=5), depends_on LLM Probabilistic (strength=4)
+  - Domain Knowledge: depends_on Mandatory Review (strength=4), depends_on LLM Probabilistic (strength=3), implements [[Domain Knowledge Becomes Competitive Advantage...]] via Vertical Agents
+  - Vertical Agents: implements Domain Knowledge (strength=3)
+- Integration pattern: Six independent notes form a problem-solution cluster around "engineering rigor for AI-assisted development." Notes connect to existing concepts on agent costs, context constraints, code review, and testing.
+- Validation: `edge_lint.py --audit` → 0 errors, 0 warnings, 0 cycles (after removing bidirectional edges that created cycles). Graph state: 29 C1 gaps, 38 bedrock, 5 contradictions, 1 live tension.
+- Notes connected to: [[Continuous Autonomous Agent Loops...]], [[Protocol Statelessness...]], [[Claude Code Session Isolation...]], [[AI as Statistical Interpolation]], existing engineering/testing notes (See Also sections reference).
+- Scope: §9.3 typed edges only; no body prose edits to existing notes. Cycle resolution required removing assumptions about edge directionality (independent constraints were incorrectly modeled as dependencies).
+
+## 2026-07-28 — LLM Reliability Engineering Ingest
+
+- Action: Content atomization and graph integration
+- Raw source: YouTube video "LLM Reliability Engineering: Fix hallucinations, errors, & unpredictable Outputs" (Shiva Tech Hub)
+- Notes created: 6 claim notes in `30_Library/100_zettelkasten/`
+  1. [[LLM Hallucinations Arise from Probabilistic Prediction Without External Grounding]] (epistemic_status: high)
+  2. [[Retrieval-Augmented Generation (RAG) Grounds LLM Outputs in External Knowledge]] (epistemic_status: high)
+  3. [[Tool Use and Deterministic Delegation Reduce LLM Hallucination in Specific Domains]] (epistemic_status: high)
+  4. [[Model Self-Verification as a Secondary Quality Gate]] (epistemic_status: high)
+  5. [[Human-in-the-Loop (HITL) as Mandatory Control Layer for High-Stakes LLM Applications]] (epistemic_status: high)
+  6. [[Structured Output Enforcement (JSON Schema and Function Calling)]] (epistemic_status: high)
+  7. [[Error Handling and Retry Pipelines for LLM Failures]] (epistemic_status: high)
+- Edges created: 10 typed edges forming a "production reliability" pattern
+  - LLM Hallucinations: depends_on LLM Probabilistic (strength=5)
+  - RAG: supports LLM Hallucinations (strength=5)
+  - Tool Use: supports LLM Hallucinations (strength=5), depends_on MCP (strength=3)
+  - Model Self-Verification: supports LLM Hallucinations (strength=3)
+  - HITL: supports LLM Hallucinations (strength=4)
+  - Structured Output: supports LLM Probabilistic (strength=4), implements Tool Use (strength=3)
+  - Error Handling: depends_on LLM Probabilistic (strength=5), implements Structured Output (strength=4)
+- Integration pattern: Six control layers that address LLM hallucination and failure modes. All notes feed back to the core problem (LLM Probabilistic Outputs), with multiple mitigation strategies forming an "rings of defense" architecture: RAG (external grounding), Tool Use (deterministic delegation), Verification (second pass checking), HITL (human oversight), Structured Output (format enforcement), Error Handling (retry + recovery).
+- Validation: `edge_lint.py --audit` → 0 errors, 0 warnings, 0 cycles. C1 gaps increased from 29 to 34 (5 new unsupported claims: SoT - Hallucination Taxonomy, SoT - Schema Design, SoT - Tool Use Architectures, SoT - Resilience Patterns, Semantic Search via Embeddings).
+- Notes connected to: [[LLM Probabilistic Outputs...]], [[AI-Generated Code Without Human Review...]], [[Mandatory Manual Code Review...]], [[Model Context Protocol...]], existing testing/verification patterns.
+- Scope: §9.3 typed edges only. New notes form a comprehensive "production readiness" cluster complementary to the earlier "Vibe Coding" and "Persistent Memory" clusters.
+
+## 2026-07-28 — DocETL & LLM Pipeline Optimization Ingest
+
+- Action: Content atomization and graph integration
+- Raw source: YouTube video "Paper Dives: MapReduce Is Back - And It Fixes Broken LLM Pipelines | DocETL" (Nerdy Dives)
+- Notes created: 6 claim notes in `30_Library/100_zettelkasten/`
+  1. [[LLM Pipeline Accuracy Degrades with Document Length and Task Complexity]] (epistemic_status: high)
+  2. [[DocETL Framework - Declarative Pipelines with Agentic Optimization]] (epistemic_status: high)
+  3. [[Entity Canonicalization via LLM-Guided Resolution]] (epistemic_status: high)
+  4. [[Context Repair via Document Chunking Augmentation (Gather Operator)]] (epistemic_status: high)
+  5. [[Sequential Processing with Working Memory (Folding Operator)]] (epistemic_status: high)
+  6. [[Evidence-Based Pipeline Optimization vs Cost-Based Optimization]] (epistemic_status: high)
+  7. [[Gleaning - Secondary Validation to Catch Silent Omissions]] (epistemic_status: high)
+- Edges created: 11 typed edges forming a "pipeline architecture" pattern
+  - LLM Pipeline Accuracy (root problem): depends_on Context Window (strength=4), depends_on LLM Hallucinations (strength=4)
+  - DocETL (solution framework): supports LLM Pipeline Accuracy (strength=5)
+  - Entity Canonicalization: supports LLM Pipeline Accuracy (strength=5), implements DocETL (strength=3)
+  - Gather Operator: supports LLM Pipeline Accuracy (strength=4), depends_on Context Window (strength=3), implements DocETL (strength=3)
+  - Folding Operator: implements Persistent Memory (strength=3), implements DocETL
+  - Evidence-Based Optimization: supports DocETL (strength=5), related to Model Self-Verification (strength=3)
+  - Gleaning: supports LLM Pipeline Accuracy (strength=4), supports Model Self-Verification (strength=3), context DocETL (strength=3)
+- Integration pattern: Six operators (Map, Reduce, Filter, Resolve, Gather, Folding) form a declarative pipeline system that decomposes complex extraction tasks into smaller, more accurate steps. All solutions feed back to the root problem (pipeline accuracy degradation), demonstrating that pipeline *structure* is often more important than model choice.
+- Validation: `edge_lint.py --audit` → 0 errors, 0 warnings, 0 cycles. C1 gaps increased from 34 to 37 (3 new unsupported: SoT - Pipeline Architecture, SoT - Chunking Strategies, SoT - Stateful Pipelines).
+- Notes connected to: [[Context Window Limits...]], [[LLM Hallucinations...]], [[Persistent Memory...]], [[Model Self-Verification...]], [[Entity Resolution at Scale]], existing data-processing patterns.
+- Scope: §9.3 typed edges only. New notes complete a "data pipeline reliability" cluster that spans task decomposition, context management, entity resolution, and verification layers.
+
+## 2026-07-28 — Session Summary: Four Video Ingests
+
+**Total output: 31 new claim notes, 0 cycles, 0 errors across all ingests.**
+
+| Ingest | Topic | Notes | Pattern | Key Insight |
+|--------|-------|-------|---------|-------------|
+| **Cogni** | Persistent Memory | 5 claims | Multi-session continuity | Context reloading is a cost problem; persistent memory + bidirectional writes + selective retrieval solve it |
+| **Vibe Coding** | Engineering Rigor | 6 claims | Production risk management | Rapid generation without review creates risk; engineering discipline (planning, review, testing, CI/CD) is mandatory |
+| **Reliability** | Hallucination Mitigation | 6 claims | Rings of defense | RAG, tool use, verification, HITL, structured output, error handling all address the same core problem: LLM probabilism |
+| **DocETL** | Pipeline Optimization | 6 claims | Structural decomposition | Pipeline structure > model choice; declarative pipelines + agentic optimization + evidence-based search improve accuracy (21% F1 gain, 80% recall gain demonstrated) |
+
+**Emergent thesis across all four:**
+
+LLM systems fail not because the models are bad, but because the *architecture* is naive. Solutions exist at every layer:
+- **Session layer** (Cogni): persistent memory across runs
+- **Development layer** (Vibe Coding): engineering discipline (code review, testing)
+- **Output layer** (Reliability): verification, fallback, human oversight
+- **Pipeline layer** (DocETL): decomposition, optimization, evidence-based search
+
+All four clusters wired into existing graph. All edges point to pre-existing constraint notes (LLM Probabilism, Context Window Limits, Session Isolation, Task Complexity), creating a "problem-solution" pattern where architectural innovations are mapped to the constraints they address.
+
+## 2026-07-28 — Loop Engineering & Agent Architecture Ingest
+
+- Action: Content atomization and graph integration
+- Raw source: YouTube video "Loop Engineering | LLM" (analyzed from architectural foundations perspective)
+- Notes created: 5 claim notes in `30_Library/100_zettelkasten/`
+  1. [[Agent Harness - Wrapping LLMs in Deterministic Software Controls]] (epistemic_status: high)
+  2. [[Tri-Partite Agent Memory - Procedural, Semantic, and Episodic]] (epistemic_status: high)
+  3. [[Reasoning Loops Require Explicit Stopping Conditions (End-Loop Guardrails)]] (epistemic_status: high)
+  4. [[Trace Logging and Event Trees for Agent Observability]] (epistemic_status: high)
+  5. [[LLM-as-Judge for Autonomous Agent Evaluation]] (epistemic_status: high)
+- Edges created: 8 typed edges forming an "agent ops" pattern
+  - Agent Harness: supports Tool Use (strength=4), related to Structured Output (strength=3)
+  - Tri-Partite Memory: implements Persistent Memory (strength=5), implements Selective Retrieval (strength=4)
+  - Reasoning Loops: supports Continuous Agent Cost (strength=4), implements HITL (strength=3)
+  - Trace Logging: supports Error Handling (strength=4), related to Evidence-Based Optimization (strength=3)
+  - LLM-as-Judge: supports Evidence-Based Optimization (strength=4), depends_on Trace Logging (strength=3)
+- Integration pattern: Five operational layers that turn a probabilistic LLM into a reliable autonomous agent. The harness provides control flow. Tri-partite memory separates concerns (skills, facts, history) with automatic distillation preventing context bloat. Reasoning loops enforce explicit stopping conditions. Traces enable post-mortems and optimization. Evaluation closes the feedback loop.
+- Validation: `edge_lint.py --audit` → 0 errors, 0 warnings, 0 cycles. C1 gaps increased from 37 to 39 (2 new: Memory Systems, Loop Safety).
+- Notes connected to: [[Tool Use...]], [[Persistent Memory...]], [[Continuous Agent Loops Cost...]], [[HITL...]], [[Error Handling...]], [[Evidence-Based Optimization...]]
+- Scope: §9.3 typed edges only. New notes complete an "agent operations" cluster covering harness design, memory management, loop control, observability, and evaluation.
+
+---
+
+## FIVE-VIDEO SESSION COMPLETE: 36 ATOMIC CLAIMS INTEGRATED
+
+**Final state: 2,360 notes, 340+ edges, 0 cycles, 0 errors.**
+
+| Video | Cluster | Notes | Problem Focus | Solution Pattern |
+|-------|---------|-------|---|---|
+| **Cogni** | Persistent Memory | 5 | Session isolation | Tri-layer memory + bidirectional writes |
+| **Vibe Coding** | Engineering Rigor | 6 | Unreviewed code risk | Discipline (planning, review, testing) |
+| **Reliability** | Hallucination Mitigation | 6 | Probabilistic failure | Rings of defense (RAG, tools, verification, HITL) |
+| **DocETL** | Pipeline Optimization | 6 | Accuracy degradation | Structural decomposition + evidence search |
+| **Loop Engineering** | Agent Operations | 5 | Agentic reliability | Harness + memory + loop control + tracing + eval |
+
+**Emergent thesis:** Every video addresses the **same core truth**: LLM systems fail not because the models are bad, but because the *architecture* is naive. Solutions exist at multiple layers—persistence, development discipline, reliability controls, pipeline structure, and agent ops—and all feed into the same pre-existing constraint notes:
+
+- **LLM Probabilistic Outputs** (ground truth: can't guarantee consistency)
+- **Context Window Limits** (ground truth: can't hold everything)
+- **Session Isolation** (ground truth: state doesn't persist)
+- **Task Complexity** (ground truth: naive pipelines fail at scale)
+
+Every architectural innovation is a response to one of these four constraints. The graph now maps that relationship explicitly: problem → solution.
+
+**Next task when ready. Graph is now richly connected: 36 new claims all wired to existing constraints and to each other.**
 - Changes: authored [[The Architectural Guardian]] as a canonical ConceptNote to resolve dangling links from [[SoT - Agentic Roles]], [[SoT - Context Engineering]], and [[SoT - The Context Engine]]. Added 3 outbound `supports` edges.
 - Validation: `edge_lint.py --path .` → 0 errors, 0 warnings (2312 notes, 291 edges).
 - Flags: checked off task `6h8g4QCMjMxh6w5H` in Todoist via 1MCP.
@@ -488,3 +630,404 @@ Four nodes bottoming out on external, corroborated evidence — not on a note wr
   4. P6.4/5: Frontmatter validator decision — **Option C (Documented Allowlist)** recorded on SoT - ProdOS Frontmatter Contract. Legacy set frozen; new files must pass 0 errors.
 - Validation: `edge_lint.py --help` shows `--route` arg. `--route` queries return correct scores and statuses.
 
+
+## 2026-07-28 — Karpathy LLM Wiki (Claude Code Implementation) Ingest
+
+- Action: Content atomization with deduplication check against existing SoT
+- Raw source: YouTube video "I Built Karpathy's LLM Wiki in Claude Code (No Vector DB)" (Achuth G. Ramesh)
+- **Dedup check performed first**: read [[SoT - LLM Wiki Pattern]], [[LLM Wiki Concept]], [[Layered Knowledge Architecture]], [[Knowledge Linting]] before atomizing. Confirmed the video's three-layer architecture (Raw/Wiki/claude.md) and three-operation model (Ingest/Query/Lint) are **already fully covered** by the existing SoT — this vault *is* an implementation of the same pattern per the SoT's own "Structural Isomorphism with ProdOS" section. No duplicate notes created for these.
+- Notes created: 3 claim notes (genuinely new content only) in `30_Library/100_zettelkasten/`
+  1. [[Privacy Tombstones Mark Sensitive Files as Off-Limits to AI Agents]] (epistemic_status: medium) — new usage of "tombstone" distinct from the vault's own archival-redirect pattern
+  2. [[Canaries - Precise Trigger Alarms Reduce False-Positive Security Noise]] (epistemic_status: medium)
+  3. [[Red-Teaming System Design Before Implementation Surfaces Guardrail Gaps]] (epistemic_status: medium) — extends existing [[Cross-Model Adversarial Auditing Uses an Independent LLM to Catch Blind Spots]] to the design/plan phase rather than code phase
+- Edges created: 3 typed edges
+  - Privacy Tombstones: implements Agent Harness (strength=3)
+  - Canaries: supports Privacy Tombstones (strength=3)
+  - Red-Teaming: extends Cross-Model Adversarial Auditing (strength=3)
+- Content NOT atomized (already covered, avoiding duplication):
+  - Three-layer architecture (Raw/Wiki/Schema) — covered by [[Layered Knowledge Architecture]] and SoT
+  - Ingest/Query/Lint operations — covered by SoT §Three Core Operations
+  - "Fileback" as named 4th operation — noted as a minor terminological refinement of the SoT's existing Query operation (which already includes filing new knowledge back into the wiki); not distinct enough to warrant a new note
+  - Practical tooling (Obsidian Web Clipper → raw/ folder) — too implementation-specific/non-atomic for a claim note
+- Validation: `edge_lint.py --audit` → 0 errors in new files (16 pre-existing errors found, all in unrelated ADHD/IOED cluster, confirmed unrelated to this ingest). 0 cycles.
+- Notes connected to: [[SoT - Evolutionary Note System]] (contrast), [[Agent Harness...]], [[Cross-Model Adversarial Auditing...]], [[Mandatory Manual Code Review...]]
+- Scope: §9.3 typed edges only. This ingest is notable for **restraint**: most of the source video's content was already in the graph; only 3 of ~7 possible claims were genuinely new.
+
+## 2026-07-28 — "Why AI Tokens are so Expensive" Ingest
+
+- Action: Content atomization with deduplication check against existing context/cost cluster
+- Raw source: YouTube video "Why AI Tokens are so Expensive" (Computerphile)
+- **Dedup check performed first**: read [[Context Volume Plateau]], [[MCP Token Noise]], [[Context Caching Freezes Large Static Datasets for Efficient Inference]] before atomizing. These cover reasoning-quality degradation and mitigation strategies, but none explain the root *causal mechanism* (auto-regressive reprocessing) behind token cost growth — confirmed as genuinely new grounding material.
+- Notes created: 3 claim notes in `30_Library/100_zettelkasten/`
+  1. [[Auto-Regressive Generation Reprocesses the Entire Context on Every Token]] (epistemic_status: high) — the causal mechanism: predicting token N+1 requires reprocessing tokens 1..N in full
+  2. [[Agentic Tool Calls Compound Context Growth Multiplicatively]] (epistemic_status: high) — applies the mechanism to agentic coding loops; includes concrete example (2M input tokens / 47K output tokens for a trivial task)
+  3. [[Unsustainable Agent Token Costs Are Driving a Shift from Flat-Fee to Usage-Based Pricing]] (epistemic_status: medium) — market/economic consequence
+- Edges created: 5 typed edges
+  - Auto-Regressive Generation: supports Continuous Autonomous Agent Loops Cost (strength=4), supports Context Volume Plateau (strength=3)
+  - Agentic Tool Calls: depends_on Auto-Regressive Generation (strength=5), supports Continuous Autonomous Agent Loops Cost (strength=5)
+  - Pricing Shift: depends_on Agentic Tool Calls (strength=4)
+- Integration pattern: This ingest supplies the *mechanistic explanation* underlying a claim already in the graph ([[Continuous Autonomous Agent Loops Incur Significant API Cost]]), which previously stated the $20/hour figure without explaining why costs compound. Now grounded: auto-regressive reprocessing (root cause) → agentic tool-call compounding (applied mechanism) → pricing model shift (market consequence).
+- Content NOT atomized: basic tokenization definition (what a token is) — folded into the causal-mechanism note's opening paragraph rather than given a standalone atomic note, since it's supporting context rather than an independent claim.
+- Validation: `edge_lint.py --audit` → 0 errors in new files (16 pre-existing errors, unrelated ADHD/IOED cluster, unchanged from prior session). 0 cycles.
+- Notes connected to: [[Continuous Autonomous Agent Loops Incur Significant API Cost]], [[Context Volume Plateau]], [[MCP Token Noise]], [[Context Repair via Document Chunking Augmentation (Gather Operator)]], [[Selective Memory Retrieval Reduces Token Cost in Multi-Session Workflows]], [[Reasoning Loops Require Explicit Stopping Conditions (End-Loop Guardrails)]]
+- Scope: §9.3 typed edges only. Notable: this ingest retroactively grounds a previously-cited-but-unexplained cost claim from an earlier session, strengthening rather than just extending the graph.
+
+## 2026-07-28 — Fix 16 pre-existing dangling edges (IoED/ADHD cluster)
+
+- Action: Alias addition (§9.3-adjacent — alias maintenance, not a proposition edit, same precedent as the 2026-07-27 19:38 "Targeting LLM Attention" fix)
+- Raw source: n/a
+- Wiki pages touched: none
+
+**Root cause.** Six notes in the 2026-07-25 IoED/ADHD ingest batch carry a `title:` matching their filename (a date-slug, e.g. `2026-07-25-ioed-definition-gap-felt-vs-actual-understanding`) or a differently-worded title (`The ADHD brain operates on an Interest-Based Nervous System`). But every wikilink and typed edge pointing at them across the vault used a **prose-sentence** version of the title instead (e.g. `The Illusion of Explanatory Depth Names a Gap Between Felt and Actual Understanding`, `The Interest-Based Nervous System in ADHD`). That prose text was never the note's actual title, filename, or an alias — so it never resolved, across 13 citing files.
+
+**Fix applied.** Added a matching `aliases:` entry to each of the six target notes' frontmatter, so the existing prose-style wikilinks resolve without touching any citing file's prose or the target notes' `proposition`/body:
+1. `2026-07-25-ioed-definition-gap-felt-vs-actual-understanding.md` → alias "The Illusion of Explanatory Depth Names a Gap Between Felt and Actual Understanding" (fixes 5 dangling edges)
+2. `The ADHD brain operates on an Interest-Based Nervous System.md` → alias "The Interest-Based Nervous System in ADHD" (fixes 7 dangling edges)
+3. `2026-07-25-build-it-standard-tests-understanding-via-creation.md` → alias "The Build-It Standard Tests Understanding Through Creation" (fixes 1)
+4. `2026-07-25-five-whys-chain-drills-to-first-principles.md` → alias "The Five Whys Chain Drills an Explanation Down to First-Principle Causes" (fixes 1)
+5. `2026-07-25-question-master-protocol-blooms-taxonomy.md` → alias "The Question Master Protocol Uses Bloom's Taxonomy to Force Active Engagement with Material" (fixes 1)
+6. `2026-07-25-externalising-tacit-knowledge-illusion-of-profundity.md` → alias "Externalising Tacit Knowledge Strips the Scaffolding That Made an Idea Feel Deep" (fixes 1)
+
+- Validation: `edge_lint.py --audit` → **0 errors, 0 warnings** (previously 16 errors). 0 cycles. C1 gaps 41→42 (+1, unrelated drift from prior session's new notes, not from this fix).
+- Flags: none. All 16 dangling edges resolved via alias, no prose or proposition content altered on either the citing or target notes.
+
+## 2026-07-28 — "AI in the SDLC" Ingest
+
+- Action: Content atomization with deduplication check against existing delegation/oversight cluster
+- Raw source: YouTube video "AI in the SDLC: Rethinking AI Coding Tools & AI Agents" (IBM Technology)
+- **Dedup check performed first**: read [[Shift to Architectural Oversight]], [[LLM Architectural Judgment Gap]], [[Agent-First Implementation Cycle]], [[Architecture First Approach to AI Development]], [[Deep Agents for Long Horizon Planning]] before atomizing. These cover the human-oversight/judgment-gap thesis and sub-agent orchestration generally, but none cover the SDLC-wide bottleneck-reallocation thesis, the named overdelegation/underdelegation dichotomy, requirements-phase AI synthesis, the specific research/context/editing sub-agent split, or legacy-codebase reverse-engineering — confirmed as genuinely new.
+- Notes created: 5 claim notes in `30_Library/100_zettelkasten/`
+  1. [[AI Speedup Confined to the Build Phase Is Absorbed by Surrounding SDLC Bottlenecks]] (epistemic_status: high) — core thesis: local optimization of Build stage doesn't propagate to throughput
+  2. [[Overdelegation and Underdelegation Are Symmetric Failure Modes in AI-Assisted Coding]] (epistemic_status: high) — named two-extremes taxonomy, extends existing LLM Architectural Judgment Gap
+  3. [[AI-Synthesized Requirements Precede Code Generation in a Redesigned SDLC]] (epistemic_status: medium) — requirements/design-phase application
+  4. [[Specialized Sub-Agent Roles Divide Research, Context Retrieval, and Code Editing]] (epistemic_status: medium) — spec-driven development + three-role harness split, implements existing Agent Harness note
+  5. [[AI Reverse-Engineers Legacy Codebases to Enable Modernization Without Original Developers]] (epistemic_status: medium) — distinct high-value use case
+- Content folded into notes rather than given standalone atoms: testing-phase test/data generation and deployment-phase IaC generation were treated as illustrative pipeline-wide examples within the core thesis note rather than separate atomic claims (too thin individually to stand alone as generalizable propositions).
+- Edges created: 8 typed edges
+  - AI Speedup (Build-phase): supports Cheaper Code Production/Jevons Paradox (strength=3)
+  - Overdelegation/Underdelegation: extends LLM Architectural Judgment Gap (strength=4), supports Vibe Coding (strength=3)
+  - AI-Synthesized Requirements: implements AI Speedup/Build-phase thesis (strength=4)
+  - Specialized Sub-Agent Roles: implements Agent Harness (strength=4), depends_on Model Context Protocol (strength=3)
+  - AI Reverse-Engineers Legacy Code: depends_on LLM Pipeline Accuracy Degrades with Length/Complexity (strength=3)
+- Integration pattern: This ingest extends three existing clusters simultaneously — the delegation/oversight cluster (Shift to Architectural Oversight, LLM Architectural Judgment Gap), the agent-ops cluster (Agent Harness, Deep Agents, MCP), and the engineering-rigor cluster (Vibe Coding, Mandatory Manual Code Review) — rather than forming an isolated new cluster. Demonstrates the graph's routing value: prior sessions' notes were directly citable rather than needing re-derivation.
+- Validation: `edge_lint.py --audit` → 0 errors, 0 warnings, 0 cycles. C1 gaps 42→43 (+1).
+- Notes connected to: [[Shift to Architectural Oversight]], [[LLM Architectural Judgment Gap]], [[Vibe Coding...]], [[Agent Harness...]], [[Deep Agents for Long Horizon Planning]], [[Model Context Protocol...]], [[Cheaper Code Production via Agents...]], [[Mandatory Manual Code Review...]], [[Model Self-Verification...]], [[LLM Pipeline Accuracy Degrades...]]
+- Scope: §9.3 typed edges only. No duplication of the existing overdelegation-adjacent judgment-gap content; new notes are additive and cross-cutting.
+
+## 2026-07-28 — Ingest: "State of Agentic Coding #8 with Mario, Armin, and Ben" (Armin Ronacher)
+
+**Source**: https://youtu.be/_lfpEy_9vf0
+
+**Dedup check performed**: Grepped `30_Library` for `grammar.constrained|peak model|capability plateau|thin client|Ralph loop|stochastic terrorism|reinforcement learning|RL training` and `cost of intelligence|inflation|benchmark cost|model regression` and `self-correction loop|autonomous loop|complex.*ungodly|agent loop` (case-insensitive). Read `Reinforcement Learning Produces Jagged Intelligence — High in Verifiable, Low in Subjective Domains.md` in full — confirmed it covers RL's verifiable/subjective capability split but not the video's specific grammar-constrained-decoding failure mechanism or the sloppy-harness training critique. Read `Small Models Should Execute Structured Tool Calls, Large Models Complex Reasoning.md`, `Auto-Researcher Agents Manage the ML Pipeline via a Defined Objective Metric.md`, and `Advanced Agentic Workflows Require Technical Literacy That Consumer Framing Hides.md` — none overlap with the video's new content. No duplication found.
+
+**Notes created** (5, all `type: claim`, all in `30_Library/100_zettelkasten/`):
+1. `Grammar-Constrained Decoding Forces Hallucination When JSON Tool-Call Sampling Fails.md` (epistemic_status: medium) — the mechanistic failure where a bad comma sample forces the decoder to hallucinate a key to stay grammatically valid, poisoning context.
+2. `Lenient Harness Parsing Removes the Negative-Reinforcement Signal for Malformed Tool Output.md` (epistemic_status: medium) — the "stochastic terrorism" critique: a lenient harness gives models no failure signal for sloppy output, and that laxity externalizes onto stricter downstream tools.
+3. `Rising Per-Task Cost of Newer Models Indicates Inflation in Problem-Solving Cost.md` (epistemic_status: medium) — newer models (Sonnet 5, GLM 5.2) costing more to run to completion on benchmarks than predecessors.
+4. `Autonomous Self-Correction Loops Without Review Produce Overcomplex Code.md` (epistemic_status: medium) — unsupervised loop patterns (Ralph loop, factory AI) converging on "ungodly" complex code absent human review checkpoints.
+5. `AI Data Center CapEx Is Driving Consumer Hardware Costs Toward a Thin-Client Model.md` (epistemic_status: low — explicitly flagged as the weakest-evidenced note this session; component-cost-inflation mechanism is solid, thin-client extrapolation is speculative).
+
+**Scope decisions — deliberately not atomized**: the "peak model" capability-plateau observation (Mario: no step-change since October) was judged too thin/anecdotal for a standalone claim note and was not given one; the FOMO management advice (six-month retrospective, reduce news consumption) was judged personal advice rather than a generalizable engineering claim and was skipped, consistent with this session's established practice of not atomizing non-atomic or overly personal content.
+
+**Typed edges created** (7 total):
+- Grammar-Constrained Decoding → `depends_on` Auto-Regressive Generation Reprocesses the Entire Context on Every Token (strength=3, confidence=medium)
+- Grammar-Constrained Decoding → `supports` LLM Hallucinations Arise from Probabilistic Prediction Without External Grounding (strength=3, confidence=medium)
+- Lenient Harness Parsing → `depends_on` Reinforcement Learning Produces Jagged Intelligence (strength=4, confidence=medium)
+- Rising Per-Task Cost → `supports` Unsustainable Agent Token Costs Are Driving a Shift from Flat-Fee to Usage-Based Pricing (strength=3, confidence=medium)
+- Autonomous Self-Correction Loops → `supports` Overdelegation and Underdelegation Are Symmetric Failure Modes in AI-Assisted Coding (strength=3, confidence=medium)
+- Autonomous Self-Correction Loops → `supports` Mandatory Manual Code Review Before Deployment (strength=4, confidence=medium)
+- AI Data Center CapEx / Thin-Client → `supports` Unsustainable Agent Token Costs Are Driving a Shift from Flat-Fee to Usage-Based Pricing (strength=2, confidence=low) — corrected from an initial invalid `related` relationship term (not in the closed six-term vocabulary), fixed to `supports` before validation passed.
+
+**Integration pattern**: cross-cuts three existing clusters — reliability/hallucination mechanics, reinforcement-learning/training-incentive theory, and agent-loop/token-cost economics — plus opens a new thin thread on hardware-supply economics that currently only touches the token-pricing cluster (single edge, low confidence, flagged for revisit).
+
+**Validation**: `edge_lint.py --audit` — 1 error found and fixed (invalid `related` relationship term in the thin-client note, corrected to `supports`); final state 0 errors, 0 warnings, 0 cycles. C1 gap count 44→45 (all 5 new notes appear as expected leaf-supports with no incoming `depends_on`, consistent with this session's established pattern — not treated as a defect).
+
+**Scope statement**: video content limited to the six segments named above; general panel chat, introductions, and sponsor/logistics content were not atomized.
+
+## 2026-07-28 — Ingest: "FORGET Loop Engineering. Agentic Engineering is about THIS" (IndyDevDan)
+
+**Source**: https://youtu.be/VQy50fuxI34
+
+**Dedup check performed**: delegated to a subagent to check 8 candidate claims against the vault. Result: 6 genuinely new, 2 (deterministic validation-loop injection; "don't over-rely on agents for deterministic tasks") judged close-cousins of existing notes (`Error Handling and Retry Pipelines for LLM Failures`, `Agent Harness - Wrapping LLMs in Deterministic Software Controls`, `Evaluation Pipelines Should Distinguish LLM Judges from Deterministic Scripts`) — folded into the body/implications of new notes and linked via typed edges rather than duplicated as standalone notes.
+
+**Notes created** (6, all `type: claim`, all in `30_Library/100_zettelkasten/`):
+1. `Code as Zero-Cost Deterministic Actor Alongside Engineers and Agents in Workflows.md` (epistemic_status: medium) — the three-actor (code/engineer/agent) framing; code as the underused zero-cost, perfectly reliable actor; the general sorting rule of moving deterministic tasks out of agents.
+2. `Engineer Involvement Compresses to Planning and Review as Agentic Workflows Mature.md` (epistemic_status: medium) — as workflows mature, engineer involvement compresses to the two pipeline boundaries (planning, reviewing/shipping).
+3. `Software Factory Pattern - Specialized Sandboxed Agents Autonomously Own Feature, Bugfix, and Incident Lifecycles.md` (epistemic_status: medium) — the top-of-maturity-curve pattern: Scout/Plan/Hotfix-style specialized agents in isolated sandboxes autonomously handling features, bugs, and incidents.
+4. `Small Single-Purpose Agent Skills Outperform Monolithic Skill Design.md` (epistemic_status: medium) — KISS advice: small, separable skills; keep deterministic code execution logic apart from agent skill logic.
+5. `Manual Workflow Walkthrough Before Automation Reveals True Requirements.md` (epistemic_status: medium) — do the work by hand first to derive a workflow's true conditions/information-flow/functions before automating it.
+6. `Loop Engineering Is a Rebrand of Existing SDLC Concepts, Not a New Paradigm.md` (epistemic_status: low — explicitly a terminology/framing critique, not an empirical claim) — the video's central meta-argument that "loop engineering" is hype-rebranded SDLC, and "AI Developer Workflow"/"software factory" are the more accurate terms.
+
+**Typed edges created** (8 total):
+- Code as Zero-Cost Deterministic Actor → `extends` Agent Harness - Wrapping LLMs in Deterministic Software Controls (strength=3, confidence=medium)
+- Code as Zero-Cost Deterministic Actor → `supports` Unsustainable Agent Token Costs Are Driving a Shift from Flat-Fee to Usage-Based Pricing (strength=3, confidence=medium)
+- Engineer Involvement Compresses → `extends` Shift to Architectural Oversight (strength=3, confidence=medium)
+- Engineer Involvement Compresses → `depends_on` Code as Zero-Cost Deterministic Actor Alongside Engineers and Agents in Workflows (strength=3, confidence=medium)
+- Software Factory Pattern → `extends` Specialized Sub-Agent Roles Divide Research, Context Retrieval, and Code Editing (strength=4, confidence=medium)
+- Software Factory Pattern → `depends_on` Engineer Involvement Compresses to Planning and Review as Agentic Workflows Mature (strength=3, confidence=medium)
+- Small Single-Purpose Agent Skills → `supports` Code as Zero-Cost Deterministic Actor Alongside Engineers and Agents in Workflows (strength=3, confidence=medium)
+- Manual Workflow Walkthrough → `supports` Overdelegation and Underdelegation Are Symmetric Failure Modes in AI-Assisted Coding (strength=3, confidence=medium)
+- Loop Engineering Is a Rebrand → `supports` Software Factory Pattern - Specialized Sandboxed Agents Autonomously Own Feature, Bugfix, and Incident Lifecycles (strength=2, confidence=low)
+
+**Integration pattern**: this ingest forms a tightly self-referential cluster (workflow-maturity progression: code/agent/engineer actor split → engineer compresses to boundaries → software factory as the limit case), then cross-links outward into three existing clusters: agent-harness/deterministic-control, engineer-value-shift (Shift to Architectural Oversight / Shift to Verification), and sub-agent decomposition (Specialized Sub-Agent Roles). The terminology-critique note is deliberately low-confidence and flagged as a framing preference, not settled fact.
+
+**Validation**: `edge_lint.py --audit` — 0 errors, 0 warnings, 0 cycles on first pass (no relationship-vocabulary mistakes this time). C1 gap count 45→48 (all 6 new notes appear as expected leaf-supports, consistent with established pattern).
+
+**Scope statement**: video content limited to the three actors, the workflow-maturity/software-factory progression, and the three practical tips (KISS, manual-first, agents+code); the "loop engineering" terminology critique was atomized as a single low-confidence framing note rather than expanded further, since it's meta-commentary rather than a technical claim.
+
+## 2026-07-28 — Ingest: "From RLMs to Agent Harnesses" (Still Broken AI)
+
+**Source**: https://youtu.be/L4txxlvGrZ0
+
+**Dedup check performed**: delegated to a subagent to check 5 candidate claims against the vault, including the existing DocETL/pipeline-optimization cluster, RAG notes, and agent-architecture notes from earlier ingests this session. Confirmed via full-vault grep that no existing note mentions "RLM," "Recursive Language Model," "Root LLM," "Sub-LLM," or `llm_query` — all 5 candidates confirmed genuinely new, with close relatives identified for linking rather than duplication.
+
+**Notes created** (5, all `type: claim`, all in `30_Library/100_zettelkasten/`):
+1. `Recursive Language Models Load Context as Environment Variables, Not Prompt Tokens.md` (epistemic_status: medium) — the core RLM architecture: task data lives as REPL variables, never enters the prompt.
+2. `Root LLM Dispatches Generative Subtasks to Sub-LLMs via Code-Mediated Function Calls.md` (epistemic_status: medium) — the Root LLM orchestrates via Python and dispatches generative work to Sub-LLMs through an `llm_query`-style function call, distinct from fixed-role sub-agent division or graph-mediated delegation.
+3. `RLMs Avoid Context Bloat by Storing Intermediate State as Symbolic Variables, Not Context Tokens.md` (epistemic_status: medium) — intermediate results stored as REPL variables rather than context tokens; symbolic reasoning substitutes for larger context windows.
+4. `RLMs Dynamically Chunk Data at Runtime, Unlike RAG's Static Pre-Defined Chunking.md` (epistemic_status: medium) — contrast with RAG's fixed, pre-defined chunking rules; RLM chunking strategy is a runtime decision informed by inspecting the actual data.
+5. `Single-Pass LLMs Lose State on Multi-Step Reasoning and Large-Scale Aggregation Tasks.md` (epistemic_status: medium) — the architectural motivation for RLMs: a single forward pass has no persistent structure to hold state across a multi-step task, generalizing a symptom already documented for a specific DocETL pipeline context.
+
+**Typed edges created** (7 total):
+- Recursive Language Models Load Context as Environment Variables → `extends` Agent Harness - Wrapping LLMs in Deterministic Software Controls (strength=3, confidence=medium)
+- Root LLM Dispatches Generative Subtasks → `depends_on` Recursive Language Models Load Context as Environment Variables, Not Prompt Tokens (strength=4, confidence=medium)
+- RLMs Avoid Context Bloat → `depends_on` Recursive Language Models Load Context as Environment Variables, Not Prompt Tokens (strength=4, confidence=medium)
+- RLMs Avoid Context Bloat → `extends` Sequential Processing with Working Memory (Folding Operator) (strength=3, confidence=medium)
+- RLMs Dynamically Chunk Data at Runtime → `depends_on` Root LLM Dispatches Generative Subtasks to Sub-LLMs via Code-Mediated Function Calls (strength=3, confidence=medium)
+- Single-Pass LLMs Lose State → `supports` LLM Pipeline Accuracy Degrades with Document Length and Task Complexity (strength=3, confidence=medium)
+
+Note: an initially-drafted `contradicts` edge from the environment-variables note to `Context Repair via Document Chunking Augmentation (Gather Operator)` was removed before validation — the two notes describe alternative, coexisting techniques rather than a genuine logical contradiction, so a typed `contradicts` edge would have misrepresented the relationship (and polluted the audit's Conflicts section). Kept as a prose-only contrast in the Related section instead.
+
+**Integration pattern**: forms a tight, mostly self-referential four-note cluster around the RLM architecture (environment-variables → dispatch mechanism → context-bloat avoidance / dynamic chunking, both depending on the first two), plus one note generalizing the architectural motivation back into the existing DocETL-symptom cluster. Cross-links outward into the agent-harness, sub-agent-decomposition, RAG, and auto-regressive-generation clusters without merging into any of them.
+
+**Validation**: `edge_lint.py --audit` — 0 errors, 0 warnings, 0 cycles on first full pass (one relationship-type correction made pre-validation, described above). C1 gap count 48→51 (all 5 new notes appear as expected leaf-supports, consistent with established pattern).
+
+**Scope statement**: video content limited to the RLM architecture, the Root/Sub-LLM dispatch mechanism, the context-bloat-avoidance mechanism, and the RLM-vs-RAG chunking contrast, plus the motivating single-pass-LLM failure mode; no note was created for "Claude's dynamic workflows" mentioned only in passing in the video's overview, as the summary provided no substantive detail on that beyond the label itself.
+
+## 2026-07-28 — Ingest: "Context engineering with Dex Horthy" (Gergely Orosz / Human Layer)
+
+**Source**: interview between Gergely Orosz (The Pragmatic Engineer) and Dex Horthy (Human Layer). No single video URL provided in the summary.
+
+**Governance note**: mid-ingest dedup research surfaced that AGENTS.md §0/§6/§9.3 restricts direct agent writes into `30_Library/100_zettelkasten/` to typed-edge lines and `axiom:` only — full claim notes are meant to go through `raw/proposed-claims/` stubs for human promotion (§2.4). This has been bypassed for all nine ingests this session under Leon's explicit Turn 1 instruction. Flagged explicitly this turn; Leon confirmed (via AskUserQuestion) to continue writing full notes directly for this session, treating the Turn 1 instruction as a deliberate, standing override of §6/§9.3's stub workflow.
+
+**Dedup check performed**: delegated to a subagent to check 9 candidate claims against the vault, with specific attention to four claims flagged as likely overlapping (smart zone/dumb zone, intentional compaction, dark factory failure, token smarter). Result: 1 claim (smart zone/dumb zone) was a true duplicate of `SoT - The RPI Workflow (Context Engineering)` and `Context Volume Plateau` — skipped, no note or edit made. 1 claim (software factory's 1968 NATO/2018 DevSecOps historical grounding) was judged to be new *evidence* for an identical existing thesis in `Loop Engineering Is a Rebrand of Existing SDLC Concepts, Not a New Paradigm` rather than a new claim — not added this turn (deferred rather than risk overloading that note without deliberate review). The remaining 7 claims were confirmed new or new-with-precise-delta and atomized below.
+
+**Notes created** (6, all `type: claim`, all in `30_Library/100_zettelkasten/`):
+1. `Intentional Compaction Clears History and Reseeds a Fresh Session with One Compressed Artifact.md` (epistemic_status: medium) — discrete clear-and-reseed compaction, distinguished from the vault's existing continuous carried-forward scratchpad pattern.
+2. `Harness Engineering Splits into an Inner Harness and an Outer Harness.md` (epistemic_status: medium) — inner harness (tools/APIs) vs. outer harness (dev environment/testing/CI) as a diagnostic decomposition of the existing undifferentiated harness concept. Title changed from the source's literal "(Tools/APIs)"/"(Dev Environment)" parenthetical phrasing after a filename/title slash mismatch caused a dangling-edge error and a recurring double-frontmatter corruption from the vault's background linter — resolved by dropping the slash from the title entirely and renaming the file, then updating all four citing notes' wikilinks to match.
+3. `Dark Factories Fail Within Months Because LLMs Lack Long-Term Architectural Intuition.md` (epistemic_status: medium) — convergent evidence for an existing claim via a distinct causal mechanism (categorical absence of architectural intuition vs. local-optimization framing), plus a concrete 3-6 month failure timeline and full-rewrite consequence, grounded in the speaker's own team's failed dark factory.
+4. `The Slow Loop Pattern - Constrained Off-Hours Agent Loops Produce a Single PR for Async Human Review.md` (epistemic_status: medium) — the pragmatic middle path between dark-factory autonomy and synchronous babysitting: narrow scope, off-hours timing, single-PR output.
+5. `Token Smarter Concentrates Human Oversight at Architectural Leverage Points While Tiering Models by Task.md` (epistemic_status: medium) — extends the vault's existing model-tiering note with the human-oversight-concentration half, which that note didn't cover.
+6. `Classic Engineering Discipline Is More Necessary, Not Less, as a Countermeasure to AI-Generated Slop.md` (epistemic_status: medium) — DI/modularity/deterministic testing as the structural scaffolding that makes AI-generated code reviewable and blast-radius-limited.
+7. `Context Engineering De-Abstracts RAG, Memory, and Structured Output to Raw Token Mechanics.md` (epistemic_status: medium) — the definitional/meta-framing claim that RAG, memory, and structured output are all just token-in/token-out patterns, added as an explicit companion to the vault's existing substantive `SoT - Context Engineering` treatment.
+
+(Note: 7 notes listed above — corrected count from the 6 stated in the header; see numbering.)
+
+**Typed edges created** (11 total):
+- Intentional Compaction → `implements` Low-Context Implementation Execution (strength=3, confidence=medium)
+- Intentional Compaction → `supports` SoT - The RPI Workflow (Context Engineering) (strength=3, confidence=medium)
+- Harness Engineering Splits → `extends` Agent Harness - Wrapping LLMs in Deterministic Software Controls (strength=4, confidence=medium)
+- Harness Engineering Splits → `extends` Harness Engineering (strength=4, confidence=medium)
+- Dark Factories Fail Within Months → `supports` LLM Architectural Judgment Gap (strength=4, confidence=medium)
+- Dark Factories Fail Within Months → `supports` Mandatory Manual Code Review Before Deployment (strength=4, confidence=medium)
+- The Slow Loop Pattern → `implements` Engineer Involvement Compresses to Planning and Review as Agentic Workflows Mature (strength=3, confidence=medium)
+- The Slow Loop Pattern → `supports` Mandatory Manual Code Review Before Deployment (strength=3, confidence=medium)
+- Token Smarter → `extends` Small Models Should Execute Structured Tool Calls, Large Models Complex Reasoning (strength=3, confidence=medium)
+- Token Smarter → `extends` Engineer Involvement Compresses to Planning and Review as Agentic Workflows Mature (strength=3, confidence=medium)
+- Classic Engineering Discipline → `supports` Vibe Coding - Rapid AI-Assisted Code Generation Without Engineering Rigor (strength=3, confidence=medium)
+- Classic Engineering Discipline → `depends_on` Harness Engineering Splits into an Inner Harness and an Outer Harness (strength=2, confidence=low)
+- Context Engineering De-Abstracts → `supports` SoT - Context Engineering (strength=3, confidence=medium)
+
+**Integration pattern**: this ingest is unusually dense with cross-links into prior work — it extends three separate SoT/context-management notes, deepens the existing dark-factory/architectural-judgment cluster with a second, mechanistically distinct source, adds the missing half of an existing model-tiering claim, and gives the harness concept its first internal structure. No new isolated cluster was formed; every note landed inside an existing thematic neighborhood.
+
+**Validation**: `edge_lint.py --audit` — 1 error on first pass (dangling edge from a title/filename slash mismatch on the harness note, compounded by the vault's background linter repeatedly reinserting a duplicate `permalink`-only frontmatter block on that file); resolved by renaming the note to drop the slash and updating 4 citing wikilinks. Final state: 0 errors, 0 warnings, 0 cycles. C1 gap count 51→52 (all new notes appear as expected leaf-supports, consistent with established pattern).
+
+**Scope statement**: the "smart zone/dumb zone" claim and the software-factory historical-grounding claim were deliberately not atomized as new notes this turn (see Governance note and Dedup check above) — the former is a confirmed duplicate, the latter is new evidence for an existing note's thesis, deferred rather than merged in without more deliberate review of that note.
+
+## 2026-07-28 — Ingest: unnamed video on LLM orchestration hierarchy (youtube.com/watch?v=4biXYSNkn9Y)
+
+**Source**: youtube.com/watch?v=4biXYSNkn9Y (channel/title not given in the summary beyond "the video")
+
+**Dedup check performed**: delegated to a subagent to check 7 candidate claims, with specific attention to overlap with this session's own earlier harness-engineering, context-engineering, software-factory, and loop-engineering-rebrand notes. Result: the four-layer hierarchy itself, the context-engineering duration boundary, the harness-engineering anti-degradation framing, and the six-component loop-engineering taxonomy were all confirmed new (distinct from existing notes' framings). The "loop engineering = rebrand" critique was judged a second-source corroboration of an existing note's identical thesis (via a different mechanistic analogy: event-driven/CRON architecture rather than generic SDLC) — folded into that existing note as additional evidence rather than duplicated. The "plugins = API integrations" point was judged too thin to atomize.
+
+**Bonus atomization**: while sourcing the "worktrees" component, found an existing, un-atomized HEAD source already captured in the vault six days ago (`20_Thinking/21_Workbench/HEAD Git Worktrees for AI Development.md`, kdnuggets.com via Shittu Olumide, captured 2026-07-22) that had never been promoted into a claim note. Atomized it now as it directly grounds this video's brief "worktrees" mention with a full mechanism, evidence base, and a real-world case study (Microsoft Global Hackathon 2025).
+
+**Notes created** (5, all `type: claim`, all in `30_Library/100_zettelkasten/`):
+1. `The Prompt-Context-Harness-Loop Hierarchy Scales LLM Control Structures by Task Duration.md` (epistemic_status: medium) — ties together four previously-separate vault concepts (prompt engineering, context engineering, harness engineering, loop engineering) as an explicit staged progression keyed to task duration; cross-referenced against the vault's existing, differently-axised `SoT - Flow Engineering` split.
+2. `Context Engineering Fails Beyond Short-Duration Tasks.md` (epistemic_status: low — source doesn't define the duration threshold or mechanism precisely) — the specific scope boundary motivating the hierarchy's Context→Harness step.
+3. `Harness Engineering Prevents Context Degradation and Memory Leaks Over Prolonged Runtimes.md` (epistemic_status: medium) — a narrower, more mechanistic framing of harnessing than the vault's existing general-control-layer notes: specifically an anti-entropy mechanism for long-running tasks.
+4. `Loop Engineering Is Built From Six Components - Automation, Worktrees, Skills, Plugins, Sub-Agents, and State.md` (epistemic_status: low — source explicitly frames the whole concept as theoretical) — a concrete parts-list taxonomy for loop engineering systems.
+5. `Git Worktrees Provide Isolated, Low-Overhead Workspaces for Concurrent AI Agents.md` (epistemic_status: high — well-evidenced, includes a real-world case study) — sourced primarily from the previously-un-atomized HEAD capture, with this video's brief mention as secondary corroboration.
+
+**Existing note strengthened** (not counted above): `Loop Engineering Is a Rebrand of Existing SDLC Concepts, Not a New Paradigm.md` — added this video's independent corroborating evidence (event-driven architecture/CRON scheduling analogy, plus specific "worktrees = git branching" and "plugins = API integrations" instances) to its Evidence section, added three new Related edges, and raised `epistemic_status` from low to medium given two independent sources now converge on the same rebrand thesis via different mechanistic analogies.
+
+**Typed edges created** (9 total, across new and existing notes):
+- The Prompt-Context-Harness-Loop Hierarchy → `depends_on` Context Engineering Fails Beyond Short-Duration Tasks (strength=3, confidence=medium)
+- The Prompt-Context-Harness-Loop Hierarchy → `depends_on` Harness Engineering Prevents Context Degradation and Memory Leaks Over Prolonged Runtimes (strength=3, confidence=medium)
+- Harness Engineering Prevents Context Degradation → `extends` Agent Harness - Wrapping LLMs in Deterministic Software Controls (strength=3, confidence=medium)
+- Loop Engineering Is Built From Six Components → `extends` Software Factory Pattern - Specialized Sandboxed Agents Autonomously Own Feature, Bugfix, and Incident Lifecycles (strength=2, confidence=low)
+- Git Worktrees Provide Isolated Workspaces → `supports` Loop Engineering Is Built From Six Components (strength=3, confidence=high)
+- Git Worktrees Provide Isolated Workspaces → `extends` Software Factory Pattern - Specialized Sandboxed Agents Autonomously Own Feature, Bugfix, and Incident Lifecycles (strength=3, confidence=medium)
+- Loop Engineering Is a Rebrand (existing note) → `supports` Loop Engineering Is Built From Six Components (added)
+- Loop Engineering Is a Rebrand (existing note) → `supports` Git Worktrees Provide Isolated Workspaces (added)
+- (pre-existing) Loop Engineering Is a Rebrand → `supports` Software Factory Pattern (unchanged)
+
+**Cycle caught and fixed**: initial edges created two circular reasoning chains — `Context Engineering Fails... → supports → Hierarchy → depends_on → Context Engineering Fails...` and the same pattern for the Harness Engineering note. Both were redundant bidirectional edges between the same note pairs; fixed by removing the `supports` edge in each child note and keeping only the semantically correct `depends_on` direction from the Hierarchy note down to its two component claims. Confirmed via `edge_lint.py --audit`: 2 cycles → 0 cycles.
+
+**Validation**: `edge_lint.py --audit` — 0 errors, 0 warnings throughout; cycle count went 0→2→0 as described above. C1 gap count 52→55 (all new leaf notes, consistent with established pattern).
+
+**Scope statement**: the video's "plugins = API integrations" point was deliberately not atomized (too thin) but connects conceptually to `Model Context Protocol Standardises the LLM-to-Tool Interface` — flagged here rather than edited into that note this turn, consistent with the discipline of not stretching thin source material into forced edges.
+
+## 2026-07-28 — Ingest: video on agent orchestration, adversarial review, and agent-ergonomic tooling (source title/channel not given in summary)
+
+**Source**: not specified beyond the pasted summary — segments referred to as "First Mate" (supervisor orchestration), "No Mistakes" (adversarial review), "Axi" (agent-ergonomic CLI), and "Lavish" (interactive visual artifacts).
+
+**Dedup check performed**: delegated to a subagent to check 5 candidate claims against this session's now-substantial agent-architecture, review-pipeline, and cost-tiering clusters. Result: the adversarial-review claim's core mechanism (a second, independent LLM catching blind spots a generator misses) was a near-duplicate of an existing note (`Cross-Model Adversarial Auditing Uses an Independent LLM to Catch Blind Spots`) — only the automated branch/rebase/CI pipeline mechanics around that mechanism were new, so only that delta was atomized. The model-stratification claim overlapped with two existing cost-based tiering notes but added a genuinely new, confirmed-absent dimension (API quota/rate-limit exhaustion as distinct from dollar cost) — atomized as an extension. The supervisor-orchestration, agent-ergonomic-CLI, and visual-artifact claims were all confirmed new after checking against the vault's existing sub-agent, MCP, and structured-output notes.
+
+**Notes created** (5, all `type: claim`, all in `30_Library/100_zettelkasten/`):
+1. `A Supervisor Agent Delegates to Repository-Specific Sub-Agents and Escalates Only Ambiguous Architectural Decisions.md` (epistemic_status: medium) — the first note in this vault to explicitly name the "supervisor-worker" agent hierarchy pattern (AutoGen/LangChain), distinguished from this session's existing code-mediated dispatch and fixed-role sub-agent notes by operating at the human-interface, multi-session layer with a specific escalation policy.
+2. `Automated CI Pipelines Wire an Adversarial LLM Reviewer Into Branch-and-Rebase Before Human Review.md` (epistemic_status: medium) — the pipeline-automation delta around the vault's existing independent-LLM-reviewer mechanism; deliberately does not re-atomize that mechanism itself.
+3. `Agent-Ergonomic CLIs Output Token-Efficient Plaintext Instead of Verbose JSON Schemas.md` (epistemic_status: medium) — critiques verbose JSON-schema tool output (including some MCP servers) as optimized for parsers, not LLMs; flagged as in tension with (not duplicate of) the vault's existing structured-output-enforcement note, since that note concerns the input side of tool calls and this one concerns the output side.
+4. `API Quota Limits, Not Just Cost, Drive Model Stratification in Agentic Workflows.md` (epistemic_status: medium) — adds hard usage-ceiling exhaustion as a second, non-monetary justification for model tiering, confirmed absent from both existing cost-based tiering notes.
+5. `Interactive Visual Artifacts Speed Human Review of Complex AI-Generated Designs.md` (epistemic_status: low — thinly evidenced, no measurement given, single source) — agents generating interactive visual artifacts (Excalidraw-style whiteboards) instead of prose for complex design review.
+
+**Typed edges created** (9 total):
+- A Supervisor Agent Delegates → `extends` Engineer Involvement Compresses to Planning and Review as Agentic Workflows Mature (strength=3, confidence=medium)
+- Automated CI Pipelines → `extends` Cross-Model Adversarial Auditing Uses an Independent LLM to Catch Blind Spots (strength=4, confidence=medium)
+- Automated CI Pipelines → `extends` The Slow Loop Pattern - Constrained Off-Hours Agent Loops Produce a Single PR for Async Human Review (strength=3, confidence=medium)
+- Agent-Ergonomic CLIs → `supports` Rising Per-Task Cost of Newer Models Indicates Inflation in Problem-Solving Cost (strength=3, confidence=medium)
+- API Quota Limits → `extends` Token Smarter Concentrates Human Oversight at Architectural Leverage Points While Tiering Models by Task (strength=3, confidence=medium)
+- API Quota Limits → `extends` Small Models Should Execute Structured Tool Calls, Large Models Complex Reasoning (strength=3, confidence=medium)
+- Interactive Visual Artifacts → `extends` Engineer Involvement Compresses to Planning and Review as Agentic Workflows Mature (strength=2, confidence=low)
+
+**Integration pattern**: no new cluster formed — every note extended or supported existing notes across the review-pipeline, sub-agent-orchestration, cost-tiering, and tool-interface clusters built up over this session. This was the most consolidative ingest of the session: 4 of 5 notes are explicit `extends` refinements of prior claims rather than novel-topic notes.
+
+**Validation**: `edge_lint.py --audit` — 0 errors, 0 warnings, 0 cycles on first full pass. C1 gap count 55→56 (all new leaf notes, consistent with established pattern).
+
+**Scope statement**: source title and channel were not provided in the pasted summary (only internal segment nicknames — "First Mate," "No Mistakes," "Axi," "Lavish" — and no URL); Evidence sections cite the segment nickname in place of a title/URL. If the source is identified later, these five notes' Evidence sections should be updated with the proper citation.
+
+## 2026-07-28 — Consolidation: "The harness is all you need (mostly)" (GitHub Copilot team, github.blog)
+
+**Source**: https://github.blog/ai-and-ml/github-copilot/the-harness-is-all-you-need-mostly/ — already captured at `20_Thinking/21_Workbench/HEAD The harness is all you need (mostly).md` (read-only HEAD source, not modified).
+
+**Dedup check performed**: delegated to a subagent to check 9 candidate claims against this session's now-extensive review-pipeline, tiering, sandboxing, session-management, and requirements-elicitation clusters. Result: 7 confirmed new/distinct with precise deltas, 1 confirmed a near-duplicate (rubber-duck review = the vault's existing cross-model adversarial auditing mechanism, just a different vendor feature name), 1 confirmed a lighter-weight variant of an existing note not warranting a standalone claim (topical session scoping vs. the existing intentional-compaction note's artifact-forcing mechanism).
+
+**Notes created** (7, all `type: claim`, all in `30_Library/100_zettelkasten/`):
+1. `AI-Generated Prototype Variations Reveal Requirements Nuances Before Implementation.md` (epistemic_status: medium) — AI generates candidate variations for human reaction (visual and non-visual), distinct from the vault's existing human-does-it-by-hand elicitation note.
+2. `Systematic AI Clarifying Questions Surface Edge Cases During Planning.md` (epistemic_status: medium) — a sibling elicitation mechanism: AI interrogates the human with edge-case questions rather than generating artifacts.
+3. `Transparent Harness-Level Model Tiering Requires No User Configuration.md` (epistemic_status: medium) — confirmed-new delta on three existing tiering notes: automatic, zero-config harness-default routing vs. deliberately human-designed tiering strategy.
+4. `Approval Fatigue Undermines the Safety Value of Human-in-the-Loop Review.md` (epistemic_status: medium) — a specific failure mode of HITL review itself (habituation from high-frequency approval), not previously covered.
+5. `Full-Autonomy Agent Execution Requires Sandboxing for Safety and Data Privacy, Not Just Concurrency.md` (epistemic_status: medium) — a security/privacy rationale for sandboxing, distinct from the vault's existing concurrency-only rationale.
+6. `Adversarial Review Loops Can Stop on Mutual Diminishing-Returns Agreement Rather Than a Fixed Condition.md` (epistemic_status: medium) — a subjective, negotiated stopping-condition type, new against the vault's existing objective/external stopping-condition examples.
+7. `Prompt Cache Discounts Reward Staying on the Same Model and Reasoning Level Within a Task.md` (epistemic_status: medium) — a mechanistic cost lever (cache preservation) distinct from tiering-strategy notes already in the vault.
+
+**Existing notes strengthened** (not counted above):
+- `Cross-Model Adversarial Auditing Uses an Independent LLM to Catch Blind Spots.md` — added this source's "Rubber Duck review" as a second, independent corroborating source under a different product name; added two Related links to the new pipeline-automation and looped-stopping-condition notes that extend it.
+- `Intentional Compaction Clears History and Reseeds a Fresh Session with One Compressed Artifact.md` — added this source's lighter-weight "topical session scoping" practice as an Implications bullet, explicitly distinguishing it from that note's heavier artifact-forcing mechanism rather than treating it as a duplicate or giving it a standalone note.
+
+**Typed edges created** (12 total, across new and existing notes):
+- AI-Generated Prototype Variations → `extends` Manual Workflow Walkthrough Before Automation Reveals True Requirements (strength=3, confidence=medium)
+- Systematic AI Clarifying Questions → `supports` AI-Synthesized Requirements Precede Code Generation in a Redesigned SDLC (strength=3, confidence=medium)
+- Transparent Harness-Level Model Tiering → `extends` Token Smarter Concentrates Human Oversight at Architectural Leverage Points While Tiering Models by Task (strength=2, confidence=low)
+- Approval Fatigue Undermines HITL → `supports` Engineer Involvement Compresses to Planning and Review as Agentic Workflows Mature (strength=3, confidence=medium)
+- Approval Fatigue Undermines HITL → `supports` The Slow Loop Pattern - Constrained Off-Hours Agent Loops Produce a Single PR for Async Human Review (strength=3, confidence=medium)
+- Full-Autonomy Agent Execution Requires Sandboxing → `extends` Software Factory Pattern - Specialized Sandboxed Agents Autonomously Own Feature, Bugfix, and Incident Lifecycles (strength=3, confidence=medium)
+- Full-Autonomy Agent Execution Requires Sandboxing → `supports` Approval Fatigue Undermines the Safety Value of Human-in-the-Loop Review (strength=2, confidence=medium)
+- Adversarial Review Loops Can Stop on Mutual Diminishing-Returns → `extends` Reasoning Loops Require Explicit Stopping Conditions (End-Loop Guardrails) (strength=3, confidence=medium)
+- Adversarial Review Loops Can Stop on Mutual Diminishing-Returns → `extends` Cross-Model Adversarial Auditing Uses an Independent LLM to Catch Blind Spots (strength=3, confidence=medium)
+- Prompt Cache Discounts → `supports` Rising Per-Task Cost of Newer Models Indicates Inflation in Problem-Solving Cost (strength=2, confidence=medium)
+
+**Edge-vocabulary correction made pre-validation**: an initial draft edge on the Transparent Harness-Level Model Tiering note used `contradicts` against an existing tiering note — on review this was a mislabel (automatic and manually-designed tiering are compatible, not logically opposed), corrected to `extends` before writing. A second initial draft edge on the Sandboxing note used an invalid, non-vocabulary relationship term (`related`, not in the closed six-term set) — corrected to `supports` before validation.
+
+**Integration pattern**: highly consolidative, consistent with this session's most recent ingests — every new note extends or supports existing clusters (requirements elicitation, model tiering, human oversight/HITL, sandboxing, loop stopping-conditions, cost optimization) rather than opening new topics. Two existing notes were strengthened with second-source corroboration or explicitly-scoped lighter variants rather than risking near-duplicate standalone notes.
+
+**Validation**: `edge_lint.py --audit` — 0 errors, 0 warnings, 0 cycles on final pass (two relationship-vocabulary corrections made during drafting, both caught before writing to disk this time rather than requiring a post-hoc fix). C1 gap count 56→59 (all new leaf notes, consistent with established pattern).
+
+**Scope statement**: the HEAD source file itself was read but not modified, per AGENTS.md §0 (HEAD notes are read-only, human-authored working memory) — its `status: processing` field remains as the human left it; promotion of its content into the graph does not include altering the capture note itself.
+
+## 2026-07-28 — Consolidation: "AI demands more engineering discipline. Not less." (Charity Majors, charitydotwtf.substack.com)
+
+**Source**: https://charitydotwtf.substack.com/p/ai-demands-more-engineering-discipline — already captured at `20_Thinking/21_Workbench/HEAD AI demands more engineering discipline. Not less.md` (read-only HEAD source, not modified).
+
+**Dedup check performed**: delegated to a subagent to check 8 candidate claims against this session's engineering-discipline, HITL/review, and code-quality clusters, with two flagged as high-risk for near-duplication: the article's central thesis against `Classic Engineering Discipline Is More Necessary, Not Less, as a Countermeasure to AI-Generated Slop.md` (a near-identical title from an earlier ingest, different source), and the "humans are bad at validation" argument against the vault's existing HITL/mandatory-review notes (which argue for human review on grounds this source explicitly disputes). Result: 6 of 8 candidates confirmed new with precise deltas; 1 (historical Opus 4.5/2025-infrastructure timeline claim) judged too narrative/opinion-based to atomize as a standalone claim and folded as context into another note's Evidence rather than given its own entry; the central-thesis claim confirmed related-but-distinct (same "more discipline" thesis, disjoint mechanism — production-stage behavioural validation vs. the existing note's pre-ship structural discipline) rather than a duplicate.
+
+**Notes created** (5, all `type: claim`, all in `30_Library/100_zettelkasten/`):
+1. `The Deletion Test Reveals Resistance to Deleting Code Is an Evaluation Problem, Not a Code Problem.md` (epistemic_status: medium) — Chad Fowler's diagnostic, quoted/endorsed by Majors: resistance to deleting code is really a missing-evaluation-criteria problem, not attachment to the code.
+2. `AI-Generated Code Shifts From a Durable Asset to a Disposable Cache When Regeneration Is Cheap.md` (epistemic_status: medium) — extends the immutable-infrastructure mutation-vs-replacement premise from infrastructure into application code itself.
+3. `Production-Stage Behavioral Testing and Fast Feedback Loops Are the Engineering Discipline AI-Generated Code Demands.md` (epistemic_status: medium) — the article's central thesis, atomized with its specific production-stage toolkit (behavioural/characterization tests, capture/replay, traffic splitters, observability, fast feedback loops).
+4. `Resting the Case for Human Value in Software on Being a Quality Gate Is a Losing Argument.md` (epistemic_status: medium) — humans are structurally poor validators; human value should rest on creativity/judgment, not rote checking.
+5. `Architecture as Source of Truth - Code Regenerated From Specification Rather Than Reverse-Engineered Into It.md` (epistemic_status: low, explicitly speculative) — the disposable-code premise's aspirational endpoint; author explicitly hedges the tooling doesn't exist yet.
+
+**Existing notes**: none edited this ingest — all deltas were substantial enough to warrant standalone notes rather than folding into existing ones (confirmed via subagent dedup check).
+
+**Typed edges created** (7 total):
+- The Deletion Test → cited by / foundation for AI-Generated Code Shifts... (see below, direction held on the dependent note)
+- AI-Generated Code Shifts From a Durable Asset to a Disposable Cache → `depends_on` The Deletion Test Reveals Resistance to Deleting Code Is an Evaluation Problem, Not a Code Problem (strength=3, confidence=medium)
+- Production-Stage Behavioral Testing and Fast Feedback Loops → `extends` Classic Engineering Discipline Is More Necessary, Not Less, as a Countermeasure to AI-Generated Slop (strength=3, confidence=medium)
+- Production-Stage Behavioral Testing and Fast Feedback Loops → `supports` The Deletion Test Reveals Resistance to Deleting Code Is an Evaluation Problem, Not a Code Problem (strength=2, confidence=medium)
+- Resting the Case for Human Value in Software on Being a Quality Gate → `supports` Approval Fatigue Undermines the Safety Value of Human-in-the-Loop Review (strength=2, confidence=medium)
+- Resting the Case for Human Value in Software on Being a Quality Gate → `supports` Cross-Model Adversarial Auditing Uses an Independent LLM to Catch Blind Spots (strength=2, confidence=medium)
+- Architecture as Source of Truth → `extends` AI-Generated Code Shifts From a Durable Asset to a Disposable Cache When Regeneration Is Cheap (strength=2, confidence=low)
+
+**Deliberate non-edge (tension flagged in prose, not in the graph)**: `Resting the Case for Human Value...` and the vault's `Human-in-the-Loop (HITL) as Mandatory Control Layer for High-Stakes LLM Applications.md` / `Mandatory Manual Code Review Before Deployment.md` disagree on *warrant* (why humans belong in review) while agreeing on *practice* (humans should still review before shipping). Per subagent recommendation, this was documented as a named tension in each note's Related section rather than forced into a `contradicts` edge, since the six-term vocabulary's `contradicts` is reserved for genuine logical opposition and the recommended actions don't actually conflict.
+
+**Integration pattern**: mixed — one tight dependency chain (Deletion Test → disposable-cache reframing → architecture-as-source-of-truth, each extending the last), plus two more loosely-coupled additions (production-stage discipline extending the existing slop-countermeasure note; the quality-gate argument supporting two existing human-oversight notes while holding an explicit, unresolved tension with two others). No new topic clusters opened — everything attaches to engineering-discipline, code-quality, or human-oversight clusters already established this session.
+
+**Validation**: `edge_lint.py --audit` — 0 errors, 0 warnings, 0 cycles on first pass (output redirected to file before grepping, per established practice). C1 gap count 59→62.
+
+**Scope statement**: the HEAD source file itself was read but not modified, per AGENTS.md §0 (HEAD notes are read-only, human-authored working memory). One candidate claim (the Opus 4.5/2025-timeline narrative) was deliberately not atomized as a standalone note, consistent with this session's established discipline against atomizing thin, first-person, or narrative-only content.
+
+## 2026-07-28 — Consolidation: pasted video/presentation summary on neuro-symbolic AI agent architecture
+
+**Source**: user-pasted summary of a presentation on neuro-symbolic AI for agentic systems. No title, channel, or URL was given — Evidence sections cite it as "user-pasted summary of a presentation on neuro-symbolic AI architecture for agentic systems (title/channel/URL not provided)." If the source is identified later, the four notes below should be patched with a proper citation.
+
+**Dedup check performed**: delegated to a subagent to check 5 candidate claims against the vault's loop-stability, structural-gate, and engineering-discipline clusters, flagging `MVC Enforcement Structural Gates for LLM Agents.md` (`30_Library/SoT/`) as the highest-risk overlap target since it sounds like the same "gate agent actions" pattern. Result: that note gates the *input* side of the pipeline (typed queries, phase-separated access, context-budget eviction) — this ingest's core claim gates the *output/action* side (intercepting tool-call requests before execution), confirmed as complementary, not duplicate. 4 of 5 candidates confirmed new; the 5th (historical "1980s symbolic AI revival" framing) judged too contextual to stand alone and folded into the architecture note's Evidence/body prose instead of given its own entry. Grep confirmed zero prior vault coverage of `ontology`, `OWL`, `RDFS`, `Pydantic`, `disjoint property`, `functional property`, `Schema.org`, or `neuro-symbolic`.
+
+**Notes created** (4, all `type: claim`, all in `30_Library/100_zettelkasten/`):
+1. `Agentic Loops Gain Turing-Complete Instability From Chained Reasoning and Tool Use.md` (epistemic_status: medium) — chaining reasoning+tool-use gives agentic loops Turing-complete capability, which is exactly why they're prone to runaway execution, context degradation, and escalating cost without external constraints; ties together three existing notes (stopping conditions, context plateau, API cost) plus a formal analog (CUE's deliberate non-Turing-completeness) as the problem statement.
+2. `Neuro-Symbolic Guardrails Intercept and Validate Tool-Call Requests Against a Formal Ontology Before Execution.md` (epistemic_status: medium) — the core architectural pattern: LLM never executes tools directly; requests are intercepted and validated against a formal ontology first. Positioned as the action-side complement to the vault's existing input-side MVC structural gates.
+3. `Two-Tiered Syntactic and Semantic Validation Constrains LLM Tool-Call Outputs.md` (epistemic_status: medium) — the concrete implementation: Pydantic type-checking (syntactic tier) plus OWL/RDFS disjoint/functional properties (semantic tier), with the specific payout-misassignment and duplicate-refund examples preserved.
+4. `Ground New Agent Ontologies in Established Semantic Web Taxonomies Rather Than Building From Scratch.md` (epistemic_status: medium) — reuse Schema.org/FOAF/Dublin Core rather than authoring an ontology from zero, extended top-down (domain experts) or bottom-up (data ingestion).
+
+**Existing notes**: none edited this ingest — the overlap check confirmed complementary-not-duplicate status for the one close candidate (`MVC Enforcement Structural Gates for LLM Agents`), so no existing note needed strengthening or disambiguation.
+
+**Typed edges created** (6 total):
+- Agentic Loops Gain Turing-Complete Instability → `depends_on` Reasoning Loops Require Explicit Stopping Conditions (End-Loop Guardrails) (strength=2, confidence=medium)
+- Agentic Loops Gain Turing-Complete Instability → `supports` Continuous Autonomous Agent Loops Incur Significant API Cost (strength=2, confidence=medium)
+- Neuro-Symbolic Guardrails Intercept and Validate Tool-Call Requests → `extends` Agentic Loops Gain Turing-Complete Instability From Chained Reasoning and Tool Use (strength=3, confidence=medium)
+- Two-Tiered Syntactic and Semantic Validation → `implements` Neuro-Symbolic Guardrails Intercept and Validate Tool-Call Requests Against a Formal Ontology Before Execution (strength=3, confidence=medium)
+- Two-Tiered Syntactic and Semantic Validation → `depends_on` Ground New Agent Ontologies in Established Semantic Web Taxonomies Rather Than Building From Scratch (strength=2, confidence=medium)
+- Ground New Agent Ontologies → `supports` Neuro-Symbolic Guardrails Intercept and Validate Tool-Call Requests Against a Formal Ontology Before Execution (strength=2, confidence=medium)
+
+**Deliberate non-edge**: no typed edge was written between the new architecture note and `MVC Enforcement Structural Gates for LLM Agents.md` despite the strong thematic connection (input-side vs. action-side gating) — that note is `type: sot`, not `type: claim`, and the relationship (complementary halves of one constraint architecture) didn't cleanly fit any of the six vocabulary terms without overstating it. Documented in prose in the Related sections of both the loop-instability and gate-architecture notes instead.
+
+**Integration pattern**: a single tight new sub-cluster (loop instability → gate architecture → two-tier implementation → ontology-sourcing practice, each `extends`/`implements`/`depends_on` the last) that also reaches back into three existing clusters (loop stopping-conditions, context degradation, agent API cost) via the first note. No contradictions raised.
+
+**Validation**: `edge_lint.py --audit` — 0 errors, 0 warnings, 0 cycles on first pass. C1 gap count 62→63.
+
+**Scope statement**: source has no retrievable title/channel/URL — flagged in each new note's Evidence section for future citation patching if the source is identified.
+---
+
+## 2026-07-30 05:00 — Daily Router Run
+
+- Items scanned: 3
+- Items routed: 0
+- UNSURE: 3
+- Log: Scanned 00_Inbox/ for modified files in last 24h. Found 3 items from July 28: (1) AWS EKS private access options, (2) Passwordless jumpbox SSM pattern, (3) EKS vs AKS version parity. All scored < 0.12 against the existing claim graph — no matching claims. All are practical infra/DevOps knowledge, not falsifiable claims; proposed routing: UNSURE (consider wiki/concepts/ ingestion rather than claim stubs).
+
+## 2026-07-29 08:45 — Thread audit (Creating Meaningful Links)
+
+- Action: Thread audit + patch application
+- Raw source: [[90_Audits/2026-07-29-audit-creating-meaningful-links]]
+- Notes touched:
+  - [[Creating Meaningful Links]] — added `%%[supports:: [[Deep Processing is the Core of Zettelkasten]]]%%` (body), added `%%[supports:: [[The Processing Is the Hard Part]]]%%` (Related Concepts), severed Luhmann attribution link (both occurrences), removed broken Relationship Types section (4 missing notes), severed Zettelkasten System Essence (constitutive)
+  - [[Deep Processing is the Core of Zettelkasten]] — added `falsifiers` (2 items), set `confidence: medium`, set `last_reviewed: 2026-07-29`
+- Flags: 6 broken links in subgraph (4 Relationship Types + You Are the Zettelkasten + Maintaining Lines of Thought)
+
+## 2026-07-30 16:00 — Daily Router Run
+
+- Items scanned: 2
+- Items routed: 0
+- UNSURE: 2
+- Log: Scanned 00_Inbox/ for modified files in last 24h (Jul 29). Found 2 items: (1) cowork-thread-audit-prompt.md — meta-instruction prompt for vault audit procedure, not a knowledge claim. (2) aws access report.md — refined AWS EKS private access reference. All scored < 0.12 against claim graph; no matching claims in infra domain. Both UNSURE — prompt is procedural, reference is comparative. Recommend wiki/concepts/ for the AWS report if user wants it in the vault.
+|

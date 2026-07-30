@@ -2,7 +2,7 @@
 created: 2026-07-15T14:04:06+00:00
 created_utc: '2026-07-15T14:04:00Z'
 kind: claim
-modified: 2026-07-21T09:15:04+00:00
+modified: 2026-07-28T09:12:44+00:00
 permalink: llmeon/30-library/100-zettelkasten/claim-beliefs-often-function-as-belonging-cues-to-secure-group-membership-rather-than-as-truth-seeking-theses
 source_title: ecological-mind-model
 source_url: https://gemini.google.com/app/dd7fd18f2310946a
@@ -32,10 +32,4 @@ Applies to highly cohesive groups and polarized environments where holding a spe
 
 #### Related
 
-- [[Extreme Political Beliefs Are Stress Responses to Real Environmental Pain]]—extends: explains how distress feeds into simplified tribal narratives
-- [[Binary Person-Judgement Is a Cognitive Default, Not a Character Flaw]]—extends: explains the evolutionary context of this behavior
-- [[Fundamental Attribution Error]]—shared mechanism: explains the cognitive bias of blaming the person's nature rather than situational/tribal factors
-
-## Related
-
-- [[Decoupling the person from the proposition allows for rigorous idea evaluation without attacking human worth]] - A strategy for addressing beliefs that are actually belonging cues.
+_(All three prior links severed or superseded 2026-07-29 — see [[90_Audits/2026-07-29-claim-beliefs-often-function-as-belonging-cues]]. The Binary Person-Judgement relation is now recorded correctly as an inbound `depends_on` edge on that note instead.)_

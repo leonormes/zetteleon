@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-27T19:20:43+00:00
 last_reviewed: 'null'
-modified: 2026-07-21T09:15:11+00:00
+modified: 2026-07-28T09:12:52+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-gap-between-knowing-a-fact-and-understanding-a-concept
 status: 'null'
 tags: [communication, epistemology, topic/learning, understanding]

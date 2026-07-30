@@ -2,7 +2,7 @@
 aliases: [Originality as Synthesis]
 conformant: false
 created: 2025-11-06T19:59:00+00:00
-modified: 2026-07-21T09:15:08+00:00
+modified: 2026-07-28T09:12:49+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/originality-is-the-unique-synthesis-of-existing-ideas
 tags: [ideas, originality, synthesis, TheHuman/Creativity]

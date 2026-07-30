@@ -4,12 +4,8 @@ conformant: true
 created: 2025-07-20T13:32:44+00:00
 definition: "Alchemy's deliberate use of pseudonyms, symbolism and arcane language to protect knowledge from the uninitiated, treating truth as a static inheritance to be guarded rather than a claim to be corrected."
 distinguishes_from: ["[[Mathematics Established Knowledge Through Open Demonstration]]"]
-modified: 2026-07-26T00:20:00+01:00
+modified: 2026-07-28T09:12:43+00:00
 permalink: llmeon/30-library/100-zettelkasten/alchemy-protected-truth-through-obscurity
-prodos:
-  kind: atomic
-  lifecycle: stable
-  trust: working
 tags: [alchemy, esotericism, history-of-science, knowledge, methodology, secrecy]
 title: Alchemy Protected Truth Through Obscurity
 type: concept
@@ -22,14 +18,14 @@ Practitioners used pseudonyms, spoke in "tongues" and outlandish imagery, and co
 
 ## What Obscurity Costs
 
-Secrecy reads as a moral failing — hoarding. The sharper reading is mechanical: a system that cannot be examined cannot be corrected, so its errors compound undetected.
+Secrecy reads as a moral failing—hoarding. The sharper reading is mechanical: a system that cannot be examined cannot be corrected, so its errors compound undetected.
 
 - [[Systems Generate Internal Logic in Isolation]]—_Cut off from external scrutiny, the tradition had to generate its own criteria for what counted as a valid result. The symbolism was not only concealment; it became the system's internal logic, judged against no standard outside itself._ %%[implements:: [[Systems Generate Internal Logic in Isolation]], strength=5, confidence=high]%%
 - [[Open Knowledge Systems Prevail Over Closed Systems]]—_This note supplies the "closed" half of that claim's evidence base._ %%[supports:: [[Open Knowledge Systems Prevail Over Closed Systems]], strength=5, confidence=high]%%
 
 ## The Contrast
 
-[[Mathematics Established Knowledge Through Open Demonstration]]—_The direct antithesis, and the reason both notes exist. Recorded in the `distinguishes_from` frontmatter field per the `concept` fileClass rather than as an inline edge: "opposed method" is not one of the six edge relationships, and forcing it into `contradicts` would misdescribe it — the two notes do not disagree about any fact._
+[[Mathematics Established Knowledge Through Open Demonstration]]—_The direct antithesis, and the reason both notes exist. Recorded in the `distinguishes_from` frontmatter field per the `concept` fileClass rather than as an inline edge: "opposed method" is not one of the six edge relationships, and forcing it into `contradicts` would misdescribe it—the two notes do not disagree about any fact._
 
 ## See Also
 
@@ -38,5 +34,5 @@ Secrecy reads as a moral failing — hoarding. The sharper reading is mechanical
 
 ## Refresh Log
 
-- **2026-07-26** — Had one outgoing link (back to the cluster hub) and nothing else. Added two typed edges connecting it to the general systems mechanism and to the claim it serves as evidence for.
-- **Frontmatter:** `type: '' → concept`, with `definition`, `distinguishes_from` and `used_in_claims` filled per the fileClass; removed dead `status: ''`, `last_reviewed: ''`, `updated: null`; added `prodos` block and `history-of-science` tag.
+- 2026-07-26—Had one outgoing link (back to the cluster hub) and nothing else. Added two typed edges connecting it to the general systems mechanism and to the claim it serves as evidence for.
+- Frontmatter: `type: '' → concept`, with `definition`, `distinguishes_from` and `used_in_claims` filled per the fileClass; removed dead `status: ''`, `last_reviewed: ''`, `updated: null`; added `prodos` block and `history-of-science` tag.

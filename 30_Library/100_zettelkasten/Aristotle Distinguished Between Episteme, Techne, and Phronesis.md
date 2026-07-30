@@ -2,7 +2,7 @@
 aliases: [Aristotelian Knowledge, Episteme-Techne-Phronesis]
 conformant: false
 created: 2025-11-12T14:10:02+00:00
-modified: 2026-07-21T09:15:03+00:00
+modified: 2026-07-28T09:12:43+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/aristotle-distinguished-between-episteme-techne-and-phronesis
 tags: [aristotle, knowledge, TheHuman/Philosophy]

@@ -3,7 +3,7 @@ aliases: []
 created: 2025-02-07T12:57:54+00:00
 ID: 20a
 last_reviewed: ''
-modified: 2026-07-21T09:15:12+00:00
+modified: 2026-07-29T06:37:43+00:00
 permalink: llmeon/30-library/100-zettelkasten/what-is-information
 status: ''
 tags: [information]
@@ -12,7 +12,7 @@ type: permanent
 updated: null
 ---
 
-Data that has been processed, organized, structured, or presented in a given context to make it meaningful and useful. Information answers the basic questions of "who," "what," "where," and "when." This definition treats information as a form of [[Information as Perceivable Pattern]].
+Data that has been processed, organized, structured, or presented in a given context to make it meaningful and useful. Information answers the basic questions of "who," "what," "where," and "when." This definition treats information as a form of [[Information as a Perceivable Pattern]].
 
 ---
 

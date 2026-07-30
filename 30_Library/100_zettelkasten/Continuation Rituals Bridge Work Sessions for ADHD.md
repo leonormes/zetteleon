@@ -2,7 +2,7 @@
 aliases: [Session Bridging, Work Session Rituals]
 created: 2025-10-30T15:00:39+00:00
 last_reviewed: '2025-10-30'
-modified: 2026-07-21T09:15:04+00:00
+modified: 2026-07-28T09:12:45+00:00
 permalink: llmeon/30-library/100-zettelkasten/continuation-rituals-bridge-work-sessions-for-adhd
 status: seedling
 tags: [project-continuity, ritual, TheHuman/Health/ADHD, workflow]

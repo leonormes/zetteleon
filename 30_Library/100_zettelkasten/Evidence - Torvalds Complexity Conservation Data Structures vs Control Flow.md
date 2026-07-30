@@ -1,7 +1,7 @@
 ---
 aliases: [Software Complexity is Conserved Between Control Flow and Representation]
 created: 2026-07-27T22:00:00+00:00
-modified: 2026-07-27T22:20:27+00:00
+modified: 2026-07-28T09:12:53+00:00
 permalink: llmeon/30-library/100-zettelkasten/evidence-torvalds-complexity-conservation-data-structures-vs-control-flow
 source_reference: '[[Code vs Data Structures (Torvalds Essay)]]'
 supports_claims:

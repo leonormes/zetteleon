@@ -2,7 +2,7 @@
 aliases: [Subconscious Incubation, Unfinished Sentence Technique]
 created: 2025-10-30T15:07:41+00:00
 last_reviewed: '2025-10-30'
-modified: 2026-07-21T09:15:11+00:00
+modified: 2026-07-28T09:12:52+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-hemingway-technique-end-work-with-unfinished-problems
 status: seedling
 tags: [subconscious-processing, TheHuman/Creativity, work-flow, writing]

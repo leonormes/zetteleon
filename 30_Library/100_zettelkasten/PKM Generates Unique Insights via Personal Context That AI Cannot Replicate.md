@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2026-04-10T00:00:00+00:00
-modified: 2026-07-27T09:40:54+00:00
+modified: 2026-07-28T09:12:49+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/pkm-generates-unique-insights-via-personal-context-that-ai-cannot-replicate
 tags: [ai, insight, knowledge-graphs, pkm, topic/knowledge-architecture]
@@ -34,9 +34,8 @@ Requires active, manual linking rather than passive accumulation. The distinctio
 
 ## Tensions
 
-### Automated consolidation vs personal-context curation
+### Automated Consolidation Vs Personal-context Curation
 
 This note asserts that the vault's primary value is the human's lived experience and subjective connection-making. [[Proposition-Centred Notes Make Superior RAG Chunks for LLM Context Engines]] and [[Local-First Obsidian with MCP and RAG Is the Best-Fit Substrate for Data-Sovereign PKM]] assume the vault's value is as an LLM context substrate.
 
-Both are true of this vault — it serves both masters — but neither note states which primary reader it assumes. The tension becomes operational when a design decision optimises for one at the expense of the other (e.g. atomic claim chunks for RAG vs. narrative prose for human sense-making).
-
+Both are true of this vault—it serves both masters—but neither note states which primary reader it assumes. The tension becomes operational when a design decision optimises for one at the expense of the other (e.g. atomic claim chunks for RAG vs. narrative prose for human sense-making).

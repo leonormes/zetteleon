@@ -2,7 +2,7 @@
 aliases: [5-Minute Rule, Micro-Actions, Starter Tasks]
 created: 2025-12-16T13:15:00+00:00
 last_reviewed: '2025-12-16T00:00:00.000Z'
-modified: 2026-07-21T09:15:07+00:00
+modified: 2026-07-28T09:12:48+00:00
 permalink: llmeon/30-library/100-zettelkasten/master-micro-actions-starter-tasks
 status: pending
 tags: [experiment, focus, hypothesis, momentum, The, TheHuman/Health/ADHD, topic/productivity]

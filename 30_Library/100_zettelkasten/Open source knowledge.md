@@ -2,7 +2,7 @@
 aliases: [Open vs Closed Knowledge Systems, The Alchemy-Mathematics Contrast]
 conformant: false
 created: 2025-07-19T08:10:19+00:00
-modified: 2026-07-26T14:18:55+00:00
+modified: 2026-07-28T09:12:49+00:00
 non_conformance_reason: "type: map but filed in 100_zettelkasten/; per AGENTS.md §0 map notes belong in 30_Library/MoC/. Not moved — a move is a rename-class action outside agent write scope, and four notes backlink to this path."
 permalink: llmeon/30-library/100-zettelkasten/open-source-knowledge
 tags: [epistemology, history-of-science, knowledge, openness, topic/maths]

@@ -2,16 +2,12 @@
 created: 2026-07-13T08:30:48+00:00
 created_utc: 2026-07-13T08:17:00Z
 kind: claim
-modified: 2026-07-21T09:15:05+00:00
+modified: 2026-07-28T09:12:45+00:00
 permalink: llmeon/00-inbox/dopamine-neurons-encode-reward-prediction-error-not-pleasure
 source_title: "Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture: An Investigative Report"
 source_url: ""
 status: seed
-tags:
-  - dopamine
-  - motivation
-  - neuroscience
-  - reward-prediction-error
+tags: [dopamine, motivation, neuroscience, reward-prediction-error]
 title: Dopamine Neurons Encode Reward Prediction Error, Not Pleasure
 type: claim
 upstream: "[[Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture]]"
@@ -45,7 +41,6 @@ Applies to phasic dopamine signalling as characterised in Schultz's foundational
 
 ## Knowledge Graph
 
-Supports [[The ADHD brain operates on an Interest-Based Nervous System]] — why novelty (prediction error) is an ignition key.
+Supports [[The ADHD brain operates on an Interest-Based Nervous System]]—why novelty (prediction error) is an ignition key.
 
 %%[supports:: [[The Interest-Based Nervous System in ADHD]]]%%
-

@@ -2,14 +2,10 @@
 aliases: []
 conformant: false
 created: 2025-10-30T12:07:01+00:00
-modified: 2026-07-21T09:15:04+00:00
+modified: 2026-07-28T09:12:44+00:00
 non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/100-zettelkasten/clinical-models-recognize-activation-as-a-core-impairment-in-adhd
-tags:
-  - assessment
-  - diagnosis
-  - executive-function
-  - TheHuman/Health/ADHD
+tags: [assessment, diagnosis, executive-function, TheHuman/Health/ADHD]
 title: Clinical Models Recognize Activation as a Core Impairment in ADHD
 type: claim
 ---
@@ -18,7 +14,6 @@ Clinical models and assessment tools for ADHD recognize "Activation" or "Initiat
 
 ## Knowledge Graph
 
-Supports [[The ADHD brain operates on an Interest-Based Nervous System]] — clinical grounding for activation as a core impairment.
+Supports [[The ADHD brain operates on an Interest-Based Nervous System]]—clinical grounding for activation as a core impairment.
 
 %%[supports:: [[The Interest-Based Nervous System in ADHD]]]%%
-

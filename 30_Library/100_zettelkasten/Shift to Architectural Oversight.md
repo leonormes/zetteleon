@@ -1,10 +1,9 @@
 ---
-aliases:
-  - Shift to High-Level Oversight
+aliases: [Shift to High-Level Oversight]
 created: 2026-04-13T14:35:19+00:00
 created_utc: '2026-04-13T11:00:00Z'
 kind: claim
-modified: 2026-07-27T00:00:00Z
+modified: 2026-07-28T09:12:51+00:00
 permalink: llmeon/30-library/100-zettelkasten/shift-to-architectural-oversight
 source_title: The Agent-First Workflow
 source_url: https://gemini.google.com/app/3efdb3bd475edbb1
@@ -18,7 +17,7 @@ upstream_also: '[[HEAD - Agentic Engineering and AI Workflow Management]]'
 
 ## Shift to Architectural Oversight
 
-Competitive value in software engineering is shifting from implementation speed to architectural judgment, product empathy, and "taste." As the implementation bottleneck loosens, the engineer's role is redefined by the ability to identify _what_ should be built and ensuring its long-term integrity rather than _how_ to write the syntax. This same shift is also framed as a move toward "context curation" and information density management — the capacity to curate the right inputs and maintain coherent context for AI agents becomes a primary senior-engineering skill.
+Competitive value in software engineering is shifting from implementation speed to architectural judgment, product empathy, and "taste." As the implementation bottleneck loosens, the engineer's role is redefined by the ability to identify _what_ should be built and ensuring its long-term integrity rather than _how_ to write the syntax. This same shift is also framed as a move toward "context curation" and information density management—the capacity to curate the right inputs and maintain coherent context for AI agents becomes a primary senior-engineering skill.
 
 ### Scope & Conditions
 

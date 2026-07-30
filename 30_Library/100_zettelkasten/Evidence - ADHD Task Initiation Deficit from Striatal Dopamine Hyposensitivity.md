@@ -1,7 +1,7 @@
 ---
 aliases: [ADHD Causes Task Initiation Deficits Due to Dopamine Hyposensitivity]
 created: 2026-07-27T22:00:00+00:00
-modified: 2026-07-28T06:32:03+00:00
+modified: 2026-07-28T09:12:53+00:00
 permalink: llmeon/30-library/100-zettelkasten/evidence-adhd-task-initiation-deficit-from-striatal-dopamine-hyposensitivity
 source_quote: Individuals with ADHD often struggle with task initiation because their
   brains require significantly more energy to begin a task. This difficulty is linked

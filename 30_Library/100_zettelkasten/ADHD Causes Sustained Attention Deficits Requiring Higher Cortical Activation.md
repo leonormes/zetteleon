@@ -2,15 +2,11 @@
 aliases: []
 conformant: false
 created: 2025-10-29T16:38:00+00:00
-modified: 2026-07-21T09:15:02+00:00
+modified: 2026-07-28T09:12:42+00:00
 non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/100-zettelkasten/adhd-causes-sustained-attention-deficits-requiring-higher-cortical-activation
 source: "[[MOC - The Phases of Task Execution and the Impact of ADHD]]"
-tags:
-  - attention
-  - executive_function
-  - TheHuman/Health/ADHD
-  - TheHuman/Neuroscience
+tags: [attention, executive_function, TheHuman/Health/ADHD, TheHuman/Neuroscience]
 title: ADHD Causes Sustained Attention Deficits Requiring Higher Cortical Activation
 type: claim
 ---

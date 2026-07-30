@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-10-31T09:20:29+00:00
-modified: 2026-07-21T09:15:08+00:00
+modified: 2026-07-28T09:12:49+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/pattern-recognition-in-social-cognition
 tags: [topic/social-cognition, topic/social-perception]
@@ -31,4 +31,3 @@ Failure modes: Pattern matching breaks down with ambiguous cues, cross-cultural 
 - [[Ambiguity in Social Cues]]
 - [[Cognitive Biases Reinforce Mental Models]]
 - [[Non-Verbal Cues in Social Judgment]]
-- [[Fundamental Attribution Error]]

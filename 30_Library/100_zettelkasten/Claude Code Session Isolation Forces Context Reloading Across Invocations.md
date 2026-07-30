@@ -1,19 +1,14 @@
 ---
-created: 2026-07-28 00:00:00+00:00
-modified: 2026-07-28 00:00:00+00:00
-title: Claude Code Session Isolation Forces Context Reloading Across Invocations
-type: claim
+created: 2026-07-28T00:00:00+00:00
 epistemic_status: high
-tags:
-- domain/llm
-- topic/agent-architecture
-- topic/context-engineering
-- topic/claude-code
-- topic/persistent-memory
+modified: 2026-07-28T09:12:53+00:00
+permalink: llmeon/30-library/100-zettelkasten/claude-code-session-isolation-forces-context-reloading-across-invocations
 proposition: Each Claude Code invocation is an isolated session that reloads all context
   (codebase structure, prior discoveries, architectural decisions) from scratch, forcing
   the LLM to re-read and re-parse the same information across runs.
-permalink: llmeon/30-library/100-zettelkasten/claude-code-session-isolation-forces-context-reloading-across-invocations
+tags: [domain/llm, topic/agent-architecture, topic/claude-code, topic/context-engineering, topic/persistent-memory]
+title: Claude Code Session Isolation Forces Context Reloading Across Invocations
+type: claim
 ---
 
 ## Claude Code Session Isolation Forces Context Reloading Across Invocations
@@ -45,4 +40,5 @@ Source: Cogni platform pitch—"Turning Claude Fable 5 Into The Ultimate Second 
 - [[Persistent Memory Layers Enable Multi-Session Agent Continuity]]—direct inverse: the solution pattern to this constraint.
 
 %%[supports:: [[Continuous Autonomous Agent Loops Incur Significant API Cost]], strength=3, confidence=high]%%
+
 %%[depends_on:: [[Protocol Statelessness Relocates Agent State into Model-Visible Handles]], strength=2, confidence=medium]%%

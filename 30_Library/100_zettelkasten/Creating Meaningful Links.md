@@ -3,7 +3,7 @@ aliases: []
 created: 2025-02-07T12:57:54+00:00
 ID: creating_meaningful_links
 last_reviewed: 'null'
-modified: 2026-07-27T09:40:54+00:00
+modified: 2026-07-29T06:45:13+00:00
 permalink: llmeon/30-library/100-zettelkasten/creating-meaningful-links
 status: 'null'
 tags: [knowledge-work, linking, topic/knowledge-architecture, topic/pkm/zettelkasten]
@@ -30,29 +30,20 @@ Use links to combine multiple ideas into more complex, emergent concepts. These 
 
 ## Why Link Quality Matters
 
-The act of creating thoughtful connections forces [[Deep Processing is the Core of Zettelkasten|deep processing]] of ideas. Unlike passive collection, meaningful linking requires you to understand concepts well enough to see their relationships, similarities, and differences. This cognitive work is where learning actually happens.
+The act of creating thoughtful connections forces [[Deep Processing is the Core of Zettelkasten|deep processing]] of ideas. %%[supports:: [[Deep Processing is the Core of Zettelkasten]]]%% Unlike passive collection, meaningful linking requires you to understand concepts well enough to see their relationships, similarities, and differences. This cognitive work is where learning actually happens.
 
 Poor linking—such as connecting notes simply because they share keywords—creates noise rather than insight. The goal is not to maximize connections but to create purposeful relationships that enhance understanding.
 
 ## The Connection-Making Process
 
-As [[30_Library/100_zettelkasten/Luhmann Emphasized Connection-Making]], the process of identifying and creating relationships between ideas is where true understanding emerges. Each link represents a decision about how knowledge fits together, building your personal understanding of complex domains.
+As Luhmann emphasised, the process of identifying and creating relationships between ideas is where true understanding emerges. Each link represents a decision about how knowledge fits together, building your personal understanding of complex domains.
 
 ## Related Concepts
 
 ### Zettelkasten Fundamentals
 
-- [[30_Library/100_zettelkasten/Luhmann Emphasized Connection-Making]] - The philosophical foundation of connection-based thinking
 - [[Deep Processing is the Core of Zettelkasten]] - Why meaningful linking requires cognitive effort
-
-### Relationship Types
-
-- [[Formal Definition of idea Relationships]] - Overview of different relationship categories
-- [[Contextual Relationships]] - How context shapes meaning between ideas
-- [[Associative Relationships]] - Connections based on similarity and co-occurrence
-- [[Logical Relationships]] - Connections based on logical principles
 
 ### Knowledge Work
 
-- [[The Processing Is the Hard Part]] - Why creating meaningful connections requires effort
-- [[Zettelkasten System Essence]] - The core principles of connection-based knowledge systems
+- [[The Processing Is the Hard Part]] - Why creating meaningful connections requires effort %%[supports:: [[The Processing Is the Hard Part]]]%%

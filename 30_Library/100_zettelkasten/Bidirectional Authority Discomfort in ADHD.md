@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-10-30T12:35:58+00:00
-modified: 2026-07-23T21:11:05+00:00
+modified: 2026-07-28T09:12:44+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/bidirectional-authority-discomfort-in-adhd
 source: '[[MOC - Authority Dynamics and ADHD]]'

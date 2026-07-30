@@ -1,15 +1,10 @@
 ---
-aliases:
-  - Spending Double Standards
+aliases: [Spending Double Standards]
 conformant: true
 created: 2025-11-10T10:18:00+00:00
-modified: 2026-07-21T15:20:15+00:00
+modified: 2026-07-28T09:12:46+00:00
 permalink: llmeon/30-library/100-zettelkasten/financial-double-standards-for-spending-undermine-fairness-in-a-relationship
-tags:
-  - conflict
-  - fairness
-  - finance
-  - relationship
+tags: [conflict, fairness, finance, relationship]
 title: Financial Double Standards for Spending Undermine Fairness in a Relationship
 type: claim
 ---

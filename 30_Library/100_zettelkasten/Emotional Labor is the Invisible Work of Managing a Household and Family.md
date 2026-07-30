@@ -1,16 +1,10 @@
 ---
-aliases:
-  - Mental Load
-  - The Hidden Load
+aliases: [Mental Load, The Hidden Load]
 conformant: true
 created: 2025-11-10T10:04:00+00:00
-modified: 2026-07-21T15:16:18+00:00
+modified: 2026-07-28T09:12:45+00:00
 permalink: llmeon/30-library/100-zettelkasten/emotional-labor-is-the-invisible-work-of-managing-a-household-and-family
-tags:
-  - emotional-labor
-  - mental-load
-  - relationship
-  - responsibility
+tags: [emotional-labor, mental-load, relationship, responsibility]
 title: Emotional Labor is the Invisible Work of Managing a Household and Family
 type: claim
 ---

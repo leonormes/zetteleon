@@ -2,7 +2,7 @@
 created: 2026-04-14T20:11:31+00:00
 created_utc: '2026-04-14T12:40:00Z'
 kind: claim
-modified: 2026-07-21T09:15:08+00:00
+modified: 2026-07-28T09:12:49+00:00
 permalink: llmeon/30-library/100-zettelkasten/order-independence-commutativity
 source_title: CUE — A Type System for the Cloud
 source_url: https://youtube.com/watch?v=qgNuOjSZL9Y

@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-11-01T09:51:13+00:00
-modified: 2026-07-21T09:15:05+00:00
+modified: 2026-07-28T09:12:45+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/embodied-confidence-comes-from-direct-feedback-in-physical-skills
 tags: [competence, confidence, embodiment, learning, topic/skill]

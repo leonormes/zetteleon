@@ -2,7 +2,7 @@
 created: 2026-04-13T14:47:45+00:00
 created_utc: '2026-04-13T11:30:00Z'
 kind: definition
-modified: 2026-07-21T09:15:08+00:00
+modified: 2026-07-28T09:12:49+00:00
 permalink: llmeon/30-library/100-zettelkasten/oauth-2.0
 source_title: Every API Authentication Method Explained
 source_url: https://youtube.com/watch?v=_lTECv25N2U

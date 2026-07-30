@@ -1,18 +1,12 @@
 ---
-aliases:
-  - ADHD Reward Experience
+aliases: [ADHD Reward Experience]
 created: 2025-07-16T17:30:01+00:00
 last_reviewed: "null"
-modified: 2026-07-21T09:15:11+00:00
+modified: 2026-07-28T09:12:51+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-dopamine-shot-vs-relief-from-anxiety-in-task-completion
 status: seed
-tags:
-  - dopamine
-  - neurotypical
-  - reward-system
-  - TheHuman/Health/ADHD
-  - TheHuman/Motivation
-title: The 'Dopamine Shot' vs 'Relief from Anxiety' in Task Completion
+tags: [dopamine, neurotypical, reward-system, TheHuman/Health/ADHD, TheHuman/Motivation]
+title: "The 'Dopamine Shot' vs 'Relief from Anxiety' in Task Completion"
 type: claim
 updated:
 ---

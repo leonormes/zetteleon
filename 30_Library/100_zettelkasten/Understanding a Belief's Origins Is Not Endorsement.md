@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2026-07-13T22:00:00+00:00
-modified: 2026-07-27T22:21:10+00:00
+modified: 2026-07-28T09:12:52+00:00
 non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/100-zettelkasten/understanding-a-beliefs-origins-is-not-endorsement
 status: draft
@@ -19,7 +19,6 @@ Details: The goal of the ecological model is not to agree with or excuse a harmf
 ## Related
 
 - [[Habit 5 - Seek First to Understand, Then to Be Understood]]
-- [[Evil Arises from Malice or Thoughtless Banality — Motivation Is Not Determinative]]
 - [[The Information Deficit Model is a Fallacy]]
 
 ## Provenance

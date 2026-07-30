@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-08-30T09:00:44+00:00
-modified: 2026-07-21T09:15:10+00:00
+modified: 2026-07-28T09:12:50+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/set-theory-requires-distinct-objects
 tags: [foundations, set-theory, topic/maths]

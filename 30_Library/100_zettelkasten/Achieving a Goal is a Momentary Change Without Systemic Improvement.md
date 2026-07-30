@@ -2,7 +2,7 @@
 aliases: [Goals as Temporary Fixes]
 conformant: false
 created: 2025-11-06T19:57:01+00:00
-modified: 2026-07-21T09:15:03+00:00
+modified: 2026-07-28T09:12:43+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/achieving-a-goal-is-a-momentary-change-without-systemic-improvement
 tags: [behavior-change, goals, TheHuman/Habits, topic/systems]

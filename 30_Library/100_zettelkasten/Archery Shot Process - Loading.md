@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-07-27T22:12:52+00:00
+modified: 2026-07-28T11:14:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-loading
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Loading
@@ -21,7 +21,7 @@ Details:
   - Load Position (The Position): The momentary stopping point or physical baseline reached _just before_ moving up into the final facial anchor point.
 - Drawing Mechanics:
   - The "Lawnmower Pull" Analogy: Avoid pulling the bowstring back using bicep or forearm muscles. Instead, pull as if starting a lawnmower—engaging the core, torso, and back muscles to generate drawing power.
-  - Lead with "LAN2" (Posterior Deltoid): Initiate the draw by leading with the back of the drawing shoulder (LAN2) rather than trying to pull the string back with your fingers.
+  - Lead with "LAN2" (Posterior Deltoid): Initiate the draw by leading with the back of the drawing shoulder (LAN2) rather than trying to pull the string back with your fingers. By focusing purely on **moving that LAN2 reference spot parallel to the shooting line and continuously around behind your head**, your back muscles and lower trapezius automatically engage without needing to micromanage anatomical muscle contractions or risking co-contraction locking.
   - Angular Motion for a Straight Line: While the drawing shoulder moves in a rounded, angular rotational arc behind the body, the drawing hand must move in a clean, straight line directly toward the jaw/chin. Do not loop the hand outward and inward.
   - Lead the pull using your draw elbow, moving the drawing hand straight back toward your neck. Move the entire drawing shoulder as a unit.
   - Continuous Elbow Movement: The draw elbow must continuously move _away_ from the target and _around_ your body throughout the entire shot cycle. As you draw and anchor, the elbow should naturally trace a slight downward "V" shape, continuing around your back as you expand.
@@ -95,4 +95,11 @@ Details:
   2. Keeping your hips square and arms straight, reach across your body with your draw hand toward your bow hand.
   3. Observe how your torso and stomach must twist to achieve this reach. Replicate this exact upper-body rotation when raising and drawing your bow.
 
-- Reference: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Rogue Archery TV (including proprioception cues), Online Archery Academy (continuous elbow movement, camera drills, recurve release tips, alignment mechanics, shot trainer draw-ups), ArcheryWinchester (consistent aiming path), World Archery release technique guidelines, Clay Hayes (refining sight picture), and Jake Kaminski's Recurve Form Series (Loading and Load Position, NTS/KSL BEST).
+#### Rear Deltoid & Scapular Band Conditioning
+
+- Purpose: Develops draw strength and stability in the posterior deltoids (LAN2) and scapular retractors without over-involving forearms, biceps, or lats.
+- How to do it:
+  1. Perform **Band Pull Aparts** by pulling a resistance band horizontally in a straight line at shoulder width (palms down), keeping shoulders, elbows, and wrists rigidly aligned while actively squeezing shoulder blades together.
+  2. Perform **Rear Delt Rows** by standing on a resistance band hinged at a 45-degree angle with a flat back and driving elbows up and back along clothing seams—focusing entirely on pulling from the elbows rather than hands without "chicken-winging" outward or engaging large lat muscles. *(For the complete 5-exercise shoulder girdle conditioning circuit, refer to [[Archery Practice Drills]]).*
+
+- Reference: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Rogue Archery TV (including proprioception cues), Online Archery Academy (continuous elbow movement, camera drills, recurve release tips, alignment mechanics, shot trainer draw-ups), ArcheryWinchester (consistent aiming path), World Archery release technique guidelines, Clay Hayes (refining sight picture), Matt Hartsky (band pull aparts and rear delt rows for draw strength), and Jake Kaminski's Recurve Form Series (Loading and Load Position, NTS/KSL BEST LAN2 directional movement).

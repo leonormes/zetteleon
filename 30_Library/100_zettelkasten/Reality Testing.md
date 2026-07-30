@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-05-26T18:13:01+00:00
 last_reviewed: ''
-modified: 2026-07-21T09:15:09+00:00
+modified: 2026-07-30T10:42:12+00:00
 permalink: llmeon/30-library/100-zettelkasten/reality-testing
 status: ''
 tags: []
@@ -13,4 +13,3 @@ updated: null
 
 For many, the external world serves as a sounding board to test the validity of their thoughts and perceptions. When others agree with us, it can reinforce our sense of reality and make our thoughts feel more tangible and "real." If your internal world is vast and detailed but rarely interfaces with external perspectives, it might lack this grounding.
 
-[[01_journals/Dailies/2025-05-26|2025-05-26]]

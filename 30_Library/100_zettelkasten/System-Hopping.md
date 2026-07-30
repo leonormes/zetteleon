@@ -2,7 +2,7 @@
 conformant: false
 contrasts_with: ["[[Claim - Treat the system as iterative not perfectable]]"]
 created: 2026-05-31T00:00:00+00:00
-modified: 2026-07-23T20:53:34+00:00
+modified: 2026-07-28T09:12:51+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/system-hopping
 related_to: ["[[Claim - Novelty-craving drives self-defeating system-hopping]]", "[[MOC - ADHD and PKM Systems]]"]

@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-30T12:00:01+00:00
 last_reviewed: '2025-12-16'
-modified: 2026-07-21T09:15:07+00:00
+modified: 2026-07-28T09:12:47+00:00
 permalink: llmeon/30-library/100-zettelkasten/interest-pairing-can-increase-engagement-in-mundane-tasks-for-adhd
 source: '[[MOC - ADHD Task Management]]'
 status: pending

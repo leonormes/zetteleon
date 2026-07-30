@@ -1,7 +1,7 @@
 ---
 aliases: [Prefrontal Cortex Catecholamine Insufficiency Impairs Executive Control in ADHD]
 created: 2026-07-27T22:00:00+00:00
-modified: 2026-07-27T22:24:11+00:00
+modified: 2026-07-28T09:12:53+00:00
 permalink: llmeon/30-library/100-zettelkasten/evidence-pfc-catecholamine-insufficiency-impairs-executive-control-in-adhd
 source_reference: '[[MOC - The Neuroscience of Task Initiation in ADHD]]'
 supports_claims:

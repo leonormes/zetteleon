@@ -2,7 +2,7 @@
 created: 2026-04-14T11:22:44+00:00
 created_utc: '2026-04-14T11:05:00Z'
 kind: mechanism
-modified: 2026-07-21T09:15:11+00:00
+modified: 2026-07-28T09:12:51+00:00
 permalink: llmeon/30-library/100-zettelkasten/tdd-in-probabilistic-systems
 source_title: 'Martin Fowler & Kent Beck: Frameworks for reinventing software, again and again'
 source_url: http://www.youtube.com/watch?v=CZs8J1ZD0CE

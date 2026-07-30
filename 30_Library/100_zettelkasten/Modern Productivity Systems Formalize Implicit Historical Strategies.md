@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-11-10T13:04:00+00:00
-modified: 2026-07-21T09:15:08+00:00
+modified: 2026-07-28T09:12:48+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/modern-productivity-systems-formalize-implicit-historical-strategies
 tags: [gtd, TheHuman/Habits, topic/productivity, topic/systems]

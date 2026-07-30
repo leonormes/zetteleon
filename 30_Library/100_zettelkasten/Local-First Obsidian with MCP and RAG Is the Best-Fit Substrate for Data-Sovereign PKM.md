@@ -2,7 +2,7 @@
 created: 2026-07-13T08:30:55+00:00
 created_utc: '2026-07-13T08:17:00Z'
 kind: claim
-modified: 2026-07-27T09:40:54+00:00
+modified: 2026-07-28T09:12:48+00:00
 permalink: llmeon/00-inbox/local-first-obsidian-with-mcp-and-rag-is-the-best-fit-substrate-for-data-sovereign-pkm
 source_title: 'Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture: An Investigative Report'
 source_url: ''

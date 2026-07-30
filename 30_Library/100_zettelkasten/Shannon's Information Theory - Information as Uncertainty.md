@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-26T09:26:38+00:00
 last_reviewed: ''
-modified: 2026-07-21T09:15:10+00:00
+modified: 2026-07-29T06:45:04+00:00
 permalink: llmeon/30-library/100-zettelkasten/shannons-information-theory-information-as-uncertainty
 status: ''
 tags: [3, information]
@@ -19,7 +19,7 @@ Key principles:
 2. Maximum randomness = maximum information: A sequence with a uniform probability distribution (i.e., completely random) has the highest possible uncertainty and therefore the maximum information content, or entropy. The formula for entropy is $H(X)=−∑p(x)log2​p(x)$.
 3. Patterns reduce information: Predictability, rules, and repetition introduce redundancy, which _decreases_ the Shannon information content. A perfectly predictable message (e.g., "AAAAA") has zero entropy and contains no information in this technical sense.
 
-This definition directly contradicts the common-sense notion of [[Information as Perceivable Pattern]].
+This definition directly contradicts the common-sense notion of [[Information as a Perceivable Pattern]].
 
 - Links: [[The Conflict Between Semantic and Shannon Information]], [[Kolmogorov Complexity - Information as Compressibility]]
 
@@ -63,7 +63,7 @@ The note slides between source-level entropy ("a perfectly predictable message")
 
 #### 2d. LaTeX Formatting is Broken
 
-`$H(X)=−∑p(x)log2p(x)$` has:
+$H(X)=−∑p(x)log2p(x)$ has:
 
 - A Unicode minus (−) and Unicode summation (∑) instead of `\sum`.
 - An invisible zero-width space () between `log2` and `p(x)`.
@@ -101,20 +101,3 @@ The final sentence says Shannon's definition "directly contradicts" the common-s
 - "Information as Perceivable Pattern" link is a genuinely useful contrast node to have in the vault.
 
 ---
-
-### Concrete next Actions
-
-Pick one.
-
-1. Fix the LaTeX (2 min). Replace the broken formula with:
-
-$$
-H(X) = -\sum_{x \in \mathcal{X}} p(x) \log_2 p(x)
-$$
-
-   Lowest activation energy. Immediate visible win.
-
-1. Weaken "directly contradicts" to "abstracts away from" (1 min). One-word fix that makes the note technically defensible instead of technically wrong.
-2. Add a one-line clarification on entropy-vs-string (5 min). After the "AAAAA" sentence, add: _"Note: Shannon entropy is a property of the source distribution, not of individual strings—string-level information content is better captured by [[Kolmogorov Complexity]]."_ This resolves the 2c confusion and earns the existing Kolmogorov link.
-
-If you only do one, do 3—it's the conceptual fix that upgrades the note from "popular-science summary" to "correctly-scoped permanent note," and it activates a link you've already committed to.

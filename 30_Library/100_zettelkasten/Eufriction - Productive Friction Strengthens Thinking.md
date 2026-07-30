@@ -1,26 +1,14 @@
 ---
-aliases:
-  - Desirable Difficulty
-  - Good Friction
-  - Productive Friction
+aliases: [Desirable Difficulty, Good Friction, Productive Friction]
 conformant: true
-contradicts:
-  - "[[ADHD Overthinking is a Substitute for Action]]"
-  - "[[The Comfort of Motion Hinders Genuine Action]]"
-  - "[[Tool tinkering is a form of productive procrastination]]"
+contradicts: ["[[ADHD Overthinking is a Substitute for Action]]", "[[The Comfort of Motion Hinders Genuine Action]]", "[[Tool tinkering is a form of productive procrastination]]"]
 created: 2025-10-30T15:33:36+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-07-25T14:24:57+00:00
+modified: 2026-07-28T09:12:46+00:00
 permalink: llmeon/30-library/100-zettelkasten/eufriction-productive-friction-strengthens-thinking
 proposition: Deliberate cognitive friction (eufriction) slows down workflow to force deeper engagement with ideas, transforming passive consumption into genuine synthesis and preventing analysis paralysis.
-tags:
-  - cognitive-work
-  - learning
-  - TheHuman/Psychology
-  - topic/pkm
-  - topic/pkm/zettelkasten
-  - topic/productivity
+tags: [cognitive-work, learning, TheHuman/Psychology, topic/pkm, topic/pkm/zettelkasten, topic/productivity]
 title: Eufriction - Productive Friction Strengthens Thinking
 type: claim
 ---

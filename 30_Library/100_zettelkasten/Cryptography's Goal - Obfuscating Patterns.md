@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-26T09:27:23+00:00
 last_reviewed: ''
-modified: 2026-07-21T09:15:04+00:00
+modified: 2026-07-28T09:12:45+00:00
 permalink: llmeon/30-library/100-zettelkasten/cryptographys-goal-obfuscating-patterns
 status: ''
 tags: [information]
@@ -15,9 +15,9 @@ updated: null
 
 The fundamental goal of encryption is to take structured, meaningful information (which has low Shannon entropy and low Kolmogorov complexity) and apply a reversible transformation that makes the output statistically indistinguishable from random noise.
 
-- Input (Plaintext): Possesses perceivable patterns. It is predictable and compressible. See [[Information as Perceivable Pattern]].
+- Input (Plaintext): Possesses perceivable patterns. It is predictable and compressible. See [[Information as a Perceivable Pattern]].
 - Output (Ciphertext): Appears to have no patterns. It should have high Shannon entropy and high Kolmogorov complexity, resembling a random sequence to any observer without the key.
 
 This process intentionally hides the usable information by destroying its perceivable structure, thereby validating the idea that patterns are what make data interpretable.
 
-- Links: [[Information as Perceivable Pattern]], [[Shannon's Information Theory - Information as Uncertainty]]
+- Links: [[Information as a Perceivable Pattern]], [[Shannon's Information Theory - Information as Uncertainty]]

@@ -2,7 +2,7 @@
 aliases: [Sincerity, Truthfulness]
 conformant: false
 created: 2025-11-01T21:22:00+00:00
-modified: 2026-07-21T09:15:06+00:00
+modified: 2026-07-28T09:12:47+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/honesty-is-being-truthful-and-sincere
 tags: [character-strength, honesty, integrity, trust, virtue]

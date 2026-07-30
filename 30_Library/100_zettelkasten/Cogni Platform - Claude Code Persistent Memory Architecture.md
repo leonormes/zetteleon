@@ -1,19 +1,14 @@
 ---
-created: 2026-07-28 00:00:00+00:00
-modified: 2026-07-28 00:00:00+00:00
-title: Cogni Platform - Claude Code Persistent Memory Architecture
-type: claim
+created: 2026-07-28T00:00:00+00:00
 epistemic_status: medium
-tags:
-- domain/llm
-- topic/agent-architecture
-- topic/persistent-memory
-- topic/tools
-- product/cogni
+modified: 2026-07-28T09:12:53+00:00
+permalink: llmeon/30-library/100-zettelkasten/cogni-platform-claude-code-persistent-memory-architecture
 proposition: Cogni is a platform that adds persistent memory layers to Claude Code,
   enabling agents to retain discoveries and architectural context across isolated
   sessions via knowledge graphs with two-way memory writes and selective retrieval.
-permalink: llmeon/30-library/100-zettelkasten/cogni-platform-claude-code-persistent-memory-architecture
+tags: [domain/llm, product/cogni, topic/agent-architecture, topic/persistent-memory, topic/tools]
+title: Cogni Platform - Claude Code Persistent Memory Architecture
+type: claim
 ---
 
 ## Cogni Platform - Claude Code Persistent Memory Architecture
@@ -22,15 +17,15 @@ Cogni is a wrapper around Claude Code that solves the session-isolation problem 
 
 ### Core Features
 
-1. **Multi-session memory**: Survives across Claude Code invocations
-2. **Bidirectional writes**: Sessions can record new discoveries into the knowledge graph
-3. **Selective retrieval**: Agents query the memory for task-relevant context, not full history
-4. **Knowledge graph structure**: Information is indexed for fast, semantic retrieval
+1. Multi-session memory: Survives across Claude Code invocations
+2. Bidirectional writes: Sessions can record new discoveries into the knowledge graph
+3. Selective retrieval: Agents query the memory for task-relevant context, not full history
+4. Knowledge graph structure: Information is indexed for fast, semantic retrieval
 
 ### How It Solves Claude Code's Constraint
 
-- **Before (Claude Code alone)**: Each session reloads codebase context → wasteful token use → slow startup → architectural amnesia
-- **After (Cogni)**: Sessions retrieve cached architectural summaries and prior patterns → selective context → fast startup → compounding knowledge
+- Before (Claude Code alone): Each session reloads codebase context → wasteful token use → slow startup → architectural amnesia
+- After (Cogni): Sessions retrieve cached architectural summaries and prior patterns → selective context → fast startup → compounding knowledge
 
 ### Scope & Conditions
 
@@ -49,5 +44,7 @@ Platform-specific implementation. The architectural patterns Cogni uses (layered
 - Video source: "Turning Claude Fable 5 Into The Ultimate Second Brain!" by WorldofAI
 
 %%[implements:: [[Persistent Memory Layers Enable Multi-Session Agent Continuity]], strength=5, confidence=high]%%
+
 %%[implements:: [[Agent Feedback Loops Require Bidirectional Memory Writes]], strength=5, confidence=high]%%
+
 %%[implements:: [[Selective Memory Retrieval Reduces Token Cost in Multi-Session Workflows]], strength=5, confidence=high]%%

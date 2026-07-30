@@ -1,8 +1,12 @@
 ---
+created: 2026-07-28T07:51:28+00:00
+modified: 2026-07-28T09:12:53+00:00
 permalink: llmeon/30-library/100-zettelkasten/vibe-coding-rapid-ai-assisted-code-generation-without-engineering-rigor
+title: Vibe Coding - Rapid AI-Assisted Code Generation Without Engineering Rigor
 ---
 
 ---
+
 created: 2026-07-28T00:00:00+00:00
 modified: 2026-07-28T00:00:00+00:00
 title: Vibe Coding - Rapid AI-Assisted Code Generation Without Engineering Rigor
@@ -28,9 +32,9 @@ Source: "Nobody Pages the LLM: Engineering Rigour for Vibe Coding" (Ritesh Modi,
 
 ### Implications
 
-- **False completion signal**: A generated application exists and runs locally, but "runs" ≠ "survives production."
-- **Deferred technical debt**: Problems created by unreviewed generation are discovered after deployment, when fixing costs spike exponentially.
-- **Accountability mismatch**: The developer owns the delivery; the LLM owns neither the failure nor the fix.
+- False completion signal: A generated application exists and runs locally, but "runs" ≠ "survives production."
+- Deferred technical debt: Problems created by unreviewed generation are discovered after deployment, when fixing costs spike exponentially.
+- Accountability mismatch: The developer owns the delivery; the LLM owns neither the failure nor the fix.
 
 ### Related
 
@@ -41,6 +45,3 @@ Source: "Nobody Pages the LLM: Engineering Rigour for Vibe Coding" (Ritesh Modi,
 ### See Also
 
 - [[SoT - Code Review and Testing Strategy]]
-
-%%[supports:: [[AI-Generated Code Without Human Review Creates Production Risk]], strength=5, confidence=high]%%
-%%[depends_on:: [[LLM Probabilistic Outputs Prevent Consistency Guarantees]], strength=4, confidence=high]%%

@@ -2,7 +2,7 @@
 created: 2026-04-13T14:35:19+00:00
 created_utc: '2026-04-13T11:00:00Z'
 kind: procedure
-modified: 2026-07-21T09:15:03+00:00
+modified: 2026-07-28T09:12:43+00:00
 permalink: llmeon/30-library/100-zettelkasten/agent-first-implementation-cycle
 source_title: The Agent-First Workflow
 source_url: https://gemini.google.com/app/3efdb3bd475edbb1
@@ -41,6 +41,6 @@ Replaces the traditional human-led implementation followed by testing. Effective
 
 ## Tensions
 
-### Cognitive strain as cost vs as mechanism
+### Cognitive Strain as Cost Vs as Mechanism
 
 Automation treats cognitive friction as a cost to be eliminated. [[Outsourcing Writing to AI Bypasses the Cognitive Strain That Builds Professional Competence]] argues that strain is the mechanism of skill development. The resolution depends on whether the output artefact or the author's competence is the primary goal.

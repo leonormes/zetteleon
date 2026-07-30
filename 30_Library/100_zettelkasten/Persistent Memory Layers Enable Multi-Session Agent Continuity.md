@@ -1,20 +1,15 @@
 ---
-created: 2026-07-28 00:00:00+00:00
-modified: 2026-07-28 00:00:00+00:00
-title: Persistent Memory Layers Enable Multi-Session Agent Continuity
-type: claim
+created: 2026-07-28T00:00:00+00:00
 epistemic_status: high
-tags:
-- domain/llm
-- topic/agent-architecture
-- topic/persistent-memory
-- topic/claude-code
-- topic/context-engineering
+modified: 2026-07-28T09:12:53+00:00
+permalink: llmeon/30-library/100-zettelkasten/persistent-memory-layers-enable-multi-session-agent-continuity
 proposition: Persistent memory layers (knowledge graphs, discovery logs, architectural
   summaries) allow LLM agents to carry forward insights, decisions, and learned patterns
   across isolated sessions, eliminating context reloading overhead and enabling agents
   to reason about their own prior work.
-permalink: llmeon/30-library/100-zettelkasten/persistent-memory-layers-enable-multi-session-agent-continuity
+tags: [domain/llm, topic/agent-architecture, topic/claude-code, topic/context-engineering, topic/persistent-memory]
+title: Persistent Memory Layers Enable Multi-Session Agent Continuity
+type: claim
 ---
 
 ## Persistent Memory Layers Enable Multi-Session Agent Continuity
@@ -26,6 +21,7 @@ This shifts the problem from "reparse the codebase every time" to "selectively r
 ### Scope & Conditions
 
 Applies to multi-session workflows where the same domain, codebase, or problem space is revisited. Requires that memory be:
+
 1. Persistent (survives session end)
 2. Structured (searchable/queryable, not just a transcript dump)
 3. Selective (the agent retrieves only relevant prior work, not all prior work)
@@ -36,10 +32,10 @@ Source: Cogni platform design. Persistent memory is framed as the core solution 
 
 ### Implications
 
-- **Cost reduction**: Agents retrieve cached summaries instead of re-parsing raw sources, consuming fewer tokens per session.
-- **Speed improvement**: Startup time drops when context is pre-digested rather than freshly synthesized on each run.
-- **Compounding knowledge**: Agents can reason about discovery trajectories ("we tried X in session 1, it didn't work; session 2 tried Y and succeeded; session 3 should try Z").
-- **Reduced hallucination**: When an agent can reference "we learned this pattern before," it has grounding to avoid re-discovering or contradicting itself.
+- Cost reduction: Agents retrieve cached summaries instead of re-parsing raw sources, consuming fewer tokens per session.
+- Speed improvement: Startup time drops when context is pre-digested rather than freshly synthesized on each run.
+- Compounding knowledge: Agents can reason about discovery trajectories ("we tried X in session 1, it didn't work; session 2 tried Y and succeeded; session 3 should try Z").
+- Reduced hallucination: When an agent can reference "we learned this pattern before," it has grounding to avoid re-discovering or contradicting itself.
 
 ### Related
 
@@ -50,9 +46,12 @@ Source: Cogni platform design. Persistent memory is framed as the core solution 
 
 ### Tensions
 
-**Multi-session vs single-session efficiency:**  
+Multi-session vs single-session efficiency:
+
 Building a persistent memory layer has overhead (creation, maintenance, queries). For one-off tasks, that overhead is wasted. Persistent memory is only cost-effective across multiple invocations.
 
 %%[supports:: [[Claude Code Session Isolation Forces Context Reloading Across Invocations]], strength=5, confidence=high]%%
+
 %%[implements:: [[Layered Knowledge Architecture]], strength=4, confidence=high]%%
+
 %%[implements:: [[Targeting LLM Attention Requires Encoding Relevance as Structure]], strength=4, confidence=high]%%

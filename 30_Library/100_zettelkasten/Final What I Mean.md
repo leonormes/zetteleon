@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-11-19T21:43:33+00:00
 last_reviewed: ''
-modified: 2026-07-21T09:15:05+00:00
+modified: 2026-07-28T09:12:46+00:00
 permalink: llmeon/30-library/100-zettelkasten/final-what-i-mean
 see_also: []
 status: ''

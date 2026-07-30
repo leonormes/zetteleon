@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-20T10:03:00+00:00
 last_reviewed: ''
-modified: 2026-07-21T09:15:04+00:00
+modified: 2026-07-28T09:12:44+00:00
 permalink: llmeon/30-library/100-zettelkasten/chemotaxis-as-a-primitive-precursor-to-emotion
 status: ''
 tags: [biology, emotion, evolution, topic/systems]

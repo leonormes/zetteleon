@@ -1,8 +1,8 @@
 ---
-aliases: [One-Pot Model, Equal Pocket Money]
+aliases: [Equal Pocket Money, One-Pot Model]
 conformant: true
 created: 2026-07-21T14:35:00+01:00
-modified: 2026-07-21T14:35:00+01:00
+modified: 2026-07-28T09:12:42+00:00
 permalink: llmeon/30-library/100-zettelkasten/a-fair-financial-system-uses-a-shared-pot-and-equal-personal-spending-money
 tags: [autonomy, budgeting, equality, finance, relationship]
 title: A Fair Financial System Uses a Shared Pot and Equal Personal Spending Money

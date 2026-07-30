@@ -4,12 +4,8 @@ conformant: true
 created: 2025-10-20T09:08:00+00:00
 definition: "The principle of balanced self-renewal across four dimensions (Physical, Spiritual, Mental, Social/Emotional) that preserves and enhances the person's own capacity to produce, making all the other habits sustainable."
 distinguishes_from: []
-modified: 2026-07-25T14:00:00+01:00
+modified: 2026-07-28T09:12:46+00:00
 permalink: llmeon/30-library/100-zettelkasten/habit-7-sharpen-the-saw
-prodos:
-  kind: atomic
-  lifecycle: stable
-  trust: working
 tags: [7-habits, effectiveness, gtd, principles, productivity, renewal, self_care, TheHuman/Habits]
 title: Habit 7 - Sharpen the Saw
 type: concept

@@ -2,7 +2,7 @@
 aliases: [Overlapping Subjectivity, Silently Split Brain]
 conformant: true
 created: 2026-07-16T15:50:54+00:00
-modified: 2026-07-27T20:50:45+00:00
+modified: 2026-07-28T09:12:46+00:00
 permalink: llmeon/30-library/100-zettelkasten/harris-speculates-intact-brains-may-host-overlapping-subjectivity
 source_title: "Waking Up (Sam Harris) — reviewed LLM summary and critique"
 status: seed

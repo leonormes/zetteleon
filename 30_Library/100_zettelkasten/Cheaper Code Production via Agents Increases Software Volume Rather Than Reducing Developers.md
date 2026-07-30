@@ -1,20 +1,13 @@
 ---
+aliases: [Software Jevons Paradox]
 conformant: false
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-07-21T09:15:04+00:00
+modified: 2026-07-28T09:12:44+00:00
 non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/100-zettelkasten/cheaper-code-production-via-agents-increases-software-volume-rather-than-reducing-developers
-tags:
-  - economics
-  - jevons-paradox
-  - labor
-  - labor-market
-  - software-industry
-  - software-demand
+tags: [economics, jevons-paradox, labor, labor-market, software-demand, software-industry]
 title: Cheaper Code Production via Agents Increases Software Volume Rather Than Reducing Developers
 type: claim
-aliases:
-  - Software Jevons Paradox
 ---
 
 ## Cheaper Code Production via Agents Increases Software Volume Rather Than Reducing Developers
@@ -29,7 +22,7 @@ Assumes software demand is elastic and currently constrained by the cost and sca
 
 > "By making software production significantly cheaper through agents, the industry will not see a decrease in developers but rather an explosion in the total volume and complexity of software produced."
 
-> "The 'Peak Programmer' concept is an extension of the Jevons Paradox; as the cost of software production drops, the demand for software increases…" — *The Agent-First Workflow*
+> "The 'Peak Programmer' concept is an extension of the Jevons Paradox; as the cost of software production drops, the demand for software increases…"—_The Agent-First Workflow_
 
 ### Implications
 

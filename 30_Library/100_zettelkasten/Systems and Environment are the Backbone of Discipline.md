@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-10-30T12:04:03+00:00
-modified: 2026-07-21T09:15:10+00:00
+modified: 2026-07-28T09:12:51+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/systems-and-environment-are-the-backbone-of-discipline
 source: '[[MOC - How to Build Discipline]]'

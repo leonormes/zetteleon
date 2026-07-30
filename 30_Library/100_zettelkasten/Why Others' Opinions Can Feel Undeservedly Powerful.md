@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-05-26T18:19:55+00:00
 last_reviewed: ''
-modified: 2026-07-21T09:15:12+00:00
+modified: 2026-07-28T09:12:53+00:00
 permalink: llmeon/30-library/100-zettelkasten/why-others-opinions-can-feel-undeservedly-powerful
 status: ''
 tags: []

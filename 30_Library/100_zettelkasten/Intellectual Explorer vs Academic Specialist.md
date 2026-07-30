@@ -3,7 +3,7 @@ aliases: [Breadth vs Depth, Explorer vs Specialist, Synthesist vs Expert]
 created: 2025-09-11T20:23:51+00:00
 creation_date: '2025-09-11T00:00:00.000Z'
 last_reviewed: 'null'
-modified: 2026-07-21T09:15:07+00:00
+modified: 2026-07-28T09:12:47+00:00
 permalink: llmeon/30-library/100-zettelkasten/intellectual-explorer-vs-academic-specialist
 status: 'null'
 tags: [academic-models, intellectual-identity, topic/learning/styles]

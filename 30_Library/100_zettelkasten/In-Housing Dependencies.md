@@ -2,7 +2,7 @@
 created: 2026-04-14T20:26:31+00:00
 created_utc: '2026-04-14T13:20:00Z'
 kind: heuristic
-modified: 2026-07-21T09:15:06+00:00
+modified: 2026-07-28T09:12:47+00:00
 permalink: llmeon/30-library/100-zettelkasten/in-housing-dependencies
 source_title: Archon and Extreme Harness Engineering
 source_url: https://youtube.com/watch?v=qMnClynCAmM

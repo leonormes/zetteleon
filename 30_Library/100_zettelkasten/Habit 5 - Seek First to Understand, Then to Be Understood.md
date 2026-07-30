@@ -4,12 +4,8 @@ conformant: true
 created: 2025-10-20T09:06:00+00:00
 definition: "The principle of empathic communication — diagnosing before prescribing by listening with the intent to understand another person's frame of reference, rather than listening with the intent to reply."
 distinguishes_from: []
-modified: 2026-07-25T18:40:00+01:00
+modified: 2026-07-28T09:12:46+00:00
 permalink: llmeon/30-library/100-zettelkasten/habit-5-seek-first-to-understand-then-to-be-understood
-prodos:
-  kind: atomic
-  lifecycle: stable
-  trust: working
 tags: [7-habits, communication, empathy, gtd, principles, productivity, TheHuman/Habits]
 title: Habit 5 - Seek First to Understand, Then to Be Understood
 type: concept
@@ -34,7 +30,7 @@ Within the [[MOC - ProdOS]], the [[Protocol - Action-First GTD (LLM Chief of Sta
 
 Only after you have a deep understanding of the other person's perspective can you move to the creative cooperation of [[Habit 6 - Synergize]]. %%[supports:: [[Habit 6 - Synergize]], confidence=high]%%
 
-## Foundations — What This Principle Rests On
+## Foundations—What This Principle Rests On
 
 The habit is not a courtesy; it is the behavioural consequence of several claims about how minds and language actually work. Remove any of these and the principle loses its warrant.
 
@@ -47,7 +43,7 @@ The habit is not a courtesy; it is the behavioural consequence of several claims
 - [[Paralanguage and Vocal Tone in Communication]]—_Empathic listening operates on the whole signal, not the words; where tone contradicts content the paralinguistic channel is the more reliable data._ %%[depends_on:: [[Paralanguage and Vocal Tone in Communication]], confidence=medium]%%
 - [[Communication requires iterative approximation]]—_Paraphrase, check, repair: the mechanics of empathic listening are exactly this feedback loop made deliberate._ %%[implements:: [[Communication requires iterative approximation]], confidence=high]%%
 
-## Downstream Consequences — What Follows From Holding It
+## Downstream Consequences—What Follows From Holding It
 
 If diagnose-before-prescribe is a principle rather than a technique, these are the positions you are thereby committed to.
 

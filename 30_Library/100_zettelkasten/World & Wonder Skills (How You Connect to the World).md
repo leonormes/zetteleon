@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-07-10T10:12:15+00:00
 last_reviewed: ''
-modified: 2026-07-21T09:15:12+00:00
+modified: 2026-07-28T09:12:53+00:00
 permalink: llmeon/30-library/100-zettelkasten/world-wonder-skills-how-you-connect-to-the-world
 status: ''
 tags: []

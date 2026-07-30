@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-10-31T09:20:29+00:00
-modified: 2026-07-21T09:15:06+00:00
+modified: 2026-07-28T09:12:46+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/fundamental-attribution-error
 tags: [TheHuman/Cognition/bias, topic/social-cognition, topic/social-perception]
@@ -33,5 +33,4 @@ Example: Seeing someone cut you off in traffic and concluding they're an aggress
 ### Related
 
 - [[Ambiguity in Social Cues]]
-- [[Pattern Recognition in Social Cognition]]
 - [[Confirmation Bias Distorts Social Perception]]

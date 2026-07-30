@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-24T15:18:00+00:00
 last_reviewed: 'null'
-modified: 2026-07-21T09:15:11+00:00
+modified: 2026-07-28T09:12:52+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-dmn-as-a-demon-negative-rumination-in-adhd
 status: 'null'
 tags: [DMN, emotional-dysregulation, mental-health, negative-thoughts, RSD, rumination, TheHuman/Health/ADHD]

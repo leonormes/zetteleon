@@ -2,7 +2,7 @@
 aliases: [No Unified Self, Split Brain vs the Soul]
 conformant: true
 created: 2026-07-16T15:50:54+00:00
-modified: 2026-07-27T20:50:57+00:00
+modified: 2026-07-28T09:12:46+00:00
 permalink: llmeon/30-library/100-zettelkasten/harris-uses-the-split-brain-to-deny-the-unified-self
 source_title: "Waking Up (Sam Harris) — reviewed LLM summary and critique"
 status: seed

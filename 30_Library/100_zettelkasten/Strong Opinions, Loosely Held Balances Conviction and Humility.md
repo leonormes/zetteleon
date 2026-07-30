@@ -2,7 +2,7 @@
 aliases: [Strong Opinions Loosely Held]
 conformant: false
 created: 2025-11-06T19:59:01+00:00
-modified: 2026-07-21T09:15:10+00:00
+modified: 2026-07-28T09:12:51+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/strong-opinions-loosely-held-balances-conviction-and-humility
 tags: [confidence, decision-making, humility, mental-model]

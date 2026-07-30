@@ -2,7 +2,7 @@
 aliases: [Excellence Over Volume, Quality as Way of Life]
 created: 2025-10-30T15:07:41+00:00
 last_reviewed: '2025-10-30T00:00:00.000Z'
-modified: 2026-07-21T09:15:09+00:00
+modified: 2026-07-28T09:12:50+00:00
 permalink: llmeon/30-library/100-zettelkasten/quality-over-quantity-in-creative-and-cognitive-work
 status: seedling
 tags: [deliberate-practice, excellence, quality, topic/productivity]

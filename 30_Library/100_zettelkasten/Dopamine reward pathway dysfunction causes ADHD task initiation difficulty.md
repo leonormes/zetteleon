@@ -2,12 +2,10 @@
 aliases: []
 conformant: false
 created: 2025-10-31T00:00:00+00:00
-modified: 2026-07-21T09:15:05+00:00
+modified: 2026-07-28T09:12:45+00:00
 non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/100-zettelkasten/dopamine-reward-pathway-dysfunction-causes-adhd-task-initiation-difficulty
-tags:
-  - adhd
-  - gtd
+tags: [adhd, gtd]
 title: Dopamine reward pathway dysfunction causes ADHD task initiation difficulty
 type: claim
 ---
@@ -22,7 +20,6 @@ Clinical Manifestation: Adults with ADHD describe this as "ADHD Paralysis" - the
 
 ## Knowledge Graph
 
-Supports [[The ADHD brain operates on an Interest-Based Nervous System]] — the reward-pathway dysfunction behind the ignition requirement.
+Supports [[The ADHD brain operates on an Interest-Based Nervous System]]—the reward-pathway dysfunction behind the ignition requirement.
 
 %%[supports:: [[The Interest-Based Nervous System in ADHD]]]%%
-

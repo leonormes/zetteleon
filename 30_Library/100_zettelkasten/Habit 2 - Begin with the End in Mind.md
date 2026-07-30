@@ -4,12 +4,8 @@ conformant: true
 created: 2025-10-20T09:02:00+00:00
 definition: "The habit of personal leadership — starting each day, task, or project with a clear vision of the desired destination, on the principle that everything is created twice: first mentally, then physically."
 distinguishes_from: []
-modified: 2026-07-25T14:00:00+01:00
+modified: 2026-07-28T09:12:46+00:00
 permalink: llmeon/30-library/100-zettelkasten/habit-2-begin-with-the-end-in-mind
-prodos:
-  kind: atomic
-  lifecycle: stable
-  trust: working
 tags: [7-habits, gtd, leadership, principles, productivity, TheHuman/Habits, vision]
 title: Habit 2 - Begin with the End in Mind
 type: concept

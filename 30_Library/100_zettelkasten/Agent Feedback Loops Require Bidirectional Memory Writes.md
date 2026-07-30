@@ -1,20 +1,15 @@
 ---
-created: 2026-07-28 00:00:00+00:00
-modified: 2026-07-28 00:00:00+00:00
-title: Agent Feedback Loops Require Bidirectional Memory Writes
-type: claim
+created: 2026-07-28T00:00:00+00:00
 epistemic_status: high
-tags:
-- domain/llm
-- topic/agent-architecture
-- topic/persistent-memory
-- topic/learning
-- topic/feedback-loops
+modified: 2026-07-28T09:12:53+00:00
+permalink: llmeon/30-library/100-zettelkasten/agent-feedback-loops-require-bidirectional-memory-writes
 proposition: Agents that learn across sessions require not only memory retrieval (reading
   prior discoveries) but also memory writes (recording new discoveries). Unidirectional
   memory (read-only) is inert; bidirectional memory enables agents to compound knowledge
   and avoid repeating failed patterns.
-permalink: llmeon/30-library/100-zettelkasten/agent-feedback-loops-require-bidirectional-memory-writes
+tags: [domain/llm, topic/agent-architecture, topic/feedback-loops, topic/learning, topic/persistent-memory]
+title: Agent Feedback Loops Require Bidirectional Memory Writes
+type: claim
 ---
 
 ## Agent Feedback Loops Require Bidirectional Memory Writes
@@ -33,14 +28,15 @@ Source: Cogni platform design emphasises two-way memory writes as a core feature
 
 ### Implications
 
-- **Knowledge compounding**: Each session adds to the persistent store; knowledge grows with each iteration.
-- **Failure avoidance**: Agents record "we tried this and it failed" so subsequent sessions don't retrace failed paths.
-- **Pattern discovery**: Across multiple sessions, an agent can identify patterns ("X works better when Y is present") that emerge only from aggregate data.
-- **Reduced exploration cost**: Agents don't explore the full search space every time if prior sessions have mapped parts of it.
+- Knowledge compounding: Each session adds to the persistent store; knowledge grows with each iteration.
+- Failure avoidance: Agents record "we tried this and it failed" so subsequent sessions don't retrace failed paths.
+- Pattern discovery: Across multiple sessions, an agent can identify patterns ("X works better when Y is present") that emerge only from aggregate data.
+- Reduced exploration cost: Agents don't explore the full search space every time if prior sessions have mapped parts of it.
 
 ### Counterargument
 
 Write access to memory introduces risk:
+
 - Agents might write corrupted, hallucinated, or contradictory information.
 - Malicious or buggy agents could poison the knowledge base.
 - Management overhead: deciding what deserves to be written, validating writes, resolving conflicts.
@@ -54,4 +50,5 @@ This is why structured schemas matter—writes should be constrained to a define
 - [[Layered Knowledge Architecture]]—related: the "schema layer" enforces contracts that validate writes.
 
 %%[supports:: [[Persistent Memory Layers Enable Multi-Session Agent Continuity]], strength=5, confidence=high]%%
+
 %%[implements:: [[SoT - Evolutionary Note System]], strength=3, confidence=medium]%%

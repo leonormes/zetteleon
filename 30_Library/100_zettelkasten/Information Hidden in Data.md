@@ -3,7 +3,7 @@ aliases: []
 created: 2025-02-07T12:57:55+00:00
 ID: information_hidden_in_data
 last_reviewed: 'null'
-modified: 2026-07-21T09:15:06+00:00
+modified: 2026-07-28T09:12:47+00:00
 permalink: llmeon/30-library/100-zettelkasten/information-hidden-in-data
 status: 'null'
 tags: [information, topic/learning, topic/pkm/zettelkasten]

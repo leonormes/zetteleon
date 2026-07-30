@@ -2,7 +2,7 @@
 aliases: [Focused inquiry generates new ideas]
 created: 2025-07-18T00:00:00+00:00
 last_reviewed: 'null'
-modified: 2026-07-21T09:15:04+00:00
+modified: 2026-07-28T09:12:45+00:00
 permalink: llmeon/30-library/100-zettelkasten/deep-focus-on-a-single-concept-sparks-innovation
 status: 'null'
 tags: [constraints, focus, TheHuman/Cognition/thinking, TheHuman/Creativity]

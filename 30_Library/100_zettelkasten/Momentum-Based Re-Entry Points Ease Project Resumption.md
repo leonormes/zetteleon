@@ -2,7 +2,7 @@
 aliases: [Shallow Entry Points]
 created: 2025-11-11T19:05:06+00:00
 last_reviewed: ''
-modified: 2026-07-21T09:15:08+00:00
+modified: 2026-07-28T09:12:48+00:00
 permalink: llmeon/30-library/100-zettelkasten/momentum-based-re-entry-points-ease-project-resumption
 status: seedling
 tags: [task-management, TheHuman/Health/ADHD, topic/productivity]

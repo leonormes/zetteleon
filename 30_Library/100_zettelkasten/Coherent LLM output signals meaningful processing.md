@@ -1,14 +1,10 @@
 ---
-aliases:
-  - Coherent LLM output signals meaningful processing
+aliases: [Coherent LLM output signals meaningful processing]
 created: 2025-10-20T09:17:00+00:00
-modified: 2026-07-27T19:35:00+01:00
+modified: 2026-07-28T09:12:44+00:00
 permalink: llmeon/30-library/100-zettelkasten/coherent-llm-output-signals-meaningful-processing
-tags:
-  - coherence
-  - SoftwareEngineering/AI
-  - TheHuman/Cognition
-title: LLM Coherence Creates the Illusion of Meaningful Processing
+tags: [coherence, SoftwareEngineering/AI, TheHuman/Cognition]
+title: Coherent LLM output signals meaningful processing
 type: claim
 ---
 

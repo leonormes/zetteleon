@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-05-26T14:06:58+00:00
 last_reviewed: ''
-modified: 2026-07-21T09:15:04+00:00
+modified: 2026-07-28T09:12:45+00:00
 permalink: llmeon/30-library/100-zettelkasten/consistency-and-momentum
 status: ''
 tags: [TheHuman/Health/ADHD]

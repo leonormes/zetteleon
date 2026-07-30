@@ -1,18 +1,11 @@
 ---
-aliases:
-  - ADHD Analog Strategies
-  - Five-Minute Rule
-  - Pomodoro Technique
+aliases: [ADHD Analog Strategies, Five-Minute Rule, Pomodoro Technique]
 created: 2025-11-06T19:54:06+00:00
 last_reviewed: 2025-11-06
-modified: 2026-07-21T09:15:03+00:00
+modified: 2026-07-28T09:12:43+00:00
 permalink: llmeon/30-library/100-zettelkasten/analog-and-behavioral-techniques-are-crucial-for-adhd-management
 status: stale
-tags:
-  - pomodoro
-  - TheHuman/Habits
-  - TheHuman/Health/ADHD
-  - topic/productivity
+tags: [pomodoro, TheHuman/Habits, TheHuman/Health/ADHD, topic/productivity]
 title: Analog and Behavioral Techniques are Crucial for ADHD Management
 type: concept
 updated:

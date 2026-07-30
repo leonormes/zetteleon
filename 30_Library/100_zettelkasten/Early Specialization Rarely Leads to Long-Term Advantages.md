@@ -2,7 +2,7 @@
 aliases: [Prodigy Pathway]
 conformant: false
 created: 2025-11-01T12:30:02+00:00
-modified: 2026-07-21T09:15:05+00:00
+modified: 2026-07-28T09:12:45+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/early-specialization-rarely-leads-to-long-term-advantages
 tags: [development, learning, specialization]
