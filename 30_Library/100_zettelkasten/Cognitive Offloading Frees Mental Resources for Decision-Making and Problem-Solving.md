@@ -34,5 +34,5 @@ Applies whenever a thinking task demands more concurrent items than working memo
 ### See Also
 
 - [[Externalize Memory Aggressively (cognitive offloading)]]
-- [[Limited Human Information Processing Capacity]]
+- [[Limited Capacity Brain]]
 - Knowledge Artifacts _(Knowledge artifacts are the tangible products of cognitive offloading)_

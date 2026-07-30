@@ -4,3 +4,5 @@
 {"kind":"completion","at":"2026-07-30T10:32:15.674929Z","note":"Consolidated archery mechanics video notes into Practice Drills and Follow-through notes."}
 {"kind":"intent","at":"2026-07-30T11:44:28.754642Z","title":"Apply positioning patches to Deep Dive Sessions for ADHD","body":"Writing Patch A typed edges, Patch B plain links to ## Related, and Patch C frontmatter fixes as authorised."}
 {"kind":"completion","at":"2026-07-30T11:45:34.031886Z","note":"Applied typed edges, plain links, and frontmatter fixes. Ran edge_lint with 0 errors. Appended Part 3 Thread Audit report."}
+{"kind":"intent","at":"2026-07-30T11:52:55.125565Z","title":"Apply positioning patches to Limited Capacity Brain","body":"Writing Patch A typed edges, Patch B clean up, and Patch C frontmatter fixes as authorised."}
+{"kind":"completion","at":"2026-07-30T11:54:45.756816Z","note":"Applied Patches A, B, and C. Merged near-duplicate note, fixed broken links, and appended Part 3 Thread Audit."}

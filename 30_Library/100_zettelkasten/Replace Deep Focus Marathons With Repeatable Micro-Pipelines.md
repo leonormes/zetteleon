@@ -1,12 +1,13 @@
 ---
 aliases: []
-created: 2025-08-19T23:58:53+00:00
+created: 2025-08-19 23:58:53+00:00
 last_reviewed: ''
-modified: 2026-07-28T09:12:50+00:00
-permalink: llmeon/30-library/100-zettelkasten/replace-deep-focus-marathons-with-repeatable-micro-pipelines
+modified: 2026-07-30 11:47:27+00:00
+permalink: llmeon/30-library/100-zettelkasten/replace-deep-focus-marathons-with-repeatable-micro-pipelines-1
 status: ''
-tags: [topic/pkm]
-title: Replace -deep Focus marathons- with Repeatable Micro-pipelines
+tags:
+- topic/pkm
+title: Replace Deep Focus Marathons With Repeatable Micro-Pipelines
 type: ''
 updated: null
 ---
@@ -18,7 +19,7 @@ updated: null
 
 This technique is a form of [[Timeboxing for ADHD Management]] that creates structure and momentum. The "state dump" is a practical application of an [[Exit Ritual For ADHD Time Boxes]] and helps mitigate [[Working Memory Limitations in ADHD]] by externalizing the task's context.
 
-This approach contrasts with unstructured [[Deep Dive Sessions for ADHD (Adapted GTD Next Actions)]] and is a core component of [[ADHD Behavioral Strategies for Productivity]]. It helps build [[Consistency and Momentum]] and is a strategy for [[Overcoming Intelligent Paralysis MOC]].
+This approach contrasts with unstructured [[Deep Dive Sessions for ADHD (Adapted GTD Next Actions)]] and is a core component of [[ADHD Behavioral Strategies for Productivity]]. It helps build [[Consistency and Momentum]] and is a strategy for.
 
 ## Related
 

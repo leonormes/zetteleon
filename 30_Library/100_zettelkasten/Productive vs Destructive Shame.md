@@ -17,3 +17,7 @@ Shame can be categorized into two functional types:
 2. Destructive shame: Persistent, identity-level feeling that one is fundamentally flawed
 
 People with ADHD often experience destructive shame, which doesn't serve the evolutionary purpose of helpful social guidance but instead creates ongoing emotional distress without benefit.
+
+[[Shame as Social Regulatory Mechanism]]—destructive shame is defined against this note's own "evolutionary purpose of helpful social guidance"
+
+%%[depends_on:: [[Shame as Social Regulatory Mechanism]], strength=5, confidence=high]%%

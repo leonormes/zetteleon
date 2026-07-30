@@ -29,7 +29,7 @@ _Preserved verbatim—the human seed the cluster grew from._
 
 4—But the view is structurally narrow. [[Human Understanding is Inherently Myopic]]—_The turn in the argument: we perceive a fraction of the picture, so the lever from step 3 is exactly the one we cannot pull directly._ %%[synthesizes:: [[Human Understanding is Inherently Myopic]], strength=5, confidence=high]%%
 
-5—Because the bottleneck is capacity, not effort. [[Limited Human Information Processing Capacity]]—_Names the mechanism behind the myopia: finite simultaneous processing, which no amount of trying widens._ %%[synthesizes:: [[Limited Human Information Processing Capacity]], confidence=high]%% %%[depends_on:: [[SoT - Working Memory & Schema Theory]], confidence=high]%%
+5—Because the bottleneck is capacity, not effort. [[Limited Capacity Brain]]—_Names the mechanism behind the myopia: finite simultaneous processing, which no amount of trying widens._ %%[synthesizes:: [[Limited Capacity Brain]], confidence=high]%% %%[depends_on:: [[SoT - Working Memory & Schema Theory]], confidence=high]%%
 
 6—Abstraction is the workaround. [[Abstraction as Climbing a Hill]]—_You cannot enlarge the buffer, so you compress what goes in it; height buys breadth by discarding detail._ %%[synthesizes:: [[Abstraction as Climbing a Hill]], strength=5, confidence=high]%% %%[depends_on:: [[Understanding Compresses Information into Cognitive Chunks]], confidence=high]%%
 
