@@ -39,9 +39,9 @@ Does the composability benefit show up in practice, or only in principle? Nothin
 
 ### Provenance
 
-Promoted from [[raw/proposed-claims/2026-07-27-protocol-statelessness-relocates-state-to-model-visible-handles]] on 2026-07-27 by explicit human instruction (AGENTS.md §2.4 scope override—see `log.md`).
+Promoted from `raw/proposed-claims/2026-07-27-protocol-statelessness-relocates-state-to-model-visible-handles` (Hermes vault) on 2026-07-27 by explicit human instruction (AGENTS.md §2.4 scope override—see `log.md`).
 
-Raw source: [[raw/2026-07-27-thenewstack-mcp-spec-rewrite]]
+Raw source: `raw/2026-07-27-thenewstack-mcp-spec-rewrite` (Hermes vault)
 
 ### Steelman of the Opposing view
 

@@ -12,6 +12,8 @@ permalink: llmeon/gemini-1
 
 This file exists only because Gemini CLI auto-loads `GEMINI.md` hierarchically at session start (concatenated into every prompt); other agent tools auto-load `AGENTS.md` natively, and Claude Code auto-loads its own `CLAUDE.md`. **[[AGENTS.md]] is the single source of truth for agent behavior in this vault — read it in full before writing, editing, or deleting anything.** Nothing below this line supersedes it.
 
+**2026-07-30:** Hermes's own raw/wiki/output memory system moved to a standalone vault (`/Volumes/DAL/Zettelkasten/Hermes`). This vault is now human ProdOS territory plus the narrow §9.3 typed-edge exception — nothing else.
+
 Sections worth reading first:
 
 - §0 — vault taxonomy: what's read-only, and why

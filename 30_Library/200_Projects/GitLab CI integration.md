@@ -491,12 +491,12 @@ Mapped to Obsidian project_name: 'Refined Deployment' (30_Library/200_Projects)
 
 ## Key Facts
 
-- Trigger—The FITFILE deployment pipeline is unhealthy: 0% success rate on recent runs, zombie pipelines from 2024 still running, single-owner review gates halting throughput—[[raw/2026-06-15-pieces-fitfile-cd-decision-document]] (Pieces: 24475ea5-9fc)
-- Decision document created—A full "FITFILE CI/CD—Continuous Delivery Philosophy: Decision & Commitment" document was generated for Confluence on 15 June 2026 at 09:00 UTC. Status: 🟡 UNDER REVIEW—[[raw/2026-06-15-pieces-fitfile-cd-decision-document]] (Pieces: 10e3d434-663)
-- 12 commitments—The document defines 12 commitments: (1) version control everything, (2) pipeline as exclusive gate, (3) pipeline verdict defines releasability, (4) build once deploy many, (5) deploy ≠ release, (6) small frequent changes, (7) pipeline as falsification mechanism, (8) trunk-based development, (9) same deployment mechanism everywhere, (10) DORA metrics tracking, (11) bring pain forward by doing it more often, (12) AI amplifies CD need—[[raw/2026-06-15-pieces-fitfile-cd-decision-document]]
-- Sign-off team—Team members to sign: Leon Ormes (Platform Engineer, ✅ Agree), Oliver Rushton, Yasir Mansoor, Robin Mofakham, Helena Ahlfors, Weronika Jastrzebska, Enric Serra, Susannah Thomas—[[raw/2026-06-15-pieces-fitfile-cd-decision-document]]
-- Alternatives framework—Team members who disagree with commitments must submit documented alternatives with evidence using a specified format. "We've always done it this way" is explicitly not accepted as evidence—[[raw/2026-06-15-pieces-fitfile-cd-decision-document]]
-- Implementation risks—Specific FITFILE risks identified: merge skew from batch releases, single-owner review bottleneck, no baseline DORA data, AI-generated large PRs, Helm/ffnode linting gap—[[raw/2026-06-15-pieces-fitfile-cd-decision-document]]
+- Trigger—The FITFILE deployment pipeline is unhealthy: 0% success rate on recent runs, zombie pipelines from 2024 still running, single-owner review gates halting throughput—`raw/2026-06-15-pieces-fitfile-cd-decision-document` (Hermes vault) (Pieces: 24475ea5-9fc)
+- Decision document created—A full "FITFILE CI/CD—Continuous Delivery Philosophy: Decision & Commitment" document was generated for Confluence on 15 June 2026 at 09:00 UTC. Status: 🟡 UNDER REVIEW—`raw/2026-06-15-pieces-fitfile-cd-decision-document` (Hermes vault) (Pieces: 10e3d434-663)
+- 12 commitments—The document defines 12 commitments: (1) version control everything, (2) pipeline as exclusive gate, (3) pipeline verdict defines releasability, (4) build once deploy many, (5) deploy ≠ release, (6) small frequent changes, (7) pipeline as falsification mechanism, (8) trunk-based development, (9) same deployment mechanism everywhere, (10) DORA metrics tracking, (11) bring pain forward by doing it more often, (12) AI amplifies CD need—`raw/2026-06-15-pieces-fitfile-cd-decision-document` (Hermes vault)
+- Sign-off team—Team members to sign: Leon Ormes (Platform Engineer, ✅ Agree), Oliver Rushton, Yasir Mansoor, Robin Mofakham, Helena Ahlfors, Weronika Jastrzebska, Enric Serra, Susannah Thomas—`raw/2026-06-15-pieces-fitfile-cd-decision-document` (Hermes vault)
+- Alternatives framework—Team members who disagree with commitments must submit documented alternatives with evidence using a specified format. "We've always done it this way" is explicitly not accepted as evidence—`raw/2026-06-15-pieces-fitfile-cd-decision-document` (Hermes vault)
+- Implementation risks—Specific FITFILE risks identified: merge skew from batch releases, single-owner review bottleneck, no baseline DORA data, AI-generated large PRs, Helm/ffnode linting gap—`raw/2026-06-15-pieces-fitfile-cd-decision-document` (Hermes vault)
 
 ## Timeline
 
@@ -506,9 +506,9 @@ Mapped to Obsidian project_name: 'Refined Deployment' (30_Library/200_Projects)
 
 ## Connections
 
-- [[wiki/projects/FITFILE Deployment — ArgoCD + Helm]]—Parent technical deployment project; this CD philosophy initiative provides the governance framework for pipeline remediation
-- [[wiki/projects/FFNode Stress Testing — FTFL-500]]—Stress testing programme that may be affected by pipeline changes
-- [[wiki/projects/FTFL-511 Nginx HTTPS Hardening]]—Example of deployment-pipeline-gated work
+- `wiki/projects/FITFILE Deployment — ArgoCD + Helm` (Hermes vault)—Parent technical deployment project; this CD philosophy initiative provides the governance framework for pipeline remediation
+- `wiki/projects/FFNode Stress Testing — FTFL-500` (Hermes vault)—Stress testing programme that may be affected by pipeline changes
+- `wiki/projects/FTFL-511 Nginx HTTPS Hardening` (Hermes vault)—Example of deployment-pipeline-gated work
 
 ## Contradictions
 

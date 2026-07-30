@@ -79,5 +79,5 @@ All tasks must be delivered as a Reproducible Analytical Pipeline (RAP) using th
 
 ## Related
 
-- [[wiki/projects/12 Million Patient Synthetic NHS-OMOP Pipeline]] - The wiki dossier tracking this entity.
+- `wiki/projects/12 Million Patient Synthetic NHS-OMOP Pipeline` (Hermes vault) - The wiki dossier tracking this entity.
 - [[NHS Synthetic Data & OMOP Pipeline Meeting]] - A related project artifact containing meeting context.

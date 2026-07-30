@@ -12,6 +12,8 @@ permalink: llmeon/claude-1
 
 This file exists only because Claude Code auto-loads `CLAUDE.md` at session start; other agent tools auto-load `AGENTS.md` natively. **[[AGENTS.md]] is the single source of truth for agent behavior in this vault — read it in full before writing, editing, or deleting anything.** Nothing below this line supersedes it.
 
+**2026-07-30:** Hermes's own raw/wiki/output memory system moved to a standalone vault (`/Volumes/DAL/Zettelkasten/Hermes`). This vault is now human ProdOS territory plus the narrow §9.3 typed-edge exception — nothing else.
+
 Sections worth reading first:
 
 - §0 — vault taxonomy: what's read-only, and why

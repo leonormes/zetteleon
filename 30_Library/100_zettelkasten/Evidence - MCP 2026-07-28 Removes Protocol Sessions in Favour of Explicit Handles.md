@@ -46,7 +46,7 @@ High, but not 1.0. The factual claims about what the specification removes are i
 
 ### Provenance
 
-Raw capture: [[raw/2026-07-27-thenewstack-mcp-spec-rewrite]]
+Raw capture: `raw/2026-07-27-thenewstack-mcp-spec-rewrite` (Hermes vault)
 
 Originating workbench note: [[HEAD MCP’s biggest update removes the machinery many servers were built around]]
 
