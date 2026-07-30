@@ -1,9 +1,13 @@
 ---
 aliases: []
+conformant: false
 created: 2025-06-25 20:14:33+00:00
 last_reviewed: '2025-12-16'
 modified: 2026-02-01 15:08:35+00:00
-status: active
+non_conformance_reason: "Note is an experiment protocol (type: hypothesis), which is not one of the 5 canonical types."
+permalink: llmeon/30-library/100-zettelkasten/deep-dive-sessions-for-adhd-adapted-gtd-next-actions
+prodos.kind: atomic
+prodos.lifecycle: active
 tags:
 - experiment
 - hypothesis
@@ -11,8 +15,6 @@ tags:
 - topic/productivity
 title: Deep Dive Sessions for ADHD (Adapted GTD Next Actions)
 type: hypothesis
-updated: null
-permalink: llmeon/30-library/100-zettelkasten/deep-dive-sessions-for-adhd-adapted-gtd-next-actions
 ---
 
 ## 1. The Hypothesis
@@ -47,3 +49,10 @@ permalink: llmeon/30-library/100-zettelkasten/deep-dive-sessions-for-adhd-adapte
 - _(Log daily results here: e.g., "Mon: Success. Tue: Failed, distraction.")_
 
 ---
+%%[contradicts:: [[Replace -deep Focus marathons- with Repeatable Micro-pipelines]]]%%
+%%[contradicts:: [[A Next Action Must Be the Absolute Next Physical Visible Activity Required to Move a Situation Forward]]]%%
+
+## Related
+
+- [[Task Batching is Grouping Similar Tasks to Reduce Context Switching]] — _Target applies the concept of reducing context switching by batching work by project rather than by task type._
+- [[MOC - ADHD Experiments & Protocols]] — _Hub for ADHD hypotheses and active experiments._

@@ -1,7 +1,7 @@
 ---
 created: 2026-07-16T00:00:00+00:00
 description: "The canonical routing index for 10_System/prompts. Read this note first to decide which prompt to inject for a given task — defines the taxonomy, the routing table, and which prompts are historical task-logs rather than reusable prompts."
-modified: 2026-07-27T20:51:13+00:00
+modified: 2026-07-30T10:54:49+00:00
 permalink: llmeon/10-system/prompts/00-prompt-library-router
 tags: [domain/pkm, moc, type/index]
 title: 00 - Prompt Library Router
@@ -40,6 +40,7 @@ This note is the decision layer for the ProdOS Chief of Staff LLM. Every prompt 
 | I have an established SoT/MOC and want scattered fragments folded into it | [[Knowledge Harvesting & Normalization Agent]] | Inverse of Consolidation Agent |
 | I already know which notes to merge—just do it | [[sys_merger]] | Fast merge, no discovery phase |
 | I want ONE note's links checked/expanded | [[Note Refresh & Link Auditor]] | Single-target deep refresh |
+| I have a bare/orphan note with few or no links and want it positioned in the graph, then stress-tested | [[Orphan Note Positioning & Thread Audit]] | Single-note composition of the bootstrap→hygiene→epistemics pipeline below—discovers connections, proposes typed edges, then thread-audits the note once positioned |
 | I want a whole domain cluster surveyed for the first time—canonical candidates, duplicates, conflicts | [[LLM Graph Bootstrap Agent]] | Discovery/proposal only; writes report + stubs, never canonical notes. Run before the two graph prompts below |
 | I want the whole justification graph audited for unsupported claims/foundations/conflicts, and gaps closed | [[Justification Graph Audit & Gap Closure]] | Runs `edge_lint.py --audit`; closes C1 gaps via edges or `axiom:` markers |
 | I have a pile of unread/unprocessed notes to organise into MOCs | [[Principal Vault Triage Architect]] | Macro triage + navigation, not deep analysis |
@@ -92,6 +93,7 @@ This note is the decision layer for the ProdOS Chief of Staff LLM. Every prompt 
 - Atomic-capture pipeline (sequential): [[Atomic Signal Extractor → Write TMP file]] → [[Atomic Linker → Promote & Connect]]. Never run step 2 without step 1's output.
 - Consolidation vs Harvesting (inverse pair): [[Knowledge Consolidation Agent]] starts from a _new note_ and finds its home. [[Knowledge Harvesting & Normalization Agent]] starts from an _established home_ and hunts fragments. Pick based on which end you're holding.
 - Graph bootstrap → hygiene → epistemics (three-stage pipeline): [[LLM Graph Bootstrap Agent]] surveys an unmapped domain cluster and _proposes_ canonical candidates, duplicates, conflicts, and edges—it writes a report and stubs, never canonical notes. Then [[Note Refresh & Link Auditor]] makes individual notes edge-conformant, and [[Justification Graph Audit & Gap Closure]] audits the resulting graph. Running Gap Closure on a cluster that was never bootstrapped will report a near-empty graph and look like there's nothing wrong.
+- Same pipeline, one note: [[Orphan Note Positioning & Thread Audit]] is the above three-stage pipeline collapsed onto a single bare note instead of a whole cluster—discover/propose connections, apply the typed edges, then audit in one run. Use the three-stage version for a cluster; use this one when you're holding a single orphan.
 - Link hygiene vs. graph epistemics (sequential pair): [[Note Refresh & Link Auditor]] makes ONE note's links/edges conformant to syntax (does it parse, do targets resolve). [[Justification Graph Audit & Gap Closure]] then audits the whole argument graph those edges form for semantic soundness (is it actually grounded, or just syntactically valid). Run the Auditor first if a claim isn't edge-conformant yet—the Gap Closure prompt's `--audit` will otherwise miss it.
 - Triage vs Thinking-Pattern Analysis: [[Principal Vault Triage Architect]] organises a backlog (breadth, navigation). [[Zettelkasten Thinking-Pattern Analyst]] analyses an already-connected graph (depth, insight). Don't use Triage when you want insight, or Analyst when you want a cleanup plan.
 - Three ProdOS Architects (distinct outputs, same family): [[Prompt - ProdOS Chronos Synthesizer]] outputs a SoT. [[Prompt - ProdOS MoC Cartographer]] outputs a MOC. [[Prompt - ProdOS Protocol Architect]] outputs a Protocol. Choose by desired artefact type, not by task description alone.
