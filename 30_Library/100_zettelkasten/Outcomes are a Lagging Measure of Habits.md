@@ -1,13 +1,15 @@
 ---
 aliases: [Outcomes are a Lagging Measure]
-conformant: false
+conformant: true
 created: 2025-11-06T19:56:00+00:00
+epistemic_status: high
 modified: 2026-07-28T09:12:49+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/outcomes-are-a-lagging-measure-of-habits
+prodos.kind: claim
+prodos.lifecycle: stable
+proposition: "Current outcomes are a lagging measure of past habits, meaning future results must be predicted by current trajectories rather than present status."
 tags: [measurement, outcomes, TheHuman/Habits, topic/systems]
 title: Outcomes are a Lagging Measure of Habits
-type: claim
 ---
 
 ## Outcomes Are a Lagging Measure of Habits

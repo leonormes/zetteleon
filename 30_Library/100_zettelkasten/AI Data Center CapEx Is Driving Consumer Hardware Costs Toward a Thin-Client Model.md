@@ -1,8 +1,11 @@
 ---
+conformant: true
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: low
 modified: 2026-07-28T09:12:54+00:00
 permalink: llmeon/30-library/100-zettelkasten/ai-data-center-cap-ex-is-driving-consumer-hardware-costs-toward-a-thin-client-model
+prodos.kind: atomic
+prodos.lifecycle: stable
 proposition: Massive capital expenditure on AI data centers is driving up the cost of consumer-grade hardware components (RAM, basic electronics), because the same supply chains serve both markets. This may push the industry back toward thin clients — cheap terminal devices reliant on expensive, subscription-based cloud compute — echoing a pre-personal-computing era model.
 tags: [domain/llm, topic/economics, topic/hardware, topic/speculation]
 title: AI Data Center CapEx Is Driving Consumer Hardware Costs Toward a Thin-Client Model
@@ -38,4 +41,5 @@ Source: "State of Agentic Coding, episode 8, with Mario, Armin, and Ben" (Armin 
 
 - [[SoT - Fundamental Description of Economics]]
 
-%%[supports:: [[Unsustainable Agent Token Costs Are Driving a Shift from Flat-Fee to Usage-Based Pricing]], strength=2, confidence=low]%%
+%%[related_to:: [[Unsustainable Agent Token Costs Are Driving a Shift from Flat-Fee to Usage-Based Pricing]]]%%
+%%[supports:: [[SoT - Fundamental Description of Economics]]]%%

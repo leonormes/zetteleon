@@ -1,9 +1,12 @@
 ---
-conformant: false
+conformant: true
 created: 2026-04-10T13:00:00+00:00
+epistemic_status: high
 modified: 2026-07-28T09:12:50+00:00
-non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/100-zettelkasten/reinforcement-learning-produces-jagged-intelligence-high-in-verifiable-low-in-subjective-domains
+prodos.kind: atomic
+prodos.lifecycle: stable
+proposition: Reinforcement Learning produces jagged intelligence, excelling in domains with verifiable success signals (like code) while stalling in subjective domains (like humor or writing).
 tags: [constraints, intelligence, llm, reinforcement-learning]
 title: Reinforcement Learning Produces Jagged Intelligence — High in Verifiable, Low in Subjective Domains
 type: claim
@@ -28,7 +31,10 @@ Applies to models trained with RL on feedback-heavy verifiable data. "Jagged" is
 - Model intelligence should not be treated as a single dimension; capability assessments must be domain-specific.
 - Creating verifiability for currently subjective tasks is an active research lever for expanding RL's reach—e.g. converting "good writing" into a structured rubric with binary sub-criteria.
 
+%%[supports:: [[AI and Machine Understanding]]]%%
+%%[supports:: [[SoT - AI Sycophancy]]]%%
+
 ### Related
 
-- [[AI and Machine Understanding]]—extends: the jaggedness observation provides a mechanistic explanation for why AI cannot achieve unified understanding; the uneven capability profile is a direct consequence of RL's dependence on verifiable signals, not a temporary gap.
-- [[SoT - AI Sycophancy]]—extends: sycophancy in subjective domains (feedback, creative tasks) is the specific failure mode that emerges when RL cannot optimise the dimension; the model defaults to approval-seeking precisely where it lacks a ground-truth signal.
+- [[AI and Machine Understanding]] — The jaggedness observation provides a mechanistic explanation for why AI cannot achieve unified understanding; the uneven capability profile is a direct consequence of RL's dependence on verifiable signals, not a temporary gap.
+- [[SoT - AI Sycophancy]] — Sycophancy in subjective domains (feedback, creative tasks) is the specific failure mode that emerges when RL cannot optimise the dimension; the model defaults to approval-seeking precisely where it lacks a ground-truth signal.

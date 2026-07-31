@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-07-28T11:14:00+01:00
+modified: 2026-07-31T09:42:59+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-expansion
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Expansion
@@ -28,6 +28,7 @@ Details:
 - Dynamic Action: Favour a dynamic, firm, aggressive release with strong elbow continuation (emulating Korean archers like An San or Yun Mi-jin) pulling firmly into the face. Avoid trying to force an ultra-soft, "effortless" release (the Kim Woo-jin trap) which often causes intermediate archers to collapse.
 - Minimal Distance Through the Clicker: When you reach full draw and anchor, you should have only a tiny fraction of the arrow left under the clicker blade—ideally 1 to 4 millimeters (approximately half the bulge of an Easton X10 point). Leaving 0.5 cm or 1 cm of arrow shaft forces a large physical expansion movement, leading to body posture shifts and erratic shot execution.
 - Smooth, Continuous Clicker Expansion: Develop a repeatable, smooth method of expanding through those last few millimeters of the clicker without stalling, collapsing forward, or jerking the release. Unbroken expansion ensures clean bowstring clearance and actively defends against fatigue-induced collapsing late in a session or match.
+- Clicker Mechanical Integrity (Equipment Check): If your arrow shaft visibly bounces or jumps upward the instant the clicker blade releases, you have an equipment problem—not a form problem. The arrow flexes downward under the blade's spring tension and springs back on release, introducing instability right at the moment of execution and spreading groups. This is more common on lighter draw weights with softer spines (e.g., 850 spine) and worsens the further the clicker sits from the pressure button (leverage). Fix: slightly flatten (reduce the bend of) the clicker blade to lower its downward pressure. See the Clicker Tension & Arrow Bounce Check drill in [[Archery Practice Drills]] for the full diagnostic and fix procedure.
 - Imperceptible Motion (World-Class Standard): Expansion should be almost completely imperceptible to an observer. The overall body shape, head position, and posture must remain static. The expansion occurs internally through refined back tension without swinging the head backward or driving the bow shoulder forward.
 - Common Signs of Flawed Expansion:
   - Head & Neck Drift: The head visibly shifts backward as you try to force the arrow through the clicker.
@@ -39,10 +40,10 @@ Details:
   - Back Half (Expansion): Raise the draw elbow slightly while continuing a rounding motion with the scapula and lifting slightly with the pec muscle.
   - Front Half (Extension): Extend the bow shoulder continuously towards the target.
 - Jake Kaminski's Push-and-Pull Concepts (Movements Over Muscles):
-  - **Active Push, Active Pull:** Beginners often treat the bow hand like a passive kickstand, focusing entirely on the pulling hand. Instead, you must actively push into the bow's grip while pulling the string back, stretching the body in two opposite directions.
-  - **Aim the Push & Bow Hand Drive (Front Side):** Direct pushing pressure exactly at target center, treating the bow arm like a laser beam. Rather than trying to consciously flex specific stabilizing arm muscles (like triceps or biceps), focus simply on **driving and reaching your bow hand as far toward the target as physically possible**. This single movement naturally forces stabilizing muscles to activate without introducing stiffening tension.
-  - **LAN2 Expansion Direction (Back Side):** Rather than struggling to isolate back muscles during clicker execution, simply focus on moving **LAN2** (on the back of the drawing shoulder) **parallel to the shooting line and continuously around behind your head**, which naturally recruits scapular tension without freezing or co-contracting opposing muscles.
-  - **The Brick Wall Mental Trick:** Treat the bow grip like a solid brick wall. Press your hand firmly and consistently against it throughout the entire shot to prevent bow-arm collapse upon release.
+  - Active Push, Active Pull: Beginners often treat the bow hand like a passive kickstand, focusing entirely on the pulling hand. Instead, you must actively push into the bow's grip while pulling the string back, stretching the body in two opposite directions.
+  - Aim the Push & Bow Hand Drive (Front Side): Direct pushing pressure exactly at target center, treating the bow arm like a laser beam. Rather than trying to consciously flex specific stabilizing arm muscles (like triceps or biceps), focus simply on driving and reaching your bow hand as far toward the target as physically possible. This single movement naturally forces stabilizing muscles to activate without introducing stiffening tension.
+  - LAN2 Expansion Direction (Back Side): Rather than struggling to isolate back muscles during clicker execution, simply focus on moving LAN2 (on the back of the drawing shoulder) parallel to the shooting line and continuously around behind your head, which naturally recruits scapular tension without freezing or co-contracting opposing muscles.
+  - The Brick Wall Mental Trick: Treat the bow grip like a solid brick wall. Press your hand firmly and consistently against it throughout the entire shot to prevent bow-arm collapse upon release.
 
 ### Training Drills
 

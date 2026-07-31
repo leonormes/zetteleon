@@ -1,10 +1,13 @@
 ---
 aliases: [Concept Mapping]
-conformant: false
+conformant: true
 created: 2025-11-10T16:11:00+00:00
+epistemic_status: high
 modified: 2026-07-28T09:12:44+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/concept-mapping-is-a-technique-for-visually-organizing-knowledge
+prodos.kind: atomic
+prodos.lifecycle: stable
+proposition: "Concept mapping is an active learning technique that visually depicts relationships between key ideas to force the structural organization of knowledge."
 tags: [concept-mapping, learning, understanding, visualization]
 title: Concept Mapping is a Technique for Visually Organizing Knowledge
 type: claim
@@ -19,3 +22,5 @@ Details: The process of creating a concept map promotes meaningful learning by f
 ## Related
 
 - [[Cognitive Offloading Frees Mental Resources for Decision-Making and Problem-Solving]]
+
+%%[implements:: [[SoT - Active Learning Techniques]]]%%

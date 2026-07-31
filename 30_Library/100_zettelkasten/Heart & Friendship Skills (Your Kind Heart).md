@@ -1,14 +1,16 @@
 ---
 aliases: []
+conformant: true
 created: 2025-07-10T10:12:15+00:00
-last_reviewed: ''
+epistemic_status: high
 modified: 2026-07-28T09:12:46+00:00
 permalink: llmeon/30-library/100-zettelkasten/heart-friendship-skills-your-kind-heart
-status: ''
+prodos.kind: atomic
+prodos.lifecycle: stable
+proposition: "Heart and friendship skills encompass the VIA Character Strengths and PSHE values necessary for connecting with others and building healthy interpersonal relationships."
 tags: []
 title: Heart & Friendship Skills (Your Kind Heart)
-type: ''
-updated: null
+type: claim
 ---
 
 _These strengths are all about how you connect with other people and show you care._
@@ -21,4 +23,4 @@ _These strengths are all about how you connect with other people and show you ca
 - Social Intelligence: Understanding your own feelings and the feelings of others. Knowing what makes people "tick." (VIA Strength & PSHE)
 - Forgiveness: Giving people a second chance and not holding grudges when they make a mistake. (VIA Strength)
 
-[[A Concept Map for a Flourishing Human]]
+%%[extends:: [[A Concept Map for a Flourishing Human]]]%%

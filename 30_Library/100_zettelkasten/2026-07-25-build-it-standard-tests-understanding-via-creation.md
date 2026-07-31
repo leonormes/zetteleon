@@ -1,13 +1,12 @@
 ---
 aliases: ["The Build-It Standard Tests Understanding Through Creation"]
-conformant: false
-contradicts: []
+conformant: true
 created: 2026-07-25T11:17:00+00:00
 epistemic_status: medium
-evidence_links: ["[[SoT - Illusion of Explanatory Depth (IoED)]]"]
 modified: 2026-07-28T09:12:42+00:00
-non_conformance_reason: "evidence_links points to a synthesis SoT note, not a dedicated Evidence note; no standalone EvidenceNote exists yet for this claim."
 permalink: llmeon/30-library/100-zettelkasten/2026-07-25-build-it-standard-tests-understanding-via-creation
+prodos.kind: atomic
+prodos.lifecycle: stable
 proposition: Passive familiarity with a mental model or code library is not enough for understanding; comprehension is demonstrated only by creating something with it — applying it to a real problem or building a working artefact.
 tags: [bias, learning, mental_models, TheHuman/Cognition]
 title: 2026-07-25-build-it-standard-tests-understanding-via-creation
@@ -33,3 +32,5 @@ This standard may set the bar for "understanding" too high for many legitimate u
 ## Knowledge Graph
 
 No outgoing edge from this note—[[Familiarity and Comprehension Are Distinct, Often-Conflated Cognitive States]] already declares the `supports` edge pointing here (this antidote's rationale rests on that distinction).
+
+%%[supports:: [[SoT - Illusion of Explanatory Depth (IoED)]]]%%

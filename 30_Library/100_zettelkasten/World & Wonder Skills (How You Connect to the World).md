@@ -1,14 +1,16 @@
 ---
 aliases: []
+conformant: true
 created: 2025-07-10T10:12:15+00:00
-last_reviewed: ''
+epistemic_status: high
 modified: 2026-07-28T09:12:53+00:00
 permalink: llmeon/30-library/100-zettelkasten/world-wonder-skills-how-you-connect-to-the-world
-status: ''
+prodos.kind: atomic
+prodos.lifecycle: stable
+proposition: "World and wonder skills encompass the VIA Character Strengths and curriculum values related to finding joy, meaning, and connection in the wider world."
 tags: []
 title: World & Wonder Skills (How You Connect to the World)
-type: ''
-updated: null
+type: claim
 ---
 
 _These skills are about how you find joy, meaning, and your place in the wider world._
@@ -23,9 +25,5 @@ _These skills are about how you find joy, meaning, and your place in the wider w
 
 _PSHE: Personal, Social, Health and Economic education is a key part of the curriculum that teaches many of these life skills._
 
-[[A Concept Map for a Flourishing Human]]
-
-## Related
-
-- [[Appreciation of Beauty is Noticing Excellence in the World]] - A primary element of these skills.
-- [[A Concept Map for a Flourishing Human]] - Provides the holistic context for how these skills fit into overall flourishing.
+%%[extends:: [[A Concept Map for a Flourishing Human]]]%%
+%%[synthesizes:: [[Appreciation of Beauty is Noticing Excellence in the World]]]%%

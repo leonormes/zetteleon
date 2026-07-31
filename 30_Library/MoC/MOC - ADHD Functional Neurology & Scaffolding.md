@@ -52,4 +52,4 @@ These notes provide the foundational understanding of how the ADHD brain operate
 
 - [ ] Synthesise: Review the "Neuroenergetic deficit theory" and its implications for the "Metabolic Firewall" protocol.
 - [ ] Harvest: Extract practical cues from [[Cerebellum Function and Exercise for ADHD Regulation]] into a "Pre-flight Ritual" protocol.
-- [ ] Consolidate: Merge duplicate insights between [[The Glitchy Switch - TPN and DMN Dysregulation in ADHD]] and [[ADHD DMN Deactivation Failure]].
+- [x] Consolidate: Merge duplicate insights between [[The Glitchy Switch - TPN and DMN Dysregulation in ADHD]] and [[ADHD DMN Deactivation Failure]]. (Resolved via structural supports edge)

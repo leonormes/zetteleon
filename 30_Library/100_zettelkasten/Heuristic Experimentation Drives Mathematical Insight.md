@@ -1,14 +1,16 @@
 ---
 aliases: [Mathematical Experimentation, Tinkering]
+conformant: true
 created: 2025-11-01T11:22:13+00:00
-last_reviewed: '2025-11-01T00:00:00.000Z'
+epistemic_status: high
 modified: 2026-07-28T09:12:47+00:00
 permalink: llmeon/30-library/100-zettelkasten/heuristic-experimentation-drives-mathematical-insight
-status: seedling
-tags: [heuristics, TheHuman/Creativity, topic/maths]
+prodos.kind: atomic
+prodos.lifecycle: stable
+proposition: Mathematical discovery is driven by heuristic experimentation—tinkering with examples, embracing failure, and testing conjectures to build intuition before seeking formal proof.
+tags: [heuristics, TheHuman/Creativity, topic/maths, methodology]
 title: Heuristic Experimentation Drives Mathematical Insight
-type: strategy
-updated: null
+type: claim
 ---
 
 Summary: Mathematical discovery involves breaking down complex problems into smaller components, examining them through trial and experimentation, and reconstructing understanding—an iterative process that embraces failure as learning.
@@ -44,3 +46,10 @@ Failed attempts are not wasted effort but essential feedback. Each failure:
 - Deepens understanding of the problem space
 
 Relationship to Proof: Experimentation precedes proof. While it cannot establish mathematical truth, it guides the search for proof by revealing what might be true and why.
+
+%%[supports:: [[SoT - Mathematical Thinking and Problem Solving]]]%%
+
+## Related
+
+- [[MOC - What is Maths]]
+- [[The Process of Mathematical Discovery is Driven by Pattern Recognition]] — _A complementary facet of the discovery process._

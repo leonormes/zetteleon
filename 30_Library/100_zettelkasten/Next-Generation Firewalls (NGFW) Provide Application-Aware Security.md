@@ -1,13 +1,15 @@
 ---
 aliases: [Deep Packet Inspection Firewall, NGFW]
-conformant: false
+conformant: true
 created: 2025-12-24T12:00:00+00:00
+epistemic_status: high
 modified: 2026-07-28T09:12:49+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/next-generation-firewalls-ngfw-provide-application-aware-security
+prodos.kind: claim
+prodos.lifecycle: stable
+proposition: "Next-Generation Firewalls (NGFWs) improve upon stateful firewalls by using Deep Packet Inspection to identify traffic by application and user identity, which is essential for Zero Trust architectures."
 tags: [SoftwareEngineering/Networking, SoftwareEngineering/Security]
 title: Next-Generation Firewalls (NGFW) Provide Application-Aware Security
-type: claim
 ---
 
 ## Next-Generation Firewalls (NGFW) Provide Application-Aware Security

@@ -1,10 +1,13 @@
 ---
 aliases: [Aristotelian Knowledge, Episteme-Techne-Phronesis]
-conformant: false
+conformant: true
 created: 2025-11-12T14:10:02+00:00
+epistemic_status: high
 modified: 2026-07-28T09:12:43+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/aristotle-distinguished-between-episteme-techne-and-phronesis
+prodos.kind: atomic
+prodos.lifecycle: stable
+proposition: "Aristotle created a tripartite distinction between episteme (theoretical knowledge), techne (craft), and phronesis (practical wisdom), establishing that action and practice are prerequisites for complete understanding."
 tags: [aristotle, knowledge, TheHuman/Philosophy]
 title: Aristotle Distinguished Between Episteme, Techne, and Phronesis
 type: claim
@@ -19,3 +22,5 @@ Details: These three forms of knowledge correspond to different modes of human a
 ## Related
 
 - [[21-wtf_is_knowledge_anyway]]
+
+%%[supports:: [[SoT - The Extended Mind]]]%%

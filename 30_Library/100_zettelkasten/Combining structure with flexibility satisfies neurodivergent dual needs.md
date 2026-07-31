@@ -1,10 +1,13 @@
 ---
 aliases: [Dual needs satisfaction, Structure with flexibility]
-conformant: false
+conformant: true
 created: 2025-10-30T18:05:00+00:00
+epistemic_status: high
 modified: 2026-07-28T09:12:44+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/combining-structure-with-flexibility-satisfies-neurodivergent-dual-needs
+prodos.kind: atomic
+prodos.lifecycle: stable
+proposition: "Combining structured routines with execution flexibility satisfies the dual neurodivergent needs for predictability (autism) and variable capacity accommodation (ADHD)."
 tags: [autism, neurodivergence, routines, TheHuman/Health/ADHD]
 title: Combining structure with flexibility satisfies neurodivergent dual needs
 type: claim
@@ -23,3 +26,5 @@ This approach transforms routines from fragile constructs that shatter when cond
 - The Honeyman Method uses three-tiered routines to adapt to energy variation
 - [[Mini routines are effective for ADHD autism and chronic illness]]
 - [[Routines Provide Stability for Neurodivergent Individuals]]
+
+%%[supports:: [[SoT - ADHD Management Protocols]]]%%

@@ -1,14 +1,16 @@
 ---
 aliases: [5-Minute Rule, Micro-Actions, Starter Tasks]
+conformant: true
 created: 2025-12-16T13:15:00+00:00
-last_reviewed: '2025-12-16T00:00:00.000Z'
+epistemic_status: absolute
 modified: 2026-07-28T09:12:48+00:00
 permalink: llmeon/30-library/100-zettelkasten/master-micro-actions-starter-tasks
-status: pending
-tags: [experiment, focus, hypothesis, momentum, The, TheHuman/Health/ADHD, topic/productivity]
+prodos.kind: atomic
+prodos.lifecycle: stable
+proposition: Breaking a daunting task down until the first step is absurdly small (< 2 minutes, purely physical) lowers the activation energy below the threshold of the Wall of Awful, triggering immediate task initiation.
+tags: [experiment, focus, momentum, TheHuman/Health/ADHD, topic/productivity]
 title: Master Micro-Actions & Starter Tasks
-type: hypothesis
-updated: null
+type: claim
 ---
 
 ## 1. The Hypothesis
@@ -43,8 +45,10 @@ updated: null
 
 - _(Log results here)_
 
----
+%%[supports:: [[SoT - ADHD Management Protocols]]]%%
+%%[supports:: [[Micro-Stepping Reduces Cognitive Load for Task Initiation]]]%%
 
-Original Context:
+## Related
 
-Derived from [[ADHD Behavioral Strategies for Productivity]].
+- [[SoT - ADHD Management Protocols]]
+- [[SoT - ADHD Neurology & Core Concepts]]

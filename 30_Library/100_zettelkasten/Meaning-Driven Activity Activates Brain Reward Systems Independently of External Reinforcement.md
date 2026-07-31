@@ -1,12 +1,14 @@
 ---
-conformant: false
+conformant: true
 created: 2026-04-10T00:00:00+00:00
+epistemic_status: medium
 modified: 2026-07-28T09:12:48+00:00
-non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/100-zettelkasten/meaning-driven-activity-activates-brain-reward-systems-independently-of-external-reinforcement
+prodos.kind: claim
+prodos.lifecycle: stable
+proposition: "Purpose-driven activities engage brain reward systems (VTA and nucleus accumbens) independently of external reinforcement, providing a vital secondary motivation pathway for ADHD brains."
 tags: [adhd, dopamine, motivation, neuroscience]
 title: Meaning-Driven Activity Activates Brain Reward Systems Independently of External Reinforcement
-type: claim
 ---
 
 ## Meaning-Driven Activity Activates Brain Reward Systems Independently of External Reinforcement

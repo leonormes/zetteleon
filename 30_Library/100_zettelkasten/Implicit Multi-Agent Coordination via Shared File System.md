@@ -1,9 +1,12 @@
 ---
-conformant: false
+conformant: true
 created: 2026-04-10T12:00:00+00:00
+epistemic_status: high
 modified: 2026-07-28T09:12:47+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/implicit-multi-agent-coordination-via-shared-file-system
+prodos.kind: atomic
+prodos.lifecycle: stable
+proposition: "Global coordination between parallel autonomous agents can be achieved implicitly through a shared hierarchical file system rather than direct message passing, resulting in deterministic audit trails and lower communication overhead."
 tags: [coordination, determinism, file-system, multi-agent-systems]
 title: Implicit Multi-Agent Coordination via Shared File System
 type: claim
@@ -29,4 +32,6 @@ Demonstrated with 4–8 homogeneous agents running in parallel Git workspaces. T
 ### Related
 
 - [[Virtual File System for Agent Concurrency]]—direct concept match: the CORAL shared directory and the virtual file system pattern both use a filesystem abstraction as the coordination primitive for concurrent agents; CORAL uses a real hierarchical directory on disk rather than an in-memory dict, but the architectural role is identical.
-- [[SoT - Agentic AI Design Patterns]]—extends: implements the "Multi-Agent Collaboration" and "Inter-Agent Communication" patterns from the taxonomy but replaces structured message-passing protocols with passive shared-state reads and writes.
+- SoT - Agentic AI Design Patterns—extends: implements the "Multi-Agent Collaboration" and "Inter-Agent Communication" patterns from the taxonomy but replaces structured message-passing protocols with passive shared-state reads and writes.
+
+%%[implements:: [[SoT - Agentic AI Design Patterns]]]%%

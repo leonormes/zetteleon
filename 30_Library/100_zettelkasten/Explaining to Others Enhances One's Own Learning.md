@@ -1,10 +1,13 @@
 ---
-aliases: [Feynman Technique, Prot\u00e9g\u00e9 Effect]
-conformant: false
+aliases: [Feynman Technique, Protégé Effect]
+conformant: true
 created: 2025-11-10T16:09:00+00:00
+epistemic_status: high
 modified: 2026-07-28T09:12:46+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/explaining-to-others-enhances-ones-own-learning
+prodos.kind: atomic
+prodos.lifecycle: stable
+proposition: "The act of explaining or teaching material to others significantly enhances the explainer's own understanding and knowledge retention."
 tags: [learning, teaching, TheHuman/Habits, understanding]
 title: "Explaining to Others Enhances One's Own Learning"
 type: claim
@@ -26,3 +29,6 @@ Details: This strategy forces the learner to organize their thoughts coherently,
 - [[Writing in Own Words Distinguishes Comprehension from the Illusion of Knowledge]]—_Explains how the act of paraphrasing serves the same cognitive function as explaining to others by exposing gaps in understanding._
 - [[Long-Term Potentiation (LTP) is a Key Cellular Mechanism for Learning]]—_The neurological basis for why effortful engagement, like teaching, strengthens neural pathways._
 - [[SoT - Experiential Learning & Education]]—_The broader pedagogical framework that prioritizes active engagement and reflection over passive consumption._
+
+%%[implements:: [[SoT - Active Learning Techniques]]]%%
+%%[depends_on:: [[SoT - Illusion of Explanatory Depth (IoED)]]]%%

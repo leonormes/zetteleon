@@ -1,14 +1,16 @@
 ---
 aliases: []
+conformant: true
 created: 2025-05-28T18:46:40+00:00
-last_reviewed: ''
+epistemic_status: high
 modified: 2026-07-11T12:34:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/crafting-compelling-task-descriptions-and-sustaining-motivation
-status: ''
-tags: []
+prodos.kind: atomic
+prodos.lifecycle: stable
+proposition: "Effective task execution requires defining the physical next action with specificity while simultaneously anchoring it to a motivational 'Why'."
+tags: [task-management, motivation, execution, prodos]
 title: Crafting Compelling Task Descriptions and Sustaining Motivation
-type: ''
-updated: null
+type: claim
 ---
 
 ## Writing Effective Task Descriptions
@@ -35,3 +37,5 @@ updated: null
 - Analogue: Use sticky notes or a dedicated section in your planner for the "why."
 
 ---
+
+%%[implements:: [[SoT - PRODOS Core Specification]]]%%

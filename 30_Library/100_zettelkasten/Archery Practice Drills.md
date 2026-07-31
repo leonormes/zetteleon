@@ -1,9 +1,13 @@
 ---
 aliases: []
 created: 2026-07-22T00:00:00+00:00
-modified: 2026-07-30T11:31:00+01:00
+modified: 2026-07-31T13:00:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-practice-drills
-tags: [archery, practice, prodos/atomic, training]
+tags:
+  - archery
+  - practice
+  - prodos/atomic
+  - training
 title: Archery Practice Drills
 type: procedure
 ---
@@ -30,6 +34,24 @@ Before you can build a training plan, you must establish exactly where you are s
 - Physical Benchmarks: Test your current fitness level, such as timing how long you can hold a specific bow training drill (e.g., sets of 30 seconds on, 30 seconds off).
 - Score Benchmarks: Know your current averages so you have a factual baseline.
 - Equipment Tune Benchmarks: Do not overcomplicate your equipment when pursuing major score milestones (e.g., shooting 600+ on a 720 round). Ensure your limbs are straight and your center shot is positioned correctly (slightly left for right-handed archers). As long as your bare shafts land in the same group as your fletched arrows at 18 meters and 30 meters, your tune is more than sufficient for a 600+ score.
+
+#### Equipment Tune: Clicker Tension & Arrow Bounce Check
+
+- **Purpose:** Diagnoses arrow groups degraded by arrow shaft bounce under the clicker blade — a subtle equipment issue that introduces instability at the moment of execution.
+- **The Problem:** When the clicker drops, the arrow shaft bends downward under the clicker blade's spring tension and then violently springs upward the moment the blade releases. This active bouncing/shifting at the exact moment of execution throws off accuracy and spreads arrow groups.
+- **Why It Happens:**
+  - **Arrow Spine Stiffness:** Elite archers shooting 45-50 lbs with stiff spines (e.g., 410/450) can use extended/top-mounted clickers without issue. Archers on lighter draw weights with softer spines (e.g., 850) experience far more flex under the blade's pressure.
+  - **Distance from Plunger:** The further the clicker sits in front of the pressure button (the pivot point), the more leverage magnifies the force pressing down on the shaft.
+- **How to Check:**
+  1. Set up a camera zoomed in on your clicker blade and pressure button.
+  2. Film in slow motion or scrub frame-by-frame through the moment the clicker releases.
+  3. Watch for the arrow shaft visibly bouncing/jumping upward when the blade releases.
+- **How to Fix:**
+  1. Reduce clicker tension by slightly flattening (decreasing the bend in) your clicker blade.
+  2. This reduces the downward pressure exerted on the arrow shaft.
+- **Expected Result:** Adjusting the bend typically eliminates 80-90% of the arrow movement, reducing the jump down to a stable, acceptable level.
+- **Reference:** Archery Coach Michael, ["This Destroys Groups: Check its not happening to you!"](http://www.youtube.com/watch?v=lIfcGAIRlss)
+
 
 ### Splitting Strength vs. Skill
 

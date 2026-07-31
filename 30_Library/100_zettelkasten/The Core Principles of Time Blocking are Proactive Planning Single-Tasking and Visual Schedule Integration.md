@@ -1,10 +1,13 @@
 ---
 aliases: []
-conformant: false
+conformant: true
 created: 2025-11-10T14:01:00+00:00
+epistemic_status: high
 modified: 2026-07-28T09:12:52+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/the-core-principles-of-time-blocking-are-proactive-planning-single-tasking-and-visual-schedule-integration
+prodos.kind: atomic
+prodos.lifecycle: stable
+proposition: The effectiveness of time blocking rests on three core principles—proactive planning, a single-tasking mindset, and integration with a visual schedule.
 tags: [principles, time-blocking, time-management, topic/productivity]
 title: The Core Principles of Time Blocking are Proactive Planning Single-Tasking and Visual Schedule Integration
 type: claim
@@ -19,3 +22,10 @@ Details:
 1. Proactive Planning: Tasks are scheduled in advance, turning intentions into concrete plans.
 2. Single-Tasking Mindset: Each time block is dedicated to a single task or a batch of similar tasks, promoting deep focus.
 3. Visual Schedule Integration: A calendar (digital or physical) is used as the primary tool to allocate and visualize the time blocks.
+
+%%[supports:: [[SoT - Temporal Management (Blocking and Boxing)]]]%%
+
+## Related
+
+- [[Time Mapping is a Visual Method of Time Blocking the Day]]
+- [[Cal Newport's Deep Work Method Involves Rigorous Time Blocking to Maximize Concentration]]

@@ -1,14 +1,16 @@
 ---
 aliases: []
+conformant: true
 created: 2025-08-23T20:31:00+00:00
-last_reviewed: ''
+epistemic_status: high
 modified: 2026-07-28T09:12:46+00:00
 permalink: llmeon/30-library/100-zettelkasten/getting-started-with-zettelkasten-with-adhd
-status: ''
+prodos.kind: atomic
+prodos.lifecycle: stable
+proposition: "Zettelkasten adoption for ADHD brains requires minimizing activation energy through extreme simplicity and permission for imperfection, bypassing the perfectionism that causes task paralysis."
 tags: [TheHuman/Health/ADHD, topic/pkm/zettelkasten, topic/productivity]
 title: Getting Started with Zettelkasten with ADHD
-type: permanent
-updated: null
+type: claim
 ---
 
 To overcome the inertia of starting a Zettelkasten, especially with ADHD, the key is to allow for imperfection. The goal is not to build a perfect system, but to start thinking and connecting ideas, embracing the concept that your Zettelkasten is a mirror not a monument.
@@ -24,3 +26,5 @@ Here are some practical steps:
 The Zettelkasten method worked for Luhmann because he developed it organically. Your ADHD brain is excellent at seeing connections between diverse topics. Trust that strength instead of fighting against how your mind works.
 
 See also: [[2025-04-21]]
+
+%%[implements:: [[SoT - ADHD Management Protocols]]]%%

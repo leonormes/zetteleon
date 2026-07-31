@@ -1,13 +1,16 @@
 ---
 aliases: [AWS Shield, Azure DDoS Protection]
-conformant: false
+conformant: true
 created: 2025-12-24T12:00:00+00:00
+epistemic_status: high
 modified: 2026-07-28T09:12:45+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/ddo-s-protection-service
+prodos.kind: atomic
+prodos.lifecycle: stable
+proposition: "DDoS Protection services ensure network availability by filtering volumetric and application-layer attacks before they exhaust protected resources."
 tags: [SoftwareEngineering/Networking, SoftwareEngineering/Security]
 title: DDoS Protection Service
-type: concept
+type: claim
 ---
 
 ## DDoS Protection Service
@@ -24,3 +27,5 @@ Comparison:
 
 - AWS: Shield (Standard/Advanced).
 - Azure: DDoS Protection (Basic/Standard).
+
+%%[implements:: [[SoT - Network Security Architecture]]]%%

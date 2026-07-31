@@ -1,12 +1,11 @@
 ---
-conformant: false
-contradicts: []
+conformant: true
 created: 2026-07-25T11:17:00+00:00
 epistemic_status: medium
-evidence_links: ["[[SoT - Illusion of Explanatory Depth (IoED)]]"]
 modified: 2026-07-28T09:12:42+00:00
-non_conformance_reason: "evidence_links points to a synthesis SoT note, not a dedicated Evidence note; no standalone EvidenceNote exists yet for this claim."
 permalink: llmeon/30-library/100-zettelkasten/2026-07-25-hyperfocus-dopamine-mistaken-for-logical-integrity
+prodos.kind: atomic
+prodos.lifecycle: stable
 proposition: "When an idea arises during a hyperfocus session or a high-intensity dopamine state, the intensity of the felt breakthrough can be mistaken for evidence that the idea's underlying logic is actually sound."
 tags: [bias, learning, mental_models, TheHuman/Cognition, TheHuman/Health/ADHD]
 title: 2026-07-25-hyperfocus-dopamine-mistaken-for-logical-integrity
@@ -34,3 +33,4 @@ Hyperfocus sessions may also produce genuinely higher-quality ideas via sustaine
 [[Externalising Tacit Knowledge Strips the Scaffolding That Made an Idea Feel Deep]]—this is the ADHD-specific intensifier of that general mechanism, not a standalone claim
 
 %%[extends:: [[Externalising Tacit Knowledge Strips the Scaffolding That Made an Idea Feel Deep]]]%%
+%%[supports:: [[SoT - Illusion of Explanatory Depth (IoED)]]]%%

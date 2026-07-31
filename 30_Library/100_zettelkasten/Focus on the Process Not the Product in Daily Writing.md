@@ -1,10 +1,13 @@
 ---
 aliases: []
-conformant: false
+conformant: true
 created: 2025-10-30T12:10:02+00:00
+epistemic_status: high
 modified: 2026-07-28T09:12:46+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/focus-on-the-process-not-the-product-in-daily-writing
+prodos.kind: atomic
+prodos.lifecycle: stable
+proposition: "For daily writing to function as an effective thinking tool, the goal must be engaging in the cognitive process of translation rather than creating a polished product."
 source: '[[MOC - Daily Writing for Clarity and ADHD-Friendly Techniques]]'
 tags: [process, TheHuman/Mindset, writing]
 title: Focus on the Process Not the Product in Daily Writing
@@ -25,3 +28,6 @@ For a daily writing habit to be effective as a thinking tool, the focus must be 
 - [[Sprint Journaling Prevents Overwhelm in ADHD]]—_An ADHD-friendly implementation of the process-first approach using short, timed bursts of writing._
 - [[PKM as Process vs Product]]—_A conceptual note on the distinction between information collection and active cognitive processing._
 - [[SoT - Perfectionism and Analysis Paralysis]]—_Discusses how ProdOS architecture enforces "Process over Product" to break the cycle of perfectionism._
+
+%%[implements:: [[SoT - Processing IS the Work]]]%%
+%%[solves:: [[SoT - Perfectionism and Analysis Paralysis]]]%%

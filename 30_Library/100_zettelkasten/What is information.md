@@ -18,7 +18,7 @@ Data that has been processed, organized, structured, or presented in a given con
 
 ## Directly Related Concepts
 
-The raw material for information is data. The process of turning data into information often involves discovering the [[Information Hidden in Data]] by [[Applying Previous Knowledge|applying knowledge]] and context. This transformation is a key step in the DIKW pyramid.
+The raw material for information is data. The process of turning data into information often involves [[Applying Previous Knowledge|applying previous knowledge]] and context to reveal hidden patterns. This transformation is a key step in the DIKW pyramid.
 
 A clear, practical example of this is the [[Protocol Data Unit]], where the name and structure of data change based on its context within a networking model.
 

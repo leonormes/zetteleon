@@ -1,13 +1,15 @@
 ---
 aliases: [Metacognition]
-conformant: false
+conformant: true
 created: 2025-11-10T16:05:00+00:00
+epistemic_status: high
 modified: 2026-07-28T09:12:48+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/metacognition-is-essential-for-guiding-the-deep-learning-process
+prodos.kind: claim
+prodos.lifecycle: stable
+proposition: "Metacognition (thinking about one's own thinking) is essential for effective learning, enabling individuals to monitor their comprehension, identify gaps, and adapt their strategies to build robust knowledge."
 tags: [learning, metacognition, self-awareness, TheHuman/Cognition]
 title: Metacognition is Essential for Guiding the Deep Learning Process
-type: claim
 ---
 
 ## Metacognition is Essential for Guiding the Deep Learning Process

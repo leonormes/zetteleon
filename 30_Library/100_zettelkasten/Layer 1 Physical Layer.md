@@ -1,14 +1,13 @@
 ---
 aliases: []
+conformant: true
 created: 2025-05-17T16:32:47+00:00
-last_reviewed: ''
 modified: 2026-07-28T09:12:48+00:00
 permalink: llmeon/30-library/100-zettelkasten/layer-1-physical-layer
-status: ''
+prodos.kind: concept
+prodos.lifecycle: stub
 tags: [SoftwareEngineering/Networking]
 title: Layer 1 Physical Layer
-type: ''
-updated: null
 ---
 
 The Physical Layer transmits raw bit streams over a physical medium. It deals with physical characteristics such as voltage levels, data rates, and physical connections.

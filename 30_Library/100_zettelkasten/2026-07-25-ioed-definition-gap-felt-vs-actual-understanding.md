@@ -1,13 +1,12 @@
 ---
 aliases: ["The Illusion of Explanatory Depth Names a Gap Between Felt and Actual Understanding"]
-conformant: false
-contradicts: []
+conformant: true
 created: 2026-07-25T11:17:00+00:00
 epistemic_status: medium
-evidence_links: ["[[SoT - Illusion of Explanatory Depth (IoED)]]"]
 modified: 2026-07-28T09:12:42+00:00
-non_conformance_reason: evidence_links points to a synthesis SoT note, not a dedicated Evidence note carrying source_quote/source_reference; no standalone EvidenceNote exists yet for this claim.
 permalink: llmeon/30-library/100-zettelkasten/2026-07-25-ioed-definition-gap-felt-vs-actual-understanding
+prodos.kind: atomic
+prodos.lifecycle: stable
 proposition: People systematically overestimate how well they understand complex causal systems, and the overestimation is exposed only when they attempt to give a real step-by-step causal explanation.
 tags: [bias, learning, mental_models, TheHuman/Cognition]
 title: 2026-07-25-ioed-definition-gap-felt-vs-actual-understanding
@@ -39,3 +38,5 @@ Claims that build on this definition (see their own `## Knowledge Graph` section
 - [[2026-07-25-premature-loop-closure-adhd-ioed-vulnerability|Premature Loop Closure Drives ADHD's Heightened Vulnerability to IoED]]—ADHD-specific extension
 - [[2026-07-25-externalising-tacit-knowledge-illusion-of-profundity|Externalising Tacit Knowledge Strips the Scaffolding That Made an Idea Feel Deep]]—reflexive extension
 - [[2026-07-25-ioed-vs-dunning-kruger-distinction|IoED and Dunning-Kruger Effect Differ in Driver, Calibration Axis, and Correction]]—depends on this definition
+
+%%[supports:: [[SoT - Illusion of Explanatory Depth (IoED)]]]%%

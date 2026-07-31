@@ -1,14 +1,16 @@
 ---
 aliases: [Packet Anatomy, TCP Packet Example]
+conformant: true
 created: 2025-10-21T13:23:09+00:00
-last_reviewed: ''
+epistemic_status: high
 modified: 2026-07-10T23:25:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/an-example-of-a-tcp-packet-with-all-layers
-status: evergreen
+prodos.kind: atomic
+prodos.lifecycle: stable
+proposition: "A TCP packet structurally encapsulates data through the OSI layers—Application (L7), Transport (L4), Network (L3), and Data Link (L2)—with each layer adding discrete routing and control headers."
 tags: [SoftwareEngineering/Networking]
 title: An Example of a Tcp Packet With All Layers
-type: reference
-updated: null
+type: claim
 ---
 
 ## TCP Packet Layers & Headers
@@ -85,3 +87,5 @@ _See: Ethernet Frame Details_
 ---
 
 This condensed presentation lets you reference key fields for packet analysis, teaching, or debugging workflows.
+
+%%[supports:: [[SoT - The Data-Centric Theory of Networking]]]%%

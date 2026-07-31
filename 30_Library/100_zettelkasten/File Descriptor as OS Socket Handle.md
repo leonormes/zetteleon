@@ -1,13 +1,15 @@
 ---
 aliases: [file descriptor, socket handle]
-conformant: false
+conformant: true
 created: 2025-10-31T13:40:00+00:00
+epistemic_status: high
 modified: 2026-07-28T09:12:46+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/file-descriptor-as-os-socket-handle
+prodos.kind: claim
+prodos.lifecycle: stable
+proposition: "A file descriptor acts as an OS-level handle that abstracts a network socket into a file-like interface, embodying the Unix principle that everything is a file."
 tags: [file-descriptor, operating-system, socket, unix]
 title: File Descriptor as OS Socket Handle
-type: claim
 ---
 
 ## File Descriptor as OS Socket Handle

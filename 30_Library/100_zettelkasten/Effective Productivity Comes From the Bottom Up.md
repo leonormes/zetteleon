@@ -1,13 +1,15 @@
 ---
 aliases: [Bottom-Up Productivity]
-conformant: false
+conformant: true
 created: 2025-11-10T15:22:00+00:00
+epistemic_status: high
 modified: 2026-07-28T09:12:45+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/effective-productivity-comes-from-the-bottom-up
+prodos.kind: atomic
+prodos.lifecycle: stable
+proposition: "Effective productivity is fundamentally a bottom-up process built on the consistent execution of atomic actions, rather than top-down grand planning."
 tags: [action, foundation, topic/productivity, topic/systems]
 title: Effective Productivity Comes From the Bottom Up
-type: claim
 ---
 
 ## Effective Productivity Comes From the Bottom Up
@@ -22,3 +24,5 @@ Details: This principle emphasizes that while high-level goals and projects are 
 - [[LLM GTD Context]]: _Provides the full hierarchy of the Six Horizons of Focus, with the Ground Floor representing the "Bottom-Up" starting point._
 - [[The Rapid Planning Method (RPM) is a Purpose-Driven System]]: _A contrasting top-down approach that starts with Results and Purpose before reaching the Massive Action Plan (MAP)._
 - [[Plan To Plan-Just-In-Time for ADHD]]: _A practical application of bottom-up productivity for neurodivergent workflows, focusing on immediate next tests._
+
+%%[supports:: [[SoT - Execution Protocol (GTD & PARA)]]]%%

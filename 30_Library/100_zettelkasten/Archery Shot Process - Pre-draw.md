@@ -1,9 +1,12 @@
 ---
 aliases: []
 created: 2026-07-21T00:00:00+00:00
-modified: 2026-07-28T09:12:43+00:00
+modified: 2026-07-31T13:00:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-pre-draw
-tags: [archery, prodos/atomic, technique]
+tags:
+  - archery
+  - prodos/atomic
+  - technique
 title: Archery Shot Process - Pre-draw
 type: procedure
 ---
@@ -25,4 +28,5 @@ Details:
 - The Setup Check: Pause briefly after rotating to check the feeling of the straight line running through your shoulders.
 - The Setup Trap: During this pre-draw/setup phase, there is a natural slowing down of movement as you pause to prepare. Be careful not to let the mechanical weight of the bow pull your drawing elbow forward during this slight pause. The elbow must remain structurally stable.
 - Verification: Verify that the posture is tall, the front shoulder remains set down, and correct shoulder-line alignment is established before loading.
+- Shoulder Collapse at Full Draw: A front shoulder collapse occurs when the bow-side shoulder yields or gives backward while you are holding at full draw. This is a key contributor to erratic draw length and a floating anchor point — if your front shoulder is not set consistently, both your draw length and anchor will drift shot-to-shot. Getting the front shoulder position locked in is one of the quickest ways to stabilise these variables.
 - Reference: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Online Archery Academy (The Setup Trap), Rogue Archery TV coaching sessions, and Clay Hayes (pre-aiming cues).

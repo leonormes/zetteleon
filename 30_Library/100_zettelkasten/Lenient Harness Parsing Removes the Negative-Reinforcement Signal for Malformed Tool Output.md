@@ -1,8 +1,11 @@
 ---
+conformant: true
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: medium
 modified: 2026-07-28T09:12:54+00:00
 permalink: llmeon/30-library/100-zettelkasten/lenient-harness-parsing-removes-the-negative-reinforcement-signal-for-malformed-tool-output
+prodos.kind: claim
+prodos.lifecycle: stable
 proposition: When a harness (like Claude Code) is overly lenient in accepting malformed
   tool output — invalid YAML headers, hallucinated JSON keys — a model trained inside
   that lenient environment receives no negative reinforcement signal for the bad formatting.
@@ -11,8 +14,6 @@ proposition: When a harness (like Claude Code) is overly lenient in accepting ma
   forced onto every other harness the model is used with.
 tags: [domain/llm, topic/harness-design, topic/reinforcement-learning, topic/reliability, topic/tool-use]
 title: Lenient Harness Parsing Removes the Negative-Reinforcement Signal for Malformed Tool Output
-  Tool Output
-type: claim
 ---
 
 ## Lenient Harness Parsing Removes the Negative-Reinforcement Signal for Malformed Tool Output
@@ -46,4 +47,4 @@ Source: "State of Agentic Coding, episode 8, with Mario, Armin, and Ben" (Armin 
 
 - [[SoT - AI Sycophancy]]
 
-%%[depends_on:: [[Reinforcement Learning Produces Jagged Intelligence — High in Verifiable, Low in Subjective Domains]], strength=4, confidence=medium]%%
+%%[depends_on:: [[Reinforcement Learning Produces Jagged Intelligence — High in Verifiable, Low in Subjective Domains]]]%%

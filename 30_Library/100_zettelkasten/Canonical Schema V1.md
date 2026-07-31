@@ -1,14 +1,16 @@
 ---
 aliases: [Schema V1]
+conformant: true
 created: 2025-10-31T08:17:00+00:00
-last_reviewed: '2025-10-31'
+epistemic_status: high
 modified: 2026-07-10T23:25:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/canonical-schema-v1
-status: seedling
+prodos.kind: atomic
+prodos.lifecycle: archived
+proposition: "Canonical Schema V1 was the initial standardized YAML frontmatter template designed to ensure all notes were machine-readable, which has since been superseded by the ProdOS Frontmatter Contract."
 tags: [metadata, schema, zettelkasten]
 title: Canonical Schema V1
-type: definition
-updated: null
+type: concept
 ---
 
 ## Canonical Schema V1
@@ -44,3 +46,5 @@ Structural notes additionally require:
 - `criteria`: Inclusion criteria for adding links
 
 This schema enables dataview queries, automation, and linting.
+
+%%[related_to:: [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]]%%

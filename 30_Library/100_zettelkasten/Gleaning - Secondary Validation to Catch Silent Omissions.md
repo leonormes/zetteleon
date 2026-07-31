@@ -1,8 +1,11 @@
 ---
+conformant: true
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: high
 modified: 2026-07-28T09:12:54+00:00
 permalink: llmeon/30-library/100-zettelkasten/gleaning-secondary-validation-to-catch-silent-omissions
+prodos.kind: atomic
+prodos.lifecycle: stable
 proposition: Gleaning is a verification technique where a secondary "validator" prompt checks the LLM's initial output for quiet omissions. If something is missed, the validator flags it and the system refines the extraction without starting from scratch, preventing silent failures in LLM pipelines.
 tags: [domain/llm, topic/hallucination-mitigation, topic/pipelines, topic/quality-gates, topic/verification]
 title: Gleaning - Secondary Validation to Catch Silent Omissions
@@ -51,6 +54,6 @@ Source: "Paper Dives: MapReduce Is Back - And It Fixes Broken LLM Pipelines | Do
 
 - [[Precision-Recall Trade-offs in LLM Extraction]]
 
-%%[supports:: [[LLM Pipeline Accuracy Degrades with Document Length and Task Complexity]], strength=4, confidence=high]%%
+%%[supports:: [[LLM Pipeline Accuracy Degrades with Document Length and Task Complexity]]]%%
 
-%%[supports:: [[Model Self-Verification as a Secondary Quality Gate]], strength=3, confidence=medium]%%
+%%[supports:: [[Model Self-Verification as a Secondary Quality Gate]]]%%

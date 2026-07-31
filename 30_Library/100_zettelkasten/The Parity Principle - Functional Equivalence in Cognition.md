@@ -1,16 +1,19 @@
 ---
 aliases: [Functional Equivalence, The Inga and Otto Case]
-conformant: false
+conformant: true
 created: 2025-12-24T12:00:00+00:00
+epistemic_status: high
 modified: 2026-07-28T09:12:52+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/the-parity-principle-functional-equivalence-in-cognition
+prodos.kind: atomic
+prodos.lifecycle: stable
+proposition: If an external process functions in a way that we would unhesitatingly accept as cognitive were it occurring inside the head, then we should treat that external process as part of the cognitive system.
 tags: [cognition, logic, TheHuman/Philosophy]
 title: The Parity Principle - Functional Equivalence in Cognition
 type: claim
 ---
 
-The Parity Principle is the philosophical heart of the [[SoT - The Extended Mind Thesis|EMT]]. It states:
+The Parity Principle is the philosophical heart of the [[SoT - The Extended Mind|EMT]]. It states:
 
 > [!quote] The Principle
 > If a process occurring in the world functions in a way that we would unhesitatingly accept as cognitive were it occurring inside the head, then we should treat that external process as part of the cognitive system.
@@ -27,3 +30,9 @@ Because Otto's notebook is constant, accessible, and trusted, it performs the sa
 ## 🚀 Application
 
 In a digital context, this justifies the use of Personal Knowledge Management (PKM) as a direct expansion of the user's mind, provided the system is reliable and the interface is frictionless.
+
+%%[supports:: [[SoT - The Extended Mind]]]%%
+
+## Related
+
+- [[Natural-Born Cyborgs - Human Plasticity and Tool Merger]]

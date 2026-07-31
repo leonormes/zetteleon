@@ -1,12 +1,14 @@
 ---
-conformant: false
+conformant: true
 created: 2026-04-10T00:00:00+00:00
+epistemic_status: high
 modified: 2026-07-28T09:12:49+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/never-return-an-item-to-the-in-tray-once-picked-up-for-clarification
+prodos.kind: claim
+prodos.lifecycle: stable
+proposition: "Returning an item to an inbox without making a decision resets cognitive work and drains psychological energy by creating a loop of repeated non-decision."
 tags: [decision-fatigue, discipline, efficiency, gtd]
 title: Never Return an Item to the In-Tray Once Picked Up for Clarification
-type: claim
 ---
 
 ## Never Return an Item to the In-Tray Once Picked Up for Clarification

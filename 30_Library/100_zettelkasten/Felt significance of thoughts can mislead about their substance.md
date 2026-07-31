@@ -1,10 +1,13 @@
 ---
 aliases: [felt vs actual importance, significance-substance gap]
-conformant: false
+conformant: true
 created: 2025-10-31T20:48:00+00:00
+epistemic_status: high
 modified: 2026-07-28T09:12:46+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/felt-significance-of-thoughts-can-mislead-about-their-substance
+prodos.kind: atomic
+prodos.lifecycle: stable
+proposition: The phenomenological experience of a thought feeling important or profound is not a reliable indicator of its actual validity or substance.
 tags: [critical-thinking, metacognition, TheHuman/Cognition]
 title: Felt significance of thoughts can mislead about their substance
 type: claim
@@ -36,3 +39,6 @@ Common manifestations:
 - Arguments that feel compelling internally but have clear flaws when externalized
 
 The practical implication: Felt significance should be treated as a signal to examine a thought more carefully (through writing or articulation), not as evidence of the thought's actual value. The feeling itself is real and valid, but it's about the experience of thinking, not the quality of what is thought.
+
+%%[supports:: [[SoT - Illusion of Explanatory Depth (IoED)]]]%%
+%%[supports:: [[SoT - Metacognitive Calibration]]]%%

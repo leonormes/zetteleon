@@ -1,8 +1,11 @@
 ---
+conformant: true
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: medium
 modified: 2026-07-28T09:12:53+00:00
 permalink: llmeon/30-library/100-zettelkasten/cogni-platform-claude-code-persistent-memory-architecture
+prodos.kind: atomic
+prodos.lifecycle: stable
 proposition: Cogni is a platform that adds persistent memory layers to Claude Code,
   enabling agents to retain discoveries and architectural context across isolated
   sessions via knowledge graphs with two-way memory writes and selective retrieval.
@@ -43,8 +46,8 @@ Platform-specific implementation. The architectural patterns Cogni uses (layered
 
 - Video source: "Turning Claude Fable 5 Into The Ultimate Second Brain!" by WorldofAI
 
-%%[implements:: [[Persistent Memory Layers Enable Multi-Session Agent Continuity]], strength=5, confidence=high]%%
+%%[implements:: [[Persistent Memory Layers Enable Multi-Session Agent Continuity]]]%%
 
-%%[implements:: [[Agent Feedback Loops Require Bidirectional Memory Writes]], strength=5, confidence=high]%%
+%%[implements:: [[Agent Feedback Loops Require Bidirectional Memory Writes]]]%%
 
-%%[implements:: [[Selective Memory Retrieval Reduces Token Cost in Multi-Session Workflows]], strength=5, confidence=high]%%
+%%[implements:: [[Selective Memory Retrieval Reduces Token Cost in Multi-Session Workflows]]]%%

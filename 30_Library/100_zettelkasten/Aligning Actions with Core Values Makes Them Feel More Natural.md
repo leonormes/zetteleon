@@ -1,10 +1,13 @@
 ---
 aliases: [Self-Concordant Goals]
-conformant: false
+conformant: true
 created: 2025-11-10T17:12:00+00:00
+epistemic_status: high
 modified: 2026-07-28T09:12:43+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/aligning-actions-with-core-values-makes-them-feel-more-natural
+prodos.kind: atomic
+prodos.lifecycle: stable
+proposition: Actions aligned with authentic values and intrinsic interests are more sustainable and feel subjectively easier to pursue than those driven by external pressure.
 tags: [action, TheHuman/Identity, TheHuman/Motivation, TheHuman/Psychology, values]
 title: Aligning Actions with Core Values Makes Them Feel More Natural
 type: claim
@@ -19,3 +22,5 @@ Details: When a behavior reinforces your self-concept and feels like a genuine e
 ## Related
 
 - [[Action-Oriented Individuals Act Decisively Under Pressure While State-Oriented Individuals Ruminate]]
+
+%%[supports:: [[SoT - Values and Eudaimonia]]]%%

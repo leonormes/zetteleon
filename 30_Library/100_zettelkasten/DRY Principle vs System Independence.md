@@ -1,13 +1,15 @@
 ---
 aliases: []
-conformant: false
+conformant: true
 created: 2025-10-31T12:37:00+00:00
+epistemic_status: high
 modified: 2026-07-28T09:12:45+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/dry-principle-vs-system-independence
+prodos.kind: atomic
+prodos.lifecycle: stable
+proposition: "In software architecture, minimizing cross-component dependencies is often more valuable than eliminating code duplication, as premature abstraction creates fragile coupling."
 tags: [principles, SoftwareEngineering/Architecture]
 title: DRY Principle vs System Independence
-type: claim
 ---
 
 ## DRY Principle Vs System Independence
@@ -26,3 +28,5 @@ Resolution Heuristics:
 ## Related
 
 - [[Becoming System Agnostic]]
+
+%%[supports:: [[SoT - Pragmatism vs Rigour in Software]]]%%

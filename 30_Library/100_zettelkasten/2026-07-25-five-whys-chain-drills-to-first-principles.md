@@ -1,13 +1,12 @@
 ---
 aliases: ["The Five Whys Chain Drills an Explanation Down to First-Principle Causes"]
-conformant: false
-contradicts: []
+conformant: true
 created: 2026-07-25T11:17:00+00:00
 epistemic_status: medium
-evidence_links: ["[[SoT - Illusion of Explanatory Depth (IoED)]]"]
 modified: 2026-07-28T09:12:42+00:00
-non_conformance_reason: "evidence_links points to a synthesis SoT note, not a dedicated Evidence note; no standalone EvidenceNote exists yet for this claim."
 permalink: llmeon/30-library/100-zettelkasten/2026-07-25-five-whys-chain-drills-to-first-principles
+prodos.kind: atomic
+prodos.lifecycle: stable
 proposition: 'Repeatedly asking "why" about a claimed causal mechanism, typically five times in sequence, surfaces the point at which stated understanding runs out and exposes unexamined assumptions.'
 tags: [bias, learning, mental_models, TheHuman/Cognition]
 title: 2026-07-25-five-whys-chain-drills-to-first-principles
@@ -33,3 +32,5 @@ Five is an arbitrary heuristic depth—some causal chains bottom out in fewer it
 ## Knowledge Graph
 
 No outgoing edge from this note—[[Familiarity and Comprehension Are Distinct, Often-Conflated Cognitive States]] already declares the `supports` edge pointing here (this antidote targets exactly that familiarity/comprehension gap).
+
+%%[supports:: [[SoT - Illusion of Explanatory Depth (IoED)]]]%%

@@ -1,10 +1,13 @@
 ---
 aliases: [Tangible Time]
-conformant: false
+conformant: true
 created: 2025-11-01T21:01:00+00:00
+epistemic_status: high
 modified: 2026-07-28T09:12:52+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/timeboxing-makes-time-tangible-and-creates-accountability
+prodos.kind: atomic
+prodos.lifecycle: stable
+proposition: Timeboxing transforms abstract intentions into concrete, scheduled commitments, which creates a powerful sense of psychological accountability.
 tags: [accountability, TheHuman/Psychology, time-management, topic/productivity]
 title: Timeboxing Makes Time Tangible and Creates Accountability
 type: claim
@@ -20,3 +23,5 @@ This visual representation makes the commitment feel more "real" and harder to i
 
 - [[Timeboxing Creates Scarcity to Eliminate Non-Essential Activities]] - A complementary psychological effect of timeboxing.
 - [[Timeboxing Combats the Principle of Least Resistance]] - How this tangible commitment overcomes procrastination.
+
+%%[supports:: [[SoT - Temporal Management (Blocking and Boxing)]]]%%

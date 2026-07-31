@@ -1,13 +1,12 @@
 ---
 aliases: ["The Question Master Protocol Uses Bloom's Taxonomy to Force Active Engagement with Material"]
-conformant: false
-contradicts: []
+conformant: true
 created: 2026-07-25T11:17:00+00:00
 epistemic_status: medium
-evidence_links: ["[[SoT - Illusion of Explanatory Depth (IoED)]]"]
 modified: 2026-07-28T09:12:42+00:00
-non_conformance_reason: "evidence_links points to a synthesis SoT note, not a dedicated Evidence note; no standalone EvidenceNote exists yet for this claim."
 permalink: llmeon/30-library/100-zettelkasten/2026-07-25-question-master-protocol-blooms-taxonomy
+prodos.kind: atomic
+prodos.lifecycle: stable
 proposition: "Actively generating analyse-, evaluate-, and create-level questions about source material, per Bloom's Taxonomy, counteracts passive reading by forcing engagement beyond simple recall."
 tags: [bias, learning, mental_models, TheHuman/Cognition]
 title: 2026-07-25-question-master-protocol-blooms-taxonomy
@@ -33,3 +32,5 @@ Generating higher-order questions is itself a skill that assumes some baseline c
 ## Knowledge Graph
 
 No outgoing edge from this note—[[Familiarity and Comprehension Are Distinct, Often-Conflated Cognitive States]] already declares the `supports` edge pointing here (this antidote targets exactly that familiarity/comprehension gap).
+
+%%[supports:: [[SoT - Illusion of Explanatory Depth (IoED)]]]%%

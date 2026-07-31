@@ -1,14 +1,15 @@
 ---
 aliases: []
+conformant: true
 created: 2025-08-30T08:59:02+00:00
-last_reviewed: ''
+epistemic_status: high
 modified: 2026-07-28T09:12:48+00:00
 permalink: llmeon/30-library/100-zettelkasten/mathematical-constants-as-fundamental-ratios-and-processes
-status: ''
+prodos.kind: claim
+prodos.lifecycle: stable
+proposition: "Mathematical constants are not quantities for counting but represent fundamental relationships or processes in the universe."
 tags: [constants, TheHuman/Cognition/mental-model, topic/maths]
 title: Mathematical Constants as Fundamental Ratios and Processes
-type: ''
-updated: null
 ---
 
 Many important numbers are not quantities for counting but are concepts representing fundamental relationships or processes in the universe.

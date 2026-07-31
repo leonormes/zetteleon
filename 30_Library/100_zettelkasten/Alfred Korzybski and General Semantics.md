@@ -1,14 +1,16 @@
 ---
 aliases: [General Semantics, Korzybski, Map-Territory Origin]
+conformant: true
 created: 2025-09-11T21:37:21+00:00
-last_reviewed: 'null'
+epistemic_status: high
 modified: 2026-07-10T23:18:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/alfred-korzybski-and-general-semantics
-status: 'null'
+prodos.kind: atomic
+prodos.lifecycle: stable
+proposition: "Alfred Korzybski's principles of General Semantics—Abstraction Awareness, Non-Identity, and Time-Binding—form the epistemological foundation establishing that models (maps) are inherently abstracted from reality (the territory)."
 tags: [language, semantics, TheHuman/Cognition, topic/philosophy]
 title: Alfred Korzybski and General Semantics
-type: permanent
-updated: null
+type: claim
 ---
 
 Alfred Korzybski (1879-1950) was a Polish-American philosopher who developed the field of general semantics and coined the famous phrase "the map is not the territory."
@@ -37,3 +39,5 @@ Korzybski's work anticipated many concepts in:
 His emphasis on the provisional nature of all knowledge connects to modern understanding of [[Leaky Abstractions]] and the importance of recognizing model limitations.
 
 Links: [[The Map is Not the Territory]], [[Mistaking the Map for the Territory]], [[Maps as Simplified Abstractions]]
+
+%%[supports:: [[SoT - Reality, Models, and the Limits of Accuracy]]]%%

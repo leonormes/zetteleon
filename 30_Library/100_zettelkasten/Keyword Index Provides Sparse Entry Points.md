@@ -1,13 +1,15 @@
 ---
 aliases: [Entry Index, Index, Keyword List]
-conformant: false
+conformant: true
 created: 2025-10-30T15:33:36+00:00
+epistemic_status: high
 modified: 2026-07-28T09:12:47+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/keyword-index-provides-sparse-entry-points
+prodos.kind: claim
+prodos.lifecycle: stable
+proposition: "A sparse keyword index that links to only a few entry points induces productive serendipity by forcing navigation through the network rather than relying on comprehensive retrieval."
 tags: [indexing, navigation, topic/knowledge-architecture, topic/pkm, topic/pkm/zettelkasten]
 title: Keyword Index Provides Sparse Entry Points
-type: claim
 ---
 
 ## Keyword Index Provides Sparse Entry Points
@@ -27,4 +29,4 @@ Links:
 > - seedling → growing: has summary + details + at least 1 inbound link.
 > - growing → evergreen: has 2+ inbound links from structural notes, purpose set, confidence justified, 1–3 `see_also`.
 
-%%[extends:: [[Hub Notes Provide Entry Points to Idea Clusters]], strength=4, confidence=high]%%
+%%[extends:: [[Hub Notes Provide Entry Points to Idea Clusters]]]%%

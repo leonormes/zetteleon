@@ -1,10 +1,13 @@
 ---
 aliases: []
-conformant: false
+conformant: true
 created: 2025-10-30T12:01:04+00:00
+epistemic_status: high
 modified: 2026-07-28T09:12:42+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/a-supportive-environment-is-critical-for-inspiration
+prodos.kind: atomic
+prodos.lifecycle: stable
+proposition: Intentionally designing a workspace with inspiring elements and utilizing environmental novelty significantly boosts creativity and provides mental resets.
 tags: [environment, inspiration, TheHuman/Creativity]
 title: A Supportive Environment is Critical for Inspiration
 type: claim
@@ -16,3 +19,5 @@ A supportive environment is critical for fostering creativity. This involves int
 
 - [[Choice Architecture Designs the Environment to Make Desired Behaviors Easier]] - _Focuses on how environment design can nudge positive outcomes like inspiration._
 - [[Changing Environments Provides Novelty for ADHD Writing]] - _Discusses changing environments to increase engagement and novelty._
+
+%%[supports:: [[SoT - Behavioral Architecture]]]%%
