@@ -17,9 +17,7 @@ views:
       - property: file.mtime
         direction: ASC
     columnSize:
-      file.name: 520
-      tension: 620
-      AoL: 90
+      file.name: 667
       file.mtime: 130
   - type: table
     name: Personal
