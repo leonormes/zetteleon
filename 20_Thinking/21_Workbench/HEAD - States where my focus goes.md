@@ -15,6 +15,8 @@ status: open
 prodos:
   kind: head
   lifecycle: active
+AoL: Personal
+closing_condition: false
 ---
 
 Today was a good example of my ADHD/attention distractibility. I had 1 thing to do, but then had a meeting about the sprint and had lots of different work assigned to me. After that, I couldn't focus on anything. That feeling of clarity is gone and I am stuck feeling unsettled and confused. It is the fault of the team not having enough people and the leadership not knowing how to prioritise. But I am responsible for what happens re my focus and productivity. What can I do

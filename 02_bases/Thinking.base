@@ -1,74 +1,154 @@
 filters:
   and:
-    - or:
-        - type == "head"
-    - '!file.path.startsWith("10_System")'
-    - status != "someday"
-    - status != "archived"
+    - file.inFolder("20_Thinking")
+    - file.ext == "md"
 views:
   - type: table
-    name: All Open
-    order:
-      - file.name
-      - status
-      - file.tags
-      - type
-      - tags
-    sort:
-      - property: file.ctime
-        direction: DESC
-    columnSize:
-      file.name: 673
-      file.tags: 59
-  - type: table
-    name: Active Work HEADs
+    name: Think about this
     filters:
       and:
-        - AoL == "Work"
-        - or:
-            - status == "active"
-            - status == "processing"
+        - status == "open"
     order:
       - file.name
-      - status
-      - type
+      - tension
       - AoL
+      - file.mtime
     sort:
-      - property: file.ctime
-        direction: DESC
+      - property: file.mtime
+        direction: ASC
     columnSize:
-      file.name: 580
-      status: 127
+      file.name: 520
+      tension: 620
+      AoL: 90
+      file.mtime: 130
   - type: table
-    name: Active Personal HEADs
+    name: Personal
     filters:
       and:
         - AoL == "Personal"
-        - or:
-            - status == "active"
-            - status == "processing"
+        - status != "resolved"
     order:
       - file.name
+      - tension
       - status
-      - type
+      - file.mtime
+    sort:
+      - property: file.mtime
+        direction: ASC
+    columnSize:
+      file.name: 540
+      tension: 640
+  - type: table
+    name: Work
+    filters:
+      and:
+        - AoL == "Work"
+        - status != "resolved"
+    order:
+      - file.name
+      - tension
+      - status
+      - file.mtime
+    sort:
+      - property: file.mtime
+        direction: ASC
+    columnSize:
+      file.name: 540
+      tension: 640
+  - type: table
+    name: Vault & tooling
+    filters:
+      and:
+        - AoL == "System"
+        - status != "resolved"
+    order:
+      - file.name
+      - tension
+      - status
+      - file.mtime
+    sort:
+      - property: file.mtime
+        direction: ASC
+    columnSize:
+      file.name: 540
+      tension: 640
+  - type: table
+    name: No exit condition
+    filters:
+      and:
+        - closing_condition == false
+        - status != "resolved"
+    order:
+      - file.name
+      - AoL
+      - file.mtime
+    sort:
+      - property: file.mtime
+        direction: ASC
+    columnSize:
+      file.name: 620
+  - type: table
+    name: In progress
+    filters:
+      and:
+        - status == "thinking"
+    order:
+      - file.name
+      - tension
+      - candidate_answers
       - AoL
     sort:
-      - property: file.ctime
+      - property: file.mtime
         direction: DESC
     columnSize:
-      file.name: 580
-      status: 127
+      file.name: 540
   - type: table
-    name: Someday
-    filters: status == "someday"
+    name: Ready for Chronos
+    filters:
+      and:
+        - status == "resolved"
+    order:
+      - file.name
+      - sources
+      - AoL
+      - file.mtime
+    sort:
+      - property: file.mtime
+        direction: DESC
+    columnSize:
+      file.name: 540
+  - type: table
+    name: Non-compliant
+    filters:
+      or:
+        - conformant == false
+        - type != "question"
+        - '!file.name.endsWith("?")'
+    order:
+      - file.name
+      - type
+      - conformant
+      - non_conformance_reason
+      - status
+    sort:
+      - property: file.name
+        direction: ASC
+    columnSize:
+      file.name: 560
+  - type: table
+    name: Everything
     order:
       - file.name
       - status
       - AoL
+      - closing_condition
+      - tension
+      - sources
+      - related_claims
+      - file.ctime
+      - file.mtime
     sort:
-      - property: file.ctime
+      - property: file.mtime
         direction: DESC
-  - type: table
-    name: View
-  - type: table
-    name: Questions
+    columnSize:
+      file.name: 500

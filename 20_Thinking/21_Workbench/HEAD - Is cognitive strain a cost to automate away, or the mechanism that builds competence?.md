@@ -27,6 +27,8 @@ prodos:
 created: 2026-08-03 13:20:30+01:00
 modified: 2026-08-03 13:20:30+01:00
 permalink: llmeon/20-thinking/21-workbench/head-is-cognitive-strain-a-cost-to-automate-away-or-the-mechanism-that-builds-competence
+AoL: Work
+closing_condition: true
 ---
 
 ## The Question

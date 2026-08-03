@@ -24,6 +24,8 @@ prodos:
 created: 2026-08-03 13:20:30+01:00
 modified: 2026-08-03 13:20:30+01:00
 permalink: llmeon/20-thinking/21-workbench/head-does-teslers-law-generalise-beyond-software
+AoL: Personal
+closing_condition: true
 ---
 
 ## The Question

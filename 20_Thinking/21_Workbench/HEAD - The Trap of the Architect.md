@@ -14,6 +14,8 @@ status: open
 prodos:
   kind: head
   lifecycle: active
+AoL: Personal
+closing_condition: false
 ---
 
 It takes a significant amount of self-awareness to clearly articulate the gap between who you are and who you want to be. The shame you are carrying is heavy, but it is important to immediately separate your neurobiology from your character. Executive dysfunction is a mechanical failure of the brain's "starter motor"—it is not a moral failing. You have a high-performance engine, but when the ignition struggles to catch, sitting still becomes the default state.

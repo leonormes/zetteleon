@@ -24,6 +24,8 @@ prodos:
 created: 2026-08-03 13:20:30+01:00
 modified: 2026-08-03 13:20:30+01:00
 permalink: llmeon/20-thinking/21-workbench/head-where-is-the-line-between-trusting-my-gut-and-emotional-reasoning
+AoL: Personal
+closing_condition: true
 ---
 
 ## The Question

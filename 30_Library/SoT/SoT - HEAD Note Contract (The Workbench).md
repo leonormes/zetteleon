@@ -81,10 +81,21 @@ prodos:
   kind: head
   lifecycle: active            # active | stable (=resolved, ready for Chronos)
 status: open                   # open | thinking | resolved
+AoL: Personal                  # Personal | Work | System — area of life, drives Thinking.base views
+closing_condition: true        # false = Test 4 not yet satisfied; surfaces in the "No exit condition" view
 created: <ISO8601>
 modified: <ISO8601>
 ---
 ```
+
+### 2.3 Why `AoL` and `closing_condition` exist
+
+Both are here to make `02_bases/Thinking.base` work, and both encode a compliance test rather than a taxonomy:
+
+- **`AoL`** splits the queue three ways — `Personal`, `Work`, `System` (vault and tooling). Without it the workbench is one undifferentiated list, and a personal question about solitude sits next to a question about compiler flags, which makes neither approachable. The value is what you can act on *in the mood you are currently in*.
+- **`closing_condition`** is Test 4 made queryable. Bases can only read frontmatter, so "does this note have a `## What Would Settle It` section that says something" has to be mirrored into a boolean. `false` means the thread has no exit, which is the precise condition under which a HEAD note rots. The base's **No exit condition** view is the enforcement surface.
+
+Set `closing_condition: false` honestly. A note that claims an exit condition it does not have is worse than one that admits it has none, because it never appears in the view that would prompt you to give it one.
 
 ### 2.1 Title format
 
