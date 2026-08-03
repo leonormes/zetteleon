@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-08-01T10:15:00+00:00
+modified: 2026-08-01T11:15:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-setup
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Setup
@@ -73,6 +73,21 @@ Draw-side shoulder positioning during setup and draw — sourced from Online Arc
 
 Reference: Online Archery Academy — _Draw Shoulder Technique - Reduce Injury Risk and Increase Efficiency_ (video), incorporated into setup phase.
 
+### Bow Shoulder Positioning
+
+Setting and raising the bow shoulder (front side) without overloading shoulder muscles — sourced from Rogue Archery TV [[00:16](http://www.youtube.com/watch?v=Nj4WwknI9tA&t=16)].
+
+- **Why It Matters:** The shoulder is the most articulate joint in the body with two distinct movement points — the glenohumeral joint and the shoulder girdle [[00:28](http://www.youtube.com/watch?v=Nj4WwknI9tA&t=28)]. Because of its high mobility, archers must intentionally build structural stability [[01:04](http://www.youtube.com/watch?v=Nj4WwknI9tA&t=64)]. Weak or improper bow shoulder positioning is a common cause of shot inconsistency and fatigue.
+- **Tension Bias Principle:** Once a muscle is under tension, it is impossible to relax it while the load remains [[01:34](http://www.youtube.com/watch?v=Nj4WwknI9tA&t=94)]. Over-engaging deltoids or trapezius while raising the bow means you cannot relax or properly set the bow shoulder at full draw [[02:05](http://www.youtube.com/watch?v=Nj4WwknI9tA&t=125)].
+- **Step-by-Step Technique:**
+  1. *Establish Pre-Tension on the String:* Apply 1–2 inches of tension on the string during setup. Starting from zero tension forces the shoulder to perform a lateral raise using only deltoid strength [[02:51](http://www.youtube.com/watch?v=Nj4WwknI9tA&t=171)].
+  2. *Pull the Shoulder Down:* Engage the serratus anterior and subscapularis to actively pull the shoulder blade down into its socket [[04:04](http://www.youtube.com/watch?v=Nj4WwknI9tA&t=244)].
+  3. *Extend Toward the Target:* Do not think about lifting the bow upward with the hand. Focus on extending the pressure point of the bow hand directly toward the target [[04:12](http://www.youtube.com/watch?v=Nj4WwknI9tA&t=252)].
+  4. *Raise Hands to Eye Level:* Raise both hands to eye level before beginning the draw. Drawing from above horizontal creates a line of force that presses the front shoulder down; drawing from a low position pushes the shoulder upward [[04:38](http://www.youtube.com/watch?v=Nj4WwknI9tA&t=278)].
+- **Maintain Throughout the Shot:** Setting the shoulder is not "set and forget" — continuously maintain downward tension on the shoulder through loading, anchor, expansion, release, and follow-through [[05:17](http://www.youtube.com/watch?v=Nj4WwknI9tA&t=317)]. Relaxing this tension causes the bow arm to collapse inward, producing muscular fatigue and arrows grouping low and to the right (for right-handed archers) [[06:04](http://www.youtube.com/watch?v=Nj4WwknI9tA&t=364)].
+
+Reference: Rogue Archery TV — _How to raise your bow... WITHOUT messing up your shoulder position!_ (video), bow-side shoulder mechanics.
+
 ### Elite Archer Traits (Tokyo Olympics Analysis)
 
 Cross-cutting traits of top-performing recurve archers at the Tokyo Olympics — sourced from Online Archery Academy [[00:00](http://www.youtube.com/watch?v=DXH8EVWmKEc)].
@@ -83,6 +98,28 @@ Cross-cutting traits of top-performing recurve archers at the Tokyo Olympics —
 - **Dynamic, Directed Release & Follow-Through:** A fast, aggressive, highly directed release — draw hand shoots straight back while bow arm pushes directly toward the target [[07:04](http://www.youtube.com/watch?v=DXH8EVWmKEc&t=424)]. Tightens groups and brings flyers closer to centre [[07:31](http://www.youtube.com/watch?v=DXH8EVWmKEc&t=451)]. *Practice:* "Scratching the neck" drill — without the bow, slide the draw hand sharply backward along the neck to feel the rearward direction, then replicate with the bow [[12:04](http://www.youtube.com/watch?v=DXH8EVWmKEc&t=724)].
 
 Reference: Online Archery Academy — _4 Key Traits of Tokyo's Best Archery Olympians_ (video), cross-cutting analysis spanning setup, expansion, and execution.
+
+### Shoulder Health & Injury Prevention
+
+Off-range conditioning, mobility, and soft tissue work to counter archery's repetitive asymmetrical load — sourced from Rogue Archery TV [[00:00](http://www.youtube.com/watch?v=wlLiA7gRN9g)].
+
+- **Mobility Drills [[00:52](http://www.youtube.com/watch?v=wlLiA7gRN9g&t=52)]:** Modern lifestyles (hunched desks, phones) create tight internal rotators and pectorals; archery's short asymmetrical range of motion exacerbates this. *Practice:* Start with stretchy band exercises through the shoulder's full range of motion. Progress to rigid broomstick "dislocates" — the large circular motion opens the shoulder girdle and stretches tight pectorals [[02:21](http://www.youtube.com/watch?v=wlLiA7gRN9g&t=141)].
+- **Balanced Muscle Development [[03:21](http://www.youtube.com/watch?v=wlLiA7gRN9g&t=201)]:** Archery creates severe imbalances: bow arm develops strong pecs/internal rotators, while the drawing arm develops hyper-strong back muscles (scapular retractors) but weak pecs [[04:57](http://www.youtube.com/watch?v=wlLiA7gRN9g&t=297)]. *Practice:* Use "agonist-antagonist supersets" in strength training — pair an exercise with its opposite (e.g. chin-ups immediately followed by overhead presses) [[05:25](http://www.youtube.com/watch?v=wlLiA7gRN9g&t=325)].
+- **Regular Soft Tissue Work [[05:51](http://www.youtube.com/watch?v=wlLiA7gRN9g&t=351)]:** Ignoring minor tightness or "niggles" is dangerous — a tight pec causes the nervous system to soften the opposing back muscle, physically ruining back tension and expansion [[06:48](http://www.youtube.com/watch?v=wlLiA7gRN9g&t=408)]. *Practice:* Seek qualified practitioners for deep tissue massage, dry needling, or Active Release Technique [[07:30](http://www.youtube.com/watch?v=wlLiA7gRN9g&t=450)]. For daily maintenance, use a self-massage tool (e.g. Theracane) on hard-to-reach trigger points in pecs and levator scapulae between professional visits [[08:05](http://www.youtube.com/watch?v=wlLiA7gRN9g&t=485)].
+
+Reference: Rogue Archery TV — _3 Top Tips for Shoulder Health for Archers_ (video), off-range conditioning and injury prevention.
+
+### Prerequisites Before Technique (Physical Foundations)
+
+The three physiological foundations that must be in place before technical archery form can be learned — sourced from Rogue Archery TV [[00:00](http://www.youtube.com/watch?v=lIZ26-f7V7o)].
+
+**The Gymnastics Backflip Metaphor [[02:01](http://www.youtube.com/watch?v=lIZ26-f7V7o&t=121)]:** If an archer physically cannot perform a movement, the bottleneck is almost always conditioning, not effort [[00:05](http://www.youtube.com/watch?v=lIZ26-f7V7o&t=5)]. The three prerequisites [[01:44](http://www.youtube.com/watch?v=lIZ26-f7V7o&t=104)]:
+
+- **Mobility:** Structural flexibility and joint range of motion to get into position [[01:48](http://www.youtube.com/watch?v=lIZ26-f7V7o&t=108)]. *Screening:* Broomstick/band dislocates — wide pronated grip, smooth circular arc from hips up overhead and down to lower back, keeping shoulders from hiking and posture from arching [[04:11](http://www.youtube.com/watch?v=lIZ26-f7V7o&t=251)]. *Fix:* Soft tissue work on tight pecs; neutral-grip dumbbell presses through full ROM in strength training [[05:03](http://www.youtube.com/watch?v=lIZ26-f7V7o&t=303)].
+- **Motor Control:** Neuromuscular coordination to control and isolate specific muscle groups smoothly through full movement [[02:47](http://www.youtube.com/watch?v=lIZ26-f7V7o&t=167)]. *Screening:* Thera-band/cable rows — start from fully stretched (band pulling shoulder forward), initiate by setting scapula down and back into retraction *before* bending the elbow, hold 3-second isometric squeeze at full retraction, then controlled eccentric release [[05:55](http://www.youtube.com/watch?v=lIZ26-f7V7o&t=355)]. *Supplemental:* Face pulls — band or cable with elbows elevated to train scapular retraction that transfers directly into the draw cycle [[07:19](http://www.youtube.com/watch?v=lIZ26-f7V7o&t=439)].
+- **Strength:** Sufficient muscular strength to launch, hold, and control the load repeatedly without form breakdown [[03:15](http://www.youtube.com/watch?v=lIZ26-f7V7o&t=195)]. *Screening:* Full-depth chin-ups from a dead hang, chest to bar, controlled lowering [[08:03](http://www.youtube.com/watch?v=lIZ26-f7V7o&t=483)]. Strong scapular retractors, subscapularis flexibility, and posterior chain strength correlate with elite archery transfer [[08:22](http://www.youtube.com/watch?v=lIZ26-f7V7o&t=502)].
+
+Reference: Rogue Archery TV — _What comes before technique?_ (video), foundational screening and training protocols.
 
 ### Alternative Views / Corrections
 
