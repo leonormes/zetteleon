@@ -11,6 +11,8 @@ views:
       - conformant
       - file.mtime
     sort:
+      - property: file.mtime
+        direction: DESC
       - property: file.name
         direction: ASC
     columnSize:
