@@ -27,3 +27,5 @@ _PSHE: Personal, Social, Health and Economic education is a key part of the curr
 
 %%[extends:: [[A Concept Map for a Flourishing Human]]]%%
 %%[synthesizes:: [[Appreciation of Beauty is Noticing Excellence in the World]]]%%
+
+%%[implements:: [[MOC - Character and Virtue]], strength=3, confidence=high]%%

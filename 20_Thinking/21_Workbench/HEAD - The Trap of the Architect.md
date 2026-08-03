@@ -3,6 +3,17 @@ created: 2026-07-11T15:00:46+00:00
 modified: 2026-07-20T16:34:36+00:00
 permalink: llmeon/10-system/templates/head-note-template-4
 title: HEAD - The Trap of the Architect
+type: question
+tension: "The intellect that builds elaborate systems may be functioning as an avoidance mechanism rather than as preparation — meta-work that pays out dopamine without demanding action."
+candidate_answers: []
+related_claims: ["[[ADHD Overthinking is a Substitute for Action]]", "[[SoT - Think Like a Man of Action, Act Like a Man of Thought]]", "[[Epistemic Actions - Thinking via Doing]]"]
+sources: []
+tags: [state/thinking, prodos/head]
+conformant: true
+status: open
+prodos:
+  kind: head
+  lifecycle: active
 ---
 
 It takes a significant amount of self-awareness to clearly articulate the gap between who you are and who you want to be. The shame you are carrying is heavy, but it is important to immediately separate your neurobiology from your character. Executive dysfunction is a mechanical failure of the brain's "starter motor"—it is not a moral failing. You have a high-performance engine, but when the ignition struggles to catch, sitting still becomes the default state.
@@ -113,3 +124,10 @@ Open `wiki/projects/Execution Protocol for High-Friction Work` and change its op
 Want me to make that edit to the note for you?
 
 Sources: [ADHD Procrastination and Productivity](https://claude.ai/cowork/llmeon/wiki/concepts/adhd-procrastination-and-productivity), [Think Like a Man of Action](https://claude.ai/cowork/llmeon/30-library/so-t/so-t-think-like-a-man-of-action-act-like-a-man-of-thought), [The Cognitive Physiology of Task Execution](https://claude.ai/cowork/llmeon/30-library/so-t/so-t-the-cognitive-physiology-of-task-execution), [ADHD Neurology & Core Concepts](https://claude.ai/cowork/llmeon/30-library/so-t/so-t-adhd-neurology-core-concepts), [Prosthetic Executive Function](https://claude.ai/cowork/llmeon/30-library/so-t/so-t-prosthetic-executive-function), [Processing IS the Work](https://claude.ai/cowork/llmeon/30-library/so-t/so-t-processing-is-the-work), [Perfectionism and Analysis Paralysis](https://claude.ai/cowork/llmeon/30-library/so-t/so-t-perfectionism-and-analysis-paralysis), [Execution Protocol for High-Friction Work](https://claude.ai/cowork/llmeon/wiki/projects/execution-protocol-for-high-friction-work).
+
+---
+
+## What Would Settle It
+
+> TODO — added by the Workbench Compliance Sweep, 2026-08-03. Name the evidence, experiment, decision or conversation that closes this thread. A note that cannot state its own closing condition will still be open in a year (see [[SoT - HEAD Note Contract (The Workbench)]] §2.2).
+

@@ -33,7 +33,9 @@ The ability for "pattern-sniffing" was not a cognitive luxury but a crucial surv
 
 #### 1.3 From Infancy to Expertise
 
-This innate ability is active from birth. [[Early Childhood Patterning is the Foundation for Language Acquisition]] rel:: demonstrates its role in learning language. This meta-skill of learning how to learn shows that [[Patterns are the Scaffolding of Knowledge]] rel:: explains.
+This innate ability is active from birth. [[Early Childhood Patterning is the Foundation for Language Acquisition]] rel:: demonstrates its role in learning language — the first knowledge system a human builds is acquired purely by detecting statistical regularity, with no explicit instruction.
+
+[[Patterns are the Scaffolding of Knowledge]] rel:: generalises — **the hinge of this whole map.** It is where the cognitive material in Part I becomes a claim about *knowledge* rather than about perception: knowledge is not accumulated fact but new pattern attached to a web of recognised ones, which is why Part II's mathematics follows rather than merely rhymes. It carries the converging support from neuroscience (the pattern-seeking neocortex), learning science ([[Prior Knowledge Organized as Schemas Provides the Foundation for New Learning|schema theory]]) and information theory ([[Kolmogorov Complexity - Information as Compressibility|pattern as compressibility]]), and the counterweight from [[Apophenia is the Tendency to Perceive Patterns in Random Data|apophenia]]. Start here if you read nothing else in this map.
 
 #### 1.4 The Human Distinction
 

@@ -15,3 +15,5 @@ type: claim
 Summary: The human brain is neurobiologically predisposed to seek patterns, possessing an intrinsic craving for coherence and order to reduce ambiguity and anxiety.
 
 Details: This ability is largely attributed to the neocortex, which is organized into millions of "pattern recognizers" that can be rewired throughout life. The successful identification of a pattern is a neurologically rewarding event, triggering the release of dopamine. This architecture suggests the brain is a universal learning machine that applies a common algorithm to find structure in any data stream.
+
+%%[supports:: [[Patterns are the Scaffolding of Knowledge]], strength=4, confidence=high]%%

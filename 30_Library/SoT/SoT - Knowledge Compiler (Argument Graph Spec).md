@@ -2,13 +2,15 @@
 aliases: [Argument Compiler, Argument Graph, Belief Tracing, Knowledge Compiler]
 conformant: true
 created: 2026-07-24T00:00:00+00:00
-modified: 2026-07-27T11:51:38+00:00
+modified: 2026-08-03T13:21:01+01:00
 permalink: llmeon/30-library/so-t/so-t-knowledge-compiler-argument-graph-spec
 see_also: ["[[Protocol - Typed Answer Contract (TAC) for Vault Agents]]", "[[SoT - PRODOS Core Specification]]", "[[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]", "[[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]]"]
 tags: [domain/pkm, prodos/sot, topic/knowledge-architecture, topic/knowledge-graph]
 title: SoT - Knowledge Compiler (Argument Graph Spec)
 type: sot
 ---
+
+> **Open threads:** [[HEAD - Is the argument compiler's gap definition measuring anything real?]]
 
 > Canonical status: this note specifies the semantics and compiler capabilities of the knowledge graph—what the tool _computes_ and _answers_. Its sibling [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]] fixes the syntax (how edges are written and resolved). The validator is `10_System/scripts/edge_lint.py`; capabilities below extend it. Roadmap in §5 is the source of truth for build order—do one phase, ship it, then reassess.
 

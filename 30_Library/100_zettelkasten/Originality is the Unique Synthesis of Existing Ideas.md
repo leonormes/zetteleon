@@ -1,29 +1,18 @@
 ---
-aliases: [Originality as Synthesis]
+aliases: []
 conformant: false
 created: 2025-11-06T19:59:00+00:00
-modified: 2026-07-28T09:12:49+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+modified: 2026-08-01T00:00:00+00:00
+non_conformance_reason: "Tombstone. Content merged into [[Originality is Synthesis Not Creation From Nothing]] on 2026-08-01; retained as a redirect so historical links and permalinks resolve."
 permalink: llmeon/30-library/100-zettelkasten/originality-is-the-unique-synthesis-of-existing-ideas
-tags: [ideas, originality, synthesis, TheHuman/Creativity]
+superseded_by: '[[Originality is Synthesis Not Creation From Nothing]]'
+tags: [tombstone, merged]
 title: Originality is the Unique Synthesis of Existing Ideas
 type: claim
 ---
 
-## Originality is the Unique Synthesis of Existing Ideas
+> [!warning] Merged — this note is a redirect
+> The claim formerly held here was a duplicate captured in a parallel session. It has been merged into **[[Originality is Synthesis Not Creation From Nothing]]**. Historical links to this title land here and are redirected.
+>
+> Nothing is lost: every distinct argument from this note was folded into the survivor. Go there.
 
-Summary: True originality is not the creation of ideas from nothing (creatio ex nihilo), but the unique and personal synthesis of existing ideas, experiences, and values.
-
-Details: All ideas are built from existing conceptual building blocks, just as all DNA is built from the same four base pairs. An individual's originality lies in the specific way they combine, filter, and arrange these influences. Your unique perspective, shaped by your specific life experiences, is what makes your synthesis of ideas original, even if the components are not.
-
----
-
-## Related
-
-- [[Originality is Synthesis Not Creation From Nothing]]—_Twin Concept: Explores the biological analogy of DNA and the task of creativity as curation and expression._
-- [[The Self is Constructed Through Curation of Influences]]—_Applies the synthesis principle to identity, viewing the self as an ongoing editorial process._
-- [[Jazz Musician Metaphor for Originality Through Unique Expression]]—_Uses the framework of jazz improvisation to illustrate how structure and shared forms enable unique voices._
-- [[Generalization and Synthesis are Powerful in Complex Environments]]—_The strategic application of synthesis for problem-solving and innovation._
-- [[AI as Statistical Interpolation]]—_Contrasts human-driven synthesis with the pattern-matching and interpolation of machine learning._
-- [[Everything is a Remix (Metaphor)]]—_A sibling concept framing creativity as the act of copying, transforming, and combining existing cultural material._
-- [[Stage 5 Synthesise (The Outcome Layer)]]—_The ProdOS protocol for turning exploratory links into structured knowledge._

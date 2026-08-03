@@ -31,3 +31,5 @@ Failure modes: Pattern matching breaks down with ambiguous cues, cross-cultural 
 - [[Ambiguity in Social Cues]]
 - [[Cognitive Biases Reinforce Mental Models]]
 - [[Non-Verbal Cues in Social Judgment]]
+
+%%[implements:: [[Patterns are the Scaffolding of Knowledge]], strength=3, confidence=high]%%

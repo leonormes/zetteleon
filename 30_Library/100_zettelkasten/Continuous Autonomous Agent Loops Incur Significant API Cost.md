@@ -1,13 +1,15 @@
 ---
 conformant: false
 created: 2026-04-10T12:00:00+00:00
-modified: 2026-07-28T09:12:45+00:00
+modified: 2026-08-03T13:21:01+01:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/continuous-autonomous-agent-loops-incur-significant-api-cost
 tags: [api-costs, constraints, economics, scalability]
 title: Continuous Autonomous Agent Loops Incur Significant API Cost
 type: claim
 ---
+
+> **Open threads:** [[HEAD - Should agent context isolation come from lazy loading or separate processes?]]
 
 ## Continuous Autonomous Agent Loops Incur Significant API Cost
 

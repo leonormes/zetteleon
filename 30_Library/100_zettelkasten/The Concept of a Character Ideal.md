@@ -27,3 +27,4 @@ The character ideal is not a rigid standard for perfect conformity, but a guide 
 ## Related
 
 - [[MOC - Character and Virtue]] - Provides a framework for understanding character through positive psychology.
+

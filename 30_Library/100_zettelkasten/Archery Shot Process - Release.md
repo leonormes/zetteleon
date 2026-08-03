@@ -64,4 +64,4 @@ Details:
   2. Half Draw (Chest Level): Draw with a bent bow arm to chest level. Focus entirely on the internal physical sensation of relaxing your hand rather than watching it.
   3. Full Draw: Step into your standard full-draw posture and practice the same passive hand relaxation.
 
-- Reference: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Rogue Archery TV, Online Archery Academy (including 600+ at 70m balanced release guidelines and universal technique foundations), and World Archery release technique guidelines.
+- Reference: Sourced from [[HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Rogue Archery TV, Online Archery Academy (including 600+ at 70m balanced release guidelines and universal technique foundations), and World Archery release technique guidelines.

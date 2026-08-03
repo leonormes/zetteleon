@@ -22,7 +22,7 @@ Human-territory map. All agents must understand this structure to know what is o
 
 | Type | Location | Naming convention | Agent rule |
 |------|----------|-------------------|-----------|
-| HEAD | `20_Thinking/21_Workbench/` | `YYYY-MM-DD-HHmm-HEAD` | Read-only. Human-authored working memory; never write here. |
+| HEAD | `20_Thinking/21_Workbench/` | `HEAD - <question>?` | **Constrained write (2026-08-03).** Governed by [[SoT - HEAD Note Contract (The Workbench)]]. An agent MAY create a new HEAD note and MAY move a non-compliant note out; it MUST NOT edit the body prose of a human-authored one. See §6a. |
 | SoT | `30_Library/SoT/` | `SoT - Title.md` | Read-only, except typed-edge lines / `axiom:` (see §9.3). Canonical knowledge updated by human via Chronos Synthesis. |
 | Protocol | `30_Library/SoT/` | `Protocol - Title.md` | Read-only. Binary imperative procedures. |
 | Atomic / Claim | `30_Library/100_zettelkasten/` | Full-sentence title; `Claim - Title.md`; `Q — Title.md` | Read-only, except typed-edge lines / `axiom:` (see §9.3). To propose a claim, write a stub to the Hermes vault's `raw/proposed-claims/` — never write directly into the zettelkasten. |
@@ -53,11 +53,44 @@ Canonical spec: [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]. New n
 
 | Rule | Reason |
 |------|--------|
-| Never write to `00_Inbox/`, or `20_Thinking/`. | Those are human ProdOS territory |
+| Never write to `00_Inbox/`. | Human capture territory — the ingest router reads it, agents do not author into it. **Exception:** the Workbench Compliance Sweep MAY `git mv` a non-compliant note *into* `00_Inbox/`, because that is routing, not authoring. |
+| Never edit the body prose of a human-authored note in `20_Thinking/`. | Superseded the blanket "never write to `20_Thinking/`" on 2026-08-03. Creating and routing HEAD notes is now sanctioned; rewriting the human's thinking is not. See §6a. |
 | Never write or edit Claim/SoT content in `30_Library/`—stubs only, proposed in the Hermes vault's `raw/proposed-claims/`—except the §9.3 typed-edge/`axiom:` exception | The claim layer belongs to the human; agent crossing it erodes epistemic ownership. §9.3 is the one sanctioned, narrowly-scoped exception—no new claims, no proposition edits, no deletions under it |
 | Every typed-edge or `axiom:` edit must leave `edge_lint.py` at 0 errors before being considered done | A report-only compiler is only trustworthy if the edges it reports on are kept valid (see §9.4) |
 | Contradictions must be surfaced, not resolved | Resolution requires human judgement |
-| Query Pieces LTM before starting any new task | Real-time context may modify requirements — see the Hermes vault's `AGENTS.md` §7 for the full pre-task procedure; it still applies to any agent session touching this vault |
+| ~~Query Pieces LTM before starting any new task~~ — **conditional as of 2026-08-01, see below** | — |
+
+### 6a. Workbench write scope (2026-08-03)
+
+`20_Thinking/21_Workbench/` moved from blanket read-only to **constrained write**. Canonical spec: [[SoT - HEAD Note Contract (The Workbench)]].
+
+Agents MAY:
+
+- create a new HEAD note conforming to the contract's §2 schema,
+- `git mv` a note that fails the contract's §1 compliance tests to its correct home,
+- backfill missing frontmatter on an existing HEAD note,
+- append a `## What Would Settle It` stub where none exists.
+
+Agents MUST NOT:
+
+- edit or rewrite the body prose of a human-authored HEAD note,
+- rename a legacy HEAD note (renaming rewrites backlinks — report the proposed title instead),
+- delete anything. Every action is a move or an annotation.
+
+**Why this changed.** The blanket ban made "help me keep my thinking queue clean" unfulfillable, so the workbench silently filled with Web Clipper captures — 22 of 44 notes at the time of the audit — until the folder's signal was gone. A rule that prevents the maintenance a folder needs does not protect the folder; it rots it. The narrow scope above is the smallest write surface that lets the sweep run.
+
+**Related constraint — tensions.** Canonical notes MUST NOT carry `## Tensions & Gaps` / `## Open Questions` prose sections for *unresolved* problems; those become HEAD notes with a one-line `> **Open threads:**` pointer left in the source (contract §4). Rewriting an existing canonical note into that form is **outside** the §9.3 exception and needs explicit per-run human authorisation.
+
+---
+
+**Pieces LTM pre-task check — IF AVAILABLE (2026-08-01).** PiecesOS is currently
+down, so this was being skipped on every session while still labelled mandatory.
+A hard constraint that is routinely and legitimately skipped teaches agents that
+the rest of this table is advisory too, so it has been demoted rather than left
+to rot. **If** `mcp_pieces_*` tools are reachable, query them first per the Hermes
+vault's `AGENTS.md` §7. **If not, proceed silently** — no log entry, no mention,
+no treating it as a deviation. Restore this to the table above when PiecesOS works
+again.
 
 ---
 

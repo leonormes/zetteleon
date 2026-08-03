@@ -2,13 +2,15 @@
 aliases: [Context Engineering, Context Compression, High-Signal Prompting, Information Density, Prompt Optimization]
 conformant: false
 created: 2026-01-30T11:00:00+00:00
-modified: 2026-07-20T16:33:52+00:00
+modified: 2026-08-03T13:21:01+01:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-context-engineering
 tags: [ai-engineering, context-management, discipline, prompt-engineering]
 title: SoT - Context Engineering
 type: sot
 ---
+
+> **Open threads:** [[HEAD - Do declarative rules or few-shot demonstrations constrain LLM output better?]]
 
 %%[depends_on:: [[The Architectural Guardian]], strength=4, confidence=high]%%
 
@@ -49,10 +51,3 @@ Prompts should resemble a Domain Manifesto. State the "Laws of the Universe" (e.
 ---
 
 See Also: [[SoT - Context Rot]], [[SoT - Macro-Micro Unification]], [[SoT - Structural Intelligence]]
-
-## Tensions
-
-### Rules vs demonstrations
-
-This note advocates stating the 'laws of the universe' (invariants, constraints, domain manifestos) as declarative rules. [[Prompt Architecture Levels]] treats few-shot examples as a distinct prompt-architecture level. The vault has no recorded evidence comparing the effectiveness of rules vs demonstrations for constraining LLM output — this is a genuinely open question.
-

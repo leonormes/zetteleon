@@ -23,7 +23,7 @@ This map explores the paradox that [[Great Achievements Occurred Before Formal P
 
 Modern productivity systems are valuable because they act as [[Productivity Systems Are Scaffolding Not the Engine of Progress|scaffolding, not the engine of progress]]. Their primary function is to optimize cognitive resources and reduce errors.
 
-Historically, achievement was not driven by personal frameworks but by [[Historical Achievements Were Driven by Collective Will and Urgent Necessity|powerful collective forces]]. This was supported by a form of [[Discipline Relies on External Supports Not Just Willpower|discipline rooted in external structures]] like culture and accountability.
+Historically, achievement was not driven by personal frameworks but by [[Historical Achievements Were Driven by Collective Will and Urgent Necessity|powerful collective forces]]. This was supported by a form of [[Discipline Is a Property of External Structure More Than of Will|discipline rooted in external structures]] like culture and accountability.
 
 The innovation of today's frameworks is that [[Modern Productivity Systems Formalize Implicit Historical Strategies|they formalize and democratize]] these older, implicit strategies for a modern, distracted world.
 

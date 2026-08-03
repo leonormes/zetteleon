@@ -2,13 +2,15 @@
 aliases: [Agent Capabilities, AI Agent Skills, Claude Code Skills]
 conformant: false
 created: 2026-03-28T17:00:00+00:00
-modified: 2026-07-20T16:33:54+00:00
+modified: 2026-08-03T13:21:01+01:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-ai-agent-skill-architecture
 tags: [agents, ai, architecture, claude, mcp, skills]
 title: SoT - AI Agent Skill Architecture
 type: sot
 ---
+
+> **Open threads:** [[HEAD - Should agent context isolation come from lazy loading or separate processes?]]
 
 ## Minimum Viable Understanding (MVU)
 
@@ -78,9 +80,3 @@ An agent only activates a skill based on its description. Vague descriptions (e.
 - [[SoT - LLM Semantic-Statistical Mismatch]]—Why Pattern B (scripts for deterministic tasks) is necessary
 
 ---
-
-## Tensions
-
-### General assistant vs task-specific agent
-
-This note advocates progressive disclosure — keeping one agent lean by loading skills on demand. [[SoT - Agentic Roles]] divides cognitive load across five specialised roles in separate processes. The question is whether context isolation is achieved by *lazy loading* (this note's approach) or by *separate processes* (Agentic Roles). This note's own Skill/MCP/Subagent table nearly resolves the question but stops short of stating the decision rule.

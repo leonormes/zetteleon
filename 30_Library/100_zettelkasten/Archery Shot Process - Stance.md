@@ -50,4 +50,4 @@ Details:
 ### Alternative Views / Corrections
 
 - Knee Locking: While some systems advise against locking knees (to maintain active muscle tension and balance), Jake Kaminski explicitly recommends locking your knees by pulling your kneecaps up and engaging your quadriceps and glutes in order to lock the hip girdle.
-- Reference: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Sjef van den Berg guidelines, Rogue Archery TV coaching sessions, and Jake Kaminski (Recurve Form Series Episode 4).
+- Reference: Sourced from [[HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Sjef van den Berg guidelines, Rogue Archery TV coaching sessions, and Jake Kaminski (Recurve Form Series Episode 4).

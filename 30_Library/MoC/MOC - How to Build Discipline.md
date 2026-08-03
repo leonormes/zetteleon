@@ -21,7 +21,7 @@ This note summarizes the core ideas from the video "How to Build Discipline So S
 
 ## Actionable Discipline Systems
 
-- Stop Waiting for Motivation: [[Systems and Environment are the Backbone of Discipline]], not unreliable motivation.
+- Stop Waiting for Motivation: [[Discipline Is a Property of External Structure More Than of Will|systems and environment are the backbone of discipline]], not unreliable motivation.
 - Discipline Is Boring, Invisible, and Repetitive: [[Progress is Built From Small Boring Repeated Actions|Real progress is built from small, consistently repeated actions]].
 - Design Your Environment for Success: A key principle of discipline is to use [[Environmental Design for ADHD Focus|environmental design]] to make good choices easy and bad choices hard.
 - Micro-Habits and Compound Choices: [[Success Accumulates Through Thousands of Tiny Daily Choices|Success accumulates through thousands of tiny daily choices]].
@@ -29,3 +29,5 @@ This note summarizes the core ideas from the video "How to Build Discipline So S
 ## Reframing Success
 
 - Your Voting System: Every small, disciplined choice is a "vote" for the future version of yourself. This is the idea that [[Disciplined Choices are Votes for Your Future Self]].
+
+%%[implements:: [[MOC - Character and Virtue]], strength=3, confidence=medium]%%

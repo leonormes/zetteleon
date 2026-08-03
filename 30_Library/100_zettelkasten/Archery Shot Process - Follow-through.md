@@ -67,4 +67,4 @@ Details:
   2. Execute the shot. When expanding through the shot with proper back tension, your elbow should move straight back and cleanly slide away from the object.
   3. If you lack tension and collapse upon release, your elbow will pluck outward and strike the dangling guide.
 
-- Reference: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Rogue Archery TV, Online Archery Academy, Kramer Ammons, World Archery release technique guidelines, MFJJ (ElkShape) follow-through momentum cues, Jake Kaminski's 3 Easy Tips, and The Push Archery (Solid Archery Mechanics).
+- Reference: Sourced from [[HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Rogue Archery TV, Online Archery Academy, Kramer Ammons, World Archery release technique guidelines, MFJJ (ElkShape) follow-through momentum cues, Jake Kaminski's 3 Easy Tips, and The Push Archery (Solid Archery Mechanics).

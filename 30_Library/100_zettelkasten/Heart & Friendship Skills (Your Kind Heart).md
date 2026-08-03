@@ -24,3 +24,5 @@ _These strengths are all about how you connect with other people and show you ca
 - Forgiveness: Giving people a second chance and not holding grudges when they make a mistake. (VIA Strength)
 
 %%[extends:: [[A Concept Map for a Flourishing Human]]]%%
+
+%%[implements:: [[MOC - Character and Virtue]], strength=3, confidence=high]%%

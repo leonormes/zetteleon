@@ -88,4 +88,4 @@ Details:
   1. Practice blank-bale shooting while standing on a wobble cushion, or with your eyes closed during execution.
   2. Focus purely on internal core stability and maintaining complete torso stillness along the shooting line.
 
-- Reference: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Sjef van den Berg guidelines, Rogue Archery TV coaching sessions, Jake Kaminski (Recurve Form Series Episode 4), MFJJ (ElkShape) postural settling/breathing cues, and Online Archery Academy (alignment mechanics, mirror posture drills, postural sway elimination, feet-together/tripod/wobble drills).
+- Reference: Sourced from [[HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Sjef van den Berg guidelines, Rogue Archery TV coaching sessions, Jake Kaminski (Recurve Form Series Episode 4), MFJJ (ElkShape) postural settling/breathing cues, and Online Archery Academy (alignment mechanics, mirror posture drills, postural sway elimination, feet-together/tripod/wobble drills).

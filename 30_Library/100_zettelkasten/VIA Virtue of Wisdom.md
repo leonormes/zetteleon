@@ -20,3 +20,5 @@ The virtue of Wisdom, as defined by the [[MOC - Character and Virtue|VIA Charact
 - Judgement (Critical Thinking): Thinking things through and examining them from all sides; not jumping to conclusions.
 - Love of Learning: Mastering new skills, topics, and bodies of knowledge.
 - Perspective: Being able to provide wise counsel to others; having ways of looking at the world that make sense to oneself and others.
+
+%%[extends:: [[MOC - Character and Virtue]], strength=4, confidence=high]%%

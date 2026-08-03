@@ -15,3 +15,5 @@ type: claim
 Summary: Integrity is the alignment of actions with consciously chosen values rather than claims of objective certainty, stabilizing identity without requiring absolute truth.
 
 Details: Integrity is the alignment of actions with consciously chosen values rather than with claims of objective certainty. Confidence flows from living in accordance with commitments you endorse, even while you hold your beliefs as provisional. This orientation integrates freedom with responsibility: you author your values and accept the consequences of acting on them. Integrity thus stabilizes identity without requiring absolute truths.
+
+%%[supports:: [[SoT - Values and Eudaimonia]], strength=4, confidence=high]%%

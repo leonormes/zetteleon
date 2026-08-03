@@ -2,10 +2,9 @@
 aliases: []
 conformant: false
 created: 2025-10-29T16:35:00+00:00
-modified: 2026-07-28T09:12:53+00:00
+modified: 2026-08-03T08:58:22+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/waking-up-early-provides-an-energizing-start-to-the-day
-source: '[[MOC - 8 simple Japanese habits]]'
 tags: [Japanese_culture, mindfulness, routine, TheHuman/Habits]
 title: Waking up early provides an energizing start to the day
 type: claim

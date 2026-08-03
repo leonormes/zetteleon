@@ -21,3 +21,10 @@ Details: This approach grants the freedom to choose which constructs to live by.
 Supported by:
 
 - [[Humans Retain Freedom to Choose Their Response to Any Situation Regardless of Circumstances]]—the enabling condition. Values-commitment is a macro-level construction; attitudinal freedom is the micro-level instance that makes any such choosing possible. If circumstance could remove the capacity to choose a stance, a self built on chosen values would be a fiction. The `supports` edge is emitted from that claim.
+
+## Distinguished From Curation-of-Influences
+
+Confirmed 2026-08-01: this is **not** a duplicate of [[The Self is Constructed Through Curation of Influences]]. That claim is about *intake* — which influences, environments and exemplars you let in, an ongoing editorial filter. This one is about *output* — the forward-looking act of binding yourself to values and acting on them when a fork arrives. Curation supplies the candidate values; commitment is what makes any of them load-bearing. The failure modes differ accordingly: drift by default diet there, hypocrisy and [[Akrasia is Acting Against One's Better Judgment|akrasia]] here. See the comparison table in that note.
+
+%%[supports:: [[SoT - Values and Eudaimonia]], strength=4, confidence=high]%%
+%%[depends_on:: [[The Self is Constructed Through Curation of Influences]], strength=4, confidence=high]%%

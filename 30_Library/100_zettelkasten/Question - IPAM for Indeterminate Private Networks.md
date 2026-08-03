@@ -10,4 +10,4 @@ Which architectural frameworks and IP address management (IPAM) protocols consti
 
 ## Answer
 
-[[20_Thinking/21_Workbench/HEAD - IP Address Management for Indeterminate, Interconnecting Private Networks|HEAD - IP Address Management for Indeterminate, Interconnecting Private Networks]]
+[[HEAD - IP Address Management for Indeterminate, Interconnecting Private Networks|HEAD - IP Address Management for Indeterminate, Interconnecting Private Networks]]

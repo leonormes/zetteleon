@@ -2,7 +2,7 @@
 created: 2026-04-13T14:41:15+00:00
 created_utc: 2026-04-13 11:20:00+00:00
 kind: distinction
-modified: 2026-07-28T09:12:50+00:00
+modified: 2026-08-03T13:21:01+01:00
 permalink: llmeon/30-library/100-zettelkasten/prompt-architecture-levels
 source_title: AI Agent Architecture and the Modern Tech Stack
 source_url: https://gemini.google.com/app/509937047bd0b955
@@ -12,6 +12,8 @@ title: Prompt Architecture Levels
 type: atom
 upstream: '[[HEAD The Failure of Human-Centric Design]]'
 ---
+
+> **Open threads:** [[HEAD - Do declarative rules or few-shot demonstrations constrain LLM output better?]]
 
 ## Prompt Architecture Levels
 
@@ -34,9 +36,3 @@ Used to increase the reliability and formatting precision of LLM outputs.
 
 - [[Context Curation Necessity]]—supports: prompt architecture is a primary method for implementing context curation.
 - [[SoT - Context Engineering]]—shared mechanism: provides the broader framework for constructing these high-signal prompts.
-
-## Tensions
-
-### Rules Vs Demonstrations
-
-This note treats few-shot examples as a level of prompt architecture. [[SoT - Context Engineering]] advocates a 'Domain Manifesto' approach—stating the laws of the universe as declarative rules. The relative effectiveness of demonstrations vs rules for constraining LLM output is genuinely unadjudicated in the vault. Neither approach has empirical evidence recorded here.

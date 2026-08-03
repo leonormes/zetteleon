@@ -18,7 +18,6 @@ This hub triages the "Domain IV" (Foundations & The Search for Order) cluster, f
 - [[The Curry-Howard Correspondence (Propositions as Types)]] - The bridge between logic and code.
 - [[SoT - Equality in Type Theory (Intensional vs Extensional)]] - Deep dive into equivalence.
 - [[SoT - Cubical Type Theory (Computational Univalence)]] - Modern foundations.
-- [[SoT - Principles for Peaceful Productivity]] - Applying philosophy to the "How".
 
 ### 2. Logic & Mathematics
 

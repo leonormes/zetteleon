@@ -1,7 +1,7 @@
 ---
 aliases: [Typed Edges, Edge Vocabulary, Knowledge Graph Relations, Edge Syntax]
 created: 2026-07-24T00:00:00+00:00
-modified: 2026-07-27T11:50:15+00:00
+modified: 2026-08-03T13:21:01+01:00
 permalink: llmeon/30-library/so-t/so-t-typed-edge-vocabulary-knowledge-graph-relations
 see_also: ["[[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]", "[[Protocol - Typed Answer Contract (TAC) for Vault Agents]]", "[[SoT - PRODOS Core Specification]]"]
 tags: [domain/pkm, prodos/sot, topic/knowledge-architecture, topic/knowledge-graph]
@@ -13,6 +13,9 @@ prodos:
   lifecycle: seedling
   trust: working
 ---
+
+> **Open threads:** [[HEAD - Does the typed-edge vocabulary survive contact with real edges?]]
+
 > Canonical status: this note is the authoritative spec for **typed edges** — inline, machine-checkable relationships between notes and blocks. It is the link/edge counterpart to [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]], which governs the *note-level* schema. Where the two overlap (e.g. `contradicts`, `supports`), the Frontmatter Contract's frontmatter fields are authoritative for note→note relations; typed edges extend the same vocabulary down to the *block* level and add optional weighting. New relationship types are added **here only**.
 
 ## Minimum Viable Understanding (MVU)

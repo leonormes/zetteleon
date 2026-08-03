@@ -58,5 +58,5 @@ Focuses on expansion, extending the bow, triggering the release, and follow-thro
 ## Starter Materials & References
 
 - [[Archery Practice Plan - Peter's Protocol|Archery Practice Plan - Peter's Protocol]] (Structured 3-phase training plan and complete 10-step shot recipe)
-- [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]] (Workbench Source)
-- [[20_Thinking/21_Workbench/HEAD - Archery Practice|HEAD - Archery Practice]] (Jake Kaminski push/pull concept note)
+- [[HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]] (Workbench Source)
+- [[HEAD - Archery Practice|HEAD - Archery Practice]] (Jake Kaminski push/pull concept note)

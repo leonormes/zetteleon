@@ -2,13 +2,15 @@
 aliases: [AI Agent Roles, Multi-Agent Architecture, The Surgical Team]
 conformant: false
 created: 2026-01-30T12:00:00+00:00
-modified: 2026-07-27T16:01:00+00:00
+modified: 2026-08-03T13:21:01+01:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-agentic-roles
 tags: [agents, architecture, context-engine, roles]
 title: SoT - Agentic Roles
 type: sot
 ---
+
+> **Open threads:** [[HEAD - Should agent context isolation come from lazy loading or separate processes?]]
 
 %%[depends_on:: [[The Architectural Guardian]], strength=4, confidence=high]%%
 
@@ -38,9 +40,3 @@ To execute [[SoT - Macro-Micro Unification]], we divide the cognitive load acros
 %%[implements:: [[SoT - The Context Engine]]]%%
 
 See Also: [[SoT - The Context Engine]], [[SoT - Macro-Micro Unification]]
-
-## Tensions
-
-### General assistant vs task-specific agent
-
-This note divides cognitive load across five specialised roles (Architect, Scout, Cartographer, Historian, Coder) in separate processes. [[SoT - AI Agent Skill Architecture]] advocates progressive disclosure — keeping one agent lean by loading skills on demand. The unresolved question is whether context isolation is better achieved by separate processes (this note) or by lazy loading within a single agent. This note's own table nearly resolves it but does not state the decision rule.

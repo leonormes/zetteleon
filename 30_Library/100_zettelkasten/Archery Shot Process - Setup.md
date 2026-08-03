@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-07-28T09:12:43+00:00
+modified: 2026-08-01T10:15:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-setup
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Setup
@@ -62,7 +62,29 @@ Details:
   - Adjusting the Crawl: To change arrow impact, slide the tab in the direction you want the arrow to move. If hitting too low, move the tab higher up the string. If hitting too high, move the tab lower.
   - Finding Your First Crawl: Start close to the target (around 10 yards). Slide your tab down roughly 2 to 3 times the width of your knocking point, come to anchor, and put the arrow tip just below the yellow. Have a friend or camera check if the arrow shaft points at the target center, and adjust your crawl up or down until aligned.
 
+### Draw Shoulder Technique
+
+Draw-side shoulder positioning during setup and draw — sourced from Online Archery Academy [[01:23](http://www.youtube.com/watch?v=L1ZfxX9dUCU&t=83)].
+
+- **Neutral Shoulder Position:** Keep the draw shoulder as close to its natural, resting "neutral" position throughout the shot. It should feel open, free, and easy to move. The further the shoulder moves from neutral (dragged forward, set too high, or drawn too far back past the body's natural limit), the more mechanical load is placed on the joint, increasing injury risk [[02:11](http://www.youtube.com/watch?v=L1ZfxX9dUCU&t=131)].
+- **Avoid the Compression Trap:** Do not start with the draw hand positioned too close to the bow arm — this physically compresses the draw shoulder joint and blocks efficient elbow rotation. Instead, create distance between draw hand and bow side before drawing, establishing a straight line from draw elbow, through a straight wrist, to the bow hand. Maintaining this straight structure lets back muscles (scapula) take over the heavy lifting naturally [[03:32](http://www.youtube.com/watch?v=L1ZfxX9dUCU&t=212)].
+- **Front Alignment First:** Avoid forcing shoulders into alignment with the target before lifting the bow (the "set" position) — this locks mobility and leaves nowhere to go when drawing. The better sequence: build the front alignment (elbow-to-bow-hand line) first, lift the bow with this structure intact, then rotate the upper body to bring alignment to centre, engaging the back scapula naturally [[06:47](http://www.youtube.com/watch?v=L1ZfxX9dUCU&t=407)].
+- **Don't Force the Shoulder Down:** Actively dragging or forcing the shoulder artificially down out of its socket creates unnecessary tension and can cause more issues than it solves. Let the shoulder sit naturally in its socket — just as it does when standing with arms at rest [[13:11](http://www.youtube.com/watch?v=L1ZfxX9dUCU&t=791)].
+
+Reference: Online Archery Academy — _Draw Shoulder Technique - Reduce Injury Risk and Increase Efficiency_ (video), incorporated into setup phase.
+
+### Elite Archer Traits (Tokyo Olympics Analysis)
+
+Cross-cutting traits of top-performing recurve archers at the Tokyo Olympics — sourced from Online Archery Academy [[00:00](http://www.youtube.com/watch?v=DXH8EVWmKEc)].
+
+- **Postural Stability:** Elite archers maintain an incredibly still body and head throughout the entire shot process, from draw through release [[00:52](http://www.youtube.com/watch?v=DXH8EVWmKEc&t=52)]. A stable central column ensures consistent draw length and alignment, leading to a smoother, less jerky release [[01:41](http://www.youtube.com/watch?v=DXH8EVWmKEc&t=101)]. *Practice:* Shoot with a stretch band or light bow in front of a mirror (without a shirt) focusing entirely on keeping head and torso still [[09:06](http://www.youtube.com/watch?v=DXH8EVWmKEc&t=546)].
+- **Excellent Skeletal Alignment:** Near-perfect skeletal alignment before expanding through the clicker [[02:39](http://www.youtube.com/watch?v=DXH8EVWmKEc&t=159)]. Bone-based holding is forgiving under pressure, relying on structure rather than muscles to hold draw weight, preventing collapsing under fatigue or nerves [[03:04](http://www.youtube.com/watch?v=DXH8EVWmKEc&t=184)]. *Two parts:* front alignment (straight line from draw elbow through wrist to bow hand pressure point) and back alignment (shoulders lined up with the target) [[03:32](http://www.youtube.com/watch?v=DXH8EVWmKEc&t=212)]. *Practice:* Light bow in front of a mirror, visually verify the drawing elbow rotates fully into line behind the arrow [[09:51](http://www.youtube.com/watch?v=DXH8EVWmKEc&t=591)].
+- **Consistent Timing & Rhythm:** Incredibly consistent timing from anchor to release regardless of wind or match pressure (e.g. An San) [[05:17](http://www.youtube.com/watch?v=DXH8EVWmKEc&t=317)]. Inconsistent timing changes application of force — holding too long causes fatigue and soft release [[05:59](http://www.youtube.com/watch?v=DXH8EVWmKEc&t=359)]. *Practice:* Shoot alternating arrows (blank bale then target) with a metronome at 60 BPM, counting "one, two, three, shoot" to hardwire a subconscious rhythm [[10:32](http://www.youtube.com/watch?v=DXH8EVWmKEc&t=632)].
+- **Dynamic, Directed Release & Follow-Through:** A fast, aggressive, highly directed release — draw hand shoots straight back while bow arm pushes directly toward the target [[07:04](http://www.youtube.com/watch?v=DXH8EVWmKEc&t=424)]. Tightens groups and brings flyers closer to centre [[07:31](http://www.youtube.com/watch?v=DXH8EVWmKEc&t=451)]. *Practice:* "Scratching the neck" drill — without the bow, slide the draw hand sharply backward along the neck to feel the rearward direction, then replicate with the bow [[12:04](http://www.youtube.com/watch?v=DXH8EVWmKEc&t=724)].
+
+Reference: Online Archery Academy — _4 Key Traits of Tokyo's Best Archery Olympians_ (video), cross-cutting analysis spanning setup, expansion, and execution.
+
 ### Alternative Views / Corrections
 
 - Barebow Hooking ("Three Fingers Under"): While Olympic recurve typically uses a split-finger setup (one finger above the arrow, two below), barebow archers use a "three fingers under" hook. Place the string at the joint of the index finger, just inside the first joint of the middle finger, and inside or at the joint of the ring finger. This deep hook prevents lateral deflections and premature releases.
-- Reference: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Rogue Archery TV, Online Archery Academy (including slipping hook cues), Jake Kaminski's hook tutorials, 3 Easy Tips, torque experiments, and Recurve Form Series (Loading and Load Position), NUSensei form tips, World Archery release technique guidelines, MFJJ (ElkShape) grip setup cues, and Barebow Basics: Shot Process Basics.
+- Reference: Sourced from [[HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Rogue Archery TV, Online Archery Academy (including slipping hook cues, draw shoulder technique), Jake Kaminski's hook tutorials, 3 Easy Tips, torque experiments, and Recurve Form Series (Loading and Load Position), NUSensei form tips, World Archery release technique guidelines, MFJJ (ElkShape) grip setup cues, and Barebow Basics: Shot Process Basics.

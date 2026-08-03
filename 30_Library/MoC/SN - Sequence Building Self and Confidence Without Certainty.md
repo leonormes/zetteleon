@@ -19,6 +19,8 @@ updated: null
 
 ## SN - Sequence: Building Self and Confidence Without Certainty
 
+> **Sibling sequence.** [[SN - Sequence - Building a Self Without Absolute Certainty]] walks the same argument in shorter form, stopping at §4 (operating under uncertainty) rather than reaching §5 (grounding confidence). Until 2026-08-01 the two ran on parallel duplicate note-sets; four pairs have been merged and both now share the same atomics. Whether two sequence notes should exist at all is still open.
+
 ### Framing Question
 
 How can one build a self and maintain confidence when everything feels arbitrary and constructed?
@@ -51,13 +53,13 @@ With identity reconceived as constructed, the question becomes how to navigate:
 
 - [[Values Serve as Navigational Compass in Absence of Absolute Truth]] rel:: establishes → Chosen values provide directional coherence when facts are contested, functioning like a compass rather than a map.
 - [[Integrity Means Acting in Accordance With Chosen Values]] rel:: follows-from → Confidence flows from alignment with endorsed commitments, not from claims of objective correctness.
-- [[Existentialism - Existence Precedes Essence]] rel:: contextualizes → This philosophical framework positions the freedom to self-define as paired with responsibility for choices.
+- *Existentialism — existence precedes essence* rel:: contextualizes → This philosophical framework positions the freedom to self-define as paired with responsibility for choices. **No note exists for this yet** — the old link was dangling, so it is de-linked here; the nearest live coverage is [[SoT - Metaphysics of Purpose]] and [[MOC - Philosophical Perspectives on Meaning]].
 
 #### 4. Operating Under Uncertainty
 
 Practical tools for decision-making emerge from this philosophical shift:
 
-- [[Strong Opinions Loosely Held Balances Confidence With Humility]] rel:: operationalizes → This stance enables decisive action while decoupling identity from specific opinions.
+- [[Strong Opinions, Loosely Held Balances Conviction and Humility]] rel:: operationalizes → This stance enables decisive action while decoupling identity from specific opinions.
 - [[Probabilistic Thinking Treats Beliefs as Hypotheses With Confidence Levels]] rel:: supports → Graded confidence levels replace binary judgments, exposing assumptions and clarifying disagreements.
 - [[Bayesian Updating Adjusts Beliefs as New Evidence Arrives]] rel:: extends → The iterative revision of beliefs operationalizes intellectual honesty without drifting into relativism.
 - [[Anti-Fragility Means Systems That Benefit From Volatility]] rel:: reframes → Designing for optionality converts uncertainty from threat to resource for growth.
@@ -88,13 +90,13 @@ Self-construction:
 Values and direction:
 
 - [[Pragmatic Truth Focuses on Utility Over Absolute Correctness]] rel:: leads-to [[Values Serve as Navigational Compass in Absence of Absolute Truth]]
-- [[Existentialism - Existence Precedes Essence]] rel:: supports [[Values Serve as Navigational Compass in Absence of Absolute Truth]]
+- *Existentialism — existence precedes essence* (no note yet) rel:: supports [[Values Serve as Navigational Compass in Absence of Absolute Truth]]
 - [[Values Serve as Navigational Compass in Absence of Absolute Truth]] rel:: supports [[Integrity Means Acting in Accordance With Chosen Values]]
 
 Operational tools:
 
-- [[Pragmatic Truth Focuses on Utility Over Absolute Correctness]] rel:: supports [[Strong Opinions Loosely Held Balances Confidence With Humility]]
-- [[Strong Opinions Loosely Held Balances Confidence With Humility]] rel:: supports [[Probabilistic Thinking Treats Beliefs as Hypotheses With Confidence Levels]]
+- [[Pragmatic Truth Focuses on Utility Over Absolute Correctness]] rel:: supports [[Strong Opinions, Loosely Held Balances Conviction and Humility]]
+- [[Strong Opinions, Loosely Held Balances Conviction and Humility]] rel:: supports [[Probabilistic Thinking Treats Beliefs as Hypotheses With Confidence Levels]]
 - [[Probabilistic Thinking Treats Beliefs as Hypotheses With Confidence Levels]] rel:: leads-to [[Bayesian Updating Adjusts Beliefs as New Evidence Arrives]]
 
 Grounding:

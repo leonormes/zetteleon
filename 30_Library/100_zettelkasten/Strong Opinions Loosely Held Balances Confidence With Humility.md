@@ -2,16 +2,17 @@
 aliases: []
 conformant: false
 created: 2025-11-01T09:51:13+00:00
-modified: 2026-07-28T09:12:51+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+modified: 2026-08-01T00:00:00+00:00
+non_conformance_reason: "Tombstone. Content merged into [[Strong Opinions, Loosely Held Balances Conviction and Humility]] on 2026-08-01; retained as a redirect so historical links and permalinks resolve."
 permalink: llmeon/30-library/100-zettelkasten/strong-opinions-loosely-held-balances-confidence-with-humility
-tags: [adaptation, decision-making, intellectual-humility, mental-model, TheHuman/Mindset]
+superseded_by: '[[Strong Opinions, Loosely Held Balances Conviction and Humility]]'
+tags: [tombstone, merged]
 title: Strong Opinions Loosely Held Balances Confidence With Humility
 type: claim
 ---
 
-## Strong Opinions Loosely Held Balances Confidence With Humility
+> [!warning] Merged — this note is a redirect
+> The claim formerly held here was a duplicate captured in a parallel session. It has been merged into **[[Strong Opinions, Loosely Held Balances Conviction and Humility]]**. Historical links to this title land here and are redirected.
+>
+> Nothing is lost: every distinct argument from this note was folded into the survivor. Go there.
 
-Summary: A decision posture enabling decisive action without dogmatism by committing fully while keeping identity separate from opinions.
-
-Details: Strong opinions loosely held is a decision posture that enables decisive action without dogmatism. You commit fully to the best option available now while keeping your identity separate from the opinion so that new evidence can prompt rapid revision. When you update, you treat being wrong as a success of your learning process rather than as a threat to self-worth. This stance produces both momentum and adaptability in complex environments.

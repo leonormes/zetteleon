@@ -21,3 +21,5 @@ The fundamental goal of encryption is to take structured, meaningful information
 This process intentionally hides the usable information by destroying its perceivable structure, thereby validating the idea that patterns are what make data interpretable.
 
 - Links: [[Information as a Perceivable Pattern]], [[Shannon's Information Theory - Information as Uncertainty]]
+
+%%[depends_on:: [[Patterns are the Scaffolding of Knowledge]], strength=2, confidence=medium]%%

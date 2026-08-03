@@ -32,3 +32,5 @@ Benefits:
 - [[SoT - Mental Models in Software Development]]: _Applies the principle of cognitive compression to complex technical reasoning and pattern recognition._
 - [[SoT - The Cognitive Physiology of Task Execution]]: _Explains the mechanics of loading compressed mental models for active task performance._
 - [[ADHD Working Memory Deficits Create a Compulsive Re-Planning Loop]]: _Explores how a failure in cognitive chunking contributes to the executive dysfunction of ADHD re-planning loops._
+
+%%[supports:: [[Patterns are the Scaffolding of Knowledge]], strength=4, confidence=high]%%

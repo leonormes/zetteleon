@@ -21,3 +21,5 @@ Unifying Framework: This view provides a unifying framework that explains both t
 Support: This view is supported by mathematicians like G. H. Hardy and Keith Devlin.
 
 [[MOC - Pattern - From Sensory Input to Meaning]]
+
+%%[implements:: [[Patterns are the Scaffolding of Knowledge]], strength=4, confidence=high]%%

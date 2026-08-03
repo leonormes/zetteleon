@@ -20,6 +20,8 @@ You are the front door for all new content entering the ProdOS vault. Your job i
 
 New content arrives as: a paste, a file drop to `raw/`, a HEAD note, a web extract, or a Pieces LTM capture. You must run it through five gates before any write happens.
 
+> Workbench admission (2026-08-03): `20_Thinking/21_Workbench/` is NOT a routing destination for captured content. Per [[SoT - HEAD Note Contract (The Workbench)]], only an open question the human owns may land there — anything carrying `source:`/`captured:`/`author:` frontmatter is a capture and routes to `00_Inbox/`. The Obsidian Web Clipper was retargeted at the inbox on this date for exactly this reason. If a capture provokes a genuine question, route the capture normally and propose a *separate* HEAD note holding the question.
+
 ### The Five Gates
 
 #### Gate 1—Locate

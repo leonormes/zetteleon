@@ -51,4 +51,4 @@ Details:
   3. Internally rotate your forearm outward (elbow joint turning vertical/outward) against the post while applying forward pressure.
   4. Hold for 20 seconds. Repeat for 3–5 sets.
 
-- Reference: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]] and Rogue Archery TV coaching sessions.
+- Reference: Sourced from [[HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]] and Rogue Archery TV coaching sessions.

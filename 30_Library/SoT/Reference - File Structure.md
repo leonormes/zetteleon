@@ -47,8 +47,9 @@ To maximize LLM context window efficiency and human retrieval speed, the vault i
 - Sub-folder: `21_Workbench`
 - Purpose: The home of HEAD Notes. This is the active "RAM" of the system.
 - Rule: No Folders. A flat list of active thinking threads.
-- Naming: `YYYY-MM-DD-HHmm-HEAD - Topic`.
+- Naming: `HEAD - <question>?` — the title must be a question. Legacy `HEAD - Topic` notes are flagged by the sweep, not auto-renamed.
 - Lifecycle: Ephemeral. Created to solve a problem, then archived or merged.
+- **Admission control (2026-08-03):** governed by [[SoT - HEAD Note Contract (The Workbench)]]. A note must pass four tests — Ownership, Origin, Convergence, Actionability — to live here. Captures (anything carrying `source:`/`captured:`/`author:`) go to `00_Inbox/`, not here; the Web Clipper was retargeted at the inbox on this date. Unresolved tensions from canonical notes are harvested *into* here by [[Prompt - Tension Harvester]], leaving a `> **Open threads:**` pointer behind. Audited by [[Protocol - Workbench Compliance Sweep]].
 
 #### E. The Canon (`30_Library`)
 

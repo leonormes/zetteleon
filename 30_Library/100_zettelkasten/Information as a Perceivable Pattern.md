@@ -22,3 +22,5 @@ For example, the English language is informative because it has structure:
 A stream of random, jumbled letters lacks these patterns and thus conveys no interpretable information. This intuitive definition views information as the opposite of chaos.
 
 - Links: [[Shannon's Information Theory - Information as Uncertainty]], [[Kolmogorov Complexity - Information as Compressibility]], [[Cryptography's Goal - Obfuscating Patterns]]
+
+%%[supports:: [[Patterns are the Scaffolding of Knowledge]], strength=3, confidence=medium]%%

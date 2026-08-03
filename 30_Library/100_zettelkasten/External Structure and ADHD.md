@@ -26,5 +26,5 @@ Context: Exploration of the external structure provided by the Pomodoro Techniqu
 ## See Also
 
 - [[SoT - Prosthetic Executive Function]] - _Provides the theoretical framework for using external structures to compensate for internal executive dysfunction._
-- [[Discipline Relies on External Supports Not Just Willpower]] - _Validates the necessity of external constraints like Pomodoro timers over relying purely on internal motivation._
+- [[Discipline Is a Property of External Structure More Than of Will]] - _Validates the necessity of external constraints like Pomodoro timers over relying purely on internal motivation._
 - [[SoT - Temporal Management (Blocking and Boxing)]] - _The broader category of structural interventions that encompasses the Pomodoro Technique._

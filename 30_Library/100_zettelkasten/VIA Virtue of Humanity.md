@@ -22,3 +22,5 @@ The virtue of Humanity, as defined by the [[MOC - Character and Virtue|VIA Chara
 ## See Also
 
 - [[MOC - Character and Virtue]] - _The comprehensive map organizing all notes related to the VIA framework._
+
+%%[extends:: [[MOC - Character and Virtue]], strength=4, confidence=high]%%

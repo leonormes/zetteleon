@@ -41,3 +41,9 @@ Specific tools and techniques for managing the "physics" of behavior.
 - [[SoT - Habit Formation Framework]]—_The tactical application of the Four Laws to automate the transition from intention to automaticity._
 - [[SoT - Breaking the Creation Cycle]]—_A protocol designed to overcome initiation paralysis by reloading the project's mental model._
 - [[SoT - Prosthetic Executive Function]]—_The use of external checklists and structures to support a volatile biological prefrontal cortex._
+
+### 4. Daily Operating Principles
+
+The behavioural surface of the architecture above — what the system looks like on an ordinary day rather than during a planning ritual.
+
+- [[SoT - Principles for Peaceful Productivity]]—_Ten grounded prescriptions (first-hour protection, one needle-mover, initiate-before-ready, energy check, radical simplicity) covering the day-to-day behaviours the protocols above assume but do not specify. Relocated here 2026-08-03 from [[MOC - Formal Logic & Philosophy (Triage)]], where it was mis-filed under mathematical-logic foundations._

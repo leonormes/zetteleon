@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-07-31T09:42:59+00:00
+modified: 2026-08-01T10:30:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-expansion
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Expansion
@@ -45,6 +45,19 @@ Details:
   - LAN2 Expansion Direction (Back Side): Rather than struggling to isolate back muscles during clicker execution, simply focus on moving LAN2 (on the back of the drawing shoulder) parallel to the shooting line and continuously around behind your head, which naturally recruits scapular tension without freezing or co-contracting opposing muscles.
   - The Brick Wall Mental Trick: Treat the bow grip like a solid brick wall. Press your hand firmly and consistently against it throughout the entire shot to prevent bow-arm collapse upon release.
 
+### Release Improvement (6 Ways)
+
+Six techniques for improving the recurve release — sourced from Online Archery Academy [[00:00](http://www.youtube.com/watch?v=nONDVZYbIWM)].
+
+- **Bow Fitness is Key:** Lack of strength to hold, expand, and release cleanly is the most common cause of a bad release [[00:57](http://www.youtube.com/watch?v=nONDVZYbIWM&t=57)]. *Practice:* Train with a shot trainer replica on a stretch band — perform draw-ups and static holds, then transition to the actual bow [[01:11](http://www.youtube.com/watch?v=nONDVZYbIWM&t=71)].
+- **Create the String Connection Early:** Establish a straight line from fingers, through wrist, and down into the elbow during setup [[03:00](http://www.youtube.com/watch?v=nONDVZYbIWM&t=180)]. Avoid the "kink" where the hand comes close to the body, breaking that line and blocking connection to back muscles [[03:06](http://www.youtube.com/watch?v=nONDVZYbIWM&t=186)]. *Practice:* Finger grip exercises with spring-loaded devices to build the strength needed to maintain this connection [[04:00](http://www.youtube.com/watch?v=nONDVZYbIWM&t=240)].
+- **Stop Forcing "Back Tension":** Consciously squeezing lower traps and lats often ruins the shot [[04:30](http://www.youtube.com/watch?v=nONDVZYbIWM&t=270)]. Instead, focus entirely on the physical *movement* you are executing, not micromanaging specific muscle contractions — like a novice learning a bicep curl in the gym [[05:38](http://www.youtube.com/watch?v=nONDVZYbIWM&t=338)].
+- **Teach the Body How to Release (Finger-Slide Drill):** Hook the first digits of one hand's fingers into the other, pull apart to create tension, then let fingers slide off each other to simulate a clean release [[06:32](http://www.youtube.com/watch?v=nONDVZYbIWM&t=392)]. Can be practised right at anchor point [[07:06](http://www.youtube.com/watch?v=nONDVZYbIWM&t=426)].
+- **Improve Skeletal Alignment:** Proper shoulder alignment ensures all forces travel in a straight line [[07:19](http://www.youtube.com/watch?v=nONDVZYbIWM&t=439)]. Poor alignment at the moment the string drops causes collapse inward or plucking outward [[07:53](http://www.youtube.com/watch?v=nONDVZYbIWM&t=473)].
+- **Get to "Real" Full Draw:** True full draw requires a deliberate, microscopic final movement on every shot to lock into perfect alignment [[08:45](http://www.youtube.com/watch?v=nONDVZYbIWM&t=525)]. This final lock-in creates a feeling of readiness that yields the cleanest releases [[08:58](http://www.youtube.com/watch?v=nONDVZYbIWM&t=538)].
+
+Reference: Online Archery Academy — _6 Ways To Improve Your Recurve Release_ (video), focused on release mechanics and preparatory conditions.
+
 ### Training Drills
 
 #### The Expansion Video Scrubbing Protocol
@@ -64,4 +77,4 @@ Details:
   2. Place the loop around your draw arm so the arrow shaft sits directly in the crease of your elbow joint.
   3. At full draw, focus on squeezing the arrow shaft around behind your body to pull the final millimetres through the clicker.
 
-- Reference: Sourced from [[20_Thinking/21_Workbench/HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], [[20_Thinking/21_Workbench/HEAD - Archery Practice|HEAD - Archery Practice]], Rogue Archery TV, Online Archery Academy (release technique guidelines, expansion video analysis, smooth clicker expansion without stalling), Jake Kaminski's KSL Shot Cycle tutorials, Recurve Form Series, and "Movements vs. Muscles" principles (also referencing _Total Archery: Inside the Archer_ by Kisik Lee and Tyler Benner), MFJJ (ElkShape) push/pull surprise release cues, and Clay Hayes (tactile draw length markers).
+- Reference: Sourced from [[HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], [[HEAD - Archery Practice|HEAD - Archery Practice]], Rogue Archery TV, Online Archery Academy (release technique guidelines, expansion video analysis, smooth clicker expansion without stalling), Jake Kaminski's KSL Shot Cycle tutorials, Recurve Form Series, and "Movements vs. Muscles" principles (also referencing _Total Archery: Inside the Archer_ by Kisik Lee and Tyler Benner), MFJJ (ElkShape) push/pull surprise release cues, and Clay Hayes (tactile draw length markers).

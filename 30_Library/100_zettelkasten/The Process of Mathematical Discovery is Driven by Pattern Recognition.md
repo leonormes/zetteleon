@@ -17,3 +17,5 @@ Summary: Mathematical discovery is an iterative and creative process driven by t
 Details: The workflow of mathematical discovery typically begins with the observation of a regularity in a set of examples. This intuitive pattern-spotting leads to a formal conjecture or hypothesis. The conjecture is then tested, refined, and generalized. The process culminates in the search for a rigorous, logical proof to establish the universal truth of the pattern.
 
 Interplay with Proof: This interplay between inductive, creative pattern-spotting (the discovery phase) and deductive, logical proof (the justification phase) is the primary engine of mathematical progress. Pattern recognition suggests what might be true; deductive proof establishes that it is true within a given axiomatic system. Both phases are essential and complementary.
+
+%%[implements:: [[Patterns are the Scaffolding of Knowledge]], strength=4, confidence=high]%%
