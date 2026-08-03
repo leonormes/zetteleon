@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-08-01T11:15:00+00:00
+modified: 2026-08-01T11:30:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-setup
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Setup
@@ -87,6 +87,19 @@ Setting and raising the bow shoulder (front side) without overloading shoulder m
 - **Maintain Throughout the Shot:** Setting the shoulder is not "set and forget" — continuously maintain downward tension on the shoulder through loading, anchor, expansion, release, and follow-through [[05:17](http://www.youtube.com/watch?v=Nj4WwknI9tA&t=317)]. Relaxing this tension causes the bow arm to collapse inward, producing muscular fatigue and arrows grouping low and to the right (for right-handed archers) [[06:04](http://www.youtube.com/watch?v=Nj4WwknI9tA&t=364)].
 
 Reference: Rogue Archery TV — _How to raise your bow... WITHOUT messing up your shoulder position!_ (video), bow-side shoulder mechanics.
+
+### Elite Archer Variant — Florian Unruh's Draw Cycle
+
+Florian Unruh's seemingly unorthodox draw cycle as a calculated biomechanical trade-off — prioritising draw-shoulder health, deep scapular engagement, and a secure finger hook over early bow-hand grip placement.
+
+- **Sub-Chin Draw:** Rather than drawing the string directly to the final anchor point on the face, drawing slightly below the chin before moving upward facilitates better rotation of the draw elbow and deeper engagement of the back (scapular) muscles. This directly supports the neutral shoulder position and scapular engagement principles from the Draw Shoulder Technique section above.
+- **Bent-Arm Raise:** Keeping the bow arm bent and the bow close to the body during the initial raise achieves a shorter pre-draw (less initial string tension). This contrasts with the standard Bow Shoulder Positioning sequence (pre-tension → extend → raise to eye level).
+- **Preventing Shoulder Compression:** The primary benefit of the bent-arm raise is that it prevents the draw shoulder from having to reach forward, keeping the shoulder joint open and neutral — directly reinforcing the "Avoid the Compression Trap" principle from the Draw Shoulder Technique section.
+- **The Trade-off (Late Grip Setting):** The biomechanical cost is that the bow hand pressure point cannot be set statically at the start of the shot. The grip must be set dynamically as the bow arm extends toward the target. This is a genuine trade-off: early grip stability vs. draw-shoulder comfort.
+- **Execution Stability:** The ultimate purpose of this setup is a clean release with zero forward collapse of the draw elbow at the moment the string is loosed — aligning with the dynamic release trait in the Elite Traits section below.
+- **Context:** Not a novel invention but an anatomical adaptation. Shares mechanical similarities with the draw cycles of Kim Woo-jin and Alan Wills. Unruh has optimised his sequence to protect his shoulder joint and secure his hook, sacrificing early grip placement. A practical application of standard biomechanics, not a paradigm shift.
+
+Reference: Florian Unruh technique analysis (Online Archery Academy / YouTube), elite-variant setup prioritising shoulder health over early grip stability.
 
 ### Elite Archer Traits (Tokyo Olympics Analysis)
 
