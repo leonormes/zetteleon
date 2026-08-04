@@ -1,0 +1,448 @@
+source_testname,source_units,value_count
+"1,25 OH Vit D",pmol/L,163
+"1,25 Vit D",pmol/L,72
+17-Hydroxyprogesterone,nmol/L,2
+24h Urine Metadrenaline,umol/24h,157
+24h Urine Normetadrenaline,umol/24h,169
+25 OH Vitamin D,nmol/L,3718
+3-methoxytyramine (3MT),pmol/L,7
+3-Methoxytyramine (3MT),pmol/L,15
+6-MMP,pmol 6-MMPN/8x10*8 RBC,6
+6-MMPN,pmol 6-MMPN/8x10*8 RBC,17
+6-TGN,pmol 6-TGN/8x10*8 RBC,24
+Access IF Result,AU/mL,22
+Acetyl Choline Receptor Ab,nmol/L,8
+Acetyl choline Receptor Antibody,nmol/L,57
+Acid Esterase (Wolman's Disease),umol/g.h,3
+ACTH,ng/L,26
+Activated partial thromboplastin time,s,5309
+ADAMTS 13 Activity,IU/dL,4
+Adjusted Calcium,mmol/L,93549
+ADX Bladder,%,2
+AKI Warning Stage,,18684
+Albumin,g/L,205563
+Albumin                    :,g/L,9856
+Albumin (electrophoresis),g/L,50
+Alcohol,mg/100ml,12
+Aldosterone/Renin ratio,,4
+Alkaline Phosphatase,U/L,50
+Alk. phos,U/L,4990
+Alk. Phos,U/L,9187
+Alk. Phosph,U/L,128132
+ALP,U/L,66442
+Alpha-1-antitrypsin,g/L,9
+Alpha 1 Antitrypsin,g/L,416
+Alpha 1 Globulin,g/L,50
+Alpha 2 Globulin,g/L,50
+Alpha-2 M Band 1,g/L,4
+Alpha-2 Paraprotein 1,g/L,54
+Alpha-feto protein (TM),kU/L,931
+Alpha-Fucosidase (Fucosidosis),umol/L.h,3
+Alpha Galactosidase,umol/l/h,2
+Alpha-galactosidase activity,pmol/punch/hour | umol/L/h,39
+Alpha-Galactosidase (Fabry's Disease),umol/L.h,3
+Alpha-Mannosidase (Alpha-Mannosidosis),umol/L.h,3
+ALT,U/L,190969
+Alternaria alternata (m6),kAU/L,2
+Amiodarone,mg/L,2
+Ammonia,umol/L,92
+Amylase,U/L,12255
+a-N-Acetylgalactosaminidase (Schindler Disease),umol/g.h,2
+ANA (ELISA) screen,,2197
+Androstenedione,nmol/L,4
+Angiotensin Converting Enzyme,U/L,256
+Anti-Adalimumab Antibody,ng/mL,3
+Anti-CCP,U/mL,809
+Anti dsDNA Antibodies (Phadia),IU/mL,126
+Anti Glomerular Basement Membrane Abs,EliA U/mL,268
+Anti Glutamic Acid Decarboxylase Antibody,iu/mL | u/mL,26
+Anti-Infliximab Antibody,ng/mL,1
+Anti MUSK antibody,nmol/L,2
+Anti Myelin Associated Glycoprotein Abs,BTU,21
+Antithrombin (functional),%,6
+Anti Thyroglobulin,IU/mL,23
+Anti-Thyroid Peroxidase Antibody,kU/L,231
+Anti Voltage Gated Calcium Channel Ab,PM,2
+Anti Voltage Gated Potassium Channel Ab,pmol/L,5
+aPTT,s,55372
+APTT,s,61
+Arylsulphatase A (Metachromatic Leucodystrophy),umol/g.h,3
+AST,U/L,928
+Basophils,10^9/L,300765
+Beta-1 M Band 1,g/L,12
+Beta-1 M Band 2,g/L,1
+Beta-1 Paraprotein 1,g/L,89
+Beta-1 Paraprotein 2,g/L,2
+Beta-2 M Band 1,g/L,45
+Beta-2-microglobulin,mg/L,211
+Beta-2 Paraprotein 1,g/L,471
+Beta-2 Paraprotein 2,g/L,28
+Beta-Galactosidase (GM1-Gangliosidosis),umol/L.h,2
+Beta-Galactosidase (GM1-Gangliosidosis/MPS IVB),umol/L.h,1
+Beta Globulin,g/L,50
+Beta-Glucosidase (Gaucher's Disease),umol/g.h,3
+Beta-Glucuronidase (MPS VIII/Sly's Disease),umol/L.h,1
+Beta-Glucuronidase (Sly's Disease),umol/L.h,2
+Beta Trace Protein,mg/L,2
+Bicarbonate,mmol/L,66034
+Bile Acids,umol/L,6
+Bilirubin,umol/L,61940
+Blood Lead,umol/L,2
+Blood Lead (mass units),ug/dL,2
+Blood Manganese,nmol/L,13
+Blood Spot A-Glucosidase,pmol/punch/hour,17
+Bone specific ALP,U/L,24
+C1 Esterase Inhibitor,g/L,7
+CA125 (Ovarian TM.),kU/L,1253
+CA15-3 (Breast TM),kU/L,287
+CA19-9 (Pancreatic/Gut TM) :,kU/L,403
+Caeruloplasmin,g/L,273
+Calcitonin,ng/L,3
+Calculated Bicarbonate,mmol/L,6283
+Calprotectin,mg/kg | ug/g,604
+Carbamazepine,mg/L,15
+Carbamazepine epoxide,mg/L,2
+Carboxyhaemoglobin,%,6261
+Carcinoembryonic antigen,ug/L,763
+Cat dander (e1),kAU/L,7
+CD19 Absolute,10^9/L,14
+CD3 Absolute,10^9/L,20
+CD3 and CD4 Absolute,10^9/L,20
+CD3 and CD8 Absolute,10^9/L,20
+cH+,nmol/L,6326
+Chitotriosidase (Non-specific marker of storage),umol/L.h,2
+Chloride,mmol/L,34265
+Cholesterol,mmol/L,47451
+Cholesterol                :,mmol/L,32862
+Chromogranin A,nmol/L | pmol/L,218
+Chromogranin B,pmol/L,16
+Citrate Platelet count,10^9/L,231
+Cladosporium herbarum (m2),kAU/L,2
+Complement 3,g/L,738
+Complement 4,g/L,738
+Complement C4,g/L,7
+Copper,umol/L,146
+Corrected Calcium,mmol/L,66
+C - Peptide,pmol/L,1
+C-Peptide,pmol/L,22
+CREA,umol/L,31
+Creat. Clear,mL/min/stdsa,35
+Creatinine,umol/L,347676
+Creatinine excretion,mmol/24h,3
+CRP,mg/L,207066
+CSF Lactate,mmol/L,11
+CSF Protein,g/L,55
+CTX,ug/L,130
+DBS Alpha-Galactosidase,pmol/punch/hour,3
+DBS Alpha-Glucosidase with inhibition,pmol/punch/hour,3
+D-dimer,ug/ml,907
+D-Dimer,ug/L,4327
+Desethylamiodarone,mg/L,1
+DHEAS,umol/L,16
+Digoxin,ug/L,1710
+Dog dander (e5),kAU/L,7
+DRVV ratio,,64
+DRVV screen ratio,,1
+Duration of abstinence,days,4
+EDTA Platelet count,10^9/L,231
+ENA ELISA Screen Ratio Result,,117
+Eosinophils,10^9/L,301112
+Erythropoietin,iu/L | IU/L | mIU/mL,98
+ESR,mm/h,18619
+F3 Cod,kAU/L,3
+Factor II,IU/mL,1
+Factor IX,% | IU/mL,7
+Factor V,IU/mL,1
+Factor VII,IU/mL,3
+Factor VIII,IU/mL,33
+Factor VIII coagulant,%,6
+Factor VIII coagulant activity,%,3
+Factor X,IU/mL,1
+Factor XI,% | IU/mL,5
+Factor XII,% | IU/mL,3
+Factor XIII antigen,IU/mL,1
+Faecal Elastase,ug/g,312
+Faecal Immunochemical Test,Ug/g,1784
+Fast. Glucose,mmol/L,75
+Ferritin,ug/L,35580
+FGF 23 (Immutopics),RU/mL,36
+Fibrillarin,U/mL,31
+Fibrinogen,g/L,4458
+Fibrinogen (assay),g/L,240
+Free kappa,mg/L,772
+Free Kappa,mg/L,1304
+Free. Kappa,mg/L,13
+Free lambda,mg/L,771
+Free Lambda,mg/L,1304
+Free. Lambda,mg/L,13
+Free T3,pmol/L,437
+Free T4,pmol/L,7944
+Free Thyroxine,pmol/L,1531
+FT3,pmol/L,1616
+FT4,pmol/L,23080
+FX1,kAU/L,1
+FX22,kAU/L,1
+FX2 Fish Screen,kAU/L,3
+FX5,kAU/L,4
+G6PD assay,IU/gHb,3
+G6PD Assay,U/g Hb,1
+Galactocerebrosidase (Krabbe Leucodystrophy),umol/g.h,3
+Gamma Globulin,g/L,392
+Gamma M Band 1,g/L,175
+Gamma M Band 2,g/L,24
+Gamma Paraprotein 1,g/L,2215
+Gamma Paraprotein 2,g/L,558
+Gamma Paraprotein 3,g/L,94
+Gamma Paraprotein 4,g/L,21
+Gastrin,pmol/L,21
+GGT,U/L,78937
+Globulin,g/L,125674
+Globulins,g/L,60640
+GLU,mmol/L,31
+Glucagon,pmol/L,19
+Gluc.-fasting,mmol/L,2831
+Glucose,mmol/L,194705
+Gluten IgE (f79),kAU/L,1
+Haemoglobin,g/L,13
+Haemoglobin A2,%,13
+Haemoglobin F,%,10
+Haemopexin,g/L,15
+Haptoglobin,g/L,20
+Hb,g/L,301553
+HB,g/L,31
+Hb A1c,mmol/mol,5609
+Hct,,301590
+HCT,%PCV,31
+HDL-C,mmol/L,9466
+HDLC,mmol/L,26543
+Holotranscobalamin,pmol/L,1800
+Homocysteine,umol/L,2
+Horse dander (e3),kAU/L,7
+House dust mite (d1),kAU/L,7
+Hydroxyindole Acetic Acid(HIAA) Excretion,umol/24h,101
+IgA,g/L,2052
+IGF1,nmol/L,138
+IGF Binding Protein 3,mg/L,1
+IgG,g/L,2052
+IgG1,g/L,88
+IgG2,g/L,89
+IgG3,g/L,88
+IgG4,g/L,89
+Igg A,g/L,4916
+Igg G,g/L,4916
+Igg M,g/L,4915
+IgG to Aspergillus,mg/L,117
+IgG to Pigeon serum,mg/L,86
+IgGTTG,u/mL,108
+IgM,g/L,2053
+IgM beta 2 - Glycoprotein 1,U/ml,34
+Immunoglobulins A,g/L,861
+Immunoglobulins G,g/L,826
+Immunoglobulins M,g/L,852
+Inhalant screen (phad),PAU/L,26
+Intrinsic Factor Antibody,AU,234
+Iron,umol/L,11603
+K,mmol/L,234074
+kappa/lambda Ratio,,772
+Kappa./Lambda. Ratio,,17
+Kappa/Lambda Ratio,,1300
+Lactate,mmol/L,6187
+Lactate dehydrogenase,U/L,660
+Lactate Dehydrogenase,U/L,1077
+LDL,mmol/L,1292
+LDLC,mmol/L,4062
+lgG anticardiolipin,GPL units/mL,34
+lgG anticardiolipIn,GPL units/mL,58
+lgG beta 2 - Glycoprotein 1,U/ml,33
+lgM anticardiolipin,MPL units/mL,90
+Lithium,mmol/L,616
+Low sensitivity APTT,s,60
+Lupus sensitive APTT ratio,,65
+Lupus Sensitive APTT screen ratio,,1
+Lymphocytes,10^9/L,301866
+Lyso-globotriaosylceramide,ng/mL,2
+Magnesium                  :,mmol/L,45272
+MCH,pg,301595
+MCV,fL,301474
+Methaemoglobin,%,6205
+Methionine,umol/L,1
+Methotrexate,umol/L,12
+Methylmalonic Acid,nmol/L,3
+Micropolyspora faeni,mg/L,54
+Mixed moulds (Mx1),kAU/L,7
+Mixed tree pollen (Tx8),kAU/L,7
+Mixed weed pollen (Wx3),kAU/L,7
+Molybdenum,nmol/L,2
+Monoclonal free Protein S,%,6
+Monocytes,10^9/L,301766
+Monomeric (biologically active) Prolactin,mIU/L,17
+Monomeric Prolactin,mIU/L,17
+MP0 ELISA,iu/mL,1353
+Na,mmol/L,238604
+Net Bilirubin Absorbance,u,15
+Neutrophils,10^9/L,301866
+NK CELLS ABS,10^9/L,14
+NRBC,10^9/L,90081
+NTproBNP,ng/L,9561
+Oestradiol :,pmol/L,7
+Pancreatic Polypeptide,pmol/L,17
+Paracetamol,mg/L,280
+Paraprotein,g/L,14
+Parathyroid Hormone,pmol/L,6021
+PCNA,U/mL,6
+PCO2,kPa,6294
+Penicillium chrysogenum (m1),kAU/L,2
+pH,,6317
+Phenobarbitone,mg/L,3
+Phenytoin,mg/L,70
+Phosphate,mmol/L,85167
+Phospholipase-2 receptor Ab,RU/mL,49
+PIVKA II,mAU/mL,1
+Plasma Adrenaline,nmol/L,2
+Plasma Aspartylglucosamine (Aspartylgucosaminuria),umol/L.h,1
+Plasma beta-hexosaminidase A & B (Sandhoff's Disease),umol/L.h,1
+Plasma beta-Hexosaminidase A (Tay-Sachs Disease),umol/L.h,1
+Plasma beta-hexosaminidase (Sandhoff's Disease),umol/L.h,2
+Plasma beta-Mannosidase (beta-Mannosidosis),umol/L.h,3
+Plasma B Hexosaminidas A (Tay-Sachs Disease),umol/L.h,2
+Plasma Chitotriosidase (Non-specific marker of storage),umol/L.h,1
+Plasma Glycoaspariginase (Aspartylgucosaminuria),umol/L.h,2
+Plasma Insulin,pmol/L,16
+Plasma Lactate,mmol/L,456
+Plasma Metanephrine,pmol/L,28
+Plasma Noradrenaline,nmol/L,2
+Plasma Normetanephrine,pmol/L,28
+Plasma Potassium,mmol/L,131
+Platelets,10^9/L,299548
+PM-Scl,U/mL,31
+PO2,kPa,6301
+POCT Basophil,10^9/L,2
+POCT Eosinophil,10^9/L,2
+POCT Haemoglobin,g/L,2
+POCT HCT,,2
+POCT Lymphocyte,10^9/L,2
+POCT MCH,pg,2
+POCT MCV,fL,2
+POCT Monocyte,10^9/L,2
+POCT Neutrophils,10^9/L,2
+POCT Platelets,10^9/L,2
+POCT RBC,10^12/L,2
+POCT White blood cells,10^9/L,2
+Potassium,mmol/L,112462
+PR3 ELISA,iu/mL,1349
+Prolactin :,mIU/L,385
+Prostatic Specific Antigen :,ug/L,11034
+Protein C (functional),%,6
+Prothrombin time,s,5309
+PSA (TOTAL),ug/L,1
+PT,s,53998
+PTHrP,pmol/L,2
+Random calcium/creatinine ratio,,7
+Rapid Progressive,%,2
+Rbc,10^12/L,301595
+Repeat Troponin I,ng/L,8950
+Ret - He,pg,3796
+Reticulocytes,10^9/L,5494
+Rheumatoid factor,IU/mL,150
+Rheumatoid Factor,IU/mL,536
+Ribosomal-P (Rib-P),U/mL,6
+Salicylate,mg/L,79
+SARS-CoV-2 anti Spike IgG,AU/mL,20
+Selenium,umol/L,1
+Serum Aluminium,umol/L,9
+Serum Chromium,nmol/L,22
+Serum Chromium (ug/L),ug/L,22
+Serum Cobalt,nmol/L,22
+Serum Cobalt (ug/L),ug/L,22
+Serum creatinine,umol/L,57
+Serum Creatinine   =,umol/L,39
+Serum Folate,ug/L,24020
+Serum Molybdenum,nmol/L,5
+Serum Osmolality,mmol/kg,1089
+Serum Procollagen Type 111 Amino Peptide,ug/L,3
+Serum Procollagen Type 1 Amino Terminal Peptide,ug/L,113
+Serum Selenium,umol/L,44
+Serum Tryptase,ng/mL,45
+Sex Hormone Binding Globulin,nmol/L,121
+Slow Progressive,%,2
+Smooth Muscle Titre,titre,107
+Sodium,mmol/L,114906
+Somatostatin,pmol/L,17
+Sperm concentration,10^6/ml,2
+Sperm Total Count,10^6/ejaculate,2
+Sphingomyelinase (Niemann-Pick A & B),umol/g.h,3
+Tacrolimus (FK506),ug/L,536
+Testosterone,nmol/L,498
+Theophylline,mg/L,48
+Thermactinomyces Vulgaris,mg/L,48
+Thrombin time,s,491
+Thyroglobulin recovery,%,21
+Thyroid Stimulating Antibody,iu/L,22
+Time between collection & analysis,min,2
+Timothy grass (g6),kAU/L,7
+TISSUE TRANSGLUTAMINASE,U/ml,1644
+Total Bilirubin,umol/L,475
+Total CK,U/L,10368
+Total IgE,kU/L,237
+Total Motile,%,2
+Total Paraprotein,g/L,2842
+Total Progressive,%,2
+Total protein,g/L,61182
+Total Protein,g/L,127444
+Tot. Bilirubin,umol/L,9195
+Tot.Bilirubin,umol/L,119477
+Transferrin,g/L,11692
+Transferrin Saturation,%,11600
+Triglyceride,mmol/L,4146
+Triglycerides,mmol/L,1358
+Troponin I,ng/L,24998
+TSH,mU/L,41609
+TSH receptor antibodies,iu/L,8
+Typical forms,%,2
+U Oxalate/Creatinine,umol/mmol | umol/mmol crea,3
+U Oxalate excretion,umol/24h,3
+Urate,umol/L,6973
+Ur. Ca Excr,mmol/24h,8
+Ur. Creat. Ex,mmol/24h,13
+Urea,mmol/L,347833
+UREA,mmol/L,31
+Urine Albumin/Creatinine Ratio,mg/mmol,188
+Urine Amylase,U/L,1
+Urine calcium excretion,mmol/24h,1
+Urine citrate:creatinine ratio,mmol/mmol,2
+Urine citrate output,mmol/24hr,2
+Urine Copper (24h),umol/24h,1
+Urine Creatinine Excretion (acid),mmol/24h,3
+Urine creatinine output,mmol/24h,5
+Urine Free Cortisol Output,nmol/24h,85
+Urine magnesium output,mmol/24h,4
+Urine Osmolality,mmol/kg,589
+Urine Oxalate Excretion,umol/24h,1
+Urine Phosphate Excretion,mmol/24h,3
+Urine Protein/Creatinine ratio,mg/mmol,1568
+Urine Protein Excretion,g/24h,39
+Urine Total Porphyrin: Creatinine ratio,nmol/mmol,1
+Ur. K Excr,mmol/24h,13
+Ur. Na Excr,mmol/24h,13
+Ur. Phos. Ex,mmol/24h,8
+Ur. Urate Exc,mmol/24h,8
+Ur. Urea Exc,mmol/24h,8
+Ur. Urea Excr,mmol/24h,13
+Valproate,mg/L,2
+Vasoactive Intestinal Peptide,pmol/L,18
+Vitamin A,umol/L,38
+Vitamin B1,nmol/L,1
+Vitamin B12,ng/L,22475
+Vitamin B12:,ng/L,103
+Vitamin B2,ug/L,2
+Vitamin B6,nmol/L,1
+Vitamin E,umol/L,38
+Vitamin K1,ug/L,1
+Volume,mL,2
+von-Willebrand factor activity,IU/mL,6
+von-Willebrand factor antigen,IU/mL,7
+von-Willebrands factor activity,IU/mL,1
+Wbc,10^9/L,301593
+Wheat IgE (f4),kAU/L,1
+Zinc,umol/L,276
+,mmol/L,31
