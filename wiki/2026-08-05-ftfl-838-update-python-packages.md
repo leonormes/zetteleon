@@ -51,5 +51,28 @@ Had `repository = ""` — Poetry 2.x rejects this. Removed the empty field.
 
 ## Git
 - Branch: `feature/FTFL-838-update-python-packages`
-- Commits: `945b3481c`, `199388f4e`, `e88c27f04`
-- 13 files changed, 680 insertions, 193 deletions
+- Commits: `945b3481c`, `199388f4e`, `e88c27f04`, `eb3135efc`, `a31aef04e`, `a4602c071`
+- 15 files changed, 696 insertions, 207 deletions
+
+## Jira
+- FTFL-838 (Task, High): Update Python packages
+- FTFL-847 (Bug, High): Integration test pipeline DNS failure — see Hermes vault: `wiki/incidents/2026-08-05-ftfl-847-integration-test-dns-failure.md`
+
+## CI pipeline fixes
+
+### sftp-loader Docker build (e88c27f04)
+- `s3fs-fuse` master now requires FUSE3 ≥ 3.0.0 → swap `fuse-dev` for `fuse3-dev`
+- lftp `4.9.2-r7` no longer in Alpine edge → bump to `4.9.3-r0`
+
+### medcat-annotation Docker build (eb3135efc)
+- "no space left on device" during layer export: Python + PyTorch + CUDA + MedCAT image keeps ~2GB Poetry wheel cache in the build layer
+- Fix: `poetry cache clear pypi` after install
+
+### set_intersection_estimator Docker build (a31aef04e)
+- Same Poetry cache + PyTorch/CUDA/MedCAT disk issue as medcat-annotation
+- Fix: `poetry cache clear pypi` after install
+
+### Poetry cache + immutable Docker layers (a4602c071) — the real fix
+A separate `poetry cache clear` RUN step does NOT work: Docker layers are immutable, so the ~2GB cache from the install layer is still baked into the underlying layer and must be exported regardless. The cache cleanup must be in the **same RUN command** as `poetry install` so it never enters any layer.
+
+**Audit of other Python Dockerfiles:** emis-processing + default-exit-handler already clear `$POETRY_CACHE_DIR`; nhs-pet uses multi-stage build + `PIP_NO_CACHE_DIR`; workflows-api + mutating-proxy-webhook have light deps (no disk issue). Only the two heavy medcat images needed the fix.
