@@ -51,5 +51,5 @@ Had `repository = ""` — Poetry 2.x rejects this. Removed the empty field.
 
 ## Git
 - Branch: `feature/FTFL-838-update-python-packages`
-- Commits: `945b3481c`, `199388f4e`
-- 12 files changed, 678 insertions, 191 deletions
+- Commits: `945b3481c`, `199388f4e`, `e88c27f04`
+- 13 files changed, 680 insertions, 193 deletions
