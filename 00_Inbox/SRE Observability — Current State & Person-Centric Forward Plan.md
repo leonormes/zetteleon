@@ -1,6 +1,6 @@
 ---
 created: 2026-07-31T09:22:16+00:00
-modified: 2026-07-31T09:23:47+00:00
+modified: 2026-08-06T08:46:53+00:00
 permalink: llmeon/00-inbox/pieces-copilot-message-export-july-31-2026-10-22am
 title: SRE Observability — Current State & Person-Centric Forward Plan
 type: note
@@ -91,7 +91,7 @@ Treat observability as a product with named roles, not a side hustle for whoever
 
 ---
 
-## Best-practice Playbook (Fit to _this_ tEam)
+## Best-practice Playbook (Fit to _this_ team)
 
 ## 1. Detect—make Pages Rare and Trustworthy
 

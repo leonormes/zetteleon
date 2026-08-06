@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-08-01T11:30:00+00:00
+modified: 2026-08-06T09:44:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-setup
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Setup
@@ -47,7 +47,8 @@ Details:
 - The Grip (Bow Hand):
   - Firm Placement Before Drawing: Firmly establish your hand placement on the bow grip _before_ you even begin to draw. Focus entirely on seating your hand perfectly into the grip early in the setup.
   - Avoid "Total Relaxation" Flaw: A common misconception is to completely relax the entire bow hand. While this stops beginners from grabbing the bow, a completely passive, floppy hand slides around in the grip, loses direction, and disconnects the bow arm from the shoulder. Proper technique requires a distinction between passive fingers and an active hand structure.
-  - Place the 'Y' of your hand into the grip so the pressure point sits directly on the thumb pad.
+  - Place the 'Y' of your hand into the grip so the pressure point sits directly on the thumb pad. Avoid burying your hand deeply into the throat of the grip; ensure most contact is on the outside fleshy pad of the thumb.
+  - Form a relaxed "Y" shape with the thumb pointing forward and the index (pointer) finger pointing down. It is acceptable to have some slight tension in your thumb and pointer finger to maintain this shape, as the index finger acts as a guide for the bow upon release.
   - Push into the riser using the flat bone intersection between the index finger and thumb metacarpals (the knuckle bone joint), rather than the soft webbing of the thumb.
   - Pressure Point Engagement (Active): Drive tension into the pit/pressure point of the bow hand towards the target. This creates a direct connection through your wrist into your bow shoulder and skeletal alignment.
   - Balanced Pressure: The bow hand must exert balanced pressure along the center line of the grip into the palm. Avoid torquing, heeling, or high-wristing the bow.
@@ -137,4 +138,4 @@ Reference: Rogue Archery TV — _What comes before technique?_ (video), foundati
 ### Alternative Views / Corrections
 
 - Barebow Hooking ("Three Fingers Under"): While Olympic recurve typically uses a split-finger setup (one finger above the arrow, two below), barebow archers use a "three fingers under" hook. Place the string at the joint of the index finger, just inside the first joint of the middle finger, and inside or at the joint of the ring finger. This deep hook prevents lateral deflections and premature releases.
-- Reference: Sourced from [[HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Rogue Archery TV, Online Archery Academy (including slipping hook cues, draw shoulder technique), Jake Kaminski's hook tutorials, 3 Easy Tips, torque experiments, and Recurve Form Series (Loading and Load Position), NUSensei form tips, World Archery release technique guidelines, MFJJ (ElkShape) grip setup cues, and Barebow Basics: Shot Process Basics.
+- Reference: Sourced from [[HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Rogue Archery TV, Online Archery Academy (including slipping hook cues, draw shoulder technique), Jake Kaminski's hook tutorials, 3 Easy Tips, torque experiments, and Recurve Form Series (Loading and Load Position), NUSensei form tips, World Archery release technique guidelines, MFJJ (ElkShape) grip setup cues, Barebow Basics: Shot Process Basics, and Shore Shot Archery (grip placement and "Y" shape cues).

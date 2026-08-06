@@ -16,6 +16,8 @@ Follow-through is the dynamic reaction of the body and bow after release, showin
 
 Details:
 
+- Prerequisites for a Natural Follow-Through: A proper follow-through is an advanced "finishing touch." It relies heavily on having a stabilizer setup (to pull the bow forward), forward weight distribution (so the bow naturally leans forward in the hand), and a strong, stable bow arm.
+
 - Action vs. Reaction: The release is the final active movement in the shot cycle, whereas the follow-through is an automatic physical reaction. Squeeze the draw elbow around the spine throughout follow-through.
   - **The Non-Negotiable Rule**: The one part of the shot cycle that **can never be left to the subconscious** is applying active tension in the correct direction through the follow-through.
 - Draw Arm & Hand (Level Follow-Through):
@@ -29,12 +31,13 @@ Details:
     - _Parrot Cue_: Aim to _"knock a parrot off your shoulder"_ with your hand rather than patting yourself on the chest. Check the hand's finishing height after every shot.
 - Bow Arm Counter-Tension (Front-End "Sit" Motion):
   - Balance the rearward force upon release by driving the front side downward in a clean "sit" motion.
-  - Point your bow-hand index finger straight down upon release, keeping the thumb forward of the pinky to avoid twisting the wrist or weakening the grip.
+  - Point your bow-hand index finger straight down upon release; this acts as a guide for the bow as it jumps forward, ensuring it falls straight down rather than swinging inward or outward. Keep the thumb forward of the pinky to avoid twisting the wrist or weakening the grip.
   - Keep the bow arm straight and let the bow's natural weight and forward reaction pull your bow hand down.
   - Hold the Position: Hold your physical position with the bow arm raised until the arrow hits the target. Actively dropping or swinging the bow out of the way too early—often just to peek downrange—will ruin your accuracy because it alters the arrow's flight before it completely exits the bow. Freeze like a statue and hold position until you hear the arrow strike the target.
   - Maintain Bow Hand Structure: Do not completely relax the entire bow hand (which makes it passive and causes it to move unpredictably or collapse sideways). Having direction and purpose in the bow hand ensures that the force of the bow drives straight forward into the target on every shot.
   - Natural Forward Push: Due to the physical law of equal and opposite reactions, your bow arm should naturally jump or push slightly straight forward and away the moment the string drops, rather than swinging to the left or right. If your bow arm remains completely frozen upon release, it indicates you anticipated the shot and consciously stopped your momentum.
-  - Let the bow jump and fall naturally on its finger sling without torquing or grabbing the riser. The fingers remain relaxed, but the hand structure remains active.
+  - "Throw Away Your Bow": Adopt the mindset of simply "throwing the bow away" upon release. Trust your finger sling to catch the bow.
+  - Wrist Relaxation vs. Hand Structure: Do not actively try to flex your wrist or force the bow to drop. Let the wrist go limp and "flop" down naturally as the bow's forward weight pulls it away. Maintain the overall active structure of the hand so it doesn't swing unpredictably, and let the bow jump and fall naturally on its finger sling without torquing or grabbing the riser.
 - Core & Head Stability:
   - Keep your central core completely solid and your head perfectly still. If your head moves, your body will naturally follow and throw off the shot.
 - Diagnostic Feedback (The Reflect Phase):
@@ -42,6 +45,13 @@ Details:
   - Body Balance Check: If your torso rocks backward upon release, you are pull-dominant (pulling more than pushing); if your head shifts forward, you are push-dominant (over-pushing).
 
 ### Training Drills
+
+#### Blank Bale Follow-Through Drill
+
+- Purpose: Removes the anxiety of aiming to focus 100% of your mental energy on the feeling of the bow leaving your hand and your wrist relaxing.
+- How to do it:
+  1. Set up at a blank bale at a very close distance (e.g., 5 meters).
+  2. Execute your shot process with the sole focus of "throwing the bow away" and feeling the natural forward jump and wrist relaxation.
 
 #### Neck-Scratch Follow-Through Drill
 
@@ -67,4 +77,4 @@ Details:
   2. Execute the shot. When expanding through the shot with proper back tension, your elbow should move straight back and cleanly slide away from the object.
   3. If you lack tension and collapse upon release, your elbow will pluck outward and strike the dangling guide.
 
-- Reference: Sourced from [[HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Rogue Archery TV, Online Archery Academy, Kramer Ammons, World Archery release technique guidelines, MFJJ (ElkShape) follow-through momentum cues, Jake Kaminski's 3 Easy Tips, and The Push Archery (Solid Archery Mechanics).
+- Reference: Sourced from [[HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Rogue Archery TV, Online Archery Academy, Kramer Ammons, World Archery release technique guidelines, MFJJ (ElkShape) follow-through momentum cues, Jake Kaminski's 3 Easy Tips, The Push Archery (Solid Archery Mechanics), and Shore Shot Archery (follow-through prerequisites and "throw away" mindset).

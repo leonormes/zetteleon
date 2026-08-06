@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-07-28T09:12:43+00:00
+modified: 2026-08-06T06:19:53+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-anchor
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Anchor
