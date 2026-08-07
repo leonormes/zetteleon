@@ -48,7 +48,10 @@
       "Bash(grep -v ':0$')",
       "Bash(awk -F: '{s+=$2} END {print s\" edges in \"NR\" notes\"}')",
       "Bash(echo \"clean lint exit=$? \\(expect 0\\)\")",
-      "Bash(echo \"no-pyyaml exit=$? \\(expect 1\\)\")"
+      "Bash(echo \"no-pyyaml exit=$? \\(expect 1\\)\")",
+      "Bash(cd \"/Volumes/DAL/Zettelkasten/LLMeon\" && find . -iname \"*3 Rules*Starter*\" -o -iname \"*Three Rules of Starter Tasks*\" 2>/dev/null; find /Volumes/DAL/Zettelkasten/Hermes -iname \"*Execution Protocol for High-Friction*\" 2>/dev/null)",
+      "Bash(xargs -I{} grep -l \"kind: atomic\" {})",
+      "mcp__1mcp__obsidian-llmeon_1mcp_create_vault_file"
     ]
   },
   "spinnerTipsEnabled": false
