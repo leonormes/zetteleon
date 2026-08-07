@@ -13,20 +13,28 @@ type: procedure
 
 ## Archery Shot Process - Pre-draw
 
-Summary:
-
 Pre-draw acts as a checklist step to verify posture, front shoulder position, and shoulder alignment by rotating through the core.
 
-Details:
+### The Steps
 
-- Alignment Foundation: Pre-draw sets up the majority (85%) of the shot's overall structural alignment.
-- Torso Rotation (Core Alignment):
-  - Achieve shoulder alignment by rotating the torso/core from the raised position (where shoulders were open). Rotating the core engages large, strong trunk muscles to draw the bow efficiently.
-  - Rotate your upper body/chest toward the target without twisting the hips or feet. This brings the draw hand close to the face without actually drawing the string back yet.
-  - Visual & Tension Setup (Pre-Aiming): Apply a slight amount of tension to the string, and begin visually acquiring your target before initiating the full draw. Establish a quick visual reference for where the arrow tip sits relative to the target (e.g., placing the top edge of a broadhead point directly on the target mark at a specific distance) so you don't have to fight for the sight picture during the draw.
-  - _Biomechanical Warning_: Drawing purely with upper-body strength or dropping into alignment from a high raise strains the shoulder extensors, leading to early fatigue and reduced long-term consistency.
-- The Setup Check: Pause briefly after rotating to check the feeling of the straight line running through your shoulders.
+1. Torso Rotation (Core Alignment): Achieve shoulder alignment by rotating the torso/core from the raised position (where shoulders were open). Rotate your upper body/chest toward the target without twisting the hips or feet. This brings the draw hand close to the face without actually drawing the string back yet.
+2. Visual & Tension Setup (Pre-Aiming): Apply a slight amount of tension to the string, and begin visually acquiring your target before initiating the full draw. Establish a quick visual reference for where the arrow tip sits relative to the target.
+3. The Setup Check: Pause briefly after rotating to check the feeling of the straight line running through your shoulders.
+4. Verification: Verify that the posture is tall, the front shoulder remains set down, and correct shoulder-line alignment is established before loading.
+
+### Why It Works
+
+- Pre-draw sets up the majority (85%) of the shot's overall structural alignment.
+- Rotating the core engages large, strong trunk muscles to draw the bow efficiently.
+- Establishing a quick visual reference prevents you from having to fight for the sight picture during the draw.
+- Getting the front shoulder position locked in is one of the quickest ways to stabilise variables like draw length and anchor point.
+
+### Faults & Diagnostics
+
+- Biomechanical Warning: Drawing purely with upper-body strength or dropping into alignment from a high raise strains the shoulder extensors, leading to early fatigue and reduced long-term consistency.
 - The Setup Trap: During this pre-draw/setup phase, there is a natural slowing down of movement as you pause to prepare. Be careful not to let the mechanical weight of the bow pull your drawing elbow forward during this slight pause. The elbow must remain structurally stable.
-- Verification: Verify that the posture is tall, the front shoulder remains set down, and correct shoulder-line alignment is established before loading.
-- Shoulder Collapse at Full Draw: A front shoulder collapse occurs when the bow-side shoulder yields or gives backward while you are holding at full draw. This is a key contributor to erratic draw length and a floating anchor point — if your front shoulder is not set consistently, both your draw length and anchor will drift shot-to-shot. Getting the front shoulder position locked in is one of the quickest ways to stabilise these variables.
-- Reference: Sourced from [[HEAD - The Archery Shot Process|HEAD - The Archery Shot Process]], Online Archery Academy (The Setup Trap), Rogue Archery TV coaching sessions, and Clay Hayes (pre-aiming cues).
+- Shoulder Collapse at Full Draw: A front shoulder collapse occurs when the bow-side shoulder yields or gives backward while you are holding at full draw. This contributes to erratic draw length and a floating anchor point.
+
+---
+
+[[MOC - Archery Shot Process]]

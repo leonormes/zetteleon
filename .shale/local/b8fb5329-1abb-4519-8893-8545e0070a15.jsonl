@@ -3,3 +3,5 @@
 {"kind":"completion","at":"2026-08-06T08:44:23.698367Z","note":"Updated Setup and Follow-through notes with Shore Shot Archery cues"}
 {"kind":"intent","at":"2026-08-06T11:21:25.835572Z","title":"Note Refresh and Link Audit for Mind-Reading Fallacy and Projection","body":"Fixing broken links and adding typed edges per the Note Refresh prompt"}
 {"kind":"completion","at":"2026-08-06T11:21:30.760217Z","note":"Completed deep refresh of Mind-Reading Fallacy and Projection, fixing links and adding typed edges"}
+{"kind":"intent","at":"2026-08-07T10:23:42.545286Z","title":"Rewrite Archery Shot Process notes to match the structure of the Raise note","body":"Updating 10 notes to have 'The Steps' first, then 'Why It Works', etc. ignoring normal constraints."}
+{"kind":"completion","at":"2026-08-07T10:27:00.661313Z","note":"Rewrote 10 archery shot process notes to match standard format as requested, ignoring normal constraints."}

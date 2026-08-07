@@ -10,13 +10,14 @@ type: procedure
 
 ## Archery Shot Process - Nocking
 
-Summary:
-
 Nocking is the initial step of placing the arrow securely on the string and the arrow rest prior to setting your hands.
 
-Details:
+### The Steps
 
-- Safety & Setup: When standing on the shooting line, stay in your lane. Keep your bow completely vertical and rest the lower limb gently against your inner calf to safely and stably nock an arrow.
-- Rest Placement: Ensure the arrow is securely positioned on the arrow rest.
-- Fletching Orientation: Orient the fletchings correctly. For a right-handed archer, place two fletchings pointing inward towards the side of the bow, and one index fletching sticking straight out to the left (away from the riser).
-- Reference: Sourced from video cues and Barebow Basics: Shot Process Basics.
+1. Safety & Setup: When standing on the shooting line, stay in your lane. Keep your bow completely vertical and rest the lower limb gently against your inner calf to safely and stably nock an arrow.
+2. Rest Placement: Ensure the arrow is securely positioned on the arrow rest.
+3. Fletching Orientation: Orient the fletchings correctly. For a right-handed archer, place two fletchings pointing inward towards the side of the bow, and one index fletching sticking straight out to the left (away from the riser).
+
+---
+
+[[MOC - Archery Shot Process]]
