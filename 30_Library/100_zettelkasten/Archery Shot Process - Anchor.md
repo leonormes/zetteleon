@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-08-06T06:19:53+00:00
+modified: 2026-08-07T15:55:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-anchor
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Anchor
@@ -40,6 +40,8 @@ Anchor is the final reference for the full draw position and the point of maxima
 - The Flaw of Trying to Hold Still: Forcing the body to hold the pin perfectly static degrades the sight picture and triggers shot anticipation.
 - Peep Alignment: Set the peep to the anchor, not the anchor to the peep. Adjust the peep along the bowstring if it's not centered naturally.
 - Lighting Illusions: The angle of sunlight or overhead lighting can make the string or sight pin appear to shift.
+- Rushing the Anchor (Floating Anchor Point): Shooting too fast prevents establishing a solid, consistent anchor point. A floating anchor changes from shot to shot, causing arrows to hit different spots even if form is otherwise correct. Always take the time to feel tight, consistent facial contact before releasing.
+- Losing Point of Aim: Rushing often means failing to consciously confirm your reference point (sight pin, arrow tip, etc.). If you miss, you won't know if it was a form error or an aiming error. Take an extra second to confirm the aim before the shot breaks.
 
 ### Training Drills
 
@@ -64,6 +66,10 @@ Anchor is the final reference for the full draw position and the point of maxima
 - How to do it:
   1. Set up a camera zoomed directly onto your clicker blade and arrow point.
   2. Draw to anchor and verify that the starting point remains mechanically identical across repeated draws.
+
+### References
+
+- Archery | Rushed Shot Processes - Slow Down! (NUSensei)
 
 ---
 

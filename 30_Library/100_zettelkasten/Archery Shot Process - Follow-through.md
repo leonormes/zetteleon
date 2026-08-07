@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T00:00:00+00:00
-modified: 2026-07-30T11:31:00+01:00
+modified: 2026-08-07T15:55:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-follow-through
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Follow-through
@@ -39,6 +39,7 @@ Follow-through is the dynamic reaction of the body and bow after release, showin
 
 - Body Balance Check: If your torso rocks backward upon release, you are pull-dominant (pulling more than pushing); if your head shifts forward, you are push-dominant (over-pushing).
 - Prerequisites: A proper follow-through relies heavily on having a stabilizer setup, forward weight distribution, and a strong, stable bow arm.
+- Rushing (No Self-Reflection): A rushed process destroys mental and physical follow-through. Grabbing the next arrow immediately after release prevents you from evaluating the shot. Treat every shot like it matters: pause after the arrow hits, and evaluate if you executed correctly and why the arrow landed where it did.
 
 ### Training Drills
 
@@ -70,6 +71,10 @@ Follow-through is the dynamic reaction of the body and bow after release, showin
   1. Hang a lightweight object right behind your draw elbow.
   2. Execute the shot. Your elbow should move straight back and cleanly slide away from the object.
   3. If you lack tension and collapse, your elbow will pluck outward and strike the dangling guide.
+
+### References
+
+- Archery | Rushed Shot Processes - Slow Down! (NUSensei)
 
 ---
 

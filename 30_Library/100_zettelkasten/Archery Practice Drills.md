@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-22T00:00:00+00:00
-modified: 2026-08-06T20:13:28+00:00
+modified: 2026-08-07T15:55:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-practice-drills
 tags: [archery, practice, prodos/atomic, training]
 title: Archery Practice Drills
@@ -192,6 +192,12 @@ _(Note: This is a diagnostic drill detailed in the [[Archery Shot Process - Foll
 - How to do it: Without a bow, hold a single arrow upside down by the point at arm's length. First, look directly at a small target spot and simply watch the spot while letting the arrow point float naturally in your peripheral vision (Passive Floating Test). Then, look at the same spot and try to hold the arrow point as rock-solid still as physically possible (Forced Aiming Test).
 - The Result: You will immediately notice that consciously trying to force the point to hold still causes it to wobble faster and more erratically, raising physical tension. Letting it float naturally produces a much steadier, relaxed aim.
 
+#### 16. Quality Over Quantity (The Anti-Rush Strategy)
+
+- The Goal: Prevent the degradation of form that comes from rushing shots and mindlessly slinging arrows.
+- The Problem: Archers often rush to shoot more arrows, but this skips vital steps in the shot process and builds poor habits. Shooting 30 good, thoughtful, well-executed arrows teaches infinitely more than mindlessly slinging 300 bad arrows.
+- How to do it: Ensure your practice is conscious, deliberate, and purposeful. Take your time, and physically reset your posture and breathing between every single shot. Let your body and mind reflect on the previous shot before executing the next one.
+
 ---
 
-- Reference: Insights compiled from Kramer Ammons ("9 Archery Drills To Hack The Mind"), MFJJ (ElkShape) blind baling and homework routines, Rogue Archery TV ("feelings", mastery framework, and "20:40 SPT | Guided Bow Fitness Drill"), CatholicHack's Traditional Archery (3D hyper-focus trick), Online Archery Academy (bow fitness, 30-minute static hold routine, training plans, 600+ score benchmarks), Matt Hartsky (5-exercise resistance band shoulder conditioning circuit), Clay Hayes (process over result), Jake Kaminski (aiming experiments, movements vs. muscles, and co-contraction prevention), The Push Archery (Solid Archery Mechanics: An Excerpt - motor learning, verbal cues), and generalized target panic/practice philosophy guidelines.
+- Reference: Insights compiled from Kramer Ammons ("9 Archery Drills To Hack The Mind"), MFJJ (ElkShape) blind baling and homework routines, Rogue Archery TV ("feelings", mastery framework, and "20:40 SPT | Guided Bow Fitness Drill"), CatholicHack's Traditional Archery (3D hyper-focus trick), Online Archery Academy (bow fitness, 30-minute static hold routine, training plans, 600+ score benchmarks), Matt Hartsky (5-exercise resistance band shoulder conditioning circuit), Clay Hayes (process over result), Jake Kaminski (aiming experiments, movements vs. muscles, and co-contraction prevention), The Push Archery (Solid Archery Mechanics: An Excerpt - motor learning, verbal cues), NUSensei (Archery | Rushed Shot Processes - Slow Down!), and generalized target panic/practice philosophy guidelines.

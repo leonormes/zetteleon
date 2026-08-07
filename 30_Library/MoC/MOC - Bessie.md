@@ -2,7 +2,7 @@
 aliases: [Bessie Map, Bessie MOC, MOC Bessie]
 conformant: true
 created: 2026-07-22T09:00:00+00:00
-modified: 2026-07-22T09:00:00+00:00
+modified: 2026-08-07T13:10:00+00:00
 permalink: llmeon/30-library/mo-c/moc-bessie
 tags: [bessie, education, family, index]
 title: MOC - Bessie
@@ -29,7 +29,6 @@ How Bessie's mind works — ADHD, dyslexia, working memory — and what compensa
 - [[Writing Reduces Cognitive Load by Chunking Information]]
 - [[Distorted Negative Self-Image]]
 - [[Misinterpretation as Character Flaws]]
-- [[Opportunities for Achievement & Assessment]]
 - [[SoT - Prosthetic Executive Function]] — the compensation strategy behind all scaffolding
 
 ### 🎓 GCSE — Planning & Tracking
@@ -40,7 +39,6 @@ How Bessie's mind works — ADHD, dyslexia, working memory — and what compensa
 - [[Times Tables Mastery Guide]]
 - [[Language of Maths]] / [[Linking the Language of Maths]] / [[Maths and English Language]]
 - [[Bessie's Master Guide to AQA GCSE Combined Science!]]
-- [[Bessie GCSE Art - Patterns in Nature (Green)]] — current Art project (inbox)
 
 ### 📚 GCSE — Subject Notes
 

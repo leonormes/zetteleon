@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-08-01T10:30:00+00:00
+modified: 2026-08-07T15:55:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-expansion
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Expansion
@@ -40,6 +40,7 @@ Expansion is the continuation of dynamic tension throughout the shot process, ma
 - Head & Neck Drift: The head visibly shifts backward as you try to force the arrow through the clicker.
 - Forward Lean / Stretching: The torso or front shoulder stretches forward toward the target face.
 - Clicker Mechanical Integrity: If your arrow shaft visibly bounces or jumps upward the instant the clicker blade releases, you have an equipment problem (blade tension too high).
+- Rushing (Lack of Back Tension): Back tension takes a moment to initiate and consolidate. Rushed archers pull the string back and instantly let go using only arm and finger muscles. This causes a weak release, lateral spread, and forward collapsing (especially as draw weight increases or a clicker is added).
 
 ### Training Drills
 
@@ -58,6 +59,10 @@ Expansion is the continuation of dynamic tension throughout the shot process, ma
   1. Thread an elastic cord through a short arrow shaft segment and tie it into a loop.
   2. Place the loop around your draw arm so the arrow shaft sits directly in the crease of your elbow joint.
   3. At full draw, focus on squeezing the arrow shaft around behind your body.
+
+### References
+
+- Archery | Rushed Shot Processes - Slow Down! (NUSensei)
 
 ---
 
