@@ -1,13 +1,16 @@
 ---
 aliases: []
-conformant: false
+conformant: true
 created: 2025-10-31T09:20:29+00:00
-modified: 2026-07-28T09:12:48+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+definition: The cognitive error of treating inferred mental states as factual knowledge, often amplified by projection.
+distinguishes_from: []
+modified: 2026-08-06T11:23:15+00:00
+non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/mind-reading-fallacy-and-projection
 tags: [TheHuman/Cognition/bias, topic/social-cognition, topic/social-perception]
 title: Mind-Reading Fallacy and Projection
 type: concept
+used_in_claims: []
 ---
 
 ## Mind-Reading Fallacy and Projection
@@ -33,6 +36,8 @@ Related to metacognition: Like the [[Illusion of Explanatory Depth (IoED)]], min
 ### Related
 
 - [[Illusion of Explanatory Depth (IoED)]]
-- [[Reality Testing]]
-- [[Confirmation Bias Distorts Social Perception]]
-- [[Spotlight Effect]]
+- [[Reality Testing]] %%[depends_on:: [[Reality Testing]]]%%
+- [[Cognitive Biases Reinforce Mental Models|Confirmation Bias Distorts Social Perception]] %%[implements:: [[Cognitive Biases Reinforce Mental Models]]]%%
+- [[SoT - Social Cognition & Self-Perception|Spotlight Effect]]
+- [[MOC - Social Perception and Self-Awareness]] - _The central map exploring how we form rapid judgements and systematic biases._
+- [[Fundamental Attribution Error]] - _A sibling cognitive bias that similarly distorts how we interpret others' actions versus our own._
