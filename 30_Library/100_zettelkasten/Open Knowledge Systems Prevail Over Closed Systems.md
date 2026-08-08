@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-07-20T13:32:17+00:00
 epistemic_status: medium
 evidence_links: ["[[Alchemy Protected Truth Through Obscurity]]", "[[Antithetical Knowledge Systems in the 17th Century]]", "[[Mathematics Established Knowledge Through Open Demonstration]]"]
-modified: 2026-07-28T09:12:49+00:00
+modified: 2026-08-08T10:29:21+00:00
 non_conformance_reason: "evidence_links point to three concept notes rather than dedicated Evidence notes, and all three describe the same single historical episode. The claim generalises across all knowledge systems from an n=1 comparison — see Steelman."
 permalink: llmeon/30-library/100-zettelkasten/open-knowledge-systems-prevail-over-closed-systems
 proposition: Knowledge systems that expose their claims to open demonstration and refutation are more durable and self-correcting than systems that rest on secrecy and protected authority.

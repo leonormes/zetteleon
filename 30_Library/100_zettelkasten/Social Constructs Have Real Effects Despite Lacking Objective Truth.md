@@ -4,7 +4,7 @@ conformant: true
 created: 2025-11-01T09:51:13+00:00
 epistemic_status: high
 merged_from: '[[Social Constructs are Not Arbitrary, They are Real in Their Effects]]'
-modified: 2026-08-01T00:00:00+00:00
+modified: 2026-08-08T10:29:24+00:00
 permalink: llmeon/30-library/100-zettelkasten/social-constructs-have-real-effects-despite-lacking-objective-truth
 prodos.kind: atomic
 prodos.lifecycle: stable
@@ -22,7 +22,7 @@ Details: Money, language, and ethical norms are social constructs rather than ob
 
 ### Contingent, Not Arbitrary
 
-The word doing the damage is *arbitrary*. A construct is **contingent** — it could have been otherwise, and it has a history explaining why it is as it is — but it is not random. Money, language and law all carry rules, precedent, and immense downstream consequence. The error is the slide from "this is constructed" to "this is arbitrary, therefore ignorable"; that slide is what turns the discovery of contingency into nihilism rather than into leverage. Recognising a system as constructed tells you where the levers are, not that there are none.
+The word doing the damage is _arbitrary_. A construct is contingent—it could have been otherwise, and it has a history explaining why it is as it is—but it is not random. Money, language and law all carry rules, precedent, and immense downstream consequence. The error is the slide from "this is constructed" to "this is arbitrary, therefore ignorable"; that slide is what turns the discovery of contingency into nihilism rather than into leverage. Recognising a system as constructed tells you where the levers are, not that there are none.
 
 ---
 
@@ -32,6 +32,6 @@ The word doing the damage is *arbitrary*. A construct is **contingent** — it c
 - [[The Realization that Knowledge is Contingent Can Lead to a Crisis of Certainty]]—_The disorientation this claim is the remedy for._
 - [[Values Serve as Navigational Compass in Absence of Absolute Truth]]—_How to steer once constructs are seen as navigable rather than illusory._
 
-> Merged 2026-08-01 from `Social Constructs are Not Arbitrary, They are Real in Their Effects` — a duplicate claim captured in a parallel session. Its distinct contingent-vs-arbitrary argument is preserved above; its title now resolves to a tombstone redirect pointing here.
+> Merged 2026-08-01 from `Social Constructs are Not Arbitrary, They are Real in Their Effects`—a duplicate claim captured in a parallel session. Its distinct contingent-vs-arbitrary argument is preserved above; its title now resolves to a tombstone redirect pointing here.
 
 %%[supports:: [[Shift from Seeking Rightness to Seeking Utility]], strength=4, confidence=high]%%

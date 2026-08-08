@@ -17,8 +17,8 @@ Follow-through is the dynamic reaction of the body and bow after release, showin
 1. Action vs. Reaction: The follow-through is an automatic physical reaction. Squeeze the draw elbow around the spine throughout follow-through.
 2. Draw Arm & Hand:
    - Maintain the back tension and elbow squeeze post-release.
-   - The draw elbow should follow a smooth, horizontal rotational plane centered on the spine rather than dropping downward.
-   - The draw hand flies straight back to the area between the ear and neck.
+   - The draw elbow should follow a smooth, horizontal rotational plane centered on the spine rather than dropping downward, moving forcefully backward as if striking a wall directly behind the archer.
+   - The draw hand flies straight back to the area between the ear and neck, sliding dynamically along the archer's neck due to the sudden release of tension.
    - Preserve Hand Shape: Keep the hand in its relaxed, naturally curved shape through the end of the follow-through.
 3. Bow Arm Counter-Tension:
    - Point your bow-hand index finger straight down upon release to guide the bow straight down.
@@ -71,6 +71,20 @@ Follow-through is the dynamic reaction of the body and bow after release, showin
   1. Hang a lightweight object right behind your draw elbow.
   2. Execute the shot. Your elbow should move straight back and cleanly slide away from the object.
   3. If you lack tension and collapse, your elbow will pluck outward and strike the dangling guide.
+
+#### Post-Shot Hand Trajectory
+
+- Purpose: Ingrains the proper backward sliding motion of the release hand along the neck.
+- How to do it:
+  1. Have a coach place a hand lightly on the back of your neck.
+  2. Upon release, your drawing hand should dynamically slap or slide into the coach's hand, ensuring straight backward recoil rather than lateral plucking.
+
+#### The Shot Trainer Device
+
+- Purpose: Safely captures the kinetic energy of the bow while forcing the archer to experience the true physical reaction of a surprise release and dynamic follow-through.
+- How to do it:
+  1. Strap an archery shot trainer (e.g., Astra) to the drawing elbow and bowstring.
+  2. Execute the shot normally. The device arrests the string but allows the archer to feel the full rotational follow-through.
 
 ### References
 

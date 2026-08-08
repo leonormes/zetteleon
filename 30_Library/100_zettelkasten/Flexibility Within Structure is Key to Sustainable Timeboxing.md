@@ -2,7 +2,7 @@
 aliases: [Flexible Structure]
 conformant: false
 created: 2025-11-01T21:12:00+00:00
-modified: 2026-07-28T09:12:46+00:00
+modified: 2026-08-08T10:29:18+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/flexibility-within-structure-is-key-to-sustainable-timeboxing
 tags: [balance, flexibility, scheduling, time-management, topic/productivity]

@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T00:00:00+00:00
-modified: 2026-08-07T15:55:00+00:00
+modified: 2026-08-08T10:29:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-raise
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Raise
@@ -20,7 +20,7 @@ Raise is the act of lifting the bow to eye level while seating the bow-side shou
 4. Lift—raise both hands to eye level. Keep the chest down and lift the arms independently of the ribcage (never shrug the shoulders). The bow hand should travel perfectly vertically without sweeping in a wide arc.
 5. Rotate the bow arm—internally rotate during the raise (elbow turned outward/vertical), before full draw weight loads onto the bow. Imagine a "scooping" motion with your bow hand as you lift to prevent the shoulder from creeping up.
 6. Reach—at the top of the raise, extend the base of the bow wrist/hand as far as possible directly toward the target. Focus on the movement of reaching; this automatically forces the shoulder down, fires the lats and triceps, and wraps tension around the arm down to the wrist (do not overthink flexing individual muscles).
-7. Apex Breath & Settle—as you reach the apex of the lift, **breathe out** and settle downward slightly into your final Set-Up position to relax and stabilize the shoulders.
+7. Apex Breath & Settle—as you reach the apex of the lift, breathe out and settle downward slightly into your final Set-Up position to relax and stabilize the shoulders.
 8. Hold the reach—maintain that reaching tension continuously while pulling the string back.
 
 Verification—the acromion divot: when the reach is set correctly, the deltoid flares up, leaving a visible divot at the top of the shoulder (the acromion). If the shoulder rides up or alignment collapses, the divot disappears.
@@ -35,7 +35,7 @@ Verification—the acromion divot: when the reach is set correctly, the deltoid 
 
 ### Alternative Views / Corrections
 
-- **Lift Driving Force (Jake Kaminski):** Kaminski teaches that the bow arm should be the main driving force for the lift, with the draw hand directly connected via the bowstring simply following the bow arm upward. This contrasts with the strict two-handed lift approach which argues that lifting primarily with the bow arm can over-engage the deltoids.
+- Lift Driving Force (Jake Kaminski): Kaminski teaches that the bow arm should be the main driving force for the lift, with the draw hand directly connected via the bowstring simply following the bow arm upward. This contrasts with the strict two-handed lift approach which argues that lifting primarily with the bow arm can over-engage the deltoids.
 
 ### Faults & Diagnostics
 

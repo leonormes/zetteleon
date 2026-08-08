@@ -2,7 +2,7 @@
 aliases: [The Self as a Curated Set of Values]
 conformant: false
 created: 2025-11-06T19:58:03+00:00
-modified: 2026-07-28T09:12:52+00:00
+modified: 2026-08-08T10:29:25+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/the-self-is-constructed-through-a-commitment-to-chosen-values
 tags: [existentialism, integrity, self, TheHuman/Identity, values]
@@ -24,7 +24,8 @@ Supported by:
 
 ## Distinguished From Curation-of-Influences
 
-Confirmed 2026-08-01: this is **not** a duplicate of [[The Self is Constructed Through Curation of Influences]]. That claim is about *intake* — which influences, environments and exemplars you let in, an ongoing editorial filter. This one is about *output* — the forward-looking act of binding yourself to values and acting on them when a fork arrives. Curation supplies the candidate values; commitment is what makes any of them load-bearing. The failure modes differ accordingly: drift by default diet there, hypocrisy and [[Akrasia is Acting Against One's Better Judgment|akrasia]] here. See the comparison table in that note.
+Confirmed 2026-08-01: this is not a duplicate of [[The Self is Constructed Through Curation of Influences]]. That claim is about _intake_—which influences, environments and exemplars you let in, an ongoing editorial filter. This one is about _output_—the forward-looking act of binding yourself to values and acting on them when a fork arrives. Curation supplies the candidate values; commitment is what makes any of them load-bearing. The failure modes differ accordingly: drift by default diet there, hypocrisy and [[Akrasia is Acting Against One's Better Judgment|akrasia]] here. See the comparison table in that note.
 
 %%[supports:: [[SoT - Values and Eudaimonia]], strength=4, confidence=high]%%
+
 %%[depends_on:: [[The Self is Constructed Through Curation of Influences]], strength=4, confidence=high]%%

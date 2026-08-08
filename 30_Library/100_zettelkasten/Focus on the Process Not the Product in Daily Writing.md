@@ -3,7 +3,7 @@ aliases: []
 conformant: true
 created: 2025-10-30T12:10:02+00:00
 epistemic_status: high
-modified: 2026-07-28T09:12:46+00:00
+modified: 2026-08-08T10:29:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/focus-on-the-process-not-the-product-in-daily-writing
 prodos.kind: atomic
 prodos.lifecycle: stable
@@ -30,4 +30,5 @@ For a daily writing habit to be effective as a thinking tool, the focus must be 
 - [[SoT - Perfectionism and Analysis Paralysis]]—_Discusses how ProdOS architecture enforces "Process over Product" to break the cycle of perfectionism._
 
 %%[implements:: [[SoT - Processing IS the Work]]]%%
+
 %%[solves:: [[SoT - Perfectionism and Analysis Paralysis]]]%%

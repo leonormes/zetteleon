@@ -14,8 +14,8 @@ Loading is the act of drawing the bow using the scapular retractors and shoulder
 
 ### The Steps
 
-1. Initiate the draw by leading with the back of the drawing shoulder (LAN2) moving parallel to the shooting line and continuously around behind your head.
-2. Move the drawing hand in a clean, straight line directly toward the jaw/chin. Do not loop the hand outward and inward.
+1. Initiate the draw by leading with the back of the drawing shoulder (LAN2, located midway between the elbow and shoulder joint on the triceps). Move LAN2 in a sweeping, angular arc parallel to the shooting line and continuously around behind your head, driving the drawing-side scapula decisively toward the spine.
+2. Move the drawing hand in a clean, straight, diagonal line directly toward the lower jaw/chin. Do not loop the hand outward and inward.
 3. Lead the pull using your draw elbow. Move the entire drawing shoulder as a unit.
 4. Keep the hand limp/loose except for the exact forearm flexor tension required to keep the finger hook locked static.
 5. Draw the remaining length by engaging the back muscles (scapular retractors) and moving the draw elbow in an "up and around" path.
@@ -26,7 +26,7 @@ Loading is the act of drawing the bow using the scapular retractors and shoulder
 ### Why It Works
 
 - Drawing with the core, torso, and back muscles ("lawnmower pull") provides generating drawing power and avoids fatiguing bicep or forearm muscles.
-- Moving LAN2 around behind the head automatically engages back muscles and lower trapezius without needing to micromanage muscle contractions.
+- The NTS mandates an angular draw kinematic over linear pulling. Moving LAN2 around behind the head automatically engages back muscles and lower trapezius without needing to micromanage muscle contractions. By the end of the loading phase, this shifts the vast majority of the draw weight away from the arms, ensuring the back muscles hold approximately 80% of the bow's peak weight.
 - Squeezing the shoulder blades together achieves the final inch of draw length and transfers heavy bow weight from arm muscles to stronger back muscles.
 - As you load straight back, the bow handle naturally pivots in your palm to align directly with the target.
 - Stopping at the load position ensures you achieve nearly 100% of your draw length before moving up into anchor.
@@ -43,12 +43,26 @@ Loading is the act of drawing the bow using the scapular retractors and shoulder
 
 ### Training Drills
 
-#### Scapular Tactile Feedback Drill
+#### Scapular Tactile Feedback Drill (Tactile Scapula Verification)
 
 - Purpose: Teaches drawing with back muscle engagement (scapular retractors) rather than pulling with biceps/forearms.
 - How to do it:
-  1. Have a training partner place their hands directly on your drawing-side scapula.
-  2. Perform a draw, leading with your elbow "up and around". The partner should feel the shoulder blade slide firmly inwards.
+  1. Have a training partner place their hands flat between your shoulder blades.
+  2. Perform a draw, leading with your elbow "up and around". The partner should feel the drawing-side scapula actively compress their hand toward the spine (lack of compression indicates linear arm pulling).
+
+#### LAN2 Resistance Band Isolation
+
+- Purpose: Removes the hand, wrist, and forearm from the kinematic chain to isolate scapular retraction and LAN2 rotation.
+- How to do it:
+  1. Loop a heavy resistance band around your drawing elbow (rather than gripping it with your hand).
+  2. Perform the draw cycle, forcing yourself to draw using only LAN2 angular motion.
+
+#### The Draw Stop Check
+
+- Purpose: Evaluates alignment when hitting the mechanical back wall (for compound shooters).
+- How to do it:
+  1. Have a coach evaluate the alignment of the elbow and shoulders the moment the cams roll over.
+  2. The drawing forearm must be completely parallel to the arrow shaft, indicating the angular draw successfully aligned the skeletal structure.
 
 #### Shot Trainer / Elbow Sling Drawing
 

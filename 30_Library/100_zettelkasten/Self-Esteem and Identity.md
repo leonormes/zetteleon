@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-05-26T18:13:07+00:00
 last_reviewed: ''
-modified: 2026-07-28T09:12:50+00:00
+modified: 2026-08-08T10:29:23+00:00
 permalink: llmeon/30-library/100-zettelkasten/self-esteem-and-identity
 status: ''
 tags: []

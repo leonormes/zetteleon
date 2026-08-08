@@ -2,7 +2,7 @@
 aliases: [Bouncing Back]
 conformant: false
 created: 2025-11-01T21:26:00+00:00
-modified: 2026-07-28T09:12:50+00:00
+modified: 2026-08-08T10:29:23+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/resilience-is-the-ability-to-bounce-back-from-setbacks
 tags: [character-strength, growth, resilience, TheHuman/Psychology, virtue]

@@ -2,7 +2,7 @@
 aliases: [Future-Mindedness, Optimism]
 conformant: false
 created: 2025-12-10T12:00:00+00:00
-modified: 2026-07-28T09:12:47+00:00
+modified: 2026-08-08T10:29:19+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/hope-is-expecting-the-best-in-the-future-and-working-for-it
 tags: [character-strength, hope, transcendence]

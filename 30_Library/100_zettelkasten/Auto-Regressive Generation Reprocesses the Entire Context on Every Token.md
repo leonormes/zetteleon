@@ -1,7 +1,7 @@
 ---
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: high
-modified: 2026-07-28T09:12:54+00:00
+modified: 2026-08-08T10:29:16+00:00
 permalink: llmeon/30-library/100-zettelkasten/auto-regressive-generation-reprocesses-the-entire-context-on-every-token
 proposition: LLMs generate text auto-regressively, predicting one token at a time.
   Because each new token depends on everything before it, the entire input—user query,

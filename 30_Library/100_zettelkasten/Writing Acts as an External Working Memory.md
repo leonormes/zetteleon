@@ -2,7 +2,7 @@
 aliases: [Writing as an Extended Brain]
 created: 2025-07-18T00:00:00+00:00
 last_reviewed: ''
-modified: 2026-07-28T09:12:53+00:00
+modified: 2026-08-08T10:29:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/writing-acts-as-an-external-working-memory
 see_also: []
 status: ''

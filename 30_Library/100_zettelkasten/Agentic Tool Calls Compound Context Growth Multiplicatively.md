@@ -1,7 +1,7 @@
 ---
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: high
-modified: 2026-07-28T09:12:54+00:00
+modified: 2026-08-08T10:29:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/agentic-tool-calls-compound-context-growth-multiplicatively
 proposition: Agentic coding assistants cost far more than chatbots because each tool
   call (reading a file, running a search) dumps its full result into the context,

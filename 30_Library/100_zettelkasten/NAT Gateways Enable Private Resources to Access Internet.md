@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-10-31T10:34:00+00:00
-modified: 2026-07-28T09:12:49+00:00
+modified: 2026-08-08T10:29:21+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/nat-gateways-enable-private-resources-to-access-internet
 tags: [cloud, SoftwareEngineering/Networking, SoftwareEngineering/Security]

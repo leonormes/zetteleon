@@ -5,7 +5,7 @@ contradicts: ["[[ADHD Overthinking is a Substitute for Action]]", "[[The Comfort
 created: 2025-10-30T15:33:36+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-07-28T09:12:46+00:00
+modified: 2026-08-08T10:29:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/eufriction-productive-friction-strengthens-thinking
 proposition: Deliberate cognitive friction (eufriction) slows down workflow to force deeper engagement with ideas, transforming passive consumption into genuine synthesis and preventing analysis paralysis.
 tags: [cognitive-work, learning, TheHuman/Psychology, topic/pkm, topic/pkm/zettelkasten, topic/productivity]

@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-31T16:09:01+00:00
 last_reviewed: ''
-modified: 2026-07-28T09:12:45+00:00
+modified: 2026-08-08T10:29:17+00:00
 permalink: llmeon/30-library/100-zettelkasten/creative-expression-across-mediums
 status: ''
 tags: [art, creative-expression, multimedia, music, non-linguistic-expression]

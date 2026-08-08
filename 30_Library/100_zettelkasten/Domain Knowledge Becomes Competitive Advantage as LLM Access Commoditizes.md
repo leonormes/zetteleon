@@ -1,7 +1,7 @@
 ---
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: high
-modified: 2026-07-28T09:12:54+00:00
+modified: 2026-08-08T10:29:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/domain-knowledge-becomes-competitive-advantage-as-llm-access-commoditizes
 proposition: As LLM access becomes cheap and universal, the ability to write code
   from scratch becomes a commodity skill. The differentiator shifts to domain expertise—understanding

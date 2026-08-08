@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2026-05-04T08:01:26+00:00
-modified: 2026-07-28T09:12:45+00:00
+modified: 2026-08-08T10:29:18+00:00
 non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/100-zettelkasten/5c-emergence-1
 title: Emergence

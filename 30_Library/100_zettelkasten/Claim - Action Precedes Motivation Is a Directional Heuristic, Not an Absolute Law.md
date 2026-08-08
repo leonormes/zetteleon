@@ -2,22 +2,19 @@
 aliases: []
 conformant: true
 created: 2026-08-07T00:00:00+01:00
-modified: 2026-08-07T00:00:00+01:00
+epistemic_status: medium
+modified: 2026-08-08T10:29:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/claim-action-precedes-motivation-is-a-directional-heuristic-not-an-absolute-law
 proposition: "'Action precedes motivation' is a reliable operating heuristic for overcoming ADHD initiation deficits, but stated as an absolute law it overstates a bidirectional relationship — initiation still needs some triggering condition, so the defensible claim is that motivation cannot reliably be waited for, not that thought never usefully precedes action."
-epistemic_status: medium
-tags: [adhd, motivation, epistemics, topic/productivity]
+tags: [adhd, epistemics, motivation, topic/productivity]
 title: Claim - Action Precedes Motivation Is a Directional Heuristic, Not an Absolute Law
 type: claim
 upstream: "[[HEAD - The Trap of the Architect]]"
-prodos:
-  kind: atomic
-  lifecycle: seedling
-  trust: working
 ---
-As a *heuristic for someone stuck in analysis*, "action precedes motivation" is well-grounded: [[Motion Creates Emotion to Overcome Inertia]] hypothesises that ADHD reward deficiency releases dopamine kinetically (during engagement) rather than in anticipation, so waiting to feel ready is structurally a trap, and [[SoT - The Cognitive Physiology of Task Execution]] independently states that motivation is a result of action, not its cause.
 
-Taken as a universal law, though, it flattens a loop into a one-way arrow. Something still has to select *which* action to take and *when* — initiation itself requires a trigger, whether that is a timer, an if-then implementation intention, or a pre-staged cue. "Action precedes motivation" correctly diagnoses that you cannot wait for the *feeling*; it does not establish that thinking never usefully precedes action, only that thinking cannot substitute for starting.
+As a _heuristic for someone stuck in analysis_, "action precedes motivation" is well-grounded: [[Motion Creates Emotion to Overcome Inertia]] hypothesises that ADHD reward deficiency releases dopamine kinetically (during engagement) rather than in anticipation, so waiting to feel ready is structurally a trap, and [[SoT - The Cognitive Physiology of Task Execution]] independently states that motivation is a result of action, not its cause.
+
+Taken as a universal law, though, it flattens a loop into a one-way arrow. Something still has to select _which_ action to take and _when_—initiation itself requires a trigger, whether that is a timer, an if-then implementation intention, or a pre-staged cue. "Action precedes motivation" correctly diagnoses that you cannot wait for the _feeling_; it does not establish that thinking never usefully precedes action, only that thinking cannot substitute for starting.
 
 ## Knowledge Graph
 

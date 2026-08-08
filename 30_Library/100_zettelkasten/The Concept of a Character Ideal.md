@@ -2,7 +2,7 @@
 aliases: [Character Ideal, Virtue Ethics]
 created: 2025-07-16T17:30:02+00:00
 last_reviewed: 'null'
-modified: 2026-07-28T09:12:51+00:00
+modified: 2026-08-08T10:29:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-concept-of-a-character-ideal
 status: 'null'
 tags: [character, ethics, topic/philosophy, virtue]
@@ -27,4 +27,3 @@ The character ideal is not a rigid standard for perfect conformity, but a guide 
 ## Related
 
 - [[MOC - Character and Virtue]] - Provides a framework for understanding character through positive psychology.
-

@@ -1,6 +1,6 @@
 ---
 created: 2026-07-28T07:51:28+00:00
-modified: 2026-07-28T09:12:53+00:00
+modified: 2026-08-08T10:29:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/vibe-coding-rapid-ai-assisted-code-generation-without-engineering-rigor
 title: Vibe Coding - Rapid AI-Assisted Code Generation Without Engineering Rigor
 ---

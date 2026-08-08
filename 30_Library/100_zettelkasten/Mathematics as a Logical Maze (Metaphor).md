@@ -2,7 +2,7 @@
 aliases: [Logical Maze Metaphor]
 conformant: false
 created: 2025-11-01T11:22:13+00:00
-modified: 2026-07-28T09:12:48+00:00
+modified: 2026-08-08T10:29:21+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/mathematics-as-a-logical-maze-metaphor
 tags: [metaphor, pedagogy, topic/maths]

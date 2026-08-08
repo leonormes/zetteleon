@@ -3,7 +3,7 @@ aliases: [Importance-Based Nervous System, Neurotypical Motivation]
 axiom: true
 created: 2025-07-16T17:30:01+00:00
 last_reviewed: "null"
-modified: 2026-07-28T09:12:49+00:00
+modified: 2026-08-08T10:29:21+00:00
 permalink: llmeon/30-library/100-zettelkasten/neurotypical-motivation-is-primarily-importance-driven
 status: seed
 tags: [importance, neurotypical, TheHuman/Health/ADHD, TheHuman/Motivation]

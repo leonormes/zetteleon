@@ -2,7 +2,7 @@
 aliases: [Smart Person Conundrum]
 created: 2025-07-17T10:04:00+00:00
 last_reviewed: 'null'
-modified: 2026-07-28T09:12:52+00:00
+modified: 2026-08-08T10:29:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-smart-person-conundrum-amplifies-overthinking
 status: 'null'
 tags: [intelligence, overthinking, risk, TheHuman/Cognition]

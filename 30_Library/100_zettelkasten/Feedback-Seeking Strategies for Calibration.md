@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-31T09:20:29+00:00
 last_reviewed: ''
-modified: 2026-07-28T09:12:46+00:00
+modified: 2026-08-08T10:29:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/feedback-seeking-strategies-for-calibration
 status: seedling
 tags: [method/calibration, topic/social-cognition, topic/social-perception]

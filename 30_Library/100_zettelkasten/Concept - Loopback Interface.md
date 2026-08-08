@@ -2,7 +2,7 @@
 aliases: [lo]
 conformant: false
 created: 2025-11-22T15:00:12+00:00
-modified: 2026-07-28T09:12:44+00:00
+modified: 2026-08-08T10:29:17+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/concept-loopback-interface
 tags: [SoftwareEngineering/networking/kernel]

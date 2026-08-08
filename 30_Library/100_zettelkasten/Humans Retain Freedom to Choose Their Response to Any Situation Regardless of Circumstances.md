@@ -3,7 +3,7 @@ aliases: [Attitudinal Freedom, Freedom of Will (Frankl), The Last of the Human F
 conformant: true
 created: 2026-04-10T00:00:00+00:00
 epistemic_status: high
-modified: 2026-07-28T09:12:47+00:00
+modified: 2026-08-08T10:29:19+00:00
 permalink: llmeon/30-library/100-zettelkasten/humans-retain-freedom-to-choose-their-response-to-any-situation-regardless-of-circumstances
 proposition: "No external circumstance, however extreme, can remove a person's capacity to choose the attitude they take toward it."
 tags: [agency, freedom, mindset, resilience]

@@ -2,7 +2,7 @@
 aliases: [Visual Project Documentation]
 created: 2025-11-11T19:05:05+00:00
 last_reviewed: ''
-modified: 2026-07-28T09:12:53+00:00
+modified: 2026-08-08T10:29:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/visual-thinking-tools-preserve-project-mental-models
 status: seedling
 tags: [project-management, topic/productivity, visualization]

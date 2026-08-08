@@ -2,7 +2,7 @@
 aliases: [The Map is Not the Territory]
 conformant: false
 created: 2025-11-06T19:59:03+00:00
-modified: 2026-07-28T09:12:52+00:00
+modified: 2026-08-08T10:29:25+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/the-map-is-not-the-territory
 tags: [epistemology, mental-model, perception, reality]

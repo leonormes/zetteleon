@@ -3,7 +3,7 @@ aliases: []
 created: 2025-02-07T12:57:54+00:00
 ID: negative_labels_harm
 last_reviewed: ''
-modified: 2026-07-28T09:12:49+00:00
+modified: 2026-08-08T10:29:21+00:00
 permalink: llmeon/30-library/100-zettelkasten/negative-labels-create-biased-expectations
 status: ''
 tags: [self]

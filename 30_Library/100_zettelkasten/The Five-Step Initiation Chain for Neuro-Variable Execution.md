@@ -2,7 +2,7 @@
 created: 2026-07-13T08:31:11+00:00
 created_utc: '2026-07-13T08:17:00Z'
 kind: procedure
-modified: 2026-07-28T09:12:52+00:00
+modified: 2026-08-08T10:29:25+00:00
 permalink: llmeon/00-inbox/the-five-step-initiation-chain-for-neuro-variable-execution
 source_title: 'Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture: An Investigative Report'
 source_url: ''

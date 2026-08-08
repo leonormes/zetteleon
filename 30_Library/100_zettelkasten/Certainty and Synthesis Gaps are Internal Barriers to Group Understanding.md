@@ -2,7 +2,7 @@
 aliases: [Certainty Gap, Synthesis Gap]
 conformant: false
 created: 2025-11-06T20:01:02+00:00
-modified: 2026-07-28T09:12:44+00:00
+modified: 2026-08-08T10:29:16+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/certainty-and-synthesis-gaps-are-internal-barriers-to-group-understanding
 tags: [collaboration, communication, group-dynamics, knowledge, TheHuman/Cognition/bias]

@@ -2,7 +2,7 @@
 created: 2026-04-14T17:43:28+00:00
 created_utc: '2026-04-14T12:20:00Z'
 kind: heuristic
-modified: 2026-07-28T09:12:53+00:00
+modified: 2026-08-08T10:29:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/writing-as-cognitive-rigour
 source_title: The Fundamental Challenge of Concurrent and Distributed Systems
 source_url: http://www.youtube.com/watch?v=U719vQz-WFs

@@ -3,12 +3,12 @@ aliases: []
 conformant: true
 created: 2025-07-25T08:34:42+00:00
 epistemic_status: high
-modified: 2026-07-11T12:34:00+01:00
+modified: 2026-08-08T10:29:17+00:00
 permalink: llmeon/30-library/100-zettelkasten/contextual-integration-of-new-ideas
 prodos.kind: atomic
 prodos.lifecycle: stable
 proposition: "An effective thought partner must contextually integrate new ideas into the existing knowledge graph rather than merely storing them in isolation."
-tags: [knowledge-management, llm, integration]
+tags: [integration, knowledge-management, llm]
 title: Contextual Integration of New Ideas
 type: claim
 ---

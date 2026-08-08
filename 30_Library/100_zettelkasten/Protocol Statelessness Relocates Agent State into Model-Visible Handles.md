@@ -4,7 +4,7 @@ contradicts: []
 created: 2026-07-27T17:52:00+01:00
 epistemic_status: medium
 evidence_links: ["[[Evidence - MCP 2026-07-28 Removes Protocol Sessions in Favour of Explicit Handles]]"]
-modified: 2026-07-28T09:12:53+00:00
+modified: 2026-08-08T10:29:22+00:00
 permalink: llmeon/30-library/100-zettelkasten/protocol-statelessness-relocates-agent-state-into-model-visible-handles
 proposition: Removing protocol-level sessions does not remove state but relocates it from transport metadata the model cannot see into explicit handles that appear in tool results, and this relocation is a capability gain rather than merely a scaling fix, because a handle can be composed across tools and passed between workflow steps while a session identifier never could.
 status: draft

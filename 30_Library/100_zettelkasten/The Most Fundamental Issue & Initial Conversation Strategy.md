@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-11-11T04:37:15+00:00
 last_reviewed: ''
-modified: 2026-07-28T09:12:52+00:00
+modified: 2026-08-08T10:29:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-most-fundamental-issue-initial-conversation-strategy
 see_also: []
 status: ''

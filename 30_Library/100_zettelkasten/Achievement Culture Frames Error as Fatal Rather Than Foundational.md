@@ -2,23 +2,20 @@
 aliases: []
 conformant: true
 created: 2026-08-03T00:00:00+01:00
-modified: 2026-08-03T00:00:00+01:00
-permalink: llmeon/30-library/100-zettelkasten/achievement-culture-frames-error-as-fatal-rather-than-foundational
 epistemic_status: medium
+modified: 2026-08-08T10:29:14+00:00
+permalink: llmeon/30-library/100-zettelkasten/achievement-culture-frames-error-as-fatal-rather-than-foundational
 proposition: "Hyper-competitive educational environments teach that being wrong is a status loss rather than a step in learning, which drives learners to avoid precisely the disorientation that comprehension requires."
-tags: [TheHuman/Cognition, TheHuman/Psychology, topic/education, status, shame]
+tags: [shame, status, TheHuman/Cognition, TheHuman/Psychology, topic/education]
 title: Achievement Culture Frames Error as Fatal Rather Than Foundational
 type: claim
-prodos:
-  kind: atomic
-  lifecycle: seedling
-  trust: working
 ---
-The mechanism is specific rather than vague. In a ranked environment, an error is not merely an error — it is publicly legible information about your position. That converts a normal step in learning into a status event, and status events are avoided.
+
+The mechanism is specific rather than vague. In a ranked environment, an error is not merely an error—it is publicly legible information about your position. That converts a normal step in learning into a status event, and status events are avoided.
 
 The consequence is that achievement culture systematically selects against the state that learning requires. Students who are optimising for rank rationally avoid material they might be confused by, choosing instead work they can already do well. The system produces high performance and shallow understanding at the same time, and the two are causally connected rather than merely coexisting.
 
-This also explains why the cost falls hardest on non-traditional learners, who arrive with less prior scaffolding and therefore need *more* time in the disoriented state — exactly the state the environment punishes.
+This also explains why the cost falls hardest on non-traditional learners, who arrive with less prior scaffolding and therefore need _more_ time in the disoriented state—exactly the state the environment punishes.
 
 ## Steelman
 

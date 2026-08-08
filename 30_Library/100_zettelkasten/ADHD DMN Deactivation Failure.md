@@ -3,12 +3,12 @@ aliases: []
 conformant: true
 created: 2025-10-31T00:05:00+00:00
 epistemic_status: high
-modified: 2026-07-28T09:12:42+00:00
+modified: 2026-08-08T10:29:14+00:00
 permalink: llmeon/30-library/100-zettelkasten/adhd-dmn-deactivation-failure
 prodos.kind: atomic
 prodos.lifecycle: stable
 proposition: ADHD brains fail to progressively deactivate the default mode network (specifically the precuneus) during sustained attention tasks, resulting in mind-wandering and DMN intrusion.
-tags: [adhd, dmn, neuroscience, attention]
+tags: [adhd, attention, dmn, neuroscience]
 title: ADHD DMN Deactivation Failure
 type: claim
 ---
@@ -23,5 +23,5 @@ Clinical Relevance: This failure explains the characteristic "daydreaming" and m
 
 ## Related
 
-- [[ADHD Task-Paralysis Reflects DMN-FPN Maturational Lag, Not Willpower Failure]] — _A related but distinct DMN dysregulation mechanism (maturational lag vs. deactivation failure)._
+- [[ADHD Task-Paralysis Reflects DMN-FPN Maturational Lag, Not Willpower Failure]]—_A related but distinct DMN dysregulation mechanism (maturational lag vs. deactivation failure)._
 - [[MOC - ADHD Functional Neurology & Scaffolding]]

@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-05-27T17:55:20+00:00
 last_reviewed: ''
-modified: 2026-07-28T09:12:44+00:00
+modified: 2026-08-08T10:29:16+00:00
 permalink: llmeon/30-library/100-zettelkasten/attention-in-learning
 status: ''
 tags: [learning]

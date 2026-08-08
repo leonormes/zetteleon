@@ -2,7 +2,7 @@
 aliases: [Visual Schedules for Kids]
 conformant: true
 created: 2025-11-10T14:17:00+00:00
-modified: 2026-07-28T09:12:53+00:00
+modified: 2026-08-08T10:29:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/visual-schedules-help-children-understand-routines-and-manage-transitions
 tags: [autism, family, organization, parenting, TheHuman/Health/ADHD, tools]
 title: Visual Schedules Help Children Understand Routines and Manage Transitions

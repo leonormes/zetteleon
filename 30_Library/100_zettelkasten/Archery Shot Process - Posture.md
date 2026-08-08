@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-07-28T09:12:43+00:00
+modified: 2026-08-08T10:29:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-posture
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Posture
@@ -25,6 +25,7 @@ Posture focuses on engaging the core, positioning the hips and torso to transfer
 ### Why It Works
 
 - Archery posture differs from standard vertical "proud posture" (chest out, back arched), which is counterproductive. Arching the lower back disconnects the shoulder blades from the rib cage, destroys core stability, and physically restricts your rotational range of motion when trying to align your shoulders.
+- Counteracting the "Hollow Back": Excessive lumbar lordosis (pelvic crossed syndrome) causes high contact pressures in the lumbar facet joints, impinging the neural lamina. An active posterior pelvic tilt safely transfers the bow's compressive forces straight down the spine into the legs rather than shearing horizontally across the lumbar discs.
 - Dropping your chest shortens the abdominal wall for stability and creates substantial clearance so the string doesn't slap your chest or clothing at full draw.
 - Proper T-line posture prevents unnecessary muscle strain and helps your sight pin float in a slow, controlled motion.
 - Lifting a 7–8 lb bow 30 inches away from your body naturally shifts your center of gravity forward toward the target. Keep your spine stacked completely straight and accept that as you raise the bow, your center of pressure will naturally shift forward over your front foot.
@@ -34,9 +35,9 @@ Posture focuses on engaging the core, positioning the hips and torso to transfer
 ### Faults & Diagnostics
 
 - Posture Failure Points:
-  - *During Raise*: Arching the lower back to lift the bow.
-  - *During Draw*: Pulling back with the spine/back instead of drawing with the scapula.
-  - *During Follow-Through*: Leaning back or collapsing as the arrow leaves.
+  - _During Raise_: Arching the lower back to lift the bow.
+  - _During Draw_: Pulling back with the spine/back instead of drawing with the scapula.
+  - _During Follow-Through_: Leaning back or collapsing as the arrow leaves.
 - Eliminating Postural Sway: Maintain complete torso and core stability along the shooting line with zero swaying or leaning forward/backward during the draw and execution. If your body sways, you cannot accurately feel what your shoulders and upper back muscles are doing.
 - Head Movement: Avoid turning or adjusting your head mid-draw, as this creates postural shifts and shot inconsistency.
 - Leaning Back: A common flaw is leaning your upper body backward to try and keep a 50/50 balance between your left and right foot.
@@ -88,6 +89,26 @@ Posture focuses on engaging the core, positioning the hips and torso to transfer
 - How to do it:
   1. Practice blank-bale shooting while standing on a wobble cushion, or with your eyes closed during execution.
   2. Focus purely on internal core stability and maintaining complete torso stillness along the shooting line.
+
+#### The Dowel/Wall Drill
+
+- Purpose: Verifies the complete elimination of the hollow back and confirms a neutral spine.
+- How to do it:
+  1. A coach places a straight dowel against your spine, or you stand with your back against a flat wall.
+  2. Your head, thoracic spine, and sacrum should touch the dowel/wall simultaneously.
+
+#### The Nickel Visualization
+
+- Purpose: Forces glute engagement and facilitates posterior pelvic tilt (locking the hips).
+- How to do it:
+  1. During stance and setup, actively visualize holding a coin between your gluteal muscles.
+
+#### Shoulder Hinge Check
+
+- Purpose: Confirms skeletal alignment and prevents over-reliance on deltoid strength.
+- How to do it:
+  1. Perform the draw cycle in front of a mirror or on video.
+  2. Ensure the front shoulder remains low and locked in its pocket; any upward shrugging indicates a failure of skeletal alignment.
 
 ---
 

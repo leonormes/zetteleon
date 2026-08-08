@@ -2,7 +2,7 @@
 aliases: [Antifragility]
 conformant: false
 created: 2025-11-01T09:51:13+00:00
-modified: 2026-07-28T09:12:43+00:00
+modified: 2026-08-08T10:29:15+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/anti-fragility-means-systems-that-benefit-from-volatility
 tags: [anti-fragility, chaos, mental-model, resilience, strategy]

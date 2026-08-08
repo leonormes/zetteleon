@@ -3,12 +3,12 @@ aliases: [forms of life, meaning in use, Wittgensteinian pragmatics]
 conformant: true
 created: 2025-10-31T20:05:00+00:00
 epistemic_status: high
-modified: 2026-07-28T09:12:48+00:00
+modified: 2026-08-08T10:29:21+00:00
 permalink: llmeon/30-library/100-zettelkasten/meaning-emerges-from-language-games
 prodos.kind: atomic
 prodos.lifecycle: stable
 proposition: Meaning is not fixed definitions or mental-to-mental transmission, but emerges from how language is used in practice within shared social activities (language games).
-tags: [philosophy-of-language, pragmatics, Wittgenstein, communication]
+tags: [communication, philosophy-of-language, pragmatics, Wittgenstein]
 title: Meaning emerges from language games
 type: claim
 ---

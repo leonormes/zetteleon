@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-10-31T09:25:27+00:00
-modified: 2026-07-28T09:12:48+00:00
+modified: 2026-08-08T10:29:20+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/load-balancer-health-checks-ensure-traffic-is-routed-only-to-healthy-servers
 tags: [load-balancing, reliability, SoftwareEngineering/Networking]

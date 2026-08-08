@@ -4,7 +4,7 @@ conformant: true
 created: 2025-07-20T13:32:44+00:00
 definition: "Alchemy's deliberate use of pseudonyms, symbolism and arcane language to protect knowledge from the uninitiated, treating truth as a static inheritance to be guarded rather than a claim to be corrected."
 distinguishes_from: ["[[Mathematics Established Knowledge Through Open Demonstration]]"]
-modified: 2026-07-28T09:12:43+00:00
+modified: 2026-08-08T10:29:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/alchemy-protected-truth-through-obscurity
 tags: [alchemy, esotericism, history-of-science, knowledge, methodology, secrecy]
 title: Alchemy Protected Truth Through Obscurity

@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2026-07-16T15:11:33+00:00
-modified: 2026-07-28T09:12:44+00:00
+modified: 2026-08-08T10:29:16+00:00
 non_conformance_reason: Merged during bulk deduplication.
 permalink: llmeon/30-library/100-zettelkasten/claim-intrinsic-motivation-lowers-adhd-activation-cost-compared-to-external-pressure
 title: Claim - Intrinsic motivation lowers ADHD activation cost compared to external pressure

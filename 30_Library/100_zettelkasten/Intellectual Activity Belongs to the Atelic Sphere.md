@@ -1,29 +1,26 @@
 ---
 aliases: []
 conformant: true
-created: 2026-08-03T00:00:00+01:00
-modified: 2026-08-03T00:00:00+01:00
-permalink: llmeon/30-library/100-zettelkasten/intellectual-activity-belongs-to-the-atelic-sphere
 contradicts: ["[[ADHD Overthinking is a Substitute for Action]]"]
+created: 2026-08-03T00:00:00+01:00
 epistemic_status: medium
+modified: 2026-08-08T10:29:20+00:00
+permalink: llmeon/30-library/100-zettelkasten/intellectual-activity-belongs-to-the-atelic-sphere
 proposition: "Reading, observation and contemplation are atelic activities whose value is contained in the performing of them, not in any credential, product or advantage they subsequently yield."
-tags: [TheHuman/Philosophy, learning, topic/meaning, atelic]
+tags: [atelic, learning, TheHuman/Philosophy, topic/meaning]
 title: Intellectual Activity Belongs to the Atelic Sphere
 type: claim
-prodos:
-  kind: atomic
-  lifecycle: seedling
-  trust: working
 ---
-> **Open threads:** [[HEAD - Is atelic contemplation distinguishable from avoidance from the inside]]
 
-Zena Hitz's core move is to place intellectual life alongside love, art and play rather than alongside work. On this account, an afternoon spent thinking that produces no note, no output and no transferable skill has not failed — there was nothing it was supposed to produce. The thinking was the thing.
+> Open threads: [[HEAD - Is atelic contemplation distinguishable from avoidance from the inside]]
 
-This is a claim about *where the value sits*, not a claim that intellectual work never produces anything useful. It frequently does. The claim is that the useful by-products are not what justify the activity, and that treating them as the justification changes the activity into something else.
+Zena Hitz's core move is to place intellectual life alongside love, art and play rather than alongside work. On this account, an afternoon spent thinking that produces no note, no output and no transferable skill has not failed—there was nothing it was supposed to produce. The thinking was the thing.
+
+This is a claim about _where the value sits_, not a claim that intellectual work never produces anything useful. It frequently does. The claim is that the useful by-products are not what justify the activity, and that treating them as the justification changes the activity into something else.
 
 ## Steelman
 
-The atelic framing is conveniently unfalsifiable, and it is available as a post-hoc defence of any unproductive habit. A person who reads for six hours and builds nothing can always describe the six hours as intrinsically complete. Without an independent criterion, "atelic" risks being a compliment we pay to our own idleness — which is exactly the charge this vault's ADHD material levels at undirected thinking.
+The atelic framing is conveniently unfalsifiable, and it is available as a post-hoc defence of any unproductive habit. A person who reads for six hours and builds nothing can always describe the six hours as intrinsically complete. Without an independent criterion, "atelic" risks being a compliment we pay to our own idleness—which is exactly the charge this vault's ADHD material levels at undirected thinking.
 
 ## Knowledge Graph
 

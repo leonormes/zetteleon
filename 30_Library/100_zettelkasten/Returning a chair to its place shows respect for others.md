@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-10-29T16:35:00+00:00
-modified: 2026-07-28T09:12:50+00:00
+modified: 2026-08-08T10:29:23+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/returning-a-chair-to-its-place-shows-respect-for-others
 source: '[[MOC - 8 simple Japanese habits]]'

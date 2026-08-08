@@ -5,7 +5,7 @@ contradicts: ["[[SoT - ADHD Neurology & Core Concepts]]"]
 created: 2025-10-30T12:07:04+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-08-03T13:21:01+01:00
+modified: 2026-08-08T10:29:14+00:00
 non_conformance_reason: "evidence_links is empty. The body cites a specific network-analysis result (91.8%, 116,220 combinations) with no source note, citation, or study name — the note's entire evidential weight rests on an uncited statistic."
 permalink: llmeon/30-library/100-zettelkasten/adhd-is-a-heterogeneous-condition-with-unique-symptom-patterns
 proposition: ADHD presentation varies so widely between individuals that population-level generalisations about symptom profile have limited predictive value for any given person.
@@ -15,7 +15,7 @@ title: ADHD is a Heterogeneous Condition with Unique Symptom Patterns
 type: claim
 ---
 
-> **Open threads:** [[HEAD - Does my ADHD SoT overstate a single architecture?]]
+> Open threads: [[HEAD - Does my ADHD SoT overstate a single architecture?]]
 
 ADHD is a heterogeneous condition, meaning its presentation varies significantly from person to person. A network analysis study found that 91.8% of individuals with ADHD had a unique symptom pattern, with 116,220 possible combinations. This highlights that the "average ADHD patient" has limited informative value and that a one-size-fits-all approach to understanding or treating ADHD is inappropriate.
 

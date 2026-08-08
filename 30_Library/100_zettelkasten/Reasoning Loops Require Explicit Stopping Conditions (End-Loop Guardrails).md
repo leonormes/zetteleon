@@ -1,7 +1,7 @@
 ---
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: high
-modified: 2026-07-28T09:12:54+00:00
+modified: 2026-08-08T10:29:23+00:00
 permalink: llmeon/30-library/100-zettelkasten/reasoning-loops-require-explicit-stopping-conditions-end-loop-guardrails
 proposition: When an LLM is given tool access, it enters a reasoning loop (plan →
   execute → evaluate → decide). Without explicit stopping conditions, loops run indefinitely

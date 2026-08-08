@@ -3,7 +3,7 @@ aliases: []
 conformant: true
 created: 2025-02-07T12:57:55+00:00
 epistemic_status: high
-modified: 2026-07-10T11:28:00+01:00
+modified: 2026-08-08T10:29:20+00:00
 permalink: llmeon/30-library/100-zettelkasten/limited-capacity-brain
 prodos.kind: atomic
 prodos.lifecycle: stable
@@ -24,15 +24,19 @@ The brain is also limited in its ability to pay attention, with a "window of con
 Humans possess a finite capacity for processing and holding information simultaneously. This cognitive constraint means that our ability to absorb and integrate vast amounts of data at any given moment is limited, contributing to the myopic nature of our understanding. (See: [[Myopic Understanding]])
 
 %%[supports:: [[Cognitive Offloading Frees Mental Resources for Decision-Making and Problem-Solving]]]%%
+
 %%[supports:: [[SoT - Working Memory & Schema Theory]]]%%
+
 %%[supports:: [[SoT - Illusion of Explanatory Depth (IoED)]]]%%
+
 %%[supports:: [[SoT - Prosthetic Executive Function]]]%%
+
 %%[supports:: [[SoT - Learning Mechanisms]]]%%
 
 ## Related
 
-- [[SoT - Learning Mechanisms]] — _Detailed explanation of WM capacity and components._
-- [[SoT - Working Memory & Schema Theory]] — _How WM limitations manifest as a bottleneck._
-- [[SoT - Illusion of Explanatory Depth (IoED)]] — _Explains the brain's tendency to jump to conclusions and construct convincing, albeit inaccurate, narratives to fill gaps in limited memory._
-- [[SoT - Prosthetic Executive Function]] — _Discusses strategies for cognitive offloading to compensate for the brain's inherent recall limitations._
-- [[Cognitive Offloading Frees Mental Resources for Decision-Making and Problem-Solving]] — _Offloading is required precisely because of this limited capacity._
+- [[SoT - Learning Mechanisms]]—_Detailed explanation of WM capacity and components._
+- [[SoT - Working Memory & Schema Theory]]—_How WM limitations manifest as a bottleneck._
+- [[SoT - Illusion of Explanatory Depth (IoED)]]—_Explains the brain's tendency to jump to conclusions and construct convincing, albeit inaccurate, narratives to fill gaps in limited memory._
+- [[SoT - Prosthetic Executive Function]]—_Discusses strategies for cognitive offloading to compensate for the brain's inherent recall limitations._
+- [[Cognitive Offloading Frees Mental Resources for Decision-Making and Problem-Solving]]—_Offloading is required precisely because of this limited capacity._

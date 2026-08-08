@@ -2,7 +2,7 @@
 aliases: [Action Triggers]
 created: 2025-11-01T20:39:00+00:00
 last_reviewed: 2025-11-01
-modified: 2026-07-28T09:12:43+00:00
+modified: 2026-08-08T10:29:14+00:00
 permalink: llmeon/30-library/100-zettelkasten/action-triggers-bridge-the-gap-between-motion-and-action
 status: evergreen
 tags: [implementation-intentions, procrastination, TheHuman/Habits, topic/productivity]

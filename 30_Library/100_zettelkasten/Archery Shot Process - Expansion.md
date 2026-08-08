@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-08-07T15:55:00+00:00
+modified: 2026-08-08T10:29:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-expansion
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Expansion
@@ -21,6 +21,8 @@ Expansion is the continuation of dynamic tension throughout the shot process, ma
 3. Active Push, Active Pull: Actively push into the bow's grip while pulling the string back, stretching the body in two opposite directions. Direct pushing pressure exactly at target center.
 4. Minimal Distance Through the Clicker: When you reach full draw and anchor, you should have only 1 to 4 millimeters of the arrow left under the clicker blade.
 5. Smooth, Continuous Clicker Expansion: Develop a repeatable, smooth method of expanding through the last few millimeters of the clicker without stalling, collapsing forward, or jerking the release.
+   - _Time Limit:_ Expansion should take no longer than 1 to 3 seconds. Holding for an extended duration (5+ seconds) degrades visual acuity, depletes oxygen reserves, and invites cognitive doubt.
+   - _Respiratory Pause:_ Perform this expansion during a natural respiratory pause (holding the breath). Breathing during expansion alters chest volume and physically moves the bow sight off the target.
 6. Clicker Execution: To pull the final millimeters through the clicker, squeeze your draw elbow around your back/body. Do not just pull backward with your hand.
 7. Expansion Mindset: Squeeze the draw elbow around the spine throughout the click, release, and follow-through. Continue this action until the arrow strikes the target.
 
@@ -59,6 +61,20 @@ Expansion is the continuation of dynamic tension throughout the shot process, ma
   1. Thread an elastic cord through a short arrow shaft segment and tie it into a loop.
   2. Place the loop around your draw arm so the arrow shaft sits directly in the crease of your elbow joint.
   3. At full draw, focus on squeezing the arrow shaft around behind your body.
+
+#### Clicker/Release Timing
+
+- Purpose: Quantifies the smoothness and consistency of the dynamic expansion phase.
+- How to do it:
+  1. Have a coach or partner time the duration from the start of the aiming phase to the activation of the clicker/release aid.
+  2. If the shot breaks in 1 to 3 seconds consistently, expansion is smooth. If it takes 5+ seconds, you have lost back tension and are "stuck."
+
+#### Respiratory Pause Verification
+
+- Purpose: Ensures breathing mechanics do not disrupt the sight picture during the final millimeters of pull.
+- How to do it:
+  1. Intentionally monitor your diaphragm during the expansion phase.
+  2. Verify that expansion is performed exclusively during a natural respiratory pause (breath held) and not during an active inhale or exhale.
 
 ### References
 

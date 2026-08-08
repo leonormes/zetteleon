@@ -2,7 +2,7 @@
 aliases: [Generalization, Mathematical Abstraction]
 conformant: false
 created: 2025-11-01T11:22:13+00:00
-modified: 2026-07-28T09:12:42+00:00
+modified: 2026-08-08T10:29:14+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/abstraction-and-generalization-are-core-mathematical-methods
 tags: [abstraction, methodology, topic/maths]

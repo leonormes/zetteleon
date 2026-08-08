@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-07-28T10:28:15+00:00
+modified: 2026-08-08T10:29:24+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/small-models-should-execute-structured-tool-calls-large-models-complex-reasoning
 tags: [cost-optimization, local-models, performance, semantic-routing]

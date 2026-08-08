@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-11-01T09:51:13+00:00
-modified: 2026-07-28T09:12:52+00:00
+modified: 2026-08-08T10:29:26+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/values-serve-as-navigational-compass-in-absence-of-absolute-truth
 tags: [decision-making, navigation, pragmatism, topic/philosophy, values]

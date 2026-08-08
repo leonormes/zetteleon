@@ -2,7 +2,7 @@
 aliases: [Habits Override Intentions]
 conformant: false
 created: 2025-11-06T19:56:01+00:00
-modified: 2026-07-28T09:12:51+00:00
+modified: 2026-08-08T10:29:24+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/strong-habits-override-weak-intentions
 tags: [intentions, TheHuman/Habits, TheHuman/Motivation, topic/systems]

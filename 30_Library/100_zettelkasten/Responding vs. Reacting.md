@@ -4,7 +4,7 @@ conformant: true
 created: 2025-09-07T15:32:45+00:00
 definition: A response is a chosen action selected in the space between stimulus and behaviour; a reaction is an automatic discharge that closes that space.
 last_reviewed: ''
-modified: 2026-07-28T09:12:50+00:00
+modified: 2026-08-08T10:29:23+00:00
 permalink: llmeon/30-library/100-zettelkasten/responding-vs.-reacting
 status: ''
 tags: [agency, emotional-regulation, mushin]

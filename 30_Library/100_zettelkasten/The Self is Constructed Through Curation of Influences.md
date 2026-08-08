@@ -3,7 +3,7 @@ aliases: [The Self as Editorial Process]
 conformant: true
 created: 2025-11-01T09:51:13+00:00
 epistemic_status: high
-modified: 2026-08-01T00:00:00+00:00
+modified: 2026-08-08T10:29:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-self-is-constructed-through-curation-of-influences
 prodos.kind: atomic
 prodos.lifecycle: stable
@@ -21,15 +21,15 @@ Details: The self is not a raw, unmediated essence but an ongoing editorial proc
 
 ## Distinguished From Commitment-to-Values
 
-This is **not** the same claim as [[The Self is Constructed Through a Commitment to Chosen Values]], though the two are often collapsed. They name different mechanisms:
+This is not the same claim as [[The Self is Constructed Through a Commitment to Chosen Values]], though the two are often collapsed. They name different mechanisms:
 
 | | Curation of influences | Commitment to chosen values |
 |:--|:--|:--|
-| **Operates on** | Intake — inputs, environments, exemplars | Output — action, in the moment of choice |
-| **Temporal direction** | Ongoing, retrospective filtering | Forward-looking binding |
-| **Register** | Descriptive: how a self in fact forms | Normative: how a self is deliberately held together |
-| **Failure mode** | Passive absorption; drift by default diet | Hypocrisy; [[Akrasia is Acting Against One's Better Judgment]] |
-| **Repair** | Change what you are exposed to | Change what you do when the fork arrives |
+| Operates on | Intake—inputs, environments, exemplars | Output—action, in the moment of choice |
+| Temporal direction | Ongoing, retrospective filtering | Forward-looking binding |
+| Register | Descriptive: how a self in fact forms | Normative: how a self is deliberately held together |
+| Failure mode | Passive absorption; drift by default diet | Hypocrisy; [[Akrasia is Acting Against One's Better Judgment]] |
+| Repair | Change what you are exposed to | Change what you do when the fork arrives |
 
 They compose rather than compete: curation supplies the candidate values that commitment then binds to. You cannot commit to a value you were never exposed to, which is why the commitment claim depends on this one and not the reverse.
 

@@ -2,7 +2,7 @@
 aliases: [Positive Cargo]
 conformant: false
 created: 2025-10-30T12:05:08+00:00
-modified: 2026-07-28T09:12:49+00:00
+modified: 2026-08-08T10:29:22+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/positive-cargo-is-a-strategy-for-overwriting-bad-habits
 source: '[[MOC - The Science of Making and Breaking Habits]]'

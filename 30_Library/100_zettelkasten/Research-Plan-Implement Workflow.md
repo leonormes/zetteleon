@@ -2,7 +2,7 @@
 created: 2026-04-13T14:37:11+00:00
 created_utc: '2026-04-13T11:10:00Z'
 kind: procedure
-modified: 2026-07-28T09:12:50+00:00
+modified: 2026-08-08T10:29:23+00:00
 permalink: llmeon/30-library/100-zettelkasten/research-plan-implement-workflow
 source_title: Agentic Engineering and AI Workflow Management
 source_url: https://gemini.google.com/app/7a41bb3090001aa4

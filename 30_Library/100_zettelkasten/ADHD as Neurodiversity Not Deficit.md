@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-10-31T12:15:00+00:00
-modified: 2026-07-28T09:12:42+00:00
+modified: 2026-08-08T10:29:14+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/adhd-as-neurodiversity-not-deficit
 tags: [neurodiversity, TheHuman/Health/ADHD]

@@ -2,7 +2,7 @@
 aliases: [Neuroplasticity]
 conformant: false
 created: 2025-11-10T16:16:00+00:00
-modified: 2026-07-28T09:12:49+00:00
+modified: 2026-08-08T10:29:21+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/neuroplasticity-is-the-brains-ability-to-change-in-response-to-experience
 tags: [brain, learning, neuroplasticity, TheHuman/Neuroscience]

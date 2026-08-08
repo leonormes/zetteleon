@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-05-08T06:57:07+00:00
 last_reviewed: ''
-modified: 2026-07-28T09:12:51+00:00
+modified: 2026-08-08T10:29:24+00:00
 permalink: llmeon/30-library/100-zettelkasten/sunk-cost-fallacy
 status: ''
 tags: [fallacy]

@@ -2,7 +2,7 @@
 aliases: []
 conformant: true
 created: 2025-10-31T10:06:00+00:00
-modified: 2026-07-28T09:12:48+00:00
+modified: 2026-08-08T10:29:21+00:00
 permalink: llmeon/30-library/100-zettelkasten/mnemonic-devices-create-associative-memory-hooks
 prodos.kind: concept
 prodos.lifecycle: stub

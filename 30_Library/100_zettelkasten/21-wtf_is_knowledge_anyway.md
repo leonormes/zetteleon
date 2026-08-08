@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2026-05-04T08:01:26+00:00
-modified: 2026-07-28T09:12:42+00:00
+modified: 2026-08-08T10:29:14+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/21-wtf-is-knowledge-anyway
 title: 21-wtf_is_knowledge_anyway

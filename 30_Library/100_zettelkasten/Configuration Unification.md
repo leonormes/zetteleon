@@ -2,7 +2,7 @@
 created: 2026-04-14T20:11:24+00:00
 created_utc: '2026-04-14T12:40:00Z'
 kind: mechanism
-modified: 2026-07-28T09:12:45+00:00
+modified: 2026-08-08T10:29:17+00:00
 permalink: llmeon/30-library/100-zettelkasten/configuration-unification
 source_title: CUE — A Type System for the Cloud
 source_url: https://www.youtube.com/watch?v=FsUytTpDNro

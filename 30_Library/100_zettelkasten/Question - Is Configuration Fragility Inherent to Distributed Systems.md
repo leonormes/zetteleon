@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2026-07-16T15:12:03+00:00
-modified: 2026-07-28T09:12:50+00:00
+modified: 2026-08-08T10:29:23+00:00
 non_conformance_reason: Merged during bulk deduplication.
 permalink: llmeon/30-library/100-zettelkasten/question-is-configuration-fragility-inherent-to-distributed-systems
 title: Question - Is Configuration Fragility Inherent to Distributed Systems

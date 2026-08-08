@@ -2,7 +2,7 @@
 aliases: [Micro-Tasks for ADHD, Task Chunking Strategy]
 created: 2025-10-30T15:00:39+00:00
 last_reviewed: '2025-10-30'
-modified: 2026-07-28T09:12:44+00:00
+modified: 2026-08-08T10:29:16+00:00
 permalink: llmeon/30-library/100-zettelkasten/breaking-projects-into-micro-tasks-reduces-adhd-overwhelm
 status: seedling
 tags: [overwhelm, project-management, task-management, TheHuman/Health/ADHD]

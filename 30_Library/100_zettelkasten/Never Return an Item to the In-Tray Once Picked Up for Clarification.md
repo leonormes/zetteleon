@@ -2,7 +2,7 @@
 conformant: true
 created: 2026-04-10T00:00:00+00:00
 epistemic_status: high
-modified: 2026-08-01T21:04:59+00:00
+modified: 2026-08-08T10:29:21+00:00
 permalink: llmeon/30-library/100-zettelkasten/never-return-an-item-to-the-in-tray-once-picked-up-for-clarification
 prodos.kind: claim
 prodos.lifecycle: stable

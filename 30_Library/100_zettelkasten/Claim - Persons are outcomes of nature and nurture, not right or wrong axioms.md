@@ -2,7 +2,7 @@
 created: 2026-07-15T14:04:05+00:00
 created_utc: '2026-07-15T14:04:00Z'
 kind: claim
-modified: 2026-07-28T09:12:44+00:00
+modified: 2026-08-08T10:29:16+00:00
 permalink: llmeon/30-library/100-zettelkasten/claim-persons-are-outcomes-of-nature-and-nurture-not-right-or-wrong-axioms
 source_title: ecological-mind-model
 source_url: https://gemini.google.com/app/dd7fd18f2310946a

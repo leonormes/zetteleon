@@ -2,7 +2,7 @@
 aliases: [Body Doubling, Body Doubling is an Effective ADHD Strategy]
 created: 2025-10-26T11:12:00+00:00
 last_reviewed: 2025-12-16
-modified: 2026-07-28T09:12:44+00:00
+modified: 2026-08-08T10:29:16+00:00
 permalink: llmeon/30-library/100-zettelkasten/body-doubling-for-adhd-focus
 status: pending
 tags: [accountability, experiment, focus, hypothesis, TheHuman/Health/ADHD, topic/productivity]

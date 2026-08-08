@@ -2,7 +2,7 @@
 aliases: [Day Theming]
 conformant: false
 created: 2025-11-10T14:11:00+00:00
-modified: 2026-07-28T09:12:45+00:00
+modified: 2026-08-08T10:29:17+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/day-theming-is-a-macro-time-blocking-strategy
 project_name: ProdOS

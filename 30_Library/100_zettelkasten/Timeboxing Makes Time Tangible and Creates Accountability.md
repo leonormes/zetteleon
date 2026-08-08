@@ -3,7 +3,7 @@ aliases: [Tangible Time]
 conformant: true
 created: 2025-11-01T21:01:00+00:00
 epistemic_status: high
-modified: 2026-07-28T09:12:52+00:00
+modified: 2026-08-08T10:29:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/timeboxing-makes-time-tangible-and-creates-accountability
 prodos.kind: atomic
 prodos.lifecycle: stable

@@ -2,7 +2,7 @@
 aliases: [Citizenship, Social Responsibility]
 conformant: false
 created: 2025-12-10T12:00:00+00:00
-modified: 2026-07-28T09:12:51+00:00
+modified: 2026-08-08T10:29:24+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/teamwork-is-working-well-as-a-member-of-a-group
 tags: [character-strength, justice, teamwork]

@@ -1,7 +1,7 @@
 ---
 conformant: true
 created: 2026-07-27T17:50:00+01:00
-modified: 2026-07-28T09:12:53+00:00
+modified: 2026-08-08T10:29:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/evidence-mcp-2026-07-28-removes-protocol-sessions-in-favour-of-explicit-handles
 source_quote: "What makes the handle more than a workaround is that it is visible to the model. Session state hidden in transport metadata was something the model could never reason about, whereas a handle in a tool result can be composed across tools and handed between workflow steps."
 source_reference: "The New Stack, 'MCP's biggest update removes the machinery many servers were built around', 2026-07-27 — https://thenewstack.io/mcp-release-candidate-rewrite/. Corroborated against the official MCP release post (blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/) and the specification changelog; SEP-2567 (session removal) and SEP-2575 (handshake removal) confirmed."

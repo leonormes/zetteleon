@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-07-01T12:05:33+00:00
 last_reviewed: 'null'
-modified: 2026-07-28T09:12:47+00:00
+modified: 2026-08-08T10:29:20+00:00
 permalink: llmeon/30-library/100-zettelkasten/kubernetes-native-abstractions-for-traffic-control
 status: 'null'
 tags: [SoftwareEngineering/Networking]

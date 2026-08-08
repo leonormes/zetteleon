@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-31T12:06:00+00:00
 last_reviewed: ''
-modified: 2026-07-28T09:12:46+00:00
+modified: 2026-08-08T10:29:19+00:00
 permalink: llmeon/30-library/100-zettelkasten/gnawing-rats-metaphor-for-avoided-tasks
 status: seedling
 tags: [TheHuman/Health/ADHD, topic/productivity]

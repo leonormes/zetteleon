@@ -1,7 +1,7 @@
 ---
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: high
-modified: 2026-07-28T09:12:54+00:00
+modified: 2026-08-08T10:29:19+00:00
 permalink: llmeon/30-library/100-zettelkasten/human-in-the-loop-hitl-as-mandatory-control-layer-for-high-stakes-llm-applications
 proposition: Relying entirely on autonomous LLMs in production is untenable for high-stakes
   domains. Human-in-the-Loop (HITL) is an architectural philosophy that blends human

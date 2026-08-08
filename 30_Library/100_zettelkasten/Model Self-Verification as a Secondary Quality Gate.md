@@ -1,7 +1,7 @@
 ---
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: high
-modified: 2026-07-28T09:12:54+00:00
+modified: 2026-08-08T10:29:21+00:00
 permalink: llmeon/30-library/100-zettelkasten/model-self-verification-as-a-secondary-quality-gate
 proposition: A secondary pipeline pass where the model acts as a strict verifier can
   catch hallucinations in draft outputs. The verifier reads the draft against provided

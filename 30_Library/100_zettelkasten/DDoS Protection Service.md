@@ -3,7 +3,7 @@ aliases: [AWS Shield, Azure DDoS Protection]
 conformant: true
 created: 2025-12-24T12:00:00+00:00
 epistemic_status: high
-modified: 2026-07-28T09:12:45+00:00
+modified: 2026-08-08T10:29:17+00:00
 permalink: llmeon/30-library/100-zettelkasten/ddo-s-protection-service
 prodos.kind: atomic
 prodos.lifecycle: stable

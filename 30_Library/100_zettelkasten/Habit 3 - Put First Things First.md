@@ -4,7 +4,7 @@ conformant: true
 created: 2025-10-20T09:03:00+00:00
 definition: "The principle of personal management — the day-in, day-out execution of a vision, prioritising by importance rather than urgency so that most time is spent in Quadrant II (important, not yet urgent)."
 distinguishes_from: []
-modified: 2026-07-28T09:12:46+00:00
+modified: 2026-08-08T10:29:19+00:00
 permalink: llmeon/30-library/100-zettelkasten/habit-3-put-first-things-first
 tags: [7-habits, execution, gtd, management, principles, productivity, TheHuman/Habits]
 title: Habit 3 - Put First Things First

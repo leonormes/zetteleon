@@ -2,7 +2,7 @@
 aliases: [Use Visual Aids for Routines]
 created: 2025-10-29T16:10:00+00:00
 last_reviewed: 'null'
-modified: 2026-07-28T09:12:53+00:00
+modified: 2026-08-08T10:29:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/visual-schedules-make-routines-tangible
 status: seedling
 tags: [external-cognition, routine, topic/productivity/productivity-tools, visual-thinking]

@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-08-07T15:55:00+00:00
+modified: 2026-08-08T10:29:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-anchor
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Anchor
@@ -14,9 +14,10 @@ Anchor is the final reference for the full draw position and the point of maxima
 
 ### The Steps
 
-1. Placement: Settle the drawing hand firmly along the jawbone. Move your hand slightly up to press the index finger firmly against your jawbone with no gaps. 
+1. Placement: Settle the drawing hand firmly along the jawbone. Move your hand slightly up to press the index finger firmly against your jawbone with no gaps.
+   - _Handheld Release (Compound):_ Place the index finger firmly under the jawline, hook the thumb bone behind the vertical ramus of the mandible, and ensure the bowstring lightly touches the exact tip of the nose.
 2. Real Full Draw: Deliberately micro-move to lock into your final skeletal position and reach true full draw.
-3. Settle In "One Time": Draw straight back and settle smoothly into your anchor in a single, fluid motion.
+3. Settle In "One Time" (Transfer to Hold): Draw straight back and settle smoothly into your anchor in a single, fluid motion. During this transfer, back tension escalates to 95%. Enter a phase of deep mental stillness (like a water bottle settling after being placed upright) before proceeding to release.
 4. Reference Points (Soft Tissue): Ensure the string touches the center (or slightly right) of your nose and slightly right on your chin.
 5. Reference Points (Skeletal): Ensure the index finger and bow shelf are aligned on the same level.
 6. Posture: Maintain full front-shoulder extension (pushing forward) and solid core posture. Maintain firm, active backward pressure driving back against your jawline.
@@ -66,6 +67,27 @@ Anchor is the final reference for the full draw position and the point of maxima
 - How to do it:
   1. Set up a camera zoomed directly onto your clicker blade and arrow point.
   2. Draw to anchor and verify that the starting point remains mechanically identical across repeated draws.
+
+#### Blind Drawing and Anchoring
+
+- Purpose: Tests kinesthetic awareness and deep muscle memory without visual feedback.
+- How to do it:
+  1. Draw the bow with your eyes completely closed, relying solely on feel to find exact facial landmarks.
+  2. Have a partner verify your position before you open your eyes. Inconsistent anchor indicates a lack of ingrained muscle memory.
+
+#### Biofeedback / Heart Rate Monitoring
+
+- Purpose: Evaluates cardiovascular response and mental relaxation during the Transfer to Hold.
+- How to do it:
+  1. Wear a heart rate monitor during practice.
+  2. Observe your heart rate: a properly relaxed archer experiences a slight drop during the hold, whereas a spike indicates physical strain or cognitive anxiety.
+
+#### Nose Pressure Audit
+
+- Purpose: Ensures string contact does not disrupt arrow flight.
+- How to do it:
+  1. Evaluate the exact tactile sensation of the bowstring on the tip of your nose across multiple shots.
+  2. The pressure must remain incredibly light. Pushing the face deeply into the string introduces friction that disrupts the arrow's departure.
 
 ### References
 

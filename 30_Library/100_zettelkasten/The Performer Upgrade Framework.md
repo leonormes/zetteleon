@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-20T08:05:04+00:00
 last_reviewed: 'null'
-modified: 2026-07-28T09:12:52+00:00
+modified: 2026-08-08T10:29:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-performer-upgrade-framework
 status: 'null'
 tags: [environment, TheHuman/Psychology, topic/learning, topic/productivity]

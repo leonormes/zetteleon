@@ -3,12 +3,12 @@ aliases: []
 conformant: true
 created: 2026-05-04T08:01:26+00:00
 epistemic_status: high
-modified: 2026-07-28T09:12:45+00:00
+modified: 2026-08-08T10:29:17+00:00
 permalink: llmeon/30-library/100-zettelkasten/7-cybernetics-1
 prodos.kind: atomic
 prodos.lifecycle: stable
 proposition: "Cybernetics is the study of how mechanical and biological systems regulate themselves and communicate information through feedback loops."
-tags: [cybernetics, systems-thinking, feedback-loops]
+tags: [cybernetics, feedback-loops, systems-thinking]
 title: Cybernetics
 type: claim
 ---

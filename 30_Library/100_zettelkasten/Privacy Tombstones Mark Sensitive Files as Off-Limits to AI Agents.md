@@ -1,7 +1,7 @@
 ---
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: medium
-modified: 2026-07-28T09:13:38+00:00
+modified: 2026-08-08T10:29:22+00:00
 permalink: llmeon/30-library/100-zettelkasten/privacy-tombstones-mark-sensitive-files-as-off-limits-to-ai-agents
 tags: [domain/llm, topic/agent-architecture, topic/pkm, topic/privacy, topic/safety]
 title: Privacy Tombstones Mark Sensitive Files as Off-Limits to AI Agents

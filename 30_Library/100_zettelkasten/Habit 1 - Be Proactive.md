@@ -4,7 +4,7 @@ conformant: true
 created: 2025-10-20T09:01:00+00:00
 definition: "The recognition that we are responsible for our own lives — that our behaviour is a function of our decisions, not our conditions — and the discipline of focusing time and energy on our Circle of Influence rather than our Circle of Concern."
 distinguishes_from: []
-modified: 2026-07-28T09:12:46+00:00
+modified: 2026-08-08T10:29:19+00:00
 permalink: llmeon/30-library/100-zettelkasten/habit-1-be-proactive
 tags: [7-habits, gtd, principles, proactivity, productivity, responsibility, TheHuman/Habits]
 title: Habit 1 - Be Proactive

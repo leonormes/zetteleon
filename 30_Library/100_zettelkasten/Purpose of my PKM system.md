@@ -1,14 +1,12 @@
 ---
-aliases: []
+conformant: false
 created: 2025-05-10T10:01:40+00:00
-last_reviewed: ''
-modified: 2026-07-28T09:12:50+00:00
+modified: 2026-08-08T10:29:23+00:00
+non_conformance_reason: "Needs type-specific schema validation"
 permalink: llmeon/30-library/100-zettelkasten/purpose-of-my-pkm-system
-status: ''
-tags: []
+tags: [domain/pkm, topic/pkm-purpose]
 title: Purpose of my PKM system
-type: ''
-updated: null
+type: concept
 ---
 
 [[I am iterating on creating a thinking system]].
@@ -17,11 +15,15 @@ I want to use writing as an aid to thinking. I believe I'm good at thinking deep
 
 Theoretical Foundation:
 
-- [[Nihilism vs Constructed Meaning]] explains why personal knowledge systems require active meaning-making
+- [[Nihilism vs Constructed Meaning]] explains why personal knowledge systems require active meaning-making %%[depends_on:: [[Nihilism vs Constructed Meaning]]]%%
 - Aligns with creating temporary but functional purpose structures
 
 [[2025-05-06]]
 
-[[Maintaining Lines of Thought Over Time]]
-
 [[2025-04-21]]
+
+## Related
+
+- _Externalising thoughts frees up cognitive capacity for the ADHD mind._ [[Externalize Memory Aggressively (cognitive offloading)]]
+- _Focusing on the thinking process rather than building a perfect wiki product._ [[PKM as Process vs Product]]
+- _Shifts focus from the product to the process of cognitive engagement._ [[SoT - Processing IS the Work]]

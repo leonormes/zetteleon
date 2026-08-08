@@ -2,7 +2,7 @@
 aliases: [Process Primacy, System-Level Determines Outcomes]
 conformant: false
 created: 2025-11-06T19:55:02+00:00
-modified: 2026-07-28T09:12:53+00:00
+modified: 2026-08-08T10:29:26+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/you-fall-to-the-level-of-your-systems-not-rise-to-your-goals
 tags: [goals, outcomes, TheHuman/Habits, topic/systems]

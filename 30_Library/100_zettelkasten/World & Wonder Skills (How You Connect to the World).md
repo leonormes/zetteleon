@@ -3,7 +3,7 @@ aliases: []
 conformant: true
 created: 2025-07-10T10:12:15+00:00
 epistemic_status: high
-modified: 2026-07-28T09:12:53+00:00
+modified: 2026-08-08T10:29:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/world-wonder-skills-how-you-connect-to-the-world
 prodos.kind: atomic
 prodos.lifecycle: stable
@@ -26,6 +26,7 @@ _These skills are about how you find joy, meaning, and your place in the wider w
 _PSHE: Personal, Social, Health and Economic education is a key part of the curriculum that teaches many of these life skills._
 
 %%[extends:: [[A Concept Map for a Flourishing Human]]]%%
+
 %%[synthesizes:: [[Appreciation of Beauty is Noticing Excellence in the World]]]%%
 
 %%[implements:: [[MOC - Character and Virtue]], strength=3, confidence=high]%%

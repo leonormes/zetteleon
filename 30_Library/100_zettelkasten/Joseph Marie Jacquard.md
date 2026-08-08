@@ -1,7 +1,7 @@
 ---
 conformant: true
 created: 2026-05-04T08:01:26+00:00
-modified: 2026-07-28T09:12:47+00:00
+modified: 2026-08-08T10:29:20+00:00
 permalink: llmeon/30-library/100-zettelkasten/joseph-marie-jacquard
 prodos.kind: concept
 prodos.lifecycle: stub

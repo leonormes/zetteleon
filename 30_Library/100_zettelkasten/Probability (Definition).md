@@ -2,7 +2,7 @@
 aliases: [Probability Theory]
 created: 2025-11-01T11:22:13+00:00
 last_reviewed: '2025-11-01'
-modified: 2026-07-28T09:12:49+00:00
+modified: 2026-08-08T10:29:22+00:00
 permalink: llmeon/30-library/100-zettelkasten/probability-definition
 status: seedling
 tags: [fields, topic/maths]

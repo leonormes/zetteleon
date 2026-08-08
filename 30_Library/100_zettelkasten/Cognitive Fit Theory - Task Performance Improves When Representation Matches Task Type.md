@@ -2,7 +2,7 @@
 created: 2026-07-13T08:30:48+00:00
 created_utc: '2026-07-13T08:17:00Z'
 kind: definition
-modified: 2026-07-28T09:12:44+00:00
+modified: 2026-08-08T10:29:16+00:00
 permalink: llmeon/00-inbox/cognitive-fit-theory-task-performance-improves-when-representation-matches-task-type
 source_title: 'Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture: An Investigative Report'
 source_url: ''

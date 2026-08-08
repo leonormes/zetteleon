@@ -3,7 +3,7 @@ aliases: [Aristotelian Knowledge, Episteme-Techne-Phronesis]
 conformant: true
 created: 2025-11-12T14:10:02+00:00
 epistemic_status: high
-modified: 2026-07-28T09:12:43+00:00
+modified: 2026-08-08T10:29:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/aristotle-distinguished-between-episteme-techne-and-phronesis
 prodos.kind: atomic
 prodos.lifecycle: stable

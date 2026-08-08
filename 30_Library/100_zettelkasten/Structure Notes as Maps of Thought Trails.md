@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-20T09:44:00+00:00
 last_reviewed: 'null'
-modified: 2026-07-28T09:12:51+00:00
+modified: 2026-08-08T10:29:24+00:00
 permalink: llmeon/30-library/100-zettelkasten/structure-notes-as-maps-of-thought-trails
 status: 'null'
 tags: [organization, topic/knowledge-architecture, topic/pkm, topic/pkm/zettelkasten]

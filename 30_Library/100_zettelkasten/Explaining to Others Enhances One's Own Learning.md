@@ -3,7 +3,7 @@ aliases: [Feynman Technique, Protégé Effect]
 conformant: true
 created: 2025-11-10T16:09:00+00:00
 epistemic_status: high
-modified: 2026-07-28T09:12:46+00:00
+modified: 2026-08-08T10:29:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/explaining-to-others-enhances-ones-own-learning
 prodos.kind: atomic
 prodos.lifecycle: stable
@@ -31,4 +31,5 @@ Details: This strategy forces the learner to organize their thoughts coherently,
 - [[SoT - Experiential Learning & Education]]—_The broader pedagogical framework that prioritizes active engagement and reflection over passive consumption._
 
 %%[implements:: [[SoT - Active Learning Techniques]]]%%
+
 %%[depends_on:: [[SoT - Illusion of Explanatory Depth (IoED)]]]%%

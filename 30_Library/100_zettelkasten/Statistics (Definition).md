@@ -2,7 +2,7 @@
 aliases: [Statistical Science]
 created: 2025-11-01T11:22:13+00:00
 last_reviewed: '2025-11-01T00:00:00.000Z'
-modified: 2026-07-28T09:12:51+00:00
+modified: 2026-08-08T10:29:24+00:00
 permalink: llmeon/30-library/100-zettelkasten/statistics-definition
 status: seedling
 tags: [fields, topic/maths]

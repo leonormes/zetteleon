@@ -2,7 +2,7 @@
 created: 2026-04-13T14:41:15+00:00
 created_utc: 2026-04-13 11:20:00+00:00
 kind: distinction
-modified: 2026-08-03T13:21:01+01:00
+modified: 2026-08-08T10:29:22+00:00
 permalink: llmeon/30-library/100-zettelkasten/prompt-architecture-levels
 source_title: AI Agent Architecture and the Modern Tech Stack
 source_url: https://gemini.google.com/app/509937047bd0b955
@@ -13,7 +13,7 @@ type: atom
 upstream: '[[HEAD The Failure of Human-Centric Design]]'
 ---
 
-> **Open threads:** [[HEAD - Do declarative rules or few-shot demonstrations constrain LLM output better?]]
+> Open threads: [[HEAD - Do declarative rules or few-shot demonstrations constrain LLM output better?]]
 
 ## Prompt Architecture Levels
 

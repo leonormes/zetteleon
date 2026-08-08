@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-08-03T13:21:01+01:00
+modified: 2026-08-08T10:29:22+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/outsourcing-writing-to-ai-bypasses-the-cognitive-strain-that-builds-professional-competence
 tags: [ai, cognitive-fitness, professional-development, writing]
@@ -9,7 +9,7 @@ title: Outsourcing Writing to AI Bypasses the Cognitive Strain That Builds Profe
 type: claim
 ---
 
-> **Open threads:** [[HEAD - Is cognitive strain a cost to automate away, or the mechanism that builds competence?]]
+> Open threads: [[HEAD - Is cognitive strain a cost to automate away, or the mechanism that builds competence?]]
 
 ## Outsourcing Writing to AI Bypasses the Cognitive Strain That Builds Professional Competence
 

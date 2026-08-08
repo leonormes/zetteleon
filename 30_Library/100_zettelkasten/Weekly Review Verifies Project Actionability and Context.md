@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-11-10T15:19:00+00:00
 last_reviewed: ''
-modified: 2026-07-28T09:12:53+00:00
+modified: 2026-08-08T10:29:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/weekly-review-verifies-project-actionability-and-context
 status: seedling
 tags: [gtd, project-management, topic/productivity, weekly-review]

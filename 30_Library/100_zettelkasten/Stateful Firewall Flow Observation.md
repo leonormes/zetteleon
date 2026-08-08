@@ -2,7 +2,7 @@
 created: 2026-04-14T11:11:48+00:00
 created_utc: '2026-04-14T10:35:00Z'
 kind: failure_mode
-modified: 2026-07-28T09:12:51+00:00
+modified: 2026-08-08T10:29:24+00:00
 permalink: llmeon/30-library/100-zettelkasten/stateful-firewall-flow-observation
 source_title: Networking Is Label Transformation Under Policy
 source_url: N/A

@@ -2,7 +2,7 @@
 aliases: [Clarification Ritual]
 created: 2025-12-16T14:40:00+00:00
 last_reviewed: '2025-12-16T00:00:00.000Z'
-modified: 2026-07-28T09:12:51+00:00
+modified: 2026-08-08T10:29:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-clarification-ritual-stuff-to-action
 status: pending
 tags: [clarification, experiment, gtd, hypothesis, TheHuman/Health/ADHD, topic/productivity]

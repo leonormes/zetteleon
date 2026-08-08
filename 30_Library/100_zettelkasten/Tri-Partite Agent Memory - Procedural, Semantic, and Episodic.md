@@ -1,7 +1,7 @@
 ---
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: high
-modified: 2026-07-28T09:12:54+00:00
+modified: 2026-08-08T10:29:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/tri-partite-agent-memory-procedural-semantic-and-episodic
 proposition: Autonomous agents require three distinct memory stores with different
   access patterns and retention policies. Procedural memory holds instructions (how-to

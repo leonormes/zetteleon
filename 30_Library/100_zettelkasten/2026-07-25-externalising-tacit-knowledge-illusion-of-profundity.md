@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-07-25T11:17:00+00:00
 epistemic_status: medium
 evidence_links: ["[[SoT - Illusion of Explanatory Depth (IoED)]]"]
-modified: 2026-07-28T09:12:42+00:00
+modified: 2026-08-08T10:29:13+00:00
 non_conformance_reason: "evidence_links points to a synthesis SoT note, not a dedicated Evidence note; no standalone EvidenceNote exists yet for this claim."
 permalink: llmeon/30-library/100-zettelkasten/2026-07-25-externalising-tacit-knowledge-illusion-of-profundity
 proposition: Internal thoughts feel profound because they rest on unstated tacit context — emotional charge, intuitive leaps, private narrative — and that context vanishes the moment the idea is spoken or written, often leaving it looking skeletal even when the underlying insight was sound.

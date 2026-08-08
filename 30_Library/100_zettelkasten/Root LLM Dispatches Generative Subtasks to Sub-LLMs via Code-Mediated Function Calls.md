@@ -1,30 +1,26 @@
 ---
-created: 2026-07-28 00:00:00+00:00
-modified: 2026-07-28 00:00:00+00:00
-title: Root LLM Dispatches Generative Subtasks to Sub-LLMs via Code-Mediated Function
-  Calls
-type: claim
+created: 2026-07-28T00:00:00+00:00
 epistemic_status: medium
-tags:
-- domain/llm
-- topic/agent-architecture
-- topic/multi-agent
-- topic/rlm
+modified: 2026-08-08T10:29:23+00:00
+permalink: llmeon/30-library/100-zettelkasten/root-llm-dispatches-generative-subtasks-to-sub-llms-via-code-mediated-function-calls
 proposition: In a Recursive Language Model, a Root LLM acts as orchestrator — it writes
-  Python code, manages the environment's variables, and defines prompts — but does
+  "Python code, manages the environment's variables, and defines prompts — but does"
   not itself perform the generative work on task data. When a specific piece of generative
   or classification work is needed, the Root LLM invokes a special `llm_query` function
   from within its own Python code, which dispatches that specific chunk of work to
   a Sub-LLM. Delegation happens through a code-level function call, not through a
   fixed agent-role handoff or a graph transition.
-permalink: llmeon/30-library/100-zettelkasten/root-llm-dispatches-generative-subtasks-to-sub-llms-via-code-mediated-function-calls
+tags: [domain/llm, topic/agent-architecture, topic/multi-agent, topic/rlm]
+title: Root LLM Dispatches Generative Subtasks to Sub-LLMs via Code-Mediated Function Calls
+  Calls
+type: claim
 ---
 
 ## Root LLM Dispatches Generative Subtasks to Sub-LLMs via Code-Mediated Function Calls
 
-The Root LLM's job is orchestration, not generation: it decides what needs to happen, writes the Python that makes it happen, and holds the state of the overall task in environment variables. Whenever a step actually requires an LLM's judgment or generative ability — classifying a batch of questions, for instance — the Root LLM writes a call to an `llm_query`-style function, exactly as it would call any other function in its code. That function call is what dispatches the work to a Sub-LLM.
+The Root LLM's job is orchestration, not generation: it decides what needs to happen, writes the Python that makes it happen, and holds the state of the overall task in environment variables. Whenever a step actually requires an LLM's judgment or generative ability—classifying a batch of questions, for instance—the Root LLM writes a call to an `llm_query`-style function, exactly as it would call any other function in its code. That function call is what dispatches the work to a Sub-LLM.
 
-The distinguishing feature is *how* the dispatch happens: it's a function call inside code the Root LLM itself wrote, at a moment the Root LLM itself chose, with a scope it itself defined — not a pre-wired role handoff (fixed sub-agents each responsible for a fixed slice of the task) and not a graph transition (a predefined edge in an orchestration graph). The Root LLM has full discretion over when to delegate, what to delegate, and how many times to do it.
+The distinguishing feature is _how_ the dispatch happens: it's a function call inside code the Root LLM itself wrote, at a moment the Root LLM itself chose, with a scope it itself defined—not a pre-wired role handoff (fixed sub-agents each responsible for a fixed slice of the task) and not a graph transition (a predefined edge in an orchestration graph). The Root LLM has full discretion over when to delegate, what to delegate, and how many times to do it.
 
 ### Scope & Conditions
 
@@ -36,9 +32,9 @@ Source: "From RLMs to Agent Harnesses" (Still Broken AI). "The Root LLM acts as 
 
 ### Implications
 
-- **This is a distinct delegation mechanism from existing sub-agent patterns in this vault**: [[Specialized Sub-Agent Roles Divide Research, Context Retrieval, and Code Editing]] divides work by fixed role assigned in advance; [[Deep Agents for Long Horizon Planning]] delegates via a graph/tool-call loop with tailored prompts per sub-agent. This note's mechanism is dispatch-by-code, decided dynamically at runtime by the orchestrator itself, with no predefined role boundaries.
-- **It depends on the environment-variable architecture**: this dispatch pattern only makes sense once [[Recursive Language Models Load Context as Environment Variables, Not Prompt Tokens]] is already true — the Root LLM needs somewhere to hold state between dispatches, and that's the REPL environment, not its own context.
-- **It's the mechanism that makes dynamic runtime chunking possible**: [[RLMs Dynamically Chunk Data at Runtime, Unlike RAG's Static Pre-Defined Chunking]] depends on the Root LLM being able to decide, on the fly, how many Sub-LLM calls to make and over what slices — which is exactly what this dispatch mechanism provides.
+- This is a distinct delegation mechanism from existing sub-agent patterns in this vault: [[Specialized Sub-Agent Roles Divide Research, Context Retrieval, and Code Editing]] divides work by fixed role assigned in advance; [[Deep Agents for Long Horizon Planning]] delegates via a graph/tool-call loop with tailored prompts per sub-agent. This note's mechanism is dispatch-by-code, decided dynamically at runtime by the orchestrator itself, with no predefined role boundaries.
+- It depends on the environment-variable architecture: this dispatch pattern only makes sense once [[Recursive Language Models Load Context as Environment Variables, Not Prompt Tokens]] is already true—the Root LLM needs somewhere to hold state between dispatches, and that's the REPL environment, not its own context.
+- It's the mechanism that makes dynamic runtime chunking possible: [[RLMs Dynamically Chunk Data at Runtime, Unlike RAG's Static Pre-Defined Chunking]] depends on the Root LLM being able to decide, on the fly, how many Sub-LLM calls to make and over what slices—which is exactly what this dispatch mechanism provides.
 
 ### Related
 

@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2026-04-10T00:00:00+00:00
-modified: 2026-07-28T09:12:42+00:00
+modified: 2026-08-08T10:29:14+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/a-next-action-must-be-the-absolute-next-physical-visible-activity-required-to-move-a-situation-forward
 tags: [action-definition, clarity, execution, gtd]

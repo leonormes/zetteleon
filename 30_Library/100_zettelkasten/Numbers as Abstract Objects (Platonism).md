@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-08-30T08:57:56+00:00
-modified: 2026-07-28T09:12:49+00:00
+modified: 2026-08-08T10:29:21+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/numbers-as-abstract-objects-platonism
 tags: [platonism, topic/maths, topic/philosophy]
