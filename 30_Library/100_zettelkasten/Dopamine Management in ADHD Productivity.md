@@ -1,19 +1,20 @@
 ---
 aliases: []
+conformant: true
 created: 2025-10-26T11:09:00+00:00
-last_reviewed: ''
-modified: 2026-08-08T10:29:18+00:00
+definition: "Actively managing dopamine is a core productivity principle for the ADHD brain. This involves structuring work and rewards to provide the consistent stimulation the brain needs to stay engaged."
+distinguishes_from: []
+modified: 2026-08-09T19:00:33+00:00
 permalink: llmeon/30-library/100-zettelkasten/dopamine-management-in-adhd-productivity
-status: ''
 tags: [dopamine, reward-system, TheHuman/Health/ADHD, TheHuman/Motivation, topic/productivity]
 title: Dopamine Management in ADHD Productivity
-type: permanent
-updated: null
+type: concept
+used_in_claims: []
 ---
 
 ## Dopamine Management in ADHD Productivity
 
-Because the ADHD brain operates on an [[The ADHD brain operates on an Interest-Based Nervous System|Interest-Based Nervous System]], actively managing dopamine is a core productivity principle. This involves structuring work and rewards to provide the consistent stimulation the brain needs to stay engaged.
+Because the ADHD brain operates on an [[The ADHD brain operates on an Interest-Based Nervous System|Interest-Based Nervous System]], actively managing dopamine is a core productivity principle. This involves structuring work and rewards to provide the consistent stimulation the brain needs to stay engaged. %%[extends:: [[The ADHD brain operates on an Interest-Based Nervous System]]]%%
 
 ### Core Strategies
 
@@ -22,7 +23,7 @@ Because the ADHD brain operates on an [[The ADHD brain operates on an Interest-B
     - The Filling (The Task): Perform the non-preferred task.
     - Bottom Slice (The Reward): Immediately follow the task with a pre-defined, enjoyable reward (e.g., a short break to scroll social media, a snack, a walk).
 
-2. Celebrate Wins as You Go: The ADHD brain does not respond well to delayed gratification. It is crucial to acknowledge and celebrate small steps and minor progress. This creates a continuous feedback loop of positive reinforcement, which helps maintain motivation.
+2. Celebrate Wins as You Go: The ADHD brain does not respond well to delayed gratification. It is crucial to acknowledge and celebrate small steps and minor progress. This creates a continuous feedback loop of positive reinforcement, which helps maintain motivation. %%[synthesizes:: [[Celebrating small wins builds routine momentum]]]%%
     - This can be as simple as verbally acknowledging the completion of a step ("Nice, I did the thing!") or taking a brief moment to feel proud of the effort.
 
 ### Why It Works for ADHD
@@ -33,8 +34,5 @@ Because the ADHD brain operates on an [[The ADHD brain operates on an Interest-B
 - Makes Motivation Tangible: These strategies make the reward for effort concrete and immediate, which is more compelling for the ADHD brain than abstract future benefits.
 
 ### Connections
-
-- This is a practical application of understanding [[Dopamine Dysregulation is a Key Factor in ADHD Motivation]].
-- It directly addresses the fact that [[Extrinsic rewards are less effective for activating the ADHD brain]] if they are not immediate.
 
 _Source: Synthesized from notes on ADHD productivity hacks._

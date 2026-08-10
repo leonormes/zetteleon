@@ -1,9 +1,8 @@
 ---
 aliases: [Defense in Depth, Layered Defense, Network Security Components, Security Architecture]
-conformant: false
+conformant: true
 created: 2026-04-02T12:00:00+00:00
-modified: 2026-07-20T16:33:46+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+modified: 2026-08-09T19:21:00+01:00
 permalink: llmeon/30-library/so-t/so-t-network-security-architecture
 source_of_truth: true
 tags: [architecture, infrastructure, networking, security]
@@ -32,9 +31,9 @@ Network Security Architecture is a framework of policies, technologies, and cont
 
 ### 2.1 Perimeter & Internal Firewalls
 
-- Stateful Inspection: Essential for tracking active connections; stateless packet filtering is largely legacy for modern security.
-- WAF (Web Application Firewall): A secondary layer for API protection. Heuristic: Fix input validation in code first; use a WAF as a shield, not a savior.
-- Cloud Security Groups: Dynamically generated ACLs that act as distributed firewalls within AWS/Azure.
+- Stateful Inspection: Essential for tracking active connections; stateless packet filtering is largely legacy for modern security. %%[synthesizes:: [[Stateful Firewall Flow Observation]]]%%
+- WAF (Web Application Firewall): A secondary layer for API protection. Heuristic: Fix input validation in code first; use a WAF as a shield, not a savior. %%[synthesizes:: [[Web Application Firewalls Protect Against Layer 7 Attacks]]]%%
+- Cloud Security Groups: Dynamically generated ACLs that act as distributed firewalls within AWS/Azure. %%[synthesizes:: [[Cloud Firewalls Filter Traffic at Network and Transport Layers]]]%%
 
 ### 2.2 Application-Layer Enforcement
 
@@ -59,7 +58,7 @@ Network Security Architecture is a framework of policies, technologies, and cont
 
 - Eliminate IP Trust: Use MFA (avoiding SMS/Email) and client TLS certificates to verify identity regardless of source IP.
 - ZTNA (Zero Trust Network Access): Replace traditional VPNs with application-layer encryption and continuous validation.
-- Foundational Model: See [[SoT - Zero Trust Architecture]] for the core principles of shifting from perimeter trust to identity-centric security.
+- Foundational Model: See [[SoT - Zero Trust Architecture]] for the core principles of shifting from perimeter trust to identity-centric security. %%[depends_on:: [[SoT - Zero Trust Architecture]]]%%
 
 ### 3.3 Automate & Patch
 
@@ -78,8 +77,10 @@ Network Security Architecture is a framework of policies, technologies, and cont
 
 ## Related Knowledge
 
-- Governance: [[SoT - NIST Cybersecurity Framework]]
-- Segmentation: [[SoT - Network Segmentation]]
-- Identity: [[SoT - Data-Centric IAM in Zero Trust]]
-- Voice Security: [[SoT - Session Border Controllers (SBC)]]
-- Networking: [[SoT - The Data-Centric Theory of Networking]]
+- Governance: [[SoT - NIST Cybersecurity Framework]] %%[depends_on:: [[SoT - NIST Cybersecurity Framework]]]%%
+- Segmentation: [[SoT - Network Segmentation]] %%[depends_on:: [[SoT - Network Segmentation]]]%%
+- Identity: [[SoT - Data-Centric IAM in Zero Trust]] %%[depends_on:: [[SoT - Data-Centric IAM in Zero Trust]]]%%
+- Voice Security: [[SoT - Session Border Controllers (SBC)]] %%[synthesizes:: [[SoT - Session Border Controllers (SBC)]]]%%
+- Networking: [[SoT - The Data-Centric Theory of Networking]] %%[extends:: [[SoT - The Data-Centric Theory of Networking]]]%%
+- *Continuous Access Validation:* [[Continuous Access Evaluation (CAE)]] %%[synthesizes:: [[Continuous Access Evaluation (CAE)]]]%%
+- *Application-Aware Filtering:* [[Next-Generation Firewalls (NGFW) Provide Application-Aware Security]] %%[synthesizes:: [[Next-Generation Firewalls (NGFW) Provide Application-Aware Security]]]%%

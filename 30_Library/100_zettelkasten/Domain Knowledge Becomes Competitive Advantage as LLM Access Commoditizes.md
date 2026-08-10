@@ -1,7 +1,9 @@
 ---
+conformant: true
+contradicts: ["[[Divergent Thinking Outperforms Narrow Specialization]]", "[[Generalists Have an Advantage in the Information Age]]"]
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: high
-modified: 2026-08-08T10:29:18+00:00
+modified: 2026-08-09T18:56:06+00:00
 permalink: llmeon/30-library/100-zettelkasten/domain-knowledge-becomes-competitive-advantage-as-llm-access-commoditizes
 proposition: As LLM access becomes cheap and universal, the ability to write code
   from scratch becomes a commodity skill. The differentiator shifts to domain expertise—understanding
@@ -28,7 +30,7 @@ Source: "Nobody Pages the LLM: Engineering Rigour for Vibe Coding" (Ritesh Modi)
 
 ### Implications
 
-- Shift in hiring: Coding skill alone is no longer the bottleneck. Domain knowledge + ability to work with LLM output becomes the bottleneck.
+- Shift in hiring: Coding skill alone is no longer the bottleneck. Domain knowledge + ability to work with LLM output becomes the bottleneck. %%[supports:: [[Cheaper Code Production via Agents Increases Software Volume Rather Than Reducing Developers]]]%%
 - Specialization grows in value: Generic developers (good at many domains) decrease in value; specialists (deep knowledge in one domain) increase in value.
 - Maintenance becomes strategic: The developer who understands why the code was written this way (not just how it works) becomes harder to replace.
 
@@ -45,12 +47,10 @@ Domain experts who don't stay current with tooling (including LLMs) become obsol
 ### Related
 
 - [[Mandatory Manual Code Review Before Deployment]]—implementation: reviewing AI output is how you apply domain knowledge.
-- [[Vibe Coding - Rapid AI-Assisted Code Generation Without Engineering Rigor]]—context: describes the world where this advantage matters.
+- [[Vibe Coding - Rapid AI-Assisted Code Generation Without Engineering Rigor]]—context: describes the world where this advantage matters. %%[depends_on:: [[Vibe Coding - Rapid AI-Assisted Code Generation Without Engineering Rigor]]]%%
 - [[LLM Probabilistic Outputs Prevent Consistency Guarantees]]—grounds: inconsistency means only a domain expert can judge if a solution is appropriate.
 
 ### See Also
-
-- [[Specialization in the Age of AI-Assisted Development]]
 
 %%[depends_on:: [[Mandatory Manual Code Review Before Deployment]], strength=4, confidence=high]%%
 

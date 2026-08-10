@@ -1,9 +1,8 @@
 ---
 aliases: [Cybersecurity Governance, NIST CSF, NIST Cybersecurity Framework 2.0]
-conformant: false
+conformant: true
 created: 2026-04-02T11:00:00+00:00
-modified: 2026-07-20T16:33:46+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+modified: 2026-08-09T19:26:00+01:00
 permalink: llmeon/30-library/so-t/so-t-nist-cybersecurity-framework
 source_of_truth: true
 tags: [compliance, cybersecurity, governance, nist, resilience]
@@ -37,7 +36,7 @@ The Framework is structured around six concurrent and continuous functions that 
 While all functions are necessary, the Protect function is often considered the most critical for proactive security.
 
 - The Heuristic: "If you think you know something but don't write it down, you only think you know it." Similarly, if you aren't protecting your network at the data layer, your detection and response are merely damage control.
-- Core Strategy: Focus heavily on data and system protections (Least Privilege, MFA, Isolation) to minimize the probability of a breach ever succeeding.
+- Core Strategy: Focus heavily on data and system protections (Least Privilege, MFA, Isolation) to minimize the probability of a breach ever succeeding. %%[synthesizes:: [[Phishing-Resistant MFA]]]%%
 
 ---
 
@@ -56,13 +55,14 @@ The framework defines four Tiers to describe the degree of maturity in an organi
 
 The NIST CSF is designed to be mapped to specific technical controls. Modern approaches like Microsegmentation and Zero Trust are uniquely positioned to operationalize all six functions.
 
-- See: [[Protocol - NIST CSF Implementation via Microsegmentation]]
+- See: [[Protocol - NIST CSF Implementation via Microsegmentation]] %%[depends_on:: [[Protocol - NIST CSF Implementation via Microsegmentation]]]%%
 
 ---
 
 ## Related Knowledge
 
-- Governance: [[SoT - GitOps for IAM and Permissions]]
-- Infrastructure: [[Protocol - Azure Private AKS Deployment]]
-- Networking: [[SoT - The Data-Centric Theory of Networking]]
-- Architecture: [[MOC - Data-Centric Software Engineering]]
+- Governance: [[SoT - GitOps for IAM and Permissions]] %%[synthesizes:: [[SoT - GitOps for IAM and Permissions]]]%%
+- Infrastructure: [[SoT - Azure Kubernetes Service (AKS) Operations|Protocol - Azure Private AKS Deployment]] %%[depends_on:: [[SoT - Azure Kubernetes Service (AKS) Operations]]]%%
+- Networking: [[SoT - The Data-Centric Theory of Networking]] %%[depends_on:: [[SoT - The Data-Centric Theory of Networking]]]%%
+- Architecture: [[MOC - Data-Centric Software Engineering]] %%[depends_on:: [[MOC - Data-Centric Software Engineering]]]%%
+- *Least Privilege:* [[Least Privilege Authorization with Terraform Cloud]] %%[synthesizes:: [[Least Privilege Authorization with Terraform Cloud]]]%%

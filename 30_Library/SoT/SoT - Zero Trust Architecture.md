@@ -1,10 +1,9 @@
 ---
 aliases: [Identity as Perimeter, Never Trust Always Verify, Zero Trust, ZT Architecture]
-conformant: false
+conformant: true
 created: 2026-04-04T14:30:00+00:00
 last-synthesis: 2026-04-04
-modified: 2026-07-20T16:33:41+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+modified: 2026-08-09T19:47:00+01:00
 permalink: llmeon/30-library/so-t/so-t-zero-trust-architecture
 tags: [architecture, iam, networking, security, zero-trust]
 title: SoT - Zero Trust Architecture
@@ -39,7 +38,7 @@ Zero Trust shifts the point of control from physical network boundaries to the T
 
 1. Identity-Driven Security: Access decisions are primarily based on the verified identity of the requester. Every entity must have a unique set of credentials and must be rigorously authenticated.
 2. Explicit Verification: Every access request, regardless of origin, must be explicitly verified based on identity and contextual factors (device health, location, time) before access is granted.
-3. Least Privilege: Once authenticated, an identity is granted only the minimum necessary permissions to perform its specific task, limiting the "blast radius" of a potential compromise.
+3. Least Privilege: Once authenticated, an identity is granted only the minimum necessary permissions to perform its specific task, limiting the "blast radius" of a potential compromise. %%[synthesizes:: [[Least Privilege Authorization with Terraform Cloud]]]%%
 4. Assume Breach: Operate under the assumption that attackers are already present within the network. This necessitates continuous verification and strict internal access controls to block lateral movement.
 5. Mutual Authentication: Trust is established in both directions; not only does the user authenticate to the resource, but the resource must also authenticate its identity to the user (e.g., via mTLS).
 
@@ -84,7 +83,7 @@ Zero Trust facilitates the isolation of workloads into granular segments. Access
 
 HashiCorp provides a suite of tools that operationalize these principles:
 
-- Vault: Manages secrets and identity-based access for systems and applications.
+- Vault: Manages secrets and identity-based access for systems and applications. %%[synthesizes:: [[SoT - HashiCorp Vault Architecture]]]%%
 - Consul: Enables service-to-service identity (mTLS) and microsegmentation (Intentions).
 - Boundary: Secures remote access based on user identity and authorized targets, replacing traditional VPNs.
 
@@ -92,10 +91,10 @@ HashiCorp provides a suite of tools that operationalize these principles:
 
 ## Related Knowledge
 
-- Identity Data Model: [[SoT - Data-Centric IAM in Zero Trust]]
-- Digital Identity Fundamentals: [[SoT - Digital Identity]]
-- Platform Implementation: [[SoT - Microsoft Entra Identity]]
-- Industry Compliance: [[SoT - NHS Identity Compliance]]
-- Network Security: [[SoT - Network Security Architecture]]
-- Governance: [[SoT - NIST Cybersecurity Framework]]
-- Operationalization: [[Protocol - NIST CSF Implementation via Microsegmentation]]
+- Identity Data Model: [[SoT - Data-Centric IAM in Zero Trust]] %%[depends_on:: [[SoT - Data-Centric IAM in Zero Trust]]]%%
+- Digital Identity Fundamentals: [[SoT - Digital Identity]] %%[depends_on:: [[SoT - Digital Identity]]]%%
+- Platform Implementation: [[SoT - Microsoft Entra Identity]] %%[depends_on:: [[SoT - Microsoft Entra Identity]]]%%
+- Industry Compliance: [[SoT - NHS Identity Compliance]] %%[depends_on:: [[SoT - NHS Identity Compliance]]]%%
+- Network Security: [[SoT - Network Security Architecture]] %%[depends_on:: [[SoT - Network Security Architecture]]]%%
+- Governance: [[SoT - NIST Cybersecurity Framework]] %%[depends_on:: [[SoT - NIST Cybersecurity Framework]]]%%
+- Operationalization: [[Protocol - NIST CSF Implementation via Microsegmentation]] %%[depends_on:: [[Protocol - NIST CSF Implementation via Microsegmentation]]]%%
