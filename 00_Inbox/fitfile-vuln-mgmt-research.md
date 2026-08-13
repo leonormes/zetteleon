@@ -1,6 +1,6 @@
 ---
 created: 2026-08-07T15:12:01+00:00
-modified: 2026-08-08T08:48:28+00:00
+modified: 2026-08-12T15:16:14+00:00
 permalink: llmeon/00-inbox/fitfile-vuln-mgmt-research
 title: fitfile-vuln-mgmt-research
 type: note
@@ -11,8 +11,6 @@ type: note
 ### Working Assumption on Scope
 
 Namespace and component naming referencing OMOP/OHDSI and an NHS "mesh-mailbox" strongly suggests integration with NHS MESH (the NHS's secure messaging transport used across primary care, secondary care, and social care), and downstream analytics against the OMOP Common Data Model, an OHDSI standard widely used for observational health research on de-identified or pseudonymised patient-level data. This report treats NHS supplier-framework applicability (DSPT, DTAC, Cyber Essentials Plus, DCB0129/DCB0160) as an unconfirmed hypothesis and calls out, in a dedicated section, exactly where those frameworks would raise the bar versus general industry practice—this determination should be validated against FitFile's actual data processing agreements and NHS Digital Technology Assessment Criteria (DTAC) submission status, not inferred from infrastructure names alone.[^1][^2]
-
-*
 
 ### A. Maturity Assessment of the Current Setup
 
@@ -31,8 +29,6 @@ FitFile's vulnerability management program sits at what is commonly described as
 The single most urgent gap is not a missing tool—it's the complete absence of a shift-left gate. Every vulnerability trivy-operator finds today has already been running in production for some unknown period before anyone looks at a dashboard. That is a materially different risk posture than catching the same CVE in a PR.
 
 A second urgent point, orthogonal to the maturity roadmap below: Trivy's supply chain was itself compromised in March 2026 (CVE-2026-33634), when threat actors force-pushed malicious commits into 76 of 77 `aquasecurity/trivy-action` tags and all `aquasecurity/setup-trivy` tags, and published a backdoored `trivy` binary (v0.69.4) and compromised Docker Hub images (v0.69.4–v0.69.6), designed to exfiltrate Kubernetes secrets, cloud credentials, and CI/CD tokens. This is directly relevant to FitFile because it just granted trivy-operator Workload Identity + AcrPull permissions—a credential now sitting inside the exact class of tool that was weaponized. Regardless of which scanner is chosen going forward, any CI-stage Trivy usage must pin to commit SHAs, not tags, and the currently-running trivy-operator Helm chart version and image digest should be audited against the safe-version table (trivy ≥v0.69.7 confirmed clean, or any pre-v0.69.4 release; `trivy-action` pinned to v0.35.0 or a SHA).[^16][^17][^18][^19][^20]
-
-*
 
 ### B. Prioritized Recommendations
 
@@ -58,8 +54,6 @@ Ordered by impact-to-effort ratio, assuming a small platform team with no dedica
 1. Prevent the Helm-values-schema drift failure mode specifically for security tooling by treating the trivy-operator (and Gatekeeper) Helm releases exactly like any other Terraform-managed Helm release: pin exact chart version and values schema in a Terraform Cloud workspace, use `helm template` + `diff` in CI as a pre-merge check against the live chart schema, and hard-block manual `helm upgrade` via RBAC (remove interactive `helm upgrade` permission from human users on these namespaces, leaving only the CD service account write access). This is the concrete answer to research question 10: the drift problem is not really about Helm, it's about who has write access outside GitOps—restricting that is more durable than any values-file tooling fix.
 2. Evaluate distroless/Chainguard-style minimal base images for the Node.js and Python services. Given FitFile already builds and controls all base images via a private registry, this is a low-friction, high-value move: fewer OS packages means fewer CVEs Trivy has to report in the first place, directly reducing the volume the manual/automated triage pipeline has to process. Treat as opportunistic per-service migration, not a big-bang project—pick the highest-CVE-count service first as a pilot.
 3. Consider adding Grype as a second opinion on a subset of critical-path images, not as a wholesale replacement for trivy-operator. Independent 2026 benchmarks show Trivy and Grype agree on roughly 95% of findings, diverge mainly on database refresh lag (Trivy refreshes every ~6h vs Grype ~12h) and on backport-patch false positives (Trivy is more inclusive, generating ~18% more findings, of which ~60% turn out to be false positives from backport-patched packages without version bumps). Running both on a defined critical subset—rather than everywhere—captures the "multi-scanner strategies reduce false negatives 15–25%" benefit cited in recent comparative studies without doubling operational load across the whole fleet.[^30][^31][^32]
-
-*
 
 ### C. Tool Comparison Tables
 
@@ -97,13 +91,9 @@ Where teams commonly run more than one tool, and why: the recurring pattern in 2
 | Recognized by | CISA SBOM minimum elements (2026), EU CRA, FDA cyber-device guidance—accepted equally alongside SPDX[^12][^13][^14] | Same frameworks, accepted equally |
 | Verdict for FitFile | Keep CycloneDX (already produced by trivy-operator); it has the tighter fit for a vulnerability-first workflow and native VEX/signature support[^13][^14] | No compelling reason to add SPDX unless a specific customer/procurement contract requires it for license-compliance review |
 
-*
-
 ### D. Does the Current CRD-based SBOM Approach Meet audit/evidence Requirements?
 
 Storing SbomReport CRDs only inside the cluster is workable for internal engineering purposes but is not the same thing as an audit-ready evidence trail, for two structural reasons. First, CRDs are ephemeral relative to cluster lifecycle—a cluster rebuild, namespace deletion, or CRD garbage-collection event destroys historical evidence, whereas frameworks and 2026 CISA/CRA guidance expect SBOMs to be retained, versioned, and tied to a specific build/release, not just to a currently-running workload. Second, in-cluster CRDs are not independently signed or attested; they represent "what the operator observed," not a cryptographically verifiable claim about "what was built and by whom." Emerging practice—Sigstore/cosign attestations recorded to the public Rekor transparency log, or an in-toto provenance chain—exists precisely to close that gap, producing artifacts that survive cluster teardown and can be independently verified by a third party (auditor, customer, regulator) without needing cluster access. For FitFile, the pragmatic move is not to abandon the CRD approach (it's genuinely useful for live-cluster CVE triage) but to add a build-time step that also attaches the CycloneDX SBOM as a cosign attestation on the image in ACR, giving a durable, portable record independent of any given cluster's uptime.[^12][^14][^36][^37][^24][^10]
-
-*
 
 ### E. NHS/UK Healthcare-specific Callouts (Contingent on sCope cOnfirmation)
 
@@ -114,8 +104,6 @@ These items apply only if FitFile is confirmed to be in scope for NHS supplier f
 - DTAC requires, for any internet-facing or service-accessible product, a summary report of an external penetration test covering the OWASP Top 10 within the previous 12 months, and that report must demonstrate no vulnerabilities scoring CVSS 7.0 or above. This is a materially stricter bar than "block on critical" admission policy alone—it implies periodic third-party penetration testing as a complementary control to in-cluster/CI scanning, since Trivy/Grype-style SCA tools do not substitute for an application-layer pen test.[^1]
 - Cyber Essentials Plus, if held, can exempt some DSPT evidence items from separate audit, provided its certification scope explicitly covers the systems processing health/care data—worth confirming scope alignment rather than assuming blanket coverage.[^39]
 - Where NHS frameworks would change the recommendation vs. general industry practice: general industry guidance (this report's Tier 1/2 recommendations) is necessary but not sufficient for DSPT/DTAC—those frameworks additionally require (a) a written, board-visible vulnerability management policy document with defined SLAs and exception approval workflow, not just automation; (b) periodic external penetration testing, which no scanner discussed here provides; and (c) from 2025-26 onward, potentially an independent third-party audit of the whole program if FitFile meets the IT Supplier threshold. DCB0129/DCB0160 clinical risk management standards are a separate, higher bar again—relevant only if FitFile's software function is classified as a medical device or directly influences clinical decision-making, which is not established by the OMOP/OHDSI naming alone and needs a formal clinical safety classification exercise.
-
-*
 
 ### F. Where Guidance is Genuinely Contested or Still Evolving
 
