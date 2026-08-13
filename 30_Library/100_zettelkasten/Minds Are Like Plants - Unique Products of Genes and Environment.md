@@ -1,27 +1,29 @@
 ---
-conformant: false
-created: 2026-07-13T22:00:00+00:00
-modified: 2026-08-13T10:56:56+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
-permalink: llmeon/30-library/100-zettelkasten/minds-are-like-plants-unique-products-of-genes-and-environment
-status: draft
-tags: [compassion, epistemology, judgement, mental-models]
 title: Minds Are Like Plants - Unique Products of Genes and Environment
 type: claim
+tags:
+- compassion
+- epistemology
+- judgement
+- mental-models
+conformant: true
+prodos.kind: atomic
+prodos.lifecycle: seed
+proposition: Each human mind is a unique manifestation of the genes and environment
+  that shaped it; therefore, evaluating people through a binary of 'right' or 'wrong'
+  is fundamentally mismatched to reality.
+epistemic_status: high
+contradicts: []
+permalink: llmeon/30-library/100-zettelkasten/minds-are-like-plants-unique-products-of-genes-and-environment
 ---
 
-## Minds Are Like Plants - Unique Products of Genes and Environment
-
-Summary: Each human mind, like a plant, is a unique manifestation of the genes and environment that shaped it—no plant is "right" or "wrong", it simply is.
-
-Details: The ecological framework replaces the axiomatic framework (a single objective Truth built from core axioms, with disagreement as error and people sorted into right/wrong). Under the ecological view, a belief structure is diagnosed by tracing its inputs—the soil (environmental stressors), the fertiliser (narratives absorbed)—rather than judged solely by its output. This reframes disagreement as data collection rather than debate, and dissolves the reflex to treat disagreers as broken axioms. The model's compassion is its strength; its implied determinism is its weakness (see [[Self-Change Refutes the Determinism of the Plant Metaphor]]).
+## Minimum Viable Understanding
+The ecological framework replaces the axiomatic framework (which assumes a single objective Truth built from core axioms, treating disagreement as an error and sorting people into right/wrong). Under the ecological view, a belief structure is diagnosed by tracing its inputs—the soil (environmental stressors) and the fertiliser (narratives absorbed)—rather than judged solely by its output. This reframes disagreement as data collection rather than debate, and dissolves the reflex to treat those who disagree as broken axioms.
 
 ## Related
-
-- [[The Self is Constructed Through Curation of Influences]]
-- [[Mental Models as Evolutionary Filters]]
-- [[The Map is Not the Territory]]
-
-## Provenance
-
-Extracted from [[HEAD Being Right or Wrong About Things in Life]] (Gemini conversation, 2026-07-13).
+- [[Self-Change Refutes the Determinism of the Plant Metaphor]] — *While the plant metaphor encourages compassion, its implied determinism is a flaw.*
+%%[depends_on:: [[Self-Change Refutes the Determinism of the Plant Metaphor]]]%%
+- [[Mistaking the Map for the Territory]] — *We must separate the person's 'map' from the territory they are trying to navigate.*
+%%[extends:: [[Mistaking the Map for the Territory]]]%%
+- [[Truth-Status Belongs to Propositions, Not Persons]] — *Because minds are ecological products, truth evaluation should only apply to their propositional outputs.*
+%%[supports:: [[Truth-Status Belongs to Propositions, Not Persons]]]%%

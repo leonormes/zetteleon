@@ -1,29 +1,29 @@
 ---
-conformant: false
-created: 2026-07-13T22:00:00+00:00
-modified: 2026-08-13T10:57:01+00:00
-non_conformance_reason: Bulk inferred type. Needs review.
-permalink: llmeon/30-library/100-zettelkasten/truth-status-belongs-to-propositions-not-persons
-status: draft
-tags: [decoupling, ego, epistemology, popper]
 title: Truth-Status Belongs to Propositions, Not Persons
 type: claim
+tags:
+- decoupling
+- ego
+- epistemology
+- popper
+conformant: true
+prodos.kind: atomic
+prodos.lifecycle: seed
+proposition: Rightness and wrongness are properties of propositions, not properties
+  of people. Decoupling the person from the claim allows for rigorous intellectual
+  critique without existential threat.
+epistemic_status: high
+contradicts: []
+permalink: llmeon/30-library/100-zettelkasten/truth-status-belongs-to-propositions-not-persons
 ---
 
-## Truth-Status Belongs to Propositions, Not Persons
-
-Summary: Rightness is a predicate over propositions, not people—"you are wrong" wounds; "that claim is false, I wonder what grew it" is just gardening.
-
-Details: The repair image is two gardeners arguing over a specimen on the table between them: neither gardener _is_ the plant. Exteriorising claims lets you apply full severity to what people claim while keeping full compassion for how they came to believe it. What hurts for decades is not believing in truth but locating truth-status in persons, including yourself (deepened in [[Locating Truth-Status in Persons Is What Wounds, Not Believing in Truth]]). This is Popper's trick: let the theories die in your place. The operational mantra: "The claim is on the table, not in my chest."
+## Minimum Viable Understanding
+The belief that a person who holds a false premise is fundamentally broken fuses truth-status to identity. This binary person-judgement costs emotional energy and damages relationships. When you exteriorise claims (treating a belief as a "specimen on the table" rather than an organ in the chest), you can apply full severity to what people claim while keeping full compassion for how they came to believe it. This is the essence of Karl Popper’s mandate to "let our theories die in our place."
 
 ## Related
-
-- [[Locating Truth-Status in Persons Is What Wounds, Not Believing in Truth]]
-- [[Decoupling Ego from Outcomes to Improve Decisions]]
-- [[Cognitive Defusion from Narrative]]
-- [[Truth is a Necessary Condition for Knowledge]]
-- [[Writing Creates Cognitive Distance for Objective Evaluation]]
-
-## Provenance
-
-Extracted from [[HEAD Being Right or Wrong About Things in Life]] (Gemini conversation, 2026-07-13).
+- [[Decoupling Ego from Outcomes to Improve Decisions]] — *Separating self-worth from intellectual output.*
+%%[extends:: [[Decoupling Ego from Outcomes to Improve Decisions]]]%%
+- [[Cognitive Defusion from Narrative]] — *The operational mechanism of separating self from thought.*
+%%[supports:: [[Cognitive Defusion from Narrative]]]%%
+- [[Claim - When intelligence is bound to identity, epistemic errors are experienced as threats to self-worth]] — *Provides the pathology that this decoupling aims to cure.*
+%%[depends_on:: [[Claim - When intelligence is bound to identity, epistemic errors are experienced as threats to self-worth]]]%%
