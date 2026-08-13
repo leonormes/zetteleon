@@ -1,7 +1,7 @@
 ---
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: medium
-modified: 2026-08-08T10:29:19+00:00
+modified: 2026-08-13T10:54:47+00:00
 permalink: llmeon/30-library/100-zettelkasten/harness-engineering-prevents-context-degradation-and-memory-leaks-over-prolonged-runtimes
 proposition: For complex, multi-step tasks that run over a prolonged execution runtime,
   "harness engineering's specific job is preventing context degradation and memory"

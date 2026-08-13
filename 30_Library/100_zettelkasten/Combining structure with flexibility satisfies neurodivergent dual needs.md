@@ -3,7 +3,7 @@ aliases: [Dual needs satisfaction, Structure with flexibility]
 conformant: true
 created: 2025-10-30T18:05:00+00:00
 epistemic_status: high
-modified: 2026-08-08T10:29:16+00:00
+modified: 2026-08-13T10:54:44+00:00
 permalink: llmeon/30-library/100-zettelkasten/combining-structure-with-flexibility-satisfies-neurodivergent-dual-needs
 prodos.kind: atomic
 prodos.lifecycle: stable

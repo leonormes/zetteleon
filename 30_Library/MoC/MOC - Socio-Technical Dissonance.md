@@ -1,7 +1,7 @@
 ---
 aliases: [Socio-Technical Dissonance MOC]
 created: 2025-12-17T00:00:00+00:00
-modified: 2026-07-20T16:33:57+00:00
+modified: 2026-08-13T10:53:37+00:00
 permalink: llmeon/30-library/mo-c/moc-socio-technical-dissonance
 tags: [social-dynamics, SoftwareEngineering/Architecture, topic/systems]
 title: MOC - Socio-Technical Dissonance

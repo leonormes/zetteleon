@@ -2,7 +2,7 @@
 aliases: [Financial Control]
 conformant: true
 created: 2025-11-10T10:14:00+00:00
-modified: 2026-08-08T10:29:17+00:00
+modified: 2026-08-13T10:54:44+00:00
 permalink: llmeon/30-library/100-zettelkasten/controlling-financial-behavior-is-unilateral-and-removes-a-partners-agency
 tags: [autonomy, finance, relationship]
 title: "Controlling Financial Behavior is Unilateral and Removes a Partner's Agency"

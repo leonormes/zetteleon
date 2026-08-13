@@ -2,7 +2,7 @@
 aliases: ["Bessie's Working Memory Challenges"]
 created: 2025-07-18T00:00:00+00:00
 last_reviewed: ""
-modified: 2026-08-08T10:29:16+00:00
+modified: 2026-08-13T10:54:43+00:00
 permalink: llmeon/30-library/100-zettelkasten/bessies-working-memory-is-overwhelmed-by-large-information-volumes
 see_also: []
 status: ""

@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-07-26T19:03:40+00:00
 last_reviewed: ''
-modified: 2026-08-08T10:29:14+00:00
+modified: 2026-08-13T10:54:41+00:00
 permalink: llmeon/30-library/100-zettelkasten/abstraction-as-climbing-a-hill
 status: ''
 tags: [abstraction]

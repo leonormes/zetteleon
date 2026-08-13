@@ -2,7 +2,7 @@
 created: 2026-04-13T14:41:15+00:00
 created_utc: 2026-04-13 11:20:00+00:00
 kind: constraint
-modified: 2026-08-08T10:29:20+00:00
+modified: 2026-08-13T10:54:48+00:00
 permalink: llmeon/30-library/100-zettelkasten/llm-context-constraints
 source_title: AI Agent Architecture and the Modern Tech Stack
 source_url: https://gemini.google.com/app/509937047bd0b955

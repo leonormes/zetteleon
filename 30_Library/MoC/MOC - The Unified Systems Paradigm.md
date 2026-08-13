@@ -2,7 +2,7 @@
 alias: [Constructive Realism, System Reliability Map, The Unified Systems Paradigm, Type-Driven Data Design]
 aliases: []
 created: 2025-12-30T12:08:43+00:00
-modified: 2026-07-27T11:50:15+00:00
+modified: 2026-08-13T10:53:37+00:00
 permalink: llmeon/30-library/mo-c/moc-the-unified-systems-paradigm
 tags: [root, SoftwareEngineering/Architecture, TheHuman/Philosophy, topic/knowledge-architecture, type/moc]
 title: MOC - The Unified Systems Paradigm

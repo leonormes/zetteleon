@@ -2,7 +2,7 @@
 aliases: [Chain of Explainability, Human 3.0 Framework, Self-Capture Architecture]
 conformant: false
 created: 2025-12-24T12:12:06+00:00
-modified: 2026-07-20T16:33:42+00:00
+modified: 2026-08-13T10:53:50+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-the-telos-method
 tags: [ai_integration, framework, strategy, telos]

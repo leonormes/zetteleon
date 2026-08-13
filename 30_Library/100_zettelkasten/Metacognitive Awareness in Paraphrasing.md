@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-02-07T12:57:55+00:00
 last_reviewed: ''
-modified: 2026-08-08T10:29:21+00:00
+modified: 2026-08-13T10:54:49+00:00
 patterns: ''
 permalink: llmeon/30-library/100-zettelkasten/metacognitive-awareness-in-paraphrasing
 status: ''

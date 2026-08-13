@@ -1,13 +1,13 @@
 ---
 created: 2026-04-23T15:27:21+00:00
-modified: 2026-07-27T09:42:54+00:00
+modified: 2026-08-13T10:53:27+00:00
 permalink: llmeon/30-library/200-projects/pkm-should-probably-be-proposition-centred-not-topic-centred
 project_category: prodos
 project_name: ProdOS
 project_status: active
+tags: [topic/knowledge-architecture]
 title: PKM should probably be proposition-centred, not topic-centred
 type: null
-tags: [topic/knowledge-architecture]
 ---
 
 ## PKM Should Probably Be Proposition-centred, not Topic-centred

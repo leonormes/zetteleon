@@ -2,7 +2,7 @@
 created: 2026-04-14T17:30:22+00:00
 created_utc: '2026-04-14T12:00:00Z'
 kind: mechanism
-modified: 2026-08-08T10:29:24+00:00
+modified: 2026-08-13T10:54:54+00:00
 permalink: llmeon/30-library/100-zettelkasten/taylor-series-reconstruction
 source_title: The Roadmap to Calculus I Wish I Had
 source_url: https://youtube.com/watch?v=FavU_QaY9wA

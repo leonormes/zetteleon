@@ -1,11 +1,11 @@
 ---
 created: 2026-05-04T08:01:26+00:00
-modified: 2026-07-20T16:34:19+00:00
+modified: 2026-08-13T10:53:18+00:00
 permalink: llmeon/30-library/200-projects/bessie-feedback-table
 project_name: Bessie
+tags: [bessie]
 title: Bessie Feedback Table
 type: note
-tags: [bessie]
 ---
 
 ## Bessie Feedback Table

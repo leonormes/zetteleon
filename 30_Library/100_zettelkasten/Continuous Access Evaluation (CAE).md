@@ -2,7 +2,7 @@
 created: 2026-04-14T20:25:06+00:00
 created_utc: '2026-04-14T13:00:00Z'
 kind: mechanism
-modified: 2026-08-08T10:29:17+00:00
+modified: 2026-08-13T10:54:44+00:00
 permalink: llmeon/30-library/100-zettelkasten/continuous-access-evaluation-cae
 source_title: Azure Entra Identity Best Practices & Remediation Plan
 source_url: https://gemini.google.com/app/90721765fb79ed7a

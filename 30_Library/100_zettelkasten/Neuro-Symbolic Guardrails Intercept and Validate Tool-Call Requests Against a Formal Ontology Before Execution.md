@@ -1,7 +1,7 @@
 ---
 created: 2026-07-28T14:20:04+00:00
 epistemic_status: medium
-modified: 2026-08-08T10:29:21+00:00
+modified: 2026-08-13T10:54:50+00:00
 permalink: llmeon/30-library/100-zettelkasten/neuro-symbolic-guardrails-intercept-and-validate-tool-call-requests-against-a-formal-ontology-before-execution
 proposition: To build reliable enterprise agents, an LLM should never be permitted
   to execute a tool call directly. Instead, when the LLM formulates a tool-call request,

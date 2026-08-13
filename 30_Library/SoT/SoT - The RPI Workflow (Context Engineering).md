@@ -2,7 +2,7 @@
 aliases: [Context Economics, Context Engineering Workflow, Research Plan Implement, Research-Plan-Implement Workflow, RPI Protocol]
 conformant: false
 created: 2026-01-09T21:52:07+00:00
-modified: 2026-07-27T16:01:00+00:00
+modified: 2026-08-13T10:53:50+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-the-rpi-workflow-context-engineering
 status: permanent
@@ -92,6 +92,7 @@ For massive contexts (e.g., full documentation sets or large codebases), use Con
 - Benefit: Reduces cost by ~90% and keeps the model in the Smart Zone by removing the tokenisation overhead from the active inference loop.
 
 ---
+
 %%[implements:: [[SoT - Context Engineering]]]%%
 
 See Also: [[SoT - Context Engineering]]

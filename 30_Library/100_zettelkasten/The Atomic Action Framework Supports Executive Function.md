@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-11-10T15:15:00+00:00
-modified: 2026-08-08T10:29:24+00:00
+modified: 2026-08-13T10:54:54+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/the-atomic-action-framework-supports-executive-function
 tags: [executive-function, TheHuman/Health/ADHD, topic/productivity, topic/systems]

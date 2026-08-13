@@ -3,7 +3,7 @@ aliases: []
 conformant: true
 created: 2026-08-03T00:00:00+01:00
 epistemic_status: medium
-modified: 2026-08-08T10:29:24+00:00
+modified: 2026-08-13T10:54:53+00:00
 permalink: llmeon/30-library/100-zettelkasten/subordinating-intellectual-life-to-status-competition-destroys-its-intrinsic-value
 proposition: "When intellectual activity is pursued as a means to rank, credential or income, the atelic good it uniquely supplies is destroyed, leaving the practitioner exposed to burnout and emptiness even when the instrumental goals are achieved."
 tags: [burnout, status, TheHuman/Philosophy, TheHuman/Psychology, topic/meaning]

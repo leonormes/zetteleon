@@ -2,7 +2,7 @@
 aliases: [Atelic Intellectual Life, Atelic vs Telic Education, Hitz Atelic Model, Intellectual Life as Atelic Practice]
 conformant: true
 created: 2026-08-03T00:00:00+01:00
-modified: 2026-08-10T06:46:25+00:00
+modified: 2026-08-13T10:53:49+00:00
 permalink: llmeon/30-library/so-t/so-t-the-atelic-intellectual-life
 see_also: ["[[SoT - Cognitive Ambiguity and Deep Thinking]]", "[[SoT - Experiential Learning & Education]]", "[[SoT - Logotherapy and the Will to Meaning]]", "[[SoT - The Evolutionary Biology of Status]]", "[[SoT - Values and Eudaimonia]]"]
 tags: [prodos/sot, teleology, TheHuman/Philosophy, topic/education, topic/meaning]

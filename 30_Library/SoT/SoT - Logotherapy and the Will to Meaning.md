@@ -2,7 +2,7 @@
 aliases: [Logotherapy SoT, Meaning in Suffering, The Will to Meaning, Tragic Optimism, Viktor Frankl SoT]
 conformant: false
 created: 2025-12-12T00:00:00+00:00
-modified: 2026-07-20T16:33:47+00:00
+modified: 2026-08-13T10:53:46+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-logotherapy-and-the-will-to-meaning
 tags: [meaning, mental_models, resilience, TheHuman/Philosophy, TheHuman/Psychology]
@@ -111,12 +111,12 @@ Both confront the "Absurd" (the silence of the universe), but their responses di
 
 ## 8. Knowledge Graph
 
-This SoT is a **bedrock leaf** of the argument graph (see [[SoT - Knowledge Compiler (Argument Graph Spec)]] §C2): it carries the primary text and the camp testimony, so it grounds atoms rather than being grounded by them.
+This SoT is a bedrock leaf of the argument graph (see [[SoT - Knowledge Compiler (Argument Graph Spec)]] §C2): it carries the primary text and the camp testimony, so it grounds atoms rather than being grounded by them.
 
-[[Humans Retain Freedom to Choose Their Response to Any Situation Regardless of Circumstances]] — §2A Freedom of Will. The Nazi-camp observation ("everything can be taken from a man but one thing") is the evidential ground for the atomic claim.
+[[Humans Retain Freedom to Choose Their Response to Any Situation Regardless of Circumstances]]—§2A Freedom of Will. The Nazi-camp observation ("everything can be taken from a man but one thing") is the evidential ground for the atomic claim.
 
 %%[supports:: [[Humans Retain Freedom to Choose Their Response to Any Situation Regardless of Circumstances]]]%%
 
-[[SoT - Values and Eudaimonia]] — §2B The Will to Meaning & §3 Pathways to Meaning. Grounds the architecture of eudaimonistic duty and purpose over momentary pleasure.
+[[SoT - Values and Eudaimonia]]—§2B The Will to Meaning & §3 Pathways to Meaning. Grounds the architecture of eudaimonistic duty and purpose over momentary pleasure.
 
-Other atoms extracted from this SoT — [[Logotherapy Posits the Search for Meaning as the Primary Human Motivation]] (§2B), [[Meaning Is Discovered Through Creative Experiential and Attitudinal Values]] (§3), [[Tragic Optimism Is Hope and Meaning That Acknowledges Rather Than Denies the Tragic Triad]] (§4) — are not yet wired with justification edges. Seed them one at a time as the argument actually needs them.
+Other atoms extracted from this SoT—[[Logotherapy Posits the Search for Meaning as the Primary Human Motivation]] (§2B), [[Meaning Is Discovered Through Creative Experiential and Attitudinal Values]] (§3), [[Tragic Optimism Is Hope and Meaning That Acknowledges Rather Than Denies the Tragic Triad]] (§4)—are not yet wired with justification edges. Seed them one at a time as the argument actually needs them.

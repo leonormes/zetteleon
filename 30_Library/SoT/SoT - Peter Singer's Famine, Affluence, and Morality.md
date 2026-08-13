@@ -2,7 +2,7 @@
 aliases: ["Peter Singer's Famine", Affluence, and Morality, Effective Altruism Foundation, Singerian Ethics]
 conformant: false
 created: 2025-12-14T00:00:00+00:00
-modified: 2026-07-20T16:33:45+00:00
+modified: 2026-08-13T10:53:48+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-peter-singers-famine-affluence-and-morality
 tags: [effective_altruism, ethics, moral_philosophy, peter_singer, utilitarianism]

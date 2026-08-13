@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-23T20:45:19+00:00
 last_reviewed: 'null'
-modified: 2026-08-08T10:29:25+00:00
+modified: 2026-08-13T10:54:55+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-worlds-ambiguity-drives-the-need-for-certainty
 status: 'null'
 tags: [epistemology, TheHuman/Psychology, uncertainty]

@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-10-30T12:07:03+00:00
-modified: 2026-08-08T10:29:22+00:00
+modified: 2026-08-13T10:54:51+00:00
 non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/100-zettelkasten/prefrontal-cortex-catecholamine-insufficiency-impairs-executive-control-in-adhd
 source: "[[MOC - The Neuroscience of Task Initiation in ADHD]]"

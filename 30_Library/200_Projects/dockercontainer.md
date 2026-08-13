@@ -1,7 +1,7 @@
 ---
 author: Ivan Velichko
 created: 2026-05-02T06:54:32+00:00
-modified: 2026-07-20T16:34:07+00:00
+modified: 2026-08-13T10:53:30+00:00
 permalink: llmeon/30-library/200-projects/dockercontainer
 project_category: infrastructure
 project_name: k8s

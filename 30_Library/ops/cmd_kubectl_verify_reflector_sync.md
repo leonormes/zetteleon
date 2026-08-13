@@ -1,6 +1,6 @@
 ---
 created: 2026-02-21T15:07:25+00:00
-modified: 2026-07-20T16:33:36+00:00
+modified: 2026-08-13T10:53:56+00:00
 permalink: llmeon/30-library/ops/cmd-kubectl-verify-reflector-sync
 risk: read-only
 service: reflector

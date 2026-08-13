@@ -2,7 +2,7 @@
 created: 2026-04-13T14:47:45+00:00
 created_utc: '2026-04-13T11:30:00Z'
 kind: definition
-modified: 2026-08-08T10:29:20+00:00
+modified: 2026-08-13T10:54:48+00:00
 permalink: llmeon/30-library/100-zettelkasten/json-web-tokens-jwt
 source_title: Every API Authentication Method Explained
 source_url: https://youtube.com/watch?v=_lTECv25N2U

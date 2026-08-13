@@ -1,6 +1,6 @@
 ---
 created: 2026-05-31T00:00:00+00:00
-modified: 2026-08-08T10:29:22+00:00
+modified: 2026-08-13T10:54:50+00:00
 permalink: llmeon/30-library/100-zettelkasten/practice-micro-tasking-and-time-boxing
 related_to: ["[[Executive Function]]", "[[Practice - Deferred low-pressure review]]"]
 tags: [adhd, pomodoro, time-boxing, workflow]

@@ -2,13 +2,9 @@
 aliases: []
 conformant: true
 created: 2025-10-20T09:00:00+00:00
-modified: 2026-07-25T18:14:51+00:00
+modified: 2026-08-13T10:53:37+00:00
 permalink: llmeon/30-library/mo-c/moc-the-7-habits-the-maturity-continuum
-prodos:
-  kind: moc
-  lifecycle: stable
-  trust: working
-tags: [7-habits, framework, gtd, growth, principles, productivity]
+tags: [7-habits, framework, growth, gtd, principles, productivity]
 title: MOC - The 7 Habits - The Maturity Continuum
 type: map
 ---

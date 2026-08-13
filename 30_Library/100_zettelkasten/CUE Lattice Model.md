@@ -2,7 +2,7 @@
 created: 2026-04-14T19:58:03+00:00
 created_utc: '2026-04-14T12:40:00Z'
 kind: mechanism
-modified: 2026-08-08T10:29:16+00:00
+modified: 2026-08-13T10:54:43+00:00
 permalink: llmeon/30-library/100-zettelkasten/cue-lattice-model
 source_title: CUE — A Type System for the Cloud
 source_url: https://youtube.com/watch?v=qgNuOjSZL9Y

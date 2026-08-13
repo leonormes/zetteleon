@@ -1,6 +1,6 @@
 ---
 created: 2026-05-31T00:00:00+00:00
-modified: 2026-08-08T10:29:16+00:00
+modified: 2026-08-13T10:54:43+00:00
 permalink: llmeon/30-library/100-zettelkasten/claim-novelty-craving-drives-self-defeating-system-hopping
 position-date: 2026-05-31
 related_to: ["[[Claim - Treat the system as iterative not perfectable]]", "[[Q - Iterating versus system-hopping]]", "[[System-Hopping]]"]

@@ -2,7 +2,7 @@
 conformant: true
 created: 2026-04-10T13:00:00+00:00
 epistemic_status: high
-modified: 2026-08-08T10:29:23+00:00
+modified: 2026-08-13T10:54:51+00:00
 permalink: llmeon/30-library/100-zettelkasten/reinforcement-learning-produces-jagged-intelligence-high-in-verifiable-low-in-subjective-domains
 prodos.kind: atomic
 prodos.lifecycle: stable

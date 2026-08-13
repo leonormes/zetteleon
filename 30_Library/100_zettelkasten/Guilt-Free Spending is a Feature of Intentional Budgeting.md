@@ -3,7 +3,7 @@ aliases: [Budgeted Fun Money]
 conformant: true
 created: 2025-11-18T14:40:00+00:00
 epistemic_status: high
-modified: 2026-08-08T10:29:19+00:00
+modified: 2026-08-13T10:54:47+00:00
 permalink: llmeon/30-library/100-zettelkasten/guilt-free-spending-is-a-feature-of-intentional-budgeting
 prodos.kind: atomic
 prodos.lifecycle: stable

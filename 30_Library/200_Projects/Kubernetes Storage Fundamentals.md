@@ -1,6 +1,6 @@
 ---
 created: 2026-05-02T19:37:55+00:00
-modified: 2026-07-20T16:34:12+00:00
+modified: 2026-08-13T10:53:25+00:00
 permalink: llmeon/30-library/200-projects/kubernetes-storage-fundamentals
 project_category: refined_deployment
 project_name: Refined Deployment

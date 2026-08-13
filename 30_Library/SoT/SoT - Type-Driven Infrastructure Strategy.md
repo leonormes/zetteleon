@@ -2,7 +2,7 @@
 aliases: [Formal Methods for IaC, Infrastructure as Applied Type Theory, The Witness Pattern, Type-Driven Infrastructure, Type-Safe IaC]
 conformant: false
 created: 2025-12-30T14:00:00+00:00
-modified: 2026-07-20T16:33:42+00:00
+modified: 2026-08-13T10:53:51+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-type-driven-infrastructure-strategy
 tags: [cdktf, devops, iac, rust, SoftwareEngineering/Architecture, terraform, type-theory]

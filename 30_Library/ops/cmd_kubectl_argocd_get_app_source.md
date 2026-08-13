@@ -2,7 +2,7 @@
 created: 2026-02-22T16:52:51+00:00
 hop_level: local
 last_verified: 2026-02-22
-modified: 2026-07-20T16:33:37+00:00
+modified: 2026-08-13T10:53:54+00:00
 permalink: llmeon/30-library/ops/cmd-kubectl-argocd-get-app-source
 requires_tunnel: false
 tags: [argocd, cmd, debug, source]

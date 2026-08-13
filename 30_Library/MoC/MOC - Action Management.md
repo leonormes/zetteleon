@@ -1,7 +1,7 @@
 ---
 aliases: [Action MOC, Doing MOC, Execution Map]
 created: 2025-12-08T00:00:00+00:00
-modified: 2026-07-20T16:33:59+00:00
+modified: 2026-08-13T10:53:35+00:00
 permalink: llmeon/30-library/mo-c/moc-action-management
 related-soTs: ["[[SoT - Execution Protocol (GTD & PARA)]]"]
 tags: [action, execution, gtd, prodos, TheHuman/Health/ADHD]
@@ -44,6 +44,6 @@ Specific tools and techniques for managing the "physics" of behavior.
 
 ### 4. Daily Operating Principles
 
-The behavioural surface of the architecture above — what the system looks like on an ordinary day rather than during a planning ritual.
+The behavioural surface of the architecture above—what the system looks like on an ordinary day rather than during a planning ritual.
 
 - [[SoT - Principles for Peaceful Productivity]]—_Ten grounded prescriptions (first-hour protection, one needle-mover, initiate-before-ready, energy check, radical simplicity) covering the day-to-day behaviours the protocols above assume but do not specify. Relocated here 2026-08-03 from [[MOC - Formal Logic & Philosophy (Triage)]], where it was mis-filed under mathematical-logic foundations._

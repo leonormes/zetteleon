@@ -2,7 +2,7 @@
 aliases: [Etcd Encryption, Kubernetes Secret Security]
 conformant: false
 created: 2025-02-07T12:57:56+00:00
-modified: 2026-07-20T16:33:47+00:00
+modified: 2026-08-13T10:53:45+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-kubernetes-secrets-management
 tags: [etcd, kubernetes, secrets, security, sot]

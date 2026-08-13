@@ -2,7 +2,7 @@
 aliases: [LLM Reasoning Efficiency is Proportional to Structural Constraint]
 conformant: false
 created: 2026-01-31T00:00:00+00:00
-modified: 2026-07-27T00:00:00+00:00
+modified: 2026-08-13T10:53:45+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-llm-reasoning-obeys-the-complexity-conservation-law
 tags: [complexity, llm-understanding, prompt-engineering]
@@ -45,7 +45,7 @@ Conclusion: To minimize tokens and maximize accuracy, we must perform the "Data 
 
 ## 5. The Law in LLM Context
 
-Large Language Models do not fail due to a lack of "intelligence" in the traditional sense; they fail when forced to reason over procedural entropy instead of structural constraint. LLMs are essentially statistical traversers of symbolic space — High-Performance at mapping structure to implication (e.g., traversing a graph or following a schema), but Low-Performance at simulating long execution traces or tracking hidden mutable state.
+Large Language Models do not fail due to a lack of "intelligence" in the traditional sense; they fail when forced to reason over procedural entropy instead of structural constraint. LLMs are essentially statistical traversers of symbolic space—High-Performance at mapping structure to implication (e.g., traversing a graph or following a schema), but Low-Performance at simulating long execution traces or tracking hidden mutable state.
 
 If [[Software Complexity is Conserved Between Control Flow and Representation|Complexity is Conserved]], providing an LLM with raw, unstructured code forces it to _reconstruct_ the underlying data model mentally while simultaneously trying to solve the problem. This "double burden" leads to:
 
@@ -54,7 +54,7 @@ If [[Software Complexity is Conserved Between Control Flow and Representation|Co
 
 ### Strategic Shift
 
-To maximize LLM leverage, engineers must shift from **Prompt Engineering** (trying to explain the "how") to **Structural Engineering** (providing the "what").
+To maximize LLM leverage, engineers must shift from Prompt Engineering (trying to explain the "how") to Structural Engineering (providing the "what").
 
 - Context stuffing is a category error. Larger context windows often worsen reasoning if the contents are procedural rather than structural.
 - MVC (Minimum Viable Context) is the required boundary to prevent these failures.

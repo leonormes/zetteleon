@@ -3,7 +3,7 @@ aliases: []
 created: 2025-10-10T08:34:11+00:00
 id: 20251008_Virtual_File_System_for_Agent_Concurrency
 last_reviewed: 'null'
-modified: 2026-08-08T10:29:26+00:00
+modified: 2026-08-13T10:54:56+00:00
 permalink: llmeon/30-library/100-zettelkasten/virtual-file-system-for-agent-concurrency
 status: 'null'
 tags: [Concurrency, SoftwareEngineering/AI, SoftwareEngineering/AI/agents, State]

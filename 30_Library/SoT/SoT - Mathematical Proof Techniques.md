@@ -2,7 +2,7 @@
 aliases: [Direct Proof, How to Prove It, Proof by Contradiction, Proof Methods]
 conformant: false
 created: 2026-01-12T10:10:00+00:00
-modified: 2026-07-20T16:33:47+00:00
+modified: 2026-08-13T10:53:46+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-mathematical-proof-techniques
 tags: [logic, math/proofs, prodos/sot]

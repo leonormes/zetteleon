@@ -2,7 +2,7 @@
 aliases: [K8s Architecture, K8s Cluster State, K8s Mental Model]
 conformant: false
 created: 2025-12-16T00:00:00+00:00
-modified: 2026-07-20T16:33:47+00:00
+modified: 2026-08-13T10:53:45+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-kubernetes-cluster-state-architecture
 tags: [devops, etcd, kubernetes, mental_model, SoftwareEngineering/Architecture]

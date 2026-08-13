@@ -2,7 +2,7 @@
 aliases: [Belief Architecture, Cognitive Spaces, Limiting Beliefs SoT, Mindset Engineering]
 conformant: false
 created: 2025-12-16T00:00:00+00:00
-modified: 2026-07-20T16:33:53+00:00
+modified: 2026-08-13T10:53:40+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-belief-architecture-cognitive-spaces
 tags: [beliefs, cognition, mental_models, TheHuman/Mindset, TheHuman/Psychology]

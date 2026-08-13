@@ -3,7 +3,7 @@ aliases: [forms of life, meaning in use, Wittgensteinian pragmatics]
 conformant: true
 created: 2025-10-31T20:05:00+00:00
 epistemic_status: high
-modified: 2026-08-08T10:29:21+00:00
+modified: 2026-08-13T10:54:49+00:00
 permalink: llmeon/30-library/100-zettelkasten/meaning-emerges-from-language-games
 prodos.kind: atomic
 prodos.lifecycle: stable

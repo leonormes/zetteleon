@@ -4,7 +4,7 @@ contradicts: []
 created: 2026-07-27T10:10:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-08-08T10:29:16+00:00
+modified: 2026-08-13T10:54:43+00:00
 permalink: llmeon/30-library/100-zettelkasten/claim-domains-relate-through-named-relations-not-undifferentiated-association
 position-date: 2026-07-27
 proposition: Knowledge domains stand in specific, directed, nameable relations to

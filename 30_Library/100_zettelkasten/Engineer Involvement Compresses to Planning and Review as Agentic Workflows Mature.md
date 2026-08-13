@@ -1,6 +1,6 @@
 ---
 created: 2026-07-28T09:21:51+00:00
-modified: 2026-08-08T10:29:18+00:00
+modified: 2026-08-13T10:54:46+00:00
 permalink: llmeon/30-library/100-zettelkasten/engineer-involvement-compresses-to-planning-and-review-as-agentic-workflows-mature
 title: Engineer Involvement Compresses to Planning and Review as Agentic Workflows Mature
 ---

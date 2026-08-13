@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2026-01-10T09:27:00+00:00
-modified: 2026-07-20T16:33:55+00:00
+modified: 2026-08-13T10:53:39+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/protocol-metabolic-firewall
 status: active

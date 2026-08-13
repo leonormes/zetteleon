@@ -4,7 +4,7 @@ created: 2025-10-31T09:55:00+00:00
 criteria: "Focus on core concepts from 'What Is Intelligence Where Does it Begin.md'."
 exclusions: Human-specific cognitive abilities without cross-species comparison.
 last_reviewed: ''
-modified: 2026-07-20T16:33:57+00:00
+modified: 2026-08-13T10:53:37+00:00
 permalink: llmeon/30-library/mo-c/moc-the-nature-and-origins-of-intelligence
 scope: Definitions, components, and examples of intelligence across life forms.
 status: ''

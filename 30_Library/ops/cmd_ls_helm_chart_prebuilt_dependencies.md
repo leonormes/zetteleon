@@ -2,7 +2,7 @@
 created: 2026-02-22T16:56:53+00:00
 hop_level: local
 last_verified: 2026-02-22
-modified: 2026-07-20T16:33:36+00:00
+modified: 2026-08-13T10:53:56+00:00
 permalink: llmeon/30-library/ops/cmd-ls-helm-chart-prebuilt-dependencies
 requires_tunnel: false
 tags: [cache, cmd, dependencies, git, helm]

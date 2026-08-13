@@ -2,7 +2,7 @@
 aliases: [Cybersecurity Governance, NIST CSF, NIST Cybersecurity Framework 2.0]
 conformant: true
 created: 2026-04-02T11:00:00+00:00
-modified: 2026-08-09T19:26:00+01:00
+modified: 2026-08-13T10:53:47+00:00
 permalink: llmeon/30-library/so-t/so-t-nist-cybersecurity-framework
 source_of_truth: true
 tags: [compliance, cybersecurity, governance, nist, resilience]
@@ -65,4 +65,4 @@ The NIST CSF is designed to be mapped to specific technical controls. Modern app
 - Infrastructure: [[SoT - Azure Kubernetes Service (AKS) Operations|Protocol - Azure Private AKS Deployment]] %%[depends_on:: [[SoT - Azure Kubernetes Service (AKS) Operations]]]%%
 - Networking: [[SoT - The Data-Centric Theory of Networking]] %%[depends_on:: [[SoT - The Data-Centric Theory of Networking]]]%%
 - Architecture: [[MOC - Data-Centric Software Engineering]] %%[depends_on:: [[MOC - Data-Centric Software Engineering]]]%%
-- *Least Privilege:* [[Least Privilege Authorization with Terraform Cloud]] %%[synthesizes:: [[Least Privilege Authorization with Terraform Cloud]]]%%
+- _Least Privilege:_ [[Least Privilege Authorization with Terraform Cloud]] %%[synthesizes:: [[Least Privilege Authorization with Terraform Cloud]]]%%

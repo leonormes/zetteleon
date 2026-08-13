@@ -2,7 +2,7 @@
 aliases: [Defense in Depth, Layered Defense, Network Security Components, Security Architecture]
 conformant: true
 created: 2026-04-02T12:00:00+00:00
-modified: 2026-08-09T19:21:00+01:00
+modified: 2026-08-13T10:53:47+00:00
 permalink: llmeon/30-library/so-t/so-t-network-security-architecture
 source_of_truth: true
 tags: [architecture, infrastructure, networking, security]
@@ -82,5 +82,5 @@ Network Security Architecture is a framework of policies, technologies, and cont
 - Identity: [[SoT - Data-Centric IAM in Zero Trust]] %%[depends_on:: [[SoT - Data-Centric IAM in Zero Trust]]]%%
 - Voice Security: [[SoT - Session Border Controllers (SBC)]] %%[synthesizes:: [[SoT - Session Border Controllers (SBC)]]]%%
 - Networking: [[SoT - The Data-Centric Theory of Networking]] %%[extends:: [[SoT - The Data-Centric Theory of Networking]]]%%
-- *Continuous Access Validation:* [[Continuous Access Evaluation (CAE)]] %%[synthesizes:: [[Continuous Access Evaluation (CAE)]]]%%
-- *Application-Aware Filtering:* [[Next-Generation Firewalls (NGFW) Provide Application-Aware Security]] %%[synthesizes:: [[Next-Generation Firewalls (NGFW) Provide Application-Aware Security]]]%%
+- _Continuous Access Validation:_ [[Continuous Access Evaluation (CAE)]] %%[synthesizes:: [[Continuous Access Evaluation (CAE)]]]%%
+- _Application-Aware Filtering:_ [[Next-Generation Firewalls (NGFW) Provide Application-Aware Security]] %%[synthesizes:: [[Next-Generation Firewalls (NGFW) Provide Application-Aware Security]]]%%

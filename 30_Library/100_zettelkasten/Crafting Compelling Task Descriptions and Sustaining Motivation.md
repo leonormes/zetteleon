@@ -3,7 +3,7 @@ aliases: []
 conformant: true
 created: 2025-05-28T18:46:40+00:00
 epistemic_status: high
-modified: 2026-08-08T10:29:17+00:00
+modified: 2026-08-13T10:54:44+00:00
 permalink: llmeon/30-library/100-zettelkasten/crafting-compelling-task-descriptions-and-sustaining-motivation
 prodos.kind: atomic
 prodos.lifecycle: stable

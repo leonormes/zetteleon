@@ -1,7 +1,7 @@
 ---
 author: Leon Ormes
 created: 2026-06-11T00:00:00+00:00
-modified: 2026-07-20T16:34:21+00:00
+modified: 2026-08-13T10:53:17+00:00
 permalink: llmeon/30-library/200-projects/2026-06-11-ffnode-stress-testing-v5-full-document
 project_category: refined_deployment
 project_name: Refined Deployment

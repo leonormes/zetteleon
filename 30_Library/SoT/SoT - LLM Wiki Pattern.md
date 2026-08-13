@@ -3,7 +3,7 @@ aliases: [Compounding Knowledge Base, LLM Wiki, Persistent Knowledge Architectur
 conformant: false
 created: 2026-04-06T18:00:00+00:00
 last-synthesis: 2026-04-06
-modified: 2026-08-03T13:21:01+01:00
+modified: 2026-08-13T10:53:45+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-llm-wiki-pattern
 source_of_truth: true
@@ -12,7 +12,7 @@ title: SoT - LLM Wiki Pattern
 type: sot
 ---
 
-> **Open threads:** [[HEAD - Should the LLM have write authority over the wiki layer?]]
+> Open threads: [[HEAD - Should the LLM have write authority over the wiki layer?]]
 
 ## Minimum Viable Understanding (MVU)
 

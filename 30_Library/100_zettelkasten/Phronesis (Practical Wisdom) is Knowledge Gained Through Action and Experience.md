@@ -2,7 +2,7 @@
 aliases: [Phronesis, Practical Wisdom]
 conformant: false
 created: 2025-11-10T17:06:00+00:00
-modified: 2026-08-08T10:29:22+00:00
+modified: 2026-08-13T10:54:50+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/phronesis-practical-wisdom-is-knowledge-gained-through-action-and-experience
 tags: [action, aristotle, knowledge, TheHuman/Philosophy, wisdom]

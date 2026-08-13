@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-24T14:18:33+00:00
 last_reviewed: 'null'
-modified: 2026-08-08T10:29:22+00:00
+modified: 2026-08-13T10:54:50+00:00
 permalink: llmeon/30-library/100-zettelkasten/pkm-as-process-vs-product
 status: 'null'
 tags: [process, TheHuman/Cognition/thinking, topic/knowledge-architecture, topic/pkm, topic/pkm/zettelkasten]

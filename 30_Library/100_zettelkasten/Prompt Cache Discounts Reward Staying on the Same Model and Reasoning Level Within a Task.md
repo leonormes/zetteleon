@@ -1,7 +1,7 @@
 ---
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: medium
-modified: 2026-08-08T10:29:22+00:00
+modified: 2026-08-13T10:54:51+00:00
 permalink: llmeon/30-library/100-zettelkasten/prompt-cache-discounts-reward-staying-on-the-same-model-and-reasoning-level-within-a-task
 proposition: Staying on the same model and the same reasoning level for the duration
   of a single feature, bug, or enhancement keeps prior turns cached, giving a cost

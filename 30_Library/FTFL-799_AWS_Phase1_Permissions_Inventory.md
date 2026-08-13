@@ -1,28 +1,30 @@
 ---
-tags:
-- axiom:FTFL-799
-- infrastructure/aws
-- permissions
-- terraform
-- typed-edge
+created: 2026-07-31T09:24:09+00:00
+modified: 2026-08-13T10:53:04+00:00
 permalink: llmeon/30-library/ftfl-799-aws-phase1-permissions-inventory
+tags: [axiom:FTFL-799, infrastructure/aws, permissions, terraform, typed-edge]
+title: FTFL-799_AWS_Phase1_Permissions_Inventory
 ---
 
-# FTFL-799: AWS Phase 1 — Terraform SP & Developer Permissions Inventory
+## FTFL-799: AWS Phase 1—Terraform SP & Developer Permissions Inventory
 
-**Status**: Phase 1 complete (AWS). Phase 2 (Azure) and Phase 3 (unified doc) in progress.
-**Evidence base**: Live AWS account 592527451415 (FITFILE-Platforms sandbox, HCP Terraform project), Terraform modules, Confluence, git history.
-**Investigation context**: Jira FTFL-799 — "Update the permissions docs for a customer deployment." New permissions discovered during private-cluster-backup work need documented for customer discovery packs.
+Status: Phase 1 complete (AWS). Phase 2 (Azure) and Phase 3 (unified doc) in progress.
+
+Evidence base: Live AWS account 592527451415 (FITFILE-Platforms sandbox, HCP Terraform project), Terraform modules, Confluence, git history.
+
+Investigation context: Jira FTFL-799—"Update the permissions docs for a customer deployment." New permissions discovered during private-cluster-backup work need documented for customer discovery packs.
 
 ---
 
-## Table A1: AWS Terraform SP (`tfc-role`)
+### Table A1: AWS Terraform SP (`tfc-role`)
 
-**Identity**: `arn:aws:iam::592527451415:role/tfc-role`
-**Policy**: `tfc-policy` (customer-managed, **v15** — actively evolving)
-**Auth method**: OIDC federation to `app.terraform.io` (audience `aws.workload.identity`, workspace-scoped via subject pattern), **no static keys**
+Identity: `arn:aws:iam::592527451415:role/tfc-role`
 
-### Permissions
+Policy: `tfc-policy` (customer-managed, v15—actively evolving)
+
+Auth method: OIDC federation to `app.terraform.io` (audience `aws.workload.identity`, workspace-scoped via subject pattern), no static keys
+
+#### Permissions
 
 | Permission / Block | Scope | Purpose | FTFL scope |
 |---|---|---|---|
@@ -30,18 +32,18 @@ permalink: llmeon/30-library/ftfl-799-aws-phase1-permissions-inventory
 | `ec2:*` | `Resource: *` | VPC/subnets/IGW/NAT/ENI/SG/launch-templates/jumpbox/EBS | Infrastructure provisioning (blanket) |
 | EKS full lifecycle | `*` | Cluster/nodegroup/addon/pod-identity/access-entry create/delete/update | Cluster lifecycle |
 | IAM role/policy/OIDC/SLR lifecycle | `*` | All workload role creation (OIDC provider, EBS-CSI, autoscaler, VPC-Lattice, jumpbox) | Workload identity |
-| **IAM user lifecycle** (CreateUser/DeleteUser/CreateAccessKey/PutUserPolicy) | `*` | S3-export IAM user + static key, gated by `modules/s3-bucket` `create_access_keys` var | Optional external-tool integration |
+| IAM user lifecycle (CreateUser/DeleteUser/CreateAccessKey/PutUserPolicy) | `*` | S3-export IAM user + static key, gated by `modules/s3-bucket` `create_access_keys` var | Optional external-tool integration |
 | KMS full lifecycle | `*` | Customer-managed keys for secrets, EBS, S3 | Encryption orchestration |
-| **`s3:*` + `kms:GenerateDataKey`** | `*` | State/export/logging buckets, server-side encryption | Deployment state + data export |
+| `s3:*` + `kms:GenerateDataKey` | `*` | State/export/logging buckets, server-side encryption | Deployment state + data export |
 | Route53 + Route53 Domains | `*` | DNS zone/record/domain registration | DNS management |
 | Elastic Load Balancing (Describe only) | `*` | Read LB state for outputs/health checks | Read-only observability |
-| Network Firewall | `*` | `modules/gateway` — AWS Network Firewall policy/rules (egress control) | Private-cluster egress |
+| Network Firewall | `*` | `modules/gateway`—AWS Network Firewall policy/rules (egress control) | Private-cluster egress |
 | CloudWatch Logs | `ListLogDeliveries` | Discover existing log delivery configs | Observability setup |
-| ⚠️ SSM Session Manager (hardcoded ARNs) | `arn:aws:ec2:eu-west-2:135808916559:instance/i-01903aa5c47d2d015` | Unclear — appears to be environment-specific scaffolding | **UNVERIFIED — account 135808916559 ≠ 592527451415** |
+| ⚠️ SSM Session Manager (hardcoded ARNs) | `arn:aws:ec2:eu-west-2:135808916559:instance/i-01903aa5c47d2d015` | Unclear—appears to be environment-specific scaffolding | UNVERIFIED—account 135808916559 ≠ 592527451415 |
 
-### AWS Backup (FTFL-799 Delta)
+#### AWS Backup (FTFL-799 Delta)
 
-Separate role `aws-backup-role` (service principal trust to `backup.amazonaws.com`), policy `aws-backup-role-policy` (**v1** — fresh):
+Separate role `aws-backup-role` (service principal trust to `backup.amazonaws.com`), policy `aws-backup-role-policy` (v1—fresh):
 
 ```json
 {
@@ -63,11 +65,11 @@ Separate role `aws-backup-role` (service principal trust to `backup.amazonaws.co
 }
 ```
 
-**Key addition**: `k8s:ListResources`/`k8s:DescribeResources` — native EKS backup support for private clusters. Vaults (`eks-backup-vault`, `Default`) and plans (`eks-backup-plan`) exist live but **not yet Terraform-managed** in the module.
+Key addition: `k8s:ListResources`/`k8s:DescribeResources`—native EKS backup support for private clusters. Vaults (`eks-backup-vault`, `Default`) and plans (`eks-backup-plan`) exist live but not yet Terraform-managed in the module.
 
 ---
 
-## Table A2: Roles the Terraform SP creates & assigns
+### Table A2: Roles the Terraform SP Creates & Assigns
 
 | Workload | Role | Permissions | Why |
 |---|---|---|---|
@@ -82,18 +84,18 @@ Separate role `aws-backup-role` (service principal trust to `backup.amazonaws.co
 
 ---
 
-## Table A3: AWS Developer/Operator Permissions
+### Table A3: AWS Developer/Operator Permissions
 
 | Role/Group | Type | Key Actions | Used by | Notes |
 |---|---|---|---|---|
-| Jumpbox instance role | IAM role via SSM Session Manager | EKS `AmazonEKSClusterAdminPolicy` (cluster scope), `ec2:Describe*`, scoped KMS decrypt | FITFILE DevOps | No SSH keys, no public IP. Cluster-admin access is **bound to the instance**, not individual IAM principals — least-privilege for operators depends on who gets `ssm:StartSession` to this one jumpbox |
+| Jumpbox instance role | IAM role via SSM Session Manager | EKS `AmazonEKSClusterAdminPolicy` (cluster scope), `ec2:Describe*`, scoped KMS decrypt | FITFILE DevOps | No SSH keys, no public IP. Cluster-admin access is bound to the instance, not individual IAM principals—least-privilege for operators depends on who gets `ssm:StartSession` to this one jumpbox |
 | Named IAM user/role access entries | `aws_eks_access_entry.user_access` (if `enable_iam_user_access=true`) | Configurable Kubernetes groups per principal | Break-glass FITFILE engineers, customer IT admins | Optional, off by default. Requires per-workspace `.tfvars` or variable-set configuration. |
-| IAM Identity Center | AWS SSO instance `ssoins-7535c9ff6ec965ed` ("FITFILE", Active since 2024-08-09, eu-west-2) | (TBD via permission sets) | FITFILE engineer federation | **UNVERIFIED** — `list-permission-sets` returned empty during investigation. Confirm via AWS console or a principal with appropriate SSO-admin perms. |
-| `tfc-role` itself (OIDC) | IAM role | (see Table A1) | HCP Terraform automation only | No static access keys. Current practice contradicts the "API Key Credentials" language in older Confluence docs — OIDC is the live pattern. |
+| IAM Identity Center | AWS SSO instance `ssoins-7535c9ff6ec965ed` ("FITFILE", Active since 2024-08-09, eu-west-2) | (TBD via permission sets) | FITFILE engineer federation | UNVERIFIED—`list-permission-sets` returned empty during investigation. Confirm via AWS console or a principal with appropriate SSO-admin perms. |
+| `tfc-role` itself (OIDC) | IAM role | (see Table A1) | HCP Terraform automation only | No static access keys. Current practice contradicts the "API Key Credentials" language in older Confluence docs—OIDC is the live pattern. |
 
 ---
 
-## Verification Checklist (Live Commands)
+### Verification Checklist (Live Commands)
 
 ```bash
 # Self-identity
@@ -131,24 +133,24 @@ aws sso-admin list-permission-sets --instance-arn arn:aws:sso:::instance/ssoins-
 
 ---
 
-## Gaps & Open Questions
+### Gaps & Open Questions
 
-1. **Blanket EC2/S3 grants** — `ec2:*` and `s3:*` in live `tfc-policy` v15. Intentional risk/simplicity trade-off, or technical debt? Recommend audit to itemize specific actions needed.
-2. **Hardcoded account 135808916559** — appears in both `tfc-policy` (SSM session ARNs) and `modules/jumpbox/main.tf` (KMS key ARN). Known shared account (e.g., backup vault, shared logging)? Or stale scaffolding to remove before using as customer template?
-3. **IAM Identity Center permission sets** — `list-permission-sets` returned empty; visibility issue or not configured? Verify via console.
-4. **Real customer `enable_iam_user_access` values** — module defaults to false; confirm per deployment's actual `.tfvars` or variable sets.
-5. **AWS Backup Terraform codification** — vaults/plans exist live but no `aws_backup_*` resources in the module (grep-confirmed). Is this in FTFL-799 scope or a follow-up?
-
----
-
-## Doctrine Notes
-
-- **Auth pattern**: OIDC federation (current, proven) > IAM user with static keys (legacy fallback, still documented). Customer-facing discovery pack should recommend OIDC.
-- **Principle**: All workload identities (EBS-CSI, autoscaler, VPC-Lattice, jumpbox) are created by the Terraform SP on first deploy; SP holds unrestricted `iam:PassRole` and `iam:CreateRole`, so no additional privilege-escalation gates exist post-deploy.
-- **Backup delta**: `k8s:ListResources`/`k8s:DescribeResources` are **new** for private-cluster backups. This is the core FTFL-799 discovery.
+1. Blanket EC2/S3 grants—`ec2:*` and `s3:*` in live `tfc-policy` v15. Intentional risk/simplicity trade-off, or technical debt? Recommend audit to itemize specific actions needed.
+2. Hardcoded account 135808916559—appears in both `tfc-policy` (SSM session ARNs) and `modules/jumpbox/main.tf` (KMS key ARN). Known shared account (e.g., backup vault, shared logging)? Or stale scaffolding to remove before using as customer template?
+3. IAM Identity Center permission sets—`list-permission-sets` returned empty; visibility issue or not configured? Verify via console.
+4. Real customer `enable_iam_user_access` values—module defaults to false; confirm per deployment's actual `.tfvars` or variable sets.
+5. AWS Backup Terraform codification—vaults/plans exist live but no `aws_backup_*` resources in the module (grep-confirmed). Is this in FTFL-799 scope or a follow-up?
 
 ---
 
-**See also**: FTFL-799 (Jira), Confluence "AWS - Customer Checklist" (Jan 2025, stale vs live), "FITFILE Deployment Requirements for AWS Environment" (Jul 2025, comprehensive but missing S3/backup details).
+### Doctrine Notes
 
-**Next**: Phase 2 (Azure), then Phase 3 (unified customer deliverable).
+- Auth pattern: OIDC federation (current, proven) > IAM user with static keys (legacy fallback, still documented). Customer-facing discovery pack should recommend OIDC.
+- Principle: All workload identities (EBS-CSI, autoscaler, VPC-Lattice, jumpbox) are created by the Terraform SP on first deploy; SP holds unrestricted `iam:PassRole` and `iam:CreateRole`, so no additional privilege-escalation gates exist post-deploy.
+- Backup delta: `k8s:ListResources`/`k8s:DescribeResources` are new for private-cluster backups. This is the core FTFL-799 discovery.
+
+---
+
+See also: FTFL-799 (Jira), Confluence "AWS - Customer Checklist" (Jan 2025, stale vs live), "FITFILE Deployment Requirements for AWS Environment" (Jul 2025, comprehensive but missing S3/backup details).
+
+Next: Phase 2 (Azure), then Phase 3 (unified customer deliverable).

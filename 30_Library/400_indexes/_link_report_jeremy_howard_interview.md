@@ -1,7 +1,7 @@
 ---
 created: 2026-04-14T20:32:21+00:00
 created_utc: '2026-04-14T13:50:00Z'
-modified: 2026-07-20T16:34:01+00:00
+modified: 2026-08-13T10:53:34+00:00
 permalink: llmeon/30-library/400-indexes/link-report-jeremy-howard-interview
 source_atoms: '[[tmp_atoms_jeremy_howard_interview.md]]'
 status: tmp

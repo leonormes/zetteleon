@@ -3,7 +3,7 @@ aliases: ["The Five Whys Chain Drills an Explanation Down to First-Principle Cau
 conformant: true
 created: 2026-07-25T11:17:00+00:00
 epistemic_status: medium
-modified: 2026-08-08T10:29:13+00:00
+modified: 2026-08-13T10:54:40+00:00
 permalink: llmeon/30-library/100-zettelkasten/2026-07-25-five-whys-chain-drills-to-first-principles
 prodos.kind: atomic
 prodos.lifecycle: stable

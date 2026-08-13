@@ -2,7 +2,7 @@
 conformant: true
 created: 2026-05-04T08:01:26+00:00
 epistemic_status: high
-modified: 2026-08-08T10:29:21+00:00
+modified: 2026-08-13T10:54:49+00:00
 permalink: llmeon/30-library/100-zettelkasten/my-main-pkm-problem-is-the-continuity-of-thinking.
 prodos.kind: claim
 prodos.lifecycle: stable

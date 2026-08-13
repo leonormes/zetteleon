@@ -6,7 +6,7 @@ criteria: Notes must relate to the epistemological crisis of certainty and the s
   reconstruction of identity and confidence.
 exclusions: Simple factual claims or discussions of specific productivity systems.
 last_reviewed: '2026-08-01'
-modified: 2026-08-08T10:29:23+00:00
+modified: 2026-08-13T10:54:52+00:00
 permalink: llmeon/30-library/100-zettelkasten/sn-sequence-building-a-self-without-absolute-certainty
 scope: A philosophical framework for building a functional and confident self in the
   absence of absolute certainty.

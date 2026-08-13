@@ -2,7 +2,7 @@
 aliases: [Agent Capabilities, AI Agent Skills, Claude Code Skills]
 conformant: false
 created: 2026-03-28T17:00:00+00:00
-modified: 2026-08-03T13:21:01+01:00
+modified: 2026-08-13T10:53:40+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-ai-agent-skill-architecture
 tags: [agents, ai, architecture, claude, mcp, skills]
@@ -10,7 +10,7 @@ title: SoT - AI Agent Skill Architecture
 type: sot
 ---
 
-> **Open threads:** [[HEAD - Should agent context isolation come from lazy loading or separate processes?]]
+> Open threads: [[HEAD - Should agent context isolation come from lazy loading or separate processes?]]
 
 ## Minimum Viable Understanding (MVU)
 

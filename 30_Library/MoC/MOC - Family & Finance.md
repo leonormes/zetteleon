@@ -2,7 +2,7 @@
 aliases: [Finance Map, Money MOC]
 conformant: true
 created: 2025-12-23T22:23:09+00:00
-modified: 2026-07-21T13:37:24+00:00
+modified: 2026-08-13T10:53:36+00:00
 permalink: llmeon/30-library/mo-c/moc-family-finance
 tags: [family, finance, index, wealth]
 title: MOC - Family & Finance

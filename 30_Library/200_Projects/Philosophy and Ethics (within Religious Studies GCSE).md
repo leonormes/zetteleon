@@ -1,11 +1,11 @@
 ---
 created: 2026-05-04T08:01:26+00:00
-modified: 2026-07-20T16:34:10+00:00
+modified: 2026-08-13T10:53:27+00:00
 permalink: llmeon/30-library/200-projects/philosophy-and-ethics-within-religious-studies-gcse
 project_name: Bessie
+tags: [bessie]
 title: Philosophy and Ethics (within Religious Studies GCSE)
 type: note
-tags: [bessie]
 ---
 
 ## Philosophy and Ethics (Within Religious Studies GCSE)

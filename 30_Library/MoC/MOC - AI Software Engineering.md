@@ -2,7 +2,7 @@
 aliases: [AI Coding MOC, LLM Engineering Map]
 created: 2026-01-30T08:00:00+00:00
 last-synthesis: 2026-04-04
-modified: 2026-07-20T16:34:00+00:00
+modified: 2026-08-13T10:53:35+00:00
 permalink: llmeon/30-library/mo-c/moc-ai-software-engineering
 tags: [ai-engineering, map-of-content, moc]
 title: MOC - AI Software Engineering
@@ -23,7 +23,7 @@ _Reconciling the "Quantum" (Micro-Logic) with "Relativity" (Macro-Architecture).
 
 ### 1. The Cognitive Bridge
 
-The successful isomorphism between a repository's Static Analysis Graph (RIG) and the model's transient attention state — defined in full by [[SoT - LLM Codebase Understanding & Hierarchy]]. It is the process of reducing prompt entropy by encoding relationships as explicit structure.
+The successful isomorphism between a repository's Static Analysis Graph (RIG) and the model's transient attention state—defined in full by [[SoT - LLM Codebase Understanding & Hierarchy]]. It is the process of reducing prompt entropy by encoding relationships as explicit structure.
 
 ### 2. Context Rot
 

@@ -2,7 +2,7 @@
 aliases: []
 conformant: true
 created: 2025-06-25T20:14:33+00:00
-modified: 2026-08-08T10:29:21+00:00
+modified: 2026-08-13T10:54:49+00:00
 permalink: llmeon/30-library/100-zettelkasten/mindful-llm-research-workflow-for-adhd
 prodos.kind: protocol
 prodos.lifecycle: stable

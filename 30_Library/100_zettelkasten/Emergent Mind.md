@@ -3,7 +3,7 @@ aliases: []
 created: 2025-03-28T12:10:40+00:00
 id: Emergent mind
 last_reviewed: ''
-modified: 2026-08-08T10:29:18+00:00
+modified: 2026-08-13T10:54:46+00:00
 permalink: llmeon/30-library/100-zettelkasten/emergent-mind
 status: ''
 tags: [emergent]

@@ -4,7 +4,7 @@ conformant: true
 created: 2025-10-30T12:35:58+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-08-08T10:29:16+00:00
+modified: 2026-08-13T10:54:42+00:00
 permalink: llmeon/30-library/100-zettelkasten/bidirectional-authority-discomfort-in-adhd
 proposition: "People with ADHD often experience authority discomfort bidirectionally—resisting external direction and discomfort directing others—reflecting a general sensitivity to power dynamics rather than a desire for personal power."
 source: '[[MOC - Authority Dynamics and ADHD]]'

@@ -4,7 +4,7 @@ created: 2025-10-31T09:20:29+00:00
 criteria: Atomic notes on perception formation, accuracy, and meta-awareness
 exclusions: Interpersonal skills training, persuasion techniques, cultural anthropology
 last_reviewed: '2026-04-08'
-modified: 2026-07-20T16:33:57+00:00
+modified: 2026-08-13T10:53:37+00:00
 permalink: llmeon/30-library/mo-c/moc-social-perception-and-self-awareness
 scope: Social perception mechanisms, biases, and calibration strategies
 status: growing

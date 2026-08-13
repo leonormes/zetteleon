@@ -1,18 +1,18 @@
 ---
 conformant: true
 created: 2026-07-22T09:00:00+00:00
-modified: 2026-07-22T09:00:00+00:00
+modified: 2026-08-13T10:53:19+00:00
 permalink: llmeon/30-library/200-projects/bessie-education-and-support
 project_category: education
 project_name: Bessie
 project_status: active
 status: ongoing
 tags: [bessie, education, family, gcse]
-title: "Bessie - Education & Support"
+title: Bessie - Education & Support
 type: project
 ---
 
-## Bessie — Education & Support
+## Bessie—Education & Support
 
 The umbrella project for Bessie's education: GCSE planning and study support, understanding her cognition (ADHD, dyslexia, working memory), and advocacy around SEN provision.
 
@@ -20,8 +20,8 @@ The umbrella project for Bessie's education: GCSE planning and study support, un
 
 ### Start Here
 
-- [[MOC - Bessie]] — the master map of every Bessie note, grouped by theme
-- [[SoT - Bessie GCSE Dashboard]] — **the source of truth**: Year 10 subject matrix, exam boards, key dates, and current blockers
+- [[MOC - Bessie]]—the master map of every Bessie note, grouped by theme
+- [[SoT - Bessie GCSE Dashboard]]—the source of truth: Year 10 subject matrix, exam boards, key dates, and current blockers
 
 If you only open one note, open the SoT dashboard. If you're looking for something older or thematic, go through the MOC.
 
@@ -31,7 +31,7 @@ Per the SoT dashboard: Biology (CIE IGCSE), English Language (AQA), Photography 
 
 ### Why This Project Exists
 
-Bessie's working memory (2nd percentile) means standard schooling and standard revision fail without deliberate scaffolding — see [[Bessie's Working Memory is Overwhelmed by Large Information Volumes]] and [[SoT - Prosthetic Executive Function]]. This project holds everything needed to build that scaffolding: what to study, how she learns best, and the record of what school did and didn't provide.
+Bessie's working memory (2nd percentile) means standard schooling and standard revision fail without deliberate scaffolding—see [[Bessie's Working Memory is Overwhelmed by Large Information Volumes]] and [[SoT - Prosthetic Executive Function]]. This project holds everything needed to build that scaffolding: what to study, how she learns best, and the record of what school did and didn't provide.
 
 ### How Notes Are Organised
 

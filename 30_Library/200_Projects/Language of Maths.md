@@ -1,11 +1,11 @@
 ---
 created: 2026-05-04T08:01:26+00:00
-modified: 2026-07-20T16:34:12+00:00
+modified: 2026-08-13T10:53:25+00:00
 permalink: llmeon/30-library/200-projects/language-of-maths
 project_name: Bessie
+tags: [bessie]
 title: Language of Maths
 type: note
-tags: [bessie]
 ---
 
 ## Language of Maths

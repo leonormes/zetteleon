@@ -1,7 +1,7 @@
 ---
 created: 2026-04-14T11:22:49+00:00
 created_utc: '2026-04-14T11:15:00Z'
-modified: 2026-07-20T16:34:01+00:00
+modified: 2026-08-13T10:53:34+00:00
 permalink: llmeon/30-library/400-indexes/link-report-fowler-beck-reinventing-software
 source_atoms: '[[tmp_atoms_fowler_beck_reinventing_software.md]]'
 status: tmp

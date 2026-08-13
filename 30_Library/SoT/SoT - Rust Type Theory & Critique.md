@@ -3,7 +3,7 @@ alias: [Formality Core, Rust Formal Modeling, Rust Type Theory, The Price of Ign
 aliases: []
 conformant: false
 created: 2025-12-29T11:13:41+00:00
-modified: 2026-07-20T16:33:44+00:00
+modified: 2026-08-13T10:53:49+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-rust-type-theory-critique
 tags: [critique, formal-methods, rust, type-theory]

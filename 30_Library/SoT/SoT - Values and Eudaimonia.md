@@ -2,7 +2,7 @@
 aliases: [Eudaimonia, The Psychology of Duty, Values-Based Living]
 conformant: false
 created: 2025-12-14T00:00:00+00:00
-modified: 2026-07-25T17:41:10+00:00
+modified: 2026-08-13T10:53:51+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-values-and-eudaimonia
 tags: [eudaimonia, TheHuman/Health/ADHD, TheHuman/Philosophy, TheHuman/Psychology, values]

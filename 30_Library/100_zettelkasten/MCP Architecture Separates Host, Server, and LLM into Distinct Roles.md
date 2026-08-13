@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-08-08T10:29:20+00:00
+modified: 2026-08-13T10:54:49+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/mcp-architecture-separates-host-server-and-llm-into-distinct-roles
 tags: [agentic-ai, architecture, mcp, system-design]

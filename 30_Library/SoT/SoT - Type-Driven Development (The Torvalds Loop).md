@@ -2,7 +2,7 @@
 aliases: ["Parse Don't Validate", Data-Centric Programming, The Torvalds Loop, Type-Driven Design, Type-First Development, Typestate Pattern]
 conformant: false
 created: 2025-12-29T10:28:01+00:00
-modified: 2026-07-20T16:33:42+00:00
+modified: 2026-08-13T10:53:51+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-type-driven-development-the-torvalds-loop
 source_of_truth: true

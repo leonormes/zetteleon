@@ -1,6 +1,6 @@
 ---
 created: 2026-07-28T14:20:27+00:00
-modified: 2026-08-08T10:29:15+00:00
+modified: 2026-08-13T10:54:41+00:00
 permalink: llmeon/30-library/100-zettelkasten/agentic-loops-gain-turing-complete-instability-from-chained-reasoning-and-tool-use
 title: Agentic Loops Gain Turing-Complete Instability From Chained Reasoning and Tool Use
 ---

@@ -4,7 +4,7 @@ conformant: true
 created: 2026-04-05T10:45:00+00:00
 last-synthesis: 2026-04-05
 last_reviewed: null
-modified: 2026-08-09T19:32:00+01:00
+modified: 2026-08-13T10:53:47+00:00
 permalink: llmeon/30-library/so-t/so-t-nhs-identity-compliance
 status: Active
 synthesis-count: 1
@@ -72,4 +72,4 @@ AADSignInEvents
 - [[SoT - Microsoft Entra Identity]] %%[depends_on:: [[SoT - Microsoft Entra Identity]]]%%
 - [[SoT - Zero Trust Architecture]] %%[depends_on:: [[SoT - Zero Trust Architecture]]]%%
 - [[SoT - NIST Cybersecurity Framework]] %%[depends_on:: [[SoT - NIST Cybersecurity Framework]]]%%
-- *NHS Services:* [[SoT - NHS MESH Integration]] %%[depends_on:: [[SoT - NHS MESH Integration]]]%%
+- _NHS Services:_ [[SoT - NHS MESH Integration]] %%[depends_on:: [[SoT - NHS MESH Integration]]]%%

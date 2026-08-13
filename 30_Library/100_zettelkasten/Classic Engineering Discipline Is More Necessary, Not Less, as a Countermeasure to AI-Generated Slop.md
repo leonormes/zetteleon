@@ -1,6 +1,6 @@
 ---
 created: 2026-07-28T09:47:42+00:00
-modified: 2026-08-08T10:29:16+00:00
+modified: 2026-08-13T10:54:44+00:00
 permalink: llmeon/30-library/100-zettelkasten/classic-engineering-discipline-is-more-necessary-not-less-as-a-countermeasure-to-ai-generated-slop
 title: Classic Engineering Discipline Is More Necessary, Not Less, as a Countermeasure to AI-Generated Slop
 ---

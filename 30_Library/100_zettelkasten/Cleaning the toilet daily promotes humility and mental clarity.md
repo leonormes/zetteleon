@@ -3,7 +3,7 @@ aliases: []
 conformant: true
 created: 2025-10-29T16:35:00+00:00
 epistemic_status: medium
-modified: 2026-08-08T10:29:16+00:00
+modified: 2026-08-13T10:54:44+00:00
 permalink: llmeon/30-library/100-zettelkasten/cleaning-the-toilet-daily-promotes-humility-and-mental-clarity
 prodos.kind: atomic
 prodos.lifecycle: stable

@@ -2,7 +2,7 @@
 aliases: [ECS, Entity Component System]
 conformant: false
 created: 2025-12-31T00:00:00+00:00
-modified: 2026-07-20T16:33:51+00:00
+modified: 2026-08-13T10:53:42+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-entity-component-system-ecs
 tags: [ecs, game_development, rust, SoftwareEngineering/Architecture]

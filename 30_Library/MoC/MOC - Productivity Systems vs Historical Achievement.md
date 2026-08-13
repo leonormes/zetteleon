@@ -3,7 +3,7 @@ aliases: [Productivity Systems Map]
 created: 2025-11-10T13:10:00+00:00
 criteria: ''
 exclusions: Specific tutorials for GTD or Atomic Habits.
-modified: 2026-07-20T16:33:57+00:00
+modified: 2026-08-13T10:53:37+00:00
 permalink: llmeon/30-library/mo-c/moc-productivity-systems-vs-historical-achievement
 scope: An exploration of how external systems and collective structures substitute
   for internal willpower, both historically and in modern neurodiverse contexts.

@@ -2,7 +2,7 @@
 aliases: [ADHD Emotional Regulation, Emotional Bottleneck]
 conformant: false
 created: 2025-08-26T00:00:00+00:00
-modified: 2026-08-08T10:29:24+00:00
+modified: 2026-08-13T10:54:52+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/so-t-the-emotional-bottleneck-hypothesis
 tags: [adhd-optimization, emotional-regulation, prodos]

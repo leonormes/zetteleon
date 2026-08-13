@@ -1,18 +1,11 @@
 ---
-aliases:
-  - ADHD Activation
-  - Neurological Basis of Task Initiation
-  - Task Initiation Difficulty
+aliases: [ADHD Activation, Neurological Basis of Task Initiation, Task Initiation Difficulty]
 conformant: true
 created: 2025-10-30T12:09:05+00:00
-modified: 2026-07-24T11:30:00+00:00
+modified: 2026-08-13T10:53:37+00:00
 permalink: llmeon/30-library/mo-c/moc-why-task-initiation-is-difficult-in-adhd
 synthesis_count: 2
-tags:
-  - executive-function
-  - task-initiation
-  - TheHuman/Health/ADHD
-  - TheHuman/Neuroscience
+tags: [executive-function, task-initiation, TheHuman/Health/ADHD, TheHuman/Neuroscience]
 title: MOC - Why Task Initiation is Difficult in ADHD
 type: map
 ---
@@ -80,7 +73,7 @@ See: [[MOC - Three-Phase Protocol for Execution|MOC - The Phases of Task Executi
 
 ### Related Concepts
 
-- [[SoT - Prosthetic Executive Function]] - *Details practical ways to offload the cognitive burden of task initiation to external systems.*
+- [[SoT - Prosthetic Executive Function]] - _Details practical ways to offload the cognitive burden of task initiation to external systems._
 - [[SoT - Illusion of Explanatory Depth (IoED)]]
 - [[MOC - Emotional Dysregulation]]
 - [[MOC - Procrastination Triggers]]

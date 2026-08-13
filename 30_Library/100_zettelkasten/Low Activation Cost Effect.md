@@ -2,7 +2,7 @@
 created: 2026-04-14T20:47:44+00:00
 created_utc: '2026-04-14T14:20:00Z'
 kind: mechanism
-modified: 2026-08-08T10:29:20+00:00
+modified: 2026-08-13T10:54:49+00:00
 permalink: llmeon/30-library/100-zettelkasten/low-activation-cost-effect
 source_title: Why Is AI Making My Job Worse?
 source_url: http://www.youtube.com/watch?v=NDyuJcR2GH4

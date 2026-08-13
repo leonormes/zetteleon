@@ -1,9 +1,9 @@
 ---
 created: 2026-07-13T21:26:14+00:00
-modified: 2026-07-20T16:34:34+00:00
+modified: 2026-08-13T10:53:39+00:00
 permalink: llmeon/00-inbox/pieces-copilot-message-export-july-13-2026-4-11pm-1
 tags: [1, 2]
-title: ZRS Conversion Verification Checklist — per site
+title: Protocol - ZRS Conversion Verification (Per Site)
 type: note
 ---
 

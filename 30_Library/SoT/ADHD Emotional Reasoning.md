@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2026-02-02T20:03:15+00:00
-modified: 2026-08-03T13:21:01+01:00
+modified: 2026-08-13T10:53:38+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/adhd-emotional-reasoning
 source_of_truth: true
@@ -9,7 +9,7 @@ title: ADHD Emotional Reasoning
 type: sot
 ---
 
-> **Open threads:** [[HEAD - Where is the line between trusting my gut and emotional reasoning?]]
+> Open threads: [[HEAD - Where is the line between trusting my gut and emotional reasoning?]]
 
 ## 1. Working Knowledge (Stable Foundation)
 

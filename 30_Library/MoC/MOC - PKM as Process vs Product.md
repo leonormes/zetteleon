@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-20T09:40:00+00:00
 last_reviewed: ''
-modified: 2026-07-27T09:40:54+00:00
+modified: 2026-08-13T10:53:36+00:00
 permalink: llmeon/30-library/mo-c/moc-pkm-as-process-vs-product
 status: ''
 tags: [topic/knowledge-architecture]

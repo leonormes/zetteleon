@@ -2,7 +2,7 @@
 aliases: [Reduced Decision Fatigue]
 conformant: false
 created: 2025-11-01T21:04:00+00:00
-modified: 2026-08-08T10:29:25+00:00
+modified: 2026-08-13T10:54:55+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/timeboxing-reduces-decision-fatigue
 tags: [decision-fatigue, TheHuman/Psychology, time-management, topic/productivity]

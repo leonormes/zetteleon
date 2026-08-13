@@ -2,7 +2,7 @@
 aliases: [Give Every Pound a Job, Intentional Allocation, Proactive Budgeting, Zero-Based Budgeting]
 conformant: false
 created: 2025-11-18T14:32:00+00:00
-modified: 2026-08-08T10:29:19+00:00
+modified: 2026-08-13T10:54:47+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/give-every-dollar-a-job-ynab-rule-1
 tags: [budgeting, finance, psychology, ynab]

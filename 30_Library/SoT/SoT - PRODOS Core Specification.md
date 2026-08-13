@@ -2,7 +2,7 @@
 aliases: [K2A Framework, PRODOS, Productivity Operating System]
 conformant: false
 created: 2026-01-03T09:45:08+00:00
-modified: 2026-07-20T16:33:45+00:00
+modified: 2026-08-13T10:53:47+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-prodos-core-specification
 tags: [adhd-optimization, execution, prodos, system-architecture]

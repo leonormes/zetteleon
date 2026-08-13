@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-08-03T17:00:00+01:00
-modified: 2026-08-08T10:29:15+00:00
+modified: 2026-08-13T10:54:42+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-bowstring-maintenance
 tags: [archery, equipment, maintenance, prodos/atomic]
 title: Archery Shot Process - Bowstring Maintenance

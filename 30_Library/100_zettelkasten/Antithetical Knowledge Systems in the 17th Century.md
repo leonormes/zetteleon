@@ -4,7 +4,7 @@ conformant: true
 created: 2025-07-20T13:32:06+00:00
 definition: "The 17th-century coexistence of alchemy and mathematics as simultaneously legitimate paths to knowledge, one pursuing truth through secrecy and ancient authority, the other through openness and demonstrable logic."
 distinguishes_from: []
-modified: 2026-08-08T10:29:15+00:00
+modified: 2026-08-13T10:54:42+00:00
 permalink: llmeon/30-library/100-zettelkasten/antithetical-knowledge-systems-in-the-17th-century
 tags: [17th-century, history-of-science, intellectual-history, paradigm-shift]
 title: Antithetical Knowledge Systems in the 17th Century

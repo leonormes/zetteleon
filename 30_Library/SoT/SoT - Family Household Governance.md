@@ -2,14 +2,14 @@
 aliases: [Earned Access Protocol, Family Chores Framework, Family Maintenance SOPs, Household System, Parental Alignment Contract]
 conformant: true
 created: 2025-12-26T12:00:00+00:00
-modified: 2026-07-21T15:00:00+01:00
+modified: 2026-08-13T10:53:44+00:00
 permalink: llmeon/30-library/so-t/so-t-family-household-governance
 tags: [chores, family, governance, sops, systems]
 title: SoT - Family Household Governance
 type: sot
 ---
 
-> [!info] Tier 1 — Parent SoT
+> [!info] Tier 1—Parent SoT
 > Technical governance for parents. Family day-to-day use: [[Family Chores - Everyone's Guide]] only.
 
 ## 1. Definitive Statement
@@ -64,6 +64,7 @@ Physical storage is architected by Access Frequency, not Volume.
 ### Study Sprints
 
 A Study Sprint is the daily unit of home-education work. It is designed around Bessie's working memory profile:
+
 - One sprint = one target task, pre-atomised into exactly 3 physical, verb-driven actions written down before the sprint starts.
 - The sprint begins only after the Study Session Reset DoD (see [[SoT - Master Household Chores Inventory]]) is fully satisfied.
 - Sprint materials follow the standing accommodations (blue paper, laptop default, no copying from a screen).
@@ -83,6 +84,7 @@ When a study task is at risk or has failed, the sequence is fixed. This protocol
 ### The Parent Ledger—Education & School Logistics
 
 Parent-owned recurring responsibilities:
+
 - Ensure blue paper refill supplies are printed or ordered before stocks run low (weekly stock check).
 - Verify the weekly school-to-AP transition transport schedule (Belfairs Academy ↔ Fast Progress).
 - Coordinate with Fast Progress mentors and Belfairs Academy Art staff to confirm accommodations are consistently executed.
@@ -112,7 +114,7 @@ Parent-owned recurring responsibilities:
 - Trigger: When a child argues, complains, or claims "unfairness."
 - Response: Zero emotional engagement. Treat the complaint as System Noise.
 - Script: _"The system is binary. Work = Access. The choice is yours."_
-- Paper Tiger Framing: When chore pushback or meltdowns occur, parents prompt each other: *"Is this a real tiger, or a paper tiger?"* Recognising chore resistance as a paper tiger allows parents to remain calm and tap out/tap in smoothly.
+- Paper Tiger Framing: When chore pushback or meltdowns occur, parents prompt each other: _"Is this a real tiger, or a paper tiger?"_ Recognising chore resistance as a paper tiger allows parents to remain calm and tap out/tap in smoothly.
 
 ### D. The New Item Integration (NII) Protocol
 
@@ -160,7 +162,6 @@ _Focus: Long-term maintenance._
 To maintain a single source of truth, all detailed technical Standard Operating Procedures (SOPs) and Definitions of Done (DoD) for household tasks have been consolidated.
 
 - Refer to [[SoT - Master Household Chores Inventory]] for the official, step-by-step SOPs. The active rotation ledger and weekly assignment schedules are managed dynamically to reflect school calendars and family logistics.
-
 - The parent-facing rotation schedules and audit-gate timings are defined above in Section 5 and Section 7.
 - Refer to the Tier 2 family-facing guide at [[Family Chores - Everyone's Guide]] for the simplified, non-technical schedule and rotation table.
 
@@ -185,11 +186,13 @@ _Note: Rotating keeps the system fair and prevents stagnation._
 Because Bessie's working memory is easily overwhelmed, standard chore assignments will fail without intentional support structure.
 
 ### Visual Task Checklists & Binders (External Working Memory)
+
 - Visual Checklists: We will create laminated, physical checklists in the zones themselves, breaking down tasks into atomic steps based on the canonical [[SoT - Master Household Chores Inventory]].
 - Chores Binders: Organise homeschooling, cleaning checklists, and pet schedules into dedicated, physical binders. When routines fail, parents or children point directly to the binder rather than lecturing.
 - Family Command Center: Maintain a central whiteboard or fridge chart in a high-traffic area to display the active rotation and critical audit timings so they cannot be missed.
 
 ### Interest Pairing (Dopamine Boosting)
+
 - Rule: Bessie is encouraged to pair tedious chores with high-interest content (e.g., her favourite music or podcasts) that she is _only_ allowed to listen to while performing the chore. This pairs a low-dopamine task with a high-dopamine trigger.
 
 ---
@@ -199,18 +202,20 @@ Because Bessie's working memory is easily overwhelmed, standard chore assignment
 Household chores are only one slice of the total work a family does. The chart below maps the whole set of "jobs" a family runs to ensure the operational plan accounts for the full system, making invisible work visible.
 
 ### The 10 Family Job Categories
-1. **Income Generation:** Salary, investments, side income.
-2. **Household Chores & Maintenance:** Physical upkeep, repairs, appliances.
-3. **Meal Planning & Food Logistics:** Menus, groceries, school lunches.
-4. **Education & School Logistics:** Homework support, SEN meetings, admin.
-5. **Transport & Scheduling:** The "Family Taxi", calendar coordination.
-6. **Health & Medical Management:** Appointments, prescriptions, sick days.
-7. **Finance & Household Administration:** Bills, insurance, tax, budgeting.
-8. **Social, Emotional & Relationship Labor:** Emotional regulation support, maintaining extended relationships, meta-parenting.
-9. **Special Occasions & Seasonal Planning:** Birthdays, holidays, school year prep.
-10. **Pet Care:** Parent-only medical (Addison's) and shared routine care.
+
+1. Income Generation: Salary, investments, side income.
+2. Household Chores & Maintenance: Physical upkeep, repairs, appliances.
+3. Meal Planning & Food Logistics: Menus, groceries, school lunches.
+4. Education & School Logistics: Homework support, SEN meetings, admin.
+5. Transport & Scheduling: The "Family Taxi", calendar coordination.
+6. Health & Medical Management: Appointments, prescriptions, sick days.
+7. Finance & Household Administration: Bills, insurance, tax, budgeting.
+8. Social, Emotional & Relationship Labor: Emotional regulation support, maintaining extended relationships, meta-parenting.
+9. Special Occasions & Seasonal Planning: Birthdays, holidays, school year prep.
+10. Pet Care: Parent-only medical (Addison's) and shared routine care.
 
 ### Whole-Family Ownership Map
+
 The chore chart only shows the children's slice of the system. The rest of the family's work must be transparently mapped so everyone's load is visible, defusing the "why do I have to do it?" argument.
 
 | # | Job category | Who carries it today |
@@ -235,6 +240,7 @@ _Note: Any tasks marked for Mum & Dad should have an explicit split agreed upon 
 When aligning on system administration, the system must be framed as a stress-reduction tool, not a criticism of existing standards.
 
 ### The Framing
+
 1. Sanctuary, not standards. Use the vault's own language: a calm, restful sanctuary; fewer arguments; more free time. Avoid the words "standards", "mess", "discipline".
 2. The system is the bad guy. Wi-Fi and screens are locked by the Audit Gate, not by her. "Work = Access" means she never has to argue, negotiate, or be the villain.
 3. Scripts replace improvisation. The Grace Period and Failure Autopsy provide fixed scripts.
@@ -242,6 +248,7 @@ When aligning on system administration, the system must be framed as a stress-re
 5. Her invisible work is on the map. The Ownership Map shows the children that Mum's quieter jobs count as jobs.
 
 ### Onboarding Sequence
+
 1. Review [[Family Chores - Everyone's Guide]] together.
 2. Co-decide audit times (e.g. 18:00 daily / Sunday 17:00), the exact privilege list, and access-control mechanics.
 3. Agree the two non-negotiables for her role: No Rescue and Grey Rock.

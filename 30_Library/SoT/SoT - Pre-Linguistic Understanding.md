@@ -2,7 +2,7 @@
 aliases: [Action-First Cognition, Embodied Understanding, Pre-Linguistic Cognition]
 conformant: false
 created: 2025-12-13T00:00:00+00:00
-modified: 2026-07-20T16:33:45+00:00
+modified: 2026-08-13T10:53:48+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-pre-linguistic-understanding
 tags: [ai, cognitive_science, education, linguistics, TheHuman/Philosophy]

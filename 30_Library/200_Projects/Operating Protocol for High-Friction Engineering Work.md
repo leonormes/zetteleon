@@ -1,6 +1,6 @@
 ---
 created: 2026-05-15T08:22:55+00:00
-modified: 2026-07-20T16:34:10+00:00
+modified: 2026-08-13T10:53:27+00:00
 permalink: llmeon/30-library/200-projects/operating-protocol-for-high-friction-engineering-work
 project_category: refined_deployment
 project_name: Refined Deployment

@@ -3,7 +3,7 @@ aliases: [Making a behavior easy increases the likelihood it will become a habit
 conformant: true
 created: 2026-07-27T22:00:00+00:00
 epistemic_status: high
-modified: 2026-08-08T10:29:18+00:00
+modified: 2026-08-13T10:54:46+00:00
 permalink: llmeon/30-library/100-zettelkasten/evidence-easy-behaviors-become-habits-through-gradual-layering
 prodos.kind: evidence
 prodos.lifecycle: stable

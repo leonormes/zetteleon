@@ -4,7 +4,7 @@ conformant: true
 created: 2025-11-10T13:03:00+00:00
 epistemic_status: high
 merged_from: '[[Systems and Environment are the Backbone of Discipline]]'
-modified: 2026-08-08T10:29:17+00:00
+modified: 2026-08-13T10:54:45+00:00
 permalink: llmeon/30-library/100-zettelkasten/discipline-is-a-property-of-external-structure-more-than-of-will
 prodos.kind: atomic
 prodos.lifecycle: growing

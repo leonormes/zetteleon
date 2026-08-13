@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-26T17:19:00+00:00
 last_reviewed: 'null'
-modified: 2026-07-20T16:34:12+00:00
+modified: 2026-08-13T10:53:25+00:00
 permalink: llmeon/30-library/200-projects/kube-proxy-implements-services-using-iptables-or-ipvs
 project_category: infrastructure
 project_name: k8s

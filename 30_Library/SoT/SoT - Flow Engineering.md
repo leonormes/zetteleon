@@ -3,7 +3,7 @@ aliases: [Flow Engineering, LLM Orchestration, Programmatic Gates, Prompt Engine
 conformant: false
 created: 2026-04-06T17:00:00+00:00
 last-synthesis: 2026-04-06
-modified: 2026-07-20T16:33:49+00:00
+modified: 2026-08-13T10:53:43+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-flow-engineering
 see_also: []
@@ -98,9 +98,9 @@ A prompt-based "skill" attempts to build a state machine in English. Flow Engine
 
 ---
 
-### Prompt-Injected NFRs vs structural gates
+### Prompt-Injected NFRs Vs Structural Gates
 
-[[Prompt-Injected Non-Functional Requirements (NFRs) for Autonomous Agents]] asserts that prompt instructions reliably injected by a harness are structural gates. This note (Flow Engineering) defines structural gates as *deterministic enforcement in code*, not prompt text. The question — *is a reliably-injected prompt instruction a structural gate, or still a statistical filter?* — is the same category error the Semantic-Statistical Mismatch identifies, and neither note states its assumption about where 'structural' begins.
+[[Prompt-Injected Non-Functional Requirements (NFRs) for Autonomous Agents]] asserts that prompt instructions reliably injected by a harness are structural gates. This note (Flow Engineering) defines structural gates as _deterministic enforcement in code_, not prompt text. The question—_is a reliably-injected prompt instruction a structural gate, or still a statistical filter?_—is the same category error the Semantic-Statistical Mismatch identifies, and neither note states its assumption about where 'structural' begins.
 
 ---
 

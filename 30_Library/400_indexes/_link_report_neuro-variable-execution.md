@@ -1,7 +1,7 @@
 ---
 created: 2026-07-13T08:31:46+00:00
 created_utc: '2026-07-13T08:17:00Z'
-modified: 2026-07-20T16:34:00+00:00
+modified: 2026-08-13T10:53:34+00:00
 permalink: llmeon/00-inbox/link-report-neuro-variable-execution
 source_atoms: '[[tmp_atoms_neuro-variable-execution]]'
 status: tmp

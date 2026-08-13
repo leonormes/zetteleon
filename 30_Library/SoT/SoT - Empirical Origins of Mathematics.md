@@ -2,7 +2,7 @@
 conformant: false
 created: 2026-05-23T13:35:24+00:00
 last-synthesis: 2026-05-23
-modified: 2026-07-20T16:33:51+00:00
+modified: 2026-08-13T10:53:42+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-empirical-origins-of-mathematics
 source_of_truth: true

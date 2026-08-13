@@ -2,11 +2,8 @@
 aliases: []
 conformant: true
 created: 2025-08-30T17:09:46+00:00
-modified: 2026-08-09T20:53:00+01:00
+modified: 2026-08-13T10:53:38+00:00
 permalink: llmeon/30-library/mo-c/moc-symbols-vs-concepts-they-represent
-prodos:
-  kind: moc
-  lifecycle: active
 tags: []
 title: MOC Symbols vs Concepts They Represent
 type: map

@@ -2,7 +2,7 @@
 aliases: [AFM Formal Context, FCA Matrix, Topic Concept Lattice]
 conformant: false
 created: 2026-04-19T09:00:00+00:00
-modified: 2026-07-27T09:42:54+00:00
+modified: 2026-08-13T10:53:43+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-formal-context-applied-formal-methods
 see_also: ["[[MOC - Applied Formal Methods]]", "[[Protocol - AFM Vault Constitutional Triage]]", "[[SoT - Order Theory & Lattices]]", "[[SoT - Structure is Truth is a Unifying Axiom Across Formal Systems]]"]

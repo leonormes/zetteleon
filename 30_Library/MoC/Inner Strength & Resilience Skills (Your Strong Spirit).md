@@ -1,7 +1,7 @@
 ---
 aliases: [Inner Strength MOC, Resilience Skills MOC, Strong Spirit MOC]
 created: 2025-07-10T10:12:15+00:00
-modified: 2026-07-20T16:34:00+00:00
+modified: 2026-08-13T10:53:34+00:00
 permalink: llmeon/30-library/mo-c/inner-strength-resilience-skills-your-strong-spirit
 tags: [character-strength, resilience, type/moc, virtue]
 title: Inner Strength & Resilience Skills (Your Strong Spirit)
@@ -24,4 +24,5 @@ These are the quiet strengths inside you that help you face challenges and stay 
 This map is part of the larger concept of [[A Concept Map for a Flourishing Human]].
 
 %%[extends:: [[A Concept Map for a Flourishing Human]], strength=4, confidence=high]%%
+
 %%[implements:: [[MOC - Character and Virtue]], strength=3, confidence=high]%%

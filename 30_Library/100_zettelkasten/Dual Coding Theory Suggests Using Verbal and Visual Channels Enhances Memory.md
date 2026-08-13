@@ -2,7 +2,7 @@
 aliases: [Dual Coding]
 conformant: false
 created: 2025-11-10T16:12:00+00:00
-modified: 2026-08-08T10:29:18+00:00
+modified: 2026-08-13T10:54:45+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/dual-coding-theory-suggests-using-verbal-and-visual-channels-enhances-memory
 tags: [dual-coding, learning, memory, TheHuman/Cognition]

@@ -1,6 +1,6 @@
 ---
 created: 2026-07-28T09:44:07+00:00
-modified: 2026-08-08T10:29:17+00:00
+modified: 2026-08-13T10:54:45+00:00
 permalink: llmeon/30-library/100-zettelkasten/dark-factories-fail-within-months-because-llms-lack-long-term-architectural-intuition
 title: Dark Factories Fail Within Months Because LLMs Lack Long-Term Architectural Intuition
 ---

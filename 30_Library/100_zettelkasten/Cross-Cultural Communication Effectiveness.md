@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-31T16:07:06+00:00
 last_reviewed: ''
-modified: 2026-08-08T10:29:17+00:00
+modified: 2026-08-13T10:54:44+00:00
 permalink: llmeon/30-library/100-zettelkasten/cross-cultural-communication-effectiveness
 status: ''
 tags: [cross-cultural-communication, culture, language, TheHuman/Cognition/bias]

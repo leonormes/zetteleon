@@ -1,9 +1,9 @@
 ---
-aliases: [Human vs AI Cognition, Human Cognitive Architecture, The Brain Is Not A GPU]
+aliases: [Human Cognitive Architecture, Human vs AI Cognition, The Brain Is Not A GPU]
 conformant: false
 created: 2026-01-30T14:30:00+00:00
 last-synthesis: 2026-01-30
-modified: 2026-07-20T16:33:44+00:00
+modified: 2026-08-13T10:53:45+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-human-vs-ai-cognition
 source_of_truth: true

@@ -1,10 +1,10 @@
 ---
 created: 2026-06-20T15:25:59+00:00
-modified: 2026-07-20T16:34:04+00:00
+modified: 2026-08-13T10:53:31+00:00
 permalink: llmeon/30-library/200-projects/gcse-maths-contents
 project_name: Bessie
-title: gcse-maths-contents
 tags: [bessie]
+title: gcse-maths-contents
 ---
 
 ## GCSE Maths—Topic Contents

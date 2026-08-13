@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-26T17:16:00+00:00
 last_reviewed: '2026-04-08'
-modified: 2026-07-20T16:33:59+00:00
+modified: 2026-08-13T10:53:35+00:00
 permalink: llmeon/30-library/mo-c/moc-containerisation
 status: growing
 tags: [docker, kubernetes, SoftwareEngineering/Containers]

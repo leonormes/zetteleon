@@ -2,7 +2,7 @@
 aliases: [MAF Test]
 created: 2026-01-08T12:45:00+00:00
 last_reviewed: 2026-01-08
-modified: 2026-08-08T10:29:25+00:00
+modified: 2026-08-13T10:54:54+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-maf-test-measures-aerobic-conditioning-progress
 status: seedling
 tags: [assessment, fitness, metrics]

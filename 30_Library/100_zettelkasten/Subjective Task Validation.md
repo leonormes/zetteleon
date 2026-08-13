@@ -2,7 +2,7 @@
 created: 2026-04-13T14:53:30+00:00
 created_utc: '2026-04-13T11:40:00Z'
 kind: heuristic
-modified: 2026-08-08T10:29:24+00:00
+modified: 2026-08-13T10:54:53+00:00
 permalink: llmeon/30-library/100-zettelkasten/subjective-task-validation
 source_title: Using Karpathy’s Original Framework (Auto Research)
 source_url: http://www.youtube.com/watch?v=bc4NrE0cOE0

@@ -1,7 +1,7 @@
 ---
 created: 2026-07-28T10:35:28+00:00
 epistemic_status: medium
-modified: 2026-08-08T10:29:25+00:00
+modified: 2026-08-13T10:54:54+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-deletion-test-reveals-resistance-to-deleting-code-is-an-evaluation-problem-not-a-code-problem
 proposition: When an engineer resists deleting and regenerating a piece of code, the
   "real reason is almost never attachment to the code itself — it's that the team lacks"

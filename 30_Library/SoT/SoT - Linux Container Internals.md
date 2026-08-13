@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2025-12-24T12:00:00+00:00
-modified: 2026-07-20T16:33:47+00:00
+modified: 2026-08-13T10:53:46+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-linux-container-internals
 tags: []
@@ -87,11 +87,11 @@ Kernel primitives are too low-level for application development. Container Runti
 
 ## 6. Isolation Primitives (Knowledge-Graph Nodes)
 
-> These are addressable graph nodes per [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]]. Each `content-block` defines one isolation concept as the authoritative target for edges emitted elsewhere — notably the per-namespace blocks in [[linux-namespaces]], which `implement`/`synthesize` these concepts. Validated by `10_System/scripts/edge_lint.py`.
+> These are addressable graph nodes per [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]]. Each `content-block` defines one isolation concept as the authoritative target for edges emitted elsewhere—notably the per-namespace blocks in [[linux-namespaces]], which `implement`/`synthesize` these concepts. Validated by `10_System/scripts/edge_lint.py`.
 
 <!--content-block-start type="concept" id="namespace-isolation"-->
 
-**Namespace isolation** — the general capability by which a namespace wraps a global kernel resource so a process sees a private instance of it ("what can I see?", §2A). The specific isolation types below each specialise it; [[linux-namespaces]]'s `namespace-integration` block `synthesizes` this node.
+Namespace isolation—the general capability by which a namespace wraps a global kernel resource so a process sees a private instance of it ("what can I see?", §2A). The specific isolation types below each specialise it; [[linux-namespaces]]'s `namespace-integration` block `synthesizes` this node.
 
 <!--content-block-end-->
 
@@ -99,7 +99,7 @@ Kernel primitives are too low-level for application development. Container Runti
 
 %%[extends:: namespace-isolation]%%
 
-**Filesystem isolation** — an independent mount tree and root filesystem, realised by the Mount namespace with `pivot_root` and detachment of the old root (§3). Implemented by [[linux-namespaces]]'s `mount-namespace` block.
+Filesystem isolation—an independent mount tree and root filesystem, realised by the Mount namespace with `pivot_root` and detachment of the old root (§3). Implemented by [[linux-namespaces]]'s `mount-namespace` block.
 
 <!--content-block-end-->
 
@@ -107,7 +107,7 @@ Kernel primitives are too low-level for application development. Container Runti
 
 %%[extends:: namespace-isolation]%%
 
-**Network isolation** — a private network stack: interfaces, IP addresses, port ranges, routing tables, and a dedicated loopback (§2A). Synthesized by [[linux-namespaces]]'s `network-namespace` block.
+Network isolation—a private network stack: interfaces, IP addresses, port ranges, routing tables, and a dedicated loopback (§2A). Synthesized by [[linux-namespaces]]'s `network-namespace` block.
 
 <!--content-block-end-->
 
@@ -115,7 +115,7 @@ Kernel primitives are too low-level for application development. Container Runti
 
 %%[extends:: namespace-isolation]%%
 
-**Process-tree isolation** — an independent PID space in which the container owns its own PID 1 and cannot see host or sibling processes (§2A). Implemented by [[linux-namespaces]]'s `pid-namespace` block.
+Process-tree isolation—an independent PID space in which the container owns its own PID 1 and cannot see host or sibling processes (§2A). Implemented by [[linux-namespaces]]'s `pid-namespace` block.
 
 <!--content-block-end-->
 
@@ -123,7 +123,7 @@ Kernel primitives are too low-level for application development. Container Runti
 
 %%[extends:: namespace-isolation]%%
 
-**Hostname isolation** — a distinct hostname and NIS domain via the UTS namespace, decoupling container identity from the host (§2A). Implemented by [[linux-namespaces]]'s `uts-namespace` block.
+Hostname isolation—a distinct hostname and NIS domain via the UTS namespace, decoupling container identity from the host (§2A). Implemented by [[linux-namespaces]]'s `uts-namespace` block.
 
 <!--content-block-end-->
 
@@ -131,7 +131,7 @@ Kernel primitives are too low-level for application development. Container Runti
 
 %%[extends:: namespace-isolation]%%
 
-**IPC isolation** — a private set of System V IPC objects and POSIX message queues (shared memory, semaphores), preventing cross-container IPC leakage (§2A). Implemented by [[linux-namespaces]]'s `ipc-namespace` block.
+IPC isolation—a private set of System V IPC objects and POSIX message queues (shared memory, semaphores), preventing cross-container IPC leakage (§2A). Implemented by [[linux-namespaces]]'s `ipc-namespace` block.
 
 <!--content-block-end-->
 
@@ -141,7 +141,6 @@ Kernel primitives are too low-level for application development. Container Runti
 
 %%[synthesizes:: namespace-integration]%%
 
-**System isolation** — the emergent, container-grade isolation produced by coordinating every namespace type together with cgroups and union filesystems (§1, "a process with a restricted view of the system"). This is the abstract goal that [[linux-namespaces]]'s `containerization-implementation` block `implements`.
+System isolation—the emergent, container-grade isolation produced by coordinating every namespace type together with cgroups and union filesystems (§1, "a process with a restricted view of the system"). This is the abstract goal that [[linux-namespaces]]'s `containerization-implementation` block `implements`.
 
 <!--content-block-end-->
-

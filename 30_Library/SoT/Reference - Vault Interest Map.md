@@ -2,7 +2,7 @@
 aliases: ["Leon's Interests", Interest Analysis]
 conformant: false
 created: 2026-06-10T09:24:30+00:00
-modified: 2026-07-20T16:33:54+00:00
+modified: 2026-08-13T10:53:39+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/reference-vault-interest-map
 see_also: ["[[Meta MOC - The Core Domains]]", "[[MOC - PKM as Process vs Product]]"]

@@ -4,7 +4,7 @@ conformant: true
 created: 2025-10-20T09:07:00+00:00
 definition: "The principle of creative cooperation — valuing differences and seeking third alternatives so that the whole becomes greater than the sum of its parts, rather than settling for mere compromise."
 distinguishes_from: []
-modified: 2026-08-08T10:29:19+00:00
+modified: 2026-08-13T10:54:47+00:00
 permalink: llmeon/30-library/100-zettelkasten/habit-6-synergize
 tags: [7-habits, cooperation, gtd, principles, productivity, TheHuman/Creativity, TheHuman/Habits]
 title: Habit 6 - Synergize

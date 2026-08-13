@@ -3,7 +3,7 @@ aliases: [Deconstructing Perfectionism, Growth Mindset Protocol, Parenting for N
 conformant: true
 created: 2026-02-03T12:00:00+00:00
 last_synthesis: 2026-02-03
-modified: 2026-07-21T20:53:50+00:00
+modified: 2026-08-13T10:53:38+00:00
 permalink: llmeon/30-library/so-t/protocol-fostering-growth-mindset-neurodivergent-family
 source_of_truth: true
 status: evergreen

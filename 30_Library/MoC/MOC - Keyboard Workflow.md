@@ -2,7 +2,7 @@
 aliases: [Keyboard MOC, MOC Keyboard]
 created: 2025-12-21T19:00:00+00:00
 last_reviewed: null
-modified: 2026-07-20T16:33:58+00:00
+modified: 2026-08-13T10:53:36+00:00
 permalink: llmeon/30-library/mo-c/moc-keyboard-workflow
 status: null
 tags: [keyboard, workflow]

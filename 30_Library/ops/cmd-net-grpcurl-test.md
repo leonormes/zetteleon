@@ -1,7 +1,7 @@
 ---
 created: 2026-02-19T13:14:59+00:00
 hop_level: local
-modified: 2026-07-20T16:33:39+00:00
+modified: 2026-08-13T10:53:53+00:00
 permalink: llmeon/30-library/ops/cmd-net-grpcurl-test
 requires_tunnel: false
 tags: [api, atomic, grpc, network]

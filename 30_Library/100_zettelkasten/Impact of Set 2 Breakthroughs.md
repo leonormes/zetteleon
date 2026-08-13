@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-02-07T12:57:55+00:00
 last_reviewed: 'null'
-modified: 2026-08-08T10:29:19+00:00
+modified: 2026-08-13T10:54:48+00:00
 permalink: llmeon/30-library/100-zettelkasten/impact-of-set-2-breakthroughs
 status: 'null'
 tags: [knowledge, TheHuman/Cognition/thinking, topic/learning]

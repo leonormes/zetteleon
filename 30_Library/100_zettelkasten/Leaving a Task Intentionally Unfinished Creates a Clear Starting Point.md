@@ -2,7 +2,7 @@
 aliases: [Intentional Unfinishing]
 created: 2025-11-11T19:05:07+00:00
 last_reviewed: ''
-modified: 2026-08-08T10:29:20+00:00
+modified: 2026-08-13T10:54:49+00:00
 permalink: llmeon/30-library/100-zettelkasten/leaving-a-task-intentionally-unfinished-creates-a-clear-starting-point
 status: seedling
 tags: [task-management, topic/productivity]

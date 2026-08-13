@@ -2,7 +2,7 @@
 aliases: [Architecture MOC, MOC - Systems Architecture, System Design Index]
 created: 2025-10-31T12:38:00+00:00
 exclusions: Data-Level Implementation Details (See [[MOC - Data-Centric Software Engineering]])
-modified: 2026-07-20T16:33:57+00:00
+modified: 2026-08-13T10:53:37+00:00
 permalink: llmeon/30-library/mo-c/moc-software-architecture-principles
 scope: Macro-Architecture (System-to-System)
 tags: [boundaries, SoftwareEngineering/Architecture, systems_design, type/moc]

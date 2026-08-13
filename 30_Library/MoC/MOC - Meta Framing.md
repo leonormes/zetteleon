@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-02-07T12:57:55+00:00
 last_reviewed: ''
-modified: 2026-07-20T16:33:58+00:00
+modified: 2026-08-13T10:53:36+00:00
 patterns: ''
 permalink: llmeon/30-library/mo-c/moc-meta-framing
 status: ''

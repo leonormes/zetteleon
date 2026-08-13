@@ -2,7 +2,7 @@
 aliases: [Financial Physics, Money as Energy, Ontology of Money, Spendfulness]
 conformant: false
 created: 2025-12-30T15:50:00+00:00
-modified: 2026-07-20T16:33:50+00:00
+modified: 2026-08-13T10:53:43+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-financial-philosophy-and-spendfulness
 tags: [finance, ontology, physics, psychology, TheHuman/Mindset]

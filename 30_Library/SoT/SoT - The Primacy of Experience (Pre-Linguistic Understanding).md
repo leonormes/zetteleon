@@ -2,7 +2,7 @@
 aliases: [Embodied Understanding, Experiential Grounding, Language as a Tool, Pre-Linguistic Understanding, Primacy of Experience]
 conformant: false
 created: 2026-01-02T15:00:00+00:00
-modified: 2026-07-20T16:33:42+00:00
+modified: 2026-08-13T10:53:50+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-the-primacy-of-experience-pre-linguistic-understanding
 tags: [cognition, embodiment, language, TheHuman/Philosophy, understanding]

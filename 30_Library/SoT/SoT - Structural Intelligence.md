@@ -2,7 +2,7 @@
 aliases: [AST-Based Retrieval, Deterministic Code Graph, Structural Intelligence]
 conformant: false
 created: 2026-01-30T10:00:00+00:00
-modified: 2026-07-27T16:01:00+00:00
+modified: 2026-08-13T10:53:49+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-structural-intelligence
 tags: [architecture, ast, graph-theory, retrieval, tooling]
@@ -56,8 +56,11 @@ Tools like Aider and Tree-sitter use this to create RepoMaps: compressed skeleto
 For an LLM to possess [[SoT - Dimensions of Code Understanding|Structural Understanding]], it must be fed the Graph, not just the Text. This prevents [[SoT - Context Rot]] by grounding the model in the immutable reality of the compiler.
 
 ---
+
 %%[synthesizes:: [[SoT - Context Rot]]]%%
+
 %%[synthesizes:: [[SoT - Macro-Micro Unification]]]%%
+
 %%[synthesizes:: [[SoT - The Context Engine]]]%%
 
 See Also: [[SoT - Dimensions of Code Understanding]], [[SoT - Macro-Micro Unification]], [[SoT - Context Rot]], [[SoT - The Context Engine]]

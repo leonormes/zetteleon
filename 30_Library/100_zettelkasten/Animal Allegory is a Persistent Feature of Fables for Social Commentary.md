@@ -2,7 +2,7 @@
 aliases: [Fable as Allegory]
 conformant: false
 created: 2025-11-01T21:40:00+00:00
-modified: 2026-08-08T10:29:15+00:00
+modified: 2026-08-13T10:54:42+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/animal-allegory-is-a-persistent-feature-of-fables-for-social-commentary
 tags: [allegory, fable, social-commentary, storytelling]

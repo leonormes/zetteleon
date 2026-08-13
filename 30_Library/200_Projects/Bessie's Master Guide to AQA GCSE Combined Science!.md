@@ -1,11 +1,10 @@
 ---
 created: 2026-06-11T12:08:06+00:00
-modified: 2026-07-20T16:34:19+00:00
+modified: 2026-08-13T10:53:18+00:00
 permalink: llmeon/30-library/200-projects/bessies-master-guide-to-aqa-gcse-combined-science
 project_name: Bessie
-title: Bessie's Master Guide to AQA GCSE Combined Science!
-tags:
-  - bessie
+tags: [bessie]
+title: "Bessie's Master Guide to AQA GCSE Combined Science!"
 type: note
 ---
 

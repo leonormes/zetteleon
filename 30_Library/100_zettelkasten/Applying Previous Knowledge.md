@@ -3,7 +3,7 @@ aliases: []
 conformant: true
 created: 2025-02-07T12:57:54+00:00
 epistemic_status: high
-modified: 2026-08-08T10:29:15+00:00
+modified: 2026-08-13T10:54:42+00:00
 permalink: llmeon/30-library/100-zettelkasten/applying-previous-knowledge
 prodos.kind: atomic
 prodos.lifecycle: stable

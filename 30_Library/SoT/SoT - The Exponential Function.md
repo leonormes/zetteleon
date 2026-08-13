@@ -2,7 +2,7 @@
 aliases: [Compounding, Exponential Growth, The Rule of 70]
 conformant: false
 created: 2025-12-25T11:45:00+00:00
-modified: 2026-07-20T16:33:43+00:00
+modified: 2026-08-13T10:53:50+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-the-exponential-function
 tags: [cognition, mathematics, mental_models, systems_thinking]

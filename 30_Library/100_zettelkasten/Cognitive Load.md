@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2026-05-31T00:00:00+00:00
-modified: 2026-08-08T10:29:16+00:00
+modified: 2026-08-13T10:54:44+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/cognitive-load
 related_to: ["[[Claim - Flat associative structure beats rigid hierarchy]]", "[[Executive Function]]", "[[MOC - ADHD and PKM Systems]]"]

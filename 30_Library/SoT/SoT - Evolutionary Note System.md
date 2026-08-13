@@ -2,7 +2,7 @@
 aliases: [Evolving Notes, Living Note System, NeuroStack Workflow, The Merge Protocol]
 conformant: false
 created: 2025-11-13T00:00:00+00:00
-modified: 2026-07-27T09:40:54+00:00
+modified: 2026-08-13T10:53:42+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-evolutionary-note-system
 tags: [ai, knowledge-management, pkm, synthesis, TheHuman/Cognition, thinking, topic/knowledge-architecture]
@@ -43,16 +43,16 @@ The system separates "Thinking" (Volatile) from "Knowing" (Stable).
 - Context: Your new insight contradicts an old one.
 - Action: Overwrite the old SoT content. Do not hoard outdated facts. The goal is _Utility_, not _History_.
 
-### Step 4: The Tombstone (mandatory on every Merge)
+### Step 4: The Tombstone (Mandatory on eVery Merge)
 
-- Context: Decided 2026-07-27, after an audit found ~24 atomic notes across the LLM cluster citing four HEAD notes as `upstream` that had been merged-and-removed with no trace left behind — every one a dangling wikilink pointing at a title that no longer resolves anywhere in the vault, not even in `99_Archive/`.
-- Rule: **Deprecating a `HEAD` note (Step 2) is not complete until a tombstone exists at its exact title.** Deleting a HEAD outright, with no stub, is a Step 2 violation regardless of how many notes cite it as `upstream` — the citation is exactly what breaks.
-- Action: Move the `HEAD` note to `99_Archive/`, or — if the original content is genuinely gone — create a minimal tombstone note **at the HEAD's exact original title** (so existing wikilinks resolve by filename) with:
+- Context: Decided 2026-07-27, after an audit found ~24 atomic notes across the LLM cluster citing four HEAD notes as `upstream` that had been merged-and-removed with no trace left behind—every one a dangling wikilink pointing at a title that no longer resolves anywhere in the vault, not even in `99_Archive/`.
+- Rule: Deprecating a `HEAD` note (Step 2) is not complete until a tombstone exists at its exact title. Deleting a HEAD outright, with no stub, is a Step 2 violation regardless of how many notes cite it as `upstream`—the citation is exactly what breaks.
+- Action: Move the `HEAD` note to `99_Archive/`, or—if the original content is genuinely gone—create a minimal tombstone note at the HEAD's exact original title (so existing wikilinks resolve by filename) with:
   - `type: tombstone`, `prodos.lifecycle: archived`
   - one line: what this HEAD was, and which surviving `SoT`/atomic notes absorbed its content
   - a list of the notes that cited it as `upstream` at time of tombstoning, so the redirect is traceable both ways
-- Why filename over alias: the citing notes hold the exact string in an `upstream:` frontmatter field or prose wikilink, not a typed edge the compiler resolves — only a same-titled file fixes them without touching every citing note individually.
-- This does not relax Step 3 (`Supersede`) — content still gets overwritten in the living SoT. It only forbids the *old title* from becoming an orphaned reference once that overwrite happens.
+- Why filename over alias: the citing notes hold the exact string in an `upstream:` frontmatter field or prose wikilink, not a typed edge the compiler resolves—only a same-titled file fixes them without touching every citing note individually.
+- This does not relax Step 3 (`Supersede`)—content still gets overwritten in the living SoT. It only forbids the _old title_ from becoming an orphaned reference once that overwrite happens.
 
 ---
 

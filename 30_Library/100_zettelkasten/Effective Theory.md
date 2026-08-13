@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-29T15:17:35+00:00
 last_reviewed: ''
-modified: 2026-08-08T10:29:18+00:00
+modified: 2026-08-13T10:54:45+00:00
 permalink: llmeon/30-library/100-zettelkasten/effective-theory
 status: ''
 tags: [physics, science, TheHuman/Cognition/mental-model]

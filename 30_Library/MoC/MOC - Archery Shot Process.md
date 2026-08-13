@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T00:00:00+00:00
-modified: 2026-08-06T19:53:00+00:00
+modified: 2026-08-13T10:53:35+00:00
 permalink: llmeon/30-library/mo-c/moc-archery-shot-process
 tags: [archery, prodos/moc, sport, technique]
 title: MOC - Archery Shot Process

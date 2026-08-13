@@ -2,7 +2,7 @@
 aliases: [Dukkha, Four Noble Truths]
 conformant: false
 created: 2025-11-01T12:20:03+00:00
-modified: 2026-08-08T10:29:25+00:00
+modified: 2026-08-13T10:54:54+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/the-four-noble-truths-explain-suffering-from-attachment
 tags: [attachment, buddhism, suffering, zen]

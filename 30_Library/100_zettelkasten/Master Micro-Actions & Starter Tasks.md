@@ -3,7 +3,7 @@ aliases: [5-Minute Rule, Micro-Actions, Starter Tasks]
 conformant: true
 created: 2025-12-16T13:15:00+00:00
 epistemic_status: absolute
-modified: 2026-08-08T10:29:21+00:00
+modified: 2026-08-13T10:54:49+00:00
 permalink: llmeon/30-library/100-zettelkasten/master-micro-actions-starter-tasks
 prodos.kind: atomic
 prodos.lifecycle: stable

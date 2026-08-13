@@ -2,7 +2,7 @@
 aliases: [FITFILE Platform Deployment]
 conformant: false
 created: 2026-02-01T19:26:00+00:00
-modified: 2026-07-20T16:33:50+00:00
+modified: 2026-08-13T10:53:43+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-fit-file-deployment-platform-module
 tags: [deployment, ff_deploy, kubernetes, SoT, terraform]

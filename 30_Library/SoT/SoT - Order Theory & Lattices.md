@@ -2,7 +2,7 @@
 aliases: [Lattice Theory, Meet and Join, Partial Orders, Subsumption]
 conformant: false
 created: 2026-02-04T00:00:00+00:00
-modified: 2026-07-27T09:40:54+00:00
+modified: 2026-08-13T10:53:48+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-order-theory-lattices
 tags: [logic, math, sot, theory, topic/knowledge-architecture]

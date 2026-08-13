@@ -3,7 +3,7 @@ alias: [FITFILE CI/CD Pipeline Design Document]
 captured: 2026-06-16T10:24:16+01:00 2026-06-16T10:24:16+01:00
 created: 2026-06-16T00:00:00+00:00
 entity_kind: project
-modified: 2026-07-20T16:34:16+00:00
+modified: 2026-08-13T10:53:22+00:00
 permalink: llmeon/30-library/200-projects/git-lab-ci-integration
 project_name: Pipeline
 source: https://fitfile.atlassian.net/wiki/spaces/FITFILE/pages/2865528839

@@ -1,7 +1,7 @@
 ---
 created: 2026-07-28T09:22:09+00:00
 epistemic_status: medium
-modified: 2026-08-08T10:29:24+00:00
+modified: 2026-08-13T10:54:53+00:00
 permalink: llmeon/30-library/100-zettelkasten/software-factory-pattern-specialized-sandboxed-agents-autonomously-own-feature-bugfix-and-incident-lifecycles
 tags: [domain/llm, topic/agent-architecture, topic/multi-agent, topic/workflow-design]
 title: Software Factory Pattern - Specialized Sandboxed Agents Autonomously Own Feature, Bugfix, and Incident Lifecycles

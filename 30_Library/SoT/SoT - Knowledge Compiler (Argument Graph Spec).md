@@ -2,7 +2,7 @@
 aliases: [Argument Compiler, Argument Graph, Belief Tracing, Knowledge Compiler]
 conformant: true
 created: 2026-07-24T00:00:00+00:00
-modified: 2026-08-03T13:21:01+01:00
+modified: 2026-08-13T10:53:46+00:00
 permalink: llmeon/30-library/so-t/so-t-knowledge-compiler-argument-graph-spec
 see_also: ["[[Protocol - Typed Answer Contract (TAC) for Vault Agents]]", "[[SoT - PRODOS Core Specification]]", "[[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]", "[[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]]"]
 tags: [domain/pkm, prodos/sot, topic/knowledge-architecture, topic/knowledge-graph]
@@ -10,7 +10,7 @@ title: SoT - Knowledge Compiler (Argument Graph Spec)
 type: sot
 ---
 
-> **Open threads:** [[HEAD - Is the argument compiler's gap definition measuring anything real?]]
+> Open threads: [[HEAD - Is the argument compiler's gap definition measuring anything real?]]
 
 > Canonical status: this note specifies the semantics and compiler capabilities of the knowledge graph—what the tool _computes_ and _answers_. Its sibling [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]] fixes the syntax (how edges are written and resolved). The validator is `10_System/scripts/edge_lint.py`; capabilities below extend it. Roadmap in §5 is the source of truth for build order—do one phase, ship it, then reassess.
 
@@ -85,14 +85,14 @@ The other three (`extends`, `synthesizes`, `implements`) are structural, not arg
 | Phase | Capability | Build | Status |
 |:---|:---|:---|:---|
 | v0 | Typed edges + resolution | `edge_lint.py`—no danglers, controlled vocab, targets resolve. | done |
-| v1 | Gap detection + foundation audit (C1, C2) | Add the `axiom` marker; add `edge_lint.py --audit`: build the justification subgraph, list gaps and declared-vs-undeclared foundations. | **built, unused** |
-| v2 | Conflict detection (C3) | Report `contradicts` edges; detect cycles in the supports graph. | **built, untested — no `contradicts` edge exists yet** |
-| v3 | Provenance (C4) | `edge_lint.py --why <title>` and `--impact <title>`—print the justification / impact tree. | **built, working** |
+| v1 | Gap detection + foundation audit (C1, C2) | Add the `axiom` marker; add `edge_lint.py --audit`: build the justification subgraph, list gaps and declared-vs-undeclared foundations. | built, unused |
+| v2 | Conflict detection (C3) | Report `contradicts` edges; detect cycles in the supports graph. | built, untested—no `contradicts` edge exists yet |
+| v3 | Provenance (C4) | `edge_lint.py --why <title>` and `--impact <title>`—print the justification / impact tree. | built, working |
 | v4+ | Derived contradictions, strength-weighted confidence, visualisation, cross-note argument views (Bases) |—| deferred |
 
 Each phase is shippable alone and adds exactly one epistemic answer. Do not build vN+1 until vN has been used on real claims and earned its place.
 
-> **Status correction (2026-07-25).** This table previously read `v1 next / v2 planned / v3 planned`. All three were in fact already implemented in `edge_lint.py`. The build discipline above was therefore not followed — v1–v3 were written in one pass, ahead of the data. The honest current state is that the *code* runs but only v0 and v3 have been exercised against real edges: v1 returns 12 gaps (below), and **v2 has never fired, because the vault contains zero `contradicts` edges**. The next task is not more code; it is recording a real contradiction and a real axiom so v1 and v2 can be judged on output rather than assumed correct.
+> Status correction (2026-07-25). This table previously read `v1 next / v2 planned / v3 planned`. All three were in fact already implemented in `edge_lint.py`. The build discipline above was therefore not followed—v1–v3 were written in one pass, ahead of the data. The honest current state is that the _code_ runs but only v0 and v3 have been exercised against real edges: v1 returns 12 gaps (below), and v2 has never fired, because the vault contains zero `contradicts` edges. The next task is not more code; it is recording a real contradiction and a real axiom so v1 and v2 can be judged on output rather than assumed correct.
 
 ## 6. Simplicity Guards (Non-goals)
 
@@ -110,8 +110,8 @@ Each phase is shippable alone and adds exactly one epistemic answer. Do not buil
 
 ## Tensions & Gaps
 
-- ~~No argument data yet.~~ **Superseded 2026-07-25.** The justification graph is no longer empty: 39 justification edges across 43 nodes, mostly a real ADHD-neurology argument converging on [[The ADHD brain operates on an Interest-Based Nervous System]]. C1 returns **12 genuine gaps** — claims that support something with nothing beneath them and no `axiom` flag. What remains empty is the *conflict* half: **0 `contradicts` edges and 0 `axiom: true` markers vault-wide**, so C2's declared-axiom set is empty by construction and C3 has never fired on real data. The seeding task the original tension named is half-done: the support graph exists, the conflict graph does not.
-- Every gap is a leaf, which may mean the definition is too generous. All 12 C1 gaps are single-hop leaves feeding one hub claim, and the graph is two levels deep. A shallow star is exactly the shape that makes C1 look productive while telling you little — the "gaps" are simply the outermost ring, and adding support to any of them just moves the ring outward. C1 earns its place only once the graph has depth; until then, read its output as "here is the current frontier", not "here are 12 defects".
+- ~~No argument data yet.~~ Superseded 2026-07-25. The justification graph is no longer empty: 39 justification edges across 43 nodes, mostly a real ADHD-neurology argument converging on [[The ADHD brain operates on an Interest-Based Nervous System]]. C1 returns 12 genuine gaps—claims that support something with nothing beneath them and no `axiom` flag. What remains empty is the _conflict_ half: 0 `contradicts` edges and 0 `axiom: true` markers vault-wide, so C2's declared-axiom set is empty by construction and C3 has never fired on real data. The seeding task the original tension named is half-done: the support graph exists, the conflict graph does not.
+- Every gap is a leaf, which may mean the definition is too generous. All 12 C1 gaps are single-hop leaves feeding one hub claim, and the graph is two levels deep. A shallow star is exactly the shape that makes C1 look productive while telling you little—the "gaps" are simply the outermost ring, and adding support to any of them just moves the ring outward. C1 earns its place only once the graph has depth; until then, read its output as "here is the current frontier", not "here are 12 defects".
 - Author-asserted, not validated. Every edge is a claim _you_ made about your own reasoning. The compiler can find a gap or a contradiction in the _shape_ of what you asserted; it cannot tell you whether an individual `supports` is actually a good reason. It sharpens your thinking; it does not outsource it.
 - Atomicity discipline required. The graph is only as clean as the claims are atomic. A note bundling three assertions cannot be cleanly supported or contradicted—the Zettelkasten "one claim per node" rule is a hard prerequisite, not a stylistic preference.
 

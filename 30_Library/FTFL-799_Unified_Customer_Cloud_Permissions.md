@@ -1,6 +1,6 @@
 ---
 created: 2026-07-31T09:34:18+00:00
-modified: 2026-07-31T09:37:01+00:00
+modified: 2026-08-13T10:53:04+00:00
 permalink: llmeon/30-library/ftfl-799-unified-customer-cloud-permissions
 tags: [axiom:FTFL-799, customer-facing, infrastructure/aws, infrastructure/azure, permissions, terraform, typed-edge]
 title: FTFL-799_Unified_Customer_Cloud_Permissions

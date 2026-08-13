@@ -3,7 +3,7 @@ aliases: [Mundane Thoughts as Raw Material]
 conformant: true
 created: 2025-11-06T20:01:00+00:00
 epistemic_status: high
-modified: 2026-08-08T10:29:21+00:00
+modified: 2026-08-13T10:54:49+00:00
 permalink: llmeon/30-library/100-zettelkasten/mundane-written-thoughts-are-the-starting-point-for-deeper-insight
 prodos.kind: claim
 prodos.lifecycle: stable

@@ -2,7 +2,7 @@
 conformant: false
 created: 2026-04-02T10:55:00+00:00
 last-synthesis: 2026-04-02
-modified: 2026-07-20T16:33:45+00:00
+modified: 2026-08-13T10:53:48+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-prod-os-thinking-stream
 source_of_truth: true

@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-12-10T12:00:00+00:00
-modified: 2026-08-08T10:29:17+00:00
+modified: 2026-08-13T10:54:44+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/curiosity-is-taking-an-interest-in-experience-for-its-own-sake
 tags: [character-strength, curiosity, wisdom]

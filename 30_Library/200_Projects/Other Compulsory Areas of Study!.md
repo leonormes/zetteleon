@@ -1,11 +1,11 @@
 ---
 created: 2026-05-04T08:01:26+00:00
-modified: 2026-07-20T16:34:10+00:00
+modified: 2026-08-13T10:53:27+00:00
 permalink: llmeon/30-library/200-projects/other-compulsory-areas-of-study
 project_name: Bessie
+tags: [bessie]
 title: Other Compulsory Areas of Study!
 type: note
-tags: [bessie]
 ---
 
 ## Other Compulsory Areas of Study

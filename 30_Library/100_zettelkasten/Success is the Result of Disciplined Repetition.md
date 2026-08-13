@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-10-30T12:04:01+00:00
-modified: 2026-08-08T10:29:24+00:00
+modified: 2026-08-13T10:54:53+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/success-is-the-result-of-disciplined-repetition
 source: '[[MOC - How to Build Discipline]]'

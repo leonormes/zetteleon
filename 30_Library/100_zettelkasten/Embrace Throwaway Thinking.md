@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-05-10T10:37:03+00:00
 last_reviewed: 'null'
-modified: 2026-08-08T10:29:18+00:00
+modified: 2026-08-13T10:54:46+00:00
 permalink: llmeon/30-library/100-zettelkasten/embrace-throwaway-thinking
 status: 'null'
 tags: [topic/pkm/zettelkasten]

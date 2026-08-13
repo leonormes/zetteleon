@@ -1,7 +1,7 @@
 ---
 created: 2026-06-12T08:33:46+00:00
 cssclasses: [cards, cards-cols-3]
-modified: 2026-07-20T16:34:02+00:00
+modified: 2026-08-13T10:53:33+00:00
 permalink: llmeon/30-library/400-indexes/best-films-of-2026-obsidian-wiki
 tags: [cinema-2026, database, film-tracking, wiki]
 title: Best_Films_of_2026_Obsidian_Wiki

@@ -3,7 +3,7 @@ aliases: []
 created: 2025-02-07T12:57:53+00:00
 ID: 9e
 last_reviewed: 'null'
-modified: 2026-08-08T10:29:26+00:00
+modified: 2026-08-13T10:54:56+00:00
 permalink: llmeon/30-library/100-zettelkasten/writing-in-iterative-refinement
 status: 'null'
 tags: [topic/pkm/zettelkasten, topic/writing]

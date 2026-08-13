@@ -4,7 +4,7 @@ conformant: true
 created: 2025-10-30T12:38:34+00:00
 definition: "A coping mechanism where an individual anxiously scans for evidence of their own failures before others can point them out, guarding pre-emptively against unexpected criticism."
 distinguishes_from: []
-modified: 2026-08-08T10:29:17+00:00
+modified: 2026-08-13T10:54:45+00:00
 permalink: llmeon/30-library/100-zettelkasten/defensive-hypervigilance
 source: '[[MOC - Authority Dynamics and ADHD]]'
 tags: [coping-strategies, TheHuman/Health/ADHD, TheHuman/Psychology]

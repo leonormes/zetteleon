@@ -3,7 +3,7 @@ aliases: [OHDSI Analytics, Patient-Level Prediction, Population-Level Estimation
 conformant: false
 created: 2026-01-06T19:30:51+00:00
 last_reviewed: null
-modified: 2026-07-20T16:33:46+00:00
+modified: 2026-08-13T10:53:47+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-ohdsi-evidence-generation
 status: Active

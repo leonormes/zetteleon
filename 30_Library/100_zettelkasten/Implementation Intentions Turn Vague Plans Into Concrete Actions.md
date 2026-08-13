@@ -2,7 +2,7 @@
 aliases: [Specific Plans, When-Where Planning]
 conformant: false
 created: 2025-11-01T20:22:24+00:00
-modified: 2026-08-08T10:29:19+00:00
+modified: 2026-08-13T10:54:48+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/implementation-intentions-turn-vague-plans-into-concrete-actions
 tags: [planning, strategy, TheHuman/Habits, topic/productivity]

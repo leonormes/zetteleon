@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-02-07T20:03:51+00:00
 last_reviewed: ''
-modified: 2026-07-20T16:34:02+00:00
+modified: 2026-08-13T10:53:33+00:00
 permalink: llmeon/30-library/200-projects/root-docker-rootless-podman
 project_category: infrastructure
 project_name: k8s
