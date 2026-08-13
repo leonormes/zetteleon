@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-24T15:10:00+00:00
 last_reviewed: ''
-modified: 2026-08-13T10:54:45+00:00
+modified: 2026-08-13T10:56:52+00:00
 permalink: llmeon/30-library/100-zettelkasten/embracing-interdependence-with-adhd
 status: ''
 tags: [collaboration, interdependence, self-management, strengths, TheHuman/Health/ADHD]

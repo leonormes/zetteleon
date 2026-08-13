@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-05-10T10:37:03+00:00
 last_reviewed: 'null'
-modified: 2026-08-13T10:54:49+00:00
+modified: 2026-08-13T10:56:55+00:00
 permalink: llmeon/30-library/100-zettelkasten/make-it-stupidly-simple
 status: 'null'
 tags: [TheHuman/Health/ADHD, topic/pkm/zettelkasten, topic/productivity/gtd]

@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-20T10:12:00+00:00
 last_reviewed: ''
-modified: 2026-08-13T10:54:54+00:00
+modified: 2026-08-13T10:57:01+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-meaning-of-a-systems-logic-is-relative-to-perspective
 status: ''
 tags: [objectivity, perspective, relativism, subjectivity]

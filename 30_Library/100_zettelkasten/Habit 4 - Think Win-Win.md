@@ -4,7 +4,7 @@ conformant: true
 created: 2025-10-20T09:05:00+00:00
 definition: "The first habit of the Public Victory — a frame of mind and heart that constantly seeks mutual benefit in human interactions, grounded in an Abundance Mentality rather than a Scarcity Mentality."
 distinguishes_from: []
-modified: 2026-08-13T10:54:47+00:00
+modified: 2026-08-13T10:56:53+00:00
 permalink: llmeon/30-library/100-zettelkasten/habit-4-think-win-win
 tags: [7-habits, collaboration, gtd, leadership, principles, productivity, TheHuman/Habits]
 title: Habit 4 - Think Win-Win

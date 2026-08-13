@@ -3,7 +3,7 @@ aliases: []
 conformant: true
 created: 2025-02-07T12:57:55+00:00
 epistemic_status: high
-modified: 2026-08-13T10:54:45+00:00
+modified: 2026-08-13T10:56:52+00:00
 permalink: llmeon/30-library/100-zettelkasten/discipline-and-values
 prodos.kind: atomic
 prodos.lifecycle: stable

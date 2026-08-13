@@ -1,6 +1,6 @@
 ---
 created: 2026-07-28T09:44:41+00:00
-modified: 2026-08-13T10:54:55+00:00
+modified: 2026-08-13T10:57:01+00:00
 permalink: llmeon/30-library/100-zettelkasten/token-smarter-concentrates-human-oversight-at-architectural-leverage-points-while-tiering-models-by-task
 title: Token Smarter Concentrates Human Oversight at Architectural Leverage Points While Tiering Models by Task
 ---

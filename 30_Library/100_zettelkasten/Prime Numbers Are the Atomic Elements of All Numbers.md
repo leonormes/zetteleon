@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-19T23:32:29+00:00
 last_reviewed: ''
-modified: 2026-08-13T10:54:51+00:00
+modified: 2026-08-13T10:56:57+00:00
 permalink: llmeon/30-library/100-zettelkasten/prime-numbers-are-the-atomic-elements-of-all-numbers
 status: ''
 tags: []

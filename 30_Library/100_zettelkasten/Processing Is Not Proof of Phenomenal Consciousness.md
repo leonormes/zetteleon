@@ -2,7 +2,7 @@
 aliases: [Access vs Phenomenal Consciousness, Information Processing Is Not Subjectivity]
 conformant: true
 created: 2026-07-16T15:50:54+00:00
-modified: 2026-08-13T10:54:51+00:00
+modified: 2026-08-13T10:56:57+00:00
 permalink: llmeon/30-library/100-zettelkasten/processing-is-not-proof-of-phenomenal-consciousness
 source_title: "Waking Up (Sam Harris) — reviewed LLM summary and critique"
 status: seed

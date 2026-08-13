@@ -1,7 +1,7 @@
 ---
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: medium
-modified: 2026-08-13T10:54:52+00:00
+modified: 2026-08-13T10:56:58+00:00
 permalink: llmeon/30-library/100-zettelkasten/root-llm-dispatches-generative-subtasks-to-sub-llms-via-code-mediated-function-calls
 proposition: In a Recursive Language Model, a Root LLM acts as orchestrator — it writes
   "Python code, manages the environment's variables, and defines prompts — but does"

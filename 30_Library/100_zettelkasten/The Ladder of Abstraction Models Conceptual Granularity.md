@@ -2,7 +2,7 @@
 aliases: ["Hayakawa's Ladder"]
 conformant: false
 created: 2025-10-31T11:21:00+00:00
-modified: 2026-08-13T10:54:54+00:00
+modified: 2026-08-13T10:57:00+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/the-ladder-of-abstraction-models-conceptual-granularity
 tags: [abstraction, TheHuman/Cognition, topic/knowledge-architecture]

@@ -3,7 +3,7 @@ aliases: []
 conformant: true
 created: 2025-07-10T10:12:15+00:00
 epistemic_status: high
-modified: 2026-08-13T10:54:56+00:00
+modified: 2026-08-13T10:57:02+00:00
 permalink: llmeon/30-library/100-zettelkasten/world-wonder-skills-how-you-connect-to-the-world
 prodos.kind: atomic
 prodos.lifecycle: stable

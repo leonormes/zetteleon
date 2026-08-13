@@ -2,7 +2,7 @@
 aliases: [meta-perception accuracy]
 conformant: false
 created: 2025-10-31T09:20:29+00:00
-modified: 2026-08-13T10:54:49+00:00
+modified: 2026-08-13T10:56:56+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/meta-accuracy-in-social-perception
 tags: [topic/social-cognition, topic/social-perception]

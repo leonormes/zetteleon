@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2026-04-10T00:00:00+00:00
-modified: 2026-08-13T10:54:49+00:00
+modified: 2026-08-13T10:56:55+00:00
 non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/100-zettelkasten/logotherapy-posits-the-search-for-meaning-as-the-primary-human-motivation
 tags: [logotherapy, meaning, philosophy, psychology]

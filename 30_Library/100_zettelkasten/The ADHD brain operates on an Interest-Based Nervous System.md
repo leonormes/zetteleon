@@ -3,7 +3,7 @@ aliases: ["The Interest-Based Nervous System in ADHD"]
 conformant: true
 created: 2026-02-11T17:15:00+00:00
 epistemic_status: high
-modified: 2026-08-13T10:54:54+00:00
+modified: 2026-08-13T10:57:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-interest-based-nervous-system-in-adhd
 proposition: The ADHD brain runs on an interest-based nervous system that requires a chemical ignition (interest, novelty, challenge, urgency or passion) to activate, rather than the neurotypical importance-based system.
 status: stable

@@ -3,7 +3,7 @@ aliases: [Mutual Respect in a Relationship]
 conformant: true
 created: 2025-11-10T10:01:00+00:00
 epistemic_status: high
-modified: 2026-08-13T10:54:49+00:00
+modified: 2026-08-13T10:56:56+00:00
 permalink: llmeon/30-library/100-zettelkasten/mutual-respect-in-a-partnership-involves-valuing-opinions-speaking-kindly-and-honouring-boundaries
 prodos.kind: atomic
 prodos.lifecycle: stable

@@ -3,7 +3,7 @@ conformant: true
 contradicts: []
 created: 2026-08-13T09:34:35+00:00
 epistemic_status: high
-modified: 2026-08-13T10:54:56+00:00
+modified: 2026-08-13T10:57:02+00:00
 permalink: llmeon/30-library/100-zettelkasten/claim-stupidity-is-a-deliberate-suspension-of-critical-thought-rather-than-a-cognitive-deficit
 prodos.kind: atomic
 prodos.lifecycle: seed

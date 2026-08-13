@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-05-12T15:31:43+00:00
 last_reviewed: 'null'
-modified: 2026-08-13T10:54:56+00:00
+modified: 2026-08-13T10:57:02+00:00
 permalink: llmeon/30-library/100-zettelkasten/www-is-just-a-normal-subdomain
 status: 'null'
 tags: [SoftwareEngineering/networking/dns]

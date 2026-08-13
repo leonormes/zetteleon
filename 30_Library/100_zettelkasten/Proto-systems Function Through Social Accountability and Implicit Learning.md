@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-11-10T13:06:00+00:00
-modified: 2026-08-13T10:54:51+00:00
+modified: 2026-08-13T10:56:58+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/proto-systems-function-through-social-accountability-and-implicit-learning
 tags: [accountability, history, sociology, topic/productivity, topic/systems]

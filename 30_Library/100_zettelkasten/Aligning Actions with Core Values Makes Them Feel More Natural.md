@@ -3,7 +3,7 @@ aliases: [Self-Concordant Goals]
 conformant: true
 created: 2025-11-10T17:12:00+00:00
 epistemic_status: high
-modified: 2026-08-13T10:54:41+00:00
+modified: 2026-08-13T10:56:48+00:00
 permalink: llmeon/30-library/100-zettelkasten/aligning-actions-with-core-values-makes-them-feel-more-natural
 prodos.kind: atomic
 prodos.lifecycle: stable

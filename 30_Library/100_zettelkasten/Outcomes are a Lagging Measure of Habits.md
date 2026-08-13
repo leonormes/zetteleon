@@ -3,7 +3,7 @@ aliases: [Outcomes are a Lagging Measure]
 conformant: true
 created: 2025-11-06T19:56:00+00:00
 epistemic_status: high
-modified: 2026-08-13T10:54:50+00:00
+modified: 2026-08-13T10:56:57+00:00
 permalink: llmeon/30-library/100-zettelkasten/outcomes-are-a-lagging-measure-of-habits
 prodos.kind: claim
 prodos.lifecycle: stable

@@ -5,7 +5,7 @@ created: 2026-08-03T00:00:00+01:00
 definition: "A telic activity aims at a terminal state outside itself and is exhausted the moment that state is reached; an atelic activity has no terminal point and is fully realised at every moment it is being performed."
 distinguishes_from: ["[[Instrumentalism vs Realism in Understanding]]", "[[Process Over Outcome Mindset]]"]
 epistemic_status: high
-modified: 2026-08-13T10:54:54+00:00
+modified: 2026-08-13T10:57:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/telic-and-atelic-activities-differ-in-whether-their-value-lies-outside-the-act
 tags: [aristotle, teleology, TheHuman/Philosophy, topic/meaning]
 title: Telic and Atelic Activities Differ in Whether Their Value Lies Outside the Act

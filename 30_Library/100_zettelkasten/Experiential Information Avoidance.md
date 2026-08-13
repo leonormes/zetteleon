@@ -3,7 +3,7 @@ aliases: []
 created: 2025-09-11T20:28:06+00:00
 creation_date: '2025-09-11'
 last_reviewed: ''
-modified: 2026-08-13T10:54:46+00:00
+modified: 2026-08-13T10:56:53+00:00
 permalink: llmeon/30-library/100-zettelkasten/experiential-information-avoidance
 status: ''
 tags: [action, avoidance, fear, overthinking, TheHuman/Psychology]

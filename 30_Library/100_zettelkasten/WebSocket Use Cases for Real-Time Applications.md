@@ -2,7 +2,7 @@
 aliases: [WebSocket applications]
 conformant: false
 created: 2025-10-31T13:45:00+00:00
-modified: 2026-08-13T10:54:56+00:00
+modified: 2026-08-13T10:57:02+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/web-socket-use-cases-for-real-time-applications
 tags: [applications, real-time, use-cases, websocket]

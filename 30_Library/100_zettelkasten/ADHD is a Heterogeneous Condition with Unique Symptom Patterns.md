@@ -5,7 +5,7 @@ contradicts: ["[[SoT - ADHD Neurology & Core Concepts]]"]
 created: 2025-10-30T12:07:04+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-08-13T10:54:41+00:00
+modified: 2026-08-13T10:56:48+00:00
 non_conformance_reason: "evidence_links is empty. The body cites a specific network-analysis result (91.8%, 116,220 combinations) with no source note, citation, or study name — the note's entire evidential weight rests on an uncited statistic."
 permalink: llmeon/30-library/100-zettelkasten/adhd-is-a-heterogeneous-condition-with-unique-symptom-patterns
 proposition: ADHD presentation varies so widely between individuals that population-level generalisations about symptom profile have limited predictive value for any given person.

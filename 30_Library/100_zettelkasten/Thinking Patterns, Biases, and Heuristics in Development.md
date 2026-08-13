@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-05-26T20:23:10+00:00
 last_reviewed: ''
-modified: 2026-08-13T10:54:55+00:00
+modified: 2026-08-13T10:57:01+00:00
 permalink: llmeon/30-library/100-zettelkasten/thinking-patterns-biases-and-heuristics-in-development
 status: ''
 tags: []

@@ -3,7 +3,7 @@ aliases: [Shift to High-Level Oversight]
 created: 2026-04-13T14:35:19+00:00
 created_utc: '2026-04-13T11:00:00Z'
 kind: claim
-modified: 2026-08-13T10:54:52+00:00
+modified: 2026-08-13T10:56:59+00:00
 permalink: llmeon/30-library/100-zettelkasten/shift-to-architectural-oversight
 source_title: The Agent-First Workflow
 source_url: https://gemini.google.com/app/3efdb3bd475edbb1

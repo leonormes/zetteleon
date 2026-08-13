@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-06-22T17:43:30+00:00
 last_reviewed: ''
-modified: 2026-08-13T10:54:45+00:00
+modified: 2026-08-13T10:56:52+00:00
 permalink: llmeon/30-library/100-zettelkasten/distorted-negative-self-image
 see_also: []
 status: ''

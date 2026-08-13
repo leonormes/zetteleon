@@ -4,7 +4,7 @@ conformant: true
 contradicts: ["[[Intellectual Activity Belongs to the Atelic Sphere]]"]
 created: 2026-08-03T00:00:00+01:00
 epistemic_status: medium
-modified: 2026-08-13T10:54:47+00:00
+modified: 2026-08-13T10:56:54+00:00
 permalink: llmeon/30-library/100-zettelkasten/human-capital-theory-cannot-explain-learning-pursued-outside-market-incentives
 proposition: "Human Capital Theory evaluates education by marginal product and so classifies any intellectual pursuit yielding no wage premium or positional advantage as an inefficient allocation, leaving it unable to account for the persistent and well-documented pursuit of learning that returns nothing to the market."
 tags: [economics, human-capital, TheHuman/Philosophy, topic/education]

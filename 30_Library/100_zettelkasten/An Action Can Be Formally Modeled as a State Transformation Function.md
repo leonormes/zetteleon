@@ -2,7 +2,7 @@
 aliases: [Formal Action Model]
 conformant: false
 created: 2025-11-10T15:04:00+00:00
-modified: 2026-08-13T10:54:42+00:00
+modified: 2026-08-13T10:56:48+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/an-action-can-be-formally-modeled-as-a-state-transformation-function
 tags: [action, model, theory, topic/productivity]

@@ -2,7 +2,7 @@
 aliases: [Pattern-Sniffing]
 conformant: false
 created: 2025-11-01T12:00:04+00:00
-modified: 2026-08-13T10:54:50+00:00
+modified: 2026-08-13T10:56:57+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/pattern-recognition-conferred-an-evolutionary-survival-advantage
 tags: [evolution, survival, TheHuman/Cognition]

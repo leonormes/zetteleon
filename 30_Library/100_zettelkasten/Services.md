@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-07-10T13:05:06+00:00
 last_reviewed: ''
-modified: 2026-08-13T10:54:52+00:00
+modified: 2026-08-13T10:56:59+00:00
 permalink: llmeon/30-library/100-zettelkasten/services
 status: ''
 tags: []

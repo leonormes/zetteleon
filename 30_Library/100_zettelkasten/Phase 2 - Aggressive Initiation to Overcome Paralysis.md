@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-20T09:32:00+00:00
 last_reviewed: 'null'
-modified: 2026-08-13T10:54:50+00:00
+modified: 2026-08-13T10:56:57+00:00
 permalink: llmeon/30-library/100-zettelkasten/phase-2-aggressive-initiation-to-overcome-paralysis
 status: 'null'
 tags: [action, momentum, project/personal/prodos, topic/productivity/procrastination]

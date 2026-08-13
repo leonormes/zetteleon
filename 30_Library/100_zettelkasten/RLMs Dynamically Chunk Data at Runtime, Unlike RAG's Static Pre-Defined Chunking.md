@@ -1,7 +1,7 @@
 ---
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: medium
-modified: 2026-08-13T10:54:51+00:00
+modified: 2026-08-13T10:56:58+00:00
 permalink: llmeon/30-library/100-zettelkasten/rlms-dynamically-chunk-data-at-runtime-unlike-rags-static-pre-defined-chunking
 proposition: RAG systems chunk data using hardcoded rules decided in advance (e.g.
   fixed paragraph or character-count splits) and retrieve against those fixed chunks

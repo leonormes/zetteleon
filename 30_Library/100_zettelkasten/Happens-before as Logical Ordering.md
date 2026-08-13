@@ -2,7 +2,7 @@
 created: 2026-04-14T17:44:07+00:00
 created_utc: '2026-04-14T12:20:00Z'
 kind: definition
-modified: 2026-08-13T10:54:47+00:00
+modified: 2026-08-13T10:56:54+00:00
 permalink: llmeon/30-library/100-zettelkasten/happens-before-as-logical-ordering
 source_title: The Fundamental Challenge of Concurrent and Distributed Systems
 source_url: http://www.youtube.com/watch?v=U719vQz-WFs

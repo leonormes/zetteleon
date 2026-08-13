@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-08-13T10:54:51+00:00
+modified: 2026-08-13T10:56:58+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/qdrant-is-a-vector-search-engine-that-enables-semantic-rather-than-keyword-retrieval
 tags: [embeddings, qdrant, semantic-search, vector-database]

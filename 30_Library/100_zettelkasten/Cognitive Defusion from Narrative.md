@@ -2,7 +2,7 @@
 created: 2026-04-14T13:22:01+00:00
 created_utc: '2026-04-14T11:35:00Z'
 kind: heuristic
-modified: 2026-08-13T10:54:44+00:00
+modified: 2026-08-13T10:56:50+00:00
 permalink: llmeon/30-library/100-zettelkasten/cognitive-defusion-from-narrative
 source_title: Thinking about knowledge
 source_url: https://gemini.google.com/app/d3312dd6e13881e3

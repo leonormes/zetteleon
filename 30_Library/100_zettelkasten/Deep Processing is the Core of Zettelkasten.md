@@ -3,7 +3,7 @@ aliases: []
 created: 2025-08-23T20:25:32+00:00
 falsifiers: ["Evidence that shallow processing (skimming, highlighting) produces learning outcomes statistically indistinguishable from note-linking.", A note describing a successful Zettelkasten practice where links are added mechanically (keyword-match or folder placement) and the user still develops deep understanding of the connected ideas.]
 last_reviewed: 2026-07-29
-modified: 2026-08-13T10:54:45+00:00
+modified: 2026-08-13T10:56:51+00:00
 permalink: llmeon/30-library/100-zettelkasten/deep-processing-is-the-core-of-zettelkasten
 status: "null"
 tags: [topic/knowledge-architecture, topic/learning, topic/pkm/zettelkasten]

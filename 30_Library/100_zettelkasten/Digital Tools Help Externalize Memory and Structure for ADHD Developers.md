@@ -2,7 +2,7 @@
 aliases: [ADHD Digital Tools, ADHD Productivity Apps]
 conformant: false
 created: 2025-11-06T19:54:05+00:00
-modified: 2026-08-13T10:54:45+00:00
+modified: 2026-08-13T10:56:51+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/digital-tools-help-externalize-memory-and-structure-for-adhd-developers
 tags: [SoftwareEngineering, TheHuman/Health/ADHD, tools, topic/productivity]

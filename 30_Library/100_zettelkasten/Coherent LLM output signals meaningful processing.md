@@ -3,7 +3,7 @@ aliases: [Coherent LLM output signals meaningful processing]
 conformant: true
 created: 2025-10-20T09:17:00+00:00
 epistemic_status: medium
-modified: 2026-08-13T10:54:44+00:00
+modified: 2026-08-13T10:56:50+00:00
 permalink: llmeon/30-library/100-zettelkasten/coherent-llm-output-signals-meaningful-processing
 prodos.kind: atomic
 prodos.lifecycle: stable

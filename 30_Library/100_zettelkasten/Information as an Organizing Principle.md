@@ -4,7 +4,7 @@ conformant: true
 created: 2025-02-07T12:57:55+00:00
 epistemic_status: high
 ID: information_as_an_organizing_principle
-modified: 2026-08-13T10:54:48+00:00
+modified: 2026-08-13T10:56:54+00:00
 permalink: llmeon/30-library/100-zettelkasten/information-as-an-organizing-principle
 prodos.kind: atomic
 prodos.lifecycle: stable

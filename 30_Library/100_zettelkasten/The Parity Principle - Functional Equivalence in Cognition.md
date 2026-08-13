@@ -3,7 +3,7 @@ aliases: [Functional Equivalence, The Inga and Otto Case]
 conformant: true
 created: 2025-12-24T12:00:00+00:00
 epistemic_status: high
-modified: 2026-08-13T10:54:54+00:00
+modified: 2026-08-13T10:57:01+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-parity-principle-functional-equivalence-in-cognition
 prodos.kind: atomic
 prodos.lifecycle: stable

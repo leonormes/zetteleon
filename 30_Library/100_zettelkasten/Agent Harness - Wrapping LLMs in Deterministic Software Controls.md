@@ -1,7 +1,7 @@
 ---
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: high
-modified: 2026-08-13T10:54:41+00:00
+modified: 2026-08-13T10:56:48+00:00
 permalink: llmeon/30-library/100-zettelkasten/agent-harness-wrapping-llms-in-deterministic-software-controls
 proposition: An LLM alone predicts tokens probabilistically without structural direction.
   A harness wraps the model in deterministic software that dictates how the LLM interacts

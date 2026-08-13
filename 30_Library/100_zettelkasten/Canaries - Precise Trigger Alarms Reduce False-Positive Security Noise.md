@@ -1,7 +1,7 @@
 ---
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: medium
-modified: 2026-08-13T10:54:43+00:00
+modified: 2026-08-13T10:56:50+00:00
 permalink: llmeon/30-library/100-zettelkasten/canaries-precise-trigger-alarms-reduce-false-positive-security-noise
 proposition: A canary is a security alarm scoped to trigger only on exact, highly
   specific identifiers (e.g., an exact sensitive filename) rather than broad pattern

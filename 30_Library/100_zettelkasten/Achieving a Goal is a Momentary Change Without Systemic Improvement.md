@@ -3,7 +3,7 @@ aliases: [Goals as Temporary Fixes]
 conformant: true
 created: 2025-11-06T19:57:01+00:00
 epistemic_status: high
-modified: 2026-08-13T10:54:41+00:00
+modified: 2026-08-13T10:56:48+00:00
 permalink: llmeon/30-library/100-zettelkasten/achieving-a-goal-is-a-momentary-change-without-systemic-improvement
 prodos.kind: atomic
 prodos.lifecycle: stable

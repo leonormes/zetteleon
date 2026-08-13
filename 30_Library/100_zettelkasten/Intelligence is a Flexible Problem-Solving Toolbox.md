@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-10-31T09:50:00+00:00
-modified: 2026-08-13T10:54:48+00:00
+modified: 2026-08-13T10:56:54+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/intelligence-is-a-flexible-problem-solving-toolbox
 tags: [intelligence, problem-solving, TheHuman/Cognition]

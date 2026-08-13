@@ -3,7 +3,7 @@ aliases: [Fable Evolution Sequence]
 created: 2025-10-31T12:29:00+00:00
 goal: Understand fable adaptation across cultures
 last_reviewed: '2025-11-01'
-modified: 2026-08-13T10:54:52+00:00
+modified: 2026-08-13T10:56:59+00:00
 permalink: llmeon/30-library/100-zettelkasten/sequence-evolution-of-fable-storytelling
 status: evergreen
 tags: [fable, history, sequence, storytelling, type/moc]

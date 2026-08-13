@@ -2,7 +2,7 @@
 aliases: [Pathology-to-Normalcy Fallacy, Split Brain to Intact Brain]
 conformant: true
 created: 2026-07-16T15:50:54+00:00
-modified: 2026-08-13T10:54:46+00:00
+modified: 2026-08-13T10:56:53+00:00
 permalink: llmeon/30-library/100-zettelkasten/extrapolating-pathology-to-normal-function-is-a-hasty-generalisation
 source_title: "Waking Up (Sam Harris) — reviewed LLM summary and critique"
 status: seed

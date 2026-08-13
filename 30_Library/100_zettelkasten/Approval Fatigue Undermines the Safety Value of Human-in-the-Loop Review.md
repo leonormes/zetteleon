@@ -1,7 +1,7 @@
 ---
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: medium
-modified: 2026-08-13T10:54:42+00:00
+modified: 2026-08-13T10:56:49+00:00
 permalink: llmeon/30-library/100-zettelkasten/approval-fatigue-undermines-the-safety-value-of-human-in-the-loop-review
 proposition: Requiring manual approval for every individual agent action trains the
   "human to stop actually reading what they're approving — repeated, high-frequency"

@@ -2,7 +2,7 @@
 aliases: [Praxis]
 conformant: false
 created: 2025-11-12T14:10:03+00:00
-modified: 2026-08-13T10:54:51+00:00
+modified: 2026-08-13T10:56:57+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/praxis-is-the-cyclical-process-of-action-and-reflection-to-transform-the-world
 tags: [action, TheHuman/Philosophy, theory]

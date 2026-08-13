@@ -3,7 +3,7 @@ aliases: [The Paycheck Cycle Trap]
 conformant: true
 created: 2025-11-18T14:36:00+00:00
 epistemic_status: high
-modified: 2026-08-13T10:54:49+00:00
+modified: 2026-08-13T10:56:55+00:00
 permalink: llmeon/30-library/100-zettelkasten/living-paycheck-to-paycheck-forces-short-term-decisions
 prodos.kind: claim
 prodos.lifecycle: stable

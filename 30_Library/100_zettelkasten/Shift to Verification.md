@@ -2,7 +2,7 @@
 created: 2026-04-14T11:22:35+00:00
 created_utc: '2026-04-14T11:05:00Z'
 kind: claim
-modified: 2026-08-13T10:54:52+00:00
+modified: 2026-08-13T10:56:59+00:00
 permalink: llmeon/30-library/100-zettelkasten/shift-to-verification
 source_title: 'Martin Fowler & Kent Beck: Frameworks for reinventing software, again and again'
 source_url: http://www.youtube.com/watch?v=CZs8J1ZD0CE

@@ -2,7 +2,7 @@
 aliases: []
 conformant: true
 created: 2026-08-03T00:00:00+01:00
-modified: 2026-08-13T10:54:46+00:00
+modified: 2026-08-13T10:56:52+00:00
 permalink: llmeon/30-library/100-zettelkasten/evidence-mass-literacy-sustained-working-class-intellectual-traditions-outside-academia
 source_quote: "Nineteenth- and twentieth-century British and American working-class readers sustained substantial autodidactic reading cultures — mutual improvement societies, Mechanics' Institutes, and the Workers' Educational Association — entirely outside elite academic institutions."
 source_reference: "Jonathan Rose, The Intellectual Life of the British Working Classes (Yale University Press, 2001); Workers' Educational Association (founded 1903); Mechanics' Institutes (from 1821); nineteenth-century mutual improvement societies."

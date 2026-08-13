@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-12T07:55:54+00:00
 last_reviewed: ''
-modified: 2026-08-13T10:54:51+00:00
+modified: 2026-08-13T10:56:58+00:00
 permalink: llmeon/30-library/100-zettelkasten/prospect-theory-models-decision-making-relative-to-a-reference-point
 status: ''
 tags: [behavioural_economics, decision_making, model]

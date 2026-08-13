@@ -2,7 +2,7 @@
 aliases: [Adaptive Planning]
 conformant: false
 created: 2025-11-01T12:30:08+00:00
-modified: 2026-08-13T10:54:46+00:00
+modified: 2026-08-13T10:56:53+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/focus-on-short-term-learning-over-rigid-long-term-planning
 tags: [adaptability, learning, planning]

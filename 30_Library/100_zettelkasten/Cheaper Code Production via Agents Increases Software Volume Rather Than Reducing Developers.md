@@ -2,7 +2,7 @@
 aliases: [Software Jevons Paradox]
 conformant: false
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-08-13T10:54:43+00:00
+modified: 2026-08-13T10:56:50+00:00
 non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/100-zettelkasten/cheaper-code-production-via-agents-increases-software-volume-rather-than-reducing-developers
 tags: [economics, jevons-paradox, labor, labor-market, software-demand, software-industry]

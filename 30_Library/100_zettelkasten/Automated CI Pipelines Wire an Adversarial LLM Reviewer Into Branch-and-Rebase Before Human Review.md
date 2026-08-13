@@ -1,7 +1,7 @@
 ---
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: medium
-modified: 2026-08-13T10:54:42+00:00
+modified: 2026-08-13T10:56:49+00:00
 permalink: llmeon/30-library/100-zettelkasten/automated-ci-pipelines-wire-an-adversarial-llm-reviewer-into-branch-and-rebase-before-human-review
 proposition: An automated validation pipeline can be built where, after an agent writes
   code, the pipeline itself automatically branches, rebases, and invokes a second,

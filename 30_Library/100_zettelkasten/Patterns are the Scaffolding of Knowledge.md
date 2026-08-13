@@ -3,7 +3,7 @@ aliases: [Learning to Learn, Pattern Recognition as Meta-Skill, Patterns as Scaf
 conformant: true
 created: 2025-11-01T12:00:07+00:00
 epistemic_status: high
-modified: 2026-08-13T10:54:50+00:00
+modified: 2026-08-13T10:56:57+00:00
 permalink: llmeon/30-library/100-zettelkasten/patterns-are-the-scaffolding-of-knowledge
 prodos.kind: atomic
 prodos.lifecycle: growing

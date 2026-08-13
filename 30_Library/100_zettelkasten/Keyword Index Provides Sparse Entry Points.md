@@ -3,7 +3,7 @@ aliases: [Entry Index, Index, Keyword List]
 conformant: true
 created: 2025-10-30T15:33:36+00:00
 epistemic_status: high
-modified: 2026-08-13T10:54:48+00:00
+modified: 2026-08-13T10:56:55+00:00
 permalink: llmeon/30-library/100-zettelkasten/keyword-index-provides-sparse-entry-points
 prodos.kind: claim
 prodos.lifecycle: stable

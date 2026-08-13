@@ -1,7 +1,7 @@
 ---
 created: 2026-07-28T10:20:29+00:00
 epistemic_status: medium
-modified: 2026-08-13T10:54:41+00:00
+modified: 2026-08-13T10:56:48+00:00
 permalink: llmeon/30-library/100-zettelkasten/api-quota-limits-not-just-cost-drive-model-stratification-in-agentic-workflows
 tags: [domain/llm, topic/agent-architecture, topic/cost-optimization]
 title: API Quota Limits, Not Just Cost, Drive Model Stratification in Agentic Workflows

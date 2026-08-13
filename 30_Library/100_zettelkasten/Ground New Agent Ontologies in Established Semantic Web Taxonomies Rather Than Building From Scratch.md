@@ -1,7 +1,7 @@
 ---
 created: 2026-07-28T14:20:04+00:00
 epistemic_status: medium
-modified: 2026-08-13T10:54:47+00:00
+modified: 2026-08-13T10:56:53+00:00
 permalink: llmeon/30-library/100-zettelkasten/ground-new-agent-ontologies-in-established-semantic-web-taxonomies-rather-than-building-from-scratch
 tags: [domain/llm, topic/agent-architecture, topic/formal-methods]
 title: Ground New Agent Ontologies in Established Semantic Web Taxonomies Rather Than Building From Scratch

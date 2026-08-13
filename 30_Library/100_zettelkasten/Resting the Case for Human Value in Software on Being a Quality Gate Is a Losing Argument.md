@@ -1,7 +1,7 @@
 ---
 created: 2026-07-28T10:35:28+00:00
 epistemic_status: medium
-modified: 2026-08-13T10:54:52+00:00
+modified: 2026-08-13T10:56:58+00:00
 permalink: llmeon/30-library/100-zettelkasten/resting-the-case-for-human-value-in-software-on-being-a-quality-gate-is-a-losing-argument
 proposition: Human brains are structurally poor validators — repetitive, high-volume,
   nitpicky checking is exactly the task profile machines will always beat humans at.

@@ -2,7 +2,7 @@
 created: 2026-04-14T17:45:34+00:00
 created_utc: '2026-04-14T12:20:00Z'
 kind: constraint
-modified: 2026-08-13T10:54:43+00:00
+modified: 2026-08-13T10:56:50+00:00
 permalink: llmeon/30-library/100-zettelkasten/byzantine-fault-tolerance-requirements
 source_title: The Fundamental Challenge of Concurrent and Distributed Systems
 source_url: http://www.youtube.com/watch?v=U719vQz-WFs

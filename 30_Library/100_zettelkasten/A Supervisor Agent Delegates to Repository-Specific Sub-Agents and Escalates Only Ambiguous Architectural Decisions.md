@@ -1,7 +1,7 @@
 ---
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: medium
-modified: 2026-08-13T10:54:41+00:00
+modified: 2026-08-13T10:56:47+00:00
 permalink: llmeon/30-library/100-zettelkasten/a-supervisor-agent-delegates-to-repository-specific-sub-agents-and-escalates-only-ambiguous-architectural-decisions
 proposition: A primary supervisor agent manages multiple background execution sessions
   "on the human's behalf. Instead of a human manually juggling many chat windows or"

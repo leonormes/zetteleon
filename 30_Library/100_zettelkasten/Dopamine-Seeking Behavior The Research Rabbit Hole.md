@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-11T17:24:14+00:00
 last_reviewed: ''
-modified: 2026-08-13T10:54:45+00:00
+modified: 2026-08-13T10:56:52+00:00
 permalink: llmeon/30-library/100-zettelkasten/dopamine-seeking-behavior-the-research-rabbit-hole
 status: ''
 tags: [TheHuman/Health/ADHD]

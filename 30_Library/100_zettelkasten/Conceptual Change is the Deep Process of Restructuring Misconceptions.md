@@ -2,7 +2,7 @@
 aliases: [Conceptual Change]
 conformant: false
 created: 2025-11-10T16:04:00+00:00
-modified: 2026-08-13T10:54:44+00:00
+modified: 2026-08-13T10:56:51+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/conceptual-change-is-the-deep-process-of-restructuring-misconceptions
 tags: [conceptual-change, learning, misconceptions, TheHuman/Cognition]

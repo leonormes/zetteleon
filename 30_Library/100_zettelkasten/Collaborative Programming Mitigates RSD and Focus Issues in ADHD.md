@@ -2,7 +2,7 @@
 aliases: [Mob Programming, Pair Programming for ADHD]
 conformant: false
 created: 2025-11-06T19:54:10+00:00
-modified: 2026-08-13T10:54:44+00:00
+modified: 2026-08-13T10:56:50+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/collaborative-programming-mitigates-rsd-and-focus-issues-in-adhd
 tags: [accommodation, pair-programming, rsd, TheHuman/Health/ADHD]

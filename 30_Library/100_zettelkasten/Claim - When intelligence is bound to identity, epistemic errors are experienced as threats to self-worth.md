@@ -3,7 +3,7 @@ conformant: true
 contradicts: []
 created: 2026-08-13T10:47:50+00:00
 epistemic_status: high
-modified: 2026-08-13T10:55:48+00:00
+modified: 2026-08-13T10:57:02+00:00
 permalink: llmeon/30-library/100-zettelkasten/claim-when-intelligence-is-bound-to-identity-epistemic-errors-are-experienced-as-threats-to-self-worth
 prodos.kind: atomic
 prodos.lifecycle: seed

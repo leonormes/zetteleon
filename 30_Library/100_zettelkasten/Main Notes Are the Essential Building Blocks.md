@@ -2,7 +2,7 @@
 aliases: [Atomic Notes, Evergreen Notes, Main Notes, Permanent Notes]
 conformant: false
 created: 2025-10-30T15:31:09+00:00
-modified: 2026-08-13T10:54:49+00:00
+modified: 2026-08-13T10:56:55+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/main-notes-are-the-essential-building-blocks
 tags: [knowledge-work, note-types, topic/knowledge-architecture, topic/pkm, topic/pkm/zettelkasten]

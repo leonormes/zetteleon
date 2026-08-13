@@ -3,7 +3,7 @@ aliases: []
 created: 2025-02-07T12:57:55+00:00
 ID: mental_translation_in_paraphrasing
 last_reviewed: ''
-modified: 2026-08-13T10:54:49+00:00
+modified: 2026-08-13T10:56:56+00:00
 permalink: llmeon/30-library/100-zettelkasten/mental-translation-in-paraphrasing
 status: ''
 tags: [paraphrasing]

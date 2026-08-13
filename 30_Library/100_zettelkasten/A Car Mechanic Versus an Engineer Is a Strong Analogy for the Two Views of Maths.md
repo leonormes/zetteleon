@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-07-21T13:35:11+00:00
 last_reviewed: ''
-modified: 2026-08-13T10:54:40+00:00
+modified: 2026-08-13T10:56:47+00:00
 permalink: llmeon/30-library/100-zettelkasten/a-car-mechanic-versus-an-engineer-is-a-strong-analogy-for-the-two-views-of-maths
 status: ''
 tags: [analogy, idea/maths-education, status/evergreen]

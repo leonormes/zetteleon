@@ -2,7 +2,7 @@
 aliases: [Dopamine-Aware Planning]
 created: 2025-11-11T19:05:14+00:00
 last_reviewed: ''
-modified: 2026-08-13T10:54:45+00:00
+modified: 2026-08-13T10:56:52+00:00
 permalink: llmeon/30-library/100-zettelkasten/dopamine-aware-planning-aligns-tasks-with-the-brains-reward-system
 status: seedling
 tags: [dopamine, planning, TheHuman/Health/ADHD, topic/productivity]

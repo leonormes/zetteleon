@@ -1,7 +1,7 @@
 ---
 contrasts_with: []
 created: 2026-05-31T00:00:00+00:00
-modified: 2026-08-13T10:54:51+00:00
+modified: 2026-08-13T10:56:58+00:00
 permalink: llmeon/30-library/100-zettelkasten/q-what-am-i-actually-struggling-with-1
 related_to: ["[[ADHD]]", "[[MOC – My Epistemic Stack]]"]
 status: draft

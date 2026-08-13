@@ -2,7 +2,7 @@
 aliases: [Survivorship Bias of Goals]
 conformant: false
 created: 2025-11-06T19:57:00+00:00
-modified: 2026-08-13T10:54:47+00:00
+modified: 2026-08-13T10:56:53+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/goals-suffer-from-survivorship-bias
 tags: [goals, success, survivorship-bias, topic/systems]

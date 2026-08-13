@@ -1,6 +1,6 @@
 ---
 created: 2026-07-28T09:47:31+00:00
-modified: 2026-08-13T10:54:47+00:00
+modified: 2026-08-13T10:56:54+00:00
 permalink: llmeon/30-library/100-zettelkasten/harness-engineering-splits-into-an-inner-harness-tools-apis-and-an-outer-harness-dev-environment
 title: Harness Engineering Splits into an Inner Harness and an Outer Harness
 ---

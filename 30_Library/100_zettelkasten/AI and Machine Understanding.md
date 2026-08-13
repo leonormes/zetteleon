@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-31T16:08:38+00:00
 last_reviewed: ''
-modified: 2026-08-13T10:54:41+00:00
+modified: 2026-08-13T10:56:48+00:00
 permalink: llmeon/30-library/100-zettelkasten/ai-and-machine-understanding
 status: ''
 tags: [llm, llm-understanding]

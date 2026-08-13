@@ -2,7 +2,7 @@
 conformant: true
 created: 2026-04-10T00:00:00+00:00
 epistemic_status: medium
-modified: 2026-08-13T10:54:49+00:00
+modified: 2026-08-13T10:56:56+00:00
 permalink: llmeon/30-library/100-zettelkasten/meaning-driven-activity-activates-brain-reward-systems-independently-of-external-reinforcement
 prodos.kind: claim
 prodos.lifecycle: stable

@@ -1,7 +1,7 @@
 ---
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: medium
-modified: 2026-08-13T10:54:51+00:00
+modified: 2026-08-13T10:56:58+00:00
 permalink: llmeon/30-library/100-zettelkasten/rlms-avoid-context-bloat-by-storing-intermediate-state-as-symbolic-variables-not-context-tokens
 proposition: A Recursive Language Model avoids context-window bloat while processing
   large datasets because intermediate results — cleaned data, running counts, partial

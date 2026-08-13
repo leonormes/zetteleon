@@ -2,7 +2,7 @@
 created: 2026-04-13T14:37:11+00:00
 created_utc: '2026-04-13T11:10:00Z'
 kind: claim
-modified: 2026-08-13T10:54:41+00:00
+modified: 2026-08-13T10:56:48+00:00
 permalink: llmeon/30-library/100-zettelkasten/agentic-collaboration-shift
 source_title: Agentic Engineering and AI Workflow Management
 source_url: https://gemini.google.com/app/7a41bb3090001aa4

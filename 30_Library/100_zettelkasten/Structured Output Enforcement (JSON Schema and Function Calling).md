@@ -1,7 +1,7 @@
 ---
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: high
-modified: 2026-08-13T10:54:53+00:00
+modified: 2026-08-13T10:57:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/structured-output-enforcement-json-schema-and-function-calling
 proposition: LLM outputs must be constrained to machine-readable, predictable formats
   (JSON Schema, function calls) to interface reliably with downstream software. By

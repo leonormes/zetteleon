@@ -2,7 +2,7 @@
 aliases: [ADHD Executive Functioning, Core ADHD Deficits in Developers]
 conformant: false
 created: 2025-11-06T19:53:00+00:00
-modified: 2026-08-13T10:54:46+00:00
+modified: 2026-08-13T10:56:53+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/executive-function-deficits-in-adhd-impact-developer-productivity
 tags: [executive-function, SoftwareEngineering, TheHuman/Health/ADHD, topic/productivity]

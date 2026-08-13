@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-11-01T11:22:13+00:00
-modified: 2026-08-13T10:54:55+00:00
+modified: 2026-08-13T10:57:01+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/there-is-no-single-first-principle-of-mathematics
 tags: [foundations, TheHuman/Philosophy, topic/maths]

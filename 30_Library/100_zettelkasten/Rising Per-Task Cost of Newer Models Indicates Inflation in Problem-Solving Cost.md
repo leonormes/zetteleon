@@ -1,6 +1,6 @@
 ---
 created: 2026-07-28T09:11:42+00:00
-modified: 2026-08-13T10:54:52+00:00
+modified: 2026-08-13T10:56:58+00:00
 permalink: llmeon/30-library/100-zettelkasten/rising-per-task-cost-of-newer-models-indicates-inflation-in-problem-solving-cost
 title: Rising Per-Task Cost of Newer Models Indicates Inflation in Problem-Solving Cost
 ---

@@ -3,7 +3,7 @@ aliases: []
 conformant: true
 created: 2025-10-30T12:01:04+00:00
 epistemic_status: high
-modified: 2026-08-13T10:54:41+00:00
+modified: 2026-08-13T10:56:47+00:00
 permalink: llmeon/30-library/100-zettelkasten/a-supportive-environment-is-critical-for-inspiration
 prodos.kind: atomic
 prodos.lifecycle: stable

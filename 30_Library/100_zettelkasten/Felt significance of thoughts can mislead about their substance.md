@@ -3,7 +3,7 @@ aliases: [felt vs actual importance, significance-substance gap]
 conformant: true
 created: 2025-10-31T20:48:00+00:00
 epistemic_status: high
-modified: 2026-08-13T10:54:46+00:00
+modified: 2026-08-13T10:56:53+00:00
 permalink: llmeon/30-library/100-zettelkasten/felt-significance-of-thoughts-can-mislead-about-their-substance
 prodos.kind: atomic
 prodos.lifecycle: stable

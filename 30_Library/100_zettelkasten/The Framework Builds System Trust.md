@@ -2,7 +2,7 @@
 aliases: [System Trust]
 conformant: false
 created: 2025-11-10T15:17:00+00:00
-modified: 2026-08-13T10:54:54+00:00
+modified: 2026-08-13T10:57:00+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/the-framework-builds-system-trust
 tags: [reliability, topic/productivity, topic/systems, trust]

@@ -3,7 +3,7 @@ aliases: []
 conformant: true
 created: 2025-07-25T08:34:28+00:00
 epistemic_status: high
-modified: 2026-08-13T10:54:49+00:00
+modified: 2026-08-13T10:56:56+00:00
 permalink: llmeon/30-library/100-zettelkasten/mitigating-repetitive-idea-generation
 prodos.kind: claim
 prodos.lifecycle: stable

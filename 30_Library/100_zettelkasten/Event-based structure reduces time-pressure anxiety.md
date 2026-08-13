@@ -2,7 +2,7 @@
 aliases: [Event-based reduces pressure, Reduces time anxiety]
 conformant: false
 created: 2025-10-30T17:33:00+00:00
-modified: 2026-08-13T10:54:46+00:00
+modified: 2026-08-13T10:56:52+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/event-based-structure-reduces-time-pressure-anxiety
 source: '[[MOC - How To Create And Use Mini Routines]]'

@@ -4,7 +4,7 @@ conformant: true
 created: 2026-07-27T15:46:00+00:00
 definition: "The Architectural Guardian is a persistent meta-context prompt and domain manifesto injected into LLM agent pipelines to act as an architectural 'Superego', enforcing macro-level invariants, boundary constraints, and domain laws over generic code completions."
 distinguishes_from: ["[[SoT - Context Rot|Context Accumulation]]", "[[SoT - Structural Intelligence|RepoMap]]"]
-modified: 2026-08-13T10:54:54+00:00
+modified: 2026-08-13T10:57:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-architectural-guardian
 tags: [ai-engineering, architecture, concept, context-engine, prompt-engineering]
 title: The Architectural Guardian

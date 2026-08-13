@@ -3,7 +3,7 @@ aliases: []
 conformant: true
 created: 2026-08-07T00:00:00+01:00
 epistemic_status: medium
-modified: 2026-08-13T10:54:43+00:00
+modified: 2026-08-13T10:56:50+00:00
 permalink: llmeon/30-library/100-zettelkasten/claim-analysing-ones-own-avoidance-can-itself-be-an-instance-of-the-avoidance-it-describes
 proposition: "When a person whose intellect functions as an avoidance mechanism receives or produces an elegant, structured analysis of that very mechanism, the polish and structure of the analysis can itself be an instance of the pattern it names — the intellectualising continues inside the act of diagnosing intellectualising."
 tags: [adhd, epistemics, meta-work, self-reference, topic/productivity]

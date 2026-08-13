@@ -1,7 +1,7 @@
 ---
 contrasts_with: ["[[Claim - ADHD perfectionism is maladaptive compensation]]", "[[System-Hopping]]"]
 created: 2026-05-31T00:00:00+00:00
-modified: 2026-08-13T10:54:43+00:00
+modified: 2026-08-13T10:56:50+00:00
 permalink: llmeon/30-library/100-zettelkasten/claim-treat-the-system-as-iterative-not-perfectable
 position-date: 2026-05-31
 related_to: ["[[Q - Iterating versus system-hopping]]"]

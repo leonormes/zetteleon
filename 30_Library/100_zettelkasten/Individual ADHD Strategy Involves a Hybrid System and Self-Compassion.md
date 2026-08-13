@@ -2,7 +2,7 @@
 aliases: [ADHD Individual Strategies]
 conformant: false
 created: 2025-11-06T19:54:11+00:00
-modified: 2026-08-13T10:54:48+00:00
+modified: 2026-08-13T10:56:54+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/individual-adhd-strategy-involves-a-hybrid-system-and-self-compassion
 tags: [self-management, strategies, TheHuman/Health/ADHD, topic/productivity]

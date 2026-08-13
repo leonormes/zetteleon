@@ -1,7 +1,7 @@
 ---
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: high
-modified: 2026-08-13T10:54:43+00:00
+modified: 2026-08-13T10:56:50+00:00
 permalink: llmeon/30-library/100-zettelkasten/claude-code-session-isolation-forces-context-reloading-across-invocations
 proposition: Each Claude Code invocation is an isolated session that reloads all context
   (codebase structure, prior discoveries, architectural decisions) from scratch, forcing

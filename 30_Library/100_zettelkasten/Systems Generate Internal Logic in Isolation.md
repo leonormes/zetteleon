@@ -4,7 +4,7 @@ conformant: true
 created: 2025-10-20T10:11:00+00:00
 definition: "A bounded system, unable to import rules or values from outside its own boundary, is forced to generate a self-referential framework of logic and meaning from its own components and history."
 distinguishes_from: []
-modified: 2026-08-13T10:54:53+00:00
+modified: 2026-08-13T10:57:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/systems-generate-internal-logic-in-isolation
 tags: [autopoiesis, culture, emergence, self-organization, topic/systems]
 title: Systems Generate Internal Logic in Isolation

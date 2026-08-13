@@ -3,7 +3,7 @@ aliases: [Fixed Schedule Productivity]
 conformant: true
 created: 2025-11-01T21:06:00+00:00
 epistemic_status: high
-modified: 2026-08-13T10:54:46+00:00
+modified: 2026-08-13T10:56:53+00:00
 permalink: llmeon/30-library/100-zettelkasten/fixed-schedule-productivity-creates-artificial-constraints-to-drive-efficiency
 prodos.kind: atomic
 prodos.lifecycle: stable

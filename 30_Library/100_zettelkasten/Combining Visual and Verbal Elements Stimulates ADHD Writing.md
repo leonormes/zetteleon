@@ -3,7 +3,7 @@ aliases: []
 conformant: true
 created: 2025-10-30T12:10:05+00:00
 epistemic_status: high
-modified: 2026-08-13T10:54:44+00:00
+modified: 2026-08-13T10:56:50+00:00
 permalink: llmeon/30-library/100-zettelkasten/combining-visual-and-verbal-elements-stimulates-adhd-writing
 prodos.kind: atomic
 prodos.lifecycle: stable

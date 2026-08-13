@@ -1,7 +1,7 @@
 ---
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: medium
-modified: 2026-08-13T10:54:44+00:00
+modified: 2026-08-13T10:56:50+00:00
 permalink: llmeon/30-library/100-zettelkasten/code-as-zero-cost-deterministic-actor-alongside-engineers-and-agents-in-workflows
 proposition: In an AI-assisted development workflow there are three distinct actors
   — engineers, agents, and plain deterministic code — and code is the most underused
