@@ -42,7 +42,7 @@ Modern authentication moves away from Static Credentials (long-lived passwords/k
 
 ### C. SAML 2.0 (Security Assertion Markup Language)
 
-- Role: An XML-based standard used primarily for Enterprise Single Sign-On (SSO).
+- Role: An XML-based standard used primarily for Enterprise [[Single Sign-On (SSO)]].
 - Mechanism: The Identity Provider (IdP) sends a signed XML assertion to the Service Provider (SP) to notify it that the user is verified.
 - Comparison: While OIDC is JSON/REST-friendly and dominant in modern apps, SAML remains the backbone of many corporate and legacy enterprise integrations.
 

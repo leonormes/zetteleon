@@ -23,7 +23,7 @@ Overall: True orphan note (not structurally anchored with typed edges).
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `2026-07-25-five-whys-chain-drills-to-first-principles.md` | `%%[supports:: [[SoT - Illusion of Explanatory Depth (IoED)]]]%%` | Target acts as a direct counter-measure (forcing function) to the illusion detailed in the SoT. | Yes |
+| `[[2026-07-25-five-whys-chain-drills-to-first-principles]].md` | `%%[supports:: [[SoT - Illusion of Explanatory Depth (IoED)]]]%%` | Target acts as a direct counter-measure (forcing function) to the illusion detailed in the SoT. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required.
