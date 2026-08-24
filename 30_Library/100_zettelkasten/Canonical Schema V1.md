@@ -47,4 +47,3 @@ Structural notes additionally require:
 
 This schema enables dataview queries, automation, and linting.
 
-%%[related_to:: [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]]%%

@@ -30,4 +30,3 @@ One practical countermeasure is to deliberately universalize the insight: append
 ## Related
 
 - [[Concept - Need for Cognition (NFC)]]—_Individuals with high NFC are especially prone to this specific manifestation of contingent self-worth._
-%%[relates_to:: [[Concept - Need for Cognition (NFC)]]]%%

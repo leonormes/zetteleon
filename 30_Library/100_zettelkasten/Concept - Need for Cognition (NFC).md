@@ -26,6 +26,4 @@ Identified by Cacioppo & Petty (1982), Need for Cognition (NFC) measures how muc
 ## Related
 
 - [[SoT - Illusion of Explanatory Depth (IoED)]]—_NFC determines where this illusion is deployed, not whether it is deployed._
-%%[relates_to:: [[SoT - Illusion of Explanatory Depth (IoED)]]]%%
 - [[Claim - When intelligence is bound to identity, epistemic errors are experienced as threats to self-worth]]—_High-NFC individuals are particularly susceptible to forming intelligence-based identities._
-%%[relates_to:: [[Claim - When intelligence is bound to identity, epistemic errors are experienced as threats to self-worth]]]%%

@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-08-13T10:56:49+00:00
+modified: 2026-08-24T00:00:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-expansion
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Expansion
@@ -79,6 +79,8 @@ Expansion is the continuation of dynamic tension throughout the shot process, ma
 ### References
 
 - Archery | Rushed Shot Processes - Slow Down! (NUSensei)
+
+See also: [[Archery Shot Process - Finger Tab Selection & Maintenance]] — a passive, unclenched tab hook keeps the hand out of the way of LAN2-driven scapular expansion.
 
 ---
 

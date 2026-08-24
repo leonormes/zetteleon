@@ -1,7 +1,0 @@
-# Fileclass log — what happened to your schemas, and what Fileclass did to your vault.
-# One line per event: timestamp, level, event id, message, JSON details.
-# Fileclass never edits a fileClass definition on its own; these are yours to act on.
-2026-08-14 16:08:51	ERROR	schema.missing-path	claim: "claim.base" — the class has no base to sync	{"fileClass":"claim","value":"claim.base","fingerprint":"missing-path|claim||claim.base"}
-2026-08-14 16:08:51	ERROR	schema.missing-path	question: "Question.base" — the class has no base to sync	{"fileClass":"question","value":"Question.base","fingerprint":"missing-path|question||Question.base"}
-2026-08-24 16:27:16	INFO	schema.resolved	claim: "claim.base" — fixed	{"fileClass":"claim","fingerprint":"missing-path|claim||claim.base"}
-2026-08-24 16:27:16	INFO	schema.resolved	question: "Question.base" — fixed	{"fileClass":"question","fingerprint":"missing-path|question||Question.base"}

@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-08-13T10:56:49+00:00
+modified: 2026-08-24T00:00:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-setup
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Setup
@@ -83,6 +83,8 @@ Setup involves setting the hands onto the bow, including hooking onto the string
 - How to do it:
   1. Place your bow hand against a solid pillar in your archery stance.
   2. Mimic the setup motion against static resistance, ensuring the shoulder does not shrug upward.
+
+See also: [[Archery Shot Process - Finger Tab Selection & Maintenance]] for tab sizing, base plate/spacer fit, and leather trimming that affect the hook and grip.
 
 ---
 

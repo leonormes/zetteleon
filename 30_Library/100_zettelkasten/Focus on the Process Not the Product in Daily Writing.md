@@ -31,4 +31,4 @@ For a daily writing habit to be effective as a thinking tool, the focus must be 
 
 %%[implements:: [[SoT - Processing IS the Work]]]%%
 
-%%[solves:: [[SoT - Perfectionism and Analysis Paralysis]]]%%
+%%[implements:: [[SoT - Perfectionism and Analysis Paralysis]]]%%

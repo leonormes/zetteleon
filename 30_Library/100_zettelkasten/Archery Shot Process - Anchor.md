@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-08-24T07:54:16+00:00
+modified: 2026-08-24T00:00:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-anchor
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Anchor
@@ -104,6 +104,8 @@ Anchor is the final reference for the full draw position and the point of maxima
 
 - Archery | Rushed Shot Processes - Slow Down! (NUSensei)
 - Face Contact Matters! See Why And Learn How To Fix It! (Coach Michael)
+
+See also: [[Archery Shot Process - Finger Tab Selection & Maintenance]] — an oversized base plate can prevent the hand sitting flush against the jaw, degrading anchor depth and the string picture.
 
 ---
 
