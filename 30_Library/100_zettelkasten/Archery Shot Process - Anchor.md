@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-08-13T10:56:49+00:00
+modified: 2026-08-24T07:54:16+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-anchor
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Anchor
@@ -33,6 +33,7 @@ Anchor is the final reference for the full draw position and the point of maxima
 - Focusing on the target rather than the pin ("Watch It to Keep It") prevents blurring the target and seeing double targets.
 - Accepting the float naturally centers the shot subconsciously, while actively trying to hold still creates muscle tension and triggers target panic.
 - String alignment fixes lateral misses.
+- Proper String Oscillation: A slightly forward anchor point with minimal face contact allows the string to naturally travel inward upon release before kicking safely away from the body. This unrestricted oscillation ensures the back of the arrow completely clears the arrow rest.
 
 ### Faults & Diagnostics
 
@@ -43,6 +44,8 @@ Anchor is the final reference for the full draw position and the point of maxima
 - Lighting Illusions: The angle of sunlight or overhead lighting can make the string or sight pin appear to shift.
 - Rushing the Anchor (Floating Anchor Point): Shooting too fast prevents establishing a solid, consistent anchor point. A floating anchor changes from shot to shot, causing arrows to hit different spots even if form is otherwise correct. Always take the time to feel tight, consistent facial contact before releasing.
 - Losing Point of Aim: Rushing often means failing to consciously confirm your reference point (sight pin, arrow tip, etc.). If you miss, you won't know if it was a form error or an aiming error. Take an extra second to confirm the aim before the shot breaks.
+- Side Anchor (Deep on the Face): Anchoring too far down the side of the face physically blocks the string's natural inward oscillation upon release. This forces the arrow to travel too close to the rest and pressure button, causing erratic flight. It also introduces unpredictable variables like sweaty skin or stubble altering how the string slips away.
+- Anchor Shifts Alter Draw Length: Shifting your anchor point forward will physically shorten your overall draw length. You will likely need to move your clicker forward (e.g., by about 1 cm) so you do not struggle to pull through the shot with your new alignment.
 
 ### Training Drills
 
@@ -89,9 +92,18 @@ Anchor is the final reference for the full draw position and the point of maxima
   1. Evaluate the exact tactile sensation of the bowstring on the tip of your nose across multiple shots.
   2. The pressure must remain incredibly light. Pushing the face deeply into the string introduces friction that disrupts the arrow's departure.
 
+#### The Mirror Anchor Drill
+
+- Purpose: Overcomes flawed internal perception to visually verify a slightly forward anchor point.
+- How to do it:
+  1. Have a coach draw a vertical line on your chin.
+  2. Practice drawing the bow in front of a mirror.
+  3. Visually verify that the string aligns with the line and sits slightly forward, minimizing facial contact.
+
 ### References
 
 - Archery | Rushed Shot Processes - Slow Down! (NUSensei)
+- Face Contact Matters! See Why And Learn How To Fix It! (Coach Michael)
 
 ---
 

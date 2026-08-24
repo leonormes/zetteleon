@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-08-13T10:56:49+00:00
+modified: 2026-08-18T16:55:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-posture
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Posture
@@ -41,6 +41,7 @@ Posture focuses on engaging the core, positioning the hips and torso to transfer
 - Eliminating Postural Sway: Maintain complete torso and core stability along the shooting line with zero swaying or leaning forward/backward during the draw and execution. If your body sways, you cannot accurately feel what your shoulders and upper back muscles are doing.
 - Head Movement: Avoid turning or adjusting your head mid-draw, as this creates postural shifts and shot inconsistency.
 - Leaning Back: A common flaw is leaning your upper body backward to try and keep a 50/50 balance between your left and right foot.
+- **Tilting Head for String Contact:** When adjusting to a more forward anchor, do not tilt your head back to force the string to touch your nose. Maintain a natural, neutral posture; let the string come to the face, not the face to the string.
 
 ### Training Drills
 
