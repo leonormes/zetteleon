@@ -25,7 +25,7 @@ fields:
     type: MultiFile
     path: ""
 permalink: llmeon/10-system/file-classes/claim-1
-baseFile: claim.base
+baseFile: 02_bases/claim.base
 baseView: claim
 ---
 

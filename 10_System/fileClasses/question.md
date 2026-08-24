@@ -16,7 +16,7 @@ fields:
     type: MultiFile
     path: ""
 permalink: llmeon/10-system/file-classes/question-1
-baseFile: Question.base
+baseFile: 02_bases/Question.base
 baseView: Question
 ---
 
