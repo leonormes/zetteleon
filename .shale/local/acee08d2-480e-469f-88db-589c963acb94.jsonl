@@ -1,0 +1,4 @@
+{"kind":"session_meta","at":"2026-08-26T20:53:27.925426Z","tool":"claude-code","session_id":"acee08d2-480e-469f-88db-589c963acb94"}
+{"kind":"session_end","at":"2026-08-26T20:53:28.661246Z"}
+{"kind":"intent","at":"2026-08-27T09:52:06.112321Z","title":"Move claim stubs from Hermes to LLMeon per explicit user override","body":"Moving 5 claim stubs from Hermes proposed-claims to LLMeon 30_Library/100_zettelkasten as Claim notes, rewriting their frontmatter to comply with the ProdOS Frontmatter Contract (ClaimNote schema)."}
+{"kind":"completion","at":"2026-08-27T09:52:42.071926Z","note":"Moved 5 claim stubs from Hermes to LLMeon 30_Library/100_zettelkasten and rewrote frontmatter to comply with ProdOS schemas per user's explicit override."}
