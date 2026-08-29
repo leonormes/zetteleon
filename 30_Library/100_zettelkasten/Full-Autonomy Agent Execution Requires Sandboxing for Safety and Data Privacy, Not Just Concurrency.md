@@ -1,7 +1,7 @@
 ---
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: medium
-modified: 2026-08-13T10:56:53+00:00
+modified: 2026-08-29T09:36:01+00:00
 permalink: llmeon/30-library/100-zettelkasten/full-autonomy-agent-execution-requires-sandboxing-for-safety-and-data-privacy-not-just-concurrency
 proposition: When an agent is granted full autonomy to execute any command without
   'per-action approval ("YOLO mode"), it should run in a sandboxed environment (a dev'

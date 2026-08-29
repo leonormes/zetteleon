@@ -4,7 +4,7 @@ conformant: true
 created: 2025-07-20T13:32:32+00:00
 definition: "Mathematics' founding of knowledge claims on demonstrations that are public, stepwise and refutable by anyone, making peer examination the source of credibility rather than authority or initiation."
 distinguishes_from: ["[[Alchemy Protected Truth Through Obscurity]]"]
-modified: 2026-08-13T10:56:56+00:00
+modified: 2026-08-29T09:36:03+00:00
 permalink: llmeon/30-library/100-zettelkasten/mathematics-established-knowledge-through-open-demonstration
 tags: [history-of-science, knowledge, logic, methodology, openness, proof, topic/maths]
 title: Mathematics Established Knowledge Through Open Demonstration

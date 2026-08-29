@@ -3,7 +3,7 @@ aliases: []
 conformant: true
 created: 2025-10-29T16:35:00+00:00
 epistemic_status: high
-modified: 2026-08-13T10:56:57+00:00
+modified: 2026-08-29T09:36:03+00:00
 permalink: llmeon/30-library/100-zettelkasten/organizing-shoes-fosters-order-and-self-affirmation
 prodos.kind: claim
 prodos.lifecycle: stable

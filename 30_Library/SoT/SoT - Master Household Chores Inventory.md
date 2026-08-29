@@ -3,7 +3,7 @@ aliases: [Atomic Chores Inventory, Chores List, Cleaning SOPs, Home Maintenance 
 conformant: true
 created: 2025-12-30T10:00:00+00:00
 last_reviewed: '2025-12-30'
-modified: 2026-08-13T10:53:46+00:00
+modified: 2026-08-29T09:36:40+00:00
 permalink: llmeon/30-library/so-t/so-t-master-household-chores-inventory
 status: proposal
 tags: [chores, family, inventory, system]

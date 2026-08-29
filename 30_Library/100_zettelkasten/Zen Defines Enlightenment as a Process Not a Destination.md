@@ -2,7 +2,7 @@
 aliases: [Enlightenment as Process]
 conformant: false
 created: 2025-11-01T12:20:07+00:00
-modified: 2026-08-13T10:57:02+00:00
+modified: 2026-08-29T09:36:07+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/zen-defines-enlightenment-as-a-process-not-a-destination
 tags: [buddhism, enlightenment, non-duality, zen]

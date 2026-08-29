@@ -2,7 +2,7 @@
 aliases: [24 Character Strengths, Character and Virtue MOC, Map of Content on Character, VIA Character Strengths]
 conformant: true
 created: 2025-07-16T17:30:02+00:00
-modified: 2026-08-13T10:53:35+00:00
+modified: 2026-08-29T09:36:30+00:00
 permalink: llmeon/30-library/mo-c/moc-character-and-virtue
 see_also: ["[[A Concept Map for a Flourishing Human]]", "[[SoT - Values and Eudaimonia]]", "[[The Concept of a Character Ideal]]"]
 tags: [character, ethics, TheHuman/Psychology, type/moc, virtue]

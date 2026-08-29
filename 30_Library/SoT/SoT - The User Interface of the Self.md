@@ -2,7 +2,7 @@
 aliases: [The Admin Illusion, The Interpreter Module, User Interface of the Self]
 conformant: false
 created: 2025-12-23T19:56:26+00:00
-modified: 2026-08-13T10:53:50+00:00
+modified: 2026-08-29T09:36:44+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-the-user-interface-of-the-self
 tags: [agency, cognitive_science, mental_models, TheHuman/Identity, TheHuman/Neuroscience]

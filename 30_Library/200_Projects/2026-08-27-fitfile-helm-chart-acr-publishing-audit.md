@@ -1,7 +1,7 @@
 ---
 conformant: true
 created: 2026-08-27T18:42:19+01:00
-modified: 2026-08-28T17:40:20+00:00
+modified: 2026-08-29T09:36:08+00:00
 permalink: llmeon/30-library/200-projects/2026-08-27-fitfile-helm-chart-acr-publishing-audit
 project_category: refined_deployment
 project_name: Refined Deployment

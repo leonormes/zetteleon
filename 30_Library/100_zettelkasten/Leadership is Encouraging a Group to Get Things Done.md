@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-12-10T12:00:00+00:00
-modified: 2026-08-13T10:56:55+00:00
+modified: 2026-08-29T09:36:02+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/leadership-is-encouraging-a-group-to-get-things-done
 tags: [character-strength, justice, leadership]

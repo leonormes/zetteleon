@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T00:00:00+00:00
-modified: 2026-08-24T00:00:00+01:00
+modified: 2026-08-29T09:35:58+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-release
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Release
@@ -110,7 +110,7 @@ Release is the act of letting go of the string, which should be an involuntary, 
   1. Mentally repeat a simple, rhythmic phrase (e.g., "keep pulling, keep pulling") during the expansion phase.
   2. Allow the release to occur naturally while your conscious mind is occupied with the mantra.
 
-See also: [[Archery Shot Process - Finger Tab Selection & Maintenance]] — worn/grooved leather or excess leather length can itself cause plucking or catch the string independent of hand tension.
+See also: [[Archery Shot Process - Finger Tab Selection & Maintenance]]—worn/grooved leather or excess leather length can itself cause plucking or catch the string independent of hand tension.
 
 ---
 

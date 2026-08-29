@@ -3,7 +3,7 @@ aliases: []
 created: 2025-02-07T12:57:53+00:00
 ID: 9f
 last_reviewed: 'null'
-modified: 2026-08-13T10:56:56+00:00
+modified: 2026-08-29T09:36:03+00:00
 permalink: llmeon/30-library/100-zettelkasten/metacognitive-awareness
 status: 'null'
 tags: [TheHuman/Cognition]

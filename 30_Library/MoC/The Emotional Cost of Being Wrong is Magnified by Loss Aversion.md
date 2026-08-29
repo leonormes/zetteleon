@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-08-12T07:56:06+00:00
-modified: 2026-08-13T10:53:38+00:00
+modified: 2026-08-29T09:36:32+00:00
 permalink: llmeon/30-library/mo-c/the-emotional-cost-of-being-wrong-is-magnified-by-loss-aversion
 tags: [ego, epistemology, TheHuman/Cognition, topic/learning]
 title: The Emotional Cost of Being Wrong is Magnified by Loss Aversion

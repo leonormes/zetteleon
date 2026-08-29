@@ -1,6 +1,6 @@
 ---
 created: 2026-02-21T15:07:23+00:00
-modified: 2026-08-13T10:53:55+00:00
+modified: 2026-08-29T09:36:48+00:00
 permalink: llmeon/30-library/ops/cmd-kubectl-get-secret-origin
 risk: read-only
 service: vso

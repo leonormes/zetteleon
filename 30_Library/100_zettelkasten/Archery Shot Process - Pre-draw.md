@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T00:00:00+00:00
-modified: 2026-08-13T10:56:49+00:00
+modified: 2026-08-29T09:07:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-pre-draw
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Pre-draw
@@ -19,7 +19,7 @@ Pre-draw acts as a checklist step to verify posture, front shoulder position, an
 3. Draw Hand and Arm Placement: Set the angle between your upper draw arm and shoulders at roughly 90 degrees (slightly further back is fine; avoid placing it too far forward to prevent impingement). Your draw hand wrist should end up roughly in line with the front of your chin. Most importantly, ensure your draw elbow is positioned on or slightly _behind_ the arrow line.
 4. Visual & Tension Setup (Pre-Aiming): Apply a slight amount of tension to the string. Do not aim yet; keep the arrow and stabilizer offset (pointing safely to the left of the target face for a right-handed archer). Establish a quick visual reference without aiming through the sight.
 5. The Final Setup Check: Pause briefly after rotating to run a rapid mental checklist before pulling back: Did the hook and grip change? Are you still squeezing the finger spacer? Is the bow arm tension good? Did you reach toward the target? Is the "barrel of the gun" aligned?
-6. Verification: Verify that the posture is tall, the front shoulder remains set down, and correct shoulder-line alignment is established before loading.
+6. Verification: Verify that the posture is tall, the front shoulder remains set down, correct shoulder-line alignment is established, and the head is set in its final, immovable position before loading.
 
 ### Why It Works
 
@@ -30,6 +30,7 @@ Pre-draw acts as a checklist step to verify posture, front shoulder position, an
 
 ### Faults & Diagnostics
 
+- Forced Shoulder Alignment: Attempting to get into line by simply pushing your bow shoulder forward without rotating your upper body. This causes the shoulder to roll over, creating a highly unstable joint position without actually improving skeletal alignment. True alignment comes from rotating the entire torso and upper thoracic spine.
 - Biomechanical Warning: Drawing purely with upper-body strength or dropping into alignment from a high raise strains the shoulder extensors, leading to early fatigue and reduced long-term consistency.
 - The Setup Trap: During this pre-draw/setup phase, there is a natural slowing down of movement as you pause to prepare. Be careful not to let the mechanical weight of the bow pull your drawing elbow forward during this slight pause. The elbow must remain structurally stable.
 - Shoulder Collapse at Full Draw: A front shoulder collapse occurs when the bow-side shoulder yields or gives backward while you are holding at full draw. This contributes to erratic draw length and a floating anchor point.
@@ -37,6 +38,7 @@ Pre-draw acts as a checklist step to verify posture, front shoulder position, an
 ### References
 
 - Set-Up Position with Jake Kaminski | Recurve Archery Form Series Episode 6
+- How to Improve Your Shoulder Alignment - Recurve Archery Technique (Online Archery Academy)
 
 ---
 

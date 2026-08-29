@@ -1,6 +1,6 @@
 ---
 created: 2026-04-30T07:33:45+00:00
-modified: 2026-08-13T10:53:18+00:00
+modified: 2026-08-29T09:36:10+00:00
 permalink: llmeon/30-library/200-projects/azure-backup-for-aks
 project_category: refined_deployment
 project_name: Refined Deployment

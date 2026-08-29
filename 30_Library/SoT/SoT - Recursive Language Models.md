@@ -1,6 +1,6 @@
 ---
 created: 2026-07-27T17:29:18+00:00
-modified: 2026-08-13T10:53:48+00:00
+modified: 2026-08-29T09:36:42+00:00
 permalink: llmeon/30-library/so-t/so-t-recursive-language-models
 title: SoT - Recursive Language Models
 type: note

@@ -2,7 +2,7 @@
 aliases: [AKS Troubleshooting, Azure Kubernetes Service Operations, Karpenter for AKS]
 conformant: false
 created: 2026-01-08T12:00:00+00:00
-modified: 2026-08-13T10:53:40+00:00
+modified: 2026-08-29T09:36:34+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-azure-kubernetes-service-aks-operations
 tags: [aks, autoscaling, azure, kubernetes, ops, troubleshooting]

@@ -1,7 +1,7 @@
 ---
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: medium
-modified: 2026-08-13T10:57:01+00:00
+modified: 2026-08-29T09:36:07+00:00
 permalink: llmeon/30-library/100-zettelkasten/transparent-harness-level-model-tiering-requires-no-user-configuration
 proposition: Model and sub-agent tiering by task complexity can happen automatically
   inside the harness itself, transparently, with zero user configuration or even awareness

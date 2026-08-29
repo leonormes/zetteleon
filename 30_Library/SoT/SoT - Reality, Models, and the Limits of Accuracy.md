@@ -2,7 +2,7 @@
 aliases: [General Semantics, Model-Dependent Realism, The Map vs Territory]
 conformant: false
 created: 2025-12-12T18:34:35+00:00
-modified: 2026-08-13T10:53:48+00:00
+modified: 2026-08-29T09:36:42+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-reality-models-and-the-limits-of-accuracy
 tags: [epistemology, logic, mental_models, TheHuman/Cognition, TheHuman/Philosophy]

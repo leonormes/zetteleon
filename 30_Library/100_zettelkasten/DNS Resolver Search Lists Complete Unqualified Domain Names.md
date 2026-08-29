@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-10-31T10:46:00+00:00
-modified: 2026-08-13T10:56:51+00:00
+modified: 2026-08-29T09:36:00+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/dns-resolver-search-lists-complete-unqualified-domain-names
 tags: [SoftwareEngineering/Networking, SoftwareEngineering/networking/dns]

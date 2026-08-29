@@ -1,6 +1,6 @@
 ---
 created: 2026-07-31T09:29:19+00:00
-modified: 2026-08-13T10:53:05+00:00
+modified: 2026-08-29T09:35:56+00:00
 permalink: llmeon/30-library/ftfl-799-azure-phase2-permissions-inventory
 tags: [axiom:FTFL-799, infrastructure/azure, permissions, terraform, typed-edge]
 title: FTFL-799_Azure_Phase2_Permissions_Inventory

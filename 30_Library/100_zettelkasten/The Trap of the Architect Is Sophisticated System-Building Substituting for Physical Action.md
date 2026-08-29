@@ -5,7 +5,7 @@ created: 2026-08-07T00:00:00+01:00
 definition: "The Trap of the Architect is the pattern in which a person with strong systems-building capability — designing productivity architectures, digital schemas, or infrastructure — uses that capability as a sophisticated, high-dopamine substitute for the unstructured physical action the architecture was meant to enable, so that refining the blueprint replaces laying the bricks."
 distinguishes_from: ["[[Pseudo-productivity Heuristic]]", "[[System-Hopping]]", "[[Tool tinkering is a form of productive procrastination]]"]
 epistemic_status: medium
-modified: 2026-08-13T10:57:01+00:00
+modified: 2026-08-29T09:36:07+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-trap-of-the-architect-is-sophisticated-system-building-substituting-for-physical-action
 tags: [adhd, avoidance, meta-work, pkm, topic/productivity]
 title: The Trap of the Architect Is Sophisticated System-Building Substituting for Physical Action

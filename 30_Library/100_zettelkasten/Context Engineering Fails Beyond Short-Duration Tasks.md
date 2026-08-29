@@ -1,7 +1,7 @@
 ---
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: low
-modified: 2026-08-13T10:56:51+00:00
+modified: 2026-08-29T09:35:59+00:00
 permalink: llmeon/30-library/100-zettelkasten/context-engineering-fails-beyond-short-duration-tasks
 proposition: Context engineering — granting an agent limited autonomy to retrieve
   external data (via APIs or file systems) to dynamically populate its own context

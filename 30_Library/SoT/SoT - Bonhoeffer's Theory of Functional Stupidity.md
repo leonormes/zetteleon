@@ -3,7 +3,7 @@ aliases: [Bonhoeffer Stupidity, Functional Stupidity, The Theory of Stupidity]
 conformant: true
 created: 2026-02-07T10:22:14+00:00
 last-synthesis: 2026-02-07
-modified: 2026-08-13T10:53:41+00:00
+modified: 2026-08-29T09:36:34+00:00
 permalink: llmeon/30-library/so-t/so-t-bonhoeffers-theory-of-functional-stupidity
 source_of_truth: true
 synthesis-count: 1

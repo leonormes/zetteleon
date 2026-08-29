@@ -4,7 +4,7 @@ conformant: true
 created: 2025-11-01T12:10:00+00:00
 criteria: Atomic notes on the transformation of information into knowledge, and on what qualifies that result as knowledge at all.
 exclusions: The data-information distinction, wisdom.
-modified: 2026-08-13T10:53:36+00:00
+modified: 2026-08-29T09:36:30+00:00
 permalink: llmeon/30-library/mo-c/moc-from-information-to-knowledge
 scope: Epistemology of personal knowledge formation — the process arc (internalise → apply → contextualise) and the philosophical arc (JTB → Gettier → subjectivity).
 tags: [epistemology, information, knowledge, topic/knowledge-architecture, topic/knowledge-graph]

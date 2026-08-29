@@ -2,7 +2,7 @@
 aliases: [ADHD Coping Mechanisms, ADHD Strengths SoT, Race Car Brain with Bicycle Brakes, Vitamin Connect]
 conformant: false
 created: 2026-02-03T10:30:00+00:00
-modified: 2026-08-13T10:53:40+00:00
+modified: 2026-08-29T09:36:33+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-adhd-self-compassion-strengths
 source_of_truth: true

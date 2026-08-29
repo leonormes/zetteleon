@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-12-17T00:00:00+00:00
-modified: 2026-08-13T10:53:41+00:00
+modified: 2026-08-29T09:36:35+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-conways-law-and-structural-mismatch
 tags: [conways-law, organizational-structure, SoftwareEngineering/Architecture, systems-design]

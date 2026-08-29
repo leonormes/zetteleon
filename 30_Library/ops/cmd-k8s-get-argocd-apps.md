@@ -1,7 +1,7 @@
 ---
 created: 2026-02-16T11:46:04+00:00
 hop_level: local
-modified: 2026-08-13T10:53:53+00:00
+modified: 2026-08-29T09:36:47+00:00
 permalink: llmeon/30-library/ops/cmd-k8s-get-argocd-apps
 prerequisites:
 - - - cmd-ssh-bastion-tunnel

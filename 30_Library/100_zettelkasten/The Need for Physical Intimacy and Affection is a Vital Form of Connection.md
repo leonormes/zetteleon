@@ -2,7 +2,7 @@
 aliases: [Need for Physical Connection]
 conformant: true
 created: 2025-11-10T10:08:00+00:00
-modified: 2026-08-13T10:57:01+00:00
+modified: 2026-08-29T09:36:06+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-need-for-physical-intimacy-and-affection-is-a-vital-form-of-connection
 tags: [affection, intimacy, needs, relationship]
 title: The Need for Physical Intimacy and Affection is a Vital Form of Connection

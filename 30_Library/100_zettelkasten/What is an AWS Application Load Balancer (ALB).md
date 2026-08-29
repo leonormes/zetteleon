@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-24T14:25:58+00:00
 last_reviewed: ''
-modified: 2026-08-13T10:57:02+00:00
+modified: 2026-08-29T09:36:07+00:00
 permalink: llmeon/30-library/100-zettelkasten/what-is-an-aws-application-load-balancer-alb
 status: ''
 tags: [aws, load-balancing, SoftwareEngineering/Networking, SoftwareEngineering/networking/cloud-networking]

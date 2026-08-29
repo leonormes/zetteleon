@@ -2,7 +2,7 @@
 aliases: []
 conformant: true
 created: 2025-11-19T21:43:33+00:00
-modified: 2026-08-13T10:56:53+00:00
+modified: 2026-08-29T09:36:01+00:00
 permalink: llmeon/30-library/100-zettelkasten/final-what-i-mean
 prodos.kind: concept
 prodos.lifecycle: stub

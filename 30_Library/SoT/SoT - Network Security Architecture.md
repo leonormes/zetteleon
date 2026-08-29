@@ -2,7 +2,7 @@
 aliases: [Defense in Depth, Layered Defense, Network Security Components, Security Architecture]
 conformant: true
 created: 2026-04-02T12:00:00+00:00
-modified: 2026-08-13T10:53:47+00:00
+modified: 2026-08-29T09:36:40+00:00
 permalink: llmeon/30-library/so-t/so-t-network-security-architecture
 source_of_truth: true
 tags: [architecture, infrastructure, networking, security]

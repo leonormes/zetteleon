@@ -3,7 +3,7 @@ aliases: []
 conformant: true
 created: 2025-05-16T05:39:58+00:00
 epistemic_status: high
-modified: 2026-08-13T10:56:54+00:00
+modified: 2026-08-29T09:36:01+00:00
 permalink: llmeon/30-library/100-zettelkasten/i-am-enslaved-to-the-work-of-zetteling
 prodos.kind: atomic
 prodos.lifecycle: stable

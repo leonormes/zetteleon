@@ -2,7 +2,7 @@
 created: 2026-04-14T11:11:37+00:00
 created_utc: '2026-04-14T10:35:00Z'
 kind: mechanism
-modified: 2026-08-13T10:56:54+00:00
+modified: 2026-08-29T09:36:01+00:00
 permalink: llmeon/30-library/100-zettelkasten/host-response-logic
 source_title: Networking Is Label Transformation Under Policy
 source_url: N/A

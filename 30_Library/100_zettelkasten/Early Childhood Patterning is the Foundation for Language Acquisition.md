@@ -2,7 +2,7 @@
 aliases: [Childhood Patterning]
 conformant: false
 created: 2025-11-01T12:00:06+00:00
-modified: 2026-08-13T10:56:52+00:00
+modified: 2026-08-29T09:36:00+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/early-childhood-patterning-is-the-foundation-for-language-acquisition
 tags: [development, language, TheHuman/Cognition]

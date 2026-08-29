@@ -1,7 +1,7 @@
 ---
 captured: 2026-04-29T13:28:53+01:00 2026-04-29T13:28:53+01:00
 created: 2026-04-29T12:28:56+00:00
-modified: 2026-08-13T10:53:53+00:00
+modified: 2026-08-29T09:36:46+00:00
 permalink: llmeon/30-library/ops/accessing-private-aks-cluster-via-jumpbox-ssh
 source: https://claude.ai/chat/891c087e-70b2-4b75-8c59-926c4c7108c1
 status: null

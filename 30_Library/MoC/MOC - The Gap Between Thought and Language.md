@@ -4,7 +4,7 @@ created: 2025-10-31T20:08:00+00:00
 criteria: Includes concepts about pre-linguistic thought, limitations of language,
   and mechanisms enabling understanding
 exclusions: Specific linguistic theories, detailed neuroscience of language processing
-modified: 2026-08-13T10:53:37+00:00
+modified: 2026-08-29T09:36:31+00:00
 permalink: llmeon/30-library/mo-c/moc-the-gap-between-thought-and-language
 scope: Philosophical exploration of the relationship between thought, language, and
   communication

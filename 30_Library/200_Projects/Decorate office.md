@@ -1,6 +1,6 @@
 ---
 created: 2026-06-02T21:00:24+00:00
-modified: 2026-08-13T10:53:19+00:00
+modified: 2026-08-29T09:36:11+00:00
 next-action: the exact Todoist task text
 permalink: llmeon/30-library/200-projects/decorate-office
 project_category: personal

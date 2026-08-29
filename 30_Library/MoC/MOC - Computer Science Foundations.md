@@ -1,7 +1,7 @@
 ---
 aliases: [Computing MOC, CS MOC, Software Engineering MOC, Tech Stack MOC]
 created: 2025-12-13T09:15:00+00:00
-modified: 2026-08-13T10:53:35+00:00
+modified: 2026-08-29T09:36:29+00:00
 permalink: llmeon/30-library/mo-c/moc-computer-science-foundations
 see_also: []
 superseded_by: ''

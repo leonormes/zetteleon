@@ -3,7 +3,7 @@ aliases: [Meta Map of Content, My Thinking Landscape, The Core Domains]
 created: 2025-12-16T09:45:00+00:00
 description: A high-level Meta MOC categorizing the primary domains of thought and
   Sources of Truth (SoT) within the vault.
-modified: 2026-08-13T10:53:38+00:00
+modified: 2026-08-29T09:36:32+00:00
 permalink: llmeon/30-library/mo-c/meta-moc-the-core-domains
 see_also: []
 superseded_by: ''

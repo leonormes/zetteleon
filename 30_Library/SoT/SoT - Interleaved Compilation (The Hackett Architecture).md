@@ -2,7 +2,7 @@
 aliases: [Hackett, Interleaved Compilation, Lisp-Haskell Fusion, Type-Driven Macros]
 conformant: false
 created: 2025-12-18T00:00:00+00:00
-modified: 2026-08-13T10:53:45+00:00
+modified: 2026-08-29T09:36:38+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-interleaved-compilation-the-hackett-architecture
 tags: [macros, programming_languages, racket, SoftwareEngineering/Architecture, type_systems]

@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2025-05-10T10:01:40+00:00
-modified: 2026-08-13T10:56:58+00:00
+modified: 2026-08-29T09:36:04+00:00
 non_conformance_reason: "Needs type-specific schema validation"
 permalink: llmeon/30-library/100-zettelkasten/purpose-of-my-pkm-system
 tags: [domain/pkm, topic/pkm-purpose]

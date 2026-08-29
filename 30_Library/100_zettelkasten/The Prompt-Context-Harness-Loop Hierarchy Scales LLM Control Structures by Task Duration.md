@@ -1,6 +1,6 @@
 ---
 created: 2026-07-28T09:51:49+00:00
-modified: 2026-08-13T10:57:01+00:00
+modified: 2026-08-29T09:36:06+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-prompt-context-harness-loop-hierarchy-scales-llm-control-structures-by-task-duration
 title: The Prompt-Context-Harness-Loop Hierarchy Scales LLM Control Structures by Task Duration
 ---

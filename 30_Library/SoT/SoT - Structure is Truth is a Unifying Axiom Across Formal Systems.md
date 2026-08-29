@@ -2,7 +2,7 @@
 aliases: [Constitutive Structure, Structure as Truth, The Unifying Axiom]
 conformant: false
 created: 2026-04-19T10:00:00+00:00
-modified: 2026-08-13T10:53:49+00:00
+modified: 2026-08-29T09:36:43+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-structure-is-truth-is-a-unifying-axiom-across-formal-systems
 see_also: ["[[MOC - ADHD Functional Neurology & Scaffolding]]", "[[MOC - Applied Formal Methods]]", "[[Protocol - AFM Vault Constitutional Triage]]", "[[SoT - Conservation of Complexity]]", "[[SoT - Order Theory & Lattices]]", "[[SoT - The Curry-Howard Correspondence (Propositions as Types)]]", "[[SoT - The Data-Centric Philosophy]]"]

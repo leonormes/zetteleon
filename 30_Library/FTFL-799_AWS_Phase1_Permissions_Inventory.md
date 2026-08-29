@@ -1,6 +1,6 @@
 ---
 created: 2026-07-31T09:24:09+00:00
-modified: 2026-08-13T10:53:04+00:00
+modified: 2026-08-29T09:35:56+00:00
 permalink: llmeon/30-library/ftfl-799-aws-phase1-permissions-inventory
 tags: [axiom:FTFL-799, infrastructure/aws, permissions, terraform, typed-edge]
 title: FTFL-799_AWS_Phase1_Permissions_Inventory

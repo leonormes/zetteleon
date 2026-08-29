@@ -2,7 +2,7 @@
 aliases: [OIDC Auth for VSO, Vault Kubernetes Authentication Best Practice, VSO JWT Auth]
 conformant: false
 created: 2026-03-12T09:30:00+00:00
-modified: 2026-08-13T10:53:52+00:00
+modified: 2026-08-29T09:36:45+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-vso-authentication-jwt-vs-app-role
 tags: [architecture, jwt, kubernetes, oidc, security, vault, vso]

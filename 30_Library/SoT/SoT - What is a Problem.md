@@ -2,7 +2,7 @@
 aliases: [Problem Definition, The Problem Concept, What is a Problem]
 conformant: false
 created: 2025-12-07T00:00:00+00:00
-modified: 2026-08-13T10:53:51+00:00
+modified: 2026-08-29T09:36:45+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-what-is-a-problem
 tags: [definition, logic, mental_model, problem_solving, topic/systems]

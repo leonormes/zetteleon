@@ -1,6 +1,6 @@
 ---
 created: 2026-07-28T09:44:23+00:00
-modified: 2026-08-13T10:57:01+00:00
+modified: 2026-08-29T09:36:07+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-slow-loop-pattern-constrained-off-hours-agent-loops-produce-a-single-pr-for-async-human-review
 title: The Slow Loop Pattern - Constrained Off-Hours Agent Loops Produce a Single PR for Async Human Review
 ---

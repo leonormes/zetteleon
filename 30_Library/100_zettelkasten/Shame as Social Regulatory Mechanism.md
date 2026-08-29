@@ -4,7 +4,7 @@ conformant: true
 created: 2025-10-30T12:37:12+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-08-13T10:56:59+00:00
+modified: 2026-08-29T09:36:05+00:00
 permalink: llmeon/30-library/100-zettelkasten/shame-as-social-regulatory-mechanism
 proposition: "Shame evolved as a social regulatory mechanism—promoting group cohesion, signalling compliance with norms, and maintaining social bonds by targeting the self rather than the act, unlike guilt."
 source: '[[MOC - Authority Dynamics and ADHD]]'

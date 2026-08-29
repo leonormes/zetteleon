@@ -2,7 +2,7 @@
 aliases: [Mini routine effectiveness, Neurodivergent-friendly routines]
 conformant: false
 created: 2025-10-30T17:38:00+00:00
-modified: 2026-08-13T10:56:56+00:00
+modified: 2026-08-29T09:36:03+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/mini-routines-are-effective-for-adhd-autism-and-chronic-illness
 source: '[[MOC - How To Create And Use Mini Routines]]'

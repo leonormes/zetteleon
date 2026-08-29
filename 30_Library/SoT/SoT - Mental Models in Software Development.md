@@ -2,7 +2,7 @@
 aliases: ["The Developer's Compass", Developer Cognition, Internal Representations, Mental Models in Coding]
 conformant: false
 created: 2026-02-03T12:30:00+00:00
-modified: 2026-08-13T10:53:46+00:00
+modified: 2026-08-29T09:36:40+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-mental-models-in-software-development
 source_of_truth: true

@@ -1,7 +1,7 @@
 ---
 conformant: true
 created: 2026-07-22T09:00:00+00:00
-modified: 2026-08-13T10:53:19+00:00
+modified: 2026-08-29T09:36:14+00:00
 permalink: llmeon/30-library/200-projects/bessie-education-and-support
 project_category: education
 project_name: Bessie

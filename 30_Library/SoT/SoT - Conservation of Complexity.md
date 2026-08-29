@@ -2,7 +2,7 @@
 aliases: ["Tesler's Law", Conservation of Complexity, Software Complexity Law, SoT - Complexity Conservation]
 conformant: false
 created: 2026-01-08T12:05:00+00:00
-modified: 2026-08-13T10:53:41+00:00
+modified: 2026-08-29T09:36:35+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-conservation-of-complexity
 tags: [architecture, complexity, mental_models, software_engineering, sot]

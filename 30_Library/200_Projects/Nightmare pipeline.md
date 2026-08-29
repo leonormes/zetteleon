@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-02-07T12:57:52+00:00
 last_reviewed: ''
-modified: 2026-08-13T10:53:26+00:00
+modified: 2026-08-29T09:36:20+00:00
 permalink: llmeon/30-library/200-projects/nightmare-pipeline
 project_category: development
 project_name: SDLC

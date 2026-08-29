@@ -2,7 +2,7 @@
 aliases: [WAF]
 conformant: false
 created: 2025-10-31T10:35:00+00:00
-modified: 2026-08-13T10:57:02+00:00
+modified: 2026-08-29T09:36:07+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/web-application-firewalls-protect-against-layer-7-attacks
 tags: [SoftwareEngineering/Networking, SoftwareEngineering/Security, web]

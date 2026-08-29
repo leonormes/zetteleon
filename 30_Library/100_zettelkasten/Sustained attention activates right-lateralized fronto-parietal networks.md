@@ -2,7 +2,7 @@
 aliases: [Sustained attention brain regions, Vigilant attention network]
 conformant: false
 created: 2025-10-31T00:02:00+00:00
-modified: 2026-08-13T10:57:00+00:00
+modified: 2026-08-29T09:36:06+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/sustained-attention-activates-right-lateralized-fronto-parietal-networks
 tags: [brain-networks, sustained-attention, TheHuman/Neuroscience]

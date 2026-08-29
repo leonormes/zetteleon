@@ -2,7 +2,7 @@
 aliases: [Frozen Context, Token Caching]
 conformant: false
 created: 2026-01-08T16:10:00+00:00
-modified: 2026-08-13T10:56:51+00:00
+modified: 2026-08-29T09:35:59+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/context-caching-freezes-large-static-datasets-for-efficient-inference
 tags: [context-engineering, economics, llm, llm-understanding]

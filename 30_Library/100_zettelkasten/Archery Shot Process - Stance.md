@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T00:00:00+00:00
-modified: 2026-08-13T10:56:49+00:00
+modified: 2026-08-29T09:35:58+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-stance
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Stance
@@ -13,7 +13,7 @@ Stance sets a stable base for maximal stability. The angle and positioning of th
 
 ### The Steps
 
-1. Foot Placement: Stand with feet roughly shoulder-width apart, pointing forwards (or slightly turned out), and equidistant along the shooting line.
+1. Foot Placement: Stand with feet roughly shoulder-width apart, pointing forwards (or slightly turned out), and equidistant along the shooting line. Once you set your stance, plant your feet and stay there; do not shuffle or move your feet between arrows.
 2. Stance Variations:
    - Square Stance: Stand with feet exactly in line and shoulder-width apart. Alignment Tip: Place an arrow on the ground pointing directly at the target to help align your feet.
    - Open Stance: Place the front foot slightly ahead of the back foot to create a diagonal/open stance towards the target. Open the feet roughly 10° to 15° toward the target line. To set this accurately, imagine a straight line running from the target through the ball of your front foot; that line should intersect the instep of your back foot. Keep your back foot close to parallel with your front foot.

@@ -2,7 +2,7 @@
 created: 2026-04-14T19:42:27+00:00
 created_utc: '2026-04-14T12:40:00Z'
 kind: claim
-modified: 2026-08-13T10:56:50+00:00
+modified: 2026-08-29T09:35:59+00:00
 permalink: llmeon/30-library/100-zettelkasten/cloud-configurations-as-ad-hoc-dsls
 source_title: CUE — A Type System for the Cloud
 source_url: https://youtube.com/watch?v=qgNuOjSZL9Y

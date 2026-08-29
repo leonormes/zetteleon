@@ -2,7 +2,7 @@
 aliases: [Cybersecurity Governance, NIST CSF, NIST Cybersecurity Framework 2.0]
 conformant: true
 created: 2026-04-02T11:00:00+00:00
-modified: 2026-08-13T10:53:47+00:00
+modified: 2026-08-29T09:36:40+00:00
 permalink: llmeon/30-library/so-t/so-t-nist-cybersecurity-framework
 source_of_truth: true
 tags: [compliance, cybersecurity, governance, nist, resilience]

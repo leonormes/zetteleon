@@ -2,7 +2,7 @@
 aliases: [K8s Observability, Logging and Tracing, Monitoring Strategy]
 conformant: false
 created: 2026-01-08T12:05:00+00:00
-modified: 2026-08-13T10:53:41+00:00
+modified: 2026-08-29T09:36:34+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-cloud-native-observability
 tags: [devops, kubernetes, monitoring, observability]

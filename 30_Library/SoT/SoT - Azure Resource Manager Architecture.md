@@ -2,7 +2,7 @@
 aliases: [ARM Architecture, Azure Architecture, Azure Resource Manager]
 conformant: false
 created: 2025-12-10T13:06:37+00:00
-modified: 2026-08-13T10:53:40+00:00
+modified: 2026-08-29T09:36:34+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-azure-resource-manager-architecture
 tags: [architecture, arm, azure, governance, security, sot]

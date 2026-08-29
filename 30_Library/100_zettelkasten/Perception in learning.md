@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-05-27T17:55:43+00:00
 last_reviewed: ''
-modified: 2026-08-13T10:56:57+00:00
+modified: 2026-08-29T09:36:04+00:00
 permalink: llmeon/30-library/100-zettelkasten/perception-in-learning
 status: ''
 tags: []

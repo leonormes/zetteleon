@@ -2,7 +2,7 @@
 aliases: [Immutable Trait Reframe, Shutting Down Change]
 conformant: false
 created: 2025-12-24T12:00:00+00:00
-modified: 2026-08-13T10:57:01+00:00
+modified: 2026-08-29T09:36:06+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/the-no-solution-deflection-in-difficult-conversations
 tags: [communication, deflection, relationships]

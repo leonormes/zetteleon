@@ -2,7 +2,7 @@
 aliases: [Atelic Map, Intellectual Life Map]
 created: 2026-08-03T00:00:00+01:00
 exclusions: "Study techniques, learning tactics, and curriculum notes — those belong to [[MOC - Learning Registry]]."
-modified: 2026-08-13T10:53:37+00:00
+modified: 2026-08-29T09:36:31+00:00
 permalink: llmeon/30-library/mo-c/moc-the-atelic-intellectual-life
 scope: "The case that intellectual life is an intrinsic, non-instrumental practice, the ways institutions corrupt it, and the standing conflict with this vault's action-first architecture."
 tags: [teleology, TheHuman/Philosophy, topic/education, topic/meaning]

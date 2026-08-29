@@ -1,7 +1,7 @@
 ---
 created: 2026-05-31T00:00:00+00:00
 instance_of: ["[[Claim - Over-capture plus deferred review is sustainable]]"]
-modified: 2026-08-13T10:56:57+00:00
+modified: 2026-08-29T09:36:04+00:00
 permalink: llmeon/30-library/100-zettelkasten/practice-deferred-low-pressure-review
 related_to: ["[[Practice - Micro-tasking and time-boxing]]", "[[Rejection-Sensitive Dysphoria]]"]
 tags: [adhd, review, workflow]

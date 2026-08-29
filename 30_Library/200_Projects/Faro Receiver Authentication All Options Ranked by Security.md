@@ -1,6 +1,6 @@
 ---
 created: 2026-06-05T09:05:54+00:00
-modified: 2026-08-13T10:53:20+00:00
+modified: 2026-08-29T09:36:14+00:00
 permalink: llmeon/30-library/200-projects/faro-receiver-authentication-all-options-ranked-by-security
 project_category: refined_deployment
 project_name: Refined Deployment

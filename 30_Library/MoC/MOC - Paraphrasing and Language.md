@@ -2,7 +2,7 @@
 aliases: [Map of Content on Paraphrasing]
 created: 2025-07-16T17:30:04+00:00
 last_reviewed: 'null'
-modified: 2026-08-13T10:53:37+00:00
+modified: 2026-08-29T09:36:31+00:00
 permalink: llmeon/30-library/mo-c/moc-paraphrasing-and-language
 status: 'null'
 tags: [language, paraphrasing, topic/philosophy]

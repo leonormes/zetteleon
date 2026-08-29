@@ -5,7 +5,7 @@ criteria: Include concepts that address the philosophical problem of building id
   after loss of absolute certainty
 exclusions: Does not cover empirical psychology research or therapeutic interventions
 last_reviewed: ''
-modified: 2026-08-13T10:53:38+00:00
+modified: 2026-08-29T09:36:32+00:00
 permalink: llmeon/30-library/mo-c/sn-sequence-building-self-and-confidence-without-certainty
 scope: Traces the logical sequence from recognizing arbitrariness to reconstructing
   confidence through pragmatic frameworks

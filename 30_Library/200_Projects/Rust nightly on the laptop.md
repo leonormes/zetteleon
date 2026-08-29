@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-02-07T12:57:53+00:00
 last_reviewed: ''
-modified: 2026-08-13T10:53:28+00:00
+modified: 2026-08-29T09:36:22+00:00
 permalink: llmeon/30-library/200-projects/rust-nightly-on-the-laptop
 project_category: development
 project_name: Debug Wiki

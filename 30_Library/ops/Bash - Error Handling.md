@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2026-02-10T00:00:00+00:00
-modified: 2026-08-13T10:53:53+00:00
+modified: 2026-08-29T09:36:46+00:00
 non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/100-zettelkasten/bash-error-handling
 tags: [bash, devops, reference, shell]

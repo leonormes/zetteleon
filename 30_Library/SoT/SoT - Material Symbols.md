@@ -2,7 +2,7 @@
 aliases: [Cognitive Superniche, Material Symbols Thesis, Scaffolding]
 conformant: false
 created: 2025-12-23T19:53:27+00:00
-modified: 2026-08-13T10:53:46+00:00
+modified: 2026-08-29T09:36:39+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-material-symbols
 tags: [extended_mind, language, logic, scaffolding, TheHuman/Cognition]

@@ -1,7 +1,7 @@
 ---
 created: 2026-02-19T15:18:30+00:00
 hop_level: local
-modified: 2026-08-13T10:53:54+00:00
+modified: 2026-08-29T09:36:47+00:00
 permalink: llmeon/30-library/ops/cmd-net-curl-spoof-host
 tags: [atomic, ingress, network, spoof]
 target_service: network

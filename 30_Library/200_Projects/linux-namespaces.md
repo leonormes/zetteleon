@@ -7,7 +7,7 @@ exports: ['concept: "system-resources']
 id: "20240206143000"
 imports: ['from: "linux-core']
 last_reviewed: ""
-modified: 2026-08-13T10:53:33+00:00
+modified: 2026-08-29T09:36:27+00:00
 permalink: llmeon/30-library/200-projects/linux-namespaces
 project_category: infrastructure
 project_name: k8s

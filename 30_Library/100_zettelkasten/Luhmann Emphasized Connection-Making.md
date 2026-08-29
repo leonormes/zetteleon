@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-02-07T12:57:55+00:00
 last_reviewed: 'null'
-modified: 2026-08-13T10:56:55+00:00
+modified: 2026-08-29T09:36:03+00:00
 permalink: llmeon/30-library/100-zettelkasten/luhmann-emphasized-connection-making
 status: 'null'
 tags: [linking, topic/pkm/zettelkasten]

@@ -2,7 +2,7 @@
 aliases: [Embarrassment]
 created: 2025-05-26T13:51:25+00:00
 last_reviewed: ''
-modified: 2026-08-13T10:56:52+00:00
+modified: 2026-08-29T09:36:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/embarrasment
 status: ''
 tags: [embarrassment, emotion, TheHuman/Health/ADHD]

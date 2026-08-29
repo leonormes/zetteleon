@@ -2,7 +2,7 @@
 aliases: [HEAD Compliance, HEAD Note Contract, Thinking Note Contract, Workbench Contract]
 conformant: true
 created: 2026-08-03T00:00:00+01:00
-modified: 2026-08-13T10:53:44+00:00
+modified: 2026-08-29T09:36:38+00:00
 permalink: llmeon/30-library/so-t/so-t-head-note-contract-the-workbench
 see_also: ["[[Prompt - ProdOS Chronos Synthesizer]]", "[[Reference - File Structure]]", "[[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]", "[[SoT - ProdOS Thinking Stream]]"]
 status: stable

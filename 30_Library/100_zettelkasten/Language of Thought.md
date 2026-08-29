@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-31T16:06:41+00:00
 last_reviewed: 'null'
-modified: 2026-08-13T10:56:55+00:00
+modified: 2026-08-29T09:36:02+00:00
 permalink: llmeon/30-library/100-zettelkasten/language-of-thought
 status: 'null'
 tags: [language, mentalese, philosophy-of-mind, TheHuman/Cognition]

@@ -1,7 +1,7 @@
 ---
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: medium
-modified: 2026-08-13T10:56:48+00:00
+modified: 2026-08-29T09:35:57+00:00
 permalink: llmeon/30-library/100-zettelkasten/adversarial-review-loops-can-stop-on-mutual-diminishing-returns-agreement-rather-than-a-fixed-condition
 proposition: An adversarial code-review loop — where a completion loop (autopilot)
   and a cross-model reviewer repeatedly iterate on a piece of work — can be given

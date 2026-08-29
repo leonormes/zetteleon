@@ -2,7 +2,7 @@
 aliases: [AI Context Builder, Droidctx Pattern, Infrastructure Snapshotting]
 conformant: false
 created: 2026-03-28T17:10:00+00:00
-modified: 2026-08-13T10:53:40+00:00
+modified: 2026-08-29T09:36:33+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-ai-ready-infrastructure-context
 tags: [ai, context, devops, documentation, kubernetes, monitoring]

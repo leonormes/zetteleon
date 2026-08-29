@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-11-22T15:00:13+00:00
-modified: 2026-08-13T10:53:37+00:00
+modified: 2026-08-29T09:36:31+00:00
 permalink: llmeon/30-library/mo-c/moc-the-life-of-a-packet-in-the-linux-kernel
 tags: [SoftwareEngineering/Networking]
 title: MOC - The Life of a Packet in the Linux Kernel

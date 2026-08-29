@@ -2,7 +2,7 @@
 aliases: [Anicca, Meditation as Navigation, Mindfulness for ADHD, The Observer Self]
 conformant: false
 created: 2025-12-12T00:00:00+00:00
-modified: 2026-08-13T10:53:46+00:00
+modified: 2026-08-29T09:36:40+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-mindfulness-and-emotional-regulation
 tags: [emotional-regulation, meditation, mental-health, mindfulness]

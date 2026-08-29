@@ -2,7 +2,7 @@
 aliases: [Focus Management, The Indistractable Model, Traction vs Distraction]
 conformant: false
 created: 2025-12-24T12:10:45+00:00
-modified: 2026-08-13T10:53:45+00:00
+modified: 2026-08-29T09:36:38+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-indistractable-model-focus-management
 tags: [adhd, focus, indistractable, productivity, psychology]

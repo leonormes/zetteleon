@@ -3,7 +3,7 @@ aliases: [Environmental Anchoring]
 conformant: true
 created: 2025-11-11T19:05:12+00:00
 epistemic_status: medium
-modified: 2026-08-13T10:56:52+00:00
+modified: 2026-08-29T09:36:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/environmental-anchors-help-rebuild-project-specific-mental-context
 proposition: "Environmental anchors are consistent physical or digital cues used during work sessions to help the brain associate a specific environment with a project's mental context."
 tags: [TheHuman/Habits, TheHuman/Psychology, topic/productivity]

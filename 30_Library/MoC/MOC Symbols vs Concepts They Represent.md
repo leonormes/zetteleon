@@ -2,7 +2,7 @@
 aliases: []
 conformant: true
 created: 2025-08-30T17:09:46+00:00
-modified: 2026-08-13T10:53:38+00:00
+modified: 2026-08-29T09:36:32+00:00
 permalink: llmeon/30-library/mo-c/moc-symbols-vs-concepts-they-represent
 tags: []
 title: MOC Symbols vs Concepts They Represent

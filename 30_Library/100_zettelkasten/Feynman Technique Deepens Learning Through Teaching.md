@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-31T10:09:00+00:00
 last_reviewed: ''
-modified: 2026-08-13T10:56:53+00:00
+modified: 2026-08-29T09:36:01+00:00
 permalink: llmeon/30-library/100-zettelkasten/feynman-technique-deepens-learning-through-teaching
 see_also: []
 status: seedling

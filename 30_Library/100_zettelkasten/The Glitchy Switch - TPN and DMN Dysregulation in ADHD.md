@@ -3,7 +3,7 @@ aliases: []
 axiom: true
 created: 2025-10-24T15:16:00+00:00
 last_reviewed: "null"
-modified: 2026-08-13T10:57:00+00:00
+modified: 2026-08-29T09:36:06+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-glitchy-switch-tpn-and-dmn-dysregulation-in-adhd
 status: stable
 tags: [brain-networks, distraction, DMN, dysregulation, rumination, TheHuman/Health/ADHD, TheHuman/Neuroscience, TPN]

@@ -2,7 +2,7 @@
 aliases: [ADHD Hardware Model, ADHD Neurology, The ADHD Operating System]
 conformant: true
 created: 2026-01-03T10:10:15+00:00
-modified: 2026-08-13T10:53:40+00:00
+modified: 2026-08-29T09:36:33+00:00
 permalink: llmeon/30-library/so-t/so-t-adhd-neurology-core-concepts
 source_of_truth: true
 tags: [adhd, dopamine, emotional-regulation, neurology, system/sot, TheHuman/Health/ADHD]

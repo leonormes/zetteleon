@@ -1,6 +1,6 @@
 ---
 created: 2026-05-04T08:01:26+00:00
-modified: 2026-08-13T10:53:17+00:00
+modified: 2026-08-29T09:36:08+00:00
 permalink: llmeon/30-library/200-projects/a-personalised-educational-pathway-for-bessie-ormes-a-comprehensive-gcse-support-plan
 project_name: Bessie
 tags: [bessie]

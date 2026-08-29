@@ -2,7 +2,7 @@
 aliases: [ADHD Activation, Neurological Basis of Task Initiation, Task Initiation Difficulty]
 conformant: true
 created: 2025-10-30T12:09:05+00:00
-modified: 2026-08-13T10:53:37+00:00
+modified: 2026-08-29T09:36:31+00:00
 permalink: llmeon/30-library/mo-c/moc-why-task-initiation-is-difficult-in-adhd
 synthesis_count: 2
 tags: [executive-function, task-initiation, TheHuman/Health/ADHD, TheHuman/Neuroscience]

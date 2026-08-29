@@ -2,7 +2,7 @@
 created: 2026-02-22T16:52:57+00:00
 hop_level: local
 last_verified: 2026-02-22
-modified: 2026-08-13T10:53:54+00:00
+modified: 2026-08-29T09:36:48+00:00
 permalink: llmeon/30-library/ops/cmd-kubectl-argocd-find-repo-creds
 requires_tunnel: false
 tags: [argocd, cmd, credentials, debug, secrets]

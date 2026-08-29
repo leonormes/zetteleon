@@ -3,7 +3,7 @@ aliases: [The Self as Editorial Process]
 conformant: true
 created: 2025-11-01T09:51:13+00:00
 epistemic_status: high
-modified: 2026-08-13T10:57:01+00:00
+modified: 2026-08-29T09:36:06+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-self-is-constructed-through-curation-of-influences
 prodos.kind: atomic
 prodos.lifecycle: stable

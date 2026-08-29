@@ -2,7 +2,7 @@
 aliases: [Conditional Yes, Yes And If]
 conformant: false
 created: 2025-12-17T00:00:00+00:00
-modified: 2026-08-13T10:53:50+00:00
+modified: 2026-08-29T09:36:44+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-the-yes-and-if-protocol-for-scope-management
 tags: [communication, negotiation, scope-management, topic/productivity]

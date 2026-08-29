@@ -3,7 +3,7 @@ aliases: [file descriptor, socket handle]
 conformant: true
 created: 2025-10-31T13:40:00+00:00
 epistemic_status: high
-modified: 2026-08-13T10:56:53+00:00
+modified: 2026-08-29T09:36:01+00:00
 permalink: llmeon/30-library/100-zettelkasten/file-descriptor-as-os-socket-handle
 prodos.kind: claim
 prodos.lifecycle: stable

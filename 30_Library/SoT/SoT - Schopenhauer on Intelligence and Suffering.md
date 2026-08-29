@@ -2,7 +2,7 @@
 aliases: ["Schopenhauer's Pessimism", Metaphysics of Will, Schopenhauer on Solitude]
 conformant: false
 created: 2025-09-16T13:23:23+00:00
-modified: 2026-08-13T10:53:49+00:00
+modified: 2026-08-29T09:36:42+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-schopenhauer-on-intelligence-and-suffering
 source_of_truth: true

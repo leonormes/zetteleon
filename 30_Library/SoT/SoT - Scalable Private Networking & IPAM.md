@@ -3,7 +3,7 @@ aliases: [BGP Hub and Spoke Architecture, Private IPAM Strategy, Scalable Networ
 conformant: false
 created: 2026-02-11T08:15:00+00:00
 last-synthesis: 2026-02-11
-modified: 2026-08-13T10:53:49+00:00
+modified: 2026-08-29T09:36:42+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-scalable-private-networking-ipam
 source_of_truth: true

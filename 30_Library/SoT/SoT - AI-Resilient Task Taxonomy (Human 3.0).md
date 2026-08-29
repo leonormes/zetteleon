@@ -3,7 +3,7 @@ aliases: [AI-Resilient Task Taxonomy, Human 3.0 Roles, Inspiration vs Capital Ec
 conformant: false
 created: 2025-12-24T12:00:00+00:00
 fileClass: SoT
-modified: 2026-08-13T10:53:40+00:00
+modified: 2026-08-29T09:36:34+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-ai-resilient-task-taxonomy-human-3.0
 tags: [career, economics, future_of_work, llm, prodos, strategy]

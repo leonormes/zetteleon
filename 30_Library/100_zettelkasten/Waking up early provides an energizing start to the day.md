@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-10-29T16:35:00+00:00
-modified: 2026-08-13T10:57:02+00:00
+modified: 2026-08-29T09:36:07+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/waking-up-early-provides-an-energizing-start-to-the-day
 tags: [Japanese_culture, mindfulness, routine, TheHuman/Habits]

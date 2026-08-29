@@ -1,7 +1,7 @@
 ---
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: high
-modified: 2026-08-13T10:56:53+00:00
+modified: 2026-08-29T09:36:01+00:00
 permalink: llmeon/30-library/100-zettelkasten/git-worktrees-provide-isolated-low-overhead-workspaces-for-concurrent-ai-agents
 proposition: Git worktrees — a Git feature since version 2.5 (2015), predating AI
   coding tools by a decade — give each concurrently-running AI agent its own isolated

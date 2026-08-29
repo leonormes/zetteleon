@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-24T15:19:00+00:00
 last_reviewed: ''
-modified: 2026-08-13T10:56:50+00:00
+modified: 2026-08-29T09:35:58+00:00
 permalink: llmeon/30-library/100-zettelkasten/cerebellum-function-and-exercise-for-adhd-regulation
 status: ''
 tags: [cerebellum, emotional-regulation, exercise, focus, TheHuman/Health/ADHD, TheHuman/Neuroscience]

@@ -3,7 +3,7 @@ aliases: [Launch Sequence, The Initiation Algorithm]
 conformant: false
 created: 2025-12-23T20:00:20+00:00
 last_reviewed: '2025-12-23'
-modified: 2026-08-13T10:53:48+00:00
+modified: 2026-08-29T09:36:42+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-protocol-the-launch-sequence
 status: stable

@@ -2,7 +2,7 @@
 aliases: [Limbic Friction]
 conformant: false
 created: 2025-10-30T12:05:02+00:00
-modified: 2026-08-13T10:56:55+00:00
+modified: 2026-08-29T09:36:02+00:00
 non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/100-zettelkasten/limbic-friction-is-the-activation-energy-for-habits
 source: "[[MOC - The Science of Making and Breaking Habits]]"

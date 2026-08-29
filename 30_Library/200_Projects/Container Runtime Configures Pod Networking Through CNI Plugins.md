@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-26T17:22:00+00:00
 last_reviewed: 'null'
-modified: 2026-08-13T10:53:19+00:00
+modified: 2026-08-29T09:36:11+00:00
 permalink: llmeon/30-library/200-projects/container-runtime-configures-pod-networking-through-cni-plugins
 project_category: infrastructure
 project_name: k8s

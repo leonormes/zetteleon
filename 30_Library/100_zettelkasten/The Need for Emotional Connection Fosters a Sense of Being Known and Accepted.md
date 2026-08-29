@@ -2,7 +2,7 @@
 aliases: [Need for Emotional Connection]
 conformant: true
 created: 2025-11-10T10:09:00+00:00
-modified: 2026-08-13T10:57:01+00:00
+modified: 2026-08-29T09:36:06+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-need-for-emotional-connection-fosters-a-sense-of-being-known-and-accepted
 tags: [emotional-connection, needs, relationship, vulnerability]
 title: The Need for Emotional Connection Fosters a Sense of Being Known and Accepted

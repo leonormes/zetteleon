@@ -1,7 +1,7 @@
 ---
 created: 2026-07-28T10:35:28+00:00
 epistemic_status: low
-modified: 2026-08-13T10:56:49+00:00
+modified: 2026-08-29T09:35:58+00:00
 permalink: llmeon/30-library/100-zettelkasten/architecture-as-source-of-truth-code-regenerated-from-specification-rather-than-reverse-engineered-into-it
 proposition: If code becomes fully disposable, the source of truth for a system should
   invert — instead of architecture being inferred after the fact from existing code,

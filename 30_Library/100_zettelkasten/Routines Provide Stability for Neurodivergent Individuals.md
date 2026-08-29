@@ -2,7 +2,7 @@
 aliases: [Routines Create Predictability for Neurodivergents]
 conformant: false
 created: 2025-10-29T16:10:00+00:00
-modified: 2026-08-13T10:56:58+00:00
+modified: 2026-08-29T09:36:05+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/routines-provide-stability-for-neurodivergent-individuals
 tags: [anxiety-reduction, autism, routine, stability, TheHuman/Health/ADHD]

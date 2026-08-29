@@ -2,7 +2,7 @@
 aliases: [Boom-bust pacing, Energy cycle matching]
 conformant: false
 created: 2025-10-30T17:36:00+00:00
-modified: 2026-08-13T10:56:52+00:00
+modified: 2026-08-29T09:36:00+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/event-based-pacing-matches-boom-and-bust-energy-cycles
 source: '[[MOC - How To Create And Use Mini Routines]]'

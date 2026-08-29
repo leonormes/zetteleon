@@ -2,7 +2,7 @@
 aliases: ["Musashi's Emotional Mastery", Heih\u014d and Emotion, Heijo-shin, The Void and Emotion]
 conformant: false
 created: 2025-09-07T15:32:45+00:00
-modified: 2026-08-13T10:53:46+00:00
+modified: 2026-08-29T09:36:40+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-miyamoto-musashis-philosophy-on-mastering-emotions
 tags: [emotional_regulation, musashi, stoicism, strategy, TheHuman/Philosophy]

@@ -1,6 +1,6 @@
 ---
 created: 2026-06-20T15:25:59+00:00
-modified: 2026-08-13T10:53:31+00:00
+modified: 2026-08-29T09:36:26+00:00
 permalink: llmeon/30-library/200-projects/gcse-maths-contents
 project_name: Bessie
 tags: [bessie]

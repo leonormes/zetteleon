@@ -2,7 +2,7 @@
 aliases: [Observational Health Data MOC, OHDSI MOC, OMOP Architecture MOC]
 created: 2026-01-06T19:25:32+00:00
 last_reviewed: null
-modified: 2026-08-13T10:53:36+00:00
+modified: 2026-08-29T09:36:30+00:00
 permalink: llmeon/30-library/mo-c/moc-ohdsi-omop-architecture
 status: Active
 tags: [health-informatics, moc, ohdsi, omop, SoftwareEngineering/Architecture]

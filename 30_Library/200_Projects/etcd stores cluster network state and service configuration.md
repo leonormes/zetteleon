@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-26T17:22:00+00:00
 last_reviewed: 'null'
-modified: 2026-08-13T10:53:30+00:00
+modified: 2026-08-29T09:36:26+00:00
 permalink: llmeon/30-library/200-projects/etcd-stores-cluster-network-state-and-service-configuration
 project_category: infrastructure
 project_name: k8s

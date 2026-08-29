@@ -2,7 +2,7 @@
 aliases: [Mathematical Discovery Process]
 conformant: false
 created: 2025-11-01T12:00:11+00:00
-modified: 2026-08-13T10:57:01+00:00
+modified: 2026-08-29T09:36:06+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/the-process-of-mathematical-discovery-is-driven-by-pattern-recognition
 tags: [discovery, maths, methodology, proof, TheHuman/Creativity]

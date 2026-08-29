@@ -1,6 +1,6 @@
 ---
 created: 2026-03-05T10:16:02+00:00
-modified: 2026-08-13T10:53:56+00:00
+modified: 2026-08-29T09:36:49+00:00
 permalink: llmeon/30-library/ops/ec2-jumpbox-start-stop
 title: ec2-jumpbox-start-stop
 ---

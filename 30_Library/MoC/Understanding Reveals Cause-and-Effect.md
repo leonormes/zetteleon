@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-07-26T19:02:37+00:00
 last_reviewed: null
-modified: 2026-08-13T10:53:38+00:00
+modified: 2026-08-29T09:36:32+00:00
 permalink: llmeon/30-library/mo-c/understanding-reveals-cause-and-effect
 see_also: []
 status: null

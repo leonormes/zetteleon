@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-19T23:58:53+00:00
 last_reviewed: ''
-modified: 2026-08-13T10:57:01+00:00
+modified: 2026-08-29T09:36:07+00:00
 permalink: llmeon/30-library/100-zettelkasten/treat-impostor-feelings-as-a-signal-not-a-verdict
 status: ''
 tags: [emotional-regulation, TheHuman/Health/ADHD, topic/pkm]

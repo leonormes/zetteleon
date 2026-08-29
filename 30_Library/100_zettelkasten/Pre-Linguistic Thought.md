@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-31T16:06:31+00:00
 last_reviewed: 'null'
-modified: 2026-08-13T10:56:57+00:00
+modified: 2026-08-29T09:36:04+00:00
 permalink: llmeon/30-library/100-zettelkasten/pre-linguistic-thought
 status: 'null'
 tags: [development, pre-linguistic, TheHuman/Cognition, thought]

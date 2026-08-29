@@ -1,36 +1,37 @@
 ---
-title: pieces_copilot_message_export_july_31_2026_10_49am
-type: note
-permalink: llmeon/00-inbox/pieces-copilot-message-export-july-31-2026-10-49am
 created: 2026-07-31T09:49:10+00:00
-modified: 2026-07-31T10:01:54+00:00
+modified: 2026-08-29T09:36:45+00:00
+permalink: llmeon/00-inbox/pieces-copilot-message-export-july-31-2026-10-49am
+title: Backup status check set
+type: note
 ---
 
-*Shared Message from Pieces (https://pieces.app) by Leon Ormes (leonormes@gmail.com) on Friday Jul 31, 2026 - 10:49 AM*
+_Shared Message from Pieces (<https://pieces.app>) by Leon Ormes (leonormes@gmail.com) on Friday Jul 31, 2026 - 10:49 AM_
 ---
-## Backup status check set — MKUH / CUH / NNUH
 
-Grounded in your last ~4 weeks of work (`SPEC-FTFL-525`, ZRS checklist 13 Jul, MKUH remediation 15–20 Jul, CUH DNS/extension troubleshooting 9 Jul). Tooling is **Azure Backup for AKS** (`az dataprotection` + `azure-aks-backup` extension) — not standalone Velero/Kasten. Velero only shows up as the controller inside `dataprotection-microsoft`.
+## Backup Status Check set—MKUH / CUH / NNUH
+
+Grounded in your last ~4 weeks of work (`SPEC-FTFL-525`, ZRS checklist 13 Jul, MKUH remediation 15–20 Jul, CUH DNS/extension troubleshooting 9 Jul). Tooling is Azure Backup for AKS (`az dataprotection` + `azure-aks-backup` extension)—not standalone Velero/Kasten. Velero only shows up as the controller inside `dataprotection-microsoft`.
 
 Activate PIM where needed (MKUH tenant `e96dd0a1-5d47-4a94-9e4a-5c1056daa82c`), then `az login` / set subscription before each site block.
 
 ---
 
-### Shared resource map (from your notes)
+### Shared Resource Map (From yOur nOtes)
 
 | Site | Cluster | Cluster RG | Backup RG | Vault | Storage account | Sub (where known) |
 |------|---------|------------|-----------|-------|-----------------|-------------------|
-| **MKUH** | `aks-mkuh-uks-prd-01` | (cluster RG TBD via discovery) | `aks-mkuh-uks-prd-01-backup-rg` | `aks-mkuh-uks-prd-01-backupvault` | `aksmkuhuksprd01bkp01` | `454e1659-7f91-4963-b468-668ac7cef106` |
-| **CUH** | `aks-ff-uks-gp-01` | `rg-ff-uks-gp-net` | `aks-ff-uks-gp-01-backup-rg` | `aksbackupvault` (confirm live) | `aksffuksgp01cuhbackup` | FitFile GP path; PE work used `709f3d57-b6d7-48c6-8252-6b1c1174a541` |
-| **NNUH** | (name not stored) | | assumed `aks-ff-uks-gp-01-backup-rg` | (discover) | `aksffuksgp01backupsa` | **RG thin — confirm first** |
+| MKUH | `aks-mkuh-uks-prd-01` | (cluster RG TBD via discovery) | `aks-mkuh-uks-prd-01-backup-rg` | `aks-mkuh-uks-prd-01-backupvault` | `aksmkuhuksprd01bkp01` | `454e1659-7f91-4963-b468-668ac7cef106` |
+| CUH | `aks-ff-uks-gp-01` | `rg-ff-uks-gp-net` | `aks-ff-uks-gp-01-backup-rg` | `aksbackupvault` (confirm live) | `aksffuksgp01cuhbackup` | FitFile GP path; PE work used `709f3d57-b6d7-48c6-8252-6b1c1174a541` |
+| NNUH | (name not stored) | | assumed `aks-ff-uks-gp-01-backup-rg` | (discover) | `aksffuksgp01backupsa` | RG thin—confirm first |
 
-Snapshot RG (MKUH): `aks-mkuh-uks-prd-01-backup-snapshots-rg`  
-Vault MSI principal you checked: `6cbab191-4cd3-4ee9-9aa9-acc5382b210f`  
+Snapshot RG (MKUH): `aks-mkuh-uks-prd-01-backup-snapshots-rg`
+Vault MSI principal you checked: `6cbab191-4cd3-4ee9-9aa9-acc5382b210f`
 Known MKUH instance: `aks-mkuh-uks-prd-01-aks-mkuh-uks-prd-01-c39aa3ec-4a0b-11f1-a04a-00155d666a09`
 
 ---
 
-### 0. One-shot discovery (all three — start here)
+### 0. One-shot Discovery (All three—start hEre)
 
 ```bash
 az account show -o table
@@ -50,7 +51,7 @@ az k8s-extension list --cluster-type managedClusters \
 
 ---
 
-### 1. MKUH — full posture (`454e1659-…`)
+### 1. MKUH—full Posture (`454e1659-…`)
 
 ```bash
 az account set --subscription 454e1659-7f91-4963-b468-668ac7cef106
@@ -156,11 +157,11 @@ az dataprotection backup-policy show --ids "$POLICY_ID" \
 #   --query "{state:provisioningState, statuses:statuses}" -o jsonc
 ```
 
-**How you read MKUH:** Backups **Completed** + Tiering **Failed** (early–mid July pattern) → RSI snaps exist, vault-store tier poorly; almost always MSI/`Contributor` on snapshot RG or storage path. `sku != Standard_ZRS` → FTFL-525 still open for this site.
+How you read MKUH: Backups Completed + Tiering Failed (early–mid July pattern) → RSI snaps exist, vault-store tier poorly; almost always MSI/`Contributor` on snapshot RG or storage path. `sku!= Standard_ZRS` → FTFL-525 still open for this site.
 
 ---
 
-### 2. CUH — `aks-ff-uks-gp-01`
+### 2. CUH—`aks-ff-uks-gp-01`
 
 ```bash
 # Switch to the FitFile GP subscription that owns rg-ff-uks-gp-net
@@ -237,11 +238,11 @@ az dataprotection backup-instance list-from-resourcegraph \
 #   --scope $(az storage account show -n aksffuksgp01cuhbackup -g aks-ff-uks-gp-01-backup-rg --query id -o tsv) -o table
 ```
 
-**How you read CUH:** `provisioningState != Succeeded` or BSL `Available=False` → stop and fix DNS/proxy/PE before tiering. `sku=Standard_ZRS` + healthy BSL + recent Completed backups = good.
+How you read CUH: `provisioningState!= Succeeded` or BSL `Available=False` → stop and fix DNS/proxy/PE before tiering. `sku=Standard_ZRS` + healthy BSL + recent Completed backups = good.
 
 ---
 
-### 3. NNUH — confirm names then same pattern
+### 3. NNUH—confirm Names then Same Pattern
 
 Evidence is thin: you have storage name `aksffuksgp01backupsa` and no solid vault/cluster pair in LTM. Discover first.
 
@@ -282,7 +283,7 @@ az aks list --query "[?contains(name, 'nnuh') || contains(name, 'NNUH')].{name:n
 
 ---
 
-### 4. Cross-site scorecard (fill after runs)
+### 4. Cross-site Scorecard (Fill after rUns)
 
 | Check | MKUH | CUH | NNUH | Pass signal |
 |-------|------|-----|------|-------------|
@@ -291,15 +292,15 @@ az aks list --query "[?contains(name, 'nnuh') || contains(name, 'NNUH')].{name:n
 | Extension `Succeeded` | | | | no Helm/proxy 407 |
 | BSL Available | n/a ARM | | | `Phase=Available` |
 | Instance `ProtectionConfigured` / similar | | | | not `SoftDeleted` / empty |
-| Recent **Backup** job Completed | | | | last 24–48h |
-| Recent **Tiering** Completed | | | | not serial Failed |
+| Recent Backup job Completed | | | | last 24–48h |
+| Recent Tiering Completed | | | | not serial Failed |
 | Vault MSI Contributor on snapshot RG | | | | present (MKUH was the pain) |
 | Extension/cluster MSI blob roles | | | | `Storage Blob Data *` on backup SA |
 | Recovery points non-empty | | | | RPs within policy window |
 
 ---
 
-### 5. Optional after checks (don’t run until scorecard is green)
+### 5. Optional after Checks (Don't rUn until sCorecard is gReen)
 
 ```bash
 # MKUH adhoc — ONLY with a real AzureBackupRule name from policy show
@@ -321,18 +322,18 @@ then re-run §6 of the SPEC against this scorecard.
 
 ---
 
-### Context from the last few weeks (so you know what you’re validating)
+### Context from the Last Few Weeks (So yOu kNow what yOu're vAlidating)
 
-1. **MKUH** — Scheduled **Backup** jobs Completing; **Tiering** failing (`UserErrorMissingVaultMSIPermissionsOnSnapshotRG`). Joao Andre’s “Done it now” (15 Jul) on `Contributor` for vault MSI `6cbab191-…` on snapshot RG — re-proof with `az role assignment list`, don’t trust email alone. Adhoc with `--rule-name Daily` is wrong; policy rule is **`BackupHourly`**.
-2. **CUH** — Extension install blocked by proxy/DNS; BSL/`dataprotection-microsoft` both matter; PE `pe-aksffuksgp01cuhbackup-blob`; Alexis applied Storage Blob Data Contributor — verify RBAC still present.
-3. **NNUH** — Storage `aksffuksgp01backupsa` only; treat RG/vault/cluster as unknown until discovery.
-4. **FTFL-525** pass bar: all three backup SAs `Standard_ZRS` + vaults actually protecting clusters.
+1. MKUH—Scheduled Backup jobs Completing; Tiering failing (`UserErrorMissingVaultMSIPermissionsOnSnapshotRG`). Joao Andre's "Done it now" (15 Jul) on `Contributor` for vault MSI `6cbab191-…` on snapshot RG—re-proof with `az role assignment list`, don't trust email alone. Adhoc with `--rule-name Daily` is wrong; policy rule is `BackupHourly`.
+2. CUH—Extension install blocked by proxy/DNS; BSL/`dataprotection-microsoft` both matter; PE `pe-aksffuksgp01cuhbackup-blob`; Alexis applied Storage Blob Data Contributor—verify RBAC still present.
+3. NNUH—Storage `aksffuksgp01backupsa` only; treat RG/vault/cluster as unknown until discovery.
+4. FTFL-525 pass bar: all three backup SAs `Standard_ZRS` + vaults actually protecting clusters.
 
 ---
 
-### Gaps / don’t invent
+### Gaps / Don't Invent
 
-- NNUH cluster name, vault name, and backup RG are **not** firmly in LTM — use §0 / §3 discovery.
+- NNUH cluster name, vault name, and backup RG are not firmly in LTM—use §0 / §3 discovery.
 - Exact MKUH AKS cluster resource-group string for `az k8s-extension show` was often placeholder; resolve via `az aks list` after `az account set`.
 - CUH vault name `aksbackupvault` appeared in notes; if list is empty, take name from `backup-vault list` / resource graph, not assumptions.
 

@@ -1,7 +1,7 @@
 ---
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: high
-modified: 2026-08-13T10:56:55+00:00
+modified: 2026-08-29T09:36:02+00:00
 permalink: llmeon/30-library/100-zettelkasten/llm-probabilistic-outputs-prevent-consistency-guarantees
 proposition: LLMs are fundamentally probabilistic systems. The same prompt given twice
   does not produce identical code. This lack of reproducibility means LLM-generated

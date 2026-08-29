@@ -2,7 +2,7 @@
 created: 2026-04-14T20:30:46+00:00
 created_utc: '2026-04-14T13:40:00Z'
 kind: distinction
-modified: 2026-08-13T10:56:50+00:00
+modified: 2026-08-29T09:35:59+00:00
 permalink: llmeon/30-library/100-zettelkasten/coding-as-style-transfer
 source_title: Deconstructing the interview with Jeremy Howard
 source_url: https://gemini.google.com/app/fa3a7e9a4a69844c

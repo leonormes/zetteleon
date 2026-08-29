@@ -1,7 +1,7 @@
 ---
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: medium
-modified: 2026-08-13T10:57:00+00:00
+modified: 2026-08-29T09:36:06+00:00
 permalink: llmeon/30-library/100-zettelkasten/systematic-ai-clarifying-questions-surface-edge-cases-during-planning
 proposition: A planning step where the AI asks a battery of systematic clarifying
   'questions (e.g. "can the start and end date be the same?", "are partial selections'

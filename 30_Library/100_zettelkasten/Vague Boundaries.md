@@ -3,7 +3,7 @@ aliases: []
 created: 2025-02-07T12:57:53+00:00
 ID: 3e
 last_reviewed: ''
-modified: 2026-08-13T10:57:02+00:00
+modified: 2026-08-29T09:36:07+00:00
 permalink: llmeon/30-library/100-zettelkasten/vague-boundaries-1
 status: ''
 tags: [knowledge, TheHuman/Cognition/thinking]

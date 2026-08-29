@@ -23,3 +23,9 @@
 {"kind":"session_end","at":"2026-08-28T16:35:39.369142Z"}
 {"kind":"intent","at":"2026-08-29T07:42:31.744013Z","title":"Consolidate back tension and wrist alignment cues","body":"Updating Archery Shot Process - Loading.md with flexibility requirements, broken wrist fixes, and push/pull alignment test from Shatterproof Archery video."}
 {"kind":"completion","at":"2026-08-29T07:43:14.298824Z","note":"Updated Archery Shot Process - Loading.md with back tension flexibility requirements, high wrist fix, and push/pull skeletal alignment test."}
+{"kind":"intent","at":"2026-08-29T07:50:29.227922Z","title":"Consolidate bow hand flinch and head setting cues","body":"Updating Setup, Pre-draw, and Anchor with Peter's feedback on the 'sick sparrow' bow hand, preventing flinches, and establishing the head as a rear sight."}
+{"kind":"session_end","at":"2026-08-29T08:33:45.855464Z"}
+{"kind":"intent","at":"2026-08-29T08:40:24.900535Z","title":"Add beginner draw weight recommendations for youth archers","body":"Adding the 15-25 lbs draw weight guidelines and 'smoothness test' for beginners (like Bessie) to Archery Practice Drills.md"}
+{"kind":"completion","at":"2026-08-29T08:40:39.244778Z","note":"Added draw weight guidelines for youth/beginners to Archery Practice Drills.md"}
+{"kind":"intent","at":"2026-08-29T08:47:48.695574Z","title":"Incorporate bow shoulder secrets","body":"Adding 'Tree Branch' mindset and scapula squeeze fault to Raise.md, and adding Side Plank / Scapula audit drills to Practice Drills.md"}
+{"kind":"completion","at":"2026-08-29T08:54:38.243594Z","note":"Added 'Tree Branch' mindset and scapula squeeze faults to Raise.md, and Side Plank / Scapula audit drills to Practice Drills.md"}

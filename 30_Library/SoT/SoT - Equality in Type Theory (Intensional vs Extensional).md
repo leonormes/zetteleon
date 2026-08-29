@@ -2,7 +2,7 @@
 aliases: [Equality Reflection, Extensional Type Theory, Identity Types, Intensional Type Theory]
 conformant: false
 created: 2025-12-18T00:00:00+00:00
-modified: 2026-08-13T10:53:42+00:00
+modified: 2026-08-29T09:36:36+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-equality-in-type-theory-intensional-vs-extensional
 tags: [equality, formal_methods, SoftwareEngineering/Architecture, type_theory]

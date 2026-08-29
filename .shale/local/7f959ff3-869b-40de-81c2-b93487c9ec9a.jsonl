@@ -1,0 +1,22 @@
+{"kind":"session_meta","at":"2026-08-29T07:51:07.574984Z","tool":"claude-code","session_id":"7f959ff3-869b-40de-81c2-b93487c9ec9a"}
+{"kind":"session_end","at":"2026-08-29T07:51:07.868586Z"}
+{"kind":"completion","at":"2026-08-29T07:51:28.426981Z","note":"Updated Setup, Pre-draw, and Anchor notes with Peter's feedback regarding bow hand flinch and setting head early."}
+{"kind":"intent","at":"2026-08-29T07:52:08.409468Z","title":"Consolidate Peter's follow-up feedback","body":"Checking for new cues and adding vertical spread detail to Anchor.md; marking remaining points as redundant."}
+{"kind":"completion","at":"2026-08-29T07:52:24.98015Z","note":"Updated Anchor note to clarify that anchor shifting primarily causes vertical spread; marked remainder of Peter's follow-up as redundant."}
+{"kind":"intent","at":"2026-08-29T07:53:56.54214Z","title":"Consolidate Ash Morgan's bow shoulder myths","body":"Updating Raise.md with alternative views on scooping, adding faults for over-pushing the shoulder and keeping it perfectly still, and noting the link between grip and elbow rotation."}
+{"kind":"completion","at":"2026-08-29T07:54:30.025044Z","note":"Updated Archery Shot Process - Raise.md with Ash Morgan's bow shoulder myths: scooping contradiction, fully locked out fault, perfectly still fault, and grip/rotation linkage."}
+{"kind":"intent","at":"2026-08-29T07:56:16.65303Z","title":"Consolidate bow arm reaction diagnostic","body":"Updating Follow-through with Jake Kaminski's diagnostic check for the bow arm 'pop' vs weak flinch."}
+{"kind":"completion","at":"2026-08-29T07:57:16.133914Z","note":"Updated Archery Shot Process - Follow-through.md with Jake Kaminski's diagnostic check for bow arm flinch vs outward pop."}
+{"kind":"intent","at":"2026-08-29T07:58:35.562696Z","title":"Consolidate Rogue Archery TV bow shoulder raise feedback","body":"Adding the Principle of Tension Bias to Raise.md; marking the rest of the step-by-step technique as redundant since it's already well covered in Setup and Raise."}
+{"kind":"completion","at":"2026-08-29T07:59:04.835084Z","note":"Updated Archery Shot Process - Raise.md with Rogue Archery TV's Principle of Tension Bias."}
+{"kind":"intent","at":"2026-08-29T08:03:01.666429Z","title":"Consolidate string slap and thumb joint grip faults","body":"Updating Setup.md with NUSensei's feedback on how a V-shaped grip automatically clears the elbow and prevents string slap, and the danger of thumb joint pressure."}
+{"kind":"completion","at":"2026-08-29T08:04:23.309346Z","note":"Updated Archery Shot Process - Setup.md with NUSensei's string slap / grip correlation and thumb joint pressure warning."}
+{"kind":"intent","at":"2026-08-29T08:05:50.788747Z","title":"Consolidate Jake Kaminski bow grip feedback","body":"Adding the pivot vs pressure point distinction, the 'stump' analogy, and centerline pressure to Setup.md; marking stop motion and death grip as redundant."}
+{"kind":"completion","at":"2026-08-29T08:06:38.011847Z","note":"Updated Archery Shot Process - Setup.md with Jake Kaminski's pivot point vs pressure point distinction, the stump analogy, and centerline pressure faults."}
+{"kind":"intent","at":"2026-08-29T08:06:56.105685Z","title":"Consolidate forced shoulder alignment fault","body":"Adding the fault of forcing shoulder alignment without torso rotation to Pre-draw.md"}
+{"kind":"completion","at":"2026-08-29T08:07:20.043287Z","note":"Updated Archery Shot Process - Pre-draw.md with the Forced Shoulder Alignment fault from Online Archery Academy."}
+{"kind":"intent","at":"2026-08-29T08:11:58.960957Z","title":"Remove redundancies from Setup.md","body":"Removing Barrel of the Gun, Pre-Tension, and Raise-related faults from Setup.md, as they are already comprehensively covered in Raise.md and Pre-draw.md"}
+{"kind":"intent","at":"2026-08-29T08:12:22.354236Z","title":"Move Zen Breath to Raise.md","body":"Moving the respiratory synchronization cue (inhaling on the raise) to Raise.md from Setup.md"}
+{"kind":"completion","at":"2026-08-29T08:13:05.90068Z","note":"Moved Zen Breath to Raise.md"}
+{"kind":"intent","at":"2026-08-29T08:14:28.106827Z","title":"Consolidate beginner archery habits","body":"Adding the cue to never shuffle feet between arrows to Stance.md; marking the rest of the foundational advice as redundant."}
+{"kind":"completion","at":"2026-08-29T08:31:40.418408Z","note":"Consolidated beginner archery cues into Stance.md; ignored redundant cues."}

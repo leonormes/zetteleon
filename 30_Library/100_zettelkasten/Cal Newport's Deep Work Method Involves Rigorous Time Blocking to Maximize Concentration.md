@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2025-11-10T14:09:00+00:00
-modified: 2026-08-13T10:56:50+00:00
+modified: 2026-08-29T09:35:58+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/cal-newports-deep-work-method-involves-rigorous-time-blocking-to-maximize-concentration
 tags: [deep-work, focus, time-blocking, topic/productivity]

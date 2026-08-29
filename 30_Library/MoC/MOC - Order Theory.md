@@ -1,7 +1,7 @@
 ---
 aliases: [Lattice Theory MOC, Mathematics of Hierarchy, Order Theory]
 created: 2026-02-04T00:00:00+00:00
-modified: 2026-08-13T10:53:36+00:00
+modified: 2026-08-29T09:36:31+00:00
 permalink: llmeon/30-library/mo-c/moc-order-theory
 tags: [logic, math, moc, order-theory, topic/knowledge-architecture]
 title: MOC - Order Theory

@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2026-05-02T20:25:00+00:00
-modified: 2026-08-13T10:56:51+00:00
+modified: 2026-08-29T09:36:00+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/developing-the-idea-of-pre-linguistic-understanding
 title: Developing the Idea of Pre-Linguistic Understanding

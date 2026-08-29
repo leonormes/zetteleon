@@ -2,7 +2,7 @@
 aliases: [Vault Architecture, Vault Data Model, Vault Internal Design]
 conformant: false
 created: 2025-12-25T12:00:00+00:00
-modified: 2026-08-13T10:53:44+00:00
+modified: 2026-08-29T09:36:38+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-hashi-corp-vault-architecture
 tags: [data_structures, hashicorp, SoftwareEngineering/Architecture, SoftwareEngineering/Security, vault]

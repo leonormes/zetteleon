@@ -3,7 +3,7 @@ alias: [Human-Machine Merger, Neural Plasticity and Tools]
 aliases: []
 conformant: false
 created: 2025-12-24T12:00:00+00:00
-modified: 2026-08-13T10:56:56+00:00
+modified: 2026-08-29T09:36:03+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/natural-born-cyborgs-human-plasticity-and-tool-merger
 tags: [evolution, neuroplasticity, TheHuman/Philosophy]

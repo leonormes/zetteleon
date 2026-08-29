@@ -2,7 +2,7 @@
 aliases: [AI Coding MOC, LLM Engineering Map]
 created: 2026-01-30T08:00:00+00:00
 last-synthesis: 2026-04-04
-modified: 2026-08-13T10:53:35+00:00
+modified: 2026-08-29T09:36:28+00:00
 permalink: llmeon/30-library/mo-c/moc-ai-software-engineering
 tags: [ai-engineering, map-of-content, moc]
 title: MOC - AI Software Engineering

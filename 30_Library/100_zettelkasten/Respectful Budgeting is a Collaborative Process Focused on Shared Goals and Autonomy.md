@@ -2,7 +2,7 @@
 aliases: [Collaborative Budgeting]
 conformant: true
 created: 2025-11-10T10:13:00+00:00
-modified: 2026-08-13T10:56:58+00:00
+modified: 2026-08-29T09:36:05+00:00
 permalink: llmeon/30-library/100-zettelkasten/respectful-budgeting-is-a-collaborative-process-focused-on-shared-goals-and-autonomy
 tags: [autonomy, budgeting, finance, relationship, respect]
 title: Respectful Budgeting is a Collaborative Process Focused on Shared Goals and Autonomy

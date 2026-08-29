@@ -2,7 +2,7 @@
 aliases: [Distributed Network, Non-Hierarchical Network, Rhizome]
 conformant: false
 created: 2025-10-30T15:33:36+00:00
-modified: 2026-08-13T10:56:58+00:00
+modified: 2026-08-29T09:36:05+00:00
 non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/100-zettelkasten/rhizome-structure-non-hierarchical-network
 tags: [network-topology, structure, topic/knowledge-architecture, topic/pkm, topic/pkm/zettelkasten]

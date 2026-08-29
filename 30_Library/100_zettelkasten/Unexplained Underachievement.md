@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-06-26T15:03:54+00:00
 last_reviewed: ''
-modified: 2026-08-13T10:57:01+00:00
+modified: 2026-08-29T09:36:07+00:00
 permalink: llmeon/30-library/100-zettelkasten/unexplained-underachievement
 status: ''
 tags: []

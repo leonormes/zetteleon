@@ -1,7 +1,7 @@
 ---
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: high
-modified: 2026-08-13T10:56:52+00:00
+modified: 2026-08-29T09:36:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/evidence-based-pipeline-optimization-vs-cost-based-optimization
 proposition: Traditional database optimizers minimize query cost (time, CPU). LLM
   pipeline optimizers should maximize accuracy on real data. Evidence-based optimization

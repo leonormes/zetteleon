@@ -1,6 +1,6 @@
 ---
 created: 2026-07-28T08:07:11+00:00
-modified: 2026-08-13T10:57:02+00:00
+modified: 2026-08-29T09:36:07+00:00
 permalink: llmeon/30-library/100-zettelkasten/vertical-ai-agents-reduce-hallucination-via-domain-specialization
 title: Vertical AI Agents Reduce Hallucination via Domain Specialization
 ---

@@ -4,7 +4,7 @@ conformant: true
 created: 2025-10-20T09:06:00+00:00
 definition: "The principle of empathic communication — diagnosing before prescribing by listening with the intent to understand another person's frame of reference, rather than listening with the intent to reply."
 distinguishes_from: []
-modified: 2026-08-24T15:10:48+00:00
+modified: 2026-08-29T09:36:01+00:00
 permalink: llmeon/30-library/100-zettelkasten/habit-5-seek-first-to-understand-then-to-be-understood
 tags: [7-habits, communication, empathy, gtd, principles, productivity, TheHuman/Habits]
 title: Habit 5 - Seek First to Understand, Then to Be Understood

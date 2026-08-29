@@ -1,7 +1,7 @@
 ---
 created: 2026-02-22T16:53:55+00:00
 last_verified: 2026-02-22
-modified: 2026-08-13T10:53:56+00:00
+modified: 2026-08-29T09:36:49+00:00
 permalink: llmeon/30-library/ops/playbook-argocd-vso-oci-registry-auth-failure
 severity: p2
 tags: [argocd, auth, failure, oci, playbook, registry, vso]

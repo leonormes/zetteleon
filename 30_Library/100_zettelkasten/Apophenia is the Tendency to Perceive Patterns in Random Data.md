@@ -2,7 +2,7 @@
 aliases: [Patternicity]
 conformant: false
 created: 2025-11-01T12:00:03+00:00
-modified: 2026-08-13T10:56:49+00:00
+modified: 2026-08-29T09:35:58+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/apophenia-is-the-tendency-to-perceive-patterns-in-random-data
 tags: [apophenia, bias, TheHuman/Cognition]

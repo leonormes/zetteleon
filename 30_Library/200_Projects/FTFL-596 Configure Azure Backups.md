@@ -1,6 +1,6 @@
 ---
 created: 2026-04-28T08:24:50+00:00
-modified: 2026-08-13T10:53:20+00:00
+modified: 2026-08-29T09:36:14+00:00
 permalink: llmeon/30-library/200-projects/ftfl-596-configure-azure-backups
 project_category: refined_deployment
 project_name: Refined Deployment

@@ -3,7 +3,7 @@ conformant: true
 contradicts: []
 created: 2026-08-13T10:18:10+00:00
 epistemic_status: medium
-modified: 2026-08-13T10:57:02+00:00
+modified: 2026-08-29T09:35:59+00:00
 permalink: llmeon/30-library/100-zettelkasten/claim-the-true-product-of-a-software-engineering-team-is-shared-understanding-of-the-system
 prodos.kind: atomic
 prodos.lifecycle: seed

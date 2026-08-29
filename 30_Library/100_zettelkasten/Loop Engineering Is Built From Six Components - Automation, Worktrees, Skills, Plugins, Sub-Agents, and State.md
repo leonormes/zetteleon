@@ -1,6 +1,6 @@
 ---
 created: 2026-07-28T09:52:36+00:00
-modified: 2026-08-13T10:56:55+00:00
+modified: 2026-08-29T09:36:02+00:00
 permalink: llmeon/30-library/100-zettelkasten/loop-engineering-is-built-from-six-components-automation-worktrees-skills-plugins-sub-agents-and-state
 title: Loop Engineering Is Built From Six Components - Automation, Worktrees, Skills, Plugins, Sub-Agents, and State
 ---

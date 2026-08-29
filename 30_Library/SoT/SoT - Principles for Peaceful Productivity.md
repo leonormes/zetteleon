@@ -2,7 +2,7 @@
 aliases: [10 Rules for Life, Peaceful Productivity]
 conformant: true
 created: 2025-12-21T00:00:00+00:00
-modified: 2026-08-13T10:53:48+00:00
+modified: 2026-08-29T09:36:41+00:00
 permalink: llmeon/30-library/so-t/so-t-principles-for-peaceful-productivity
 see_also: ["[[MOC - Action Management]]", "[[SoT - Behavioral Architecture]]", "[[SoT - Indistractable Model (Focus Management)]]"]
 status: stable

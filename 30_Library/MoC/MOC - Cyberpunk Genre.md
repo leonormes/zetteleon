@@ -1,7 +1,7 @@
 ---
 aliases: [Cyberpunk Index, MOC - Cyberpunk]
 created: 2025-12-30T00:00:00+00:00
-modified: 2026-08-13T10:53:36+00:00
+modified: 2026-08-29T09:36:30+00:00
 permalink: llmeon/30-library/mo-c/moc-cyberpunk-genre
 see_also: []
 superseded_by: ''

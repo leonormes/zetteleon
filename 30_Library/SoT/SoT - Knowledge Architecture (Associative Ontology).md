@@ -4,7 +4,7 @@ aliases: []
 conformant: false
 created: 2026-01-05T06:58:46+00:00
 last_reviewed: null
-modified: 2026-08-13T10:53:45+00:00
+modified: 2026-08-29T09:36:39+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-knowledge-architecture-associative-ontology
 see_also: []

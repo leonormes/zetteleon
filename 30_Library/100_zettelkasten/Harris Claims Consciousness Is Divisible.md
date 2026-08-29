@@ -2,7 +2,7 @@
 aliases: [Consciousness Is Divisible, Harris on Divided Consciousness]
 conformant: true
 created: 2026-07-16T15:50:54+00:00
-modified: 2026-08-13T10:56:54+00:00
+modified: 2026-08-29T09:36:01+00:00
 permalink: llmeon/30-library/100-zettelkasten/harris-claims-consciousness-is-divisible
 source_title: "Waking Up (Sam Harris) — reviewed LLM summary and critique"
 status: seed

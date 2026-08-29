@@ -1,6 +1,6 @@
 ---
 created: 2026-05-26T17:22:25+00:00
-modified: 2026-08-13T10:53:31+00:00
+modified: 2026-08-29T09:36:26+00:00
 permalink: llmeon/30-library/200-projects/grafana-alloy-audit-report
 project_category: refined_deployment
 project_name: Refined Deployment

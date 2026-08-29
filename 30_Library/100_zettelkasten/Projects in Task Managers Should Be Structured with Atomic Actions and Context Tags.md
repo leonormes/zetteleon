@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-11-10T15:18:00+00:00
 last_reviewed: ''
-modified: 2026-08-13T10:56:58+00:00
+modified: 2026-08-29T09:36:04+00:00
 permalink: llmeon/30-library/100-zettelkasten/projects-in-task-managers-should-be-structured-with-atomic-actions-and-context-tags
 status: seedling
 tags: [project-management, task-management, topic/productivity, topic/systems]

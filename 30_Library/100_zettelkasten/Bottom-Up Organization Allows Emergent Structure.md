@@ -2,7 +2,7 @@
 aliases: [Bottom-Up vs Top-Down, Emergent Structure]
 created: 2025-10-30T15:33:36+00:00
 last_reviewed: '2025-10-30T00:00:00.000Z'
-modified: 2026-08-13T10:56:50+00:00
+modified: 2026-08-29T09:35:58+00:00
 permalink: llmeon/30-library/100-zettelkasten/bottom-up-organization-allows-emergent-structure
 status: seedling
 tags: [emergence, organization, topic/knowledge-architecture, topic/pkm, topic/pkm/zettelkasten]

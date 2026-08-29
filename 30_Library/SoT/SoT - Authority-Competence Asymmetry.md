@@ -2,7 +2,7 @@
 aliases: [Epistemic Trespassing, Expert Authority, HiPPO Effect, Positional Authority]
 conformant: false
 created: 2025-12-17T00:00:00+00:00
-modified: 2026-08-13T10:53:40+00:00
+modified: 2026-08-29T09:36:34+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-authority-competence-asymmetry
 tags: [authority, bias, decision-making, leadership, social-dynamics, team-dynamics]

@@ -2,7 +2,7 @@
 aliases: [Balancing Family Needs]
 conformant: true
 created: 2025-11-10T10:19:00+00:00
-modified: 2026-08-13T10:56:47+00:00
+modified: 2026-08-29T09:35:56+00:00
 permalink: llmeon/30-library/100-zettelkasten/a-healthy-family-balances-the-needs-of-children-with-the-needs-of-the-spousal-relationship
 tags: [boundaries, family, needs, parenting, relationship]
 title: A Healthy Family Balances the Needs of Children with the Needs of the Spousal Relationship

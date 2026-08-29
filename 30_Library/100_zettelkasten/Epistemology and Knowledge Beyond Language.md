@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-31T16:08:27+00:00
 last_reviewed: 'null'
-modified: 2026-08-13T10:56:52+00:00
+modified: 2026-08-29T09:36:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/epistemology-and-knowledge-beyond-language
 status: 'null'
 tags: [epistemology, knowledge, non-linguistic-knowledge, topic/philosophy]

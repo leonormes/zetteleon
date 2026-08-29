@@ -4,7 +4,7 @@ axiom: true
 conformant: false
 created: 2026-04-06T17:00:00+00:00
 last-synthesis: 2026-04-06
-modified: 2026-08-13T10:53:46+00:00
+modified: 2026-08-29T09:36:39+00:00
 non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/so-t/so-t-llm-semantic-statistical-mismatch
 see_also: []

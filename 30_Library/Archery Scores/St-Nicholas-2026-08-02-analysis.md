@@ -1,6 +1,6 @@
 ---
 created: 2026-08-02T16:29:46+00:00
-modified: 2026-08-13T10:53:34+00:00
+modified: 2026-08-29T09:36:28+00:00
 permalink: llmeon/30-library/archery-scores/st-nicholas-2026-08-02-analysis
 title: St-Nicholas-2026-08-02-analysis
 type: note

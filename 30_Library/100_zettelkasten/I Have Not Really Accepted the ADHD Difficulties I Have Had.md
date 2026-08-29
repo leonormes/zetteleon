@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-04-09T12:44:13+00:00
 last_reviewed: ''
-modified: 2026-08-13T10:56:54+00:00
+modified: 2026-08-29T09:36:01+00:00
 permalink: llmeon/30-library/100-zettelkasten/i-have-not-really-accepted-the-adhd-difficulties-i-have-had
 status: ''
 tags: [TheHuman/Health/ADHD]

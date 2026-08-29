@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-22T00:00:00+00:00
-modified: 2026-08-28T08:37:33+00:00
+modified: 2026-08-29T09:35:57+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-practice-drills
 tags: [archery, practice, prodos/atomic, training]
 title: Archery Practice Drills
@@ -50,6 +50,13 @@ When breaking down your technique, divide your training into two distinct areas:
 
 - Strength (The Gym): Foundational physical conditioning is required to execute proper form. This includes core circuits, shoulder pre-hab exercises, and wrist-strengthening circuits.
 - Skill (The Drills): Use manageable tools (like stretch bands, shot trainers, and very lightweight bows) to build muscle memory without the fatigue of a heavy bow.
+
+### Draw Weight Considerations for Beginners & Youth
+
+When building initial muscle memory, prioritizing form over pulling heavier weights is essential.
+
+- Ideal Weight Range: For a beginner or youth archer (e.g., Year 9), a highly manageable draw weight between 15 lbs and 25 lbs is usually ideal.
+- The Smoothness Test: The archer must be able to draw the bow smoothly without any shaking or violent jerking motions. If they are shaking, the bow is too heavy and will force them to compromise their skeletal structure to muscle the string back, preventing the development of rock-solid muscle memory.
 
 ### The Foundation: Grouping Over Scoring
 
@@ -185,18 +192,28 @@ _(Note: This is a diagnostic drill detailed in the [[Archery Shot Process - Foll
 - 4. Rear Delt Row (Isolated Posterior Shoulder): A modified row targeting the back of the shoulder without over-involving large latissimus muscles. Stand with both feet on the center of the band holding loops, hinge hips to about a 45-degree angle with a flat back and belly button pushed out. Drive elbows up and back in line with clothing seams; pull from the elbows rather than hands without chicken-winging outward.
 - 5. The "Y" Raise (Scapular Retraction & Upward Mobility): Hold band slightly wider than shoulder width with wrists turned outward at a 45-degree angle. Begin by "squeezing the orange" (pinching shoulder blades tightly together), then raise arms upward and outward into a "Y" shape behind the head, returning along the exact same path. Can also be varied overhead with short pull-aparts or pulling down to the chest to involve lats and rhomboids.
 
-#### 14. Focus on Process, Not the External Result
+#### 14. The Straight-Arm Side Plank (Structural Alignment Drill)
+
+- The Goal: Understand proper bone-to-bone alignment and feel what true skeletal stability feels like without relying on muscle isolation.
+- How to do it: Perform a standard side plank, but with a straight, fully extended arm rather than resting on your elbow. Because this puts more than double your bow's draw weight onto your shoulder joint, you will immediately feel that immense stability comes from stacking your skeletal structure, not from isolating and flexing muscles.
+
+#### 15. Shirtless Scapula Audit
+
+- The Goal: Visually verify that the bow arm scapula is not incorrectly retracting or collapsing toward the spine during the draw cycle.
+- How to do it: Film yourself drawing the bow from an overhead angle or directly from behind without a shirt on. Watch the footage to ensure the front of your chest maintains its structural space and the bow arm scapula does not squeeze backward.
+
+#### 16. Focus on Process, Not the External Result
 
 - The Goal: Prevent target fixation from distracting you from body mechanics.
 - How to do it: Shift your mindset to focus on execution and yourself rather than the external target. Because you cannot control the arrow once it leaves the bow, your complete mental focus should remain on executing your internal progression (setting the aim, drawing, anchoring, building back tension, and expanding). If you execute each step perfectly, accuracy becomes the natural outcome.
 
-#### 15. The Arrow Aiming Experiment (Floating Demonstration)
+#### 17. The Arrow Aiming Experiment (Floating Demonstration)
 
 - The Goal: Physically demonstrate how over-aiming degrades accuracy and causes target panic, proving that you must "accept the float."
 - How to do it: Without a bow, hold a single arrow upside down by the point at arm's length. First, look directly at a small target spot and simply watch the spot while letting the arrow point float naturally in your peripheral vision (Passive Floating Test). Then, look at the same spot and try to hold the arrow point as rock-solid still as physically possible (Forced Aiming Test).
 - The Result: You will immediately notice that consciously trying to force the point to hold still causes it to wobble faster and more erratically, raising physical tension. Letting it float naturally produces a much steadier, relaxed aim.
 
-#### 16. Quality Over Quantity (The Anti-Rush Strategy)
+#### 18. Quality Over Quantity (The Anti-Rush Strategy)
 
 - The Goal: Prevent the degradation of form that comes from rushing shots and mindlessly slinging arrows.
 - The Problem: Archers often rush to shoot more arrows, but this skips vital steps in the shot process and builds poor habits. Shooting 30 good, thoughtful, well-executed arrows teaches infinitely more than mindlessly slinging 300 bad arrows.

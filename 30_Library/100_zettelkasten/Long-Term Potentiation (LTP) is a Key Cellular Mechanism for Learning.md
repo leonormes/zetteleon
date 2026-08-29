@@ -2,7 +2,7 @@
 aliases: [LTP]
 conformant: false
 created: 2025-11-10T16:17:00+00:00
-modified: 2026-08-13T10:56:55+00:00
+modified: 2026-08-29T09:36:02+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/long-term-potentiation-ltp-is-a-key-cellular-mechanism-for-learning
 tags: [learning, memory, synapses, TheHuman/Neuroscience]

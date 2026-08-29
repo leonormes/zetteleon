@@ -1,6 +1,6 @@
 ---
 created: 2026-07-28T10:24:46+00:00
-modified: 2026-08-13T10:56:48+00:00
+modified: 2026-08-29T09:35:57+00:00
 permalink: llmeon/30-library/100-zettelkasten/ai-generated-prototype-variations-reveal-requirements-nuances-before-implementation
 title: AI-Generated Prototype Variations Reveal Requirements Nuances Before Implementation
 ---

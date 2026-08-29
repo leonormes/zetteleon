@@ -1,6 +1,6 @@
 ---
 created: 2026-05-04T08:01:26+00:00
-modified: 2026-08-13T10:53:28+00:00
+modified: 2026-08-29T09:36:22+00:00
 permalink: llmeon/30-library/200-projects/to-assess-how-consistently-bessies-teachers-are-implementing-her-support-drawing-on-her-individ
 project_name: Bessie
 tags: [bessie]

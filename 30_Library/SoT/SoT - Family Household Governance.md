@@ -2,7 +2,7 @@
 aliases: [Earned Access Protocol, Family Chores Framework, Family Maintenance SOPs, Household System, Parental Alignment Contract]
 conformant: true
 created: 2025-12-26T12:00:00+00:00
-modified: 2026-08-13T10:53:44+00:00
+modified: 2026-08-29T09:36:36+00:00
 permalink: llmeon/30-library/so-t/so-t-family-household-governance
 tags: [chores, family, governance, sops, systems]
 title: SoT - Family Household Governance

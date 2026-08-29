@@ -1,7 +1,7 @@
 ---
 conformant: true
 created: 2026-07-20T16:28:00+00:00
-modified: 2026-08-13T10:53:23+00:00
+modified: 2026-08-29T09:36:17+00:00
 permalink: llmeon/30-library/200-projects/family-chores-everyones-guide
 status: ongoing
 tags: [chores, family, guide]

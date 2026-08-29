@@ -2,7 +2,7 @@
 conformant: true
 created: 2026-04-10T12:00:00+00:00
 epistemic_status: high
-modified: 2026-08-13T10:56:54+00:00
+modified: 2026-08-29T09:36:02+00:00
 permalink: llmeon/30-library/100-zettelkasten/implicit-multi-agent-coordination-via-shared-file-system
 prodos.kind: atomic
 prodos.lifecycle: stable

@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-08-24T00:00:00+01:00
+modified: 2026-08-29T09:35:57+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-anchor
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Anchor
@@ -26,6 +26,8 @@ Anchor is the final reference for the full draw position and the point of maxima
 
 ### Why It Works
 
+- The "Rear Sight": Your anchor point acts as your rear sight. If your head position or anchor shifts by even a few millimetres, arrow impact will scatter significantly downrange (this is a leading cause of vertical spread).
+- A fixed, pre-set head position ensures the string touches exact reference points, guaranteeing the bow remains perfectly vertical to prevent left or right misses. When analyzing form on video, your head should remain perfectly still against a vertical reference line.
 - Pressing past soft skin to establish bone-to-bone contact provides an unyielding, repeatable reference point.
 - Reaching true full draw provides a distinct feeling of structural readiness, enabling clean execution.
 - Establishing an identical full-draw position ensures the distance required to pull through the clicker remains repeatable.
@@ -105,7 +107,7 @@ Anchor is the final reference for the full draw position and the point of maxima
 - Archery | Rushed Shot Processes - Slow Down! (NUSensei)
 - Face Contact Matters! See Why And Learn How To Fix It! (Coach Michael)
 
-See also: [[Archery Shot Process - Finger Tab Selection & Maintenance]] — an oversized base plate can prevent the hand sitting flush against the jaw, degrading anchor depth and the string picture.
+See also: [[Archery Shot Process - Finger Tab Selection & Maintenance]]—an oversized base plate can prevent the hand sitting flush against the jaw, degrading anchor depth and the string picture.
 
 ---
 

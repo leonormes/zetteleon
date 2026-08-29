@@ -1,7 +1,7 @@
 ---
 aliases: [Reflection Layer, Writing to Learn]
 created: 2025-12-04T12:23:40+00:00
-modified: 2026-08-13T10:53:28+00:00
+modified: 2026-08-29T09:36:22+00:00
 permalink: llmeon/30-library/200-projects/stage-3-understand-the-writing-to-learn-layer
 project_category: prodos
 project_name: ProdOS

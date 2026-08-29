@@ -3,7 +3,7 @@ aliases: []
 created: 2025-11-01T11:22:13+00:00
 criteria: ''
 exclusions: ''
-modified: 2026-08-13T10:53:37+00:00
+modified: 2026-08-29T09:36:31+00:00
 permalink: llmeon/30-library/mo-c/moc-what-is-maths
 scope: ''
 tags: [foundations, TheHuman/Philosophy, topic/maths]

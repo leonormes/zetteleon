@@ -2,7 +2,7 @@
 aliases: [AuthN Standards, Modern Auth Protocols, OAuth and OIDC]
 conformant: false
 created: 2025-12-25T13:00:00+00:00
-modified: 2026-08-13T10:53:46+00:00
+modified: 2026-08-29T09:36:40+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-modern-authentication-standards
 tags: [authentication, oauth, oidc, SoftwareEngineering/Security, standards]

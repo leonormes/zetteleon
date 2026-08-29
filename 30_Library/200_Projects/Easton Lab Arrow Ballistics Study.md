@@ -1,6 +1,6 @@
 ---
 created: 2026-08-27T09:42:15+00:00
-modified: 2026-08-27T09:44:03+00:00
+modified: 2026-08-29T09:36:11+00:00
 permalink: llmeon/00-inbox/easton-lab-arrow-ballistics-study
 title: Easton Lab Arrow Ballistics Study
 type: note

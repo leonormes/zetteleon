@@ -1,16 +1,12 @@
 ---
-created: 2026-07-28 00:00:00+00:00
+created: 2026-07-28T00:00:00+00:00
 epistemic_status: medium
-modified: 2026-08-18 06:27:32+00:00
-tags:
-- domain/llm
-- topic/agent-architecture
-- topic/cost-optimization
-- topic/human-oversight
-title: Token Smarter Concentrates Human Oversight at Architectural Leverage Points
+modified: 2026-08-29T09:36:07+00:00
+permalink: llmeon/30-library/100-zettelkasten/token-smarter-concentrates-human-oversight-at-architectural-leverage-points-while-tiering-models-by-task
+tags: [domain/llm, topic/agent-architecture, topic/cost-optimization, topic/human-oversight]
+title: Token Smarter Concentrates Human Oversight at Architectural Leverage Points While Tiering Models by Task
   While Tiering Models by Task
 type: claim
-permalink: llmeon/30-library/100-zettelkasten/token-smarter-concentrates-human-oversight-at-architectural-leverage-points-while-tiering-models-by-task
 ---
 
 ## Token Smarter Concentrates Human Oversight at Architectural Leverage Points While Tiering Models by Task

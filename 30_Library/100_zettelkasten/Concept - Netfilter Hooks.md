@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-11-22T15:00:09+00:00
-modified: 2026-08-13T10:56:51+00:00
+modified: 2026-08-29T09:35:59+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/concept-netfilter-hooks
 tags: [SoftwareEngineering/networking/kernel]

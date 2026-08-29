@@ -1,7 +1,7 @@
 ---
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: medium
-modified: 2026-08-13T10:56:48+00:00
+modified: 2026-08-29T09:35:57+00:00
 permalink: llmeon/30-library/100-zettelkasten/ai-synthesized-requirements-precede-code-generation-in-a-redesigned-sdlc
 proposition: Applying AI to the Requirements and Design stages of the SDLC — synthesizing
   unstructured stakeholder data (surveys, emails, bug reports, logs) into actionable
