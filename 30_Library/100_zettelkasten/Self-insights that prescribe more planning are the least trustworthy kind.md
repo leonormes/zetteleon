@@ -24,7 +24,7 @@ tags:
 - topic/executive-function
 title: Self-insights that prescribe more planning are the least trustworthy kind
 type: claim
-permalink: llmeon/30-library/100-zettelkasten/self-insights-that-prescribe-more-planning-are-the-least-trustworthy-kind
+permalink: llmeon/30-library/100-zettelkasten/self-insights-that-prescribe-more-planning-are-the-least-trustworthy-kind-1
 ---
 
 ## The pattern
@@ -104,4 +104,26 @@ Practically: the insight goes in the vault. The next physical action goes in Tod
 - `evidence_links` is empty. This claim currently rests on a single well-observed episode plus a recognised historical pattern. It has not been tested prospectively.
 - Unresolved: whether the underlying GTD problem is context-*loading* (cognitive tax, removable by trusting prior planning) or context-*reward* (closures feel flat, not under voluntary control). The two make different predictions and only the second would require abandoning horizontal execution.
 - Untested: whether a deliberately horizontal session — well-formed tasks, several projects, hard rule of read-and-act with no reconstruction — flows or stalls. That experiment settles the above and has not been run.
-- No typed edges added. Adding them requires the pre-task graph-state check in `AGENTS.md` §9.2, which was not run.
+- Typed edges added 2026-08-29 after the `AGENTS.md` §9.2 pre-task audit (139 gaps, 5 axioms, 12 contradictions, 2 live tensions, 4 cycles at time of write).
+
+## Scope Boundary
+
+Recorded 2026-08-29 as a tension against [[SoT - Processing IS the Work]]; it dissolves on inspection. The two notes are not in conflict because they are not about the same domain.
+
+**[[SoT - Processing IS the Work]] governs PKM and learning.** There the deliverable is understanding, and the cognitive engagement is itself the product. Reviewing, linking and synthesising cannot be delegated to a machine without forfeiting the thing they exist to produce: if the machine does the linking and the writing, nothing is learned. Friction is the mechanism, not a cost.
+
+**This claim governs GTD and task execution.** There the deliverable is a physical action outside the vault, usually with an external deadline. Additional thinking does not produce it and displaces it.
+
+They only appear to conflict because both concern thinking. They concern thinking directed at different products. No edge is warranted in either direction, and the earlier "where the deliverable lives" framing was too weak — it implied one spectrum with two ends, when in fact these are two separate domains with no overlap.
+
+Kept rather than deleted because the same false conflict will recur: any note recommending more cognitive engagement will surface against any note warning about cognitive engagement, and the resolution each time is to ask which domain is in scope.
+
+Related but genuinely open: [[Eufriction - Productive Friction Strengthens Thinking]] sits on the learning side of this boundary and has not been tested against the execution side.
+
+## Knowledge Graph
+
+%%[extends:: [[Claim - Analysing One's Own Avoidance Can Itself Be an Instance of the Avoidance It Describes]], strength=4, confidence=medium]%%
+
+%%[supports:: [[The Trap of the Architect Is Sophisticated System-Building Substituting for Physical Action]], strength=4, confidence=high]%%
+
+%%[extends:: [[ADHD Overthinking is a Substitute for Action]], strength=3, confidence=medium]%%
