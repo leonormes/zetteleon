@@ -124,6 +124,12 @@ Only attribute *names* were enumerated; no values read.
 
 ---
 
+### 7. The `-platform` workspaces bootstrap ArgoCD, not just Helm
+
+Several customers have a second workspace alongside their infra one — `nnuh-prod-1-platform`, `mkuh-prd-4-platform`, `cuh-prod-1-platform`, `hie-prod-34-platform` — all `never-run` per the TFC API despite holding 46–53 resources each. These are the ArgoCD-bootstrap layer: Terraform installs ArgoCD into the customer's cluster via the `terraform-argo-argocd` module, seeded with the same `deployment.git` app-of-apps that staging and production use, tracking a customer-specific tag. Confirmed directly with the platform owner — see [[FITFILE Audit - AKS and ArgoCD Topology]] §2 for the full mechanism. LCA and MCNFT have no matching `-platform` workspace in the enumerated 54; not established whether they bootstrap differently or the platform layer sits inside their main workspace.
+
+---
+
 ### Related
 
 - [[FITFILE Delivery Pipeline Audit 2026-08-27]] — hub

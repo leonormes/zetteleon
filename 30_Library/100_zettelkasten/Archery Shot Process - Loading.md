@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-07-28T11:14:00+01:00
+modified: 2026-08-29T08:43:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-loading
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Loading
@@ -36,7 +36,8 @@ Loading is the act of drawing the bow using the scapular retractors and shoulder
 
 - Collapsing Draw Elbow: At no point should the draw elbow collapse or be pulled forward toward the target. This ruins alignment.
 - The "Hand Only" Draw Illusion: A common mistake is closing the gap purely with your hand while your elbow remains stagnant and stops moving backward.
-- Kinking the Wrist: Bending your wrist inward prevents force from transferring cleanly through your scapula and back muscles.
+- Kinking the Wrist: Bending your wrist inward (a collapsed or "broken" wrist) forces your elbow to point in the wrong direction, preventing force from transferring cleanly through your scapula and back muscles. To fix this, maintain a "high wrist" (shaped similar to an eagle's claw), which naturally guides your elbow to rotate back and around behind you.
+- Lack of Physical Flexibility: If your chest and shoulders lack flexibility, you physically cannot get your elbow in line to reach proper back tension. Test this by laying flat on your back; if your elbows cannot touch the floor, you need to stretch (e.g., on a bench) to improve mobility.
 - The Proprioception Trap: Actively thinking about flexing specific back muscles often causes unwanted tension in the upper traps and a failure to expand through the shot. Focus on the overall direction of physical movement instead.
 - Loading Too Low: Do not load more than an inch below the jaw, as rising up into anchor from too low causes a loss of back tension.
 - Fighting the Target: Do not fight or rigidly hold the point on the target during the draw movement. Simply refine the sight picture once at full draw.
@@ -107,6 +108,18 @@ Loading is the act of drawing the bow using the scapular retractors and shoulder
 - How to do it:
   1. Perform Band Pull Aparts by pulling a resistance band horizontally.
   2. Perform Rear Delt Rows by standing on a resistance band and driving elbows up and back.
+
+#### Push/Pull Skeletal Alignment Test
+
+- Purpose: Objectively tests if you have achieved proper skeletal alignment to support the bow weight.
+- How to do it:
+  1. Simulate your full draw position (without a bow).
+  2. Have a training partner push inward on your bow arm while pulling backward on your draw arm.
+  3. If your arms fold inward easily, your alignment is incorrect. If you stay locked solidly in place, your skeletal alignment is properly supporting the weight.
+
+### References
+
+- [WHY YOU CANNOT GET BACK TENSION (Shatterproof Archery)](https://youtu.be/cEP55W2E6v8)
 
 ---
 

@@ -215,6 +215,8 @@ InsightFILE also pushes build cache with `--cache-to type=registry,mode=max`, pu
 
 No ArgoCD Application pins an immutable revision. Staging tracks `master`, production tracks the movable tag `latest-release`, one app tracks `HEAD`, and Helm sources use floating ranges `2.0.*` and `0.45.*`. Combined with force-push on `master` (S-09), no revision reliably reconstructs a past deployment. [[FTFL-512_CICD_Incident_Report]] reached the same conclusion independently.
 
+This is not a two-environment problem. Every customer tenant runs its own ArgoCD instance, bootstrapped by Terraform, tracking the same `deployment.git` app-of-apps at a customer-specific tag (see [[FITFILE Audit - AKS and ArgoCD Topology]] §2) — equally mutable, and multiplying the coordination problem across every customer rather than just staging and production. There is no single place to see which customer is running which version of what.
+
 ---
 
 ### S-14 · Medium · New
@@ -331,7 +333,7 @@ Four separate mechanisms look like controls and enforce nothing: the ACR IP allo
 
 ### Could not be verified with available access
 
-- **Customer-tenant clusters.** NNUH-DP, LCA-DP, MCNFT and mkuh-prd-4 run in customer-owned Azure tenants (`NNUHFT-SDE` sits under tenant `d2a06081-…`). No credential in this environment reaches them, so their ArgoCD apps, Trivy coverage and cluster posture are unassessed. **This is the single largest gap** — it is where NHS patient data actually lives.
+- **Customer-tenant clusters.** NNUH-DP, LCA-DP, MCNFT and mkuh-prd-4 run in customer-owned Azure tenants (`NNUHFT-SDE` sits under tenant `d2a06081-…`), each with its own ArgoCD instance bootstrapped by Terraform (see [[FITFILE Audit - AKS and ArgoCD Topology]] §2). No credential in this environment reaches those tenants, so per-customer sync status, tag drift, Trivy coverage and cluster posture are all unassessed. **This is the single largest gap** — it is where NHS patient data actually lives.
 - **The value of `ACR_SERVICE_PRINCIPLE`.** Masked. The inference that it holds the registry admin username rests on `acr-service-principal` having only Reader on `Fitfileregistry` while pushes succeed. Someone with variable read access should confirm — it determines whether disabling admin user is a one-line change or a pipeline migration.
 - **Whether the 24 orphaned principals were AKS kubelets or something else.** Deleted directory objects cannot be resolved retrospectively. Azure Activity Log retention may still cover some.
 - **The five workspaces holding resources with no recorded run.** Whether state was migrated, pushed via API, or runs were pruned is not visible from the workspace API alone.

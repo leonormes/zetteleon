@@ -2,3 +2,11 @@
 {"kind":"session_end","at":"2026-08-26T20:53:28.661246Z"}
 {"kind":"intent","at":"2026-08-27T09:52:06.112321Z","title":"Move claim stubs from Hermes to LLMeon per explicit user override","body":"Moving 5 claim stubs from Hermes proposed-claims to LLMeon 30_Library/100_zettelkasten as Claim notes, rewriting their frontmatter to comply with the ProdOS Frontmatter Contract (ClaimNote schema)."}
 {"kind":"completion","at":"2026-08-27T09:52:42.071926Z","note":"Moved 5 claim stubs from Hermes to LLMeon 30_Library/100_zettelkasten and rewrote frontmatter to comply with ProdOS schemas per user's explicit override."}
+{"kind":"intent","at":"2026-08-28T07:37:33.161448Z","title":"Consolidate Archery Holding SPT video summary into Archery Practice Drills","body":"Mapping Jake Kaminski's SPT video notes into Archery Practice Drills.md. Adding mirror usage, warm-up routines, workload equivalents, and finger protection details to the existing SPT section."}
+{"kind":"completion","at":"2026-08-28T07:46:13.618219Z","note":"Updated Archery Practice Drills.md with Jake Kaminski's SPT conditioning video notes"}
+{"kind":"intent","at":"2026-08-28T09:42:14.127523Z","title":"Modify mcp-tools-istefox config","body":"Change indexingMode from 'live' to 'low-power' to prevent fs.stat crashes on edit"}
+{"kind":"completion","at":"2026-08-28T09:42:17.698889Z","note":"Modified indexingMode to 'low-power' to prevent crashing"}
+{"kind":"intent","at":"2026-08-28T09:49:26.906924Z","title":"Clear mcp-tools-istefox embeddings cache","body":"Delete corrupted embeddings directory that was causing fs.stat crashes on edit"}
+{"kind":"completion","at":"2026-08-28T09:49:30.461086Z","note":"Deleted embeddings cache in both vaults to prevent crashes"}
+{"kind":"intent","at":"2026-08-28T10:03:27.207827Z","title":"Remove mcp-tools-istefox completely","body":"Removed the plugin from LLMeon and Hermes vaults to start from a clean slate as requested"}
+{"kind":"completion","at":"2026-08-28T10:03:32.705127Z","note":"Removed mcp-tools-istefox from both vaults"}

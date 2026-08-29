@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-22T00:00:00+00:00
-modified: 2026-08-13T10:56:49+00:00
+modified: 2026-08-28T08:37:33+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-practice-drills
 tags: [archery, practice, prodos/atomic, training]
 title: Archery Practice Drills
@@ -163,12 +163,16 @@ _(Note: This is a diagnostic drill detailed in the [[Archery Shot Process - Foll
   - Rest & Volume: Rest for exactly 30 seconds between repetitions. Perform 30 repetitions total (taking exactly 30 minutes), aiming for 3 days per week.
   - Drop Bow Weight If Needed: If you cannot hold your current bow back for 30 seconds, it is too heavy for this routine. Temporarily drop your poundage to complete sets with proper structure and back tension rather than fighting the draw weight.
   - Scapula Engagement Split: Perform the first 15 sets using your standard finger tab. For the final 15 sets (as your forearms fatigue), attach a shot trainer or formaster device that pulls directly from your elbow. This forces your body to lead with the draw elbow and properly engage the scapula retractors in your upper back.
-- The 20:40 SPT (Specific Physical Training) Routine: A foundational archery fitness drill designed to build posture, skeletal alignment, and muscular endurance at full draw.
-  - Work-to-Rest Ratio: Perform 20 seconds of static hold at full draw followed by 40 seconds of rest, for 10 repetitions total (approx. 10 minutes).
+- The SPT (Specific Physical Training) Routine: A foundational archery fitness drill designed to build immense archery-specific strength, posture, skeletal alignment, and muscular endurance at full draw without the need for a target.
+  - Equipment Needed: Your normal bow, a thick finger tab (or athletic wrap) to protect fingers during long holds, a full-length mirror, and an interval timer.
+  - Mandatory Warm-Up: You absolutely must warm up before attempting SPT. Use forward/backward arm circles, cross-body stretches, and a broomstick (or stretch band) for pass-overs to break up fascial adhesions and get blood flowing to the shoulders.
+  - Work-to-Rest Ratio: Hold at full draw for 15 to 30 seconds, followed by a resting period that is exactly double your hold time (e.g., 20 seconds on, 40 seconds off). A typical session is 15 minutes.
+  - Execution & Focus Points: Draw the bow and hit all normal shot process steps (setup, load, anchor, transfer). Continuously check your form in the full-length mirror to ensure your shoulder stays down, your elbow is correctly positioned behind the string, and you aren't leaning back or arching your spine. Maintain back tension and push/pull balance throughout the hold.
   - Strict Technique First: Execute every single second with correct form. If fatigue causes posture or alignment to break down at any point, do not muscle through it—let down immediately and reset for the next set, as muscling through bad form reinforces poor muscle memory.
+  - Workload Equivalent: SPT is grueling. 15 minutes of this interval routine provides the muscular workload equivalent to shooting roughly 50 arrows. A full hour roughly equals 200 to 300 arrows.
   - Load Selection: You can use your main bow setup, a lighter set of limbs, or a dedicated bow trainer. Using a lighter setup allows you to focus strictly on alignment without fighting draw weight.
   - Neuromuscular Efficiency & Accessibility: Sustaining longer holds teaches your nervous system which muscles require active tension and which can remain relaxed. Can be practiced anywhere (home, on the range, or in a hotel room).
-  - The 7-Day Challenge: Perform this 10-minute 20:40 SPT routine every day for 7 consecutive days to rapidly build holding strength and increase shot stability.
+  - The 7-Day Challenge: Perform a 10-minute 20:40 SPT routine every day for 7 consecutive days to rapidly build holding strength and increase shot stability.
 - Supplement: Use spring-loaded hand exercisers to build finger and grip strength, which helps lock in a straight connection through your draw hand and wrist.
 
 #### 13. Resistance Band Shoulder & Girdle Conditioning (The 5-Exercise Circuit)
@@ -200,4 +204,4 @@ _(Note: This is a diagnostic drill detailed in the [[Archery Shot Process - Foll
 
 ---
 
-- Reference: Insights compiled from Kramer Ammons ("9 Archery Drills To Hack The Mind"), MFJJ (ElkShape) blind baling and homework routines, Rogue Archery TV ("feelings", mastery framework, and "20:40 SPT | Guided Bow Fitness Drill"), CatholicHack's Traditional Archery (3D hyper-focus trick), Online Archery Academy (bow fitness, 30-minute static hold routine, training plans, 600+ score benchmarks), Matt Hartsky (5-exercise resistance band shoulder conditioning circuit), Clay Hayes (process over result), Jake Kaminski (aiming experiments, movements vs. muscles, and co-contraction prevention), The Push Archery (Solid Archery Mechanics: An Excerpt - motor learning, verbal cues), NUSensei (Archery | Rushed Shot Processes - Slow Down!), and generalized target panic/practice philosophy guidelines.
+- Reference: Insights compiled from Kramer Ammons ("9 Archery Drills To Hack The Mind"), MFJJ (ElkShape) blind baling and homework routines, Rogue Archery TV ("feelings", mastery framework, and "20:40 SPT | Guided Bow Fitness Drill"), CatholicHack's Traditional Archery (3D hyper-focus trick), Online Archery Academy (bow fitness, 30-minute static hold routine, training plans, 600+ score benchmarks), Matt Hartsky (5-exercise resistance band shoulder conditioning circuit), Clay Hayes (process over result), Jake Kaminski (aiming experiments, movements vs. muscles, co-contraction prevention, and "Archery Holding SPT" conditioning), The Push Archery (Solid Archery Mechanics: An Excerpt - motor learning, verbal cues), NUSensei (Archery | Rushed Shot Processes - Slow Down!), and generalized target panic/practice philosophy guidelines.
