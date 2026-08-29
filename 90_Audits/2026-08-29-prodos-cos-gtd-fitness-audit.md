@@ -1,13 +1,21 @@
 ---
 conformant: true
 created: 2026-08-28T23:00:00+00:00
-modified: 2026-08-29T10:43:26+00:00
+modified: 2026-08-29T10:49:50+00:00
 non_conformance_reason: ''
 permalink: llmeon/90-audits/2026-08-29-prodos-cos-gtd-fitness-audit
 tags: [1, adhd, audit, cos, executive-function, gtd, prodos]
 title: 2026-08-29-prodos-cos-gtd-fitness-audit
 type: note
 ---
+> [!warning] Superseded in part — see [[2026-08-29-execution-vs-thinking-boundary]]
+> This audit treats ProdOS as one system. It is two: an **execution** system (GTD, CoS, EF prosthetic) and a **thinking** system (PKM, Zettelkasten, synthesis). Two findings below are miscategorised as a result:
+>
+> - **§4 (journal collapse)** is not ProdOS degrading. It is the execution system winning a substrate it shares with the thinking system. Nothing malfunctioned.
+> - **§7** scores "Daily dump / Thinking Stream" as a failed EF-prosthetic component. It belongs to the other system and should not be judged by prosthetic criteria.
+>
+> The behavioural findings in §3 (bulk dismissal, On Stop, the anti-pattern) are execution-side and stand unchanged.
+
 
 ## ProdOS CoS & GTD—Fitness Audit Against Evidenced Need
 
@@ -31,15 +39,15 @@ Confidence: high on the behavioural findings (§3, §5—direct Todoist/journal/
 
 Filtered to notes where you write in first person about your own experience, not general ADHD literature.
 
-| # | Difficulty | Your words | Source |
-|---|---|---|---|
-| 1 | Continuity / project return | "I always want to start again… When I come back to it my thoughts are no longer wrapped up in it and it doesn't have that same feeling." | [[My main PKM problem is the continuity of thinking. ]] |
-| 2 | Shame drives the system-building | "my obsession with GTD and Zettelkasten and trying to understand everything is driven by my shame." | [[I have a lot of shame about my life]] |
-| 3 | Non-acceptance of the diagnosis | "I still see it as me being lazy, or incompetent… I am refusing to allow these things to be an excuse." | [[I Have Not Really Accepted the ADHD Difficulties I Have Had]] |
-| 4 | Missing workflow adds friction _on top of_ initiation | "As I don't have one there is extra resistance to capturing and processing on top of my normal ADHD task initiation woes." | [[My main PKM problem is the continuity of thinking. ]] |
-| 5 | Mundane tasks return no dopamine | "I can't do little, detached tasks. So building habits is a bust." | [[MOC - Procrastination Triggers]] |
-| 6 | Disengagement is approach-avoidance, not residue | Lingering in the resolved "green" state to avoid re-entering the dissonant one; plus post-focus fatigue. | [[ProdOS CoS & ADHD Task-Authoring Protocol]] (your correction to the research) |
-| 7 | You have not measured the proportions | "Don't theorise the proportions—measure them." Position dated 2026-05-31, confidence: low. | [[Q — What Am I Actually Struggling With]] |
+| #   | Difficulty                                            | Your words                                                                                                                               | Source                                                                          |
+| --- | ----------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------- |
+| 1   | Continuity / project return                           | "I always want to start again… When I come back to it my thoughts are no longer wrapped up in it and it doesn't have that same feeling." | [[My Main PKM Problem Is the Continuity of Thinking]]                           |
+| 2   | Shame drives the system-building                      | "my obsession with GTD and Zettelkasten and trying to understand everything is driven by my shame."                                      | [[I have a lot of shame about my life]]                                         |
+| 3   | Non-acceptance of the diagnosis                       | "I still see it as me being lazy, or incompetent… I am refusing to allow these things to be an excuse."                                  | [[I Have Not Really Accepted the ADHD Difficulties I Have Had]]                 |
+| 4   | Missing workflow adds friction _on top of_ initiation | "As I don't have one there is extra resistance to capturing and processing on top of my normal ADHD task initiation woes."               | [[My Main PKM Problem Is the Continuity of Thinking]]                           |
+| 5   | Mundane tasks return no dopamine                      | "I can't do little, detached tasks. So building habits is a bust."                                                                       | [[MOC - Procrastination Triggers]]                                              |
+| 6   | Disengagement is approach-avoidance, not residue      | Lingering in the resolved "green" state to avoid re-entering the dissonant one; plus post-focus fatigue.                                 | [[ProdOS CoS & ADHD Task-Authoring Protocol]] (your correction to the research) |
+| 7   | You have not measured the proportions                 | "Don't theorise the proportions—measure them." Position dated 2026-05-31, confidence: low.                                               | [[Q — What Am I Actually Struggling With]]                                      |
 
 ### The Central Divergence
 
@@ -95,7 +103,7 @@ The protocol's §9 immediate next step was: _"test one task this week (FTFL-868)
 
 That test was never run. The task was swept.
 
-### 3.2 "On Stop" hAs nEver bEen fIlled
+### 3.2 "On Stop" Has never been filled
 
 Six of the 62 completions carried a full six-field description and therefore _had_ an On Stop field: FTFL-868, FTFL-619, FTFL-942, the ArgoCD task, and the two drydock tasks of 28 August.
 

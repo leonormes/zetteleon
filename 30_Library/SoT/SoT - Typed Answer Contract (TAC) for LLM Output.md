@@ -1,7 +1,7 @@
 ---
 aliases: [Structured Output Contract, TAC, Typed Answer Contract]
 created: 2026-07-17T00:00:00+00:00
-modified: 2026-08-29T09:36:44+00:00
+modified: 2026-08-29T15:20:16+00:00
 permalink: llmeon/30-library/so-t/so-t-typed-answer-contract-tac-for-llm-output
 see_also: ["[[MOC - AI Software Engineering]]", "[[MVC Enforcement Structural Gates for LLM Agents]]", "[[SoT - Agentic AI Design Patterns]]", "[[SoT - AI Agent Skill Architecture]]", "[[SoT - PRODOS Core Specification]]"]
 tags: [domain/ai, prodos/sot, topic/pkm]

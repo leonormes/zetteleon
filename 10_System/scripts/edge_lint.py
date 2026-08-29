@@ -54,6 +54,7 @@ VOCABULARY = {
     "contradicts",
     "supports",
     "depends_on",
+    "revises",
 }
 CONFIDENCE_VALUES = {"high", "medium", "low"}
 STRENGTH_MIN, STRENGTH_MAX = 1, 5

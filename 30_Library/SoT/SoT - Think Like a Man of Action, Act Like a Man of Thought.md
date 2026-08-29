@@ -2,7 +2,7 @@
 aliases: ["Bergson's Principle", Action-Oriented Thinking, MVA]
 conformant: false
 created: 2025-12-07T00:00:00+00:00
-modified: 2026-08-29T09:36:44+00:00
+modified: 2026-08-29T15:00:09+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-think-like-a-man-of-action-act-like-a-man-of-thought
 tags: [action, adhd, thinking, topic/productivity]

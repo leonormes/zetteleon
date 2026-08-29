@@ -2,7 +2,7 @@
 aliases: [Edge Syntax, Edge Vocabulary, Knowledge Graph Relations, Typed Edges]
 conformant: true
 created: 2026-07-24T00:00:00+00:00
-modified: 2026-08-29T09:36:44+00:00
+modified: 2026-08-29T15:17:25+00:00
 permalink: llmeon/30-library/so-t/so-t-typed-edge-vocabulary-knowledge-graph-relations
 see_also: ["[[Protocol - Typed Answer Contract (TAC) for Vault Agents]]", "[[SoT - PRODOS Core Specification]]", "[[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]"]
 tags: [domain/pkm, prodos/sot, topic/knowledge-architecture, topic/knowledge-graph]
@@ -41,14 +41,15 @@ One edge per marker. Multiple edges from the same block = multiple markers, one 
 
 Direction is always source → target, read "_source `relationship` target_".
 
-| Relationship | Meaning (source → target) | Overlaps existing field |
-|:---|:---|:---|
-| `extends` | Source builds on / specialises the target. |—|
-| `synthesizes` | Source combines several targets into a higher-order idea. |—|
-| `implements` | Source is a concrete realisation of an abstract target. |—|
-| `contradicts` | Source conflicts with / negates the target. | Claim `contradicts` |
-| `supports` | Source provides evidence or argument _for_ the target. | Evidence `supports_claims` |
-| `depends_on` | Source requires the target to make sense or function. |—|
+| Relationship  | Meaning (source → target)                                 | Overlaps existing field    |
+| :------------ | :-------------------------------------------------------- | :------------------------- |
+| `extends`     | Source builds on / specialises the target.                | —                          |
+| `synthesizes` | Source combines several targets into a higher-order idea. | —                          |
+| `implements`  | Source is a concrete realisation of an abstract target.   | —                          |
+| `contradicts` | Source conflicts with / negates the target.               | Claim `contradicts`        |
+| `supports`    | Source provides evidence or argument _for_ the target.    | Evidence `supports_claims` |
+| `depends_on`  | Source requires the target to make sense or function.     | —                          |
+| `revises`     | Points to an older revision of an idea                    |                            |
 
 Rules: the list is closed—an unknown relationship is a compiler error, not a silent pass (structure over discipline). To add a type, edit this table; that is the only sanctioned route. Where an edge duplicates a frontmatter relation already required by a note's fileClass (e.g. a `claim` note's `contradicts`), prefer the frontmatter field for note→note and reserve the inline edge for block→block or block→note precision.
 
