@@ -37,3 +37,7 @@
 {"kind":"completion","at":"2026-08-29T10:03:18.93144Z","note":"Moved horizontal vs vertical execution note and added edges based on vault ingest router logic"}
 {"kind":"intent","at":"2026-08-29T10:12:32.130219Z","title":"Make typed edges visible in ADHD Execution note","body":"Reformatting the %% typed edges into visible bullet points with annotations so they render in Obsidian's reading mode, while keeping the compiler tags intact."}
 {"kind":"completion","at":"2026-08-29T10:12:44.689585Z","note":"Made typed edges visible in the ADHD Execution note"}
+{"kind":"intent","at":"2026-08-29T15:31:02.721284Z","title":"Note Refresh \u0026 Link Auditor","body":"Fixing broken links, backfilling frontmatter, and applying typed edges on MOC - Procrastination Triggers.md"}
+{"kind":"completion","at":"2026-08-29T15:31:41.64558Z","note":"Note Refresh \u0026 Link Auditor on MOC - Procrastination Triggers"}
+{"kind":"intent","at":"2026-08-29T15:37:30.067204Z","title":"Note Refresh \u0026 Link Auditor","body":"Fixing broken links and updating edges for I am enslaved to the work of zetteling.md"}
+{"kind":"completion","at":"2026-08-29T15:39:30.724826Z","note":"Completed Link Audit for I am enslaved to the work of zetteling.md"}
