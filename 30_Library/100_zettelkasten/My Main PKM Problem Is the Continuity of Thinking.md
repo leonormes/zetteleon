@@ -1,64 +1,58 @@
 ---
 conformant: true
-created: 2026-05-04 08:01:26+00:00
+created: 2026-05-04T08:01:26+00:00
 epistemic_status: high
-modified: 2026-08-29 09:36:03+00:00
+modified: 2026-08-29T16:45:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/my-main-pkm-problem-is-the-continuity-of-thinking.
 prodos.kind: claim
 prodos.lifecycle: stable
-proposition: ADHD disrupts the continuity of thinking in PKM systems because returning
-  to a project lacks the initial novelty-based dopamine reward, prompting a desire
-  to start fresh.
-title: 'My main PKM problem is the continuity of thinking. '
+proposition: "ADHD disrupts the continuity of thinking in PKM systems because returning to a project lacks the initial novelty-based dopamine reward, prompting a desire to start fresh."
+title: 'My Main PKM Problem Is the Continuity of Thinking'
 ---
 
-ADHD causes a problem for me in not being able to return to something I was creating before. I always want to start again. As I make something and my thoughts are wrapped up in it it feels right. I am enjoying it and the mental model i have feels good and strong. It feels unique to me and I can feel the bigger picture, the hierachy of process or the system as a whole. When I come back to it my thoughts are no longer wrapped up in it and it doesn't have that same feeling. And is often too complex to get back to where i was as I have forgotten it. So I start afesh with a revolutionary idea and process.
+## The Continuity Problem
 
-I think that when I'm doing something it feels new and unique but when I return to it it is not new by definition!
+ADHD disrupts the continuity of thinking in PKM systems. When actively engaged in creating a structure or thought process, the brain receives novelty-based dopamine rewards. The mental model feels vibrant, strong, and unique, and the mind easily holds the big picture. 
 
-What you're describing is connected to how ADHD affects our executive functioning and dopamine systems. When you're first engaged in creating something, your brain is getting lots of novelty-based dopamine rewards. The project is new, exciting, and your mind can hold the whole picture because it's actively engaged in creating it. This is why it feels so good and clear in the moment.
+However, returning to the project later introduces severe friction:
+1. **Loss of Novelty:** The project is no longer new, so the dopamine reward is absent.
+2. **Context Collapse:** The active mental context ("creative momentum") that held the complex pieces together has dissipated.
+3. **Task Initiation Resistance:** The cognitive load required to reload the context triggers ADHD task initiation woes.
 
-When you return later, two key things have changed: First, the project is no longer novel, so you're not getting those same dopamine rewards. Second, and perhaps more importantly, you've lost that active mental context - what I call the "creative momentum" - that helped you hold all the pieces together.
+This combination creates a powerful urge to abandon the previous work and start afresh with a new "revolutionary" idea, preventing long-term compounding of thought.
 
-Think of your current creative session as building half a bridge. Before you end your session, you need to build supports that will help you reconstruct that bridge when you return. Here's how:
+## The Friction of Granularity
 
-End-of-session documentation: In the last 10-15 minutes of working, write down:
+A secondary issue is the resistance to atomic note-taking. When in a state of flow, breaking out a new thought into a separate note disrupts the immediate thinking process. The lack of a clear, repeatable workflow for capturing and processing branches of thought creates confusion and paralysis:
+- How do I challenge a draft paragraph without losing the main thread?
+- What is the end goal of clarification?
+- Trying to achieve a "perfect" PKM structure becomes a trap that prevents actual thinking.
 
-- The big picture vision (even if it seems obvious now)
-- Where you were in your thought process
-- The next three small steps you were planning to take
-- Any exciting ideas you haven't implemented yet
+## Strategies for Project Continuation
 
-Create a "restart ritual": When you return to the project, don't try to jump back in where you left off. Instead:
+To combat this, the goal must shift from trying to recreate the initial flow state to building reliable bridges between sessions.
 
-- Read through your documentation
-- Start with one very small, concrete task
-- Give yourself 15 minutes just to tinker and reorient
+### 1. Build Context Bridges (End-of-Session Documentation)
+In the last 10-15 minutes of working, externalize the mental model:
+- The big picture vision
+- The current location in the thought process
+- The next 3 small, concrete steps
+- Unimplemented exciting ideas
 
-Only then decide if you want to continue or if something needs to change
+### 2. Establish a Restart Ritual
+Do not attempt to jump straight back into deep work:
+- Read the documentation bridge.
+- Start with one very small, concrete task (tinkering).
+- Allow 15 minutes for the brain to reorient and load the context.
 
-Allow for evolution
+### 3. Embrace Evolutionary Thinking
+Reframe returning ideas not as competing with the original structure, but as evolving it. Ask: *"How can this new idea enhance what I already built?"* instead of starting over. Abandon perfectionism; a temporary thinking session that improves an idea by 1% is infinitely better than an unused "perfect" PKM.
 
-Instead of seeing your returning ideas as competing with the original, try framing them as evolution. Ask yourself: "How can this new idea enhance what I already built?" rather than "Should I start over?"
+## Related
 
-The key insight here is that you're not actually losing interest in the old project - you're losing access to the mental context that made it feel vibrant and coherent. By creating external supports for that context, you make it easier to rebuild the bridge to your previous work.
-
-[My main pkm problem is the continuity of thinking. How do I find my latest thoughts on the json-l 1.md](My%20main%20pkm%20problem%20is%20the%20continuity%20of%20thinking.%20How%20do%20I%20find%20my%20latest%20thoughts%20on%20the%20json-l%201.md)
-
-I shouldn't worry about all the linking. Just do writing to think. See how it goes. Even as I thinking this my mind is wondering how I can remember find things. I will go over this again at some point. I would like to come back to this very block of wiring and carry on. So this is an incubator block. I will add extra thoughts to it later. If I put it in a note file of its own with the metadata yaml saying incubator and extended mind I know I want to come back to it.
-
-The above block was my ongoing struggle with trying to use writing as thinking. I have over complicated it to 100%. If I simplify it I can at least used temporary thinking sessions. This is better than nothing and so I improve 1%. It might not be the singing and dancing pkm I have been thinking of but I don't use that for anything!
-
-Abandone the perfect. It is hell. It is horrible. It is not real. The things in my head are always better sounding and so I will never match that. This will never work and I will always fail.
-
-I think my thoughts are amazing and I want others to think they are amazing so that they think I'm amazing.
-
-But that is an impossibility with no legs. Even if someone did like what I think their validation would fade away. I have a problem with being told no though. Telling me it's impossible is like saying no. And so I keep trying for it. I don't know when to stop.
-
-What have I learned about networking?
-
-Network namespacing.
-
-## My Real Problem is how Do I Create the Notes and Be Able to Work with the Blocks?
-
-What I mean is currently with obsidian I have a note up and I feel resistance to creating a new note to break out from what I am currently thinking. I want to capture my thought and carry on with the flow of what I was doing. Basically I am confused and it makes it harder to work. If I had a protocol that was set and repeatable I would think less about how and be able to capture thoughts but then process them. For instance, this paragraph has draft thinking in it but how do I extend it and solve it? What does it really say? I imagine being able to take it and hold in centrally while branching off different thoughts and clarifications. Challenge it and make it less vague and more solid and complete. But what even does that mean? I don't have an end game. I say I want to put this in the middle and have branches off it with questions and clarifications but that is endless. Each node off I could do the same thing. What is the end goal? How do I know I have clarified my thinking? Answering this will help me create a workflow. As I don't have one there is extra resistance to capturing and processing on top of my normal ADHD task initiation woes.
+- [[MOC - ADHD Project Continuation Challenge]]—extends: the broader cognitive difficulty of maintaining engagement in long-term projects for ADHD brains. %%[extends:: [[MOC - ADHD Project Continuation Challenge]]]%%
+- [[MOC - Project Continuity]]—synthesizes: aggregated strategies for bridging work sessions. %%[synthesizes:: [[MOC - Project Continuity]]]%%
+- [[SoT - Evolutionary Note System]]—supports: a workflow designed specifically to lower the friction of capturing flow-state thoughts (via HEAD notes) before eventually merging them. %%[supports:: [[SoT - Evolutionary Note System]]]%%
+- [[GTD and the Cognitive Load of Execution]]—depends_on: the cognitive cost of reloading context is a primary barrier to execution. %%[depends_on:: [[GTD and the Cognitive Load of Execution]]]%%
+- [[MOC - Why Task Initiation is Difficult in ADHD]]—extends: the friction of returning to a note is a specific manifestation of task initiation paralysis. %%[extends:: [[MOC - Why Task Initiation is Difficult in ADHD]]]%%
+- [[MOC - PKM as Process vs Product]]—supports: abandoning the "perfect" note structure in favor of writing as a messy process of thinking. %%[supports:: [[MOC - PKM as Process vs Product]]]%%

@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-08-29T09:35:58+00:00
+modified: 2026-08-30T07:41:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-posture
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Posture
@@ -31,6 +31,7 @@ Posture focuses on engaging the core, positioning the hips and torso to transfer
 - Lifting a 7–8 lb bow 30 inches away from your body naturally shifts your center of gravity forward toward the target. Keep your spine stacked completely straight and accept that as you raise the bow, your center of pressure will naturally shift forward over your front foot.
 - The bow side (push) and draw side (pull) must balance equally. Favouring the draw side causes a backward postural tilt towards the rear foot.
 - When shooting a recurve bow, stand completely upright. Because longbows are much taller and have a shallower string angle, tilt your torso slightly forward at the hips to give the string clearance away from your chest.
+- Eliminating "Background Noise": Maintaining a rock-solid, square stance and an engaged core eliminates background physical "noise." This stability isolates your movements, allowing you to accurately evaluate the highly nuanced physical feeling of your release and expansion—an essential prerequisite for self-coaching.
 
 ### Faults & Diagnostics
 

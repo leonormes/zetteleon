@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-22T00:00:00+00:00
-modified: 2026-08-29T09:35:57+00:00
+modified: 2026-08-30T07:41:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-practice-drills
 tags: [archery, practice, prodos/atomic, training]
 title: Archery Practice Drills
@@ -57,6 +57,7 @@ When building initial muscle memory, prioritizing form over pulling heavier weig
 
 - Ideal Weight Range: For a beginner or youth archer (e.g., Year 9), a highly manageable draw weight between 15 lbs and 25 lbs is usually ideal.
 - The Smoothness Test: The archer must be able to draw the bow smoothly without any shaking or violent jerking motions. If they are shaking, the bow is too heavy and will force them to compromise their skeletal structure to muscle the string back, preventing the development of rock-solid muscle memory.
+- Verbal Articulation: Teach younger, developing athletes to verbally articulate *how* the shot felt before they are allowed to check their score. This builds profound physical mindfulness, shifts heavy pressure away from the intimidating target face, and redirects their focus into mastering the physical process for long-term consistency.
 
 ### The Foundation: Grouping Over Scoring
 
@@ -105,6 +106,7 @@ _Note on the Role of Feelings:_ Only use kinesthetic drills to expose yourself t
 - How to do it: Stand 2 to 5 meters away from a large, blank target face (or simply start very close). Remove the fear of missing. Dedicate 100% of your mental focus to a specific physical sensation (e.g., getting your elbow in line, checking your grip) to overwrite flawed default habits without stressing about accuracy.
 - Remove Visual Feedback: Completely remove your sight and peep. This eliminates the visual feedback that typically causes an archer to flinch, punch the trigger, or nervously move their bow arm (target panic).
 - The Surprise Release: Use blind baling to prioritize the physical sensation of a clean shot execution. By removing the target, you can practice letting the bow fire as a true surprise. If you know exactly when the bow will fire, your brain will instinctively brace for it, ruining the shot.
+- Building Sensory Awareness: Removing the distraction of the target face entirely through close-range blank bale shooting is one of the most effective ways to drill sensory awareness and build the internal "feel" to target connection without the anxiety of aiming and scoring.
 
 #### 2. Single-Focus "Homework" Routine
 
@@ -221,4 +223,4 @@ _(Note: This is a diagnostic drill detailed in the [[Archery Shot Process - Foll
 
 ---
 
-- Reference: Insights compiled from Kramer Ammons ("9 Archery Drills To Hack The Mind"), MFJJ (ElkShape) blind baling and homework routines, Rogue Archery TV ("feelings", mastery framework, and "20:40 SPT | Guided Bow Fitness Drill"), CatholicHack's Traditional Archery (3D hyper-focus trick), Online Archery Academy (bow fitness, 30-minute static hold routine, training plans, 600+ score benchmarks), Matt Hartsky (5-exercise resistance band shoulder conditioning circuit), Clay Hayes (process over result), Jake Kaminski (aiming experiments, movements vs. muscles, co-contraction prevention, and "Archery Holding SPT" conditioning), The Push Archery (Solid Archery Mechanics: An Excerpt - motor learning, verbal cues), NUSensei (Archery | Rushed Shot Processes - Slow Down!), and generalized target panic/practice philosophy guidelines.
+- Reference: Insights compiled from Kramer Ammons ("9 Archery Drills To Hack The Mind"), MFJJ (ElkShape) blind baling and homework routines, Rogue Archery TV ("feelings", mastery framework, and "20:40 SPT | Guided Bow Fitness Drill"), CatholicHack's Traditional Archery (3D hyper-focus trick), Online Archery Academy (bow fitness, 30-minute static hold routine, training plans, 600+ score benchmarks), Matt Hartsky (5-exercise resistance band shoulder conditioning circuit), Clay Hayes (process over result), Jake Kaminski (aiming experiments, movements vs. muscles, co-contraction prevention, "Archery Holding SPT" conditioning, and "The Self Coaching Mistake"), The Push Archery (Solid Archery Mechanics: An Excerpt - motor learning, verbal cues), NUSensei (Archery | Rushed Shot Processes - Slow Down!), and generalized target panic/practice philosophy guidelines.
