@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-08-29T09:35:57+00:00
+modified: 2026-08-30T16:17:59+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-anchor
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Anchor
@@ -15,7 +15,6 @@ Anchor is the final reference for the full draw position and the point of maxima
 ### The Steps
 
 1. Placement: Settle the drawing hand firmly along the jawbone. Move your hand slightly up to press the index finger firmly against your jawbone with no gaps.
-   - _Handheld Release (Compound):_ Place the index finger firmly under the jawline, hook the thumb bone behind the vertical ramus of the mandible, and ensure the bowstring lightly touches the exact tip of the nose.
 2. Real Full Draw: Deliberately micro-move to lock into your final skeletal position and reach true full draw.
 3. Settle In "One Time" (Transfer to Hold): Draw straight back and settle smoothly into your anchor in a single, fluid motion. During this transfer, back tension escalates to 95%. Enter a phase of deep mental stillness (like a water bottle settling after being placed upright) before proceeding to release.
 4. Reference Points (Soft Tissue): Ensure the string touches the center (or slightly right) of your nose and slightly right on your chin.

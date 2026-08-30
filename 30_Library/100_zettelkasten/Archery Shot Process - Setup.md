@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-08-29T09:06:00+01:00
+modified: 2026-08-30T17:13:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-setup
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Setup
@@ -28,8 +28,8 @@ Setup involves setting the hands onto the bow, including hooking onto the string
    - Place the 'Y' of your hand into the grip so the pressure point sits directly on the thumb pad.
    - Direct your pressure perfectly down the center line of the lower grip (the pressure point), rather than up into the high throat (the pivot point). Apply pressure directly behind the wrist joint as if you were pushing with a "stump" or doing a push-up.
    - Form a relaxed "Y" shape with the thumb pointing forward toward the target and the index finger pointing down.
-   - Approach the grip with a "stop" motion, keeping the thumb alongside the bow and slightly retracting your knuckles to a 45-degree angle.
-   - Keep fingers completely relaxed ("jelly fingers", holding the bow as gently as a "sick sparrow"), curling them in without squeezing the bow.
+   - Approach the grip with a "stop" motion (providing a flat platform for the bow), keeping the thumb alongside the bow and slightly retracting your knuckles to a 45-degree angle.
+   - Keep fingers completely relaxed ("jelly fingers", holding the bow as gently as a "sick sparrow"). Curl the bottom three fingers in to touch your palm, and simply rest your index finger lightly on the front of the bow. Never wrap all four fingers across the front of the riser.
    - Always use a finger sling or wrist sling.
 
 ### Why It Works
@@ -51,7 +51,7 @@ Setup involves setting the hands onto the bow, including hooking onto the string
 - Changing finger pressure distribution on the string impacts vertical height significantly.
 - The "Death Grip": Gripping the bow tightly introduces torque, twisting the bow upon release.
 - High Pivot Pressure: Pushing high into the pivot point (the throat of the grip) forces you to engage the flexor muscles in your forearm. These muscles fatigue quickly and shake under adrenaline, destroying consistency.
-- Off-Center Pressure: Applying pressure off the center line of the grip torques the bow and causes erratic left-to-right arrow groupings.
+- Off-Center Pressure: Applying pressure off the center line of the grip torques the bow and causes erratic left-to-right arrow groupings. Specifically, pressuring the left edge of the grip (for a RH shooter) forces the string to turn inward and the stabilizer to point right, guaranteeing the bow limb will swing into your body during follow-through.
 - String Slap: Hitting your forearm with the bowstring is caused by holding the bow with a straight, fully wrapped "death grip", which locks the arm's range of motion. Do not try to deliberately contort your shoulder to rotate the elbow out of the way; instead, change your grip to a relaxed 45-degree V-shape. Turning your wrist outward to achieve this angle will automatically rotate the elbow completely out of the string's path.
 - Bow Hand Reaction Flinch: Subconsciously squeezing the grip to steady the sight pin or dipping the bow arm right before the arrow releases. You must trust your sling and actively keep the hand completely "dead" to avoid introducing torque.
 - Thumb Joint Pressure: If the grip slips off the meaty thumb pad and the draw weight sits directly on the thumb joint, it will cause painful wrist strain and long-term injury. Always follow the "Lifeline Rule".
@@ -88,6 +88,7 @@ Setup involves setting the hands onto the bow, including hooking onto the string
 
 - How To Stop Hitting Your Arm | Archery Basics (NUSensei)
 - The BEST Bow Grip Position | How to place your hand in your bow grip with zero torque (Jake Kaminski)
+- Follow Through Like a Pro | Stop Your Bow From Hitting You (Jake Kaminski)
 
 See also: [[Archery Shot Process - Finger Tab Selection & Maintenance]] for tab sizing, base plate/spacer fit, and leather trimming that affect the hook and grip.
 

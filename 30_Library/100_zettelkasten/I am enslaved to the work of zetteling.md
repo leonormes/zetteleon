@@ -18,5 +18,5 @@ I don't spend much effort on the thinking part. I do thinking and don't capture,
 
 Although I have choice in minor details, much like choosing which way to look while on a small raft in the thrall of a raging river, my actions are possessed by the urge to link notes together.
 
-- [[My main PKM problem is the continuity of thinking]]—extends: the compulsive urge to link notes is a maladaptive strategy to cope with the core issue of lost cognitive momentum between sessions. %%[extends:: [[My main PKM problem is the continuity of thinking]]]%%
+- [[My Main PKM Problem Is the Continuity of Thinking]]—extends: the compulsive urge to link notes is a maladaptive strategy to cope with the core issue of lost cognitive momentum between sessions. %%[extends:: [[My Main PKM Problem Is the Continuity of Thinking]]]%%
 - [[SoT - Evolutionary Note System]]—supports: traditional maintenance is too high-friction, necessitating a more evolutionary approach to prevent compulsive linking. %%[supports:: [[SoT - Evolutionary Note System]]]%%

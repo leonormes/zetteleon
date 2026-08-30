@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T00:00:00+00:00
-modified: 2026-08-30T07:41:00+01:00
+modified: 2026-08-30T17:13:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-follow-through
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Follow-through
@@ -23,6 +23,7 @@ Follow-through is the dynamic reaction of the body and bow after release, showin
 3. Bow Arm Counter-Tension:
    - Point your bow-hand index finger straight down upon release to guide the bow straight down.
    - Keep the bow arm straight and let the bow's natural weight and forward reaction pull your bow hand down.
+   - Natural Bow Rotation: If center-line grip pressure is correctly applied, the bow's weight distribution will cause it to naturally rotate and pull slightly to the right (for RH archers) upon release. This outward rotation provides total clearance for the limbs to spin away from you, eliminating the fear of being hit.
    - Hold the Position: Freeze like a statue and hold position with the bow arm raised until you hear the arrow strike the target.
    - Maintain Bow Hand Structure: Do not completely relax the entire bow hand. Let the wrist go limp and "flop" down naturally, but maintain the overall active structure of the hand.
 4. Core & Head Stability: Keep your central core completely solid and your head perfectly still.
@@ -46,7 +47,7 @@ Follow-through is the dynamic reaction of the body and bow after release, showin
   1. **Shoot:** Execute with continuous, dynamic follow-through. Treat the release as a starting point for expansion, not a finish line.
   2. **Analyze (Internalize the Feel):** Before looking at the target, check in with your physical body. The brain only retains the acute tactile memory of the shot execution for a few fleeting seconds. Ask yourself: Did I pluck the string? Did the front shoulder collapse? Was the back tension balanced?
   3. **Verify:** Only after mentally grading the physical execution should you look at the target face. Treat the impact simply as a secondary data point. By strictly adhering to this sequence, you build a neurological map connecting the physical feeling of a shot directly to its final destination.
-- Bow Arm Reaction (The "Pop" vs The Flinch): Perform a visual check of your bow hand the moment the shot breaks. If you maintained strong forward tension, the bow hand will naturally launch forward and pop slightly outward (to the left for right-handed archers). If the hand flinches inward to the right upon release, it is a clear diagnostic sign of a weak bow arm or a loss of tension.
+- Bow Arm Reaction (The "Pop" vs The Flinch): Perform a visual check of your bow hand the moment the shot breaks. If you maintained strong forward tension, the bow hand will naturally launch forward and pop slightly outward (to the left for right-handed archers). If the hand flinches inward to the right upon release, it is a clear diagnostic sign of a weak bow arm or a loss of tension. Flinching inward is often a subconscious habit to avoid getting hit in the face or stomach by the swinging bow. However, moving the arm is incorrect; proper grip pressure ensures the bow rotates safely away from you.
 
 ### Training Drills
 
@@ -98,6 +99,7 @@ Follow-through is the dynamic reaction of the body and bow after release, showin
 - Archery | Rushed Shot Processes - Slow Down! (NUSensei)
 - Do You Have a STRONG Bow Arm? | Bow Arm Reaction For Better Scores (Jake Kaminski)
 - The Self Coaching Mistake That’s Holding You Back in Archery (Jake Kaminski)
+- Follow Through Like a Pro | Stop Your Bow From Hitting You (Jake Kaminski)
 
 ---
 

@@ -67,6 +67,28 @@ If you keep both, the second is a separate proposition and should be split into 
 
 So: thinking raises the ceiling; execution operates under it. That is the coupling, and it runs at long latency and corpus level, which is exactly why the retired per-note immediate test could not see it.
 
+
+### 3.1 The Return Path — Leon, 2026-08-29 (verbatim)
+
+> "Thinking is part of the processes. It informs good action. And actions are the real source of knowledge and feedback for that thinking. I think about the best way to put up a shelf and make a plan, but when I do the actions I get feedback showing me that trying to blue-tac up a shelf is bad, so I refine my thinking. Not that I can do this with all thinking, but as far as real world activities goes I should be feeding back from the 'experiments'."
+
+This makes the coupling **bidirectional**, and that changes the shape of the claim: not a one-way channel (thinking → models → action) but a cycle (thinking → models → action → **evidence** → models).
+
+Already in the vault, and stated more precisely — [[Abstract Thought Lacks the Material Resistance That Corrects Physical Work]] (2026-08-03, `epistemic_status: high`):
+
+> "A joiner who misjudges a mortise finds out within the hour. The wood is indifferent to the confidence with which the cut was planned… **The feedback loop that closes automatically in physical work must, in abstract work, be closed deliberately — or it does not close at all.**"
+
+That last clause answers the hedge above ("not with all thinking"). The loop does not fail to exist in abstract work; it fails to *close by itself*.
+
+And that note's own Steelman relocates the boundary, which matters here: the cut is not physical vs abstract but **formalised vs unformalised** — *"Mathematics has proof, software has the compiler and the failing test… The vulnerability is real for unformalised discursive theorising, not for abstraction as such."*
+
+The procedural half is also already written, in the note whose §3A was retired this morning: [[SoT - Think Like a Man of Action, Act Like a Man of Thought]] §3D, *"Act First, Then Think (The Feedback Loop) — Guess → Do → Reflect… turns 'failure' into 'data'."* Same note carried both the retired half and the half worth keeping. See also [[The Action-Reaction-Ping-Adjust Cycle Drives Real Progress]].
+
+### 3.2 The Valve — Why the Loop Does Not Close on Its Own
+
+Feedback arriving is necessary but not sufficient; it must also be *admitted*. [[Cognitive Biases Reinforce Mental Models]] and [[Flawed Mental Models Limit Mastery]] §2 name the defences that keep a flawed model alive against evidence — confirmation bias, the Illusion of Explanatory Depth, cognitive dissonance — and [[The Emotional Cost of Being Wrong is Magnified by Loss Aversion]] identifies the reason the valve is emotional rather than informational.
+
+The shelf works as an example precisely because blue-tac failing is *unarguable*. Most feedback about a thinking system is arguable, which is why the retired axiom survived from January to August unchallenged, and why what finally moved it was timestamp data rather than introspection.
 ## 4. Open
 
 - **Does this contradict the "no overlap" framing, or extend it?** §6 and the Scope Boundary say the two domains do not overlap. This note says they are *coupled through model quality*. Coupled-but-disjoint is coherent, but the wording of "no overlap" may need revising. Not resolved — an `extends` edge is recorded below rather than a `contradicts`, deliberately conservatively. Your call.
@@ -82,3 +104,5 @@ So: thinking raises the ceiling; execution operates under it. That is the coupli
 %%[extends:: [[Flawed Mental Models Limit Mastery]], strength=5, confidence=high]%%
 
 %%[extends:: [[SoT - Processing IS the Work]], strength=3, confidence=medium]%%
+
+%%[depends_on:: [[Abstract Thought Lacks the Material Resistance That Corrects Physical Work]], strength=5, confidence=high]%%

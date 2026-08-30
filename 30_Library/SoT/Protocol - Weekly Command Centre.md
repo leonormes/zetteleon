@@ -1,16 +1,13 @@
 ---
 aliases: []
-conformant: false
+conformant: true
 created: 2025-12-20T00:00:00+00:00
-last_reviewed: ''
-modified: 2026-08-29T09:36:33+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+modified: 2026-08-30T17:33:23+00:00
 permalink: llmeon/30-library/so-t/protocol-weekly-command-centre
 status: stable
-tags: []
+tags: [gtd, productivity, protocol, system/reset]
 title: Protocol - Weekly Command Centre
 type: protocol
-updated: null
 ---
 
 ## Protocol - Weekly Command Centre (System Reset)
@@ -49,7 +46,6 @@ Rule: Do not DO work. Only PROCESS work.
 - [ ] Thinking Loop Closure:
     - Review `20_Thinking`.
     - Squash and Merge: Extract value from finished notes to SoT. Archive the notes.
-    - Kill Zombies: Delete HEAD notes untouched for >14 days.
 
 ### Phase 3: Garbage Collection
 
@@ -62,3 +58,12 @@ Rule: Do not DO work. Only PROCESS work.
 
 - [ ] The Friction Audit: Where did the system fail this week? Define one 1% fix.
 - [ ] The Ikigai Check: Did I spend time on Eudaimonia (Values) or Hedonia (Cheap Dopamine)?
+
+## See Also
+
+- [[SoT - Execution Protocol (GTD & PARA)]]: _The Weekly Command Centre executes the Phase 4 Review step of this hybrid workflow._
+%%[implements:: [[SoT - Execution Protocol (GTD & PARA)]]]%%
+- [[SoT - HEAD Note Contract (The Workbench)]]: _The Loop Closure step of the Command Centre enacts the lifecycle management rules defined in this contract._
+%%[implements:: [[SoT - HEAD Note Contract (The Workbench)]]]%%
+- [[The Clarification Ritual (Stuff to Action)]]: _This protocol scales the daily clarification inbox ritual into a comprehensive weekly reset._
+%%[extends:: [[The Clarification Ritual (Stuff to Action)]]]%%
