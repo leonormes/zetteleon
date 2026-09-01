@@ -7,7 +7,11 @@ permalink: llmeon/30-library/100-zettelkasten/diagram-philosophy-productivity-co
 status: ''
 tags: [diagram, TheHuman/Philosophy, topic/productivity]
 title: Diagram - Philosophy-Productivity Connections
-type: visualization
+type: map
+conformant: true
+prodos:
+  kind: map
+  lifecycle: stable
 updated: null
 ---
 
@@ -55,11 +59,11 @@ graph LR
 
 ### Connected MOCs
 
-- [[MOC - Philosophical Perspectives on Meaning]]
-- [[ADHD and Motivation MOC]]
-- [[MOC - Proven Memory Techniques for Effective Learning]]
-- [[MOC - Cognitive Abstraction and Understanding]]
-- [[MOC - Software Architecture Principles]]
+- [[MOC - Philosophical Perspectives on Meaning]] - *Anchors the existential concepts like absurdism and constructed meaning.*
+- [[MOC - Action Management]] - *Explores how task initiation and action substitute for missing internal motivation in ADHD.*
+- [[SoT - Active Learning Techniques]] - *Details the mechanics of how active meaning-making encodes knowledge better than passive reading.*
+- [[SoT - Cognitive Tools and Visual Abstraction]] - *Provides the framework for using diagrams to reduce cognitive load and find patterns.*
+- [[MOC - Software Architecture Principles]] - *Connects the structured mapping of PKM to system design principles.*
 
 ### Navigation Tips
 

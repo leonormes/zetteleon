@@ -811,6 +811,8 @@ def main() -> int:
                     help="print the justification tree for a claim (what it rests on)")
     ap.add_argument("--impact", metavar="TITLE",
                     help="print the impact tree for a claim (what rests on it)")
+    ap.add_argument("--export-json", metavar="FILE",
+                    help="export the graph as JSON to a file (nodes + edges with labels)")
     args = ap.parse_args()
 
     root = os.path.abspath(args.path) if args.path else default_root()
@@ -818,6 +820,37 @@ def main() -> int:
 
     files = collect_files(root)
     idx = build_index(files, yaml_mod)
+
+    # Export graph as JSON — early return, no linting.
+    if args.export_json:
+        nodes, edges = build_graph(files, idx, yaml_mod)
+        out = {
+            "nodes": [
+                {
+                    "key": str(k),
+                    "label": v.label,
+                    "type": v.type,
+                    "axiom": v.axiom,
+                    "file": v.file,
+                }
+                for k, v in sorted(nodes.items(), key=lambda x: x[1].label)
+            ],
+            "edges": [
+                {
+                    "source_key": str(src),
+                    "source_label": nodes[src].label if src in nodes else src[1],
+                    "relation": rel,
+                    "target_key": str(tgt),
+                    "target_label": nodes[tgt].label if tgt in nodes else tgt[1],
+                }
+                for src, rel, tgt in edges
+            ],
+        }
+        import json as _json
+        with open(args.export_json, "w") as f:
+            _json.dump(out, f, indent=2)
+        print(f"Exported graph: {len(out['nodes'])} nodes, {len(out['edges'])} edges → {args.export_json}")
+        return 0
 
     # Focused queries skip the lint report entirely.
     if args.route:
