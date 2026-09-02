@@ -1,6 +1,6 @@
 ---
 created: 2026-08-30T17:39:00+00:00
-modified: 2026-08-30T17:44:56+00:00
+modified: 2026-09-01T15:07:50+00:00
 permalink: llmeon/00-inbox/agent-suggestions-for-the-continuity-of-thinking-problem
 tags: [adhd, inbox, pkm, thinking]
 title: Agent Suggestions for the Continuity of Thinking Problem
