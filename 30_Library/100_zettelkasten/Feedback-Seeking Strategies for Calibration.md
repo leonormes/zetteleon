@@ -1,58 +1,58 @@
 ---
 aliases: []
+conformant: true
+prodos:
+  kind: strategy
+  lifecycle: stable
 created: 2025-10-31T09:20:29+00:00
-last_reviewed: ''
-modified: 2026-08-29T09:36:01+00:00
+modified: 2026-09-03T09:48:26.705239+00:00
 permalink: llmeon/30-library/100-zettelkasten/feedback-seeking-strategies-for-calibration
-status: seedling
-tags: [method/calibration, topic/social-cognition, topic/social-perception]
+tags:
+  - method/calibration
+  - topic/social-cognition
+  - topic/social-perception
 title: Feedback-Seeking Strategies for Calibration
 type: strategy
-updated: null
 ---
-
-## Feedback-Seeking Strategies for Calibration
-
 Summary: Systematic feedback-seeking provides external reality checks that calibrate social self-perception, breaking self-reinforcing loops of bias and enabling accurate meta-awareness.
 
-Strategies:
-
-1. Open-ended post-interaction questions
+### 1. Open-ended post-interaction questions
 
 - "How did that land for you?" (invites honest response without suggesting expected answer)
 - "What's one thing I could have done better in that presentation?"
 - "I'm trying to interrupt less—have you noticed any change?"
 - Avoid vague questions like "Do people like me?" that yield social pleasantries rather than useful data
 
-1. Outcome-based validation
+### 2. Outcome-based validation
 
 - Track behavioral proxies: Do people initiate follow-up? Accept collaboration invitations? Respond to communications promptly?
 - Patterns across multiple people/contexts are more reliable than single interactions
 - Choice reveals preference more accurately than politeness—who seeks you out when they have options?
 
-1. Multi-rater reality checks
+### 3. Multi-rater reality checks
 
 - Seek input from 3+ trusted sources (colleagues, friends, mentors) on specific behaviors or traits
 - Convergence across independent raters indicates accuracy; divergence suggests your self-model needs updating
 - Ask specific behavioral questions: "In meetings, do I give others space to speak?" not "Am I a good listener?"
 
-1. Periodic reflective retrospectives
+### 4. Periodic reflective retrospectives
 
 - After significant interactions, note: What cues did I rely on? What did I predict? What actually happened?
 - Track calibration over time—are your predictions improving?
 - Identify systematic patterns in misperception (e.g., always underestimate positive reception)
 
-1. Cultivate a "truth-teller" relationship
+### 5. Cultivate a "truth-teller" relationship
 
 - Identify 1-2 people who will provide honest, kind feedback without filtering
 - Explicitly give permission: "I value your honesty more than my comfort—please tell me if I'm missing something"
 - Use them as calibration anchors when uncertain
 
-Why it works: Provides [[Prediction Error Breaks Feedback Loops|prediction error]] signals that update faulty models; breaks echo chambers; reduces reliance on inference.
+Why it works: Provides [[Prediction Error Breaks Feedback Loops]] %%[implements:: [[Prediction Error Breaks Feedback Loops]]]%% signals that update faulty models; breaks echo chambers; reduces reliance on inference.
 
 ### Related
 
-- [[Reality Testing]]
-- [[Prediction Error Breaks Feedback Loops]]
-- [[Meta-Accuracy in Social Perception]]
-- [[Social Status Self-Enhancement and Consequences]]
+- [[Reality Testing]] %%[extends:: [[Reality Testing]]]%% - *Feedback-seeking is the interpersonal application of reality testing.*
+- [[Meta-Accuracy in Social Perception]] %%[supports:: [[Meta-Accuracy in Social Perception]]]%% - *Systematic feedback is the primary mechanism for improving meta-accuracy.*
+- [[Cognitive Reframing of Criticism]] %%[depends_on:: [[Cognitive Reframing of Criticism]]]%% - *Seeking feedback is only sustainable if you can cognitively reframe the resulting criticism.*
+- [[Dismissing People Who Disagree Costs You Your Best Error-Detectors]] %%[implements:: [[Dismissing People Who Disagree Costs You Your Best Error-Detectors]]]%% - *Cultivating truth-tellers requires actively keeping and listening to those who disagree with you.*
+- [[Decoupling Ego from Outcomes to Improve Decisions]] %%[depends_on:: [[Decoupling Ego from Outcomes to Improve Decisions]]]%% - *Asking open-ended questions about your flaws requires separating your ego from your behavior.*
