@@ -24,7 +24,7 @@ Overall: Inbound orphan.
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Evidence - ADHD Heterogeneity...md` | `%%[supports:: [[ADHD is a Heterogeneous Condition with Unique Symptom Patterns]]]%%` | Strip legacy kwargs from existing typed edge to conform to strict schema. | Yes |
+| `Evidence - ADHD Heterogeneity...md` | `[supports:: [[ADHD is a Heterogeneous Condition with Unique Symptom Patterns]]]` | Strip legacy kwargs from existing typed edge to conform to strict schema. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required. The existing plain link to `MOC - ADHD (The Master Map)` is preserved.

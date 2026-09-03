@@ -80,4 +80,4 @@ _These skills are about how you find joy, meaning, and your place in the wider w
 
 _*PSHE: Personal, Social, Health and Economic education is a key part of the curriculum that teaches many of these life skills._
 
-%%[implements:: [[MOC - Character and Virtue]], strength=5, confidence=high]%%
+[implements:: [[MOC - Character and Virtue]], strength=5, confidence=high]

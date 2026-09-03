@@ -34,8 +34,8 @@ The contrast with top-down is stark: top-down says "decide the structure first, 
 
 ## Structural Context
 
-- %%[supports:: [[Claim - Flat associative structure beats rigid hierarchy]]]%% — _Emergent structure relies entirely on a flat network of associations._
-- %%[depends_on:: [[Concept-Orientation Enables Cross-Domain Discovery]]]%% — _Without a concept-oriented approach, bottom-up discovery yields noise rather than insight._
-- %%[depends_on:: [[Structure Notes as Maps of Thought Trails]]]%% — _Because the hierarchy is not predefined, structure notes must act as navigational overlays to navigate the emergent clusters._
-- %%[synthesizes:: [[SoT - Knowledge Architecture (Associative Ontology)]]]%% — _The core architectural thesis of the vault relies on emergent properties from linked atoms._
-- %%[depends_on:: [[Emergence]]]%% — _The foundational principle that complex patterns arise from simple interactions._
+- [supports:: [[Claim - Flat associative structure beats rigid hierarchy]]] — _Emergent structure relies entirely on a flat network of associations._
+- [depends_on:: [[Concept-Orientation Enables Cross-Domain Discovery]]] — _Without a concept-oriented approach, bottom-up discovery yields noise rather than insight._
+- [depends_on:: [[Structure Notes as Maps of Thought Trails]]] — _Because the hierarchy is not predefined, structure notes must act as navigational overlays to navigate the emergent clusters._
+- [synthesizes:: [[SoT - Knowledge Architecture (Associative Ontology)]]] — _The core architectural thesis of the vault relies on emergent properties from linked atoms._
+- [depends_on:: [[Emergence]]] — _The foundational principle that complex patterns arise from simple interactions._

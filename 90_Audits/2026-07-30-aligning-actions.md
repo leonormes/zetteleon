@@ -24,7 +24,7 @@ Overall: True orphan note (not structurally anchored to an SoT).
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Aligning Actions with Core Values...md` | `%%[supports:: [[SoT - Values and Eudaimonia]]]%%` | Target provides the psychological proof point for the sustainability of the SoT's core values-based architecture. | Yes |
+| `Aligning Actions with Core Values...md` | `[supports:: [[SoT - Values and Eudaimonia]]]` | Target provides the psychological proof point for the sustainability of the SoT's core values-based architecture. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required. The existing link to `Action-Oriented Individuals...` remains as a lateral mention under `## Related`.

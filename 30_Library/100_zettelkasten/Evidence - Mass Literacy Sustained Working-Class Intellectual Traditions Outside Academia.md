@@ -24,6 +24,6 @@ It establishes existence and scale, not sufficiency or comparability. It does no
 
 ## Knowledge Graph
 
-%%[supports:: [[Higher Education Holds No Monopoly on Intellectual Life]], strength=5, confidence=high]%%
+[supports:: [[Higher Education Holds No Monopoly on Intellectual Life]], strength=5, confidence=high]
 
-%%[supports:: [[SoT - Reading and the Brain]], strength=2, confidence=low]%%
+[supports:: [[SoT - Reading and the Brain]], strength=2, confidence=low]

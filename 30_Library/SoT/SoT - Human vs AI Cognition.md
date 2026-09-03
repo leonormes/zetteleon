@@ -12,7 +12,7 @@ title: SoT - Human vs AI Cognition
 type: sot
 ---
 
-%%[supports:: [[SoT - LLM Codebase Understanding & Hierarchy]], strength=3, confidence=medium]%%
+[supports:: [[SoT - LLM Codebase Understanding & Hierarchy]], strength=3, confidence=medium]
 
 ## Minimum Viable Understanding (MVU)
 

@@ -49,6 +49,6 @@ This is why structured schemas matter—writes should be constrained to a define
 - [[SoT - Evolutionary Note System]]—implements: provides a protocol for how memory entries evolve (draft → stable → archived) under write pressure.
 - [[Layered Knowledge Architecture]]—related: the "schema layer" enforces contracts that validate writes.
 
-%%[supports:: [[Persistent Memory Layers Enable Multi-Session Agent Continuity]], strength=5, confidence=high]%%
+[supports:: [[Persistent Memory Layers Enable Multi-Session Agent Continuity]], strength=5, confidence=high]
 
-%%[implements:: [[SoT - Evolutionary Note System]], strength=3, confidence=medium]%%
+[implements:: [[SoT - Evolutionary Note System]], strength=3, confidence=medium]

@@ -24,7 +24,7 @@ Overall: True orphan note (not structurally anchored).
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Cleaning the toilet daily promotes...md` | `%%[supports:: [[SoT - Intentional Living]]]%%` | Target acts as a practical/cultural example validating intentional living and mindfulness protocols. | Yes |
+| `Cleaning the toilet daily promotes...md` | `[supports:: [[SoT - Intentional Living]]]` | Target acts as a practical/cultural example validating intentional living and mindfulness protocols. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required.

@@ -26,10 +26,10 @@ The atelic framing is conveniently unfalsifiable, and it is available as a post-
 
 This claim is in direct conflict with [[ADHD Overthinking is a Substitute for Action]], which treats extended undirected thinking as an avoidance behaviour. Both cannot be unconditionally true of the same episode.
 
-%%[contradicts:: [[ADHD Overthinking is a Substitute for Action]], strength=4, confidence=medium]%%
+[contradicts:: [[ADHD Overthinking is a Substitute for Action]], strength=4, confidence=medium]
 
-%%[depends_on:: [[Telic and Atelic Activities Differ in Whether Their Value Lies Outside the Act]], strength=5, confidence=high]%%
+[depends_on:: [[Telic and Atelic Activities Differ in Whether Their Value Lies Outside the Act]], strength=5, confidence=high]
 
-%%[supports:: [[Curiosity is Taking an Interest in Experience for its Own Sake]], strength=4, confidence=high]%%
+[supports:: [[Curiosity is Taking an Interest in Experience for its Own Sake]], strength=4, confidence=high]
 
-%%[supports:: [[SoT - Processing IS the Work]], strength=3, confidence=medium]%%
+[supports:: [[SoT - Processing IS the Work]], strength=3, confidence=medium]

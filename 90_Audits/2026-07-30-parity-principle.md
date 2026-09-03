@@ -23,7 +23,7 @@ Existing link count out: 1 (broken/malformed).
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `The Parity Principle...md` | `%%[supports:: [[SoT - The Extended Mind]]]%%` | Target acts as the logical proof point and philosophical definition for the broader framework. | Yes |
+| `The Parity Principle...md` | `[supports:: [[SoT - The Extended Mind]]]` | Target acts as the logical proof point and philosophical definition for the broader framework. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 | File | Proposed line | Where it goes |

@@ -23,7 +23,7 @@ Existing link count out: 0 (True outbound orphan).
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Heuristic Experimentation Drives Mathematical Insight.md` | `%%[supports:: [[SoT - Mathematical Thinking and Problem Solving]]]%%` | Target acts as a structural proof point and deep-dive for the specific cognitive strategies advocated by the SoT. | Yes |
+| `Heuristic Experimentation Drives Mathematical Insight.md` | `[supports:: [[SoT - Mathematical Thinking and Problem Solving]]]` | Target acts as a structural proof point and deep-dive for the specific cognitive strategies advocated by the SoT. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 | File | Proposed line | Where it goes |

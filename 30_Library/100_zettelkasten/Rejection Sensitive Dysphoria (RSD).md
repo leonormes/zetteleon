@@ -52,8 +52,8 @@ RSD acts as a powerful amplifier for [[ADHD Emotional Reasoning]], where the _fe
 
 [[Collaborative Programming Mitigates RSD and Focus Issues in ADHD]]—RSD is the psychological mechanism this mitigation strategy explicitly targets
 
-%%[supports:: [[Collaborative Programming Mitigates RSD and Focus Issues in ADHD]]]%%
+[supports:: [[Collaborative Programming Mitigates RSD and Focus Issues in ADHD]]]
 
 [[ADHD Emotional Reasoning]]—RSD's own text: "RSD Amplification … turning a minor worry … into a perceived factual certainty"
 
-%%[supports:: [[ADHD Emotional Reasoning]]]%%
+[supports:: [[ADHD Emotional Reasoning]]]

@@ -42,8 +42,8 @@ For each located candidate, classify the relationship to the input:
 |---|---|---|
 | Duplicate | Same thesis, same scope, same epistemic weight | Route to [[sys_merger]] (fast merge, no discovery) |
 | Shadow duplicate | Same thesis, different vocabulary, different source | Route to [[Knowledge Consolidation Agent]] (discovery-first merge) |
-| Supporting | Input provides evidence or argument _for_ the candidate | Propose typed edge (the router writes a `%%[supports:: …]%%` stub in the existing note via §9.3) |
-| Refining | Input narrows, extends, or specialises the candidate | Propose typed edge (`%%[extends:: …]%%` or `%%[synthesizes:: …]%%`) |
+| Supporting | Input provides evidence or argument _for_ the candidate | Propose typed edge (the router writes a `[supports:: …]` stub in the existing note via §9.3) |
+| Refining | Input narrows, extends, or specialises the candidate | Propose typed edge (`[extends:: …]` or `[synthesizes:: …]`) |
 | Contradicting | Input asserts the opposite of the candidate under the same assumptions | Flag as contradiction—record in a `## Tensions` section of the existing note or write a stub to `raw/proposed-claims/`. Do NOT silently resolve |
 | Genuinely new | No significant overlap with any candidate after Gates 1–3 | Write a stub to `raw/proposed-claims/` per §2.4. The stub becomes a candidate note; human decides whether to promote to `30_Library/` |
 

@@ -48,7 +48,7 @@ For each C1 gap:
 
 1. Run `--why "<gap title>"` to confirm it genuinely has nothing upstream—sanity-check the audit before acting on it.
 2. Search the vault (via the tooling above, not memory) for a note that is genuinely the reason this claim is true: evidence, a prior claim, a cited source.
-   - Found → draft `%%[supports:: [[Found Note]]]%%` (or `depends_on`—pick the direction that matches §2 of the Edge Vocabulary SoT) to add to the gap claim.
+   - Found → draft `[supports:: [[Found Note]]]` (or `depends_on`—pick the direction that matches §2 of the Edge Vocabulary SoT) to add to the gap claim.
    - Not found, but it's a premise you're knowingly taking as given (external literature, a first principle, personal experience recorded elsewhere)→ propose `axiom: true` in frontmatter instead of forcing a weak edge.
    - Neither fits confidently → do NOT guess. Flag it `UNSURE` per TAC: state what's missing, leave it for human review.
 3. Watch for the exact confusion C1 exists to catch: a claim showing `supports 1` in the audit output means it _supports something else_, not that it is itself supported. Don't treat that as grounding.

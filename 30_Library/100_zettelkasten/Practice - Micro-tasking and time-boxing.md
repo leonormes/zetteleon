@@ -35,10 +35,10 @@ verification: You successfully initiated the task within 2 minutes and respected
 
 ## Execution Graph
 
-- %%[implements:: [[Master Micro-Actions & Starter Tasks]]]%%
-- %%[implements:: [[Timeboxing Makes Time Tangible and Creates Accountability]]]%%
-- %%[depends_on:: [[A Next Action Must Be the Absolute Next Physical Visible Activity Required to Move a Situation Forward]]]%%
-- %%[depends_on:: [[SoT - Temporal Management (Blocking and Boxing)]]]%%
+- [implements:: [[Master Micro-Actions & Starter Tasks]]]
+- [implements:: [[Timeboxing Makes Time Tangible and Creates Accountability]]]
+- [depends_on:: [[A Next Action Must Be the Absolute Next Physical Visible Activity Required to Move a Situation Forward]]]
+- [depends_on:: [[SoT - Temporal Management (Blocking and Boxing)]]]
 
 ## Related
 

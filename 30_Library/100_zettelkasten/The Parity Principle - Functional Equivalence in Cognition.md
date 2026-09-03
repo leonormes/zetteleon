@@ -31,7 +31,7 @@ Because Otto's notebook is constant, accessible, and trusted, it performs the sa
 
 In a digital context, this justifies the use of Personal Knowledge Management (PKM) as a direct expansion of the user's mind, provided the system is reliable and the interface is frictionless.
 
-%%[supports:: [[SoT - The Extended Mind]]]%%
+[supports:: [[SoT - The Extended Mind]]]
 
 ## Related
 

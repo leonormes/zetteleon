@@ -83,14 +83,14 @@ This version accepts both data points as valid and focuses on co-creating a solu
 ## Related
 
 - [[SoT - The Data-Impact-Proposal-Check Framework]]—_Provides a concrete four-step algorithm for executing the "Operational Change" axiom in practice._
-%%[implements:: [[SoT - The Data-Impact-Proposal-Check Framework]]]%%
+[implements:: [[SoT - The Data-Impact-Proposal-Check Framework]]]
 - [[Active Listening De-escalates Conflict]]—_A core communication tool necessary for validating data during the "Input Validation" phase without yielding one's own truth._
-%%[depends_on:: [[Active Listening De-escalates Conflict]]]%%
+[depends_on:: [[Active Listening De-escalates Conflict]]]
 - [[Habit 5 - Seek First to Understand, Then to Be Understood]]—_The foundational mindset that enables "Intent ≠ Impact" and "Subjective Sovereignty."_
-%%[extends:: [[Habit 5 - Seek First to Understand, Then to Be Understood]]]%%
+[extends:: [[Habit 5 - Seek First to Understand, Then to Be Understood]]]
 - [[Mutual Respect in a Partnership Involves Valuing Opinions Speaking Kindly and Honouring Boundaries]]—_Provides the ethical baseline that this framework operationalises._
-%%[extends:: [[Mutual Respect in a Partnership Involves Valuing Opinions Speaking Kindly and Honouring Boundaries]]]%%
+[extends:: [[Mutual Respect in a Partnership Involves Valuing Opinions Speaking Kindly and Honouring Boundaries]]]
 - [[Claim - When intelligence is bound to identity, epistemic errors are experienced as threats to self-worth]]—_Explains why the "Subjective Hijacking" and defensiveness occur in the dysfunctional script._
-%%[extends:: [[Claim - When intelligence is bound to identity, epistemic errors are experienced as threats to self-worth]]]%%
+[extends:: [[Claim - When intelligence is bound to identity, epistemic errors are experienced as threats to self-worth]]]
 - [[Gish Gallop of Grievances]]—_The formal term for the "Non-Erasure" violation seen in Version A, where cross-complaints are weaponized._
-%%[extends:: [[Gish Gallop of Grievances]]]%%
+[extends:: [[Gish Gallop of Grievances]]]

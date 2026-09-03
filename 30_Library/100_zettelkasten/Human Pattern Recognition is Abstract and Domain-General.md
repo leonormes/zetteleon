@@ -16,4 +16,4 @@ Summary: Human pattern recognition is a domain-general competence that can be fl
 
 Details: While many animals recognize patterns for survival, their ability is often a fixed adaptation for a specific task. Humans, by contrast, can process abstract, hierarchical structures (like nested, tree-like patterns) regardless of the sensory modality. This allows us to apply the same structural logic to language, music, and visual art. This capacity for abstraction enables us to recognize patterns of patterns, forming the basis for all higher-order reasoning.
 
-%%[supports:: [[Patterns are the Scaffolding of Knowledge]], strength=5, confidence=high]%%
+[supports:: [[Patterns are the Scaffolding of Knowledge]], strength=5, confidence=high]

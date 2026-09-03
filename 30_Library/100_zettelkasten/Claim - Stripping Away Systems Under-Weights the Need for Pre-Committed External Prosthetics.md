@@ -18,6 +18,6 @@ The stronger design does not remove structure; it moves the decision earlier, to
 
 ## Knowledge Graph
 
-%%[supports:: [[SoT - Prosthetic Executive Function]], strength=4, confidence=high]%%
+[supports:: [[SoT - Prosthetic Executive Function]], strength=4, confidence=high]
 
-%%[extends:: [[SoT - Think Like a Man of Action, Act Like a Man of Thought]], strength=2, confidence=medium]%%
+[extends:: [[SoT - Think Like a Man of Action, Act Like a Man of Thought]], strength=2, confidence=medium]

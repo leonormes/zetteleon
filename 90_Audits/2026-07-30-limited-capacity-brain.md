@@ -30,11 +30,11 @@ Existing link count out: 4 (all to SoT notes with legacy/custom annotations like
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Limited Capacity Brain.md` | `%%[supports:: [[Cognitive Offloading Frees Mental Resources for Decision-Making and Problem-Solving]]]%%` | The limited capacity of the brain is the biological justification for cognitive offloading. | Yes |
-| `Limited Capacity Brain.md` | `%%[supports:: [[SoT - Working Memory & Schema Theory]]]%%` | Atomic claim supporting the SoT's section on WM bottlenecks. | Yes |
-| `Limited Capacity Brain.md` | `%%[supports:: [[SoT - Illusion of Explanatory Depth (IoED)]]]%%` | Explains the underlying capacity gap that leads to narrative fabrication (IoED). | Yes |
-| `Limited Capacity Brain.md` | `%%[supports:: [[SoT - Prosthetic Executive Function]]]%%` | Establishes the necessity for prosthetic/externalized executive function. | Yes |
-| `Limited Capacity Brain.md` | `%%[supports:: [[SoT - Learning Mechanisms]]]%%` | Formalizing the existing `elaborates-on` link. | Yes |
+| `Limited Capacity Brain.md` | `[supports:: [[Cognitive Offloading Frees Mental Resources for Decision-Making and Problem-Solving]]]` | The limited capacity of the brain is the biological justification for cognitive offloading. | Yes |
+| `Limited Capacity Brain.md` | `[supports:: [[SoT - Working Memory & Schema Theory]]]` | Atomic claim supporting the SoT's section on WM bottlenecks. | Yes |
+| `Limited Capacity Brain.md` | `[supports:: [[SoT - Illusion of Explanatory Depth (IoED)]]]` | Explains the underlying capacity gap that leads to narrative fabrication (IoED). | Yes |
+| `Limited Capacity Brain.md` | `[supports:: [[SoT - Prosthetic Executive Function]]]` | Establishes the necessity for prosthetic/externalized executive function. | Yes |
+| `Limited Capacity Brain.md` | `[supports:: [[SoT - Learning Mechanisms]]]` | Formalizing the existing `elaborates-on` link. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 | File | Proposed line | Where it goes |

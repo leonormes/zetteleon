@@ -16,4 +16,4 @@ It is often described as the ability to "bounce back" after a difficult experien
 
 It is a dynamic process that involves behaviors, thoughts, and actions that can be learned and developed by anyone.
 
-%%[depends_on:: [[VIA Virtue of Courage]], strength=2, confidence=low]%%
+[depends_on:: [[VIA Virtue of Courage]], strength=2, confidence=low]

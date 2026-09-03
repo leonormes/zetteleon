@@ -46,6 +46,6 @@ Selectivity requires:
 - [[Targeting LLM Attention Requires Encoding Relevance as Structure]]—principle: selectivity is achieved by encoding relevance as structure (tags, types, embeddings).
 - [[Continuous Autonomous Agent Loops Incur Significant API Cost]]—context: selectivity is one strategy to manage the cost explosion in long-running workflows.
 
-%%[implements:: [[Targeting LLM Attention Requires Encoding Relevance as Structure]], strength=4, confidence=high]%%
+[implements:: [[Targeting LLM Attention Requires Encoding Relevance as Structure]], strength=4, confidence=high]
 
-%%[supports:: [[Persistent Memory Layers Enable Multi-Session Agent Continuity]], strength=5, confidence=high]%%
+[supports:: [[Persistent Memory Layers Enable Multi-Session Agent Continuity]], strength=5, confidence=high]

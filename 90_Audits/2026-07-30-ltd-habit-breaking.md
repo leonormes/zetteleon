@@ -23,7 +23,7 @@ Existing link count out: 0 (True orphan outbound in the body text).
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Long-Term Depression is a Mechanism for Breaking Habits.md` | `%%[supports:: [[Neuroplasticity is the Foundation for Habit Change]]]%%` | Target provides the neurobiological unwiring mechanism that proves neuroplasticity enables habit breaking. | Yes |
+| `Long-Term Depression is a Mechanism for Breaking Habits.md` | `[supports:: [[Neuroplasticity is the Foundation for Habit Change]]]` | Target provides the neurobiological unwiring mechanism that proves neuroplasticity enables habit breaking. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 | File | Proposed line | Where it goes |

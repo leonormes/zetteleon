@@ -33,16 +33,16 @@ In many practical domains, reliable prediction is functionally sufficient—an o
 
 [[The Illusion of Explanatory Depth Names a Gap Between Felt and Actual Understanding]]—this distinction is what makes the gap possible: the illusion lives in the conflation of these two states
 
-%%[supports:: [[The Illusion of Explanatory Depth Names a Gap Between Felt and Actual Understanding]]]%%
+[supports:: [[The Illusion of Explanatory Depth Names a Gap Between Felt and Actual Understanding]]]
 
 [[The Build-It Standard Tests Understanding Through Creation]]—the antidote's rationale rests directly on this distinction
 
-%%[supports:: [[The Build-It Standard Tests Understanding Through Creation]]]%%
+[supports:: [[The Build-It Standard Tests Understanding Through Creation]]]
 
 [[The Five Whys Chain Drills an Explanation Down to First-Principle Causes]]—the antidote targets exactly this familiarity/comprehension gap
 
-%%[supports:: [[The Five Whys Chain Drills an Explanation Down to First-Principle Causes]]]%%
+[supports:: [[The Five Whys Chain Drills an Explanation Down to First-Principle Causes]]]
 
 [[The Question Master Protocol Uses Bloom's Taxonomy to Force Active Engagement with Material]]—same: the antidote targets exactly this familiarity/comprehension gap
 
-%%[supports:: [[The Question Master Protocol Uses Bloom's Taxonomy to Force Active Engagement with Material]]]%%
+[supports:: [[The Question Master Protocol Uses Bloom's Taxonomy to Force Active Engagement with Material]]]

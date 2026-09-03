@@ -29,5 +29,5 @@ Applies to psychological distress characterised by meaninglessness, purposelessn
 ### Related
 
 - [[SoT - Logotherapy and the Will to Meaning]]—direct concept match: the vault's canonical SoT on Frankl covers this definition and its three pillars in full.
-- [[SoT - Values and Eudaimonia]]—shared mechanism: both identify non-hedonic motivation (meaning / eudaimonia) as primary to sustained well-being, distinguishing it from the pleasure-seeking of the hedonic treadmill. %%[supports:: [[SoT - Values and Eudaimonia]]]%%
+- [[SoT - Values and Eudaimonia]]—shared mechanism: both identify non-hedonic motivation (meaning / eudaimonia) as primary to sustained well-being, distinguishing it from the pleasure-seeking of the hedonic treadmill. [supports:: [[SoT - Values and Eudaimonia]]]
 - [[Nihilism vs Constructed Meaning]]—tension over whether meaning is discovered or constructed: logotherapy claims meaning is detectable in the world; nihilism denies inherent meaning; the therapeutic claim occupies the space between them.

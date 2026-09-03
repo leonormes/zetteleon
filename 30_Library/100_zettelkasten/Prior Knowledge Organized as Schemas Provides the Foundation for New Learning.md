@@ -16,4 +16,4 @@ Summary: According to Schema Theory, prior knowledge is organized into cognitive
 
 Details: When encountering new information, learners attempt to fit it into existing schemas (assimilation). If the information doesn't fit, they must modify their schemas or create new ones (accommodation). Well-developed schemas make new, related information more meaningful and easier to learn by providing a rich network of existing concepts to which it can be anchored.
 
-%%[supports:: [[Patterns are the Scaffolding of Knowledge]], strength=5, confidence=high]%%
+[supports:: [[Patterns are the Scaffolding of Knowledge]], strength=5, confidence=high]

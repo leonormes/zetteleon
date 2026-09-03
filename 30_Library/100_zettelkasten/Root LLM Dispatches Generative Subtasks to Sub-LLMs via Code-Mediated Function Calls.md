@@ -47,4 +47,4 @@ Source: "From RLMs to Agent Harnesses" (Still Broken AI). "The Root LLM acts as 
 
 - [[RLMs Avoid Context Bloat by Storing Intermediate State as Symbolic Variables, Not Context Tokens]]
 
-%%[depends_on:: [[Recursive Language Models Load Context as Environment Variables, Not Prompt Tokens]], strength=4, confidence=medium]%%
+[depends_on:: [[Recursive Language Models Load Context as Environment Variables, Not Prompt Tokens]], strength=4, confidence=medium]

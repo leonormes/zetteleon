@@ -47,4 +47,4 @@ Raw source: `raw/2026-07-27-thenewstack-mcp-spec-rewrite` (Hermes vault)
 
 Hidden transport state is a feature, not a defect. A session identifier that never enters the context window costs no tokens, cannot leak into a transcript or log, cannot be hallucinated or corrupted by the model, and cannot be replayed by anyone reading the conversation. Making state model-visible trades a well-understood infrastructure problem—session affinity, which load balancers have solved for decades—for a poorly-understood security surface, and pushes the burden of authorization onto every individual tool author.
 
-%%[supports:: [[Targeting LLM Attention Requires Encoding Relevance as Structure]], strength=4, confidence=medium]%%
+[supports:: [[Targeting LLM Attention Requires Encoding Relevance as Structure]], strength=4, confidence=medium]

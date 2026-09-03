@@ -21,6 +21,6 @@ The distinction that matters: zest is dispositional, not phasic. It is not the d
 
 - [[Hedonic Adaptation to Achieved Goals Is a Biological Certainty, Not a Character Failing]]—why the phasic version cannot be sustained, and why treating its absence as a character failure is a category error.
 
-%%[extends:: [[VIA Virtue of Courage]], strength=4, confidence=high]%%
+[extends:: [[VIA Virtue of Courage]], strength=4, confidence=high]
 
-%%[depends_on:: [[SoT - Values and Eudaimonia]], strength=3, confidence=medium]%%
+[depends_on:: [[SoT - Values and Eudaimonia]], strength=3, confidence=medium]

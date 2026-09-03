@@ -171,16 +171,16 @@ This unification is formalized by Order Theory.
 
 This provides the rigorous proof that "Categories" are not arbitrary containers, but logical constraints on the value of information.
 
-%%[synthesizes:: [[SoT - PRODOS Core Specification]], strength=5, confidence=high]%%
+[synthesizes:: [[SoT - PRODOS Core Specification]], strength=5, confidence=high]
 
-%%[synthesizes:: [[SoT - ADHD Neurology & Core Concepts]], strength=5, confidence=high]%%
+[synthesizes:: [[SoT - ADHD Neurology & Core Concepts]], strength=5, confidence=high]
 
-%%[synthesizes:: [[SoT - The Data-Centric Philosophy]], strength=5, confidence=high]%%
+[synthesizes:: [[SoT - The Data-Centric Philosophy]], strength=5, confidence=high]
 
-%%[synthesizes:: [[SoT - Generative Infrastructure Configuration Framework]], strength=4, confidence=high]%%
+[synthesizes:: [[SoT - Generative Infrastructure Configuration Framework]], strength=4, confidence=high]
 
-%%[synthesizes:: [[SoT - Logotherapy and the Will to Meaning]], strength=4, confidence=high]%%
+[synthesizes:: [[SoT - Logotherapy and the Will to Meaning]], strength=4, confidence=high]
 
-%%[synthesizes:: [[SoT - The Universal Speed of Causality]], strength=3, confidence=medium]%%
+[synthesizes:: [[SoT - The Universal Speed of Causality]], strength=3, confidence=medium]
 
-%%[depends_on:: [[SoT - Order Theory & Lattices]], strength=5, confidence=high]%%
+[depends_on:: [[SoT - Order Theory & Lattices]], strength=5, confidence=high]

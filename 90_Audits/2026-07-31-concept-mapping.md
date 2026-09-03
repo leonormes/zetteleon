@@ -25,7 +25,7 @@ Overall: True inbound orphan note.
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Concept Mapping...md` | `%%[implements:: [[SoT - Active Learning Techniques]]]%%` | Target is an applied active-learning technique that structures knowledge. | Yes |
+| `Concept Mapping...md` | `[implements:: [[SoT - Active Learning Techniques]]]` | Target is an applied active-learning technique that structures knowledge. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required. The existing plain link to `Cognitive Offloading...` will be preserved as a contextual mention.

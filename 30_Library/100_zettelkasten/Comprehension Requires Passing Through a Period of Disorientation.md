@@ -21,8 +21,8 @@ Not all confusion is productive. Cognitive load research distinguishes germane l
 
 ## Knowledge Graph
 
-%%[extends:: [[SoT - Cognitive Ambiguity and Deep Thinking]], strength=4, confidence=high]%%
+[extends:: [[SoT - Cognitive Ambiguity and Deep Thinking]], strength=4, confidence=high]
 
-%%[supports:: [[Prior Knowledge Organized as Schemas Provides the Foundation for New Learning]], strength=4, confidence=high]%%
+[supports:: [[Prior Knowledge Organized as Schemas Provides the Foundation for New Learning]], strength=4, confidence=high]
 
-%%[depends_on:: [[SoT - Working Memory & Schema Theory]], strength=3, confidence=medium]%%
+[depends_on:: [[SoT - Working Memory & Schema Theory]], strength=3, confidence=medium]

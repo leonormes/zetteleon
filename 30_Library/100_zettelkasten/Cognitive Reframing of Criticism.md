@@ -28,8 +28,8 @@ Transform your perception of criticism by consciously shifting the frame from a 
 
 ### Related Concepts
 
-- [[Emotional Regulation Techniques for ADHD Productivity]] %%[extends:: [[Emotional Regulation Techniques for ADHD Productivity]]]%% - *Cognitive reframing pairs with somatic techniques to manage the emotional spike of criticism.*
-- [[Dismissing People Who Disagree Costs You Your Best Error-Detectors]] %%[supports:: [[Dismissing People Who Disagree Costs You Your Best Error-Detectors]]]%% - *Reframing criticism is required to actually benefit from dissenting voices.*
-- [[Decoupling Ego from Outcomes to Improve Decisions]] %%[implements:: [[Decoupling Ego from Outcomes to Improve Decisions]]]%% - *Separating the message from the delivery is a practical application of decoupling ego.*
-- [[Feedback-Seeking Strategies for Calibration]] %%[depends_on:: [[Feedback-Seeking Strategies for Calibration]]]%% - *Actively seeking feedback is only sustainable if you can cognitively reframe the resulting criticism.*
-- [[The Emotional Cost of Being Wrong is Magnified by Loss Aversion]] %%[implements:: [[The Emotional Cost of Being Wrong is Magnified by Loss Aversion]]]%% - *Reframing is a direct countermeasure to the disproportionate emotional pain of being proven wrong.*
+- [[Emotional Regulation Techniques for ADHD Productivity]] [extends:: [[Emotional Regulation Techniques for ADHD Productivity]]] - *Cognitive reframing pairs with somatic techniques to manage the emotional spike of criticism.*
+- [[Dismissing People Who Disagree Costs You Your Best Error-Detectors]] [supports:: [[Dismissing People Who Disagree Costs You Your Best Error-Detectors]]] - *Reframing criticism is required to actually benefit from dissenting voices.*
+- [[Decoupling Ego from Outcomes to Improve Decisions]] [implements:: [[Decoupling Ego from Outcomes to Improve Decisions]]] - *Separating the message from the delivery is a practical application of decoupling ego.*
+- [[Feedback-Seeking Strategies for Calibration]] [depends_on:: [[Feedback-Seeking Strategies for Calibration]]] - *Actively seeking feedback is only sustainable if you can cognitively reframe the resulting criticism.*
+- [[The Emotional Cost of Being Wrong is Magnified by Loss Aversion]] [implements:: [[The Emotional Cost of Being Wrong is Magnified by Loss Aversion]]] - *Reframing is a direct countermeasure to the disproportionate emotional pain of being proven wrong.*

@@ -97,12 +97,12 @@ The shelf works as an example precisely because blue-tac failing is *unarguable*
 
 ## Knowledge Graph
 
-%%[revises:: [[Claim - A Note That Does Not Help You Act Is Noise]], strength=5, confidence=high]%%
+[revises:: [[Claim - A Note That Does Not Help You Act Is Noise]], strength=5, confidence=high]
 
-%%[revises:: [[Claim - Thinking That Cannot Name Its Resulting Action Is Procrastination]], strength=5, confidence=high]%%
+[revises:: [[Claim - Thinking That Cannot Name Its Resulting Action Is Procrastination]], strength=5, confidence=high]
 
-%%[extends:: [[Flawed Mental Models Limit Mastery]], strength=5, confidence=high]%%
+[extends:: [[Flawed Mental Models Limit Mastery]], strength=5, confidence=high]
 
-%%[extends:: [[SoT - Processing IS the Work]], strength=3, confidence=medium]%%
+[extends:: [[SoT - Processing IS the Work]], strength=3, confidence=medium]
 
-%%[depends_on:: [[Abstract Thought Lacks the Material Resistance That Corrects Physical Work]], strength=5, confidence=high]%%
+[depends_on:: [[Abstract Thought Lacks the Material Resistance That Corrects Physical Work]], strength=5, confidence=high]

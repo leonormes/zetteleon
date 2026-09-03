@@ -45,4 +45,4 @@ Source: "From RLMs to Agent Harnesses" (Still Broken AI). "An RLM is an LLM oper
 
 - [[RLMs Dynamically Chunk Data at Runtime, Unlike RAG's Static Pre-Defined Chunking]]
 
-%%[extends:: [[Agent Harness - Wrapping LLMs in Deterministic Software Controls]], strength=3, confidence=medium]%%
+[extends:: [[Agent Harness - Wrapping LLMs in Deterministic Software Controls]], strength=3, confidence=medium]

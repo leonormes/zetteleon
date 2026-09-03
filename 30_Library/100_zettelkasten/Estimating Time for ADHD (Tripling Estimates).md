@@ -16,4 +16,4 @@ When allocating time for tasks, a common recommendation for individuals with ADH
 
 [[The Done State as a Boundary for ADHD Projects]]
 
-%%[implements:: [[SoT - ADHD Management Protocols]]]%%
+[implements:: [[SoT - ADHD Management Protocols]]]

@@ -148,13 +148,13 @@ The honest weak point: a 10-minute box may not empty a large Inbox, and an Inbox
 ## See Also
 
 - [[SoT - Execution Protocol (GTD & PARA)]]—_the Weekly Command Centre executes the Reflect stage of this hybrid workflow._
-%%[implements:: [[SoT - Execution Protocol (GTD & PARA)]]]%%
+[implements:: [[SoT - Execution Protocol (GTD & PARA)]]]
 - [[gtd-action-system]]—_the four-tier tool architecture (Obsidian / Jira / Todoist / calendar) this protocol reviews._
-%%[depends_on:: [[gtd-action-system]]]%%
+[depends_on:: [[gtd-action-system]]]
 - [[The Clarification Ritual (Stuff to Action)]]—_this protocol scales the daily clarification ritual into a weekly reset._
-%%[extends:: [[The Clarification Ritual (Stuff to Action)]]]%%
+[extends:: [[The Clarification Ritual (Stuff to Action)]]]
 - [[SoT - Prosthetic Executive Function]]—_the design principle: offload the trigger and the boundary to the environment._
-%%[implements:: [[SoT - Prosthetic Executive Function]]]%%
+[implements:: [[SoT - Prosthetic Executive Function]]]
 - [[SoT - Behavioral Architecture]]—_friction management and the System > Willpower axiom behind the fixed box._
 - [[MOC - Why Task Initiation is Difficult in ADHD]]—_why the ramp, the cap, and the timer exist._
 - [[MOC - Breaking the ADHD Overthinking-Procrastination Cycle]]—_the shame-avoidance loop the Ikigai check was feeding._

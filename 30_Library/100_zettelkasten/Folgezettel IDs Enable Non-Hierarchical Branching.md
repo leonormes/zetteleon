@@ -26,4 +26,4 @@ Links:
 > - seedling → growing: has summary + details + at least 1 inbound link.
 > - growing → evergreen: has 2+ inbound links from structural notes, purpose set, confidence justified, 1–3 `see_also`.
 
-%%[supports:: [[Claim - Flat associative structure beats rigid hierarchy]], strength=4, confidence=high]%%
+[supports:: [[Claim - Flat associative structure beats rigid hierarchy]], strength=4, confidence=high]

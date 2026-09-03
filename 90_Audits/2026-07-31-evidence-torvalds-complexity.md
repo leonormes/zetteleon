@@ -24,7 +24,7 @@ Overall: Inbound orphan.
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Evidence - Torvalds Complexity Conservation...md` | `%%[supports:: [[Software Complexity is Conserved Between Control Flow and Representation]]]%%` | Strip legacy kwargs from existing typed edge to conform to strict schema. | Yes |
+| `Evidence - Torvalds Complexity Conservation...md` | `[supports:: [[Software Complexity is Conserved Between Control Flow and Representation]]]` | Strip legacy kwargs from existing typed edge to conform to strict schema. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required. The existing plain link to `Code vs Data Structures (Torvalds Essay)` is preserved.

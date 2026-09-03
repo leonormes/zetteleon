@@ -47,6 +47,6 @@ Source: "Context engineering with Dex Horthy" (Gergely Orosz interviewing Dex Ho
 
 - [[Intentional Compaction Clears History and Reseeds a Fresh Session with One Compressed Artifact]]
 
-%%[extends:: [[Agent Harness - Wrapping LLMs in Deterministic Software Controls]], strength=4, confidence=medium]%%
+[extends:: [[Agent Harness - Wrapping LLMs in Deterministic Software Controls]], strength=4, confidence=medium]
 
-%%[extends:: [[Harness Engineering]], strength=4, confidence=medium]%%
+[extends:: [[Harness Engineering]], strength=4, confidence=medium]

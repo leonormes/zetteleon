@@ -15,4 +15,4 @@ type: claim
 
 Cleaning the toilet daily is a Japanese habit believed to promote humility, mental clarity, and good luck. This practice is associated with notable achievers like the founders of Panasonic and Honda.
 
-%%[supports:: [[SoT - Intentional Living]]]%%
+[supports:: [[SoT - Intentional Living]]]

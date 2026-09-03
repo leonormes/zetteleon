@@ -24,7 +24,7 @@ Overall: True orphan note (not anchored to any SoT or MOC).
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Timeboxing Makes Time Tangible...md` | `%%[supports:: [[SoT - Temporal Management (Blocking and Boxing)]]]%%` | Target provides the psychological proof point for the efficacy of the SoT's Time Boxing discipline. | Yes |
+| `Timeboxing Makes Time Tangible...md` | `[supports:: [[SoT - Temporal Management (Blocking and Boxing)]]]` | Target provides the psychological proof point for the efficacy of the SoT's Time Boxing discipline. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required. The existing plain links to sibling claims under `## Related` are kept, as the edge handles the structural anchor.

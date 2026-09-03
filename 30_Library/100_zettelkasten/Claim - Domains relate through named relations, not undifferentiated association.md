@@ -59,4 +59,4 @@ If graph queries over typed edges reliably returned the same results as untyped 
 - The matrix above is stated at _domain_ granularity. The typed-edge vocabulary operates at _note_ granularity. Nothing yet establishes that domain-level relations are anything more than a summary of the note-level edges beneath them.
 - Two of the four original relation names (`Catalyses`, `Intersects`) have no counterpart in the current vocabulary. Either they were noise, or the vocabulary lost something.
 
-%%[extends:: [[Claim - Flat associative structure beats rigid hierarchy]], strength=4, confidence=medium]%%
+[extends:: [[Claim - Flat associative structure beats rigid hierarchy]], strength=4, confidence=medium]

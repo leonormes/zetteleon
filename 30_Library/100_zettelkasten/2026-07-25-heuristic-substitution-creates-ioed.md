@@ -33,4 +33,4 @@ This could instead be plain confidence miscalibration rather than a specific sub
 
 [[The Illusion of Explanatory Depth Names a Gap Between Felt and Actual Understanding]]—this is the causal mechanism that explains why the gap exists
 
-%%[supports:: [[The Illusion of Explanatory Depth Names a Gap Between Felt and Actual Understanding]]]%%
+[supports:: [[The Illusion of Explanatory Depth Names a Gap Between Felt and Actual Understanding]]]

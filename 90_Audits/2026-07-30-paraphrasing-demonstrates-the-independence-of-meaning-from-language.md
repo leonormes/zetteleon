@@ -41,7 +41,7 @@ Not a true zero-connection orphan — a **sink**. Three hubs already list it (tw
 
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| [[Paraphrasing Demonstrates the Independence of Meaning from Language]] (the note itself) | `%%[supports:: [[Paraphrasing is a Complex Cognitive Skill]], strength=4, confidence=high]%%` | The sibling's own prose names this note's claim as one of two stated reasons for its complexity thesis — passes all three tests | Yes — target note exists, read this session |
+| [[Paraphrasing Demonstrates the Independence of Meaning from Language]] (the note itself) | `[supports:: [[Paraphrasing is a Complex Cognitive Skill]], strength=4, confidence=high]` | The sibling's own prose names this note's claim as one of two stated reasons for its complexity thesis — passes all three tests | Yes — target note exists, read this session |
 
 `supports` is one of the two relations the argument-graph audit actually ingests (§4 of the Knowledge Compiler spec), so this edge would make the Target a real (small) node in the justification graph rather than just a topically-clustered one.
 

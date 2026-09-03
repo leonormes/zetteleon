@@ -38,7 +38,7 @@ Better-cited than the last two atomic-note runs, but the same structural gap: tw
 
 | File | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| [[Productive vs Destructive Shame]] (a *different* file from the audited Target — flagging since Part 2 edits one file at a time) | `%%[depends_on:: [[Shame as Social Regulatory Mechanism]], strength=5, confidence=high]%%` | Its own "destructive shame doesn't serve the evolutionary purpose" line presupposes this Target's specific claim | Yes — target note exists, read this session |
+| [[Productive vs Destructive Shame]] (a *different* file from the audited Target — flagging since Part 2 edits one file at a time) | `[depends_on:: [[Shame as Social Regulatory Mechanism]], strength=5, confidence=high]` | Its own "destructive shame doesn't serve the evolutionary purpose" line presupposes this Target's specific claim | Yes — target note exists, read this session |
 
 This would be the second real edge to come out of this three-note cluster (after `Bidirectional Authority Discomfort in ADHD`'s medium-confidence RSD candidate, which stayed unwritten) — worth knowing the cluster is accumulating enough structure that a `Justification Graph Audit` pass over just these ADHD/authority/shame notes might be worth running once a few more of these land.
 

@@ -49,4 +49,4 @@ Source: "AI in the SDLC: Rethinking AI Coding Tools & AI Agents" (IBM Technology
 
 - [[SoT - Flow Engineering]]
 
-%%[depends_on:: [[LLM Pipeline Accuracy Degrades with Document Length and Task Complexity]], strength=3, confidence=medium]%%
+[depends_on:: [[LLM Pipeline Accuracy Degrades with Document Length and Task Complexity]], strength=3, confidence=medium]

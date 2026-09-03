@@ -61,4 +61,4 @@ Source: "Paper Dives: MapReduce Is Back - And It Fixes Broken LLM Pipelines | Do
 
 - [[SoT - Quality Metrics for LLM Pipelines]]
 
-%%[supports:: [[DocETL Framework - Declarative Pipelines with Agentic Optimization]], strength=5, confidence=high]%%
+[supports:: [[DocETL Framework - Declarative Pipelines with Agentic Optimization]], strength=5, confidence=high]

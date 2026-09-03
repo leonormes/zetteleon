@@ -212,4 +212,4 @@ In practice: DS notes (Rust ownership, DOD, Torvalds Loop) carry `discriminator:
                          ⊥
 ```
 
-%%[supports:: [[SoT - Structure is Truth is a Unifying Axiom Across Formal Systems]], strength=5, confidence=high]%%
+[supports:: [[SoT - Structure is Truth is a Unifying Axiom Across Formal Systems]], strength=5, confidence=high]

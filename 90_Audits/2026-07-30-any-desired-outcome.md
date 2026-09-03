@@ -24,7 +24,7 @@ Overall: True orphan note (not structurally anchored to an SoT).
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Any Desired Outcome Requiring...md` | `%%[supports:: [[SoT - Execution Protocol (GTD & PARA)]]]%%` | Target provides the structural justification for the SoT's core rule regarding Project classification. | Yes |
+| `Any Desired Outcome Requiring...md` | `[supports:: [[SoT - Execution Protocol (GTD & PARA)]]]` | Target provides the structural justification for the SoT's core rule regarding Project classification. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required. Existing lateral exploration links under `## Related` and `## See Also` remain intact.

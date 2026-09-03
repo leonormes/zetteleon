@@ -82,7 +82,7 @@ The one thing you may write directly into `30_Library/`.
 
 - Vocabulary is **closed**: `extends` · `synthesizes` · `implements` · `contradicts` · `supports` · `depends_on`. Anything else is a compiler error. `refines` → `extends`. `is_example_of`/`is_part_of` → `implements`. `enables` → usually the reverse edge (`depends_on`). `supersedes`/`historically_followed_by` → **no edge**, prose only. `same_as` → **no edge**, that's a merge recommendation. `related_to`/`generalizes` → leave untyped and say so.
 - **Only `supports` and `depends_on` are ingested by the argument audit** (`edge_lint.py:352`). `implements`/`extends`/`synthesizes` pass the linter, appear in Dataview, and do nothing for the C1 gap list. Say which kind you're writing.
-- Syntax: `%%[<rel>:: [[<target>]], strength=1-5, confidence=high|medium|low]%%`. Note targets are **always** wikilinks. One edge per marker.
+- Syntax: `[<rel>:: [[<target>]], strength=1-5, confidence=high|medium|low]`. Note targets are **always** wikilinks. One edge per marker.
 - **Never emit a dangling edge.** Resolve the target by filename, `title`, alias and `prodos.id` *before* writing. If it doesn't exist, propose a stub instead.
 - Prefer frontmatter where a fileClass already models the relation (a `claim` note's `contradicts`, an `evidence` note's `supports_claims`). Reserve inline edges for block-level precision.
 - Fewer, higher-quality edges. Navigational and See-Also links stay untyped.

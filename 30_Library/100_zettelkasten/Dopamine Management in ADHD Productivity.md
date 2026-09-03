@@ -14,7 +14,7 @@ used_in_claims: []
 
 ## Dopamine Management in ADHD Productivity
 
-Because the ADHD brain operates on an [[The ADHD brain operates on an Interest-Based Nervous System|Interest-Based Nervous System]], actively managing dopamine is a core productivity principle. This involves structuring work and rewards to provide the consistent stimulation the brain needs to stay engaged. %%[extends:: [[The ADHD brain operates on an Interest-Based Nervous System]]]%%
+Because the ADHD brain operates on an [[The ADHD brain operates on an Interest-Based Nervous System|Interest-Based Nervous System]], actively managing dopamine is a core productivity principle. This involves structuring work and rewards to provide the consistent stimulation the brain needs to stay engaged. [extends:: [[The ADHD brain operates on an Interest-Based Nervous System]]]
 
 ### Core Strategies
 
@@ -23,7 +23,7 @@ Because the ADHD brain operates on an [[The ADHD brain operates on an Interest-B
     - The Filling (The Task): Perform the non-preferred task.
     - Bottom Slice (The Reward): Immediately follow the task with a pre-defined, enjoyable reward (e.g., a short break to scroll social media, a snack, a walk).
 
-2. Celebrate Wins as You Go: The ADHD brain does not respond well to delayed gratification. It is crucial to acknowledge and celebrate small steps and minor progress. This creates a continuous feedback loop of positive reinforcement, which helps maintain motivation. %%[synthesizes:: [[Celebrating small wins builds routine momentum]]]%%
+2. Celebrate Wins as You Go: The ADHD brain does not respond well to delayed gratification. It is crucial to acknowledge and celebrate small steps and minor progress. This creates a continuous feedback loop of positive reinforcement, which helps maintain motivation. [synthesizes:: [[Celebrating small wins builds routine momentum]]]
     - This can be as simple as verbally acknowledging the completion of a step ("Nice, I did the thing!") or taking a brief moment to feel proud of the effort.
 
 ### Why It Works for ADHD

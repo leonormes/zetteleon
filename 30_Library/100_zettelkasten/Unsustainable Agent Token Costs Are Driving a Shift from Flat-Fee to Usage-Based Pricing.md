@@ -44,4 +44,4 @@ Source: "Why AI Tokens are so Expensive" (Computerphile). Quote: "Historically, 
 
 - [[SoT - Context Engineering]]
 
-%%[depends_on:: [[Agentic Tool Calls Compound Context Growth Multiplicatively]], strength=4, confidence=medium]%%
+[depends_on:: [[Agentic Tool Calls Compound Context Growth Multiplicatively]], strength=4, confidence=medium]

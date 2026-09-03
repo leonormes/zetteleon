@@ -22,4 +22,4 @@ Support: This view is supported by mathematicians like G. H. Hardy and Keith Dev
 
 [[MOC - Pattern - From Sensory Input to Meaning]]
 
-%%[implements:: [[Patterns are the Scaffolding of Knowledge]], strength=4, confidence=high]%%
+[implements:: [[Patterns are the Scaffolding of Knowledge]], strength=4, confidence=high]

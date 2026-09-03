@@ -23,7 +23,7 @@ Overall: True orphan note (not structurally anchored with typed edges).
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `2026-07-25-ioed-definition-gap-felt-vs-actual-understanding.md` | `%%[supports:: [[SoT - Illusion of Explanatory Depth (IoED)]]]%%` | Target is the foundational axiom validating the core premise of the IoED SoT. | Yes |
+| `2026-07-25-ioed-definition-gap-felt-vs-actual-understanding.md` | `[supports:: [[SoT - Illusion of Explanatory Depth (IoED)]]]` | Target is the foundational axiom validating the core premise of the IoED SoT. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required. The existing plain links to sibling claims under `## Related` are left intact.

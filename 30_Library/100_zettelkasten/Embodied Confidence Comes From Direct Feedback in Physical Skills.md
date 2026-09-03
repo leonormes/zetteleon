@@ -19,6 +19,6 @@ Summary: Embodied practices cultivate confidence through immediate sensory feedb
 
 Details: Embodied practices such as music, gardening, and cooking cultivate confidence through immediate, sensory feedback loops. Competence emerges from doing, which trains perception, timing, and feel that precede verbal justification. The body's calibration provides a grounded sense of capability that generalizes to other domains. Building embodied skills complements abstract reasoning and stabilizes identity.
 
-%%[supports:: [[SoT - The Primacy of Experience (Pre-Linguistic Understanding)]]]%%
+[supports:: [[SoT - The Primacy of Experience (Pre-Linguistic Understanding)]]]
 
-%%[supports:: [[Confidence as Trust in Process Not Certainty in Outcomes]]]%%
+[supports:: [[Confidence as Trust in Process Not Certainty in Outcomes]]]

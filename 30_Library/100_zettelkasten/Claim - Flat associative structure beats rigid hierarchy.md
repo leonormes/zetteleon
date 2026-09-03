@@ -44,4 +44,4 @@ type: claim
 
 - The practice form of this claim: [[Practice - Flat linking and tagging]]. Note the tension with your own pull towards elaborate schemas.
 
-%%[supports:: [[SoT - Structure is Truth is a Unifying Axiom Across Formal Systems]], strength=5, confidence=high]%%
+[supports:: [[SoT - Structure is Truth is a Unifying Axiom Across Formal Systems]], strength=5, confidence=high]

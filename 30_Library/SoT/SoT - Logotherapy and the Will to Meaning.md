@@ -115,7 +115,7 @@ This SoT is a bedrock leaf of the argument graph (see [[SoT - Knowledge Compiler
 
 [[Humans Retain Freedom to Choose Their Response to Any Situation Regardless of Circumstances]]—§2A Freedom of Will. The Nazi-camp observation ("everything can be taken from a man but one thing") is the evidential ground for the atomic claim.
 
-%%[supports:: [[Humans Retain Freedom to Choose Their Response to Any Situation Regardless of Circumstances]]]%%
+[supports:: [[Humans Retain Freedom to Choose Their Response to Any Situation Regardless of Circumstances]]]
 
 [[SoT - Values and Eudaimonia]]—§2B The Will to Meaning & §3 Pathways to Meaning. Grounds the architecture of eudaimonistic duty and purpose over momentary pleasure.
 

@@ -68,7 +68,7 @@ _Actionable scaffolding and "Algorithms" for execution._
 
 ## Related Maps
 
-- %%[extends:: [[MOC - Computer Science Foundations]]]%% (Applying logic to the brain).
-- %%[extends:: [[MOC - Data-Centric Software Engineering]]]%% (Structuring the environment).
-- %%[extends:: [[MOC - What is Maths]]]%% (The underlying order).
-- %%[extends:: [[Embracing Interdependence with ADHD]]]%% _(Shifting from isolation to complementing strengths through collaboration)_
+- [extends:: [[MOC - Computer Science Foundations]]] (Applying logic to the brain).
+- [extends:: [[MOC - Data-Centric Software Engineering]]] (Structuring the environment).
+- [extends:: [[MOC - What is Maths]]] (The underlying order).
+- [extends:: [[Embracing Interdependence with ADHD]]] _(Shifting from isolation to complementing strengths through collaboration)_

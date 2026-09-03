@@ -29,4 +29,4 @@ Resolution Heuristics:
 
 - [[Becoming System Agnostic]]
 
-%%[supports:: [[SoT - Pragmatism vs Rigour in Software]]]%%
+[supports:: [[SoT - Pragmatism vs Rigour in Software]]]

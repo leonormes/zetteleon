@@ -40,6 +40,6 @@ Source: "State of Agentic Coding, episode 8, with Mario, Armin, and Ben" (Armin 
 
 - [[Model Self-Verification as a Secondary Quality Gate]]
 
-%%[depends_on:: [[Auto-Regressive Generation Reprocesses the Entire Context on Every Token]], strength=3, confidence=medium]%%
+[depends_on:: [[Auto-Regressive Generation Reprocesses the Entire Context on Every Token]], strength=3, confidence=medium]
 
-%%[supports:: [[LLM Hallucinations Arise from Probabilistic Prediction Without External Grounding]], strength=3, confidence=medium]%%
+[supports:: [[LLM Hallucinations Arise from Probabilistic Prediction Without External Grounding]], strength=3, confidence=medium]

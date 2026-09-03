@@ -32,14 +32,14 @@ Why it matters:
 
 - High meta-accuracy enables social calibration, reputation management, and adaptive self-presentation.
 - Low meta-accuracy leads to social surprises, strained relationships, and misalignment between intended and perceived impact.
-- Awareness of limited meta-accuracy prevents overconfidence in social judgments, supporting [[SoT - Metacognitive Calibration]] %%[implements:: [[SoT - Metacognitive Calibration]]]%%.
+- Awareness of limited meta-accuracy prevents overconfidence in social judgments, supporting [[SoT - Metacognitive Calibration]] [implements:: [[SoT - Metacognitive Calibration]]].
 
 Biases affecting meta-accuracy: Spotlight Effect (overestimating noticing), Liking Gap (underestimating likability), egocentrism (assuming others share your self-view).
 
 ### Related
 
-- [[MOC - Social Perception and Self-Awareness]] %%[extends:: [[MOC - Social Perception and Self-Awareness]]]%% - *The parent map governing how social perception and self-awareness intersect.*
-- [[SoT - Social Cognition & Self-Perception]] %%[extends:: [[SoT - Social Cognition & Self-Perception]]]%% - *The foundational Source of Truth detailing the mechanics of social intuition.*
-- [[Feedback-Seeking Strategies for Calibration]] %%[depends_on:: [[Feedback-Seeking Strategies for Calibration]]]%% - *Active feedback seeking is the primary mechanism for improving meta-accuracy.*
-- [[Reality Testing]] %%[depends_on:: [[Reality Testing]]]%% - *A broader framework for verifying subjective perceptions against objective reality.*
-- [[Mind-Reading Fallacy and Projection]] %%[contradicts:: [[Mind-Reading Fallacy and Projection]]]%% - *The cognitive failure mode where you assume you have perfect meta-accuracy without evidence.*
+- [[MOC - Social Perception and Self-Awareness]] [extends:: [[MOC - Social Perception and Self-Awareness]]] - *The parent map governing how social perception and self-awareness intersect.*
+- [[SoT - Social Cognition & Self-Perception]] [extends:: [[SoT - Social Cognition & Self-Perception]]] - *The foundational Source of Truth detailing the mechanics of social intuition.*
+- [[Feedback-Seeking Strategies for Calibration]] [depends_on:: [[Feedback-Seeking Strategies for Calibration]]] - *Active feedback seeking is the primary mechanism for improving meta-accuracy.*
+- [[Reality Testing]] [depends_on:: [[Reality Testing]]] - *A broader framework for verifying subjective perceptions against objective reality.*
+- [[Mind-Reading Fallacy and Projection]] [contradicts:: [[Mind-Reading Fallacy and Projection]]] - *The cognitive failure mode where you assume you have perfect meta-accuracy without evidence.*

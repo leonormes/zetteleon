@@ -24,7 +24,7 @@ Overall: True inbound orphan note.
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Fund Immediate...md` | `%%[implements:: [[Give Every Dollar a Job (YNAB Rule 1)]]]%%` | Target is the applied first step (the "how-to") of the parent budgeting rule. | Yes |
+| `Fund Immediate...md` | `[implements:: [[Give Every Dollar a Job (YNAB Rule 1)]]]` | Target is the applied first step (the "how-to") of the parent budgeting rule. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 Remove the inline wikilink brackets from `[[Give Every Dollar a Job (YNAB Rule 1)]]` since the edge explicitly anchors the relationship at the bottom.

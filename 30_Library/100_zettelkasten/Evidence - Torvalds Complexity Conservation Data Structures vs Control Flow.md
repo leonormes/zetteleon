@@ -11,7 +11,7 @@ proposition: "When data structures perfectly model domain constraints, procedura
 title: Evidence - Torvalds Complexity Conservation Data Structures vs Control Flow
 ---
 
-%%[supports:: [[Software Complexity is Conserved Between Control Flow and Representation]]]%%
+[supports:: [[Software Complexity is Conserved Between Control Flow and Representation]]]
 
 When a developer "worries about data structures" (Torvalds/Pike), they are moving complexity out of the procedural layer and into the structural layer. Smart Structures ⇒ Dumb Code: If the data model perfectly mirrors the problem domain's constraints, the algorithms required to manipulate that data become trivial, often reducing to simple traversals or lookups. Dumb Structures ⇒ Brittle Code: If the data model lacks internal constraints, the code must compensate with defensive null-checks, complex if/else ladders, and state-tracking flags.
 

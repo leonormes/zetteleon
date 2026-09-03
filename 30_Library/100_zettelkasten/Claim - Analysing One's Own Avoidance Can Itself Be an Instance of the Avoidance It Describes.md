@@ -18,8 +18,8 @@ This is not a new observation in this vault—[[Purpose of my PKM system]] alrea
 
 ## Knowledge Graph
 
-%%[extends:: [[SoT - Processing IS the Work]], strength=3, confidence=medium]%%
+[extends:: [[SoT - Processing IS the Work]], strength=3, confidence=medium]
 
-%%[extends:: [[Purpose of my PKM system]], strength=3, confidence=high]%%
+[extends:: [[Purpose of my PKM system]], strength=3, confidence=high]
 
-%%[supports:: [[The Trap of the Architect Is Sophisticated System-Building Substituting for Physical Action]], strength=3, confidence=medium]%%
+[supports:: [[The Trap of the Architect Is Sophisticated System-Building Substituting for Physical Action]], strength=3, confidence=medium]

@@ -59,7 +59,7 @@ If a field cannot be populated with confidence, set `conformant: false` and say 
 2. Propositional Deduplication: Break notes into atomic claims. Merge only if claim-sets have >80% overlap AND compatible epistemic status.
 3. Epistemic Isolation: Keep "Facts" separate from "Hypotheses."
 4. Conservation of Information: Zero data loss during merging. Unique insights from deprecated notes must be preserved in the canonical note's `Integration Queue` or body.
-5. Link Precision: Relationships must be typed using the **closed** vocabulary in [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]] §2 — `extends` · `synthesizes` · `implements` · `contradicts` · `supports` · `depends_on`. Syntax is `%%[<relationship>:: [[Target]]]%%`. **Never write `rel::`** — Edge Vocabulary §5.1 states it is *not parsed by the compiler*, so any relationship recorded that way is invisible to `edge_lint.py`. Anything outside the six is a compiler error; if none fits, leave the link untyped and say which relation you wanted.
+5. Link Precision: Relationships must be typed using the **closed** vocabulary in [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]] §2 — `extends` · `synthesizes` · `implements` · `contradicts` · `supports` · `depends_on`. Syntax is `[<relationship>:: [[Target]]]`. **Never write `rel::`** — Edge Vocabulary §5.1 states it is *not parsed by the compiler*, so any relationship recorded that way is invisible to `edge_lint.py`. Anything outside the six is a compiler error; if none fits, leave the link untyped and say which relation you wanted.
 6. Verify Before Asserting: Never claim a note is missing without checking filename, frontmatter `title`, `aliases` **and** `prodos.id`. A note asserted absent that actually exists is the most damaging error available here — it sends the follow-up work off to author the duplicate you were hired to prevent.
 7. Write the Changes: Per [[AGENTS.md]], agents have full read-write access to the vault. Apply your consolidation plan directly to the relevant notes using your available file modification tools. Every edit involving edges must leave `edge_lint.py --path` at `0 error(s)` (§9.4). You may still output the final state as reference artefacts, but the primary task is to execute the writes.
 
@@ -102,8 +102,8 @@ If notes are related but _not_ duplicates:
    - Critical: Replace body content with a redirect notice: _"This note's thinking has been integrated into [[Canonical Note]] on YYYY-MM-DD."_
 3. Link: Add typed edges pointing at the Canonical/Target note, using the six-term vocabulary and the `%%[…]%%` form:
    ```
-   %%[supports:: [[Canonical Note]]]%%
-   %%[implements:: [[Canonical Note]], strength=4, confidence=high]%%
+   [supports:: [[Canonical Note]]]
+   [implements:: [[Canonical Note]], strength=4, confidence=high]
    ```
    - Resolve every target **before** writing it. A dangling edge is a compiler error.
    - `is_example_of` / `is_part_of` → `implements`. `refines` / `specializes` → `extends`. `enables` → usually the reverse edge (`depends_on`). `supersedes`, `same_as`, `related_to`, `broader`, `narrower` → **no edge**; record as prose or as a merge recommendation.
@@ -139,7 +139,7 @@ Epistemic Status: [Value]
 1. Merge [[Duplicate Note]] INTO [[Canonical SoT Note]].
    - *Strategy:* Upgrade [[Canonical Note]] to SoT format.
    - *Preserve:* "Quote unique insight to keep."
-2. Link [[Related Note]] TO [[Canonical SoT Note]] — edge: `%%[extends:: [[Canonical SoT Note]]]%%` (target verified present).
+2. Link [[Related Note]] TO [[Canonical SoT Note]] — edge: `[extends:: [[Canonical SoT Note]]]` (target verified present).
 3. Deprecate [[Duplicate Note]].
 ```
 

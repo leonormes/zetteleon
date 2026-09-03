@@ -17,4 +17,4 @@ Beyond simply matching, the "thought partner" should integrate newly captured id
 
 My Vision of a Thought Partner
 
-%%[supports:: [[SoT - LLM Wiki Pattern]]]%%
+[supports:: [[SoT - LLM Wiki Pattern]]]

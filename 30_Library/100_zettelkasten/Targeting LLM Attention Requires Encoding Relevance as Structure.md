@@ -30,4 +30,4 @@ rel:: supports [[Minimum Viable Context for LLMs Prevents Hallucination via Stru
 
 rel:: explains [[Targeting LLM Attention via Structural Constraints]]
 
-%%[supports:: [[Minimum Viable Context for LLMs Prevents Hallucination via Structural Boundaries]], strength=4, confidence=high]%%
+[supports:: [[Minimum Viable Context for LLMs Prevents Hallucination via Structural Boundaries]], strength=4, confidence=high]

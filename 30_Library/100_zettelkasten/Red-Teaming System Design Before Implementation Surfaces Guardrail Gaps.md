@@ -51,4 +51,4 @@ This extends the pattern already established for reviewing generated code to the
 
 - [[SoT - LLM Wiki Pattern]]
 
-%%[extends:: [[Cross-Model Adversarial Auditing Uses an Independent LLM to Catch Blind Spots]], strength=3, confidence=medium]%%
+[extends:: [[Cross-Model Adversarial Auditing Uses an Independent LLM to Catch Blind Spots]], strength=3, confidence=medium]

@@ -82,7 +82,7 @@ No depth-cap truncation. Named frontier nodes above for deliberate extension if 
 
 | From | To | Proposed relation | Evidence line |
 |---|---|---|---|
-| [[Binary Person-Judgement Is a Cognitive Default, Not a Character Flaw]] | [[Claim - Beliefs often function as belonging cues to secure group membership rather than as truth-seeking theses]] | `depends_on` (mirrors the syntax Bonhoeffer already uses for the same premise: `%%[depends_on:: [[Claim - Beliefs often function as belonging cues...]], confidence=high]%%`) | Binary Person-Judgement's own text: "Opinions do not just describe the world; they signal group membership, so judging people by their beliefs is ancient social sorting machinery doing its job." |
+| [[Binary Person-Judgement Is a Cognitive Default, Not a Character Flaw]] | [[Claim - Beliefs often function as belonging cues to secure group membership rather than as truth-seeking theses]] | `depends_on` (mirrors the syntax Bonhoeffer already uses for the same premise: `[depends_on:: [[Claim - Beliefs often function as belonging cues...]], confidence=high]`) | Binary Person-Judgement's own text: "Opinions do not just describe the world; they signal group membership, so judging people by their beliefs is ancient social sorting machinery doing its job." |
 
 This is the one new high-confidence typing this run produces. It also corrects the seed's own "extends" annotation, which should be removed or reworded once the typed edge is added on the other side, so the relation isn't recorded twice in two different (and contradictory) directions.
 
@@ -111,4 +111,4 @@ None this run—every candidate had prose or a clear heading context to classify
 
 ### Next Action
 
-Add the `%%[depends_on:: [[Claim - Beliefs often function as belonging cues to secure group membership rather than as truth-seeking theses]], confidence=high]%%` edge to [[Binary Person-Judgement Is a Cognitive Default, Not a Character Flaw]].
+Add the `[depends_on:: [[Claim - Beliefs often function as belonging cues to secure group membership rather than as truth-seeking theses]], confidence=high]` edge to [[Binary Person-Judgement Is a Cognitive Default, Not a Character Flaw]].

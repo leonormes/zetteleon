@@ -33,4 +33,4 @@ This standard may set the bar for "understanding" too high for many legitimate u
 
 No outgoing edge from this note—[[Familiarity and Comprehension Are Distinct, Often-Conflated Cognitive States]] already declares the `supports` edge pointing here (this antidote's rationale rests on that distinction).
 
-%%[supports:: [[SoT - Illusion of Explanatory Depth (IoED)]]]%%
+[supports:: [[SoT - Illusion of Explanatory Depth (IoED)]]]

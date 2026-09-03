@@ -20,4 +20,4 @@ People with ADHD often experience destructive shame, which doesn't serve the evo
 
 [[Shame as Social Regulatory Mechanism]]—destructive shame is defined against this note's own "evolutionary purpose of helpful social guidance"
 
-%%[depends_on:: [[Shame as Social Regulatory Mechanism]], strength=5, confidence=high]%%
+[depends_on:: [[Shame as Social Regulatory Mechanism]], strength=5, confidence=high]

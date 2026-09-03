@@ -27,4 +27,4 @@ This approach transforms routines from fragile constructs that shatter when cond
 - [[Mini routines are effective for ADHD autism and chronic illness]]
 - [[Routines Provide Stability for Neurodivergent Individuals]]
 
-%%[supports:: [[SoT - ADHD Management Protocols]]]%%
+[supports:: [[SoT - ADHD Management Protocols]]]

@@ -24,4 +24,4 @@ This is the combined-type profile showing up as associative hyperdrive. The DIVA
 
 The double edge: this is also why you can do the JTB ↔ order theory ↔ PKM mapping that most people cannot. The same trait that risks scattering also produces synthesis. Do not try to suppress it. Channel it.
 
-%%[implements:: [[SoT - ADHD Self-Compassion & Strengths]]]%%
+[implements:: [[SoT - ADHD Self-Compassion & Strengths]]]

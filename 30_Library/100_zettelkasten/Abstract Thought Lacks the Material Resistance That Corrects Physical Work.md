@@ -23,8 +23,8 @@ The asymmetry is overstated for many domains of abstract work. Mathematics has p
 
 ## Knowledge Graph
 
-%%[extends:: [[Instrumentalism vs Realism in Understanding]], strength=3, confidence=medium]%%
+[extends:: [[Instrumentalism vs Realism in Understanding]], strength=3, confidence=medium]
 
-%%[supports:: [[Confirmation as a Perceived Shortcut to Truth]], strength=4, confidence=high]%%
+[supports:: [[Confirmation as a Perceived Shortcut to Truth]], strength=4, confidence=high]
 
-%%[supports:: [[SoT - Illusion of Explanatory Depth (IoED)]], strength=4, confidence=high]%%
+[supports:: [[SoT - Illusion of Explanatory Depth (IoED)]], strength=4, confidence=high]

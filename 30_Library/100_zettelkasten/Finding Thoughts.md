@@ -19,4 +19,4 @@ I don't know how to find things in obsidian. Like this bullet point. Let's say a
 
 I have come back here from the main index. It is exactly right. I have to link things this way. It is very simple!
 
-%%[supports:: [[SoT - Evolutionary Note System]]]%%
+[supports:: [[SoT - Evolutionary Note System]]]

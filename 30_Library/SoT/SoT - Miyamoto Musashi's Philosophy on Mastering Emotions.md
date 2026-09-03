@@ -44,14 +44,14 @@ Musashi argues against "amping up" for battle. If your "fighting mind" differs f
 Often mistaken for rigidity, Fudo-shin actually means a mind that does not "stop" or "stick" on anything (fear, surprise, or specific techniques).
 
 - The Paradox: To be "immovable" means to be endlessly fluid. If your mind stops on anger, you are trapped. If it flows freely, you cannot be pinned down.
-- Link: [[Fudo The Path of Immovability]] %%[synthesizes:: [[Fudo The Path of Immovability]]]%%, [[Letting Go to Gain Control]] %%[synthesizes:: [[Letting Go to Gain Control]]]%%
+- Link: [[Fudo The Path of Immovability]] [synthesizes:: [[Fudo The Path of Immovability]]], [[Letting Go to Gain Control]] [synthesizes:: [[Letting Go to Gain Control]]]
 
 ### C. The Void (Ku)
 
 In _The Book of Void_, Musashi describes the ultimate state as one free from confusion.
 
 - Understanding: Emotions often act as a lens that distorts reality (e.g., "I feel this is impossible").
-- The Strategy: By entering the Void, you see the situation _as it is_, not as you fear it to be. This aligns with [[Mushin No Shin Mind Without Mind]] %%[synthesizes:: [[Mushin No Shin Mind Without Mind]]]%%.
+- The Strategy: By entering the Void, you see the situation _as it is_, not as you fear it to be. This aligns with [[Mushin No Shin Mind Without Mind]] [synthesizes:: [[Mushin No Shin Mind Without Mind]]].
 
 ---
 
@@ -61,25 +61,25 @@ This note sits at the intersection of three Core Domains, serving as the bridge 
 
 | Domain | Application |
 |:--- |:--- |
-| Domain 2: The Engine | Emotional Regulation: It provides the "Software" for managing [[SoT - ADHD Neurology & Core Concepts]] %%[extends:: [[SoT - ADHD Neurology & Core Concepts]]]%%. The concept of _Heijo-shin_ is a direct counter-measure to Emotional Dysregulation and RSD. |
-| Domain 3: The Compass | Philosophy: It aligns with Stoicism. It is the "Way" (Do) of living—accepting the world as it is ([[The External World is Neutral]] %%[supports:: [[The External World is Neutral]]]%%). |
+| Domain 2: The Engine | Emotional Regulation: It provides the "Software" for managing [[SoT - ADHD Neurology & Core Concepts]] [extends:: [[SoT - ADHD Neurology & Core Concepts]]]. The concept of _Heijo-shin_ is a direct counter-measure to Emotional Dysregulation and RSD. |
+| Domain 3: The Compass | Philosophy: It aligns with Stoicism. It is the "Way" (Do) of living—accepting the world as it is ([[The External World is Neutral]] [supports:: [[The External World is Neutral]]]). |
 | Domain 4: The Trade | Strategy/Mastery: It applies to professional "combat" (coding, negotiation). Keeping the mind "ordinary" allows for access to complex skills under pressure. |
 
 ---
 
 ## 4. Practical Application: Response vs. Reaction
 
-Musashi famously used his opponent's emotions against them (e.g., arriving late to the duel with [[Musashi's Duel with Sasaki Kojiro]] %%[extends:: [[Musashi's Duel with Sasaki Kojiro]]]%%).
+Musashi famously used his opponent's emotions against them (e.g., arriving late to the duel with [[Musashi's Duel with Sasaki Kojiro]] [extends:: [[Musashi's Duel with Sasaki Kojiro]]]).
 
 - The Vulnerability: If you _react_ (automatic emotional response), you are controlled by the external stimulus.
 - The Power: If you _respond_ (action derived from the Void/Strategy), you retain agency.
-- ProdOS Tactic: Use the "Pause" to distinguish between the Signal (The Event) and the Noise (The Emotion). See [[Responding vs. Reacting]] %%[synthesizes:: [[Responding vs. Reacting]]]%%.
+- ProdOS Tactic: Use the "Pause" to distinguish between the Signal (The Event) and the Noise (The Emotion). See [[Responding vs. Reacting]] [synthesizes:: [[Responding vs. Reacting]]].
 
 ---
 
 ## 5. Related Zettels
 
-- [[Understanding Emotion]] %%[depends_on:: [[Understanding Emotion]]]%% - *Provides the foundational view of emotion as a vector.*
-- [[Ownership of Emotions]] %%[depends_on:: [[Ownership of Emotions]]]%% - *Requires taking complete responsibility for the internal state.*
-- [[The 'Do' (Path) Concept]] %%[synthesizes:: [[The 'Do' (Path) Concept]]]%% - *Frames the pursuit of this state as a continuous, lifelong path.*
-- [[Achieving Mental Stability]] %%[synthesizes:: [[Achieving Mental Stability]]]%% - *Mental stability comes from aligning reality with expectations, a core component of the Void.*
+- [[Understanding Emotion]] [depends_on:: [[Understanding Emotion]]] - *Provides the foundational view of emotion as a vector.*
+- [[Ownership of Emotions]] [depends_on:: [[Ownership of Emotions]]] - *Requires taking complete responsibility for the internal state.*
+- [[The 'Do' (Path) Concept]] [synthesizes:: [[The 'Do' (Path) Concept]]] - *Frames the pursuit of this state as a continuous, lifelong path.*
+- [[Achieving Mental Stability]] [synthesizes:: [[Achieving Mental Stability]]] - *Mental stability comes from aligning reality with expectations, a core component of the Void.*

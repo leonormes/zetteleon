@@ -46,4 +46,4 @@ Source: "Context engineering with Dex Horthy" (Gergely Orosz interviewing Dex Ho
 
 - [[Harness Engineering Splits into an Inner Harness and an Outer Harness]]
 
-%%[supports:: [[SoT - Context Engineering]], strength=3, confidence=medium]%%
+[supports:: [[SoT - Context Engineering]], strength=3, confidence=medium]

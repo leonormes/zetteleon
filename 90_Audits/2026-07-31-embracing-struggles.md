@@ -24,7 +24,7 @@ Overall: True totally disconnected orphan note.
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Embracing Struggles is Part of the Creative Journey.md` | `%%[supports:: [[SoT - Reframe Your Mindset From Pretender to Explorer]]]%%` | Target philosophically justifies the SoT's focus on valuing the "Process" (including its struggles) over the "Outcome". | Yes |
+| `Embracing Struggles is Part of the Creative Journey.md` | `[supports:: [[SoT - Reframe Your Mindset From Pretender to Explorer]]]` | Target philosophically justifies the SoT's focus on valuing the "Process" (including its struggles) over the "Outcome". | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 Move the broken `source: '[[MOC - You Need to Romanticize Your Process]]'` from frontmatter to a plain contextual link at the bottom of the note.

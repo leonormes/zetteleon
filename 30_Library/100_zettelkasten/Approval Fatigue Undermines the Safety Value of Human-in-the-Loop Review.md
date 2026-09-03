@@ -45,6 +45,6 @@ Source: "The harness is all you need (mostly)" (github.blog, GitHub Copilot team
 
 - [[Full-Autonomy Agent Execution Requires Sandboxing for Safety and Data Privacy, Not Just Concurrency]]
 
-%%[supports:: [[Engineer Involvement Compresses to Planning and Review as Agentic Workflows Mature]], strength=3, confidence=medium]%%
+[supports:: [[Engineer Involvement Compresses to Planning and Review as Agentic Workflows Mature]], strength=3, confidence=medium]
 
-%%[supports:: [[The Slow Loop Pattern - Constrained Off-Hours Agent Loops Produce a Single PR for Async Human Review]], strength=3, confidence=medium]%%
+[supports:: [[The Slow Loop Pattern - Constrained Off-Hours Agent Loops Produce a Single PR for Async Human Review]], strength=3, confidence=medium]

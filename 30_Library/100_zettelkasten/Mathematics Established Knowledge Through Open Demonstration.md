@@ -20,13 +20,13 @@ The method of mathematics is the "cold light of rigorous logic". It proceeds not
 
 Openness alone is not the mechanism—a published text nobody can check is open and useless. What mathematics added was _stepwise_ demonstration: every link in the chain individually attackable, so an error has somewhere specific to be found.
 
-- [[Deductive Reasoning Underwrites Mathematical Proof]]—_The formal machinery that makes each step checkable in isolation, which is what turns "public" into "correctable."_ %%[depends_on:: [[Deductive Reasoning Underwrites Mathematical Proof]], strength=5, confidence=high]%%
-- [[Open Knowledge Systems Prevail Over Closed Systems]]—_This note supplies the "open" half of that claim's evidence base._ %%[supports:: [[Open Knowledge Systems Prevail Over Closed Systems]], strength=5, confidence=high]%%
-- [[Dismissing People Who Disagree Costs You Your Best Error-Detectors]]—_The same argument at individual scale: a demonstration open to attack is external test coverage, and the attackers are the feature rather than the cost._ %%[supports:: [[Dismissing People Who Disagree Costs You Your Best Error-Detectors]], confidence=medium]%%
+- [[Deductive Reasoning Underwrites Mathematical Proof]]—_The formal machinery that makes each step checkable in isolation, which is what turns "public" into "correctable."_ [depends_on:: [[Deductive Reasoning Underwrites Mathematical Proof]], strength=5, confidence=high]
+- [[Open Knowledge Systems Prevail Over Closed Systems]]—_This note supplies the "open" half of that claim's evidence base._ [supports:: [[Open Knowledge Systems Prevail Over Closed Systems]], strength=5, confidence=high]
+- [[Dismissing People Who Disagree Costs You Your Best Error-Detectors]]—_The same argument at individual scale: a demonstration open to attack is external test coverage, and the attackers are the feature rather than the cost._ [supports:: [[Dismissing People Who Disagree Costs You Your Best Error-Detectors]], confidence=medium]
 
 ## What It Stands Against
 
-[[Confirmation as a Perceived Shortcut to Truth]] already names this note as the contrast case—the feeling of being validated by an external source provides relief from uncertainty, which open demonstration deliberately withholds until the steps hold. _That note links here; this is the reciprocal connection._ %%[contradicts:: [[Confirmation as a Perceived Shortcut to Truth]], confidence=medium]%%
+[[Confirmation as a Perceived Shortcut to Truth]] already names this note as the contrast case—the feeling of being validated by an external source provides relief from uncertainty, which open demonstration deliberately withholds until the steps hold. _That note links here; this is the reciprocal connection._ [contradicts:: [[Confirmation as a Perceived Shortcut to Truth]], confidence=medium]
 
 ## See Also
 

@@ -47,12 +47,12 @@ Summary: Systematic feedback-seeking provides external reality checks that calib
 - Explicitly give permission: "I value your honesty more than my comfort—please tell me if I'm missing something"
 - Use them as calibration anchors when uncertain
 
-Why it works: Provides [[Prediction Error Breaks Feedback Loops]] %%[implements:: [[Prediction Error Breaks Feedback Loops]]]%% signals that update faulty models; breaks echo chambers; reduces reliance on inference.
+Why it works: Provides [[Prediction Error Breaks Feedback Loops]] [implements:: [[Prediction Error Breaks Feedback Loops]]] signals that update faulty models; breaks echo chambers; reduces reliance on inference.
 
 ### Related
 
-- [[Reality Testing]] %%[extends:: [[Reality Testing]]]%% - *Feedback-seeking is the interpersonal application of reality testing.*
-- [[Meta-Accuracy in Social Perception]] %%[supports:: [[Meta-Accuracy in Social Perception]]]%% - *Systematic feedback is the primary mechanism for improving meta-accuracy.*
-- [[Cognitive Reframing of Criticism]] %%[depends_on:: [[Cognitive Reframing of Criticism]]]%% - *Seeking feedback is only sustainable if you can cognitively reframe the resulting criticism.*
-- [[Dismissing People Who Disagree Costs You Your Best Error-Detectors]] %%[implements:: [[Dismissing People Who Disagree Costs You Your Best Error-Detectors]]]%% - *Cultivating truth-tellers requires actively keeping and listening to those who disagree with you.*
-- [[Decoupling Ego from Outcomes to Improve Decisions]] %%[depends_on:: [[Decoupling Ego from Outcomes to Improve Decisions]]]%% - *Asking open-ended questions about your flaws requires separating your ego from your behavior.*
+- [[Reality Testing]] [extends:: [[Reality Testing]]] - *Feedback-seeking is the interpersonal application of reality testing.*
+- [[Meta-Accuracy in Social Perception]] [supports:: [[Meta-Accuracy in Social Perception]]] - *Systematic feedback is the primary mechanism for improving meta-accuracy.*
+- [[Cognitive Reframing of Criticism]] [depends_on:: [[Cognitive Reframing of Criticism]]] - *Seeking feedback is only sustainable if you can cognitively reframe the resulting criticism.*
+- [[Dismissing People Who Disagree Costs You Your Best Error-Detectors]] [implements:: [[Dismissing People Who Disagree Costs You Your Best Error-Detectors]]] - *Cultivating truth-tellers requires actively keeping and listening to those who disagree with you.*
+- [[Decoupling Ego from Outcomes to Improve Decisions]] [depends_on:: [[Decoupling Ego from Outcomes to Improve Decisions]]] - *Asking open-ended questions about your flaws requires separating your ego from your behavior.*

@@ -12,7 +12,7 @@ type: sot
 
 > Open threads: [[HEAD - Do declarative rules or few-shot demonstrations constrain LLM output better?]]
 
-%%[depends_on:: [[The Architectural Guardian]], strength=4, confidence=high]%%
+[depends_on:: [[The Architectural Guardian]], strength=4, confidence=high]
 
 ## Context Engineering
 

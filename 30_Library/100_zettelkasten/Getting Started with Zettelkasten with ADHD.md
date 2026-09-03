@@ -27,4 +27,4 @@ The Zettelkasten method worked for Luhmann because he developed it organically. 
 
 See also: [[2025-04-21]]
 
-%%[implements:: [[SoT - ADHD Management Protocols]]]%%
+[implements:: [[SoT - ADHD Management Protocols]]]

@@ -53,4 +53,4 @@ Source: "LLM Reliability Engineering: Fix hallucinations, errors, & unpredictabl
 
 - [[SoT - RAG Architecture Patterns]]
 
-%%[supports:: [[LLM Hallucinations Arise from Probabilistic Prediction Without External Grounding]], strength=5, confidence=high]%%
+[supports:: [[LLM Hallucinations Arise from Probabilistic Prediction Without External Grounding]], strength=5, confidence=high]

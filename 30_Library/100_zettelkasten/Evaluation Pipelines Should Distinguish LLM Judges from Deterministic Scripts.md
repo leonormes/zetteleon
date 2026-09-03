@@ -9,9 +9,9 @@ title: Evaluation Pipelines Should Distinguish LLM Judges from Deterministic Scr
 type: claim
 ---
 
-%%[synthesizes:: [[Objective Task Validation]], strength=3, confidence=high]%%
+[synthesizes:: [[Objective Task Validation]], strength=3, confidence=high]
 
-%%[synthesizes:: [[Subjective Task Validation]], strength=3, confidence=high]%%
+[synthesizes:: [[Subjective Task Validation]], strength=3, confidence=high]
 
 ## Evaluation Pipelines Should Distinguish LLM Judges from Deterministic Scripts
 

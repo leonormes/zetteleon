@@ -24,7 +24,7 @@ Overall: True inbound orphan note.
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `DRY Principle vs System Independence.md` | `%%[supports:: [[SoT - Pragmatism vs Rigour in Software]]]%%` | Target provides a concrete software engineering heuristic that aligns with pragmatic development principles. | Yes |
+| `DRY Principle vs System Independence.md` | `[supports:: [[SoT - Pragmatism vs Rigour in Software]]]` | Target provides a concrete software engineering heuristic that aligns with pragmatic development principles. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required. The existing link to `Becoming System Agnostic` is preserved as context.

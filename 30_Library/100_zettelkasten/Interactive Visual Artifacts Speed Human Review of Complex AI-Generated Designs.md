@@ -43,4 +43,4 @@ Source: [video with "Lavish" interactive visual artifacts segment, exact title/c
 
 - [[A Supervisor Agent Delegates to Repository-Specific Sub-Agents and Escalates Only Ambiguous Architectural Decisions]]
 
-%%[extends:: [[Engineer Involvement Compresses to Planning and Review as Agentic Workflows Mature]], strength=2, confidence=low]%%
+[extends:: [[Engineer Involvement Compresses to Planning and Review as Agentic Workflows Mature]], strength=2, confidence=low]

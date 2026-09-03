@@ -19,7 +19,7 @@ Summary: Mutual respect is a foundational expectation in a partnership, demonstr
 
 Details: This includes giving weight to a partner's thoughts and feelings, refraining from name-calling or dismissiveness during disagreements, and acknowledging that each partner is a separate individual with their own limits and needs.
 
-%%[supports:: [[SoT - Framework for Healthy Communication]]]%%
+[supports:: [[SoT - Framework for Healthy Communication]]]
 
 ## Related
 

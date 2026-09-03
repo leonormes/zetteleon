@@ -46,4 +46,4 @@ Source: "AI in the SDLC: Rethinking AI Coding Tools & AI Agents" (IBM Technology
 
 - [[SoT - Flow Engineering]]
 
-%%[supports:: [[Cheaper Code Production via Agents Increases Software Volume Rather Than Reducing Developers]], strength=3, confidence=medium]%%
+[supports:: [[Cheaper Code Production via Agents Increases Software Volume Rather Than Reducing Developers]], strength=3, confidence=medium]

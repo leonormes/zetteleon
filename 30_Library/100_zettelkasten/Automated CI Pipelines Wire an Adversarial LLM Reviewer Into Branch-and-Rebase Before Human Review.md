@@ -47,6 +47,6 @@ Source: [video with "No Mistakes" adversarial review segment, exact title/channe
 
 - [[Dark Factories Fail Within Months Because LLMs Lack Long-Term Architectural Intuition]]
 
-%%[extends:: [[Cross-Model Adversarial Auditing Uses an Independent LLM to Catch Blind Spots]], strength=4, confidence=medium]%%
+[extends:: [[Cross-Model Adversarial Auditing Uses an Independent LLM to Catch Blind Spots]], strength=4, confidence=medium]
 
-%%[extends:: [[The Slow Loop Pattern - Constrained Off-Hours Agent Loops Produce a Single PR for Async Human Review]], strength=3, confidence=medium]%%
+[extends:: [[The Slow Loop Pattern - Constrained Off-Hours Agent Loops Produce a Single PR for Async Human Review]], strength=3, confidence=medium]

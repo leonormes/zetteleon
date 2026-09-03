@@ -40,6 +40,6 @@ Source: "Context engineering with Dex Horthy" (Gergely Orosz interviewing Dex Ho
 
 - [[The Slow Loop Pattern - Constrained Off-Hours Agent Loops Produce a Single PR for Async Human Review]]
 
-%%[extends:: [[Small Models Should Execute Structured Tool Calls, Large Models Complex Reasoning]], strength=3, confidence=medium]%%
+[extends:: [[Small Models Should Execute Structured Tool Calls, Large Models Complex Reasoning]], strength=3, confidence=medium]
 
-%%[extends:: [[Engineer Involvement Compresses to Planning and Review as Agentic Workflows Mature]], strength=3, confidence=medium]%%
+[extends:: [[Engineer Involvement Compresses to Planning and Review as Agentic Workflows Mature]], strength=3, confidence=medium]

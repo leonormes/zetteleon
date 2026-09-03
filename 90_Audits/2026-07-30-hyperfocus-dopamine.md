@@ -23,7 +23,7 @@ Overall: Orphan note (not structurally anchored to an SoT).
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `2026-07-25-hyperfocus-dopamine-mistaken-for-logical-integrity.md` | `%%[supports:: [[SoT - Illusion of Explanatory Depth (IoED)]]]%%` | Target acts as a domain-specific (ADHD) mechanism validating the illusion detailed in the SoT. | Yes |
+| `2026-07-25-hyperfocus-dopamine-mistaken-for-logical-integrity.md` | `[supports:: [[SoT - Illusion of Explanatory Depth (IoED)]]]` | Target acts as a domain-specific (ADHD) mechanism validating the illusion detailed in the SoT. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required. The existing `extends` edge is preserved.

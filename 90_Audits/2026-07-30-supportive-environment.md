@@ -24,7 +24,7 @@ Overall: True orphan note (not structurally anchored to an SoT).
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `A Supportive Environment...md` | `%%[supports:: [[SoT - Behavioral Architecture]]]%%` | Target provides a positive proof point for environmental design (visual field engineering) boosting creative output. | Yes |
+| `A Supportive Environment...md` | `[supports:: [[SoT - Behavioral Architecture]]]` | Target provides a positive proof point for environmental design (visual field engineering) boosting creative output. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required. The existing links to sibling claims under `## Related` are kept as lateral exploration of choice architecture and novelty.

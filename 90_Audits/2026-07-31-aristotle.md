@@ -24,7 +24,7 @@ Overall: True orphan note (not structurally anchored).
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Aristotle Distinguished Between...md` | `%%[supports:: [[SoT - The Extended Mind]]]%%` | Target provides classical foundational support for the necessity of action in cognition (Embodied/Extended mind). | Yes |
+| `Aristotle Distinguished Between...md` | `[supports:: [[SoT - The Extended Mind]]]` | Target provides classical foundational support for the necessity of action in cognition (Embodied/Extended mind). | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required. The lateral plain link `21-wtf_is_knowledge_anyway` is preserved.

@@ -17,7 +17,7 @@ version: 1
 >
 > Schema Contracts: [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]] (edge syntax, the closed six-word vocabulary), [[SoT - Knowledge Compiler (Argument Graph Spec)]] (what the compiler actually computes from those edges), [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]] (note-level schema).
 >
-> Write scope: [[AGENTS.md]] §9.3—inside `30_Library/`, direct writes are limited to a `%%[relationship:: [[target]]]%%` typed-edge line and the `axiom: true` boolean. §2.4 covers claim stubs to `raw/proposed-claims/`, which the agent may write directly. Everything else this prompt proposes (plain `[[wikilink]]`s, `## Related` annotations, MoC anchor lines, frontmatter conformance fields) is a **recommendation for Leon to apply**, not an auto-edit—matching the read-only default on `30_Library/MoC/` and the rest of `30_Library/`.
+> Write scope: [[AGENTS.md]] §9.3—inside `30_Library/`, direct writes are limited to a `[relationship:: [[target]]]` typed-edge line and the `axiom: true` boolean. §2.4 covers claim stubs to `raw/proposed-claims/`, which the agent may write directly. Everything else this prompt proposes (plain `[[wikilink]]`s, `## Related` annotations, MoC anchor lines, frontmatter conformance fields) is a **recommendation for Leon to apply**, not an auto-edit—matching the read-only default on `30_Library/MoC/` and the rest of `30_Library/`.
 >
 > Divergence flag: [[Note Refresh & Link Auditor]] Phase 3 instructs direct edits to `## Related` prose and frontmatter metadata on the Target. That reads as looser than the current §9.3 wording, which names only the typed-edge line and `axiom:` as the sanctioned exception. This prompt takes the stricter reading deliberately—propose those two categories, don't write them—rather than resolving the inconsistency by fiat. Flag it to Leon if it comes up; don't silently pick a side across the library.
 
@@ -73,7 +73,7 @@ Passing candidates → §1.5 (typed edge). Failing-but-topically-real candidates
 
 ### 1.5 Draft typed edges (closed vocabulary only)
 
-For each candidate that passes all three tests, draft `%%[<relationship>:: [[target]]]%%` using **only**: `extends`, `synthesizes`, `implements`, `contradicts`, `supports`, `depends_on`. State which of these three is happening, since it changes what the compiler does with the edge:
+For each candidate that passes all three tests, draft `[<relationship>:: [[target]]]` using **only**: `extends`, `synthesizes`, `implements`, `contradicts`, `supports`, `depends_on`. State which of these three is happening, since it changes what the compiler does with the edge:
 
 - `supports` / `depends_on` → feeds C1 gap detection and C4 provenance directly.
 - `contradicts` → feeds C3 conflict detection. Apply the contradiction-vs-tension test first: *can both claims hold if you change one background assumption?* Yes → this is a `## Tensions` prose note, not an edge. No, and both notes exist → `contradicts`.

@@ -24,7 +24,7 @@ Overall: True inbound orphan note.
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Information as an Organizing...md` | `%%[supports:: [[SoT - The Law of Increasing Functional Information]]]%%` | Target philosophically aligns with and supports the SoT's physical definition of information as a fundamental structuring force. | Yes |
+| `Information as an Organizing...md` | `[supports:: [[SoT - The Law of Increasing Functional Information]]]` | Target philosophically aligns with and supports the SoT's physical definition of information as a fundamental structuring force. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required. The existing plain link to `Information as Foundation of Knowledge` will be preserved as a contextual mention.

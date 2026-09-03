@@ -20,4 +20,4 @@ A supportive environment is critical for fostering creativity. This involves int
 - [[Choice Architecture Designs the Environment to Make Desired Behaviors Easier]] - _Focuses on how environment design can nudge positive outcomes like inspiration._
 - [[Changing Environments Provides Novelty for ADHD Writing]] - _Discusses changing environments to increase engagement and novelty._
 
-%%[supports:: [[SoT - Behavioral Architecture]]]%%
+[supports:: [[SoT - Behavioral Architecture]]]

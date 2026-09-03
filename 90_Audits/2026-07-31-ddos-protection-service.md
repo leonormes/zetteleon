@@ -24,7 +24,7 @@ Overall: True totally disconnected orphan note.
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `DDoS Protection Service.md` | `%%[implements:: [[SoT - Network Security Architecture]]]%%` | Target is an applied technology that fulfills a core objective of the parent architecture. | Yes |
+| `DDoS Protection Service.md` | `[implements:: [[SoT - Network Security Architecture]]]` | Target is an applied technology that fulfills a core objective of the parent architecture. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required. Note had zero outgoing links initially.

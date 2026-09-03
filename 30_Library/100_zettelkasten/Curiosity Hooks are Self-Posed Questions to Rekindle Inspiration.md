@@ -19,9 +19,9 @@ Summary: "Curiosity hooks" are questions, challenges, or interesting problems th
 
 Details: These are not necessarily critical-path tasks, but rather interesting avenues for exploration. Examples could be "What if we tried using X technology here?" or "How could I simplify this component?". Reviewing these hooks can make returning to the project feel like an opportunity for discovery rather than a chore.
 
-%%[depends_on:: [[The ADHD brain operates on an Interest-Based Nervous System]]]%%
+[depends_on:: [[The ADHD brain operates on an Interest-Based Nervous System]]]
 
-%%[supports:: [[Context Preservation Techniques Maintain Project Novelty and Meaning]]]%%
+[supports:: [[Context Preservation Techniques Maintain Project Novelty and Meaning]]]
 
 ## Related
 

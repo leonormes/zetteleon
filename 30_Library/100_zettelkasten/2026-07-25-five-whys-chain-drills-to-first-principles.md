@@ -33,4 +33,4 @@ Five is an arbitrary heuristic depth—some causal chains bottom out in fewer it
 
 No outgoing edge from this note—[[Familiarity and Comprehension Are Distinct, Often-Conflated Cognitive States]] already declares the `supports` edge pointing here (this antidote targets exactly that familiarity/comprehension gap).
 
-%%[supports:: [[SoT - Illusion of Explanatory Depth (IoED)]]]%%
+[supports:: [[SoT - Illusion of Explanatory Depth (IoED)]]]

@@ -47,6 +47,6 @@ Source: "FORGET Loop Engineering. Agentic Engineering is about THIS" (IndyDevDan
 
 - [[Overdelegation and Underdelegation Are Symmetric Failure Modes in AI-Assisted Coding]]
 
-%%[extends:: [[Shift to Architectural Oversight]], strength=3, confidence=medium]%%
+[extends:: [[Shift to Architectural Oversight]], strength=3, confidence=medium]
 
-%%[depends_on:: [[Code as Zero-Cost Deterministic Actor Alongside Engineers and Agents in Workflows]], strength=3, confidence=medium]%%
+[depends_on:: [[Code as Zero-Cost Deterministic Actor Alongside Engineers and Agents in Workflows]], strength=3, confidence=medium]

@@ -48,6 +48,6 @@ Source: "The harness is all you need (mostly)" (github.blog, GitHub Copilot team
 
 - [[Prompt Cache Discounts Reward Staying on the Same Model and Reasoning Level Within a Task]]
 
-%%[extends:: [[Reasoning Loops Require Explicit Stopping Conditions (End-Loop Guardrails)]], strength=3, confidence=medium]%%
+[extends:: [[Reasoning Loops Require Explicit Stopping Conditions (End-Loop Guardrails)]], strength=3, confidence=medium]
 
-%%[extends:: [[Cross-Model Adversarial Auditing Uses an Independent LLM to Catch Blind Spots]], strength=3, confidence=medium]%%
+[extends:: [[Cross-Model Adversarial Auditing Uses an Independent LLM to Catch Blind Spots]], strength=3, confidence=medium]

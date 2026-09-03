@@ -25,8 +25,8 @@ Existing link count out: 0 (True outbound orphan).
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Felt significance of thoughts...md` | `%%[supports:: [[SoT - Illusion of Explanatory Depth (IoED)]]]%%` | Target defines the specific cognitive illusion ("The Illusion of Profundity") operating inside the broader IoED framework. | Yes |
-| `Felt significance of thoughts...md` | `%%[supports:: [[SoT - Metacognitive Calibration]]]%%` | Target provides the core psychological premise that necessitates metacognitive calibration. | Yes |
+| `Felt significance of thoughts...md` | `[supports:: [[SoT - Illusion of Explanatory Depth (IoED)]]]` | Target defines the specific cognitive illusion ("The Illusion of Profundity") operating inside the broader IoED framework. | Yes |
+| `Felt significance of thoughts...md` | `[supports:: [[SoT - Metacognitive Calibration]]]` | Target provides the core psychological premise that necessitates metacognitive calibration. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required. The structural edges firmly anchor the note into the cognitive science/metacognition layers of the graph.

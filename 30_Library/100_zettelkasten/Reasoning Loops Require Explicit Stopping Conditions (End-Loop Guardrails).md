@@ -73,6 +73,6 @@ Source: "Loop Engineering | LLM". Quotes:
 
 - [[SoT - Loop Safety and Termination Guarantees]]
 
-%%[supports:: [[Continuous Autonomous Agent Loops Incur Significant API Cost]], strength=4, confidence=high]%%
+[supports:: [[Continuous Autonomous Agent Loops Incur Significant API Cost]], strength=4, confidence=high]
 
-%%[implements:: [[Human-in-the-Loop (HITL) as Mandatory Control Layer for High-Stakes LLM Applications]], strength=3, confidence=high]%%
+[implements:: [[Human-in-the-Loop (HITL) as Mandatory Control Layer for High-Stakes LLM Applications]], strength=3, confidence=high]

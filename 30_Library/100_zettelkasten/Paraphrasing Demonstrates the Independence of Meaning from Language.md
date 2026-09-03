@@ -22,5 +22,5 @@ This separation allows for the richness of language. We can explore different fa
 ## See Also
 
 - [[Claim - Vocabulary acts as a compression scheme pointing to shared internal models rather than carrying inherent meaning]] — _Because vocabulary acts as compression, meaning is independent of language._
-%%[supports:: [[Claim - Vocabulary acts as a compression scheme pointing to shared internal models rather than carrying inherent meaning]]]%%
+[supports:: [[Claim - Vocabulary acts as a compression scheme pointing to shared internal models rather than carrying inherent meaning]]]
 - [[MOC - Paraphrasing and Language]] — _Central hub for notes on paraphrasing and semantics._

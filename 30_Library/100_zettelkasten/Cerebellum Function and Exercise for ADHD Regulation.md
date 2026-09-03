@@ -25,7 +25,7 @@ Therefore, a regular exercise routine, particularly one incorporating balance an
 
 ### Related Concepts
 
-- [[Emotional Regulation Techniques for ADHD Productivity]] %%[extends:: [[Emotional Regulation Techniques for ADHD Productivity]]]%% - *Strengthening the cerebellum through coordination exercises provides a physiological basis for emotional regulation.*
-- [[Dopamine reward pathway dysfunction causes ADHD task initiation difficulty]] %%[supports:: [[Dopamine reward pathway dysfunction causes ADHD task initiation difficulty]]]%% - *Exercise directly increases dopamine and norepinephrine, mitigating task initiation hurdles.*
-- [[The Glitchy Switch - TPN and DMN Dysregulation in ADHD]] %%[supports:: [[The Glitchy Switch - TPN and DMN Dysregulation in ADHD]]]%% - *A charging thought battery helps regulate the transition between default and task-positive networks.*
-- [[Physical Movement Before Cognitive Tasks Primes DLPFC Activation in ADHD]] %%[supports:: [[Physical Movement Before Cognitive Tasks Primes DLPFC Activation in ADHD]]]%% - *Coordination and balance exercises are practical examples of the physical movement required to prime cognitive engagement.*
+- [[Emotional Regulation Techniques for ADHD Productivity]] [extends:: [[Emotional Regulation Techniques for ADHD Productivity]]] - *Strengthening the cerebellum through coordination exercises provides a physiological basis for emotional regulation.*
+- [[Dopamine reward pathway dysfunction causes ADHD task initiation difficulty]] [supports:: [[Dopamine reward pathway dysfunction causes ADHD task initiation difficulty]]] - *Exercise directly increases dopamine and norepinephrine, mitigating task initiation hurdles.*
+- [[The Glitchy Switch - TPN and DMN Dysregulation in ADHD]] [supports:: [[The Glitchy Switch - TPN and DMN Dysregulation in ADHD]]] - *A charging thought battery helps regulate the transition between default and task-positive networks.*
+- [[Physical Movement Before Cognitive Tasks Primes DLPFC Activation in ADHD]] [supports:: [[Physical Movement Before Cognitive Tasks Primes DLPFC Activation in ADHD]]] - *Coordination and balance exercises are practical examples of the physical movement required to prime cognitive engagement.*

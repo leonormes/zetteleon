@@ -13,7 +13,7 @@ type: atom
 upstream: '[[HEAD - Agentic Engineering and AI Workflow Management]]'
 ---
 
-%%[supports:: [[Minimum Viable Context for LLMs Prevents Hallucination via Structural Boundaries]], strength=3, confidence=medium]%%
+[supports:: [[Minimum Viable Context for LLMs Prevents Hallucination via Structural Boundaries]], strength=3, confidence=medium]
 
 ## MCP Token Noise
 

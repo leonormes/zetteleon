@@ -39,6 +39,6 @@ Source: "State of Agentic Coding, episode 8, with Mario, Armin, and Ben" (Armin 
 
 - [[Vibe Coding - Rapid AI-Assisted Code Generation Without Engineering Rigor]]
 
-%%[supports:: [[Overdelegation and Underdelegation Are Symmetric Failure Modes in AI-Assisted Coding]], strength=3, confidence=medium]%%
+[supports:: [[Overdelegation and Underdelegation Are Symmetric Failure Modes in AI-Assisted Coding]], strength=3, confidence=medium]
 
-%%[supports:: [[Mandatory Manual Code Review Before Deployment]], strength=4, confidence=medium]%%
+[supports:: [[Mandatory Manual Code Review Before Deployment]], strength=4, confidence=medium]

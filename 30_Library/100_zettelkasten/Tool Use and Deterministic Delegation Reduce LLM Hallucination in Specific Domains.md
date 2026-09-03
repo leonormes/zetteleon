@@ -54,6 +54,6 @@ The Model Context Protocol (MCP) provides a standard interface for tool use. The
 
 - [[SoT - Tool Use in LLM Architectures]]
 
-%%[supports:: [[LLM Hallucinations Arise from Probabilistic Prediction Without External Grounding]], strength=5, confidence=high]%%
+[supports:: [[LLM Hallucinations Arise from Probabilistic Prediction Without External Grounding]], strength=5, confidence=high]
 
-%%[depends_on:: [[Model Context Protocol Standardises the LLM-to-Tool Interface]], strength=3, confidence=high]%%
+[depends_on:: [[Model Context Protocol Standardises the LLM-to-Tool Interface]], strength=3, confidence=high]

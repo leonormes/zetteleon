@@ -22,4 +22,4 @@ It ranges from "big C" creativity (art, invention, scientific insight) to the ev
 - [[Mathematics Involves Creativity and Aesthetic Judgement]]—creativity operating inside a formal discipline, which is where the "productive" constraint is most visible.
 - [[Embracing Struggles is Part of the Creative Journey]]—the affective cost of exercising this strength.
 
-%%[extends:: [[VIA Virtue of Wisdom]], strength=4, confidence=high]%%
+[extends:: [[VIA Virtue of Wisdom]], strength=4, confidence=high]

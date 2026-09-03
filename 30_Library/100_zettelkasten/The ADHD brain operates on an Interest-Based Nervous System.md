@@ -63,15 +63,15 @@ The IBNS model rests on these neuro-mechanistic claims (each carries a `supports
 
 The IBNS mechanism explains and predicts (each line carries an `IBNS supports →` edge, so they appear in `edge_lint.py --impact`):
 
-- [[ADHD Paralysis is the Inability to Start a Task Until it Becomes an Emergency]]—the brain waits for an urgency ignition. %%[supports:: [[ADHD Paralysis is the Inability to Start a Task Until it Becomes an Emergency]]]%%
-- [[ADHD Task Initiation Difficulty is a Neurological Issue Not Laziness]]—no ignition key, no start. %%[supports:: [[ADHD Task Initiation Difficulty is a Neurological Issue Not Laziness]]]%%
-- [[The 'Dopamine Shot' vs 'Relief from Anxiety' in Task Completion]]—completion returns relief, not reward. %%[supports:: [[The 'Dopamine Shot' vs 'Relief from Anxiety' in Task Completion]]]%%
-- [[Claim - Intrinsic motivation lowers ADHD activation cost compared to external pressure]]—the Interest key lowers activation cost. %%[supports:: [[Claim - Intrinsic motivation lowers ADHD activation cost compared to external pressure]]]%%
-- [[Claim - Novelty-craving drives self-defeating system-hopping]]—the Novelty key, over-run. %%[supports:: [[Claim - Novelty-craving drives self-defeating system-hopping]]]%%
-- [[Shiny Object Syndrome in ADHD]]—the Novelty key pulling attention off-task. %%[supports:: [[Shiny Object Syndrome in ADHD]]]%%
-- [[ADHD Systems Fail When They Become Monotonous]]—an ignition key (novelty/interest) decaying. %%[supports:: [[ADHD Systems Fail When They Become Monotonous]]]%%
-- [[Hyperfocus is a State of Intense Interest-Driven Focus in ADHD]]—the Interest key, fully engaged. %%[supports:: [[Hyperfocus is a State of Intense Interest-Driven Focus in ADHD]]]%%
-- [[Rapid Feedback Loops are Essential for ADHD Motivation]]—feedback supplies the ongoing ignition. %%[supports:: [[Rapid Feedback Loops are Essential for ADHD Motivation]]]%%
+- [[ADHD Paralysis is the Inability to Start a Task Until it Becomes an Emergency]]—the brain waits for an urgency ignition. [supports:: [[ADHD Paralysis is the Inability to Start a Task Until it Becomes an Emergency]]]
+- [[ADHD Task Initiation Difficulty is a Neurological Issue Not Laziness]]—no ignition key, no start. [supports:: [[ADHD Task Initiation Difficulty is a Neurological Issue Not Laziness]]]
+- [[The 'Dopamine Shot' vs 'Relief from Anxiety' in Task Completion]]—completion returns relief, not reward. [supports:: [[The 'Dopamine Shot' vs 'Relief from Anxiety' in Task Completion]]]
+- [[Claim - Intrinsic motivation lowers ADHD activation cost compared to external pressure]]—the Interest key lowers activation cost. [supports:: [[Claim - Intrinsic motivation lowers ADHD activation cost compared to external pressure]]]
+- [[Claim - Novelty-craving drives self-defeating system-hopping]]—the Novelty key, over-run. [supports:: [[Claim - Novelty-craving drives self-defeating system-hopping]]]
+- [[Shiny Object Syndrome in ADHD]]—the Novelty key pulling attention off-task. [supports:: [[Shiny Object Syndrome in ADHD]]]
+- [[ADHD Systems Fail When They Become Monotonous]]—an ignition key (novelty/interest) decaying. [supports:: [[ADHD Systems Fail When They Become Monotonous]]]
+- [[Hyperfocus is a State of Intense Interest-Driven Focus in ADHD]]—the Interest key, fully engaged. [supports:: [[Hyperfocus is a State of Intense Interest-Driven Focus in ADHD]]]
+- [[Rapid Feedback Loops are Essential for ADHD Motivation]]—feedback supplies the ongoing ignition. [supports:: [[Rapid Feedback Loops are Essential for ADHD Motivation]]]
 
 ## Related Knowledge
 
@@ -85,4 +85,4 @@ The IBNS mechanism explains and predicts (each line carries an `IBNS supports �
 
 [[Executive Function Challenges are Central to ADHD]]—EF's own note names dopamine dysregulation "leading to an Interest-Based Nervous System (IBNS)" as one of its three neurobiological underpinnings
 
-%%[supports:: [[Executive Function Challenges are Central to ADHD]]]%%
+[supports:: [[Executive Function Challenges are Central to ADHD]]]

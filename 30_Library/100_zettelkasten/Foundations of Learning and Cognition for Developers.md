@@ -16,10 +16,10 @@ type: concept
 ---
 To comprehend how developers master complex programming concepts and systems, it is essential to first understand the fundamental cognitive processes that underpin all human learning. These processes—attention, perception, and memory—form the bedrock upon which more specialized skills, like coding, are built.
 
-This acts as the psychological bridge to [[The Neuroscience of Developer Cognition]] %%[supports:: [[The Neuroscience of Developer Cognition]]]%%, which attempts to map these foundational functions to specific neural pathways.
+This acts as the psychological bridge to [[The Neuroscience of Developer Cognition]] [supports:: [[The Neuroscience of Developer Cognition]]], which attempts to map these foundational functions to specific neural pathways.
 
 ### Core Cognitive Pillars
 
-- **Perception:** Addressed in [[MOC - Pattern - From Sensory Input to Meaning]] %%[depends_on:: [[MOC - Pattern - From Sensory Input to Meaning]]]%%. The brain must first organise raw code text into meaningful tokens.
-- **Memory:** Addressed in [[SoT - Working Memory & Schema Theory]] %%[depends_on:: [[SoT - Working Memory & Schema Theory]]]%%. Reading and writing code places an immense load on the working memory before patterns can be encoded into long-term schema.
-- **Process Integration:** [[How the Brain Learns Core Cognitive Processes]] %%[synthesizes:: [[How the Brain Learns Core Cognitive Processes]]]%% details the interplay of these faculties during the acquisition of new skills.
+- **Perception:** Addressed in [[MOC - Pattern - From Sensory Input to Meaning]] [depends_on:: [[MOC - Pattern - From Sensory Input to Meaning]]]. The brain must first organise raw code text into meaningful tokens.
+- **Memory:** Addressed in [[SoT - Working Memory & Schema Theory]] [depends_on:: [[SoT - Working Memory & Schema Theory]]]. Reading and writing code places an immense load on the working memory before patterns can be encoded into long-term schema.
+- **Process Integration:** [[How the Brain Learns Core Cognitive Processes]] [synthesizes:: [[How the Brain Learns Core Cognitive Processes]]] details the interplay of these faculties during the acquisition of new skills.

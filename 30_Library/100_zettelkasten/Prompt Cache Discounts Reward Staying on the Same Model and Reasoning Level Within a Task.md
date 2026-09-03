@@ -44,4 +44,4 @@ Source: "The harness is all you need (mostly)" (github.blog, GitHub Copilot team
 
 - [[Adversarial Review Loops Can Stop on Mutual Diminishing-Returns Agreement Rather Than a Fixed Condition]]
 
-%%[supports:: [[Rising Per-Task Cost of Newer Models Indicates Inflation in Problem-Solving Cost]], strength=2, confidence=medium]%%
+[supports:: [[Rising Per-Task Cost of Newer Models Indicates Inflation in Problem-Solving Cost]], strength=2, confidence=medium]

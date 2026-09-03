@@ -24,7 +24,7 @@ Overall: True orphan note (not structurally anchored to an SoT).
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Commitment, Consistency, and Sunk Cost Fallacy.md` | `%%[supports:: [[SoT - Social Cognition & Self-Perception]]]%%` | Target provides a cognitive mechanism (sunk cost/consistency bias) that reinforces the SoT's theory of ego-driven, post-hoc rationalisation in social conflict. | Yes |
+| `Commitment, Consistency, and Sunk Cost Fallacy.md` | `[supports:: [[SoT - Social Cognition & Self-Perception]]]` | Target provides a cognitive mechanism (sunk cost/consistency bias) that reinforces the SoT's theory of ego-driven, post-hoc rationalisation in social conflict. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required. The existing text references to "Contextual Myopia" and "Contextual Relationships" are left as bare text since they represent dangling concepts/discussions rather than concrete notes.

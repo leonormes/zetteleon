@@ -17,4 +17,4 @@ Defensive hypervigilance is a coping mechanism where individuals anxiously scan 
 
 This concept is discussed in [[MOC - Authority Dynamics and ADHD]] as part of the shame-procrastination cycle, and connects to [[Rejection Sensitive Dysphoria (RSD)|RSD]] as the underlying mechanism driving this coping strategy.
 
-%%[depends_on:: [[Rejection Sensitive Dysphoria (RSD)]], strength=4, confidence=high]%%
+[depends_on:: [[Rejection Sensitive Dysphoria (RSD)]], strength=4, confidence=high]

@@ -18,4 +18,4 @@ Example: Note 1.1a about "apples are healthy" and 1.1a1 about "the history of ap
 
 Previous: [[Alphanumeric IDs Are Addresses Not Categories]]
 
-%%[supports:: [[Claim - Flat associative structure beats rigid hierarchy]], strength=4, confidence=high]%%
+[supports:: [[Claim - Flat associative structure beats rigid hierarchy]], strength=4, confidence=high]

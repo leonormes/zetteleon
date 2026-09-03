@@ -30,7 +30,7 @@ Source: "Nobody Pages the LLM: Engineering Rigour for Vibe Coding" (Ritesh Modi)
 
 ### Implications
 
-- Shift in hiring: Coding skill alone is no longer the bottleneck. Domain knowledge + ability to work with LLM output becomes the bottleneck. %%[supports:: [[Cheaper Code Production via Agents Increases Software Volume Rather Than Reducing Developers]]]%%
+- Shift in hiring: Coding skill alone is no longer the bottleneck. Domain knowledge + ability to work with LLM output becomes the bottleneck. [supports:: [[Cheaper Code Production via Agents Increases Software Volume Rather Than Reducing Developers]]]
 - Specialization grows in value: Generic developers (good at many domains) decrease in value; specialists (deep knowledge in one domain) increase in value.
 - Maintenance becomes strategic: The developer who understands why the code was written this way (not just how it works) becomes harder to replace.
 
@@ -47,11 +47,11 @@ Domain experts who don't stay current with tooling (including LLMs) become obsol
 ### Related
 
 - [[Mandatory Manual Code Review Before Deployment]]—implementation: reviewing AI output is how you apply domain knowledge.
-- [[Vibe Coding - Rapid AI-Assisted Code Generation Without Engineering Rigor]]—context: describes the world where this advantage matters. %%[depends_on:: [[Vibe Coding - Rapid AI-Assisted Code Generation Without Engineering Rigor]]]%%
+- [[Vibe Coding - Rapid AI-Assisted Code Generation Without Engineering Rigor]]—context: describes the world where this advantage matters. [depends_on:: [[Vibe Coding - Rapid AI-Assisted Code Generation Without Engineering Rigor]]]
 - [[LLM Probabilistic Outputs Prevent Consistency Guarantees]]—grounds: inconsistency means only a domain expert can judge if a solution is appropriate.
 
 ### See Also
 
-%%[depends_on:: [[Mandatory Manual Code Review Before Deployment]], strength=4, confidence=high]%%
+[depends_on:: [[Mandatory Manual Code Review Before Deployment]], strength=4, confidence=high]
 
-%%[depends_on:: [[LLM Probabilistic Outputs Prevent Consistency Guarantees]], strength=3, confidence=high]%%
+[depends_on:: [[LLM Probabilistic Outputs Prevent Consistency Guarantees]], strength=3, confidence=high]

@@ -19,4 +19,4 @@ Combining visual elements with writing can make the process more stimulating for
 
 - [[Changing Environments Provides Novelty for ADHD Writing]]
 
-%%[implements:: [[SoT - ADHD Neurology & Core Concepts]]]%%
+[implements:: [[SoT - ADHD Neurology & Core Concepts]]]

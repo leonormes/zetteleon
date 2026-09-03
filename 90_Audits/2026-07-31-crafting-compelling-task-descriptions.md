@@ -24,7 +24,7 @@ Overall: True totally disconnected orphan note.
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Crafting Compelling Task Descriptions...md` | `%%[implements:: [[SoT - PRODOS Core Specification]]]%%` | Target is an applied technique for defining tasks in alignment with PRODOS execution requirements. | Yes |
+| `Crafting Compelling Task Descriptions...md` | `[implements:: [[SoT - PRODOS Core Specification]]]` | Target is an applied technique for defining tasks in alignment with PRODOS execution requirements. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required. Note had zero outgoing links initially.

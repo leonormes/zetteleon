@@ -24,8 +24,8 @@ Overall: Orphan note (not structurally anchored with valid typed edges).
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `AI Data Center CapEx Is Driving...md` | `%%[supports:: [[SoT - Fundamental Description of Economics]]]%%` | Target is an applied example of economic scarcity in the hardware market. | Yes |
-| `AI Data Center CapEx Is Driving...md` | `%%[related_to:: [[Unsustainable Agent Token Costs Are Driving a Shift from Flat-Fee to Usage-Based Pricing]]]%%` | Fixes the invalid syntax (strips parameters) on the existing edge pointing to a sibling claim about compute economics. | Yes |
+| `AI Data Center CapEx Is Driving...md` | `[supports:: [[SoT - Fundamental Description of Economics]]]` | Target is an applied example of economic scarcity in the hardware market. | Yes |
+| `AI Data Center CapEx Is Driving...md` | `[related_to:: [[Unsustainable Agent Token Costs Are Driving a Shift from Flat-Fee to Usage-Based Pricing]]]` | Fixes the invalid syntax (strips parameters) on the existing edge pointing to a sibling claim about compute economics. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required. The other related plain link is preserved.

@@ -49,4 +49,4 @@ Source: "AI in the SDLC: Rethinking AI Coding Tools & AI Agents" (IBM Technology
 
 - [[Architecture First Approach to AI Development]]
 
-%%[implements:: [[AI Speedup Confined to the Build Phase Is Absorbed by Surrounding SDLC Bottlenecks]], strength=4, confidence=medium]%%
+[implements:: [[AI Speedup Confined to the Build Phase Is Absorbed by Surrounding SDLC Bottlenecks]], strength=4, confidence=medium]

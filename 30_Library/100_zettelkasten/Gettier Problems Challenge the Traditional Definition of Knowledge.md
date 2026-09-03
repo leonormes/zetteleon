@@ -16,4 +16,4 @@ Summary: Gettier problems are counterexamples in philosophy that challenge the t
 
 Details: In 1963, Edmund Gettier published a short paper presenting scenarios where an individual holds a belief that is both true and justified, but which we would intuitively hesitate to call knowledge. These cases typically involve a degree of luck or coincidence, suggesting that the justification, while valid, is not appropriately connected to the truth of the belief. This has led to extensive debate and attempts to amend the traditional definition of knowledge.
 
-%%[contradicts:: [[The Traditional Definition of Knowledge is Justified True Belief]]]%%
+[contradicts:: [[The Traditional Definition of Knowledge is Justified True Belief]]]

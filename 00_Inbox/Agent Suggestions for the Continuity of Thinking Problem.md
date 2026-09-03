@@ -114,7 +114,7 @@ Precedent, from [[The sophistication is a bug not a feature]] (2025-11-15):
 
 > _"This is my latest thinking on this long line of pkm ideas."_
 
-That is a HEAD marker, asserted in prose, ten months ago, invisible to every tool in the vault. A `%%[revises:: [[older note]]]%%` line on the newer note says the same thing in a form `edge_lint.py` can traverse.
+That is a HEAD marker, asserted in prose, ten months ago, invisible to every tool in the vault. A `[revises:: [[older note]]]` line on the newer note says the same thing in a form `edge_lint.py` can traverse.
 
 Three small pieces:
 

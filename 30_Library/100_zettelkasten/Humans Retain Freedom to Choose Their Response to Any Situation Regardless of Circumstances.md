@@ -34,7 +34,7 @@ Does not imply freedom from consequences, suffering, or constraint. The claim is
 
 [[Responding vs. Reacting]]—presupposition. The claim only has content if there _is_ a space between stimulus and response in which an attitude can be selected. That gap is the premise; this claim is the assertion that the gap survives any circumstance. Mushin reaches the same structure from a different tradition.
 
-%%[depends_on:: [[Responding vs. Reacting]]]%%
+[depends_on:: [[Responding vs. Reacting]]]
 
 [[SoT - Logotherapy and the Will to Meaning]]—source and grounding. Freedom of Will is Pillar A of the SoT ("the last of the human freedoms"), which carries Frankl's camp testimony. The supporting edge is emitted from the SoT; this is the human-readable half of it.
 
@@ -42,10 +42,10 @@ Does not imply freedom from consequences, suffering, or constraint. The claim is
 
 [[Meaning Is Discovered Through Creative Experiential and Attitudinal Values]]—attitudinal values are only a coherent pathway if attitude is choosable. This claim is the precondition for Frankl's third avenue to meaning.
 
-%%[supports:: [[Meaning Is Discovered Through Creative Experiential and Attitudinal Values]]]%%
+[supports:: [[Meaning Is Discovered Through Creative Experiential and Attitudinal Values]]]
 
 [[The Self is Constructed Through a Commitment to Chosen Values]]—shared mechanism: both ground identity and agency in chosen response rather than inherited or imposed conditions. Attitudinal freedom is the micro-level instance and the enabling condition; values-commitment is the macro-level construction built on it.
 
-%%[supports:: [[The Self is Constructed Through a Commitment to Chosen Values]]]%%
+[supports:: [[The Self is Constructed Through a Commitment to Chosen Values]]]
 
 Depended on by [[Tragic Optimism Is Hope and Meaning That Acknowledges Rather Than Denies the Tragic Triad]]—that edge is emitted from the Tragic Optimism note.

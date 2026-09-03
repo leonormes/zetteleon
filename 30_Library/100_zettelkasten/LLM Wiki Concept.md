@@ -13,7 +13,7 @@ type: atom
 upstream: '[[SoT - LLM Wiki Pattern]]'
 ---
 
-%%[implements:: [[SoT - LLM Wiki Pattern]], strength=4, confidence=high]%%
+[implements:: [[SoT - LLM Wiki Pattern]], strength=4, confidence=high]
 
 ## LLM Wiki Concept
 

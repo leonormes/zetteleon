@@ -22,4 +22,4 @@ This process intentionally hides the usable information by destroying its percei
 
 - Links: [[Information as a Perceivable Pattern]], [[Shannon's Information Theory - Information as Uncertainty]]
 
-%%[depends_on:: [[Patterns are the Scaffolding of Knowledge]], strength=2, confidence=medium]%%
+[depends_on:: [[Patterns are the Scaffolding of Knowledge]], strength=2, confidence=medium]

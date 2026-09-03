@@ -24,7 +24,7 @@ Overall: True inbound orphan note.
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Effective Productivity Comes From the Bottom Up.md` | `%%[supports:: [[SoT - Execution Protocol (GTD & PARA)]]]%%` | Target is a philosophical/tactical claim that justifies the atomic action mechanics of the GTD Execution Protocol. | Yes |
+| `Effective Productivity Comes From the Bottom Up.md` | `[supports:: [[SoT - Execution Protocol (GTD & PARA)]]]` | Target is a philosophical/tactical claim that justifies the atomic action mechanics of the GTD Execution Protocol. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required. The existing plain links will be preserved as contextual mentions.

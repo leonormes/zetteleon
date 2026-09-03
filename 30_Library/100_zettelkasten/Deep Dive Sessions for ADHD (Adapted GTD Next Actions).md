@@ -49,8 +49,8 @@ type: hypothesis
 - _(Log daily results here: e.g., "Mon: Success. Tue: Failed, distraction.")_
 
 ---
-%%[contradicts:: [[Replace Deep Focus Marathons With Repeatable Micro-Pipelines]]]%%
-%%[contradicts:: [[A Next Action Must Be the Absolute Next Physical Visible Activity Required to Move a Situation Forward]]]%%
+[contradicts:: [[Replace Deep Focus Marathons With Repeatable Micro-Pipelines]]]
+[contradicts:: [[A Next Action Must Be the Absolute Next Physical Visible Activity Required to Move a Situation Forward]]]
 
 ## Related
 

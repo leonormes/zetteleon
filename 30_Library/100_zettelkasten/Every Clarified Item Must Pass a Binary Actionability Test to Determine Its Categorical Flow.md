@@ -34,4 +34,4 @@ The first question asked for every single item during the Clarify stage—no exc
 - [[The Clarification Process Eliminates Ambiguity and Reduces Overwhelm]]—direct concept match: the actionability filter is the operative mechanism by which ambiguity is eliminated.
 - [[Optimization Criteria Must Be Binary Single-Variable Testable Conditions]]—shared mechanism: "Is it actionable?" is a precise instance of a binary, single-variable evaluation criterion—the GTD actionability filter and automated optimization criteria are structurally identical decision gates.
 
-%%[supports:: [[SoT - Execution Protocol (GTD & PARA)]]]%%
+[supports:: [[SoT - Execution Protocol (GTD & PARA)]]]

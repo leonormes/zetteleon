@@ -16,4 +16,4 @@ Summary: The innate ability to recognize patterns is active from infancy and ser
 
 Details: Infants learn language not through explicit instruction but by acting as remarkable statisticians, detecting regularities and patterns in the speech they hear. They implicitly learn syntax by recognizing that certain word categories reliably follow others. This early patterning skill develops rapidly, progressing from simple face and sound recognition to identifying complex sequences in numbers, letters, and rhythms by preschool age.
 
-%%[supports:: [[Patterns are the Scaffolding of Knowledge]], strength=5, confidence=high]%%
+[supports:: [[Patterns are the Scaffolding of Knowledge]], strength=5, confidence=high]

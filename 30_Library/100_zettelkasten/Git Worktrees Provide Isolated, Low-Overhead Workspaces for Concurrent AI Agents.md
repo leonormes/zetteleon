@@ -45,6 +45,6 @@ Source: "Git Worktrees for AI Development" (kdnuggets.com, captured 2026-07-22, 
 
 - [[The Prompt-Context-Harness-Loop Hierarchy Scales LLM Control Structures by Task Duration]]
 
-%%[supports:: [[Loop Engineering Is Built From Six Components - Automation, Worktrees, Skills, Plugins, Sub-Agents, and State]], strength=3, confidence=high]%%
+[supports:: [[Loop Engineering Is Built From Six Components - Automation, Worktrees, Skills, Plugins, Sub-Agents, and State]], strength=3, confidence=high]
 
-%%[extends:: [[Software Factory Pattern - Specialized Sandboxed Agents Autonomously Own Feature, Bugfix, and Incident Lifecycles]], strength=3, confidence=medium]%%
+[extends:: [[Software Factory Pattern - Specialized Sandboxed Agents Autonomously Own Feature, Bugfix, and Incident Lifecycles]], strength=3, confidence=medium]

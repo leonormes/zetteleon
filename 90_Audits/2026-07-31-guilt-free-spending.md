@@ -24,7 +24,7 @@ Overall: True inbound orphan note.
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Guilt-Free Spending...md` | `%%[implements:: [[SoT - Financial Philosophy and Spendfulness]]]%%` | Target is the concrete psychological implementation of the SoT's guilt-free spending principle. | Yes |
+| `Guilt-Free Spending...md` | `[implements:: [[SoT - Financial Philosophy and Spendfulness]]]` | Target is the concrete psychological implementation of the SoT's guilt-free spending principle. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required. Preserve the plain link to `Give Every Dollar a Job`.

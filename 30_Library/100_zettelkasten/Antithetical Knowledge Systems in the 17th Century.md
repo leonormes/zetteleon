@@ -21,16 +21,16 @@ That these two fundamentally opposed systems could both be seen as legitimate an
 
 ## The Two Methods
 
-- [[Alchemy Protected Truth Through Obscurity]]—_The closed pole of the contrast._ %%[synthesizes:: [[Alchemy Protected Truth Through Obscurity]], strength=5, confidence=high]%%
-- [[Mathematics Established Knowledge Through Open Demonstration]]—_The open pole._ %%[synthesizes:: [[Mathematics Established Knowledge Through Open Demonstration]], strength=5, confidence=high]%%
-- [[Open Knowledge Systems Prevail Over Closed Systems]]—_The verdict this coexistence makes possible: without a period where both were credible, "one prevailed" would be a tautology rather than a finding._ %%[supports:: [[Open Knowledge Systems Prevail Over Closed Systems]], strength=5, confidence=high]%%
+- [[Alchemy Protected Truth Through Obscurity]]—_The closed pole of the contrast._ [synthesizes:: [[Alchemy Protected Truth Through Obscurity]], strength=5, confidence=high]
+- [[Mathematics Established Knowledge Through Open Demonstration]]—_The open pole._ [synthesizes:: [[Mathematics Established Knowledge Through Open Demonstration]], strength=5, confidence=high]
+- [[Open Knowledge Systems Prevail Over Closed Systems]]—_The verdict this coexistence makes possible: without a period where both were credible, "one prevailed" would be a tautology rather than a finding._ [supports:: [[Open Knowledge Systems Prevail Over Closed Systems]], strength=5, confidence=high]
 
 ## The Load-Bearing Point
 
 The coexistence is not colour; it is the note's whole argument. A retrospective verdict is only interesting if the outcome was genuinely open at the time—otherwise it is hindsight dressed as insight. This makes the note a caution about the present as much as a fact about the past.
 
-- [[Human Understanding is Inherently Myopic]]—_You cannot tell from inside a transitional era which of the live methods is the dying blossom. That is what "transitional" means._ %%[depends_on:: [[Human Understanding is Inherently Myopic]], confidence=medium]%%
-- [[Ptolemaic System as a Patched Flawed Model]]—_The same era's other object lesson: a model can stay predictive and respectable for 1,500 years while resting on a false premise, so contemporary credibility is weak evidence of durability._ %%[supports:: [[Ptolemaic System as a Patched Flawed Model]], confidence=medium]%%
+- [[Human Understanding is Inherently Myopic]]—_You cannot tell from inside a transitional era which of the live methods is the dying blossom. That is what "transitional" means._ [depends_on:: [[Human Understanding is Inherently Myopic]], confidence=medium]
+- [[Ptolemaic System as a Patched Flawed Model]]—_The same era's other object lesson: a model can stay predictive and respectable for 1,500 years while resting on a false premise, so contemporary credibility is weak evidence of durability._ [supports:: [[Ptolemaic System as a Patched Flawed Model]], confidence=medium]
 
 ## See Also
 

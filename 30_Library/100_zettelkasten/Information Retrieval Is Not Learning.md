@@ -21,8 +21,8 @@ Extended-mind arguments hold that externalised knowledge is genuine knowledge, a
 
 ## Knowledge Graph
 
-%%[extends:: [[2026-07-25-familiarity-vs-comprehension-distinct-states]], strength=4, confidence=high]%%
+[extends:: [[2026-07-25-familiarity-vs-comprehension-distinct-states]], strength=4, confidence=high]
 
-%%[supports:: [[SoT - Illusion of Explanatory Depth (IoED)]], strength=4, confidence=high]%%
+[supports:: [[SoT - Illusion of Explanatory Depth (IoED)]], strength=4, confidence=high]
 
-%%[depends_on:: [[Comprehension Requires Passing Through a Period of Disorientation]], strength=3, confidence=medium]%%
+[depends_on:: [[Comprehension Requires Passing Through a Period of Disorientation]], strength=3, confidence=medium]

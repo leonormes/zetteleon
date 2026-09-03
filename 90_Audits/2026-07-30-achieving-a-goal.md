@@ -24,7 +24,7 @@ Overall: True orphan note (not anchored to any SoT or MOC).
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Achieving a Goal is a Momentary Change...md` | `%%[supports:: [[SoT - Habit Formation Framework]]]%%` | Target defines the failure mode of goal-orientation, directly validating the SoT's pivot to system-orientation. | Yes |
+| `Achieving a Goal is a Momentary Change...md` | `[supports:: [[SoT - Habit Formation Framework]]]` | Target defines the failure mode of goal-orientation, directly validating the SoT's pivot to system-orientation. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required. The existing plain link to `Systems Drive Progress Through the Compounding Effect of Atomic Habits` remains under `## Related` to connect the negative case (goals) with the positive case (systems), while the edge anchors it to the framework.

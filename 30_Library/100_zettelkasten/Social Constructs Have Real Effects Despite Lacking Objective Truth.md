@@ -34,4 +34,4 @@ The word doing the damage is _arbitrary_. A construct is contingent—it could h
 
 > Merged 2026-08-01 from `Social Constructs are Not Arbitrary, They are Real in Their Effects`—a duplicate claim captured in a parallel session. Its distinct contingent-vs-arbitrary argument is preserved above; its title now resolves to a tombstone redirect pointing here.
 
-%%[supports:: [[Shift from Seeking Rightness to Seeking Utility]], strength=4, confidence=high]%%
+[supports:: [[Shift from Seeking Rightness to Seeking Utility]], strength=4, confidence=high]

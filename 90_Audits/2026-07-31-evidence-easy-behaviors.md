@@ -24,7 +24,7 @@ Overall: Inbound orphan.
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Evidence - Easy Behaviors Become Habits...md` | `%%[supports:: [[Making a behavior easy increases the likelihood it will become a habit]]]%%` | Strip legacy kwargs from existing typed edge to conform to strict schema. | Yes |
+| `Evidence - Easy Behaviors Become Habits...md` | `[supports:: [[Making a behavior easy increases the likelihood it will become a habit]]]` | Strip legacy kwargs from existing typed edge to conform to strict schema. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required. The existing plain link to `MOC - ADHD Routine Building Strategies` is preserved.

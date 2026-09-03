@@ -23,4 +23,4 @@ Context: Norbert Wiener's work in the 1940s laid the foundation for understandin
 - [[Emergence]] - _Explores how complex system properties arise, which cybernetics attempts to model._
 - [[Autopoiesis The Self-Referential System]] - _Maturana & Varela's concept of self-producing systems; a foundational model within second-order cybernetics where the system's primary drive is its own continuation._
 
-%%[extends:: [[SoT - Systems Thinking]]]%%
+[extends:: [[SoT - Systems Thinking]]]

@@ -10,7 +10,7 @@ title: SoT - The Context Engine
 type: sot
 ---
 
-%%[depends_on:: [[The Architectural Guardian]], strength=4, confidence=high]%%
+[depends_on:: [[The Architectural Guardian]], strength=4, confidence=high]
 
 ## The Context Engine (Formerly "Grand Unifying Theory")
 
@@ -46,6 +46,6 @@ The modern "GUT" is not a single script, but a pipeline:
 
 ---
 
-%%[implements:: [[SoT - Context Engineering]]]%%
+[implements:: [[SoT - Context Engineering]]]
 
 See Also: [[SoT - Context Engineering]], [[SoT - Structural Intelligence]], [[SoT - Context Rot]], [[SoT - Parochial Code]]

@@ -26,8 +26,8 @@ Overall: True inbound orphan note.
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Explaining to Others...md` | `%%[implements:: [[SoT - Active Learning Techniques]]]%%` | Target is an applied technique of the active learning framework. | Yes |
-| `Explaining to Others...md` | `%%[depends_on:: [[SoT - Illusion of Explanatory Depth (IoED)]]]%%` | The benefit of explaining depends on exposing the cognitive bias described in IoED. | Yes |
+| `Explaining to Others...md` | `[implements:: [[SoT - Active Learning Techniques]]]` | Target is an applied technique of the active learning framework. | Yes |
+| `Explaining to Others...md` | `[depends_on:: [[SoT - Illusion of Explanatory Depth (IoED)]]]` | The benefit of explaining depends on exposing the cognitive bias described in IoED. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required. The existing plain links in the "Related" section will be preserved as contextual mentions, except the ones being formalized into typed edges which will be appended with the edges.

@@ -88,4 +88,4 @@ _See: Ethernet Frame Details_
 
 This condensed presentation lets you reference key fields for packet analysis, teaching, or debugging workflows.
 
-%%[supports:: [[SoT - The Data-Centric Theory of Networking]]]%%
+[supports:: [[SoT - The Data-Centric Theory of Networking]]]

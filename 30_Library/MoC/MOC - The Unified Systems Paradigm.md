@@ -112,4 +112,4 @@ Concepts described in this MoC without dedicated notes:
 - `Digital Twin`—Executable (Physics) vs Declarative (Specs)
 - `Verification Threading`—continuous verification of hardware specs against software needs
 
-%%[extends:: [[SoT - Structure is Truth is a Unifying Axiom Across Formal Systems]], strength=4, confidence=medium]%%
+[extends:: [[SoT - Structure is Truth is a Unifying Axiom Across Formal Systems]], strength=4, confidence=medium]

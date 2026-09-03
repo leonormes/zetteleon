@@ -39,4 +39,4 @@ Claims that build on this definition (see their own `## Knowledge Graph` section
 - [[2026-07-25-externalising-tacit-knowledge-illusion-of-profundity|Externalising Tacit Knowledge Strips the Scaffolding That Made an Idea Feel Deep]]—reflexive extension
 - [[2026-07-25-ioed-vs-dunning-kruger-distinction|IoED and Dunning-Kruger Effect Differ in Driver, Calibration Axis, and Correction]]—depends on this definition
 
-%%[supports:: [[SoT - Illusion of Explanatory Depth (IoED)]]]%%
+[supports:: [[SoT - Illusion of Explanatory Depth (IoED)]]]

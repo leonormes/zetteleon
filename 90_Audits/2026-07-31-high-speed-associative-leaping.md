@@ -24,7 +24,7 @@ Overall: True orphan note.
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `High-speed associative leaping...md` | `%%[implements:: [[SoT - ADHD Self-Compassion & Strengths]]]%%` | Target is a concrete, cognitive manifestation of the SoT's strength-based framing of ADHD's processing speed. | Yes |
+| `High-speed associative leaping...md` | `[implements:: [[SoT - ADHD Self-Compassion & Strengths]]]` | Target is a concrete, cognitive manifestation of the SoT's strength-based framing of ADHD's processing speed. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required.

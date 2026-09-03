@@ -36,4 +36,4 @@ Source: user-pasted summary of a presentation on neuro-symbolic AI architecture 
 
 - [[Agentic Loops Gain Turing-Complete Instability From Chained Reasoning and Tool Use]]
 
-%%[supports:: [[Neuro-Symbolic Guardrails Intercept and Validate Tool-Call Requests Against a Formal Ontology Before Execution]], strength=2, confidence=medium]%%
+[supports:: [[Neuro-Symbolic Guardrails Intercept and Validate Tool-Call Requests Against a Formal Ontology Before Execution]], strength=2, confidence=medium]

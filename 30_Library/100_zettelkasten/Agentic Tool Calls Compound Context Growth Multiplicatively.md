@@ -62,6 +62,6 @@ Source: "Why AI Tokens are so Expensive" (Computerphile). Quotes:
 
 - [[SoT - Context Engineering]]
 
-%%[depends_on:: [[Auto-Regressive Generation Reprocesses the Entire Context on Every Token]], strength=5, confidence=high]%%
+[depends_on:: [[Auto-Regressive Generation Reprocesses the Entire Context on Every Token]], strength=5, confidence=high]
 
-%%[supports:: [[Continuous Autonomous Agent Loops Incur Significant API Cost]], strength=5, confidence=high]%%
+[supports:: [[Continuous Autonomous Agent Loops Incur Significant API Cost]], strength=5, confidence=high]

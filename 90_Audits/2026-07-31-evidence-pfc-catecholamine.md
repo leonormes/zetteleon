@@ -24,7 +24,7 @@ Overall: Inbound orphan.
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Evidence - PFC Catecholamine Insufficiency...md` | `%%[supports:: [[Prefrontal Cortex Catecholamine Insufficiency Impairs Executive Control in ADHD]]]%%` | Strip legacy kwargs from existing typed edge to conform to strict schema. | Yes |
+| `Evidence - PFC Catecholamine Insufficiency...md` | `[supports:: [[Prefrontal Cortex Catecholamine Insufficiency Impairs Executive Control in ADHD]]]` | Strip legacy kwargs from existing typed edge to conform to strict schema. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required. The existing plain link to `MOC - The Neuroscience of Task Initiation in ADHD` is preserved.

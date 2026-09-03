@@ -18,10 +18,10 @@ Taken as a universal law, though, it flattens a loop into a one-way arrow. Somet
 
 ## Knowledge Graph
 
-%%[extends:: [[SoT - Think Like a Man of Action, Act Like a Man of Thought]], strength=3, confidence=medium]%%
+[extends:: [[SoT - Think Like a Man of Action, Act Like a Man of Thought]], strength=3, confidence=medium]
 
-%%[extends:: [[SoT - The Cognitive Physiology of Task Execution]], strength=3, confidence=medium]%%
+[extends:: [[SoT - The Cognitive Physiology of Task Execution]], strength=3, confidence=medium]
 
-%%[extends:: [[Motion Creates Emotion to Overcome Inertia]], strength=3, confidence=medium]%%
+[extends:: [[Motion Creates Emotion to Overcome Inertia]], strength=3, confidence=medium]
 
-%%[depends_on:: [[ADHD Causes Task Initiation Deficits Due to Dopamine Hyposensitivity]], strength=2, confidence=medium]%%
+[depends_on:: [[ADHD Causes Task Initiation Deficits Due to Dopamine Hyposensitivity]], strength=2, confidence=medium]

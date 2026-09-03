@@ -12,22 +12,22 @@ type: concept
 used_in_claims: []
 ---
 
-When a system is [[Systems are Blind to Their Broader Context|blind to external context]], it cannot import its logic or values from the outside. It is therefore forced to generate its own self-referential framework of rules, logic, and meaning. %%[depends_on:: [[Systems are Blind to Their Broader Context]], strength=5, confidence=high]%%
+When a system is [[Systems are Blind to Their Broader Context|blind to external context]], it cannot import its logic or values from the outside. It is therefore forced to generate its own self-referential framework of rules, logic, and meaning. [depends_on:: [[Systems are Blind to Their Broader Context]], strength=5, confidence=high]
 
-This internal "operating system" is created out of its own components and history, allowing it to function and self-regulate in isolation. This process of Self-Organisation gives rise to [[SoT - Emergence|emergent]] properties like unique cultures, behaviors, and priorities that are specific to the system itself, often governed by internal Feedback Loops. %%[implements:: [[SoT - Emergence]], confidence=high]%%
+This internal "operating system" is created out of its own components and history, allowing it to function and self-regulate in isolation. This process of Self-Organisation gives rise to [[SoT - Emergence|emergent]] properties like unique cultures, behaviors, and priorities that are specific to the system itself, often governed by internal Feedback Loops. [implements:: [[SoT - Emergence]], confidence=high]
 
-The result of this internal generation is a profound perceptual dichotomy, where [[The Meaning of a System's Logic is Relative to Perspective]]. %%[supports:: [[The Meaning of a System's Logic is Relative to Perspective]], strength=5, confidence=high]%%
+The result of this internal generation is a profound perceptual dichotomy, where [[The Meaning of a System's Logic is Relative to Perspective]]. [supports:: [[The Meaning of a System's Logic is Relative to Perspective]], strength=5, confidence=high]
 
 ## The Named Version of This Idea
 
-The note describes autopoiesis without naming it. [[Autopoiesis The Self-Referential System]]—_Maturana and Varela's term for a system whose primary organisation is its own continuation: a cell spends energy rebuilding its own structures and maintaining its boundary, so "the system's purpose is its own existence." That note covers the operational loop; this one covers its epistemic consequence—a system that produces itself must also produce the rules by which it judges itself._ %%[extends:: [[Autopoiesis The Self-Referential System]], strength=5, confidence=high]%%
+The note describes autopoiesis without naming it. [[Autopoiesis The Self-Referential System]]—_Maturana and Varela's term for a system whose primary organisation is its own continuation: a cell spends energy rebuilding its own structures and maintaining its boundary, so "the system's purpose is its own existence." That note covers the operational loop; this one covers its epistemic consequence—a system that produces itself must also produce the rules by which it judges itself._ [extends:: [[Autopoiesis The Self-Referential System]], strength=5, confidence=high]
 
 ## Worked Instances
 
 The note asserts a mechanism and gives no examples. Two exist in the vault, in very different domains, and both are the mechanism running to its conclusion.
 
-- [[Ptolemaic System as a Patched Flawed Model]]—_1,500 years of epicycles. Rather than import the external correction, the system generated internal logic—layer on layer of local patches—that kept it predictive for known inputs while becoming unfalsifiable from within. Internal coherence was purchased at the cost of contact with the outside._ %%[supports:: [[Ptolemaic System as a Patched Flawed Model]], confidence=high]%%
-- [[SoT - Bonhoeffer's Theory of Functional Stupidity]]—_The social case. A group generates its own slogans and catchwords as an internal operating system; contradictory external evidence is then "ignored, minimized, or dismissed as exceptional cases." Bonhoeffer's observation that stupidity is a group phenomenon and that solitary individuals are rarely afflicted is this note's mechanism stated sociologically._ %%[supports:: [[SoT - Bonhoeffer's Theory of Functional Stupidity]], confidence=high]%%
+- [[Ptolemaic System as a Patched Flawed Model]]—_1,500 years of epicycles. Rather than import the external correction, the system generated internal logic—layer on layer of local patches—that kept it predictive for known inputs while becoming unfalsifiable from within. Internal coherence was purchased at the cost of contact with the outside._ [supports:: [[Ptolemaic System as a Patched Flawed Model]], confidence=high]
+- [[SoT - Bonhoeffer's Theory of Functional Stupidity]]—_The social case. A group generates its own slogans and catchwords as an internal operating system; contradictory external evidence is then "ignored, minimized, or dismissed as exceptional cases." Bonhoeffer's observation that stupidity is a group phenomenon and that solitary individuals are rarely afflicted is this note's mechanism stated sociologically._ [supports:: [[SoT - Bonhoeffer's Theory of Functional Stupidity]], confidence=high]
 
 ## Tension
 

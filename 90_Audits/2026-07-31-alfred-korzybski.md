@@ -24,7 +24,7 @@ Overall: Orphan note (not structurally anchored to an SoT).
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Alfred Korzybski and General Semantics.md` | `%%[supports:: [[SoT - Reality, Models, and the Limits of Accuracy]]]%%` | Target is the foundational origin defining the core epistemology used in the SoT. | Yes |
+| `Alfred Korzybski and General Semantics.md` | `[supports:: [[SoT - Reality, Models, and the Limits of Accuracy]]]` | Target is the foundational origin defining the core epistemology used in the SoT. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required. Existing textual links at the bottom are preserved as lateral/conceptual references.

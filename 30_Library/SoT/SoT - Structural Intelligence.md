@@ -57,10 +57,10 @@ For an LLM to possess [[SoT - Dimensions of Code Understanding|Structural Unders
 
 ---
 
-%%[synthesizes:: [[SoT - Context Rot]]]%%
+[synthesizes:: [[SoT - Context Rot]]]
 
-%%[synthesizes:: [[SoT - Macro-Micro Unification]]]%%
+[synthesizes:: [[SoT - Macro-Micro Unification]]]
 
-%%[synthesizes:: [[SoT - The Context Engine]]]%%
+[synthesizes:: [[SoT - The Context Engine]]]
 
 See Also: [[SoT - Dimensions of Code Understanding]], [[SoT - Macro-Micro Unification]], [[SoT - Context Rot]], [[SoT - The Context Engine]]

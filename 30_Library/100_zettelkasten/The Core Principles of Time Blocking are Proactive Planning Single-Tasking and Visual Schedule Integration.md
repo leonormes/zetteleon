@@ -23,7 +23,7 @@ Details:
 2. Single-Tasking Mindset: Each time block is dedicated to a single task or a batch of similar tasks, promoting deep focus.
 3. Visual Schedule Integration: A calendar (digital or physical) is used as the primary tool to allocate and visualize the time blocks.
 
-%%[supports:: [[SoT - Temporal Management (Blocking and Boxing)]]]%%
+[supports:: [[SoT - Temporal Management (Blocking and Boxing)]]]
 
 ## Related
 

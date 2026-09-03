@@ -47,4 +47,4 @@ Source: "State of Agentic Coding, episode 8, with Mario, Armin, and Ben" (Armin 
 
 - [[SoT - AI Sycophancy]]
 
-%%[depends_on:: [[Reinforcement Learning Produces Jagged Intelligence — High in Verifiable, Low in Subjective Domains]]]%%
+[depends_on:: [[Reinforcement Learning Produces Jagged Intelligence — High in Verifiable, Low in Subjective Domains]]]

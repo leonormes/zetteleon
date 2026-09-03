@@ -54,6 +54,6 @@ Source: "AI in the SDLC: Rethinking AI Coding Tools & AI Agents" (IBM Technology
 
 - [[Specialized Sub-Agent Roles Divide Research, Context Retrieval, and Code Editing]]
 
-%%[extends:: [[LLM Architectural Judgment Gap]], strength=4, confidence=high]%%
+[extends:: [[LLM Architectural Judgment Gap]], strength=4, confidence=high]
 
-%%[supports:: [[Vibe Coding - Rapid AI-Assisted Code Generation Without Engineering Rigor]], strength=3, confidence=medium]%%
+[supports:: [[Vibe Coding - Rapid AI-Assisted Code Generation Without Engineering Rigor]], strength=3, confidence=medium]

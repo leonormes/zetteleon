@@ -36,4 +36,4 @@ The corollary that matters practically: originality cannot be pursued directly. 
 
 > Merged 2026-08-01 from `Originality is the Unique Synthesis of Existing Ideas`—a duplicate claim captured in a parallel session. That title now resolves to a tombstone redirect pointing here, so pre-existing links still land in the right place.
 
-%%[supports:: [[The Self is Constructed Through Curation of Influences]], strength=4, confidence=high]%%
+[supports:: [[The Self is Constructed Through Curation of Influences]], strength=4, confidence=high]

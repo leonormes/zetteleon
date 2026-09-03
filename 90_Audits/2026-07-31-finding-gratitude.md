@@ -24,7 +24,7 @@ Overall: True inbound orphan note.
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Finding Gratitude...md` | `%%[supports:: [[SoT - Habit Formation Framework]]]%%` | Target provides emotional/psychological evidence for the efficacy of the Process Primacy principle. | Yes |
+| `Finding Gratitude...md` | `[supports:: [[SoT - Habit Formation Framework]]]` | Target provides emotional/psychological evidence for the efficacy of the Process Primacy principle. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required. The existing MoC in the `source` field will be preserved.

@@ -35,4 +35,4 @@ Links: [[Information Addiction in Overthinkers|Type 1 Information (Theoretical)]
 
 rel:: supports [[SoT - Illusion of Explanatory Depth (IoED)]]—this note elaborates the Collector's Fallacy mechanism from the IoED SoT, adding the "illusion of control" and "perfect information fallacy" framings.
 
-%%[supports:: [[SoT - Illusion of Explanatory Depth (IoED)]], strength=3, confidence=medium]%%
+[supports:: [[SoT - Illusion of Explanatory Depth (IoED)]], strength=3, confidence=medium]

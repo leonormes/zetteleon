@@ -36,6 +36,6 @@ Dense bidirectional linking additionally exploits the spacing effect and retriev
 - [[MOC - From Information to Knowledge]]—supports: names MOCs as the specific mechanism enabling the distributed/decentralised topology this note describes.
 - [[Claim - Flat associative structure beats rigid hierarchy]]—shared mechanism: both argue flatter, associative structures outperform rigid hierarchy for knowledge retention and discovery.
 
-%%[supports:: [[SoT - Structure is Truth is a Unifying Axiom Across Formal Systems]], strength=5, confidence=high]%%
+[supports:: [[SoT - Structure is Truth is a Unifying Axiom Across Formal Systems]], strength=5, confidence=high]
 
-%%[supports:: [[Claim - Flat associative structure beats rigid hierarchy]], strength=4, confidence=high]%%
+[supports:: [[Claim - Flat associative structure beats rigid hierarchy]], strength=4, confidence=high]

@@ -44,4 +44,4 @@ Note on Maps: Index notes or Maps of Content (MOCs) may exist sparingly to serve
 
 By sticking to these five types, you ensure that your system remains a "Runtime Environment for Thought" rather than a stagnant database of facts.
 
-%%[supports:: [[Proposition-Centred Notes Create Cognitive Leverage That Topical Notes Lack]], strength=4, confidence=high]%%
+[supports:: [[Proposition-Centred Notes Create Cognitive Leverage That Topical Notes Lack]], strength=4, confidence=high]

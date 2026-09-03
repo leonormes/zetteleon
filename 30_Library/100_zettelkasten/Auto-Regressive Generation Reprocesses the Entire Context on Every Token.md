@@ -46,6 +46,6 @@ Source: "Why AI Tokens are so Expensive" (Computerphile). Quote: "LLMs are auto-
 
 - [[SoT - Context Engineering]]
 
-%%[supports:: [[Continuous Autonomous Agent Loops Incur Significant API Cost]], strength=4, confidence=high]%%
+[supports:: [[Continuous Autonomous Agent Loops Incur Significant API Cost]], strength=4, confidence=high]
 
-%%[supports:: [[Context Volume Plateau]], strength=3, confidence=medium]%%
+[supports:: [[Context Volume Plateau]], strength=3, confidence=medium]

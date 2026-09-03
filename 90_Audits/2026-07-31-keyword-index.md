@@ -25,7 +25,7 @@ Overall: Inbound orphan.
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Keyword Index Provides Sparse Entry Points.md` | `%%[extends:: [[Hub Notes Provide Entry Points to Idea Clusters]]]%%` | Strip legacy kwargs from existing typed edge to conform to strict schema. | Yes |
+| `Keyword Index Provides Sparse Entry Points.md` | `[extends:: [[Hub Notes Provide Entry Points to Idea Clusters]]]` | Strip legacy kwargs from existing typed edge to conform to strict schema. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required. The existing plain links are preserved.

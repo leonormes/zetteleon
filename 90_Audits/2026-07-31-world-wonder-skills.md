@@ -26,8 +26,8 @@ Overall: True inbound orphan note.
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `World & Wonder Skills...md` | `%%[extends:: [[A Concept Map for a Flourishing Human]]]%%` | Target specialises a subset of the broader human flourishing map. | Yes |
-| `World & Wonder Skills...md` | `%%[synthesizes:: [[Appreciation of Beauty is Noticing Excellence in the World]]]%%` | Target groups this specific sub-element into a broader category. | Yes |
+| `World & Wonder Skills...md` | `[extends:: [[A Concept Map for a Flourishing Human]]]` | Target specialises a subset of the broader human flourishing map. | Yes |
+| `World & Wonder Skills...md` | `[synthesizes:: [[Appreciation of Beauty is Noticing Excellence in the World]]]` | Target groups this specific sub-element into a broader category. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 Remove the trailing plain links to `A Concept Map for a Flourishing Human` and `Appreciation of Beauty...` since they are replaced by typed edges.

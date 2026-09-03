@@ -13,7 +13,7 @@ tags:
 title: Knowledge-Related Biases
 type: concept
 ---
-Knowledge-related biases are cognitive distortions where our possession (or lack) of information prevents objective assessment and communication. These fall under the broader umbrella of [[MOC - Cognitive Biases]] %%[extends:: [[MOC - Cognitive Biases]]]%%.
+Knowledge-related biases are cognitive distortions where our possession (or lack) of information prevents objective assessment and communication. These fall under the broader umbrella of [[MOC - Cognitive Biases]] [extends:: [[MOC - Cognitive Biases]]].
 
 ## Curse of Knowledge
 
@@ -23,7 +23,7 @@ Knowledge-related biases are cognitive distortions where our possession (or lack
   - Writing insufficient documentation.
   - Assuming system knowledge in new team members ("This code is self-documenting").
 
-The Curse of Knowledge directly fuels the "Illusion of Clarity" during communication, where the speaker assumes the listener shares their rich context—a dynamic unpacked in [[SoT - Communication & Misunderstanding (The Experiential Filter)]] %%[implements:: [[SoT - Communication & Misunderstanding (The Experiential Filter)]]]%%.
+The Curse of Knowledge directly fuels the "Illusion of Clarity" during communication, where the speaker assumes the listener shares their rich context—a dynamic unpacked in [[SoT - Communication & Misunderstanding (The Experiential Filter)]] [implements:: [[SoT - Communication & Misunderstanding (The Experiential Filter)]]].
 
 ## Dunning-Kruger Effect
 
@@ -33,12 +33,12 @@ The Curse of Knowledge directly fuels the "Illusion of Clarity" during communica
   - Teams underestimating system complexity.
   - Oversimplifying architectural decisions ("How hard could building a distributed system be?").
 
-See [[SoT - Dunning-Kruger Effect]] %%[extends:: [[SoT - Dunning-Kruger Effect]]]%% for the core model and mechanism.
+See [[SoT - Dunning-Kruger Effect]] [extends:: [[SoT - Dunning-Kruger Effect]]] for the core model and mechanism.
 
 ## Illusion of Explanatory Depth (IoED)
 
-Believing you understand how a complex system works better than you actually do, until you are forced to explain its causal mechanisms. See [[SoT - Illusion of Explanatory Depth (IoED)]] %%[extends:: [[SoT - Illusion of Explanatory Depth (IoED)]]]%% for a deep dive.
+Believing you understand how a complex system works better than you actually do, until you are forced to explain its causal mechanisms. See [[SoT - Illusion of Explanatory Depth (IoED)]] [extends:: [[SoT - Illusion of Explanatory Depth (IoED)]]] for a deep dive.
 
 ## Mitigation
 
-The primary countermeasure to these biases is [[SoT - Metacognitive Calibration]] %%[depends_on:: [[SoT - Metacognitive Calibration]]]%%, which forces the individual to actively test their confidence against reality.
+The primary countermeasure to these biases is [[SoT - Metacognitive Calibration]] [depends_on:: [[SoT - Metacognitive Calibration]]], which forces the individual to actively test their confidence against reality.

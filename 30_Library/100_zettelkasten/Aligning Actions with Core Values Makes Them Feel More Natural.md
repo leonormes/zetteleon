@@ -23,4 +23,4 @@ Details: When a behavior reinforces your self-concept and feels like a genuine e
 
 - [[Action-Oriented Individuals Act Decisively Under Pressure While State-Oriented Individuals Ruminate]]
 
-%%[supports:: [[SoT - Values and Eudaimonia]]]%%
+[supports:: [[SoT - Values and Eudaimonia]]]

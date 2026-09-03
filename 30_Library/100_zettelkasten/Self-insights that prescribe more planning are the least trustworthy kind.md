@@ -122,8 +122,8 @@ Related but genuinely open: [[Eufriction - Productive Friction Strengthens Think
 
 ## Knowledge Graph
 
-%%[extends:: [[Claim - Analysing One's Own Avoidance Can Itself Be an Instance of the Avoidance It Describes]], strength=4, confidence=medium]%%
+[extends:: [[Claim - Analysing One's Own Avoidance Can Itself Be an Instance of the Avoidance It Describes]], strength=4, confidence=medium]
 
-%%[supports:: [[The Trap of the Architect Is Sophisticated System-Building Substituting for Physical Action]], strength=4, confidence=high]%%
+[supports:: [[The Trap of the Architect Is Sophisticated System-Building Substituting for Physical Action]], strength=4, confidence=high]
 
-%%[extends:: [[ADHD Overthinking is a Substitute for Action]], strength=3, confidence=medium]%%
+[extends:: [[ADHD Overthinking is a Substitute for Action]], strength=3, confidence=medium]

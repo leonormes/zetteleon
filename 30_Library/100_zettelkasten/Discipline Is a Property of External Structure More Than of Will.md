@@ -95,18 +95,18 @@ Modern conditions have removed the informal scaffolding that used to do this wor
 
 > Merged 2026-08-01 from `Systems and Environment are the Backbone of Discipline`—a duplicate claim reached from the motivation side rather than the willpower side. That title now resolves to a tombstone redirect pointing here, and is retained as an alias, so pre-existing links still land correctly. The merged note's contribution was the designed/social split, the backbone-not-engine qualifier, and the historical argument.
 
-%%[implements:: [[SoT - Behavioral Architecture]], strength=5, confidence=high]%%
+[implements:: [[SoT - Behavioral Architecture]], strength=5, confidence=high]
 
-%%[depends_on:: [[Habits are Automatic Behaviors Triggered by Environmental Cues]], strength=5, confidence=high]%%
+[depends_on:: [[Habits are Automatic Behaviors Triggered by Environmental Cues]], strength=5, confidence=high]
 
-%%[depends_on:: [[Choice Architecture Designs the Environment to Make Desired Behaviors Easier]], strength=4, confidence=high]%%
+[depends_on:: [[Choice Architecture Designs the Environment to Make Desired Behaviors Easier]], strength=4, confidence=high]
 
-%%[depends_on:: [[Limbic Friction is the Activation Energy for Habits]], strength=3, confidence=medium]%%
+[depends_on:: [[Limbic Friction is the Activation Energy for Habits]], strength=3, confidence=medium]
 
-%%[depends_on:: [[Proto-systems Are Informal Collective Routines That Organize Work]], strength=3, confidence=medium]%%
+[depends_on:: [[Proto-systems Are Informal Collective Routines That Organize Work]], strength=3, confidence=medium]
 
-%%[supports:: [[You Fall to the Level of Your Systems, Not Rise to Your Goals]], strength=4, confidence=high]%%
+[supports:: [[You Fall to the Level of Your Systems, Not Rise to Your Goals]], strength=4, confidence=high]
 
-%%[supports:: [[Discipline is Freedom From Chaos and Anxiety]], strength=3, confidence=medium]%%
+[supports:: [[Discipline is Freedom From Chaos and Anxiety]], strength=3, confidence=medium]
 
-%%[supports:: [[Protecting Attention is the First Rule of Discipline]], strength=3, confidence=medium]%%
+[supports:: [[Protecting Attention is the First Rule of Discipline]], strength=3, confidence=medium]

@@ -32,17 +32,17 @@ The process combines a physical component (tapping) with a cognitive component (
 
 ## Connections
 
-- This is a practical tool for implementing the principles of [[SoT - Mindfulness and Emotional Regulation]] %%[implements:: [[SoT - Mindfulness and Emotional Regulation]]]%% - *EFT tapping serves as an active, somatic protocol to break emotional fusion.*
-- It provides an immediate somatic intervention for [[MOC - Emotional Dysregulation]] %%[implements:: [[MOC - Emotional Dysregulation]]]%% - *EFT directly targets the dysregulated nervous system during an acute emotional spike.*
-- It helps dismantle [[ADHD Emotional Reasoning]] %%[supports:: [[ADHD Emotional Reasoning]]]%% - *By calming the body, EFT reduces the intensity of the feeling that is mistakenly interpreted as fact.*
-- [[Cerebellum Function and Exercise for ADHD Regulation]] %%[supports:: [[Cerebellum Function and Exercise for ADHD Regulation]]]%% - *Like coordination exercises, EFT leverages somatic action to restore cognitive control.*
+- This is a practical tool for implementing the principles of [[SoT - Mindfulness and Emotional Regulation]] [implements:: [[SoT - Mindfulness and Emotional Regulation]]] - *EFT tapping serves as an active, somatic protocol to break emotional fusion.*
+- It provides an immediate somatic intervention for [[MOC - Emotional Dysregulation]] [implements:: [[MOC - Emotional Dysregulation]]] - *EFT directly targets the dysregulated nervous system during an acute emotional spike.*
+- It helps dismantle [[ADHD Emotional Reasoning]] [supports:: [[ADHD Emotional Reasoning]]] - *By calming the body, EFT reduces the intensity of the feeling that is mistakenly interpreted as fact.*
+- [[Cerebellum Function and Exercise for ADHD Regulation]] [supports:: [[Cerebellum Function and Exercise for ADHD Regulation]]] - *Like coordination exercises, EFT leverages somatic action to restore cognitive control.*
 
 ## Criticism Framework
 
 External Interactions:
 
-- Use [[SoT - The 3-Switch Protocol (Emotional Reset)]] %%[implements:: [[SoT - The 3-Switch Protocol (Emotional Reset)]]]%% - *A structured protocol for managing the physiological spike of critical feedback.*
-- Practice [[Cognitive Reframing of Criticism]] %%[supports:: [[Cognitive Reframing of Criticism]]]%% - *A preemptive cognitive strategy that pairs with the somatic relief of EFT.*
+- Use [[SoT - The 3-Switch Protocol (Emotional Reset)]] [implements:: [[SoT - The 3-Switch Protocol (Emotional Reset)]]] - *A structured protocol for managing the physiological spike of critical feedback.*
+- Practice [[Cognitive Reframing of Criticism]] [supports:: [[Cognitive Reframing of Criticism]]] - *A preemptive cognitive strategy that pairs with the somatic relief of EFT.*
 - Schedule recovery time after tough exchanges.
 
 _Source: Synthesized from notes on ADHD productivity hacks._

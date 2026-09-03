@@ -21,4 +21,4 @@ An LLM provides the opposite: a structured, coherent analysis that breaks down i
 
 Links: LLMs mimic human conversational patterns
 
-%%[supports:: [[SoT - LLM Semantic-Statistical Mismatch]]]%%
+[supports:: [[SoT - LLM Semantic-Statistical Mismatch]]]

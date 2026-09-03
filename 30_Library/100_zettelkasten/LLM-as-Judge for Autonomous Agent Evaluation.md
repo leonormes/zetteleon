@@ -75,6 +75,6 @@ Source: "Loop Engineering | LLM". Quotes:
 - [[SoT - Evaluation Metrics for Agent Systems]]
 - [[Precision-Recall Trade-offs in LLM Evaluation]]
 
-%%[supports:: [[Evidence-Based Pipeline Optimization vs Cost-Based Optimization]], strength=4, confidence=high]%%
+[supports:: [[Evidence-Based Pipeline Optimization vs Cost-Based Optimization]], strength=4, confidence=high]
 
-%%[depends_on:: [[Trace Logging and Event Trees for Agent Observability]], strength=3, confidence=medium]%%
+[depends_on:: [[Trace Logging and Event Trees for Agent Observability]], strength=3, confidence=medium]

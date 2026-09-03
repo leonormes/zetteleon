@@ -47,4 +47,4 @@ Source: unnamed video on LLM orchestration hierarchy (URL: youtube.com/watch?v=4
 
 - [[Harness Engineering Prevents Context Degradation and Memory Leaks Over Prolonged Runtimes]]
 
-%%[extends:: [[Software Factory Pattern - Specialized Sandboxed Agents Autonomously Own Feature, Bugfix, and Incident Lifecycles]], strength=2, confidence=low]%%
+[extends:: [[Software Factory Pattern - Specialized Sandboxed Agents Autonomously Own Feature, Bugfix, and Incident Lifecycles]], strength=2, confidence=low]

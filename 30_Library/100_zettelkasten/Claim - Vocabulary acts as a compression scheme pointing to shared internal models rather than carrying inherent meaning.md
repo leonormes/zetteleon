@@ -26,8 +26,8 @@ Because the brain does not naturally flag that it is holding a pointer (the word
 ## Related
 
 - [[Mistaking the Map for the Territory]]—_General semantics principle that the label is not the object itself._
-%%[extends:: [[Mistaking the Map for the Territory]]]%%
+[extends:: [[Mistaking the Map for the Territory]]]
 - [[SoT - Illusion of Explanatory Depth (IoED)]]—_The cognitive bias where holding the "pointer" feels like holding the "data."_
-%%[supports:: [[SoT - Illusion of Explanatory Depth (IoED)]]]%%
+[supports:: [[SoT - Illusion of Explanatory Depth (IoED)]]]
 - [[Claim - Language serves as a tool for communicating thoughts rather than determining them]]—_Because words are just pointers to existing mental models, language transmits rather than dictates thought._
-%%[supports:: [[Claim - Language serves as a tool for communicating thoughts rather than determining them]]]%%
+[supports:: [[Claim - Language serves as a tool for communicating thoughts rather than determining them]]]

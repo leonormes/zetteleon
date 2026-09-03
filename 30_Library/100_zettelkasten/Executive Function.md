@@ -36,7 +36,7 @@ While definitions vary slightly, executive function generally breaks down into t
 ## Neurological Basis
 
 The primary biological seat of executive function is the prefrontal cortex, which exerts top-down control over motor actions, emotional responses from the limbic system, and attention networks.
-- %%[depends_on:: [[The Prefrontal Cortex Provides Executive Control Over Action]]]%%
+- [depends_on:: [[The Prefrontal Cortex Provides Executive Control Over Action]]]
 
 ## Why it Matters in this Vault
 

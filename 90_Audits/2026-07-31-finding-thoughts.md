@@ -24,7 +24,7 @@ Overall: True inbound orphan note.
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Finding Thoughts.md` | `%%[supports:: [[SoT - Evolutionary Note System]]]%%` | Target provides experiential evidence supporting the necessity of evolutionary linking. | Yes |
+| `Finding Thoughts.md` | `[supports:: [[SoT - Evolutionary Note System]]]` | Target provides experiential evidence supporting the necessity of evolutionary linking. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required. The existing plain link to `Zettelkasten Ain't Easy` will be preserved as a contextual mention.

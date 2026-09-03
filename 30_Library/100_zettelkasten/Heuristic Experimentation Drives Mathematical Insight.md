@@ -47,7 +47,7 @@ Failed attempts are not wasted effort but essential feedback. Each failure:
 
 Relationship to Proof: Experimentation precedes proof. While it cannot establish mathematical truth, it guides the search for proof by revealing what might be true and why.
 
-%%[supports:: [[SoT - Mathematical Thinking and Problem Solving]]]%%
+[supports:: [[SoT - Mathematical Thinking and Problem Solving]]]
 
 ## Related
 

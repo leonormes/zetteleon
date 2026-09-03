@@ -56,6 +56,6 @@ Not all AI-generated code is wrong. Some tasks (scaffolding, boilerplate, well-u
 - [[SoT - Code Review and Testing Strategy]]
 - [[SoT - Security in LLM-Assisted Development]]
 
-%%[depends_on:: [[LLM Probabilistic Outputs Prevent Consistency Guarantees]], strength=5, confidence=high]%%
+[depends_on:: [[LLM Probabilistic Outputs Prevent Consistency Guarantees]], strength=5, confidence=high]
 
-%%[depends_on:: [[Context Window Limits Force Iterative Task Decomposition]], strength=3, confidence=high]%%
+[depends_on:: [[Context Window Limits Force Iterative Task Decomposition]], strength=3, confidence=high]

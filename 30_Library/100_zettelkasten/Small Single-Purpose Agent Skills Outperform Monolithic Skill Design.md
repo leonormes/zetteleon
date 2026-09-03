@@ -40,4 +40,4 @@ Source: "FORGET Loop Engineering. Agentic Engineering is about THIS" (IndyDevDan
 
 - [[Vibe Coding - Rapid AI-Assisted Code Generation Without Engineering Rigor]]
 
-%%[supports:: [[Code as Zero-Cost Deterministic Actor Alongside Engineers and Agents in Workflows]], strength=3, confidence=medium]%%
+[supports:: [[Code as Zero-Cost Deterministic Actor Alongside Engineers and Agents in Workflows]], strength=3, confidence=medium]

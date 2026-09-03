@@ -27,7 +27,7 @@ Bonhoeffer's theory posits that functional stupidity is not an intellectual fail
 - Mechanism: The individual allows themselves to be "possessed" by slogans and catchwords, becoming a "mindless tool." They surrender their "inner independence."
 - Willful Ignorance (Amathia): An active resistance to learning, characterised by an anti-intellectual celebration of not knowing and a hostility towards expertise.
 
-%%[depends_on:: [[Claim - Beliefs often function as belonging cues to secure group membership rather than as truth-seeking theses]], strength=5, confidence=high]%% %%[depends_on:: [[SoT - Authority-Competence Asymmetry]], confidence=high]%% %%[depends_on:: [[Implicit Social Hierarchies Authority]], confidence=medium]%%
+[depends_on:: [[Claim - Beliefs often function as belonging cues to secure group membership rather than as truth-seeking theses]], strength=5, confidence=high] [depends_on:: [[SoT - Authority-Competence Asymmetry]], confidence=high] [depends_on:: [[Implicit Social Hierarchies Authority]], confidence=medium]
 
 _The vault supplies the mechanism Bonhoeffer describes but does not explain. "Surrendering inner independence" is [[Claim - Beliefs often function as belonging cues to secure group membership rather than as truth-seeking theses|belief adopted as a belonging cue]]—a tribal signal purchasing psychological safety, not a conclusion reached. And "the power of the one needs the stupidity of the other" is [[SoT - Authority-Competence Asymmetry|positional authority overriding expert authority]], stated in moral rather than organisational vocabulary._
 
@@ -39,7 +39,7 @@ _The vault supplies the mechanism Bonhoeffer describes but does not explain. "Su
 - Indoctrination: As philosopher Chris Ranalli notes, indoctrination is defined not by _what_ one believes, but _how_ one holds that belief. Indoctrinated individuals treat their beliefs as their identity, viewing logical counter-arguments as personal attacks or tests of loyalty.
 - The Anti-Rational Meme: Conformity operates as an "anti-rational meme" (per Popperian epistemology)—an idea that relies on disabling the recipient's critical faculties to cause itself to be replicated.
 
-%%[supports:: [[Dismissing People Who Disagree Costs You Your Best Error-Detectors]], strength=5, confidence=high]%% %%[supports:: [[Constructive Debate in Psychological Safety]], confidence=medium]%%
+[supports:: [[Dismissing People Who Disagree Costs You Your Best Error-Detectors]], strength=5, confidence=high] [supports:: [[Constructive Debate in Psychological Safety]], confidence=medium]
 
 _"Immunity to facts" is the group-scale form of deleting your own error-detection: a system that dismisses disagreement as exceptional has removed the only channel through which it could learn it is wrong._
 
@@ -51,7 +51,7 @@ _"Immunity to facts" is the group-scale form of deleting your own error-detectio
 - Interpersonal Countermeasures: Employing Socratic questioning in interpersonal debates to discuss ideas without triggering defensiveness.
 - Institutional Countermeasures: Cultivating a culture of dissent (e.g. the "Aztec decision circle") to prevent the delegitimisation of political opposition (as noted in Levitsky and Ziblatt’s _How Democracies Die_).
 
-%%[depends_on:: [[Truth-Status Belongs to Propositions, Not Persons]], confidence=medium]%%
+[depends_on:: [[Truth-Status Belongs to Propositions, Not Persons]], confidence=medium]
 
 _The remedy has a precondition the note leaves implicit. "Liberation rather than instruction" works because the belief is fused with identity—you cannot argue someone out of a position that is load-bearing for their sense of self. Exteriorising the claim ("the claim is on the table, not in my chest") is the operational move that makes internal liberation available at all._
 
@@ -61,7 +61,7 @@ _The remedy has a precondition the note leaves implicit. "Liberation rather than
 - Intelligent Stupidity & Epistemic Trespassing: Highly educated individuals are not immune. "Intelligent stupidity" occurs when able people apply their talents to foolish ends. This is exacerbated by "epistemic trespassing," where highly intelligent subject-matter experts overreach into domains they do not understand due to intellectual pride and an overestimation of transferable skills (closely related to the halo effect and the Dunning-Kruger effect).
 - Hanlon's Razor: Related but distinct. Hanlon's Razor ("Never attribute to malice that which is adequately explained by stupidity") assumes stupidity is a mistake. Bonhoeffer argues this specific stupidity is a _choice_ (conscious or subconscious) to conform.
 
-%%[supports:: [[SoT - AI Sycophancy]], confidence=medium]%%
+[supports:: [[SoT - AI Sycophancy]], confidence=medium]
 
 _A connection the note gestures at without making: sycophancy is functional stupidity implemented in silicon. A model that "prioritises human approval over accuracy" has surrendered its independent judgement to align with the user—the same structure, with the power asymmetry running from prompt to weights rather than from state to citizen. The "algorithmic confirmation bias" named above now has its own SoT._
 
@@ -69,11 +69,11 @@ _A connection the note gestures at without making: sycophancy is functional stup
 
 The MVU's strongest phrase—"capable of any evil while maintaining a clear conscience"—is doing more work than the note acknowledges. It is a mechanism for one of the two pathways in the vault's ethics cluster.
 
-- [[Evil Arises from Malice or Thoughtless Banality — Motivation Is Not Determinative]]—_Arendt's Eichmann analysis identifies thoughtlessness as sufficient for evil without malicious intent. Bonhoeffer, writing from a Gestapo prison twenty years before Eichmann in Jerusalem, describes the process by which a person arrives at that thoughtlessness. The two are the same claim from different ends: Arendt observes the outcome, Bonhoeffer names the surrender that produces it._ %%[supports:: [[Evil Arises from Malice or Thoughtless Banality — Motivation Is Not Determinative]], strength=5, confidence=high]%%
+- [[Evil Arises from Malice or Thoughtless Banality — Motivation Is Not Determinative]]—_Arendt's Eichmann analysis identifies thoughtlessness as sufficient for evil without malicious intent. Bonhoeffer, writing from a Gestapo prison twenty years before Eichmann in Jerusalem, describes the process by which a person arrives at that thoughtlessness. The two are the same claim from different ends: Arendt observes the outcome, Bonhoeffer names the surrender that produces it._ [supports:: [[Evil Arises from Malice or Thoughtless Banality — Motivation Is Not Determinative]], strength=5, confidence=high]
 
 ## Tension
 
-- Choice, or factory setting? Bonhoeffer's framing is moral: stupidity is a _choice_ to conform, a defect, and "cannot be reasoned with." [[Binary Person-Judgement Is a Cognitive Default, Not a Character Flaw]] argues the opposite—that sorting people by belief runs on three stacked mechanisms (cognitive economy, tribal signalling, ego-fusion) that are close to a factory setting, and that "recognising the machinery as normal removes the shame from the habit and makes deliberate override possible." If that is right, Bonhoeffer's moralising is not just uncharitable but counterproductive: it produces the shame that forecloses the override. %%[contradicts:: [[Binary Person-Judgement Is a Cognitive Default, Not a Character Flaw]], confidence=medium]%%
+- Choice, or factory setting? Bonhoeffer's framing is moral: stupidity is a _choice_ to conform, a defect, and "cannot be reasoned with." [[Binary Person-Judgement Is a Cognitive Default, Not a Character Flaw]] argues the opposite—that sorting people by belief runs on three stacked mechanisms (cognitive economy, tribal signalling, ego-fusion) that are close to a factory setting, and that "recognising the machinery as normal removes the shame from the habit and makes deliberate override possible." If that is right, Bonhoeffer's moralising is not just uncharitable but counterproductive: it produces the shame that forecloses the override. [contradicts:: [[Binary Person-Judgement Is a Cognitive Default, Not a Character Flaw]], confidence=medium]
 - Reinforcing the same objection: [[Extreme Political Beliefs Are Stress Responses to Real Environmental Pain]] treats conformity to a group narrative as a stress response to genuine conditions rather than a moral surrender. No second `contradicts` edge—one is enough to record the disagreement, and this note extends it rather than restating it.
 - Historical mitigation. Bonhoeffer wrote this in 1943, in prison, about people collaborating with the regime that would execute him. Whether the moral framing is a defensible general theory or a specific judgement of specific collaborators is a real question the note does not raise. UNSURE—resolving it needs the primary text (_Letters and Papers from Prison_), which the vault does not have.
 

@@ -23,4 +23,4 @@ Details: The process of creating a concept map promotes meaningful learning by f
 
 - [[Cognitive Offloading Frees Mental Resources for Decision-Making and Problem-Solving]]
 
-%%[implements:: [[SoT - Active Learning Techniques]]]%%
+[implements:: [[SoT - Active Learning Techniques]]]

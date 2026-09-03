@@ -24,7 +24,7 @@ Overall: True inbound orphan note.
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Discipline and Values.md` | `%%[supports:: [[SoT - Values and Eudaimonia]]]%%` | Target acts as a foundational philosophical claim that justifies the SoT's focus on values over feelings. | Yes |
+| `Discipline and Values.md` | `[supports:: [[SoT - Values and Eudaimonia]]]` | Target acts as a foundational philosophical claim that justifies the SoT's focus on values over feelings. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required. Existing context links will be preserved.

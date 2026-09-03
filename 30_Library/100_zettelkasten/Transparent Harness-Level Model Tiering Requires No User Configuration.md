@@ -44,4 +44,4 @@ Source: "The harness is all you need (mostly)" (github.blog, GitHub Copilot team
 
 - [[Full-Autonomy Agent Execution Requires Sandboxing for Safety and Data Privacy, Not Just Concurrency]]
 
-%%[extends:: [[Token Smarter Concentrates Human Oversight at Architectural Leverage Points While Tiering Models by Task]], strength=2, confidence=low]%%
+[extends:: [[Token Smarter Concentrates Human Oversight at Architectural Leverage Points While Tiering Models by Task]], strength=2, confidence=low]

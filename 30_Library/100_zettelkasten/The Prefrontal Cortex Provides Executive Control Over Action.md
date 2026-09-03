@@ -21,4 +21,4 @@ Details: The PFC sends bias signals throughout the brain to orchestrate task per
 
 [[Executive Function Challenges are Central to ADHD]]—the PFC is the executive control center whose impairment defines EF challenges
 
-%%[supports:: [[Executive Function Challenges are Central to ADHD]]]%%
+[supports:: [[Executive Function Challenges are Central to ADHD]]]

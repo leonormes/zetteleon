@@ -13,7 +13,7 @@ type: atom
 upstream: '[[SoT - Principles for Peaceful Productivity]]'
 ---
 
-%%[supports:: [[Outsourcing Writing to AI Bypasses the Cognitive Strain That Builds Professional Competence]], strength=4, confidence=high]%%
+[supports:: [[Outsourcing Writing to AI Bypasses the Cognitive Strain That Builds Professional Competence]], strength=4, confidence=high]
 
 ## Work Slop Proliferation
 

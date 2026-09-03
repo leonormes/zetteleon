@@ -14,28 +14,28 @@ type: map
 
 ## The Argument in Sequence
 
-1—The closed method. [[Alchemy Protected Truth Through Obscurity]]—_Truth as sacred inheritance, protected from the uninitiated by pseudonyms, symbolism and deliberate obscurity. Knowledge as a static treasure to be guarded rather than a field to be corrected._ %%[synthesizes:: [[Alchemy Protected Truth Through Obscurity]], strength=5, confidence=high]%%
+1—The closed method. [[Alchemy Protected Truth Through Obscurity]]—_Truth as sacred inheritance, protected from the uninitiated by pseudonyms, symbolism and deliberate obscurity. Knowledge as a static treasure to be guarded rather than a field to be corrected._ [synthesizes:: [[Alchemy Protected Truth Through Obscurity]], strength=5, confidence=high]
 
-2—The open method. [[Mathematics Established Knowledge Through Open Demonstration]]—_Credibility resting on demonstrations accessible to all for scrutiny: clear, demonstrable, refutable steps that invite peer examination._ %%[synthesizes:: [[Mathematics Established Knowledge Through Open Demonstration]], strength=5, confidence=high]%%
+2—The open method. [[Mathematics Established Knowledge Through Open Demonstration]]—_Credibility resting on demonstrations accessible to all for scrutiny: clear, demonstrable, refutable steps that invite peer examination._ [synthesizes:: [[Mathematics Established Knowledge Through Open Demonstration]], strength=5, confidence=high]
 
-3—Both flourished at once. [[Antithetical Knowledge Systems in the 17th Century]]—_The historical fact that makes this interesting: two opposed epistemologies were simultaneously legitimate and thriving, which is what a genuine transition looks like from inside it._ %%[synthesizes:: [[Antithetical Knowledge Systems in the 17th Century]], confidence=high]%%
+3—Both flourished at once. [[Antithetical Knowledge Systems in the 17th Century]]—_The historical fact that makes this interesting: two opposed epistemologies were simultaneously legitimate and thriving, which is what a genuine transition looks like from inside it._ [synthesizes:: [[Antithetical Knowledge Systems in the 17th Century]], confidence=high]
 
-4—And only one survived. [[Open Knowledge Systems Prevail Over Closed Systems]]—_Alchemy as "the last blossom from a dying plant," mathematics as "the first blooming of a hardy perennial." The verdict the other three notes set up._ %%[synthesizes:: [[Open Knowledge Systems Prevail Over Closed Systems]], strength=5, confidence=high]%%
+4—And only one survived. [[Open Knowledge Systems Prevail Over Closed Systems]]—_Alchemy as "the last blossom from a dying plant," mathematics as "the first blooming of a hardy perennial." The verdict the other three notes set up._ [synthesizes:: [[Open Knowledge Systems Prevail Over Closed Systems]], strength=5, confidence=high]
 
 ## Why the Cluster Matters Outside Its Own History
 
 The mechanism is not about alchemy. It is about what happens to any knowledge system that removes itself from refutation—and the vault has that mechanism in three other domains.
 
-- [[Systems Generate Internal Logic in Isolation]]—_The general form. A system blind to external context must generate its own self-referential rules; this cluster is the historical case study of what those rules cost over 1,500 years._ %%[implements:: [[Systems Generate Internal Logic in Isolation]], strength=5, confidence=high]%%
-- [[Dismissing People Who Disagree Costs You Your Best Error-Detectors]]—_The individual-scale version. Alchemy's "elect" is one person's filtered circle: shutting out disagreement deletes the test suite, whether the system is a guild or a friendship group._ %%[supports:: [[Dismissing People Who Disagree Costs You Your Best Error-Detectors]], confidence=high]%%
-- [[SoT - Bonhoeffer's Theory of Functional Stupidity]]—_The group-scale version. A closed group treats contradictory evidence as "exceptional cases"—the same immunity to refutation, arrived at socially rather than doctrinally._ %%[supports:: [[SoT - Bonhoeffer's Theory of Functional Stupidity]], confidence=medium]%%
-- [[MOC - From Information to Knowledge]]—_The philosophical frame. That map's JTB arc asks what justification _is_; this cluster is the empirical answer about which justification methods survive contact with time._ %%[depends_on:: [[MOC - From Information to Knowledge]], confidence=medium]%%
+- [[Systems Generate Internal Logic in Isolation]]—_The general form. A system blind to external context must generate its own self-referential rules; this cluster is the historical case study of what those rules cost over 1,500 years._ [implements:: [[Systems Generate Internal Logic in Isolation]], strength=5, confidence=high]
+- [[Dismissing People Who Disagree Costs You Your Best Error-Detectors]]—_The individual-scale version. Alchemy's "elect" is one person's filtered circle: shutting out disagreement deletes the test suite, whether the system is a guild or a friendship group._ [supports:: [[Dismissing People Who Disagree Costs You Your Best Error-Detectors]], confidence=high]
+- [[SoT - Bonhoeffer's Theory of Functional Stupidity]]—_The group-scale version. A closed group treats contradictory evidence as "exceptional cases"—the same immunity to refutation, arrived at socially rather than doctrinally._ [supports:: [[SoT - Bonhoeffer's Theory of Functional Stupidity]], confidence=medium]
+- [[MOC - From Information to Knowledge]]—_The philosophical frame. That map's JTB arc asks what justification _is_; this cluster is the empirical answer about which justification methods survive contact with time._ [depends_on:: [[MOC - From Information to Knowledge]], confidence=medium]
 
 ## See Also
 
 - [[Ptolemaic System as a Patched Flawed Model]]—_The same failure mode inside a nominally open science: 1,500 years of epicycles rather than one questioned premise._
 - [[Constructive Debate in Psychological Safety]]—_What "open to refutation" requires operationally in a team._
-%%[depends_on:: [[Constructive Debate in Psychological Safety]]]%%
+[depends_on:: [[Constructive Debate in Psychological Safety]]]
 - [[Strong Opinions, Loosely Held Balances Conviction and Humility]]—_The individual posture the open method demands._
 - [[SoT - Empirical Origins of Mathematics]]—_Where the mathematics half of this contrast came from before it was abstract._
 

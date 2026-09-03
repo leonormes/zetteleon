@@ -51,6 +51,6 @@ Source: "Paper Dives: MapReduce Is Back - And It Fixes Broken LLM Pipelines | Do
 
 - [[SoT - Chunking Strategies for Long Documents]]
 
-%%[supports:: [[LLM Pipeline Accuracy Degrades with Document Length and Task Complexity]], strength=4, confidence=high]%%
+[supports:: [[LLM Pipeline Accuracy Degrades with Document Length and Task Complexity]], strength=4, confidence=high]
 
-%%[depends_on:: [[Context Window Limits Force Iterative Task Decomposition]], strength=3, confidence=high]%%
+[depends_on:: [[Context Window Limits Force Iterative Task Decomposition]], strength=3, confidence=high]

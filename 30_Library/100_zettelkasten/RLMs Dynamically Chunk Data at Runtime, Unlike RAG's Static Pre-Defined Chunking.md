@@ -46,4 +46,4 @@ Source: "From RLMs to Agent Harnesses" (Still Broken AI). "RAG uses hardcoded ru
 
 - [[RLMs Avoid Context Bloat by Storing Intermediate State as Symbolic Variables, Not Context Tokens]]
 
-%%[depends_on:: [[Root LLM Dispatches Generative Subtasks to Sub-LLMs via Code-Mediated Function Calls]], strength=3, confidence=medium]%%
+[depends_on:: [[Root LLM Dispatches Generative Subtasks to Sub-LLMs via Code-Mediated Function Calls]], strength=3, confidence=medium]

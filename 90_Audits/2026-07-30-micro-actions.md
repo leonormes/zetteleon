@@ -25,8 +25,8 @@ Existing link count out: 1 live (`SoT - ADHD Neurology & Core Concepts`), 1 dead
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Master Micro-Actions & Starter Tasks.md` | `%%[supports:: [[SoT - ADHD Management Protocols]]]%%` | Target acts as the experimental proof and implementation of the SoT's Starter Task protocol. | Yes |
-| `Master Micro-Actions & Starter Tasks.md` | `%%[supports:: [[Micro-Stepping Reduces Cognitive Load for Task Initiation]]]%%` | Target is the actionable proof-point of the cognitive load claim. | Yes |
+| `Master Micro-Actions & Starter Tasks.md` | `[supports:: [[SoT - ADHD Management Protocols]]]` | Target acts as the experimental proof and implementation of the SoT's Starter Task protocol. | Yes |
+| `Master Micro-Actions & Starter Tasks.md` | `[supports:: [[Micro-Stepping Reduces Cognitive Load for Task Initiation]]]` | Target is the actionable proof-point of the cognitive load claim. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 | File | Proposed line | Where it goes |

@@ -24,7 +24,7 @@ Overall: True inbound orphan note.
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Implicit Multi-Agent...md` | `%%[implements:: [[SoT - Agentic AI Design Patterns]]]%%` | Target is an applied architectural pattern of the multi-agent collaboration design patterns defined in the SoT. | Yes |
+| `Implicit Multi-Agent...md` | `[implements:: [[SoT - Agentic AI Design Patterns]]]` | Target is an applied architectural pattern of the multi-agent collaboration design patterns defined in the SoT. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required. The existing plain link to `Virtual File System for Agent Concurrency` will be preserved as a contextual mention. The link to the SoT will be converted to a typed edge at the bottom.

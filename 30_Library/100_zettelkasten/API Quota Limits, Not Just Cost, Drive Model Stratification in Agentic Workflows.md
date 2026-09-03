@@ -38,6 +38,6 @@ Source: [video with quota economics/model stratification segment, exact title/ch
 
 - [[Agent-Ergonomic CLIs Output Token-Efficient Plaintext Instead of Verbose JSON Schemas]]
 
-%%[extends:: [[Token Smarter Concentrates Human Oversight at Architectural Leverage Points While Tiering Models by Task]], strength=3, confidence=medium]%%
+[extends:: [[Token Smarter Concentrates Human Oversight at Architectural Leverage Points While Tiering Models by Task]], strength=3, confidence=medium]
 
-%%[extends:: [[Small Models Should Execute Structured Tool Calls, Large Models Complex Reasoning]], strength=3, confidence=medium]%%
+[extends:: [[Small Models Should Execute Structured Tool Calls, Large Models Complex Reasoning]], strength=3, confidence=medium]

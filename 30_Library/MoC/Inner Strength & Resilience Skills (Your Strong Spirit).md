@@ -23,6 +23,6 @@ These are the quiet strengths inside you that help you face challenges and stay 
 
 This map is part of the larger concept of [[A Concept Map for a Flourishing Human]].
 
-%%[extends:: [[A Concept Map for a Flourishing Human]], strength=4, confidence=high]%%
+[extends:: [[A Concept Map for a Flourishing Human]], strength=4, confidence=high]
 
-%%[implements:: [[MOC - Character and Virtue]], strength=3, confidence=high]%%
+[implements:: [[MOC - Character and Virtue]], strength=3, confidence=high]

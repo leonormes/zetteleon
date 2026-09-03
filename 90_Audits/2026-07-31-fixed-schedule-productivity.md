@@ -24,7 +24,7 @@ Overall: True totally disconnected orphan note.
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Fixed-Schedule Productivity...md` | `%%[implements:: [[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]]%%` | Target is a concrete scheduling practice that implements the theoretical Container constraints of PRODOS. | Yes |
+| `Fixed-Schedule Productivity...md` | `[implements:: [[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]]` | Target is a concrete scheduling practice that implements the theoretical Container constraints of PRODOS. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required. The note had zero outgoing links.

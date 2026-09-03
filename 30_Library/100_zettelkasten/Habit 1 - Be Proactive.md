@@ -27,6 +27,6 @@ Proactive people focus their time and energy on their Circle of Influence. As th
 
 ## ProdOS Integration
 
-This habit is a foundational mandate of the [[MOC - ProdOS]]. %%[supports:: [[MOC - ProdOS]], confidence=medium]%% The system is designed to empower the user as the "programmer" of their life, not a passive observer. It directly combats the learned helplessness that can be a challenge for ADHD brains navigating productivity systems ([[MOC - ADHD (The Master Map)|ADHD and Productivity]]) by focusing on small, controllable actions.
+This habit is a foundational mandate of the [[MOC - ProdOS]]. [supports:: [[MOC - ProdOS]], confidence=medium] The system is designed to empower the user as the "programmer" of their life, not a passive observer. It directly combats the learned helplessness that can be a challenge for ADHD brains navigating productivity systems ([[MOC - ADHD (The Master Map)|ADHD and Productivity]]) by focusing on small, controllable actions.
 
-The next step after choosing to be proactive is to define what you want to create, which is the essence of [[Habit 2 - Begin with the End in Mind]]. %%[supports:: [[Habit 2 - Begin with the End in Mind]], confidence=high]%%
+The next step after choosing to be proactive is to define what you want to create, which is the essence of [[Habit 2 - Begin with the End in Mind]]. [supports:: [[Habit 2 - Begin with the End in Mind]], confidence=high]

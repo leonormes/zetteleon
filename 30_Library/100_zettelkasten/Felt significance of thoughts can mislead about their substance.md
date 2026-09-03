@@ -40,6 +40,6 @@ Common manifestations:
 
 The practical implication: Felt significance should be treated as a signal to examine a thought more carefully (through writing or articulation), not as evidence of the thought's actual value. The feeling itself is real and valid, but it's about the experience of thinking, not the quality of what is thought.
 
-%%[supports:: [[SoT - Illusion of Explanatory Depth (IoED)]]]%%
+[supports:: [[SoT - Illusion of Explanatory Depth (IoED)]]]
 
-%%[supports:: [[SoT - Metacognitive Calibration]]]%%
+[supports:: [[SoT - Metacognitive Calibration]]]

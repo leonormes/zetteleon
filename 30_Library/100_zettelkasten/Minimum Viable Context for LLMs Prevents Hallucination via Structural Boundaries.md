@@ -36,6 +36,6 @@ The boundary of MVC is discovered by removing information until the model first 
 
 rel:: operationalizes [[LLM Reasoning Efficiency is Proportional to Structural Constraint]]
 
-%%[implements:: [[LLM Reasoning Efficiency is Proportional to Structural Constraint]], strength=3, confidence=medium]%%
+[implements:: [[LLM Reasoning Efficiency is Proportional to Structural Constraint]], strength=3, confidence=medium]
 
 rel:: enforced-by [[MVC Enforcement Structural Gates for LLM Agents]]

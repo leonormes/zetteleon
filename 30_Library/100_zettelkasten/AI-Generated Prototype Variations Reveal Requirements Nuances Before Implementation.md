@@ -46,4 +46,4 @@ Source: "The harness is all you need (mostly)" (github.blog, GitHub Copilot team
 
 - [[Prompt Cache Discounts Reward Staying on the Same Model and Reasoning Level Within a Task]]
 
-%%[extends:: [[Manual Workflow Walkthrough Before Automation Reveals True Requirements]], strength=3, confidence=medium]%%
+[extends:: [[Manual Workflow Walkthrough Before Automation Reveals True Requirements]], strength=3, confidence=medium]

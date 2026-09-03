@@ -34,4 +34,4 @@ Demonstrated with 4–8 homogeneous agents running in parallel Git workspaces. T
 - [[Virtual File System for Agent Concurrency]]—direct concept match: the CORAL shared directory and the virtual file system pattern both use a filesystem abstraction as the coordination primitive for concurrent agents; CORAL uses a real hierarchical directory on disk rather than an in-memory dict, but the architectural role is identical.
 - SoT - Agentic AI Design Patterns—extends: implements the "Multi-Agent Collaboration" and "Inter-Agent Communication" patterns from the taxonomy but replaces structured message-passing protocols with passive shared-state reads and writes.
 
-%%[implements:: [[SoT - Agentic AI Design Patterns]]]%%
+[implements:: [[SoT - Agentic AI Design Patterns]]]

@@ -24,7 +24,7 @@ Overall: True inbound orphan note.
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Combining Visual and Verbal...md` | `%%[implements:: [[SoT - ADHD Neurology & Core Concepts]]]%%` | Target is an applied technique for leveraging the ADHD nervous system's need for novelty/stimulation. | Yes |
+| `Combining Visual and Verbal...md` | `[implements:: [[SoT - ADHD Neurology & Core Concepts]]]` | Target is an applied technique for leveraging the ADHD nervous system's need for novelty/stimulation. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required. The existing plain link to `Changing Environments Provides Novelty for ADHD Writing` will be preserved as a contextual mention.

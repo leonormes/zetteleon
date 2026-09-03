@@ -103,8 +103,8 @@ The vocabulary is closed. `<relationship>` is EXACTLY one of:
 Syntax:
 
 ```
-%%[<relationship>:: [[<target>]]]%%
-%%[<relationship>:: [[<target>]], strength=1-5, confidence=high|medium|low]%%
+[<relationship>:: [[<target>]]]
+[<relationship>:: [[<target>]], strength=1-5, confidence=high|medium|low]
 ```
 
 Rules—each of these is a linter error if broken:

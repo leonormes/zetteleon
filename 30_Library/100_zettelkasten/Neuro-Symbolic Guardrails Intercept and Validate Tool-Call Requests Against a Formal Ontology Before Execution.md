@@ -50,4 +50,4 @@ Source: user-pasted summary of a presentation on neuro-symbolic AI architecture 
 
 - [[Full-Autonomy Agent Execution Requires Sandboxing for Safety and Data Privacy, Not Just Concurrency]]
 
-%%[extends:: [[Agentic Loops Gain Turing-Complete Instability From Chained Reasoning and Tool Use]], strength=3, confidence=medium]%%
+[extends:: [[Agentic Loops Gain Turing-Complete Instability From Chained Reasoning and Tool Use]], strength=3, confidence=medium]

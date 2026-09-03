@@ -9,7 +9,7 @@ title: MVC Enforcement Structural Gates for LLM Agents
 type: sot
 ---
 
-%%[implements:: [[SoT - Flow Engineering]], strength=4, confidence=high]%%
+[implements:: [[SoT - Flow Engineering]], strength=4, confidence=high]
 
 ## MVC Enforcement: Structural Gates for LLM Agents
 
@@ -48,6 +48,6 @@ If an agent mentions a symbol not found in its current structural interface, or 
 
 rel:: enforces [[Minimum Viable Context for LLMs Prevents Hallucination via Structural Boundaries]]
 
-%%[supports:: [[Minimum Viable Context for LLMs Prevents Hallucination via Structural Boundaries]], strength=4, confidence=high]%%
+[supports:: [[Minimum Viable Context for LLMs Prevents Hallucination via Structural Boundaries]], strength=4, confidence=high]
 
 rel:: justifies [[Agentic REPL]]

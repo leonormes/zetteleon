@@ -25,8 +25,8 @@ Existing link count out: 0 (True orphan outbound).
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Curiosity Hooks are Self-Posed Questions to Rekindle Inspiration.md` | `%%[depends_on:: [[The ADHD brain operates on an Interest-Based Nervous System]]]%%` | The technique only works because it specifically targets the triggers (novelty, interest, discovery) of the IBNS to overcome initiation friction. | Yes |
-| `Curiosity Hooks are Self-Posed Questions to Rekindle Inspiration.md` | `%%[supports:: [[Context Preservation Techniques Maintain Project Novelty and Meaning]]]%%` | Target is a concrete implementation of the broader context preservation strategy. | Yes |
+| `Curiosity Hooks are Self-Posed Questions to Rekindle Inspiration.md` | `[depends_on:: [[The ADHD brain operates on an Interest-Based Nervous System]]]` | The technique only works because it specifically targets the triggers (novelty, interest, discovery) of the IBNS to overcome initiation friction. | Yes |
+| `Curiosity Hooks are Self-Posed Questions to Rekindle Inspiration.md` | `[supports:: [[Context Preservation Techniques Maintain Project Novelty and Meaning]]]` | Target is a concrete implementation of the broader context preservation strategy. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 | File | Proposed line | Where it goes |

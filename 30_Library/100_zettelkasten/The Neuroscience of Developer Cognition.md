@@ -18,12 +18,12 @@ The field of neuroscience is beginning to shed light on the brain activity patte
 
 ### Core Areas of Research
 
-- [[Foundations of Learning and Cognition for Developers]] %%[extends:: [[Foundations of Learning and Cognition for Developers]]]%% - *Provides the broader psychological framework that neuroimaging seeks to ground in biology.*
-- [[Brain Activity During Programming Tasks]] %%[extends:: [[Brain Activity During Programming Tasks]]]%% - *Specific fMRI and fNIRS studies mapping code comprehension to the brain's language and logic centers.*
-- [[Neural Correlates of Specific Programming Activities]] %%[extends:: [[Neural Correlates of Specific Programming Activities]]]%% - *Differentiating the neural signatures of writing new code versus debugging existing systems.*
+- [[Foundations of Learning and Cognition for Developers]] [extends:: [[Foundations of Learning and Cognition for Developers]]] - *Provides the broader psychological framework that neuroimaging seeks to ground in biology.*
+- [[Brain Activity During Programming Tasks]] [extends:: [[Brain Activity During Programming Tasks]]] - *Specific fMRI and fNIRS studies mapping code comprehension to the brain's language and logic centers.*
+- [[Neural Correlates of Specific Programming Activities]] [extends:: [[Neural Correlates of Specific Programming Activities]]] - *Differentiating the neural signatures of writing new code versus debugging existing systems.*
 
 ### Thinking Modes and Executive Function
 
-Developers benefit from structured [[Diffuse vs Focused Thinking Modes]] %%[implements:: [[Diffuse vs Focused Thinking Modes]]]%% alternation, particularly when debugging or designing systems. This cognitive rhythm manages the high executive function load of software engineering.
+Developers benefit from structured [[Diffuse vs Focused Thinking Modes]] [implements:: [[Diffuse vs Focused Thinking Modes]]] alternation, particularly when debugging or designing systems. This cognitive rhythm manages the high executive function load of software engineering.
 
-Furthermore, programming acts as a stress test for working memory and task initiation. The biological constraints mapped here intersect directly with [[SoT - The Cognitive Physiology of Task Execution]] %%[supports:: [[SoT - The Cognitive Physiology of Task Execution]]]%%, as the prefrontal cortex mediates the structured logic required for code execution.
+Furthermore, programming acts as a stress test for working memory and task initiation. The biological constraints mapped here intersect directly with [[SoT - The Cognitive Physiology of Task Execution]] [supports:: [[SoT - The Cognitive Physiology of Task Execution]]], as the prefrontal cortex mediates the structured logic required for code execution.

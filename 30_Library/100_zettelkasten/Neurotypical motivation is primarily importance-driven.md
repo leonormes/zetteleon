@@ -33,4 +33,4 @@ A key subjective experience for neurotypicals is receiving a "little shot of dop
 
 Supports [[The ADHD brain operates on an Interest-Based Nervous System]]—the importance-based contrast the model is defined against.
 
-%%[supports:: [[The Interest-Based Nervous System in ADHD]]]%%
+[supports:: [[The Interest-Based Nervous System in ADHD]]]

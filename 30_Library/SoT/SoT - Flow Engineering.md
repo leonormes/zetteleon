@@ -15,7 +15,7 @@ title: SoT - Flow Engineering
 type: sot
 ---
 
-%%[depends_on:: [[SoT - LLM Semantic-Statistical Mismatch]], strength=5, confidence=high]%%
+[depends_on:: [[SoT - LLM Semantic-Statistical Mismatch]], strength=5, confidence=high]
 
 ## Minimum Viable Understanding (MVU)
 

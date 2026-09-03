@@ -24,7 +24,7 @@ Overall: True totally disconnected orphan note.
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Distraction Management...md` | `%%[implements:: [[SoT - Indistractable Model (Focus Management)]]]%%` | Target is an applied technique for managing internal triggers as required by the Indistractable framework. | Yes |
+| `Distraction Management...md` | `[implements:: [[SoT - Indistractable Model (Focus Management)]]]` | Target is an applied technique for managing internal triggers as required by the Indistractable framework. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required. Note had zero outgoing links initially.

@@ -46,4 +46,4 @@ Source: "I Built Karpathy's LLM Wiki in Claude Code (No Vector DB)" (Achuth G. R
 
 - [[SoT - LLM Wiki Pattern]]
 
-%%[implements:: [[Agent Harness - Wrapping LLMs in Deterministic Software Controls]], strength=3, confidence=medium]%%
+[implements:: [[Agent Harness - Wrapping LLMs in Deterministic Software Controls]], strength=3, confidence=medium]

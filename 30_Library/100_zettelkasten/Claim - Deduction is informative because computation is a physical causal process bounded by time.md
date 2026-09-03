@@ -29,4 +29,4 @@ The "Scandal of Deduction" asks: if the conclusion of a valid deductive argument
 ## Related
 
 - [[Shannon's Information Theory - Information as Uncertainty]]—_Addresses the technical definition of information, which deduction appears to violate until computation is reframed as a physical process._
-%%[extends:: [[Shannon's Information Theory - Information as Uncertainty]]]%%
+[extends:: [[Shannon's Information Theory - Information as Uncertainty]]]

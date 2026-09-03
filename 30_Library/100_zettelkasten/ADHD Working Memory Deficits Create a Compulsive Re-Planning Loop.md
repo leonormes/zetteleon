@@ -20,4 +20,4 @@ Details: The "out of sight, out of mind" nature of ADHD working memory means tha
 
 [[Executive Function Challenges are Central to ADHD]]—working memory is one of the six EF domains named in the parent claim
 
-%%[supports:: [[Executive Function Challenges are Central to ADHD]]]%%
+[supports:: [[Executive Function Challenges are Central to ADHD]]]

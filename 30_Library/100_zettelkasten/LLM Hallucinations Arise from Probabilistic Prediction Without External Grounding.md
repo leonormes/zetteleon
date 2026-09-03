@@ -43,4 +43,4 @@ Source: "LLM Reliability Engineering: Fix hallucinations, errors, & unpredictabl
 
 - [[SoT - LLM Hallucination Taxonomy]]
 
-%%[depends_on:: [[LLM Probabilistic Outputs Prevent Consistency Guarantees]], strength=5, confidence=high]%%
+[depends_on:: [[LLM Probabilistic Outputs Prevent Consistency Guarantees]], strength=5, confidence=high]

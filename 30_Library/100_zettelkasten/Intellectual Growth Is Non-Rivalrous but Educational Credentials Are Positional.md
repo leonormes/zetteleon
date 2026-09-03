@@ -23,8 +23,8 @@ Attention and time are rivalrous even if understanding is not, and elite institu
 
 ## Knowledge Graph
 
-%%[extends:: [[Subordinating Intellectual Life to Status Competition Destroys Its Intrinsic Value]], strength=4, confidence=high]%%
+[extends:: [[Subordinating Intellectual Life to Status Competition Destroys Its Intrinsic Value]], strength=4, confidence=high]
 
-%%[supports:: [[SoT - Social Stratification]], strength=3, confidence=medium]%%
+[supports:: [[SoT - Social Stratification]], strength=3, confidence=medium]
 
-%%[extends:: [[SoT - UK Social Hierarchy and Class Analysis]], strength=3, confidence=medium]%%
+[extends:: [[SoT - UK Social Hierarchy and Class Analysis]], strength=3, confidence=medium]

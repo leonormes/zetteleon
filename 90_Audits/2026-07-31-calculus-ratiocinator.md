@@ -24,7 +24,7 @@ Overall: True orphan note (not structurally anchored).
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Calculus Ratiocinator (Leibniz).md` | `%%[supports:: [[SoT - History of Mathematical Logic]]]%%` | Target acts as a historical proof point validating the evolution of logic described in the SoT. | Yes |
+| `Calculus Ratiocinator (Leibniz).md` | `[supports:: [[SoT - History of Mathematical Logic]]]` | Target acts as a historical proof point validating the evolution of logic described in the SoT. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required.

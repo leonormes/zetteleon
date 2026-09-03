@@ -21,12 +21,12 @@ To compensate for this biological hardware limitation, the structure must be ext
 
 ## Structural Context
 
-- %%[supports:: [[SoT - Prosthetic Executive Function]]]%%—_This claim forms the practical basis for prosthetic executive function: replacing missing internal processes with external tools._
-- %%[depends_on:: [[Executive Function]]]%%—_External structure is only necessary because the internal executive function fails to maintain the boundary._
-- %%[synthesizes:: [[Discipline Is a Property of External Structure More Than of Will]]]%%—_Validates the necessity of external constraints (like timers) over relying purely on internal motivation._
-- %%[extends:: [[SoT - The Extended Mind]]]%%—_The timer and the system become literal extensions of the brain's cognitive architecture._
-- %%[supports:: [[Structure conserves cognitive energy for neurodivergent brains]]]%%—_Because external structure offloads executive function, it conserves cognitive energy._
-- %%[extends:: [[Behavioral Interventions for ADHD Compensate for Neurobiological Deficits]]]%%—_Providing external temporal boundaries is a core behavioral intervention._
+- [supports:: [[SoT - Prosthetic Executive Function]]]—_This claim forms the practical basis for prosthetic executive function: replacing missing internal processes with external tools._
+- [depends_on:: [[Executive Function]]]—_External structure is only necessary because the internal executive function fails to maintain the boundary._
+- [synthesizes:: [[Discipline Is a Property of External Structure More Than of Will]]]—_Validates the necessity of external constraints (like timers) over relying purely on internal motivation._
+- [extends:: [[SoT - The Extended Mind]]]—_The timer and the system become literal extensions of the brain's cognitive architecture._
+- [supports:: [[Structure conserves cognitive energy for neurodivergent brains]]]—_Because external structure offloads executive function, it conserves cognitive energy._
+- [extends:: [[Behavioral Interventions for ADHD Compensate for Neurobiological Deficits]]]—_Providing external temporal boundaries is a core behavioral intervention._
 
 ## Related
 

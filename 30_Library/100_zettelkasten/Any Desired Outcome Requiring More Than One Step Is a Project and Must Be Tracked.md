@@ -37,4 +37,4 @@ Applies at the desired-outcome definition step within the Clarify stage, after a
 
 - [[ADHD Causes Deficits in Completing Long-Term Projects]]
 
-%%[supports:: [[SoT - Execution Protocol (GTD & PARA)]]]%%
+[supports:: [[SoT - Execution Protocol (GTD & PARA)]]]

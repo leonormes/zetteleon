@@ -16,4 +16,4 @@ Alphanumeric IDs in a Zettelkasten system function as addresses, not categories.
 
 See: [[Folgezettel Is Not Hierarchical]]
 
-%%[supports:: [[Claim - Flat associative structure beats rigid hierarchy]], strength=4, confidence=high]%%
+[supports:: [[Claim - Flat associative structure beats rigid hierarchy]], strength=4, confidence=high]

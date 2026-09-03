@@ -15,7 +15,7 @@ I want to use writing as an aid to thinking. I believe I'm good at thinking deep
 
 Theoretical Foundation:
 
-- [[Nihilism vs Constructed Meaning]] explains why personal knowledge systems require active meaning-making %%[depends_on:: [[Nihilism vs Constructed Meaning]]]%%
+- [[Nihilism vs Constructed Meaning]] explains why personal knowledge systems require active meaning-making [depends_on:: [[Nihilism vs Constructed Meaning]]]
 - Aligns with creating temporary but functional purpose structures
 
 [[2025-05-06]]

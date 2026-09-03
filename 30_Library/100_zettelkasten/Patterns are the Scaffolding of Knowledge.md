@@ -69,6 +69,6 @@ This is the clearest downstream consequence, and the one that makes the claim mo
 - "Pattern" is doing at least three jobs. Perceptual regularity (the sensory sense), compressible structure (the Kolmogorov sense), and reusable schema (the learning sense). The note treats them as one thing. They are related but not identical, and the slippage is where the claim is weakest.
 - Untested against [[Time, Patterns, and Mathematics]]. That note raises whether patterns require linear time. It is currently an unprocessed LLM transcript with `type: ''`—it should be atomised before it can be linked properly.
 
-%%[depends_on:: [[Pattern Recognition is the Cognitive Process of Organizing Sensory Input]], strength=4, confidence=high]%%
+[depends_on:: [[Pattern Recognition is the Cognitive Process of Organizing Sensory Input]], strength=4, confidence=high]
 
-%%[extends:: [[MOC - Pattern - From Sensory Input to Meaning]], strength=3, confidence=high]%%
+[extends:: [[MOC - Pattern - From Sensory Input to Meaning]], strength=3, confidence=high]

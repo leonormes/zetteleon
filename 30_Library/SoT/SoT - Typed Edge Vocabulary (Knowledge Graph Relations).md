@@ -16,16 +16,16 @@ type: sot
 
 ## Minimum Viable Understanding (MVU)
 
-A typed edge is a one-line, reading-view-invisible annotation that records a _directed, named_ relationship from the note (or block) it sits in to another note or block: `%%[relationship:: [[target]]]%%`. It replaces the flat `[[wikilink]]`—which says only "these two are related"—with a claim the machine can check: _this concept implements that one; this claim contradicts that one_. The point is not ontological richness for its own sake (that fails the Utility-over-Truth axiom); it is that a compiler can then resolve every target, flag dangling references, and let you ask graph questions—"what contradicts this?", "what does this depend on?"—without hand-maintaining a second index. One encoding only: the `%%[…:: …]%%` form is the single source of truth. No JSON-LD, no duplicated metadata blocks.
+A typed edge is a one-line, reading-view-invisible annotation that records a _directed, named_ relationship from the note (or block) it sits in to another note or block: `[relationship:: [[target]]]`. It replaces the flat `[[wikilink]]`—which says only "these two are related"—with a claim the machine can check: _this concept implements that one; this claim contradicts that one_. The point is not ontological richness for its own sake (that fails the Utility-over-Truth axiom); it is that a compiler can then resolve every target, flag dangling references, and let you ask graph questions—"what contradicts this?", "what does this depend on?"—without hand-maintaining a second index. One encoding only: the `[…:: …]` form is the single source of truth. No JSON-LD, no duplicated metadata blocks.
 
 The interior is a Dataview inline field, which buys the encoding a second reader for free: Dataview indexes every edge as a queryable property, so single-hop questions (`LIST WHERE contradicts`) are answerable _inside Obsidian with zero code_, while the compiler (§6) handles everything DQL structurally cannot—validation, traversal, cycle detection.
 
 ## 1. Syntax
 
 ```
-%%[<relationship>:: [[<target>]]]%%
-%%[<relationship>:: [[<target>]], <attr>=<val>, <attr>=<val>]%%
-%%[<relationship>:: <block-id>]%%
+[<relationship>:: [[<target>]]]
+[<relationship>:: [[<target>]], <attr>=<val>, <attr>=<val>]
+[<relationship>:: <block-id>]
 ```
 
 - Wrapped in Obsidian comment markers `%% … %%` → invisible in reading view and Live Preview, but plain text on disk and greppable. Dataview parses the inline field regardless of the comment wrapper (verified against `dataview.api.page()`).
@@ -83,7 +83,7 @@ Relationship information exists in this vault in four other shapes. `edge_lint.p
 
 | Shape | Example | Count | Status |
 |:---|:---|---:|:---|
-| §1 typed edge | `%%[supports:: [[X]]]%%` | 69 | parsed—canonical |
+| §1 typed edge | `[supports:: [[X]]]` | 69 | parsed—canonical |
 | Visible inline field | `rel:: contradicts` in MoC prose | ~303 | not parsed—different grammar (relationship as _value_, not field name), and visible in reading view |
 | Prose tension list | `[[X]]—contradicts: <explanation>` under `## Tensions` | ~133 | not parsed—free text, carries an explanation a typed edge cannot hold |
 | Frontmatter relation | `contradicts:` in a `claim` fileClass | 2 | not parsed—`fileclass validate` owns the frontmatter half (§6) |
@@ -94,7 +94,7 @@ The prose and frontmatter forms are not deprecated: §2 already prefers the fron
 
 The typed-edge layer is only as good as the pass that checks it. A conformant compiler (`10_System/scripts/edge_lint.py`, written and in use) MUST, over its scope:
 
-1. Extract every `%%[<rel>:: <target>[, attrs]]%%`, ignoring occurrences inside fenced or inline code so this spec's own examples are not linted as data.
+1. Extract every `[<rel>:: <target>[, attrs]]`, ignoring occurrences inside fenced or inline code so this spec's own examples are not linted as data.
 2. Reject any `<rel>` outside the §2 vocabulary.
 3. Resolve every `<target>` per §4; report dangling (0 matches) and ambiguous (>1) as errors, and a bare note target as a warning.
 4. Validate attribute types per §3 (`strength` ∈ 1–5, `confidence` in enum).
@@ -117,6 +117,6 @@ This is the link/edge half of the validator [[SoT - ProdOS Frontmatter Contract 
 - Overlap with frontmatter relations is a convention, not a gate. §2 says "prefer the frontmatter field for note→note", but nothing stops an author recording the same fact both ways. If this drifts in practice, promote the rule to a compiler check that flags an inline edge duplicating a frontmatter relation.
 - Vocabulary is seeded, not proven. The six relationships come from one POC plus the existing Claim/Evidence fields. Expect to add or merge types once real edges accumulate—treat `lifecycle: seedling` literally.
 
-%%[implements:: [[Claim - Domains relate through named relations, not undifferentiated association]], strength=4, confidence=high]%%
+[implements:: [[Claim - Domains relate through named relations, not undifferentiated association]], strength=4, confidence=high]
 
-%%[implements:: [[Typed Links for Knowledge Context]], strength=5, confidence=high]%%
+[implements:: [[Typed Links for Knowledge Context]], strength=5, confidence=high]

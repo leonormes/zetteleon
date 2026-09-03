@@ -59,4 +59,4 @@ Source: "LLM Reliability Engineering: Fix hallucinations, errors, & unpredictabl
 
 - [[Verification Pipelines in LLM Systems]]
 
-%%[supports:: [[LLM Hallucinations Arise from Probabilistic Prediction Without External Grounding]], strength=3, confidence=medium]%%
+[supports:: [[LLM Hallucinations Arise from Probabilistic Prediction Without External Grounding]], strength=3, confidence=medium]

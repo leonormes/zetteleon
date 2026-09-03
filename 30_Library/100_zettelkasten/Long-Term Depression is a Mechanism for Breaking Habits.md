@@ -15,7 +15,7 @@ type: claim
 
 Long-Term Depression (LTD) is a neuroscientific principle that can be leveraged to break bad habits. It involves weakening neural pathways by intentionally dissociating a trigger from its associated habitual response. This follows the principle that "neurons that stop firing together, stop wiring together." This can be done by inserting a pause or a different action between the trigger and the unwanted habit.
 
-%%[supports:: [[Neuroplasticity is the Foundation for Habit Change]]]%%
+[supports:: [[Neuroplasticity is the Foundation for Habit Change]]]
 
 ## Related
 

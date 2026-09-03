@@ -132,9 +132,9 @@ You are not broken because you crave the candy. You are starving because you hav
 
 ### Related Source of Truth Notes
 
-- [[SoT - ADHD Neurology & Core Concepts]] - The mechanics of engineering this transition. %%[depends_on:: [[SoT - ADHD Neurology & Core Concepts]], confidence=medium]%%
+- [[SoT - ADHD Neurology & Core Concepts]] - The mechanics of engineering this transition. [depends_on:: [[SoT - ADHD Neurology & Core Concepts]], confidence=medium]
 - [[SoT - Habit Formation Framework]] - How to lock these changes in.
-- [[SoT - Mindfulness and Emotional Regulation]] - For emotional regulation during transition. %%[depends_on:: [[SoT - Mindfulness and Emotional Regulation]], confidence=medium]%%
+- [[SoT - Mindfulness and Emotional Regulation]] - For emotional regulation during transition. [depends_on:: [[SoT - Mindfulness and Emotional Regulation]], confidence=medium]
 - [[SoT - Temporal Management (Blocking and Boxing)]] - For structuring time around values.
-- [[SoT - Logotherapy and the Will to Meaning]] - The existential foundations of meaning and purpose. %%[depends_on:: [[SoT - Logotherapy and the Will to Meaning]], confidence=high]%%
+- [[SoT - Logotherapy and the Will to Meaning]] - The existential foundations of meaning and purpose. [depends_on:: [[SoT - Logotherapy and the Will to Meaning]], confidence=high]
 - [[Neurotypical motivation is primarily importance-driven]] - Contrasting neurotypical duty/obligation motivation against ADHD values-based architecture.

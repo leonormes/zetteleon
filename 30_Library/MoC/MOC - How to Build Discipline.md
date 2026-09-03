@@ -30,4 +30,4 @@ This note summarizes the core ideas from the video "How to Build Discipline So S
 
 - Your Voting System: Every small, disciplined choice is a "vote" for the future version of yourself. This is the idea that [[Disciplined Choices are Votes for Your Future Self]].
 
-%%[implements:: [[MOC - Character and Virtue]], strength=3, confidence=medium]%%
+[implements:: [[MOC - Character and Virtue]], strength=3, confidence=medium]

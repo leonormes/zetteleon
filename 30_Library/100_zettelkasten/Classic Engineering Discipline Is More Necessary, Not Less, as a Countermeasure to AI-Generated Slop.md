@@ -47,6 +47,6 @@ Source: "Context engineering with Dex Horthy" (Gergely Orosz interviewing Dex Ho
 
 - [[The Slow Loop Pattern - Constrained Off-Hours Agent Loops Produce a Single PR for Async Human Review]]
 
-%%[supports:: [[Vibe Coding - Rapid AI-Assisted Code Generation Without Engineering Rigor]], strength=3, confidence=medium]%%
+[supports:: [[Vibe Coding - Rapid AI-Assisted Code Generation Without Engineering Rigor]], strength=3, confidence=medium]
 
-%%[depends_on:: [[Harness Engineering Splits into an Inner Harness and an Outer Harness]], strength=2, confidence=low]%%
+[depends_on:: [[Harness Engineering Splits into an Inner Harness and an Outer Harness]], strength=2, confidence=low]

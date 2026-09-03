@@ -52,6 +52,6 @@ LLMs can review other LLM-generated code (checking for consistency, potential bu
 - [[SoT - Code Review and Testing Strategy]]
 - [[SoT - Mandatory Code Review in CI/CD Pipelines]]
 
-%%[supports:: [[AI-Generated Code Without Human Review Creates Production Risk]], strength=5, confidence=high]%%
+[supports:: [[AI-Generated Code Without Human Review Creates Production Risk]], strength=5, confidence=high]
 
-%%[depends_on:: [[LLM Probabilistic Outputs Prevent Consistency Guarantees]], strength=4, confidence=high]%%
+[depends_on:: [[LLM Probabilistic Outputs Prevent Consistency Guarantees]], strength=4, confidence=high]

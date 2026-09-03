@@ -24,7 +24,7 @@ Overall: True inbound orphan note.
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Combining structure...md` | `%%[supports:: [[SoT - ADHD Management Protocols]]]%%` | Target provides the neurocognitive justification for building flexible, multi-tier routines. | Yes |
+| `Combining structure...md` | `[supports:: [[SoT - ADHD Management Protocols]]]` | Target provides the neurocognitive justification for building flexible, multi-tier routines. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required.

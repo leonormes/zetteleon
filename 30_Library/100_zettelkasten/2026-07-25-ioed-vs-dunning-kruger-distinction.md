@@ -33,8 +33,8 @@ Both biases could be instances of a single underlying phenomenon—a general fai
 
 [[The Illusion of Explanatory Depth Names a Gap Between Felt and Actual Understanding]]—this distinction claim presupposes the IoED definition
 
-%%[depends_on:: [[The Illusion of Explanatory Depth Names a Gap Between Felt and Actual Understanding]]]%%
+[depends_on:: [[The Illusion of Explanatory Depth Names a Gap Between Felt and Actual Understanding]]]
 
 [[SoT - Dunning-Kruger Effect]]—the distinction equally presupposes the DKE definition to be legible
 
-%%[depends_on:: [[SoT - Dunning-Kruger Effect]]]%%
+[depends_on:: [[SoT - Dunning-Kruger Effect]]]

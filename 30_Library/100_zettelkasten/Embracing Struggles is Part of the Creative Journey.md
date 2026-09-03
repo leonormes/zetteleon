@@ -18,4 +18,4 @@ Embracing all aspects of the creative journey, including the struggles and chall
 
 - Source: [[MOC - You Need to Romanticize Your Process]]
 
-%%[supports:: [[SoT - Reframe Your Mindset From Pretender to Explorer]]]%%
+[supports:: [[SoT - Reframe Your Mindset From Pretender to Explorer]]]

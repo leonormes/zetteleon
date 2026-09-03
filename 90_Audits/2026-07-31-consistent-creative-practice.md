@@ -24,7 +24,7 @@ Overall: True totally disconnected orphan note.
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Consistent Creative Practice...md` | `%%[supports:: [[SoT - Habit Formation Framework]]]%%` | Target is an observational claim that supports the core mechanics of habit formation (frequency builds momentum/identity). | Yes |
+| `Consistent Creative Practice...md` | `[supports:: [[SoT - Habit Formation Framework]]]` | Target is an observational claim that supports the core mechanics of habit formation (frequency builds momentum/identity). | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required. Note had zero outgoing links initially.

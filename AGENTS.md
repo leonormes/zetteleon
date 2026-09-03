@@ -77,7 +77,7 @@ and, if working a specific claim, `--why "<title>"` and/or `--impact "<title>"` 
 
 #### 9.3 Writing in `30_Library`
 
-Agents may write freely in `30_Library/100_zettelkasten/`, `30_Library/SoT/`, `30_Library/MoC/`, and `30_Library/200_Projects/` — including typed-edge lines (`%%[relationship:: [[target]]]%%`), `axiom:` markers, new notes, and body content. The human curates through review.
+Agents may write freely in `30_Library/100_zettelkasten/`, `30_Library/SoT/`, `30_Library/MoC/`, and `30_Library/200_Projects/` — including typed-edge lines (`[relationship:: [[target]]]`), `axiom:` markers, new notes, and body content. The human curates through review.
 
 #### 9.4 Validation recommendation
 

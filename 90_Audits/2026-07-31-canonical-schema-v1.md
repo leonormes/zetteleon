@@ -24,7 +24,7 @@ Overall: True orphan note (not structurally anchored).
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Canonical Schema V1.md` | `%%[related_to:: [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]]%%` | Target is the superseded historical predecessor to the current ProdOS schema. | Yes |
+| `Canonical Schema V1.md` | `[related_to:: [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]]` | Target is the superseded historical predecessor to the current ProdOS schema. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required.

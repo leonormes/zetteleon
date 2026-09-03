@@ -11,7 +11,7 @@ proposition: "Inadequate catecholamine signaling creates an \"out of tune\" pref
 title: Evidence - PFC Catecholamine Insufficiency Impairs Executive Control in ADHD
 ---
 
-%%[supports:: [[Prefrontal Cortex Catecholamine Insufficiency Impairs Executive Control in ADHD]]]%%
+[supports:: [[Prefrontal Cortex Catecholamine Insufficiency Impairs Executive Control in ADHD]]]
 
 Prefrontal cortex catecholamine insufficiency impairs the brain's executive control center in individuals with ADHD. The prefrontal cortex requires optimal levels of norepinephrine and dopamine to function properly. In ADHD, inadequate catecholamine signaling creates an "out of tune" prefrontal cortex, making it difficult for neural networks to maintain goal representations or allocate attention to non-salient but important tasks.
 

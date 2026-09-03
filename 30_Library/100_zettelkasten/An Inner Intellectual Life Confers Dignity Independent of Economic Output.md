@@ -23,8 +23,8 @@ The practical corollary for anyone who thinks a great deal and produces intermit
 
 ## Knowledge Graph
 
-%%[extends:: [[Intellectual Activity Belongs to the Atelic Sphere]], strength=5, confidence=high]%%
+[extends:: [[Intellectual Activity Belongs to the Atelic Sphere]], strength=5, confidence=high]
 
-%%[supports:: [[SoT - Logotherapy and the Will to Meaning]], strength=4, confidence=medium]%%
+[supports:: [[SoT - Logotherapy and the Will to Meaning]], strength=4, confidence=medium]
 
-%%[supports:: [[Meaning-Driven Activity Activates Brain Reward Systems Independently of External Reinforcement]], strength=3, confidence=medium]%%
+[supports:: [[Meaning-Driven Activity Activates Brain Reward Systems Independently of External Reinforcement]], strength=3, confidence=medium]

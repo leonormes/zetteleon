@@ -24,8 +24,8 @@ Universities supply things the list omits and which are difficult to self-source
 
 ## Knowledge Graph
 
-%%[depends_on:: [[Evidence - Mass Literacy Sustained Working-Class Intellectual Traditions Outside Academia]], strength=5, confidence=high]%%
+[depends_on:: [[Evidence - Mass Literacy Sustained Working-Class Intellectual Traditions Outside Academia]], strength=5, confidence=high]
 
-%%[extends:: [[Great Achievements Occurred Before Formal Productivity Systems]], strength=3, confidence=medium]%%
+[extends:: [[Great Achievements Occurred Before Formal Productivity Systems]], strength=3, confidence=medium]
 
-%%[supports:: [[SoT - Experiential Learning & Education]], strength=2, confidence=low]%%
+[supports:: [[SoT - Experiential Learning & Education]], strength=2, confidence=low]

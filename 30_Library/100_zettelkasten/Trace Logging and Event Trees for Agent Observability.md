@@ -65,4 +65,4 @@ Without traces, you have guesses instead of facts.
 
 - [[SoT - Agent Observability Patterns]]
 
-%%[supports:: [[Error Handling and Retry Pipelines for LLM Failures]], strength=4, confidence=high]%%
+[supports:: [[Error Handling and Retry Pipelines for LLM Failures]], strength=4, confidence=high]

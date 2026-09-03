@@ -32,7 +32,7 @@ Confidence is medium: the neurobiological claim (VTA/NAcc activation by meaning-
 
 - [[Dopamine Regulates Motivation (Wanting) Separately from Pleasure (Liking)]]—direct concept match: both describe the mesolimbic dopamine pathway's role in motivation (wanting); this atom adds meaning-driven activity as an activation route for that pathway.
 - [[Flow State is a State of Optimal Dopamine Stimulation]]—shared mechanism: both describe non-external-reward routes to dopamine-mediated motivation—flow via interest/challenge match; meaning-driven activity via purpose alignment. Parallel bypass mechanisms for the ADHD brain.
-- [[SoT - Values and Eudaimonia]]—shared mechanism: the SoT documents the neurobiology of eudaimonic vs hedonic reward; tonic dopamine from values-aligned action (eudaimonia) is the same substrate this atom describes. %%[supports:: [[SoT - Values and Eudaimonia]]]%%
+- [[SoT - Values and Eudaimonia]]—shared mechanism: the SoT documents the neurobiology of eudaimonic vs hedonic reward; tonic dopamine from values-aligned action (eudaimonia) is the same substrate this atom describes. [supports:: [[SoT - Values and Eudaimonia]]]
 
 ### Tensions
 

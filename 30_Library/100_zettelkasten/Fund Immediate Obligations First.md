@@ -17,4 +17,4 @@ A stable budget follows a clear hierarchy of priorities, wherein immediate oblig
 
 Before any money is allocated to discretionary spending or long-term goals, the funds required to meet these non-negotiable, near-term needs must be set aside. This is a practical application of Give Every Dollar a Job (YNAB Rule 1), ensuring that the most critical financial responsibilities are met before all others.
 
-%%[implements:: [[Give Every Dollar a Job (YNAB Rule 1)]]]%%
+[implements:: [[Give Every Dollar a Job (YNAB Rule 1)]]]

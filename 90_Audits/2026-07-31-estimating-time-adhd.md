@@ -24,7 +24,7 @@ Overall: True inbound orphan note.
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Estimating Time for ADHD (Tripling Estimates).md` | `%%[implements:: [[SoT - ADHD Management Protocols]]]%%` | Target is an applied practice (a scaffolding protocol) for managing ADHD time blindness. | Yes |
+| `Estimating Time for ADHD (Tripling Estimates).md` | `[implements:: [[SoT - ADHD Management Protocols]]]` | Target is an applied practice (a scaffolding protocol) for managing ADHD time blindness. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required. The existing plain link to `The Done State as a Boundary for ADHD Projects` is preserved as a contextual mention.

@@ -29,7 +29,7 @@ Small piece of good news in passing: [[Deep Processing is the Core of Zettelkast
 - **Denial:** passes — a strict internalist could hold that writing merely reports thought formed elsewhere, while still agreeing processing is hard for other reasons (time, precision-seeking).
 - **Substitution:** passes — the specific claim needed here is that external symbol-manipulation is *constitutive* of cognition, not just useful to it. A generic "writing helps you think" note doesn't carry that force; the Extended Mind's Parity Principle and "Case of Otto" specifically argue constitution, not assistance.
 - **Load:** passes — if writing were only ever a transcript of thought completed elsewhere, the seed's central claim (that stumbling over words *is* the cognitive work, not a failure to report finished work) is directly undercut.
-- **Verdict: KEEP**, confidence high. Typed as `%%[depends_on:: [[SoT - The Extended Mind]], confidence=high]%%`.
+- **Verdict: KEEP**, confidence high. Typed as `[depends_on:: [[SoT - The Extended Mind]], confidence=high]`.
 
 ### Thread 2: [[Zettelkasten System Essence]] → seed — KEEP, new
 
@@ -37,17 +37,17 @@ Small piece of good news in passing: [[Deep Processing is the Core of Zettelkast
 - **Denial:** passes — there could be other reasons unearned links fail (e.g. no personal recall trigger) unrelated to this specific "value lives in the mind, not the page" claim.
 - **Substitution:** passes — System Essence's specific claim (the Zettelkasten *exists* in mental process, not in the artefact) is exactly and narrowly what's needed; a generic "the Zettelkasten is a tool" note wouldn't do this work.
 - **Load:** passes — if System Essence's claim were false (value genuinely resided in the notes-as-artefacts), the seed's conclusion ("a pile of well-organised links... is just a second inbox") loses its justification entirely.
-- **Verdict: KEEP**, confidence medium-high. Typed as `%%[depends_on:: [[Zettelkasten System Essence]], confidence=medium]%%`.
+- **Verdict: KEEP**, confidence medium-high. Typed as `[depends_on:: [[Zettelkasten System Essence]], confidence=medium]`.
 - **Worth noting:** the prior [[Creating Meaningful Links]] audit severed this exact target as "constitutive, not inferential" (Pathology #6, "constitution mistaken for support") — correctly, for that note, where System Essence was linked as a bare definitional mention. Here the same target is genuinely load-bearing because the seed *uses* the claim as a premise rather than *naming* it. Same target, different sources, different verdicts — textbook use-vs-mention.
 
 ### Thread 3: [[Deep Processing is the Core of Zettelkasten]] → seed — KEEP, now formalised
 
-- Already argued informally in Deep Processing's own prose ("The real work is in the thinking, which is why [[The Processing Is the Hard Part]]"), and already implicitly endorsed by the prior audit's Edge 2 verdict on the reverse-direction [[Creating Meaningful Links]] edge. Formalised here as `%%[supports:: [[The Processing Is the Hard Part]], confidence=medium]%%` on Deep Processing's own note, mirroring the edge it already carries to [[Creating Meaningful Links]].
+- Already argued informally in Deep Processing's own prose ("The real work is in the thinking, which is why [[The Processing Is the Hard Part]]"), and already implicitly endorsed by the prior audit's Edge 2 verdict on the reverse-direction [[Creating Meaningful Links]] edge. Formalised here as `[supports:: [[The Processing Is the Hard Part]], confidence=medium]` on Deep Processing's own note, mirroring the edge it already carries to [[Creating Meaningful Links]].
 - Not re-derived from scratch — the seed's own new sentence ("it's deep processing... that is the core... and deep processing is exactly the part that's hard") is the *same* relationship stated from the other side, not a second edge. Only one direction is typed, deliberately, to avoid a two-node cycle (the same discipline [[SoT - Bonhoeffer's Theory of Functional Stupidity]] used when it chose not to reciprocate edges from [[Systems Generate Internal Logic in Isolation]]).
 
 ### Established, not re-tested: [[Creating Meaningful Links]] → seed
 
-Already typed (`%%[supports:: [[The Processing Is the Hard Part]]]%%`) and already tested KEEP in the [[Creating Meaningful Links]] audit (Edge 2). Carried forward, not re-derived.
+Already typed (`[supports:: [[The Processing Is the Hard Part]]]`) and already tested KEEP in the [[Creating Meaningful Links]] audit (Edge 2). Carried forward, not re-derived.
 
 ### Flagged, not fixed: seed ↔ [[Paraphrasing is a Complex Cognitive Skill]] — circular, left untyped
 

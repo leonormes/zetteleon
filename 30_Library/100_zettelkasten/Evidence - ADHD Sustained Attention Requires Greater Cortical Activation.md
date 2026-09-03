@@ -11,7 +11,7 @@ proposition: "Individuals with ADHD require greater and more continuous cortical
 title: Evidence - ADHD Sustained Attention Requires Greater Cortical Activation
 ---
 
-%%[supports:: [[ADHD Causes Sustained Attention Deficits Requiring Higher Cortical Activation]]]%%
+[supports:: [[ADHD Causes Sustained Attention Deficits Requiring Higher Cortical Activation]]]
 
 Individuals with ADHD exhibit significant deficits in sustained, selective, and divided attention. They often have lower resting-state arousal but require greater and more continuous cortical activation than neurotypical individuals to maintain attention during a task. This is compounded by reduced activation in key striato-thalamic and prefrontal regions and difficulty deactivating the default mode network.
 

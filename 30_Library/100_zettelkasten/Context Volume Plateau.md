@@ -13,7 +13,7 @@ type: atom
 upstream: '[[HEAD - Agentic Engineering and AI Workflow Management]]'
 ---
 
-%%[supports:: [[Minimum Viable Context for LLMs Prevents Hallucination via Structural Boundaries]], strength=4, confidence=high]%%
+[supports:: [[Minimum Viable Context for LLMs Prevents Hallucination via Structural Boundaries]], strength=4, confidence=high]
 
 ## Context Volume Plateau
 

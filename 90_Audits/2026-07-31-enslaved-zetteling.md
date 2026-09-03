@@ -24,7 +24,7 @@ Overall: True inbound orphan note.
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `I am enslaved to the work...md` | `%%[supports:: [[SoT - Evolutionary Note System]]]%%` | Target provides the failure-mode justification for adopting a low-maintenance, evolutionary note system. | Yes |
+| `I am enslaved to the work...md` | `[supports:: [[SoT - Evolutionary Note System]]]` | Target provides the failure-mode justification for adopting a low-maintenance, evolutionary note system. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required. Preserve the plain link to `Maintaining Lines of Thought Over Time`.

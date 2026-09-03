@@ -50,8 +50,8 @@ Multi-session vs single-session efficiency:
 
 Building a persistent memory layer has overhead (creation, maintenance, queries). For one-off tasks, that overhead is wasted. Persistent memory is only cost-effective across multiple invocations.
 
-%%[supports:: [[Claude Code Session Isolation Forces Context Reloading Across Invocations]], strength=5, confidence=high]%%
+[supports:: [[Claude Code Session Isolation Forces Context Reloading Across Invocations]], strength=5, confidence=high]
 
-%%[implements:: [[Layered Knowledge Architecture]], strength=4, confidence=high]%%
+[implements:: [[Layered Knowledge Architecture]], strength=4, confidence=high]
 
-%%[implements:: [[Targeting LLM Attention Requires Encoding Relevance as Structure]], strength=4, confidence=high]%%
+[implements:: [[Targeting LLM Attention Requires Encoding Relevance as Structure]], strength=4, confidence=high]

@@ -46,7 +46,7 @@ The [[User Namespace]] provides isolation for user and group IDs, enabling conta
 
 <!--content-block-start type="concept" id="namespace-integration"-->
 
-%%[synthesizes:: namespace-isolation]%%
+[synthesizes:: namespace-isolation]
 
 <!--metadata
 {
@@ -70,7 +70,7 @@ The true power of Linux namespaces emerges through their integrated usage within
 
 <!--content-block-start type="concept" id="namespace-capabilities"-->
 
-%%[extends:: user-namespace]%%
+[extends:: user-namespace]
 
 <!--metadata
 {
@@ -94,9 +94,9 @@ Capabilities, while not a namespace type themselves, form a crucial partnership 
 
 <!--content-block-start type="concept" id="containerization-implementation"-->
 
-%%[synthesizes:: namespace-integration]%%
+[synthesizes:: namespace-integration]
 
-%%[implements:: system-isolation]%%
+[implements:: system-isolation]
 
 <!--metadata
 {
@@ -120,7 +120,7 @@ Namespaces serve as the foundational building blocks of container technology, en
 
 <!--content-block-start type="concept" id="mount-namespace"-->
 
-%%[implements:: filesystem-isolation]%%
+[implements:: filesystem-isolation]
 
 <!--metadata
 {
@@ -144,7 +144,7 @@ The Mount Namespace establishes filesystem isolation by providing containers wit
 
 <!--content-block-start type="concept" id="uts-namespace"-->
 
-%%[implements:: hostname-isolation]%%
+[implements:: hostname-isolation]
 
 <!--metadata
 {
@@ -168,7 +168,7 @@ The UTS (UNIX Time-sharing System) Namespace provides isolation for hostname and
 
 <!--content-block-start type="concept" id="network-namespace"-->
 
-%%[synthesizes:: network-isolation]%%
+[synthesizes:: network-isolation]
 
 <!--metadata
 {
@@ -192,7 +192,7 @@ The Network Namespace provides comprehensive isolation of network stacks, encomp
 
 <!--content-block-start type="concept" id="pid-namespace"-->
 
-%%[implements:: process-tree-isolation]%%
+[implements:: process-tree-isolation]
 
 <!--metadata
 {
@@ -216,7 +216,7 @@ The PID Namespace implements process ID isolation, providing each container with
 
 <!--content-block-start type="concept" id="ipc-namespace"-->
 
-%%[implements:: ipc-isolation]%%
+[implements:: ipc-isolation]
 
 <!--metadata
 {

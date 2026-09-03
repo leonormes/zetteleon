@@ -40,6 +40,6 @@ Source: "Context engineering with Dex Horthy" (Gergely Orosz interviewing Dex Ho
 
 - [[Harness Engineering Splits into an Inner Harness and an Outer Harness]]
 
-%%[implements:: [[Low-Context Implementation Execution]], strength=3, confidence=medium]%%
+[implements:: [[Low-Context Implementation Execution]], strength=3, confidence=medium]
 
-%%[supports:: [[SoT - The RPI Workflow (Context Engineering)]], strength=3, confidence=medium]%%
+[supports:: [[SoT - The RPI Workflow (Context Engineering)]], strength=3, confidence=medium]

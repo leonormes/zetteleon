@@ -213,10 +213,10 @@ For thinking continuity the machine's job is narrower and different: surface the
 *Generated 2026-08-29. Sources: 325 ProdOS-referencing notes, 6 notes carrying an explicit scope boundary, Todoist project state, and the two 2026-08-29 notes where the distinction was already correctly drawn.*
 ## Knowledge Graph
 
-%%[extends:: [[SoT - Processing IS the Work]], strength=4, confidence=high]%%
+[extends:: [[SoT - Processing IS the Work]], strength=4, confidence=high]
 
-%%[extends:: [[Self-Insights That Prescribe More Planning Are the Least Trustworthy Kind]], strength=4, confidence=high]%%
+[extends:: [[Self-Insights That Prescribe More Planning Are the Least Trustworthy Kind]], strength=4, confidence=high]
 
-%%[contradicts:: [[SoT - PRODOS Core Specification]], strength=4, confidence=high]%%
+[contradicts:: [[SoT - PRODOS Core Specification]], strength=4, confidence=high]
 
-%%[revises:: [[2026-08-29-prodos-cos-gtd-fitness-audit]], strength=4, confidence=high]%%
+[revises:: [[2026-08-29-prodos-cos-gtd-fitness-audit]], strength=4, confidence=high]

@@ -45,4 +45,4 @@ Applies to situations involving unavoidable suffering—loss, mortality, guilt f
 
 [[Humans Retain Freedom to Choose Their Response to Any Situation Regardless of Circumstances]]—presupposition. Tragic optimism is a _stance_ taken toward the unchangeable. If attitudinal freedom did not survive extreme circumstance, "choosing meaning within the tragedy" would be an empty instruction. Attitudinal freedom is the premise; tragic optimism is one particular exercise of it.
 
-%%[depends_on:: [[Humans Retain Freedom to Choose Their Response to Any Situation Regardless of Circumstances]]]%%
+[depends_on:: [[Humans Retain Freedom to Choose Their Response to Any Situation Regardless of Circumstances]]]

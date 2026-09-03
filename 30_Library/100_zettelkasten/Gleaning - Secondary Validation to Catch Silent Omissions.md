@@ -54,6 +54,6 @@ Source: "Paper Dives: MapReduce Is Back - And It Fixes Broken LLM Pipelines | Do
 
 - [[Precision-Recall Trade-offs in LLM Extraction]]
 
-%%[supports:: [[LLM Pipeline Accuracy Degrades with Document Length and Task Complexity]]]%%
+[supports:: [[LLM Pipeline Accuracy Degrades with Document Length and Task Complexity]]]
 
-%%[supports:: [[Model Self-Verification as a Secondary Quality Gate]]]%%
+[supports:: [[Model Self-Verification as a Secondary Quality Gate]]]

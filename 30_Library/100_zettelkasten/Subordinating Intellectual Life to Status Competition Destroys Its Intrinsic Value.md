@@ -21,8 +21,8 @@ Plenty of people appear to hold both frames without evident damage—the academi
 
 ## Knowledge Graph
 
-%%[depends_on:: [[Intellectual Activity Belongs to the Atelic Sphere]], strength=5, confidence=high]%%
+[depends_on:: [[Intellectual Activity Belongs to the Atelic Sphere]], strength=5, confidence=high]
 
-%%[extends:: [[SoT - The Evolutionary Biology of Status]], strength=3, confidence=medium]%%
+[extends:: [[SoT - The Evolutionary Biology of Status]], strength=3, confidence=medium]
 
-%%[supports:: [[SoT - The Internal World and the Need for Validation]], strength=3, confidence=medium]%%
+[supports:: [[SoT - The Internal World and the Need for Validation]], strength=3, confidence=medium]

@@ -58,4 +58,4 @@ Source: "Loop Engineering | LLM" (analyzed from architectural foundations perspe
 - [[SoT - Agent Architecture Patterns]]
 - [[Tool Interface Design for LLM Agents]]
 
-%%[supports:: [[Tool Use and Deterministic Delegation Reduce LLM Hallucination in Specific Domains]], strength=4, confidence=high]%%
+[supports:: [[Tool Use and Deterministic Delegation Reduce LLM Hallucination in Specific Domains]], strength=4, confidence=high]

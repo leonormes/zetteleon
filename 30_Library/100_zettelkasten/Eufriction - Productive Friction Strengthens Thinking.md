@@ -36,9 +36,9 @@ The Eufriction Antidote: Unproductive friction is a defensive retreat from emoti
 
 ### 3. Connections & Semantic Graph
 
-- `extends::` [[Deep Processing is the Core of Zettelkasten]] %%[extends:: [[Deep Processing is the Core of Zettelkasten]]]%%—_Eufriction supplies the operational mechanics for deep processing by replacing passive speed with deliberate cognitive engagement._
-- `supports::` [[SoT - Processing IS the Work]] %%[supports:: [[SoT - Processing IS the Work]]]%%—_Establishes that the mental resistance experienced during note synthesis is not a flaw to be automated away, but the essential cognitive transformation itself._
-- `supports::` [[SoT - Illusion of Explanatory Depth (IoED)]] %%[supports:: [[SoT - Illusion of Explanatory Depth (IoED)]]]%%—_Serves as the primary operational antidote to the Collector's Fallacy by forcing effortful elaboration before an idea can feel understood._
+- `extends::` [[Deep Processing is the Core of Zettelkasten]] [extends:: [[Deep Processing is the Core of Zettelkasten]]]—_Eufriction supplies the operational mechanics for deep processing by replacing passive speed with deliberate cognitive engagement._
+- `supports::` [[SoT - Processing IS the Work]] [supports:: [[SoT - Processing IS the Work]]]—_Establishes that the mental resistance experienced during note synthesis is not a flaw to be automated away, but the essential cognitive transformation itself._
+- `supports::` [[SoT - Illusion of Explanatory Depth (IoED)]] [supports:: [[SoT - Illusion of Explanatory Depth (IoED)]]]—_Serves as the primary operational antidote to the Collector's Fallacy by forcing effortful elaboration before an idea can feel understood._
 - `contrasts::` [[Tool tinkering is a form of productive procrastination]]—_Distinguishes constructive cognitive friction from avoidant meta-work and system-tweaking disguised as productivity._
 - `contrasts::` [[ADHD Overthinking is a Substitute for Action]]—_Differentiates deliberate cognitive engagement from passive mental rehearsal and ungrounded speculative looping._
 - `relates-to::` [[MOC - Breaking the ADHD Overthinking-Procrastination Cycle]]—_Provides a structural mechanism for interrupting analytical paralysis and redirecting intellectual focus into tangible output._

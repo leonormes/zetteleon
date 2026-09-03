@@ -23,4 +23,4 @@ Details: These three forms of knowledge correspond to different modes of human a
 
 - [[21-wtf_is_knowledge_anyway]]
 
-%%[supports:: [[SoT - The Extended Mind]]]%%
+[supports:: [[SoT - The Extended Mind]]]

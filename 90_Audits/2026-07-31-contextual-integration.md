@@ -24,7 +24,7 @@ Overall: True totally disconnected orphan note.
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Contextual Integration...md` | `%%[supports:: [[SoT - LLM Wiki Pattern]]]%%` | Target is an observational requirement that justifies the ingest/cross-linking mechanism of the LLM Wiki pattern. | Yes |
+| `Contextual Integration...md` | `[supports:: [[SoT - LLM Wiki Pattern]]]` | Target is an observational requirement that justifies the ingest/cross-linking mechanism of the LLM Wiki pattern. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required. Note had zero outgoing links initially.

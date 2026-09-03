@@ -46,8 +46,8 @@ Platform-specific implementation. The architectural patterns Cogni uses (layered
 
 - Video source: "Turning Claude Fable 5 Into The Ultimate Second Brain!" by WorldofAI
 
-%%[implements:: [[Persistent Memory Layers Enable Multi-Session Agent Continuity]]]%%
+[implements:: [[Persistent Memory Layers Enable Multi-Session Agent Continuity]]]
 
-%%[implements:: [[Agent Feedback Loops Require Bidirectional Memory Writes]]]%%
+[implements:: [[Agent Feedback Loops Require Bidirectional Memory Writes]]]
 
-%%[implements:: [[Selective Memory Retrieval Reduces Token Cost in Multi-Session Workflows]]]%%
+[implements:: [[Selective Memory Retrieval Reduces Token Cost in Multi-Session Workflows]]]

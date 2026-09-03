@@ -50,6 +50,6 @@ Source: user-pasted summary of a presentation on neuro-symbolic AI architecture 
 
 - [[Full-Autonomy Agent Execution Requires Sandboxing for Safety and Data Privacy, Not Just Concurrency]]
 
-%%[depends_on:: [[Reasoning Loops Require Explicit Stopping Conditions (End-Loop Guardrails)]], strength=2, confidence=medium]%%
+[depends_on:: [[Reasoning Loops Require Explicit Stopping Conditions (End-Loop Guardrails)]], strength=2, confidence=medium]
 
-%%[supports:: [[Continuous Autonomous Agent Loops Incur Significant API Cost]], strength=2, confidence=medium]%%
+[supports:: [[Continuous Autonomous Agent Loops Incur Significant API Cost]], strength=2, confidence=medium]

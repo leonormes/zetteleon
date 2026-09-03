@@ -25,10 +25,10 @@ If I create some elaborate system using the hyper-focused enthusiasm needed to b
 
 ## Structural Context
 
-- %%[supports:: [[ADHD Systems Fail When They Become Monotonous]]]%% — _This is the exact mechanism by which elaborate systems collapse when the novelty wears off._
-- %%[supports:: [[The Danger of Perpetual System-Building]]]%% — _The urge to build elaborate systems is often a trap of productive procrastination._
-- %%[synthesizes:: [[The I've Cracked It Illusion During ADHD Hyperfixation]]]%% — _The belief that "this system will finally fix everything" is a dopamine-driven illusion._
-- %%[depends_on:: [[Make It Stupidly Simple]]]%% — _The antidote to the enthusiasm crash is radical simplification._
+- [supports:: [[ADHD Systems Fail When They Become Monotonous]]] — _This is the exact mechanism by which elaborate systems collapse when the novelty wears off._
+- [supports:: [[The Danger of Perpetual System-Building]]] — _The urge to build elaborate systems is often a trap of productive procrastination._
+- [synthesizes:: [[The I've Cracked It Illusion During ADHD Hyperfixation]]] — _The belief that "this system will finally fix everything" is a dopamine-driven illusion._
+- [depends_on:: [[Make It Stupidly Simple]]] — _The antidote to the enthusiasm crash is radical simplification._
 
 ## Related
 

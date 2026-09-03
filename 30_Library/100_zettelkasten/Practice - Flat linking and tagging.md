@@ -22,4 +22,4 @@ Micro-step: On your next new note, add one [[wiki-link]] to an existing note ins
 - Instance of [[Claim - Flat associative structure beats rigid hierarchy]].
 - A [[Cognitive Load]] reduction tactic.
 
-%%[implements:: [[Claim - Flat associative structure beats rigid hierarchy]], strength=5, confidence=high]%%
+[implements:: [[Claim - Flat associative structure beats rigid hierarchy]], strength=5, confidence=high]

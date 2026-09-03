@@ -57,4 +57,4 @@ Vertical agents only work if:
 
 - [[Small Language Models (SLMs) vs Foundation Models]]
 
-%%[implements:: [[Domain Knowledge Becomes Competitive Advantage as LLM Access Commoditizes]], strength=3, confidence=medium]%%
+[implements:: [[Domain Knowledge Becomes Competitive Advantage as LLM Access Commoditizes]], strength=3, confidence=medium]

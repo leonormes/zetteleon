@@ -36,7 +36,7 @@ A near-orphan, but not by accident — it's cited by exactly one file, its decla
 
 None this run. The one real candidate (RSD) is medium confidence — the protocol is explicit that medium-confidence typings don't get written, they get reported. See "No evidence / needs your call" below.
 
-Worth noting as a positive precedent while we're in this cluster: [[Rejection Sensitive Dysphoria (RSD)]] already carries two correctly-formed edges on its own file — `%%[supports:: [[Collaborative Programming Mitigates RSD and Focus Issues in ADHD]]]%%` and `%%[supports:: [[ADHD Emotional Reasoning]]]%%` — so the closed vocabulary is already live and working elsewhere in this exact neighbourhood.
+Worth noting as a positive precedent while we're in this cluster: [[Rejection Sensitive Dysphoria (RSD)]] already carries two correctly-formed edges on its own file — `[supports:: [[Collaborative Programming Mitigates RSD and Focus Issues in ADHD]]]` and `[supports:: [[ADHD Emotional Reasoning]]]` — so the closed vocabulary is already live and working elsewhere in this exact neighbourhood.
 
 ### Patch B — Plain Links / MoC Anchors (you'd apply these)
 

@@ -35,7 +35,7 @@ Three primitives, nothing more:
 | Primitive | What it is | How it's written |
 |:---|:---|:---|
 | Claim node | An atomic assertion that can be true or false. | A note `type: claim`, or a `content-block type="claim" id="…"`. |
-| Justification edge | A directed "reason" relationship between claims. | A typed edge (§4): `%%[supports:: [[Target]]]%%` etc. |
+| Justification edge | A directed "reason" relationship between claims. | A typed edge (§4): `[supports:: [[Target]]]` etc. |
 | Axiom marker | Declares a claim _foundational_—deliberately unsupported, a starting premise. | `axiom: true` in frontmatter (note-level), or `axiom="true"` on the `content-block-start` comment (block-level). |
 
 That is the whole data model. Everything the compiler does (§3) is a graph computation over these three things.
@@ -115,6 +115,6 @@ Each phase is shippable alone and adds exactly one epistemic answer. Do not buil
 - Author-asserted, not validated. Every edge is a claim _you_ made about your own reasoning. The compiler can find a gap or a contradiction in the _shape_ of what you asserted; it cannot tell you whether an individual `supports` is actually a good reason. It sharpens your thinking; it does not outsource it.
 - Atomicity discipline required. The graph is only as clean as the claims are atomic. A note bundling three assertions cannot be cleanly supported or contradicted—the Zettelkasten "one claim per node" rule is a hard prerequisite, not a stylistic preference.
 
-%%[depends_on:: [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]], strength=5, confidence=high]%%
+[depends_on:: [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]], strength=5, confidence=high]
 
-%%[supports:: [[Claim - Domains relate through named relations, not undifferentiated association]], strength=4, confidence=medium]%%
+[supports:: [[Claim - Domains relate through named relations, not undifferentiated association]], strength=4, confidence=medium]

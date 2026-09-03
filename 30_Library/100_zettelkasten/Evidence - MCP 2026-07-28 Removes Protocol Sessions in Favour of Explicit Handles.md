@@ -50,4 +50,4 @@ Raw capture: `raw/2026-07-27-thenewstack-mcp-spec-rewrite` (Hermes vault)
 
 Originating workbench note: [[HEAD MCP’s biggest update removes the machinery many servers were built around]]
 
-%%[supports:: [[Protocol Statelessness Relocates Agent State into Model-Visible Handles]], strength=4, confidence=high]%%
+[supports:: [[Protocol Statelessness Relocates Agent State into Model-Visible Handles]], strength=4, confidence=high]

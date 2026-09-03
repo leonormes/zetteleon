@@ -24,8 +24,8 @@ Extended human capital models absorb much of this by treating learning as consum
 
 ## Knowledge Graph
 
-%%[contradicts:: [[Intellectual Activity Belongs to the Atelic Sphere]], strength=4, confidence=high]%%
+[contradicts:: [[Intellectual Activity Belongs to the Atelic Sphere]], strength=4, confidence=high]
 
-%%[extends:: [[Intellectual Growth Is Non-Rivalrous but Educational Credentials Are Positional]], strength=4, confidence=high]%%
+[extends:: [[Intellectual Growth Is Non-Rivalrous but Educational Credentials Are Positional]], strength=4, confidence=high]
 
-%%[depends_on:: [[SoT - Fundamental Description of Economics]], strength=2, confidence=low]%%
+[depends_on:: [[SoT - Fundamental Description of Economics]], strength=2, confidence=low]

@@ -19,4 +19,4 @@ This approach creates artificial constraints that force efficiency and focus. By
 
 This method is particularly effective for those who tend to let work bleed into personal time or who struggle with procrastination in unstructured environments.
 
-%%[implements:: [[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]]%%
+[implements:: [[SoT - PRODOS - The Cognitive Loop (A-C-T Framework)]]]

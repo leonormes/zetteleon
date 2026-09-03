@@ -11,7 +11,7 @@ proposition: "A network analysis study found that 91.8% of individuals with ADHD
 title: Evidence - ADHD Heterogeneity Network Analysis 91.8 Percent Unique Patterns
 ---
 
-%%[supports:: [[ADHD is a Heterogeneous Condition with Unique Symptom Patterns]]]%%
+[supports:: [[ADHD is a Heterogeneous Condition with Unique Symptom Patterns]]]
 
 A network analysis study found that 91.8% of individuals with ADHD had a unique symptom pattern, with 116,220 possible combinations. This highlights that the "average ADHD patient" has limited informative value and that a one-size-fits-all approach to understanding or treating ADHD is inappropriate.
 

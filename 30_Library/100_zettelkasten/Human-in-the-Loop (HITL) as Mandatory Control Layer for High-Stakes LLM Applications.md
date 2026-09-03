@@ -66,4 +66,4 @@ Effective HITL requires:
 - [[SoT - Human Oversight in AI Systems]]
 - [[Scaling HITL Beyond Human Capacity]]
 
-%%[supports:: [[LLM Hallucinations Arise from Probabilistic Prediction Without External Grounding]], strength=4, confidence=high]%%
+[supports:: [[LLM Hallucinations Arise from Probabilistic Prediction Without External Grounding]], strength=4, confidence=high]

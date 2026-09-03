@@ -16,4 +16,4 @@ Summary: The ability to recognize patterns conferred a decisive survival advanta
 
 Details: Early humans who could effectively recognize patterns were more likely to survive and reproduce. This skill was critical for survival tasks such as distinguishing edible from poisonous plants, tracking prey, identifying predators from subtle cues, and navigating terrain. This advantage also extended to the social realm, where recognizing patterns in vocal tones and facial expressions was key to cooperation and safety.
 
-%%[supports:: [[Patterns are the Scaffolding of Knowledge]], strength=3, confidence=medium]%%
+[supports:: [[Patterns are the Scaffolding of Knowledge]], strength=3, confidence=medium]

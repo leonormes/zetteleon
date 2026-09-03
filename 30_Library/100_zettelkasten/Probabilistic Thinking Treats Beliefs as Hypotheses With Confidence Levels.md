@@ -38,6 +38,6 @@ The psychological payoff is the removal of the pressure to be absolutely right. 
 
 > Merged 2026-08-01 from `Probabilistic Thinking is a Tool for Navigating Uncertainty`—a duplicate claim captured in a parallel session. Its Bayesian-updating link and the "how likely" reframe are preserved above; its title now resolves to a tombstone redirect pointing here.
 
-%%[supports:: [[Strong Opinions, Loosely Held Balances Conviction and Humility]], strength=4, confidence=high]%%
+[supports:: [[Strong Opinions, Loosely Held Balances Conviction and Humility]], strength=4, confidence=high]
 
-%%[depends_on:: [[Bayesian Updating Adjusts Beliefs as New Evidence Arrives]], strength=4, confidence=high]%%
+[depends_on:: [[Bayesian Updating Adjusts Beliefs as New Evidence Arrives]], strength=4, confidence=high]

@@ -29,6 +29,6 @@ The Sapir-Whorf Hypothesis (Linguistic Relativity) originally suggested that the
 ## Related
 
 - [[SoT - The Thought-Language Continuum]]—_Provides the broader context on how language and thought interact._
-%%[extends:: [[SoT - The Thought-Language Continuum]]]%%
+[extends:: [[SoT - The Thought-Language Continuum]]]
 - [[SoT - The Primacy of Experience (Pre-Linguistic Understanding)]]—_Supports the claim that experience and perception precede language._
-%%[supports:: [[SoT - The Primacy of Experience (Pre-Linguistic Understanding)]]]%%
+[supports:: [[SoT - The Primacy of Experience (Pre-Linguistic Understanding)]]]

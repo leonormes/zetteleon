@@ -24,7 +24,7 @@ Overall: True inbound orphan note.
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Cybernetics.md` | `%%[extends:: [[SoT - Systems Thinking]]]%%` | Target formalizes the study of specific mechanisms (feedback loops) defined in the parent framework. | Yes |
+| `Cybernetics.md` | `[extends:: [[SoT - Systems Thinking]]]` | Target formalizes the study of specific mechanisms (feedback loops) defined in the parent framework. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required. The existing plain links to `SoT - Systems Thinking`, `Emergence`, and `Autopoiesis` will be preserved as contextual mentions with their descriptive text.

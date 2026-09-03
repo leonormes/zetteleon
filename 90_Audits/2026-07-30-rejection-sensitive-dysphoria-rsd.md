@@ -12,7 +12,7 @@ type: note
 
 ### Baseline — this one's genuinely different: no gap found
 
-Unlike every other note touched today, this one arrived already well-positioned: `axiom: true`, `status: seed`, two live typed edges of its own (`%%[supports:: [[Collaborative Programming Mitigates RSD and Focus Issues in ADHD]]]%%`, `%%[supports:: [[ADHD Emotional Reasoning]]]%%`), and a five-item "Related Knowledge" list. It's cited by [[MOC - Shame]], [[MOC - Emotional Dysregulation]], [[MOC - Health and Vitality]], and [[MOC - Authority Dynamics and ADHD]].
+Unlike every other note touched today, this one arrived already well-positioned: `axiom: true`, `status: seed`, two live typed edges of its own (`[supports:: [[Collaborative Programming Mitigates RSD and Focus Issues in ADHD]]]`, `[supports:: [[ADHD Emotional Reasoning]]]`), and a five-item "Related Knowledge" list. It's cited by [[MOC - Shame]], [[MOC - Emotional Dysregulation]], [[MOC - Health and Vitality]], and [[MOC - Authority Dynamics and ADHD]].
 
 ### Search Execution
 

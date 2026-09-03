@@ -39,6 +39,6 @@ Source: "FORGET Loop Engineering. Agentic Engineering is about THIS" (IndyDevDan
 
 - [[Code as Zero-Cost Deterministic Actor Alongside Engineers and Agents in Workflows]]
 
-%%[extends:: [[Specialized Sub-Agent Roles Divide Research, Context Retrieval, and Code Editing]], strength=4, confidence=medium]%%
+[extends:: [[Specialized Sub-Agent Roles Divide Research, Context Retrieval, and Code Editing]], strength=4, confidence=medium]
 
-%%[depends_on:: [[Engineer Involvement Compresses to Planning and Review as Agentic Workflows Mature]], strength=3, confidence=medium]%%
+[depends_on:: [[Engineer Involvement Compresses to Planning and Review as Agentic Workflows Mature]], strength=3, confidence=medium]

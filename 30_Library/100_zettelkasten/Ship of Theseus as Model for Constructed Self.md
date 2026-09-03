@@ -16,10 +16,10 @@ Summary: The Ship of Theseus illustrates identity persisting through continuous 
 
 Details: The Ship of Theseus illustrates how identity can persist through continuous change of parts when pattern and continuity of function remain. The self similarly evolves as beliefs, habits, and roles are replaced while a recognizable trajectory and commitments persist. This model dissolves anxiety about inauthentic change by treating renovation as the normal condition of a living system. You are the evolving configuration, not the original materials.
 
-%%[extends:: [[Dividing a Process Does Not Make the Intact Process Illusory]], strength=4, confidence=high]%%
+[extends:: [[Dividing a Process Does Not Make the Intact Process Illusory]], strength=4, confidence=high]
 
-%%[supports:: [[Narrative Identity is the Story We Construct About Our Experiences]], strength=4, confidence=high]%%
+[supports:: [[Narrative Identity is the Story We Construct About Our Experiences]], strength=4, confidence=high]
 
-%%[supports:: [[Self-Change Refutes the Determinism of the Plant Metaphor]], strength=4, confidence=high]%%
+[supports:: [[Self-Change Refutes the Determinism of the Plant Metaphor]], strength=4, confidence=high]
 
-%%[contradicts:: [[SoT - The User Interface of the Self]], strength=3, confidence=medium]%%
+[contradicts:: [[SoT - The User Interface of the Self]], strength=3, confidence=medium]

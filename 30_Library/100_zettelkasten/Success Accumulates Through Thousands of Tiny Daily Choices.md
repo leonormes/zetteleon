@@ -27,8 +27,8 @@ This note deliberately occupies the _choice_ half of an axis it shares with [[Su
 
 The two demand different interventions. Repetition is defended by systems and environment design; choice is defended by identity framing and pre-commitment. Conflating them is why "just be more consistent" advice fails at the point of decision.
 
-%%[depends_on:: [[Systems Drive Progress Through the Compounding Effect of Atomic Habits]], strength=5, confidence=high]%%
+[depends_on:: [[Systems Drive Progress Through the Compounding Effect of Atomic Habits]], strength=5, confidence=high]
 
-%%[supports:: [[Disciplined Choices are Votes for Your Future Self]], strength=4, confidence=high]%%
+[supports:: [[Disciplined Choices are Votes for Your Future Self]], strength=4, confidence=high]
 
-%%[supports:: [[MOC - The One Degree Change Framework for ADHD]], strength=3, confidence=medium]%%
+[supports:: [[MOC - The One Degree Change Framework for ADHD]], strength=3, confidence=medium]

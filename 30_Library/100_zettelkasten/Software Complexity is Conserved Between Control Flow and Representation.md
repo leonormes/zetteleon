@@ -36,6 +36,6 @@ This law is the foundation for the [[LLM Reasoning Efficiency is Proportional to
 
 rel:: supports [[SoT - Complexity Conservation]]
 
-%%[supports:: [[SoT - Complexity Conservation]], strength=4, confidence=high]%%
+[supports:: [[SoT - Complexity Conservation]], strength=4, confidence=high]
 
 source:: [[Code vs Data Structures (Torvalds Essay)]]

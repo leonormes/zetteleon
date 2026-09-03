@@ -45,9 +45,9 @@ type: claim
 
 - _(Log results here)_
 
-%%[supports:: [[SoT - ADHD Management Protocols]]]%%
+[supports:: [[SoT - ADHD Management Protocols]]]
 
-%%[supports:: [[Micro-Stepping Reduces Cognitive Load for Task Initiation]]]%%
+[supports:: [[Micro-Stepping Reduces Cognitive Load for Task Initiation]]]
 
 ## Related
 

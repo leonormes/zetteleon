@@ -78,7 +78,7 @@ No depth-cap truncation — every branch off FAE terminates at depth 1 (tip, bou
 **None.** No candidate cleared high confidence. The one substantive candidate (Evil Arises → FAE) is UNDERSPECIFIED, not KEEP — typing a guess here would bake in an ungrounded generalisation permanently. If you supply the suppressed premise (that interpersonal FAE generalises to historical/moral perpetrator judgement) and still want it recorded, the compiler-valid form would be:
 
 ```
-%%[depends_on:: [[Fundamental Attribution Error]], confidence=medium]%%
+[depends_on:: [[Fundamental Attribution Error]], confidence=medium]
 ```
 placed in [[Evil Arises from Malice or Thoughtless Banality — Motivation Is Not Determinative]], under the `%[relationship...` convention — not `supports`/`prerequisite_of` as this brief's vocabulary would suggest, since those aren't in the compiler's closed list.
 

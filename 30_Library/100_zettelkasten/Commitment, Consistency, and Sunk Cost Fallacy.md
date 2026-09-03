@@ -19,4 +19,4 @@ In an argument, for example, individuals may refuse to back down not because of 
 
 This concept is derived from the broader conversation in Contextual Relationships.
 
-%%[supports:: [[SoT - Social Cognition & Self-Perception]]]%%
+[supports:: [[SoT - Social Cognition & Self-Perception]]]

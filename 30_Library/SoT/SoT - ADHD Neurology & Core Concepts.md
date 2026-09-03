@@ -21,7 +21,7 @@ type: sot
 >
 > The Core Shift: From an "Importance-Based" to an "Interest-Based" Nervous System.
 
-%%[synthesizes:: [[The ADHD brain operates on an Interest-Based Nervous System]], strength=5, confidence=high]%% %%[depends_on:: [[Neurotypical motivation is primarily importance-driven]], strength=5, confidence=high]%% %%[depends_on:: [[Clinical Models Recognize Activation as a Core Impairment in ADHD]], confidence=high]%% %%[synthesizes:: [[ADHD Involves an Inability to Regulate Attention]], confidence=high]%%
+[synthesizes:: [[The ADHD brain operates on an Interest-Based Nervous System]], strength=5, confidence=high] [depends_on:: [[Neurotypical motivation is primarily importance-driven]], strength=5, confidence=high] [depends_on:: [[Clinical Models Recognize Activation as a Core Impairment in ADHD]], confidence=high] [synthesizes:: [[ADHD Involves an Inability to Regulate Attention]], confidence=high]
 
 _The "Core Shift" is only meaningful against a contrast case: the importance-driven baseline is a declared axiom, not an assumption this note is free to make silently._
 
@@ -36,7 +36,7 @@ The ADHD brain operates on "Non-Standard Hardware" with specific performance bot
 | Signal Gating | High-Fidelity. Suppresses background noise automatically. | Loose Gating. Everything arrives with "Admin" privileges; focus requires manual effort. |
 | Time Horizon | Linear. The future is a visible continuum. | Binary. Only Now and Not Now. The future is invisible until it becomes a crisis. |
 
-%%[depends_on:: [[ADHD Working Memory Deficits Create a Compulsive Re-Planning Loop]], strength=5, confidence=high]%% %%[depends_on:: [[Prefrontal Cortex Catecholamine Insufficiency Impairs Executive Control in ADHD]], strength=5, confidence=high]%% %%[depends_on:: [[The Prefrontal Cortex Provides Executive Control Over Action]], confidence=high]%% %%[synthesizes:: [[Hyperfixation Creates Time Blindness in ADHD]], confidence=high]%%
+[depends_on:: [[ADHD Working Memory Deficits Create a Compulsive Re-Planning Loop]], strength=5, confidence=high] [depends_on:: [[Prefrontal Cortex Catecholamine Insufficiency Impairs Executive Control in ADHD]], strength=5, confidence=high] [depends_on:: [[The Prefrontal Cortex Provides Executive Control Over Action]], confidence=high] [synthesizes:: [[Hyperfixation Creates Time Blindness in ADHD]], confidence=high]
 
 _Row by row: the volatile-RAM row is the re-planning-loop axiom; the whole table's executive-control column rests on catecholamine insufficiency in the PFC._
 
@@ -50,7 +50,7 @@ Motivation is not a choice; it is a chemical reaction. The ADHD brain only "boot
 - Urgency: Imminent deadlines or crisis-mode.
 - Passion: Deep personal resonance or play.
 
-%%[depends_on:: [[ADHD Causes Task Initiation Deficits Due to Dopamine Hyposensitivity]], strength=5, confidence=high]%% %%[depends_on:: [[Dopamine reward pathway dysfunction causes ADHD task initiation difficulty]], confidence=high]%%
+[depends_on:: [[ADHD Causes Task Initiation Deficits Due to Dopamine Hyposensitivity]], strength=5, confidence=high] [depends_on:: [[Dopamine reward pathway dysfunction causes ADHD task initiation difficulty]], confidence=high]
 
 ### 1.3 The Gut-Brain Energy Axis (The Fuel Supply)
 
@@ -72,7 +72,7 @@ Tenacity is not a character trait; it is a physical structure in the Anterior Mi
 	- The Quit Trigger: The ADHD brain interprets this chemical drop as "boredom" or "lost interest," triggering a shift to a new "Shiny Object."
 - The Willpower Muscle: The AMCC only grows when we perform tasks we do not want to do. If we enjoy the work, the AMCC remains dormant. Frequent "quitting" leads to AMCC atrophy, while overcoming resistance leads to hypertrophy.
 
-%%[depends_on:: [[Dopamine Neurons Encode Reward Prediction Error, Not Pleasure]], strength=5, confidence=high]%% %%[depends_on:: [[Dopamine Regulates Motivation (Wanting) Separately from Pleasure (Liking)]], confidence=high]%%
+[depends_on:: [[Dopamine Neurons Encode Reward Prediction Error, Not Pleasure]], strength=5, confidence=high] [depends_on:: [[Dopamine Regulates Motivation (Wanting) Separately from Pleasure (Liking)]], confidence=high]
 
 _The Novice High → Plateau → Quit Trigger sequence is a direct application of the prediction-error axiom: when the error goes to zero, so does the signal. The AMCC hypertrophy claim itself has no atom—see Gaps._
 
@@ -91,7 +91,7 @@ In neurotypical brains, as task load increases, the DMN (specifically the precun
 - Negative Rumination: Getting "stuck" in the DMN, leading to self-critical brooding when not externally engaged.
 - Fluctuating Intensity: Rapid, unpredictable shifts between deep focus (TPN) and total distraction (DMN).
 
-%%[synthesizes:: [[The Glitchy Switch - TPN and DMN Dysregulation in ADHD]], strength=5, confidence=high]%% %%[synthesizes:: [[ADHD DMN Deactivation Failure]], confidence=high]%% %%[depends_on:: [[ADHD Causes Sustained Attention Deficits Requiring Higher Cortical Activation]], confidence=medium]%%
+[synthesizes:: [[The Glitchy Switch - TPN and DMN Dysregulation in ADHD]], strength=5, confidence=high] [synthesizes:: [[ADHD DMN Deactivation Failure]], confidence=high] [depends_on:: [[ADHD Causes Sustained Attention Deficits Requiring Higher Cortical Activation]], confidence=medium]
 
 ### 1.6 The Cerebellum & Regulation
 
@@ -99,7 +99,7 @@ Beyond motor control, the cerebellum is a critical hub for cognitive and emotion
 
 - The Fix: Exercises challenging balance and coordination (isometrics, yoga, proprioception) "charge" the cerebellum, increasing dopamine/norepinephrine levels and stabilizing the switching mechanics between the TPN and DMN.
 
-%%[synthesizes:: [[Cerebellum Function and Exercise for ADHD Regulation]], strength=5, confidence=high]%% %%[supports:: [[Physical Movement Before Cognitive Tasks Primes DLPFC Activation in ADHD]], confidence=high]%%
+[synthesizes:: [[Cerebellum Function and Exercise for ADHD Regulation]], strength=5, confidence=high] [supports:: [[Physical Movement Before Cognitive Tasks Primes DLPFC Activation in ADHD]], confidence=high]
 
 ---
 
@@ -107,7 +107,7 @@ Beyond motor control, the cerebellum is a critical hub for cognitive and emotion
 
 ADHD is also an Emotional Regulation disorder. The brain's inability to dampen emotional signals leads to "Emotional Flooding."
 
-%%[synthesizes:: [[MOC - Emotional Dysregulation]], confidence=high]%%
+[synthesizes:: [[MOC - Emotional Dysregulation]], confidence=high]
 
 ### 2.1 The Shame-Procrastination Cycle
 
@@ -119,7 +119,7 @@ A self-reinforcing feedback loop where failure leads to shame, which leads to av
 4. Avoidance (Mood Repair): To escape the pain, you flee to low-effort dopamine (scrolling).
 5. Identity Reinforcement: The loop "proves" you are incompetent.
 
-%%[supports:: [[Misinterpretation as Character Flaws]], strength=5, confidence=high]%% %%[synthesizes:: [[Productive vs Destructive Shame]], confidence=medium]%%
+[supports:: [[Misinterpretation as Character Flaws]], strength=5, confidence=high] [synthesizes:: [[Productive vs Destructive Shame]], confidence=medium]
 
 _Step 2 is the mechanism that makes the character-flaw misreading feel accurate from the inside. This section is the target of an existing inbound `supports` edge from the journal note [[I have a lot of shame about my life]]—deliberately not reciprocated, since a return edge would close a two-node cycle._
 
@@ -130,7 +130,7 @@ RSD is a neurological hypersensitivity where perceived or actual rejection is pr
 - The Switch: The brain fails to filter signals of social disapproval.
 - The Defense: People-pleasing, perfectionism, or avoidance of sharing work.
 
-%%[depends_on:: [[Rejection Sensitive Dysphoria (RSD)]], strength=5, confidence=high]%%
+[depends_on:: [[Rejection Sensitive Dysphoria (RSD)]], strength=5, confidence=high]
 
 ### 2.3 The Antidote: Self-Compassion
 
@@ -139,7 +139,7 @@ Shame ("I am bad") is neutralized by Self-Compassion ("I am out of resources").
 - Reframing: Failures are Hardware Limitations (Empty RAM), not moral failings.
 - The "Yet" Mentality: "I haven't mastered this _yet_."
 
-%%[supports:: [[Reframe Habit Setbacks as Capacity Limits Not Character Flaws]], strength=5, confidence=high]%% %%[supports:: [[SoT - ADHD Self-Compassion & Strengths]], confidence=high]%%
+[supports:: [[Reframe Habit Setbacks as Capacity Limits Not Character Flaws]], strength=5, confidence=high] [supports:: [[SoT - ADHD Self-Compassion & Strengths]], confidence=high]
 
 _The "Empty RAM" reframe is exactly the capacity-not-character claim, and it only works because §1.1 established the hardware constraint first—the compassion is licensed by the mechanism, not asserted over it._
 
@@ -154,7 +154,7 @@ While often obscured by executive dysfunction, the ADHD brain possesses distinct
 - Resilience: Living life on "Hard Mode" builds profound grit.
 - Generosity & Optimism: Often highly empathetic and willing to help.
 
-%%[supports:: [[ADHD as Neurodiversity Not Deficit]], strength=5, confidence=high]%% %%[synthesizes:: [[Hyperfocus is a State of Intense Interest-Driven Focus in ADHD]], confidence=high]%%
+[supports:: [[ADHD as Neurodiversity Not Deficit]], strength=5, confidence=high] [synthesizes:: [[Hyperfocus is a State of Intense Interest-Driven Focus in ADHD]], confidence=high]
 
 ---
 
@@ -166,7 +166,7 @@ Japanese concepts that align with the ADHD experience:
 - Gaman: Endurance with dignity. Develops resilience against inertia.
 - Kintsugi: The art of repairing with gold. Honoring "broken" parts as sources of strength.
 
-%%[synthesizes:: [[SoT - Wabi-Sabi]], confidence=medium]%%
+[synthesizes:: [[SoT - Wabi-Sabi]], confidence=medium]
 
 _Only Wabi-Sabi has a note. Gaman and Kintsugi are named here and nowhere else in the vault._
 

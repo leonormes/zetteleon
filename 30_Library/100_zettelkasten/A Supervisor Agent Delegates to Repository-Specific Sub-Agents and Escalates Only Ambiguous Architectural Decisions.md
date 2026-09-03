@@ -49,4 +49,4 @@ Source: [video with "First Mate" agent orchestration segment, exact title/channe
 
 - [[Automated CI Pipelines Wire an Adversarial LLM Reviewer Into Branch-and-Rebase Before Human Review]]
 
-%%[extends:: [[Engineer Involvement Compresses to Planning and Review as Agentic Workflows Mature]], strength=3, confidence=medium]%%
+[extends:: [[Engineer Involvement Compresses to Planning and Review as Agentic Workflows Mature]], strength=3, confidence=medium]

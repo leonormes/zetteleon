@@ -32,6 +32,6 @@ Site Reliability Engineers (SREs) often push back on this, asserting that "the t
 ## Related
 
 - [[The Illusion of Shared Understanding in Teams]]—_Explains why achieving this shared understanding is so difficult and prone to false alignment._
-%%[extends:: [[The Illusion of Shared Understanding in Teams]]]%%
+[extends:: [[The Illusion of Shared Understanding in Teams]]]
 - [[AI-Generated Code Shifts From a Durable Asset to a Disposable Cache When Regeneration Is Cheap]]—_Builds on the idea that code is just a materialized view of understanding, not the primary asset._
-%%[supports:: [[AI-Generated Code Shifts From a Durable Asset to a Disposable Cache When Regeneration Is Cheap]]]%%
+[supports:: [[AI-Generated Code Shifts From a Durable Asset to a Disposable Cache When Regeneration Is Cheap]]]

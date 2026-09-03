@@ -25,4 +25,4 @@ Details: This principle emphasizes that while high-level goals and projects are 
 - [[The Rapid Planning Method (RPM) is a Purpose-Driven System]]: _A contrasting top-down approach that starts with Results and Purpose before reaching the Massive Action Plan (MAP)._
 - [[Plan To Plan-Just-In-Time for ADHD]]: _A practical application of bottom-up productivity for neurodivergent workflows, focusing on immediate next tests._
 
-%%[supports:: [[SoT - Execution Protocol (GTD & PARA)]]]%%
+[supports:: [[SoT - Execution Protocol (GTD & PARA)]]]

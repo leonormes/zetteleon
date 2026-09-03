@@ -23,10 +23,10 @@ Competitive pressure demonstrably raises measured attainment, and low-stakes env
 
 ## Knowledge Graph
 
-%%[depends_on:: [[Comprehension Requires Passing Through a Period of Disorientation]], strength=5, confidence=high]%%
+[depends_on:: [[Comprehension Requires Passing Through a Period of Disorientation]], strength=5, confidence=high]
 
-%%[supports:: [[The Emotional Cost of Being Wrong is Magnified by Loss Aversion]], strength=4, confidence=high]%%
+[supports:: [[The Emotional Cost of Being Wrong is Magnified by Loss Aversion]], strength=4, confidence=high]
 
-%%[supports:: [[SoT - Reframe Your Mindset From Pretender to Explorer]], strength=4, confidence=medium]%%
+[supports:: [[SoT - Reframe Your Mindset From Pretender to Explorer]], strength=4, confidence=medium]
 
-%%[extends:: [[The World's Ambiguity Drives the Need for Certainty]], strength=3, confidence=medium]%%
+[extends:: [[The World's Ambiguity Drives the Need for Certainty]], strength=3, confidence=medium]

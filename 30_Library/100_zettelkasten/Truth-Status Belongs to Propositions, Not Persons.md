@@ -22,8 +22,8 @@ The belief that a person who holds a false premise is fundamentally broken fuses
 ## Related
 
 - [[Decoupling Ego from Outcomes to Improve Decisions]]—_Separating self-worth from intellectual output._
-%%[extends:: [[Decoupling Ego from Outcomes to Improve Decisions]]]%%
+[extends:: [[Decoupling Ego from Outcomes to Improve Decisions]]]
 - [[Cognitive Defusion from Narrative]]—_The operational mechanism of separating self from thought._
-%%[supports:: [[Cognitive Defusion from Narrative]]]%%
+[supports:: [[Cognitive Defusion from Narrative]]]
 - [[Claim - When intelligence is bound to identity, epistemic errors are experienced as threats to self-worth]]—_Provides the pathology that this decoupling aims to cure._
-%%[depends_on:: [[Claim - When intelligence is bound to identity, epistemic errors are experienced as threats to self-worth]]]%%
+[depends_on:: [[Claim - When intelligence is bound to identity, epistemic errors are experienced as threats to self-worth]]]

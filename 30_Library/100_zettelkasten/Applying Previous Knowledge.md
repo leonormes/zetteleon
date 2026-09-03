@@ -17,7 +17,7 @@ Utilizing existing knowledge, such as mathematical axioms or domain expertise, i
 
 _Example:_ A mathematician can derive the area of a rectangle from seemingly limited information about a related circle, but only by applying the axiomatic knowledge of geometry. Without that prior knowledge, the data remains opaque.
 
-%%[supports:: [[What is information]]]%%
+[supports:: [[What is information]]]
 
 ## Related
 

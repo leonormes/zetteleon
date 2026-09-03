@@ -25,8 +25,8 @@ Existing link count out: 0 (True outbound orphan).
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Embodied Confidence Comes From Direct Feedback...md` | `%%[supports:: [[SoT - The Primacy of Experience (Pre-Linguistic Understanding)]]]%%` | Target provides the concrete mechanism for how pre-linguistic understanding builds competence. | Yes |
-| `Embodied Confidence Comes From Direct Feedback...md` | `%%[supports:: [[Confidence as Trust in Process Not Certainty in Outcomes]]]%%` | Target provides the physical grounding for trusting a process over an outcome. | Yes |
+| `Embodied Confidence Comes From Direct Feedback...md` | `[supports:: [[SoT - The Primacy of Experience (Pre-Linguistic Understanding)]]]` | Target provides the concrete mechanism for how pre-linguistic understanding builds competence. | Yes |
+| `Embodied Confidence Comes From Direct Feedback...md` | `[supports:: [[Confidence as Trust in Process Not Certainty in Outcomes]]]` | Target provides the physical grounding for trusting a process over an outcome. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required. The structural edges fully encapsulate the note's semantic role.

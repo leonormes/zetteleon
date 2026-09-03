@@ -24,7 +24,7 @@ Overall: True orphan note (not structurally anchored).
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Coherent LLM output signals...md` | `%%[supports:: [[SoT - LLM Semantic-Statistical Mismatch]]]%%` | Target provides the psychological justification for the Anthropomorphism Trap. | Yes |
+| `Coherent LLM output signals...md` | `[supports:: [[SoT - LLM Semantic-Statistical Mismatch]]]` | Target provides the psychological justification for the Anthropomorphism Trap. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required.

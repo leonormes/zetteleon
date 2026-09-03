@@ -29,6 +29,6 @@ For a daily writing habit to be effective as a thinking tool, the focus must be 
 - [[PKM as Process vs Product]]—_A conceptual note on the distinction between information collection and active cognitive processing._
 - [[SoT - Perfectionism and Analysis Paralysis]]—_Discusses how ProdOS architecture enforces "Process over Product" to break the cycle of perfectionism._
 
-%%[implements:: [[SoT - Processing IS the Work]]]%%
+[implements:: [[SoT - Processing IS the Work]]]
 
-%%[implements:: [[SoT - Perfectionism and Analysis Paralysis]]]%%
+[implements:: [[SoT - Perfectionism and Analysis Paralysis]]]

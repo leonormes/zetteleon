@@ -199,12 +199,12 @@ Individual strengths as they show up elsewhere in the vault, evidencing that the
 - [[MOC - Shame]]—the failure arm.
 - [[MOC - Health and Vitality]] and [[MOC - Healthy Relationship Expectations and Needs]]—adjacent human-domain maps.
 
-%%[synthesizes:: [[The Concept of a Character Ideal]], strength=5, confidence=high]%%
+[synthesizes:: [[The Concept of a Character Ideal]], strength=5, confidence=high]
 
-%%[synthesizes:: [[SoT - Values and Eudaimonia]], strength=5, confidence=high]%%
+[synthesizes:: [[SoT - Values and Eudaimonia]], strength=5, confidence=high]
 
-%%[depends_on:: [[Phronesis (Practical Wisdom) is Knowledge Gained Through Action and Experience]], strength=4, confidence=high]%%
+[depends_on:: [[Phronesis (Practical Wisdom) is Knowledge Gained Through Action and Experience]], strength=4, confidence=high]
 
-%%[depends_on:: [[Aristotle Distinguished Between Episteme, Techne, and Phronesis]], strength=3, confidence=high]%%
+[depends_on:: [[Aristotle Distinguished Between Episteme, Techne, and Phronesis]], strength=3, confidence=high]
 
-%%[extends:: [[Meta MOC - The Core Domains]], strength=3, confidence=medium]%%
+[extends:: [[Meta MOC - The Core Domains]], strength=3, confidence=medium]

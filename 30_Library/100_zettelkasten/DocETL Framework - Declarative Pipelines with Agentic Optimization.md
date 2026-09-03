@@ -55,4 +55,4 @@ The key insight is that pipeline structure matters more than model choice. By de
 - [[SoT - Declarative Data Pipeline Design]]
 - [[Map-Reduce-Filter Patterns in LLM Systems]]
 
-%%[supports:: [[LLM Pipeline Accuracy Degrades with Document Length and Task Complexity]], strength=5, confidence=high]%%
+[supports:: [[LLM Pipeline Accuracy Degrades with Document Length and Task Complexity]], strength=5, confidence=high]

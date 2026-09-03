@@ -25,7 +25,7 @@ Existing link count out: 7 (all bare links or unstructured `## See Also`).
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Applying Previous Knowledge.md` | `%%[supports:: [[What is information]]]%%` | Target is the specific cognitive/epistemic mechanism that enables the transformation defined in `What is information`. | Yes |
+| `Applying Previous Knowledge.md` | `[supports:: [[What is information]]]` | Target is the specific cognitive/epistemic mechanism that enables the transformation defined in `What is information`. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 | File | Proposed line | Where it goes |

@@ -23,7 +23,7 @@ Existing link count out: 0 (True outbound orphan).
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Partners Should Have Equal Say...md` | `%%[supports:: [[SoT - Family Financial Wellness]]]%%` | Target acts as a structural load-bearing pillar for the SoT's relational architecture. | Yes |
+| `Partners Should Have Equal Say...md` | `[supports:: [[SoT - Family Financial Wellness]]]` | Target acts as a structural load-bearing pillar for the SoT's relational architecture. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 | File | Proposed line | Where it goes |

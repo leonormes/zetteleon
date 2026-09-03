@@ -52,4 +52,4 @@ Source: "I Built Karpathy's LLM Wiki in Claude Code (No Vector DB)" (Achuth G. R
 
 - [[SoT - LLM Wiki Pattern]]
 
-%%[supports:: [[Privacy Tombstones Mark Sensitive Files as Off-Limits to AI Agents]], strength=3, confidence=medium]%%
+[supports:: [[Privacy Tombstones Mark Sensitive Files as Off-Limits to AI Agents]], strength=3, confidence=medium]

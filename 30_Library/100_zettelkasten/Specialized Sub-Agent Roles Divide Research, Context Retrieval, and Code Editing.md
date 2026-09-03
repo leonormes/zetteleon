@@ -49,6 +49,6 @@ Source: "AI in the SDLC: Rethinking AI Coding Tools & AI Agents" (IBM Technology
 
 - [[Architecture First Approach to AI Development]]
 
-%%[implements:: [[Agent Harness - Wrapping LLMs in Deterministic Software Controls]], strength=4, confidence=high]%%
+[implements:: [[Agent Harness - Wrapping LLMs in Deterministic Software Controls]], strength=4, confidence=high]
 
-%%[depends_on:: [[Model Context Protocol Standardises the LLM-to-Tool Interface]], strength=3, confidence=medium]%%
+[depends_on:: [[Model Context Protocol Standardises the LLM-to-Tool Interface]], strength=3, confidence=medium]

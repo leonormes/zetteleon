@@ -45,4 +45,4 @@ Source: Charity Majors, "AI demands more engineering discipline. Not less." (cha
 
 - [[The Deletion Test Reveals Resistance to Deleting Code Is an Evaluation Problem, Not a Code Problem]]
 
-%%[extends:: [[AI-Generated Code Shifts From a Durable Asset to a Disposable Cache When Regeneration Is Cheap]], strength=2, confidence=low]%%
+[extends:: [[AI-Generated Code Shifts From a Durable Asset to a Disposable Cache When Regeneration Is Cheap]], strength=2, confidence=low]

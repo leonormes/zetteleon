@@ -33,7 +33,7 @@ Addresses workflow design for ADHD individuals who struggle with the "interleavi
 ### Related
 
 - [[ProdOS System Overview and Development Progress]]—extends: Relates to the system's dynamic of Horizontal Management vs Vertical Alignment.
-- [[gtd-action-system]]—extends: Modifies the concept that GTD relies on executive offloading by explaining why horizontal execution might still introduce friction. %%[extends:: [[gtd-action-system]]]%%
-- [[Dopamine Management in ADHD Productivity]]—extends: Provides vertical execution as a concrete dopamine management strategy. %%[extends:: [[Dopamine Management in ADHD Productivity]]]%%
-- [[Dopamine reward pathway dysfunction causes ADHD task initiation difficulty]]—depends_on: Provides the underlying neurological reason for why horizontal execution fails to trigger reward. %%[depends_on:: [[Dopamine reward pathway dysfunction causes ADHD task initiation difficulty]]]%%
-- [[GTD and the Cognitive Load of Execution]]—supports: Reinforces the concept of context-reloading costs. %%[supports:: [[GTD and the Cognitive Load of Execution]]]%%
+- [[gtd-action-system]]—extends: Modifies the concept that GTD relies on executive offloading by explaining why horizontal execution might still introduce friction. [extends:: [[gtd-action-system]]]
+- [[Dopamine Management in ADHD Productivity]]—extends: Provides vertical execution as a concrete dopamine management strategy. [extends:: [[Dopamine Management in ADHD Productivity]]]
+- [[Dopamine reward pathway dysfunction causes ADHD task initiation difficulty]]—depends_on: Provides the underlying neurological reason for why horizontal execution fails to trigger reward. [depends_on:: [[Dopamine reward pathway dysfunction causes ADHD task initiation difficulty]]]
+- [[GTD and the Cognitive Load of Execution]]—supports: Reinforces the concept of context-reloading costs. [supports:: [[GTD and the Cognitive Load of Execution]]]

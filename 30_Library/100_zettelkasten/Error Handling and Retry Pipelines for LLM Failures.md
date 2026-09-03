@@ -60,6 +60,6 @@ Recovery mechanisms [01:14:02]: "Implementing strategic retry loops. If an initi
 - [[SoT - Resilience Patterns for LLM Systems]]
 - [[Exponential Backoff Strategies]]
 
-%%[depends_on:: [[LLM Probabilistic Outputs Prevent Consistency Guarantees]], strength=5, confidence=high]%%
+[depends_on:: [[LLM Probabilistic Outputs Prevent Consistency Guarantees]], strength=5, confidence=high]
 
-%%[implements:: [[Structured Output Enforcement (JSON Schema and Function Calling)]], strength=4, confidence=high]%%
+[implements:: [[Structured Output Enforcement (JSON Schema and Function Calling)]], strength=4, confidence=high]

@@ -12,7 +12,7 @@ type: sot
 
 > Open threads: [[HEAD - Should agent context isolation come from lazy loading or separate processes?]]
 
-%%[depends_on:: [[The Architectural Guardian]], strength=4, confidence=high]%%
+[depends_on:: [[The Architectural Guardian]], strength=4, confidence=high]
 
 ## The Surgical Team (Agentic Roles)
 
@@ -38,6 +38,6 @@ To execute [[SoT - Macro-Micro Unification]], we divide the cognitive load acros
 
 ---
 
-%%[implements:: [[SoT - The Context Engine]]]%%
+[implements:: [[SoT - The Context Engine]]]
 
 See Also: [[SoT - The Context Engine]], [[SoT - Macro-Micro Unification]]

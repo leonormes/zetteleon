@@ -26,7 +26,7 @@ This seed is now genuinely load-bearing, and better-scrutinised than most roots 
 - **Denial:** passes — one could believe effortful linking matters while still holding that sophisticated tooling is a harmless complement, not a distraction. The edge is a real, deniable claim.
 - **Substitution:** passes — sophistication-bug's specific claim ("I should be thinking... not automating and creating systems to make it easy") is the direct corollary of "the artefact isn't the point"; a generic minimalism-in-productivity note wouldn't carry this specific reasoning.
 - **Load:** passes — if "the artefact isn't the point, the effort is" were false, sophistication-bug's claim that automation is actively counterproductive would lose its grounding; it would just be an unsupported preference for simplicity.
-- **Verdict: KEEP**, confidence medium-high. Typed as `%%[supports:: [[The sophistication is a bug not a feature]], confidence=medium]%%` on the seed.
+- **Verdict: KEEP**, confidence medium-high. Typed as `[supports:: [[The sophistication is a bug not a feature]], confidence=medium]` on the seed.
 - **Direction check:** sophistication-bug already carried a *bare, unannotated* backlink to the seed (no prose, just listed at the end). That reverse link is not re-typed — typing both directions would manufacture a two-node cycle for what is one relationship, stated from one side. Same discipline [[SoT - Bonhoeffer's Theory of Functional Stupidity]] used with [[Systems Generate Internal Logic in Isolation]].
 
 ### Weakened by the seed's own enrichment: [[Linking as a Redundancy Reduction Strategy in Zettelkasten]] → seed — now UNDERSPECIFIED

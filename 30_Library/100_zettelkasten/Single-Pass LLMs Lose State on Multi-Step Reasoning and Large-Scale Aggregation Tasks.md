@@ -46,4 +46,4 @@ Source: "From RLMs to Agent Harnesses" (Still Broken AI). "Simple LLMs: You inpu
 
 - [[RLMs Dynamically Chunk Data at Runtime, Unlike RAG's Static Pre-Defined Chunking]]
 
-%%[supports:: [[LLM Pipeline Accuracy Degrades with Document Length and Task Complexity]], strength=3, confidence=medium]%%
+[supports:: [[LLM Pipeline Accuracy Degrades with Document Length and Task Complexity]], strength=3, confidence=medium]

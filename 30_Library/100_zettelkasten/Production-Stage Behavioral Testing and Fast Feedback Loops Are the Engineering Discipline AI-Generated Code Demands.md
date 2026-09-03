@@ -46,6 +46,6 @@ Source: Charity Majors, "AI demands more engineering discipline. Not less." (cha
 
 - [[AI-Generated Code Shifts From a Durable Asset to a Disposable Cache When Regeneration Is Cheap]]
 
-%%[extends:: [[Classic Engineering Discipline Is More Necessary, Not Less, as a Countermeasure to AI-Generated Slop]], strength=3, confidence=medium]%%
+[extends:: [[Classic Engineering Discipline Is More Necessary, Not Less, as a Countermeasure to AI-Generated Slop]], strength=3, confidence=medium]
 
-%%[supports:: [[The Deletion Test Reveals Resistance to Deleting Code Is an Evaluation Problem, Not a Code Problem]], strength=2, confidence=medium]%%
+[supports:: [[The Deletion Test Reveals Resistance to Deleting Code Is an Evaluation Problem, Not a Code Problem]], strength=2, confidence=medium]

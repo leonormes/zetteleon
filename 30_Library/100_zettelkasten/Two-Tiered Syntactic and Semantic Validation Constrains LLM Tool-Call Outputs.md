@@ -37,6 +37,6 @@ Source: user-pasted summary of a presentation on neuro-symbolic AI architecture 
 
 - [[Agentic Loops Gain Turing-Complete Instability From Chained Reasoning and Tool Use]]
 
-%%[implements:: [[Neuro-Symbolic Guardrails Intercept and Validate Tool-Call Requests Against a Formal Ontology Before Execution]], strength=3, confidence=medium]%%
+[implements:: [[Neuro-Symbolic Guardrails Intercept and Validate Tool-Call Requests Against a Formal Ontology Before Execution]], strength=3, confidence=medium]
 
-%%[depends_on:: [[Ground New Agent Ontologies in Established Semantic Web Taxonomies Rather Than Building From Scratch]], strength=2, confidence=medium]%%
+[depends_on:: [[Ground New Agent Ontologies in Established Semantic Web Taxonomies Rather Than Building From Scratch]], strength=2, confidence=medium]

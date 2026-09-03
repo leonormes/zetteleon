@@ -54,8 +54,8 @@ These challenges are rooted in the brain's physical architecture and chemistry:
 
 [[Executive Dysfunction - The Root of Analysis Paralysis]]—analysis paralysis is EF activation-domain failure playing out in technical work
 
-%%[supports:: [[Executive Dysfunction - The Root of Analysis Paralysis]]]%%
+[supports:: [[Executive Dysfunction - The Root of Analysis Paralysis]]]
 
 [[Metacognitive Deficits in ADHD Create Practical Impairments]]—EF's own "Metacognitive Blindness" practical implication, made explicit as its own claim
 
-%%[supports:: [[Metacognitive Deficits in ADHD Create Practical Impairments]]]%%
+[supports:: [[Metacognitive Deficits in ADHD Create Practical Impairments]]]

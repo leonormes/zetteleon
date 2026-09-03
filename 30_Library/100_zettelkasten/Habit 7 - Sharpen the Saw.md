@@ -14,7 +14,7 @@ used_in_claims: []
 
 Habit 7: Sharpen the Saw is the principle of balanced self-renewal. It is the habit that makes all the others possible by preserving and enhancing your greatest asset: you. It means taking time to renew yourself regularly across four key dimensions.
 
-This habit is the practical application of [[The P-PC Balance (Production vs Production Capability)]]. %%[implements:: [[The P-PC Balance (Production vs Production Capability)]], confidence=high]%% It is the "PC"—the investment in your ability to produce.
+This habit is the practical application of [[The P-PC Balance (Production vs Production Capability)]]. [implements:: [[The P-PC Balance (Production vs Production Capability)]], confidence=high] It is the "PC"—the investment in your ability to produce.
 
 ## The Four Dimensions of Renewal
 
@@ -25,8 +25,8 @@ This habit is the practical application of [[The P-PC Balance (Production vs Pro
 
 ## ProdOS Integration
 
-Sharpen the Saw is a critical [[The Time Management Matrix (Eisenhower Matrix)]] Quadrant II activity. %%[depends_on:: [[The Time Management Matrix (Eisenhower Matrix)]], confidence=high]%% It is important but rarely urgent, so it must be proactively scheduled.
+Sharpen the Saw is a critical [[The Time Management Matrix (Eisenhower Matrix)]] Quadrant II activity. [depends_on:: [[The Time Management Matrix (Eisenhower Matrix)]], confidence=high] It is important but rarely urgent, so it must be proactively scheduled.
 
-- The Unschedule: The [[SoT - Temporal Management (Blocking and Boxing)|11 - Time Management (Timeboxing and The Unschedule)]] method is a direct implementation of this habit, where renewal and leisure are scheduled _first_. %%[depends_on:: [[SoT - Temporal Management (Blocking and Boxing)]], confidence=medium]%%
+- The Unschedule: The [[SoT - Temporal Management (Blocking and Boxing)|11 - Time Management (Timeboxing and The Unschedule)]] method is a direct implementation of this habit, where renewal and leisure are scheduled _first_. [depends_on:: [[SoT - Temporal Management (Blocking and Boxing)]], confidence=medium]
 - ADHD & Energy: For an [[ADHD Brain Wiring vs. Classic Productivity Systems|ADHD and Productivity]] system, this is non-negotiable. Regular renewal is essential for managing energy and maintaining focus. The use of immediate rewards after work blocks is a micro-form of sharpening the saw.
 - The Weekly Review: The [[Protocol - Weekly Command Centre|10 - The Review and Reflection Process]] is a form of mental renewal and is the time to ensure you are scheduling renewal activities for the week ahead.

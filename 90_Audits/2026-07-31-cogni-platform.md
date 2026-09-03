@@ -27,9 +27,9 @@ Overall: Inbound orphan but structurally anchored outwards via `implements` edge
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Cogni Platform...md` | `%%[implements:: [[Persistent Memory Layers Enable Multi-Session Agent Continuity]]]%%` | Strip parameters for clean linting. | Yes |
-| `Cogni Platform...md` | `%%[implements:: [[Agent Feedback Loops Require Bidirectional Memory Writes]]]%%` | Strip parameters for clean linting. | Yes |
-| `Cogni Platform...md` | `%%[implements:: [[Selective Memory Retrieval Reduces Token Cost in Multi-Session Workflows]]]%%` | Strip parameters for clean linting. | Yes |
+| `Cogni Platform...md` | `[implements:: [[Persistent Memory Layers Enable Multi-Session Agent Continuity]]]` | Strip parameters for clean linting. | Yes |
+| `Cogni Platform...md` | `[implements:: [[Agent Feedback Loops Require Bidirectional Memory Writes]]]` | Strip parameters for clean linting. | Yes |
+| `Cogni Platform...md` | `[implements:: [[Selective Memory Retrieval Reduces Token Cost in Multi-Session Workflows]]]` | Strip parameters for clean linting. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 Preserve the plain links under `## Related`.

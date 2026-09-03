@@ -24,7 +24,7 @@ Overall: True inbound orphan note.
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Heart & Friendship Skills...md` | `%%[extends:: [[A Concept Map for a Flourishing Human]]]%%` | Target specialises a subset of the broader human flourishing map. | Yes |
+| `Heart & Friendship Skills...md` | `[extends:: [[A Concept Map for a Flourishing Human]]]` | Target specialises a subset of the broader human flourishing map. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 Remove the trailing plain link `[[A Concept Map for a Flourishing Human]]` since it will be replaced by the typed edge.

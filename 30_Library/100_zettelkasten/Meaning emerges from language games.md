@@ -19,7 +19,7 @@ Summary: According to Wittgenstein, meaning emerges from how language is used in
 
 Details: Wittgenstein proposed that the meaning of words is not fixed definitions but their use within particular "language games" - shared social practices where words gain practical meaning. We learn language through participation in these games, not through explicit definition. Communication succeeds when it's "good enough" for coordination within a specific context or activity. This explains why perfect understanding isn't necessary - we only need sufficient functional overlap to accomplish shared goals. The concept challenges the notion that successful communication requires perfect mental-to-mental transmission.
 
-%%[supports:: [[SoT - Communication & Misunderstanding (The Experiential Filter)]]]%%
+[supports:: [[SoT - Communication & Misunderstanding (The Experiential Filter)]]]
 
 ## Related
 

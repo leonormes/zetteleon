@@ -20,8 +20,8 @@ Practitioners used pseudonyms, spoke in "tongues" and outlandish imagery, and co
 
 Secrecy reads as a moral failing—hoarding. The sharper reading is mechanical: a system that cannot be examined cannot be corrected, so its errors compound undetected.
 
-- [[Systems Generate Internal Logic in Isolation]]—_Cut off from external scrutiny, the tradition had to generate its own criteria for what counted as a valid result. The symbolism was not only concealment; it became the system's internal logic, judged against no standard outside itself._ %%[implements:: [[Systems Generate Internal Logic in Isolation]], strength=5, confidence=high]%%
-- [[Open Knowledge Systems Prevail Over Closed Systems]]—_This note supplies the "closed" half of that claim's evidence base._ %%[supports:: [[Open Knowledge Systems Prevail Over Closed Systems]], strength=5, confidence=high]%%
+- [[Systems Generate Internal Logic in Isolation]]—_Cut off from external scrutiny, the tradition had to generate its own criteria for what counted as a valid result. The symbolism was not only concealment; it became the system's internal logic, judged against no standard outside itself._ [implements:: [[Systems Generate Internal Logic in Isolation]], strength=5, confidence=high]
+- [[Open Knowledge Systems Prevail Over Closed Systems]]—_This note supplies the "closed" half of that claim's evidence base._ [supports:: [[Open Knowledge Systems Prevail Over Closed Systems]], strength=5, confidence=high]
 
 ## The Contrast
 

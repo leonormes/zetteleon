@@ -42,4 +42,4 @@ Source: "FORGET Loop Engineering. Agentic Engineering is about THIS" (IndyDevDan
 
 - [[Vibe Coding - Rapid AI-Assisted Code Generation Without Engineering Rigor]]
 
-%%[supports:: [[Overdelegation and Underdelegation Are Symmetric Failure Modes in AI-Assisted Coding]], strength=3, confidence=medium]%%
+[supports:: [[Overdelegation and Underdelegation Are Symmetric Failure Modes in AI-Assisted Coding]], strength=3, confidence=medium]

@@ -39,4 +39,4 @@ Second, independent source, corroborating with a different mechanistic analogy: 
 
 - [[Engineer Involvement Compresses to Planning and Review as Agentic Workflows Mature]]
 
-%%[supports:: [[Software Factory Pattern - Specialized Sandboxed Agents Autonomously Own Feature, Bugfix, and Incident Lifecycles]], strength=2, confidence=low]%%
+[supports:: [[Software Factory Pattern - Specialized Sandboxed Agents Autonomously Own Feature, Bugfix, and Incident Lifecycles]], strength=2, confidence=low]

@@ -24,7 +24,7 @@ Overall: True orphan note (not structurally anchored).
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `An Example of a Tcp Packet With All Layers.md` | `%%[supports:: [[SoT - The Data-Centric Theory of Networking]]]%%` | Target acts as the structural evidence for the layered networking theory defined in the SoT. | Yes |
+| `An Example of a Tcp Packet With All Layers.md` | `[supports:: [[SoT - The Data-Centric Theory of Networking]]]` | Target acts as the structural evidence for the layered networking theory defined in the SoT. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required.

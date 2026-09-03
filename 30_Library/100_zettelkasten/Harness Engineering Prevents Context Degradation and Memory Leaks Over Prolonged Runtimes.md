@@ -46,4 +46,4 @@ Source: unnamed video on LLM orchestration hierarchy (URL: youtube.com/watch?v=4
 
 - [[Intentional Compaction Clears History and Reseeds a Fresh Session with One Compressed Artifact]]
 
-%%[extends:: [[Agent Harness - Wrapping LLMs in Deterministic Software Controls]], strength=3, confidence=medium]%%
+[extends:: [[Agent Harness - Wrapping LLMs in Deterministic Software Controls]], strength=3, confidence=medium]

@@ -18,4 +18,4 @@ Beyond the human mind, information is presented as a fundamental organizing prin
 
 [[Information as Foundation of Knowledge]]
 
-%%[supports:: [[SoT - The Law of Increasing Functional Information]]]%%
+[supports:: [[SoT - The Law of Increasing Functional Information]]]

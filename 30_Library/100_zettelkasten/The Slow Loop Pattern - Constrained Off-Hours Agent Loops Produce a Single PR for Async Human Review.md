@@ -47,6 +47,6 @@ Source: "Context engineering with Dex Horthy" (Gergely Orosz interviewing Dex Ho
 
 - [[Software Factory Pattern - Specialized Sandboxed Agents Autonomously Own Feature, Bugfix, and Incident Lifecycles]]
 
-%%[implements:: [[Engineer Involvement Compresses to Planning and Review as Agentic Workflows Mature]], strength=3, confidence=medium]%%
+[implements:: [[Engineer Involvement Compresses to Planning and Review as Agentic Workflows Mature]], strength=3, confidence=medium]
 
-%%[supports:: [[Mandatory Manual Code Review Before Deployment]], strength=3, confidence=medium]%%
+[supports:: [[Mandatory Manual Code Review Before Deployment]], strength=3, confidence=medium]

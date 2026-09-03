@@ -47,6 +47,6 @@ Source: unnamed video on LLM orchestration hierarchy (URL: youtube.com/watch?v=4
 
 - [[Loop Engineering Is Built From Six Components - Automation, Worktrees, Skills, Plugins, Sub-Agents, and State]]
 
-%%[depends_on:: [[Context Engineering Fails Beyond Short-Duration Tasks]], strength=3, confidence=medium]%%
+[depends_on:: [[Context Engineering Fails Beyond Short-Duration Tasks]], strength=3, confidence=medium]
 
-%%[depends_on:: [[Harness Engineering Prevents Context Degradation and Memory Leaks Over Prolonged Runtimes]], strength=3, confidence=medium]%%
+[depends_on:: [[Harness Engineering Prevents Context Degradation and Memory Leaks Over Prolonged Runtimes]], strength=3, confidence=medium]

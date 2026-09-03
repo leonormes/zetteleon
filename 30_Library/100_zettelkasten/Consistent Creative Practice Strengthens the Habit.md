@@ -15,4 +15,4 @@ type: claim
 
 A consistent and frequent routine with your creative practice strengthens both the habit itself and your connection to your creativity. Regular engagement builds momentum and makes it easier to enter a creative state.
 
-%%[supports:: [[SoT - Habit Formation Framework]]]%%
+[supports:: [[SoT - Habit Formation Framework]]]

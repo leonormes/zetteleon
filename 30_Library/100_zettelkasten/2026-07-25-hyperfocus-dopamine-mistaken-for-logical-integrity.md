@@ -32,6 +32,6 @@ Hyperfocus sessions may also produce genuinely higher-quality ideas via sustaine
 
 [[Externalising Tacit Knowledge Strips the Scaffolding That Made an Idea Feel Deep]]—this is the ADHD-specific intensifier of that general mechanism, not a standalone claim
 
-%%[extends:: [[Externalising Tacit Knowledge Strips the Scaffolding That Made an Idea Feel Deep]]]%%
+[extends:: [[Externalising Tacit Knowledge Strips the Scaffolding That Made an Idea Feel Deep]]]
 
-%%[supports:: [[SoT - Illusion of Explanatory Depth (IoED)]]]%%
+[supports:: [[SoT - Illusion of Explanatory Depth (IoED)]]]

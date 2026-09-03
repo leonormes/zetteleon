@@ -11,7 +11,7 @@ proposition: "The easier a behavior is to perform, the more likely it is to beco
 title: Evidence - Easy Behaviors Become Habits Through Gradual Layering
 ---
 
-%%[supports:: [[Making a behavior easy increases the likelihood it will become a habit]]]%%
+[supports:: [[Making a behavior easy increases the likelihood it will become a habit]]]
 
 A fundamental principle of habit formation, especially relevant for ADHD, is that the easier a behavior is to perform, the more likely it is to stick. Once a simple habit feels automatic, new habits can be layered on top, one at a time, to gradually build a more complex routine. The key is to only increase challenge once the current step feels easy and automatic—for example, starting with two exercise sessions per week before adding a third prevents the snap-back effect from overextension.
 

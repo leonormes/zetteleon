@@ -23,15 +23,15 @@ The brain is also limited in its ability to pay attention, with a "window of con
 
 Humans possess a finite capacity for processing and holding information simultaneously. This cognitive constraint means that our ability to absorb and integrate vast amounts of data at any given moment is limited, contributing to the myopic nature of our understanding. (See: [[Myopic Understanding]])
 
-%%[supports:: [[Cognitive Offloading Frees Mental Resources for Decision-Making and Problem-Solving]]]%%
+[supports:: [[Cognitive Offloading Frees Mental Resources for Decision-Making and Problem-Solving]]]
 
-%%[supports:: [[SoT - Working Memory & Schema Theory]]]%%
+[supports:: [[SoT - Working Memory & Schema Theory]]]
 
-%%[supports:: [[SoT - Illusion of Explanatory Depth (IoED)]]]%%
+[supports:: [[SoT - Illusion of Explanatory Depth (IoED)]]]
 
-%%[supports:: [[SoT - Prosthetic Executive Function]]]%%
+[supports:: [[SoT - Prosthetic Executive Function]]]
 
-%%[supports:: [[SoT - Learning Mechanisms]]]%%
+[supports:: [[SoT - Learning Mechanisms]]]
 
 ## Related
 

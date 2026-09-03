@@ -21,4 +21,4 @@ Context: Clarifying the role of values in disciplined living.
 
 [[Self-Regulation is Managing Your Emotions and Actions]]
 
-%%[supports:: [[SoT - Values and Eudaimonia]]]%%
+[supports:: [[SoT - Values and Eudaimonia]]]

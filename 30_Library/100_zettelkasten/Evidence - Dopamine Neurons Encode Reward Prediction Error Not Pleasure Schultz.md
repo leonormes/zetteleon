@@ -10,7 +10,7 @@ proposition: "Midbrain dopamine neurons encode reward prediction error (the diff
 title: Evidence - Dopamine Neurons Encode Reward Prediction Error Not Pleasure Schultz
 ---
 
-%%[supports:: [[Dopamine Neurons Encode Reward Prediction Error, Not Pleasure]]]%%
+[supports:: [[Dopamine Neurons Encode Reward Prediction Error, Not Pleasure]]]
 
 Midbrain dopamine neurons in the VTA and substantia nigra do not encode the pleasure of receiving a reward. They encode reward prediction error (RPE): the difference between the reward actually received and the reward that was predicted. A fully predicted reward produces no dopaminergic response.
 

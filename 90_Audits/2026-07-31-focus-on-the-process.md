@@ -26,8 +26,8 @@ Overall: True inbound orphan note.
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Focus on the Process...md` | `%%[implements:: [[SoT - Processing IS the Work]]]%%` | Target is an applied practice (daily writing) of the philosophy that processing is the actual work. | Yes |
-| `Focus on the Process...md` | `%%[solves:: [[SoT - Perfectionism and Analysis Paralysis]]]%%` | Target mindset shift explicitly breaks the perfectionism loop. | Yes |
+| `Focus on the Process...md` | `[implements:: [[SoT - Processing IS the Work]]]` | Target is an applied practice (daily writing) of the philosophy that processing is the actual work. | Yes |
+| `Focus on the Process...md` | `[solves:: [[SoT - Perfectionism and Analysis Paralysis]]]` | Target mindset shift explicitly breaks the perfectionism loop. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required. The existing plain links in the "Related" section and the `source` field will be preserved.

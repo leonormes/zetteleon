@@ -26,8 +26,8 @@ The telic/atelic line is analytically clean but empirically blurry: most real ac
 
 [[Aristotle Distinguished Between Episteme, Techne, and Phronesis]]—the same Aristotelian machinery, applied to the modes of activity (_theoria_, _poiesis_, _praxis_) rather than the forms of knowledge.
 
-%%[extends:: [[Aristotle Distinguished Between Episteme, Techne, and Phronesis]], strength=4, confidence=high]%%
+[extends:: [[Aristotle Distinguished Between Episteme, Techne, and Phronesis]], strength=4, confidence=high]
 
-%%[extends:: [[SoT - Metaphysics of Purpose]], strength=3, confidence=medium]%%
+[extends:: [[SoT - Metaphysics of Purpose]], strength=3, confidence=medium]
 
-%%[supports:: [[SoT - Values and Eudaimonia]], strength=4, confidence=high]%%
+[supports:: [[SoT - Values and Eudaimonia]], strength=4, confidence=high]

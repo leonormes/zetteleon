@@ -20,4 +20,4 @@ Luhmann is the case that shows this. He carried the Zettelkasten in his head. Th
 
 This is why [[The sophistication is a bug not a feature|a more elaborate system doesn't get you further]]—more automation, more tagging, more graph-view sprawl can all happen without a single idea being understood any better. The measure was never the size of the collection. It's whether the person doing the linking actually had to think to make the connection.
 
-%%[supports:: [[The sophistication is a bug not a feature]], confidence=medium]%%
+[supports:: [[The sophistication is a bug not a feature]], confidence=medium]

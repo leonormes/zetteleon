@@ -28,4 +28,4 @@ This approach transforms the polished note from a static conclusion into a dynam
 
 Links: [[MOC - PKM as Process vs Product]]
 
-%%[extends:: [[Hub Notes Provide Entry Points to Idea Clusters]], strength=3, confidence=medium]%%
+[extends:: [[Hub Notes Provide Entry Points to Idea Clusters]], strength=3, confidence=medium]

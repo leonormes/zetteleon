@@ -24,4 +24,4 @@ The virtue of Temperance, as defined by the [[MOC - Character and Virtue|VIA Cha
 
 - [[MOC - Character and Virtue]] - _The comprehensive map organizing all notes related to the VIA framework._
 
-%%[extends:: [[MOC - Character and Virtue]], strength=4, confidence=high]%%
+[extends:: [[MOC - Character and Virtue]], strength=4, confidence=high]

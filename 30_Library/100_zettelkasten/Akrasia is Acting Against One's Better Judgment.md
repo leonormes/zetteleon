@@ -25,4 +25,4 @@ Holton's Distinction: Philosopher Richard Holton distinguishes between _akrasia_
 - [[Implementation Intentions Automate Action Initiation with If-Then Plans]] _The modern cognitive counter to akrasia: pre-committing to an if-then rule removes the moment-of-action decision before desire or emotion can override it._
 - [[Callosotomy Can Produce Divergent Simultaneous Intentions]]—_neurologically parallels akrasia: both are instances of a will divided against itself, one at the hemisphere level, one at the motivational level._
 
-%%[depends_on:: [[Phronesis (Practical Wisdom) is Knowledge Gained Through Action and Experience]], strength=4, confidence=high]%%
+[depends_on:: [[Phronesis (Practical Wisdom) is Knowledge Gained Through Action and Experience]], strength=4, confidence=high]

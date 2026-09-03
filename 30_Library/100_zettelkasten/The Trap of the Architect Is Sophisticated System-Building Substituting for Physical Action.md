@@ -23,12 +23,12 @@ Some architecture genuinely is prerequisite—a badly-designed system produces m
 
 ## Knowledge Graph
 
-%%[synthesizes:: [[SoT - Processing IS the Work]], strength=4, confidence=medium]%%
+[synthesizes:: [[SoT - Processing IS the Work]], strength=4, confidence=medium]
 
-%%[synthesizes:: [[System-Hopping]], strength=3, confidence=medium]%%
+[synthesizes:: [[System-Hopping]], strength=3, confidence=medium]
 
-%%[synthesizes:: [[Pseudo-productivity Heuristic]], strength=3, confidence=medium]%%
+[synthesizes:: [[Pseudo-productivity Heuristic]], strength=3, confidence=medium]
 
-%%[extends:: [[Tool tinkering is a form of productive procrastination]], strength=3, confidence=high]%%
+[extends:: [[Tool tinkering is a form of productive procrastination]], strength=3, confidence=high]
 
-%%[extends:: [[SoT - Perfectionism and Analysis Paralysis]], strength=3, confidence=medium]%%
+[extends:: [[SoT - Perfectionism and Analysis Paralysis]], strength=3, confidence=medium]

@@ -78,6 +78,6 @@ Source: "Loop Engineering | LLM". Quotes:
 - [[SoT - Memory Systems in Autonomous Agents]]
 - [[Episodic Memory Summarization Strategies]]
 
-%%[implements:: [[Persistent Memory Layers Enable Multi-Session Agent Continuity]], strength=5, confidence=high]%%
+[implements:: [[Persistent Memory Layers Enable Multi-Session Agent Continuity]], strength=5, confidence=high]
 
-%%[implements:: [[Selective Memory Retrieval Reduces Token Cost in Multi-Session Workflows]], strength=4, confidence=high]%%
+[implements:: [[Selective Memory Retrieval Reduces Token Cost in Multi-Session Workflows]], strength=4, confidence=high]

@@ -48,6 +48,6 @@ Source: "Context engineering with Dex Horthy" (Gergely Orosz interviewing Dex Ho
 
 - [[LLM Architectural Judgment Gap]]
 
-%%[supports:: [[LLM Architectural Judgment Gap]], strength=4, confidence=medium]%%
+[supports:: [[LLM Architectural Judgment Gap]], strength=4, confidence=medium]
 
-%%[supports:: [[Mandatory Manual Code Review Before Deployment]], strength=4, confidence=medium]%%
+[supports:: [[Mandatory Manual Code Review Before Deployment]], strength=4, confidence=medium]

@@ -28,4 +28,4 @@ Comparison:
 - AWS: Shield (Standard/Advanced).
 - Azure: DDoS Protection (Basic/Standard).
 
-%%[implements:: [[SoT - Network Security Architecture]]]%%
+[implements:: [[SoT - Network Security Architecture]]]

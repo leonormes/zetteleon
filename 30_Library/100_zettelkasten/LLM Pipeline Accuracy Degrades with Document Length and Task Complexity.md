@@ -51,6 +51,6 @@ Example: "if an LLM extracts 'Officer Smith,' 'J. Smith,' and 'Sergeant James Sm
 
 - [[SoT - LLM Pipeline Architecture]]
 
-%%[depends_on:: [[Context Window Limits Force Iterative Task Decomposition]], strength=4, confidence=high]%%
+[depends_on:: [[Context Window Limits Force Iterative Task Decomposition]], strength=4, confidence=high]
 
-%%[depends_on:: [[LLM Hallucinations Arise from Probabilistic Prediction Without External Grounding]], strength=4, confidence=high]%%
+[depends_on:: [[LLM Hallucinations Arise from Probabilistic Prediction Without External Grounding]], strength=4, confidence=high]

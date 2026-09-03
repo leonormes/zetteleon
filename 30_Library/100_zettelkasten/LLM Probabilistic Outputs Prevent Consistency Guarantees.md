@@ -41,4 +41,4 @@ Source: "Nobody Pages the LLM: Engineering Rigour for Vibe Coding" (Ritesh Modi)
 
 Some LLM applications benefit from this behavior: creative writing, exploratory ideation, brainstorming. The tension is not whether probabilism exists, but whether it's compatible with the application domain.
 
-%%[depends_on:: [[Vibe Coding - Rapid AI-Assisted Code Generation Without Engineering Rigor]], strength=4, confidence=high]%%
+[depends_on:: [[Vibe Coding - Rapid AI-Assisted Code Generation Without Engineering Rigor]], strength=4, confidence=high]

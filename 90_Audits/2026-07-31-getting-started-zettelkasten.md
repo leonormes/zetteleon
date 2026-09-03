@@ -24,7 +24,7 @@ Overall: True inbound orphan note.
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Getting Started...md` | `%%[implements:: [[SoT - ADHD Management Protocols]]]%%` | Target is a concrete, domain-specific execution of ADHD initiation protocols. | Yes |
+| `Getting Started...md` | `[implements:: [[SoT - ADHD Management Protocols]]]` | Target is a concrete, domain-specific execution of ADHD initiation protocols. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required. Preserve the plain link to the daily note.

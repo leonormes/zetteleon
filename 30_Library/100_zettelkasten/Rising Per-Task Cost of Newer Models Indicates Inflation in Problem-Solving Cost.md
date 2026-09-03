@@ -46,4 +46,4 @@ Source: "State of Agentic Coding, episode 8, with Mario, Armin, and Ben" (Armin 
 
 - [[Continuous Autonomous Agent Loops Incur Significant API Cost]]
 
-%%[supports:: [[Unsustainable Agent Token Costs Are Driving a Shift from Flat-Fee to Usage-Based Pricing]], strength=3, confidence=medium]%%
+[supports:: [[Unsustainable Agent Token Costs Are Driving a Shift from Flat-Fee to Usage-Based Pricing]], strength=3, confidence=medium]

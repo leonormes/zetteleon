@@ -24,8 +24,8 @@ Existing link count out: 3 (one `supports` edge to `Agentic Autonomy Accelerates
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Reinforcement Learning Produces Jagged Intelligence — High in Verifiable, Low in Subjective Domains.md` | `%%[supports:: [[AI and Machine Understanding]]]%%` | Target provides the mechanistic explanation for the limitations discussed in the candidate. | Yes |
-| `Reinforcement Learning Produces Jagged Intelligence — High in Verifiable, Low in Subjective Domains.md` | `%%[supports:: [[SoT - AI Sycophancy]]]%%` | Target details the exact RL constraint that causes models to default to sycophancy in subjective tasks. | Yes |
+| `Reinforcement Learning Produces Jagged Intelligence — High in Verifiable, Low in Subjective Domains.md` | `[supports:: [[AI and Machine Understanding]]]` | Target provides the mechanistic explanation for the limitations discussed in the candidate. | Yes |
+| `Reinforcement Learning Produces Jagged Intelligence — High in Verifiable, Low in Subjective Domains.md` | `[supports:: [[SoT - AI Sycophancy]]]` | Target details the exact RL constraint that causes models to default to sycophancy in subjective tasks. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 | File | Proposed line | Where it goes |

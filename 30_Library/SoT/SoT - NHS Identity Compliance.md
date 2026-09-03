@@ -23,8 +23,8 @@ NHS Identity Compliance requires a "multi-factor, time-locked system" to protect
 
 To handle NHS patient data securely, organizations must implement:
 
-- Zero Standing Privileges: Admin access must be Just-in-Time (JIT) through Privileged Identity Management (PIM). %%[synthesizes:: [[Just-In-Time (JIT) Admin Access]]]%% %%[synthesizes:: [[SoT - GitOps for Privileged Identity Management]]]%%
-- Mandatory MFA: Multi-Factor Authentication for all users, especially those with privileged access. %%[synthesizes:: [[Phishing-Resistant MFA]]]%%
+- Zero Standing Privileges: Admin access must be Just-in-Time (JIT) through Privileged Identity Management (PIM). [synthesizes:: [[Just-In-Time (JIT) Admin Access]]] [synthesizes:: [[SoT - GitOps for Privileged Identity Management]]]
+- Mandatory MFA: Multi-Factor Authentication for all users, especially those with privileged access. [synthesizes:: [[Phishing-Resistant MFA]]]
 - Private Connectivity: Use Azure Private Link for all NHS data services to prevent public exposure.
 - NHS England Blueprints: Enforce organizational standards using Azure Policy with NHS England-specific blueprints.
 - Confidential Computing: Utilize Azure Confidential Computing for processing Protected Health Information (PHI) in isolated enclaves.
@@ -69,7 +69,7 @@ AADSignInEvents
 
 ## Related Knowledge
 
-- [[SoT - Microsoft Entra Identity]] %%[depends_on:: [[SoT - Microsoft Entra Identity]]]%%
-- [[SoT - Zero Trust Architecture]] %%[depends_on:: [[SoT - Zero Trust Architecture]]]%%
-- [[SoT - NIST Cybersecurity Framework]] %%[depends_on:: [[SoT - NIST Cybersecurity Framework]]]%%
-- _NHS Services:_ [[SoT - NHS MESH Integration]] %%[depends_on:: [[SoT - NHS MESH Integration]]]%%
+- [[SoT - Microsoft Entra Identity]] [depends_on:: [[SoT - Microsoft Entra Identity]]]
+- [[SoT - Zero Trust Architecture]] [depends_on:: [[SoT - Zero Trust Architecture]]]
+- [[SoT - NIST Cybersecurity Framework]] [depends_on:: [[SoT - NIST Cybersecurity Framework]]]
+- _NHS Services:_ [[SoT - NHS MESH Integration]] [depends_on:: [[SoT - NHS MESH Integration]]]

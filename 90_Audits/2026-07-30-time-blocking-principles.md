@@ -22,7 +22,7 @@ Existing link count out: 0 (True outbound orphan).
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `The Core Principles of Time Blocking...md` | `%%[supports:: [[SoT - Temporal Management (Blocking and Boxing)]]]%%` | Target acts as the structural proof point and definition for the Time Blocking framework. | Yes |
+| `The Core Principles of Time Blocking...md` | `[supports:: [[SoT - Temporal Management (Blocking and Boxing)]]]` | Target acts as the structural proof point and definition for the Time Blocking framework. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 | File | Proposed line | Where it goes |

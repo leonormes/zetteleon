@@ -24,7 +24,7 @@ Overall: Inbound orphan.
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Evidence - Limbic Friction...md` | `%%[supports:: [[Limbic Friction is the Activation Energy for Habits]]]%%` | Strip legacy kwargs from existing typed edge to conform to strict schema. | Yes |
+| `Evidence - Limbic Friction...md` | `[supports:: [[Limbic Friction is the Activation Energy for Habits]]]` | Strip legacy kwargs from existing typed edge to conform to strict schema. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required. The existing plain link to `MOC - The Science of Making and Breaking Habits` is preserved.

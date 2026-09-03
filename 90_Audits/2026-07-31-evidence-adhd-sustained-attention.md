@@ -24,7 +24,7 @@ Overall: Inbound orphan.
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Evidence - ADHD Sustained Attention...md` | `%%[supports:: [[ADHD Causes Sustained Attention Deficits Requiring Higher Cortical Activation]]]%%` | Strip legacy kwargs from existing typed edge to conform to strict schema. | Yes |
+| `Evidence - ADHD Sustained Attention...md` | `[supports:: [[ADHD Causes Sustained Attention Deficits Requiring Higher Cortical Activation]]]` | Strip legacy kwargs from existing typed edge to conform to strict schema. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required. The existing plain link to `MOC - The Phases of Task Execution and the Impact of ADHD` is preserved.

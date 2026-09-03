@@ -10,7 +10,7 @@ title: Protocol - Typed Answer Contract (TAC) for Vault Agents
 type: protocol
 ---
 
-%%[implements:: [[SoT - Typed Answer Contract (TAC) for LLM Output]], strength=5, confidence=high]%%
+[implements:: [[SoT - Typed Answer Contract (TAC) for LLM Output]], strength=5, confidence=high]
 
 > Output Contract: this note IS the Output Contract. It defines the rule other prompts point to—it has no upstream contract to follow, only the rules below.
 

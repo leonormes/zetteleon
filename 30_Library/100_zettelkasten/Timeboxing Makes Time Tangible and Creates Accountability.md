@@ -24,4 +24,4 @@ This visual representation makes the commitment feel more "real" and harder to i
 - [[Timeboxing Creates Scarcity to Eliminate Non-Essential Activities]] - A complementary psychological effect of timeboxing.
 - [[Timeboxing Combats the Principle of Least Resistance]] - How this tangible commitment overcomes procrastination.
 
-%%[supports:: [[SoT - Temporal Management (Blocking and Boxing)]]]%%
+[supports:: [[SoT - Temporal Management (Blocking and Boxing)]]]

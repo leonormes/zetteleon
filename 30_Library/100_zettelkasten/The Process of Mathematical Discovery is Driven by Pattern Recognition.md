@@ -18,4 +18,4 @@ Details: The workflow of mathematical discovery typically begins with the observ
 
 Interplay with Proof: This interplay between inductive, creative pattern-spotting (the discovery phase) and deductive, logical proof (the justification phase) is the primary engine of mathematical progress. Pattern recognition suggests what might be true; deductive proof establishes that it is true within a given axiomatic system. Both phases are essential and complementary.
 
-%%[implements:: [[Patterns are the Scaffolding of Knowledge]], strength=4, confidence=high]%%
+[implements:: [[Patterns are the Scaffolding of Knowledge]], strength=4, confidence=high]

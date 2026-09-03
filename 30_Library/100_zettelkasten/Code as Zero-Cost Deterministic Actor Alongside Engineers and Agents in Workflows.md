@@ -45,6 +45,6 @@ Source: "FORGET Loop Engineering. Agentic Engineering is about THIS" (IndyDevDan
 
 - [[Software Factory Pattern - Specialized Sandboxed Agents Autonomously Own Feature, Bugfix, and Incident Lifecycles]]
 
-%%[extends:: [[Agent Harness - Wrapping LLMs in Deterministic Software Controls]], strength=3, confidence=medium]%%
+[extends:: [[Agent Harness - Wrapping LLMs in Deterministic Software Controls]], strength=3, confidence=medium]
 
-%%[supports:: [[Unsustainable Agent Token Costs Are Driving a Shift from Flat-Fee to Usage-Based Pricing]], strength=3, confidence=medium]%%
+[supports:: [[Unsustainable Agent Token Costs Are Driving a Shift from Flat-Fee to Usage-Based Pricing]], strength=3, confidence=medium]

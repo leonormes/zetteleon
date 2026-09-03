@@ -38,4 +38,4 @@ type: claim
 
 ---
 
-%%[implements:: [[SoT - PRODOS Core Specification]]]%%
+[implements:: [[SoT - PRODOS Core Specification]]]

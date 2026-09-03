@@ -15,19 +15,19 @@ Personal observations about what triggers procrastination, particularly around m
 
 "Why don't I do the dishes? It's as if doing a short one-off task like that doesn't offer any dopamine rewards. I like things to be clean and tidy. I don't get anything from the dishwasher."
 
-This connects directly to [[The 'Dopamine Shot' vs 'Relief from Anxiety' in Task Completion]] - ADHD brains don't get the same reward satisfaction from completing mundane tasks. The underlying issue is [[Dopamine reward pathway dysfunction causes ADHD task initiation difficulty|Dopamine Dysregulation is a Key Factor in ADHD Motivation]], where tasks lacking intrinsic interest fail to activate the brain's reward system. %%[depends_on:: [[Dopamine reward pathway dysfunction causes ADHD task initiation difficulty]]]%%
+This connects directly to [[The 'Dopamine Shot' vs 'Relief from Anxiety' in Task Completion]] - ADHD brains don't get the same reward satisfaction from completing mundane tasks. The underlying issue is [[Dopamine reward pathway dysfunction causes ADHD task initiation difficulty|Dopamine Dysregulation is a Key Factor in ADHD Motivation]], where tasks lacking intrinsic interest fail to activate the brain's reward system. [depends_on:: [[Dopamine reward pathway dysfunction causes ADHD task initiation difficulty]]]
 
 ## Energy-Dependent Motivation
 
 "My motivation is so tied to my feelings. It sounds simple. But I really do need that energy in my brain. Motivation seems to be dependent on it. I'm almost paralyzed without it."
 
-This paralysis is a classic example of [[MOC - Why Task Initiation is Difficult in ADHD|Thinking about the task initiation problem]] - the executive function challenge where starting tasks requires more mental energy than available. This creates the "surface tension" barrier between not doing and doing tasks. %%[extends:: [[MOC - Why Task Initiation is Difficult in ADHD]]]%%
+This paralysis is a classic example of [[MOC - Why Task Initiation is Difficult in ADHD|Thinking about the task initiation problem]] - the executive function challenge where starting tasks requires more mental energy than available. This creates the "surface tension" barrier between not doing and doing tasks. [extends:: [[MOC - Why Task Initiation is Difficult in ADHD]]]
 
 ## The Habit Formation Challenge
 
 "I can't do little, detached tasks. So building habits is a bust."
 
-This insight reveals why traditional habit-building advice fails for ADHD brains. Without the dopamine reward loop, habits can't form through repetition alone. This connects to [[SoT - Bridging the Intention-Action Gap|Why Importance and Rewards Fail to Motivate ADHD Brains]] - external motivation strategies don't work when the internal reward system is dysregulated. %%[extends:: [[SoT - Bridging the Intention-Action Gap]]]%%
+This insight reveals why traditional habit-building advice fails for ADHD brains. Without the dopamine reward loop, habits can't form through repetition alone. This connects to [[SoT - Bridging the Intention-Action Gap|Why Importance and Rewards Fail to Motivate ADHD Brains]] - external motivation strategies don't work when the internal reward system is dysregulated. [extends:: [[SoT - Bridging the Intention-Action Gap]]]
 
 ## The Broader Pattern
 

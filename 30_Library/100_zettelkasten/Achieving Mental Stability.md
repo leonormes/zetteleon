@@ -22,9 +22,9 @@ Musashi advised removing expectations to prevent emotional turmoil. He stated th
 
 ### Related Concepts
 
-- [[The 'Do' (Path) Concept]] %%[extends:: [[The 'Do' (Path) Concept]]]%% - *Mental stability is a continuous practice rather than a final destination.*
-- [[Fudo The Path of Immovability]] %%[implements:: [[Fudo The Path of Immovability]]]%% - *Achieving a mind that is fluid and unperturbed.*
-- [[Letting Go to Gain Control]] %%[supports:: [[Letting Go to Gain Control]]]%% - *Removing expectations prevents emotional turmoil.*
-- [[SoT - Miyamoto Musashi's Philosophy on Mastering Emotions]] %%[extends:: [[SoT - Miyamoto Musashi's Philosophy on Mastering Emotions]]]%% - *The overarching framework for cultivating Heijo-shin (Ordinary Mind).*
-- [[Letting Go of Fixed Views Leads to Peace]] %%[supports:: [[Letting Go of Fixed Views Leads to Peace]]]%% - *Aligning reality with expectations requires dropping rigid preconceptions.*
+- [[The 'Do' (Path) Concept]] [extends:: [[The 'Do' (Path) Concept]]] - *Mental stability is a continuous practice rather than a final destination.*
+- [[Fudo The Path of Immovability]] [implements:: [[Fudo The Path of Immovability]]] - *Achieving a mind that is fluid and unperturbed.*
+- [[Letting Go to Gain Control]] [supports:: [[Letting Go to Gain Control]]] - *Removing expectations prevents emotional turmoil.*
+- [[SoT - Miyamoto Musashi's Philosophy on Mastering Emotions]] [extends:: [[SoT - Miyamoto Musashi's Philosophy on Mastering Emotions]]] - *The overarching framework for cultivating Heijo-shin (Ordinary Mind).*
+- [[Letting Go of Fixed Views Leads to Peace]] [supports:: [[Letting Go of Fixed Views Leads to Peace]]] - *Aligning reality with expectations requires dropping rigid preconceptions.*
 - [[Miyamoto Musashi]] - *The core author of this philosophy.*

@@ -93,6 +93,6 @@ For massive contexts (e.g., full documentation sets or large codebases), use Con
 
 ---
 
-%%[implements:: [[SoT - Context Engineering]]]%%
+[implements:: [[SoT - Context Engineering]]]
 
 See Also: [[SoT - Context Engineering]]

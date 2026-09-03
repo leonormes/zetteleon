@@ -46,4 +46,4 @@ Source: [video with "Axi" agent-ergonomic interface segment, exact title/channel
 
 - [[API Quota Limits, Not Just Cost, Drive Model Stratification in Agentic Workflows]]
 
-%%[supports:: [[Rising Per-Task Cost of Newer Models Indicates Inflation in Problem-Solving Cost]], strength=3, confidence=medium]%%
+[supports:: [[Rising Per-Task Cost of Newer Models Indicates Inflation in Problem-Solving Cost]], strength=3, confidence=medium]

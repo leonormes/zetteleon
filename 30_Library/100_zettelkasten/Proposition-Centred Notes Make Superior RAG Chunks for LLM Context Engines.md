@@ -41,4 +41,4 @@ Assumes a local-first plain-text vault (e.g. Obsidian) as the substrate, chunked
 
 - [[SoT - Context Engineering]]
 
-%%[supports:: [[Proposition-Centred Notes Create Cognitive Leverage That Topical Notes Lack]], strength=4, confidence=high]%%
+[supports:: [[Proposition-Centred Notes Create Cognitive Leverage That Topical Notes Lack]], strength=4, confidence=high]

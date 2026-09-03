@@ -39,6 +39,6 @@ Source: Cogni platform pitch—"Turning Claude Fable 5 Into The Ultimate Second 
 - [[Layered Knowledge Architecture]]—describes a pattern to solve this via external memory layers.
 - [[Persistent Memory Layers Enable Multi-Session Agent Continuity]]—direct inverse: the solution pattern to this constraint.
 
-%%[supports:: [[Continuous Autonomous Agent Loops Incur Significant API Cost]], strength=3, confidence=high]%%
+[supports:: [[Continuous Autonomous Agent Loops Incur Significant API Cost]], strength=3, confidence=high]
 
-%%[depends_on:: [[Protocol Statelessness Relocates Agent State into Model-Visible Handles]], strength=2, confidence=medium]%%
+[depends_on:: [[Protocol Statelessness Relocates Agent State into Model-Visible Handles]], strength=2, confidence=medium]

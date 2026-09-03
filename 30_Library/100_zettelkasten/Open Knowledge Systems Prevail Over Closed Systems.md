@@ -24,9 +24,9 @@ Systems that rely on open demonstration, logic, and refutation (like mathematics
 
 "Open beats closed" is a summary, not an explanation. The explanation is that closure removes the error-correction channel, after which internal coherence is the only remaining standard.
 
-- [[Systems Generate Internal Logic in Isolation]]—_A system sealed from external context must generate its own criteria. This claim is that mechanism's long-run consequence: self-referential criteria drift, and nothing inside the system can detect the drift._ %%[depends_on:: [[Systems Generate Internal Logic in Isolation]], strength=5, confidence=high]%%
-- [[Dismissing People Who Disagree Costs You Your Best Error-Detectors]]—_The same claim at individual scale. Alchemy's "elect" is a filtered circle; the epistemic cost is identical whether the filter is a guild initiation or a personal habit of dismissal._ %%[supports:: [[Dismissing People Who Disagree Costs You Your Best Error-Detectors]], strength=5, confidence=high]%%
-- [[Ptolemaic System as a Patched Flawed Model]]—_The qualifying case. Ptolemaic astronomy was open, published and scrutinised, and still ran 1,500 years on a false premise. Openness is necessary, not sufficient: what matters is whether the _foundational_ assumption is exposed to attack, not just the derivations from it._ %%[supports:: [[Ptolemaic System as a Patched Flawed Model]], confidence=medium]%%
+- [[Systems Generate Internal Logic in Isolation]]—_A system sealed from external context must generate its own criteria. This claim is that mechanism's long-run consequence: self-referential criteria drift, and nothing inside the system can detect the drift._ [depends_on:: [[Systems Generate Internal Logic in Isolation]], strength=5, confidence=high]
+- [[Dismissing People Who Disagree Costs You Your Best Error-Detectors]]—_The same claim at individual scale. Alchemy's "elect" is a filtered circle; the epistemic cost is identical whether the filter is a guild initiation or a personal habit of dismissal._ [supports:: [[Dismissing People Who Disagree Costs You Your Best Error-Detectors]], strength=5, confidence=high]
+- [[Ptolemaic System as a Patched Flawed Model]]—_The qualifying case. Ptolemaic astronomy was open, published and scrutinised, and still ran 1,500 years on a false premise. Openness is necessary, not sufficient: what matters is whether the _foundational_ assumption is exposed to attack, not just the derivations from it._ [supports:: [[Ptolemaic System as a Patched Flawed Model]], confidence=medium]
 
 ## Steelman
 

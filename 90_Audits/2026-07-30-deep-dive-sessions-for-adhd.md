@@ -28,8 +28,8 @@ Existing link count out: 0.
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Deep Dive Sessions for ADHD (Adapted GTD Next Actions).md` | `%%[contradicts:: [[Replace -deep Focus marathons- with Repeatable Micro-pipelines]]]%%` | Direct contrast between unstructured 75m deep dives and structured 25-50m micro-pipelines. | Yes |
-| `Deep Dive Sessions for ADHD (Adapted GTD Next Actions).md` | `%%[contradicts:: [[A Next Action Must Be the Absolute Next Physical Visible Activity Required to Move a Situation Forward]]]%%` | The target explicitly abandons the strict granular next action requirement in favor of blocks. | Yes |
+| `Deep Dive Sessions for ADHD (Adapted GTD Next Actions).md` | `[contradicts:: [[Replace -deep Focus marathons- with Repeatable Micro-pipelines]]]` | Direct contrast between unstructured 75m deep dives and structured 25-50m micro-pipelines. | Yes |
+| `Deep Dive Sessions for ADHD (Adapted GTD Next Actions).md` | `[contradicts:: [[A Next Action Must Be the Absolute Next Physical Visible Activity Required to Move a Situation Forward]]]` | The target explicitly abandons the strict granular next action requirement in favor of blocks. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 | File | Proposed line | Where it goes |

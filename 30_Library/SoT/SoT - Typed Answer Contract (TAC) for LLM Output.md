@@ -9,7 +9,7 @@ title: SoT - Typed Answer Contract (TAC) for LLM Output
 type: sot
 ---
 
-%%[implements:: [[SoT - Flow Engineering]], strength=4, confidence=high]%%
+[implements:: [[SoT - Flow Engineering]], strength=4, confidence=high]
 
 ## Minimum Viable Understanding (MVU)
 

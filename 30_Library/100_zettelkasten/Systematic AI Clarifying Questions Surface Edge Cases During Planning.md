@@ -45,4 +45,4 @@ Source: "The harness is all you need (mostly)" (github.blog, GitHub Copilot team
 
 - [[Transparent Harness-Level Model Tiering Requires No User Configuration]]
 
-%%[supports:: [[AI-Synthesized Requirements Precede Code Generation in a Redesigned SDLC]], strength=3, confidence=medium]%%
+[supports:: [[AI-Synthesized Requirements Precede Code Generation in a Redesigned SDLC]], strength=3, confidence=medium]

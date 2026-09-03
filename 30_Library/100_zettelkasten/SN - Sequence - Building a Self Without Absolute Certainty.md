@@ -73,12 +73,12 @@ With these foundational shifts in place, practical mental models become availabl
 - Missing atom: identity-based habits. Step 4 links to a heading inside [[SoT - Habit Formation Framework]] because no atomic note exists. [[MOC - The Science of Making and Breaking Habits]] also dangles on `[[Identity-Based Habits are More Resilient Than Goal-Based Habits]]`—two hubs wanting the same missing note.
 - The `rel::` annotations were not machine-readable. They were written as visible Dataview inline fields whose value was an entire explanatory sentence—a grammar `edge_lint.py` does not parse ([[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]] §5.1) and Dataview indexes as noise. Converted to annotated prose; real typed edges added below.
 
-%%[depends_on:: [[The Realization that Knowledge is Contingent Can Lead to a Crisis of Certainty]], strength=5, confidence=high]%%
+[depends_on:: [[The Realization that Knowledge is Contingent Can Lead to a Crisis of Certainty]], strength=5, confidence=high]
 
-%%[depends_on:: [[Shift from Seeking Rightness to Seeking Utility]], strength=5, confidence=high]%%
+[depends_on:: [[Shift from Seeking Rightness to Seeking Utility]], strength=5, confidence=high]
 
-%%[synthesizes:: [[The Self is Constructed Through a Commitment to Chosen Values]], strength=5, confidence=high]%%
+[synthesizes:: [[The Self is Constructed Through a Commitment to Chosen Values]], strength=5, confidence=high]
 
-%%[depends_on:: [[The Map is Not the Territory]], strength=4, confidence=high]%%
+[depends_on:: [[The Map is Not the Territory]], strength=4, confidence=high]
 
-%%[extends:: [[MOC - Character and Virtue]], strength=3, confidence=medium]%%
+[extends:: [[MOC - Character and Virtue]], strength=3, confidence=medium]

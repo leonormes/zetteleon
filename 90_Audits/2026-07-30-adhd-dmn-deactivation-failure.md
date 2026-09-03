@@ -24,7 +24,7 @@ Existing link count out: 0 (True orphan outbound).
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `ADHD DMN Deactivation Failure.md` | `%%[supports:: [[The Glitchy Switch - TPN and DMN Dysregulation in ADHD]]]%%` | Target provides the neuroanatomical fMRI evidence (precuneus deactivation failure) that underpins the Glitchy Switch axiom. | Yes |
+| `ADHD DMN Deactivation Failure.md` | `[supports:: [[The Glitchy Switch - TPN and DMN Dysregulation in ADHD]]]` | Target provides the neuroanatomical fMRI evidence (precuneus deactivation failure) that underpins the Glitchy Switch axiom. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 | File | Proposed line | Where it goes |

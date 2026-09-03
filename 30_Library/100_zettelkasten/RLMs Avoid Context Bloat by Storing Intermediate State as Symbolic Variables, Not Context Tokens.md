@@ -47,6 +47,6 @@ Source: "From RLMs to Agent Harnesses" (Still Broken AI). "Because the RLM write
 
 - [[Root LLM Dispatches Generative Subtasks to Sub-LLMs via Code-Mediated Function Calls]]
 
-%%[depends_on:: [[Recursive Language Models Load Context as Environment Variables, Not Prompt Tokens]], strength=4, confidence=medium]%%
+[depends_on:: [[Recursive Language Models Load Context as Environment Variables, Not Prompt Tokens]], strength=4, confidence=medium]
 
-%%[extends:: [[Sequential Processing with Working Memory (Folding Operator)]], strength=3, confidence=medium]%%
+[extends:: [[Sequential Processing with Working Memory (Folding Operator)]], strength=3, confidence=medium]

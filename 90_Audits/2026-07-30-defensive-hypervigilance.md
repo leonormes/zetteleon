@@ -35,7 +35,7 @@ Worth noting, not proposing: RSD's own "Common Defense Mechanisms" section names
 
 | File | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| [[Defensive Hypervigilance]] (the note itself) | `%%[depends_on:: [[Rejection Sensitive Dysphoria (RSD)]], strength=4, confidence=high]%%` | The Target's own text defines itself as a reaction to RSD's mechanism | Yes — target exists, read this session |
+| [[Defensive Hypervigilance]] (the note itself) | `[depends_on:: [[Rejection Sensitive Dysphoria (RSD)]], strength=4, confidence=high]` | The Target's own text defines itself as a reaction to RSD's mechanism | Yes — target exists, read this session |
 
 ### Patch B — Plain Links / MoC Anchors
 

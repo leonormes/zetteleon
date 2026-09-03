@@ -46,6 +46,6 @@ Source: "The harness is all you need (mostly)" (github.blog, GitHub Copilot team
 
 - [[Transparent Harness-Level Model Tiering Requires No User Configuration]]
 
-%%[extends:: [[Software Factory Pattern - Specialized Sandboxed Agents Autonomously Own Feature, Bugfix, and Incident Lifecycles]], strength=3, confidence=medium]%%
+[extends:: [[Software Factory Pattern - Specialized Sandboxed Agents Autonomously Own Feature, Bugfix, and Incident Lifecycles]], strength=3, confidence=medium]
 
-%%[supports:: [[Approval Fatigue Undermines the Safety Value of Human-in-the-Loop Review]], strength=2, confidence=medium]%%
+[supports:: [[Approval Fatigue Undermines the Safety Value of Human-in-the-Loop Review]], strength=2, confidence=medium]

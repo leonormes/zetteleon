@@ -30,6 +30,6 @@ Details: This strategy forces the learner to organize their thoughts coherently,
 - [[Long-Term Potentiation (LTP) is a Key Cellular Mechanism for Learning]]—_The neurological basis for why effortful engagement, like teaching, strengthens neural pathways._
 - [[SoT - Experiential Learning & Education]]—_The broader pedagogical framework that prioritizes active engagement and reflection over passive consumption._
 
-%%[implements:: [[SoT - Active Learning Techniques]]]%%
+[implements:: [[SoT - Active Learning Techniques]]]
 
-%%[depends_on:: [[SoT - Illusion of Explanatory Depth (IoED)]]]%%
+[depends_on:: [[SoT - Illusion of Explanatory Depth (IoED)]]]

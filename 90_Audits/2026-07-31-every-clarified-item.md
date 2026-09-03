@@ -24,7 +24,7 @@ Overall: True inbound orphan note.
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Every Clarified Item...md` | `%%[supports:: [[SoT - Execution Protocol (GTD & PARA)]]]%%` | Target philosophically justifies the binary gate logic found in Phase 2 of the SoT's workflow checklist. | Yes |
+| `Every Clarified Item...md` | `[supports:: [[SoT - Execution Protocol (GTD & PARA)]]]` | Target philosophically justifies the binary gate logic found in Phase 2 of the SoT's workflow checklist. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required. The existing plain links will be preserved as contextual mentions.

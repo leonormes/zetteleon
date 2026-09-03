@@ -48,7 +48,7 @@ The Target note's `title`, `type` (lowercase, one of `claim`, `concept`, `eviden
 
 Beyond fixing `[[wikilinks]]`, this prompt makes the Target's relationships machine-checkable. A typed edge is a one-line, reading-view-invisible annotation that types a relationship the note already implies—the interior is a Dataview inline field, so the same edge is also queryable inside Obsidian with zero extra tooling:
 
-`%%[<relationship>:: [[<target>]]]%%`—optionally `%%[<relationship>:: [[<target>]], strength=1-5, confidence=high|medium|low]%%`—or, for a content-block target only, `%%[<relationship>:: <block-id>]%%`
+`[<relationship>:: [[<target>]]]`—optionally `[<relationship>:: [[<target>]], strength=1-5, confidence=high|medium|low]`—or, for a content-block target only, `[<relationship>:: <block-id>]`
 
 Obey these rules:
 
@@ -80,7 +80,7 @@ Obey these rules:
 
 ### Phase 2.5: Typed-Edge Synthesis
 
-1. Classify surviving links: for each `[[wikilink]]` that passed Phase 1, decide whether it carries one of the six relationships (see Typed-Edge Compliance). If yes—and it is not already modelled as a frontmatter field—draft the matching `%%[relationship:: [[target]]]%%` edge to sit beside it.
+1. Classify surviving links: for each `[[wikilink]]` that passed Phase 1, decide whether it carries one of the six relationships (see Typed-Edge Compliance). If yes—and it is not already modelled as a frontmatter field—draft the matching `[relationship:: [[target]]]` edge to sit beside it.
 2. Resolve every target: confirm each drafted edge's target is a real note or block via search. Downgrade any unresolved edge to an `UNSURE` proposal—do not write it.
 3. Discover typed relationships: from the Phase 2 semantic neighbours, add typed edges for any that stand in a clear relationship to the Target (e.g. the Target `implements` an SoT, `extends` a broader concept, `contradicts` a rival claim, `depends_on` a prerequisite).
 4. Decide granularity: if the Target holds multiple distinct atoms, plan `content-block` wrappers (unique kebab-case ids) so edges can attach per block; otherwise keep edges at note level in the body.
@@ -122,7 +122,7 @@ The refresh is COMPLETE only when both validators pass:
 
 ### 3. Typed Edges
 
-- Added: [`%%[rel:: [[target]]]%%` for each, or "None"]
+- Added: [`[rel:: [[target]]]` for each, or "None"]
 - UNSURE (target unresolved, proposed not written): [List or "None"]
 
 ### 4. Execution Artifact

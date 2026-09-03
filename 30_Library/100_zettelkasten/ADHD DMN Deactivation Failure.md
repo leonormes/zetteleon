@@ -19,7 +19,7 @@ Details: fMRI studies reveal that ADHD individuals have significantly reduced ac
 
 Clinical Relevance: This failure explains the characteristic "daydreaming" and mind-wandering symptoms in ADHD, as the brain cannot appropriately shift from internally-focused to externally-focused attention states.
 
-%%[supports:: [[The Glitchy Switch - TPN and DMN Dysregulation in ADHD]]]%%
+[supports:: [[The Glitchy Switch - TPN and DMN Dysregulation in ADHD]]]
 
 ## Related
 

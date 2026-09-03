@@ -56,4 +56,4 @@ Source: "Paper Dives: MapReduce Is Back - And It Fixes Broken LLM Pipelines | Do
 
 - [[SoT - Entity Resolution at Scale]]
 
-%%[supports:: [[LLM Pipeline Accuracy Degrades with Document Length and Task Complexity]], strength=5, confidence=high]%%
+[supports:: [[LLM Pipeline Accuracy Degrades with Document Length and Task Complexity]], strength=5, confidence=high]

@@ -24,7 +24,7 @@ Overall: Inbound orphan.
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Evidence - Dopamine Neurons Encode...md` | `%%[supports:: [[Dopamine Neurons Encode Reward Prediction Error, Not Pleasure]]]%%` | Strip legacy kwargs from existing typed edge to conform to strict schema. | Yes |
+| `Evidence - Dopamine Neurons Encode...md` | `[supports:: [[Dopamine Neurons Encode Reward Prediction Error, Not Pleasure]]]` | Strip legacy kwargs from existing typed edge to conform to strict schema. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 None required. 

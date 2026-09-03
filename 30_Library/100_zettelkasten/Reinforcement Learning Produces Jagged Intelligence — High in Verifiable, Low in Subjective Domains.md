@@ -12,7 +12,7 @@ title: Reinforcement Learning Produces Jagged Intelligence — High in Verifiabl
 type: claim
 ---
 
-%%[supports:: [[Agentic Autonomy Accelerates Fastest in Domains Where Success Is Verifiable]], strength=4, confidence=high]%%
+[supports:: [[Agentic Autonomy Accelerates Fastest in Domains Where Success Is Verifiable]], strength=4, confidence=high]
 
 ## Reinforcement Learning Produces Jagged Intelligence—High in Verifiable, Low in Subjective Domains
 
@@ -31,9 +31,9 @@ Applies to models trained with RL on feedback-heavy verifiable data. "Jagged" is
 - Model intelligence should not be treated as a single dimension; capability assessments must be domain-specific.
 - Creating verifiability for currently subjective tasks is an active research lever for expanding RL's reach—e.g. converting "good writing" into a structured rubric with binary sub-criteria.
 
-%%[supports:: [[AI and Machine Understanding]]]%%
+[supports:: [[AI and Machine Understanding]]]
 
-%%[supports:: [[SoT - AI Sycophancy]]]%%
+[supports:: [[SoT - AI Sycophancy]]]
 
 ### Related
 

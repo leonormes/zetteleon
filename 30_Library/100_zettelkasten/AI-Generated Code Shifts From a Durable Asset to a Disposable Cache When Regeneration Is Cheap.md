@@ -47,4 +47,4 @@ Source: Chad Fowler (quoted and endorsed by Charity Majors, "AI demands more eng
 
 - [[Classic Engineering Discipline Is More Necessary, Not Less, as a Countermeasure to AI-Generated Slop]]
 
-%%[depends_on:: [[The Deletion Test Reveals Resistance to Deleting Code Is an Evaluation Problem, Not a Code Problem]], strength=3, confidence=medium]%%
+[depends_on:: [[The Deletion Test Reveals Resistance to Deleting Code Is an Evaluation Problem, Not a Code Problem]], strength=3, confidence=medium]

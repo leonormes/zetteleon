@@ -26,8 +26,8 @@ Overall: Inbound orphan but structurally anchored outwards via `supports` edges.
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Gleaning - Secondary...md` | `%%[supports:: [[LLM Pipeline Accuracy Degrades with Document Length and Task Complexity]]]%%` | Strip parameters for clean linting. | Yes |
-| `Gleaning - Secondary...md` | `%%[supports:: [[Model Self-Verification as a Secondary Quality Gate]]]%%` | Strip parameters for clean linting. | Yes |
+| `Gleaning - Secondary...md` | `[supports:: [[LLM Pipeline Accuracy Degrades with Document Length and Task Complexity]]]` | Strip parameters for clean linting. | Yes |
+| `Gleaning - Secondary...md` | `[supports:: [[Model Self-Verification as a Secondary Quality Gate]]]` | Strip parameters for clean linting. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 Preserve the plain links under `## Related` and `## See Also`.

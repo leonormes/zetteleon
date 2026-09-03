@@ -15,4 +15,4 @@ The most effective behavioral interventions for ADHD-related task initiation def
 
 ## Related
 
-- %%[implements:: [[External Structure and ADHD]]]%% — _Providing external temporal boundaries is a core behavioral intervention._
+- [implements:: [[External Structure and ADHD]]] — _Providing external temporal boundaries is a core behavioral intervention._

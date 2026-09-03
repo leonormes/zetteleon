@@ -19,7 +19,7 @@ Summary: It is reasonable for partners to expect an equal (50/50) say on all maj
 
 Details: A partner's "say" in financial matters is not a vote weighted by their income. As full partners in the family unit, both individuals should have an equal voice in defining shared goals and making significant financial choices.
 
-%%[supports:: [[SoT - Family Financial Wellness]]]%%
+[supports:: [[SoT - Family Financial Wellness]]]
 
 ## Related
 

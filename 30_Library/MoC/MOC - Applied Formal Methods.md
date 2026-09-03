@@ -326,4 +326,4 @@ Cross-link notes:
 | [[MOC - Formal Logic & Philosophy (Triage)]] | C16 | Partially superseded (technical arm); philosophy arm retained |
 | [[MOC - ADHD Functional Neurology & Scaffolding]] | Bridge (C13) | Cross-civilisation bridge—cognitive scaffolding equivalent |
 
-%%[depends_on:: [[SoT - Formal Context (Applied Formal Methods)]], strength=5, confidence=high]%%
+[depends_on:: [[SoT - Formal Context (Applied Formal Methods)]], strength=5, confidence=high]

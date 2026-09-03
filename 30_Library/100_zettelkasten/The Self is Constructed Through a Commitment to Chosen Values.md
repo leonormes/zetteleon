@@ -26,6 +26,6 @@ Supported by:
 
 Confirmed 2026-08-01: this is not a duplicate of [[The Self is Constructed Through Curation of Influences]]. That claim is about _intake_—which influences, environments and exemplars you let in, an ongoing editorial filter. This one is about _output_—the forward-looking act of binding yourself to values and acting on them when a fork arrives. Curation supplies the candidate values; commitment is what makes any of them load-bearing. The failure modes differ accordingly: drift by default diet there, hypocrisy and [[Akrasia is Acting Against One's Better Judgment|akrasia]] here. See the comparison table in that note.
 
-%%[supports:: [[SoT - Values and Eudaimonia]], strength=4, confidence=high]%%
+[supports:: [[SoT - Values and Eudaimonia]], strength=4, confidence=high]
 
-%%[depends_on:: [[The Self is Constructed Through Curation of Influences]], strength=4, confidence=high]%%
+[depends_on:: [[The Self is Constructed Through Curation of Influences]], strength=4, confidence=high]

@@ -23,7 +23,7 @@ Existing link count out: 0 (True outbound orphan).
 ### Patch A — Typed Edges to Write (six-word vocabulary only)
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
-| `Mutual Respect in a Partnership...md` | `%%[supports:: [[SoT - Framework for Healthy Communication]]]%%` | Target is the core definitional claim that enables the healthy communication framework. | Yes |
+| `Mutual Respect in a Partnership...md` | `[supports:: [[SoT - Framework for Healthy Communication]]]` | Target is the core definitional claim that enables the healthy communication framework. | Yes |
 
 ### Patch B — Plain Links / MoC Anchors (Leon applies)
 | File | Proposed line | Where it goes |

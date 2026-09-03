@@ -23,4 +23,4 @@ Details: Lasting improvement requires solving problems at the systems level. For
 
 - [[Systems Drive Progress Through the Compounding Effect of Atomic Habits]]
 
-%%[supports:: [[SoT - Habit Formation Framework]]]%%
+[supports:: [[SoT - Habit Formation Framework]]]

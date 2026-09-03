@@ -169,12 +169,12 @@ The prescription from 2026-05-31 ("measure them") stands, but per §The Uncomfor
 
 ## Knowledge Graph
 
-%%[depends_on:: [[The Neurological Divide Between Procrastination and Task Initiation]], strength=4, confidence=high]%%
+[depends_on:: [[The Neurological Divide Between Procrastination and Task Initiation]], strength=4, confidence=high]
 
-%%[depends_on:: [[My Main PKM Problem Is the Continuity of Thinking]], strength=4, confidence=high]%%
+[depends_on:: [[My Main PKM Problem Is the Continuity of Thinking]], strength=4, confidence=high]
 
-%%[extends:: [[Self-Insights That Prescribe More Planning Are the Least Trustworthy Kind]], strength=4, confidence=medium]%%
+[extends:: [[Self-Insights That Prescribe More Planning Are the Least Trustworthy Kind]], strength=4, confidence=medium]
 
-%%[extends:: [[2026-08-29-execution-vs-thinking-boundary]], strength=3, confidence=high]%%
+[extends:: [[2026-08-29-execution-vs-thinking-boundary]], strength=3, confidence=high]
 
-%%[supports:: [[Claim - Analysing One's Own Avoidance Can Itself Be an Instance of the Avoidance It Describes]], strength=3, confidence=medium]%%
+[supports:: [[Claim - Analysing One's Own Avoidance Can Itself Be an Instance of the Avoidance It Describes]], strength=3, confidence=medium]

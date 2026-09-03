@@ -21,7 +21,7 @@ Limbic friction is a term that measures how difficult it feels to start a new ha
 ## See Also
 
 - [[Making a behavior easy increases the likelihood it will become a habit]] — _Making a behavior easy is functionally reducing the limbic friction required to perform it._
-%%[supports:: [[Making a behavior easy increases the likelihood it will become a habit]]]%%
+[supports:: [[Making a behavior easy increases the likelihood it will become a habit]]]
 - [[ADHD Causes Task Initiation Deficits Due to Dopamine Hyposensitivity]] — _The dopamine hyposensitivity in ADHD manifests as an inability to overcome standard limbic friction._
-%%[extends:: [[ADHD Causes Task Initiation Deficits Due to Dopamine Hyposensitivity]]]%%
+[extends:: [[ADHD Causes Task Initiation Deficits Due to Dopamine Hyposensitivity]]]
 - [[MOC - The Science of Making and Breaking Habits]] — _Central map for habit formation logic._

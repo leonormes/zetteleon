@@ -52,4 +52,4 @@ Source: "Paper Dives: MapReduce Is Back - And It Fixes Broken LLM Pipelines | Do
 
 - [[SoT - Stateful Pipelines in LLM Systems]]
 
-%%[implements:: [[Persistent Memory Layers Enable Multi-Session Agent Continuity]], strength=3, confidence=medium]%%
+[implements:: [[Persistent Memory Layers Enable Multi-Session Agent Continuity]], strength=3, confidence=medium]

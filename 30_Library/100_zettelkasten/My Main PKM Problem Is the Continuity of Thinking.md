@@ -59,9 +59,9 @@ Reframe returning ideas not as competing with the original structure, but as evo
 
 ## Related
 
-- [[MOC - ADHD Project Continuation Challenge]]—extends: the broader cognitive difficulty of maintaining engagement in long-term projects for ADHD brains. %%[extends:: [[MOC - ADHD Project Continuation Challenge]]]%%
-- [[MOC - Project Continuity]]—synthesizes: aggregated strategies for bridging work sessions. %%[synthesizes:: [[MOC - Project Continuity]]]%%
-- [[SoT - Evolutionary Note System]]—supports: a workflow designed specifically to lower the friction of capturing flow-state thoughts (via HEAD notes) before eventually merging them. %%[supports:: [[SoT - Evolutionary Note System]]]%%
-- [[GTD and the Cognitive Load of Execution]]—depends_on: the cognitive cost of reloading context is a primary barrier to execution. %%[depends_on:: [[GTD and the Cognitive Load of Execution]]]%%
-- [[MOC - Why Task Initiation is Difficult in ADHD]]—extends: the friction of returning to a note is a specific manifestation of task initiation paralysis. %%[extends:: [[MOC - Why Task Initiation is Difficult in ADHD]]]%%
-- [[MOC - PKM as Process vs Product]]—supports: abandoning the "perfect" note structure in favor of writing as a messy process of thinking. %%[supports:: [[MOC - PKM as Process vs Product]]]%%
+- [[MOC - ADHD Project Continuation Challenge]]—extends: the broader cognitive difficulty of maintaining engagement in long-term projects for ADHD brains. [extends:: [[MOC - ADHD Project Continuation Challenge]]]
+- [[MOC - Project Continuity]]—synthesizes: aggregated strategies for bridging work sessions. [synthesizes:: [[MOC - Project Continuity]]]
+- [[SoT - Evolutionary Note System]]—supports: a workflow designed specifically to lower the friction of capturing flow-state thoughts (via HEAD notes) before eventually merging them. [supports:: [[SoT - Evolutionary Note System]]]
+- [[GTD and the Cognitive Load of Execution]]—depends_on: the cognitive cost of reloading context is a primary barrier to execution. [depends_on:: [[GTD and the Cognitive Load of Execution]]]
+- [[MOC - Why Task Initiation is Difficult in ADHD]]—extends: the friction of returning to a note is a specific manifestation of task initiation paralysis. [extends:: [[MOC - Why Task Initiation is Difficult in ADHD]]]
+- [[MOC - PKM as Process vs Product]]—supports: abandoning the "perfect" note structure in favor of writing as a messy process of thinking. [supports:: [[MOC - PKM as Process vs Product]]]

@@ -30,7 +30,7 @@ Use links to combine multiple ideas into more complex, emergent concepts. These 
 
 ## Why Link Quality Matters
 
-The act of creating thoughtful connections forces [[Deep Processing is the Core of Zettelkasten|deep processing]] of ideas. %%[supports:: [[Deep Processing is the Core of Zettelkasten]]]%% Unlike passive collection, meaningful linking requires you to understand concepts well enough to see their relationships, similarities, and differences. This cognitive work is where learning actually happens.
+The act of creating thoughtful connections forces [[Deep Processing is the Core of Zettelkasten|deep processing]] of ideas. [supports:: [[Deep Processing is the Core of Zettelkasten]]] Unlike passive collection, meaningful linking requires you to understand concepts well enough to see their relationships, similarities, and differences. This cognitive work is where learning actually happens.
 
 Poor linking—such as connecting notes simply because they share keywords—creates noise rather than insight. The goal is not to maximize connections but to create purposeful relationships that enhance understanding.
 
@@ -46,4 +46,4 @@ As Luhmann emphasised, the process of identifying and creating relationships bet
 
 ### Knowledge Work
 
-- [[The Processing Is the Hard Part]] - Why creating meaningful connections requires effort %%[supports:: [[The Processing Is the Hard Part]]]%%
+- [[The Processing Is the Hard Part]] - Why creating meaningful connections requires effort [supports:: [[The Processing Is the Hard Part]]]

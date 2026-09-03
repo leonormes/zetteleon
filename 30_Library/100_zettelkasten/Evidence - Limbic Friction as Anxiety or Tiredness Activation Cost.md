@@ -11,7 +11,7 @@ proposition: "Limbic friction represents the activation energy required to initi
 title: Evidence - Limbic Friction as Anxiety or Tiredness Activation Cost
 ---
 
-%%[supports:: [[Limbic Friction is the Activation Energy for Habits]]]%%
+[supports:: [[Limbic Friction is the Activation Energy for Habits]]]
 
 Limbic friction is a term that measures how difficult it feels to start a new habit, stemming from either anxiety or tiredness. A habit with high limbic friction requires more conscious effort and activation energy to initiate.
 

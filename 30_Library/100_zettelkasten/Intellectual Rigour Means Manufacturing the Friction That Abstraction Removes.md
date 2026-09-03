@@ -23,8 +23,8 @@ Self-administered friction has a known failure mode: the practitioner chooses wh
 
 ## Knowledge Graph
 
-%%[depends_on:: [[Abstract Thought Lacks the Material Resistance That Corrects Physical Work]], strength=5, confidence=high]%%
+[depends_on:: [[Abstract Thought Lacks the Material Resistance That Corrects Physical Work]], strength=5, confidence=high]
 
-%%[supports:: [[Dismissing People Who Disagree Costs You Your Best Error-Detectors]], strength=4, confidence=high]%%
+[supports:: [[Dismissing People Who Disagree Costs You Your Best Error-Detectors]], strength=4, confidence=high]
 
-%%[implements:: [[SoT - Metacognitive Calibration]], strength=3, confidence=medium]%%
+[implements:: [[SoT - Metacognitive Calibration]], strength=3, confidence=medium]

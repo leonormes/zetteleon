@@ -46,6 +46,6 @@ Source: Charity Majors, "AI demands more engineering discipline. Not less." (cha
 
 - [[Dark Factories Fail Within Months Because LLMs Lack Long-Term Architectural Intuition]]
 
-%%[supports:: [[Approval Fatigue Undermines the Safety Value of Human-in-the-Loop Review]], strength=2, confidence=medium]%%
+[supports:: [[Approval Fatigue Undermines the Safety Value of Human-in-the-Loop Review]], strength=2, confidence=medium]
 
-%%[supports:: [[Cross-Model Adversarial Auditing Uses an Independent LLM to Catch Blind Spots]], strength=2, confidence=medium]%%
+[supports:: [[Cross-Model Adversarial Auditing Uses an Independent LLM to Catch Blind Spots]], strength=2, confidence=medium]

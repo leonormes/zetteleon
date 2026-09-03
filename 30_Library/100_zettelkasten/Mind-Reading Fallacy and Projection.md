@@ -36,8 +36,8 @@ Related to metacognition: Like the [[Illusion of Explanatory Depth (IoED)]], min
 ### Related
 
 - [[Illusion of Explanatory Depth (IoED)]]
-- [[Reality Testing]] %%[depends_on:: [[Reality Testing]]]%%
-- [[Cognitive Biases Reinforce Mental Models|Confirmation Bias Distorts Social Perception]] %%[implements:: [[Cognitive Biases Reinforce Mental Models]]]%%
+- [[Reality Testing]] [depends_on:: [[Reality Testing]]]
+- [[Cognitive Biases Reinforce Mental Models|Confirmation Bias Distorts Social Perception]] [implements:: [[Cognitive Biases Reinforce Mental Models]]]
 - [[SoT - Social Cognition & Self-Perception|Spotlight Effect]]
 - [[MOC - Social Perception and Self-Awareness]] - _The central map exploring how we form rapid judgements and systematic biases._
 - [[Fundamental Attribution Error]] - _A sibling cognitive bias that similarly distorts how we interpret others' actions versus our own._
