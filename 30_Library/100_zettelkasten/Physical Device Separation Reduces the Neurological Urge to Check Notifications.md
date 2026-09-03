@@ -29,4 +29,6 @@ Applies to non-work hours or designated focus periods at home. The benefit is ne
 ### Related
 
 - [[Choice Architecture Designs the Environment to Make Desired Behaviors Easier]]—shared mechanism: placing the device in another room is a choice architecture intervention—environmental design that increases friction for the undesired behaviour rather than relying on willpower.
+%%[depends_on:: [[Choice Architecture Designs the Environment to Make Desired Behaviors Easier]]]%%
 - [[Limbic Friction is the Activation Energy for Habits]]—extends: physical distance directly increases limbic friction for the checking habit; this is one of the simplest and most reliable applications of that principle.
+%%[extends:: [[Limbic Friction is the Activation Energy for Habits]]]%%

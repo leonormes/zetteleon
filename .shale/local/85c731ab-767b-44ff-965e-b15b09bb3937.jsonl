@@ -19,3 +19,15 @@
 {"kind":"completion","at":"2026-09-03T09:42:51.228206Z","note":"Refreshed Meta-Accuracy in Social Perception.md, pruned unresolved stubs, expanded semantic neighbors, and integrated typed edges."}
 {"kind":"intent","at":"2026-09-03T09:47:40.156501Z","title":"Refresh Feedback-Seeking Strategies for Calibration","body":"Running Note Refresh \u0026 Link Auditor to update links and add typed edges."}
 {"kind":"completion","at":"2026-09-03T09:48:37.118639Z","note":"Refreshed Feedback-Seeking Strategies for Calibration.md, cleaned up unwritten stubs, expanded semantic neighbors, and integrated typed edges."}
+{"kind":"intent","at":"2026-09-03T09:49:50.236947Z","title":"Refresh The Neuroscience of Developer Cognition","body":"Running Note Refresh \u0026 Link Auditor to update links and add typed edges."}
+{"kind":"completion","at":"2026-09-03T09:50:42.46304Z","note":"Refreshed The Neuroscience of Developer Cognition.md, resolved broken links, expanded semantic neighbors, and integrated typed edges."}
+{"kind":"intent","at":"2026-09-03T09:51:32.056507Z","title":"Refresh Foundations of Learning and Cognition for Developers","body":"Running Note Refresh \u0026 Link Auditor to update links and add typed edges."}
+{"kind":"completion","at":"2026-09-03T09:54:13.380034Z","note":"Refreshed Foundations of Learning and Cognition for Developers.md, resolved broken links, added semantic neighbors, and integrated typed edges."}
+{"kind":"intent","at":"2026-09-03T09:57:35.777388Z","title":"Refresh Information as a Perceivable Pattern","body":"Running Note Refresh \u0026 Link Auditor to update links and add typed edges."}
+{"kind":"completion","at":"2026-09-03T10:01:19.382733Z","note":"Refreshed Information as a Perceivable Pattern.md, expanded semantic neighbors, and integrated typed edges."}
+{"kind":"intent","at":"2026-09-03T10:08:03.573891Z","title":"refresh Paraphrasing Demonstrates the Independence of Meaning from Language.md","body":"fixing links, applying TAC schema and typed-edges"}
+{"kind":"completion","at":"2026-09-03T10:08:58.652923Z","note":"refreshed links and frontmatter"}
+{"kind":"intent","at":"2026-09-03T10:10:13.385653Z","title":"refresh MOC - Paraphrasing and Language.md","body":"fixing links, applying TAC schema for MOC"}
+{"kind":"completion","at":"2026-09-03T10:10:38.022995Z","note":"refreshed MOC links and frontmatter"}
+{"kind":"intent","at":"2026-09-03T10:17:46.685174Z","title":"refresh Limbic Friction and its incoming/outgoing edges","body":"applying TAC schema to Limbic Friction, updating Physical Device Separation"}
+{"kind":"completion","at":"2026-09-03T10:24:35.240968Z","note":"refreshed Limbic Friction note and updated incoming edges"}
