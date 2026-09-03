@@ -79,7 +79,7 @@ For each gap: `[Closed via supports/depends_on edge to X]` / `[Marked axiom: tru
 
 ### 3. Edges/Markers Written
 
-- [Exact `%%[…]%%` line or `axiom: true` field, with file path, for each]
+- [Exact `[…]` line or `axiom: true` field, with file path, for each]
 
 ### 4. Validation
 

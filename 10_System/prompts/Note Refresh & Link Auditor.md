@@ -46,15 +46,15 @@ The Target note's `title`, `type` (lowercase, one of `claim`, `concept`, `eviden
 
 > Canonical schema: [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]]. Validator: `10_System/scripts/edge_lint.py` (report-only, non-zero exit on any error).
 
-Beyond fixing `[[wikilinks]]`, this prompt makes the Target's relationships machine-checkable. A typed edge is a one-line, reading-view-invisible annotation that types a relationship the note already implies—the interior is a Dataview inline field, so the same edge is also queryable inside Obsidian with zero extra tooling:
+Beyond fixing `[[wikilinks]]`, this prompt makes the Target's relationships machine-checkable. A typed edge is a one-line, annotation that types a relationship the note already implies—the interior is a Dataview inline field, so the same edge is also queryable inside Obsidian with zero extra tooling:
 
 `[<relationship>:: [[<target>]]]`—optionally `[<relationship>:: [[<target>]], strength=1-5, confidence=high|medium|low]`—or, for a content-block target only, `[<relationship>:: <block-id>]`
 
 Obey these rules:
 
 1. Controlled vocabulary. `<relationship>` is EXACTLY one of: `extends`, `synthesizes`, `implements`, `contradicts`, `supports`, `depends_on`. Any other word is a linter error. Never invent a relationship type; if none fits, leave the link untyped.
-2. Type meaningful links only. Add a typed edge for a `[[wikilink]]` _only_ when the connection genuinely carries one of the six relationships. Navigational / `See Also` / MoC-membership links stay untyped. Keep the human `[[wikilink]]` in the prose—the `%%[…]%%` edge sits beside it and is invisible in reading view.
-3. Prefer frontmatter for relations a fileClass already models. A `claim` note's `contradicts` and an `evidence` note's `supports_claims` are frontmatter fields (Frontmatter Contract §3). Use those fields for note→note relations; reserve inline `%%[…]%%` edges for block-level precision or relationships not covered by frontmatter.
+2. Type meaningful links only. Add a typed edge for a `[[wikilink]]` _only_ when the connection genuinely carries one of the six relationships. Navigational / `See Also` / MoC-membership links stay untyped. Keep the human `[[wikilink]]` in the prose—the `[…]` edge sits beside it.
+3. Prefer frontmatter for relations a fileClass already models. A `claim` note's `contradicts` and an `evidence` note's `supports_claims` are frontmatter fields (Frontmatter Contract §3). Use those fields for note→note relations; reserve inline `[…]` edges for block-level precision or relationships not covered by frontmatter.
 4. A note target is ALWAYS a `[[wikilink]]`, never bare. This is what keeps the edge rename-safe (Obsidian rewrites the wikilink automatically) and lets the target resolve by `prodos.id`, then title/filename, then alias. Only a content-block id (§5) may be written bare—the linter WARNs if a note target isn't a wikilink.
 5. Never create a dangling edge. Every target MUST resolve to a real note or `content-block` id. Verify existence via search BEFORE writing the edge. If the natural target does not exist, DO NOT fabricate it—flag it `UNSURE` per the Output Contract and propose creating it as a separate action.
 6. Blocks only for genuine multi-concept notes. If (and only if) the Target holds several distinct addressable atoms, wrap each in `<!--content-block-start type="concept" id="kebab-case-id"-->` … `<!--content-block-end-->` with a vault-unique id, and attach edges per block using that bare id as the target. A single-concept note needs no blocks—put note-level edges in the body. Duplicate block ids trigger the linter's "ambiguous" warning.

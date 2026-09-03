@@ -100,7 +100,7 @@ If notes are related but _not_ duplicates:
    - Integrate unique content from duplicates into `Current Understanding` or `Integration Queue`.
 2. Deprecate: Add `status: superseded` and `superseded_by: [[Canonical Note]]` to the duplicate's frontmatter.
    - Critical: Replace body content with a redirect notice: _"This note's thinking has been integrated into [[Canonical Note]] on YYYY-MM-DD."_
-3. Link: Add typed edges pointing at the Canonical/Target note, using the six-term vocabulary and the `%%[…]%%` form:
+3. Link: Add typed edges pointing at the Canonical/Target note, using the six-term vocabulary and the `[…]` form:
    ```
    [supports:: [[Canonical Note]]]
    [implements:: [[Canonical Note]], strength=4, confidence=high]

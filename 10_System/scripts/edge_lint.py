@@ -5,7 +5,7 @@ edge_lint.py — the link/edge half of the ProdOS knowledge compiler.
 Implements the compiler contract from
   30_Library/SoT/SoT - Typed Edge Vocabulary (Knowledge Graph Relations).md  (§6)
 
-It extracts every typed edge  %%[<rel>:: [[<target>]][, attrs]]%%  from the vault,
+It extracts every typed edge  [<rel>:: [[<target>]][, attrs]]  from the vault,
 checks each against the controlled vocabulary and attribute rules, resolves every
 target, and prints a report.
 
@@ -69,11 +69,11 @@ EXCLUDE_DIRS = {
 # ---------------------------------------------------------------------------
 # Regexes
 # ---------------------------------------------------------------------------
-# %%[relationship:: [[Target]]]%%   or   %%[relationship:: [[Target]], k=v, k=v]%%
+# [relationship:: [[Target]]]   or   [relationship:: [[Target]], k=v, k=v]
 # The interior is a Dataview inline field, so Dataview indexes the same edge
-# the compiler reads (SoT - Typed Edge Vocabulary §1). Non-greedy up to `]%%`
+# the compiler reads (SoT - Typed Edge Vocabulary §1). Non-greedy up to `]`
 # terminates correctly on the `]]` of a wikilink.
-EDGE_RE = re.compile(r"%%\[\s*([A-Za-z][\w-]*)\s*::\s*(.*?)\s*\]%%")
+EDGE_RE = re.compile(r"\[\s*([A-Za-z][\w-]*)\s*::\s*(\[\[.*?\]\][^\]]*|[^\]]*)\s*\]")
 # A wikilink target: [[Note]], [[Note|Alias]], [[Note#Heading]], [[Note#^block]]
 WIKILINK_RE = re.compile(r"\[\[([^\]]+)\]\]")
 # <!--content-block-start type="concept" id="user-namespace"-->
@@ -232,7 +232,7 @@ def build_index(files, yaml_mod) -> Index:
 
 @dataclass
 class Edge:
-    """One parsed %%[rel:: target, attrs]%% marker."""
+    """One parsed [rel:: target, attrs] marker."""
     rel: str
     target: str          # normalised: wikilink stripped to its note name
     is_link: bool        # True if written as [[…]] (a note), False if a bare id
@@ -301,7 +301,7 @@ def lint_file(fp: str, idx: Index) -> tuple[list[Finding], int]:
             findings.append(Finding(
                 "ERROR", line,
                 f"unknown relationship '{rel}' (not in vocabulary) "
-                f"in %%[{rel}:: {target}]%%"))
+                f"in [{rel}:: {target}]"))
 
         # (§6.4) attributes
         if attr_raw:
@@ -798,7 +798,7 @@ def default_root() -> str:
 
 
 def main() -> int:
-    ap = argparse.ArgumentParser(description="Lint typed edges (%%type.rel{target}%%) across the vault.")
+    ap = argparse.ArgumentParser(description="Lint typed edges ([rel:: [[target]]]) across the vault.")
     ap.add_argument("--path", default=None, help="folder to lint (default: auto-detected vault root)")
     ap.add_argument("--quiet", action="store_true", help="only show files with findings")
     ap.add_argument("--audit", action="store_true",

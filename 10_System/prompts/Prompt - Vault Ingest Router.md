@@ -180,6 +180,6 @@ This prevents the downstream prompt from re-doing the discovery work the router 
 
 - Do not merge notes—that's [[sys_merger]]'s job.
 - Do not author body prose in `30_Library/`—that's outside §9.3 and §2.4.
-- Do not run `rel::`—use `%%[…]%%` syntax only.
+- Do not run `rel::`—use `[…]` syntax only.
 - Do not route to a downstream prompt without first completing all five gates.
 - Do not fabricate a Gate 1 candidate. If semantic search returns nothing useful, say so and fall back to lexical. If lexical also returns nothing, the input is genuinely new → Gate 5 applies.

@@ -53,7 +53,7 @@ Recorded as prose because the conflict is between two _atoms_, not between this 
 
 ## Refresh Log
 
-- 2026-07-25—Migrated 10 visible `rel::` inline fields to §1 typed edges per [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]]. The old form rendered mid-sentence in reading view ("…`rel:: explains` that because we all filter…"), breaking the prose; the `%%[…]%%` form is invisible. Vocabulary mapped: `part-of` → `synthesizes`, `explains`/`defines` → `depends_on`, `contradicts` → see Tensions.
+- 2026-07-25—Migrated 10 visible `rel::` inline fields to §1 typed edges per [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]]. The old form rendered mid-sentence in reading view ("…`rel:: explains` that because we all filter…"), breaking the prose; the `[…]` form is now a standard inline field. Vocabulary mapped: `part-of` → `synthesizes`, `explains`/`defines` → `depends_on`, `contradicts` → see Tensions.
 - Broken links: `[[Information Becomes Knowledge Through Understanding and Internalization]]` did not exist → replaced with [[Information vs Knowledge]], which makes the same internalisation claim. `[[Critical Thinking Transforms Information into Knowledge]]` did not exist and has no live equivalent → recorded under _Unwritten_.
 - Frontmatter: removed dead keys (`status: 'null'`, `last_reviewed: 'null'`, `updated: null`); filled `criteria` and `scope`; added `prodos` block and `conformant: true`. Removed the H2 that duplicated the title.
 

@@ -28,7 +28,7 @@ The interior is a Dataview inline field, which buys the encoding a second reader
 [<relationship>:: <block-id>]
 ```
 
-- Wrapped in Obsidian comment markers `%% … %%` → invisible in reading view and Live Preview, but plain text on disk and greppable. Dataview parses the inline field regardless of the comment wrapper (verified against `dataview.api.page()`).
+- Written as Dataview inline fields `[relationship:: [[Target]]]` → plain text on disk and greppable. Dataview parses the inline field natively (verified against `dataview.api.page()`).
 - `<relationship>`—one value from the controlled vocabulary (§2), used as the _field name_. This is what makes the edge queryable: `WHERE supports` finds every note emitting a `supports` edge.
 - `<target>`—a `[[wikilink]]` for a note, or a bare id for a content-block (§4).
 - Attributes (§3) are optional, comma-separated after the target. The bare two-part form is always valid, keeping the common case cheap (Low-Maintenance axiom).
@@ -75,7 +75,7 @@ The compiler (§6) fails an edge whose target resolves to nothing (a _dangling e
 
 ## 5. Why One Encoding (Not JSON-LD)
 
-The reverse-engineered POC (`30_Library/200_Projects/linux-namespaces.md`) encoded every edge twice—once as a JSON-LD `Relationship` block, once as `%%…%%` shorthand. Two sources of truth for one fact guarantee drift, and the note's own frontmatter had already been shredded by a YAML round-trip through Obsidian's tooling—direct evidence that hand-authored nested structures are fragile in this vault. The `%%…%%` form is chosen as sole authority because it is one line, invisible in reading view, survives YAML rewriters (it lives in the body, not frontmatter), is trivially greppable, and—since the interior is a Dataview inline field—is queryable without any tooling of our own.
+The reverse-engineered POC (`30_Library/200_Projects/linux-namespaces.md`) encoded every edge twice—once as a JSON-LD `Relationship` block, once as a Dataview inline field. Two sources of truth for one fact guarantee drift, and the note's own frontmatter had already been shredded by a YAML round-trip through Obsidian's tooling—direct evidence that hand-authored nested structures are fragile in this vault. The `[…]` form is chosen as sole authority because it is one line, survives YAML rewriters (it lives in the body, not frontmatter), is trivially greppable, and—since it is a Dataview inline field—is queryable without any tooling of our own.
 
 ### 5.1 Ingest Scope (What the cOmpiler dOes _not_ rEad)
 
@@ -111,7 +111,7 @@ This is the link/edge half of the validator [[SoT - ProdOS Frontmatter Contract 
 ## Tensions & Gaps
 
 - The two readers disagree about code blocks. `edge_lint.py` masks fenced and inline code before parsing, so an edge written as a documentation _example_ is ignored. Dataview does not: it indexes inline fields inside code spans as real properties. A note explaining the syntax therefore shows up in `LIST WHERE contradicts` but not in the compiler's graph—which is exactly how this vault's own handoff note became the single Dataview `contradicts` hit while the compiler correctly reported zero. Prefer prose over a live-looking example when documenting edges, and treat DQL counts as an upper bound on real edges.
-- Syntax migrated once already. Edges were originally written `%%claim.supports{Target}%%` with bare-id targets. On 2026-07-25 all 69 live edges across 21 notes were migrated to the §1 Dataview form, the `sourceType` prefix was dropped as an unread duplicate of frontmatter `type:`, and note targets became wikilinks. The audit output was byte-identical before and after, so the migration was lossless—but a second syntax change would not be free, and the vocabulary is still `lifecycle: seedling`. Treat §1 as settled unless Dataview itself changes.
+- Syntax migrated twice. Edges were originally written `%%claim.supports{Target}%%` with bare-id targets. On 2026-07-25 all edges were migrated to a Dataview form wrapped in Obsidian comments. Later, to expose them natively in Obsidian Graph View and Dataview, the `%%` wrappers were stripped entirely, leaving `[relationship:: [[Target]]]`. Treat §1 as settled unless Dataview itself changes.
 - Block-id targets are the one un-linkable case. 16 of the 69 edges target `content-block` ids and so must stay bare, because a block is not a file. They therefore keep the rename fragility that wikilinks solved for notes. If block-level claims become common, they need either real Obsidian `^block-refs` or a namespacing scheme—see the uniqueness gap below.
 - Block ids are vault-unique by assumption. §4 resolves block ids globally, but nothing yet _enforces_ uniqueness of a `content-block` id across notes. The compiler's ambiguity warning is the only guard; a stronger scheme (namespacing ids by note) may be needed if collisions appear.
 - Overlap with frontmatter relations is a convention, not a gate. §2 says "prefer the frontmatter field for note→note", but nothing stops an author recording the same fact both ways. If this drifts in practice, promote the rule to a compiler check that flags an inline edge duplicating a frontmatter relation.
