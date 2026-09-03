@@ -1,14 +1,14 @@
 ---
 aliases: [ADHD Master Map, Neurodiversity Hub, The ADHD Entry Point]
+conformant: true
 created: 2026-04-02T14:00:00+00:00
-modified: 2026-08-29T09:36:28+00:00
+modified: 2026-09-03T11:53:00+00:00
 permalink: llmeon/30-library/mo-c/moc-adhd-the-master-map
-see_also: []
-source_of_truth: true
-superseded_by: ''
-supersedes: ''
+prodos.kind: moc
+prodos.lifecycle: active
 tags: [adhd, executive-function, neurodiversity, prodos/moc]
 title: MOC - ADHD (The Master Map)
+type: map
 ---
 
 ## Overview: The ADHD Operating System
@@ -25,6 +25,7 @@ _The biological reality and the "Interest-Based" nervous system._
 - The Core Theory: [[SoT - ADHD Neurology & Core Concepts]]—_Defines the Hardware constraints (INCUP), RAM (Working Memory) volatility, and Signal Gating issues._
 - The Engine (Motivation): [[SoT - ADHD Neurology & Core Concepts#1.2 The Interest-Based Drivers (INCUP)]]—_Dopamine deficiency, the AMCC "Tenacity Muscle," and why "Importance" is an invisible signal._
 - The Barrier (Task Initiation): [[MOC - Why Task Initiation is Difficult in ADHD]]—_Neurological bottlenecks: Time Blindness, Low Dopamine, and Activation Cost._
+- The Blindspot (Metacognition): [[MOC - Metacognition Deficits in ADHD Impact Self-Awareness of Motivation]]—_How hardware deficits impact the ability to observe one's own motivation state._
 
 ---
 
@@ -36,6 +37,8 @@ _Managing the "Software Glitches" of Shame, RSD, and Overwhelm._
 - The Mindset: [[SoT - ADHD Neurology & Core Concepts#2. Emotional Regulation (The Software Glitches)]]—_Addressing Rejection Sensitive Dysphoria (RSD) and the Shame-Procrastination Cycle._
 - The Self: [[SoT - Values and Eudaimonia]]—_Moving from Impulse-driven to Resonance-driven living._
 - The Loop: [[MOC - ADHD Hyperfixation-Burnout Cycle]]—_Managing the boom-bust cycle of hyperfocus._
+- The Trap (Procrastination): [[MOC - Breaking the ADHD Overthinking-Procrastination Cycle]]—_Using feedback-driven momentum to counter paralysis._
+- The Social Dynamic: [[MOC - Authority Dynamics and ADHD]]—_Intersections of shame, authority sensitivity, and power dynamics._
 
 ---
 
@@ -55,15 +58,17 @@ _The mechanics of how work (and failure) happens._
 _Actionable scaffolding and "Algorithms" for execution._
 
 - The Master Protocols: [[SoT - ADHD Management Protocols]]—_Spatial Zoning, The Dopamine Menu, and the 15% Push protocol for the AMCC._
+- The Laboratory: [[MOC - ADHD Experiments & Protocols]]—_Live testing and validation of proposed ADHD scaffolding._
 - The Initiation Loop: [[SoT - Breaking the Creation Cycle]]—_A developer-centric protocol for reloading mental models._
-- The Action System: [[SoT - PRODOS - Action Management (GTD)]]—_Offloading the "Manager" to an external system._
+- The Action System: [[SoT - Execution Protocol (GTD & PARA)]]—_Offloading the "Manager" to an external system._
 - The Framework: [[MOC - The One Degree Change Framework for ADHD]]—_Incremental environmental and behavioral shifts._
+- The Necessity of Structure: [[MOC - Why Autistics and ADHDers NEED Routines]]—_Why predictable environments are not restrictive, but freeing._
 
 ---
 
 ## Related Maps
 
-- [[MOC - Computer Science Foundations]] (Applying logic to the brain).
-- [[MOC - Data-Centric Software Engineering]] (Structuring the environment).
-- [[MOC - What is Maths]] (The underlying order).
-- [[Embracing Interdependence with ADHD]] _(Shifting from isolation to complementing strengths through collaboration)_
+- %%[extends:: [[MOC - Computer Science Foundations]]]%% (Applying logic to the brain).
+- %%[extends:: [[MOC - Data-Centric Software Engineering]]]%% (Structuring the environment).
+- %%[extends:: [[MOC - What is Maths]]]%% (The underlying order).
+- %%[extends:: [[Embracing Interdependence with ADHD]]]%% _(Shifting from isolation to complementing strengths through collaboration)_

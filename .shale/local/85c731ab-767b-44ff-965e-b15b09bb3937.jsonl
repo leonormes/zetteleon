@@ -35,3 +35,11 @@
 {"kind":"completion","at":"2026-09-03T10:29:31.833473Z","note":"refreshed Constructive Debate note and updated 4 incoming link notes"}
 {"kind":"intent","at":"2026-09-03T10:31:14.466554Z","title":"deeply linking SoT - Framework for Healthy Communication","body":"applying TAC schema to SoT, adding outgoing edges to related communication models, updating backlinks"}
 {"kind":"completion","at":"2026-09-03T10:37:31.689038Z","note":"refreshed SoT - Framework for Healthy Communication and added outgoing edges and incoming edges from 3 files"}
+{"kind":"intent","at":"2026-09-03T10:52:48.503794Z","title":"Analysing ADHD Management graph structure to determine MOC vs SoT and preparing graph refresh","body":"Investigating the 209-line SoT to see if it should be an MOC, and preparing a response about the graph's typed edges."}
+{"kind":"completion","at":"2026-09-03T10:54:01.227841Z","note":"Audited ADHD graph edges and updated MOC/SOT frontmatters"}
+{"kind":"intent","at":"2026-09-03T11:23:27.444348Z","title":"Refreshing ADHD Master MOC, fixing links and adding missing MOCs","body":"Adding 5 missing MOCs, fixing broken GTD link, applying typed edges to Related Maps"}
+{"kind":"completion","at":"2026-09-03T11:25:49.143357Z","note":"Added missing ADHD MOCs, fixed broken GTD link, added typed edges to Related Maps"}
+{"kind":"intent","at":"2026-09-03T11:34:01.236213Z","title":"Refreshing Executive Function concept note","body":"Bringing frontmatter into TAC compliance, expanding definition, linking to core neurological SoTs and claims."}
+{"kind":"completion","at":"2026-09-03T11:45:05.877481Z","note":"Refreshed Executive Function to TAC Concept spec and enriched graph"}
+{"kind":"intent","at":"2026-09-03T11:55:14.41269Z","title":"Refreshing Practice - Micro-tasking and time-boxing note","body":"Converting to TAC procedure format, expanding steps, and wiring up to the ADHD temporal management and task initiation graphs."}
+{"kind":"completion","at":"2026-09-03T11:56:09.839634Z","note":"Refreshed Practice - Micro-tasking to Procedure format and enriched graph"}

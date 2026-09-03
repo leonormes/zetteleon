@@ -2,16 +2,14 @@
 aliases: [ADHD Protocols, ADHD Scaffolding Protocols]
 conformant: true
 created: 2026-01-03T10:10:29+00:00
-last-synthesis: 2026-02-11
-modified: 2026-08-29T09:36:33+00:00
+modified: 2026-09-03T11:20:09+00:00
 permalink: llmeon/30-library/so-t/so-t-adhd-management-protocols
-source_of_truth: true
+prodos.kind: protocol
+prodos.lifecycle: active
 tags: [adhd, initiation, productivity, system/protocol]
 title: SoT - ADHD Management Protocols
-type: sot
+type: protocol
 ---
-
-> Open threads: [[HEAD - Should I train tolerance for monotony, or design it out?]]
 
 > Position in the graph. This is the _practice_ layer of the ADHD cluster: it sits directly on top of the neurological axioms declared in [[SoT - ADHD Neurology & Core Concepts]] and turns them into executable protocols. Each section below now declares what it rests on (`depends_on`) and which atom it realises (`implements`). %%[depends_on:: [[SoT - ADHD Neurology & Core Concepts]], strength=5, confidence=high]%% %%[implements:: [[SoT - Behavioral Architecture]], confidence=medium]%%
 
