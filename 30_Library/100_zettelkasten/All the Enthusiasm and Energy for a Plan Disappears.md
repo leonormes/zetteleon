@@ -1,24 +1,36 @@
 ---
 aliases: []
+conformant: true
 created: 2025-05-28T14:26:24+00:00
-last_reviewed: 'null'
-modified: 2026-08-29T09:35:57+00:00
+epistemic_status: absolute
+modified: 2026-09-03T13:14:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/all-the-enthusiasm-and-energy-for-a-plan-disappears
-status: 'null'
-tags: [TheHuman/Health/ADHD, TheHuman/Motivation, topic/productivity/gtd]
+prodos.kind: atomic
+prodos.lifecycle: active
+proposition: ADHD enthusiasm for complex system-building is transient; systems must be stupidly simple to survive the inevitable dopamine crash when the novelty fades.
+tags:
+  - adhd
+  - motivation
+  - productivity
+  - system-design
 title: All the Enthusiasm and Energy for a Plan Disappears
-type: 'null'
-updated: null
+type: claim
 ---
 
-My main problem with the ADHD is the way all the enthusiasm and energy for a plan disappears.
+## Minimum Viable Understanding (MVU)
 
-If I create some elaborate system with the enthusiasm needed to keep it going, that disappears and the system no longer works. Ideally, I need something that is so simple I don't have to remember anything.
+My main problem with ADHD is the way all the enthusiasm and energy for a new plan inevitably disappears. 
 
-[[2025-05-28]]
+If I create some elaborate system using the hyper-focused enthusiasm needed to build it, that fuel source soon vanishes and the system no longer works. Ideally, I need something that is so simple I don't have to remember anything, because complex systems cannot survive the dopamine crash.
 
-[[Consistency and Momentum]]
+## Structural Context
 
-[[Make It Stupidly Simple]]
+- %%[supports:: [[ADHD Systems Fail When They Become Monotonous]]]%% — _This is the exact mechanism by which elaborate systems collapse when the novelty wears off._
+- %%[supports:: [[The Danger of Perpetual System-Building]]]%% — _The urge to build elaborate systems is often a trap of productive procrastination._
+- %%[synthesizes:: [[The I've Cracked It Illusion During ADHD Hyperfixation]]]%% — _The belief that "this system will finally fix everything" is a dopamine-driven illusion._
+- %%[depends_on:: [[Make It Stupidly Simple]]]%% — _The antidote to the enthusiasm crash is radical simplification._
 
-[[Overwhelm]] - Overwhelm can cause enthusiasm for a plan to disappear.
+## Related
+
+- [[Consistency and Momentum]] — _Momentum is impossible if the system relies on high enthusiasm to operate._
+- [[Overwhelm]] — _Overwhelm can cause enthusiasm for a plan to disappear entirely, triggering abandonment._
