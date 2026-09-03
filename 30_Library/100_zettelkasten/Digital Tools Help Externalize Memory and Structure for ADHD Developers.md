@@ -21,3 +21,4 @@ Details: These tools can be categorized to address specific needs. Task managers
 ## Underlying Theory
 
 - [[SoT - Prosthetic Executive Function]] (The conceptual framework for digital tools as external EFs)
+- %%[implements:: [[External Structure and ADHD]]]%% — _Digital tools provide the literal external structure required by the ADHD brain._

@@ -47,3 +47,6 @@
 {"kind":"completion","at":"2026-09-03T12:14:20.110319Z","note":"Refreshed Enthusiasm and Energy note to Claim format and enriched graph"}
 {"kind":"intent","at":"2026-09-03T13:33:05.668005Z","title":"Refreshing Bottom-Up Organization note","body":"Converting to TAC claim schema and enriching edges to Knowledge Architecture and Emergence notes."}
 {"kind":"completion","at":"2026-09-03T13:33:34.079632Z","note":"Refreshed Bottom-Up Organization note to Claim schema and wired into Knowledge Architecture SoT"}
+{"kind":"intent","at":"2026-09-03T13:48:24.746759Z","title":"Refreshing External Structure and ADHD note","body":"Converting to TAC claim schema and enriching with Prosthetic EF and Extended Mind edges."}
+{"kind":"completion","at":"2026-09-03T13:48:47.281364Z","note":"Refreshed External Structure and ADHD to Claim format and enriched graph"}
+{"kind":"completion","at":"2026-09-03T13:52:44.851939Z","note":"Deep dive semantic search for External Structure and ADHD, adding bidirectional typed edges"}
