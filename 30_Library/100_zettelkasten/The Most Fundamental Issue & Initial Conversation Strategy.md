@@ -127,4 +127,5 @@ Everything else (chores systems, communication scripts, Team Charter details) bu
 ## Related
 
 - [[SoT - Framework for Healthy Communication]] - Connects conversational strategies with separating experience from causality.
+%%[implements:: [[SoT - Framework for Healthy Communication]]]%%
 - [[MOC - Assertiveness Through System Design]] - Contextualizes the communication strategy within broader assertiveness.

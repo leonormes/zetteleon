@@ -19,5 +19,6 @@ Details: In a healthy partnership, financial discussions are true dialogues wher
 
 - [[Silent Void]]—_Explains the crucial difference between seeking mutual respect and enforcing unilateral control._
 - [[SoT - Framework for Healthy Communication]]—_Provides the foundational axioms for resolving disagreements respectfully._
+%%[depends_on:: [[SoT - Framework for Healthy Communication]]]%%
 - [[Gish Gallop of Grievances]]—_Defines the mathematical necessity of reciprocity in mutual respect._
 - [[SoT - The Data-Impact-Proposal-Check Framework]]—_Offers a structured negotiation script to replace emotional manipulation._

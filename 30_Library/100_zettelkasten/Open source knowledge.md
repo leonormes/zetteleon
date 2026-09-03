@@ -35,6 +35,7 @@ The mechanism is not about alchemy. It is about what happens to any knowledge sy
 
 - [[Ptolemaic System as a Patched Flawed Model]]—_The same failure mode inside a nominally open science: 1,500 years of epicycles rather than one questioned premise._
 - [[Constructive Debate in Psychological Safety]]—_What "open to refutation" requires operationally in a team._
+%%[depends_on:: [[Constructive Debate in Psychological Safety]]]%%
 - [[Strong Opinions, Loosely Held Balances Conviction and Humility]]—_The individual posture the open method demands._
 - [[SoT - Empirical Origins of Mathematics]]—_Where the mathematics half of this contrast came from before it was abstract._
 

@@ -31,3 +31,4 @@ Mutual cooperation is intrinsically rewarding. Studies show: ""
 - [[SoT - ADHD Self-Compassion & Strengths]]—_Details how oxytocin acts as a biological requirement for calming the amygdala and re-engaging the prefrontal cortex._
 - [[SoT - Social Cognition & Self-Perception]]—_Explains the rapid, subconscious data collection mechanisms our brains use to navigate social dynamics._
 - [[Constructive Debate in Psychological Safety]]—_True psychological safety enables challenging ideas._
+%%[extends:: [[Constructive Debate in Psychological Safety]]]%%

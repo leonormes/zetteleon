@@ -31,3 +31,7 @@
 {"kind":"completion","at":"2026-09-03T10:10:38.022995Z","note":"refreshed MOC links and frontmatter"}
 {"kind":"intent","at":"2026-09-03T10:17:46.685174Z","title":"refresh Limbic Friction and its incoming/outgoing edges","body":"applying TAC schema to Limbic Friction, updating Physical Device Separation"}
 {"kind":"completion","at":"2026-09-03T10:24:35.240968Z","note":"refreshed Limbic Friction note and updated incoming edges"}
+{"kind":"intent","at":"2026-09-03T10:27:24.878011Z","title":"deeply linking Constructive Debate in Psychological Safety","body":"applying TAC schema as concept, adding outgoing edges, updating 4 backlink files with incoming edges"}
+{"kind":"completion","at":"2026-09-03T10:29:31.833473Z","note":"refreshed Constructive Debate note and updated 4 incoming link notes"}
+{"kind":"intent","at":"2026-09-03T10:31:14.466554Z","title":"deeply linking SoT - Framework for Healthy Communication","body":"applying TAC schema to SoT, adding outgoing edges to related communication models, updating backlinks"}
+{"kind":"completion","at":"2026-09-03T10:37:31.689038Z","note":"refreshed SoT - Framework for Healthy Communication and added outgoing edges and incoming edges from 3 files"}

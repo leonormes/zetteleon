@@ -20,6 +20,7 @@ Details: Four structural adjustments. (1) Linguistic decoupling: remove "you/you
 
 - [[Habit 5 - Seek First to Understand, Then to Be Understood]]
 - [[Constructive Debate in Psychological Safety]]
+%%[implements:: [[Constructive Debate in Psychological Safety]]]%%
 - [[Emotional Contagion in Social Settings]]
 - [[Your emotions are real but they are your responsibility]]
 

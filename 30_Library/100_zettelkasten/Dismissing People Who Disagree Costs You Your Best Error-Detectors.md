@@ -19,6 +19,7 @@ Details: Judging people as wrong-as-humans is a highly efficient way to protect 
 ## Related
 
 - [[Constructive Debate in Psychological Safety]]
+%%[depends_on:: [[Constructive Debate in Psychological Safety]]]%%
 - [[Cognitive Reframing of Criticism]]
 - [[Strong Opinions, Loosely Held Balances Conviction and Humility]]
 - [[Feedback-Seeking Strategies for Calibration]]
