@@ -1,9 +1,11 @@
 ---
 aliases: []
-conformant: false
+conformant: true
+contradicts: []
 created: 2025-10-30T16:20:00+00:00
-modified: 2026-08-29T09:36:05+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+epistemic_status: medium
+evidence_links: []
+modified: 2026-09-04T12:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/routines-reduce-anxiety-and-decision-fatigue-in-neurodivergent-individuals
 source: ''
 tags: [anxiety-reduction, autism, decision-fatigue, TheHuman/Health/ADHD]
@@ -17,7 +19,17 @@ Event-based mini routines offer a particularly effective approach by reducing ti
 
 ## Related
 
-- [[Routines Provide Stability for Neurodivergent Individuals]]
-- [[Executive Function Challenges are Central to ADHD]]
+[extends:: [[Routines Provide Stability for Neurodivergent Individuals]], confidence=medium]
+
+- [[Routines Provide Stability for Neurodivergent Individuals]]—sibling claim covering the same general ground (anxiety, sensory overwhelm, decision fatigue); this note extends it with the specific event-based-vs-clock-based mechanism in its second paragraph.
+
+[depends_on:: [[Executive Function Challenges are Central to ADHD]], confidence=medium]
+
+- [[Executive Function Challenges are Central to ADHD]]—the cognitive-load-reduction mechanism this note describes presupposes the executive-function bottleneck that general framework names.
+
 - [[Overwhelm]]
-- [[Mini routines are event-triggered sequences rather than time-based schedules]]
+
+[depends_on:: [[Event-based structure reduces time-pressure anxiety]], strength=4, confidence=high]
+
+- [[Event-based structure reduces time-pressure anxiety]]—fixed: was pointing at a non-existent title, "Mini routines are event-triggered sequences rather than time-based schedules." Repointed to the actual note on this exact mechanism, which already links back here reciprocally.
+- [[MOC - Why Autistics and ADHDers NEED Routines]]—parent map; already treats this note as its lead claim under "Why Routines Are Critical."
