@@ -2,7 +2,7 @@
 aliases: [Archery Diagnostics, Archery Faults]
 conformant: true
 created: 2026-08-30T17:23:00+01:00
-modified: 2026-08-30T16:39:26+00:00
+modified: 2026-09-03T19:37:06+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-faults-and-diagnostics
 tags: [archery, diagnostics, prodos/atomic, technique]
 title: Archery Shot Process - Faults and Diagnostics

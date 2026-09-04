@@ -51,7 +51,10 @@
       "Bash(echo \"no-pyyaml exit=$? \\(expect 1\\)\")",
       "Bash(cd \"/Volumes/DAL/Zettelkasten/LLMeon\" && find . -iname \"*3 Rules*Starter*\" -o -iname \"*Three Rules of Starter Tasks*\" 2>/dev/null; find /Volumes/DAL/Zettelkasten/Hermes -iname \"*Execution Protocol for High-Friction*\" 2>/dev/null)",
       "Bash(xargs -I{} grep -l \"kind: atomic\" {})",
-      "mcp__1mcp__obsidian-llmeon_1mcp_create_vault_file"
+      "mcp__1mcp__obsidian-llmeon_1mcp_create_vault_file",
+      "Bash(shale intent *)",
+      "Bash(shale done *)",
+      "mcp__1mcp__obsidian-llmeon_1mcp_search_semantic"
     ]
   },
   "spinnerTipsEnabled": false
