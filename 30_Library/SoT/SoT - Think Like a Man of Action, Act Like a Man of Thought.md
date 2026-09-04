@@ -1,9 +1,8 @@
 ---
 aliases: ["Bergson's Principle", Action-Oriented Thinking, MVA]
-conformant: false
+conformant: true
 created: 2025-12-07T00:00:00+00:00
-modified: 2026-08-29T15:00:09+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+modified: 2026-09-04T12:00:00+00:00
 permalink: llmeon/30-library/so-t/so-t-think-like-a-man-of-action-act-like-a-man-of-thought
 tags: [action, adhd, thinking, topic/productivity]
 tier: 1-Foundation
@@ -62,7 +61,14 @@ Real-world data beats theoretical models.
 
 ## 4. Related Knowledge
 
+[extends:: [[Praxis is the Cyclical Process of Action and Reflection to Transform the World]], strength=4, confidence=high]
+
+- [[Praxis is the Cyclical Process of Action and Reflection to Transform the World]]—Protocol D's "Act First, Then Think" cycle (Guess → Do → Reflect) is the ADHD/productivity-specific instance of Freire and Arendt's general action-reflection loop; that note already links here as its own worked example.
+
+[depends_on:: [[SoT - Temporal Management (Blocking and Boxing)]], confidence=medium]
+
+- [[SoT - Temporal Management (Blocking and Boxing)]]—Protocol C's "15 minutes to Plan → 5 minutes to Do" containers are a specific application of that SoT's general timeboxing principles.
+
 - [[SoT - The Nature of Time and Perception]] (The "Starting Gun" Myth)
 - [[Protocol - Action-First GTD (LLM Chief of Staff)]]
 - [[SoT - Indistractable Model (Focus Management)]]
-- [[SoT - Temporal Management (Blocking and Boxing)]]
