@@ -1,44 +1,15 @@
 ---
 aliases: []
 created: 2025-08-31T16:08:27+00:00
-last_reviewed: 'null'
-modified: 2026-08-29T09:36:00+00:00
+modified: 2026-09-04T12:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/epistemology-and-knowledge-beyond-language
-status: 'null'
-tags: [epistemology, knowledge, non-linguistic-knowledge, topic/philosophy]
+status: superseded
+superseded-by: "[[MOC - The Gap Between Thought and Language]]"
+tags: [archive, epistemology, knowledge, non-linguistic-knowledge, topic/philosophy]
 title: Epistemology and Knowledge Beyond Language
 type: 'null'
-updated: null
 ---
 
-The gap between thought and language raises fundamental epistemological questions about the nature of knowledge and how it is acquired. This is particularly true for knowledge that exists beyond linguistic expression, reminding us that [[Words are Imperfect Representations of Meaning]]. One proposed structure for pre-linguistic thought is the [[Language of Thought]] hypothesis.
+# DEPRECATED
 
-## Key Insights
-
-- If language shapes our thinking, it may also limit our access to certain forms of knowledge.
-- Some knowledge appears to be gained through direct experience rather than linguistic transmission, such as in [[Human Connection Beyond Language]].
-- Experiences like love, awe, or aesthetic appreciation may not be fully capturable through language.
-- This challenges traditional epistemological frameworks that privilege propositional knowledge.
-- Suggests the need for exploring alternative ways of knowing beyond linguistic articulation.
-
-## Types of Non-Linguistic Knowledge
-
-- Experiential knowledge: Knowing "what it is like" to have certain experiences.
-- Embodied knowledge: Knowledge stored in bodily habits and skills.
-- Tacit knowledge: Knowledge that we use but cannot easily articulate, which exists in contrast to [[Tacit vs Explicit Knowledge|explicit knowledge]].
-- Aesthetic knowledge: Understanding gained through artistic appreciation.
-- Spiritual or mystical knowledge: Insights claimed to transcend conceptual understanding.
-
-## Questions
-
-- How can we know things that are beyond the reach of language?
-- What is the relationship between linguistic and non-linguistic forms of knowledge?
-- How might we validate or communicate knowledge that resists linguistic expression?
-- What are the implications for education, which heavily relies on linguistic transmission?
-
-## Links
-
-- [[MOC - The Gap Between Thought and Language]]
-- [[Qualia and Linguistic Limitations]]
-- [[Implications for Consciousness and Philosophy of Mind]]
-- [[Creative Expression Across Mediums]]
+This note's thinking has been integrated into [[MOC - The Gap Between Thought and Language]] on 2026-09-04. Its one genuinely unique piece of content — the five-category taxonomy of non-linguistic knowledge — is now its own atomic note, [[Types of Non-Linguistic Knowledge]], linked from that MOC's Translation Problem section. Everything else here (the Key Insights and Questions) was already covered, in more developed form, by the MOC's own Fundamental Problem, Translation Problem and Emerging Questions sections.

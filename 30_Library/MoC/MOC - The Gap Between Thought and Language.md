@@ -10,6 +10,7 @@ scope: Philosophical exploration of the relationship between thought, language, 
   communication
 tags: [communication, consciousness, epistemology, language, philosophy-of-mind]
 title: MOC - The Gap Between Thought and Language
+type: map
 ---
 
 ## MOC - The Gap Between Thought and Language
@@ -21,7 +22,7 @@ title: MOC - The Gap Between Thought and Language
 Before the gap manifests, we must understand the raw materials of thought:
 
 - Data - The basic building blocks.
-- [[Information as Foundation of Knowledge]] - How data transforms into a mental model.
+- [[What is information|Information as Foundation of Knowledge]] - How data transforms into a mental model.
 - [[Information in Everyday Language]] - How information theory maps to common speech.
 - [[Knowledge Enables Power]] - The utility of processed information.
 
@@ -38,6 +39,7 @@ When we attempt to communicate, we face an inherent challenge: [[Communication i
 - [[Qualia and Linguistic Limitations]] - The "what it is like" that cannot be described.
 - [[Language of Thought]] - The hypothesis of Mentalese.
 - [[Pre-Linguistic Thought]] - Thinking before symbols.
+- [[Types of Non-Linguistic Knowledge]] - A taxonomy of experiential, embodied, tacit, aesthetic, and spiritual/mystical knowledge.
 
 ---
 
@@ -65,24 +67,6 @@ The gap between thought and language connects to deep epistemological questions.
 - [[Implications for Consciousness and Philosophy of Mind]]
 - [[Language Acquisition and Development]] - How we learn to bridge the gap.
 - [[Technology's Impact on Language]] - How tools like AI affect the translation process.
-
-… (rest of the note remains the same)
-
-### Why Understanding Nevertheless Works
-
-Despite these theoretical barriers, human communication is remarkably effective. Several mechanisms enable this:
-
-First, [[Shared biological architecture enables communication]] rel:: foundational-mechanism. Because all humans possess similar neurological structures, we process basic perceptions, emotions, and social cues in fundamentally comparable ways. This creates a shared foundation for understanding.
-
-Second, [[Common experiential anchors ground abstract concepts]] rel:: supports. Universal human experiences - hunger, warmth, social connection, mortality - provide common reference points that allow us to bridge linguistic and cultural divides. These existential anchors let us connect abstract concepts to concrete, shared experiences.
-
-Third, [[Communication requires iterative approximation]] rel:: describes-process. We don't rely on perfect one-shot transmission. Instead, we continuously monitor each other's responses, detect misunderstandings through facial expressions and questions, and adjust our messages. This feedback loop allows gradual convergence toward sufficient shared understanding.
-
-Finally, [[Meaning emerges from language games]] rel:: philosophical-framework. Following Wittgenstein, we can understand that communication succeeds not through perfect mental correspondence but through "good enough" functional overlap within shared social practices. Language gains meaning through use in context rather than through perfect definition.
-
-### Philosophical Implications
-
-The gap between thought and language connects to deep epistemological questions. [[The noumenal-phenomenal distinction limits knowability]] rel:: frames-problem. If Kant is correct that we cannot access reality "as it truly is" but only through our mental filters, then we face fundamental limits on both knowing the external world and knowing other minds. We can never verify that our mental models correspond to true reality because we lack unmediated access.
 
 This perspective has implications for:
 

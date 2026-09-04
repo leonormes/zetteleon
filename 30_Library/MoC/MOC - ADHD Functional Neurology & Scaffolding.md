@@ -34,7 +34,7 @@ These notes provide the foundational understanding of how the ADHD brain operate
 - [[Cerebellum Function and Exercise for ADHD Regulation]]
 - [[Dopamine Regulates Motivation (Wanting) Separately from Pleasure (Liking)]]
 - [[Dopamine reward pathway dysfunction causes ADHD task initiation difficulty]]
-- [[Neuroenergetic deficit theory proposes ADHD as cortical energy insufficiency]]
+- [[The Neuroenergetic Deficit Theory Posits Chronic Energy Insufficiency in ADHD Brains|Neuroenergetic deficit theory proposes ADHD as cortical energy insufficiency]]
 - [[Sustained attention activates right-lateralized fronto-parietal networks]]
 - [[Task Initiation Activates Medial Prefrontal Regions for Energization]]
 - [[The Prefrontal Cortex Provides Executive Control Over Action]]

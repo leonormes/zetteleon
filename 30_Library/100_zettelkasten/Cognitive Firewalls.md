@@ -1,16 +1,23 @@
 ---
+aliases: []
+conformant: true
 created: 2026-04-14T20:54:42+00:00
 created_utc: '2026-04-14T14:20:00Z'
-kind: procedure
-modified: 2026-08-29T09:35:59+00:00
+modified: 2026-09-04T12:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/cognitive-firewalls
+prodos:
+  kind: atomic
+  atomic:
+    form: procedure
 source_title: Why Is AI Making My Job Worse?
 source_url: http://www.youtube.com/watch?v=NDyuJcR2GH4
-status: seed
+steps: "Rigidly separate deep-work blocks (or days) from shallow-work blocks (or days); route digital-tool interruptions and low-value task arrivals only into the shallow-work slots."
 tags: [deep-work, focus, time-blocking, workflow-design]
 title: Cognitive Firewalls
-type: atom
+trigger: "When digital-tool distractions and low-value task arrivals threaten to consume time needed for high-effort cognitive work."
+type: procedure
 upstream: '[[SoT - Principles for Peaceful Productivity]]'
+verification: "Deep-work blocks pass with zero interruptions from shallow-work-type arrivals (email, Slack, ad hoc requests)."
 ---
 
 ## Cognitive Firewalls
@@ -32,9 +39,13 @@ Personal or organisational workflow structuring aimed at protecting cognitive re
 
 ### Related
 
-- [[Hybrid Attention Model Assigns Remote Days to Deep Work and Office Days to Shallow Work]]—direct concept match: provides a team-level implementation of a cognitive firewall.
+[depends_on:: [[Low Activation Cost Effect]], strength=4, confidence=high]
+
+- [[Low Activation Cost Effect]]—this procedure exists specifically to block the mechanism that note describes (falling activation cost generating rising task-arrival volume) from reaching deep-work time.
+
+[implements:: [[Hybrid Attention Model Assigns Remote Days to Deep Work and Office Days to Shallow Work]], confidence=medium]
+
+- [[Hybrid Attention Model Assigns Remote Days to Deep Work and Office Days to Shallow Work]]—direct concept match: a team-level implementation of this same firewall principle.
+
 - [[SoT - Principles for Peaceful Productivity]]—shared mechanism: aligns with the "Protect Your First Hour" principle.
-
-### See Also
-
-- [[Low Activation Cost Effect]]
+- [[Digital Productivity Paradox]]—the productivity-loss claim this procedure is designed to prevent.

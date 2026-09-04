@@ -54,7 +54,9 @@
       "mcp__1mcp__obsidian-llmeon_1mcp_create_vault_file",
       "Bash(shale intent *)",
       "Bash(shale done *)",
-      "mcp__1mcp__obsidian-llmeon_1mcp_search_semantic"
+      "mcp__1mcp__obsidian-llmeon_1mcp_search_semantic",
+      "mcp__1mcp__obsidian-llmeon_1mcp_search_metadata",
+      "mcp__1mcp__obsidian-llmeon_1mcp_wikilinks"
     ]
   },
   "spinnerTipsEnabled": false

@@ -1,15 +1,23 @@
 ---
+aliases: []
+conformant: true
+contradicts: []
 created: 2026-04-14T20:47:07+00:00
 created_utc: '2026-04-14T14:20:00Z'
-kind: claim
-modified: 2026-08-29T09:36:00+00:00
+epistemic_status: high
+evidence_links: []
+modified: 2026-09-04T12:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/digital-productivity-paradox
+prodos:
+  kind: atomic
+  atomic:
+    form: claim
+proposition: "Digital tools designed to reduce cognitive friction inadvertently decrease true productivity, because the time saved on individual tasks is immediately reoccupied by a higher volume of low-value administrative throughput rather than translating into significant project advancement."
 source_title: Why Is AI Making My Job Worse?
 source_url: http://www.youtube.com/watch?v=NDyuJcR2GH4
-status: seed
 tags: [cognitive-load, digital-tools, knowledge-work, productivity]
 title: Digital Productivity Paradox
-type: atom
+type: claim
 upstream: '[[SoT - Principles for Peaceful Productivity]]'
 ---
 
@@ -32,8 +40,16 @@ Applies to knowledge work environments where digital communication and AI-assist
 
 ### Related
 
-- [[Jevons Paradox of Attention]]—shared mechanism: efficiency leads to increased total consumption of the resource (attention).
+[implements:: [[Jevons Paradox of Attention]], strength=4, confidence=high]
+
+- [[Jevons Paradox of Attention]]—this note's productivity-loss claim is the specific knowledge-work application of that general resource-economics pattern (the source material names this explicitly).
+
+[depends_on:: [[Low Activation Cost Effect]], strength=4, confidence=high]
+
+- [[Low Activation Cost Effect]]—names the mechanism generating the low-value task volume this note says erodes true productivity.
+
 - [[Productivity Systems Are Scaffolding Not the Engine of Progress]]—supports: identifying that tools alone do not drive progress.
+- [[Cognitive Firewalls]]—the structural antidote proposed alongside this note, from the same source.
 
 ### See Also
 

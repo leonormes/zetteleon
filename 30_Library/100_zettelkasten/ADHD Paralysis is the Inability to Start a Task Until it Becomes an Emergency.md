@@ -1,10 +1,13 @@
 ---
 aliases: [ADHD Paralysis]
-conformant: false
+conformant: true
+contradicts: []
 created: 2025-10-29T16:38:00+00:00
-modified: 2026-08-29T09:35:57+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+epistemic_status: medium
+evidence_links: []
+modified: 2026-09-04T12:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/adhd-paralysis-is-the-inability-to-start-a-task-until-it-becomes-an-emergency
+proposition: "ADHD Paralysis is a cognitive freeze response in which an individual cannot initiate a task because the brain's reward system is insufficiently stimulated by it, breaking only once the task becomes an acute emergency that provides enough dopamine to trigger action."
 source: '[[MOC - The Phases of Task Execution and the Impact of ADHD]]'
 tags: [executive_function, task_initiation, TheHuman/Health/ADHD]
 title: ADHD Paralysis is the Inability to Start a Task Until it Becomes an Emergency
@@ -22,4 +25,12 @@ This state of inaction is a cognitive "freeze response" triggered by executive d
 3. Avoidance allows pressure to mount, making the task more intimidating.
 4. The sense of overwhelm escalates, entrenching the paralysis further.
 
-- Reading this it is clearly AI. Often AI just agrees with me and makes what I said sound real. It is annoying because I actually want to know the truth.
+## Related
+
+[depends_on:: [[ADHD Overthinking is a Substitute for Action]], strength=4, confidence=high]
+
+- [[ADHD Overthinking is a Substitute for Action]]—that note already names this paralysis as "a related manifestation where overthinking leads to complete behavioral freezing"; this note is the terminal state of that note's substitution mechanism, not an independent phenomenon.
+
+[supports:: [[Inaction Erodes Self-Trust]], confidence=medium]
+
+- [[Inaction Erodes Self-Trust]]—one of the two named mechanisms that exacerbates that note's self-trust erosion spiral.

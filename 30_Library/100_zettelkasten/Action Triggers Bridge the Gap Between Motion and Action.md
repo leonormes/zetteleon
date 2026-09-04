@@ -7,8 +7,7 @@ permalink: llmeon/30-library/100-zettelkasten/action-triggers-bridge-the-gap-bet
 status: evergreen
 tags: [implementation-intentions, procrastination, TheHuman/Habits, topic/productivity]
 title: Action Triggers Bridge the Gap Between Motion and Action
-type: tool
-updated: null
+type: procedure
 ---
 
 An action trigger is a pre-defined rule that forces a transition from motion to action. It serves as a clear boundary that prevents the preparatory phase from extending indefinitely.
