@@ -55,3 +55,5 @@ To think deeply, one must artificially support the mind through the discomfort.
 - [[Psychological Stress of Dissonance]] - The emotional cost driving avoidance.
 - [[Beliefs as Defining Spaces]] - How untested beliefs limit cognitive range.
 - [[Naive Realism Makes Mental Models Invisible]] - The blindness to one's own cognitive filters.
+
+[supports:: [[Comprehension Requires Passing Through a Period of Disorientation]], strength=4, confidence=high]

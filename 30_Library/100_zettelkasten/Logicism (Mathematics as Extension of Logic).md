@@ -1,10 +1,12 @@
 ---
 aliases: []
-conformant: false
+conformant: true
 created: 2025-11-01T11:22:13+00:00
-modified: 2026-08-29T09:36:02+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+epistemic_status: high
+modified: 2026-09-04T19:27:00+00:00
+non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/logicism-mathematics-as-extension-of-logic
+proposition: "Logicism holds that mathematics is an extension of pure logic: mathematical concepts are definable in purely logical terms and mathematical theorems are derivable as theorems of logic alone."
 tags: [foundations, logic, TheHuman/Philosophy, topic/maths]
 title: Logicism (Mathematics as Extension of Logic)
 type: claim
@@ -19,3 +21,10 @@ Analogy: Think of logic as the grammar of reason. Logicists argued that mathemat
 Key Proponents: Gottlob Frege and Bertrand Russell pioneered this approach in the late 19th and early 20th centuries.
 
 Challenge: The logicist project was derailed by paradoxes (like Russell's Paradox) and later by Gödel's Incompleteness Theorems, which showed that any formal system strong enough to contain basic arithmetic would have true statements that it could not prove.
+
+## Related
+
+- [[Formalism (Mathematics as Symbol Manipulation)]] — *Rival foundational school from the same era: where Logicism grounds mathematical truth in logic itself, Formalism denies truth-content altogether and grounds mathematics in rule-governed symbol consistency instead. Both were shaken by the same Gödelian result.*
+- [[Deductive Reasoning Underwrites Mathematical Proof]] — *The proof mechanism this note's whole program depends on: "provable as theorems of logic" only works because deduction reliably derives necessary conclusions from axioms.* [depends_on:: [[Deductive Reasoning Underwrites Mathematical Proof]]]
+- [[Mathematics as a Logical Maze (Metaphor)]] — *Companion metaphor from the same source material.*
+- [[Logic Is the Grammar of Rigorous Argument]] — *That note specializes this one's own "grammar of reason" analogy into a full account of syntax, inference, and semantics.*

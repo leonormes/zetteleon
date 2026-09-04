@@ -74,3 +74,5 @@ Since we cannot upgrade our biological RAM (especially with ADHD), we must optim
 - [[SoT - The Extended Mind]]
 - [[SoT - ADHD Neurology & Core Concepts]]
 - [[SoT - PRODOS (System Architecture)]]
+
+[supports:: [[Understanding Compresses Information into Cognitive Chunks]], strength=4, confidence=high]

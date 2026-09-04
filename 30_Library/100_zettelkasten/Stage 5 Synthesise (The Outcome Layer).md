@@ -1,15 +1,14 @@
 ---
-aliases: [Outcome Layer, Synthesis Stage]
-created: 2025-12-04T12:23:40+00:00
-modified: 2026-08-29T09:36:22+00:00
-permalink: llmeon/30-library/200-projects/stage-5-synthesise-the-outcome-layer
-project_category: prodos
-project_name: ProdOS
-project_status: active
-status: stable
-tags: [pkm, prodos, synthesis, writing]
+aliases: []
+conformant: true
+created: 2025-12-04T12:00:00+00:00
+modified: 2026-09-04T19:58:00+00:00
+non_conformance_reason: ""
+permalink: llmeon/30-library/100-zettelkasten/stage-5
+tags: [pkm, writing, cognition]
 title: Stage 5 Synthesise (The Outcome Layer)
-type: null
+type: concept
+definition: "The final stage of the Unified Writing to Think process, focusing on synthesizing connected notes into larger arguments or structure notes."
 ---
 
 _The Goal: To use your connected notes to build larger arguments and summaries._
@@ -23,3 +22,8 @@ This is where you zoom out from the atomic level to see the bigger picture that 
 3. Write the Synthesis: Use the structure note to articulate the overarching argument or story that the linked notes tell. This is your "explanatory" writing, built upon the foundation of your "exploratory" work.
 
 Outcome: A coherent understanding of a complex topic, captured in a structure note that serves as a map of your thinking.
+
+## Related
+
+- [[Stage 4 Connect (The Zettelkasten Layer)]] — *The preceding stage.* [depends_on:: [[Stage 4 Connect (The Zettelkasten Layer)]]]
+- [[SoT - The Unified Writing to Think Process]] — *The overarching framework.* [extends:: [[SoT - The Unified Writing to Think Process]]]

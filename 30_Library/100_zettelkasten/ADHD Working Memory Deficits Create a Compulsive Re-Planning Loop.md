@@ -1,5 +1,6 @@
 ---
 aliases: [Re-planning Loop]
+axiom: true
 conformant: false
 created: 2025-11-12T15:00:03+00:00
 modified: 2026-08-29T09:35:57+00:00

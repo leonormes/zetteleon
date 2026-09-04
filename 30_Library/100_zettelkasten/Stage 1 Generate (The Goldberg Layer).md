@@ -1,15 +1,14 @@
 ---
-aliases: [Goldberg Layer, Timed Writing]
-created: 2025-12-04T12:23:40+00:00
-modified: 2026-08-29T09:36:22+00:00
-permalink: llmeon/30-library/200-projects/stage-1-generate-the-goldberg-layer
-project_category: prodos
-project_name: ProdOS
-project_status: active
-status: stable
-tags: [generation, pkm, prodos, writing]
+aliases: []
+conformant: true
+created: 2025-12-04T12:00:00+00:00
+modified: 2026-09-04T19:58:00+00:00
+non_conformance_reason: ""
+permalink: llmeon/30-library/100-zettelkasten/stage-1
+tags: [pkm, writing, cognition]
 title: Stage 1 Generate (The Goldberg Layer)
-type: null
+type: concept
+definition: "The first writing stage of the Unified Writing to Think process, focusing on capturing raw energy without judgment."
 ---
 
 _The Goal: To capture the raw energy of a thought without judgment._
@@ -28,6 +27,8 @@ This is the initial, messy, and essential act of getting a thought out of your h
 
 Outcome: A raw, unedited block of text that contains the "first thoughts" and emotional energy of your idea. It will be messy, and that is the point.
 
-## Next Stage
+## Related
 
-Proceed to [[Stage 2 Clarify (The On Writing Well Layer)]].
+- [[Stage 0 Prepare (The Extended Mind Layer)]] — *The preceding stage.* [depends_on:: [[Stage 0 Prepare (The Extended Mind Layer)]]]
+- [[Stage 2 Clarify (The On Writing Well Layer)]] — *The next stage.*
+- [[SoT - The Unified Writing to Think Process]] — *The overarching framework.* [extends:: [[SoT - The Unified Writing to Think Process]]]

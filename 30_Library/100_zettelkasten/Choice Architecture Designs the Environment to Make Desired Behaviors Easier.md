@@ -1,5 +1,6 @@
 ---
 aliases: [Choice Architecture, Nudge Theory]
+axiom: true
 conformant: false
 created: 2025-11-10T17:13:00+00:00
 modified: 2026-08-29T09:35:58+00:00

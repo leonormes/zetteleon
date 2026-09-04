@@ -1,15 +1,14 @@
 ---
-aliases: [Editorial Stage, Zinsser Layer]
-created: 2025-12-04T12:23:40+00:00
-modified: 2026-08-29T09:36:22+00:00
-permalink: llmeon/30-library/200-projects/stage-2-clarify-the-on-writing-well-layer
-project_category: prodos
-project_name: ProdOS
-project_status: active
-status: stable
-tags: [clarification, pkm, prodos, writing]
+aliases: []
+conformant: true
+created: 2025-12-04T12:00:00+00:00
+modified: 2026-09-04T19:58:00+00:00
+non_conformance_reason: ""
+permalink: llmeon/30-library/100-zettelkasten/stage-2
+tags: [pkm, writing, cognition]
 title: Stage 2 Clarify (The On Writing Well Layer)
-type: null
+type: concept
+definition: "The second writing stage of the Unified Writing to Think process, focusing on stripping clutter and strengthening clarity."
 ---
 
 _The Goal: To transform raw energy into a clear, understandable idea._
@@ -24,6 +23,8 @@ This is the craftsman's stage. You now look at the raw text from [[Stage 1 Gener
 
 Outcome: A concise, clear, and energetic atomic note. The original idea is no longer "dull"; it has been clarified and strengthened.
 
-## Next Stage
+## Related
 
-Proceed to [[Stage 3 Understand (The Writing to Learn Layer)]].
+- [[Stage 1 Generate (The Goldberg Layer)]] — *The preceding stage.* [depends_on:: [[Stage 1 Generate (The Goldberg Layer)]]]
+- [[Stage 3 Understand (The Writing to Learn Layer)]] — *The next stage.*
+- [[SoT - The Unified Writing to Think Process]] — *The overarching framework.* [extends:: [[SoT - The Unified Writing to Think Process]]]

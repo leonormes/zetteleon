@@ -1,5 +1,6 @@
 ---
 aliases: [Distributed Network, Non-Hierarchical Network, Rhizome]
+axiom: true
 conformant: false
 created: 2025-10-30T15:33:36+00:00
 modified: 2026-08-29T09:36:05+00:00

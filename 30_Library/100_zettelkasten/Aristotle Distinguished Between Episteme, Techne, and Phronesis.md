@@ -1,5 +1,6 @@
 ---
 aliases: [Aristotelian Knowledge, Episteme-Techne-Phronesis]
+axiom: true
 conformant: true
 created: 2025-11-12T14:10:02+00:00
 epistemic_status: high
@@ -24,3 +25,5 @@ Details: These three forms of knowledge correspond to different modes of human a
 - [[21-wtf_is_knowledge_anyway]]
 
 [supports:: [[SoT - The Extended Mind]]]
+
+[supports:: [[Phronesis (Practical Wisdom) is Knowledge Gained Through Action and Experience]]]

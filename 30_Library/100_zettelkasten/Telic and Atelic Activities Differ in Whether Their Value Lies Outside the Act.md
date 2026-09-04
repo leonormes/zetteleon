@@ -31,3 +31,5 @@ The telic/atelic line is analytically clean but empirically blurry: most real ac
 [extends:: [[SoT - Metaphysics of Purpose]], strength=3, confidence=medium]
 
 [supports:: [[SoT - Values and Eudaimonia]], strength=4, confidence=high]
+
+[supports:: [[Intellectual Activity Belongs to the Atelic Sphere]], strength=4, confidence=high]

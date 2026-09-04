@@ -1,14 +1,14 @@
 ---
 aliases: []
-created: 2025-08-11T15:30:49+00:00
-last_reviewed: ''
-modified: 2026-08-29T09:36:05+00:00
-permalink: llmeon/30-library/100-zettelkasten/stage-0-prepare-the-extended-mind-layer
-status: ''
-tags: []
+conformant: true
+created: 2025-12-04T12:00:00+00:00
+modified: 2026-09-04T19:58:00+00:00
+non_conformance_reason: ""
+permalink: llmeon/30-library/100-zettelkasten/stage-0
+tags: [pkm, writing, cognition]
 title: Stage 0 Prepare (The Extended Mind Layer)
-type: ''
-updated: null
+type: concept
+definition: "The initial stage of the Unified Writing to Think process, focusing on priming the mind for insight using movement and environment."
 ---
 
 _The Goal: To create a state of mind and body conducive to novel thought._
@@ -25,5 +25,5 @@ The Method: Prime Your Mind for Insight
 
 ## Related
 
-- [[Stage 2 Clarify (The On Writing Well Layer)]]
-- [[Chaining Starter Tasks Creates a Momentum Ramp]]
+- [[Stage 1 Generate (The Goldberg Layer)]] — *The next stage.*
+- [[SoT - The Unified Writing to Think Process]] — *The overarching framework.* [extends:: [[SoT - The Unified Writing to Think Process]]]

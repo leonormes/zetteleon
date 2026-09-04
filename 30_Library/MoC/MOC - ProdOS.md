@@ -1,10 +1,13 @@
 ---
 aliases: [ProdOS Index, Productivity Operating System, Start Here]
+conformant: true
 created: 2025-12-04T14:38:32+00:00
-modified: 2026-08-29T09:36:31+00:00
+modified: 2026-09-04T19:30:00+00:00
+non_conformance_reason: ""
 permalink: llmeon/30-library/mo-c/moc-prod-os
 tags: [moc, prodos, SoftwareEngineering/Architecture]
 title: MOC - ProdOS
+type: map
 ---
 
 ## ProdOS - Productivity Operating System

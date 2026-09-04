@@ -33,3 +33,5 @@ Applies to highly cohesive groups and polarized environments where holding a spe
 #### Related
 
 _(All three prior links severed or superseded 2026-07-29—see [[90_Audits/2026-07-29-claim-beliefs-often-function-as-belonging-cues]]. The Binary Person-Judgement relation is now recorded correctly as an inbound `depends_on` edge on that note instead.)_
+
+[supports:: [[Binary Person-Judgement Is a Cognitive Default, Not a Character Flaw]], strength=4, confidence=high]

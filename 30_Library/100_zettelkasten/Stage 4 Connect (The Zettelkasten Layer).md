@@ -1,15 +1,14 @@
 ---
-aliases: [Linking Stage, Zettelkasten Layer]
-created: 2025-12-04T12:23:40+00:00
-modified: 2026-08-29T09:36:22+00:00
-permalink: llmeon/30-library/200-projects/stage-4-connect-the-zettelkasten-layer
-project_category: prodos
-project_name: ProdOS
-project_status: active
-status: stable
-tags: [connection, pkm, prodos, writing]
+aliases: []
+conformant: true
+created: 2025-12-04T12:00:00+00:00
+modified: 2026-09-04T19:58:00+00:00
+non_conformance_reason: ""
+permalink: llmeon/30-library/100-zettelkasten/stage-4
+tags: [pkm, writing, cognition]
 title: Stage 4 Connect (The Zettelkasten Layer)
-type: null
+type: concept
+definition: "The fourth writing stage of the Unified Writing to Think process, focusing on deliberate linking and integration into the Zettelkasten."
 ---
 
 _The Goal: To place your new understanding into the context of your existing knowledge._
@@ -26,6 +25,8 @@ An idea gains its true power when it is connected to other ideas. This stage tra
 
 Outcome: A new, well-formed atomic note that is integrated into your Zettelkasten, enriching both itself and the notes it connects to.
 
-## Next Stage
+## Related
 
-Proceed to [[Stage 5 Synthesise (The Outcome Layer)]].
+- [[Stage 3 Understand (The Writing to Learn Layer)]] — *The preceding stage.* [depends_on:: [[Stage 3 Understand (The Writing to Learn Layer)]]]
+- [[Stage 5 Synthesise (The Outcome Layer)]] — *The next stage.*
+- [[SoT - The Unified Writing to Think Process]] — *The overarching framework.* [extends:: [[SoT - The Unified Writing to Think Process]]]

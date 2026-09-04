@@ -70,6 +70,8 @@ RSD acts as a powerful amplifier for [[ADHD Emotional Reasoning]], where the _fe
 
 [[Bidirectional Authority Discomfort in ADHD]]—discomfort in both directions (resisting authority, discomfort wielding it) is a domain-specific consequence of the same rejection-sensitivity mechanism applied to power dynamics
 
+[supports:: [[Claim - When intelligence is bound to identity, epistemic errors are experienced as threats to self-worth]], strength=3, confidence=medium]
+
 [supports:: [[Bidirectional Authority Discomfort in ADHD]], confidence=medium]
 
 ## Foundations
