@@ -39,3 +39,12 @@ One of five diagnostics (with Atom 006 and Atoms 008–010) for telling a legiti
 ### Related
 
 - [[Consilience Signals Genuine Scientific Consensus]]—sibling diagnostic, same source.
+
+[extends:: [[Dismissing People Who Disagree Costs You Your Best Error-Detectors]], strength=3, confidence=high]
+
+- [[Dismissing People Who Disagree Costs You Your Best Error-Detectors]]—extends the individual-scale claim (disagreement is your best error-detector) to the field scale: a field that still visibly contains disagreement has not yet dismissed its error-detectors.
+
+[depends_on:: [[Binary Person-Judgement Is a Cognitive Default, Not a Character Flaw]], confidence=medium]
+
+- [[Binary Person-Judgement Is a Cognitive Default, Not a Character Flaw]]—supplies the psychological mechanism behind the failure mode this note warns about: a field collapses into false uniformity when its members default to tribal right/wrong sorting instead of tolerating live disagreement.
+- [[Constructive Debate in Psychological Safety]]—shared mechanism: "challenging ideas, not people" is what makes contested edges survivable at team scale instead of collapsing into silence or tribal splits.

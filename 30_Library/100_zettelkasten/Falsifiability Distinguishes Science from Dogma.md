@@ -2,6 +2,8 @@
 conformant: true
 created: 2026-09-04T09:25:12+00:00
 created_utc: '2026-09-04T14:00:00+00:00'
+definition: "A theory is scientific only if it is falsifiable — its proponents can state in advance what result would prove it wrong — whereas dogma is structured to protect its core claim from any possible disconfirmation."
+distinguishes_from: ["[[Trusting a Scientific Authority Feels Psychologically Identical to Trusting a False One]]"]
 modified: 2026-09-04T09:50:08+00:00
 permalink: llmeon/00-inbox/falsifiability-distinguishes-science-from-dogma
 source_title: New chat
@@ -36,3 +38,11 @@ The Popperian demarcation criterion. Applies to any claim presented as scientifi
 [supports:: [[Truth-Status Belongs to Propositions, Not Persons]], confidence=medium]
 
 - [[Truth-Status Belongs to Propositions, Not Persons]]—this note already cites Popper's mandate to "let our theories die in our place"; this concept supplies the formal mechanism (falsifiability) that makes a theory _able_ to die in your place at all.
+
+[contradicts:: [[Confirmation as a Perceived Shortcut to Truth]], confidence=high]
+
+- [[Confirmation as a Perceived Shortcut to Truth]]—the structural antithesis: falsifiability is a discipline of actively seeking the result that would prove you wrong, while confirmation-as-shortcut is the felt relief of being validated—the same contrast that note already draws with [[Mathematics Established Knowledge Through Open Demonstration|mathematical proof]].
+
+[depends_on:: [[Claim - When intelligence is bound to identity, epistemic errors are experienced as threats to self-worth]], confidence=medium]
+
+- [[Claim - When intelligence is bound to identity, epistemic errors are experienced as threats to self-worth]]—supplies the psychological mechanism behind the dogma pattern: when a belief is fused to identity, admitting a falsifying result stops being a data update and becomes a threat to the self, which is why the excuse-inventing response (the laser bent, the equipment was tampered with) is so common.
