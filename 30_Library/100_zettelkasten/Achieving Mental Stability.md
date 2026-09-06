@@ -1,6 +1,7 @@
 ---
 title: Achieving Mental Stability
 type: claim
+axiom: true
 conformant: true
 prodos:
   kind: claim

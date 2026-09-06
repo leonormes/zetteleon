@@ -1,5 +1,6 @@
 ---
 aliases: [Coherent LLM output signals meaningful processing]
+axiom: true
 conformant: true
 created: 2025-10-20T09:17:00+00:00
 epistemic_status: medium

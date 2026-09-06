@@ -46,3 +46,5 @@ In many practical domains, reliable prediction is functionally sufficient—an o
 [[The Question Master Protocol Uses Bloom's Taxonomy to Force Active Engagement with Material]]—same: the antidote targets exactly this familiarity/comprehension gap
 
 [supports:: [[The Question Master Protocol Uses Bloom's Taxonomy to Force Active Engagement with Material]]]
+
+[supports:: [[Information Retrieval Is Not Learning]], strength=4, confidence=high]

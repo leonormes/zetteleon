@@ -1,5 +1,6 @@
 ---
 aliases: [Event-triggered mini routines]
+axiom: true
 conformant: true
 contradicts: []
 created: 2026-09-04T12:00:00+00:00

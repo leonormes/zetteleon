@@ -1,5 +1,6 @@
 ---
 aliases: [Functional Equivalence, The Inga and Otto Case]
+axiom: true
 conformant: true
 created: 2025-12-24T12:00:00+00:00
 epistemic_status: high

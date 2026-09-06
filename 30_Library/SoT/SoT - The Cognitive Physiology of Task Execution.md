@@ -14,6 +14,8 @@ type: sot
 
 ## 2. The Five Cognitive Phases
 
+[supports:: [[Motivation, Volition, and Control are Distinct Aspects of the Action Process]], strength=3, confidence=medium]
+
 ### Phase 1: Initiation / Activation
 
 - Function: Overcoming inertia. Organizing materials, estimating time, and generating metabolic energy (dopamine/norepinephrine) to start.

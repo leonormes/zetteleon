@@ -1,5 +1,6 @@
 ---
 aliases: [Childhood Patterning]
+axiom: true
 conformant: false
 created: 2025-11-01T12:00:06+00:00
 modified: 2026-08-29T09:36:00+00:00

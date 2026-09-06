@@ -1,5 +1,6 @@
 ---
 aliases: [Action Bias]
+axiom: true
 conformant: true
 contradicts: []
 created: 2025-11-12T14:10:04+00:00

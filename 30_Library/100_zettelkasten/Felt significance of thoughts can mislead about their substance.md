@@ -1,5 +1,6 @@
 ---
 aliases: [felt vs actual importance, significance-substance gap]
+axiom: true
 conformant: true
 created: 2025-10-31T20:48:00+00:00
 epistemic_status: high

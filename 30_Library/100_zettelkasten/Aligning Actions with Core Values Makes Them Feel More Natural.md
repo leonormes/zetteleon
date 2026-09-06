@@ -1,5 +1,6 @@
 ---
 aliases: [Self-Concordant Goals]
+axiom: true
 conformant: true
 created: 2025-11-10T17:12:00+00:00
 epistemic_status: high

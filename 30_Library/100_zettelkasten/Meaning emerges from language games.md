@@ -1,5 +1,6 @@
 ---
 aliases: [forms of life, meaning in use, Wittgensteinian pragmatics]
+axiom: true
 conformant: true
 created: 2025-10-31T20:05:00+00:00
 epistemic_status: high

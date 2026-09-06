@@ -24,6 +24,7 @@ tags:
 - topic/executive-function
 title: Self-insights that prescribe more planning are the least trustworthy kind
 type: claim
+axiom: true
 permalink: llmeon/30-library/100-zettelkasten/self-insights-that-prescribe-more-planning-are-the-least-trustworthy-kind-1
 ---
 

@@ -1,5 +1,6 @@
 ---
 aliases: [5-Minute Rule, Micro-Actions, Starter Tasks]
+axiom: true
 conformant: true
 created: 2025-12-16T13:15:00+00:00
 epistemic_status: absolute

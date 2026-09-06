@@ -1,5 +1,6 @@
 ---
 aliases: []
+axiom: true
 conformant: false
 created: 2025-11-01T09:51:13+00:00
 modified: 2026-08-29T09:35:58+00:00
@@ -13,3 +14,5 @@ type: claim
 Summary: Bayesian updating formalizes learning as iterative adjustment of beliefs, operationalizing open-mindedness without relativism.
 
 Details: Bayesian updating formalizes learning as the iterative adjustment of beliefs in light of new evidence. You begin with a prior, assess how likely the evidence would be if the hypothesis were true or false, and revise to a posterior that becomes the next prior. Even without equations, you can practice qualitative Bayes by explicitly stating priors and reasons for change. This method operationalizes open-mindedness without drifting into relativism.
+
+[supports:: [[Probabilistic Thinking Treats Beliefs as Hypotheses With Confidence Levels]], strength=4, confidence=high]

@@ -127,3 +127,11 @@ While related, the two biases operate on different axes:
 - [[Information Addiction in Overthinkers]]: Elaborates the Collector's Fallacy mechanism—"illusion of control" and "perfect information fallacy" as drivers.
 - [[Time-Boxing Research Prevents Productive Procrastination]]: Operational antidote to the Research Rabbit Hole.
 - [[Flawed Mental Models Limit Mastery]]: IoED as the primary barrier to mastery; recovery protocol.
+
+[supports:: [[2026-07-25-familiarity-vs-comprehension-distinct-states]], strength=4, confidence=high]
+
+[supports:: [[2026-07-25-heuristic-substitution-creates-ioed]], strength=4, confidence=high]
+
+[supports:: [[2026-07-25-hyperfocus-dopamine-mistaken-for-logical-integrity]], strength=4, confidence=high]
+
+[supports:: [[2026-07-25-premature-loop-closure-adhd-ioed-vulnerability]], strength=4, confidence=high]

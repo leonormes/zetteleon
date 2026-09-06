@@ -91,3 +91,5 @@ Superior performance comes from manipulating the "physics" of behavior.
 
 - [ ] Incorporate "Hydraulic Architecture" terminology into weekly review protocols.
 - [ ] Audit "Visual Field" of the office based on Choice Architecture principles.
+
+[supports:: [[Discipline Is a Property of External Structure More Than of Will]], strength=5, confidence=high]

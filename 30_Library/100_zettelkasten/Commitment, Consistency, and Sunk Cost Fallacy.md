@@ -1,5 +1,6 @@
 ---
 aliases: [Sunk Cost Fallacy]
+axiom: true
 conformant: true
 created: 2025-08-23T17:07:39+00:00
 epistemic_status: high

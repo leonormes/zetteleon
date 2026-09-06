@@ -1,5 +1,6 @@
 ---
 aliases: [ADHD Digital Tools, ADHD Productivity Apps]
+axiom: true
 conformant: true
 created: 2025-11-06T19:54:05+00:00
 modified: 2026-09-03T18:38:00+00:00

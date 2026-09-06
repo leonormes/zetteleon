@@ -1,5 +1,6 @@
 ---
 aliases: [Mathematical Experimentation, Tinkering]
+axiom: true
 conformant: true
 created: 2025-11-01T11:22:13+00:00
 epistemic_status: high

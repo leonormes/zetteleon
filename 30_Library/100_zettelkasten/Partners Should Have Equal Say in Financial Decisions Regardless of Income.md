@@ -1,5 +1,6 @@
 ---
 aliases: [50/50 Say on Finances]
+axiom: true
 conformant: true
 created: 2025-11-10T10:12:00+00:00
 epistemic_status: high

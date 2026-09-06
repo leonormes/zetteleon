@@ -29,3 +29,5 @@ Links:
 > - growing → evergreen: has 2+ inbound links from structural notes, purpose set, confidence justified, 1–3 `see_also`.
 
 [supports:: [[Claim - Flat associative structure beats rigid hierarchy]], strength=5, confidence=high]
+
+[supports:: [[Bottom-Up Organization Allows Emergent Structure]], strength=3, confidence=medium]

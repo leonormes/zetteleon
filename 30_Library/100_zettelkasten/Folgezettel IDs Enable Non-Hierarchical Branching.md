@@ -1,5 +1,6 @@
 ---
 aliases: [Alphanumeric IDs, Folgezettel System, Zettelkasten IDs]
+axiom: true
 conformant: false
 created: 2025-10-30T15:33:36+00:00
 modified: 2026-08-29T09:36:01+00:00

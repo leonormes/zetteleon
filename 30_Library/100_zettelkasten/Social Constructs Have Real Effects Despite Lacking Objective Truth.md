@@ -1,5 +1,6 @@
 ---
 aliases: [Constructed Reality]
+axiom: true
 conformant: true
 created: 2025-11-01T09:51:13+00:00
 epistemic_status: high

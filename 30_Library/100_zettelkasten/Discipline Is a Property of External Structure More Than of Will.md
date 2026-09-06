@@ -110,3 +110,5 @@ Modern conditions have removed the informal scaffolding that used to do this wor
 [supports:: [[Discipline is Freedom From Chaos and Anxiety]], strength=3, confidence=medium]
 
 [supports:: [[Protecting Attention is the First Rule of Discipline]], strength=3, confidence=medium]
+
+[supports:: [[Achieving a Goal is a Momentary Change Without Systemic Improvement]], strength=3, confidence=medium]

@@ -1,5 +1,6 @@
 ---
 aliases: [Neocortex and Pattern Recognition, Pattern-Seeking Brain]
+axiom: true
 conformant: false
 created: 2025-11-01T12:00:02+00:00
 modified: 2026-08-29T09:36:06+00:00

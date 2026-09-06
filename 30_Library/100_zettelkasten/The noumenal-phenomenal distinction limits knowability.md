@@ -1,5 +1,6 @@
 ---
 aliases: [Kantian epistemology, noumenon vs phenomenon, thing-in-itself]
+axiom: true
 conformant: true
 created: 2025-10-31T20:06:00+00:00
 epistemic_status: high

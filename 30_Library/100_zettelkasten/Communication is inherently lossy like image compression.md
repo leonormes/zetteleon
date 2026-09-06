@@ -1,5 +1,6 @@
 ---
 aliases: [communication lossy compression, encoding-decoding gap, translation problem]
+axiom: true
 conformant: false
 created: 2025-10-31T20:02:00+00:00
 modified: 2026-08-29T09:35:59+00:00

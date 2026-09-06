@@ -1,5 +1,6 @@
 ---
 aliases: [Normal Science-Crisis-Revolution Cycle, Structure of Scientific Revolutions Model]
+axiom: true
 conformant: true
 contradicts: []
 created: 2026-09-04T09:48:51+00:00

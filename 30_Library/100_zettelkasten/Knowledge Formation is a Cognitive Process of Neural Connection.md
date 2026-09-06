@@ -1,5 +1,6 @@
 ---
 aliases: [Neural Basis of Knowledge]
+axiom: true
 conformant: false
 created: 2025-11-01T12:10:05+00:00
 modified: 2026-08-29T09:36:02+00:00

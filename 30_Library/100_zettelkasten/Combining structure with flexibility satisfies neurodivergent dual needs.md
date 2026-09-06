@@ -1,5 +1,6 @@
 ---
 aliases: [Dual needs satisfaction, Structure with flexibility]
+axiom: true
 conformant: true
 created: 2025-10-30T18:05:00+00:00
 epistemic_status: high

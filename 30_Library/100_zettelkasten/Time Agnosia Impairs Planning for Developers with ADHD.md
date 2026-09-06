@@ -1,5 +1,6 @@
 ---
 aliases: [ADHD Time Perception, Time Blindness]
+axiom: true
 conformant: false
 created: 2025-11-06T19:53:02+00:00
 modified: 2026-08-29T09:36:07+00:00

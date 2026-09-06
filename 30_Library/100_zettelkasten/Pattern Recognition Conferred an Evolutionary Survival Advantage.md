@@ -1,5 +1,6 @@
 ---
 aliases: [Pattern-Sniffing]
+axiom: true
 conformant: false
 created: 2025-11-01T12:00:04+00:00
 modified: 2026-08-29T09:36:04+00:00

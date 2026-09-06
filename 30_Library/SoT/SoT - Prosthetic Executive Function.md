@@ -58,3 +58,5 @@ The objective is to create a "floor" for your life that sustains itself even if 
 - [[Executive Function Challenges are Central to ADHD]] (The internal deficit)
 - [[Time Agnosia Impairs Planning for Developers with ADHD]] (Why visual timers are needed)
 - [[Digital Tools Help Externalize Memory and Structure for ADHD Developers]] (Tool list)
+
+[supports:: [[Claim - Stripping Away Systems Under-Weights the Need for Pre-Committed External Prosthetics]], strength=4, confidence=high]

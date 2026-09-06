@@ -1,5 +1,6 @@
 ---
 aliases: [LTD]
+axiom: true
 conformant: true
 created: 2025-10-30T12:05:07+00:00
 epistemic_status: absolute

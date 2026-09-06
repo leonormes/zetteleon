@@ -1,4 +1,5 @@
 ---
+axiom: true
 conformant: true
 contradicts: ["[[Divergent Thinking Outperforms Narrow Specialization]]", "[[Generalists Have an Advantage in the Information Age]]"]
 created: 2026-07-28T00:00:00+00:00

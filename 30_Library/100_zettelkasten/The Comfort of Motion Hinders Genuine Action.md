@@ -1,5 +1,6 @@
 ---
 aliases: [Comfort of Motion]
+axiom: true
 conformant: true
 contradicts: []
 created: 2025-11-01T20:31:00+00:00

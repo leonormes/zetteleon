@@ -1,5 +1,6 @@
 ---
 aliases: [Pragmatism]
+axiom: true
 conformant: true
 contradicts: []
 created: 2025-11-10T17:08:00+00:00
@@ -41,4 +42,4 @@ Peirce's Maxim: Charles Sanders Peirce formulated the pragmatic maxim as: "Consi
 - [[Shift from Seeking Rightness to Seeking Utility]]—_Explores the cognitive transition towards valuing a belief's practical utility as a source of confidence._
 - [[SoT - Pragmatism vs Rigour in Software]]—_Applies the principle of pragmatism to the engineering trade-offs between delivery velocity and formal correctness._
 - [[Epistemic Actions - Thinking via Doing]]—_Distinguishes between "Pragmatic Actions" (actions that change the world) and "Epistemic Actions" (actions that aid internal computation)._
-- [[Judge a Worldview by Its Utility in Its Environment, Not Its Correctness]]—_already carries an `extends` edge back to this note: applies the same utility-over-correctness standard to explaining why false worldviews persist._
+- [[Judge a Worldview by Its Utility in Its Environment, Not Its Correctness]]—_already carries an `extends` edge back to this note: applies the same utility-over-correctness standard to explaining why false worldviews persist._ [supports:: [[Judge a Worldview by Its Utility in Its Environment, Not Its Correctness]], strength=4, confidence=high]

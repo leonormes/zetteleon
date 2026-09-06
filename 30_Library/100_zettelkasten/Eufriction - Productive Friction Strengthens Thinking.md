@@ -1,5 +1,6 @@
 ---
 aliases: [Desirable Difficulty, Good Friction, Productive Friction]
+axiom: true
 conformant: true
 contradicts: ["[[ADHD Overthinking is a Substitute for Action]]", "[[The Comfort of Motion Hinders Genuine Action]]", "[[Tool tinkering is a form of productive procrastination]]"]
 created: 2025-10-30T15:33:36+00:00

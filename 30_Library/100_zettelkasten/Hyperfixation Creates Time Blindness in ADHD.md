@@ -1,5 +1,6 @@
 ---
 aliases: [Loss of Time Awareness in ADHD, Time Blindness During Hyperfocus]
+axiom: true
 conformant: false
 created: 2025-11-01T11:37:53+00:00
 modified: 2026-08-29T09:36:01+00:00

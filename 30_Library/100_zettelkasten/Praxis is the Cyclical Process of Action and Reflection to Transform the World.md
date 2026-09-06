@@ -1,5 +1,6 @@
 ---
 aliases: [Praxis]
+axiom: true
 conformant: true
 contradicts: []
 created: 2025-11-12T14:10:03+00:00

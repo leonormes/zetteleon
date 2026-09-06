@@ -1,5 +1,6 @@
 ---
 aliases: []
+axiom: true
 conformant: true
 created: 2025-10-30T12:37:12+00:00
 epistemic_status: medium

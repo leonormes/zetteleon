@@ -1,5 +1,6 @@
 ---
 aliases: [Meaning is Independent of Words]
+axiom: true
 conformant: true
 contradicts: []
 created: 2025-07-16T17:30:04+00:00

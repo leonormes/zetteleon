@@ -26,3 +26,5 @@ Not all confusion is productive. Cognitive load research distinguishes germane l
 [supports:: [[Prior Knowledge Organized as Schemas Provides the Foundation for New Learning]], strength=4, confidence=high]
 
 [depends_on:: [[SoT - Working Memory & Schema Theory]], strength=3, confidence=medium]
+
+[supports:: [[Achievement Culture Frames Error as Fatal Rather Than Foundational]], strength=4, confidence=high]

@@ -1,5 +1,6 @@
 ---
 aliases: [Packet Anatomy, TCP Packet Example]
+axiom: true
 conformant: true
 created: 2025-10-21T13:23:09+00:00
 epistemic_status: high

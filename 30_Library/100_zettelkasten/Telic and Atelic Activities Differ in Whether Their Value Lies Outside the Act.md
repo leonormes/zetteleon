@@ -33,3 +33,7 @@ The telic/atelic line is analytically clean but empirically blurry: most real ac
 [supports:: [[SoT - Values and Eudaimonia]], strength=4, confidence=high]
 
 [supports:: [[Intellectual Activity Belongs to the Atelic Sphere]], strength=4, confidence=high]
+
+[supports:: [[An Inner Intellectual Life Confers Dignity Independent of Economic Output]], strength=3, confidence=medium]
+
+[supports:: [[Subordinating Intellectual Life to Status Competition Destroys Its Intrinsic Value]], strength=4, confidence=high]

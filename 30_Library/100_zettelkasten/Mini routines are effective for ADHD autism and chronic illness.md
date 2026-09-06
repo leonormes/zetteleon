@@ -1,5 +1,6 @@
 ---
 aliases: [Mini routine effectiveness, Neurodivergent-friendly routines]
+axiom: true
 conformant: true
 contradicts: []
 created: 2025-10-30T17:38:00+00:00

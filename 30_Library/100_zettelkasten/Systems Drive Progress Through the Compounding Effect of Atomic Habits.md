@@ -1,5 +1,6 @@
 ---
 aliases: [Compounding Effect of Habits]
+axiom: true
 conformant: false
 created: 2025-11-06T19:55:03+00:00
 modified: 2026-08-29T09:36:06+00:00
@@ -15,3 +16,5 @@ type: claim
 Summary: Systems generate progress by breaking down large goals into small, repeatable "atomic habits" whose effects compound over time to produce significant results.
 
 Details: Real, sustainable change is the result of continuous, small decisions. A system that facilitates a mere 1% improvement each day can lead to results that are nearly 37 times better over a year. This constant, daily improvement is the essence of progress. Even if individual changes are barely noticeable, their cumulative effect changes the long-term trajectory.
+
+[supports:: [[Success Accumulates Through Thousands of Tiny Daily Choices]], strength=4, confidence=high]

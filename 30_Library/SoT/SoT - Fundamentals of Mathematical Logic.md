@@ -51,3 +51,5 @@ To generalise statements, mathematics uses predicates (statements with variables
 Skill in translating between natural language and logical notation is essential.
 
 - Logic to English: $\forall x \in \mathbb{R}, \exists y \in \mathbb{R}, y > x$ becomes "For every real number, there is another real number that is larger than it."
+
+[supports:: [[Logic Is the Grammar of Rigorous Argument]], strength=4, confidence=high]
