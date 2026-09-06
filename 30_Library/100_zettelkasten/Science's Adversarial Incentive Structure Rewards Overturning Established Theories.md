@@ -6,7 +6,7 @@ created: 2026-09-04T09:25:05+00:00
 created_utc: '2026-09-04T14:00:00+00:00'
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-04T09:50:19+00:00
+modified: 2026-09-06T17:53:00+00:00
 permalink: llmeon/00-inbox/sciences-adversarial-incentive-structure-rewards-overturning-established-theories
 source_title: New chat
 source_url: https://gemini.google.com/app/295a599fc8b28e35
@@ -40,3 +40,8 @@ Applies to institutional science with functioning peer review and career incenti
 
 - [[Dismissing People Who Disagree Costs You Your Best Error-Detectors]]—extends the individual-scale principle (disagreement is your best error-detector) to the institutional scale: science structurally rewards, rather than merely tolerates, the people trying to prove it wrong.
 - [[Constructive Debate in Psychological Safety]]—shared mechanism: challenging the idea, not the person, as the operational form this adversarial structure takes at team scale.
+
+[depends_on:: [[Falsifiability Distinguishes Science from Dogma]], confidence=high]
+
+- [[Falsifiability Distinguishes Science from Dogma]]—the incentive structure only has teeth because claims are falsifiable in the first place: rewarding someone for disproving a claim presupposes the claim could, in principle, be shown wrong.
+- [[The Public Paper Trail of Science Makes Its Self-Correction Verifiable Without Firsthand Observation]]—sibling institutional mechanism, same source conversation: this note explains *why* researchers are motivated to attack established ideas; that note explains how the resulting attacks and corrections become visible to an outside observer.

@@ -7,7 +7,7 @@ created: 2026-09-04T09:48:51+00:00
 created_utc: '2026-09-04T14:00:00+00:00'
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-04T09:48:59+00:00
+modified: 2026-09-06T17:53:00+00:00
 permalink: llmeon/00-inbox/kuhns-four-stage-model-of-paradigm-collapse
 source_title: New chat
 source_url: https://gemini.google.com/app/295a599fc8b28e35
@@ -48,3 +48,4 @@ Describes the sociology of paradigm change, not a claim about any single paradig
 - [[Ptolemaic System as a Patched Flawed Model]]—the Ptolemaic epicycles example is this model's own Model Drift stage playing out over 1,500 years: a flawed core assumption patched with growing complexity rather than questioned.
 - [[A Paradigm Only Collapses When a Viable Replacement Exists]]—corollary, same source.
 - [[Paradigm Shifts Complete Through Generational Turnover, Not Persuasion]]—corollary, same source.
+- [[Consilience Signals Genuine Scientific Consensus]]—same source conversation, adjacent question: that note (and its four sibling diagnostics) tests whether a *current* consensus is legitimate; this note describes how a consensus *rises and falls over time*, the historical dimension the snapshot diagnostics don't cover.

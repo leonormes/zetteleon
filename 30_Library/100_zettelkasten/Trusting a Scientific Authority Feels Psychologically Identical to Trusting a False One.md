@@ -4,7 +4,7 @@ conformant: true
 created: 2026-09-04T09:24:58+00:00
 created_utc: '2026-09-04T14:00:00+00:00'
 distinguishes_from: ["[[Falsifiability Distinguishes Science from Dogma]]"]
-modified: 2026-09-04T09:50:30+00:00
+modified: 2026-09-06T17:53:00+00:00
 permalink: llmeon/00-inbox/trusting-a-scientific-authority-feels-psychologically-identical-to-trusting-a-false-one
 source_title: New chat
 source_url: https://gemini.google.com/app/295a599fc8b28e35
@@ -37,3 +37,7 @@ Applies to any belief held on testimony rather than personal verification—whic
 ### Related
 
 - [[The Realization that Knowledge is Contingent Can Lead to a Crisis of Certainty]]—shared mechanism: both describe the destabilising realisation that belief rests on delegated trust rather than personal verification.
+
+[depends_on:: [[Falsifiability Distinguishes Science from Dogma]], confidence=high]
+
+- [[Falsifiability Distinguishes Science from Dogma]]—this note's own resolution to the problem it poses: since the felt confidence of trust cannot distinguish justified belief from unjustified belief, the justification must live in a structural property of the system being trusted—falsifiability is that property.

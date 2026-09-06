@@ -6,7 +6,7 @@ created: 2026-09-04T09:25:19+00:00
 created_utc: '2026-09-04T14:00:00+00:00'
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-04T09:49:43+00:00
+modified: 2026-09-06T17:53:00+00:00
 permalink: llmeon/00-inbox/the-public-paper-trail-of-science-makes-its-self-correction-verifiable-without-firsthand-observation-1
 source_title: New chat
 source_url: https://gemini.google.com/app/295a599fc8b28e35
@@ -41,3 +41,5 @@ Applies to institutional science with open publication norms. The analogy is del
 
 - [[Mathematics Established Knowledge Through Open Demonstration]]—extends the "radical openness makes credibility public rather than authority-based" principle from mathematical proof specifically to the institutional machinery of modern science (journals, pre-prints, retractions).
 - [[Open source knowledge]]—the cluster hub this note's own open-source analogy belongs to.
+- [[Falsifiability Distinguishes Science from Dogma]]—this note is the institutional mechanism that makes that note's own claim ("science updates its models when the data demands it") checkable from outside: retractions and public peer review are what that updating looks like on the record.
+- [[Science's Adversarial Incentive Structure Rewards Overturning Established Theories]]—sibling institutional mechanism, same source conversation: that note explains *why* researchers attack established ideas; this note explains how the resulting corrections become visible to an outside observer.

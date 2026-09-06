@@ -6,7 +6,7 @@ created: 2026-09-04T09:25:31+00:00
 created_utc: '2026-09-04T14:00:00+00:00'
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-04T09:49:31+00:00
+modified: 2026-09-06T17:53:00+00:00
 permalink: llmeon/00-inbox/consilience-signals-genuine-scientific-consensus
 proposition: A legitimate scientific consensus is typically corroborated by multiple
   independent fields converging on the same conclusion (consilience), while groupthink
@@ -42,3 +42,4 @@ One of five diagnostics (with Atoms 007–010) for telling a legitimate scientif
 - [[Advance Predictive Risk Distinguishes Legitimate Consensus from Post-Hoc Rationalisation]]—sibling diagnostic, same source.
 - [[The Professional Treatment of Dissent Signals Whether a Consensus Is Genuine]]—sibling diagnostic, same source.
 - [[Data Transparency Over Authority Distinguishes Genuine Consensus from Groupthink]]—sibling diagnostic, same source.
+- [[Falsifiability Distinguishes Science from Dogma]]—same source conversation, but a different specific question: that note tests whether one *claim's structure* is scientific; this note (and its four sibling diagnostics) tests whether a *consensus* is legitimate versus groupthink.

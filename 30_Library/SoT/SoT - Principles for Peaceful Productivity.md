@@ -2,7 +2,7 @@
 aliases: [10 Rules for Life, Peaceful Productivity]
 conformant: true
 created: 2025-12-21T00:00:00+00:00
-modified: 2026-08-29T09:36:41+00:00
+modified: 2026-09-06T17:56:00+00:00
 permalink: llmeon/30-library/so-t/so-t-principles-for-peaceful-productivity
 see_also: ["[[MOC - Action Management]]", "[[SoT - Behavioral Architecture]]", "[[SoT - Indistractable Model (Focus Management)]]"]
 status: stable
@@ -53,6 +53,8 @@ Protect mental energy by refusing to engage with individuals who prioritise winn
 
 [contradicts:: [[Dismissing People Who Disagree Costs You Your Best Error-Detectors]], strength=3, confidence=medium]
 
+- [[Constructive Debate in Psychological Safety]]—the complementary case this principle carves out an exception from: that note describes how to engage well in *good-faith* disagreement (challenge ideas, not people); this principle is specifically about recognising when an argument has left that territory and disengaging is the correct move, not a failure of the constructive-debate discipline.
+
 <!--content-block-end-->
 
 <!--content-block-start type="concept" id="ppp-top-one-priority"-->
@@ -76,6 +78,8 @@ Recognise that clarity is a byproduct of action, not a prerequisite. Overcome in
 [depends_on:: [[Epistemic Actions - Thinking via Doing]], strength=5, confidence=high]
 
 [depends_on:: [[ADHD Overthinking is a Substitute for Action]], strength=4, confidence=high]
+
+- [[Master Micro-Actions & Starter Tasks]]—the concrete tactic this principle recommends at the point of execution: reducing the first step to under two minutes is one specific, tested way to "initiate before readiness" rather than wait for the feeling of preparedness to arrive.
 
 <!--content-block-end-->
 

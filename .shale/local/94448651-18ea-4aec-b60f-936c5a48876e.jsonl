@@ -299,3 +299,38 @@
 {"kind":"command","at":"2026-09-06T17:44:24.688028Z","cmd":"grep -n \"contradicts::\" \"/Volumes/DAL/Zettelkasten/LLMeon/30_Library/SoT/SoT - ADHD Management Protocols.md\" -B3 -A1\necho \"===BONHOEFFER===\"\ngrep -n \"contradicts::\" \"/Volumes/DAL/Zettelkasten/LLMeon/30_Library/SoT/SoT - Bonhoeffer's Theory of Functional Stupidity.md\" -B3 -A1\necho \"===PPP BLOCKS===\"\ngrep -n \"ppp-radical-simplicity\\|ppp-cease-futile-argument\\|contradicts::\" \"/Volumes/DAL/Zettelkasten/LLMeon/30_Library/SoT/SoT - Principles for Peaceful Productivity.md\""}
 {"kind":"command","at":"2026-09-06T17:44:43.403451Z","cmd":"grep -n \"Defensive Hypervigilance\" -B2 -A2 \"/Volumes/DAL/Zettelkasten/LLMeon/30_Library/100_zettelkasten/Rejection Sensitive Dysphoria (RSD).md\" 2\u003e/dev/null\necho \"---\"\ngrep -rn \"Rejection Sensitive Dysphoria\" \"/Volumes/DAL/Zettelkasten/LLMeon/30_Library/100_zettelkasten/Defensive Hypervigilance.md\" 2\u003e/dev/null\necho \"===NHS/ZeroTrust===\"\ngrep -n \"Zero Trust\" -B2 -A2 \"/Volumes/DAL/Zettelkasten/LLMeon/30_Library/SoT/SoT - NHS Identity Compliance.md\" 2\u003e/dev/null | head -20"}
 {"kind":"session_end","at":"2026-09-06T17:45:24.638856Z"}
+{"kind":"prompt","at":"2026-09-06T17:49:32.751853Z","text":"refresh this note. 30_Library/100_zettelkasten/Falsifiability Distinguishes Science from Dogma.md find any new notes to link to and fix the typed edges"}
+{"kind":"command","at":"2026-09-06T17:51:44.549366Z","cmd":"date -u +\"%Y-%m-%dT%H:%M:%S+00:00\""}
+{"kind":"file_touch","at":"2026-09-06T17:51:51.715442Z","path":"/Volumes/DAL/Zettelkasten/LLMeon/30_Library/100_zettelkasten/Falsifiability Distinguishes Science from Dogma.md","op":"edit"}
+{"kind":"file_touch","at":"2026-09-06T17:51:59.883908Z","path":"/Volumes/DAL/Zettelkasten/LLMeon/30_Library/100_zettelkasten/Falsifiability Distinguishes Science from Dogma.md","op":"edit"}
+{"kind":"command","at":"2026-09-06T17:52:09.544226Z","cmd":"cd \"/Volumes/DAL/Zettelkasten/LLMeon\" \u0026\u0026 uv run --with pyyaml python3 10_System/scripts/edge_lint.py --path \"30_Library\" 2\u003e\u00261 | grep -i \"Falsifiability\" -A 10\necho \"---tail---\"\nuv run --with pyyaml python3 10_System/scripts/edge_lint.py --path \"30_Library\" 2\u003e\u00261 | tail -3"}
+{"kind":"session_end","at":"2026-09-06T17:52:28.607527Z"}
+{"kind":"prompt","at":"2026-09-06T17:52:37.75425Z","text":"do the same for the other siblings"}
+{"kind":"command","at":"2026-09-06T17:53:56.043509Z","cmd":"date -u +\"%Y-%m-%dT%H:%M:%S+00:00\""}
+{"kind":"file_touch","at":"2026-09-06T17:54:03.994593Z","path":"/Volumes/DAL/Zettelkasten/LLMeon/30_Library/100_zettelkasten/Predictive Power Verifies a Theory via Its Outputs, Not Its Proofs.md","op":"edit"}
+{"kind":"file_touch","at":"2026-09-06T17:54:06.804343Z","path":"/Volumes/DAL/Zettelkasten/LLMeon/30_Library/100_zettelkasten/Predictive Power Verifies a Theory via Its Outputs, Not Its Proofs.md","op":"edit"}
+{"kind":"file_touch","at":"2026-09-06T17:54:07.851027Z","path":"/Volumes/DAL/Zettelkasten/LLMeon/30_Library/100_zettelkasten/Trusting a Scientific Authority Feels Psychologically Identical to Trusting a False One.md","op":"edit"}
+{"kind":"file_touch","at":"2026-09-06T17:54:12.203423Z","path":"/Volumes/DAL/Zettelkasten/LLMeon/30_Library/100_zettelkasten/Trusting a Scientific Authority Feels Psychologically Identical to Trusting a False One.md","op":"edit"}
+{"kind":"file_touch","at":"2026-09-06T17:54:13.277232Z","path":"/Volumes/DAL/Zettelkasten/LLMeon/30_Library/100_zettelkasten/Science's Adversarial Incentive Structure Rewards Overturning Established Theories.md","op":"edit"}
+{"kind":"file_touch","at":"2026-09-06T17:54:17.678856Z","path":"/Volumes/DAL/Zettelkasten/LLMeon/30_Library/100_zettelkasten/Science's Adversarial Incentive Structure Rewards Overturning Established Theories.md","op":"edit"}
+{"kind":"file_touch","at":"2026-09-06T17:54:18.743435Z","path":"/Volumes/DAL/Zettelkasten/LLMeon/30_Library/100_zettelkasten/The Public Paper Trail of Science Makes Its Self-Correction Verifiable Without Firsthand Observation.md","op":"edit"}
+{"kind":"file_touch","at":"2026-09-06T17:54:21.987194Z","path":"/Volumes/DAL/Zettelkasten/LLMeon/30_Library/100_zettelkasten/The Public Paper Trail of Science Makes Its Self-Correction Verifiable Without Firsthand Observation.md","op":"edit"}
+{"kind":"file_touch","at":"2026-09-06T17:54:23.098357Z","path":"/Volumes/DAL/Zettelkasten/LLMeon/30_Library/100_zettelkasten/Consilience Signals Genuine Scientific Consensus.md","op":"edit"}
+{"kind":"file_touch","at":"2026-09-06T17:54:25.86237Z","path":"/Volumes/DAL/Zettelkasten/LLMeon/30_Library/100_zettelkasten/Consilience Signals Genuine Scientific Consensus.md","op":"edit"}
+{"kind":"file_touch","at":"2026-09-06T17:54:27.981351Z","path":"/Volumes/DAL/Zettelkasten/LLMeon/30_Library/100_zettelkasten/Kuhn's Four-Stage Model of Paradigm Collapse.md","op":"edit"}
+{"kind":"command","at":"2026-09-06T17:54:34.931285Z","cmd":"grep -n \"^modified:\" \"/Volumes/DAL/Zettelkasten/LLMeon/30_Library/100_zettelkasten/Kuhn's Four-Stage Model of Paradigm Collapse.md\""}
+{"kind":"file_touch","at":"2026-09-06T17:54:40.982029Z","path":"/Volumes/DAL/Zettelkasten/LLMeon/30_Library/100_zettelkasten/Kuhn's Four-Stage Model of Paradigm Collapse.md","op":"edit"}
+{"kind":"command","at":"2026-09-06T17:54:49.829997Z","cmd":"cd \"/Volumes/DAL/Zettelkasten/LLMeon\" \u0026\u0026 uv run --with pyyaml python3 10_System/scripts/edge_lint.py --path \"30_Library\" 2\u003e\u00261 | tail -3"}
+{"kind":"session_end","at":"2026-09-06T17:55:15.019333Z"}
+{"kind":"prompt","at":"2026-09-06T17:55:39.73021Z","text":"do the same for the ppp content-blocks"}
+{"kind":"command","at":"2026-09-06T17:55:59.732671Z","cmd":"cd \"/Volumes/DAL/Zettelkasten/LLMeon\" \u0026\u0026 uv run --with pyyaml python3 10_System/scripts/edge_lint.py --path \"30_Library/SoT\" 2\u003e\u00261 | grep -i \"Principles for Peaceful\" -A 30"}
+{"kind":"command","at":"2026-09-06T17:56:13.725551Z","cmd":"cd \"/Volumes/DAL/Zettelkasten/LLMeon\" \u0026\u0026 uv run --with pyyaml python3 10_System/scripts/edge_lint.py --path \"30_Library\" 2\u003e\u00261 | grep -i \"Principles for Peaceful\" -A 5"}
+{"kind":"command","at":"2026-09-06T17:56:55.22256Z","cmd":"date -u +\"%Y-%m-%dT%H:%M:%S+00:00\""}
+{"kind":"file_touch","at":"2026-09-06T17:57:02.350876Z","path":"/Volumes/DAL/Zettelkasten/LLMeon/30_Library/SoT/SoT - Principles for Peaceful Productivity.md","op":"edit"}
+{"kind":"file_touch","at":"2026-09-06T17:57:06.158452Z","path":"/Volumes/DAL/Zettelkasten/LLMeon/30_Library/SoT/SoT - Principles for Peaceful Productivity.md","op":"edit"}
+{"kind":"file_touch","at":"2026-09-06T17:57:09.120492Z","path":"/Volumes/DAL/Zettelkasten/LLMeon/30_Library/SoT/SoT - Principles for Peaceful Productivity.md","op":"edit"}
+{"kind":"command","at":"2026-09-06T17:57:17.289157Z","cmd":"cd \"/Volumes/DAL/Zettelkasten/LLMeon\" \u0026\u0026 uv run --with pyyaml python3 10_System/scripts/edge_lint.py --path \"30_Library\" 2\u003e\u00261 | tail -3"}
+{"kind":"session_end","at":"2026-09-06T17:57:39.506469Z"}
+{"kind":"prompt","at":"2026-09-06T17:57:50.607703Z","text":"run the audit again to confirm zero gaps"}
+{"kind":"command","at":"2026-09-06T17:58:21.55845Z","cmd":"cd \"/Volumes/DAL/Zettelkasten/LLMeon\" \u0026\u0026 uv run --with pyyaml python3 10_System/scripts/edge_lint.py --audit 2\u003e\u00261 \u003e /tmp/final_check.txt\ntail -6 /tmp/final_check.txt\necho \"---plain lint (correct scope)---\"\nuv run --with pyyaml python3 10_System/scripts/edge_lint.py --path \"30_Library\" 2\u003e\u00261 | tail -3"}
+{"kind":"session_end","at":"2026-09-06T17:58:33.093942Z"}
