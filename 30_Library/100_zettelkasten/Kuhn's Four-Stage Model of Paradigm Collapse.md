@@ -4,18 +4,19 @@ axiom: true
 conformant: true
 contradicts: []
 created: 2026-09-04T09:48:51+00:00
-created_utc: '2026-09-04T14:00:00+00:00'
+created_utc: 2026-09-04T14:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-06T17:53:00+00:00
+modified: 2026-09-07T09:51:46+00:00
 permalink: llmeon/00-inbox/kuhns-four-stage-model-of-paradigm-collapse
+proposition: Science does not progress through steady linear accumulation of facts but cycles through a predictable four-stage lifecycle—Normal Science, Model Drift, Model Crisis, and Model Revolution—as anomalies accumulate, are patched over, and eventually force replacement of the reigning paradigm.
 source_title: New chat
 source_url: https://gemini.google.com/app/295a599fc8b28e35
 status: seed
 tags: [history-of-science, kuhn, paradigm-shift, philosophy-of-science]
 title: "Kuhn's Four-Stage Model of Paradigm Collapse"
 type: claim
-upstream: '[[HEAD New chat]]'
+upstream: "[[HEAD I Have Always Found Schodringer Cat a Bad Metaphor]]"
 ---
 
 ## Kuhn's Four-Stage Model of Paradigm Collapse
@@ -48,4 +49,4 @@ Describes the sociology of paradigm change, not a claim about any single paradig
 - [[Ptolemaic System as a Patched Flawed Model]]—the Ptolemaic epicycles example is this model's own Model Drift stage playing out over 1,500 years: a flawed core assumption patched with growing complexity rather than questioned.
 - [[A Paradigm Only Collapses When a Viable Replacement Exists]]—corollary, same source.
 - [[Paradigm Shifts Complete Through Generational Turnover, Not Persuasion]]—corollary, same source.
-- [[Consilience Signals Genuine Scientific Consensus]]—same source conversation, adjacent question: that note (and its four sibling diagnostics) tests whether a *current* consensus is legitimate; this note describes how a consensus *rises and falls over time*, the historical dimension the snapshot diagnostics don't cover.
+- [[Consilience Signals Genuine Scientific Consensus]]—same source conversation, adjacent question: that note (and its four sibling diagnostics) tests whether a _current_ consensus is legitimate; this note describes how a consensus _rises and falls over time_, the historical dimension the snapshot diagnostics don't cover.
