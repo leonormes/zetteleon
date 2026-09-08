@@ -2,9 +2,13 @@
 conformant: false
 created: 2026-04-10T13:00:00+00:00
 modified: 2026-08-29T09:36:00+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/100-zettelkasten/enterprise-agentic-systems-require-containerised-gateways-with-oauth-and-rbac
-tags: [enterprise-ai, gateways, governance, security]
+tags:
+- domain/llm
+- topic/agent-architecture
+- topic/security
+- topic/governance
 title: Enterprise Agentic Systems Require Containerised Gateways with OAuth and RBAC
 type: claim
 ---
@@ -30,3 +34,5 @@ Essential when agentic systems operate on enterprise infrastructure, access sens
 
 - [[API Gateways Manage and Secure Application Interfaces]]—direct concept match: MCP Gateways are a domain-specific instance of the general API gateway security pattern applied to LLM tool use rather than microservice APIs.
 - [[Least Privilege Authorization with Terraform Cloud]]—shared mechanism: both apply least-privilege access control at the layer that governs what automated systems are permitted to invoke; the principle is identical, the implementation surface differs.
+
+[extends:: [[Full-Autonomy Agent Execution Requires Sandboxing for Safety and Data Privacy, Not Just Concurrency]], strength=3, confidence=medium]

@@ -1,10 +1,15 @@
 ---
+axiom: true
 conformant: false
 created: 2026-04-10T13:00:00+00:00
 modified: 2026-08-29T09:35:57+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/100-zettelkasten/advanced-agentic-workflows-require-technical-literacy-that-consumer-framing-hides
-tags: [ai-agents, barrier-to-entry, implementation, technical-debt]
+tags:
+- domain/llm
+- topic/agent-architecture
+- topic/barrier-to-entry
+- topic/technical-debt
 title: Advanced Agentic Workflows Require Technical Literacy That Consumer Framing Hides
 type: claim
 ---
@@ -30,3 +35,6 @@ Applies when evaluating the barrier to entry for "agentic" second-brain setups, 
 
 - [[Leaky Abstractions]]—direct concept match: "easy setup" framing that conceals OAuth and CLI complexity is the leaky abstraction in action—the abstraction is presented as complete, but the underlying complexity surfaces whenever the happy path is left.
 - [[Continuous Autonomous Agent Loops Incur Significant API Cost]]—shared mechanism: both describe structural barriers that limit access to full-capability agentic systems—cost is one barrier, technical complexity is another; together they define who can actually use these workflows at full capability.
+
+[supports:: [[Agentic Collaboration Shift]], strength=2, confidence=medium]
+[depends_on:: [[Leaky Abstractions]], strength=3, confidence=high]

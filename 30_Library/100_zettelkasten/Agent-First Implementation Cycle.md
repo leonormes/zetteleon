@@ -1,13 +1,16 @@
 ---
 created: 2026-04-13T14:35:19+00:00
-created_utc: '2026-04-13T11:00:00Z'
+created_utc: 2026-04-13T11:00:00Z
 kind: procedure
 modified: 2026-09-03T12:11:05+00:00
 permalink: llmeon/30-library/100-zettelkasten/agent-first-implementation-cycle
 source_title: The Agent-First Workflow
 source_url: https://gemini.google.com/app/3efdb3bd475edbb1
 status: seed
-tags: [ai-agents, automation, software-engineering, workflows]
+tags:
+- domain/llm
+- topic/agent-architecture
+- topic/workflow-design
 title: Agent-First Implementation Cycle
 type: atom
 upstream: '[[HEAD The Agent-First Workflow]]'
@@ -40,3 +43,5 @@ Replaces the traditional human-led implementation followed by testing. Effective
 ### See Also
 
 - [[SoT - Agentic AI Design Patterns]]
+
+[implements:: [[SoT - Agentic AI Design Patterns]], strength=3, confidence=medium]

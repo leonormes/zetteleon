@@ -2,9 +2,13 @@
 conformant: false
 created: 2026-04-10T12:00:00+00:00
 modified: 2026-08-29T09:35:59+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/100-zettelkasten/continuous-autonomous-agent-loops-incur-significant-api-cost
-tags: [api-costs, constraints, economics, scalability]
+tags:
+- domain/llm
+- topic/agent-architecture
+- topic/cost-optimization
+- topic/economics
 title: Continuous Autonomous Agent Loops Incur Significant API Cost
 type: claim
 ---
@@ -38,3 +42,5 @@ Applies to agentic frameworks consuming commercial LLM APIs (e.g., OpenAI, Anthr
 ### Single-agent Vs Multi-agent (Cost vS hOrizon)
 
 This note documents the cost ceiling of multi-agent loops. [[Implicit Multi-Agent Coordination via Shared File System (CORAL)]] and [[SoT - Agentic Roles]] argue for multi-agent architectures. The trade-off between cost (this note) and capability/decomposition (the multi-agent notes) is not stated anywhere in the vault. Resolution depends on cost tolerance and task horizon.
+
+[supports:: [[Unsustainable Agent Token Costs Are Driving a Shift from Flat-Fee to Usage-Based Pricing]], strength=3, confidence=medium]

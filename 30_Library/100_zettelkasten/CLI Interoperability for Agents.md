@@ -1,13 +1,17 @@
 ---
 created: 2026-04-13T14:35:19+00:00
-created_utc: '2026-04-13T11:00:00Z'
+created_utc: 2026-04-13T11:00:00Z
 kind: heuristic
 modified: 2026-08-29T09:35:58+00:00
 permalink: llmeon/30-library/100-zettelkasten/cli-interoperability-for-agents
 source_title: The Agent-First Workflow
 source_url: https://gemini.google.com/app/3efdb3bd475edbb1
 status: seed
-tags: [cli, interoperability, tooling, unix-philosophy]
+tags:
+- domain/llm
+- topic/agent-architecture
+- topic/tooling
+- topic/cli
 title: CLI Interoperability for Agents
 type: atom
 upstream: '[[HEAD The Agent-First Workflow]]'
@@ -33,3 +37,5 @@ Based on the Unix philosophy of modular tooling. It applies to the design of dev
 ### Related
 
 - [[SoT - Agentic AI Design Patterns]]—shared mechanism: modular tool access is a core design pattern for reliable agentic workflows.
+
+[depends_on:: [[Agent-Ergonomic CLIs Output Token-Efficient Plaintext Instead of Verbose JSON Schemas]], strength=3, confidence=medium]

@@ -4,21 +4,22 @@ axiom: true
 conformant: true
 contradicts: []
 created: 2026-09-04T09:25:53+00:00
-created_utc: '2026-09-04T14:00:00+00:00'
+created_utc: 2026-09-04T14:00:00+00:00
 epistemic_status: high
 evidence_links: []
 modified: 2026-09-04T09:49:10+00:00
 permalink: llmeon/00-inbox/data-transparency-over-authority-distinguishes-genuine-consensus-from-groupthink
-proposition: A legitimate scientific consensus responds to challenge with open data
-  and repeatable methodology, while groupthink relies on appeals to authority, credentialism,
-  and the claim that outsiders lack the capacity to understand.
+proposition: A legitimate scientific consensus responds to challenge with open data and repeatable methodology, while groupthink relies on appeals to authority, credentialism, and the claim that outsiders lack the capacity to understand.
 source_title: New chat
 source_url: https://gemini.google.com/app/295a599fc8b28e35
 status: seed
-tags: [epistemology, philosophy-of-science, scientific-consensus, transparency]
+tags:
+  - epistemology
+  - philosophy-of-science
+  - scientific-consensus
+  - transparency
 title: Data Transparency Over Authority Distinguishes Genuine Consensus from Groupthink
 type: claim
-upstream: '[[HEAD New chat]]'
 ---
 
 ## Data Transparency Over Authority Distinguishes Genuine Consensus from Groupthink

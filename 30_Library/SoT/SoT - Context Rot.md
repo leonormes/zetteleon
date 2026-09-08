@@ -51,4 +51,4 @@ Force the model to "Zoom Out." Before writing code, ask it to:
 
 ---
 
-See Also: [[SoT - Parochial Code]], [[SoT - Macro-Micro Unification]], [[Context Engineering]]
+See Also: [[SoT - Parochial Code]], [[SoT - Macro-Micro Unification]], [[SoT - Context Engineering]]

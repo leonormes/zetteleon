@@ -2,7 +2,7 @@
 aliases: [ADHD Hardware Model, ADHD Neurology, The ADHD Operating System]
 conformant: true
 created: 2026-01-03T10:10:15+00:00
-modified: 2026-08-29T09:36:33+00:00
+modified: 2026-09-08T00:00:00+00:00
 permalink: llmeon/30-library/so-t/so-t-adhd-neurology-core-concepts
 source_of_truth: true
 tags: [adhd, dopamine, emotional-regulation, neurology, system/sot, TheHuman/Health/ADHD]
@@ -10,7 +10,6 @@ title: SoT - ADHD Neurology & Core Concepts
 type: sot
 ---
 
-> Open threads: [[HEAD - Does my ADHD SoT overstate a single architecture?]]
 
 > Position in the graph. This is the _mechanism_ layer of the ADHD cluster—the note that [[SoT - ADHD Management Protocols]] rests on, and that 45 other notes reference. It is where the vault's declared ADHD axioms get assembled into a single operating-system model. Edges below point _downward_ to those axioms and atoms; nothing here points back up at the protocol layer, which would close a cycle.
 
@@ -54,13 +53,7 @@ Motivation is not a choice; it is a chemical reaction. The ADHD brain only "boot
 
 ### 1.3 The Gut-Brain Energy Axis (The Fuel Supply)
 
-The ADHD "Resource Management Failure" extends to the biological energy supply. Recent research indicates that the Gut Microbiome directly influences the brain's energy budget and development:
-
-- Metabolic Support: Microbes from large-brained primates produce higher levels of metabolic energy, necessary for fueling synaptic plasticity and brain growth.
-- Gene Expression: The microbiome regulates gene expression linked to energy production and learning pathways in the brain.
-- The "Wrong" Microbes: Exposure to certain microbial profiles during development is linked to gene expression patterns associated with ADHD, autism, and schizophrenia, suggesting a causal role in neurodevelopmental outcomes.
-
-> ⚠️ Ungrounded section. No atom, claim or evidence note anywhere in the vault supports this. It is the only section here making a _causal_ developmental claim, and it is the only one with zero edges. See _Gaps_ below before citing it.
+The ADHD "Resource Management Failure" is claimed to extend to the biological energy supply via the gut microbiome. See [[The Gut Microbiome May Influence ADHD-Linked Brain Energy Metabolism and Development]] for the full claim—it remains ungrounded (no supporting atom, claim, or evidence note anywhere in the vault), so it stays quarantined in its own note rather than asserted inline here.
 
 ### 1.4 The Tenacity Muscle (AMCC & Reward Prediction)
 
@@ -70,11 +63,11 @@ Tenacity is not a character trait; it is a physical structure in the Anterior Mi
 	- The Novice High: Rapid learning = high prediction error = dopamine flood.
 	- The Plateau: Once the core logic is understood (the "20%"), the rate of novelty drops. Prediction error hits zero, and the dopamine supply is cut off.
 	- The Quit Trigger: The ADHD brain interprets this chemical drop as "boredom" or "lost interest," triggering a shift to a new "Shiny Object."
-- The Willpower Muscle: The AMCC only grows when we perform tasks we do not want to do. If we enjoy the work, the AMCC remains dormant. Frequent "quitting" leads to AMCC atrophy, while overcoming resistance leads to hypertrophy.
+- The Willpower Muscle: see [[The AMCC Grows Only Through Effortful Unwanted Tasks (The Willpower Muscle)]] for the full mechanism—frequent quitting under resistance atrophies it, pushing through hypertrophies it.
 
-[depends_on:: [[Dopamine Neurons Encode Reward Prediction Error, Not Pleasure]], strength=5, confidence=high] [depends_on:: [[Dopamine Regulates Motivation (Wanting) Separately from Pleasure (Liking)]], confidence=high]
+[depends_on:: [[Dopamine Neurons Encode Reward Prediction Error, Not Pleasure]], strength=5, confidence=high] [depends_on:: [[Dopamine Regulates Motivation (Wanting) Separately from Pleasure (Liking)]], confidence=high] [depends_on:: [[The AMCC Grows Only Through Effortful Unwanted Tasks (The Willpower Muscle)]], confidence=medium]
 
-_The Novice High → Plateau → Quit Trigger sequence is a direct application of the prediction-error axiom: when the error goes to zero, so does the signal. The AMCC hypertrophy claim itself has no atom—see Gaps._
+_The Novice High → Plateau → Quit Trigger sequence is a direct application of the prediction-error axiom: when the error goes to zero, so does the signal._
 
 ### 1.5 Functional Brain Networks (The Switching Mechanics)
 
@@ -162,13 +155,11 @@ While often obscured by executive dysfunction, the ADHD brain possesses distinct
 
 Japanese concepts that align with the ADHD experience:
 
-- Wabi-Sabi: Acceptance of imperfection. Counteracts perfectionism.
-- Gaman: Endurance with dignity. Develops resilience against inertia.
-- Kintsugi: The art of repairing with gold. Honoring "broken" parts as sources of strength.
+- [[SoT - Wabi-Sabi]]: acceptance of imperfection. Counteracts perfectionism.
+- [[Gaman - Enduring Hardship With Dignity (Japanese Concept)]]: endurance with dignity. Develops resilience against inertia.
+- Kintsugi: the art of repairing with gold, honouring "broken" parts as sources of strength—covered in full at [[SoT - Wabi-Sabi]] §3.1, not a separate note.
 
-[synthesizes:: [[SoT - Wabi-Sabi]], confidence=medium]
-
-_Only Wabi-Sabi has a note. Gaman and Kintsugi are named here and nowhere else in the vault._
+[synthesizes:: [[SoT - Wabi-Sabi]], confidence=medium] [synthesizes:: [[Gaman - Enduring Hardship With Dignity (Japanese Concept)]], confidence=medium]
 
 ---
 
@@ -184,9 +175,9 @@ Recorded as prose where the conflict is real but a typed edge would overstate it
 
 Sections making assertions that nothing in the vault currently supports.
 
-- §1.3 Gut-Brain Energy Axis—zero supporting notes; "microbiome" appears in only one other file ([[SoT - Metabolic Health & Satiety Management]]) and not on this topic. The strongest claim here ("suggesting a causal role in neurodevelopmental outcomes") is also the least grounded. Candidate for a claim stub with an explicit source.
-- §1.4 AMCC hypertrophy/atrophy—the reward-prediction half is axiom-backed; the "willpower muscle grows only under unwanted effort" half has no note. It is load-bearing for [[SoT - ADHD Management Protocols]] §7.1 (The 15% Push).
-- §4 Gaman and Kintsugi—named nowhere else. [[SoT - Wabi-Sabi]] exists; its two companions do not.
+- ~~§1.3 Gut-Brain Energy Axis—zero supporting notes.~~ Resolved 2026-09-08 by extraction, not by grounding: the claim now lives at [[The Gut Microbiome May Influence ADHD-Linked Brain Energy Metabolism and Development]], still `epistemic_status: low` and still uncited. The gap in the argument graph is unchanged; what changed is that it's no longer asserted inline in a canonical SoT without a warning attached.
+- ~~§1.4 AMCC hypertrophy/atrophy—the willpower-muscle half has no note.~~ Resolved 2026-09-08: extracted to [[The AMCC Grows Only Through Effortful Unwanted Tasks (The Willpower Muscle)]] and wired with `depends_on`. Still load-bearing for [[SoT - ADHD Management Protocols]] §7.1 (The 15% Push).
+- ~~§4 Gaman and Kintsugi—named nowhere else.~~ Partially stale: Kintsugi was already covered in full at [[SoT - Wabi-Sabi]] §3.1—this note just never linked to it. Gaman genuinely had no note; created [[Gaman - Enduring Hardship With Dignity (Japanese Concept)]] 2026-09-08.
 
 ## See Also
 
@@ -197,6 +188,7 @@ Sections making assertions that nothing in the vault currently supports.
 
 ## Refresh Log
 
+- 2026-09-08—Atomisation pass (this note was flagged too large/inaccessible). Extracted three orphaned raw-prose sections into their own atomic notes rather than trimming content: [[The Gut Microbiome May Influence ADHD-Linked Brain Energy Metabolism and Development]] (§1.3, still ungrounded—extraction doesn't manufacture evidence), [[The AMCC Grows Only Through Effortful Unwanted Tasks (The Willpower Muscle)]] (§1.4), and [[Gaman - Enduring Hardship With Dignity (Japanese Concept)]] (§4, new note; also fixed the stale claim that Kintsugi had no note—it does, at [[SoT - Wabi-Sabi]] §3.1). Wired the AMCC and Gaman atoms back in with `depends_on`/`synthesizes`. This note's own body shrank; the graph gained three nodes and did not gain any new dangling edges (`edge_lint.py --path` clean on all touched files).
 - 2026-07-25—Outbound connectivity pass. The note had 45 inbound references and zero outgoing links. Added 24 typed edges, section by section.
 - Axioms wired up. This SoT now declares dependence on nine of the vault's eleven axioms—the importance-based baseline, activation impairment, working-memory re-planning loop, PFC catecholamine insufficiency, PFC executive control, dopamine hyposensitivity, reward-pathway dysfunction, reward prediction error, wanting/liking separation, and RSD. It `synthesizes` the Glitchy Switch axiom rather than depending on it, since §1.5 restates that claim rather than assuming it.
 - Cycle avoided deliberately. Three notes already point _at_ this one ([[SoT - ADHD Management Protocols]], [[SoT - Values and Eudaimonia]], [[I have a lot of shame about my life]]). No edge was emitted back toward any of them.

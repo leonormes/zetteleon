@@ -2,9 +2,12 @@
 conformant: false
 created: 2026-04-10T13:00:00+00:00
 modified: 2026-08-29T09:36:00+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/100-zettelkasten/expert-role-shifts-from-explaining-concepts-to-humans-to-tuning-tutor-agents
-tags: [ai-agents, education, knowledge-distillation, tutors]
+tags:
+- domain/llm
+- topic/agent-architecture
+- topic/education
 title: Expert Role Shifts from Explaining Concepts to Humans to Tuning Tutor-Agents
 type: claim
 ---
@@ -29,3 +32,5 @@ Requires the expert to be capable of reducing a complex domain to its irreducibl
 ### Related
 
 - [[PKM Generates Unique Insights via Personal Context That AI Cannot Replicate]]—extends: while PKM produces insights AI cannot replicate, this atom identifies the complementary pattern—experts' knowledge is most valuably deployed in encoding their understanding for agents to deliver, not in direct transmission to individual learners.
+
+[depends_on:: [[SoT - AI Agent Skill Architecture]], strength=2, confidence=medium]

@@ -3,7 +3,7 @@ aliases: []
 conformant: true
 contradicts: []
 created: 2026-09-04T09:25:05+00:00
-created_utc: '2026-09-04T14:00:00+00:00'
+created_utc: 2026-09-04T14:00:00+00:00
 epistemic_status: high
 evidence_links: []
 modified: 2026-09-06T17:53:00+00:00
@@ -11,10 +11,13 @@ permalink: llmeon/00-inbox/sciences-adversarial-incentive-structure-rewards-over
 source_title: New chat
 source_url: https://gemini.google.com/app/295a599fc8b28e35
 status: seed
-tags: [error-correction, incentives, peer-review, philosophy-of-science]
-title: "Science's Adversarial Incentive Structure Rewards Overturning Established Theories"
+tags:
+  - error-correction
+  - incentives
+  - peer-review
+  - philosophy-of-science
+title: Science's Adversarial Incentive Structure Rewards Overturning Established Theories
 type: claim
-upstream: '[[HEAD New chat]]'
 ---
 
 ## Science's Adversarial Incentive Structure Rewards Overturning Established Theories

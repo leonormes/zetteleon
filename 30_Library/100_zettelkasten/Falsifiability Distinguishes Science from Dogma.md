@@ -1,18 +1,22 @@
 ---
 conformant: true
 created: 2026-09-04T09:25:12+00:00
-created_utc: '2026-09-04T14:00:00+00:00'
-definition: "A theory is scientific only if it is falsifiable — its proponents can state in advance what result would prove it wrong — whereas dogma is structured to protect its core claim from any possible disconfirmation."
-distinguishes_from: ["[[Trusting a Scientific Authority Feels Psychologically Identical to Trusting a False One]]"]
+created_utc: 2026-09-04T14:00:00+00:00
+definition: A theory is scientific only if it is falsifiable — its proponents can state in advance what result would prove it wrong — whereas dogma is structured to protect its core claim from any possible disconfirmation.
+distinguishes_from:
+  - "[[Trusting a Scientific Authority Feels Psychologically Identical to Trusting a False One]]"
 modified: 2026-09-06T17:51:00+00:00
 permalink: llmeon/00-inbox/falsifiability-distinguishes-science-from-dogma
 source_title: New chat
 source_url: https://gemini.google.com/app/295a599fc8b28e35
 status: seed
-tags: [epistemology, falsifiability, philosophy-of-science, popper]
+tags:
+  - epistemology
+  - falsifiability
+  - philosophy-of-science
+  - popper
 title: Falsifiability Distinguishes Science from Dogma
 type: concept
-upstream: '[[HEAD New chat]]'
 used_in_claims: []
 ---
 
@@ -53,3 +57,5 @@ The Popperian demarcation criterion. Applies to any claim presented as scientifi
 - [[Predictive Power Verifies a Theory via Its Outputs, Not Its Proofs]]—sibling demarcation criterion from the same source conversation: that note verifies a theory by whether its outputs work (GPS, semiconductors); this note verifies it by whether its structure admits disproof. Two independent tests for the same question, not the same test twice.
 - [[The Public Paper Trail of Science Makes Its Self-Correction Verifiable Without Firsthand Observation]]—the institutional mechanism that makes this note's own claim ("science updates its models when the data demands it") checkable from outside: retractions, public peer review, and competing papers are what that updating looks like on the record, for anyone who wants to verify it happened.
 - [[Consilience Signals Genuine Scientific Consensus]]—sibling cluster, same source conversation, but a different specific question: this note tests whether one *claim's structure* is scientific; that note (and its four sibling diagnostics) tests whether a *consensus* is legitimate versus groupthink.
+- [[Falsifiability Is Necessary But Not Sufficient for a Claim to Be Scientific]]—qualifies this note: falsifiability is the property that makes a claim testable at all, but that note names the further conditions (measurement quality, causal design, statistical reasoning, coherence, community scrutiny) needed for a falsifiable claim to actually be good science.
+- [[A Falsifiable Engineering Claim Names Its Outcome Comparison Confounders and Uncertainty Bound]]—a concrete, engineering-domain instantiation of this note's demarcation criterion.

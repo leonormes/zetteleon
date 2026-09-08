@@ -1,13 +1,17 @@
 ---
 created: 2026-04-13T14:37:11+00:00
-created_utc: '2026-04-13T11:10:00Z'
+created_utc: 2026-04-13T11:10:00Z
 kind: claim
 modified: 2026-08-29T09:35:57+00:00
 permalink: llmeon/30-library/100-zettelkasten/agentic-collaboration-shift
 source_title: Agentic Engineering and AI Workflow Management
 source_url: https://gemini.google.com/app/7a41bb3090001aa4
 status: seed
-tags: [ai-agents, automation, orchestration, software-engineering]
+tags:
+- domain/llm
+- topic/agent-architecture
+- topic/workflow-design
+- topic/multi-agent
 title: Agentic Collaboration Shift
 type: atom
 upstream: '[[HEAD - Agentic Engineering and AI Workflow Management]]'
@@ -34,3 +38,5 @@ Applies to modern software development environments utilizing LLMs for complex, 
 
 - [[Agent-First Implementation Cycle]]—shared mechanism: both describe the inversion of the development cycle where agents draft and humans manage.
 - [[Shift to Architectural Oversight]]—supports: the collaboration shift is the driver for the engineer's new focus on architecture.
+
+[extends:: [[Engineer Involvement Compresses to Planning and Review as Agentic Workflows Mature]], strength=3, confidence=medium]

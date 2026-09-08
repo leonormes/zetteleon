@@ -20,3 +20,5 @@ Behavioral Manifestations:
 - Avoidance creates "gnawing rats" (see [[Gnawing Rats Metaphor for Avoided Tasks]])
 - Requires structured engagement strategies
 - Micro-steps overcome initial resistance
+
+[supports:: [[ADHD Overthinking is a Substitute for Action]]]

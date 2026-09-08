@@ -2,9 +2,14 @@
 conformant: false
 created: 2026-04-10T13:00:00+00:00
 modified: 2026-08-29T09:35:57+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/100-zettelkasten/agentic-autonomy-accelerates-fastest-in-domains-where-success-is-verifiable
-tags: [ai-progress, coding, reinforcement-learning, verification]
+tags:
+- domain/llm
+- topic/agent-architecture
+- topic/agentic-autonomy
+- topic/evaluation
+- topic/reinforcement-learning
 title: Agentic Autonomy Accelerates Fastest in Domains Where Success Is Verifiable
 type: claim
 ---
@@ -29,3 +34,5 @@ Applies specifically to domains where a test suite, a loss function, or a logica
 ### Related
 
 - [[Optimization Criteria Must Be Binary Single-Variable Testable Conditions]]—shared mechanism: verifiability requires the same property as effective optimization criteria—a binary, unambiguous success signal; the atom explains structurally why verifiable domains enable agentic acceleration.
+
+[depends_on:: [[LLM-as-Judge for Autonomous Agent Evaluation]], strength=3, confidence=medium]

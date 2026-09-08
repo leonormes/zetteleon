@@ -18,7 +18,7 @@ True "understanding" in AI Coding Agents is not defined by syntax recall or pass
 
 | Dimension | Question | Definition | Success Criteria |
 |:--- |:--- |:--- |:--- |
-| 1. Structural | Where? | Spatial awareness of the code's location within the module, layer, and service hierarchy. | Adherence to [[Separation of Concerns]]. No leaky abstractions. |
+| 1. Structural | Where? | Spatial awareness of the code's location within the module, layer, and service hierarchy. | Adherence to [[SoT - Atomicity and Loose Coupling|Separation of Concerns]]. No leaky abstractions. |
 | 2. Causal | So What? | Simulation of 2nd and 3rd order effects. Counterfactual reasoning ("If I remove this check, what breaks downstream?"). | Low [[SoT - Temporal Projection|Blast Radius]]. Prediction of side effects. |
 | 3. Idiomatic | How? | Adherence to the project's specific "dialect" (e.g., [[SoT - Data-Oriented Design|Data-Oriented Design]]) rather than generic textbook patterns. | Consistency with existing code style and patterns. |
 | 4. Constraint | What Not? | Awareness of the "Negative Space"—what is forbidden (e.g., circular dependencies, raw SQL in views). | Zero violation of architectural invariants. |

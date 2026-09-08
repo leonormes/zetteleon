@@ -6,8 +6,11 @@ modified: 2026-08-29T09:36:02+00:00
 permalink: llmeon/30-library/100-zettelkasten/implicit-multi-agent-coordination-via-shared-file-system
 prodos.kind: atomic
 prodos.lifecycle: stable
-proposition: "Global coordination between parallel autonomous agents can be achieved implicitly through a shared hierarchical file system rather than direct message passing, resulting in deterministic audit trails and lower communication overhead."
-tags: [coordination, determinism, file-system, multi-agent-systems]
+proposition: Global coordination between parallel autonomous agents can be achieved implicitly through a shared hierarchical file system rather than direct message passing, resulting in deterministic audit trails and lower communication overhead.
+tags:
+- domain/llm
+- topic/agent-architecture
+- topic/multi-agent
 title: Implicit Multi-Agent Coordination via Shared File System
 type: claim
 ---

@@ -35,7 +35,7 @@ When a developer (or LLM) "zooms in" to write a function, they lose the resoluti
 
 ### The Unification Strategy
 
-We cannot "train" our way out of this cognitive limit. We must engineer the bridge using [[Context Engineering]].
+We cannot "train" our way out of this cognitive limit. We must engineer the bridge using [[SoT - Context Engineering]].
 
 1. The LLM as the Macro-Holder: The AI's role is to hold the "General Relativity" (The Map) in "Concentrated Detail" while the human operates on the "Quantum Mechanics" (The Code).
 2. Concentrated Detail: Prompts must not dump raw code; they must provide a Compressed Architectural Skeleton that acts as the immutable "Physics" of the project.
@@ -43,4 +43,6 @@ We cannot "train" our way out of this cognitive limit. We must engineer the brid
 
 ---
 
-See Also: [[SoT - Parochial Code]], [[Context Rot]], [[Cognitive Load Theory]]
+See Also: [[SoT - Parochial Code]], [[SoT - Context Rot]], [[Cognitive Load Theory]]
+
+> Unresolved reference: `[[Cognitive Load Theory]]` has no matching note. The existing [[Cognitive Load]] note is a different (ADHD/personal-productivity) domain and is not a correct redirect — left unresolved pending a decision on whether a software-engineering-specific Cognitive Load Theory note should be authored.

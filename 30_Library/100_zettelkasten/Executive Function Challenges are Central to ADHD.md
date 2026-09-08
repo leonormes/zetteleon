@@ -43,6 +43,7 @@ These challenges are rooted in the brain's physical architecture and chemistry:
 
 ## Related Knowledge
 
+- [[Executive Dysfunction Has Causes Beyond ADHD Including Autism and Degenerative Disease]] (Scope note: ADHD is one of several causes of EF impairment, not the exclusive one)
 - [[SoT - Prosthetic Executive Function]] (The "Prosthetic" solution)
 - [[SoT - ADHD Neurology & Core Concepts]] (The core diagnosis)
 - [[The ADHD brain operates on an Interest-Based Nervous System|SoT - ADHD and Motivation]] (The fuel problem)

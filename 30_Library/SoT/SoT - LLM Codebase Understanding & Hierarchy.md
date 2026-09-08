@@ -6,7 +6,7 @@ modified: 2026-08-29T09:36:39+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-llm-codebase-understanding-hierarchy
 source_of_truth: true
-tags: [concept/code-analysis, concept/code-representation, concept/context-management, domain/llm-architecture, llm, type/SoT]
+tags: [concept/code-analysis, concept/code-representation, concept/context-management, domain/llm-architecture, llm, type/sot]
 title: SoT - LLM Codebase Understanding & Hierarchy
 type: sot
 ---
@@ -68,6 +68,6 @@ The Cartographer is an agent role that acts as a Graph Pruner to manage "Attenti
 
 ## Related Knowledge
 
-- Foundational Physics: This hierarchy relies on [[SoT - Complexity Conservation]]. We move complexity from dynamic logic (code) to static representation (RIG) to lower the energy required for the LLM to reason correctly.
+- Foundational Physics: This hierarchy relies on [[SoT - Conservation of Complexity]]. We move complexity from dynamic logic (code) to static representation (RIG) to lower the energy required for the LLM to reason correctly.
 - Complexity Law: See [[SoT - LLM Reasoning Obeys the Complexity Conservation Law]].
 - Failure Modes: See [[SoT - Parochial Code]] for why LLMs fail without global context.

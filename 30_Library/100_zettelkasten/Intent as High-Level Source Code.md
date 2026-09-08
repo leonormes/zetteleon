@@ -38,3 +38,5 @@ A fundamental shift in the level of software abstraction enabled by generative A
 ### See Also
 
 - [[MOC - Software Architecture Principles]]
+
+[supports:: [[The Unit of Software Engineering Is Shifting from Code Lines to Intent Expressions]], strength=3, confidence=medium]

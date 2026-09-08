@@ -2,9 +2,13 @@
 conformant: false
 created: 2026-04-10T13:00:00+00:00
 modified: 2026-08-29T09:35:58+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/100-zettelkasten/auto-researcher-agents-manage-the-ml-pipeline-via-a-defined-objective-metric
-tags: [automl, machine-learning, optimisation, research-agents]
+tags:
+- domain/llm
+- topic/agent-architecture
+- topic/machine-learning
+- topic/automl
 title: Auto-Researcher Agents Manage the ML Pipeline via a Defined Objective Metric
 type: claim
 ---
@@ -30,3 +34,5 @@ Requires a well-defined, automatically computable validation metric and an envir
 
 - [[Automated Optimization Loops Degrade Beyond 15 Iterations]]—shared mechanism: the auto-researcher framework is precisely the workflow context for which that degradation heuristic was derived; unbounded agent loops incur both quality degradation and cost, making loop-bound constraints essential.
 - [[SoT - Agentic AI Design Patterns]]—extends: the auto-researcher instantiates the "Exploration & Discovery" and "Learning & Adaptation" agentic patterns in a machine-learning research context.
+
+[implements:: [[SoT - ML Engineering for AI Agents]], strength=3, confidence=medium]

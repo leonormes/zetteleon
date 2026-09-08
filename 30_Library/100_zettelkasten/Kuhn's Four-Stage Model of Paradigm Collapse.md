@@ -16,7 +16,6 @@ status: seed
 tags: [history-of-science, kuhn, paradigm-shift, philosophy-of-science]
 title: "Kuhn's Four-Stage Model of Paradigm Collapse"
 type: claim
-upstream: "[[HEAD I Have Always Found Schodringer Cat a Bad Metaphor]]"
 ---
 
 ## Kuhn's Four-Stage Model of Paradigm Collapse

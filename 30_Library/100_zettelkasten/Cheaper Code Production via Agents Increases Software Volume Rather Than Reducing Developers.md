@@ -1,11 +1,17 @@
 ---
-aliases: [Software Jevons Paradox]
+aliases:
+- Software Jevons Paradox
 conformant: false
 created: 2026-04-10T13:00:00+00:00
 modified: 2026-08-29T09:35:58+00:00
 non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/100-zettelkasten/cheaper-code-production-via-agents-increases-software-volume-rather-than-reducing-developers
-tags: [economics, jevons-paradox, labor, labor-market, software-demand, software-industry]
+tags:
+- domain/llm
+- topic/agent-architecture
+- topic/economics
+- topic/jevons-paradox
+- topic/labor-market
 title: Cheaper Code Production via Agents Increases Software Volume Rather Than Reducing Developers
 type: claim
 ---
@@ -35,3 +41,5 @@ Assumes software demand is elastic and currently constrained by the cost and sca
 - [[Generalists Have an Advantage in the Information Age]]—shared mechanism: if code becomes abundant, the bottleneck shifts to integration and synthesis—precisely the domains where generalist, systems-level thinking dominates over specialist implementation knowledge.
 - [[The Unit of Software Engineering Is Shifting from Code Lines to Intent Expressions]]—extends: the Jevons paradox claim provides the economic dimension of the macro-delegation shift; cheaper production enables more ambitious scope, which requires more sophisticated intent specification.
 - [[Commoditization of Manual Coding]]—supports: implementation commoditization is the supply-side driver that activates the Jevons paradox here; cheaper code production is the result of manual coding becoming a commodity.
+
+[extends:: [[SoT - Agentic AI Design Patterns]], strength=2, confidence=medium]

@@ -7,7 +7,11 @@ permalink: llmeon/30-library/100-zettelkasten/agentic-autonomy-as-state-machine-
 source_title: AI Agent Architecture and the Modern Tech Stack
 source_url: https://gemini.google.com/app/509937047bd0b955
 status: seed
-tags: [ai-agents, autonomy, control-flow, state-machines]
+tags:
+- domain/llm
+- topic/agent-architecture
+- topic/agentic-autonomy
+- topic/control-flow
 title: Agentic Autonomy as State Machine Logic
 type: atom
 upstream: '[[HEAD The Failure of Human-Centric Design]]'
@@ -35,3 +39,5 @@ Rebuttal to the perception of unconstrained AI decision-making. It highlights th
 - [[Graph-Based Orchestration]]—shared mechanism: the graph is the tool used to constrain and define the autonomy.
 - [[LLM Architectural Judgment Gap]]—supports: structural constraints are required precisely because agents lack intrinsic architectural judgment.
 - [[SoT - Flow Engineering]]—supports: enforcing constraints programmatically is the core of flow engineering.
+
+[depends_on:: [[Agent Harness - Wrapping LLMs in Deterministic Software Controls]], strength=3, confidence=medium]

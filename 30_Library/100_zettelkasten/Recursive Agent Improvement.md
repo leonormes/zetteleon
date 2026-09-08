@@ -1,13 +1,16 @@
 ---
 created: 2026-04-14T20:27:35+00:00
-created_utc: '2026-04-14T13:20:00Z'
+created_utc: 2026-04-14T13:20:00Z
 kind: procedure
 modified: 2026-08-29T09:36:04+00:00
 permalink: llmeon/30-library/100-zettelkasten/recursive-agent-improvement
 source_title: Archon and Extreme Harness Engineering
 source_url: https://youtube.com/watch?v=qMnClynCAmM
 status: seed
-tags: [autonomous-agents, feedback-loops, self-improvement]
+tags:
+- domain/llm
+- topic/agent-architecture
+- topic/feedback-loops
 title: Recursive Agent Improvement
 type: atom
 upstream: '[[SoT - Agentic AI Design Patterns]]'
@@ -38,3 +41,5 @@ Part of the autonomous maintenance and refinement cycle in advanced agentic harn
 ### See Also
 
 - [[SoT - LLM Wiki Pattern]]
+
+[depends_on:: [[Trace Logging and Event Trees for Agent Observability]], strength=3, confidence=medium]

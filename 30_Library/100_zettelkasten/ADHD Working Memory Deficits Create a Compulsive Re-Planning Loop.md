@@ -3,7 +3,7 @@ aliases: [Re-planning Loop]
 axiom: true
 conformant: false
 created: 2025-11-12T15:00:03+00:00
-modified: 2026-08-29T09:35:57+00:00
+modified: 2026-09-08T08:51:43+00:00
 non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/100-zettelkasten/adhd-working-memory-deficits-create-a-compulsive-re-planning-loop
 tags: [anxiety, rumination, TheHuman/Health/ADHD, working-memory]
@@ -22,3 +22,5 @@ Details: The "out of sight, out of mind" nature of ADHD working memory means tha
 [[Executive Function Challenges are Central to ADHD]]—working memory is one of the six EF domains named in the parent claim
 
 [supports:: [[Executive Function Challenges are Central to ADHD]]]
+
+[extends:: [[ADHD Overthinking is a Substitute for Action]]]

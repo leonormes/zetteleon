@@ -59,6 +59,15 @@ VOCABULARY = {
 CONFIDENCE_VALUES = {"high", "medium", "low"}
 STRENGTH_MIN, STRENGTH_MAX = 1, 5
 
+# Obsidian Tasks-plugin dataview-format fields share the same `[key:: value]`
+# bracket syntax as a typed edge but belong to an unrelated plugin (per-task
+# metadata, not a note-to-note relationship). Ignore them outright rather than
+# flagging every daily-note checklist as an "unknown relationship" / dangling
+# edge — see SoT - Typed Edge Vocabulary §5.1: only the canonical
+# `[rel:: [[target]]]` form is parsed; this is a second non-canonical grammar
+# that happens to collide syntactically, not a vocabulary violation.
+TASKS_PLUGIN_FIELDS = {"due", "completion", "priority"}
+
 # Directories never scanned (sealed / non-TAC / machinery). See Frontmatter
 # Contract §8 for the governance rationale.
 EXCLUDE_DIRS = {
@@ -293,6 +302,8 @@ def lint_file(fp: str, idx: Index) -> tuple[list[Finding], int]:
     text = mask_code(text)
     edge_count = 0
     for _m, e in iter_edges(text):
+        if e.rel in TASKS_PLUGIN_FIELDS:
+            continue
         edge_count += 1
         line, rel, target, attr_raw = e.line, e.rel, e.target, e.attrs_raw
 

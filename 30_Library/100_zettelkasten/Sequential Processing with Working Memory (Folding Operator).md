@@ -1,7 +1,7 @@
 ---
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: high
-modified: 2026-08-29T09:36:05+00:00
+modified: 2026-09-07T07:10:55+00:00
 permalink: llmeon/30-library/100-zettelkasten/sequential-processing-with-working-memory-folding-operator
 proposition: The Folding operator processes batches of documents sequentially, carrying
   'a "scratchpad" of working memory forward between iterations. This enables the LLM'
@@ -47,9 +47,5 @@ Source: "Paper Dives: MapReduce Is Back - And It Fixes Broken LLM Pipelines | Do
 - [[Agent Feedback Loops Require Bidirectional Memory Writes]]—related: scratchpad enables feedback and learning across iterations.
 - [[DocETL Framework - Declarative Pipelines with Agentic Optimization]]—implements: Folding is a core DocETL operator.
 - [[Entity Canonicalization via LLM-Guided Resolution]]—related: folding enables consistent entity identification across documents.
-
-### See Also
-
-- [[SoT - Stateful Pipelines in LLM Systems]]
 
 [implements:: [[Persistent Memory Layers Enable Multi-Session Agent Continuity]], strength=3, confidence=medium]

@@ -6,7 +6,11 @@ last_reviewed: ''
 modified: 2026-08-29T09:36:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/deep-agents-for-long-horizon-planning
 status: ''
-tags: [LangGraph, Planning, SoftwareEngineering/AI, SoftwareEngineering/AI/agents]
+tags:
+- domain/llm
+- topic/agent-architecture
+- topic/langgraph
+- topic/planning
 title: Deep Agents for Long Horizon Planning
 type: ''
 updated: null
@@ -25,3 +29,5 @@ Links:
 - [[Context Quarantine]]
 - [[Virtual File System for Agent Concurrency]]
 - [[Dynamic Tool Loadout]]
+
+[implements:: [[SoT - Agentic AI Design Patterns]], strength=3, confidence=medium]

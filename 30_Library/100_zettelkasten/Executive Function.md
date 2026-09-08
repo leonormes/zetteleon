@@ -19,6 +19,8 @@ used_in_claims:
   - "[[Executive Function Challenges are Central to ADHD]]"
   - "[[Claim - Capture is easy but processing is hard]]"
   - "[[The Prefrontal Cortex Provides Executive Control Over Action]]"
+  - "[[Executive Function Skills Develop and Decline on Different Timelines Across the Lifespan]]"
+  - "[[The Stroop Test Assesses Inhibitory Control via Interference Resistance]]"
 ---
 
 ## Minimum Viable Understanding (MVU)
@@ -51,3 +53,5 @@ The primary biological seat of executive function is the prefrontal cortex, whic
 
 - [[Cognitive Load]]—_The moment-to-moment computational weight that executive functions must manage._
 - [[MOC - ADHD and PKM Systems]]—_How note-taking systems act as external working memory to compensate for EF deficits._
+- [[Executive Function Skills Develop and Decline on Different Timelines Across the Lifespan]]—_The three domains above peak and decline on different curves, not as one unified trait._
+- [[The Stroop Test Assesses Inhibitory Control via Interference Resistance]]—_A concrete, named assessment for the Inhibitory Control domain._

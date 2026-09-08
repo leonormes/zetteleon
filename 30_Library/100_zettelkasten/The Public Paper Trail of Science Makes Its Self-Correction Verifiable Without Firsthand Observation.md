@@ -3,7 +3,7 @@ aliases: []
 conformant: true
 contradicts: []
 created: 2026-09-04T09:25:19+00:00
-created_utc: '2026-09-04T14:00:00+00:00'
+created_utc: 2026-09-04T14:00:00+00:00
 epistemic_status: high
 evidence_links: []
 modified: 2026-09-06T17:53:00+00:00
@@ -11,11 +11,13 @@ permalink: llmeon/00-inbox/the-public-paper-trail-of-science-makes-its-self-corr
 source_title: New chat
 source_url: https://gemini.google.com/app/295a599fc8b28e35
 status: seed
-tags: [epistemology, openness, philosophy-of-science, transparency]
-title: The Public Paper Trail of Science Makes Its Self-Correction Verifiable Without Firsthand Observation
-  Firsthand Observation
+tags:
+  - epistemology
+  - openness
+  - philosophy-of-science
+  - transparency
+title: The Public Paper Trail of Science Makes Its Self-Correction Verifiable Without Firsthand Observation Firsthand Observation
 type: claim
-upstream: '[[HEAD New chat]]'
 ---
 
 ## The Public Paper Trail of Science Makes Its Self-Correction Verifiable Without Firsthand Observation

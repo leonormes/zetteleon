@@ -20,3 +20,5 @@ Poor Impulse Control: You jump between ideas without completing thoughts. One mi
 Cognitive Inflexibility: Once you start analyzing a problem one way, it becomes difficult to shift perspective. You might spend hours perfecting one approach to database scaling while missing simpler solutions.
 
 [[Part 1 The Psychology of ADHD-Driven Overthinking]]
+
+[supports:: [[ADHD Overthinking is a Substitute for Action]]]

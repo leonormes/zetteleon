@@ -5,7 +5,11 @@ last_reviewed: ''
 modified: 2026-08-29T09:36:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/ephemeral-agents-and-environments-in-terraform-cloud
 status: ''
-tags: [agents, CICD, ephemeral-infrastructure, SoftwareEngineering/Security]
+tags:
+- domain/llm
+- topic/agent-architecture
+- topic/security
+- topic/infrastructure
 title: Ephemeral Agents and Environments in Terraform Cloud
 type: ''
 updated: null
@@ -28,3 +32,5 @@ Links:
 - Secure CI/CD Practices
 - [[Recommended Best Practices for Cloud-Native Authentication]]
 - Modern Cloud-Native Authentication MOC
+
+[implements:: [[Full-Autonomy Agent Execution Requires Sandboxing for Safety and Data Privacy, Not Just Concurrency]], strength=3, confidence=medium]

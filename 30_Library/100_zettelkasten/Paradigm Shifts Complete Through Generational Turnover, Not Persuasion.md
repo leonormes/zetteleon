@@ -1,23 +1,25 @@
 ---
-aliases: [One Funeral at a Time]
+aliases:
+  - One Funeral at a Time
 conformant: true
 contradicts: []
 created: 2026-09-04T09:26:16+00:00
-created_utc: '2026-09-04T14:00:00+00:00'
+created_utc: 2026-09-04T14:00:00+00:00
 epistemic_status: high
 evidence_links: []
 modified: 2026-09-04T09:48:15+00:00
 permalink: llmeon/00-inbox/paradigm-shifts-complete-through-generational-turnover-not-persuasion
-proposition: A new scientific paradigm prevails not by convincing its opponents but
-  through generational turnover, as the old guard retires or dies and is replaced
-  by researchers already trained in the new framework.
+proposition: A new scientific paradigm prevails not by convincing its opponents but through generational turnover, as the old guard retires or dies and is replaced by researchers already trained in the new framework.
 source_title: New chat
 source_url: https://gemini.google.com/app/295a599fc8b28e35
 status: seed
-tags: [kuhn, paradigm-shift, philosophy-of-science, sociology-of-science]
+tags:
+  - kuhn
+  - paradigm-shift
+  - philosophy-of-science
+  - sociology-of-science
 title: Paradigm Shifts Complete Through Generational Turnover, Not Persuasion
 type: claim
-upstream: '[[HEAD New chat]]'
 ---
 
 ## Paradigm Shifts Complete Through Generational Turnover, Not Persuasion
