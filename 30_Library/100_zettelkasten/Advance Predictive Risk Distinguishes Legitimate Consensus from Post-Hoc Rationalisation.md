@@ -6,17 +6,13 @@ created: 2026-09-04T09:25:41+00:00
 created_utc: 2026-09-04T14:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-04T09:49:19+00:00
+modified: 2026-09-09T12:34:07+00:00
 permalink: llmeon/00-inbox/advance-predictive-risk-distinguishes-legitimate-consensus-from-post-hoc-rationalisation
 proposition: A legitimate scientific model states specific, falsifiable predictions about what will be found before it is observed, while groupthink systems specialise in retrofitting explanations to already-known data after the fact.
 source_title: New chat
 source_url: https://gemini.google.com/app/295a599fc8b28e35
 status: seed
-tags:
-  - epistemology
-  - philosophy-of-science
-  - prediction
-  - scientific-consensus
+tags: [epistemology, philosophy-of-science, prediction, scientific-consensus]
 title: Advance Predictive Risk Distinguishes Legitimate Consensus from Post-Hoc Rationalisation
 type: claim
 ---

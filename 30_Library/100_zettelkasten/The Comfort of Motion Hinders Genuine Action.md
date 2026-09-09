@@ -6,7 +6,7 @@ contradicts: []
 created: 2025-11-01T20:31:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-04T12:00:00+00:00
+modified: 2026-09-09T12:34:17+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-comfort-of-motion-hinders-genuine-action
 proposition: "Motion (preparatory, busy-feeling activity) provides a sense of accomplishment without the discomfort of genuine action, and becomes a form of procrastination when it consistently substitutes for the more difficult, decisive steps a goal actually requires."
 tags: [comfort-zone, procrastination, TheHuman/Psychology, topic/productivity]
@@ -28,6 +28,5 @@ These activities are not inherently unproductive, but they become a form of proc
 [supports:: [[Inaction Erodes Self-Trust]], strength=3, confidence=high]
 
 - [[Inaction Erodes Self-Trust]]—this note's mechanism is the starting point of that note's downward spiral: repeated motion-instead-of-action is what erodes self-trust over time.
-
 - [[Action Triggers Bridge the Gap Between Motion and Action]]—the specific countermeasure designed to break this exact trap by forcing a transition from motion to action.
-- [[Procras-working Builds Momentum by Lowering Task Resistance]]—the boundary case: switching to an easier *productive* task to build momentum toward the primary one is the good-faith version of what this note describes going wrong; that note explicitly distinguishes itself from unproductive procrastination.
+- [[Procras-working Builds Momentum by Lowering Task Resistance]]—the boundary case: switching to an easier _productive_ task to build momentum toward the primary one is the good-faith version of what this note describes going wrong; that note explicitly distinguishes itself from unproductive procrastination.

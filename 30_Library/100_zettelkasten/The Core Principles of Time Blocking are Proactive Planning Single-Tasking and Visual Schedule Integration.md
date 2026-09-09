@@ -4,7 +4,7 @@ axiom: true
 conformant: true
 created: 2025-11-10T14:01:00+00:00
 epistemic_status: high
-modified: 2026-09-07T07:11:05+00:00
+modified: 2026-09-09T12:34:17+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-core-principles-of-time-blocking-are-proactive-planning-single-tasking-and-visual-schedule-integration
 prodos.kind: atomic
 prodos.lifecycle: stable

@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-11-12T15:00:02+00:00
-modified: 2026-09-08T00:00:00+00:00
+modified: 2026-09-09T12:34:06+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/adhd-overthinking-is-a-substitute-for-action
 tags: []

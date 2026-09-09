@@ -4,7 +4,7 @@ conformant: true
 created: 2025-05-26T14:06:58+00:00
 definition: "The challenge of sustaining routines and consistent effort over time in the ADHD brain, where fluctuating motivation, energy and the need for novelty cause initial enthusiasm for a new system to fade before its long-term, compounding benefits can be realised."
 distinguishes_from: []
-modified: 2026-09-04T12:00:00+00:00
+modified: 2026-09-09T12:34:09+00:00
 permalink: llmeon/30-library/100-zettelkasten/consistency-and-momentum
 tags: [TheHuman/Health/ADHD]
 title: Consistency and Momentum
@@ -29,7 +29,6 @@ Maintaining routines and consistent effort over the long term can be difficult d
 [synthesizes:: [[Celebrating small wins builds routine momentum]], confidence=medium]
 
 - [[Celebrating small wins builds routine momentum]]—a concrete tactic for building the momentum this concept describes, via intrinsic reinforcement rather than raw willpower.
-
 - [[Routines Provide Stability for Neurodivergent Individuals]]—shared mechanism: routines are the structural answer to the fluctuating-motivation problem this concept names.
 - [[My Main PKM Problem Is the Continuity of Thinking]]—the PKM-specific instance of this same continuity problem, applied to thinking rather than routines.
 - [[ADHD Causes Deficits in Completing Long-Term Projects]]—the downstream failure mode when consistency and momentum aren't sustained.

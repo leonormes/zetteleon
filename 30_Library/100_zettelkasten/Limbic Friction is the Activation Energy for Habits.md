@@ -4,9 +4,8 @@ conformant: true
 contradicts: []
 created: 2025-10-30T12:05:02+00:00
 epistemic_status: high
-evidence_links:
-  - "[[Evidence - Limbic Friction as Anxiety or Tiredness Activation Cost]]"
-modified: 2026-09-03T11:21:00+00:00
+evidence_links: ["[[Evidence - Limbic Friction as Anxiety or Tiredness Activation Cost]]"]
+modified: 2026-09-09T12:34:13+00:00
 permalink: llmeon/30-library/100-zettelkasten/limbic-friction-is-the-activation-energy-for-habits
 prodos.kind: atomic
 prodos.lifecycle: active
@@ -20,8 +19,8 @@ Limbic friction is a term that measures how difficult it feels to start a new ha
 
 ## See Also
 
-- [[Making a behavior easy increases the likelihood it will become a habit]] — _Making a behavior easy is functionally reducing the limbic friction required to perform it._
+- [[Making a behavior easy increases the likelihood it will become a habit]]—_Making a behavior easy is functionally reducing the limbic friction required to perform it._
 [supports:: [[Making a behavior easy increases the likelihood it will become a habit]]]
-- [[ADHD Causes Task Initiation Deficits Due to Dopamine Hyposensitivity]] — _The dopamine hyposensitivity in ADHD manifests as an inability to overcome standard limbic friction._
+- [[ADHD Causes Task Initiation Deficits Due to Dopamine Hyposensitivity]]—_The dopamine hyposensitivity in ADHD manifests as an inability to overcome standard limbic friction._
 [extends:: [[ADHD Causes Task Initiation Deficits Due to Dopamine Hyposensitivity]]]
-- [[MOC - The Science of Making and Breaking Habits]] — _Central map for habit formation logic._
+- [[MOC - The Science of Making and Breaking Habits]]—_Central map for habit formation logic._

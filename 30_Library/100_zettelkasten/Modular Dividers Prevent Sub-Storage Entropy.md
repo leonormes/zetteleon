@@ -2,7 +2,7 @@
 conformant: true
 created: 2026-09-01T16:18:58+00:00
 created_utc: '2026-09-01T16:18:54.888265+00:00'
-modified: 2026-09-02T09:13:13+00:00
+modified: 2026-09-09T12:34:13+00:00
 permalink: llmeon/00-inbox/modular-dividers-prevent-sub-storage-entropy
 source_title: The 7 rules of organization
 source_url: https://youtu.be/MHnMo5vEP7Q

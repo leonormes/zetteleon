@@ -2,7 +2,7 @@
 axiom: true
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: medium
-modified: 2026-08-29T09:35:57+00:00
+modified: 2026-09-09T12:34:07+00:00
 permalink: llmeon/30-library/100-zettelkasten/agent-ergonomic-clis-output-token-efficient-plaintext-instead-of-verbose-json-schemas
 proposition: Current tool-integration protocols (including some MCP servers) rely
   on verbose JSON schemas for input/output, which are optimized for programmatic parsing

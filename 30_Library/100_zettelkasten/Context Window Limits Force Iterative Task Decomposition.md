@@ -2,7 +2,7 @@
 axiom: true
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: high
-modified: 2026-08-29T09:35:59+00:00
+modified: 2026-09-09T12:34:09+00:00
 permalink: llmeon/30-library/100-zettelkasten/context-window-limits-force-iterative-task-decomposition
 proposition: LLM context windows are finite. When a developer attempts to have the
   "LLM reason about an entire application at once, the context fills and the LLM's"

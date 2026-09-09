@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-08-24T00:00:00+01:00
-modified: 2026-08-29T09:35:58+00:00
+modified: 2026-09-09T12:34:07+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-finger-tab-selection-maintenance
 tags: [archery, equipment, maintenance, prodos/atomic]
 title: Archery Shot Process - Finger Tab Selection & Maintenance

@@ -3,7 +3,7 @@ aliases: []
 conformant: true
 created: 2025-11-01T11:22:13+00:00
 epistemic_status: high
-modified: 2026-09-04T19:27:00+00:00
+modified: 2026-09-09T12:34:11+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/formalism-mathematics-as-symbol-manipulation
 proposition: "Formalism holds that mathematics has no inherent truth-content and is instead the manipulation of meaningless symbols according to pre-defined formal rules, where statements are only 'provable' or 'not provable' within a given axiomatic system."
@@ -24,7 +24,7 @@ Challenge: Like Logicism, Formalism was shaken by Gödel's work, which proved th
 
 ## Related
 
-- [[Logicism (Mathematics as Extension of Logic)]] — *Rival foundational school from the same era: where Formalism denies mathematics has truth-content and grounds it in rule-governed symbol consistency, Logicism grounds mathematical truth in logic itself. Both were shaken by the same Gödelian result.*
-- [[Deductive Reasoning Underwrites Mathematical Proof]] — *This note's own analogy—"a proof is just a valid sequence of moves"—is exactly that note's axioms→rules→theorems structure, restated in symbol-manipulation terms.* [depends_on:: [[Deductive Reasoning Underwrites Mathematical Proof]]]
-- [[Mathematics as a Logical Maze (Metaphor)]] — *Companion metaphor from the same source material.*
-- [[Logic Is the Grammar of Rigorous Argument]] — *That note's account of logical syntax and inference rules is direct support for this note's "pre-defined formal rules" thesis.*
+- [[Logicism (Mathematics as Extension of Logic)]]—_Rival foundational school from the same era: where Formalism denies mathematics has truth-content and grounds it in rule-governed symbol consistency, Logicism grounds mathematical truth in logic itself. Both were shaken by the same Gödelian result._
+- [[Deductive Reasoning Underwrites Mathematical Proof]]—_This note's own analogy—"a proof is just a valid sequence of moves"—is exactly that note's axioms→rules→theorems structure, restated in symbol-manipulation terms._ [depends_on:: [[Deductive Reasoning Underwrites Mathematical Proof]]]
+- [[Mathematics as a Logical Maze (Metaphor)]]—_Companion metaphor from the same source material._
+- [[Logic Is the Grammar of Rigorous Argument]]—_That note's account of logical syntax and inference rules is direct support for this note's "pre-defined formal rules" thesis._

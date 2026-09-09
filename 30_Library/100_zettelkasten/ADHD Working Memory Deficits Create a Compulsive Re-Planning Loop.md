@@ -3,7 +3,7 @@ aliases: [Re-planning Loop]
 axiom: true
 conformant: false
 created: 2025-11-12T15:00:03+00:00
-modified: 2026-09-08T08:51:43+00:00
+modified: 2026-09-09T12:34:06+00:00
 non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/100-zettelkasten/adhd-working-memory-deficits-create-a-compulsive-re-planning-loop
 tags: [anxiety, rumination, TheHuman/Health/ADHD, working-memory]

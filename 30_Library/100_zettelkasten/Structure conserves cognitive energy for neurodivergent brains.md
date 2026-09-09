@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-10-30T16:21:00+00:00
-modified: 2026-08-29T09:36:05+00:00
+modified: 2026-09-09T12:34:16+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/structure-conserves-cognitive-energy-for-neurodivergent-brains
 source: '[[MOC - Why Autistics and ADHDers NEED Routines]]'
@@ -21,4 +21,4 @@ While structure is essential, building in controlled novelty (e.g., rotating wor
 
 - [[Executive Function Challenges are Central to ADHD]]
 - [[Working Memory Limitations in ADHD]]
-- [depends_on:: [[External Structure and ADHD]]] — _Conserving energy depends on having an external structure to offload the executive function._
+- [depends_on:: [[External Structure and ADHD]]]—_Conserving energy depends on having an external structure to offload the executive function._

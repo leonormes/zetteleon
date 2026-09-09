@@ -2,13 +2,13 @@
 aliases: [Socially Validated Thinking]
 conformant: true
 created: 2025-05-26T09:35:57+00:00
-modified: 2026-09-03T18:48:00+00:00
+definition: "A personality type that tends to process ideas in public, relying on immediate social validation and environmental feedback to shape cognition."
+modified: 2026-09-09T12:34:11+00:00
+non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/extravert
-tags: [TheHuman/Psychology, social-dynamics]
+tags: [social-dynamics, TheHuman/Psychology]
 title: Extravert
 type: concept
-definition: "A personality type that tends to process ideas in public, relying on immediate social validation and environmental feedback to shape cognition."
-non_conformance_reason: ""
 ---
 
 ## Extravert

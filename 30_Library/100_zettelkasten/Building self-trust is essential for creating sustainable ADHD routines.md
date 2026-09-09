@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-10-29T16:40:00+00:00
-modified: 2026-08-29T09:35:58+00:00
+modified: 2026-09-09T12:34:08+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/building-self-trust-is-essential-for-creating-sustainable-adhd-routines
 source: '[[MOC - ADHD Routine Building Strategies]]'

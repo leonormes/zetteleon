@@ -4,7 +4,7 @@ axiom: true
 conformant: true
 created: 2025-10-31T20:05:00+00:00
 epistemic_status: high
-modified: 2026-08-29T09:36:03+00:00
+modified: 2026-09-09T12:34:13+00:00
 permalink: llmeon/30-library/100-zettelkasten/meaning-emerges-from-language-games
 prodos.kind: atomic
 prodos.lifecycle: stable

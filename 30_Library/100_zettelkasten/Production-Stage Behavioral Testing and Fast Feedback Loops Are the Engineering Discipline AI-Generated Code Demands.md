@@ -2,7 +2,7 @@
 axiom: true
 created: 2026-07-28T10:35:28+00:00
 epistemic_status: medium
-modified: 2026-08-29T09:36:04+00:00
+modified: 2026-09-09T12:34:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/production-stage-behavioral-testing-and-fast-feedback-loops-are-the-engineering-discipline-ai-generated-code-demands
 proposition: Nondeterministic AI-generated code requires more engineering discipline,
   not less — but the specific discipline that matters most shifts toward production-stage

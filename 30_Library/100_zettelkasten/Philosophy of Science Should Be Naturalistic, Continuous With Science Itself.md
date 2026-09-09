@@ -1,27 +1,22 @@
 ---
 aliases: []
 conformant: true
-created: 2026-09-08 20:15:00+00:00
+created: 2026-09-08T20:15:00+00:00
 created_utc: 2026-09-08 20:15:00+00:00
 definition: Godfrey-Smith's view that philosophy of science must be "naturalistic"—continuous
   with science rather than prior to or above it—drawing on psychology to understand
   how observation works and sociology to understand how scientific communities function.
 distinguishes_from: []
 epistemic_status: medium
-modified: 2026-09-08 20:15:00+00:00
+modified: 2026-09-09T12:34:14+00:00
+permalink: llmeon/00-inbox/philosophy-of-science-should-be-naturalistic-continuous-with-science-itself
 source_title: David Deutsch and Peter Godfrey-Smith
 source_url: UNKNOWN
 status: seed
-tags:
-- epistemology
-- philosophy-of-science
-- godfrey-smith
-- naturalism
-- methodology
+tags: [epistemology, godfrey-smith, methodology, naturalism, philosophy-of-science]
 title: Philosophy of Science Should Be Naturalistic, Continuous With Science Itself
 type: concept
 used_in_claims: []
-permalink: llmeon/00-inbox/philosophy-of-science-should-be-naturalistic-continuous-with-science-itself
 ---
 
 ## Philosophy of Science Should Be Naturalistic, Continuous With Science Itself

@@ -7,12 +7,8 @@ created: 2026-04-14T20:54:58+00:00
 created_utc: '2026-04-14T14:20:00Z'
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-04T12:00:00+00:00
+modified: 2026-09-09T12:34:12+00:00
 permalink: llmeon/30-library/100-zettelkasten/jevons-paradox-of-attention
-prodos:
-  kind: atomic
-  atomic:
-    form: claim
 proposition: "Increased efficiency in digital communication and AI tools increases, rather than decreases, the total consumption of human attention: low-friction messaging generates new demands that fill any freed-up capacity, making attention an even scarcer resource — an application of Jevons Paradox from resource economics."
 source_title: Why Is AI Making My Job Worse?
 source_url: http://www.youtube.com/watch?v=NDyuJcR2GH4
@@ -44,6 +40,5 @@ A specific application of resource economics to digital knowledge work and the a
 [supports:: [[Digital Productivity Paradox]], strength=4, confidence=high]
 
 - [[Digital Productivity Paradox]]—this general pattern is the mechanism behind that note's productivity-loss claim; the source material names it explicitly: "The 'Digital Productivity Paradox' described is a specific application of the Jevons Paradox."
-
 - [[Cheaper Code Production via Agents Increases Software Volume Rather Than Reducing Developers]]—shared mechanism: Jevons paradox applied to code volume rather than attention.
 - [[Low Activation Cost Effect]]—the specific digital-communication mechanism (falling activation cost) that instantiates this general paradox; that note carries the reciprocal `implements` edge back to this one.

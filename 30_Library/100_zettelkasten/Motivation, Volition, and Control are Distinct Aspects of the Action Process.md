@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-11-12T14:10:07+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-04T12:00:00+00:00
+modified: 2026-09-09T12:34:13+00:00
 permalink: llmeon/30-library/100-zettelkasten/motivation-volition-and-control-are-distinct-aspects-of-the-action-process
 proposition: "The process of action is clarified by distinguishing three related but distinct concepts: motivation (the drive to act), volition (the subjective, deliberate experience of acting), and control (the sense of mastery that an action will produce its intended outcome) — not all motivated actions feel volitional, and control applies to both deliberate and automatic actions."
 tags: [action, TheHuman/Motivation, TheHuman/Psychology]
@@ -38,7 +38,6 @@ Details:
 [supports:: [[Akrasia is Acting Against One's Better Judgment]], strength=4, confidence=high]
 
 - [[Akrasia is Acting Against One's Better Judgment]]—_that note already names akrasia as "precisely the failure of volition"; this note's three-part framework supplies the vocabulary for exactly which stage of the action process fails._
-
 - [[MOC - Action Management]]—_The central hub for principles and strategies used to transform abstract intent into concrete reality within the ProdOS ecosystem._
 - [[SoT - PRODOS Core Specification]]—_Defines the "Logic-Dopamine Mismatch" and how ProdOS separates the "Problem Definer" (Motivation) from the "Executor" (Control)._
 - [[SoT - Logotherapy and the Will to Meaning]]—_Explores how primary motivation is driven by the search for meaning, which can activate reward systems even in the absence of dopamine-driven pleasure._

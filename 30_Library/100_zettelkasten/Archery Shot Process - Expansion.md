@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-08-29T09:35:58+00:00
+modified: 2026-09-09T12:34:07+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-expansion
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Expansion

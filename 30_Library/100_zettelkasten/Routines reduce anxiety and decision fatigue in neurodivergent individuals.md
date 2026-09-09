@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-10-30T16:20:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-04T12:00:00+00:00
+modified: 2026-09-09T12:34:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/routines-reduce-anxiety-and-decision-fatigue-in-neurodivergent-individuals
 source: ''
 tags: [anxiety-reduction, autism, decision-fatigue, TheHuman/Health/ADHD]
@@ -26,7 +26,6 @@ Event-based mini routines offer a particularly effective approach by reducing ti
 [depends_on:: [[Executive Function Challenges are Central to ADHD]], confidence=medium]
 
 - [[Executive Function Challenges are Central to ADHD]]—the cognitive-load-reduction mechanism this note describes presupposes the executive-function bottleneck that general framework names.
-
 - [[Overwhelm]]
 
 [depends_on:: [[Event-based structure reduces time-pressure anxiety]], strength=4, confidence=high]

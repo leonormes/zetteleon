@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-20T09:47:00+00:00
 last_reviewed: 'null'
-modified: 2026-08-29T09:36:06+00:00
+modified: 2026-09-09T12:34:17+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-five-minute-free-write-technique
 status: 'null'
 tags: [technique, TheHuman/Habits, topic/productivity/procrastination, topic/writing]

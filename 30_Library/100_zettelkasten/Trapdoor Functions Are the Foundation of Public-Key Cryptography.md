@@ -2,7 +2,7 @@
 aliases: [One-Way Functions, Trapdoor One-Way Function]
 conformant: false
 created: 2025-12-24T12:00:00+00:00
-modified: 2026-08-29T09:36:07+00:00
+modified: 2026-09-09T12:34:18+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/trapdoor-functions-are-the-foundation-of-public-key-cryptography
 tags: [cryptography, maths]

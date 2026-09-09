@@ -3,7 +3,7 @@ aliases: [Compounding Effect of Habits]
 axiom: true
 conformant: false
 created: 2025-11-06T19:55:03+00:00
-modified: 2026-08-29T09:36:06+00:00
+modified: 2026-09-09T12:34:16+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/systems-drive-progress-through-the-compounding-effect-of-atomic-habits
 tags: [compounding, TheHuman/Habits, topic/systems]

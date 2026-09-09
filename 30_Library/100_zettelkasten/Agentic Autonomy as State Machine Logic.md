@@ -2,16 +2,12 @@
 created: 2026-04-13T14:41:15+00:00
 created_utc: 2026-04-13 11:20:00+00:00
 kind: claim
-modified: 2026-08-29T09:35:57+00:00
+modified: 2026-09-09T12:34:07+00:00
 permalink: llmeon/30-library/100-zettelkasten/agentic-autonomy-as-state-machine-logic
 source_title: AI Agent Architecture and the Modern Tech Stack
 source_url: https://gemini.google.com/app/509937047bd0b955
 status: seed
-tags:
-- domain/llm
-- topic/agent-architecture
-- topic/agentic-autonomy
-- topic/control-flow
+tags: [domain/llm, topic/agent-architecture, topic/agentic-autonomy, topic/control-flow]
 title: Agentic Autonomy as State Machine Logic
 type: atom
 upstream: '[[HEAD The Failure of Human-Centric Design]]'

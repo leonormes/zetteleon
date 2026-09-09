@@ -1,7 +1,7 @@
 ---
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: high
-modified: 2026-09-07T09:22:51+00:00
+modified: 2026-09-09T12:34:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/tool-use-and-deterministic-delegation-reduce-llm-hallucination-in-specific-domains
 proposition: For tasks where deterministic correctness is required (arithmetic, database
   queries, API calls), LLMs should delegate to external tools rather than generate

@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-05-18T09:46:26+00:00
 last_reviewed: ''
-modified: 2026-08-29T09:36:02+00:00
+modified: 2026-09-09T12:34:12+00:00
 permalink: llmeon/30-library/100-zettelkasten/i-have-only-recently-started-to-come-to-terms-emotionally-with-adhd
 status: ''
 tags: [TheHuman/Health/ADHD]

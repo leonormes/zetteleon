@@ -2,13 +2,13 @@
 aliases: []
 conformant: true
 created: 2025-12-04T12:00:00+00:00
-modified: 2026-09-04T19:58:00+00:00
+definition: "The second writing stage of the Unified Writing to Think process, focusing on stripping clutter and strengthening clarity."
+modified: 2026-09-09T12:34:16+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/stage-2
-tags: [pkm, writing, cognition]
+tags: [cognition, pkm, writing]
 title: Stage 2 Clarify (The On Writing Well Layer)
 type: concept
-definition: "The second writing stage of the Unified Writing to Think process, focusing on stripping clutter and strengthening clarity."
 ---
 
 _The Goal: To transform raw energy into a clear, understandable idea._
@@ -25,6 +25,6 @@ Outcome: A concise, clear, and energetic atomic note. The original idea is no lo
 
 ## Related
 
-- [[Stage 1 Generate (The Goldberg Layer)]] — *The preceding stage.* [depends_on:: [[Stage 1 Generate (The Goldberg Layer)]]]
-- [[Stage 3 Understand (The Writing to Learn Layer)]] — *The next stage.*
-- [[SoT - The Unified Writing to Think Process]] — *The overarching framework.* [extends:: [[SoT - The Unified Writing to Think Process]]]
+- [[Stage 1 Generate (The Goldberg Layer)]]—_The preceding stage._ [depends_on:: [[Stage 1 Generate (The Goldberg Layer)]]]
+- [[Stage 3 Understand (The Writing to Learn Layer)]]—_The next stage._
+- [[SoT - The Unified Writing to Think Process]]—_The overarching framework._ [extends:: [[SoT - The Unified Writing to Think Process]]]

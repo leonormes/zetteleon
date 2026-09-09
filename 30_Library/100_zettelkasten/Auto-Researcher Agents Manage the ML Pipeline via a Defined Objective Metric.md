@@ -1,14 +1,10 @@
 ---
 conformant: false
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-08-29T09:35:58+00:00
+modified: 2026-09-09T12:34:08+00:00
 non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/100-zettelkasten/auto-researcher-agents-manage-the-ml-pipeline-via-a-defined-objective-metric
-tags:
-- domain/llm
-- topic/agent-architecture
-- topic/machine-learning
-- topic/automl
+tags: [domain/llm, topic/agent-architecture, topic/automl, topic/machine-learning]
 title: Auto-Researcher Agents Manage the ML Pipeline via a Defined Objective Metric
 type: claim
 ---

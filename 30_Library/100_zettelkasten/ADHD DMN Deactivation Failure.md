@@ -4,7 +4,7 @@ axiom: true
 conformant: true
 created: 2025-10-31T00:05:00+00:00
 epistemic_status: high
-modified: 2026-08-29T09:35:57+00:00
+modified: 2026-09-09T12:34:06+00:00
 permalink: llmeon/30-library/100-zettelkasten/adhd-dmn-deactivation-failure
 prodos.kind: atomic
 prodos.lifecycle: stable

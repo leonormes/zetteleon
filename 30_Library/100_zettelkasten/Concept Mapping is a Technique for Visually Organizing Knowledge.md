@@ -3,7 +3,7 @@ aliases: [Concept Mapping]
 conformant: true
 created: 2025-11-10T16:11:00+00:00
 epistemic_status: high
-modified: 2026-08-29T09:35:59+00:00
+modified: 2026-09-09T12:34:09+00:00
 permalink: llmeon/30-library/100-zettelkasten/concept-mapping-is-a-technique-for-visually-organizing-knowledge
 prodos.kind: atomic
 prodos.lifecycle: stable

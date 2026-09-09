@@ -2,14 +2,10 @@
 axiom: true
 conformant: false
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-08-29T09:35:57+00:00
+modified: 2026-09-09T12:34:07+00:00
 non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/100-zettelkasten/advanced-agentic-workflows-require-technical-literacy-that-consumer-framing-hides
-tags:
-- domain/llm
-- topic/agent-architecture
-- topic/barrier-to-entry
-- topic/technical-debt
+tags: [domain/llm, topic/agent-architecture, topic/barrier-to-entry, topic/technical-debt]
 title: Advanced Agentic Workflows Require Technical Literacy That Consumer Framing Hides
 type: claim
 ---
@@ -37,4 +33,5 @@ Applies when evaluating the barrier to entry for "agentic" second-brain setups, 
 - [[Continuous Autonomous Agent Loops Incur Significant API Cost]]—shared mechanism: both describe structural barriers that limit access to full-capability agentic systems—cost is one barrier, technical complexity is another; together they define who can actually use these workflows at full capability.
 
 [supports:: [[Agentic Collaboration Shift]], strength=2, confidence=medium]
+
 [depends_on:: [[Leaky Abstractions]], strength=3, confidence=high]

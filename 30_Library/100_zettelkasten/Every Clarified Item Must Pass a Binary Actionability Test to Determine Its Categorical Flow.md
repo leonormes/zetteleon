@@ -2,7 +2,7 @@
 conformant: true
 created: 2026-04-10T00:00:00+00:00
 epistemic_status: high
-modified: 2026-08-29T09:36:00+00:00
+modified: 2026-09-09T12:34:11+00:00
 permalink: llmeon/30-library/100-zettelkasten/every-clarified-item-must-pass-a-binary-actionability-test-to-determine-its-categorical-flow
 prodos.kind: atomic
 prodos.lifecycle: stable

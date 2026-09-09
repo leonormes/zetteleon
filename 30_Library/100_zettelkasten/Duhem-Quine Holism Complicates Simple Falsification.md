@@ -2,27 +2,22 @@
 aliases: []
 conformant: true
 contradicts: []
-created: 2026-09-08 20:15:00+00:00
+created: 2026-09-08T20:15:00+00:00
 created_utc: 2026-09-08 20:15:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-08 20:15:00+00:00
-source_title: David Deutsch and Peter Godfrey-Smith
-source_url: UNKNOWN
-status: seed
-tags:
-- epistemology
-- philosophy-of-science
-- falsifiability
-- underdetermination
-- duhem-quine
-title: Duhem-Quine Holism Complicates Simple Falsification
-type: claim
+modified: 2026-09-09T12:34:10+00:00
+permalink: llmeon/00-inbox/duhem-quine-holism-complicates-simple-falsification
 proposition: Because a prediction follows from a theory only in conjunction with background
   assumptions and instruments, an unexpected observation can indict a background assumption
   or measuring device instead of the theory under test, so falsification is rarely
   a clean single-theory verdict.
-permalink: llmeon/00-inbox/duhem-quine-holism-complicates-simple-falsification
+source_title: David Deutsch and Peter Godfrey-Smith
+source_url: UNKNOWN
+status: seed
+tags: [duhem-quine, epistemology, falsifiability, philosophy-of-science, underdetermination]
+title: Duhem-Quine Holism Complicates Simple Falsification
+type: claim
 ---
 
 ## Duhem-Quine Holism Complicates Simple Falsification
@@ -35,7 +30,7 @@ Applies whenever a test result is used to falsify a theory; known as "holism abo
 
 ### Evidence
 
-> "simple falsification rarely works in practice because of 'holism about testing'... an unexpected observation might mean the main theory is wrong, or it might just mean a background assumption or measuring instrument is faulty"
+> "simple falsification rarely works in practice because of 'holism about testing'… an unexpected observation might mean the main theory is wrong, or it might just mean a background assumption or measuring instrument is faulty"
 
 ### Implications
 

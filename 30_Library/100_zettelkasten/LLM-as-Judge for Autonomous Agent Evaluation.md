@@ -2,7 +2,7 @@
 axiom: true
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: high
-modified: 2026-08-29T09:36:02+00:00
+modified: 2026-09-09T12:34:13+00:00
 permalink: llmeon/30-library/100-zettelkasten/llm-as-judge-for-autonomous-agent-evaluation
 proposition: Automated evaluation of agent success requires either ground truth labels
   (expensive) or LLM-as-judge frameworks (cheaper but less reliable). An LLM evaluator

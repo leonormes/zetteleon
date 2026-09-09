@@ -3,7 +3,7 @@ axiom: true
 conformant: true
 created: 2026-08-28T17:58:03+00:00
 created_utc: '2026-08-28T18:57:00Z'
-modified: 2026-08-29T10:04:11+00:00
+modified: 2026-09-09T12:34:12+00:00
 permalink: llmeon/30-library/100-zettelkasten/horizontal-vs.-vertical-execution-in-the-adhd-mind
 source_title: Chat Input
 source_url: ''

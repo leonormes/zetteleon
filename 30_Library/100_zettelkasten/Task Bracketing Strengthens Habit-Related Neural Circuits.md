@@ -2,7 +2,7 @@
 aliases: [Task Bracketing]
 conformant: false
 created: 2025-10-30T12:05:05+00:00
-modified: 2026-08-29T09:36:06+00:00
+modified: 2026-09-09T12:34:17+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/task-bracketing-strengthens-habit-related-neural-circuits
 source: '[[MOC - The Science of Making and Breaking Habits]]'

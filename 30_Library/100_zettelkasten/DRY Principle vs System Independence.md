@@ -3,7 +3,7 @@ aliases: []
 conformant: true
 created: 2025-10-31T12:37:00+00:00
 epistemic_status: high
-modified: 2026-08-29T09:36:00+00:00
+modified: 2026-09-09T12:34:10+00:00
 permalink: llmeon/30-library/100-zettelkasten/dry-principle-vs-system-independence
 prodos.kind: atomic
 prodos.lifecycle: stable

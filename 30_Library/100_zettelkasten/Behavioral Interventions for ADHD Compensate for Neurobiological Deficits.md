@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-10-30T12:09:02+00:00
-modified: 2026-08-29T09:35:58+00:00
+modified: 2026-09-09T12:34:08+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/behavioral-interventions-for-adhd-compensate-for-neurobiological-deficits
 source: '[[MOC - Why Task Initiation is Difficult in ADHD]]'
@@ -15,4 +15,4 @@ The most effective behavioral interventions for ADHD-related task initiation def
 
 ## Related
 
-- [implements:: [[External Structure and ADHD]]] — _Providing external temporal boundaries is a core behavioral intervention._
+- [implements:: [[External Structure and ADHD]]]—_Providing external temporal boundaries is a core behavioral intervention._

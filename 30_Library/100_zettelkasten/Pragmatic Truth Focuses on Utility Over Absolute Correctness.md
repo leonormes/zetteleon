@@ -5,7 +5,7 @@ contradicts: ["[[Truth is a Necessary Condition for Knowledge]]"]
 created: 2025-11-01T09:51:13+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-04T12:00:00+00:00
+modified: 2026-09-09T12:34:14+00:00
 permalink: llmeon/30-library/100-zettelkasten/pragmatic-truth-focuses-on-utility-over-absolute-correctness
 proposition: "Pragmatism treats truth as a property of ideas that reliably help us predict, coordinate, and achieve aims in specific contexts, rather than as a perfect correspondence with reality — an engineering model like Newtonian mechanics counts as true enough to build bridges even though it is not physics' final word."
 tags: [epistemology, mental-model, pragmatism, topic/philosophy, utility]
@@ -27,11 +27,10 @@ Details: Pragmatism treats truth as the property of ideas that reliably help us 
 
 [extends:: [[Instrumentalism vs Realism in Understanding]], strength=4, confidence=high]
 
-- [[Instrumentalism vs Realism in Understanding]]—this note is the specific application of instrumentalism to the concept of truth itself: pragmatic truth *is* the instrumentalist answer to "what is truth?", narrowing that note's general models/theories distinction to a single epistemological question.
+- [[Instrumentalism vs Realism in Understanding]]—this note is the specific application of instrumentalism to the concept of truth itself: pragmatic truth _is_ the instrumentalist answer to "what is truth?", narrowing that note's general models/theories distinction to a single epistemological question.
 
 [depends_on:: [[SoT - Reality, Models, and the Limits of Accuracy]], strength=4, confidence=high]
 
-- [[SoT - Reality, Models, and the Limits of Accuracy]]—that SoT's §1.1 already states this note's exact thesis in different words ("Utility Over Truth: the value of a model is not its 'correctness'... but its predictive validity and its ability to guide effective action"); this note grounds the concept of *truth* specifically in that broader models-are-tools framework.
-
+- [[SoT - Reality, Models, and the Limits of Accuracy]]—that SoT's §1.1 already states this note's exact thesis in different words ("Utility Over Truth: the value of a model is not its 'correctness'… but its predictive validity and its ability to guide effective action"); this note grounds the concept of _truth_ specifically in that broader models-are-tools framework.
 - [[SoT - Mental Models in Software Development]]—the practical, domain-specific instance of the same idea: a developer's mental model of a system is judged by whether it lets them reason and act effectively, not by its completeness.
 - [[Newtonian Physics as an Effective Theory]]—this note's own example, already atomic: Newtonian mechanics is pragmatically true (builds working bridges and rockets) while not being realist-true (superseded by relativity and quantum mechanics).

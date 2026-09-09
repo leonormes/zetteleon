@@ -2,7 +2,7 @@
 axiom: true
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: medium
-modified: 2026-08-29T09:36:02+00:00
+modified: 2026-09-09T12:34:13+00:00
 permalink: llmeon/30-library/100-zettelkasten/loop-engineering-is-a-rebrand-of-existing-sdlc-concepts-not-a-new-paradigm
 tags: [domain/llm, topic/critique, topic/terminology, topic/workflow-design]
 title: Loop Engineering Is a Rebrand of Existing SDLC Concepts, Not a New Paradigm

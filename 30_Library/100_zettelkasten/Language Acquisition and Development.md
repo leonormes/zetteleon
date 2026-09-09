@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-31T16:07:33+00:00
 last_reviewed: ''
-modified: 2026-08-29T09:36:02+00:00
+modified: 2026-09-09T12:34:13+00:00
 permalink: llmeon/30-library/100-zettelkasten/language-acquisition-and-development
 status: ''
 tags: [bilingualism, development, language-acquisition, nature-nurture]

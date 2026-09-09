@@ -4,7 +4,7 @@ axiom: true
 conformant: true
 created: 2025-10-20T09:44:00+00:00
 epistemic_status: high
-modified: 2026-09-04T19:16:00+00:00
+modified: 2026-09-09T12:34:16+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/structure-notes-as-maps-of-thought-trails
 proposition: "In a PKM built around writing-to-think, a Structure Note (or MOC) functions not as a final polished product but as a curated map guiding readers through the messy trail of atomic notes that produced it."
@@ -30,10 +30,11 @@ This approach transforms the polished note from a static conclusion into a dynam
 
 Links:
 
-- [[MOC - PKM as Process vs Product]] — *The hub this claim sits under.*
-- [[PKM as Process vs Product]] — *The abstract process-vs-product distinction this note applies specifically to Structure Notes/MOCs.* [implements:: [[PKM as Process vs Product]]]
-- [[Bottom-Up Organization Allows Emergent Structure]] — *That note already declares `depends_on` this one: emergent clusters need exactly the navigational overlay this note defines. Added here for discoverability in the other direction.*
-- [[Rhizome Structure - Non-Hierarchical Network]] — *The non-hierarchical network that Structure Notes sit on top of and organize; that note also already links here.*
+- [[MOC - PKM as Process vs Product]]—_The hub this claim sits under._
+- [[PKM as Process vs Product]]—_The abstract process-vs-product distinction this note applies specifically to Structure Notes/MOCs._ [implements:: [[PKM as Process vs Product]]]
+- [[Bottom-Up Organization Allows Emergent Structure]]—_That note already declares `depends_on` this one: emergent clusters need exactly the navigational overlay this note defines. Added here for discoverability in the other direction._
+- [[Rhizome Structure - Non-Hierarchical Network]]—_The non-hierarchical network that Structure Notes sit on top of and organize; that note also already links here._
 
 [extends:: [[Hub Notes Provide Entry Points to Idea Clusters]], strength=3, confidence=medium]
-[depends_on:: [[SoT - The Unified Writing to Think Process]]] — *The writing-to-think paradigm this claim presupposes; the closest real target for the original (broken) "Writing as a Thinking Tool" link.*
+
+[depends_on:: [[SoT - The Unified Writing to Think Process]]]—_The writing-to-think paradigm this claim presupposes; the closest real target for the original (broken) "Writing as a Thinking Tool" link._

@@ -2,15 +2,12 @@
 created: 2026-04-14T20:27:35+00:00
 created_utc: 2026-04-14T13:20:00Z
 kind: procedure
-modified: 2026-08-29T09:36:04+00:00
+modified: 2026-09-09T12:34:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/recursive-agent-improvement
 source_title: Archon and Extreme Harness Engineering
 source_url: https://youtube.com/watch?v=qMnClynCAmM
 status: seed
-tags:
-- domain/llm
-- topic/agent-architecture
-- topic/feedback-loops
+tags: [domain/llm, topic/agent-architecture, topic/feedback-loops]
 title: Recursive Agent Improvement
 type: atom
 upstream: '[[SoT - Agentic AI Design Patterns]]'

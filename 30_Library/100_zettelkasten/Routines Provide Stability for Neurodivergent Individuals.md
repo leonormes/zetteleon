@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-10-29T16:10:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-04T12:00:00+00:00
+modified: 2026-09-09T12:34:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/routines-provide-stability-for-neurodivergent-individuals
 tags: [anxiety-reduction, autism, routine, stability, TheHuman/Health/ADHD]
 title: Routines Provide Stability for Neurodivergent Individuals
@@ -21,7 +21,6 @@ By creating a structured and predictable framework for daily life, routines redu
 [depends_on:: [[Executive Function Challenges are Central to ADHD]], confidence=medium]
 
 - [[Executive Function Challenges are Central to ADHD]]—the mechanism this note describes (routines reduce the number of novel situations that must be processed) presupposes the limited executive-function/working-memory capacity that general framework names.
-
 - [[Routines reduce anxiety and decision fatigue in neurodivergent individuals]]—already carries the typed edge `extends` back to this note, adding the specific event-based-vs-clock-based mechanism.
 - [[How to Build Neurodivergent-Friendly Routines]]—the practical how-to that presupposes this note's claim.
 - [[Combining structure with flexibility satisfies neurodivergent dual needs]]—extends this note's stability claim with the companion need for flexibility within that structure.

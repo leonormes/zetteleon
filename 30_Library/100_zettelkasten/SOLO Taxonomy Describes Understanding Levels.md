@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-10-31T11:24:00+00:00
-modified: 2026-08-29T09:36:05+00:00
+modified: 2026-09-09T12:34:15+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/solo-taxonomy-describes-understanding-levels
 tags: [education, TheHuman/Cognition]

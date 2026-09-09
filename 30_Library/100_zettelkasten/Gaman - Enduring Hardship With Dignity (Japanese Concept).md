@@ -2,7 +2,7 @@
 conformant: true
 created: 2026-09-08T00:00:00+00:00
 epistemic_status: medium
-modified: 2026-09-08T00:00:00+00:00
+modified: 2026-09-09T12:34:11+00:00
 permalink: llmeon/30-library/100-zettelkasten/gaman-enduring-hardship-with-dignity-japanese-concept
 prodos.kind: atomic
 prodos.lifecycle: seed

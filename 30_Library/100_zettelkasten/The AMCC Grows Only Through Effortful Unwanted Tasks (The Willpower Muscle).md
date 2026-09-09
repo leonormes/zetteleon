@@ -2,7 +2,7 @@
 conformant: true
 created: 2026-09-08T00:00:00+00:00
 epistemic_status: medium
-modified: 2026-09-08T00:00:00+00:00
+modified: 2026-09-09T12:34:17+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-amcc-grows-only-through-effortful-unwanted-tasks-the-willpower-muscle
 prodos.kind: atomic
 prodos.lifecycle: seed

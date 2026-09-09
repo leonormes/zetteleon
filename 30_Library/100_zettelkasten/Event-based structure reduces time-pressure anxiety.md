@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-10-30T17:33:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-04T12:00:00+00:00
+modified: 2026-09-09T12:34:11+00:00
 permalink: llmeon/30-library/100-zettelkasten/event-based-structure-reduces-time-pressure-anxiety
 source: '[[MOC - How To Create And Use Mini Routines]]'
 tags: [anxiety, TheHuman/Health/ADHD, time-management]
@@ -29,9 +29,7 @@ This approach transforms time from a source of pressure into a flexible resource
 
 - [[Mini routines are event-triggered sequences rather than time-based schedules]]—fixed 2026-09-04: was a genuinely missing note (confirmed absent from two independent directions), now authored. This note's anxiety-reduction claim is a specific consequence of that note's structural definition (event-triggered, not clock-triggered).
 - [[Mini routines are effective for ADHD autism and chronic illness]]—already links here directly.
-
 - ~~[[Visual Timers for ADHD Time Blindness]]~~—also broken, no matching note anywhere in the vault. Closest real coverage: [[Visual schedules enhance routine adherence]] (visual aids generally, not timers specifically) and [[Time Agnosia Impairs Planning for Developers with ADHD]] (the time-blindness deficit this note's timers would address). Left unresolved rather than guessed.
 - [[Visual schedules enhance routine adherence]]
 - [[Time Agnosia Impairs Planning for Developers with ADHD]]
-
 - [[Routines reduce anxiety and decision fatigue in neurodivergent individuals]]—already carries a `depends_on` edge back to this note.

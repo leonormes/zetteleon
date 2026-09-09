@@ -4,7 +4,7 @@ axiom: true
 conformant: true
 created: 2025-11-10T10:01:00+00:00
 epistemic_status: high
-modified: 2026-08-29T09:36:03+00:00
+modified: 2026-09-09T12:34:14+00:00
 permalink: llmeon/30-library/100-zettelkasten/mutual-respect-in-a-partnership-involves-valuing-opinions-speaking-kindly-and-honouring-boundaries
 prodos.kind: atomic
 prodos.lifecycle: stable

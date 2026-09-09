@@ -1,20 +1,16 @@
 ---
 conformant: true
-created: 2026-08-28 17:58:11+00:00
+created: 2026-08-28T17:58:11+00:00
 created_utc: '2026-08-28T18:57:00Z'
-modified: 2026-08-28 18:50:48+00:00
+modified: 2026-09-09T12:34:10+00:00
+permalink: llmeon/00-inbox/engineering-action-and-bypassing-resistance
 source_title: Chat Input
 source_url: ''
 status: seed
-tags:
-- habit-building
-- kanban
-- psychology
-- systems
+tags: [habit-building, kanban, psychology, systems]
 title: Engineering Action and Bypassing Resistance
 type: claim
 upstream: ''
-permalink: llmeon/00-inbox/engineering-action-and-bypassing-resistance
 ---
 
 ## Engineering Action and Bypassing Resistance

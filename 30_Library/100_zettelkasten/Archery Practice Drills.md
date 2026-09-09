@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-22T00:00:00+00:00
-modified: 2026-08-30T07:41:00+01:00
+modified: 2026-09-09T12:34:07+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-practice-drills
 tags: [archery, practice, prodos/atomic, training]
 title: Archery Practice Drills
@@ -57,7 +57,7 @@ When building initial muscle memory, prioritizing form over pulling heavier weig
 
 - Ideal Weight Range: For a beginner or youth archer (e.g., Year 9), a highly manageable draw weight between 15 lbs and 25 lbs is usually ideal.
 - The Smoothness Test: The archer must be able to draw the bow smoothly without any shaking or violent jerking motions. If they are shaking, the bow is too heavy and will force them to compromise their skeletal structure to muscle the string back, preventing the development of rock-solid muscle memory.
-- Verbal Articulation: Teach younger, developing athletes to verbally articulate *how* the shot felt before they are allowed to check their score. This builds profound physical mindfulness, shifts heavy pressure away from the intimidating target face, and redirects their focus into mastering the physical process for long-term consistency.
+- Verbal Articulation: Teach younger, developing athletes to verbally articulate _how_ the shot felt before they are allowed to check their score. This builds profound physical mindfulness, shifts heavy pressure away from the intimidating target face, and redirects their focus into mastering the physical process for long-term consistency.
 
 ### The Foundation: Grouping Over Scoring
 

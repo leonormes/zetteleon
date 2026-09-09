@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-09-03T13:41:03+00:00
+modified: 2026-09-09T12:34:11+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/evil-attacks-the-shared-moral-community-itself-not-merely-a-norm-within-it
 tags: [community, morality, social-order, sociology]

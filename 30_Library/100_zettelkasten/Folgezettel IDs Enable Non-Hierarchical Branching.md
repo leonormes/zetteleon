@@ -3,7 +3,7 @@ aliases: [Alphanumeric IDs, Folgezettel System, Zettelkasten IDs]
 axiom: true
 conformant: false
 created: 2025-10-30T15:33:36+00:00
-modified: 2026-08-29T09:36:01+00:00
+modified: 2026-09-09T12:34:11+00:00
 non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/100-zettelkasten/folgezettel-ids-enable-non-hierarchical-branching
 tags: [ids, linking, topic/knowledge-architecture, topic/pkm, topic/pkm/zettelkasten]

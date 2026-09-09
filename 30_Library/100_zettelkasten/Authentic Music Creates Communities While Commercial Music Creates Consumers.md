@@ -2,7 +2,7 @@
 aliases: [Music and Community]
 conformant: false
 created: 2025-11-10T11:09:00+00:00
-modified: 2026-08-29T09:35:58+00:00
+modified: 2026-09-09T12:34:08+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/authentic-music-creates-communities-while-commercial-music-creates-consumers
 tags: [authenticity, community, consumerism, music]

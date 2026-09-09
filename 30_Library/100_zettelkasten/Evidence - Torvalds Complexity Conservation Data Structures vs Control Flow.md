@@ -3,7 +3,7 @@ aliases: [Software Complexity is Conserved Between Control Flow and Representati
 conformant: true
 created: 2026-07-27T22:00:00+00:00
 epistemic_status: high
-modified: 2026-08-29T09:36:00+00:00
+modified: 2026-09-09T12:34:11+00:00
 permalink: llmeon/30-library/100-zettelkasten/evidence-torvalds-complexity-conservation-data-structures-vs-control-flow
 prodos.kind: evidence
 prodos.lifecycle: stable

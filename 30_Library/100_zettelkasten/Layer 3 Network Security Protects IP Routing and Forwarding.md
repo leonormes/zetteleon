@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-10-31T10:15:00+00:00
-modified: 2026-08-29T09:36:02+00:00
+modified: 2026-09-09T12:34:13+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/layer-3-network-security-protects-ip-routing-and-forwarding
 tags: [layer3, SoftwareEngineering/Networking, SoftwareEngineering/Security]

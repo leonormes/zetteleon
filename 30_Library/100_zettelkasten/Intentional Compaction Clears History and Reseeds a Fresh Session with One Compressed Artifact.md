@@ -2,7 +2,7 @@
 axiom: true
 created: 2026-07-28T10:27:27+00:00
 epistemic_status: medium
-modified: 2026-08-29T09:36:02+00:00
+modified: 2026-09-09T12:34:12+00:00
 permalink: llmeon/30-library/100-zettelkasten/intentional-compaction-clears-history-and-reseeds-a-fresh-session-with-one-compressed-artifact
 tags: [domain/llm, topic/context-management, topic/workflow-design]
 title: Intentional Compaction Clears History and Reseeds a Fresh Session with One Compressed Artifact

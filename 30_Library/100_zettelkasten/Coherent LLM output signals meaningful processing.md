@@ -1,19 +1,15 @@
 ---
-aliases:
-- Coherent LLM output signals meaningful processing
+aliases: [Coherent LLM output signals meaningful processing]
 axiom: true
 conformant: true
 created: 2025-10-20T09:17:00+00:00
 epistemic_status: medium
-modified: 2026-08-29T09:35:59+00:00
+modified: 2026-09-09T12:34:09+00:00
 permalink: llmeon/30-library/100-zettelkasten/coherent-llm-output-signals-meaningful-processing
 prodos.kind: atomic
 prodos.lifecycle: stable
-proposition: The apparent coherence of LLM output creates a psychological illusion of meaningful processing, reinforcing the perceived validity of the user's input.
-tags:
-- domain/llm
-- topic/llm-behavior
-- topic/anthropomorphism
+proposition: "The apparent coherence of LLM output creates a psychological illusion of meaningful processing, reinforcing the perceived validity of the user's input."
+tags: [domain/llm, topic/anthropomorphism, topic/llm-behavior]
 title: Coherent LLM output signals meaningful processing
 type: claim
 ---

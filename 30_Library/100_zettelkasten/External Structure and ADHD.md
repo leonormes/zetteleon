@@ -3,7 +3,7 @@ aliases: [External Structure]
 conformant: true
 created: 2025-02-07T12:57:55+00:00
 epistemic_status: highly_probable
-modified: 2026-09-03T13:59:13+00:00
+modified: 2026-09-09T12:34:11+00:00
 permalink: llmeon/30-library/100-zettelkasten/external-structure-and-adhd
 prodos.kind: atomic
 prodos.lifecycle: active

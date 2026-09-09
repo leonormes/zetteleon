@@ -1,13 +1,10 @@
 ---
 conformant: false
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-08-29T09:36:00+00:00
+modified: 2026-09-09T12:34:11+00:00
 non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/100-zettelkasten/expert-role-shifts-from-explaining-concepts-to-humans-to-tuning-tutor-agents
-tags:
-- domain/llm
-- topic/agent-architecture
-- topic/education
+tags: [domain/llm, topic/agent-architecture, topic/education]
 title: Expert Role Shifts from Explaining Concepts to Humans to Tuning Tutor-Agents
 type: claim
 ---

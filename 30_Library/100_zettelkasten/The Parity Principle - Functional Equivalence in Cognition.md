@@ -4,7 +4,7 @@ axiom: true
 conformant: true
 created: 2025-12-24T12:00:00+00:00
 epistemic_status: high
-modified: 2026-08-29T09:36:06+00:00
+modified: 2026-09-09T12:34:17+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-parity-principle-functional-equivalence-in-cognition
 prodos.kind: atomic
 prodos.lifecycle: stable

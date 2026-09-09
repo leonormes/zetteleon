@@ -2,7 +2,7 @@
 aliases: [Rawness in Music]
 conformant: false
 created: 2025-11-10T11:04:00+00:00
-modified: 2026-08-29T09:36:06+00:00
+modified: 2026-09-09T12:34:17+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/the-rawness-of-expressive-music-is-a-sign-of-its-honesty
 tags: [authenticity, expression, imperfection, music]

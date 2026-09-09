@@ -7,17 +7,13 @@ created: 2026-09-04T09:25:47+00:00
 created_utc: 2026-09-04T14:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-04T09:49:17+00:00
+modified: 2026-09-09T12:34:17+00:00
 permalink: llmeon/00-inbox/the-professional-treatment-of-dissent-signals-whether-a-consensus-is-genuine
 proposition: In a functioning scientific consensus, a researcher who uncovers a verified flaw in the standard model is rewarded with publication and career advancement; in institutional groupthink, questioning the core premise is treated as heresy and the dissenter is professionally excommunicated rather than empirically refuted.
 source_title: New chat
 source_url: https://gemini.google.com/app/295a599fc8b28e35
 status: seed
-tags:
-  - dissent
-  - epistemology
-  - philosophy-of-science
-  - scientific-consensus
+tags: [dissent, epistemology, philosophy-of-science, scientific-consensus]
 title: The Professional Treatment of Dissent Signals Whether a Consensus Is Genuine
 type: claim
 ---

@@ -1,18 +1,14 @@
 ---
 aliases: []
 conformant: true
-prodos:
-  kind: concept
-  lifecycle: stable
 created: 2025-02-07T12:57:54+00:00
-modified: 2026-09-03T09:32:31.925546+00:00
+modified: 2026-09-09T12:34:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/what-is-information
-tags:
-  - information
-  - epistemology
+tags: [epistemology, information]
 title: What is information
 type: concept
 ---
+
 Data that has been processed, organized, structured, or presented in a given context to make it meaningful and useful. Information answers the basic questions of "who," "what," "where," and "when." This definition treats information as a form of [[Information as a Perceivable Pattern]] [extends:: [[Information as a Perceivable Pattern]]].
 
 ---

@@ -6,7 +6,7 @@ created: 2025-11-01T11:37:53+00:00
 epistemic_status: medium
 evidence_links: []
 last_reviewed: ''
-modified: 2026-09-03T12:00:00+00:00
+modified: 2026-09-09T12:34:11+00:00
 permalink: llmeon/30-library/100-zettelkasten/executive-function-impairment-during-adhd-trough-phase
 proposition: During the post-hyperfixation ADHD trough phase, dopamine depletion, mental exhaustion, and reduced prefrontal cortex activation combine to impair executive functions such as task initiation, planning, and emotional regulation, and the resulting undone tasks compound the impairment through a stress-feedback cycle.
 status: draft
@@ -56,8 +56,8 @@ This creates a vicious cycle:
 
 ## Related
 
-- [[Prefrontal Cortex Catecholamine Insufficiency Impairs Executive Control in ADHD]] [depends_on:: [[Prefrontal Cortex Catecholamine Insufficiency Impairs Executive Control in ADHD]]] — *The neurochemical mechanism—dopamine/norepinephrine deficit disrupting prefrontal executive control—that this note's "Dopamine Depletion" and "Reduced Activation" causes rest on.*
-- [[ADHD Hangover or Brain Fog Following Hyperfixation]] [extends:: [[ADHD Hangover or Brain Fog Following Hyperfixation]]] — *Both describe Phase 4 ("The Trough") of the hyperfixation-burnout cycle; this note narrows to the executive-function mechanism and manifestations, while that note covers the broader subjective/emotional experience and duration.*
-- [[Executive Function Challenges are Central to ADHD]] [extends:: [[Executive Function Challenges are Central to ADHD]]] — *This note is the trough-phase instance of that note's "Effort" domain (processing speed and sustained-effort exhaustion after hyperfocus), which already cites this note directly.*
-- [[Executive Function Deficits in ADHD Impact Developer Productivity]] — *A parallel executive-function-deficit pattern applied to the software-development domain specifically, rather than the post-hyperfixation trough.*
-- [[MOC - ADHD Hyperfixation-Burnout Cycle]] — *Parent map; its Phase 4 ("The Trough") section cites this note as the executive-function manifestation of that phase.*
+- [[Prefrontal Cortex Catecholamine Insufficiency Impairs Executive Control in ADHD]] [depends_on:: [[Prefrontal Cortex Catecholamine Insufficiency Impairs Executive Control in ADHD]]]—_The neurochemical mechanism—dopamine/norepinephrine deficit disrupting prefrontal executive control—that this note's "Dopamine Depletion" and "Reduced Activation" causes rest on._
+- [[ADHD Hangover or Brain Fog Following Hyperfixation]] [extends:: [[ADHD Hangover or Brain Fog Following Hyperfixation]]]—_Both describe Phase 4 ("The Trough") of the hyperfixation-burnout cycle; this note narrows to the executive-function mechanism and manifestations, while that note covers the broader subjective/emotional experience and duration._
+- [[Executive Function Challenges are Central to ADHD]] [extends:: [[Executive Function Challenges are Central to ADHD]]]—_This note is the trough-phase instance of that note's "Effort" domain (processing speed and sustained-effort exhaustion after hyperfocus), which already cites this note directly._
+- [[Executive Function Deficits in ADHD Impact Developer Productivity]]—_A parallel executive-function-deficit pattern applied to the software-development domain specifically, rather than the post-hyperfixation trough._
+- [[MOC - ADHD Hyperfixation-Burnout Cycle]]—_Parent map; its Phase 4 ("The Trough") section cites this note as the executive-function manifestation of that phase._

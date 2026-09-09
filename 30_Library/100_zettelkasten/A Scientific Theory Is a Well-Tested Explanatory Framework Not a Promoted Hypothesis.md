@@ -6,9 +6,9 @@ created: 2026-09-07T15:00:00+00:00
 created_utc: 2026-09-07T15:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-07T15:00:00+00:00
+modified: 2026-09-09T12:34:06+00:00
 permalink: llmeon/30-library/100-zettelkasten/a-scientific-theory-is-a-well-tested-explanatory-framework-not-a-promoted-hypothesis
-proposition: A scientific theory is a broad, well-developed explanatory framework, not a weak guess that gets "promoted" to theory status once proved.
+proposition: 'A scientific theory is a broad, well-developed explanatory framework, not a weak guess that gets "promoted" to theory status once proved.'
 source_title: "I want to learn more about the philosophy of science and how the scientific method works"
 status: seed
 tags: [epistemology, philosophy-of-science, terminology]

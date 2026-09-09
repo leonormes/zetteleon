@@ -7,7 +7,7 @@ created: 2026-09-04T09:48:51+00:00
 created_utc: 2026-09-04T14:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-07T09:51:46+00:00
+modified: 2026-09-09T12:34:12+00:00
 permalink: llmeon/00-inbox/kuhns-four-stage-model-of-paradigm-collapse
 proposition: Science does not progress through steady linear accumulation of facts but cycles through a predictable four-stage lifecycle—Normal Science, Model Drift, Model Crisis, and Model Revolution—as anomalies accumulate, are patched over, and eventually force replacement of the reigning paradigm.
 source_title: New chat

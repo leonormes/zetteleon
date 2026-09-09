@@ -1,20 +1,16 @@
 ---
 conformant: true
-created: 2026-08-28 17:57:56+00:00
+created: 2026-08-28T17:57:56+00:00
 created_utc: '2026-08-28T18:57:00Z'
-modified: 2026-08-28 18:48:44+00:00
+modified: 2026-09-09T12:34:11+00:00
+permalink: llmeon/00-inbox/gtd-and-the-cognitive-load-of-execution
 source_title: Chat Input
 source_url: ''
 status: seed
-tags:
-- cognition
-- gtd
-- planning
-- productivity
+tags: [cognition, gtd, planning, productivity]
 title: GTD and the Cognitive Load of Execution
 type: claim
 upstream: ''
-permalink: llmeon/00-inbox/gtd-and-the-cognitive-load-of-execution
 ---
 
 ## GTD and the Cognitive Load of Execution

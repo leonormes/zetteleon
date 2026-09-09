@@ -2,16 +2,12 @@
 created: 2026-04-13T14:37:11+00:00
 created_utc: 2026-04-13T11:10:00Z
 kind: claim
-modified: 2026-08-29T09:35:57+00:00
+modified: 2026-09-09T12:34:07+00:00
 permalink: llmeon/30-library/100-zettelkasten/agentic-collaboration-shift
 source_title: Agentic Engineering and AI Workflow Management
 source_url: https://gemini.google.com/app/7a41bb3090001aa4
 status: seed
-tags:
-- domain/llm
-- topic/agent-architecture
-- topic/workflow-design
-- topic/multi-agent
+tags: [domain/llm, topic/agent-architecture, topic/multi-agent, topic/workflow-design]
 title: Agentic Collaboration Shift
 type: atom
 upstream: '[[HEAD - Agentic Engineering and AI Workflow Management]]'

@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-09-16T12:25:36+00:00
 last_reviewed: ''
-modified: 2026-08-29T09:35:58+00:00
+modified: 2026-09-09T12:34:08+00:00
 permalink: llmeon/30-library/100-zettelkasten/block-universe-and-the-nature-of-time
 see_also: []
 status: ''

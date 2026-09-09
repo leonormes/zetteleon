@@ -5,10 +5,10 @@ contradicts: []
 created: 2025-08-11T17:22:48+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-04T12:00:00+00:00
+modified: 2026-09-09T12:34:14+00:00
 permalink: llmeon/30-library/100-zettelkasten/part-1-the-psychology-of-adhd-driven-overthinking
 proposition: "ADHD-driven overthinking in technical work has an identifiable psychological structure: executive dysfunction (the root cause), working memory overload (holding multiple technical requirements at once), dopamine-seeking rabbit-holing (chasing novel information over implementing), and Rejection Sensitive Dysphoria (the fear of feedback that makes perfectionistic over-analysis feel safer than shipping)."
-tags: [TheHuman/Health/ADHD, executive-function, overthinking, topic/productivity]
+tags: [executive-function, overthinking, TheHuman/Health/ADHD, topic/productivity]
 title: Part 1 The Psychology of ADHD-Driven Overthinking
 type: claim
 ---
@@ -30,7 +30,7 @@ An outline of the four interlocking psychological factors behind ADHD-driven ove
 
 [depends_on:: [[Rejection Sensitive Dysphoria (RSD)]], strength=4, confidence=high]
 
-- [[Rejection Sensitive Dysphoria (RSD)]]—fixed: was pointing at a non-existent title, "Rejection Sensitive Dysphoria The Perfectionism Trap." Repointed to the canonical RSD note, whose own "Common Defense Mechanisms" section already names Perfectionism as one of the four shields against RSD's pain — the exact framing this broken link was reaching for.
+- [[Rejection Sensitive Dysphoria (RSD)]]—fixed: was pointing at a non-existent title, "Rejection Sensitive Dysphoria The Perfectionism Trap." Repointed to the canonical RSD note, whose own "Common Defense Mechanisms" section already names Perfectionism as one of the four shields against RSD's pain—the exact framing this broken link was reaching for.
 
 ## Related
 

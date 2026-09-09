@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-11-06T19:54:10+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-04T12:00:00+00:00
+modified: 2026-09-09T12:34:09+00:00
 permalink: llmeon/30-library/100-zettelkasten/collaborative-programming-mitigates-rsd-and-focus-issues-in-adhd
 proposition: "Collaborative programming practices (pair or mob programming) mitigate two distinct ADHD challenges at once: they reduce Rejection Sensitive Dysphoria by delivering feedback in real-time and in a normalised social context rather than as batched, asynchronous critique, and they regulate hyperfocus-driven \"coding rabbit holes\" by providing continuous external structure."
 tags: [accommodation, pair-programming, rsd, TheHuman/Health/ADHD]

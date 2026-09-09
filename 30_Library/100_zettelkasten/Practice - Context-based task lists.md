@@ -1,6 +1,6 @@
 ---
 created: 2026-05-31T00:00:00+00:00
-modified: 2026-08-29T09:36:04+00:00
+modified: 2026-09-09T12:34:14+00:00
 permalink: llmeon/30-library/100-zettelkasten/practice-context-based-task-lists
 related_to: ["[[Cognitive Load]]", "[[Executive Function]]"]
 tags: [adhd, contexts, gtd, task-management]

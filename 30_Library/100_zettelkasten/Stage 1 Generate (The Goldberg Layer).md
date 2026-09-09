@@ -2,13 +2,13 @@
 aliases: []
 conformant: true
 created: 2025-12-04T12:00:00+00:00
-modified: 2026-09-04T19:58:00+00:00
+definition: "The first writing stage of the Unified Writing to Think process, focusing on capturing raw energy without judgment."
+modified: 2026-09-09T12:34:16+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/stage-1
-tags: [pkm, writing, cognition]
+tags: [cognition, pkm, writing]
 title: Stage 1 Generate (The Goldberg Layer)
 type: concept
-definition: "The first writing stage of the Unified Writing to Think process, focusing on capturing raw energy without judgment."
 ---
 
 _The Goal: To capture the raw energy of a thought without judgment._
@@ -29,6 +29,6 @@ Outcome: A raw, unedited block of text that contains the "first thoughts" and em
 
 ## Related
 
-- [[Stage 0 Prepare (The Extended Mind Layer)]] — *The preceding stage.* [depends_on:: [[Stage 0 Prepare (The Extended Mind Layer)]]]
-- [[Stage 2 Clarify (The On Writing Well Layer)]] — *The next stage.*
-- [[SoT - The Unified Writing to Think Process]] — *The overarching framework.* [extends:: [[SoT - The Unified Writing to Think Process]]]
+- [[Stage 0 Prepare (The Extended Mind Layer)]]—_The preceding stage._ [depends_on:: [[Stage 0 Prepare (The Extended Mind Layer)]]]
+- [[Stage 2 Clarify (The On Writing Well Layer)]]—_The next stage._
+- [[SoT - The Unified Writing to Think Process]]—_The overarching framework._ [extends:: [[SoT - The Unified Writing to Think Process]]]

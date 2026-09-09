@@ -6,7 +6,7 @@ contradicts: []
 created: 2025-10-30T17:38:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-04T12:00:00+00:00
+modified: 2026-09-09T12:34:13+00:00
 permalink: llmeon/30-library/100-zettelkasten/mini-routines-are-effective-for-adhd-autism-and-chronic-illness
 source: '[[MOC - How To Create And Use Mini Routines]]'
 tags: [autism, chronic-illness, routines, TheHuman/Health/ADHD]
@@ -33,7 +33,6 @@ The core benefit is achieving structure without rigidity—creating a framework 
 [supports:: [[Bookend routines mark the start and end of day]], confidence=medium]
 
 - [[Bookend routines mark the start and end of day]]—that note already names this one as its "practical application of event-based routines as flexible containers for daily structure."
-
 - [[Routines reduce anxiety and decision fatigue in neurodivergent individuals]]
 - [[Event-based structure reduces time-pressure anxiety]]
 - [[Event-based pacing matches boom and bust energy cycles]]—elaborates the chronic-illness/energy-variability mechanism this note states briefly.

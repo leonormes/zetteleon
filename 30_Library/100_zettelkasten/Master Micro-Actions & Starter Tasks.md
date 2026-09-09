@@ -4,7 +4,7 @@ axiom: true
 conformant: true
 created: 2025-12-16T13:15:00+00:00
 epistemic_status: absolute
-modified: 2026-08-29T09:36:03+00:00
+modified: 2026-09-09T12:34:13+00:00
 permalink: llmeon/30-library/100-zettelkasten/master-micro-actions-starter-tasks
 prodos.kind: atomic
 prodos.lifecycle: stable

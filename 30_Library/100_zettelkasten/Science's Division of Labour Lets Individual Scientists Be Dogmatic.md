@@ -2,27 +2,22 @@
 aliases: []
 conformant: true
 contradicts: []
-created: 2026-09-08 20:15:00+00:00
+created: 2026-09-08T20:15:00+00:00
 created_utc: 2026-09-08 20:15:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-08 20:15:00+00:00
-source_title: David Deutsch and Peter Godfrey-Smith
-source_url: UNKNOWN
-status: seed
-tags:
-- epistemology
-- philosophy-of-science
-- godfrey-smith
-- sociology-of-science
-- incentives
-title: Science's Division of Labour Lets Individual Scientists Be Dogmatic
-type: claim
+modified: 2026-09-09T12:34:15+00:00
+permalink: llmeon/00-inbox/sciences-division-of-labour-lets-individual-scientists-be-dogmatic
 proposition: Godfrey-Smith argues the scientific method works not because every scientist
   is personally open-minded and self-critical, but because the community divides the
   labour, individual scientists can be dogmatic about their own theories while rival
   scientists eagerly do the critical testing for them.
-permalink: llmeon/00-inbox/sciences-division-of-labour-lets-individual-scientists-be-dogmatic
+source_title: David Deutsch and Peter Godfrey-Smith
+source_url: UNKNOWN
+status: seed
+tags: [epistemology, godfrey-smith, incentives, philosophy-of-science, sociology-of-science]
+title: "Science's Division of Labour Lets Individual Scientists Be Dogmatic"
+type: claim
 ---
 
 ## Science's Division of Labour Lets Individual Scientists Be Dogmatic

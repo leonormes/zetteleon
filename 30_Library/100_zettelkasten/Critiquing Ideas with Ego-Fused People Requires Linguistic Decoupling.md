@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2026-07-13T22:00:00+00:00
-modified: 2026-08-29T09:35:59+00:00
+modified: 2026-09-09T12:34:10+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/critiquing-ideas-with-ego-fused-people-requires-linguistic-decoupling
 status: draft

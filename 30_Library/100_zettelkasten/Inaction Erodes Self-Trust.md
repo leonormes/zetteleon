@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-10-20T08:05:02+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-04T12:00:00+00:00
+modified: 2026-09-09T12:34:12+00:00
 permalink: llmeon/30-library/100-zettelkasten/inaction-erodes-self-trust
 proposition: "Repeatedly failing to act on one's own plans erodes self-trust through a downward spiral: each private failure reinforces a negative self-perception, which makes future action harder, which produces further failures — a cycle that closely resembles the ADHD Shame-Procrastination Cycle and is broken by building a trustworthy planning system."
 tags: [confidence, inaction, self_esteem, TheHuman/Psychology]

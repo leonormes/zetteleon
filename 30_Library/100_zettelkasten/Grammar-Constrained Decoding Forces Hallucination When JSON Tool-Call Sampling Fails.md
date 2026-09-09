@@ -2,7 +2,7 @@
 axiom: true
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: medium
-modified: 2026-08-29T09:36:01+00:00
+modified: 2026-09-09T12:34:11+00:00
 permalink: llmeon/30-library/100-zettelkasten/grammar-constrained-decoding-forces-hallucination-when-json-tool-call-sampling-fails
 tags: [domain/llm, topic/llm-behavior, topic/reliability, topic/structured-outputs, topic/tool-use]
 title: Grammar-Constrained Decoding Forces Hallucination When JSON Tool-Call Sampling Fails

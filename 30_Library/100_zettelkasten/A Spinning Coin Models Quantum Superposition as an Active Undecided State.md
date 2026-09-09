@@ -6,12 +6,12 @@ created: 2026-09-07T16:00:00+00:00
 created_utc: 2026-09-07T16:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-07T16:00:00+00:00
+modified: 2026-09-09T12:34:06+00:00
 permalink: llmeon/30-library/100-zettelkasten/a-spinning-coin-models-quantum-superposition-as-an-active-undecided-state
-proposition: A coin spinning rapidly on its edge is a more accurate metaphor for quantum superposition than Schrödinger's cat, because the spin is a directly observable, genuinely undecided dynamic state—neither heads, nor tails, nor a fast alternation between them—and stopping it (measurement) actively forces a definite outcome rather than revealing one that was already there.
+proposition: "A coin spinning rapidly on its edge is a more accurate metaphor for quantum superposition than Schrödinger's cat, because the spin is a directly observable, genuinely undecided dynamic state—neither heads, nor tails, nor a fast alternation between them—and stopping it (measurement) actively forces a definite outcome rather than revealing one that was already there."
 source_title: "I have always found schrodinger cat a bad metaphor (Gemini conversation)"
 status: seed
-tags: [physics, quantum-mechanics, metaphor, pedagogy]
+tags: [metaphor, pedagogy, physics, quantum-mechanics]
 title: A Spinning Coin Models Quantum Superposition as an Active Undecided State
 type: claim
 ---

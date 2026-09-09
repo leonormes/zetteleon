@@ -4,7 +4,7 @@ axiom: true
 created: 2025-03-24T17:07:03+00:00
 id: 1b
 last_reviewed: '2026-07-29'
-modified: 2026-08-29T09:36:08+00:00
+modified: 2026-09-09T12:34:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/zettelkasten-system-essence
 status: 'null'
 tags: [topic/knowledge-architecture, topic/pkm/zettelkasten]

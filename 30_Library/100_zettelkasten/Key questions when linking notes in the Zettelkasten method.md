@@ -1,7 +1,7 @@
 ---
 conformant: true
 created: 2026-05-04T08:01:26+00:00
-modified: 2026-08-29T09:36:02+00:00
+modified: 2026-09-09T12:34:12+00:00
 permalink: llmeon/30-library/100-zettelkasten/key-questions-when-linking-notes-in-the-zettelkasten-method
 prodos.kind: concept
 prodos.lifecycle: stub

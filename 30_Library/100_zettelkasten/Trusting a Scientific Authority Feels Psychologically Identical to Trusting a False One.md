@@ -3,19 +3,14 @@ aliases: []
 conformant: true
 created: 2026-09-04T09:24:58+00:00
 created_utc: 2026-09-04T14:00:00+00:00
-distinguishes_from:
-  - "[[Falsifiability Distinguishes Science from Dogma]]"
-modified: 2026-09-06T17:53:00+00:00
+distinguishes_from: ["[[Falsifiability Distinguishes Science from Dogma]]"]
+modified: 2026-09-09T12:34:18+00:00
 permalink: llmeon/00-inbox/trusting-a-scientific-authority-feels-psychologically-identical-to-trusting-a-false-one
 source_title: New chat
 source_url: https://gemini.google.com/app/295a599fc8b28e35
 status: seed
-tags:
-  - epistemology
-  - philosophy-of-science
-  - testimony
-  - trust
-title: Trusting a Scientific Authority Feels Psychologically Identical to Trusting a False One a False One
+tags: [epistemology, philosophy-of-science, testimony, trust]
+title: Trusting a Scientific Authority Feels Psychologically Identical to Trusting a False One
 type: concept
 used_in_claims: []
 ---

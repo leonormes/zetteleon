@@ -5,9 +5,9 @@ contradicts: []
 created: 2025-08-29T15:17:54+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-07T10:05:00+00:00
+modified: 2026-09-09T12:34:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/ptolemaic-system-as-a-patched-flawed-model
-proposition: The Ptolemaic geocentric model's foundational assumption—a static, central Earth—was false, but astronomers preserved it for 1,500 years by patching observational failures with increasing complexity (epicycles) instead of questioning the assumption itself, delaying the Copernican revolution.
+proposition: "The Ptolemaic geocentric model's foundational assumption—a static, central Earth—was false, but astronomers preserved it for 1,500 years by patching observational failures with increasing complexity (epicycles) instead of questioning the assumption itself, delaying the Copernican revolution."
 status: seed
 tags: [analogy, history, science, TheHuman/Cognition/mental-model]
 title: Ptolemaic System as a Patched Flawed Model
@@ -18,7 +18,7 @@ The geocentric Ptolemaic model of the universe is a historical example of buildi
 
 For 1,500 years, instead of questioning this foundation, astronomers "patched" the model to fit observations by adding layers of complexity, such as epicycles. This is analogous to adding special-case handling in software to work around a core bug instead of fixing the root cause. The model became increasingly complex but remained predictive for known inputs, delaying the Copernican revolution.
 
-### Related
+## Related
 
 [supports:: [[Flawed Mental Models Limit Mastery]], confidence=high]
 

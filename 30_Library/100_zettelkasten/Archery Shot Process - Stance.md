@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T00:00:00+00:00
-modified: 2026-08-31T11:17:10+00:00
+modified: 2026-09-09T12:34:08+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-stance
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Stance

@@ -2,27 +2,22 @@
 aliases: []
 conformant: true
 contradicts: []
-created: 2026-09-08 20:15:00+00:00
+created: 2026-09-08T20:15:00+00:00
 created_utc: 2026-09-08 20:15:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-08 20:15:00+00:00
-source_title: David Deutsch and Peter Godfrey-Smith
-source_url: UNKNOWN
-status: seed
-tags:
-- epistemology
-- philosophy-of-science
-- popper
-- deutsch
-- induction
-title: Deutsch Rejects Empiricism for Conjecture-Led Theory Formation
-type: claim
+modified: 2026-09-09T12:34:10+00:00
+permalink: llmeon/00-inbox/deutsch-rejects-empiricism-for-conjecture-led-theory-formation
 proposition: Deutsch holds that scientific theories originate as bold conjectures
   from human imagination, not as generalisations derived from sensory experience,
   so experience is used to choose between pre-existing guesses rather than to read
   theories off nature.
-permalink: llmeon/00-inbox/deutsch-rejects-empiricism-for-conjecture-led-theory-formation
+source_title: David Deutsch and Peter Godfrey-Smith
+source_url: UNKNOWN
+status: seed
+tags: [deutsch, epistemology, induction, philosophy-of-science, popper]
+title: Deutsch Rejects Empiricism for Conjecture-Led Theory Formation
+type: claim
 ---
 
 ## Deutsch Rejects Empiricism for Conjecture-Led Theory Formation
@@ -35,7 +30,7 @@ Deutsch's Popperian account of theory-genesis specifically; contrasts with Godfr
 
 ### Evidence
 
-> "theories are not 'derived' from nature, nor are they extrapolations of repeated observations... they are bold conjectures created by the human imagination... we invent theories to solve problems and then use experience merely to choose between these pre-existing guesses"
+> "theories are not 'derived' from nature, nor are they extrapolations of repeated observations… they are bold conjectures created by the human imagination… we invent theories to solve problems and then use experience merely to choose between these pre-existing guesses"
 
 ### Implications
 

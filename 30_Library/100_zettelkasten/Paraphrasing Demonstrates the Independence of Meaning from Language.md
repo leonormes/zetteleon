@@ -6,7 +6,7 @@ contradicts: []
 created: 2025-07-16T17:30:04+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-03T11:08:00+00:00
+modified: 2026-09-09T12:34:14+00:00
 permalink: llmeon/30-library/100-zettelkasten/paraphrasing-demonstrates-the-independence-of-meaning-from-language
 prodos.kind: atomic
 prodos.lifecycle: active
@@ -22,6 +22,6 @@ This separation allows for the richness of language. We can explore different fa
 
 ## See Also
 
-- [[Claim - Vocabulary acts as a compression scheme pointing to shared internal models rather than carrying inherent meaning]] — _Because vocabulary acts as compression, meaning is independent of language._
+- [[Claim - Vocabulary acts as a compression scheme pointing to shared internal models rather than carrying inherent meaning]]—_Because vocabulary acts as compression, meaning is independent of language._
 [supports:: [[Claim - Vocabulary acts as a compression scheme pointing to shared internal models rather than carrying inherent meaning]]]
-- [[MOC - Paraphrasing and Language]] — _Central hub for notes on paraphrasing and semantics._
+- [[MOC - Paraphrasing and Language]]—_Central hub for notes on paraphrasing and semantics._

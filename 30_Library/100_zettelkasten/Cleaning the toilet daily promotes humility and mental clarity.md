@@ -4,7 +4,7 @@ axiom: true
 conformant: true
 created: 2025-10-29T16:35:00+00:00
 epistemic_status: medium
-modified: 2026-08-29T09:35:59+00:00
+modified: 2026-09-09T12:34:09+00:00
 permalink: llmeon/30-library/100-zettelkasten/cleaning-the-toilet-daily-promotes-humility-and-mental-clarity
 prodos.kind: atomic
 prodos.lifecycle: stable

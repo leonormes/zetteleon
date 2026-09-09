@@ -6,7 +6,7 @@ contradicts: []
 created: 2025-11-10T17:08:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-04T12:00:00+00:00
+modified: 2026-09-09T12:34:14+00:00
 permalink: llmeon/30-library/100-zettelkasten/pragmatism-defines-truth-by-practical-consequences
 proposition: "Pragmatism, the American philosophical tradition developed by Peirce, James, and Dewey, holds that the truth, meaning, or value of an idea is defined by its practical consequences — theories are instruments rather than answers to abstract enigmas, and knowledge that produces no change in action or experience is largely meaningless."
 tags: [action, pragmatism, TheHuman/Philosophy, truth]
@@ -32,12 +32,11 @@ Peirce's Maxim: Charles Sanders Peirce formulated the pragmatic maxim as: "Consi
 
 [supports:: [[Pragmatic Truth Focuses on Utility Over Absolute Correctness]], strength=3, confidence=high]
 
-- [[Pragmatic Truth Focuses on Utility Over Absolute Correctness]]—_A sibling concept, not a duplicate: that note states the epistemological thesis (what truth *is*) and its `contradicts` relation to correspondence theory; this note supplies the historical philosophical tradition (Peirce's maxim, James, Dewey) the thesis is drawn from._
+- [[Pragmatic Truth Focuses on Utility Over Absolute Correctness]]—_A sibling concept, not a duplicate: that note states the epistemological thesis (what truth _is_) and its `contradicts` relation to correspondence theory; this note supplies the historical philosophical tradition (Peirce's maxim, James, Dewey) the thesis is drawn from._
 
 [depends_on:: [[SoT - Reality, Models, and the Limits of Accuracy]], confidence=medium]
 
-- [[SoT - Reality, Models, and the Limits of Accuracy]]—_Discusses the pragmatic value of models based on their ability to guide effective action rather than their theoretical correctness — the same "Utility Over Truth" principle this note grounds philosophically._
-
+- [[SoT - Reality, Models, and the Limits of Accuracy]]—_Discusses the pragmatic value of models based on their ability to guide effective action rather than their theoretical correctness—the same "Utility Over Truth" principle this note grounds philosophically._
 - [[SoT - Belief Architecture & Cognitive Spaces]]—_Examines how ProdOS adopts a pragmatic truth standard for installing and validating new beliefs._
 - [[Shift from Seeking Rightness to Seeking Utility]]—_Explores the cognitive transition towards valuing a belief's practical utility as a source of confidence._
 - [[SoT - Pragmatism vs Rigour in Software]]—_Applies the principle of pragmatism to the engineering trade-offs between delivery velocity and formal correctness._

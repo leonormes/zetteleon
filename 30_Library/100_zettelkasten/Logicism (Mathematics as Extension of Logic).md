@@ -3,7 +3,7 @@ aliases: []
 conformant: true
 created: 2025-11-01T11:22:13+00:00
 epistemic_status: high
-modified: 2026-09-04T19:27:00+00:00
+modified: 2026-09-09T12:34:13+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/logicism-mathematics-as-extension-of-logic
 proposition: "Logicism holds that mathematics is an extension of pure logic: mathematical concepts are definable in purely logical terms and mathematical theorems are derivable as theorems of logic alone."
@@ -24,7 +24,7 @@ Challenge: The logicist project was derailed by paradoxes (like Russell's Parado
 
 ## Related
 
-- [[Formalism (Mathematics as Symbol Manipulation)]] — *Rival foundational school from the same era: where Logicism grounds mathematical truth in logic itself, Formalism denies truth-content altogether and grounds mathematics in rule-governed symbol consistency instead. Both were shaken by the same Gödelian result.*
-- [[Deductive Reasoning Underwrites Mathematical Proof]] — *The proof mechanism this note's whole program depends on: "provable as theorems of logic" only works because deduction reliably derives necessary conclusions from axioms.* [depends_on:: [[Deductive Reasoning Underwrites Mathematical Proof]]]
-- [[Mathematics as a Logical Maze (Metaphor)]] — *Companion metaphor from the same source material.*
-- [[Logic Is the Grammar of Rigorous Argument]] — *That note specializes this one's own "grammar of reason" analogy into a full account of syntax, inference, and semantics.*
+- [[Formalism (Mathematics as Symbol Manipulation)]]—_Rival foundational school from the same era: where Logicism grounds mathematical truth in logic itself, Formalism denies truth-content altogether and grounds mathematics in rule-governed symbol consistency instead. Both were shaken by the same Gödelian result._
+- [[Deductive Reasoning Underwrites Mathematical Proof]]—_The proof mechanism this note's whole program depends on: "provable as theorems of logic" only works because deduction reliably derives necessary conclusions from axioms._ [depends_on:: [[Deductive Reasoning Underwrites Mathematical Proof]]]
+- [[Mathematics as a Logical Maze (Metaphor)]]—_Companion metaphor from the same source material._
+- [[Logic Is the Grammar of Rigorous Argument]]—_That note specializes this one's own "grammar of reason" analogy into a full account of syntax, inference, and semantics._

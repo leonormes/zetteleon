@@ -2,7 +2,7 @@
 aliases: [Daily bookends, Morning and evening routines]
 conformant: false
 created: 2025-10-30T17:32:00+00:00
-modified: 2026-08-29T09:35:58+00:00
+modified: 2026-09-09T12:34:08+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/bookend-routines-mark-the-start-and-end-of-day
 source: '[[MOC - Why Autistics and ADHDers NEED Routines]]'

@@ -3,12 +3,8 @@ aliases: []
 conformant: true
 created: 2026-04-14T20:54:42+00:00
 created_utc: '2026-04-14T14:20:00Z'
-modified: 2026-09-04T12:00:00+00:00
+modified: 2026-09-09T12:34:09+00:00
 permalink: llmeon/30-library/100-zettelkasten/cognitive-firewalls
-prodos:
-  kind: atomic
-  atomic:
-    form: procedure
 source_title: Why Is AI Making My Job Worse?
 source_url: http://www.youtube.com/watch?v=NDyuJcR2GH4
 steps: "Rigidly separate deep-work blocks (or days) from shallow-work blocks (or days); route digital-tool interruptions and low-value task arrivals only into the shallow-work slots."
@@ -46,6 +42,5 @@ Personal or organisational workflow structuring aimed at protecting cognitive re
 [implements:: [[Hybrid Attention Model Assigns Remote Days to Deep Work and Office Days to Shallow Work]], confidence=medium]
 
 - [[Hybrid Attention Model Assigns Remote Days to Deep Work and Office Days to Shallow Work]]—direct concept match: a team-level implementation of this same firewall principle.
-
 - [[SoT - Principles for Peaceful Productivity]]—shared mechanism: aligns with the "Protect Your First Hour" principle.
 - [[Digital Productivity Paradox]]—the productivity-loss claim this procedure is designed to prevent.

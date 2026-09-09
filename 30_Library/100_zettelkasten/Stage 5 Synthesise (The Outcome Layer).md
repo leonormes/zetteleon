@@ -2,13 +2,13 @@
 aliases: []
 conformant: true
 created: 2025-12-04T12:00:00+00:00
-modified: 2026-09-04T19:58:00+00:00
+definition: "The final stage of the Unified Writing to Think process, focusing on synthesizing connected notes into larger arguments or structure notes."
+modified: 2026-09-09T12:34:16+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/stage-5
-tags: [pkm, writing, cognition]
+tags: [cognition, pkm, writing]
 title: Stage 5 Synthesise (The Outcome Layer)
 type: concept
-definition: "The final stage of the Unified Writing to Think process, focusing on synthesizing connected notes into larger arguments or structure notes."
 ---
 
 _The Goal: To use your connected notes to build larger arguments and summaries._
@@ -25,5 +25,5 @@ Outcome: A coherent understanding of a complex topic, captured in a structure no
 
 ## Related
 
-- [[Stage 4 Connect (The Zettelkasten Layer)]] — *The preceding stage.* [depends_on:: [[Stage 4 Connect (The Zettelkasten Layer)]]]
-- [[SoT - The Unified Writing to Think Process]] — *The overarching framework.* [extends:: [[SoT - The Unified Writing to Think Process]]]
+- [[Stage 4 Connect (The Zettelkasten Layer)]]—_The preceding stage._ [depends_on:: [[Stage 4 Connect (The Zettelkasten Layer)]]]
+- [[SoT - The Unified Writing to Think Process]]—_The overarching framework._ [extends:: [[SoT - The Unified Writing to Think Process]]]

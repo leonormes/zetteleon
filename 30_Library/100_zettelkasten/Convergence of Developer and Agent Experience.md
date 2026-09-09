@@ -2,15 +2,12 @@
 created: 2026-04-14T11:22:44+00:00
 created_utc: 2026-04-14T11:05:00Z
 kind: claim
-modified: 2026-08-29T09:35:59+00:00
+modified: 2026-09-09T12:34:09+00:00
 permalink: llmeon/30-library/100-zettelkasten/convergence-of-developer-and-agent-experience
 source_title: 'Martin Fowler & Kent Beck: Frameworks for reinventing software, again and again'
 source_url: http://www.youtube.com/watch?v=CZs8J1ZD0CE
 status: seed
-tags:
-- domain/llm
-- topic/agent-architecture
-- topic/developer-experience
+tags: [domain/llm, topic/agent-architecture, topic/developer-experience]
 title: Convergence of Developer and Agent Experience
 type: atom
 upstream: '[[SoT - Mental Models in Software Development]]'

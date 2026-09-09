@@ -2,13 +2,13 @@
 aliases: []
 conformant: true
 created: 2025-12-04T12:00:00+00:00
-modified: 2026-09-04T19:58:00+00:00
+definition: "The third writing stage of the Unified Writing to Think process, focusing on active reflection and deep understanding."
+modified: 2026-09-09T12:34:16+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/stage-3
-tags: [pkm, writing, cognition]
+tags: [cognition, pkm, writing]
 title: Stage 3 Understand (The Writing to Learn Layer)
 type: concept
-definition: "The third writing stage of the Unified Writing to Think process, focusing on active reflection and deep understanding."
 ---
 
 _The Goal: To reflect on the clarified idea and discover what you now know._
@@ -28,6 +28,6 @@ Outcome: A conscious understanding of the core insight you have just unearthed. 
 
 ## Related
 
-- [[Stage 2 Clarify (The On Writing Well Layer)]] — *The preceding stage.* [depends_on:: [[Stage 2 Clarify (The On Writing Well Layer)]]]
-- [[Stage 4 Connect (The Zettelkasten Layer)]] — *The next stage.*
-- [[SoT - The Unified Writing to Think Process]] — *The overarching framework.* [extends:: [[SoT - The Unified Writing to Think Process]]]
+- [[Stage 2 Clarify (The On Writing Well Layer)]]—_The preceding stage._ [depends_on:: [[Stage 2 Clarify (The On Writing Well Layer)]]]
+- [[Stage 4 Connect (The Zettelkasten Layer)]]—_The next stage._
+- [[SoT - The Unified Writing to Think Process]]—_The overarching framework._ [extends:: [[SoT - The Unified Writing to Think Process]]]

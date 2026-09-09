@@ -1,19 +1,14 @@
 ---
 aliases: []
 conformant: true
-prodos:
-  kind: procedure
-  lifecycle: stable
 created: 2025-10-26T11:15:00+00:00
-modified: 2026-09-02T15:03:17.951797+00:00
+modified: 2026-09-09T12:34:10+00:00
 permalink: llmeon/30-library/100-zettelkasten/emotional-regulation-techniques-for-adhd-productivity
-tags:
-  - emotional-regulation
-  - TheHuman/Health/ADHD
-  - topic/productivity
+tags: [emotional-regulation, TheHuman/Health/ADHD, topic/productivity]
 title: Emotional Regulation Techniques for ADHD Productivity
 type: procedure
 ---
+
 For individuals with ADHD, emotional dysregulation can be a significant barrier to productivity. Techniques that help manage and process difficult emotions can free up cognitive resources for tasks.
 
 ## Core Strategy: Emotional Freedom Techniques (EFT) Tapping
@@ -32,17 +27,17 @@ The process combines a physical component (tapping) with a cognitive component (
 
 ## Connections
 
-- This is a practical tool for implementing the principles of [[SoT - Mindfulness and Emotional Regulation]] [implements:: [[SoT - Mindfulness and Emotional Regulation]]] - *EFT tapping serves as an active, somatic protocol to break emotional fusion.*
-- It provides an immediate somatic intervention for [[MOC - Emotional Dysregulation]] [implements:: [[MOC - Emotional Dysregulation]]] - *EFT directly targets the dysregulated nervous system during an acute emotional spike.*
-- It helps dismantle [[ADHD Emotional Reasoning]] [supports:: [[ADHD Emotional Reasoning]]] - *By calming the body, EFT reduces the intensity of the feeling that is mistakenly interpreted as fact.*
-- [[Cerebellum Function and Exercise for ADHD Regulation]] [supports:: [[Cerebellum Function and Exercise for ADHD Regulation]]] - *Like coordination exercises, EFT leverages somatic action to restore cognitive control.*
+- This is a practical tool for implementing the principles of [[SoT - Mindfulness and Emotional Regulation]] [implements:: [[SoT - Mindfulness and Emotional Regulation]]] - _EFT tapping serves as an active, somatic protocol to break emotional fusion._
+- It provides an immediate somatic intervention for [[MOC - Emotional Dysregulation]] [implements:: [[MOC - Emotional Dysregulation]]] - _EFT directly targets the dysregulated nervous system during an acute emotional spike._
+- It helps dismantle [[ADHD Emotional Reasoning]] [supports:: [[ADHD Emotional Reasoning]]] - _By calming the body, EFT reduces the intensity of the feeling that is mistakenly interpreted as fact._
+- [[Cerebellum Function and Exercise for ADHD Regulation]] [supports:: [[Cerebellum Function and Exercise for ADHD Regulation]]] - _Like coordination exercises, EFT leverages somatic action to restore cognitive control._
 
 ## Criticism Framework
 
 External Interactions:
 
-- Use [[SoT - The 3-Switch Protocol (Emotional Reset)]] [implements:: [[SoT - The 3-Switch Protocol (Emotional Reset)]]] - *A structured protocol for managing the physiological spike of critical feedback.*
-- Practice [[Cognitive Reframing of Criticism]] [supports:: [[Cognitive Reframing of Criticism]]] - *A preemptive cognitive strategy that pairs with the somatic relief of EFT.*
+- Use [[SoT - The 3-Switch Protocol (Emotional Reset)]] [implements:: [[SoT - The 3-Switch Protocol (Emotional Reset)]]] - _A structured protocol for managing the physiological spike of critical feedback._
+- Practice [[Cognitive Reframing of Criticism]] [supports:: [[Cognitive Reframing of Criticism]]] - _A preemptive cognitive strategy that pairs with the somatic relief of EFT._
 - Schedule recovery time after tough exchanges.
 
 _Source: Synthesized from notes on ADHD productivity hacks._

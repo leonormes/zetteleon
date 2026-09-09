@@ -2,26 +2,21 @@
 aliases: []
 conformant: true
 contradicts: []
-created: 2026-09-08 20:15:00+00:00
+created: 2026-09-08T20:15:00+00:00
 created_utc: 2026-09-08 20:15:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-08 20:15:00+00:00
-source_title: David Deutsch and Peter Godfrey-Smith
-source_url: UNKNOWN
-status: seed
-tags:
-- epistemology
-- philosophy-of-science
-- popper
-- godfrey-smith
-- falsifiability
-title: Godfrey-Smith's Confirmation Objection to Strict Falsificationism
-type: claim
+modified: 2026-09-09T12:34:11+00:00
+permalink: llmeon/00-inbox/godfrey-smiths-confirmation-objection-to-strict-falsificationism
 proposition: Godfrey-Smith argues that if theories can never be confirmed by evidence,
   there is no rational basis for relying on well-tested theories over untested ones,
   illustrated by a bridge-design example.
-permalink: llmeon/00-inbox/godfrey-smiths-confirmation-objection-to-strict-falsificationism
+source_title: David Deutsch and Peter Godfrey-Smith
+source_url: UNKNOWN
+status: seed
+tags: [epistemology, falsifiability, godfrey-smith, philosophy-of-science, popper]
+title: "Godfrey-Smith's Confirmation Objection to Strict Falsificationism"
+type: claim
 ---
 
 ## Godfrey-Smith's Confirmation Objection to Strict Falsificationism

@@ -6,13 +6,13 @@ created: 2026-09-07T16:00:00+00:00
 created_utc: 2026-09-07T16:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-07T16:00:00+00:00
+modified: 2026-09-09T12:34:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/schrodingers-cat-was-designed-as-a-reductio-ad-absurdum-against-the-copenhagen-interpretation
 proposition: Erwin Schrödinger devised the cat-in-a-box thought experiment in 1935 not to explain quantum superposition to laypeople, but as a reductio ad absurdum to expose what he saw as the absurdity of the Copenhagen interpretation championed by Bohr and Heisenberg.
 source_title: "I have always found schrodinger cat a bad metaphor (Gemini conversation)"
 status: seed
-tags: [physics, quantum-mechanics, history-of-science, philosophy-of-science]
-title: Schrödinger's Cat Was Designed as a Reductio Ad Absurdum Against the Copenhagen Interpretation
+tags: [history-of-science, philosophy-of-science, physics, quantum-mechanics]
+title: "Schrödinger's Cat Was Designed as a Reductio Ad Absurdum Against the Copenhagen Interpretation"
 type: claim
 ---
 

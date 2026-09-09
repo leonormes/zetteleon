@@ -3,7 +3,7 @@ aliases: [Logical Maze Metaphor]
 conformant: true
 created: 2025-11-01T11:22:13+00:00
 epistemic_status: medium
-modified: 2026-09-04T19:27:00+00:00
+modified: 2026-09-09T12:34:13+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/mathematics-as-a-logical-maze-metaphor
 proposition: "Mathematics is best understood as a 'logical maze'—an interconnected network of pathways, decision points, dead ends, and multiple routes—where doing mathematics means navigating and discovering connections rather than accumulating isolated facts."
@@ -45,7 +45,7 @@ The maze metaphor helps students understand that:
 
 ## Related
 
-- [[Deductive Reasoning Underwrites Mathematical Proof]] — *This metaphor's literal referent: pathways are deductive chains, dead ends are invalid inferences, multiple routes are alternative valid proofs.* [extends:: [[Deductive Reasoning Underwrites Mathematical Proof]]]
-- [[Logicism (Mathematics as Extension of Logic)]] — *Companion foundational-philosophy note from the same source material.*
-- [[Formalism (Mathematics as Symbol Manipulation)]] — *Companion foundational-philosophy note from the same source material.*
-- [[Logic Is the Grammar of Rigorous Argument]] — *Companion metaphor, already grouped together as `rel:: metaphor` siblings in [[MOC - What is Maths]].*
+- [[Deductive Reasoning Underwrites Mathematical Proof]]—_This metaphor's literal referent: pathways are deductive chains, dead ends are invalid inferences, multiple routes are alternative valid proofs._ [extends:: [[Deductive Reasoning Underwrites Mathematical Proof]]]
+- [[Logicism (Mathematics as Extension of Logic)]]—_Companion foundational-philosophy note from the same source material._
+- [[Formalism (Mathematics as Symbol Manipulation)]]—_Companion foundational-philosophy note from the same source material._
+- [[Logic Is the Grammar of Rigorous Argument]]—_Companion metaphor, already grouped together as `rel:: metaphor` siblings in [[MOC - What is Maths]]._

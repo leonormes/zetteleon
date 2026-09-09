@@ -6,12 +6,12 @@ created: 2026-09-07T16:00:00+00:00
 created_utc: 2026-09-07T16:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-07T16:00:00+00:00
+modified: 2026-09-09T12:34:17+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-cat-metaphor-fails-because-it-suggests-epistemic-uncertainty-instead-of-quantum-ontological-uncertainty
-proposition: Schrödinger's cat fails as a teaching metaphor because a closed box naturally cues classical, epistemic uncertainty (the cat is already dead or alive, we just don't know), whereas quantum superposition is ontological uncertainty (the particle has not yet settled into a definite state at all).
+proposition: "Schrödinger's cat fails as a teaching metaphor because a closed box naturally cues classical, epistemic uncertainty (the cat is already dead or alive, we just don't know), whereas quantum superposition is ontological uncertainty (the particle has not yet settled into a definite state at all)."
 source_title: "I have always found schrodinger cat a bad metaphor (Gemini conversation)"
 status: seed
-tags: [physics, quantum-mechanics, metaphor, pedagogy, philosophy-of-science]
+tags: [metaphor, pedagogy, philosophy-of-science, physics, quantum-mechanics]
 title: The Cat Metaphor Fails Because It Suggests Epistemic Uncertainty Instead of Quantum Ontological Uncertainty
 type: claim
 ---

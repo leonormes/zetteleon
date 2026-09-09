@@ -4,7 +4,7 @@ axiom: true
 conformant: true
 created: 2025-11-01T11:22:13+00:00
 epistemic_status: high
-modified: 2026-09-04T19:27:00+00:00
+modified: 2026-09-09T12:34:10+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/deductive-reasoning-underwrites-mathematical-proof
 proposition: "Deductive reasoning forms the logical backbone of mathematical proof: starting from accepted axioms, applying valid inference rules, and deriving theorems whose truth is thereby guaranteed for every case the axioms cover."
@@ -43,7 +43,7 @@ The interplay between inductive pattern-spotting (discovery) and deductive proof
 
 ## Related
 
-- [[Logicism (Mathematics as Extension of Logic)]] — *Logicism's claim that theorems are "provable as theorems of logic" presupposes exactly this note's axioms→rules→theorems mechanism; that note now declares `depends_on` this one.*
-- [[Formalism (Mathematics as Symbol Manipulation)]] — *Formalism's "proof is a valid sequence of moves" analogy is this note's deductive structure restated in symbol-manipulation terms; that note now declares `depends_on` this one.*
-- [[Mathematics as a Logical Maze (Metaphor)]] — *That note's pedagogical illustration of this one: pathways are deductive chains, dead ends are invalid inferences, multiple routes are alternative valid proofs.*
-- [[Logic Is the Grammar of Rigorous Argument]] — *The syntax and inference rules this note's deductive process operates within.*
+- [[Logicism (Mathematics as Extension of Logic)]]—_Logicism's claim that theorems are "provable as theorems of logic" presupposes exactly this note's axioms→rules→theorems mechanism; that note now declares `depends_on` this one._
+- [[Formalism (Mathematics as Symbol Manipulation)]]—_Formalism's "proof is a valid sequence of moves" analogy is this note's deductive structure restated in symbol-manipulation terms; that note now declares `depends_on` this one._
+- [[Mathematics as a Logical Maze (Metaphor)]]—_That note's pedagogical illustration of this one: pathways are deductive chains, dead ends are invalid inferences, multiple routes are alternative valid proofs._
+- [[Logic Is the Grammar of Rigorous Argument]]—_The syntax and inference rules this note's deductive process operates within._

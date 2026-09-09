@@ -2,13 +2,13 @@
 aliases: []
 conformant: true
 created: 2025-12-04T12:00:00+00:00
-modified: 2026-09-04T19:58:00+00:00
+definition: "The fourth writing stage of the Unified Writing to Think process, focusing on deliberate linking and integration into the Zettelkasten."
+modified: 2026-09-09T12:34:16+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/stage-4
-tags: [pkm, writing, cognition]
+tags: [cognition, pkm, writing]
 title: Stage 4 Connect (The Zettelkasten Layer)
 type: concept
-definition: "The fourth writing stage of the Unified Writing to Think process, focusing on deliberate linking and integration into the Zettelkasten."
 ---
 
 _The Goal: To place your new understanding into the context of your existing knowledge._
@@ -27,6 +27,6 @@ Outcome: A new, well-formed atomic note that is integrated into your Zettelkaste
 
 ## Related
 
-- [[Stage 3 Understand (The Writing to Learn Layer)]] — *The preceding stage.* [depends_on:: [[Stage 3 Understand (The Writing to Learn Layer)]]]
-- [[Stage 5 Synthesise (The Outcome Layer)]] — *The next stage.*
-- [[SoT - The Unified Writing to Think Process]] — *The overarching framework.* [extends:: [[SoT - The Unified Writing to Think Process]]]
+- [[Stage 3 Understand (The Writing to Learn Layer)]]—_The preceding stage._ [depends_on:: [[Stage 3 Understand (The Writing to Learn Layer)]]]
+- [[Stage 5 Synthesise (The Outcome Layer)]]—_The next stage._
+- [[SoT - The Unified Writing to Think Process]]—_The overarching framework._ [extends:: [[SoT - The Unified Writing to Think Process]]]

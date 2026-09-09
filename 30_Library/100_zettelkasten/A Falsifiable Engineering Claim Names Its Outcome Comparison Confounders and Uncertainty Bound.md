@@ -6,19 +6,19 @@ created: 2026-09-07T15:00:00+00:00
 created_utc: 2026-09-07T15:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-07T15:00:00+00:00
+modified: 2026-09-09T12:34:06+00:00
 permalink: llmeon/30-library/100-zettelkasten/a-falsifiable-engineering-claim-names-its-outcome-comparison-confounders-and-uncertainty-bound
-proposition: Turning a vague engineering causal claim (e.g. "this change reduces latency") into a falsifiable, scientifically testable one requires specifying the exact outcome metric, the comparison baseline, the confounders ruled out, and the uncertainty threshold the effect must clear.
+proposition: 'Turning a vague engineering causal claim (e.g. "this change reduces latency") into a falsifiable, scientifically testable one requires specifying the exact outcome metric, the comparison baseline, the confounders ruled out, and the uncertainty threshold the effect must clear.'
 source_title: "I want to learn more about the philosophy of science and how the scientific method works"
 status: seed
-tags: [epistemology, falsifiability, philosophy-of-science, devops, measurement]
+tags: [devops, epistemology, falsifiability, measurement, philosophy-of-science]
 title: A Falsifiable Engineering Claim Names Its Outcome Comparison Confounders and Uncertainty Bound
 type: claim
 ---
 
 ## A Falsifiable Engineering Claim Names Its Outcome Comparison Confounders and Uncertainty Bound
 
-"Enabling feature flag X reduces API p95 latency" is not yet a scientific result—it is an unfalsifiable hypothesis until it specifies: the exact **outcome** (p95 over which endpoints, regions, traffic classes, time window), the **comparison** baseline (same version, load, deployment configuration), the **confounders** ruled out (traffic volume, caching, database performance, an unrelated release), the **prediction** the causal story implies (should the effect show consistently in a controlled A/B or repeated on/off comparison), and the **uncertainty** bound (is the difference bigger than normal variation and measurement noise). The result: "under specified conditions, flipping this flag should change this defined metric by approximately this much"—a claim that can lose.
+"Enabling feature flag X reduces API p95 latency" is not yet a scientific result—it is an unfalsifiable hypothesis until it specifies: the exact outcome (p95 over which endpoints, regions, traffic classes, time window), the comparison baseline (same version, load, deployment configuration), the confounders ruled out (traffic volume, caching, database performance, an unrelated release), the prediction the causal story implies (should the effect show consistently in a controlled A/B or repeated on/off comparison), and the uncertainty bound (is the difference bigger than normal variation and measurement noise). The result: "under specified conditions, flipping this flag should change this defined metric by approximately this much"—a claim that can lose.
 
 ### Scope & Conditions
 

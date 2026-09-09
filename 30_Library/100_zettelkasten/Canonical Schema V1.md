@@ -3,7 +3,7 @@ aliases: [Schema V1]
 conformant: true
 created: 2025-10-31T08:17:00+00:00
 epistemic_status: high
-modified: 2026-08-29T09:35:58+00:00
+modified: 2026-09-09T12:34:08+00:00
 permalink: llmeon/30-library/100-zettelkasten/canonical-schema-v1
 prodos.kind: atomic
 prodos.lifecycle: archived
