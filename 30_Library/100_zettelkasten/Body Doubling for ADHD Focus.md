@@ -1,8 +1,10 @@
 ---
 aliases: [Body Doubling, Body Doubling is an Effective ADHD Strategy]
+conformant: false
 created: 2025-10-26T11:12:00+00:00
 last_reviewed: 2025-12-16
-modified: 2026-09-09T12:34:08+00:00
+modified: 2026-09-10T00:00:00+00:00
+non_conformance_reason: "type: hypothesis is not in the FrontmatterContract §2 enum (claim/concept/evidence/question/procedure/protocol/map/journal/project/sot). This note is an unresolved personal experiment (If/Then/Because + protocol + pending Results Log) — forcing it into `claim` would misrepresent its pending-verification status, since a ClaimNote implies an asserted proposition rather than an open experiment. Left as-is pending a human decision: fold into `claim` once the Results Log is filled in, or leave `hypothesis` as a recognised non-canonical type."
 permalink: llmeon/30-library/100-zettelkasten/body-doubling-for-adhd-focus
 status: pending
 tags: [accountability, experiment, focus, hypothesis, TheHuman/Health/ADHD, topic/productivity]
@@ -54,8 +56,12 @@ Body doubling provides external accountability and anchors the ADHD brain.
 - Virtual: Focusmate or Zoom.
 - Asynchronous (This Experiment): Recording oneself.
 
+[extends:: [[External Structure and ADHD]], strength=3, confidence=medium]
+
 ## Related
 
-- [[SoT - ADHD Management Protocols]] _Identifies body doubling as the 'Hive Switch' tactic that leverages the Observer Effect to override internal resistance._
+- [[SoT - ADHD Management Protocols]] _Identifies body doubling as the 'Hive Switch' tactic that leverages the Observer Effect to override internal resistance; §3.3 notes the live co-presence form and this self-recording form as two variants of the same mechanism, not the same protocol._
 - [[MOC - ADHD (The Master Map)]] _The primary navigation hub for ADHD strategies, placing body doubling within the broader tactical scaffolding._
 - [[External Accountability Sustains ADHD Project Commitment]] _Explores how social stakes and commitment loops maintain long-term project engagement for neurodivergent minds._
+- [[External Structure and ADHD]] _The general mechanism this note specialises: externalising the boundary that internal executive function fails to hold — here the boundary is the recording/"on air" rule rather than a timer._
+- [[Collaborative Programming Mitigates RSD and Focus Issues in ADHD]] _A sibling instance of the same Observer Effect mechanism, applied to pair/mob programming rather than self-recording — that note carries the same `extends:: [[External Structure and ADHD]]` edge._
