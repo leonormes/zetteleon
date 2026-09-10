@@ -1,7 +1,7 @@
 ---
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: high
-modified: 2026-09-09T12:34:11+00:00
+modified: 2026-09-10T10:41:33+00:00
 permalink: llmeon/30-library/100-zettelkasten/evidence-based-pipeline-optimization-vs-cost-based-optimization
 proposition: Traditional database optimizers minimize query cost (time, CPU). LLM
   pipeline optimizers should maximize accuracy on real data. Evidence-based optimization
@@ -58,7 +58,5 @@ Source: "Paper Dives: MapReduce Is Back - And It Fixes Broken LLM Pipelines | Do
 - [[Structured Output Enforcement (JSON Schema and Function Calling)]]—related: structured output enables automated quality metrics.
 
 ### See Also
-
-- [[SoT - Quality Metrics for LLM Pipelines]]
 
 [supports:: [[DocETL Framework - Declarative Pipelines with Agentic Optimization]], strength=5, confidence=high]

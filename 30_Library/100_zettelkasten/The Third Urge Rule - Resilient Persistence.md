@@ -26,4 +26,4 @@ When you feel the urge to quit or switch tasks:
 - Bypassing the Amygdala: By the third urge, you have moved from a reactive state to a deliberate choice.
 - Building Tolerance: It builds "grit" without the psychological damage of rigid self-coercion.
 - Data Gathering: It allows you to distinguish between "temporary friction" and "genuine exhaustion."
-- Links: [[SoT - ADHD and Motivation]]
+- Links: [[SoT - The Interest-Based Nervous System in ADHD]]—*was a dangling reference to a hub that never existed; repointed to the note's real, current SoT title (reclassified from `claim` 2026-09-10).*

@@ -46,7 +46,7 @@ These challenges are rooted in the brain's physical architecture and chemistry:
 - [[Executive Dysfunction Has Causes Beyond ADHD Including Autism and Degenerative Disease]] (Scope note: ADHD is one of several causes of EF impairment, not the exclusive one)
 - [[SoT - Prosthetic Executive Function]] (The "Prosthetic" solution)
 - [[SoT - ADHD Neurology & Core Concepts]] (The core diagnosis)
-- [[The ADHD brain operates on an Interest-Based Nervous System|SoT - ADHD and Motivation]] (The fuel problem)
+- [[SoT - The Interest-Based Nervous System in ADHD]] (The fuel problem)—*reclassified from `claim` to `sot` 2026-09-10; this link previously used a piped display text ("SoT - ADHD and Motivation") that named a hub which never existed. Now points to the note's real, current SoT title.*
 - [[SoT - Working Memory & Schema Theory|Working Memory Limitations in ADHD]] (The memory bottleneck)
 - [[Reframing ADHD - From Deficit to Difference|ADHD is a Neurodevelopmental Disorder Not a Character Flaw]] (Reframing)
 - [[MOC - ADHD (The Master Map)|MOC - ADHD Management]] (Strategies for thriving)

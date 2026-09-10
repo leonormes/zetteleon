@@ -1,11 +1,14 @@
 ---
+aliases: ["Why Do Objects Interact"]
 conformant: true
 created: 2026-05-02T20:38:21+00:00
-modified: 2026-09-09T12:34:12+00:00
+modified: 2026-09-10T00:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/in-physics-how-profound-a-property-of-matter-is-it...
 prodos.kind: concept
 prodos.lifecycle: stub
+tags: [physics, quantum-field-theory, gauge-symmetry, fundamental-forces]
 title: In physics how profound a property of matter is it...
+type: concept
 ---
 
 It's arguably the most profound and fundamental property of matter. Without it, the universe would be a completely dark, cold, and structureless collection of non-interacting particles. There would be no atoms, no stars, no planets, and no life. The very existence of reality as we perceive it is entirely dependent on the fact that objects affect one another.
@@ -44,3 +47,9 @@ Why are the fields coupled in this way? The answer seems to lie in a deep mathem
 In simple terms, the fundamental forces of nature (electromagnetism, weak, and strong forces) arise mathematically from the requirement that the laws of physics must remain unchanged under certain abstract transformations. In order to preserve these symmetries, one is forced to introduce the force fields (and their corresponding force-carrying particles) that couple to the matter fields.
 
 So, one could argue that the ultimate reason objects affect each other is that our universe is governed by fundamental principles of symmetry. The necessity of interaction is a direct consequence of this underlying mathematical elegance and consistency. Why the universe possesses _these specific symmetries_ is a question that remains at the frontier of theoretical physics.
+
+## Related
+
+- [[SoT - The Universal Speed of Causality]]—*shares the same QFT force-carrier ontology (photons, gluons as massless mediators) from a complementary angle: why they must travel at* c *rather than why they mediate interaction.*
+- [[SoT - Emergence]]—*the general primary-rules→secondary-patterns framework this note's own claim ("no interaction, no atoms/stars/life") is a physics-domain instance of.*
+- [[MOC - Einstein, Relativity & Light Speed]]—*the closest physics MoC in the vault; scoped to relativity rather than force-unification/QFT, so this is a topical neighbour, not a clean home—the vault has no dedicated particle-physics/QFT hub.*

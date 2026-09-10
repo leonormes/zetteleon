@@ -17,6 +17,8 @@ type: sot
 >
 > In evolutionary terms: "Bad is stronger than Good." The brain prioritizes threat detection over opportunity recognition because missing a threat is fatal, while missing a reward is merely unfortunate.
 
+[depends_on:: [[Negativity Bias]], strength=5, confidence=high]
+
 ---
 
 ## 2. The Mechanism: Velcro vs. Teflon

@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-22T00:00:00+00:00
-modified: 2026-09-09T12:34:07+00:00
+modified: 2026-09-10T11:38:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-practice-drills
 tags: [archery, practice, prodos/atomic, training]
 title: Archery Practice Drills
@@ -63,8 +63,8 @@ When building initial muscle memory, prioritizing form over pulling heavier weig
 
 - Consistency is Key: When starting or refining technique, building consistent, repeatable habits is far more valuable than the final score. Accuracy is simply consistency repeated. You do not need absolute perfection or world-class technique to achieve competitive score milestones (such as 600+ at 70m); instead, focus on solid fundamentals that prevent large, inconsistent mistakes.
 - The Bullseye Trap: Hitting the center does not guarantee good technique. Focusing purely on the score can accidentally reinforce bad physical habits just because an arrow landed in the middle.
-- What a Tight Group Tells You: A tight cluster of arrows—even if outside the center—proves your body has developed solid muscle memory and is executing the shot the same way every time. To increase scores, you must first shrink the group.
-- Sighting and Aiming: Aiming is a separate, mechanical skill that comes _after_ form is reliable. If your arrows group tightly in the red ring, you are executing perfectly but your sight is misaligned. Always adjust your sight based on the average center of the group, not a single shot.
+- What a Tight Group Tells You: A tight cluster of arrows—even if outside the center—proves your body has developed solid muscle memory and repeatable mechanics. Hitting the gold center is simply a matter of calibrating your equipment to match that consistent bodily execution. To increase scores, you must first shrink the group.
+- Sighting and Aiming: Aiming is a separate, mechanical skill that comes _after_ form is reliable. If your arrows group tightly in the red ring, you are executing perfectly but your sight is misaligned. Play the "Center of the Group" Game: acknowledge and congratulate yourself on a tight cluster regardless of the scoring ring, and always adjust your sight based on this average center of the group, never reacting to a single stray arrow.
 
 ### The Danger of Relying on "Feelings"
 
@@ -145,8 +145,12 @@ _Note on the Role of Feelings:_ Only use kinesthetic drills to expose yourself t
 
 #### 8. Data-Driven Progress Tracking
 
-- The Goal: Erase emotional bias regarding your skill level and replace it with mathematical facts.
-- How to do it: Take warm-up shots, then score and record specific shots (e.g., shots 10 through 15) multiple times a week. Define a strict circle size (e.g., 4 inches) at a set distance and calculate your exact completion ratio (e.g., 6/10 vs 9/10).
+- The Goal: Erase emotional bias regarding your skill level and replace it with mathematical facts, shifting the focus from scoring to grouping diameter and physical execution.
+- **Completion Ratio Check:** Take warm-up shots, then score and record specific shots (e.g., shots 10 through 15) multiple times a week. Define a strict circle size (e.g., 4 inches) at a set distance and calculate your exact completion ratio (e.g., 6/10 vs 9/10).
+- **Use a Target Plotting App:** Digitize your target face using an archery scoring app (*ExpertArcher*, *MyTargets*, or *Artemis*). Tapping exactly where your arrows landed automatically calculates the mathematical center of your group and your overall grouping diameter, providing hard data without relying on points.
+- **Maintain a Photo Log:** If you prefer not to use an app, take a quick photo of the target face before pulling arrows. Reviewing these later removes the emotional memory of the score and leaves the visual reality of the cluster.
+- **Track an "Execution Score":** In a small notebook, rate your physical execution out of 10 for each end (e.g., focusing on maintaining an immovable bow arm or brushing your release hand straight back). As this execution score rises, your grouping will naturally shrink as a byproduct.
+- **Keep a Shooting Journal:** Maintain a short log to note exactly what your body felt like on your tightest groups versus your scattered ones.
 
 #### 9. Resistance Band Over-Loading
 

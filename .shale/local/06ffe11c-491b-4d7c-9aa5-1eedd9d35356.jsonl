@@ -1,0 +1,20 @@
+{"kind":"session_meta","at":"2026-09-10T12:40:53.533657Z","tool":"claude-code","session_id":"06ffe11c-491b-4d7c-9aa5-1eedd9d35356"}
+{"kind":"prompt","at":"2026-09-10T12:41:57.118295Z","text":"I have notes on the scientific method. The difference between truth and utilitly of the knowledge gained by science. This note seems to stake a claim 30_Library/100_zettelkasten/Shift from Seeking Rightness to Seeking Utility.md. Review the note and search the vault for more type edge links. Refresh and enrich it"}
+{"kind":"command","at":"2026-09-10T12:43:08.446556Z","cmd":"find . -iname \"*Note Refresh*\" -o -iname \"*Typed Edge Vocabulary*\" -o -iname \"*Knowledge Compiler*\" 2\u003e/dev/null"}
+{"kind":"command","at":"2026-09-10T12:43:19.301068Z","cmd":"uv run --with pyyaml python3 10_System/scripts/edge_lint.py --why \"Shift from Seeking Rightness to Seeking Utility\" 2\u003e\u00261 | head -100"}
+{"kind":"command","at":"2026-09-10T12:43:19.579852Z","cmd":"find . -iname \"*ProdOS Frontmatter Contract*\""}
+{"kind":"command","at":"2026-09-10T12:43:28.915518Z","cmd":"uv run --with pyyaml python3 10_System/scripts/edge_lint.py --impact \"Shift from Seeking Rightness to Seeking Utility\" 2\u003e\u00261 | head -100"}
+{"kind":"command","at":"2026-09-10T12:43:29.337971Z","cmd":"grep -rn \"Shift from Seeking Rightness to Seeking Utility\" --include=\"*.md\" . | grep -v \"^./30_Library/100_zettelkasten/Shift from Seeking Rightness to Seeking Utility.md\""}
+{"kind":"command","at":"2026-09-10T12:44:40.236396Z","cmd":"curl -s http://127.0.0.1:3050/health | jq .servers 2\u003e\u00261 | head -60"}
+{"kind":"command","at":"2026-09-10T12:44:44.105706Z","cmd":"which obsidian 2\u003e\u00261; obsidian --help 2\u003e\u00261 | head -30"}
+{"kind":"command","at":"2026-09-10T12:44:48.026528Z","cmd":"obsidian vault=LLMeon \"search:context\" query=\"pragmatism\" 2\u003e\u00261 | head -60"}
+{"kind":"command","at":"2026-09-10T12:44:49.540673Z","cmd":"obsidian vault=LLMeon \"search:context\" query=\"objective truth\" 2\u003e\u00261 | head -60"}
+{"kind":"command","at":"2026-09-10T12:45:58.680829Z","cmd":"find . -iname \"*PRODOS Core Specification*\"; echo \"---\"; grep -n \"Utility Over Truth\\|Utility over Truth\" -r \"30_Library/SoT\" 2\u003e/dev/null | head -20"}
+{"kind":"command","at":"2026-09-10T12:47:43.872384Z","cmd":"find . -iname \"*Reality, Models, and the Limits of Accuracy*\"; find . -iname \"*Values Serve as Navigational Compass*\""}
+{"kind":"file_touch","at":"2026-09-10T12:47:57.450673Z","path":"/Volumes/DAL/Zettelkasten/LLMeon/30_Library/100_zettelkasten/Shift from Seeking Rightness to Seeking Utility.md","op":"edit"}
+{"kind":"command","at":"2026-09-10T12:48:00.289351Z","cmd":"uv run --with pyyaml python3 10_System/scripts/edge_lint.py --path \"30_Library/100_zettelkasten/Shift from Seeking Rightness to Seeking Utility.md\" 2\u003e\u00261"}
+{"kind":"command","at":"2026-09-10T12:48:03.441366Z","cmd":"uv run --with pyyaml python3 10_System/scripts/edge_lint.py --help 2\u003e\u00261 | head -40"}
+{"kind":"command","at":"2026-09-10T12:48:08.857865Z","cmd":"uv run --with pyyaml python3 10_System/scripts/edge_lint.py --path . 2\u003e\u00261 | tail -60"}
+{"kind":"command","at":"2026-09-10T12:48:13.854994Z","cmd":"uv run --with pyyaml python3 10_System/scripts/edge_lint.py --path . 2\u003e\u00261 | grep -A3 \"Shift from Seeking Rightness\""}
+{"kind":"command","at":"2026-09-10T12:48:19.157627Z","cmd":"uv run --with pyyaml python3 10_System/scripts/edge_lint.py --why \"Shift from Seeking Rightness to Seeking Utility\" 2\u003e\u00261\necho \"---IMPACT---\"\nuv run --with pyyaml python3 10_System/scripts/edge_lint.py --impact \"Shift from Seeking Rightness to Seeking Utility\" 2\u003e\u00261"}
+{"kind":"session_end","at":"2026-09-10T12:48:27.289275Z"}

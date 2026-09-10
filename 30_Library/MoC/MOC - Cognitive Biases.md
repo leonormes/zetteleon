@@ -44,7 +44,15 @@ Biases that impact how we choose actions or value outcomes.
 
 ---
 
-## 4. ProdOS Integration
+## 4. Threat & Emotional-Weighting Biases
+
+Biases where negative information or outcomes are weighted more heavily than positive ones of equal intensity.
+
+- [[Negativity Bias]]: The tendency to weight negative information and experiences more heavily than positive ones of equal intensity—an evolutionary threat-detection leftover. See [[SoT - The Negativity Bias]] for the full applied framework (ADHD amplification, countermeasures).
+
+---
+
+## 5. ProdOS Integration
 
 In the context of [[SoT - PRODOS Core Specification]], we fight these biases through:
 

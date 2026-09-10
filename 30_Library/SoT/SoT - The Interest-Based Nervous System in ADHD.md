@@ -1,16 +1,17 @@
 ---
-aliases: ["The Interest-Based Nervous System in ADHD"]
+aliases: ["The ADHD brain operates on an Interest-Based Nervous System", "The Interest-Based Nervous System in ADHD", "IBNS"]
 conformant: true
 created: 2026-02-11T17:15:00+00:00
-epistemic_status: high
-modified: 2026-09-09T12:34:17+00:00
-permalink: llmeon/30-library/100-zettelkasten/the-interest-based-nervous-system-in-adhd
-proposition: The ADHD brain runs on an interest-based nervous system that requires a chemical ignition (interest, novelty, challenge, urgency or passion) to activate, rather than the neurotypical importance-based system.
-status: stable
+modified: 2026-09-10T00:00:00+00:00
+permalink: llmeon/30-library/so-t/so-t-the-interest-based-nervous-system-in-adhd
+prodos.kind: sot
+prodos.lifecycle: stable
 tags: [ADHD, dopamine, gtd, motivation, neurology, productivity]
-title: The ADHD brain operates on an Interest-Based Nervous System
-type: claim
+title: SoT - The Interest-Based Nervous System in ADHD
+type: sot
 ---
+
+> Reclassified 2026-09-10 from `type: claim` at `30_Library/100_zettelkasten/The ADHD brain operates on an Interest-Based Nervous System.md`. Content and structure (MVU, numbered sections, Supporting Claims, Consequences, Related Knowledge) already matched this vault's SoT shape, and 26 other notes were already treating it as the canonical ADHD-motivation hub—two of them by substituting it for a never-created `SoT - ADHD and Motivation`. The old title is kept as the first alias so existing `[[The ADHD brain operates on an Interest-Based Nervous System]]` links across the vault continue to resolve without a mass rewrite.
 
 ## Minimum Viable Understanding (MVU)
 
@@ -41,7 +42,7 @@ This system is a result of Dopamine Hyposensitivity in the brain's reward center
 
 ## 4. Strategies for Management
 
-- Externalise Urgency: Use tools like [[Visual Timers for ADHD Time Blindness]] or body doubling.
+- Externalise Urgency: Use tools like Visual Timers or body doubling. `[[Visual Timers for ADHD Time Blindness]]` is broken—no matching note or alias exists anywhere in the vault (confirmed; the same gap was already flagged in [[Event-based structure reduces time-pressure anxiety]]). Closest real coverage: [[Visual schedules enhance routine adherence]] (visual aids generally, not timers specifically) and [[Time Agnosia Impairs Planning for Developers with ADHD]] (the underlying time-blindness deficit timers would address). Left unresolved rather than guessed.
 - Inject Novelty: Change your work environment (see [[Environmental and Physical Hacks for ADHD Focus]]).
 - Gamify: Turn boring tasks into challenges or "Speed Trials."
 
@@ -56,7 +57,7 @@ The IBNS model rests on these neuro-mechanistic claims (each carries a `supports
 - [[Dopamine Neurons Encode Reward Prediction Error, Not Pleasure]]—why novelty is an ignition key.
 - [[Dopamine Regulates Motivation (Wanting) Separately from Pleasure (Liking)]]—why completion yields relief, not reward.
 - [[Neurotypical motivation is primarily importance-driven]]—the importance-based contrast the model is defined against.
-- [[Extrinsic rewards are less effective for activating the ADHD brain]]—why secondary rewards fail to ignite.
+- Extrinsic rewards are less effective for activating the ADHD brain—why secondary rewards fail to ignite. `[[Extrinsic rewards are less effective for activating the ADHD brain]]` is broken—no matching note or alias exists anywhere in the vault. Closest real coverage, the complementary claim: [[Meaning-Driven Activity Activates Brain Reward Systems Independently of External Reinforcement]] ("for ADHD brains where extrinsic motivation is unreliable... extrinsic rewards fail to reach"). Left unresolved rather than guessed—it's a related claim, not a renamed version of the missing one.
 - [[Clinical Models Recognize Activation as a Core Impairment in ADHD]]—clinical grounding for activation impairment.
 
 ## Consequences & Downstream Effects
@@ -75,8 +76,9 @@ The IBNS mechanism explains and predicts (each line carries an `IBNS supports �
 
 ## Related Knowledge
 
-- [[SoT - ADHD and Motivation]] (The central hub)—⚠ broken link, note does not exist
-- [[Dopamine Dysregulation is a Key Factor in ADHD Motivation]] (The fuel source)—⚠ broken link, note does not exist
+> `[[SoT - ADHD and Motivation]]` ("the central hub" this note used to name) was never created and has no alias anywhere. Resolved 2026-09-10: this note was reclassified from `claim` to `sot` and moved here, since two other notes ([[Executive Function Challenges are Central to ADHD]], [[The Third Urge Rule - Resilient Persistence]]) were already substituting it for that never-created title—both now point at this note's real current title directly. 26 further notes across `100_zettelkasten`, `SoT`, and `MoC` link to this note under its old title, which is preserved as an alias so those links keep resolving.
+
+- [[Dopamine reward pathway dysfunction causes ADHD task initiation difficulty|Dopamine Dysregulation is a Key Factor in ADHD Motivation]] (The fuel source)
 - [[Claim - Intrinsic motivation lowers ADHD activation cost compared to external pressure]] (The disconnect)
 - [[Executive Function Challenges are Central to ADHD]] (The management failure)
 - [[MOC - Novelty Seeking]] (The novelty drive)
