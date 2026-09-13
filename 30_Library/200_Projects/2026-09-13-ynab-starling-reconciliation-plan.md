@@ -11,6 +11,8 @@ tags:
 - budgeting
 title: 2026-09-13-ynab-starling-reconciliation-plan
 permalink: llmeon/30-library/200-projects/2026-09-13-ynab-starling-reconciliation-plan
+created: 2026-09-13T11:38:15+00:00
+modified: 2026-09-13T15:17:18+00:00
 ---
 
 ## Context
@@ -62,6 +64,60 @@ Closed (£0, no action expected): Pearl, Rae, Bessie, MBNA.
 Off-budget debt/loan tracking accounts with old or no reconciliation dates: Mortgage, Car Loan, America, Zofja Tax, MBNA Payoff, Leon Klarna, Zofja Klarna, PayPal Credit Card, Leon Glasses, Zofja Glasses, Car Tyre — several have never been reconciled (`last_reconciled_at: null`).
 
 ## Plan
+## Plan
+
+- [x] **0. Confirm scope** — `Oct25` confirmed as the one true budget going forward.
+- [x] **1. Reconnect Leon Personal – 9262 to Starling** — done, verified via API.
+- [x] **2. Sanity-check the two already-linked feeds** — no disruption after the relink.
+- [x] **3. Clear the transaction backlog** — 1,733 → 80 unapproved remain (personal names, council payments, BNPL services — left for the user deliberately).
+- [x] **4. Reconcile every open on-budget account against actual Starling balances** — done, all three accounts match.
+- [x] **5. Repair the budget** — to-be-budgeted −£14,381.56 → +£3,960.96; overspent categories 32 → 15, as a side effect of step 3.
+- [~] **6. Structural cleanup** — mostly done:
+  - [x] Closed accounts checked — all £0, dormant, no issue.
+  - [x] Duplicate-payee scan — 66 groups / 1,275 affected transactions found and prioritized in the Progress Log.
+  - [x] `MeMyself&I` archived by the user (2026-09-13) — confirmed via API, `Oct25` is now the only plan returned by `GET /plans`.
+  - [ ] Duplicate payees still need merging in-app (Payees list → select group → Merge) — no API support for this, left to the user's own pace.
+- [x] **7. Prevent re-drift** — recurring Todoist check-in created; payee-rule behaviour is automatic in YNAB once a payee is categorized correctly once.
+
+**All steps that can be driven from this end are complete.** What's left is entirely manual, at the user's own pace: finish the 80 held-back transactions, merge the duplicate payees, and keep up with the weekly Todoist check-in.
+## Plan
+
+- [x] **0. Confirm scope** — `Oct25` confirmed as the one true budget going forward.
+- [x] **1. Reconnect Leon Personal – 9262 to Starling** — done, verified via API.
+- [x] **2. Sanity-check the two already-linked feeds** — no disruption after the relink.
+- [x] **3. Clear the transaction backlog** — 1,733 → 80 unapproved remain (personal names, council payments, BNPL services — left for the user deliberately).
+- [x] **4. Reconcile every open on-budget account against actual Starling balances** — done, all three accounts match.
+- [x] **5. Repair the budget** — to-be-budgeted −£14,381.56 → +£3,960.96; overspent categories 32 → 15, as a side effect of step 3.
+- [~] **6. Structural cleanup** — partially done; the rest needs the YNAB app, not the API:
+  - [x] Closed accounts checked — all £0, dormant, no issue.
+  - [x] Duplicate-payee scan — 66 groups / 1,275 affected transactions found and prioritized. **Merging must be done in-app.**
+  - [ ] Archive `MeMyself&I` — still waiting on user confirmation it's dead. **Must be done in-app.**
+- [x] **7. Prevent re-drift** — done:
+  - Created a recurring Todoist task, "YNAB weekly review — clear the inbox", every Sunday, in the Personal project (`finance`/`ynab` labels). Covers: approve/categorize new transactions, confirm all 3 Starling feeds still linked with no errors, glance at To Be Budgeted/overspent categories, and a reminder to log both legs (transfer + income) if a feed ever goes down again.
+  - Clarified: no separate "payee rule" setup is needed or even possible via the API — YNAB automatically remembers a payee's last-used category once it's been categorized correctly one time, so properly finishing the remaining 80 transactions IS the rule-setting. This applies to the keyword-guessed ones too (Haven, Southend And D, etc.) — if a guess is wrong, correcting it once will make future imports of that payee categorize correctly.
+## Plan
+
+- [x] **0. Confirm scope** — `Oct25` confirmed as the one true budget going forward.
+- [x] **1. Reconnect Leon Personal – 9262 to Starling** — done, verified via API.
+- [x] **2. Sanity-check the two already-linked feeds** — no disruption after the relink.
+- [x] **3. Clear the transaction backlog** — 1,733 → 80 unapproved remain (personal names, council payments, BNPL services — left for the user deliberately).
+- [x] **4. Reconcile every open on-budget account against actual Starling balances** — done, all three accounts match.
+- [x] **5. Repair the budget** — to-be-budgeted −£14,381.56 → +£3,960.96; overspent categories 32 → 15, as a side effect of step 3.
+- [~] **6. Structural cleanup** — partially done; the rest needs the YNAB app, not the API:
+  - [x] Closed accounts (Pearl, Rae, Bessie, MBNA) checked — all £0, dormant since 2025-11-22, no issue.
+  - [x] Duplicate-payee scan — 66 groups / 1,275 affected transactions found and prioritized in the Progress Log. **Merging must be done in-app** (no merge endpoint in the API) — Payees list → select group → Merge.
+  - [ ] Archive `MeMyself&I` — still waiting on the user to confirm it's actually dead. **Must be done in-app** (no archive endpoint in the API).
+- [ ] **7. Prevent re-drift** — 7 plan restarts in under 2 years suggests the review cadence isn't sticking. Consider a short recurring check-in (e.g. weekly 10-minute inbox clear) tracked in Todoist. Set up YNAB payee rules for high-frequency payees now correctly categorized (Haven, Southend And D, etc.) so they auto-categorize going forward. **When a Starling feed is down: log both sides of inter-account transfers AND income.**
+## Plan
+
+- [x] **0. Confirm scope** — `Oct25` confirmed as the one true budget going forward.
+- [x] **1. Reconnect Leon Personal – 9262 to Starling** — done by the user in the YNAB app. Verified via API.
+- [x] **2. Sanity-check the two already-linked feeds** — no disruption after the relink.
+- [x] **3. Clear the transaction backlog** — first pass (conservative, ≥85% confidence): 1,733 → 318 unapproved. Second pass (loose, "restarting, imperfect is fine" per user): 231 more resolved via any-history-match + merchant keyword guessing. **80 remain, left for the user** (personal names, council payments, BNPL-style services where a wrong guess risks distorting debt tracking).
+- [x] **4. Reconcile every open on-budget account against actual Starling balances** — done, root cause found and fixed. All three personal accounts match Starling exactly (Joint 9p off from timing).
+- [x] **5. Repair the budget** — improved dramatically as a side effect of step 3's second pass: to-be-budgeted went from −£14,381.56 to **+£3,960.96**, overspent categories from 32 to **15**. Not a deliberate re-budgeting exercise — just the effect of categorized spending landing on categories that already had headroom. Remaining overspent categories still need a proper look.
+- [ ] **6. Structural cleanup** — archive `MeMyself&I` (if step 0 confirms it's dead), spot-check the closed accounts stay at £0 with no phantom transactions, and scan payees for duplicates a Starling reimport commonly creates (e.g. "TESCO" vs "Tesco Stores Ltd").
+- [ ] **7. Prevent re-drift** — 7 plan restarts in under 2 years suggests the review cadence isn't sticking. Consider a short recurring check-in (e.g. weekly 10-minute inbox clear) tracked in Todoist. Set up YNAB payee rules for high-frequency payees now correctly categorized (Haven, Southend And D, etc.) so they auto-categorize going forward. **When a Starling feed is down: log both sides of inter-account transfers AND income** — a transfer-only habit creates exactly the balance hole found in step 4.
 ## Plan
 
 - [x] **0. Confirm scope** — `Oct25` confirmed as the one true budget going forward.
@@ -213,3 +269,67 @@ Leon Personal's cleared history for Jun–Jul otherwise had only 2 tiny transact
 | Leon Personal | £299.87 | £299.87 |
 
 **Caveat:** the £8,520 catch-up sits in YNAB as one lump "Ready to Assign" inflow rather than real dated salary transactions, so Leon Personal's income history for Jun–Jul still won't show the actual payslip dates/amounts if that's ever needed (e.g. for a mortgage application). If that matters, this can be redone properly later using real payslip records instead of the lump adjustment.
+
+### 2026-09-13 — Loose-pass bulk categorization (user: "doesn't matter if some are wrong")
+
+User approved a much looser pass than the earlier conservative one, given the budget is effectively restarting: apply best-guess categories broadly, accept some will be wrong, prioritize coverage over precision.
+
+Method:
+1. Rebuilt payee history from all 4,344 approved+categorized transactions (614 distinct payees) — this time using **any** match (no ≥85%/≥2-occurrence floor).
+2. Added ~35 regex keyword rules mapping recognizable UK merchant name patterns to this budget's actual categories — petrol stations, supermarkets, coffee/dining chains, leisure centres and pools, DVLA, school uniforms, home/DIY stores, pet shops, etc. Iterated twice against the actual unresolved-payee list to raise coverage from 124 → 191 → 231 resolved.
+3. Applied in two chunked PATCH calls (200 + 31).
+
+**Result: 231 of 312 remaining transactions categorized and approved.** 81 left deliberately unresolved — personal-name payees (likely tutors/family/services), council payments, and BNPL-style services (e.g. "Affirm") where a wrong category guess could distort real debt/bill tracking rather than just being cosmetically off.
+
+**Budget-wide effect (current month):**
+
+| Metric | Before | After |
+|---|---|---|
+| To-be-budgeted | −£14,381.56 | **+£3,960.96** |
+| Overspent categories | 32 | **15** |
+
+This wasn't deliberate re-budgeting — categorizing outflows just moved them off "Ready to Assign" (where uncategorized spending draws from directly) onto their real categories, most of which already had unused budgeted headroom.
+
+**Known limitation:** some keyword-based guesses will be wrong (e.g. "Southend And D" → guessed Days Out at £6/week without knowing what it actually is; "Vets4Pets" → guessed a specific pet's insurance category rather than a generic vet-visit bucket). Per the user, fine to fix over time rather than block on it now. Worth a skim through recently-categorized transactions next time in the YNAB app.
+
+### 2026-09-13 — Step 6: structural cleanup findings
+
+**Closed accounts (Pearl, Rae, Bessie, MBNA):** all confirmed £0 balance, no activity since 2025-11-22. Clean, no action needed.
+
+**Plan archiving and payee merging are not exposed by the YNAB API at all** — no PATCH/archive endpoint for plans, no merge endpoint for payees. Both of the remaining items below need the YNAB app itself.
+
+**`MeMyself&I` plan** — still unresolved from the original open question: is it actually dead, or is there a reason it's been left un-archived? If it's dead, archiving has to be done in-app (Settings → this plan → Archive).
+
+**Duplicate payees — 66 groups, 1,275 affected transactions.** YNAB has split what should be single payees across multiple payee records (same or near-identical name), which fragments spending history and category auto-matching. Merging requires the app (Payees list → select the group → Merge). Top candidates by impact:
+
+| Payee name(s) — split across records                          | Total txns |
+| ------------------------------------------------------------- | ---------- |
+| 'Co-op' (527), 'COOP' (3)                                     | 530        |
+| 'Aldi' (134), 'Aldi' (38)                                     | 172        |
+| "Sainsbury's" (151), 'Sainsburys' (1)                         | 152        |
+| 'dash' (20), 'dash' (14)                                      | 34         |
+| 'P Chalkwell Sst' (18), 'P Chalkwell Sst' (8)                 | 26         |
+| 'Natwest account - Zofja E A Day - ...' (19+5)                | 24         |
+| 'AQA EDUCATION Aqa Payments' (3+15)                           | 18         |
+| 'Heather Heighington' (12+5)                                  | 17         |
+| 'The Hang Out Venue' (4+10)                                   | 14         |
+| 'Santander account - Leon & Bessie Casey Connor - ...' (11+2) | 13         |
+| 'Vinted' (3+10)                                               | 13         |
+| 'ZOFJA Anne Wonnacott' (8+4)                                  | 12         |
+| 'WH Smith' (4), 'WHSmith' (5)                                 | 9          |
+| 'The Gym Group' (6+3)                                         | 9          |
+| 'World Of Reptiles' (3+6)                                     | 9          |
+
+Full 66-group list is in `dupe_table.md` in scratchpad if wanted, but most of the tail is 2-3 transactions each — low priority. The 15 above account for the bulk of the impact.
+
+**Also found via fuzzy matching (lower confidence, worth a manual glance, not auto-merged):**
+- 'Coffee Station' (59) + 'Coffee Station Chalkw' (120) + 'Coffee Station Fenchur' (3) + 'Coffee Station Leigh' (4) — likely branch-suffix splits of the same chain.
+- 'Southend Borough Council' (43) + 'Southend-on-sea Borough Council' (21) + 2 more variants — same council, 4 name variants.
+- 'P Chalkwell Sst' (26) + 'P Chalkwell To' (47) — likely the same parking location, different transaction codes.
+- 'Google' (6) + 'Google Play' (47) + 'Google Play Store' (1) — minor.
+
+**False positives — do NOT merge these, they're genuinely different:**
+- Superdrug vs Superdry (different retailers, similar name)
+- Leigh Road Cafe vs Leigh Road Pharmacy (different businesses, same road)
+- Amazon vs Amazon Music vs Amazon Prime (general purchases vs specific subscriptions — keep separate)
+- The two "Santander account - ..." and "...HSBC account - ..." entries with different named account holders — these are different real people/transfers, only superficially similar due to shared bank-transfer text format.
