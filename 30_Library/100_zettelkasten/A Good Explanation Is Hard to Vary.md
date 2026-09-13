@@ -8,8 +8,15 @@ definition: A good explanation, per Deutsch, is an assertion about reality whose
   "destroying the explanation's force."
 distinguishes_from: []
 epistemic_status: high
-modified: 2026-09-09T12:34:06+00:00
+modified: 2026-09-10T18:06:06+00:00
 permalink: llmeon/00-inbox/a-good-explanation-is-hard-to-vary
+source_title: David Deutsch and Peter Godfrey-Smith
+source_url: UNKNOWN
+status: seed
+tags: [deutsch, epistemology, explanation, philosophy-of-science, popper]
+title: A Good Explanation Is Hard to Vary
+type: concept
+used_in_claims: []
 source_title: David Deutsch and Peter Godfrey-Smith
 source_url: UNKNOWN
 status: seed

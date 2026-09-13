@@ -4,7 +4,7 @@ modified: 2026-09-09T12:34:09+00:00
 permalink: llmeon/30-library/100-zettelkasten/claim-adhd-perfectionism-is-maladaptive-compensation
 position-date: 2026-05-31
 related_to: ["[[Claim - Treat the system as iterative not perfectable]]", "[[Rejection-Sensitive Dysphoria]]"]
-tags: [adhd, emotional-regulation, perfectionism, rsd]
+tags: [emotional-regulation, perfectionism, rsd, TheHuman/Health/ADHD]
 title: Claim - ADHD perfectionism is maladaptive compensation
 type: claim
 ---

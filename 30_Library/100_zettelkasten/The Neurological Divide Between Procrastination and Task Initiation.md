@@ -8,7 +8,7 @@ permalink: llmeon/00-inbox/the-neurological-divide-between-procrastination-and-t
 source_title: Chat Input
 source_url: ''
 status: seed
-tags: [adhd, executive-function, neuroscience, procrastination]
+tags: [executive-function, neuroscience, procrastination, TheHuman/Health/ADHD]
 title: The Neurological Divide Between Procrastination and Task Initiation
 type: claim
 upstream: ''

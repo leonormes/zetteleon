@@ -5,7 +5,7 @@ modified: 2026-09-09T12:34:09+00:00
 permalink: llmeon/30-library/100-zettelkasten/claim-treat-the-system-as-iterative-not-perfectable
 position-date: 2026-05-31
 related_to: ["[[Q - Iterating versus system-hopping]]"]
-tags: [adhd, iteration, perfectionism, system-design]
+tags: [iteration, perfectionism, system-design, TheHuman/Health/ADHD]
 title: Claim - Treat the system as iterative not perfectable
 type: claim
 ---

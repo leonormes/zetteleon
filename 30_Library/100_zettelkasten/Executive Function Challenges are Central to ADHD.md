@@ -4,7 +4,7 @@ created: 2026-02-11T16:55:00+00:00
 modified: 2026-09-09T12:34:11+00:00
 permalink: llmeon/30-library/100-zettelkasten/executive-function-challenges-are-central-to-adhd
 status: seed
-tags: [ADHD, cognition, executive-function, neurology, self-regulation]
+tags: [cognition, executive-function, neurology, self-regulation, TheHuman/Health/ADHD]
 title: Executive Function Challenges are Central to ADHD
 type: claim
 ---

@@ -7,7 +7,7 @@ permalink: llmeon/30-library/100-zettelkasten/the-amcc-grows-only-through-effort
 prodos.kind: atomic
 prodos.lifecycle: seed
 proposition: "The Anterior Mid-Cingulate Cortex (AMCC) grows (hypertrophies) specifically from performing tasks a person does not want to do; it stays dormant when the work is already enjoyable, and frequent quitting under resistance leads to AMCC atrophy."
-tags: [adhd, amcc, dopamine, executive-function, willpower]
+tags: [amcc, dopamine, executive-function, willpower, TheHuman/Health/ADHD]
 title: The AMCC Grows Only Through Effortful Unwanted Tasks (The Willpower Muscle)
 type: claim
 ---

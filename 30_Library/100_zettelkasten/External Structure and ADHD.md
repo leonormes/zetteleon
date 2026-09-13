@@ -8,7 +8,7 @@ permalink: llmeon/30-library/100-zettelkasten/external-structure-and-adhd
 prodos.kind: atomic
 prodos.lifecycle: active
 proposition: Because ADHD inherently impairs internal time management and executive function, sustained focus requires externalising those boundaries into rigid temporal structures.
-tags: [adhd, ext-mind, time_blocking, topic/productivity/gtd]
+tags: [ext-mind, time_blocking, topic/productivity/gtd, TheHuman/Health/ADHD]
 title: External Structure and ADHD
 type: claim
 ---

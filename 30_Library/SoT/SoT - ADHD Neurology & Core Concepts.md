@@ -5,7 +5,7 @@ created: 2026-01-03T10:10:15+00:00
 modified: 2026-09-08T00:00:00+00:00
 permalink: llmeon/30-library/so-t/so-t-adhd-neurology-core-concepts
 source_of_truth: true
-tags: [adhd, dopamine, emotional-regulation, neurology, system/sot, TheHuman/Health/ADHD]
+tags: [dopamine, emotional-regulation, neurology, system/sot, TheHuman/Health/ADHD]
 title: SoT - ADHD Neurology & Core Concepts
 type: sot
 ---

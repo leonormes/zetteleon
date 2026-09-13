@@ -6,7 +6,7 @@ non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/rejection-sensitive-dysphoria
 related_to: ["[[MOC - ADHD and PKM Systems]]"]
 supports: ["[[Claim - ADHD perfectionism is maladaptive compensation]]"]
-tags: [adhd, emotional-regulation, rsd]
+tags: [emotional-regulation, rsd, TheHuman/Health/ADHD]
 title: Rejection-Sensitive Dysphoria
 type: concept
 ---

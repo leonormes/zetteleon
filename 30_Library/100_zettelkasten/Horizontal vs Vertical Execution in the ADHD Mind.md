@@ -8,7 +8,7 @@ permalink: llmeon/30-library/100-zettelkasten/horizontal-vs.-vertical-execution-
 source_title: Chat Input
 source_url: ''
 status: seed
-tags: [adhd, dopamine, gtd, workflow]
+tags: [dopamine, gtd, workflow, TheHuman/Health/ADHD]
 title: Horizontal vs Vertical Execution in the ADHD Mind
 type: claim
 upstream: ''

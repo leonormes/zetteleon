@@ -7,7 +7,7 @@ permalink: llmeon/30-library/100-zettelkasten/practice-micro-tasking-and-time-bo
 prodos.kind: atomic
 prodos.lifecycle: active
 steps: ["Set a fixed external timer (e.g., a Pomodoro of 15–25 minutes).", Break the overall task down until you identify the absolute next physical action., Execute only the identified micro-action until the time box expires., Stop immediately when the timer sounds to prevent burnout.]
-tags: [adhd, pomodoro, time-boxing, workflow]
+tags: [pomodoro, time-boxing, workflow, TheHuman/Health/ADHD]
 title: Practice - Micro-tasking and time-boxing
 trigger: When facing high activation energy for a task or experiencing task paralysis.
 type: procedure

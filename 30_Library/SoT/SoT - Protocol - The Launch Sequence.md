@@ -7,7 +7,7 @@ modified: 2026-08-29T09:36:42+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-protocol-the-launch-sequence
 status: stable
-tags: [action, adhd, initiation, productivity, protocol]
+tags: [action, initiation, productivity, protocol, TheHuman/Health/ADHD]
 title: SoT - Protocol - The Launch Sequence
 type: sot
 updated: null

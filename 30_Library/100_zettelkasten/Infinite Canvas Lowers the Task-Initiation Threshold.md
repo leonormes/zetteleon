@@ -7,7 +7,7 @@ permalink: llmeon/00-inbox/infinite-canvas-lowers-the-task-initiation-threshold
 source_title: 'Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture: An Investigative Report'
 source_url: ''
 status: seed
-tags: [activation-energy, adhd, canvas, task-initiation]
+tags: [activation-energy, canvas, task-initiation, TheHuman/Health/ADHD]
 title: Infinite Canvas Lowers the Task-Initiation Threshold
 type: atom
 upstream: '[[Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture]]'

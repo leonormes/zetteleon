@@ -7,7 +7,7 @@ permalink: llmeon/30-library/100-zettelkasten/gaman-enduring-hardship-with-digni
 prodos.kind: atomic
 prodos.lifecycle: seed
 proposition: "Gaman (我慢) is a Japanese concept of enduring difficult or tedious circumstances with patience, self-restraint, and dignity, rather than through complaint or resistance."
-tags: [adhd, japanese-philosophy, resilience]
+tags: [japanese-philosophy, resilience, TheHuman/Health/ADHD]
 title: Gaman - Enduring Hardship With Dignity (Japanese Concept)
 type: concept
 ---

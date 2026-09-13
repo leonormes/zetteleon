@@ -31,6 +31,8 @@ you built a private Azure Backup for AKS path for `aks-ff-uks-gp-1`, proved it w
 ---
 
 ## The Final Architecture, in Plain English
+> Series: scoped from [[FTFL-596 Configure Azure Backups]] → POC build-out (this note) → [[Azure Backup and Restore Runbook]] (tested runbook) → [[AKS Backup Extension — Architecture, Permissions & Private ZRS Backup IaC]] (production IaC/architecture).
+
 
 ### 1. A Hardened Storage Target
 

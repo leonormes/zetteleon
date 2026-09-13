@@ -12,7 +12,7 @@ proposition: When a self-insight concludes that better or more careful planning 
   the unlock, that conclusion is the least reliable class of self-explanation available
   to me, because a correct insight and a sophisticated avoidance produce identical
   subjective signatures.
-tags: [domain/pkm, topic/adhd, topic/executive-function, topic/gtd, topic/metacognition]
+tags: [domain/pkm, topic/executive-function, topic/gtd, topic/metacognition, TheHuman/Health/ADHD]
 title: Self-Insights That Prescribe More Planning Are the Least Trustworthy Kind
 type: claim
 ---

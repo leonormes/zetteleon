@@ -7,7 +7,7 @@ permalink: llmeon/00-inbox/adhd-task-paralysis-reflects-dmn-fpn-maturational-lag
 source_title: 'Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture: An Investigative Report'
 source_url: ''
 status: seed
-tags: [adhd, dmn, fpn, neuroscience, task-paralysis, tpn]
+tags: [dmn, fpn, neuroscience, task-paralysis, tpn, TheHuman/Health/ADHD]
 title: ADHD Task-Paralysis Reflects DMN-FPN Maturational Lag, Not Willpower Failure
 type: atom
 upstream: '[[Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture]]'

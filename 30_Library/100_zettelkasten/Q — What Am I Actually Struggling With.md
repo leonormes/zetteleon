@@ -7,7 +7,7 @@ permalink: llmeon/30-library/100-zettelkasten/q-what-am-i-actually-struggling-wi
 related_claims: ["[[Claim - Analysing One's Own Avoidance Can Itself Be an Instance of the Avoidance It Describes]]", "[[My Main PKM Problem Is the Continuity of Thinking]]", "[[Self-Insights That Prescribe More Planning Are the Least Trustworthy Kind]]", "[[The Neurological Divide Between Procrastination and Task Initiation]]"]
 related_to: ["[[ADHD]]", "[[MOC – My Epistemic Stack]]"]
 status: draft
-tags: [adhd, epistemic-self-audit, metacognition, pkm]
+tags: [epistemic-self-audit, metacognition, pkm, TheHuman/Health/ADHD]
 tension: One undifferentiated "block" is being used to explain avoidance that has at least four distinct causes, each with a different fix — so the wrong fix keeps getting applied and the conclusion "I'm just bad at this" keeps getting drawn.
 title: Q — What Am I Actually Struggling With
 type: question

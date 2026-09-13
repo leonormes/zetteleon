@@ -6,7 +6,7 @@ last-synthesis: 2026-04-04
 modified: 2026-08-29T09:36:42+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-prosthetic-executive-function
-tags: [adhd, behavior-change, prodos/sot, systems-engineering]
+tags: [behavior-change, prodos/sot, systems-engineering, TheHuman/Health/ADHD]
 title: SoT - Prosthetic Executive Function
 type: sot
 ---

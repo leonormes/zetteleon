@@ -5,7 +5,7 @@ created: 2025-10-31T00:00:00+00:00
 modified: 2026-09-09T12:34:10+00:00
 non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/100-zettelkasten/dopamine-reward-pathway-dysfunction-causes-adhd-task-initiation-difficulty
-tags: [adhd, gtd]
+tags: [gtd, TheHuman/Health/ADHD]
 title: Dopamine reward pathway dysfunction causes ADHD task initiation difficulty
 type: claim
 ---

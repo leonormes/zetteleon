@@ -6,7 +6,7 @@ modified: 2026-09-03T11:53:00+00:00
 permalink: llmeon/30-library/mo-c/moc-adhd-functional-neurology-scaffolding
 prodos.kind: moc
 prodos.lifecycle: active
-tags: [adhd, moc, neurology, neuroscience, triage]
+tags: [moc, neurology, neuroscience, triage, TheHuman/Health/ADHD]
 title: MOC - ADHD Functional Neurology & Scaffolding
 type: map
 ---

@@ -7,7 +7,7 @@ permalink: llmeon/00-inbox/physical-movement-before-cognitive-tasks-primes-dlpfc
 source_title: 'Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture: An Investigative Report'
 source_url: ''
 status: seed
-tags: [adhd, dlpfc, executive-function, exercise, somatic-trigger]
+tags: [dlpfc, executive-function, exercise, somatic-trigger, TheHuman/Health/ADHD]
 title: Physical Movement Before Cognitive Tasks Primes DLPFC Activation in ADHD
 type: atom
 upstream: '[[Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture]]'

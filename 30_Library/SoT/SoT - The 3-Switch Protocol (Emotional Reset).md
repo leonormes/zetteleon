@@ -5,7 +5,7 @@ created: 2025-12-25T11:45:00+00:00
 modified: 2026-08-29T09:36:43+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-the-3-switch-protocol-emotional-reset
-tags: [adhd, emotional_regulation, protocol, TheHuman/Neuroscience]
+tags: [emotional_regulation, protocol, TheHuman/Neuroscience, TheHuman/Health/ADHD]
 title: SoT - The 3-Switch Protocol (Emotional Reset)
 type: sot
 ---

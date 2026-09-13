@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-09-09T12:34:07+00:00
+modified: 2026-09-12T00:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-anchor
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Anchor
@@ -22,12 +22,14 @@ Anchor is the final reference for the full draw position and the point of maxima
 6. Posture: Maintain full front-shoulder extension (pushing forward) and solid core posture. Maintain firm, active backward pressure driving back against your jawline.
 7. Aiming: Focus 100% on the target so the bullseye is perfectly clear, while the sight pin appears slightly blurry. Allow your sight pin to naturally float in front of the target. Shoot with both eyes open.
 8. String Alignment: Consistently align the bowstring blur to a specific spot (e.g., the edge of the riser or alongside the sight pin).
+9. Micro-Adjustments: If string alignment is slightly off once you reach anchor, do not shift your hand position across your face. Keep the anchor completely locked and instead execute a "micro-head tilt"—gently tilt your head ever so slightly left or right until the string blur moves into your preferred reference position. (This is a lateral, fine-aim adjustment distinct from the anteroposterior head-tilting warned against in [[Archery Shot Process - Posture]]'s Faults & Diagnostics, which is about forcing nose contact rather than fine-tuning string blur.)
 
 ### Why It Works
 
 - The "Rear Sight": Your anchor point acts as your rear sight. If your head position or anchor shifts by even a few millimetres, arrow impact will scatter significantly downrange (this is a leading cause of vertical spread).
 - A fixed, pre-set head position ensures the string touches exact reference points, guaranteeing the bow remains perfectly vertical to prevent left or right misses. When analyzing form on video, your head should remain perfectly still against a vertical reference line.
 - Pressing past soft skin to establish bone-to-bone contact provides an unyielding, repeatable reference point.
+- The specific method for reaching that reference point is flexible—a tab with a shelf, tucking the thumb over the top, or anchoring directly under the jaw can all work—provided it gives distinct, repeatable tactile feedback without scraping the skin.
 - Reaching true full draw provides a distinct feeling of structural readiness, enabling clean execution.
 - Establishing an identical full-draw position ensures the distance required to pull through the clicker remains repeatable.
 - Shooting with both eyes open provides more visual information, helps maintain proper posture, prevents eye fatigue, and gives a more accurate picture of the pin's location.
@@ -105,6 +107,7 @@ Anchor is the final reference for the full draw position and the point of maxima
 
 - Archery | Rushed Shot Processes - Slow Down! (NUSensei)
 - Face Contact Matters! See Why And Learn How To Fix It! (Coach Michael)
+- Peter (in-person coaching, 2026-09-12)—anchor style variants, micro-head-tilt string alignment correction
 
 See also: [[Archery Shot Process - Finger Tab Selection & Maintenance]]—an oversized base plate can prevent the hand sitting flush against the jaw, degrading anchor depth and the string picture.
 

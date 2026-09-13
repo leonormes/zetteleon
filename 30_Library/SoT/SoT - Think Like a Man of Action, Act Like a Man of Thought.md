@@ -4,7 +4,7 @@ conformant: true
 created: 2025-12-07T00:00:00+00:00
 modified: 2026-09-04T12:00:00+00:00
 permalink: llmeon/30-library/so-t/so-t-think-like-a-man-of-action-act-like-a-man-of-thought
-tags: [action, adhd, thinking, topic/productivity]
+tags: [action, thinking, topic/productivity, TheHuman/Health/ADHD]
 tier: 1-Foundation
 title: SoT - Think Like a Man of Action, Act Like a Man of Thought
 type: sot

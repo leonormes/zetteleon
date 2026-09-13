@@ -7,7 +7,7 @@ permalink: llmeon/00-inbox/implementation-intentions-elevate-adhd-response-inhib
 source_title: 'Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture: An Investigative Report'
 source_url: ''
 status: seed
-tags: [adhd, gollwitzer, if-then-plans, implementation-intentions]
+tags: [gollwitzer, if-then-plans, implementation-intentions, TheHuman/Health/ADHD]
 title: Implementation Intentions Elevate ADHD Response Inhibition Toward Neurotypical Levels
 type: atom
 upstream: '[[Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture]]'

@@ -6,7 +6,7 @@ epistemic_status: medium
 modified: 2026-09-09T12:34:09+00:00
 permalink: llmeon/30-library/100-zettelkasten/claim-action-precedes-motivation-is-a-directional-heuristic-not-an-absolute-law
 proposition: "'Action precedes motivation' is a reliable operating heuristic for overcoming ADHD initiation deficits, but stated as an absolute law it overstates a bidirectional relationship — initiation still needs some triggering condition, so the defensible claim is that motivation cannot reliably be waited for, not that thought never usefully precedes action."
-tags: [adhd, epistemics, motivation, topic/productivity]
+tags: [epistemics, motivation, topic/productivity, TheHuman/Health/ADHD]
 title: Claim - Action Precedes Motivation Is a Directional Heuristic, Not an Absolute Law
 type: claim
 upstream: "[[HEAD - The Trap of the Architect]]"

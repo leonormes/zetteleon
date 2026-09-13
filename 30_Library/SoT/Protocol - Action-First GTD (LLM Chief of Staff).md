@@ -6,7 +6,7 @@ modified: 2026-08-29T09:36:32+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/protocol-action-first-gtd-llm-chief-of-staff
 status: active
-tags: [adhd, gtd, llm, system/protocol]
+tags: [gtd, llm, system/protocol, TheHuman/Health/ADHD]
 title: Protocol - Action-First GTD (LLM Chief of Staff)
 type: protocol
 ---

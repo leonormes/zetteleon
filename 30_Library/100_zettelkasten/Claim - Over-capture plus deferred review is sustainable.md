@@ -4,7 +4,7 @@ modified: 2026-09-09T12:34:09+00:00
 permalink: llmeon/30-library/100-zettelkasten/claim-over-capture-plus-deferred-review-is-sustainable
 position-date: 2026-05-31
 related_to: ["[[Claim - Capture is easy but processing is hard]]", "[[Practice - Deferred low-pressure review]]"]
-tags: [adhd, capture, review, workflow]
+tags: [capture, review, workflow, TheHuman/Health/ADHD]
 title: Claim - Over-capture plus deferred review is sustainable
 type: claim
 ---

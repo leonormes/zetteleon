@@ -9,7 +9,7 @@ permalink: llmeon/30-library/100-zettelkasten/curiosity-hooks-are-self-posed-que
 prodos.kind: atomic
 prodos.lifecycle: stable
 proposition: Leaving self-posed questions and interesting problems (curiosity hooks) for your future self successfully bypasses task-initiation friction by triggering the interest-based nervous system upon return.
-tags: [adhd, task-initiation, TheHuman/Creativity, TheHuman/Motivation, topic/productivity]
+tags: [task-initiation, TheHuman/Creativity, TheHuman/Motivation, topic/productivity, TheHuman/Health/ADHD]
 title: Curiosity Hooks are Self-Posed Questions to Rekindle Inspiration
 type: claim
 ---

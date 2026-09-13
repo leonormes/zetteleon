@@ -6,7 +6,7 @@ modified: 2026-09-10T00:00:00+00:00
 permalink: llmeon/30-library/so-t/so-t-the-interest-based-nervous-system-in-adhd
 prodos.kind: sot
 prodos.lifecycle: stable
-tags: [ADHD, dopamine, gtd, motivation, neurology, productivity]
+tags: [dopamine, gtd, motivation, neurology, productivity, TheHuman/Health/ADHD]
 title: SoT - The Interest-Based Nervous System in ADHD
 type: sot
 ---

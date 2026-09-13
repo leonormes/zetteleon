@@ -8,7 +8,7 @@ modified: 2026-09-09T12:34:11+00:00
 permalink: llmeon/30-library/100-zettelkasten/executive-function
 prodos.kind: atomic
 prodos.lifecycle: active
-tags: [adhd, cognition, executive-function]
+tags: [cognition, executive-function, TheHuman/Health/ADHD]
 title: Executive Function
 type: concept
 used_in_claims: ["[[Claim - Capture is easy but processing is hard]]", "[[Executive Function Challenges are Central to ADHD]]", "[[Executive Function Skills Develop and Decline on Different Timelines Across the Lifespan]]", "[[The Prefrontal Cortex Provides Executive Control Over Action]]", "[[The Stroop Test Assesses Inhibitory Control via Interference Resistance]]"]

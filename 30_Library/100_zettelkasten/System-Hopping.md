@@ -6,7 +6,7 @@ modified: 2026-09-09T12:34:16+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/system-hopping
 related_to: ["[[Claim - Novelty-craving drives self-defeating system-hopping]]", "[[MOC - ADHD and PKM Systems]]"]
-tags: [adhd, anti-pattern, novelty, productivity]
+tags: [anti-pattern, novelty, productivity, TheHuman/Health/ADHD]
 title: System-Hopping
 type: concept
 ---

@@ -7,7 +7,7 @@ permalink: llmeon/00-inbox/the-five-step-initiation-chain-for-neuro-variable-exe
 source_title: 'Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture: An Investigative Report'
 source_url: ''
 status: seed
-tags: [adhd, initiation-chain, procedure, synthesis, task-initiation]
+tags: [initiation-chain, procedure, synthesis, task-initiation, TheHuman/Health/ADHD]
 title: The Five-Step Initiation Chain for Neuro-Variable Execution
 type: atom
 upstream: '[[Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture]]'

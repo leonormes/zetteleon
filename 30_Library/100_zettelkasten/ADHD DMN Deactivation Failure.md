@@ -9,7 +9,7 @@ permalink: llmeon/30-library/100-zettelkasten/adhd-dmn-deactivation-failure
 prodos.kind: atomic
 prodos.lifecycle: stable
 proposition: ADHD brains fail to progressively deactivate the default mode network (specifically the precuneus) during sustained attention tasks, resulting in mind-wandering and DMN intrusion.
-tags: [adhd, attention, dmn, neuroscience]
+tags: [attention, dmn, neuroscience, TheHuman/Health/ADHD]
 title: ADHD DMN Deactivation Failure
 type: claim
 ---

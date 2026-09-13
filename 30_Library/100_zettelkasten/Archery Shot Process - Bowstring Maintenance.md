@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-08-03T17:00:00+01:00
-modified: 2026-09-09T12:34:07+00:00
+modified: 2026-09-11T00:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-bowstring-maintenance
 tags: [archery, equipment, maintenance, prodos/atomic]
 title: Archery Shot Process - Bowstring Maintenance
@@ -134,3 +134,9 @@ The Knotless Method:
 When to Replace: If the serving itself is breaking down and exposing the underlying string material, it is time to replace the string entirely. Serving replacement extends the string's life; it is not a full repair for a failed string.
 
 Reference: Jake Kaminski—_Proper Bow String Storage: Prevent Twist Loss for Consistent Brace Height_ (video); Jake Kaminski—_How Many Twists Should be in a Bowstring?_ (video); Jake Kaminski—bowstring waxing guide (video); Kazden Ammons—bowstring maintenance for beginners (video).
+
+See also: [[Archery Shot Process - Nocking]] for fletching orientation and nock placement on the string this maintenance preserves; [[Archery Shot Process - Faults and Diagnostics]] aggregates in-shot faults but does not yet cover equipment-side causes like an under- or over-twisted string—brace height drift from neglected twist storage is a candidate root cause worth cross-referencing there.
+
+---
+
+[[MOC - Archery Shot Process]]

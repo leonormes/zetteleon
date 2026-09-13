@@ -22,6 +22,8 @@ Status: ✅ Verified—end-to-end backup and restore validated on `sandbox-testi
 ---
 
 ## Overview
+> Series: [[FTFL-596 Configure Azure Backups]] → [[Azure Backup for AKS]] (POC build) → tested runbook (this note) → [[AKS Backup Extension — Architecture, Permissions & Private ZRS Backup IaC]] (production IaC/architecture).
+
 
 This page documents the runbook for restoring Kubernetes PVC data from an Azure Backup. It covers the infrastructure layout, required RBAC roles, the CLI command sequence for configuring backup protection, and how to trigger and validate a restore.
 

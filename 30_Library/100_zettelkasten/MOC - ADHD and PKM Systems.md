@@ -4,7 +4,7 @@ created: 2026-05-31T00:00:00+00:00
 modified: 2026-09-09T12:34:13+00:00
 permalink: llmeon/30-library/100-zettelkasten/moc-adhd-and-pkm-systems
 related_to: ["[[MOC – My Epistemic Stack]]"]
-tags: [adhd, executive-function, pkm, prodos/moc, productivity]
+tags: [executive-function, pkm, prodos/moc, productivity, TheHuman/Health/ADHD]
 title: MOC - ADHD and PKM Systems
 type: map
 ---

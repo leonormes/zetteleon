@@ -9,7 +9,7 @@ permalink: llmeon/30-library/100-zettelkasten/all-the-enthusiasm-and-energy-for-
 prodos.kind: atomic
 prodos.lifecycle: active
 proposition: ADHD enthusiasm for complex system-building is transient; systems must be stupidly simple to survive the inevitable dopamine crash when the novelty fades.
-tags: [adhd, motivation, productivity, system-design]
+tags: [motivation, productivity, system-design, TheHuman/Health/ADHD]
 title: All the Enthusiasm and Energy for a Plan Disappears
 type: claim
 ---

@@ -7,7 +7,7 @@ permalink: llmeon/30-library/100-zettelkasten/meaning-driven-activity-activates-
 prodos.kind: claim
 prodos.lifecycle: stable
 proposition: "Purpose-driven activities engage brain reward systems (VTA and nucleus accumbens) independently of external reinforcement, providing a vital secondary motivation pathway for ADHD brains."
-tags: [adhd, dopamine, motivation, neuroscience]
+tags: [dopamine, motivation, neuroscience, TheHuman/Health/ADHD]
 title: Meaning-Driven Activity Activates Brain Reward Systems Independently of External Reinforcement
 ---
 

@@ -24,6 +24,8 @@ Jira: [FTFL-638](https://fitfile.atlassian.net/browse/FTFL-638) | Type: Bug | Pr
 ---
 
 ### Background
+> Related: earlier session (12 May) covering the first four root causes (Prometheus endpoint, `labelsToKeep` regression, schema mismatch, broken `job` relabel). A later session (28 May) found and fixed five further root causes and completed the v3.7.5→v4.1.3 chart migration — see [[FTFL-638 Grafana Monitoring Fix - Testing Cluster]].
+
 
 The testing cluster (`fitfile-cloud-testing-aks-cluster`, Grafana Cloud stack: `fitfiletest`) was migrated to the Grafana Alloy Helm chart (`grafana-k8s-monitoring v3.7.5`). After deployment, two categories of visibility were lost:
 

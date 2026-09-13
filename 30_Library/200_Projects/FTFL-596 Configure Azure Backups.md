@@ -10,6 +10,8 @@ type: null
 ---
 
 ## FTFL-596: Configure the Azure Backups Module for NNUH & MKUH
+> Series: ticket scoping (this note) → [[Azure Backup for AKS]] (POC build) → [[Azure Backup and Restore Runbook]] (tested runbook) → [[AKS Backup Extension — Architecture, Permissions & Private ZRS Backup IaC]] (production IaC/architecture).
+
 
 Status: In Progress
 

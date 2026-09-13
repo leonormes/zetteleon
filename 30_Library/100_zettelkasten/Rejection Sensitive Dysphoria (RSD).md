@@ -10,7 +10,7 @@ modified: 2026-09-09T12:34:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/rejection-sensitive-dysphoria-rsd
 proposition: "Rejection Sensitive Dysphoria (RSD) is a neurological event in which the ADHD brain's emotional processing centres perceive social disapproval, criticism, or failure as a direct physical threat, triggering an instantaneous fight-or-flight response disproportionate to the actual stimulus."
 status: seed
-tags: [ADHD, emotion, neurology, RSD, social-cognition]
+tags: [emotion, neurology, RSD, social-cognition, TheHuman/Health/ADHD]
 title: Rejection Sensitive Dysphoria (RSD)
 type: claim
 ---

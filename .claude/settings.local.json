@@ -56,7 +56,17 @@
       "Bash(shale done *)",
       "mcp__1mcp__obsidian-llmeon_1mcp_search_semantic",
       "mcp__1mcp__obsidian-llmeon_1mcp_search_metadata",
-      "mcp__1mcp__obsidian-llmeon_1mcp_wikilinks"
+      "mcp__1mcp__obsidian-llmeon_1mcp_wikilinks",
+      "mcp__1mcp__obsidian-llmeon_1mcp_note_read_many",
+      "mcp__1mcp__obsidian-llmeon_1mcp_search_text",
+      "Bash(curl -s http://127.0.0.1:3050/health)",
+      "mcp__1mcp__1password_1mcp_list_environments",
+      "WebFetch(domain:api.ynab.com)",
+      "Bash(op read *)",
+      "Bash(curl -s -H 'Authorization: Bearer __CMDSUB_OUTPUT__' https://api.ynab.com/v1/plans/80775089-4e9a-47ad-9ebd-31629ef7d573/accounts)",
+      "Bash(curl -s -H 'Authorization: Bearer __CMDSUB_OUTPUT__' https://api.ynab.com/v1/plans/__TRACKED_VAR__/months/current)",
+      "mcp__1mcp__obsidian-llmeon_1mcp_note_read",
+      "mcp__1mcp__obsidian-llmeon_1mcp_note_create"
     ]
   },
   "spinnerTipsEnabled": false

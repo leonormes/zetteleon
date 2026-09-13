@@ -7,7 +7,7 @@ distinguishes_from: ["[[Pseudo-productivity Heuristic]]", "[[System-Hopping]]", 
 epistemic_status: medium
 modified: 2026-09-09T12:34:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-trap-of-the-architect-is-sophisticated-system-building-substituting-for-physical-action
-tags: [adhd, avoidance, meta-work, pkm, topic/productivity]
+tags: [avoidance, meta-work, pkm, topic/productivity, TheHuman/Health/ADHD]
 title: The Trap of the Architect Is Sophisticated System-Building Substituting for Physical Action
 type: concept
 upstream: "[[HEAD - The Trap of the Architect]]"

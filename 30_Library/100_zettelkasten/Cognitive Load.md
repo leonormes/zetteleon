@@ -5,7 +5,7 @@ modified: 2026-09-09T12:34:09+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/cognitive-load
 related_to: ["[[Claim - Flat associative structure beats rigid hierarchy]]", "[[Executive Function]]", "[[MOC - ADHD and PKM Systems]]"]
-tags: [adhd, cognition, working-memory]
+tags: [cognition, working-memory, TheHuman/Health/ADHD]
 title: Cognitive Load
 type: concept
 ---

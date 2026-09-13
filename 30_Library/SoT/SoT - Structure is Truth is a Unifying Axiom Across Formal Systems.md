@@ -7,7 +7,7 @@ non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-structure-is-truth-is-a-unifying-axiom-across-formal-systems
 see_also: ["[[MOC - ADHD Functional Neurology & Scaffolding]]", "[[MOC - Applied Formal Methods]]", "[[Protocol - AFM Vault Constitutional Triage]]", "[[SoT - Conservation of Complexity]]", "[[SoT - Order Theory & Lattices]]", "[[SoT - The Curry-Howard Correspondence (Propositions as Types)]]", "[[SoT - The Data-Centric Philosophy]]"]
 supersedes: ["[[SoT - Knowledge Architecture (Associative Ontology)]]"]
-tags: [fca/attr/m10, fca/attr/m4, fca/level/c4, fca/m2-framed, prodos/sot, topic/adhd, topic/formal-methods, topic/knowledge-architecture, topic/philosophy, topic/pkm, topic/software-architecture, topic/type-theory]
+tags: [fca/attr/m10, fca/attr/m4, fca/level/c4, fca/m2-framed, prodos/sot, topic/formal-methods, topic/knowledge-architecture, topic/philosophy, topic/pkm, topic/software-architecture, topic/type-theory, TheHuman/Health/ADHD]
 title: SoT - Structure is Truth is a Unifying Axiom Across Formal Systems
 type: sot
 ---

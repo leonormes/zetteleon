@@ -9,7 +9,7 @@ permalink: llmeon/30-library/so-t/protocol-autonomous-action-system
 source_of_truth: true
 status: evergreen
 synthesis-count: 1
-tags: [adhd, gtd, llm, prodos, system/protocol, todoist]
+tags: [gtd, llm, prodos, system/protocol, todoist, TheHuman/Health/ADHD]
 title: Protocol - Autonomous Action System
 trust-level: stable
 type: protocol
