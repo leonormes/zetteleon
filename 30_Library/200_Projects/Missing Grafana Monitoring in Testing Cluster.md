@@ -1,6 +1,6 @@
 ---
 created: 2026-05-12T08:40:03+00:00
-modified: 2026-08-29T09:36:20+00:00
+modified: 2026-09-13T16:30:25+00:00
 permalink: llmeon/30-library/200-projects/missing-grafana-monitoring-in-testing-cluster
 project_category: refined_deployment
 project_name: Refined Deployment
@@ -24,8 +24,8 @@ Jira: [FTFL-638](https://fitfile.atlassian.net/browse/FTFL-638) | Type: Bug | Pr
 ---
 
 ### Background
-> Related: earlier session (12 May) covering the first four root causes (Prometheus endpoint, `labelsToKeep` regression, schema mismatch, broken `job` relabel). A later session (28 May) found and fixed five further root causes and completed the v3.7.5→v4.1.3 chart migration — see [[FTFL-638 Grafana Monitoring Fix - Testing Cluster]].
 
+> Related: earlier session (12 May) covering the first four root causes (Prometheus endpoint, `labelsToKeep` regression, schema mismatch, broken `job` relabel). A later session (28 May) found and fixed five further root causes and completed the v3.7.5→v4.1.3 chart migration—see [[FTFL-638 Grafana Monitoring Fix - Testing Cluster]].
 
 The testing cluster (`fitfile-cloud-testing-aks-cluster`, Grafana Cloud stack: `fitfiletest`) was migrated to the Grafana Alloy Helm chart (`grafana-k8s-monitoring v3.7.5`). After deployment, two categories of visibility were lost:
 

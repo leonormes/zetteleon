@@ -1,14 +1,14 @@
 ---
+id: "HEAD Arthur Schopenhauer"
 aliases: []
+tags: []
 captured: "2026-09-11T10:37:18+01:00 2026-09-11T10:37:18+01:00"
 created: 2026-09-13T08:52:24+00:00
-id: "HEAD Arthur Schopenhauer"
 modified: 2026-09-13T09:36:14+00:00
 permalink: llmeon/00-inbox/head-new-chat-1
 source: https://gemini.google.com/app/49630ad891c52806
 status: processing
-tags: []
-title: HEAD Arthur Schopenhauer
+title: "HEAD Arthur Schopenhauer"
 type: head
 ---
 
@@ -102,8 +102,6 @@ RFD02le56x4
 [What Liberalism got wrong | John Gray on the failures of the Enlightenment](http://www.youtube.com/watch?v=RFD02le56x4) [The Institute of Art and Ideas](https://www.youtube.com/channel/UCTsiZiMomJo6FOyiBaFeaIw) John Gray and Hilary Lawson discuss liberalism, truth, and the nature of reality. Is moral progress a myth? With a free trial, you…
 
 ![](https://www.youtube.com/watch?v=Gs3a4NGYhrk)
-
-[진보의 환상 - 계몽주의 비판](http://www.youtube.com/watch?v=Gs3a4NGYhrk) [김형률 Google NotebookLM](https://www.youtube.com/channel/UC1EFpblG4leZoHjU1Gz2T1g) <https://youtu.be/> RFD02le56x4?si=bq6UxzVO8ICE9mI2 What Liberalism got wrong | John Gray on the failures of the…
 
 ---
 

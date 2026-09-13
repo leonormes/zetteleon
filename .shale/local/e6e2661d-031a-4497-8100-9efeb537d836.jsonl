@@ -123,3 +123,4 @@
 {"kind":"command","at":"2026-09-13T15:16:20.273339Z","cmd":"TOKEN=$(op read 'op://Private/YNAB PAT/credential')\ncurl -s -H \"Authorization: Bearer $TOKEN\" \"https://api.ynab.com/v1/plans\" | jq '.data.plans[] | select(.name | test(\"MeMyself\"; \"i\"))'"}
 {"kind":"command","at":"2026-09-13T15:16:30.465162Z","cmd":"TOKEN=$(op read 'op://Private/YNAB PAT/credential')\ncurl -s -H \"Authorization: Bearer $TOKEN\" \"https://api.ynab.com/v1/plans\" | jq '.data.plans[] | {name, last_modified_on}'"}
 {"kind":"session_end","at":"2026-09-13T15:17:01.510019Z"}
+{"kind":"session_end","at":"2026-09-13T17:49:56.781698Z"}

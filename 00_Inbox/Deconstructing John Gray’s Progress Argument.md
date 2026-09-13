@@ -1,8 +1,11 @@
 ---
+id: "Deconstructing John Gray’s Progress Argument"
+aliases: []
+tags: []
 created: 2026-09-11T07:52:10+00:00
 modified: 2026-09-13T09:36:12+00:00
 permalink: llmeon/00-inbox/deconstructing-john-grays-progress-argument
-title: Deconstructing John Gray’s Progress Argument
+title: "Deconstructing John Gray’s Progress Argument"
 type: note
 ---
 
@@ -77,15 +80,15 @@ There is also a selection problem: successful warnings are more memorable than f
 
 ### Novelty versus Repackaging
 
-| Interview concept | What it closely resembles | Assessment |
-|---|---|---|
-| Technology accumulates more reliably than morality | Distinction between technical and moral progress; familiar in modern philosophy | Useful synthesis, not novel |
-| Political gains can be reversed | Democratic backsliding, institutional fragility, path dependence | Established political analysis |
-| Choices are constrained by prior events | Structural constraint, path dependence, unintended consequences | Established framework |
-| Geography shapes conflict | Geopolitics and strategic chokepoint theory | Standard, though practically relevant |
-| Shared stories support political authority | Social cohesion, legitimacy, political myth, imagined community | Established idea, presented accessibly |
-| Human beings need meaning and can fight over it | Existentialism, political religion, nationalism, identity conflict | Longstanding philosophical and sociological theme |
-| Progress is a secularised Christian myth | Genealogy of Enlightenment historicism and secular eschatology | Recognisable intellectual-history thesis |
+| Interview concept                                  | What it closely resembles                                                       | Assessment                                        |
+| -------------------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------- |
+| Technology accumulates more reliably than morality | Distinction between technical and moral progress; familiar in modern philosophy | Useful synthesis, not novel                       |
+| Political gains can be reversed                    | Democratic backsliding, institutional fragility, path dependence                | Established political analysis                    |
+| Choices are constrained by prior events            | Structural constraint, path dependence, unintended consequences                 | Established framework                             |
+| Geography shapes conflict                          | Geopolitics and strategic chokepoint theory                                     | Standard, though practically relevant             |
+| Shared stories support political authority         | Social cohesion, legitimacy, political myth, imagined community                 | Established idea, presented accessibly            |
+| Human beings need meaning and can fight over it    | Existentialism, political religion, nationalism, identity conflict              | Longstanding philosophical and sociological theme |
+| Progress is a secularised Christian myth           | Genealogy of Enlightenment historicism and secular eschatology                  | Recognisable intellectual-history thesis          |
 
 The interview's value lies mainly in connecting these established ideas into a coherent sceptical worldview. Its presentation is rhetorically polished, but the underlying concepts are not "game-changing". They are a selective synthesis of pessimistic political philosophy, historical recurrence, liberal scepticism, and institutional realism.
 
@@ -132,19 +135,21 @@ The interview is worth engaging with as a corrective to technological and politi
 
 1. [Progress (Stanford Encyclopedia of Philosophy/Fall 2020 Edition)](https://plato.stanford.edu/archives/fall2020/entries/progress/) - Philosophical proponents of progress assert that the human condition has improved over the course of…
 2. [Progress (Stanford Encyclopedia of Philosophy/Spring 2024 Edition)](https://plato.stanford.edu/archives/spr2024/entries/progress/) - The philosophical discourse on progress, both moral and political, has
-a long history.
-It first rose…
+   a long history.
+   It first rose…
 
 3. [Human Development Index, 2023](https://ourworldindata.org/grapher/human-development-index) - The Human Development Index (HDI) is a summary measure of key dimensions of human development: a lon…
 4. [Does democracy lead to better health? | Our World in Data](https://ourworldindata.org/democracy-health) - The chart shows the cross-country correlation between an aggregate measure of health–life expectan…
 5. [Trump vows to hit Iran hard, says US escorting dozens of ships in Hormuz](https://www.aljazeera.com/news/2026/8/31/trump-says-iran-is-dead-vows-to-respond-after-renewed-clashes) - United States President Donald Trump has threatened to hit Iran hard and claimed Washington was help…
 6. [As Trump claims victory, Iran emerges bruised but powerful with ...](https://www.reuters.com/world/middle-east/trump-claims-victory-iran-emerges-bruised-powerful-with-leverage-over-hormuz-2026-04-08/) - - Ceasefire seen as fragile pause, risks sharper escalation ahead
+
 - Iran emerges entrenched, retains…
 
 1. [Trump threatens further action as US and Iran exchange fire in new ...](https://www.theguardian.com/world/2026/aug/31/trump-threatens-further-action-us-iran-exchange-fire) - # Trump threatens further action as US and Iran exchange fire in new flare-up
-…
+   …
+
 - ### Iran claims …
 
 1. [Human Rights Index](https://ourworldindata.org/grapher/human-rights-index-vdem) - ## Human rights index
-…
-Central estimate of the extent to which people are free from government to…
+   …
+   Central estimate of the extent to which people are free from government to…
