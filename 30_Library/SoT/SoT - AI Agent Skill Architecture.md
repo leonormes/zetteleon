@@ -2,7 +2,7 @@
 aliases: [Agent Capabilities, AI Agent Skills, Claude Code Skills]
 conformant: false
 created: 2026-03-28T17:00:00+00:00
-modified: 2026-08-29T09:36:33+00:00
+modified: 2026-09-14T11:52:38+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-ai-agent-skill-architecture
 tags: [agents, ai, architecture, claude, mcp, skills]
@@ -76,15 +76,15 @@ An agent only activates a skill based on its description. Vague descriptions (e.
 
 Considered as part of [[prodos-agent-architecture-upgrade]]: should `10_System/prompts/` migrate to native Claude Code Skills (`.claude/skills/`) instead of the current prompt-library-router pattern?
 
-**Decision: no wholesale migration.** Keep `00 - Prompt Library Router.md` + `10_System/prompts/` as the primary mechanism.
+Decision: no wholesale migration. Keep `00 - Prompt Library Router.md` + `10_System/prompts/` as the primary mechanism.
 
 Reasoning:
 
-- The router already implements the useful half of progressive disclosure — each routing-table row is a ~1-sentence description always available for selection, the full prompt body loads only once chosen. Migrating to `SKILL.md` files wouldn't add capability here, only reformatting cost across 37 existing, cross-referenced, battle-tested prompts (including documented pipelines and inverse pairs — see the Router's "Prompt Pairs & Pipelines" section, which has no equivalent concept in bare Skills).
-- Skills solve a problem this vault doesn't have: autonomous triggering from a vague description, and distribution to teammates/marketplace. This is a single-person vault where an agent is explicitly pointed at the Router (per `AGENTS.md`) rather than needing to guess which capability applies from a one-line description — the "triggering problem" §"Current Understanding" describes above is a cost with no matching benefit here.
-- Skills would be worth revisiting narrowly — not wholesale — for a prompt that genuinely needs to auto-fire without an agent consulting the Router first, e.g. [[Goal - Orphan Triage Sweep (Daily Cron)]]. That's a case-by-case call for whoever runs that prompt unattended, not a reason to restructure the whole library.
+- The router already implements the useful half of progressive disclosure—each routing-table row is a ~1-sentence description always available for selection, the full prompt body loads only once chosen. Migrating to `SKILL.md` files wouldn't add capability here, only reformatting cost across 37 existing, cross-referenced, battle-tested prompts (including documented pipelines and inverse pairs—see the Router's "Prompt Pairs & Pipelines" section, which has no equivalent concept in bare Skills).
+- Skills solve a problem this vault doesn't have: autonomous triggering from a vague description, and distribution to teammates/marketplace. This is a single-person vault where an agent is explicitly pointed at the Router (per `AGENTS.md`) rather than needing to guess which capability applies from a one-line description—the "triggering problem" §"Current Understanding" describes above is a cost with no matching benefit here.
+- Skills would be worth revisiting narrowly—not wholesale—for a prompt that genuinely needs to auto-fire without an agent consulting the Router first, e.g. [[Goal - Orphan Triage Sweep (Daily Cron)]]. That's a case-by-case call for whoever runs that prompt unattended, not a reason to restructure the whole library.
 
-This closes the "decide on Skills adoption" item from [[prodos-agent-architecture-upgrade]] — outcome (b) from that project's Work Remaining list (document why the router pattern is preferred), not outcome (a).
+This closes the "decide on Skills adoption" item from [[prodos-agent-architecture-upgrade]]—outcome (b) from that project's Work Remaining list (document why the router pattern is preferred), not outcome (a).
 
 ## Related Documentation
 

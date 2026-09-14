@@ -3,12 +3,8 @@ aliases: [Bonhoeffer Stupidity, Functional Stupidity, The Theory of Stupidity]
 conformant: true
 created: 2026-02-07T10:22:14+00:00
 last-synthesis: 2026-02-07
-modified: 2026-08-29T10:48:00+00:00
+modified: 2026-09-14T11:52:39+00:00
 permalink: llmeon/30-library/so-t/so-t-bonhoeffers-theory-of-functional-stupidity
-prodos:
-  kind: sot
-  lifecycle: evergreen
-  trust: stable
 tags: [conformity, domain/psychology, domain/sociology, ethics, group-dynamics, type/SoT]
 title: "SoT - Bonhoeffer's Theory of Functional Stupidity"
 type: sot
@@ -49,7 +45,7 @@ _"Immunity to facts" is the group-scale form of deleting your own error-detectio
 - Critical Thinking: Reclaiming intellectual independence and moral responsibility.
 - Personal Countermeasures: Actively seeking falsifying evidence for ones own beliefs (Karl Popper's principle of falsification).
 - Interpersonal Countermeasures: Employing Socratic questioning in interpersonal debates to discuss ideas without triggering defensiveness.
-- Institutional Countermeasures: Cultivating a culture of dissent (e.g. the "Aztec decision circle") to prevent the delegitimisation of political opposition (as noted in Levitsky and Ziblatt’s _How Democracies Die_).
+- Institutional Countermeasures: Cultivating a culture of dissent (e.g. the "Aztec decision circle") to prevent the delegitimisation of political opposition (as noted in Levitsky and Ziblatt's _How Democracies Die_).
 
 [depends_on:: [[Truth-Status Belongs to Propositions, Not Persons]], confidence=medium]
 

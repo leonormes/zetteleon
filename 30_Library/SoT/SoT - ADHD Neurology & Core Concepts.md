@@ -2,14 +2,13 @@
 aliases: [ADHD Hardware Model, ADHD Neurology, The ADHD Operating System]
 conformant: true
 created: 2026-01-03T10:10:15+00:00
-modified: 2026-09-08T00:00:00+00:00
+modified: 2026-09-14T11:52:38+00:00
 permalink: llmeon/30-library/so-t/so-t-adhd-neurology-core-concepts
 source_of_truth: true
 tags: [dopamine, emotional-regulation, neurology, system/sot, TheHuman/Health/ADHD]
 title: SoT - ADHD Neurology & Core Concepts
 type: sot
 ---
-
 
 > Position in the graph. This is the _mechanism_ layer of the ADHD cluster—the note that [[SoT - ADHD Management Protocols]] rests on, and that 45 other notes reference. It is where the vault's declared ADHD axioms get assembled into a single operating-system model. Edges below point _downward_ to those axioms and atoms; nothing here points back up at the protocol layer, which would close a cycle.
 

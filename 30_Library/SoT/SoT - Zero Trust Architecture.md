@@ -3,7 +3,7 @@ aliases: [Identity as Perimeter, Never Trust Always Verify, Zero Trust, ZT Archi
 conformant: true
 created: 2026-04-04T14:30:00+00:00
 last-synthesis: 2026-04-04
-modified: 2026-08-09T19:47:00+01:00
+modified: 2026-09-14T11:52:56+00:00
 permalink: llmeon/30-library/so-t/so-t-zero-trust-architecture
 tags: [architecture, iam, networking, security, zero-trust]
 title: SoT - Zero Trust Architecture

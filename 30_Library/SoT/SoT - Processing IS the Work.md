@@ -2,7 +2,7 @@
 aliases: [Active Processing, Good Enough Processing, Processing IS the Work]
 conformant: false
 created: 2025-12-07T00:00:00+00:00
-modified: 2026-08-29T09:36:41+00:00
+modified: 2026-09-14T11:52:48+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-processing-is-the-work
 tags: [pkm, TheHuman/Health/ADHD, TheHuman/Mindset, topic/productivity]
@@ -90,17 +90,17 @@ These strategies bypass executive dysfunction by lowering the barrier to entry.
 
 ---
 
-## 6. Scope Boundary — Learning vs Execution
+## 6. Scope Boundary—Learning Vs Execution
 
 > [!warning] What this note does NOT govern
-> This note governs **PKM and learning work**, where the deliverable is understanding. It does **not** govern GTD task execution, where the deliverable is a physical action outside the vault.
+> This note governs PKM and learning work, where the deliverable is understanding. It does not govern GTD task execution, where the deliverable is a physical action outside the vault.
 
 The distinction matters because "Processing IS the Work" reads, out of context, as a general licence for thinking over doing. It is not.
 
-**Inside PKM**, the cognitive engagement is the product. Reviewing, linking and synthesising cannot be delegated to a machine without forfeiting the thing they exist to produce — if an agent does the linking and the writing, the note exists and nothing has been learned. Here friction is the mechanism, not a cost (see [[Eufriction - Productive Friction Strengthens Thinking]]).
+Inside PKM, the cognitive engagement is the product. Reviewing, linking and synthesising cannot be delegated to a machine without forfeiting the thing they exist to produce—if an agent does the linking and the writing, the note exists and nothing has been learned. Here friction is the mechanism, not a cost (see [[Eufriction - Productive Friction Strengthens Thinking]]).
 
-**Inside GTD execution**, the opposite holds. The deliverable is a physical action with an external deadline, and further thinking does not produce it — it displaces it. See [[Self-insights that prescribe more planning are the least trustworthy kind]].
+Inside GTD execution, the opposite holds. The deliverable is a physical action with an external deadline, and further thinking does not produce it—it displaces it. See [[Self-insights that prescribe more planning are the least trustworthy kind]].
 
-These two claims appear to conflict and do not. They concern thinking directed at different products. The test when they collide is not which one is true but **which domain is in scope**: is the output understanding, or is the output a thing that happens in the world?
+These two claims appear to conflict and do not. They concern thinking directed at different products. The test when they collide is not which one is true but which domain is in scope: is the output understanding, or is the output a thing that happens in the world?
 
-Note that [[Claim - Analysing One's Own Avoidance Can Itself Be an Instance of the Avoidance It Describes]] carries an `extends::` edge to this note, and that edge remains correct — it concerns the Meta-Work concept in §2, which is a PKM-side observation.
+Note that [[Claim - Analysing One's Own Avoidance Can Itself Be an Instance of the Avoidance It Describes]] carries an `extends::` edge to this note, and that edge remains correct—it concerns the Meta-Work concept in §2, which is a PKM-side observation.

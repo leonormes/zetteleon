@@ -1,6 +1,6 @@
 ---
 created: 2026-07-31T09:49:10+00:00
-modified: 2026-08-29T09:36:45+00:00
+modified: 2026-09-14T11:52:57+00:00
 permalink: llmeon/00-inbox/pieces-copilot-message-export-july-31-2026-10-49am
 title: Backup status check set
 type: note
@@ -26,7 +26,9 @@ Activate PIM where needed (MKUH tenant `e96dd0a1-5d47-4a94-9e4a-5c1056daa82c`), 
 | NNUH | (name not stored) | | assumed `aks-ff-uks-gp-01-backup-rg` | (discover) | `aksffuksgp01backupsa` | RG thin—confirm first |
 
 Snapshot RG (MKUH): `aks-mkuh-uks-prd-01-backup-snapshots-rg`
+
 Vault MSI principal you checked: `6cbab191-4cd3-4ee9-9aa9-acc5382b210f`
+
 Known MKUH instance: `aks-mkuh-uks-prd-01-aks-mkuh-uks-prd-01-c39aa3ec-4a0b-11f1-a04a-00155d666a09`
 
 ---

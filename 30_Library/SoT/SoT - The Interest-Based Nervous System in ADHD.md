@@ -1,8 +1,8 @@
 ---
-aliases: ["The ADHD brain operates on an Interest-Based Nervous System", "The Interest-Based Nervous System in ADHD", "IBNS"]
+aliases: ["IBNS", "The ADHD brain operates on an Interest-Based Nervous System", "The Interest-Based Nervous System in ADHD"]
 conformant: true
 created: 2026-02-11T17:15:00+00:00
-modified: 2026-09-10T00:00:00+00:00
+modified: 2026-09-14T11:52:53+00:00
 permalink: llmeon/30-library/so-t/so-t-the-interest-based-nervous-system-in-adhd
 prodos.kind: sot
 prodos.lifecycle: stable
@@ -57,7 +57,7 @@ The IBNS model rests on these neuro-mechanistic claims (each carries a `supports
 - [[Dopamine Neurons Encode Reward Prediction Error, Not Pleasure]]—why novelty is an ignition key.
 - [[Dopamine Regulates Motivation (Wanting) Separately from Pleasure (Liking)]]—why completion yields relief, not reward.
 - [[Neurotypical motivation is primarily importance-driven]]—the importance-based contrast the model is defined against.
-- Extrinsic rewards are less effective for activating the ADHD brain—why secondary rewards fail to ignite. `[[Extrinsic rewards are less effective for activating the ADHD brain]]` is broken—no matching note or alias exists anywhere in the vault. Closest real coverage, the complementary claim: [[Meaning-Driven Activity Activates Brain Reward Systems Independently of External Reinforcement]] ("for ADHD brains where extrinsic motivation is unreliable... extrinsic rewards fail to reach"). Left unresolved rather than guessed—it's a related claim, not a renamed version of the missing one.
+- Extrinsic rewards are less effective for activating the ADHD brain—why secondary rewards fail to ignite. `[[Extrinsic rewards are less effective for activating the ADHD brain]]` is broken—no matching note or alias exists anywhere in the vault. Closest real coverage, the complementary claim: [[Meaning-Driven Activity Activates Brain Reward Systems Independently of External Reinforcement]] ("for ADHD brains where extrinsic motivation is unreliable… extrinsic rewards fail to reach"). Left unresolved rather than guessed—it's a related claim, not a renamed version of the missing one.
 - [[Clinical Models Recognize Activation as a Core Impairment in ADHD]]—clinical grounding for activation impairment.
 
 ## Consequences & Downstream Effects

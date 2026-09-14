@@ -2,24 +2,19 @@
 aliases: []
 conformant: true
 contradicts: []
-created: 2026-09-08 20:15:00+00:00
+created: 2026-09-08T20:15:00+00:00
 created_utc: 2026-09-08 20:15:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-08 20:15:00+00:00
+modified: 2026-09-14T11:52:00+00:00
+permalink: llmeon/00-inbox/deutsch-and-godfrey-smith-converge-on-rational-reliance-from-different-grounds
+proposition: Facing the same "why is it rational to rely on a well-tested theory" dilemma that motivates Godfrey-Smith's confirmation objection, Deutsch argues we are justified in relying on a well-tested theory not because past observations confirmed it, but because it is the only rationally tenable explanation left once bad or unexplained alternatives are ruled out.
 source_title: David Deutsch and Peter Godfrey-Smith
 source_url: UNKNOWN
 status: seed
-tags:
-- epistemology
-- philosophy-of-science
-- deutsch
-- godfrey-smith
-- tension
+tags: [deutsch, epistemology, godfrey-smith, philosophy-of-science, tension]
 title: Deutsch and Godfrey-Smith Converge on Rational Reliance From Different Grounds
 type: claim
-proposition: Facing the same "why is it rational to rely on a well-tested theory" dilemma that motivates Godfrey-Smith's confirmation objection, Deutsch argues we are justified in relying on a well-tested theory not because past observations confirmed it, but because it is the only rationally tenable explanation left once bad or unexplained alternatives are ruled out.
-permalink: llmeon/00-inbox/deutsch-and-godfrey-smith-converge-on-rational-reliance-from-different-grounds
 ---
 
 ## Deutsch and Godfrey-Smith Converge on Rational Reliance From Different Grounds

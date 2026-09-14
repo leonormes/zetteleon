@@ -2,7 +2,7 @@
 aliases: [AI Coding MOC, LLM Engineering Map]
 created: 2026-01-30T08:00:00+00:00
 last-synthesis: 2026-04-04
-modified: 2026-08-29T09:36:28+00:00
+modified: 2026-09-14T11:52:33+00:00
 permalink: llmeon/30-library/mo-c/moc-ai-software-engineering
 tags: [ai-engineering, map-of-content, moc]
 title: MOC - AI Software Engineering
@@ -20,6 +20,7 @@ _Reconciling the "Quantum" (Micro-Logic) with "Relativity" (Macro-Architecture).
 - [[SoT - LLM Codebase Understanding & Hierarchy]] - The technical implementation: Using RIG/AST to force token alignment with architecture.
 
 ## 🛠️ Core Engineering Concepts
+
 ## 🛠️ Core Engineering Concepts
 
 ### 1. The Cognitive Bridge
@@ -60,7 +61,7 @@ The fundamental category error of treating a probabilistic token-prediction engi
 - [[SoT - LLM Semantic-Statistical Mismatch]]—The epistemological foundation.
 - [[SoT - Human vs AI Cognition]]—Why the trap is so hard to resist even for experts: the Eliza Effect, the Language-Intelligence Link, and the Symbol Grounding Problem that separates human grounded cognition from LLM distributional semantics.
 
-> **Tension, not resolved:** [[MOC - Agentic AI & LLM Agents]] routinely uses role/autonomy language ("the agent decides," "escalates ambiguous decisions," "the Architect enforces") for architectural convenience—see especially [[SoT - Agentic Roles]]. That framing is functional shorthand for a state machine and its control flow, not a claim that the underlying model exercises judgment. The two MOCs are not in conflict, but a reader moving between them should not mistake the Agentic MOC's operational vocabulary for a retraction of this section.
+> Tension, not resolved: [[MOC - Agentic AI & LLM Agents]] routinely uses role/autonomy language ("the agent decides," "escalates ambiguous decisions," "the Architect enforces") for architectural convenience—see especially [[SoT - Agentic Roles]]. That framing is functional shorthand for a state machine and its control flow, not a claim that the underlying model exercises judgment. The two MOCs are not in conflict, but a reader moving between them should not mistake the Agentic MOC's operational vocabulary for a retraction of this section.
 
 ### 6. Flow Engineering
 

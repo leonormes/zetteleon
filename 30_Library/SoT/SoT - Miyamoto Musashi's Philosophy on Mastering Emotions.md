@@ -1,18 +1,10 @@
 ---
-aliases: ["Musashi's Emotional Mastery", "Heihō and Emotion", "Heijo-shin", "The Void and Emotion"]
+aliases: ["Heihō and Emotion", "Heijo-shin", "Musashi's Emotional Mastery", "The Void and Emotion"]
 conformant: true
-prodos:
-  kind: sot
-  lifecycle: stable
 created: 2025-09-07T15:32:45+00:00
-modified: 2026-09-02T14:53:06.986962+00:00
+modified: 2026-09-14T11:52:46+00:00
 permalink: llmeon/30-library/so-t/so-t-miyamoto-musashis-philosophy-on-mastering-emotions
-tags:
-  - emotional_regulation
-  - musashi
-  - stoicism
-  - strategy
-  - TheHuman/Philosophy
+tags: [emotional_regulation, musashi, stoicism, strategy, TheHuman/Philosophy]
 title: "SoT - Miyamoto Musashi's Philosophy on Mastering Emotions"
 type: sot
 ---
@@ -79,7 +71,7 @@ Musashi famously used his opponent's emotions against them (e.g., arriving late 
 
 ## 5. Related Zettels
 
-- [[Understanding Emotion]] [depends_on:: [[Understanding Emotion]]] - *Provides the foundational view of emotion as a vector.*
-- [[Ownership of Emotions]] [depends_on:: [[Ownership of Emotions]]] - *Requires taking complete responsibility for the internal state.*
-- [[The 'Do' (Path) Concept]] [synthesizes:: [[The 'Do' (Path) Concept]]] - *Frames the pursuit of this state as a continuous, lifelong path.*
-- [[Achieving Mental Stability]] [synthesizes:: [[Achieving Mental Stability]]] - *Mental stability comes from aligning reality with expectations, a core component of the Void.*
+- [[Understanding Emotion]] [depends_on:: [[Understanding Emotion]]] - _Provides the foundational view of emotion as a vector._
+- [[Ownership of Emotions]] [depends_on:: [[Ownership of Emotions]]] - _Requires taking complete responsibility for the internal state._
+- [[The 'Do' (Path) Concept]] [synthesizes:: [[The 'Do' (Path) Concept]]] - _Frames the pursuit of this state as a continuous, lifelong path._
+- [[Achieving Mental Stability]] [synthesizes:: [[Achieving Mental Stability]]] - _Mental stability comes from aligning reality with expectations, a core component of the Void._

@@ -1,6 +1,6 @@
 ---
 created: 2026-05-26T14:24:37+00:00
-modified: 2026-08-29T09:36:10+00:00
+modified: 2026-09-14T11:52:15+00:00
 permalink: llmeon/30-library/200-projects/azure-backup-and-restore-runbook
 project_category: refined_deployment
 project_name: Refined Deployment
@@ -22,8 +22,8 @@ Status: ✅ Verified—end-to-end backup and restore validated on `sandbox-testi
 ---
 
 ## Overview
-> Series: [[FTFL-596 Configure Azure Backups]] → [[Azure Backup for AKS]] (POC build) → tested runbook (this note) → [[AKS Backup Extension — Architecture, Permissions & Private ZRS Backup IaC]] (production IaC/architecture).
 
+> Series: [[FTFL-596 Configure Azure Backups]] → [[Azure Backup for AKS]] (POC build) → tested runbook (this note) → [[AKS Backup Extension — Architecture, Permissions & Private ZRS Backup IaC]] (production IaC/architecture).
 
 This page documents the runbook for restoring Kubernetes PVC data from an Azure Backup. It covers the infrastructure layout, required RBAC roles, the CLI command sequence for configuring backup protection, and how to trigger and validate a restore.
 

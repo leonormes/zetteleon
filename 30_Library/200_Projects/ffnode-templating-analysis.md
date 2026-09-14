@@ -3,35 +3,14 @@ branch: feature/FTFL-673-grafana-alloy-upgrade
 created: 2026-06-06T00:00:00+00:00
 kind: project-note
 lifecycle: active
-modified: 2026-08-29T09:36:25+00:00
+modified: 2026-09-14T11:52:28+00:00
 mr: '!787'
 permalink: llmeon/30-library/200-projects/ffnode-templating-analysis
 project_category: refined_deployment
 project_name: Refined Deployment
 project_status: active
-related:
-- '[[ffnode-templating-analysis]]'
-- '[[Grafana k8s-monitoring - Cardinality & Label Strategy (testing)]]'
-- '[[grafana_alloy_audit_report]]'
-tags:
-- 1
-- 2
-- 3
-- complexity
-- developer-experience
-- faro
-- ffnode
-- FTFL-673
-- grafana-alloy
-- helm
-- kubernetes
-- metrics
-- multi-cluster
-- observability
-- scaling
-- seedling
-- templating
-- work
+related: ["[[ffnode-templating-analysis]]", "[[Grafana k8s-monitoring - Cardinality & Label Strategy (testing)]]", "[[grafana_alloy_audit_report]]"]
+tags: [1, 2, 3, complexity, developer-experience, faro, ffnode, FTFL-673, grafana-alloy, helm, kubernetes, metrics, multi-cluster, observability, scaling, seedling, templating, work]
 ticket: FTFL-673
 title: ffnode-templating-analysis
 type: null

@@ -2,9 +2,9 @@
 aliases: ["Bergson's Principle", Action-Oriented Thinking, MVA]
 conformant: true
 created: 2025-12-07T00:00:00+00:00
-modified: 2026-09-04T12:00:00+00:00
+modified: 2026-09-14T11:52:54+00:00
 permalink: llmeon/30-library/so-t/so-t-think-like-a-man-of-action-act-like-a-man-of-thought
-tags: [action, thinking, topic/productivity, TheHuman/Health/ADHD]
+tags: [action, TheHuman/Health/ADHD, thinking, topic/productivity]
 tier: 1-Foundation
 title: SoT - Think Like a Man of Action, Act Like a Man of Thought
 type: sot
@@ -68,7 +68,6 @@ Real-world data beats theoretical models.
 [depends_on:: [[SoT - Temporal Management (Blocking and Boxing)]], confidence=medium]
 
 - [[SoT - Temporal Management (Blocking and Boxing)]]—Protocol C's "15 minutes to Plan → 5 minutes to Do" containers are a specific application of that SoT's general timeboxing principles.
-
 - [[SoT - The Nature of Time and Perception]] (The "Starting Gun" Myth)
 - [[Protocol - Action-First GTD (LLM Chief of Staff)]]
 - [[SoT - Indistractable Model (Focus Management)]]

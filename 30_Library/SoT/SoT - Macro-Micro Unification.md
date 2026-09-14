@@ -2,7 +2,7 @@
 aliases: [Grand Unifying Theory of Code, Macro-Micro Gap, The Physics Metaphor]
 conformant: false
 created: 2026-01-30T07:45:00+00:00
-modified: 2026-08-29T09:36:39+00:00
+modified: 2026-09-14T11:52:46+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-macro-micro-unification
 tags: [cognitive-science, mental-model, software-architecture, system-design]
@@ -45,4 +45,4 @@ We cannot "train" our way out of this cognitive limit. We must engineer the brid
 
 See Also: [[SoT - Parochial Code]], [[SoT - Context Rot]], [[Cognitive Load Theory]]
 
-> Unresolved reference: `[[Cognitive Load Theory]]` has no matching note. The existing [[Cognitive Load]] note is a different (ADHD/personal-productivity) domain and is not a correct redirect — left unresolved pending a decision on whether a software-engineering-specific Cognitive Load Theory note should be authored.
+> Unresolved reference: `[[Cognitive Load Theory]]` has no matching note. The existing [[Cognitive Load]] note is a different (ADHD/personal-productivity) domain and is not a correct redirect—left unresolved pending a decision on whether a software-engineering-specific Cognitive Load Theory note should be authored.

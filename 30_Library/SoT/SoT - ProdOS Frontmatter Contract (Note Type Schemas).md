@@ -2,7 +2,7 @@
 aliases: [Frontmatter Contract, FrontmatterContract, Note Type Schemas, TAC Frontmatter Schema]
 allowlist_decision: "Option C — Documented allowlist. Legacy set frozen. New files must pass 0 errors. allowlist maintained in this file's frontmatter at `non_conformant_allowlist`."
 created: 2026-07-17T00:00:00+00:00
-modified: 2026-08-29T09:36:41+00:00
+modified: 2026-09-14T11:52:49+00:00
 permalink: llmeon/30-library/so-t/so-t-prodos-frontmatter-contract-note-type-schemas
 see_also: ["[[Goal - Frontmatter Bulk Migration (Phase 3)]]", "[[Protocol - Typed Answer Contract (TAC) for Vault Agents]]", "[[SoT - PRODOS Core Specification]]", "[[SoT - Typed Answer Contract (TAC) for LLM Output]]"]
 supersedes: ["[[SoT - Typed Answer Contract (TAC) for LLM Output]]"]
@@ -190,10 +190,10 @@ The canonical validator is `10_System/scripts/validate_note_frontmatter.py`, run
 uv run --with pyyaml python3 10_System/scripts/validate_note_frontmatter.py --audit
 ```
 
-Status (updated 2026-09-14): the script exists and is runnable — checks §2's required fields, `tags`/`conformant` typing, the conditional `non_conformance_reason`, the `type` enum, `prodos.kind`/`prodos.lifecycle` enum membership, and §3's type-specific schema fields when `conformant: true`. It landed at `10_System/scripts/validate_note_frontmatter.py`, not the `gemini-scribe/scripts/` path this section originally named — that path was aspirational and never existed; update any other note or prompt still citing `gemini-scribe/scripts/validate_note_frontmatter.py`. Not yet extended with a regression-case mode the way `edge_lint.py --regress` was (see `10_System/evals/README.md`) — a reasonable next step, not done here.
+Status (updated 2026-09-14): the script exists and is runnable—checks §2's required fields, `tags`/`conformant` typing, the conditional `non_conformance_reason`, the `type` enum, `prodos.kind`/`prodos.lifecycle` enum membership, and §3's type-specific schema fields when `conformant: true`. It landed at `10_System/scripts/validate_note_frontmatter.py`, not the `gemini-scribe/scripts/` path this section originally named—that path was aspirational and never existed; update any other note or prompt still citing `gemini-scribe/scripts/validate_note_frontmatter.py`. Not yet extended with a regression-case mode the way `edge_lint.py --regress` was (see `10_System/evals/README.md`)—a reasonable next step, not done here.
 
 ## Tensions & Gaps
 
-- ~~Validator doesn't exist yet.~~ Resolved 2026-09-14 — `10_System/scripts/validate_note_frontmatter.py` exists and is runnable; see §9. Conformance can now be machine-checked (`--audit`), though nothing currently runs it automatically on a commit or schedule.
+- ~~Validator doesn't exist yet.~~ Resolved 2026-09-14—`10_System/scripts/validate_note_frontmatter.py` exists and is runnable; see §9. Conformance can now be machine-checked (`--audit`), though nothing currently runs it automatically on a commit or schedule.
 - Two parallel schemas in flight. Notes may carry either the flatter legacy schema (`type`, `conformant`, `non_conformance_reason` at top level) or the modern `prodos:` nested object—§6 exists precisely because both are live simultaneously during the migration. Don't assume one schema is universal until migration is complete.
 - `type` enum collision with routing `prodos.kind`. §6's `map` → `prodos.kind: moc` mapping is a reminder that the top-level `type` field and `prodos.kind` are not always the same string—read both before assuming a note's category.

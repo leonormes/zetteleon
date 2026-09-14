@@ -2,7 +2,7 @@
 aliases: [10 Rules for Life, Peaceful Productivity]
 conformant: true
 created: 2025-12-21T00:00:00+00:00
-modified: 2026-09-06T17:56:00+00:00
+modified: 2026-09-14T11:52:48+00:00
 permalink: llmeon/30-library/so-t/so-t-principles-for-peaceful-productivity
 see_also: ["[[MOC - Action Management]]", "[[SoT - Behavioral Architecture]]", "[[SoT - Indistractable Model (Focus Management)]]"]
 status: stable
@@ -53,7 +53,7 @@ Protect mental energy by refusing to engage with individuals who prioritise winn
 
 [contradicts:: [[Dismissing People Who Disagree Costs You Your Best Error-Detectors]], strength=3, confidence=medium]
 
-- [[Constructive Debate in Psychological Safety]]—the complementary case this principle carves out an exception from: that note describes how to engage well in *good-faith* disagreement (challenge ideas, not people); this principle is specifically about recognising when an argument has left that territory and disengaging is the correct move, not a failure of the constructive-debate discipline.
+- [[Constructive Debate in Psychological Safety]]—the complementary case this principle carves out an exception from: that note describes how to engage well in _good-faith_ disagreement (challenge ideas, not people); this principle is specifically about recognising when an argument has left that territory and disengaging is the correct move, not a failure of the constructive-debate discipline.
 
 <!--content-block-end-->
 

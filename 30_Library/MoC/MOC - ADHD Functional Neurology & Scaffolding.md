@@ -2,11 +2,11 @@
 aliases: [ADHD Neurology Index, Functional Neurology MOC]
 conformant: true
 created: 2026-04-08T00:00:00+00:00
-modified: 2026-09-03T11:53:00+00:00
+modified: 2026-09-14T11:52:33+00:00
 permalink: llmeon/30-library/mo-c/moc-adhd-functional-neurology-scaffolding
 prodos.kind: moc
 prodos.lifecycle: active
-tags: [moc, neurology, neuroscience, triage, TheHuman/Health/ADHD]
+tags: [moc, neurology, neuroscience, TheHuman/Health/ADHD, triage]
 title: MOC - ADHD Functional Neurology & Scaffolding
 type: map
 ---

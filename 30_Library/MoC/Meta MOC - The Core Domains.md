@@ -3,7 +3,7 @@ aliases: [Meta Map of Content, My Thinking Landscape, The Core Domains]
 created: 2025-12-16T09:45:00+00:00
 description: A high-level Meta MOC categorizing the primary domains of thought and
   Sources of Truth (SoT) within the vault.
-modified: 2026-08-29T09:36:32+00:00
+modified: 2026-09-14T11:52:36+00:00
 permalink: llmeon/30-library/mo-c/meta-moc-the-core-domains
 see_also: []
 superseded_by: ''
@@ -43,6 +43,7 @@ _Understanding the ADHD Operating System and the mechanics of focus._
 ---
 
 ## 4. Domain 3: The Unified Paradigm (The Trade & Craft)
+
 ## 4. Domain 3: The Unified Paradigm (The Trade & Craft)
 
 _The synthesis of Logic (Type Theory) and Physics (Data-Oriented Design)._
@@ -57,11 +58,12 @@ _The synthesis of Logic (Type Theory) and Physics (Data-Oriented Design)._
 
 ## 4b. Domain 3b: Agentic AI & LLM Agents
 
-_How autonomous, tool-using LLM systems are designed, orchestrated, made safe, and made economical — distinct from the codebase-understanding problem below._
+_How autonomous, tool-using LLM systems are designed, orchestrated, made safe, and made economical—distinct from the codebase-understanding problem below._
 
 - Master Entry Point: [[MOC - Agentic AI & LLM Agents]]
 - Neighbouring Domain (LLM-in-coding): [[MOC - AI Software Engineering]]
 - The Pattern Catalogue: [[SoT - Agentic AI Design Patterns]]
+
 ## 5. Domain 4: Foundations & The Search for Order
 
 _Mathematics as the study of patterns and Philosophy as the study of meaning._

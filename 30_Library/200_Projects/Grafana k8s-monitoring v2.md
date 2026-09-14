@@ -2,7 +2,7 @@
 chart: k8s-monitoring 4.1.3 (alloy 1.8.1, Alloy app v1.16.1)
 cluster: testing
 created: 2026-06-04T00:00:00+00:00
-modified: 2026-08-29T09:36:16+00:00
+modified: 2026-09-14T11:52:21+00:00
 permalink: llmeon/30-library/200-projects/grafana-k8s-monitoring-v2
 project_category: refined_deployment
 project_name: Refined Deployment
@@ -10,28 +10,16 @@ project_status: archived
 source: owl-audit-agent — consolidated from 4 audit drafts + Loki labels reference + Prometheus/Alloy Reference
 stack: fitfiletest (Grafana Cloud, prometheus-prod-05-gb-south-0)
 superseded_by: '[[Grafana k8s-monitoring - Cardinality & Label Strategy (testing)]]'
-tags:
-- adaptive-metrics
-- alloy
-- audit
-- cardinality
-- grafana
-- kubernetes
-- labels
-- loki
-- monitoring
-- seedling
-- structured-metadata
-- testing-cluster
+tags: [adaptive-metrics, alloy, audit, cardinality, grafana, kubernetes, labels, loki, monitoring, seedling, structured-metadata, testing-cluster]
 ticket: FTFL-638
 title: Grafana k8s-monitoring v2
 type: infra-audit
 ---
 
 ## Grafana k8s-monitoring—Cardinality & Label Strategy (Testing cLuster)
-> [!warning] Superseded
-> This is a corrupted/truncated re-export of the same audit (markdown mangled throughout, cuts off mid-sentence in "Current Config"). Use [[Grafana k8s-monitoring - Cardinality & Label Strategy (testing)]] instead — that copy is complete and correctly formatted. Recommend deleting this file once you've confirmed nothing else references it.
 
+> [!warning] Superseded
+> This is a corrupted/truncated re-export of the same audit (markdown mangled throughout, cuts off mid-sentence in "Current Config"). Use [[Grafana k8s-monitoring - Cardinality & Label Strategy (testing)]] instead—that copy is complete and correctly formatted. Recommend deleting this file once you've confirmed nothing else references it.
 
 > [!note] Consolidation provenance
 > Merged from four overlapping audit drafts of the `testing` cluster (all 2026-06-04) plus the Loki _Labels vs Structured Metadata_ reference. Canonical figures are taken from the three consistent drafts; one outlier draft is set aside—see [[#Data reconciliation note]]. All actions are robust to that discrepancy: only the _size_ of the saving is uncertain, not the fixes themselves.

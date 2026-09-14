@@ -1,6 +1,6 @@
 ---
 created: 2026-07-16T09:49:11+00:00
-modified: 2026-08-29T09:36:09+00:00
+modified: 2026-09-14T11:52:14+00:00
 permalink: llmeon/30-library/200-projects/aks-backup-extension-architecture-permissions-and-private-zrs-backup-iac
 project_category: refined_deployment
 project_name: Refined Deployment
@@ -12,8 +12,8 @@ type: note
 ## AKS Backup Extension—Architecture, Permissions & Private ZRS Backup IaC
 
 ### Overview
-> Series: [[FTFL-596 Configure Azure Backups]] → [[Azure Backup for AKS]] (POC build) → [[Azure Backup and Restore Runbook]] (tested runbook) → production IaC/architecture (this note).
 
+> Series: [[FTFL-596 Configure Azure Backups]] → [[Azure Backup for AKS]] (POC build) → [[Azure Backup and Restore Runbook]] (tested runbook) → production IaC/architecture (this note).
 
 The AKS backup extension is Microsoft's Azure Backup for AKS integration—a Kubernetes-side extension (`azure-aks-backup`, extension type `Microsoft.DataProtection.Kubernetes`) that connects an AKS cluster to an Azure Data Protection Backup Vault, snapshotting cluster-scope resources and PVC volumes on a schedule and writing the vault-store copy to a hardened, privately-networked, ZRS-replicated blob storage account. FITFILE's implementation was first proven manually via Azure CLI on the sandbox cluster `aks-ff-uks-gp-1`, then productionized into the shared Terraform registry module `FITFILE-Platforms/aks-backup/azure` (from `[Editor Content]` capture, "Azure Backup and Restore Runbook"—no URL captured, Obsidian local note).
 

@@ -3,7 +3,7 @@ cluster: fitfile-cloud-testing-aks-cluster
 created: 2026-05-28T13:38:16+00:00
 date: 2026-05-28
 jira: FTFL-638
-modified: 2026-08-29T09:36:14+00:00
+modified: 2026-09-14T11:52:19+00:00
 permalink: llmeon/30-library/200-projects/ftfl-638-grafana-monitoring-fix-testing-cluster
 project_category: refined_deployment
 project_name: Refined Deployment
@@ -17,8 +17,8 @@ type: null
 ## FTFL-638—Missing Grafana Monitoring in Testing Cluster
 
 ### Summary
-> Related: continues from an earlier session (12 May) that fixed the first four root causes (Prometheus endpoint, `labelsToKeep` regression, schema mismatch, broken `job` relabel) — see [[Missing Grafana Monitoring in Testing Cluster]]. This session (28 May) found five further root causes and completed the v3.7.5→v4.1.3 chart migration.
 
+> Related: continues from an earlier session (12 May) that fixed the first four root causes (Prometheus endpoint, `labelsToKeep` regression, schema mismatch, broken `job` relabel)—see [[Missing Grafana Monitoring in Testing Cluster]]. This session (28 May) found five further root causes and completed the v3.7.5→v4.1.3 chart migration.
 
 Full investigation and resolution of monitoring stack failures in the testing AKS cluster. The session covered five distinct root causes, a full chart migration from v3.7.5 to v4.1.3, and a staging cluster bug discovered as a side effect.
 

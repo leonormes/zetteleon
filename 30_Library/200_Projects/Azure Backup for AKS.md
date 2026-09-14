@@ -1,6 +1,6 @@
 ---
 created: 2026-04-30T07:33:45+00:00
-modified: 2026-08-29T09:36:10+00:00
+modified: 2026-09-14T11:52:16+00:00
 permalink: llmeon/30-library/200-projects/azure-backup-for-aks
 project_category: refined_deployment
 project_name: Refined Deployment
@@ -31,8 +31,8 @@ you built a private Azure Backup for AKS path for `aks-ff-uks-gp-1`, proved it w
 ---
 
 ## The Final Architecture, in Plain English
-> Series: scoped from [[FTFL-596 Configure Azure Backups]] → POC build-out (this note) → [[Azure Backup and Restore Runbook]] (tested runbook) → [[AKS Backup Extension — Architecture, Permissions & Private ZRS Backup IaC]] (production IaC/architecture).
 
+> Series: scoped from [[FTFL-596 Configure Azure Backups]] → POC build-out (this note) → [[Azure Backup and Restore Runbook]] (tested runbook) → [[AKS Backup Extension — Architecture, Permissions & Private ZRS Backup IaC]] (production IaC/architecture).
 
 ### 1. A Hardened Storage Target
 
