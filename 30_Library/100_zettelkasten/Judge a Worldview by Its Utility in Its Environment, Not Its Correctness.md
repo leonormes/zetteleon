@@ -9,8 +9,7 @@ tags:
 conformant: true
 prodos.kind: atomic
 prodos.lifecycle: seed
-proposition: Rather than asking if a person's worldview is factually correct, evaluating
-  how that worldview serves them in their specific environment explains why it persists.
+proposition: Rather than asking if a person's worldview is factually correct, evaluating how that worldview serves them in their specific environment explains why it persists.
 epistemic_status: high
 contradicts: []
 permalink: llmeon/30-library/100-zettelkasten/judge-a-worldview-by-its-utility-in-its-environment-not-its-correctness

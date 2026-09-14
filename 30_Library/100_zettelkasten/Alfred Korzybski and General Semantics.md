@@ -4,7 +4,7 @@ axiom: true
 conformant: true
 created: 2025-09-11T21:37:21+00:00
 epistemic_status: high
-modified: 2026-07-10T23:18:00+01:00
+modified: 2026-09-14T11:35:45+00:00
 permalink: llmeon/30-library/100-zettelkasten/alfred-korzybski-and-general-semantics
 prodos.kind: atomic
 prodos.lifecycle: stable

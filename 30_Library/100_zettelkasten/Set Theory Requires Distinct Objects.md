@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-08-30T09:00:44+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-10T00:00:00+00:00
+modified: 2026-09-14T11:35:54+00:00
 permalink: llmeon/30-library/100-zettelkasten/set-theory-requires-distinct-objects
 proposition: "Axiomatic set theory formalises the intuition that mathematical objects must be distinguishable from one another, making distinctness the foundational axiom from which the structure of number is built."
 tags: [foundations, set-theory, topic/maths]
@@ -36,5 +36,4 @@ Links: [[Discreteness as a Precondition for Counting]], [[MOC - What is Maths|Th
 [depends_on:: [[Russell's Paradox in Naive Set Theory]], strength=3, confidence=medium]
 
 - [[Russell's Paradox in Naive Set Theory]]—_the historical reason this had to become an explicit axiom rather than an unstated assumption: naive, unrestricted set comprehension proved contradictory, forcing the axiomatic rigor this note describes._
-
 - [[Arithmetic (Definition)]]—_downstream consequence: arithmetic's natural numbers emerge from exactly this discrete, distinguishable sequence of counting._

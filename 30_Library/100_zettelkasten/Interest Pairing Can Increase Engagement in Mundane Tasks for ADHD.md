@@ -3,7 +3,7 @@ aliases: []
 conformant: false
 created: 2025-10-30T12:00:01+00:00
 last_reviewed: '2025-12-16'
-modified: 2026-09-10T00:00:00+00:00
+modified: 2026-09-14T11:35:50+00:00
 non_conformance_reason: "type: hypothesis is not in the FrontmatterContract §2 enum (claim/concept/evidence/question/procedure/protocol/map/journal/project/sot). This note is an unresolved personal experiment (If/Then/Because + protocol + pending Results Log) — forcing it into `claim` would misrepresent its pending-verification status. Left as-is pending a human decision, matching the same non-conformance already accepted on [[Body Doubling for ADHD Focus]]."
 permalink: llmeon/30-library/100-zettelkasten/interest-pairing-can-increase-engagement-in-mundane-tasks-for-adhd
 source: '[[MOC - ADHD Experiments & Protocols]]'
@@ -58,8 +58,8 @@ This technique leverages the interest-driven nature of the ADHD brain to boost m
 ## Related
 
 - [[The ADHD brain operates on an Interest-Based Nervous System]]—the general INCUP mechanism (Interest is one of the five "ignition keys"); this experiment applies the Interest key specifically by borrowing it from an unrelated stimulus rather than finding it in the task itself.
-- [[Dopamine Management in ADHD Productivity]]—the sibling tactic, "The Dopamine Sandwich," sequences a reward before/after the task; Interest Pairing instead runs the stimulus *concurrently* with the task, a distinct variant of the same core principle.
+- [[Dopamine Management in ADHD Productivity]]—the sibling tactic, "The Dopamine Sandwich," sequences a reward before/after the task; Interest Pairing instead runs the stimulus _concurrently_ with the task, a distinct variant of the same core principle.
 - [[Limbic Friction is the Activation Energy for Habits]]—supplies the vault's general term for the "activation energy" this hypothesis's own Because-clause invokes.
-- [[Finding Your Right Difficult A Strategy for ADHD Engagement]]—adjacent strategy: shaping the *task* to be stimulating, rather than pairing it with an external stimulus.
-- [[Novelty Effect]]—a caution rather than a support: this experiment leans on sustained *Interest* (a stable podcast/audiobook draw), not *Novelty* (which reliably wanes); worth distinguishing if the effect fades after the 1-week trial.
+- [[Finding Your Right Difficult A Strategy for ADHD Engagement]]—adjacent strategy: shaping the _task_ to be stimulating, rather than pairing it with an external stimulus.
+- [[Novelty Effect]]—a caution rather than a support: this experiment leans on sustained _Interest_ (a stable podcast/audiobook draw), not _Novelty_ (which reliably wanes); worth distinguishing if the effect fades after the 1-week trial.
 - [[MOC - ADHD Experiments & Protocols]]—the experiment-lifecycle hub this note belongs to (`Hypothesis → Experiment → Validation/Rejection`); it is picked up automatically by that MOC's Dataview query on `#hypothesis` + `status: pending`, but is linked here explicitly too. This also repairs the frontmatter `source:` field, which pointed at a non-existent "MOC - ADHD Task Management"—flagged as a best-fit repair (topical and lifecycle match), not a confirmed rename.

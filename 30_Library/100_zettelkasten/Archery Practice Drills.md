@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-22T00:00:00+00:00
-modified: 2026-09-10T11:38:00+01:00
+modified: 2026-09-14T11:35:45+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-practice-drills
 tags: [archery, practice, prodos/atomic, training]
 title: Archery Practice Drills
@@ -146,11 +146,11 @@ _Note on the Role of Feelings:_ Only use kinesthetic drills to expose yourself t
 #### 8. Data-Driven Progress Tracking
 
 - The Goal: Erase emotional bias regarding your skill level and replace it with mathematical facts, shifting the focus from scoring to grouping diameter and physical execution.
-- **Completion Ratio Check:** Take warm-up shots, then score and record specific shots (e.g., shots 10 through 15) multiple times a week. Define a strict circle size (e.g., 4 inches) at a set distance and calculate your exact completion ratio (e.g., 6/10 vs 9/10).
-- **Use a Target Plotting App:** Digitize your target face using an archery scoring app (*ExpertArcher*, *MyTargets*, or *Artemis*). Tapping exactly where your arrows landed automatically calculates the mathematical center of your group and your overall grouping diameter, providing hard data without relying on points.
-- **Maintain a Photo Log:** If you prefer not to use an app, take a quick photo of the target face before pulling arrows. Reviewing these later removes the emotional memory of the score and leaves the visual reality of the cluster.
-- **Track an "Execution Score":** In a small notebook, rate your physical execution out of 10 for each end (e.g., focusing on maintaining an immovable bow arm or brushing your release hand straight back). As this execution score rises, your grouping will naturally shrink as a byproduct.
-- **Keep a Shooting Journal:** Maintain a short log to note exactly what your body felt like on your tightest groups versus your scattered ones.
+- Completion Ratio Check: Take warm-up shots, then score and record specific shots (e.g., shots 10 through 15) multiple times a week. Define a strict circle size (e.g., 4 inches) at a set distance and calculate your exact completion ratio (e.g., 6/10 vs 9/10).
+- Use a Target Plotting App: Digitize your target face using an archery scoring app (_ExpertArcher_, _MyTargets_, or _Artemis_). Tapping exactly where your arrows landed automatically calculates the mathematical center of your group and your overall grouping diameter, providing hard data without relying on points.
+- Maintain a Photo Log: If you prefer not to use an app, take a quick photo of the target face before pulling arrows. Reviewing these later removes the emotional memory of the score and leaves the visual reality of the cluster.
+- Track an "Execution Score": In a small notebook, rate your physical execution out of 10 for each end (e.g., focusing on maintaining an immovable bow arm or brushing your release hand straight back). As this execution score rises, your grouping will naturally shrink as a byproduct.
+- Keep a Shooting Journal: Maintain a short log to note exactly what your body felt like on your tightest groups versus your scattered ones.
 
 #### 9. Resistance Band Over-Loading
 

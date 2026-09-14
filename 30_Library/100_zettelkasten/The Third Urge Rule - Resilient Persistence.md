@@ -2,7 +2,7 @@
 aliases: [Resilient Persistence, The Urge to Quit Protocol]
 created: 2025-12-24T12:00:00+00:00
 last_reviewed: 2025-12-24
-modified: 2026-09-09T12:34:18+00:00
+modified: 2026-09-14T11:35:56+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-third-urge-rule-resilient-persistence
 status: stable
 tags: [adhd-friendly, grit, protocol, resilience]
@@ -26,4 +26,4 @@ When you feel the urge to quit or switch tasks:
 - Bypassing the Amygdala: By the third urge, you have moved from a reactive state to a deliberate choice.
 - Building Tolerance: It builds "grit" without the psychological damage of rigid self-coercion.
 - Data Gathering: It allows you to distinguish between "temporary friction" and "genuine exhaustion."
-- Links: [[SoT - The Interest-Based Nervous System in ADHD]]—*was a dangling reference to a hub that never existed; repointed to the note's real, current SoT title (reclassified from `claim` 2026-09-10).*
+- Links: [[SoT - The Interest-Based Nervous System in ADHD]]—_was a dangling reference to a hub that never existed; repointed to the note's real, current SoT title (reclassified from `claim` 2026-09-10)._

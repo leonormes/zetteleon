@@ -1,0 +1,41 @@
+---
+title: Holland's RIASEC Model Frames Interests as Environmental Patterns, Not Isolated Preferences
+type: concept
+status: seed
+prodos:
+  kind: atomic
+  atomic:
+    form: definition
+source_title: "What Drives a Person's Interests? Why Do Some People Love Maths and Logic and Others Not? Why Do Interests Come in Related Bundles?"
+source_url: https://www.blackwellpublishing.com/content/personalityandindividualdifferences/9781405130080_4_012.pdf
+created_utc: '2026-09-14T00:00:00Z'
+confidence: high
+tags:
+- theory/holland-riasec
+- topic/vocational-psychology
+- TheHuman/Psychology
+- topic/interest-formation
+upstream: '[[tmp_atoms_what-drives-a-persons-interests]]'
+conformant: true
+permalink: llmeon/30-library/100-zettelkasten/hollands-riasec-model-frames-interests-as-environmental-patterns-not-isolated-preferences
+---
+
+### Holland's RIASEC Model Frames Interests as Environmental Patterns, Not Isolated Preferences
+
+Holland's vocational-interest framework (RIASEC) represents interests as recurring patterns of fit across six environment types — realistic, investigative, artistic, social, enterprising, and conventional — rather than as a list of isolated individual preferences.
+
+#### Scope & Conditions
+
+A longstanding vocational-psychology model, cited here as a precedent for treating interest clusters as patterned rather than atomised.
+
+#### Evidence
+
+> "Holland's vocational-interest framework is one longstanding example of this idea: it represents interests as recurring patterns across realistic, investigative, artistic, social, enterprising, and conventional environments, rather than as isolated preferences."
+
+#### Implications
+
+- Supports treating an "interest graph" (plural, patterned) as the right unit of analysis rather than auditing each named interest in isolation.
+
+#### Related
+
+- [[MOC - Divergent Thinking vs Specialization]]—shared mechanism: both frame breadth across domains as a coherent pattern rather than a collection of unrelated preferences.

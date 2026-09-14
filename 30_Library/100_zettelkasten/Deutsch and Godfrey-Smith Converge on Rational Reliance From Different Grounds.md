@@ -18,11 +18,7 @@ tags:
 - tension
 title: Deutsch and Godfrey-Smith Converge on Rational Reliance From Different Grounds
 type: claim
-proposition: Facing the same "why is it rational to rely on a well-tested theory"
-  dilemma that motivates Godfrey-Smith's confirmation objection, Deutsch argues we
-  are justified in relying on a well-tested theory not because past observations confirmed
-  it, but because it is the only rationally tenable explanation left once bad or unexplained
-  alternatives are ruled out.
+proposition: Facing the same "why is it rational to rely on a well-tested theory" dilemma that motivates Godfrey-Smith's confirmation objection, Deutsch argues we are justified in relying on a well-tested theory not because past observations confirmed it, but because it is the only rationally tenable explanation left once bad or unexplained alternatives are ruled out.
 permalink: llmeon/00-inbox/deutsch-and-godfrey-smith-converge-on-rational-reliance-from-different-grounds
 ---
 

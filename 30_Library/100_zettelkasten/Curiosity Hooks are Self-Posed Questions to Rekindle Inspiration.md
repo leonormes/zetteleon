@@ -4,12 +4,12 @@ axiom: true
 conformant: true
 created: 2025-11-11T19:05:11+00:00
 epistemic_status: high
-modified: 2026-09-09T12:34:10+00:00
+modified: 2026-09-14T11:35:47+00:00
 permalink: llmeon/30-library/100-zettelkasten/curiosity-hooks-are-self-posed-questions-to-rekindle-inspiration
 prodos.kind: atomic
 prodos.lifecycle: stable
 proposition: Leaving self-posed questions and interesting problems (curiosity hooks) for your future self successfully bypasses task-initiation friction by triggering the interest-based nervous system upon return.
-tags: [task-initiation, TheHuman/Creativity, TheHuman/Motivation, topic/productivity, TheHuman/Health/ADHD]
+tags: [task-initiation, TheHuman/Creativity, TheHuman/Health/ADHD, TheHuman/Motivation, topic/productivity]
 title: Curiosity Hooks are Self-Posed Questions to Rekindle Inspiration
 type: claim
 ---

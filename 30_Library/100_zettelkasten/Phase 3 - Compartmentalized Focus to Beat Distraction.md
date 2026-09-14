@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-20T09:33:00+00:00
 last_reviewed: 'null'
-modified: 2026-07-10T12:22:00+01:00
+modified: 2026-09-14T11:35:52+00:00
 permalink: llmeon/30-library/100-zettelkasten/phase-3-compartmentalized-focus-to-beat-distraction
 status: 'null'
 tags: [deep_work, focus, project/personal/prodos, topic/productivity]

@@ -22,7 +22,7 @@ Filter the Fluff The interview is relatively dense but contains typical conversa
 
 (<https://www.google.com/search?q=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DmurPOSalbfQ%26t%3D56>)
 
-the misery of 19th-century dentistry
+The misery of 19th-century dentistry
 
 \], and the specific reception of the speaker's past books by reviewers are discarded. Tangential historical hypotheticals and speculative current event commentary regarding Donald Trump or the Strait of Hormuz \[
 

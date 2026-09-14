@@ -6,7 +6,7 @@ created: 2025-10-20T09:45:00+00:00
 epistemic_status: medium
 evidence_links: []
 last_reviewed: 'null'
-modified: 2026-09-10T09:19:43+00:00
+modified: 2026-09-14T11:35:51+00:00
 permalink: llmeon/30-library/100-zettelkasten/making-knowledge-personal-through-voice
 proposition: "Writing PKM notes in a personal, first-person, authentic voice — rather than a formal academic register — makes knowledge more accessible, engaging, and genuinely one's own, because it captures the questions and emotional context of the thinking process rather than only its conclusions."
 status: 'null'
@@ -35,7 +35,7 @@ By making your notes personal, you transform a sterile database of facts into a 
 ## Related
 
 - [[MOC - PKM as Process vs Product]]—the canonical hub; names this note explicitly as "The Method" for making the process-over-product approach effective.
-- [[Writing in Own Words Distinguishes Comprehension from the Illusion of Knowledge]]—a related but distinct function of personal language: that note's "own words" is a *comprehension diagnostic* (can you paraphrase it?); this note's "own voice" is an *ownership and engagement* register (does it sound like you, feelings and all?). The two often co-occur but answer different questions.
+- [[Writing in Own Words Distinguishes Comprehension from the Illusion of Knowledge]]—a related but distinct function of personal language: that note's "own words" is a _comprehension diagnostic_ (can you paraphrase it?); this note's "own voice" is an _ownership and engagement_ register (does it sound like you, feelings and all?). The two often co-occur but answer different questions.
 - [[Writing puts us in the powerful position of being able to observe our thinking]]—the metacognitive-observation function of writing, sibling to this note's authenticity function under the same [[SoT - The Unified Writing to Think Process|writing-to-think]] paradigm.
 
 ---

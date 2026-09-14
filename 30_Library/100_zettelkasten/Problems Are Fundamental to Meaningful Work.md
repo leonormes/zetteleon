@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-10-31T12:05:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-10T00:00:00+00:00
+modified: 2026-09-14T11:35:53+00:00
 permalink: llmeon/30-library/100-zettelkasten/problems-are-fundamental-to-meaningful-work
 proposition: "Seeking a problem-free existence is counterproductive, since engaging with challenges and friction is what provides purpose, drives growth, and enables mastery."
 tags: [TheHuman/Psychology, topic/productivity]
@@ -40,7 +40,6 @@ ADHD Relevance:
 [supports:: [[The Trap of the Architect Is Sophisticated System-Building Substituting for Physical Action]], strength=4, confidence=high]
 
 - [[The Trap of the Architect Is Sophisticated System-Building Substituting for Physical Action]]—_this is the mechanism behind this claim's own "Explains why 'perfect systems' fail" line: endless system-refinement is a sophisticated way of avoiding the real problem the system was meant to help solve._
-
 - [[The Danger of Perpetual System-Building]]—_a narrower, ADHD-specific instance of the same avoidance pattern: perfecting the scaffolding instead of using it to face the actual problem._
 - [[Embracing Struggles is Part of the Creative Journey]]—_the sibling claim in the creativity domain: difficulty is part of the "gift" of creation rather than a mere obstacle, the same reframe this note applies to work generally._
 - [[Claim - Analysing One's Own Avoidance Can Itself Be an Instance of the Avoidance It Describes]]—_a further wrinkle on the same theme: even analysing one's own problem-avoidance can itself become the avoidance, if it displaces the small physical action it recommends._

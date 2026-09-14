@@ -1,10 +1,10 @@
 ---
 created: 2026-05-31T00:00:00+00:00
-modified: 2026-09-09T12:34:09+00:00
+modified: 2026-09-14T11:35:46+00:00
 permalink: llmeon/30-library/100-zettelkasten/claim-flat-associative-structure-beats-rigid-hierarchy
 position-date: 2026-05-31
 related_to: ["[[Cognitive Load]]", "[[Practice - Flat linking and tagging]]"]
-tags: [linking, pkm, structure, topic/knowledge-architecture, TheHuman/Health/ADHD]
+tags: [linking, pkm, structure, TheHuman/Health/ADHD, topic/knowledge-architecture]
 title: Claim - Flat associative structure beats rigid hierarchy
 type: claim
 ---

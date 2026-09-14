@@ -17,13 +17,6 @@ tags: [deutsch, epistemology, explanation, philosophy-of-science, popper]
 title: A Good Explanation Is Hard to Vary
 type: concept
 used_in_claims: []
-source_title: David Deutsch and Peter Godfrey-Smith
-source_url: UNKNOWN
-status: seed
-tags: [deutsch, epistemology, explanation, philosophy-of-science, popper]
-title: A Good Explanation Is Hard to Vary
-type: concept
-used_in_claims: []
 ---
 
 ## A Good Explanation Is Hard to Vary

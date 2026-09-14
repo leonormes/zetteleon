@@ -4,7 +4,7 @@ axiom: true
 conformant: true
 created: 2025-07-20T12:49:36+00:00
 epistemic_status: high
-modified: 2026-07-10T23:25:00+01:00
+modified: 2026-09-14T11:35:46+00:00
 permalink: llmeon/30-library/100-zettelkasten/calculus-ratiocinator-leibniz
 prodos.kind: atomic
 prodos.lifecycle: stable

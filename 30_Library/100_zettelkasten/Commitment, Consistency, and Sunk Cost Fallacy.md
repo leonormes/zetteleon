@@ -4,7 +4,7 @@ axiom: true
 conformant: true
 created: 2025-08-23T17:07:39+00:00
 epistemic_status: high
-modified: 2026-07-10T23:27:00+01:00
+modified: 2026-09-14T11:35:47+00:00
 permalink: llmeon/30-library/100-zettelkasten/commitment-consistency-and-sunk-cost-fallacy
 prodos.kind: atomic
 prodos.lifecycle: stable

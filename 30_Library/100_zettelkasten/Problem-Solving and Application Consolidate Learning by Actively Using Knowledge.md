@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-11-10T16:13:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-10T00:00:00+00:00
+modified: 2026-09-14T11:35:53+00:00
 permalink: llmeon/30-library/100-zettelkasten/problem-solving-and-application-consolidate-learning-by-actively-using-knowledge
 proposition: "Problem-solving and application consolidate learning by turning acquired knowledge into automated schemas through repeated active use, which frees working memory for higher-order reasoning and makes the knowledge more flexible and transferable than passive recall alone."
 tags: [application, learning, problem-solving, schema-theory]
@@ -34,7 +34,6 @@ Details: Through repeated practice and application, procedures and concepts beco
 [supports:: [[Knowledge Emerges Through Application and Experience]], strength=3, confidence=medium]
 
 - [[Knowledge Emerges Through Application and Experience]]—_that note states the broader thesis (applied knowledge beats purely theoretical learning); this note supplies the specific cognitive mechanism—schema automation—that makes it true._
-
 - [[Passive Study Habits Foster the Illusion of Fluency]]—_the contrast case: what happens without active application. Rereading and highlighting build a false sense of mastery precisely because they skip the effortful retrieval and use this note describes._
 - [[Interleaving Practice of Different Topics Improves Discriminative Learning]]—_a sibling active-learning strategy: varied, effortful practice (rather than passive repetition) is what drives durable, transferable learning._
 - [[Understanding Compresses Information into Cognitive Chunks]]—_the same load-reduction mechanism from the understanding side: chunking and schema automation are two names for the same cognitive compression._

@@ -1,12 +1,12 @@
 ---
 captured: 2026-09-13T21:24:49+01:00 2026-09-13T21:24:49+01:00
 created: 2026-09-13T20:24:50+00:00
-modified: 2026-09-13T20:28:51+00:00
+modified: 2026-09-14T10:01:17+00:00
 permalink: llmeon/00-inbox/head-google-gemini-4
 source: https://gemini.google.com/gem/c5fdc13b279c/3da695d206fc6051
 status: processing
 tags: [input]
-title: HEAD ‎Google Gemini
+title: HEAD ‎Overshoot and Collapse
 type: head
 ---
 

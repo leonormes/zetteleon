@@ -2,8 +2,14 @@
 created: 2026-09-13T00:00:00+00:00
 modified: 2026-09-13T11:09:07+00:00
 permalink: llmeon/30-library/200-projects/tracing-interests-to-their-first-principle-drivers
-tags: [domain/pkm, topic/first-principles, topic/metacognition, topic/self-inquiry]
+tags:
+  - domain/pkm
+  - topic/first-principles
+  - topic/metacognition
+  - topic/self-inquiry
 title: A Portable Interest and PKM Knowledge Graph
+aliases:
+  - Tracing Interests to Their First-Principle Drivers
 ---
 
 ## Project in One Paragraph
@@ -320,3 +326,28 @@ A theme such as feedback may connect archery and DevOps conceptually. A drive su
 - [[Betweenness Centrality Identifies Interdisciplinary Bridge Concepts]]—potentially useful for structural discovery, but not evidence of causal importance.
 - [[Feynman's Twelve Favorite Problems Acts as a Continuous Curiosity Filter]]—a related practice of testing new material against standing questions.
 - [[MOC - ADHD (The Master Map)]]—a large existing cluster that may reveal overlaps, while also requiring care not to explain every drive through one framework.
+
+
+
+## Illustrative Worked Example
+
+Added 2026-09-14 from research captured in [[tmp_atoms_what-drives-a-persons-interests]] — operationalises the Graph Model above with a concrete pass, not a finding about me specifically.
+
+```mermaid
+graph LR
+    A[Interest: Maths] -->|provides| B[Affordance: formal pattern discovery]
+    A -->|provides| C[Affordance: justified certainty]
+    A -->|provides| D[Affordance: hard-won competence]
+    E[Interest: Music] -->|provides| F[Affordance: patterned time]
+    E -->|provides| G[Affordance: expression within constraint]
+    E -->|provides| H[Affordance: aesthetic order]
+    B -->|may-satisfy| I[Candidate driver: orientation through models]
+    D -->|may-satisfy| J[Candidate driver: mastery]
+    G -->|may-satisfy| K[Candidate driver: aesthetic agency]
+    L[Context: clear feedback] -->|amplifies| J
+    M[Context: public evaluation / early shame] -->|inhibits| A
+```
+
+This prevents three common errors: treating a subject as its own explanation; assuming one interest has one driver; and treating a highly-connected interest or graph node as proof of a causal root — see [[Betweenness Centrality Identifies Interdisciplinary Bridge Concepts]] for the same caution applied to graph structure generally. A good candidate driver should explain presence, intensity, persistence, and some absences; generate a testable prediction; and retain plausible alternatives.
+
+Supporting atomic notes for this project, extracted 2026-09-14: [[Enduring Interest Emerges From a Multi-Factor Feedback Loop, Not a Single Trait]], [[Self-Efficacy and Outcome Expectations Jointly Predict Durable Interest]], [[A Competence Feedback Loop Turns Early Success Into Durable Interest]], [[Situational Interest Requires Maintenance to Become Durable Individual Interest]], [[Autonomy, Competence, and Relatedness Make an Interest Self-Sustaining]], [[Genetic Influence on Interests Operates Through Precursor Traits, Not Fixed Destiny]], [[Loving a Subject Decomposes Into Distinct Reward Types, Not One Preference]], [[Interest Bundles Form Through Five Distinct Mechanisms]], [[Mathematical and Musical Ability Show a Moderate Correlation Without Proving Shared Causation]], [[Identity Adoption in One Domain Lowers Friction for Adjacent Interests]], [[Holland's RIASEC Model Frames Interests as Environmental Patterns, Not Isolated Preferences]], [[How to Interrogate a Candidate Interest Driver]].

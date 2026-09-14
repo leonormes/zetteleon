@@ -2,11 +2,11 @@
 aliases: ["Why Do Objects Interact"]
 conformant: true
 created: 2026-05-02T20:38:21+00:00
-modified: 2026-09-10T00:00:00+00:00
+modified: 2026-09-14T11:35:50+00:00
 permalink: llmeon/30-library/100-zettelkasten/in-physics-how-profound-a-property-of-matter-is-it...
 prodos.kind: concept
 prodos.lifecycle: stub
-tags: [physics, quantum-field-theory, gauge-symmetry, fundamental-forces]
+tags: [fundamental-forces, gauge-symmetry, physics, quantum-field-theory]
 title: In physics how profound a property of matter is it...
 type: concept
 ---
@@ -50,6 +50,6 @@ So, one could argue that the ultimate reason objects affect each other is that o
 
 ## Related
 
-- [[SoT - The Universal Speed of Causality]]—*shares the same QFT force-carrier ontology (photons, gluons as massless mediators) from a complementary angle: why they must travel at* c *rather than why they mediate interaction.*
-- [[SoT - Emergence]]—*the general primary-rules→secondary-patterns framework this note's own claim ("no interaction, no atoms/stars/life") is a physics-domain instance of.*
-- [[MOC - Einstein, Relativity & Light Speed]]—*the closest physics MoC in the vault; scoped to relativity rather than force-unification/QFT, so this is a topical neighbour, not a clean home—the vault has no dedicated particle-physics/QFT hub.*
+- [[SoT - The Universal Speed of Causality]]—_shares the same QFT force-carrier ontology (photons, gluons as massless mediators) from a complementary angle: why they must travel at_ c _rather than why they mediate interaction._
+- [[SoT - Emergence]]—_the general primary-rules→secondary-patterns framework this note's own claim ("no interaction, no atoms/stars/life") is a physics-domain instance of._
+- [[MOC - Einstein, Relativity & Light Speed]]—_the closest physics MoC in the vault; scoped to relativity rather than force-unification/QFT, so this is a topical neighbour, not a clean home—the vault has no dedicated particle-physics/QFT hub._

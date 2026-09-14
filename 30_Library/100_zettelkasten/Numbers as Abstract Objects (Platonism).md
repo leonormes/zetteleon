@@ -5,7 +5,7 @@ contradicts: ["[[Formalism (Mathematics as Symbol Manipulation)]]", "[[Intuition
 created: 2025-08-30T08:57:56+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-11T00:00:00+00:00
+modified: 2026-09-14T11:35:52+00:00
 permalink: llmeon/30-library/100-zettelkasten/numbers-as-abstract-objects-platonism
 proposition: "Mathematical Platonism holds that numbers and other mathematical objects exist mind-independently in an abstract, non-physical realm, so that mathematical truths are discovered rather than invented."
 tags: [platonism, topic/maths, topic/philosophy]
@@ -44,7 +44,6 @@ Links: [[MOC - What is Maths|The Nature of Number]], [[MOC Symbols vs Concepts T
 [supports:: [[SoT - Metaphysics of Purpose]], strength=3, confidence=medium]
 
 - [[SoT - Metaphysics of Purpose]]—_that SoT already cites this note as its worked example of "Inherent Purpose" (Quadrant 4: purpose as fundamental and undiscovered-but-real, "like gravity or mathematics"); this note supplies the actual case being generalised._
-
 - [[Logicism (Mathematics as Extension of Logic)]]—_a sibling foundational school rather than a rival: Logicism grounds mathematical truth in logic instead of a Platonic realm, but (as with Frege) is often held alongside realism rather than against it—orthogonal to this note's claim, not opposed._
 - [[Structuralism (Mathematics as Study of Structure)]]—_a modern attempt to sidestep this debate rather than refute it: it explicitly tries to avoid "commitment to Platonic realms" while still treating mathematical structure as objective, so it is a rival framing more than a clean contradiction._
 - [[There Is No Single First Principle of Mathematics]]—_the MOC-level context: Platonism is one of several competing "first principle" candidates in that pluralism, not the settled answer._

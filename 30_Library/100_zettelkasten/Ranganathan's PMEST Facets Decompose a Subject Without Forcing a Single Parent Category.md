@@ -1,6 +1,5 @@
 ---
-title: Ranganathan's PMEST Facets Decompose a Subject Without Forcing a Single Parent
-  Category
+title: Ranganathan's PMEST Facets Decompose a Subject Without Forcing a Single Parent Category
 type: concept
 status: seed
 prodos:

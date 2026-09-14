@@ -3,10 +3,10 @@ aliases: []
 conformant: true
 created: 2025-05-28T18:46:40+00:00
 last_reviewed: ''
-modified: 2026-09-11T00:00:00+00:00
+modified: 2026-09-14T11:35:53+00:00
 permalink: llmeon/30-library/100-zettelkasten/putting-it-all-together-example-workflow
 status: ''
-tags: [execution, motivation, prodos, task-management, example]
+tags: [example, execution, motivation, prodos, task-management]
 title: Putting It All Together Example Workflow
 type: procedure
 updated: null
@@ -38,6 +38,5 @@ A worked example applying the task-description and motivation framework below to
 [implements:: [[Crafting Compelling Task Descriptions and Sustaining Motivation]], strength=5, confidence=high]
 
 - [[Crafting Compelling Task Descriptions and Sustaining Motivation]]—_this worked example is a concrete instance of that note's framework: steps 1, 3, and 5 here map directly onto its "Writing Effective Task Descriptions," "Capturing the Why," and "Keeping Motivation Alive" sections._
-
 - [[Protocol - Vague-to-Action]]—_step 2 ("Define 'Done'") borrows this protocol's Phase 1 move of describing a tangible, physical outcome before acting._
 - [[Timeboxing is Allocating Specific Time Slots for Specific Tasks]]—_step 4 ("Time Box") is a direct application of this general timeboxing technique to the example task._

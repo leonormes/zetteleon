@@ -2,7 +2,7 @@
 aliases: [Excellence Over Volume, Quality as Way of Life]
 created: 2025-10-30T15:07:41+00:00
 last_reviewed: '2025-10-30T00:00:00.000Z'
-modified: 2026-09-11T00:00:00+00:00
+modified: 2026-09-14T11:35:53+00:00
 permalink: llmeon/30-library/100-zettelkasten/quality-over-quantity-in-creative-and-cognitive-work
 status: seedling
 tags: [deliberate-practice, excellence, quality, topic/productivity]
@@ -37,6 +37,5 @@ Details: Elite performers across both mental and physical domains prioritize tar
 [synthesizes:: [[Eufriction - Productive Friction Strengthens Thinking]], strength=3, confidence=medium]
 
 - [[Eufriction - Productive Friction Strengthens Thinking]]—_the cognitive-work instance: deliberate, effortful engagement, not speed or volume, is what produces genuine synthesis rather than passive consumption._
-
 - [[Pseudo-productivity Heuristic]]—_the mirror-image critique from the institutional side: visible activity and volume are a false proxy for value in knowledge work, the same mistake this principle warns individuals against._
 - [[The War of Art - Resistance and Turning Pro]]—_the "quality as a way of life" line echoes Turning Pro's professional discipline: showing up for genuine, focused work rather than sporadic, quantity-driven effort._

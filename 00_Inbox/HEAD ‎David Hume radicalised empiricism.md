@@ -6,7 +6,7 @@ permalink: llmeon/00-inbox/head-google-gemini-3
 source: https://gemini.google.com/gem/c5fdc13b279c/dd4850ebed618fed
 status: processing
 tags: [input]
-title: HEAD ‎Google Gemini
+title: HEAD Google Gemini
 type: head
 ---
 
@@ -16,7 +16,6 @@ type: head
 
 ### You Said <https://youtu.be/gi0deWWS5Rc?si=MBU>\_L\_SnurD0RRdu
 
-<https://youtu.be/gi0deWWS5Rc?si=MBU>\_L\_SnurD0RRdu
 
 YouTube Critique
 

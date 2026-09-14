@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-08-03T17:00:00+01:00
-modified: 2026-09-11T00:00:00+00:00
+modified: 2026-09-14T11:35:45+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-bowstring-maintenance
 tags: [archery, equipment, maintenance, prodos/atomic]
 title: Archery Shot Process - Bowstring Maintenance
@@ -135,7 +135,7 @@ When to Replace: If the serving itself is breaking down and exposing the underly
 
 Reference: Jake Kaminski—_Proper Bow String Storage: Prevent Twist Loss for Consistent Brace Height_ (video); Jake Kaminski—_How Many Twists Should be in a Bowstring?_ (video); Jake Kaminski—bowstring waxing guide (video); Kazden Ammons—bowstring maintenance for beginners (video).
 
-See also: [[Archery Shot Process - Nocking]] for fletching orientation and nock placement on the string this maintenance preserves; [[Archery Shot Process - Faults and Diagnostics]] aggregates in-shot faults but does not yet cover equipment-side causes like an under- or over-twisted string—brace height drift from neglected twist storage is a candidate root cause worth cross-referencing there.
+See also: [[Archery Shot Process - Nocking]] for fletching orientation and nock placement on the string this maintenance preserves; [[Archery Shot Process - Faults and Diagnostics]] aggregates in-shot faults but does not yet cover equipment-side causes like an underor over-twisted string—brace height drift from neglected twist storage is a candidate root cause worth cross-referencing there.
 
 ---
 

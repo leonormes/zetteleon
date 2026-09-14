@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-10-26T11:14:00+00:00
-modified: 2026-09-10T00:00:00+00:00
+modified: 2026-09-14T11:35:50+00:00
 non_conformance_reason: "type: hypothesis is not in the FrontmatterContract §2 enum (claim/concept/evidence/question/procedure/protocol/map/journal/project/sot). This note is an unresolved personal experiment (If/Then/Because + protocol + pending Results Log) — forcing it into `claim` or `concept` would misrepresent its pending-verification status. Same non-conformance already accepted on [[Body Doubling for ADHD Focus]] and [[Interest Pairing Can Increase Engagement in Mundane Tasks for ADHD]]."
 permalink: llmeon/30-library/100-zettelkasten/junebugging-a-gentle-focus-strategy-for-adhd
 prodos.kind: concept
@@ -57,5 +57,5 @@ Junebugging works _with_ the ADHD brain's tendency to get distracted rather than
 ## Related
 
 - [[MOC - ADHD Experiments & Protocols]]—the experiment-lifecycle hub this note belongs to (`Hypothesis → Experiment → Validation/Rejection`), picked up automatically by that MOC's Dataview query on `#hypothesis` + `status: pending`.
-- [[Horizontal vs Vertical Execution in the ADHD Mind]]—a genuine scope distinction, not a duplicate or a contradiction: that note argues interleaving *across disparate projects* fails to trigger reward and vertical (single-project) focus is what generates it. Junebugging's wandering stays *within* one bounded macro-task (tidying the house)—it's horizontal at the micro-task level but still vertical at the project level. Worth naming so the two aren't read as conflicting advice.
+- [[Horizontal vs Vertical Execution in the ADHD Mind]]—a genuine scope distinction, not a duplicate or a contradiction: that note argues interleaving _across disparate projects_ fails to trigger reward and vertical (single-project) focus is what generates it. Junebugging's wandering stays _within_ one bounded macro-task (tidying the house)—it's horizontal at the micro-task level but still vertical at the project level. Worth naming so the two aren't read as conflicting advice.
 - [[Reframe Habit Setbacks as Capacity Limits Not Character Flaws]]—the general form of Junebugging's own "No Shame" rule: wandering is a capacity pattern to accommodate, not a discipline failure to punish.

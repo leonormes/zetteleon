@@ -6,8 +6,7 @@ contradicts: []
 created: 2026-08-29 00:00:00+01:00
 epistemic_status: low
 evidence_links: []
-non_conformance_reason: STUB - proposition deliberately unwritten; awaiting Leon's
-  own formulation of the position (see body §1).
+non_conformance_reason: STUB - proposition deliberately unwritten; awaiting Leon's own formulation of the position (see body §1).
 position-date: 2026-08-29
 proposition: ''
 supersedes: '[[Claim - A Note That Does Not Help You Act Is Noise]]'

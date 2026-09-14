@@ -9,9 +9,7 @@ tags:
 conformant: true
 prodos.kind: atomic
 prodos.lifecycle: seed
-proposition: Sorting people into binary 'right' or 'wrong' categories is a biological
-  default driven by cognitive economy, tribal signalling, and ego-fusion, rather than
-  a personal moral defect.
+proposition: Sorting people into binary 'right' or 'wrong' categories is a biological default driven by cognitive economy, tribal signalling, and ego-fusion, rather than a personal moral defect.
 epistemic_status: high
 contradicts: []
 permalink: llmeon/30-library/100-zettelkasten/binary-person-judgement-is-a-cognitive-default-not-a-character-flaw

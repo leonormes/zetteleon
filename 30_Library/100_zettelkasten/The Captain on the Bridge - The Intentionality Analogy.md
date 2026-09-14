@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-12-24T12:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-10T00:00:00+00:00
+modified: 2026-09-14T11:35:55+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-captain-on-the-bridge-the-intentionality-analogy
 proposition: "A person's capacity for self-direction can be modelled as a ship at sea, where habits function as an efficient but blind autopilot, goals are the fixed destinations, and intentionality is the captain who must actively set and hold the course—since without it, the autopilot alone will default to old, unexamined patterns."
 tags: [analogy, intentionality, mental-model]
@@ -42,7 +42,6 @@ Intentionality ensures that even when the Autopilot is engaged, the ship is head
 [depends_on:: [[The Sacred No - Intentionality as Habit Intervention]], strength=4, confidence=high]
 
 - [[The Sacred No - Intentionality as Habit Intervention]]—_the Captain metaphor is inert without a concrete mechanism for actually steering; this note supplies it—the moment-of-choice rejection of autopilot activity that makes "the Captain sets the course" an operational act rather than just a wish._
-
 - [[Strong Habits Override Weak Intentions]]—_the caution this model has to answer: raw in-the-moment intention reliably loses to strong habits, so the Captain's real job is to build intentionality into the autopilot itself (see [[The Sacred No - Intentionality as Habit Intervention]]) rather than out-willing it each time._
 - [[Goals Suffer from Survivorship Bias]]—_a check on the "Goals are the Ports" component: the destination on the map is not what differentiates success, so the Captain's course-setting matters more as ongoing direction than as the port chosen._
 - [[Integrity Means Acting in Accordance With Chosen Values]]—_what the Captain's course-setting actually consists of: "Heart + Direction" is this note's own alignment of action with consciously chosen values._

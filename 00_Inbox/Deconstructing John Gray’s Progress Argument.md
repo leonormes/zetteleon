@@ -14,7 +14,7 @@ type: note
 ### Executive Assessment
 
 The interview's defensible core is narrower than its title suggests: scientific and technological advances can accumulate, while moral and political improvements are contingent, reversible, and dependent on institutions, trust, and collective agreement. That is a useful warning against assuming that new technology automatically produces wiser politics.
-
+Does it really matter
 The stronger claim—that progress in ethics and politics is effectively a myth, or that history simply recurs—is not established by the discussion. It is a philosophical interpretation, presented mainly through historical examples and intuition rather than systematic comparative evidence. The title is therefore rhetorically broader than the argument actually supports.
 
 ### The Core Thesis

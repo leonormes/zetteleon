@@ -1,6 +1,5 @@
 ---
-title: Claim - Cognitive strain is the mechanism for competence building but a pure
-  cost for output generation
+title: Claim - Cognitive strain is the mechanism for competence building but a pure cost for output generation
 type: claim
 tags:
 - automation
@@ -11,10 +10,7 @@ tags:
 conformant: true
 prodos.kind: atomic
 prodos.lifecycle: seed
-proposition: 'The value of cognitive strain is context-dependent: when the goal is
-  skill acquisition or deep understanding, strain is the necessary mechanism; when
-  the goal is pure output in a domain of existing competence, strain is a waste to
-  be automated away.'
+proposition: 'The value of cognitive strain is context-dependent: when the goal is skill acquisition or deep understanding, strain is the necessary mechanism; when the goal is pure output in a domain of existing competence, strain is a waste to be automated away.'
 epistemic_status: high
 contradicts: []
 permalink: llmeon/30-library/100-zettelkasten/claim-cognitive-strain-is-the-mechanism-for-competence-building-but-a-pure-cost-for-output-generation

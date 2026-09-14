@@ -1,6 +1,5 @@
 ---
-title: Claim - Aerodynamic drag is positively correlated with an arrow's acoustic
-  noise signature
+title: Claim - Aerodynamic drag is positively correlated with an arrow's acoustic noise signature
 type: claim
 conformant: true
 created: 2026-08-27 10:45:00+01:00
@@ -9,8 +8,7 @@ tags:
 - domain/archery
 - topic/equipment
 - claim
-proposition: Optimizing a broadhead or fletching configuration for maximum retained
-  velocity (lower drag) inherently optimizes it for maximum acoustic stealth.
+proposition: Optimizing a broadhead or fletching configuration for maximum retained velocity (lower drag) inherently optimizes it for maximum acoustic stealth.
 epistemic_status: high
 evidence_links: []
 contradicts: []
