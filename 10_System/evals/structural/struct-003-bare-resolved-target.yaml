@@ -1,0 +1,30 @@
+id: struct-003-bare-resolved-target
+title: A resolved note target written without [[wikilink]] brackets must produce WARN
+description: >
+  Per SoT - Knowledge Compiler §4, a note target must be a wikilink so
+  Obsidian's rename refactor keeps it correct — only content-block ids may
+  legitimately be written bare. Protects the "resolved but not a link"
+  branch in lint_file() against silently accepting bare note targets, which
+  would let renames quietly desync edges from disk.
+fixtures:
+  - name: source.md
+    content: |
+      ---
+      title: Regression Fixture — Bare Target Source
+      type: claim
+      tags: [test]
+      conformant: true
+      ---
+      [supports:: Regression Fixture — Bare Target Destination]
+  - name: dest.md
+    content: |
+      ---
+      title: Regression Fixture — Bare Target Destination
+      type: claim
+      tags: [test]
+      conformant: true
+      ---
+      Destination fixture note — exists only so the source's bare target resolves.
+expect:
+  - level: WARN
+    contains: "written bare"

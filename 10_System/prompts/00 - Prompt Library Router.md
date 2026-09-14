@@ -54,6 +54,7 @@ This note is the decision layer for the ProdOS Chief of Staff LLM. Every prompt 
 | DevOps work log → reusable Atomic Command/Playbook | [[prompt - DevOps Knowledge Architect]] | Dedupes against existing commands first |
 | I need the output-discipline rules every vault agent must follow (confidence, evidence, uncertainty flag) | [[Protocol - Typed Answer Contract (TAC) for Vault Agents]] | Cross-cutting contract, not a task-specific prompt—reference it, don't replace another prompt with it |
 | I need the output-discipline rules every vault agent must follow (confidence, evidence, uncertainty flag) | [[Protocol - Typed Answer Contract (TAC) for Vault Agents]] | Cross-cutting contract, not a task-specific prompt—reference it, don't replace another prompt with it |
+| An agent's output was wrong, unsafe, incomplete, or non-conformant and I need to fix the actual cause, not just the symptom | [[Protocol - Diagnose an Agent Failure]] | Cross-cutting protocol, not a task-specific prompt—classifies the root cause (retrieval/knowledge/routing/reasoning/TAC/permission/tool/ambiguity) before proposing a fix, and pairs every fix with a regression case in `10_System/evals/` |
 
 ### Personal Context to Inject alongside other Prompts
 

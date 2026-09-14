@@ -184,12 +184,16 @@ When multiple notes need bringing into conformance at once, prioritise in this o
 
 > Formalised 2026-07-17, referenced as "§9" by [[Goal - Frontmatter Bulk Migration (Phase 3)]] before this section existed.
 
-The canonical validator is `gemini-scribe/scripts/validate_note_frontmatter.py`, run over the vault after any bulk migration to confirm every in-scope note satisfies §2 (FrontmatterContract) and, where applicable, §3 (the 5 canonical note-type schemas).
+The canonical validator is `10_System/scripts/validate_note_frontmatter.py`, run over the vault after any bulk migration to confirm every in-scope note satisfies §2 (FrontmatterContract) and, where applicable, §3 (the 5 canonical note-type schemas):
 
-Status: this script does not currently exist in the repository (checked 2026-07-17—no `gemini-scribe/` directory found in the vault). Any prompt or process that assumes it can run this validation will fail until the script is written. Until then, conformance checking is manual: spot-check `conformant`/`non_conformance_reason` presence and `type` enum membership per §2.
+```bash
+uv run --with pyyaml python3 10_System/scripts/validate_note_frontmatter.py --audit
+```
+
+Status (updated 2026-09-14): the script exists and is runnable — checks §2's required fields, `tags`/`conformant` typing, the conditional `non_conformance_reason`, the `type` enum, `prodos.kind`/`prodos.lifecycle` enum membership, and §3's type-specific schema fields when `conformant: true`. It landed at `10_System/scripts/validate_note_frontmatter.py`, not the `gemini-scribe/scripts/` path this section originally named — that path was aspirational and never existed; update any other note or prompt still citing `gemini-scribe/scripts/validate_note_frontmatter.py`. Not yet extended with a regression-case mode the way `edge_lint.py --regress` was (see `10_System/evals/README.md`) — a reasonable next step, not done here.
 
 ## Tensions & Gaps
 
-- Validator doesn't exist yet. §9 documents an aspirational tool path (`gemini-scribe/scripts/validate_note_frontmatter.py`) that has not been written. Conformance is currently self-reported and spot-checked, not machine-enforced.
+- ~~Validator doesn't exist yet.~~ Resolved 2026-09-14 — `10_System/scripts/validate_note_frontmatter.py` exists and is runnable; see §9. Conformance can now be machine-checked (`--audit`), though nothing currently runs it automatically on a commit or schedule.
 - Two parallel schemas in flight. Notes may carry either the flatter legacy schema (`type`, `conformant`, `non_conformance_reason` at top level) or the modern `prodos:` nested object—§6 exists precisely because both are live simultaneously during the migration. Don't assume one schema is universal until migration is complete.
 - `type` enum collision with routing `prodos.kind`. §6's `map` → `prodos.kind: moc` mapping is a reminder that the top-level `type` field and `prodos.kind` are not always the same string—read both before assuming a note's category.

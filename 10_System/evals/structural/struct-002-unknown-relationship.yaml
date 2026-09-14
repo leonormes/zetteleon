@@ -1,0 +1,21 @@
+id: struct-002-unknown-relationship
+title: Relationship outside the controlled vocabulary must produce ERROR
+description: >
+  Protects the VOCABULARY set (extends/synthesizes/implements/contradicts/
+  supports/depends_on/revises) as a closed list — a typo or an
+  ad-hoc relationship name must be caught, per SoT - Typed Edge Vocabulary
+  §2. Guards against VOCABULARY silently growing without a matching spec
+  update, or the enforcement check being dropped in a refactor.
+fixtures:
+  - name: source.md
+    content: |
+      ---
+      title: Regression Fixture — Unknown Relationship Source
+      type: claim
+      tags: [test]
+      conformant: true
+      ---
+      [inspired_by:: [[Regression Fixture — Unknown Relationship Source]]]
+expect:
+  - level: ERROR
+    contains: "unknown relationship"

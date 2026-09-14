@@ -30,6 +30,10 @@ Usage:
     python3 edge_lint.py --audit        # + C1 gaps, C2 foundations, C3 conflicts
     python3 edge_lint.py --why TITLE    # C4: what a claim rests on
     python3 edge_lint.py --impact TITLE # C4: what rests on a claim
+    python3 edge_lint.py --regress      # run deterministic regression cases
+                                         # from 10_System/evals/structural/
+                                         # (self-contained fixtures — see
+                                         # 10_System/evals/README.md)
 
 Dependencies: PyYAML — REQUIRED. Frontmatter carries `title` (edge resolution)
 and `type` (claim detection for C1), so without it the tool reports false
@@ -793,6 +797,82 @@ def run_route(files, idx: Index, yaml_mod, proposition: str, max_hits: int) -> i
     return 0
 
 
+# ---------------------------------------------------------------------------
+# --regress  (deterministic regression layer — see 10_System/evals/README.md)
+# ---------------------------------------------------------------------------
+def run_regress(evals_dir: str, yaml_mod) -> int:
+    """Run self-contained regression cases against this file's own parsing/
+    resolution logic (lint_file + build_index). Each case declares its own
+    fixture note(s) inline — it never depends on live vault content, so it
+    keeps passing regardless of what anyone edits elsewhere in the vault.
+
+    A case is a YAML file with:
+      id: short-stable-id
+      fixtures: [{name: foo.md, content: "..."}, ...]   # first is "primary"
+      expect: [{level: ERROR|WARN, contains: "substring"}, ...]
+
+    Pass/fail is a one-to-one match between `expect` entries and the
+    findings lint_file() actually produces for the primary fixture: every
+    expected entry must match one finding (same level, substring in
+    message), and no unmatched findings may remain. This is intentionally
+    strict — it means the count of findings is part of what's tested, not
+    just their presence.
+    """
+    import glob
+    import tempfile
+
+    case_files = sorted(glob.glob(os.path.join(evals_dir, "*.yaml")))
+    if not case_files:
+        print(f"No regression cases found in {evals_dir}")
+        return 0
+
+    n_pass = n_fail = 0
+    for cf in case_files:
+        with open(cf, encoding="utf-8") as f:
+            case = yaml_mod.safe_load(f)
+        case_id = case.get("id", os.path.basename(cf))
+        fixtures = case.get("fixtures", [])
+        expect = case.get("expect", [])
+
+        with tempfile.TemporaryDirectory() as td:
+            paths = []
+            for fx in fixtures:
+                fp = os.path.join(td, fx["name"])
+                with open(fp, "w", encoding="utf-8") as out:
+                    out.write(fx["content"])
+                paths.append(fp)
+            idx = build_index(paths, yaml_mod)
+            findings, _ = lint_file(paths[0], idx)
+
+        remaining = list(findings)
+        missing = []
+        for exp in expect:
+            match = next(
+                (fd for fd in remaining
+                 if fd.level == exp["level"] and exp["contains"] in fd.message),
+                None,
+            )
+            if match:
+                remaining.remove(match)
+            else:
+                missing.append(exp)
+
+        if missing or remaining:
+            n_fail += 1
+            print(f"✗ {case_id}  ({os.path.basename(cf)})")
+            for exp in missing:
+                print(f"    MISSING     {exp['level']:5} containing: {exp['contains']!r}")
+            for fd in remaining:
+                print(f"    UNEXPECTED  {fd.level:5} L{fd.line}: {fd.message}")
+        else:
+            n_pass += 1
+            print(f"✓ {case_id}")
+
+    print("\n" + "-" * 60)
+    print(f"{n_pass} passed, {n_fail} failed ({len(case_files)} case(s))")
+    return 1 if n_fail else 0
+
+
 def collect_files(root: str):
     out = []
     for dirpath, dirnames, filenames in os.walk(root):
@@ -824,10 +904,20 @@ def main() -> int:
                     help="print the impact tree for a claim (what rests on it)")
     ap.add_argument("--export-json", metavar="FILE",
                     help="export the graph as JSON to a file (nodes + edges with labels)")
+    ap.add_argument("--regress", action="store_true",
+                    help="run deterministic regression cases from 10_System/evals/structural/ "
+                         "against this tool's own parsing/resolution logic")
+    ap.add_argument("--evals-dir", default=None, metavar="DIR",
+                    help="override the regression case directory (default: "
+                         "<vault root>/10_System/evals/structural)")
     args = ap.parse_args()
 
     root = os.path.abspath(args.path) if args.path else default_root()
     yaml_mod = require_yaml()
+
+    if args.regress:
+        evals_dir = args.evals_dir or os.path.join(default_root(), "10_System", "evals", "structural")
+        return run_regress(evals_dir, yaml_mod)
 
     files = collect_files(root)
     idx = build_index(files, yaml_mod)
