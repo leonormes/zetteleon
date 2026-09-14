@@ -1,7 +1,20 @@
 ---
-title: LazyVim Obsidian Markdown Setup
-type: note
-permalink: llmeon/00-inbox/lazy-vim-obsidian-markdown-setup
+title: Reference - LazyVim Obsidian Markdown Setup
+type: procedure
+status: stable
+prodos.kind: ops
+prodos.lifecycle: stable
+tags:
+- topic/dev-environment
+- domain/pkm
+- topic/neovim
+- topic/tooling
+conformant: false
+non_conformance_reason: Operational reference/runbook, not a canonical claim/concept/evidence/question/procedure
+  per the strict §3 schema — kept as a coherent setup guide rather than atomised,
+  since fragmenting it into separate claims would destroy its use as a single consultable
+  runbook.
+permalink: llmeon/30-library/ops/reference-lazy-vim-obsidian-markdown-setup
 ---
 
 # **Architecting a Visual Markdown Editing Environment in Neovim for Obsidian Vaults using LazyVim**

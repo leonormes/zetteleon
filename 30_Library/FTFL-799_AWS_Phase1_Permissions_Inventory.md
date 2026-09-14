@@ -1,8 +1,15 @@
 ---
+id: FTFL-799_AWS_Phase1_Permissions_Inventory
+aliases: []
+tags:
+  - axiom:FTFL-799
+  - infrastructure/aws
+  - permissions
+  - terraform
+  - typed-edge
 created: 2026-07-31T09:24:09+00:00
 modified: 2026-08-29T09:35:56+00:00
 permalink: llmeon/30-library/ftfl-799-aws-phase1-permissions-inventory
-tags: [axiom:FTFL-799, infrastructure/aws, permissions, terraform, typed-edge]
 title: FTFL-799_AWS_Phase1_Permissions_Inventory
 ---
 
@@ -26,20 +33,20 @@ Auth method: OIDC federation to `app.terraform.io` (audience `aws.workload.ident
 
 #### Permissions
 
-| Permission / Block | Scope | Purpose | FTFL scope |
-|---|---|---|---|
-| OIDC trust (`sts:AssumeRoleWithWebIdentity`) | OIDC provider `app.terraform.io` | HCP Terraform assumes role per-run without long-lived keys | Core deployment auth |
-| `ec2:*` | `Resource: *` | VPC/subnets/IGW/NAT/ENI/SG/launch-templates/jumpbox/EBS | Infrastructure provisioning (blanket) |
-| EKS full lifecycle | `*` | Cluster/nodegroup/addon/pod-identity/access-entry create/delete/update | Cluster lifecycle |
-| IAM role/policy/OIDC/SLR lifecycle | `*` | All workload role creation (OIDC provider, EBS-CSI, autoscaler, VPC-Lattice, jumpbox) | Workload identity |
-| IAM user lifecycle (CreateUser/DeleteUser/CreateAccessKey/PutUserPolicy) | `*` | S3-export IAM user + static key, gated by `modules/s3-bucket` `create_access_keys` var | Optional external-tool integration |
-| KMS full lifecycle | `*` | Customer-managed keys for secrets, EBS, S3 | Encryption orchestration |
-| `s3:*` + `kms:GenerateDataKey` | `*` | State/export/logging buckets, server-side encryption | Deployment state + data export |
-| Route53 + Route53 Domains | `*` | DNS zone/record/domain registration | DNS management |
-| Elastic Load Balancing (Describe only) | `*` | Read LB state for outputs/health checks | Read-only observability |
-| Network Firewall | `*` | `modules/gateway`—AWS Network Firewall policy/rules (egress control) | Private-cluster egress |
-| CloudWatch Logs | `ListLogDeliveries` | Discover existing log delivery configs | Observability setup |
-| ⚠️ SSM Session Manager (hardcoded ARNs) | `arn:aws:ec2:eu-west-2:135808916559:instance/i-01903aa5c47d2d015` | Unclear—appears to be environment-specific scaffolding | UNVERIFIED—account 135808916559 ≠ 592527451415 |
+| Permission / Block                                                       | Scope                                                             | Purpose                                                                                | FTFL scope                                     |
+| ------------------------------------------------------------------------ | ----------------------------------------------------------------- | -------------------------------------------------------------------------------------- | ---------------------------------------------- |
+| OIDC trust (`sts:AssumeRoleWithWebIdentity`)                             | OIDC provider `app.terraform.io`                                  | HCP Terraform assumes role per-run without long-lived keys                             | Core deployment auth                           |
+| `ec2:*`                                                                  | `Resource: *`                                                     | VPC/subnets/IGW/NAT/ENI/SG/launch-templates/jumpbox/EBS                                | Infrastructure provisioning (blanket)          |
+| EKS full lifecycle                                                       | `*`                                                               | Cluster/nodegroup/addon/pod-identity/access-entry create/delete/update                 | Cluster lifecycle                              |
+| IAM role/policy/OIDC/SLR lifecycle                                       | `*`                                                               | All workload role creation (OIDC provider, EBS-CSI, autoscaler, VPC-Lattice, jumpbox)  | Workload identity                              |
+| IAM user lifecycle (CreateUser/DeleteUser/CreateAccessKey/PutUserPolicy) | `*`                                                               | S3-export IAM user + static key, gated by `modules/s3-bucket` `create_access_keys` var | Optional external-tool integration             |
+| KMS full lifecycle                                                       | `*`                                                               | Customer-managed keys for secrets, EBS, S3                                             | Encryption orchestration                       |
+| `s3:*` + `kms:GenerateDataKey`                                           | `*`                                                               | State/export/logging buckets, server-side encryption                                   | Deployment state + data export                 |
+| Route53 + Route53 Domains                                                | `*`                                                               | DNS zone/record/domain registration                                                    | DNS management                                 |
+| Elastic Load Balancing (Describe only)                                   | `*`                                                               | Read LB state for outputs/health checks                                                | Read-only observability                        |
+| Network Firewall                                                         | `*`                                                               | `modules/gateway`—AWS Network Firewall policy/rules (egress control)                   | Private-cluster egress                         |
+| CloudWatch Logs                                                          | `ListLogDeliveries`                                               | Discover existing log delivery configs                                                 | Observability setup                            |
+| ⚠️ SSM Session Manager (hardcoded ARNs)                                  | `arn:aws:ec2:eu-west-2:135808916559:instance/i-01903aa5c47d2d015` | Unclear—appears to be environment-specific scaffolding                                 | UNVERIFIED—account 135808916559 ≠ 592527451415 |
 
 #### AWS Backup (FTFL-799 Delta)
 
@@ -71,33 +78,33 @@ Key addition: `k8s:ListResources`/`k8s:DescribeResources`—native EKS backup su
 
 ### Table A2: Roles the Terraform SP Creates & Assigns
 
-| Workload | Role | Permissions | Why |
-|---|---|---|---|
-| EKS control plane | `aws_iam_role.this` (module `eks`) | `AmazonEKSClusterPolicy` | Service principal for cluster |
-| Node group | `aws_iam_role.node_group` | `AmazonEKSWorkerNodePolicy`, `AmazonEKS_CNI_Policy`, ECR read-only | Worker node lifecycle |
-| EBS CSI (IRSA) | `aws_iam_role.ebs_csi_role` | `AmazonEBSCSIDriverPolicy`, OIDC federated trust | Dynamic PersistentVolume provisioning |
-| Cluster Autoscaler (IRSA) | `aws_iam_role.cluster_autoscaler_role` | Custom: ASG Describe*, EC2 Describe*, `eks:DescribeNodegroup` (read) + `SetDesiredCapacity`/`TerminateInstanceInAutoScalingGroup` (write) | Node group auto-scaling |
-| VPC Lattice Controller (IRSA) | `aws_iam_role.vpc_lattice_controller` | `var.vpc_lattice_controller_policy_arn` | Service mesh ingress (optional) |
-| Jumpbox/Bastion | `${deployment-key}-jumpbox-ssm-role` | `AmazonSSMManagedInstanceCore`, scoped KMS decrypt (hardcoded ARN to acct 135808916559 ⚠️), EKS describe + `AmazonEKSClusterAdminPolicy`, `ec2:Describe*` | Operator SSM access → cluster admin |
-| S3 Export User | `aws_iam_user.s3_user` (module `s3-bucket`, if `create_access_keys=true`) | Custom S3 access + static access key | Integration with external tools (Hyve) |
-| AWS Backup | `aws-backup-role` | See above (`backup:*` + k8s describe) | Private cluster backup restore |
+| Workload                      | Role                                                                      | Permissions                                                                                                                                               | Why                                    |
+| ----------------------------- | ------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- |
+| EKS control plane             | `aws_iam_role.this` (module `eks`)                                        | `AmazonEKSClusterPolicy`                                                                                                                                  | Service principal for cluster          |
+| Node group                    | `aws_iam_role.node_group`                                                 | `AmazonEKSWorkerNodePolicy`, `AmazonEKS_CNI_Policy`, ECR read-only                                                                                        | Worker node lifecycle                  |
+| EBS CSI (IRSA)                | `aws_iam_role.ebs_csi_role`                                               | `AmazonEBSCSIDriverPolicy`, OIDC federated trust                                                                                                          | Dynamic PersistentVolume provisioning  |
+| Cluster Autoscaler (IRSA)     | `aws_iam_role.cluster_autoscaler_role`                                    | Custom: ASG Describe*, EC2 Describe*, `eks:DescribeNodegroup` (read) + `SetDesiredCapacity`/`TerminateInstanceInAutoScalingGroup` (write)                 | Node group auto-scaling                |
+| VPC Lattice Controller (IRSA) | `aws_iam_role.vpc_lattice_controller`                                     | `var.vpc_lattice_controller_policy_arn`                                                                                                                   | Service mesh ingress (optional)        |
+| Jumpbox/Bastion               | `${deployment-key}-jumpbox-ssm-role`                                      | `AmazonSSMManagedInstanceCore`, scoped KMS decrypt (hardcoded ARN to acct 135808916559 ⚠️), EKS describe + `AmazonEKSClusterAdminPolicy`, `ec2:Describe*` | Operator SSM access → cluster admin    |
+| S3 Export User                | `aws_iam_user.s3_user` (module `s3-bucket`, if `create_access_keys=true`) | Custom S3 access + static access key                                                                                                                      | Integration with external tools (Hyve) |
+| AWS Backup                    | `aws-backup-role`                                                         | See above (`backup:*` + k8s describe)                                                                                                                     | Private cluster backup restore         |
 
 ---
 
 ### Table A3: AWS Developer/Operator Permissions
 
-| Role/Group | Type | Key Actions | Used by | Notes |
-|---|---|---|---|---|
-| Jumpbox instance role | IAM role via SSM Session Manager | EKS `AmazonEKSClusterAdminPolicy` (cluster scope), `ec2:Describe*`, scoped KMS decrypt | FITFILE DevOps | No SSH keys, no public IP. Cluster-admin access is bound to the instance, not individual IAM principals—least-privilege for operators depends on who gets `ssm:StartSession` to this one jumpbox |
-| Named IAM user/role access entries | `aws_eks_access_entry.user_access` (if `enable_iam_user_access=true`) | Configurable Kubernetes groups per principal | Break-glass FITFILE engineers, customer IT admins | Optional, off by default. Requires per-workspace `.tfvars` or variable-set configuration. |
-| IAM Identity Center | AWS SSO instance `ssoins-7535c9ff6ec965ed` ("FITFILE", Active since 2024-08-09, eu-west-2) | (TBD via permission sets) | FITFILE engineer federation | UNVERIFIED—`list-permission-sets` returned empty during investigation. Confirm via AWS console or a principal with appropriate SSO-admin perms. |
-| `tfc-role` itself (OIDC) | IAM role | (see Table A1) | HCP Terraform automation only | No static access keys. Current practice contradicts the "API Key Credentials" language in older Confluence docs—OIDC is the live pattern. |
+| Role/Group                         | Type                                                                                       | Key Actions                                                                            | Used by                                           | Notes                                                                                                                                                                                            |
+| ---------------------------------- | ------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Jumpbox instance role              | IAM role via SSM Session Manager                                                           | EKS `AmazonEKSClusterAdminPolicy` (cluster scope), `ec2:Describe*`, scoped KMS decrypt | FITFILE DevOps                                    | No SSH keys, no public IP. Cluster-admin access is bound to the instance, not individual IAM principals—least-privilege for operators depends on who gets `ssm:StartSession` to this one jumpbox |
+| Named IAM user/role access entries | `aws_eks_access_entry.user_access` (if `enable_iam_user_access=true`)                      | Configurable Kubernetes groups per principal                                           | Break-glass FITFILE engineers, customer IT admins | Optional, off by default. Requires per-workspace `.tfvars` or variable-set configuration.                                                                                                        |
+| IAM Identity Center                | AWS SSO instance `ssoins-7535c9ff6ec965ed` ("FITFILE", Active since 2024-08-09, eu-west-2) | (TBD via permission sets)                                                              | FITFILE engineer federation                       | UNVERIFIED—`list-permission-sets` returned empty during investigation. Confirm via AWS console or a principal with appropriate SSO-admin perms.                                                  |
+| `tfc-role` itself (OIDC)           | IAM role                                                                                   | (see Table A1)                                                                         | HCP Terraform automation only                     | No static access keys. Current practice contradicts the "API Key Credentials" language in older Confluence docs—OIDC is the live pattern.                                                        |
 
 ---
 
 ### Verification Checklist (Live Commands)
 
-```bash
+```sh
 # Self-identity
 aws sts get-caller-identity
 
