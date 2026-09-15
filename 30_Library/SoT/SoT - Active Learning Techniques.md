@@ -1,5 +1,5 @@
 ---
-aliases: [Feynman Technique, Retrieval Practice, The Peter Method]
+aliases: [Retrieval Practice, The Peter Method]
 conformant: false
 created: 2025-12-23T22:35:33+00:00
 modified: 2026-08-29T09:36:34+00:00

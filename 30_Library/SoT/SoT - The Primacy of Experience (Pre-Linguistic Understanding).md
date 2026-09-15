@@ -1,5 +1,5 @@
 ---
-aliases: [Embodied Understanding, Experiential Grounding, Language as a Tool, Pre-Linguistic Understanding, Primacy of Experience]
+aliases: [Experiential Grounding, Language as a Tool, Pre-Linguistic Understanding, Primacy of Experience]
 conformant: false
 created: 2026-01-02T15:00:00+00:00
 modified: 2026-08-29T09:36:44+00:00

@@ -1,5 +1,5 @@
 ---
-aliases: [Discipline Relies on External Supports Not Just Willpower, Discipline vs Willpower, System > Willpower, Systems and Environment are the Backbone of Discipline, Systems Over Motivation]
+aliases: [Discipline Relies on External Supports Not Just Willpower, Discipline vs Willpower, Systems and Environment are the Backbone of Discipline, Systems Over Motivation]
 conformant: true
 created: 2025-11-10T13:03:00+00:00
 epistemic_status: high

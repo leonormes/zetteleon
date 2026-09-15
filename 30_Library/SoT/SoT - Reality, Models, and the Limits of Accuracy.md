@@ -1,5 +1,5 @@
 ---
-aliases: [General Semantics, Model-Dependent Realism, The Map vs Territory]
+aliases: [Model-Dependent Realism, The Map vs Territory]
 conformant: false
 created: 2025-12-12T18:34:35+00:00
 modified: 2026-08-29T09:36:42+00:00

@@ -1,5 +1,5 @@
 ---
-aliases: [Family Budgeting System, Financial Peace Protocol, The YNAB Method, UK Household Allocation, Zero-Based Budgeting]
+aliases: [Family Budgeting System, Financial Peace Protocol, The YNAB Method, UK Household Allocation]
 conformant: true
 created: 2025-12-14T18:44:03+00:00
 modified: 2026-08-29T09:36:36+00:00

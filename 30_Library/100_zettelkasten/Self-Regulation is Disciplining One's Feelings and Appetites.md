@@ -1,5 +1,4 @@
 ---
-aliases: [Self-Control]
 conformant: false
 created: 2025-12-10T12:00:00+00:00
 modified: 2026-09-09T12:34:16+00:00

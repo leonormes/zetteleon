@@ -11,3 +11,7 @@ type: claim
 ---
 
 Perseverance (Persistence) is the strength of finishing what one starts. It involves persisting in a course of action despite obstacles and taking pleasure in completing tasks.
+
+## Related
+
+- [[Perseverance is Finishing What You Start Despite Difficulty]]—same claim, child-facing register: this note is the formal VIA-24 taxonomy entry ([[MOC - Character and Virtue]] §2.2 Courage); that note is the paraphrase used in the children's maps (§5) and is what [[Resilience is the Ability to Bounce Back from Setbacks]] actually links against. Deliberately kept as two notes rather than merged—see the MOC's own Tensions & Gaps entry.

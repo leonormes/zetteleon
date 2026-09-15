@@ -1,5 +1,4 @@
 ---
-aliases: [Research Transducer]
 conformant: false
 created: 2026-01-12T16:15:00+00:00
 modified: 2026-08-29T09:36:32+00:00

@@ -1,5 +1,5 @@
 ---
-aliases: [Configure Unify Execute, CUE Configuration, CUE Lang MOC]
+aliases: [CUE Lang MOC]
 created: 2026-02-04T00:00:00+00:00
 modified: 2026-08-29T09:36:29+00:00
 permalink: llmeon/30-library/mo-c/moc-cue-configuration

@@ -1,5 +1,5 @@
 ---
-aliases: [Cal Newport, Finitude, Planning Systems, Sarah Hart-Unger, Subjective Time, Temporal Perception, The Myth of the Starting Gun]
+aliases: [Cal Newport, Planning Systems, Sarah Hart-Unger]
 conformant: false
 created: 2025-12-29T20:02:17+00:00
 modified: 2026-08-29T09:36:43+00:00

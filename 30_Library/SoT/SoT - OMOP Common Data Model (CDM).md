@@ -1,5 +1,5 @@
 ---
-aliases: [Common Data Model, OHDSI Schema, OMOP CDM]
+aliases: [OHDSI Schema]
 conformant: false
 created: 2026-01-06T19:25:44+00:00
 last_reviewed: null

@@ -1,5 +1,5 @@
 ---
-aliases: [OHDSI Analytics, Patient-Level Prediction, Population-Level Estimation]
+aliases: [Patient-Level Prediction, Population-Level Estimation]
 conformant: false
 created: 2026-01-06T19:30:51+00:00
 last_reviewed: null

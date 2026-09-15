@@ -1,5 +1,5 @@
 ---
-aliases: [CoreDNS Configuration, DNS Architecture, Hybrid Cloud DNS, Protective DNS, Split-View DNS]
+aliases: [CoreDNS Configuration, Hybrid Cloud DNS, Protective DNS]
 conformant: false
 created: 2026-01-06T20:15:48+00:00
 last_reviewed: '2026-03-28'

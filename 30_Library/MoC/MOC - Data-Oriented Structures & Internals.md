@@ -1,5 +1,5 @@
 ---
-aliases: [Database and Structures Syllabus, DOP Learning Path, Systems Programming Curriculum]
+aliases: [Database and Structures Syllabus, Systems Programming Curriculum]
 created: 2025-12-31T00:00:00+00:00
 lastreviewed: 2025-12-31
 modified: 2026-08-29T09:36:30+00:00

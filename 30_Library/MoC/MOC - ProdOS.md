@@ -1,5 +1,5 @@
 ---
-aliases: [ProdOS Index, Productivity Operating System, Start Here]
+aliases: [ProdOS Index, Start Here]
 conformant: true
 created: 2025-12-04T14:38:32+00:00
 modified: 2026-09-04T19:30:00+00:00

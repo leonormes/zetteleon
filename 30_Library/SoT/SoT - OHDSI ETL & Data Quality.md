@@ -1,5 +1,5 @@
 ---
-aliases: [Data Quality Dashboard, DQD, OMOP ETL, Rabbit-in-a-Hat]
+aliases: [Data Quality Dashboard, DQD, OMOP ETL]
 conformant: false
 created: 2026-01-06T19:27:38+00:00
 last_reviewed: null

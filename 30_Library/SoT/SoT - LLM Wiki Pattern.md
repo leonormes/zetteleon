@@ -92,10 +92,45 @@ The LLM Wiki Pattern does not replace retrieval—it changes _when_ and _what_ i
 
 ---
 
+## Practical Application
+
+### Minimum Setup (any repo or project, not just this vault)
+
+1. Three folders/artefacts, not more: `raw/` (immutable inputs), `wiki/` (LLM-owned pages), and one schema file (`CLAUDE.md`, `AGENTS.md`, or equivalent) defining naming conventions, page skeleton, and cross-link syntax. Skipping the schema file is the most common failure—without it, every Ingest reinvents structure and pages stop being comparable.
+2. Reuse one page skeleton for every wiki entry rather than inventing structure per-topic. This vault's own [[Template - SoT]] (MVU → Working Knowledge → Current Understanding → Tensions & Gaps → Related Knowledge) is a working instance—copy that shape rather than designing a new one from scratch.
+3. Decide the granularity rule up front: one canonical page per concept/entity, never one page per source. A page-per-source wiki just recreates unprocessed fragments with extra steps and defeats the "high signal, pre-synthesised" property the whole pattern depends on (see [[#Relationship to Standard RAG]] above).
+
+### Running the Three Operations, Concretely
+
+| Operation | Generic mechanic | This vault's instance |
+|---|---|---|
+| Ingest | New source → agent drafts/updates the matching wiki page → agent cross-links it into neighbouring pages | [[Prompt - ProdOS Chronos Synthesizer]] (the Chronos ritual): HEAD note → SoT artefact |
+| Query | Answer from the wiki first; only touch raw sources if the wiki doesn't cover it; if it didn't, file the new answer back as a permanent wiki page—don't let it evaporate in chat | Semantic search via the MCP proxy → answer → the answer gets written back into the relevant SoT/claim note, not left in scrollback |
+| Lint | Sweep the wiki for orphan pages (no inbound links), contradictions, and stale claims | [[Knowledge Consolidation Agent]] (Triad discovery + dedup + typed edges) plus `edge_lint.py --audit` for structural validation ([[AGENTS.md]] §9.2) |
+
+### Heuristics for the Open Questions Below
+
+- **Lint cadence:** trigger-based beats calendar-based. Run a lint pass after every ~10 Ingests, or whenever the orphan-page ratio crosses ~5% of the wiki—whichever comes first. A fixed calendar cadence either fires when nothing changed (wasted pass) or misses a burst of ingestion (debt accumulates silently in between). These two numbers are starting points, not measured optima—recalibrate after a few cycles of real data.
+- **Write authority / hallucination risk:** require every wiki claim to carry a traceable pointer back to the raw source it came from (this generalises the evidence requirement in [[Protocol - Typed Answer Contract (TAC) for Vault Agents]]). An unsourced wiki claim is the highest-risk artefact in the system—flag it explicitly (this vault's mechanism: `conformant: false` + `non_conformance_reason`) rather than let it stand as trusted knowledge with no way to check it. Reserve a human review gate for exactly that case, not for every Ingest—gating everything reintroduces the friction the pattern exists to remove.
+
+### Failure Modes to Watch For
+
+- **Wiki bloat**—pages proliferate faster than links compound. Symptom: rising orphan-page ratio. Mitigation: the lint trigger above, and the one-page-per-concept granularity rule.
+- **Sync drift**—a raw source is corrected or retracted after Ingest, but the wiki page built from it isn't updated, so the wiki now asserts something the raw layer no longer supports. Mitigation: raw sources stay immutable (Three-Layer Architecture above); a correction is a *new* raw input that triggers a fresh Ingest, never a silent wiki edit with no paper trail back to why it changed.
+- **Summary-of-summary decay**—re-synthesising an already-synthesised page (rather than going back to the original raw source) gradually drops nuance, hedges, and caveats each pass. Mitigation: Ingest should cite the original raw source when updating a page, not just the current wiki text.
+
+### When It's Worth Setting Up
+
+Worth it: recurring sessions over the same domain or corpus, sources arriving incrementally over weeks or months, and a real chance of asking overlapping questions more than once.
+
+Not worth it: one-off Q&A over a static corpus, or a corpus small enough to fit entirely in context in one shot—the wiki-maintenance overhead (schema, linting, cross-referencing) has nothing to amortise against in a single session.
+
+---
+
 ## Tensions & Gaps
 
-- Lint cadence: How often should the lint operation run? Too frequent adds overhead; too infrequent allows debt to accumulate. No formalised heuristic yet.
-- Write authority: Giving the LLM full ownership of the wiki layer creates a risk of confident hallucinations being permanently encoded. The Schema/style-guide layer partially mitigates this but doesn't eliminate it. Human review gates on Ingest would add fidelity at the cost of friction.
+- Lint cadence: partially resolved above with a trigger-based heuristic (N≈10 Ingests or 5% orphan ratio)—but those two numbers are unvalidated guesses, not measured thresholds. No data yet on whether they're too tight or too loose in practice.
+- Write authority: Giving the LLM full ownership of the wiki layer creates a risk of confident hallucinations being permanently encoded. The source-citation requirement above (Practical Application) and a human review gate scoped to unsourced claims mitigate this but don't eliminate it—an LLM can still misread a correctly-cited source.
 
 ---
 
@@ -106,6 +141,9 @@ The LLM Wiki Pattern does not replace retrieval—it changes _when_ and _what_ i
 - [[SoT - Context Engineering]]—Signal density; the wiki maximises signal by pre-synthesising source material
 - [[SoT - ML Engineering for AI Agents]]—Persistent memory / experiment log as a domain-specific instance
 - [[10_System/prompts/Knowledge Consolidation Agent.md]]—The Lint operation formalised as an agent protocol
+- [[Prompt - ProdOS Chronos Synthesizer]]—The Ingest operation formalised as an agent protocol (HEAD → SoT)
+- [[Template - SoT]]—The page skeleton this pattern's wiki layer reuses per-concept
+- [[Protocol - Typed Answer Contract (TAC) for Vault Agents]]—The source-citation discipline the Write Authority mitigation generalises from
 - [[MOC - AI Software Engineering]]
 
 ## Tensions

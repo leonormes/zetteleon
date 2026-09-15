@@ -1,5 +1,5 @@
 ---
-aliases: [Cognitive Offloading, Thinking by Doing]
+aliases: [Thinking by Doing]
 axiom: true
 conformant: false
 created: 2025-12-24T12:00:00+00:00

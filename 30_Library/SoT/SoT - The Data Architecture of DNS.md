@@ -1,5 +1,5 @@
 ---
-aliases: [DNS Architecture, FQDN, Hierarchical Naming, Reverse DNS]
+aliases: [DNS Architecture, FQDN, Hierarchical Naming]
 conformant: false
 created: 2025-03-04T13:42:19+00:00
 modified: 2026-08-29T09:36:43+00:00
