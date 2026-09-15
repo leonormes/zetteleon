@@ -1,8 +1,8 @@
 ---
 created: 2026-09-08T19:59:21+00:00
-modified: 2026-09-08T21:09:27+00:00
+modified: 2026-09-14T20:24:25+00:00
 permalink: llmeon/00-inbox/untitled-1
-title: Untitled
+title: David Deutsch and Peter Godfrey-Smith
 ---
 
 Based on the provided sources, David Deutsch and Peter Godfrey-Smith offer fundamentally different views of the scientific method. Deutsch champions a strict, explanation-focused evolution of Karl Popper's philosophy, entirely rejecting empiricism and induction. In contrast, Godfrey-Smith critiques strict Popperian views and advocates for a "naturalistic" approach that salvages core empiricist ideals by focusing on the social structures and procedures of science.
