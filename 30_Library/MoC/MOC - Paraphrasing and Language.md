@@ -20,6 +20,8 @@ This Map of Content (MOC) organizes notes exploring the nature of paraphrasing a
 - [[Cultural and Linguistic Knowledge in Paraphrasing]] - Essential cultural context for effective paraphrasing
 - [[Metacognitive Awareness in Paraphrasing]] - Conscious monitoring during translation
 - [[Mental Translation in Paraphrasing]] - Finding alternative expressions preserving meaning
+- [[Repeated Pre-Linguistic Experience Builds the Familiarity That Enables Richer Paraphrase]] - Where paraphrase capacity comes from: a developmental feedback loop between experience and expression
+- [[Developing an Idea Differs From Presenting a New One]] - A diagnostic test for classifying an extended argument as a sophisticated paraphrase rather than a new idea
 
 ## Metaphor and Philosophy
 

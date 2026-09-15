@@ -317,7 +317,9 @@ A theme such as feedback may connect archery and DevOps conceptually. A drive su
 
 - [[HEAD - How Should Interests Stay Aligned Across Obsidian, Calibre, Todoist, Hookmark, and NotebookLM]]—the downstream mechanical counterpart to this project.
 - [[A Portable Interest and PKM Knowledge Graph — Interest Seed and Candidate Drivers]]—the current ranked interest-node list and initial observation set.
-- [[A Faceted PKM Schema Should Separate Domain (Visible Subject) from Theme (Cross-Cutting Mechanism)]]—the Domain/Theme distinction used here.
+[extends:: [[A Faceted PKM Schema Should Separate Domain (Visible Subject) from Theme (Cross-Cutting Mechanism)]], strength=3, confidence=medium]
+
+- [[A Faceted PKM Schema Should Separate Domain (Visible Subject) from Theme (Cross-Cutting Mechanism)]]—extends: this project's Domain/Theme/Drive split adds a third facet (drive) to that note's original two-facet (domain/theme) model.
 - [[Betweenness Centrality Identifies Interdisciplinary Bridge Concepts]]—potentially useful for structural discovery, but not evidence of causal importance.
 - [[Feynman's Twelve Favorite Problems Acts as a Continuous Curiosity Filter]]—a related practice of testing new material against standing questions.
 - [[MOC - ADHD (The Master Map)]]—a large existing cluster that may reveal overlaps, while also requiring care not to explain every drive through one framework.

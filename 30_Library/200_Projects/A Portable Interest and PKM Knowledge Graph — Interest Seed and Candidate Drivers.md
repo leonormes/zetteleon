@@ -33,11 +33,18 @@ Counted tag frequency across the vault (`obsidian tags counts sort=count`, run 2
 | Mathematics | `#topic/maths` · 33, `#mathematics`/`#math` · 8/8 | analyse, appreciate | low (auto) |
 | Archery | `#archery` · 17, `#domain/archery` · 6 | practise | low (auto) |
 | Physics (relativity, quantum) | `#physics` · 14, `#quantum-mechanics` · 4, `#relativity` · 2 | analyse, appreciate | low (auto) |
-| Bessie's education / family | `#bessie` · 42 | support, teach, organise | low (auto) |
 | Habits, virtue, character, Stoicism | `#TheHuman/Habits` · 59, `#virtue` · 18, `#stoicism` · 3 | analyse, apply to self | low (auto) |
 | Zen / Japanese philosophy / fables | `#zen` · 9, `#Japanese_culture` · 6, `#fable` · 7 | consume, appreciate | low (auto) |
 | Communication & relationships | `#communication` · 31, `#relationship` · 23 | analyse, apply to self | low (auto) |
 | Music | `#music` · 9 | consume, appreciate | low (auto) |
+
+## Excluded: Life Foci (Not Interest Nodes)
+
+Per Leon, 2026-09-15: these are a focus for life, not an interest in the sense this project studies — they don't compete for attention the way an interest does, and running them through the same driver-elicitation machinery (why does this matter to me? what would I keep if it had no utility?) would be a category error. Kept here rather than deleted, since the tag evidence is real and may still be useful context elsewhere (e.g. as a `context` node in the Graph Model that amplifies or inhibits other interests, per [[A Portable Interest and PKM Knowledge Graph]] §"What the Project Maps").
+
+| Excluded | Vault evidence (tag · count) | Reason for exclusion |
+|---|---|---|
+| Bessie's education / family | `#bessie` · 42 | Life focus, not an interest — per Leon's direct correction, 2026-09-15 |
 
 ## Today's Engagement Episode (2026-09-14)
 
@@ -103,3 +110,54 @@ What would test it—per [[How to Interrogate a Candidate Interest Driver]] and 
 6. What would falsify this: repeatedly choosing difficult private inquiry with no audience, utility, status, or performance payoff would show the drive is more than defence.
 
 Do not treat as settled, and do not collapse into a single "fear of being stupid" label—the source is explicit both that an authentic attraction to deep structure and elevated emotional stakes around not understanding can be true at once, and that this needs testing against contrasts, not narrative fluency alone.
+
+### First-Principles Modelling, Turned Inward and Outward—`proposed`, 2026-09-15
+
+A Compare/Contrast pass (§2) across the fuller interest set, grounded in vault evidence rather than tag counts (a fork research pass this session searched `100_zettelkasten/`, HEAD notes, `90_Audits/`, `99_Archive/`, the trashed early drafts of this project, and `01_journals/Dailies/` — 287 entries — for genuine first-person material). This strengthens, rather than replaces, the Epistemic Safety candidate above.
+
+Definition: a pull toward building a legible, mechanism-level model of whatever system is in front of him—sometimes an external technical system (cloud infrastructure, security, LLM internals, physics), sometimes a domain's own foundations (maths: [[Public perception of maths is incomplete]]'s "My Thoughts" section explicitly identifies with the engineer/creator side over the mechanic/application side, and diagnoses school maths as failing to expose the "engineering mindset"), sometimes himself (ADHD studied as "an engineering problem" per [[SoT - The Interest-Based Nervous System in ADHD|Reference - Vault Interest Map]]; [[Discipline Is a Property of External Structure More Than of Will]] applies Lewin's `B = f(P, E)` with a full typed-edge argument graph and its own `## Tensions & Gaps` section to his own willpower).
+
+The finding this pass adds: the same orientation appears to explain two very differently-shaped clusters at once—
+
+1. Domains with huge vault volume but almost no first-person reflective voice (cloud/DevOps, security, LLM/agentic AI, physics, epistemology, Stoicism, Zen)—engaged with as *content to organise and analyse*.
+2. Domains with comparatively thin tag volume but the richest personal-voice evidence in the vault (PKM, ADHD, discipline, archery)—engaged with as *practice to reflect on*.
+
+The candidate mechanism: modelling an external system doesn't require narrating why it matters to you; modelling yourself does, by necessity. If this holds, richness of reflective writing is not evidence of a stronger interest—it's an artefact of whether the system being modelled is external or is himself.
+
+Specificity check (a good sign, not a gap): the candidate correctly does *not* explain Music. He doesn't attempt to model music theory or compose; the operative criterion there ([[Asking Why a Song Exists Helps Determine its Authenticity]]) is about the *artist's* originating motivation, not his own systems-understanding. A driver that explains some interests and not others—correctly—is stronger evidence than one stretched to fit everything (Evidence Standard: Specificity).
+
+Complication for the existing Feedback-Rich Deliberate Practice candidate above, recorded per Principle #12: cloud/DevOps, security, and LLM/agentic AI are all feedback-rich domains (logs, errors, test results) that nonetheless show almost no personal reflective voice—so feedback-richness alone does not predict where the reflective pull shows up. It may be necessary but not sufficient, or it may only bind when the practice is embodied/self-referential (archery, PKM) rather than professional/external (cloud, security)—not yet distinguished.
+
+What would test it, per [[How to Interrogate a Candidate Interest Driver]]: does first-principles investigation persist in domains with zero audience, utility, or performance payoff? Are there systems he's had ample opportunity to model but has conspicuously not—and what differs about those cases?
+
+Do not treat as settled—this is a Compare pass over existing writing, not yet tested against live behaviour (Method §5).
+
+### Process/Construction Legitimises, Consumption Needs Defending—`proposed`, 2026-09-15
+
+A second, independent pattern from the same evidence pass, recurring across three domains that share no subject matter: maths (creator vs. mechanic, above), PKM ([[Why I Do a PKM and What I Think Knowledge Is For]]: explicit rejection of "the polished-wiki model" in favour of a process that "captures the messy journey"—"the value sits in the network a summary rests on, not the summary itself"), and music, where [[The Distinction Between Appreciation and Creation]] reads as an explicit philosophical defence of pure consumption ("learning is not a failed attempt at creation; it is a successful attempt at becoming a more sophisticated appreciator... both roles are valid")—the fact that appreciation-without-creation needed defending at all is itself evidence that creation/construction is his default standard for what counts as legitimate engagement.
+
+Epistemic caution: the maths and PKM evidence is explicit first-person commentary ("My Thoughts," "I want to use writing..."); the appreciation/creation and music-authenticity notes are general third-person claims he chose to write in this framing, not direct self-report. Treat this candidate as resting on weaker-grade evidence than the one above until that gap is closed.
+
+Incomplete ladder, recorded honestly per Method §3 rather than forced to a root: the evidence establishes the *pattern* (construction over consumption, recurring) but doesn't yet reach a terminal "why." Open question, per Principle #11 (preserve competing explanations): is this a corollary of the driver above (building a first-principles model requires active construction) or an independent aesthetic/epistemic value—the music case is the discriminating evidence, since there he isn't the one constructing at all, only judging whether someone else's construction was authentic. That the pattern still shows up when he's a judge rather than a builder leans toward "independent," but one case is not enough to conclude it.
+
+### Methodological flag, not a driver—2026-09-15
+
+ADHD may function partly as a `context` node (per the Graph Model's node kinds) rather than purely as its own `interest`—[[Why I Do a PKM and What I Think Knowledge Is For]] frames PKM's whole rationale around compensating for "an ADHD working memory [that] can't hold it all at once." Not reclassified here; flagged for Leon's call, since it changes how several edges in the eventual graph should be drawn (`enabled-by`/`amplifies` vs. its own `provides`/`may-satisfy` chain).
+
+### Excluded from this pass
+
+Per Leon's correction, 2026-09-15: Bessie's education/family is a life focus, not an interest, and was not searched or analysed in this pass (see the Excluded section above).
+
+### Correction from Leon, 2026-09-15 — vault-mining produced two errors
+
+This is the exact failure mode Principle #9 warned about ("absence may also reflect lack of exposure, access, energy, confidence, or opportunity") and the seed note's own §"Method Used here" flagged in advance ("will... underweight embodied or non-written interests... relative to their true pull"). Recorded per Principle #12/#15 rather than silently rewritten.
+
+**DevOps/cloud/security/LLM — not thin engagement, wrong evidence source.** Leon: "The devops stuff is for a different reason. I think it fails the pkm protocol because it is just info about the things I am doing at work. The reflection is me doing the actual work outside the vault." The near-zero reflective voice found in this pass is not evidence of weaker pull—it's evidence that this vault isn't where that reflection happens. Practice and reflection occur through the paid work itself, off-vault. This *strengthens* the First-Principles Modelling candidate's plausible reach (it may genuinely extend to these domains, not stop at their edge)—but leaves open, un-answered by this correction, whether the drive there is terminal (intrinsic pull, expressed through the job) or instrumental (professional conscientiousness, distinguishable per Principle #10). That distinction needs Leon's direct answer, not inference: would the pull survive with the paycheck and audience removed?
+
+**Music — actively wrong, not just thin.** Leon: "I used to be a musician and spent all day everyday practicing and playing and listening." The "Process/Construction Legitimises, Consumption Needs Defending" candidate above used music as its third leg, characterising him as staying in consume/appreciate mode and needing to philosophically defend that. This was false—built on a coincidental pair of notes, not on his history. Leon: "The mentions of music in this vault are just from a conversation I was having with Bessie about the difference between real human music and plastic manufactured music." [[Asking Why a Song Exists Helps Determine its Authenticity]] and [[The Distinction Between Appreciation and Creation]] are not autobiographical self-permission-giving—the first came from a conversation with his daughter about a topic, and the second's link to music was this project's own mis-association, not the note's own content (it names F1 and film as its examples, not music).
+
+**Consequence for Process/Construction Legitimises:** downgraded—two domains (maths, PKM), not three. Music needs to be re-elicited properly, live, not re-inferred from the vault, before it can support or weaken any candidate. The interest-node table's "Music" row (`consume, appreciate`, low confidence, tag-count-derived) is now known to be materially incomplete—a sustained, intense, practice-heavy period is entirely unrepresented in this vault.
+
+**Standing questions for Leon, not yet answered:**
+- Music: when did daily practice/playing stop, and why? What did it give you that nothing since has replaced, or what got replaced and by what?
+- DevOps/cloud/security: does the pull hold with the paycheck, audience, and operational stakes removed—e.g. would you go deep on a system with no professional relevance at all?
