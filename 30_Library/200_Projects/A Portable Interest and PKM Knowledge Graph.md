@@ -316,7 +316,7 @@ A theme such as feedback may connect archery and DevOps conceptually. A drive su
 ## Related
 
 - [[HEAD - How Should Interests Stay Aligned Across Obsidian, Calibre, Todoist, Hookmark, and NotebookLM]]—the downstream mechanical counterpart to this project.
-- [[Reference - Vault Interest Map]]—the current ranked interest-node list and initial observation set.
+- [[A Portable Interest and PKM Knowledge Graph — Interest Seed and Candidate Drivers]]—the current ranked interest-node list and initial observation set.
 - [[A Faceted PKM Schema Should Separate Domain (Visible Subject) from Theme (Cross-Cutting Mechanism)]]—the Domain/Theme distinction used here.
 - [[Betweenness Centrality Identifies Interdisciplinary Bridge Concepts]]—potentially useful for structural discovery, but not evidence of causal importance.
 - [[Feynman's Twelve Favorite Problems Acts as a Continuous Curiosity Filter]]—a related practice of testing new material against standing questions.

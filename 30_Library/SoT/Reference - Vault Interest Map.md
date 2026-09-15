@@ -37,3 +37,4 @@ A pull towards systems and first principles—whether the system is a Kubernetes
 ## Related
 
 - [[SoT - HashiCorp Vault Architecture]]
+- [[A Portable Interest and PKM Knowledge Graph — Interest Seed and Candidate Drivers]]—distinct from this note, despite the near-identical title this note used to share with it until 2026-09-15: that note is a raw, low-confidence, tag-frequency seed table plus a candidate-driver hypothesis log for one specific active project (why these interests exist, not just what they are). This note is the older, stable, qualitative "what I'm about" snapshot. The title collision caused several backlinks elsewhere in the vault to silently resolve to the wrong note; those have been corrected.

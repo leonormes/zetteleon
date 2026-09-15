@@ -2,10 +2,10 @@
 conformant: false
 created: 2026-09-14T00:00:00+00:00
 modified: 2026-09-14T11:52:25+00:00
-non_conformance_reason: "Reference/data artifact (ranked interest-node list), not one of the 5 canonical TAC note types; seeded per Method §1 of [[A Portable Interest and PKM Knowledge Graph]]."
-permalink: llmeon/30-library/200-projects/reference-vault-interest-map
+non_conformance_reason: "Reference/data artifact (ranked interest-node list), not one of the 5 canonical TAC note types; seeded per Method §1 of [[A Portable Interest and PKM Knowledge Graph]]. Renamed 2026-09-15 from 'Reference - Vault Interest Map' — that title collided with a pre-existing, unrelated note at 30_Library/SoT/Reference - Vault Interest Map.md (created 2026-06-10), which caused several backlinks to silently resolve to the wrong note. See that note's own Related section for the disambiguation record."
+permalink: llmeon/30-library/200-projects/interest-driver-project-tag-frequency-seed-and-candidate-drivers
 tags: [domain/pkm, topic/metacognition, topic/self-inquiry]
-title: Reference - Vault Interest Map
+title: A Portable Interest and PKM Knowledge Graph — Interest Seed and Candidate Drivers
 type: concept
 ---
 

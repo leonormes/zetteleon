@@ -107,7 +107,7 @@ confidence: low | medium | high
 review_after: YYYY-MM-DD
 ```
 
-Distinguishes, e.g.: "practises recurve archery" (observation) → "archery supplies rapid feedback" (interpretation) → "feedback-rich activities may satisfy a drive for competence" (hypothesis). Protects against an agent converting self-reflection into an authoritative psychological conclusion — directly reinforces the existing `proposed`/`supported`/`contested`/`provisional` status discipline already in use in [[A Portable Interest and PKM Knowledge Graph]] and [[Reference - Vault Interest Map]]. Also explicitly warns against treating graph centrality as a causal driver score — centrality tells you what to investigate next, not what's generative.
+Distinguishes, e.g.: "practises recurve archery" (observation) → "archery supplies rapid feedback" (interpretation) → "feedback-rich activities may satisfy a drive for competence" (hypothesis). Protects against an agent converting self-reflection into an authoritative psychological conclusion — directly reinforces the existing `proposed`/`supported`/`contested`/`provisional` status discipline already in use in [[A Portable Interest and PKM Knowledge Graph]] and [[A Portable Interest and PKM Knowledge Graph — Interest Seed and Candidate Drivers]]. Also explicitly warns against treating graph centrality as a causal driver score — centrality tells you what to investigate next, not what's generative.
 
 #### Proposed priority order (not yet started)
 

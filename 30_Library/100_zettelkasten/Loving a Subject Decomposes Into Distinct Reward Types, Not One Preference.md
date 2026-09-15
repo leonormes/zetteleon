@@ -33,4 +33,4 @@ Illustrated with mathematics in the source; framed as generalisable to any subje
 ### Related
 
 - [[A Competence Feedback Loop Turns Early Success Into Durable Interest]]—extends: one of the several distinct routes into (or out of) a subject this note distinguishes.
-- [[Reference - Vault Interest Map]]—extends: refines the "mode observed" column—the same mode (e.g. "analyse") can still be chasing different reward types underneath.
+- [[A Portable Interest and PKM Knowledge Graph — Interest Seed and Candidate Drivers]]—extends: refines the "mode observed" column—the same mode (e.g. "analyse") can still be chasing different reward types underneath.

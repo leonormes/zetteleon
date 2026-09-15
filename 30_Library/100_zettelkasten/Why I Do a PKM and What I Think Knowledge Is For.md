@@ -45,4 +45,4 @@ Knowledge, for me, isn't a possession to accumulate—it's a byproduct of the ef
 ## Related
 
 - [[A Portable Interest and PKM Knowledge Graph]]—PKM is itself one of the interest nodes that project studies; this note is the "why" layer for that specific interest.
-- [[Reference - Vault Interest Map]]—today's session, which produced this note, is logged there as an engagement episode.
+- [[A Portable Interest and PKM Knowledge Graph — Interest Seed and Candidate Drivers]]—today's session, which produced this note, is logged there as an engagement episode.

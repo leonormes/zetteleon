@@ -33,4 +33,4 @@ Applies to explaining why the same activity produces durable engagement in one p
 ### Related
 
 - [[A Portable Interest and PKM Knowledge Graph]]—extends: this is the general-psychology premise behind that project's Core Hypothesis (a small set of interacting drives, not one root cause, generates the named interests).
-- [[Reference - Vault Interest Map]]—extends: the theoretical grounding for why that map's "interest nodes" are only the visible layer, not the explanation.
+- [[A Portable Interest and PKM Knowledge Graph — Interest Seed and Candidate Drivers]]—extends: the theoretical grounding for why that map's "interest nodes" are only the visible layer, not the explanation.
