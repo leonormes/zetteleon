@@ -1,9 +1,8 @@
 ---
-aliases: [Belief Architecture, Cognitive Spaces, Limiting Beliefs SoT, Mindset Engineering]
-conformant: false
+aliases: [Belief Architecture, Cognitive Refactoring (Neural Debugging), Cognitive Spaces, Limiting Beliefs SoT, Mindset Engineering]
+conformant: true
 created: 2025-12-16T00:00:00+00:00
-modified: 2026-08-29T09:36:34+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+modified: 2026-09-15T12:20:21+00:00
 permalink: llmeon/30-library/so-t/so-t-belief-architecture-cognitive-spaces
 tags: [beliefs, cognition, mental_models, TheHuman/Mindset, TheHuman/Psychology]
 title: SoT - Belief Architecture & Cognitive Spaces
@@ -42,17 +41,17 @@ For neurodivergent minds, the most dangerous beliefs are Identity-Level Constrai
 | "I can't trust myself." | External Control (Parenting). | "I need better data." | External Systems (Prosthetics). |
 | "I should be able to do this." | Willpower (Force). | "This isn't working." | Refactoring (Pivot). |
 
-The Mechanism: [[Misinterpretation as Character Flaws]] creates the "Broken" belief, which leads to [[Unexplained Underachievement]]. Reframing this is the work of [[SoT - Cognitive Refactoring (Neural Debugging)]].
+The Mechanism: [[Misinterpretation as Character Flaws]] [depends_on:: [[Misinterpretation as Character Flaws]], confidence=medium] creates the "Broken" belief, which leads to [[Unexplained Underachievement]] [depends_on:: [[Unexplained Underachievement]], confidence=medium]. Reframing this is the work of Cognitive Refactoring (Neural Debugging)—this note's own alternate name (see aliases), applied downstream in [[SoT - Personal Agency and Transformation]]'s "Court Rejection" tactic.
 
 ---
 
 ## 4. Functional Epistemology
 
-In ProdOS, we adopt a Pragmatic Truth standard. We do not ask "Is this objectively true?" (often unknowable); we ask "Is this useful?"
+In ProdOS, we adopt a Pragmatic Truth standard. [implements:: [[Pragmatic Truth Focuses on Utility Over Absolute Correctness]], confidence=high] We do not ask "Is this objectively true?" (often unknowable); we ask "Is this useful?"
 
 - Example: "I am an Explorer."
   - _Is it true?_ Maybe.
-  - _Is it useful?_ Yes. It reframes failure as "Data Gathering," reducing shame and increasing resilience ([[SoT - Reframe Your Mindset From Pretender to Explorer]]). Therefore, we install this belief.
+  - _Is it useful?_ Yes. It reframes failure as "Data Gathering," reducing shame and increasing resilience ([[SoT - Reframe Your Mindset From Pretender to Explorer]] [depends_on:: [[SoT - Reframe Your Mindset From Pretender to Explorer]], confidence=medium]). Therefore, we install this belief.
 
 ---
 
@@ -63,13 +62,17 @@ To maintain a healthy cognitive space, we must actively practice Meta-Framing—
 1. Audit: Notice when you feel "stuck" (The wall).
 2. Identify: What belief is creating this wall? ("I must do it perfectly").
 3. Refactor: Create a door. ("I can do a messy draft first").
-4. Install: Adopt the new belief through Evidence ([[SoT - Identity-Based Habit Formation]]).
+4. Install: Adopt the new belief through Evidence ([[SoT - Habit Formation Framework#3. Driver: Identity-Based Habits|SoT - Identity-Based Habits]]).
 
 ---
 
 ## 6. Related Zettels
 
-- [[Beliefs as Defining Spaces]] - The original concept note.
-- [[Common Cognitive Distortions]] - The bugs in the architecture.
+- [[Beliefs as Defining Spaces]] - The original concept note this SoT operationalises into the Prison Cell/Hallway model. [extends:: [[Beliefs as Defining Spaces]], confidence=high]
+- [[Common Cognitive Distortions]] - The bugs in the architecture. [depends_on:: [[Common Cognitive Distortions]], confidence=medium]
 - [[MOC - Meta Framing]] - The architect's view.
 - [[30_Library/100_zettelkasten/Emotional Reasoning]] - Mistaking the feeling of the wall for the reality of the wall.
+- [[Distorted Negative Self-Image]]—_The real-world cost of the "Broken" limiting belief when left unchallenged in ADHD contexts._ [depends_on:: [[Distorted Negative Self-Image]], confidence=medium]
+- [[Reframe Habit Setbacks as Capacity Limits Not Character Flaws]]—_The same character-flaw-vs-capacity-limit reframe generalised beyond identity beliefs to habit setbacks specifically._ [depends_on:: [[Reframe Habit Setbacks as Capacity Limits Not Character Flaws]], confidence=medium]
+- [[Claim - When intelligence is bound to identity, epistemic errors are experienced as threats to self-worth]]—_The same identity-trap mechanism where the constrained identity is intelligence rather than capability._ [depends_on:: [[Claim - When intelligence is bound to identity, epistemic errors are experienced as threats to self-worth]], confidence=medium]
+- [[Pragmatic Truth Focuses on Utility Over Absolute Correctness]]—_The general epistemological thesis §4 Functional Epistemology specialises for belief-selection._
