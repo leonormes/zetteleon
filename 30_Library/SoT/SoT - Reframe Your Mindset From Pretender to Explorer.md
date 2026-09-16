@@ -32,7 +32,7 @@ Imposter Syndrome is the gap between _who you think you should be_ and _who you 
 
 ### The Core Shift
 
-You stop trying to be the "Academic Specialist" ([[Intellectual Explorer vs Academic Specialist]]) who guards a silo of knowledge, and accept the role of the scout who connects silos.
+You stop trying to be the "Academic Specialist" ([[Success is Connection Not Mastery]]) who guards a silo of knowledge, and accept the role of the scout who connects silos.
 
 ---
 

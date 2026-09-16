@@ -14,7 +14,7 @@ updated: null
 
 Meta Framing helps to shine a light on our beliefs about beliefs so we can interrogate them and ultimately reveal how our mental models shape our perception and decision-making.
 
-This process requires overcoming [[Naive Realism Makes Mental Models Invisible|naive realism]] - the unconscious belief that we perceive reality objectively rather than through our subjective mental frameworks. Like [[The Map is Not the Territory]], our beliefs are simplified representations that can become [[Flawed Mental Models Limit Mastery|limiting when mistaken for reality itself]].
+This process requires overcoming [[Mistaking the Map for the Territory|naive realism]] - the unconscious belief that we perceive reality objectively rather than through our subjective mental frameworks. Like [[The Map is Not the Territory]], our beliefs are simplified representations that can become [[Flawed Mental Models Limit Mastery|limiting when mistaken for reality itself]].
 
 Meta framing connects to [[Metacognitive Deficits in ADHD Create Practical Impairments|ADHD is Associated with Deficits in Metacognition]] - the ability to think about our own thinking. This self-reflective capacity is essential for examining how our [[Beliefs as Defining Spaces|beliefs create possibility spaces]] that can be either empowering or constraining.
 
