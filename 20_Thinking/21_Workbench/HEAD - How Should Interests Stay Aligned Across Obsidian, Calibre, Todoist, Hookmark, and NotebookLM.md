@@ -1,6 +1,6 @@
 ---
 created: 2026-09-13T00:00:00+00:00
-modified: 2026-09-13T10:36:53+00:00
+modified: 2026-09-16T07:54:55+00:00
 permalink: llmeon/20-thinking/21-workbench/head-how-should-interests-stay-aligned-across-obsidian-calibre-todoist-hookmark-and-notebook-lm
 status: open
 tags: [domain/pkm, topic/knowledge-architecture, topic/tooling]
