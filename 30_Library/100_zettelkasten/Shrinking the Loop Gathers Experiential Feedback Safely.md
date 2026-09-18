@@ -1,10 +1,9 @@
 ---
 aliases: [Ollie the Octopus Method, Shrink the Loop]
-created: 2025-07-17T10:06:00+00:00
+created: 2025-07-17 10:06:00+00:00
 last_reviewed: ''
-modified: 2026-09-09T12:34:16+00:00
+modified: 2026-09-09 12:34:16+00:00
 permalink: llmeon/30-library/100-zettelkasten/shrinking-the-loop-gathers-experiential-feedback-safely
-status: ''
 tags: [action, fear, overthinking, strategy]
 title: Shrinking the Loop Gathers Experiential Feedback Safely
 type: ''

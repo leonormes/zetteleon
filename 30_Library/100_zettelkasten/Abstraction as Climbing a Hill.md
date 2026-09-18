@@ -1,10 +1,9 @@
 ---
 aliases: []
-created: 2025-07-26T19:03:40+00:00
+created: 2025-07-26 19:03:40+00:00
 last_reviewed: ''
-modified: 2026-09-09T12:34:07+00:00
+modified: 2026-09-09 12:34:07+00:00
 permalink: llmeon/30-library/100-zettelkasten/abstraction-as-climbing-a-hill
-status: ''
 tags: [abstraction]
 title: Abstraction as Climbing a Hill
 type: permanent

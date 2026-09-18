@@ -1,10 +1,9 @@
 ---
 aliases: []
-created: 2025-08-29T15:20:43+00:00
+created: 2025-08-29 15:20:43+00:00
 last_reviewed: 'null'
-modified: 2026-09-09T12:34:17+00:00
+modified: 2026-09-09 12:34:17+00:00
 permalink: llmeon/30-library/100-zettelkasten/tacit-vs-explicit-knowledge
-status: 'null'
 tags: [teams, TheHuman/Cognition/mental-model, topic/knowledge-management]
 title: Tacit vs Explicit Knowledge
 type: 'null'

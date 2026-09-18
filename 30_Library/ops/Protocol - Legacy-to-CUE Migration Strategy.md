@@ -1,8 +1,8 @@
 ---
-created: 2026-02-05T21:05:00+00:00
-modified: 2026-08-29T09:36:46+00:00
+created: 2026-02-05 21:05:00+00:00
+modified: 2026-08-29 09:36:46+00:00
 permalink: llmeon/30-library/ops/protocol-legacy-to-cue-migration-strategy
-status: active
+status: stable
 tags: [cue, devops, helm, infra, migration, protocol]
 title: Protocol - Legacy-to-CUE Migration Strategy
 trust-level: high

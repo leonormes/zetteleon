@@ -1,14 +1,5 @@
 ---
-created: 2026-06-02T21:00:24+00:00
-modified: 2026-08-29T09:36:11+00:00
-next-action: the exact Todoist task text
-permalink: llmeon/30-library/200-projects/decorate-office
-project_category: personal
-project_name: Home
-project_status: archived
-status: active
-title: Decorate office
-type: null
+{created: !!timestamp '2026-06-02 21:00:24+00:00', modified: !!timestamp '2026-08-29 09:36:11+00:00', next-action: the exact Todoist task text, permalink: llmeon/30-library/200-projects/decorate-office, project_category: personal, project_name: Home, project_status: archived, status: stable, title: Decorate office, type: null}
 ---
 
 ## Outcome—definition Of Done

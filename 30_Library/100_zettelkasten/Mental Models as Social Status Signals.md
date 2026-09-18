@@ -1,10 +1,9 @@
 ---
 aliases: []
-created: 2025-10-20T09:55:00+00:00
+created: 2025-10-20 09:55:00+00:00
 last_reviewed: 'null'
-modified: 2026-09-09T12:34:13+00:00
+modified: 2026-09-09 12:34:13+00:00
 permalink: llmeon/30-library/100-zettelkasten/mental-models-as-social-status-signals
-status: 'null'
 tags: [sociology, status, TheHuman/Cognition, TheHuman/Psychology]
 title: Mental Models as Social Status Signals
 type: 'null'

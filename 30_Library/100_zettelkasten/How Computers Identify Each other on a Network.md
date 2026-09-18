@@ -1,10 +1,9 @@
 ---
 aliases: []
-created: 2025-05-12T05:13:56+00:00
+created: 2025-05-12 05:13:56+00:00
 last_reviewed: 'null'
-modified: 2026-09-09T12:34:12+00:00
+modified: 2026-09-09 12:34:12+00:00
 permalink: llmeon/30-library/100-zettelkasten/how-computers-identify-each-other-on-a-network
-status: 'null'
 tags: [SoftwareEngineering/networking/dns]
 title: How Computers Identify Each other on a Network
 type: 'null'

@@ -1,10 +1,9 @@
 ---
 aliases: []
-created: 2025-07-01T12:05:33+00:00
+created: 2025-07-01 12:05:33+00:00
 last_reviewed: 'null'
-modified: 2026-09-09T12:34:12+00:00
+modified: 2026-09-09 12:34:12+00:00
 permalink: llmeon/30-library/100-zettelkasten/kubernetes-native-abstractions-for-traffic-control
-status: 'null'
 tags: [SoftwareEngineering/Networking]
 title: Kubernetes-Native Abstractions for Traffic Control
 type: 'null'

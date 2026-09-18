@@ -1,11 +1,10 @@
 ---
 aliases: []
-created: 2025-10-10T08:34:04+00:00
+created: 2025-10-10 08:34:04+00:00
 id: 20251008_Deep_Agents_for_Long_Horizon_Planning
 last_reviewed: ''
-modified: 2026-09-09T12:34:10+00:00
+modified: 2026-09-09 12:34:10+00:00
 permalink: llmeon/30-library/100-zettelkasten/deep-agents-for-long-horizon-planning
-status: ''
 tags: [domain/llm, topic/agent-architecture, topic/langgraph, topic/planning]
 title: Deep Agents for Long Horizon Planning
 type: ''

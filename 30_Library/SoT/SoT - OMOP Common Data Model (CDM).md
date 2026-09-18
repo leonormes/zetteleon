@@ -1,12 +1,12 @@
 ---
 aliases: [OHDSI Schema]
 conformant: false
-created: 2026-01-06T19:25:44+00:00
+created: 2026-01-06 19:25:44+00:00
 last_reviewed: null
-modified: 2026-08-29T09:36:40+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+modified: 2026-08-29 09:36:40+00:00
+non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/so-t/so-t-omop-common-data-model-cdm
-status: Active
+status: stable
 tags: [data-model, ohdsi, omop, schema]
 title: SoT - OMOP Common Data Model (CDM)
 type: sot

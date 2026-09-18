@@ -1,21 +1,25 @@
 ---
-title: Removing a Negative Feedback Loop Can Cause Ecological Overshoot (the Kaibab Deer Case)
-type: concept
-status: seed
+conformant: true
+contradicts: []
+created: 2026-09-14T00:00:00+00:00
+epistemic_status: high
+evidence_links: []
+modified: 2026-09-18T13:38:58+01:00
+non_conformance_reason: 
+permalink: llmeon/30-library/100-zettelkasten/removing-a-negative-feedback-loop-can-cause-ecological-overshoot-the-kaibab-deer-case
 prodos.kind: atomic
 prodos.lifecycle: seed
-source_title: 'Systems: Overshoot and Collapse (Donella Meadows, 1977)'
+proposition: When natural predators were removed from the Kaibab Plateau, a critical negative feedback loop on the deer population disappeared, allowing exponential population growth that overshot the habitat's carrying capacity and caused a population crash.
+source_title: "Systems: Overshoot and Collapse (Donella Meadows, 1977)"
 source_url: https://youtu.be/f9g4-5-GKBc
-created_utc: '2026-09-14T00:00:00Z'
-confidence: high
 tags:
-- topic/systems
-- topic/ecology
-- theory/system-dynamics
-- domain/pkm
-upstream: '[[tmp_atoms_overshoot-and-collapse]]'
-conformant: true
-permalink: llmeon/30-library/100-zettelkasten/removing-a-negative-feedback-loop-can-cause-ecological-overshoot-the-kaibab-deer-case
+  - topic/systems
+  - topic/ecology
+  - theory/system-dynamics
+  - domain/pkm
+title: Removing a Negative Feedback Loop Can Cause Ecological Overshoot (the Kaibab Deer Case)
+type: claim
+upstream: "[[tmp_atoms_overshoot-and-collapse]]"
 ---
 
 ### Removing a Negative Feedback Loop Can Cause Ecological Overshoot (the Kaibab Deer Case)
@@ -36,5 +40,5 @@ A concrete instance of the general overshoot/collapse mechanism; real ecosystems
 
 #### Related
 
-- [[Overshoot and Collapse Delayed Negative Feedback Causes a System to Exceed Then Crash Below Its Carrying Capacity]]—extends: the general mechanism this case illustrates.
-- [[A Cultural Ritual Can Function as a Negative Feedback Loop Preserving Ecological Equilibrium]]—shared mechanism: a contrasting case where the regulating loop is cultural, not biological.
+- [extends:: [[Overshoot and Collapse Delayed Negative Feedback Causes a System to Exceed Then Crash Below Its Carrying Capacity]]] — *The general mechanism this case illustrates.*
+- [extends:: [[A Cultural Ritual Can Function as a Negative Feedback Loop Preserving Ecological Equilibrium]]] — *A contrasting case where the regulating loop is cultural, not biological.*

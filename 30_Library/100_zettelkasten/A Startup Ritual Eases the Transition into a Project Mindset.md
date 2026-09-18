@@ -1,10 +1,10 @@
 ---
 aliases: [Startup Ritual, Transition Ritual]
-created: 2025-11-11T19:05:13+00:00
+created: 2025-11-11 19:05:13+00:00
 last_reviewed: ''
-modified: 2026-09-09T12:34:06+00:00
+modified: 2026-09-09 12:34:06+00:00
 permalink: llmeon/30-library/100-zettelkasten/a-startup-ritual-eases-the-transition-into-a-project-mindset
-status: seedling
+status: seed
 tags: [rituals, TheHuman/Habits, topic/productivity]
 title: A Startup Ritual Eases the Transition into a Project Mindset
 type: strategy

@@ -1,10 +1,10 @@
 ---
 aliases: []
-created: 2025-11-10T11:10:00+00:00
+created: 2025-11-10 11:10:00+00:00
 last_reviewed: ''
-modified: 2026-09-14T11:35:46+00:00
+modified: 2026-09-14 11:35:46+00:00
 permalink: llmeon/30-library/100-zettelkasten/asking-why-a-song-exists-helps-determine-its-authenticity
-status: seedling
+status: seed
 tags: [analysis, critical-thinking, music, question]
 title: Asking Why a Song Exists Helps Determine its Authenticity
 type: instructional

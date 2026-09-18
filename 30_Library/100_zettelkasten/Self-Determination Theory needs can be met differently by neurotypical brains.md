@@ -1,10 +1,9 @@
 ---
 aliases: []
-created: 2025-07-08T18:24:09+00:00
+created: 2025-07-08 18:24:09+00:00
 last_reviewed: ''
-modified: 2026-09-09T12:34:16+00:00
+modified: 2026-09-09 12:34:16+00:00
 permalink: llmeon/30-library/100-zettelkasten/self-determination-theory-needs-can-be-met-differently-by-neurotypical-brains
-status: ''
 tags: [TheHuman/Health/ADHD]
 title: Self-Determination Theory needs can be met differently by neurotypical brains
 type: ''

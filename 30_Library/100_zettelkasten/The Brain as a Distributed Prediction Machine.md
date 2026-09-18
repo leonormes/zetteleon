@@ -1,10 +1,9 @@
 ---
 aliases: []
-created: 2025-10-20T09:56:00+00:00
+created: 2025-10-20 09:56:00+00:00
 last_reviewed: ''
-modified: 2026-09-09T12:34:17+00:00
+modified: 2026-09-09 12:34:17+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-brain-as-a-distributed-prediction-machine
-status: ''
 tags: [brain, models, TheHuman/Cognition, TheHuman/Neuroscience]
 title: The Brain as a Distributed Prediction Machine
 type: ''

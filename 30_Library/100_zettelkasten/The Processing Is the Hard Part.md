@@ -1,11 +1,10 @@
 ---
 aliases: []
-created: 2025-02-07T12:57:55+00:00
+created: 2025-02-07 12:57:55+00:00
 ID: 2a2a1
 last_reviewed: '2026-07-29'
-modified: 2026-09-09T12:34:17+00:00
+modified: 2026-09-09 12:34:17+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-processing-is-the-hard-part
-status: 'null'
 tags: [topic/pkm/zettelkasten]
 title: The Processing Is the Hard Part
 type: permanent

@@ -1,10 +1,10 @@
 ---
 aliases: []
-created: 2025-10-20T08:00:03+00:00
+created: 2025-10-20 08:00:03+00:00
 last_reviewed: '2025-12-16T00:00:00.000Z'
-modified: 2026-09-09T12:34:13+00:00
+modified: 2026-09-09 12:34:13+00:00
 permalink: llmeon/30-library/100-zettelkasten/motion-creates-emotion-to-overcome-inertia
-status: pending
+status: draft
 tags: [experiment, hypothesis, TheHuman/Health/ADHD, TheHuman/Motivation, TheHuman/Psychology, topic/productivity]
 title: Motion Creates Emotion to Overcome Inertia
 type: hypothesis

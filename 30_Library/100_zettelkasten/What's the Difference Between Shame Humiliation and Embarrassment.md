@@ -1,12 +1,11 @@
 ---
 aliases: []
-created: 2025-05-26T13:41:23+00:00
+created: 2025-05-26 13:41:23+00:00
 last_reviewed: ''
-modified: 2026-09-09T12:34:18+00:00
+modified: 2026-09-09 12:34:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/whats-the-difference-between-shame-humiliation-and-embarrassment
-status: ''
 tags: [emotion, shame, TheHuman/Health/ADHD]
-title: "What's the Difference Between Shame Humiliation and Embarrassment"
+title: What's the Difference Between Shame Humiliation and Embarrassment
 type: permanent
 updated: null
 ---

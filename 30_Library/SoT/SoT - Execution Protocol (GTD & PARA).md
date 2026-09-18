@@ -1,12 +1,12 @@
 ---
 aliases: [Execution Protocol, Hybrid GTD PARA]
 conformant: false
-created: 2026-01-08T07:41:15+00:00
+created: 2026-01-08 07:41:15+00:00
 last_reviewed: ''
-modified: 2026-08-29T09:36:36+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+modified: 2026-08-29 09:36:36+00:00
+non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/so-t/so-t-execution-protocol-gtd-para
-status: permanent
+status: stable
 tags: [gtd, para, system/protocol]
 title: SoT - Execution Protocol (GTD & PARA)
 type: sot

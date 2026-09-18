@@ -1,20 +1,20 @@
 ---
 conformant: true
-created: 2026-09-17 11:33:19+00:00
+contradicts: []
+created: 2026-09-17T11:33:19+00:00
 created_utc: '2026-09-17T00:00:00Z'
-modified: 2026-09-18 11:31:29+00:00
+epistemic_status: medium
+evidence_links: []
+modified: 2026-09-18T12:24:49+00:00
 permalink: llmeon/00-inbox/social-judgment-theorys-latitude-recalibration
+proposition: Social Judgment Theory holds that people sort political information into latitudes of acceptance, noncommitment, and rejection relative to their existing attitudes; an extreme anchor figure stretches this scale, broadening the latitude of acceptance to absorb behaviour that would otherwise fall into noncommitment or rejection.
 source_title: Political Contrast Effect Research
 source_url: '[[Political Contrast Effect Research]]'
 status: seed
 tags: [contrast-effect, polarization, political-psychology, sherif, social-judgment-theory]
-title: Social Judgment Theory's Latitude Recalibration
+title: "Social Judgment Theory's Latitude Recalibration"
 type: claim
 upstream: '[[Political Contrast Effect Research]]'
-proposition: Social Judgment Theory holds that people sort political information into latitudes of acceptance, noncommitment, and rejection relative to their existing attitudes; an extreme anchor figure stretches this scale, broadening the latitude of acceptance to absorb behaviour that would otherwise fall into noncommitment or rejection.
-epistemic_status: medium
-evidence_links: []
-contradicts: []
 ---
 
 ## Social Judgment Theory's Latitude Recalibration

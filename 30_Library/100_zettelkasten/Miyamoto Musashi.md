@@ -1,10 +1,9 @@
 ---
 aliases: []
-created: 2025-09-07T04:31:45+00:00
+created: 2025-09-07 04:31:45+00:00
 last_reviewed: ''
-modified: 2026-09-09T12:34:13+00:00
+modified: 2026-09-09 12:34:13+00:00
 permalink: llmeon/30-library/100-zettelkasten/miyamoto-musashi
-status: ''
 tags: []
 title: Miyamoto Musashi
 type: ''

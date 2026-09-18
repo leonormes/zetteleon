@@ -1,17 +1,17 @@
 ---
 alias: [FITFILE CI/CD Pipeline Design Document]
 captured: 2026-06-16T10:24:16+01:00 2026-06-16T10:24:16+01:00
-created: 2026-06-16T00:00:00+00:00
+created: 2026-06-16 00:00:00+00:00
 entity_kind: project
-modified: 2026-08-29T09:36:15+00:00
+modified: 2026-08-29 09:36:15+00:00
 permalink: llmeon/30-library/200-projects/git-lab-ci-integration
 project_name: Pipeline
 source: https://fitfile.atlassian.net/wiki/spaces/FITFILE/pages/2865528839
 sources: [raw/2026-06-15-pieces-fitfile-cd-decision-document.md]
-status: processing
+status: draft
 tags: [cicd, confluence, devops, fitfile, input, pieces, pipeline, project, raw, wiki]
 title: GitLab CI integration
-type:
+type: null
 wiki_type: dossier
 ---
 

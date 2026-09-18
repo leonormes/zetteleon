@@ -40,6 +40,12 @@ VALID_PRODOS_LIFECYCLES = {
     "seedling", "active", "stable", "evergreen", "archived",
 }
 
+# status enum per the base `Note` fileClass (10_System/fileClasses/Note.md) — inherited by
+# every canonical note type, including claim. Empty-string/literal-"null" legacy values are
+# common migration artifacts and are just as invalid to the Bases plugin as any other
+# out-of-enum string.
+VALID_STATUS = {"draft", "seed", "stable", "evergreen", "stale"}
+
 # Scopes per §8
 SCOPED_FOLDERS = {
     "30_Library", "20_Thinking", "10_System",
@@ -59,6 +65,19 @@ TYPE_SCHEMAS = {
     "evidence": {"source_quote", "source_reference", "supports_claims", "confidence"},
     "question": {"tension", "candidate_answers", "related_claims"},
     "procedure": {"trigger", "steps", "verification"},
+}
+
+# Schema-specific enum fields per the fileClass Select definitions (10_System/fileClasses/*.md).
+# A field merely being *present* is not enough — the Fileclass/Bases plugin enforces these
+# values live in Obsidian, so the script must too or it silently passes what the UI flags.
+TYPE_SCHEMA_ENUMS = {
+    "claim": {"epistemic_status": {"high", "medium", "low", "unknown"}},
+}
+
+# Fields whose fileClass type is MultiFile — must be a list (of wikilinks), never a bare
+# string/scalar, or the Bases plugin will reject the row even though the field is "present".
+TYPE_SCHEMA_LIST_FIELDS = {
+    "claim": {"evidence_links", "contradicts"},
 }
 
 
@@ -112,6 +131,14 @@ def validate_note(path, relative_path):
     if note_type and note_type not in VALID_TYPES:
         errors.append(f"invalid type '{note_type}' — must be one of {sorted(VALID_TYPES)}")
 
+    # Validate status enum (base Note fileClass field — optional, but must be a real
+    # enum value if present at all; a stray '' or literal-string 'null' is still invalid).
+    status = fm.get("status")
+    if status is not None and status != "" and status not in VALID_STATUS:
+        errors.append(f"invalid 'status' value '{status}' — must be one of {sorted(VALID_STATUS)}")
+    elif status == "":
+        errors.append("'status' is an empty string — remove the field entirely or set a valid value")
+
     # Validate prodos object if present
     prodos = fm.get("prodos")
     if prodos and isinstance(prodos, dict):
@@ -127,6 +154,22 @@ def validate_note(path, relative_path):
         for field in TYPE_SCHEMAS[note_type]:
             if field not in fm or fm[field] is None:
                 errors.append(f"missing schema field '{field}' for type '{note_type}' (required when conformant: true)")
+
+        # Enum-valued schema fields: presence isn't enough, the value must be a valid option.
+        for field, allowed in TYPE_SCHEMA_ENUMS.get(note_type, {}).items():
+            value = fm.get(field)
+            if value is not None and value not in allowed:
+                errors.append(
+                    f"invalid '{field}' value '{value}' for type '{note_type}' — must be one of {sorted(allowed)}"
+                )
+
+        # MultiFile-typed schema fields must be lists, not bare scalars.
+        for field in TYPE_SCHEMA_LIST_FIELDS.get(note_type, set()):
+            value = fm.get(field)
+            if value is not None and not isinstance(value, (list, tuple)):
+                errors.append(
+                    f"'{field}' must be a list for type '{note_type}', got {type(value).__name__}"
+                )
 
     return errors
 

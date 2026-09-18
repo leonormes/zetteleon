@@ -1,10 +1,9 @@
 ---
 aliases: []
-created: 2025-05-26T20:23:10+00:00
+created: 2025-05-26 20:23:10+00:00
 last_reviewed: ''
-modified: 2026-09-09T12:34:18+00:00
+modified: 2026-09-09 12:34:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/thinking-patterns-biases-and-heuristics-in-development
-status: ''
 tags: []
 title: Thinking Patterns, Biases, and Heuristics in Development
 type: ''

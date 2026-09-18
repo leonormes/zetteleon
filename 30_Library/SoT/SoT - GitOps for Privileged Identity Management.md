@@ -1,12 +1,12 @@
 ---
 aliases: [Automated Privilege Management, GitOps PIM, JIT Access with IaC]
 conformant: false
-created: 2025-07-04T07:32:01+00:00
+created: 2025-07-04 07:32:01+00:00
 last_reviewed: null
-modified: 2026-08-29T09:36:38+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+modified: 2026-08-29 09:36:38+00:00
+non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/so-t/so-t-git-ops-for-privileged-identity-management
-status: Active
+status: stable
 tags: [azure, gitops, iam, pim, security, terraform]
 title: SoT - GitOps for Privileged Identity Management
 type: sot

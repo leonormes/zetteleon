@@ -1,13 +1,13 @@
 ---
 aliases: []
 conformant: false
-created: 2025-10-30T12:00:01+00:00
+created: 2025-10-30 12:00:01+00:00
 last_reviewed: '2025-12-16'
-modified: 2026-09-14T11:35:50+00:00
-non_conformance_reason: "type: hypothesis is not in the FrontmatterContract §2 enum (claim/concept/evidence/question/procedure/protocol/map/journal/project/sot). This note is an unresolved personal experiment (If/Then/Because + protocol + pending Results Log) — forcing it into `claim` would misrepresent its pending-verification status. Left as-is pending a human decision, matching the same non-conformance already accepted on [[Body Doubling for ADHD Focus]]."
+modified: 2026-09-14 11:35:50+00:00
+non_conformance_reason: 'type: hypothesis is not in the FrontmatterContract §2 enum (claim/concept/evidence/question/procedure/protocol/map/journal/project/sot). This note is an unresolved personal experiment (If/Then/Because + protocol + pending Results Log) — forcing it into `claim` would misrepresent its pending-verification status. Left as-is pending a human decision, matching the same non-conformance already accepted on [[Body Doubling for ADHD Focus]].'
 permalink: llmeon/30-library/100-zettelkasten/interest-pairing-can-increase-engagement-in-mundane-tasks-for-adhd
 source: '[[MOC - ADHD Experiments & Protocols]]'
-status: pending
+status: draft
 tags: [experiment, hypothesis, interest-pairing, TheHuman/Health/ADHD, TheHuman/Motivation, topic/productivity]
 title: Interest Pairing Can Increase Engagement in Mundane Tasks for ADHD
 type: hypothesis

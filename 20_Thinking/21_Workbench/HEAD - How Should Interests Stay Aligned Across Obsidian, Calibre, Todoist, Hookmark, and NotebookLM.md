@@ -1,11 +1,10 @@
 ---
-created: 2026-09-13T00:00:00+00:00
-modified: 2026-09-16T07:54:55+00:00
+created: 2026-09-13 00:00:00+00:00
+modified: 2026-09-16 07:54:55+00:00
 permalink: llmeon/20-thinking/21-workbench/head-how-should-interests-stay-aligned-across-obsidian-calibre-todoist-hookmark-and-notebook-lm
-status: open
+status: draft
 tags: [domain/pkm, topic/knowledge-architecture, topic/tooling]
-title: HEAD - How Should Interests Stay Aligned Across Obsidian, Calibre, Todoist, Hookmark, and NotebookLM
-  Hookmark, and NotebookLM
+title: HEAD - How Should Interests Stay Aligned Across Obsidian, Calibre, Todoist, Hookmark, and NotebookLM Hookmark, and NotebookLM
 type: head
 ---
 

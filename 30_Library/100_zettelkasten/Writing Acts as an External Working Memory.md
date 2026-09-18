@@ -1,11 +1,10 @@
 ---
 aliases: [Writing as an Extended Brain]
-created: 2025-07-18T00:00:00+00:00
+created: 2025-07-18 00:00:00+00:00
 last_reviewed: ''
-modified: 2026-09-09T12:34:18+00:00
+modified: 2026-09-09 12:34:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/writing-acts-as-an-external-working-memory
 see_also: []
-status: ''
 superseded_by: ''
 supersedes: ''
 tags: [bessie]

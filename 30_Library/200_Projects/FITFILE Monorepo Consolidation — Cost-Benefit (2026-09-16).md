@@ -1,16 +1,16 @@
 ---
 conformant: true
-created: 2026-09-16T10:55:00+00:00
+created: 2026-09-16 10:55:00+00:00
 date: 2026-09-16
-modified: 2026-09-17T09:40:00+01:00
+modified: 2026-09-17 09:40:00+01:00
 permalink: llmeon/20-thinking/21-workbench/head-should-insight-file-data-and-analytics-and-deployment-become-one-repo
 project_category: refined_deployment
 project_name: Pipeline
 project_status: active
 related_tickets: [FTFL-1008, FTFL-1025, FTFL-877, FTFL-975]
-see_also: ["[[FITFILE Audit - Repo and Pipeline Inventory]]", "[[FITFILE Delivery Pipeline Audit 2026-08-27]]", "[[SoT - FitFile Deployment - Helm Architecture & Operations]]", "[[SoT - FitFile Deployment - Strategy & Architecture]]"]
+see_also: ['[[FITFILE Audit - Repo and Pipeline Inventory]]', '[[FITFILE Delivery Pipeline Audit 2026-08-27]]', '[[SoT - FitFile Deployment - Helm Architecture & Operations]]', '[[SoT - FitFile Deployment - Strategy & Architecture]]']
 sources: Local clones inspected 2026-09-16 (git history, .gitlab-ci.yml, gapv configs, ArgoCD Application templates); Pieces LTM session context; web research on GitOps repo separation and monorepo trade-offs
-status: Revised — multi-source architecture adopted as target
+status: stable
 tags: [architecture, ci-cd, data-and-analytics, decision, deployment, fitfile, gapv, gitlab, gitops, insightfile, kubernetes, monorepo, polyrepo, typed-edge]
 title: FITFILE Monorepo Consolidation — Cost-Benefit (2026-09-16)
 type: thinking

@@ -1,12 +1,11 @@
 ---
 aliases: []
 conformant: false
-created: 2026-01-03T10:24:34+00:00
+created: 2026-01-03 10:24:34+00:00
 last_reviewed: ''
-modified: 2026-08-29T09:36:38+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+modified: 2026-08-29 09:36:38+00:00
+non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/so-t/so-t-habit-formation-framework
-status: ''
 tags: []
 title: SoT - Habit Formation Framework
 type: sot

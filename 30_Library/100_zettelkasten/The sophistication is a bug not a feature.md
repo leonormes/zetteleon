@@ -1,10 +1,9 @@
 ---
 aliases: []
-created: 2025-11-15T19:15:19+00:00
+created: 2025-11-15 19:15:19+00:00
 last_reviewed: ''
-modified: 2026-09-09T12:34:18+00:00
+modified: 2026-09-09 12:34:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-sophistication-is-a-bug-not-a-feature
-status: ''
 tags: []
 title: The sophistication is a bug not a feature
 type: ''

@@ -1,10 +1,9 @@
 ---
 aliases: []
-created: 2025-04-09T12:44:13+00:00
+created: 2025-04-09 12:44:13+00:00
 last_reviewed: ''
-modified: 2026-09-09T12:34:12+00:00
+modified: 2026-09-09 12:34:12+00:00
 permalink: llmeon/30-library/100-zettelkasten/i-have-not-really-accepted-the-adhd-difficulties-i-have-had
-status: ''
 tags: [TheHuman/Health/ADHD]
 title: I Have Not Really Accepted the ADHD Difficulties I Have Had
 type: permanent

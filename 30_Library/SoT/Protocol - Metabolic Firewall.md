@@ -1,10 +1,10 @@
 ---
 conformant: false
-created: 2026-01-10T09:27:00+00:00
-modified: 2026-08-29T09:36:33+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+created: 2026-01-10 09:27:00+00:00
+modified: 2026-08-29 09:36:33+00:00
+non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/so-t/protocol-metabolic-firewall
-status: active
+status: stable
 tags: [health, metabolic, system-architecture]
 title: Protocol - Metabolic Firewall
 type: protocol

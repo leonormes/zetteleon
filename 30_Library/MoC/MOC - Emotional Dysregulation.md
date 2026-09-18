@@ -1,10 +1,9 @@
 ---
 aliases: []
-created: 2025-06-26T15:03:54+00:00
+created: 2025-06-26 15:03:54+00:00
 last_reviewed: ''
-modified: 2026-08-29T09:36:30+00:00
+modified: 2026-08-29 09:36:30+00:00
 permalink: llmeon/30-library/mo-c/moc-emotional-dysregulation
-status: ''
 tags: [emotion, TheHuman/Cognition, TheHuman/Health/ADHD, TheHuman/Psychology]
 title: MOC - Emotional Dysregulation
 type: map

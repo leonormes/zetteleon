@@ -1,11 +1,11 @@
 ---
 captured: 2026-06-16
-created: 2026-06-16T00:00:00+00:00
-modified: 2026-08-29T09:36:21+00:00
+created: 2026-06-16 00:00:00+00:00
+modified: 2026-08-29 09:36:21+00:00
 permalink: llmeon/30-library/200-projects/psychological-safety-primer
 project_name: Team work
 source: https://gemini.google.com/app/bd855ef5efc22a11
-status: refined
+status: stable
 tags: [dora-metrics, engineering-culture, facilitation, psychological-safety, trunk-based-development, ways-of-working]
 title: Psychological Safety Primer
 type: reference

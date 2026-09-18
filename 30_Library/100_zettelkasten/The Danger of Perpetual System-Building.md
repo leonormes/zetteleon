@@ -1,10 +1,9 @@
 ---
 aliases: []
-created: 2025-10-20T08:00:02+00:00
+created: 2025-10-20 08:00:02+00:00
 last_reviewed: 'null'
-modified: 2026-09-09T12:34:17+00:00
+modified: 2026-09-09 12:34:17+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-danger-of-perpetual-system-building
-status: 'null'
 tags: [perfectionism, TheHuman/Health/ADHD, topic/productivity, topic/systems]
 title: The Danger of Perpetual System-Building
 type: 'null'

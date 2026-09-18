@@ -1,10 +1,9 @@
 ---
 aliases: []
-created: 2025-07-26T16:43:52+00:00
+created: 2025-07-26 16:43:52+00:00
 last_reviewed: ''
-modified: 2026-09-09T12:34:18+00:00
+modified: 2026-09-09 12:34:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/understanding-enables-accurate-predictions
-status: ''
 tags: []
 title: Understanding Enables Accurate Predictions
 type: ''

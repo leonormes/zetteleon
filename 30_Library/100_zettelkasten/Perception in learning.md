@@ -1,10 +1,9 @@
 ---
 aliases: []
-created: 2025-05-27T17:55:43+00:00
+created: 2025-05-27 17:55:43+00:00
 last_reviewed: ''
-modified: 2026-09-09T12:34:14+00:00
+modified: 2026-09-09 12:34:14+00:00
 permalink: llmeon/30-library/100-zettelkasten/perception-in-learning
-status: ''
 tags: []
 title: Perception in learning
 type: ''

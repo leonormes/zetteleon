@@ -1,20 +1,24 @@
 ---
 aliases: []
+conformant: true
+contradicts: []
 created: 2025-08-23 20:25:32+00:00
-falsifiers: ['Evidence that shallow processing (skimming, highlighting) produces learning outcomes statistically indistinguishable from note-linking.', A note describing a successful Zettelkasten practice where links are added mechanically (keyword-match or folder placement) and the user still develops deep understanding of the connected ideas.]
+epistemic_status: medium
+evidence_links: []
+falsifiers:
+- Evidence that shallow processing (skimming, highlighting) produces learning outcomes statistically indistinguishable from note-linking.
+- A note describing a successful Zettelkasten practice where links are added mechanically (keyword-match or folder placement) and the user still develops deep understanding of the connected ideas.
 last_reviewed: 2026-07-29
 modified: 2026-09-09 12:34:10+00:00
 permalink: llmeon/30-library/100-zettelkasten/deep-processing-is-the-core-of-zettelkasten
-status: 'null'
-tags: [topic/knowledge-architecture, topic/learning, topic/pkm/zettelkasten]
+proposition: The core of interaction with a Zettelkasten is not mere collection, but deep processing—translating and rephrasing an idea well enough to paraphrase it, which is where true learning occurs.
+tags:
+- topic/knowledge-architecture
+- topic/learning
+- topic/pkm/zettelkasten
 title: Deep Processing is the Core of Zettelkasten
 type: claim
 updated: null
-proposition: The core of interaction with a Zettelkasten is not mere collection, but deep processing—translating and rephrasing an idea well enough to paraphrase it, which is where true learning occurs.
-epistemic_status: medium
-evidence_links: []
-contradicts: []
-conformant: true
 ---
 
 The core of interaction with a Zettelkasten is not mere collection, but deep processing. This is why paraphrasing_is_a_complex_cognitive_skill; it forces us to understand an idea well enough to rephrase it, as discussed in paraphrasing_put_another_way. This act of translation is where true learning occurs.

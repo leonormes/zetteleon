@@ -1,10 +1,9 @@
 ---
 aliases: [Virtue of Wisdom]
-created: 2025-07-16T17:30:02+00:00
+created: 2025-07-16 17:30:02+00:00
 last_reviewed: ''
-modified: 2026-09-09T12:34:18+00:00
+modified: 2026-09-09 12:34:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/via-virtue-of-wisdom
-status: ''
 tags: [character, via-strengths, virtue, wisdom]
 title: VIA Virtue of Wisdom
 type: ''

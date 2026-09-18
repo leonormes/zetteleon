@@ -1,10 +1,9 @@
 ---
 aliases: []
-created: 2025-09-05T06:22:44+00:00
+created: 2025-09-05 06:22:44+00:00
 last_reviewed: ''
-modified: 2026-09-09T12:34:09+00:00
+modified: 2026-09-09 12:34:09+00:00
 permalink: llmeon/30-library/100-zettelkasten/chemotaxis-as-primitive-model-based-behavior
-status: ''
 tags: [biology, chemotaxis, evolution, primitive-cognition]
 title: Chemotaxis as Primitive Model-Based Behavior
 type: permanent

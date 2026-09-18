@@ -1,5 +1,6 @@
 ---
-aliases: ["Don't Make Me Think Rule"]
+aliases:
+- Don't Make Me Think Rule
 conformant: true
 contradicts: []
 created: 2025-06-18T17:32:46+00:00
@@ -8,10 +9,14 @@ evidence_links: []
 last_reviewed: ''
 modified: 2026-09-14T11:35:53+00:00
 permalink: llmeon/30-library/100-zettelkasten/radical-simplicity-the-dont-make-me-think-rule
-proposition: "A personal knowledge system should minimise its moving parts and make capture, organisation, and retrieval so obvious that they require no conscious recall of rules — friction, not a lack of features, is the primary design failure to guard against."
-status: ''
-tags: [domain/pkm, topic/knowledge-architecture, topic/pkm, topic/productivity, topic/simplicity]
-title: "Radical Simplicity - The Don't Make Me Think Rule"
+proposition: A personal knowledge system should minimise its moving parts and make capture, organisation, and retrieval so obvious that they require no conscious recall of rules — friction, not a lack of features, is the primary design failure to guard against.
+tags:
+- domain/pkm
+- topic/knowledge-architecture
+- topic/pkm
+- topic/productivity
+- topic/simplicity
+title: Radical Simplicity - The Don't Make Me Think Rule
 type: claim
 updated: null
 ---

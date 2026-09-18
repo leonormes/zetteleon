@@ -1,10 +1,10 @@
 ---
 aliases: [Intentional Unfinishing]
-created: 2025-11-11T19:05:07+00:00
+created: 2025-11-11 19:05:07+00:00
 last_reviewed: ''
-modified: 2026-09-09T12:34:13+00:00
+modified: 2026-09-09 12:34:13+00:00
 permalink: llmeon/30-library/100-zettelkasten/leaving-a-task-intentionally-unfinished-creates-a-clear-starting-point
-status: seedling
+status: seed
 tags: [task-management, topic/productivity]
 title: Leaving a Task Intentionally Unfinished Creates a Clear Starting Point
 type: strategy

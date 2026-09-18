@@ -1,10 +1,10 @@
 ---
 aliases: [5-Minute Rule]
-created: 2025-11-12T15:00:08+00:00
+created: 2025-11-12 15:00:08+00:00
 last_reviewed: ''
-modified: 2026-09-09T12:34:17+00:00
+modified: 2026-09-09 12:34:17+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-5-minute-action-overcomes-initiation-barriers
-status: seedling
+status: seed
 tags: [task-initiation, technique, TheHuman/Health/ADHD, topic/productivity]
 title: The 5-Minute Action Overcomes Initiation Barriers
 type: instructional

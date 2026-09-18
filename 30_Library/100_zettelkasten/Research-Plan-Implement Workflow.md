@@ -1,12 +1,12 @@
 ---
-created: 2026-04-13T14:37:11+00:00
+created: 2026-04-13 14:37:11+00:00
 created_utc: '2026-04-13T11:10:00Z'
 kind: procedure
-modified: 2026-09-09T12:34:15+00:00
+modified: 2026-09-09 12:34:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/research-plan-implement-workflow
 source_title: Agentic Engineering and AI Workflow Management
 source_url: https://gemini.google.com/app/7a41bb3090001aa4
-status: archived
+status: stale
 tags: [ai-automation, engineering-standards, process, workflow]
 title: Research-Plan-Implement Workflow
 type: atom

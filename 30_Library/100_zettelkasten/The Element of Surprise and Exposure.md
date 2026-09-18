@@ -1,10 +1,9 @@
 ---
 aliases: []
-created: 2025-06-18T17:28:14+00:00
+created: 2025-06-18 17:28:14+00:00
 last_reviewed: ''
-modified: 2026-09-09T12:34:17+00:00
+modified: 2026-09-09 12:34:17+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-element-of-surprise-and-exposure
-status: ''
 tags: []
 title: The Element of Surprise and Exposure
 type: ''

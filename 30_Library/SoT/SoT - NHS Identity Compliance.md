@@ -1,12 +1,12 @@
 ---
 aliases: [DSPT, NHS Compliance, NHS England Blueprints]
 conformant: true
-created: 2026-04-05T10:45:00+00:00
+created: 2026-04-05 10:45:00+00:00
 last-synthesis: 2026-04-05
 last_reviewed: null
-modified: 2026-08-29T09:36:40+00:00
+modified: 2026-08-29 09:36:40+00:00
 permalink: llmeon/30-library/so-t/so-t-nhs-identity-compliance
-status: Active
+status: stable
 synthesis-count: 1
 tags: [compliance, healthcare, iam, nhs, sot]
 title: SoT - NHS Identity Compliance

@@ -1,10 +1,10 @@
 ---
 aliases: [Build Flexibility into Routines]
-created: 2025-10-29T16:10:00+00:00
+created: 2025-10-29 16:10:00+00:00
 last_reviewed: ''
-modified: 2026-09-09T12:34:11+00:00
+modified: 2026-09-09 12:34:11+00:00
 permalink: llmeon/30-library/100-zettelkasten/flexible-routines-require-contingency-planning
-status: seedling
+status: seed
 tags: [adaptability, contingency-planning, resilience, routine]
 title: Flexible Routines Require Contingency Planning
 type: strategy

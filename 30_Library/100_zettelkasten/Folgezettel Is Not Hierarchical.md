@@ -1,11 +1,10 @@
 ---
 aliases: []
-created: 2024-03-19T10:45:55+00:00
+created: 2024-03-19 10:45:55+00:00
 id: 1b1
 last_reviewed: 'null'
-modified: 2026-09-09T12:34:11+00:00
+modified: 2026-09-09 12:34:11+00:00
 permalink: llmeon/30-library/100-zettelkasten/folgezettel-is-not-hierarchical
-status: 'null'
 tags: [note-taking, topic/knowledge-architecture, topic/pkm/zettelkasten]
 title: Folgezettel Is Not Hierarchical
 type: permanent

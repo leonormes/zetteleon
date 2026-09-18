@@ -1,9 +1,9 @@
 ---
-created: 2025-12-04T12:02:41+00:00
+created: 2025-12-04 12:02:41+00:00
 last_reviewed: null
-modified: 2026-08-29T09:36:50+00:00
+modified: 2026-08-29 09:36:50+00:00
 permalink: llmeon/30-library/ops/protocol-az-bastion-create-standard
-status: processing
+status: draft
 tags: [bastion, customer/lcrca, ssh]
 title: protocol-az-bastion-create-standard
 type: protocol

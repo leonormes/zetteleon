@@ -1,10 +1,10 @@
 ---
 aliases: [Algebra]
-created: 2025-11-01T11:22:13+00:00
+created: 2025-11-01 11:22:13+00:00
 last_reviewed: '2025-11-01T00:00:00.000Z'
-modified: 2026-09-09T12:34:07+00:00
+modified: 2026-09-09 12:34:07+00:00
 permalink: llmeon/30-library/100-zettelkasten/algebra-definition
-status: seedling
+status: seed
 tags: [fields, topic/maths]
 title: Algebra (Definition)
 type: definition

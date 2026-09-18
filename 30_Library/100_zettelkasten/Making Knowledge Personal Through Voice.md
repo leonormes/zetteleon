@@ -8,9 +8,12 @@ evidence_links: []
 last_reviewed: 'null'
 modified: 2026-09-14T11:35:51+00:00
 permalink: llmeon/30-library/100-zettelkasten/making-knowledge-personal-through-voice
-proposition: "Writing PKM notes in a personal, first-person, authentic voice — rather than a formal academic register — makes knowledge more accessible, engaging, and genuinely one's own, because it captures the questions and emotional context of the thinking process rather than only its conclusions."
-status: 'null'
-tags: [authenticity, topic/pkm, topic/writing, voice]
+proposition: Writing PKM notes in a personal, first-person, authentic voice — rather than a formal academic register — makes knowledge more accessible, engaging, and genuinely one's own, because it captures the questions and emotional context of the thinking process rather than only its conclusions.
+tags:
+- authenticity
+- topic/pkm
+- topic/writing
+- voice
 title: Making Knowledge Personal Through Voice
 type: claim
 updated: null

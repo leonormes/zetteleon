@@ -1,12 +1,12 @@
 ---
 aliases: [Container Networking Primitives, IPTables Masquerade, Linux Bridges, Veth Pairs]
 conformant: false
-created: 2025-12-30T13:53:16+00:00
+created: 2025-12-30 13:53:16+00:00
 last_reviewed: null
-modified: 2026-08-29T09:36:39+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+modified: 2026-08-29 09:36:39+00:00
+non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/so-t/so-t-linux-networking-primitives
-status: Active
+status: stable
 tags: [kernel, SoftwareEngineering/Containers, SoftwareEngineering/Linux, SoftwareEngineering/Networking]
 title: SoT - Linux Networking Primitives
 type: sot

@@ -1,12 +1,12 @@
 ---
 aliases: [Gemini MCP, MCP]
 conformant: false
-created: 2025-12-21T00:00:00+00:00
+created: 2025-12-21 00:00:00+00:00
 last_reviewed: '2025-12-21'
-modified: 2026-08-29T09:36:36+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+modified: 2026-08-29 09:36:36+00:00
+non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/so-t/so-t-extending-gemini-cli-with-mcp
-status: evolving
+status: seed
 tags: [extensions, gemini-cli, mcp, SoftwareEngineering/Architecture, tools]
 title: SoT - Extending Gemini CLI with MCP
 type: sot

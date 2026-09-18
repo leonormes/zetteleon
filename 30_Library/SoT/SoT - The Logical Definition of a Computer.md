@@ -1,12 +1,12 @@
 ---
 aliases: [Logical Computer, One Computer Definition, The Definition of a Computer]
 conformant: false
-created: 2025-12-31T13:48:45+00:00
+created: 2025-12-31 13:48:45+00:00
 last_reviewed: null
-modified: 2026-08-29T09:36:43+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+modified: 2026-08-29 09:36:43+00:00
+non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/so-t/so-t-the-logical-definition-of-a-computer
-status: Active
+status: stable
 tags: [cloud, computer-science, distributed-systems, operating-systems, virtualization]
 title: SoT - The Logical Definition of a Computer
 type: sot

@@ -1,14 +1,14 @@
 ---
 AoL: Work
-candidate_answers: ["Both: leaf charts now, umbrella later once change control is stronger", ffnode collapsed into a real umbrella chart with dependencies and a Chart.lock; one Application per node, Leaf charts published independently; ffnode stays an app-of-apps whose children carry pinned OCI versions]
+candidate_answers: ['Both: leaf charts now, umbrella later once change control is stronger', ffnode collapsed into a real umbrella chart with dependencies and a Chart.lock; one Application per node, Leaf charts published independently; ffnode stays an app-of-apps whose children carry pinned OCI versions]
 closing_condition: true
 conformant: true
-created: 2026-08-27T17:42:19+00:00
-modified: 2026-09-16T07:54:55+00:00
+created: 2026-08-27 17:42:19+00:00
+modified: 2026-09-16 07:54:55+00:00
 permalink: llmeon/20-thinking/21-workbench/head-should-ffnode-ship-to-acr-as-one-umbrella-chart-or-as-versioned-leaf-charts
 related_claims: []
-sources: ["[[2026-08-27-fitfile-helm-chart-acr-publishing-audit]]", "[[HEAD - The Release Candidate Object]]"]
-status: open
+sources: ['[[2026-08-27-fitfile-helm-chart-acr-publishing-audit]]', '[[HEAD - The Release Candidate Object]]']
+status: draft
 tags: [deployment, fitfile, ftfl-1008, prodos/head, state/thinking]
 tension: 'FTFL-1008 asks for charts to be versioned in ACR, which forces a choice the ticket does not acknowledge: what the deployable unit actually is. One versioned ffnode gives an unambiguous artefact and a one-string rollback, but makes every sync all-or-nothing. N versioned leaf charts keep per-component health and rollback, but mean the node has no single version number — the thing the ticket literally asks for.'
 title: HEAD - Should ffnode ship to ACR as one umbrella chart or as versioned leaf charts?

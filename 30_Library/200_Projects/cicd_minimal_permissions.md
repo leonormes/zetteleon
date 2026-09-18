@@ -1,16 +1,15 @@
 ---
 aliases: []
-created: 2025-02-07T12:57:56+00:00
+created: 2025-02-07 12:57:56+00:00
 dependencies: ''
 last_reviewed: ''
-modified: 2026-08-29T09:36:23+00:00
+modified: 2026-08-29 09:36:23+00:00
 name: cicd_minimal_permissions
 permalink: llmeon/30-library/200-projects/cicd-minimal-permissions
 project_category: development
 project_name: Core
 project_status: archived
 see_also: []
-status: ''
 superseded_by: ''
 supersedes: ''
 tags: [cli, gitops]

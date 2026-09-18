@@ -1,11 +1,10 @@
 ---
 aliases: []
-created: 2024-03-19T10:42:55+00:00
+created: 2024-03-19 10:42:55+00:00
 id: 1d
 last_reviewed: 'null'
-modified: 2026-09-09T12:34:07+00:00
+modified: 2026-09-09 12:34:07+00:00
 permalink: llmeon/30-library/100-zettelkasten/alphanumeric-ids-are-addresses-not-categories
-status: 'null'
 tags: [note-taking, topic/knowledge-architecture, topic/pkm/zettelkasten]
 title: Alphanumeric IDs Are Addresses Not Categories
 type: permanent

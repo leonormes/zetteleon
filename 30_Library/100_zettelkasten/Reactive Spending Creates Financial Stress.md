@@ -1,10 +1,9 @@
 ---
 aliases: [Spend-First Mentality]
-created: 2025-11-18T14:30:00+00:00
+created: 2025-11-18 14:30:00+00:00
 last_reviewed: ''
-modified: 2026-09-09T12:34:15+00:00
+modified: 2026-09-09 12:34:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/reactive-spending-creates-financial-stress
-status: ''
 tags: [budgeting, finance, TheHuman/Psychology]
 title: Reactive Spending Creates Financial Stress
 type: ''

@@ -1,12 +1,12 @@
 ---
 aliases: [Hardware Sympathy, Mechanical Empathy]
 conformant: false
-created: 2026-01-07T00:00:00+00:00
+created: 2026-01-07 00:00:00+00:00
 last_reviewed: null
-modified: 2026-08-29T09:36:39+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+modified: 2026-08-29 09:36:39+00:00
+non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/so-t/so-t-mechanical-sympathy
-status: Stable
+status: stable
 tags: [hardware, mindset, performance]
 title: SoT - Mechanical Sympathy
 type: sot

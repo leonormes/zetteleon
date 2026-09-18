@@ -1,10 +1,9 @@
 ---
 aliases: []
-created: 2025-10-20T10:13:00+00:00
+created: 2025-10-20 10:13:00+00:00
 last_reviewed: 'null'
-modified: 2026-08-29T09:36:31+00:00
+modified: 2026-08-29 09:36:31+00:00
 permalink: llmeon/30-library/mo-c/moc-the-logic-of-self-contained-systems
-status: 'null'
 tags: [logic, perspective, topic/systems]
 title: MOC - The Logic of Self-Contained Systems
 type: map

@@ -1,10 +1,9 @@
 ---
 aliases: []
-created: 2025-08-31T16:08:04+00:00
+created: 2025-08-31 16:08:04+00:00
 last_reviewed: ''
-modified: 2026-09-09T12:34:14+00:00
+modified: 2026-09-09 12:34:14+00:00
 permalink: llmeon/30-library/100-zettelkasten/pantomime-as-proto-language
-status: ''
 tags: [embodied-cognition, evolution, gesture, pantomime, proto-language]
 title: Pantomime as Proto-Language
 type: ''

@@ -1,10 +1,10 @@
 ---
 aliases: []
-created: 2025-10-31T09:53:00+00:00
+created: 2025-10-31 09:53:00+00:00
 last_reviewed: ''
-modified: 2026-09-09T12:34:16+00:00
+modified: 2026-09-09 12:34:16+00:00
 permalink: llmeon/30-library/100-zettelkasten/slime-molds-exhibit-memory-like-behavior-without-a-nervous-system
-status: seedling
+status: seed
 tags: [biology, memory, TheHuman/Cognition]
 title: Slime Molds Exhibit Memory-like Behavior Without a Nervous System
 type: example

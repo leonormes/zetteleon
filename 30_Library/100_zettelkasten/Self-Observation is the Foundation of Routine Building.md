@@ -1,10 +1,10 @@
 ---
 aliases: [Know Yourself to Build Your Routine]
-created: 2025-10-29T16:10:00+00:00
+created: 2025-10-29 16:10:00+00:00
 last_reviewed: ''
-modified: 2026-09-09T12:34:16+00:00
+modified: 2026-09-09 12:34:16+00:00
 permalink: llmeon/30-library/100-zettelkasten/self-observation-is-the-foundation-of-routine-building
-status: seedling
+status: seed
 tags: [energy-management, routine, self-awareness, sensory-processing]
 title: Self-Observation is the Foundation of Routine Building
 type: strategy

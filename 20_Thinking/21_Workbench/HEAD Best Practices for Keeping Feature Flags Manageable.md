@@ -1,11 +1,11 @@
 ---
 captured: 2026-06-20T10:41:26+01:00 2026-06-20T10:41:26+01:00
-created: 2026-06-20T09:41:30+00:00
-modified: 2026-09-16T07:54:55+00:00
+created: 2026-06-20 09:41:30+00:00
+modified: 2026-09-16 07:54:55+00:00
 permalink: llmeon/30-library/200-projects/head-best-practices-for-keeping-feature-flags-manageable
 project_name: Pipeline
 source: https://gemini.google.com/app/f048768f8485e822
-status: processing
+status: draft
 tags: [input]
 title: HEAD Best Practices for Keeping Feature Flags Manageable
 type: head

@@ -1,15 +1,15 @@
 ---
 classification: Platform / DevOps audit — read-only
-created: 2026-08-27T10:30:00+00:00
+created: 2026-08-27 10:30:00+00:00
 date: 2026-08-27
-modified: 2026-08-29T09:36:13+00:00
+modified: 2026-08-29 09:36:13+00:00
 permalink: llmeon/30-library/200-projects/fitfile-delivery-pipeline-audit-2026-08-27
 project_category: refined_deployment
 project_name: Pipeline
 project_status: active
 related_tickets: [FTFL-1015, FTFL-512, FTFL-877, FTFL-940, FTFL-951, FTFL-973, FTFL-974, FTFL-975, FTFL-976]
 sources: Live API verification — az 2.89.1, glab 1.114.0, kubectl (3 AKS contexts), HCP Terraform API
-status: Findings consolidated
+status: stable
 tags: [audit, ci-cd, gitops, infrastructure/azure, kubernetes, security, terraform, typed-edge]
 title: FITFILE Delivery Pipeline Audit 2026-08-27
 type: audit

@@ -1,13 +1,12 @@
 ---
 aliases: []
-created: 2025-10-31T10:52:00+00:00
+created: 2025-10-31 10:52:00+00:00
 criteria: Focus on protocol-level concepts.
 exclusions: Implementation-specific details or cloud DNS services.
 last_reviewed: ''
-modified: 2026-08-29T09:36:30+00:00
+modified: 2026-08-29 09:36:30+00:00
 permalink: llmeon/30-library/mo-c/moc-dns-core-concepts-and-mechanisms
-scope: "Fundamental DNS mechanisms from 'DNS Explained.md'."
-status: ''
+scope: Fundamental DNS mechanisms from 'DNS Explained.md'.
 tags: [SoftwareEngineering/Networking, SoftwareEngineering/networking/dns]
 title: MOC - DNS Core Concepts and Mechanisms
 type: map

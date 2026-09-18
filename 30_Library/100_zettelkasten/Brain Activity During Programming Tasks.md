@@ -1,10 +1,9 @@
 ---
 aliases: []
-created: 2025-05-26T20:31:26+00:00
+created: 2025-05-26 20:31:26+00:00
 last_reviewed: ''
-modified: 2026-09-09T12:34:08+00:00
+modified: 2026-09-09 12:34:08+00:00
 permalink: llmeon/30-library/100-zettelkasten/brain-activity-during-programming-tasks
-status: ''
 tags: [devex]
 title: Brain Activity During Programming Tasks
 type: ''

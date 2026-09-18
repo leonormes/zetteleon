@@ -1,10 +1,9 @@
 ---
 aliases: []
-created: 2025-10-24T15:08:00+00:00
+created: 2025-10-24 15:08:00+00:00
 last_reviewed: 'null'
-modified: 2026-09-09T12:34:15+00:00
+modified: 2026-09-09 12:34:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/reframing-negative-thought-patterns-in-adhd
-status: 'null'
 tags: [cognitive-behavioral-therapy, rumination, self-talk, TheHuman/Health/ADHD, TheHuman/Mindset]
 title: Reframing Negative Thought Patterns in ADHD
 type: permanent

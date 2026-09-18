@@ -4,10 +4,8 @@ created: 2026-09-16 13:53:03+00:00
 modified: 2026-09-16 22:04:57+00:00
 permalink: llmeon/00-inbox/head-dune-1
 source: https://gemini.google.com/app/c0ae5537e38c151c
-status: processing
-tags:
-- dune
-- input
+status: draft
+tags: [dune, input]
 title: HEAD_Dune
 type: head
 ---

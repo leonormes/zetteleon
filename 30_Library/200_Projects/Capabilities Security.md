@@ -1,13 +1,12 @@
 ---
 aliases: []
-created: 2025-02-07T12:57:54+00:00
+created: 2025-02-07 12:57:54+00:00
 last_reviewed: ''
-modified: 2026-08-29T09:36:11+00:00
+modified: 2026-08-29 09:36:11+00:00
 permalink: llmeon/30-library/200-projects/capabilities-security
 project_category: infrastructure
 project_name: k8s
 project_status: archived
-status: ''
 tags: [SoftwareEngineering/Containers, SoftwareEngineering/Security]
 title: Capabilities Security
 type: ''

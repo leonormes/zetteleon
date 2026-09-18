@@ -1,10 +1,9 @@
 ---
 aliases: []
-created: 2025-08-27T19:19:29+00:00
+created: 2025-08-27 19:19:29+00:00
 last_reviewed: 'null'
-modified: 2026-09-09T12:34:17+00:00
+modified: 2026-09-09 12:34:17+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-impact-fallacy-in-intellectual-life
-status: 'null'
 tags: [meaning, personal-growth, TheHuman/Mindset, topic/philosophy]
 title: The Impact Fallacy in Intellectual Life
 type: 'null'

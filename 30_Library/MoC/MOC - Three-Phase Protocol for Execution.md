@@ -1,10 +1,9 @@
 ---
 aliases: []
-created: 2025-10-20T09:30:00+00:00
+created: 2025-10-20 09:30:00+00:00
 last_reviewed: ''
-modified: 2026-08-29T09:36:31+00:00
+modified: 2026-08-29 09:36:31+00:00
 permalink: llmeon/30-library/mo-c/moc-three-phase-protocol-for-execution
-status: ''
 tags: [topic/productivity/gtd]
 title: MOC - Three-Phase Protocol for Execution
 type: map

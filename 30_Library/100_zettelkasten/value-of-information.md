@@ -1,11 +1,10 @@
 ---
 aliases: []
-created: 2024-12-24T18:56:42+00:00
+created: 2024-12-24 18:56:42+00:00
 ID: 2g
 last_reviewed: ''
-modified: 2026-09-09T12:34:19+00:00
+modified: 2026-09-09 12:34:19+00:00
 permalink: llmeon/30-library/100-zettelkasten/value-of-information
-status: ''
 tags: [information]
 title: value-of-information
 type: permanent

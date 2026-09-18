@@ -1,13 +1,12 @@
 ---
 aliases: []
-created: 2025-10-26T17:19:00+00:00
+created: 2025-10-26 17:19:00+00:00
 last_reviewed: 'null'
-modified: 2026-08-29T09:36:20+00:00
+modified: 2026-08-29 09:36:20+00:00
 permalink: llmeon/30-library/200-projects/network-policies-control-traffic-flow-between-pods-using-labels-and-namespaces
 project_category: infrastructure
 project_name: k8s
 project_status: archived
-status: 'null'
 tags: [labels, network-policy, SoftwareEngineering/Containers, SoftwareEngineering/Kubernetes, SoftwareEngineering/Security, traffic-control]
 title: Network policies control traffic flow between pods using labels and namespaces
 type: Fact

@@ -1,22 +1,23 @@
 ---
-aliases: [Bessie's Working Memory Challenges]
+aliases:
+- Bessie's Working Memory Challenges
+conformant: true
+contradicts: []
 created: 2025-07-18 00:00:00+00:00
+epistemic_status: medium
+evidence_links: []
 last_reviewed: ''
 modified: 2026-09-09 12:34:08+00:00
 permalink: llmeon/30-library/100-zettelkasten/bessies-working-memory-is-overwhelmed-by-large-information-volumes
+proposition: Bessie's diagnoses of ADHD and dyslexia present significant challenges with executive functions, particularly working memory, manifesting as difficulty concentrating, forgetfulness, and struggling with organization, and her working memory can be easily overwhelmed by a high volume of information.
 see_also: []
-status: ''
 superseded_by: ''
 supersedes: ''
-tags: [bessie]
+tags:
+- bessie
 title: Bessie's Working Memory is Overwhelmed by Large Information Volumes
 type: claim
 updated: null
-proposition: Bessie's diagnoses of ADHD and dyslexia present significant challenges with executive functions, particularly working memory, manifesting as difficulty concentrating, forgetfulness, and struggling with organization, and her working memory can be easily overwhelmed by a high volume of information.
-epistemic_status: medium
-evidence_links: []
-contradicts: []
-conformant: true
 ---
 
 Bessie's diagnoses of ADHD and dyslexia present significant challenges with executive functions, particularly working memory. This manifests as difficulty concentrating, forgetfulness, and struggling with organization.

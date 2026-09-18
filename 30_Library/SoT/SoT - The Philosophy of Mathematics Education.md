@@ -1,13 +1,13 @@
 ---
-alias: ["Lockhart's Lament", Generative vs Applicative Maths, The Art of Explanation]
+alias: [Lockhart's Lament, Generative vs Applicative Maths, The Art of Explanation]
 aliases: []
 conformant: false
-created: 2026-01-06T19:41:54+00:00
+created: 2026-01-06 19:41:54+00:00
 last_reviewed: null
-modified: 2026-08-29T09:36:44+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+modified: 2026-08-29 09:36:44+00:00
+non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/so-t/so-t-the-philosophy-of-mathematics-education
-status: Active
+status: stable
 tags: [education, maths, pedagogy, TheHuman/Philosophy]
 title: SoT - The Philosophy of Mathematics Education
 type: sot

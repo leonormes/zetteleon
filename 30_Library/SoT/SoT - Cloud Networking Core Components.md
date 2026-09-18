@@ -1,12 +1,12 @@
 ---
 aliases: [AWS vs Azure Networking, Cloud Networking Concepts, VPC and VNet Fundamentals]
 conformant: false
-created: 2025-12-29T20:01:57+00:00
+created: 2025-12-29 20:01:57+00:00
 last_reviewed: null
-modified: 2026-08-29T09:36:34+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+modified: 2026-08-29 09:36:34+00:00
+non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/so-t/so-t-cloud-networking-core-components
-status: Active
+status: stable
 tags: [aws, azure, cloud, kubernetes, networking]
 title: SoT - Cloud Networking Core Components
 type: sot

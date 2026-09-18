@@ -1,16 +1,13 @@
 ---
 aliases: [why thoughts feel important, writing reveals mundanity]
-created: 2025-10-31T20:50:00+00:00
-criteria: Must directly relate to the phenomenology of thought, externalization through
-  "writing, or metacognitive awareness of one's thinking"
-exclusions: General philosophy of mind, consciousness studies not directly related
-  to the thought-writing distinction
+created: 2025-10-31 20:50:00+00:00
+criteria: Must directly relate to the phenomenology of thought, externalization through "writing, or metacognitive awareness of one's thinking"
+exclusions: General philosophy of mind, consciousness studies not directly related to the thought-writing distinction
 last_reviewed: '2026-04-08'
-modified: 2026-08-29T09:36:32+00:00
+modified: 2026-08-29 09:36:32+00:00
 permalink: llmeon/30-library/mo-c/moc-why-thoughts-feel-more-important-when-thinking-them
-scope: Explores why thoughts feel more important in the moment of thinking than when
-  written down, and the cognitive mechanisms underlying this phenomenon
-status: growing
+scope: Explores why thoughts feel more important in the moment of thinking than when written down, and the cognitive mechanisms underlying this phenomenon
+status: seed
 tags: [metacognition, phenomenology, writing]
 title: MOC - Why Thoughts Feel More Important When Thinking Them
 type: map

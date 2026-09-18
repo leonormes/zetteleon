@@ -1,14 +1,14 @@
 ---
 aliases: [argocd app status, check argocd sync, is my app synced]
 cloud: agnostic
-created: 2026-02-14T00:00:00+00:00
+created: 2026-02-14 00:00:00+00:00
 hop_level: bastion
 k8s_version: '1.29'
 last_verified: 2026-02-14
-modified: 2026-08-29T09:36:46+00:00
+modified: 2026-08-29 09:36:46+00:00
 namespace: argocd
 permalink: llmeon/30-library/ops/cmd-argocd-get-sync-status
-status: verified
+status: stable
 tags: [cmd, deployment, incident]
 target_service: argocd-server
 title: cmd-argocd-get-sync-status

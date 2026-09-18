@@ -1,10 +1,9 @@
 ---
 aliases: []
-created: 2025-02-07T12:57:55+00:00
+created: 2025-02-07 12:57:55+00:00
 last_reviewed: ''
-modified: 2026-09-09T12:34:09+00:00
+modified: 2026-09-09 12:34:09+00:00
 permalink: llmeon/30-library/100-zettelkasten/common-cognitive-distortions
-status: ''
 tags: [beliefs, reframing, TheHuman/Cognition, TheHuman/Cognition/bias]
 title: Common Cognitive Distortions
 type: permanent

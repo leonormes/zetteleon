@@ -1,12 +1,11 @@
 ---
 aliases: []
-created: 2025-08-26T09:27:23+00:00
+created: 2025-08-26 09:27:23+00:00
 last_reviewed: ''
-modified: 2026-09-09T12:34:10+00:00
+modified: 2026-09-09 12:34:10+00:00
 permalink: llmeon/30-library/100-zettelkasten/cryptographys-goal-obfuscating-patterns
-status: ''
 tags: [information]
-title: "Cryptography's Goal - Obfuscating Patterns"
+title: Cryptography's Goal - Obfuscating Patterns
 type: ''
 updated: null
 ---

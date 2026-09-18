@@ -1,11 +1,10 @@
 ---
 aliases: []
-created: 2025-11-11T09:27:40+00:00
+created: 2025-11-11 09:27:40+00:00
 last_reviewed: ''
-modified: 2026-09-09T12:34:18+00:00
+modified: 2026-09-09 12:34:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/you-are-an-expert-relationship-and-communications-counsellor
 see_also: []
-status: ''
 superseded_by: ''
 supersedes: ''
 tags: []

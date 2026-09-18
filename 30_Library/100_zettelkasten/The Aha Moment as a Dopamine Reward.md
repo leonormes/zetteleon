@@ -1,10 +1,9 @@
 ---
 aliases: []
-created: 2025-08-27T19:16:54+00:00
+created: 2025-08-27 19:16:54+00:00
 last_reviewed: 'null'
-modified: 2026-09-09T12:34:17+00:00
+modified: 2026-09-09 12:34:17+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-aha-moment-as-a-dopamine-reward
-status: 'null'
 tags: [TheHuman/Motivation, TheHuman/Neuroscience, TheHuman/Psychology, topic/learning]
 title: The Aha Moment as a Dopamine Reward
 type: 'null'

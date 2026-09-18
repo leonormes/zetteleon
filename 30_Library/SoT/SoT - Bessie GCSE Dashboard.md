@@ -1,11 +1,11 @@
 ---
 aliases: [Bessie Dashboard]
 conformant: true
-created: 2026-01-08T07:48:54+00:00
+created: 2026-01-08 07:48:54+00:00
 last_reviewed: ''
-modified: 2026-08-29T09:36:34+00:00
+modified: 2026-08-29 09:36:34+00:00
 permalink: llmeon/30-library/so-t/so-t-bessie-gcse-dashboard
-status: active
+status: stable
 tags: [bessie, dashboard, education]
 title: SoT - Bessie GCSE Dashboard
 type: sot

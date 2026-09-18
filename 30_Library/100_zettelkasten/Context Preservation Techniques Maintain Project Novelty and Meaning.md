@@ -1,10 +1,10 @@
 ---
 aliases: [Project Context Preservation]
-created: 2025-11-11T19:05:09+00:00
+created: 2025-11-11 19:05:09+00:00
 last_reviewed: ''
-modified: 2026-09-09T12:34:09+00:00
+modified: 2026-09-09 12:34:09+00:00
 permalink: llmeon/30-library/100-zettelkasten/context-preservation-techniques-maintain-project-novelty-and-meaning
-status: seedling
+status: seed
 tags: [project-management, TheHuman/Motivation, topic/productivity]
 title: Context Preservation Techniques Maintain Project Novelty and Meaning
 type: strategy

@@ -1,12 +1,11 @@
 ---
 aliases: []
-created: 2025-05-16T13:37:49+00:00
+created: 2025-05-16 13:37:49+00:00
 last_reviewed: ''
-modified: 2026-09-09T12:34:18+00:00
+modified: 2026-09-09 12:34:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/youve-captured-the-impulse-and-thats-often-enough
-status: ''
 tags: [TheHuman/Health/ADHD]
-title: "You've captured the impulse, and that's often enough"
+title: You've captured the impulse, and that's often enough
 type: permanent
 updated: null
 ---
