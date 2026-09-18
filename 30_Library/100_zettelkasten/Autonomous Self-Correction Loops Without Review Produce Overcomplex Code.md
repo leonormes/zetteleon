@@ -1,12 +1,16 @@
 ---
 axiom: true
-created: 2026-07-28T00:00:00+00:00
+created: 2026-07-28 00:00:00+00:00
 epistemic_status: medium
-modified: 2026-09-09T12:34:08+00:00
+modified: 2026-09-09 12:34:08+00:00
 permalink: llmeon/30-library/100-zettelkasten/autonomous-self-correction-loops-without-review-produce-overcomplex-code
 tags: [domain/llm, topic/agent-architecture, topic/code-quality, topic/loop-control, topic/vibe-coding]
 title: Autonomous Self-Correction Loops Without Review Produce Overcomplex Code
 type: claim
+proposition: An agent loop that runs unattended—plan, execute, evaluate, correct, repeat, with no human checkpoint—will converge on something that works, but each correction pass responds only to the most recent failure signal in isolation, producing layered patches and defensive complexity because the loop's objective is "pass the check," not "stay simple."
+evidence_links: []
+contradicts: []
+conformant: true
 ---
 
 ## Autonomous Self-Correction Loops Without Review Produce Overcomplex Code

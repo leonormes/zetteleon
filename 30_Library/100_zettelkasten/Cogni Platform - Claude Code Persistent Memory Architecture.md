@@ -1,17 +1,17 @@
 ---
 conformant: true
-created: 2026-07-28T00:00:00+00:00
+created: 2026-07-28 00:00:00+00:00
 epistemic_status: medium
-modified: 2026-09-09T12:34:09+00:00
+modified: 2026-09-09 12:34:09+00:00
 permalink: llmeon/30-library/100-zettelkasten/cogni-platform-claude-code-persistent-memory-architecture
 prodos.kind: atomic
 prodos.lifecycle: stable
-proposition: Cogni is a platform that adds persistent memory layers to Claude Code,
-  enabling agents to retain discoveries and architectural context across isolated
-  sessions via knowledge graphs with two-way memory writes and selective retrieval.
+proposition: Cogni is a platform that adds persistent memory layers to Claude Code, enabling agents to retain discoveries and architectural context across isolated sessions via knowledge graphs with two-way memory writes and selective retrieval.
 tags: [domain/llm, product/cogni, topic/agent-architecture, topic/persistent-memory, topic/tools]
 title: Cogni Platform - Claude Code Persistent Memory Architecture
 type: claim
+contradicts: []
+evidence_links: []
 ---
 
 ## Cogni Platform - Claude Code Persistent Memory Architecture

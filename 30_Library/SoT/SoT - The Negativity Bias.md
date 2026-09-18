@@ -1,11 +1,18 @@
 ---
-aliases: [Bad is Stronger than Good, Negativity Bias, Threat Detection System]
-conformant: false
+aliases:
+- Bad is Stronger than Good
+- Negativity Bias
+- Threat Detection System
+conformant: true
 created: 2025-06-18T17:28:14+00:00
-modified: 2026-08-29T09:36:44+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+modified: 2026-09-18T00:00:00+00:00
 permalink: llmeon/30-library/so-t/so-t-the-negativity-bias
-tags: [emotional_regulation, evolution, TheHuman/Cognition/bias, TheHuman/Health/ADHD, TheHuman/Psychology]
+tags:
+- emotional_regulation
+- evolution
+- TheHuman/Cognition/bias
+- TheHuman/Health/ADHD
+- TheHuman/Psychology
 title: SoT - The Negativity Bias
 type: sot
 ---
@@ -30,7 +37,7 @@ Neuropsychologist Rick Hanson famously stated:
 ### Why it Evolved
 
 - Survival Priority: In the ancestral environment, a "false positive" (thinking a stick is a snake) costs a calorie. A "false negative" (thinking a snake is a stick) costs your life.
-- Social Cohesion: Since [[Humans Are Social Creatures]], social rejection was a death sentence. Thus, we are hyper-tuned to detect disapproval ([[Why External Validation is So Powerful]]).
+- Social Cohesion: Since [[The Belongingness Hypothesis Holds That Humans Have a Pervasive Drive to Form Lasting Positive Social Bonds|humans have a pervasive drive to form lasting social bonds]], social rejection was a death sentence. Thus, we are hyper-tuned to detect disapproval ([[SoT - The Internal World and the Need for Validation#2. The Power of External Validation|why external validation is so powerful]]).
 
 ---
 
@@ -83,3 +90,13 @@ Since the brain does not automatically "save" positive moments, we must manually
 - [[Loss Aversion Describes Asymmetric Pain of Loss vs Pleasure of Gain]] - The economic parallel.
 - [[Misinterpretation as Character Flaws]] - The result of unchecked negativity bias.
 - [[Why Others' Opinions Can Feel Undeservedly Powerful]] - The social consequence.
+- [[Sociometer Theory Treats Self-Esteem as a Monitor of Perceived Social Acceptance]]—_the proposed mechanism monitoring the exact social-acceptance signal this bias over-weights on the negative side._
+- [[The Belongingness Hypothesis Holds That Humans Have a Pervasive Drive to Form Lasting Positive Social Bonds]]—_the evolutionary basis for why social rejection specifically triggers this bias so strongly._
+
+### Further Reading (Personal Library)
+
+- [Buddha's Brain — Rick Hanson, Ch. 2 "The Evolution of Suffering"](calibre://view-book/GCcalibreBooks/358/EPUB)—_the direct source of the "Velcro for negative, Teflon for positive" line already quoted in §2, with the full evolutionary/neuroscience case (amygdala fast-tracking fearful faces, hippocampal high-priority storage of negative events)._
+- [Thinking, Fast and Slow — Daniel Kahneman, Ch. 28 "Bad Events"](calibre://view-book/GCcalibreBooks/53/EPUB)—_the classic "Bad Is Stronger Than Good" synthesis (Baumeister et al.) this note's alias is named after, plus Gottman's 5:1 ratio for relationships._
+- [Indistractable — Nir Eyal, Ch. 4 "Time Management Is Pain Management"](calibre://view-book/GCcalibreBooks/687/EPUB)—_ties negativity bias directly to rumination, the same DMN "Demon" mechanism described in §3B._
+- [ADHD 2.0 — Edward M. Hallowell & John J. Ratey, Ch. 8](calibre://view-book/GCcalibreBooks/695/EPUB)—_clinical description of RSD as extreme emotional pain from perceived rejection or criticism, corroborating §3A's "Volume Knob" framing._
+- [Why Does Everybody Hate Me? — Alex Partridge](calibre://view-book/GCcalibreBooks/1568/EPUB)—_a first-person account explicitly linking childhood negative feedback to an "in-built bias towards negativity" that later manifests as RSD—the lived-experience version of §3A._

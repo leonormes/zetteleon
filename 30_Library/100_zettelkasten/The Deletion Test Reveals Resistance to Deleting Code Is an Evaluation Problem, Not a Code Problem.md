@@ -1,19 +1,15 @@
 ---
-created: 2026-07-28T10:35:28+00:00
+created: 2026-07-28 10:35:28+00:00
 epistemic_status: medium
-modified: 2026-09-09T12:34:17+00:00
+modified: 2026-09-09 12:34:17+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-deletion-test-reveals-resistance-to-deleting-code-is-an-evaluation-problem-not-a-code-problem
-proposition: When an engineer resists deleting and regenerating a piece of code, the
-  "real reason is almost never attachment to the code itself — it's that the team lacks"
-  the evaluation criteria needed to trust a replacement. Naming reasons like "we don't
-  know what behavior is required," "we don't know which failures are unacceptable,"
-  or "we don't know how to tell if a new version is correct" reveals that code becomes
-  precious specifically when it is the only place that knowledge lives, not because
-  the code has intrinsic value.
+proposition: When an engineer resists deleting and regenerating a piece of code, the "real reason is almost never attachment to the code itself — it's that the team lacks" the evaluation criteria needed to trust a replacement. Naming reasons like "we don't know what behavior is required," "we don't know which failures are unacceptable," or "we don't know how to tell if a new version is correct" reveals that code becomes precious specifically when it is the only place that knowledge lives, not because the code has intrinsic value.
 tags: [domain/llm, topic/code-quality, topic/software-architecture]
-title: The Deletion Test Reveals Resistance to Deleting Code Is an Evaluation Problem, Not a Code Problem
-  Not a Code Problem
+title: The Deletion Test Reveals Resistance to Deleting Code Is an Evaluation Problem, Not a Code Problem Not a Code Problem
 type: claim
+contradicts: []
+evidence_links: []
+conformant: true
 ---
 
 ## The Deletion Test Reveals Resistance to Deleting Code Is an Evaluation Problem, Not a Code Problem

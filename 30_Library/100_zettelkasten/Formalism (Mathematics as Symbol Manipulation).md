@@ -1,15 +1,17 @@
 ---
 aliases: []
 conformant: true
-created: 2025-11-01T11:22:13+00:00
+created: 2025-11-01 11:22:13+00:00
 epistemic_status: high
-modified: 2026-09-09T12:34:11+00:00
-non_conformance_reason: ""
+modified: 2026-09-09 12:34:11+00:00
+non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/formalism-mathematics-as-symbol-manipulation
-proposition: "Formalism holds that mathematics has no inherent truth-content and is instead the manipulation of meaningless symbols according to pre-defined formal rules, where statements are only 'provable' or 'not provable' within a given axiomatic system."
+proposition: Formalism holds that mathematics has no inherent truth-content and is instead the manipulation of meaningless symbols according to pre-defined formal rules, where statements are only 'provable' or 'not provable' within a given axiomatic system.
 tags: [foundations, TheHuman/Philosophy, topic/maths]
 title: Formalism (Mathematics as Symbol Manipulation)
 type: claim
+contradicts: []
+evidence_links: []
 ---
 
 Summary: Formalism holds that mathematics is not about anything "real" but is the manipulation of meaningless symbols according to pre-defined, formal rules. The focus is on internal consistency rather than meaning or connection to reality.

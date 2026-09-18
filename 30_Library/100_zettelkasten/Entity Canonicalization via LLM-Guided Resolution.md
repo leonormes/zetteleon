@@ -1,16 +1,16 @@
 ---
 axiom: true
-created: 2026-07-28T00:00:00+00:00
+created: 2026-07-28 00:00:00+00:00
 epistemic_status: high
-modified: 2026-09-09T12:34:10+00:00
+modified: 2026-09-09 12:34:10+00:00
 permalink: llmeon/30-library/100-zettelkasten/entity-canonicalization-via-llm-guided-resolution
-proposition: Entity canonicalization solves the problem of the same entity being represented
-  with different string keys across multiple LLM outputs. The Resolve operator uses
-  two prompts—one to determine if values refer to the same entity, and another to
-  generate the canonical form—before aggregation.
+proposition: Entity canonicalization solves the problem of the same entity being represented with different string keys across multiple LLM outputs. The Resolve operator uses two prompts—one to determine if values refer to the same entity, and another to generate the canonical form—before aggregation.
 tags: [domain/llm, topic/aggregation, topic/data-processing, topic/entity-resolution]
 title: Entity Canonicalization via LLM-Guided Resolution
 type: claim
+contradicts: []
+evidence_links: []
+conformant: true
 ---
 
 ## Entity Canonicalization via LLM-Guided Resolution

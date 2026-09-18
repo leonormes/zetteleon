@@ -1,12 +1,12 @@
 ---
 created: 2026-07-30T10:54:49+00:00
 description: Take ONE bare/orphan note with few or no links, discover and propose its connections into 30_Library/100_zettelkasten, SoT, and MoC, then—once you've applied the proposal—immediately thread-audit the note in its new position. Single-note composition of the Router's bootstrap → hygiene → epistemics pipeline.
-modified: 2026-07-30T10:54:49+00:00
+modified: 2026-09-18T00:00:00+00:00
 permalink: llmeon/10-system/prompts/orphan-note-positioning-thread-audit
 tags: [agent/refresher, domain/pkm, link-audit, sot, type/system, topic/knowledge-graph]
 title: Orphan Note Positioning & Thread Audit
 type: prompt
-version: 1
+version: 2
 ---
 
 ## SYSTEM ROLE: Orphan Note Positioning & Thread Auditor
@@ -29,8 +29,13 @@ You are positioning a single note that currently has no meaningful place in the 
 
 1. Prefer Obsidian tools exposed via 1MCP (`http://127.0.0.1:3050/mcp?app=claude-code`, server `obsidian-mcp-tools`), called directly by name (e.g. `obsidian-mcp-tools_1mcp_search_vault_smart`)—no discovery step. Check `curl -s http://127.0.0.1:3050/health | jq .servers` before assuming a tool is unavailable.
 2. Otherwise the `obsidian` CLI (`search`, `search:context`, `read`, `backlinks`)—verified fallback whenever Obsidian desktop is running.
-3. Raw filesystem `Read`/grep only as a last resort, and never blind—read a note via one of the above before editing it. If you land here, say so explicitly and downgrade every coverage claim: lexical search, not semantic.
-4. All graph state comes from the compiler, never memory or ad-hoc grep:
+3. For the personal-library scour (§1.3b), prefer an `archilles_1mcp_*` MCP tool (e.g. `archilles_1mcp_search_books_with_citations`) if reachable in your session; otherwise use the verified CLI fallback:
+   ```
+   cd ~/.local/share/archilles && export ARCHILLES_LIBRARY_PATH="/Users/leon.ormes/My Drive/GCcalibreBooks" && .venv/bin/python scripts/rag_demo.py query "<query>" --mode semantic --top-k 6 --max-per-book 1
+   ```
+   Build any citation link as `calibre://view-book/<Library_Folder_Name>/<calibre_id>/<FORMAT>` (library folder name = basename of `ARCHILLES_LIBRARY_PATH`, currently `GCcalibreBooks`; `<FORMAT>` uppercase, matching a format the book actually has). The bare `calibre://view/<id>` form is invalid Calibre syntax and does nothing when clicked.
+4. Raw filesystem `Read`/grep only as a last resort, and never blind—read a note via one of the above before editing it. If you land here, say so explicitly and downgrade every coverage claim: lexical search, not semantic.
+5. All graph state comes from the compiler, never memory or ad-hoc grep:
    ```
    uv run --with pyyaml python3 10_System/scripts/edge_lint.py --audit
    uv run --with pyyaml python3 10_System/scripts/edge_lint.py --why "<title>"
@@ -58,6 +63,10 @@ Search only `30_Library/100_zettelkasten/`, `30_Library/SoT/`, and `30_Library/M
 - Sibling atomic notes making the same, a narrower, a broader, or a conflicting claim.
 
 Verify before asserting. Every note you name must have been read or confirmed to exist this session. Every note you call missing must be confirmed absent by search (alias and `prodos.id`, not filename guessing)—a false "missing" sends follow-up work to author a duplicate.
+
+### 1.3b Personal library scour (ARCHILLES ebooks, unscoped by folder)
+
+Separately from §1.3's vault-only search, run 1–3 semantic queries against the personal Calibre library via ARCHILLES (see Tooling Protocol), phrased around the Target's mechanism in your own words rather than its exact sentences. This never substitutes for vault positioning—an ebook cannot anchor the Target under a hub or stand in for a sibling atomic note—it only adds corroborating or illustrative external evidence. Keep hits with relevance ≳0.55 whose snippet genuinely bears on the Target's claim; discard keyword-only matches. Zero matches is a normal, reportable outcome.
 
 ### 1.4 Classify each candidate connection
 
@@ -119,7 +128,7 @@ Stop here. Present the Part 1 report (format below) and wait for Leon's decision
 
 1. One file at a time. Read it, echo the diff, then write.
 2. Write directly, unprompted-per-item, ONLY: the typed-edge line(s) from §1.5 and any `axiom: true` flag Leon confirms. This is the §9.3 exception in full.
-3. Everything from §1.6/§1.7 (plain links, MoC anchors, frontmatter fields) gets written only if Leon separately says so for that specific file—mirror the pattern used for editing a MoC directly: name the read-only tension, get the explicit yes, then edit one file, echoing the diff first.
+3. Everything from §1.6/§1.7/§1.3b (plain links, MoC anchors, frontmatter fields, Further Reading citations) gets written only if Leon separately says so for that specific file—mirror the pattern used for editing a MoC directly: name the read-only tension, get the explicit yes, then edit one file, echoing the diff first.
 4. Validation gate:
    ```
    uv run --with pyyaml python3 10_System/scripts/edge_lint.py --path "<target file path>"
@@ -165,6 +174,9 @@ One file per run: `90_Audits/YYYY-MM-DD-<seed-slug>.md`. Part 1 and Part 3 are t
 
 ### Patch C — Frontmatter Conformance (Leon applies)
 | Field | Current | Proposed |
+
+### Patch D — Further Reading, Personal Library (Leon applies)
+| Book — location | Link | What it corroborates | Relevance |
 
 ### Claim Stubs Written
 [List of raw/proposed-claims/ files created this run, or "None"]

@@ -1,14 +1,18 @@
 ---
 aliases: [EGG Confabulation Demo, The Left-Hemisphere Interpreter]
 conformant: true
-created: 2026-07-16T15:50:54+00:00
-modified: 2026-09-09T12:34:16+00:00
+created: 2026-07-16 15:50:54+00:00
+modified: 2026-09-09 12:34:16+00:00
 permalink: llmeon/30-library/100-zettelkasten/split-brain-confabulation-reveals-a-post-hoc-interpreter
-source_title: "Waking Up (Sam Harris) — reviewed LLM summary and critique"
+source_title: Waking Up (Sam Harris) — reviewed LLM summary and critique
 status: seed
 tags: [confabulation, consciousness, neuroscience, philosophy-of-mind, split-brain, TheHuman/Cognition]
 title: Split-Brain Confabulation Reveals a Post-Hoc Interpreter
 type: claim
+proposition: When a word is flashed only to a split-brain patient's right hemisphere, the speaking left hemisphere reports seeing nothing, yet on being shown the correct object it invents a plausible reason for the choice, revealing that the verbal self narrates behaviour it did not cause.
+epistemic_status: high
+evidence_links: []
+contradicts: []
 ---
 
 ## Split-Brain Confabulation Reveals a Post-Hoc Interpreter

@@ -1,9 +1,9 @@
 ---
 axiom: true
 conformant: true
-created: 2026-07-28T00:00:00+00:00
+created: 2026-07-28 00:00:00+00:00
 epistemic_status: high
-modified: 2026-09-09T12:34:11+00:00
+modified: 2026-09-09 12:34:11+00:00
 permalink: llmeon/30-library/100-zettelkasten/gleaning-secondary-validation-to-catch-silent-omissions
 prodos.kind: atomic
 prodos.lifecycle: stable
@@ -11,6 +11,8 @@ proposition: Gleaning is a verification technique where a secondary "validator" 
 tags: [domain/llm, topic/hallucination-mitigation, topic/pipelines, topic/quality-gates, topic/verification]
 title: Gleaning - Secondary Validation to Catch Silent Omissions
 type: claim
+contradicts: []
+evidence_links: []
 ---
 
 ## Gleaning - Secondary Validation to Catch Silent Omissions

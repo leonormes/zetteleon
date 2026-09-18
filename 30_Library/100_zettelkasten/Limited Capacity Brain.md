@@ -2,9 +2,9 @@
 aliases: []
 axiom: true
 conformant: true
-created: 2025-02-07T12:57:55+00:00
+created: 2025-02-07 12:57:55+00:00
 epistemic_status: high
-modified: 2026-09-09T12:34:13+00:00
+modified: 2026-09-09 12:34:13+00:00
 permalink: llmeon/30-library/100-zettelkasten/limited-capacity-brain
 prodos.kind: atomic
 prodos.lifecycle: stable
@@ -12,6 +12,8 @@ proposition: The human brain has a strictly limited working memory capacity and 
 tags: [ext-mind, topic/pkm]
 title: Limited Capacity Brain
 type: claim
+contradicts: []
+evidence_links: []
 ---
 
 Working memory has several key limitations, primarily its small capacity and short duration. It can typically hold only about three or four pieces of information at a time.

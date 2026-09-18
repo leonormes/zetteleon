@@ -2,9 +2,9 @@
 aliases: [Curiosity Hooks]
 axiom: true
 conformant: true
-created: 2025-11-11T19:05:11+00:00
+created: 2025-11-11 19:05:11+00:00
 epistemic_status: high
-modified: 2026-09-14T11:35:47+00:00
+modified: 2026-09-14 11:35:47+00:00
 permalink: llmeon/30-library/100-zettelkasten/curiosity-hooks-are-self-posed-questions-to-rekindle-inspiration
 prodos.kind: atomic
 prodos.lifecycle: stable
@@ -12,6 +12,8 @@ proposition: Leaving self-posed questions and interesting problems (curiosity ho
 tags: [task-initiation, TheHuman/Creativity, TheHuman/Health/ADHD, TheHuman/Motivation, topic/productivity]
 title: Curiosity Hooks are Self-Posed Questions to Rekindle Inspiration
 type: claim
+contradicts: []
+evidence_links: []
 ---
 
 ## Curiosity Hooks Are Self-Posed Questions to Rekindle Inspiration

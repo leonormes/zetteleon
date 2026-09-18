@@ -1,12 +1,17 @@
 ---
-created: 2026-05-31T00:00:00+00:00
-modified: 2026-09-14T11:35:46+00:00
+created: 2026-05-31 00:00:00+00:00
+modified: 2026-09-14 11:35:46+00:00
 permalink: llmeon/30-library/100-zettelkasten/claim-flat-associative-structure-beats-rigid-hierarchy
 position-date: 2026-05-31
-related_to: ["[[Cognitive Load]]", "[[Practice - Flat linking and tagging]]"]
+related_to: ['[[Cognitive Load]]', '[[Practice - Flat linking and tagging]]']
 tags: [linking, pkm, structure, TheHuman/Health/ADHD, topic/knowledge-architecture]
 title: Claim - Flat associative structure beats rigid hierarchy
 type: claim
+proposition: Linking-and-tagging on a flat structure fits ADHD cognition better than strict hierarchical filing, because it mirrors non-linear thought and removes the up-front "where does this go?" decision.
+epistemic_status: medium
+evidence_links: []
+contradicts: []
+conformant: true
 ---
 
 > [!claim] Statement

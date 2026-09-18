@@ -2,17 +2,19 @@
 aliases: [Originality as Synthesis]
 axiom: true
 conformant: true
-created: 2025-11-01T09:51:13+00:00
+created: 2025-11-01 09:51:13+00:00
 epistemic_status: high
 merged_from: '[[Originality is the Unique Synthesis of Existing Ideas]]'
-modified: 2026-09-09T12:34:14+00:00
+modified: 2026-09-09 12:34:14+00:00
 permalink: llmeon/30-library/100-zettelkasten/originality-is-synthesis-not-creation-from-nothing
 prodos.kind: atomic
 prodos.lifecycle: stable
-proposition: "Human originality arises from distinctive synthesis rather than ex nihilo invention; uniqueness comes from the particular way shared elements are recombined, so the task of originality is curation and expression, not escape from influence."
+proposition: Human originality arises from distinctive synthesis rather than ex nihilo invention; uniqueness comes from the particular way shared elements are recombined, so the task of originality is curation and expression, not escape from influence.
 tags: [ideas, mental-model, originality, synthesis, TheHuman/Creativity, topic/creativity]
 title: Originality is Synthesis Not Creation From Nothing
 type: claim
+contradicts: []
+evidence_links: []
 ---
 
 ## Originality is Synthesis Not Creation From Nothing

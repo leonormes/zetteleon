@@ -1,8 +1,8 @@
 ---
 conformant: true
-created: 2026-09-14T15:25:59+00:00
+created: 2026-09-14 15:25:59+00:00
 created_utc: '2026-09-14T00:00:00Z'
-modified: 2026-09-14T20:13:51+00:00
+modified: 2026-09-14 20:13:51+00:00
 permalink: llmeon/30-library/100-zettelkasten/anger-is-a-cognitive-interpretation-of-injustice-not-an-automatic-physical-reaction
 prodos.kind: atomic
 prodos.lifecycle: seed
@@ -13,6 +13,10 @@ tags: [domain/pkm, TheHuman/Psychology, topic/emotional-regulation, topic/stoici
 title: Anger Is a Cognitive Interpretation of Injustice, Not an Automatic Physical Reaction
 type: claim
 upstream: '[[tmp_atoms_anger-cognitive-response]]'
+proposition: Anger stems from the mind's interpretation of an event—specifically the belief that an undeserved wrong or injustice has occurred—rather than from the event itself; this cognitive-appraisal view is supported by Aristotle, Seneca, Epictetus, and modern psychological definitions.
+epistemic_status: high
+evidence_links: []
+contradicts: []
 ---
 
 ## Anger Is a Cognitive Interpretation of Injustice, Not an Automatic Physical Reaction

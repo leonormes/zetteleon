@@ -1,15 +1,15 @@
 ---
-created: 2026-07-28T00:00:00+00:00
+created: 2026-07-28 00:00:00+00:00
 epistemic_status: high
-modified: 2026-09-10T10:41:33+00:00
+modified: 2026-09-10 10:41:33+00:00
 permalink: llmeon/30-library/100-zettelkasten/evidence-based-pipeline-optimization-vs-cost-based-optimization
-proposition: Traditional database optimizers minimize query cost (time, CPU). LLM
-  pipeline optimizers should maximize accuracy on real data. Evidence-based optimization
-  samples real data, runs candidate pipeline plans, measures output quality using
-  an LLM evaluator, and empirically selects the most accurate pipeline.
+proposition: Traditional database optimizers minimize query cost (time, CPU). LLM pipeline optimizers should maximize accuracy on real data. Evidence-based optimization samples real data, runs candidate pipeline plans, measures output quality using an LLM evaluator, and empirically selects the most accurate pipeline.
 tags: [domain/llm, topic/measurement, topic/optimization, topic/pipelines]
 title: Evidence-Based Pipeline Optimization vs Cost-Based Optimization
 type: claim
+contradicts: []
+evidence_links: []
+conformant: true
 ---
 
 ## Evidence-Based Pipeline Optimization Vs Cost-Based Optimization

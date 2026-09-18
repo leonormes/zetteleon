@@ -1,16 +1,18 @@
 ---
 conformant: true
-created: 2026-09-08T00:00:00+00:00
+created: 2026-09-08 00:00:00+00:00
 epistemic_status: low
-modified: 2026-09-09T12:34:17+00:00
-non_conformance_reason: ""
+modified: 2026-09-09 12:34:17+00:00
+non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/the-gut-microbiome-may-influence-adhd-linked-brain-energy-metabolism-and-development
 prodos.kind: atomic
 prodos.lifecycle: seed
-proposition: "The gut microbiome may influence the brain's energy budget and development in ways relevant to ADHD: microbial metabolic output fuels synaptic plasticity, the microbiome regulates gene expression for energy production and learning, and certain developmental microbial exposures are associated with ADHD-linked gene expression patterns."
+proposition: 'The gut microbiome may influence the brain''s energy budget and development in ways relevant to ADHD: microbial metabolic output fuels synaptic plasticity, the microbiome regulates gene expression for energy production and learning, and certain developmental microbial exposures are associated with ADHD-linked gene expression patterns.'
 tags: [gut-brain-axis, microbiome, neurodevelopment, TheHuman/Health/ADHD]
 title: The Gut Microbiome May Influence ADHD-Linked Brain Energy Metabolism and Development
 type: claim
+contradicts: []
+evidence_links: []
 ---
 
 > [!warning] Ungrounded

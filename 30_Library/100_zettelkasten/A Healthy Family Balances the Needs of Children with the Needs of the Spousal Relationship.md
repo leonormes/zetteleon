@@ -1,12 +1,16 @@
 ---
 aliases: [Balancing Family Needs]
 conformant: true
-created: 2025-11-10T10:19:00+00:00
-modified: 2026-09-09T12:34:06+00:00
+created: 2025-11-10 10:19:00+00:00
+modified: 2026-09-09 12:34:06+00:00
 permalink: llmeon/30-library/100-zettelkasten/a-healthy-family-balances-the-needs-of-children-with-the-needs-of-the-spousal-relationship
 tags: [boundaries, family, needs, parenting, relationship]
 title: A Healthy Family Balances the Needs of Children with the Needs of the Spousal Relationship
 type: claim
+proposition: In a healthy family, the needs of the children and the needs of the spouses must be respectfully balanced; children's needs, while important, do not entirely outweigh the needs of the couple.
+epistemic_status: medium
+evidence_links: []
+contradicts: []
 ---
 
 ## A Healthy Family Balances the Needs of Children with the Needs of the Spousal Relationship

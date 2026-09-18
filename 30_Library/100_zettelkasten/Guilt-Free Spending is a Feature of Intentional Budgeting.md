@@ -1,16 +1,18 @@
 ---
 aliases: [Budgeted Fun Money]
 conformant: true
-created: 2025-11-18T14:40:00+00:00
+created: 2025-11-18 14:40:00+00:00
 epistemic_status: high
-modified: 2026-09-09T12:34:11+00:00
+modified: 2026-09-09 12:34:11+00:00
 permalink: llmeon/30-library/100-zettelkasten/guilt-free-spending-is-a-feature-of-intentional-budgeting
 prodos.kind: atomic
 prodos.lifecycle: stable
-proposition: "By proactively assigning money to discretionary categories, intentional budgeting provides explicit permission to spend, eliminating the guilt and deprivation-burnout cycle associated with restrictive budgets."
+proposition: By proactively assigning money to discretionary categories, intentional budgeting provides explicit permission to spend, eliminating the guilt and deprivation-burnout cycle associated with restrictive budgets.
 tags: [budgeting, finance, TheHuman/Psychology]
 title: Guilt-Free Spending is a Feature of Intentional Budgeting
 type: claim
+contradicts: []
+evidence_links: []
 ---
 
 A common misconception is that a budget's purpose is to eliminate all "fun" spending. In reality, an effective budget enables guilt-free spending by design.

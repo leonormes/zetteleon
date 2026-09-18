@@ -1,9 +1,9 @@
 ---
 aliases: [Bottom-Up vs Top-Down, Emergent Structure]
 conformant: true
-created: 2025-10-30T15:33:36+00:00
+created: 2025-10-30 15:33:36+00:00
 epistemic_status: highly_probable
-modified: 2026-09-09T12:34:08+00:00
+modified: 2026-09-09 12:34:08+00:00
 permalink: llmeon/30-library/100-zettelkasten/bottom-up-organization-allows-emergent-structure
 prodos.kind: atomic
 prodos.lifecycle: active
@@ -11,6 +11,8 @@ proposition: Unlike conventional systems that start with predefined hierarchies,
 tags: [emergence, organization, topic/knowledge-architecture, topic/pkm]
 title: Bottom-Up Organization Allows Emergent Structure
 type: claim
+contradicts: []
+evidence_links: []
 ---
 
 ## Minimum Viable Understanding (MVU)

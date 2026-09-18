@@ -19,3 +19,5 @@ A common and effective analogy to visualize the difference between accuracy and 
 - Neither Accurate nor Precise: The arrows are scattered all over the target with no consistency.
 
 This analogy provides a clear visual model for understanding that [[Accuracy and Precision are Independent Concepts]].
+
+[implements:: [[Accuracy and Precision are Independent Concepts]], strength=4, confidence=high]

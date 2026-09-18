@@ -1,16 +1,17 @@
 ---
 conformant: true
 contradicts: []
-created: 2026-09-14T11:39:58+00:00
+created: 2026-09-14 11:39:58+00:00
 epistemic_status: high
-modified: 2026-09-14T11:52:03+00:00
+modified: 2026-09-14 11:52:03+00:00
 permalink: llmeon/30-library/100-zettelkasten/judge-a-worldview-by-its-utility-in-its-environment-not-its-correctness
 prodos.kind: atomic
 prodos.lifecycle: seed
-proposition: "Rather than asking if a person's worldview is factually correct, evaluating how that worldview serves them in their specific environment explains why it persists."
+proposition: Rather than asking if a person's worldview is factually correct, evaluating how that worldview serves them in their specific environment explains why it persists.
 tags: [judgement, pragmatism, utility, worldviews]
 title: Judge a Worldview by Its Utility in Its Environment, Not Its Correctness
 type: claim
+evidence_links: []
 ---
 
 ## Minimum Viable Understanding

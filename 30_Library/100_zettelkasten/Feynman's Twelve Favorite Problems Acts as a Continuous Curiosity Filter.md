@@ -1,16 +1,20 @@
 ---
 conformant: true
-created: 2026-09-13T09:33:56+00:00
+created: 2026-09-13 09:33:56+00:00
 created_utc: '2026-09-13T00:00:00Z'
-modified: 2026-09-13T09:36:16+00:00
+modified: 2026-09-13 09:36:16+00:00
 permalink: llmeon/00-inbox/feynmans-twelve-favorite-problems-acts-as-a-continuous-curiosity-filter
 source_title: A Portable Interest and PKM Knowledge Graph
 source_url: UNKNOWN
 status: seed
 tags: [capture-filter, curiosity, feynman, pkm]
-title: "Feynman's Twelve Favorite Problems Acts as a Continuous Curiosity Filter"
+title: Feynman's Twelve Favorite Problems Acts as a Continuous Curiosity Filter
 type: claim
 upstream: '[[PKM Meta-Graph System Research]]'
+proposition: The Twelve Favorite Problems framework requires articulating roughly a dozen open-ended, personally significant questions spanning different life domains, then continuously testing new incoming information against each dormant problem to see if a connection can be made.
+epistemic_status: medium
+evidence_links: []
+contradicts: []
 ---
 
 ## Feynman's Twelve Favorite Problems Acts as a Continuous Curiosity Filter

@@ -1,15 +1,17 @@
 ---
 aliases: []
 conformant: true
-created: 2025-11-01T11:22:13+00:00
+created: 2025-11-01 11:22:13+00:00
 epistemic_status: high
-modified: 2026-09-09T12:34:13+00:00
-non_conformance_reason: ""
+modified: 2026-09-09 12:34:13+00:00
+non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/logicism-mathematics-as-extension-of-logic
-proposition: "Logicism holds that mathematics is an extension of pure logic: mathematical concepts are definable in purely logical terms and mathematical theorems are derivable as theorems of logic alone."
+proposition: 'Logicism holds that mathematics is an extension of pure logic: mathematical concepts are definable in purely logical terms and mathematical theorems are derivable as theorems of logic alone.'
 tags: [foundations, logic, TheHuman/Philosophy, topic/maths]
 title: Logicism (Mathematics as Extension of Logic)
 type: claim
+contradicts: []
+evidence_links: []
 ---
 
 Summary: Logicism proposes that all of mathematics is an extension of pure logic, and that mathematical truths are complex tautologies derivable from the axioms of logic alone.

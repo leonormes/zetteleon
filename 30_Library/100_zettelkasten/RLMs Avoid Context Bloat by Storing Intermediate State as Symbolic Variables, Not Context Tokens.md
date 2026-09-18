@@ -1,18 +1,15 @@
 ---
-created: 2026-07-28T00:00:00+00:00
+created: 2026-07-28 00:00:00+00:00
 epistemic_status: medium
-modified: 2026-09-09T12:34:15+00:00
+modified: 2026-09-09 12:34:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/rlms-avoid-context-bloat-by-storing-intermediate-state-as-symbolic-variables-not-context-tokens
-proposition: A Recursive Language Model avoids context-window bloat while processing
-  large datasets because intermediate results — cleaned data, running counts, partial
-  classifications — are stored as variables in the REPL environment rather than appended
-  "to the LLM's prompt/context. The model solves the context-limitation problem through"
-  symbolic reasoning (variables, loops, if/else statements written as code) rather
-  than by expanding or more efficiently packing the context window itself.
+proposition: A Recursive Language Model avoids context-window bloat while processing large datasets because intermediate results — cleaned data, running counts, partial classifications — are stored as variables in the REPL environment rather than appended "to the LLM's prompt/context. The model solves the context-limitation problem through" symbolic reasoning (variables, loops, if/else statements written as code) rather than by expanding or more efficiently packing the context window itself.
 tags: [domain/llm, topic/agent-architecture, topic/context-management, topic/rlm]
-title: RLMs Avoid Context Bloat by Storing Intermediate State as Symbolic Variables, Not Context Tokens
-  Not Context Tokens
+title: RLMs Avoid Context Bloat by Storing Intermediate State as Symbolic Variables, Not Context Tokens Not Context Tokens
 type: claim
+contradicts: []
+evidence_links: []
+conformant: true
 ---
 
 ## RLMs Avoid Context Bloat by Storing Intermediate State as Symbolic Variables, Not Context Tokens

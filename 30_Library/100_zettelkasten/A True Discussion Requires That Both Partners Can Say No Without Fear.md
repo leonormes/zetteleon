@@ -1,12 +1,16 @@
 ---
 aliases: [Right to Say No]
 conformant: true
-created: 2025-11-10T10:20:00+00:00
-modified: 2026-09-09T12:34:06+00:00
+created: 2025-11-10 10:20:00+00:00
+modified: 2026-09-09 12:34:06+00:00
 permalink: llmeon/30-library/100-zettelkasten/a-true-discussion-requires-that-both-partners-can-say-no-without-fear
 tags: [boundaries, communication, conflict, consent, relationship]
 title: A True Discussion Requires That Both Partners Can Say No Without Fear
 type: claim
+proposition: A conversation ceases to be a genuine discussion when one partner is not allowed to say "no" or disagree without facing anger, disdain, or moral vilification.
+epistemic_status: medium
+evidence_links: []
+contradicts: []
 ---
 
 ## A True Discussion Requires That Both Partners Can Say No Without Fear

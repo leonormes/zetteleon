@@ -1,18 +1,15 @@
 ---
-created: 2026-07-28T10:35:28+00:00
+created: 2026-07-28 10:35:28+00:00
 epistemic_status: medium
-modified: 2026-09-09T12:34:07+00:00
+modified: 2026-09-09 12:34:07+00:00
 permalink: llmeon/30-library/100-zettelkasten/ai-generated-code-shifts-from-a-durable-asset-to-a-disposable-cache-when-regeneration-is-cheap
-proposition: When AI makes regenerating code cheap, code stops functioning as a durable
-  "asset and starts functioning as a cache — a materialized view of understanding that's"
-  useful while current and disposable when stale. This extends the immutable-infrastructure
-  principle (mutation accumulates entropy, replacement resets it) from infrastructure
-  into application code itself, making editing-in-place the riskier choice once rewriting
-  is cheap.
+proposition: When AI makes regenerating code cheap, code stops functioning as a durable "asset and starts functioning as a cache — a materialized view of understanding that's" useful while current and disposable when stale. This extends the immutable-infrastructure principle (mutation accumulates entropy, replacement resets it) from infrastructure into application code itself, making editing-in-place the riskier choice once rewriting is cheap.
 tags: [domain/llm, topic/code-quality, topic/software-architecture]
-title: AI-Generated Code Shifts From a Durable Asset to a Disposable Cache When Regeneration Is Cheap
-  Is Cheap
+title: AI-Generated Code Shifts From a Durable Asset to a Disposable Cache When Regeneration Is Cheap Is Cheap
 type: claim
+contradicts: []
+evidence_links: []
+conformant: true
 ---
 
 ## AI-Generated Code Shifts From a Durable Asset to a Disposable Cache When Regeneration Is Cheap

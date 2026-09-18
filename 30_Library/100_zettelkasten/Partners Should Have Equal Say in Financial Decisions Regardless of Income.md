@@ -2,16 +2,18 @@
 aliases: [50/50 Say on Finances]
 axiom: true
 conformant: true
-created: 2025-11-10T10:12:00+00:00
+created: 2025-11-10 10:12:00+00:00
 epistemic_status: high
-modified: 2026-09-09T12:34:14+00:00
+modified: 2026-09-09 12:34:14+00:00
 permalink: llmeon/30-library/100-zettelkasten/partners-should-have-equal-say-in-financial-decisions-regardless-of-income
 prodos.kind: atomic
 prodos.lifecycle: stable
-proposition: 'It is reasonable for partners to expect an equal (50/50) say on all major financial decisions and goal-setting, because all money is considered "family money."'
+proposition: It is reasonable for partners to expect an equal (50/50) say on all major financial decisions and goal-setting, because all money is considered "family money."
 tags: [budgeting, decision-making, equality, finance, relationship]
 title: Partners Should Have Equal Say in Financial Decisions Regardless of Income
 type: claim
+contradicts: []
+evidence_links: []
 ---
 
 ## Partners Should Have Equal Say in Financial Decisions Regardless of Income

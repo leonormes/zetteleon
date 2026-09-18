@@ -2,15 +2,17 @@
 aliases: []
 axiom: true
 conformant: true
-created: 2025-10-20T09:44:00+00:00
+created: 2025-10-20 09:44:00+00:00
 epistemic_status: high
-modified: 2026-09-09T12:34:16+00:00
-non_conformance_reason: ""
+modified: 2026-09-09 12:34:16+00:00
+non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/structure-notes-as-maps-of-thought-trails
-proposition: "In a PKM built around writing-to-think, a Structure Note (or MOC) functions not as a final polished product but as a curated map guiding readers through the messy trail of atomic notes that produced it."
+proposition: In a PKM built around writing-to-think, a Structure Note (or MOC) functions not as a final polished product but as a curated map guiding readers through the messy trail of atomic notes that produced it.
 tags: [organization, topic/knowledge-architecture, topic/pkm, topic/pkm/zettelkasten]
 title: Structure Notes as Maps of Thought Trails
 type: claim
+contradicts: []
+evidence_links: []
 ---
 
 In a PKM that embraces [[SoT - The Unified Writing to Think Process|writing as a thinking tool]], the role of the polished, summary-style note changes. It is no longer the final product or the primary artifact of value. Instead, it becomes a Structure Note (or Map of Content) that serves as a high-level guide to the messy, authentic thinking process that produced it.

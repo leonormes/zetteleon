@@ -1,17 +1,19 @@
 ---
 aliases: [Learning to Learn, Pattern Recognition as Meta-Skill, Patterns as Scaffolding]
 conformant: true
-created: 2025-11-01T12:00:07+00:00
+created: 2025-11-01 12:00:07+00:00
 epistemic_status: high
-modified: 2026-09-09T12:34:14+00:00
+modified: 2026-09-09 12:34:14+00:00
 permalink: llmeon/30-library/100-zettelkasten/patterns-are-the-scaffolding-of-knowledge
 prodos.kind: atomic
 prodos.lifecycle: growing
-proposition: "Pattern recognition is a meta-skill for learning: knowledge is not accumulated as disconnected facts but built by detecting new regularities and attaching them to a web of already-recognised ones, which makes pattern salience a design property of any effective learning environment."
-see_also: ["[[MOC - Pattern - From Sensory Input to Meaning]]", "[[MOC - What is Maths]]", "[[SoT - Working Memory & Schema Theory]]"]
+proposition: 'Pattern recognition is a meta-skill for learning: knowledge is not accumulated as disconnected facts but built by detecting new regularities and attaching them to a web of already-recognised ones, which makes pattern salience a design property of any effective learning environment.'
+see_also: ['[[MOC - Pattern - From Sensory Input to Meaning]]', '[[MOC - What is Maths]]', '[[SoT - Working Memory & Schema Theory]]']
 tags: [abstraction, learning, pattern, scaffolding, TheHuman/Cognition, topic/maths]
 title: Patterns are the Scaffolding of Knowledge
 type: claim
+contradicts: []
+evidence_links: []
 ---
 
 ## Patterns Are the Scaffolding of Knowledge

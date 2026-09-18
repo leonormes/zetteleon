@@ -2,15 +2,17 @@
 aliases: [Deductive Reasoning, Mathematical Proof]
 axiom: true
 conformant: true
-created: 2025-11-01T11:22:13+00:00
+created: 2025-11-01 11:22:13+00:00
 epistemic_status: high
-modified: 2026-09-09T12:34:10+00:00
-non_conformance_reason: ""
+modified: 2026-09-09 12:34:10+00:00
+non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/deductive-reasoning-underwrites-mathematical-proof
-proposition: "Deductive reasoning forms the logical backbone of mathematical proof: starting from accepted axioms, applying valid inference rules, and deriving theorems whose truth is thereby guaranteed for every case the axioms cover."
+proposition: 'Deductive reasoning forms the logical backbone of mathematical proof: starting from accepted axioms, applying valid inference rules, and deriving theorems whose truth is thereby guaranteed for every case the axioms cover.'
 tags: [logic, proof, topic/maths]
 title: Deductive Reasoning Underwrites Mathematical Proof
 type: claim
+contradicts: []
+evidence_links: []
 ---
 
 Summary: Deductive reasoning forms the logical backbone of mathematics, providing "once-and-for-all guarantees" that certain lines of reasoning always work by deriving necessary conclusions from accepted axioms.

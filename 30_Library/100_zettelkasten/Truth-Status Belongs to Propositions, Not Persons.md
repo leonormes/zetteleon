@@ -1,18 +1,17 @@
 ---
 conformant: true
 contradicts: []
-created: 2026-08-13T11:04:09+00:00
+created: 2026-08-13 11:04:09+00:00
 epistemic_status: high
-modified: 2026-09-09T12:34:18+00:00
+modified: 2026-09-09 12:34:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/truth-status-belongs-to-propositions-not-persons
 prodos.kind: atomic
 prodos.lifecycle: seed
-proposition: Rightness and wrongness are properties of propositions, not properties
-  of people. Decoupling the person from the claim allows for rigorous intellectual
-  critique without existential threat.
+proposition: Rightness and wrongness are properties of propositions, not properties of people. Decoupling the person from the claim allows for rigorous intellectual critique without existential threat.
 tags: [decoupling, ego, epistemology, popper]
 title: Truth-Status Belongs to Propositions, Not Persons
 type: claim
+evidence_links: []
 ---
 
 ## Minimum Viable Understanding

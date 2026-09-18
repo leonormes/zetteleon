@@ -1,14 +1,16 @@
 ---
 aliases: [The Map is Not the Territory]
 conformant: true
-created: 2025-11-06T19:59:03+00:00
+created: 2025-11-06 19:59:03+00:00
 epistemic_status: high
-modified: 2026-09-09T12:34:17+00:00
+modified: 2026-09-09 12:34:17+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-map-is-not-the-territory
-proposition: "Our mental models, beliefs, and perceptions are simplified maps of reality, not reality itself, meaning our understanding is always an abstraction and potentially flawed."
+proposition: Our mental models, beliefs, and perceptions are simplified maps of reality, not reality itself, meaning our understanding is always an abstraction and potentially flawed.
 tags: [epistemology, mental-model, perception, reality]
 title: The Map is Not the Territory
 type: claim
+contradicts: []
+evidence_links: []
 ---
 
 ## The Map is Not the Territory

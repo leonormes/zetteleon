@@ -1,15 +1,17 @@
 ---
 aliases: []
 conformant: true
-created: 2026-08-07T00:00:00+01:00
+created: 2026-08-07 00:00:00+01:00
 epistemic_status: medium
-modified: 2026-09-14T11:35:47+00:00
+modified: 2026-09-14 11:35:47+00:00
 permalink: llmeon/30-library/100-zettelkasten/claim-stripping-away-systems-under-weights-the-need-for-pre-committed-external-prosthetics
-proposition: "Advice to strip away all systems and just act relies on in-the-moment willpower to break inertia, which is precisely the resource ADHD executive dysfunction depletes; the more reliable design pre-commits an external trigger — a launchpad, a visual timer, a checklist — before the moment of need, rather than asking a depleted internal executive function to perform on demand."
+proposition: Advice to strip away all systems and just act relies on in-the-moment willpower to break inertia, which is precisely the resource ADHD executive dysfunction depletes; the more reliable design pre-commits an external trigger — a launchpad, a visual timer, a checklist — before the moment of need, rather than asking a depleted internal executive function to perform on demand.
 tags: [executive-function, systems-engineering, TheHuman/Health/ADHD, topic/productivity]
 title: Claim - Stripping Away Systems Under-Weights the Need for Pre-Committed External Prosthetics
 type: claim
-upstream: "[[HEAD - The Trap of the Architect]]"
+upstream: '[[HEAD - The Trap of the Architect]]'
+contradicts: []
+evidence_links: []
 ---
 
 Advice that closes with "what's the smallest action you could take in the next five minutes?" asks the reader to supply, at the moment of need, exactly the executive resource that is depleted or dysregulated—this is the same failure point [[SoT - Prosthetic Executive Function]] identifies as architectural negligence: relying on internal memory or will at the point of performance.

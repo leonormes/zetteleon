@@ -1,16 +1,18 @@
 ---
 aliases: [The Self as Editorial Process]
 conformant: true
-created: 2025-11-01T09:51:13+00:00
+created: 2025-11-01 09:51:13+00:00
 epistemic_status: high
-modified: 2026-09-09T12:34:17+00:00
+modified: 2026-09-09 12:34:17+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-self-is-constructed-through-curation-of-influences
 prodos.kind: atomic
 prodos.lifecycle: stable
-proposition: "The self is an ongoing editorial process that selects, filters and integrates influences; agency shows up in curation — in the choice of inputs, environments and exemplars — rather than in the possession of an unmediated essence."
+proposition: The self is an ongoing editorial process that selects, filters and integrates influences; agency shows up in curation — in the choice of inputs, environments and exemplars — rather than in the possession of an unmediated essence.
 tags: [agency, curation, self-construction, TheHuman/Identity, TheHuman/Psychology]
 title: The Self is Constructed Through Curation of Influences
 type: claim
+contradicts: []
+evidence_links: []
 ---
 
 ## The Self is Constructed Through Curation of Influences

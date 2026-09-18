@@ -1,18 +1,17 @@
 ---
 conformant: true
 contradicts: []
-created: 2026-08-13T10:47:32+00:00
+created: 2026-08-13 10:47:32+00:00
 epistemic_status: high
-modified: 2026-09-09T12:34:09+00:00
+modified: 2026-09-09 12:34:09+00:00
 permalink: llmeon/30-library/100-zettelkasten/claim-vocabulary-acts-as-a-compression-scheme-pointing-to-shared-internal-models-rather-than-carrying-inherent-meaning
 prodos.kind: atomic
 prodos.lifecycle: seed
-proposition: Words do not contain intrinsic meaning; they function as a compression
-  scheme that triggers shared, learned internal models in the listener.
+proposition: Words do not contain intrinsic meaning; they function as a compression scheme that triggers shared, learned internal models in the listener.
 tags: [cognitive-psychology, linguistics, semiotics]
-title: Claim - Vocabulary acts as a compression scheme pointing to shared internal models rather than carrying inherent meaning
-  models rather than carrying inherent meaning
+title: Claim - Vocabulary acts as a compression scheme pointing to shared internal models rather than carrying inherent meaning models rather than carrying inherent meaning
 type: claim
+evidence_links: []
 ---
 
 ## Minimum Viable Understanding

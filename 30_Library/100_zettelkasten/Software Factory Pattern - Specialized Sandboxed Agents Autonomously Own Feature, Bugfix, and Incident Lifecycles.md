@@ -1,11 +1,15 @@
 ---
-created: 2026-07-28T09:22:09+00:00
+created: 2026-07-28 09:22:09+00:00
 epistemic_status: medium
-modified: 2026-09-09T12:34:16+00:00
+modified: 2026-09-09 12:34:16+00:00
 permalink: llmeon/30-library/100-zettelkasten/software-factory-pattern-specialized-sandboxed-agents-autonomously-own-feature-bugfix-and-incident-lifecycles
 tags: [domain/llm, topic/agent-architecture, topic/multi-agent, topic/workflow-design]
 title: Software Factory Pattern - Specialized Sandboxed Agents Autonomously Own Feature, Bugfix, and Incident Lifecycles
 type: claim
+proposition: Once built, a software factory of specialised, sandboxed agents—each owning a distinct phase or category of engineering work—can process the full spectrum of engineering work (features, bugs, incidents) autonomously and at a throughput the human team alone couldn't match, with engineers positioned only at the planning and review boundaries.
+evidence_links: []
+contradicts: []
+conformant: true
 ---
 
 ## Software Factory Pattern - Specialized Sandboxed Agents Autonomously Own Feature, Bugfix, and Incident Lifecycles

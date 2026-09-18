@@ -2,9 +2,9 @@
 aliases: [Functional Equivalence, The Inga and Otto Case]
 axiom: true
 conformant: true
-created: 2025-12-24T12:00:00+00:00
+created: 2025-12-24 12:00:00+00:00
 epistemic_status: high
-modified: 2026-09-09T12:34:17+00:00
+modified: 2026-09-09 12:34:17+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-parity-principle-functional-equivalence-in-cognition
 prodos.kind: atomic
 prodos.lifecycle: stable
@@ -12,6 +12,8 @@ proposition: If an external process functions in a way that we would unhesitatin
 tags: [cognition, logic, TheHuman/Philosophy]
 title: The Parity Principle - Functional Equivalence in Cognition
 type: claim
+contradicts: []
+evidence_links: []
 ---
 
 The Parity Principle is the philosophical heart of the [[SoT - The Extended Mind|EMT]]. It states:

@@ -4,20 +4,19 @@ type: claim
 status: seed
 prodos:
   kind: atomic
-  atomic:
-    form: mechanism
+  atomic: {form: mechanism}
 source_title: PKM Meta-Graph System Research
 source_url: https://people.engr.tamu.edu/shipman/SpatialHypertext/SH1/golovchinsky.pdf
 created_utc: '2026-09-14T00:00:00Z'
 confidence: medium
-tags:
-- topic/knowledge-architecture
-- domain/pkm
-- topic/spatial-cognition
-- topic/sensemaking
+tags: [topic/knowledge-architecture, domain/pkm, topic/spatial-cognition, topic/sensemaking]
 upstream: '[[PKM Meta-Graph System Research]]'
 conformant: true
 permalink: llmeon/30-library/100-zettelkasten/spatial-hypertext-lets-provisional-relationships-be-expressed-through-position-before-they-are-named
+proposition: Spatial hypertext systems let users encode contingent, provisional relationships between notes through visual attributes—position, proximity, size, and colour on a canvas—rather than through explicit, formally named links, lowering the threshold for expressing a relationship during early-stage triage.
+epistemic_status: medium
+evidence_links: []
+contradicts: []
 ---
 
 ### Spatial Hypertext Lets Provisional Relationships Be Expressed Through Position Before They Are Named

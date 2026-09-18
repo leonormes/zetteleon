@@ -1,16 +1,16 @@
 ---
 axiom: true
-created: 2026-07-28T00:00:00+00:00
+created: 2026-07-28 00:00:00+00:00
 epistemic_status: high
-modified: 2026-09-09T12:34:07+00:00
+modified: 2026-09-09 12:34:07+00:00
 permalink: llmeon/30-library/100-zettelkasten/agent-feedback-loops-require-bidirectional-memory-writes
-proposition: Agents that learn across sessions require not only memory retrieval (reading
-  prior discoveries) but also memory writes (recording new discoveries). Unidirectional
-  memory (read-only) is inert; bidirectional memory enables agents to compound knowledge
-  and avoid repeating failed patterns.
+proposition: Agents that learn across sessions require not only memory retrieval (reading prior discoveries) but also memory writes (recording new discoveries). Unidirectional memory (read-only) is inert; bidirectional memory enables agents to compound knowledge and avoid repeating failed patterns.
 tags: [domain/llm, topic/agent-architecture, topic/feedback-loops, topic/learning, topic/persistent-memory]
 title: Agent Feedback Loops Require Bidirectional Memory Writes
 type: claim
+contradicts: []
+evidence_links: []
+conformant: true
 ---
 
 ## Agent Feedback Loops Require Bidirectional Memory Writes

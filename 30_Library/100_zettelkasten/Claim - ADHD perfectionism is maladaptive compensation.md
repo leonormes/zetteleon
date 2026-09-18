@@ -1,12 +1,17 @@
 ---
-created: 2026-05-31T00:00:00+00:00
-modified: 2026-09-09T12:34:09+00:00
+created: 2026-05-31 00:00:00+00:00
+modified: 2026-09-09 12:34:09+00:00
 permalink: llmeon/30-library/100-zettelkasten/claim-adhd-perfectionism-is-maladaptive-compensation
 position-date: 2026-05-31
-related_to: ["[[Claim - Treat the system as iterative not perfectable]]", "[[Rejection-Sensitive Dysphoria]]"]
+related_to: ['[[Claim - Treat the system as iterative not perfectable]]', '[[Rejection-Sensitive Dysphoria]]']
 tags: [emotional-regulation, perfectionism, rsd, TheHuman/Health/ADHD]
 title: Claim - ADHD perfectionism is maladaptive compensation
 type: claim
+proposition: Perfectionism in ADHD often arises not as high standards but as an attempt to compensate for a history of underachievement, and because the ideal is unreachable, it reliably produces failure, self-criticism and renewed system-seeking.
+epistemic_status: medium
+evidence_links: []
+contradicts: []
+conformant: true
 ---
 
 ## Claim—ADHD Perfectionism is a Maladaptive Compensation

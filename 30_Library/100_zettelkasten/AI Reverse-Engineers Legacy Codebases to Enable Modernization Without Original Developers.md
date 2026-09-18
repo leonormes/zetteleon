@@ -1,16 +1,15 @@
 ---
-created: 2026-07-28T00:00:00+00:00
+created: 2026-07-28 00:00:00+00:00
 epistemic_status: medium
-modified: 2026-09-09T12:34:06+00:00
+modified: 2026-09-09 12:34:06+00:00
 permalink: llmeon/30-library/100-zettelkasten/ai-reverse-engineers-legacy-codebases-to-enable-modernization-without-original-developers
-proposition: A high-value use of AI in the SDLC is reverse-engineering and explaining
-  legacy codebases whose original developers are no longer available, producing a
-  clear path forward for modernization that would otherwise require slow, risky manual
-  archaeology.
+proposition: A high-value use of AI in the SDLC is reverse-engineering and explaining legacy codebases whose original developers are no longer available, producing a clear path forward for modernization that would otherwise require slow, risky manual archaeology.
 tags: [domain/llm, topic/legacy-systems, topic/modernization, topic/software-engineering]
-title: AI Reverse-Engineers Legacy Codebases to Enable Modernization Without Original Developers
-  Developers
+title: AI Reverse-Engineers Legacy Codebases to Enable Modernization Without Original Developers Developers
 type: claim
+contradicts: []
+evidence_links: []
+conformant: true
 ---
 
 ## AI Reverse-Engineers Legacy Codebases to Enable Modernization Without Original Developers

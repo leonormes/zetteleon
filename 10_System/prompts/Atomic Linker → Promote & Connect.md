@@ -1,11 +1,12 @@
 ---
 created: 2026-04-10T10:43:23+00:00
 description: "Step 2 of 2 in the atomic-capture pipeline. Reads a tmp_atoms_*.md file produced by the Atomic Signal Extractor (step 1), semantically links each atom into the existing vault graph, and promotes each atom into a permanent standalone note. Requires step 1 to have run first."
-modified: 2026-07-20T16:34:41+00:00
+modified: 2026-09-18T00:00:00+00:00
 permalink: llmeon/10-system/prompts/atomic-linker-promote-connect
 tags: [domain/pkm, pipeline/atomic-capture, type/system]
 title: Atomic Linker → Promote & Connect
 type: prompt
+version: 2
 ---
 
 ## Step 2 Prompt: Atomic Linker → Promote & Connect
@@ -117,9 +118,23 @@ The atom shares 2+ tags with an existing note but no stronger semantic link was 
 - Link type: Listed under `## See Also` (weakest link tier).
 - Confidence required: LOW is acceptable here.
 
+#### 6. Personal Library Match (optional, external—not a vault link)
+
+The atom's mechanism is independently corroborated or illustrated in a book from the personal Calibre library. This lens searches ARCHILLES, not the vault index, and never counts toward the 0–7 vault-link cap in the Hard Rules below.
+
+- Run 1 semantic query per atom against ARCHILLES (see Tooling Protocol), phrased around the atom's mechanism in your own words rather than its exact sentence.
+- Keep only hits with relevance ≳0.55 whose snippet actually bears on the atom, not just a shared keyword.
+- Link type: Listed under `#### Further Reading`, one bullet per book, via its `calibre://view-book/...` URI, with a one-line italicised annotation naming what it corroborates.
+- Zero matches is the common case—omit the section entirely rather than forcing a citation.
+
 #### Hard Rules for Linking
 
 - Use the obsidian mcp tools to interact and search files.
+- For the Personal Library lens, prefer an `archilles_1mcp_*` MCP tool (e.g. `archilles_1mcp_search_books_with_citations`) if reachable in your session; otherwise use the verified CLI fallback:
+  ```
+  cd ~/.local/share/archilles && export ARCHILLES_LIBRARY_PATH="/Users/leon.ormes/My Drive/GCcalibreBooks" && .venv/bin/python scripts/rag_demo.py query "<query>" --mode semantic --top-k 5 --max-per-book 1
+  ```
+  Build the link as `calibre://view-book/<Library_Folder_Name>/<calibre_id>/<FORMAT>` (library folder name = basename of `ARCHILLES_LIBRARY_PATH`, currently `GCcalibreBooks`; `<FORMAT>` uppercase, matching a format the book actually has). The bare `calibre://view/<id>` form is not valid Calibre syntax and does nothing when clicked—never emit it.
 - No phantom links. Every `[[wikilink]]` MUST point to a note that EXISTS in the vault index.
   If no match exists, do NOT fabricate one.
 - No self-links. An atom note must not link to itself.
@@ -204,6 +219,10 @@ clicking any link.>
 
 - [[Existing Note D]]
 
+#### Further Reading
+
+- [Book Title — Author, location](calibre://view-book/Library_Name/book_id/FORMAT)—_one-line italicised note on what it corroborates_
+
 ```
 
 ### File Naming Convention
@@ -212,7 +231,7 @@ clicking any link.>
 - Destination folder: Write to `00_Inbox/` (the user will triage and file later).
 
 ### Sections to OMIT if empty
-If an atom has no tensions, omit `## Tensions` entirely. Same for `## See Also`.
+If an atom has no tensions, omit `## Tensions` entirely. Same for `## See Also` and `## Further Reading`.
 Never include an empty section with "None found."
 
 ---
@@ -241,6 +260,7 @@ created_utc: "\<ISO 8601>"
 - Atoms processed: \<N>
 - Notes created: \<N>
 - Total links made: \<N>
+- Personal library citations added: \<N>
 - Unlinked atoms (no connections found): \<N>
 
 #### Link Map
@@ -300,7 +320,7 @@ Instructions:
 1. Build a vault index by reading all note filenames, frontmatter, and first 5 lines
    (excluding 00_Inbox/ and 10_System/).
 2. Read the TMP_ATOMS_FILE.
-3. For each atom, run the Semantic Connection Protocol (5 lenses).
+3. For each atom, run the Semantic Connection Protocol (6 lenses).
 4. Write permanent notes to 00_Inbox/.
 5. Write the link report.
 6. Respond with the summary line only.

@@ -2,16 +2,18 @@
 aliases: [Aristotelian Knowledge, Episteme-Techne-Phronesis]
 axiom: true
 conformant: true
-created: 2025-11-12T14:10:02+00:00
+created: 2025-11-12 14:10:02+00:00
 epistemic_status: high
-modified: 2026-09-09T12:34:08+00:00
+modified: 2026-09-09 12:34:08+00:00
 permalink: llmeon/30-library/100-zettelkasten/aristotle-distinguished-between-episteme-techne-and-phronesis
 prodos.kind: atomic
 prodos.lifecycle: stable
-proposition: "Aristotle created a tripartite distinction between episteme (theoretical knowledge), techne (craft), and phronesis (practical wisdom), establishing that action and practice are prerequisites for complete understanding."
+proposition: Aristotle created a tripartite distinction between episteme (theoretical knowledge), techne (craft), and phronesis (practical wisdom), establishing that action and practice are prerequisites for complete understanding.
 tags: [aristotle, knowledge, TheHuman/Philosophy]
 title: Aristotle Distinguished Between Episteme, Techne, and Phronesis
 type: claim
+contradicts: []
+evidence_links: []
 ---
 
 ## Aristotle Distinguished Between Episteme, Techne, and Phronesis

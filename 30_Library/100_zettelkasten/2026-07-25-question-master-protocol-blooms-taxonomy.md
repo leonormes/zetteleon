@@ -1,16 +1,18 @@
 ---
-aliases: ["The Question Master Protocol Uses Bloom's Taxonomy to Force Active Engagement with Material"]
+aliases: [The Question Master Protocol Uses Bloom's Taxonomy to Force Active Engagement with Material]
 conformant: true
-created: 2026-07-25T11:17:00+00:00
+created: 2026-07-25 11:17:00+00:00
 epistemic_status: medium
-modified: 2026-09-09T12:34:06+00:00
+modified: 2026-09-09 12:34:06+00:00
 permalink: llmeon/30-library/100-zettelkasten/2026-07-25-question-master-protocol-blooms-taxonomy
 prodos.kind: atomic
 prodos.lifecycle: stable
-proposition: "Actively generating analyse-, evaluate-, and create-level questions about source material, per Bloom's Taxonomy, counteracts passive reading by forcing engagement beyond simple recall."
+proposition: Actively generating analyse-, evaluate-, and create-level questions about source material, per Bloom's Taxonomy, counteracts passive reading by forcing engagement beyond simple recall.
 tags: [bias, learning, mental_models, TheHuman/Cognition]
 title: 2026-07-25-question-master-protocol-blooms-taxonomy
 type: claim
+contradicts: []
+evidence_links: []
 ---
 
 Instead of reading passively, actively question the material at Bloom's higher levels—analyse it, evaluate it, try to create something with it. Generating that kind of question forces engagement that simple recall never requires. Listed in the source as one of the named Forcing Functions (antidotes) for IoED.

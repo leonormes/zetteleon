@@ -2,7 +2,7 @@
 created: 2026-04-14T13:21:45+00:00
 created_utc: '2026-04-14T11:35:00Z'
 kind: distinction
-modified: 2026-09-09T12:34:12+00:00
+modified: 2026-09-17T00:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/information-vs-knowledge
 source_title: Thinking about knowledge
 source_url: https://gemini.google.com/app/d3312dd6e13881e3
@@ -32,9 +32,23 @@ Differentiates between the vast availability of data in the digital age and the 
 
 ### Related
 
+[supports:: [[Individual Interpretation Creates Different Knowledge from the Same Information]], strength=3, confidence=high]
+
+[depends_on:: [[What is information]], strength=3, confidence=high]
+
 - [[Comparison - Knowing vs Understanding]]—shared mechanism: both distinguish between possessing data and building actionable frameworks.
 - [[Individual Interpretation Creates Different Knowledge from the Same Information]]—supports: knowledge formation is a personal, interpretive process.
+- [[What is information]]—_depends_on: this note's distinction presupposes a working definition of information itself, which that note supplies (and already extends this one in the other direction)._
+- [[PKM Generates Unique Insights via Personal Context That AI Cannot Replicate]]—_the AI/PKM-specific application of this claim: an LLM operates on commoditised information, while a PKM system's value lies in the personal-context step this note calls knowledge._
 
 ### See Also
 
 - [[SoT - The Data-Centric Philosophy]]
+- [[MOC - From Information to Knowledge]]—_the hub map for this note; it already treats this claim as the map's central synthesis step._
+
+### Further Reading (Personal Library)
+
+Semantic matches from the Calibre library via ARCHILLES (BGE-M3 embeddings):
+
+- [Enlightenment Now — Steven Pinker, Ch. 19, p. 352](calibre://view-book/GCcalibreBooks/415/EPUB)—_"knowledge is acquired by formulating explanations and testing them against reality, not by running an algorithm faster and faster"—an almost exact paraphrase of this note's own evidence quote, applied to why more compute isn't more understanding._
+- [The Organized Mind — Daniel J. Levitin, "Information Overload, Then and Now"](calibre://view-book/GCcalibreBooks/689/EPUB)—_develops the "information is commoditised and infinite" half of the claim: abundance of information is itself a cognitive burden, not a proxy for knowledge._

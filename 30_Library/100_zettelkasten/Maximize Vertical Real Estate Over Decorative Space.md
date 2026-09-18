@@ -1,8 +1,8 @@
 ---
 conformant: true
-created: 2026-09-01T16:18:56+00:00
+created: 2026-09-01 16:18:56+00:00
 created_utc: '2026-09-01T16:18:54.888265+00:00'
-modified: 2026-09-09T12:34:13+00:00
+modified: 2026-09-09 12:34:13+00:00
 permalink: llmeon/00-inbox/maximize-vertical-real-estate-over-decorative-space
 source_title: The 7 rules of organization
 source_url: https://youtu.be/MHnMo5vEP7Q
@@ -11,6 +11,10 @@ tags: [efficiency, organization, spatial-design, storage]
 title: Maximize Vertical Real Estate Over Decorative Space
 type: claim
 upstream: '[[tmp_atoms_mujin_7_rules]]'
+proposition: When floor space reaches capacity, replace passive decorative items with modular vertical storage systems.
+epistemic_status: medium
+evidence_links: []
+contradicts: []
 ---
 
 ## Maximize Vertical Real Estate Over Decorative Space

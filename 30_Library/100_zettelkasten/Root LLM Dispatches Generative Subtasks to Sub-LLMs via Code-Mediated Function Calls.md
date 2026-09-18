@@ -1,20 +1,16 @@
 ---
 axiom: true
-created: 2026-07-28T00:00:00+00:00
+created: 2026-07-28 00:00:00+00:00
 epistemic_status: medium
-modified: 2026-09-09T12:34:15+00:00
+modified: 2026-09-09 12:34:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/root-llm-dispatches-generative-subtasks-to-sub-llms-via-code-mediated-function-calls
-proposition: In a Recursive Language Model, a Root LLM acts as orchestrator — it writes
-  "Python code, manages the environment's variables, and defines prompts — but does"
-  not itself perform the generative work on task data. When a specific piece of generative
-  or classification work is needed, the Root LLM invokes a special `llm_query` function
-  from within its own Python code, which dispatches that specific chunk of work to
-  a Sub-LLM. Delegation happens through a code-level function call, not through a
-  fixed agent-role handoff or a graph transition.
+proposition: In a Recursive Language Model, a Root LLM acts as orchestrator — it writes "Python code, manages the environment's variables, and defines prompts — but does" not itself perform the generative work on task data. When a specific piece of generative or classification work is needed, the Root LLM invokes a special `llm_query` function from within its own Python code, which dispatches that specific chunk of work to a Sub-LLM. Delegation happens through a code-level function call, not through a fixed agent-role handoff or a graph transition.
 tags: [domain/llm, topic/agent-architecture, topic/multi-agent, topic/rlm]
-title: Root LLM Dispatches Generative Subtasks to Sub-LLMs via Code-Mediated Function Calls
-  Calls
+title: Root LLM Dispatches Generative Subtasks to Sub-LLMs via Code-Mediated Function Calls Calls
 type: claim
+contradicts: []
+evidence_links: []
+conformant: true
 ---
 
 ## Root LLM Dispatches Generative Subtasks to Sub-LLMs via Code-Mediated Function Calls

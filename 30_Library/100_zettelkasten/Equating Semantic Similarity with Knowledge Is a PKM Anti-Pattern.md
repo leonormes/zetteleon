@@ -1,8 +1,8 @@
 ---
 conformant: true
-created: 2026-09-13T09:35:26+00:00
+created: 2026-09-13 09:35:26+00:00
 created_utc: '2026-09-13T00:00:00Z'
-modified: 2026-09-13T09:36:16+00:00
+modified: 2026-09-13 09:36:16+00:00
 permalink: llmeon/00-inbox/equating-semantic-similarity-with-knowledge-is-a-pkm-anti-pattern
 source_title: A Portable Interest and PKM Knowledge Graph
 source_url: UNKNOWN
@@ -11,6 +11,10 @@ tags: [anti-pattern, epistemics, pkm, semantic-search]
 title: Equating Semantic Similarity with Knowledge Is a PKM Anti-Pattern
 type: claim
 upstream: '[[PKM Meta-Graph System Research]]'
+proposition: Treating embedding-based semantic similarity between notes as if it were an authored, meaningful relationship is an anti-pattern; similarity search can retrieve candidate connections, but only an authored predicate plus rationale creates a durable assertion about how two ideas actually relate.
+epistemic_status: medium
+evidence_links: []
+contradicts: []
 ---
 
 ## Equating Semantic Similarity with Knowledge Is a PKM Anti-Pattern

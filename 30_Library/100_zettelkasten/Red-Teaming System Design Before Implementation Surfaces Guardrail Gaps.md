@@ -1,11 +1,15 @@
 ---
-created: 2026-07-28T00:00:00+00:00
+created: 2026-07-28 00:00:00+00:00
 epistemic_status: medium
-modified: 2026-09-09T12:34:15+00:00
+modified: 2026-09-09 12:34:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/red-teaming-system-design-before-implementation-surfaces-guardrail-gaps
 tags: [domain/llm, topic/architecture-pattern, topic/pkm, topic/safety, topic/verification]
 title: Red-Teaming System Design Before Implementation Surfaces Guardrail Gaps
 type: claim
+proposition: Red-teaming a system's proposed design—prompting an AI to attack it before a single file is created—surfaces structural weaknesses like missing tombstones or unclear ownership boundaries while they are still cheap to fix, rather than waiting for adversarial review to happen only after code already exists.
+evidence_links: []
+contradicts: []
+conformant: true
 ---
 
 ## Red-Teaming System Design Before Implementation Surfaces Guardrail Gaps

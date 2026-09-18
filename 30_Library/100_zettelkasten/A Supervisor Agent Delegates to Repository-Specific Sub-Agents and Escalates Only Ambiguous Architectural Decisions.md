@@ -1,20 +1,15 @@
 ---
-created: 2026-07-28T00:00:00+00:00
+created: 2026-07-28 00:00:00+00:00
 epistemic_status: medium
-modified: 2026-09-09T12:34:06+00:00
+modified: 2026-09-09 12:34:06+00:00
 permalink: llmeon/30-library/100-zettelkasten/a-supervisor-agent-delegates-to-repository-specific-sub-agents-and-escalates-only-ambiguous-architectural-decisions
-proposition: A primary supervisor agent manages multiple background execution sessions
-  "on the human's behalf. Instead of a human manually juggling many chat windows or"
-  terminal sessions, the human delegates high-level intents to the supervisor, which
-  routes tasks to repository-specific sub-agents and interrupts the human only for
-  ambiguous, high-level architectural decisions — not for routine execution work.
-  'This is a customized, terminal-native implementation of the established "supervisor-worker"'
-  agent hierarchy pattern (seen in frameworks like AutoGen and LangChain), not a novel
-  architecture.
+proposition: A primary supervisor agent manages multiple background execution sessions "on the human's behalf. Instead of a human manually juggling many chat windows or" terminal sessions, the human delegates high-level intents to the supervisor, which routes tasks to repository-specific sub-agents and interrupts the human only for ambiguous, high-level architectural decisions — not for routine execution work. 'This is a customized, terminal-native implementation of the established "supervisor-worker"' agent hierarchy pattern (seen in frameworks like AutoGen and LangChain), not a novel architecture.
 tags: [domain/llm, topic/agent-architecture, topic/human-oversight, topic/multi-agent]
-title: A Supervisor Agent Delegates to Repository-Specific Sub-Agents and Escalates Only Ambiguous Architectural Decisions
-  Only Ambiguous Architectural Decisions
+title: A Supervisor Agent Delegates to Repository-Specific Sub-Agents and Escalates Only Ambiguous Architectural Decisions Only Ambiguous Architectural Decisions
 type: claim
+contradicts: []
+evidence_links: []
+conformant: true
 ---
 
 ## A Supervisor Agent Delegates to Repository-Specific Sub-Agents and Escalates Only Ambiguous Architectural Decisions

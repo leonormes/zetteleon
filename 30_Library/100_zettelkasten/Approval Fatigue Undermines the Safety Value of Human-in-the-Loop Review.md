@@ -1,17 +1,15 @@
 ---
-created: 2026-07-28T00:00:00+00:00
+created: 2026-07-28 00:00:00+00:00
 epistemic_status: medium
-modified: 2026-09-09T12:34:07+00:00
+modified: 2026-09-09 12:34:07+00:00
 permalink: llmeon/30-library/100-zettelkasten/approval-fatigue-undermines-the-safety-value-of-human-in-the-loop-review
-proposition: Requiring manual approval for every individual agent action trains the
-  "human to stop actually reading what they're approving — repeated, high-frequency"
-  'clicking of "Approve" habituates the reviewer out of genuine scrutiny, which defeats'
-  the purpose of having a human approval gate in the first place. This is a specific
-  failure mode of human-in-the-loop review as a mechanism, distinct from the general
-  argument that human review is necessary.
+proposition: Requiring manual approval for every individual agent action trains the "human to stop actually reading what they're approving — repeated, high-frequency" 'clicking of "Approve" habituates the reviewer out of genuine scrutiny, which defeats' the purpose of having a human approval gate in the first place. This is a specific failure mode of human-in-the-loop review as a mechanism, distinct from the general argument that human review is necessary.
 tags: [domain/llm, topic/human-oversight, topic/reliability]
 title: Approval Fatigue Undermines the Safety Value of Human-in-the-Loop Review
 type: claim
+contradicts: []
+evidence_links: []
+conformant: true
 ---
 
 ## Approval Fatigue Undermines the Safety Value of Human-in-the-Loop Review

@@ -2,15 +2,17 @@
 aliases: [ADHD Digital Tools, ADHD Productivity Apps]
 axiom: true
 conformant: true
-created: 2025-11-06T19:54:05+00:00
+created: 2025-11-06 19:54:05+00:00
 epistemic_status: high
-modified: 2026-09-09T12:34:10+00:00
-non_conformance_reason: ""
+modified: 2026-09-09 12:34:10+00:00
+non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/digital-tools-help-externalize-memory-and-structure-for-adhd-developers
 proposition: Digital tools externalize memory, provide structure, and automate routine tasks to compensate for ADHD executive dysfunction.
 tags: [SoftwareEngineering, TheHuman/Health/ADHD, tools, topic/productivity]
 title: Digital Tools Help Externalize Memory and Structure for ADHD Developers
 type: claim
+contradicts: []
+evidence_links: []
 ---
 
 ## Digital Tools Help Externalize Memory and Structure for ADHD Developers

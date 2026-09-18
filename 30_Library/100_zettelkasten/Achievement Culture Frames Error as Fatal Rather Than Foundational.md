@@ -1,14 +1,16 @@
 ---
 aliases: []
 conformant: true
-created: 2026-08-03T00:00:00+01:00
+created: 2026-08-03 00:00:00+01:00
 epistemic_status: medium
-modified: 2026-09-09T12:34:07+00:00
+modified: 2026-09-09 12:34:07+00:00
 permalink: llmeon/30-library/100-zettelkasten/achievement-culture-frames-error-as-fatal-rather-than-foundational
-proposition: "Hyper-competitive educational environments teach that being wrong is a status loss rather than a step in learning, which drives learners to avoid precisely the disorientation that comprehension requires."
+proposition: Hyper-competitive educational environments teach that being wrong is a status loss rather than a step in learning, which drives learners to avoid precisely the disorientation that comprehension requires.
 tags: [shame, status, TheHuman/Cognition, TheHuman/Psychology, topic/education]
 title: Achievement Culture Frames Error as Fatal Rather Than Foundational
 type: claim
+contradicts: []
+evidence_links: []
 ---
 
 The mechanism is specific rather than vague. In a ranked environment, an error is not merely an error—it is publicly legible information about your position. That converts a normal step in learning into a status event, and status events are avoided.

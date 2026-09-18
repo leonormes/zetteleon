@@ -1,16 +1,15 @@
 ---
-created: 2026-07-28T00:00:00+00:00
+created: 2026-07-28 00:00:00+00:00
 epistemic_status: medium
-modified: 2026-09-09T12:34:07+00:00
+modified: 2026-09-09 12:34:07+00:00
 permalink: llmeon/30-library/100-zettelkasten/ai-synthesized-requirements-precede-code-generation-in-a-redesigned-sdlc
-proposition: Applying AI to the Requirements and Design stages of the SDLC — synthesizing
-  unstructured stakeholder data (surveys, emails, bug reports, logs) into actionable
-  user stories and root-cause analyses before any code is written — is a higher-leverage
-  use of AI than accelerating coding alone, because it addresses a stage most teams
-  never automate.
+proposition: Applying AI to the Requirements and Design stages of the SDLC — synthesizing unstructured stakeholder data (surveys, emails, bug reports, logs) into actionable user stories and root-cause analyses before any code is written — is a higher-leverage use of AI than accelerating coding alone, because it addresses a stage most teams never automate.
 tags: [domain/llm, topic/requirements-engineering, topic/sdlc, topic/software-engineering]
 title: AI-Synthesized Requirements Precede Code Generation in a Redesigned SDLC
 type: claim
+contradicts: []
+evidence_links: []
+conformant: true
 ---
 
 ## AI-Synthesized Requirements Precede Code Generation in a Redesigned SDLC

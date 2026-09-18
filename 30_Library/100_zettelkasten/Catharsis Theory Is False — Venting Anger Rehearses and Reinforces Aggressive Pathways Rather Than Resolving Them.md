@@ -8,14 +8,14 @@ source_title: Anger is fundamentally a cognitive response
 source_url: https://youtu.be/RuJaitcxr80
 created_utc: '2026-09-14T00:00:00Z'
 confidence: high
-tags:
-- topic/emotional-regulation
-- TheHuman/Psychology
-- topic/cognitive-bias
-- domain/pkm
+tags: [topic/emotional-regulation, TheHuman/Psychology, topic/cognitive-bias, domain/pkm]
 upstream: '[[tmp_atoms_anger-cognitive-response]]'
 conformant: true
 permalink: llmeon/30-library/100-zettelkasten/catharsis-theory-is-false-venting-anger-rehearses-and-reinforces-aggressive-pathways-rather-than-resolving-them
+proposition: Expressing anger physically (shouting, breaking objects) does not resolve the emotion; it rehearses and reinforces the neural and behavioural pathways of aggression, contrary to the popular "catharsis" idea that anger must be let out to heal.
+epistemic_status: high
+evidence_links: []
+contradicts: []
 ---
 
 ### Catharsis Theory Is False — Venting Anger Rehearses and Reinforces Aggressive Pathways Rather Than Resolving Them

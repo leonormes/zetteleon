@@ -1,8 +1,8 @@
 ---
 conformant: true
-created: 2026-09-13T09:35:36+00:00
+created: 2026-09-13 09:35:36+00:00
 created_utc: '2026-09-13T00:00:00Z'
-modified: 2026-09-13T09:36:16+00:00
+modified: 2026-09-13 09:36:16+00:00
 permalink: llmeon/00-inbox/a-beautiful-global-graph-view-is-not-evidence-of-a-better-pkm-system
 source_title: A Portable Interest and PKM Knowledge Graph
 source_url: UNKNOWN
@@ -11,6 +11,10 @@ tags: [anti-pattern, apophenia, graph-view, pkm]
 title: A Beautiful Global Graph View Is Not Evidence of a Better PKM System
 type: claim
 upstream: '[[PKM Meta-Graph System Research]]'
+proposition: Optimising the appearance or density of a vault's global graph view is a PKM anti-pattern, because a visually striking global graph is not itself evidence that the system improves retrieval, reasoning, or action.
+epistemic_status: medium
+evidence_links: []
+contradicts: []
 ---
 
 ## A Beautiful Global Graph View Is Not Evidence of a Better PKM System

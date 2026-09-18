@@ -2,8 +2,11 @@
 conformant: false
 created: 2026-05-04T08:01:26+00:00
 modified: 2026-09-09T12:34:12+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/100-zettelkasten/illusion-of-explanatory-depth-io-ed
+tags:
+- topic/psychology
+- cognitive-bias
 title: Illusion of Explanatory Depth (IoED)
 type: claim
 ---

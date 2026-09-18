@@ -1,16 +1,18 @@
 ---
 aliases: [Concept Mapping]
 conformant: true
-created: 2025-11-10T16:11:00+00:00
+created: 2025-11-10 16:11:00+00:00
 epistemic_status: high
-modified: 2026-09-09T12:34:09+00:00
+modified: 2026-09-09 12:34:09+00:00
 permalink: llmeon/30-library/100-zettelkasten/concept-mapping-is-a-technique-for-visually-organizing-knowledge
 prodos.kind: atomic
 prodos.lifecycle: stable
-proposition: "Concept mapping is an active learning technique that visually depicts relationships between key ideas to force the structural organization of knowledge."
+proposition: Concept mapping is an active learning technique that visually depicts relationships between key ideas to force the structural organization of knowledge.
 tags: [concept-mapping, learning, understanding, visualization]
 title: Concept Mapping is a Technique for Visually Organizing Knowledge
 type: claim
+contradicts: []
+evidence_links: []
 ---
 
 ## Concept Mapping is a Technique for Visually Organizing Knowledge

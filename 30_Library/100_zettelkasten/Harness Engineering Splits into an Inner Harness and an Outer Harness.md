@@ -1,19 +1,16 @@
 ---
-created: 2026-07-28T09:47:31+00:00
-modified: 2026-09-09T12:34:12+00:00
+aliases: []
+conformant: true
+contradicts: []
+created: 2026-07-28 09:47:31+00:00
+epistemic_status: medium
+evidence_links: []
+modified: '2026-09-18T00:00:00+00:00'
 permalink: llmeon/30-library/100-zettelkasten/harness-engineering-splits-into-an-inner-harness-tools-apis-and-an-outer-harness-dev-environment
-title: Harness Engineering Splits into an Inner Harness and an Outer Harness
----
-
----
-
-created: 2026-07-28T00:00:00+00:00
-modified: 2026-07-28T00:00:00+00:00
+proposition: 'Structuring the external environment around an LLM "raises the floor" of its effective capability, and this harness has two distinct layers—the inner harness (the precise tools and APIs exposed to the model) and the outer harness (the surrounding developer environment: testing frameworks, CI, and custom integrations built around the agent). Both layers do real, distinct work, and conflating them obscures where a given reliability problem actually lives.'
+tags: [domain/llm, topic/agent-architecture, topic/harness-design]
 title: Harness Engineering Splits into an Inner Harness and an Outer Harness
 type: claim
-epistemic_status: medium
-tags: [domain/llm, topic/agent-architecture, topic/harness-design]
-proposition: Structuring the external environment around an LLM "raises the floor" of its effective capability, and this harness has two distinct layers—the inner harness (the precise tools and APIs exposed to the model) and the outer harness (the surrounding developer environment: testing frameworks, CI, and custom integrations built around the agent). Both layers do real, distinct work, and conflating them obscures where a given reliability problem actually lives.
 ---
 
 ## Harness Engineering Splits into an Inner Harness and an Outer Harness

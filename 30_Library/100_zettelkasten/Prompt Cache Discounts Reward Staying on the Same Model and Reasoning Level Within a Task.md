@@ -1,18 +1,16 @@
 ---
 axiom: true
-created: 2026-07-28T00:00:00+00:00
+created: 2026-07-28 00:00:00+00:00
 epistemic_status: medium
-modified: 2026-09-09T12:34:15+00:00
+modified: 2026-09-09 12:34:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/prompt-cache-discounts-reward-staying-on-the-same-model-and-reasoning-level-within-a-task
-proposition: Staying on the same model and the same reasoning level for the duration
-  of a single feature, bug, or enhancement keeps prior turns cached, giving a cost
-  discount on subsequent requests within that task. Switching models or switching
-  reasoning level mid-task breaks that cache, forfeiting the discount and paying full
-  price on the next request as if starting fresh.
+proposition: Staying on the same model and the same reasoning level for the duration of a single feature, bug, or enhancement keeps prior turns cached, giving a cost discount on subsequent requests within that task. Switching models or switching reasoning level mid-task breaks that cache, forfeiting the discount and paying full price on the next request as if starting fresh.
 tags: [domain/llm, topic/cost-optimization]
-title: Prompt Cache Discounts Reward Staying on the Same Model and Reasoning Level Within a Task
-  Within a Task
+title: Prompt Cache Discounts Reward Staying on the Same Model and Reasoning Level Within a Task Within a Task
 type: claim
+contradicts: []
+evidence_links: []
+conformant: true
 ---
 
 ## Prompt Cache Discounts Reward Staying on the Same Model and Reasoning Level Within a Task

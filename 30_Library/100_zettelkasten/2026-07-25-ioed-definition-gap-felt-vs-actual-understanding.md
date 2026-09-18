@@ -1,9 +1,9 @@
 ---
-aliases: ["The Illusion of Explanatory Depth Names a Gap Between Felt and Actual Understanding"]
+aliases: [The Illusion of Explanatory Depth Names a Gap Between Felt and Actual Understanding]
 conformant: true
-created: 2026-07-25T11:17:00+00:00
+created: 2026-07-25 11:17:00+00:00
 epistemic_status: medium
-modified: 2026-09-09T12:34:06+00:00
+modified: 2026-09-09 12:34:06+00:00
 permalink: llmeon/30-library/100-zettelkasten/2026-07-25-ioed-definition-gap-felt-vs-actual-understanding
 prodos.kind: atomic
 prodos.lifecycle: stable
@@ -11,6 +11,8 @@ proposition: People systematically overestimate how well they understand complex
 tags: [bias, learning, mental_models, TheHuman/Cognition]
 title: 2026-07-25-ioed-definition-gap-felt-vs-actual-understanding
 type: claim
+contradicts: []
+evidence_links: []
 ---
 
 The Illusion of Explanatory Depth (IoED) is the gap between how well people believe they understand a complex causal system and how well they can actually explain it. The belief survives unchallenged until someone is forced to produce a real, step-by-step account of the mechanism—at which point the gap becomes visible. This is the base definition the rest of the IoED cluster (mechanism, ADHD amplification, antidotes, Dunning-Kruger distinction) builds outward from.

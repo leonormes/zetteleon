@@ -1,17 +1,15 @@
 ---
-created: 2026-07-28T00:00:00+00:00
+created: 2026-07-28 00:00:00+00:00
 epistemic_status: medium
-modified: 2026-09-09T12:34:18+00:00
+modified: 2026-09-09 12:34:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/unsustainable-agent-token-costs-are-driving-a-shift-from-flat-fee-to-usage-based-pricing
-proposition: AI coding tools historically subsidized heavy token consumption with
-  flat monthly subscriptions. As agentic tool-calling loops proved dramatically more
-  expensive than anticipated (millions of tokens for small tasks), providers are shifting
-  toward usage-based caps and token credits, because flat-fee pricing cannot absorb
-  the variance between a short chat query and a long agentic debugging session.
+proposition: AI coding tools historically subsidized heavy token consumption with flat monthly subscriptions. As agentic tool-calling loops proved dramatically more expensive than anticipated (millions of tokens for small tasks), providers are shifting toward usage-based caps and token credits, because flat-fee pricing cannot absorb the variance between a short chat query and a long agentic debugging session.
 tags: [domain/llm, topic/agent-architecture, topic/cost-optimization, topic/economics, topic/pricing]
-title: Unsustainable Agent Token Costs Are Driving a Shift from Flat-Fee to Usage-Based Pricing
-  Pricing
+title: Unsustainable Agent Token Costs Are Driving a Shift from Flat-Fee to Usage-Based Pricing Pricing
 type: claim
+contradicts: []
+evidence_links: []
+conformant: true
 ---
 
 ## Unsustainable Agent Token Costs Are Driving a Shift from Flat-Fee to Usage-Based Pricing

@@ -1,8 +1,8 @@
 ---
 conformant: true
-created: 2026-09-14T15:32:01+00:00
+created: 2026-09-14 15:32:01+00:00
 created_utc: '2026-09-14T00:00:00Z'
-modified: 2026-09-14T20:13:29+00:00
+modified: 2026-09-14 20:13:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/capability-pruning-restricts-each-agents-tools-to-its-role-to-prevent-runaway-tool-calls-and-hallucinated-requirements
 prodos.kind: atomic
 prodos.lifecycle: seed
@@ -10,9 +10,13 @@ source_title: Shared Memory Layer for Agentic AI
 source_url: unknown — see [[tmp_atoms_shared-memory-agentic-ai]]
 status: seed
 tags: [domain/llm, domain/pkm, topic/agent-architecture, topic/agentic-autonomy]
-title: "Capability Pruning Restricts Each Agent's Tools to Its Role to Prevent Runaway Tool Calls and Hallucinated Requirements"
+title: Capability Pruning Restricts Each Agent's Tools to Its Role to Prevent Runaway Tool Calls and Hallucinated Requirements
 type: claim
 upstream: '[[tmp_atoms_shared-memory-agentic-ai]]'
+proposition: Deliberately restricting each specialised agent's available tools and skills to only what its role requires reduces token consumption and prevents agents from hallucinating requirements for capabilities they don't actually have, and getting caught in expensive, endless tool-call loops.
+epistemic_status: medium
+evidence_links: []
+contradicts: []
 ---
 
 ## Capability Pruning Restricts Each Agent's Tools to Its Role to Prevent Runaway Tool Calls and Hallucinated Requirements

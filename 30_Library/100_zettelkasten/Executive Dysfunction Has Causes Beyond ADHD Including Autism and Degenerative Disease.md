@@ -1,16 +1,18 @@
 ---
 conformant: true
-created: 2026-09-07T13:00:00+00:00
+created: 2026-09-07 13:00:00+00:00
 epistemic_status: high
-modified: 2026-09-09T12:34:11+00:00
+modified: 2026-09-09 12:34:11+00:00
 permalink: llmeon/30-library/100-zettelkasten/executive-dysfunction-has-causes-beyond-adhd-including-autism-and-degenerative-disease
-proposition: "Executive dysfunction is not exclusive to ADHD—it also arises from autism spectrum disorder, brain injury, brain tumours, and degenerative conditions such as dementia and Alzheimer's disease."
-source_title: "Executive Function: Skills for Life"
-source_url: "https://my.clevelandclinic.org/health/articles/executive-function"
+proposition: Executive dysfunction is not exclusive to ADHD—it also arises from autism spectrum disorder, brain injury, brain tumours, and degenerative conditions such as dementia and Alzheimer's disease.
+source_title: 'Executive Function: Skills for Life'
+source_url: https://my.clevelandclinic.org/health/articles/executive-function
 status: seed
 tags: [autism, executive-function, neurology, TheHuman/Health/ADHD, TheHuman/Neuroscience]
 title: Executive Dysfunction Has Causes Beyond ADHD Including Autism and Degenerative Disease
 type: claim
+contradicts: []
+evidence_links: []
 ---
 
 ## Executive Dysfunction Has Causes Beyond ADHD Including Autism and Degenerative Disease

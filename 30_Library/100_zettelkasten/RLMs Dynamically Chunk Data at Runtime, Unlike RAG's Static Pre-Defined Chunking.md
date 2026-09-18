@@ -1,18 +1,15 @@
 ---
-created: 2026-07-28T00:00:00+00:00
+created: 2026-07-28 00:00:00+00:00
 epistemic_status: medium
-modified: 2026-09-09T12:34:15+00:00
+modified: 2026-09-09 12:34:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/rlms-dynamically-chunk-data-at-runtime-unlike-rags-static-pre-defined-chunking
-proposition: RAG systems chunk data using hardcoded rules decided in advance (e.g.
-  fixed paragraph or character-count splits) and retrieve against those fixed chunks
-  with a static query. Recursive Language Models instead chunk data dynamically at
-  runtime — the model inspects the actual data through its REPL environment and decides
-  on the fly how to slice it and how many Sub-LLM calls to spin up to process it,
-  making the chunking strategy itself a runtime decision rather than a pre-defined
-  rule.
+proposition: RAG systems chunk data using hardcoded rules decided in advance (e.g. fixed paragraph or character-count splits) and retrieve against those fixed chunks with a static query. Recursive Language Models instead chunk data dynamically at runtime — the model inspects the actual data through its REPL environment and decides on the fly how to slice it and how many Sub-LLM calls to spin up to process it, making the chunking strategy itself a runtime decision rather than a pre-defined rule.
 tags: [domain/llm, topic/agent-architecture, topic/rag, topic/rlm]
-title: "RLMs Dynamically Chunk Data at Runtime, Unlike RAG's Static Pre-Defined Chunking"
+title: RLMs Dynamically Chunk Data at Runtime, Unlike RAG's Static Pre-Defined Chunking
 type: claim
+contradicts: []
+evidence_links: []
+conformant: true
 ---
 
 ## RLMs Dynamically Chunk Data at Runtime, Unlike RAG's Static Pre-Defined Chunking

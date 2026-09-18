@@ -1,8 +1,8 @@
 ---
 conformant: true
-created: 2026-08-28T17:57:56+00:00
+created: 2026-08-28 17:57:56+00:00
 created_utc: '2026-08-28T18:57:00Z'
-modified: 2026-09-09T12:34:11+00:00
+modified: 2026-09-09 12:34:11+00:00
 permalink: llmeon/00-inbox/gtd-and-the-cognitive-load-of-execution
 source_title: Chat Input
 source_url: ''
@@ -11,6 +11,10 @@ tags: [cognition, gtd, planning, productivity]
 title: GTD and the Cognitive Load of Execution
 type: claim
 upstream: ''
+proposition: The Getting Things Done (GTD) methodology relies on separating the decision-making of planning from the physical execution of a task, avoiding the neurological bottleneck of trying to do both simultaneously.
+epistemic_status: medium
+evidence_links: []
+contradicts: []
 ---
 
 ## GTD and the Cognitive Load of Execution

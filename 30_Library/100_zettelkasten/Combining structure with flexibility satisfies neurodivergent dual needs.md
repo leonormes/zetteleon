@@ -2,16 +2,18 @@
 aliases: [Dual needs satisfaction, Structure with flexibility]
 axiom: true
 conformant: true
-created: 2025-10-30T18:05:00+00:00
+created: 2025-10-30 18:05:00+00:00
 epistemic_status: high
-modified: 2026-09-09T12:34:09+00:00
+modified: 2026-09-09 12:34:09+00:00
 permalink: llmeon/30-library/100-zettelkasten/combining-structure-with-flexibility-satisfies-neurodivergent-dual-needs
 prodos.kind: atomic
 prodos.lifecycle: stable
-proposition: "Combining structured routines with execution flexibility satisfies the dual neurodivergent needs for predictability (autism) and variable capacity accommodation (ADHD)."
+proposition: Combining structured routines with execution flexibility satisfies the dual neurodivergent needs for predictability (autism) and variable capacity accommodation (ADHD).
 tags: [autism, neurodivergence, routines, TheHuman/Health/ADHD]
 title: Combining structure with flexibility satisfies neurodivergent dual needs
 type: claim
+contradicts: []
+evidence_links: []
 ---
 
 Combining structure with flexibility satisfies the dual needs of neurodivergent individuals—particularly those with co-occurring autism and ADHD—by providing the predictable framework that reduces anxiety while allowing the adaptation capacity that prevents rigidity-induced failure.

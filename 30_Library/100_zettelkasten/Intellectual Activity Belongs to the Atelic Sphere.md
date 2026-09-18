@@ -1,15 +1,16 @@
 ---
 aliases: []
 conformant: true
-contradicts: ["[[ADHD Overthinking is a Substitute for Action]]"]
-created: 2026-08-03T00:00:00+01:00
+contradicts: ['[[ADHD Overthinking is a Substitute for Action]]']
+created: 2026-08-03 00:00:00+01:00
 epistemic_status: medium
-modified: 2026-09-09T12:34:12+00:00
+modified: 2026-09-09 12:34:12+00:00
 permalink: llmeon/30-library/100-zettelkasten/intellectual-activity-belongs-to-the-atelic-sphere
-proposition: "Reading, observation and contemplation are atelic activities whose value is contained in the performing of them, not in any credential, product or advantage they subsequently yield."
+proposition: Reading, observation and contemplation are atelic activities whose value is contained in the performing of them, not in any credential, product or advantage they subsequently yield.
 tags: [atelic, learning, TheHuman/Philosophy, topic/meaning]
 title: Intellectual Activity Belongs to the Atelic Sphere
 type: claim
+evidence_links: []
 ---
 
 > Open threads: [[HEAD - Is atelic contemplation distinguishable from avoidance from the inside]]

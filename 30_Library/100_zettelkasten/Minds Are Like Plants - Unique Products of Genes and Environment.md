@@ -1,18 +1,17 @@
 ---
 conformant: true
 contradicts: []
-created: 2026-08-13T11:04:22+00:00
+created: 2026-08-13 11:04:22+00:00
 epistemic_status: high
-modified: 2026-09-09T12:34:13+00:00
+modified: 2026-09-09 12:34:13+00:00
 permalink: llmeon/30-library/100-zettelkasten/minds-are-like-plants-unique-products-of-genes-and-environment
 prodos.kind: atomic
 prodos.lifecycle: seed
-proposition: Each human mind is a unique manifestation of the genes and environment
-  "that shaped it; therefore, evaluating people through a binary of 'right' or 'wrong'"
-  is fundamentally mismatched to reality.
+proposition: Each human mind is a unique manifestation of the genes and environment "that shaped it; therefore, evaluating people through a binary of 'right' or 'wrong'" is fundamentally mismatched to reality.
 tags: [compassion, epistemology, judgement, mental-models]
 title: Minds Are Like Plants - Unique Products of Genes and Environment
 type: claim
+evidence_links: []
 ---
 
 ## Minimum Viable Understanding

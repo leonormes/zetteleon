@@ -8,14 +8,14 @@ source_title: 'Systems: Overshoot and Collapse (Donella Meadows, 1977)'
 source_url: https://youtu.be/f9g4-5-GKBc
 created_utc: '2026-09-14T00:00:00Z'
 confidence: medium
-tags:
-- topic/systems
-- topic/epistemology
-- theory/system-dynamics
-- domain/pkm
+tags: [topic/systems, topic/epistemology, theory/system-dynamics, domain/pkm]
 upstream: '[[tmp_atoms_overshoot-and-collapse]]'
 conformant: true
 permalink: llmeon/30-library/100-zettelkasten/the-purpose-of-a-system-dynamics-model-is-to-make-assumptions-explicit-not-to-predict-outcomes
+proposition: Computer models of complex systems are not predictive black boxes meant to output future dates or numbers; their real purpose is to force the modeller to make assumptions about causal relationships and feedback loops explicit, which improves the mental models humans use to understand the system.
+epistemic_status: medium
+evidence_links: []
+contradicts: []
 ---
 
 ### The Purpose of a System Dynamics Model Is to Make Assumptions Explicit, Not to Predict Outcomes

@@ -2,9 +2,9 @@
 aliases: [Tangible Time]
 axiom: true
 conformant: true
-created: 2025-11-01T21:01:00+00:00
+created: 2025-11-01 21:01:00+00:00
 epistemic_status: high
-modified: 2026-09-09T12:34:18+00:00
+modified: 2026-09-09 12:34:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/timeboxing-makes-time-tangible-and-creates-accountability
 prodos.kind: atomic
 prodos.lifecycle: stable
@@ -12,6 +12,8 @@ proposition: Timeboxing transforms abstract intentions into concrete, scheduled 
 tags: [accountability, TheHuman/Psychology, time-management, topic/productivity]
 title: Timeboxing Makes Time Tangible and Creates Accountability
 type: claim
+contradicts: []
+evidence_links: []
 ---
 
 Timeboxing transforms abstract intentions into concrete, scheduled commitments, which creates a powerful sense of psychological accountability.

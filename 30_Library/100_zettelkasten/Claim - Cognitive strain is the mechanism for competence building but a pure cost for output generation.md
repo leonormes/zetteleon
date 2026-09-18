@@ -1,9 +1,9 @@
 ---
 conformant: true
 contradicts: []
-created: 2026-09-14T11:39:47+00:00
+created: 2026-09-14 11:39:47+00:00
 epistemic_status: high
-modified: 2026-09-14T11:51:59+00:00
+modified: 2026-09-14 11:51:59+00:00
 permalink: llmeon/30-library/100-zettelkasten/claim-cognitive-strain-is-the-mechanism-for-competence-building-but-a-pure-cost-for-output-generation
 prodos.kind: atomic
 prodos.lifecycle: seed
@@ -11,6 +11,7 @@ proposition: 'The value of cognitive strain is context-dependent: when the goal 
 tags: [agents, automation, cognition, competence, delegation]
 title: Claim - Cognitive strain is the mechanism for competence building but a pure cost for output generation
 type: claim
+evidence_links: []
 ---
 
 ## Minimum Viable Understanding

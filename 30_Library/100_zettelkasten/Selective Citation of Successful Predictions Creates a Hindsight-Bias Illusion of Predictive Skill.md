@@ -8,14 +8,14 @@ source_title: John Gray on the myth of progress
 source_url: unknown — see [[tmp_atoms_john-gray-progress]]
 created_utc: '2026-09-14T00:00:00Z'
 confidence: high
-tags:
-- topic/critical-thinking
-- topic/evidence-quality
-- topic/cognitive-bias
-- domain/pkm
+tags: [topic/critical-thinking, topic/evidence-quality, topic/cognitive-bias, domain/pkm]
 upstream: '[[tmp_atoms_john-gray-progress]]'
 conformant: true
 permalink: llmeon/30-library/100-zettelkasten/selective-citation-of-successful-predictions-creates-a-hindsight-bias-illusion-of-predictive-skill
+proposition: Citing one's own past correct warnings as general evidence of superior judgement is unreliable without a systematic record, because successful predictions are more memorable and more likely to be cited than failed ones; without a full record of predictions and falsification criteria, a claim of predictive superiority remains anecdotal rather than demonstrated.
+epistemic_status: high
+evidence_links: []
+contradicts: []
 ---
 
 ### Selective Citation of Successful Predictions Creates a Hindsight-Bias Illusion of Predictive Skill

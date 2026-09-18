@@ -8,14 +8,14 @@ source_title: David Hume's Radical Empiricism / Hume's Fork
 source_url: unknown — see [[tmp_atoms_humes-fork]]
 created_utc: '2026-09-14T00:00:00Z'
 confidence: high
-tags:
-- topic/epistemology
-- topic/philosophy-of-language
-- domain/pkm
-- topic/kant
+tags: [topic/epistemology, topic/philosophy-of-language, domain/pkm, topic/kant]
 upstream: '[[tmp_atoms_humes-fork]]'
 conformant: true
 permalink: llmeon/30-library/100-zettelkasten/kants-synthetic-a-priori-challenges-humes-fork-by-claiming-a-third-knowledge-category
+proposition: Immanuel Kant directly challenged Hume's Fork by arguing for the existence of synthetic a priori knowledge—claims that are both informative about the world (synthetic) and knowable independent of experience (a priori)—a category Hume's two-way division has no room for.
+epistemic_status: high
+evidence_links: []
+contradicts: []
 ---
 
 ### Kant's Synthetic A Priori Challenges Hume's Fork by Claiming a Third Knowledge Category

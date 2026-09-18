@@ -2,11 +2,11 @@
 aliases: []
 conformant: true
 contradicts: []
-created: 2026-09-04T09:25:19+00:00
-created_utc: 2026-09-04T14:00:00+00:00
+created: 2026-09-04 09:25:19+00:00
+created_utc: 2026-09-04 14:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-09T12:34:17+00:00
+modified: 2026-09-09 12:34:17+00:00
 permalink: llmeon/00-inbox/the-public-paper-trail-of-science-makes-its-self-correction-verifiable-without-firsthand-observation-1
 source_title: New chat
 source_url: https://gemini.google.com/app/295a599fc8b28e35
@@ -14,6 +14,7 @@ status: seed
 tags: [epistemology, openness, philosophy-of-science, transparency]
 title: The Public Paper Trail of Science Makes Its Self-Correction Verifiable Without Firsthand Observation
 type: claim
+proposition: 'You don''t have to have sat in a lab to trust that scientific self-correction happens, because it leaves a massive public trail: researchers who disagree publish competing papers, publicly replicate and debunk each other''s work, and leave visible peer-review comments on pre-print servers and databases of retracted papers.'
 ---
 
 ## The Public Paper Trail of Science Makes Its Self-Correction Verifiable Without Firsthand Observation

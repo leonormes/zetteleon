@@ -1,9 +1,9 @@
 ---
 aliases: [Goals as Temporary Fixes]
 conformant: true
-created: 2025-11-06T19:57:01+00:00
+created: 2025-11-06 19:57:01+00:00
 epistemic_status: high
-modified: 2026-09-09T12:34:07+00:00
+modified: 2026-09-09 12:34:07+00:00
 permalink: llmeon/30-library/100-zettelkasten/achieving-a-goal-is-a-momentary-change-without-systemic-improvement
 prodos.kind: atomic
 prodos.lifecycle: stable
@@ -11,6 +11,8 @@ proposition: A goal-oriented approach provides only a momentary change because i
 tags: [behavior-change, goals, TheHuman/Habits, topic/systems]
 title: Achieving a Goal is a Momentary Change Without Systemic Improvement
 type: claim
+contradicts: []
+evidence_links: []
 ---
 
 ## Achieving a Goal is a Momentary Change Without Systemic Improvement

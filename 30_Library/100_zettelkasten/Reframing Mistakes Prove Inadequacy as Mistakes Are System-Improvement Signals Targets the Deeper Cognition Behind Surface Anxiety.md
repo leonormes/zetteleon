@@ -8,14 +8,14 @@ source_title: Cognitive behavioural strategies for safety behaviours and checkin
 source_url: unknown — see [[tmp_atoms_cbt-safety-behaviours]]
 created_utc: '2026-09-14T00:00:00Z'
 confidence: high
-tags:
-- topic/anxiety
-- TheHuman/Psychology
-- topic/self-worth
-- domain/pkm
+tags: [topic/anxiety, TheHuman/Psychology, topic/self-worth, domain/pkm]
 upstream: '[[tmp_atoms_cbt-safety-behaviours]]'
 conformant: true
 permalink: llmeon/30-library/100-zettelkasten/reframing-mistakes-prove-inadequacy-as-mistakes-are-system-improvement-signals-targets-the-deeper-cognition-behind-surface-anxiety
+proposition: CBT treatment of anxious over-preparation works better when it challenges the deeper inference behind the surface prediction—not "I might be wrong" but "being wrong proves I am inadequate"—replacing it with "an error can be evidence that a model, checklist, or system needs improvement, not a verdict on me."
+epistemic_status: high
+evidence_links: []
+contradicts: []
 ---
 
 ### Reframing "Mistakes Prove Inadequacy" as "Mistakes Are System-Improvement Signals" Targets the Deeper Cognition Behind Surface Anxiety

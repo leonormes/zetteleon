@@ -1,13 +1,18 @@
 ---
-contrasts_with: ["[[Claim - ADHD perfectionism is maladaptive compensation]]", "[[System-Hopping]]"]
-created: 2026-05-31T00:00:00+00:00
-modified: 2026-09-09T12:34:09+00:00
+contrasts_with: ['[[Claim - ADHD perfectionism is maladaptive compensation]]', '[[System-Hopping]]']
+created: 2026-05-31 00:00:00+00:00
+modified: 2026-09-09 12:34:09+00:00
 permalink: llmeon/30-library/100-zettelkasten/claim-treat-the-system-as-iterative-not-perfectable
 position-date: 2026-05-31
-related_to: ["[[Q - Iterating versus system-hopping]]"]
+related_to: ['[[Q - Iterating versus system-hopping]]']
 tags: [iteration, perfectionism, system-design, TheHuman/Health/ADHD]
 title: Claim - Treat the system as iterative not perfectable
 type: claim
+proposition: Treating a PKM/productivity system as a permanent work-in-progress—small tweaks against lived feedback—outperforms pursuing a finished "perfect" setup, and defuses both perfectionism and system-hopping.
+epistemic_status: medium
+evidence_links: []
+contradicts: []
+conformant: true
 ---
 
 ## Claim—Treat The System as Iterative, not Perfectable

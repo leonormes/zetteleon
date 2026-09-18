@@ -1,14 +1,18 @@
 ---
 aliases: [No Unified Self, Split Brain vs the Soul]
 conformant: true
-created: 2026-07-16T15:50:54+00:00
-modified: 2026-09-09T12:34:12+00:00
+created: 2026-07-16 15:50:54+00:00
+modified: 2026-09-09 12:34:12+00:00
 permalink: llmeon/30-library/100-zettelkasten/harris-uses-the-split-brain-to-deny-the-unified-self
-source_title: "Waking Up (Sam Harris) — reviewed LLM summary and critique"
+source_title: Waking Up (Sam Harris) — reviewed LLM summary and critique
 status: seed
 tags: [consciousness, sam-harris, self, split-brain, TheHuman/Identity, TheHuman/Philosophy]
 title: Harris Uses the Split Brain to Deny the Unified Self
 type: claim
+proposition: Harris argues the split-brain phenomenon poses an insurmountable problem for a single indivisible self or immortal soul, since a surgeon could in principle divide a person into two centres with different beliefs and eternal destinies—but the argument targets only the metaphysically simple (Cartesian) self, not an emergent or process account of self.
+epistemic_status: medium
+evidence_links: []
+contradicts: []
 ---
 
 ## Harris Uses the Split Brain to Deny the Unified Self

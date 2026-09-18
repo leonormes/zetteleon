@@ -1,16 +1,18 @@
 ---
-aliases: ["The Five Whys Chain Drills an Explanation Down to First-Principle Causes"]
+aliases: [The Five Whys Chain Drills an Explanation Down to First-Principle Causes]
 conformant: true
-created: 2026-07-25T11:17:00+00:00
+created: 2026-07-25 11:17:00+00:00
 epistemic_status: medium
-modified: 2026-09-09T12:34:06+00:00
+modified: 2026-09-09 12:34:06+00:00
 permalink: llmeon/30-library/100-zettelkasten/2026-07-25-five-whys-chain-drills-to-first-principles
 prodos.kind: atomic
 prodos.lifecycle: stable
-proposition: 'Repeatedly asking "why" about a claimed causal mechanism, typically five times in sequence, surfaces the point at which stated understanding runs out and exposes unexamined assumptions.'
+proposition: Repeatedly asking "why" about a claimed causal mechanism, typically five times in sequence, surfaces the point at which stated understanding runs out and exposes unexamined assumptions.
 tags: [bias, learning, mental_models, TheHuman/Cognition]
 title: 2026-07-25-five-whys-chain-drills-to-first-principles
 type: claim
+contradicts: []
+evidence_links: []
 ---
 
 Ask "why?" about a claimed mechanism, then ask why again about the answer, five times over. The chain reliably runs out somewhere before five—and the point where it runs out is exactly the edge of what you actually understand. Listed in the source as one of the named Forcing Functions (antidotes) for IoED.

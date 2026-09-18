@@ -1,16 +1,16 @@
 ---
 axiom: true
-created: 2026-07-28T00:00:00+00:00
+created: 2026-07-28 00:00:00+00:00
 epistemic_status: high
-modified: 2026-09-09T12:34:15+00:00
+modified: 2026-09-09 12:34:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/selective-memory-retrieval-reduces-token-cost-in-multi-session-workflows
-proposition: When an agent accesses persistent memory, retrieving only the relevant
-  subset of prior work is significantly cheaper than full context reloading. Selective
-  retrieval requires structured memory (queryable, tagged, or graph-indexed) so that
-  only task-relevant information enters the LLM context window.
+proposition: When an agent accesses persistent memory, retrieving only the relevant subset of prior work is significantly cheaper than full context reloading. Selective retrieval requires structured memory (queryable, tagged, or graph-indexed) so that only task-relevant information enters the LLM context window.
 tags: [domain/llm, topic/agent-architecture, topic/context-engineering, topic/cost-optimization, topic/persistent-memory]
 title: Selective Memory Retrieval Reduces Token Cost in Multi-Session Workflows
 type: claim
+contradicts: []
+evidence_links: []
+conformant: true
 ---
 
 ## Selective Memory Retrieval Reduces Token Cost in Multi-Session Workflows

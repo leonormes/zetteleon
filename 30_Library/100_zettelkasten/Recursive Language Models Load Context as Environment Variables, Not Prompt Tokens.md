@@ -1,18 +1,16 @@
 ---
 axiom: true
-created: 2026-07-28T00:00:00+00:00
+created: 2026-07-28 00:00:00+00:00
 epistemic_status: medium
-modified: 2026-09-09T12:34:15+00:00
+modified: 2026-09-09 12:34:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/recursive-language-models-load-context-as-environment-variables-not-prompt-tokens
-proposition: A Recursive Language Model (RLM) is an LLM operating inside an external
-  environment, typically a Python REPL. Instead of pasting task context directly into
-  "the LLM's prompt window, the RLM loads that context as variables within the environment"
-  — the model interacts with the data by reading, sampling, and manipulating those
-  variables through code, rather than having the data occupy prompt tokens at all.
+proposition: A Recursive Language Model (RLM) is an LLM operating inside an external environment, typically a Python REPL. Instead of pasting task context directly into "the LLM's prompt window, the RLM loads that context as variables within the environment" — the model interacts with the data by reading, sampling, and manipulating those variables through code, rather than having the data occupy prompt tokens at all.
 tags: [domain/llm, topic/agent-architecture, topic/context-management, topic/rlm]
-title: Recursive Language Models Load Context as Environment Variables, Not Prompt Tokens
-  Tokens
+title: Recursive Language Models Load Context as Environment Variables, Not Prompt Tokens Tokens
 type: claim
+contradicts: []
+evidence_links: []
+conformant: true
 ---
 
 ## Recursive Language Models Load Context as Environment Variables, Not Prompt Tokens

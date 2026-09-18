@@ -1,14 +1,16 @@
 ---
 aliases: []
 conformant: true
-created: 2026-08-03T00:00:00+01:00
+created: 2026-08-03 00:00:00+01:00
 epistemic_status: high
-modified: 2026-09-09T12:34:07+00:00
+modified: 2026-09-16 09:42:36+00:00
 permalink: llmeon/30-library/100-zettelkasten/abstract-thought-lacks-the-material-resistance-that-corrects-physical-work
-proposition: "Physical labour supplies immediate corrective feedback because matter does not yield to belief, whereas language and theory impose no equivalent friction, allowing an unsound idea to be sustained indefinitely inside a coherent internal narrative."
+proposition: Physical labour supplies immediate corrective feedback because matter does not yield to belief, whereas language and theory impose no equivalent friction, allowing an unsound idea to be sustained indefinitely inside a coherent internal narrative.
 tags: [epistemology, feedback, mental_models, TheHuman/Cognition]
 title: Abstract Thought Lacks the Material Resistance That Corrects Physical Work
 type: claim
+contradicts: []
+evidence_links: []
 ---
 
 A joiner who misjudges a mortise finds out within the hour. The wood is indifferent to the confidence with which the cut was planned. This is the defining epistemic property of manual work: the material is an adversary that cannot be argued with, and it delivers its verdict on a schedule the worker does not control.
@@ -20,6 +22,14 @@ This is the strongest thing in the atelic argument, and notably it cuts _against
 ## Steelman
 
 The asymmetry is overstated for many domains of abstract work. Mathematics has proof, software has the compiler and the failing test, and empirical science has the experiment—all of which resist the practitioner's preferences as unforgivingly as timber does. The vulnerability is real for unformalised discursive theorising, not for abstraction as such.
+
+## Related
+
+- [[SoT - The Atelic Intellectual Life]]—*canonical synthesis this claim belongs to, listed under its "Self-Critique" section as the atelic argument's own strongest objection to itself.*
+- [[Praxis is the Cyclical Process of Action and Reflection to Transform the World]]—*the axiom this claim's epistemic grounding rests on: physical praxis is what closes a feedback loop that abstract thought does not close on its own.*
+- [[Intellectual Rigour Means Manufacturing the Friction That Abstraction Removes]]—*names the treatment where this note names the disease: if abstraction supplies no resistance, rigour is the deliberate manufacture of some.*
+- [[Claim - Thinking Earns Its Place by Improving Model Fidelity]]—*quotes this note directly as the more precisely-stated version of its own claim that thinking must be tested by contact with reality, not by inspection.*
+- [[Falsifiability Is Necessary But Not Sufficient for a Claim to Be Scientific]]—*complicates the Steelman below: falsifiability names the resistance mechanism science is supposed to have, but a badly designed experiment can fail to be unforgiving in the way timber is, which narrows the Steelman's claim that "the experiment" resists preferences as reliably as matter does.*
 
 ## Knowledge Graph
 

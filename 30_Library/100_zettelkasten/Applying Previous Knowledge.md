@@ -2,9 +2,9 @@
 aliases: []
 axiom: true
 conformant: true
-created: 2025-02-07T12:57:54+00:00
+created: 2025-02-07 12:57:54+00:00
 epistemic_status: high
-modified: 2026-09-09T12:34:07+00:00
+modified: 2026-09-09 12:34:07+00:00
 permalink: llmeon/30-library/100-zettelkasten/applying-previous-knowledge
 prodos.kind: atomic
 prodos.lifecycle: stable
@@ -12,6 +12,8 @@ proposition: Information hidden within raw data can only be revealed by applying
 tags: [expertise, information, knowledge]
 title: Applying Previous Knowledge
 type: claim
+contradicts: []
+evidence_links: []
 ---
 
 Utilizing existing knowledge, such as mathematical axioms or domain expertise, is crucial for revealing hidden information within data.

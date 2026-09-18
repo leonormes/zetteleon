@@ -1,15 +1,17 @@
 ---
 aliases: [Logical Maze Metaphor]
 conformant: true
-created: 2025-11-01T11:22:13+00:00
+created: 2025-11-01 11:22:13+00:00
 epistemic_status: medium
-modified: 2026-09-09T12:34:13+00:00
-non_conformance_reason: ""
+modified: 2026-09-09 12:34:13+00:00
+non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/mathematics-as-a-logical-maze-metaphor
-proposition: "Mathematics is best understood as a 'logical maze'—an interconnected network of pathways, decision points, dead ends, and multiple routes—where doing mathematics means navigating and discovering connections rather than accumulating isolated facts."
+proposition: Mathematics is best understood as a 'logical maze'—an interconnected network of pathways, decision points, dead ends, and multiple routes—where doing mathematics means navigating and discovering connections rather than accumulating isolated facts.
 tags: [metaphor, pedagogy, topic/maths]
 title: Mathematics as a Logical Maze (Metaphor)
 type: claim
+contradicts: []
+evidence_links: []
 ---
 
 Summary: Mathematics is consistently described as a "logical maze"—an intricate network of ideas where the task is to navigate through logical possibilities and discover new connections.

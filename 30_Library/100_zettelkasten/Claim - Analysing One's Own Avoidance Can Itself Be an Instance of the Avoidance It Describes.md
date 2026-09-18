@@ -1,15 +1,17 @@
 ---
 aliases: []
 conformant: true
-created: 2026-08-07T00:00:00+01:00
+created: 2026-08-07 00:00:00+01:00
 epistemic_status: medium
-modified: 2026-09-14T11:35:46+00:00
+modified: 2026-09-14 11:35:46+00:00
 permalink: llmeon/30-library/100-zettelkasten/claim-analysing-ones-own-avoidance-can-itself-be-an-instance-of-the-avoidance-it-describes
-proposition: "When a person whose intellect functions as an avoidance mechanism receives or produces an elegant, structured analysis of that very mechanism, the polish and structure of the analysis can itself be an instance of the pattern it names — the intellectualising continues inside the act of diagnosing intellectualising."
+proposition: When a person whose intellect functions as an avoidance mechanism receives or produces an elegant, structured analysis of that very mechanism, the polish and structure of the analysis can itself be an instance of the pattern it names — the intellectualising continues inside the act of diagnosing intellectualising.
 tags: [epistemics, meta-work, self-reference, TheHuman/Health/ADHD, topic/productivity]
-title: "Claim - Analysing One's Own Avoidance Can Itself Be an Instance of the Avoidance It Describes"
+title: Claim - Analysing One's Own Avoidance Can Itself Be an Instance of the Avoidance It Describes
 type: claim
-upstream: "[[HEAD - The Trap of the Architect]]"
+upstream: '[[HEAD - The Trap of the Architect]]'
+contradicts: []
+evidence_links: []
 ---
 
 This is a narrower claim than "analysis can be procrastination" in general: it is about the case where the _content_ of the analysis is itself a warning against exactly the activity of producing it. A four-principle reframe, however accurate, is still an artefact of the Architect pattern in [[The Trap of the Architect Is Sophisticated System-Building Substituting for Physical Action]] if consuming or producing it displaces the small physical action it recommends.

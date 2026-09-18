@@ -2,9 +2,9 @@
 aliases: [Self-Concordant Goals]
 axiom: true
 conformant: true
-created: 2025-11-10T17:12:00+00:00
+created: 2025-11-10 17:12:00+00:00
 epistemic_status: high
-modified: 2026-09-09T12:34:07+00:00
+modified: 2026-09-09 12:34:07+00:00
 permalink: llmeon/30-library/100-zettelkasten/aligning-actions-with-core-values-makes-them-feel-more-natural
 prodos.kind: atomic
 prodos.lifecycle: stable
@@ -12,6 +12,8 @@ proposition: Actions aligned with authentic values and intrinsic interests are m
 tags: [action, TheHuman/Identity, TheHuman/Motivation, TheHuman/Psychology, values]
 title: Aligning Actions with Core Values Makes Them Feel More Natural
 type: claim
+contradicts: []
+evidence_links: []
 ---
 
 ## Aligning Actions with Core Values Makes Them Feel More Natural

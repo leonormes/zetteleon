@@ -2,18 +2,17 @@
 axiom: true
 conformant: true
 contradicts: []
-created: 2026-08-13T10:18:10+00:00
+created: 2026-08-13 10:18:10+00:00
 epistemic_status: medium
-modified: 2026-09-09T12:34:09+00:00
+modified: 2026-09-09 12:34:09+00:00
 permalink: llmeon/30-library/100-zettelkasten/claim-the-true-product-of-a-software-engineering-team-is-shared-understanding-of-the-system
 prodos.kind: atomic
 prodos.lifecycle: seed
-proposition: The true product of a software engineering team is not the code itself,
-  "but the shared understanding of the system that lives in the team members' minds."
+proposition: The true product of a software engineering team is not the code itself, "but the shared understanding of the system that lives in the team members' minds."
 tags: [knowledge-management, mental-models, software-engineering, teamwork]
-title: Claim - The true product of a software engineering team is shared understanding of the system
-  of the system
+title: Claim - The true product of a software engineering team is shared understanding of the system of the system
 type: claim
+evidence_links: []
 ---
 
 ## Minimum Viable Understanding

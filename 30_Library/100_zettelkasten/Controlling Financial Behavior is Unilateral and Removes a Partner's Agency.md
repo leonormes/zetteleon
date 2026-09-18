@@ -1,12 +1,16 @@
 ---
 aliases: [Financial Control]
 conformant: true
-created: 2025-11-10T10:14:00+00:00
-modified: 2026-09-09T12:34:09+00:00
+created: 2025-11-10 10:14:00+00:00
+modified: 2026-09-09 12:34:09+00:00
 permalink: llmeon/30-library/100-zettelkasten/controlling-financial-behavior-is-unilateral-and-removes-a-partners-agency
 tags: [autonomy, finance, relationship]
-title: "Controlling Financial Behavior is Unilateral and Removes a Partner's Agency"
+title: Controlling Financial Behavior is Unilateral and Removes a Partner's Agency
 type: claim
+proposition: Financial behavior becomes controlling when one person's process removes the other's autonomy and dignity, often by making unilateral decisions and policing their partner's spending.
+epistemic_status: medium
+evidence_links: []
+contradicts: []
 ---
 
 ## Controlling Financial Behavior is Unilateral and Removes a Partner's Agency

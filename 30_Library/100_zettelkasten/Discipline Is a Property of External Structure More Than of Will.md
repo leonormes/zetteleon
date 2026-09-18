@@ -1,18 +1,20 @@
 ---
 aliases: [Discipline Relies on External Supports Not Just Willpower, Discipline vs Willpower, Systems and Environment are the Backbone of Discipline, Systems Over Motivation]
 conformant: true
-created: 2025-11-10T13:03:00+00:00
+created: 2025-11-10 13:03:00+00:00
 epistemic_status: high
 merged_from: '[[Systems and Environment are the Backbone of Discipline]]'
-modified: 2026-09-09T12:34:10+00:00
+modified: 2026-09-17 00:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/discipline-is-a-property-of-external-structure-more-than-of-will
 prodos.kind: atomic
 prodos.lifecycle: growing
-proposition: "Willpower and motivation are volatile, fatiguing internal resources and therefore poor load-bearing foundations for sustained action; discipline is better understood as a property of the structure a person is standing in — designed systems, environmental cues, culture, incentives, and interpersonal accountability — which make the desired behaviour the path of least resistance and so reduce the willpower each instance costs."
-renamed_from: 'Discipline Relies on External Supports Not Just Willpower'
+proposition: Willpower and motivation are volatile, fatiguing internal resources and therefore poor load-bearing foundations for sustained action; discipline is better understood as a property of the structure a person is standing in — designed systems, environmental cues, culture, incentives, and interpersonal accountability — which make the desired behaviour the path of least resistance and so reduce the willpower each instance costs.
+renamed_from: Discipline Relies on External Supports Not Just Willpower
 tags: [accountability, discipline, environment, TheHuman/Motivation, topic/productivity, topic/systems, willpower]
 title: Discipline Is a Property of External Structure More Than of Will
 type: claim
+contradicts: []
+evidence_links: []
 ---
 
 > Open threads: [[HEAD - Does 'discipline is external structure' stop being true once a habit is strong?]]
@@ -112,3 +114,11 @@ Modern conditions have removed the informal scaffolding that used to do this wor
 [supports:: [[Protecting Attention is the First Rule of Discipline]], strength=3, confidence=medium]
 
 [supports:: [[Achieving a Goal is a Momentary Change Without Systemic Improvement]], strength=3, confidence=medium]
+
+## Further Reading (Personal Library)
+
+Semantic matches from the Calibre library via ARCHILLES (BGE-M3 embeddings), one per facet of the claim:
+
+- [Atomic Habits — James Clear, Ch. 12 "The Law of Least Effort"](calibre://view-book/GCcalibreBooks/690/EPUB)—_the mechanism [[Limbic Friction is the Activation Energy for Habits]] and [[Choice Architecture Designs the Environment to Make Desired Behaviors Easier]] name in the vault: environment does its work by removing friction from the wanted behaviour, not by adding motivation._
+- [The ONE Thing — Gary Keller & Jay Papasan, Ch. 7 "Willpower Is Always on Will-Call"](calibre://view-book/GCcalibreBooks/1596/EPUB)—_the "fatiguing, volatile internal resource" half of the claim, with a concrete list of what taxes willpower—directly supporting the note's B = f(P, E) framing of why P is the expensive variable to keep re-solving._
+- [The Knowledge Illusion — Steven Sloman & Philip Fernbach, Ch. 12 "Making Smarter Decisions", p. 203](calibre://view-book/GCcalibreBooks/707/EPUB)—_a concrete choice-architecture case (opt-out vs opt-in defaults) illustrating how a designed default, not willpower, is what actually moves behaviour at scale._

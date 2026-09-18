@@ -2,9 +2,9 @@
 aliases: [felt vs actual importance, significance-substance gap]
 axiom: true
 conformant: true
-created: 2025-10-31T20:48:00+00:00
+created: 2025-10-31 20:48:00+00:00
 epistemic_status: high
-modified: 2026-09-09T12:34:11+00:00
+modified: 2026-09-09 12:34:11+00:00
 permalink: llmeon/30-library/100-zettelkasten/felt-significance-of-thoughts-can-mislead-about-their-substance
 prodos.kind: atomic
 prodos.lifecycle: stable
@@ -12,6 +12,8 @@ proposition: The phenomenological experience of a thought feeling important or p
 tags: [critical-thinking, metacognition, TheHuman/Cognition]
 title: Felt significance of thoughts can mislead about their substance
 type: claim
+contradicts: []
+evidence_links: []
 ---
 
 ## Felt Significance of Thoughts Can Mislead about Their Substance

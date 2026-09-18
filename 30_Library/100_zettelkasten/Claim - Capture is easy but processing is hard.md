@@ -1,13 +1,18 @@
 ---
-created: 2026-05-31T00:00:00+00:00
-modified: 2026-09-09T12:34:09+00:00
+created: 2026-05-31 00:00:00+00:00
+modified: 2026-09-09 12:34:09+00:00
 permalink: llmeon/30-library/100-zettelkasten/claim-capture-is-easy-but-processing-is-hard
 position-date: 2026-05-31
-prerequisite_of: ["[[Claim - Over-capture plus deferred review is sustainable]]"]
-related_to: ["[[Cognitive Load]]", "[[Executive Function]]", "[[Practice - Deferred low-pressure review]]"]
+prerequisite_of: ['[[Claim - Over-capture plus deferred review is sustainable]]']
+related_to: ['[[Cognitive Load]]', '[[Executive Function]]', '[[Practice - Deferred low-pressure review]]']
 tags: [capture, executive-function, pkm, processing, TheHuman/Health/ADHD]
 title: Claim - Capture is easy but processing is hard
 type: claim
+proposition: For people with ADHD, externalising a thought (capture) makes almost no demand on executive function, whereas turning captured material into organised, actionable output (processing) makes a heavy one, so the two diverge sharply in difficulty.
+epistemic_status: medium
+evidence_links: []
+contradicts: []
+conformant: true
 ---
 
 > [!claim] Statement

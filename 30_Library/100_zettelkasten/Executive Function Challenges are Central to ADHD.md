@@ -1,12 +1,17 @@
 ---
 aliases: [ADHD as an EF Deficit, Core ADHD Impairments, EF Dysfunction in ADHD]
-created: 2026-02-11T16:55:00+00:00
-modified: 2026-09-14T11:35:49+00:00
+created: 2026-02-11 16:55:00+00:00
+modified: 2026-09-14 11:35:49+00:00
 permalink: llmeon/30-library/100-zettelkasten/executive-function-challenges-are-central-to-adhd
 status: seed
 tags: [cognition, executive-function, neurology, self-regulation, TheHuman/Health/ADHD]
 title: Executive Function Challenges are Central to ADHD
 type: claim
+proposition: ADHD is increasingly understood not merely as a deficit of attention, but as a neurodevelopmental disorder of self-regulation and executive function, per the Barkley and Brown models, producing a performance gap where the individual "knows what to do, but cannot do what they know."
+epistemic_status: high
+evidence_links: []
+contradicts: []
+conformant: true
 ---
 
 ## Minimum Viable Understanding (MVU)

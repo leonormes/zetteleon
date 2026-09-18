@@ -1,16 +1,18 @@
 ---
 conformant: true
-created: 2026-09-07T13:00:00+00:00
+created: 2026-09-07 13:00:00+00:00
 epistemic_status: high
-modified: 2026-09-09T12:34:11+00:00
+modified: 2026-09-09 12:34:11+00:00
 permalink: llmeon/30-library/100-zettelkasten/everyday-stressors-like-poor-sleep-and-loneliness-can-impair-executive-function-without-a-diagnosis
 proposition: Everyday factors—stress, loneliness, inadequate sleep, and insufficient exercise—can impair executive function even in people without any underlying neurological or mental health diagnosis.
-source_title: "Executive Function: Skills for Life"
-source_url: "https://my.clevelandclinic.org/health/articles/executive-function"
+source_title: 'Executive Function: Skills for Life'
+source_url: https://my.clevelandclinic.org/health/articles/executive-function
 status: seed
 tags: [executive-function, sleep, stress, TheHuman/Cognition, wellbeing]
 title: Everyday Stressors Like Poor Sleep and Loneliness Can Impair Executive Function Without a Diagnosis
 type: claim
+contradicts: []
+evidence_links: []
 ---
 
 ## Everyday Stressors Like Poor Sleep and Loneliness Can Impair Executive Function Without a Diagnosis

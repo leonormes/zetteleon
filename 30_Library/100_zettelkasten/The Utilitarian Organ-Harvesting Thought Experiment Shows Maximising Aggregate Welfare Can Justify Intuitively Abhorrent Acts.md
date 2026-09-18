@@ -8,14 +8,14 @@ source_title: Why Philosophy Matters (Michael Huemer & Keith Knight)
 source_url: https://youtu.be/J-Ftxh0l3go
 created_utc: '2026-09-14T00:00:00Z'
 confidence: high
-tags:
-- topic/ethics
-- topic/utilitarianism
-- topic/philosophy
-- domain/pkm
+tags: [topic/ethics, topic/utilitarianism, topic/philosophy, domain/pkm]
 upstream: '[[tmp_atoms_why-philosophy-matters]]'
 conformant: true
 permalink: llmeon/30-library/100-zettelkasten/the-utilitarian-organ-harvesting-thought-experiment-shows-maximising-aggregate-welfare-can-justify-intuitively-abhorrent-acts
+proposition: Classic utilitarianism is criticised because it would logically require murdering one healthy patient to harvest their organs to save five dying patients, if the net welfare calculation favours it—a standard objection used to argue the theory's aggregate-maximising logic can license acts that are intuitively monstrous.
+epistemic_status: high
+evidence_links: []
+contradicts: []
 ---
 
 ### The Utilitarian Organ-Harvesting Thought Experiment Shows Maximising Aggregate Welfare Can Justify Intuitively Abhorrent Acts

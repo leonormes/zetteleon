@@ -1,16 +1,16 @@
 ---
 axiom: true
-created: 2026-07-28T00:00:00+00:00
+created: 2026-07-28 00:00:00+00:00
 epistemic_status: high
-modified: 2026-09-09T12:34:15+00:00
+modified: 2026-09-09 12:34:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/reasoning-loops-require-explicit-stopping-conditions-end-loop-guardrails
-proposition: When an LLM is given tool access, it enters a reasoning loop (plan →
-  execute → evaluate → decide). Without explicit stopping conditions, loops run indefinitely
-  or until context/token budgets are exhausted. End-loop guardrails—logical completion
-  criteria or mandatory human checkpoints—are load-bearing.
+proposition: When an LLM is given tool access, it enters a reasoning loop (plan → execute → evaluate → decide). Without explicit stopping conditions, loops run indefinitely or until context/token budgets are exhausted. End-loop guardrails—logical completion criteria or mandatory human checkpoints—are load-bearing.
 tags: [domain/llm, topic/agent-architecture, topic/loop-control, topic/safety]
 title: Reasoning Loops Require Explicit Stopping Conditions (End-Loop Guardrails)
 type: claim
+contradicts: []
+evidence_links: []
+conformant: true
 ---
 
 ## Reasoning Loops Require Explicit Stopping Conditions (End-Loop Guardrails)

@@ -2,9 +2,9 @@
 aliases: [Micro-Actions, Starter Tasks]
 axiom: true
 conformant: true
-created: 2025-12-16T13:15:00+00:00
+created: 2025-12-16 13:15:00+00:00
 epistemic_status: absolute
-modified: 2026-09-09T12:34:13+00:00
+modified: 2026-09-09 12:34:13+00:00
 permalink: llmeon/30-library/100-zettelkasten/master-micro-actions-starter-tasks
 prodos.kind: atomic
 prodos.lifecycle: stable
@@ -12,6 +12,8 @@ proposition: Breaking a daunting task down until the first step is absurdly smal
 tags: [experiment, focus, momentum, TheHuman/Health/ADHD, topic/productivity]
 title: Master Micro-Actions & Starter Tasks
 type: claim
+contradicts: []
+evidence_links: []
 ---
 
 ## 1. The Hypothesis

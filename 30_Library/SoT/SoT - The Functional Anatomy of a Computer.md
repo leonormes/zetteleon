@@ -31,6 +31,10 @@ The CPU "talks" to these controllers using two primary methods:
 1. Memory Mapped I/O (MMIO): Device registers are mapped into the main RAM address space. The CPU uses standard memory instructions (`load`/`store`) to interact with hardware.
 2. Isolated I/O (Port-Mapped): Uses a dedicated bus and specialized instructions (e.g., `IN`, `OUT`) separate from the memory bus.
 
+_Contrast: MMIO/port I/O is the CPU↔device boundary. A different hardware component, the MMU, handles the CPU↔RAM boundary—see [[The Memory Management Unit Translates Logical Addresses to Physical Addresses]]._
+
+_Grounding: this functional model sits on top of the Von Neumann architecture—[[The Von Neumann Architecture Uses a Single Memory for Both Instructions and Data]]—and RAM's role here is one instance of the volatile/non-volatile split covered in [[RAM Is Volatile Working Memory While Storage Is Non-Volatile Persistent Memory]]._
+
 ## 3. Current Understanding (Coherent Narrative)
 
 ### Data Synchronization: Polling vs. Interrupts

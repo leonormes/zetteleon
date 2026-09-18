@@ -1,8 +1,8 @@
 ---
 conformant: true
-created: 2026-09-14T15:31:58+00:00
+created: 2026-09-14 15:31:58+00:00
 created_utc: '2026-09-14T00:00:00Z'
-modified: 2026-09-14T20:13:38+00:00
+modified: 2026-09-14 20:13:38+00:00
 permalink: llmeon/30-library/100-zettelkasten/transactional-belief-commit-prevents-an-agents-unverified-write-from-immediately-becoming-actionable-truth
 prodos.kind: atomic
 prodos.lifecycle: seed
@@ -10,9 +10,13 @@ source_title: Shared Memory Layer for Agentic AI
 source_url: unknown — see [[tmp_atoms_shared-memory-agentic-ai]]
 status: seed
 tags: [domain/llm, domain/pkm, topic/agent-architecture, topic/agentic-autonomy]
-title: "Transactional Belief Commit Prevents an Agent's Unverified Write From Immediately Becoming Actionable Truth"
+title: Transactional Belief Commit Prevents an Agent's Unverified Write From Immediately Becoming Actionable Truth
 type: claim
 upstream: '[[tmp_atoms_shared-memory-agentic-ai]]'
+proposition: A transactional belief-commit pattern stages an agent's writes inside a snapshot-isolated, tentative state that must be validated before being promoted to a committed, action-safe state, preventing an unverified observation from immediately becoming ground truth that other agents treat as fact.
+epistemic_status: medium
+evidence_links: []
+contradicts: []
 ---
 
 ## Transactional Belief Commit Prevents an Agent's Unverified Write From Immediately Becoming Actionable Truth

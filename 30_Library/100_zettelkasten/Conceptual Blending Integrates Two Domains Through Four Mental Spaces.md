@@ -1,8 +1,8 @@
 ---
 conformant: true
-created: 2026-09-13T09:34:07+00:00
+created: 2026-09-13 09:34:07+00:00
 created_utc: '2026-09-13T00:00:00Z'
-modified: 2026-09-13T09:36:16+00:00
+modified: 2026-09-13 09:36:16+00:00
 permalink: llmeon/00-inbox/conceptual-blending-integrates-two-domains-through-four-mental-spaces
 source_title: A Portable Interest and PKM Knowledge Graph
 source_url: UNKNOWN
@@ -11,6 +11,10 @@ tags: [conceptual-blending, fauconnier-turner, pkm, synthesis]
 title: Conceptual Blending Integrates Two Domains Through Four Mental Spaces
 type: claim
 upstream: '[[PKM Meta-Graph System Research]]'
+proposition: 'Fauconnier and Turner''s Conceptual Blending Theory models new-meaning creation through a conceptual integration network of four mental spaces: two Input Spaces holding each domain''s elements, a Generic Space of shared abstract structure, and a Blended Space where selectively projected elements combine into emergent structure not present in either input alone.'
+epistemic_status: high
+evidence_links: []
+contradicts: []
 ---
 
 ## Conceptual Blending Integrates Two Domains Through Four Mental Spaces

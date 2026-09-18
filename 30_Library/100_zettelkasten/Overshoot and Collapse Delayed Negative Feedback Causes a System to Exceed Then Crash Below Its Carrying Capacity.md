@@ -8,14 +8,14 @@ source_title: 'Systems: Overshoot and Collapse (Donella Meadows, 1977)'
 source_url: https://youtu.be/f9g4-5-GKBc
 created_utc: '2026-09-14T00:00:00Z'
 confidence: high
-tags:
-- topic/systems
-- domain/pkm
-- theory/system-dynamics
-- topic/ecology
+tags: [topic/systems, domain/pkm, theory/system-dynamics, topic/ecology]
 upstream: '[[tmp_atoms_overshoot-and-collapse]]'
 conformant: true
 permalink: llmeon/30-library/100-zettelkasten/overshoot-and-collapse-delayed-negative-feedback-causes-a-system-to-exceed-then-crash-below-its-carrying-capacity
+proposition: A system undergoing exponential growth within a finite environment, where the negative feedback signalling resource scarcity is delayed, tends to overshoot its carrying capacity; the overshoot degrades the underlying resource base, so the system collapses to an equilibrium permanently lower than the original carrying capacity.
+epistemic_status: high
+evidence_links: []
+contradicts: []
 ---
 
 ### Overshoot and Collapse: Delayed Negative Feedback Causes a System to Exceed Then Crash Below Its Carrying Capacity

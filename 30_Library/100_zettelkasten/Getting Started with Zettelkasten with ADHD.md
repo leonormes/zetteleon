@@ -1,16 +1,18 @@
 ---
 aliases: []
 conformant: true
-created: 2025-08-23T20:31:00+00:00
+created: 2025-08-23 20:31:00+00:00
 epistemic_status: high
-modified: 2026-09-09T12:34:11+00:00
+modified: 2026-09-09 12:34:11+00:00
 permalink: llmeon/30-library/100-zettelkasten/getting-started-with-zettelkasten-with-adhd
 prodos.kind: atomic
 prodos.lifecycle: stable
-proposition: "Zettelkasten adoption for ADHD brains requires minimizing activation energy through extreme simplicity and permission for imperfection, bypassing the perfectionism that causes task paralysis."
+proposition: Zettelkasten adoption for ADHD brains requires minimizing activation energy through extreme simplicity and permission for imperfection, bypassing the perfectionism that causes task paralysis.
 tags: [TheHuman/Health/ADHD, topic/pkm/zettelkasten, topic/productivity]
 title: Getting Started with Zettelkasten with ADHD
 type: claim
+contradicts: []
+evidence_links: []
 ---
 
 To overcome the inertia of starting a Zettelkasten, especially with ADHD, the key is to allow for imperfection. The goal is not to build a perfect system, but to start thinking and connecting ideas, embracing the concept that your Zettelkasten is a mirror not a monument.

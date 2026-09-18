@@ -1,16 +1,21 @@
 ---
 aliases: []
 axiom: true
-created: 2025-03-24T17:07:03+00:00
+created: 2025-03-24 17:07:03+00:00
 id: 1b
 last_reviewed: '2026-07-29'
-modified: 2026-09-09T12:34:18+00:00
+modified: 2026-09-09 12:34:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/zettelkasten-system-essence
 status: 'null'
 tags: [topic/knowledge-architecture, topic/pkm/zettelkasten]
 title: Zettelkasten System Essence
 type: claim
 updated: null
+proposition: A Zettelkasten exists in the mental processes of the person using it; the size or density of the graph was never the point and is not even good evidence of understanding—what does the actual work is the person doing the thinking and the linking themselves, one card at a time, as Luhmann himself demonstrated by carrying his in his head.
+epistemic_status: high
+evidence_links: []
+contradicts: []
+conformant: true
 ---
 
 The Zettelkasten exists in the mental processes of the individual using it, supporting and enhancing their cognitive functions.

@@ -1,19 +1,16 @@
 ---
-created: 2026-07-28T09:47:42+00:00
-modified: 2026-09-09T12:34:09+00:00
+aliases: []
+conformant: true
+contradicts: []
+created: 2026-07-28 09:47:42+00:00
+epistemic_status: medium
+evidence_links: []
+modified: '2026-09-18T00:00:00+00:00'
 permalink: llmeon/30-library/100-zettelkasten/classic-engineering-discipline-is-more-necessary-not-less-as-a-countermeasure-to-ai-generated-slop
-title: Classic Engineering Discipline Is More Necessary, Not Less, as a Countermeasure to AI-Generated Slop
----
-
----
-
-created: 2026-07-28T00:00:00+00:00
-modified: 2026-07-28T00:00:00+00:00
+proposition: 'Traditional software engineering principles—dependency injection, modularity, and deterministic testing, grounded in established texts like Refactoring and The Pragmatic Programmer—become more necessary, not less, in an AI-assisted coding era. These practices function specifically as a countermeasure against AI-generated "slop": without strong modular boundaries and deterministic tests, AI-generated code accumulates unchecked, and the same discipline that made codebases maintainable before AI is what makes AI''s output tractable to review and correct now.'
+tags: [domain/llm, topic/code-quality, topic/best-practice, topic/software-engineering]
 title: Classic Engineering Discipline Is More Necessary, Not Less, as a Countermeasure to AI-Generated Slop
 type: claim
-epistemic_status: medium
-tags: [domain/llm, topic/code-quality, topic/best-practice, topic/software-engineering]
-proposition: Traditional software engineering principles—dependency injection, modularity, and deterministic testing, grounded in established texts like Refactoring and The Pragmatic Programmer—become more necessary, not less, in an AI-assisted coding era. These practices function specifically as a countermeasure against AI-generated "slop": without strong modular boundaries and deterministic tests, AI-generated code accumulates unchecked, and the same discipline that made codebases maintainable before AI is what makes AI's output tractable to review and correct now.
 ---
 
 ## Classic Engineering Discipline Is More Necessary, Not Less, as a Countermeasure to AI-Generated Slop

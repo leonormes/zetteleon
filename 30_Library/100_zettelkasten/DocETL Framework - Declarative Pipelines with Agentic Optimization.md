@@ -1,16 +1,15 @@
 ---
-created: 2026-07-28T00:00:00+00:00
+created: 2026-07-28 00:00:00+00:00
 epistemic_status: high
-modified: 2026-09-09T12:34:10+00:00
+modified: 2026-09-09 12:34:10+00:00
 permalink: llmeon/30-library/100-zettelkasten/doc-etl-framework-declarative-pipelines-with-agentic-optimization
-proposition: DocETL is a framework that uses a declarative YAML interface to define
-  LLM data pipelines combined with an agentic optimizer that searches for accurate,
-  decomposed pipeline structures. Instead of fixing the prompt, DocETL restructures
-  complex operations into sequences of simpler, more accurate steps, prioritizing
-  accuracy over cost or latency.
+proposition: DocETL is a framework that uses a declarative YAML interface to define LLM data pipelines combined with an agentic optimizer that searches for accurate, decomposed pipeline structures. Instead of fixing the prompt, DocETL restructures complex operations into sequences of simpler, more accurate steps, prioritizing accuracy over cost or latency.
 tags: [domain/llm, topic/data-processing, topic/docetl, topic/optimization, topic/pipelines]
 title: DocETL Framework - Declarative Pipelines with Agentic Optimization
 type: claim
+contradicts: []
+evidence_links: []
+conformant: true
 ---
 
 ## DocETL Framework - Declarative Pipelines with Agentic Optimization

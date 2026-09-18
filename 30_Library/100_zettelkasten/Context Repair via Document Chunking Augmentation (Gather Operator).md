@@ -1,16 +1,16 @@
 ---
 axiom: true
-created: 2026-07-28T00:00:00+00:00
+created: 2026-07-28 00:00:00+00:00
 epistemic_status: high
-modified: 2026-09-09T12:34:09+00:00
+modified: 2026-09-09 12:34:09+00:00
 permalink: llmeon/30-library/100-zettelkasten/context-repair-via-document-chunking-augmentation-gather-operator
-proposition: When long documents are chunked to fit context windows, the LLM loses
-  peripheral context (previous summaries, overlapping text). The Gather operator repairs
-  this by augmenting each chunk with contextual information, preventing hallucinations
-  and omissions caused by context damage.
+proposition: When long documents are chunked to fit context windows, the LLM loses peripheral context (previous summaries, overlapping text). The Gather operator repairs this by augmenting each chunk with contextual information, preventing hallucinations and omissions caused by context damage.
 tags: [domain/llm, topic/chunking, topic/context-engineering, topic/pipelines]
 title: Context Repair via Document Chunking Augmentation (Gather Operator)
 type: claim
+contradicts: []
+evidence_links: []
+conformant: true
 ---
 
 ## Context Repair via Document Chunking Augmentation (Gather Operator)

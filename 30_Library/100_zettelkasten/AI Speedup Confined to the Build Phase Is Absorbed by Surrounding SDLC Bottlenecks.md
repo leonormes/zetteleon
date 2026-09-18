@@ -1,18 +1,16 @@
 ---
 axiom: true
-created: 2026-07-28T00:00:00+00:00
+created: 2026-07-28 00:00:00+00:00
 epistemic_status: high
-modified: 2026-09-09T12:34:06+00:00
+modified: 2026-09-09 12:34:06+00:00
 permalink: llmeon/30-library/100-zettelkasten/ai-speedup-confined-to-the-build-phase-is-absorbed-by-surrounding-sdlc-bottlenecks
-proposition: The traditional SDLC (Requirements → Design → Build → Test → Release
-  → Operate) contains substantial human waiting time between stages. Applying AI acceleration
-  only to the Build (coding) phase does not translate into overall productivity gains,
-  "because the surrounding stages' friction absorbs the time saved. Productivity gains"
-  require redesigning the whole pipeline around AI, not just speeding up one stage
-  of an unchanged pipeline.
+proposition: The traditional SDLC (Requirements → Design → Build → Test → Release → Operate) contains substantial human waiting time between stages. Applying AI acceleration only to the Build (coding) phase does not translate into overall productivity gains, "because the surrounding stages' friction absorbs the time saved. Productivity gains" require redesigning the whole pipeline around AI, not just speeding up one stage of an unchanged pipeline.
 tags: [domain/llm, topic/productivity, topic/sdlc, topic/software-engineering, topic/systems-thinking]
 title: AI Speedup Confined to the Build Phase Is Absorbed by Surrounding SDLC Bottlenecks
 type: claim
+contradicts: []
+evidence_links: []
+conformant: true
 ---
 
 ## AI Speedup Confined to the Build Phase Is Absorbed by Surrounding SDLC Bottlenecks

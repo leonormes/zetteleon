@@ -1,16 +1,16 @@
 ---
 axiom: true
-created: 2026-07-28T00:00:00+00:00
+created: 2026-07-28 00:00:00+00:00
 epistemic_status: high
-modified: 2026-09-09T12:34:07+00:00
+modified: 2026-09-09 12:34:07+00:00
 permalink: llmeon/30-library/100-zettelkasten/agent-harness-wrapping-llms-in-deterministic-software-controls
-proposition: An LLM alone predicts tokens probabilistically without structural direction.
-  A harness wraps the model in deterministic software that dictates how the LLM interacts
-  with external tools, APIs, and file systems. The harness enforces control flow,
-  validates outputs, and manages state transitions between reasoning and execution.
+proposition: An LLM alone predicts tokens probabilistically without structural direction. A harness wraps the model in deterministic software that dictates how the LLM interacts with external tools, APIs, and file systems. The harness enforces control flow, validates outputs, and manages state transitions between reasoning and execution.
 tags: [domain/llm, topic/agent-architecture, topic/agentic-autonomy, topic/control-flow]
 title: Agent Harness - Wrapping LLMs in Deterministic Software Controls
 type: claim
+contradicts: []
+evidence_links: []
+conformant: true
 ---
 
 ## Agent Harness - Wrapping LLMs in Deterministic Software Controls

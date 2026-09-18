@@ -1,17 +1,19 @@
 ---
 aliases: [Compound Choices, Micro-Decisions Compound]
 conformant: true
-created: 2025-10-30T12:04:05+00:00
+created: 2025-10-30 12:04:05+00:00
 epistemic_status: high
-modified: 2026-09-09T12:34:16+00:00
+modified: 2026-09-09 12:34:16+00:00
 permalink: llmeon/30-library/100-zettelkasten/success-accumulates-through-thousands-of-tiny-daily-choices
 prodos.kind: atomic
 prodos.lifecycle: growing
-proposition: "Success or failure accumulates from thousands of tiny daily decisions — moments of choosing, not merely repetitions of an established action — whose compounded effect is out of proportion to any single one."
+proposition: Success or failure accumulates from thousands of tiny daily decisions — moments of choosing, not merely repetitions of an established action — whose compounded effect is out of proportion to any single one.
 source: '[[MOC - How to Build Discipline]]'
 tags: [choice, compound-effect, discipline, success, TheHuman/Habits]
 title: Success Accumulates Through Thousands of Tiny Daily Choices
 type: claim
+contradicts: []
+evidence_links: []
 ---
 
 Success or failure accumulates from thousands of tiny daily decisions—moments of choosing, not merely repetitions of an established action. Each is a fork where the alternative was live and available; the outcome is the tally, not any single vote.

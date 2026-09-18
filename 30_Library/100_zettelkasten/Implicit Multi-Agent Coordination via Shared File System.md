@@ -1,8 +1,8 @@
 ---
 conformant: true
-created: 2026-04-10T12:00:00+00:00
+created: 2026-04-10 12:00:00+00:00
 epistemic_status: high
-modified: 2026-09-09T12:34:12+00:00
+modified: 2026-09-09 12:34:12+00:00
 permalink: llmeon/30-library/100-zettelkasten/implicit-multi-agent-coordination-via-shared-file-system
 prodos.kind: atomic
 prodos.lifecycle: stable
@@ -10,6 +10,8 @@ proposition: Global coordination between parallel autonomous agents can be achie
 tags: [domain/llm, topic/agent-architecture, topic/multi-agent]
 title: Implicit Multi-Agent Coordination via Shared File System
 type: claim
+contradicts: []
+evidence_links: []
 ---
 
 ## Implicit Multi-Agent Coordination via Shared File System

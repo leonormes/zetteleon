@@ -1,16 +1,18 @@
 ---
 aliases: []
 conformant: true
-created: 2026-05-04T08:01:26+00:00
+created: 2026-05-04 08:01:26+00:00
 epistemic_status: high
-modified: 2026-09-09T12:34:10+00:00
+modified: 2026-09-09 12:34:10+00:00
 permalink: llmeon/30-library/100-zettelkasten/7-cybernetics-1
 prodos.kind: atomic
 prodos.lifecycle: stable
-proposition: "Cybernetics is the study of how mechanical and biological systems regulate themselves and communicate information through feedback loops."
+proposition: Cybernetics is the study of how mechanical and biological systems regulate themselves and communicate information through feedback loops.
 tags: [cybernetics, feedback-loops, systems-thinking]
 title: Cybernetics
 type: claim
+contradicts: []
+evidence_links: []
 ---
 
 Cybernetics is the study of systems, both mechanical and biological, that regulate themselves through feedback loops. It focuses on how systems control and communicate information.

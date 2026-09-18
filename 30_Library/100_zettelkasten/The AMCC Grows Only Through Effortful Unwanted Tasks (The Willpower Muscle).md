@@ -1,15 +1,17 @@
 ---
 conformant: true
-created: 2026-09-08T00:00:00+00:00
+created: 2026-09-08 00:00:00+00:00
 epistemic_status: medium
-modified: 2026-09-14T11:35:55+00:00
+modified: 2026-09-14 11:35:55+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-amcc-grows-only-through-effortful-unwanted-tasks-the-willpower-muscle
 prodos.kind: atomic
 prodos.lifecycle: seed
-proposition: "The Anterior Mid-Cingulate Cortex (AMCC) grows (hypertrophies) specifically from performing tasks a person does not want to do; it stays dormant when the work is already enjoyable, and frequent quitting under resistance leads to AMCC atrophy."
+proposition: The Anterior Mid-Cingulate Cortex (AMCC) grows (hypertrophies) specifically from performing tasks a person does not want to do; it stays dormant when the work is already enjoyable, and frequent quitting under resistance leads to AMCC atrophy.
 tags: [amcc, dopamine, executive-function, TheHuman/Health/ADHD, willpower]
 title: The AMCC Grows Only Through Effortful Unwanted Tasks (The Willpower Muscle)
 type: claim
+contradicts: []
+evidence_links: []
 ---
 
 Tenacity is treated here as a physical structure rather than a character trait: the Anterior Mid-Cingulate Cortex (AMCC) only grows when a person performs tasks they do not want to do. If the work is already enjoyable, the AMCC remains dormant—it is not exercised by effortless engagement. Conversely, habitually quitting when resistance appears leads to AMCC atrophy, while repeatedly pushing through resistance leads to hypertrophy.

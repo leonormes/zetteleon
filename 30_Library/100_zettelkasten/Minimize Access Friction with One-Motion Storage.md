@@ -1,8 +1,8 @@
 ---
 conformant: true
-created: 2026-09-01T16:18:57+00:00
+created: 2026-09-01 16:18:57+00:00
 created_utc: '2026-09-01T16:18:54.888265+00:00'
-modified: 2026-09-09T12:34:13+00:00
+modified: 2026-09-09 12:34:13+00:00
 permalink: llmeon/00-inbox/minimize-access-friction-with-one-motion-storage
 source_title: The 7 rules of organization
 source_url: https://youtu.be/MHnMo5vEP7Q
@@ -11,6 +11,10 @@ tags: [accessibility, flow, friction, workspace]
 title: Minimize Access Friction with One-Motion Storage
 type: claim
 upstream: '[[tmp_atoms_mujin_7_rules]]'
+proposition: Frequently used supplies should be accessible in a single physical motion without digging, unstacking, or moving other objects.
+epistemic_status: medium
+evidence_links: []
+contradicts: []
 ---
 
 ## Minimize Access Friction with One-Motion Storage

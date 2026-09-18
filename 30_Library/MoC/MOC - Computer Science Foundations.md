@@ -21,7 +21,10 @@ This map organizes the Source of Truth (SoT) notes covering the stack from physi
 The physical reality of computation.
 
 - [[SoT - The Functional Anatomy of a Computer]]—_The Core._ IPOS model, I/O delegation (MMIO vs Port-Mapped), Interrupts, and the evolution of System-on-Chip (SoC) topology.
+- [[SoT - The Logical Definition of a Computer]]—_The Boundary._ Kernel-as-boundary litmus test, scale-up vs. scale-out, and the physical/logical abstraction table (bare metal → VM → container → cluster).
 - [[SoT - Mass vs Weight and the Kilogram]]—_The Physics._ Foundational measurement concepts underpinning physical reality.
+
+Supporting atoms (Sep 2026, atomised from [[Defining One Computer Concept]]): [[The Von Neumann Architecture Uses a Single Memory for Both Instructions and Data]], [[RAM Is Volatile Working Memory While Storage Is Non-Volatile Persistent Memory]], [[Internal Buses and External Networks Differ in Coupling, Latency, Management, and Power]], [[Multi-Core and Multi-Processor Systems Differ in How Chips Package Parallelism]], [[Symmetric Multiprocessing Gives Every Core Equal Access to Shared System Resources]], [[Shared-Memory Multi-Core Systems Require Kernel-Enforced Synchronization to Prevent Race Conditions]], [[One Core Boots as Bootstrap Processor Before Activating the Remaining Application Processors]], [[The Kernel-User Mode Boundary Is a Computer's Primary Trust Boundary]], [[Type 1 Hypervisors Run Directly on Hardware While Type 2 Hypervisors Run as Host Applications]], [[A Single System Image Presents a Distributed Resource Pool as One Unified System]], [[Cloud Providers Achieve Elasticity Through Resource Pooling and Multi-Tenancy]], [[The Memory Management Unit Translates Logical Addresses to Physical Addresses]], [[IaaS, PaaS, and SaaS Progressively Abstract Away the Underlying Computer]].
 
 ---
 

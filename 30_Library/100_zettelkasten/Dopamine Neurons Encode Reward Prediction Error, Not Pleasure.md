@@ -1,16 +1,21 @@
 ---
-created: 2026-07-13T08:30:48+00:00
-created_utc: 2026-07-13T08:17:00Z
+created: 2026-07-13 08:30:48+00:00
+created_utc: 2026-07-13 08:17:00+00:00
 kind: claim
-modified: 2026-09-09T12:34:10+00:00
+modified: 2026-09-09 12:34:10+00:00
 permalink: llmeon/00-inbox/dopamine-neurons-encode-reward-prediction-error-not-pleasure
-source_title: "Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture: An Investigative Report"
-source_url: ""
+source_title: 'Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture: An Investigative Report'
+source_url: ''
 status: seed
 tags: [dopamine, motivation, neuroscience, reward-prediction-error]
 title: Dopamine Neurons Encode Reward Prediction Error, Not Pleasure
 type: claim
-upstream: "[[Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture]]"
+upstream: '[[Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture]]'
+proposition: Midbrain dopamine neurons in the VTA and substantia nigra encode reward prediction error—the gap between received and predicted reward—not the hedonic experience of receiving a reward itself; a fully predicted reward produces no dopaminergic response.
+epistemic_status: high
+evidence_links: []
+contradicts: []
+conformant: true
 ---
 
 ## Dopamine Neurons Encode Reward Prediction Error, Not Pleasure

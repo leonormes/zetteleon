@@ -1,14 +1,15 @@
 ---
-created: 2026-07-28T00:00:00+00:00
+created: 2026-07-28 00:00:00+00:00
 epistemic_status: high
-modified: 2026-09-09T12:34:09+00:00
+modified: 2026-09-09 12:34:09+00:00
 permalink: llmeon/30-library/100-zettelkasten/claude-code-session-isolation-forces-context-reloading-across-invocations
-proposition: Each Claude Code invocation is an isolated session that reloads all context
-  (codebase structure, prior discoveries, architectural decisions) from scratch, forcing
-  the LLM to re-read and re-parse the same information across runs.
+proposition: Each Claude Code invocation is an isolated session that reloads all context (codebase structure, prior discoveries, architectural decisions) from scratch, forcing the LLM to re-read and re-parse the same information across runs.
 tags: [domain/llm, topic/agent-architecture, topic/claude-code, topic/context-engineering, topic/persistent-memory]
 title: Claude Code Session Isolation Forces Context Reloading Across Invocations
 type: claim
+contradicts: []
+evidence_links: []
+conformant: true
 ---
 
 ## Claude Code Session Isolation Forces Context Reloading Across Invocations
