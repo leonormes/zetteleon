@@ -3,9 +3,10 @@ title: New chat
 source: https://gemini.google.com/app/0908eee856255784
 captured: 2026-09-18T12:22:20+00:00 2026-09-18T12:22:20+00:00
 status: draft
-tags: [input]
+tags:
+- input
 type: head
-permalink: llmeon/00-inbox/head-new-chat-1
+permalink: llmeon/00-inbox/head-new-chat-1-1
 created: 2026-09-18 12:23:08+00:00
 modified: 2026-09-18 12:23:08+00:00
 ---

@@ -2,9 +2,12 @@
 aliases: []
 conformant: true
 created: 2025-10-26T11:15:00+00:00
-modified: 2026-09-09T12:34:10+00:00
+modified: 2026-09-18T00:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/emotional-regulation-techniques-for-adhd-productivity
-tags: [emotional-regulation, TheHuman/Health/ADHD, topic/productivity]
+tags:
+- emotional-regulation
+- TheHuman/Health/ADHD
+- topic/productivity
 title: Emotional Regulation Techniques for ADHD Productivity
 type: procedure
 ---
@@ -31,6 +34,7 @@ The process combines a physical component (tapping) with a cognitive component (
 - It provides an immediate somatic intervention for [[MOC - Emotional Dysregulation]] [implements:: [[MOC - Emotional Dysregulation]]] - _EFT directly targets the dysregulated nervous system during an acute emotional spike._
 - It helps dismantle [[ADHD Emotional Reasoning]] [supports:: [[ADHD Emotional Reasoning]]] - _By calming the body, EFT reduces the intensity of the feeling that is mistakenly interpreted as fact._
 - [[Cerebellum Function and Exercise for ADHD Regulation]] [supports:: [[Cerebellum Function and Exercise for ADHD Regulation]]] - _Like coordination exercises, EFT leverages somatic action to restore cognitive control._
+- It operationalises the "pre-clearance" fix that [[SoT - The Emotional Bottleneck Hypothesis]] [implements:: [[SoT - The Emotional Bottleneck Hypothesis]]] argues ADHD execution actually needs—resolving the emotional blockage before attempting the task, not after. - _EFT is a concrete protocol for the pre-clearance step the Hypothesis calls for; the Hypothesis supplies the theory of why pre-clearance matters at all._
 
 ## Criticism Framework
 
@@ -38,6 +42,13 @@ External Interactions:
 
 - Use [[SoT - The 3-Switch Protocol (Emotional Reset)]] [implements:: [[SoT - The 3-Switch Protocol (Emotional Reset)]]] - _A structured protocol for managing the physiological spike of critical feedback._
 - Practice [[Cognitive Reframing of Criticism]] [supports:: [[Cognitive Reframing of Criticism]]] - _A preemptive cognitive strategy that pairs with the somatic relief of EFT._
+- [[Rejection Sensitive Dysphoria (RSD)]] [supports:: [[Rejection Sensitive Dysphoria (RSD)]]] - _RSD is the specific mechanism behind the physiological spike this framework manages—EFT calms the fight-or-flight response before it distorts feedback into a perceived threat._
 - Schedule recovery time after tough exchanges.
+
+### Further Reading (Personal Library)
+
+- [The Extended Mind: The Power of Thinking Outside the Brain — Annie Murphy Paul, "Thinking with Sensations," p.35](calibre://view-book/GCcalibreBooks/405/PDF) - _Corroborates the "How It Works" mechanism: naming/verbalising a feeling ("affect labeling") measurably dials down the nervous system's stress response and amygdala activity, independent of any tapping-specific claim._
+- [The Craving Mind — Judson Brewer, "Addiction, Straight Up," p.1](calibre://view-book/GCcalibreBooks/118/EPUB) - _The RAIN technique (Recognize, Accept, Investigate, Note) illustrates the same "structured way to acknowledge and process difficult emotions" the note attributes to EFT's cognitive component._
+- [Thinking, Fast and Slow — Daniel Kahneman, "The Lazy Controller," p.3](calibre://view-book/GCcalibreBooks/53/EPUB) - _Kahneman's ego-depletion research—cognitive, emotional, and physical effort draw on one shared pool of mental energy—corroborates the "Frees Up Brainpower" claim that lowering emotional load frees executive-function resources._
 
 _Source: Synthesized from notes on ADHD productivity hacks._

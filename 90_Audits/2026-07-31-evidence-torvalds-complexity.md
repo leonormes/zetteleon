@@ -4,7 +4,7 @@ type: note
 permalink: llmeon/90-audits/2026-07-31-evidence-torvalds-complexity
 ---
 
-## Positioning — [[Evidence - Torvalds Complexity Conservation Data Structures vs Control Flow]] — 2026-07-31
+## Positioning — [[Data Structures vs Control Flow]] — 2026-07-31
 
 ### Baseline
 Poor—frontmatter has legacy fields (`source_reference`, `supports_claims`, `type: evidence`), lacks the mandatory ProdOS block (`prodos.kind`, `prodos.lifecycle`, `proposition`, `epistemic_status`).
