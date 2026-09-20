@@ -1,9 +1,11 @@
 ---
 aliases: [Enthusiasm, Vitality, Zest, Zest for Life]
 conformant: true
-created: 2026-08-01 00:00:00+00:00
+contradicts: []
+created: 2026-08-01T00:00:00+00:00
 epistemic_status: high
-modified: 2026-09-09 12:34:18+00:00
+evidence_links: []
+modified: 2026-09-19T15:44:46+00:00
 permalink: llmeon/30-library/100-zettelkasten/zest-is-approaching-life-with-excitement-and-energy
 prodos.kind: atomic
 prodos.lifecycle: seedling
@@ -11,8 +13,6 @@ proposition: Zest, as a VIA character strength under the virtue of Courage, is a
 tags: [character-strength, courage, virtue, zest]
 title: Zest is Approaching Life with Excitement and Energy
 type: claim
-contradicts: []
-evidence_links: []
 ---
 
 Zest (also called vitality or enthusiasm) is approaching life with excitement and energy—doing things wholeheartedly rather than halfway, treating life as an adventure. The VIA classification files it under Courage because sustaining energy in the face of friction is an act of will, not a mood that happens to you.

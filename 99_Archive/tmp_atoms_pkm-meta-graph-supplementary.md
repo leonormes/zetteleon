@@ -2,8 +2,7 @@
 type: tmp_atoms
 status: tmp
 source_title: PKM Meta-Graph System Research
-source_url: unknown — compiled research note; individual claims cite external sources
-  inline (see original archived file for full footnote list)
+source_url: "unknown — compiled research note; individual claims cite external sources inline (see original archived file for full footnote list)"
 captured_utc: '2026-09-14T00:00:00Z'
 signal_to_noise: 40% signal / 60% noise (supplementary pass)
 permalink: llmeon/00-inbox/tmp-atoms-pkm-meta-graph-supplementary

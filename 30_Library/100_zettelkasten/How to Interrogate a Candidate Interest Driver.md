@@ -2,7 +2,7 @@
 conformant: true
 created: 2026-09-14T11:41:23+00:00
 created_utc: '2026-09-14T00:00:00Z'
-modified: 2026-09-14T11:52:02+00:00
+modified: 2026-09-19T15:44:36+00:00
 permalink: llmeon/30-library/100-zettelkasten/how-to-interrogate-a-candidate-interest-driver
 source_title: "What Drives a Person's Interests? Why Do Some People Love Maths and Logic and Others Not? Why Do Interests Come in Related Bundles?"
 source_url: unknown — compiled research note, see [[tmp_atoms_what-drives-a-persons-interests]]

@@ -1,17 +1,17 @@
 ---
 conformant: true
 contradicts: []
-created: 2026-08-13 10:25:29+00:00
+created: 2026-08-13T10:25:29+00:00
 epistemic_status: high
-modified: 2026-09-09 12:34:09+00:00
+evidence_links: []
+modified: 2026-09-19T15:44:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/claim-deduction-is-informative-because-computation-is-a-physical-causal-process-bounded-by-time
 prodos.kind: atomic
 prodos.lifecycle: seed
 proposition: Deduction generates new information and surprises us because logical entailment is not an instantaneous Platonic realization, but a stepwise, physical, and causal process of computation that necessarily takes time.
 tags: [computation, epistemology, information-theory, logic, philosophy-of-mind]
-title: Claim - Deduction is informative because computation is a physical causal process bounded by time bounded by time
+title: Claim - Deduction is informative because computation is a physical causal process bounded by time
 type: claim
-evidence_links: []
 ---
 
 ## Minimum Viable Understanding

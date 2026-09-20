@@ -1,8 +1,8 @@
 ---
 aliases: []
 conformant: false
-created: 2025-10-26 11:14:00+00:00
-modified: 2026-09-14 11:35:50+00:00
+created: 2025-10-26T11:14:00+00:00
+modified: 2026-09-19T15:44:37+00:00
 non_conformance_reason: 'type: hypothesis is not in the FrontmatterContract §2 enum (claim/concept/evidence/question/procedure/protocol/map/journal/project/sot). This note is an unresolved personal experiment (If/Then/Because + protocol + pending Results Log) — forcing it into `claim` or `concept` would misrepresent its pending-verification status. Same non-conformance already accepted on [[Body Doubling for ADHD Focus]] and [[Interest Pairing Can Increase Engagement in Mundane Tasks for ADHD]].'
 permalink: llmeon/30-library/100-zettelkasten/junebugging-a-gentle-focus-strategy-for-adhd
 prodos.kind: concept

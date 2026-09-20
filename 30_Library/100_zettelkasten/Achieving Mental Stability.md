@@ -1,16 +1,16 @@
 ---
 axiom: true
 conformant: true
-created: 2025-09-07 15:32:45+00:00
-modified: 2026-09-09 12:34:07+00:00
+contradicts: []
+created: 2025-09-07T15:32:45+00:00
+epistemic_status: high
+evidence_links: []
+modified: 2026-09-19T15:44:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/achieving-mental-stability
+proposition: Mental stability arises from removing expectations and aligning reality with what actually is, achieved through a continuous path of practice and self-awareness rather than reached as a final destination.
 tags: [emotional_regulation, musashi, stoicism, TheHuman/Philosophy]
 title: Achieving Mental Stability
 type: claim
-proposition: Mental stability arises from removing expectations and aligning reality with what actually is, achieved through a continuous path of practice and self-awareness rather than reached as a final destination.
-epistemic_status: high
-evidence_links: []
-contradicts: []
 ---
 
 Musashi advised removing expectations to prevent emotional turmoil. He stated that peace of mind comes from aligning reality with expectations. Mental stability is not a destination but a continuous path of practice and self-awareness.

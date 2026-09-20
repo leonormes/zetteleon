@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2026-07-13T22:00:00+00:00
-modified: 2026-09-14T11:35:48+00:00
+modified: 2026-09-19T15:44:34+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/dismissing-people-who-disagree-costs-you-your-best-error-detectors
 status: draft

@@ -1,21 +1,22 @@
 ---
 conformant: true
-created: 2026-09-18 00:00:00+00:00
+contradicts: []
+created: 2026-09-18T00:00:00+00:00
 created_utc: 2026-09-18 00:00:00+00:00
-modified: 2026-09-18 00:00:00+00:00
+epistemic_status: high
+evidence_links: []
+modified: 2026-09-19T15:44:40+00:00
 permalink: llmeon/30-library/100-zettelkasten/one-core-boots-as-bootstrap-processor-before-activating-the-remaining-application-processors
 prodos.atomic.form: mechanism
 prodos.kind: atomic
+proposition: In a multi-core or multi-processor system, one core—the Bootstrap Processor (BSP)—initialises the system and boots the OS kernel on its own, and only once the kernel is running does it explicitly activate the other cores (Application Processors) so they can begin executing tasks.
 source_title: Defining One Computer Concept
 status: seed
-tags: [computer-science, operating-systems, computer-architecture]
+tags: [computer-architecture, computer-science, operating-systems]
 title: One Core Boots as Bootstrap Processor Before Activating the Remaining Application Processors
 type: claim
-proposition: In a multi-core or multi-processor system, one core—the Bootstrap Processor (BSP)—initialises the system and boots the OS kernel on its own, and only once the kernel is running does it explicitly activate the other cores (Application Processors) so they can begin executing tasks.
-epistemic_status: high
-evidence_links: []
-contradicts: []
 ---
+
 ## One Core Boots as Bootstrap Processor Before Activating the Remaining Application Processors
 
 In a multi-core or multi-processor system, one core—the Bootstrap Processor (BSP)—initialises the system and boots the OS kernel on its own. Only once the kernel is running does it explicitly activate the other cores—the Application Processors (APs)—so they can begin executing tasks.

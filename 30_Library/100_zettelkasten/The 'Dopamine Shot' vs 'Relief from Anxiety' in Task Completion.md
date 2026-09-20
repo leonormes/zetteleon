@@ -1,19 +1,19 @@
 ---
 aliases: [ADHD Reward Experience]
-created: 2025-07-16 17:30:01+00:00
-last_reviewed: 'null'
-modified: 2026-09-09 12:34:17+00:00
-permalink: llmeon/30-library/100-zettelkasten/the-dopamine-shot-vs-relief-from-anxiety-in-task-completion
-status: seed
-tags: [dopamine, neurotypical, reward-system, TheHuman/Health/ADHD, TheHuman/Motivation]
-title: The 'Dopamine Shot' vs 'Relief from Anxiety' in Task Completion
-type: claim
-updated: null
-proposition: Completing a task produces a genuine "shot of dopamine" and intrinsic satisfaction in the neurotypical brain, but in the ADHD brain completing an unpleasurable task typically brings only relief from the anxiety associated with it, with no equivalent positive reinforcement.
+conformant: true
+contradicts: []
+created: 2025-07-16T17:30:01+00:00
 epistemic_status: medium
 evidence_links: []
-contradicts: []
-conformant: true
+last_reviewed: 'null'
+modified: 2026-09-19T15:44:43+00:00
+permalink: llmeon/30-library/100-zettelkasten/the-dopamine-shot-vs-relief-from-anxiety-in-task-completion
+proposition: 'Completing a task produces a genuine "shot of dopamine" and intrinsic satisfaction in the neurotypical brain, but in the ADHD brain completing an unpleasurable task typically brings only relief from the anxiety associated with it, with no equivalent positive reinforcement.'
+status: seed
+tags: [dopamine, neurotypical, reward-system, TheHuman/Health/ADHD, TheHuman/Motivation]
+title: "The 'Dopamine Shot' vs 'Relief from Anxiety' in Task Completion"
+type: claim
+updated: null
 ---
 
 A critical distinction in motivational processing between ADHD and neurotypical brains lies in the subjective experience of completing a task.

@@ -2,13 +2,13 @@
 aliases: []
 conformant: true
 contradicts: []
-created: 2026-07-28 09:21:51+00:00
+created: 2026-07-28T09:21:51+00:00
 epistemic_status: medium
 evidence_links: []
-modified: '2026-09-18T00:00:00+00:00'
+modified: 2026-09-19T15:44:34+00:00
 permalink: llmeon/30-library/100-zettelkasten/engineer-involvement-compresses-to-planning-and-review-as-agentic-workflows-mature
 proposition: 'As an AI-assisted development workflow matures from a simple prompt-and-review loop into a scaled pipeline, the engineer''s direct, active involvement doesn''t disappear—it compresses toward the two boundaries of the pipeline: initial planning/prompting at the start, and final reviewing/shipping at the end. Everything structurally between those two points becomes agent execution plus deterministic validation, with no engineer in the loop.'
-tags: [domain/llm, topic/agent-architecture, topic/workflow-design, topic/sdlc]
+tags: [domain/llm, topic/agent-architecture, topic/sdlc, topic/workflow-design]
 title: Engineer Involvement Compresses to Planning and Review as Agentic Workflows Mature
 type: claim
 ---

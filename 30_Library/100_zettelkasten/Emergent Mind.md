@@ -1,9 +1,9 @@
 ---
 aliases: []
-created: 2025-03-28 12:10:40+00:00
+created: 2025-03-28T12:10:40+00:00
 id: Emergent mind
 last_reviewed: ''
-modified: 2026-09-09 12:34:10+00:00
+modified: 2026-09-19T15:44:34+00:00
 permalink: llmeon/30-library/100-zettelkasten/emergent-mind
 tags: [emergent]
 title: Emergent Mind

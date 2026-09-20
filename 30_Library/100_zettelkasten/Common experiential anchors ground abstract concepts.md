@@ -1,21 +1,15 @@
 ---
-aliases:
-  - existential anchors
-  - human commonalities
-  - universal experiences
+aliases: [existential anchors, human commonalities, universal experiences]
 conformant: true
 contradicts: []
 created: 2025-10-31T20:07:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-18T13:33:20+01:00
+modified: 2026-09-19T15:44:33+00:00
 non_conformance_reason: 
 permalink: llmeon/30-library/100-zettelkasten/common-experiential-anchors-ground-abstract-concepts
 proposition: Despite cultural differences, humans share fundamental experiences like birth, death, warmth, hunger, and social bonds that provide common reference points for communication and understanding.
-tags:
-  - anthropology
-  - communication
-  - phenomenology
+tags: [anthropology, communication, phenomenology]
 title: Common experiential anchors ground abstract concepts
 type: claim
 ---
@@ -28,6 +22,6 @@ Details: Certain experiences are universal across human cultures - the cycle of 
 
 ## Related
 
-- [supports:: [[SoT - Communication & Misunderstanding (The Experiential Filter)]]] — *Universal experiences provide the shared experiential filter needed to bridge communication divides.*
-- [supports:: [[SoT - The Primacy of Experience (Pre-Linguistic Understanding)]]] — *Abstract concepts are grounded in fundamental, pre-linguistic human experiences.*
-- [supports:: [[Claim - Vocabulary acts as a compression scheme pointing to shared internal models rather than carrying inherent meaning]]] — *Explains how those internal models are shared across cultural divides via universal human experiences.*
+- [supports:: [[SoT - Communication & Misunderstanding (The Experiential Filter)]]]—_Universal experiences provide the shared experiential filter needed to bridge communication divides._
+- [supports:: [[SoT - The Primacy of Experience (Pre-Linguistic Understanding)]]]—_Abstract concepts are grounded in fundamental, pre-linguistic human experiences._
+- [supports:: [[Claim - Vocabulary acts as a compression scheme pointing to shared internal models rather than carrying inherent meaning]]]—_Explains how those internal models are shared across cultural divides via universal human experiences._

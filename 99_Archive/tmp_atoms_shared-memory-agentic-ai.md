@@ -1,12 +1,10 @@
 ---
 type: tmp_atoms
 status: tmp
-source_title: Shared Memory Layer for Agentic AI (Gemini conversation reviewing several
-  multi-agent architecture videos)
+source_title: "Shared Memory Layer for Agentic AI (Gemini conversation reviewing several multi-agent architecture videos)"
 source_url: unknown — see original archived file for individual video URLs
 captured_utc: '2026-09-14T00:00:00Z'
-signal_to_noise: 40% signal / 60% noise (the opening audit-prompt block is Leon's
-  own tool output, not source content; several videos are thin/promotional)
+signal_to_noise: "40% signal / 60% noise (the opening audit-prompt block is Leon's own tool output, not source content; several videos are thin/promotional)"
 permalink: llmeon/00-inbox/tmp-atoms-shared-memory-agentic-ai
 ---
 

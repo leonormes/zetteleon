@@ -1,7 +1,7 @@
 ---
 conformant: true
 created: 2026-09-07T13:10:00+01:00
-modified: 2026-09-14T11:52:12+00:00
+modified: 2026-09-19T15:44:48+00:00
 permalink: llmeon/30-library/200-projects/2026-09-07-fitfile-entra-jira-work-preparation
 project_category: devops
 project_name: Entra IAM Hardening

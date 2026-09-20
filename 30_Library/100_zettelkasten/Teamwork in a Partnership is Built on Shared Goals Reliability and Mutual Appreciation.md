@@ -1,16 +1,16 @@
 ---
 aliases: [Teamwork in a Relationship]
 conformant: true
-created: 2025-11-10 10:06:00+00:00
-modified: 2026-09-09 12:34:17+00:00
+contradicts: []
+created: 2025-11-10T10:06:00+00:00
+epistemic_status: medium
+evidence_links: []
+modified: 2026-09-19T15:44:43+00:00
 permalink: llmeon/30-library/100-zettelkasten/teamwork-in-a-partnership-is-built-on-shared-goals-reliability-and-mutual-appreciation
+proposition: 'The feeling of being "in it together" in a partnership is fostered by having shared goals, being reliable, and showing mutual appreciation.'
 tags: [goals, partnership, relationship, teamwork]
 title: Teamwork in a Partnership is Built on Shared Goals Reliability and Mutual Appreciation
 type: claim
-proposition: The feeling of being "in it together" in a partnership is fostered by having shared goals, being reliable, and showing mutual appreciation.
-epistemic_status: medium
-evidence_links: []
-contradicts: []
 ---
 
 ## Teamwork in a Partnership is Built on Shared Goals Reliability and Mutual Appreciation

@@ -2,7 +2,7 @@
 aliases: [Cognitive Offloading, Second Brain]
 conformant: true
 created: 2025-08-19T23:58:53+00:00
-modified: 2026-09-09T12:34:11+00:00
+modified: 2026-09-19T15:44:35+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/externalize-memory-aggressively-cognitive-offloading
 tags: [topic/pkm]

@@ -1,6 +1,6 @@
 ---
 created: 2026-08-22T16:18:14+00:00
-modified: 2026-08-29T09:36:21+00:00
+modified: 2026-09-19T15:45:01+00:00
 permalink: llmeon/30-library/200-projects/needle-2-integration-local-tool-call-worker
 title: Needle 2 Integration — Local Tool Call Worker
 type: note

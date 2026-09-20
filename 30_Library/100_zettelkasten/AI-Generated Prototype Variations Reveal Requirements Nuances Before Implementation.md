@@ -2,13 +2,13 @@
 aliases: []
 conformant: true
 contradicts: []
-created: 2026-07-28 10:24:46+00:00
+created: 2026-07-28T10:24:46+00:00
 epistemic_status: medium
 evidence_links: []
-modified: '2026-09-18T00:00:00+00:00'
+modified: 2026-09-19T15:44:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/ai-generated-prototype-variations-reveal-requirements-nuances-before-implementation
 proposition: 'Generating many quick, low-effort prototype variations with an LLM (e.g. "give me 20 mocks for a date picker, put them in one HTML file") surfaces design and requirement nuances that wouldn''t otherwise be considered—because humans process sensory-rich, tangible layouts faster than dense text. This applies beyond visual UI: generating a diagram comparing several implementation approaches for a non-visual task (e.g. an API endpoint) serves the same purpose, letting requirements and constraints become visible before any implementation code is written.'
-tags: [domain/llm, topic/workflow-design, topic/requirements-elicitation]
+tags: [domain/llm, topic/requirements-elicitation, topic/workflow-design]
 title: AI-Generated Prototype Variations Reveal Requirements Nuances Before Implementation
 type: claim
 ---

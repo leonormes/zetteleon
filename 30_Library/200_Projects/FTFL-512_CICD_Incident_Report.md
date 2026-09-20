@@ -1,8 +1,8 @@
 ---
 classification: Blameless post-incident review
-created: 2026-06-19 09:52:25+00:00
+created: 2026-06-19T09:52:25+00:00
 date: 2026-06-19
-modified: 2026-08-29 09:36:13+00:00
+modified: 2026-09-19T15:44:56+00:00
 permalink: llmeon/30-library/200-projects/ftfl-512-cicd-incident-report
 project_name: Pipeline
 related_tickets: [FTFL-999]

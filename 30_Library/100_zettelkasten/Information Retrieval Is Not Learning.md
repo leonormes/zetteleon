@@ -1,16 +1,16 @@
 ---
 aliases: []
 conformant: true
-created: 2026-08-03 00:00:00+01:00
+contradicts: []
+created: 2026-08-02T23:00:00+00:00
 epistemic_status: high
-modified: 2026-09-09 12:34:12+00:00
+evidence_links: []
+modified: 2026-09-19T15:44:37+00:00
 permalink: llmeon/30-library/100-zettelkasten/information-retrieval-is-not-learning
 proposition: Locating a fact produces availability, not understanding; schema construction requires the cognitive strain that retrieval bypasses, so fluent access to information can substitute for and conceal the absence of comprehension.
 tags: [learning, mental_models, TheHuman/Cognition, topic/education]
 title: Information Retrieval Is Not Learning
 type: claim
-contradicts: []
-evidence_links: []
 ---
 
 Retrieval and learning feel similar from the inside and are structurally different. Searching returns the answer without requiring you to build the structure that would have generated it, so the felt sense of competence arrives while the schema does not. This is the illusion of explanatory depth with a search engine attached—and now, with a language model attached.

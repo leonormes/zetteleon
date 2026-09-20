@@ -2,9 +2,11 @@
 aliases: [Aristotelian Knowledge, Episteme-Techne-Phronesis]
 axiom: true
 conformant: true
-created: 2025-11-12 14:10:02+00:00
+contradicts: []
+created: 2025-11-12T14:10:02+00:00
 epistemic_status: high
-modified: 2026-09-09 12:34:08+00:00
+evidence_links: []
+modified: 2026-09-19T15:44:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/aristotle-distinguished-between-episteme-techne-and-phronesis
 prodos.kind: atomic
 prodos.lifecycle: stable
@@ -12,8 +14,6 @@ proposition: Aristotle created a tripartite distinction between episteme (theore
 tags: [aristotle, knowledge, TheHuman/Philosophy]
 title: Aristotle Distinguished Between Episteme, Techne, and Phronesis
 type: claim
-contradicts: []
-evidence_links: []
 ---
 
 ## Aristotle Distinguished Between Episteme, Techne, and Phronesis

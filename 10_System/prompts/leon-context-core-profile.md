@@ -1,7 +1,6 @@
 ---
 aliases: []
 created: 2026-02-02T07:05:00+00:00
-  action bias).
 modified: 2026-07-25T14:11:15+00:00
 permalink: llmeon/10-system/prompts/leon-context-core-profile
 tags: [domain/personal, system/prompt, type/context]

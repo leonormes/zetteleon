@@ -1,9 +1,13 @@
 ---
 conformant: true
-created: 2026-09-14 11:27:59+00:00
+contradicts: []
+created: 2026-09-14T11:27:59+00:00
 created_utc: '2026-09-14T00:00:00Z'
-modified: 2026-09-14 11:35:57+00:00
+epistemic_status: high
+evidence_links: []
+modified: 2026-09-19T15:44:41+00:00
 permalink: llmeon/30-library/100-zettelkasten/reassurance-seeking-relieves-anxiety-without-testing-whether-the-feared-outcome-was-real
+proposition: Checking or information-seeking used as a safety behaviour reduces distress immediately, but because relief arrives before the person can observe whether the feared outcome would have happened anyway, the nervous system credits the safety behaviour with preventing danger, which lowers tolerance for uncertainty and makes the behaviour self-reinforcing.
 source_title: The Psychology of Over-preparing and Information Seeking
 source_url: https://www.cambridge.org/core/journals/advances-in-psychiatric-treatment/article/excessive-reassuranceseeking/9B5208DB11EA7907CB95D93727DC86DF
 status: seed
@@ -11,10 +15,6 @@ tags: [TheHuman/Psychology, topic/anxiety, topic/perfectionism, topic/safety-beh
 title: Reassurance-Seeking Relieves Anxiety Without Testing Whether the Feared Outcome Was Real
 type: claim
 upstream: '[[tmp_atoms_psychology-of-over-preparing]]'
-proposition: Checking or information-seeking used as a safety behaviour reduces distress immediately, but because relief arrives before the person can observe whether the feared outcome would have happened anyway, the nervous system credits the safety behaviour with preventing danger, which lowers tolerance for uncertainty and makes the behaviour self-reinforcing.
-epistemic_status: high
-evidence_links: []
-contradicts: []
 ---
 
 ## Reassurance-Seeking Relieves Anxiety Without Testing Whether the Feared Outcome Was Real

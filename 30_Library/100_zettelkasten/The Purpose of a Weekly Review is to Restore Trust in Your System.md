@@ -1,8 +1,8 @@
 ---
 aliases: []
-created: 2025-10-20 08:00:04+00:00
+created: 2025-10-20T08:00:04+00:00
 last_reviewed: 'null'
-modified: 2026-09-09 12:34:17+00:00
+modified: 2026-09-19T15:44:44+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-purpose-of-a-weekly-review-is-to-restore-trust-in-your-system
 tags: [planning, topic/productivity, topic/productivity/gtd, type/review]
 title: The Purpose of a Weekly Review is to Restore Trust in Your System

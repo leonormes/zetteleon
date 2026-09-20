@@ -1,9 +1,9 @@
 ---
 aliases: []
-created: 2024-01-03 00:00:00+00:00
+created: 2024-01-03T00:00:00+00:00
 id: '20240103143000'
 last_reviewed: ''
-modified: 2026-08-29 09:36:27+00:00
+modified: 2026-09-19T15:45:08+00:00
 permalink: llmeon/30-library/200-projects/software-testing-levels-and-their-relationships
 project_category: development
 project_name: SDLC

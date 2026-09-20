@@ -7,7 +7,7 @@ created: 2026-04-14T20:47:44+00:00
 created_utc: '2026-04-14T14:20:00Z'
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-09T12:34:13+00:00
+modified: 2026-09-19T15:44:38+00:00
 permalink: llmeon/30-library/100-zettelkasten/low-activation-cost-effect
 proposition: "Reducing the activation cost of digital tasks (e.g. sending an email or Slack message) paradoxically increases the total volume of incoming task arrivals and context switching, producing greater cognitive exhaustion and less uninterrupted deep-work time rather than more free time."
 source_title: Why Is AI Making My Job Worse?

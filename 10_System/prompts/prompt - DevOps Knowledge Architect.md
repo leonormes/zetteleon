@@ -1,7 +1,6 @@
 ---
 created: 2026-02-22T16:50:00+00:00
-description: Convert raw DevOps work logs into deduped Atomic Commands/Playbooks via
-  mandatory vault search.
+description: "Convert raw DevOps work logs into deduped Atomic Commands/Playbooks via mandatory vault search."
 modified: 2026-07-20T16:34:38+00:00
 permalink: llmeon/10-system/prompts/prompt-dev-ops-knowledge-architect
 tags: [domain/devops, domain/pkm, type/system]

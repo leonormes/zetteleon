@@ -1,8 +1,8 @@
 ---
 aliases: []
-created: 2025-09-16 12:25:36+00:00
+created: 2025-09-16T12:25:36+00:00
 last_reviewed: ''
-modified: 2026-09-09 12:34:11+00:00
+modified: 2026-09-19T15:44:35+00:00
 permalink: llmeon/30-library/100-zettelkasten/general-relativity-gravity-as-curvature
 tags: []
 title: General Relativity (Gravity as Curvature)

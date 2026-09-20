@@ -1,16 +1,16 @@
 ---
 axiom: true
-created: 2026-07-28 10:27:27+00:00
+conformant: true
+contradicts: []
+created: 2026-07-28T10:27:27+00:00
 epistemic_status: medium
-modified: 2026-09-09 12:34:12+00:00
+evidence_links: []
+modified: 2026-09-19T15:44:37+00:00
 permalink: llmeon/30-library/100-zettelkasten/intentional-compaction-clears-history-and-reseeds-a-fresh-session-with-one-compressed-artifact
+proposition: At a deliberate checkpoint in a long-running agentic task, an engineer can have the LLM distill everything relevant into a single artifact, then discard the conversation that produced it and open a brand new session with only that artifact as input, keeping the model in the reliable early segment of its context window.
 tags: [domain/llm, topic/context-management, topic/workflow-design]
 title: Intentional Compaction Clears History and Reseeds a Fresh Session with One Compressed Artifact
 type: claim
-proposition: At a deliberate checkpoint in a long-running agentic task, an engineer can have the LLM distill everything relevant into a single artifact, then discard the conversation that produced it and open a brand new session with only that artifact as input, keeping the model in the reliable early segment of its context window.
-evidence_links: []
-contradicts: []
-conformant: true
 ---
 
 ## Intentional Compaction Clears History and Reseeds a Fresh Session with One Compressed Artifact

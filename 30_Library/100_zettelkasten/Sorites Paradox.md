@@ -3,19 +3,13 @@ aliases: []
 conformant: true
 created: 2025-02-07T12:57:54+00:00
 definition: 'A philosophical puzzle (the "paradox of the heap") that exposes the difficulty of defining precise boundaries for predicates admitting borderline cases: removing one grain never turns a heap into a non-heap, yet repeating that step enough times clearly does—so no single grain can be the one that matters, and no sharp cutoff seems to exist anywhere in the sequence.'
-distinguishes_from:
-- '[[The Continuum Thought Experiment]]'
-- '[[Vague Boundaries]]'
-modified: 2026-09-18T00:00:00+00:00
+distinguishes_from: ["[[The Continuum Thought Experiment]]", "[[Vague Boundaries]]"]
+modified: 2026-09-19T15:44:43+00:00
 permalink: llmeon/30-library/100-zettelkasten/sorites-paradox-1
-tags:
-- foundations
-- topic/philosophy
-- topic/logic
+tags: [foundations, topic/logic, topic/philosophy]
 title: Sorites Paradox
 type: concept
-used_in_claims:
-- '[[The Continuum Thought Experiment]]'
+used_in_claims: ["[[The Continuum Thought Experiment]]"]
 ---
 
 A philosophical puzzle highlighting the difficulty in defining precise boundaries for vague concepts that exist on a spectrum.

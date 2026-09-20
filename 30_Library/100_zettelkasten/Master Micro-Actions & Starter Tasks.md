@@ -1,24 +1,17 @@
 ---
-aliases:
-- Micro-Actions
-- Starter Tasks
+aliases: [Micro-Actions, Starter Tasks]
 axiom: true
 conformant: true
 contradicts: []
-created: 2025-12-16 13:15:00+00:00
+created: 2025-12-16T13:15:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-09 12:34:13+00:00
+modified: 2026-09-19T15:44:38+00:00
 permalink: llmeon/30-library/100-zettelkasten/master-micro-actions-starter-tasks
 prodos.kind: atomic
 prodos.lifecycle: stable
 proposition: Breaking a daunting task down until the first step is absurdly small (< 2 minutes, purely physical) lowers the activation energy below the threshold of the Wall of Awful, triggering immediate task initiation.
-tags:
-- experiment
-- focus
-- momentum
-- TheHuman/Health/ADHD
-- topic/productivity
+tags: [experiment, focus, momentum, TheHuman/Health/ADHD, topic/productivity]
 title: Master Micro-Actions & Starter Tasks
 type: claim
 ---

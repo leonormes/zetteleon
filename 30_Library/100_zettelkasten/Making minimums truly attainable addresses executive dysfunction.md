@@ -2,7 +2,7 @@
 aliases: [Attainable minimums, Executive dysfunction strategy]
 conformant: false
 created: 2025-10-30T18:06:00+00:00
-modified: 2026-09-09T12:34:13+00:00
+modified: 2026-09-19T15:44:38+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/making-minimums-truly-attainable-addresses-executive-dysfunction
 source: '[[MOC - The Honeyman Method]]'

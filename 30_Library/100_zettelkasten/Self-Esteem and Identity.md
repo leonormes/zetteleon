@@ -1,8 +1,8 @@
 ---
 aliases: []
-created: 2025-05-26 18:13:07+00:00
+created: 2025-05-26T18:13:07+00:00
 last_reviewed: ''
-modified: 2026-09-09 12:34:16+00:00
+modified: 2026-09-19T15:44:42+00:00
 permalink: llmeon/30-library/100-zettelkasten/self-esteem-and-identity
 tags: []
 title: Self-Esteem and Identity

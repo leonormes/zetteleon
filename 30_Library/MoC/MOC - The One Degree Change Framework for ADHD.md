@@ -1,10 +1,10 @@
 ---
 aliases: [One Degree Framework, Sustainable Change for ADHD]
-created: 2025-10-30 15:04:20+00:00
+created: 2025-10-30T15:04:20+00:00
 criteria: ''
 exclusions: ''
 last_reviewed: 'null'
-modified: 2026-08-29 09:36:31+00:00
+modified: 2026-09-19T15:45:13+00:00
 permalink: llmeon/30-library/mo-c/moc-the-one-degree-change-framework-for-adhd
 scope: ''
 source: How to ADHD - How to Stick to Habits and Routines Without Falling Off

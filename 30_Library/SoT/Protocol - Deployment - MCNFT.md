@@ -1,9 +1,9 @@
 ---
 aliases: []
 conformant: false
-created: 2026-02-01 15:45:00+00:00
+created: 2026-02-01T15:45:00+00:00
 id: Protocol - Deployment - Mersey Care
-modified: 2026-08-29 09:36:32+00:00
+modified: 2026-09-19T15:45:14+00:00
 non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/so-t/protocol-deployment-mcnft
 status: stable

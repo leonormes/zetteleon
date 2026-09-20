@@ -2,7 +2,7 @@
 aliases: ["Why Do Objects Interact"]
 conformant: true
 created: 2026-05-02T20:38:21+00:00
-modified: 2026-09-14T11:35:50+00:00
+modified: 2026-09-19T15:44:37+00:00
 permalink: llmeon/30-library/100-zettelkasten/in-physics-how-profound-a-property-of-matter-is-it...
 prodos.kind: concept
 prodos.lifecycle: stub

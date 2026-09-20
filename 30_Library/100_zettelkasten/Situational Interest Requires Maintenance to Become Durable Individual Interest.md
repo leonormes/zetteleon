@@ -2,7 +2,7 @@
 conformant: true
 created: 2026-09-14T11:40:46+00:00
 created_utc: '2026-09-14T00:00:00Z'
-modified: 2026-09-14T11:52:07+00:00
+modified: 2026-09-19T15:44:42+00:00
 permalink: llmeon/30-library/100-zettelkasten/situational-interest-requires-maintenance-to-become-durable-individual-interest
 source_title: "What Drives a Person's Interests? Why Do Some People Love Maths and Logic and Others Not? Why Do Interests Come in Related Bundles?"
 source_url: https://www.semanticscholar.org/paper/The-Four-Phase-Model-of-Interest-Development-Hidi-Renninger/2d90b943472c5515730a41ae7f91c69098e61f02

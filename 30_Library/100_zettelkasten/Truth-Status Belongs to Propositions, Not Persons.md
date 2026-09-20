@@ -1,9 +1,10 @@
 ---
 conformant: true
 contradicts: []
-created: 2026-08-13 11:04:09+00:00
+created: 2026-08-13T11:04:09+00:00
 epistemic_status: high
-modified: 2026-09-09 12:34:18+00:00
+evidence_links: []
+modified: 2026-09-19T15:44:45+00:00
 permalink: llmeon/30-library/100-zettelkasten/truth-status-belongs-to-propositions-not-persons
 prodos.kind: atomic
 prodos.lifecycle: seed
@@ -11,7 +12,6 @@ proposition: Rightness and wrongness are properties of propositions, not propert
 tags: [decoupling, ego, epistemology, popper]
 title: Truth-Status Belongs to Propositions, Not Persons
 type: claim
-evidence_links: []
 ---
 
 ## Minimum Viable Understanding

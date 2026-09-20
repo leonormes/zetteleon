@@ -4,7 +4,7 @@ conformant: true
 created: 2026-09-15T00:00:00+00:00
 definition: "A belief's value is judged not by whether it is objectively true or false, but by whether it expands or contracts the space of solutions, actions, and identities available to the believer—an Empowering belief opens a hallway of doors; a Limiting belief builds a windowless room."
 distinguishes_from: ["[[Truth is a Necessary Condition for Knowledge]]"]
-modified: 2026-09-16T07:51:14+00:00
+modified: 2026-09-19T15:44:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/beliefs-as-defining-spaces
 tags: [beliefs, cognition, mental_models, TheHuman/Mindset, TheHuman/Psychology, topic/epistemology]
 title: Beliefs as Defining Spaces

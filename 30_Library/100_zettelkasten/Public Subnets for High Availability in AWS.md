@@ -1,8 +1,8 @@
 ---
 aliases: []
-created: 2025-10-24 14:25:58+00:00
+created: 2025-10-24T14:25:58+00:00
 last_reviewed: 'null'
-modified: 2026-09-09 12:34:15+00:00
+modified: 2026-09-19T15:44:41+00:00
 permalink: llmeon/30-library/100-zettelkasten/public-subnets-for-high-availability-in-aws
 tags: [aws, high-availability, SoftwareEngineering/Networking, SoftwareEngineering/networking/cloud-networking, subnets]
 title: Public Subnets for High Availability in AWS

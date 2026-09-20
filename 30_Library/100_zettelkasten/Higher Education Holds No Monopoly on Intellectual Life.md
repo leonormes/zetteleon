@@ -1,16 +1,16 @@
 ---
 aliases: []
 conformant: true
-created: 2026-08-03 00:00:00+01:00
+contradicts: []
+created: 2026-08-02T23:00:00+00:00
 epistemic_status: high
 evidence_links: ['[[Evidence - Mass Literacy Sustained Working-Class Intellectual Traditions Outside Academia]]']
-modified: 2026-09-09 12:34:12+00:00
+modified: 2026-09-19T15:44:36+00:00
 permalink: llmeon/30-library/100-zettelkasten/higher-education-holds-no-monopoly-on-intellectual-life
 proposition: The contraction of university humanities departments is evidence about an institution, not about intellectual life, which requires only curiosity, time and access to material — none of which the university controls.
 tags: [autodidacticism, history, TheHuman/Philosophy, topic/education]
 title: Higher Education Holds No Monopoly on Intellectual Life
 type: claim
-contradicts: []
 ---
 
 The declinist argument runs: humanities enrolments are collapsing, therefore intellectual life is dying. It contains a suppressed premise—that the university _is_ intellectual life—and that premise is historically false.

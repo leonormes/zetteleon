@@ -1,22 +1,17 @@
 ---
-aliases:
-- LTD
+aliases: [LTD]
 axiom: true
 conformant: true
 contradicts: []
-created: 2025-10-30 12:05:07+00:00
+created: 2025-10-30T12:05:07+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-09 12:34:13+00:00
+modified: 2026-09-19T15:44:38+00:00
 permalink: llmeon/30-library/100-zettelkasten/long-term-depression-is-a-mechanism-for-breaking-habits
 prodos.kind: atomic
 prodos.lifecycle: stable
 proposition: Long-Term Depression (LTD) is the neuroscientific mechanism for breaking habits, weakening neural pathways when a trigger is intentionally dissociated from its habitual response.
-tags:
-- learning
-- neuroplasticity
-- TheHuman/Habits
-- TheHuman/Neuroscience
+tags: [learning, neuroplasticity, TheHuman/Habits, TheHuman/Neuroscience]
 title: Long-Term Depression is a Mechanism for Breaking Habits
 type: claim
 ---

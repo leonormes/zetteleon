@@ -1,16 +1,16 @@
 ---
 aliases: [Mental Load, The Hidden Load]
 conformant: true
-created: 2025-11-10 10:04:00+00:00
-modified: 2026-09-09 12:34:10+00:00
+contradicts: []
+created: 2025-11-10T10:04:00+00:00
+epistemic_status: medium
+evidence_links: []
+modified: 2026-09-19T15:44:34+00:00
 permalink: llmeon/30-library/100-zettelkasten/emotional-labor-is-the-invisible-work-of-managing-a-household-and-family
+proposition: Emotional labor, or the mental load, is the often unseen cognitive work required to manage a family and household, including planning, remembering, scheduling, and tracking that should be shared in a cooperative partnership.
 tags: [emotional-labor, mental-load, relationship, responsibility]
 title: Emotional Labor is the Invisible Work of Managing a Household and Family
 type: claim
-proposition: Emotional labor, or the mental load, is the often unseen cognitive work required to manage a family and household, including planning, remembering, scheduling, and tracking that should be shared in a cooperative partnership.
-epistemic_status: medium
-evidence_links: []
-contradicts: []
 ---
 
 ## Emotional Labor is the Invisible Work of Managing a Household and Family

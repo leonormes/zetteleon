@@ -1,8 +1,8 @@
 ---
 aliases: []
-created: 2025-10-25 14:22:00+00:00
+created: 2025-10-25T14:22:00+00:00
 last_reviewed: 'null'
-modified: 2026-09-09 12:34:17+00:00
+modified: 2026-09-19T15:44:44+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-duality-of-novelty-seeking-in-adhd
 tags: [TheHuman/Creativity, TheHuman/Health/ADHD, topic/productivity/hyperfocus, topic/productivity/procrastination]
 title: The Duality of Novelty Seeking in ADHD

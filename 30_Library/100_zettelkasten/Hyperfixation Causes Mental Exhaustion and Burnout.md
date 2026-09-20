@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-11-01T11:37:53+00:00
-modified: 2026-09-09T12:34:12+00:00
+modified: 2026-09-19T15:44:36+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/hyperfixation-causes-mental-exhaustion-and-burnout
 tags: []

@@ -2,13 +2,11 @@
 conformant: true
 created: 2026-05-04T08:01:26+00:00
 epistemic_status: high
-modified: 2026-09-09T12:34:14+00:00
+modified: 2026-09-19T15:44:39+00:00
 permalink: llmeon/30-library/100-zettelkasten/my-main-pkm-problem-is-the-continuity-of-thinking.-1
 prodos.kind: claim
 prodos.lifecycle: stable
-proposition: ADHD disrupts the continuity of thinking in PKM systems because returning
-  to a project lacks the initial novelty-based dopamine reward, prompting a desire
-  to start fresh.
+proposition: "ADHD disrupts the continuity of thinking in PKM systems because returning to a project lacks the initial novelty-based dopamine reward, prompting a desire to start fresh."
 title: My Main PKM Problem Is the Continuity of Thinking
 ---
 

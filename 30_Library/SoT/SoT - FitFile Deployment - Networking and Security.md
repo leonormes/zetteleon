@@ -2,7 +2,7 @@
 aliases: [FitFile Networking Guide, Network Security SOP]
 conformant: false
 created: 2026-02-01T15:00:00+00:00
-modified: 2026-08-29T09:36:36+00:00
+modified: 2026-09-19T15:45:19+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-fit-file-deployment-networking-and-security
 tags: [ff_deploy, networking, security, sot]

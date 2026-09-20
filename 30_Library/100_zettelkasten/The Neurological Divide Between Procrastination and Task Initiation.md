@@ -1,10 +1,14 @@
 ---
 axiom: true
 conformant: true
-created: 2026-09-06 06:47:43+00:00
+contradicts: []
+created: 2026-09-06T06:47:43+00:00
 created_utc: '2026-08-28T18:57:00Z'
-modified: 2026-09-09 12:34:17+00:00
+epistemic_status: high
+evidence_links: []
+modified: 2026-09-19T15:44:44+00:00
 permalink: llmeon/00-inbox/the-neurological-divide-between-procrastination-and-task-initiation
+proposition: Task Initiation Deficit is a mechanical, neurological failure to switch focus from the Default Mode Network to the Task-Positive Network, while procrastination is an emotion-regulation problem to cope with anxiety or fear of failure.
 source_title: Chat Input
 source_url: ''
 status: seed
@@ -12,10 +16,6 @@ tags: [executive-function, neuroscience, procrastination, TheHuman/Health/ADHD]
 title: The Neurological Divide Between Procrastination and Task Initiation
 type: claim
 upstream: ''
-proposition: Task Initiation Deficit is a mechanical, neurological failure to switch focus from the Default Mode Network to the Task-Positive Network, while procrastination is an emotion-regulation problem to cope with anxiety or fear of failure.
-epistemic_status: high
-evidence_links: []
-contradicts: []
 ---
 
 ## The Neurological Divide Between Procrastination and Task Initiation

@@ -5,14 +5,10 @@ contradicts: []
 created: 2025-08-30T08:59:28+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-18T10:51:48+00:00
+modified: 2026-09-19T15:44:34+00:00
 permalink: llmeon/30-library/100-zettelkasten/discreteness-as-a-precondition-for-counting
 proposition: Discreteness—the ability to perceive and distinguish separate, distinct things—is a necessary precondition for counting and for the concept of number; without such separation there is no quantity, only an undifferentiated continuum.
-tags:
-- foundations
-- physics
-- topic/maths
-- topic/philosophy
+tags: [foundations, physics, topic/maths, topic/philosophy]
 title: Discreteness as a Precondition for Counting
 type: claim
 ---

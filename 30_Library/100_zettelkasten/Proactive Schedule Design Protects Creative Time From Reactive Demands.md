@@ -1,8 +1,8 @@
 ---
 aliases: [Calendar Architecture, Self-Expression Scheduling]
-created: 2025-10-30 15:07:41+00:00
+created: 2025-10-30T15:07:41+00:00
 last_reviewed: '2025-10-30'
-modified: 2026-09-09 12:34:14+00:00
+modified: 2026-09-19T15:44:40+00:00
 permalink: llmeon/30-library/100-zettelkasten/proactive-schedule-design-protects-creative-time-from-reactive-demands
 status: seed
 tags: [calendar-design, deep-work, scheduling, time-management]

@@ -1,9 +1,13 @@
 ---
 conformant: true
-created: 2026-09-17 11:34:40+00:00
+contradicts: []
+created: 2026-09-17T11:34:40+00:00
 created_utc: '2026-09-17T00:00:00Z'
-modified: 2026-09-18 11:31:27+00:00
+epistemic_status: medium
+evidence_links: []
+modified: 2026-09-19T15:44:33+00:00
 permalink: llmeon/00-inbox/contrast-driven-forgiveness-erodes-policy-accountability
+proposition: Because politicians can rely on voters excusing lies and policy failures when contrasted against a frightening alternative, elections lose their function as referenda on governing performance and become tribal roll calls instead, removing the incentive to govern honestly or effectively.
 source_title: Political Contrast Effect Research
 source_url: '[[Political Contrast Effect Research]]'
 status: seed
@@ -11,10 +15,6 @@ tags: [democratic-accountability, policy-responsiveness, political-psychology]
 title: Contrast-Driven Forgiveness Erodes Policy Accountability
 type: claim
 upstream: '[[Political Contrast Effect Research]]'
-proposition: Because politicians can rely on voters excusing lies and policy failures when contrasted against a frightening alternative, elections lose their function as referenda on governing performance and become tribal roll calls instead, removing the incentive to govern honestly or effectively.
-epistemic_status: medium
-evidence_links: []
-contradicts: []
 ---
 
 ## Contrast-Driven Forgiveness Erodes Policy Accountability

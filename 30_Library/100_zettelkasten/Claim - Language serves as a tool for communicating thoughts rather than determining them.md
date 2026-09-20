@@ -1,17 +1,17 @@
 ---
 conformant: true
 contradicts: []
-created: 2026-08-13 10:02:15+00:00
+created: 2026-08-13T10:02:15+00:00
 epistemic_status: high
-modified: 2026-09-09 12:34:09+00:00
+evidence_links: []
+modified: 2026-09-19T15:44:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/claim-language-serves-as-a-tool-for-communicating-thoughts-rather-than-determining-them
 prodos.kind: atomic
 prodos.lifecycle: seed
 proposition: While language influences cognitive biases and perception (linguistic relativity), it does not strictly determine thought (linguistic determinism), because language constantly evolves to meet the communicative needs of human experience.
 tags: [cognition, epistemology, linguistics, sapir-whorf]
-title: Claim - Language serves as a tool for communicating thoughts rather than determining them them
+title: Claim - Language serves as a tool for communicating thoughts rather than determining them
 type: claim
-evidence_links: []
 ---
 
 ## Minimum Viable Understanding

@@ -2,7 +2,7 @@
 conformant: true
 created: 2026-09-14T11:40:40+00:00
 created_utc: '2026-09-14T00:00:00Z'
-modified: 2026-09-14T11:52:07+00:00
+modified: 2026-09-19T15:44:42+00:00
 permalink: llmeon/30-library/100-zettelkasten/self-efficacy-and-outcome-expectations-jointly-predict-durable-interest
 source_title: "What Drives a Person's Interests? Why Do Some People Love Maths and Logic and Others Not? Why Do Interests Come in Related Bundles?"
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC9749854/

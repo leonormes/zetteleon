@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-11-01T12:30:04+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-15T00:00:00+00:00
+modified: 2026-09-19T15:44:46+00:00
 permalink: llmeon/30-library/100-zettelkasten/wicked-learning-environments-are-dynamic-and-unpredictable
 proposition: "A 'wicked' learning environment lacks stable rules and clear cause-and-effect feedback, so success there depends on adaptability and synthesis across diverse information rather than on mastery of fixed procedures—the opposite of a 'kind' environment, where repetitive practice reliably converges on skill."
 tags: [environment, learning, unpredictability]

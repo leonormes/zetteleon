@@ -1,17 +1,17 @@
 ---
 conformant: true
 contradicts: []
-created: 2026-09-14 11:39:28+00:00
+created: 2026-09-14T11:39:28+00:00
 epistemic_status: high
-modified: 2026-09-14 11:51:59+00:00
+evidence_links: []
+modified: 2026-09-19T15:44:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/binary-person-judgement-is-a-cognitive-default-not-a-character-flaw
 prodos.kind: atomic
 prodos.lifecycle: seed
-proposition: Sorting people into binary 'right' or 'wrong' categories is a biological default driven by cognitive economy, tribal signalling, and ego-fusion, rather than a personal moral defect.
+proposition: "Sorting people into binary 'right' or 'wrong' categories is a biological default driven by cognitive economy, tribal signalling, and ego-fusion, rather than a personal moral defect."
 tags: [cognition, ego, judgement, tribalism]
 title: Binary Person-Judgement Is a Cognitive Default, Not a Character Flaw
 type: claim
-evidence_links: []
 ---
 
 ## Minimum Viable Understanding

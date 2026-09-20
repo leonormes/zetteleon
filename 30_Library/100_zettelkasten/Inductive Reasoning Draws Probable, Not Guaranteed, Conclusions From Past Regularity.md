@@ -2,7 +2,7 @@
 conformant: true
 created: 2026-09-14T15:14:42+00:00
 created_utc: '2026-09-14T00:00:00Z'
-modified: 2026-09-17T13:00:24+00:00
+modified: 2026-09-19T15:44:37+00:00
 permalink: llmeon/30-library/100-zettelkasten/inductive-reasoning-draws-probable-not-guaranteed-conclusions-from-past-regularity
 prodos.kind: atomic
 prodos.lifecycle: seed

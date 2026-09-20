@@ -1,11 +1,8 @@
 ---
 conformant: false
 created: 2026-09-14T15:32:51+00:00
-modified: 2026-09-14T20:13:29+00:00
-non_conformance_reason: Operational reference/runbook, not a canonical claim/concept/evidence/question/procedure
-  per the strict §3 schema — kept as a coherent setup guide rather than atomised,
-  since fragmenting it into separate claims would destroy its use as a single consultable
-  runbook.
+modified: 2026-09-19T15:45:30+00:00
+non_conformance_reason: "Operational reference/runbook, not a canonical claim/concept/evidence/question/procedure per the strict §3 schema — kept as a coherent setup guide rather than atomised, since fragmenting it into separate claims would destroy its use as a single consultable runbook."
 permalink: llmeon/30-library/ops/reference-lazy-vim-obsidian-markdown-setup
 prodos.kind: ops
 prodos.lifecycle: stable
@@ -160,16 +157,27 @@ Integrating obsidian.nvim with blink.cmp requires explicitly defining the comple
 Lua
 
 {
+
   "saghen/blink.cmp",
+
   dependencies \= { "saghen/blink.compat", "epwalsh/obsidian.nvim" },
+
   opts\_extend \= { "sources.completion.enabled\_providers" },
+
   opts \= {
+
     sources \= {
+
       completion \= {
+
         enabled\_providers \= { "lsp", "path", "snippets", "buffer", "obsidian" },
+
       },
+
     },
+
   },
+
 }
 
 The inclusion of blink.compat is often necessary to wrap older nvim-cmp sources into a format digestible by the new engine17. When configured correctly, typing \[\[immediately triggers the autocompletion menu, displaying all vault notes. Users can fine-tune priority scores within blink.cmp to ensure that Obsidian notes or AI suggestions (e.g., from avante) rank higher than generic buffer text40.
@@ -193,10 +201,15 @@ To resolve this conflict, advanced users must employ a Lua module interception t
 Lua
 
 package.loaded\["obsidian.lsp"\] \= nil
+
 package.preload\["obsidian.lsp"\] \= function()
+
   return {
+
     start \= function() return nil end
+
   }
+
 end
 
 This hack intercepts the require("obsidian.lsp") call, preventing the real LSP code from executing44. Neovim then relies exclusively on marksman for LSP capabilities, ensuring a streamlined, conflict-free completion and diagnostic experience while still benefiting from obsidian.nvim's native Lua API for specific vault operations44.
@@ -228,7 +241,9 @@ To mitigate this, the formatting function must intelligently check the current e
 Lua
 
 if LazyVim.format.enabled(buf) and vim.api.nvim\_get\_mode().mode \~= "i" then
+
   require("conform").format({ bufnr \= buf })
+
 end
 
 This ensures formatting only occurs when the user has paused editing, preventing disruptive cursor jumping and breaking the save-format loop12.
@@ -250,6 +265,7 @@ Navigating soft-wrapped lines requires specific keybindings. Standard j and k mo
 Lua
 
 vim.keymap.set({ "n", "o", "x" }, "j", "gj", { desc \= "Move down visual line" })
+
 vim.keymap.set({ "n", "o", "x" }, "k", "gk", { desc \= "Move up visual line" })
 
 This adjustment is absolutely critical for the ergonomics of prose editing, ensuring that vertical navigation behaves exactly as it would in a standard word processor11.

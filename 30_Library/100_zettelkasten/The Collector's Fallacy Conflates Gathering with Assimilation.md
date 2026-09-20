@@ -2,7 +2,7 @@
 conformant: true
 created: 2026-09-13T09:33:18+00:00
 created_utc: '2026-09-13T00:00:00Z'
-modified: 2026-09-17T20:51:21+00:00
+modified: 2026-09-19T15:44:43+00:00
 permalink: llmeon/00-inbox/the-collectors-fallacy-conflates-gathering-with-assimilation
 source_title: A Portable Interest and PKM Knowledge Graph
 source_url: UNKNOWN

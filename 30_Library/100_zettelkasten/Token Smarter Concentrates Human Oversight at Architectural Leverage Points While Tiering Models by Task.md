@@ -1,15 +1,15 @@
 ---
-created: 2026-07-28 00:00:00+00:00
+conformant: true
+contradicts: []
+created: 2026-07-28T00:00:00+00:00
 epistemic_status: medium
-modified: 2026-09-09 12:34:18+00:00
+evidence_links: []
+modified: 2026-09-19T15:44:45+00:00
 permalink: llmeon/30-library/100-zettelkasten/token-smarter-concentrates-human-oversight-at-architectural-leverage-points-while-tiering-models-by-task
+proposition: '"Token smarter" extends model-tiering discipline (cheap models for routine work, frontier models reserved for complex reasoning) to human review time as well, concentrating human attention at architectural leverage points—decisions that are expensive or impossible to unwind later—and being lighter everywhere else.'
 tags: [domain/llm, topic/agent-architecture, topic/cost-optimization, topic/human-oversight]
 title: Token Smarter Concentrates Human Oversight at Architectural Leverage Points While Tiering Models by Task
 type: claim
-proposition: '"Token smarter" extends model-tiering discipline (cheap models for routine work, frontier models reserved for complex reasoning) to human review time as well, concentrating human attention at architectural leverage points—decisions that are expensive or impossible to unwind later—and being lighter everywhere else.'
-evidence_links: []
-contradicts: []
-conformant: true
 ---
 
 ## Token Smarter Concentrates Human Oversight at Architectural Leverage Points While Tiering Models by Task

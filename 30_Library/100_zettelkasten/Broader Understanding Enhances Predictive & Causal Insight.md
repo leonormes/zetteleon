@@ -1,8 +1,8 @@
 ---
 aliases: []
-created: 2025-07-26 19:02:49+00:00
+created: 2025-07-26T19:02:49+00:00
 last_reviewed: ''
-modified: 2026-09-09 12:34:08+00:00
+modified: 2026-09-19T15:44:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/broader-understanding-enhances-predictive-causal-insight
 tags: []
 title: Broader Understanding Enhances Predictive & Causal Insight

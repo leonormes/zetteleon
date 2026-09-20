@@ -6,7 +6,7 @@ created: 2026-09-07T15:00:00+00:00
 created_utc: 2026-09-07T15:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-09T12:34:11+00:00
+modified: 2026-09-19T15:44:35+00:00
 permalink: llmeon/30-library/100-zettelkasten/falsifiability-is-necessary-but-not-sufficient-for-a-claim-to-be-scientific
 proposition: Falsifiability is a valuable criterion for distinguishing science from dogma, but it is not by itself a complete account of what makes a claim scientific—testability, measurement quality, causal design, statistical reasoning, coherence with established evidence, and community scrutiny all matter too.
 source_title: "I want to learn more about the philosophy of science and how the scientific method works"

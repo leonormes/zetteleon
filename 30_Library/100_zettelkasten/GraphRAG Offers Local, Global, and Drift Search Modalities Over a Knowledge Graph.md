@@ -2,7 +2,7 @@
 conformant: true
 created: 2026-09-14T12:09:49+00:00
 created_utc: '2026-09-14T00:00:00Z'
-modified: 2026-09-14T12:55:00+00:00
+modified: 2026-09-19T15:44:36+00:00
 permalink: llmeon/30-library/100-zettelkasten/graph-rag-offers-local-global-and-drift-search-modalities-over-a-knowledge-graph
 source_title: PKM Meta-Graph System Research
 source_url: https://microsoft.github.io/graphrag/

@@ -4,7 +4,7 @@ conformant: true
 created: 2025-10-29T16:35:00+00:00
 definition: "A Japanese expression that acknowledges the interconnectedness of one's wellbeing with the support of others, translating to 'I am well, thanks to you and everyone who supports me.'"
 distinguishes_from: []
-modified: 2026-09-18T12:44:25+00:00
+modified: 2026-09-19T15:44:40+00:00
 non_conformance_reason: 
 permalink: llmeon/30-library/100-zettelkasten/okagesamade-acknowledges-the-support-of-others-in-ones-wellbeing
 prodos.kind: concept

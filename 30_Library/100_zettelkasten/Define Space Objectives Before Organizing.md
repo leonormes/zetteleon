@@ -2,7 +2,7 @@
 conformant: true
 created: 2026-09-01T16:18:55+00:00
 created_utc: '2026-09-01T16:18:54.888265+00:00'
-modified: 2026-09-09T12:34:10+00:00
+modified: 2026-09-19T15:44:33+00:00
 permalink: llmeon/00-inbox/define-space-objectives-before-organizing
 source_title: The 7 rules of organization
 source_url: https://youtu.be/MHnMo5vEP7Q

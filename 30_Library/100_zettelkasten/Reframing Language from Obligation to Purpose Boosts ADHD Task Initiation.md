@@ -1,8 +1,8 @@
 ---
 aliases: []
-created: 2025-10-30 12:00:03+00:00
+created: 2025-10-30T12:00:03+00:00
 last_reviewed: '2025-12-16T00:00:00.000Z'
-modified: 2026-09-09 12:34:15+00:00
+modified: 2026-09-19T15:44:41+00:00
 permalink: llmeon/30-library/100-zettelkasten/reframing-language-from-obligation-to-purpose-boosts-adhd-task-initiation
 source: '[[MOC - ADHD Task Management]]'
 status: draft

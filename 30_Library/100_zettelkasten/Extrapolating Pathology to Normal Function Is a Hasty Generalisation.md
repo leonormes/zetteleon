@@ -1,18 +1,18 @@
 ---
 aliases: [Pathology-to-Normalcy Fallacy, Split Brain to Intact Brain]
 conformant: true
-created: 2026-07-16 15:50:54+00:00
-modified: 2026-09-09 12:34:11+00:00
+contradicts: []
+created: 2026-07-16T15:50:54+00:00
+epistemic_status: medium
+evidence_links: []
+modified: 2026-09-19T15:44:35+00:00
 permalink: llmeon/30-library/100-zettelkasten/extrapolating-pathology-to-normal-function-is-a-hasty-generalisation
+proposition: 'Inferring that an intact brain is "silently split" because a surgically severed brain shows dual processing ignores that the intact corpus callosum dynamically integrates hemispheric states, producing a unified property the disconnected system lacks.'
 source_title: Waking Up (Sam Harris) — reviewed LLM summary and critique
 status: seed
 tags: [consciousness, emergence, fallacy, philosophy-of-mind, systems-thinking, TheHuman/Cognition]
 title: Extrapolating Pathology to Normal Function Is a Hasty Generalisation
 type: claim
-proposition: Inferring that an intact brain is "silently split" because a surgically severed brain shows dual processing ignores that the intact corpus callosum dynamically integrates hemispheric states, producing a unified property the disconnected system lacks.
-epistemic_status: medium
-evidence_links: []
-contradicts: []
 ---
 
 ## Extrapolating Pathology to Normal Function Is a Hasty Generalisation

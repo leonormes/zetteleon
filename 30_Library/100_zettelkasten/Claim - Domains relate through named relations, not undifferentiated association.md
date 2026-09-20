@@ -4,12 +4,10 @@ contradicts: []
 created: 2026-07-27T10:10:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-09T12:34:09+00:00
+modified: 2026-09-19T15:44:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/claim-domains-relate-through-named-relations-not-undifferentiated-association
 position-date: 2026-07-27
-proposition: Knowledge domains stand in specific, directed, nameable relations to
-  one another (informs, extends, catalyses, intersects), and recording the relation
-  type carries information that a bare associative link discards.
+proposition: "Knowledge domains stand in specific, directed, nameable relations to one another (informs, extends, catalyses, intersects), and recording the relation type carries information that a bare associative link discards."
 related_to: ["[[Claim - Flat associative structure beats rigid hierarchy]]", "[[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]]", "[[Typed Links for Knowledge Context]]"]
 tags: [linking, pkm, structure, topic/knowledge-architecture, topic/knowledge-graph, topic/pkm]
 title: Claim - Domains relate through named relations, not undifferentiated association

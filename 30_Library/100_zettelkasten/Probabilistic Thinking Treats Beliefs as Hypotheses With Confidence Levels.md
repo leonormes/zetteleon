@@ -1,10 +1,12 @@
 ---
 aliases: [Probabilistic Thinking]
 conformant: true
-created: 2025-11-01 09:51:13+00:00
+contradicts: []
+created: 2025-11-01T09:51:13+00:00
 epistemic_status: high
+evidence_links: []
 merged_from: '[[Probabilistic Thinking is a Tool for Navigating Uncertainty]]'
-modified: 2026-09-09 12:34:14+00:00
+modified: 2026-09-19T15:44:40+00:00
 permalink: llmeon/30-library/100-zettelkasten/probabilistic-thinking-treats-beliefs-as-hypotheses-with-confidence-levels
 prodos.kind: atomic
 prodos.lifecycle: stable
@@ -12,8 +14,6 @@ proposition: Probabilistic thinking replaces binary true/false judgments with gr
 tags: [decision-making, epistemology, mental-model, probabilistic-thinking, probability, uncertainty]
 title: Probabilistic Thinking Treats Beliefs as Hypotheses With Confidence Levels
 type: claim
-contradicts: []
-evidence_links: []
 ---
 
 ## Probabilistic Thinking Treats Beliefs as Hypotheses With Confidence Levels

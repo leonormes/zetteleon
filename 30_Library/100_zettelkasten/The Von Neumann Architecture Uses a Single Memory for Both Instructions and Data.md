@@ -2,19 +2,17 @@
 conformant: true
 created: 2026-09-18T00:00:00+00:00
 created_utc: 2026-09-18T00:00:00Z
-modified: 2026-09-18T00:00:00+00:00
+modified: 2026-09-19T15:44:44+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-von-neumann-architecture-uses-a-single-memory-for-both-instructions-and-data
 prodos.atomic.form: distinction
 prodos.kind: atomic
 source_title: Defining One Computer Concept
 status: seed
-tags:
-- computer-science
-- computer-architecture
-- hardware
+tags: [computer-architecture, computer-science, hardware]
 title: The Von Neumann Architecture Uses a Single Memory for Both Instructions and Data
 type: concept
 ---
+
 ## The Von Neumann Architecture Uses a Single Memory for Both Instructions and Data
 
 The Von Neumann architecture stores program instructions and the data they operate on in one unified memory, fetched through the same address space and the same pathway. This is the design underlying most general-purpose computers, and it stands in contrast to a Harvard architecture, which keeps instruction memory and data memory physically separate.

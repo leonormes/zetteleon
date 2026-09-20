@@ -1,16 +1,16 @@
 ---
 aliases: []
 conformant: true
-created: 2026-08-03 00:00:00+01:00
+contradicts: []
+created: 2026-08-02T23:00:00+00:00
 epistemic_status: medium
-modified: 2026-09-09 12:34:16+00:00
+evidence_links: []
+modified: 2026-09-19T15:44:43+00:00
 permalink: llmeon/30-library/100-zettelkasten/subordinating-intellectual-life-to-status-competition-destroys-its-intrinsic-value
 proposition: When intellectual activity is pursued as a means to rank, credential or income, the atelic good it uniquely supplies is destroyed, leaving the practitioner exposed to burnout and emptiness even when the instrumental goals are achieved.
 tags: [burnout, status, TheHuman/Philosophy, TheHuman/Psychology, topic/meaning]
 title: Subordinating Intellectual Life to Status Competition Destroys Its Intrinsic Value
 type: claim
-contradicts: []
-evidence_links: []
 ---
 
 The corruption is not that credentialism makes intellectual work harder. It is that credentialism _changes what the activity is_. An activity whose value is intrinsic cannot be simultaneously held as a means to an external end—the instrumental frame displaces the intrinsic one rather than sitting beside it.

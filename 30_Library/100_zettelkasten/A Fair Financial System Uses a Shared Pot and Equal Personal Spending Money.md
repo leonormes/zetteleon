@@ -1,16 +1,16 @@
 ---
 aliases: [Equal Pocket Money, One-Pot Model]
 conformant: true
-created: 2026-07-21 14:35:00+01:00
-modified: 2026-09-09 12:34:06+00:00
+contradicts: []
+created: 2026-07-21T13:35:00+00:00
+epistemic_status: medium
+evidence_links: []
+modified: 2026-09-19T15:44:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/a-fair-financial-system-uses-a-shared-pot-and-equal-personal-spending-money
+proposition: A fair financial system pools primary income into a shared budget and allocates each partner an identical, no-questions-asked personal spending amount, decoupling income contribution from spending authority.
 tags: [autonomy, budgeting, equality, finance, relationship]
 title: A Fair Financial System Uses a Shared Pot and Equal Personal Spending Money
 type: claim
-proposition: A fair financial system pools primary income into a shared budget and allocates each partner an identical, no-questions-asked personal spending amount, decoupling income contribution from spending authority.
-epistemic_status: medium
-evidence_links: []
-contradicts: []
 ---
 
 ## A Fair Financial System Uses a Shared Pot and Equal Personal Spending Money

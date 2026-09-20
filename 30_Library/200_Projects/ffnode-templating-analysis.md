@@ -3,7 +3,7 @@ branch: feature/FTFL-673-grafana-alloy-upgrade
 created: 2026-06-06T00:00:00+00:00
 kind: project-note
 lifecycle: active
-modified: 2026-09-14T11:52:28+00:00
+modified: 2026-09-19T15:45:07+00:00
 mr: '!787'
 permalink: llmeon/30-library/200-projects/ffnode-templating-analysis
 project_category: refined_deployment

@@ -1,8 +1,8 @@
 ---
 aliases: []
-created: 2025-10-24 14:25:58+00:00
+created: 2025-10-24T14:25:58+00:00
 last_reviewed: ''
-modified: 2026-09-09 12:34:18+00:00
+modified: 2026-09-19T15:44:45+00:00
 permalink: llmeon/30-library/100-zettelkasten/vpc-setup-for-aws-alb
 tags: [aws, SoftwareEngineering/Networking, SoftwareEngineering/networking/cloud-networking, vpc]
 title: VPC Setup for AWS ALB

@@ -1,8 +1,10 @@
 ---
 conformant: true
-created: 2026-09-07 13:00:00+00:00
+contradicts: []
+created: 2026-09-07T13:00:00+00:00
 epistemic_status: high
-modified: 2026-09-09 12:34:11+00:00
+evidence_links: []
+modified: 2026-09-19T15:44:35+00:00
 permalink: llmeon/30-library/100-zettelkasten/executive-function-skills-develop-and-decline-on-different-timelines-across-the-lifespan
 proposition: Working memory, cognitive flexibility, and inhibitory control develop and decline on different timelines rather than as a single unified trajectory.
 source_title: 'Executive Function: Skills for Life'
@@ -11,8 +13,6 @@ status: seed
 tags: [aging, cognition, executive-function, TheHuman/Cognition, TheHuman/Neuroscience]
 title: Executive Function Skills Develop and Decline on Different Timelines Across the Lifespan
 type: claim
-contradicts: []
-evidence_links: []
 ---
 
 ## Executive Function Skills Develop and Decline on Different Timelines Across the Lifespan

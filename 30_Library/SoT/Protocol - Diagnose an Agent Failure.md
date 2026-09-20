@@ -1,7 +1,7 @@
 ---
 conformant: true
 created: 2026-09-14T00:00:00+00:00
-modified: 2026-09-14T11:52:37+00:00
+modified: 2026-09-19T15:45:14+00:00
 permalink: llmeon/30-library/so-t/protocol-diagnose-an-agent-failure
 related: ["[[00 - Prompt Library Router]]", "[[prodos-agent-architecture-upgrade]]", "[[Protocol - Typed Answer Contract (TAC) for Vault Agents]]", "[[SoT - Agentic AI Design Patterns]]"]
 tags: [domain/pkm, prodos/protocol, topic/agent-architecture, topic/evaluation]

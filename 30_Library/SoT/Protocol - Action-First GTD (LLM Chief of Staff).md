@@ -1,8 +1,8 @@
 ---
-aliases: [Dump Don't Organize, Action-First GTD, LLM Chief of Staff]
+aliases: [Action-First GTD, Dump Don't Organize, LLM Chief of Staff]
 conformant: false
-created: 2026-02-11 11:40:00+00:00
-modified: 2026-08-29 09:36:32+00:00
+created: 2026-02-11T11:40:00+00:00
+modified: 2026-09-19T15:45:14+00:00
 non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/so-t/protocol-action-first-gtd-llm-chief-of-staff
 status: stable

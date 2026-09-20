@@ -1,18 +1,18 @@
 ---
 aliases: [Consciousness Is Divisible, Harris on Divided Consciousness]
 conformant: true
-created: 2026-07-16 15:50:54+00:00
-modified: 2026-09-09 12:34:12+00:00
+contradicts: []
+created: 2026-07-16T15:50:54+00:00
+epistemic_status: medium
+evidence_links: []
+modified: 2026-09-19T15:44:36+00:00
 permalink: llmeon/30-library/100-zettelkasten/harris-claims-consciousness-is-divisible
+proposition: Harris argues that because a severed right hemisphere can process language and act independently, it is itself conscious, so consciousness can be split into separate centres of experience—though whether independent information-processing implies independent subjective experience is not settled science.
 source_title: Waking Up (Sam Harris) — reviewed LLM summary and critique
 status: seed
 tags: [consciousness, philosophy-of-mind, sam-harris, split-brain, TheHuman/Philosophy]
 title: Harris Claims Consciousness Is Divisible
 type: claim
-proposition: Harris argues that because a severed right hemisphere can process language and act independently, it is itself conscious, so consciousness can be split into separate centres of experience—though whether independent information-processing implies independent subjective experience is not settled science.
-epistemic_status: medium
-evidence_links: []
-contradicts: []
 ---
 
 ## Harris Claims Consciousness Is Divisible

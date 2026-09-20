@@ -2,7 +2,7 @@
 aliases: [Breadth vs Depth, Explorer vs Specialist, Synthesist vs Expert]
 conformant: true
 created: 2025-09-11T20:23:51+00:00
-modified: 2026-09-15T00:01:00+00:00
+modified: 2026-09-19T15:44:37+00:00
 permalink: llmeon/30-library/100-zettelkasten/intellectual-explorer-vs-academic-specialist
 superseded_by: ["[[Success is Connection Not Mastery]]"]
 tags: [academic-models, intellectual-identity, topic/learning/styles]

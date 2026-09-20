@@ -3,7 +3,7 @@ aliases: [Agent GTD, Autonomous Action, Todoist MCP Integration]
 conformant: false
 created: 2026-04-02T11:00:00+00:00
 last-synthesis: 2026-04-02
-modified: 2026-09-14T11:52:37+00:00
+modified: 2026-09-19T15:45:14+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/protocol-autonomous-action-system
 source_of_truth: true

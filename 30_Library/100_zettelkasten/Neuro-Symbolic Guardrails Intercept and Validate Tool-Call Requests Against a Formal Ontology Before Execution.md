@@ -1,15 +1,15 @@
 ---
-created: 2026-07-28 14:20:04+00:00
+conformant: true
+contradicts: []
+created: 2026-07-28T14:20:04+00:00
 epistemic_status: medium
-modified: 2026-09-09 12:34:14+00:00
+evidence_links: []
+modified: 2026-09-19T15:44:39+00:00
 permalink: llmeon/30-library/100-zettelkasten/neuro-symbolic-guardrails-intercept-and-validate-tool-call-requests-against-a-formal-ontology-before-execution
 proposition: To build reliable enterprise agents, an LLM should never be permitted to execute a tool call directly. Instead, when the LLM formulates a tool-call request, its parameters and intended action are intercepted and validated against a formal ontology — a structured knowledge graph governed by strict logical rules — before 'execution is allowed. This "neuro-symbolic" architecture constrains the probabilistic' outputs of the neural network using deterministic, programmatic and semantic guardrails, and is best understood as a modern repackaging of 1980s symbolic AI (expert systems), now used as an auditing layer for neural networks rather than as a standalone reasoning system.
 tags: [domain/llm, topic/agent-architecture, topic/formal-methods, topic/reliability]
-title: Neuro-Symbolic Guardrails Intercept and Validate Tool-Call Requests Against a Formal Ontology Before Execution a Formal Ontology Before Execution
+title: Neuro-Symbolic Guardrails Intercept and Validate Tool-Call Requests Against a Formal Ontology Before Execution
 type: claim
-contradicts: []
-evidence_links: []
-conformant: true
 ---
 
 ## Neuro-Symbolic Guardrails Intercept and Validate Tool-Call Requests Against a Formal Ontology Before Execution

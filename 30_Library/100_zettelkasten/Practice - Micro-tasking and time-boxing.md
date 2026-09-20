@@ -2,7 +2,7 @@
 aliases: [Micro-tasking and Timeboxing, Pomodoro Workflow]
 conformant: true
 created: 2026-05-31T00:00:00+00:00
-modified: 2026-09-14T11:35:52+00:00
+modified: 2026-09-19T15:44:40+00:00
 permalink: llmeon/30-library/100-zettelkasten/practice-micro-tasking-and-time-boxing
 prodos.kind: atomic
 prodos.lifecycle: active

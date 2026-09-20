@@ -1,11 +1,11 @@
 ---
-created: 2026-06-02 00:00:00+00:00
-modified: 2026-08-29 09:36:26+00:00
+created: 2026-06-02T00:00:00+00:00
+modified: 2026-09-19T15:45:07+00:00
 permalink: llmeon/30-library/200-projects/gtd-action-system
 project_category: prodos
 project_name: ProdOS
 project_status: active
-source: Distilled from the processing note "HEAD — Gaining Control The 5 Stages of Work Flow" (Claude + Gemini sessions, 2026-06-02)
+source: 'Distilled from the processing note "HEAD — Gaining Control The 5 Stages of Work Flow" (Claude + Gemini sessions, 2026-06-02)'
 status: stable
 tags: [5, gtd, jira, obsidian, productivity, system, todoist, workflow]
 title: gtd-action-system

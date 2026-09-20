@@ -2,19 +2,17 @@
 conformant: true
 created: 2026-09-18T00:00:00+00:00
 created_utc: 2026-09-18T00:00:00Z
-modified: 2026-09-18T00:00:00+00:00
+modified: 2026-09-19T15:44:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/a-single-system-image-presents-a-distributed-resource-pool-as-one-unified-system
 prodos.atomic.form: definition
 prodos.kind: atomic
 source_title: Defining One Computer Concept
 status: seed
-tags:
-- computer-science
-- distributed-systems
-- cloud
+tags: [cloud, computer-science, distributed-systems]
 title: A Single System Image Presents a Distributed Resource Pool as One Unified System
 type: concept
 ---
+
 ## A Single System Image Presents a Distributed Resource Pool as One Unified System
 
 A Single System Image (SSI) is a middleware/management layer that presents a collection of distributed, potentially heterogeneous physical resources as one unified, more powerful computing resource to the user or application—hiding the underlying distribution so a large cluster appears as "one system" for purposes like job scheduling or resource management, even though distinct kernels are still running underneath.
@@ -25,7 +23,7 @@ Describes the user-facing unification SSI middleware provides, not any single sp
 
 ### Evidence
 
-> "In some cloud and cluster environments, middleware and management layers create a Single System Image (SSI). SSI presents a collection of distributed, potentially heterogeneous resources as a single, unified, and more powerful computing resource to the user or application... making a large cluster appear as 'one system' for specific purposes like job scheduling or resource management."
+> "In some cloud and cluster environments, middleware and management layers create a Single System Image (SSI). SSI presents a collection of distributed, potentially heterogeneous resources as a single, unified, and more powerful computing resource to the user or application… making a large cluster appear as 'one system' for specific purposes like job scheduling or resource management."
 
 ### Implications
 

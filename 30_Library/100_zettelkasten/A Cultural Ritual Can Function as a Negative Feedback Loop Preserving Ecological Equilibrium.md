@@ -2,7 +2,7 @@
 conformant: true
 created: 2026-09-14T15:20:07+00:00
 created_utc: '2026-09-14T00:00:00Z'
-modified: 2026-09-14T20:14:02+00:00
+modified: 2026-09-19T15:44:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/a-cultural-ritual-can-function-as-a-negative-feedback-loop-preserving-ecological-equilibrium
 prodos.kind: atomic
 prodos.lifecycle: seed

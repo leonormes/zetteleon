@@ -1,7 +1,7 @@
 ---
 conformant: true
 created: 2026-05-02T19:35:19+00:00
-modified: 2026-09-18T09:49:53+00:00
+modified: 2026-09-19T15:44:53+00:00
 permalink: llmeon/30-library/200-projects/defining-one-computer-concept-1
 project_category: infrastructure
 project_name: k8s

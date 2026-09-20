@@ -2,13 +2,13 @@
 conformant: true
 created: 2026-09-18T00:00:00+00:00
 created_utc: '2026-09-18T00:00:00Z'
-modified: 2026-09-18T00:00:00+00:00
+modified: 2026-09-19T15:44:44+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-memory-management-unit-translates-logical-addresses-to-physical-addresses
-prodos.kind: atomic
 prodos.atomic.form: mechanism
+prodos.kind: atomic
 source_title: Defining One Computer Concept
 status: seed
-tags: [computer-science, operating-systems, memory-management]
+tags: [computer-science, memory-management, operating-systems]
 title: The Memory Management Unit Translates Logical Addresses to Physical Addresses
 type: concept
 ---
@@ -23,7 +23,7 @@ Applies to any OS that implements virtual memory (essentially every modern gener
 
 ### Evidence
 
-> "Programs and the CPU operate using logical addresses (also called virtual addresses)... They do not directly correspond to hardware memory locations... The translation between the logical addresses used by software and the physical addresses required by the hardware is performed by a specialized hardware component called the Memory Management Unit (MMU), which operates under the control of the OS kernel."
+> "Programs and the CPU operate using logical addresses (also called virtual addresses)… They do not directly correspond to hardware memory locations… The translation between the logical addresses used by software and the physical addresses required by the hardware is performed by a specialized hardware component called the Memory Management Unit (MMU), which operates under the control of the OS kernel."
 
 ### Implications
 

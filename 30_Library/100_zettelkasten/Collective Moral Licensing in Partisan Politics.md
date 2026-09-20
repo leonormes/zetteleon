@@ -1,9 +1,13 @@
 ---
 conformant: true
-created: 2026-09-17 11:34:24+00:00
+contradicts: []
+created: 2026-09-17T11:34:24+00:00
 created_utc: '2026-09-17T00:00:00Z'
-modified: 2026-09-18 11:31:30+00:00
+epistemic_status: medium
+evidence_links: []
+modified: 2026-09-19T15:44:33+00:00
 permalink: llmeon/00-inbox/collective-moral-licensing-in-partisan-politics
+proposition: Voters who identify as the moral resistance to a perceived extreme threat acquire a collective sense of moral superiority that licenses them to tolerate lies, manipulation, or corruption from their own representatives that they would otherwise condemn.
 source_title: Political Contrast Effect Research
 source_url: '[[Political Contrast Effect Research]]'
 status: seed
@@ -11,10 +15,6 @@ tags: [corruption, in-group-out-group, moral-licensing, political-psychology]
 title: Collective Moral Licensing in Partisan Politics
 type: claim
 upstream: '[[Political Contrast Effect Research]]'
-proposition: Voters who identify as the moral resistance to a perceived extreme threat acquire a collective sense of moral superiority that licenses them to tolerate lies, manipulation, or corruption from their own representatives that they would otherwise condemn.
-epistemic_status: medium
-evidence_links: []
-contradicts: []
 ---
 
 ## Collective Moral Licensing in Partisan Politics

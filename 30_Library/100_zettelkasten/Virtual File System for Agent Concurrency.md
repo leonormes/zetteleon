@@ -1,9 +1,9 @@
 ---
 aliases: []
-created: 2025-10-10 08:34:11+00:00
+created: 2025-10-10T08:34:11+00:00
 id: 20251008_Virtual_File_System_for_Agent_Concurrency
 last_reviewed: 'null'
-modified: 2026-09-09 12:34:18+00:00
+modified: 2026-09-19T15:44:45+00:00
 permalink: llmeon/30-library/100-zettelkasten/virtual-file-system-for-agent-concurrency
 tags: [domain/llm, topic/agent-architecture, topic/concurrency]
 title: Virtual File System for Agent Concurrency

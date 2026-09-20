@@ -3,7 +3,7 @@ aliases: [Compounding Knowledge Base, LLM Wiki, Persistent Knowledge Architectur
 conformant: false
 created: 2026-04-06T18:00:00+00:00
 last-synthesis: 2026-04-06
-modified: 2026-09-15T07:46:38+00:00
+modified: 2026-09-19T15:45:22+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-llm-wiki-pattern
 source_of_truth: true
@@ -11,7 +11,6 @@ tags: [ai-engineering, architecture, knowledge-management, llm, rag, sot]
 title: SoT - LLM Wiki Pattern
 type: sot
 ---
-
 
 ## Minimum Viable Understanding (MVU)
 
@@ -94,7 +93,7 @@ The LLM Wiki Pattern does not replace retrieval—it changes _when_ and _what_ i
 
 ## Practical Application
 
-### Minimum Setup (any repo or project, not just this vault)
+### Minimum Setup (Any Repo or Project, not just This Vault)
 
 1. Three folders/artefacts, not more: `raw/` (immutable inputs), `wiki/` (LLM-owned pages), and one schema file (`CLAUDE.md`, `AGENTS.md`, or equivalent) defining naming conventions, page skeleton, and cross-link syntax. Skipping the schema file is the most common failure—without it, every Ingest reinvents structure and pages stop being comparable.
 2. Reuse one page skeleton for every wiki entry rather than inventing structure per-topic. This vault's own [[Template - SoT]] (MVU → Working Knowledge → Current Understanding → Tensions & Gaps → Related Knowledge) is a working instance—copy that shape rather than designing a new one from scratch.
@@ -110,14 +109,14 @@ The LLM Wiki Pattern does not replace retrieval—it changes _when_ and _what_ i
 
 ### Heuristics for the Open Questions Below
 
-- **Lint cadence:** trigger-based beats calendar-based. Run a lint pass after every ~10 Ingests, or whenever the orphan-page ratio crosses ~5% of the wiki—whichever comes first. A fixed calendar cadence either fires when nothing changed (wasted pass) or misses a burst of ingestion (debt accumulates silently in between). These two numbers are starting points, not measured optima—recalibrate after a few cycles of real data.
-- **Write authority / hallucination risk:** require every wiki claim to carry a traceable pointer back to the raw source it came from (this generalises the evidence requirement in [[Protocol - Typed Answer Contract (TAC) for Vault Agents]]). An unsourced wiki claim is the highest-risk artefact in the system—flag it explicitly (this vault's mechanism: `conformant: false` + `non_conformance_reason`) rather than let it stand as trusted knowledge with no way to check it. Reserve a human review gate for exactly that case, not for every Ingest—gating everything reintroduces the friction the pattern exists to remove.
+- Lint cadence: trigger-based beats calendar-based. Run a lint pass after every ~10 Ingests, or whenever the orphan-page ratio crosses ~5% of the wiki—whichever comes first. A fixed calendar cadence either fires when nothing changed (wasted pass) or misses a burst of ingestion (debt accumulates silently in between). These two numbers are starting points, not measured optima—recalibrate after a few cycles of real data.
+- Write authority / hallucination risk: require every wiki claim to carry a traceable pointer back to the raw source it came from (this generalises the evidence requirement in [[Protocol - Typed Answer Contract (TAC) for Vault Agents]]). An unsourced wiki claim is the highest-risk artefact in the system—flag it explicitly (this vault's mechanism: `conformant: false` + `non_conformance_reason`) rather than let it stand as trusted knowledge with no way to check it. Reserve a human review gate for exactly that case, not for every Ingest—gating everything reintroduces the friction the pattern exists to remove.
 
 ### Failure Modes to Watch For
 
-- **Wiki bloat**—pages proliferate faster than links compound. Symptom: rising orphan-page ratio. Mitigation: the lint trigger above, and the one-page-per-concept granularity rule.
-- **Sync drift**—a raw source is corrected or retracted after Ingest, but the wiki page built from it isn't updated, so the wiki now asserts something the raw layer no longer supports. Mitigation: raw sources stay immutable (Three-Layer Architecture above); a correction is a *new* raw input that triggers a fresh Ingest, never a silent wiki edit with no paper trail back to why it changed.
-- **Summary-of-summary decay**—re-synthesising an already-synthesised page (rather than going back to the original raw source) gradually drops nuance, hedges, and caveats each pass. Mitigation: Ingest should cite the original raw source when updating a page, not just the current wiki text.
+- Wiki bloat—pages proliferate faster than links compound. Symptom: rising orphan-page ratio. Mitigation: the lint trigger above, and the one-page-per-concept granularity rule.
+- Sync drift—a raw source is corrected or retracted after Ingest, but the wiki page built from it isn't updated, so the wiki now asserts something the raw layer no longer supports. Mitigation: raw sources stay immutable (Three-Layer Architecture above); a correction is a _new_ raw input that triggers a fresh Ingest, never a silent wiki edit with no paper trail back to why it changed.
+- Summary-of-summary decay—re-synthesising an already-synthesised page (rather than going back to the original raw source) gradually drops nuance, hedges, and caveats each pass. Mitigation: Ingest should cite the original raw source when updating a page, not just the current wiki text.
 
 ### When It's Worth Setting Up
 

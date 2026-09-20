@@ -1,8 +1,8 @@
 ---
 aliases: [IAM MOC, Identity MOC]
-created: 2026-04-05 10:00:00+00:00
+created: 2026-04-05T10:00:00+00:00
 last_reviewed: null
-modified: 2026-08-29 09:36:30+00:00
+modified: 2026-09-19T15:45:12+00:00
 permalink: llmeon/30-library/mo-c/moc-identity-access-management
 see_also: []
 status: stable

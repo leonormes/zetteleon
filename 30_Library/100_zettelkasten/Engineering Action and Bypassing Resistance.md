@@ -1,9 +1,13 @@
 ---
 conformant: true
-created: 2026-08-28 17:58:11+00:00
+contradicts: []
+created: 2026-08-28T17:58:11+00:00
 created_utc: '2026-08-28T18:57:00Z'
-modified: 2026-09-09 12:34:10+00:00
+epistemic_status: medium
+evidence_links: []
+modified: 2026-09-19T15:44:34+00:00
 permalink: llmeon/00-inbox/engineering-action-and-bypassing-resistance
+proposition: Action can be engineered to bypass resistance by using implementation intentions (if-then plans), guaranteeing leisure first (the Unschedule), defining the Minimum Viable Action, and making work and limits visible (Kanban and WIP limits).
 source_title: Chat Input
 source_url: ''
 status: seed
@@ -11,10 +15,6 @@ tags: [habit-building, kanban, psychology, systems]
 title: Engineering Action and Bypassing Resistance
 type: claim
 upstream: ''
-proposition: Action can be engineered to bypass resistance by using implementation intentions (if-then plans), guaranteeing leisure first (the Unschedule), defining the Minimum Viable Action, and making work and limits visible (Kanban and WIP limits).
-epistemic_status: medium
-evidence_links: []
-contradicts: []
 ---
 
 ## Engineering Action and Bypassing Resistance

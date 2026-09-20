@@ -1,17 +1,17 @@
 ---
 aliases: [Logic as Grammar]
 conformant: true
-created: 2025-11-01 11:22:13+00:00
+contradicts: []
+created: 2025-11-01T11:22:13+00:00
 epistemic_status: high
-modified: 2026-09-09 12:34:13+00:00
+evidence_links: []
+modified: 2026-09-19T15:44:38+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/logic-is-the-grammar-of-rigorous-argument
 proposition: 'Logic functions as the grammar of mathematical reasoning: it supplies the syntax for stating claims precisely, the rules of inference for deriving valid conclusions, and the semantic framework for judging truth and validity.'
 tags: [logic, methodology, topic/maths]
 title: Logic Is the Grammar of Rigorous Argument
 type: claim
-contradicts: []
-evidence_links: []
 ---
 
 Summary: Logic serves as the "grammar of reason" in mathematics, providing the rules for valid reasoning and the syntax for expressing mathematical structures precisely.

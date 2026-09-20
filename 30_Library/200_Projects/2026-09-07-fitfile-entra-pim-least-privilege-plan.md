@@ -1,7 +1,7 @@
 ---
 conformant: true
 created: 2026-09-07T11:26:10+00:00
-modified: 2026-09-14T11:52:13+00:00
+modified: 2026-09-19T15:44:49+00:00
 permalink: llmeon/30-library/200-projects/2026-09-07-fitfile-entra-pim-least-privilege-plan
 project_category: devops
 project_name: Entra IAM Hardening
@@ -311,9 +311,7 @@ Standing (non-PIM) holders of Owner / User Access Administrator / RBAC Administr
 Three things fall out of this:
 
 1. ABAC-constrained UAA is already used well—credit where due. Five of the eight UAA assignments carry a `condition` restricting which `roleDefinitionId`s the principal may grant. That is a sophisticated control and exactly the right pattern. The three unconstrained ones are the outliers: Terraform AAD Provisioner at `FITFILE` MG, and both Vault SPs on Shared Services. Constrain them to match—the template already exists in your own estate.
-
 2. The Terraform SP is both tenant-admin and cloud-admin. Graph side: `Application.ReadWrite.All` → mint credentials for any app → GA-equivalent. ARM side: unconstrained UAA at the top management group → grant itself Owner anywhere. Revision 1 understated this. It is the strongest argument for the Tier 0 / Tier 1 split in §3.2.
-
 3. There are two parallel routes to Owner, one JIT and one permanent. `admin.mofakham` and `admin.russmeyer` reach Owner through PIM. Oliver, Leon and Robin reach it permanently through `Azure RBAC Subscription … Owner` group membership. The good path already exists—so the fix is to empty those groups and make the engineers PIM-eligible, not to build anything new. That is much cheaper than Revision 1 implied, subject only to P2 seats (§1.8).
 
 Dead credentials, live privilege. Two SPs whose only secrets expired long ago still hold standing Azure privilege: `TEMP-PrivateTerraformCluster` (secret expired 2024-11, holds Contributor on Non-Production) and `Terraform Provisioner - GH Private Test` (secret expired 2025-01, holds Contributor and UAA on Non-Production). Also two managed identities named only by GUID—`160876b472ad47a1bcea63a0` and `f42542b7c87a46dd815d83c7`, both created 2022-05-30—holding Contributor on `FITCloud Production`. Unnamed, undocumented, production-privileged: identify or remove.
@@ -519,8 +517,8 @@ _Nothing here needs new Terraform. Phase 1 is where the risk actually falls._
 
 _Withdrawn from Revision 1: "Move Robin (Admin) from standing GA to PIM-eligible"—they already are._
 
-22. CA policies into code—once readable—with `azuread_conditional_access_policy`, deployed in rings per framing note §4.4. Watch the 1 req/sec API limit; reduce parallelism. Always exclude `Exclude - Breakglass`. Consider `azuread_authentication_strength_policy` and `azuread_named_location` alongside.
-23. Protected actions (P1, already licensed) on `microsoft.directory/conditionalAccessPolicies/*` and `microsoft.directory/deletedItems/delete`, bound to a phishing-resistant CA auth context. Caveat: protected actions apply to _interactive user_ calls and step-up-capable clients only; Azure PowerShell fails outright and app-only calls are unaffected. So this hardens humans in the portal, not the pipeline.
+1. CA policies into code—once readable—with `azuread_conditional_access_policy`, deployed in rings per framing note §4.4. Watch the 1 req/sec API limit; reduce parallelism. Always exclude `Exclude - Breakglass`. Consider `azuread_authentication_strength_policy` and `azuread_named_location` alongside.
+2. Protected actions (P1, already licensed) on `microsoft.directory/conditionalAccessPolicies/*` and `microsoft.directory/deletedItems/delete`, bound to a phishing-resistant CA auth context. Caveat: protected actions apply to _interactive user_ calls and step-up-capable clients only; Azure PowerShell fails outright and app-only calls are unaffected. So this hardens humans in the portal, not the pipeline.
 
 ### Phase 3—Scale and Sustain
 

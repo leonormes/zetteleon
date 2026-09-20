@@ -2,10 +2,12 @@
 aliases: []
 axiom: true
 conformant: true
-created: 2025-02-07 12:57:55+00:00
+contradicts: []
+created: 2025-02-07T12:57:55+00:00
 epistemic_status: high
+evidence_links: []
 ID: information_as_an_organizing_principle
-modified: 2026-09-09 12:34:12+00:00
+modified: 2026-09-19T15:44:37+00:00
 permalink: llmeon/30-library/100-zettelkasten/information-as-an-organizing-principle
 prodos.kind: atomic
 prodos.lifecycle: stable
@@ -13,8 +15,6 @@ proposition: Information functions as a fundamental organizing principle and for
 tags: [information]
 title: Information as an Organizing Principle
 type: claim
-contradicts: []
-evidence_links: []
 ---
 
 Beyond the human mind, information is presented as a fundamental organizing principle in the natural world. Analogous to how genes instruct cellular machinery, information shapes and specifies the characteristics of living forms and even influences human thought patterns. This concept elevates information beyond mere data, positioning it as a force that "informs" the material world.

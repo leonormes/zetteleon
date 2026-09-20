@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-09-13T00:00:00+00:00
-modified: 2026-09-13T16:30:20+00:00
+modified: 2026-09-19T15:44:40+00:00
 permalink: llmeon/30-library/100-zettelkasten/pods-communicate-across-cluster-using-cni-provided-networking
 tags: [SoftwareEngineering/Containers, SoftwareEngineering/Kubernetes, SoftwareEngineering/Networking]
 title: Pods communicate across cluster using CNI-provided networking

@@ -2,7 +2,7 @@
 aliases: [meta-perception accuracy]
 conformant: true
 created: 2025-10-31T09:20:29+00:00
-modified: 2026-09-09T12:34:13+00:00
+modified: 2026-09-19T15:44:39+00:00
 permalink: llmeon/30-library/100-zettelkasten/meta-accuracy-in-social-perception
 tags: [topic/social-cognition, topic/social-perception]
 title: Meta-Accuracy in Social Perception

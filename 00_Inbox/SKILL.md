@@ -1,9 +1,6 @@
 ---
 created: 2026-09-18T11:22:15+00:00
-description: Write or extend a Pact contract test between two services in this repo
-  — a consumer test, a provider verification, or both. Use when asked to add a contract
-  test, pact test, consumer-driven contract, or provider verification for any service
-  pair here (frontend, ffcloud, fitconnect, scheduler-service, workflows-api, etc).
+description: "Write or extend a Pact contract test between two services in this repo — a consumer test, a provider verification, or both. Use when asked to add a contract test, pact test, consumer-driven contract, or provider verification for any service pair here (frontend, ffcloud, fitconnect, scheduler-service, workflows-api, etc)."
 modified: 2026-09-18T11:31:30+00:00
 name: write-contract-test
 permalink: llmeon/00-inbox/skill

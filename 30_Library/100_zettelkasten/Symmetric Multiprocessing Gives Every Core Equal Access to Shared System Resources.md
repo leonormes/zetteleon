@@ -2,19 +2,17 @@
 conformant: true
 created: 2026-09-18T00:00:00+00:00
 created_utc: 2026-09-18T00:00:00Z
-modified: 2026-09-18T00:00:00+00:00
+modified: 2026-09-19T15:44:43+00:00
 permalink: llmeon/30-library/100-zettelkasten/symmetric-multiprocessing-gives-every-core-equal-access-to-shared-system-resources
 prodos.atomic.form: definition
 prodos.kind: atomic
 source_title: Defining One Computer Concept
 status: seed
-tags:
-- computer-science
-- computer-architecture
-- concurrency
+tags: [computer-architecture, computer-science, concurrency]
 title: Symmetric Multiprocessing Gives Every Core Equal Access to Shared System Resources
 type: concept
 ---
+
 ## Symmetric Multiprocessing Gives Every Core Equal Access to Shared System Resources
 
 Symmetric Multiprocessing (SMP) is the arrangement in which every processor or core in a system is identical and has equal, uniform-latency access to shared system resources—chiefly main memory and I/O—rather than some cores having privileged or faster access than others.

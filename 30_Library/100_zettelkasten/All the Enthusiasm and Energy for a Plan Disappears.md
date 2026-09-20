@@ -3,19 +3,15 @@ aliases: []
 axiom: true
 conformant: true
 contradicts: []
-created: 2025-05-28 14:26:24+00:00
+created: 2025-05-28T14:26:24+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-09 12:34:07+00:00
+modified: 2026-09-19T15:44:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/all-the-enthusiasm-and-energy-for-a-plan-disappears
 prodos.kind: atomic
 prodos.lifecycle: active
 proposition: ADHD enthusiasm for complex system-building is transient; systems must be stupidly simple to survive the inevitable dopamine crash when the novelty fades.
-tags:
-- motivation
-- productivity
-- system-design
-- TheHuman/Health/ADHD
+tags: [motivation, productivity, system-design, TheHuman/Health/ADHD]
 title: All the Enthusiasm and Energy for a Plan Disappears
 type: claim
 ---

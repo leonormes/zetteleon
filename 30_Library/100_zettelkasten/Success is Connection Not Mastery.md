@@ -1,10 +1,10 @@
 ---
-aliases: [Breadth vs Depth, Connection Over Mastery, Explorer vs Specialist, Synthesist vs Expert, Synthesis Over Specialization]
+aliases: [Breadth vs Depth, Connection Over Mastery, Explorer vs Specialist, Synthesis Over Specialization, Synthesist vs Expert]
 conformant: true
 created: 2025-09-11T20:22:57+00:00
 definition: "A reframe of personal success for novelty-seeking and hyperfocus-driven minds: achievement measured by the ability to forge meaningful connections and synthesize insights across domains, rather than by depth of mastery within a single field."
 distinguishes_from: []
-modified: 2026-09-15T00:01:00+00:00
+modified: 2026-09-19T15:44:43+00:00
 permalink: llmeon/30-library/100-zettelkasten/success-is-connection-not-mastery
 tags: [success-metrics, synthesis, TheHuman/Health/ADHD, topic/learning]
 title: Success is Connection Not Mastery

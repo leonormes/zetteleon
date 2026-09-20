@@ -2,13 +2,13 @@
 conformant: true
 created: 2026-09-18T00:00:00+00:00
 created_utc: '2026-09-18T00:00:00Z'
-modified: 2026-09-18T00:00:00+00:00
+modified: 2026-09-19T15:44:37+00:00
 permalink: llmeon/30-library/100-zettelkasten/iaas-paas-and-saas-progressively-abstract-away-the-underlying-computer
-prodos.kind: atomic
 prodos.atomic.form: distinction
+prodos.kind: atomic
 source_title: Defining One Computer Concept
 status: seed
-tags: [computer-science, cloud, distributed-systems]
+tags: [cloud, computer-science, distributed-systems]
 title: IaaS, PaaS, and SaaS Progressively Abstract Away the Underlying Computer
 type: concept
 ---
@@ -23,7 +23,7 @@ Describes the user-facing abstraction gradient of the three canonical cloud serv
 
 ### Evidence
 
-> "Infrastructure as a Service (IaaS): Provides access to fundamental computing infrastructure–virtual machines, storage, networks. The user manages the OS... Platform as a Service (PaaS)... The underlying 'computer' is abstracted away. Software as a Service (SaaS): Delivers ready-to-use software applications... The concept of a 'computer' is entirely hidden."
+> "Infrastructure as a Service (IaaS): Provides access to fundamental computing infrastructure–virtual machines, storage, networks. The user manages the OS… Platform as a Service (PaaS)… The underlying 'computer' is abstracted away. Software as a Service (SaaS): Delivers ready-to-use software applications… The concept of a 'computer' is entirely hidden."
 
 ### Implications
 
@@ -33,5 +33,4 @@ Describes the user-facing abstraction gradient of the three canonical cloud serv
 ### Related
 
 - [[SoT - The Logical Definition of a Computer]]—extends: adds the cloud-service-model axis to that SoT's existing physical/VM/container/cluster abstraction table. [extends:: [[SoT - The Logical Definition of a Computer]], strength=3, confidence=high]
-
 - [[Cloud Providers Achieve Elasticity Through Resource Pooling and Multi-Tenancy]]—related but distinct: that note describes the provider-side mechanism (resource pooling, multi-tenancy) that makes any point on this abstraction gradient elastic; this note describes what the user sees at each point.

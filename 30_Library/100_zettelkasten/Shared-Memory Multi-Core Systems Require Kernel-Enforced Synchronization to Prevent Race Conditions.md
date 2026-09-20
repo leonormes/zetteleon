@@ -1,21 +1,22 @@
 ---
 conformant: true
-created: 2026-09-18 00:00:00+00:00
+contradicts: []
+created: 2026-09-18T00:00:00+00:00
 created_utc: 2026-09-18 00:00:00+00:00
-modified: 2026-09-18 00:00:00+00:00
+epistemic_status: high
+evidence_links: []
+modified: 2026-09-19T15:44:42+00:00
 permalink: llmeon/30-library/100-zettelkasten/shared-memory-multi-core-systems-require-kernel-enforced-synchronization-to-prevent-race-conditions
 prodos.atomic.form: mechanism
 prodos.kind: atomic
+proposition: "When multiple cores share access to the same memory, the kernel must provide synchronization primitives to prevent race conditions and must manage cache coherency so that all cores see a consistent view of memory data cached locally in each core's own cache."
 source_title: Defining One Computer Concept
 status: seed
-tags: [computer-science, operating-systems, concurrency]
+tags: [computer-science, concurrency, operating-systems]
 title: Shared-Memory Multi-Core Systems Require Kernel-Enforced Synchronization to Prevent Race Conditions
 type: claim
-proposition: When multiple cores share access to the same memory, the kernel must provide synchronization primitives to prevent race conditions and must manage cache coherency so that all cores see a consistent view of memory data cached locally in each core's own cache.
-epistemic_status: high
-evidence_links: []
-contradicts: []
 ---
+
 ## Shared-Memory Multi-Core Systems Require Kernel-Enforced Synchronization to Prevent Race Conditions
 
 When multiple cores share access to the same memory, the kernel must provide synchronization primitives—spinlocks, mutexes, semaphores—to prevent race conditions when cores access shared data concurrently, and must manage cache coherency so that all cores see a consistent view of memory data cached locally in each core's own cache.

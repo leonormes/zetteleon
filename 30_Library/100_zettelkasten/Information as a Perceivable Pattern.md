@@ -2,7 +2,7 @@
 aliases: []
 conformant: true
 created: 2025-08-26T09:26:20+00:00
-modified: 2026-09-09T12:34:12+00:00
+modified: 2026-09-19T15:44:37+00:00
 permalink: llmeon/30-library/100-zettelkasten/information-as-perceivable-pattern
 tags: [epistemology, information]
 title: Information as a Perceivable Pattern

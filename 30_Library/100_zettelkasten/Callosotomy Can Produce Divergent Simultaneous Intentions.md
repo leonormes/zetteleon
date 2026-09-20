@@ -1,18 +1,18 @@
 ---
 aliases: [Draftsman vs Racing Driver, Dueling Intentions]
 conformant: true
-created: 2026-07-16 15:50:54+00:00
-modified: 2026-09-09 12:34:08+00:00
+contradicts: []
+created: 2026-07-16T15:50:54+00:00
+epistemic_status: medium
+evidence_links: []
+modified: 2026-09-19T15:44:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/callosotomy-can-produce-divergent-simultaneous-intentions
+proposition: 'After the corpus callosum is severed, the two hemispheres can pursue incompatible goals at once—in one reported case the left hemisphere said it wanted to be a draftsman while the disconnected right hemisphere spelled out "racing driver."'
 source_title: Waking Up (Sam Harris) — reviewed LLM summary and critique
 status: draft
 tags: [agency, consciousness, neuroscience, philosophy-of-mind, split-brain, TheHuman/Identity]
 title: Callosotomy Can Produce Divergent Simultaneous Intentions
 type: claim
-proposition: After the corpus callosum is severed, the two hemispheres can pursue incompatible goals at once—in one reported case the left hemisphere said it wanted to be a draftsman while the disconnected right hemisphere spelled out "racing driver."
-epistemic_status: medium
-evidence_links: []
-contradicts: []
 ---
 
 ## Callosotomy Can Produce Divergent Simultaneous Intentions

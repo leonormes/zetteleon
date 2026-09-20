@@ -3,7 +3,7 @@ aliases: []
 conformant: true
 created: 2025-12-04T12:00:00+00:00
 definition: "The initial stage of the Unified Writing to Think process, focusing on priming the mind for insight using movement and environment."
-modified: 2026-09-09T12:34:16+00:00
+modified: 2026-09-19T15:44:43+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/stage-0
 tags: [cognition, pkm, writing]

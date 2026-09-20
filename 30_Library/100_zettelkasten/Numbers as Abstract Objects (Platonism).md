@@ -5,7 +5,7 @@ contradicts: ["[[Formalism (Mathematics as Symbol Manipulation)]]", "[[Intuition
 created: 2025-08-30T08:57:56+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-14T11:35:52+00:00
+modified: 2026-09-19T15:44:40+00:00
 permalink: llmeon/30-library/100-zettelkasten/numbers-as-abstract-objects-platonism
 proposition: "Mathematical Platonism holds that numbers and other mathematical objects exist mind-independently in an abstract, non-physical realm, so that mathematical truths are discovered rather than invented."
 tags: [platonism, topic/maths, topic/philosophy]

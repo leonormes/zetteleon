@@ -1,8 +1,7 @@
 ---
 type: tmp_atoms
 status: tmp
-source_title: Anger is fundamentally a cognitive response (Crash Course-style video
-  on Stoic, Buddhist, and modern psychological views of anger)
+source_title: "Anger is fundamentally a cognitive response (Crash Course-style video on Stoic, Buddhist, and modern psychological views of anger)"
 source_url: https://youtu.be/RuJaitcxr80
 captured_utc: '2026-09-14T00:00:00Z'
 signal_to_noise: 50% signal / 50% noise

@@ -2,7 +2,7 @@
 aliases: [Function of Goals]
 conformant: false
 created: 2025-11-06T19:55:00+00:00
-modified: 2026-09-09T12:34:11+00:00
+modified: 2026-09-19T15:44:36+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/goals-set-the-direction-for-change
 tags: [direction-setting, goals, topic/productivity]

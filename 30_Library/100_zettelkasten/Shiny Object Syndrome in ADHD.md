@@ -1,19 +1,15 @@
 ---
-aliases:
-- Dopamine-Seeking Behavior The Research Rabbit Hole
+aliases: [Dopamine-Seeking Behavior The Research Rabbit Hole]
 conformant: true
 contradicts: []
-created: 2025-10-25 14:26:00+00:00
+created: 2025-10-25T14:26:00+00:00
 epistemic_status: medium
 evidence_links: []
 last_reviewed: 'null'
-modified: 2026-09-09 12:34:16+00:00
+modified: 2026-09-19T15:44:42+00:00
 permalink: llmeon/30-library/100-zettelkasten/shiny-object-syndrome-in-adhd
 proposition: '"Shiny Object Syndrome" is a common ADHD behavioural pattern describing the tendency to abandon a current project, system, or interest for a newer, more exciting one, driven by a dopamine cycle of initial spark, fading novelty, and renewed scanning for the next novel thing.'
-tags:
-- novelty
-- TheHuman/Health/ADHD
-- topic/productivity/procrastination
+tags: [novelty, TheHuman/Health/ADHD, topic/productivity/procrastination]
 title: Shiny Object Syndrome in ADHD
 type: claim
 updated: null

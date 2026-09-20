@@ -6,7 +6,7 @@ created: 2026-09-09T00:00:00+00:00
 created_utc: 2026-09-09 00:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-09T12:34:19+00:00
+modified: 2026-09-19T15:44:39+00:00
 permalink: llmeon/00-inbox/mertons-reward-system-drives-scientific-norms
 proposition: "Merton's sociology of science highlights the reward system—the race for credit and publication—as the motor that drives scientific norms."
 source_title: "Philosophy of science: alternative positions beyond Deutsch vs Godfrey-Smith"

@@ -6,7 +6,7 @@ created_utc: 2026-09-09 00:00:00+00:00
 definition: 'A scientist can "accept" and use a theory while remaining completely agnostic about whether the unobservable entities it describes actually exist.'
 distinguishes_from: []
 epistemic_status: high
-modified: 2026-09-09T12:34:19+00:00
+modified: 2026-09-19T15:44:33+00:00
 permalink: llmeon/00-inbox/constructive-empiricism-separates-accepting-a-theory-from-believing-its-unobservables
 source_title: "Philosophy of science: alternative positions beyond Deutsch vs Godfrey-Smith"
 source_url: UNKNOWN

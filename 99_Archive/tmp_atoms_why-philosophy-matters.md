@@ -1,12 +1,10 @@
 ---
 type: tmp_atoms
 status: tmp
-source_title: Why Philosophy Matters (Michael Huemer & Keith Knight, Institute of
-  Art and Ideas)
+source_title: "Why Philosophy Matters (Michael Huemer & Keith Knight, Institute of Art and Ideas)"
 source_url: https://youtu.be/J-Ftxh0l3go
 captured_utc: '2026-09-14T00:00:00Z'
-signal_to_noise: 45% signal / 55% noise (heavy libertarian/anarcho-capitalist framing
-  presented alongside standard philosophy content)
+signal_to_noise: "45% signal / 55% noise (heavy libertarian/anarcho-capitalist framing presented alongside standard philosophy content)"
 permalink: llmeon/00-inbox/tmp-atoms-why-philosophy-matters
 ---
 

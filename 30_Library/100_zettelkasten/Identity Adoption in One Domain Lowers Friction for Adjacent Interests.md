@@ -1,20 +1,20 @@
 ---
 conformant: true
-created: 2026-09-14 11:41:11+00:00
+contradicts: []
+created: 2026-09-14T11:41:11+00:00
 created_utc: '2026-09-14T00:00:00Z'
-modified: 2026-09-14 11:52:03+00:00
+epistemic_status: medium
+evidence_links: []
+modified: 2026-09-19T15:44:37+00:00
 permalink: llmeon/30-library/100-zettelkasten/identity-adoption-in-one-domain-lowers-friction-for-adjacent-interests
-source_title: What Drives a Person's Interests? Why Do Some People Love Maths and Logic and Others Not? Why Do Interests Come in Related Bundles?
+proposition: 'Once a person adopts an identity such as "a systems person" or "a musician," success in that domain supplies knowledge, tools, communities, and confidence that lower the entry friction for trying adjacent domains, producing an expanding cluster of related interests over time.'
+source_title: "What Drives a Person's Interests? Why Do Some People Love Maths and Logic and Others Not? Why Do Interests Come in Related Bundles?"
 source_url: unknown — compiled research note, see [[tmp_atoms_what-drives-a-persons-interests]]
 status: seed
 tags: [TheHuman/Psychology, topic/identity, topic/interest-formation, topic/motivation]
 title: Identity Adoption in One Domain Lowers Friction for Adjacent Interests
 type: claim
 upstream: '[[tmp_atoms_what-drives-a-persons-interests]]'
-proposition: Once a person adopts an identity such as "a systems person" or "a musician," success in that domain supplies knowledge, tools, communities, and confidence that lower the entry friction for trying adjacent domains, producing an expanding cluster of related interests over time.
-epistemic_status: medium
-evidence_links: []
-contradicts: []
 ---
 
 ## Identity Adoption in One Domain Lowers Friction for Adjacent Interests

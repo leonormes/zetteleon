@@ -1,8 +1,10 @@
 ---
 conformant: true
-created: 2026-09-07 13:00:00+00:00
+contradicts: []
+created: 2026-09-07T13:00:00+00:00
 epistemic_status: medium
-modified: 2026-09-09 12:34:09+00:00
+evidence_links: []
+modified: 2026-09-19T15:44:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/cognitive-training-neurofeedback-mindfulness-and-exercise-can-improve-executive-function
 proposition: Computerised cognitive training, neurofeedback training, mindfulness practice, and cognitively demanding exercise are each associated with improvements in specific executive function skills.
 source_title: 'Executive Function: Skills for Life'
@@ -11,8 +13,6 @@ status: seed
 tags: [executive-function, exercise, mindfulness, TheHuman/Cognition, training]
 title: Cognitive Training Neurofeedback Mindfulness and Exercise Can Improve Executive Function
 type: claim
-contradicts: []
-evidence_links: []
 ---
 
 ## Cognitive Training Neurofeedback Mindfulness and Exercise Can Improve Executive Function

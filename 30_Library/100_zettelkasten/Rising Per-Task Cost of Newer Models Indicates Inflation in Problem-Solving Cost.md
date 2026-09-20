@@ -2,13 +2,13 @@
 aliases: []
 conformant: true
 contradicts: []
-created: 2026-07-28 09:11:42+00:00
+created: 2026-07-28T09:11:42+00:00
 epistemic_status: medium
 evidence_links: []
-modified: '2026-09-18T00:00:00+00:00'
+modified: 2026-09-19T15:44:42+00:00
 permalink: llmeon/30-library/100-zettelkasten/rising-per-task-cost-of-newer-models-indicates-inflation-in-problem-solving-cost
 proposition: 'Newer, more capable models (e.g. Sonnet 5, GLM 5.2) are observed to cost more, not less, to run to completion on benchmark tasks than their predecessors—despite being "better" models. This indicates a form of inflation in the cost of problem-solving: capability gains are being purchased with proportionally larger token consumption per task, not delivered as a fixed-cost improvement.'
-tags: [domain/llm, topic/economics, topic/cost-optimization, topic/benchmarking]
+tags: [domain/llm, topic/benchmarking, topic/cost-optimization, topic/economics]
 title: Rising Per-Task Cost of Newer Models Indicates Inflation in Problem-Solving Cost
 type: claim
 ---

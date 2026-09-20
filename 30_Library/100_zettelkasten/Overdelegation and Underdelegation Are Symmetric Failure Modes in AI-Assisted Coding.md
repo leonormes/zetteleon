@@ -2,13 +2,13 @@
 aliases: []
 conformant: true
 contradicts: []
-created: 2026-07-28 09:03:46+00:00
+created: 2026-07-28T09:03:46+00:00
 epistemic_status: high
 evidence_links: []
-modified: '2026-09-18T00:00:00+00:00'
+modified: 2026-09-19T15:44:40+00:00
 permalink: llmeon/30-library/100-zettelkasten/overdelegation-and-underdelegation-are-symmetric-failure-modes-in-ai-assisted-coding
 proposition: 'Teams applying AI to coding tend to fail at one of two extremes. Overdelegation hands the model a large, ambiguous task, letting it make unstated design decisions humans then struggle to review. Underdelegation restricts AI to small, isolated functions while a senior developer retains all architectural planning, capping productivity gains at the ceiling of manual thinking. Both extremes fail to find the effective middle: AI handling well-specified units of work within a human-set architecture.'
-tags: [domain/llm, topic/software-engineering, topic/agent-architecture, topic/delegation, topic/vibe-coding]
+tags: [domain/llm, topic/agent-architecture, topic/delegation, topic/software-engineering, topic/vibe-coding]
 title: Overdelegation and Underdelegation Are Symmetric Failure Modes in AI-Assisted Coding
 type: claim
 ---

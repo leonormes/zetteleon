@@ -1,8 +1,8 @@
 ---
 aliases: [Statistical Science]
-created: 2025-11-01 11:22:13+00:00
+created: 2025-11-01T11:22:13+00:00
 last_reviewed: '2025-11-01T00:00:00.000Z'
-modified: 2026-09-09 12:34:16+00:00
+modified: 2026-09-19T15:44:43+00:00
 permalink: llmeon/30-library/100-zettelkasten/statistics-definition
 status: seed
 tags: [fields, topic/maths]

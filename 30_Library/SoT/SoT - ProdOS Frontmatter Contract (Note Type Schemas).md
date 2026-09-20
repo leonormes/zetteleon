@@ -2,7 +2,7 @@
 aliases: [Frontmatter Contract, FrontmatterContract, Note Type Schemas, TAC Frontmatter Schema]
 allowlist_decision: "Option C — Documented allowlist. Legacy set frozen. New files must pass 0 errors. allowlist maintained in this file's frontmatter at `non_conformant_allowlist`."
 created: 2026-07-17T00:00:00+00:00
-modified: 2026-09-14T11:52:49+00:00
+modified: 2026-09-19T15:45:24+00:00
 permalink: llmeon/30-library/so-t/so-t-prodos-frontmatter-contract-note-type-schemas
 see_also: ["[[Goal - Frontmatter Bulk Migration (Phase 3)]]", "[[Protocol - Typed Answer Contract (TAC) for Vault Agents]]", "[[SoT - PRODOS Core Specification]]", "[[SoT - Typed Answer Contract (TAC) for LLM Output]]"]
 supersedes: ["[[SoT - Typed Answer Contract (TAC) for LLM Output]]"]

@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-06-18T17:28:14+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-15T00:00:00+00:00
+modified: 2026-09-19T15:44:37+00:00
 permalink: llmeon/30-library/100-zettelkasten/implicit-social-hierarchies-authority
 proposition: "People unconsciously grant more epistemic weight to opinions from those who appear confident, authoritative, or socially adept, independent of their actual domain competence."
 tags: [authority, bias, social-dynamics, TheHuman/Cognition, topic/social-perception]

@@ -4,7 +4,7 @@ conformant: true
 created: 2025-08-31T16:06:41+00:00
 definition: "Fodor's hypothesis that humans possess an innate, propositionally-structured cognitive system (\"Mentalese\") that resembles language but is distinct from any spoken language, and that this internal representational system underlies the capacity for abstract thought."
 distinguishes_from: ["[[SoT - The Primacy of Experience (Pre-Linguistic Understanding)]]"]
-modified: 2026-09-09T12:34:13+00:00
+modified: 2026-09-19T15:44:38+00:00
 permalink: llmeon/30-library/100-zettelkasten/language-of-thought
 tags: [language, mentalese, philosophy-of-mind, TheHuman/Cognition]
 title: Language of Thought

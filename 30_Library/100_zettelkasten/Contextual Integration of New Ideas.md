@@ -2,9 +2,11 @@
 aliases: []
 axiom: true
 conformant: true
-created: 2025-07-25 08:34:42+00:00
+contradicts: []
+created: 2025-07-25T08:34:42+00:00
 epistemic_status: high
-modified: 2026-09-09 12:34:09+00:00
+evidence_links: []
+modified: 2026-09-19T15:44:33+00:00
 permalink: llmeon/30-library/100-zettelkasten/contextual-integration-of-new-ideas
 prodos.kind: atomic
 prodos.lifecycle: stable
@@ -12,8 +14,6 @@ proposition: An effective thought partner must contextually integrate new ideas 
 tags: [integration, knowledge-management, llm]
 title: Contextual Integration of New Ideas
 type: claim
-contradicts: []
-evidence_links: []
 ---
 
 Beyond simply matching, the "thought partner" should integrate newly captured ideas by placing them within a richer context derived from previously recorded, related thoughts. This means that a new entry isn't just stored, but immediately presented alongside its intellectual kin, providing deeper meaning and connections from the outset.

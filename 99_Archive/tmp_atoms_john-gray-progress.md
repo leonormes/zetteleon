@@ -1,14 +1,10 @@
 ---
 type: tmp_atoms
 status: tmp
-source_title: 'John Gray on the myth of progress (two merged sources: a critique essay
-  ''Deconstructing John Gray''s Progress Argument'', and a Gemini video-summary conversation
-  misfiled as ''HEAD Arthur Schopenhauer'' — it contains no Schopenhauer content,
-  only two John Gray interviews, one of which the source AI failed to transcribe)'
+source_title: "John Gray on the myth of progress (two merged sources: a critique essay 'Deconstructing John Gray's Progress Argument', and a Gemini video-summary conversation misfiled as 'HEAD Arthur Schopenhauer' — it contains no Schopenhauer content, only two John Gray interviews, one of which the source AI failed to transcribe)"
 source_url: unknown — multiple interviews/videos, see original archived files
 captured_utc: '2026-09-14T00:00:00Z'
-signal_to_noise: 55% signal / 45% noise (title-page rhetoric, anecdote, and duplicate
-  framing across the two merged sources)
+signal_to_noise: "55% signal / 45% noise (title-page rhetoric, anecdote, and duplicate framing across the two merged sources)"
 permalink: llmeon/00-inbox/tmp-atoms-john-gray-progress
 ---
 

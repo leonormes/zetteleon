@@ -2,7 +2,7 @@
 conformant: true
 created: 2026-09-14T11:28:50+00:00
 created_utc: '2026-09-14T00:00:00Z'
-modified: 2026-09-14T11:35:57+00:00
+modified: 2026-09-19T15:44:40+00:00
 permalink: llmeon/30-library/100-zettelkasten/predictive-processing-accounts-frame-discomfort-with-uncertainty-as-a-prediction-error-problem
 source_title: "I Have a Thought Previously About How Chaos and Confusion Can Hide Danger, and Human Survival Relies on Getting Control of Situational Awareness"
 source_url: "unknown — compiled research note, see [[tmp_atoms_chaos-and-situational-awareness]]"

@@ -1,15 +1,15 @@
 ---
-created: 2026-07-28 00:00:00+00:00
+conformant: true
+contradicts: []
+created: 2026-07-28T00:00:00+00:00
 epistemic_status: high
-modified: 2026-09-09 12:34:14+00:00
+evidence_links: []
+modified: 2026-09-19T15:44:40+00:00
 permalink: llmeon/30-library/100-zettelkasten/persistent-memory-layers-enable-multi-session-agent-continuity
 proposition: Persistent memory layers (knowledge graphs, discovery logs, architectural summaries) allow LLM agents to carry forward insights, decisions, and learned patterns across isolated sessions, eliminating context reloading overhead and enabling agents to reason about their own prior work.
 tags: [domain/llm, topic/agent-architecture, topic/claude-code, topic/context-engineering, topic/persistent-memory]
 title: Persistent Memory Layers Enable Multi-Session Agent Continuity
 type: claim
-contradicts: []
-evidence_links: []
-conformant: true
 ---
 
 ## Persistent Memory Layers Enable Multi-Session Agent Continuity

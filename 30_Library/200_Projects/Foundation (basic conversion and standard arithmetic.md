@@ -1,6 +1,6 @@
 ---
 created: 2026-09-17T14:51:14+00:00
-modified: 2026-09-18T11:31:30+00:00
+modified: 2026-09-19T15:44:57+00:00
 permalink: llmeon/00-inbox/foundation-basic-conversion-and-standard-arithme...
 title: Foundation (basic conversion and standard arithmetic
 type: note

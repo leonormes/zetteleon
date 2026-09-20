@@ -1,8 +1,8 @@
 ---
 aliases: []
-created: 2025-08-12 08:15:09+00:00
+created: 2025-08-12T08:15:09+00:00
 last_reviewed: ''
-modified: 2026-09-09 12:34:14+00:00
+modified: 2026-09-19T15:44:40+00:00
 permalink: llmeon/30-library/100-zettelkasten/predisposition-to-low-risk-activities
 tags: []
 title: Predisposition to Low-Risk Activities

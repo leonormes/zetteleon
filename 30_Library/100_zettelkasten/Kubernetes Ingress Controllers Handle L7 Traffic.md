@@ -1,8 +1,8 @@
 ---
 aliases: [Ingress Controller]
-created: 2025-07-16 17:30:03+00:00
+created: 2025-07-16T17:30:03+00:00
 last_reviewed: 'null'
-modified: 2026-09-09 12:34:12+00:00
+modified: 2026-09-19T15:44:38+00:00
 permalink: llmeon/30-library/100-zettelkasten/kubernetes-ingress-controllers-handle-l7-traffic
 tags: [http, ingress, SoftwareEngineering/Kubernetes, SoftwareEngineering/Networking]
 title: Kubernetes Ingress Controllers Handle L7 Traffic

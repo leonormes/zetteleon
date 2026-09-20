@@ -2,7 +2,7 @@
 aliases: [24 Character Strengths, Character and Virtue MOC, Map of Content on Character, VIA Character Strengths]
 conformant: true
 created: 2025-07-16T17:30:02+00:00
-modified: 2026-09-06T18:10:29+00:00
+modified: 2026-09-19T15:45:11+00:00
 permalink: llmeon/30-library/mo-c/moc-character-and-virtue
 see_also: ["[[A Concept Map for a Flourishing Human]]", "[[SoT - Values and Eudaimonia]]", "[[The Concept of a Character Ideal]]"]
 tags: [character, ethics, TheHuman/Psychology, type/moc, virtue]
@@ -182,7 +182,7 @@ Individual strengths as they show up elsewhere in the vault, evidencing that the
 
 ## Tensions & Gaps
 
-- Two parallel strength vocabularies. [[Perseverance is Finishing What One Starts Despite Obstacles]] / [[Perseverance is Finishing What You Start Despite Difficulty]] and [[Self-Regulation is Disciplining One's Feelings and Appetites]] / [[Self-Regulation is Managing Your Emotions and Actions]] are near-duplicate pairs—the formal version and the child-facing version of the same strength. Merging them would break §5's readability; leaving them splits backlinks. The cheapest fix is aliasing rather than merging. **2026-09-15: done for the Perseverance pair**—their colliding `Perseverance` alias was deduplicated (each note now carries only its own distinguishing alias) and both notes now cross-link each other directly, explaining the formal/child-facing split so it reads as intentional rather than an unflagged duplicate. Self-Regulation pair still unresolved.
+- Two parallel strength vocabularies. [[Perseverance is Finishing What One Starts Despite Obstacles]] / [[Perseverance is Finishing What You Start Despite Difficulty]] and [[Self-Regulation is Disciplining One's Feelings and Appetites]] / [[Self-Regulation is Managing Your Emotions and Actions]] are near-duplicate pairs—the formal version and the child-facing version of the same strength. Merging them would break §5's readability; leaving them splits backlinks. The cheapest fix is aliasing rather than merging. 2026-09-15: done for the Perseverance pair—their colliding `Perseverance` alias was deduplicated (each note now carries only its own distinguishing alias) and both notes now cross-link each other directly, explaining the formal/child-facing split so it reads as intentional rather than an unflagged duplicate. Self-Regulation pair still unresolved.
 - VIA is a taxonomy, not a theory. It tells you what strengths exist and that they cluster; it does not explain how one is acquired or why the six virtues are the right cut. §1 (Aristotle) and §4 (habituation) are doing the explanatory work VIA does not do. Do not mistake the list's tidiness for a causal model.
 - The empirical status of the six-virtue structure is weaker than the map implies. The claim of cross-cultural universality is contested and the factor structure has not replicated cleanly. This map treats VIA as a _useful vocabulary_, not a validated ontology—consistent with the Utility-over-Truth axiom.
 - §6 contradicts §2 in tone if not in content. §2 supplies a vocabulary for naming what a person lacks; §6 says never use it that way. Both are correct, but the resolution is a discipline (prospective, not diagnostic) rather than a fact. The live `contradicts` edge between [[SoT - Bonhoeffer's Theory of Functional Stupidity]] and [[Binary Person-Judgement Is a Cognitive Default, Not a Character Flaw]] is the sharpest instance and remains open.

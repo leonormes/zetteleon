@@ -6,11 +6,9 @@ created: 2026-09-08T20:15:00+00:00
 created_utc: 2026-09-08 20:15:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-09T12:34:18+00:00
+modified: 2026-09-19T15:44:44+00:00
 permalink: llmeon/00-inbox/theory-support-comes-from-the-reliability-of-the-testing-procedure
-proposition: Godfrey-Smith holds that an observation supports a theory because of
-  the reliability of the procedure—such as randomised sampling or experimental intervention—in
-  which the observation was embedded, not from the observation in isolation.
+proposition: "Godfrey-Smith holds that an observation supports a theory because of the reliability of the procedure—such as randomised sampling or experimental intervention—in which the observation was embedded, not from the observation in isolation."
 source_title: David Deutsch and Peter Godfrey-Smith
 source_url: UNKNOWN
 status: seed

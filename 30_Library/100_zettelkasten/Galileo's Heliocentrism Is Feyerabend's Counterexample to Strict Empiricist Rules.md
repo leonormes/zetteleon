@@ -6,7 +6,7 @@ created: 2026-09-09T00:00:00+00:00
 created_utc: 2026-09-09 00:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-09T12:34:19+00:00
+modified: 2026-09-19T15:44:35+00:00
 permalink: llmeon/00-inbox/galileos-heliocentrism-is-feyerabends-counterexample-to-strict-empiricist-rules
 proposition: Feyerabend pointed out that if historical figures like Galileo had followed strict empiricist rules, they would have been forced to abandon their theories, because ordinary observations at the time heavily favoured an Earth-centred universe.
 source_title: "Philosophy of science: alternative positions beyond Deutsch vs Godfrey-Smith"

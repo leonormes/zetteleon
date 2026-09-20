@@ -1,16 +1,16 @@
 ---
 aliases: [Need for Physical Connection]
 conformant: true
-created: 2025-11-10 10:08:00+00:00
-modified: 2026-09-09 12:34:17+00:00
+contradicts: []
+created: 2025-11-10T10:08:00+00:00
+epistemic_status: medium
+evidence_links: []
+modified: 2026-09-19T15:44:44+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-need-for-physical-intimacy-and-affection-is-a-vital-form-of-connection
+proposition: Physical intimacy and affection are a vital form of connection and communication in a long-term partnership, extending beyond just sexual activity.
 tags: [affection, intimacy, needs, relationship]
 title: The Need for Physical Intimacy and Affection is a Vital Form of Connection
 type: claim
-proposition: Physical intimacy and affection are a vital form of connection and communication in a long-term partnership, extending beyond just sexual activity.
-epistemic_status: medium
-evidence_links: []
-contradicts: []
 ---
 
 ## The Need for Physical Intimacy and Affection is a Vital Form of Connection

@@ -1,16 +1,16 @@
 ---
 aliases: [Disrespectful Spending, Financial Infidelity]
 conformant: true
-created: 2025-11-10 10:15:00+00:00
-modified: 2026-09-09 12:34:10+00:00
+contradicts: []
+created: 2025-11-10T10:15:00+00:00
+epistemic_status: medium
+evidence_links: []
+modified: 2026-09-19T15:44:34+00:00
 permalink: llmeon/30-library/100-zettelkasten/disrespectful-spending-violates-shared-agreements-and-erodes-trust
+proposition: "Spending becomes disrespectful when one person's actions violate shared agreements and trust, such as by breaking spending rules, hiding purchases, or jeopardizing mutual goals."
 tags: [boundaries, finance, relationship, respect, trust]
 title: Disrespectful Spending Violates Shared Agreements and Erodes Trust
 type: claim
-proposition: Spending becomes disrespectful when one person's actions violate shared agreements and trust, such as by breaking spending rules, hiding purchases, or jeopardizing mutual goals.
-epistemic_status: medium
-evidence_links: []
-contradicts: []
 ---
 
 ## Disrespectful Spending Violates Shared Agreements and Erodes Trust

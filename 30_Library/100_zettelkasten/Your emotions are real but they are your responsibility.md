@@ -1,8 +1,8 @@
 ---
 aliases: []
-created: 2025-05-11 17:01:26+00:00
+created: 2025-05-11T17:01:26+00:00
 last_reviewed: ''
-modified: 2026-09-09 12:34:18+00:00
+modified: 2026-09-19T15:44:46+00:00
 permalink: llmeon/30-library/100-zettelkasten/your-emotions-are-real-but-they-are-your-responsibility
 tags: [agency, emotion, responsibility, validation]
 title: Your emotions are real but they are your responsibility

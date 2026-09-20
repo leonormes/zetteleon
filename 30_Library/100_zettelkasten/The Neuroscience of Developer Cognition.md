@@ -2,7 +2,7 @@
 aliases: []
 conformant: true
 created: 2025-05-26T20:23:10+00:00
-modified: 2026-09-09T12:34:17+00:00
+modified: 2026-09-19T15:44:44+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-neuroscience-of-developer-cognition
 tags: [cognition, neuroscience, software-engineering]
 title: The Neuroscience of Developer Cognition

@@ -1,22 +1,16 @@
 ---
-aliases:
-- Bottom-Up vs Top-Down
-- Emergent Structure
+aliases: [Bottom-Up vs Top-Down, Emergent Structure]
 conformant: true
 contradicts: []
-created: 2025-10-30 15:33:36+00:00
+created: 2025-10-30T15:33:36+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-09 12:34:08+00:00
+modified: 2026-09-19T15:44:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/bottom-up-organization-allows-emergent-structure
 prodos.kind: atomic
 prodos.lifecycle: active
 proposition: Unlike conventional systems that start with predefined hierarchies, organic knowledge architecture must emerge bottom-up from the relationships established between individual ideas.
-tags:
-- emergence
-- organization
-- topic/knowledge-architecture
-- topic/pkm
+tags: [emergence, organization, topic/knowledge-architecture, topic/pkm]
 title: Bottom-Up Organization Allows Emergent Structure
 type: claim
 ---

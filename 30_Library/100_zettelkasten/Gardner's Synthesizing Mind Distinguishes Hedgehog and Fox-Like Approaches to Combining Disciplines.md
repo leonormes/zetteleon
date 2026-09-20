@@ -2,7 +2,7 @@
 conformant: true
 created: 2026-09-14T12:09:33+00:00
 created_utc: '2026-09-14T00:00:00Z'
-modified: 2026-09-14T12:57:43+00:00
+modified: 2026-09-19T15:44:35+00:00
 permalink: llmeon/30-library/100-zettelkasten/gardners-synthesizing-mind-distinguishes-hedgehog-and-fox-like-approaches-to-combining-disciplines
 source_title: PKM Meta-Graph System Research
 source_url: https://www.sloww.co/synthesizing-mind-howard-gardner/

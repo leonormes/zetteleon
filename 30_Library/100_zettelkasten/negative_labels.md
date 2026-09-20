@@ -1,9 +1,9 @@
 ---
 aliases: []
-created: 2025-02-07 12:57:55+00:00
+created: 2025-02-07T12:57:55+00:00
 ID: negative_labels
 last_reviewed: ''
-modified: 2026-09-09 12:34:19+00:00
+modified: 2026-09-19T15:44:46+00:00
 permalink: llmeon/30-library/100-zettelkasten/negative-labels
 tags: [self]
 title: negative_labels

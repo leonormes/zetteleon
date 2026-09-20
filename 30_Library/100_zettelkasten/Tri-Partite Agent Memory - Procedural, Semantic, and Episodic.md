@@ -1,15 +1,15 @@
 ---
-created: 2026-07-28 00:00:00+00:00
+conformant: true
+contradicts: []
+created: 2026-07-28T00:00:00+00:00
 epistemic_status: high
-modified: 2026-09-09 12:34:18+00:00
+evidence_links: []
+modified: 2026-09-19T15:44:45+00:00
 permalink: llmeon/30-library/100-zettelkasten/tri-partite-agent-memory-procedural-semantic-and-episodic
 proposition: Autonomous agents require three distinct memory stores with different access patterns and retention policies. Procedural memory holds instructions (how-to guides). Semantic memory holds facts and context (via vector database + RAG). Episodic memory holds event logs. Each is optimized for different retrieval patterns and retention costs.
 tags: [domain/llm, topic/agent-architecture, topic/memory-systems, topic/persistent-memory]
 title: Tri-Partite Agent Memory - Procedural, Semantic, and Episodic
 type: claim
-contradicts: []
-evidence_links: []
-conformant: true
 ---
 
 ## Tri-Partite Agent Memory - Procedural, Semantic, and Episodic

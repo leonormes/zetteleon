@@ -1,16 +1,16 @@
 ---
 axiom: true
-created: 2026-07-28 00:00:00+00:00
+conformant: true
+contradicts: []
+created: 2026-07-28T00:00:00+00:00
 epistemic_status: medium
-modified: 2026-09-09 12:34:16+00:00
+evidence_links: []
+modified: 2026-09-19T15:44:43+00:00
 permalink: llmeon/30-library/100-zettelkasten/systematic-ai-clarifying-questions-surface-edge-cases-during-planning
 proposition: A planning step where the AI asks a battery of systematic clarifying 'questions (e.g. "can the start and end date be the same?", "are partial selections' 'valid?", "should users be able to clear the date?") surfaces edge cases a human' "wouldn't enumerate alone. This planning step only has value if the human deeply" "engages with and answers the questions themselves, rather than accepting the AI's" own suggested answers by default — accepting every suggestion negates the point of the exercise.
 tags: [domain/llm, topic/requirements-elicitation, topic/workflow-design]
 title: Systematic AI Clarifying Questions Surface Edge Cases During Planning
 type: claim
-contradicts: []
-evidence_links: []
-conformant: true
 ---
 
 ## Systematic AI Clarifying Questions Surface Edge Cases During Planning

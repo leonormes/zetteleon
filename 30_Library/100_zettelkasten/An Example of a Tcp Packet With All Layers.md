@@ -2,9 +2,11 @@
 aliases: [Packet Anatomy, TCP Packet Example]
 axiom: true
 conformant: true
-created: 2025-10-21 13:23:09+00:00
+contradicts: []
+created: 2025-10-21T13:23:09+00:00
 epistemic_status: high
-modified: 2026-09-14 11:35:45+00:00
+evidence_links: []
+modified: 2026-09-19T15:44:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/an-example-of-a-tcp-packet-with-all-layers
 prodos.kind: atomic
 prodos.lifecycle: stable
@@ -12,8 +14,6 @@ proposition: A TCP packet structurally encapsulates data through the OSI layersâ
 tags: [SoftwareEngineering/Networking]
 title: An Example of a Tcp Packet With All Layers
 type: claim
-contradicts: []
-evidence_links: []
 ---
 
 ## TCP Packet Layers & Headers

@@ -1,8 +1,7 @@
 ---
 type: tmp_atoms
 status: tmp
-source_title: Occam's razor (video summary — philosophical razors and the RISA framework
-  for productive disagreement)
+source_title: "Occam's razor (video summary — philosophical razors and the RISA framework for productive disagreement)"
 source_url: https://www.youtube.com/watch?v=gxglts0Sw5I
 captured_utc: '2026-09-14T00:00:00Z'
 signal_to_noise: 45% signal / 55% noise

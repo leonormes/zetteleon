@@ -1,7 +1,7 @@
 ---
 conformant: true
 created: 2026-09-16T00:00:00+00:00
-modified: 2026-09-16T07:14:23+00:00
+modified: 2026-09-19T15:45:03+00:00
 permalink: llmeon/30-library/200-projects/reading-plan-theory-and-reality-godfrey-smith
 tags: [philosophy-of-science, prodos/project, reading]
 title: Reading Plan — Theory and Reality (Godfrey-Smith)

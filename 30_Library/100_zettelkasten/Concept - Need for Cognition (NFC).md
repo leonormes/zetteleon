@@ -3,12 +3,11 @@ conformant: true
 contradicts: []
 created: 2026-08-13T10:47:42+00:00
 epistemic_status: high
-modified: 2026-09-09T12:34:09+00:00
+modified: 2026-09-19T15:44:33+00:00
 permalink: llmeon/30-library/100-zettelkasten/concept-need-for-cognition-nfc
 prodos.kind: atomic
 prodos.lifecycle: seed
-proposition: Need for Cognition is a stable personality dimension characterized by
-  the intrinsic enjoyment and seeking out of effortful thinking.
+proposition: "Need for Cognition is a stable personality dimension characterized by the intrinsic enjoyment and seeking out of effortful thinking."
 tags: [cognition, curiosity, personality, psychology]
 title: Concept - Need for Cognition (NFC)
 type: concept

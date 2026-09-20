@@ -6,7 +6,7 @@ contradicts: []
 created: 2025-11-01T20:31:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-09T12:34:17+00:00
+modified: 2026-09-19T15:44:43+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-comfort-of-motion-hinders-genuine-action
 proposition: "Motion (preparatory, busy-feeling activity) provides a sense of accomplishment without the discomfort of genuine action, and becomes a form of procrastination when it consistently substitutes for the more difficult, decisive steps a goal actually requires."
 tags: [comfort-zone, procrastination, TheHuman/Psychology, topic/productivity]

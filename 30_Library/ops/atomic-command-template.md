@@ -1,6 +1,6 @@
 ---
 created: 2026-02-14T09:00:02+00:00
-modified: 2026-08-29T09:36:46+00:00
+modified: 2026-09-19T15:45:30+00:00
 permalink: llmeon/30-library/ops/atomic-command-template-1
 title: atomic-command-template
 ---

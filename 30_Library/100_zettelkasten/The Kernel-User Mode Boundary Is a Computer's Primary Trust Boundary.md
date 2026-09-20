@@ -1,21 +1,22 @@
 ---
 conformant: true
-created: 2026-09-18 00:00:00+00:00
+contradicts: []
+created: 2026-09-18T00:00:00+00:00
 created_utc: 2026-09-18 00:00:00+00:00
-modified: 2026-09-18 00:00:00+00:00
+epistemic_status: high
+evidence_links: []
+modified: 2026-09-19T15:44:44+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-kernel-user-mode-boundary-is-a-computers-primary-trust-boundary
 prodos.atomic.form: claim
 prodos.kind: atomic
+proposition: "Operating systems enforce security through two distinct execution modes—a privileged kernel mode with full hardware access and a restricted user mode for applications—and the line between these two modes is the computer's primary trust boundary."
 source_title: Defining One Computer Concept
 status: seed
 tags: [computer-science, operating-systems, security]
-title: The Kernel-User Mode Boundary Is a Computer's Primary Trust Boundary
+title: "The Kernel-User Mode Boundary Is a Computer's Primary Trust Boundary"
 type: claim
-proposition: Operating systems enforce security through two distinct execution modes—a privileged kernel mode with full hardware access and a restricted user mode for applications—and the line between these two modes is the computer's primary trust boundary.
-epistemic_status: high
-evidence_links: []
-contradicts: []
 ---
+
 ## The Kernel-User Mode Boundary Is a Computer's Primary Trust Boundary
 
 Operating systems enforce security through two distinct execution modes: a privileged kernel mode with full, unrestricted hardware access, and a restricted user mode for applications. Because the system trusts kernel code far more than any user-space application, the line between these two modes is the computer's primary trust boundary—applications can only reach the kernel's resources by crossing it explicitly, via a system call.
@@ -26,7 +27,7 @@ Describes the privilege-level boundary within a single computer; distinct from n
 
 ### Evidence
 
-> "This is often achieved through distinct execution modes: a privileged kernel mode with full hardware access and a restricted user mode for applications... This user-kernel boundary also serves as a critical trust boundary, where the system inherently trusts the kernel code managing the hardware far more than the potentially unpredictable user applications."
+> "This is often achieved through distinct execution modes: a privileged kernel mode with full hardware access and a restricted user mode for applications… This user-kernel boundary also serves as a critical trust boundary, where the system inherently trusts the kernel code managing the hardware far more than the potentially unpredictable user applications."
 
 ### Implications
 

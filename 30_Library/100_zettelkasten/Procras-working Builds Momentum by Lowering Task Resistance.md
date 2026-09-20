@@ -1,8 +1,8 @@
 ---
 aliases: [Procras-working]
-created: 2025-10-29 16:31:10+00:00
+created: 2025-10-29T16:31:10+00:00
 last_reviewed: 'null'
-modified: 2026-09-09 12:34:15+00:00
+modified: 2026-09-19T15:44:41+00:00
 permalink: llmeon/30-library/100-zettelkasten/procras-working-builds-momentum-by-lowering-task-resistance
 status: seed
 tags: [momentum, procrastination, task-initiation, TheHuman/Health/ADHD, topic/productivity]

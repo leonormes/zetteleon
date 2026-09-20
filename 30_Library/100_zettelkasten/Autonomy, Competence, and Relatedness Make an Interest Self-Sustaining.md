@@ -2,7 +2,7 @@
 conformant: true
 created: 2026-09-14T11:40:49+00:00
 created_utc: '2026-09-14T00:00:00Z'
-modified: 2026-09-14T11:51:58+00:00
+modified: 2026-09-19T15:44:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/autonomy-competence-and-relatedness-make-an-interest-self-sustaining
 source_title: "What Drives a Person's Interests? Why Do Some People Love Maths and Logic and Others Not? Why Do Interests Come in Related Bundles?"
 source_url: https://selfdeterminationtheory.org/SDT/documents/2000_RyanDeci_SDT.pdf

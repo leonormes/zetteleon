@@ -5,12 +5,11 @@ contradicts: []
 created: 2025-12-07T00:00:00+00:00
 epistemic_status: low
 evidence_links: []
-modified: 2026-09-09T12:34:09+00:00
+modified: 2026-09-19T15:44:32+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/claim-thinking-that-cannot-name-its-resulting-action-is-procrastination
 position-date: 2026-08-29
-proposition: If you cannot name the single specific action a piece of thinking is
-  supposed to lead to, you are procrastinating.
+proposition: "If you cannot name the single specific action a piece of thinking is supposed to lead to, you are procrastinating."
 superseded_by: '[[Claim - Thinking Earns Its Place by Improving Model Fidelity]]'
 tags: [domain/pkm, prodos, retired-position, topic/productivity]
 title: Claim - Thinking That Cannot Name Its Resulting Action Is Procrastination

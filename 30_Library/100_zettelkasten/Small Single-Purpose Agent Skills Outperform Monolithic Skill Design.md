@@ -1,16 +1,16 @@
 ---
 axiom: true
-created: 2026-07-28 00:00:00+00:00
+conformant: true
+contradicts: []
+created: 2026-07-28T00:00:00+00:00
 epistemic_status: medium
-modified: 2026-09-09 12:34:16+00:00
+evidence_links: []
+modified: 2026-09-19T15:44:42+00:00
 permalink: llmeon/30-library/100-zettelkasten/small-single-purpose-agent-skills-outperform-monolithic-skill-design
 proposition: When building AI Developer Workflows, agent skills should be kept small and single-purpose, with deterministic code execution logic kept separate from the agent-invoked skill logic. Building one large, monolithic skill that tries to handle "an entire workflow's worth of responsibility is a design mistake to avoid from the" outset.
 tags: [1, domain/llm, topic/agent-architecture, topic/best-practice, topic/workflow-design]
 title: Small Single-Purpose Agent Skills Outperform Monolithic Skill Design
 type: claim
-contradicts: []
-evidence_links: []
-conformant: true
 ---
 
 ## Small Single-Purpose Agent Skills Outperform Monolithic Skill Design

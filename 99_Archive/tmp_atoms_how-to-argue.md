@@ -1,12 +1,10 @@
 ---
 type: tmp_atoms
 status: tmp
-source_title: 'How to Argue - Induction & Abduction: Crash Course Philosophy 3 (Hank
-  Green / CrashCourse, 22 Feb 2016)'
+source_title: "How to Argue - Induction & Abduction: Crash Course Philosophy 3 (Hank Green / CrashCourse, 22 Feb 2016)"
 source_url: https://youtu.be/-wrCpLJ1XAw
 captured_utc: '2026-09-14T00:00:00Z'
-signal_to_noise: 30% signal / 70% noise (most of the source duplicates existing vault
-  coverage or the Occam's razor batch atomised in the previous session)
+signal_to_noise: "30% signal / 70% noise (most of the source duplicates existing vault coverage or the Occam's razor batch atomised in the previous session)"
 permalink: llmeon/00-inbox/tmp-atoms-how-to-argue
 ---
 

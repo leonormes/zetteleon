@@ -2,19 +2,17 @@
 conformant: true
 created: 2026-09-18T00:00:00+00:00
 created_utc: 2026-09-18T00:00:00Z
-modified: 2026-09-18T00:00:00+00:00
+modified: 2026-09-19T15:44:37+00:00
 permalink: llmeon/30-library/100-zettelkasten/internal-buses-and-external-networks-differ-in-coupling-latency-management-and-power
 prodos.atomic.form: distinction
 prodos.kind: atomic
 source_title: Defining One Computer Concept
 status: seed
-tags:
-- computer-science
-- computer-architecture
-- distributed-systems
+tags: [computer-architecture, computer-science, distributed-systems]
 title: Internal Buses and External Networks Differ in Coupling, Latency, Management, and Power
 type: concept
 ---
+
 ## Internal Buses and External Networks Differ in Coupling, Latency, Management, and Power
 
 Internal buses (system, address, data, control) and external networks (Ethernet, Wi-Fi) aren't just "fast vs. slow" versions of the same thing—they differ across several independent dimensions: buses are tightly coupled, low-latency, centrally managed by the motherboard's chipset, give shared direct access to memory, and often carry power to connected components; networks are loosely coupled, higher-latency and variable-bandwidth, managed in a distributed fashion by NICs and switches/routers, communicate by message-passing rather than shared memory access, and carry no power.
@@ -25,7 +23,7 @@ Describes the physical/mechanistic dimensions distinguishing the two communicati
 
 ### Evidence
 
-> "Internal Buses... Tight Coupling... Low Latency & High Bandwidth... Centralized Management... Shared Resource Access... Power Provision... External Networks... Loose Coupling... Higher Latency & Variable Bandwidth... Distributed Management... Indirect Resource Access... No Power Provision."
+> "Internal Buses… Tight Coupling… Low Latency & High Bandwidth… Centralized Management… Shared Resource Access… Power Provision… External Networks… Loose Coupling… Higher Latency & Variable Bandwidth… Distributed Management… Indirect Resource Access… No Power Provision."
 
 ### Implications
 

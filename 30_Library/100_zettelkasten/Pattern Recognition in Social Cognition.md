@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-10-31T09:20:29+00:00
-modified: 2026-09-09T12:34:14+00:00
+modified: 2026-09-19T15:44:40+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/pattern-recognition-in-social-cognition
 tags: [topic/social-cognition, topic/social-perception]

@@ -1,8 +1,8 @@
 ---
 aliases: []
-created: 2025-10-30 16:30:00+00:00
+created: 2025-10-30T16:30:00+00:00
 last_reviewed: 'null'
-modified: 2026-08-29 09:36:31+00:00
+modified: 2026-09-19T15:45:13+00:00
 permalink: llmeon/30-library/mo-c/moc-why-autistics-and-adhders-need-routines
 see_also: []
 source: https://youtube.com/watch?v=M0QeofT0_qg

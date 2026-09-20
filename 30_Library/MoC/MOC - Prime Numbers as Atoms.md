@@ -1,8 +1,8 @@
 ---
 aliases: []
-created: 2025-08-19 23:30:13+00:00
+created: 2025-08-19T23:30:13+00:00
 last_reviewed: ''
-modified: 2026-08-29 09:36:31+00:00
+modified: 2026-09-19T15:45:12+00:00
 permalink: llmeon/30-library/mo-c/moc-prime-numbers-as-atoms
 tags: []
 title: MOC - Prime Numbers as Atoms

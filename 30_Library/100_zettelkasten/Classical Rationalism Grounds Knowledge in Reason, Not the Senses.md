@@ -6,7 +6,7 @@ created: 2026-09-09T00:00:00+00:00
 created_utc: 2026-09-09 00:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-09T12:34:19+00:00
+modified: 2026-09-19T15:44:32+00:00
 permalink: llmeon/00-inbox/classical-rationalism-grounds-knowledge-in-reason-not-the-senses
 proposition: Rationalists such as Descartes and Plato hold that the senses are deceptive and that true knowledge comes from pure reasoning, logic, and innate ideas rather than observation.
 source_title: "Philosophy of science: alternative positions beyond Deutsch vs Godfrey-Smith"

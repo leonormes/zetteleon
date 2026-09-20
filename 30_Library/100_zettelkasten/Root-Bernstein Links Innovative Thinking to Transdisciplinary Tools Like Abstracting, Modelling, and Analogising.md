@@ -1,9 +1,13 @@
 ---
 conformant: true
-created: 2026-09-14 12:09:37+00:00
+contradicts: []
+created: 2026-09-14T12:09:37+00:00
 created_utc: '2026-09-14T00:00:00Z'
-modified: 2026-09-17 20:45:05+00:00
+epistemic_status: high
+evidence_links: []
+modified: 2026-09-19T15:44:42+00:00
 permalink: llmeon/30-library/100-zettelkasten/root-bernstein-links-innovative-thinking-to-transdisciplinary-tools-like-abstracting-modelling-and-analogising
+proposition: Robert Root-Bernstein's research on polymathy argues the most innovative thinkers are often "artistic scientists and scientific artists" who use transdisciplinary thinking tools—abstracting, modelling, and analogising—to translate insight from one domain into another.
 source_title: PKM Meta-Graph System Research
 source_url: https://www.researchgate.net/publication/232558153_Artistic_Scientists_and_Scientific_Artists_The_Link_Between_Polymathy_and_Creativity
 status: seed
@@ -11,10 +15,6 @@ tags: [domain/pkm, TheHuman/Cognition, topic/creativity, topic/polymathy]
 title: Root-Bernstein Links Innovative Thinking to Transdisciplinary Tools Like Abstracting, Modelling, and Analogising
 type: claim
 upstream: '[[PKM Meta-Graph System Research]]'
-proposition: Robert Root-Bernstein's research on polymathy argues the most innovative thinkers are often "artistic scientists and scientific artists" who use transdisciplinary thinking tools—abstracting, modelling, and analogising—to translate insight from one domain into another.
-epistemic_status: high
-evidence_links: []
-contradicts: []
 ---
 
 ## Root-Bernstein Links Innovative Thinking to Transdisciplinary Tools Like Abstracting, Modelling, and Analogising

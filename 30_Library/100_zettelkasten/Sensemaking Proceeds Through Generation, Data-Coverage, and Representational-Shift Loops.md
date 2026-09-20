@@ -1,9 +1,13 @@
 ---
 conformant: true
-created: 2026-09-13 09:33:43+00:00
+contradicts: []
+created: 2026-09-13T09:33:43+00:00
 created_utc: '2026-09-13T00:00:00Z'
-modified: 2026-09-13 09:36:16+00:00
+epistemic_status: high
+evidence_links: []
+modified: 2026-09-19T15:44:42+00:00
 permalink: llmeon/00-inbox/sensemaking-proceeds-through-generation-data-coverage-and-representational-shift-loops
+proposition: 'Daniel Russell''s sensemaking model describes three learning loops: the Generation Loop (searching for an initial representation or schema), the Data Coverage Loop (encoding collected data into that schema), and the Representational Shift Loop (discovering ill-fitting or missing data that forces categories to be split, merged, or discarded).'
 source_title: A Portable Interest and PKM Knowledge Graph
 source_url: UNKNOWN
 status: seed
@@ -11,10 +15,6 @@ tags: [pkm, representational-shift, russell, sensemaking]
 title: Sensemaking Proceeds Through Generation, Data-Coverage, and Representational-Shift Loops
 type: claim
 upstream: '[[PKM Meta-Graph System Research]]'
-proposition: 'Daniel Russell''s sensemaking model describes three learning loops: the Generation Loop (searching for an initial representation or schema), the Data Coverage Loop (encoding collected data into that schema), and the Representational Shift Loop (discovering ill-fitting or missing data that forces categories to be split, merged, or discarded).'
-epistemic_status: high
-evidence_links: []
-contradicts: []
 ---
 
 ## Sensemaking Proceeds Through Generation, Data-Coverage, and Representational-Shift Loops

@@ -3,7 +3,7 @@ aliases: []
 conformant: true
 created: 2026-04-14T20:54:42+00:00
 created_utc: '2026-04-14T14:20:00Z'
-modified: 2026-09-09T12:34:09+00:00
+modified: 2026-09-19T15:44:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/cognitive-firewalls
 source_title: Why Is AI Making My Job Worse?
 source_url: http://www.youtube.com/watch?v=NDyuJcR2GH4

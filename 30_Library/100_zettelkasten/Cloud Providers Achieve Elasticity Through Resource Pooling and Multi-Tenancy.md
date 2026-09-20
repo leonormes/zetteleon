@@ -1,21 +1,22 @@
 ---
 conformant: true
-created: 2026-09-18 00:00:00+00:00
+contradicts: []
+created: 2026-09-18T00:00:00+00:00
 created_utc: 2026-09-18 00:00:00+00:00
-modified: 2026-09-18 00:00:00+00:00
+epistemic_status: high
+evidence_links: []
+modified: 2026-09-19T15:44:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/cloud-providers-achieve-elasticity-through-resource-pooling-and-multi-tenancy
 prodos.atomic.form: mechanism
 prodos.kind: atomic
+proposition: Cloud providers achieve elasticity and cost-effectiveness by operating large pools of physical resources and dynamically allocating them across multiple customers (multi-tenancy) as demand changes, usually without the customer knowing the specific physical location or hardware involved.
 source_title: Defining One Computer Concept
 status: seed
-tags: [computer-science, cloud, distributed-systems]
+tags: [cloud, computer-science, distributed-systems]
 title: Cloud Providers Achieve Elasticity Through Resource Pooling and Multi-Tenancy
 type: claim
-proposition: Cloud providers achieve elasticity and cost-effectiveness by operating large pools of physical resources and dynamically allocating them across multiple customers (multi-tenancy) as demand changes, usually without the customer knowing the specific physical location or hardware involved.
-epistemic_status: high
-evidence_links: []
-contradicts: []
 ---
+
 ## Cloud Providers Achieve Elasticity Through Resource Pooling and Multi-Tenancy
 
 Cloud providers operate large data centers with vast pools of physical resources—servers, storage, network equipment—that are virtualised and dynamically allocated across multiple customers (multi-tenancy) as demand changes, usually without the customer knowing the specific physical location or hardware involved. This pooling and dynamic allocation is the underlying mechanism that makes cloud elasticity and cost-effectiveness possible.

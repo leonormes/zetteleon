@@ -1,8 +1,8 @@
 ---
 aliases: []
-created: 2025-08-29 15:20:57+00:00
+created: 2025-08-29T15:20:57+00:00
 last_reviewed: ''
-modified: 2026-09-09 12:34:08+00:00
+modified: 2026-09-19T15:44:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/breaking-free-from-flawed-models
 tags: [TheHuman/Cognition]
 title: Breaking Free from Flawed Models

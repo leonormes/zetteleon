@@ -2,12 +2,9 @@
 aliases: []
 conformant: true
 created: 2025-10-26T11:15:00+00:00
-modified: 2026-09-18T00:00:00+00:00
+modified: 2026-09-19T15:44:34+00:00
 permalink: llmeon/30-library/100-zettelkasten/emotional-regulation-techniques-for-adhd-productivity
-tags:
-- emotional-regulation
-- TheHuman/Health/ADHD
-- topic/productivity
+tags: [emotional-regulation, TheHuman/Health/ADHD, topic/productivity]
 title: Emotional Regulation Techniques for ADHD Productivity
 type: procedure
 ---

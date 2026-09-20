@@ -2,7 +2,7 @@
 conformant: true
 created: 2026-09-18T00:00:00+00:00
 created_utc: 2026-09-18T00:00:00Z
-modified: 2026-09-18T09:49:48+00:00
+modified: 2026-09-19T15:44:41+00:00
 permalink: llmeon/30-library/100-zettelkasten/ram-is-volatile-working-memory-while-storage-is-non-volatile-persistent-memory
 prodos.atomic.form: distinction
 prodos.kind: atomic

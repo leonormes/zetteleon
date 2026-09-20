@@ -2,16 +2,16 @@
 aliases: []
 axiom: true
 conformant: true
-created: 2026-08-03 00:00:00+01:00
+contradicts: []
+created: 2026-08-02T23:00:00+00:00
 epistemic_status: high
-modified: 2026-09-09 12:34:12+00:00
+evidence_links: []
+modified: 2026-09-19T15:44:37+00:00
 permalink: llmeon/30-library/100-zettelkasten/intellectual-growth-is-non-rivalrous-but-educational-credentials-are-positional
-proposition: One person's understanding does not diminish another's, so intellectual life is non-zero-sum; credentials by contrast are positional goods whose value depends on others not holding them, which is what converts institutional learning into zero-sum competition.
+proposition: "One person's understanding does not diminish another's, so intellectual life is non-zero-sum; credentials by contrast are positional goods whose value depends on others not holding them, which is what converts institutional learning into zero-sum competition."
 tags: [economics, status, TheHuman/Philosophy, topic/education]
 title: Intellectual Growth Is Non-Rivalrous but Educational Credentials Are Positional
 type: claim
-contradicts: []
-evidence_links: []
 ---
 
 Two goods are being conflated under one word. Understanding is non-rivalrous: my grasp of a proof does not consume any of yours, and a population in which everyone understands more is straightforwardly better off. A credential is positional by construction: a degree signals rank, and rank is defined relationally. If everyone has a first-class degree, no one does.

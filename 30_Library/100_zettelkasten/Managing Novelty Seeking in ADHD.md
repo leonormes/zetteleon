@@ -1,17 +1,14 @@
 ---
-created: 2025-10-25T14:24:00+00:00
-modified: 2026-09-18T13:24:24+01:00
-permalink: llmeon/30-library/100-zettelkasten/managing-novelty-seeking-in-adhd
-tags:
-  - self-management
-  - TheHuman/Health/ADHD
-  - topic/productivity
-title: Managing Novelty Seeking in ADHD
-type: concept
 conformant: true
-non_conformance_reason: 
+created: 2025-10-25T14:24:00+00:00
 definition: Strategies for managing and channeling the ADHD drive for novelty into productive outcomes.
 distinguishes_from: []
+modified: 2026-09-19T15:44:38+00:00
+non_conformance_reason: 
+permalink: llmeon/30-library/100-zettelkasten/managing-novelty-seeking-in-adhd
+tags: [self-management, TheHuman/Health/ADHD, topic/productivity]
+title: Managing Novelty Seeking in ADHD
+type: concept
 used_in_claims: []
 ---
 
@@ -25,6 +22,6 @@ Understanding the drive for [[MOC - Novelty Seeking]] is the first step toward m
 
 ## Related
 
-- [extends:: [[Claim - Novelty-craving drives self-defeating system-hopping]]] — *Offers practical strategies to counter the system-hopping driven by novelty craving.*
-- [[SoT - The Interest-Based Nervous System in ADHD]] — *Provides the foundational neurobiological context for why novelty seeking is so powerful in ADHD.*
-- [[SoT - ADHD Management Protocols]] — *Offers broader protocols for structuring tasks and environments to accommodate ADHD traits.*
+- [extends:: [[Claim - Novelty-craving drives self-defeating system-hopping]]]—_Offers practical strategies to counter the system-hopping driven by novelty craving._
+- [[SoT - The Interest-Based Nervous System in ADHD]]—_Provides the foundational neurobiological context for why novelty seeking is so powerful in ADHD._
+- [[SoT - ADHD Management Protocols]]—_Offers broader protocols for structuring tasks and environments to accommodate ADHD traits._

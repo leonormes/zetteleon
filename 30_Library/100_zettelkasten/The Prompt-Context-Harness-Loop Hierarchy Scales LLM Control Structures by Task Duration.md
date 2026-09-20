@@ -2,10 +2,10 @@
 aliases: []
 conformant: true
 contradicts: []
-created: 2026-07-28 09:51:49+00:00
+created: 2026-07-28T09:51:49+00:00
 epistemic_status: medium
 evidence_links: []
-modified: '2026-09-18T00:00:00+00:00'
+modified: 2026-09-19T15:44:44+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-prompt-context-harness-loop-hierarchy-scales-llm-control-structures-by-task-duration
 proposition: 'LLM control structures form a four-stage hierarchy, each stage solving for a longer task duration than the last: Prompt Engineering (static human instruction, single turn), Context Engineering (agent retrieves external data to populate its own context, works for short-duration tasks), Harness Engineering (external state management for complex multi-step tasks, prevents context degradation over prolonged runtimes), and Loop Engineering (removes the human from initiation entirely, system self-prompts on schedules or events). Each stage is a response to the previous stage''s control structure breaking down as task duration and complexity increase.'
 tags: [domain/llm, topic/agent-architecture, topic/context-management, topic/taxonomy]

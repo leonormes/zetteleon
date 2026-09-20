@@ -1,9 +1,9 @@
 ---
 aliases: []
 conformant: true
-created: 2025-05-28 18:46:40+00:00
+created: 2025-05-28T18:46:40+00:00
 last_reviewed: ''
-modified: 2026-09-14 11:35:53+00:00
+modified: 2026-09-19T15:44:41+00:00
 permalink: llmeon/30-library/100-zettelkasten/putting-it-all-together-example-workflow
 tags: [example, execution, motivation, prodos, task-management]
 title: Putting It All Together Example Workflow

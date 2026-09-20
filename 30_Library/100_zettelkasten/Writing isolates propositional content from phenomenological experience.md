@@ -2,7 +2,7 @@
 aliases: [externalization effect, writing strips phenomenology]
 conformant: false
 created: 2025-10-31T20:46:00+00:00
-modified: 2026-09-09T12:34:18+00:00
+modified: 2026-09-19T15:44:46+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/writing-isolates-propositional-content-from-phenomenological-experience
 tags: [metacognition, TheHuman/Cognition, writing]

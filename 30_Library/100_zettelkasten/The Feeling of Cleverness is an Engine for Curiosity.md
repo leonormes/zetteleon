@@ -1,8 +1,8 @@
 ---
 aliases: []
-created: 2025-08-27 19:18:03+00:00
+created: 2025-08-27T19:18:03+00:00
 last_reviewed: 'null'
-modified: 2026-09-09 12:34:17+00:00
+modified: 2026-09-19T15:44:44+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-feeling-of-cleverness-is-an-engine-for-curiosity
 tags: [curiosity, TheHuman/Mindset, TheHuman/Psychology, topic/learning]
 title: The Feeling of Cleverness is an Engine for Curiosity

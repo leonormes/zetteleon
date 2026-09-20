@@ -1,20 +1,20 @@
 ---
 aliases: [Importance-Based Nervous System, Neurotypical Motivation]
 axiom: true
-created: 2025-07-16 17:30:01+00:00
+conformant: true
+contradicts: []
+created: 2025-07-16T17:30:01+00:00
+epistemic_status: high
+evidence_links: []
 last_reviewed: 'null'
-modified: 2026-09-09 12:34:14+00:00
+modified: 2026-09-19T15:44:39+00:00
 permalink: llmeon/30-library/100-zettelkasten/neurotypical-motivation-is-primarily-importance-driven
+proposition: 'In contrast to the ADHD brain, the neurotypical brain operates on an "importance-based" nervous system: while still responsive to interest, it can also initiate tasks based on abstract factors like responsibility, social expectations, or long-term benefits, even if the task itself is not engaging.'
 status: seed
 tags: [importance, neurotypical, TheHuman/Health/ADHD, TheHuman/Motivation]
 title: Neurotypical motivation is primarily importance-driven
 type: claim
 updated: null
-proposition: 'In contrast to the ADHD brain, the neurotypical brain operates on an "importance-based" nervous system: while still responsive to interest, it can also initiate tasks based on abstract factors like responsibility, social expectations, or long-term benefits, even if the task itself is not engaging.'
-epistemic_status: high
-evidence_links: []
-contradicts: []
-conformant: true
 ---
 
 In contrast to the ADHD brain, the neurotypical brain operates on an "importance-based" model. While still responsive to interest, it can also initiate tasks based on abstract factors like responsibility, social expectations, or long-term benefits, even if the task itself is not engaging.

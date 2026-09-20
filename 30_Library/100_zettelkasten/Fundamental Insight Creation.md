@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2024-03-30T00:00:00+00:00
-modified: 2026-09-09T12:34:11+00:00
+modified: 2026-09-19T15:44:35+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/fundamental-insight-creation
 tags: [insight, topic/pkm, topic/pkm/zettelkasten]

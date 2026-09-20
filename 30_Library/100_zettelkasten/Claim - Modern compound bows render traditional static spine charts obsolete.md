@@ -4,11 +4,9 @@ contradicts: []
 created: 2026-08-27T09:45:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-09T12:34:09+00:00
+modified: 2026-09-19T15:44:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/claim-modern-compound-bows-render-traditional-static-spine-charts-obsolete
-proposition: Modern compound bows with hyper-adjustable cam and limb systems have
-  decoupled the arrow from traditional static spine limitations, making stiffer arrows
-  inherently better.
+proposition: "Modern compound bows with hyper-adjustable cam and limb systems have decoupled the arrow from traditional static spine limitations, making stiffer arrows inherently better."
 tags: [claim, domain/archery, topic/equipment]
 title: Claim - Modern compound bows render traditional static spine charts obsolete
 type: claim

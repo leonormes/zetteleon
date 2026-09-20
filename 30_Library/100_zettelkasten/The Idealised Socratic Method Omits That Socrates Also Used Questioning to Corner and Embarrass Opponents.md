@@ -1,11 +1,15 @@
 ---
 conformant: true
-created: 2026-09-14 15:14:53+00:00
+contradicts: []
+created: 2026-09-14T15:14:53+00:00
 created_utc: '2026-09-14T00:00:00Z'
-modified: 2026-09-14 20:14:09+00:00
+epistemic_status: medium
+evidence_links: []
+modified: 2026-09-19T15:44:44+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-idealised-socratic-method-omits-that-socrates-also-used-questioning-to-corner-and-embarrass-opponents
 prodos.kind: atomic
 prodos.lifecycle: seed
+proposition: Popular presentations of the Socratic method as pure, collaborative truth-seeking omit the historical reality that Socrates himself often used relentless questioning to deliberately corner, confuse, and embarrass his interlocutors, not only to jointly approach truth.
 source_title: 'How to Argue - Induction & Abduction: Crash Course Philosophy 3'
 source_url: https://youtu.be/-wrCpLJ1XAw
 status: seed
@@ -13,10 +17,6 @@ tags: [domain/pkm, topic/argumentation, topic/critical-thinking, topic/history-o
 title: The Idealised Socratic Method Omits That Socrates Also Used Questioning to Corner and Embarrass Opponents
 type: claim
 upstream: '[[tmp_atoms_how-to-argue]]'
-proposition: Popular presentations of the Socratic method as pure, collaborative truth-seeking omit the historical reality that Socrates himself often used relentless questioning to deliberately corner, confuse, and embarrass his interlocutors, not only to jointly approach truth.
-epistemic_status: medium
-evidence_links: []
-contradicts: []
 ---
 
 ## The Idealised Socratic Method Omits That Socrates Also Used Questioning to Corner and Embarrass Opponents

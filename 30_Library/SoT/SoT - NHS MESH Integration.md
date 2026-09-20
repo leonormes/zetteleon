@@ -1,9 +1,9 @@
 ---
 aliases: [MESH Integration, NHS Digital Networking, NHS Mailbox]
 conformant: false
-created: 2025-12-10 13:06:37+00:00
+created: 2025-12-10T13:06:37+00:00
 last_reviewed: '2026-03-28'
-modified: 2026-08-29 09:36:40+00:00
+modified: 2026-09-19T15:45:23+00:00
 non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/so-t/so-t-nhs-mesh-integration
 status: seed

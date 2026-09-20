@@ -2,9 +2,11 @@
 aliases: []
 axiom: true
 conformant: true
-created: 2025-11-10 14:01:00+00:00
+contradicts: []
+created: 2025-11-10T14:01:00+00:00
 epistemic_status: high
-modified: 2026-09-09 12:34:17+00:00
+evidence_links: []
+modified: 2026-09-19T15:44:43+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-core-principles-of-time-blocking-are-proactive-planning-single-tasking-and-visual-schedule-integration
 prodos.kind: atomic
 prodos.lifecycle: stable
@@ -12,8 +14,6 @@ proposition: The effectiveness of time blocking rests on three core principlesâ€
 tags: [principles, time-blocking, time-management, topic/productivity]
 title: The Core Principles of Time Blocking are Proactive Planning Single-Tasking and Visual Schedule Integration
 type: claim
-contradicts: []
-evidence_links: []
 ---
 
 ## The Core Principles of Time Blocking Are Proactive Planning Single-Tasking and Visual Schedule Integration

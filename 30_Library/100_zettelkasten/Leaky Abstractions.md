@@ -1,8 +1,8 @@
 ---
 aliases: []
-created: 2025-08-29 15:13:40+00:00
+created: 2025-08-29T15:13:40+00:00
 last_reviewed: ''
-modified: 2026-09-09 12:34:13+00:00
+modified: 2026-09-19T15:44:38+00:00
 permalink: llmeon/30-library/100-zettelkasten/leaky-abstractions
 tags: []
 title: Leaky Abstractions

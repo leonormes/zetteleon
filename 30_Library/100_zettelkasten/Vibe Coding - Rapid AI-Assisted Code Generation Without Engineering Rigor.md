@@ -1,15 +1,15 @@
 ---
-created: 2026-07-28 07:51:28+00:00
+conformant: true
+contradicts: []
+created: 2026-07-28T07:51:28+00:00
 epistemic_status: high
-modified: 2026-09-09 12:34:18+00:00
+evidence_links: []
+modified: 2026-09-19T15:44:45+00:00
 permalink: llmeon/30-library/100-zettelkasten/vibe-coding-rapid-ai-assisted-code-generation-without-engineering-rigor
 proposition: '"Vibe Coding" is the practice of using LLMs to rapidly generate entire applications (entire payroll systems in 30 minutes) by prompting the model to write code, bypassing traditional planning, architecture, and review phases. It prioritizes speed of generation over production readiness.'
 tags: [domain/llm, topic/agent-architecture, topic/code-generation, topic/software-engineering, topic/vibe-coding]
 title: Vibe Coding - Rapid AI-Assisted Code Generation Without Engineering Rigor
 type: claim
-contradicts: []
-evidence_links: []
-conformant: true
 ---
 
 ## Vibe Coding - Rapid AI-Assisted Code Generation Without Engineering Rigor

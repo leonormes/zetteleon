@@ -1,16 +1,16 @@
 ---
 aliases: []
 conformant: true
-created: 2026-08-03 00:00:00+01:00
+contradicts: []
+created: 2026-08-02T23:00:00+00:00
 epistemic_status: high
-modified: 2026-09-09 12:34:09+00:00
+evidence_links: []
+modified: 2026-09-19T15:44:33+00:00
 permalink: llmeon/30-library/100-zettelkasten/comprehension-requires-passing-through-a-period-of-disorientation
 proposition: Genuine learning proceeds through cognitive disorientation and sustained uncertainty; the confusion is the mechanism by which existing schemas are restructured, not a symptom of failing to learn.
 tags: [learning, mental_models, TheHuman/Cognition, topic/education]
 title: Comprehension Requires Passing Through a Period of Disorientation
 type: claim
-contradicts: []
-evidence_links: []
 ---
 
 The felt sense of not understanding is routinely read as evidence that learning is going badly. On the schema-restructuring account it is the opposite: the discomfort _is_ the old model being dismantled, and no restructuring happens without it. A learner who never feels disoriented has been assimilating new facts into an unchanged schema—which is accumulation, not comprehension.

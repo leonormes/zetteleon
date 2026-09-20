@@ -1,8 +1,8 @@
 ---
 aliases: []
-created: 2025-08-27 19:18:49+00:00
+created: 2025-08-27T19:18:49+00:00
 last_reviewed: 'null'
-modified: 2026-09-09 12:34:17+00:00
+modified: 2026-09-19T15:44:44+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-distinction-between-appreciation-and-creation
 tags: [TheHuman/Creativity, TheHuman/Mindset, topic/learning, topic/philosophy]
 title: The Distinction Between Appreciation and Creation

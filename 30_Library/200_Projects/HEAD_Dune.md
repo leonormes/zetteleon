@@ -1,7 +1,7 @@
 ---
 captured: 2026-09-16T13:52:52+00:00 2026-09-16T13:52:52+00:00
-created: 2026-09-16 13:53:03+00:00
-modified: 2026-09-16 22:04:57+00:00
+created: 2026-09-16T13:53:03+00:00
+modified: 2026-09-19T15:45:00+00:00
 permalink: llmeon/00-inbox/head-dune-1
 source: https://gemini.google.com/app/c0ae5537e38c151c
 status: draft

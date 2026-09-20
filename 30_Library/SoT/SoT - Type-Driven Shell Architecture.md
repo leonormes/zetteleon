@@ -1,9 +1,9 @@
 ---
 aliases: [Shell Scripting Patterns, Shell Type Safety, Unix Philosophy]
 conformant: false
-created: 2025-12-13 00:00:00+00:00
+created: 2025-12-13T00:00:00+00:00
 last_reviewed: '2026-03-28'
-modified: 2026-08-29 09:36:44+00:00
+modified: 2026-09-19T15:45:28+00:00
 non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/so-t/so-t-type-driven-shell-architecture
 status: seed

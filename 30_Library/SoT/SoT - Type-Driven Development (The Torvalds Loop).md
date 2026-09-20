@@ -1,9 +1,8 @@
 ---
 aliases: ["Parse Don't Validate", Data-Centric Programming, The Torvalds Loop, Type-Driven Design, Type-First Development, Typestate Pattern]
-conformant: false
+conformant: true
 created: 2025-12-29T10:28:01+00:00
-modified: 2026-08-29T09:36:44+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+modified: 2026-09-19T16:10:00+00:00
 permalink: llmeon/30-library/so-t/so-t-type-driven-development-the-torvalds-loop
 source_of_truth: true
 tags: [design-patterns, programming, rust, SoftwareEngineering/Architecture, TheHuman/Philosophy, type_theory]
@@ -18,7 +17,7 @@ This protocol is the Methodological Implementation of the broader Data-Centric p
 - The Axiom (Physics): [[SoT - Data-Oriented Design]]—_Structure is truth; Code is a derivative._
 - The Logic (Proofs): [[SoT - The Curry-Howard Correspondence (Propositions as Types)]]—_A program is a proof; a type is a proposition._
 - The Theory (Math): [[MOC - Type Theory]]—_Using Category Theory (Sum/Product types) to model that structure rigorously._
-- The Practice (Method): [[SoT - Type-Driven Development (The Torvalds Loop)]]—_The strict 4-phase protocol to execute the design._
+- The Practice (Method): **SoT - Type-Driven Development (The Torvalds Loop)** (this note)—_The strict 4-phase protocol to execute the design._
 
 ---
 
@@ -26,6 +25,12 @@ This protocol is the Methodological Implementation of the broader Data-Centric p
 
 > [!quote] Linus Torvalds
 > "Bad programmers worry about the code. Good programmers worry about data structures and their relationships."
+
+[[Smart Data Structures Yield Trivial Code (Torvalds' Maxim, Corrected Sourcing)]] [contradicts:: [[Smart Data Structures Yield Trivial Code (Torvalds' Maxim, Corrected Sourcing)]]]—_this line traces to a 2006 git mailing-list footnote about interoperable data formats, not a general programming essay._
+[[Corrected Quote Lineage - Brooks, Pike, Raymond, Torvalds (Fold Knowledge Into Data)]] [contradicts:: [[Corrected Quote Lineage - Brooks, Pike, Raymond, Torvalds (Fold Knowledge Into Data)]]]—_the adjacent "smart structures / dumb code" framing is Raymond's Rule of Representation via Brooks and Pike, not an independent Torvalds coinage._
+
+> [!warning] Boundary Condition
+> [[The Right Data Structure, Not a Smart One, Is Pike's Actual Rule]]—_Pike's own Rule 4 asks for the right data structure, not a maximally clever one; over-engineered types and deep class hierarchies are themselves a form of accidental complexity, so this mandate is not unconditional license to maximise structural cleverness._
 
 The fundamental principle of this system is to move from [[SoT - Stringly Typed vs Strongly Typed|Stringly Typed]] logic (Bash/Go/JS) to "Type-Driven" architecture (Rust). We reject the entropy of defensive coding and instead Make Invalid States Physically Unrepresentable.
 
@@ -49,10 +54,14 @@ In this protocol, Logic is the _last_ consideration. We prioritize the physical 
 > [!definition] Parse, Don't Validate
 > A design philosophy (coined by Alexis King) stating that we should Parse incoming data (transforming it into a structural Type that preserves the check) rather than just Validating it (checking a property and discarding the proof).
 
+[[Parse, Don't Validate - Validation Is Lossy, Parsing Is Constructive]] [synthesizes:: [[Parse, Don't Validate - Validation Is Lossy, Parsing Is Constructive]]]—_the atomic-note statement of this same pattern: validation discards the proof it computed, parsing returns a distinct, more-refined output type._
+
 - Validation: checks `is_email(string) -> bool`. The output is still just a `string`. You have to check it again later.
 - Parsing: checks `parse_email(string) -> Result<Email, Error>`. The output is an `Email` type. The existence of the instance _proves_ validity to the compiler.
 
 ### The Problem: "Shotgun Parsing"
+
+[[Shotgun Parsing Scatters Validation Logic Through Execution Logic]] [synthesizes:: [[Shotgun Parsing Scatters Validation Logic Through Execution Logic]]]—_the general anti-pattern this section names: ad-hoc validation checks scattered through execution logic instead of concentrated at a parse boundary._
 
 When we rely on validation, we fall into the trap of Shotgun Parsing: checking data integrity ad-hoc, everywhere in the codebase.
 
@@ -61,6 +70,8 @@ When we rely on validation, we fall into the trap of Shotgun Parsing: checking d
 - Boolean Blindness: The boolean result (`true`) doesn't carry _why_ it's valid or _what_ invariants are guaranteed.
 
 ### Example: The Non-Empty List
+
+[[Making Illegal States Unrepresentable via Types (NonEmpty List Example)]] [implements:: [[Making Illegal States Unrepresentable via Types (NonEmpty List Example)]]]—_the general principle this worked example demonstrates: making emptiness structurally unrepresentable removes the need for control flow to guard against it._
 
 Validation Approach (Bad):
 
@@ -125,7 +136,7 @@ Logic, Code, and Category Theory are isomorphic. This provides a rigorous founda
 - Boolean Blindness: Using `bool` flags (e.g., `isBitnami`) to switch behavior.
     - _Fix:_ Use a Sum Type (`enum Vendor { Bitnami, Community }`).
 - Primitive Obsession: Passing raw `String` or `Int` values for semantic concepts.
-    - _Fix:_ Use NewTypes (`struct Version(String)`).
+    - _Fix:_ Use NewTypes (`struct Version(String)`). See [[Primitive Obsession Forces Validation Into Control Flow, Value Objects Absorb It Into Structure]] [implements:: [[Primitive Obsession Forces Validation Into Control Flow, Value Objects Absorb It Into Structure]]]—_a smart constructor enforces the constraint once, at construction, instead of at every call site._
 - Zombie States: Memory layouts where flags and data are decoupled (e.g., `isBuilt` flag + `artifact` field).
     - _Fix:_ Move the artifact into the `Built` variant of a `State` enum.
 
@@ -147,6 +158,7 @@ Logic, Code, and Category Theory are isomorphic. This provides a rigorous founda
 1. Data First: If the `struct` allows an invalid state, the architecture is broken.
 2. Exhaustiveness: Use Enums for state; use the compiler to ensure every state is handled.
 3. Mechanical Sympathy: Respect how the CPU sees your data (contiguity vs. indirection).
+4. Cost, Not Just Location: [[Moving a Constraint Into a Type Is Cost Amortisation, Not a Zero-Sum Transfer]] [extends:: [[Moving a Constraint Into a Type Is Cost Amortisation, Not a Zero-Sum Transfer]]]—_a constraint expressed as a type is written once and enforced by the compiler at every call site for free; the same constraint as a runtime check is repeated at every site and enforced by nobody if one forgets it—moving it into structure is a cost reduction, not a like-for-like relocation._
 
 ---
 
@@ -157,3 +169,6 @@ Logic, Code, and Category Theory are isomorphic. This provides a rigorous founda
 - [[SoT - The Curry-Howard Correspondence (Propositions as Types)]]—_The mathematical foundation for the program-as-proof paradigm._
 - [[SoT - Stringly Typed vs Strongly Typed]]—_A detailed look at the pitfalls of primitive obsession._
 - [[SoT - Conservation of Complexity]]—_The law that necessitates moving complexity into types._
+- [[Jackson Structured Programming - Control Flow Should Be Isomorphic to Data Structure]]—_A 1975 precursor that derives control structure from data shape via diagrams rather than types; the same theme, a different mechanism._
+- [[SoT - Test-Driven Development]]—_The verification-first counterpart: proving correctness by testing behaviour rather than making invalid states unrepresentable by construction._
+- [[SoT - Error Handling Architecture]]—_Applies the same structure-over-logic mandate specifically to error paths (`Result<T, E>` over exceptions/booleans)._

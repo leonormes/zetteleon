@@ -6,7 +6,7 @@ created: 2026-09-07T15:28:06+00:00
 created_utc: 2026-09-04T14:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-11T11:21:50+00:00
+modified: 2026-09-19T15:44:29+00:00
 permalink: llmeon/00-inbox/a-paradigm-only-collapses-when-a-viable-replacement-exists
 proposition: A scientific paradigm does not collapse merely because it has been proven wrong; it collapses only once a viable alternative exists that both explains what the old model explained and resolves the anomalies that caused its crisis.
 source_title: New chat

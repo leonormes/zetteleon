@@ -1,7 +1,7 @@
 ---
 created: 2026-02-16T11:46:04+00:00
 incident_type: sync_failure
-modified: 2026-08-29T09:36:49+00:00
+modified: 2026-09-19T15:45:34+00:00
 permalink: llmeon/30-library/ops/pb-argocd-sync-failure-triage
 tags: [argocd, kubectl, playbook]
 target_service: argocd

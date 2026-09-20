@@ -1,14 +1,8 @@
 ---
 type: tmp_atoms
 status: tmp
-source_title: I Have a Thought Previously About How Chaos and Confusion Can Hide Danger,
-  and Human Survival Relies on Getting Control of Situational Awareness
-source_url: unknown — compiled research note; individual claims cite external sources
-  inline (see footnote appendix at end of this file). Footnote numbering in the original
-  source is corrupted — it is two merged Perplexity conversations and several footnote
-  numbers (e.g. [^4], [^17], [^18], [^19], [^20]) point to two different URLs each.
-  Author/year is given in prose or filename where unambiguous; exact numbered mapping
-  is not reliable and is not force-fitted here.
+source_title: "I Have a Thought Previously About How Chaos and Confusion Can Hide Danger, and Human Survival Relies on Getting Control of Situational Awareness"
+source_url: "unknown — compiled research note; individual claims cite external sources inline (see footnote appendix at end of this file). Footnote numbering in the original source is corrupted — it is two merged Perplexity conversations and several footnote numbers (e.g. [^4], [^17], [^18], [^19], [^20]) point to two different URLs each. Author/year is given in prose or filename where unambiguous; exact numbered mapping is not reliable and is not force-fitted here."
 captured_utc: '2026-09-14T00:00:00Z'
 signal_to_noise: 60% signal / 40% noise
 permalink: llmeon/00-inbox/tmp-atoms-chaos-and-situational-awareness

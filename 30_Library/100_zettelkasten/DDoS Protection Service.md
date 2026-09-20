@@ -1,9 +1,11 @@
 ---
 aliases: [AWS Shield, Azure DDoS Protection]
 conformant: true
-created: 2025-12-24 12:00:00+00:00
+contradicts: []
+created: 2025-12-24T12:00:00+00:00
 epistemic_status: high
-modified: 2026-09-09 12:34:10+00:00
+evidence_links: []
+modified: 2026-09-19T15:44:33+00:00
 permalink: llmeon/30-library/100-zettelkasten/ddo-s-protection-service
 prodos.kind: atomic
 prodos.lifecycle: stable
@@ -11,8 +13,6 @@ proposition: DDoS Protection services ensure network availability by filtering v
 tags: [SoftwareEngineering/Networking, SoftwareEngineering/Security]
 title: DDoS Protection Service
 type: claim
-contradicts: []
-evidence_links: []
 ---
 
 ## DDoS Protection Service

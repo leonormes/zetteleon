@@ -1,7 +1,7 @@
 ---
 conformant: true
 created: 2025-10-31T12:56:00+00:00
-modified: 2026-09-09T12:34:09+00:00
+modified: 2026-09-19T15:44:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/cognitive-reframing-of-criticism
 tags: [growth, TheHuman/Psychology]
 title: Cognitive Reframing of Criticism

@@ -2,7 +2,7 @@
 conformant: true
 created: 2026-09-14T12:09:46+00:00
 created_utc: '2026-09-14T00:00:00Z'
-modified: 2026-09-14T12:56:43+00:00
+modified: 2026-09-19T15:44:43+00:00
 permalink: llmeon/30-library/100-zettelkasten/text-network-analysis-reveals-community-structure-and-structural-gaps-in-a-corpus
 source_title: PKM Meta-Graph System Research
 source_url: https://infranodus.com/about/how-it-works

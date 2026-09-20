@@ -6,7 +6,7 @@ created: 2026-09-09T00:00:00+00:00
 created_utc: 2026-09-09 00:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-09T12:34:19+00:00
+modified: 2026-09-19T15:44:39+00:00
 permalink: llmeon/00-inbox/nozicks-tracking-theory-grounds-knowledge-in-truth-tracking-across-counterfactuals
 proposition: Externalist tracking theory (Nozick) argues that a belief counts as knowledge if it accurately tracks the truth across different hypothetical scenarios, rather than requiring the knower to consciously access their justifying reasons.
 source_title: "Philosophy of science: alternative positions beyond Deutsch vs Godfrey-Smith"

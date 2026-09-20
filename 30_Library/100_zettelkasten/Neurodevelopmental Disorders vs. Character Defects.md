@@ -5,21 +5,19 @@ contradicts: []
 created: 2026-09-18T00:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-18T00:00:00+00:00
+modified: 2026-09-19T15:44:39+00:00
 permalink: llmeon/30-library/100-zettelkasten/neurodevelopmental-disorders-vs-character-defects
 proposition: Whether a behavioural difficulty (poor time management, forgetfulness, apparent carelessness) reflects a neurodevelopmental condition or a character defect is often genuinely unclear from the outside, because the same visible behaviour can result from either cause—and this categorical ambiguity is exactly what makes misattributing neurological differences to character so easy and so damaging.
-tags:
-- TheHuman/Health/ADHD
-- character
-- topic/philosophy
+tags: [character, TheHuman/Health/ADHD, topic/philosophy]
 title: Neurodevelopmental Disorders vs. Character Defects
 type: claim
 ---
+
 ## Neurodevelopmental Disorders vs. Character Defects
 
 From the outside, a neurodevelopmental condition and a character defect can look identical. Chronic lateness, forgotten commitments, an unfinished project, a blurted-out comment—each of these could be a symptom of executive dysfunction, or it could be carelessness, selfishness, or a lack of discipline. The behaviour itself doesn't announce its own cause.
 
-This is a categorisation problem in the same family as the Sorites Paradox: there is no bright, self-evident line separating "this is neurology" from "this is character," and the same evidence is compatible with either label. Unlike a true Sorites case, the underlying fact of the matter isn't actually vague—a given instance either does or doesn't have a neurological cause—but the *available evidence* to an outside observer usually is, which produces the same practical effect: people default to the character explanation, because it's the cheaper, more available one, not because it's better supported.
+This is a categorisation problem in the same family as the Sorites Paradox: there is no bright, self-evident line separating "this is neurology" from "this is character," and the same evidence is compatible with either label. Unlike a true Sorites case, the underlying fact of the matter isn't actually vague—a given instance either does or doesn't have a neurological cause—but the _available evidence_ to an outside observer usually is, which produces the same practical effect: people default to the character explanation, because it's the cheaper, more available one, not because it's better supported.
 
 ### Scope & Conditions
 
@@ -28,7 +26,7 @@ Describes the epistemic difficulty of categorisation from an outside observer's 
 ### Implications
 
 - Defaulting to the character explanation isn't a morally neutral guess—it's specifically the explanation that assigns blame, so the asymmetry in how available it feels is not innocent.
-- This is the general mechanism behind [[Misinterpretation as Character Flaws]]'s specific claim about ADHD: the categorical ambiguity described here is *why* that misattribution happens so easily and so often, not just that it does.
+- This is the general mechanism behind [[Misinterpretation as Character Flaws]]'s specific claim about ADHD: the categorical ambiguity described here is _why_ that misattribution happens so easily and so often, not just that it does.
 - The correct response isn't to insist the boundary is perfectly sharp in the other direction—it's to notice that the ambiguity itself should lower confidence in snap character judgements, which is exactly what [[Reframe Habit Setbacks as Capacity Limits Not Character Flaws]] recommends doing.
 
 ### Related

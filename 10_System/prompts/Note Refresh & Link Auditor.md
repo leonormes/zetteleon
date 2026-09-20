@@ -1,8 +1,6 @@
 ---
 created: 2026-04-17T09:15:00+00:00
-description: Audit and refresh a specific note by fixing broken links, verifying connectivity,
-  discovering new semantic neighbors, and making it conformant to the FrontmatterContract
-  and the typed-edge metadata syntax (validated by edge_lint.py).
+description: "Audit and refresh a specific note by fixing broken links, verifying connectivity, discovering new semantic neighbors, and making it conformant to the FrontmatterContract and the typed-edge metadata syntax (validated by edge_lint.py)."
 modified: 2026-09-18T00:00:00+00:00
 permalink: llmeon/10-system/prompts/note-refresh-link-auditor
 tags: [agent/refresher, domain/pkm, link-audit, sot, topic/knowledge-graph, type/system]

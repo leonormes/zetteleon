@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2025-12-10T12:00:00+00:00
-modified: 2026-09-09T12:34:16+00:00
+modified: 2026-09-19T15:44:42+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/self-regulation-is-disciplining-ones-feelings-and-appetites
 tags: [character-strength, self-regulation, temperance]

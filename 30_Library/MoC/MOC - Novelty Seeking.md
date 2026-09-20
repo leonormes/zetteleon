@@ -1,8 +1,8 @@
 ---
 aliases: []
-created: 2025-05-26 14:06:58+00:00
+created: 2025-05-26T14:06:58+00:00
 last_reviewed: '2026-04-08'
-modified: 2026-08-29 09:36:30+00:00
+modified: 2026-09-19T15:45:12+00:00
 permalink: llmeon/30-library/mo-c/moc-novelty-seeking
 status: seed
 tags: [dopamine, interest, novelty, TheHuman/Health/ADHD, TheHuman/Motivation]

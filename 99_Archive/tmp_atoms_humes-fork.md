@@ -1,8 +1,7 @@
 ---
 type: tmp_atoms
 status: tmp
-source_title: How to Argue - David Hume's Radical Empiricism / Hume's Fork lecture
-  summary
+source_title: "How to Argue - David Hume's Radical Empiricism / Hume's Fork lecture summary"
 source_url: unknown — see original archived file
 captured_utc: '2026-09-14T00:00:00Z'
 signal_to_noise: 55% signal / 45% noise

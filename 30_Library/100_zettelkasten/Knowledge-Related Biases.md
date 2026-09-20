@@ -2,7 +2,7 @@
 aliases: []
 conformant: true
 created: 2025-02-07T12:57:55+00:00
-modified: 2026-09-09T12:34:12+00:00
+modified: 2026-09-19T15:44:38+00:00
 permalink: llmeon/30-library/100-zettelkasten/knowledge-related-biases
 tags: [knowledge, TheHuman/Cognition/bias]
 title: Knowledge-Related Biases

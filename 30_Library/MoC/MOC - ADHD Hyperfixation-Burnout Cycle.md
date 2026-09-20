@@ -2,9 +2,8 @@
 aliases: []
 created: 2025-11-01T11:37:53+00:00
 criteria: ''
-exclusions: General ADHD topics not directly related to the hyperfixation-burnout
-  cycle.
-modified: 2026-09-04T12:00:00+00:00
+exclusions: "General ADHD topics not directly related to the hyperfixation-burnout cycle."
+modified: 2026-09-19T15:45:10+00:00
 permalink: llmeon/30-library/mo-c/moc-adhd-hyperfixation-burnout-cycle
 scope: ''
 tags: [TheHuman/Health/ADHD]

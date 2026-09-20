@@ -2,9 +2,9 @@
 alias: [Intellectual Landscape, Knowledge Map, Ontology]
 aliases: []
 conformant: false
-created: 2026-01-05 06:58:46+00:00
+created: 2026-01-05T06:58:46+00:00
 last_reviewed: null
-modified: 2026-08-29 09:36:39+00:00
+modified: 2026-09-19T15:45:21+00:00
 non_conformance_reason: Bulk inferred type. Needs review.
 permalink: llmeon/30-library/so-t/so-t-knowledge-architecture-associative-ontology
 see_also: []

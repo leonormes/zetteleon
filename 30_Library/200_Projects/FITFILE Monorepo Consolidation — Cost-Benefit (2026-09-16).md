@@ -1,8 +1,8 @@
 ---
 conformant: true
-created: 2026-09-16 10:55:00+00:00
+created: 2026-09-16T10:55:00+00:00
 date: 2026-09-16
-modified: 2026-09-17 09:40:00+01:00
+modified: 2026-09-19T15:44:56+00:00
 permalink: llmeon/20-thinking/21-workbench/head-should-insight-file-data-and-analytics-and-deployment-become-one-repo
 project_category: refined_deployment
 project_name: Pipeline
@@ -259,7 +259,7 @@ Not gained: targeted releases. The ffnode values carry per-node configuration—
 
 Cheaper interim than waiting for FTFL-1008: pin `targetRevision` to a git tag on `deployment.git` instead of `master`. That buys per-customer promotion without OCI.
 
-#### `ffnodes/` is not Homogeneous
+#### `ffnodes/` Is not Homogeneous
 
 28 of the 31 nodes are plain values files. Three are not:
 
@@ -279,15 +279,15 @@ The `fitfile` tenant is 17 nodes, all FITFILE's own test, sandbox and internal p
 
 | # | Step | Nodes | Note |
 |---|---|---:|---|
-| 0 | Bring `Clusters/` under version control | — | ~1 day. 30 files there carry `value_files`; every root Application is defined in an unversioned tree |
+| 0 | Bring `Clusters/` under version control |—| ~1 day. 30 files there carry `value_files`; every root Application is defined in an unversioned tree |
 | 1 | First extraction, which is also the multi-source proof | `fitfile/testing` | internal and disposable |
 | 2 | `barts` to its own repo | 1 | smallest customer blast radius |
 | 3 | `wmsde`, then `nwsde` | 3 | |
 | 4 | `eoe` | 7 | largest values surface (1,152-line `ohdsi-values.yaml`) |
 | 5 | `kch`, `stg` | 3 | ApplicationSet pattern—separate design |
-| 6 | Pin the chart source | — | git tag as interim; OCI via FTFL-1008 properly |
-| 7 | Trim `deployment` to charts only | — | |
-| 8 | Option D—merge InsightFILE and data-and-analytics | — | conditional on affected-build tooling and FTFL-877 |
+| 6 | Pin the chart source |—| git tag as interim; OCI via FTFL-1008 properly |
+| 7 | Trim `deployment` to charts only |—| |
+| 8 | Option D—merge InsightFILE and data-and-analytics |—| conditional on affected-build tooling and FTFL-877 |
 
 Step 0 is the only item worth holding the line on. It does not reorder the plan—extraction still comes first among the substantive moves—but editing 30 root-application definitions across production tenants in a directory with no history, no review and no revert is the one part with no safety net. It is also the cheapest item on the list.
 

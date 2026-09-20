@@ -2,16 +2,11 @@
 conformant: true
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: medium
-modified: 2026-09-09T12:34:13+00:00
+modified: 2026-09-19T15:44:38+00:00
 permalink: llmeon/30-library/100-zettelkasten/lenient-harness-parsing-removes-the-negative-reinforcement-signal-for-malformed-tool-output
 prodos.kind: claim
 prodos.lifecycle: stable
-proposition: When a harness (like Claude Code) is overly lenient in accepting malformed
-  tool output — invalid YAML headers, hallucinated JSON keys — a model trained inside
-  that lenient environment receives no negative reinforcement signal for the bad formatting.
-  'The model learns that sloppy output "works," and because model behavior generalizes'
-  across products, this laxity effectively becomes a de facto tolerance requirement
-  forced onto every other harness the model is used with.
+proposition: "When a harness (like Claude Code) is overly lenient in accepting malformed tool output — invalid YAML headers, hallucinated JSON keys — a model trained inside that lenient environment receives no negative reinforcement signal for the bad formatting. 'The model learns that sloppy output \"works,\" and because model behavior generalizes' across products, this laxity effectively becomes a de facto tolerance requirement forced onto every other harness the model is used with."
 tags: [domain/llm, topic/harness-design, topic/reinforcement-learning, topic/reliability, topic/tool-use]
 title: Lenient Harness Parsing Removes the Negative-Reinforcement Signal for Malformed Tool Output
 ---

@@ -2,9 +2,11 @@
 aliases: [Mutual Respect in a Relationship]
 axiom: true
 conformant: true
-created: 2025-11-10 10:01:00+00:00
+contradicts: []
+created: 2025-11-10T10:01:00+00:00
 epistemic_status: high
-modified: 2026-09-09 12:34:14+00:00
+evidence_links: []
+modified: 2026-09-19T15:44:39+00:00
 permalink: llmeon/30-library/100-zettelkasten/mutual-respect-in-a-partnership-involves-valuing-opinions-speaking-kindly-and-honouring-boundaries
 prodos.kind: atomic
 prodos.lifecycle: stable
@@ -12,8 +14,6 @@ proposition: Mutual respect is a foundational expectation in a partnership, demo
 tags: [boundaries, communication, relationship, respect]
 title: Mutual Respect in a Partnership Involves Valuing Opinions Speaking Kindly and Honouring Boundaries
 type: claim
-contradicts: []
-evidence_links: []
 ---
 
 ## Mutual Respect in a Partnership Involves Valuing Opinions Speaking Kindly and Honouring Boundaries

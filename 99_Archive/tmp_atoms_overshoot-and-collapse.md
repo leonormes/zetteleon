@@ -1,8 +1,7 @@
 ---
 type: tmp_atoms
 status: tmp
-source_title: 'Systems: Overshoot and Collapse (Donella Meadows, Dartmouth College
-  lecture, Spring 1977)'
+source_title: "Systems: Overshoot and Collapse (Donella Meadows, Dartmouth College lecture, Spring 1977)"
 source_url: https://youtu.be/f9g4-5-GKBc
 captured_utc: '2026-09-14T00:00:00Z'
 signal_to_noise: 70% signal / 30% noise

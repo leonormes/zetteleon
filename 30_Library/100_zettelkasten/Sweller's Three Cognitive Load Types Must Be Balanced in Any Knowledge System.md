@@ -2,7 +2,7 @@
 conformant: true
 created: 2026-09-13T09:33:33+00:00
 created_utc: '2026-09-13T00:00:00Z'
-modified: 2026-09-13T09:36:16+00:00
+modified: 2026-09-19T15:44:43+00:00
 permalink: llmeon/00-inbox/swellers-three-cognitive-load-types-must-be-balanced-in-any-knowledge-system
 source_title: A Portable Interest and PKM Knowledge Graph
 source_url: UNKNOWN

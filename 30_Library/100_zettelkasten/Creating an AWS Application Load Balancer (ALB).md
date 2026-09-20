@@ -1,8 +1,8 @@
 ---
 aliases: []
-created: 2025-10-24 14:25:58+00:00
+created: 2025-10-24T14:25:58+00:00
 last_reviewed: ''
-modified: 2026-09-09 12:34:10+00:00
+modified: 2026-09-19T15:44:33+00:00
 permalink: llmeon/30-library/100-zettelkasten/creating-an-aws-application-load-balancer-alb
 tags: [aws, load-balancing, SoftwareEngineering/Networking, SoftwareEngineering/networking/cloud-networking]
 title: Creating an AWS Application Load Balancer (ALB)

@@ -6,7 +6,7 @@ contradicts: []
 created: 2025-07-16T17:30:04+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-09T12:34:14+00:00
+modified: 2026-09-19T15:44:40+00:00
 permalink: llmeon/30-library/100-zettelkasten/paraphrasing-demonstrates-the-independence-of-meaning-from-language
 prodos.kind: atomic
 prodos.lifecycle: active

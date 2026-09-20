@@ -2,7 +2,7 @@
 aliases: [CSR Graph, DOP Data Structures, High-Performance Data Structures, Implicit Heap, Ring Buffer]
 conformant: false
 created: 2025-12-31T00:00:00+00:00
-modified: 2026-08-29T09:36:38+00:00
+modified: 2026-09-19T15:45:21+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-high-performance-data-structures
 tags: [data_structures, performance, rust, typescript]

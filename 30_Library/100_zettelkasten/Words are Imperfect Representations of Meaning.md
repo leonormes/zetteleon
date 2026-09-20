@@ -1,8 +1,8 @@
 ---
 aliases: [Word-as-Shadow Metaphor]
-created: 2025-07-16 17:30:04+00:00
+created: 2025-07-16T17:30:04+00:00
 last_reviewed: ''
-modified: 2026-09-09 12:34:18+00:00
+modified: 2026-09-19T15:44:46+00:00
 permalink: llmeon/30-library/100-zettelkasten/words-are-imperfect-representations-of-meaning
 tags: [language, metaphor, paraphrasing, topic/philosophy]
 title: Words are Imperfect Representations of Meaning

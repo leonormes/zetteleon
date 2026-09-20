@@ -4,10 +4,9 @@ contradicts: []
 created: 2026-08-27T09:45:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-09T12:34:09+00:00
+modified: 2026-09-19T15:44:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/claim-elevating-front-of-center-tightens-broadhead-groups
-proposition: Elevating Front-of-Center (FOC) tightens broadhead groups under both
-  perfect and torqued launch conditions.
+proposition: "Elevating Front-of-Center (FOC) tightens broadhead groups under both perfect and torqued launch conditions."
 tags: [claim, domain/archery, topic/equipment]
 title: Claim - Elevating Front-of-Center tightens broadhead groups
 type: claim

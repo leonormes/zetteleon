@@ -2,15 +2,15 @@
 axiom: true
 conformant: true
 contradicts: ['[[Divergent Thinking Outperforms Narrow Specialization]]', '[[Generalists Have an Advantage in the Information Age]]']
-created: 2026-07-28 00:00:00+00:00
+created: 2026-07-28T00:00:00+00:00
 epistemic_status: high
-modified: 2026-09-09 12:34:10+00:00
+evidence_links: []
+modified: 2026-09-19T15:44:34+00:00
 permalink: llmeon/30-library/100-zettelkasten/domain-knowledge-becomes-competitive-advantage-as-llm-access-commoditizes
 proposition: As LLM access becomes cheap and universal, the ability to write code from scratch becomes a commodity skill. The differentiator shifts to domain expertise—understanding the business problem deeply enough to guide the LLM, evaluate its output, and fix what it gets wrong.
 tags: [domain/llm, topic/competitive-advantage, topic/economics, topic/specialization]
 title: Domain Knowledge Becomes Competitive Advantage as LLM Access Commoditizes
 type: claim
-evidence_links: []
 ---
 
 ## Domain Knowledge Becomes Competitive Advantage as LLM Access Commoditizes

@@ -1,15 +1,12 @@
 ---
 created: 2026-07-07T09:54:08+00:00
-crux: Whether LLMs construct output from mathematical operations on the territory
-  or from a map-only distribution over symbols.
-falsifier: An LLM demonstrates behaviour inconsistent with pure distributional statistics
-  (e.g., systematic logical reasoning beyond training data patterns).
+crux: "Whether LLMs construct output from mathematical operations on the territory or from a map-only distribution over symbols."
+falsifier: "An LLM demonstrates behaviour inconsistent with pure distributional statistics (e.g., systematic logical reasoning beyond training data patterns)."
 last_reviewed: 2026-07-07
 links: []
 modified: 2026-07-20T16:33:34+00:00
 permalink: llmeon/claims/llms-are-map-only-engines
-statement: LLMs operate on the symbolic/distributional layer without territory-correspondence;
-  hallucination is explained by priors filling the vacuum where grounding was absent.
+statement: "LLMs operate on the symbolic/distributional layer without territory-correspondence; hallucination is explained by priors filling the vacuum where grounding was absent."
 tags: [hallucination, llm_epistemology, map_only, territory_correspondence]
 title: LLMs_are_map_only_engines
 type: Claim

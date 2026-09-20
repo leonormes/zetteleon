@@ -2,8 +2,7 @@
 type: tmp_atoms
 status: tmp
 source_title: The Psychology of Over-preparing and Information Seeking
-source_url: unknown — compiled research note; individual claims cite external sources
-  inline (see footnote appendix at end of this file)
+source_url: "unknown — compiled research note; individual claims cite external sources inline (see footnote appendix at end of this file)"
 captured_utc: '2026-09-14T00:00:00Z'
 signal_to_noise: 70% signal / 30% noise
 permalink: llmeon/00-inbox/tmp-atoms-psychology-of-over-preparing

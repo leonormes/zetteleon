@@ -2,7 +2,7 @@
 conformant: true
 created: 2026-09-14T11:28:02+00:00
 created_utc: '2026-09-14T00:00:00Z'
-modified: 2026-09-14T11:35:57+00:00
+modified: 2026-09-19T15:44:37+00:00
 permalink: llmeon/30-library/100-zettelkasten/intolerance-of-uncertainty-is-finding-missing-information-intolerable-not-just-undesirable
 source_title: The Psychology of Over-preparing and Information Seeking
 source_url: https://pubmed.ncbi.nlm.nih.gov/23849047/

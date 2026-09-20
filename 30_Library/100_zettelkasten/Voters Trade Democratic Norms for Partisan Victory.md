@@ -1,9 +1,13 @@
 ---
 conformant: true
-created: 2026-09-17 11:34:07+00:00
+contradicts: []
+created: 2026-09-17T11:34:07+00:00
 created_utc: '2026-09-17T00:00:00Z'
-modified: 2026-09-18 11:31:29+00:00
+epistemic_status: high
+evidence_links: []
+modified: 2026-09-19T15:44:45+00:00
 permalink: llmeon/00-inbox/voters-trade-democratic-norms-for-partisan-victory
+proposition: A significant portion of the electorate will knowingly choose a candidate who shares their partisan goals but behaves dishonestly or undemocratically over an opposing candidate who is honest and adheres to democratic norms, and this trade-off intensifies as affective polarization rises.
 source_title: Political Contrast Effect Research
 source_url: '[[Political Contrast Effect Research]]'
 status: seed
@@ -11,10 +15,6 @@ tags: [democratic-backsliding, partisanship, political-psychology, svolik]
 title: Voters Trade Democratic Norms for Partisan Victory
 type: claim
 upstream: '[[Political Contrast Effect Research]]'
-proposition: A significant portion of the electorate will knowingly choose a candidate who shares their partisan goals but behaves dishonestly or undemocratically over an opposing candidate who is honest and adheres to democratic norms, and this trade-off intensifies as affective polarization rises.
-epistemic_status: high
-evidence_links: []
-contradicts: []
 ---
 
 ## Voters Trade Democratic Norms for Partisan Victory

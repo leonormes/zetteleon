@@ -2,7 +2,7 @@
 aliases: [DNS Architecture, FQDN, Hierarchical Naming]
 conformant: false
 created: 2025-03-04T13:42:19+00:00
-modified: 2026-08-29T09:36:43+00:00
+modified: 2026-09-19T15:45:26+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/so-t/so-t-the-data-architecture-of-dns
 tags: [data-centric, SoftwareEngineering/Architecture, SoftwareEngineering/Networking, SoftwareEngineering/networking/dns, topic/technology]

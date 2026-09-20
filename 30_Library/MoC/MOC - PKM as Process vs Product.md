@@ -1,8 +1,8 @@
 ---
 aliases: []
-created: 2025-10-20 09:40:00+00:00
+created: 2025-10-20T09:40:00+00:00
 last_reviewed: ''
-modified: 2026-08-29 09:36:31+00:00
+modified: 2026-09-19T15:45:12+00:00
 permalink: llmeon/30-library/mo-c/moc-pkm-as-process-vs-product
 tags: [topic/knowledge-architecture]
 title: MOC - PKM as Process vs Product

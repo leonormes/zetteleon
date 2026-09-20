@@ -1,16 +1,16 @@
 ---
 axiom: true
-created: 2026-07-28 00:00:00+00:00
+conformant: true
+contradicts: []
+created: 2026-07-28T00:00:00+00:00
 epistemic_status: medium
-modified: 2026-09-09 12:34:08+00:00
+evidence_links: []
+modified: 2026-09-19T15:44:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/canaries-precise-trigger-alarms-reduce-false-positive-security-noise
 proposition: A canary is a security alarm scoped to trigger only on exact, highly specific identifiers (e.g., an exact sensitive filename) rather than broad pattern matching. This precision reduces false-positive noise, making the alarm signal trustworthy enough that a real trigger is treated as a genuine breach rather than routine background noise.
 tags: [domain/llm, topic/monitoring, topic/pkm, topic/privacy, topic/safety]
 title: Canaries - Precise Trigger Alarms Reduce False-Positive Security Noise
 type: claim
-contradicts: []
-evidence_links: []
-conformant: true
 ---
 
 ## Canaries - Precise Trigger Alarms Reduce False-Positive Security Noise

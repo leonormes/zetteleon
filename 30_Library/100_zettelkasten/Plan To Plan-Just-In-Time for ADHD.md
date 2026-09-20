@@ -1,8 +1,8 @@
 ---
 aliases: []
-created: 2025-06-25 20:14:33+00:00
+created: 2025-06-25T20:14:33+00:00
 last_reviewed: 'null'
-modified: 2026-09-09 12:34:14+00:00
+modified: 2026-09-19T15:44:40+00:00
 permalink: llmeon/30-library/100-zettelkasten/plan-to-plan-just-in-time-for-adhd
 tags: [TheHuman/Health/ADHD]
 title: Plan To Plan-Just-In-Time for ADHD

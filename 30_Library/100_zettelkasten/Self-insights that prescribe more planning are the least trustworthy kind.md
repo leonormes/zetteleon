@@ -5,13 +5,10 @@ contradicts: []
 created: 2026-08-28T23:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-14T11:35:54+00:00
+modified: 2026-09-19T15:44:42+00:00
 permalink: llmeon/30-library/100-zettelkasten/self-insights-that-prescribe-more-planning-are-the-least-trustworthy-kind-1
 project_category: prodos
-proposition: When a self-insight concludes that better or more careful planning is
-  the unlock, that conclusion is the least reliable class of self-explanation available
-  to me, because a correct insight and a sophisticated avoidance produce identical
-  subjective signatures.
+proposition: "When a self-insight concludes that better or more careful planning is the unlock, that conclusion is the least reliable class of self-explanation available to me, because a correct insight and a sophisticated avoidance produce identical subjective signatures."
 tags: [domain/pkm, TheHuman/Health/ADHD, topic/executive-function, topic/gtd, topic/metacognition]
 title: Self-Insights That Prescribe More Planning Are the Least Trustworthy Kind
 type: claim

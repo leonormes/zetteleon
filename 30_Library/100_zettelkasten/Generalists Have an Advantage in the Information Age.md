@@ -2,7 +2,7 @@
 aliases: [Generalist Advantage]
 conformant: false
 created: 2025-11-01T12:30:07+00:00
-modified: 2026-09-09T12:34:11+00:00
+modified: 2026-09-19T15:44:35+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/generalists-have-an-advantage-in-the-information-age
 tags: [generalism, information-age, specialization]

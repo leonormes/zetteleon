@@ -2,7 +2,7 @@
 conformant: true
 created: 2026-09-14T11:41:29+00:00
 created_utc: '2026-09-14T00:00:00Z'
-modified: 2026-09-14T11:52:06+00:00
+modified: 2026-09-19T15:44:40+00:00
 permalink: llmeon/30-library/100-zettelkasten/perfectionisms-harm-comes-from-contingent-self-worth-and-fear-of-failure-not-high-standards-alone
 source_title: The Psychology of Over-preparing and Information Seeking
 source_url: https://kar.kent.ac.uk/20132/1/Stoeber_Feast_Hayward_IntrinsicExtrinsicMotivation_2009.pdf

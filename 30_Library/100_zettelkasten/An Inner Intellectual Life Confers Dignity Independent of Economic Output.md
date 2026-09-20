@@ -1,16 +1,16 @@
 ---
 aliases: []
 conformant: true
-created: 2026-08-03 00:00:00+01:00
+contradicts: []
+created: 2026-08-02T23:00:00+00:00
 epistemic_status: medium
-modified: 2026-09-09 12:34:07+00:00
+evidence_links: []
+modified: 2026-09-19T15:44:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/an-inner-intellectual-life-confers-dignity-independent-of-economic-output
 proposition: Because its value is intrinsic, intellectual life supplies a source of personal dignity that cannot be revoked by unemployment, low occupational status, imprisonment or manual work — a refuge structurally unavailable to any good defined by market position.
 tags: [dignity, TheHuman/Philosophy, TheHuman/Psychology, topic/meaning]
 title: An Inner Intellectual Life Confers Dignity Independent of Economic Output
 type: claim
-contradicts: []
-evidence_links: []
 ---
 
 This is the load-bearing consequence of the atelic claim, and the reason the argument is not merely academic. If the value of thinking is intrinsic, then it is _not revocable by anyone else_. No employer, institution or ranking can withdraw it, because none of them conferred it.

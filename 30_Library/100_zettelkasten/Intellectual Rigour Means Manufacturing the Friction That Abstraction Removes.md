@@ -2,16 +2,16 @@
 aliases: []
 axiom: true
 conformant: true
-created: 2026-08-03 00:00:00+01:00
+contradicts: []
+created: 2026-08-02T23:00:00+00:00
 epistemic_status: medium
-modified: 2026-09-09 12:34:12+00:00
+evidence_links: []
+modified: 2026-09-19T15:44:37+00:00
 permalink: llmeon/30-library/100-zettelkasten/intellectual-rigour-means-manufacturing-the-friction-that-abstraction-removes
-proposition: Because abstract work supplies no natural resistance, rigour consists of deliberately seeking out evidence that resists one's preferred theory — artificially reconstructing the boundary conditions that physical reality imposes for free.
+proposition: "Because abstract work supplies no natural resistance, rigour consists of deliberately seeking out evidence that resists one's preferred theory — artificially reconstructing the boundary conditions that physical reality imposes for free."
 tags: [epistemology, rigour, TheHuman/Cognition, topic/thinking]
 title: Intellectual Rigour Means Manufacturing the Friction That Abstraction Removes
 type: claim
-contradicts: []
-evidence_links: []
 ---
 
 If the absence of material resistance is the disease, the treatment is to build resistance in by hand. Concretely: actively hunting the disconfirming case rather than waiting to encounter it, seeking out the strongest opponent rather than the most convenient one, and committing to a prediction specific enough to be wrong.

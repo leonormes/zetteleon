@@ -2,16 +2,16 @@
 aliases: [Kantian epistemology, noumenon vs phenomenon, thing-in-itself]
 axiom: true
 conformant: true
-created: 2025-10-31 20:06:00+00:00
+contradicts: []
+created: 2025-10-31T20:06:00+00:00
 epistemic_status: high
-modified: 2026-09-09 12:34:18+00:00
+evidence_links: []
+modified: 2026-09-19T15:44:44+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-noumenal-phenomenal-distinction-limits-knowability
-proposition: Kant's epistemology distinguishes between the noumenal world (reality as it truly is) and the phenomenal world (reality as we experience it), creating fundamental limits on our ability to know external reality and other minds directly.
+proposition: "Kant's epistemology distinguishes between the noumenal world (reality as it truly is) and the phenomenal world (reality as we experience it), creating fundamental limits on our ability to know external reality and other minds directly."
 tags: [epistemology, Kant, limits-of-knowledge, TheHuman/Philosophy]
 title: The noumenal-phenomenal distinction limits knowability
 type: claim
-contradicts: []
-evidence_links: []
 ---
 
 ## The Noumenal-phenomenal Distinction Limits Knowability

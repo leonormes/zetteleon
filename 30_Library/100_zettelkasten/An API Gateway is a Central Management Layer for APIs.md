@@ -1,8 +1,8 @@
 ---
 aliases: []
-created: 2025-10-26 17:05:00+00:00
+created: 2025-10-26T17:05:00+00:00
 last_reviewed: ''
-modified: 2026-09-09 12:34:07+00:00
+modified: 2026-09-19T15:44:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/an-api-gateway-is-a-central-management-layer-for-apis
 tags: [api, SoftwareEngineering/Architecture, tech]
 title: An API Gateway is a Central Management Layer for APIs

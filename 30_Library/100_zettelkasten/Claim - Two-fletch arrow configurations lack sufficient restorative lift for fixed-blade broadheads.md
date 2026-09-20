@@ -4,14 +4,11 @@ contradicts: []
 created: 2026-08-27T09:45:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-09T12:34:09+00:00
+modified: 2026-09-19T15:44:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/claim-two-fletch-arrow-configurations-lack-sufficient-restorative-lift-for-fixed-blade-broadheads
-proposition: Two-fletch arrow configurations do not provide the requisite surface
-  area to generate enough restorative lift to counteract the destabilizing lift of
-  a fixed-blade broadhead under imperfect launch conditions.
+proposition: "Two-fletch arrow configurations do not provide the requisite surface area to generate enough restorative lift to counteract the destabilizing lift of a fixed-blade broadhead under imperfect launch conditions."
 tags: [claim, domain/archery, topic/equipment]
-title: Claim - Two-fletch arrow configurations lack sufficient restorative lift for fixed-blade broadheads
-  fixed-blade broadheads
+title: "Claim - Two-fletch arrow configurations lack sufficient restorative lift for fixed-blade broadheads"
 type: claim
 ---
 

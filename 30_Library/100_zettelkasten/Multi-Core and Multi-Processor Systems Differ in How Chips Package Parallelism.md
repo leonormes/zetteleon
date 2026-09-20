@@ -2,19 +2,17 @@
 conformant: true
 created: 2026-09-18T00:00:00+00:00
 created_utc: 2026-09-18T00:00:00Z
-modified: 2026-09-18T00:00:00+00:00
+modified: 2026-09-19T15:44:39+00:00
 permalink: llmeon/30-library/100-zettelkasten/multi-core-and-multi-processor-systems-differ-in-how-chips-package-parallelism
 prodos.atomic.form: distinction
 prodos.kind: atomic
 source_title: Defining One Computer Concept
 status: seed
-tags:
-- computer-science
-- computer-architecture
-- concurrency
+tags: [computer-architecture, computer-science, concurrency]
 title: Multi-Core and Multi-Processor Systems Differ in How Chips Package Parallelism
 type: concept
 ---
+
 ## Multi-Core and Multi-Processor Systems Differ in How Chips Package Parallelism
 
 A multi-core processor packages two or more independent execution cores onto a single integrated-circuit chip; a multi-processor system instead places multiple distinct physical CPU chips on the same motherboard. Both add parallel execution units to what is still, by the kernel-boundary definition, one computer—they just differ in whether the extra cores share a die or a socket.
@@ -25,7 +23,7 @@ Names the packaging distinction as commonly used. In practice the terminology ha
 
 ### Evidence
 
-> "Multi-core Processors: These feature a single integrated circuit (IC) chip containing two or more independent processing units, known as 'cores'... Multi-processor Systems: These systems contain multiple distinct physical CPU chips installed on the same motherboard."
+> "Multi-core Processors: These feature a single integrated circuit (IC) chip containing two or more independent processing units, known as 'cores'… Multi-processor Systems: These systems contain multiple distinct physical CPU chips installed on the same motherboard."
 
 ### Implications
 

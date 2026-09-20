@@ -2,9 +2,11 @@
 aliases: []
 axiom: true
 conformant: true
-created: 2025-11-01 09:51:13+00:00
+contradicts: []
+created: 2025-11-01T09:51:13+00:00
 epistemic_status: high
-modified: 2026-09-09 12:34:10+00:00
+evidence_links: []
+modified: 2026-09-19T15:44:34+00:00
 permalink: llmeon/30-library/100-zettelkasten/embodied-confidence-comes-from-direct-feedback-in-physical-skills
 prodos.kind: atomic
 prodos.lifecycle: stable
@@ -12,8 +14,6 @@ proposition: Embodied practices cultivate confidence through immediate sensory f
 tags: [competence, confidence, embodiment, learning, topic/skill]
 title: Embodied Confidence Comes From Direct Feedback in Physical Skills
 type: claim
-contradicts: []
-evidence_links: []
 ---
 
 ## Embodied Confidence Comes From Direct Feedback in Physical Skills

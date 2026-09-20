@@ -1,9 +1,9 @@
 ---
 aliases: [Body Doubling, Body Doubling is an Effective ADHD Strategy]
 conformant: false
-created: 2025-10-26 11:12:00+00:00
+created: 2025-10-26T11:12:00+00:00
 last_reviewed: 2025-12-16
-modified: 2026-09-14 11:35:46+00:00
+modified: 2026-09-19T15:44:32+00:00
 non_conformance_reason: 'type: hypothesis is not in the FrontmatterContract §2 enum (claim/concept/evidence/question/procedure/protocol/map/journal/project/sot). This note is an unresolved personal experiment (If/Then/Because + protocol + pending Results Log) — forcing it into `claim` would misrepresent its pending-verification status, since a ClaimNote implies an asserted proposition rather than an open experiment. Left as-is pending a human decision: fold into `claim` once the Results Log is filled in, or leave `hypothesis` as a recognised non-canonical type.'
 permalink: llmeon/30-library/100-zettelkasten/body-doubling-for-adhd-focus
 status: draft

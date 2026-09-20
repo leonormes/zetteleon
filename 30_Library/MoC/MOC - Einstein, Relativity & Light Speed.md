@@ -1,8 +1,8 @@
 ---
 aliases: []
-created: 2025-09-16 12:25:36+00:00
+created: 2025-09-16T12:25:36+00:00
 last_reviewed: ''
-modified: 2026-08-29 09:36:30+00:00
+modified: 2026-09-19T15:45:11+00:00
 permalink: llmeon/30-library/mo-c/moc-einstein-relativity-light-speed
 see_also: []
 superseded_by: ''

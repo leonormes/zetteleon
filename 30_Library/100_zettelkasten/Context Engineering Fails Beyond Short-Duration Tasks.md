@@ -1,16 +1,16 @@
 ---
 axiom: true
-created: 2026-07-28 00:00:00+00:00
+conformant: true
+contradicts: []
+created: 2026-07-28T00:00:00+00:00
 epistemic_status: low
-modified: 2026-09-09 12:34:09+00:00
+evidence_links: []
+modified: 2026-09-19T15:44:33+00:00
 permalink: llmeon/30-library/100-zettelkasten/context-engineering-fails-beyond-short-duration-tasks
 proposition: Context engineering — granting an agent limited autonomy to retrieve external data (via APIs or file systems) to dynamically populate its own context — is effective only for short-duration tasks. Beyond that duration boundary, context engineering alone is insufficient, and the task requires an additional external management layer (harness engineering) to remain reliable.
 tags: [domain/llm, topic/agent-architecture, topic/context-management]
 title: Context Engineering Fails Beyond Short-Duration Tasks
 type: claim
-contradicts: []
-evidence_links: []
-conformant: true
 ---
 
 ## Context Engineering Fails Beyond Short-Duration Tasks

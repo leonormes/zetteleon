@@ -2,16 +2,16 @@
 aliases: []
 conformant: true
 contradicts: []
-created: 2025-10-30 16:20:00+00:00
+created: 2025-10-30T16:20:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-09 12:34:15+00:00
+modified: 2026-09-19T15:44:42+00:00
 permalink: llmeon/30-library/100-zettelkasten/routines-reduce-anxiety-and-decision-fatigue-in-neurodivergent-individuals
+proposition: Routines significantly reduce anxiety, sensory overwhelm, and decision fatigue in autistic and ADHD individuals by minimizing the cognitive load required for daily functioning and providing predictable structure that reduces the need for constant decision-making.
 source: ''
 tags: [anxiety-reduction, autism, decision-fatigue, TheHuman/Health/ADHD]
 title: Routines reduce anxiety and decision fatigue in neurodivergent individuals
 type: claim
-proposition: Routines significantly reduce anxiety, sensory overwhelm, and decision fatigue in autistic and ADHD individuals by minimizing the cognitive load required for daily functioning and providing predictable structure that reduces the need for constant decision-making.
 ---
 
 Routines significantly reduce anxiety, sensory overwhelm, and decision fatigue in autistic and ADHD individuals by minimizing the cognitive load required for daily functioning and providing predictable structure that reduces the need for constant decision-making.

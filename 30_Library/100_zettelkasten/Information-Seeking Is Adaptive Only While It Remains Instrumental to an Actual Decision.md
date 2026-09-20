@@ -2,7 +2,7 @@
 conformant: true
 created: 2026-09-14T11:28:06+00:00
 created_utc: '2026-09-14T00:00:00Z'
-modified: 2026-09-14T12:58:59+00:00
+modified: 2026-09-19T15:44:37+00:00
 permalink: llmeon/30-library/100-zettelkasten/information-seeking-is-adaptive-only-while-it-remains-instrumental-to-an-actual-decision
 source_title: The Psychology of Over-preparing and Information Seeking
 source_url: https://minerva-access.unimelb.edu.au/server/api/core/bitstreams/3bf2300b-b46c-409b-8861-a723247dcf70/content

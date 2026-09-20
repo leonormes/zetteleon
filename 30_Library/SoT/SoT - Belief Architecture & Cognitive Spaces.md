@@ -2,7 +2,7 @@
 aliases: [Belief Architecture, Cognitive Refactoring (Neural Debugging), Cognitive Spaces, Limiting Beliefs SoT, Mindset Engineering]
 conformant: true
 created: 2025-12-16T00:00:00+00:00
-modified: 2026-09-15T12:20:21+00:00
+modified: 2026-09-19T15:45:17+00:00
 permalink: llmeon/30-library/so-t/so-t-belief-architecture-cognitive-spaces
 tags: [beliefs, cognition, mental_models, TheHuman/Mindset, TheHuman/Psychology]
 title: SoT - Belief Architecture & Cognitive Spaces

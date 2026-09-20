@@ -6,7 +6,7 @@ created: 2026-09-09T00:00:00+00:00
 created_utc: 2026-09-09 00:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-09T12:34:19+00:00
+modified: 2026-09-19T15:44:35+00:00
 permalink: llmeon/00-inbox/feyerabends-epistemological-anarchism-denies-any-fixed-scientific-method
 proposition: 'Feyerabend argued that there is no such thing as a fixed scientific method—his doctrine was "anything goes"—and that strict methodological rules hinder scientific progress.'
 source_title: "Philosophy of science: alternative positions beyond Deutsch vs Godfrey-Smith"

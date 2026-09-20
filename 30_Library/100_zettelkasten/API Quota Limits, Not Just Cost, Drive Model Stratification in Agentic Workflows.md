@@ -1,15 +1,15 @@
 ---
-created: 2026-07-28 10:20:29+00:00
+conformant: true
+contradicts: []
+created: 2026-07-28T10:20:29+00:00
 epistemic_status: medium
-modified: 2026-09-09 12:34:07+00:00
+evidence_links: []
+modified: 2026-09-19T15:44:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/api-quota-limits-not-just-cost-drive-model-stratification-in-agentic-workflows
+proposition: Stratifying model usage in agentic workflows must respect API quota limits—a hard cap on calls or tokens per window—as a distinct constraint from dollar cost, since a team with plenty of budget can still hit a quota ceiling and be unable to make another frontier-model call until the window resets.
 tags: [domain/llm, topic/agent-architecture, topic/cost-optimization]
 title: API Quota Limits, Not Just Cost, Drive Model Stratification in Agentic Workflows
 type: claim
-proposition: Stratifying model usage in agentic workflows must respect API quota limits—a hard cap on calls or tokens per window—as a distinct constraint from dollar cost, since a team with plenty of budget can still hit a quota ceiling and be unable to make another frontier-model call until the window resets.
-evidence_links: []
-contradicts: []
-conformant: true
 ---
 
 ## API Quota Limits, Not Just Cost, Drive Model Stratification in Agentic Workflows

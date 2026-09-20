@@ -1,8 +1,8 @@
 ---
 aliases: []
-created: 2025-10-25 15:00:00+00:00
+created: 2025-10-25T15:00:00+00:00
 last_reviewed: 'null'
-modified: 2026-09-09 12:34:15+00:00
+modified: 2026-09-19T15:44:41+00:00
 permalink: llmeon/30-library/100-zettelkasten/reframing-adhd-from-deficit-to-difference
 tags: [neurodiversity, self-compassion, stigma, TheHuman/Health/ADHD, TheHuman/Mindset]
 title: Reframing ADHD - From Deficit to Difference

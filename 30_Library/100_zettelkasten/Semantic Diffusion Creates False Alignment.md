@@ -1,8 +1,8 @@
 ---
 aliases: []
-created: 2025-08-29 15:20:28+00:00
+created: 2025-08-29T15:20:28+00:00
 last_reviewed: 'null'
-modified: 2026-09-09 12:34:16+00:00
+modified: 2026-09-19T15:44:42+00:00
 permalink: llmeon/30-library/100-zettelkasten/semantic-diffusion-creates-false-alignment
 tags: [communication, language, teams, TheHuman/Cognition/mental-model]
 title: Semantic Diffusion Creates False Alignment

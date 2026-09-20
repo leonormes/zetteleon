@@ -1,10 +1,7 @@
 ---
 title: Prompt - Vault Graph Programme (Session Driver)
 type: prompt
-description: Session driver for the Vault Graph programme (Todoist project 'Vault
-  Graph'). Picks up cross-session state, executes one task at a time under AGENTS.md
-  §9.3 write scope, validates with edge_lint.py, and logs. Use when working the LLM/PKM
-  graph cleanup or building the ingest router — not for one-off note work.
+description: "Session driver for the Vault Graph programme (Todoist project 'Vault Graph'). Picks up cross-session state, executes one task at a time under AGENTS.md §9.3 write scope, validates with edge_lint.py, and logs. Use when working the LLM/PKM graph cleanup or building the ingest router — not for one-off note work."
 created: 2026-07-27 00:00:00+00:00
 tags:
 - domain/pkm

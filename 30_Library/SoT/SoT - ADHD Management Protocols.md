@@ -2,7 +2,7 @@
 aliases: [ADHD Protocols, ADHD Scaffolding Protocols]
 conformant: true
 created: 2026-01-03T10:10:29+00:00
-modified: 2026-09-03T11:20:09+00:00
+modified: 2026-09-19T15:45:16+00:00
 permalink: llmeon/30-library/so-t/so-t-adhd-management-protocols
 prodos.kind: protocol
 prodos.lifecycle: active

@@ -1,9 +1,11 @@
 ---
 axiom: true
 conformant: true
-created: 2026-04-10 13:00:00+00:00
+contradicts: []
+created: 2026-04-10T13:00:00+00:00
 epistemic_status: high
-modified: 2026-09-09 12:34:15+00:00
+evidence_links: []
+modified: 2026-09-19T15:44:41+00:00
 permalink: llmeon/30-library/100-zettelkasten/reinforcement-learning-produces-jagged-intelligence-high-in-verifiable-low-in-subjective-domains
 prodos.kind: atomic
 prodos.lifecycle: stable
@@ -11,8 +13,6 @@ proposition: Reinforcement Learning produces jagged intelligence, excelling in d
 tags: [constraints, intelligence, llm, reinforcement-learning]
 title: Reinforcement Learning Produces Jagged Intelligence — High in Verifiable, Low in Subjective Domains
 type: claim
-contradicts: []
-evidence_links: []
 ---
 
 [supports:: [[Agentic Autonomy Accelerates Fastest in Domains Where Success Is Verifiable]], strength=4, confidence=high]

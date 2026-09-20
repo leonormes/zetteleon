@@ -1,18 +1,18 @@
 ---
 aliases: [Feynman Technique, Protégé Effect]
 conformant: true
-created: 2025-11-10 16:09:00+00:00
+contradicts: []
+created: 2025-11-10T16:09:00+00:00
 epistemic_status: high
-modified: 2026-09-09 12:34:11+00:00
+evidence_links: []
+modified: 2026-09-19T15:44:35+00:00
 permalink: llmeon/30-library/100-zettelkasten/explaining-to-others-enhances-ones-own-learning
 prodos.kind: atomic
 prodos.lifecycle: stable
-proposition: The act of explaining or teaching material to others significantly enhances the explainer's own understanding and knowledge retention.
+proposition: "The act of explaining or teaching material to others significantly enhances the explainer's own understanding and knowledge retention."
 tags: [learning, teaching, TheHuman/Habits, understanding]
-title: Explaining to Others Enhances One's Own Learning
+title: "Explaining to Others Enhances One's Own Learning"
 type: claim
-contradicts: []
-evidence_links: []
 ---
 
 ## Explaining to Others Enhances One's Own Learning

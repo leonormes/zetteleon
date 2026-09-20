@@ -2,7 +2,7 @@
 conformant: true
 created: 2026-09-14T11:28:27+00:00
 created_utc: 2026-09-14T00:00:00Z
-modified: 2026-09-14T11:35:57+00:00
+modified: 2026-09-19T15:44:41+00:00
 permalink: llmeon/30-library/100-zettelkasten/rejection-sensitivity-is-an-established-research-construct-rsd-is-a-popular-term-without-formal-diagnostic-status
 source_title: I Have a Thought Previously About How Chaos and Confusion Can Hide Danger, and Human Survival Relies on Getting Control of Situational Awareness
 source_url: https://psychology.columbia.edu/sites/psychology.columbia.edu/files/2016-11/merp.pdf

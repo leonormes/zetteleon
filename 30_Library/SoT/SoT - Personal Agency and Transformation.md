@@ -2,7 +2,7 @@
 aliases: [Agency Cultivation, Taking Control, The Gift of Desperation]
 conformant: true
 created: 2025-12-15T00:00:00+00:00
-modified: 2026-09-15T12:14:12+00:00
+modified: 2026-09-19T15:45:24+00:00
 permalink: llmeon/30-library/so-t/so-t-personal-agency-and-transformation
 tags: [agency, personal_development, TheHuman/Mindset, TheHuman/Psychology, transformation]
 title: SoT - Personal Agency and Transformation

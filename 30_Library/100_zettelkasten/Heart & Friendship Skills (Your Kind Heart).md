@@ -1,9 +1,11 @@
 ---
 aliases: []
 conformant: true
-created: 2025-07-10 10:12:15+00:00
+contradicts: []
+created: 2025-07-10T10:12:15+00:00
 epistemic_status: high
-modified: 2026-09-09 12:34:12+00:00
+evidence_links: []
+modified: 2026-09-19T15:44:36+00:00
 permalink: llmeon/30-library/100-zettelkasten/heart-friendship-skills-your-kind-heart
 prodos.kind: atomic
 prodos.lifecycle: stable
@@ -11,8 +13,6 @@ proposition: Heart and friendship skills encompass the VIA Character Strengths a
 tags: []
 title: Heart & Friendship Skills (Your Kind Heart)
 type: claim
-contradicts: []
-evidence_links: []
 ---
 
 _These strengths are all about how you connect with other people and show you care._

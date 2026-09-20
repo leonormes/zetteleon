@@ -1,9 +1,11 @@
 ---
 axiom: true
 conformant: true
-created: 2026-04-10 00:00:00+00:00
+contradicts: []
+created: 2026-04-10T00:00:00+00:00
 epistemic_status: high
-modified: 2026-09-09 12:34:07+00:00
+evidence_links: []
+modified: 2026-09-19T15:44:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/any-desired-outcome-requiring-more-than-one-step-is-a-project-and-must-be-tracked
 prodos.kind: atomic
 prodos.lifecycle: stable
@@ -11,8 +13,6 @@ proposition: Any commitment requiring more than one step to complete must be cla
 tags: [gtd, organisation, planning, project-management]
 title: Any Desired Outcome Requiring More Than One Step Is a Project and Must Be Tracked
 type: claim
-contradicts: []
-evidence_links: []
 ---
 
 ## Any Desired Outcome Requiring More Than One Step Is a Project and Must Be Tracked

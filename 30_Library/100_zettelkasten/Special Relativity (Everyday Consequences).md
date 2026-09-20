@@ -1,8 +1,8 @@
 ---
 aliases: []
-created: 2025-09-16 12:25:36+00:00
+created: 2025-09-16T12:25:36+00:00
 last_reviewed: ''
-modified: 2026-09-09 12:34:16+00:00
+modified: 2026-09-19T15:44:43+00:00
 permalink: llmeon/30-library/100-zettelkasten/special-relativity-everyday-consequences
 tags: []
 title: Special Relativity (Everyday Consequences)

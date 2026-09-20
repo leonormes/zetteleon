@@ -1,8 +1,8 @@
 ---
 aliases: [Virtue of Temperance]
-created: 2025-07-16 17:30:02+00:00
+created: 2025-07-16T17:30:02+00:00
 last_reviewed: ''
-modified: 2026-09-14 11:35:56+00:00
+modified: 2026-09-19T15:44:45+00:00
 permalink: llmeon/30-library/100-zettelkasten/via-virtue-of-temperance
 tags: [character, temperance, via-strengths, virtue]
 title: VIA Virtue of Temperance

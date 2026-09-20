@@ -5,16 +5,14 @@ contradicts: []
 created: 2026-09-18T00:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-18T00:00:00+00:00
+modified: 2026-09-19T15:44:43+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-continuum-thought-experiment
-proposition: A perfectly continuous quantity—one with no natural minimal units or boundaries at all—cannot be counted, because nothing in it marks out where one part ends and the next begins; discreteness is not a convenience for counting but a precondition for the question 'how many?' to be meaningful.
-tags:
-- foundations
-- topic/maths
-- topic/philosophy
+proposition: "A perfectly continuous quantity—one with no natural minimal units or boundaries at all—cannot be counted, because nothing in it marks out where one part ends and the next begins; discreteness is not a convenience for counting but a precondition for the question 'how many?' to be meaningful."
+tags: [foundations, topic/maths, topic/philosophy]
 title: The Continuum Thought Experiment
 type: claim
 ---
+
 ## The Continuum Thought Experiment
 
 Imagine a genuinely continuous quantity—one with no natural minimal units at all: an idealised length of line, or a volume of some substance with no atoms, molecules, or any other built-in stopping point for division. Ask the question: how many parts does it have?
@@ -27,7 +25,7 @@ A purely conceptual limiting case: real physical substances are ultimately discr
 
 ### Relationship to the Sorites Paradox
 
-This is the limiting case of the vagueness the Sorites Paradox explores. Sorites shows that a boundary can be *fuzzy*—a heap doesn't stop being a heap at one precise grain, but the grains themselves remain discrete, countable units throughout. The continuum thought experiment removes the boundary altogether: there is no fuzzy edge to disagree about, because there is no edge of any kind anywhere, until one is imposed on the continuum from outside it.
+This is the limiting case of the vagueness the Sorites Paradox explores. Sorites shows that a boundary can be _fuzzy_—a heap doesn't stop being a heap at one precise grain, but the grains themselves remain discrete, countable units throughout. The continuum thought experiment removes the boundary altogether: there is no fuzzy edge to disagree about, because there is no edge of any kind anywhere, until one is imposed on the continuum from outside it.
 
 ### Implications
 

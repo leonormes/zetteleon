@@ -1,9 +1,11 @@
 ---
 aliases: []
 conformant: true
-created: 2025-07-10 10:12:15+00:00
+contradicts: []
+created: 2025-07-10T10:12:15+00:00
 epistemic_status: high
-modified: 2026-09-09 12:34:18+00:00
+evidence_links: []
+modified: 2026-09-19T15:44:46+00:00
 permalink: llmeon/30-library/100-zettelkasten/world-wonder-skills-how-you-connect-to-the-world
 prodos.kind: atomic
 prodos.lifecycle: stable
@@ -11,8 +13,6 @@ proposition: World and wonder skills encompass the VIA Character Strengths and c
 tags: []
 title: World & Wonder Skills (How You Connect to the World)
 type: claim
-contradicts: []
-evidence_links: []
 ---
 
 _These skills are about how you find joy, meaning, and your place in the wider world._

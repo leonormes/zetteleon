@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2026-05-02T20:33:41+00:00
-modified: 2026-09-09T12:34:19+00:00
+modified: 2026-09-19T15:44:46+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/beyond-words
 title: beyond words

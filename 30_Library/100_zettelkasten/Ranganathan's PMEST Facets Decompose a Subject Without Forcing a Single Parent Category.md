@@ -2,7 +2,7 @@
 conformant: true
 created: 2026-09-14T11:40:06+00:00
 created_utc: '2026-09-13T00:00:00Z'
-modified: 2026-09-14T11:52:06+00:00
+modified: 2026-09-19T15:44:41+00:00
 permalink: llmeon/00-inbox/ranganathans-pmest-facets-decompose-a-subject-without-forcing-a-single-parent-category
 source_title: A Portable Interest and PKM Knowledge Graph
 source_url: UNKNOWN

@@ -1,8 +1,8 @@
 ---
 aliases: [Elaboration, Own Words Requirement, Paraphrasing]
-created: 2025-10-30 15:33:36+00:00
+created: 2025-10-30T15:33:36+00:00
 last_reviewed: '2025-10-30T00:00:00.000Z'
-modified: 2026-09-09 12:34:10+00:00
+modified: 2026-09-19T15:44:34+00:00
 permalink: llmeon/30-library/100-zettelkasten/elaboration-through-own-words-deepens-understanding
 status: seed
 tags: [elaboration, learning, topic/pkm, topic/pkm/zettelkasten]

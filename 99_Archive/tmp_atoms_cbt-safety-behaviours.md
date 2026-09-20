@@ -4,10 +4,7 @@ status: tmp
 source_title: Cognitive behavioural strategies for safety behaviours and checking
 source_url: unknown — see original archived file, NHS/NICE CBT sources cited inline
 captured_utc: '2026-09-14T00:00:00Z'
-signal_to_noise: 35% signal / 65% noise (heavy overlap with the Epistemic Safety Through
-  Situational Awareness candidate driver already recorded in Reference - Vault Interest
-  Map, and with the existing 'How to Test Whether Information-Seeking Has Become a
-  Safety Behaviour' procedure)
+signal_to_noise: "35% signal / 65% noise (heavy overlap with the Epistemic Safety Through Situational Awareness candidate driver already recorded in Reference - Vault Interest Map, and with the existing 'How to Test Whether Information-Seeking Has Become a Safety Behaviour' procedure)"
 permalink: llmeon/00-inbox/tmp-atoms-cbt-safety-behaviours
 ---
 

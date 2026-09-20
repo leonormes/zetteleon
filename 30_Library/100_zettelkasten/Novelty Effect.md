@@ -4,7 +4,7 @@ conformant: true
 created: 2025-02-07T12:57:55+00:00
 definition: "The increased interest and engagement people experience when introduced to something new, which acts as a powerful initial motivator but reliably wanes over time (the 'motivation curve', the 'honeymoon phase') as the stimulus stops being novel."
 distinguishes_from: []
-modified: 2026-09-09T12:34:14+00:00
+modified: 2026-09-19T15:44:39+00:00
 permalink: llmeon/30-library/100-zettelkasten/novelty-effect
 tags: [novelty, TheHuman/Health/ADHD]
 title: Novelty Effect

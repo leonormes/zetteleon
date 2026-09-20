@@ -6,7 +6,7 @@ created: 2025-07-17T10:04:00+00:00
 epistemic_status: medium
 evidence_links: []
 last_reviewed: ''
-modified: 2026-09-09T12:34:17+00:00
+modified: 2026-09-19T15:44:44+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-smart-person-conundrum-amplifies-overthinking
 proposition: Higher intelligence increases the number of perceived risks and negative outcomes for a given action, which increases hesitation and reduces engagement with real-world experience.
 status: draft

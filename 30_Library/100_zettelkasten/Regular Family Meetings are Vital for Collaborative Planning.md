@@ -1,16 +1,16 @@
 ---
 aliases: [Family Meetings]
 conformant: true
-created: 2025-11-10 14:18:00+00:00
-modified: 2026-09-09 12:34:15+00:00
+contradicts: []
+created: 2025-11-10T14:18:00+00:00
+epistemic_status: medium
+evidence_links: []
+modified: 2026-09-19T15:44:41+00:00
 permalink: llmeon/30-library/100-zettelkasten/regular-family-meetings-are-vital-for-collaborative-planning
+proposition: Regular family meetings are a vital component of successful family organization, serving as a dedicated time for collaborative planning, problem-solving, and goal setting.
 tags: [communication, family, organization, planning, process]
 title: Regular Family Meetings are Vital for Collaborative Planning
 type: claim
-proposition: Regular family meetings are a vital component of successful family organization, serving as a dedicated time for collaborative planning, problem-solving, and goal setting.
-epistemic_status: medium
-evidence_links: []
-contradicts: []
 ---
 
 ## Regular Family Meetings Are Vital for Collaborative Planning

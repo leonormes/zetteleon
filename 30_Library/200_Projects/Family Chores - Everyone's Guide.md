@@ -1,11 +1,11 @@
 ---
 conformant: true
-created: 2026-07-20 16:28:00+00:00
-modified: 2026-08-29 09:36:17+00:00
+created: 2026-07-20T16:28:00+00:00
+modified: 2026-09-19T15:44:57+00:00
 permalink: llmeon/30-library/200-projects/family-chores-everyones-guide
 status: draft
 tags: [chores, family, guide]
-title: Family Chores - Everyone's Guide
+title: "Family Chores - Everyone's Guide"
 type: project
 ---
 

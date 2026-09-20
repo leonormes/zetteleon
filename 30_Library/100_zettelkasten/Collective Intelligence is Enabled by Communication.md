@@ -1,8 +1,8 @@
 ---
 aliases: []
-created: 2025-10-20 10:04:00+00:00
+created: 2025-10-20T10:04:00+00:00
 last_reviewed: ''
-modified: 2026-09-09 12:34:09+00:00
+modified: 2026-09-19T15:44:33+00:00
 permalink: llmeon/30-library/100-zettelkasten/collective-intelligence-is-enabled-by-communication
 tags: [communication, evolution, sociology, TheHuman/Cognition]
 title: Collective Intelligence is Enabled by Communication

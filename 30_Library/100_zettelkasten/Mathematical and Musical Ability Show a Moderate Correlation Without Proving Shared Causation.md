@@ -1,20 +1,20 @@
 ---
 conformant: true
-created: 2026-09-14 11:41:08+00:00
+contradicts: []
+created: 2026-09-14T11:41:08+00:00
 created_utc: '2026-09-14T00:00:00Z'
-modified: 2026-09-14 11:52:04+00:00
+epistemic_status: high
+evidence_links: []
+modified: 2026-09-19T15:44:39+00:00
 permalink: llmeon/30-library/100-zettelkasten/mathematical-and-musical-ability-show-a-moderate-correlation-without-proving-shared-causation
-source_title: What Drives a Person's Interests? Why Do Some People Love Maths and Logic and Others Not? Why Do Interests Come in Related Bundles?
+proposition: A moderate positive association has been found between latent mathematical and musical ability (r = 0.41), but this is a correlation, not proof that either skill causes the other; broader evidence that music instruction specifically transfers to mathematics ability is inconsistent or limited.
+source_title: "What Drives a Person's Interests? Why Do Some People Love Maths and Logic and Others Not? Why Do Interests Come in Related Bundles?"
 source_url: https://pmc.ncbi.nlm.nih.gov/articles/PMC13027933/
 status: seed
 tags: [domain/mathematics, TheHuman/Cognition, topic/evidence-quality, topic/music]
 title: Mathematical and Musical Ability Show a Moderate Correlation Without Proving Shared Causation
 type: claim
 upstream: '[[tmp_atoms_what-drives-a-persons-interests]]'
-proposition: A moderate positive association has been found between latent mathematical and musical ability (r = 0.41), but this is a correlation, not proof that either skill causes the other; broader evidence that music instruction specifically transfers to mathematics ability is inconsistent or limited.
-epistemic_status: high
-evidence_links: []
-contradicts: []
 ---
 
 ## Mathematical and Musical Ability Show a Moderate Correlation Without Proving Shared Causation

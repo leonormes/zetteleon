@@ -1,9 +1,6 @@
 ---
 created: 2026-02-01T14:02:03+00:00
-description: Consolidate an input note into the vault by finding duplicates/related
-  notes and producing merge+deprecation artefacts. The front door for new content —
-  runs the Triad discovery, classifies against what the vault already holds, and emits
-  typed edges in the compiler-visible vocabulary.
+description: "Consolidate an input note into the vault by finding duplicates/related notes and producing merge+deprecation artefacts. The front door for new content — runs the Triad discovery, classifies against what the vault already holds, and emits typed edges in the compiler-visible vocabulary."
 modified: 2026-07-27T16:20:00+00:00
 permalink: llmeon/10-system/prompts/knowledge-consolidation-agent
 tags: [agent/consolidation, domain/pkm, sot, type/system]

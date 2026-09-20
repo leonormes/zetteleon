@@ -1,8 +1,10 @@
 ---
 conformant: true
-created: 2026-09-07 13:00:00+00:00
+contradicts: []
+created: 2026-09-07T13:00:00+00:00
 epistemic_status: high
-modified: 2026-09-09 12:34:18+00:00
+evidence_links: []
+modified: 2026-09-19T15:44:44+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-stroop-test-assesses-inhibitory-control-via-interference-resistance
 proposition: The Stroop test measures inhibitory control by requiring a person to suppress an automatic response and instead attend to a conflicting instruction.
 source_title: 'Executive Function: Skills for Life'
@@ -11,8 +13,6 @@ status: seed
 tags: [assessment, executive-function, inhibitory-control, TheHuman/Cognition]
 title: The Stroop Test Assesses Inhibitory Control via Interference Resistance
 type: claim
-contradicts: []
-evidence_links: []
 ---
 
 ## The Stroop Test Assesses Inhibitory Control via Interference Resistance

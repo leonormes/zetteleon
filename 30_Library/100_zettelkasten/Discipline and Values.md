@@ -2,9 +2,11 @@
 aliases: []
 axiom: true
 conformant: true
-created: 2025-02-07 12:57:55+00:00
+contradicts: []
+created: 2025-02-07T12:57:55+00:00
 epistemic_status: high
-modified: 2026-09-09 12:34:10+00:00
+evidence_links: []
+modified: 2026-09-19T15:44:34+00:00
 permalink: llmeon/30-library/100-zettelkasten/discipline-and-values
 prodos.kind: atomic
 prodos.lifecycle: stable
@@ -12,8 +14,6 @@ proposition: Discipline is the conscious alignment of choices with deeply held v
 tags: [beliefs, discipline, eudaimonia, values]
 title: Discipline and Values
 type: claim
-contradicts: []
-evidence_links: []
 ---
 
 Discipline is about making conscious choices that align with one's values and goals, not about deprivation or self-denial.

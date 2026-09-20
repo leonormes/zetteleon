@@ -1,9 +1,11 @@
 ---
 aliases: [The Build-It Standard Tests Understanding Through Creation]
 conformant: true
-created: 2026-07-25 11:17:00+00:00
+contradicts: []
+created: 2026-07-25T11:17:00+00:00
 epistemic_status: medium
-modified: 2026-09-09 12:34:06+00:00
+evidence_links: []
+modified: 2026-09-19T15:44:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/2026-07-25-build-it-standard-tests-understanding-via-creation
 prodos.kind: atomic
 prodos.lifecycle: stable
@@ -11,8 +13,6 @@ proposition: Passive familiarity with a mental model or code library is not enou
 tags: [bias, learning, mental_models, TheHuman/Cognition]
 title: 2026-07-25-build-it-standard-tests-understanding-via-creation
 type: claim
-contradicts: []
-evidence_links: []
 ---
 
 "What I cannot create, I do not understand"—Feynman's line names the actual test. You don't understand a code library until you've built something small with it. You don't understand a mental model until you've applied it to a real problem. This is one of the source's named Forcing Functions (antidotes) for IoED: move from passive consumption to active creation.

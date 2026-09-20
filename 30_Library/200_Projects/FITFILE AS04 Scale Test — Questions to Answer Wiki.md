@@ -1,11 +1,11 @@
 ---
-id: "FITFILE AS04 Scale Test — Questions to Answer Wiki"
 aliases: []
-tags: []
 created: 2026-07-13T15:45:51+00:00
-modified: 2026-08-29T09:36:14+00:00
+id: "FITFILE AS04 Scale Test — Questions to Answer Wiki"
+modified: 2026-09-19T15:44:54+00:00
 permalink: llmeon/00-inbox/pieces-copilot-message-export-july-13-2026-4-45pm-1
-title: "FITFILE AS04 Scale Test — Questions to Answer Wiki"
+tags: []
+title: FITFILE AS04 Scale Test — Questions to Answer Wiki
 type: note
 ---
 

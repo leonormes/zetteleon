@@ -1,10 +1,8 @@
 ---
 type: tmp_atoms
 status: tmp
-source_title: What Drives a Person's Interests? Why Do Some People Love Maths and
-  Logic and Others Not? Why Do Interests Come in Related Bundles?
-source_url: unknown — compiled research note; individual claims cite external sources
-  inline (see footnote appendix at end of this file)
+source_title: "What Drives a Person's Interests? Why Do Some People Love Maths and Logic and Others Not? Why Do Interests Come in Related Bundles?"
+source_url: "unknown — compiled research note; individual claims cite external sources inline (see footnote appendix at end of this file)"
 captured_utc: '2026-09-14T00:00:00Z'
 signal_to_noise: 85% signal / 15% noise
 permalink: llmeon/00-inbox/tmp-atoms-what-drives-a-persons-interests
