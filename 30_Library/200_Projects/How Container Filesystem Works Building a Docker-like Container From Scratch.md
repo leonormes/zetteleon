@@ -3,7 +3,7 @@ aliases: [dockercontainer]
 author: Ivan Velichko
 conformant: false
 created: 2026-05-02T06:54:32+00:00
-modified: 2026-09-21T08:36:12+00:00
+modified: 2026-09-21T11:44:36+00:00
 non_conformance_reason: "Third-party clipped tutorial (Ivan Velichko, iximiuz Labs) filed in 200_Projects. type `project` is the folder and project_* default, but the content is external reference material rather than a project, so the canonical type needs a human decision (e.g. procedure, or atomic notes extracted from it). Title corrected from 'dockercontainer' to match the filename; old title kept as an alias."
 permalink: llmeon/30-library/200-projects/dockercontainer
 project_category: infrastructure
@@ -1264,6 +1264,10 @@ _Click to enlarge_
 - [[Build a Container From Scratch Web Server Project]]—_A sibling from-scratch build (Python web server) with a broader scope covering process, network and resource isolation._
 - [[building_linux_containers_using_base_linux_primitives]]—_A condensed summary of the same primitives, including the `chroot` versus `pivot_root` distinction the tutorial explains in detail._
 - [[Runc Container Practice]]—_The OCI runtime that automates what this tutorial does by hand._
+
+### Further Reading (Personal Library)
+
+- [Container Security — Liz Rice, "Changing the Root Directory", p. 83](calibre://view-book/GCcalibreBooks/720/EPUB)—_explains changing a process's root directory so that a container sees only a subset of the host filesystem, the isolation step this tutorial builds by hand._
 
 ### Maps
 

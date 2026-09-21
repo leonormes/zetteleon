@@ -1,7 +1,7 @@
 ---
 created: 2026-07-30T10:54:49+00:00
 description: Take ONE bare/orphan note with few or no links, discover and propose its connections into 30_Library/100_zettelkasten, SoT, and MoC, then—once you've applied the proposal—immediately thread-audit the note in its new position. Single-note composition of the Router's bootstrap → hygiene → epistemics pipeline.
-modified: 2026-09-18T00:00:00+00:00
+modified: 2026-09-21T11:44:36+00:00
 permalink: llmeon/10-system/prompts/orphan-note-positioning-thread-audit
 tags: [agent/refresher, domain/pkm, link-audit, sot, type/system, topic/knowledge-graph]
 title: Orphan Note Positioning & Thread Audit
@@ -31,9 +31,9 @@ You are positioning a single note that currently has no meaningful place in the 
 2. Otherwise the `obsidian` CLI (`search`, `search:context`, `read`, `backlinks`)—verified fallback whenever Obsidian desktop is running.
 3. For the personal-library scour (§1.3b), prefer an `archilles_1mcp_*` MCP tool (e.g. `archilles_1mcp_search_books_with_citations`) if reachable in your session; otherwise use the verified CLI fallback:
    ```
-   cd ~/.local/share/archilles && export ARCHILLES_LIBRARY_PATH="/Users/leon.ormes/My Drive/GCcalibreBooks" && .venv/bin/python scripts/rag_demo.py query "<query>" --mode semantic --top-k 6 --max-per-book 1
+   cd ~/.local/share/archilles && export ARCHILLES_LIBRARY_PATH="/Volumes/DAL/GCcalibreBooks/GCcalibreBooks" && .venv/bin/python scripts/rag_demo.py query "<query>" --mode semantic --top-k 6 --max-per-book 1
    ```
-   Build any citation link as `calibre://view-book/<Library_Folder_Name>/<calibre_id>/<FORMAT>` (library folder name = basename of `ARCHILLES_LIBRARY_PATH`, currently `GCcalibreBooks`; `<FORMAT>` uppercase, matching a format the book actually has). The bare `calibre://view/<id>` form is invalid Calibre syntax and does nothing when clicked.
+   Build any citation link as `calibre://view-book/<Library_Folder_Name>/<calibre_id>/<FORMAT>` (library folder name = basename of `ARCHILLES_LIBRARY_PATH`, currently `GCcalibreBooks`; `<FORMAT>` uppercase, matching a format the book actually has). The bare `calibre://view/<id>` form is invalid Calibre syntax and does nothing when clicked. Search output carries no Calibre id or format, so look both up read-only: `sqlite3 -readonly "file:/Users/leon.ormes/My Drive/GCcalibreBooks/metadata.db?mode=ro" "select b.id, b.title, group_concat(d.format) from books b left join data d on d.book=b.id where b.title like '<Title>%' group by b.id"`. The CLI path above is the DAL copy on purpose: the Google Drive copy's `rag_db/` can contain a stray zero-byte `Icon` file that breaks LanceDB (never fix that with `--reset-db`).
 4. Raw filesystem `Read`/grep only as a last resort, and never blind—read a note via one of the above before editing it. If you land here, say so explicitly and downgrade every coverage claim: lexical search, not semantic.
 5. All graph state comes from the compiler, never memory or ad-hoc grep:
    ```
@@ -66,7 +66,7 @@ Verify before asserting. Every note you name must have been read or confirmed to
 
 ### 1.3b Personal library scour (ARCHILLES ebooks, unscoped by folder)
 
-Separately from §1.3's vault-only search, run 1–3 semantic queries against the personal Calibre library via ARCHILLES (see Tooling Protocol), phrased around the Target's mechanism in your own words rather than its exact sentences. This never substitutes for vault positioning—an ebook cannot anchor the Target under a hub or stand in for a sibling atomic note—it only adds corroborating or illustrative external evidence. Keep hits with relevance ≳0.55 whose snippet genuinely bears on the Target's claim; discard keyword-only matches. Zero matches is a normal, reportable outcome.
+Separately from §1.3's vault-only search, run 1–3 semantic queries against the personal Calibre library via ARCHILLES (see Tooling Protocol), phrased around the Target's mechanism in your own words rather than its exact sentences. This never substitutes for vault positioning—an ebook cannot anchor the Target under a hub or stand in for a sibling atomic note—it only adds corroborating or illustrative external evidence. Keep semantic-mode hits with relevance ≳0.30 (hybrid scores are not comparable; anything at or below 0.6 is labelled 'medium' by ARCHILLES, and irrelevant passages can score as high as relevant ones, so read the passage) whose snippet, read in full, genuinely bears on the Target's claim; discard keyword-only matches. Zero matches is a normal, reportable outcome.
 
 ### 1.4 Classify each candidate connection
 

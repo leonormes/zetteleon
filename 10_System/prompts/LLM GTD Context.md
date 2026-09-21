@@ -1,8 +1,10 @@
 ---
 aliases: []
+conformant: false
 created: 2025-10-16T08:19:54+00:00
 description: "Background context on the Getting Things Done (GTD) methodology — projects vs. next actions, the five phases of workflow control, and the six horizons of focus. Inject alongside planning, review, or task-triage prompts that assume GTD vocabulary."
-modified: 2026-07-20T16:34:39+00:00
+modified: 2026-09-21T12:03:22+00:00
+non_conformance_reason: Type prompt is the library-wide convention for 10_System/prompts but is not in the FrontmatterContract type enum, so all prompt notes share this error and it needs a schema decision rather than a per-note fix.
 permalink: llmeon/10-system/prompts/llm-gtd-context
 tags: [domain/productivity, type/context]
 title: LLM GTD Context
@@ -80,3 +82,38 @@ The principle of making work visible optimizes flow and prevents capacity overlo
 - Do It, Delegate It, or Defer It (The 3 Ds): If an action takes less than two minutes, do it immediately. If it takes longer, delegate it or defer it into your trusted system.
 - Weekly Review is Non-Negotiable: Dedicate time (ideally weekly) to review projects, clean up inputs, and ensure systems are current; this is the key to sustainability.
 - Bottom-Up Focus: In times of high confusion or stress, focus on fixing Ground-level issues (e.g., clearing the in-tray) before tackling high-level strategic planning, as control facilitates perspective.
+
+---
+
+## Vault Notes (not part of the injected context)
+
+> Stop injecting at the rule above. Everything below is vault navigation for humans and agents working in the vault, not GTD context for the LLM.
+
+### How the vault uses this note
+
+- [[Habit 2 - Begin with the End in Mind]] and [[Habit 4 - Think Win-Win]] depend on this note for the Horizons of Focus model (Horizons 5 and 4, and Horizon 2, respectively), because no dedicated note carries it. Do not add links or edges from here back to them.
+- [[Effective Productivity Comes From the Bottom Up]] develops the Bottom-Up Focus practice from the summary above.
+- [[00 - Prompt Library Router]] routes to this note as the GTD methodology background. Pair it with [[leon-context-core-profile]] for the ADHD and Chief of Staff framing.
+
+### The vault's own GTD notes, by section
+
+- Foundational philosophy: [[GTD and the Cognitive Load of Execution]] and [[Claim - Capture is easy but processing is hard]].
+- Projects versus actions: [[SoT - Execution Protocol (GTD & PARA)]] is the vault's specialisation. It adds a PARA container above each GTD project and requires projects to be named as completed outcomes. For next actions see [[A Next Action Must Be the Absolute Next Physical Visible Activity Required to Move a Situation Forward]] and the overlapping [[Next Action is the Immediate Physical Step Forward]].
+- The five phases: [[The Clarification Ritual (Stuff to Action)]], [[Every Clarified Item Must Pass a Binary Actionability Test to Determine Its Categorical Flow]], [[Never Return an Item to the In-Tray Once Picked Up for Clarification]], [[The Clarify Stage Is the Executive Decision-Making Bridge Between Stuff and Action]] and [[For ADHD The Clarification Process Externalizes Decision-Making and Builds System Trust]]. For Reflect: [[The Purpose of a Weekly Review is to Restore Trust in Your System]] and [[Weekly Review Verifies Project Actionability and Context]].
+- Making action choices: [[Contexts Reduce Overwhelm and Support Working Memory for ADHD]].
+- Work visibility: [[Concurrent Task Overload Creates Non-Linear Administrative Overhead That Destroys Focus]].
+- Best practices: [[If a Next Action Takes Less Than Two Minutes Do It Immediately Rather Than Track It]].
+- Applied elsewhere: [[Protocol - Action-First GTD (LLM Chief of Staff)]], [[Optimised GTD Context Auditor for Pieces LTM]] and [[Deep Dive Sessions for ADHD (Adapted GTD Next Actions)]].
+
+### Where this prompt and the vault differ
+
+- The project examples above ("Install new set of tires") are not named as completed outcomes, which the Execution Protocol SoT requires.
+- The "3 Ds" line (do, delegate, defer) matches no other note in the vault. The clarification notes route non-actionable items to Trash, Incubate or Reference and do not name the Ds.
+- Section 6 (Work Visibility and Flow Management) is not GTD material. It follows the work-in-progress and make-work-visible literature (see Further Reading). The twenty-minute context-switch recovery figure has no source in the vault.
+
+### Further Reading (Personal Library)
+
+- [Getting Things Done — David Allen, Ch. 1 "A New Practice for a New Reality"](calibre://view-book/GCcalibreBooks/1608/EPUB)—_uses the phrase "mind like water" (compared with the martial arts and the athlete's "zone"), the state section 1 names as the goal._
+- [Getting Things Done — David Allen, Ch. 3 "Getting Projects Creatively Under Way"](calibre://view-book/GCcalibreBooks/1608/EPUB)—_describes the next-action decision as asking what, specifically, you would physically do about something if you had nothing else to do, which is the test behind section 2._
+- [Making It All Work — David Allen, Ch. 6 "Getting Control: Clarifying"](calibre://view-book/GCcalibreBooks/226/PDF)—_notes that active projects all have specific next actions determined, while the someday category has none attached._
+- [Making Work Visible — Dominica DeGrandis, Section 2.4 "Committing the Perfect Crime: Unplanned Work"](calibre://view-book/GCcalibreBooks/225/EPUB)—_the source family for section 6: unplanned work that is not made visible leaves no evidence of what is displacing planned work._

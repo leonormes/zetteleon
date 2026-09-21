@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-09-19T15:44:31+00:00
+modified: 2026-09-21T16:16:38+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-loading
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Loading
@@ -25,6 +25,9 @@ Loading is the act of drawing the bow using the scapular retractors and shoulder
 
 ### Why It Works
 
+- **The Two Lines of Alignment**: Proper skeletal alignment transfers the bow's force directly through your bone structure, requiring significantly less muscular effort and preventing technique breakdown under pressure. When viewed from above, you should achieve two straight lines:
+  - **The Shoulder Line**: Intersects your bow hand, bow shoulder, and draw shoulder.
+  - **The Elbow Line**: Intersects the pressure point on your bow grip, your draw wrist, and your draw elbow.
 - Drawing with the core, torso, and back muscles ("lawnmower pull") provides generating drawing power and avoids fatiguing bicep or forearm muscles.
 - The NTS mandates an angular draw kinematic over linear pulling. Moving LAN2 around behind the head automatically engages back muscles and lower trapezius without needing to micromanage muscle contractions. By the end of the loading phase, this shifts the vast majority of the draw weight away from the arms, ensuring the back muscles hold approximately 80% of the bow's peak weight.
 - Squeezing the shoulder blades together achieves the final inch of draw length and transfers heavy bow weight from arm muscles to stronger back muscles.
@@ -34,9 +37,12 @@ Loading is the act of drawing the bow using the scapular retractors and shoulder
 
 ### Faults & Diagnostics
 
+- Elevated & Retracted Bow Shoulder: A bow shoulder that is elevated towards the ear and pushed back into the body destroys the Shoulder Line alignment, creating severe instability and a lack of forward direction.
+- Dropping the Back Elbow: Pulling back with a low elbow causes a loss of power in the string, resulting in arrows hitting low or completely under the target. Keep your back elbow up high during the draw.
 - Collapsing Draw Elbow: At no point should the draw elbow collapse or be pulled forward toward the target. This ruins alignment.
 - The "Hand Only" Draw Illusion: A common mistake is closing the gap purely with your hand while your elbow remains stagnant and stops moving backward.
 - Kinking the Wrist: Bending your wrist inward (a collapsed or "broken" wrist) forces your elbow to point in the wrong direction, preventing force from transferring cleanly through your scapula and back muscles. To fix this, maintain a "high wrist" (shaped similar to an eagle's claw), which naturally guides your elbow to rotate back and around behind you.
+- Locked Draw Wrist: Keeping the wrist of the drawing hand completely locked and tense negatively affects elbow rotation and blocks proper back tension. Let the fingers act as relaxed hooks and let the elbow lead the movement.
 - Lack of Physical Flexibility: If your chest and shoulders lack flexibility, you physically cannot get your elbow in line to reach proper back tension. Test this by laying flat on your back; if your elbows cannot touch the floor, you need to stretch (e.g., on a bench) to improve mobility.
 - The Proprioception Trap: Actively thinking about flexing specific back muscles often causes unwanted tension in the upper traps and a failure to expand through the shot. Focus on the overall direction of physical movement instead.
 - Loading Too Low: Do not load more than an inch below the jaw, as rising up into anchor from too low causes a loss of back tension.
@@ -120,6 +126,9 @@ Loading is the act of drawing the bow using the scapular retractors and shoulder
 ### References
 
 - [WHY YOU CANNOT GET BACK TENSION (Shatterproof Archery)](https://youtu.be/cEP55W2E6v8)
+- Top 10 Mistakes in Beginner Archery Classes (Online Archery Academy)
+- Shoulder Alignment (Online Archery Academy)
+- Three A's of Accuracy: Aim, Anchor, Alignment | Archery Basics (NUSensei)
 
 ---
 

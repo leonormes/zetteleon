@@ -5,7 +5,7 @@ created: 2026-09-21T08:54:40+00:00
 created_utc: '2026-09-21T08:54:40+00:00'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-21T09:17:36+00:00
+modified: 2026-09-21T11:44:36+00:00
 non_conformance_reason: ''
 permalink: llmeon/00-inbox/communicating-depends-on-modelling-what-the-listener-already-knows
 proposition: Effective communication depends on the implicit model a speaker holds of what the listener already knows and is likely to misunderstand.
@@ -45,3 +45,7 @@ Source: [[beyond words]] (line 191).
 ### See Also
 
 - [[MOC - The Gap Between Thought and Language]]
+
+#### Further Reading
+
+- [The Sense of Style — Steven Pinker, Ch. 3 "The Curse of Knowledge"](calibre://view-book/GCcalibreBooks/801/EPUB)—_names the curse of knowledge, that the better you know something the less you remember how hard it was to learn, as the main reason good people write bad prose._

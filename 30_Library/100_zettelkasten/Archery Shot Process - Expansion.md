@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-09-19T15:44:31+00:00
+modified: 2026-09-21T16:09:04+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-expansion
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Expansion
@@ -38,9 +38,17 @@ Expansion is the continuation of dynamic tension throughout the shot process, ma
 
 ### Faults & Diagnostics
 
+- **Overdrawn (Draw length too long)**:
+  - *Lack of flexibility*: You can't extend the arrow past the clicker any further; it feels maxed out.
+  - *Stuck*: You feel completely stuck at full draw with nowhere to go.
+  - *Arching the back*: You break posture and lose core engagement to force the expansion.
+- **Underdrawn (Draw length too short)**:
+  - *Clicking early*: The clicker goes off before you fully reach anchor, causing subconscious form compromises (like collapsing the bow shoulder) on the next shot to prevent it.
+  - *Floating feeling*: You don't feel securely locked in or "inside the bow."
+  - *Weak release*: The shot feels soft, and the release hand moves outward instead of straight back.
 - The Smoothness Trap: Forcing a perfectly smooth, effortless-looking release often causes intermediate archers to collapse.
 - Head & Neck Drift: The head visibly shifts backward as you try to force the arrow through the clicker.
-- Forward Lean / Stretching: The torso or front shoulder stretches forward toward the target face.
+- Forward Lean / Stretching (Postural Compensation): The torso or front shoulder stretches forward toward the target face during expansion. This is often a clue that your initial posture at the start of the shot wasn't set correctly and was already biased to lean forward. You cannot fix a bad setup during the expansion phase.
 - Clicker Mechanical Integrity: If your arrow shaft visibly bounces or jumps upward the instant the clicker blade releases, you have an equipment problem (blade tension too high).
 - Rushing (Lack of Back Tension): Back tension takes a moment to initiate and consolidate. Rushed archers pull the string back and instantly let go using only arm and finger muscles. This causes a weak release, lateral spread, and forward collapsing (especially as draw weight increases or a clicker is added).
 
@@ -76,9 +84,26 @@ Expansion is the continuation of dynamic tension throughout the shot process, ma
   1. Intentionally monitor your diaphragm during the expansion phase.
   2. Verify that expansion is performed exclusively during a natural respiratory pause (breath held) and not during an active inhale or exhale.
 
+#### True Draw Length Blank Bale Test
+
+- Purpose: Finds your natural, consistent draw length without aiming anxiety.
+- How to do it:
+  1. Stand close to a blank bale. Draw your bow with an arrow loaded and your eyes closed.
+  2. Perform your normal shot cycle. Have a coach mark where the arrow point sits right before expansion.
+  3. Do this 3-6 times per session, across 3 separate non-consecutive days, to find your true average draw length. Adjust your clicker to this mark.
+
+#### Clickerless Shooting Drill
+
+- Purpose: Prevents adapting your technique to a static clicker position.
+- How to do it:
+  1. Shoot without a clicker regularly to see where your natural draw length falls.
+  2. Always adjust the clicker to match your body's natural expansion, not the other way around. Note: Don't be afraid to adjust your clicker by 2-3mm when shooting longer distances (e.g., 70m), as the higher bow angle can slightly alter your natural draw length.
+
 ### References
 
 - Archery | Rushed Shot Processes - Slow Down! (NUSensei)
+- How to find your correct recurve draw length (Online Archery Academy)
+- How To Analyse Your Expansion - Recurve Archery Technique (Online Archery Academy)
 
 See also: [[Archery Shot Process - Finger Tab Selection & Maintenance]]—a passive, unclenched tab hook keeps the hand out of the way of LAN2-driven scapular expansion.
 

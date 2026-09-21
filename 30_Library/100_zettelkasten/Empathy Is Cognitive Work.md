@@ -5,7 +5,7 @@ created: 2026-09-21T08:54:40+00:00
 created_utc: '2026-09-21T08:54:40+00:00'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-21T09:17:36+00:00
+modified: 2026-09-21T11:44:36+00:00
 non_conformance_reason: ''
 permalink: llmeon/00-inbox/empathy-is-cognitive-work
 proposition: Understanding another person requires active effort to bridge conceptual
@@ -46,3 +46,8 @@ Source: [[beyond words]] (line 151).
 ### See Also
 
 - [[MOC - The Gap Between Thought and Language]]
+
+#### Further Reading
+
+- [Supercommunicators — Charles Duhigg, "Touchy-Feely Hedge Funders"](calibre://view-book/GCcalibreBooks/700/EPUB)—_says effective communication requires adopting the perspective of the other person and showing empathy._
+- [Emotional Intelligence — Daniel Goleman, Ch. 7 "The Roots of Empathy"](calibre://view-book/GCcalibreBooks/300/EPUB)—_notes that emotions are rarely put into words, so intuiting another person's feelings depends on reading nonverbal channels such as tone of voice, gesture and facial expression._

@@ -56,6 +56,7 @@ Use external cues to trigger the "Project Identity."
 - The Execution: [[SoT - Breaking the Creation Cycle]]—_The step-by-step protocol for moving from 'Stuck' to 'Flow'._
 - The Boundary: [[The Done State as a Boundary for ADHD Projects]]—_Defining 'Good Enough' to prevent infinite polish loops._
 - The Accountability: [[External Accountability Sustains ADHD Project Commitment]]—_Adding social stakes to maintain urgency._
+- The Weekly Check: [[Weekly Review Verifies Project Actionability and Context]]—_A recurring pass that gives every project a done state, a next action, contexts and starter tasks, so quiet projects stay re-enterable._
 
 ---
 

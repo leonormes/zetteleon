@@ -6,7 +6,7 @@ contradicts: []
 created: 2025-11-01T09:51:13+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-21T07:51:04+00:00
+modified: 2026-09-21T11:44:36+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/bayesian-updating-adjusts-beliefs-as-new-evidence-arrives
 proposition: "Bayesian updating formalizes learning as iterative adjustment of beliefs, operationalizing open-mindedness without relativism."
@@ -31,6 +31,11 @@ Details: Bayesian updating formalizes learning as the iterative adjustment of be
 - [[Cognitive Biases Reinforce Mental Models]]—_The failure mode this practice counters: confirmation bias and dissonance resist updating even when the evidence has shifted._
 - [[Committing Thought to Language Reveals Actual Versus Assumed Beliefs]]—_Supports the "state your priors explicitly" practice: writing a prior down surfaces what you actually believe before you revise it._
 - [[Strong Opinions, Loosely Held Balances Conviction and Humility]]—_The decision posture that depends on this discipline: "loosely held" is only workable with a rule for when and how far to revise._
+
+### Further Reading (Personal Library)
+
+- [The Big Picture — Sean Carroll, Ch. 10 "Updating Our Knowledge"](calibre://view-book/GCcalibreBooks/127/EPUB)—_works through Bayesian updating from a prior, showing that enough contrary evidence wipes out even a very confident prior, which is what changing your mind means._
+- [Theory and Reality — Peter Godfrey-Smith, §12.5 "Bayesianism and Evidence", p. 1](calibre://view-book/GCcalibreBooks/1611/EPUB)—_states the iterative core plainly: today's posteriors are tomorrow's priors._
 
 ### Maps
 

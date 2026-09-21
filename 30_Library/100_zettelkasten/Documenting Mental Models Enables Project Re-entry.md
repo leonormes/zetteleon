@@ -8,7 +8,7 @@ created: 2025-10-30T15:00:39+00:00
 epistemic_status: medium
 evidence_links: []
 last_reviewed: 2025-10-30
-modified: 2026-09-21T07:40:21+00:00
+modified: 2026-09-21T11:44:36+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/documenting-mental-models-enables-project-re-entry
 proposition: Capturing your mental model while actively creating—through mind maps, flowcharts, voice memos, or written notes—creates a bridge to reconnect with complex ideas when returning to projects.
@@ -45,6 +45,11 @@ Details: When in flow, your mental model of a project feels vivid and complete�
 - [[A Project Story Tracks a Project's Evolving Vision]]—_Complements model capture with a running record of the why and the key decisions._
 - [[Leaving a Task Intentionally Unfinished Creates a Clear Starting Point]]—_Complementary: documentation restores the model, while an unfinished task supplies the first action to take with it._
 - [[Momentum-Based Re-Entry Points Ease Project Resumption]]—_Complementary: lowers the activation energy for restarting once the model has been recovered._
+
+### Further Reading (Personal Library)
+
+- [Sketch Your Mind — Zsolt Viczián, "Become an Ambidextrous Thinker", p. 225](calibre://view-book/GCcalibreBooks/1173/EPUB)—_a visual-first note paired with contextual text: one way of capturing an understanding as an image plus supporting context._
+- [How to Take Smart Notes — Sönke Ahrens, Ch. 9 "Separate and Interlocking Tasks"](calibre://view-book/GCcalibreBooks/704/EPUB)—_argues for a reliable external system to hold nagging thoughts, the offloading that documenting a mental model relies on._
 
 ### Maps
 

@@ -11,3 +11,7 @@ updated: null
 ---
 
 For an ADHD-friendly system, the non-negotiable upfront planning is defining the concrete, successful "done" state for a project, which acts as a boundary and reduces stress. An example is changing a vague outcome like "get my head around CNI usage" to a concrete "A two-page comparison document of CNI options".
+
+## Related
+
+- [[Strategies for Clearly Defining “Done”]]—_Practical ways to write, test and close a done state, including a section on managing perfectionism._

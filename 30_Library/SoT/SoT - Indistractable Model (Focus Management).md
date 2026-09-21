@@ -2,7 +2,7 @@
 aliases: [Focus Management, The Indistractable Model, Traction vs Distraction]
 conformant: true
 created: 2025-12-24T12:10:45+00:00
-modified: 2026-09-21T10:43:09+00:00
+modified: 2026-09-21T11:44:36+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/so-t/so-t-indistractable-model-focus-management
 tags: [focus, indistractable, productivity, psychology, TheHuman/Health/ADHD]
@@ -104,6 +104,10 @@ _Binding your future self to prevent impulsive behavior._
 #### Review
 
 - [[The Purpose of a Weekly Review is to Restore Trust in Your System]]—_Shared mechanism with the Review step: a weekly check keeps the system current and trustworthy._
+
+#### Further Reading (Personal Library)
+
+- [Indistractable — Nir Eyal, "The Power of Precommitments"](calibre://view-book/GCcalibreBooks/687/EPUB)—_the source of Pillar 4: binding your future self, illustrated with financial precommitments such as penalties for early withdrawal._
 
 #### Maps
 

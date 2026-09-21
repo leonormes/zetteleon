@@ -1,7 +1,7 @@
 ---
 created: 2026-04-17T09:15:00+00:00
 description: "Audit and refresh a specific note by fixing broken links, verifying connectivity, discovering new semantic neighbors, and making it conformant to the FrontmatterContract and the typed-edge metadata syntax (validated by edge_lint.py)."
-modified: 2026-09-18T00:00:00+00:00
+modified: 2026-09-21T11:44:36+00:00
 permalink: llmeon/10-system/prompts/note-refresh-link-auditor
 tags: [agent/refresher, domain/pkm, link-audit, sot, topic/knowledge-graph, type/system]
 title: Note Refresh & Link Auditor
@@ -29,9 +29,9 @@ You are an expert in graph integrity and semantic connectivity. Your mission is 
 2. Otherwise use the `obsidian` CLI (`search`, `search:context`, `read`, `backlinks`) as the verified fallback.
 3. For the personal-library discovery step (Phase 2.6), prefer an `archilles_1mcp_*` MCP tool (e.g. `archilles_1mcp_search_books_with_citations`) if one is reachable in your session. Otherwise use the verified CLI fallback:
    ```
-   cd ~/.local/share/archilles && export ARCHILLES_LIBRARY_PATH="/Users/leon.ormes/My Drive/GCcalibreBooks" && .venv/bin/python scripts/rag_demo.py query "<query>" --mode semantic --top-k 6 --max-per-book 1
+   cd ~/.local/share/archilles && export ARCHILLES_LIBRARY_PATH="/Volumes/DAL/GCcalibreBooks/GCcalibreBooks" && .venv/bin/python scripts/rag_demo.py query "<query>" --mode semantic --top-k 6 --max-per-book 1
    ```
-   Build every citation link as `calibre://view-book/<Library_Folder_Name>/<calibre_id>/<FORMAT>` — library folder name is the basename of `ARCHILLES_LIBRARY_PATH` (currently `GCcalibreBooks`), `<FORMAT>` is uppercase and must be one the book actually has (the search result's own `format` metadata, or check `calibredb list`/`metadata.db` if unsure). Never emit the bare `calibre://view/<id>` form — it is not a valid Calibre URL scheme and silently does nothing when opened.
+   Build every citation link as `calibre://view-book/<Library_Folder_Name>/<calibre_id>/<FORMAT>` — library folder name is the basename of `ARCHILLES_LIBRARY_PATH` (currently `GCcalibreBooks`), `<FORMAT>` is uppercase and must be one the book actually has (the search result's own `format` metadata, or check `calibredb list`/`metadata.db` if unsure). Never emit the bare `calibre://view/<id>` form — it is not a valid Calibre URL scheme and silently does nothing when opened. Search output carries no Calibre id or format, so look both up read-only: `sqlite3 -readonly "file:/Users/leon.ormes/My Drive/GCcalibreBooks/metadata.db?mode=ro" "select b.id, b.title, group_concat(d.format) from books b left join data d on d.book=b.id where b.title like '<Title>%' group by b.id"`. The CLI path above is the DAL copy on purpose: the Google Drive copy's `rag_db/` can contain a stray zero-byte `Icon` file that breaks LanceDB (never fix that with `--reset-db`).
 4. Verification: Before assuming a file exists, verify its path or title via search.
 5. Surgical Update: apply targeted edits to the specific lines that changed. Do not overwrite the entire note if a surgical update is possible.
 
@@ -91,7 +91,7 @@ Obey these rules:
 ### Phase 2.6: Personal Library Discovery (ARCHILLES ebooks)
 
 1. From the same 3–5 core concepts extracted in Phase 2, run 1–3 semantic queries against the personal Calibre library via ARCHILLES (see Tooling Protocol). Phrase each query around the claim's *mechanism*, paraphrased in your own words—not the note's own sentences—so the search surfaces books that independently corroborate or illustrate the claim rather than just echoing its vocabulary back.
-2. Keep only genuinely on-topic hits: relevance ≳0.55 in this corpus AND the returned snippet actually bears on the claim, not merely shares a keyword. Discard noise the vector search occasionally surfaces from an unrelated domain (e.g. a software-engineering manual matching on a generic word like "model" or "abstraction").
+2. Keep only genuinely on-topic hits: semantic-mode relevance ≳0.30 (ARCHILLES labels anything at or below 0.6 'medium'; on-topic hits in this corpus typically score 0.30–0.50 and irrelevant ones can score as high, so the score only cuts the floor and the passage itself must be read; hybrid mode returns fused rank scores of about 0.03 that this bar does not apply to, so use `--mode semantic`) AND the returned snippet, read in full, actually bears on the claim, not merely shares a keyword. Discard noise the vector search occasionally surfaces from an unrelated domain (e.g. a software-engineering manual matching on a generic word like "model" or "abstraction").
 3. This is a citation-finding step, not a vault-linking one—no `[[wikilink]]` and no typed edge is created here (a typed edge's target must be a vault note or block; an ebook is neither). Treat every result as semantic-similarity evidence, not confirmed on-topic reading, and say so in the output.
 4. If nothing clears the relevance/on-topic bar, report "no personal-library matches" rather than forcing a weak citation.
 

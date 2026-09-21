@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-08-24T00:00:00+01:00
-modified: 2026-09-19T15:44:31+00:00
+modified: 2026-09-21T16:13:46+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-finger-tab-selection-maintenance
 tags: [archery, equipment, maintenance, prodos/atomic]
 title: Archery Shot Process - Finger Tab Selection & Maintenance
@@ -33,6 +33,7 @@ Details:
 ### Leather Trimming
 
 - Trim leather to just past the fingertips. Overly long leather pinches between fingers and riser during arrow paradox, or catches the string and interferes with the string picture.
+- Upper Edge Clearance: If shooting without a metal shelf, ensure the leather does not rise too high above your index finger. Excess leather on the top edge will physically block your finger from making a clean, snug, bone-to-bone connection with your jawline.
 
 ### Tiered Market Guide
 
@@ -45,6 +46,7 @@ Details:
 
 ### Customization
 
+- Modify the Plate / Spacer: Do not be afraid to physically modify your tab hardware (e.g., using sandpaper, a file, or an angle grinder on the metal plate or plastic spacer) so that it perfectly fits the unique shape of your hand. A stock tab that doesn't fit your hand will block your anchor point.
 - Paracord Strap Swap: replace stock finger straps with high-strength paracord and a sliding knot to lock the tab against rotation/slip through the draw cycle.
 - Face leather thickness/hardness tunes perceived arrow spine via impulse duration: thicker/harder leather shortens contact time (stiffer reaction); thinner/softer leather lengthens it (softer reaction).
 
@@ -61,6 +63,9 @@ Details:
 
 ---
 
-Reference: Recurve Finger Tab Selection & Optimisation Guide (captured note, 00_Inbox).
+Reference: 
+- Recurve Finger Tab Selection & Optimisation Guide (captured note, 00_Inbox).
+- How To Finally Find Your Anchor Point - Recurve Archery Technique (Online Archery Academy)
+- The RIGHT Anchor For You (Online Archery Academy)
 
 [[MOC - Archery Shot Process]]

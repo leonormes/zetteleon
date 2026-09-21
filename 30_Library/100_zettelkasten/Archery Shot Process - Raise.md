@@ -18,7 +18,7 @@ Raise is the act of lifting the bow to eye level while seating the bow-side shou
 2. Weight forward—shift a small amount of weight onto the front foot so the bow shoulder drops and elongates.
 3. Pre-tension the string—take up slight tension (approx. 1 inch).
 4. Lift & Breathe (Zen Breath)—raise both hands to eye level while inhaling deeply for four seconds to oxygenate blood and lower heart rate. Keep the chest down and lift the arms independently of the ribcage (never shrug the shoulders). The bow hand should travel perfectly vertically without sweeping in a wide arc.
-5. Rotate the bow arm—internally rotate during the raise (elbow turned outward/vertical), before full draw weight loads onto the bow. Imagine a "scooping" motion with your bow hand as you lift to prevent the shoulder from creeping up.
+5. Rotate the bow arm & Triceps Engine—internally rotate during the raise (elbow turned outward/vertical), before full draw weight loads onto the bow. The **triceps** should act as the primary engine of the bow arm to maintain this **vertical elbow rotation** (bony protrusions of radius/ulna pointing down), which locks the arm structurally, connects power to the body, and prevents string slap.
 6. Reach—at the top of the raise, extend the base of the bow wrist/hand as far as possible directly toward the target. Focus on the movement of reaching; this automatically forces the shoulder down, fires the lats and triceps, and wraps tension around the arm down to the wrist (do not overthink flexing individual muscles).
 7. Apex Breath & Settle—as you reach the apex of the lift, breathe out and settle downward slightly into your final Set-Up position to relax and stabilize the shoulders.
 8. Hold the reach—maintain that reaching tension continuously while pulling the string back.
@@ -69,6 +69,8 @@ Stand facing forward with relaxed arms, look toward the target, and simply raise
 - Set-Up Position with Jake Kaminski | Recurve Archery Form Series Episode 6
 - 4 DAMAGING bow shoulder myths - Archery Technique (Online Archery Academy)
 - How to raise your bow… WITHOUT messing up your shoulder position! (Rogue Archery TV)
+- Draw Shoulder Technique - Reduce Injury Risk and Increase Efficiency (Online Archery Academy)
+- Total Archery - Inside the Archer (Kisik Lee & Tyler Benner)
 
 ---
 

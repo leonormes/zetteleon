@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-09-19T15:44:31+00:00
+modified: 2026-09-21T16:23:07+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-anchor
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Anchor
@@ -14,12 +14,15 @@ Anchor is the final reference for the full draw position and the point of maxima
 
 ### The Steps
 
-1. Placement: Settle the drawing hand firmly along the jawbone. Move your hand slightly up to press the index finger firmly against your jawbone with no gaps.
-2. Real Full Draw: Deliberately micro-move to lock into your final skeletal position and reach true full draw.
+1. Placement (Hand to the Neck & The "No Gap" Rule): Keep your chin slightly lifted (not tucked down) to create a straight, horizontal jawline. Turn your head sufficiently toward the target; turning your head more exposes the jawline, providing a solid platform for your hand to anchor against without having to awkwardly bend your wrist. Focus on drawing your hand straight back to firmly contact your neck and jawbone, guided by the continuous movement of your draw elbow. Don't just pull the hand back; pull "deeper" into the neck, allowing the thumb muscle to sit firmly in the pocket of the neck. Do not focus on pulling the string to the front of your face (which creates a high, disconnected anchor). Once touching the neck, press your index finger firmly against your jawbone so there are absolutely no gaps. Note: There is a common misconception that the index finger must hook completely *underneath* the jawline. Forcing this often kinks the wrist or cuts the string into the chin. It is perfectly acceptable for the finger to rest slightly alongside or outside the jawbone, provided the connection is snug and gapless.
+2. Real Full Draw (The State of Readiness): Simply reaching the anchor point (e.g., hand on jaw, string on face) is not full draw. "Real full draw" is the state of feeling "inside the bow," achieved by shifting your focus from pulling the string to moving your draw elbow further around your body along the shooting line.
+   - **Continuous Motion**: The transition from drawing to anchoring to full draw must be continuous. Like a car taking a corner, slow down and change direction—do not stop completely.
+   - **Bone Alignment**: When viewed from behind, the draw elbow must be directly in line with the arrow or slightly past it. Vertically, the draw elbow should sit slightly *above* the horizontal arrow line. You should be able to extrapolate a straight line from the pressure point on the bow grip, directly through the hook on the string, to the point of your draw elbow. If the elbow is outside this line, achieving stability is almost impossible.
+   - **Stability for Expansion**: This finalized alignment allows you to expand through the clicker without unwanted body/bow wobble, erratic sight movement, or the draw elbow dropping.
 3. Settle In "One Time" (Transfer to Hold): Draw straight back and settle smoothly into your anchor in a single, fluid motion. During this transfer, back tension escalates to 95%. Enter a phase of deep mental stillness (like a water bottle settling after being placed upright) before proceeding to release.
 4. Reference Points (Soft Tissue): Ensure the string touches the center (or slightly right) of your nose and slightly right on your chin.
 5. Reference Points (Skeletal): Ensure the index finger and bow shelf are aligned on the same level.
-6. Posture: Maintain full front-shoulder extension (pushing forward) and solid core posture. Maintain firm, active backward pressure driving back against your jawline.
+6. Posture & Pressure: Maintain full front-shoulder extension (pushing forward) and solid core posture. While back tension is the primary engine of the shot, maintaining a minimal amount of bicep/arm tension in the drawing arm is actually necessary to keep firm, active backward pressure driving the hand continuously into the neck.
 7. Aiming: Focus 100% on the target so the bullseye is perfectly clear, while the sight pin appears slightly blurry. Allow your sight pin to naturally float in front of the target. Shoot with both eyes open.
 8. String Alignment: Consistently align the bowstring blur to a specific spot (e.g., the edge of the riser or alongside the sight pin).
 9. Micro-Adjustments: If string alignment is slightly off once you reach anchor, do not shift your hand position across your face. Keep the anchor completely locked and instead execute a "micro-head tilt"—gently tilt your head ever so slightly left or right until the string blur moves into your preferred reference position. (This is a lateral, fine-aim adjustment distinct from the anteroposterior head-tilting warned against in [[Archery Shot Process - Posture]]'s Faults & Diagnostics, which is about forcing nose contact rather than fine-tuning string blur.)
@@ -28,7 +31,7 @@ Anchor is the final reference for the full draw position and the point of maxima
 
 - The "Rear Sight": Your anchor point acts as your rear sight. If your head position or anchor shifts by even a few millimetres, arrow impact will scatter significantly downrange (this is a leading cause of vertical spread).
 - A fixed, pre-set head position ensures the string touches exact reference points, guaranteeing the bow remains perfectly vertical to prevent left or right misses. When analyzing form on video, your head should remain perfectly still against a vertical reference line.
-- Pressing past soft skin to establish bone-to-bone contact provides an unyielding, repeatable reference point.
+- Pressing past soft skin to establish hard bone-to-bone contact provides an unyielding, repeatable reference point. Pushing hard up into the jawbone prevents your skin from sliding over the bone while attempting to shoot, which would otherwise alter your draw length mid-shot and increase sight shaking.
 - The specific method for reaching that reference point is flexible—a tab with a shelf, tucking the thumb over the top, or anchoring directly under the jaw can all work—provided it gives distinct, repeatable tactile feedback without scraping the skin.
 - Reaching true full draw provides a distinct feeling of structural readiness, enabling clean execution.
 - Establishing an identical full-draw position ensures the distance required to pull through the clicker remains repeatable.
@@ -40,17 +43,28 @@ Anchor is the final reference for the full draw position and the point of maxima
 
 ### Faults & Diagnostics
 
+- Head Position (Looking Down or Open Mouth): Keep your spine and crown straight up. Looking down closes the gap along your jawline, making it impossible to fit your hand underneath it for a solid anchor. Additionally, keep your teeth together (back molars lightly touching); opening your mouth while drawing drastically alters the shape of your jawline and destroys anchor consistency.
+- Tense Thumb or Pinky: Ensure your hook is relaxed. If your thumb or pinky is poking straight out or tense, they can physically block your hand from getting close enough to rest flush against your neck.
+- Ramming Upward (The Timing Killer): Hyper-focusing on jamming the hand upward into the jaw halts your fluid backward motion and destroys shot timing. Draw smoothly back around the body and let the hand naturally rest against the jaw, rather than forcefully thrusting it upward.
 - Feathering: Hovering on the edge of the jaw with zero backward load causes the hand to collapse forward or pluck outwards on release.
 - Anchoring Too High: Anchoring higher on the cheek pushes the string away from the face, forces the drawing shoulder upward, and severely limits sight range.
 - The Flaw of Trying to Hold Still: Forcing the body to hold the pin perfectly static degrades the sight picture and triggers shot anticipation.
 - Peep Alignment: Set the peep to the anchor, not the anchor to the peep. Adjust the peep along the bowstring if it's not centered naturally.
 - Lighting Illusions: The angle of sunlight or overhead lighting can make the string or sight pin appear to shift.
 - Rushing the Anchor (Floating Anchor Point): Shooting too fast prevents establishing a solid, consistent anchor point. A floating anchor changes from shot to shot, causing arrows to hit different spots even if form is otherwise correct. Always take the time to feel tight, consistent facial contact before releasing.
-- Losing Point of Aim: Rushing often means failing to consciously confirm your reference point (sight pin, arrow tip, etc.). If you miss, you won't know if it was a form error or an aiming error. Take an extra second to confirm the aim before the shot breaks.
+- Losing Point of Aim (Autopilot Shooting): The most important aspect of aiming is paying attention. Rushing often means failing to consciously identify and state your reference point before releasing (e.g., placing the arrow tip over a specific spot when gap shooting). If you shoot purely on "autopilot" and guess your reference point, your arrows will scatter. Take an extra second to consciously confirm the aim before the shot breaks.
 - Side Anchor (Deep on the Face): Anchoring too far down the side of the face physically blocks the string's natural inward oscillation upon release. This forces the arrow to travel too close to the rest and pressure button, causing erratic flight. It also introduces unpredictable variables like sweaty skin or stubble altering how the string slips away.
 - Anchor Shifts Alter Draw Length: Shifting your anchor point forward will physically shorten your overall draw length. You will likely need to move your clicker forward (e.g., by about 1 cm) so you do not struggle to pull through the shot with your new alignment.
 
 ### Training Drills
+
+#### Resistance Band Alignment Drill (Thera-Band)
+
+- Purpose: Visualizes and feels the transition to real full draw, allowing you to build muscle memory without the risk of bad habits or injury.
+- How to do it:
+  1. Use a resistance band (or lightweight training bow).
+  2. Draw to your anchor point and continuously move the draw elbow further around your back.
+  3. Feel the force travel cleanly through your shoulders and joints. If aligned correctly, holding the band fully back requires minimal effort compared to holding it stretched out in front of you.
 
 #### Full Draw & Anchor Holds
 
@@ -107,6 +121,12 @@ Anchor is the final reference for the full draw position and the point of maxima
 
 - Archery | Rushed Shot Processes - Slow Down! (NUSensei)
 - Face Contact Matters! See Why And Learn How To Fix It! (Coach Michael)
+- Why you're NOT actually at full draw (Online Archery Academy)
+- How To Finally Find Your Anchor Point - Recurve Archery Technique (Online Archery Academy)
+- The RIGHT Anchor For You (Online Archery Academy)
+- Three A's of Accuracy: Aim, Anchor, Alignment | Archery Basics (NUSensei)
+- Archery Coaching Case Study #2 (Rogue Archery TV)
+- Jake Kaminski (Video reference on anchor consistency fixes)
 - Peter (in-person coaching, 2026-09-12)—anchor style variants, micro-head-tilt string alignment correction
 
 See also: [[Archery Shot Process - Finger Tab Selection & Maintenance]]—an oversized base plate can prevent the hand sitting flush against the jaw, degrading anchor depth and the string picture.

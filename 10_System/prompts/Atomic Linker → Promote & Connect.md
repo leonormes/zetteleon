@@ -1,7 +1,7 @@
 ---
 created: 2026-04-10T10:43:23+00:00
 description: "Step 2 of 2 in the atomic-capture pipeline. Reads a tmp_atoms_*.md file produced by the Atomic Signal Extractor (step 1), semantically links each atom into the existing vault graph, and promotes each atom into a permanent standalone note. Requires step 1 to have run first."
-modified: 2026-09-18T00:00:00+00:00
+modified: 2026-09-21T11:44:36+00:00
 permalink: llmeon/10-system/prompts/atomic-linker-promote-connect
 tags: [domain/pkm, pipeline/atomic-capture, type/system]
 title: Atomic Linker → Promote & Connect
@@ -123,7 +123,7 @@ The atom shares 2+ tags with an existing note but no stronger semantic link was 
 The atom's mechanism is independently corroborated or illustrated in a book from the personal Calibre library. This lens searches ARCHILLES, not the vault index, and never counts toward the 0–7 vault-link cap in the Hard Rules below.
 
 - Run 1 semantic query per atom against ARCHILLES (see Tooling Protocol), phrased around the atom's mechanism in your own words rather than its exact sentence.
-- Keep only hits with relevance ≳0.55 whose snippet actually bears on the atom, not just a shared keyword.
+- Keep only semantic-mode hits with relevance ≳0.30 (ARCHILLES labels anything at or below 0.6 'medium'; on-topic hits in this corpus typically score 0.30–0.50 and irrelevant ones can score as high, so the score only cuts the floor and the passage itself must be read; hybrid mode returns fused rank scores of about 0.03 that this bar does not apply to, so use `--mode semantic`) whose snippet, read in full, actually bears on the atom, not just a shared keyword.
 - Link type: Listed under `#### Further Reading`, one bullet per book, via its `calibre://view-book/...` URI, with a one-line italicised annotation naming what it corroborates.
 - Zero matches is the common case—omit the section entirely rather than forcing a citation.
 
@@ -132,9 +132,9 @@ The atom's mechanism is independently corroborated or illustrated in a book from
 - Use the obsidian mcp tools to interact and search files.
 - For the Personal Library lens, prefer an `archilles_1mcp_*` MCP tool (e.g. `archilles_1mcp_search_books_with_citations`) if reachable in your session; otherwise use the verified CLI fallback:
   ```
-  cd ~/.local/share/archilles && export ARCHILLES_LIBRARY_PATH="/Users/leon.ormes/My Drive/GCcalibreBooks" && .venv/bin/python scripts/rag_demo.py query "<query>" --mode semantic --top-k 5 --max-per-book 1
+  cd ~/.local/share/archilles && export ARCHILLES_LIBRARY_PATH="/Volumes/DAL/GCcalibreBooks/GCcalibreBooks" && .venv/bin/python scripts/rag_demo.py query "<query>" --mode semantic --top-k 5 --max-per-book 1
   ```
-  Build the link as `calibre://view-book/<Library_Folder_Name>/<calibre_id>/<FORMAT>` (library folder name = basename of `ARCHILLES_LIBRARY_PATH`, currently `GCcalibreBooks`; `<FORMAT>` uppercase, matching a format the book actually has). The bare `calibre://view/<id>` form is not valid Calibre syntax and does nothing when clicked—never emit it.
+  Build the link as `calibre://view-book/<Library_Folder_Name>/<calibre_id>/<FORMAT>` (library folder name = basename of `ARCHILLES_LIBRARY_PATH`, currently `GCcalibreBooks`; `<FORMAT>` uppercase, matching a format the book actually has). The bare `calibre://view/<id>` form is not valid Calibre syntax and does nothing when clicked—never emit it. Search output carries no Calibre id or format, so look both up read-only: `sqlite3 -readonly "file:/Users/leon.ormes/My Drive/GCcalibreBooks/metadata.db?mode=ro" "select b.id, b.title, group_concat(d.format) from books b left join data d on d.book=b.id where b.title like '<Title>%' group by b.id"`. The CLI path above is the DAL copy on purpose: the Google Drive copy's `rag_db/` can contain a stray zero-byte `Icon` file that breaks LanceDB (never fix that with `--reset-db`).
 - No phantom links. Every `[[wikilink]]` MUST point to a note that EXISTS in the vault index.
   If no match exists, do NOT fabricate one.
 - No self-links. An atom note must not link to itself.

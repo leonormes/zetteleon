@@ -22,6 +22,7 @@ The canonical system for managing actions is defined here:
 - [[Protocol - Action-First GTD (LLM Chief of Staff)]]: The high-velocity, LLM-assisted workflow for outsourcing executive planning.
 - [[Protocol - Vague-to-Action]]: _The algorithmic protocol for decomposing heavy, abstract tasks into light, binary physical actions._
 - [[Protocol - Weekly Command Centre]]: _The critical reset ritual for verifying system integrity and project actionability._
+- [[Core Actions of a GTD Weekly Review]]: _The full get-clear, get-current, get-creative reference the Command Centre floor is cut down from._
 
 ### 2. Core Architecture (The Why)
 

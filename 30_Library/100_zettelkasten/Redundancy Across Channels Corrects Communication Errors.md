@@ -5,7 +5,7 @@ created: 2026-09-21T08:54:40+00:00
 created_utc: '2026-09-21T08:54:40+00:00'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-21T09:17:36+00:00
+modified: 2026-09-21T11:44:36+00:00
 non_conformance_reason: ''
 permalink: llmeon/00-inbox/redundancy-across-channels-corrects-communication-errors
 proposition: Communication carries meaning through several channels at once, so a
@@ -47,3 +47,7 @@ Source: [[beyond words]] (line 330).
 ### See Also
 
 - [[SoT - Communication & Misunderstanding (The Experiential Filter)]]
+
+#### Further Reading
+
+- [The Princeton Companion to Mathematics — Gowers, Barrow-Green & Leader (eds.), VII.6 "Reliable Transmission of Information", p. 879](calibre://view-book/GCcalibreBooks/1137/PDF)—_gives the information-theoretic principle behind this note: redundant symbols let a receiver recover the original message despite errors._

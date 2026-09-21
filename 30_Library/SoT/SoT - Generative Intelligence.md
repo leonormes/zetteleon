@@ -2,7 +2,7 @@
 aliases: [Creative Intelligence, Framework Generation, Generative Thinking, Paradigm Shift Intelligence, Revolutionary Science]
 conformant: true
 created: 2024-03-30T00:00:00+00:00
-modified: 2026-09-21T11:17:47+00:00
+modified: 2026-09-21T11:44:36+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/so-t/so-t-generative-intelligence
 source_of_truth: true
@@ -106,6 +106,12 @@ The ADHD brain is uniquely wired for Generative Intelligence due to its Interest
 
 - [[Claim - Novelty-craving drives self-defeating system-hopping]]—_The other side of section 4: the same novelty drive that fuels generative thinking is described as starting systems and then abandoning them, so novelty is not simply an advantage._
 - [[Lakatos's Research Programmes Replace Kuhn's Single Paradigm With Competing Cores]]—_Possible framing tension: this note maps two kinds of intelligence onto Kuhn's single-paradigm view of normal versus revolutionary science, which Lakatos argues is too rigid._
+
+### Further Reading (Personal Library)
+
+- [Theory and Reality — Peter Godfrey-Smith, §5.4 "Anomaly and Crisis", p. 116](calibre://view-book/GCcalibreBooks/1611/EPUB)—_notes that a normal scientist's detailed discoveries often contain the seeds of paradigm change, the anomaly-and-crisis stage that this SoT treats as the trigger for generative intelligence._
+- [The Fabric of Reality — David Deutsch, Ch. 13 "The Four Strands"](calibre://view-book/GCcalibreBooks/108/EPUB)—_describes science as alternating eras of normal and revolutionary science, the distinction section 1 builds on._
+- [Flow — Mihaly Csikszentmihalyi, "The Delights of Science"](calibre://view-book/GCcalibreBooks/292/EPUB)—_quotes a passage on how a paradigm forces scientists to investigate nature in a detail and depth that would otherwise be unimaginable, the normal-science side of applicative intelligence._
 
 ### Maps
 

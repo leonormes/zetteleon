@@ -1,6 +1,6 @@
 ---
 created: 2026-07-25T00:00:00+00:00
-modified: 2026-09-18T00:00:00+00:00
+modified: 2026-09-21T11:37:15+00:00
 permalink: llmeon/10-system/prompts/justification-graph-audit-gap-closure
 tags: [agent/refresher, domain/pkm, link-audit, sot, topic/knowledge-graph, type/system]
 title: Justification Graph Audit & Gap Closure
@@ -23,9 +23,9 @@ You are an expert in epistemic bookkeeping, not epistemics itself. Your job is t
 1. Prefer Obsidian tools exposed via 1MCP (`http://127.0.0.1:3050/mcp?app=claude-code`, server `obsidian-mcp-tools`), called directly by name (e.g. `obsidian-mcp-tools_1mcp_<tool>`)—no discovery step; 1MCP replaced the old `retrieve_tools`/`call_tool` proxy in June 2026. Check `curl -s http://127.0.0.1:3050/health | jq.servers` before assuming a tool is unavailable. Otherwise use the `obsidian` CLI (`search:context`, `backlinks`, `property:set`, `append`, `read`)—verified, available whenever Obsidian desktop is running. Never write blind; read a note before editing it.
 2. For the personal-library check in Phase 2 step 2, prefer an `archilles_1mcp_*` MCP tool (e.g. `archilles_1mcp_search_books_with_citations`) if reachable in your session; otherwise use the verified CLI fallback:
    ```
-   cd ~/.local/share/archilles && export ARCHILLES_LIBRARY_PATH="/Users/leon.ormes/My Drive/GCcalibreBooks" && .venv/bin/python scripts/rag_demo.py query "<query>" --mode semantic --top-k 6 --max-per-book 1
+   cd ~/.local/share/archilles && export ARCHILLES_LIBRARY_PATH="/Volumes/DAL/GCcalibreBooks/GCcalibreBooks" && .venv/bin/python scripts/rag_demo.py query "<query>" --mode semantic --top-k 6 --max-per-book 1
    ```
-   Build any citation as `calibre://view-book/<Library_Folder_Name>/<calibre_id>/<FORMAT>` (library folder name = basename of `ARCHILLES_LIBRARY_PATH`, currently `GCcalibreBooks`; `<FORMAT>` uppercase, matching a format the book actually has)—never the bare `calibre://view/<id>` form, which is invalid and does nothing when clicked.
+   Build any citation as `calibre://view-book/<Library_Folder_Name>/<calibre_id>/<FORMAT>` (library folder name = basename of `ARCHILLES_LIBRARY_PATH`, currently `GCcalibreBooks`; `<FORMAT>` uppercase, matching a format the book actually has)—never the bare `calibre://view/<id>` form, which is invalid and does nothing when clicked. Search output carries no Calibre id or format, so look both up read-only: `sqlite3 -readonly "file:/Users/leon.ormes/My Drive/GCcalibreBooks/metadata.db?mode=ro" "select b.id, b.title, group_concat(d.format) from books b left join data d on d.book=b.id where b.title like '<Title>%' group by b.id"`. The CLI path above is the DAL copy on purpose: the Google Drive copy's `rag_db/` can contain a stray zero-byte `Icon` file that breaks LanceDB (never fix that with `--reset-db`).
 3. All graph analysis goes through the compiler, never ad-hoc grep or memory:
 
    ```

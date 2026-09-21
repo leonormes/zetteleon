@@ -5,7 +5,7 @@ created: 2026-09-21T08:54:40+00:00
 created_utc: '2026-09-21T08:54:40+00:00'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-21T09:17:36+00:00
+modified: 2026-09-21T11:44:36+00:00
 non_conformance_reason: ''
 permalink: llmeon/00-inbox/image-schemas-ground-abstract-concepts-in-bodily-experience
 proposition: Recurring patterns of bodily experience, called image schemas, structure abstract concepts, as physical containment underlies expressions such as being in a good mood.
@@ -43,3 +43,7 @@ Source: [[beyond words]] (line 286).
 - [[SoT - The Primacy of Experience (Pre-Linguistic Understanding)]]—extends: covers conceptual metaphor (Lakoff and Johnson) as the bridge from experience to abstraction; this note isolates the image-schema layer beneath it.
 - [[Types of Non-Linguistic Knowledge]]—shared mechanism: embodied knowledge held without reduction to words.
 - [[The Symbol Grounding Problem]]—shared mechanism: both concern grounding abstract meaning in experience.
+
+#### Further Reading
+
+- [The Unfolding of Language — Guy Deutscher, Ch. 4 "A Reef of Dead Metaphors"](calibre://view-book/GCcalibreBooks/1476/EPUB)—_traces abstract concepts back through spatial relations to parts of the body, from physical proximity to possession and from seizing to understanding._

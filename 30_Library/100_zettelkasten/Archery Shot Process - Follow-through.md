@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T00:00:00+00:00
-modified: 2026-09-19T15:44:31+00:00
+modified: 2026-09-21T14:38:27+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-follow-through
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Follow-through
@@ -38,6 +38,7 @@ Follow-through is the dynamic reaction of the body and bow after release, showin
 
 ### Faults & Diagnostics
 
+- The "Soft Shot" (Poor Follow-Through): Releasing by simply opening the hand or pulling it outward away from the face results in a weak shot that lacks power. Ensure a straight follow-through by bringing your hand straight back past your ear.
 - Body Balance Check: If your torso rocks backward upon release, you are pull-dominant (pulling more than pushing); if your head shifts forward, you are push-dominant (over-pushing).
 - Prerequisites: A proper follow-through relies heavily on having a stabilizer setup, forward weight distribution, and a strong, stable bow arm.
 - Rushing & Prejudging the Result (The Self-Coaching Mistake): Do not immediately look at the target to judge the shot based on score. By doing so, you miss the crucial window to evaluate your physical form.
@@ -100,6 +101,7 @@ Follow-through is the dynamic reaction of the body and bow after release, showin
 - Do You Have a STRONG Bow Arm? | Bow Arm Reaction For Better Scores (Jake Kaminski)
 - The Self Coaching Mistake That's Holding You Back in Archery (Jake Kaminski)
 - Follow Through Like a Pro | Stop Your Bow From Hitting You (Jake Kaminski)
+- Top 10 Mistakes in Beginner Archery Classes (Online Archery Academy)
 
 ---
 

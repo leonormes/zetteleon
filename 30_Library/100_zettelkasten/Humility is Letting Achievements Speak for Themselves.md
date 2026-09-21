@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-11-01T21:25:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-21T10:45:14+00:00
+modified: 2026-09-21T11:44:36+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/humility-is-letting-achievements-speak-for-themselves
 proposition: Humility is letting achievements speak for themselves instead of showing off or boasting.
@@ -35,6 +35,10 @@ Humility is a key component of wisdom and is essential for continuous learning a
 ## Tensions
 
 - [[VIA Virtue of Wisdom]]—_Possible classification tension: the vault's VIA notes file humility under Temperance and list Wisdom's strengths as creativity, curiosity, love of learning and perspective, whereas this note calls humility "a key component of wisdom". It may use wisdom more broadly. Left unresolved for review._
+
+### Further Reading (Personal Library)
+
+- [A New Earth — Eckhart Tolle, Ch. 7 "Finding Who You Truly Are", p. 160](calibre://view-book/GCcalibreBooks/8/EPUB)—_treats being content not to stand out as a strength rather than a weakness, close to letting achievements speak for themselves, though from a spiritual rather than a psychological framing._
 
 ### Maps
 

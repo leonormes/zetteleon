@@ -6,7 +6,7 @@ contradicts: []
 created: 2025-11-10T17:12:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-21T10:56:14+00:00
+modified: 2026-09-21T11:44:36+00:00
 permalink: llmeon/30-library/100-zettelkasten/aligning-actions-with-core-values-makes-them-feel-more-natural
 prodos.kind: atomic
 prodos.lifecycle: stable
@@ -37,6 +37,10 @@ Details: When a behavior reinforces your self-concept and feels like a genuine e
 - [[SoT - The Cognitive Physiology of Task Execution]]—_Now holds the biological and psychological account of the intention-action gap that this note's last sentence refers to, after the older gap SoT was deprecated into it._
 
 [supports:: [[SoT - Values and Eudaimonia]]]
+
+### Further Reading (Personal Library)
+
+- [Lost Connections — Johann Hari, Ch. 8 "Cause Three: Disconnection from Meaningful Values", p. 108](calibre://view-book/GCcalibreBooks/1474/EPUB)—_separates behaviour driven by extrinsic values from behaviour driven by other values, and notes that both sets of values exist in everyone._
 
 ### Maps
 

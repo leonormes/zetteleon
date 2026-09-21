@@ -5,7 +5,7 @@ created_utc: '2026-09-21T08:54:40+00:00'
 definition: The symbol grounding problem is the difficulty that words are arbitrary
   symbols whose meaning depends on a relationship to experience.
 distinguishes_from: []
-modified: 2026-09-21T09:17:36+00:00
+modified: 2026-09-21T11:44:36+00:00
 non_conformance_reason: ''
 permalink: llmeon/00-inbox/the-symbol-grounding-problem
 source_title: beyond words (vault note)
@@ -48,3 +48,7 @@ Source: [[beyond words]] (line 300).
 ### See Also
 
 - [[SoT - The Thought-Language Continuum]]
+
+#### Further Reading
+
+- [The Symbolic Species — Terrence W. Deacon, "Reinventing the Mind", p. 459](calibre://view-book/GCcalibreBooks/1570/PDF)—_argues that symbolic representation with little iconic and indexical support becomes circularly referential, almost pure language games, which is the grounding problem seen from the language side._
