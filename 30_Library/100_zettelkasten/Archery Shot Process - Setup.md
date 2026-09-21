@@ -30,8 +30,8 @@ Setup involves setting the hands onto the bow, including hooking onto the string
    - Keep the pinky relaxed and neutral. The thumb should rest just below the shelf.
 6. The Grip (Bow Hand):
    - **Placement vs. Pressure**: When the bow is resting down, simply place the "V" of your hand into the throat of the grip as a pivot point. Do not fully set your grip pressure or angle your wrist yet (doing this too early creates a painful wrist angle and ruins the shoulder connection). Only apply the final pressure point once you actually begin to raise and open the bow.
-   - Place the 'Y' of your hand into the grip so the pressure point sits directly on the thumb pad.
-   - Direct your pressure perfectly down the center line of the lower grip (the pressure point), rather than up into the high throat (the pivot point). Apply pressure directly behind the wrist joint as if you were pushing with a "stump" or doing a push-up.
+   - Place the 'Y' of your hand into the grip so the pressure point sits directly on the fleshy thumb pad (thenar eminence).
+   - **The Concept of Kumi**: Borrowed from Judo (and used in the KSL system), *Kumi* describes locking the elbow down and transferring core power directly through this fleshy thumb pad into the bow grip. Direct your pressure perfectly down the center line of the lower grip to prevent torquing the bow upon release. Apply pressure directly behind the wrist joint as if you were pushing with a "stump" or doing a push-up.
    - **Active Thumb Direction**: Point the thumb straight along the side of the riser, actively directing toward the target. If the thumb just hangs down the side, the bow hand will roll off the edge, destabilizing the entire bow arm.
    - Approach the grip with a "stop" motion (providing a flat platform for the bow) and slightly retract your knuckles to a 45-degree angle.
    - Keep fingers completely relaxed ("jelly fingers", holding the bow as gently as a "sick sparrow"). Curl the bottom three fingers in to touch your palm, and simply rest your index finger lightly on the front of the bow. Never wrap all four fingers across the front of the riser.
@@ -120,6 +120,7 @@ Setup involves setting the hands onto the bow, including hooking onto the string
 - The most common mistake intermediate archers make during their set position (Online Archery Academy)
 - Peter (in-person coaching, 2026-09-12)—lifeline rule clarification
 - 4 SIMPLE BOW HAND FORM FIXES (Online Archery Academy)
+- Total Archery - Inside the Archer (Kisik Lee & Tyler Benner)
 
 See also: [[Archery Shot Process - Finger Tab Selection & Maintenance]] for tab sizing, base plate/spacer fit, and leather trimming that affect the hook and grip.
 

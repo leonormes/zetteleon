@@ -18,7 +18,7 @@ Expansion is the continuation of dynamic tension throughout the shot process, ma
 2. Two-Way Fluid Motion:
    - Back Half (Expansion): Raise the draw elbow slightly while continuing a rounding motion with the scapula and lifting slightly with the pec muscle.
    - Front Half (Extension): Extend the bow shoulder continuously towards the target.
-3. Active Push, Active Pull: Actively push into the bow's grip while pulling the string back, stretching the body in two opposite directions. Direct pushing pressure exactly at target center.
+3. Active Push, Active Pull (Bilateral Push-Pull Balance): Actively push into the bow's grip while pulling the string back, stretching the body in two opposite directions. Archery relies on a balance of equal and opposite forces; the brain must continuously direct forward intensity through the bow arm toward the target, while simultaneously managing the angular rotation of the draw shoulder around the spine.
 4. Minimal Distance Through the Clicker: When you reach full draw and anchor, you should have only 1 to 4 millimeters of the arrow left under the clicker blade.
 5. Smooth, Continuous Clicker Expansion: Develop a repeatable, smooth method of expanding through the last few millimeters of the clicker without stalling, collapsing forward, or jerking the release.
    - _Time Limit:_ Expansion should take no longer than 1 to 3 seconds. Holding for an extended duration (5+ seconds) degrades visual acuity, depletes oxygen reserves, and invites cognitive doubt.
@@ -104,6 +104,7 @@ Expansion is the continuation of dynamic tension throughout the shot process, ma
 - Archery | Rushed Shot Processes - Slow Down! (NUSensei)
 - How to find your correct recurve draw length (Online Archery Academy)
 - How To Analyse Your Expansion - Recurve Archery Technique (Online Archery Academy)
+- Total Archery - Inside the Archer (Kisik Lee & Tyler Benner)
 
 See also: [[Archery Shot Process - Finger Tab Selection & Maintenance]]—a passive, unclenched tab hook keeps the hand out of the way of LAN2-driven scapular expansion.
 

@@ -23,6 +23,7 @@ Follow-through is the dynamic reaction of the body and bow after release, showin
 3. Bow Arm Counter-Tension:
    - Point your bow-hand index finger straight down upon release to guide the bow straight down.
    - Keep the bow arm straight and let the bow's natural weight and forward reaction pull your bow hand down.
+   - Post-Shot Reaction ("The Pop"): Forward bow-arm intensity must be maintained long past the release. When forward pressure is sustained with a relaxed hand and a finger sling, the bow will naturally "pop" straight forward and slightly outward upon release. If the bow hand flinches inward or collapses, it is a clear diagnostic indicator of lost bow-arm intensity.
    - Natural Bow Rotation: If center-line grip pressure is correctly applied, the bow's weight distribution will cause it to naturally rotate and pull slightly to the right (for RH archers) upon release. This outward rotation provides total clearance for the limbs to spin away from you, eliminating the fear of being hit.
    - Hold the Position: Freeze like a statue and hold position with the bow arm raised until you hear the arrow strike the target.
    - Maintain Bow Hand Structure: Do not completely relax the entire bow hand. Let the wrist go limp and "flop" down naturally, but maintain the overall active structure of the hand.
@@ -102,6 +103,7 @@ Follow-through is the dynamic reaction of the body and bow after release, showin
 - The Self Coaching Mistake That's Holding You Back in Archery (Jake Kaminski)
 - Follow Through Like a Pro | Stop Your Bow From Hitting You (Jake Kaminski)
 - Top 10 Mistakes in Beginner Archery Classes (Online Archery Academy)
+- Total Archery - Inside the Archer (Kisik Lee & Tyler Benner)
 
 ---
 
