@@ -24,6 +24,8 @@ Here's a structured approach to building bridges between these work sessions:
 
 When you're still in that flow state, take 10-15 minutes to create a [[A Future Self Brief Aids Reconnection with a Project's Thought Process|Future Self Brief]] (UNSURE: File not found). This isn't just standard documentation; it's specifically designed to help reconnect with your thought process by recording excitement, mental models, decision points, and unfinished threads.
 
+The core move is capturing the mental model itself—as a mind map, flowchart, voice memo or quick written note—while it is still vivid, as set out in [[Documenting Mental Models Enables Project Re-entry]]. [synthesizes:: [[Documenting Mental Models Enables Project Re-entry]]]
+
 ### 2. Visual Thinking Tools
 
 Since a clear mental model is present during active work, it's valuable to use [[Visual Thinking Tools Preserve Project Mental Models]]. This can involve creating quick mind maps, sketches with color-coding, or even recording a voice memo to explain the visualization. [synthesizes:: [[Visual Thinking Tools Preserve Project Mental Models]]]

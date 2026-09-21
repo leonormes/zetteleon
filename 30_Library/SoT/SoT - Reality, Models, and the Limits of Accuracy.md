@@ -1,10 +1,10 @@
 ---
 aliases: [Model-Dependent Realism, The Map vs Territory]
-conformant: false
+conformant: true
 created: 2025-12-12T18:34:35+00:00
-modified: 2026-09-19T15:45:24+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+modified: 2026-09-20T00:00:00+00:00
 permalink: llmeon/30-library/so-t/so-t-reality-models-and-the-limits-of-accuracy
+source_of_truth: true
 tags: [epistemology, logic, mental_models, TheHuman/Cognition, TheHuman/Philosophy]
 title: SoT - Reality, Models, and the Limits of Accuracy
 type: sot
@@ -82,3 +82,25 @@ To function effectively, we must decouple Self-Worth from Map Accuracy.
 
 - Learner Identity: Value is defined by the _speed of updating_, not being right.
 - Provisional Language: Use "My current model suggests…" rather than "It is…"
+
+---
+
+## 6. Failure Mode: Mistaking the Map for the Territory
+
+The critical error is forgetting that a model is a simplification and treating it as reality itself—collapsing Level 3 (Inferential) back into Level 0 (The Event) without noticing the collapse. [depends_on:: [[The noumenal-phenomenal distinction limits knowability]]] It surfaces most often as naive realism: the brain's pattern-recognition efficiency makes the act of modeling invisible, so a model that works well within its intended scope breeds false confidence in its universal applicability.
+
+### 6.1 Common Manifestations
+
+- Numerical Symbols: Treating numbers as identical to their decimal representations, rather than as one notation among several for an abstract mathematical relationship.
+- Scientific Models: Treating the Bohr model as though electrons literally orbit a nucleus like planets, rather than as a useful but limited visualization.
+- Mental Models of Other People: Assuming an internal model of someone else's motivations is an accurate reading rather than a simplified inference from limited information.
+
+### 6.2 Consequences
+
+- Failure to adapt when a situation falls outside the model's original scope.
+- Resistance to updating the model when contradictory evidence appears.
+- Decisions made on incomplete information while believing the information is complete.
+
+### 6.3 Breaking Free
+
+Recognition requires Metacognitive Awareness of one's own modeling process—remembering that every model, including this one, is a provisional tool rather than a final truth about reality. [extends:: [[Maps as Simplified Abstractions]]] [extends:: [[Map Analogy Illustrates Abstraction Tradeoffs]]]

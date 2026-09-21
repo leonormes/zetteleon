@@ -5,7 +5,7 @@ created: 2026-09-14T15:31:58+00:00
 created_utc: '2026-09-14T00:00:00Z'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-19T15:44:45+00:00
+modified: 2026-09-20T17:50:05+00:00
 permalink: llmeon/30-library/100-zettelkasten/transactional-belief-commit-prevents-an-agents-unverified-write-from-immediately-becoming-actionable-truth
 prodos.kind: atomic
 prodos.lifecycle: seed

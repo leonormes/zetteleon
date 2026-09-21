@@ -1,7 +1,7 @@
 ---
 conformant: true
 created: 2026-09-14T00:00:00+00:00
-modified: 2026-09-19T15:44:46+00:00
+modified: 2026-09-20T18:54:03+00:00
 permalink: llmeon/30-library/100-zettelkasten/why-i-do-a-pkm-and-what-i-think-knowledge-is-for
 tags: [domain/pkm, topic/knowledge-architecture, topic/metacognition, topic/pkm-purpose]
 title: Why I Do a PKM and What I Think Knowledge Is For

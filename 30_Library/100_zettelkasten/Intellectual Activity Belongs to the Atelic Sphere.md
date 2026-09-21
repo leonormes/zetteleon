@@ -5,7 +5,7 @@ contradicts: ['[[ADHD Overthinking is a Substitute for Action]]']
 created: 2026-08-02T23:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-19T15:44:37+00:00
+modified: 2026-09-20T19:26:47+00:00
 permalink: llmeon/30-library/100-zettelkasten/intellectual-activity-belongs-to-the-atelic-sphere
 proposition: Reading, observation and contemplation are atelic activities whose value is contained in the performing of them, not in any credential, product or advantage they subsequently yield.
 tags: [atelic, learning, TheHuman/Philosophy, topic/meaning]
@@ -13,7 +13,6 @@ title: Intellectual Activity Belongs to the Atelic Sphere
 type: claim
 ---
 
-> Open threads: [[HEAD - Is atelic contemplation distinguishable from avoidance from the inside]]
 
 Zena Hitz's core move is to place intellectual life alongside love, art and play rather than alongside work. On this account, an afternoon spent thinking that produces no note, no output and no transferable skill has not failed—there was nothing it was supposed to produce. The thinking was the thing.
 

@@ -2,7 +2,7 @@
 conformant: true
 created: 2026-09-14T15:24:27+00:00
 created_utc: '2026-09-14T00:00:00Z'
-modified: 2026-09-19T15:44:36+00:00
+modified: 2026-09-20T18:49:08+00:00
 permalink: llmeon/30-library/100-zettelkasten/humes-fork-holds-that-all-valid-knowledge-is-either-analytic-or-synthetic-with-nothing-else
 prodos.kind: atomic
 prodos.lifecycle: seed

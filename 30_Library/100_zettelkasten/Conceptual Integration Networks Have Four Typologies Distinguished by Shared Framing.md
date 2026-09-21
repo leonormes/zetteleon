@@ -2,13 +2,13 @@
 conformant: true
 created: 2026-09-13T09:34:18+00:00
 created_utc: '2026-09-13T00:00:00Z'
-modified: 2026-09-19T15:44:33+00:00
+modified: 2026-09-20T18:54:34+00:00
 permalink: llmeon/00-inbox/conceptual-integration-networks-have-four-typologies-distinguished-by-shared-framing
 source_title: A Portable Interest and PKM Knowledge Graph
 source_url: UNKNOWN
 status: seed
 tags: [conceptual-blending, distinction, fauconnier-turner, synthesis]
-title: "Conceptual Integration Networks Have Four Typologies Distinguished by Shared Framing"
+title: Conceptual Integration Networks Have Four Typologies Distinguished by Shared Framing
 type: concept
 upstream: '[[PKM Meta-Graph System Research]]'
 ---

@@ -1,6 +1,6 @@
 ---
 created: 2026-09-18T11:39:14+00:00
-modified: 2026-09-18T12:18:27+00:00
+modified: 2026-09-21T09:17:35+00:00
 permalink: llmeon/00-inbox/contract-testing-candidates
 title: contract-testing-candidates
 type: note

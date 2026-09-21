@@ -2,7 +2,7 @@
 conformant: true
 created: 2026-09-14T15:28:03+00:00
 created_utc: '2026-09-14T00:00:00Z'
-modified: 2026-09-19T15:44:43+00:00
+modified: 2026-09-20T18:49:02+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-chinese-room-argument-contests-whether-symbol-manipulation-alone-constitutes-genuine-understanding
 prodos.kind: atomic
 prodos.lifecycle: seed

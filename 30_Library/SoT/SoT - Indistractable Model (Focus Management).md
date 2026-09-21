@@ -1,9 +1,9 @@
 ---
 aliases: [Focus Management, The Indistractable Model, Traction vs Distraction]
-conformant: false
+conformant: true
 created: 2025-12-24T12:10:45+00:00
-modified: 2026-09-19T15:45:21+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+modified: 2026-09-21T10:43:09+00:00
+non_conformance_reason: ""
 permalink: llmeon/30-library/so-t/so-t-indistractable-model-focus-management
 tags: [focus, indistractable, productivity, psychology, TheHuman/Health/ADHD]
 title: SoT - Indistractable Model (Focus Management)
@@ -70,5 +70,42 @@ _Binding your future self to prevent impulsive behavior._
 ### 4. Related Concepts
 
 - [[Epistemic Actions - Thinking via Doing]]
-- [[SoT - The Extended Mind Thesis]]
+- [[SoT - The Extended Mind]]
 - [[SoT - Temporal Management (Blocking and Boxing)]]
+
+#### Pillar 1: Internal Triggers
+
+- [[The Glitchy Switch - TPN and DMN Dysregulation in ADHD]]—_The mechanism behind the "glitchy switch" named in the ADHD Factor: the default mode network intrudes on the task-positive network._ [depends_on:: [[The Glitchy Switch - TPN and DMN Dysregulation in ADHD]]]
+- [[Task-Positive Network (TPN) and Default Mode Network (DMN) Defined]]—_Defines the two networks that Pillar 1 refers to._
+- [[The DMN as a Demon - Negative Rumination in ADHD]]—_The rumination that engaging the task-positive network is meant to shut down._
+- [[The Neurological Divide Between Procrastination and Task Initiation]]—_Separates procrastination as anxiety-coping, the Anxiety Loop above, from a mechanical failure to switch networks._
+- [[Productivity Obsession Functions as an Existential Defence Against Finitude Anxiety]]—_Develops the Burkeman "Finitude" point: compulsive productivity as a defence against limited time._
+- [[Limbic Friction is the Activation Energy for Habits]]—_Anxiety or tiredness as the cost of starting, which is the discomfort this pillar says motivation is an escape from._
+
+#### Pillar 2: Time for Traction
+
+- [[Timeboxing Combats the Principle of Least Resistance]]—_Why a scheduled block beats choosing in the moment: it overrides the pull towards easy tasks._
+- [[Event-based pacing matches boom and bust energy cycles]]—_Supports the Energy Management point: capacity oscillates, so fixed time slots assume energy that is not there._
+- [[Self-monitoring reveals personal energy and trigger patterns]]—_A way to gather the data needed to align tasks with energy highs and lows, and to spot triggers._
+- [[Distraction Management in Timeboxing (Catch-All List)]]—_Applies this model inside a timebox and already links here with an `implements` edge._
+
+#### Pillar 3: External Triggers
+
+- [[Physical Device Separation Reduces the Neurological Urge to Check Notifications]]—_Evidence that removing a prompt physically weakens the urge, rather than relying on willpower._
+- [[Environmental and Physical Hacks for ADHD Focus]]—_Practical ways to shape surroundings instead of fighting distraction with willpower._
+- [[Choice Architecture Designs the Environment to Make Desired Behaviors Easier]]—_Shared mechanism: change the environment so the desired behaviour is easier._
+
+#### Pillar 4: Pacts
+
+- [[SoT - Prosthetic Executive Function]]—_Shared mechanism: bind the future self by engineering structure outside the body instead of relying on in-the-moment willpower._
+- [[Claim - Stripping Away Systems Under-Weights the Need for Pre-Committed External Prosthetics]]—_Argues for moving the decision earlier to when executive function is available, which is what a pact does._
+- [[Use Intentional Friction to Curb Impulse Spending]]—_A concrete effort-pact analogue: added friction forces a conscious choice before spending._
+
+#### Review
+
+- [[The Purpose of a Weekly Review is to Restore Trust in Your System]]—_Shared mechanism with the Review step: a weekly check keeps the system current and trustworthy._
+
+#### Maps
+
+- [[MOC - ADHD Functional Neurology & Scaffolding]]—_Lists this model among ADHD scaffolding strategies._
+- [[MOC - Procrastination Triggers]]—_Collects triggers of procrastination; it does not yet list this model._

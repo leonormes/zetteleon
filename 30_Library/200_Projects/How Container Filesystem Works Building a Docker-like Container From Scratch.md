@@ -1,17 +1,21 @@
 ---
+aliases: [dockercontainer]
 author: Ivan Velichko
+conformant: false
 created: 2026-05-02T06:54:32+00:00
-modified: 2026-09-19T15:45:05+00:00
+modified: 2026-09-21T08:36:12+00:00
+non_conformance_reason: "Third-party clipped tutorial (Ivan Velichko, iximiuz Labs) filed in 200_Projects. type `project` is the folder and project_* default, but the content is external reference material rather than a project, so the canonical type needs a human decision (e.g. procedure, or atomic notes extracted from it). Title corrected from 'dockercontainer' to match the filename; old title kept as an alias."
 permalink: llmeon/30-library/200-projects/dockercontainer
 project_category: infrastructure
 project_name: k8s
 project_status: archived
 source: https://labs.iximiuz.com/tutorials/container-filesystem-from-scratch
-title: dockercontainer
-type: null
+tags: [SoftwareEngineering/Containers, SoftwareEngineering/Linux]
+title: How Container Filesystem Works Building a Docker-like Container From Scratch
+type: project
 ---
 
-## How Container Filesystem Works: Building a Docker-like Container From Scratch
+## How Container Filesystem Works Building a Docker-like Container From Scratch
 
 Clipped from: <https://labs.iximiuz.com/tutorials/container-filesystem-from-scratch>
 
@@ -1248,3 +1252,20 @@ _Click to enlarge_
 - [Understanding the various mounts setup by a Docker container - Sid Agrawal's blog](https://sid-agrawal.ca/linux,/docker,/mount,/namespaces,/mount_namespaces/2024/11/26/docker-mounts.html)
 
 ### Practice
+
+## Related
+
+- [[What is a mount namespace]]—_The concept note behind this tutorial: it covers mount propagation, bind mounts and `pivot_root`, which the tutorial exercises step by step._
+- [[SoT - Linux Container Internals]]—_The canonical synthesis of namespaces, cgroups and union filesystems; this tutorial is the hands-on build of the namespace and filesystem parts, and its closing "Where do union filesystems come into play?" section points at the third._
+- [[SoT - Namespace-Aware Pseudo-Filesystems]]—_Explains why `/proc` and `/sys` show per-namespace views, which the tutorial relies on when populating and hardening them inside the container._
+- [[What is the Linux VFS (Virtual File System)]]—_The kernel layer underneath every mount the tutorial creates (tmpfs, proc, sysfs, overlayfs)._
+- [[SoT - Namespacing in Computing]]—_The general idea of namespaces that the mount namespace here is one instance of._
+- [[Cgroups Limit and Manage Container Resources]]—_The resource-control primitive this tutorial deliberately leaves out; it covers only the filesystem-isolation side of a container._
+- [[Build a Container From Scratch Web Server Project]]—_A sibling from-scratch build (Python web server) with a broader scope covering process, network and resource isolation._
+- [[building_linux_containers_using_base_linux_primitives]]—_A condensed summary of the same primitives, including the `chroot` versus `pivot_root` distinction the tutorial explains in detail._
+- [[Runc Container Practice]]—_The OCI runtime that automates what this tutorial does by hand._
+
+### Maps
+
+- [[MOC - Linux Container Primitives]]—_The map for the kernel primitives this tutorial assembles._
+- [[MOC - Containerisation]]—_The broader map from Linux fundamentals up to Kubernetes._

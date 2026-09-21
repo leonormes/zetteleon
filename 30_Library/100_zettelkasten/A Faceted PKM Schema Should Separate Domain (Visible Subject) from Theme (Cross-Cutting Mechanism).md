@@ -2,13 +2,13 @@
 conformant: true
 created: 2026-09-13T09:35:01+00:00
 created_utc: '2026-09-13T00:00:00Z'
-modified: 2026-09-19T15:44:29+00:00
+modified: 2026-09-20T19:26:07+00:00
 permalink: llmeon/00-inbox/a-faceted-pkm-schema-should-separate-domain-visible-subject-from-theme-cross-cutting-mechanism
 source_title: A Portable Interest and PKM Knowledge Graph
 source_url: UNKNOWN
 status: seed
 tags: [domain, faceted-classification, pkm, taxonomy, theme]
-title: "A Faceted PKM Schema Should Separate Domain (Visible Subject) from Theme (Cross-Cutting Mechanism)"
+title: A Faceted PKM Schema Should Separate Domain (Visible Subject) from Theme (Cross-Cutting Mechanism)
 type: concept
 upstream: '[[PKM Meta-Graph System Research]]'
 ---

@@ -5,7 +5,7 @@ created: 2026-09-17T11:34:40+00:00
 created_utc: '2026-09-17T00:00:00Z'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-19T15:44:33+00:00
+modified: 2026-09-20T17:49:56+00:00
 permalink: llmeon/00-inbox/contrast-driven-forgiveness-erodes-policy-accountability
 proposition: Because politicians can rely on voters excusing lies and policy failures when contrasted against a frightening alternative, elections lose their function as referenda on governing performance and become tribal roll calls instead, removing the incentive to govern honestly or effectively.
 source_title: Political Contrast Effect Research

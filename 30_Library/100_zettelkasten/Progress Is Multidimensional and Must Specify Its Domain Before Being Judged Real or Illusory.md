@@ -2,7 +2,7 @@
 conformant: true
 created: 2026-09-14T15:22:46+00:00
 created_utc: '2026-09-14T00:00:00Z'
-modified: 2026-09-19T15:44:41+00:00
+modified: 2026-09-20T18:49:23+00:00
 permalink: llmeon/30-library/100-zettelkasten/progress-is-multidimensional-and-must-specify-its-domain-before-being-judged-real-or-illusory
 prodos.kind: atomic
 prodos.lifecycle: seed
