@@ -36,3 +36,4 @@ gemini-scribe/scripts/.venv/
 /.fastembed_cache/models--Xenova--bge-small-en-v1.5/blobs
 /.fastembed_cache/models--Xenova--bge-small-en-v1.5
 /.obsidian-mcp/embeddings
+/.obsidian-mcp/embeddings

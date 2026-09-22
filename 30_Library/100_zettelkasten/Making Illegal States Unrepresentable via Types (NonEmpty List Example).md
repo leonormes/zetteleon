@@ -1,17 +1,21 @@
 ---
-conformant: false
-non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true)"
+conformant: true
+contradicts: []
 created: 2026-09-19T15:25:16+00:00
 created_utc: 2026-09-19 00:00:00+00:00
-modified: 2026-09-19T15:44:38+00:00
+epistemic_status: high
+evidence_links: []
+modified: 2026-09-22T00:00:00+00:00
+non_conformance_reason: ''
 permalink: llmeon/00-inbox/making-illegal-states-unrepresentable-via-types-non-empty-list-example
+proposition: Instead of validating that a list is non-empty before taking its head, a NonEmpty list type, structurally a tuple of one guaranteed element plus a possibly-empty remainder, makes emptiness impossible to represent, so no control flow is needed to guard against it.
 source_title: "The Conservation of Software Complexity: The Dichotomy of Data Structures and Control Flow (plus epistemic review/fact-check)"
 source_url: unknown
 status: seed
 tags: [alexis-king, illegal-states-unrepresentable, type-driven-design]
 title: Making Illegal States Unrepresentable via Types (NonEmpty List Example)
 type: claim
-upstream: '[[Data Structures vs Control Flow]]'
+upstream: '[[tmp_atoms_data-structures-vs-control-flow]]'
 ---
 
 ## Making Illegal States Unrepresentable via Types (NonEmpty List Example)

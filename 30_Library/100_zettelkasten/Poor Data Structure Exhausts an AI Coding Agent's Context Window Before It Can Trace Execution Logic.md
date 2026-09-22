@@ -1,8 +1,14 @@
 ---
 confidence: medium
-conformant: false
-non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true)"
+conformant: true
+contradicts: []
+created: 2026-09-19T00:00:00+00:00
 created_utc: 2026-09-19 00:00:00+00:00
+epistemic_status: medium
+evidence_links: []
+modified: 2026-09-22T00:00:00+00:00
+non_conformance_reason: ''
+proposition: When a codebase relies heavily on control flow, shared mutable state, and deep inheritance, an LLM coding agent must read across dozens of files to reconstruct the implicit state and branching before it can safely modify the code, and often exhausts its context window before doing so, producing plausible but incorrect edits; smart data structures, small modules, and explicit interfaces keep the same reasoning within budget.
 prodos:
   atomic:
     form: claim
@@ -17,7 +23,7 @@ tags:
 - ai-code-generation
 title: "Poor Data Structure Exhausts an AI Coding Agent's Context Window Before It Can Trace Execution Logic"
 type: claim
-upstream: '[[Data Structures vs Control Flow]]'
+upstream: '[[tmp_atoms_data-structures-vs-control-flow]]'
 permalink: llmeon/00-inbox/poor-data-structure-exhausts-an-ai-coding-agents-context-window-before-it-can-trace-execution-logic-1
 ---
 

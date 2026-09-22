@@ -1,17 +1,21 @@
 ---
-conformant: false
-non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true)"
+conformant: true
+contradicts: []
 created: 2026-09-19T15:26:16+00:00
 created_utc: 2026-09-19 00:00:00+00:00
-modified: 2026-09-19T15:44:44+00:00
+epistemic_status: medium
+evidence_links: []
+modified: 2026-09-22T00:00:00+00:00
+non_conformance_reason: ''
 permalink: llmeon/00-inbox/the-right-data-structure-not-a-smart-one-is-pikes-actual-rule
+proposition: Rob Pike Rule 4, use simple algorithms as well as simple data structures, asks for the structure that correctly fits the domain, not a maximally clever or elaborate one; over-engineered types and deep class hierarchies are themselves a form of accidental complexity, so pushing complexity into structure is not unconditionally good advice.
 source_title: "The Conservation of Software Complexity: The Dichotomy of Data Structures and Control Flow (plus epistemic review/fact-check)"
 source_url: unknown
 status: seed
 tags: [accidental-complexity, falsifier, over-engineering, rob-pike]
 title: "The Right Data Structure, Not a Smart One, Is Pike's Actual Rule"
 type: claim
-upstream: '[[Data Structures vs Control Flow]]'
+upstream: '[[tmp_atoms_data-structures-vs-control-flow]]'
 ---
 
 ## The Right Data Structure, Not a Smart One, Is Pike's Actual Rule

@@ -1,8 +1,13 @@
 ---
 confidence: medium
-conformant: false
-non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true)"
+conformant: true
+contradicts: []
 created_utc: 2026-09-19 00:00:00+00:00
+epistemic_status: medium
+evidence_links: []
+modified: 2026-09-22T00:00:00+00:00
+non_conformance_reason: ''
+proposition: Git identifies every object by the SHA-1 hash of its own content, so identity, tamper-detection, and history verification become structural properties instead of separately computed algorithms.
 prodos:
   atomic:
     form: mechanism
@@ -41,3 +46,14 @@ Applies to Git's object model specifically (2005 design for Linux kernel-scale d
 
 - [[SoT - Git]]—direct concept match: "Git uses a content-addressable object database, where objects are identified by their SHA-1 (or SHA-256) hash" — same mechanism, same terminology.
 - [[SoT - The Data-Centric Philosophy]]—direct concept match: §5 "Applied Philosophy: Git's Content-Addressable DAG" makes this exact case study its worked example of the data-centric thesis.
+- [[SoT - State Synchronization Models]]—*the SoT's own Merkle Model section names Git as its exemplar (a commit hash is the state of the repo, tamper-evident by construction); this claim is that mechanism worked out in full.*
+- [[SoT - Structure is Truth is a Unifying Axiom Across Formal Systems]]—*this claim passes the SoT's own Elimination Test (a class of failures, undetected tampering, is made structurally impossible), making it a concrete instance of the axiom.*
+- [[Elimination and Relocation Are Distinct Complexity-Management Mechanisms, Often Conflated as Conservation]]—*Git's hashing is a genuine relocation case, trust-verification moved into structure rather than eliminated, the kind of example this concept distinguishes from Torvalds' linked-list elimination case.*
+
+[implements:: [[SoT - The Data-Centric Philosophy]], confidence=high]
+
+[implements:: [[SoT - State Synchronization Models]], confidence=high]
+
+[supports:: [[SoT - Structure is Truth is a Unifying Axiom Across Formal Systems]], confidence=medium]
+
+[supports:: [[Elimination and Relocation Are Distinct Complexity-Management Mechanisms, Often Conflated as Conservation]], confidence=medium]

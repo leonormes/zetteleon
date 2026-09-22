@@ -1,9 +1,11 @@
 ---
-conformant: false
-non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true)"
+conformant: true
 created: 2026-09-19T15:25:02+00:00
 created_utc: 2026-09-19 00:00:00+00:00
-modified: 2026-09-19T15:44:42+00:00
+definition: Shotgun parsing, a term coined by Alexis King, is the anti-pattern where input-validation checks are interleaved with execution logic and repeated at scattered points across a codebase instead of being performed once at a system boundary.
+distinguishes_from: []
+modified: 2026-09-22T00:00:00+00:00
+non_conformance_reason: ''
 permalink: llmeon/00-inbox/shotgun-parsing-scatters-validation-logic-through-execution-logic
 source_title: "The Conservation of Software Complexity: The Dichotomy of Data Structures and Control Flow (plus epistemic review/fact-check)"
 source_url: unknown
@@ -11,7 +13,8 @@ status: seed
 tags: [alexis-king, anti-pattern, shotgun-parsing, validation]
 title: Shotgun Parsing Scatters Validation Logic Through Execution Logic
 type: concept
-upstream: '[[Data Structures vs Control Flow]]'
+upstream: '[[tmp_atoms_data-structures-vs-control-flow]]'
+used_in_claims: ["[[Parse, Don't Validate - Validation Is Lossy, Parsing Is Constructive]]"]
 ---
 
 ## Shotgun Parsing Scatters Validation Logic Through Execution Logic

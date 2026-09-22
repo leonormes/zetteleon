@@ -1,17 +1,21 @@
 ---
-conformant: false
-non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true)"
+conformant: true
+contradicts: []
 created: 2026-09-19T15:24:06+00:00
 created_utc: 2026-09-19 00:00:00+00:00
-modified: 2026-09-19T15:44:43+00:00
+epistemic_status: medium
+evidence_links: []
+modified: 2026-09-22T00:00:00+00:00
+non_conformance_reason: ''
 permalink: llmeon/00-inbox/teslers-law-of-conservation-of-complexity-scoped
+proposition: Software has an inherent amount of complexity dictated by its problem domain that can be relocated between layers of a system but not eliminated by any single layer absorbing it.
 source_title: "The Conservation of Software Complexity: The Dichotomy of Data Structures and Control Flow (plus epistemic review/fact-check)"
 source_url: unknown
 status: seed
 tags: [complexity, conservation, software-architecture, tesler-law]
 title: "Tesler's Law of Conservation of Complexity (Scoped)"
 type: claim
-upstream: '[[Data Structures vs Control Flow]]'
+upstream: '[[tmp_atoms_data-structures-vs-control-flow]]'
 ---
 
 ## Tesler's Law of Conservation of Complexity (Scoped)
@@ -35,6 +39,8 @@ Applies specifically to essential/irreducible complexity per Tesler's original p
 
 - [[SoT - Conservation of Complexity]]—direct concept match: same law, same "cannot be destroyed, only relocated" framing, same balloon/waterbed analogy family.
 - [[SoT - Structure is Truth is a Unifying Axiom Across Formal Systems]]—extends: generalises this exact law from software specifically to every formal system (type theory, clinical data, infrastructure, cognitive scaffolding).
+
+[implements:: [[SoT - Structure is Truth is a Unifying Axiom Across Formal Systems]], confidence=high]
 
 ### See Also
 

@@ -1,17 +1,21 @@
 ---
-conformant: false
-non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true)"
+conformant: true
+contradicts: []
 created: 2026-09-19T15:25:31+00:00
 created_utc: 2026-09-19 00:00:00+00:00
-modified: 2026-09-19T15:44:43+00:00
+epistemic_status: high
+evidence_links: []
+modified: 2026-09-22T00:00:00+00:00
+non_conformance_reason: ''
 permalink: llmeon/00-inbox/structure-of-arrays-eliminates-the-cache-miss-stalls-array-of-structures-causes
+proposition: Because CPUs fetch memory in fixed-size cache lines, storing per-entity properties as an Array of Structures pollutes every cache-line fetch with irrelevant data, whereas a Structure of Arrays, one flat contiguous array per property, lets every fetched cache line contain only the data the current loop actually needs.
 source_title: "The Conservation of Software Complexity: The Dichotomy of Data Structures and Control Flow (plus epistemic review/fact-check)"
 source_url: unknown
 status: seed
 tags: [cache-lines, data-oriented-design, mike-acton, performance, structure-of-arrays]
 title: Structure-of-Arrays Eliminates the Cache-Miss Stalls Array-of-Structures Causes
 type: claim
-upstream: '[[Data Structures vs Control Flow]]'
+upstream: '[[tmp_atoms_data-structures-vs-control-flow]]'
 ---
 
 ## Structure-of-Arrays Eliminates the Cache-Miss Stalls Array-of-Structures Causes

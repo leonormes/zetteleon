@@ -1,9 +1,11 @@
 ---
-conformant: false
-non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true)"
+conformant: true
 created: 2026-09-19T15:25:53+00:00
 created_utc: 2026-09-19 00:00:00+00:00
-modified: 2026-09-19T15:44:34+00:00
+definition: Reducing procedural complexity by restructuring data can happen through at least two mechanistically different routes, elimination, where a special case is redefined out of existence such as the linked-list pointer-to-pointer trick, and relocation, where the same amount of complexity is genuinely moved into a table, parser, or type constraint such as Pike data tables or parse-dont-validate, and only the second route is actual evidence for a conservation claim.
+distinguishes_from: []
+modified: 2026-09-22T00:00:00+00:00
+non_conformance_reason: ''
 permalink: llmeon/00-inbox/elimination-and-relocation-are-distinct-complexity-management-mechanisms-often-conflated-as-conservation
 source_title: "The Conservation of Software Complexity: The Dichotomy of Data Structures and Control Flow (plus epistemic review/fact-check)"
 source_url: unknown
@@ -11,7 +13,8 @@ status: seed
 tags: [conservation-of-complexity, elimination-vs-relocation, epistemics, falsifiability]
 title: "Elimination and Relocation Are Distinct Complexity-Management Mechanisms, Often Conflated as Conservation"
 type: concept
-upstream: '[[Data Structures vs Control Flow]]'
+upstream: '[[tmp_atoms_data-structures-vs-control-flow]]'
+used_in_claims: ["[[The Linked-List Good Taste Example Eliminates Complexity Rather Than Relocating It]]", "[[Rob Pike's Rule 5 - Data Dominates]]", "[[Parse, Don't Validate - Validation Is Lossy, Parsing Is Constructive]]"]
 ---
 
 ## Elimination and Relocation Are Distinct Complexity-Management Mechanisms, Often Conflated as Conservation
@@ -39,3 +42,7 @@ A methodological distinction drawn from contrasting Torvalds' linked-list exampl
 
 - [[Software Complexity is Conserved Between Control Flow and Representation]]—contradicts: asserts unqualified strict conservation ("it cannot be destroyed, only relocated") without distinguishing elimination from relocation.
 - [[SoT - Conservation of Complexity]]—contradicts: same unqualified "cannot be destroyed, only relocated" framing (the "balloon" analogy), which this atom shows does not hold for the elimination case.
+
+[contradicts:: [[Software Complexity is Conserved Between Control Flow and Representation]], confidence=high]
+
+[contradicts:: [[SoT - Conservation of Complexity]], confidence=high]

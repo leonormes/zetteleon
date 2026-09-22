@@ -1,17 +1,21 @@
 ---
-conformant: false
-non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true)"
+conformant: true
+contradicts: ["[[Software Complexity is Conserved Between Control Flow and Representation]]"]
 created: 2026-09-19T15:24:32+00:00
 created_utc: 2026-09-19 00:00:00+00:00
-modified: 2026-09-19T15:44:44+00:00
+epistemic_status: high
+evidence_links: []
+modified: 2026-09-22T00:00:00+00:00
+non_conformance_reason: ''
 permalink: llmeon/00-inbox/the-linked-list-good-taste-example-eliminates-complexity-rather-than-relocating-it
+proposition: The Torvalds pointer-to-a-pointer implementation of singly-linked-list node removal eliminates the special-case if branch for the list head entirely rather than moving that complexity somewhere else.
 source_title: "The Conservation of Software Complexity: The Dichotomy of Data Structures and Control Flow (plus epistemic review/fact-check)"
 source_url: unknown
 status: seed
 tags: [elimination-vs-relocation, epistemics, good-taste, linked-list, linus-torvalds]
 title: "The Linked-List Good Taste Example Eliminates Complexity Rather Than Relocating It"
 type: claim
-upstream: '[[Data Structures vs Control Flow]]'
+upstream: '[[tmp_atoms_data-structures-vs-control-flow]]'
 ---
 
 ## The Linked-List Good Taste Example Eliminates Complexity Rather Than Relocating It
@@ -35,6 +39,10 @@ A 2016 TED-talk example of "good taste" in code; demonstrated for singly-linked-
 
 - [[SoT - The Data-Centric Philosophy]]—corrects/refines: §4 "The Litmus Test: Good Taste" describes this exact linked-list example uncritically as an instance of the conservation law; this atom corrects that framing to elimination, not relocation.
 - [[Elimination and Relocation Are Distinct Complexity-Management Mechanisms, Often Conflated as Conservation]]—extends: this worked example is the concrete instance of that general distinction.
+
+[revises:: [[SoT - The Data-Centric Philosophy]], confidence=high]
+
+[implements:: [[Elimination and Relocation Are Distinct Complexity-Management Mechanisms, Often Conflated as Conservation]], confidence=high]
 
 ### Tensions
 

@@ -1,17 +1,21 @@
 ---
-conformant: false
-non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true)"
+conformant: true
+contradicts: []
 created: 2026-09-19T15:24:45+00:00
 created_utc: 2026-09-19 00:00:00+00:00
-modified: 2026-09-19T15:44:42+00:00
+epistemic_status: high
+evidence_links: []
+modified: 2026-09-22T00:00:00+00:00
+non_conformance_reason: ''
 permalink: llmeon/00-inbox/rob-pikes-rule-5-data-dominates
+proposition: Rob Pike argued, as his fifth rule of programming, that once the right data structures are chosen and organised well, the algorithms needed to manipulate them are almost always self-evident, so data structures, not algorithms, should be the central design concern.
 source_title: "The Conservation of Software Complexity: The Dichotomy of Data Structures and Control Flow (plus epistemic review/fact-check)"
 source_url: unknown
 status: seed
 tags: [data-structures, programming-rules, rob-pike]
 title: "Rob Pike's Rule 5 - Data Dominates"
 type: claim
-upstream: '[[Data Structures vs Control Flow]]'
+upstream: '[[tmp_atoms_data-structures-vs-control-flow]]'
 ---
 
 ## Rob Pike's Rule 5 - Data Dominates

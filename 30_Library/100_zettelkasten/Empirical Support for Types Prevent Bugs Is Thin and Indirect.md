@@ -1,17 +1,21 @@
 ---
-conformant: false
-non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true)"
+conformant: true
+contradicts: []
 created: 2026-09-19T15:26:23+00:00
 created_utc: 2026-09-19 00:00:00+00:00
-modified: 2026-09-19T15:44:34+00:00
+epistemic_status: medium
+evidence_links: []
+modified: 2026-09-22T00:00:00+00:00
+non_conformance_reason: ''
 permalink: llmeon/00-inbox/empirical-support-for-types-prevent-bugs-is-thin-and-indirect
+proposition: The strongest available empirical evidence for structure-first design is adjacent rather than direct, since a 2017 study by Gao, Bird and Barr found that static typing via Flow or TypeScript would conservatively have caught only about 15 percent of a sample of 400 fixed public JavaScript bugs, and a 2019 reproduction by Berger et al. of an earlier cross-language study found only four programming languages with a statistically significant, and very small, association with defect rates; neither study isolates domain-faithful data modelling as the variable being tested.
 source_title: "The Conservation of Software Complexity: The Dichotomy of Data Structures and Control Flow (plus epistemic review/fact-check)"
 source_url: unknown
 status: seed
 tags: [empirical-evidence, epistemics, evidence-quality, type-systems]
 title: Empirical Support for Types Prevent Bugs Is Thin and Indirect
 type: claim
-upstream: '[[Data Structures vs Control Flow]]'
+upstream: '[[tmp_atoms_data-structures-vs-control-flow]]'
 ---
 
 ## Empirical Support for Types Prevent Bugs Is Thin and Indirect
@@ -33,6 +37,8 @@ Concerns the empirical (not mechanistic) case for structure-first design; the me
 ### Related
 
 - [[Reproducibility and Replicability Are Distinct Standards of Scientific Reliability]]—shared mechanism: names the same category of evidentiary weakness (adjacent, non-reproduced findings standing in for direct measurement) this atom flags in the type-systems literature.
+
+[supports:: [[Reproducibility and Replicability Are Distinct Standards of Scientific Reliability]], confidence=medium]
 
 ### Tensions
 

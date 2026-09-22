@@ -1,17 +1,21 @@
 ---
-conformant: false
-non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true)"
+conformant: true
+contradicts: []
 created: 2026-09-19T15:24:18+00:00
 created_utc: 2026-09-19 00:00:00+00:00
-modified: 2026-09-19T15:44:39+00:00
+epistemic_status: high
+evidence_links: []
+modified: 2026-09-22T00:00:00+00:00
+non_conformance_reason: ''
 permalink: llmeon/00-inbox/mutable-state-causes-combinatorial-state-space-explosion-and-contaminates-pure-logic
+proposition: Introducing mutable state into a system multiplies the number of configurations that must be reasoned about combinatorially, and once a pure function calls a stateful procedure it becomes contaminated and no longer understandable in isolation.
 source_title: "The Conservation of Software Complexity: The Dichotomy of Data Structures and Control Flow (plus epistemic review/fact-check)"
 source_url: unknown
 status: seed
 tags: [complexity, mutable-state, out-of-the-tar-pit, state]
 title: "Mutable State Causes Combinatorial State-Space Explosion and Contaminates Pure Logic"
 type: claim
-upstream: '[[Data Structures vs Control Flow]]'
+upstream: '[[tmp_atoms_data-structures-vs-control-flow]]'
 ---
 
 ## Mutable State Causes Combinatorial State-Space Explosion and Contaminates Pure Logic
@@ -34,3 +38,5 @@ Applies wherever state can change over time; effect compounds with the number of
 ### Related
 
 - [[SoT - Simple Made Easy (Rich Hickey)]]—shared mechanism: Hickey's "complecting" (braiding threading/logic, objects/state together) is the same contamination mechanism this atom describes, from a different vocabulary.
+
+[supports:: [[SoT - Simple Made Easy (Rich Hickey)]], confidence=medium]
