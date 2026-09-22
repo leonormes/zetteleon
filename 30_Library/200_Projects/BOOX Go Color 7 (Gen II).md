@@ -1,20 +1,20 @@
 ---
 created: 2026-09-21T15:37:00+00:00
-modified: 2026-09-21T15:37:00+00:00
-permalink: llmeon/30-library/200-projects/boox-go-color-7-gen-ii
-title: BOOX Go Color 7 (Gen II)
-type: equipment
-tags: [equipment, ereader, boox, android, eink]
 manufacturer: BOOX
 model: Go Color 7 (Gen II)
+modified: 2026-09-21T17:57:50+00:00
+permalink: llmeon/30-library/200-projects/boox-go-color-7-gen-ii
 status: owned
+tags: [android, boox, eink, equipment, ereader]
+title: BOOX Go Color 7 (Gen II)
+type: equipment
 ---
 
-# BOOX Go Color 7 (Gen II)
+## BOOX Go Color 7 (Gen II)
 
-A compact Android colour E Ink reader. The owned unit was purchased as the **UK Standard Bundle**.
+A compact Android colour E Ink reader. The owned unit was purchased as the UK Standard Bundle.
 
-## Owned configuration
+### Owned Configuration
 
 - Colour: Black
 - Bundle: UK Standard Bundle
@@ -23,7 +23,7 @@ A compact Android colour E Ink reader. The owned unit was purchased as the **UK 
 - Storage: 64 GB UFS 2.2, expandable by microSD
 - Stylus support: BOOX InkSense active stylus (optional)
 
-## Technical details
+### Technical Details
 
 | Area | Detail |
 |---|---|
@@ -40,7 +40,7 @@ A compact Android colour E Ink reader. The owned unit was purchased as the **UK 
 | Weight | Approximately 190 g |
 | Water protection | No formal waterproof/IP rating found |
 
-## Purchase record
+### Purchase Record
 
 - Order date: 16 January 2026
 - Merchant: BOOX EURO Shop / 广州文石信息科技股份有限公司
@@ -53,13 +53,13 @@ A compact Android colour E Ink reader. The owned unit was purchased as the **UK 
 - Quoted shipping: Royal Mail, Hermes or DHL; 1–5 working days
 - Evidence: BOOX order confirmation and matching PayPal receipt found in Gmail
 
-## Notes
+### Notes
 
 - The Google Play Store and general Android app support make this more flexible than a closed e-reader, but E Ink refresh behaviour still differs from a conventional LCD/OLED tablet.
 - Colour content is rendered at half the pixel density of monochrome content.
 - The microSD slot is useful for keeping a large local ebook, PDF, comic or audiobook library.
 
-## Support and sources
+### Support and Sources
 
 - [Official product page](https://shop.boox.com/products/gocolor7-gen2)
 - [BOOX Help Centre](https://help.boox.com/hc/en-us)

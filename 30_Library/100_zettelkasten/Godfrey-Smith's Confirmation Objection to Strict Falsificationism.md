@@ -6,7 +6,7 @@ created: 2026-09-08T20:15:00+00:00
 created_utc: 2026-09-08 20:15:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-19T15:44:36+00:00
+modified: 2026-09-22T08:30:00+00:00
 permalink: llmeon/00-inbox/godfrey-smiths-confirmation-objection-to-strict-falsificationism
 proposition: "Godfrey-Smith argues that if theories can never be confirmed by evidence, there is no rational basis for relying on well-tested theories over untested ones, illustrated by a bridge-design example."
 source_title: David Deutsch and Peter Godfrey-Smith
@@ -43,7 +43,5 @@ A direct critique of Popper/strict falsificationism's refusal to give confirmati
 - [[Deutsch Rejects Empiricism for Conjecture-Led Theory Formation]]—the opposing position in the same source: Deutsch's conjecture-only account is exactly what this objection is aimed at.
 
 ### Tensions
-
-[refines:: [[Deutsch and Godfrey-Smith Converge on Rational Reliance From Different Grounds]], confidence=medium]
 
 - [[Deutsch and Godfrey-Smith Converge on Rational Reliance From Different Grounds]]—Deutsch answers this same bridge-building dilemma without invoking confirmation at all, using a best-remaining-explanation argument instead; see that note for the full tension.

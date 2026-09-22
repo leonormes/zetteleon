@@ -1,7 +1,7 @@
 ---
 aliases: [Cognitive Biases MOC]
 created: 2025-12-12T12:05:00+00:00
-modified: 2026-09-19T15:45:11+00:00
+modified: 2026-09-22T08:11:10+00:00
 permalink: llmeon/30-library/mo-c/moc-cognitive-biases
 tags: [bias, TheHuman/Cognition, TheHuman/Psychology, type/moc]
 title: MOC - Cognitive Biases
@@ -12,6 +12,8 @@ title: MOC - Cognitive Biases
 Cognitive biases are systematic patterns of deviation from norm or rationality in judgment. They are often "shortcuts" (heuristics) that the brain uses to process information quickly, but they can lead to perceptual distortion, inaccurate judgment, illogical interpretation, or what is broadly called irrationality.
 
 Understanding these biases is critical for Metacognition (thinking about thinking) and establishing a robust Source of Truth.
+
+Why they exist at all: [[Human Cognition Evolved for Social Survival, Not for Tracking Objective Truth]]—cognition was shaped by what kept ancestors alive and accepted within a group, not by what would produce an accurate model of reality, which is the general premise the specific biases below are instances of.
 
 ---
 

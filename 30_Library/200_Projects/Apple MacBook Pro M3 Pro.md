@@ -1,20 +1,20 @@
 ---
 created: 2026-09-21T15:37:00+00:00
-modified: 2026-09-21T15:37:00+00:00
-permalink: llmeon/30-library/200-projects/apple-macbook-pro-m3-pro
-title: Apple MacBook Pro M3 Pro
-type: equipment
-tags: [equipment, computer, apple, macbook, macos]
 manufacturer: Apple
 model: MacBook Pro (14-inch, M3 Pro, Nov 2023)
+modified: 2026-09-21T17:56:24+00:00
+permalink: llmeon/30-library/200-projects/apple-macbook-pro-m3-pro
 status: owned
+tags: [apple, computer, equipment, macbook, macos]
+title: Apple MacBook Pro M3 Pro
+type: equipment
 ---
 
-# Apple MacBook Pro M3 Pro
+## Apple MacBook Pro M3 Pro
 
 The local machine inventory identifies the listed computer as a customised 14-inch M3 Pro MacBook Pro.
 
-## Owned configuration
+### Owned Configuration
 
 - Model identifier: `Mac15,6`
 - Model number: `Z1AX001HZB/A`
@@ -27,7 +27,7 @@ The local machine inventory identifies the listed computer as a customised 14-in
 - Internal storage: 512 GB class SSD (494.4 GB APFS container)
 - Built-in display: 14.2-inch Liquid Retina XDR, 3024 × 1964
 
-## Technical details
+### Technical Details
 
 | Area | Detail |
 |---|---|
@@ -40,7 +40,7 @@ The local machine inventory identifies the listed computer as a customised 14-in
 | Audio | Six-speaker system with force-cancelling woofers |
 | Battery | 72.4 Wh; Apple advertises up to 12 hours wireless web for the 14-inch model |
 
-## Current health snapshot
+### Current Health Snapshot
 
 Captured 21 September 2026 from macOS System Information:
 
@@ -50,12 +50,12 @@ Captured 21 September 2026 from macOS System Information:
 - Connected charger reported at capture: 65 W
 - Attached displays at capture: built-in display plus two 3840 × 2160 external displays
 
-## Purchase record
+### Purchase Record
 
 - No matching MacBook Pro M3 Pro purchase, invoice or dispatch email was found in the connected Gmail account.
 - Purchase date, retailer, price, payment method and warranty/AppleCare status remain unknown.
 
-## Support and sources
+### Support and Sources
 
 - [Apple technical specifications](https://support.apple.com/en-gb/117736)
 - [Apple Mac support](https://support.apple.com/en-gb/mac)

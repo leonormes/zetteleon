@@ -6,7 +6,7 @@ created: 2026-09-08T20:15:00+00:00
 created_utc: 2026-09-08 20:15:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-19T15:44:34+00:00
+modified: 2026-09-22T08:30:00+00:00
 permalink: llmeon/00-inbox/deutsch-and-godfrey-smith-converge-on-rational-reliance-from-different-grounds
 proposition: Facing the same "why is it rational to rely on a well-tested theory" dilemma that motivates Godfrey-Smith's confirmation objection, Deutsch argues we are justified in relying on a well-tested theory not because past observations confirmed it, but because it is the only rationally tenable explanation left once bad or unexplained alternatives are ruled out.
 source_title: David Deutsch and Peter Godfrey-Smith
@@ -39,8 +39,6 @@ Directly ties Deutsch's tower-jumping example to Godfrey-Smith's bridge-building
 - [[A Good Explanation Is Hard to Vary]]—Deutsch's side of this tension rests entirely on this criterion: a theory is trustworthy because rival explanations are bad or unexplained, not because it was confirmed.
 
 ### Tensions
-
-[refines:: [[Godfrey-Smith's Confirmation Objection to Strict Falsificationism]], confidence=medium]
 
 - [[Godfrey-Smith's Confirmation Objection to Strict Falsificationism]]—that note argues rational reliance requires confirmation through testing; this note shows Deutsch reaching the same practical conclusion (it's rational to rely on the tested theory) while explicitly denying that confirmation is what grounds it. Assumption difference: whether rational reliance requires positive confirmation, or can rest purely on being the best surviving explanation.
 - [[Predictive Power Verifies a Theory via Its Outputs, Not Its Proofs]]—a third, independent route to the same practical conclusion (trust the tested theory), grounded in output reliability rather than either confirmation or explanatory depth—suggesting the vault currently holds three distinct, unreconciled justifications for the same everyday trust judgement.

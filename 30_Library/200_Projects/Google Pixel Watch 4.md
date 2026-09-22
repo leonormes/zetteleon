@@ -1,18 +1,18 @@
 ---
 created: 2026-09-21T15:37:00+00:00
-modified: 2026-09-21T15:37:00+00:00
-permalink: llmeon/30-library/200-projects/google-pixel-watch-4
-title: Google Pixel Watch 4
-type: equipment
-tags: [equipment, smartwatch, google, pixel, wear-os, fitness]
 manufacturer: Google
 model: Pixel Watch 4 (45 mm Wi-Fi)
+modified: 2026-09-21T17:54:09+00:00
+permalink: llmeon/30-library/200-projects/google-pixel-watch-4
 status: owned
+tags: [equipment, fitness, google, pixel, smartwatch, wear-os]
+title: Google Pixel Watch 4
+type: equipment
 ---
 
-# Google Pixel Watch 4
+## Google Pixel Watch 4
 
-## Owned configuration
+### Owned Configuration
 
 - Size: 45 mm
 - Connectivity: Wi-Fi model (not LTE)
@@ -21,7 +21,7 @@ status: owned
 - Google item/ID number: `59041WRBNW41L4`
 - Operating system: Wear OS 6
 
-## Technical details
+### Technical Details
 
 | Area | Detail |
 |---|---|
@@ -37,7 +37,7 @@ status: owned
 | Weight | 36.7 g without band |
 | Health sensors | Optical heart rate, ECG, SpO2, skin temperature and cEDA, plus motion/environment sensors |
 
-## Purchase record
+### Purchase Record
 
 - Order date: 25 October 2025
 - Merchant: Google Store / Google Commerce Ltd
@@ -52,12 +52,12 @@ status: owned
 - Tracking number: `15502875105414`
 - Store credit earned: £42.75
 
-## Cover and accessories
+### Cover and Accessories
 
 - Preferred Care started 26 October 2025 at £4.49/month, with a £39 excess stated in the welcome email and coverage renewable for up to 60 months.
 - A 45 mm Obsidian Active Sport Band (Large) was ordered from Google Store on 25 August 2026 under order `GS.0042-7644-5333`; list price £49.00, £42.75 Store credit used, total due £6.25.
 
-## Support and sources
+### Support and Sources
 
 - [Official Pixel Watch 4 specifications](https://store.google.com/product/pixel_watch_4_specs?hl=en-US)
 - [UK Pixel Watch 4 product page](https://store.google.com/gb/product/pixel_watch_4?hl=en-GB)

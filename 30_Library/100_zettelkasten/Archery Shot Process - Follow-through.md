@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T00:00:00+00:00
-modified: 2026-09-21T14:38:27+01:00
+modified: 2026-09-21T16:25:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-follow-through
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Follow-through
@@ -66,6 +66,7 @@ Follow-through is the dynamic reaction of the body and bow after release, showin
 - How to do it:
   1. Empty-handed or with a light band, place your fingertips against your jaw/neck at anchor.
   2. Practice sliding your fingertips backwards, "scratching" along your neck as your elbow squeezes around your spine.
+  3. Use it as a check: when the draw is led strictly by LAN2, the hand naturally brushes backward along the neck behind the ear; if it plucks outward instead, the draw was led by the arm.
 
 #### Follow-Through Mirror / Camera Drill
 
@@ -104,6 +105,7 @@ Follow-through is the dynamic reaction of the body and bow after release, showin
 - Follow Through Like a Pro | Stop Your Bow From Hitting You (Jake Kaminski)
 - Top 10 Mistakes in Beginner Archery Classes (Online Archery Academy)
 - Total Archery - Inside the Archer (Kisik Lee & Tyler Benner)
+- KSL / NTS LAN2 drill summary (captured 2026-09-21; underlying source notes not named): LAN2-led neck-scratch check
 
 ---
 

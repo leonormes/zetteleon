@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-09-21T16:23:07+01:00
+modified: 2026-09-21T16:33:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-anchor
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Anchor
@@ -15,6 +15,8 @@ Anchor is the final reference for the full draw position and the point of maxima
 ### The Steps
 
 1. Placement (Hand to the Neck & The "No Gap" Rule): Keep your chin slightly lifted (not tucked down) to create a straight, horizontal jawline. Turn your head sufficiently toward the target; turning your head more exposes the jawline, providing a solid platform for your hand to anchor against without having to awkwardly bend your wrist. Focus on drawing your hand straight back to firmly contact your neck and jawbone, guided by the continuous movement of your draw elbow. Don't just pull the hand back; pull "deeper" into the neck, allowing the thumb muscle to sit firmly in the pocket of the neck. Do not focus on pulling the string to the front of your face (which creates a high, disconnected anchor). Once touching the neck, press your index finger firmly against your jawbone so there are absolutely no gaps. Note: There is a common misconception that the index finger must hook completely *underneath* the jawline. Forcing this often kinks the wrist or cuts the string into the chin. It is perfectly acceptable for the finger to rest slightly alongside or outside the jawbone, provided the connection is snug and gapless.
+   - **Thumb placement**: Let the drawing thumb stretch down and forward, tucked securely in front of the sternocleidomastoid muscle along the neck (see also Tense Thumb or Pinky below). *Inside the Archer* (Ch. 13, PDF p. 137) says this is the correct position for almost all archers, at a downward angle resting against the windpipe, and that the thumb should keep the back-and-down stretch set at the hook. It calls holding the thumb against the tab, or using it as a ledge, incorrect because it raises forearm tension. Only archers with very large hands and very small heads should consider a thumb behind the muscle.
+   - **Top finger placement**: The distal (top) knuckle of the top finger is wedged into the pocket between the edge of the jawbone and the neck muscle. *Inside the Archer* (Ch. 13, PDF p. 134) calls this the first and most important element of the anchor; see Alternative Views / Corrections for how this differs from the note above.
 2. Real Full Draw (The State of Readiness): Simply reaching the anchor point (e.g., hand on jaw, string on face) is not full draw. "Real full draw" is the state of feeling "inside the bow," achieved by shifting your focus from pulling the string to moving your draw elbow further around your body along the shooting line.
    - **Continuous Motion**: The transition from drawing to anchoring to full draw must be continuous. Like a car taking a corner, slow down and change direction—do not stop completely.
    - **Bone Alignment**: When viewed from behind, the draw elbow must be directly in line with the arrow or slightly past it. Vertically, the draw elbow should sit slightly *above* the horizontal arrow line. You should be able to extrapolate a straight line from the pressure point on the bow grip, directly through the hook on the string, to the point of your draw elbow. If the elbow is outside this line, achieving stability is almost impossible.
@@ -24,8 +26,14 @@ Anchor is the final reference for the full draw position and the point of maxima
 5. Reference Points (Skeletal): Ensure the index finger and bow shelf are aligned on the same level.
 6. Posture & Pressure: Maintain full front-shoulder extension (pushing forward) and solid core posture. While back tension is the primary engine of the shot, maintaining a minimal amount of bicep/arm tension in the drawing arm is actually necessary to keep firm, active backward pressure driving the hand continuously into the neck.
 7. Aiming: Focus 100% on the target so the bullseye is perfectly clear, while the sight pin appears slightly blurry. Allow your sight pin to naturally float in front of the target. Shoot with both eyes open.
+   - **Two sight pins are normal**: Aiming uses parallel vision, with the eyes focused on the distant target and the pin noticed with secondary vision. *Inside the Archer* (Ch. 23, PDF pp. 219 and 222) says you should see two pins, one from the dominant eye and a faded, nearly transparent one from the non-dominant eye, and that the target should stay single and clear. A captured summary adds that for a right-handed, right-eye-dominant archer the left pin is the true image; the book passages read so far do not state the left or right, so treat that as unverified.
+   - **No need to wait to aim**: The same chapter says you can aim as well in the first second as in the third, so do not spend time trying to "get ready" at anchor.
 8. String Alignment: Consistently align the bowstring blur to a specific spot (e.g., the edge of the riser or alongside the sight pin).
 9. Micro-Adjustments: If string alignment is slightly off once you reach anchor, do not shift your hand position across your face. Keep the anchor completely locked and instead execute a "micro-head tilt"—gently tilt your head ever so slightly left or right until the string blur moves into your preferred reference position. (This is a lateral, fine-aim adjustment distinct from the anteroposterior head-tilting warned against in [[Archery Shot Process - Posture]]'s Faults & Diagnostics, which is about forcing nose contact rather than fine-tuning string blur.)
+   - **When to check the string picture**: *Inside the Archer* (Ch. 23, PDF p. 218) says string alignment should be checked only after holding is complete, after transfer, once expansion and aiming have begun. It should fall into place naturally, so any large change to head, anchor or bow cant should be made on a blank bale, not while shooting at a target.
+   - **Head position controls it**: Even very small changes in head twist, tilt or lean can change the string picture drastically at full draw (PDF p. 224), which is why the correction is a micro-tilt and not a move of the anchor hand.
+   - **Bow cant as a second lever**: Sometimes a very small amount of bow cant sets the string position. For a right-handed archer the top limb tip should move slightly to the right; the archer is in a weaker position if it leans left. Nearly all archers need a very slight right cant to keep correct head position (PDF pp. 218 and 224).
+   - **Which way the arrows move**: A captured summary says moving the string blur to the right of its reference pushes arrows left and moving it left pushes them right. This is not in the book passages read, so it is unverified.
 
 ### Why It Works
 
@@ -55,6 +63,8 @@ Anchor is the final reference for the full draw position and the point of maxima
 - Losing Point of Aim (Autopilot Shooting): The most important aspect of aiming is paying attention. Rushing often means failing to consciously identify and state your reference point before releasing (e.g., placing the arrow tip over a specific spot when gap shooting). If you shoot purely on "autopilot" and guess your reference point, your arrows will scatter. Take an extra second to consciously confirm the aim before the shot breaks.
 - Side Anchor (Deep on the Face): Anchoring too far down the side of the face physically blocks the string's natural inward oscillation upon release. This forces the arrow to travel too close to the rest and pressure button, causing erratic flight. It also introduces unpredictable variables like sweaty skin or stubble altering how the string slips away.
 - Anchor Shifts Alter Draw Length: Shifting your anchor point forward will physically shorten your overall draw length. You will likely need to move your clicker forward (e.g., by about 1 cm) so you do not struggle to pull through the shot with your new alignment.
+- Anchoring First, Aligning Later: Forcing the string to the face and then trying to muscle the shoulders into alignment is the wrong order. Build skeletal alignment as the draw progresses, so the hand travels in toward the neck and settles up into the jaw in one fluid motion without ramming (see Ramming Upward).
+- Face to String: Leaning the neck forward or dropping the chin to meet the string collapses spinal alignment, alters draw length and ruins consistency. Set the head early, level and neutral before the draw begins, and bring the string to the face (also see [[Archery Shot Process - Loading]] step 6).
 
 ### Training Drills
 
@@ -117,8 +127,17 @@ Anchor is the final reference for the full draw position and the point of maxima
   2. Practice drawing the bow in front of a mirror.
   3. Visually verify that the string aligns with the line and sits slightly forward, minimizing facial contact.
 
+### Alternative Views / Corrections
+
+- **Top finger under or alongside the jawbone**: Step 1 says it is acceptable, and often better, for the index finger to rest slightly alongside or outside the jawbone as long as the contact is snug and gapless, because forcing it underneath can kink the wrist. *Inside the Archer* (Ch. 13, PDF p. 134) is stricter: the distal joint must be wedged into the pocket, and if it only sits underneath the jawbone and not within the pocket, the anchor tends to slide up the face under pressure. Both are kept: the shared requirement is complete, gapless contact between hand, jaw and neck, and the book is the more specific about where the knuckle sits.
+- **Which part of the nose touches the string**: Step 4 has the string on the centre (or slightly right) of the nose and slightly right on the chin; the later summary and [[Archery Shot Process - Loading]] describe the tip of the nose and the corner of the chin. Source check: *Inside the Archer* (Ch. 13) says the string should rest exactly in the centre of the nose with gentle contact, which matches step 4 rather than "tip of the nose". All are kept; use whichever point you can repeat exactly.
+- **Loading position below the jaw**: [[Archery Shot Process - Loading]] stops drawing about half an inch below the jaw; the later summary and *Inside the Archer* (Ch. 12) say one to two inches below the jaw. See the Alternative Views section in [[Archery Shot Process - Loading]]. All agree the vertical move from loading into anchor should be small, so back tension is preserved.
+
 ### References
 
+- KSL / NTS anchor summary (captured 2026-09-21; underlying source notes not named): thumb placement, alignment before anchor, face-to-string fault
+- KSL / NTS aiming and timing summary (captured 2026-09-21; underlying source notes not named): string picture, two-pin vision, micro-tilt
+- Total Archery: Inside the Archer (Kisik Lee & Tyler Benner), Ch. 12 Loading Position and Ch. 13 Anchor Position (distal joint pocket, thumb, centre of nose) and Ch. 23 String Alignment and Aiming (string picture, two sight pins); read from an OCR of the scanned PDF, 2026-09-21
 - Archery | Rushed Shot Processes - Slow Down! (NUSensei)
 - Face Contact Matters! See Why And Learn How To Fix It! (Coach Michael)
 - Why you're NOT actually at full draw (Online Archery Academy)

@@ -1,19 +1,13 @@
 ---
-aliases: [Defining Done, Clear Done State Strategies, Definition of Done]
+aliases: [Clear Done State Strategies, Defining Done, Definition of Done]
 conformant: true
 created: 2026-09-21T15:23:44+00:00
 last_reviewed: ''
-modified: 2026-09-21T15:23:44+00:00
+modified: 2026-09-21T17:58:08+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/strategies-for-clearly-defining-done
 status: seed
-steps:
-  - Write the done state as a tangible outcome you could check
-  - Make each criterion binary so it can only be met or not met
-  - Set a stopping rule for planning and polishing before you start
-  - Use a time commitment as the done state when completion is too big to hold
-  - Mark session-level done separately from task-level done
-  - Close visibly so completion registers
+steps: [Close visibly so completion registers, Make each criterion binary so it can only be met or not met, Mark session-level done separately from task-level done, Set a stopping rule for planning and polishing before you start, Use a time commitment as the done state when completion is too big to hold, Write the done state as a tangible outcome you could check]
 tags: [execution, perfectionism, planning, task-completion, TheHuman/Health/ADHD, topic/productivity]
 title: Strategies for Clearly Defining “Done”
 trigger: You are starting, reviewing or stuck on a task or project whose finish line is unclear or keeps moving
@@ -22,13 +16,13 @@ updated: null
 verification: For the task in front of you, you can say yes or no to whether it is done without further thinking
 ---
 
-## Strategies for Clearly Defining “Done”
+## Strategies for Clearly Defining "Done"
 
 What: A set of ways to give a task or project a finish line that is concrete, checkable and set in advance. Without one, work has no boundary: it feels endless when it is large, and it never stops improving when you care about it. This note extends [[The Done State as a Boundary for ADHD Projects]] [extends:: [[The Done State as a Boundary for ADHD Projects]], confidence=high] from the principle into a set of practical moves.
 
 How:
 
-### 1. Write the done state as a tangible outcome
+### 1. Write the Done State as a Tangible Outcome
 
 Describe a physical, verifiable result that proves the work is finished, not an activity or a feeling.
 
@@ -36,14 +30,14 @@ Describe a physical, verifiable result that proves the work is finished, not an 
 - [[Protocol - Vague-to-Action]]—_Phase 1 does this for a vague task: "Sort out taxes" becomes "a submitted PDF confirmation on the HMRC portal"._
 - [[Any Desired Outcome Requiring More Than One Step Is a Project and Must Be Tracked]]—_Anything needing more than one step is a project, so it needs a named outcome to be finished against._
 
-### 2. Make each criterion binary
+### 2. Make Each Criterion Binary
 
 If a criterion can be partly met, you can argue with it indefinitely. One variable per criterion, true or false.
 
 - [[Optimization Criteria Must Be Binary Single-Variable Testable Conditions]]—_Written for automated evaluation loops, but the point transfers by analogy: fuzzy or compound criteria such as "short and clear and engaging" cannot be judged, so split them._
 - [[SoT - Test-Driven Development]]—_The engineering version: write the pass/fail test before the work, so "done" is the test passing._
 
-### 3. Set the stopping rule for planning and polish before you start
+### 3. Set the Stopping Rule for Planning and Polish before You Start
 
 The rule has to exist before the urge to keep refining does.
 
@@ -51,12 +45,12 @@ The rule has to exist before the urge to keep refining does.
 - [[Phase 2 - Aggressive Initiation to Overcome Paralysis]]—_Aim for 75% readiness rather than 100%, and keep creating separate from evaluating in a first pass._
 - [[Reasoning Loops Require Explicit Stopping Conditions (End-Loop Guardrails)]]—_The same lesson from agent design: any loop without an explicit exit condition can run forever; the analogy is loose but the mechanism is shared._
 
-### 4. Use time as the done state when completion is too big
+### 4. Use time as the Done State when Completion is Too Big
 
 - [[Focus on Process Not Completion to Reduce ADHD Overwhelm]]—_If you work for the allocated time you have succeeded with that box, whether or not the task reached completion._
 - [[Practice - Micro-tasking and time-boxing]]—_The structural technique that makes a time commitment the unit of success._
 
-### 5. Separate session-level done from task-level done
+### 5. Separate Session-level Done from Task-level Done
 
 Ending a session is not finishing the task, and sometimes the right session-level done is to stop mid-task on purpose.
 
@@ -64,7 +58,7 @@ Ending a session is not finishing the task, and sometimes the right session-leve
 - [[Leaving a Task Intentionally Unfinished Creates a Clear Starting Point]]—_A small, well-documented unfinished task gives the next session an obvious place to begin._
 - [[SoT - Breaking the Creation Cycle]]—_Its "Session Snapshot" exit ritual is the session-level done state in practice: record what is done, one to three next steps and the why before closing, so the mental model can be reloaded._
 
-### 6. Close visibly so completion registers
+### 6. Close Visibly so Completion Registers
 
 - [[The 'Dopamine Shot' vs 'Relief from Anxiety' in Task Completion]]—_Completing a task often brings only relief for an ADHD brain, not pleasure, so the finish needs an explicit marker and does not announce itself._
 - [[Externalizing Progress Makes it Tangible and Motivational]]—_Progress that is not externally represented is forgotten and gives no motivation, so record the close where you will see it._

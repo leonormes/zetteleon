@@ -2,7 +2,7 @@
 conformant: true
 created: 2026-09-17T11:34:14+00:00
 created_utc: '2026-09-17T00:00:00Z'
-modified: 2026-09-19T15:44:42+00:00
+modified: 2026-09-21T18:25:05+00:00
 permalink: llmeon/00-inbox/scandal-spillover-contagion-versus-contrast
 source_title: Political Contrast Effect Research
 source_url: '[[Political Contrast Effect Research]]'

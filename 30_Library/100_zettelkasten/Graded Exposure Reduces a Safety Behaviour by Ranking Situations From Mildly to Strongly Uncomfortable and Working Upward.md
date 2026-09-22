@@ -2,7 +2,7 @@
 conformant: true
 created: 2026-09-14T15:29:55+00:00
 created_utc: '2026-09-14T00:00:00Z'
-modified: 2026-09-19T15:44:36+00:00
+modified: 2026-09-21T18:52:03+00:00
 permalink: llmeon/30-library/100-zettelkasten/graded-exposure-reduces-a-safety-behaviour-by-ranking-situations-from-mildly-to-strongly-uncomfortable-and-working-upward
 prodos.kind: atomic
 prodos.lifecycle: seed

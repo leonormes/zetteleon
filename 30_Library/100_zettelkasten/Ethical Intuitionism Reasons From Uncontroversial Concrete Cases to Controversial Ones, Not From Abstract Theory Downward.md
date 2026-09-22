@@ -2,7 +2,7 @@
 conformant: true
 created: 2026-09-14T15:27:57+00:00
 created_utc: '2026-09-14T00:00:00Z'
-modified: 2026-09-19T15:44:34+00:00
+modified: 2026-09-21T18:52:17+00:00
 permalink: llmeon/30-library/100-zettelkasten/ethical-intuitionism-reasons-from-uncontroversial-concrete-cases-to-controversial-ones-not-from-abstract-theory-downward
 prodos.kind: atomic
 prodos.lifecycle: seed

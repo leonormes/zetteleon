@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-22T00:00:00+00:00
-modified: 2026-09-19T15:44:31+00:00
+modified: 2026-09-21T16:25:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-practice-drills
 tags: [archery, practice, prodos/atomic, training]
 title: Archery Practice Drills
@@ -103,7 +103,7 @@ _Note on the Role of Feelings:_ Only use kinesthetic drills to expose yourself t
 
 - The Goal: Isolate form correction entirely from the anxiety of aiming, cure target panic, and rebuild technique.
 - The "No-Shooting" Strategy: If attempting a massive technique rebuild, the most efficient training plan might involve zero actual shooting for a period of time. Shooting arrows at a target often causes panic, aiming focus, and an instant reversion to bad habits. Dedicate sessions entirely to blank-bale drills, stretch bands, core workouts, and bow-training circuits to force permanent muscle memory before reintroducing the distraction of a target.
-- How to do it: Stand 2 to 5 meters away from a large, blank target face (or simply start very close). Remove the fear of missing. Dedicate 100% of your mental focus to a specific physical sensation (e.g., getting your elbow in line, checking your grip) to overwrite flawed default habits without stressing about accuracy.
+- How to do it: Stand 2 to 5 meters away from a large, blank target face (or simply start very close). Remove the fear of missing. Dedicate 100% of your mental focus to a specific physical sensation (e.g., getting your elbow in line, checking your grip) to overwrite flawed default habits without stressing about accuracy. A worked example is the LAN2 focus drill in [[Archery Shot Process - Expansion]].
 - Remove Visual Feedback: Completely remove your sight and peep. This eliminates the visual feedback that typically causes an archer to flinch, punch the trigger, or nervously move their bow arm (target panic).
 - The Surprise Release: Use blind baling to prioritize the physical sensation of a clean shot execution. By removing the target, you can practice letting the bow fire as a true surprise. If you know exactly when the bow will fire, your brain will instinctively brace for it, ruining the shot.
 - Building Sensory Awareness: Removing the distraction of the target face entirely through close-range blank bale shooting is one of the most effective ways to drill sensory awareness and build the internal "feel" to target connection without the anxiety of aiming and scoring.

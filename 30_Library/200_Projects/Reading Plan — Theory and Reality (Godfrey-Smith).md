@@ -1,7 +1,7 @@
 ---
 conformant: true
 created: 2026-09-16T00:00:00+00:00
-modified: 2026-09-19T15:45:03+00:00
+modified: 2026-09-22T08:17:25+00:00
 permalink: llmeon/30-library/200-projects/reading-plan-theory-and-reality-godfrey-smith
 tags: [philosophy-of-science, prodos/project, reading]
 title: Reading Plan — Theory and Reality (Godfrey-Smith)
@@ -19,7 +19,25 @@ Read _Theory and Reality_ (Peter Godfrey-Smith)—Calibre id 1611, 2nd edition (
 
 ## Correction: Edition Mismatch in the Source Draft
 
-Action before building any chapter scaffolding: open the book's actual contents page (2 minutes) and copy the 14 real chapter titles into the roadmap table below. The thematic arc is edition-independent and safe to rely on now:
+> [!done] Resolved 2026-09-22
+> The 14 real chapter titles, confirmed from the book itself (Calibre id 1611, EPUB, via its own table of contents):
+>
+> 1. Introduction
+> 2. Empiricism
+> 3. Evidence and Induction
+> 4. Popper: Conjecture and Refutation
+> 5. Kuhn's Revolution
+> 6. Theories and Frameworks
+> 7. The Challenge from Sociology of Science
+> 8. Science Is Political
+> 9. Naturalistic Philosophy
+> 10. Scientific Realism
+> 11. Explanation, Laws, and Causes
+> 12. Bayesianism and New Views of Evidence
+> 13. Truth, Simplicity, and Other Problems
+> 14. The Future
+
+The thematic arc is edition-independent and was safe to rely on regardless:
 
 $$
 \text{Empiricism} \rightarrow \text{Popper} \rightarrow \text{Kuhn} \rightarrow \text{social/historical critiques} \rightarrow \text{naturalism} \rightarrow \text{realism} \rightarrow \text{explanation, truth \& models}
@@ -82,7 +100,7 @@ _Append one entry per chapter as you go. Do not pre-fill._
 
 ## First Actions
 
-1. Open the book's contents page; confirm the 14 real chapter titles.
-2. Create `MOC - Theory and Reality (Godfrey-Smith).md` in `30_Library/MoC/` with the guiding question, the position-map table (Empiricism / Popper / Kuhn / sociology of science / naturalism / realism / truth-simplicity-models), and an `entry_points` link to this project note.
+1. ✅ Open the book's contents page; confirm the 14 real chapter titles. Done 2026-09-22—see the Correction above.
+2. ✅ Create `MOC - Theory and Reality (Godfrey-Smith).md` in `30_Library/MoC/` with the guiding question, the position-map table (Empiricism / Popper / Kuhn / sociology of science / naturalism / realism / truth-simplicity-models), and an `entry_points` link to this project note. Done 2026-09-22: [[MOC - Theory and Reality (Godfrey-Smith)]]—built from the atomic notes already captured for this book rather than a fresh chapter-by-chapter read, since the Reading Log below was never filled in. The chapter loop below is still there to run properly, chapter by chapter, whenever that's picked back up.
 3. Read chapter 1 using the loop above.
-4. Delete or archive `00_Inbox/Give me a break down and synopsis of the chapters.md` once this plan is confirmed to replace it.
+4. `00_Inbox/Give me a break down and synopsis of the chapters.md` no longer exists in the vault, so this step is moot.

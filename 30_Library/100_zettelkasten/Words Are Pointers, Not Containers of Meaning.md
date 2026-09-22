@@ -5,7 +5,7 @@ created: 2026-09-21T08:54:40+00:00
 created_utc: '2026-09-21T08:54:40+00:00'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-21T09:17:36+00:00
+modified: 2026-09-21T18:02:36+00:00
 non_conformance_reason: ''
 permalink: llmeon/00-inbox/words-are-pointers-not-containers-of-meaning
 proposition: Words point towards meaning held in the experience of each person instead of containing it.

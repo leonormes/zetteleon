@@ -1,18 +1,14 @@
 ---
-aliases: [GTD Weekly Review Steps, Get Clear Get Current Get Creative]
+aliases: [Get Clear Get Current Get Creative, GTD Weekly Review Steps]
 conformant: true
 created: 2026-09-21T15:30:00+00:00
 last_reviewed: ''
-modified: 2026-09-21T15:30:00+00:00
+modified: 2026-09-21T18:02:17+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/core-actions-of-a-gtd-weekly-review
 status: seed
-steps:
-  - Get clear by collecting loose material and processing every inbox to empty
-  - Empty your head by writing down any commitment not yet captured
-  - Get current by reviewing next actions, past and upcoming calendar, waiting for, projects and checklists
-  - Get creative by reviewing the someday and maybe list and capturing new ideas
-tags: [gtd, planning, topic/productivity, TheHuman/Health/ADHD, weekly-review]
+steps: ["Get current by reviewing next actions, past and upcoming calendar, waiting for, projects and checklists", Empty your head by writing down any commitment not yet captured, Get clear by collecting loose material and processing every inbox to empty, Get creative by reviewing the someday and maybe list and capturing new ideas]
+tags: [gtd, planning, TheHuman/Health/ADHD, topic/productivity, weekly-review]
 title: Core Actions of a GTD Weekly Review
 trigger: The scheduled weekly review, ideally at the end of the working week
 type: procedure
@@ -40,7 +36,7 @@ Bring the orienting lists up to date by removing outdated reminders and completi
 
 1. Review Next Actions lists: mark off completed actions and record any further steps they suggest.
 2. Review previous calendar data: go through the last two to three weeks of entries for remaining or emergent actions, and capture every "Oh! That reminds me" with its action.
-3. Review upcoming calendar: look at short- and long-term entries and capture the projects and preparation they imply.
+3. Review upcoming calendar: look at shortand long-term entries and capture the projects and preparation they imply.
 4. Review the Waiting For list: decide whether follow-up is needed, record next actions, and check off what has arrived.
 5. Review Projects (and larger outcome) lists: evaluate each project and make sure at least one current kick-start action exists for it. This is where [[Weekly Review Verifies Project Actionability and Context]] applies.
 6. Review any relevant checklists: is there anything else you need or want to do, given your engagements, interests and responsibilities?

@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-09-21T16:16:38+01:00
+modified: 2026-09-21T16:37:39+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-loading
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Loading
@@ -21,6 +21,7 @@ Loading is the act of drawing the bow using the scapular retractors and shoulder
 5. Draw the remaining length by engaging the back muscles (scapular retractors) and moving the draw elbow in an "up and around" path.
 6. Keep the head stationary and bring the string to your face; do not move your head forward to meet the string.
 7. Stop drawing at the optimal load position, roughly 1/2 inch below the jaw, where the bowstring makes contact with the corner of your chin and tip of your nose.
+   - At this position the thumb presses into the sternocleidomastoid and the string touches the chin at the same lateral spot it will occupy at anchor, so the string does not slide along the jaw on the way up. *Inside the Archer* (Ch. 12, PDF p. 126) says thumb pressure into the neck is an *effect* of loading correctly, not the cause: do not draw until the thumb presses or the string touches the face, or focus moves to the face and away from the back muscles. The same passage says drawing until the thumb presses into the neck is a very good way to reach the same loading position consistently, but it can also make the wrist bend the wrong way (see Kinking the Wrist below), so the thumb must stay exactly where it was set at the hook.
 8. Bring the sight down onto the target from above as you finish the draw consistently.
 
 ### Why It Works
@@ -33,6 +34,8 @@ Loading is the act of drawing the bow using the scapular retractors and shoulder
 - Squeezing the shoulder blades together achieves the final inch of draw length and transfers heavy bow weight from arm muscles to stronger back muscles.
 - As you load straight back, the bow handle naturally pivots in your palm to align directly with the target.
 - Stopping at the load position ensures you achieve nearly 100% of your draw length before moving up into anchor.
+- The loading position is the "safety off" point: *Inside the Archer* (Ch. 12, PDF pp. 129-131) calls it the dividing position between preparing to shoot and actually shooting, leaving the archer about 90 percent ready. If the clicker goes off before this position, the archer should not feel compelled to shoot; the drawing motion is slowing and there is a sensation of holding, with the anchor occurring between loading and holding.
+- Loading is a position of power, not of muscle contraction: think of containing and controlling the angular energy in the direction you want it to go, and storing the drawing intensity in the core, not pinching or contracting the back. Very little visible motion takes place; the scapula may wing slightly, with equally small movement toward the spine and possibly slightly downward, and none of these should exceed one centimetre in any direction (PDF p. 126).
 - Actively increasing forearm flexor tension locks the hook in place; allowing fingers to uncurl causes draw length creep, making clicker setup erratic.
 
 ### Faults & Diagnostics
@@ -45,6 +48,7 @@ Loading is the act of drawing the bow using the scapular retractors and shoulder
 - Locked Draw Wrist: Keeping the wrist of the drawing hand completely locked and tense negatively affects elbow rotation and blocks proper back tension. Let the fingers act as relaxed hooks and let the elbow lead the movement.
 - Lack of Physical Flexibility: If your chest and shoulders lack flexibility, you physically cannot get your elbow in line to reach proper back tension. Test this by laying flat on your back; if your elbows cannot touch the floor, you need to stretch (e.g., on a bench) to improve mobility.
 - The Proprioception Trap: Actively thinking about flexing specific back muscles often causes unwanted tension in the upper traps and a failure to expand through the shot. Focus on the overall direction of physical movement instead.
+- Loading by Pinching: Treating loading as squeezing or contracting the muscles of the back, instead of rotating the shoulder so the scapula moves in an angular winging motion, produces shaking and works against the 80/20 back-to-arm split. The book shows a substantial gap remaining between the shoulder blades at correct loading (Figure 12.2, PDF p. 125). See also The Proprioception Trap above.
 - Loading Too Low: Do not load more than an inch below the jaw, as rising up into anchor from too low causes a loss of back tension.
 - Fighting the Target: Do not fight or rigidly hold the point on the target during the draw movement. Simply refine the sight picture once at full draw.
 
@@ -63,6 +67,15 @@ Loading is the act of drawing the bow using the scapular retractors and shoulder
 - How to do it:
   1. Loop a heavy resistance band around your drawing elbow (rather than gripping it with your hand).
   2. Perform the draw cycle, forcing yourself to draw using only LAN2 angular motion.
+- **"Dead Hand" variant**: Loop a lightweight band around the drawing hand *without gripping it*. Keep the hand and wrist completely passive ("like a wet noodle") and initiate the draw purely by moving LAN2 and the elbow backward.
+
+#### Partner Tap Cue (LAN2 Initiation)
+
+- Purpose: Gives the brain an immediate tactile cue to start the draw from LAN2 rather than from the bicep.
+- How to do it:
+  1. Have a coach or training partner tap the back of your drawing shoulder (LAN2) just before you begin the draw.
+  2. Start the draw from that spot, moving LAN2 backward and around, and let the elbow follow.
+- Contrast with the Scapular Tactile Feedback Drill above: that one confirms scapular compression *during* the draw, this one cues where the draw *starts*.
 
 #### The Draw Stop Check
 
@@ -123,8 +136,22 @@ Loading is the act of drawing the bow using the scapular retractors and shoulder
   2. Have a training partner push inward on your bow arm while pulling backward on your draw arm.
   3. If your arms fold inward easily, your alignment is incorrect. If you stay locked solidly in place, your skeletal alignment is properly supporting the weight.
 
+### Alternative Views / Corrections
+
+- **Where LAN2 sits**: Step 1 above places LAN2 "midway between the elbow and shoulder joint on the triceps". A later KSL / NTS drill summary (captured 2026-09-21) describes it as the posterior deltoid, the back of the drawing shoulder, which is also how [[Archery Shot Process - Expansion]] and [[Archery Shot Process - Finger Tab Selection & Maintenance]] describe it. Source check: *Inside the Archer* (Ch. 9, Setup Position, PDF p. 94) defines LAN 2 as "an area on the back side of the drawing arm and shoulder, not a specific body part", a focal point that can only be *moved*: you cannot hold intensity in it, squeeze it or clench it. Read that way, "triceps" and "posterior deltoid" are both approximations of the same area, and both are kept.
+- **What moves first**: The same passage says LAN 2 must be the first part to move in the draw, "not the elbow, and definitely not the drawing hand". Step 3 above says to lead the pull with the draw elbow. Both are kept, but where they seem to conflict, the source puts LAN 2 first and the elbow follows.
+- **Loading position below the jaw**: Step 7 stops drawing about half an inch below the jaw, and the Loading Too Low fault warns against loading more than an inch below it. A later KSL / NTS summary (captured 2026-09-21) says roughly 1 to 2 inches directly below the jaw. Source check: *Inside the Archer* (Ch. 12, PDF pp. 125 and 131) says the drawing hand should be no more than two inches below the jaw and lists "one to two inches below the jaw" as a key element, so the source and the summary agree and the half-inch and one-inch figures above are tighter than the book. Both are kept. The book also says the thumb presses into the sternocleidomastoid at loading (the same place it occupies at anchor), the string touches the chin at the same spot as at anchor and does not slide along the jaw, and there is minimal elbow movement between loading and anchor.
+
+- **Shoulder blades and the back at loading**: The Why It Works section above says squeezing the shoulder blades together achieves the final inch of draw length, and step 1 says to drive the drawing-side scapula toward the spine. A later KSL / NTS summary (captured 2026-09-21) says the scapulae do not pinch or squeeze together and a substantial gap remains between them. *Inside the Archer* (Ch. 12, PDF pp. 125 and 129) agrees with the summary: loading is "not a pinching, squeezing, or contracting of the muscles of the back", it is an angular winging of the scapula, seen in the book's figure as LAN 2 moving out of the page. Both are kept; where they conflict, the book and the summary favour rotation over squeezing, and the squeeze wording above is best read as the sensation of the back taking the load.
+- **Distance left under the clicker at loading**: The summary says 1 to 4 mm. *Inside the Archer* says a smoothly drawn bow gives a loading position less than three millimetres from the end of the arrow point (Ch. 14 Rhythm, PDF p. 149) and a maximum of two millimetres to expand through the clicker (PDF p. 166). See the matching entry in [[Archery Shot Process - Expansion]].
+- **What the 1 cm figure measures**: A later summary (captured 2026-09-21) says the hand moves less than 1 cm into the jaw pocket between loading and anchor. That cannot describe the hand's movement if it starts one to two inches below the jaw. In *Inside the Archer* (PDF p. 126) the one centimetre limit applies to *visible scapular movement* at the loading position, and the move from loading to anchor is described only as minimal elbow movement, with no change in posture, head position or shoulder elevation (Figure 12.3, PDF p. 127). Treat 1 cm as a limit on scapula movement, not on hand travel.
+- **Where the 80/20 figure applies**: The book puts the 80 percent back, 20 percent hands and arms ratio at the loading position itself (PDF pp. 128 and 131). The Why It Works section above says the same by the end of the loading phase, so these agree.
+
 ### References
 
+- KSL / NTS LAN2 drill summary (captured 2026-09-21; underlying source notes not named): Dead Hand band variant, Partner Tap Cue, LAN2 location
+- KSL / NTS Loading Position summaries (two, captured 2026-09-21; underlying source notes not named): safety-off framing, 80/20 ratio, scapular gap, minimal displacement to anchor, reference-point contacts
+- Total Archery: Inside the Archer (Kisik Lee & Tyler Benner), Ch. 9 Setup Position (LAN 2) and Ch. 12 Loading Position (PDF pp. 125-131); read from an OCR of the scanned PDF, 2026-09-21
 - [WHY YOU CANNOT GET BACK TENSION (Shatterproof Archery)](https://youtu.be/cEP55W2E6v8)
 - Top 10 Mistakes in Beginner Archery Classes (Online Archery Academy)
 - Shoulder Alignment (Online Archery Academy)
