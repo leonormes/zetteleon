@@ -1,9 +1,9 @@
 ---
 aliases: [Deforestation, Fusion, Stream Fusion]
-conformant: false
+conformant: true
 created: 2025-12-19T00:00:00+00:00
 modified: 2026-09-19T15:45:23+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-optimization-via-function-fusion
 tags: [compilers, functional-programming, optimization]
 title: SoT - Optimization via Function Fusion

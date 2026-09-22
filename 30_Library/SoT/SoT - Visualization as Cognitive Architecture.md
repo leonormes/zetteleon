@@ -1,9 +1,9 @@
 ---
 aliases: [Active Perception, The Fractal Mind, Three Planes of Visualization]
-conformant: false
+conformant: true
 created: 2025-12-15T00:00:00+00:00
 modified: 2026-09-19T15:45:28+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-visualization-as-cognitive-architecture
 tags: [cognitive_science, mental_models, system_design, TheHuman/Neuroscience, visualization]
 title: SoT - Visualization as Cognitive Architecture

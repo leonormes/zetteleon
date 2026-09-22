@@ -1,9 +1,9 @@
 ---
 aliases: [CI/CD Documentation, FITFILE Pipelines, GitLab CI Flows]
-conformant: false
+conformant: true
 created: 2025-12-16T00:00:00+00:00
 modified: 2026-09-19T15:45:15+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/sot-ci-cd-pipelines
 tags: [automation, cicd, devops, gitlab, pipeline]
 title: SOT - CI-CD Pipelines

@@ -1,10 +1,10 @@
 ---
 aliases: []
-conformant: false
+conformant: true
 created: 2025-12-14T00:00:00+00:00
 last_reviewed: ''
 modified: 2026-09-19T15:45:16+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/resource-mathematical-model-of-team-understanding
 status: stable
 tags: [mathematics, mental_model, team_dynamics, topic/systems]

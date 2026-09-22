@@ -1,5 +1,6 @@
 ---
-conformant: true
+conformant: false
+non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true)"
 created: 2026-09-14T15:09:31+00:00
 created_utc: '2026-09-14T00:00:00Z'
 modified: 2026-09-19T15:44:44+00:00

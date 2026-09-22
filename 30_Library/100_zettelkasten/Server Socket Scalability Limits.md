@@ -3,7 +3,7 @@ aliases: [C10K problem, maximum sockets, socket limits]
 conformant: false
 created: 2025-10-31T13:43:00+00:00
 modified: 2026-09-19T15:44:42+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/server-socket-scalability-limits
 tags: [performance, scalability, server, socket, SoftwareEngineering/Networking]
 title: Server Socket Scalability Limits

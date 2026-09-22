@@ -1,5 +1,6 @@
 ---
-conformant: true
+conformant: false
+non_conformance_reason: "missing schema field trigger for type procedure (required when conformant - true); missing schema field steps for type procedure (required when conformant - true); missing schema field verification for type procedure (required when conformant - true)"
 created: 2026-09-14T15:29:55+00:00
 created_utc: '2026-09-14T00:00:00Z'
 modified: 2026-09-21T18:52:03+00:00

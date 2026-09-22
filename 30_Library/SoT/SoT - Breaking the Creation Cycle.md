@@ -1,9 +1,9 @@
 ---
 aliases: [ADHD Creation Cycle, Breaking the Loop, Continuation Protocol]
-conformant: false
+conformant: true
 created: 2025-11-13T00:00:00+00:00
 modified: 2026-09-19T15:45:17+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-breaking-the-creation-cycle
 tags: [developer_workflow, mental_model, TheHuman/Health/ADHD, topic/productivity]
 title: SoT - Breaking the Creation Cycle

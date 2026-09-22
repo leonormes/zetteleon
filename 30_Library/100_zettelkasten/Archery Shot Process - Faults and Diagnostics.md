@@ -1,6 +1,7 @@
 ---
 aliases: [Archery Diagnostics, Archery Faults]
-conformant: true
+conformant: false
+non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true)"
 created: 2026-08-30T17:23:00+01:00
 modified: 2026-09-19T15:44:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-faults-and-diagnostics

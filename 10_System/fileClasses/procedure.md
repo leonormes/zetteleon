@@ -16,6 +16,8 @@ fields:
   type: Input
   path: ''
 permalink: llmeon/10-system/file-classes/procedure-1
+baseFile: 02_bases/procedure.base
+baseView: procedure
 ---
 
 # Procedure

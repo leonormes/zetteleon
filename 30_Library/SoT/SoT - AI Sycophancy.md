@@ -1,9 +1,9 @@
 ---
 aliases: [AI People-Pleasing, Model Sycophancy, Sycophancy in AI]
-conformant: false
+conformant: true
 created: 2026-01-01T12:00:00+00:00
 modified: 2026-09-19T15:45:16+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-ai-sycophancy
 tags: [ai, alignment, bias, mental_models, risk]
 title: SoT - AI Sycophancy

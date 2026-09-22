@@ -3,7 +3,7 @@ aliases: [NAPI]
 conformant: false
 created: 2025-11-22T15:00:07+00:00
 modified: 2026-09-19T15:44:33+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/concept-linux-napi
 tags: [SoftwareEngineering/networking/kernel]
 title: Concept - Linux NAPI

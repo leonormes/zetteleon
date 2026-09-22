@@ -4,7 +4,7 @@ axiom: true
 conformant: false
 created: 2025-10-30T12:07:01+00:00
 modified: 2026-09-19T15:44:32+00:00
-non_conformance_reason: Bulk inferred type. Needs review.
+non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/clinical-models-recognize-activation-as-a-core-impairment-in-adhd
 tags: [assessment, diagnosis, executive-function, TheHuman/Health/ADHD]
 title: Clinical Models Recognize Activation as a Core Impairment in ADHD

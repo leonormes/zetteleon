@@ -1,9 +1,9 @@
 ---
 aliases: [Cognitive Dissonance SoT, The Ambiguity Barrier]
-conformant: false
+conformant: true
 created: 2025-12-14T00:00:00+00:00
 modified: 2026-09-19T15:45:17+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-cognitive-ambiguity-and-deep-thinking
 tags: [ambiguity, deep_work, dissonance, mental_models, TheHuman/Cognition, TheHuman/Psychology]
 title: SoT - Cognitive Ambiguity and Deep Thinking

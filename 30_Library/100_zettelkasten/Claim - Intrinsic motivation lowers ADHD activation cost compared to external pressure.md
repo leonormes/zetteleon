@@ -2,7 +2,7 @@
 conformant: false
 created: 2026-07-16T15:11:33+00:00
 modified: 2026-09-19T15:44:32+00:00
-non_conformance_reason: Merged during bulk deduplication.
+non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/claim-intrinsic-motivation-lowers-adhd-activation-cost-compared-to-external-pressure
 tags: [motivation, TheHuman/Health/ADHD]
 title: Claim - Intrinsic motivation lowers ADHD activation cost compared to external pressure
@@ -20,7 +20,7 @@ llm-action: redirect-created
 modified: 2026-07-10T23:18:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/adhd-routines-should-be-based-on-intrinsic-motivation-not-external-pressure
 status: superseded
-superseded-by: 'SoT - Bridging the Intention-Action Gap'
+superseded_by: 'SoT - Bridging the Intention-Action Gap'
 tags: []
 title: ADHD routines should be based on intrinsic motivation not external pressure
 type: ''
@@ -40,7 +40,7 @@ llm-action: redirect-created
 modified: 2026-07-13T08:52:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-activation-cost-of-tasks-is-higher-in-adhd
 status: superseded
-superseded-by: '[[SoT - Bridging the Intention-Action Gap]]'
+superseded_by: '[[SoT - Bridging the Intention-Action Gap]]'
 tags: []
 title: The Activation Cost of Tasks is Higher in ADHD
 type: ''
@@ -60,7 +60,7 @@ llm-action: redirect-created
 modified: 2026-07-13T08:52:33+00:00
 permalink: llmeon/30-library/100-zettelkasten/why-importance-and-rewards-fail-to-motivate-adhd-brains
 status: superseded
-superseded-by: '[[SoT - Bridging the Intention-Action Gap]]'
+superseded_by: '[[SoT - Bridging the Intention-Action Gap]]'
 tags: []
 title: Why Importance and Rewards Fail to Motivate ADHD Brains
 type: ''

@@ -1,10 +1,10 @@
 ---
 aliases: [Speed of Causality, Speed of Light, Universal Speed Limit]
-conformant: false
+conformant: true
 created: 2025-09-20T06:38:14+00:00
 last_reviewed: null
 modified: 2026-09-19T15:45:27+00:00
-non_conformance_reason: Bulk inferred type. Needs review.
+non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-the-universal-speed-of-causality
 status: stable
 tags: [causality, physics, relativity, time]

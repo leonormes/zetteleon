@@ -1,5 +1,6 @@
 ---
-conformant: true
+conformant: false
+non_conformance_reason: "invalid type thinking — must be one of [claim, concept, evidence, journal, map, procedure, project, protocol, question, sot]"
 created: 2026-09-16T10:55:00+00:00
 date: 2026-09-16
 modified: 2026-09-19T15:44:56+00:00

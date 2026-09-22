@@ -20,6 +20,8 @@ fields:
   - journal
   - project
   - sot
+  - link_report
+  - equipment
   path: ''
 - name: project_name
   id: project_name
@@ -38,6 +40,7 @@ fields:
   - stable
   - evergreen
   - stale
+  - superseded
   path: ''
 - name: tags
   id: tags
@@ -50,6 +53,14 @@ fields:
 - name: non_conformance_reason
   id: non_conformance_reason
   type: Input
+  path: ''
+- name: supersedes
+  id: supersedes
+  type: MultiFile
+  path: ''
+- name: superseded_by
+  id: superseded_by
+  type: MultiFile
   path: ''
 - name: prodos
   id: prodos
@@ -106,7 +117,7 @@ fields:
   path: prodos____prodos_review
 permalink: llmeon/10-system/file-classes/note
 created: 2026-07-23T18:50:52+00:00
-modified: 2026-07-23T19:07:52+00:00
+modified: 2026-09-22T01:00:00+01:00
 ---
 
 # Note

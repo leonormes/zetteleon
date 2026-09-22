@@ -1,16 +1,16 @@
 ---
 aliases: [Model Fidelity]
-conformant: false
+conformant: true
 contradicts: []
 created: 2026-08-28T23:00:00+00:00
 epistemic_status: low
 evidence_links: []
 modified: 2026-09-19T15:44:32+00:00
-non_conformance_reason: "STUB - proposition deliberately unwritten; awaiting Leon's own formulation of the position (see body §1)."
+non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/claim-thinking-earns-its-place-by-improving-model-fidelity
 position-date: 2026-08-29
 proposition: ''
-supersedes: '[[Claim - A Note That Does Not Help You Act Is Noise]]'
+supersedes: ['[[Claim - A Note That Does Not Help You Act Is Noise]]']
 tags: [domain/pkm, prodos, topic/knowledge-architecture, topic/metacognition]
 title: Claim - Thinking Earns Its Place by Improving Model Fidelity
 type: claim

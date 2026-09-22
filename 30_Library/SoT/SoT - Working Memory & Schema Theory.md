@@ -1,9 +1,9 @@
 ---
 aliases: [Cognitive Load, Expertise, Schema Theory, Working Memory]
-conformant: false
+conformant: true
 created: 2025-12-07T00:00:00+00:00
 modified: 2026-09-19T15:45:28+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-working-memory-schema-theory
 tags: [learning, psychology, TheHuman/Cognition, TheHuman/Neuroscience]
 title: SoT - Working Memory & Schema Theory

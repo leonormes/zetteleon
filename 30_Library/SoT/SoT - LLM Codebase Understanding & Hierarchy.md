@@ -1,9 +1,9 @@
 ---
-conformant: false
+conformant: true
 created: 2026-02-06T09:00:00+00:00
 last-synthesis: 2026-02-06
 modified: 2026-09-19T15:45:22+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-llm-codebase-understanding-hierarchy
 source_of_truth: true
 tags: [concept/code-analysis, concept/code-representation, concept/context-management, domain/llm-architecture, llm, type/sot]

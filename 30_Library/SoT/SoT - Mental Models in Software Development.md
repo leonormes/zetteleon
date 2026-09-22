@@ -1,9 +1,9 @@
 ---
 aliases: ["The Developer's Compass", Developer Cognition, Internal Representations, Mental Models in Coding]
-conformant: false
+conformant: true
 created: 2026-02-03T12:30:00+00:00
 modified: 2026-09-19T15:45:22+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-mental-models-in-software-development
 source_of_truth: true
 tags: [cognition, devex, mental_models, prodos/sot, software-engineering]

@@ -1,10 +1,10 @@
 ---
 aliases: [Microsegmentation Deployment, NIST CSF Implementation, Zero Trust & NIST]
-conformant: false
+conformant: true
 created: 2026-04-02T11:10:00+00:00
 last_reviewed: 2026-04-02
 modified: 2026-09-19T15:45:15+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/protocol-nist-csf-implementation-via-microsegmentation
 status: evergreen
 tags: [cybersecurity, microsegmentation, nist, protocol, zero-trust]

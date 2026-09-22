@@ -7,7 +7,7 @@ type: equipment
 tags: [equipment, tablet, remarkable, eink, notes]
 manufacturer: reMarkable
 model: Paper Pro
-status: owned
+status: stable
 ---
 
 # reMarkable Paper Pro

@@ -1,16 +1,16 @@
 ---
 alias: [Intellectual Landscape, Knowledge Map, Ontology]
 aliases: []
-conformant: false
+conformant: true
 created: 2026-01-05T06:58:46+00:00
 last_reviewed: null
 modified: 2026-09-19T15:45:21+00:00
-non_conformance_reason: Bulk inferred type. Needs review.
+non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-knowledge-architecture-associative-ontology
 see_also: []
-status: stale
-superseded_by: '[[SoT - Structure is Truth is a Unifying Axiom Across Formal Systems]]'
-supersedes: ''
+status: superseded
+superseded_by: ['[[SoT - Structure is Truth is a Unifying Axiom Across Formal Systems]]']
+supersedes: []
 tags: [architecture, knowledge-management, meta, ontology, topic/knowledge-architecture]
 title: SoT - Knowledge Architecture (Associative Ontology)
 type: sot

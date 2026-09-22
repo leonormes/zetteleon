@@ -4,7 +4,7 @@ created_utc: '2026-04-14T11:45:00Z'
 modified: 2026-09-19T15:45:09+00:00
 permalink: llmeon/30-library/400-indexes/link-report-thinking-about-knowledge
 source_atoms: '[[tmp_atoms_thinking_about_knowledge.md]]'
-status: tmp
+status: seed
 title: _link_report_thinking_about_knowledge
 type: link_report
 ---

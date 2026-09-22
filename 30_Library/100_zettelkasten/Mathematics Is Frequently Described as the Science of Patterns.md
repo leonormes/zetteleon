@@ -3,7 +3,7 @@ aliases: []
 conformant: false
 created: 2025-07-18T14:12:00+00:00
 modified: 2026-09-19T15:44:39+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/mathematics-is-frequently-described-as-the-science-of-patterns
 tags: [topic/maths]
 title: Mathematics Is Frequently Described as the Science of Patterns

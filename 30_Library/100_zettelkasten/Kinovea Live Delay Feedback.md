@@ -15,7 +15,8 @@ tags:
 - training
 - software
 - video-analysis
-conformant: true
+conformant: false
+non_conformance_reason: "missing schema field trigger for type procedure (required when conformant - true); missing schema field steps for type procedure (required when conformant - true); missing schema field verification for type procedure (required when conformant - true)"
 permalink: llmeon/00-inbox/kinovea-live-delay-feedback
 ---
 

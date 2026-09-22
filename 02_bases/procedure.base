@@ -1,0 +1,24 @@
+filters:
+  and:
+    - type == "procedure"
+views:
+  - type: table
+    name: procedure
+    order:
+      - file.name
+      - trigger
+      - steps
+      - verification
+      - title
+      - type
+      - project_name
+      - project_category
+      - status
+      - tags
+      - conformant
+      - non_conformance_reason
+      - supersedes
+      - superseded_by
+      - prodos
+    columnSize:
+      file.name: 567

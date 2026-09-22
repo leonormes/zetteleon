@@ -2,7 +2,7 @@
 conformant: false
 created: 2026-02-01T20:57:04+00:00
 modified: 2026-09-19T15:44:42+00:00
-non_conformance_reason: Bulk inferred type. Needs review.
+non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/software-complexity-is-conserved-between-control-flow-and-representation
 tags: [concept/complexity, domain/software-engineering, law]
 title: Software Complexity is Conserved Between Control Flow and Representation

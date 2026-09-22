@@ -1,5 +1,6 @@
 ---
-conformant: true
+conformant: false
+non_conformance_reason: "missing schema field distinguishes_from for type concept (required when conformant - true)"
 created: 2026-09-07T15:00:00+00:00
 created_utc: 2026-09-07T15:00:00+00:00
 definition: The problem of induction is that generalising from observed cases to unobserved ones—the core move of empirical science—cannot be logically guaranteed, however many confirming instances have been seen.

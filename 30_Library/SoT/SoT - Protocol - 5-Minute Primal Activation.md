@@ -1,10 +1,10 @@
 ---
 aliases: [Daily Movement Snack, Primal Activation]
-conformant: false
+conformant: true
 created: 2025-12-24T12:00:00+00:00
 last_reviewed: 2025-12-24
 modified: 2026-09-19T15:45:24+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-protocol-5-minute-primal-activation
 status: stable
 tags: [adhd-friendly, fitness, primal_movement, protocol]

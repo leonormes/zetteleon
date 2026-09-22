@@ -1,5 +1,6 @@
 ---
-conformant: true
+conformant: false
+non_conformance_reason: "missing schema field confidence for type evidence (required when conformant - true)"
 created: 2026-07-27T17:50:00+01:00
 modified: 2026-09-19T15:44:35+00:00
 permalink: llmeon/30-library/100-zettelkasten/evidence-mcp-2026-07-28-removes-protocol-sessions-in-favour-of-explicit-handles

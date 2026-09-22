@@ -1,9 +1,9 @@
 ---
 aliases: [Helm to CUE, Infrastructure Refactoring, The Strangler Fig Pattern]
-conformant: false
+conformant: true
 created: 2026-02-04T00:00:00+00:00
 modified: 2026-09-19T15:45:25+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-strategy-helm-to-cue-migration
 tags: [cue, helm, migration, sot, strategy]
 title: SoT - Strategy - Helm to CUE Migration

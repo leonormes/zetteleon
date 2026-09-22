@@ -1,5 +1,6 @@
 ---
-conformant: true
+conformant: false
+non_conformance_reason: "missing schema field distinguishes_from for type concept (required when conformant - true)"
 created: 2026-09-07T15:00:00+00:00
 created_utc: 2026-09-07T15:00:00+00:00
 definition: Theory-ladenness is the principle that scientific observations are not raw, neutral facts—instruments, concepts, calibration choices, and background assumptions all shape what counts as data.

@@ -4,7 +4,7 @@ created_utc: '2026-04-13T11:30:00Z'
 modified: 2026-09-19T15:45:09+00:00
 permalink: llmeon/30-library/400-indexes/link-report-auth-methods
 source_atoms: '[[tmp_atoms_auth_methods.md]]'
-status: tmp
+status: seed
 title: _link_report_auth_methods
 type: link_report
 ---

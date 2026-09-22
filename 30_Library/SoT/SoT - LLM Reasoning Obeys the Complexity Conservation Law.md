@@ -1,9 +1,9 @@
 ---
 aliases: [LLM Reasoning Efficiency is Proportional to Structural Constraint]
-conformant: false
+conformant: true
 created: 2026-01-31T00:00:00+00:00
 modified: 2026-09-19T15:45:22+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-llm-reasoning-obeys-the-complexity-conservation-law
 tags: [complexity, llm-understanding, prompt-engineering]
 title: SoT - LLM Reasoning Obeys the Complexity Conservation Law

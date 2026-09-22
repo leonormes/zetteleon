@@ -10,7 +10,7 @@ non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/claim-thinking-that-cannot-name-its-resulting-action-is-procrastination
 position-date: 2026-08-29
 proposition: "If you cannot name the single specific action a piece of thinking is supposed to lead to, you are procrastinating."
-superseded_by: '[[Claim - Thinking Earns Its Place by Improving Model Fidelity]]'
+superseded_by: ['[[Claim - Thinking Earns Its Place by Improving Model Fidelity]]']
 tags: [domain/pkm, prodos, retired-position, topic/productivity]
 title: Claim - Thinking That Cannot Name Its Resulting Action Is Procrastination
 type: claim

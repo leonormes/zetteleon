@@ -4,7 +4,7 @@ created_utc: '2026-07-16T15:50:54+00:00'
 modified: 2026-09-19T15:45:09+00:00
 permalink: llmeon/30-library/400-indexes/link-report-harris-waking-up-split-brain
 source_atoms: Waking Up (Sam Harris) — reviewed LLM summary and critique
-status: tmp
+status: seed
 title: _link_report_harris_waking_up_split_brain
 type: link_report
 ---

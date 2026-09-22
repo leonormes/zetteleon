@@ -12,10 +12,10 @@ views:
       - type
       - non_conformance_reason
     sort:
-      - property: file.name
-        direction: ASC
       - property: type
         direction: DESC
+      - property: file.name
+        direction: ASC
     columnSize:
       file.name: 519
   - type: table

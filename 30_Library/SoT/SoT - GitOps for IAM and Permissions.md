@@ -1,9 +1,9 @@
 ---
 aliases: [IAM GitOps, Infrastructure as Code Permissions, PIM via Terraform, Temporal Permissions]
-conformant: false
+conformant: true
 created: 2025-12-30T12:02:15+00:00
 modified: 2026-09-19T15:45:20+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-git-ops-for-iam-and-permissions
 tags: [gitops, iam, SoftwareEngineering/Architecture, SoftwareEngineering/Security, type_theory]
 title: SoT - GitOps for IAM and Permissions

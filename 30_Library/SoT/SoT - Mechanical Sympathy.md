@@ -1,10 +1,10 @@
 ---
 aliases: [Hardware Sympathy, Mechanical Empathy]
-conformant: false
+conformant: true
 created: 2026-01-07T00:00:00+00:00
 last_reviewed: null
 modified: 2026-09-19T15:45:22+00:00
-non_conformance_reason: Bulk inferred type. Needs review.
+non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-mechanical-sympathy
 status: stable
 tags: [hardware, mindset, performance]

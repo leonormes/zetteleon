@@ -1,9 +1,9 @@
 ---
 aliases: [Behavioral Resistance, The Childish Mind, The Rider and the Elephant]
-conformant: false
+conformant: true
 created: 2026-01-12T12:05:00+00:00
 modified: 2026-09-19T15:45:26+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-the-childish-mind-behavioral-resistance
 tags: [behavioral-science, prodos/sot, psychology]
 title: SoT - The Childish Mind (Behavioral Resistance)

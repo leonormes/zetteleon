@@ -1,5 +1,6 @@
 ---
-conformant: true
+conformant: false
+non_conformance_reason: "missing required field - type"
 created: 2026-08-27T18:42:19+01:00
 modified: 2026-09-19T15:44:47+00:00
 permalink: llmeon/30-library/200-projects/2026-08-27-fitfile-helm-chart-acr-publishing-audit

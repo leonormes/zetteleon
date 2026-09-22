@@ -1,9 +1,9 @@
 ---
 aliases: [Dominance Hierarchies, Evolutionary Status, Neuroscience of Status]
-conformant: false
+conformant: true
 created: 2025-12-14T00:00:00+00:00
 modified: 2026-09-19T15:45:26+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-the-evolutionary-biology-of-status
 tags: [behavior, status, TheHuman/Neuroscience, TheHuman/Psychology]
 title: SoT - The Evolutionary Biology of Status

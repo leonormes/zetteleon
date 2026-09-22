@@ -1,9 +1,9 @@
 ---
 aliases: [Blast Radius, Future-Proofing Metrics, Strategic Architectural Cost]
-conformant: false
+conformant: true
 created: 2026-01-30T08:15:00+00:00
 modified: 2026-09-19T15:45:25+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-temporal-projection
 tags: [code-quality, maintainability, metrics, software-architecture]
 title: SoT - Temporal Projection

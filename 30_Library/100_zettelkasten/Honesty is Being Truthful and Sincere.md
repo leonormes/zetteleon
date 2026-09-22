@@ -3,7 +3,7 @@ aliases: [Sincerity, Truthfulness]
 conformant: false
 created: 2025-11-01T21:22:00+00:00
 modified: 2026-09-19T15:44:36+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/honesty-is-being-truthful-and-sincere
 tags: [character-strength, honesty, integrity, trust, virtue]
 title: Honesty is Being Truthful and Sincere

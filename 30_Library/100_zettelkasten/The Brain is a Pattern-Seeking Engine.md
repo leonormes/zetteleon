@@ -4,7 +4,7 @@ axiom: true
 conformant: false
 created: 2025-11-01T12:00:02+00:00
 modified: 2026-09-19T15:44:43+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/the-brain-is-a-pattern-seeking-engine
 tags: [neocortex, TheHuman/Cognition, TheHuman/Neuroscience]
 title: The Brain is a Pattern-Seeking Engine

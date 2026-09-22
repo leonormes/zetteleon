@@ -1,10 +1,10 @@
 ---
 aliases: [CPU Pinning K8s, K8s Node Tuning, The Golden Config, Topology Manager Policy]
-conformant: false
+conformant: true
 created: 2026-01-01T09:30:55+00:00
 last_reviewed: null
 modified: 2026-09-19T15:45:21+00:00
-non_conformance_reason: Bulk inferred type. Needs review.
+non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-high-performance-kubernetes-node-tuning
 status: stable
 tags: [kubernetes, linux, numa, performance, tuning]

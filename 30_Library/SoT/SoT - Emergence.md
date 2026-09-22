@@ -1,9 +1,9 @@
 ---
 aliases: [Complexity Theory, Emergent Properties, Self-Organization, The Whole is Greater Than the Sum of the Parts]
-conformant: false
+conformant: true
 created: 2026-02-03T10:45:00+00:00
 modified: 2026-09-19T15:45:18+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-emergence
 source_of_truth: true
 tags: [complexity, emergence, prodos/sot, systems-thinking]

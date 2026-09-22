@@ -3,7 +3,7 @@ aliases: [DAG Properties]
 conformant: false
 created: 2025-11-10T15:08:00+00:00
 modified: 2026-09-19T15:44:34+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/directed-acyclic-graphs-for-action-sequences-are-directed-acyclic-and-graph-structured
 tags: [definition, graph-theory, topic/productivity, workflow]
 title: Directed Acyclic Graphs for Action Sequences Are Directed Acyclic and Graph-Structured

@@ -3,9 +3,10 @@ aliases: []
 conformant: false
 created: 2025-11-06T19:58:01+00:00
 modified: 2026-09-19T15:44:42+00:00
-non_conformance_reason: "Tombstone. Content merged into [[Social Constructs Have Real Effects Despite Lacking Objective Truth]] on 2026-08-01; retained as a redirect so historical links and permalinks resolve."
+non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/social-constructs-are-not-arbitrary-they-are-real-in-their-effects
-superseded_by: '[[Social Constructs Have Real Effects Despite Lacking Objective Truth]]'
+status: superseded
+superseded_by: ['[[Social Constructs Have Real Effects Despite Lacking Objective Truth]]']
 tags: [merged, tombstone]
 title: Social Constructs are Not Arbitrary, They are Real in Their Effects
 type: claim

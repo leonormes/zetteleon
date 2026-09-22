@@ -1,9 +1,9 @@
 ---
 aliases: [Evolving Notes, Living Note System, NeuroStack Workflow, The Merge Protocol]
-conformant: false
+conformant: true
 created: 2025-11-13T00:00:00+00:00
 modified: 2026-09-19T15:45:18+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-evolutionary-note-system
 tags: [ai, knowledge-management, pkm, synthesis, TheHuman/Cognition, thinking, topic/knowledge-architecture]
 title: SoT - Evolutionary Note System

@@ -4,7 +4,7 @@ created_utc: '2026-04-10T13:00:00+00:00'
 modified: 2026-09-19T15:45:09+00:00
 permalink: llmeon/30-library/400-indexes/link-report-karpathy-interview
 source_atoms: '[[tmp_atoms_karpathy_interview]]'
-status: tmp
+status: seed
 title: _link_report_karpathy_interview
 type: link_report
 ---

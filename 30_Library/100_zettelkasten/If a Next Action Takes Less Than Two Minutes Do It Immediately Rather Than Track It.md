@@ -2,7 +2,7 @@
 conformant: false
 created: 2026-04-10T00:00:00+00:00
 modified: 2026-09-19T15:44:37+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/if-a-next-action-takes-less-than-two-minutes-do-it-immediately-rather-than-track-it
 tags: [efficiency, gtd, productivity, time-management]
 title: If a Next Action Takes Less Than Two Minutes Do It Immediately Rather Than Track It

@@ -1,6 +1,7 @@
 ---
 confidence: medium
-conformant: true
+conformant: false
+non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true)"
 created_utc: 2026-09-19 00:00:00+00:00
 prodos:
   atomic:

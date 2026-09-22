@@ -2,7 +2,7 @@
 conformant: false
 created: 2026-09-14T15:32:51+00:00
 modified: 2026-09-19T15:45:30+00:00
-non_conformance_reason: "Operational reference/runbook, not a canonical claim/concept/evidence/question/procedure per the strict §3 schema — kept as a coherent setup guide rather than atomised, since fragmenting it into separate claims would destroy its use as a single consultable runbook."
+non_conformance_reason: "missing schema field steps for type procedure (required when conformant - true); missing schema field verification for type procedure (required when conformant - true); missing schema field trigger for type procedure (required when conformant - true)"
 permalink: llmeon/30-library/ops/reference-lazy-vim-obsidian-markdown-setup
 prodos.kind: ops
 prodos.lifecycle: stable

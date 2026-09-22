@@ -3,7 +3,7 @@ aliases: [first-person thought bias, self-thought bias]
 conformant: false
 created: 2025-10-31T20:47:00+00:00
 modified: 2026-09-19T15:44:44+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/the-brain-is-biased-toward-its-own-thoughts-in-the-moment
 tags: [bias, metacognition, TheHuman/Cognition]
 title: The brain is biased toward its own thoughts in the moment

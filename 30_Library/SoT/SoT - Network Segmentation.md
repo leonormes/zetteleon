@@ -1,9 +1,9 @@
 ---
-conformant: false
+conformant: true
 created: 2026-04-01T21:47:06+00:00
 last-synthesis: 2026-04-02
 modified: 2026-09-19T15:45:23+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-network-segmentation
 source_of_truth: true
 tags: [domain/networking, security/segmentation, theory/zero-trust, type/SoT]

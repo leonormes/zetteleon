@@ -3,7 +3,7 @@ aliases: [Enlightened Activity]
 conformant: false
 created: 2025-11-01T12:20:08+00:00
 modified: 2026-09-19T15:44:46+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/zen-emphasizes-enlightened-activity-over-enlightened-people
 tags: [action, buddhism, compassion, zen]
 title: Zen Emphasizes Enlightened Activity Over Enlightened People

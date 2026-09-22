@@ -1,9 +1,9 @@
 ---
 aliases: [AI Agent Roles, Multi-Agent Architecture, The Surgical Team]
-conformant: false
+conformant: true
 created: 2026-01-30T12:00:00+00:00
 modified: 2026-09-19T15:45:16+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-agentic-roles
 tags: [agents, architecture, context-engine, roles]
 title: SoT - Agentic Roles

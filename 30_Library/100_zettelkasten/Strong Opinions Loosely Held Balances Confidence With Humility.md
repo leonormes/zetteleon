@@ -3,9 +3,10 @@ aliases: []
 conformant: false
 created: 2025-11-01T09:51:13+00:00
 modified: 2026-09-19T15:44:43+00:00
-non_conformance_reason: "Tombstone. Content merged into [[Strong Opinions, Loosely Held Balances Conviction and Humility]] on 2026-08-01; retained as a redirect so historical links and permalinks resolve."
+non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/strong-opinions-loosely-held-balances-confidence-with-humility
-superseded_by: '[[Strong Opinions, Loosely Held Balances Conviction and Humility]]'
+status: superseded
+superseded_by: ['[[Strong Opinions, Loosely Held Balances Conviction and Humility]]']
 tags: [merged, tombstone]
 title: Strong Opinions Loosely Held Balances Confidence With Humility
 type: claim

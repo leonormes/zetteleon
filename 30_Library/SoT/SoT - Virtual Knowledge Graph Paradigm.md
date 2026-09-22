@@ -1,10 +1,10 @@
 ---
 aliases: [OBDA, Ontop, Semantic Data Access]
-conformant: false
+conformant: true
 created: 2026-01-07T20:52:57+00:00
 last_reviewed: null
 modified: 2026-09-19T15:45:28+00:00
-non_conformance_reason: Bulk inferred type. Needs review.
+non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-virtual-knowledge-graph-paradigm
 status: stable
 tags: [architecture, data-centric, knowledge-graph, ontop, semantic-web, topic/knowledge-architecture]

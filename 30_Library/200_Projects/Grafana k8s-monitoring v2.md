@@ -9,7 +9,7 @@ project_name: Refined Deployment
 project_status: archived
 source: owl-audit-agent — consolidated from 4 audit drafts + Loki labels reference + Prometheus/Alloy Reference
 stack: fitfiletest (Grafana Cloud, prometheus-prod-05-gb-south-0)
-superseded_by: '[[Grafana k8s-monitoring - Cardinality & Label Strategy (testing)]]'
+superseded_by: ['[[Grafana k8s-monitoring - Cardinality & Label Strategy (testing)]]']
 tags: [adaptive-metrics, alloy, audit, cardinality, grafana, kubernetes, labels, loki, monitoring, seedling, structured-metadata, testing-cluster]
 ticket: FTFL-638
 title: Grafana k8s-monitoring v2

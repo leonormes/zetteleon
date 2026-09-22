@@ -1,9 +1,9 @@
 ---
 aliases: [Anatomy of a URL, Uniform Resource Locator, URL Structure]
-conformant: false
+conformant: true
 created: 2025-12-24T08:47:50+00:00
 modified: 2026-09-19T15:45:26+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-the-data-anatomy-of-a-url
 tags: [SoftwareEngineering/Architecture, SoftwareEngineering/Networking, topic/technology, url]
 title: SoT - The Data Anatomy of a URL

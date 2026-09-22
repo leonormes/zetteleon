@@ -1,9 +1,9 @@
 ---
 aliases: [Hanging Mechanics, Primal Progressions, Technical Movement Standards, The Seven Pillars of Movement]
-conformant: false
+conformant: true
 created: 2025-12-30T16:00:00+00:00
 modified: 2026-09-19T15:45:24+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-primal-movement-patterns
 tags: [fitness, longevity, mobility, primal_movement, progressions]
 title: SoT - Primal Movement Patterns

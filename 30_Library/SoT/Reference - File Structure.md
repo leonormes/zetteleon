@@ -1,10 +1,10 @@
 ---
 aliases: []
-conformant: false
+conformant: true
 created: 2026-01-03T10:07:49+00:00
 last_reviewed: ''
 modified: 2026-09-19T15:45:15+00:00
-non_conformance_reason: Bulk inferred type. Needs review.
+non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/reference-file-structure
 tags: []
 title: Reference - File Structure

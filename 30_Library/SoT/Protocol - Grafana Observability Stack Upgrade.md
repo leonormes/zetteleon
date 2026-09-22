@@ -1,9 +1,9 @@
 ---
 alias: [Alloy Operator Upgrade Guide, Grafana Migration Protocol]
-conformant: false
+conformant: true
 created: 2026-02-05T00:00:00+00:00
 modified: 2026-09-19T15:45:15+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/protocol-grafana-observability-stack-upgrade
 status: stable
 tags: [grafana, helm, migration, observability, protocol]

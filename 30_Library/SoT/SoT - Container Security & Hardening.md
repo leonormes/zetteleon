@@ -1,9 +1,9 @@
 ---
 aliases: [Container Security Best Practices, Hardening Containers, K8s Security Hardening]
-conformant: false
+conformant: true
 created: 2025-12-25T12:30:00+00:00
 modified: 2026-09-19T15:45:17+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-container-security-hardening
 tags: [kubernetes, SoftwareEngineering/Architecture, SoftwareEngineering/Containers, SoftwareEngineering/Security]
 title: SoT - Container Security & Hardening

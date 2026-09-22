@@ -1,9 +1,9 @@
 ---
 aliases: [Social Drag]
-conformant: false
+conformant: true
 created: 2025-12-17T00:00:00+00:00
 modified: 2026-09-19T15:45:25+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-social-friction-coefficient
 tags: [efficiency, team-dynamics, topic/productivity, topic/systems]
 title: SoT - Social Friction Coefficient

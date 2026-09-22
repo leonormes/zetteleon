@@ -1,9 +1,9 @@
 ---
 aliases: [Cyberpunk Derivatives, Punk Genres]
-conformant: false
+conformant: true
 created: 2025-12-30T00:00:00+00:00
 modified: 2026-09-19T15:45:18+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-cyberpunk-derivatives
 tags: [biopunk, genre, scifi, solarpunk, steampunk]
 title: SoT - Cyberpunk Derivatives

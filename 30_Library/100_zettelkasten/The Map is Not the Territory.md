@@ -9,7 +9,7 @@ modified: 2026-09-20T00:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-map-is-not-the-territory
 proposition: Our mental models, beliefs, and perceptions are simplified maps of reality, not reality itself, meaning our understanding is always an abstraction and potentially flawed.
 status: superseded
-superseded-by: "[[SoT - Reality, Models, and the Limits of Accuracy]]"
+superseded_by: ["[[SoT - Reality, Models, and the Limits of Accuracy]]"]
 tags: [archive, epistemology, mental-model, perception, reality]
 title: The Map is Not the Territory
 type: claim

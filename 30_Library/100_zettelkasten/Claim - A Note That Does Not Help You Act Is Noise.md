@@ -10,7 +10,7 @@ non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/claim-a-note-that-does-not-help-you-act-is-noise
 position-date: 2026-08-29
 proposition: If a note does not help you act, it is noise.
-superseded_by: '[[Claim - Thinking Earns Its Place by Improving Model Fidelity]]'
+superseded_by: ['[[Claim - Thinking Earns Its Place by Improving Model Fidelity]]']
 tags: [domain/pkm, prodos, retired-position, topic/knowledge-architecture]
 title: Claim - A Note That Does Not Help You Act Is Noise
 type: claim

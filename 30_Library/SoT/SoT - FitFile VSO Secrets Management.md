@@ -1,9 +1,9 @@
 ---
 aliases: [FitFile Secrets SoT, Secrets Management Source of Truth, VSO Secrets Management]
-conformant: false
+conformant: true
 created: 2026-03-14T12:00:00+00:00
 modified: 2026-09-19T15:45:20+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-fit-file-vso-secrets-management
 source_of_truth: true
 tags: [argocd, fitfile, kubernetes, secrets, security, sot, vault, vso]

@@ -19,7 +19,7 @@ views:
       - property: project_name
         direction: ASC
     columnSize:
-      file.name: 350
+      file.name: 429
       note.project_name: 250
   - type: cards
     name: Visual Board

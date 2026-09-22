@@ -1,9 +1,9 @@
 ---
 aliases: [AI Research Assistant, Google NotebookLM, NotebookLM Studio]
-conformant: false
+conformant: true
 created: 2025-12-26T00:00:00+00:00
 modified: 2026-09-19T15:45:27+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-tool-notebook-lm
 tags: [ai, google, research, synthesis, tool]
 title: SoT - Tool - NotebookLM

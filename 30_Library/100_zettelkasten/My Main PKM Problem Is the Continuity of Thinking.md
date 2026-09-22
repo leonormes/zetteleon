@@ -1,5 +1,6 @@
 ---
-conformant: true
+conformant: false
+non_conformance_reason: "missing required field - type; missing required field - tags"
 created: 2026-05-04T08:01:26+00:00
 epistemic_status: high
 modified: 2026-09-19T15:44:39+00:00

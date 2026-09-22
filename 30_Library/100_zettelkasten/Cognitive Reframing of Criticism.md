@@ -1,5 +1,6 @@
 ---
-conformant: true
+conformant: false
+non_conformance_reason: "missing schema field trigger for type procedure (required when conformant - true); missing schema field steps for type procedure (required when conformant - true); missing schema field verification for type procedure (required when conformant - true)"
 created: 2025-10-31T12:56:00+00:00
 modified: 2026-09-19T15:44:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/cognitive-reframing-of-criticism

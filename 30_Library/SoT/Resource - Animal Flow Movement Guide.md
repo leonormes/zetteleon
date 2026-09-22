@@ -1,10 +1,10 @@
 ---
 aliases: [Animal Flow Guide, Primal Movement Reference]
-conformant: false
+conformant: true
 created: 2025-12-15T00:00:00+00:00
 last_reviewed: ''
 modified: 2026-09-19T15:45:15+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/resource-animal-flow-movement-guide
 status: stable
 tags: [exercise, health, somatics, TheHuman/Health/ADHD]

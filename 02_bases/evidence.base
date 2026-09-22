@@ -1,0 +1,23 @@
+filters:
+  and:
+    - type == "evidence"
+views:
+  - type: table
+    name: evidence
+    order:
+      - file.name
+      - source_quote
+      - source_reference
+      - supports_claims
+      - confidence
+      - title
+      - type
+      - project_name
+      - project_category
+      - status
+      - tags
+      - conformant
+      - non_conformance_reason
+      - supersedes
+      - superseded_by
+      - prodos

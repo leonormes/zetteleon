@@ -1,5 +1,6 @@
 ---
-conformant: true
+conformant: false
+non_conformance_reason: "missing schema field distinguishes_from for type concept (required when conformant - true)"
 created: 2026-09-07T15:00:00+00:00
 created_utc: 2026-09-07T15:00:00+00:00
 definition: Reproducibility is getting consistent results from the same data, analysis steps, methods, and code; replicability is getting consistent results from a new, independently collected study or dataset addressing the same question. The two are distinct standards, per the U.S. National Academies of Sciences.

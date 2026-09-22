@@ -1,5 +1,6 @@
 ---
-conformant: true
+conformant: false
+non_conformance_reason: "missing required field - type"
 created: 2026-04-10T00:00:00+00:00
 epistemic_status: medium
 modified: 2026-09-19T15:44:39+00:00

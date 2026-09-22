@@ -1,6 +1,7 @@
 ---
 aliases: []
-conformant: true
+conformant: false
+non_conformance_reason: "missing schema field definition for type concept (required when conformant - true)"
 created: 2026-09-04T09:24:58+00:00
 created_utc: 2026-09-04T14:00:00+00:00
 distinguishes_from: ["[[Falsifiability Distinguishes Science from Dogma]]"]

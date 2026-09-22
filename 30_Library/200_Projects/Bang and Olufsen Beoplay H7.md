@@ -7,7 +7,7 @@ type: equipment
 tags: [equipment, headphones, audio, bang-and-olufsen, bluetooth]
 manufacturer: Bang & Olufsen
 model: Beoplay H7
-status: owned
+status: stable
 ---
 
 # Bang & Olufsen Beoplay H7

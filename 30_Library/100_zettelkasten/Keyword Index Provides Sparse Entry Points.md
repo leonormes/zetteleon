@@ -1,6 +1,7 @@
 ---
 aliases: [Entry Index, Index, Keyword List]
-conformant: true
+conformant: false
+non_conformance_reason: "missing required field - type"
 created: 2025-10-30T15:33:36+00:00
 epistemic_status: high
 modified: 2026-09-19T15:44:38+00:00

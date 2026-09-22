@@ -1,10 +1,10 @@
 ---
 aliases: []
-conformant: true
+conformant: false
 created: 2025-12-04T12:00:00+00:00
 definition: "The fourth writing stage of the Unified Writing to Think process, focusing on deliberate linking and integration into the Zettelkasten."
 modified: 2026-09-19T15:44:43+00:00
-non_conformance_reason: ""
+non_conformance_reason: "missing schema field distinguishes_from for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/stage-4
 tags: [cognition, pkm, writing]
 title: Stage 4 Connect (The Zettelkasten Layer)

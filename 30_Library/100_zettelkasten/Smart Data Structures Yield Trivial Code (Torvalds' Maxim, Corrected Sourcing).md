@@ -1,5 +1,6 @@
 ---
-conformant: true
+conformant: false
+non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true)"
 created: 2026-09-19T15:24:25+00:00
 created_utc: 2026-09-19 00:00:00+00:00
 modified: 2026-09-19T15:44:42+00:00

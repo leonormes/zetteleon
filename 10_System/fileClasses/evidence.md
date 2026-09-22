@@ -24,6 +24,8 @@ fields:
     step: 0.1
   path: ''
 permalink: llmeon/10-system/file-classes/evidence-1
+baseFile: 02_bases/evidence.base
+baseView: evidence
 ---
 
 # Evidence

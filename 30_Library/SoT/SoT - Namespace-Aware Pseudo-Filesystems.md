@@ -1,9 +1,9 @@
 ---
 aliases: [Namespace-Aware FS, Virtualized /proc]
-conformant: false
+conformant: true
 created: 2025-12-23T22:28:46+00:00
 modified: 2026-09-19T15:45:23+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-namespace-aware-pseudo-filesystems
 tags: [kernel, namespace, procfs, SoftwareEngineering/Linux, sysfs]
 title: SoT - Namespace-Aware Pseudo-Filesystems

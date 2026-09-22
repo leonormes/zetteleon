@@ -1,9 +1,9 @@
 ---
 aliases: [Agent Capabilities, AI Agent Skills, Claude Code Skills]
-conformant: false
+conformant: true
 created: 2026-03-28T17:00:00+00:00
 modified: 2026-09-19T15:45:16+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-ai-agent-skill-architecture
 tags: [agents, ai, architecture, claude, mcp, skills]
 title: SoT - AI Agent Skill Architecture

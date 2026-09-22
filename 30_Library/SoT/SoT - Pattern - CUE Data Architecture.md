@@ -1,9 +1,9 @@
 ---
 alias: [CUE Patterns, Dotfiles Architecture, FFNode Refactor]
-conformant: false
+conformant: true
 created: 2026-02-04T00:00:00+00:00
 modified: 2026-09-19T15:45:23+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-pattern-cue-data-architecture
 tags: [architecture, cue, patterns, sot]
 title: SoT - Pattern - CUE Data Architecture

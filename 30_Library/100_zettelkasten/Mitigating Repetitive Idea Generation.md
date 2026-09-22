@@ -1,6 +1,7 @@
 ---
 aliases: []
-conformant: true
+conformant: false
+non_conformance_reason: "missing required field - type"
 created: 2025-07-25T08:34:28+00:00
 epistemic_status: high
 modified: 2026-09-19T15:44:39+00:00

@@ -1,6 +1,6 @@
 ---
 created: 2026-04-28T00:00:00+00:00
-modified: 2026-07-30T00:00:00+01:00
+modified: 2026-09-22T00:00:00+01:00
 permalink: llmeon/agents
 tags: [agents, hermes, system]
 title: AGENTS
@@ -47,7 +47,12 @@ Agents may read and write freely across all folders. The human curates through r
 
 #### Frontmatter
 
-Canonical spec: [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]. New notes use `prodos.kind` and `prodos.lifecycle`. Do not add legacy keys (`type`, `status`, `updated`, `creation_date`) to new content.
+Canonical spec: [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]] — read it in full; this is a pointer, not a substitute. Reconciled 2026-09-22: the contract's §1 explicitly un-deprecates `type` ("superseding previous deprecation"), so the guidance below replaces this file's earlier "avoid `type`/`status`" wording.
+
+- `type` is **required** on every note (§2), set to one of the contract's enum values. Fileclass's own class-detection (`fileClassAlias: type`) keys off this field — a note without it gets no schema, no validation, no editable Bases row, whatever its `prodos` object says.
+- `status` is optional top-level (§2): `draft`, `stable`, `evergreen`, `stale`.
+- `prodos.kind`/`prodos.lifecycle` (§4) are a separate, optional routing/lifecycle layer, not a `type`/`status` replacement — add them alongside `type`, not instead of it, when the note's folder or role calls for routing (§7).
+- Still legacy and still to avoid on new content: `updated`, `creation_date` (§6 — fold their value into `created`/`modified` instead).
 
 ---
 

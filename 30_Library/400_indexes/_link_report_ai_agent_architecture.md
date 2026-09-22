@@ -4,7 +4,7 @@ created_utc: '2026-04-13T11:20:00Z'
 modified: 2026-09-19T15:45:09+00:00
 permalink: llmeon/30-library/400-indexes/link-report-ai-agent-architecture
 source_atoms: '[[tmp_atoms_ai_agent_architecture.md]]'
-status: tmp
+status: seed
 title: _link_report_ai_agent_architecture
 type: link_report
 ---

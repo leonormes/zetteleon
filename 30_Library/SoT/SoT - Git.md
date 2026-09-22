@@ -1,9 +1,9 @@
 ---
 aliases: [Distributed Version Control, Git, Version Control System]
-conformant: false
+conformant: true
 created: 2025-12-13T00:00:00+00:00
 modified: 2026-09-19T15:45:20+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-git
 see_also: ["[[SoT - Software Configuration Management Patterns]]"]
 source_of_truth: []

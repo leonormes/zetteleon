@@ -26,7 +26,7 @@ VAULT_ROOT = Path(os.environ.get("OBSIDIAN_VAULT_PATH", os.getcwd()))
 VALID_TYPES = {
     "claim", "concept", "evidence", "question",
     "procedure", "protocol", "map", "journal",
-    "project", "sot",
+    "project", "sot", "link_report", "equipment",
 }
 
 # Prodos.kind enum per §4.1
@@ -44,7 +44,12 @@ VALID_PRODOS_LIFECYCLES = {
 # every canonical note type, including claim. Empty-string/literal-"null" legacy values are
 # common migration artifacts and are just as invalid to the Bases plugin as any other
 # out-of-enum string.
-VALID_STATUS = {"draft", "seed", "stable", "evergreen", "stale"}
+VALID_STATUS = {"draft", "seed", "stable", "evergreen", "stale", "superseded"}
+
+# Fields whose fileClass type is MultiFile at the base `Note` level (not type-specific) —
+# same "must be a list, not a bare scalar" rule as TYPE_SCHEMA_LIST_FIELDS below, just
+# universal instead of per-type.
+UNIVERSAL_LIST_FIELDS = {"supersedes", "superseded_by"}
 
 # Scopes per §8
 SCOPED_FOLDERS = {
@@ -138,6 +143,20 @@ def validate_note(path, relative_path):
         errors.append(f"invalid 'status' value '{status}' — must be one of {sorted(VALID_STATUS)}")
     elif status == "":
         errors.append("'status' is an empty string — remove the field entirely or set a valid value")
+
+    # 'superseded' is conditional on having something to point at, same pattern as
+    # conformant/non_conformance_reason above.
+    if status == "superseded":
+        if not fm.get("superseded_by"):
+            errors.append("missing 'superseded_by' (required when status: superseded)")
+
+    # Universal MultiFile-typed fields (base Note schema, not type-specific): a bare scalar
+    # is a common hand-written mistake — the fileClass field type is MultiFile, so the
+    # Bases plugin expects a list even when there's only one target.
+    for field in UNIVERSAL_LIST_FIELDS:
+        value = fm.get(field)
+        if value is not None and value != "" and not isinstance(value, (list, tuple)):
+            errors.append(f"'{field}' must be a list, got {type(value).__name__}")
 
     # Validate prodos object if present
     prodos = fm.get("prodos")

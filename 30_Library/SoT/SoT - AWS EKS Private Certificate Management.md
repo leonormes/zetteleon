@@ -1,10 +1,10 @@
 ---
 aliases: [ACM Private CA with Cert-Manager, EKS Private Certs, Private TLS Architecture]
-conformant: false
+conformant: true
 created: 2025-07-23T13:42:04+00:00
 last_reviewed: null
 modified: 2026-09-19T15:45:16+00:00
-non_conformance_reason: Bulk inferred type. Needs review.
+non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-aws-eks-private-certificate-management
 status: stable
 tags: [aws, cert-manager, certificates, eks, security, tls]

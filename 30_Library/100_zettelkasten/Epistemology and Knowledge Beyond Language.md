@@ -3,8 +3,8 @@ aliases: []
 created: 2025-08-31T16:08:27+00:00
 modified: 2026-09-19T15:44:34+00:00
 permalink: llmeon/30-library/100-zettelkasten/epistemology-and-knowledge-beyond-language
-status: stale
-superseded-by: '[[MOC - The Gap Between Thought and Language]]'
+status: superseded
+superseded_by: ['[[MOC - The Gap Between Thought and Language]]']
 tags: [archive, epistemology, knowledge, non-linguistic-knowledge, topic/philosophy]
 title: Epistemology and Knowledge Beyond Language
 type: 'null'

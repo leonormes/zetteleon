@@ -1,6 +1,7 @@
 ---
 aliases: [The Stimulus-Response Gap]
-conformant: true
+conformant: false
+non_conformance_reason: "missing schema field distinguishes_from for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true)"
 created: 2025-09-07T15:32:45+00:00
 definition: A response is a chosen action selected in the space between stimulus and behaviour; a reaction is an automatic discharge that closes that space.
 last_reviewed: ''

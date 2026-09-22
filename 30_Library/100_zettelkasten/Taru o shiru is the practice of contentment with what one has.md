@@ -3,7 +3,7 @@ aliases: [Contentment Practice, Taru o shiru]
 conformant: false
 created: 2025-10-29T16:35:00+00:00
 modified: 2026-09-19T15:44:43+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/taru-o-shiru-is-the-practice-of-contentment-with-what-one-has
 source: '[[SoT - Ikigai and the Logic of Purpose]]'
 tags: [contentment, gratitude, Japanese_culture, mindfulness, TheHuman/Habits]

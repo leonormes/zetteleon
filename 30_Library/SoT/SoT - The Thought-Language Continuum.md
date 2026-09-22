@@ -1,9 +1,9 @@
 ---
 aliases: []
-conformant: false
+conformant: true
 created: 2025-12-11T00:00:00+00:00
 modified: 2026-09-19T15:45:27+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-the-thought-language-continuum
 tags: []
 title: SoT - The Thought-Language Continuum

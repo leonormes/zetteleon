@@ -3,7 +3,7 @@ aliases: [Time Mapping]
 conformant: false
 created: 2025-11-10T14:15:00+00:00
 modified: 2026-09-19T15:44:44+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/time-mapping-is-a-visual-method-of-time-blocking-the-day
 tags: [planning, time-blocking, time-management, topic/productivity]
 title: Time Mapping is a Visual Method of Time Blocking the Day

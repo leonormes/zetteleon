@@ -1,9 +1,9 @@
 ---
 aliases: [Model Theory, Proof Theory, Set Theory Basics, Subfields of Logic]
-conformant: false
+conformant: true
 created: 2026-01-12T10:20:00+00:00
 modified: 2026-09-19T15:45:17+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-core-fields-of-mathematical-logic
 source_of_truth: true
 tags: [foundation, math/logic, math/set-theory, prodos/sot]

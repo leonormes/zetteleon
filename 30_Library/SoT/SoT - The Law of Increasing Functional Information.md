@@ -1,9 +1,9 @@
 ---
 aliases: [Assembly Theory, Functional Information Theory, The Fourth Law of Thermodynamics]
-conformant: false
+conformant: true
 created: 2025-12-25T12:00:00+00:00
 modified: 2026-09-19T15:45:27+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-the-law-of-increasing-functional-information
 see_also: []
 superseded_by: ''

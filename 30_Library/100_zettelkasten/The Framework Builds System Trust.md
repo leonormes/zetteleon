@@ -3,7 +3,7 @@ aliases: [System Trust]
 conformant: false
 created: 2025-11-10T15:17:00+00:00
 modified: 2026-09-19T15:44:44+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/the-framework-builds-system-trust
 tags: [reliability, topic/productivity, topic/systems, trust]
 title: The Framework Builds System Trust

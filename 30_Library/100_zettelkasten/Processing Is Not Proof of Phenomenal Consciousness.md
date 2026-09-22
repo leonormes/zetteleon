@@ -1,6 +1,7 @@
 ---
 aliases: [Access vs Phenomenal Consciousness, Information Processing Is Not Subjectivity]
-conformant: true
+conformant: false
+non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true)"
 created: 2026-07-16T15:50:54+00:00
 modified: 2026-09-19T15:44:41+00:00
 permalink: llmeon/30-library/100-zettelkasten/processing-is-not-proof-of-phenomenal-consciousness

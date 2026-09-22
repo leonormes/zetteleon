@@ -1,10 +1,10 @@
 ---
 aliases: [AWS VPC CNI vs Calico, EKS IP Planning, EKS Networking, EKS Networking Requirements]
-conformant: false
+conformant: true
 created: 2026-02-01T21:19:14+00:00
 last-synthesis: 2026-04-04
 modified: 2026-09-19T15:45:16+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-aws-eks-networking-architecture
 source_of_truth: true
 tags: [domain/cloud, networking, provider/aws, service/eks, type/SoT]

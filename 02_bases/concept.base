@@ -2,7 +2,7 @@ filters:
   and:
     - type == "concept"
 views:
-  - type: fileclass-table
+  - type: table
     name: concept
     order:
       - file.name
@@ -17,4 +17,8 @@ views:
       - tags
       - conformant
       - non_conformance_reason
+      - supersedes
+      - superseded_by
       - prodos
+    columnSize:
+      file.name: 457

@@ -1,6 +1,7 @@
 ---
 aliases: []
-conformant: true
+conformant: false
+non_conformance_reason: "missing schema field confidence for type evidence (required when conformant - true)"
 created: 2026-08-03T00:00:00+01:00
 modified: 2026-09-19T15:44:35+00:00
 permalink: llmeon/30-library/100-zettelkasten/evidence-mass-literacy-sustained-working-class-intellectual-traditions-outside-academia

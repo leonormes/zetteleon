@@ -1,6 +1,7 @@
 ---
 aliases: [Mundane Thoughts as Raw Material]
-conformant: true
+conformant: false
+non_conformance_reason: "missing required field - type"
 created: 2025-11-06T20:01:00+00:00
 epistemic_status: high
 modified: 2026-09-19T15:44:39+00:00

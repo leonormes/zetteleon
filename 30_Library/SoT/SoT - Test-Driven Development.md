@@ -1,9 +1,9 @@
 ---
-conformant: false
+conformant: true
 created: 2026-04-02T09:05:00+00:00
 last-synthesis: 2026-04-02
 modified: 2026-09-19T15:45:25+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-test-driven-development
 source_of_truth: true
 tags: [ai/guardrails, domain/software-engineering, testing/tdd, theory/software-craftsmanship, type/SoT]

@@ -4,7 +4,7 @@ manufacturer: Apple
 model: MacBook Pro (14-inch, M3 Pro, Nov 2023)
 modified: 2026-09-21T17:56:24+00:00
 permalink: llmeon/30-library/200-projects/apple-macbook-pro-m3-pro
-status: owned
+status: stable
 tags: [apple, computer, equipment, macbook, macos]
 title: Apple MacBook Pro M3 Pro
 type: equipment

@@ -4,7 +4,7 @@ created_utc: '2026-04-10T13:00:00+00:00'
 modified: 2026-09-19T15:45:09+00:00
 permalink: llmeon/30-library/400-indexes/link-report-analytical-exploration-of-evil
 source_atoms: '[[tmp_atoms_analytical_exploration_of_evil]]'
-status: tmp
+status: seed
 title: _link_report_analytical_exploration_of_evil
 type: link_report
 ---

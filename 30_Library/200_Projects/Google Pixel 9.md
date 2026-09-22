@@ -7,7 +7,7 @@ type: equipment
 tags: [equipment, phone, google, pixel, android]
 manufacturer: Google
 model: Pixel 9
-status: owned
+status: stable
 ---
 
 # Google Pixel 9

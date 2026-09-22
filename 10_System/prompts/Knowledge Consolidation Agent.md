@@ -180,7 +180,7 @@ ACTION: DEPRECATE
 title: [Duplicate Note Title]
 type: [unchanged — preserve the original type value]
 status: superseded
-superseded-by: [[Canonical Note Title]]
+superseded_by: [[Canonical Note Title]]
 tags: [archive]
 conformant: true
 ---
@@ -188,7 +188,7 @@ conformant: true
 This note's thinking has been integrated into [[Canonical Note Title]] on 2025-XX-XX.
 ```
 
-> Deprecation is a frontmatter edit, not a re-typing. Preserve the note's existing `type` and `tags`; only add `status: superseded`, `superseded-by`, and `archive` to `tags`. Never strip `conformant`/`non_conformance_reason` if already present.
+> Deprecation is a frontmatter edit, not a re-typing. Preserve the note's existing `type` and `tags`; only add `status: superseded`, `superseded_by`, and `archive` to `tags`. Never strip `conformant`/`non_conformance_reason` if already present.
 
 ---
 

@@ -4,7 +4,7 @@ created_utc: '2026-04-14T12:50:00Z'
 modified: 2026-09-19T15:45:09+00:00
 permalink: llmeon/30-library/400-indexes/link-report-cue-type-system
 source_atoms: '[[tmp_atoms_cue_type_system.md]]'
-status: tmp
+status: seed
 title: _link_report_cue_type_system
 type: link_report
 ---

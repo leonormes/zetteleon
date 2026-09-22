@@ -2,7 +2,7 @@ filters:
   and:
     - type == "claim"
 views:
-  - type: fileclass-table
+  - type: table
     name: claim
     groupBy:
       property: conformant
@@ -21,4 +21,6 @@ views:
       - tags
       - conformant
       - non_conformance_reason
+      - supersedes
+      - superseded_by
       - prodos

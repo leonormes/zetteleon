@@ -3,7 +3,7 @@ aliases: [Process Primacy, System-Level Determines Outcomes]
 conformant: false
 created: 2025-11-06T19:55:02+00:00
 modified: 2026-09-19T15:44:46+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/you-fall-to-the-level-of-your-systems-not-rise-to-your-goals
 tags: [goals, outcomes, TheHuman/Habits, topic/systems]
 title: You Fall to the Level of Your Systems, Not Rise to Your Goals

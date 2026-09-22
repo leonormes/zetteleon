@@ -1,9 +1,9 @@
 ---
 aliases: [Engineering Management, Project Planning, Software Estimation, Stakeholder Management]
-conformant: false
+conformant: true
 created: 2025-12-27T20:38:44+00:00
 modified: 2026-09-19T15:45:25+00:00
-non_conformance_reason: "Bulk inferred type. Needs review."
+non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-software-estimation-and-management
 tags: [career, estimation, leadership, management]
 title: SoT - Software Estimation and Management
