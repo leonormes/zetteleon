@@ -4,7 +4,7 @@ conformant: true
 created: 2025-10-28T09:00:00+00:00
 definition: "The tendency for negative events, information, and experiences to have a greater psychological impact and receive more attention than neutral or positive ones of equal intensity—an evolutionary leftover from when threat-alertness was more survival-critical than opportunity-recognition."
 distinguishes_from: ["[[Loss Aversion Describes Asymmetric Pain of Loss vs Pleasure of Gain]]"]
-modified: 2026-09-19T15:44:39+00:00
+modified: 2026-09-22T21:20:03+00:00
 permalink: llmeon/30-library/100-zettelkasten/negativity-bias
 tags: [evolution, TheHuman/Cognition/bias, TheHuman/Psychology]
 title: Negativity Bias
