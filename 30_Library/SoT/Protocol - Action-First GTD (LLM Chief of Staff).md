@@ -2,7 +2,7 @@
 aliases: [Action-First GTD, Dump Don't Organize, LLM Chief of Staff]
 conformant: true
 created: 2026-02-11T11:40:00+00:00
-modified: 2026-09-19T15:45:14+00:00
+modified: 2026-09-23T00:00:00+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/protocol-action-first-gtd-llm-chief-of-staff
 status: stable
@@ -29,6 +29,7 @@ type: protocol
 
 - Trigger: Once a day or when overwhelmed.
 - Action: Copy the `Daily Dump` content and send it to the LLM with the Chief of Staff Prompt.
+- Priority criterion: the `!!Priority` in the Todoist syntax below is not free judgement—triage it against [[The Time Management Matrix (Eisenhower Matrix)]]. Urgent+Important (Quadrant I) gets the highest priority; Important-not-Urgent (Quadrant II) still gets a real priority level so it survives against louder Quadrant I noise, rather than being deferred indefinitely; Urgent-not-Important (Quadrant III) gets a low priority or gets challenged as delegatable; Quadrant IV items should usually be dropped during extraction rather than turned into a Next Action at all.
 
 #### The Prompt
 
@@ -68,3 +69,4 @@ type: protocol
 
 - rel:: [[SoT - Think Like a Man of Action, Act Like a Man of Thought]]
 - rel:: [[SoT - Cognitive Engineering Protocols]] (Module A)
+- [[The Time Management Matrix (Eisenhower Matrix)]] [depends_on:: [[The Time Management Matrix (Eisenhower Matrix)]], confidence=medium]—_the triage logic behind this protocol's `!!Priority` step; that note's own Related section explains the mapping quadrant-by-quadrant._

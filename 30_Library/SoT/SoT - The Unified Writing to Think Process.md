@@ -2,7 +2,7 @@
 aliases: [Unified Writing Process, Writing to Learn, Writing to Think]
 conformant: true
 created: 2025-12-07T00:00:00+00:00
-modified: 2026-09-19T15:45:27+00:00
+modified: 2026-09-23T00:00:00+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/sot/the-unified-writing-to-think-process
 tags: [learning, pkm, thinking, writing]
@@ -158,5 +158,6 @@ _Full atomic note: [[Stage 5 Synthesise (The Outcome Layer)]]._
 - [[Writing Acts as an External Working Memory]]—_The atomic claim behind this SoT's "External Working Memory" cognitive mechanic (§3.1)._ [synthesizes:: [[Writing Acts as an External Working Memory]]]
 - [[Writing Creates Cognitive Distance for Objective Evaluation]]—_The atomic claim behind this SoT's "Restructuring Thought" cognitive mechanic (§3.4)._ [synthesizes:: [[Writing Creates Cognitive Distance for Objective Evaluation]]]
 - [[Writing as Cognitive Rigour]]—_Independent support for the same thesis: an idea that remains unwritten is only the illusion of a thought._
+- [[Mundane Written Thoughts are the Starting Point for Deeper Insight]]—_The atomic claim behind the Stage 1→Stage 2 transition: the messy Goldberg-layer output is not a failed thought but the required raw material for the Zinsser-layer refinement._ [synthesizes:: [[Mundane Written Thoughts are the Starting Point for Deeper Insight]]]
 
 > The "Exploratory vs Explanatory Writing" and "Writing as Thinking Tool" links formerly here were dangling—no matching note exists anywhere in the vault, and the former distinction is already fully defined in-note at §6. Removed rather than left as `UNSURE` stubs or fabricated as new notes; see the Note Refresh audit for the search evidence.
