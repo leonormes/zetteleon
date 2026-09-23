@@ -1,6 +1,6 @@
 ---
 created: 2026-09-22T10:52:42+00:00
-modified: 2026-09-22T10:59:53+00:00
+modified: 2026-09-23T14:56:27+00:00
 permalink: llmeon/00-inbox/cue-assessment
 title: CUE-ASSESSMENT
 type: note
@@ -254,7 +254,7 @@ The root cause is architectural, not a coding error: everything is squeezed thro
 
 #### 6.4 Out, into Module versioning—neutral, but Must Be Managed Deliberately
 
-POC B has no `cue.mod`. It is a directory of files invoked by glob. The predictable consequence has already occurred: the POC exists in two places— `New_Customer/ff-test-1/cue` and `Clusters/eoe/Test/ff-test-1/cue`—and they have diverged:
+POC B has no `cue.mod`. It is a directory of files invoked by glob. The predictable consequence has already occurred: the POC exists in two places—`New_Customer/ff-test-1/cue` and `Clusters/eoe/Test/ff-test-1/cue`—and they have diverged:
 
 ```
 render_fitfile.cue:  58 changed lines (292 vs 290)
