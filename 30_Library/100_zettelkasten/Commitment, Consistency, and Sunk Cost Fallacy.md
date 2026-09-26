@@ -6,7 +6,7 @@ contradicts: []
 created: 2025-08-23T17:07:39+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:20+00:00
+modified: 2026-09-26T08:45:28+00:00
 permalink: llmeon/30-library/100-zettelkasten/commitment-consistency-and-sunk-cost-fallacy
 prodos.kind: atomic
 prodos.lifecycle: stable

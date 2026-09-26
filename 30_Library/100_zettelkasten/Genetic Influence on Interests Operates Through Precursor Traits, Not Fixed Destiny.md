@@ -5,7 +5,7 @@ created: 2026-09-14T11:40:56+00:00
 created_utc: '2026-09-14T00:00:00Z'
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:23+00:00
+modified: 2026-09-26T08:45:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/genetic-influence-on-interests-operates-through-precursor-traits-not-fixed-destiny
 proposition: Twin and adoption research indicates individual differences in interests are meaningfully influenced by genetics, but indirectly—through precursor traits such as aptitude and personality that shape which environments a person enters—rather than by specifying a fixed destiny.
 source_title: "What Drives a Person's Interests? Why Do Some People Love Maths and Logic and Others Not? Why Do Interests Come in Related Bundles?"

@@ -3,7 +3,7 @@ aliases: [Gödel's Law in Software, Incompleteness in Systems Architecture, The 
 conformant: true
 created: 2026-01-05T07:34:29+00:00
 last_reviewed: null
-modified: 2026-09-19T15:45:25+00:00
+modified: 2026-09-26T08:46:21+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-system-incompleteness-and-meta-systems
 status: stable

@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2026-08-03T00:00:00+01:00
-modified: 2026-09-25T16:29:22+00:00
+modified: 2026-09-26T08:45:30+00:00
 non_conformance_reason: "missing schema field confidence for type evidence (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/evidence-mass-literacy-sustained-working-class-intellectual-traditions-outside-academia
 source_quote: "Nineteenth- and twentieth-century British and American working-class readers sustained substantial autodidactic reading cultures — mutual improvement societies, Mechanics' Institutes, and the Workers' Educational Association — entirely outside elite academic institutions."

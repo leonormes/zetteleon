@@ -2,7 +2,7 @@
 alias: ["Tesler's Law Application", Forensic Chart Analysis, Helm Refactoring Strategy]
 conformant: true
 created: 2026-02-05T00:00:00+00:00
-modified: 2026-09-19T15:45:15+00:00
+modified: 2026-09-26T08:46:10+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/protocol-legacy-helm-refactoring
 status: stable

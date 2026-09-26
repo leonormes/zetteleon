@@ -6,7 +6,7 @@ created: 2026-09-04T09:25:05+00:00
 created_utc: 2026-09-04 14:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:30+00:00
+modified: 2026-09-26T08:45:37+00:00
 permalink: llmeon/00-inbox/sciences-adversarial-incentive-structure-rewards-overturning-established-theories
 proposition: Science is not a unified establishment protecting the status quo but a highly competitive arena in which researchers are professionally and financially rewarded for successfully tearing down established ideas, so when a consensus forms, it is because many hyper-competitive attempts to break the idea have failed.
 source_title: New chat

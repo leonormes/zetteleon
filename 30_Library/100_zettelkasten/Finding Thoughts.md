@@ -6,7 +6,7 @@ contradicts: []
 created: 2025-05-09T20:07:21+00:00
 epistemic_status: high
 evidence_links: ["[[Evidence - Ahrens on Luhmann Overview Notes Reached From the Index as Entry Points Into a Topic]]"]
-modified: 2026-09-25T16:29:23+00:00
+modified: 2026-09-26T08:45:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/finding-thoughts
 prodos.kind: atomic
 prodos.lifecycle: stable

@@ -3,7 +3,7 @@ aliases: []
 created: 2025-10-31T12:28:00+00:00
 exclusions: Specific literary works without technique focus
 last_reviewed: ''
-modified: 2026-09-19T15:45:13+00:00
+modified: 2026-09-26T08:46:08+00:00
 permalink: llmeon/30-library/mo-c/moc-storytelling-techniques
 scope: Narrative structures and techniques
 tags: [storytelling]

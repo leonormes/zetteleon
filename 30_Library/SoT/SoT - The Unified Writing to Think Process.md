@@ -2,7 +2,7 @@
 aliases: [Unified Writing Process, Writing to Learn, Writing to Think]
 conformant: true
 created: 2025-12-07T00:00:00+00:00
-modified: 2026-09-23T00:00:00+00:00
+modified: 2026-09-26T08:46:23+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/sot/the-unified-writing-to-think-process
 tags: [learning, pkm, thinking, writing]

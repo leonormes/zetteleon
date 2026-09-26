@@ -4,7 +4,7 @@ contradicts: []
 created: 2026-09-25T00:00:00+00:00
 epistemic_status: low
 evidence_links: []
-modified: 2026-09-25T16:29:37+00:00
+modified: 2026-09-26T08:45:41+00:00
 permalink: llmeon/30-library/100-zettelkasten/one-wrong-instinct-read-as-proof-that-instincts-cannot-be-trusted-feeds-a-worry-loop
 proposition: Worry that instincts are wrong holds a person back, and reading each
   actual miss as proof that instincts cannot be trusted keeps that worry going.

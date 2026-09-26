@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-11-01T11:22:13+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:23+00:00
+modified: 2026-09-26T08:45:31+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/formalism-mathematics-as-symbol-manipulation
 proposition: "Formalism holds that mathematics has no inherent truth-content and is instead the manipulation of meaningless symbols according to pre-defined formal rules, where statements are only 'provable' or 'not provable' within a given axiomatic system."

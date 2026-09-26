@@ -2,7 +2,7 @@
 aliases: [Drift Detection, SBOM Analysis, Software Bill of Materials, Supply-Chain Security]
 conformant: true
 created: 2026-03-28T17:20:00+00:00
-modified: 2026-09-19T15:45:25+00:00
+modified: 2026-09-26T08:46:21+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-sbom-and-supply-chain-security
 tags: [compliance, devops, sbom, security, supply-chain]

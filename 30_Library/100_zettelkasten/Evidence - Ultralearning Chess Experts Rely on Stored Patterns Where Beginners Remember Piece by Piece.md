@@ -2,7 +2,7 @@
 aliases: []
 conformant: true
 created: 2026-09-24T00:00:00+00:00
-modified: 2026-09-25T16:29:36+00:00
+modified: 2026-09-26T08:45:41+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/evidence-ultralearning-chess-experts-rely-on-stored-patterns-where-beginners-remember-piece-by-piece
 source_quote: Give beginners and experts a randomized chess board (one that doesn’t

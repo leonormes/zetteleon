@@ -3,7 +3,7 @@ aliases: [Rich Hickey, Simple Made Easy, Simplicity vs Complexity]
 conformant: true
 created: 2026-01-07T00:00:00+00:00
 last_reviewed: null
-modified: 2026-09-19T15:45:25+00:00
+modified: 2026-09-26T08:46:21+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-simple-made-easy-rich-hickey
 status: stable

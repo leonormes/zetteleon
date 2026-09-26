@@ -2,7 +2,7 @@
 aliases: [Creative Intelligence, Framework Generation, Generative Thinking, Paradigm Shift Intelligence, Revolutionary Science]
 conformant: true
 created: 2024-03-30T00:00:00+00:00
-modified: 2026-09-21T11:44:36+00:00
+modified: 2026-09-26T08:46:15+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/so-t/so-t-generative-intelligence
 source_of_truth: true

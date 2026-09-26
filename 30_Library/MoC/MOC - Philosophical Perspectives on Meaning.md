@@ -3,7 +3,7 @@ aliases: []
 created: 2025-10-31T13:08:00+00:00
 exclusions: Religious interpretations
 last_reviewed: ''
-modified: 2026-09-19T15:45:12+00:00
+modified: 2026-09-26T08:46:08+00:00
 permalink: llmeon/30-library/mo-c/moc-philosophical-perspectives-on-meaning
 scope: Theories of meaning from philosophy
 tags: [TheHuman/Philosophy]

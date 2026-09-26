@@ -2,7 +2,7 @@
 aliases: [Breadth vs Depth, Explorer vs Specialist, Synthesist vs Expert]
 conformant: false
 created: 2025-09-11T20:23:51+00:00
-modified: 2026-09-25T16:29:25+00:00
+modified: 2026-09-26T08:45:32+00:00
 non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/intellectual-explorer-vs-academic-specialist
 superseded_by: ["[[Success is Connection Not Mastery]]"]

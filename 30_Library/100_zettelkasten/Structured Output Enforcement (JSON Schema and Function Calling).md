@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:32+00:00
+modified: 2026-09-26T08:45:37+00:00
 permalink: llmeon/30-library/100-zettelkasten/structured-output-enforcement-json-schema-and-function-calling
 proposition: LLM outputs must be constrained to machine-readable, predictable formats (JSON Schema, function calls) to interface reliably with downstream software. By "enforcing structure, the system refuses conversational filler and ensures the model's" output can be parsed and validated deterministically.
 tags: [domain/llm, topic/determinism, topic/integration, topic/reliability, topic/structured-outputs]

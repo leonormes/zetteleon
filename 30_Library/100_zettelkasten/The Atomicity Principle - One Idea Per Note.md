@@ -1,25 +1,17 @@
 ---
-aliases:
-- Atomicity Principle
-- One Idea Per Note
-- Atomic Notes
+aliases: [Atomic Notes, Atomicity Principle, One Idea Per Note]
 conformant: true
-created: 2026-09-26 00:00:00+00:00
+created: 2026-09-26T00:00:00+00:00
 definition: The atomicity principle says a note holds exactly one idea, so that it
   can be linked, contested and reused on its own.
 distinguishes_from: []
-modified: 2026-09-26 00:00:00+00:00
+modified: 2026-09-26T08:45:41+00:00
+permalink: llmeon/30-library/100-zettelkasten/the-atomicity-principle-one-idea-per-note
 status: seed
-tags:
-- atomicity
-- note-structure
-- pkm
-- zettelkasten
+tags: [atomicity, note-structure, pkm, zettelkasten]
 title: The Atomicity Principle - One Idea Per Note
 type: concept
-used_in_claims:
-- '[[Main Notes Are the Essential Building Blocks]]'
-permalink: llmeon/30-library/100-zettelkasten/the-atomicity-principle-one-idea-per-note
+used_in_claims: ["[[Main Notes Are the Essential Building Blocks]]"]
 ---
 
 ## The Atomicity Principle - One Idea Per Note

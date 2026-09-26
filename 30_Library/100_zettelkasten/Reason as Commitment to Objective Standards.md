@@ -5,7 +5,7 @@ created_utc: '2026-09-25T17:30:00Z'
 definition: Reason is a commitment to holding beliefs accountable to objective standards,
   made by anyone who insists that their answers are reasonable, justified or true.
 distinguishes_from: ["[[Enlightenment Thinkers Rejected Faith and Gut Feelings as Generators of Delusion]]"]
-modified: 2026-09-25T16:29:37+00:00
+modified: 2026-09-26T08:45:41+00:00
 permalink: llmeon/30-library/100-zettelkasten/reason-as-commitment-to-objective-standards
 source_title: Enlightenment Now - the four ideals of the Enlightenment (NotebookLM
   summary, checked against the book)
@@ -15,7 +15,7 @@ tags: [enlightenment, enlightenment-now, epistemology, justification, objective-
 title: Reason as Commitment to Objective Standards
 type: concept
 upstream: '[[Politics, Law and Money - Study Plan]]'
-used_in_claims: ["[[Reason and Sympathy Can Be Applied to Enhance Human Flourishing]]", "[[Enlightenment Thinkers Rejected Faith and Gut Feelings as Generators of Delusion]]"]
+used_in_claims: ["[[Enlightenment Thinkers Rejected Faith and Gut Feelings as Generators of Delusion]]", "[[Reason and Sympathy Can Be Applied to Enhance Human Flourishing]]"]
 ---
 
 ## Reason as Commitment to Objective Standards

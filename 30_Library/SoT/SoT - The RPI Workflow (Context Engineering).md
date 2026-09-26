@@ -2,7 +2,7 @@
 aliases: [Context Economics, Context Engineering Workflow, Research Plan Implement, Research-Plan-Implement Workflow, RPI Protocol]
 conformant: true
 created: 2026-01-09T21:52:07+00:00
-modified: 2026-09-19T15:45:27+00:00
+modified: 2026-09-26T08:46:23+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-the-rpi-workflow-context-engineering
 status: stable

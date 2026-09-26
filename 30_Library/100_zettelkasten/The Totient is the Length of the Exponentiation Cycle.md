@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-19T23:32:29+00:00
 last_reviewed: ''
-modified: 2026-09-25T16:29:34+00:00
+modified: 2026-09-26T08:45:39+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-totient-is-the-length-of-the-exponentiation-cycle
 tags: [cryptography]
 title: The Totient is the Length of the Exponentiation Cycle

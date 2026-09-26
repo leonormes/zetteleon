@@ -5,7 +5,7 @@ created: 2026-09-19T15:26:07+00:00
 created_utc: 2026-09-19 00:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:27+00:00
+modified: 2026-09-26T08:45:34+00:00
 non_conformance_reason: ''
 permalink: llmeon/00-inbox/moving-a-constraint-into-a-type-is-cost-amortisation-not-a-zero-sum-transfer
 proposition: Even where the same information is preserved whether a constraint lives in a type or in a runtime check, the enforcement cost is not conserved, since a constraint expressed as a type is written once and checked by the compiler at every call site for free, whereas the same constraint expressed as a null check must be repeated at every call site and is enforced by nobody if a site forgets it, so moving a constraint into structure is a cost reduction, not a like-for-like relocation.

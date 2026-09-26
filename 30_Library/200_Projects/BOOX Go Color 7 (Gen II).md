@@ -2,7 +2,7 @@
 created: 2026-09-21T15:37:00+00:00
 manufacturer: BOOX
 model: Go Color 7 (Gen II)
-modified: 2026-09-21T17:57:50+00:00
+modified: 2026-09-26T08:45:47+00:00
 permalink: llmeon/30-library/200-projects/boox-go-color-7-gen-ii
 status: stable
 tags: [android, boox, eink, equipment, ereader]

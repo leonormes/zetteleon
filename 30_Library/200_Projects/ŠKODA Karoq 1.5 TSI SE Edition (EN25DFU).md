@@ -1,23 +1,23 @@
 ---
+contains_personal_data: true
 created: 2026-09-22T10:53:00+01:00
-modified: 2026-09-22T10:53:00+01:00
-permalink: llmeon/30-library/200-projects/skoda-karoq-1-5-tsi-se-edition-en25dfu
-title: ŠKODA Karoq 1.5 TSI SE Edition (EN25DFU)
-type: equipment
-tags: [equipment, vehicle, car, skoda, karoq, finance, pcp, sensitive]
 manufacturer: ŠKODA
 model: Karoq 1.5 TSI SE Edition
+modified: 2026-09-26T08:46:00+00:00
+permalink: llmeon/30-library/200-projects/skoda-karoq-1-5-tsi-se-edition-en25dfu
 registration: EN25DFU
 status: active
-contains_personal_data: true
+tags: [car, equipment, finance, karoq, pcp, sensitive, skoda, vehicle]
+title: ŠKODA Karoq 1.5 TSI SE Edition (EN25DFU)
+type: equipment
 ---
 
-# ŠKODA Karoq 1.5 TSI SE Edition (EN25DFU)
+## ŠKODA Karoq 1.5 TSI SE Edition (EN25DFU)
 
 > [!warning] Sensitive information
 > This note contains a vehicle registration, VIN, finance agreement number, home address and financial details. Do not publish or sync it to an untrusted repository.
 
-## Vehicle details
+### Vehicle Details
 
 | Field | Detail |
 |---|---|
@@ -31,7 +31,7 @@ contains_personal_data: true
 | Owner | Mr Leon Ormes |
 | Address recorded by dealer | 5 Cliff Gardens, Leigh-on-Sea, Essex, SS9 1EY, Great Britain |
 
-## Owned specification
+### Owned Specification
 
 - Engine: 1.5-litre TSI turbocharged four-cylinder petrol
 - Output: 150 PS / 110 kW
@@ -41,11 +41,11 @@ contains_personal_data: true
 - Platform: Volkswagen Group MQB A1 compact-SUV platform
 - Trim: SE Edition, the value-enhanced successor to SE Drive in the UK range
 
-### Transmission to verify
+#### Transmission to Verify
 
 The supplied records do not identify whether this car has the six-speed manual or seven-speed DSG transmission. Both were offered on the UK Karoq SE Edition 1.5 TSI 150 PS ACT, so transmission-specific performance and emissions figures should not be assigned until the V5C, order form or physical vehicle is checked.
 
-### SE Edition equipment
+#### SE Edition Equipment
 
 Official UK information lists the following notable standard equipment for SE Edition:
 
@@ -58,7 +58,7 @@ Official UK information lists the following notable standard equipment for SE Ed
 - Keyless entry and start/stop system
 - Digital instruments and LED lighting
 
-## Finance agreement
+### Finance Agreement
 
 | Field | Detail |
 |---|---|
@@ -79,7 +79,7 @@ Official UK information lists the following notable standard equipment for SE Ed
 | Dealer commission disclosed | £150.00 |
 | Stated monthly budget | £400.00 |
 
-### Arithmetic check
+#### Arithmetic Check
 
 The stated total amount payable reconciles exactly:
 
@@ -91,7 +91,7 @@ The total stated finance cost above cash price is:
 
 This includes interest and the £10 option-to-purchase fee, assuming all scheduled payments are made and the vehicle is purchased at the end.
 
-### End-of-agreement choices
+#### End-of-agreement Choices
 
 As this is a PCP agreement, the expected choices at the end are:
 
@@ -99,9 +99,9 @@ As this is a PCP agreement, the expected choices at the end are:
 - Part-exchange it and apply any available equity to another vehicle.
 - Keep it by paying the £11,835 optional final payment and £10 option-to-purchase fee.
 
-Although one source describes the agreement as “Hire Purchase” and another as “PCP”, these descriptions are compatible: the Financial Conduct Authority describes PCP as a form of hire-purchase agreement with an optional final balloon payment and the option to return the vehicle.
+Although one source describes the agreement as "Hire Purchase" and another as "PCP", these descriptions are compatible: the Financial Conduct Authority describes PCP as a form of hire-purchase agreement with an optional final balloon payment and the option to return the vehicle.
 
-## Mileage terms
+### Mileage terms
 
 | Field | Detail |
 |---|---|
@@ -111,7 +111,7 @@ Although one source describes the agreement as “Hire Purchase” and another a
 
 The 49,000-mile total is 1,000 miles above four years at 12,000 miles per year. This may represent an initial allowance or contract convention, but the signed agreement should be treated as authoritative.
 
-### Mileage checkpoints
+#### Mileage Checkpoints
 
 Approximate straight-line checkpoints based on 12,000 miles per year:
 
@@ -122,13 +122,13 @@ Approximate straight-line checkpoints based on 12,000 miles per year:
 | 20 August 2028 | 36,000 |
 | End of agreement in 2029 | Contract maximum: 49,000 |
 
-## Service and repair history
+### Service and Repair History
 
 | Date | Work recorded | Notes |
 |---|---|---|
-| 28 November 2025 | “New front left” | The original entry does not identify the component. Confirm whether this means the front-left tyre, wheel, body panel, light or another part, then update this record. |
+| 28 November 2025 | "New front left" | The original entry does not identify the component. Confirm whether this means the front-left tyre, wheel, body panel, light or another part, then update this record. |
 
-## Protection decisions
+### Protection Decisions
 
 The following optional products were declined:
 
@@ -139,7 +139,7 @@ The following optional products were declined:
 
 The associated repair risks therefore remain the owner's responsibility unless covered by the vehicle warranty, comprehensive motor insurance or another policy.
 
-## Previous vehicle finance
+### Previous Vehicle Finance
 
 | Field | Detail |
 |---|---|
@@ -150,7 +150,7 @@ The associated repair risks therefore remain the owner's responsibility unless c
 
 This section records the circumstances declared during the Karoq finance application. It does not confirm whether the previous agreement has since been settled.
 
-## Declarations and considerations
+### Declarations and Considerations
 
 - The owner confirmed that the £399.93 monthly repayment was affordable.
 - No foreseeable change in circumstances affecting repayment was declared at signing.
@@ -160,16 +160,16 @@ This section records the circumstances declared during the Karoq finance applica
 - The dealer acted as a credit broker rather than the lender and disclosed a £150 commission.
 - If a proposal is re-submitted to another funder, an additional credit search may be made.
 
-## Review notes
+### Review Notes
 
-- **Finance classification clarified:** the payment structure is PCP, even though the regulated agreement may be headed as hire purchase.
-- **Totals verified:** all supplied payment figures reconcile to £34,541.64.
-- **Transmission unresolved:** do not assume manual or DSG from “1.5 TSI SE ED” alone.
-- **Emissions wording corrected:** the supplied “Euro 6d” statement should be checked against the car's V5C or Certificate of Conformity; contemporary UK specifications list EU6EA for this derivative.
-- **Repair record incomplete:** “New front left” needs the component name and, ideally, supplying garage, mileage and invoice reference.
-- **Ownership status:** the finance company retains legal title unless and until the end-of-contract purchase requirements are completed.
+- Finance classification clarified: the payment structure is PCP, even though the regulated agreement may be headed as hire purchase.
+- Totals verified: all supplied payment figures reconcile to £34,541.64.
+- Transmission unresolved: do not assume manual or DSG from "1.5 TSI SE ED" alone.
+- Emissions wording corrected: the supplied "Euro 6d" statement should be checked against the car's V5C or Certificate of Conformity; contemporary UK specifications list EU6EA for this derivative.
+- Repair record incomplete: "New front left" needs the component name and, ideally, supplying garage, mileage and invoice reference.
+- Ownership status: the finance company retains legal title unless and until the end-of-contract purchase requirements are completed.
 
-## Documents to retain
+### Documents to Retain
 
 - Signed finance agreement and pre-contract credit information
 - Vehicle order form and dealer invoice
@@ -182,7 +182,7 @@ This section records the circumstances declared during the Karoq finance applica
 - Current insurance certificate and policy schedule
 - Settlement quotations if considering ending the finance early
 
-## Support and sources
+### Support and Sources
 
 - [Official ŠKODA Karoq range and engine data](https://www.skoda.co.uk/new-cars/karoq/karoq-range)
 - [ŠKODA announcement introducing Karoq Edition models](https://www.skoda.co.uk/news/details/more-kit-even-better-value-skoda-enhances-specifications-for-karoq-with-new-editions-models)
@@ -190,6 +190,6 @@ This section records the circumstances declared during the Karoq finance applica
 - [MoneyHelper guide to PCP](https://www.moneyhelper.org.uk/en/everyday-money/buying-and-running-a-car/financing-buying-car-personal-contract-purchase-pcp)
 - [FCA motor-finance review explaining PCP as a form of HP](https://www.fca.org.uk/publication/corporate/diagnostic-report-motor-finance-march-2026.pdf)
 
-## Provenance
+### Provenance
 
 Vehicle, ownership, finance, mileage, protection, previous-finance and repair details were supplied directly by Leon Ormes on 22 September 2026. Technical and finance terminology was reviewed against the official sources linked above.

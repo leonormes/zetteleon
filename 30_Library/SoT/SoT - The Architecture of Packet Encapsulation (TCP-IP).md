@@ -2,7 +2,7 @@
 aliases: [Packet Architecture, SoT - Encapsulation, TCP/IP Encapsulation]
 conformant: true
 created: 2025-03-26T16:26:25+00:00
-modified: 2026-09-19T15:45:26+00:00
+modified: 2026-09-26T08:46:22+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-the-architecture-of-packet-encapsulation-tcp-ip
 see_also: ["[[SoT - The Data Architecture of DNS]]", "[[SoT - The Data-Centric Theory of Networking]]"]

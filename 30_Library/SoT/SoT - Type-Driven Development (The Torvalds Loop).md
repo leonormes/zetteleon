@@ -2,7 +2,7 @@
 aliases: ["Parse Don't Validate", Data-Centric Programming, The Torvalds Loop, Type-Driven Design, Type-First Development, Typestate Pattern]
 conformant: true
 created: 2025-12-29T10:28:01+00:00
-modified: 2026-09-19T16:10:00+00:00
+modified: 2026-09-26T08:46:24+00:00
 permalink: llmeon/30-library/so-t/so-t-type-driven-development-the-torvalds-loop
 source_of_truth: true
 tags: [design-patterns, programming, rust, SoftwareEngineering/Architecture, TheHuman/Philosophy, type_theory]
@@ -17,7 +17,7 @@ This protocol is the Methodological Implementation of the broader Data-Centric p
 - The Axiom (Physics): [[SoT - Data-Oriented Design]]—_Structure is truth; Code is a derivative._
 - The Logic (Proofs): [[SoT - The Curry-Howard Correspondence (Propositions as Types)]]—_A program is a proof; a type is a proposition._
 - The Theory (Math): [[MOC - Type Theory]]—_Using Category Theory (Sum/Product types) to model that structure rigorously._
-- The Practice (Method): **SoT - Type-Driven Development (The Torvalds Loop)** (this note)—_The strict 4-phase protocol to execute the design._
+- The Practice (Method): SoT - Type-Driven Development (The Torvalds Loop) (this note)—_The strict 4-phase protocol to execute the design._
 
 ---
 
@@ -27,6 +27,7 @@ This protocol is the Methodological Implementation of the broader Data-Centric p
 > "Bad programmers worry about the code. Good programmers worry about data structures and their relationships."
 
 [[Smart Data Structures Yield Trivial Code (Torvalds' Maxim, Corrected Sourcing)]] [contradicts:: [[Smart Data Structures Yield Trivial Code (Torvalds' Maxim, Corrected Sourcing)]]]—_this line traces to a 2006 git mailing-list footnote about interoperable data formats, not a general programming essay._
+
 [[Corrected Quote Lineage - Brooks, Pike, Raymond, Torvalds (Fold Knowledge Into Data)]] [contradicts:: [[Corrected Quote Lineage - Brooks, Pike, Raymond, Torvalds (Fold Knowledge Into Data)]]]—_the adjacent "smart structures / dumb code" framing is Raymond's Rule of Representation via Brooks and Pike, not an independent Torvalds coinage._
 
 > [!warning] Boundary Condition

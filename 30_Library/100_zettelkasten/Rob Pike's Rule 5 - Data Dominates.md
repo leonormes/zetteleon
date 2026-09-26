@@ -5,7 +5,7 @@ created: 2026-09-19T15:24:45+00:00
 created_utc: 2026-09-19 00:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:30+00:00
+modified: 2026-09-26T08:45:36+00:00
 non_conformance_reason: ''
 permalink: llmeon/00-inbox/rob-pikes-rule-5-data-dominates
 proposition: Rob Pike argued, as his fifth rule of programming, that once the right data structures are chosen and organised well, the algorithms needed to manipulate them are almost always self-evident, so data structures, not algorithms, should be the central design concern.

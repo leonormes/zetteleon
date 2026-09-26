@@ -5,7 +5,7 @@ created: 2026-09-13T09:33:56+00:00
 created_utc: '2026-09-13T00:00:00Z'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:23+00:00
+modified: 2026-09-26T08:45:30+00:00
 permalink: llmeon/00-inbox/feynmans-twelve-favorite-problems-acts-as-a-continuous-curiosity-filter
 proposition: The Twelve Favorite Problems framework requires articulating roughly a dozen open-ended, personally significant questions spanning different life domains, then continuously testing new incoming information against each dormant problem to see if a connection can be made.
 source_title: A Portable Interest and PKM Knowledge Graph

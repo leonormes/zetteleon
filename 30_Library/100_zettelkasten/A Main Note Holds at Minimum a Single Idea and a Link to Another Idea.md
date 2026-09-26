@@ -1,27 +1,21 @@
 ---
-title: A Main Note Holds at Minimum a Single Idea and a Link to Another Idea
-type: claim
-status: seed
-tags:
-- main-note
-- minimum
-- single-idea
-- link
-- zettelkasten
-- note-structure
 conformant: true
-created: 2026-09-26 10:30:00+00:00
-modified: 2026-09-26 10:30:00+00:00
-source_title: A System for Writing - Bob Doto
-source_url: calibre://view-book/GCcalibreBooks/1491/EPUB
+contradicts: []
+created: 2026-09-26T10:30:00+00:00
 created_utc: '2026-09-26T10:30:00Z'
-upstream: '[[The Atomicity Principle - One Idea Per Note]]'
-proposition: At the very least, a main note needs a single idea and a link to another
-  idea in the zettelkasten.
 epistemic_status: medium
 evidence_links: []
-contradicts: []
+modified: 2026-09-26T08:45:41+00:00
 permalink: llmeon/30-library/100-zettelkasten/a-main-note-holds-at-minimum-a-single-idea-and-a-link-to-another-idea
+proposition: At the very least, a main note needs a single idea and a link to another
+  idea in the zettelkasten.
+source_title: A System for Writing - Bob Doto
+source_url: calibre://view-book/GCcalibreBooks/1491/EPUB
+status: seed
+tags: [link, main-note, minimum, note-structure, single-idea, zettelkasten]
+title: A Main Note Holds at Minimum a Single Idea and a Link to Another Idea
+type: claim
+upstream: '[[The Atomicity Principle - One Idea Per Note]]'
 ---
 
 ## A Main Note Holds at Minimum a Single Idea and a Link to Another Idea

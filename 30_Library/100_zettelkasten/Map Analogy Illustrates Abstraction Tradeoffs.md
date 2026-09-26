@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-31T11:23:00+00:00
 last_reviewed: ''
-modified: 2026-09-25T16:29:27+00:00
+modified: 2026-09-26T08:45:33+00:00
 permalink: llmeon/30-library/100-zettelkasten/map-analogy-illustrates-abstraction-tradeoffs
 status: stable
 tags: [TheHuman/Cognition, visualization]

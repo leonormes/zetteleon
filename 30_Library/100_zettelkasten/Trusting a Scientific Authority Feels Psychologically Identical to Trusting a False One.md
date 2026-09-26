@@ -4,7 +4,7 @@ conformant: false
 created: 2026-09-04T09:24:58+00:00
 created_utc: 2026-09-04T14:00:00+00:00
 distinguishes_from: ["[[Falsifiability Distinguishes Science from Dogma]]"]
-modified: 2026-09-25T16:29:35+00:00
+modified: 2026-09-26T08:45:39+00:00
 non_conformance_reason: "missing schema field definition for type concept (required when conformant - true)"
 permalink: llmeon/00-inbox/trusting-a-scientific-authority-feels-psychologically-identical-to-trusting-a-false-one
 source_title: New chat

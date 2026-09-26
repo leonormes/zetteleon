@@ -4,7 +4,7 @@ conformant: true
 created: 2025-10-30T12:34:56+00:00
 definition: "Collective rejection of harmful behaviour — multiple parties withdrawing resources and support from a dominant actor together, rather than any one party rejecting alone — as a moral and practical counterbalance to power asymmetry. Its force is a function of coordination, not of individual moral purity."
 distinguishes_from: []
-modified: 2026-09-25T16:29:30+00:00
+modified: 2026-09-26T08:45:36+00:00
 permalink: llmeon/30-library/100-zettelkasten/rejection-as-moral-response
 source: '[[MOC - Authority Dynamics and ADHD]]'
 tags: [moral-frameworks, power-dynamics, TheHuman/Psychology]

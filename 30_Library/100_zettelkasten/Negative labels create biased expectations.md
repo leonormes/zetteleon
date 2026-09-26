@@ -3,7 +3,7 @@ aliases: []
 created: 2025-02-07T12:57:54+00:00
 ID: negative_labels_harm
 last_reviewed: ''
-modified: 2026-09-25T16:29:28+00:00
+modified: 2026-09-26T08:45:34+00:00
 permalink: llmeon/30-library/100-zettelkasten/negative-labels-create-biased-expectations
 tags: [self]
 title: Negative labels create biased expectations

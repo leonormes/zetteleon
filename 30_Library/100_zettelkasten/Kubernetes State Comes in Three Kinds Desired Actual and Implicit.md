@@ -7,7 +7,7 @@ definition: Kubernetes state is of three kinds, namely desired state declared by
   real-world condition of running components), and implicit state derived from relationships
   and metadata such as owner references, label selectors and finalizers.
 distinguishes_from: ["[[etcd stores cluster network state and service configuration]]"]
-modified: 2026-09-25T16:29:36+00:00
+modified: 2026-09-26T08:45:41+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/kubernetes-state-comes-in-three-kinds-desired-actual-and-implicit
 prodos.atomic.form: distinction

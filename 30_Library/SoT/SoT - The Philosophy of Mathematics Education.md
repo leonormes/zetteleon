@@ -4,7 +4,7 @@ aliases: []
 conformant: true
 created: 2026-01-06T19:41:54+00:00
 last_reviewed: null
-modified: 2026-09-19T15:45:27+00:00
+modified: 2026-09-26T08:46:23+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-the-philosophy-of-mathematics-education
 status: stable

@@ -1,37 +1,39 @@
 ---
-title: ŠKODA KAROQ 1.5 TSI SE Edition — EN25DFU
-type: vehicle-record
-status: active
-owner: Leon Ormes
-registration: EN25DFU
-vin: TMBKR7NU0T5006794
-make_model: ŠKODA KAROQ 1.5 TSI SE Edition
-registration_date: 2025-08-20
-condition: new
-dealer: Group 1 ŠKODA Southend
-finance_provider: ŠKODA Financial Services
-finance_type: Personal Contract Purchase (PCP)
+advance_payment_gbp: 3500.0
 agreement_number: '440177644316'
 agreement_signed: 2025-08-19
-term_months: 48
-annual_mileage_allowance: 12000
-total_mileage_allowance: 49000
-monthly_payment_gbp: 399.93
-final_payment_gbp: 11835.0
-cash_price_gbp: 29674.0
-advance_payment_gbp: 3500.0
 amount_of_credit_gbp: 26174.0
-total_amount_payable_gbp: 34541.64
-fixed_interest_rate: 6.35% p.a.
+annual_mileage_allowance: 12000
 apr: 6.4%
+cash_price_gbp: 29674.0
+condition: new
+created: 2026-09-22T09:55:34+00:00
+dealer: Group 1 ŠKODA Southend
 excess_mileage_charge: 7.2p per mile
+final_payment_gbp: 11835.0
+finance_provider: ŠKODA Financial Services
+finance_type: Personal Contract Purchase (PCP)
+fixed_interest_rate: 6.35% p.a.
 last_updated: 2026-09-22
+make_model: ŠKODA KAROQ 1.5 TSI SE Edition
+modified: 2026-09-26T08:46:21+00:00
+monthly_payment_gbp: 399.93
+owner: Leon Ormes
 permalink: llmeon/30-library/so-t/so-t-skoda-karoq-en25-dfu
+registration: EN25DFU
+registration_date: 2025-08-20
+status: active
+term_months: 48
+title: SoT - ŠKODA KAROQ EN25DFU
+total_amount_payable_gbp: 34541.64
+total_mileage_allowance: 49000
+type: vehicle-record
+vin: TMBKR7NU0T5006794
 ---
 
-# ŠKODA KAROQ 1.5 TSI SE Edition — EN25DFU
+## ŠKODA KAROQ 1.5 TSI SE Edition—EN25DFU
 
-## Vehicle
+### Vehicle
 
 | Field | Detail |
 |---|---|
@@ -43,7 +45,7 @@ permalink: llmeon/30-library/so-t/so-t-skoda-karoq-en25-dfu
 | Dealer | Group 1 ŠKODA Southend |
 | Owner | Leon Ormes |
 
-## Finance
+### Finance
 
 The vehicle is financed through ŠKODA Financial Services under a 48-month Personal Contract Purchase agreement, signed on 19 August 2025.
 
@@ -61,7 +63,7 @@ The vehicle is financed through ŠKODA Financial Services under a 48-month Perso
 | APR | 6.4% |
 | Dealer commission | £150.00 |
 
-### Agreement considerations
+#### Agreement Considerations
 
 - Budgeted monthly payment: £400.
 - Annual mileage allowance: 12,000 miles.
@@ -71,13 +73,13 @@ The vehicle is financed through ŠKODA Financial Services under a 48-month Perso
 - Return charges may apply for mileage above the allowance or condition beyond fair wear and tear.
 - Optional SMART Protection, alloy insurance, tyre damage insurance, and extended warranty were declined.
 
-## Repairs and maintenance
+### Repairs and Maintenance
 
 | Date | Work |
 |---|---|
 | 28 November 2025 | New front-left repair / replacement recorded |
 
-## Powertrain reference
+### Powertrain Reference
 
 - 1.5-litre, four-cylinder EA211 EVO turbocharged petrol engine.
 - Output: 150 PS (110 kW) at 5,000–6,000 rpm.
@@ -85,12 +87,12 @@ The vehicle is financed through ŠKODA Financial Services under a 48-month Perso
 - Front-wheel drive, with six-speed manual or seven-speed DSG configurations offered for this model range.
 - Active Cylinder Technology (ACT) can deactivate two cylinders under light load.
 - Euro 6d emissions standard.
-- Built on Volkswagen Group’s MQB A1 platform.
+- Built on Volkswagen Group's MQB A1 platform.
 
-## Related finance context
+### Related Finance Context
 
 A previous Volkswagen Financial Services PCP agreement had an outstanding settlement due at the point of this purchase, with a recorded monthly payment of £312.
 
-## Sensitive-data note
+### Sensitive-data Note
 
-This is a private reference record. It intentionally excludes the owner’s home address and other unnecessary personal information from the main body; retain source paperwork securely for full contractual terms.
+This is a private reference record. It intentionally excludes the owner's home address and other unnecessary personal information from the main body; retain source paperwork securely for full contractual terms.

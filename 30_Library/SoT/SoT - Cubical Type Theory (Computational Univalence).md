@@ -2,7 +2,7 @@
 aliases: [Computational Univalence, Cubical Type Theory, Higher Dimensional Types]
 conformant: true
 created: 2025-12-18T00:00:00+00:00
-modified: 2026-09-19T15:45:18+00:00
+modified: 2026-09-26T08:46:13+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-cubical-type-theory-computational-univalence
 tags: [cubical, hott, mathematics, SoftwareEngineering/Architecture, type_theory]

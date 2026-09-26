@@ -4,7 +4,7 @@ contradicts: []
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:26+00:00
+modified: 2026-09-26T08:45:33+00:00
 permalink: llmeon/30-library/100-zettelkasten/llm-hallucinations-arise-from-probabilistic-prediction-without-external-grounding
 proposition: Hallucinations occur when an LLM predicts plausible tokens in the absence "of grounding context. The model's probabilistic nature means it will generate fluent," coherent-sounding text even when it has no factual basis for the claim. In high-stakes domains, hallucinations are a critical failure mode.
 tags: [domain/llm, topic/hallucination, topic/llm-behavior, topic/reliability]

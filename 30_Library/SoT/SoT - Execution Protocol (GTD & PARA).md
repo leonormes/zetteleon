@@ -3,7 +3,7 @@ aliases: [Execution Protocol, Hybrid GTD PARA]
 conformant: true
 created: 2026-01-08T07:41:15+00:00
 last_reviewed: ''
-modified: 2026-09-19T15:45:18+00:00
+modified: 2026-09-26T08:46:14+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-execution-protocol-gtd-para
 status: stable
@@ -100,4 +100,3 @@ The stages above are executed by these ProdOS notes. This SoT defines the terms 
 - [[Protocol - Vague-to-Action]]—_Clarify for items that feel too heavy to define: its Phase 1 (define done, name the outcome) is the naming rule in section 1 applied under avoidance._
 - [[The Clarification Ritual (Stuff to Action)]]—_An untested daily experiment that runs the Clarify stage as a timed 15 minute session with a strict do-not-do-the-work rule._
 - [[Protocol - Weekly Command Centre]]—_Reflect stage, run as a reduced Tier 0 floor; Move 3 is the check that every active commitment has a next action._
-

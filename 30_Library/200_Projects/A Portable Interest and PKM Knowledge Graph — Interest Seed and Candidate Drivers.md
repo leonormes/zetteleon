@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2026-09-14T00:00:00+00:00
-modified: 2026-09-19T15:44:50+00:00
+modified: 2026-09-26T08:45:43+00:00
 non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true)"
 permalink: llmeon/30-library/200-projects/interest-driver-project-tag-frequency-seed-and-candidate-drivers
 tags: [12/, domain/pkm, topic/metacognition, topic/self-inquiry]

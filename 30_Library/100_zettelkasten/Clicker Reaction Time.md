@@ -2,7 +2,7 @@
 conformant: false
 created: 2026-09-21T15:44:46+00:00
 created_utc: '2026-09-21T16:36:00Z'
-modified: 2026-09-25T16:29:19+00:00
+modified: 2026-09-26T08:45:28+00:00
 non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true)"
 permalink: llmeon/00-inbox/clicker-reaction-time
 source_title: Recurve Archery Self-Coaching Resources

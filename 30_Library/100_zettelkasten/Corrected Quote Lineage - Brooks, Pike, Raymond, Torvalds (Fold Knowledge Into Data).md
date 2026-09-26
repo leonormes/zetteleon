@@ -4,7 +4,7 @@ created: 2026-09-19T15:24:52+00:00
 created_utc: 2026-09-19 00:00:00+00:00
 definition: The smart data structures, dumb code phrasing commonly attributed to Torvalds is actually Eric Raymond phrasing, coined while Raymond was restructuring fetchmail protocol machines and credited by Raymond to a line in Brooks Mythical Man-Month, chapter 9; Raymond later formalised it as the Rule of Representation, fold knowledge into data so program logic can be stupid and robust.
 distinguishes_from: []
-modified: 2026-09-25T16:29:20+00:00
+modified: 2026-09-26T08:45:28+00:00
 non_conformance_reason: ''
 permalink: llmeon/00-inbox/corrected-quote-lineage-brooks-pike-raymond-torvalds-fold-knowledge-into-data
 source_title: "The Conservation of Software Complexity: The Dichotomy of Data Structures and Control Flow (plus epistemic review/fact-check)"

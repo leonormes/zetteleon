@@ -2,7 +2,7 @@
 aliases: [Taxonomy of Cosmic Purpose, Teleological Framework, The Four Universes of Purpose]
 conformant: true
 created: 2026-02-03T10:15:00+00:00
-modified: 2026-09-19T15:45:22+00:00
+modified: 2026-09-26T08:46:18+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-metaphysics-of-purpose
 source_of_truth: true

@@ -2,7 +2,7 @@
 aliases: ["IBNS", "The ADHD brain operates on an Interest-Based Nervous System", "The Interest-Based Nervous System in ADHD"]
 conformant: true
 created: 2026-02-11T17:15:00+00:00
-modified: 2026-09-19T15:45:27+00:00
+modified: 2026-09-26T08:46:23+00:00
 permalink: llmeon/30-library/so-t/so-t-the-interest-based-nervous-system-in-adhd
 prodos.kind: sot
 prodos.lifecycle: stable

@@ -4,7 +4,7 @@ conformant: true
 created: 2025-10-31T09:20:29+00:00
 definition: The cognitive error of treating inferred mental states as factual knowledge, often amplified by projection.
 distinguishes_from: []
-modified: 2026-09-25T16:29:27+00:00
+modified: 2026-09-26T08:45:34+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/mind-reading-fallacy-and-projection
 tags: [TheHuman/Cognition/bias, topic/social-cognition, topic/social-perception]

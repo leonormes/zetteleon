@@ -6,7 +6,7 @@ contradicts: []
 created: 2025-05-28T14:26:24+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:17+00:00
+modified: 2026-09-26T08:45:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/all-the-enthusiasm-and-energy-for-a-plan-disappears
 prodos.kind: atomic
 prodos.lifecycle: active

@@ -6,7 +6,7 @@ created: 2025-11-01T11:37:53+00:00
 epistemic_status: medium
 evidence_links: []
 last_reviewed: ''
-modified: 2026-09-25T16:29:22+00:00
+modified: 2026-09-26T08:45:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/executive-function-impairment-during-adhd-trough-phase
 proposition: During the post-hyperfixation ADHD trough phase, dopamine depletion, mental exhaustion, and reduced prefrontal cortex activation combine to impair executive functions such as task initiation, planning, and emotional regulation, and the resulting undone tasks compound the impairment through a stress-feedback cycle.
 status: draft

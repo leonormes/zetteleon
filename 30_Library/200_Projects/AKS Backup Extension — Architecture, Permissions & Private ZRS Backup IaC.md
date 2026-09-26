@@ -1,6 +1,6 @@
 ---
 created: 2026-07-16T09:49:11+00:00
-modified: 2026-09-19T15:44:51+00:00
+modified: 2026-09-26T08:45:45+00:00
 permalink: llmeon/30-library/200-projects/aks-backup-extension-architecture-permissions-and-private-zrs-backup-iac
 project_category: refined_deployment
 project_name: Refined Deployment

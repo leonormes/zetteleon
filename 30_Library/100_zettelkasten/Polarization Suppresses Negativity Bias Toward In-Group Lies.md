@@ -5,7 +5,7 @@ created: 2026-09-17T11:34:00+00:00
 created_utc: '2026-09-17T00:00:00Z'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:29+00:00
+modified: 2026-09-26T08:45:35+00:00
 permalink: llmeon/00-inbox/polarization-suppresses-negativity-bias-toward-in-group-lies
 proposition: "Under ordinary conditions a single immoral act severely and disproportionately damages a person's reputation (negativity bias), but under high affective polarization this bias is suppressed for in-group politicians, whose lies are reclassified from moral failings into instrumental competence."
 source_title: Political Contrast Effect Research

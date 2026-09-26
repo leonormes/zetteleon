@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-02-07T12:57:55+00:00
 last_reviewed: ''
-modified: 2026-09-19T15:45:35+00:00
+modified: 2026-09-26T08:46:31+00:00
 permalink: llmeon/30-library/200-projects/spicedb-grpc-preshared-key
 project_category: development
 project_name: Core

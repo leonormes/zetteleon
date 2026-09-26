@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-12T09:41:52+00:00
 last_reviewed: ''
-modified: 2026-09-25T16:29:28+00:00
+modified: 2026-09-26T08:45:35+00:00
 permalink: llmeon/30-library/100-zettelkasten/parable-of-the-bitter-spring
 tags: []
 title: Parable of the Bitter Spring

@@ -1,27 +1,21 @@
 ---
-title: A Note Should Be Written So It Can Be Understood Out of Context
-type: claim
-status: seed
-tags:
-- context-independence
-- full-sentences
-- sources
-- note-writing
-- zettelkasten
-- note-structure
 conformant: true
-created: 2026-09-26 10:30:00+00:00
-modified: 2026-09-26 10:30:00+00:00
-source_title: How to Take Smart Notes - Sönke Ahrens
-source_url: calibre://view-book/GCcalibreBooks/704/EPUB
+contradicts: []
+created: 2026-09-26T10:30:00+00:00
 created_utc: '2026-09-26T10:30:00Z'
-upstream: '[[The Atomicity Principle - One Idea Per Note]]'
-proposition: A note should be written for a reader who lacks the surrounding thoughts,
-  with full sentences and named sources, so that it can be understood out of context.
 epistemic_status: medium
 evidence_links: []
-contradicts: []
+modified: 2026-09-26T08:45:41+00:00
 permalink: llmeon/30-library/100-zettelkasten/a-note-should-be-written-so-it-can-be-understood-out-of-context
+proposition: A note should be written for a reader who lacks the surrounding thoughts,
+  with full sentences and named sources, so that it can be understood out of context.
+source_title: How to Take Smart Notes - Sönke Ahrens
+source_url: calibre://view-book/GCcalibreBooks/704/EPUB
+status: seed
+tags: [context-independence, full-sentences, note-structure, note-writing, sources, zettelkasten]
+title: A Note Should Be Written So It Can Be Understood Out of Context
+type: claim
+upstream: '[[The Atomicity Principle - One Idea Per Note]]'
 ---
 
 ## A Note Should Be Written So It Can Be Understood Out of Context

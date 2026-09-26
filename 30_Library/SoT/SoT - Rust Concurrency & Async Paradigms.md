@@ -2,7 +2,7 @@
 aliases: [Async Rust, Rust Concurrency, Shared-Nothing Architecture, Structured Concurrency]
 conformant: true
 created: 2026-01-02T14:30:00+00:00
-modified: 2026-09-19T15:45:24+00:00
+modified: 2026-09-26T08:46:20+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-rust-concurrency-async-paradigms
 tags: [async, concurrency, performance, rust, SoftwareEngineering/Architecture]

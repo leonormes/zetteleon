@@ -1,7 +1,7 @@
 ---
 aliases: [Agent Architecture MOC, Agentic AI MOC, LLM Agents Index]
 created: 2026-09-07T00:00:00+00:00
-modified: 2026-09-19T15:45:10+00:00
+modified: 2026-09-26T08:46:06+00:00
 permalink: llmeon/30-library/mo-c/moc-agentic-ai-llm-agents
 tags: [domain/llm, map-of-content, moc, topic/agent-architecture]
 title: MOC - Agentic AI & LLM Agents

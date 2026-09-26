@@ -5,7 +5,7 @@ created: 2026-09-22T13:11:40+00:00
 created_utc: 2026-09-19 00:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:23+00:00
+modified: 2026-09-26T08:45:31+00:00
 non_conformance_reason: ''
 permalink: llmeon/00-inbox/gits-content-addressed-object-store-absorbs-distributed-trust-complexity-into-structure
 proposition: Git identifies every object by the SHA-1 hash of its own content, so identity, tamper-detection, and history verification become structural properties instead of separately computed algorithms.

@@ -1,7 +1,7 @@
 ---
 aliases: [Tracing Interests to Their First-Principle Drivers]
 created: 2026-09-13T00:00:00+00:00
-modified: 2026-09-19T15:44:50+00:00
+modified: 2026-09-26T08:45:43+00:00
 permalink: llmeon/30-library/200-projects/tracing-interests-to-their-first-principle-drivers
 tags: [domain/pkm, topic/first-principles, topic/metacognition, topic/self-inquiry]
 title: A Portable Interest and PKM Knowledge Graph

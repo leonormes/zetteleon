@@ -2,7 +2,7 @@
 aliases: [Cyberpunk Philosophy, High-Tech Dystopia]
 conformant: true
 created: 2025-12-30T00:00:00+00:00
-modified: 2026-09-19T15:45:18+00:00
+modified: 2026-09-26T08:46:13+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-cyberpunk-philosophy
 tags: [capitalism, sociology, TheHuman/Philosophy, transhumanism]

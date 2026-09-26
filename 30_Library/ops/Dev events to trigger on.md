@@ -1,6 +1,6 @@
 ---
 created: 2026-08-26T13:36:09+00:00
-modified: 2026-09-19T15:45:30+00:00
+modified: 2026-09-26T08:46:25+00:00
 permalink: llmeon/00-inbox/dev-events-to-trigger-on
 title: Dev events to trigger on
 type: note

@@ -4,7 +4,7 @@ contradicts: []
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:18+00:00
+modified: 2026-09-26T08:45:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/automated-ci-pipelines-wire-an-adversarial-llm-reviewer-into-branch-and-rebase-before-human-review
 proposition: An automated validation pipeline can be built where, after an agent writes code, the pipeline itself automatically branches, rebases, and invokes a second, independent LLM to critically review, lint, and test the output adversarially — with the code only reaching the human for final approval after this automated adversarial pass. This is a logical extension of standard CI/CD practice, with an LLM inserted as a peer reviewer inside a git hook or CI pipeline, and is described as an increasingly standard industry pattern for teams scaling AI code generation.
 tags: [domain/llm, topic/code-quality, topic/reliability, topic/workflow-design]

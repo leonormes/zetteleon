@@ -3,7 +3,7 @@ aliases: [ADHD Causes Sustained Attention Deficits Requiring Higher Cortical Act
 conformant: false
 created: 2026-07-27T22:00:00+00:00
 epistemic_status: high
-modified: 2026-09-25T16:29:22+00:00
+modified: 2026-09-26T08:45:30+00:00
 non_conformance_reason: "missing required field - type; missing required field - tags"
 permalink: llmeon/30-library/100-zettelkasten/evidence-adhd-sustained-attention-requires-greater-cortical-activation
 prodos.kind: evidence

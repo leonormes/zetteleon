@@ -4,7 +4,7 @@ contradicts: []
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:29+00:00
+modified: 2026-09-26T08:45:35+00:00
 permalink: llmeon/30-library/100-zettelkasten/privacy-tombstones-mark-sensitive-files-as-off-limits-to-ai-agents
 proposition: A privacy tombstone is an empty or minimal marker file that tells an AI agent a sensitive file exists locally but must not be read, scanned, or included in any sync/push operation, so the agent recognises the boundary and skips the underlying file entirely rather than reading whatever it encounters by default.
 tags: [domain/llm, topic/agent-architecture, topic/pkm, topic/privacy, topic/safety]

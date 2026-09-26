@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-10-31T20:07:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:20+00:00
+modified: 2026-09-26T08:45:28+00:00
 non_conformance_reason: 
 permalink: llmeon/30-library/100-zettelkasten/common-experiential-anchors-ground-abstract-concepts
 proposition: Despite cultural differences, humans share fundamental experiences like birth, death, warmth, hunger, and social bonds that provide common reference points for communication and understanding.

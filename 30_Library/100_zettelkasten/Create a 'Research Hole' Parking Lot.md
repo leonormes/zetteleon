@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-05-10T10:37:03+00:00
 last_reviewed: ''
-modified: 2026-09-25T16:29:20+00:00
+modified: 2026-09-26T08:45:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/create-a-research-hole-parking-lot
 tags: [TheHuman/Health/ADHD, topic/pkm/zettelkasten]
 title: "Create a 'Research Hole' Parking Lot"

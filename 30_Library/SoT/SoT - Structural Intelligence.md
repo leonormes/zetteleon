@@ -2,7 +2,7 @@
 aliases: [AST-Based Retrieval, Deterministic Code Graph, Structural Intelligence]
 conformant: true
 created: 2026-01-30T10:00:00+00:00
-modified: 2026-09-19T15:45:25+00:00
+modified: 2026-09-26T08:46:22+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-structural-intelligence
 tags: [architecture, ast, graph-theory, retrieval, tooling]

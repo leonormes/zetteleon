@@ -1,14 +1,12 @@
 ---
-aliases: [Theory and Reality MOC, Philosophy of Science MOC]
+aliases: [Philosophy of Science MOC, Theory and Reality MOC]
 conformant: true
 created: 2026-09-22T08:17:25+00:00
 entry_points: ["[[Reading Plan — Theory and Reality (Godfrey-Smith)]]"]
-modified: 2026-09-22T08:17:25+00:00
+modified: 2026-09-26T08:46:09+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/mo-c/moc-theory-and-reality-godfrey-smith
-prodos:
-  kind: moc
-tags: [philosophy-of-science, prodos/moc, epistemology, reading]
+tags: [epistemology, philosophy-of-science, prodos/moc, reading]
 title: MOC - Theory and Reality (Godfrey-Smith)
 type: map
 ---
@@ -104,14 +102,14 @@ _No atomic note yet—the vault's capture of this book stops short of the closin
 
 ## Deutsch, Read Alongside Godfrey-Smith
 
-Several notes come from reading Deutsch's *The Fabric of Reality* against this book, and are kept together because one note names the comparison directly.
+Several notes come from reading Deutsch's _The Fabric of Reality_ against this book, and are kept together because one note names the comparison directly.
 
 - [[Deutsch Rejects Empiricism for Conjecture-Led Theory Formation]]
 - [[Deutsch Rejects Instrumentalism Because Prediction Is a Means, Not the Purpose, of Science]]
 - [[A Good Explanation Is Hard to Vary]]—_Deutsch's own criterion for a good explanation._
 - [[Deutsch and Godfrey-Smith Converge on Rational Reliance From Different Grounds]]—_the direct comparison: both justify relying on gravity when stepping onto a bridge, from different premises._
 
-## Companion Series: Diagnosing Genuine Consensus vs Groupthink
+## Companion Series: Diagnosing Genuine Consensus Vs Groupthink
 
 A separate five-atom series, not sourced from this book, but a direct practical companion to the sociology-of-science material above—how to tell a structurally-earned consensus apart from institutional conformity.
 

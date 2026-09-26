@@ -6,7 +6,7 @@ created: 2025-07-16T17:30:01+00:00
 epistemic_status: medium
 evidence_links: []
 last_reviewed: 'null'
-modified: 2026-09-25T16:29:33+00:00
+modified: 2026-09-26T08:45:38+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-dopamine-shot-vs-relief-from-anxiety-in-task-completion
 proposition: 'Completing a task produces a genuine "shot of dopamine" and intrinsic satisfaction in the neurotypical brain, but in the ADHD brain completing an unpleasurable task typically brings only relief from the anxiety associated with it, with no equivalent positive reinforcement.'
 status: seed

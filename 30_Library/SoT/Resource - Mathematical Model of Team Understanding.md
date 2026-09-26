@@ -3,7 +3,7 @@ aliases: []
 conformant: true
 created: 2025-12-14T00:00:00+00:00
 last_reviewed: ''
-modified: 2026-09-19T15:45:16+00:00
+modified: 2026-09-26T08:46:11+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/resource-mathematical-model-of-team-understanding
 status: stable

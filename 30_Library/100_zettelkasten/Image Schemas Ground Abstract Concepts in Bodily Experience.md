@@ -5,7 +5,7 @@ created: 2026-09-21T08:54:40+00:00
 created_utc: '2026-09-21T08:54:40+00:00'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:25+00:00
+modified: 2026-09-26T08:45:32+00:00
 non_conformance_reason: ''
 permalink: llmeon/00-inbox/image-schemas-ground-abstract-concepts-in-bodily-experience
 proposition: Recurring patterns of bodily experience, called image schemas, structure abstract concepts, as physical containment underlies expressions such as being in a good mood.

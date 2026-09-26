@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-11-01T12:10:02+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:26+00:00
+modified: 2026-09-26T08:45:32+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/knowledge-emerges-through-application-and-experience
 proposition: Knowledge is formed when a person applies information in practical situations to solve problems, make decisions or gain insight, not by holding the information in theory.

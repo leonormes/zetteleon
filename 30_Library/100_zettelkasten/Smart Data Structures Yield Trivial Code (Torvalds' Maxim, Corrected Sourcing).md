@@ -5,7 +5,7 @@ created: 2026-09-19T15:24:25+00:00
 created_utc: 2026-09-19 00:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:31+00:00
+modified: 2026-09-26T08:45:37+00:00
 non_conformance_reason: ''
 permalink: llmeon/00-inbox/smart-data-structures-yield-trivial-code-torvalds-maxim-corrected-sourcing
 proposition: Linus Torvalds argued that the difference between a bad and a good programmer is whether they prioritise their code or their data structures, and that well-chosen data structures make the algorithms operating on them self-evident.

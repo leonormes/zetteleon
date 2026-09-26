@@ -3,7 +3,7 @@ alias: [Vault KV Data Structure]
 aliases: []
 conformant: true
 created: 2025-12-25T00:00:00+00:00
-modified: 2026-09-19T15:45:28+00:00
+modified: 2026-09-26T08:46:25+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-vault-kv-data-structure
 tags: [data-structures, infrastructure, SoftwareEngineering/Security, vault]

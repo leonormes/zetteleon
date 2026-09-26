@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-07-21T13:34:27+00:00
 last_reviewed: ''
-modified: 2026-09-25T16:29:29+00:00
+modified: 2026-09-26T08:45:35+00:00
 permalink: llmeon/30-library/100-zettelkasten/public-perception-of-maths-is-incomplete
 tags: [idea/maths-education, idea/perception, status/seedling]
 title: Public perception of maths is incomplete

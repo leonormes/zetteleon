@@ -6,7 +6,7 @@ created: 2026-09-22T08:11:10+00:00
 epistemic_status: high
 evidence_links: []
 last_reviewed: ''
-modified: 2026-09-25T16:29:30+00:00
+modified: 2026-09-26T08:45:36+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/science-is-trustworthy-because-its-structure-corrects-for-bias-not-because-scientists-are-less-biased
 proposition: Science is a preferable way of learning about reality not because scientists individually reason more objectively than anyone else, but because its structure—falsifiable claims, a reliance on evidence, and a refusal to treat any conclusion as final—builds correction into the system itself, compensating for cognitive bias rather than requiring any one person to be free of it.

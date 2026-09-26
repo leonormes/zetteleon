@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-07-28T14:20:27+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:17+00:00
+modified: 2026-09-26T08:45:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/agentic-loops-gain-turing-complete-instability-from-chained-reasoning-and-tool-use
 proposition: 'Wrapping an LLM in an iterative loop that chains reasoning steps and tool calls gives the resulting agent Turing-complete capabilities—it can, in principle, run arbitrarily long computations with conditional branching and repetition. Without deterministic constraints imposed from outside the loop, this same capability is what makes agentic loops prone to runaway execution, context degradation, and escalating token cost: the loop has no structural reason to halt, converge, or stay within its intended scope.'
 tags: [domain/llm, topic/agent-architecture, topic/reliability]

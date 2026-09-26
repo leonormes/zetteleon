@@ -6,7 +6,7 @@ contradicts: []
 created: 2025-11-12T14:10:04+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:17+00:00
+modified: 2026-09-26T08:45:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/action-dominance-is-the-cognitive-bias-towards-action-over-inaction
 proposition: "People exhibit an \"action dominance\" bias: they focus more attention on actions than on inactions, actions elicit stronger emotional reactions and regret than equivalent failures to act, and this bias can produce systematic errors — including converting more of a lowered activation cost into actual task uptake — when multiple demands compete for attention."
 tags: [bias, TheHuman/Cognition, TheHuman/Psychology]

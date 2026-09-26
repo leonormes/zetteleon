@@ -2,7 +2,7 @@
 aliases: []
 conformant: true
 created: 2026-09-25T00:00:00+00:00
-modified: 2026-09-25T16:29:36+00:00
+modified: 2026-09-26T08:45:41+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/evidence-kahneman-wysiati-says-we-treat-the-limited-information-we-have-as-if-it-were-all-there-is
 source_quote: You cannot help dealing with the limited information you have as if

@@ -6,7 +6,7 @@ created: 2026-09-22T08:11:10+00:00
 epistemic_status: medium
 evidence_links: []
 last_reviewed: ''
-modified: 2026-09-25T16:29:24+00:00
+modified: 2026-09-26T08:45:31+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/human-cognition-evolved-for-social-survival-not-for-tracking-objective-truth
 proposition: 'Human cognition evolved primarily to serve group belonging and survival, not to construct an accurate, objective picture of reality, so a felt sense of "being right" is not on its own evidence of accuracy.'

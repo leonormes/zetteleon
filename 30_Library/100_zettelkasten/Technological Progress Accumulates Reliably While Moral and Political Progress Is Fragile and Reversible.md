@@ -5,7 +5,7 @@ created: 2026-09-14T15:22:49+00:00
 created_utc: '2026-09-14T00:00:00Z'
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:33+00:00
+modified: 2026-09-26T08:45:38+00:00
 permalink: llmeon/30-library/100-zettelkasten/technological-progress-accumulates-reliably-while-moral-and-political-progress-is-fragile-and-reversible
 prodos.kind: atomic
 prodos.lifecycle: seed

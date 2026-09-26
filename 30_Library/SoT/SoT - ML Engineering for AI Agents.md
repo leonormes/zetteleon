@@ -2,7 +2,7 @@
 aliases: [Agentic ML Workflow, ML Engineering for Agents, SuperML Pattern]
 conformant: true
 created: 2026-03-28T17:30:00+00:00
-modified: 2026-09-19T15:45:22+00:00
+modified: 2026-09-26T08:46:17+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-ml-engineering-for-ai-agents
 tags: [agents, ai, devops, engineering, machine-learning, workflows]

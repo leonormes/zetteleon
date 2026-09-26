@@ -4,7 +4,7 @@ contradicts: []
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:19+00:00
+modified: 2026-09-26T08:45:28+00:00
 permalink: llmeon/30-library/100-zettelkasten/code-as-zero-cost-deterministic-actor-alongside-engineers-and-agents-in-workflows
 proposition: In an AI-assisted development workflow there are three distinct actors — engineers, agents, and plain deterministic code — and code is the most underused of the three despite being the only one that executes near-instantly, behaves with perfect consistency, and costs zero LLM tokens. Wherever a task is genuinely deterministic (routing, tests, formatting, validation), moving it out of the agent and into code is a direct win on speed, cost, and reliability simultaneously.
 tags: [domain/llm, topic/agent-architecture, topic/cost-optimization, topic/workflow-design]

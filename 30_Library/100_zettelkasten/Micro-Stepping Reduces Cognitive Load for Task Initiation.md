@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-10-30T12:09:03+00:00
 epistemic_status: medium
 evidence_links: ["[[Evidence - Bandura and Schunk Chunked Maths Goals Raised Childrens Progress and Interest]]"]
-modified: 2026-09-25T16:29:27+00:00
+modified: 2026-09-26T08:45:34+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/micro-stepping-reduces-cognitive-load-for-task-initiation
 proposition: Breaking a task or project into the smallest possible actionable steps, starting with a first step under two minutes and purely physical, reduces cognitive load, activation cost and overwhelm, making it easier for people with ADHD to start, resume and keep going.

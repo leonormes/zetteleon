@@ -1,7 +1,7 @@
 ---
 aliases: [Cognitive Biases MOC]
 created: 2025-12-12T12:05:00+00:00
-modified: 2026-09-22T08:11:10+00:00
+modified: 2026-09-26T08:46:07+00:00
 permalink: llmeon/30-library/mo-c/moc-cognitive-biases
 tags: [bias, TheHuman/Cognition, TheHuman/Psychology, type/moc]
 title: MOC - Cognitive Biases

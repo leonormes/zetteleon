@@ -2,7 +2,7 @@
 aliases: [Model-Dependent Realism, The Map vs Territory]
 conformant: true
 created: 2025-12-12T18:34:35+00:00
-modified: 2026-09-20T00:00:00+00:00
+modified: 2026-09-26T08:46:20+00:00
 permalink: llmeon/30-library/so-t/so-t-reality-models-and-the-limits-of-accuracy
 source_of_truth: true
 tags: [epistemology, logic, mental_models, TheHuman/Cognition, TheHuman/Philosophy]

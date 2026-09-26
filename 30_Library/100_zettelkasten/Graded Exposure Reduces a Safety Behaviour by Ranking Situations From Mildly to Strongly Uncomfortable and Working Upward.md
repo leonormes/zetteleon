@@ -2,7 +2,7 @@
 conformant: false
 created: 2026-09-14T15:29:55+00:00
 created_utc: '2026-09-14T00:00:00Z'
-modified: 2026-09-25T16:29:23+00:00
+modified: 2026-09-26T08:45:31+00:00
 non_conformance_reason: "missing schema field trigger for type procedure (required when conformant - true); missing schema field steps for type procedure (required when conformant - true); missing schema field verification for type procedure (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/graded-exposure-reduces-a-safety-behaviour-by-ranking-situations-from-mildly-to-strongly-uncomfortable-and-working-upward
 prodos.kind: atomic

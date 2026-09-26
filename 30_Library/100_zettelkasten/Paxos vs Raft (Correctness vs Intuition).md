@@ -6,7 +6,7 @@ created_utc: '2026-04-14T12:20:00Z'
 epistemic_status: medium
 evidence_links: []
 kind: claim
-modified: 2026-09-25T16:29:28+00:00
+modified: 2026-09-26T08:45:35+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/paxos-vs-raft-correctness-vs-intuition
 proposition: Industry picks consensus protocols such as Raft for intuitive understandability over the formal correctness proofs behind Paxos, trading provable reliability for developer experience.

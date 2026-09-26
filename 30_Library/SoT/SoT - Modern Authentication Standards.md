@@ -2,7 +2,7 @@
 aliases: [AuthN Standards, Modern Auth Protocols, OAuth and OIDC]
 conformant: true
 created: 2025-12-25T13:00:00+00:00
-modified: 2026-09-19T15:45:22+00:00
+modified: 2026-09-26T08:46:18+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-modern-authentication-standards
 tags: [authentication, oauth, oidc, SoftwareEngineering/Security, standards]

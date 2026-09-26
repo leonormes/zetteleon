@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-09-18T00:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:33+00:00
+modified: 2026-09-26T08:45:38+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-continuum-thought-experiment
 proposition: "A perfectly continuous quantity—one with no natural minimal units or boundaries at all—cannot be counted, because nothing in it marks out where one part ends and the next begins; discreteness is not a convenience for counting but a precondition for the question 'how many?' to be meaningful."
 tags: [foundations, topic/maths, topic/philosophy]

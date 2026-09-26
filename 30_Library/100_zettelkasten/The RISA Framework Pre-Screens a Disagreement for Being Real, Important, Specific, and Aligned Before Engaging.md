@@ -2,7 +2,7 @@
 conformant: false
 created: 2026-09-14T15:09:38+00:00
 created_utc: '2026-09-14T00:00:00Z'
-modified: 2026-09-25T16:29:34+00:00
+modified: 2026-09-26T08:45:39+00:00
 non_conformance_reason: "missing schema field trigger for type procedure (required when conformant - true); missing schema field steps for type procedure (required when conformant - true); missing schema field verification for type procedure (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/the-risa-framework-pre-screens-a-disagreement-for-being-real-important-specific-and-aligned-before-engaging
 prodos.kind: atomic

@@ -1,7 +1,7 @@
 ---
 aliases: [On-Call Index, Ops Index, Runbooks Index]
 created: 2026-04-08T00:00:00+00:00
-modified: 2026-09-19T15:45:12+00:00
+modified: 2026-09-26T08:46:08+00:00
 permalink: llmeon/30-library/mo-c/moc-operations-runbooks-fast
 tags: [moc, ops, triage]
 title: MOC - Operations & Runbooks (Fast)

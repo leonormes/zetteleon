@@ -1,7 +1,7 @@
 ---
 aliases: [FFNode ACR MOC, ffnode umbrella vs leaf charts, Helm Chart Versioning MOC]
 created: 2026-09-17T00:00:00+00:00
-modified: 2026-09-19T15:45:11+00:00
+modified: 2026-09-26T08:46:07+00:00
 permalink: llmeon/30-library/mo-c/moc-ffnode-acr-chart-versioning-ftfl-1008
 tags: [acr, argocd, deployment, fitfile, ftfl-1008, helm, moc]
 title: MOC - FFNode ACR Chart Versioning (FTFL-1008)

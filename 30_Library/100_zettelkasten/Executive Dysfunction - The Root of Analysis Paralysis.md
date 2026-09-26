@@ -6,7 +6,7 @@ created: 2025-08-11T17:24:14+00:00
 epistemic_status: medium
 evidence_links: []
 last_reviewed: ''
-modified: 2026-09-25T16:29:22+00:00
+modified: 2026-09-26T08:45:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/executive-dysfunction-the-root-of-analysis-paralysis
 proposition: Executive dysfunction affects up to 90% of individuals with ADHD and is the primary driver of overthinking-procrastination cycles, manifesting as working memory overload, poor impulse control, and cognitive inflexibility.
 tags: [executive-function, overthinking, SoftwareEngineering, TheHuman/Health/ADHD, topic/productivity]

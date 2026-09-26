@@ -1,27 +1,21 @@
 ---
-title: One Idea Per Note Makes Ideas Easier to Find Than a Long Multi-Topic Review
-type: claim
-status: seed
-tags:
-- single-idea
-- retrieval
-- book-review
-- findability
-- zettelkasten
-- note-structure
 conformant: true
-created: 2026-09-26 10:30:00+00:00
-modified: 2026-09-26 10:30:00+00:00
-source_title: How to Make Notes and Write - Dan Allosso
-source_url: calibre://view-book/GCcalibreBooks/708/EPUB
+contradicts: []
+created: 2026-09-26T10:30:00+00:00
 created_utc: '2026-09-26T10:30:00Z'
-upstream: '[[The Atomicity Principle - One Idea Per Note]]'
-proposition: Recording one idea per note makes the ideas easier to find than keeping
-  a long review of a whole book.
 epistemic_status: medium
 evidence_links: []
-contradicts: []
+modified: 2026-09-26T08:45:41+00:00
 permalink: llmeon/30-library/100-zettelkasten/one-idea-per-note-makes-ideas-easier-to-find-than-a-long-multi-topic-review
+proposition: Recording one idea per note makes the ideas easier to find than keeping
+  a long review of a whole book.
+source_title: How to Make Notes and Write - Dan Allosso
+source_url: calibre://view-book/GCcalibreBooks/708/EPUB
+status: seed
+tags: [book-review, findability, note-structure, retrieval, single-idea, zettelkasten]
+title: One Idea Per Note Makes Ideas Easier to Find Than a Long Multi-Topic Review
+type: claim
+upstream: '[[The Atomicity Principle - One Idea Per Note]]'
 ---
 
 ## One Idea Per Note Makes Ideas Easier to Find Than a Long Multi-Topic Review

@@ -2,7 +2,7 @@
 aliases: [Beauty of Impermanence, Japanese Philosophy of Imperfection, Kintsugi, Mono no aware, Wabi-Sabi]
 conformant: true
 created: 2025-12-16T00:00:00+00:00
-modified: 2026-09-19T15:45:28+00:00
+modified: 2026-09-26T08:46:25+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-wabi-sabi
 tags: [aesthetics, buddhism, japanese_philosophy, mindfulness, resilience, TheHuman/Philosophy]

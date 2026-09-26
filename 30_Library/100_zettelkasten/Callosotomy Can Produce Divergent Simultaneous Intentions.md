@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-07-16T15:50:54+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:19+00:00
+modified: 2026-09-26T08:45:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/callosotomy-can-produce-divergent-simultaneous-intentions
 proposition: 'After the corpus callosum is severed, the two hemispheres can pursue incompatible goals at once—in one reported case the left hemisphere said it wanted to be a draftsman while the disconnected right hemisphere spelled out "racing driver."'
 source_title: Waking Up (Sam Harris) — reviewed LLM summary and critique

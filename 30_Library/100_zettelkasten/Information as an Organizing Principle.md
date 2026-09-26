@@ -7,7 +7,7 @@ created: 2025-02-07T12:57:55+00:00
 epistemic_status: high
 evidence_links: []
 ID: information_as_an_organizing_principle
-modified: 2026-09-25T16:29:25+00:00
+modified: 2026-09-26T08:45:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/information-as-an-organizing-principle
 prodos.kind: atomic
 prodos.lifecycle: stable

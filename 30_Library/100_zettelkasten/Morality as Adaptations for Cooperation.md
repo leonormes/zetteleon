@@ -5,7 +5,7 @@ created_utc: '2026-09-25T16:00:00Z'
 definition: Morality is a set of psychological adaptations that allow otherwise selfish
   individuals to reap the benefits of cooperation.
 distinguishes_from: ["[[Me Versus Us]]"]
-modified: 2026-09-25T16:29:37+00:00
+modified: 2026-09-26T08:45:41+00:00
 permalink: llmeon/30-library/100-zettelkasten/morality-as-adaptations-for-cooperation
 source_title: Moral Tribes - the Shared Pasture Parable (NotebookLM summary, checked
   against the book)

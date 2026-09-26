@@ -4,7 +4,7 @@ conformant: true
 created: 2025-02-07T12:57:55+00:00
 definition: "Systematic errors in interpreting evidence about oneself, others, or a situation, such as mind reading (treating an inferred guess about what another person is thinking as established fact) or selective abstraction (fixating on one negative detail while discounting everything else), that convert ambiguous input into a confidently negative conclusion."
 distinguishes_from: ["[[Metacognitive Awareness]]", "[[Negativity Bias]]"]
-modified: 2026-09-25T16:29:20+00:00
+modified: 2026-09-26T08:45:28+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/common-cognitive-distortions
 tags: [beliefs, reframing, TheHuman/Cognition, TheHuman/Cognition/bias]

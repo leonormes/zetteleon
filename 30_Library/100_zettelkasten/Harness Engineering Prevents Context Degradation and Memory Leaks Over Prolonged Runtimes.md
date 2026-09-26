@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:24+00:00
+modified: 2026-09-26T08:45:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/harness-engineering-prevents-context-degradation-and-memory-leaks-over-prolonged-runtimes
 proposition: For complex, multi-step tasks that run over a prolonged execution runtime, "harness engineering's specific job is preventing context degradation and memory" "leaks by managing the system's state externally to the LLM's own context. This is" "distinct from harness engineering's other roles (control flow, tool access, inner/outer" "environment split) — it's specifically an anti-entropy mechanism for long-running" work.
 tags: [domain/llm, topic/agent-architecture, topic/context-management, topic/harness-design]

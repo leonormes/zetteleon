@@ -4,7 +4,7 @@ conformant: true
 created: 2025-09-11T20:23:33+00:00
 definition: "A mindset that locates the value of an activity in engaging with the process itself—curiosity, understanding, and the neurochemical reward of insight—rather than in the external outcome, credential, or completion metric it produces."
 distinguishes_from: []
-modified: 2026-09-25T16:29:29+00:00
+modified: 2026-09-26T08:45:35+00:00
 permalink: llmeon/30-library/100-zettelkasten/process-over-outcome-mindset
 tags: [TheHuman/Health/ADHD, TheHuman/Mindset, TheHuman/Motivation, topic/learning]
 title: Process Over Outcome Mindset

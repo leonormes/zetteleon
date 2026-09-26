@@ -1,18 +1,18 @@
 ---
 created: 2026-09-21T15:37:00+00:00
-modified: 2026-09-21T15:37:00+00:00
-permalink: llmeon/30-library/200-projects/google-pixel-9
-title: Google Pixel 9
-type: equipment
-tags: [equipment, phone, google, pixel, android]
 manufacturer: Google
 model: Pixel 9
+modified: 2026-09-26T08:45:53+00:00
+permalink: llmeon/30-library/200-projects/google-pixel-9
 status: stable
+tags: [android, equipment, google, phone, pixel]
+title: Google Pixel 9
+type: equipment
 ---
 
-# Google Pixel 9
+## Google Pixel 9
 
-## Owned configuration
+### Owned Configuration
 
 - Colour: Obsidian
 - Storage: 128 GB
@@ -20,7 +20,7 @@ status: stable
 - IMEI: `354965912392244`
 - RAM: 12 GB
 
-## Technical details
+### Technical Details
 
 | Area | Detail |
 |---|---|
@@ -35,7 +35,7 @@ status: stable
 | Biometrics | Fingerprint sensor and face unlock |
 | Charging | USB-C wired charging, Qi wireless charging and Battery Share |
 
-## Purchase record
+### Purchase Record
 
 - Order date: 9 May 2025 at 13:16
 - Merchant: Google Store / Google Commerce Ltd
@@ -48,11 +48,11 @@ status: stable
 - Google Store credit earned: £84.90
 - Evidence: Google Store order confirmation and subsequent Store-credit email found in Gmail
 
-## Service history
+### Service History
 
-- Gmail contains a February 2026 RMA for a separate **Pixel 9 Peony 128 GB** with different IMEIs. It has not been treated as a replacement for this Obsidian unit because the identifiers and colour do not match.
+- Gmail contains a February 2026 RMA for a separate Pixel 9 Peony 128 GB with different IMEIs. It has not been treated as a replacement for this Obsidian unit because the identifiers and colour do not match.
 
-## Support and sources
+### Support and Sources
 
 - [Official Pixel 9 specifications](https://store.google.com/gb/product/pixel_9_specs?hl=en-GB)
 - [Google Pixel Help](https://support.google.com/pixelphone/)

@@ -2,7 +2,7 @@
 alias: [Cross-Cluster HTTPS, DNS-IP Ownership Model, External Ingress SSL]
 conformant: true
 created: 2026-02-05T00:00:00+00:00
-modified: 2026-09-19T15:45:19+00:00
+modified: 2026-09-26T08:46:14+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-external-ingress-ssl-architecture
 tags: [cert-manager, cloudflare, ingress, kubernetes, sot, ssl]

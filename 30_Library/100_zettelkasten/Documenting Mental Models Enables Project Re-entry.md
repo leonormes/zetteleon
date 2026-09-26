@@ -6,7 +6,7 @@ created: 2025-10-30T15:00:39+00:00
 epistemic_status: medium
 evidence_links: []
 last_reviewed: 2025-10-30
-modified: 2026-09-25T16:29:21+00:00
+modified: 2026-09-26T08:45:29+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/documenting-mental-models-enables-project-re-entry
 proposition: Capturing your mental model while actively creating—through mind maps, flowcharts, voice memos, or written notes—creates a bridge to reconnect with complex ideas when returning to projects.

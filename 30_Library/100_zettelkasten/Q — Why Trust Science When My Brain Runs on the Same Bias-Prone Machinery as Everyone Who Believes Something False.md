@@ -3,7 +3,7 @@ aliases: []
 candidate_answers: ["[[Preferring Science Is Itself a Falsifiable, Evidence-Based Belief, Not a Dogmatic One]]", "[[Science Is Trustworthy Because Its Structure Corrects for Bias, Not Because Scientists Are Less Biased]]"]
 conformant: true
 created: 2026-09-22T08:11:10+00:00
-modified: 2026-09-25T16:29:29+00:00
+modified: 2026-09-26T08:45:36+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/q-why-trust-science-when-my-brain-runs-on-the-same-bias-prone-machinery-as-everyone-who-believes-something-false
 related_claims: ["[[Falsifiability Distinguishes Science from Dogma]]", "[[Human Cognition Evolved for Social Survival, Not for Tracking Objective Truth]]", "[[Trusting a Scientific Authority Feels Psychologically Identical to Trusting a False One]]"]

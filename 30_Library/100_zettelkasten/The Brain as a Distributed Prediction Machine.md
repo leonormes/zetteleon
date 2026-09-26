@@ -4,7 +4,7 @@ conformant: true
 created: 2025-10-20T09:56:00+00:00
 definition: The Brain as a Distributed Prediction Machine describes mental models as distributed, emergent properties of neural networks rather than localised structures, with the hippocampus binding disparate components together and the prefrontal cortex simulating and manipulating them to generate predictions.
 distinguishes_from: []
-modified: 2026-09-25T16:29:33+00:00
+modified: 2026-09-26T08:45:38+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/the-brain-as-a-distributed-prediction-machine
 tags: [brain, models, TheHuman/Cognition, TheHuman/Neuroscience]

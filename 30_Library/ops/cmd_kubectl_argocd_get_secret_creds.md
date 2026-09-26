@@ -2,7 +2,7 @@
 created: 2026-02-22T16:53:18+00:00
 hop_level: local
 last_verified: 2026-02-22
-modified: 2026-09-19T15:45:32+00:00
+modified: 2026-09-26T08:46:30+00:00
 permalink: llmeon/30-library/ops/cmd-kubectl-argocd-get-secret-creds
 requires_tunnel: false
 tags: [argocd, cmd, credentials, debug, secrets]

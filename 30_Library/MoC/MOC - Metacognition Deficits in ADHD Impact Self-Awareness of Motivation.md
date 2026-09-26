@@ -2,7 +2,7 @@
 aliases: []
 conformant: true
 created: 2025-07-16T17:30:01+00:00
-modified: 2026-09-19T15:45:12+00:00
+modified: 2026-09-26T08:46:08+00:00
 permalink: llmeon/30-library/mo-c/moc-metacognition-deficits-in-adhd-impact-self-awareness-of-motivation
 tags: [metacognition, self-awareness, TheHuman/Health/ADHD, TheHuman/Motivation, type/moc]
 title: MOC - Metacognition Deficits in ADHD Impact Self-Awareness of Motivation

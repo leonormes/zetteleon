@@ -4,7 +4,7 @@ created: 2025-11-01T12:00:00+00:00
 criteria: Atomic notes must relate to the concept of pattern as a cognitive or mathematical phenomenon.
 exclusions: Specific, deep mathematical proofs or detailed neuroanatomy.
 last_reviewed: ''
-modified: 2026-09-19T15:45:12+00:00
+modified: 2026-09-26T08:46:08+00:00
 permalink: llmeon/30-library/mo-c/moc-pattern-from-sensory-input-to-meaning
 scope: The cognitive, evolutionary, and mathematical aspects of pattern recognition.
 tags: [maths, pattern, TheHuman/Cognition]

@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-09-18T00:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:28+00:00
+modified: 2026-09-26T08:45:34+00:00
 permalink: llmeon/30-library/100-zettelkasten/neurodevelopmental-disorders-vs-character-defects
 proposition: Whether a behavioural difficulty (poor time management, forgetfulness, apparent carelessness) reflects a neurodevelopmental condition or a character defect is often genuinely unclear from the outside, because the same visible behaviour can result from either cause—and this categorical ambiguity is exactly what makes misattributing neurological differences to character so easy and so damaging.
 tags: [character, TheHuman/Health/ADHD, topic/philosophy]

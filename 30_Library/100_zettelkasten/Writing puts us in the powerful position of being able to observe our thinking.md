@@ -4,7 +4,7 @@ contradicts: []
 created: 2025-05-23T10:08:29+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:36+00:00
+modified: 2026-09-26T08:45:40+00:00
 permalink: llmeon/30-library/100-zettelkasten/writing-puts-us-in-the-powerful-position-of-being-able-to-observe-our-thinking
 proposition: Writing externalises thought into an inspectable artefact, making a person more conscious of their argument structure and logical leaps, which enables identifying and correcting weaknesses in reasoning — paraphrasing is a specific instance of this mechanism.
 tags: [topic/pkm/zettelkasten, topic/writing]

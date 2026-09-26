@@ -5,7 +5,7 @@ created_utc: '2026-09-25T16:00:00Z'
 definition: Righteous indignation is the distinctively moral kind of anger felt toward
   free riders, and it drives pro-social punishment.
 distinguishes_from: []
-modified: 2026-09-25T16:29:37+00:00
+modified: 2026-09-26T08:45:41+00:00
 permalink: llmeon/30-library/100-zettelkasten/righteous-indignation
 source_title: Moral Tribes - the Shared Pasture Parable (NotebookLM summary, checked
   against the book)

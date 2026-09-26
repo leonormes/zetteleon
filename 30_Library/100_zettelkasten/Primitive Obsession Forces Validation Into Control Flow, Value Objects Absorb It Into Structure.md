@@ -5,7 +5,7 @@ created: 2026-09-19T15:25:37+00:00
 created_utc: 2026-09-19 00:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:29+00:00
+modified: 2026-09-26T08:45:35+00:00
 non_conformance_reason: ''
 permalink: llmeon/00-inbox/primitive-obsession-forces-validation-into-control-flow-value-objects-absorb-it-into-structure
 proposition: Representing a heavily-constrained domain concept with a bare primitive type discards all structural constraints and forces every consuming function to re-validate it, whereas a Value Object with a smart constructor enforces the constraint once, at construction, and is thereafter treated as immutable proof of validity.

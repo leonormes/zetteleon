@@ -6,7 +6,7 @@ contradicts: []
 created: 2025-11-12T14:10:02+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:18+00:00
+modified: 2026-09-26T08:45:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/aristotle-distinguished-between-episteme-techne-and-phronesis
 prodos.kind: atomic
 prodos.lifecycle: stable

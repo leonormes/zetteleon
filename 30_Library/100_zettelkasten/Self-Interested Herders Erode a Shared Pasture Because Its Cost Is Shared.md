@@ -5,7 +5,7 @@ created: 2026-09-25T15:59:57+00:00
 created_utc: '2026-09-25T16:00:00Z'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:37+00:00
+modified: 2026-09-26T08:45:41+00:00
 permalink: llmeon/30-library/100-zettelkasten/self-interested-herders-erode-a-shared-pasture-because-its-cost-is-shared
 proposition: In a shared pasture each herder gains most of the benefit of an extra
   animal while the cost is spread across all herders, so herders acting on self-interest

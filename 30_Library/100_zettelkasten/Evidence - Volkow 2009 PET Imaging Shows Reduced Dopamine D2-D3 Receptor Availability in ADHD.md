@@ -2,7 +2,7 @@
 conformant: false
 created: 2026-09-08T00:00:00+00:00
 epistemic_status: high
-modified: 2026-09-25T16:29:22+00:00
+modified: 2026-09-26T08:45:30+00:00
 non_conformance_reason: "missing required field - type; missing required field - tags"
 permalink: llmeon/30-library/100-zettelkasten/evidence-volkow-2009-pet-imaging-shows-reduced-dopamine-d2-d3-receptor-availability-in-adhd
 prodos.kind: evidence

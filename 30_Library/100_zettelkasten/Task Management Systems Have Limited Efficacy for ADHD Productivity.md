@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-10-30T12:00:00+00:00
 epistemic_status: medium
 evidence_links: ["[[Evidence - ADHD Task Initiation Deficit from Striatal Dopamine Hyposensitivity]]"]
-modified: 2026-09-25T16:29:33+00:00
+modified: 2026-09-26T08:45:38+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/task-management-systems-have-limited-efficacy-for-adhd-productivity
 proposition: Task management systems do not by themselves make people with ADHD productive, because the main challenge is the executive function of initiating tasks, not organising them.

@@ -1,20 +1,20 @@
 ---
 created: 2026-09-21T09:27:41+00:00
-modified: 2026-09-21T15:37:00+00:00
-permalink: llmeon/30-library/200-projects/re-markable-paper-pro
-title: reMarkable Paper Pro
-type: equipment
-tags: [equipment, tablet, remarkable, eink, notes]
 manufacturer: reMarkable
 model: Paper Pro
+modified: 2026-09-26T08:46:03+00:00
+permalink: llmeon/30-library/200-projects/re-markable-paper-pro
 status: stable
+tags: [eink, equipment, notes, remarkable, tablet]
+title: reMarkable Paper Pro
+type: equipment
 ---
 
-# reMarkable Paper Pro
+## reMarkable Paper Pro
 
 An 11.8-inch colour digital-paper tablet used for handwriting, document annotation and focused reading. The owned setup includes Marker Plus and the Basalt UK Type Folio.
 
-## Technical details
+### Technical Details
 
 | Area | Detail |
 |---|---|
@@ -33,7 +33,7 @@ An 11.8-inch colour digital-paper tablet used for handwriting, document annotati
 | Weight | 525 g |
 | Security | Device/in-transit/at-rest encryption, MFA, secure boot, passcode and auto-lock |
 
-## Device purchase
+### Device Purchase
 
 - Order date: 19 November 2024
 - Merchant: reMarkable
@@ -46,9 +46,9 @@ An 11.8-inch colour digital-paper tablet used for handwriting, document annotati
 - Tracking number: `2901429930`
 - Evidence: reMarkable order confirmation and dispatch email found in Gmail
 
-## Type Folio purchase
+### Type Folio Purchase
 
-- Product: Type Folio – Basalt – English – UK
+- Product: Type Folio–Basalt–English–UK
 - Order date: 2 May 2026
 - Order ID: `WDDBZQC6BYJKX3VY`
 - Type Folio: £219.00
@@ -58,13 +58,13 @@ An 11.8-inch colour digital-paper tablet used for handwriting, document annotati
 - PayPal transaction ID: `2DD29459HJ136650V`
 - Evidence: reMarkable order confirmation and PayPal receipt found in Gmail
 
-## Workflow notes
+### Workflow Notes
 
 - The reMarkable desktop/mobile apps are available for macOS, Windows, iOS and Android.
-- “Read on reMarkable” integrations exist for Chrome and Microsoft Office.
+- "Read on reMarkable" integrations exist for Chrome and Microsoft Office.
 - Compared with the BOOX, this is the larger, more focused writing/annotation device; the BOOX is the more open Android reading platform.
 
-## Support and sources
+### Support and Sources
 
 - [Official product details](https://remarkable.com/products/remarkable-paper/pro/details/compare)
 - [Official support specification](https://support.remarkable.com/s/article/About-reMarkable-Paper-Pro)

@@ -2,7 +2,7 @@
 aliases: [Blade Runner Universe, Replicant Sociology, Voight-Kampff Framework]
 conformant: true
 created: 2025-12-31T00:00:00+00:00
-modified: 2026-09-19T15:45:18+00:00
+modified: 2026-09-26T08:46:13+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-cyberpunk-case-study-blade-runner
 tags: [case_study, cyberpunk, film, sociology]

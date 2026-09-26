@@ -4,7 +4,7 @@ created: 2025-11-12T15:15:00+00:00
 criteria: Atomic notes must relate to the psychological drivers of the ADHD procrastination cycle or feedback-based strategies to counteract it.
 exclusions: General productivity advice not tailored to ADHD neurobiology.
 last_reviewed: '2026-04-08'
-modified: 2026-09-19T15:45:11+00:00
+modified: 2026-09-26T08:46:07+00:00
 permalink: llmeon/30-library/mo-c/moc-breaking-the-adhd-overthinking-procrastination-cycle
 scope: A framework for understanding and breaking the overthinking-procrastination cycle in ADHD using feedback-driven momentum.
 status: seed

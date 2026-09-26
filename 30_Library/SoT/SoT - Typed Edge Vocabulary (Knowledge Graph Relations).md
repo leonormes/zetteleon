@@ -2,7 +2,7 @@
 aliases: [Edge Syntax, Edge Vocabulary, Knowledge Graph Relations, Typed Edges]
 conformant: true
 created: 2026-07-24T00:00:00+00:00
-modified: 2026-09-19T15:45:28+00:00
+modified: 2026-09-26T08:46:24+00:00
 permalink: llmeon/30-library/so-t/so-t-typed-edge-vocabulary-knowledge-graph-relations
 see_also: ["[[Protocol - Typed Answer Contract (TAC) for Vault Agents]]", "[[SoT - PRODOS Core Specification]]", "[[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]"]
 tags: [domain/pkm, prodos/sot, topic/knowledge-architecture, topic/knowledge-graph]

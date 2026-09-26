@@ -1,7 +1,7 @@
 ---
 conformant: true
 created: 2026-01-10T09:34:38+00:00
-modified: 2026-09-19T15:45:22+00:00
+modified: 2026-09-26T08:46:18+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-metabolic-tooling-configuration
 status: stable

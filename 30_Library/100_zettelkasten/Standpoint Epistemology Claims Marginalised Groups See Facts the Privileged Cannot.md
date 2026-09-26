@@ -6,7 +6,7 @@ created: 2026-09-09T00:00:00+00:00
 created_utc: 2026-09-09 00:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:31+00:00
+modified: 2026-09-26T08:45:37+00:00
 permalink: llmeon/00-inbox/standpoint-epistemology-claims-marginalised-groups-see-facts-the-privileged-cannot
 proposition: "Harding's standpoint epistemology argues that marginalised groups have unique viewpoints that allow them to see facts invisible to the privileged, as part of feminist epistemology's examination of how a researcher's situatedness affects science."
 source_title: "Philosophy of science: alternative positions beyond Deutsch vs Godfrey-Smith"

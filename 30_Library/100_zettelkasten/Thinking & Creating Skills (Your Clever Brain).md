@@ -1,7 +1,7 @@
 ---
 conformant: true
 created: 2026-09-25T00:00:00+00:00
-modified: 2026-09-25T16:29:37+00:00
+modified: 2026-09-26T08:45:41+00:00
 permalink: llmeon/30-library/100-zettelkasten/thinking-creating-skills-your-clever-brain
 tags: [character-strength, child-development, national-curriculum, type/moc, virtue]
 title: Thinking & Creating Skills (Your Clever Brain)

@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-05-17T16:34:11+00:00
 last_reviewed: ''
-modified: 2026-09-25T16:29:26+00:00
+modified: 2026-09-26T08:45:33+00:00
 permalink: llmeon/30-library/100-zettelkasten/layer-7-protocol-elements-in-node.js
 tags: [SoftwareEngineering/Networking]
 title: Layer 7 Protocol Elements in Node.js

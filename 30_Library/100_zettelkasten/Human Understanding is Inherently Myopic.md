@@ -6,7 +6,7 @@ created: 2025-07-26T19:03:03+00:00
 epistemic_status: medium
 evidence_links: ["[[Evidence - Kahneman WYSIATI Says We Treat the Limited Information We Have as if It Were All There Is]]", "[[Evidence - Levitin Says Attention Is a Limited-Capacity Resource With Definite Limits]]", "[[Evidence - Sloman and Fernbach Say We Mistake Knowledge in the Community for Knowledge in Our Heads]]"]
 last_reviewed: ''
-modified: 2026-09-25T16:29:24+00:00
+modified: 2026-09-26T08:45:32+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/human-understanding-is-inherently-myopic
 proposition: Human understanding is inherently myopic, because limited attention and working memory let us perceive only a small fraction of the whole picture and leave an incomplete, often biased view that we mistake for the complete one.

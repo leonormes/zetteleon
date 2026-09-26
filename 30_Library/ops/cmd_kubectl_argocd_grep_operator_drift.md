@@ -2,7 +2,7 @@
 created: 2026-02-22T17:01:33+00:00
 hop_level: local
 last_verified: 2026-02-22
-modified: 2026-09-19T15:45:33+00:00
+modified: 2026-09-26T08:46:29+00:00
 permalink: llmeon/30-library/ops/cmd-kubectl-argocd-grep-operator-drift
 requires_tunnel: false
 tags: [argocd, cmd, drift, metadata, operator]

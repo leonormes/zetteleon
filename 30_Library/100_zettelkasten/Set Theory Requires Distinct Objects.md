@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-08-30T09:00:44+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:31+00:00
+modified: 2026-09-26T08:45:37+00:00
 permalink: llmeon/30-library/100-zettelkasten/set-theory-requires-distinct-objects
 proposition: "Axiomatic set theory formalises the intuition that mathematical objects must be distinguishable from one another, making distinctness the foundational axiom from which the structure of number is built."
 tags: [foundations, set-theory, topic/maths]

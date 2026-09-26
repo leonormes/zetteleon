@@ -2,7 +2,7 @@
 aliases: [Infrastructure State Models, Merkle vs Reconciliation, State Sync Patterns]
 conformant: true
 created: 2025-12-25T12:05:00+00:00
-modified: 2026-09-19T15:45:25+00:00
+modified: 2026-09-26T08:46:21+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-state-synchronization-models
 tags: [distributed_systems, git, kubernetes, SoftwareEngineering/Architecture, theory]

@@ -5,7 +5,7 @@ created: 2026-09-25T15:59:57+00:00
 created_utc: '2026-09-25T16:00:00Z'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:37+00:00
+modified: 2026-09-26T08:45:41+00:00
 permalink: llmeon/30-library/100-zettelkasten/pro-social-punishment-restores-cooperation
 proposition: In the Public Goods Game, when players may pay to punish free riders,
   contributions typically rise even when the punishers gain nothing from punishing.

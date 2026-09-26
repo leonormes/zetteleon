@@ -1,28 +1,20 @@
 ---
-title: Point Note
-type: concept
-status: seed
-tags:
-- point-note
-- allosso
-- note-types
-- own-words
-- zettelkasten
-- definition
 conformant: true
-created: 2026-09-26 10:30:00+00:00
-modified: 2026-09-26 10:30:00+00:00
-source_title: How to Make Notes and Write - Dan Allosso
-source_url: calibre://view-book/GCcalibreBooks/708/EPUB
+created: 2026-09-26T10:30:00+00:00
 created_utc: '2026-09-26T10:30:00Z'
-upstream: '[[The Atomicity Principle - One Idea Per Note]]'
 definition: A Point Note is a note in which the focus shifts from the source to your
   own thoughts, using the source as support for a point you want to make.
-distinguishes_from:
-- '[[Source Note]]'
-used_in_claims:
-- '[[A Note Should Be Written So It Can Be Understood Out of Context]]'
+distinguishes_from: ["[[Source Note]]"]
+modified: 2026-09-26T08:45:41+00:00
 permalink: llmeon/30-library/100-zettelkasten/point-note
+source_title: How to Make Notes and Write - Dan Allosso
+source_url: calibre://view-book/GCcalibreBooks/708/EPUB
+status: seed
+tags: [allosso, definition, note-types, own-words, point-note, zettelkasten]
+title: Point Note
+type: concept
+upstream: '[[The Atomicity Principle - One Idea Per Note]]'
+used_in_claims: ["[[A Note Should Be Written So It Can Be Understood Out of Context]]"]
 ---
 
 ## Point Note

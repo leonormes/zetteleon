@@ -5,7 +5,7 @@ created: 2026-09-21T08:54:40+00:00
 created_utc: '2026-09-21T08:54:40+00:00'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:31+00:00
+modified: 2026-09-26T08:45:37+00:00
 non_conformance_reason: ''
 permalink: llmeon/00-inbox/shared-biological-architecture-enables-communication
 proposition: Because humans share the same basic neural architecture, they process

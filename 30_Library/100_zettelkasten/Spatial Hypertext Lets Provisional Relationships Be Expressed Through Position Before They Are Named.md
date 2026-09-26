@@ -5,7 +5,7 @@ created: 2026-09-14T12:09:43+00:00
 created_utc: '2026-09-14T00:00:00Z'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:31+00:00
+modified: 2026-09-26T08:45:37+00:00
 permalink: llmeon/30-library/100-zettelkasten/spatial-hypertext-lets-provisional-relationships-be-expressed-through-position-before-they-are-named
 proposition: Spatial hypertext systems let users encode contingent, provisional relationships between notes through visual attributes—position, proximity, size, and colour on a canvas—rather than through explicit, formally named links, lowering the threshold for expressing a relationship during early-stage triage.
 source_title: PKM Meta-Graph System Research

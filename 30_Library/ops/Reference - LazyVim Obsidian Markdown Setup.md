@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2026-09-14T15:32:51+00:00
-modified: 2026-09-19T15:45:30+00:00
+modified: 2026-09-26T08:46:28+00:00
 non_conformance_reason: "missing schema field steps for type procedure (required when conformant - true); missing schema field verification for type procedure (required when conformant - true); missing schema field trigger for type procedure (required when conformant - true)"
 permalink: llmeon/30-library/ops/reference-lazy-vim-obsidian-markdown-setup
 prodos.kind: ops

@@ -4,7 +4,7 @@ conformant: true
 created: 2025-05-26T18:13:01+00:00
 definition: "The general mechanism of checking the validity of one's thoughts and perceptions against the external world — other people's agreement or disagreement makes an internal model feel more or less \"real,\" and a purely internal world that rarely interfaces with external perspectives lacks this grounding."
 distinguishes_from: []
-modified: 2026-09-25T16:29:30+00:00
+modified: 2026-09-26T08:45:36+00:00
 permalink: llmeon/30-library/100-zettelkasten/reality-testing
 tags: [epistemology, social-cognition, validation]
 title: Reality Testing

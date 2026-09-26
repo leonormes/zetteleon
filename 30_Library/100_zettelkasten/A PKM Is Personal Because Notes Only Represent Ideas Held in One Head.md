@@ -5,7 +5,7 @@ created: 2026-09-21T08:54:40+00:00
 created_utc: '2026-09-21T08:54:40+00:00'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:16+00:00
+modified: 2026-09-26T08:45:25+00:00
 non_conformance_reason: ''
 permalink: llmeon/00-inbox/a-pkm-is-personal-because-notes-only-represent-ideas-held-in-one-head
 proposition: Because the ideas are mostly in the head of the owner and the notes only represent them, another person cannot take the notes and understand the same things.

@@ -2,7 +2,7 @@
 aliases: [Analysis Paralysis, Fear of Failure, The Perfectionism Trap]
 conformant: true
 created: 2025-10-28T00:00:00+00:00
-modified: 2026-09-19T15:45:24+00:00
+modified: 2026-09-26T08:46:19+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-perfectionism-and-analysis-paralysis
 see_also: []

@@ -2,7 +2,7 @@
 conformant: false
 created: 2026-09-17T11:34:14+00:00
 created_utc: '2026-09-17T00:00:00Z'
-modified: 2026-09-25T16:29:30+00:00
+modified: 2026-09-26T08:45:36+00:00
 non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true)"
 permalink: llmeon/00-inbox/scandal-spillover-contagion-versus-contrast
 source_title: Political Contrast Effect Research

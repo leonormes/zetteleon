@@ -4,7 +4,7 @@ created: 2026-09-19T15:25:53+00:00
 created_utc: 2026-09-19 00:00:00+00:00
 definition: Reducing procedural complexity by restructuring data can happen through at least two mechanistically different routes, elimination, where a special case is redefined out of existence such as the linked-list pointer-to-pointer trick, and relocation, where the same amount of complexity is genuinely moved into a table, parser, or type constraint such as Pike data tables or parse-dont-validate, and only the second route is actual evidence for a conservation claim.
 distinguishes_from: []
-modified: 2026-09-25T16:29:21+00:00
+modified: 2026-09-26T08:45:29+00:00
 non_conformance_reason: ''
 permalink: llmeon/00-inbox/elimination-and-relocation-are-distinct-complexity-management-mechanisms-often-conflated-as-conservation
 source_title: "The Conservation of Software Complexity: The Dichotomy of Data Structures and Control Flow (plus epistemic review/fact-check)"

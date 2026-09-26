@@ -1,7 +1,7 @@
 ---
 aliases: [Data-Centric Design Index, Engineering MOC, SDLC MOC, The Data-First Hub]
 created: 2025-02-15T07:24:57+00:00
-modified: 2026-09-19T15:45:11+00:00
+modified: 2026-09-26T08:46:07+00:00
 permalink: llmeon/30-library/mo-c/moc-data-centric-software-engineering
 source_of_truth: true
 tags: [architecture, data-centric, engineering, prodos/moc, programming, sdlc]

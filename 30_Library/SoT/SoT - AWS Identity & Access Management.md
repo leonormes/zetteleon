@@ -4,7 +4,7 @@ conformant: true
 created: 2026-04-05T10:30:00+00:00
 last-synthesis: 2026-04-05
 last_reviewed: null
-modified: 2026-09-19T15:45:16+00:00
+modified: 2026-09-26T08:46:12+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-aws-identity-access-management
 status: stable

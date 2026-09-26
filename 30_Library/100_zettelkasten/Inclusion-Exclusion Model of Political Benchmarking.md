@@ -5,7 +5,7 @@ created: 2026-09-17T11:33:26+00:00
 created_utc: '2026-09-17T00:00:00Z'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:25+00:00
+modified: 2026-09-26T08:45:32+00:00
 permalink: llmeon/00-inbox/inclusion-exclusion-model-of-political-benchmarking
 proposition: Per Schwarz and Bless's Inclusion/Exclusion Model, when a political figure dominates accessible memory through extreme, norm-breaking behaviour, evaluators exclude that figure from the general category "politicians" and instead treat them as a separate, isolated comparison benchmark.
 source_title: Political Contrast Effect Research

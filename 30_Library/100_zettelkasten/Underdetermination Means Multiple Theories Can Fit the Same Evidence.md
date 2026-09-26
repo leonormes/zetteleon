@@ -4,7 +4,7 @@ created: 2026-09-07T15:00:00+00:00
 created_utc: 2026-09-07T15:00:00+00:00
 definition: Underdetermination is the condition where more than one theory or explanation is compatible with all the available evidence, so fit-to-data alone cannot select between them.
 epistemic_status: high
-modified: 2026-09-25T16:29:35+00:00
+modified: 2026-09-26T08:45:39+00:00
 non_conformance_reason: "missing schema field distinguishes_from for type concept (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/underdetermination-means-multiple-theories-can-fit-the-same-evidence
 source_title: "I want to learn more about the philosophy of science and how the scientific method works"

@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:17+00:00
+modified: 2026-09-26T08:45:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/agent-ergonomic-clis-output-token-efficient-plaintext-instead-of-verbose-json-schemas
 proposition: Current tool-integration protocols (including some MCP servers) rely on verbose JSON schemas for input/output, which are optimized for programmatic parsing rather than for LLM consumption. Engineering CLIs and tools to instead output token-efficient, semantically dense plaintext — rather than structured JSON meant for a traditional parser — drastically reduces token consumption, lowers latency, and improves the "agent's task success rate."
 tags: [domain/llm, topic/cost-optimization, topic/harness-design, topic/tool-use]

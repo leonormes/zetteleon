@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-10-30T12:05:05+00:00
 epistemic_status: low
 evidence_links: []
-modified: 2026-09-25T16:29:33+00:00
+modified: 2026-09-26T08:45:38+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/task-bracketing-strengthens-habit-related-neural-circuits
 proposition: Task bracketing strengthens a habit by reinforcing its start and end, because basal ganglia circuits are most active at those points, so clear start cues and ending rituals strengthen the whole habit loop.

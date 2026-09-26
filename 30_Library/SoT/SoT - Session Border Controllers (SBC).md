@@ -2,7 +2,7 @@
 aliases: [Oracle SBC, Perimeta, SBC, SIP Security, Voice Policy Enforcement]
 conformant: true
 created: 2026-04-02T12:10:00+00:00
-modified: 2026-09-19T15:45:25+00:00
+modified: 2026-09-26T08:46:21+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-session-border-controllers-sbc
 source_of_truth: true

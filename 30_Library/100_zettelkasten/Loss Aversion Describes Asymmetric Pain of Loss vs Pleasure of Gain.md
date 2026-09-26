@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-12T07:56:26+00:00
 last_reviewed: ''
-modified: 2026-09-25T16:29:26+00:00
+modified: 2026-09-26T08:45:33+00:00
 permalink: llmeon/30-library/100-zettelkasten/loss-aversion-describes-asymmetric-pain-of-loss-vs-pleasure-of-gain
 tags: []
 title: Loss Aversion Describes Asymmetric Pain of Loss vs Pleasure of Gain

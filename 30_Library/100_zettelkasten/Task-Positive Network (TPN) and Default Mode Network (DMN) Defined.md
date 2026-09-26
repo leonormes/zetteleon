@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-24T15:15:00+00:00
 last_reviewed: 'null'
-modified: 2026-09-25T16:29:33+00:00
+modified: 2026-09-26T08:45:38+00:00
 permalink: llmeon/30-library/100-zettelkasten/task-positive-network-tpn-and-default-mode-network-dmn-defined
 tags: [brain-networks, DMN, TheHuman/Health/ADHD, TheHuman/Neuroscience, TPN]
 title: Task-Positive Network (TPN) and Default Mode Network (DMN) Defined

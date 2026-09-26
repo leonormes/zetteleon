@@ -4,7 +4,7 @@ created: 2026-09-04T09:25:12+00:00
 created_utc: 2026-09-04T14:00:00+00:00
 definition: A theory is scientific only if it is falsifiable — its proponents can state in advance what result would prove it wrong — whereas dogma is structured to protect its core claim from any possible disconfirmation.
 distinguishes_from: ["[[Trusting a Scientific Authority Feels Psychologically Identical to Trusting a False One]]"]
-modified: 2026-09-25T16:29:22+00:00
+modified: 2026-09-26T08:45:30+00:00
 permalink: llmeon/00-inbox/falsifiability-distinguishes-science-from-dogma
 source_title: New chat
 source_url: https://gemini.google.com/app/295a599fc8b28e35

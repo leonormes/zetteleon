@@ -1,7 +1,7 @@
 ---
 created: 2026-06-08T11:35:53+00:00
 isProject: false
-modified: 2026-09-19T15:45:07+00:00
+modified: 2026-09-26T08:46:03+00:00
 name: Hermes daily-driver cost routing
 overview: Reconfigure Hermes so a free/cheap model handles gather+mechanical tool
   loops, while Claude is only used for bounded high-value reasoning steps (escalations),

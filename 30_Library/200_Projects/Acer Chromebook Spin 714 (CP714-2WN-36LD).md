@@ -1,24 +1,24 @@
 ---
+contains_device_identifiers: true
 created: 2026-09-22T11:41:00+01:00
-modified: 2026-09-22T11:41:00+01:00
-permalink: llmeon/30-library/200-projects/acer-chromebook-spin-714-cp714-2wn-36ld
-title: Acer Chromebook Spin 714 (CP714-2WN-36LD)
-type: equipment
-tags: [equipment, laptop, chromebook, chromeos, acer, convertible]
 manufacturer: Acer
 model: Chromebook Spin 714 CP714-2WN-36LD
+modified: 2026-09-26T08:45:46+00:00
+permalink: llmeon/30-library/200-projects/acer-chromebook-spin-714-cp714-2wn-36ld
 status: stable
-contains_device_identifiers: true
+tags: [acer, chromebook, chromeos, convertible, equipment, laptop]
+title: Acer Chromebook Spin 714 (CP714-2WN-36LD)
+type: equipment
 ---
 
-# Acer Chromebook Spin 714 (CP714-2WN-36LD)
+## Acer Chromebook Spin 714 (CP714-2WN-36LD)
 
 A 14-inch ChromeOS convertible with a 360-degree hinge, touchscreen and 13th-generation Intel Core i3 processor.
 
 > [!warning] Device identifiers
 > This note contains the unit's serial number and SNID. Avoid publishing it or committing it to a public repository.
 
-## Owned configuration
+### Owned Configuration
 
 | Field | Detail |
 |---|---|
@@ -34,7 +34,7 @@ A 14-inch ChromeOS convertible with a 360-degree hinge, touchscreen and 13th-gen
 
 The serial number begins with the part number without punctuation, which is consistent with `NX.KLDEK.001` being the product code rather than a second serial number.
 
-## Hardware specification
+### Hardware Specification
 
 | Area | Detail |
 |---|---|
@@ -49,7 +49,7 @@ The serial number begins with the part number without punctuation, which is cons
 | Power input | 20 V DC at 3.25 A; 65 W USB-C Power Delivery |
 | Battery | Lithium-polymer; Acer rates the model for up to 10 hours |
 
-## Ports and expansion
+### Ports and Expansion
 
 - Two USB-C ports supporting Thunderbolt 4, DisplayPort Alternate Mode, charging and USB Power Delivery
 - One USB 3.2 Gen 2 Type-A port
@@ -57,7 +57,7 @@ The serial number begins with the part number without punctuation, which is cons
 - 3.5 mm headphone/microphone combination jack
 - Three USB ports in total
 
-## Processor details
+### Processor Details
 
 The Intel Core i3-1315U is a Raptor Lake-U mobile processor with:
 
@@ -69,22 +69,22 @@ The Intel Core i3-1315U is a Raptor Lake-U mobile processor with:
 - Intel UHD integrated graphics with 64 execution units
 - Hardware support for Thunderbolt 4
 
-## Power and charging
+### Power and Charging
 
 The label rating of 20 V × 3.25 A equals 65 W, matching Acer's specified maximum power-supply wattage. Use a USB-C PD charger and cable capable of negotiating 65 W for full-speed charging under load.
 
-## Regulatory information
+### Regulatory Information
 
-### Marks recorded on the unit
+#### Marks Recorded on the Unit
 
-- UKCA — United Kingdom
-- CE — European Economic Area
-- EAC — Eurasian Economic Union
+- UKCA—United Kingdom
+- CE—European Economic Area
+- EAC—Eurasian Economic Union
 - UAE TRA/TDRA: registration `ER94877/21`; dealer `0018841/09`
 - South Africa ICASA: registration `TA-2021/0161`
 - WEEE crossed-out wheeled-bin symbol
 
-### Corporate entities
+#### Corporate Entities
 
 | Role | Entity |
 |---|---|
@@ -92,25 +92,25 @@ The label rating of 20 V × 3.25 A equals 65 W, matching Acer's specified maximu
 | EU representative | Acer Italy s.r.l., Viale delle Industrie 1/A, 20044 Arese (MI), Italy |
 | UK representative | Acer UK Ltd, Heathrow Boulevard III, 282 Bath Road, West Drayton, Greater London UB7 0DQ |
 
-## Purchase record
+### Purchase Record
 
 No matching Gmail receipt was found by searching for the model, part number and product name on 22 September 2026. Purchase date, seller, price, order number and warranty start therefore remain unverified.
 
-## Details to add
+### Details to Add
 
 - Purchase date and retailer
 - Purchase price and order number
 - Warranty registration or expiry date
-- ChromeOS automatic-update expiration date as reported under **Settings → About ChromeOS → Additional details → Update schedule**
+- ChromeOS automatic-update expiration date as reported under Settings → About ChromeOS → Additional details → Update schedule
 - Battery health and cycle count from ChromeOS diagnostics
 - Any included charger model and serial number
 
-## Support and sources
+### Support and Sources
 
 - [Official Acer UK specification page for NX.KLDEK.001](https://www.acer.com/gb-en/chromebooks/acer-chromebook-spin-714-cp714-2wn/pdp/NX.KLDEK.001)
 - [Acer support page for CP714-2WN](https://www.acer.com/us-en/support/product-support/CP714-2WN)
 - [Official Intel Core i3-1315U specifications](https://www.intel.com/content/www/us/en/products/sku/232136/intel-core-i31315u-processor-10m-cache-up-to-4-50-ghz/specifications.html)
 
-## Provenance
+### Provenance
 
 Identification, manufacturing, electrical, wireless and regulatory-label details were supplied directly by Leon Ormes on 22 September 2026. Factory hardware details were cross-checked against Acer's product page for part number `NX.KLDEK.001` and Intel's processor specifications.

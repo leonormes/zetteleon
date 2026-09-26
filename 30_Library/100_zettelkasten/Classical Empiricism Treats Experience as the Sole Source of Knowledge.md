@@ -6,7 +6,7 @@ created: 2026-09-09T00:00:00+00:00
 created_utc: 2026-09-09 00:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:19+00:00
+modified: 2026-09-26T08:45:28+00:00
 permalink: llmeon/00-inbox/classical-empiricism-treats-experience-as-the-sole-source-of-knowledge
 proposition: 'Empiricists such as Locke and Hume argue that the human mind is a "blank slate" and that experience and observation are the only genuine sources of knowledge; Locke specifically emphasised a "historical, plain method" of observing human minds and nature.'
 source_title: "Philosophy of science: alternative positions beyond Deutsch vs Godfrey-Smith"

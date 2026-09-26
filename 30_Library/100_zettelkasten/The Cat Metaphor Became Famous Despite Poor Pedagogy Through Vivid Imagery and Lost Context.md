@@ -6,7 +6,7 @@ created: 2026-09-07T16:00:00+00:00
 created_utc: 2026-09-07T16:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:33+00:00
+modified: 2026-09-26T08:45:38+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-cat-metaphor-became-famous-despite-poor-pedagogy-through-vivid-imagery-and-lost-context
 proposition: Schrödinger's cat became physics' most famous trope not because it teaches superposition well, but because it is visually striking, was hijacked by pop culture as a shorthand for "unknown outcome," and had its original ironic, critical context stripped away over decades until science communicators began using the joke as if it were a genuine explanatory tool.
 source_title: "I have always found schrodinger cat a bad metaphor (Gemini conversation)"

@@ -4,7 +4,7 @@ conformant: true
 created: 2025-05-26T14:06:58+00:00
 definition: "The challenge of sustaining routines and consistent effort over time in the ADHD brain, where fluctuating motivation, energy and the need for novelty cause initial enthusiasm for a new system to fade before its long-term, compounding benefits can be realised."
 distinguishes_from: []
-modified: 2026-09-25T16:29:20+00:00
+modified: 2026-09-26T08:45:28+00:00
 permalink: llmeon/30-library/100-zettelkasten/consistency-and-momentum
 tags: [TheHuman/Health/ADHD]
 title: Consistency and Momentum

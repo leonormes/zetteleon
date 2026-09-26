@@ -5,7 +5,7 @@ created: 2026-09-19T15:24:06+00:00
 created_utc: 2026-09-19 00:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:33+00:00
+modified: 2026-09-26T08:45:38+00:00
 non_conformance_reason: ''
 permalink: llmeon/00-inbox/teslers-law-of-conservation-of-complexity-scoped
 proposition: Software has an inherent amount of complexity dictated by its problem domain that can be relocated between layers of a system but not eliminated by any single layer absorbing it.

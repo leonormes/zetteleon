@@ -3,7 +3,7 @@ aliases: [Gemini Guide, Gemini Workflow]
 conformant: true
 created: 2025-12-21T00:00:00+00:00
 last_reviewed: '2025-12-21'
-modified: 2026-09-19T15:45:20+00:00
+modified: 2026-09-26T08:46:15+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-gemini-cli-operations-workflow
 status: seed

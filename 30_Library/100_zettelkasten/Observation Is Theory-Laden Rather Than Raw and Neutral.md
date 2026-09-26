@@ -4,7 +4,7 @@ created: 2026-09-07T15:00:00+00:00
 created_utc: 2026-09-07T15:00:00+00:00
 definition: Theory-ladenness is the principle that scientific observations are not raw, neutral facts—instruments, concepts, calibration choices, and background assumptions all shape what counts as data.
 epistemic_status: high
-modified: 2026-09-25T16:29:28+00:00
+modified: 2026-09-26T08:45:34+00:00
 non_conformance_reason: "missing schema field distinguishes_from for type concept (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/observation-is-theory-laden-rather-than-raw-and-neutral
 source_title: "I want to learn more about the philosophy of science and how the scientific method works"

@@ -6,7 +6,7 @@ created_utc: 2026-07-13 08:17:00+00:00
 epistemic_status: high
 evidence_links: []
 kind: claim
-modified: 2026-09-25T16:29:21+00:00
+modified: 2026-09-26T08:45:29+00:00
 permalink: llmeon/00-inbox/dopamine-neurons-encode-reward-prediction-error-not-pleasure
 proposition: Midbrain dopamine neurons in the VTA and substantia nigra encode reward prediction error—the gap between received and predicted reward—not the hedonic experience of receiving a reward itself; a fully predicted reward produces no dopaminergic response.
 source_title: 'Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture: An Investigative Report'

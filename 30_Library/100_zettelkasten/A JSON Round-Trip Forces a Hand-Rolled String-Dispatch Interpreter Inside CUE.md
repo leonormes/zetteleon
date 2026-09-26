@@ -2,7 +2,7 @@
 conformant: true
 created: 2026-09-23T14:49:37+00:00
 created_utc: '2026-09-23T00:00:00Z'
-modified: 2026-09-25T16:29:15+00:00
+modified: 2026-09-26T08:45:25+00:00
 permalink: llmeon/00-inbox/a-json-round-trip-forces-a-hand-rolled-string-dispatch-interpreter-inside-cue
 source_title: Multi-customer Deployment Review, and an Assessment of CUE
 source_url: N/A — internal engineering assessment

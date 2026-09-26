@@ -1,7 +1,7 @@
 ---
 created: 2026-04-14T20:25:39+00:00
 created_utc: '2026-04-14T13:10:00Z'
-modified: 2026-09-19T15:45:09+00:00
+modified: 2026-09-26T08:46:05+00:00
 permalink: llmeon/30-library/400-indexes/link-report-entra-iam-remediation
 source_atoms: '[[tmp_atoms_entra_iam_remediation.md]]'
 status: seed

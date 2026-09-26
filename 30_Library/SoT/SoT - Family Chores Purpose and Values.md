@@ -1,7 +1,7 @@
 ---
 conformant: true
 created: 2026-07-20T12:52:00+00:00
-modified: 2026-09-19T15:45:19+00:00
+modified: 2026-09-26T08:46:16+00:00
 permalink: llmeon/30-library/so-t/so-t-family-chores-purpose-and-values
 tags: [chores, family, planning, purpose, values]
 title: SoT - Family Chores Purpose and Values

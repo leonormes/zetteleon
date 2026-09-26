@@ -4,7 +4,7 @@ created: 2025-11-06T19:53:03+00:00
 criteria: Notes must relate to the experience of an adult with ADHD in a professional remote software development context.
 exclusions: General ADHD information not specific to remote work or software development.
 last_reviewed: ''
-modified: 2026-09-25T16:29:30+00:00
+modified: 2026-09-26T08:45:36+00:00
 permalink: llmeon/30-library/100-zettelkasten/sn-sequence-a-deep-dive-into-adult-adhd-in-remote-software-development
 scope: The challenges, strengths, and strategies for remote software developers with ADHD.
 status: stale

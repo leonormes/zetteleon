@@ -4,7 +4,7 @@ conformant: true
 created: 2025-05-17T16:32:47+00:00
 definition: The Physical Layer is the first and lowest layer of the OSI model. It transmits raw bit streams over a physical medium, dealing with physical characteristics such as voltage levels, data rates, and physical connections.
 distinguishes_from: ["[[Layer 3 Network Security Protects IP Routing and Forwarding]]", "[[Layer 5 Session Layer]]", "[[Layer 6 Presentation Layer]]"]
-modified: 2026-09-25T16:29:26+00:00
+modified: 2026-09-26T08:45:33+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/layer-1-physical-layer
 tags: [SoftwareEngineering/Networking]

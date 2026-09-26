@@ -2,7 +2,7 @@
 aliases: [Six Levels of Awareness, Thinking vs Awareness]
 conformant: true
 created: 2025-12-14T00:00:00+00:00
-modified: 2026-09-19T15:45:25+00:00
+modified: 2026-09-26T08:46:21+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-six-levels-of-thinking
 tags: [awareness, mental_model, metacognition, TheHuman/Psychology]

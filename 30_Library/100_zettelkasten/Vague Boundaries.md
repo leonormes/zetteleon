@@ -4,7 +4,7 @@ conformant: true
 created: 2025-02-07T12:57:53+00:00
 definition: The absence of a single, principled cutoff point for categorising concepts that exist on a continuum or spectrum—inclusion in the category is a matter of degree rather than a sharp yes/no fact, though the mind still treats this as distinct from having no boundary at all.
 distinguishes_from: ["[[Discreteness as a Precondition for Counting]]", "[[The Continuum Thought Experiment]]"]
-modified: 2026-09-25T16:29:35+00:00
+modified: 2026-09-26T08:45:40+00:00
 permalink: llmeon/30-library/100-zettelkasten/vague-boundaries-1
 tags: [knowledge, TheHuman/Cognition/thinking]
 title: Vague Boundaries

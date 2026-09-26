@@ -4,7 +4,7 @@ conformant: true
 created: 2025-02-07T12:57:54+00:00
 ID: decision
 last_reviewed: ''
-modified: 2026-09-25T16:29:20+00:00
+modified: 2026-09-26T08:45:29+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/decision-making-fallacies
 tags: [decision-making, fallacy, type/moc]

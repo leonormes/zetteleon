@@ -3,7 +3,7 @@ aliases: []
 created: 2025-02-07T12:57:55+00:00
 ID: blub_studies
 last_reviewed: ''
-modified: 2026-09-25T16:29:18+00:00
+modified: 2026-09-26T08:45:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/blub-studies
 tags: [devex, mastery, topic/learning]
 title: Blub Studies

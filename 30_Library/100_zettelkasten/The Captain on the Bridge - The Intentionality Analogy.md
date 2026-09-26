@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-12-24T12:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:33+00:00
+modified: 2026-09-26T08:45:38+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-captain-on-the-bridge-the-intentionality-analogy
 proposition: "A person's capacity for self-direction can be modelled as a ship at sea, where habits function as an efficient but blind autopilot, goals are the fixed destinations, and intentionality is the captain who must actively set and hold the course—since without it, the autopilot alone will default to old, unexamined patterns."
 tags: [analogy, intentionality, mental-model]

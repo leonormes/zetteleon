@@ -3,7 +3,7 @@ aliases: [Outcomes are a Lagging Measure]
 conformant: false
 created: 2025-11-06T19:56:00+00:00
 epistemic_status: high
-modified: 2026-09-25T16:29:28+00:00
+modified: 2026-09-26T08:45:34+00:00
 non_conformance_reason: "missing required field - type"
 permalink: llmeon/30-library/100-zettelkasten/outcomes-are-a-lagging-measure-of-habits
 prodos.kind: claim

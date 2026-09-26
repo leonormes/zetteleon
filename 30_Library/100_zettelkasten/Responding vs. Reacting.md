@@ -4,7 +4,7 @@ conformant: false
 created: 2025-09-07T15:32:45+00:00
 definition: A response is a chosen action selected in the space between stimulus and behaviour; a reaction is an automatic discharge that closes that space.
 last_reviewed: ''
-modified: 2026-09-25T16:29:30+00:00
+modified: 2026-09-26T08:45:36+00:00
 non_conformance_reason: "missing schema field distinguishes_from for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/responding-vs.-reacting
 tags: [agency, emotional-regulation, mushin]

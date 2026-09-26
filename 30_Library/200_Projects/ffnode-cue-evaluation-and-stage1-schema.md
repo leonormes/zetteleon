@@ -1,6 +1,6 @@
 ---
 created: 2026-06-06T00:00:00+00:00
-modified: 2026-09-19T15:45:06+00:00
+modified: 2026-09-26T08:46:01+00:00
 permalink: llmeon/30-library/200-projects/ffnode-cue-evaluation-and-stage1-schema
 project_category: refined_deployment
 project_name: Refined Deployment

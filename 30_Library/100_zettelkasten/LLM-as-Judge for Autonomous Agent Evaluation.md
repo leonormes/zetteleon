@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:26+00:00
+modified: 2026-09-26T08:45:33+00:00
 permalink: llmeon/30-library/100-zettelkasten/llm-as-judge-for-autonomous-agent-evaluation
 proposition: Automated evaluation of agent success requires either ground truth labels (expensive) or LLM-as-judge frameworks (cheaper but less reliable). An LLM evaluator "reads the agent's output and user intent, then scores whether the task was accomplished." Deterministic scripts provide an alternative for well-defined objectives.
 tags: [domain/llm, topic/agent-architecture, topic/evaluation, topic/quality-gates]

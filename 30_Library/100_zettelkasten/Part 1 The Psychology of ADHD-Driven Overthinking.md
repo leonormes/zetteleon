@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-08-11T17:22:48+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:28+00:00
+modified: 2026-09-26T08:45:35+00:00
 permalink: llmeon/30-library/100-zettelkasten/part-1-the-psychology-of-adhd-driven-overthinking
 proposition: "ADHD-driven overthinking in technical work has an identifiable psychological structure: executive dysfunction (the root cause), working memory overload (holding multiple technical requirements at once), dopamine-seeking rabbit-holing (chasing novel information over implementing), and Rejection Sensitive Dysphoria (the fear of feedback that makes perfectionistic over-analysis feel safer than shipping)."
 tags: [executive-function, overthinking, TheHuman/Health/ADHD, topic/productivity]

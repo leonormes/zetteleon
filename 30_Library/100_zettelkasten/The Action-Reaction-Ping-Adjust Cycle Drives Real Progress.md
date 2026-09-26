@@ -2,7 +2,7 @@
 aliases: [Action-Reaction Cycle]
 created: 2025-07-17T10:07:00+00:00
 last_reviewed: 'null'
-modified: 2026-09-25T16:29:33+00:00
+modified: 2026-09-26T08:45:38+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-action-reaction-ping-adjust-cycle-drives-real-progress
 tags: [action, feedback-loop, strategy, topic/learning]
 title: The Action-Reaction-Ping-Adjust Cycle Drives Real Progress

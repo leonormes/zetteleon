@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-23T20:45:19+00:00
 last_reviewed: ''
-modified: 2026-09-25T16:29:20+00:00
+modified: 2026-09-26T08:45:28+00:00
 permalink: llmeon/30-library/100-zettelkasten/confirmation-as-a-perceived-shortcut-to-truth
 tags: [epistemology, heuristics, TheHuman/Psychology]
 title: Confirmation as a Perceived Shortcut to Truth

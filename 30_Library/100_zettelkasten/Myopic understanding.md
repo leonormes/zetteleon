@@ -2,7 +2,7 @@
 aliases: [Myopia and Abstraction, The Nature and Scope of Understanding]
 conformant: false
 created: 2025-07-26T16:23:39+00:00
-modified: 2026-09-25T16:29:27+00:00
+modified: 2026-09-26T08:45:34+00:00
 permalink: llmeon/30-library/100-zettelkasten/myopic-understanding-1
 tags: [abstraction, epistemology, TheHuman/Cognition, topic/understanding]
 title: Myopic Understanding

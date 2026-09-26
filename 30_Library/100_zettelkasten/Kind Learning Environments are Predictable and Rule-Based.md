@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-11-01T12:30:03+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:26+00:00
+modified: 2026-09-26T08:45:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/kind-learning-environments-are-predictable-and-rule-based
 proposition: "A 'kind' learning environment has consistent, predictable rules and immediate, accurate feedback, so repeated practice reliably converges on skill—the opposite of a 'wicked' environment, where the same repetition can entrench the wrong lessons."
 tags: [environment, learning, predictability]

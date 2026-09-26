@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-07-16T15:50:54+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:24+00:00
+modified: 2026-09-26T08:45:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/harris-claims-consciousness-is-divisible
 proposition: Harris argues that because a severed right hemisphere can process language and act independently, it is itself conscious, so consciousness can be split into separate centres of experience—though whether independent information-processing implies independent subjective experience is not settled science.
 source_title: Waking Up (Sam Harris) — reviewed LLM summary and critique

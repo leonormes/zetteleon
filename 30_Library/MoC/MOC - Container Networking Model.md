@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2025-10-24T15:00:00+00:00
-modified: 2026-09-19T15:45:11+00:00
+modified: 2026-09-26T08:46:07+00:00
 permalink: llmeon/30-library/mo-c/moc-container-networking-model
 tags: [k8s, kubernetes, SoftwareEngineering/Containers, SoftwareEngineering/Linux, SoftwareEngineering/Networking]
 title: MOC - Container Networking Model

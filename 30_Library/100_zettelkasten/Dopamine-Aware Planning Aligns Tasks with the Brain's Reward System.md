@@ -6,7 +6,7 @@ created: 2025-11-11T19:05:14+00:00
 epistemic_status: medium
 evidence_links: []
 last_reviewed: ''
-modified: 2026-09-25T16:29:21+00:00
+modified: 2026-09-26T08:45:29+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/dopamine-aware-planning-aligns-tasks-with-the-brains-reward-system
 proposition: Dopamine-aware planning structures work to cooperate with the natural reward system of the brain instead of fighting against it.

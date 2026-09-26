@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-31T09:53:00+00:00
 last_reviewed: ''
-modified: 2026-09-25T16:29:31+00:00
+modified: 2026-09-26T08:45:37+00:00
 permalink: llmeon/30-library/100-zettelkasten/slime-molds-exhibit-memory-like-behavior-without-a-nervous-system
 status: seed
 tags: [biology, memory, TheHuman/Cognition]

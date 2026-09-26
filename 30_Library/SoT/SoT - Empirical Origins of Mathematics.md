@@ -2,7 +2,7 @@
 conformant: true
 created: 2026-05-23T13:35:24+00:00
 last-synthesis: 2026-05-23
-modified: 2026-09-19T15:45:18+00:00
+modified: 2026-09-26T08:46:14+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-empirical-origins-of-mathematics
 source_of_truth: true

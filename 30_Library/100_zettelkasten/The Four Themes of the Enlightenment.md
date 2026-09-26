@@ -5,7 +5,7 @@ created_utc: '2026-09-25T17:30:00Z'
 definition: Reason, science, humanism and progress are the four themes that tie together
   the ideas of the Enlightenment.
 distinguishes_from: []
-modified: 2026-09-25T16:29:37+00:00
+modified: 2026-09-26T08:45:41+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-four-themes-of-the-enlightenment
 source_title: Enlightenment Now - the four ideals of the Enlightenment (NotebookLM
   summary, checked against the book)

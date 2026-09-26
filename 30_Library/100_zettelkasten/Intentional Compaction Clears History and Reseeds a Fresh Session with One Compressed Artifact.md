@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-07-28T10:27:27+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:25+00:00
+modified: 2026-09-26T08:45:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/intentional-compaction-clears-history-and-reseeds-a-fresh-session-with-one-compressed-artifact
 proposition: At a deliberate checkpoint in a long-running agentic task, an engineer can have the LLM distill everything relevant into a single artifact, then discard the conversation that produced it and open a brand new session with only that artifact as input, keeping the model in the reliable early segment of its context window.
 tags: [domain/llm, topic/context-management, topic/workflow-design]

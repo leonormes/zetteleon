@@ -2,7 +2,7 @@
 created: 2026-07-13T08:30:54+00:00
 created_utc: '2026-07-13T08:17:00Z'
 kind: claim
-modified: 2026-09-25T16:29:25+00:00
+modified: 2026-09-26T08:45:32+00:00
 permalink: llmeon/00-inbox/implementation-intentions-elevate-adhd-response-inhibition-toward-neurotypical-levels
 source_title: 'Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture: An Investigative Report'
 source_url: ''

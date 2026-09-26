@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-19T23:32:29+00:00
 last_reviewed: ''
-modified: 2026-09-25T16:29:29+00:00
+modified: 2026-09-26T08:45:35+00:00
 permalink: llmeon/30-library/100-zettelkasten/prime-numbers-create-a-mathematical-trapdoor
 tags: []
 title: Prime Numbers Create a Mathematical Trapdoor

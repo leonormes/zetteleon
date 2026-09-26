@@ -1,8 +1,8 @@
 ---
-aliases: [Evil MOC, Atrocity Paradigm Map]
+aliases: [Atrocity Paradigm Map, Evil MOC]
 conformant: true
 created: 2026-09-24T00:00:00+00:00
-modified: 2026-09-24T00:00:00+00:00
+modified: 2026-09-26T08:46:09+00:00
 permalink: llmeon/30-library/mo-c/moc-evil-and-atrocity
 scope: Analytical claims about what makes harm evil, how to tell it from wrongdoing or tragedy, and how ordinary people come to take part
 status: seed

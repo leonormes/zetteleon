@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-26T09:27:12+00:00
 last_reviewed: ''
-modified: 2026-09-25T16:29:26+00:00
+modified: 2026-09-26T08:45:33+00:00
 permalink: llmeon/30-library/100-zettelkasten/kolmogorov-complexity-information-as-compressibility
 tags: [information]
 title: Kolmogorov Complexity - Information as Compressibility

@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-05-10T00:07:18+00:00
 last_reviewed: 'null'
-modified: 2026-09-25T16:29:36+00:00
+modified: 2026-09-26T08:45:41+00:00
 permalink: llmeon/30-library/100-zettelkasten/zettelkasten-aint-easy
 tags: [TheHuman/Cognition/thinking, topic/pkm/zettelkasten]
 title: "Zettelkasten Ain't Easy"

@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T00:00:00+00:00
-modified: 2026-09-21T16:16:38+01:00
+modified: 2026-09-26T08:46:06+00:00
 permalink: llmeon/30-library/mo-c/moc-archery-shot-process
 tags: [archery, prodos/moc, sport, technique]
 title: MOC - Archery Shot Process
@@ -38,7 +38,7 @@ Focuses on expansion, extending the bow, triggering the release, and follow-thro
 
 ## Diagnostics & Troubleshooting
 
-- **The Three A's of Accuracy (Aim, Anchor, Alignment):** When diagnosing accuracy issues, check these three fundamentals sequentially. An arrow requires a front reference (Aim) and a rear reference (Anchor) to fly in a straight line, while proper form (Alignment) ensures you don't lose power or introduce unwanted angles. Check these three before obsessing over minor details.
+- The Three A's of Accuracy (Aim, Anchor, Alignment): When diagnosing accuracy issues, check these three fundamentals sequentially. An arrow requires a front reference (Aim) and a rear reference (Anchor) to fly in a straight line, while proper form (Alignment) ensures you don't lose power or introduce unwanted angles. Check these three before obsessing over minor details.
 
 ## Starter Materials & References
 

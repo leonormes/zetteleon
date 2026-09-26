@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:17+00:00
+modified: 2026-09-26T08:45:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/agentic-tool-calls-compound-context-growth-multiplicatively
 proposition: Agentic coding assistants cost far more than chatbots because each tool call (reading a file, running a search) dumps its full result into the context, and every subsequent reasoning step reprocesses that accumulated context. A handful of prompts and file reads can compound to millions of input tokens, even though the underlying task was small.
 tags: [domain/llm, topic/agent-architecture, topic/context-engineering, topic/cost-optimization, topic/tool-use]

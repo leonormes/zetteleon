@@ -1,7 +1,7 @@
 ---
 aliases: [AuthN MOC, Cloud Security Map, Identity Map]
 created: 2025-12-25T13:05:00+00:00
-modified: 2026-09-19T15:45:11+00:00
+modified: 2026-09-26T08:46:07+00:00
 permalink: llmeon/30-library/mo-c/moc-cloud-native-authentication
 tags: [authentication, map, SoftwareEngineering/Security, type/moc]
 title: MOC - Cloud-Native Authentication

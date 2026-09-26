@@ -6,7 +6,7 @@ contradicts: []
 created: 2025-11-01T09:51:13+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:18+00:00
+modified: 2026-09-26T08:45:27+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/bayesian-updating-adjusts-beliefs-as-new-evidence-arrives
 proposition: "Bayesian updating formalizes learning as iterative adjustment of beliefs, operationalizing open-mindedness without relativism."

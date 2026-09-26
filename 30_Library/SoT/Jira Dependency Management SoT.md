@@ -2,7 +2,7 @@
 conformant: true
 created: 2026-02-04T09:12:25+00:00
 last-synthesis: 2026-02-04
-modified: 2026-09-19T15:45:14+00:00
+modified: 2026-09-26T08:46:09+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/jira-dependency-management-so-t
 source_of_truth: true

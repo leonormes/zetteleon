@@ -3,7 +3,7 @@ aliases: [CoreDNS Configuration, Hybrid Cloud DNS, Protective DNS]
 conformant: true
 created: 2026-01-06T20:15:48+00:00
 last_reviewed: '2026-03-28'
-modified: 2026-09-19T15:45:18+00:00
+modified: 2026-09-26T08:46:13+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-dns-core-components-and-environments
 status: stable

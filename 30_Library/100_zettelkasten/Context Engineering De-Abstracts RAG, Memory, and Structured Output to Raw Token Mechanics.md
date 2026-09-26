@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:20+00:00
+modified: 2026-09-26T08:45:28+00:00
 permalink: llmeon/30-library/100-zettelkasten/context-engineering-de-abstracts-rag-memory-and-structured-output-to-raw-token-mechanics
 proposition: Context engineering is precisely structuring and managing the literal "tokens passed into and out of an LLM's context window. Framed this way, it de-abstracts" higher-level concepts like RAG, memory, and structured output back down to their fundamental token-in/token-out reality — these are all, mechanistically, just specific patterns of what tokens get placed into the context window and when, not separate systems operating by different underlying rules.
 tags: [domain/llm, topic/context-management, topic/terminology]

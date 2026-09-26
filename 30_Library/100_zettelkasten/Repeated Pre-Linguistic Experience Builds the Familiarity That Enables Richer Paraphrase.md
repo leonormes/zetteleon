@@ -6,7 +6,7 @@ contradicts: []
 created: 2026-09-15T00:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:30+00:00
+modified: 2026-09-26T08:45:36+00:00
 permalink: llmeon/30-library/100-zettelkasten/repeated-pre-linguistic-experience-builds-the-familiarity-that-enables-richer-paraphrase
 proposition: Repeated pre-linguistic experience of a concept builds familiarity with it, and that familiarity is what enables more varied and refined linguistic expression of the concept, creating a feedback loop between experience and expression.
 tags: [cognition, embodiment, language, paraphrasing, topic/philosophy, understanding]

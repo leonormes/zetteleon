@@ -5,7 +5,7 @@ created: 2026-09-21T08:54:40+00:00
 created_utc: '2026-09-21T08:54:40+00:00'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:28+00:00
+modified: 2026-09-26T08:45:34+00:00
 non_conformance_reason: ''
 permalink: llmeon/00-inbox/note-links-connect-representations-of-ideas-not-the-ideas-themselves
 proposition: A link between two notes joins representations of ideas, so linking on

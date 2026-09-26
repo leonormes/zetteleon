@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-05-26T14:09:19+00:00
 last_reviewed: ''
-modified: 2026-09-25T16:29:28+00:00
+modified: 2026-09-26T08:45:34+00:00
 permalink: llmeon/30-library/100-zettelkasten/overwhelm
 tags: []
 title: Overwhelm

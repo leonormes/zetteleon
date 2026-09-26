@@ -2,7 +2,7 @@
 aliases: [Open vs Closed Knowledge Systems, The Alchemy-Mathematics Contrast]
 conformant: true
 created: 2025-07-19T08:10:19+00:00
-modified: 2026-09-25T16:29:28+00:00
+modified: 2026-09-26T08:45:34+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/open-source-knowledge
 tags: [epistemology, history-of-science, knowledge, openness, topic/maths]

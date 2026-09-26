@@ -5,7 +5,7 @@ created: 2026-09-25T15:59:57+00:00
 created_utc: '2026-09-25T16:00:00Z'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:37+00:00
+modified: 2026-09-26T08:45:41+00:00
 permalink: llmeon/30-library/100-zettelkasten/each-of-four-tribes-in-the-new-pastures-parable-runs-its-land-by-a-different-rule
 proposition: In the Parable of the New Pastures four tribes each run their land by
   a different working rule, namely equal sheep per family, flock size by family size,

@@ -3,7 +3,7 @@ aliases: [Automated Privilege Management, GitOps PIM, JIT Access with IaC]
 conformant: true
 created: 2025-07-04T07:32:01+00:00
 last_reviewed: null
-modified: 2026-09-19T15:45:20+00:00
+modified: 2026-09-26T08:46:16+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-git-ops-for-privileged-identity-management
 status: stable

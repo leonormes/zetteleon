@@ -5,7 +5,7 @@ contradicts: ["[[Pragmatic Truth Focuses on Utility Over Absolute Correctness]]"
 created: 2025-11-01T12:10:08+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:35+00:00
+modified: 2026-09-26T08:45:39+00:00
 permalink: llmeon/30-library/100-zettelkasten/truth-is-a-necessary-condition-for-knowledge
 proposition: "Most epistemologists hold that truth is a necessary condition for knowledge: one cannot know something false. Even a belief that is strongly held and well-justified does not qualify as knowledge in the strict philosophical sense if it fails to correspond to reality, though it may still constitute personal or subjective understanding."
 tags: [epistemology, knowledge, TheHuman/Philosophy, truth]

@@ -1,27 +1,21 @@
 ---
-title: Clusters of Ideas in a Zettelkasten Are Suggestions Not Mandates
-type: claim
-status: seed
-tags:
-- clusters
-- lumps
-- writing
-- emergent-structure
-- zettelkasten
-- connection
 conformant: true
-created: 2026-09-26 10:30:00+00:00
-modified: 2026-09-26 10:30:00+00:00
-source_title: A System for Writing - Bob Doto
-source_url: calibre://view-book/GCcalibreBooks/1491/EPUB
+contradicts: []
+created: 2026-09-26T10:30:00+00:00
 created_utc: '2026-09-26T10:30:00Z'
-upstream: '[[The Atomicity Principle - One Idea Per Note]]'
-proposition: Areas of dense connection in a zettelkasten can guide a writer toward
-  ideas ready for expression, but they suggest and do not dictate what to write.
 epistemic_status: medium
 evidence_links: []
-contradicts: []
+modified: 2026-09-26T08:45:41+00:00
 permalink: llmeon/30-library/100-zettelkasten/clusters-of-ideas-in-a-zettelkasten-are-suggestions-not-mandates
+proposition: Areas of dense connection in a zettelkasten can guide a writer toward
+  ideas ready for expression, but they suggest and do not dictate what to write.
+source_title: A System for Writing - Bob Doto
+source_url: calibre://view-book/GCcalibreBooks/1491/EPUB
+status: seed
+tags: [clusters, connection, emergent-structure, lumps, writing, zettelkasten]
+title: Clusters of Ideas in a Zettelkasten Are Suggestions Not Mandates
+type: claim
+upstream: '[[The Atomicity Principle - One Idea Per Note]]'
 ---
 
 ## Clusters of Ideas in a Zettelkasten Are Suggestions Not Mandates

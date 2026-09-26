@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-07-28T10:35:28+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:29+00:00
+modified: 2026-09-26T08:45:35+00:00
 permalink: llmeon/30-library/100-zettelkasten/production-stage-behavioral-testing-and-fast-feedback-loops-are-the-engineering-discipline-ai-generated-code-demands
 proposition: Nondeterministic AI-generated code requires more engineering discipline, not less — but the specific discipline that matters most shifts toward production-stage validation rather than pre-ship code structure alone. Behavioral tests, characterization tests, capture/replay, traffic splitters, and observability become newly central because they validate what the system actually does, not just what its code looks like; and short, fast feedback loops — historically achieved by well under 10% of teams — are the cardinal, concrete sign that this discipline is present.
 tags: [domain/llm, topic/code-quality, topic/observability, topic/testing]

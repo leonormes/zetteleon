@@ -3,7 +3,7 @@ aliases: [file descriptor, socket handle]
 conformant: false
 created: 2025-10-31T13:40:00+00:00
 epistemic_status: high
-modified: 2026-09-25T16:29:22+00:00
+modified: 2026-09-26T08:45:30+00:00
 non_conformance_reason: "missing required field - type"
 permalink: llmeon/30-library/100-zettelkasten/file-descriptor-as-os-socket-handle
 prodos.kind: claim

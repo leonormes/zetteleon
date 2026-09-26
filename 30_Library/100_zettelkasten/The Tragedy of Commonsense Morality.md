@@ -6,7 +6,7 @@ definition: The Tragedy of Commonsense Morality is conflict between groups that 
   each moral internally, caused by incompatible visions of a moral society and not
   by selfishness.
 distinguishes_from: ["[[Me Versus Us]]"]
-modified: 2026-09-25T16:29:37+00:00
+modified: 2026-09-26T08:45:41+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-tragedy-of-commonsense-morality
 source_title: Moral Tribes - the Shared Pasture Parable (NotebookLM summary, checked
   against the book)

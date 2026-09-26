@@ -2,7 +2,7 @@
 aliases: [Regularly Review Your Routines]
 created: 2025-10-29T16:10:00+00:00
 last_reviewed: ''
-modified: 2026-09-25T16:29:30+00:00
+modified: 2026-09-26T08:45:36+00:00
 permalink: llmeon/30-library/100-zettelkasten/routines-must-be-reviewed-and-adjusted-regularly
 status: seed
 tags: [adaptability, continuous-improvement, routine]

@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-08-06T23:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:19+00:00
+modified: 2026-09-26T08:45:28+00:00
 permalink: llmeon/30-library/100-zettelkasten/claim-stripping-away-systems-under-weights-the-need-for-pre-committed-external-prosthetics
 proposition: Advice to strip away all systems and just act relies on in-the-moment willpower to break inertia, which is precisely the resource ADHD executive dysfunction depletes; the more reliable design pre-commits an external trigger — a launchpad, a visual timer, a checklist — before the moment of need, rather than asking a depleted internal executive function to perform on demand.
 tags: [executive-function, systems-engineering, TheHuman/Health/ADHD, topic/productivity]

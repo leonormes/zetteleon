@@ -5,7 +5,7 @@ created: 2026-09-25T16:22:40+00:00
 created_utc: '2026-09-25T17:30:00Z'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:37+00:00
+modified: 2026-09-26T08:45:41+00:00
 permalink: llmeon/30-library/100-zettelkasten/enlightenment-thinkers-rejected-faith-and-gut-feelings-as-generators-of-delusion
 proposition: Enlightenment thinkers insisted on applying the standard of reason and
   not falling back on generators of delusion such as faith, dogma, authority and gut

@@ -4,7 +4,7 @@ contradicts: []
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:34+00:00
+modified: 2026-09-26T08:45:39+00:00
 permalink: llmeon/30-library/100-zettelkasten/tool-use-and-deterministic-delegation-reduce-llm-hallucination-in-specific-domains
 proposition: For tasks where deterministic correctness is required (arithmetic, database queries, API calls), LLMs should delegate to external tools rather than generate answers. Tool use replaces probabilistic text generation with deterministic computation in domains where probabilism is dangerous.
 tags: [domain/llm, topic/delegation, topic/hallucination-mitigation, topic/mcp, topic/tools]

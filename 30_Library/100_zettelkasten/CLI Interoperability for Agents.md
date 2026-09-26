@@ -2,7 +2,7 @@
 created: 2026-04-13T14:35:19+00:00
 created_utc: 2026-04-13T11:00:00Z
 kind: heuristic
-modified: 2026-09-25T16:29:18+00:00
+modified: 2026-09-26T08:45:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/cli-interoperability-for-agents
 source_title: The Agent-First Workflow
 source_url: https://gemini.google.com/app/3efdb3bd475edbb1

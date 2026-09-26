@@ -6,7 +6,7 @@ created: 2025-06-25T20:14:33+00:00
 epistemic_status: low
 evidence_links: []
 last_reviewed: 'null'
-modified: 2026-09-25T16:29:16+00:00
+modified: 2026-09-26T08:45:25+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/adhd-brain-wiring-vs.-classic-productivity-systems
 proposition: Classic linear productivity systems such as GTD conflict with the interest-driven, non-linear processing style of an ADHD brain, because a long list of granular actions removes the context, momentum and discovery that fuel hyperfocus.

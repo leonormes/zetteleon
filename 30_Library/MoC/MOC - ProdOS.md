@@ -2,7 +2,7 @@
 aliases: [ProdOS Index, Start Here]
 conformant: true
 created: 2025-12-04T14:38:32+00:00
-modified: 2026-09-19T15:45:12+00:00
+modified: 2026-09-26T08:46:08+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/mo-c/moc-prod-os
 tags: [moc, prodos, SoftwareEngineering/Architecture]

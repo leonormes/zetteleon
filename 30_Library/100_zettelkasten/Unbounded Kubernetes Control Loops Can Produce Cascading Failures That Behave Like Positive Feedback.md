@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-09-24T12:00:00+00:00
 epistemic_status: low
 evidence_links: []
-modified: 2026-09-25T16:29:36+00:00
+modified: 2026-09-26T08:45:41+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/unbounded-kubernetes-control-loops-can-produce-cascading-failures-that-behave-like-positive-feedback
 prodos.atomic.form: failure_mode

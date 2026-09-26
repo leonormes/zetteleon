@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-09-18T00:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:17+00:00
+modified: 2026-09-26T08:45:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/accuracy-and-precision-are-independent-concepts
 proposition: Accuracy—how close a measurement is to the true value—and precision—how consistent repeated measurements are with each other—are independent properties of a measurement process; a measurement can have one without the other, so improving precision does not automatically improve accuracy, or vice versa.
 tags: [foundations, measurement, science, topic/philosophy]

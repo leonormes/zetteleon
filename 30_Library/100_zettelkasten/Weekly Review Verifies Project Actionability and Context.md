@@ -3,7 +3,7 @@ aliases: []
 conformant: true
 created: 2025-11-10T15:19:00+00:00
 last_reviewed: ''
-modified: 2026-09-25T16:29:35+00:00
+modified: 2026-09-26T08:45:40+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/weekly-review-verifies-project-actionability-and-context
 status: seed

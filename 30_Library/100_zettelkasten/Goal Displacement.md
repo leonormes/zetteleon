@@ -4,7 +4,7 @@ conformant: true
 created: 2026-09-20T00:00:00+00:00
 definition: "Goal displacement occurs when the original terminal goal of an activity is quietly replaced by conformity to the rules, procedures, or credentials that were originally only instrumental means toward it — the means become the end in themselves, and success gets measured by adherence to the proxy rather than by the underlying outcome it was meant to serve."
 distinguishes_from: ["[[Commitment, Consistency, and Sunk Cost Fallacy]]"]
-modified: 2026-09-25T16:29:23+00:00
+modified: 2026-09-26T08:45:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/goal-displacement
 tags: [TheHuman/Cognition/bias, TheHuman/Motivation, TheHuman/Psychology]
 title: Goal Displacement

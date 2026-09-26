@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-08-01T00:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:20+00:00
+modified: 2026-09-26T08:45:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/creativity-is-thinking-of-novel-and-productive-ways-to-do-things
 prodos.kind: atomic
 prodos.lifecycle: seedling

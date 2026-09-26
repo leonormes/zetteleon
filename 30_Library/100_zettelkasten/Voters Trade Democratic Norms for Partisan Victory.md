@@ -5,7 +5,7 @@ created: 2026-09-17T11:34:07+00:00
 created_utc: '2026-09-17T00:00:00Z'
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:35+00:00
+modified: 2026-09-26T08:45:40+00:00
 permalink: llmeon/00-inbox/voters-trade-democratic-norms-for-partisan-victory
 proposition: A significant portion of the electorate will knowingly choose a candidate who shares their partisan goals but behaves dishonestly or undemocratically over an opposing candidate who is honest and adheres to democratic norms, and this trade-off intensifies as affective polarization rises.
 source_title: Political Contrast Effect Research

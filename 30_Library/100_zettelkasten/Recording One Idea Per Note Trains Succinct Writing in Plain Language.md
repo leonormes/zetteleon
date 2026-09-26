@@ -1,27 +1,21 @@
 ---
-title: Recording One Idea Per Note Trains Succinct Writing in Plain Language
-type: claim
-status: seed
-tags:
-- single-idea
-- succinct-writing
-- plain-language
-- writing-habit
-- zettelkasten
-- note-structure
 conformant: true
-created: 2026-09-26 10:30:00+00:00
-modified: 2026-09-26 10:30:00+00:00
-source_title: How to Make Notes and Write - Dan Allosso
-source_url: calibre://view-book/GCcalibreBooks/708/EPUB
+contradicts: []
+created: 2026-09-26T10:30:00+00:00
 created_utc: '2026-09-26T10:30:00Z'
-upstream: '[[The Atomicity Principle - One Idea Per Note]]'
-proposition: The habit of recording one idea per note trains a writer to express ideas
-  succinctly and in plain language.
 epistemic_status: medium
 evidence_links: []
-contradicts: []
+modified: 2026-09-26T08:45:41+00:00
 permalink: llmeon/30-library/100-zettelkasten/recording-one-idea-per-note-trains-succinct-writing-in-plain-language
+proposition: The habit of recording one idea per note trains a writer to express ideas
+  succinctly and in plain language.
+source_title: How to Make Notes and Write - Dan Allosso
+source_url: calibre://view-book/GCcalibreBooks/708/EPUB
+status: seed
+tags: [note-structure, plain-language, single-idea, succinct-writing, writing-habit, zettelkasten]
+title: Recording One Idea Per Note Trains Succinct Writing in Plain Language
+type: claim
+upstream: '[[The Atomicity Principle - One Idea Per Note]]'
 ---
 
 ## Recording One Idea Per Note Trains Succinct Writing in Plain Language

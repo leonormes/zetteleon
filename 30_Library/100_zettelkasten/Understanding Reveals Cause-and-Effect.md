@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-07-26T19:02:37+00:00
 epistemic_status: medium
 evidence_links: ["[[Evidence - Covey Says Doing More Faster Fails to Reach the Chronic Causes Behind a Problem]]", "[[Evidence - Deutsch Says Theories Are Explanations Not Merely Predictions]]"]
-modified: 2026-09-25T16:29:37+00:00
+modified: 2026-09-26T08:45:41+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/understanding-reveals-cause-and-effect
 proposition: Beyond prediction, deeper understanding lets you identify the cause-and-effect relationships between phenomena, and that insight is crucial for problem-solving and for understanding systems.

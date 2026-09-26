@@ -2,7 +2,7 @@
 aliases: [Monomorphization, Rust ADTs, Rust Generics, Rust Traits, Rust Type System]
 conformant: true
 created: 2025-12-27T20:28:33+00:00
-modified: 2026-09-19T15:45:25+00:00
+modified: 2026-09-26T08:46:21+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-rust-type-mechanics
 tags: [compilers, rust, SoftwareEngineering/Architecture, type-system]

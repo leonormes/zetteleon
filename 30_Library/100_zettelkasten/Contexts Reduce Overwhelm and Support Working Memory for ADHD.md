@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-11-10T15:06:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:20+00:00
+modified: 2026-09-26T08:45:28+00:00
 permalink: llmeon/30-library/100-zettelkasten/contexts-reduce-overwhelm-and-support-working-memory-for-adhd
 proposition: "For ADHD, GTD-style context tags (e.g. @low_energy, @email) reduce overwhelm by filtering a full task list down to only the actions currently relevant and doable, support working memory by externalising each task's context requirements, and enable opportunistic action by matching tasks to the current environment or energy state."
 tags: [action, context, executive-function, TheHuman/Health/ADHD, topic/productivity]

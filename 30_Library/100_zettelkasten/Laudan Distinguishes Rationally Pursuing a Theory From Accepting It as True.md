@@ -6,7 +6,7 @@ created_utc: 2026-09-09 00:00:00+00:00
 definition: Laudan's distinction, within his "research traditions" refinement of Lakatos, that a scientist can rationally pursue an exploratory theory to see if it bears fruit without actually accepting it as true.
 distinguishes_from: []
 epistemic_status: high
-modified: 2026-09-25T16:29:26+00:00
+modified: 2026-09-26T08:45:33+00:00
 permalink: llmeon/00-inbox/laudan-distinguishes-rationally-pursuing-a-theory-from-accepting-it-as-true
 source_title: "Philosophy of science: alternative positions beyond Deutsch vs Godfrey-Smith"
 source_url: UNKNOWN

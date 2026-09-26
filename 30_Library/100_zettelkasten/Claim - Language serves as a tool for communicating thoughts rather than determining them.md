@@ -4,7 +4,7 @@ contradicts: []
 created: 2026-08-13T10:02:15+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:19+00:00
+modified: 2026-09-26T08:45:28+00:00
 permalink: llmeon/30-library/100-zettelkasten/claim-language-serves-as-a-tool-for-communicating-thoughts-rather-than-determining-them
 prodos.kind: atomic
 prodos.lifecycle: seed

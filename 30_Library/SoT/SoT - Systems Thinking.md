@@ -2,7 +2,7 @@
 aliases: [Feedback Loops, Holistic Thinking, Systems Dynamics]
 conformant: true
 created: 2025-12-12T00:00:00+00:00
-modified: 2026-09-19T15:45:25+00:00
+modified: 2026-09-26T08:46:21+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-systems-thinking
 tags: [complexity, mental_models, thinking, topic/systems]

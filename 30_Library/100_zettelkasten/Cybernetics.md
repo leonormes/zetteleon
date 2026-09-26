@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-05-04T08:01:26+00:00
 epistemic_status: high
 evidence_links: ["[[Evidence - Gleick on Wiener Frames Cybernetics as Negative Feedback Control Where Information Is the Key]]"]
-modified: 2026-09-25T16:29:20+00:00
+modified: 2026-09-26T08:45:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/7-cybernetics-1
 prodos.kind: atomic
 prodos.lifecycle: stable

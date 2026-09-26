@@ -2,7 +2,7 @@
 aliases: []
 conformant: true
 created: 2026-09-24T00:00:00+00:00
-modified: 2026-09-25T16:29:36+00:00
+modified: 2026-09-26T08:45:41+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/evidence-gleick-on-wiener-frames-cybernetics-as-negative-feedback-control-where-information-is-the-key
 source_quote: But when feedback is negative---as in the original mechanical governor

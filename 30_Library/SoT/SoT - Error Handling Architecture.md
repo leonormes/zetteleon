@@ -3,7 +3,7 @@ aliases: [Designing Errors, Error Design, The Error Handling Protocol]
 conformant: true
 created: 2026-01-06T19:00:03+00:00
 last_reviewed: null
-modified: 2026-09-19T15:45:18+00:00
+modified: 2026-09-26T08:46:14+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-error-handling-architecture
 status: stable

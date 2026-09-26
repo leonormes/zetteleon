@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-08-02T23:00:00+00:00
 epistemic_status: high
 evidence_links: ['[[Evidence - Mass Literacy Sustained Working-Class Intellectual Traditions Outside Academia]]']
-modified: 2026-09-25T16:29:24+00:00
+modified: 2026-09-26T08:45:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/higher-education-holds-no-monopoly-on-intellectual-life
 proposition: The contraction of university humanities departments is evidence about an institution, not about intellectual life, which requires only curiosity, time and access to material — none of which the university controls.
 tags: [autodidacticism, history, TheHuman/Philosophy, topic/education]

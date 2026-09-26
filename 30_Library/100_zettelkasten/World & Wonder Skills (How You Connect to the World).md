@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-07-10T10:12:15+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:36+00:00
+modified: 2026-09-26T08:45:40+00:00
 permalink: llmeon/30-library/100-zettelkasten/world-wonder-skills-how-you-connect-to-the-world
 prodos.kind: atomic
 prodos.lifecycle: stable

@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-11-10T14:17:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:35+00:00
+modified: 2026-09-26T08:45:40+00:00
 permalink: llmeon/30-library/100-zettelkasten/visual-schedules-help-children-understand-routines-and-manage-transitions
 proposition: Visual schedules are highly effective tools for helping children, particularly younger or neurodivergent children, understand daily routines, anticipate upcoming activities, and manage transitions between tasks.
 tags: [autism, family, organization, parenting, TheHuman/Health/ADHD, tools]

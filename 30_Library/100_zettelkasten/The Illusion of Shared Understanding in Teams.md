@@ -6,7 +6,7 @@ created: 2025-08-29T15:18:49+00:00
 epistemic_status: medium
 evidence_links: ["[[Evidence - Evans DDD Meanings of Words Are Slippery Because All Language Rests on a Model]]", "[[Evidence - Evans DDD Reference Domain Experts and Developers Use Different Languages in the Same Team]]"]
 last_reviewed: ''
-modified: 2026-09-25T16:29:33+00:00
+modified: 2026-09-26T08:45:38+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/the-illusion-of-shared-understanding-in-teams
 proposition: Team members who share terminology often assume they share a mental model when their individual models differ, and the mismatch surfaces only during a crisis.

@@ -2,7 +2,7 @@
 conformant: false
 created: 2026-09-13T09:33:33+00:00
 created_utc: '2026-09-13T00:00:00Z'
-modified: 2026-09-25T16:29:32+00:00
+modified: 2026-09-26T08:45:38+00:00
 non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true)"
 permalink: llmeon/00-inbox/swellers-three-cognitive-load-types-must-be-balanced-in-any-knowledge-system
 source_title: A Portable Interest and PKM Knowledge Graph

@@ -5,7 +5,7 @@ created: 2026-09-01T16:18:56+00:00
 created_utc: '2026-09-01T16:18:54.888265+00:00'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:27+00:00
+modified: 2026-09-26T08:45:33+00:00
 permalink: llmeon/00-inbox/maximize-vertical-real-estate-over-decorative-space
 proposition: When floor space reaches capacity, replace passive decorative items with modular vertical storage systems.
 source_title: The 7 rules of organization

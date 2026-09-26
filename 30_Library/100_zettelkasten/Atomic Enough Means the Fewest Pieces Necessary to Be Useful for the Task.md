@@ -1,27 +1,21 @@
 ---
-title: Atomic Enough Means the Fewest Pieces Necessary to Be Useful for the Task
-type: claim
-status: seed
-tags:
-- atomicity
-- atomic-enough
-- heuristic
-- granularity
-- zettelkasten
-- note-structure
 conformant: true
-created: 2026-09-26 10:30:00+00:00
-modified: 2026-09-26 10:30:00+00:00
-source_title: A System for Writing - Bob Doto
-source_url: calibre://view-book/GCcalibreBooks/1491/EPUB
+contradicts: []
+created: 2026-09-26T10:30:00+00:00
 created_utc: '2026-09-26T10:30:00Z'
-upstream: '[[The Atomicity Principle - One Idea Per Note]]'
-proposition: A note is atomic enough when it holds the fewest pieces necessary to
-  be useful for its task, and the right level of atomicity is personal.
 epistemic_status: medium
 evidence_links: []
-contradicts: []
+modified: 2026-09-26T08:45:41+00:00
 permalink: llmeon/30-library/100-zettelkasten/atomic-enough-means-the-fewest-pieces-necessary-to-be-useful-for-the-task
+proposition: A note is atomic enough when it holds the fewest pieces necessary to
+  be useful for its task, and the right level of atomicity is personal.
+source_title: A System for Writing - Bob Doto
+source_url: calibre://view-book/GCcalibreBooks/1491/EPUB
+status: seed
+tags: [atomic-enough, atomicity, granularity, heuristic, note-structure, zettelkasten]
+title: Atomic Enough Means the Fewest Pieces Necessary to Be Useful for the Task
+type: claim
+upstream: '[[The Atomicity Principle - One Idea Per Note]]'
 ---
 
 ## Atomic Enough Means the Fewest Pieces Necessary to Be Useful for the Task

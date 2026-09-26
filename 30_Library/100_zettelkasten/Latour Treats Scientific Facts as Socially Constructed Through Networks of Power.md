@@ -6,7 +6,7 @@ created: 2026-09-09T00:00:00+00:00
 created_utc: 2026-09-09 00:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:26+00:00
+modified: 2026-09-26T08:45:33+00:00
 permalink: llmeon/00-inbox/latour-treats-scientific-facts-as-socially-constructed-through-networks-of-power
 proposition: 'Latour argued that empirical "truth" is often just a resource scientists use in debates to gain status, and that scientific facts are socially constructed through networks of power and cooperation.'
 source_title: "Philosophy of science: alternative positions beyond Deutsch vs Godfrey-Smith"

@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-24T15:22:00+00:00
 last_reviewed: '2026-04-08'
-modified: 2026-09-25T16:29:25+00:00
+modified: 2026-09-26T08:45:32+00:00
 permalink: llmeon/30-library/200-projects/insight-networking-is-data-labeling-not-wires
 project_category: infrastructure
 project_name: Networking

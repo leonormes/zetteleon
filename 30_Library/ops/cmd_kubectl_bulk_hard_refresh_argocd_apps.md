@@ -2,7 +2,7 @@
 created: 2026-02-22T16:53:28+00:00
 hop_level: local
 last_verified: 2026-02-22
-modified: 2026-09-19T15:45:33+00:00
+modified: 2026-09-26T08:46:30+00:00
 permalink: llmeon/30-library/ops/cmd-kubectl-bulk-hard-refresh-argocd-apps
 requires_tunnel: false
 tags: [argocd, cache, cmd, debug, refresh]

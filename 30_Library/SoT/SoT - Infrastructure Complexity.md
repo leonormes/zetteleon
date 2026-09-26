@@ -2,7 +2,7 @@
 conformant: true
 created: 2026-02-06T14:30:00+00:00
 last-synthesis: 2026-04-05
-modified: 2026-09-23T15:15:07+00:00
+modified: 2026-09-26T08:46:16+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-infrastructure-complexity
 source_of_truth: true
@@ -14,7 +14,7 @@ type: sot
 
 ## Minimum Viable Understanding (MVU)
 
-Infrastructure complexity is either essential (inherent to the problem — two systems must agree on a shared name or secret) or accidental (self-inflicted by string-oriented tooling that defers validation to runtime). The practical answer is not to eliminate complexity but to relocate it deliberately: out of imperative code and into typed data, out of a single tool doing everything and into a clean API boundary between tools, and — where fragility is highest — out of runtime string-matching and into compile-time constraint unification.
+Infrastructure complexity is either essential (inherent to the problem—two systems must agree on a shared name or secret) or accidental (self-inflicted by string-oriented tooling that defers validation to runtime). The practical answer is not to eliminate complexity but to relocate it deliberately: out of imperative code and into typed data, out of a single tool doing everything and into a clean API boundary between tools, and—where fragility is highest—out of runtime string-matching and into compile-time constraint unification.
 
 ---
 

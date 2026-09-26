@@ -7,7 +7,7 @@ criteria: [Cognitive Load, Definition, Demonstration]
 epistemic_status: medium
 evidence_links: ["[[Evidence - Ultralearning Chess Experts Rely on Stored Patterns Where Beginners Remember Piece by Piece]]"]
 last_reviewed: ''
-modified: 2026-09-25T16:29:20+00:00
+modified: 2026-09-26T08:45:28+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/comparison-knowing-vs-understanding
 proposition: Understanding constructs mental models that integrate knowledge into actionable frameworks, whereas knowing merely accumulates facts.

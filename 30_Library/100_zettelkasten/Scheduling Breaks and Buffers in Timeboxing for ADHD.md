@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-06-25T20:14:33+00:00
 last_reviewed: 'null'
-modified: 2026-09-25T16:29:30+00:00
+modified: 2026-09-26T08:45:36+00:00
 permalink: llmeon/30-library/100-zettelkasten/scheduling-breaks-and-buffers-in-timeboxing-for-adhd
 tags: [TheHuman/Health/ADHD]
 title: Scheduling Breaks and Buffers in Timeboxing for ADHD

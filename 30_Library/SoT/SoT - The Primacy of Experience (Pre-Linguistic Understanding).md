@@ -2,7 +2,7 @@
 aliases: [Action-First Cognition, Embodied Understanding, Experiential Grounding, Language as a Tool, Pre-Linguistic Cognition, Pre-Linguistic Understanding, Primacy of Experience]
 conformant: true
 created: 2026-01-02T15:00:00+00:00
-modified: 2026-09-19T15:45:27+00:00
+modified: 2026-09-26T08:46:23+00:00
 permalink: llmeon/30-library/so-t/so-t-the-primacy-of-experience-pre-linguistic-understanding
 source_of_truth: true
 tags: [ai, cognition, cognitive_science, education, embodiment, language, linguistics, TheHuman/Philosophy, understanding]

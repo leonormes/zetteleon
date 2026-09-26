@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-05-08T06:57:07+00:00
 last_reviewed: ''
-modified: 2026-09-25T16:29:32+00:00
+modified: 2026-09-26T08:45:38+00:00
 permalink: llmeon/30-library/100-zettelkasten/sunk-cost-fallacy
 tags: [fallacy]
 title: Sunk Cost Fallacy

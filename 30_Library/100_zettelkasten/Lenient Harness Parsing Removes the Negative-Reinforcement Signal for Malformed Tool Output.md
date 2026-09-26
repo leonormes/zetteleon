@@ -2,7 +2,7 @@
 conformant: false
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: medium
-modified: 2026-09-25T16:29:26+00:00
+modified: 2026-09-26T08:45:33+00:00
 non_conformance_reason: "missing required field - type"
 permalink: llmeon/30-library/100-zettelkasten/lenient-harness-parsing-removes-the-negative-reinforcement-signal-for-malformed-tool-output
 prodos.kind: claim

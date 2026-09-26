@@ -4,7 +4,7 @@ conformant: true
 created: 2025-12-04T12:00:00+00:00
 definition: "The third writing stage of the Unified Writing to Think process, focusing on active reflection and deep understanding."
 distinguishes_from: ["[[Stage 2 Clarify (The On Writing Well Layer)]]", "[[Stage 4 Connect (The Zettelkasten Layer)]]"]
-modified: 2026-09-25T16:29:31+00:00
+modified: 2026-09-26T08:45:37+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/stage-3
 tags: [cognition, pkm, writing]

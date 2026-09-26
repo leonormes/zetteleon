@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-11-01T09:51:13+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:34+00:00
+modified: 2026-09-26T08:45:39+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-self-is-constructed-through-curation-of-influences
 prodos.kind: atomic
 prodos.lifecycle: stable

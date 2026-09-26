@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-11-01T12:30:05+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:27+00:00
+modified: 2026-09-26T08:45:34+00:00
 permalink: llmeon/30-library/100-zettelkasten/modern-work-environments-are-typically-wicked
 proposition: "Most contemporary professional settings are 'wicked' learning environments—dynamic, unpredictable, and slow to give clear feedback—which makes early, narrow specialization less effective than flexibility and breadth of experience."
 tags: [adaptability, environment, work]

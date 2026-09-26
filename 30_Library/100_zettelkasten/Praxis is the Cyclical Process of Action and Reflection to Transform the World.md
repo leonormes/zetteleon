@@ -6,7 +6,7 @@ contradicts: []
 created: 2025-11-12T14:10:03+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:29+00:00
+modified: 2026-09-26T08:45:35+00:00
 permalink: llmeon/30-library/100-zettelkasten/praxis-is-the-cyclical-process-of-action-and-reflection-to-transform-the-world
 proposition: "Praxis, as developed by thinkers like Paulo Freire and Hannah Arendt, is the cyclical, intertwined process of reflection and action upon the world in order to transform it: theory and practice are not separate, but a continuous loop where action informs reflection, which builds theory that guides further, more informed action — studying the world without acting on it is insufficient."
 tags: [action, TheHuman/Philosophy, theory]

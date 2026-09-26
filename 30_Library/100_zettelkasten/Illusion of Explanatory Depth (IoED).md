@@ -4,7 +4,7 @@ contradicts: []
 created: 2026-05-04T08:01:26+00:00
 epistemic_status: low
 evidence_links: []
-modified: 2026-09-25T16:29:25+00:00
+modified: 2026-09-26T08:45:32+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/illusion-of-explanatory-depth-io-ed
 proposition: People overestimate their understanding of concepts because they judge it by signals such as familiarity, recognition and fluency rather than by direct assessment.

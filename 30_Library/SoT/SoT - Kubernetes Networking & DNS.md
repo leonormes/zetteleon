@@ -2,7 +2,7 @@
 aliases: [Cluster Networking, K8s Networking, Pod Networking]
 conformant: true
 created: 2025-12-16T13:52:08+00:00
-modified: 2026-09-19T15:45:22+00:00
+modified: 2026-09-26T08:46:17+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-kubernetes-networking-dns
 tags: [cni, kubernetes, service_discovery, SoftwareEngineering/Networking, SoftwareEngineering/networking/dns]

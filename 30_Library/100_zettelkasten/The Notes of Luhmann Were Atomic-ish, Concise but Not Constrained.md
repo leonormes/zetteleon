@@ -1,27 +1,21 @@
 ---
-title: The Notes of Luhmann Were Atomic-ish, Concise but Not Constrained
-type: claim
-status: seed
-tags:
-- atomicity
-- luhmann
-- atomic-ish
-- history
-- zettelkasten
-- note-structure
 conformant: true
-created: 2026-09-26 10:30:00+00:00
-modified: 2026-09-26 10:30:00+00:00
-source_title: A System for Writing - Bob Doto
-source_url: calibre://view-book/GCcalibreBooks/1491/EPUB
+contradicts: []
+created: 2026-09-26T10:30:00+00:00
 created_utc: '2026-09-26T10:30:00Z'
-upstream: '[[The Atomicity Principle - One Idea Per Note]]'
-proposition: The notes of Niklas Luhmann were not strictly atomic, and were concise
-  without being constrained.
 epistemic_status: medium
 evidence_links: []
-contradicts: []
+modified: 2026-09-26T08:45:41+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-notes-of-luhmann-were-atomic-ish-concise-but-not-constrained
+proposition: The notes of Niklas Luhmann were not strictly atomic, and were concise
+  without being constrained.
+source_title: A System for Writing - Bob Doto
+source_url: calibre://view-book/GCcalibreBooks/1491/EPUB
+status: seed
+tags: [atomic-ish, atomicity, history, luhmann, note-structure, zettelkasten]
+title: The Notes of Luhmann Were Atomic-ish, Concise but Not Constrained
+type: claim
+upstream: '[[The Atomicity Principle - One Idea Per Note]]'
 ---
 
 ## The Notes of Luhmann Were Atomic-ish, Concise but Not Constrained

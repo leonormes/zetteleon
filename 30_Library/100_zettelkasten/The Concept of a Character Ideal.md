@@ -2,7 +2,7 @@
 aliases: [Character Ideal, Virtue Ethics]
 created: 2025-07-16T17:30:02+00:00
 last_reviewed: 'null'
-modified: 2026-09-25T16:29:33+00:00
+modified: 2026-09-26T08:45:38+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-concept-of-a-character-ideal
 tags: [character, ethics, topic/philosophy, virtue]
 title: The Concept of a Character Ideal

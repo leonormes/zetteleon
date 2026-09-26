@@ -6,7 +6,7 @@ created_utc: '2026-04-14T12:20:00Z'
 epistemic_status: medium
 evidence_links: []
 kind: constraint
-modified: 2026-09-25T16:29:18+00:00
+modified: 2026-09-26T08:45:27+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/byzantine-fault-tolerance-requirements
 proposition: Tolerating n arbitrary or malicious node failures needs at least 3n + 1 nodes with standard communication, or 2n + 1 when digital signatures prevent message forgery.

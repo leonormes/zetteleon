@@ -2,7 +2,7 @@
 aliases: []
 conformant: true
 created: 2026-09-25T00:00:00+00:00
-modified: 2026-09-25T16:29:36+00:00
+modified: 2026-09-26T08:45:41+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/evidence-covey-says-doing-more-faster-fails-to-reach-the-chronic-causes-behind-a-problem
 source_quote: Simply doing more faster fails to get at the chronic causes, the underlying

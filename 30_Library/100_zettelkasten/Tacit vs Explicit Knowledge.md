@@ -5,7 +5,7 @@ created: 2025-08-29T15:20:43+00:00
 definition: A distinction between explicit knowledge, which a team has written down and agreed on and which sits like the visible tip of an iceberg, and tacit knowledge, which lives in individual instincts, unstated assumptions and private mental models and forms the hidden bulk.
 distinguishes_from: ["[[Comparison - Knowing vs Understanding]]", "[[Types of Non-Linguistic Knowledge]]"]
 last_reviewed: 'null'
-modified: 2026-09-25T16:29:33+00:00
+modified: 2026-09-26T08:45:38+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/tacit-vs-explicit-knowledge
 tags: [teams, TheHuman/Cognition/mental-model, topic/knowledge-management]

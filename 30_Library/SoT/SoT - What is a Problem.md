@@ -2,7 +2,7 @@
 aliases: [Problem Definition, The Problem Concept, What is a Problem]
 conformant: true
 created: 2025-12-07T00:00:00+00:00
-modified: 2026-09-19T15:45:28+00:00
+modified: 2026-09-26T08:46:25+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-what-is-a-problem
 tags: [definition, logic, mental_model, problem_solving, topic/systems]

@@ -4,7 +4,7 @@ contradicts: []
 created: 2026-09-14T11:39:28+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:18+00:00
+modified: 2026-09-26T08:45:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/binary-person-judgement-is-a-cognitive-default-not-a-character-flaw
 prodos.kind: atomic
 prodos.lifecycle: seed

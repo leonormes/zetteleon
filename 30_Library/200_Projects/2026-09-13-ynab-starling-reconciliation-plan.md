@@ -1,6 +1,6 @@
 ---
 created: 2026-09-13T11:38:15+00:00
-modified: 2026-09-19T15:44:50+00:00
+modified: 2026-09-26T08:45:42+00:00
 permalink: llmeon/30-library/200-projects/2026-09-13-ynab-starling-reconciliation-plan
 project_category: finance
 project_name: YNAB / Starling Reconciliation

@@ -3,7 +3,7 @@ aliases: [Human Cognitive Architecture, Human vs AI Cognition, The Brain Is Not 
 conformant: true
 created: 2026-01-30T14:30:00+00:00
 last-synthesis: 2026-01-30
-modified: 2026-09-19T15:45:21+00:00
+modified: 2026-09-26T08:46:16+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-human-vs-ai-cognition
 source_of_truth: true

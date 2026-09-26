@@ -3,7 +3,7 @@ aliases: [dockercontainer]
 author: Ivan Velichko
 conformant: true
 created: 2026-05-02T06:54:32+00:00
-modified: 2026-09-21T11:44:36+00:00
+modified: 2026-09-26T08:45:57+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/200-projects/dockercontainer
 project_category: infrastructure

@@ -1,6 +1,6 @@
 ---
 created: 2026-04-08T14:02:05+00:00
-modified: 2026-09-19T15:45:03+00:00
+modified: 2026-09-26T08:45:59+00:00
 permalink: llmeon/30-library/200-projects/prod-os-system-overview-and-development-progress
 project_category: prodos
 project_name: ProdOS

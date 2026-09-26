@@ -4,7 +4,7 @@ created: 2026-09-19T15:25:02+00:00
 created_utc: 2026-09-19 00:00:00+00:00
 definition: Shotgun parsing, a term coined by Alexis King, is the anti-pattern where input-validation checks are interleaved with execution logic and repeated at scattered points across a codebase instead of being performed once at a system boundary.
 distinguishes_from: []
-modified: 2026-09-25T16:29:31+00:00
+modified: 2026-09-26T08:45:37+00:00
 non_conformance_reason: ''
 permalink: llmeon/00-inbox/shotgun-parsing-scatters-validation-logic-through-execution-logic
 source_title: "The Conservation of Software Complexity: The Dichotomy of Data Structures and Control Flow (plus epistemic review/fact-check)"

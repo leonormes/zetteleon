@@ -1,7 +1,7 @@
 ---
 created: 2026-04-10T16:51:30+00:00
 created_utc: '2026-04-10T13:00:00+00:00'
-modified: 2026-09-19T15:45:09+00:00
+modified: 2026-09-26T08:46:05+00:00
 permalink: llmeon/30-library/400-indexes/link-report-deep-work-2026
 source_atoms: '[[tmp_atoms_deep_work_2026]]'
 status: seed

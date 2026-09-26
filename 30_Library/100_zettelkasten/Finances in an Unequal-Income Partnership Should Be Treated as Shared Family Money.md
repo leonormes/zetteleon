@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-11-10T10:11:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:22+00:00
+modified: 2026-09-26T08:45:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/finances-in-an-unequal-income-partnership-should-be-treated-as-shared-family-money
 proposition: 'In a cooperative partnership with an income disparity, the most successful approach is to treat all income as "family money" rather than "yours" and "mine," decoupling earnings from the right to have a say in financial decisions.'
 tags: [budgeting, equality, finance, relationship]

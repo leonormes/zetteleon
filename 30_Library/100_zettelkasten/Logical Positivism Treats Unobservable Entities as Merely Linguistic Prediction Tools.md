@@ -6,7 +6,7 @@ created: 2026-09-09T00:00:00+00:00
 created_utc: 2026-09-09 00:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:26+00:00
+modified: 2026-09-26T08:45:33+00:00
 permalink: llmeon/00-inbox/logical-positivism-treats-unobservable-entities-as-merely-linguistic-prediction-tools
 proposition: Logical positivists were highly suspicious of theories proposing unobservable entities (like electrons or genes), arguing those terms were merely linguistic tools for predicting observable phenomena rather than descriptions of real hidden structure.
 source_title: "Philosophy of science: alternative positions beyond Deutsch vs Godfrey-Smith"

@@ -5,7 +5,7 @@ created: 2026-09-19T00:00:00+00:00
 created_utc: 2026-09-19 00:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:29+00:00
+modified: 2026-09-26T08:45:35+00:00
 non_conformance_reason: ''
 permalink: llmeon/00-inbox/poor-data-structure-exhausts-an-ai-coding-agents-context-window-before-it-can-trace-execution-logic-1
 proposition: When a codebase relies heavily on control flow, shared mutable state, and deep inheritance, an LLM coding agent must read across dozens of files to reconstruct the implicit state and branching before it can safely modify the code, and often exhausts its context window before doing so, producing plausible but incorrect edits; smart data structures, small modules, and explicit interfaces keep the same reasoning within budget.

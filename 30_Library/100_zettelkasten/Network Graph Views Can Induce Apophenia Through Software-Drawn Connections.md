@@ -5,7 +5,7 @@ created: 2026-09-13T09:35:48+00:00
 created_utc: '2026-09-13T00:00:00Z'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:27+00:00
+modified: 2026-09-26T08:45:34+00:00
 permalink: llmeon/00-inbox/network-graph-views-can-induce-apophenia-through-software-drawn-connections
 proposition: Visual network graph views in note-taking tools can induce apophenia—the tendency to perceive meaningful connections between unrelated things—because the graph creates an impression that the system is doing the thinking, when it is only visualising mechanical symbol-matching rather than genuine comprehension.
 source_title: A Portable Interest and PKM Knowledge Graph

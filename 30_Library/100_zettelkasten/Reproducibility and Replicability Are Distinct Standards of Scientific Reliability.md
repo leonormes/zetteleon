@@ -4,7 +4,7 @@ created: 2026-09-07T15:00:00+00:00
 created_utc: 2026-09-07T15:00:00+00:00
 definition: Reproducibility is getting consistent results from the same data, analysis steps, methods, and code; replicability is getting consistent results from a new, independently collected study or dataset addressing the same question. The two are distinct standards, per the U.S. National Academies of Sciences.
 epistemic_status: high
-modified: 2026-09-25T16:29:30+00:00
+modified: 2026-09-26T08:45:36+00:00
 non_conformance_reason: "missing schema field distinguishes_from for type concept (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/reproducibility-and-replicability-are-distinct-standards-of-scientific-reliability
 source_title: "I want to learn more about the philosophy of science and how the scientific method works"

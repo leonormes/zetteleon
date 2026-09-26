@@ -6,7 +6,7 @@ created: 2026-09-04T09:26:16+00:00
 created_utc: 2026-09-04T14:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:28+00:00
+modified: 2026-09-26T08:45:35+00:00
 permalink: llmeon/00-inbox/paradigm-shifts-complete-through-generational-turnover-not-persuasion
 proposition: A new scientific paradigm prevails not by convincing its opponents but through generational turnover, as the old guard retires or dies and is replaced by researchers already trained in the new framework.
 source_title: New chat

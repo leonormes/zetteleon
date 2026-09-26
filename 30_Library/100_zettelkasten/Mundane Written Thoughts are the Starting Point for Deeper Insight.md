@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-11-06T20:01:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:27+00:00
+modified: 2026-09-26T08:45:34+00:00
 permalink: llmeon/30-library/100-zettelkasten/mundane-written-thoughts-are-the-starting-point-for-deeper-insight
 prodos.kind: atomic
 prodos.lifecycle: stable

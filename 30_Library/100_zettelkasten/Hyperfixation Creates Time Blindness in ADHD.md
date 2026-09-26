@@ -3,7 +3,7 @@ aliases: [Loss of Time Awareness in ADHD, Time Blindness During Hyperfocus]
 axiom: true
 conformant: false
 created: 2025-11-01T11:37:53+00:00
-modified: 2026-09-25T16:29:24+00:00
+modified: 2026-09-26T08:45:32+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/hyperfixation-creates-time-blindness-in-adhd
 tags: [hyperfocus, TheHuman/Cognition, TheHuman/Health/ADHD, time-perception]

@@ -3,7 +3,7 @@ aliases: []
 created: 2025-02-07T12:57:55+00:00
 ID: 2a1b1d
 last_reviewed: 'null'
-modified: 2026-09-25T16:29:36+00:00
+modified: 2026-09-26T08:45:41+00:00
 permalink: llmeon/30-library/100-zettelkasten/unique-addressability
 tags: [topic/pkm/zettelkasten]
 title: unique_addressability

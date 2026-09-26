@@ -4,7 +4,7 @@ contradicts: []
 created: 2026-05-31T00:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:19+00:00
+modified: 2026-09-26T08:45:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/claim-over-capture-plus-deferred-review-is-sustainable
 position-date: 2026-05-31
 proposition: Deliberately capturing more than you can immediately process, then handling it later in a low-stakes review, is more sustainable for ADHD than trying to file or decide at the moment of capture.

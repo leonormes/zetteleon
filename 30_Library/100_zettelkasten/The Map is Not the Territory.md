@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-11-06T19:59:03+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:34+00:00
+modified: 2026-09-26T08:45:38+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-map-is-not-the-territory
 proposition: Our mental models, beliefs, and perceptions are simplified maps of reality, not reality itself, meaning our understanding is always an abstraction and potentially flawed.
 status: superseded

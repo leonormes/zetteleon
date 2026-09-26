@@ -3,7 +3,7 @@ aliases: [Animal Flow Guide, Primal Movement Reference]
 conformant: true
 created: 2025-12-15T00:00:00+00:00
 last_reviewed: ''
-modified: 2026-09-19T15:45:15+00:00
+modified: 2026-09-26T08:46:12+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/resource-animal-flow-movement-guide
 status: stable

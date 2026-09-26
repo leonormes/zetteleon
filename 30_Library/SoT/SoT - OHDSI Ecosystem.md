@@ -2,7 +2,7 @@
 aliases: [Federated Research Model, OHDSI Network, OMOP Philosophy]
 conformant: true
 created: 2026-01-06T18:52:00+00:00
-modified: 2026-09-19T15:45:23+00:00
+modified: 2026-09-26T08:46:18+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-ohdsi-ecosystem
 tags: [ohdsi, SoftwareEngineering/Architecture, sot]

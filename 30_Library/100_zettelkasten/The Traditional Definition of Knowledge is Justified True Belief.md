@@ -3,7 +3,7 @@ aliases: [JTB, Justified True Belief]
 axiom: true
 conformant: false
 created: 2025-11-01T12:10:06+00:00
-modified: 2026-09-25T16:29:34+00:00
+modified: 2026-09-26T08:45:39+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/the-traditional-definition-of-knowledge-is-justified-true-belief
 tags: [epistemology, knowledge, TheHuman/Philosophy]

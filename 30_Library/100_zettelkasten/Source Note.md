@@ -1,28 +1,20 @@
 ---
-title: Source Note
-type: concept
-status: seed
-tags:
-- source-note
-- allosso
-- note-types
-- paraphrase
-- zettelkasten
-- definition
 conformant: true
-created: 2026-09-26 10:30:00+00:00
-modified: 2026-09-26 10:30:00+00:00
-source_title: How to Make Notes and Write - Dan Allosso
-source_url: calibre://view-book/GCcalibreBooks/708/EPUB
+created: 2026-09-26T10:30:00+00:00
 created_utc: '2026-09-26T10:30:00Z'
-upstream: '[[The Atomicity Principle - One Idea Per Note]]'
 definition: A Source Note summarises and paraphrases the passage that caught your
   attention, beginning the move from the words of the source to your own.
-distinguishes_from:
-- '[[Point Note]]'
-used_in_claims:
-- '[[A Note Should Be Written So It Can Be Understood Out of Context]]'
+distinguishes_from: ["[[Point Note]]"]
+modified: 2026-09-26T08:45:41+00:00
 permalink: llmeon/30-library/100-zettelkasten/source-note
+source_title: How to Make Notes and Write - Dan Allosso
+source_url: calibre://view-book/GCcalibreBooks/708/EPUB
+status: seed
+tags: [allosso, definition, note-types, paraphrase, source-note, zettelkasten]
+title: Source Note
+type: concept
+upstream: '[[The Atomicity Principle - One Idea Per Note]]'
+used_in_claims: ["[[A Note Should Be Written So It Can Be Understood Out of Context]]"]
 ---
 
 ## Source Note

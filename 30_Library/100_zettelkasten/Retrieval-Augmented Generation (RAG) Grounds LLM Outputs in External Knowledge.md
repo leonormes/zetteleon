@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:30+00:00
+modified: 2026-09-26T08:45:36+00:00
 permalink: llmeon/30-library/100-zettelkasten/retrieval-augmented-generation-rag-grounds-llm-outputs-in-external-knowledge
 proposition: Retrieval-Augmented Generation (RAG) anchors LLM generation to external, continuously updated knowledge bases rather than relying solely on training weights. By retrieving relevant documents and including them as context, the model operates within grounded facts, reducing hallucination risk.
 tags: [domain/llm, topic/architecture-pattern, topic/hallucination-mitigation, topic/rag, topic/retrieval]

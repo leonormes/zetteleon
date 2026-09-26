@@ -3,7 +3,7 @@ aliases: [communication philosophy, The Unruly Terrain Between Thought and Langu
 created: 2025-10-31T20:08:00+00:00
 criteria: "Includes concepts about pre-linguistic thought, limitations of language, and mechanisms enabling understanding"
 exclusions: Specific linguistic theories, detailed neuroscience of language processing
-modified: 2026-09-19T15:45:13+00:00
+modified: 2026-09-26T08:46:09+00:00
 permalink: llmeon/30-library/mo-c/moc-the-gap-between-thought-and-language
 scope: "Philosophical exploration of the relationship between thought, language, and communication"
 tags: [communication, consciousness, epistemology, language, philosophy-of-mind]

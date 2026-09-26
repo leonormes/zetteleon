@@ -4,7 +4,7 @@ conformant: true
 created: 2026-09-15T00:00:00+00:00
 definition: "The line between developing an existing idea and presenting a genuinely new one. Developing an idea keeps its original thesis intact while shifting its focus, broadening its scope of evidence, or adding a dimension the original lacked. It is best classified as a sophisticated paraphrase rather than a new idea, because paraphrase-invariance — the same underlying claim surviving a change of words or examples — still holds across the change."
 distinguishes_from: ["[[Paraphrasing is a Complex Cognitive Skill|Simple Paraphrasing]]"]
-modified: 2026-09-25T16:29:21+00:00
+modified: 2026-09-26T08:45:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/developing-an-idea-differs-from-presenting-a-new-one
 tags: [epistemics, language, paraphrasing, topic/learning, topic/philosophy]
 title: Developing an Idea Differs From Presenting a New One

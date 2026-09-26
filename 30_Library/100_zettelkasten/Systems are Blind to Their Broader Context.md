@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-20T10:10:00+00:00
 last_reviewed: ''
-modified: 2026-09-25T16:29:33+00:00
+modified: 2026-09-26T08:45:38+00:00
 permalink: llmeon/30-library/100-zettelkasten/systems-are-blind-to-their-broader-context
 tags: [context, limitation, perspective, topic/systems]
 title: Systems are Blind to Their Broader Context

@@ -5,7 +5,7 @@ created: 2026-09-14T15:26:02+00:00
 created_utc: '2026-09-14T00:00:00Z'
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:19+00:00
+modified: 2026-09-26T08:45:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/catharsis-theory-is-false-venting-anger-rehearses-and-reinforces-aggressive-pathways-rather-than-resolving-them
 prodos.kind: atomic
 prodos.lifecycle: seed

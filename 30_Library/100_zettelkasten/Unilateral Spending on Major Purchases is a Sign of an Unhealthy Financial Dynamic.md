@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-11-10T10:17:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:35+00:00
+modified: 2026-09-26T08:45:40+00:00
 permalink: llmeon/30-library/100-zettelkasten/unilateral-spending-on-major-purchases-is-a-sign-of-an-unhealthy-financial-dynamic
 proposition: When one partner makes a significant financial decision without discussion or mutual agreement, it is an indicator of an unhealthy and uncooperative financial relationship.
 tags: [boundaries, conflict, finance, relationship]

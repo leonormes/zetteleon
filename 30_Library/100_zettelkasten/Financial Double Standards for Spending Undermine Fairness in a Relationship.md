@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-11-10T10:18:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:22+00:00
+modified: 2026-09-26T08:45:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/financial-double-standards-for-spending-undermine-fairness-in-a-relationship
 proposition: Applying a double standard, where one partner's spending is labeled "selfish" while another's is justified, undermines fairness and mutual respect in a relationship.
 tags: [conflict, fairness, finance, relationship]

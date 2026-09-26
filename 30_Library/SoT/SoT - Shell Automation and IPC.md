@@ -2,7 +2,7 @@
 aliases: [Event-Driven Shell, IPC Workflows, Signal Traps, Terminal Automation]
 conformant: true
 created: 2025-12-26T13:00:00+00:00
-modified: 2026-09-19T15:45:25+00:00
+modified: 2026-09-26T08:46:21+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-shell-automation-and-ipc
 tags: [automation, ipc, shell, SoftwareEngineering/Linux]

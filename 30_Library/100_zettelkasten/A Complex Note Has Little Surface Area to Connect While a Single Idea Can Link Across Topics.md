@@ -1,28 +1,22 @@
 ---
-title: A Complex Note Has Little Surface Area to Connect While a Single Idea Can Link
-  Across Topics
-type: claim
-status: seed
-tags:
-- atomicity
-- surface-area
-- connection
-- single-idea
-- zettelkasten
-- note-structure
 conformant: true
-created: 2026-09-26 10:30:00+00:00
-modified: 2026-09-26 10:30:00+00:00
-source_title: A System for Writing - Bob Doto
-source_url: calibre://view-book/GCcalibreBooks/1491/EPUB
+contradicts: []
+created: 2026-09-26T10:30:00+00:00
 created_utc: '2026-09-26T10:30:00Z'
-upstream: '[[The Atomicity Principle - One Idea Per Note]]'
-proposition: The more atomic an idea is, the more broadly it can be used, because
-  a complex idea has little surface area to connect to other ideas.
 epistemic_status: medium
 evidence_links: []
-contradicts: []
+modified: 2026-09-26T08:45:41+00:00
 permalink: llmeon/30-library/100-zettelkasten/a-complex-note-has-little-surface-area-to-connect-while-a-single-idea-can-link-across-topics
+proposition: The more atomic an idea is, the more broadly it can be used, because
+  a complex idea has little surface area to connect to other ideas.
+source_title: A System for Writing - Bob Doto
+source_url: calibre://view-book/GCcalibreBooks/1491/EPUB
+status: seed
+tags: [atomicity, connection, note-structure, single-idea, surface-area, zettelkasten]
+title: A Complex Note Has Little Surface Area to Connect While a Single Idea Can Link Across Topics
+  Across Topics
+type: claim
+upstream: '[[The Atomicity Principle - One Idea Per Note]]'
 ---
 
 ## A Complex Note Has Little Surface Area to Connect While a Single Idea Can Link Across Topics

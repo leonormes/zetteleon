@@ -2,7 +2,7 @@
 aliases: [Ego States, TA]
 conformant: true
 created: 2025-12-17T00:00:00+00:00
-modified: 2026-09-19T15:45:27+00:00
+modified: 2026-09-26T08:46:24+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-transactional-analysis-in-the-workplace
 tags: [communication, management, mental-model, TheHuman/Psychology]

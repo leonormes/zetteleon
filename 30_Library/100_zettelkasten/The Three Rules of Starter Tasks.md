@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-11-10T15:09:00+00:00
 epistemic_status: low
 evidence_links: ["[[Evidence - Tracy Momentum Principle Says Starting Costs More Energy Than Continuing]]"]
-modified: 2026-09-25T16:29:34+00:00
+modified: 2026-09-26T08:45:39+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/the-three-rules-of-starter-tasks
 proposition: Effective starter tasks follow three rules, which are that their purpose is only to build momentum, that they last five to fifteen minutes at most, and that each is a single simple physical action.

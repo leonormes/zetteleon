@@ -2,7 +2,7 @@
 aliases: [Resilient Persistence, The Urge to Quit Protocol]
 created: 2025-12-24T12:00:00+00:00
 last_reviewed: 2025-12-24
-modified: 2026-09-25T16:29:34+00:00
+modified: 2026-09-26T08:45:39+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-third-urge-rule-resilient-persistence
 status: stable
 tags: [adhd-friendly, grit, protocol, resilience]

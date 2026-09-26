@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-11-10T16:09:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:22+00:00
+modified: 2026-09-26T08:45:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/explaining-to-others-enhances-ones-own-learning
 prodos.kind: atomic
 prodos.lifecycle: stable

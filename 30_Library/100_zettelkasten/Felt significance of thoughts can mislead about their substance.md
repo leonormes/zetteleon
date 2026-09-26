@@ -6,7 +6,7 @@ contradicts: []
 created: 2025-10-31T20:48:00+00:00
 epistemic_status: high
 evidence_links: ["[[Evidence - Kahneman Says Confidence Tracks the Quality of the Story Not the Amount of Evidence]]", "[[Evidence - Sloman and Fernbach Find the Illusion of Understanding Is Robust Across Topics]]"]
-modified: 2026-09-25T16:29:22+00:00
+modified: 2026-09-26T08:45:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/felt-significance-of-thoughts-can-mislead-about-their-substance
 prodos.kind: atomic
 prodos.lifecycle: stable

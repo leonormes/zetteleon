@@ -2,7 +2,7 @@
 aliases: [Research Transducer]
 conformant: true
 created: 2026-01-12T16:15:00+00:00
-modified: 2026-09-19T15:45:24+00:00
+modified: 2026-09-26T08:46:20+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-research-to-action-protocol
 tags: [adhd-tools, prodos, protocol, research]

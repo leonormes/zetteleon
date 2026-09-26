@@ -2,7 +2,7 @@
 conformant: false
 created: 2026-09-21T15:45:01+00:00
 created_utc: '2026-09-21T16:36:00Z'
-modified: 2026-09-25T16:29:18+00:00
+modified: 2026-09-26T08:45:27+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true)"
 permalink: llmeon/00-inbox/artemis-lite-grouping-diagnostics
 source_title: Recurve Archery Self-Coaching Resources

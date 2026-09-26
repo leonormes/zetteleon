@@ -2,7 +2,7 @@
 aliases: [Deforestation, Fusion, Stream Fusion]
 conformant: true
 created: 2025-12-19T00:00:00+00:00
-modified: 2026-09-19T15:45:23+00:00
+modified: 2026-09-26T08:46:19+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-optimization-via-function-fusion
 tags: [compilers, functional-programming, optimization]

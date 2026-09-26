@@ -3,7 +3,7 @@ aliases: [Becoming tool agnostic]
 created: 2025-04-30T01:58:44+00:00
 id: Becoming tool agnostic
 last_reviewed: ''
-modified: 2026-09-25T16:29:18+00:00
+modified: 2026-09-26T08:45:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/becoming-system-agnostic
 status: stable
 tags: [dependencies, simple, topic/systems]

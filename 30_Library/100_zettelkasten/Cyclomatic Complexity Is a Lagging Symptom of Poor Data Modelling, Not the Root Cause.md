@@ -4,7 +4,7 @@ created: 2026-09-19T15:24:57+00:00
 created_utc: 2026-09-19 00:00:00+00:00
 definition: The McCabe cyclomatic complexity metric counts independent paths through a program control-flow graph and so measures excessive branching as a symptom, while the Chapin data complexity metric measures the complexity of the data being manipulated, which sits closer to the underlying cause.
 distinguishes_from: []
-modified: 2026-09-25T16:29:20+00:00
+modified: 2026-09-26T08:45:29+00:00
 non_conformance_reason: ''
 permalink: llmeon/00-inbox/cyclomatic-complexity-is-a-lagging-symptom-of-poor-data-modelling-not-the-root-cause
 source_title: "The Conservation of Software Complexity: The Dichotomy of Data Structures and Control Flow (plus epistemic review/fact-check)"

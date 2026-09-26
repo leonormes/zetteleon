@@ -4,7 +4,7 @@ contradicts: []
 created: 2026-05-31T00:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:19+00:00
+modified: 2026-09-26T08:45:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/claim-adhd-perfectionism-is-maladaptive-compensation
 position-date: 2026-05-31
 proposition: Perfectionism in ADHD often arises not as high standards but as an attempt to compensate for a history of underachievement, and because the ideal is unreachable, it reliably produces failure, self-criticism and renewed system-seeking.

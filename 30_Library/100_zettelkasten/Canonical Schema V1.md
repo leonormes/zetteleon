@@ -3,7 +3,7 @@ aliases: [Schema V1]
 conformant: false
 created: 2025-10-31T08:17:00+00:00
 epistemic_status: high
-modified: 2026-09-25T16:29:19+00:00
+modified: 2026-09-26T08:45:27+00:00
 non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/canonical-schema-v1
 prodos.kind: atomic

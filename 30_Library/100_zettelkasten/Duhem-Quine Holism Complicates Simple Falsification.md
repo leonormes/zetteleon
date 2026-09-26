@@ -6,7 +6,7 @@ created: 2026-09-08T20:15:00+00:00
 created_utc: 2026-09-08 20:15:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:21+00:00
+modified: 2026-09-26T08:45:29+00:00
 permalink: llmeon/00-inbox/duhem-quine-holism-complicates-simple-falsification
 proposition: "Because a prediction follows from a theory only in conjunction with background assumptions and instruments, an unexpected observation can indict a background assumption or measuring device instead of the theory under test, so falsification is rarely a clean single-theory verdict."
 source_title: David Deutsch and Peter Godfrey-Smith

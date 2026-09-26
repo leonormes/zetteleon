@@ -4,7 +4,7 @@ created: 2026-09-25T16:22:40+00:00
 created_utc: '2026-09-25T17:30:00Z'
 definition: Science is the refining of reason to understand the world.
 distinguishes_from: []
-modified: 2026-09-25T16:29:37+00:00
+modified: 2026-09-26T08:45:41+00:00
 permalink: llmeon/30-library/100-zettelkasten/science-as-refined-reason
 source_title: Enlightenment Now - the four ideals of the Enlightenment (NotebookLM
   summary, checked against the book)

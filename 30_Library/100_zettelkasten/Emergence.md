@@ -3,7 +3,7 @@ conformant: true
 created: 2026-05-04T08:01:26+00:00
 definition: Emergence is the phenomenon where complex patterns, behaviours or properties arise from the interactions of simpler components and cannot be predicted by analysing the components alone.
 distinguishes_from: ["[[Autopoiesis The Self-Referential System]]", "[[Cybernetics]]"]
-modified: 2026-09-25T16:29:21+00:00
+modified: 2026-09-26T08:45:29+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/5c-emergence-1
 title: Emergence

@@ -4,7 +4,7 @@ contradicts: []
 created: 2025-11-10T14:09:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:19+00:00
+modified: 2026-09-26T08:45:27+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/cal-newports-deep-work-method-involves-rigorous-time-blocking-to-maximize-concentration
 proposition: The Deep Work method of Cal Newport maximises concentration by scheduling the workday in rigorous time blocks that protect cognitively demanding work from shallow work.

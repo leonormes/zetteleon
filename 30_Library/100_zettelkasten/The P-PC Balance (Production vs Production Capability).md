@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-20T09:09:00+00:00
 last_reviewed: ''
-modified: 2026-09-25T16:29:34+00:00
+modified: 2026-09-26T08:45:39+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-p-pc-balance-production-vs-production-capability
 tags: [effectiveness, principles, sustainability]
 title: The P-PC Balance (Production vs Production Capability)

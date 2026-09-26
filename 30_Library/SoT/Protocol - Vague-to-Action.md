@@ -3,11 +3,11 @@ aliases: [Task Decomposition Protocol, Vague-to-Action]
 conformant: true
 created: 2026-04-04T12:00:00+00:00
 last-synthesis: 2026-04-04
-modified: 2026-09-21T15:17:44+00:00
+modified: 2026-09-26T08:46:10+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/so-t/protocol-vague-to-action
 status: evergreen
-tags: [execution, prodos, protocol, task-decomposition, TheHuman/Health/ADHD, task-initiation]
+tags: [execution, prodos, protocol, task-decomposition, task-initiation, TheHuman/Health/ADHD]
 title: Protocol - Vague-to-Action
 trigger: A captured task feels heavy or vague, or you notice you are avoiding it
 type: protocol

@@ -4,7 +4,7 @@ contradicts: []
 created: 2026-07-28T10:20:29+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:17+00:00
+modified: 2026-09-26T08:45:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/api-quota-limits-not-just-cost-drive-model-stratification-in-agentic-workflows
 proposition: Stratifying model usage in agentic workflows must respect API quota limits—a hard cap on calls or tokens per window—as a distinct constraint from dollar cost, since a team with plenty of budget can still hit a quota ceiling and be unable to make another frontier-model call until the window resets.
 tags: [domain/llm, topic/agent-architecture, topic/cost-optimization]

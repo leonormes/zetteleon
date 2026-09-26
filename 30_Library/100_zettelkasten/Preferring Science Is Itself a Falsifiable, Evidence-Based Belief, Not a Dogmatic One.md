@@ -6,7 +6,7 @@ created: 2026-09-22T08:11:10+00:00
 epistemic_status: high
 evidence_links: []
 last_reviewed: ''
-modified: 2026-09-25T16:29:29+00:00
+modified: 2026-09-26T08:45:35+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/preferring-science-is-itself-a-falsifiable-evidence-based-belief-not-a-dogmatic-one
 proposition: Preferring science over rival belief systems is held as a revisable, evidence-based position, not an article of faith, so it is subject to the same falsifiability standard it applies to everything else.

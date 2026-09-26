@@ -1,7 +1,7 @@
 ---
 captured: 2026-03-28T17:55:14+00:00 2026-03-28T17:55:14+00:00
 created: 2026-03-28T17:55:19+00:00
-modified: 2026-09-19T15:45:09+00:00
+modified: 2026-09-26T08:46:05+00:00
 permalink: llmeon/30-library/400-indexes/meditation-wiki-meditation-reading-list
 source: https://www.reddit.com/r/Meditation/wiki/booklist/
 status: draft

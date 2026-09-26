@@ -6,7 +6,7 @@ created: 2026-09-07T16:00:00+00:00
 created_utc: 2026-09-07T16:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:16+00:00
+modified: 2026-09-26T08:45:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/a-musical-chord-models-quantum-superposition-as-simultaneous-overlapping-states
 proposition: A chord—several notes struck simultaneously—models quantum superposition as a rich, blended state where multiple possibilities exist at once and interfere with one another, rather than a single hidden note or a fast alternation between notes; measuring the particle is like passing that chord through a filter that forces a single frequency out.
 source_title: "I have always found schrodinger cat a bad metaphor (Gemini conversation)"

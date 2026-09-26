@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2026-05-31T00:00:00+00:00
-modified: 2026-09-25T16:29:30+00:00
+modified: 2026-09-26T08:45:36+00:00
 non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/rejection-sensitive-dysphoria
 related_to: ["[[MOC - ADHD and PKM Systems]]"]

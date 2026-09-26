@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-07-28T14:20:04+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:23+00:00
+modified: 2026-09-26T08:45:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/ground-new-agent-ontologies-in-established-semantic-web-taxonomies-rather-than-building-from-scratch
 proposition: Building an agent ontology from a blank page is slow and easy to get wrong, so organisations should start from an existing, battle-tested semantic framework (Schema.org, FOAF, Dublin Core) and extend it with only their genuinely domain-specific structure, either top-down via domain experts or bottom-up via data ingestion.
 tags: [domain/llm, topic/agent-architecture, topic/formal-methods]

@@ -2,7 +2,7 @@
 aliases: [cgroups v2, Unified Hierarchy]
 conformant: false
 created: 2025-12-24T12:00:00+00:00
-modified: 2026-09-25T16:29:19+00:00
+modified: 2026-09-26T08:45:27+00:00
 non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/cgroups-v2-unified-hierarchy
 tags: [kernel, modern-cgroups, SoftwareEngineering/Linux]

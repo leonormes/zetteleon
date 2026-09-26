@@ -2,7 +2,7 @@
 conformant: true
 created: 2026-09-23T14:49:40+00:00
 created_utc: '2026-09-23T00:00:00Z'
-modified: 2026-09-25T16:29:35+00:00
+modified: 2026-09-26T08:45:40+00:00
 permalink: llmeon/00-inbox/unversioned-cue-included-per-repo-has-already-forked-between-two-copies
 source_title: Multi-customer Deployment Review, and an Assessment of CUE
 source_url: N/A — internal engineering assessment

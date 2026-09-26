@@ -5,7 +5,7 @@ created: 2026-09-19T15:25:31+00:00
 created_utc: 2026-09-19 00:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:32+00:00
+modified: 2026-09-26T08:45:37+00:00
 non_conformance_reason: ''
 permalink: llmeon/00-inbox/structure-of-arrays-eliminates-the-cache-miss-stalls-array-of-structures-causes
 proposition: Because CPUs fetch memory in fixed-size cache lines, storing per-entity properties as an Array of Structures pollutes every cache-line fetch with irrelevant data, whereas a Structure of Arrays, one flat contiguous array per property, lets every fetched cache line contain only the data the current loop actually needs.

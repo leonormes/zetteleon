@@ -7,7 +7,7 @@ epistemic_status: medium
 evidence_links: []
 ID: 2e
 last_reviewed: ''
-modified: 2026-09-25T16:29:26+00:00
+modified: 2026-09-26T08:45:32+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/knowledge-enables-power
 proposition: Possessing relevant knowledge gives influence over outcomes by enabling informed decision-making and problem-solving.

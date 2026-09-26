@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-12T07:55:33+00:00
 last_reviewed: ''
-modified: 2026-09-25T16:29:21+00:00
+modified: 2026-09-26T08:45:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/decoupling-ego-from-outcomes-to-improve-decisions
 tags: [decision_making, ego, probabilistic_thinking, TheHuman/Mindset, topic/learning]
 title: Decoupling Ego from Outcomes to Improve Decisions

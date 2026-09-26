@@ -2,7 +2,7 @@
 aliases: ["Kolb's Cycle", Active Learning Pedagogy, Experiential Learning, Inquiry-Based Learning]
 conformant: true
 created: 2026-01-02T15:10:00+00:00
-modified: 2026-09-19T15:45:18+00:00
+modified: 2026-09-26T08:46:14+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-experiential-learning-education
 tags: [active-learning, education, kolb, learning, pedagogy]

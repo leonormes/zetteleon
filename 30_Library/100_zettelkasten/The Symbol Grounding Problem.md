@@ -5,7 +5,7 @@ created_utc: '2026-09-21T08:54:40+00:00'
 definition: The symbol grounding problem is the difficulty that words are arbitrary
   symbols whose meaning depends on a relationship to experience.
 distinguishes_from: []
-modified: 2026-09-25T16:29:34+00:00
+modified: 2026-09-26T08:45:39+00:00
 non_conformance_reason: ''
 permalink: llmeon/00-inbox/the-symbol-grounding-problem
 source_title: beyond words (vault note)

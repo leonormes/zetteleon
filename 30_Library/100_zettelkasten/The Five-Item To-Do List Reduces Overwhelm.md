@@ -2,7 +2,7 @@
 aliases: [The 5-Item List]
 created: 2025-12-16T14:35:00+00:00
 last_reviewed: 2025-12-16 00:00:00+00:00
-modified: 2026-09-25T16:29:33+00:00
+modified: 2026-09-26T08:45:38+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-five-item-to-do-list-reduces-overwhelm
 status: draft
 tags: [1, 2, experiment, focus, hypothesis, ohdsi, prioritization, TheHuman/Health/ADHD, topic/productivity]

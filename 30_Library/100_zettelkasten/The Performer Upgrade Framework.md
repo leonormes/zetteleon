@@ -5,7 +5,7 @@ created: 2025-10-20T08:05:04+00:00
 definition: "A four-element environmental design, Simplicity, Psychological Safety, External Pressure, and Feedback, for rebuilding the atrophied Performer, the capacity to act, after prolonged overthinking without action; it treats sustained action as an environmental design problem rather than a willpower problem."
 distinguishes_from: []
 last_reviewed: 'null'
-modified: 2026-09-25T16:29:34+00:00
+modified: 2026-09-26T08:45:39+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-performer-upgrade-framework
 tags: [environment, TheHuman/Psychology, topic/learning, topic/productivity]
 title: The Performer Upgrade Framework

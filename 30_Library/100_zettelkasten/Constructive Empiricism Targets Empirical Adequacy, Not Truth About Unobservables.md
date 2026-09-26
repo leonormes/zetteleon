@@ -6,7 +6,7 @@ created_utc: 2026-09-09 00:00:00+00:00
 definition: Van Fraassen's constructive empiricism holds that science does not need to describe the hidden, unobservable structures of the world; instead, the goal of science is merely to be "empirically adequate," meaning its theories accurately predict observable phenomena.
 distinguishes_from: []
 epistemic_status: high
-modified: 2026-09-25T16:29:20+00:00
+modified: 2026-09-26T08:45:28+00:00
 permalink: llmeon/00-inbox/constructive-empiricism-targets-empirical-adequacy-not-truth-about-unobservables
 source_title: "Philosophy of science: alternative positions beyond Deutsch vs Godfrey-Smith"
 source_url: UNKNOWN

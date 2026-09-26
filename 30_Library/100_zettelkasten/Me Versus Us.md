@@ -5,7 +5,7 @@ created_utc: '2026-09-25T16:00:00Z'
 definition: Me versus Us is the basic moral problem of selfishness against concern
   for others, the problem that human moral brains were designed to solve.
 distinguishes_from: ["[[The Tragedy of Commonsense Morality]]"]
-modified: 2026-09-25T16:29:37+00:00
+modified: 2026-09-26T08:45:41+00:00
 permalink: llmeon/30-library/100-zettelkasten/me-versus-us
 source_title: Moral Tribes - the Shared Pasture Parable (NotebookLM summary, checked
   against the book)

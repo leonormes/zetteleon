@@ -5,7 +5,7 @@ created: 2026-09-19T15:26:16+00:00
 created_utc: 2026-09-19 00:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:34+00:00
+modified: 2026-09-26T08:45:39+00:00
 non_conformance_reason: ''
 permalink: llmeon/00-inbox/the-right-data-structure-not-a-smart-one-is-pikes-actual-rule
 proposition: Rob Pike Rule 4, use simple algorithms as well as simple data structures, asks for the structure that correctly fits the domain, not a maximally clever or elaborate one; over-engineered types and deep class hierarchies are themselves a form of accidental complexity, so pushing complexity into structure is not unconditionally good advice.

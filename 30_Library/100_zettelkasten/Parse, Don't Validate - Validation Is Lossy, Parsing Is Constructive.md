@@ -5,7 +5,7 @@ created: 2026-09-19T15:25:10+00:00
 created_utc: 2026-09-19 00:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:28+00:00
+modified: 2026-09-26T08:45:35+00:00
 non_conformance_reason: ''
 permalink: llmeon/00-inbox/parse-dont-validate-validation-is-lossy-parsing-is-constructive
 proposition: A validation function discards the proof of correctness it computed, returning only true or false while the data stays in its raw type, whereas a parser is constructive and transforms raw input into a more structured type that carries the proof of validity with it for the rest of its lifetime.

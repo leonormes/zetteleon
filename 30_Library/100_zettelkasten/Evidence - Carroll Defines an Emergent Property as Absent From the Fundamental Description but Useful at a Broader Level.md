@@ -2,7 +2,7 @@
 aliases: []
 conformant: true
 created: 2026-09-24T00:00:00+00:00
-modified: 2026-09-25T16:29:36+00:00
+modified: 2026-09-26T08:45:41+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/evidence-carroll-defines-an-emergent-property-as-absent-from-the-fundamental-description-but-useful-at-a-broader-level
 source_quote: A property of a system is “emergent” if it is not part of a detailed

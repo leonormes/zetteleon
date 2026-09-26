@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-31T16:07:23+00:00
 last_reviewed: ''
-modified: 2026-09-25T16:29:25+00:00
+modified: 2026-09-26T08:45:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/implications-for-consciousness-and-philosophy-of-mind
 tags: [consciousness, mental-representation, philosophy-of-mind, qualia]
 title: Implications for Consciousness and Philosophy of Mind

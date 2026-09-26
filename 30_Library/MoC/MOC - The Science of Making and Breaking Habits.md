@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-30T12:05:10+00:00
 last_reviewed: 'null'
-modified: 2026-09-19T15:45:13+00:00
+modified: 2026-09-26T08:46:09+00:00
 permalink: llmeon/30-library/mo-c/moc-the-science-of-making-and-breaking-habits
 tags: [map, TheHuman/Habits, TheHuman/Neuroscience, topic/productivity]
 title: MOC - The Science of Making and Breaking Habits

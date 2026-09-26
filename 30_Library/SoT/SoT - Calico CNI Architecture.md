@@ -2,7 +2,7 @@
 aliases: [Calico Architecture, eBPF Data Plane, Felix, Project Calico]
 conformant: true
 created: 2026-02-05T00:00:00+00:00
-modified: 2026-09-19T15:45:17+00:00
+modified: 2026-09-26T08:46:13+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-calico-cni-architecture
 tags: [calico, ebpf, kubernetes, networking, sot]

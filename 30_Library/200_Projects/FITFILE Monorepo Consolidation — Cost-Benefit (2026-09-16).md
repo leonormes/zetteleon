@@ -1,9 +1,9 @@
 ---
 conformant: false
-non_conformance_reason: "invalid type thinking — must be one of [claim, concept, evidence, journal, map, procedure, project, protocol, question, sot]"
 created: 2026-09-16T10:55:00+00:00
 date: 2026-09-16
-modified: 2026-09-19T15:44:56+00:00
+modified: 2026-09-26T08:45:51+00:00
+non_conformance_reason: "invalid type thinking — must be one of [claim, concept, evidence, journal, map, procedure, project, protocol, question, sot]"
 permalink: llmeon/20-thinking/21-workbench/head-should-insight-file-data-and-analytics-and-deployment-become-one-repo
 project_category: refined_deployment
 project_name: Pipeline

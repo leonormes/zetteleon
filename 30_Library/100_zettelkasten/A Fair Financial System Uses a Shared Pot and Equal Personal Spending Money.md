@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-07-21T13:35:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:16+00:00
+modified: 2026-09-26T08:45:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/a-fair-financial-system-uses-a-shared-pot-and-equal-personal-spending-money
 proposition: A fair financial system pools primary income into a shared budget and allocates each partner an identical, no-questions-asked personal spending amount, decoupling income contribution from spending authority.
 tags: [autonomy, budgeting, equality, finance, relationship]

@@ -5,7 +5,7 @@ created: 2026-09-19T15:24:32+00:00
 created_utc: 2026-09-19 00:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:33+00:00
+modified: 2026-09-26T08:45:38+00:00
 non_conformance_reason: ''
 permalink: llmeon/00-inbox/the-linked-list-good-taste-example-eliminates-complexity-rather-than-relocating-it
 proposition: The Torvalds pointer-to-a-pointer implementation of singly-linked-list node removal eliminates the special-case if branch for the list head entirely rather than moving that complexity somewhere else.

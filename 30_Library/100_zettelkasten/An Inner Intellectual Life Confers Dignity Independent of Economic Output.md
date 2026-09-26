@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-08-02T23:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-25T16:29:17+00:00
+modified: 2026-09-26T08:45:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/an-inner-intellectual-life-confers-dignity-independent-of-economic-output
 proposition: Because its value is intrinsic, intellectual life supplies a source of personal dignity that cannot be revoked by unemployment, low occupational status, imprisonment or manual work — a refuge structurally unavailable to any good defined by market position.
 tags: [dignity, TheHuman/Philosophy, TheHuman/Psychology, topic/meaning]

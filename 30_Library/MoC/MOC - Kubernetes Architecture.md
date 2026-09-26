@@ -1,7 +1,7 @@
 ---
 aliases: [K8s MOC, Kubernetes Map]
 created: 2025-12-16T13:52:13+00:00
-modified: 2026-09-19T15:45:12+00:00
+modified: 2026-09-26T08:46:08+00:00
 permalink: llmeon/30-library/mo-c/moc-kubernetes-architecture
 tags: [devops, index, infrastructure, kubernetes]
 title: MOC - Kubernetes Architecture

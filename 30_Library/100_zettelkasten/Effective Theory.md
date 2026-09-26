@@ -4,7 +4,7 @@ conformant: true
 created: 2025-08-29T15:17:35+00:00
 definition: An effective theory is a model of the world that is highly accurate and predictive within a specific, limited domain, even if its foundational principles are known to be incomplete or incorrect on a deeper level.
 distinguishes_from: []
-modified: 2026-09-25T16:29:21+00:00
+modified: 2026-09-26T08:45:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/effective-theory
 status: seed
 tags: [epistemology, philosophy-of-science, physics, science, TheHuman/Cognition/mental-model]

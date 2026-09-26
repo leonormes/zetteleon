@@ -6,7 +6,7 @@ contradicts: []
 created: 2026-08-02T23:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:25+00:00
+modified: 2026-09-26T08:45:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/intellectual-growth-is-non-rivalrous-but-educational-credentials-are-positional
 proposition: "One person's understanding does not diminish another's, so intellectual life is non-zero-sum; credentials by contrast are positional goods whose value depends on others not holding them, which is what converts institutional learning into zero-sum competition."
 tags: [economics, status, TheHuman/Philosophy, topic/education]

@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:23+00:00
+modified: 2026-09-26T08:45:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/git-worktrees-provide-isolated-low-overhead-workspaces-for-concurrent-ai-agents
 proposition: Git worktrees — a Git feature since version 2.5 (2015), predating AI coding tools by a decade — give each concurrently-running AI agent its own isolated working directory sharing a single .git backend, eliminating the file-collision corruption and context-loss that occurs when multiple agents (or an agent and a human hotfix) operate on the same directory or require branch-switching. This is presented as essential infrastructure for parallel AI agent workflows, not a novel AI-era invention.
 tags: [domain/llm, topic/agent-architecture, topic/tooling, topic/workflow-design]

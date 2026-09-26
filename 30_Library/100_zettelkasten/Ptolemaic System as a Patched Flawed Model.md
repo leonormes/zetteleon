@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-08-29T15:17:54+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:29+00:00
+modified: 2026-09-26T08:45:36+00:00
 permalink: llmeon/30-library/100-zettelkasten/ptolemaic-system-as-a-patched-flawed-model
 proposition: "The Ptolemaic geocentric model's foundational assumption—a static, central Earth—was false, but astronomers preserved it for 1,500 years by patching observational failures with increasing complexity (epicycles) instead of questioning the assumption itself, delaying the Copernican revolution."
 status: seed

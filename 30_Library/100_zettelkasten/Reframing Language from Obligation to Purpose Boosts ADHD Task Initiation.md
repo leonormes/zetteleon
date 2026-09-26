@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-30T12:00:03+00:00
 last_reviewed: '2025-12-16T00:00:00.000Z'
-modified: 2026-09-25T16:29:30+00:00
+modified: 2026-09-26T08:45:36+00:00
 permalink: llmeon/30-library/100-zettelkasten/reframing-language-from-obligation-to-purpose-boosts-adhd-task-initiation
 source: '[[MOC - Action Management]]'
 status: draft

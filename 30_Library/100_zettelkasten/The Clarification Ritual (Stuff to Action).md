@@ -3,7 +3,7 @@ aliases: [Clarification Ritual]
 conformant: false
 created: 2025-12-16T14:40:00+00:00
 last_reviewed: '2025-12-16T00:00:00.000Z'
-modified: 2026-09-25T16:29:33+00:00
+modified: 2026-09-26T08:45:38+00:00
 non_conformance_reason: "type hypothesis is not in the frontmatter contract type enum; it is the experiment species tracked by MOC - ADHD Experiments and Protocols"
 permalink: llmeon/30-library/100-zettelkasten/the-clarification-ritual-stuff-to-action
 status: draft

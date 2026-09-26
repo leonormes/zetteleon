@@ -5,7 +5,7 @@ created: 2026-09-19T15:24:18+00:00
 created_utc: 2026-09-19 00:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:27+00:00
+modified: 2026-09-26T08:45:34+00:00
 non_conformance_reason: ''
 permalink: llmeon/00-inbox/mutable-state-causes-combinatorial-state-space-explosion-and-contaminates-pure-logic
 proposition: Introducing mutable state into a system multiplies the number of configurations that must be reasoned about combinatorially, and once a pure function calls a stateful procedure it becomes contaminated and no longer understandable in isolation.

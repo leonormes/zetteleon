@@ -4,7 +4,7 @@ contradicts: []
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-25T16:29:27+00:00
+modified: 2026-09-26T08:45:34+00:00
 permalink: llmeon/30-library/100-zettelkasten/model-self-verification-as-a-secondary-quality-gate
 proposition: A secondary pipeline pass where the model acts as a strict verifier can catch hallucinations in draft outputs. The verifier reads the draft against provided context (retrieved documents, facts, constraints) and checks for contradictions, logical gaps, or unsupported claims before authorizing the response.
 tags: [domain/llm, topic/hallucination-mitigation, topic/quality-gates, topic/reliability, topic/verification]
