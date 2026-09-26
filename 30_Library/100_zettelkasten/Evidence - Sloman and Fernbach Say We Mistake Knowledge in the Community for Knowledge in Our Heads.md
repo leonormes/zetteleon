@@ -12,7 +12,6 @@ source_reference: Steven Sloman and Philip Fernbach, The Knowledge Illusion - Th
 supports_claims: ["[[Human Understanding is Inherently Myopic]]"]
 tags: [community-of-knowledge, evidence, knowledge-illusion, myopia]
 title: Evidence - Sloman and Fernbach Say We Mistake Knowledge in the Community for Knowledge in Our Heads
-  Knowledge in Our Heads
 type: evidence
 ---
 

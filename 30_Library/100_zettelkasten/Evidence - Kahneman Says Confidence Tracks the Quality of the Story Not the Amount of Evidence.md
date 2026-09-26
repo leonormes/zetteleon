@@ -13,7 +13,6 @@ source_reference: Daniel Kahneman, Thinking, Fast and Slow, discussing overconfi
 supports_claims: ["[[Felt significance of thoughts can mislead about their substance]]"]
 tags: [evidence, felt-certainty, metacognition, overconfidence]
 title: Evidence - Kahneman Says Confidence Tracks the Quality of the Story Not the Amount of Evidence
-  Amount of Evidence
 type: evidence
 ---
 

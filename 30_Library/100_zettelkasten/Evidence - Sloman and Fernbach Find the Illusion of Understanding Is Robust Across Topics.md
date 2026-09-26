@@ -12,7 +12,6 @@ source_reference: Steven Sloman and Philip Fernbach, The Knowledge Illusion - Th
 supports_claims: ["[[Felt significance of thoughts can mislead about their substance]]"]
 tags: [evidence, illusion-of-understanding, metacognition]
 title: Evidence - Sloman and Fernbach Find the Illusion of Understanding Is Robust Across Topics
-  Across Topics
 type: evidence
 ---
 

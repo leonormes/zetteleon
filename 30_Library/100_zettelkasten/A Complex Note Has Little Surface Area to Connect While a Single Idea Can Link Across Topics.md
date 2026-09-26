@@ -14,7 +14,6 @@ source_url: calibre://view-book/GCcalibreBooks/1491/EPUB
 status: seed
 tags: [atomicity, connection, note-structure, single-idea, surface-area, zettelkasten]
 title: A Complex Note Has Little Surface Area to Connect While a Single Idea Can Link Across Topics
-  Across Topics
 type: claim
 upstream: '[[The Atomicity Principle - One Idea Per Note]]'
 ---
@@ -25,23 +24,15 @@ The more atomic an idea is, the more broadly it can be used, because a complex i
 
 ### Scope & Conditions
 
-Doto's apples example: a note that mixes apples' health value with a discrepancy in their nutritional value ties the idea to discrepancies only, whereas two separate notes can each connect to other trains of thought. Allosso makes the same point about combining single ideas in argument. Doto credits the "surface area" metaphor to a conversation with Cliff Guren.
-
-Doto's Figures 35 and 36 show the move: a note that seems to hold one idea about apples is really about a discrepancy in their nutritional value, and splitting it lets "Apples are good for your health" inform other lines of thought. The move is named in [[Complexity Splitting]].
+Doto's apples example: a note that hides a second idea ties the first to one line of thought, while two separate notes can each connect elsewhere (see [[Complexity Splitting]]). Allosso makes the same point about combining single ideas in argument. Doto credits the "surface area" metaphor to a conversation with Cliff Guren.
 
 ### Evidence
 
 > "The more "atomic" an idea, the more broadly you can employ it. The more complex an idea, the less surface area it has to be connected to others."
 > (Doto, A System for Writing, section "Connecting Your Ideas")
 
-> "Each idea is now free to connect to others, to be used in trains of thoughts that may not have anything in common."
-> (Doto, A System for Writing, section "Connecting Your Ideas")
-
 > "Single-idea notes are also easier to mix and match with other ideas they agree with, disagree with, or modify in interesting ways."
 > (Allosso, How to Make Notes and Write, chapter on writing as thinking)
-
-> "If we take a step back, we see the idea isn't dealing with apples per se, but with a discrepancy regarding their nutritional value."
-> (Doto, A System for Writing, section "Connecting Your Ideas")
 
 > "Before splitting it up, the original note would have been tethered exclusively to trains of thought about discrepancies. Now you have options. "Apples are good for your health" can now inform those dealing with classism, eating plans, nutrition, and discrepancies; all made possible by atomizing the original idea."
 > (Doto, A System for Writing, section "Connecting Your Ideas")

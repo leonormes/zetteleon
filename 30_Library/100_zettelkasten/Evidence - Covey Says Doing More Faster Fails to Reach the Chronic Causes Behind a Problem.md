@@ -13,7 +13,6 @@ source_reference: Stephen R. Covey, The 7 Habits of Highly Effective People, con
 supports_claims: ["[[Understanding Reveals Cause-and-Effect]]"]
 tags: [evidence, problem-solving, root-cause]
 title: Evidence - Covey Says Doing More Faster Fails to Reach the Chronic Causes Behind a Problem
-  a Problem
 type: evidence
 ---
 

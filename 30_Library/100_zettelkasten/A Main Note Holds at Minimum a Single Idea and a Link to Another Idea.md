@@ -5,7 +5,7 @@ created: 2026-09-26T10:30:00+00:00
 created_utc: '2026-09-26T10:30:00Z'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-26T08:45:41+00:00
+modified: 2026-09-26T08:52:17+00:00
 permalink: llmeon/30-library/100-zettelkasten/a-main-note-holds-at-minimum-a-single-idea-and-a-link-to-another-idea
 proposition: At the very least, a main note needs a single idea and a link to another
   idea in the zettelkasten.

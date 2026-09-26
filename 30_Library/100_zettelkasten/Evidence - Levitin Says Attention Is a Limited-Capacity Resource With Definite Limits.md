@@ -11,7 +11,6 @@ source_reference: Daniel J. Levitin, The Organized Mind - Thinking Straight in t
 supports_claims: ["[[Human Understanding is Inherently Myopic]]"]
 tags: [attention, capacity, evidence, myopia]
 title: Evidence - Levitin Says Attention Is a Limited-Capacity Resource With Definite Limits
-  Limits
 type: evidence
 ---
 

@@ -12,7 +12,6 @@ source_reference: Daniel Kahneman, Thinking, Fast and Slow, on the WYSIATI rule 
 supports_claims: ["[[Human Understanding is Inherently Myopic]]"]
 tags: [cognitive-bias, evidence, judgment, myopia]
 title: Evidence - Kahneman WYSIATI Says We Treat the Limited Information We Have as if It Were All There Is
-  if It Were All There Is
 type: evidence
 ---
 
