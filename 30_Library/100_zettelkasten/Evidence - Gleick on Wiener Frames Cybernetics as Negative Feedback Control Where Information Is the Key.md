@@ -12,7 +12,6 @@ source_reference: James Gleick, The Information - A History, a Theory, a Flood, 
 supports_claims: ["[[Cybernetics]]"]
 tags: [cybernetics, evidence, feedback, systems]
 title: Evidence - Gleick on Wiener Frames Cybernetics as Negative Feedback Control Where Information Is the Key
-  Where Information Is the Key
 type: evidence
 ---
 

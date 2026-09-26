@@ -19,7 +19,6 @@ source_url: UNKNOWN
 status: seed
 tags: [homeostasis, kubernetes, self-healing]
 title: Kubernetes Self-Healing Is Homeostasis Because Controllers Restore the Declared Equilibrium After Each Perturbation
-  Equilibrium After Each Perturbation
 type: claim
 upstream: '[[Cybernetic Analysis of Kubernetes State Management.]]'
 ---

@@ -19,7 +19,6 @@ source_url: UNKNOWN
 status: seed
 tags: [api-server, kubernetes, thundering-herd]
 title: Many Kubernetes Controllers Reacting to One Event Can Overload the API Server as a Thundering Herd
-  as a Thundering Herd
 type: claim
 upstream: '[[Cybernetic Analysis of Kubernetes State Management.]]'
 ---

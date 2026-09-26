@@ -19,7 +19,6 @@ source_url: UNKNOWN
 status: seed
 tags: [failure-modes, kubernetes, positive-feedback]
 title: Unbounded Kubernetes Control Loops Can Produce Cascading Failures That Behave Like Positive Feedback
-  Like Positive Feedback
 type: claim
 upstream: '[[Cybernetic Analysis of Kubernetes State Management.]]'
 ---

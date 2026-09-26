@@ -18,7 +18,6 @@ source_url: UNKNOWN
 status: seed
 tags: [ai, criteria, knowledge-representation]
 title: An Effective Knowledge Representation Needs Representational Adequacy, Inferential Adequacy and Efficiency, and Acquisitional Efficiency
-  Adequacy and Efficiency, and Acquisitional Efficiency
 type: claim
 upstream: '[[21-wtf_is_knowledge_anyway]]'
 ---

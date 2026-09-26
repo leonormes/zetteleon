@@ -9,7 +9,6 @@ source_url: N/A — internal engineering assessment
 status: seed
 tags: [anti-pattern, architecture, cue, terraform]
 title: Moving Deep-Merge Logic Into Terraform HCL Relocates Complexity to a Worse Place
-  Place
 type: claim
 upstream: '[[CUE-ASSESSMENT]]'
 ---

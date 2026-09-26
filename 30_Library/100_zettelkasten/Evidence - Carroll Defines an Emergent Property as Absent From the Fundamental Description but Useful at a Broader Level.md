@@ -12,7 +12,6 @@ source_reference: Sean Carroll, The Big Picture - On the Origins of Life, Meanin
 supports_claims: ["[[Emergence]]"]
 tags: [emergence, evidence, physics, systems]
 title: Evidence - Carroll Defines an Emergent Property as Absent From the Fundamental Description but Useful at a Broader Level
-  Description but Useful at a Broader Level
 type: evidence
 ---
 

@@ -19,7 +19,6 @@ source_url: UNKNOWN
 status: seed
 tags: [api-server, decoupling, kubernetes]
 title: The API Server Decouples Controllers Because They Coordinate Through Shared State Rather Than Directly
-  State Rather Than Directly
 type: claim
 upstream: '[[Cybernetic Analysis of Kubernetes State Management.]]'
 ---

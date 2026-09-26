@@ -19,7 +19,6 @@ source_url: UNKNOWN
 status: seed
 tags: [context, individual-differences, knowledge]
 title: Knowledge Acquired by Different Routes Differs in Context, Associative Network, Depth, Personal Meaning and Flexibility
-  Depth, Personal Meaning and Flexibility
 type: claim
 upstream: '[[21-wtf_is_knowledge_anyway]]'
 ---

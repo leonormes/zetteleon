@@ -18,7 +18,6 @@ source_url: UNKNOWN
 status: seed
 tags: [invariants, knowledge, knowledge-sharing]
 title: Knowledge Acquired by Different Routes Keeps Its Factual Content, Verifiability and Practical Application
-  and Practical Application
 type: claim
 upstream: '[[21-wtf_is_knowledge_anyway]]'
 ---

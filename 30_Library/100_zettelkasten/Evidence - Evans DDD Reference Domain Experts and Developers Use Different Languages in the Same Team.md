@@ -13,7 +13,6 @@ source_reference: Eric Evans, Domain-Driven Design Reference - Definitions and P
 supports_claims: ["[[The Illusion of Shared Understanding in Teams]]"]
 tags: [communication, mental-models, teams, TheHuman/Cognition/mental-model]
 title: Evidence - Evans DDD Reference Domain Experts and Developers Use Different Languages in the Same Team
-  Languages in the Same Team
 type: evidence
 ---
 

@@ -12,7 +12,6 @@ source_reference: Sönke Ahrens, How to Take Smart Notes - One Simple Technique 
 supports_claims: ["[[Finding Thoughts]]"]
 tags: [evidence, luhmann, note-taking, zettelkasten]
 title: Evidence - Ahrens on Luhmann Overview Notes Reached From the Index as Entry Points Into a Topic
-  Points Into a Topic
 type: evidence
 ---
 

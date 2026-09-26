@@ -19,7 +19,6 @@ source_url: UNKNOWN
 status: seed
 tags: [knowledge-graph, relationships, taxonomy]
 title: Relationships Between Pieces of Knowledge Can Be Logical, Hierarchical, Associative, Contextual or Temporal
-  Contextual or Temporal
 type: concept
 upstream: '[[21-wtf_is_knowledge_anyway]]'
 used_in_claims: []

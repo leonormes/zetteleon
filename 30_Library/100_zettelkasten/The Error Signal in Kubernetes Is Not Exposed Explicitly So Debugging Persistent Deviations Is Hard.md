@@ -19,7 +19,6 @@ source_url: UNKNOWN
 status: seed
 tags: [debugging, kubernetes, observability]
 title: The Error Signal in Kubernetes Is Not Exposed Explicitly So Debugging Persistent Deviations Is Hard
-  Deviations Is Hard
 type: claim
 upstream: '[[Cybernetic Analysis of Kubernetes State Management.]]'
 ---

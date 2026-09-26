@@ -13,7 +13,6 @@ source_reference: Scott Young, Ultralearning - Accelerate Your Career, Master Ha
 supports_claims: ["[[Comparison - Knowing vs Understanding]]"]
 tags: [chunking, evidence, expertise, memory]
 title: Evidence - Ultralearning Chess Experts Rely on Stored Patterns Where Beginners Remember Piece by Piece
-  Remember Piece by Piece
 type: evidence
 ---
 

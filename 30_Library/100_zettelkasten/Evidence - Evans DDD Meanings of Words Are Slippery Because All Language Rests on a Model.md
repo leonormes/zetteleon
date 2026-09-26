@@ -11,7 +11,6 @@ source_reference: Eric Evans, Domain-Driven Design - Tackling Complexity in the 
 supports_claims: ["[[The Illusion of Shared Understanding in Teams]]"]
 tags: [communication, mental-models, teams, TheHuman/Cognition/mental-model]
 title: Evidence - Evans DDD Meanings of Words Are Slippery Because All Language Rests on a Model
-  on a Model
 type: evidence
 ---
 

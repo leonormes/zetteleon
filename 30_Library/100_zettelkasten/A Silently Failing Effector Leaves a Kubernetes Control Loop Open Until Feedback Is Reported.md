@@ -20,7 +20,6 @@ source_url: UNKNOWN
 status: seed
 tags: [kubelet, kubernetes, open-loop]
 title: A Silently Failing Effector Leaves a Kubernetes Control Loop Open Until Feedback Is Reported
-  Is Reported
 type: claim
 upstream: '[[Cybernetic Analysis of Kubernetes State Management.]]'
 ---

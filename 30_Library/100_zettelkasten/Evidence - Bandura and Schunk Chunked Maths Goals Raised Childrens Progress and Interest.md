@@ -12,7 +12,6 @@ source_reference: Owain Service, Think Small - The Surprisingly Simple Ways to R
 supports_claims: ["[[Micro-Stepping Reduces Cognitive Load for Task Initiation]]"]
 tags: [chunking, evidence, goal-setting, learning]
 title: Evidence - Bandura and Schunk Chunked Maths Goals Raised Childrens Progress and Interest
-  and Interest
 type: evidence
 ---
 

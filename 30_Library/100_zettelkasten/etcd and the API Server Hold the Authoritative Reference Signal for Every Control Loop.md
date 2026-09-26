@@ -19,7 +19,6 @@ source_url: UNKNOWN
 status: seed
 tags: [api-server, etcd, kubernetes]
 title: etcd and the API Server Hold the Authoritative Reference Signal for Every Control Loop
-  Loop
 type: claim
 upstream: '[[Cybernetic Analysis of Kubernetes State Management.]]'
 ---

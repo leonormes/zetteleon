@@ -19,7 +19,6 @@ source_url: UNKNOWN
 status: seed
 tags: [controllers, kubernetes, robustness]
 title: Level-Triggered Idempotent Controllers Tolerate Latency and Event Reordering in Kubernetes
-  in Kubernetes
 type: claim
 upstream: '[[Cybernetic Analysis of Kubernetes State Management.]]'
 ---

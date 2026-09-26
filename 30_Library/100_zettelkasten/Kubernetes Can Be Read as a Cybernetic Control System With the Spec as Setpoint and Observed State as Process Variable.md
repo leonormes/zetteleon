@@ -19,7 +19,6 @@ source_url: UNKNOWN
 status: seed
 tags: [control-theory, cybernetics, kubernetes]
 title: Kubernetes Can Be Read as a Cybernetic Control System With the Spec as Setpoint and Observed State as Process Variable
-  and Observed State as Process Variable
 type: claim
 upstream: '[[Cybernetic Analysis of Kubernetes State Management.]]'
 ---

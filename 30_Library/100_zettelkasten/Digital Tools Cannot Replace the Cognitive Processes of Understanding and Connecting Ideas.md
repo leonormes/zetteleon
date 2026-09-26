@@ -14,7 +14,6 @@ source_title: beyond words (vault note)
 source_url: UNKNOWN
 tags: [cognition, digital-tools, limits, pkm, understanding]
 title: Digital Tools Cannot Replace the Cognitive Processes of Understanding and Connecting Ideas
-  Ideas
 type: claim
 upstream: '[[beyond words]]'
 ---

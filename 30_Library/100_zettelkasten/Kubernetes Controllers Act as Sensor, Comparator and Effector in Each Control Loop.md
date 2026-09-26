@@ -19,7 +19,6 @@ source_url: UNKNOWN
 status: seed
 tags: [control-loop, controllers, kubernetes]
 title: Kubernetes Controllers Act as Sensor, Comparator and Effector in Each Control Loop
-  Loop
 type: claim
 upstream: '[[Cybernetic Analysis of Kubernetes State Management.]]'
 ---

@@ -18,7 +18,6 @@ source_url: UNKNOWN
 status: seed
 tags: [distinction, epistemology, information, knowledge]
 title: Information Answers Who, What, When and Where Questions While Knowledge Answers Why and How
-  Why and How
 type: claim
 upstream: '[[21-wtf_is_knowledge_anyway]]'
 ---

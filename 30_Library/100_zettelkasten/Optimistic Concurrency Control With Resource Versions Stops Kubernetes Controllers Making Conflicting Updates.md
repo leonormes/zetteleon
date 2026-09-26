@@ -19,7 +19,6 @@ source_url: UNKNOWN
 status: seed
 tags: [api-server, concurrency, kubernetes]
 title: Optimistic Concurrency Control With Resource Versions Stops Kubernetes Controllers Making Conflicting Updates
-  Making Conflicting Updates
 type: claim
 upstream: '[[Cybernetic Analysis of Kubernetes State Management.]]'
 ---
