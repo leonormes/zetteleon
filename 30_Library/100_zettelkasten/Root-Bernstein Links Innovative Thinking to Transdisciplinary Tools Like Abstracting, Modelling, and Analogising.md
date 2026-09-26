@@ -5,7 +5,7 @@ created: 2026-09-14T12:09:37+00:00
 created_utc: '2026-09-14T00:00:00Z'
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-19T15:44:42+00:00
+modified: 2026-09-25T16:29:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/root-bernstein-links-innovative-thinking-to-transdisciplinary-tools-like-abstracting-modelling-and-analogising
 proposition: Robert Root-Bernstein's research on polymathy argues the most innovative thinkers are often "artistic scientists and scientific artists" who use transdisciplinary thinking tools—abstracting, modelling, and analogising—to translate insight from one domain into another.
 source_title: PKM Meta-Graph System Research

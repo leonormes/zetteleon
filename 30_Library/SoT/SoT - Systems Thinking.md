@@ -83,3 +83,4 @@ Donella Meadows identified that not all interventions are equal.
 - [[SoT - What is a Problem]]—_Defining problems as emergent dysfunctions of a system._
 - [[Emergence]] _(Core definition of emergence: complex patterns arising from simple interactions, key concept in systems theory and complexity science)_
 - [[SoT - Cynefin Framework]]—_Sense-making model for categorizing problems by cause-effect predictability (Clear/Complicated/Complex/Chaotic); explains why treating a Complex system as Complicated risks collapse into Chaos._
+- [[Cybernetics]]—_The study of self-regulation through feedback, the branch of systems thinking that treats control and information as the core._

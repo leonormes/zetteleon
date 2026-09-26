@@ -6,7 +6,7 @@ contradicts: []
 created: 2026-08-02T23:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-19T15:44:37+00:00
+modified: 2026-09-25T16:29:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/intellectual-rigour-means-manufacturing-the-friction-that-abstraction-removes
 proposition: "Because abstract work supplies no natural resistance, rigour consists of deliberately seeking out evidence that resists one's preferred theory — artificially reconstructing the boundary conditions that physical reality imposes for free."
 tags: [epistemology, rigour, TheHuman/Cognition, topic/thinking]

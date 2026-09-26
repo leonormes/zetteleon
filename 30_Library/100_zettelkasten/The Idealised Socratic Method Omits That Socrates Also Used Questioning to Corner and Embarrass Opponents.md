@@ -5,7 +5,7 @@ created: 2026-09-14T15:14:53+00:00
 created_utc: '2026-09-14T00:00:00Z'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-20T18:49:34+00:00
+modified: 2026-09-25T16:29:33+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-idealised-socratic-method-omits-that-socrates-also-used-questioning-to-corner-and-embarrass-opponents
 prodos.kind: atomic
 prodos.lifecycle: seed

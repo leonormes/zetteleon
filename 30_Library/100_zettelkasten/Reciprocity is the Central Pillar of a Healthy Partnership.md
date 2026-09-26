@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-11-10T10:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-19T15:44:41+00:00
+modified: 2026-09-25T16:29:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/reciprocity-is-the-central-pillar-of-a-healthy-partnership
 proposition: In a healthy partnership, the expectations one partner has for the other should be the same expectations they are willing to meet themselves.
 tags: [partnership, principle, relationship]

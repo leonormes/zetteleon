@@ -1,6 +1,6 @@
 ---
 created: 2026-07-28T07:58:14+00:00
-modified: 2026-09-19T15:44:34+00:00
+modified: 2026-09-25T16:29:22+00:00
 permalink: llmeon/30-library/100-zettelkasten/error-handling-and-retry-pipelines-for-llm-failures
 tags: [domain/llm, topic/architecture-pattern, topic/error-handling, topic/reliability, topic/resilience]
 title: Error Handling and Retry Pipelines for LLM Failures

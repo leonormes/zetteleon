@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T00:00:00+00:00
-modified: 2026-09-21T17:05:55+01:00
+modified: 2026-09-25T16:29:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-raise
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Raise
@@ -18,7 +18,7 @@ Raise is the act of lifting the bow to eye level while seating the bow-side shou
 2. Weight forward—shift a small amount of weight onto the front foot so the bow shoulder drops and elongates.
 3. Pre-tension the string—take up slight tension (approx. 1 inch).
 4. Lift & Breathe (Zen Breath)—raise both hands to eye level while inhaling deeply for four seconds to oxygenate blood and lower heart rate. Keep the chest down and lift the arms independently of the ribcage (never shrug the shoulders). The bow hand should travel perfectly vertically without sweeping in a wide arc.
-5. Rotate the bow arm & Triceps Engine—internally rotate during the raise (elbow turned outward/vertical), before full draw weight loads onto the bow. The **triceps** should act as the primary engine of the bow arm to maintain this **vertical elbow rotation** (bony protrusions of radius/ulna pointing down), which locks the arm structurally, connects power to the body, and prevents string slap.
+5. Rotate the bow arm & Triceps Engine—internally rotate during the raise (elbow turned outward/vertical), before full draw weight loads onto the bow. The triceps should act as the primary engine of the bow arm to maintain this vertical elbow rotation (bony protrusions of radius/ulna pointing down), which locks the arm structurally, connects power to the body, and prevents string slap.
 6. Reach—at the top of the raise, extend the base of the bow wrist/hand as far as possible directly toward the target. Focus on the movement of reaching; this automatically forces the shoulder down, fires the lats and triceps, and wraps tension around the arm down to the wrist (do not overthink flexing individual muscles).
 7. Apex Breath & Settle—as you reach the apex of the lift, breathe out and settle downward slightly into your final Set-Up position to relax and stabilize the shoulders.
 8. Hold the reach—maintain that reaching tension continuously while pulling the string back.
@@ -43,6 +43,8 @@ Verification—the acromion divot: when the reach is set correctly, the deltoid 
 ### Faults & Diagnostics
 
 - High/creeping shoulder: felt immediately as tightness in the traps and neck, plus elevated pressure in the humerus—a reliable self-diagnostic.
+- The "High Shoulder" Illusion (Rib Cage Tilt): A shoulder that looks too high is often not elevated at all. A rib cage tilted backward (away from the target) pushes the bow shoulder up in space, so it looks high. Pushing the shoulder down will not work while the rib cage stays tilted; fix the spine and rib cage alignment first (see [[Archery Shot Process - Posture]]).
+- Do Not Lean Forward to Reach: Reach as far as you can toward the target on the lift, but do not lean forward and compromise the spine to do it. The reach is a limb movement over a stable, vertical trunk.
 - Fully Locked and Pushed Out: Aggressively pushing your bow shoulder completely out of the socket and away from the spine forces it into a weak, compromised state and makes elbow rotation painful. Keep the shoulder in a natural, neutral position instead.
 - Do Not Squeeze the Scapula (Over-pinned scapula): Squeezing your bow arm scapula backward toward your spine while raising the bow is a major mistake. Doing so collapses the front of your chest and eliminates the structural space your draw shoulder needs to rotate into proper alignment. Driving or over-pushing the bow forces the front scapula backward until it presses against the spine, locking the shoulder girdle.
 - Over-Fixating on a Perfectly Still Shoulder: When rotating your bow arm elbow to vertical, it is biomechanically necessary for the surrounding shoulder muscles to move slightly. Trying to keep the shoulder muscles perfectly frozen is a mistake, though you should avoid rolling the entire joint forward.
@@ -67,6 +69,7 @@ Stand facing forward with relaxed arms, look toward the target, and simply raise
 ### References
 
 - Set-Up Position with Jake Kaminski | Recurve Archery Form Series Episode 6
+- Jake Kaminski, high bow shoulder / tilted rib cage video (YouTube EEMXB1nHmTk)
 - 4 DAMAGING bow shoulder myths - Archery Technique (Online Archery Academy)
 - How to raise your bow… WITHOUT messing up your shoulder position! (Rogue Archery TV)
 - Draw Shoulder Technique - Reduce Injury Risk and Increase Efficiency (Online Archery Academy)

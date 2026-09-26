@@ -4,7 +4,7 @@ conformant: true
 created: 2025-08-31T16:08:27+00:00
 definition: "A taxonomy of knowledge that resists linguistic articulation, spanning experiential, embodied, tacit, aesthetic, and spiritual/mystical forms — proposed as a challenge to epistemological frameworks that privilege propositional (sentence-shaped) knowledge."
 distinguishes_from: ["[[Tacit vs Explicit Knowledge]]"]
-modified: 2026-09-19T15:44:45+00:00
+modified: 2026-09-25T16:29:35+00:00
 permalink: llmeon/30-library/100-zettelkasten/types-of-non-linguistic-knowledge
 tags: [epistemology, knowledge, non-linguistic-knowledge, topic/philosophy]
 title: Types of Non-Linguistic Knowledge

@@ -4,12 +4,12 @@ conformant: true
 created: 2026-09-20T00:00:00+00:00
 definition: "Goal displacement occurs when the original terminal goal of an activity is quietly replaced by conformity to the rules, procedures, or credentials that were originally only instrumental means toward it — the means become the end in themselves, and success gets measured by adherence to the proxy rather than by the underlying outcome it was meant to serve."
 distinguishes_from: ["[[Commitment, Consistency, and Sunk Cost Fallacy]]"]
-modified: 2026-09-20T00:00:00+00:00
+modified: 2026-09-25T16:29:23+00:00
 permalink: llmeon/30-library/100-zettelkasten/goal-displacement
-tags: [TheHuman/Psychology, TheHuman/Cognition/bias, TheHuman/Motivation]
+tags: [TheHuman/Cognition/bias, TheHuman/Motivation, TheHuman/Psychology]
 title: Goal Displacement
 type: concept
-used_in_claims: ["[[Process Over Outcome Mindset]]", "[[Commitment, Consistency, and Sunk Cost Fallacy]]"]
+used_in_claims: ["[[Commitment, Consistency, and Sunk Cost Fallacy]]", "[[Process Over Outcome Mindset]]"]
 ---
 
 ## Definition
@@ -27,5 +27,5 @@ In the personal-productivity context this vault mostly tracks, goal displacement
 ## Related
 
 - [[Process Over Outcome Mindset]]—the note that names this concept as the specific failure mode a process orientation is meant to prevent.
-- [[Commitment, Consistency, and Sunk Cost Fallacy]]—cites goal displacement alongside its own mechanism, but the two are distinct: sunk cost is escalating commitment to a *past investment*; goal displacement is a *means substituting for an end*, independent of any prior investment.
+- [[Commitment, Consistency, and Sunk Cost Fallacy]]—cites goal displacement alongside its own mechanism, but the two are distinct: sunk cost is escalating commitment to a _past investment_; goal displacement is a _means substituting for an end_, independent of any prior investment.
 - [[Outcome-Goal Systems Cause Motivational Decay - Process Milestones Sustain Engagement]]—addresses a related but separate problem (reward-timing in outcome-only systems), not means/ends substitution.

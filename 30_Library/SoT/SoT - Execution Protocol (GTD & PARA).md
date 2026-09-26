@@ -87,3 +87,17 @@ A Project or Task is not "Done" until it meets the Exit Criteria.
 1. Binary State: It is either 100% done or not started. No "90% done".
 2. MVP Mindset: "What is the smallest version of this that counts?" (e.g., Draft sent vs. Perfect email).
 3. Tidy Exit: Clean up the workspace (digital/physical) after completion for the next session.
+
+---
+
+## Where It Runs
+
+The stages above are executed by these ProdOS notes. This SoT defines the terms and the exit test; they do the work.
+
+- [[SoT - PRODOS Core Specification]]—_Section 3.1 (Thinking Stream) and 3.2 (the MVA) are the capture front end and the atomic Task this SoT's Phase 5 engages._
+- [[Protocol - Autonomous Action System]]—_The agent's Refine phase separates Projects from Next Actions and creates them in Todoist (Clarify and Organize); its Health Check is the Reflect stage._
+- [[Protocol - Action-First GTD (LLM Chief of Staff)]]—_The LLM hand-off for Clarify and Organize; its unit test (a physical artifact for every project, binary next actions) restates the Definition of Done in section 3._
+- [[Protocol - Vague-to-Action]]—_Clarify for items that feel too heavy to define: its Phase 1 (define done, name the outcome) is the naming rule in section 1 applied under avoidance._
+- [[The Clarification Ritual (Stuff to Action)]]—_An untested daily experiment that runs the Clarify stage as a timed 15 minute session with a strict do-not-do-the-work rule._
+- [[Protocol - Weekly Command Centre]]—_Reflect stage, run as a reduced Tier 0 floor; Move 3 is the check that every active commitment has a next action._
+

@@ -5,7 +5,7 @@ created: 2026-09-18T00:00:00+00:00
 created_utc: 2026-09-18 00:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-19T15:44:42+00:00
+modified: 2026-09-25T16:29:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/shared-memory-multi-core-systems-require-kernel-enforced-synchronization-to-prevent-race-conditions
 prodos.atomic.form: mechanism
 prodos.kind: atomic

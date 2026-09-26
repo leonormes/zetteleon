@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T00:00:00+00:00
-modified: 2026-09-21T14:32:03+01:00
+modified: 2026-09-25T16:29:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-stance
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Stance
@@ -15,16 +15,16 @@ Stance sets a stable base for maximal stability. The angle and positioning of th
 
 1. Foot Placement: Stand with feet roughly shoulder-width apart, pointing forwards (or slightly turned out), and equidistant along the shooting line. Once you set your stance, plant your feet and stay there; do not shuffle or move your feet between arrows.
 2. Stance Variations (There is no single "perfect" stance; it depends on body, bow setup, and technique. General Rule: The more open the stance, the easier it is to connect the draw side. The more closed the stance, the more it favors bow-side alignment and stability):
-   - **Square Stance**: Stand with feet exactly in line and shoulder-width apart. Alignment Tip: Place an arrow on the ground pointing directly at the target to help align your feet.
-     - *Pros*: Easier to maintain a vertical "T" posture; requires less torso rotation (less spine stress/fatigue). Recommended for beginners or those with limited upper body flexibility.
-     - *Cons*: Less stable in crosswinds; natural alignment can make archers "lazy," forgetting to actively engage core and back muscles.
-   - **Open Stance**: Place the front foot slightly ahead of the back foot to create a diagonal/open stance towards the target. Open the feet roughly 10° to 15° toward the target line. To set this accurately, imagine a straight line running from the target through the ball of your front foot; that line should intersect the instep of your back foot. Keep your back foot close to parallel with your front foot.
-     - *Pros*: Naturally encourages a strong draw-side connection (hook, hand, elbow, back); provides better wind stability; recommended for heavy mass weight bows as it allows resting the bow on the leg during setup.
-     - *Cons*: Torso twisting can cause fatigue or back pain; if flexibility is lacking, it makes aligning the bow shoulder much harder.
+   - Square Stance: Stand with feet exactly in line and shoulder-width apart. Alignment Tip: Place an arrow on the ground pointing directly at the target to help align your feet.
+     - _Pros_: Easier to maintain a vertical "T" posture; requires less torso rotation (less spine stress/fatigue). Recommended for beginners or those with limited upper body flexibility.
+     - _Cons_: Less stable in crosswinds; natural alignment can make archers "lazy," forgetting to actively engage core and back muscles.
+   - Open Stance: Place the front foot slightly ahead of the back foot to create a diagonal/open stance towards the target. Open the feet roughly 10° to 15° toward the target line. To set this accurately, imagine a straight line running from the target through the ball of your front foot; that line should intersect the instep of your back foot. Keep your back foot close to parallel with your front foot.
+     - _Pros_: Naturally encourages a strong draw-side connection (hook, hand, elbow, back); provides better wind stability; recommended for heavy mass weight bows as it allows resting the bow on the leg during setup.
+     - _Cons_: Torso twisting can cause fatigue or back pain; if flexibility is lacking, it makes aligning the bow shoulder much harder.
      - _Olympic Standard Alignment:_ The ball of the back foot rests precisely on the target line, rotated 15 degrees open. The front foot is placed approximately two inches behind the target line and rotated 30 degrees open toward the target.
-   - **Closed Stance**: Similar to square, but with the rear foot moved slightly back and turned outward (for a right-handed archer, the right foot moves back).
-     - *Pros*: Provides extra stability and power to the front bow shoulder and minimizes pelvic movement upon release (if draw-side connection is already solid).
-     - *Cons*: Niche stance; limits range of motion because shoulders start very close to their final aligned position, making it difficult to open the bow properly.
+   - Closed Stance: Similar to square, but with the rear foot moved slightly back and turned outward (for a right-handed archer, the right foot moves back).
+     - _Pros_: Provides extra stability and power to the front bow shoulder and minimizes pelvic movement upon release (if draw-side connection is already solid).
+     - _Cons_: Niche stance; limits range of motion because shoulders start very close to their final aligned position, making it difficult to open the bow properly.
 3. Hips Over Feet: Do not pivot your hips back to square them with the target line. Your hips must remain locked directly over the angle of your feet.
 4. Weight Distribution: Maintain an even weight balance across both feet (50/50 balance). Alternatively, use a forward bias (60/40 split), shifting 60% of your body weight onto the balls of your feet and 40% on your heels.
 5. Knee Position: Keep knees straight, but never lock them out.

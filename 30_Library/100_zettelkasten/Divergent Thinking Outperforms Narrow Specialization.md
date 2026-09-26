@@ -5,7 +5,7 @@ contradicts: ["[[Domain Knowledge Becomes Competitive Advantage as LLM Access Co
 created: 2025-11-01T12:30:01+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-19T15:44:34+00:00
+modified: 2026-09-25T16:29:21+00:00
 permalink: llmeon/30-library/100-zettelkasten/divergent-thinking-outperforms-narrow-specialization
 proposition: "Broad, divergent thinking outperforms narrow, early specialization in dynamic ('wicked') environments, where success depends on synthesising changing, diverse information rather than executing stable, predictable rules."
 tags: [adaptability, divergent-thinking, innovation, specialization]

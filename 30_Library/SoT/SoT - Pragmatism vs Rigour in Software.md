@@ -84,3 +84,4 @@ _Use when starting a new project or defining team engineering principles._
 - [[SoT - Padded Cell vs Nanny Languages]]
 - [[SoT - Runtime Guards vs Compile-Time Proofs]]
 - [[SoT - System Incompleteness and Meta-Systems]]
+- Case study, consensus protocols: [[Paxos vs Raft (Correctness vs Intuition)]]

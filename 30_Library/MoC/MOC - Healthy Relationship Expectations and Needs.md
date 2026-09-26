@@ -65,7 +65,7 @@ While every individual is different, these are fundamental _human_ needs that ar
 1. The Need to Feel Respected & Admired: This is often a core need, as explained in [[The Need to Feel Respected and Admired is a Core Human Need in a Partnership]].
 2. The Need for Physical Intimacy & Affection: This is a vital form of connection, detailed in [[The Need for Physical Intimacy and Affection is a Vital Form of Connection]].
 3. The Need for Emotional Connection: This is the need to feel known and accepted, as covered in [[The Need for Emotional Connection Fosters a Sense of Being Known and Accepted]].
-4. The Need for Autonomy: This is the need to maintain your own identity, which is explored in [[The Need for Autonomy Preserves Personal Identity Within a Partnership]]
+4. The Need for Autonomy: This is the need to maintain your own identity, which is explored in [[Mutual Respect in a Partnership Involves Valuing Opinions Speaking Kindly and Honouring Boundaries|Mutual Respect and honouring boundaries]]
 
 ---
 

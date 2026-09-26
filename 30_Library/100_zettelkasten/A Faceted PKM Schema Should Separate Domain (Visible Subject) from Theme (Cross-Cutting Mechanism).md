@@ -1,9 +1,9 @@
 ---
 conformant: false
-non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true)"
 created: 2026-09-13T09:35:01+00:00
 created_utc: '2026-09-13T00:00:00Z'
-modified: 2026-09-20T19:26:07+00:00
+modified: 2026-09-25T16:29:15+00:00
+non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true)"
 permalink: llmeon/00-inbox/a-faceted-pkm-schema-should-separate-domain-visible-subject-from-theme-cross-cutting-mechanism
 source_title: A Portable Interest and PKM Knowledge Graph
 source_url: UNKNOWN

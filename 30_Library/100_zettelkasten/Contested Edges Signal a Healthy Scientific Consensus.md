@@ -6,7 +6,7 @@ created: 2026-09-04T09:25:36+00:00
 created_utc: 2026-09-04T14:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-19T15:44:33+00:00
+modified: 2026-09-25T16:29:20+00:00
 permalink: llmeon/00-inbox/contested-edges-signal-a-healthy-scientific-consensus
 proposition: A genuine scientific consensus keeps its core settled while its boundaries remain an active battleground of competing hypotheses; total uniformity with no internal disagreement is itself a warning sign of institutional groupthink.
 source_title: New chat

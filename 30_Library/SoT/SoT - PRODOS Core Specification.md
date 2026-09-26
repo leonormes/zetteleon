@@ -46,6 +46,8 @@ When a task lacks intrinsic motivation, the Problem Definer must "gamify" the ex
 
 ### 3. Execution Protocols
 
+The definitions these protocols assume (PARA Container, GTD Project, Task, and the Definition of Done) live in [[SoT - Execution Protocol (GTD & PARA)]].
+
 #### 3.1 The Thinking Stream & 120s Loop
 
 Before any action, you must clear mental RAM. See [[SoT - ProdOS Thinking Stream]] for the Capture-Refine-Process-Exit loop.

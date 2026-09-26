@@ -5,7 +5,7 @@ created: 2025-05-08T06:57:07+00:00
 definition: The logical error of assuming a newer idea, tool, or solution is better simply because it is new, without evidence of its actual merit relative to the alternative it replaces.
 distinguishes_from: ['[[Novelty Effect]]']
 last_reviewed: 'null'
-modified: 2026-09-19T15:44:30+00:00
+modified: 2026-09-25T16:29:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/appeal-to-novelty
 tags: [novelty, TheHuman/Cognition/bias, TheHuman/Health/ADHD]
 title: Appeal to Novelty

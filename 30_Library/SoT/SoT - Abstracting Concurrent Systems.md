@@ -99,3 +99,4 @@ To verify data properties without crossing privacy boundaries (The Privacy Parad
 - Philosophy: [[SoT - The Data-Centric Philosophy]]
 - Implementation: [[SoT - Zero Knowledge Architecture]]
 - Language Specifics: [[SoT - State Machines in Rust]]
+- Evidence for section 3.1: [[Byzantine Fault Tolerance Requirements]]

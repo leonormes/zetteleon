@@ -6,7 +6,7 @@ contradicts: []
 created: 2026-09-04T12:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-19T15:44:39+00:00
+modified: 2026-09-25T16:29:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/mini-routines-are-event-triggered-sequences-rather-than-time-based-schedules
 proposition: A mini routine is structurally defined by what starts it—the completion of an activity or a natural life event, not a clock time—which is the specific mechanism that lets event-based routines eliminate the psychological burden of clock-watching and adapt to day-to-day variation.
 source: '[[MOC - How To Create And Use Mini Routines]]'

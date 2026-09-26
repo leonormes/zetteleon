@@ -6,7 +6,7 @@ created: 2025-06-18T17:32:46+00:00
 epistemic_status: medium
 evidence_links: []
 last_reviewed: ''
-modified: 2026-09-19T15:44:41+00:00
+modified: 2026-09-25T16:29:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/radical-simplicity-the-dont-make-me-think-rule
 proposition: A personal knowledge system should minimise its moving parts and make capture, organisation, and retrieval so obvious that they require no conscious recall of rules — friction, not a lack of features, is the primary design failure to guard against.
 tags: [domain/pkm, topic/knowledge-architecture, topic/pkm, topic/productivity, topic/simplicity]

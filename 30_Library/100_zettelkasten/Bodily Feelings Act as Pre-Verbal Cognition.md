@@ -5,7 +5,7 @@ created: 2026-09-21T08:54:40+00:00
 created_utc: '2026-09-21T08:54:40+00:00'
 epistemic_status: low
 evidence_links: []
-modified: 2026-09-21T11:44:36+00:00
+modified: 2026-09-25T16:29:18+00:00
 non_conformance_reason: ''
 permalink: llmeon/00-inbox/bodily-feelings-act-as-pre-verbal-cognition
 proposition: Bodily feelings work as a primary form of cognition that guides decisions

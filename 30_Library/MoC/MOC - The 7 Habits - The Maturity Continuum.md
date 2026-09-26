@@ -41,3 +41,4 @@ The final habit sustains the entire process:
 
 - [[SoT - Execution Protocol (GTD & PARA)]] - _The vault's GTD/PARA task-and-project vocabulary that Habit 3 depends on to turn priorities into atomic actions._
 - [[MOC - ProdOS]] - _The broader productivity system that operationalises several of these habits as concrete protocols and commands._
+- [[The Need to Feel Respected and Admired is a Core Human Need in a Partnership]] - _A partnership need that Habits 4 to 7 serve: feeling understood, valued and respected._

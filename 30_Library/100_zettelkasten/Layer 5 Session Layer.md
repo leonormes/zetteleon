@@ -1,9 +1,9 @@
 ---
 aliases: []
 conformant: false
-non_conformance_reason: "missing required field - type"
 created: 2025-05-17T16:32:24+00:00
-modified: 2026-09-19T15:44:38+00:00
+modified: 2026-09-25T16:29:26+00:00
+non_conformance_reason: "missing required field - type"
 permalink: llmeon/30-library/100-zettelkasten/layer-5-session-layer
 prodos.kind: concept
 prodos.lifecycle: stub

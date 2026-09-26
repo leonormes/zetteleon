@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-11-10T10:09:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-19T15:44:44+00:00
+modified: 2026-09-25T16:29:34+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-need-for-emotional-connection-fosters-a-sense-of-being-known-and-accepted
 proposition: "A fundamental human need in a partnership is for emotional connection, which is the feeling of being truly known and accepted by one's partner."
 tags: [emotional-connection, needs, relationship, vulnerability]

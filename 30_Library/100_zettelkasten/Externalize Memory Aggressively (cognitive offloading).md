@@ -2,7 +2,7 @@
 aliases: [Cognitive Offloading, Second Brain]
 conformant: false
 created: 2025-08-19T23:58:53+00:00
-modified: 2026-09-19T15:44:35+00:00
+modified: 2026-09-25T16:29:22+00:00
 non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/externalize-memory-aggressively-cognitive-offloading
 tags: [topic/pkm]

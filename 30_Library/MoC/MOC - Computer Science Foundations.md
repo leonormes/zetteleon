@@ -59,6 +59,8 @@ How we scale and connect systems.
 
 - [[SoT - Cloud Networking Core Components]]—_The Pipe._ Gateways, Routing, and Addressing in AWS/Azure.
 - [[SoT - Automated Cloud Resource Hibernation]]—_The Cost._ Strategies for managing cloud spend through scheduled dormancy.
+- [[Byzantine Fault Tolerance Requirements]]—_The Fault Model._ How many nodes a distributed system needs to survive lying components (3n + 1, or 2n + 1 with signatures); entry point to its concurrency-cluster siblings.
+- [[Paxos vs Raft (Correctness vs Intuition)]]—_The Consensus Trade-off._ Why industry favours the understandable protocol (Raft) over the formally proven one (Paxos), and what that costs.
 
 ---
 

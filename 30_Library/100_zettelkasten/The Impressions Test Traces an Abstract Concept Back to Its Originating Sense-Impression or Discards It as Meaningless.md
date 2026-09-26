@@ -1,9 +1,9 @@
 ---
 conformant: false
-non_conformance_reason: "missing schema field trigger for type procedure (required when conformant - true); missing schema field steps for type procedure (required when conformant - true); missing schema field verification for type procedure (required when conformant - true)"
 created: 2026-09-14T15:24:30+00:00
 created_utc: '2026-09-14T00:00:00Z'
-modified: 2026-09-19T15:44:44+00:00
+modified: 2026-09-25T16:29:33+00:00
+non_conformance_reason: "missing schema field trigger for type procedure (required when conformant - true); missing schema field steps for type procedure (required when conformant - true); missing schema field verification for type procedure (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/the-impressions-test-traces-an-abstract-concept-back-to-its-originating-sense-impression-or-discards-it-as-meaningless
 prodos.kind: atomic
 prodos.lifecycle: seed

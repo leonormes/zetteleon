@@ -4,7 +4,7 @@ contradicts: []
 created: 2026-09-08T00:00:00+00:00
 epistemic_status: low
 evidence_links: []
-modified: 2026-09-19T15:44:44+00:00
+modified: 2026-09-25T16:29:33+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/the-gut-microbiome-may-influence-adhd-linked-brain-energy-metabolism-and-development
 prodos.kind: atomic

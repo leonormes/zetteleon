@@ -39,6 +39,7 @@ For undiagnosed adults, the brain often constructs a "Personal Myth" to survive 
 - The Logic: "If I am different, and I am struggling, I am either broken OR I am special/better."
 - The Shield: The ego chooses "Special/Better" to preserve dopamine and self-worth.
 - The Cost: This leads to an "Unwinnable Game of Comparison" where self-worth is contingent on being 1. It creates isolation and misery because "Average" equals "Vulnerable."
+  - See also [[Compare Oneself to Yesterday's Self Not Others]]—_the alternative baseline: yesterday's self._
 - The Shift: Move from Superiority ("I am better") to Authenticity ("I am unique"). Your value comes from your specific neuro-configuration, not your rank.
 
 ### 2.2 The "Demon" (Rumination)

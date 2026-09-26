@@ -2,7 +2,7 @@
 aliases: [Chunking Information Through Writing]
 created: 2025-07-18T00:00:00+00:00
 last_reviewed: ''
-modified: 2026-09-19T15:44:46+00:00
+modified: 2026-09-25T16:29:36+00:00
 permalink: llmeon/30-library/100-zettelkasten/writing-reduces-cognitive-load-by-chunking-information
 see_also: []
 superseded_by: ''

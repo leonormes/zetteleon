@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-10-30T17:33:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-19T15:44:35+00:00
+modified: 2026-09-25T16:29:22+00:00
 permalink: llmeon/30-library/100-zettelkasten/event-based-structure-reduces-time-pressure-anxiety
 proposition: Event-based scheduling structures minimize time-pressure anxiety and reduce the psychological burden of clock-watching by decoupling routines from specific times and instead tying them to completed activities or natural life events.
 source: '[[MOC - How To Create And Use Mini Routines]]'

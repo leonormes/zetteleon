@@ -7,7 +7,7 @@ created: 2026-04-14T20:54:58+00:00
 created_utc: '2026-04-14T14:20:00Z'
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-19T15:44:37+00:00
+modified: 2026-09-25T16:29:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/jevons-paradox-of-attention
 proposition: "Increased efficiency in digital communication and AI tools increases, rather than decreases, the total consumption of human attention: low-friction messaging generates new demands that fill any freed-up capacity, making attention an even scarcer resource — an application of Jevons Paradox from resource economics."
 source_title: Why Is AI Making My Job Worse?

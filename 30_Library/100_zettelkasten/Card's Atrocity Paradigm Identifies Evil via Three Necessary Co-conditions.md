@@ -1,9 +1,13 @@
 ---
-conformant: false
+conformant: true
+contradicts: []
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-09-19T15:44:32+00:00
-non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
+epistemic_status: medium
+evidence_links: []
+modified: 2026-09-25T16:29:19+00:00
+non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/cards-atrocity-paradigm-identifies-evil-via-three-necessary-co-conditions
+proposition: The Atrocity Paradigm of Claudia Card identifies evil as harm that is culpable, reasonably foreseeable and intolerable, all three being jointly necessary.
 tags: [atrocities, claudia-card, heuristic, moral-philosophy]
 title: "Card's Atrocity Paradigm Identifies Evil via Three Necessary Co-conditions"
 type: claim
@@ -30,3 +34,13 @@ A "combination approach" to moral classification drawn from Card's _The Atrocity
 
 - [[The Traditional Definition of Knowledge is Justified True Belief]]—shared mechanism: both are classic tripartite necessary-conditions frameworks in analytic philosophy; the Atrocity Paradigm for evil structurally mirrors JTB for knowledge—a combination approach where each condition is necessary and the conjunction is sufficient.
 - [[Evil Harm Is Intolerable Harm That Destroys the Conditions for a Decent Life]]—extends: that atom unpacks the third element of this paradigm in detail; this atom situates it within the full three-condition structure.
+- [[Evil Requires Both Culpability and Foreseeability — Without These It Is Tragedy]]—_Unpacks the first two conditions (culpable wrongdoing, reasonable foreseeability) in detail._
+- [[Evil Structurally Requires a Radical Power Asymmetry Directed at the Defenceless]]—_A diagnostic marker that typically accompanies the third condition but is not one of Card's three necessary conditions._
+- [[Evil Arises from Malice or Thoughtless Banality — Motivation Is Not Determinative]]—_Why foreseeability, not motive, is the variable that decides condition two._
+- [[Evil Attacks the Shared Moral Community Itself Not Merely a Norm Within It]]—_A further distinguishing feature of evil that the three-condition filter does not itself test._
+- [[Objectification Treats Persons as Instruments and Is a Core Property of Evil]]—_A descriptive property of evil that sits alongside, not inside, the three conditions._
+- [[SoT - Bonhoeffer's Theory of Functional Stupidity]]—_Applies the conditions: a route by which ordinary people come to satisfy them._
+
+[synthesizes:: [[Evil Requires Both Culpability and Foreseeability — Without These It Is Tragedy]], confidence=medium]
+
+[synthesizes:: [[Evil Harm Is Intolerable Harm That Destroys the Conditions for a Decent Life]], confidence=medium]

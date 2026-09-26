@@ -6,7 +6,7 @@ created: 2026-09-09T00:00:00+00:00
 created_utc: 2026-09-09 00:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-19T15:44:38+00:00
+modified: 2026-09-25T16:29:26+00:00
 permalink: llmeon/00-inbox/kuhns-incommensurability-thesis-denies-simple-cross-paradigm-progress
 proposition: Kuhn argued that pre- and post-revolution paradigms are often incommensurable—they use different language and standards of evidence—meaning scientific progress is not a simple march toward objective truth.
 source_title: "Philosophy of science: alternative positions beyond Deutsch vs Godfrey-Smith"

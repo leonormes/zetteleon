@@ -1,9 +1,9 @@
 ---
 conformant: false
-non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true)"
 created: 2026-09-14T11:28:06+00:00
 created_utc: '2026-09-14T00:00:00Z'
-modified: 2026-09-19T15:44:37+00:00
+modified: 2026-09-25T16:29:25+00:00
+non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/information-seeking-is-adaptive-only-while-it-remains-instrumental-to-an-actual-decision
 source_title: The Psychology of Over-preparing and Information Seeking
 source_url: https://minerva-access.unimelb.edu.au/server/api/core/bitstreams/3bf2300b-b46c-409b-8861-a723247dcf70/content

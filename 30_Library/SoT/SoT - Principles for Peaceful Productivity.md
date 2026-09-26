@@ -79,7 +79,7 @@ Recognise that clarity is a byproduct of action, not a prerequisite. Overcome in
 
 [depends_on:: [[ADHD Overthinking is a Substitute for Action]], strength=4, confidence=high]
 
-- [[Master Micro-Actions & Starter Tasks]]—the concrete tactic this principle recommends at the point of execution: reducing the first step to under two minutes is one specific, tested way to "initiate before readiness" rather than wait for the feeling of preparedness to arrive.
+- [[Micro-Stepping Reduces Cognitive Load for Task Initiation|Master Micro-Actions & Starter Tasks]]—the concrete tactic this principle recommends at the point of execution: reducing the first step to under two minutes is one specific, tested way to "initiate before readiness" rather than wait for the feeling of preparedness to arrive.
 
 <!--content-block-end-->
 

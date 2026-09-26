@@ -1,10 +1,10 @@
 ---
 aliases: [Metacognition]
 conformant: false
-non_conformance_reason: "missing required field - type"
 created: 2025-11-10T16:05:00+00:00
 epistemic_status: high
-modified: 2026-09-19T15:44:39+00:00
+modified: 2026-09-25T16:29:27+00:00
+non_conformance_reason: "missing required field - type"
 permalink: llmeon/30-library/100-zettelkasten/metacognition-is-essential-for-guiding-the-deep-learning-process
 prodos.kind: claim
 prodos.lifecycle: stable

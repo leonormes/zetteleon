@@ -22,6 +22,7 @@ This note summarizes the core ideas from the video "How to Build Discipline So S
 
 - Stop Waiting for Motivation: [[Discipline Is a Property of External Structure More Than of Will|systems and environment are the backbone of discipline]], not unreliable motivation.
 - Discipline Is Boring, Invisible, and Repetitive: [[Progress is Built From Small Boring Repeated Actions|Real progress is built from small, consistently repeated actions]].
+- Measure Against Yesterday: [[Compare Oneself to Yesterday's Self Not Others]]—_judge progress against your own earlier baseline, not against other people._
 - Design Your Environment for Success: A key principle of discipline is to use [[Environmental Design for ADHD Focus|environmental design]] to make good choices easy and bad choices hard.
 - Micro-Habits and Compound Choices: [[Success Accumulates Through Thousands of Tiny Daily Choices|Success accumulates through thousands of tiny daily choices]].
 

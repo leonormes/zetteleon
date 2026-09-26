@@ -6,7 +6,7 @@ created: 2025-10-25T14:26:00+00:00
 epistemic_status: medium
 evidence_links: []
 last_reviewed: 'null'
-modified: 2026-09-22T21:19:24+00:00
+modified: 2026-09-25T16:29:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/shiny-object-syndrome-in-adhd
 proposition: '"Shiny Object Syndrome" is a common ADHD behavioural pattern describing the tendency to abandon a current project, system, or interest for a newer, more exciting one, driven by a dopamine cycle of initial spark, fading novelty, and renewed scanning for the next novel thing.'
 tags: [novelty, TheHuman/Health/ADHD, topic/productivity/procrastination]

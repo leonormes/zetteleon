@@ -5,7 +5,7 @@ created: 2026-09-01T16:19:00+00:00
 created_utc: '2026-09-01T16:18:54.888265+00:00'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-19T15:44:46+00:00
+modified: 2026-09-25T16:29:36+00:00
 permalink: llmeon/00-inbox/workspace-storage-must-be-modular-and-adaptable
 proposition: Storage setups must be fundamentally adaptable and modular to handle workflow churn without devolving back into disorder.
 source_title: The 7 rules of organization

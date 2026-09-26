@@ -6,7 +6,7 @@ created: 2026-08-28T17:58:03+00:00
 created_utc: '2026-08-28T18:57:00Z'
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-19T15:44:36+00:00
+modified: 2026-09-25T16:29:24+00:00
 permalink: llmeon/30-library/100-zettelkasten/horizontal-vs.-vertical-execution-in-the-adhd-mind
 proposition: For the ADHD brain, vertical execution (staying within a single project for a session) provides the visible movement and dopamine reward that horizontal execution (interleaving small tasks across disparate projects) fails to trigger.
 source_title: Chat Input

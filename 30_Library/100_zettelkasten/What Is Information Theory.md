@@ -3,7 +3,7 @@ aliases: []
 created: 2025-02-07T12:57:55+00:00
 ID: 4a1a
 last_reviewed: ''
-modified: 2026-09-19T15:44:45+00:00
+modified: 2026-09-25T16:29:36+00:00
 permalink: llmeon/30-library/100-zettelkasten/what-is-information-theory
 tags: [information]
 title: What Is Information Theory

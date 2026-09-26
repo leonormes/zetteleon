@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-26T11:07:00+00:00
 last_reviewed: '2025-12-16T00:00:00.000Z'
-modified: 2026-09-19T15:44:38+00:00
+modified: 2026-09-25T16:29:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/leveraging-ai-and-templates-for-adhd-productivity
 status: draft
 tags: [ai, executive-function, experiment, hypothesis, templates, TheHuman/Health/ADHD, topic/productivity]

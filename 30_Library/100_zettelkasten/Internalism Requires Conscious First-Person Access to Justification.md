@@ -6,7 +6,7 @@ created_utc: 2026-09-09 00:00:00+00:00
 definition: Internalism, a theory of epistemic justification, holds that for a belief to count as knowledge, the knower must have conscious, first-person access to the evidence or reasoning that justifies it.
 distinguishes_from: []
 epistemic_status: high
-modified: 2026-09-19T15:44:37+00:00
+modified: 2026-09-25T16:29:25+00:00
 permalink: llmeon/00-inbox/internalism-requires-conscious-first-person-access-to-justification
 source_title: "Philosophy of science: alternative positions beyond Deutsch vs Godfrey-Smith"
 source_url: UNKNOWN

@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-11-10T14:18:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-19T15:44:41+00:00
+modified: 2026-09-25T16:29:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/regular-family-meetings-are-vital-for-collaborative-planning
 proposition: Regular family meetings are a vital component of successful family organization, serving as a dedicated time for collaborative planning, problem-solving, and goal setting.
 tags: [communication, family, organization, planning, process]

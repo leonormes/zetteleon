@@ -2,7 +2,7 @@
 aliases: [Target Analogy]
 created: 2025-07-21T00:00:00+00:00
 last_reviewed: ''
-modified: 2026-09-19T15:44:44+00:00
+modified: 2026-09-25T16:29:34+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-target-analogy-for-accuracy-and-precision
 tags: [analogy, concepts, measurement, science, visualization]
 title: The Target Analogy for Accuracy and Precision

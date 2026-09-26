@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-05-28T19:20:57+00:00
 last_reviewed: ''
-modified: 2026-09-19T15:44:32+00:00
+modified: 2026-09-25T16:29:19+00:00
 permalink: llmeon/30-library/100-zettelkasten/code-comprehension-vs.-language-processing
 tags: [llm-understanding]
 title: Code Comprehension vs. Language Processing

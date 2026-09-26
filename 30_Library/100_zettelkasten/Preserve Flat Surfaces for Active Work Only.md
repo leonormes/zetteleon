@@ -5,7 +5,7 @@ created: 2026-09-01T16:18:59+00:00
 created_utc: '2026-09-01T16:18:54.888265+00:00'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-19T15:44:40+00:00
+modified: 2026-09-25T16:29:29+00:00
 permalink: llmeon/00-inbox/preserve-flat-surfaces-for-active-work-only
 proposition: Flat surfaces are sacred zones meant exclusively for active work and must never be used for miscellaneous storage.
 source_title: The 7 rules of organization

@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-23T20:59:17+00:00
 last_reviewed: 'null'
-modified: 2026-09-19T15:44:45+00:00
+modified: 2026-09-25T16:29:34+00:00
 permalink: llmeon/30-library/100-zettelkasten/tool-tinkering-is-a-form-of-productive-procrastination
 tags: [meta-work, TheHuman/Cognition/bias, topic/productivity, topic/productivity/procrastination]
 title: Tool tinkering is a form of productive procrastination

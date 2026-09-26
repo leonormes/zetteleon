@@ -6,7 +6,7 @@ contradicts: []
 created: 2025-12-24T12:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-19T15:44:44+00:00
+modified: 2026-09-25T16:29:34+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-parity-principle-functional-equivalence-in-cognition
 prodos.kind: atomic
 prodos.lifecycle: stable

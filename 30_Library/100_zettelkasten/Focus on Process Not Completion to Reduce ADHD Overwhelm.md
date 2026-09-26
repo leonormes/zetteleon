@@ -2,7 +2,7 @@
 aliases: [Process Over Outcome, Time Commitment Success]
 created: 2025-10-30T15:17:49+00:00
 last_reviewed: '2025-10-30'
-modified: 2026-09-19T15:44:35+00:00
+modified: 2026-09-25T16:29:23+00:00
 permalink: llmeon/30-library/100-zettelkasten/focus-on-process-not-completion-to-reduce-adhd-overwhelm
 status: seed
 tags: [reframing, TheHuman/Health/ADHD, TheHuman/Mindset, time-boxing]

@@ -1,9 +1,9 @@
 ---
 conformant: false
-non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true)"
 created: 2026-09-14T11:28:24+00:00
 created_utc: '2026-09-14T00:00:00Z'
-modified: 2026-09-19T15:44:42+00:00
+modified: 2026-09-25T16:29:31+00:00
+non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/sociometer-theory-treats-self-esteem-as-a-monitor-of-perceived-social-acceptance
 source_title: "I Have a Thought Previously About How Chaos and Confusion Can Hide Danger, and Human Survival Relies on Getting Control of Situational Awareness"
 source_url: https://onlineacademiccommunity.uvic.ca/swell/wp-content/uploads/sites/5160/2020/12/Cameron-Stinson-SociometerTheory-2017.pdf

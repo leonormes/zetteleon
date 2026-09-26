@@ -5,7 +5,7 @@ created_utc: '2026-04-14T14:00:00Z'
 definition: A structured AI memory system is divided into three distinct layers, namely immutable raw sources, the AI-synthesised wiki and the governing schema configuration, so that every synthesised insight can be traced back to unalterable evidence and the structure can be changed by updating the schema layer alone.
 distinguishes_from: []
 kind: distinction
-modified: 2026-09-21T11:10:03+00:00
+modified: 2026-09-25T16:29:26+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/layered-knowledge-architecture
 source_title: Hermes Agent and Karpathy’s LLM Wiki

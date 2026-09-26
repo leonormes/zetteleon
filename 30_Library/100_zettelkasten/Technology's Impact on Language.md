@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-31T16:07:43+00:00
 last_reviewed: ''
-modified: 2026-09-19T15:44:43+00:00
+modified: 2026-09-25T16:29:33+00:00
 permalink: llmeon/30-library/100-zettelkasten/technologys-impact-on-language
 tags: [digital-communication, language-evolution, screen-time, technology]
 title: "Technology's Impact on Language"

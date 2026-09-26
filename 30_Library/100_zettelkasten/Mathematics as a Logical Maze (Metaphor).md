@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-11-01T11:22:13+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-19T15:44:39+00:00
+modified: 2026-09-25T16:29:27+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/mathematics-as-a-logical-maze-metaphor
 proposition: "Mathematics is best understood as a 'logical maze'—an interconnected network of pathways, decision points, dead ends, and multiple routes—where doing mathematics means navigating and discovering connections rather than accumulating isolated facts."

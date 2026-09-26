@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-11-10T13:01:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-19T15:44:41+00:00
+modified: 2026-09-25T16:29:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/productivity-systems-are-scaffolding-not-the-engine-of-progress
 proposition: "Productivity systems, routines, and frictionless environments are best understood as scaffolding that supports work — optimising cognitive resources, reducing errors, and minimising wasted effort — rather than as the engine of invention or ambition that drives it; they channel motivation, they do not generate it."
 tags: [optimization, TheHuman/Cognition, topic/productivity, topic/systems]

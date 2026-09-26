@@ -41,7 +41,7 @@ These biases affect how we interpret social interactions, perceive ourselves, an
 
 Biases that impact how we choose actions or value outcomes.
 
-- Sunk Cost Fallacy: (Placeholder) Continuing a behavior as a result of previously invested resources.
+- [[Sunk Cost Fallacy]]: Continuing a behavior as a result of previously invested resources. The fuller list is in [[Decision making fallacies]].
 - Confirmation Bias: (Placeholder) Searching for, interpreting, favoring, and recalling information in a way that confirms or supports one's prior beliefs or values.
 
 ---

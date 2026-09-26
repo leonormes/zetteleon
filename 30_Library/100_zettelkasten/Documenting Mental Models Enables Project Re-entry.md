@@ -1,23 +1,17 @@
 ---
-aliases:
-- Mental Model Capture
-- Thought Process Documentation
+aliases: [Mental Model Capture, Thought Process Documentation]
 conformant: true
 contradicts: []
 created: 2025-10-30T15:00:39+00:00
 epistemic_status: medium
 evidence_links: []
 last_reviewed: 2025-10-30
-modified: 2026-09-21T11:44:36+00:00
+modified: 2026-09-25T16:29:21+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/documenting-mental-models-enables-project-re-entry
 proposition: Capturing your mental model while actively creating—through mind maps, flowcharts, voice memos, or written notes—creates a bridge to reconnect with complex ideas when returning to projects.
 status: seed
-tags:
-- documentation
-- knowledge-capture
-- mental-models
-- project-continuity
+tags: [documentation, knowledge-capture, mental-models, project-continuity]
 title: Documenting Mental Models Enables Project Re-entry
 type: claim
 updated: null

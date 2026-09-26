@@ -5,7 +5,7 @@ created: 2026-09-01T16:18:58+00:00
 created_utc: '2026-09-01T16:18:54.888265+00:00'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-19T15:44:39+00:00
+modified: 2026-09-25T16:29:27+00:00
 permalink: llmeon/00-inbox/modular-dividers-prevent-sub-storage-entropy
 proposition: Deep or wide storage spaces require modular interlocking dividers to prevent items from sliding into disorganization.
 source_title: The 7 rules of organization

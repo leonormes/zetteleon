@@ -1,9 +1,9 @@
 ---
 conformant: false
-non_conformance_reason: "missing required field - type; missing required field - tags"
 created: 2026-07-28T08:10:05+00:00
 epistemic_status: high
-modified: 2026-09-19T15:44:35+00:00
+modified: 2026-09-25T16:29:22+00:00
+non_conformance_reason: "missing required field - type; missing required field - tags"
 permalink: llmeon/30-library/100-zettelkasten/evidence-dopamine-neurons-encode-reward-prediction-error-not-pleasure-schultz
 prodos.kind: evidence
 prodos.lifecycle: stable

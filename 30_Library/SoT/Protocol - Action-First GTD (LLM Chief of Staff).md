@@ -70,3 +70,6 @@ type: protocol
 - rel:: [[SoT - Think Like a Man of Action, Act Like a Man of Thought]]
 - rel:: [[SoT - Cognitive Engineering Protocols]] (Module A)
 - [[The Time Management Matrix (Eisenhower Matrix)]] [depends_on:: [[The Time Management Matrix (Eisenhower Matrix)]], confidence=medium]—_the triage logic behind this protocol's `!!Priority` step; that note's own Related section explains the mapping quadrant-by-quadrant._
+- [[SoT - Execution Protocol (GTD & PARA)]]—_Defines the Project, Container and Task vocabulary this protocol sorts input into, and the Definition of Done its unit test checks._
+
+[implements:: [[SoT - Execution Protocol (GTD & PARA)]], confidence=medium]

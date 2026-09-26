@@ -1,9 +1,9 @@
 ---
 conformant: false
-non_conformance_reason: "missing required field - type; missing required field - tags"
 created: 2026-05-04T08:01:26+00:00
 epistemic_status: high
-modified: 2026-09-19T15:44:39+00:00
+modified: 2026-09-25T16:29:27+00:00
+non_conformance_reason: "missing required field - type; missing required field - tags"
 permalink: llmeon/30-library/100-zettelkasten/my-main-pkm-problem-is-the-continuity-of-thinking.-1
 prodos.kind: claim
 prodos.lifecycle: stable
@@ -64,3 +64,4 @@ Reframe returning ideas not as competing with the original structure, but as evo
 - [[GTD and the Cognitive Load of Execution]]—depends_on: the cognitive cost of reloading context is a primary barrier to execution. [depends_on:: [[GTD and the Cognitive Load of Execution]]]
 - [[MOC - Why Task Initiation is Difficult in ADHD]]—extends: the friction of returning to a note is a specific manifestation of task initiation paralysis. [extends:: [[MOC - Why Task Initiation is Difficult in ADHD]]]
 - [[MOC - PKM as Process vs Product]]—supports: abandoning the "perfect" note structure in favor of writing as a messy process of thinking. [supports:: [[MOC - PKM as Process vs Product]]]
+- [[Finding Thoughts]]—_The first-person version of this problem (how do I come back and continue instead of rewriting), with the answer that linking through the index works._

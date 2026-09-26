@@ -4,7 +4,7 @@ conformant: true
 created: 2026-05-31T00:00:00+00:00
 definition: The set of top-down cognitive control processes that orchestrate behavior towards goals, including planning, prioritization, organization, task initiation, and working memory.
 distinguishes_from: ["[[Cognitive Load]]"]
-modified: 2026-09-19T15:44:35+00:00
+modified: 2026-09-25T16:29:22+00:00
 permalink: llmeon/30-library/100-zettelkasten/executive-function
 prodos.kind: atomic
 prodos.lifecycle: active

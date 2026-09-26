@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-11-10T10:03:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-19T15:44:42+00:00
+modified: 2026-09-25T16:29:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/shared-responsibility-in-a-partnership-includes-physical-mental-and-emotional-labor
 proposition: Shared responsibility in a partnership extends beyond a 50/50 split of physical tasks to include the fair and agreed-upon division of the total household load, including mental and emotional labor.
 tags: [emotional-labor, mental-load, relationship, responsibility]

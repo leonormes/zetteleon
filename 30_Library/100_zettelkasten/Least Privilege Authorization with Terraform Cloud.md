@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-24T15:37:00+00:00
 last_reviewed: ''
-modified: 2026-09-19T15:44:38+00:00
+modified: 2026-09-25T16:29:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/least-privilege-authorization-with-terraform-cloud
 tags: [authorization, IAM, least-privilege, RBAC, SoftwareEngineering/Security]
 title: Least Privilege Authorization with Terraform Cloud

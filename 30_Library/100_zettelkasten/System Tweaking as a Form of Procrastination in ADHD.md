@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-25T14:28:00+00:00
 last_reviewed: 'null'
-modified: 2026-09-19T15:44:43+00:00
+modified: 2026-09-25T16:29:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/system-tweaking-as-a-form-of-procrastination-in-adhd
 tags: [TheHuman/Health/ADHD, topic/productivity, topic/productivity/hyperfocus, topic/productivity/procrastination]
 title: System Tweaking as a Form of Procrastination in ADHD

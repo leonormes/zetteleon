@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-10-24T15:19:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-19T15:44:32+00:00
+modified: 2026-09-25T16:29:19+00:00
 permalink: llmeon/30-library/100-zettelkasten/cerebellum-function-and-exercise-for-adhd-regulation
 proposition: Exercises that challenge balance and coordination can strengthen cerebellar function and increase dopamine and norepinephrine levels, improving emotional regulation and sustained focus in ADHD.
 tags: [cerebellum, emotional-regulation, exercise, focus, TheHuman/Health/ADHD, TheHuman/Neuroscience]

@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-08-24T00:00:00+01:00
-modified: 2026-09-21T16:13:46+01:00
+modified: 2026-09-25T16:29:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-finger-tab-selection-maintenance
 tags: [archery, equipment, maintenance, prodos/atomic]
 title: Archery Shot Process - Finger Tab Selection & Maintenance
@@ -63,7 +63,8 @@ Details:
 
 ---
 
-Reference: 
+Reference:
+
 - Recurve Finger Tab Selection & Optimisation Guide (captured note, 00_Inbox).
 - How To Finally Find Your Anchor Point - Recurve Archery Technique (Online Archery Academy)
 - The RIGHT Anchor For You (Online Archery Academy)

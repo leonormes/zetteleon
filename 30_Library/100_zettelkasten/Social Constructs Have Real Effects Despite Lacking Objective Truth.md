@@ -7,7 +7,7 @@ created: 2025-11-01T09:51:13+00:00
 epistemic_status: high
 evidence_links: []
 merged_from: '[[Social Constructs are Not Arbitrary, They are Real in Their Effects]]'
-modified: 2026-09-19T15:44:42+00:00
+modified: 2026-09-25T16:29:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/social-constructs-have-real-effects-despite-lacking-objective-truth
 prodos.kind: atomic
 prodos.lifecycle: stable

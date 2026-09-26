@@ -4,7 +4,7 @@ contradicts: []
 created: 2026-09-07T13:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-19T15:44:35+00:00
+modified: 2026-09-25T16:29:22+00:00
 permalink: llmeon/30-library/100-zettelkasten/executive-function-training-gains-fade-once-the-activity-stops
 proposition: Improvements in executive function from any training intervention tend to fade once the person stops doing the activity, so lasting benefit requires ongoing practice rather than a one-time intervention.
 source_title: 'Executive Function: Skills for Life'

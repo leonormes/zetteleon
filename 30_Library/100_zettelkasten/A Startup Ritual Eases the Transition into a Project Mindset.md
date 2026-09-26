@@ -2,7 +2,7 @@
 aliases: [Startup Ritual, Transition Ritual]
 created: 2025-11-11T19:05:13+00:00
 last_reviewed: ''
-modified: 2026-09-19T15:44:29+00:00
+modified: 2026-09-25T16:29:16+00:00
 permalink: llmeon/30-library/100-zettelkasten/a-startup-ritual-eases-the-transition-into-a-project-mindset
 status: seed
 tags: [rituals, TheHuman/Habits, topic/productivity]
@@ -22,3 +22,4 @@ Details: This ritual acts as a buffer between other activities and deep work. It
 - [[SoT - Protocol - The Launch Sequence]]: _The definitive algorithm for bypassing initiation paralysis and 'warming up' the cognitive environment._
 - [[SoT - Breaking the Creation Cycle]]: _Provides the 'Entry Ritual' specifically designed for developers to restore lost mental models after a break._
 - [[Bookend routines mark the start and end of day]]: _Broader daily containers that anchor these specific project-based rituals within a stable routine._
+- [[Task Bracketing Strengthens Habit-Related Neural Circuits]]—_The habit-neuroscience idea behind a clear start-cue._

@@ -5,7 +5,7 @@ created: 2026-09-17T11:34:32+00:00
 created_utc: '2026-09-17T00:00:00Z'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-19T15:44:34+00:00
+modified: 2026-09-25T16:29:21+00:00
 permalink: llmeon/00-inbox/elite-negative-representation-strategy
 proposition: 'Elected officials increasingly practise "negative representation"—defining themselves by opposing and attacking the rival party rather than by substantive policy work—because media coverage, small-donor fundraising, and elite peer pressure all reward attack-focused positioning even though the public says it prefers substantive debate.'
 source_title: Political Contrast Effect Research

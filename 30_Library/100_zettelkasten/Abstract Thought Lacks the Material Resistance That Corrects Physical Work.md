@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-08-02T23:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-19T15:44:30+00:00
+modified: 2026-09-25T16:29:17+00:00
 permalink: llmeon/30-library/100-zettelkasten/abstract-thought-lacks-the-material-resistance-that-corrects-physical-work
 proposition: Physical labour supplies immediate corrective feedback because matter does not yield to belief, whereas language and theory impose no equivalent friction, allowing an unsound idea to be sustained indefinitely inside a coherent internal narrative.
 tags: [epistemology, feedback, mental_models, TheHuman/Cognition]

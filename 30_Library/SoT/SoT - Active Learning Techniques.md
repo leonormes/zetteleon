@@ -56,3 +56,7 @@ Active learning is high-effort by design. By introducing "Desirable Difficulties
 ## - Self-Testing: Work through Problems without Looking at Solutions
 
 - Active Struggle: Passive consumption is "Mental Candy." Active learning involves frustration and feedback, which is estimated to be up to six times more effective than passive watching (Source: [[Video - How the Algorithm Hijacked Monkey's Brain]]).
+
+## Related
+
+- [[2026-07-25-question-master-protocol-blooms-taxonomy]]—_Another way to force active engagement: generate analyse-, evaluate- and create-level questions about the material instead of re-reading it. Best suited to consolidating material you already partly understand._

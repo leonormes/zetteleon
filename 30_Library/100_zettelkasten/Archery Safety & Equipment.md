@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-09-21T14:36:18+01:00
-modified: 2026-09-21T18:02:28+00:00
+modified: 2026-09-25T16:29:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-safety-equipment
 tags: [archery, equipment, prodos/atomic, safety]
 title: Archery Safety & Equipment

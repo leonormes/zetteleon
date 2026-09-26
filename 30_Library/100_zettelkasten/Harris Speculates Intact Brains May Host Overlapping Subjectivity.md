@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-07-16T15:50:54+00:00
 epistemic_status: low
 evidence_links: []
-modified: 2026-09-19T15:44:36+00:00
+modified: 2026-09-25T16:29:24+00:00
 permalink: llmeon/30-library/100-zettelkasten/harris-speculates-intact-brains-may-host-overlapping-subjectivity
 proposition: "Following Roland Puccetti, Harris tentatively suggests that even a healthy, intact brain—given each hemisphere's processing load and the limited bandwidth of the corpus callosum—may exist in a fluid state of split and overlapping subjectivity; Harris himself flags this as speculative rather than asserted."
 source_title: Waking Up (Sam Harris) — reviewed LLM summary and critique

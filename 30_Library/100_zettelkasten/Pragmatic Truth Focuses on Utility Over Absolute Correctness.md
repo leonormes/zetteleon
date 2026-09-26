@@ -5,7 +5,7 @@ contradicts: ["[[Truth is a Necessary Condition for Knowledge]]"]
 created: 2025-11-01T09:51:13+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-19T15:44:40+00:00
+modified: 2026-09-25T16:29:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/pragmatic-truth-focuses-on-utility-over-absolute-correctness
 proposition: "Pragmatism treats truth as a property of ideas that reliably help us predict, coordinate, and achieve aims in specific contexts, rather than as a perfect correspondence with reality — an engineering model like Newtonian mechanics counts as true enough to build bridges even though it is not physics' final word."
 tags: [epistemology, mental-model, pragmatism, topic/philosophy, utility]

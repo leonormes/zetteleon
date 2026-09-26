@@ -48,3 +48,7 @@ Misunderstanding is the default state, not an anomaly. It arises when the Experi
 - Assumption of Divergence: Proceed with the assumption that you _have_ been misunderstood until proven otherwise.
 
 > Key Insight: Effective communication is the collaborative construction of a temporary shared language, grounded in the intersection of two experiential worlds.
+
+## Related
+
+- [[The Illusion of Shared Understanding in Teams]]—_The team-scale case: shared vocabulary hides differing mental models until a crisis. Section 3.3, Explicit Clarification, is the remedy._

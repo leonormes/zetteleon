@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-08-02T23:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-19T15:44:30+00:00
+modified: 2026-09-25T16:29:16+00:00
 permalink: llmeon/30-library/100-zettelkasten/achievement-culture-frames-error-as-fatal-rather-than-foundational
 proposition: Hyper-competitive educational environments teach that being wrong is a status loss rather than a step in learning, which drives learners to avoid precisely the disorientation that comprehension requires.
 tags: [shame, status, TheHuman/Cognition, TheHuman/Psychology, topic/education]

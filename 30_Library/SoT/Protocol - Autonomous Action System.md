@@ -61,3 +61,9 @@ Dependencies:
 1. Run `Process my dump` with a test entry in `00_Inbox/dump.md`.
 2. Verify task appears in Todoist.
 3. Verify content is moved to Archive.
+
+## Related
+
+- [[SoT - Execution Protocol (GTD & PARA)]]—_The definitions and stages this protocol automates: Refine is Clarify and Organize, and the Health Check is Reflect._
+
+[implements:: [[SoT - Execution Protocol (GTD & PARA)]], confidence=medium]

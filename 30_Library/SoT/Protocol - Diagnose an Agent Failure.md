@@ -37,3 +37,7 @@ A human correction, an agent self-catch, or a review surfaces a result that shou
 ## Verification
 
 The protocol was followed correctly if: the root cause has exactly one classification (not a vague "something went wrong"), the fix touches only the responsible layer, and a regression case exists that would have caught the original failure.
+
+## Related
+
+- [[The Illusion of Shared Understanding in Teams]]—_The mechanism behind the `ambiguous-terminology` and `unclear-user-requirement` classes: shared words hide differing models, so the mismatch surfaces only when the output is wrong._

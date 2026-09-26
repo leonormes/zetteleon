@@ -6,7 +6,7 @@ contradicts: []
 created: 2025-11-01T11:22:13+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-19T15:44:33+00:00
+modified: 2026-09-25T16:29:21+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/deductive-reasoning-underwrites-mathematical-proof
 proposition: 'Deductive reasoning forms the logical backbone of mathematical proof: starting from accepted axioms, applying valid inference rules, and deriving theorems whose truth is thereby guaranteed for every case the axioms cover.'

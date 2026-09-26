@@ -6,7 +6,7 @@ created: 2025-07-16T17:30:01+00:00
 epistemic_status: medium
 evidence_links: []
 last_reviewed: ''
-modified: 2026-09-19T15:44:36+00:00
+modified: 2026-09-25T16:29:24+00:00
 permalink: llmeon/30-library/100-zettelkasten/hyperfocus-is-a-state-of-intense-interest-driven-focus-in-adhd
 proposition: Hyperfocus is a phenomenon in ADHD where a person enters a state of intense, sustained concentration on a task that genuinely interests them, during which typical impairments like distractibility can seem to vanish, demonstrating that the challenge in ADHD is dysregulation in the direction and sustainment of attention rather than a lack of attention itself.
 status: stable

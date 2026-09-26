@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-09-19T15:44:31+00:00
+modified: 2026-09-25T16:29:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-posture
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Posture
@@ -31,6 +31,8 @@ Posture focuses on engaging the core, positioning the hips and torso to transfer
 - Lifting a 7–8 lb bow 30 inches away from your body naturally shifts your center of gravity forward toward the target. Keep your spine stacked completely straight and accept that as you raise the bow, your center of pressure will naturally shift forward over your front foot.
 - The bow side (push) and draw side (pull) must balance equally. Favouring the draw side causes a backward postural tilt towards the rear foot.
 - When shooting a recurve bow, stand completely upright. Because longbows are much taller and have a shallower string angle, tilt your torso slightly forward at the hips to give the string clearance away from your chest.
+- Spine as Pivot Axis: Treat the straight spine as the fixed pivot the body rotates around, with the arms forming the crossbar of the "T". A rib cage that tilts back off this axis makes the bow shoulder look and sit high, and no amount of pushing the shoulder down will move it (see [[Archery Shot Process - Raise]]).
+- Misalignment Costs Clicker Efficiency: A tilted rib cage and poor spinal alignment make it difficult and inefficient to move through the clicker, because the back structure cannot expand along a clean line.
 - Eliminating "Background Noise": Maintaining a rock-solid, square stance and an engaged core eliminates background physical "noise." This stability isolates your movements, allowing you to accurately evaluate the highly nuanced physical feeling of your release and expansion—an essential prerequisite for self-coaching.
 
 ### Faults & Diagnostics
@@ -41,7 +43,7 @@ Posture focuses on engaging the core, positioning the hips and torso to transfer
   - _During Follow-Through_: Leaning back or collapsing as the arrow leaves.
 - Eliminating Postural Sway: Maintain complete torso and core stability along the shooting line with zero swaying or leaning forward/backward during the draw and execution. If your body sways, you cannot accurately feel what your shoulders and upper back muscles are doing.
 - Head Movement: Avoid turning or adjusting your head mid-draw, as this creates postural shifts and shot inconsistency.
-- Leaning Back: A common flaw is leaning your upper body backward to try and keep a 50/50 balance between your left and right foot.
+- Leaning Back: A common flaw is leaning your upper body backward to try and keep a 50/50 balance between your left and right foot. Holding a heavy bow away from the centre line also tempts the body to compensate by leaning back or tilting the rib cage away from the target, which makes the bow shoulder look high. Counter it by shifting weight slightly onto the front foot as you lift.
 - Tilting Head for String Contact: When adjusting to a more forward anchor, do not tilt your head back to force the string to touch your nose. Maintain a natural, neutral posture; let the string come to the face, not the face to the string.
 
 ### Training Drills
@@ -85,6 +87,14 @@ Posture focuses on engaging the core, positioning the hips and torso to transfer
   2. Use a video recorder or observer to check your alignment against this fixed vertical line throughout the shot cycle.
   3. Ensure zero forward or backward postural drift from setup through execution.
 
+#### Behind-the-Line Video Check
+
+- Purpose: Reveals subtle spine and rib cage tilts that cannot be felt during the shot, including the tilt behind an apparently high bow shoulder.
+- How to do it:
+  1. Set a camera directly behind you on the shooting line.
+  2. Film a few shots and check that the spine stays vertical and the rib cage does not tilt back through the raise and draw.
+  3. A phone on a stand between ends, or a training mirror, works as a quick repeat check for building better habits.
+
 #### Balance & Eyes-Closed Drills
 
 - Purpose: Heightens internal balance and postural proprioception without relying on visual orientation.
@@ -111,6 +121,10 @@ Posture focuses on engaging the core, positioning the hips and torso to transfer
 - How to do it:
   1. Perform the draw cycle in front of a mirror or on video.
   2. Ensure the front shoulder remains low and locked in its pocket; any upward shrugging indicates a failure of skeletal alignment.
+
+### References
+
+- Jake Kaminski, high bow shoulder / tilted rib cage video (YouTube EEMXB1nHmTk)
 
 ---
 

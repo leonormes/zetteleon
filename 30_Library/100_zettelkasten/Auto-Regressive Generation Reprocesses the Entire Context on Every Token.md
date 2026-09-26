@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-19T15:44:31+00:00
+modified: 2026-09-25T16:29:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/auto-regressive-generation-reprocesses-the-entire-context-on-every-token
 proposition: LLMs generate text auto-regressively, predicting one token at a time. Because each new token depends on everything before it, the entire input—user query, system prompt, and all previously generated output—is fed back through the model to predict the next single token. This is the root mechanism behind LLM token cost, not an implementation inefficiency layered on top.
 tags: [domain/llm, topic/architecture, topic/cost-optimization, topic/llm-behavior, topic/tokenization]

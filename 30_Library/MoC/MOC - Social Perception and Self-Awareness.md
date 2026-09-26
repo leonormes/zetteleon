@@ -62,6 +62,7 @@ Understanding and improving the accuracy of social self-perception:
 - [[Meta-Accuracy in Social Perception]] rel:: is-calibrated-by [[Feedback-Seeking Strategies for Calibration]]
 - [[Feedback-Seeking Strategies for Calibration]] is the interpersonal application of [[Reality Testing]] (typed edge lives on that note: `extends`)
 - [[Prediction Error Breaks Feedback Loops]] rel:: improves [[Meta-Accuracy in Social Perception]]
+- [[Compare Oneself to Yesterday's Self Not Others]]—_calibrate progress against your own baseline rather than a comparison group._
 
 Key insight: Meta-accuracy is moderate (~50–60%); systematic feedback-seeking and outcome tracking provide reality checks that break self-reinforcing bias loops.
 
@@ -85,6 +86,7 @@ Key insight: Emotions both inform social perception and arise from it, creating 
 - [[SoT - Social Cognition & Self-Perception]]—canonical upstream SoT; covers the Social Intuitionist Model, Halo Effect, Affective Primacy, Emotional Contagion mechanisms
 - [[Cognitive Biases Reinforce Mental Models]]—general mechanisms underlying social perception biases
 - [[Mental Models as Social Status Signals]]—how perceived competence confers status
+- [[The Need to Feel Respected and Admired is a Core Human Need in a Partnership]]—the close-relationship case: being seen as competent and valued by a partner as a core need
 - [[SoT - Illusion of Explanatory Depth (IoED)]]—related metacognitive failure (Mind-Reading as causal opacity)
 - [[MOC - Metacognition Deficits in ADHD Impact Self-Awareness of Motivation]]—neurodivergent implications
 

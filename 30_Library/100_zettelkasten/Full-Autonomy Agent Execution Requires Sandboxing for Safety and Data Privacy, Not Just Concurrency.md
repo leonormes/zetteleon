@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-19T15:44:35+00:00
+modified: 2026-09-25T16:29:23+00:00
 permalink: llmeon/30-library/100-zettelkasten/full-autonomy-agent-execution-requires-sandboxing-for-safety-and-data-privacy-not-just-concurrency
 proposition: When an agent is granted full autonomy to execute any command without 'per-action approval ("YOLO mode"), it should run in a sandboxed environment (a dev' container, cloud sandbox, or similar) rather than on the local machine — specifically for safety and data-privacy reasons, distinct from the concurrency-isolation rationale for sandboxing covered elsewhere in this vault. Ungated autonomy on a local machine risks costly mistakes and exposure of private organizational data.
 tags: [domain/llm, topic/agent-architecture, topic/reliability, topic/security]

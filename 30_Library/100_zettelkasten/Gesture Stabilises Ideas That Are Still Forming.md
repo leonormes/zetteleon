@@ -5,7 +5,7 @@ created: 2026-09-21T08:54:40+00:00
 created_utc: '2026-09-21T08:54:40+00:00'
 epistemic_status: low
 evidence_links: []
-modified: 2026-09-21T18:24:58+00:00
+modified: 2026-09-25T16:29:23+00:00
 non_conformance_reason: ''
 permalink: llmeon/00-inbox/gesture-stabilises-ideas-that-are-still-forming
 proposition: Gesture acts as a virtual diagram that stabilises and advances ideas

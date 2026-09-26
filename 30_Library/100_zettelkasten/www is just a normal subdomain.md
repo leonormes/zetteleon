@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-05-12T15:31:43+00:00
 last_reviewed: 'null'
-modified: 2026-09-19T15:44:46+00:00
+modified: 2026-09-25T16:29:36+00:00
 permalink: llmeon/30-library/100-zettelkasten/www-is-just-a-normal-subdomain
 tags: [SoftwareEngineering/networking/dns]
 title: www is just a normal subdomain

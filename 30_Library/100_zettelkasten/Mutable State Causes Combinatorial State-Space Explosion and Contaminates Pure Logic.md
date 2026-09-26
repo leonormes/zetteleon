@@ -5,7 +5,7 @@ created: 2026-09-19T15:24:18+00:00
 created_utc: 2026-09-19 00:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-22T00:00:00+00:00
+modified: 2026-09-25T16:29:27+00:00
 non_conformance_reason: ''
 permalink: llmeon/00-inbox/mutable-state-causes-combinatorial-state-space-explosion-and-contaminates-pure-logic
 proposition: Introducing mutable state into a system multiplies the number of configurations that must be reasoned about combinatorially, and once a pure function calls a stateful procedure it becomes contaminated and no longer understandable in isolation.
@@ -13,7 +13,7 @@ source_title: "The Conservation of Software Complexity: The Dichotomy of Data St
 source_url: unknown
 status: seed
 tags: [complexity, mutable-state, out-of-the-tar-pit, state]
-title: "Mutable State Causes Combinatorial State-Space Explosion and Contaminates Pure Logic"
+title: Mutable State Causes Combinatorial State-Space Explosion and Contaminates Pure Logic
 type: claim
 upstream: '[[tmp_atoms_data-structures-vs-control-flow]]'
 ---

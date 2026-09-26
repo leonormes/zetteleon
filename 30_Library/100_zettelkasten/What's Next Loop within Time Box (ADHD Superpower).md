@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-06-25T20:14:33+00:00
 last_reviewed: ''
-modified: 2026-09-19T15:44:46+00:00
+modified: 2026-09-25T16:29:36+00:00
 permalink: llmeon/30-library/100-zettelkasten/whats-next-loop-within-time-box-adhd-superpower
 tags: [TheHuman/Health/ADHD]
 title: "What's Next Loop within Time Box (ADHD Superpower)"

@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-04-10T00:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-19T15:44:36+00:00
+modified: 2026-09-25T16:29:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/humans-retain-freedom-to-choose-their-response-to-any-situation-regardless-of-circumstances
 proposition: "No external circumstance, however extreme, can remove a person's capacity to choose the attitude they take toward it."
 tags: [agency, freedom, mindset, resilience]

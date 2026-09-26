@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-09-05T06:22:44+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-19T15:44:40+00:00
+modified: 2026-09-25T16:29:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/prediction-error-breaks-feedback-loops
 proposition: "Reality testing through prediction error is the main mechanism that prevents a cognitive-emotional feedback loop from running unchecked: when the emotional consequences a model predicts consistently fail to occur, the mismatch (the prediction error) forces the brain to gradually revise the model, as in exposure therapy for anxiety and phobias."
 tags: [feedback-loops, prediction-error, TheHuman/Cognition, TheHuman/Neuroscience]

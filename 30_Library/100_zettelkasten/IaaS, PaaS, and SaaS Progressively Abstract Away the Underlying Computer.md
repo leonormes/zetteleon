@@ -1,9 +1,9 @@
 ---
 conformant: false
-non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true)"
 created: 2026-09-18T00:00:00+00:00
 created_utc: '2026-09-18T00:00:00Z'
-modified: 2026-09-19T15:44:37+00:00
+modified: 2026-09-25T16:29:25+00:00
+non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/iaas-paas-and-saas-progressively-abstract-away-the-underlying-computer
 prodos.atomic.form: distinction
 prodos.kind: atomic

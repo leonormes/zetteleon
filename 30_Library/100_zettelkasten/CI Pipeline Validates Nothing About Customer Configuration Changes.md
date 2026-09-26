@@ -2,7 +2,7 @@
 conformant: true
 created: 2026-09-23T14:48:25+00:00
 created_utc: '2026-09-23T00:00:00Z'
-modified: 2026-09-23T14:56:28+00:00
+modified: 2026-09-25T16:29:18+00:00
 permalink: llmeon/00-inbox/ci-pipeline-validates-nothing-about-customer-configuration-changes
 source_title: Multi-customer Deployment Review, and an Assessment of CUE
 source_url: N/A — internal engineering assessment

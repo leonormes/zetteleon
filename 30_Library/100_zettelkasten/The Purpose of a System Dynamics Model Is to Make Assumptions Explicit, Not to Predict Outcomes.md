@@ -5,7 +5,7 @@ created: 2026-09-14T15:20:11+00:00
 created_utc: '2026-09-14T00:00:00Z'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-19T15:44:44+00:00
+modified: 2026-09-25T16:29:34+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-purpose-of-a-system-dynamics-model-is-to-make-assumptions-explicit-not-to-predict-outcomes
 prodos.kind: atomic
 prodos.lifecycle: seed

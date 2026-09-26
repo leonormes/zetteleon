@@ -6,7 +6,7 @@ created: 2026-09-04T09:26:16+00:00
 created_utc: 2026-09-04T14:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-19T15:44:40+00:00
+modified: 2026-09-25T16:29:28+00:00
 permalink: llmeon/00-inbox/paradigm-shifts-complete-through-generational-turnover-not-persuasion
 proposition: A new scientific paradigm prevails not by convincing its opponents but through generational turnover, as the old guard retires or dies and is replaced by researchers already trained in the new framework.
 source_title: New chat
@@ -39,3 +39,5 @@ A corollary of [[Kuhn's Four-Stage Model of Paradigm Collapse]]; describes the s
 
 - [[Kuhn's Four-Stage Model of Paradigm Collapse]]—extends the Model Revolution stage with the specific sociological mechanism (generational turnover) by which it completes.
 - [[Human Understanding is Inherently Myopic]]—shared mechanism: neither the entrenched old guard nor the era's contemporaries can see from inside which framework is the "dying blossom," which is exactly why persuasion fails and only turnover works.
+
+[depends_on:: [[Human Understanding is Inherently Myopic]], confidence=medium]

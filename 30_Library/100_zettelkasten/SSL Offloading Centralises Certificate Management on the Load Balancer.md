@@ -2,7 +2,7 @@
 aliases: [SSL Termination]
 conformant: false
 created: 2025-10-31T09:25:29+00:00
-modified: 2026-09-19T15:44:42+00:00
+modified: 2026-09-25T16:29:30+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/ssl-offloading-centralises-certificate-management-on-the-load-balancer
 tags: [load-balancing, SoftwareEngineering/Networking, SoftwareEngineering/Security, ssl, tls]

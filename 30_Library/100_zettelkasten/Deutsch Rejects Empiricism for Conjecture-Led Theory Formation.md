@@ -6,7 +6,7 @@ created: 2026-09-08T20:15:00+00:00
 created_utc: 2026-09-08 20:15:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-19T15:44:34+00:00
+modified: 2026-09-25T16:29:21+00:00
 permalink: llmeon/00-inbox/deutsch-rejects-empiricism-for-conjecture-led-theory-formation
 proposition: "Deutsch holds that scientific theories originate as bold conjectures from human imagination, not as generalisations derived from sensory experience, so experience is used to choose between pre-existing guesses rather than to read theories off nature."
 source_title: David Deutsch and Peter Godfrey-Smith

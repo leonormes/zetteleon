@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-09-07T15:32:45+00:00
 last_reviewed: ''
-modified: 2026-09-19T15:44:40+00:00
+modified: 2026-09-25T16:29:28+00:00
 permalink: llmeon/30-library/100-zettelkasten/ownership-of-emotions
 tags: []
 title: Ownership of Emotions

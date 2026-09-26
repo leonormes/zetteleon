@@ -2,7 +2,7 @@
 aliases: [Micro-tasking and Timeboxing, Pomodoro Workflow]
 conformant: true
 created: 2026-05-31T00:00:00+00:00
-modified: 2026-09-19T15:44:40+00:00
+modified: 2026-09-25T16:29:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/practice-micro-tasking-and-time-boxing
 prodos.kind: atomic
 prodos.lifecycle: active
@@ -28,7 +28,7 @@ Micro-step Formulation: Take the task you are avoiding and write down only its f
 
 ## Execution Graph
 
-- [implements:: [[Master Micro-Actions & Starter Tasks]]]
+- [implements:: [[Micro-Stepping Reduces Cognitive Load for Task Initiation]]]
 - [implements:: [[Timeboxing Makes Time Tangible and Creates Accountability]]]
 - [depends_on:: [[A Next Action Must Be the Absolute Next Physical Visible Activity Required to Move a Situation Forward]]]
 - [depends_on:: [[SoT - Temporal Management (Blocking and Boxing)]]]

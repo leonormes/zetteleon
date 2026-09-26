@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-11-01T21:25:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-21T11:44:36+00:00
+modified: 2026-09-25T16:29:24+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/humility-is-letting-achievements-speak-for-themselves
 proposition: Humility is letting achievements speak for themselves instead of showing off or boasting.

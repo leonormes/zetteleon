@@ -3,15 +3,11 @@ aliases: []
 conformant: true
 created: 2025-11-10T15:19:00+00:00
 last_reviewed: ''
-modified: 2026-09-21T15:08:29+00:00
+modified: 2026-09-25T16:29:35+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/weekly-review-verifies-project-actionability-and-context
 status: seed
-steps:
-  - Confirm the project has a clearly defined done state
-  - Confirm it has at least one identified next action
-  - Confirm every action carries a context tag
-  - Confirm difficult-to-initiate actions have an appropriate starter task
+steps: [Confirm difficult-to-initiate actions have an appropriate starter task, Confirm every action carries a context tag, Confirm it has at least one identified next action, Confirm the project has a clearly defined done state]
 tags: [executive-function, gtd, project-management, task-initiation, TheHuman/Health/ADHD, topic/productivity, weekly-review, working-memory]
 title: Weekly Review Verifies Project Actionability and Context
 trigger: The weekly review, applied to each active project in turn
@@ -42,28 +38,28 @@ Failure modes:
 
 The four checks are GTD hygiene, but each one answers a specific executive-function failure, which is why the review matters well beyond GTD. The review implements the trust-restoring purpose set out in [[The Purpose of a Weekly Review is to Restore Trust in Your System]] [implements:: [[The Purpose of a Weekly Review is to Restore Trust in Your System]]], and the fourth check leans on the rules in [[The Three Rules of Starter Tasks]] [depends_on:: [[The Three Rules of Starter Tasks]]].
 
-### 1. Done state: a boundary against endless or vague projects
+### 1. Done State: a Boundary against Endless or Vague Projects
 
 - [[The Done State as a Boundary for ADHD Projects]]—_A concrete done state acts as a boundary and reduces stress; the worked example turns "get my head around CNI usage" into a two-page comparison document._
 - [[Focus on Process Not Completion to Reduce ADHD Overwhelm]]—_The complementary reframe for projects whose done state is too large to hold: commit to time rather than completion._
 
-### 2. Next action: the antidote to overwhelm and avoidance
+### 2. Next Action: the Antidote to Overwhelm and Avoidance
 
 - [[Protocol - Vague-to-Action]]—_The procedure for converting heavy, undefined tasks that trigger avoidance into physical, binary actions._
 - [[A Next Action Must Be the Absolute Next Physical Visible Activity Required to Move a Situation Forward]]—_The GTD definition the check applies: a project label is not a next action._
 - [[Micro-Stepping Reduces Cognitive Load for Task Initiation]]—_Shrinking the next action until starting costs almost nothing._
 
-### 3. Context tags: less to hold in working memory
+### 3. Context Tags: less to Hold in Working Memory
 
 - [[Contexts Reduce Overwhelm and Support Working Memory for ADHD]]—_Showing only the actions that fit the current context cuts overwhelm and spares working memory._
 - [[Practice - Context-based task lists]]—_Grouping by location, tool to hand and energy level rather than by project._
 
-### 4. Starter tasks: where initiation actually fails
+### 4. Starter Tasks: where Initiation Actually Fails
 
 - [[The Neurological Divide Between Procrastination and Task Initiation]]—_Initiation failure is a mechanical difficulty switching focus to the task, not a motivation problem, so a starter task is a switch aid, not a pep talk._
 - [[ADHD Paralysis is the Inability to Start a Task Until it Becomes an Emergency]]—_The failure a prepared starter task is meant to pre-empt before urgency becomes the only trigger._
 
-### Why the review itself is needed
+### Why the Review Itself is Needed
 
 - [[ADHD Working Memory Deficits Create a Compulsive Re-Planning Loop]]—_Plan steps drop out of working memory, so the brain re-checks compulsively; a reviewed external list is what the re-checking can be handed to._
 - [[Externalizing Progress Makes it Tangible and Motivational]]—_Out of sight is out of mind, so the review is where progress and stalled projects are put back in view._

@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-09-16T12:25:36+00:00
 last_reviewed: ''
-modified: 2026-09-19T15:44:38+00:00
+modified: 2026-09-25T16:29:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/mass-energy-equivalence-e-mc
 tags: []
 title: Mass-Energy Equivalence (E-mc-)

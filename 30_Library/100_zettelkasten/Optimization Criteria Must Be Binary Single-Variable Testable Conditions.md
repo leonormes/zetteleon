@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2026-04-10T00:00:00+00:00
-modified: 2026-09-19T15:44:40+00:00
+modified: 2026-09-25T16:29:28+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/optimization-criteria-must-be-binary-single-variable-testable-conditions
 tags: [criteria, evaluation, optimization, prompt-engineering]

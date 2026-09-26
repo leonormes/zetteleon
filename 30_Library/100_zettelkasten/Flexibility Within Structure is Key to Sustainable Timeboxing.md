@@ -2,7 +2,7 @@
 aliases: [Flexible Structure]
 conformant: false
 created: 2025-11-01T21:12:00+00:00
-modified: 2026-09-19T15:44:35+00:00
+modified: 2026-09-25T16:29:23+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/flexibility-within-structure-is-key-to-sustainable-timeboxing
 tags: [balance, flexibility, scheduling, time-management, topic/productivity]
@@ -31,3 +31,4 @@ A schedule should serve you, not the other way around. By balancing structure wi
 - [[The Risks of Over-Scheduling]]—_Explores the negative consequences of excessive rigidity and the biological cost of back-to-back blocks._
 - [[Routines Must Be Reviewed and Adjusted Regularly]]—_Emphasizes that time-management systems are living structures that must evolve with changing energy levels._
 - [[Consistency and Momentum]]—_Addresses the long-term challenge of maintaining a system when the initial novelty fades._
+- [[Fixed-Schedule Productivity Creates Artificial Constraints to Drive Efficiency]]—_The rigid pole this claim qualifies: a fully planned day with a hard stop, effective for people whose work bleeds, and brittle without slack._

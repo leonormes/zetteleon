@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-09-07T15:32:45+00:00
 last_reviewed: ''
-modified: 2026-09-19T15:44:39+00:00
+modified: 2026-09-25T16:29:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/mushin-no-shin-mind-without-mind
 tags: []
 title: Mushin No Shin Mind Without Mind

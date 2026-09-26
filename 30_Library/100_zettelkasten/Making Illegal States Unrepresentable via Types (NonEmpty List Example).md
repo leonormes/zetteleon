@@ -5,7 +5,7 @@ created: 2026-09-19T15:25:16+00:00
 created_utc: 2026-09-19 00:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-22T00:00:00+00:00
+modified: 2026-09-25T16:29:27+00:00
 non_conformance_reason: ''
 permalink: llmeon/00-inbox/making-illegal-states-unrepresentable-via-types-non-empty-list-example
 proposition: Instead of validating that a list is non-empty before taking its head, a NonEmpty list type, structurally a tuple of one guaranteed element plus a possibly-empty remainder, makes emptiness impossible to represent, so no control flow is needed to guard against it.

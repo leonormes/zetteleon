@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-07-25T11:17:00+00:00
 epistemic_status: medium
 evidence_links: ["[[SoT - Illusion of Explanatory Depth (IoED)]]"]
-modified: 2026-09-19T15:44:29+00:00
+modified: 2026-09-25T16:29:15+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/2026-07-25-externalising-tacit-knowledge-illusion-of-profundity
 proposition: Internal thoughts feel profound because they rest on unstated tacit context — emotional charge, intuitive leaps, private narrative — and that context vanishes the moment the idea is spoken or written, often leaving it looking skeletal even when the underlying insight was sound.
@@ -32,6 +32,6 @@ An idea that looks "skeletal" once externalised may genuinely have been weak all
 
 ## Knowledge Graph
 
-[[The Illusion of Explanatory Depth Names a Gap Between Felt and Actual Understanding]]—reflexive specialisation of the general definition: IoED applied to one's own ideas rather than an external system
+[[2026-07-25-ioed-definition-gap-felt-vs-actual-understanding|The Illusion of Explanatory Depth Names a Gap Between Felt and Actual Understanding]]—reflexive specialisation of the general definition: IoED applied to one's own ideas rather than an external system
 
-[extends:: [[The Illusion of Explanatory Depth Names a Gap Between Felt and Actual Understanding]]]
+[extends:: [[2026-07-25-ioed-definition-gap-felt-vs-actual-understanding]]]

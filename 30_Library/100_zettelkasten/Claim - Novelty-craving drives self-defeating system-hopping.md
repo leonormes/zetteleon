@@ -4,7 +4,7 @@ contradicts: []
 created: 2026-05-31T00:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-19T15:44:32+00:00
+modified: 2026-09-25T16:29:19+00:00
 permalink: llmeon/30-library/100-zettelkasten/claim-novelty-craving-drives-self-defeating-system-hopping
 position-date: 2026-05-31
 proposition: The ADHD pull towards novelty supplies a short burst of motivation when a new tool or method is adopted, but the burst decays faster than a system can mature, so the same drive that starts a system also abandons it.

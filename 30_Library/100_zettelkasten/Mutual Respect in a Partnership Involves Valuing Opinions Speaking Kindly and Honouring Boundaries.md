@@ -6,7 +6,7 @@ contradicts: []
 created: 2025-11-10T10:01:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-19T15:44:39+00:00
+modified: 2026-09-25T16:29:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/mutual-respect-in-a-partnership-involves-valuing-opinions-speaking-kindly-and-honouring-boundaries
 prodos.kind: atomic
 prodos.lifecycle: stable

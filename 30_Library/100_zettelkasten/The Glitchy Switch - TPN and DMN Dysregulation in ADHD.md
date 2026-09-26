@@ -7,7 +7,7 @@ created: 2025-10-24T15:16:00+00:00
 epistemic_status: high
 evidence_links: []
 last_reviewed: 'null'
-modified: 2026-09-19T15:44:44+00:00
+modified: 2026-09-25T16:29:33+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-glitchy-switch-tpn-and-dmn-dysregulation-in-adhd
 proposition: 'In the ADHD brain, the normal anticorrelation between the Task-Positive Network and the Default Mode Network can be dysregulated into a "glitchy switch," where the DMN intrudes on TPN activity during tasks (causing distraction) or the person gets stuck in the DMN (causing rumination), instead of the two networks cleanly and smoothly alternating.'
 status: stable

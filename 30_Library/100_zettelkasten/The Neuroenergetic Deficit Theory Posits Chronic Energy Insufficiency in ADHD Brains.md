@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-10-29T16:38:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-19T15:44:44+00:00
+modified: 2026-09-25T16:29:34+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-neuroenergetic-deficit-theory-posits-chronic-energy-insufficiency-in-adhd-brains
 proposition: "The neuroenergetic deficit theory proposes that ADHD is a cortical energy-deficit syndrome: catecholamine hypofunctionality impairs astrocyte glucose and glycogen metabolism, leaving ADHD brains able to marshal only 75-85% of the neurocognitive energy of neurotypical peers, which particularly cripples task initiation because starting a task requires maximal, energetically expensive prefrontal cortex activation."
 source: '[[MOC - The Phases of Task Execution and the Impact of ADHD]]'

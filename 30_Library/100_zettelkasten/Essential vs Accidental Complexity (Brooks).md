@@ -4,7 +4,7 @@ created: 2026-09-19T15:24:13+00:00
 created_utc: 2026-09-19 00:00:00+00:00
 definition: Software difficulty splits into essential complexity (inherent to the problem domain itself) and accidental complexity (self-inflicted by the tools, languages, and implementation choices used to solve it).
 distinguishes_from: []
-modified: 2026-09-22T00:00:00+00:00
+modified: 2026-09-25T16:29:22+00:00
 non_conformance_reason: ''
 permalink: llmeon/00-inbox/essential-vs-accidental-complexity-brooks
 source_title: "The Conservation of Software Complexity: The Dichotomy of Data Structures and Control Flow (plus epistemic review/fact-check)"
@@ -14,7 +14,7 @@ tags: [complexity, definitions, fred-brooks, software-architecture]
 title: Essential vs Accidental Complexity (Brooks)
 type: concept
 upstream: '[[tmp_atoms_data-structures-vs-control-flow]]'
-used_in_claims: ["[[SoT - Infrastructure Complexity]]", "[[SoT - Accidental Social Complexity]]"]
+used_in_claims: ["[[SoT - Accidental Social Complexity]]", "[[SoT - Infrastructure Complexity]]"]
 ---
 
 ## Essential Vs Accidental Complexity (Brooks)

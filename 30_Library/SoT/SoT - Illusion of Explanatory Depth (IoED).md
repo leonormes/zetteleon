@@ -33,6 +33,20 @@ The root error is conflating two distinct cognitive states:
 
 The Danger: We often navigate life using only Familiarity. However, when we need to _fix_, _debug_, or _innovate_ on a system, Familiarity fails completely. You cannot debug a system you only know by label.
 
+### The Signals We Mistake for Understanding
+
+The substitution works because the brain reads indirect signals instead of auditing what it knows. A signal is a shallow marker that produces the _feeling_ of understanding without ever testing it:
+
+- Familiarity: We meet the concept often (e.g., driving a car every day, or reading financial headlines and "knowing" economics).
+- Recognition: We know the vocabulary (e.g., "chlorophyll" and "carbon dioxide" for photosynthesis; "voting" and "representation" for democracy).
+- Belief Alignment: It fits what we already believe, so it feels obviously true.
+- Surface Explanation: We can state the gist ("pedalling moves the chain, which turns the wheel") but not how the gears interact or why the bicycle stays upright.
+- Exposure: We have skimmed a few articles or documentaries without testing ourselves on them.
+- Fluency: We can talk about it easily, even if the explanation is thin or wrong.
+- Overconfidence: General confidence in our own intelligence or knowledge is carried over to a topic we have not examined.
+
+The Real Test: None of these signals answers four questions. Can you _explain_ the mechanism in detail? _Predict_ how it behaves in a new situation? Say how its parts _interact_? _Troubleshoot_ it when it breaks? The gap appears when you are made to explain, give examples or answer specific questions.
+
 ---
 
 ## 3. The ADHD Multiplier: Metacognitive Blindness

@@ -5,7 +5,7 @@ created: 2026-09-21T08:54:40+00:00
 created_utc: '2026-09-21T08:54:40+00:00'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-21T09:17:36+00:00
+modified: 2026-09-25T16:29:30+00:00
 non_conformance_reason: ''
 permalink: llmeon/00-inbox/reviewing-notes-and-their-links-forces-re-engagement-with-the-ideas
 proposition: Reviewing notes and the links between them forces the brain to re-engage with the ideas, which is where the real value of a PKM system lies.

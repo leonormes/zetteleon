@@ -1,9 +1,9 @@
 ---
 conformant: false
-non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true)"
 created: 2026-09-14T11:41:17+00:00
 created_utc: '2026-09-14T00:00:00Z'
-modified: 2026-09-19T15:44:36+00:00
+modified: 2026-09-25T16:29:24+00:00
+non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/hollands-riasec-model-frames-interests-as-environmental-patterns-not-isolated-preferences
 source_title: "What Drives a Person's Interests? Why Do Some People Love Maths and Logic and Others Not? Why Do Interests Come in Related Bundles?"
 source_url: https://www.blackwellpublishing.com/content/personalityandindividualdifferences/9781405130080_4_012.pdf

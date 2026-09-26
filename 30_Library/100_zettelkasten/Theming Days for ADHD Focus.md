@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-26T11:06:00+00:00
 last_reviewed: 'null'
-modified: 2026-09-19T15:44:44+00:00
+modified: 2026-09-25T16:29:34+00:00
 permalink: llmeon/30-library/100-zettelkasten/theming-days-for-adhd-focus
 tags: [focus, planning, TheHuman/Health/ADHD, topic/productivity]
 title: Theming Days for ADHD Focus

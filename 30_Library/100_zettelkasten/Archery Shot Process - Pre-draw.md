@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T00:00:00+00:00
-modified: 2026-09-21T16:06:47+01:00
+modified: 2026-09-25T16:29:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-pre-draw
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Pre-draw
@@ -14,7 +14,7 @@ Pre-draw acts as a checklist step to verify posture, front shoulder position, an
 
 ### The Steps
 
-1. Torso Rotation (Core Alignment) & "Front Alignment First": Prioritize getting a straight, solid connection from your draw elbow, through your draw hand, and straight into your bow hand *before* aligning your shoulders to the target. Establish this distance in front of you, and *then* rotate your upper body/chest toward the target to bring that alignment into your body's center (without twisting the hips/feet). Attempting to perfectly align to the target first and then squeezing your arms into position causes severe tension. Imagine your core is a towel being twisted tightly—this coiling action locks the body in place and creates immense stability.
+1. Torso Rotation (Core Alignment) & "Front Alignment First": Prioritize getting a straight, solid connection from your draw elbow, through your draw hand, and straight into your bow hand _before_ aligning your shoulders to the target. Establish this distance in front of you, and _then_ rotate your upper body/chest toward the target to bring that alignment into your body's center (without twisting the hips/feet). Attempting to perfectly align to the target first and then squeezing your arms into position causes severe tension. Imagine your core is a towel being twisted tightly—this coiling action locks the body in place and creates immense stability.
 2. The "Barrel of the Gun": Strive for perfect skeletal alignment before the draw begins. The center of your bow wrist, bow shoulder, and draw shoulder must form a perfectly straight line, mimicking a long rifle barrel. Stacking these bones minimizes the muscular effort needed to hold heavy draw weights.
 3. Draw Hand and Arm Placement: Set the angle between your upper draw arm and shoulders at roughly 90 degrees (slightly further back is fine; avoid placing it too far forward to prevent impingement). Your draw hand wrist should end up roughly in line with the front of your chin. Most importantly, ensure your draw elbow is positioned on or slightly _behind_ the arrow line.
 4. Visual & Tension Setup (Pre-Aiming): Apply a slight amount of tension to the string. Do not aim yet; keep the arrow and stabilizer offset (pointing safely to the left of the target face for a right-handed archer). Establish a quick visual reference without aiming through the sight.

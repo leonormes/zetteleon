@@ -6,7 +6,7 @@ created: 2025-07-18T00:00:00+00:00
 epistemic_status: medium
 evidence_links: []
 last_reviewed: ''
-modified: 2026-09-19T15:44:31+00:00
+modified: 2026-09-25T16:29:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/bessies-working-memory-is-overwhelmed-by-large-information-volumes
 proposition: "Bessie's diagnoses of ADHD and dyslexia present significant challenges with executive functions, particularly working memory, manifesting as difficulty concentrating, forgetfulness, and struggling with organization, and her working memory can be easily overwhelmed by a high volume of information."
 see_also: []

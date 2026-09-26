@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-07-26T19:03:40+00:00
 last_reviewed: ''
-modified: 2026-09-19T15:44:30+00:00
+modified: 2026-09-25T16:29:16+00:00
 permalink: llmeon/30-library/100-zettelkasten/abstraction-as-climbing-a-hill
 tags: [abstraction]
 title: Abstraction as Climbing a Hill
@@ -20,3 +20,5 @@ The benefit of higher abstraction levels in improving understanding can be effec
 - Abstraction as Creation: This metaphor isn't limited to passive observation. In some domains, like mathematics, abstraction is an act of creation. It's not just climbing a hill to see a landscape, but engaging in the [[Generative maths is the creative discovery of abstract patterns]] that form new landscapes of thought.
 - A Productive Counter-Argument: While climbing the hill provides breadth, innovation can also come from digging a deep well. A [[Deep Focus on a Single Concept Sparks Innovation]] by ignoring the broader landscape to uncover something entirely new, creating a healthy tension between breadthand depth-focused learning.
 - The Philosophical Foundation: We are forced to climb because our default state is to be lost in the details of the valley floor. [[Human Understanding is Inherently Myopic]], and abstraction is the deliberate, effortful act of transcending this limitation.
+
+[depends_on:: [[Human Understanding is Inherently Myopic]], confidence=medium]

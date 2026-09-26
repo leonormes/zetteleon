@@ -32,6 +32,7 @@ Understanding the biological and logical basis of action to bypass executive dys
 - [[SoT - The Cognitive Physiology of Task Execution]]—_Deconstructs the five cognitive phases of action and their specific neurological bottlenecks._
 - [[SoT - Behavioral Architecture]]—_Focuses on environmental "Pipes" (Choice Architecture) to ensure the desired behavior is the path of least resistance._
 - [[Motivation, Volition, and Control are Distinct Aspects of the Action Process]]—_Clarifies the distinct psychological components required to maintain a reliable doing loop._
+- [[Task Management Systems Have Limited Efficacy for ADHD Productivity]]—_Why the system above is necessary but not sufficient: the bottleneck is initiating, not organising._
 - [[SoT - The Telos Method]]—_The chain of explainability that connects a specific Task to a high-level Problem, providing the necessary resonance for action._
 
 ### 3. Tactical Scaffolding

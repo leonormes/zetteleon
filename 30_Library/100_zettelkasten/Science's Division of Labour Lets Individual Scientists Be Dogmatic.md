@@ -6,7 +6,7 @@ created: 2026-09-08T20:15:00+00:00
 created_utc: 2026-09-08 20:15:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-19T15:44:42+00:00
+modified: 2026-09-25T16:29:30+00:00
 permalink: llmeon/00-inbox/sciences-division-of-labour-lets-individual-scientists-be-dogmatic
 proposition: "Godfrey-Smith argues the scientific method works not because every scientist is personally open-minded and self-critical, but because the community divides the labour, individual scientists can be dogmatic about their own theories while rival scientists eagerly do the critical testing for them."
 source_title: David Deutsch and Peter Godfrey-Smith

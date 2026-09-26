@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-10-31T12:05:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-19T15:44:41+00:00
+modified: 2026-09-25T16:29:29+00:00
 permalink: llmeon/30-library/100-zettelkasten/problems-are-fundamental-to-meaningful-work
 proposition: "Seeking a problem-free existence is counterproductive, since engaging with challenges and friction is what provides purpose, drives growth, and enables mastery."
 tags: [TheHuman/Psychology, topic/productivity]

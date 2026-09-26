@@ -2,7 +2,7 @@
 aliases: [Spending Friction]
 created: 2025-11-18T14:38:00+00:00
 last_reviewed: ''
-modified: 2026-09-19T15:44:45+00:00
+modified: 2026-09-25T16:29:35+00:00
 permalink: llmeon/30-library/100-zettelkasten/use-intentional-friction-to-curb-impulse-spending
 tags: [budgeting, finance, TheHuman/Habits, TheHuman/Psychology]
 title: Use Intentional Friction to Curb Impulse Spending

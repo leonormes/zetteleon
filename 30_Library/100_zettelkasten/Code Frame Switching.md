@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-31T16:08:15+00:00
 last_reviewed: ''
-modified: 2026-09-19T15:44:32+00:00
+modified: 2026-09-25T16:29:19+00:00
 permalink: llmeon/30-library/100-zettelkasten/code-frame-switching
 tags: [bilingualism, code-switching, cultural-identity, language-and-self]
 title: Code Frame Switching

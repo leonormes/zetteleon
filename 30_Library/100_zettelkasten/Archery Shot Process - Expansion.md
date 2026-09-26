@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-09-21T16:33:15+00:00
+modified: 2026-09-25T16:29:17+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-expansion
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Expansion
@@ -37,22 +37,22 @@ Expansion is the continuation of dynamic tension throughout the shot process, ma
 - Driving and reaching your bow hand as far toward the target as possible naturally forces stabilizing muscles to activate without introducing stiffening tension.
 - Moving LAN2 (the posterior deltoid / back of the shoulder) parallel to the shooting line naturally recruits scapular tension without freezing or co-contracting opposing muscles.
 - Proper shoulder alignment ensures all forces travel in a straight line, preventing collapse or plucking.
-- Timing matters more than duration: *Inside the Archer* (PDF p. 227) says the best archers shoot after holding for 1.5 to 3 seconds, because aiming consistency and focus fall off rapidly after about four seconds, and under one second tends to be sloppy and hard to repeat. Consistency of timing matters more than the exact figure.
+- Timing matters more than duration: _Inside the Archer_ (PDF p. 227) says the best archers shoot after holding for 1.5 to 3 seconds, because aiming consistency and focus fall off rapidly after about four seconds, and under one second tends to be sloppy and hard to repeat. Consistency of timing matters more than the exact figure.
 - Competition context (from a captured summary, not checked against the current World Archery rulebook): 20 seconds per arrow in individual alternate and team match play, and 30 to 40 seconds per arrow in qualification.
 
 ### Faults & Diagnostics
 
-- **Overdrawn (Draw length too long)**:
-  - *Lack of flexibility*: You can't extend the arrow past the clicker any further; it feels maxed out.
-  - *Stuck*: You feel completely stuck at full draw with nowhere to go.
-  - *Arching the back*: You break posture and lose core engagement to force the expansion.
-- **Underdrawn (Draw length too short)**:
-  - *Clicking early*: The clicker goes off before you fully reach anchor, causing subconscious form compromises (like collapsing the bow shoulder) on the next shot to prevent it.
-  - *Floating feeling*: You don't feel securely locked in or "inside the bow."
-  - *Weak release*: The shot feels soft, and the release hand moves outward instead of straight back.
+- Overdrawn (Draw length too long):
+  - _Lack of flexibility_: You can't extend the arrow past the clicker any further; it feels maxed out.
+  - _Stuck_: You feel completely stuck at full draw with nowhere to go.
+  - _Arching the back_: You break posture and lose core engagement to force the expansion.
+- Underdrawn (Draw length too short):
+  - _Clicking early_: The clicker goes off before you fully reach anchor, causing subconscious form compromises (like collapsing the bow shoulder) on the next shot to prevent it.
+  - _Floating feeling_: You don't feel securely locked in or "inside the bow."
+  - _Weak release_: The shot feels soft, and the release hand moves outward instead of straight back.
 - The Smoothness Trap: Forcing a perfectly smooth, effortless-looking release often causes intermediate archers to collapse.
 - Head & Neck Drift: The head visibly shifts backward as you try to force the arrow through the clicker.
-- String Drift: The head turns slightly during clicker expansion, so the rear-sight (string picture) alignment shifts just before the shot breaks. This is from a captured summary; it is consistent with *Inside the Archer* (PDF p. 224), which says small changes in head twist, tilt or lean change the string picture drastically.
+- String Drift: The head turns slightly during clicker expansion, so the rear-sight (string picture) alignment shifts just before the shot breaks. This is from a captured summary; it is consistent with _Inside the Archer_ (PDF p. 224), which says small changes in head twist, tilt or lean change the string picture drastically.
 - Forward Lean / Stretching (Postural Compensation): The torso or front shoulder stretches forward toward the target face during expansion. This is often a clue that your initial posture at the start of the shot wasn't set correctly and was already biased to lean forward. You cannot fix a bad setup during the expansion phase.
 - Clicker Mechanical Integrity: If your arrow shaft visibly bounces or jumps upward the instant the clicker blade releases, you have an equipment problem (blade tension too high).
 - Rushing (Lack of Back Tension): Back tension takes a moment to initiate and consolidate. Rushed archers pull the string back and instantly let go using only arm and finger muscles. This causes a weak release, lateral spread, and forward collapsing (especially as draw weight increases or a clicker is added).
@@ -113,8 +113,8 @@ Expansion is the continuation of dynamic tension throughout the shot process, ma
 
 ### Alternative Views / Corrections
 
-- **Distance left under the clicker**: Step 4 and the summaries give 1 to 4 mm, and a captured summary says 1 to 2 mm (up to 4). *Inside the Archer* (Ch. 17, PDF p. 166) says the archer should have a maximum of two millimetres of the arrow point under the clicker, because with more than that the clicker can no longer be popped by internal movement alone, with a loss of control. All are kept; the book is the strictest.
-- **How long to hold**: The Time Limit in step 5 says 1 to 3 seconds for expansion and 5+ seconds degrades. A captured summary says holding past 4 to 5 seconds causes fatigue and a weak release, and the book says aiming consistency falls off rapidly after about four seconds. These broadly agree; the 1.5 to 3 second figure above is the book's target.
+- Distance left under the clicker: Step 4 and the summaries give 1 to 4 mm, and a captured summary says 1 to 2 mm (up to 4). _Inside the Archer_ (Ch. 17, PDF p. 166) says the archer should have a maximum of two millimetres of the arrow point under the clicker, because with more than that the clicker can no longer be popped by internal movement alone, with a loss of control. All are kept; the book is the strictest.
+- How long to hold: The Time Limit in step 5 says 1 to 3 seconds for expansion and 5+ seconds degrades. A captured summary says holding past 4 to 5 seconds causes fatigue and a weak release, and the book says aiming consistency falls off rapidly after about four seconds. These broadly agree; the 1.5 to 3 second figure above is the book's target.
 
 ### References
 

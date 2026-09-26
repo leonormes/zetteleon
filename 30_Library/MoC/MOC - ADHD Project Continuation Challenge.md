@@ -37,7 +37,7 @@ Capture the "HEAD" state before it dissipates.
 
 Lower the activation energy required to move from "Off" to "On."
 
-- [[Breaking Projects Into Micro-Tasks Reduces ADHD Overwhelm]]: Decompose until the next action is binary (Done/Not Done).
+- [[Micro-Stepping Reduces Cognitive Load for Task Initiation|Breaking Projects Into Micro-Tasks Reduces ADHD Overwhelm]]: Decompose until the next action is binary (Done/Not Done).
 - [[The Hemingway Technique - End Work With Unfinished Problems]]: Stop mid-sentence or mid-function. Leave a "broken" state that is obvious and easy to fix.
 - [[A Project Playlist is a Sequence of Small Tasks to Rebuild Momentum]]: A curated 3-5 task list of "shallow" wins to rebuild the mental model.
 

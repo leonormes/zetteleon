@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-19T15:44:38+00:00
+modified: 2026-09-25T16:29:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/manual-workflow-walkthrough-before-automation-reveals-true-requirements
 proposition: Before automating a desired workflow with agents, an engineer should manually walk through every node of that workflow themselves — by hand — to map out the exact conditions, information flows, and functions actually required. This "is a more reliable design process than trying to guess the automation's shape upfront" without having done the work manually first.
 tags: [2, domain/llm, topic/agent-architecture, topic/best-practice, topic/workflow-design]

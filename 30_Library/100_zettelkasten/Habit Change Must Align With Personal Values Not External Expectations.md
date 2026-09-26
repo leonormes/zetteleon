@@ -2,7 +2,7 @@
 aliases: [Intrinsic Habit Motivation, Values-Driven Change]
 created: 2025-10-30T15:04:20+00:00
 last_reviewed: '2025-10-30'
-modified: 2026-09-19T15:44:36+00:00
+modified: 2026-09-25T16:29:24+00:00
 permalink: llmeon/30-library/100-zettelkasten/habit-change-must-align-with-personal-values-not-external-expectations
 status: seed
 tags: [intrinsic-motivation, TheHuman/Habits, TheHuman/Health/ADHD, values]

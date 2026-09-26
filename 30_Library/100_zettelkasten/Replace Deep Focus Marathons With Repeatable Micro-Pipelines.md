@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-19T23:58:53+00:00
 last_reviewed: ''
-modified: 2026-09-19T15:44:41+00:00
+modified: 2026-09-25T16:29:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/replace-deep-focus-marathons-with-repeatable-micro-pipelines-1
 tags: [topic/pkm]
 title: Replace Deep Focus Marathons With Repeatable Micro-Pipelines

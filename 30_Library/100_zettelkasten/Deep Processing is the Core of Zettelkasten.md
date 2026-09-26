@@ -7,7 +7,7 @@ epistemic_status: medium
 evidence_links: []
 falsifiers: ["Evidence that shallow processing (skimming, highlighting) produces learning outcomes statistically indistinguishable from note-linking.", A note describing a successful Zettelkasten practice where links are added mechanically (keyword-match or folder placement) and the user still develops deep understanding of the connected ideas.]
 last_reviewed: 2026-07-29
-modified: 2026-09-19T15:44:33+00:00
+modified: 2026-09-25T16:29:21+00:00
 permalink: llmeon/30-library/100-zettelkasten/deep-processing-is-the-core-of-zettelkasten
 proposition: The core of interaction with a Zettelkasten is not mere collection, but deep processing—translating and rephrasing an idea well enough to paraphrase it, which is where true learning occurs.
 tags: [topic/knowledge-architecture, topic/learning, topic/pkm/zettelkasten]

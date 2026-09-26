@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-07-16T15:50:54+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-19T15:44:35+00:00
+modified: 2026-09-25T16:29:22+00:00
 permalink: llmeon/30-library/100-zettelkasten/extrapolating-pathology-to-normal-function-is-a-hasty-generalisation
 proposition: 'Inferring that an intact brain is "silently split" because a surgically severed brain shows dual processing ignores that the intact corpus callosum dynamically integrates hemispheric states, producing a unified property the disconnected system lacks.'
 source_title: Waking Up (Sam Harris) — reviewed LLM summary and critique
@@ -39,3 +39,5 @@ Details: A severed system and an integrated system are different systems, not th
 ### Tensions
 
 - [[Harris Speculates Intact Brains May Host Overlapping Subjectivity]]—contradicts: Harris entertains a silently split intact brain.
+
+[depends_on:: [[Emergence]], confidence=medium]

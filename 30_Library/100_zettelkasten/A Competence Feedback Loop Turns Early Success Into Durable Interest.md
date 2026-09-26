@@ -5,7 +5,7 @@ created: 2026-09-14T11:40:43+00:00
 created_utc: '2026-09-14T00:00:00Z'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-20T18:49:52+00:00
+modified: 2026-09-25T16:29:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/a-competence-feedback-loop-turns-early-success-into-durable-interest
 proposition: A small early success in a domain creates a self-reinforcing loop of perceived capability, willingness to engage, practice, and further success, so two people of similar underlying ability can end up with radically different relationships to the same subject depending on when and how that loop started.
 source_title: "What Drives a Person's Interests? Why Do Some People Love Maths and Logic and Others Not? Why Do Interests Come in Related Bundles?"

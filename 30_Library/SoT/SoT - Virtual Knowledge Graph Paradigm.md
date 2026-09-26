@@ -61,3 +61,4 @@ The "Magic" of VKG is the real-time translation of semantic intent into relation
 
 - Domain III (Data-Centric Systems): VKG is the ultimate expression of Data-Centricity. It leaves data in its source of truth and imposes a logical view (Type System) on top of it, rather than moving the data to fit the code.
 - Impedance Mismatch: It solves the object-relational mismatch not by ORM (code), but by Mapping (declarative logic).
+- [[An Effective Knowledge Representation Needs Representational Adequacy, Inferential Adequacy and Efficiency, and Acquisitional Efficiency]]—_Generic criteria for judging any knowledge representation, including a virtual knowledge graph._

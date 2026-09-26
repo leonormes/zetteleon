@@ -4,7 +4,7 @@ conformant: true
 created: 2025-10-20T10:11:00+00:00
 definition: "A bounded system, unable to import rules or values from outside its own boundary, is forced to generate a self-referential framework of logic and meaning from its own components and history."
 distinguishes_from: []
-modified: 2026-09-19T15:44:43+00:00
+modified: 2026-09-25T16:29:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/systems-generate-internal-logic-in-isolation
 tags: [autopoiesis, culture, emergence, self-organization, topic/systems]
 title: Systems Generate Internal Logic in Isolation
@@ -39,7 +39,7 @@ Adjacent but not standing in one of the six edge relationships.
 
 - [[MOC - The Logic of Self-Contained Systems]]—_The parent map; this note is stage 2 of its three-stage argument._
 - [[SoT - Systems Thinking]]—_The broader discipline this mechanism sits inside._
-- [[Semantic Diffusion Creates False Alignment]]—_A narrower cousin: shared vocabulary masking divergent internal models. Related by family resemblance, not by entailment._
+- [[The Illusion of Shared Understanding in Teams|Semantic Diffusion Creates False Alignment]]—_A narrower cousin: shared vocabulary masking divergent internal models. Related by family resemblance, not by entailment._
 - [[The Illusion of Shared Understanding in Teams]]—_What the mechanism looks like when the "systems" in question are individual team members._
 - [[Bottom-Up Organization Allows Emergent Structure]]—_The deliberate, benign version: a Zettelkasten whose structure is allowed to self-organise rather than be imposed._
 

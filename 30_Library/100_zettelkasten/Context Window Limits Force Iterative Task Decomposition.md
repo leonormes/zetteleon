@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-19T15:44:33+00:00
+modified: 2026-09-25T16:29:20+00:00
 permalink: llmeon/30-library/100-zettelkasten/context-window-limits-force-iterative-task-decomposition
 proposition: LLM context windows are finite. When a developer attempts to have the "LLM reason about an entire application at once, the context fills and the LLM's" reasoning degrades. Production-grade AI-assisted development requires breaking work into discrete, context-bounded tasks and addressing them iteratively.
 tags: [domain/llm, topic/architecture, topic/context-engineering, topic/task-decomposition]

@@ -5,7 +5,7 @@ created: 2026-09-21T08:54:40+00:00
 created_utc: '2026-09-21T08:54:40+00:00'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-21T22:51:53+00:00
+modified: 2026-09-25T16:29:20+00:00
 non_conformance_reason: ''
 permalink: llmeon/00-inbox/communicating-depends-on-modelling-what-the-listener-already-knows
 proposition: Effective communication depends on the implicit model a speaker holds of what the listener already knows and is likely to misunderstand.

@@ -1,9 +1,9 @@
 ---
 conformant: false
-non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true)"
 created: 2026-09-14T12:09:40+00:00
 created_utc: '2026-09-14T00:00:00Z'
-modified: 2026-09-19T15:44:43+00:00
+modified: 2026-09-25T16:29:31+00:00
+non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/spiros-cognitive-flexibility-theory-corrects-three-reductive-biases-in-learning-ill-structured-domains
 source_title: PKM Meta-Graph System Research
 source_url: https://www.researchgate.net/publication/272177675_Cognitive_Flexibility_Theory_Advanced_Knowledge_Acquisition_in_Ill-Structured_Domains

@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-09-21T17:05:55+01:00
+modified: 2026-09-25T16:29:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-setup
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Setup
@@ -17,10 +17,10 @@ Setup involves setting the hands onto the bow, including hooking onto the string
 1. Mandatory Protection: Always use a finger tab (or archery glove) and an arm guard. The arm guard protects your inner forearm from painful string slap and prevents you from developing a subconscious flinch during your release.
 2. Clear Gear: Ensure no bulky clothing can catch the bowstring.
 3. The Set Position (Resting the Bow):
-   - **Avoid the Long Rod**: Do not rest the bow vertically on its long rod (stabilizer) while setting your grip and hook. This forces you to hunch over, raises the shoulders (straining upper traps and neck), and ruins posture.
-   - **Square Stance**: Rest the bow on your foot to reduce fatigue and wait out wind.
-   - **Open Stance**: Rest the bow on your thigh/leg (resting on the foot with an open stance pushes the bow too far right).
-   - **Posture & Connection**: Maintain upright posture to engage the core and keep shoulders low. Use this position to establish and feel the synchronized connection between your bow hand, draw hand, wrists, elbows, and back.
+   - Avoid the Long Rod: Do not rest the bow vertically on its long rod (stabilizer) while setting your grip and hook. This forces you to hunch over, raises the shoulders (straining upper traps and neck), and ruins posture.
+   - Square Stance: Rest the bow on your foot to reduce fatigue and wait out wind.
+   - Open Stance: Rest the bow on your thigh/leg (resting on the foot with an open stance pushes the bow too far right).
+   - Posture & Connection: Maintain upright posture to engage the core and keep shoulders low. Use this position to establish and feel the synchronized connection between your bow hand, draw hand, wrists, elbows, and back.
 4. Order of Execution: Always hook the string first, then place the hand into the bow grip.
 5. The Hook (Draw Hand):
    - Position the string directly in the first groove of your index finger, in or slightly behind the groove on your middle finger, and on the pad (slightly in front of the groove) of your ring finger.
@@ -29,13 +29,13 @@ Setup involves setting the hands onto the bow, including hooking onto the string
    - Relax your wrist so the bowstring stretches your hand flat as you draw.
    - Keep the pinky relaxed and neutral. The thumb should rest just below the shelf.
 6. The Grip (Bow Hand):
-   - **Placement vs. Pressure**: When the bow is resting down, simply place the "V" of your hand into the throat of the grip as a pivot point. Do not fully set your grip pressure or angle your wrist yet (doing this too early creates a painful wrist angle and ruins the shoulder connection). Only apply the final pressure point once you actually begin to raise and open the bow.
+   - Placement vs. Pressure: When the bow is resting down, simply place the "V" of your hand into the throat of the grip as a pivot point. Do not fully set your grip pressure or angle your wrist yet (doing this too early creates a painful wrist angle and ruins the shoulder connection). Only apply the final pressure point once you actually begin to raise and open the bow.
    - Place the 'Y' of your hand into the grip so the pressure point sits directly on the fleshy thumb pad (thenar eminence).
-   - **The Concept of Kumi**: Borrowed from Judo (and used in the KSL system), *Kumi* describes locking the elbow down and transferring core power directly through this fleshy thumb pad into the bow grip. Direct your pressure perfectly down the center line of the lower grip to prevent torquing the bow upon release. Apply pressure directly behind the wrist joint as if you were pushing with a "stump" or doing a push-up.
-   - **Active Thumb Direction**: Point the thumb straight along the side of the riser, actively directing toward the target. If the thumb just hangs down the side, the bow hand will roll off the edge, destabilizing the entire bow arm.
+   - The Concept of Kumi: Borrowed from Judo (and used in the KSL system), _Kumi_ describes locking the elbow down and transferring core power directly through this fleshy thumb pad into the bow grip. Direct your pressure perfectly down the center line of the lower grip to prevent torquing the bow upon release. Apply pressure directly behind the wrist joint as if you were pushing with a "stump" or doing a push-up.
+   - Active Thumb Direction: Point the thumb straight along the side of the riser, actively directing toward the target. If the thumb just hangs down the side, the bow hand will roll off the edge, destabilizing the entire bow arm.
    - Approach the grip with a "stop" motion (providing a flat platform for the bow) and slightly retract your knuckles to a 45-degree angle.
    - Keep fingers completely relaxed ("jelly fingers", holding the bow as gently as a "sick sparrow"). Curl the bottom three fingers in to touch your palm, and simply rest your index finger lightly on the front of the bow. Never wrap all four fingers across the front of the riser.
-   - **Sling Sizing**: Always use a finger sling or wrist sling. Ensure it is the correct length (roughly one inch of slack between the sling and riser when the hand is in position). If too long, the bow will wave wildly and you will instinctively grab it, ruining follow-through. If too short, the bow will stick in your hand and fail to roll forward to give you shot feedback.
+   - Sling Sizing: Always use a finger sling or wrist sling. Ensure it is the correct length (roughly one inch of slack between the sling and riser when the hand is in position). If too long, the bow will wave wildly and you will instinctively grab it, ruining follow-through. If too short, the bow will stick in your hand and fail to roll forward to give you shot feedback.
 
 ### Why It Works
 
@@ -50,10 +50,10 @@ Setup involves setting the hands onto the bow, including hooking onto the string
 
 ### Grip Angle Variances (Wrist Height)
 
-- **Forgiveness vs. Form**: A high grip angle (e.g., 45°) offers more forgiveness by bringing the pivot point and pressure point closer together, minimizing vertical arrow variance from inconsistent pressure. However, it makes it significantly harder to keep the bow shoulder down, increasing deltoid strain.
-- **Shoulder Stability**: Lower grip angles (e.g., 30° to 38°) make it much easier to keep the front bow shoulder down and securely locked in the proper place.
-- **Equipment Impact**: Transitioning to a higher wrist angle increases draw length. This typically requires moving the clicker placement inward and may require adjusting finger or wrist sling length.
-- **Style Preferences**: For Olympic recurve, a Mid-range angle (35°–38°) is often preferred (e.g., by Jake Kaminski) for a balance of form and forgiveness. For Barebow, a lower angle (30°–35°) is preferred because "crawling" down the string naturally forces the wrist higher and adds strain to the front shoulder.
+- Forgiveness vs. Form: A high grip angle (e.g., 45°) offers more forgiveness by bringing the pivot point and pressure point closer together, minimizing vertical arrow variance from inconsistent pressure. However, it makes it significantly harder to keep the bow shoulder down, increasing deltoid strain.
+- Shoulder Stability: Lower grip angles (e.g., 30° to 38°) make it much easier to keep the front bow shoulder down and securely locked in the proper place.
+- Equipment Impact: Transitioning to a higher wrist angle increases draw length. This typically requires moving the clicker placement inward and may require adjusting finger or wrist sling length.
+- Style Preferences: For Olympic recurve, a Mid-range angle (35°–38°) is often preferred (e.g., by Jake Kaminski) for a balance of form and forgiveness. For Barebow, a lower angle (30°–35°) is preferred because "crawling" down the string naturally forces the wrist higher and adds strain to the front shoulder.
 
 ### Faults & Diagnostics
 

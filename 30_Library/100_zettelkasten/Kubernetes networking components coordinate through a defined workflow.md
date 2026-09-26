@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-26T17:22:00+00:00
 last_reviewed: 'null'
-modified: 2026-09-19T15:44:38+00:00
+modified: 2026-09-25T16:29:26+00:00
 permalink: llmeon/30-library/200-projects/kubernetes-networking-components-coordinate-through-a-defined-workflow
 project_category: infrastructure
 project_name: k8s

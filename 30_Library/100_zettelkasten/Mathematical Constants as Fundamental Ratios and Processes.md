@@ -1,10 +1,10 @@
 ---
 aliases: []
 conformant: false
-non_conformance_reason: "missing required field - type"
 created: 2025-08-30T08:59:02+00:00
 epistemic_status: high
-modified: 2026-09-19T15:44:38+00:00
+modified: 2026-09-25T16:29:27+00:00
+non_conformance_reason: "missing required field - type"
 permalink: llmeon/30-library/100-zettelkasten/mathematical-constants-as-fundamental-ratios-and-processes
 prodos.kind: claim
 prodos.lifecycle: stable

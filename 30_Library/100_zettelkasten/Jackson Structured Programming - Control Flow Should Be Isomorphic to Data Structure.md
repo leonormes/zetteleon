@@ -5,7 +5,7 @@ created: 2026-09-19T15:25:22+00:00
 created_utc: 2026-09-19 00:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-22T00:00:00+00:00
+modified: 2026-09-25T16:29:25+00:00
 non_conformance_reason: ''
 permalink: llmeon/00-inbox/jackson-structured-programming-control-flow-should-be-isomorphic-to-data-structure
 proposition: The 1975 Jackson Structured Programming method, created by Michael Jackson, derives a program control structure directly and exclusively from Data Structure Diagrams of its input and output, so sequences, iterations, and selections in the data are mirrored one-for-one by sequential blocks, loops, and conditionals in the code.
@@ -13,7 +13,7 @@ source_title: "The Conservation of Software Complexity: The Dichotomy of Data St
 source_url: unknown
 status: seed
 tags: [control-flow, data-structures, historical, jackson-structured-programming]
-title: "Jackson Structured Programming - Control Flow Should Be Isomorphic to Data Structure"
+title: Jackson Structured Programming - Control Flow Should Be Isomorphic to Data Structure
 type: claim
 upstream: '[[tmp_atoms_data-structures-vs-control-flow]]'
 ---

@@ -49,7 +49,7 @@ Any agent touching frontmatter MUST return a `FrontmatterContract` object. This 
 
 ## 3. The 5 Canonical Note Types (Knowledge Nodes)
 
-Each of your five canonical note types has its own TAC schema. Any agent creating or editing a note must adhere to these schemas.
+Each of your five canonical note types has its own TAC schema. Any agent creating or editing a note must adhere to these schemas. The body of the note, its title, its links and how all of it is checked are specified in [[SoT - Atomic Note Standard (The Proposition Card)]]; where the two disagree about an atomic note in `100_zettelkasten`, that note wins.
 
 ### 3.1 ClaimNote
 
@@ -101,12 +101,14 @@ The nested `prodos` YAML object handles systemic routing and lifecycle events no
 
 _(Note: As the TAC architecture rolls out, elements of `prodos` may be fully migrated into top-level typed fields.)_
 
+> Amended 2026-09-26: the `prodos` object is **no longer part of an atomic note** (`100_zettelkasten`). The Obsidian Linter deletes the key on save, most notes never carried it, and `type` plus `status` carry the same information. The two keys in the table below are therefore not required for atomic notes and must not be written on new ones. They remain valid, optional routing metadata on SoTs, MoCs, protocols, HEAD notes and projects. See [[SoT - Atomic Note Standard (The Proposition Card)]] §3.
+
 ### 4.1 Universal Subkeys
 
 | Key | Required | Type | Allowed values / notes |
 |:----|:---------|:-----|:----------------------|
-| `prodos.kind` | Yes | string | `head`, `sot`, `protocol`, `moc`, `atomic`, `project`, `ops`, `prompt`, `journal` |
-| `prodos.lifecycle` | Yes | string | `seedling`, `active`, `stable`, `evergreen`, `archived` |
+| `prodos.kind` | No (was Yes; not for atomic notes) | string | `head`, `sot`, `protocol`, `moc`, `atomic`, `project`, `ops`, `prompt`, `journal` |
+| `prodos.lifecycle` | No (was Yes; not for atomic notes) | string | `seedling`, `active`, `stable`, `evergreen`, `archived` |
 | `prodos.trust` | No | string | `low`, `working`, `stable`, `authoritative`—epistemic confidence |
 | `prodos.review` | No | mapping | Optional cadence (`interval`, `last_reviewed`) |
 | `prodos.id` | No | string | Canonical stable id for the note. |

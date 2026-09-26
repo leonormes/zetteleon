@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-07-10T10:12:15+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-19T15:44:36+00:00
+modified: 2026-09-25T16:29:24+00:00
 permalink: llmeon/30-library/100-zettelkasten/heart-friendship-skills-your-kind-heart
 prodos.kind: atomic
 prodos.lifecycle: stable
@@ -24,7 +24,5 @@ _These strengths are all about how you connect with other people and show you ca
 - Leadership: Helping to organise a group to get something done and encouraging others along the way. (VIA Strength)
 - Social Intelligence: Understanding your own feelings and the feelings of others. Knowing what makes people "tick." (VIA Strength & PSHE)
 - Forgiveness: Giving people a second chance and not holding grudges when they make a mistake. (VIA Strength)
-
-[extends:: [[A Concept Map for a Flourishing Human]]]
 
 [implements:: [[MOC - Character and Virtue]], strength=3, confidence=high]

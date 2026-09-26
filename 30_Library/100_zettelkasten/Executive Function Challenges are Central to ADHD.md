@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-02-11T16:55:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-19T15:44:35+00:00
+modified: 2026-09-25T16:29:22+00:00
 permalink: llmeon/30-library/100-zettelkasten/executive-function-challenges-are-central-to-adhd
 proposition: 'ADHD is increasingly understood not merely as a deficit of attention, but as a neurodevelopmental disorder of self-regulation and executive function, per the Barkley and Brown models, producing a performance gap where the individual "knows what to do, but cannot do what they know."'
 status: seed

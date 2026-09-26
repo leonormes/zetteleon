@@ -75,3 +75,4 @@ This "Kluge" architecture explains why coding is exhausting: it requires the sim
 - [[SoT - Working Memory & Schema Theory]] (The hardware of mental models).
 - [[SoT - Cognitive Refactoring (Neural Debugging)]] (Fixing the internal code).
 - [[SoT - The Internal World and the Need for Validation]] (The fragility of internal models).
+- [[The Illusion of Shared Understanding in Teams]] (How individual models diverge across a team).

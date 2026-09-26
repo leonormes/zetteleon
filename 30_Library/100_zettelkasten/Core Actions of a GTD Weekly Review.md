@@ -3,7 +3,7 @@ aliases: [Get Clear Get Current Get Creative, GTD Weekly Review Steps]
 conformant: true
 created: 2026-09-21T15:30:00+00:00
 last_reviewed: ''
-modified: 2026-09-21T18:02:17+00:00
+modified: 2026-09-25T16:29:20+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/core-actions-of-a-gtd-weekly-review
 status: seed

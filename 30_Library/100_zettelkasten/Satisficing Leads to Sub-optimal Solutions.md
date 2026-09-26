@@ -4,7 +4,7 @@ conformant: true
 created: 2025-08-29T15:16:02+00:00
 definition: "Satisficing (Herbert Simon) is the practice of choosing the first available option that meets a minimum set of criteria (\"good enough\"), rather than continuing to search for the optimal solution; it reliably produces sub-optimal outcomes in people working from a limited or flawed mental model, who stop at a solution that merely fits their current understanding."
 distinguishes_from: []
-modified: 2026-09-19T15:44:42+00:00
+modified: 2026-09-25T16:29:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/satisficing-leads-to-sub-optimal-solutions
 tags: [decision-making, problem-solving, TheHuman/Cognition]
 title: Satisficing Leads to Sub-optimal Solutions

@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-19T15:44:36+00:00
+modified: 2026-09-25T16:29:23+00:00
 permalink: llmeon/30-library/100-zettelkasten/grammar-constrained-decoding-forces-hallucination-when-json-tool-call-sampling-fails
 proposition: "Grammar-constrained decoding guarantees a model's tool-call output parses as valid JSON, but only syntactic validity, not semantic correctness—if the model samples a token that puts it in an awkward grammatical position, the decoder has no path back to a clean stop and must invent a plausible-sounding key to satisfy the grammar, producing a hallucinated field."
 tags: [domain/llm, topic/llm-behavior, topic/reliability, topic/structured-outputs, topic/tool-use]

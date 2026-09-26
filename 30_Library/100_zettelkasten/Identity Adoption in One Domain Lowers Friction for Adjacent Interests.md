@@ -5,7 +5,7 @@ created: 2026-09-14T11:41:11+00:00
 created_utc: '2026-09-14T00:00:00Z'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-19T15:44:37+00:00
+modified: 2026-09-25T16:29:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/identity-adoption-in-one-domain-lowers-friction-for-adjacent-interests
 proposition: 'Once a person adopts an identity such as "a systems person" or "a musician," success in that domain supplies knowledge, tools, communities, and confidence that lower the entry friction for trying adjacent domains, producing an expanding cluster of related interests over time.'
 source_title: "What Drives a Person's Interests? Why Do Some People Love Maths and Logic and Others Not? Why Do Interests Come in Related Bundles?"

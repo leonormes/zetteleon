@@ -4,7 +4,7 @@ contradicts: []
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-19T15:44:38+00:00
+modified: 2026-09-25T16:29:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/llm-pipeline-accuracy-degrades-with-document-length-and-task-complexity
 proposition: Naive LLM pipelines that apply a fixed prompt across documents fail as document length and task complexity increase. Transformers hallucinate details in long contexts and omit buried information. Aggregation of multiple extractions fails silently when the same entity is represented inconsistently across outputs.
 tags: [domain/llm, topic/context-management, topic/data-processing, topic/pipelines, topic/reliability]

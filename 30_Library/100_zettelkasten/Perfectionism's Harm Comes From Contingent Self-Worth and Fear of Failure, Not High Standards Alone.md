@@ -1,9 +1,9 @@
 ---
 conformant: false
-non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true)"
 created: 2026-09-14T11:41:29+00:00
 created_utc: '2026-09-14T00:00:00Z'
-modified: 2026-09-19T15:44:40+00:00
+modified: 2026-09-25T16:29:28+00:00
+non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/perfectionisms-harm-comes-from-contingent-self-worth-and-fear-of-failure-not-high-standards-alone
 source_title: The Psychology of Over-preparing and Information Seeking
 source_url: https://kar.kent.ac.uk/20132/1/Stoeber_Feast_Hayward_IntrinsicExtrinsicMotivation_2009.pdf

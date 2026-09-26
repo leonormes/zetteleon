@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: low
 evidence_links: []
-modified: 2026-09-19T15:44:38+00:00
+modified: 2026-09-25T16:29:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/loop-engineering-is-a-rebrand-of-existing-sdlc-concepts-not-a-new-paradigm
 proposition: '"Loop engineering," as a trending label, describes the same plan-execute-validate-iterate structure the SDLC has always had, just with an agent doing more of the execution and validation steps, and the genuinely novel content is the specific architecture of AI Developer Workflows and software factories, not a new loop-based paradigm.'
 tags: [domain/llm, topic/critique, topic/terminology, topic/workflow-design]

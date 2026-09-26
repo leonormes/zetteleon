@@ -33,14 +33,14 @@ This note is the decision layer for the ProdOS Chief of Staff LLM. Every prompt 
 
 | Task | Prompt | Why |
 |---|---|---|
-| I have new vault content and don't know what to do with it | [[Prompt - Vault Ingest Router]] | Front door—runs locate→classify→test→route before any downstream prompt. Refuses to create a canonical note |
+| I have new vault content and don't know what to do with it | [[Prompt - Vault Ingest Router]] | Front door—runs locate→classify→test→route before any downstream prompt. Decides the route only: it does not merge, author or file, and stages new content through the atomic-capture pipeline in `00_Inbox/` |
 | I pasted raw source text/notes and want atomic knowledge units extracted | [[Atomic Signal Extractor → Write TMP file]] | Step 1 of the atomic-capture pipeline |
 | I have a tmp_atoms file ready to link into the vault | [[Atomic Linker → Promote & Connect]] | Step 2—always run after step 1 |
 | I have a NEW note and need to find where it belongs | [[Knowledge Consolidation Agent]] | Discovery-first merge/dedupe |
 | I have an established SoT/MOC and want scattered fragments folded into it | [[Knowledge Harvesting & Normalization Agent]] | Inverse of Consolidation Agent |
 | I already know which notes to merge—just do it | [[sys_merger]] | Fast merge, no discovery phase |
 | I want ONE note's links checked/expanded | [[Note Refresh & Link Auditor]] | Single-target deep refresh |
-| I have a bare/orphan note with few or no links and want it positioned in the graph, then stress-tested | [[Orphan Note Positioning & Thread Audit]] | Single-note composition of the bootstrap→hygiene→epistemics pipeline below—discovers connections, proposes typed edges, then thread-audits the note once positioned |
+| I have a bare/orphan note with few or no links and want it positioned in the graph, then stress-tested | [[Orphan Note Positioning & Thread Audit]] | Single-note composition of the bootstrap→hygiene→epistemics pipeline below—discovers connections, applies typed edges/links/frontmatter, then thread-audits the note, all in one unattended run |
 | I want a whole domain cluster surveyed for the first time—canonical candidates, duplicates, conflicts | [[LLM Graph Bootstrap Agent]] | Discovery/proposal only; writes report + stubs, never canonical notes. Run before the two graph prompts below |
 | I want the whole justification graph audited for unsupported claims/foundations/conflicts, and gaps closed | [[Justification Graph Audit & Gap Closure]] | Runs `edge_lint.py --audit`; closes C1 gaps via edges or `axiom:` markers |
 | I have a pile of unread/unprocessed notes to organise into MOCs | [[Principal Vault Triage Architect]] | Macro triage + navigation, not deep analysis |

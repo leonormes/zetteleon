@@ -65,3 +65,4 @@ For ADHD brains, the "Research Rabbit Hole" and "Information Hoarding" provide i
 - [[SoT - PRODOS Core Specification]] (The underlying engine)
 - [[SoT - Prosthetic Executive Function]] (The theory of externalized EF)
 - [[Protocol - Vague-to-Action]] (How to execute Phase A)
+- [[Knowledge Emerges Through Application and Experience]] (Why the Action phase works: application produces the experiential information that theory cannot)

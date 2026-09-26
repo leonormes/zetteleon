@@ -4,7 +4,7 @@ conformant: true
 created: 2025-07-16T17:30:02+00:00
 modified: 2026-09-19T15:45:11+00:00
 permalink: llmeon/30-library/mo-c/moc-character-and-virtue
-see_also: ["[[A Concept Map for a Flourishing Human]]", "[[SoT - Values and Eudaimonia]]", "[[The Concept of a Character Ideal]]"]
+see_also: ["[[SoT - Values and Eudaimonia]]", "[[The Concept of a Character Ideal]]"]
 tags: [character, ethics, TheHuman/Psychology, type/moc, virtue]
 title: MOC - Character and Virtue
 type: map
@@ -129,13 +129,12 @@ Aristotle's claim that virtue is acquired by habituation, cashed out in this vau
 
 ## 5. Applied—Character Development for Children
 
-The VIA framework re-rendered in child-facing language, crossed with the English National Curriculum and PSHE. Built for Bessie; reusable for the others.
+The VIA framework re-rendered in child-facing language, crossed with the English National Curriculum and PSHE. Built for Bessie; reusable for the others. It works as a pick-list for a concept map: write the child's name in the centre, draw a branch to each of the four groups below, and pick the skills that fit. The aim is to shift the focus from "things you must do for school" to "all the wonderful parts that make up you".
 
-- [[A Concept Map for a Flourishing Human]]—the parent note. Full pick-list, four branches.
+- [[Thinking & Creating Skills (Your Clever Brain)]]—curiosity, love of learning, creativity, judgement, perspective, literacy, numeracy, digital literacy.
 - [[Inner Strength & Resilience Skills (Your Strong Spirit)]]—bravery, perseverance, honesty, self-regulation, prudence, humility, resilience.
 - [[Heart & Friendship Skills (Your Kind Heart)]]—kindness, love, teamwork, fairness, leadership, social intelligence, forgiveness.
 - [[World & Wonder Skills (How You Connect to the World)]]—beauty, gratitude, hope, humour, zest, understanding the world, responsibility.
-- _(Gap: "Thinking & Creating Skills (Your Clever Brain)" exists as a section inside the parent note but has never been split out as a sibling note. See Tensions.)_
 
 ---
 
@@ -165,6 +164,8 @@ Other answers to the same question, kept separate rather than assimilated into V
 - [[SoT - The Philosophy of the Absurd (Camus)]]—the rival position: meaning is constructed in defiance, not discovered.
 - [[SoT - Peter Singer's Famine, Affluence, and Morality]]—the consequentialist rival to virtue ethics. Asks what you must _do_, not what you must _be_.
 - [[Evil Attacks the Shared Moral Community Itself Not Merely a Norm Within It]]—the far pole of the character axis.
+- [[Card's Atrocity Paradigm Identifies Evil via Three Necessary Co-conditions]]—the formal three-condition test that separates evil from ordinary wrongdoing, negligence and tragedy.
+- [[MOC - Evil and Atrocity]]—the full map of the evil cluster, organised around the Atrocity Paradigm.
 - [[Parable of the Bitter Spring]]—a narrative treatment of character formation.
 - [[SoT - Personal Agency and Transformation]] and [[SoT - Intentional Living]]—the agency substrate.
 
@@ -186,7 +187,6 @@ Individual strengths as they show up elsewhere in the vault, evidencing that the
 - VIA is a taxonomy, not a theory. It tells you what strengths exist and that they cluster; it does not explain how one is acquired or why the six virtues are the right cut. §1 (Aristotle) and §4 (habituation) are doing the explanatory work VIA does not do. Do not mistake the list's tidiness for a causal model.
 - The empirical status of the six-virtue structure is weaker than the map implies. The claim of cross-cultural universality is contested and the factor structure has not replicated cleanly. This map treats VIA as a _useful vocabulary_, not a validated ontology—consistent with the Utility-over-Truth axiom.
 - §6 contradicts §2 in tone if not in content. §2 supplies a vocabulary for naming what a person lacks; §6 says never use it that way. Both are correct, but the resolution is a discipline (prospective, not diagnostic) rather than a fact. The live `contradicts` edge between [[SoT - Bonhoeffer's Theory of Functional Stupidity]] and [[Binary Person-Judgement Is a Cognitive Default, Not a Character Flaw]] is the sharpest instance and remains open.
-- Missing sibling note. §5 has three of four branches split out; "Thinking & Creating Skills (Your Clever Brain)" is still only a heading inside [[A Concept Map for a Flourishing Human]].
 - Under-connected strengths. Several of the 24 are one-line stubs with no inbound links from real use (spirituality, humor, love, appreciation of beauty). They are placeholders in a taxonomy rather than live nodes; the map does not yet distinguish the two.
 - No archery note yet. Recurve archery is the obvious live testbed for perseverance, self-regulation and zest ([[MOC - Archery Shot Process]] exists but carries no character edges). An unexploited link.
 

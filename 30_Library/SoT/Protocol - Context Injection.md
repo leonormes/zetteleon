@@ -87,3 +87,4 @@ Before writing any implementation code, you must perform a "Semantic Check":
 ### Related Concepts
 
 - [[SoT - Semantic Code Graph]]
+- [[The Illusion of Shared Understanding in Teams]]—_Why the Ubiquitous Language section exists: the same word held by you and the LLM can point at different models, and neither side notices until the output is wrong._

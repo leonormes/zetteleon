@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-07-28T09:52:36+00:00
 epistemic_status: low
 evidence_links: []
-modified: 2026-09-19T15:44:38+00:00
+modified: 2026-09-25T16:29:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/loop-engineering-is-built-from-six-components-automation-worktrees-skills-plugins-sub-agents-and-state
 proposition: 'Loop Engineering—the automation layer that removes the human from task initiation, letting a system self-prompt on schedules or events—is built from six core components: automation (the scheduling/triggering mechanism), worktrees (isolated workspaces for concurrent runs), skills (packaged task-specific capabilities), plugins (external tool/API integrations), sub-agents (delegated specialized workers), and state (persistent tracking of progress across runs).'
 tags: [domain/llm, topic/agent-architecture, topic/taxonomy, topic/workflow-design]

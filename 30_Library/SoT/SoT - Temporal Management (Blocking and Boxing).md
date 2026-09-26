@@ -61,3 +61,5 @@ This SoT is operationalized through:
 
 - [[SoT - The Nature of Time and Perception]] (rel:: foundation-of)
 - [[SoT - Indistractable Model (Focus Management)]] (rel:: supports)
+- [[Fixed-Schedule Productivity Creates Artificial Constraints to Drive Efficiency]] (The strictest form of Time Boxing: every minute planned, with a hard stop)
+- [[Cal Newport's Deep Work Method Involves Rigorous Time Blocking to Maximize Concentration]] (Time Blocking applied to protect deep work from shallow work)

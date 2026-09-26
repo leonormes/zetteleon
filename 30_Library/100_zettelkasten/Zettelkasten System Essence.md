@@ -8,7 +8,7 @@ epistemic_status: high
 evidence_links: []
 id: 1b
 last_reviewed: 2026-07-29
-modified: 2026-09-19T15:44:46+00:00
+modified: 2026-09-25T16:29:36+00:00
 permalink: llmeon/30-library/100-zettelkasten/zettelkasten-system-essence
 proposition: A Zettelkasten exists in the mental processes of the person using it; the size or density of the graph was never the point and is not even good evidence of understanding—what does the actual work is the person doing the thinking and the linking themselves, one card at a time, as Luhmann himself demonstrated by carrying his in his head.
 tags: [topic/knowledge-architecture, topic/pkm/zettelkasten]

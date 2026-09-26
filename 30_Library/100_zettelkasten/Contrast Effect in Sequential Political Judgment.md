@@ -5,7 +5,7 @@ created: 2026-09-17T11:33:10+00:00
 created_utc: '2026-09-17T00:00:00Z'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-19T15:44:33+00:00
+modified: 2026-09-25T16:29:20+00:00
 permalink: llmeon/00-inbox/contrast-effect-in-sequential-political-judgment
 proposition: When an evaluator is exposed to an extreme, norm-violating political figure, that figure sets an anchor so low that subsequent evaluations of a moderately flawed politician are pulled upward, because the two are compared against each other rather than against an absolute standard.
 source_title: Political Contrast Effect Research

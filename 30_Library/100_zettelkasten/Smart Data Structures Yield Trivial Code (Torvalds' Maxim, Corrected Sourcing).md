@@ -5,7 +5,7 @@ created: 2026-09-19T15:24:25+00:00
 created_utc: 2026-09-19 00:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-22T00:00:00+00:00
+modified: 2026-09-25T16:29:31+00:00
 non_conformance_reason: ''
 permalink: llmeon/00-inbox/smart-data-structures-yield-trivial-code-torvalds-maxim-corrected-sourcing
 proposition: Linus Torvalds argued that the difference between a bad and a good programmer is whether they prioritise their code or their data structures, and that well-chosen data structures make the algorithms operating on them self-evident.
@@ -39,7 +39,7 @@ Originates as a footnote in a 2006 git mailing-list reply about licensing and in
 
 - [[SoT - Conservation of Complexity]]—corrects/refines: quotes this exact line uncritically as "The Linus Torvalds Bridge" with no source or date; this atom supplies the missing provenance.
 - [[SoT - Type-Driven Development (The Torvalds Loop)]]—corrects/refines: quotes the same line as "The Core Mandate" (§1) with no source; same correction applies.
-- [[Corrected Quote Lineage - Brooks, Pike, Raymond, Torvalds (Fold Knowledge Into Data)]]—*this claim's own sourcing correction rests on that note's fuller attribution chain (Brooks → Pike → Raymond → Torvalds).*
+- [[Corrected Quote Lineage - Brooks, Pike, Raymond, Torvalds (Fold Knowledge Into Data)]]—_this claim's own sourcing correction rests on that note's fuller attribution chain (Brooks → Pike → Raymond → Torvalds)._
 
 [revises:: [[SoT - Conservation of Complexity]], confidence=high]
 

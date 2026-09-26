@@ -4,7 +4,7 @@ conformant: true
 created: 2025-10-20T09:06:00+00:00
 definition: "The principle of empathic communication — diagnosing before prescribing by listening with the intent to understand another person's frame of reference, rather than listening with the intent to reply."
 distinguishes_from: []
-modified: 2026-09-19T15:44:36+00:00
+modified: 2026-09-25T16:29:24+00:00
 permalink: llmeon/30-library/100-zettelkasten/habit-5-seek-first-to-understand-then-to-be-understood
 tags: [7-habits, communication, empathy, gtd, principles, productivity, TheHuman/Habits]
 title: Habit 5 - Seek First to Understand, Then to Be Understood
@@ -59,7 +59,7 @@ If diagnose-before-prescribe is a principle rather than a technique, these are t
 
 Related but untyped—these sit adjacent to the habit without standing in one of the six edge relationships.
 
-- [[Semantic Diffusion Creates False Alignment]]—_The specific mechanism by which shared vocabulary masks divergent models._
+- [[The Illusion of Shared Understanding in Teams|Semantic Diffusion Creates False Alignment]]—_The specific mechanism by which shared vocabulary masks divergent models._
 - [[Certainty and Synthesis Gaps are Internal Barriers to Group Understanding]]—_Names the Synthesis Gap that empathic listening is aimed at closing._
 - [[Cross-Cultural Communication Effectiveness]]—_Where experiential filters diverge most, the cost of skipping the diagnostic step is highest._
 - [[The No Solution Deflection in Difficult Conversations]]—_A failure mode that mimics understanding while foreclosing it._

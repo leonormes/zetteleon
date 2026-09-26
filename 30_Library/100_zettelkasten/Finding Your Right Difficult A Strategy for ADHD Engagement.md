@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-24T15:20:00+00:00
 last_reviewed: ''
-modified: 2026-09-19T15:44:35+00:00
+modified: 2026-09-25T16:29:23+00:00
 permalink: llmeon/30-library/100-zettelkasten/finding-your-right-difficult-a-strategy-for-adhd-engagement
 tags: [challenge, DMN, engagement, personal-growth, TheHuman/Health/ADHD, TheHuman/Motivation]
 title: Finding Your Right Difficult A Strategy for ADHD Engagement

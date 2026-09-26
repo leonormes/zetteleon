@@ -5,7 +5,7 @@ created: 2026-09-01T16:18:57+00:00
 created_utc: '2026-09-01T16:18:54.888265+00:00'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-19T15:44:39+00:00
+modified: 2026-09-25T16:29:27+00:00
 permalink: llmeon/00-inbox/minimize-access-friction-with-one-motion-storage
 proposition: Frequently used supplies should be accessible in a single physical motion without digging, unstacking, or moving other objects.
 source_title: The 7 rules of organization

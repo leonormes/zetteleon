@@ -4,7 +4,7 @@ conformant: true
 created: 2025-10-30T12:37:54+00:00
 definition: The distinction between shame that guides behavior correction without affecting self-worth (productive) and shame that persists as an identity-level feeling of being fundamentally flawed (destructive).
 distinguishes_from: []
-modified: 2026-09-19T15:44:41+00:00
+modified: 2026-09-25T16:29:29+00:00
 non_conformance_reason: 
 permalink: llmeon/30-library/100-zettelkasten/productive-vs-destructive-shame
 prodos.kind: atomic

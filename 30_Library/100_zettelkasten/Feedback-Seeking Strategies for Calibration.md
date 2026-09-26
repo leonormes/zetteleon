@@ -1,9 +1,9 @@
 ---
 aliases: []
 conformant: false
-non_conformance_reason: "invalid type strategy — must be one of [claim, concept, evidence, journal, map, procedure, project, protocol, question, sot]"
 created: 2025-10-31T09:20:29+00:00
-modified: 2026-09-19T15:44:35+00:00
+modified: 2026-09-25T16:29:23+00:00
+non_conformance_reason: "invalid type strategy — must be one of [claim, concept, evidence, journal, map, procedure, project, protocol, question, sot]"
 permalink: llmeon/30-library/100-zettelkasten/feedback-seeking-strategies-for-calibration
 tags: [method/calibration, topic/social-cognition, topic/social-perception]
 title: Feedback-Seeking Strategies for Calibration

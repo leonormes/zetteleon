@@ -33,6 +33,28 @@ The low-level Linux mechanisms that make containers possible.
 
 ---
 
+### Cybernetic Reading of Cluster State
+
+Read from [[Cybernetic Analysis of Kubernetes State Management.]]. The cluster as a set of feedback loops, and where that reading strains:
+
+- [[Kubernetes Can Be Read as a Cybernetic Control System With the Spec as Setpoint and Observed State as Process Variable]]
+- [[Kubernetes Controllers Act as Sensor, Comparator and Effector in Each Control Loop]]
+- [[Kubernetes Corrects Deviations From Desired State Through Negative Feedback]]
+- [[Kubernetes Self-Healing Is Homeostasis Because Controllers Restore the Declared Equilibrium After Each Perturbation]]
+- [[Kubernetes State Comes in Three Kinds Desired Actual and Implicit]]
+- [[etcd and the API Server Hold the Authoritative Reference Signal for Every Control Loop]]
+- [[The API Server Decouples Controllers Because They Coordinate Through Shared State Rather Than Directly]]
+- [[Optimistic Concurrency Control With Resource Versions Stops Kubernetes Controllers Making Conflicting Updates]]
+- [[Level-Triggered Idempotent Controllers Tolerate Latency and Event Reordering in Kubernetes]]
+- [[Kubernetes Control Is a Hierarchy of Nested Loops Not a Single Loop]]
+- [[Global Stability in Kubernetes Emerges From Many Narrow Negative Feedback Loops]]
+- [[Unbounded Kubernetes Control Loops Can Produce Cascading Failures That Behave Like Positive Feedback]]
+- [[The Error Signal in Kubernetes Is Not Exposed Explicitly So Debugging Persistent Deviations Is Hard]]
+- [[Loss of etcd or the API Server Disables the Whole Kubernetes Control System]]
+- [[Many Kubernetes Controllers Reacting to One Event Can Overload the API Server as a Thundering Herd]]
+- [[Most Kubernetes Controllers Are Reactive Rather Than Predictive]]
+- [[A Silently Failing Effector Leaves a Kubernetes Control Loop Open Until Feedback Is Reported]]
+
 ### 3. Platform Implementation (FITFILE Context)
 
 - [[SoT - FITFILE Platform Deployment]]—_Standardized deployment of the FITFILE stack._

@@ -1,9 +1,9 @@
 ---
 conformant: false
-non_conformance_reason: "missing required field - type"
 created: 2026-04-10T00:00:00+00:00
 epistemic_status: high
-modified: 2026-09-19T15:44:39+00:00
+modified: 2026-09-25T16:29:28+00:00
+non_conformance_reason: "missing required field - type"
 permalink: llmeon/30-library/100-zettelkasten/never-return-an-item-to-the-in-tray-once-picked-up-for-clarification
 prodos.kind: claim
 prodos.lifecycle: stable

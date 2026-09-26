@@ -5,7 +5,7 @@ created: 2025-10-20T09:04:00+00:00
 definition: "The two-axis (urgency x importance) triage tool, popularised by Stephen Covey as First Things First, that sorts activities into four quadrants and argues effective time management is the deliberate protection of Quadrant II (important, not urgent) work from the noise of Quadrant I and III urgency."
 distinguishes_from: []
 last_reviewed: ''
-modified: 2026-09-23T00:00:00+00:00
+modified: 2026-09-25T16:29:34+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-time-management-matrix-eisenhower-matrix
 tags: [7-habits, gtd, management, prioritization, productivity, TheHuman/Habits]
 title: The Time Management Matrix (Eisenhower Matrix)

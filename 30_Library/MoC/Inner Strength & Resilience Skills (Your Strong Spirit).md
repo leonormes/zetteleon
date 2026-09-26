@@ -21,8 +21,8 @@ These are the quiet strengths inside you that help you face challenges and stay 
 
 ---
 
-This map is part of the larger concept of [[A Concept Map for a Flourishing Human]].
+This map is one branch of the child-facing concept map described in [[MOC - Character and Virtue]], section 5.
 
-[extends:: [[A Concept Map for a Flourishing Human]], strength=4, confidence=high]
+Curriculum mapping: all seven are VIA strengths. Honesty also maps to the National Curriculum values, Self-Regulation to PSHE, and Resilience to a National Curriculum aim and to PSHE (PSHE: Personal, Social, Health and Economic education).
 
 [implements:: [[MOC - Character and Virtue]], strength=3, confidence=high]

@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-19T15:44:36+00:00
+modified: 2026-09-25T16:29:24+00:00
 permalink: llmeon/30-library/100-zettelkasten/human-in-the-loop-hitl-as-mandatory-control-layer-for-high-stakes-llm-applications
 proposition: Relying entirely on autonomous LLMs in production is untenable for high-stakes domains. Human-in-the-Loop (HITL) is an architectural philosophy that blends human judgment with machine intelligence at strategic intervention points to catch errors, ensure compliance, and prevent LLM failures from reaching end users.
 tags: [domain/llm, topic/architecture-pattern, topic/human-oversight, topic/reliability, topic/safety]

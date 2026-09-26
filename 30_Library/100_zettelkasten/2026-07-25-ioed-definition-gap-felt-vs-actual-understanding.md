@@ -4,8 +4,8 @@ conformant: true
 contradicts: []
 created: 2026-07-25T11:17:00+00:00
 epistemic_status: medium
-evidence_links: []
-modified: 2026-09-19T15:44:29+00:00
+evidence_links: ["[[Evidence - Sloman and Fernbach Find the Illusion of Understanding Is Robust Across Topics]]"]
+modified: 2026-09-25T16:29:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/2026-07-25-ioed-definition-gap-felt-vs-actual-understanding
 prodos.kind: atomic
 prodos.lifecycle: stable
@@ -42,3 +42,12 @@ Claims that build on this definition (see their own `## Knowledge Graph` section
 - [[2026-07-25-ioed-vs-dunning-kruger-distinction|IoED and Dunning-Kruger Effect Differ in Driver, Calibration Axis, and Correction]]—depends on this definition
 
 [supports:: [[SoT - Illusion of Explanatory Depth (IoED)]]]
+
+## Elsewhere in the Vault
+
+- [[Evidence - Sloman and Fernbach Find the Illusion of Understanding Is Robust Across Topics]]—_evidence: people overestimate their understanding across topics from tax policy to GMOs to their own finances (typed `supports` on that note)._
+- [[SoT - Illusion of Explanatory Depth (IoED)]]—_the canonical note. An older, unstructured note on the same definition, framed as judging understanding by signals, was merged into its section "The Signals We Mistake for Understanding" on 2026-09-25._
+- [[Writing in Own Words Distinguishes Comprehension from the Illusion of Knowledge]]—_a practical test for the same gap from the writing side: recognising an idea is not grasping its principle._
+- [[The Illusion of Shared Understanding in Teams]]—_the team-level version: shared terminology masking different underlying models._
+- [[The Illusion of Fluency is a Cognitive Bias Where Ease of Processing is Mistaken for Deep Learning]]—_a neighbouring bias, ease of processing mistaken for learning; distinct from explanatory depth, which is about causal explanation._
+- [[SoT - Metacognitive Calibration]]—_the wider frame of matching felt confidence to actual understanding._

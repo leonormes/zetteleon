@@ -76,3 +76,7 @@ They do _not_ provide:
 
 - [[SoT - Conservation of Complexity]]: Kubernetes shifts complexity from "Runbooks" (Code) to "Manifests" (Data/Representation).
 - [[SoT - Git]]: GitOps treats Git as the "upstream" etcd.
+
+## See Also
+
+- [[Kubernetes Can Be Read as a Cybernetic Control System With the Spec as Setpoint and Observed State as Process Variable]]—_The same model in control-theory terms; the other atoms extracted from [[Cybernetic Analysis of Kubernetes State Management.]] are listed in [[MOC - Kubernetes Architecture]]._

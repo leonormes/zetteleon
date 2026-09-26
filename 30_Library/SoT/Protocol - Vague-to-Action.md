@@ -60,6 +60,7 @@ Each phase answers a specific reason a heavy task gets avoided.
 ## When It Fails or Is the Wrong Tool
 
 - The decomposition becomes the avoidance. Phase 2 is preparation, and preparation is a classic way to dodge the real work. [[The Core Problem Confusing Preparation with Action]]—_Deciding and planning feel like progress but change nothing in the world; the "painting the bullock cart wheels" story._ [[Tool tinkering is a form of productive procrastination]]—_Meta-work that feels productive but is not the task._ The 5-minute timer and the "without filtering" instruction are the guard; stop at Phase 3 even if the plan feels incomplete.
+- The preparation is research, not planning. Before Phase 1 a vague task can turn into open-ended reading. [[Time-Boxing Research Prevents Productive Procrastination]]—_One specific question, a fixed timer, then act on what you found._
 - The block is emotional, not a missing step. [[SoT - The Emotional Bottleneck Hypothesis]]—_Argues that "What am I afraid of?" is often the better question than "What is the next MVA?", so decomposing a task that is blocked by fear will stall._ In that case run [[SoT - The 3-Switch Protocol (Emotional Reset)]] first, then return here. [[Rejection Sensitive Dysphoria (RSD)]]—_One specific way starting can feel dangerous._
 - It is run at the point of performance. [[Claim - Stripping Away Systems Under-Weights the Need for Pre-Committed External Prosthetics]]—_Asking yourself for the smallest next action at the moment of need relies on exactly the executive resource that is depleted; move the decomposition earlier, when you have capacity, and let the list carry the MVA._ The weekly review is the natural time (see below).
 - The MVA is still too big. Shrink it again: [[Micro-Stepping Reduces Cognitive Load for Task Initiation]]—_Break a task into the smallest possible act._ [[The Three Rules of Starter Tasks]]—_A starter task exists only to build momentum and has a maximum duration._
@@ -74,6 +75,8 @@ Each phase answers a specific reason a heavy task gets avoided.
 
 ## Related
 
+- [[Micro-Stepping Reduces Cognitive Load for Task Initiation|Breaking Projects Into Micro-Tasks Reduces ADHD Overwhelm]]—_The claim behind the decomposition: small specific steps with milestones make a large project startable and give re-entry points._
+- [[SoT - Execution Protocol (GTD & PARA)]]—_Supplies the outcome-naming rule and the Project and Task Definition of Done that Phase 1 (Define the Endpoint) applies to a vague item._
 - [[SoT - PRODOS Core Specification]]—_The kernel specification that defines the "Logic-Dopamine Mismatch" and provides the theoretical basis for the 120-second MVA loop; its §3.4 Decomposition Protocol points to this note._ [implements:: [[SoT - PRODOS Core Specification]]]
 - [[Engineering Action and Bypassing Resistance]]—_The wider claim that action can be engineered around resistance, with the Minimum Viable Action as one of its levers._
 - [[MOC - Action Management]]—_The central hub for ProdOS execution strategies, mapping this protocol to the broader goal of transforming intent into reality._

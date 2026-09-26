@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-29T15:16:19+00:00
 last_reviewed: 'null'
-modified: 2026-09-19T15:44:37+00:00
+modified: 2026-09-25T16:29:25+00:00
 permalink: llmeon/30-library/100-zettelkasten/instrumentalism-vs-realism-in-understanding
 tags: [philosophy-of-science, TheHuman/Cognition/mental-model]
 title: Instrumentalism vs Realism in Understanding

@@ -4,7 +4,7 @@ contradicts: []
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-19T15:44:43+00:00
+modified: 2026-09-25T16:29:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/specialized-sub-agent-roles-divide-research-context-retrieval-and-code-editing
 proposition: Spec-driven development (as opposed to vibe coding) turns developer intent into strict specifications, then deploys an agent harness with specialized sub-agents — one for researching dependencies, one for pulling context via MCP servers, and one for code editing — rather than a single monolithic agent handling the whole task.
 tags: [domain/llm, topic/agent-architecture, topic/spec-driven-development, topic/sub-agents]

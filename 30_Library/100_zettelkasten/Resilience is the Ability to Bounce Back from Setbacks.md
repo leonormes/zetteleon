@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-11-01T21:26:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-19T15:44:41+00:00
+modified: 2026-09-25T16:29:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/resilience-is-the-ability-to-bounce-back-from-setbacks
 proposition: "Resilience — the capacity to adapt to and recover from stress, adversity, trauma, or disappointment — is a dynamic process of behaviours, thoughts, and actions that can be learned and developed, not a fixed trait."
 tags: [character-strength, growth, resilience, TheHuman/Psychology, virtue]

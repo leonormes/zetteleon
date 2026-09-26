@@ -176,3 +176,7 @@ Agent write scope into `20_Thinking/` is now defined rather than forbidden: an a
 The workbench is working memory, and working memory is expensive. Everything in it costs attention every time you look at the folder. A topic-shaped note ("The Trap of the Architect") has no closing condition, so it never leaves—it accumulates, and the folder degrades into a graveyard that is psychologically easier to ignore than to read. That is the failure mode this contract is built against, and it is the same failure mode the Web Clipper produced by a different route: anything that can enter the workbench without a defined exit will fill it.
 
 A question has an exit by construction. That is the whole design.
+
+## Related
+
+- [[Stage 3 Understand (The Writing to Learn Layer)]]—_Its key question "What new questions does this note raise?" is a natural source of HEAD notes: any answer that needs your judgement belongs in the workbench._

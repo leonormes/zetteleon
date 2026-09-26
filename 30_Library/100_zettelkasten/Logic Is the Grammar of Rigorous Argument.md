@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-11-01T11:22:13+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-19T15:44:38+00:00
+modified: 2026-09-25T16:29:26+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/logic-is-the-grammar-of-rigorous-argument
 proposition: 'Logic functions as the grammar of mathematical reasoning: it supplies the syntax for stating claims precisely, the rules of inference for deriving valid conclusions, and the semantic framework for judging truth and validity.'

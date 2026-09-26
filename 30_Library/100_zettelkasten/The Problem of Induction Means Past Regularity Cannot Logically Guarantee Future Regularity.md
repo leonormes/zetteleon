@@ -1,11 +1,11 @@
 ---
 conformant: false
-non_conformance_reason: "missing schema field distinguishes_from for type concept (required when conformant - true)"
 created: 2026-09-07T15:00:00+00:00
 created_utc: 2026-09-07T15:00:00+00:00
 definition: The problem of induction is that generalising from observed cases to unobserved ones—the core move of empirical science—cannot be logically guaranteed, however many confirming instances have been seen.
 epistemic_status: high
-modified: 2026-09-19T15:44:44+00:00
+modified: 2026-09-25T16:29:34+00:00
+non_conformance_reason: "missing schema field distinguishes_from for type concept (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/the-problem-of-induction-means-past-regularity-cannot-logically-guarantee-future-regularity
 source_title: "I want to learn more about the philosophy of science and how the scientific method works"
 status: seed

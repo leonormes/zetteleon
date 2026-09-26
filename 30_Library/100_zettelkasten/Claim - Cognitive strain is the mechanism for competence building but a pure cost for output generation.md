@@ -4,7 +4,7 @@ contradicts: []
 created: 2026-09-14T11:39:47+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-19T15:44:32+00:00
+modified: 2026-09-25T16:29:19+00:00
 permalink: llmeon/30-library/100-zettelkasten/claim-cognitive-strain-is-the-mechanism-for-competence-building-but-a-pure-cost-for-output-generation
 prodos.kind: atomic
 prodos.lifecycle: seed

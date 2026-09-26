@@ -69,3 +69,6 @@ These are the mesmerising, unpredictable behaviors that manifest when thousands 
 - Organizational Friction: [[SoT - Accidental Social Complexity]]
 - Physics of Complexity: [[SoT - The Law of Increasing Functional Information]] (Assembly Theory)
 - Application: [[Systems Generate Internal Logic in Isolation]]
+- Atomic definition: [[Emergence]]
+
+[synthesizes:: [[Emergence]], confidence=medium]

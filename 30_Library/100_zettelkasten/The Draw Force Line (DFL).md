@@ -1,42 +1,35 @@
 ---
-title: The Draw Force Line (DFL)
-type: concept
-status: seed
-prodos:
-  kind: atomic
-  atomic:
-    form: concept
-source_title: Recurve Archery Self-Coaching Resources
-source_url: llmeon/00-inbox/recurve-archery-self-coaching-resources
-created_utc: '2026-09-21T16:36:00Z'
-confidence: high
-tags:
-- archery
-- biomechanics
-- alignment
-- technique
 conformant: false
+created: 2026-09-21T15:44:58+00:00
+created_utc: '2026-09-21T16:36:00Z'
+modified: 2026-09-25T16:29:33+00:00
 non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true)"
 permalink: llmeon/00-inbox/the-draw-force-line-dfl
+source_title: Recurve Archery Self-Coaching Resources
+source_url: llmeon/00-inbox/recurve-archery-self-coaching-resources
+status: seed
+tags: [alignment, archery, biomechanics, technique]
+title: The Draw Force Line (DFL)
+type: concept
 ---
 
-### The Draw Force Line (DFL)
+## The Draw Force Line (DFL)
 
 The Draw Force Line (DFL) is an imaginary continuous axis running from the pressure point on the bow grip, straight through the arrow shaft, directly to the archer's drawing elbow, which transfers the bow's massive forces onto the skeletal structure.
 
-#### Scope & Conditions
+### Scope & Conditions
 
 Applies to the full draw and holding phases of archery.
 
-#### Evidence
+### Evidence
 
 > "governed by the Draw Force Line (DFL)—an imaginary continuous axis running from the pressure point on the bow grip, straight through the arrow shaft, directly to the archer's drawing elbow"
 
-#### Implications
+### Implications
 
 - Misalignment forces the deltoid and biceps to endure the isometric load, causing rapid fatigue, tremors, and potential joint injury.
 - Video analysis should be used to draw lines through the arrow shaft to the elbow to verify geometry.
 
-#### Related
+### Related
 
 - [[Archery Shot Process - Anchor]]—extends: the required bone alignment of the drawing elbow to support the expansion.

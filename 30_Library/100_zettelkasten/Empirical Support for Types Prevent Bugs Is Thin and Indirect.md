@@ -5,7 +5,7 @@ created: 2026-09-19T15:26:23+00:00
 created_utc: 2026-09-19 00:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-22T00:00:00+00:00
+modified: 2026-09-25T16:29:22+00:00
 non_conformance_reason: ''
 permalink: llmeon/00-inbox/empirical-support-for-types-prevent-bugs-is-thin-and-indirect
 proposition: The strongest available empirical evidence for structure-first design is adjacent rather than direct, since a 2017 study by Gao, Bird and Barr found that static typing via Flow or TypeScript would conservatively have caught only about 15 percent of a sample of 400 fixed public JavaScript bugs, and a 2019 reproduction by Berger et al. of an earlier cross-language study found only four programming languages with a statistically significant, and very small, association with defect rates; neither study isolates domain-faithful data modelling as the variable being tested.

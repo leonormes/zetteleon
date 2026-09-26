@@ -5,7 +5,7 @@ created_utc: '2026-04-14T13:20:00Z'
 definition: Harness engineering is the orchestration of multiple AI agent sessions through deterministic workflows to ensure repeatable and verifiable software development outcomes, representing a shift from single prompt or context quality to system-level harnesses that coordinate agent interactions toward a specific goal.
 distinguishes_from: ["[[SoT - Context Engineering]]"]
 kind: definition
-modified: 2026-09-21T11:14:03+00:00
+modified: 2026-09-25T16:29:24+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/harness-engineering
 source_title: Archon and Extreme Harness Engineering

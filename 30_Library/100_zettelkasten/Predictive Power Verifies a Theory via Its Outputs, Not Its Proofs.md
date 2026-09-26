@@ -6,7 +6,7 @@ created: 2026-09-04T09:24:51+00:00
 created_utc: 2026-09-04T14:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-19T15:44:40+00:00
+modified: 2026-09-25T16:29:29+00:00
 permalink: llmeon/00-inbox/predictive-power-verifies-a-theory-via-its-outputs-not-its-proofs
 proposition: A scientific theory can be verified by observing that the technologies built on it function reliably, without the observer needing to understand or verify its underlying mathematics.
 source_title: New chat

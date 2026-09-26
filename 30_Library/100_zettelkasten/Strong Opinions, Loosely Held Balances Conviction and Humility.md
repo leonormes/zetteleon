@@ -6,7 +6,7 @@ created: 2025-11-06T19:59:01+00:00
 epistemic_status: high
 evidence_links: []
 merged_from: '[[Strong Opinions Loosely Held Balances Confidence With Humility]]'
-modified: 2026-09-19T15:44:43+00:00
+modified: 2026-09-25T16:29:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/strong-opinions-loosely-held-balances-conviction-and-humility
 prodos.kind: atomic
 prodos.lifecycle: stable

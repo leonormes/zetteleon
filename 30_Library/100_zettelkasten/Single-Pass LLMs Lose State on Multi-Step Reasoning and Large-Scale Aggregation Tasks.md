@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-19T15:44:42+00:00
+modified: 2026-09-25T16:29:31+00:00
 permalink: llmeon/30-library/100-zettelkasten/single-pass-llms-lose-state-on-multi-step-reasoning-and-large-scale-aggregation-tasks
 proposition: A simple LLM call — prompt and context fed directly into a single forward 'pass predicting the next token — reliably handles simple lookups (e.g. "what is' '2+2?") but fails at multi-step reasoning or large-scale counting/aggregation tasks,' because a single forward pass has no persistent structure in which to hold and update intermediate state as the task proceeds. The failure is architectural, not a matter 'of the model needing to "try harder" or be scaled up.'
 tags: [domain/llm, topic/llm-behavior, topic/reliability, topic/rlm]

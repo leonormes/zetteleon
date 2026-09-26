@@ -6,7 +6,7 @@ created: 2026-09-09T00:00:00+00:00
 created_utc: 2026-09-09 00:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-19T15:44:38+00:00
+modified: 2026-09-25T16:29:26+00:00
 permalink: llmeon/00-inbox/longinos-feminist-empiricism-locates-objectivity-in-diverse-community-not-individual-detachment
 proposition: "Longino's feminist empiricism argues that true scientific objectivity isn't achieved by individual detachment, but by pooling together a diverse community of different viewpoints to check each other's biases."
 source_title: "Philosophy of science: alternative positions beyond Deutsch vs Godfrey-Smith"

@@ -6,7 +6,7 @@ contradicts: []
 created: 2025-11-10T17:12:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-21T11:44:36+00:00
+modified: 2026-09-25T16:29:17+00:00
 permalink: llmeon/30-library/100-zettelkasten/aligning-actions-with-core-values-makes-them-feel-more-natural
 prodos.kind: atomic
 prodos.lifecycle: stable

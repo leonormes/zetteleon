@@ -4,7 +4,7 @@ contradicts: []
 created: 2026-07-25T11:17:00+00:00
 epistemic_status: medium
 evidence_links: ["[[SoT - Illusion of Explanatory Depth (IoED)]]"]
-modified: 2026-09-19T15:44:29+00:00
+modified: 2026-09-25T16:29:15+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/2026-07-25-familiarity-vs-comprehension-distinct-states
 proposition: Knowing that a system behaves a certain way (familiarity) is a distinct cognitive state from knowing why it behaves that way (comprehension), and only comprehension supports debugging, fixing, or improving the system.
@@ -31,20 +31,20 @@ In many practical domains, reliable prediction is functionally sufficient—an o
 
 ## Knowledge Graph
 
-[[The Illusion of Explanatory Depth Names a Gap Between Felt and Actual Understanding]]—this distinction is what makes the gap possible: the illusion lives in the conflation of these two states
+[[2026-07-25-ioed-definition-gap-felt-vs-actual-understanding|The Illusion of Explanatory Depth Names a Gap Between Felt and Actual Understanding]]—this distinction is what makes the gap possible: the illusion lives in the conflation of these two states
 
-[supports:: [[The Illusion of Explanatory Depth Names a Gap Between Felt and Actual Understanding]]]
+[supports:: [[2026-07-25-ioed-definition-gap-felt-vs-actual-understanding]]]
 
-[[The Build-It Standard Tests Understanding Through Creation]]—the antidote's rationale rests directly on this distinction
+[[2026-07-25-build-it-standard-tests-understanding-via-creation|The Build-It Standard Tests Understanding Through Creation]]—the antidote's rationale rests directly on this distinction
 
-[supports:: [[The Build-It Standard Tests Understanding Through Creation]]]
+[supports:: [[2026-07-25-build-it-standard-tests-understanding-via-creation]]]
 
-[[The Five Whys Chain Drills an Explanation Down to First-Principle Causes]]—the antidote targets exactly this familiarity/comprehension gap
+[[2026-07-25-five-whys-chain-drills-to-first-principles|The Five Whys Chain Drills an Explanation Down to First-Principle Causes]]—the antidote targets exactly this familiarity/comprehension gap
 
-[supports:: [[The Five Whys Chain Drills an Explanation Down to First-Principle Causes]]]
+[supports:: [[2026-07-25-five-whys-chain-drills-to-first-principles]]]
 
-[[The Question Master Protocol Uses Bloom's Taxonomy to Force Active Engagement with Material]]—same: the antidote targets exactly this familiarity/comprehension gap
+[[2026-07-25-question-master-protocol-blooms-taxonomy|The Question Master Protocol Uses Bloom's Taxonomy to Force Active Engagement with Material]]—same: the antidote targets exactly this familiarity/comprehension gap
 
-[supports:: [[The Question Master Protocol Uses Bloom's Taxonomy to Force Active Engagement with Material]]]
+[supports:: [[2026-07-25-question-master-protocol-blooms-taxonomy]]]
 
 [supports:: [[Information Retrieval Is Not Learning]], strength=4, confidence=high]

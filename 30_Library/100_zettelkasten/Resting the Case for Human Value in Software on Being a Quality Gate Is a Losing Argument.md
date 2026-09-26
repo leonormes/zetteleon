@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-07-28T10:35:28+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-19T15:44:42+00:00
+modified: 2026-09-25T16:29:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/resting-the-case-for-human-value-in-software-on-being-a-quality-gate-is-a-losing-argument
 proposition: Human brains are structurally poor validators — repetitive, high-volume, nitpicky checking is exactly the task profile machines will always beat humans at. Arguments for keeping humans in the software development loop should not rest on humans being good quality gates or reviewers, because that is a comparison humans are guaranteed to lose; human value instead rests on creativity, judgment, and leaps "of logic that validation work doesn't require."
 tags: [domain/llm, topic/code-quality, topic/human-oversight]

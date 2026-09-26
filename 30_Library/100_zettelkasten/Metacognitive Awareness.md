@@ -5,7 +5,7 @@ created: 2025-02-07T12:57:53+00:00
 definition: "The capacity to observe, monitor, and evaluate one's own thought processes — noticing not just what one is thinking, but how, and whether that thinking holds up under scrutiny."
 distinguishes_from: []
 ID: 9f
-modified: 2026-09-19T15:44:39+00:00
+modified: 2026-09-25T16:29:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/metacognitive-awareness
 tags: [metacognition, self-awareness, TheHuman/Cognition]
 title: Metacognitive Awareness

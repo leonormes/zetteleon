@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2026-04-10T12:00:00+00:00
-modified: 2026-09-19T15:44:36+00:00
+modified: 2026-09-25T16:29:24+00:00
 non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/heartbeat-intervention-protocol
 tags: [autonomous-agents, loops, optimization, protocol]

@@ -2,7 +2,7 @@
 aliases: [Enlightenment as Process]
 conformant: false
 created: 2025-11-01T12:20:07+00:00
-modified: 2026-09-19T15:44:46+00:00
+modified: 2026-09-25T16:29:36+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/zen-defines-enlightenment-as-a-process-not-a-destination
 tags: [buddhism, enlightenment, non-duality, zen]

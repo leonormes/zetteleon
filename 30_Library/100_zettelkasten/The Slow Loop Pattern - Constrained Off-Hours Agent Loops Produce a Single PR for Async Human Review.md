@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-07-28T09:44:23+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-19T15:44:44+00:00
+modified: 2026-09-25T16:29:34+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-slow-loop-pattern-constrained-off-hours-agent-loops-produce-a-single-pr-for-async-human-review
 proposition: 'The pragmatic, working version of loop engineering is a "slow loop": a constrained, deterministic agent loop run off-hours—for example, a nightly cron job directing an agent to fix one specific anti-pattern or bug—culminating in a single pull request for human review the next morning. Human review happens once per loop cycle, asynchronously, rather than continuously or not at all.'
 tags: [domain/llm, topic/agent-architecture, topic/best-practice, topic/workflow-design]

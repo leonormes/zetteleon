@@ -2,7 +2,7 @@
 conformant: true
 created: 2026-09-23T14:50:15+00:00
 created_utc: '2026-09-23T00:00:00Z'
-modified: 2026-09-23T14:56:28+00:00
+modified: 2026-09-25T16:29:34+00:00
 permalink: llmeon/00-inbox/three-architectural-options-exist-for-where-the-cue-boundary-sits
 source_title: Multi-customer Deployment Review, and an Assessment of CUE
 source_url: N/A — internal engineering assessment

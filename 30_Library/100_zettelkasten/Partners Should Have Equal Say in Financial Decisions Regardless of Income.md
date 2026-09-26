@@ -6,7 +6,7 @@ contradicts: []
 created: 2025-11-10T10:12:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-19T15:44:40+00:00
+modified: 2026-09-25T16:29:28+00:00
 permalink: llmeon/30-library/100-zettelkasten/partners-should-have-equal-say-in-financial-decisions-regardless-of-income
 prodos.kind: atomic
 prodos.lifecycle: stable

@@ -6,7 +6,7 @@ contradicts: []
 created: 2025-10-30T17:38:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-19T15:44:39+00:00
+modified: 2026-09-25T16:29:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/mini-routines-are-effective-for-adhd-autism-and-chronic-illness
 proposition: Mini routine systems are particularly effective for individuals with ADHD, autism, or chronic illnesses because they provide necessary structure and predictability while accommodating variable energy levels, sensory sensitivities, executive function challenges, and the need for flexibility.
 source: '[[MOC - How To Create And Use Mini Routines]]'

@@ -5,7 +5,7 @@ created: 2026-09-14T11:41:08+00:00
 created_utc: '2026-09-14T00:00:00Z'
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-19T15:44:39+00:00
+modified: 2026-09-25T16:29:27+00:00
 permalink: llmeon/30-library/100-zettelkasten/mathematical-and-musical-ability-show-a-moderate-correlation-without-proving-shared-causation
 proposition: A moderate positive association has been found between latent mathematical and musical ability (r = 0.41), but this is a correlation, not proof that either skill causes the other; broader evidence that music instruction specifically transfers to mathematics ability is inconsistent or limited.
 source_title: "What Drives a Person's Interests? Why Do Some People Love Maths and Logic and Others Not? Why Do Interests Come in Related Bundles?"

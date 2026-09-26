@@ -25,6 +25,14 @@ Two further shapes of the transformation the original map omitted:
 - [[Tacit vs Explicit Knowledge]]—_Much of what a person or team knows never reaches explicit form at all, which bounds how much of this process is observable._ [synthesizes:: [[Tacit vs Explicit Knowledge]], confidence=medium]
 - [[Comparison - Knowing vs Understanding]]—_Tabulates the endpoint of the arc: possessing information versus constructing a model of it._ [synthesizes:: [[Comparison - Knowing vs Understanding]], confidence=medium]
 
+Further contrasts between information and knowledge, extracted from an AI chat on what knowledge is:
+
+- [[Information Answers Who, What, When and Where Questions While Knowledge Answers Why and How]]—_A question-type test for telling the two apart._
+- [[Knowledge Supports Prediction and Inference Where Information Alone Does Not]]—_What knowledge can do that information cannot._
+- [[Knowledge Enables Power]]—_The practical payoff: relevant knowledge gives influence over outcomes through better decisions, though positional authority can override it._
+- [[Knowledge Acquired by Different Routes Keeps Its Factual Content, Verifiability and Practical Application]]—_What stays constant when two people hold the same knowledge._
+- [[Knowledge Acquired by Different Routes Differs in Context, Associative Network, Depth, Personal Meaning and Flexibility]]—_What varies between them._
+
 ## The Philosophical Dimension: Knowledge and Truth
 
 The question of what constitutes 'knowledge' is a deep philosophical one. The classical definition, dating back to Plato, is that [[The Traditional Definition of Knowledge is Justified True Belief]]. [depends_on:: [[The Traditional Definition of Knowledge is Justified True Belief]], confidence=high] This means a belief must be true, and you must have a good reason for holding it.

@@ -77,7 +77,8 @@ signal_to_noise: "NN% signal / NN% noise"
 3) Atoms:
 For each atom, use this template. Each must pass the Single-Idea and Conjunction tests.
 
-### Atom <###>: <Short, Precise Name>
+### Atom <###>: <Name>
+- Naming rule: for Kind `claim`, `mechanism`, `heuristic`, `constraint` or `failure_mode`, write the name as a full declarative sentence of at least four words (it becomes the note title, see [[SoT - Atomic Note Standard (The Proposition Card)]]). For `definition` or `distinction`, use the term. Do not write a bare noun phrase for a claim.
 - Kind: <definition | claim | mechanism | procedure | heuristic | distinction | constraint | failure_mode>
 - Statement: <One minimal, mechanically precise sentence. No "but" or "however".>
 - Scope & Conditions: <When it applies; boundaries; assumptions.>

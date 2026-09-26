@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-10-30T12:05:02+00:00
 epistemic_status: high
 evidence_links: ["[[Evidence - Limbic Friction as Anxiety or Tiredness Activation Cost]]"]
-modified: 2026-09-19T15:44:38+00:00
+modified: 2026-09-25T16:29:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/limbic-friction-is-the-activation-energy-for-habits
 prodos.kind: atomic
 prodos.lifecycle: active

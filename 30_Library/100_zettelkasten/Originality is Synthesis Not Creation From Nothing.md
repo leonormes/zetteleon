@@ -7,7 +7,7 @@ created: 2025-11-01T09:51:13+00:00
 epistemic_status: high
 evidence_links: []
 merged_from: '[[Originality is the Unique Synthesis of Existing Ideas]]'
-modified: 2026-09-19T15:44:40+00:00
+modified: 2026-09-25T16:29:28+00:00
 permalink: llmeon/30-library/100-zettelkasten/originality-is-synthesis-not-creation-from-nothing
 prodos.kind: atomic
 prodos.lifecycle: stable

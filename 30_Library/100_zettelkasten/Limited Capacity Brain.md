@@ -6,7 +6,7 @@ contradicts: []
 created: 2025-02-07T12:57:55+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-19T15:44:38+00:00
+modified: 2026-09-25T16:29:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/limited-capacity-brain
 prodos.kind: atomic
 prodos.lifecycle: stable

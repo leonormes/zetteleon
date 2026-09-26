@@ -4,7 +4,7 @@ contradicts: []
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-19T15:44:41+00:00
+modified: 2026-09-25T16:29:30+00:00
 permalink: llmeon/30-library/100-zettelkasten/red-teaming-system-design-before-implementation-surfaces-guardrail-gaps
 proposition: "Red-teaming a system's proposed design—prompting an AI to attack it before a single file is created—surfaces structural weaknesses like missing tombstones or unclear ownership boundaries while they are still cheap to fix, rather than waiting for adversarial review to happen only after code already exists."
 tags: [domain/llm, topic/architecture-pattern, topic/pkm, topic/safety, topic/verification]

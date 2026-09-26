@@ -2,7 +2,7 @@
 created: 2026-07-13T08:30:56+00:00
 created_utc: '2026-07-13T08:17:00Z'
 kind: definition
-modified: 2026-09-19T15:44:39+00:00
+modified: 2026-09-25T16:29:28+00:00
 permalink: llmeon/00-inbox/network-topology-of-a-pkm-vault-determines-its-cognitive-properties
 source_title: 'Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture: An Investigative Report'
 source_url: ''

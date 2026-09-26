@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-07-10T10:12:15+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-19T15:44:46+00:00
+modified: 2026-09-25T16:29:36+00:00
 permalink: llmeon/30-library/100-zettelkasten/world-wonder-skills-how-you-connect-to-the-world
 prodos.kind: atomic
 prodos.lifecycle: stable
@@ -26,8 +26,6 @@ _These skills are about how you find joy, meaning, and your place in the wider w
 - Responsibility & Care: Understanding our duty to care for each other, for our community, and for the environment. (National Curriculum Values)
 
 _PSHE: Personal, Social, Health and Economic education is a key part of the curriculum that teaches many of these life skills._
-
-[extends:: [[A Concept Map for a Flourishing Human]]]
 
 [synthesizes:: [[Appreciation of Beauty is Noticing Excellence in the World]]]
 

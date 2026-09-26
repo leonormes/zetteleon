@@ -1,10 +1,10 @@
 ---
 aliases: [The Paycheck Cycle Trap]
 conformant: false
-non_conformance_reason: "missing required field - type"
 created: 2025-11-18T14:36:00+00:00
 epistemic_status: high
-modified: 2026-09-19T15:44:38+00:00
+modified: 2026-09-25T16:29:26+00:00
+non_conformance_reason: "missing required field - type"
 permalink: llmeon/30-library/100-zettelkasten/living-paycheck-to-paycheck-forces-short-term-decisions
 prodos.kind: claim
 prodos.lifecycle: stable

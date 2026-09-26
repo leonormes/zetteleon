@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-19T15:44:45+00:00
+modified: 2026-09-25T16:29:34+00:00
 permalink: llmeon/30-library/100-zettelkasten/trace-logging-and-event-trees-for-agent-observability
 proposition: 'Production agents must log every reasoning step, tool call, and decision as a "tree of events." Trace logs capture latency, token expenditure, and decision points. Without trace logging, debugging failed agent runs is impossible.'
 tags: [domain/llm, topic/agent-architecture, topic/debugging, topic/observability]

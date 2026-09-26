@@ -65,3 +65,5 @@ Despite the technical reality of LLMs as "Advanced Autocomplete," humans find it
 ---
 
 rel:: supports [[SoT - LLM Codebase Understanding & Hierarchy]]
+
+- [[AI Output Contains No Insight Until a Human Reads and Interprets It]]—_Places insight in the human who reads the output, not in the system._

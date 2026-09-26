@@ -1,10 +1,10 @@
 ---
 aliases: []
 conformant: false
-non_conformance_reason: "missing required field - type"
 created: 2025-05-16T05:39:58+00:00
 epistemic_status: high
-modified: 2026-09-19T15:44:36+00:00
+modified: 2026-09-25T16:29:24+00:00
+non_conformance_reason: "missing required field - type"
 permalink: llmeon/30-library/100-zettelkasten/i-am-enslaved-to-the-work-of-zetteling
 prodos.kind: atomic
 prodos.lifecycle: stable

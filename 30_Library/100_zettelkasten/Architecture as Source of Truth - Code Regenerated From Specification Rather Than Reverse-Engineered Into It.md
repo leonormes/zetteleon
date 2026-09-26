@@ -4,7 +4,7 @@ contradicts: []
 created: 2026-07-28T10:35:28+00:00
 epistemic_status: low
 evidence_links: []
-modified: 2026-09-19T15:44:31+00:00
+modified: 2026-09-25T16:29:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/architecture-as-source-of-truth-code-regenerated-from-specification-rather-than-reverse-engineered-into-it
 proposition: If code becomes fully disposable, the source of truth for a system should invert — instead of architecture being inferred after the fact from existing code, engineers converge on an architecture specification directly, and code is regenerated whenever that specification changes. This is explicitly aspirational; the source 'acknowledges the tools and shared vocabulary needed to make "specification" expressive' "and precise enough don't yet exist."
 tags: [domain/llm, topic/software-architecture, topic/speculative]

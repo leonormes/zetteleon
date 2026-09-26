@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-07-25T11:17:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-19T15:44:29+00:00
+modified: 2026-09-25T16:29:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/2026-07-25-build-it-standard-tests-understanding-via-creation
 prodos.kind: atomic
 prodos.lifecycle: stable
@@ -33,6 +33,6 @@ This standard may set the bar for "understanding" too high for many legitimate u
 
 ## Knowledge Graph
 
-No outgoing edge from this note—[[Familiarity and Comprehension Are Distinct, Often-Conflated Cognitive States]] already declares the `supports` edge pointing here (this antidote's rationale rests on that distinction).
+No outgoing edge from this note—[[2026-07-25-familiarity-vs-comprehension-distinct-states|Familiarity and Comprehension Are Distinct, Often-Conflated Cognitive States]] already declares the `supports` edge pointing here (this antidote's rationale rests on that distinction).
 
 [supports:: [[SoT - Illusion of Explanatory Depth (IoED)]]]

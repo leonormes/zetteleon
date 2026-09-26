@@ -2,7 +2,7 @@
 aliases: [Critical Thinking, Open-Mindedness]
 conformant: false
 created: 2025-12-10T12:00:00+00:00
-modified: 2026-09-19T15:44:37+00:00
+modified: 2026-09-25T16:29:25+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/judgment-is-thinking-things-through-and-examining-all-sides
 tags: [character-strength, judgment, wisdom]

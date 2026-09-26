@@ -1,12 +1,12 @@
 ---
 created: 2026-04-10T10:43:23+00:00
 description: "Step 2 of 2 in the atomic-capture pipeline. Reads a tmp_atoms_*.md file produced by the Atomic Signal Extractor (step 1), semantically links each atom into the existing vault graph, and promotes each atom into a permanent standalone note. Requires step 1 to have run first."
-modified: 2026-09-21T11:44:36+00:00
+modified: 2026-09-26T00:00:00+00:00
 permalink: llmeon/10-system/prompts/atomic-linker-promote-connect
 tags: [domain/pkm, pipeline/atomic-capture, type/system]
 title: Atomic Linker → Promote & Connect
 type: prompt
-version: 2
+version: 3
 ---
 
 ## Step 2 Prompt: Atomic Linker → Promote & Connect
@@ -37,9 +37,9 @@ and map what already exists.
 
 ### TAC FRONTMATTER COMPLIANCE (MANDATORY)
 
-> Canonical schema: [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]. Every promoted note inherits the shared `FrontmatterContract` envelope from that spec—this is a hard constraint, not optional guidance.
+> Canonical schemas: [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]] for the fields, and [[SoT - Atomic Note Standard (The Proposition Card)]] for the body, the title and the links. Every promoted note must meet both. This is a hard constraint, not optional guidance.
 
-`type: atom` is NOT a valid top-level TAC type. The atom's `Kind` (from Step 1) is a finer-grained classification that belongs in `prodos.atomic.form`, not in the top-level `type` field. Map `Kind` → canonical `type` using this table:
+`type: atom` is NOT a valid top-level TAC type. Map the atom's `Kind` from Step 1 to a canonical `type`:
 
 | Atom `Kind` | Top-level `type` |
 |---|---|
@@ -52,7 +52,18 @@ and map what already exists.
 | `failure_mode` | `claim` |
 | `procedure` | `procedure` |
 
-Every promoted note MUST include, at top level: `title`, `type` (from the table above), `tags` (non-empty), `conformant` (boolean), and `non_conformance_reason` (required string if `conformant: false`, omitted otherwise). If the `Kind` → `type` mapping is genuinely ambiguous, pick the closest canonical type and set `conformant: false` with the reason—do not invent a new `type` value and do not skip these fields.
+Every promoted note MUST carry, at top level: `title`, `type`, `status: seed`, `tags` (non-empty), `conformant`, `created`, `modified`, and the type-specific fields:
+
+- `claim`: `proposition` (the statement, one sentence), `epistemic_status` (`medium` unless evidence notes are linked), `evidence_links: []`, `contradicts: []`
+- `concept`: `definition` (one to three sentences), `distinguishes_from`, `used_in_claims` (lists of wikilinks, empty if none)
+- `procedure`: `trigger`, `steps` (a list), `verification`
+
+Rules the Obsidian Linter and the standard impose:
+
+- **Do not write `prodos` or `confidence`.** The `prodos` object is dropped for atomic notes and the Linter deletes it. Provenance goes in the optional keys `source_title`, `source_url`, `created_utc` and `upstream`.
+- **Titles.** A `claim` is titled by its own proposition as a full declarative sentence of at least four words, not a noun phrase. A `concept` is titled by the term. Use that title as the filename and as the H2.
+- **Plain values.** Frontmatter string values contain no `: `, apostrophes or double quotes. Reword instead of quoting.
+- If the mapping is genuinely ambiguous, pick the closest canonical type and set `conformant: false` with a `non_conformance_reason`. Never invent a `type`, and never skip these fields.
 
 ### Inputs Required
 
@@ -146,88 +157,71 @@ The atom's mechanism is independently corroborated or illustrated in a book from
 
 ### Output: Permanent Note Format
 
-For each atom, create ONE markdown file with this structure:
+For each atom, create ONE markdown file. The shape is the proposition card from [[SoT - Atomic Note Standard (The Proposition Card)]]. Fill it like this, adding only the sections you have content for:
 
+```markdown
 ---
-
-title: \<Atom Title>
-
-type: \<claim | concept | procedure—mapped from Kind via the table above>
-
+title: <claim as a full sentence, or the term for a concept>
+type: <claim | concept | procedure>
 status: seed
-
-prodos:
-
-  kind: atomic
-
-  atomic:
-
-    form: \<definition | claim | mechanism | procedure | heuristic | distinction | constraint | failure_mode>
-
-source_title: "\<from TMP file frontmatter>"
-
-source_url: "\<from TMP file frontmatter>"
-
-created_utc: "\<ISO 8601 timestamp>"
-
-confidence: \<high | medium | low>
-
-tags:
-
-  - \<tag1>
-  - \<tag2>
-  - \<tag3>
-upstream: "[[\<Source/HEAD note if it exists>]]"
-
-conformant: \<true | false>
-
-non_conformance_reason: "\<required if conformant: false, omit otherwise>"
-
+tags: [<3 to 7 lowercase tags from the atom>]
+conformant: true
+created: <ISO 8601 timestamp>
+modified: <ISO 8601 timestamp>
+source_title: "<from the TMP file frontmatter>"
+source_url: "<from the TMP file frontmatter>"
+created_utc: "<ISO 8601 timestamp>"
+upstream: "[[<Source or HEAD note, if one exists>]]"
+<type-specific fields from the section above>
 ---
 
-### \<Atom Title>
+## <Title, identical to the filename>
 
-\<Statement from the atom—one to three sentences maximum. Written for contextual
+<The atom's statement: one to three sentences, contextually independent, in British English.>
 
-independence: a reader encountering this note cold must understand it without
+### Scope & Conditions
 
-clicking any link.>
+<When this applies; boundaries; assumptions.>
 
-#### Scope & Conditions
+### Evidence
 
-\<When this applies; boundaries; assumptions.>
+> "<Verbatim quote from the source>"
+> (<Author, work, location>)
 
-#### Evidence
+### Implications
 
-> "\<Verbatim quote or near-verbatim from source>"
+- <Bullet 1>
+- <Bullet 2>
 
-#### Implications
+### Related
 
-- \<Bullet 1>
-- \<Bullet 2>
+- [[Existing Note A]]—shared mechanism: <why the connection exists>
+- [[Existing Note B]]—extends: <why the connection exists>
 
-#### Related
+### Tensions
 
-- [[Existing Note A]]—shared mechanism: \<brief explanation>
-- [[Existing Note B]]—extends: \<brief explanation>
+- [[Existing Note C]]—tension, not contradiction: <the assumption that differs>
 
-#### Tensions
-
-- [[Existing Note C]]—contradicts: \<brief explanation>
-
-#### See Also
+### See Also
 
 - [[Existing Note D]]
 
-#### Further Reading
+### Further Reading
 
-- [Book Title — Author, location](calibre://view-book/Library_Name/book_id/FORMAT)—_one-line italicised note on what it corroborates_
-
+- [<Book title, author, location>](calibre://view-book/Library_Name/book_id/FORMAT)—_<one line on what it corroborates>_
 ```
 
+Rules that the validator checks:
+
+- The first line of the body is `## <title>`. There is no H1, and sections are H3 (`###`), never H4.
+- Section order is fixed: Scope & Conditions, Evidence, Implications, then Related, Tensions, See Also, Further Reading. The first three are required; omit an optional section rather than leave it empty or write "None found".
+- Every bullet under Related and Tensions has a dash and a reason after the link. A bare link is allowed only under See Also.
+- At most 7 links across Related, Tensions and See Also. A typed edge, when one is warranted, goes on its own line in the closed vocabulary; never `rel::`.
+- Every `[[wikilink]]` points to a note that exists.
+
 ### File Naming Convention
-- Filename: Use the atom's short title, title-cased, spaces preserved.
-  Example: `Macro-Delegation Shift.md`
+- Filename: the note title exactly, with spaces preserved. For a claim that is the full proposition sentence; for a concept it is the term.
+  Example: `Pro-Social Punishment Restores Cooperation.md`
 - Destination folder: Write to `00_Inbox/` (the user will triage and file later).
 
 ### Sections to OMIT if empty
@@ -241,6 +235,11 @@ Never include an empty section with "None found."
 After processing ALL atoms from the TMP file:
 
 1. Write each permanent note to `00_Inbox/\<Atom Title>.md`.
+   Then check every note against the standard and fix what it reports before you write the link report:
+   ```
+   uv run --with pyyaml python3 10_System/scripts/validate_note_shape.py --path "00_Inbox/<Atom Title>.md" ...
+   ```
+   (`--path` checks the named files whatever their date or folder. A dangling-link error means a target does not exist: remove or retarget that link.)
 2. Write a Link Report to `00_Inbox/_link_report_\<source_slug>.md` with this format:
 
 ```
@@ -297,10 +296,7 @@ REPORT: 00_Inbox/_link_report_\<source_slug>.md
 - No MOC creation. The link report is operational, not architectural.
 - Grounded only in vault contents. If a connection is not supported by
   what you read in the vault index, do not assert it.
-- TAC compliance is non-negotiable. Every promoted note MUST carry `title`, a
-  canonical `type` (never `atom`), `tags`, `conformant`, and
-  `non_conformance_reason` per [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]. Fine-grained
-  atom classification lives in `prodos.atomic.form`, not in `type`.
+- TAC compliance is non-negotiable. Every promoted note MUST meet [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]] and [[SoT - Atomic Note Standard (The Proposition Card)]]: a canonical `type` (never `atom`), a sentence title for claims, the card body, no `prodos` or `confidence` keys, and a clean run of `validate_note_shape.py`.
 ```
 
 ---

@@ -6,7 +6,7 @@ created: 2025-11-11T19:05:14+00:00
 epistemic_status: medium
 evidence_links: []
 last_reviewed: ''
-modified: 2026-09-21T10:37:33+00:00
+modified: 2026-09-25T16:29:21+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/dopamine-aware-planning-aligns-tasks-with-the-brains-reward-system
 proposition: Dopamine-aware planning structures work to cooperate with the natural reward system of the brain instead of fighting against it.
@@ -30,7 +30,7 @@ Details: This approach focuses on creating a steady stream of dopamine to mainta
 - [[Dopamine Regulates Motivation (Wanting) Separately from Pleasure (Liking)]]—_The mechanism this strategy relies on: dopamine drives the pursuit of rewards, so work can be arranged around what sustains wanting (see the `depends_on` edge above)._
 - [[Dopamine Management in ADHD Productivity]]—_The same principle from the ADHD-productivity side, with concrete tactics such as the dopamine sandwich and celebrating wins; the two notes overlap heavily._
 - [[Celebrating small wins builds routine momentum]]—_The small, frequent wins tactic in detail, including tracking completion externally and rewarding progress immediately._
-- [[Breaking Projects Into Micro-Tasks Reduces ADHD Overwhelm]]—_Supplies the small, quickly achievable steps that make frequent wins possible._
+- [[Micro-Stepping Reduces Cognitive Load for Task Initiation|Breaking Projects Into Micro-Tasks Reduces ADHD Overwhelm]]—_Supplies the small, quickly achievable steps that make frequent wins possible._
 - [[Externalizing Progress Makes it Tangible and Motivational]]—_Explains why the progress visualisations mentioned here work: recording accomplishments externally makes them concrete and persistent._
 - [[Contexts Reduce Overwhelm and Support Working Memory for ADHD]]—_A working implementation of matching tasks to current energy, via context tags such as `@low_energy`._
 - [[Event-based pacing matches boom and bust energy cycles]]—_Why energy-based matching is needed: capacity oscillates, so fixed schedules assume energy that is not there._

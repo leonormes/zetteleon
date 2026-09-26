@@ -6,7 +6,7 @@ contradicts: []
 created: 2025-10-20T09:44:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-19T15:44:43+00:00
+modified: 2026-09-25T16:29:32+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/structure-notes-as-maps-of-thought-trails
 proposition: In a PKM built around writing-to-think, a Structure Note (or MOC) functions not as a final polished product but as a curated map guiding readers through the messy trail of atomic notes that produced it.

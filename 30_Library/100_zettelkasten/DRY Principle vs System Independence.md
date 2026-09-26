@@ -1,10 +1,10 @@
 ---
 aliases: []
 conformant: false
-non_conformance_reason: "missing required field - type"
 created: 2025-10-31T12:37:00+00:00
 epistemic_status: high
-modified: 2026-09-19T15:44:33+00:00
+modified: 2026-09-25T16:29:20+00:00
+non_conformance_reason: "missing required field - type"
 permalink: llmeon/30-library/100-zettelkasten/dry-principle-vs-system-independence
 prodos.kind: atomic
 prodos.lifecycle: stable

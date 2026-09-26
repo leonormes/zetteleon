@@ -6,7 +6,7 @@ created: 2025-10-20T09:41:00+00:00
 epistemic_status: high
 evidence_links: []
 last_reviewed: 'null'
-modified: 2026-09-19T15:44:44+00:00
+modified: 2026-09-25T16:29:33+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-disappointment-of-written-thoughts
 proposition: Thoughts that feel profound in the mind often appear dull or simplistic once written down, not because the writing failed but because the felt profundity was an untested emotional charge on a half-formed idea; the dullness is diagnostic data revealing the gap between intuition and articulated knowledge, not a final judgment on the idea.
 tags: [TheHuman/Cognition/thinking, TheHuman/Creativity, TheHuman/Psychology, topic/writing]

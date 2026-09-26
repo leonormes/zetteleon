@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-24T14:25:58+00:00
 last_reviewed: ''
-modified: 2026-09-22T21:18:00+00:00
+modified: 2026-09-25T16:29:36+00:00
 permalink: llmeon/30-library/100-zettelkasten/what-is-an-aws-application-load-balancer-alb
 tags: [aws, load-balancing, SoftwareEngineering/Networking, SoftwareEngineering/networking/cloud-networking]
 title: What is an AWS Application Load Balancer (ALB)
