@@ -53,7 +53,7 @@ Canonical spec: [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]] — re
 - `status` is optional top-level (§2): `draft`, `stable`, `evergreen`, `stale`.
 - `prodos.kind`/`prodos.lifecycle` (§4) are a separate, optional routing/lifecycle layer, not a `type`/`status` replacement — add them alongside `type`, not instead of it, when the note's folder or role calls for routing (§7).
 - Still legacy and still to avoid on new content: `updated`, `creation_date` (§6 — fold their value into `created`/`modified` instead).
-- **Atomic notes** in `30_Library/100_zettelkasten/` follow [[SoT - Atomic Note Standard (The Proposition Card)]]: the proposition-card body, full-sentence claim titles, annotated links, and no `prodos` key (dropped 2026-09-26). It is checked by `10_System/scripts/validate_note_shape.py` and enforced by the pre-commit hook on notes created from 2026-09-26; older notes are frozen.
+- **Atomic notes** in `30_Library/100_zettelkasten/` follow [[SoT - Atomic Note Standard (The Proposition Card)]]: the proposition-card body, full-sentence claim titles, annotated links, and no `prodos` key (dropped 2026-09-26). It is checked by `10_System/scripts/validate_note_shape.py` on notes created from 2026-09-26 (older notes are frozen). Run it on every atomic note you create. The repo pre-commit hook also runs it, but that hook is currently not chained from git's global hook, see the standard §6.
 
 ---
 

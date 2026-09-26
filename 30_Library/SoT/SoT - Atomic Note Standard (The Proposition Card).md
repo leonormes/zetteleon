@@ -36,6 +36,7 @@ A zettel here is a **proposition card**: one idea, stated as a complete sentence
 | The note is a proposition, something that can be wrong, and a claim is titled by the sentence itself | [[Propositions Are the only Thing that Can Be Wrong]], [[Proposition-Centred Notes Create Cognitive Leverage That Topical Notes Lack]] |
 | One canonical note per idea, linked from everywhere else | [[Linking as a Redundancy Reduction Strategy in Zettelkasten]] |
 | A link carries its reason: part of, similar or different, complements or competes | [[Key questions when linking notes in the Zettelkasten method]] |
+| The right level of atomicity is personal, so measurable limits are prompts for review and not verdicts; a "but" or a "however" is the usual sign of a second idea | [[Atomic Enough Means the Fewest Pieces Necessary to Be Useful for the Task]], [[The Words But and However Signal That What Follows May Deserve Its Own Note]], [[The Notes of Luhmann Were Atomic-ish, Concise but Not Constrained]] |
 | Typed edges only where the logic matters | [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]] |
 | Capture is temporary; the main note is built from processing it | [[Fleeting Notes Are Temporary Capture Mechanisms]], [[Literature Notes Bridge Source Material and Main Notes]] |
 | Hubs and maps are entry points, not the thinking | [[Hub Notes Provide Entry Points to Idea Clusters]], [[Structure Notes as Maps of Thought Trails]] |
@@ -126,12 +127,14 @@ Decided 2026-09-26: the standard is enforced on **new notes only**, and legacy n
 | Layer | What it does |
 |---|---|
 | `10_System/scripts/validate_note_shape.py` | Checks the frontmatter and body rules above. Default run scans in-scope notes; `--path` checks named files; `--staged` is what the hook uses; `--report` counts legacy shapes without failing. |
-| `.git/hooks/pre-commit` | Runs the shape check on staged in-scope notes, after the frontmatter validator and the edge lint. `SKIP_NOTE_SHAPE=1` skips it for a single commit. |
+| `.git/hooks/pre-commit` | Validates each newly added note's frontmatter, lints edges, then runs the shape check on staged in-scope notes. Legacy notes are not blocked. `SKIP_NOTE_SHAPE=1` skips the shape check for one commit. **Dormant today**: see the note below the table. |
 | `10_System/templates/Template - Atomic Zettel` (the claim card), `Template - Concept`, `Template - Evidence`, `Template - Procedure` | Start every new note from the right card. |
 | The prompts | The Atomic Signal Extractor names claims as sentences. The Atomic Linker emits the card and runs the validator. The Consolidation Agent and Orphan Note Positioning prompts point here. |
 | Obsidian Linter | Formats on save. Its config must agree with this note; it no longer deletes `confidence`, which evidence notes need. |
 
 The validator cannot judge whether a note holds one idea or whether a title reads as a sentence beyond a word count. Those stay review items.
+
+> Status of the hook, 2026-09-26: git's `core.hooksPath` is `~/.config/git/hooks`, a chezmoi-managed hook that only runs a secret scan and never calls `.git/hooks/pre-commit`. The vault's hook has therefore not run since that path was set on 2026-08-03, and vault-backup commits are not gated. Until it is chained (either add a call to the repo hook in the chezmoi-managed global hook, or give this repo its own `core.hooksPath` that runs the secret scan and then this hook), enforcement rests on the prompts, the templates, and running `validate_note_shape.py` by hand or from an agent.
 
 ## 7. Decisions
 

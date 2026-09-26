@@ -24,7 +24,7 @@ confidence: 0.5
 
 ### What It Supports
 
-%% Which claim this bears on, and how. Add a typed edge line below if it grounds the claim: [supports:: [[Claim Note]], confidence=medium] %%
+%% Which claim this bears on, and how. If it grounds the claim, add a typed edge line below in the form open-bracket supports two-colons wikilink-to-the-claim close-bracket. %%
 
 ### What It Does Not Show
 
