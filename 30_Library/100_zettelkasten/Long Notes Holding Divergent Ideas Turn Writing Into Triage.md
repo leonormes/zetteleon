@@ -26,12 +26,20 @@ When a note holding several ideas is pulled into a writing project, the writer h
 
 Doto's argument about using notes in a writing project; the cost falls at the moment of use, not when the note is made.
 
+Doto raises the worry that splitting a complex note clutters the slip box, and answers that it does the opposite. He gives an analogy from Zsolt Viczián: a meeting note in one long paragraph forces everyone to sift out their own tasks, where separate tasks are easy to act on.
+
 ### Evidence
 
 > "Whenever we pull a note into a writing project and have to edit out complexity, writing becomes triage."
 > (Doto, A System for Writing, section "More is Less")
 
 > "In short, long-notes containing divergent ideas create added steps and confusion."
+> (Doto, A System for Writing, section "More is Less")
+
+> "You may be wondering if by breaking down single, complex notes into multiple smaller ones we create clutter in our slip box. In fact, the opposite is true. We create clarity."
+> (Doto, A System for Writing, section "More is Less")
+
+> "The same applies to ideas intended for writing. Break them up now, so you don't have to later."
 > (Doto, A System for Writing, section "More is Less")
 
 ### Implications
@@ -45,3 +53,4 @@ Doto's argument about using notes in a writing project; the cost falls at the mo
 - [[A Complex Note Has Little Surface Area to Connect While a Single Idea Can Link Across Topics]]—shared mechanism: a complex note is hard to connect and hard to use
 - [[The Words But and However Signal That What Follows May Deserve Its Own Note]]—extends: the heuristic that catches a second idea before the note is saved
 - [[One Idea Per Note Makes Ideas Easier to Find Than a Long Multi-Topic Review]]—shared mechanism: a long note buries the point that is needed later
+- [[Complexity Splitting]]—extends: the technique that avoids the cost

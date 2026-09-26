@@ -25,6 +25,8 @@ A Source Note summarises and paraphrases the passage that caught your attention,
 
 Allosso's term for the second stage. He quotes only rarely, and says some notes are partly data and partly interpretation.
 
+He says the difference from a Point Note grows with practice and is not a strict boundary; see [[Point Note]].
+
 ### Evidence
 
 > "In the second stage, which I call a Source Note, you'll summarize and paraphrase the passage that grabbed your attention. Occasionally you might quote a line or two, if they seem to especially capture the thought. But the point is to begin the transition to your own words, which is the transition to your own thoughts."

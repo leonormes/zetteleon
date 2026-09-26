@@ -25,9 +25,14 @@ A Point Note is the note in which the focus shifts from the source material to y
 
 Allosso's term for the third stage of his process, after highlights and Source Notes. He says the point is what the notes do, not what they are called.
 
+Allosso does not treat the split between Source Notes and Point Notes as strict: some notes are partly data and partly interpretation, and he says that is acceptable. Keeping evidence apart from interpretation is a tendency that grows with practice, not a rule.
+
 ### Evidence
 
 > "As you write a new note, which I call a Point Note, the focus shifts from the source material to your own thoughts. This is where you begin taking real ownership of the idea, using the source as support for a thought you're pursuing; a point you want to make."
+> (Allosso, How to Make Notes and Write, chapter on writing as thinking)
+
+> "Sometimes the notes we make live in an in-between world where they are partly data and partly interpretation. This is okay. With practice, your Source Notes will become more like data and your Points more analytical."
 > (Allosso, How to Make Notes and Write, chapter on writing as thinking)
 
 ### Implications

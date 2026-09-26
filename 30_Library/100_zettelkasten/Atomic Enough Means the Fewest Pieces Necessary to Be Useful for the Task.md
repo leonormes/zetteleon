@@ -5,7 +5,7 @@ created: 2026-09-26T10:30:00+00:00
 created_utc: '2026-09-26T10:30:00Z'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-26T08:45:41+00:00
+modified: 2026-09-26T08:48:53+00:00
 permalink: llmeon/30-library/100-zettelkasten/atomic-enough-means-the-fewest-pieces-necessary-to-be-useful-for-the-task
 proposition: A note is atomic enough when it holds the fewest pieces necessary to
   be useful for its task, and the right level of atomicity is personal.
