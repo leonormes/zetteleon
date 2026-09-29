@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-09-07T04:31:45+00:00
 last_reviewed: ''
-modified: 2026-09-26T08:45:34+00:00
+modified: 2026-09-28T20:10:05+00:00
 permalink: llmeon/30-library/100-zettelkasten/miyamoto-musashi
 tags: []
 title: Miyamoto Musashi

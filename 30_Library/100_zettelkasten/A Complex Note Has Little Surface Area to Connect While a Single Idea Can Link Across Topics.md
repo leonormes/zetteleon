@@ -5,7 +5,7 @@ created: 2026-09-26T10:30:00+00:00
 created_utc: '2026-09-26T10:30:00Z'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-26T08:45:41+00:00
+modified: 2026-09-28T20:09:56+00:00
 permalink: llmeon/30-library/100-zettelkasten/a-complex-note-has-little-surface-area-to-connect-while-a-single-idea-can-link-across-topics
 proposition: The more atomic an idea is, the more broadly it can be used, because
   a complex idea has little surface area to connect to other ideas.

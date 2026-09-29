@@ -5,7 +5,7 @@ created: 2026-09-26T10:30:00+00:00
 created_utc: '2026-09-26T10:30:00Z'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-26T08:45:41+00:00
+modified: 2026-09-28T20:10:04+00:00
 permalink: llmeon/30-library/100-zettelkasten/long-notes-holding-divergent-ideas-turn-writing-into-triage
 proposition: When a note holding several ideas is pulled into a writing project, the
   writer must edit out its complexity, so writing becomes triage.

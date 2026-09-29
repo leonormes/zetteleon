@@ -66,7 +66,8 @@
       "Bash(curl -s -H 'Authorization: Bearer __CMDSUB_OUTPUT__' https://api.ynab.com/v1/plans/80775089-4e9a-47ad-9ebd-31629ef7d573/accounts)",
       "Bash(curl -s -H 'Authorization: Bearer __CMDSUB_OUTPUT__' https://api.ynab.com/v1/plans/__TRACKED_VAR__/months/current)",
       "mcp__1mcp__obsidian-llmeon_1mcp_note_read",
-      "mcp__1mcp__obsidian-llmeon_1mcp_note_create"
+      "mcp__1mcp__obsidian-llmeon_1mcp_note_create",
+      "mcp__semble__search"
     ]
   },
   "spinnerTipsEnabled": false

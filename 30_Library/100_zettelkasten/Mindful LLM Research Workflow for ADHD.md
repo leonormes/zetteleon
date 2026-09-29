@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-06-25T20:14:33+00:00
-modified: 2026-09-26T08:45:34+00:00
+modified: 2026-09-28T20:10:05+00:00
 non_conformance_reason: "missing required field - type"
 permalink: llmeon/30-library/100-zettelkasten/mindful-llm-research-workflow-for-adhd
 prodos.kind: protocol

@@ -10,13 +10,13 @@ title: AGENTS
 
 Authoritative schema for all agent interactions with this vault. Single source of truth; no external spec supersedes this file.
 
-**2026-07-30 — split notice:** the three-layer memory system (`raw/`, `wiki/`, `output/`, `log.md`) that used to live in this vault has moved to a standalone vault at `/Volumes/DAL/Zettelkasten/Hermes`. If a task involves Hermes's own raw sources, dossiers, or generated output, work in the Hermes vault under its own `AGENTS.md` — not here. This vault is **full read-write territory**. Agents may create, edit, and move notes anywhere — the human curates via review, not prohibition.
+**2026-07-30 — split notice:** the three-layer memory system (`raw/`, `wiki/`, `output/`, `log.md`) that used to live in this vault has moved to a standalone vault at `/Volumes/DAL/Zettelkasten/Hermes`. If a task involves Hermes's own raw sources, dossiers, or generated output, work in the Hermes vault under its own `AGENTS.md` — not here. This vault is **full read-write territory**. Agents may create, edit, and move notes anywhere — the human curates via review, not prohibition — with one exception: protected notes (§6) are never edited, moved or deleted by an agent. They are the notes marked `own_words: true` and every existing note in `01_journals/` and `20_Thinking/`.
 
 ---
 
 ### 0. ProdOS Vault Taxonomy
 
-Human-territory map. Agents may read and write freely across all folders — the human curates through review, not prohibition.
+Human-territory map. Agents may read and write freely across all folders — the human curates through review, not prohibition — except for protected notes (§6).
 
 #### Note Types
 
@@ -26,6 +26,7 @@ Human-territory map. Agents may read and write freely across all folders — the
 | SoT | `30_Library/SoT/` | `SoT - Title.md` | Canonical knowledge, protocols |
 | Protocol | `30_Library/SoT/` | `Protocol - Title.md` | Binary imperative procedures |
 | Atomic / Claim | `30_Library/100_zettelkasten/` | Full-sentence title; `Claim - Title.md`; `Q — Title.md` | Atomic claims and questions |
+| Source | `30_Library/100_zettelkasten/` | `Source - Title.md` | One note per book or article, cited once, linked from Evidence and point notes |
 | MoC | `30_Library/MoC/` | `MOC - Title.md` | Hub notes, maps of content |
 
 #### Folder Structure
@@ -43,7 +44,7 @@ Human-territory map. Agents may read and write freely across all folders — the
   SoT/                ← source-of-truth and protocol documents
 ```
 
-Agents may read and write freely across all folders. The human curates through review, not prohibition.
+Agents may read and write freely across all folders, except for protected notes (§6). The human curates through review, not prohibition.
 
 #### Frontmatter
 
@@ -54,6 +55,48 @@ Canonical spec: [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]] — re
 - `prodos.kind`/`prodos.lifecycle` (§4) are a separate, optional routing/lifecycle layer, not a `type`/`status` replacement — add them alongside `type`, not instead of it, when the note's folder or role calls for routing (§7).
 - Still legacy and still to avoid on new content: `updated`, `creation_date` (§6 — fold their value into `created`/`modified` instead).
 - **Atomic notes** in `30_Library/100_zettelkasten/` follow [[SoT - Atomic Note Standard (The Proposition Card)]]: the proposition-card body, full-sentence claim titles, annotated links, and no `prodos` key (dropped 2026-09-26). It is checked by `10_System/scripts/validate_note_shape.py` on notes created from 2026-09-26 (older notes are frozen). Run it on every atomic note you create. The repo pre-commit hook also runs it, but that hook is currently not chained from git's global hook, see the standard §6.
+
+---
+
+### 6. Hard Constraints
+
+Rules that hold whatever the task, the prompt or the tool. Where a prompt in `10_System/prompts/` or any other section of this file says otherwise, this section wins. There is one so far.
+
+#### 6.1 Protected notes are never edited by an agent
+
+A **protected note** is either of:
+
+- **an own-words note**: any note with `own_words: true` in its frontmatter. Only Leon adds the field, by hand or through the `own_words: true` line in his HEAD-note template (`10_System/templates/HEAD_note template.md`, whose own_words line agents must not change), and only when he drafted every sentence he kept: an LLM may have found sources or challenged the argument, but none of its wording survived;
+- **any existing note in `01_journals/` or `20_Thinking/`**: daily notes and HEAD notes are Leon's working thoughts whether or not they carry the field.
+
+No other note is covered by this rule, and an agent must not guess from style or age whether a note is Leon's.
+
+Agents must not:
+
+- set, change or remove `own_words`, including in bulk or migration runs;
+- edit the body of a protected note in any way: rewording, reformatting, "tidying", adding links, typed edges, sections, stubs or callouts, merging content into it, or applying fixes reported by `edge_lint.py`, `validate_note_shape.py` or any other checker;
+- rename, move or delete a protected note.
+
+Agents may read and search these notes, link to them from other notes, and report findings about them. Findings and suggestions go in chat or in a new note in `00_Inbox/` that links to the note. Other frontmatter fields on a protected note stay under the Frontmatter Contract, so bulk frontmatter migrations are not blocked; this rule covers the body and the `own_words` field only.
+
+The only carve-outs:
+
+- An agent may create a new note in `01_journals/` or `20_Thinking/` when the task asks for one (for example a HEAD note from [[Prompt - Tension Harvester]]), and may revise a note it created earlier in that same task. After that the note is protected.
+- [[Protocol - Workbench Compliance Sweep]] may move a note out of `20_Thinking/21_Workbench/` only after Leon approves its routing table. It never deletes and never edits the body.
+- A direct request from Leon for a specific edit, such as "add this line to today's daily note", is approval for that edit.
+
+If a task seems to need any other edit to a protected note, stop and ask. Leon's approval covers that one edit and nothing after it.
+
+#### 6.2 Role of an agent in Leon's own writing
+
+Leon writes and the agent supports. For notes and projects Leon is drafting himself, an agent may:
+
+- find and rank the sources or chapters worth reading;
+- make the strongest case against a claim, name who would disagree, and say what would prove it wrong;
+- point out assumptions, gaps and contradictions with other notes;
+- report all of this in chat or as a note in `00_Inbox/`, never inside the note.
+
+Text an agent drafts is never given `own_words`, and drafts for Leon's own-writing projects stay in chat or `00_Inbox/`, not in `30_Library/100_zettelkasten/`.
 
 ---
 
@@ -83,7 +126,7 @@ and, if working a specific claim, `--why "<title>"` and/or `--impact "<title>"` 
 
 #### 9.3 Writing in `30_Library`
 
-Agents may write freely in `30_Library/100_zettelkasten/`, `30_Library/SoT/`, `30_Library/MoC/`, and `30_Library/200_Projects/` — including typed-edge lines (`[relationship:: [[target]]]`), `axiom:` markers, new notes, and body content. The human curates through review.
+Agents may write freely in `30_Library/100_zettelkasten/`, `30_Library/SoT/`, `30_Library/MoC/`, and `30_Library/200_Projects/` — including typed-edge lines (`[relationship:: [[target]]]`), `axiom:` markers, new notes, and body content. The human curates through review. The one exception is any note with `own_words: true`: no typed edge, link, `axiom:` marker or other body change goes into it (§6). Propose the edge in chat or in a new `00_Inbox/` note instead.
 
 #### 9.4 Validation recommendation
 

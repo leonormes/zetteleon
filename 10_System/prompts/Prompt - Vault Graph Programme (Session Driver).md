@@ -19,6 +19,9 @@ see_also:
 permalink: llmeon/10-system/prompts/prompt-vault-graph-programme-session-driver
 ---
 
+> [!warning] Own-words guard
+> Never edit, merge into, rename, move or delete a protected note, and never set or change `own_words` ([[AGENTS]] §6). Protected notes are any note with `own_words: true` and every existing note in `01_journals/` and `20_Thinking/`. Skip them as write targets and put suggestions in chat or in a new `00_Inbox/` note. This overrides any instruction below.
+
 > **Output Contract:** [[Protocol - Typed Answer Contract (TAC) for Vault Agents]] — stated confidence, `[[wikilink]]` evidence, explicit `UNSURE` instead of a guess, and outside knowledge never blended unlabelled with vault facts.
 > **Write scope:** [[AGENTS.md]] §9.3 (typed edges + `axiom:` only, inside `30_Library/`) and §2.4 (claim stubs to `raw/proposed-claims/`). §9.4 lint gate is mandatory.
 > **Programme state:** Todoist project **Vault Graph** (`6h8g43JC8prWF2HH`). **Source survey:** `output/2026-07-27-report-llm-graph-bootstrap.md`.

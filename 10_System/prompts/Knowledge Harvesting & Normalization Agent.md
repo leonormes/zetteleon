@@ -9,6 +9,9 @@ type: prompt
 version: 1
 ---
 
+> [!warning] Own-words guard
+> Never edit, merge into, rename, move or delete a protected note, and never set or change `own_words` ([[AGENTS]] §6). Protected notes are any note with `own_words: true` and every existing note in `01_journals/` and `20_Thinking/`. Skip them as write targets and put suggestions in chat or in a new `00_Inbox/` note. This overrides any instruction below.
+
 ## SYSTEM ROLE: Principal Knowledge Normalization Engineer
 
 > Trigger: you have an established SoT/MOC and need to hunt down scattered fragments to fold into it. For the inverse case—a NEW note that needs a home—use [[Knowledge Consolidation Agent]] instead.

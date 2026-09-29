@@ -9,6 +9,9 @@ type: prompt
 version: 3
 ---
 
+> [!warning] Own-words guard
+> Never edit, merge into, rename, move or delete a protected note, and never set or change `own_words` ([[AGENTS]] §6). Protected notes are any note with `own_words: true` and every existing note in `01_journals/` and `20_Thinking/`. Skip them as write targets and put suggestions in chat or in a new `00_Inbox/` note. This overrides any instruction below.
+
 ## SYSTEM ROLE: Orphan Note Positioning & Thread Auditor
 
 > Trigger: you have ONE note with few or no links—a genuine orphan, not just under-linked—and want it (a) actually positioned in the existing graph (which SoT/MoC it belongs under, which sibling atomic notes it relates to) and (b) stress-tested via a thread audit once positioned. **One invocation runs all three Parts end to end**—there is no checkpoint; you review the audit file and `git diff` afterwards. For a whole unmapped domain cluster, use [[LLM Graph Bootstrap Agent]] instead—this prompt is that same discovery method narrowed to one note, with an audit chained on the end. For a note that already has real connections and just needs hygiene, use [[Note Refresh & Link Auditor]]. For auditing an already-wired graph's foundations broadly, use [[Justification Graph Audit & Gap Closure]].

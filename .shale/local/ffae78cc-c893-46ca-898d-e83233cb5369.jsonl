@@ -1,1 +1,3 @@
 {"kind":"session_meta","at":"2026-09-26T09:24:05.648651Z","tool":"claude-code","session_id":"ffae78cc-c893-46ca-898d-e83233cb5369"}
+{"kind":"session_end","at":"2026-09-28T07:21:01.17488Z"}
+{"kind":"intent","at":"2026-09-28T07:23:26.971201Z","title":"Fix the Obsidian Web Clipper config so captures validate and stop colliding with real HEAD notes","body":"prodos-head-capture-clipper.json: type head to concept, status processing to seed, add conformant/non_conformance_reason, rename to drop HEAD prefix from filenames and template name. Template - LLM Capture.md: type research-note to concept, to match."}

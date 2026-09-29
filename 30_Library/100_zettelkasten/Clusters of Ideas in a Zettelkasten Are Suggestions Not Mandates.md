@@ -5,7 +5,7 @@ created: 2026-09-26T10:30:00+00:00
 created_utc: '2026-09-26T10:30:00Z'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-26T08:45:41+00:00
+modified: 2026-09-28T20:09:59+00:00
 permalink: llmeon/30-library/100-zettelkasten/clusters-of-ideas-in-a-zettelkasten-are-suggestions-not-mandates
 proposition: Areas of dense connection in a zettelkasten can guide a writer toward
   ideas ready for expression, but they suggest and do not dictate what to write.

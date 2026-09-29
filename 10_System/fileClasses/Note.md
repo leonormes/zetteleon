@@ -22,6 +22,7 @@ fields:
   - sot
   - link_report
   - equipment
+  - source
   path: ''
 - name: project_name
   id: project_name

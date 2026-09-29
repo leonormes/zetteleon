@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-10-31T12:07:00+00:00
-modified: 2026-09-26T08:45:29+00:00
+modified: 2026-09-28T20:10:00+00:00
 non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/discomfort-signals-growth-potential
 tags: [TheHuman/Psychology, topic/productivity]
@@ -25,3 +25,8 @@ ADHD Application:
 - Normalize start-up friction
 - Separate discomfort from inability
 - Use novelty to bridge discomfort
+
+## Related
+
+- [[Beliefs as Defining Spaces]]—shared mechanism: reading difficulty as "I am not cut out for this" is a limiting belief and reading it as evidence of growth is the empowering counterpart; Nir Eyal's Beyond Belief (Calibre 1686, via an LLM summary) frames the pair this way.
+- [[Desirable Difficulty in Skill Acquisition]]—shared mechanism: struggle is the means by which skill is built.

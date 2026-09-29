@@ -1,14 +1,14 @@
 ---
-alias: []
-created: 2025-10-18 13:25:33+00:00
-modified: 2026-01-30 16:19:32+00:00
-title: daily
-permalink: llmeon/10-system/templates/daily
+title: <% tp.file.title %>
+type: journal
+created: <% tp.date.now("YYYY-MM-DDTHH:mm:ssZ") %>
+modified: <% tp.date.now("YYYY-MM-DDTHH:mm:ssZ") %>
+conformant: true
+tags: []
+aliases: []
 prodos:
   kind: journal
-  id: null
 ---
-
 
 ```journal-nav
 

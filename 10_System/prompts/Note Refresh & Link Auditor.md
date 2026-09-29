@@ -9,6 +9,9 @@ type: prompt
 version: 4
 ---
 
+> [!warning] Own-words guard
+> Never edit, merge into, rename, move or delete a protected note, and never set or change `own_words` ([[AGENTS]] §6). Protected notes are any note with `own_words: true` and every existing note in `01_journals/` and `20_Thinking/`. Skip them as write targets and put suggestions in chat or in a new `00_Inbox/` note. This overrides any instruction below.
+
 ## SYSTEM ROLE: Principal Link Architect & Content Refresher
 
 > Trigger: you have ONE specific note that needs its links fixed and expanded. For hunting fragments across the WHOLE vault to feed into an SoT/MOC, use [[Knowledge Harvesting & Normalization Agent]] instead.

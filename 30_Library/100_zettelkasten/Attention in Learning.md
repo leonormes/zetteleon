@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-05-27T17:55:20+00:00
 last_reviewed: ''
-modified: 2026-09-26T08:45:27+00:00
+modified: 2026-09-28T20:09:58+00:00
 permalink: llmeon/30-library/100-zettelkasten/attention-in-learning
 tags: [learning]
 title: Attention in Learning

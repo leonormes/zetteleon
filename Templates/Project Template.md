@@ -1,12 +1,13 @@
 ---
 area: null
-created: 2026-06-22T14:55:52+00:00
-modified: 2026-07-20T16:33:33+00:00
+created: <% tp.date.now("YYYY-MM-DDTHH:mm:ssZ") %>
+modified: <% tp.date.now("YYYY-MM-DDTHH:mm:ssZ") %>
 outcome: null
-permalink: llmeon/templates/project-template
 reviewed: null
 status: ongoing
-title: Project Template
+title: <% tp.file.title %>
+conformant: true
+tags: []
 type: project
 ---
 

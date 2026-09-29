@@ -1,0 +1,56 @@
+{
+	"schemaVersion": "0.1.0",
+	"name": "PRODOS LLM Chat Capture",
+	"behavior": "create",
+	"noteContentFormat": "## {{title}}\n\n{{content}}\n",
+	"properties": [
+		{
+			"name": "title",
+			"value": "{{title}}",
+			"type": "text"
+		},
+		{
+			"name": "source",
+			"value": "{{url}}",
+			"type": "text"
+		},
+		{
+			"name": "captured",
+			"value": "{{time}}",
+			"type": "text"
+		},
+		{
+			"name": "status",
+			"value": "seed",
+			"type": "text"
+		},
+		{
+			"name": "type",
+			"value": "concept",
+			"type": "text"
+		},
+		{
+			"name": "conformant",
+			"value": "false",
+			"type": "checkbox"
+		},
+		{
+			"name": "non_conformance_reason",
+			"value": "raw LLM chat capture awaiting triage",
+			"type": "text"
+		},
+		{
+			"name": "tags",
+			"value": "source/llm",
+			"type": "multitext"
+		}
+	],
+	"triggers": [
+		"https://gemini.google.com",
+		"https://chatgpt.com",
+		"https://chat.openai.com",
+		"https://claude.ai"
+	],
+	"noteNameFormat": "LLM Clip - {{title}}",
+	"path": "00_Inbox"
+}

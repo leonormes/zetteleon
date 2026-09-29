@@ -1,22 +1,18 @@
 ---
-permalink: llmeon/10-system/templates/template-evidence
----
-
-%% Evidence card. Name the file "Evidence - Who Says What". source_quote is a direct extraction, not a paraphrase. confidence is a number from 0 to 1 and belongs to evidence notes only. Frontmatter values contain no colon-space, apostrophes or double quotes (reword the book subtitle). Delete these comments when done. %%
-
----
 title: <% tp.file.title %>
 type: evidence
 status: seed
 tags: []
 conformant: true
-created: "<% tp.date.now("YYYY-MM-DDTHH:mm:ss") %>+00:00"
-modified: "<% tp.date.now("YYYY-MM-DDTHH:mm:ss") %>+00:00"
+created: <% tp.date.now("YYYY-MM-DDTHH:mm:ssZ") %>
+modified: <% tp.date.now("YYYY-MM-DDTHH:mm:ssZ") %>
 source_quote:
 source_reference:
 supports_claims: []
 confidence: 0.5
 ---
+
+%% Evidence card. Name the file "Evidence - Who Says What". source_quote is a direct extraction, not a paraphrase. confidence is a number from 0 to 1 and belongs to evidence notes only. Frontmatter values contain no colon-space, apostrophes or double quotes (reword the book subtitle). Delete these comments when done. %%
 
 ## <% tp.file.title %>
 

@@ -24,3 +24,5 @@ views:
       - supersedes
       - superseded_by
       - prodos
+    columnSize:
+      file.name: 627

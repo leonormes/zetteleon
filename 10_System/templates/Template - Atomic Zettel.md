@@ -1,22 +1,18 @@
 ---
-permalink: llmeon/10-system/templates/template-atomic-zettel
----
-
-%% Claim card. Same as the claim template in SoT - Atomic Note Standard (The Proposition Card). Name the file with the claim itself, as a full declarative sentence of at least four words. Frontmatter values contain no colon-space, apostrophes or double quotes. Delete these comments when done. %%
-
----
 title: <% tp.file.title %>
 type: claim
 status: seed
 tags: []
 conformant: true
-created: "<% tp.date.now("YYYY-MM-DDTHH:mm:ss") %>+00:00"
-modified: "<% tp.date.now("YYYY-MM-DDTHH:mm:ss") %>+00:00"
+created: <% tp.date.now("YYYY-MM-DDTHH:mm:ssZ") %>
+modified: <% tp.date.now("YYYY-MM-DDTHH:mm:ssZ") %>
 proposition:
 epistemic_status: medium
 evidence_links: []
 contradicts: []
 ---
+
+%% Claim card. Same as the claim template in SoT - Atomic Note Standard (The Proposition Card). Name the file with the claim itself, as a full declarative sentence of at least four words. Frontmatter values contain no colon-space, apostrophes or double quotes. Delete these comments when done. %%
 
 ## <% tp.file.title %>
 

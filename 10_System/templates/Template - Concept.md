@@ -1,21 +1,17 @@
 ---
-permalink: llmeon/10-system/templates/template-concept
----
-
-%% Concept card. Name the file with the term or distinction being defined. Frontmatter values contain no colon-space, apostrophes or double quotes. Delete these comments when done. %%
-
----
 title: <% tp.file.title %>
 type: concept
 status: seed
 tags: []
 conformant: true
-created: "<% tp.date.now("YYYY-MM-DDTHH:mm:ss") %>+00:00"
-modified: "<% tp.date.now("YYYY-MM-DDTHH:mm:ss") %>+00:00"
+created: <% tp.date.now("YYYY-MM-DDTHH:mm:ssZ") %>
+modified: <% tp.date.now("YYYY-MM-DDTHH:mm:ssZ") %>
 definition:
 distinguishes_from: []
 used_in_claims: []
 ---
+
+%% Concept card. Name the file with the term or distinction being defined. Frontmatter values contain no colon-space, apostrophes or double quotes. Delete these comments when done. %%
 
 ## <% tp.file.title %>
 

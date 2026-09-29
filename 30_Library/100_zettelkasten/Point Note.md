@@ -5,7 +5,7 @@ created_utc: '2026-09-26T10:30:00Z'
 definition: A Point Note is a note in which the focus shifts from the source to your
   own thoughts, using the source as support for a point you want to make.
 distinguishes_from: ["[[Source Note]]"]
-modified: 2026-09-26T08:45:41+00:00
+modified: 2026-09-28T20:10:06+00:00
 permalink: llmeon/30-library/100-zettelkasten/point-note
 source_title: How to Make Notes and Write - Dan Allosso
 source_url: calibre://view-book/GCcalibreBooks/708/EPUB

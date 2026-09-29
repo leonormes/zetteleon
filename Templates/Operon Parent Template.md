@@ -1,16 +1,15 @@
 ---
 contexts: [computer, deep-work]
-created: 2026-06-22T14:55:52+00:00
+created: <% tp.date.now("YYYY-MM-DDTHH:mm:ssZ") %>
 datetimeCreated: null
 Links: []
-modified: 2026-07-20T16:33:33+00:00
-permalink: llmeon/templates/operon-parent-template
+modified: <% tp.date.now("YYYY-MM-DDTHH:mm:ssZ") %>
 priority: A
 prodosCategory: ''
 prodosProject: ''
 status: Project.InProgress
 tags: [operon/parent]
-title: Operon Parent Template
+title: <% tp.file.title %>
 ---
 
 ## Definition of Done

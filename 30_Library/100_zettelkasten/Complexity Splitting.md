@@ -1,30 +1,20 @@
 ---
-title: Complexity Splitting
-type: concept
-status: seed
-tags:
-- atomicity
-- complexity-splitting
-- splitting-notes
-- technique
-- zettelkasten
-- note-structure
 conformant: true
-created: 2026-09-26 12:00:00+00:00
-modified: 2026-09-26 12:00:00+00:00
-source_title: A System for Writing - Bob Doto
-source_url: calibre://view-book/GCcalibreBooks/1491/EPUB
+created: 2026-09-26T12:00:00+00:00
 created_utc: '2026-09-26T12:00:00Z'
-upstream: '[[The Atomicity Principle - One Idea Per Note]]'
 definition: Complexity splitting is dividing a note that appears to hold one idea
   but hides two or more into separate single-idea notes.
 distinguishes_from: []
-used_in_claims:
-- '[[A Complex Note Has Little Surface Area to Connect While a Single Idea Can Link
-  Across Topics]]'
-- '[[Long Notes Holding Divergent Ideas Turn Writing Into Triage]]'
-- '[[The Words But and However Signal That What Follows May Deserve Its Own Note]]'
+modified: 2026-09-28T20:10:32+00:00
 permalink: llmeon/30-library/100-zettelkasten/complexity-splitting
+source_title: A System for Writing - Bob Doto
+source_url: calibre://view-book/GCcalibreBooks/1491/EPUB
+status: seed
+tags: [atomicity, complexity-splitting, note-structure, splitting-notes, technique, zettelkasten]
+title: Complexity Splitting
+type: concept
+upstream: '[[The Atomicity Principle - One Idea Per Note]]'
+used_in_claims: ["[[Long Notes Holding Divergent Ideas Turn Writing Into Triage]]", "[[The Words But and However Signal That What Follows May Deserve Its Own Note]]"]
 ---
 
 ## Complexity Splitting

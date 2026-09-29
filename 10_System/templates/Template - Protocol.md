@@ -1,11 +1,9 @@
 ---
-permalink: llmeon/10-system/templates/template-protocol
----
-
----
-title: Protocol -
-created: "<% tp.date.now("YYYY-MM-DDTHH:mm:ss") %>+00:00"
-modified: "<% tp.date.now("YYYY-MM-DDTHH:mm:ss") %>+00:00"
+title: <% tp.file.title %>
+type: protocol
+created: <% tp.date.now("YYYY-MM-DDTHH:mm:ssZ") %>
+modified: <% tp.date.now("YYYY-MM-DDTHH:mm:ssZ") %>
+conformant: true
 tags: [prodos/protocol]
 aliases: []
 prodos:

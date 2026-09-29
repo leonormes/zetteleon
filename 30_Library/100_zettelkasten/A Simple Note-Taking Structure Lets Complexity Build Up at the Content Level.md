@@ -1,27 +1,21 @@
 ---
-title: A Simple Note-Taking Structure Lets Complexity Build Up at the Content Level
-type: claim
-status: seed
-tags:
-- complexity
-- simple-structure
-- topic-sorting
-- zettelkasten
-- connection
-- note-structure
 conformant: true
-created: 2026-09-26 12:00:00+00:00
-modified: 2026-09-26 12:00:00+00:00
-source_title: How to Take Smart Notes - Sönke Ahrens
-source_url: calibre://view-book/GCcalibreBooks/704/EPUB
+contradicts: []
+created: 2026-09-26T12:00:00+00:00
 created_utc: '2026-09-26T12:00:00Z'
-upstream: '[[The Atomicity Principle - One Idea Per Note]]'
-proposition: A simple structure lets complexity build up at the content level of a
-  note collection instead of in how the notes are organised.
 epistemic_status: medium
 evidence_links: []
-contradicts: []
+modified: 2026-09-28T20:09:56+00:00
 permalink: llmeon/30-library/100-zettelkasten/a-simple-note-taking-structure-lets-complexity-build-up-at-the-content-level
+proposition: A simple structure lets complexity build up at the content level of a
+  note collection instead of in how the notes are organised.
+source_title: How to Take Smart Notes - Sönke Ahrens
+source_url: calibre://view-book/GCcalibreBooks/704/EPUB
+status: seed
+tags: [complexity, connection, note-structure, simple-structure, topic-sorting, zettelkasten]
+title: A Simple Note-Taking Structure Lets Complexity Build Up at the Content Level
+type: claim
+upstream: '[[The Atomicity Principle - One Idea Per Note]]'
 ---
 
 ## A Simple Note-Taking Structure Lets Complexity Build Up at the Content Level
