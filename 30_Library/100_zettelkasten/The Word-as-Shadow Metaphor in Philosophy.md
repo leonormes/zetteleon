@@ -2,7 +2,7 @@
 aliases: [Plato's Forms and Language]
 created: 2025-07-16T17:30:04+00:00
 last_reviewed: 'null'
-modified: 2026-09-28T20:10:10+00:00
+modified: 2026-09-29T10:38:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-word-as-shadow-metaphor-in-philosophy
 tags: [language, paraphrasing, plato, semiotics, topic/philosophy]
 title: The Word-as-Shadow Metaphor in Philosophy

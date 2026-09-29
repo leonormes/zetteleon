@@ -5,7 +5,7 @@ created: 2026-09-26T10:30:00+00:00
 created_utc: '2026-09-26T10:30:00Z'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-28T20:10:05+00:00
+modified: 2026-09-29T10:37:55+00:00
 permalink: llmeon/30-library/100-zettelkasten/one-idea-per-note-makes-ideas-easier-to-find-than-a-long-multi-topic-review
 proposition: Recording one idea per note makes the ideas easier to find than keeping
   a long review of a whole book.

@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-12-07T00:00:00+00:00
 epistemic_status: low
 evidence_links: []
-modified: 2026-09-28T20:09:59+00:00
+modified: 2026-09-29T10:37:49+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/claim-thinking-that-cannot-name-its-resulting-action-is-procrastination
 position-date: 2026-08-29

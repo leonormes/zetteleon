@@ -6,7 +6,7 @@ contradicts: []
 created: 2025-10-31T20:05:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-28T20:10:04+00:00
+modified: 2026-09-29T10:37:54+00:00
 permalink: llmeon/30-library/100-zettelkasten/meaning-emerges-from-language-games
 prodos.kind: atomic
 prodos.lifecycle: stable

@@ -3,7 +3,7 @@ aliases: [Socially Validated Thinking]
 conformant: false
 created: 2025-05-26T09:35:57+00:00
 definition: "A personality type that tends to process ideas in public, relying on immediate social validation and environmental feedback to shape cognition."
-modified: 2026-09-28T20:10:01+00:00
+modified: 2026-09-29T10:37:51+00:00
 non_conformance_reason: "missing schema field distinguishes_from for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/extravert
 tags: [social-dynamics, TheHuman/Psychology]

@@ -2,7 +2,7 @@
 classification: Platform / DevOps audit — read-only
 created: 2026-08-27T10:30:00+00:00
 date: 2026-08-27
-modified: 2026-09-26T08:45:51+00:00
+modified: 2026-09-29T10:37:31+00:00
 permalink: llmeon/30-library/200-projects/fitfile-delivery-pipeline-audit-2026-08-27
 project_category: refined_deployment
 project_name: Pipeline

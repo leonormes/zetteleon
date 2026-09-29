@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-11-01T11:22:13+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-28T20:10:04+00:00
+modified: 2026-09-29T10:37:54+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/logicism-mathematics-as-extension-of-logic
 proposition: 'Logicism holds that mathematics is an extension of pure logic: mathematical concepts are definable in purely logical terms and mathematical theorems are derivable as theorems of logic alone.'

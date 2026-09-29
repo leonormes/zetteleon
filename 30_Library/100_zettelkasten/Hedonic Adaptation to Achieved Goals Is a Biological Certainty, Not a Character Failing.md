@@ -2,7 +2,7 @@
 created: 2026-07-13T08:30:49+00:00
 created_utc: '2026-07-13T08:17:00Z'
 kind: claim
-modified: 2026-09-28T20:10:02+00:00
+modified: 2026-09-29T10:37:52+00:00
 permalink: llmeon/00-inbox/hedonic-adaptation-to-achieved-goals-is-a-biological-certainty-not-a-character-failing
 source_title: 'Neuro-Variable Execution, Spatial Cognition & Knowledge Architecture: An Investigative Report'
 source_url: ''

@@ -1,7 +1,7 @@
 ---
 aliases: [Debugging Toolkit, Netshoot Tools, Network Tools SoT, Tcpdump Guide]
 created: 2026-02-04T00:00:00+00:00
-modified: 2026-09-26T08:46:32+00:00
+modified: 2026-09-29T10:38:23+00:00
 permalink: llmeon/30-library/ops/sot-network-tools-patterns
 tags: [debugging, linux, networking, sot, tools]
 title: sot-network-tools-patterns

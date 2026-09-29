@@ -5,7 +5,7 @@ created: 2026-09-28T00:00:00+00:00
 created_utc: '2026-09-28T00:00:00+00:00'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-28T20:10:11+00:00
+modified: 2026-09-29T10:38:01+00:00
 permalink: llmeon/00-inbox/beliefs-act-as-perceptual-filters-that-decide-what-the-brain-notices-or-ignores
 proposition: Because not all stimuli can be processed, beliefs act as perceptual filters,
   so changing a belief shifts the attentional spotlight to opportunities or nuances

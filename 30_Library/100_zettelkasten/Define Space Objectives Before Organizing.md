@@ -2,7 +2,7 @@
 conformant: false
 created: 2026-09-01T16:18:55+00:00
 created_utc: '2026-09-01T16:18:54.888265+00:00'
-modified: 2026-09-28T20:10:00+00:00
+modified: 2026-09-29T10:37:50+00:00
 non_conformance_reason: "missing schema field trigger for type procedure (required when conformant - true); missing schema field steps for type procedure (required when conformant - true); missing schema field verification for type procedure (required when conformant - true)"
 permalink: llmeon/00-inbox/define-space-objectives-before-organizing
 source_title: The 7 rules of organization

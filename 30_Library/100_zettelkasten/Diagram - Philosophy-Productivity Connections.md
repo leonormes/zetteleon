@@ -3,7 +3,7 @@ aliases: []
 conformant: true
 created: 2025-10-31T13:15:00+00:00
 last_reviewed: ''
-modified: 2026-09-28T20:10:00+00:00
+modified: 2026-09-29T10:37:50+00:00
 permalink: llmeon/30-library/100-zettelkasten/diagram-philosophy-productivity-connections
 tags: [diagram, TheHuman/Philosophy, topic/productivity]
 title: Diagram - Philosophy-Productivity Connections

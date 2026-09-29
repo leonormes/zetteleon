@@ -4,7 +4,7 @@ contradicts: []
 created: 2026-08-13T11:04:22+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-28T20:10:05+00:00
+modified: 2026-09-29T10:37:54+00:00
 permalink: llmeon/30-library/100-zettelkasten/minds-are-like-plants-unique-products-of-genes-and-environment
 prodos.kind: atomic
 prodos.lifecycle: seed

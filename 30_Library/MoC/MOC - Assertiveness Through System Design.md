@@ -1,7 +1,7 @@
 ---
 aliases: [Assertiveness MOC]
 created: 2025-12-17T00:00:00+00:00
-modified: 2026-09-26T08:46:06+00:00
+modified: 2026-09-29T10:38:02+00:00
 permalink: llmeon/30-library/mo-c/moc-assertiveness-through-system-design
 tags: [assertiveness, communication, topic/systems, type/moc]
 title: MOC - Assertiveness Through System Design

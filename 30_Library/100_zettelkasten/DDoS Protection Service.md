@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-12-24T12:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-28T20:10:00+00:00
+modified: 2026-09-29T10:37:50+00:00
 permalink: llmeon/30-library/100-zettelkasten/ddo-s-protection-service
 prodos.kind: atomic
 prodos.lifecycle: stable

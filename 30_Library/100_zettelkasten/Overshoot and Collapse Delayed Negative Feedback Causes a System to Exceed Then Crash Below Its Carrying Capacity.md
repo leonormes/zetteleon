@@ -5,7 +5,7 @@ created: 2026-09-14T15:20:02+00:00
 created_utc: '2026-09-14T00:00:00Z'
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-28T20:10:05+00:00
+modified: 2026-09-29T10:37:55+00:00
 permalink: llmeon/30-library/100-zettelkasten/overshoot-and-collapse-delayed-negative-feedback-causes-a-system-to-exceed-then-crash-below-its-carrying-capacity
 prodos.kind: atomic
 prodos.lifecycle: seed

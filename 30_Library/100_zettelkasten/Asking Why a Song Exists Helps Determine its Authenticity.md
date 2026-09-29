@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-11-10T11:10:00+00:00
 last_reviewed: ''
-modified: 2026-09-28T20:09:58+00:00
+modified: 2026-09-29T10:37:48+00:00
 permalink: llmeon/30-library/100-zettelkasten/asking-why-a-song-exists-helps-determine-its-authenticity
 status: seed
 tags: [analysis, critical-thinking, music, question]

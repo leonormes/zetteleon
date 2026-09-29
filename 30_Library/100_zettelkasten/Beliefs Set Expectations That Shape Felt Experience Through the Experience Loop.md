@@ -5,7 +5,7 @@ created: 2026-09-28T00:00:00+00:00
 created_utc: '2026-09-28T00:00:00+00:00'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-28T20:10:11+00:00
+modified: 2026-09-29T10:38:02+00:00
 permalink: llmeon/00-inbox/beliefs-set-expectations-that-shape-felt-experience-through-the-experience-loop
 proposition: Beliefs set up expectations that produce physiological and emotional
   responses, forming an Experience Loop of Believe, Anticipate, Feel and Confirm.

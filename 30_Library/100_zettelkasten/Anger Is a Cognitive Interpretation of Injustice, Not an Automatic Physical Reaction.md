@@ -5,7 +5,7 @@ created: 2026-09-14T15:25:59+00:00
 created_utc: '2026-09-14T00:00:00Z'
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-28T20:09:57+00:00
+modified: 2026-09-29T10:37:47+00:00
 permalink: llmeon/30-library/100-zettelkasten/anger-is-a-cognitive-interpretation-of-injustice-not-an-automatic-physical-reaction
 prodos.kind: atomic
 prodos.lifecycle: seed

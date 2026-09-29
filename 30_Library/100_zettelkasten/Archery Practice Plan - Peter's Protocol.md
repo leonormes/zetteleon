@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-27T23:00:00+01:00
-modified: 2026-09-28T20:09:57+00:00
+modified: 2026-09-29T10:37:48+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-practice-plan-peters-protocol
 tags: [archery, practice, prodos/atomic, training]
 title: "Archery Practice Plan - Peter's Protocol"

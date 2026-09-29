@@ -4,7 +4,7 @@ contradicts: []
 created: 2026-08-13T10:25:29+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-28T20:09:59+00:00
+modified: 2026-09-29T10:37:49+00:00
 permalink: llmeon/30-library/100-zettelkasten/claim-deduction-is-informative-because-computation-is-a-physical-causal-process-bounded-by-time
 prodos.kind: atomic
 prodos.lifecycle: seed

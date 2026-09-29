@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-05-26T20:32:11+00:00
 last_reviewed: ''
-modified: 2026-09-28T20:10:03+00:00
+modified: 2026-09-29T10:37:53+00:00
 permalink: llmeon/30-library/100-zettelkasten/influence-of-programming-paradigms-on-mental-models
 tags: []
 title: Influence of Programming Paradigms on Mental Models

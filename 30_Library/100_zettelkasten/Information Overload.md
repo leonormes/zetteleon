@@ -6,7 +6,7 @@ definition: "Retaining or attempting to consume all available information on a s
 deleted: 'true'
 distinguishes_from: []
 id: 56004fd6-9014-418c-8360-78c79657f5ad
-modified: 2026-09-28T20:10:03+00:00
+modified: 2026-09-29T10:37:53+00:00
 permalink: llmeon/30-library/100-zettelkasten/information-overload
 source_image_url: ''
 tags: [information, TheHuman/Health/ADHD, topic/gtd, topic/pkm/zettelkasten]

@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-09-24T12:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-28T20:10:05+00:00
+modified: 2026-09-29T10:37:55+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/most-kubernetes-controllers-are-reactive-rather-than-predictive
 prodos.atomic.form: claim

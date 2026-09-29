@@ -5,7 +5,7 @@ created: 2026-09-26T10:30:00+00:00
 created_utc: '2026-09-26T10:30:00Z'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-28T20:09:56+00:00
+modified: 2026-09-29T10:37:46+00:00
 permalink: llmeon/30-library/100-zettelkasten/a-note-should-be-written-so-it-can-be-understood-out-of-context
 proposition: A note should be written for a reader who lacks the surrounding thoughts,
   with full sentences and named sources, so that it can be understood out of context.

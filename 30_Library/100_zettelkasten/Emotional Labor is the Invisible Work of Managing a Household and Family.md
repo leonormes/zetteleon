@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-11-10T10:04:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-28T20:10:01+00:00
+modified: 2026-09-29T10:37:51+00:00
 permalink: llmeon/30-library/100-zettelkasten/emotional-labor-is-the-invisible-work-of-managing-a-household-and-family
 proposition: Emotional labor, or the mental load, is the often unseen cognitive work required to manage a family and household, including planning, remembering, scheduling, and tracking that should be shared in a cooperative partnership.
 tags: [emotional-labor, mental-load, relationship, responsibility]

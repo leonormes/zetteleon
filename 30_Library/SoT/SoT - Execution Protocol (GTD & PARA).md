@@ -3,7 +3,7 @@ aliases: [Execution Protocol, Hybrid GTD PARA]
 conformant: true
 created: 2026-01-08T07:41:15+00:00
 last_reviewed: ''
-modified: 2026-09-26T08:46:14+00:00
+modified: 2026-09-29T10:38:09+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-execution-protocol-gtd-para
 status: stable

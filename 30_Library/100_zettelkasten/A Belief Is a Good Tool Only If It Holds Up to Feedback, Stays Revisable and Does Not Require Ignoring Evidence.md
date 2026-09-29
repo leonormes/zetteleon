@@ -5,7 +5,7 @@ created: 2026-09-28T00:00:00+00:00
 created_utc: '2026-09-28T00:00:00+00:00'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-28T20:10:11+00:00
+modified: 2026-09-29T10:38:02+00:00
 permalink: llmeon/00-inbox/a-belief-is-a-good-tool-only-if-it-holds-up-to-feedback-stays-revisable-and-does-not-require-ignoring-evidence
 proposition: A belief is a functional tool only if it meets all three criteria, that
   it holds up to real-world feedback, remains open to revision and does not require

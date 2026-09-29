@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-11-10T10:20:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-28T20:09:56+00:00
+modified: 2026-09-29T10:37:47+00:00
 permalink: llmeon/30-library/100-zettelkasten/a-true-discussion-requires-that-both-partners-can-say-no-without-fear
 proposition: 'A conversation ceases to be a genuine discussion when one partner is not allowed to say "no" or disagree without facing anger, disdain, or moral vilification.'
 tags: [boundaries, communication, conflict, consent, relationship]

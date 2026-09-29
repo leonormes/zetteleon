@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-27T19:20:05+00:00
 last_reviewed: 'null'
-modified: 2026-09-28T20:09:57+00:00
+modified: 2026-09-29T10:37:47+00:00
 permalink: llmeon/30-library/100-zettelkasten/appreciating-genius-requires-intellectual-resonance
 tags: [epistemology, topic/learning, understanding]
 title: Appreciating Genius Requires Intellectual Resonance

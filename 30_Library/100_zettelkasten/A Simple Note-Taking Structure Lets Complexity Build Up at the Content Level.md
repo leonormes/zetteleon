@@ -5,7 +5,7 @@ created: 2026-09-26T12:00:00+00:00
 created_utc: '2026-09-26T12:00:00Z'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-28T20:09:56+00:00
+modified: 2026-09-29T10:37:46+00:00
 permalink: llmeon/30-library/100-zettelkasten/a-simple-note-taking-structure-lets-complexity-build-up-at-the-content-level
 proposition: A simple structure lets complexity build up at the content level of a
   note collection instead of in how the notes are organised.

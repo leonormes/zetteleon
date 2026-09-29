@@ -6,7 +6,7 @@ contradicts: []
 created: 2025-07-20T12:49:36+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-28T20:09:59+00:00
+modified: 2026-09-29T10:37:48+00:00
 permalink: llmeon/30-library/100-zettelkasten/calculus-ratiocinator-leibniz
 prodos.kind: atomic
 prodos.lifecycle: stable

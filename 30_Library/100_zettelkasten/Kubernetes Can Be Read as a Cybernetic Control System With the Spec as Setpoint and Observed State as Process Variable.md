@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-09-24T12:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-28T20:10:04+00:00
+modified: 2026-09-29T10:37:53+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/kubernetes-can-be-read-as-a-cybernetic-control-system-with-the-spec-as-setpoint-and-observed-state-as-process-variable
 prodos.atomic.form: claim

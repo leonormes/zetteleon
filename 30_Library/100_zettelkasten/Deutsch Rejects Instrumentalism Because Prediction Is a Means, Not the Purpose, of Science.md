@@ -6,7 +6,7 @@ created: 2026-09-08T20:15:00+00:00
 created_utc: 2026-09-08 20:15:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-28T20:10:00+00:00
+modified: 2026-09-29T10:37:50+00:00
 permalink: llmeon/00-inbox/deutsch-rejects-instrumentalism-because-prediction-is-a-means-not-the-purpose-of-science
 proposition: "Deutsch explicitly rejects instrumentalism—the view that science only \"aims to predict outcomes—arguing that prediction is merely a means to science's\" real purpose, which is explaining the fabric of reality."
 source_title: David Deutsch and Peter Godfrey-Smith

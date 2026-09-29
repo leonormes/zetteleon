@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-08-23T20:31:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-28T20:10:02+00:00
+modified: 2026-09-29T10:37:52+00:00
 permalink: llmeon/30-library/100-zettelkasten/getting-started-with-zettelkasten-with-adhd
 prodos.kind: atomic
 prodos.lifecycle: stable

@@ -2,7 +2,7 @@
 conformant: true
 created: 2026-02-06T14:30:00+00:00
 last-synthesis: 2026-04-05
-modified: 2026-09-26T08:46:16+00:00
+modified: 2026-09-29T10:38:11+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-infrastructure-complexity
 source_of_truth: true

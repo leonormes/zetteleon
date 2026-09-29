@@ -7,7 +7,7 @@ epistemic_status: low
 evidence_links: []
 id: Emergent mind
 last_reviewed: ''
-modified: 2026-09-28T20:10:01+00:00
+modified: 2026-09-29T10:37:51+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/emergent-mind
 proposition: Ideas and instincts are emergent properties of the subconscious that cannot be directly controlled, so the lever is the input that shapes the subconscious, not the output.

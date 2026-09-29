@@ -3,7 +3,7 @@ contains_personal_data: true
 created: 2026-09-22T10:53:00+01:00
 manufacturer: ŠKODA
 model: Karoq 1.5 TSI SE Edition
-modified: 2026-09-26T08:46:00+00:00
+modified: 2026-09-29T10:37:39+00:00
 permalink: llmeon/30-library/200-projects/skoda-karoq-1-5-tsi-se-edition-en25dfu
 registration: EN25DFU
 status: active

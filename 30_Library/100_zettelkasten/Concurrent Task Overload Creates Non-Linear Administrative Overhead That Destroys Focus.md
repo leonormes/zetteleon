@@ -2,7 +2,7 @@
 axiom: true
 conformant: false
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-09-28T20:09:59+00:00
+modified: 2026-09-29T10:37:49+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/concurrent-task-overload-creates-non-linear-administrative-overhead-that-destroys-focus
 tags: [administrative-overhead, focus, productivity, workload-management]

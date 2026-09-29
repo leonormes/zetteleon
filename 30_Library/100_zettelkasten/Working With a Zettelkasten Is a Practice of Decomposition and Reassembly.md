@@ -5,7 +5,7 @@ created: 2026-09-26T10:30:00+00:00
 created_utc: '2026-09-26T10:30:00Z'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-28T20:10:11+00:00
+modified: 2026-09-29T10:38:01+00:00
 permalink: llmeon/30-library/100-zettelkasten/working-with-a-zettelkasten-is-a-practice-of-decomposition-and-reassembly
 proposition: Working with a zettelkasten disassembles the structured thoughts of a
   writer into separate atomic ideas, networks them, and reassembles them later in

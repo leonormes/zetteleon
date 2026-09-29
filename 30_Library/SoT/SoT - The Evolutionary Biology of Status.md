@@ -2,7 +2,7 @@
 aliases: [Dominance Hierarchies, Evolutionary Status, Neuroscience of Status]
 conformant: true
 created: 2025-12-14T00:00:00+00:00
-modified: 2026-09-26T08:46:22+00:00
+modified: 2026-09-29T10:38:16+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-the-evolutionary-biology-of-status
 tags: [behavior, status, TheHuman/Neuroscience, TheHuman/Psychology]

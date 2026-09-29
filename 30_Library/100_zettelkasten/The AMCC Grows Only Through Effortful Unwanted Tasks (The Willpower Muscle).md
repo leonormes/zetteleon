@@ -4,7 +4,7 @@ contradicts: []
 created: 2026-09-08T00:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-28T20:10:09+00:00
+modified: 2026-09-29T10:37:59+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-amcc-grows-only-through-effortful-unwanted-tasks-the-willpower-muscle
 prodos.kind: atomic
 prodos.lifecycle: seed

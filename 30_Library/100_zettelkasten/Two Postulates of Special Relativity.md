@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-09-16T12:25:36+00:00
 last_reviewed: ''
-modified: 2026-09-28T20:10:10+00:00
+modified: 2026-09-29T10:38:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/two-postulates-of-special-relativity
 tags: []
 title: Two Postulates of Special Relativity

@@ -2,7 +2,7 @@
 aliases: [Ascribing Mind to Brain Parts, Homunculus Problem, Mereological Fallacy]
 conformant: false
 created: 2026-07-16T15:50:54+00:00
-modified: 2026-09-28T20:10:09+00:00
+modified: 2026-09-29T10:37:59+00:00
 non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/the-mereological-fallacy-in-neuroscience
 source_title: "Waking Up (Sam Harris) — reviewed LLM summary and critique"

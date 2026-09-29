@@ -5,7 +5,7 @@ created: 2026-09-14T15:28:00+00:00
 created_utc: '2026-09-14T00:00:00Z'
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-28T20:10:10+00:00
+modified: 2026-09-29T10:38:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-utilitarian-organ-harvesting-thought-experiment-shows-maximising-aggregate-welfare-can-justify-intuitively-abhorrent-acts
 prodos.kind: atomic
 prodos.lifecycle: seed

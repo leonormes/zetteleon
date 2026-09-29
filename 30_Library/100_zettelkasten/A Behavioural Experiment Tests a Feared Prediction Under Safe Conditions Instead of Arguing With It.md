@@ -2,7 +2,7 @@
 conformant: false
 created: 2026-09-14T15:29:58+00:00
 created_utc: '2026-09-14T00:00:00Z'
-modified: 2026-09-28T20:09:56+00:00
+modified: 2026-09-29T10:37:46+00:00
 non_conformance_reason: "missing schema field trigger for type procedure (required when conformant - true); missing schema field steps for type procedure (required when conformant - true); missing schema field verification for type procedure (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/a-behavioural-experiment-tests-a-feared-prediction-under-safe-conditions-instead-of-arguing-with-it
 prodos.kind: atomic

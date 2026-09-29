@@ -3,7 +3,7 @@ contains_device_identifiers: true
 created: 2026-09-22T11:41:00+01:00
 manufacturer: Acer
 model: Chromebook Spin 714 CP714-2WN-36LD
-modified: 2026-09-26T08:45:46+00:00
+modified: 2026-09-29T10:37:28+00:00
 permalink: llmeon/30-library/200-projects/acer-chromebook-spin-714-cp714-2wn-36ld
 status: stable
 tags: [acer, chromebook, chromeos, convertible, equipment, laptop]

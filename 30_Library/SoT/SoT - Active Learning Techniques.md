@@ -2,7 +2,7 @@
 aliases: [Retrieval Practice, The Peter Method]
 conformant: true
 created: 2025-12-23T22:35:33+00:00
-modified: 2026-09-26T08:46:12+00:00
+modified: 2026-09-29T10:38:07+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-active-learning-techniques
 tags: [active_learning, feynman, learning, protocol, TheHuman/Cognition]

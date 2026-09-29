@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-11T17:38:30+00:00
 last_reviewed: ''
-modified: 2026-09-28T20:10:09+00:00
+modified: 2026-09-29T10:37:59+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-core-problem-confusing-preparation-with-action
 tags: []
 title: The Core Problem Confusing Preparation with Action

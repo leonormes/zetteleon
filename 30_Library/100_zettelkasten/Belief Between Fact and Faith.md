@@ -7,7 +7,7 @@ definition: In the framing Nir Eyal uses, a belief is a firmly held but provisio
   or not anyone believes it) and faith (a deep conviction that needs no objective
   evidence).
 distinguishes_from: ["[[The Traditional Definition of Knowledge is Justified True Belief]]"]
-modified: 2026-09-28T20:10:11+00:00
+modified: 2026-09-29T10:38:01+00:00
 permalink: llmeon/00-inbox/belief-between-fact-and-faith
 source_title: Beyond Belief - Beliefs as Practical Tools (LLM summary of Nir Eyal)
 source_url: calibre://view-book/GCcalibreBooks/1686/EPUB

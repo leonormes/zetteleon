@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-11-10T10:02:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-28T20:10:05+00:00
+modified: 2026-09-29T10:37:55+00:00
 permalink: llmeon/30-library/100-zettelkasten/open-communication-in-a-partnership-requires-active-listening-and-collaborative-problem-solving
 proposition: A fair expectation in a relationship is that both partners are willing to engage in open and honest communication, which includes active listening, sharing feelings openly, and approaching problems as a team.
 tags: [communication, conflict-resolution, relationship]

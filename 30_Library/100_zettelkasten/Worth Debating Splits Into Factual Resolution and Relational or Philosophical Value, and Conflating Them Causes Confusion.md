@@ -2,7 +2,7 @@
 conformant: false
 created: 2026-09-14T15:09:42+00:00
 created_utc: '2026-09-14T00:00:00Z'
-modified: 2026-09-28T20:10:11+00:00
+modified: 2026-09-29T10:38:01+00:00
 non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/worth-debating-splits-into-factual-resolution-and-relational-or-philosophical-value-and-conflating-them-causes-confusion
 prodos.kind: atomic

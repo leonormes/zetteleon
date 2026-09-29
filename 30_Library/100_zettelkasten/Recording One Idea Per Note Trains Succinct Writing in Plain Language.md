@@ -5,7 +5,7 @@ created: 2026-09-26T10:30:00+00:00
 created_utc: '2026-09-26T10:30:00Z'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-28T20:10:07+00:00
+modified: 2026-09-29T10:37:57+00:00
 permalink: llmeon/30-library/100-zettelkasten/recording-one-idea-per-note-trains-succinct-writing-in-plain-language
 proposition: The habit of recording one idea per note trains a writer to express ideas
   succinctly and in plain language.

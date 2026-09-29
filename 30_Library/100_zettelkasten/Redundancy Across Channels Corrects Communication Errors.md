@@ -5,7 +5,7 @@ created: 2026-09-21T08:54:40+00:00
 created_utc: '2026-09-21T08:54:40+00:00'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-28T20:10:07+00:00
+modified: 2026-09-29T10:37:57+00:00
 non_conformance_reason: ''
 permalink: llmeon/00-inbox/redundancy-across-channels-corrects-communication-errors
 proposition: Communication carries meaning through several channels at once, so a

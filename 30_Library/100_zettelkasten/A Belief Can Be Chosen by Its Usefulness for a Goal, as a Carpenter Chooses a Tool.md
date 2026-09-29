@@ -5,7 +5,7 @@ created: 2026-09-28T00:00:00+00:00
 created_utc: '2026-09-28T00:00:00+00:00'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-28T20:10:11+00:00
+modified: 2026-09-29T10:38:01+00:00
 permalink: llmeon/00-inbox/a-belief-can-be-chosen-by-its-usefulness-for-a-goal-as-a-carpenter-chooses-a-tool
 proposition: Instead of asking whether a belief is objectively true, ask whether it
   serves the goal in hand, as a carpenter picks a hammer or a saw for the job.

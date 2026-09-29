@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-08-02T23:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-28T20:09:59+00:00
+modified: 2026-09-29T10:37:49+00:00
 permalink: llmeon/30-library/100-zettelkasten/comprehension-requires-passing-through-a-period-of-disorientation
 proposition: Genuine learning proceeds through cognitive disorientation and sustained uncertainty; the confusion is the mechanism by which existing schemas are restructured, not a symptom of failing to learn.
 tags: [learning, mental_models, TheHuman/Cognition, topic/education]

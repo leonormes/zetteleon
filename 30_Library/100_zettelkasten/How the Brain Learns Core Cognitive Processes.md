@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-05-26T20:25:56+00:00
 last_reviewed: ''
-modified: 2026-09-28T20:10:02+00:00
+modified: 2026-09-29T10:37:52+00:00
 permalink: llmeon/30-library/100-zettelkasten/how-the-brain-learns-core-cognitive-processes
 tags: []
 title: How the Brain Learns Core Cognitive Processes

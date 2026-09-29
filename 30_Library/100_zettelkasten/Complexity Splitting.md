@@ -5,7 +5,7 @@ created_utc: '2026-09-26T12:00:00Z'
 definition: Complexity splitting is dividing a note that appears to hold one idea
   but hides two or more into separate single-idea notes.
 distinguishes_from: []
-modified: 2026-09-28T20:10:32+00:00
+modified: 2026-09-29T10:37:49+00:00
 permalink: llmeon/30-library/100-zettelkasten/complexity-splitting
 source_title: A System for Writing - Bob Doto
 source_url: calibre://view-book/GCcalibreBooks/1491/EPUB

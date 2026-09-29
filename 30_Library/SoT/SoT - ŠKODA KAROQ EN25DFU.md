@@ -16,7 +16,7 @@ finance_type: Personal Contract Purchase (PCP)
 fixed_interest_rate: 6.35% p.a.
 last_updated: 2026-09-22
 make_model: ŠKODA KAROQ 1.5 TSI SE Edition
-modified: 2026-09-26T08:46:21+00:00
+modified: 2026-09-29T10:38:15+00:00
 monthly_payment_gbp: 399.93
 owner: Leon Ormes
 permalink: llmeon/30-library/so-t/so-t-skoda-karoq-en25-dfu

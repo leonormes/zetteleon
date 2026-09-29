@@ -3,7 +3,7 @@ conformant: true
 created: 2025-10-25T14:24:00+00:00
 definition: Strategies for managing and channeling the ADHD drive for novelty into productive outcomes.
 distinguishes_from: []
-modified: 2026-09-28T20:10:04+00:00
+modified: 2026-09-29T10:37:54+00:00
 non_conformance_reason: 
 permalink: llmeon/30-library/100-zettelkasten/managing-novelty-seeking-in-adhd
 tags: [self-management, TheHuman/Health/ADHD, topic/productivity]

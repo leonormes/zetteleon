@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-09-05T06:22:44+00:00
 last_reviewed: ''
-modified: 2026-09-28T20:09:59+00:00
+modified: 2026-09-29T10:37:49+00:00
 permalink: llmeon/30-library/100-zettelkasten/collective-intelligence-through-communication
 tags: [collective-intelligence, communication, culture, knowledge-transmission]
 title: Collective Intelligence Through Communication

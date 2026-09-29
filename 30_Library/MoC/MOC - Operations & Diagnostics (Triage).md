@@ -1,7 +1,7 @@
 ---
 aliases: [Ops Triage, Protocol Triage]
 created: 2026-04-08T00:00:00+00:00
-modified: 2026-09-26T08:46:08+00:00
+modified: 2026-09-29T10:38:04+00:00
 permalink: llmeon/30-library/mo-c/moc-operations-diagnostics-triage
 tags: [devops, moc, operations, protocols, triage]
 title: MOC - Operations & Diagnostics (Triage)

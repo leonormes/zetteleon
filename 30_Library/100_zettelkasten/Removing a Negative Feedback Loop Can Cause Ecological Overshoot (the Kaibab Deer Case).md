@@ -4,7 +4,7 @@ contradicts: []
 created: 2026-09-14T00:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-28T20:10:07+00:00
+modified: 2026-09-29T10:37:57+00:00
 non_conformance_reason: 
 permalink: llmeon/30-library/100-zettelkasten/removing-a-negative-feedback-loop-can-cause-ecological-overshoot-the-kaibab-deer-case
 prodos.kind: atomic

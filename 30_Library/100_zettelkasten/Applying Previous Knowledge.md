@@ -6,7 +6,7 @@ contradicts: []
 created: 2025-02-07T12:57:54+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-28T20:09:57+00:00
+modified: 2026-09-29T10:37:47+00:00
 permalink: llmeon/30-library/100-zettelkasten/applying-previous-knowledge
 prodos.kind: atomic
 prodos.lifecycle: stable

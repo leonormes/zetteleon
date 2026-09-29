@@ -3,7 +3,7 @@ aliases: [Deep Packet Inspection Firewall, NGFW]
 conformant: false
 created: 2025-12-24T12:00:00+00:00
 epistemic_status: high
-modified: 2026-09-28T20:10:05+00:00
+modified: 2026-09-29T10:37:55+00:00
 non_conformance_reason: "missing required field - type"
 permalink: llmeon/30-library/100-zettelkasten/next-generation-firewalls-ngfw-provide-application-aware-security
 prodos.kind: claim

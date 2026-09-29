@@ -6,7 +6,7 @@ contradicts: []
 created: 2025-10-30T12:01:04+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-28T20:09:56+00:00
+modified: 2026-09-29T10:37:46+00:00
 permalink: llmeon/30-library/100-zettelkasten/a-supportive-environment-is-critical-for-inspiration
 prodos.kind: atomic
 prodos.lifecycle: stable

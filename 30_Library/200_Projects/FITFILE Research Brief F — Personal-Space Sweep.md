@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2026-09-28T01:00:00+00:00
-modified: 2026-09-29T07:56:50+00:00
+modified: 2026-09-29T10:37:42+00:00
 non_conformance_reason: Raw agent research brief kept as source material for the FITFILE
   context brief; awaiting review, not a canonical source note.
 permalink: llmeon/00-inbox/fitfile-research-briefs/fitfile-research-brief-f-personal-space-sweep

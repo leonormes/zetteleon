@@ -2,7 +2,7 @@
 conformant: false
 created: 2026-09-21T15:44:58+00:00
 created_utc: '2026-09-21T16:36:00Z'
-modified: 2026-09-28T20:10:09+00:00
+modified: 2026-09-29T10:37:59+00:00
 non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true)"
 permalink: llmeon/00-inbox/the-draw-force-line-dfl
 source_title: Recurve Archery Self-Coaching Resources

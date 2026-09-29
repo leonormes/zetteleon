@@ -2,7 +2,7 @@
 aliases: [Bessie Map, Bessie MOC, MOC Bessie]
 conformant: true
 created: 2026-07-22T09:00:00+00:00
-modified: 2026-09-26T08:46:06+00:00
+modified: 2026-09-29T10:38:02+00:00
 permalink: llmeon/30-library/mo-c/moc-bessie
 tags: [bessie, education, family, index]
 title: MOC - Bessie

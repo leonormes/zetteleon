@@ -5,7 +5,7 @@ created: 2026-09-25T16:22:40+00:00
 created_utc: '2026-09-25T17:30:00Z'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-28T20:10:01+00:00
+modified: 2026-09-29T10:37:51+00:00
 permalink: llmeon/30-library/100-zettelkasten/enlightenment-thinkers-built-humanism-as-a-secular-moral-foundation-after-religious-carnage
 proposition: Enlightenment thinkers built humanism as a secular foundation for morality
   because they were haunted by the historical memory of centuries of religious carnage.

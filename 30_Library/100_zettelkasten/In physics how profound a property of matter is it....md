@@ -2,7 +2,7 @@
 aliases: ["Why Do Objects Interact"]
 conformant: false
 created: 2026-05-02T20:38:21+00:00
-modified: 2026-09-28T20:10:03+00:00
+modified: 2026-09-29T10:37:53+00:00
 non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/in-physics-how-profound-a-property-of-matter-is-it...
 prodos.kind: concept

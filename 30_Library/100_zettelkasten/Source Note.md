@@ -5,7 +5,7 @@ created_utc: '2026-09-26T10:30:00Z'
 definition: A Source Note summarises and paraphrases the passage that caught your
   attention, beginning the move from the words of the source to your own.
 distinguishes_from: ["[[Point Note]]"]
-modified: 2026-09-28T20:10:08+00:00
+modified: 2026-09-29T10:37:58+00:00
 permalink: llmeon/30-library/100-zettelkasten/source-note
 source_title: How to Make Notes and Write - Dan Allosso
 source_url: calibre://view-book/GCcalibreBooks/708/EPUB

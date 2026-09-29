@@ -5,7 +5,7 @@ created: 2026-09-18T00:00:00+00:00
 created_utc: 2026-09-18 00:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-28T20:09:59+00:00
+modified: 2026-09-29T10:37:49+00:00
 permalink: llmeon/30-library/100-zettelkasten/cloud-providers-achieve-elasticity-through-resource-pooling-and-multi-tenancy
 prodos.atomic.form: mechanism
 prodos.kind: atomic

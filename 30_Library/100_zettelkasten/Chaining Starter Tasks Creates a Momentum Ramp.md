@@ -2,7 +2,7 @@
 aliases: [Momentum Ramp, Task Chaining]
 created: 2025-12-16T14:45:00+00:00
 last_reviewed: '2025-12-16'
-modified: 2026-09-28T20:09:59+00:00
+modified: 2026-09-29T10:37:49+00:00
 permalink: llmeon/30-library/100-zettelkasten/chaining-starter-tasks-creates-a-momentum-ramp
 status: draft
 tags: [experiment, hypothesis, momentum, task-initiation, TheHuman/Health/ADHD, topic/productivity]

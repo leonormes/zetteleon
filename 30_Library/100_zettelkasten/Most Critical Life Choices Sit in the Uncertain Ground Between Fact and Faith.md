@@ -5,7 +5,7 @@ created: 2026-09-28T00:00:00+00:00
 created_utc: '2026-09-28T00:00:00+00:00'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-28T20:10:11+00:00
+modified: 2026-09-29T10:38:01+00:00
 permalink: llmeon/00-inbox/most-critical-life-choices-sit-in-the-uncertain-ground-between-fact-and-faith
 proposition: Career, relationship, entrepreneurial and health decisions fall in the
   uncertain middle ground between fact and faith, where neither certainty nor pure

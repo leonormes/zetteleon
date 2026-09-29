@@ -4,7 +4,7 @@ contradicts: []
 created: 2026-07-25T11:17:00+00:00
 epistemic_status: medium
 evidence_links: ["[[SoT - Dunning-Kruger Effect]]", "[[SoT - Illusion of Explanatory Depth (IoED)]]"]
-modified: 2026-09-28T20:09:56+00:00
+modified: 2026-09-29T10:37:46+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/2026-07-25-ioed-vs-dunning-kruger-distinction
 proposition: The Illusion of Explanatory Depth and the Dunning-Kruger Effect are distinct biases, separated by what drives them, what they miscalibrate, and what corrects them.

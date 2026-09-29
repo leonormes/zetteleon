@@ -5,7 +5,7 @@ created: 2026-09-14T15:24:33+00:00
 created_utc: '2026-09-14T00:00:00Z'
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-28T20:10:04+00:00
+modified: 2026-09-29T10:37:53+00:00
 permalink: llmeon/30-library/100-zettelkasten/kants-synthetic-a-priori-challenges-humes-fork-by-claiming-a-third-knowledge-category
 prodos.kind: atomic
 prodos.lifecycle: seed

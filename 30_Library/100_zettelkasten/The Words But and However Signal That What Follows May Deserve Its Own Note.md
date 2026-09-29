@@ -5,7 +5,7 @@ created: 2026-09-26T10:30:00+00:00
 created_utc: '2026-09-26T10:30:00Z'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-28T20:10:10+00:00
+modified: 2026-09-29T10:38:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-words-but-and-however-signal-that-what-follows-may-deserve-its-own-note
 proposition: When the words but or however appear while writing a note, what follows
   is usually a second idea that should be its own note.

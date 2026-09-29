@@ -3,7 +3,7 @@ aliases: []
 conformant: false
 created: 2025-05-16T05:39:58+00:00
 epistemic_status: high
-modified: 2026-09-28T20:10:03+00:00
+modified: 2026-09-29T10:37:53+00:00
 non_conformance_reason: "missing required field - type"
 permalink: llmeon/30-library/100-zettelkasten/i-am-enslaved-to-the-work-of-zetteling
 prodos.kind: atomic

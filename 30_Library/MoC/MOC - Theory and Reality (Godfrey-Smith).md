@@ -3,7 +3,7 @@ aliases: [Philosophy of Science MOC, Theory and Reality MOC]
 conformant: true
 created: 2026-09-22T08:17:25+00:00
 entry_points: ["[[Reading Plan — Theory and Reality (Godfrey-Smith)]]"]
-modified: 2026-09-26T08:46:09+00:00
+modified: 2026-09-29T10:38:05+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/mo-c/moc-theory-and-reality-godfrey-smith
 tags: [epistemology, philosophy-of-science, prodos/moc, reading]

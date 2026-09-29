@@ -2,7 +2,7 @@
 aliases: [Archery Diagnostics, Archery Faults]
 conformant: false
 created: 2026-08-30T17:23:00+01:00
-modified: 2026-09-28T20:09:58+00:00
+modified: 2026-09-29T10:37:48+00:00
 non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-faults-and-diagnostics
 tags: [archery, diagnostics, prodos/atomic, technique]

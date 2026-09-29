@@ -2,7 +2,7 @@
 conformant: true
 created: 2026-09-23T14:49:38+00:00
 created_utc: '2026-09-23T00:00:00Z'
-modified: 2026-09-28T20:09:57+00:00
+modified: 2026-09-29T10:37:47+00:00
 permalink: llmeon/00-inbox/an-oci-push-pattern-for-cue-modules-is-already-proven-on-this-platform
 source_title: Multi-customer Deployment Review, and an Assessment of CUE
 source_url: N/A — internal engineering assessment

@@ -3,7 +3,7 @@ aliases: []
 conformant: false
 created: 2025-05-28T18:46:40+00:00
 last_reviewed: ''
-modified: 2026-09-28T20:10:06+00:00
+modified: 2026-09-29T10:37:56+00:00
 non_conformance_reason: "missing schema field trigger for type procedure (required when conformant - true); missing schema field steps for type procedure (required when conformant - true); missing schema field verification for type procedure (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/putting-it-all-together-example-workflow
 tags: [example, execution, motivation, prodos, task-management]

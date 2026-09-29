@@ -4,7 +4,7 @@ contradicts: []
 created: 2026-04-10T13:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-28T20:09:59+00:00
+modified: 2026-09-29T10:37:49+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/cards-atrocity-paradigm-identifies-evil-via-three-necessary-co-conditions
 proposition: The Atrocity Paradigm of Claudia Card identifies evil as harm that is culpable, reasonably foreseeable and intolerable, all three being jointly necessary.

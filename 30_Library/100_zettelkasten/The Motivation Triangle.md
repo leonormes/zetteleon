@@ -6,7 +6,7 @@ definition: Motivation is a triangle of three interconnected sides, namely behav
   (what you do), benefit (the outcome you want) and belief (the conviction that your
   actions will produce that outcome), with belief as its foundation.
 distinguishes_from: []
-modified: 2026-09-28T20:10:11+00:00
+modified: 2026-09-29T10:38:02+00:00
 permalink: llmeon/00-inbox/the-motivation-triangle
 source_title: Beyond Belief - Beliefs as Practical Tools (LLM summary of Nir Eyal)
 source_url: calibre://view-book/GCcalibreBooks/1686/EPUB

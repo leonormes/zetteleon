@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-05-17T16:31:44+00:00
 last_reviewed: 'null'
-modified: 2026-09-28T20:10:04+00:00
+modified: 2026-09-29T10:37:54+00:00
 permalink: llmeon/30-library/100-zettelkasten/layer-7-application-layer
 tags: [SoftwareEngineering/Networking]
 title: Layer 7 Application Layer

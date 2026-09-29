@@ -8,7 +8,7 @@ definition: A relationship is a connection or association between two or more pi
   contextual (defined by the setting of the data) or temporal (a trend or sequence
   over time).
 distinguishes_from: ["[[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]]"]
-modified: 2026-09-28T20:10:07+00:00
+modified: 2026-09-29T10:37:57+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/relationships-between-pieces-of-knowledge-can-be-logical-hierarchical-associative-contextual-or-temporal
 prodos.atomic.form: distinction

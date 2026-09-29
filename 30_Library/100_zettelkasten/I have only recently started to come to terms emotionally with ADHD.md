@@ -3,7 +3,7 @@ aliases: []
 conformant: true
 created: 2025-05-18T09:46:26+00:00
 last_reviewed: ''
-modified: 2026-09-28T20:10:03+00:00
+modified: 2026-09-29T10:37:53+00:00
 permalink: llmeon/30-library/100-zettelkasten/i-have-only-recently-started-to-come-to-terms-emotionally-with-adhd
 status: seed
 tags: [TheHuman/Health/ADHD]

@@ -4,7 +4,7 @@ contradicts: []
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-28T20:10:07+00:00
+modified: 2026-09-29T10:37:58+00:00
 permalink: llmeon/30-library/100-zettelkasten/sequential-processing-with-working-memory-folding-operator
 proposition: The Folding operator processes batches of documents sequentially, carrying 'a "scratchpad" of working memory forward between iterations. This enables the LLM' to build cumulative understanding and refer back to prior documents, improving consistency and accuracy across a corpus.
 tags: [domain/llm, topic/data-processing, topic/memory, topic/pipelines, topic/sequential-processing]

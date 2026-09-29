@@ -2,7 +2,7 @@
 aliases: [Specific Plans, When-Where Planning]
 conformant: false
 created: 2025-11-01T20:22:24+00:00
-modified: 2026-09-28T20:10:03+00:00
+modified: 2026-09-29T10:37:53+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/implementation-intentions-turn-vague-plans-into-concrete-actions
 tags: [planning, strategy, TheHuman/Habits, topic/productivity]

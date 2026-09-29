@@ -2,7 +2,7 @@
 aliases: [Computer Architecture, CPU I/O, Hardware Communication]
 conformant: true
 created: 2025-12-13T00:00:00+00:00
-modified: 2026-09-26T08:46:23+00:00
+modified: 2026-09-29T10:38:16+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-the-functional-anatomy-of-a-computer
 tags: [computer-science, cpu, hardware, SoftwareEngineering/Architecture]

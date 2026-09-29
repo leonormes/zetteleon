@@ -2,7 +2,7 @@
 aliases: [Information Deficit Model]
 conformant: false
 created: 2025-11-10T17:03:00+00:00
-modified: 2026-09-28T20:10:09+00:00
+modified: 2026-09-29T10:37:59+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/the-information-deficit-model-is-a-fallacy
 tags: [behavior-change, fallacy, TheHuman/Psychology]

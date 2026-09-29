@@ -2,7 +2,7 @@
 aliases: [Reward Yourself for Sticking to Routines]
 created: 2025-10-29T16:10:00+00:00
 last_reviewed: '2025-12-16'
-modified: 2026-09-28T20:09:59+00:00
+modified: 2026-09-29T10:37:49+00:00
 permalink: llmeon/30-library/100-zettelkasten/celebrate-small-successes-to-build-routine-momentum
 status: stable
 tags: [positive-reinforcement, routine, TheHuman/Habits, TheHuman/Motivation]

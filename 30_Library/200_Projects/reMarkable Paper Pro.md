@@ -2,7 +2,7 @@
 created: 2026-09-21T09:27:41+00:00
 manufacturer: reMarkable
 model: Paper Pro
-modified: 2026-09-26T08:46:03+00:00
+modified: 2026-09-29T10:37:42+00:00
 permalink: llmeon/30-library/200-projects/re-markable-paper-pro
 status: stable
 tags: [eink, equipment, notes, remarkable, tablet]

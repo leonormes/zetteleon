@@ -3,7 +3,7 @@ aliases: [Bottom-Up Productivity]
 conformant: false
 created: 2025-11-10T15:22:00+00:00
 epistemic_status: high
-modified: 2026-09-28T20:10:01+00:00
+modified: 2026-09-29T10:37:51+00:00
 non_conformance_reason: "missing required field - type"
 permalink: llmeon/30-library/100-zettelkasten/effective-productivity-comes-from-the-bottom-up
 prodos.kind: atomic

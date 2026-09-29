@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-11-01T12:30:09+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-28T20:09:59+00:00
+modified: 2026-09-29T10:37:49+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/compare-oneself-to-yesterdays-self-not-others
 proposition: Comparing your current self with your own previous baseline sustains motivation better than comparing yourself with prodigies or other people.

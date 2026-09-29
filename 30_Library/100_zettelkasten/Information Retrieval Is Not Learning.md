@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-08-02T23:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-28T20:10:03+00:00
+modified: 2026-09-29T10:37:53+00:00
 permalink: llmeon/30-library/100-zettelkasten/information-retrieval-is-not-learning
 proposition: Locating a fact produces availability, not understanding; schema construction requires the cognitive strain that retrieval bypasses, so fluent access to information can substitute for and conceal the absence of comprehension.
 tags: [learning, mental_models, TheHuman/Cognition, topic/education]

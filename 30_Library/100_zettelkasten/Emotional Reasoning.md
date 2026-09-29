@@ -3,7 +3,7 @@ aliases: []
 created: 2025-06-18T17:28:14+00:00
 ID: emotional_reasoning
 last_reviewed: ''
-modified: 2026-09-28T20:10:01+00:00
+modified: 2026-09-29T10:37:51+00:00
 permalink: llmeon/30-library/100-zettelkasten/emotional-reasoning
 tags: [emotion]
 title: Emotional Reasoning

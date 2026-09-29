@@ -1,7 +1,7 @@
 ---
 conformant: true
 created: 2025-12-26T12:30:00+00:00
-modified: 2026-09-26T08:46:20+00:00
+modified: 2026-09-29T10:38:13+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-process-execution-kernel-logic
 tags: [kernel, operating-systems, programming, SoftwareEngineering/Linux]

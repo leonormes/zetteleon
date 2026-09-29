@@ -2,7 +2,7 @@
 aliases: ["Linus's Law", Data Dominates Code, Data-Centric Software Engineering, Data-Oriented Programming, DOP, The Axiom of Data, The Data-Centric Philosophy]
 conformant: true
 created: 2025-12-22T00:00:00+00:00
-modified: 2026-09-26T08:46:22+00:00
+modified: 2026-09-29T10:38:16+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-the-data-centric-philosophy
 source_of_truth: true

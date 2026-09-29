@@ -2,7 +2,7 @@
 aliases: []
 conformant: true
 created: 2026-09-25T00:00:00+00:00
-modified: 2026-09-28T20:10:01+00:00
+modified: 2026-09-29T10:37:51+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/evidence-sloman-and-fernbach-say-we-mistake-knowledge-in-the-community-for-knowledge-in-our-heads
 source_quote: We think the knowledge we have about how things work sits inside our

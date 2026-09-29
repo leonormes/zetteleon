@@ -5,7 +5,7 @@ created: 2026-09-28T00:00:00+00:00
 created_utc: '2026-09-28T00:00:00+00:00'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-28T20:10:11+00:00
+modified: 2026-09-29T10:38:02+00:00
 permalink: llmeon/00-inbox/without-belief-that-action-yields-results-the-link-between-behaviour-and-benefit-collapses
 proposition: When the conviction that actions will produce results is missing, the
   connection between behaviour and benefit collapses and people quit short of their

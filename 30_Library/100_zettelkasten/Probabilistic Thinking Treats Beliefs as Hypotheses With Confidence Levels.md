@@ -6,7 +6,7 @@ created: 2025-11-01T09:51:13+00:00
 epistemic_status: high
 evidence_links: []
 merged_from: '[[Probabilistic Thinking is a Tool for Navigating Uncertainty]]'
-modified: 2026-09-28T20:10:06+00:00
+modified: 2026-09-29T10:37:56+00:00
 permalink: llmeon/30-library/100-zettelkasten/probabilistic-thinking-treats-beliefs-as-hypotheses-with-confidence-levels
 prodos.kind: atomic
 prodos.lifecycle: stable

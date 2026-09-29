@@ -2,7 +2,7 @@
 aliases: []
 conformant: true
 created: 2026-09-25T00:00:00+00:00
-modified: 2026-09-28T20:10:01+00:00
+modified: 2026-09-29T10:37:51+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/evidence-kahneman-says-confidence-tracks-the-quality-of-the-story-not-the-amount-of-evidence
 source_quote: The confidence that individuals have in their beliefs depends mostly

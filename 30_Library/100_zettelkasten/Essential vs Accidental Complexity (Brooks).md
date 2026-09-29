@@ -4,7 +4,7 @@ created: 2026-09-19T15:24:13+00:00
 created_utc: 2026-09-19 00:00:00+00:00
 definition: Software difficulty splits into essential complexity (inherent to the problem domain itself) and accidental complexity (self-inflicted by the tools, languages, and implementation choices used to solve it).
 distinguishes_from: []
-modified: 2026-09-28T20:10:01+00:00
+modified: 2026-09-29T10:37:51+00:00
 non_conformance_reason: ''
 permalink: llmeon/00-inbox/essential-vs-accidental-complexity-brooks
 source_title: "The Conservation of Software Complexity: The Dichotomy of Data Structures and Control Flow (plus epistemic review/fact-check)"

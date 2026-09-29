@@ -2,7 +2,7 @@
 aliases: [Concept-Based Organization, Cross-Domain Linking]
 created: 2025-10-30T15:31:09+00:00
 last_reviewed: '2025-10-30T00:00:00.000Z'
-modified: 2026-09-28T20:09:59+00:00
+modified: 2026-09-29T10:37:49+00:00
 permalink: llmeon/30-library/100-zettelkasten/concept-orientation-enables-cross-domain-discovery
 status: seed
 tags: [connection-making, organization, topic/pkm, topic/pkm/zettelkasten]

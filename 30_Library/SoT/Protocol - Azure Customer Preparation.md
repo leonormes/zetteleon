@@ -1,7 +1,7 @@
 ---
 conformant: true
 created: 2025-02-07T12:57:56+00:00
-modified: 2026-09-26T08:46:10+00:00
+modified: 2026-09-29T10:38:05+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/protocol-azure-customer-preparation
 Reviewed: false

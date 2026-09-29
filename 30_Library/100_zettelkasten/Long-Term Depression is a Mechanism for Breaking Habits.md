@@ -6,7 +6,7 @@ contradicts: []
 created: 2025-10-30T12:05:07+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-28T20:10:04+00:00
+modified: 2026-09-29T10:37:54+00:00
 permalink: llmeon/30-library/100-zettelkasten/long-term-depression-is-a-mechanism-for-breaking-habits
 prodos.kind: atomic
 prodos.lifecycle: stable

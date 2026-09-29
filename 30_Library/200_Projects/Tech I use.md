@@ -1,6 +1,6 @@
 ---
 created: 2026-09-21T09:00:03+00:00
-modified: 2026-09-26T08:46:00+00:00
+modified: 2026-09-29T10:37:39+00:00
 permalink: llmeon/30-library/200-projects/tech-i-use
 title: Tech I use
 type: note

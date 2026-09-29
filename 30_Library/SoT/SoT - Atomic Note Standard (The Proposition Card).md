@@ -2,7 +2,7 @@
 aliases: [Atomic Note Standard, Note Shape Standard, Proposition Card, Zettel Standard]
 conformant: true
 created: 2026-09-26T00:00:00+00:00
-modified: 2026-09-26T08:46:25+00:00
+modified: 2026-09-29T10:38:07+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-atomic-note-standard-the-proposition-card
 see_also: ["[[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]", "[[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]]", "[[The Atomicity Principle - One Idea Per Note]]"]
