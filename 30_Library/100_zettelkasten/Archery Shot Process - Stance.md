@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T00:00:00+00:00
-modified: 2026-09-29T10:37:48+00:00
+modified: 2026-10-03T13:21:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-stance
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Stance
@@ -31,6 +31,7 @@ Stance sets a stable base for maximal stability. The angle and positioning of th
 
 ### Why It Works
 
+- The Wedge Open Stance: Rotating the lower body open relative to the target line allows the torso to rotate back around the front bow shoulder. This effectively reduces the angle between the bow arm and the shoulder line (Angle B in the Wedge biomechanical model) to 0 degrees, eliminating adverse lateral loading and taking the bow load purely as compressive skeletal force through the shoulder girdle.
 - Open Stance: It encourages better rotation through the torso, allowing you to recruit your back muscles and core abdominals far more effectively for proper back tension.
 - Back Foot Position: Never externally rotate your back foot past parallel away from the target, as this forces an unwanted arch into your lower back.
 - Weight Distribution: Leaning back towards the rear foot (referred to as "teapotting") disrupts posture and causes body recoil upon release. A 60/40 athletic stance automatically engages the core/legs, keeps you grounded, and allows you to adjust to wind or uneven surfaces.

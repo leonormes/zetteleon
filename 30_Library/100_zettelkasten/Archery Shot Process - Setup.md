@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-09-29T10:37:48+00:00
+modified: 2026-10-04T19:56:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-setup
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Setup
@@ -23,18 +23,20 @@ Setup involves setting the hands onto the bow, including hooking onto the string
    - Posture & Connection: Maintain upright posture to engage the core and keep shoulders low. Use this position to establish and feel the synchronized connection between your bow hand, draw hand, wrists, elbows, and back.
 4. Order of Execution: Always hook the string first, then place the hand into the bow grip.
 5. The Hook (Draw Hand):
-   - Position the string directly in the first groove of your index finger, in or slightly behind the groove on your middle finger, and on the pad (slightly in front of the groove) of your ring finger.
-   - For recurve: place one finger above the arrow and two below (split finger).
-   - Keep fingers parallel on the string.
-   - Relax your wrist so the bowstring stretches your hand flat as you draw.
-   - Keep the pinky relaxed and neutral. The thumb should rest just below the shelf.
+   - Hook Sequencing: Start setting the hook by placing the string directly in the first groove/joint of the middle finger as an anchor reference, then wrap the index and ring fingers around to complete the hand structure.
+   - Rolling In (Nerve Protection): Do not hook the string deep into the knuckle groove, as this pinches nerves and causes numbness. Start with the string towards the fingertips and roll the fingers inward to gather a meaty pad between the string and joint.
+   - Finger Placement & Pressure: Position the string towards the fingertip side of the index finger's first joint, across the middle finger's joint, and towards the middle pad of the ring finger. Keep fingers parallel.
+   - Pressure Ratio: Apply 80-90% of the pressure on the index finger and 10-20% on the middle finger, barely resting the ring finger. Curling the top finger engages back tension, while curling the bottom finger engages the bicep. Angle the index and middle fingers slightly upward relative to the string to maintain index pressure.
+   - Squeezing the Spacer: Squeeze the finger spacer first, then curl the fingers to lock the hand structure and prevent pinching the arrow nock.
+   - Wrist & Thumb Structure: Bend the drawing wrist cocked slightly outward, stretching the thumb and index finger apart. Stretch the thumb downward (essential for anchoring) and curl the pinky finger up and in behind the thumb.
+   - Angular Setup Alignment & Elbow Pre-Alignment: To set up an angular draw, open the bow relative to the target line (pointing the arrow slightly left for a right-handed archer by moving the draw hand right). This creates a direct, unkinked line of force from the grip pressure point, through the string hook and wrist, directly to the drawing elbow before lifting, without prematurely twisting the torso.
 6. The Grip (Bow Hand):
    - Placement vs. Pressure: When the bow is resting down, simply place the "V" of your hand into the throat of the grip as a pivot point. Do not fully set your grip pressure or angle your wrist yet (doing this too early creates a painful wrist angle and ruins the shoulder connection). Only apply the final pressure point once you actually begin to raise and open the bow.
-   - Place the 'Y' of your hand into the grip so the pressure point sits directly on the fleshy thumb pad (thenar eminence).
-   - The Concept of Kumi: Borrowed from Judo (and used in the KSL system), _Kumi_ describes locking the elbow down and transferring core power directly through this fleshy thumb pad into the bow grip. Direct your pressure perfectly down the center line of the lower grip to prevent torquing the bow upon release. Apply pressure directly behind the wrist joint as if you were pushing with a "stump" or doing a push-up.
-   - Active Thumb Direction: Point the thumb straight along the side of the riser, actively directing toward the target. If the thumb just hangs down the side, the bow hand will roll off the edge, destabilizing the entire bow arm.
-   - Approach the grip with a "stop" motion (providing a flat platform for the bow) and slightly retract your knuckles to a 45-degree angle.
-   - Keep fingers completely relaxed ("jelly fingers", holding the bow as gently as a "sick sparrow"). Curl the bottom three fingers in to touch your palm, and simply rest your index finger lightly on the front of the bow. Never wrap all four fingers across the front of the riser.
+   - Hand Shape: Form a "stop" sign with the bow hand, tilt the knuckles to a 45-degree angle to the ground, and place the 'Y' of your hand into the grip so the pressure point sits strictly on the fleshy thumb pad (thenar eminence). Ensure it does not cross the palm's lifeline.
+   - Low Pressure Point (Kumi): Push into the grip down low (pressure point) rather than high in the throat (pivot point). Direct your pressure perfectly down the center line of the lower grip to prevent torquing. Apply pressure directly behind the wrist joint as if you were pushing with a "stump" or doing a push-up, rather than relying on easily fatigued stabilizing muscles.
+   - Active Tension Balance: Actively push the thumb toward the target and pull the pinky back towards you to create a strong, torqued position. Pushing the bow hand pinky forward creates a weak connection.
+   - Squeeze the Grip Throat: Apply a very light squeeze (about a 2 out of 10 intensity) deep in the throat of the grip using the web between the thumb and index finger.
+   - Relaxed Fingers: Avoid squeezing the grip with your fingers. Lightly rest the index finger on the front of the riser and curl the remaining three fingers loosely against the palm. Never wrap all four fingers across the front of the riser.
    - Sling Sizing: Always use a finger sling or wrist sling. Ensure it is the correct length (roughly one inch of slack between the sling and riser when the hand is in position). If too long, the bow will wave wildly and you will instinctively grab it, ruining follow-through. If too short, the bow will stick in your hand and fail to roll forward to give you shot feedback.
 
 ### Why It Works
@@ -57,8 +59,11 @@ Setup involves setting the hands onto the bow, including hooking onto the string
 
 ### Faults & Diagnostics
 
+- Excessive Bow Hand Angle (Wedge Angle A): Allowing too large of an angle between the bow arm and the arrow creates an offset lateral load that pulls the bow arm forward. This requires unnecessary extra back tension to resist; squeeze this angle down until it is only as large as strictly required for proper string and arrow clearance.
+- Closed-Down Set: Pushing the bow out while keeping the draw hand tucked close against the chest causes the draw wrist to kink. Keep the hand and wrist straight and maintain proper distance between the bow hand and draw hand during the initial lift.
 - Applying excess finger pressure forces you to use extensor muscles to claw your hand open upon release, ruining release consistency.
-- Placing the string past the first knuckle makes a clean release impossible. Hooking on the very fingertips introduces massive isometric tension on sensitive skin pads and leads to sideways plucking.
+- Deep String Hooking: Placing the string deep into the knuckle groove or past the first knuckle makes a clean release impossible, pinches nerves, and can cause long-term numbness. Conversely, hooking on the very fingertips introduces massive isometric tension on sensitive skin pads and leads to sideways plucking.
+- Weak Grip Position: Pushing the bow hand pinky forward creates a weak connection with the bow. Actively pull the pinky back towards you and push the thumb towards the target to lock a strong, torqued position.
 - A slipping hook causes sudden loss of tension, encouraging the draw elbow to collapse forward.
 - Changing finger pressure distribution on the string impacts vertical height significantly.
 - The "Death Grip": Gripping the bow tightly introduces torque, twisting the bow upon release.
@@ -76,9 +81,9 @@ Setup involves setting the hands onto the bow, including hooking onto the string
 
 ### Prerequisites Before Technique (Physical Foundations)
 
-- Mobility: Structural flexibility and joint range of motion to get into position (e.g. broomstick/band dislocates).
-- Motor Control: Neuromuscular coordination to control and isolate specific muscle groups (e.g. Thera-band/cable rows).
-- Strength: Sufficient muscular strength to launch, hold, and control the load (e.g. full-depth chin-ups).
+- Mobility (Structural Range of Motion): Joint mobility to achieve setup and draw positions without compensation (e.g. broomstick dislocates touching pelvis without shoulders shrugging; neutral-grip dumbbell presses for deep pec flexibility).
+- Motor Control (Neuromuscular & Eccentric Stability): Ability to isolate, retract, and hold the scapula under load (e.g. cable/band rows with a 3-second peak hold and controlled eccentric release; preventing the shoulder popping forward on the return).
+- Strength (Holding & Control Capacity): Muscular capacity to sustain load safely without breakdown (e.g. full-depth dead-hang chin-ups to stretch the subscapularis and condition scapular retractors). See full screening protocol in [[Archery Practice Drills]].
 
 ### Training Drills
 
@@ -121,6 +126,7 @@ Setup involves setting the hands onto the bow, including hooking onto the string
 - Peter (in-person coaching, 2026-09-12)—lifeline rule clarification
 - 4 SIMPLE BOW HAND FORM FIXES (Online Archery Academy)
 - Total Archery - Inside the Archer (Kisik Lee & Tyler Benner)
+- Captured anchor cue summary (captured 2026-09-30; source not named): wrist cock at the hook
 
 See also: [[Archery Shot Process - Finger Tab Selection & Maintenance]] for tab sizing, base plate/spacer fit, and leather trimming that affect the hook and grip.
 

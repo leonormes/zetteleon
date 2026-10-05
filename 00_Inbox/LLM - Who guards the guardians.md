@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2026-09-28T08:29:35+00:00
-modified: 2026-09-28T19:39:55+00:00
+modified: 2026-09-29T19:22:32+00:00
 non_conformance_reason: raw LLM paste awaiting triage
 permalink: llmeon/00-inbox/llm-2026-09-28-0929
 source: LLM conversation 2026-09-28

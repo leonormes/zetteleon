@@ -3,6 +3,7 @@ created: 2026-08-24T16:19:56+00:00
 modified: 2026-09-16T07:54:55+00:00
 permalink: llmeon/10-system/templates/head-note-template-5
 title: HEAD - The Release Candidate Object
+AoL: Work
 ---
 
 ## The Release Candidate Object

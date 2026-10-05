@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T00:00:00+00:00
-modified: 2026-09-29T10:37:48+00:00
+modified: 2026-10-04T20:54:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-raise
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Raise
@@ -18,6 +18,7 @@ Raise is the act of lifting the bow to eye level while seating the bow-side shou
 2. Weight forward—shift a small amount of weight onto the front foot so the bow shoulder drops and elongates.
 3. Pre-tension the string—take up slight tension (approx. 1 inch).
 4. Lift & Breathe (Zen Breath)—raise both hands to eye level while inhaling deeply for four seconds to oxygenate blood and lower heart rate. Keep the chest down and lift the arms independently of the ribcage (never shrug the shoulders). The bow hand should travel perfectly vertically without sweeping in a wide arc.
+   - **Maintaining the Open Angle:** Maintain the open angle of the bow established at setup throughout the lift; do not close the angle or prematurely rotate the bow to face the target while raising.
 5. Rotate the bow arm & Triceps Engine—internally rotate during the raise (elbow turned outward/vertical), before full draw weight loads onto the bow. The triceps should act as the primary engine of the bow arm to maintain this vertical elbow rotation (bony protrusions of radius/ulna pointing down), which locks the arm structurally, connects power to the body, and prevents string slap.
 6. Reach—at the top of the raise, extend the base of the bow wrist/hand as far as possible directly toward the target. Focus on the movement of reaching; this automatically forces the shoulder down, fires the lats and triceps, and wraps tension around the arm down to the wrist (do not overthink flexing individual muscles).
 7. Apex Breath & Settle—as you reach the apex of the lift, breathe out and settle downward slightly into your final Set-Up position to relax and stabilize the shoulders.
@@ -42,6 +43,7 @@ Verification—the acromion divot: when the reach is set correctly, the deltoid 
 
 ### Faults & Diagnostics
 
+- Drawing from the Bottom: Initiating the draw from a low position (waist/chest level) forces the front shoulder upward as draw tension increases, making it mechanically impossible to establish or maintain a low, stable bow shoulder under load. Always complete the raise to eye level before drawing.
 - High/creeping shoulder: felt immediately as tightness in the traps and neck, plus elevated pressure in the humerus—a reliable self-diagnostic.
 - The "High Shoulder" Illusion (Rib Cage Tilt): A shoulder that looks too high is often not elevated at all. A rib cage tilted backward (away from the target) pushes the bow shoulder up in space, so it looks high. Pushing the shoulder down will not work while the rib cage stays tilted; fix the spine and rib cage alignment first (see [[Archery Shot Process - Posture]]).
 - Do Not Lean Forward to Reach: Reach as far as you can toward the target on the lift, but do not lean forward and compromise the spine to do it. The reach is a limb movement over a stable, vertical trunk.

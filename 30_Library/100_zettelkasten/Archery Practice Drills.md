@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-22T00:00:00+00:00
-modified: 2026-09-29T10:37:47+00:00
+modified: 2026-10-04T20:52:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-practice-drills
 tags: [archery, practice, prodos/atomic, training]
 title: Archery Practice Drills
@@ -202,6 +202,7 @@ _(Note: This is a diagnostic drill detailed in the [[Archery Shot Process - Foll
 
 - The Goal: Understand proper bone-to-bone alignment and feel what true skeletal stability feels like without relying on muscle isolation.
 - How to do it: Perform a standard side plank, but with a straight, fully extended arm rather than resting on your elbow. Because this puts more than double your bow's draw weight onto your shoulder joint, you will immediately feel that immense stability comes from stacking your skeletal structure, not from isolating and flexing muscles.
+- Dynamic Release Variant (Side Plank Flex Band Shots): While supporting bodyweight in the straight-arm side plank on your bow arm, draw and execute simulated shots with a flex band using your draw hand. Because the front shoulder remains under continuous, heavy bodyweight load throughout the release, the body cannot anticipate or flinch against the sudden drop in bow tension, retraining the subconscious to maintain rock-solid shoulder depression and alignment through dynamic force changes.
 
 #### 15. Shirtless Scapula Audit
 
@@ -224,6 +225,79 @@ _(Note: This is a diagnostic drill detailed in the [[Archery Shot Process - Foll
 - The Goal: Prevent the degradation of form that comes from rushing shots and mindlessly slinging arrows.
 - The Problem: Archers often rush to shoot more arrows, but this skips vital steps in the shot process and builds poor habits. Shooting 30 good, thoughtful, well-executed arrows teaches infinitely more than mindlessly slinging 300 bad arrows.
 - How to do it: Ensure your practice is conscious, deliberate, and purposeful. Take your time, and physically reset your posture and breathing between every single shot. Let your body and mind reflect on the previous shot before executing the next one.
+
+#### 19. Mental Preload at Set Position
+
+- The Goal: Establish mental focus and situational awareness before initiating the physical shot sequence.
+- How to do it: Pause at the set position to read the wind and environment, and mentally visualize a strong shot execution before raising the bow.
+
+#### 20. Partner Arrow-on-Elbow Feedback Drill
+
+- The Goal: Provide immediate tactile kinesthetic feedback to ensure the draw elbow rotates properly around the body and into alignment rather than pulling linearly.
+- How to do it: During the draw and the transition into full draw/expansion, have a partner or coach place an arrow shaft lightly against the back of your draw elbow. Focus on keeping the elbow moving smoothly around behind you along the line of the arrow.
+
+#### 21. Noise Cancellation Clicker Drill (Vibration Conditioning)
+
+- The Goal: Train the brain to trigger the release strictly from the tactile vibration of the clicker striking the riser plate, decoupling the shot from auditory cues.
+- How to do it: Practice shooting close bale wearing noise-cancelling headphones playing loud music, or place a thin piece of dampening tape under the clicker blade. Condition the subconscious to release immediately off the physical vibration felt in the bow hand, completely ignoring sound.
+
+#### 22. Angular Draw Progression & Aiming Synchronization
+
+- The Goal: Safely transition from a linear to an angular draw without loss of balance, wrist kinking, or aiming disruption caused by the sight pin's lateral travel.
+- How to do it:
+  1. *Stage 1 (Movement Isolation):* Practice the angular opening and scapular rotation using a light stretch band or training bow until the two-phase rotation (core rotation to half-closed, then scapular retraction) feels smooth.
+  2. *Stage 2 (Blank Butt Repetition):* Shoot at a blank bale from 3–5 meters to engrain the rotation and eliminate target anxiety while the body learns the continuous rotational arc.
+  3. *Stage 3 (Aiming Synchronization):* Introduce a large, close-range target face. Practice timing the sight pin's lateral glide so it naturally floats into the gold precisely as you settle into anchor, avoiding jarring corrections at full draw.
+
+#### 23. Physical Foundation Screening & Conditioning (Mobility, Motor Control, Strength)
+
+- The Goal: Screen and develop the three physiological prerequisites required before complex archery techniques can be successfully learned and sustained.
+- 1. Mobility Screening (Shoulder Dislocates & Neutral-Grip Dumbbell Press):
+  - *Shoulder Dislocates:* Hold a broomstick or stretch band with a wide, pronated (palms down) grip. Move in a wide circular arc all the way behind you to touch your pelvis, then return without allowing shoulders to shrug or ride up toward the ears. Screens for pec tightness and restricted glenohumeral extension.
+  - *Corrective Press:* If tightness or shrugging is identified during dislocates, perform neutral-grip dumbbell presses on a flat bench to work the pecs through a full, deep eccentric range of motion to restore joint mobility.
+- 2. Motor Control & Eccentric Stability (Controlled Scapular Rows):
+  - Using a cable machine or resistance band, begin from a fully stretched reach. Decisively retract and depress the scapula (down and back), pull the elbow back, and hold for 3 seconds at peak contraction.
+  - *Controlled Eccentric Phase:* Slowly release forward over 3–4 seconds while actively maintaining the set scapular retraction before stretching forward again.
+  - *Fault to Watch:* If the shoulder joint pops forward ahead of the arm during the let-down phase, it indicates a failure of neuromuscular control to stabilize the scapula under eccentric load.
+- 3. Strength Foundation (Full-Depth Dead-Hang Chin-ups):
+  - Start from a complete dead hang to stretch and open the subscapularis and lats. Pull up until the chest makes contact with the bar, pausing briefly before lowering under strict control. Serves as a primary benchmark of scapular retractor strength and pulling capacity.
+
+#### 24. Theraband Position Training (4-Position Isometric Sequencing)
+
+- The Goal: Develop neuromuscular efficiency and prevent antagonistic co-contraction (fighting your own muscles) by breaking the shot cycle into four distinct isometric holds without the fatigue of bow poundage.
+- Neuromuscular Benefit: Training on a light stretch band allows archers to sustain positions long enough for a coach or mirror audit to verify alignment, teaching the nervous system which muscle groups to engage (scapular retractors, core) and which to keep completely relaxed (forearm extensors, traps).
+- The 4 Key Positions:
+  1. *Position 1 (Setup):* Set foot stance, finger hook, and grip pressure point with light band tension. Keep head centered to the target, chest compressed down, shoulders square, and wrists completely devoid of tension.
+  2. *Position 2 (Pre-draw):* Execute thoracic spine rotation to align the shoulders without breaking the upright "T" posture or arching the lumbar spine. Ensure the front shoulder remains set down and internally rotated.
+  3. *Position 3 (Anchor / Full Draw):* Retract the drawing-side scapula and swing the draw elbow around into the arrow line, establishing a firm upward connection into the jawline while preserving spinal alignment.
+  4. *Position 4 (Follow-through):* Execute a dynamic release. The drawing scapula must finish at 100% full retraction with the rear elbow level with the shoulder. The front shoulder remains depressed and the bow arm extended forward without collapsing inward or buckling the hips.
+
+#### 25. Mirror Anchor & Proprioception Training (Light Stretch Band)
+
+- The Goal: Build subconscious brain-to-body proprioception and verify full-draw skeletal alignment independently of bow resistance.
+- Proprioception Over Resistance: A bow's rigid structure (brace height, string tension wall) naturally constrains movement and can mask underlying form errors. Training with a stretch band removes these physical limits, forcing the archer to locate correct anchor and alignment through internal kinesthetic awareness (proprioception).
+- Resistance Band Selection (The Heavy Band Fault): Using a heavy resistance band for technical form practice is counterproductive because high resistance stops the draw cycle based on muscular strain rather than correct skeletal alignment. Always use an ultra-light resistance band (e.g., yellow or red TheraBand) for form and proprioception drills.
+- Mirror Alignment Check: Stand with your body positioned in your normal shooting stance (pointed away from a full-length mirror along your shooting line), but keep your eyes glanced toward the mirror. This allows visual verification of facial anchor, string alignment, and draw-elbow height without improperly turning your head off the target line.
+- Stretch Band Overdraw Watch: Archers accustomed to the bow's physical limits often draw way past their face (behind the ear) on a stretch band. Focus on establishing consistent, firm facial contact rather than pulling against resistance.
+
+#### 26. Partner Shoulder Stability Stress Test
+
+- The Goal: Evaluate and reinforce front-shoulder integrity under external disturbance, ensuring the shoulder does not crumble or pop upward upon release.
+- How to do it:
+  1. Set up in your standard shooting posture and front-shoulder alignment (either at full draw with a training bow or holding a resistance band).
+  2. Have a training partner or coach physically push firmly against your bow arm (applying backward and lateral loads).
+  3. Resist the external load strictly through skeletal alignment, core engagement, and active front-shoulder depression rather than tensing the deltoid. If the shoulder collapses inward or jumps upward, reset and build forward structural intent until the bow arm remains completely immovable.
+
+#### 27. Execution Draws (Thera-Band Scapular Priming & Eccentric Control)
+
+- The Goal: Teach back tension as continuous physical motion rather than an isolated muscle contraction, and bridge the technical progression to a Formaster or bow-mounted Shot Trainer.
+- How to do it:
+  1. *Elbow Hook:* Loop a light-to-medium Thera-band around the point of your drawing elbow (leaving the drawing hand and wrist completely disengaged).
+  2. *Draw to Anchor:* Initiate the draw by pulling from the elbow and scapular retractors/posterior cuff, letting the hand follow passively. Ensure the band remains a straight, flat line rather than opening into a triangle (a triangle indicates an inward pull with the hand rather than driving the elbow).
+  3. *Follow-Through Extension:* Draw smoothly through the anchor position and continue the angular elbow path all the way into the full follow-through position.
+  4. *Scapular Prime (5-Second Squeeze):* Hold the full follow-through contraction for 5 seconds to actively prime and condition the scapular retractors.
+  5. *Eccentric Control:* Slowly reverse the movement under complete control, passing back directly through the correct anchor position before letting down to pre-draw. Maintain elbow height throughout; do not let the back elbow drop during the eccentric let-down.
+- Progression to Shot Trainer / Formaster: This Thera-band execution drill is the essential precursor to working with a Formaster or Shot Trainer, allowing the archer to ingrain proper linear-rotational kinematics and eccentric control before loading the elbow with the full physical poundage of a real bow.
 
 ---
 

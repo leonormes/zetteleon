@@ -1,0 +1,20 @@
+{"kind":"session_meta","at":"2026-10-01T07:26:31.76802Z","tool":"claude-code","session_id":"8521c7d6-88f2-4c63-9a54-540378588e60"}
+{"kind":"session_end","at":"2026-10-01T08:08:52.331194Z"}
+{"kind":"intent","at":"2026-10-01T08:59:49.07039Z","title":"Consolidating new archery capture note"}
+{"kind":"completion","at":"2026-10-01T09:01:20.913033Z"}
+{"kind":"intent","at":"2026-10-02T12:49:27.572421Z","title":"Consolidating new sight tuning note into Archery Safety \u0026 Equipment"}
+{"kind":"completion","at":"2026-10-02T12:50:39.166743Z"}
+{"kind":"intent","at":"2026-10-02T12:56:12.056148Z","title":"Consolidating new Setup and Mental Game capture notes"}
+{"kind":"completion","at":"2026-10-02T12:58:33.359138Z"}
+{"kind":"intent","at":"2026-10-02T13:01:53.604625Z","title":"Consolidating new Anchor capture note"}
+{"kind":"completion","at":"2026-10-02T13:02:55.476972Z"}
+{"kind":"intent","at":"2026-10-02T13:04:17.357649Z","title":"Consolidating new Raise and Pre-draw capture notes"}
+{"kind":"completion","at":"2026-10-02T13:04:59.214085Z"}
+{"kind":"intent","at":"2026-10-03T09:46:44.697894Z","title":"Scaffolding archery-consolidation skill in .agents/skills"}
+{"kind":"completion","at":"2026-10-03T09:47:01.623565Z","note":"Scaffolded archery-consolidation skill in .agents/skills/archery-consolidation/SKILL.md"}
+{"kind":"intent","at":"2026-10-03T09:48:27.349936Z","title":"Consolidating full draw cues into Loading, Expansion, and Practice Drills"}
+{"kind":"completion","at":"2026-10-03T09:49:26.618371Z","note":"Consolidated full draw cues into Loading, Expansion, and Practice Drills"}
+{"kind":"intent","at":"2026-10-03T09:55:44.200106Z","title":"Consolidating clicker readiness, tactile trigger, and clicker drills"}
+{"kind":"completion","at":"2026-10-03T09:56:29.419297Z","note":"Consolidated clicker readiness, tactile trigger, and noise-cancellation drill"}
+{"kind":"intent","at":"2026-10-03T10:15:21.997383Z","title":"Consolidating linear vs. angular draw mechanics across shot process notes"}
+{"kind":"completion","at":"2026-10-03T10:17:44.207348Z","note":"Consolidated linear vs angular draw mechanics across Posture, Setup, Raise, Pre-draw, Loading, Anchor, and Drills"}

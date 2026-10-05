@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-09-29T10:37:48+00:00
+modified: 2026-10-04T20:52:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-loading
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Loading
@@ -26,11 +26,13 @@ Loading is the act of drawing the bow using the scapular retractors and shoulder
 
 ### Why It Works
 
-- The Two Lines of Alignment: Proper skeletal alignment transfers the bow's force directly through your bone structure, requiring significantly less muscular effort and preventing technique breakdown under pressure. When viewed from above, you should achieve two straight lines:
+- The Two Lines of Alignment: Proper skeletal alignment transfers the bow's force directly through your bone structure, requiring significantly less muscular effort and preventing technique breakdown under pressure. Achieving this alignment requires leading with the back shoulder and rotating the chest and ribcage around the spine (torso rotation) rather than an arm-only pull. When viewed from above, you should achieve two straight lines:
   - The Shoulder Line: Intersects your bow hand, bow shoulder, and draw shoulder.
-  - The Elbow Line: Intersects the pressure point on your bow grip, your draw wrist, and your draw elbow.
+  - The Elbow Line: Intersects the pressure point on your bow grip, your draw wrist, and your draw elbow (the tip of the rear elbow must align with the arrow).
+- The Wedge Biomechanical Model (Three Critical Angles): Minimizes muscular fatigue and release variability by optimizing three angles: Angle A (bow arm to arrow line), Angle B (bow arm to shoulder line), and Angle C (draw forearm to arrow line). Rotating the body to set Angles B and C to 0 degrees routes draw weight purely through compressive skeletal forces into the shoulder girdle and forearm axis, eliminating lateral moments that force arm and shoulder muscles to strain.
 - Drawing with the core, torso, and back muscles ("lawnmower pull") provides generating drawing power and avoids fatiguing bicep or forearm muscles.
 - The NTS mandates an angular draw kinematic over linear pulling. Moving LAN2 around behind the head automatically engages back muscles and lower trapezius without needing to micromanage muscle contractions. By the end of the loading phase, this shifts the vast majority of the draw weight away from the arms, ensuring the back muscles hold approximately 80% of the bow's peak weight.
+- Angular Draw Kinematics (Two-Phase Rotation): While the initial pre-draw phase uses core rotation to bring the bow to a half-closed angle, the second phase (loading) is driven by drawing-side scapular retraction and shoulder extension. This swings the draw elbow around behind the body while simultaneously rotating the bow into target alignment.
 - Squeezing the shoulder blades together achieves the final inch of draw length and transfers heavy bow weight from arm muscles to stronger back muscles.
 - As you load straight back, the bow handle naturally pivots in your palm to align directly with the target.
 - Stopping at the load position ensures you achieve nearly 100% of your draw length before moving up into anchor.
@@ -40,10 +42,15 @@ Loading is the act of drawing the bow using the scapular retractors and shoulder
 
 ### Faults & Diagnostics
 
+- Bow Shoulder Angular Misalignment (Wedge Angle B): An open angle between the bow arm and the shoulder line prevents the load from being taken compressively across the shoulder girdle. This generates lateral shear forces that try to push the bow shoulder backward out of alignment, which must then be fought muscularly.
+- Draw Arm Offset (Wedge Angle C): An angle between the drawing forearm and the arrow line creates a rotational moment that requires bicep tension and inner forearm flexor tension to keep the wrist straight. Bringing Angle C to 0 degrees eliminates these complex moments, allowing the arm muscles to remain relaxed.
+- Wrist Tension Bias (Linear Draw Flaw): A strict linear draw often forces the archer to unnaturally kink or tense the drawing wrist to hold the bow on target while drawing. This introduces tension into the wrist extensors that persists into full draw, causing finger plucking and inconsistent releases.
+- Elbow Outside the Arrow Line: If the tip of your draw elbow remains outside the line of the arrow when viewed from behind, it is mechanically impossible to achieve "real full draw" or transfer bow weight into skeletal alignment. The elbow must finish directly in line with or slightly past the arrow line.
+- Overdrawing (Arm-only movement): Pulling the drawing arm too far back beyond proper alignment (often in a misguided attempt to fix alignment without torso rotation). This pushes the elbow out of alignment, forces the archer to rely on muscle rather than bone, ruins the anchor point, and causes quick fatigue.
 - Elevated & Retracted Bow Shoulder: A bow shoulder that is elevated towards the ear and pushed back into the body destroys the Shoulder Line alignment, creating severe instability and a lack of forward direction.
-- Dropping the Back Elbow: Pulling back with a low elbow causes a loss of power in the string, resulting in arrows hitting low or completely under the target. Keep your back elbow up high during the draw.
+- Dropping the Back Elbow: Pulling back with a low elbow causes a loss of power in the string, resulting in arrows hitting low or completely under the target. Allowing the draw elbow to drop down during either the draw or the eccentric let-down breaks the correct plane of motion and indicates a failure to maintain back tension. Keep your back elbow elevated throughout.
 - Collapsing Draw Elbow: At no point should the draw elbow collapse or be pulled forward toward the target. This ruins alignment.
-- The "Hand Only" Draw Illusion: A common mistake is closing the gap purely with your hand while your elbow remains stagnant and stops moving backward.
+- The "Hand Only" Draw Illusion (Triangle Band Fault): A common mistake is closing the draw gap purely with your hand while your elbow remains stagnant and stops moving backward. When practicing with a Thera-band looped on the elbow, pulling inward with the hand causes the band to open out into a triangle rather than maintaining a straight line, confirming a breakdown in draw alignment and a failure to recruit the scapular retractors.
 - Kinking the Wrist: Bending your wrist inward (a collapsed or "broken" wrist) forces your elbow to point in the wrong direction, preventing force from transferring cleanly through your scapula and back muscles. To fix this, maintain a "high wrist" (shaped similar to an eagle's claw), which naturally guides your elbow to rotate back and around behind you.
 - Locked Draw Wrist: Keeping the wrist of the drawing hand completely locked and tense negatively affects elbow rotation and blocks proper back tension. Let the fingers act as relaxed hooks and let the elbow lead the movement.
 - Lack of Physical Flexibility: If your chest and shoulders lack flexibility, you physically cannot get your elbow in line to reach proper back tension. Test this by laying flat on your back; if your elbows cannot touch the floor, you need to stretch (e.g., on a bench) to improve mobility.

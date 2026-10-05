@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T00:00:00+00:00
-modified: 2026-09-29T10:37:48+00:00
+modified: 2026-10-04T20:43:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-release
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Release
@@ -22,6 +22,7 @@ Release is the act of letting go of the string, which should be an involuntary, 
 
 ### Why It Works
 
+- True Straight-Back Release (The Wedge Zero-Angle C): When the drawing forearm is aligned precisely with the arrow line (Angle C = 0° in the Wedge model), lateral forces pulling the hand to the side are eliminated. This permits a true straight-back departure driven purely by linear-rotational back tension, providing the cleanest, most repeatable release possible.
 - Actively using extensor muscles to "claw" or force the hand open causes a wide, "flappy" release where the hand flies outwards away from the face.
 - If there is too much tension in the hand, the string cannot push cleanly through the fingers and must go around them, causing side-to-side oscillation and inconsistent arrow flight.
 - Human fingers cannot open fast enough to clear a moving string; attempting to force them open sends unnecessary nerve signals that disrupt your directional line of tension.
@@ -35,10 +36,11 @@ Release is the act of letting go of the string, which should be an involuntary, 
 
 - Static Release: Trying to freeze your hand at anchor upon release alters bow-arm tension timing and causes inconsistent target impact under pressure.
 - The Pluck: The draw hand pulls outward away from the face upon release. Caused by excess tension in the hand, forearm, and biceps.
-- The Collapse: The draw hand moves forward toward the target upon release. Caused by stopping the pulling motion right before the shot, or poor skeletal alignment.
+- The Collapse: The draw hand moves forward toward the target upon release. Caused by stopping the pulling motion right before the shot (a stagnant elbow breaks the connection to the back muscles), or poor skeletal alignment.
 - Premature Shot Ending: A shot cycle does not end when the clicker drops or when the string leaves your fingers; it ends only when you hit a full static finish.
 - Jumpy Release: Occurs when an archer is fatigued and struggling to pull smoothly through the clicker, causing sudden, jolting movements.
 - Over-bowing forces a clenched hook ("string grabbing") to prevent the string from slipping, making a clean release mechanically impossible.
+- Force Change & Bow Jump Anticipation: Right before or directly upon release, the subconscious anticipates the sudden collapse of compressive holding force and the bow leaping forward into the sling. This causes the front bow shoulder to instinctively jump upward or thrust forward, destroying arrow departure stability. Counteract by conditioning the body to maintain an active, depressed shoulder structure throughout the force drop (see Side Plank Flex Band drill in [[Archery Practice Drills]]).
 
 ### Training Drills
 
@@ -49,6 +51,7 @@ Release is the act of letting go of the string, which should be an involuntary, 
   1. Hook the three fingers of your draw hand directly into the fingers of your opposite hand in front of your chest.
   2. Create tension by pulling both elbows apart.
   3. Maintain draw-elbow structure and relax only the fingertips of your draw hand, allowing them to slip cleanly away.
+  4. Anchor-Height Variant: Perform the same drill with the hooked fingers positioned at your jawline/neck anchor point to replicate the specific elbow elevation and wrist angle of full draw.
 
 #### The Carrier Bag Drill
 

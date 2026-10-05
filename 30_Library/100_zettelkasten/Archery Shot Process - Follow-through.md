@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T00:00:00+00:00
-modified: 2026-09-29T10:37:48+00:00
+modified: 2026-10-04T20:43:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-follow-through
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Follow-through
@@ -17,7 +17,7 @@ Follow-through is the dynamic reaction of the body and bow after release, showin
 1. Action vs. Reaction: The follow-through is an automatic physical reaction. Squeeze the draw elbow around the spine throughout follow-through.
 2. Draw Arm & Hand:
    - Maintain the back tension and elbow squeeze post-release.
-   - The draw elbow should follow a smooth, horizontal rotational plane centered on the spine rather than dropping downward, moving forcefully backward as if striking a wall directly behind the archer.
+   - The draw elbow should follow a smooth, horizontal rotational plane centered on the spine rather than dropping downward, moving forcefully backward as if striking a wall directly behind the archer. The drawing-side scapula must fully retract to 100% of its range, and the rear elbow should finish level at the same height as the shoulder.
    - The draw hand flies straight back to the area between the ear and neck, sliding dynamically along the archer's neck due to the sudden release of tension.
    - Preserve Hand Shape: Keep the hand in its relaxed, naturally curved shape through the end of the follow-through.
 3. Bow Arm Counter-Tension:
@@ -39,7 +39,10 @@ Follow-through is the dynamic reaction of the body and bow after release, showin
 
 ### Faults & Diagnostics
 
-- The "Soft Shot" (Poor Follow-Through): Releasing by simply opening the hand or pulling it outward away from the face results in a weak shot that lacks power. Ensure a straight follow-through by bringing your hand straight back past your ear.
+- Collapse and Recoil (Front Shoulder Failure Modes): Allowing the bow arm to break down, the drawing elbow to drop, or the spine to buckle as an uncontrolled recoil reaction upon release. True follow-through requires maintaining front-shoulder depression and skeletal alignment throughout the dynamic shot reaction:
+  - *Inward Shoulder Collapse:* The front arm breaks or collapses inward toward the chest upon release, indicating a loss of forward bow-arm intensity and dropped skeletal alignment intent.
+  - *Upward Shoulder Jump:* The front shoulder pops upward on the break of release to catch the falling weight of the bow, rather than letting the sling catch the bow while maintaining an actively stabilized, downward-set shoulder position.
+- The "Soft Shot" (Poor Follow-Through): Releasing by simply opening the hand or pulling it outward away from the face results in a weak shot that lacks power, typically causing arrows to impact low and to the right (for a right-handed archer). Ensure a straight, continuous follow-through by bringing your hand straight back along the jawline past your ear.
 - Body Balance Check: If your torso rocks backward upon release, you are pull-dominant (pulling more than pushing); if your head shifts forward, you are push-dominant (over-pushing).
 - Prerequisites: A proper follow-through relies heavily on having a stabilizer setup, forward weight distribution, and a strong, stable bow arm.
 - Rushing & Prejudging the Result (The Self-Coaching Mistake): Do not immediately look at the target to judge the shot based on score. By doing so, you miss the crucial window to evaluate your physical form.

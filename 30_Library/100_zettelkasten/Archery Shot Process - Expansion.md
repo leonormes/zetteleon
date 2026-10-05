@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-09-29T10:37:48+00:00
+modified: 2026-10-04T20:52:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-expansion
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Expansion
@@ -17,7 +17,7 @@ Expansion is the continuation of dynamic tension throughout the shot process, ma
 1. The Holding Phase (Transition): Treat holding as a transitionary phase indicating you have fully drawn the bow, achieved back tension, and finished the "transfer" phase. Yield your movement to the point where you are almost still, then immediately continue building tension right through the execution.
    - The "California roll" analogy (from a captured summary attributed to Kisik Lee): like a rolling stop at a stop sign, the movement slows to an almost imperceptible rate but the internal tension and movement never come to a complete halt.
 2. Two-Way Fluid Motion:
-   - Back Half (Expansion): Raise the draw elbow slightly while continuing a rounding motion with the scapula and lifting slightly with the pec muscle.
+   - Back Half (Expansion): Throughout setup, draw, anchor, and expansion, your draw elbow must be continuously moving away from the target and around your body. A stagnant elbow breaks the connection to the back muscles. Raise the draw elbow slightly while continuing a rounding motion with the scapula and lifting slightly with the pec muscle.
    - Front Half (Extension): Extend the bow shoulder continuously towards the target.
 3. Active Push, Active Pull (Bilateral Push-Pull Balance): Actively push into the bow's grip while pulling the string back, stretching the body in two opposite directions. Archery relies on a balance of equal and opposite forces; the brain must continuously direct forward intensity through the bow arm toward the target, while simultaneously managing the angular rotation of the draw shoulder around the spine.
    - Mental cue for the bow side: treat the grip as an "immovable brick wall" that the bow arm presses through toward the 10-ring, balancing the rearward angular rotation of LAN2.
@@ -36,12 +36,16 @@ Expansion is the continuation of dynamic tension throughout the shot process, ma
 - Leaving 0.5 cm or 1 cm of arrow shaft forces a large physical expansion movement, leading to body posture shifts and erratic shot execution.
 - Driving and reaching your bow hand as far toward the target as possible naturally forces stabilizing muscles to activate without introducing stiffening tension.
 - Moving LAN2 (the posterior deltoid / back of the shoulder) parallel to the shooting line naturally recruits scapular tension without freezing or co-contracting opposing muscles.
+- Back Tension as Coordinated Motion: Back tension must not be conceptualized as an isolated, static muscle contraction (which causes co-contraction, freezing, and upper trap strain). Instead, it is a coordinated physical movement of the scapular retractors and posterior rotator cuff that generates sustained direction and strength through expansion and release.
 - Proper shoulder alignment ensures all forces travel in a straight line, preventing collapse or plucking.
 - Timing matters more than duration: _Inside the Archer_ (PDF p. 227) says the best archers shoot after holding for 1.5 to 3 seconds, because aiming consistency and focus fall off rapidly after about four seconds, and under one second tends to be sloppy and hard to repeat. Consistency of timing matters more than the exact figure.
+- Mental Safety Trigger: The subconscious release reaction to the clicker must only become active *after* you have locked into full anchor and initiated active expansion. If the blade falls prematurely (e.g. during pre-draw or loading), do not fire; treat the clicker as "safety on" until full structural alignment is confirmed.
+- Tactile vs. Auditory Trigger: Condition your release to trigger from the physical vibration of the clicker striking the riser plate through the bow hand, rather than relying solely on the auditory "click." This prevents releasing accidentally when another archer clicks on a crowded shooting line and stops anticipatory auditory flinching.
 - Competition context (from a captured summary, not checked against the current World Archery rulebook): 20 seconds per arrow in individual alternate and team match play, and 30 to 40 seconds per arrow in qualification.
 
 ### Faults & Diagnostics
 
+- Expansion Instability (Premature Expansion): Attempting to expand through the clicker before reaching "real full draw" (complete skeletal alignment) triggers immediate instability. This manifests as sight pin wobble, unintended bow-arm movement, or the draw elbow dropping downward rather than rotating smoothly around the spine.
 - Overdrawn (Draw length too long):
   - _Lack of flexibility_: You can't extend the arrow past the clicker any further; it feels maxed out.
   - _Stuck_: You feel completely stuck at full draw with nowhere to go.

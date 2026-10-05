@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-09-29T10:37:48+00:00
+modified: 2026-10-04T20:54:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-posture
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Posture
@@ -37,11 +37,14 @@ Posture focuses on engaging the core, positioning the hips and torso to transfer
 
 ### Faults & Diagnostics
 
+- Arching the Back & Lifting the Chest: Arching removes core tension, restricts your ability to rotate the upper body, and disconnects the shoulder blades from the thoracic spine (lower trapezius). This forces the draw elbow out of alignment (high elbow). To prevent this, maintain a slight tension in the stomach (as if about to be punched), keep hips tucked to create a flat back, and tighten stomach muscles to hold the ribs and chest down.
+- Draw Weight Limits: 90% of the time, poor posture is the result of not being strong enough to handle the bow's draw weight. A poor release is often just a symptom of this foundational poor posture.
 - Posture Failure Points:
   - _During Raise_: Arching the lower back to lift the bow.
   - _During Draw_: Pulling back with the spine/back instead of drawing with the scapula.
   - _During Follow-Through_: Leaning back or collapsing as the arrow leaves.
 - Eliminating Postural Sway: Maintain complete torso and core stability along the shooting line with zero swaying or leaning forward/backward during the draw and execution. If your body sways, you cannot accurately feel what your shoulders and upper back muscles are doing.
+  - _Angular Draw Balance Shifts:_ Because the angle of the bow changes continuously during an angular draw, an archer with poor trunk stability will lose their weight distribution and sway, negating any biomechanical advantages of back tension.
 - Head Movement: Avoid turning or adjusting your head mid-draw, as this creates postural shifts and shot inconsistency.
 - Leaning Back: A common flaw is leaning your upper body backward to try and keep a 50/50 balance between your left and right foot. Holding a heavy bow away from the centre line also tempts the body to compensate by leaning back or tilting the rib cage away from the target, which makes the bow shoulder look high. Counter it by shifting weight slightly onto the front foot as you lift.
 - Tilting Head for String Contact: When adjusting to a more forward anchor, do not tilt your head back to force the string to touch your nose. Maintain a natural, neutral posture; let the string come to the face, not the face to the string.
@@ -101,6 +104,7 @@ Posture focuses on engaging the core, positioning the hips and torso to transfer
 - How to do it:
   1. Practice blank-bale shooting while standing on a wobble cushion, or with your eyes closed during execution.
   2. Focus purely on internal core stability and maintaining complete torso stillness along the shooting line.
+  3. Chest Balance Test: Stand in full shooting posture (with core locked and ribcage dropped); have a coach or partner apply light, sudden pressure to the upper chest/sternum. If your torso rocks backward or balance shifts to the heels, your center of balance is compromised. True athletic posture remains grounded and absorbs the push without body sway.
 
 #### The Dowel/Wall Drill
 
@@ -121,6 +125,16 @@ Posture focuses on engaging the core, positioning the hips and torso to transfer
 - How to do it:
   1. Perform the draw cycle in front of a mirror or on video.
   2. Ensure the front shoulder remains low and locked in its pocket; any upward shrugging indicates a failure of skeletal alignment.
+
+#### Crucifix Posture Check
+
+- Purpose: Establishes a clean, upright "T-shape" upper body alignment without contorting or overthinking back muscles.
+- How to do it:
+  1. Stand on the shooting line with your feet set in your normal stance.
+  2. Extend both arms straight out to the sides in a crucifix position (forming the crossbar of the "T", level with shoulders).
+  3. Turn your head to look directly at the target.
+  4. Keeping your torso, spine, and bow arm completely stationary, simply bend your draw arm at the elbow directly into your anchor position.
+  5. This establishes your natural skeletal alignment and shoulder height without artificial hunching or twisting.
 
 ### References
 
