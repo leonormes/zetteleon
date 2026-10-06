@@ -71,3 +71,5 @@
 {"kind":"intent","at":"2026-10-04T19:53:52.232688Z","title":"Consolidate drawing from the bottom fault, no-pull pre-draw alignment, hook sequencing, and partner chest balance test"}
 {"kind":"completion","at":"2026-10-04T19:54:59.604099Z","note":"Consolidated drawing from the bottom fault, no-pull pre-draw alignment, hook sequencing, and partner chest balance test into Raise, Pre-draw, Setup, and Posture notes"}
 {"kind":"session_end","at":"2026-10-05T08:23:12.975001Z"}
+{"kind":"intent","at":"2026-10-05T14:29:11.802403Z","title":"Consolidate Jake Kaminski 50m traditional archery cues into shot process notes","body":"Consolidating psycho-trigger release mechanics, creeping/plucking diagnostics, target panic mental management, and long-distance barebow aiming cues into Archery Shot Process - Release, Archery Practice Drills, and Archery Safety \u0026 Equipment."}
+{"kind":"completion","at":"2026-10-05T14:31:09.045656Z","note":"Consolidated Jake Kaminski 50m traditional recurve cues into Archery Shot Process - Release, Archery Practice Drills, and Archery Safety \u0026 Equipment"}

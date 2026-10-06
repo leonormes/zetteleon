@@ -1,6 +1,6 @@
 ---
 created: 2026-09-30T11:13:16+00:00
-modified: 2026-09-30T12:16:09+00:00
+modified: 2026-10-06T08:24:43+00:00
 permalink: llmeon/00-inbox/amazon-books-not-in-calibre
 title: Amazon Books Not In Calibre
 type: note
@@ -77,7 +77,6 @@ type: note
 - Make Time—Jake Knapp
 - Chatter—Ethan Kross
 - Clear Thinking—Shane Parrish
-- Peak: Your Guide to Getting Better at Anything—Anders Ericsson
 - The Courage To Be Disliked—Ichiro Kishimi (2-book series, entirely missing)
 
 ### Writing / Language

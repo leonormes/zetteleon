@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-22T00:00:00+00:00
-modified: 2026-10-04T20:52:00+01:00
+modified: 2026-10-05T15:30:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-practice-drills
 tags: [archery, practice, prodos/atomic, training]
 title: Archery Practice Drills
@@ -299,6 +299,15 @@ _(Note: This is a diagnostic drill detailed in the [[Archery Shot Process - Foll
   5. *Eccentric Control:* Slowly reverse the movement under complete control, passing back directly through the correct anchor position before letting down to pre-draw. Maintain elbow height throughout; do not let the back elbow drop during the eccentric let-down.
 - Progression to Shot Trainer / Formaster: This Thera-band execution drill is the essential precursor to working with a Formaster or Shot Trainer, allowing the archer to ingrain proper linear-rotational kinematics and eccentric control before loading the elbow with the full physical poundage of a real bow.
 
+#### 28. Physical Psycho-Triggers for Target Panic (Bypassing Gold Anxiety)
+
+- The Goal: Eliminate uncontrollable anticipatory anxiety and premature shot execution at full draw by decoupling the release from the sight picture.
+- How to do it:
+  1. For archers shooting without a mechanical clicker (traditional or barebow), establish a deliberate, physical "psycho trigger" on the string hand.
+  2. Draw to anchor with the drawing hand's thumb and pinky held distinctly apart.
+  3. Once anchored and floating on the target, slowly and steadily move the thumb and pinky toward each other. The shot must break the exact moment contact is made (see [[Archery Shot Process - Release]]).
+- Why it works: Target panic is largely driven by the conscious mind fixating on the gold and attempting to command the fingers to release the instant the sight picture looks perfect. This creates extreme tension, freezing off-target, or panic-punching. Redirecting conscious focus to an internal tactile movement (the fingers closing together) bypasses the visual trigger, allowing the release to happen subconsciously without anticipatory flinching or anxiety.
+
 ---
 
-- Reference: Insights compiled from Kramer Ammons ("9 Archery Drills To Hack The Mind"), MFJJ (ElkShape) blind baling and homework routines, Rogue Archery TV ("feelings", mastery framework, and "20:40 SPT | Guided Bow Fitness Drill"), CatholicHack's Traditional Archery (3D hyper-focus trick), Online Archery Academy (bow fitness, 30-minute static hold routine, training plans, 600+ score benchmarks), Matt Hartsky (5-exercise resistance band shoulder conditioning circuit), Clay Hayes (process over result), Jake Kaminski (aiming experiments, movements vs. muscles, co-contraction prevention, "Archery Holding SPT" conditioning, and "The Self Coaching Mistake"), The Push Archery (Solid Archery Mechanics: An Excerpt - motor learning, verbal cues), NUSensei (Archery | Rushed Shot Processes - Slow Down!), and generalized target panic/practice philosophy guidelines.
+- Reference: Insights compiled from Kramer Ammons ("9 Archery Drills To Hack The Mind"), MFJJ (ElkShape) blind baling and homework routines, Rogue Archery TV ("feelings", mastery framework, and "20:40 SPT | Guided Bow Fitness Drill"), CatholicHack's Traditional Archery (3D hyper-focus trick), Online Archery Academy (bow fitness, 30-minute static hold routine, training plans, 600+ score benchmarks), Matt Hartsky (5-exercise resistance band shoulder conditioning circuit), Clay Hayes (process over result), Jake Kaminski (aiming experiments, movements vs. muscles, co-contraction prevention, "Archery Holding SPT" conditioning, "The Self Coaching Mistake", and 50m traditional recurve psycho-trigger mental management), The Push Archery (Solid Archery Mechanics: An Excerpt - motor learning, verbal cues), NUSensei (Archery | Rushed Shot Processes - Slow Down!), and generalized target panic/practice philosophy guidelines.

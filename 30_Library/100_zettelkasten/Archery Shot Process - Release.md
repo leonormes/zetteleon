@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T00:00:00+00:00
-modified: 2026-10-04T20:43:00+01:00
+modified: 2026-10-05T15:30:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-release
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Release
@@ -31,12 +31,14 @@ Release is the act of letting go of the string, which should be an involuntary, 
 - A punchy, assertive expansion acts as a shield against forward creeping and inconsistent arrow groups.
 - Mitigating Target Panic (The Surprise Release): A subconscious, true surprise release short-circuits the anticipatory flinch response known as target panic. If you know exactly when the shot is going to break, you will instinctively brace for it.
 - The use of pure back-tension release aids (e.g., Carter Evolution, Nock On Silverback) mechanically enforces this surprise by firing only when a specific resistance threshold is overcome through continuous expansion.
+- Physical Psycho-Triggers: For barebow and traditional archers shooting without a clicker, relying on conscious timing to loose the string often provokes anticipatory anxiety and target panic. Employing a secondary, gradual physical trigger (such as moving the thumb and pinky toward each other until they touch) redirects cognitive attention to a tactile event, preserving an un-anticipatable surprise release.
 
 ### Faults & Diagnostics
 
 - Static Release: Trying to freeze your hand at anchor upon release alters bow-arm tension timing and causes inconsistent target impact under pressure.
 - The Pluck: The draw hand pulls outward away from the face upon release. Caused by excess tension in the hand, forearm, and biceps.
 - The Collapse: The draw hand moves forward toward the target upon release. Caused by stopping the pulling motion right before the shot (a stagnant elbow breaks the connection to the back muscles), or poor skeletal alignment.
+- Creeping and Plucking (Shot Anticipation): Anticipating the release breaks mental focus and physical execution, causing the archer to creep forward (losing draw length) and pluck the string outward upon release. For a right-handed archer, this compound fault typically results in erratic high and right misses.
 - Premature Shot Ending: A shot cycle does not end when the clicker drops or when the string leaves your fingers; it ends only when you hit a full static finish.
 - Jumpy Release: Occurs when an archer is fatigued and struggling to pull smoothly through the clicker, causing sudden, jolting movements.
 - Over-bowing forces a clenched hook ("string grabbing") to prevent the string from slipping, making a clean release mechanically impossible.
@@ -113,7 +115,20 @@ Release is the act of letting go of the string, which should be an involuntary, 
   1. Mentally repeat a simple, rhythmic phrase (e.g., "keep pulling, keep pulling") during the expansion phase.
   2. Allow the release to occur naturally while your conscious mind is occupied with the mantra.
 
+#### Thumb-to-Pinky "Psycho Trigger" Drill
+
+- Purpose: Establishes a subconscious, un-anticipatable physical release trigger for traditional or barebow shooting without a mechanical clicker, eliminating target panic.
+- How to do it:
+  1. Draw to anchor with the drawing hand's thumb and pinky held distinctly separated.
+  2. Once settled at full draw, slowly and continuously move the thumb and pinky toward each other.
+  3. Execute the release the exact moment the two fingers touch.
+  4. Because the timing of contact feels slightly imprecise and decoupled from aiming at the gold, shot anticipation and flinching are eliminated.
+
 See also: [[Archery Shot Process - Finger Tab Selection & Maintenance]]—worn/grooved leather or excess leather length can itself cause plucking or catch the string independent of hand tension.
+
+### References
+
+- Jake Kaminski, "50m Traditional Recurve / Mental Game & Psycho Trigger" (Thumb-to-Pinky trigger, creeping/plucking diagnostics, target panic management)
 
 ---
 

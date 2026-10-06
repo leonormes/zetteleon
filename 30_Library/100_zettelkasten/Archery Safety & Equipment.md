@@ -1,7 +1,7 @@
 ---
 aliases: ["Archery Equipment & Tuning"]
 created: 2026-09-21T14:36:18+01:00
-modified: 2026-10-03T10:55:00+01:00
+modified: 2026-10-05T15:30:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-safety-equipment
 tags: [archery, equipment, prodos/atomic, safety]
 title: Archery Safety & Equipment
@@ -41,9 +41,15 @@ Foundational guidelines for selecting beginner archery equipment and adhering to
 - When to Add a Clicker (Mechanic): Novice archers should wait to install a clicker until their natural draw length is consistently repeatable within a quarter-inch (5–6 mm). Introducing a clicker prematurely with unstable posture or floating anchor forces the archer to compromise alignment just to make the blade drop, compounding errors.
 - Adjusting Clicker Position (Mechanic): The clicker position is not permanently fixed. It is expected and recommended to micro-adjust its location for varying distances (e.g. slightly closer for 70m due to the steeper bow angle) or to accommodate accumulated physical fatigue across long multi-day tournament sessions.
 
+### Barebow & Traditional Aiming and Tuning
+
+- The Eclipse Hold for Long Distances (Mechanic): When shooting barebow or traditional recurve at extended distances (such as 50 metres), utilise an "eclipse hold"—placing the tip of the arrow completely over the centre of the target (or the top edge of the target bale) to compensate for extreme ballistic drop without requiring a mechanical sight.
+- Consistent Canting for Horizontal Accuracy (Mechanic): When aiming with the arrow significantly below the eye (gap shooting at extended distance), left/right impact consistency is heavily dependent on maintaining an identical bow cant. Use the vertical edge of the riser's sight window as a visual gauge against the target to ensure bow cant remains identical from shot to shot, tightening horizontal group spread.
+
 ### References
 
 - Archery Coaching Case Study #2 (Rogue Archery TV)
+- Jake Kaminski, "50m Traditional Recurve / Mental Game & Psycho Trigger" (Eclipse hold at 50m, consistent sight window canting gauge)
 
 ---
 

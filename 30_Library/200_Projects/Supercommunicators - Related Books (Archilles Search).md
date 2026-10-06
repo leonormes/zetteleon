@@ -1,20 +1,17 @@
 ---
-created: 2026-09-29T13:15:00+01:00
-modified: 2026-09-29T12:32:27+00:00
 conformant: false
+created: 2026-09-29T13:15:00+01:00
+modified: 2026-10-05T17:51:51+00:00
 non_conformance_reason: "Agent-generated capture note (a book list for a Gemini notebook), not one of the five canonical knowledge-node types; routed under link_report as the closest fit."
 permalink: llmeon/00-inbox/supercommunicators-related-books-archilles-search
-status: seed
 source: Archilles RAG search (search_books_with_citations) over the Calibre library, plus direct metadata.db lookups
-tags:
-- source/llm
-- topic/reading-list
-- topic/communication
+status: seed
+tags: [source/llm, topic/communication, topic/reading-list]
 title: Supercommunicators - Related Books (Archilles Search)
 type: link_report
 ---
 
-## Supercommunicators - related books in the Calibre library
+## Supercommunicators - Related Books in the Calibre Library
 
 Source book: Supercommunicators: How to Unlock the Secret Language of Connection by Charles Duhigg - Calibre id 700 (calibre://view-book/GCcalibreBooks/700/EPUB).
 
