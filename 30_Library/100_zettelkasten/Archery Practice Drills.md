@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-22T00:00:00+00:00
-modified: 2026-10-05T15:30:00+01:00
+modified: 2026-10-07T12:28:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-practice-drills
 tags: [archery, practice, prodos/atomic, training]
 title: Archery Practice Drills
@@ -308,6 +308,31 @@ _(Note: This is a diagnostic drill detailed in the [[Archery Shot Process - Foll
   3. Once anchored and floating on the target, slowly and steadily move the thumb and pinky toward each other. The shot must break the exact moment contact is made (see [[Archery Shot Process - Release]]).
 - Why it works: Target panic is largely driven by the conscious mind fixating on the gold and attempting to command the fingers to release the instant the sight picture looks perfect. This creates extreme tension, freezing off-target, or panic-punching. Redirecting conscious focus to an internal tactile movement (the fingers closing together) bypasses the visual trigger, allowing the release to happen subconsciously without anticipatory flinching or anxiety.
 
+#### 29. Hierarchy of Training Complexity (Technique → Volume → Load)
+
+- The Principle: Technique must precede volume, and volume must precede load (poundage).
+- Progression: Progress systematically through four stages of training complexity:
+  1. *Stage 1 (Flex Band):* Isolate skeletal positions, joint angles, and rotational kinematics without bow mass or draw weight.
+  2. *Stage 2 (Training Bow):* Replicate physical contact points, grip pressure, and facial anchors with minimal resistance.
+  3. *Stage 3 (Light Bow on Blank Bale):* Reinforce dynamic expansion, back tension, and subconscious release without the anxiety of aiming or target feedback.
+  4. *Stage 4 (Target & Scored Shooting):* Integrate aiming synchronisation and external competition variables.
+- Volume & Load Governance: Never advance to higher arrow volume or heavier limb weight if fundamental technique breaks down under fatigue. Stabilise mechanics at low intensity before compounding physical stress.
+
+#### 30. Event Goal Setting (Outcome, Process, Experience)
+
+- The Goal: Build psychological resilience, prevent performance collapse, and transfer training scores into competitive environments.
+- Framework: When preparing for tournaments or scored rounds, define three distinct tiers of goals:
+  - *Outcome Goal:* The statistical benchmark or ranking target (e.g. achieving a personal best score or podium finish). Acknowledge it beforehand, but set it aside once on the shooting line.
+  - *Process Goal:* The concrete biomechanical focus completely within your control (e.g. maintaining front-shoulder depression, continuous scapular expansion, or a disciplined 3-step post-shot review).
+  - *Experience Goal:* The mental and emotional state you intend to cultivate (e.g. remaining composed under time pressure, staying present after an errant arrow, or enjoying the competition environment).
+- Why it works: Archers fixated solely on outcomes experience acute anxiety when an arrow lands outside the gold. Anchoring mental focus to process and experience preserves emotional stability, allowing subconscious motor programs to run unimpeded.
+
+#### 31. Soften Aiming Focus (The "Red Zone" Mindset)
+
+- The Goal: Alleviate visual anxiety, eliminate gold freezing, and prevent target panic during expansion.
+- How to do it: Rather than hyper-fixating on the 10-ring pinhole, soften your visual gaze and accept the sight pin floating within the broader "red zone" (the gold and inner-red scoring rings).
+- Why it works: Staring intensely at the centre locks the head and neck, tenses the bow-side trapezius, and prompts involuntary freezing or premature release. Softening the gaze allows the subconscious visual system to centre the aperture naturally whilst conscious attention remains dedicated to continuous back tension and skeletal alignment. Aiming alone never guarantees a good shot—an arrow hitting the gold does not validate poor biomechanics, nor should an errant wind deflection cause panic when physical execution was sound.
+
 ---
 
-- Reference: Insights compiled from Kramer Ammons ("9 Archery Drills To Hack The Mind"), MFJJ (ElkShape) blind baling and homework routines, Rogue Archery TV ("feelings", mastery framework, and "20:40 SPT | Guided Bow Fitness Drill"), CatholicHack's Traditional Archery (3D hyper-focus trick), Online Archery Academy (bow fitness, 30-minute static hold routine, training plans, 600+ score benchmarks), Matt Hartsky (5-exercise resistance band shoulder conditioning circuit), Clay Hayes (process over result), Jake Kaminski (aiming experiments, movements vs. muscles, co-contraction prevention, "Archery Holding SPT" conditioning, "The Self Coaching Mistake", and 50m traditional recurve psycho-trigger mental management), The Push Archery (Solid Archery Mechanics: An Excerpt - motor learning, verbal cues), NUSensei (Archery | Rushed Shot Processes - Slow Down!), and generalized target panic/practice philosophy guidelines.
+- Reference: Insights compiled from Kramer Ammons ("9 Archery Drills To Hack The Mind"), MFJJ (ElkShape) blind baling and homework routines, Rogue Archery TV ("feelings", mastery framework, "20:40 SPT | Guided Bow Fitness Drill", and Coach Jared Gracious form analysis/biomechanics session [YouTube 5GdJtjQvkb8]), CatholicHack's Traditional Archery (3D hyper-focus trick), Online Archery Academy (bow fitness, 30-minute static hold routine, training plans, 600+ score benchmarks), Matt Hartsky (5-exercise resistance band shoulder conditioning circuit), Clay Hayes (process over result), Jake Kaminski (aiming experiments, movements vs. muscles, co-contraction prevention, "Archery Holding SPT" conditioning, "The Self Coaching Mistake", and 50m traditional recurve psycho-trigger mental management), The Push Archery (Solid Archery Mechanics: An Excerpt - motor learning, verbal cues), NUSensei (Archery | Rushed Shot Processes - Slow Down!), and generalized target panic/practice philosophy guidelines.

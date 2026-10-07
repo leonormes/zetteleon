@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-10-04T20:52:00+01:00
+modified: 2026-10-07T12:28:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-loading
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Loading
@@ -15,14 +15,25 @@ Loading is the act of drawing the bow using the scapular retractors and shoulder
 ### The Steps
 
 1. Initiate the draw by leading with the back of the drawing shoulder (LAN2, located midway between the elbow and shoulder joint on the triceps). Move LAN2 in a sweeping, angular arc parallel to the shooting line and continuously around behind your head, driving the drawing-side scapula decisively toward the spine.
+   - _Purpose:_ Leading with the back shoulder rotates the chest and ribcage around the spine instead of pulling with the arm. Moving LAN2 around behind the head engages the back muscles and lower trapezius automatically, so about 80% of peak draw weight ends up on the back rather than the arms.
 2. Move the drawing hand in a clean, straight, diagonal line directly toward the lower jaw/chin. Do not loop the hand outward and inward.
+   - _Purpose:_ A direct path gives you one repeatable route to the same loading position; looping adds variation. Inferred; the note gives no stated reason.
 3. Lead the pull using your draw elbow. Move the entire drawing shoulder as a unit.
+   - _Purpose:_ Moving the shoulder as a unit means the core, torso and back generate the draw (the "lawnmower pull"), which avoids fatiguing the biceps and forearm.
 4. Keep the hand limp/loose except for the exact forearm flexor tension required to keep the finger hook locked static.
+   - _Purpose:_ Forearm flexor tension locks the hook in place. If the fingers uncurl, draw length creeps and the clicker setup becomes erratic. Everything else in the hand stays loose so the arm does no extra work.
 5. Draw the remaining length by engaging the back muscles (scapular retractors) and moving the draw elbow in an "up and around" path.
+   - Scapula "Back Pocket" Cue: To avoid shrugging the upper trapezius while retracting, visualize moving the drawing scapula down, back, and diagonally toward the spine as if sliding it into a back trouser pocket.
+   - _Purpose:_ Squeezing the shoulder blades gives the final inch of draw length and moves weight from the arms to the stronger back muscles. The back-pocket cue stops the upper trapezius shrugging in place of the deep back muscles.
 6. Keep the head stationary and bring the string to your face; do not move your head forward to meet the string.
+   - _Purpose:_ The head position was fixed earlier (see [[Archery Shot Process - Posture]]). Bringing the string to a fixed head keeps the anchor reference constant, because the anchor acts as your rear sight.
 7. Stop drawing at the optimal load position, roughly 1/2 inch below the jaw, where the bowstring makes contact with the corner of your chin and tip of your nose.
    - At this position the thumb presses into the sternocleidomastoid and the string touches the chin at the same lateral spot it will occupy at anchor, so the string does not slide along the jaw on the way up. _Inside the Archer_ (Ch. 12, PDF p. 126) says thumb pressure into the neck is an _effect_ of loading correctly, not the cause: do not draw until the thumb presses or the string touches the face, or focus moves to the face and away from the back muscles. The same passage says drawing until the thumb presses into the neck is a very good way to reach the same loading position consistently, but it can also make the wrist bend the wrong way (see Kinking the Wrist below), so the thumb must stay exactly where it was set at the hook.
+   - _Purpose:_ Stopping here gives nearly 100% of your draw length before you move up into anchor. It is the "safety off" point that divides preparing to shoot from shooting, and the string touches the face at the same lateral spot it will occupy at anchor so it doesn't slide along the jaw. Do not draw until the thumb presses or the string touches the face, or your focus shifts to the face and away from the back muscles.
 8. Bring the sight down onto the target from above as you finish the draw consistently.
+   - _Purpose:_ Inferred; the note gives no stated reason. Likely it lets the sight arrive on target as part of the finishing movement rather than a separate correction.
+9. Balancing Front and Back Focus ("Piano Chord" Attention): As draw weight increases toward peak, the front shoulder must be actively pinned down to resist collapsing inward. Layer your mental focus like playing a piano chord—add conscious attention to back tension while maintaining uninterrupted focus on the front-side pin and shoulder base.
+   - _Purpose:_ As draw weight rises toward peak, the front shoulder will collapse inward unless it is actively pinned down. Layering attention keeps the front-side pin from being forgotten while you concentrate on the back.
 
 ### Why It Works
 
@@ -39,9 +50,11 @@ Loading is the act of drawing the bow using the scapular retractors and shoulder
 - The loading position is the "safety off" point: _Inside the Archer_ (Ch. 12, PDF pp. 129-131) calls it the dividing position between preparing to shoot and actually shooting, leaving the archer about 90 percent ready. If the clicker goes off before this position, the archer should not feel compelled to shoot; the drawing motion is slowing and there is a sensation of holding, with the anchor occurring between loading and holding.
 - Loading is a position of power, not of muscle contraction: think of containing and controlling the angular energy in the direction you want it to go, and storing the drawing intensity in the core, not pinching or contracting the back. Very little visible motion takes place; the scapula may wing slightly, with equally small movement toward the spine and possibly slightly downward, and none of these should exceed one centimetre in any direction (PDF p. 126).
 - Actively increasing forearm flexor tension locks the hook in place; allowing fingers to uncurl causes draw length creep, making clicker setup erratic.
+- The Sensation of Back Tension (Effortless Alignment): It is a very common misconception that archers should actively feel their back muscles intensely contracting or squeezing. For an experienced archer stacked in proper skeletal alignment, a well-executed draw should feel virtually effortless and quiet, transferring load through bone rather than strenuous muscular clenching.
 
 ### Faults & Diagnostics
 
+- Scapula Reversing Direction: When lifting the draw elbow into anchor, the scapula must not un-rotate, stall, or move in the wrong direction. Doing so immediately breaks the kinetic chain and causes the archer to squeeze with the upper traps instead of the deep back muscles to finish the draw.
 - Bow Shoulder Angular Misalignment (Wedge Angle B): An open angle between the bow arm and the shoulder line prevents the load from being taken compressively across the shoulder girdle. This generates lateral shear forces that try to push the bow shoulder backward out of alignment, which must then be fought muscularly.
 - Draw Arm Offset (Wedge Angle C): An angle between the drawing forearm and the arrow line creates a rotational moment that requires bicep tension and inner forearm flexor tension to keep the wrist straight. Bringing Angle C to 0 degrees eliminates these complex moments, allowing the arm muscles to remain relaxed.
 - Wrist Tension Bias (Linear Draw Flaw): A strict linear draw often forces the archer to unnaturally kink or tense the drawing wrist to hold the bow on target while drawing. This introduces tension into the wrist extensors that persists into full draw, causing finger plucking and inconsistent releases.
@@ -49,6 +62,7 @@ Loading is the act of drawing the bow using the scapular retractors and shoulder
 - Overdrawing (Arm-only movement): Pulling the drawing arm too far back beyond proper alignment (often in a misguided attempt to fix alignment without torso rotation). This pushes the elbow out of alignment, forces the archer to rely on muscle rather than bone, ruins the anchor point, and causes quick fatigue.
 - Elevated & Retracted Bow Shoulder: A bow shoulder that is elevated towards the ear and pushed back into the body destroys the Shoulder Line alignment, creating severe instability and a lack of forward direction.
 - Dropping the Back Elbow: Pulling back with a low elbow causes a loss of power in the string, resulting in arrows hitting low or completely under the target. Allowing the draw elbow to drop down during either the draw or the eccentric let-down breaks the correct plane of motion and indicates a failure to maintain back tension. Keep your back elbow elevated throughout.
+- Caved-In Chest & Lack of Expansion Alignment: Collapsing the chest inward and flaring the draw elbow outward prevents full draw length and causes arrows to drop short beneath the target. Counter this with **Chest Expansion and Full Stretch**: open the upper chest and torso into broad skeletal alignment to achieve true draw length and dynamic power.
 - Collapsing Draw Elbow: At no point should the draw elbow collapse or be pulled forward toward the target. This ruins alignment.
 - The "Hand Only" Draw Illusion (Triangle Band Fault): A common mistake is closing the draw gap purely with your hand while your elbow remains stagnant and stops moving backward. When practicing with a Thera-band looped on the elbow, pulling inward with the hand causes the band to open out into a triangle rather than maintaining a straight line, confirming a breakdown in draw alignment and a failure to recruit the scapular retractors.
 - Kinking the Wrist: Bending your wrist inward (a collapsed or "broken" wrist) forces your elbow to point in the wrong direction, preventing force from transferring cleanly through your scapula and back muscles. To fix this, maintain a "high wrist" (shaped similar to an eagle's claw), which naturally guides your elbow to rotate back and around behind you.
@@ -162,6 +176,7 @@ Loading is the act of drawing the bow using the scapular retractors and shoulder
 - Top 10 Mistakes in Beginner Archery Classes (Online Archery Academy)
 - Shoulder Alignment (Online Archery Academy)
 - Three A's of Accuracy: Aim, Anchor, Alignment | Archery Basics (NUSensei)
+- Coach Jared Gracious (Rogue Archery TV), form analysis and biomechanics session (YouTube 5GdJtjQvkb8)
 
 ---
 

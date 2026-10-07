@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T00:00:00+00:00
-modified: 2026-10-04T20:54:00+01:00
+modified: 2026-10-07T12:28:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-raise
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Raise
@@ -15,14 +15,22 @@ Raise is the act of lifting the bow to eye level while seating the bow-side shou
 ### The Steps
 
 1. Start relaxed—no continuous tension in the front shoulder while nocking or setting up.
+   - _Purpose:_ Once a muscle is under load it cannot relax while the load stays, so a tense or shrugged start cannot be fixed at full draw. From a relaxed start the shoulder seats itself down and forward on the way up.
 2. Weight forward—shift a small amount of weight onto the front foot so the bow shoulder drops and elongates.
+   - _Purpose:_ A small forward weight shift lets the bow shoulder seat down and forward, and matches the forward shift in your centre of pressure as the bow comes up (see [[Archery Shot Process - Posture]]).
 3. Pre-tension the string—take up slight tension (approx. 1 inch).
+   - _Purpose:_ Takes the slack out so the draw hand and bow arm work as one connected structure from the start of the lift. Inferred; the note gives no stated reason.
 4. Lift & Breathe (Zen Breath)—raise both hands to eye level while inhaling deeply for four seconds to oxygenate blood and lower heart rate. Keep the chest down and lift the arms independently of the ribcage (never shrug the shoulders). The bow hand should travel perfectly vertically without sweeping in a wide arc.
    - **Maintaining the Open Angle:** Maintain the open angle of the bow established at setup throughout the lift; do not close the angle or prematurely rotate the bow to face the target while raising.
-5. Rotate the bow arm & Triceps Engine—internally rotate during the raise (elbow turned outward/vertical), before full draw weight loads onto the bow. The triceps should act as the primary engine of the bow arm to maintain this vertical elbow rotation (bony protrusions of radius/ulna pointing down), which locks the arm structurally, connects power to the body, and prevents string slap.
+   - _Purpose:_ Lifting with both hands avoids over-engaging the deltoids, which fatigue quickly. Eye level pushes the line of draw force so it drives the front shoulder down and back instead of letting it ride up, and avoids dropping into full draw on momentum. Keeping the chest down stops the shoulders shrugging. The slow inhale is said to lower heart rate. See Alternative Views for Kaminski's bow-arm-led lift.
+5. Rotate the bow arm & Triceps Engine (Internal Rotation Lock)—internally rotate during the raise (elbow turned outward/vertical), before full draw weight loads onto the bow. From the apex of the raise through the transition into pre-draw, fully lock this internally rotated bow arm and downward shoulder set to provide an immovable skeletal foundation. The triceps should act as the primary engine of the bow arm to maintain this vertical elbow rotation (bony protrusions of radius/ulna pointing down), which locks the arm structurally, connects power to the body, and prevents string slap.
+   - _Purpose:_ Rotating before the full load arrives locks the arm structurally so the bow's force goes through bone and the triceps, not the deltoid. Coach Ash Morgan disputes forcing the shoulder down to achieve this; see Alternative Views.
 6. Reach—at the top of the raise, extend the base of the bow wrist/hand as far as possible directly toward the target. Focus on the movement of reaching; this automatically forces the shoulder down, fires the lats and triceps, and wraps tension around the arm down to the wrist (do not overthink flexing individual muscles).
+   - _Purpose:_ Reaching is a movement cue, not a muscle cue. It sets the shoulder down and fires the right stabilisers as a side effect, whereas consciously flexing specific muscles creates opposing tension.
 7. Apex Breath & Settle—as you reach the apex of the lift, breathe out and settle downward slightly into your final Set-Up position to relax and stabilize the shoulders.
+   - _Purpose:_ Settling at the top relaxes and stabilises the shoulders before the draw begins, so you start pulling from a calm, low position.
 8. Hold the reach—maintain that reaching tension continuously while pulling the string back.
+   - _Purpose:_ Continuous reach keeps the set shoulder from yielding as the draw weight arrives. Inferred from the tension-bias principle.
 
 Verification—the acromion divot: when the reach is set correctly, the deltoid flares up, leaving a visible divot at the top of the shoulder (the acromion). If the shoulder rides up or alignment collapses, the divot disappears.
 
@@ -50,6 +58,8 @@ Verification—the acromion divot: when the reach is set correctly, the deltoid 
 - Fully Locked and Pushed Out: Aggressively pushing your bow shoulder completely out of the socket and away from the spine forces it into a weak, compromised state and makes elbow rotation painful. Keep the shoulder in a natural, neutral position instead.
 - Do Not Squeeze the Scapula (Over-pinned scapula): Squeezing your bow arm scapula backward toward your spine while raising the bow is a major mistake. Doing so collapses the front of your chest and eliminates the structural space your draw shoulder needs to rotate into proper alignment. Driving or over-pushing the bow forces the front scapula backward until it presses against the spine, locking the shoulder girdle.
 - Over-Fixating on a Perfectly Still Shoulder: When rotating your bow arm elbow to vertical, it is biomechanically necessary for the surrounding shoulder muscles to move slightly. Trying to keep the shoulder muscles perfectly frozen is a mistake, though you should avoid rolling the entire joint forward.
+- External Bow Arm Elbow Rotation: Leaving the inside crook of the bow elbow facing inward/upward places the forearm directly in the string path, leading to painful string slap. Apply **Internal Elbow Rotation or Micro-Bend**: rotate the bow arm inward at the elbow joint so the joint opens outward; if joint mobility prevents full rotation, maintain a slight micro-bend in the bow arm rather than hyperextending into the string.
+- Elevated Bow Shoulder & String Clearance: Allowing the bow shoulder to shrug or elevate during setup and draw angles the arm directly into the string path. Maintain a **Depressed Bow Shoulder** by packing the bow-side shoulder down low to preserve clearance and skeletal stability.
 - Why both are destructive: each restricts the rear shoulder blade's movement, preventing effective back tension and stopping the drawing elbow moving cleanly through the shot.
 
 ### Simplified Practice Cue
@@ -76,6 +86,8 @@ Stand facing forward with relaxed arms, look toward the target, and simply raise
 - How to raise your bow… WITHOUT messing up your shoulder position! (Rogue Archery TV)
 - Draw Shoulder Technique - Reduce Injury Risk and Increase Efficiency (Online Archery Academy)
 - Total Archery - Inside the Archer (Kisik Lee & Tyler Benner)
+- Top 10 Mistakes in Beginner Archery Classes (Online Archery Academy)
+- Coach Jared Gracious (Rogue Archery TV), form analysis and biomechanics session (YouTube 5GdJtjQvkb8)
 
 ---
 

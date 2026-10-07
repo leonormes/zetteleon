@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T00:00:00+00:00
-modified: 2026-10-05T15:30:00+01:00
+modified: 2026-10-07T12:28:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-release
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Release
@@ -14,11 +14,17 @@ Release is the act of letting go of the string, which should be an involuntary, 
 ### The Steps
 
 1. Passive Relaxation: Slowly relax your fingers while continuously pulling backward with your shoulder tension. Allow the bowstring to push the fingers out of the way.
+   - _Purpose:_ Fingers cannot open fast enough to clear a moving string, and forcing them open with the extensors causes a wide, flappy release and sends nerve signals that disrupt your line of tension. Letting the string push them clear is cleaner.
 2. Involuntary Action: Treat the release as a reaction to the clicker rather than a conscious opening of the fingers.
+   - _Purpose:_ A surprise release short-circuits the anticipatory flinch of target panic. If you know exactly when the shot will break, you instinctively brace for it.
 3. Tension Drop: Frame the release as reducing finger tension down to around 40%.
+   - _Purpose:_ With too much tension in the hand, the string cannot push cleanly through the fingers and goes around them, causing side-to-side oscillation and inconsistent flight.
 4. Preserve Shape: Relax the hand while keeping the fingers curled in their original hook shape during the follow-through. The hand should finish looking the same as it did on the string.
+   - _Purpose:_ A hand that finishes in its original hook shape shows the fingers were relaxed, not clawed or splayed open. Inferred; the note gives no stated reason.
 5. Squeezing the Finger Spacer: Maintain continuous pressure against the tab's finger spacer with your fingers throughout the entire release and follow-through cycle.
+   - _Purpose:_ Keeps the hand structure consistent from setup through the shot. Inferred; the note gives no stated reason (the Setup note uses the spacer squeeze to prevent pinching the nock).
 6. The Two-Sided Release: Maintain active front-side structure and push through the release just as hard as the draw-side elbow continues pulling back.
+   - _Purpose:_ The release is the beginning of the shot, not the end. A collapsed draw side is almost always mirrored by a bow-arm drop or sight twitch, and a punchy, assertive expansion guards against creeping forward.
 
 ### Why It Works
 
@@ -35,7 +41,8 @@ Release is the act of letting go of the string, which should be an involuntary, 
 
 ### Faults & Diagnostics
 
-- Static Release: Trying to freeze your hand at anchor upon release alters bow-arm tension timing and causes inconsistent target impact under pressure.
+- Static/Dead Release: A forced or static release is a symptom of lost connection during expansion (usually caused by prematurely maxing out the scapula's range of motion at anchor, leaving nowhere to go). The release must remain a dynamic reaction to the sudden change in force equilibrium as the draw arm continues uninterrupted through its range of motion.
+- Anticipation and Finger Movement: Moving or splaying the fingers before the arrow has fully left the string indicates subconscious anticipation of the bow jumping into the sling. The fingers must stay passive and quiet, letting the string push them open.
 - The Pluck: The draw hand pulls outward away from the face upon release. Caused by excess tension in the hand, forearm, and biceps.
 - The Collapse: The draw hand moves forward toward the target upon release. Caused by stopping the pulling motion right before the shot (a stagnant elbow breaks the connection to the back muscles), or poor skeletal alignment.
 - Creeping and Plucking (Shot Anticipation): Anticipating the release breaks mental focus and physical execution, causing the archer to creep forward (losing draw length) and pluck the string outward upon release. For a right-handed archer, this compound fault typically results in erratic high and right misses.
@@ -129,6 +136,7 @@ See also: [[Archery Shot Process - Finger Tab Selection & Maintenance]]—worn/g
 ### References
 
 - Jake Kaminski, "50m Traditional Recurve / Mental Game & Psycho Trigger" (Thumb-to-Pinky trigger, creeping/plucking diagnostics, target panic management)
+- Coach Jared Gracious (Rogue Archery TV), form analysis and biomechanics session (YouTube 5GdJtjQvkb8)
 
 ---
 

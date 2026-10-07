@@ -1,7 +1,7 @@
 ---
 aliases: ["Archery Equipment & Tuning"]
 created: 2026-09-21T14:36:18+01:00
-modified: 2026-10-05T15:30:00+01:00
+modified: 2026-10-07T12:28:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-safety-equipment
 tags: [archery, equipment, prodos/atomic, safety]
 title: Archery Safety & Equipment
@@ -16,8 +16,11 @@ Foundational guidelines for selecting beginner archery equipment and adhering to
 
 - Takedown Recurve Bow: Highly recommended for beginners because the detachable limbs allow you to easily upgrade the draw weight as your strength improves.
 - Draw Weight & Progression: Start with a lower draw weight (generally 20 to 30 pounds for adults). Being "overbowed" (shooting too much weight) is the most common beginner mistake; it ruins shooting technique and causes injuries. Before buying heavier limbs to progress, loop a tan TheraBand around your bow to incrementally add 2–3 lbs of resistance during training drills (SPTs) to build strength safely.
-- Arrows: Carbon arrows are often favored by new archers for their durability and consistent flight.
+- Appropriate Poundage for Training Volume: Draw weight must strictly reflect weekly arrow volume rather than maximum short-term pulling capacity. If shooting fewer than 400 arrows per week, maintain limb weight around 24 lbs. For 400–600 arrows per week, poundage may advance up to 30 lbs. Moving beyond 30–35 lbs requires sustained high-volume training (600+ arrows per week); pulling excessive poundage at lower volumes inevitably causes shoulder impingement and collapses dynamic expansion.
+- Arrows: Carbon arrows are often favoured by new archers for their durability and consistent flight.
+- Arrow Length & Rest Clearance Hazard: Arrow shafts must never be cut too short for an archer's expanding draw length. An arrow overdrawn past the arrow rest can drop inside the riser; on release, the shaft strikes the riser and can shatter violently, posing severe safety and impalement risks.
 - Arrow Spine: The stiffness (spine) of the arrow must be carefully matched to your bow's draw weight to ensure the arrow clears the bow properly and flies straight.
+- Finger Sling Adjustment: The finger sling must be adjusted precisely to fit the hand. If set too tight, it introduces wrist tension and blocks the bow's natural forward jump; if set too loose, the fear of dropping the bow induces anticipatory grip clenching at the moment of release.
 
 ### Foundational Diagnostics
 
@@ -49,7 +52,9 @@ Foundational guidelines for selecting beginner archery equipment and adhering to
 ### References
 
 - Archery Coaching Case Study #2 (Rogue Archery TV)
+- Coach Jared Gracious (Rogue Archery TV), form analysis and biomechanics session (YouTube 5GdJtjQvkb8)
 - Jake Kaminski, "50m Traditional Recurve / Mental Game & Psycho Trigger" (Eclipse hold at 50m, consistent sight window canting gauge)
+- Top 10 Mistakes in Beginner Archery Classes (Online Archery Academy)
 
 ---
 

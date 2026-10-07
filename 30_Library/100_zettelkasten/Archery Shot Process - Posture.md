@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-10-04T20:54:00+01:00
+modified: 2026-10-07T12:28:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-posture
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Posture
@@ -15,12 +15,19 @@ Posture focuses on engaging the core, positioning the hips and torso to transfer
 ### The Steps
 
 1. Core Engagement: Exhale 100% of the air out of your chest to let your ribcage drop, then lock it down. Once locked, breathe strictly using your diaphragm.
+   - _Purpose:_ A dropped chest shortens the abdominal wall for stability, stops the lower back arching, and clears the string from your chest and clothing at full draw.
 2. Hip Tuck: Squeeze your glutes (as if holding a coin between your butt cheeks) to tuck your pelvis under. Combined with a dropped chest and slight tension in the abdomen, this flattens your spine into a solid, vertical column.
+   - _Purpose:_ A posterior pelvic tilt removes the hollow lower back, so the bow's compressive force travels down the spine into the legs rather than shearing across the lumbar discs.
 3. Active Posture & Settling: Stack your shoulders directly over your hips and allow your body weight to settle downwards to prevent fatigue and establish a grounded base.
+   - _Purpose:_ Load stacked directly over the hips is held by the skeleton rather than by muscle effort, which delays fatigue and keeps the base steady.
 4. Spine & Alignment: Maintain a straight spine with no curving and no leaning towards or away from the target. Keep a straight vertical line between your shoulders, hips, and ankles.
+   - _Purpose:_ The straight spine is the fixed pivot the body rotates around. A rib cage tilted off that axis makes the bow shoulder sit high, and a sway backward ruins skeletal alignment and string clearance (arrows fly high). Expect your centre of pressure to shift slightly forward as the bow rises; do not fight it by leaning back.
 5. "T-Line" Alignment: Ensure feet, hips, and shoulders form a clean, upright "T-Line".
+   - _Purpose:_ The arms form the crossbar of the T on the spine. This avoids unnecessary muscle strain and lets the sight pin float slowly rather than jerk.
 6. Head Alignment: Look directly at the target during the Setup phase. Keep your head completely stationary throughout the draw, anchor, and follow-through.
+   - _Purpose:_ A fixed head keeps the anchor and sight picture repeatable. Staring too hard over-rotates the neck and causes mid-draw twitching, so keep the gaze soft and the neck neutral. The head-position mechanism is partly inferred.
 7. Reset Breathing: Between every single shot, take three long, slow, deep breaths to completely reset mentally and physically before resuming your posture.
+   - _Purpose:_ A mental and physical reset so each shot starts from the same state rather than carrying tension over from the last. Inferred; the note has no stated source for this step.
 
 ### Why It Works
 
@@ -45,9 +52,12 @@ Posture focuses on engaging the core, positioning the hips and torso to transfer
   - _During Follow-Through_: Leaning back or collapsing as the arrow leaves.
 - Eliminating Postural Sway: Maintain complete torso and core stability along the shooting line with zero swaying or leaning forward/backward during the draw and execution. If your body sways, you cannot accurately feel what your shoulders and upper back muscles are doing.
   - _Angular Draw Balance Shifts:_ Because the angle of the bow changes continuously during an angular draw, an archer with poor trunk stability will lose their weight distribution and sway, negating any biomechanical advantages of back tension.
-- Head Movement: Avoid turning or adjusting your head mid-draw, as this creates postural shifts and shot inconsistency.
-- Leaning Back: A common flaw is leaning your upper body backward to try and keep a 50/50 balance between your left and right foot. Holding a heavy bow away from the centre line also tempts the body to compensate by leaning back or tilting the rib cage away from the target, which makes the bow shoulder look high. Counter it by shifting weight slightly onto the front foot as you lift.
+- Leaning Back During Draw: A common flaw is allowing the body to sway backward toward the rear foot as the string is drawn (often attempting to maintain an artificial 50/50 balance or yielding to draw weight). This ruins skeletal alignment, creates severe bow-arm string clearance issues, and causes arrows to fly high over the target. Counter this with **T-Position Core Engagement**: brace the core, keep the torso strictly vertical in the upright "letter T" posture, shift weight slightly onto the front foot as you lift, and remain in control of the string rather than letting the bow pull the torso out of line.
+- Elevated Shoulders & Chest: Hiking the shoulders upward and puffing the chest destroys clearance and destabilises skeletal alignment. Maintain **Depressed Shoulder Alignment**: bring the shoulders and chest down low before drawing to stabilise the skeletal structure and ensure a clean string path.
 - Tilting Head for String Contact: When adjusting to a more forward anchor, do not tilt your head back to force the string to touch your nose. Maintain a natural, neutral posture; let the string come to the face, not the face to the string.
+- Over-Rotating Hips Counterclockwise: Twisting the hips away from the target creates artificial "back tension" by prematurely squeezing the spine against the scapula. This eliminates physical space and locks the shoulder girdle, leaving no room for dynamic expansion.
+- Shifting T-Posture: Arching the upper body forward toward the target during pre-draw, or expanding by shifting the T-posture backward rather than optimising skeletal alignment, causes an unstable string departure path and classic high/left or low/right misses.
+- Over-Intense Head Turn: Staring too aggressively at the target causes the neck to over-rotate forward and introduces mid-draw head twitching. Soften the gaze, keep head rotation natural, and maintain a fixed, neutral cervical spine.
 
 ### Training Drills
 
@@ -139,6 +149,8 @@ Posture focuses on engaging the core, positioning the hips and torso to transfer
 ### References
 
 - Jake Kaminski, high bow shoulder / tilted rib cage video (YouTube EEMXB1nHmTk)
+- Top 10 Mistakes in Beginner Archery Classes (Online Archery Academy)
+- Coach Jared Gracious (Rogue Archery TV), form analysis and biomechanics session (YouTube 5GdJtjQvkb8)
 
 ---
 
