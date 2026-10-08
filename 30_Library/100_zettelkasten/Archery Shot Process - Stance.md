@@ -1,93 +1,111 @@
 ---
 aliases: []
 created: 2026-07-21T00:00:00+00:00
-modified: 2026-10-07T12:28:00+01:00
-permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-stance
+modified: 2026-10-07T21:30:25+00:00
+permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-stance-1
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Stance
+type: procedure
 ---
 
 ## Archery Shot Process - Stance
 
-Stance sets a stable base for maximal stability. The angle and positioning of the feet are crucial.
+Stance is the base that every later step inherits: if the feet move, everything above them moves too. This note covers the feet, knees, weight, and hip rotation. Pelvic tilt and everything above it belongs to [[Archery Shot Process - Posture|Posture]].
 
 ### The Steps
 
-1. Foot Placement: Stand with feet roughly shoulder-width apart, pointing forwards (or slightly turned out), and equidistant along the shooting line. Once you set your stance, plant your feet and stay there; do not shuffle or move your feet between arrows.
-   - _Purpose:_ Every body part above the feet inherits the foot position, so a fixed base makes the whole shot repeatable. Any drift between arrows changes the chain above it (see Chalk Stance Tracing).
-2. Stance Variations (There is no single "perfect" stance; it depends on body, bow setup, and technique. General Rule: The more open the stance, the easier it is to connect the draw side. The more closed the stance, the more it favors bow-side alignment and stability):
-   - _Purpose:_ The foot angle sets how far the torso must twist to line the shoulders up with the target. An open stance lets the torso rotate back around the bow shoulder, which loads the bow through the skeleton instead of sideways on the shoulder, and makes back muscles easier to recruit. A square stance trades some of that for less spine twist and an easier vertical "T". See Why It Works.
-   - Square Stance: Stand with feet exactly in line and shoulder-width apart. Alignment Tip: Place an arrow on the ground pointing directly at the target to help align your feet.
-     - _Pros_: Easier to maintain a vertical "T" posture; requires less torso rotation (less spine stress/fatigue). Recommended for beginners or those with limited upper body flexibility.
-     - _Cons_: Less stable in crosswinds; natural alignment can make archers "lazy," forgetting to actively engage core and back muscles.
-   - Open Stance: Place the front foot slightly ahead of the back foot to create a diagonal/open stance towards the target. Open the feet roughly 10° to 15° toward the target line. To set this accurately, imagine a straight line running from the target through the ball of your front foot; that line should intersect the instep of your back foot. Keep your back foot close to parallel with your front foot.
-     - _Pros_: Naturally encourages a strong draw-side connection (hook, hand, elbow, back); provides better wind stability; recommended for heavy mass weight bows as it allows resting the bow on the leg during setup.
-     - _Cons_: Torso twisting can cause fatigue or back pain; if flexibility is lacking, it makes aligning the bow shoulder much harder.
-     - _Olympic Standard Alignment:_ The ball of the back foot rests precisely on the target line, rotated 15 degrees open. The front foot is placed approximately two inches behind the target line and rotated 30 degrees open toward the target.
-   - Closed Stance: Similar to square, but with the rear foot moved slightly back and turned outward (for a right-handed archer, the right foot moves back).
-     - _Pros_: Provides extra stability and power to the front bow shoulder and minimizes pelvic movement upon release (if draw-side connection is already solid).
-     - _Cons_: Niche stance; limits range of motion because shoulders start very close to their final aligned position, making it difficult to open the bow properly.
-3. Hips Over Feet (Stance and Hip Alignment): Do not pivot your hips back to square them with the target line. The angle of the hips must stay locked parallel to the angle of your stance throughout the entire shot cycle, avoiding twists that degrade lower-body stability.
-   - _Purpose:_ Hips that twist back toward square pinch the spine against the shoulder blade, which fakes back tension and leaves no room to expand. Locked hips keep the lower body a stable platform for the torso to rotate on.
-4. Weight Distribution: Maintain an even weight balance across both feet (50/50 balance). Alternatively, use a forward bias (60/40 split), shifting 60% of your body weight onto the balls of your feet and 40% on your heels.
-   - _Purpose:_ Leaning back towards the rear foot ("teapotting") disrupts posture and causes recoil at release. Even or slightly forward weight keeps the core and legs engaged and lets you adapt to wind or uneven ground.
-5. Knee Position: Keep knees straight, but never lock them out.
-   - _Purpose:_ Locked knees switch off key leg muscles and reduce balance; straight but unlocked knees keep active muscle tension for stability. Note the conflicting Kaminski cue under Faults & Diagnostics.
-6. Low Centre of Gravity & Solid Base: Maintain a low, grounded body position and a stable athletic foundation to maximise clearance and overall shot control.
-   - _Purpose:_ A low, grounded base resists the forward pull of the raised bow and gives you the stability to feel subtle shifts, so movement does not mask what the shoulders and back are doing. This step has no stronger source in the note; treat the mechanism as inferred.
+_Before you start:_ wear flat shoes with thin soles and minimal cushioning, so you can feel small shifts in balance through your feet.
+
+1. Place your feet—Straddle the shooting line with your feet roughly shoulder-width apart, set in your chosen stance (see [[#Stance Variations]]).
+   - _Purpose:_ The foot angle decides how far the torso must later rotate to bring the shoulders into line with the target.
+2. Lock the hips to the feet—Keep the hips parallel to the line of your feet for the whole shot. Don't let them pivot back to square with the target as you draw.
+   - _Purpose:_ Hips that turn back toward square press the spine against the shoulder blade. That fakes back tension and leaves no room to expand. Locked hips give the torso a fixed platform to rotate on.
+3. Set your weight—Keep the weight even between the front and back foot, biased about 60/40 onto the balls of the feet rather than the heels.
+   - _Purpose:_ Keeps the legs and core engaged and lets you adjust to wind or uneven ground. Weight drifting onto the back foot is the start of leaning back (see [[Archery Shot Process - Posture|Posture]]).
+4. Set your knees—Straight but active, not pushed back into a passive lock.
+   - _Purpose:_ A passive lock switches off key leg muscles and reduces balance. Straight, active knees keep the legs working for stability. See [[#Open Questions]] for a contrary cue.
+5. Plant—Once your stance is set, keep your feet where they are. Don't shuffle between arrows.
+   - _Purpose:_ Everything above the feet inherits their position, so a fixed base makes the whole shot repeatable. Check it with [[#Chalk Stance Tracing]].
+
+### Stance Variations
+
+There is no single "perfect" stance; the right one depends on your body, bow set-up, and technique. General rule: the more open the stance, the easier it is to connect the draw side. The more closed the stance, the more it favours bow-side alignment and stability.
+
+#### Square Stance
+
+- Set-up: Feet shoulder-width apart, with the toes on a line pointing straight at the target. Lay an arrow on the ground pointing at the target to check the line.
+- Pros: Easier to hold a vertical "T". Needs less torso rotation, so there is less spine stress and fatigue. Suits beginners and archers with limited upper-body flexibility.
+- Cons: Less stable in crosswinds. Because alignment comes easily, it is easy to let the core and back switch off.
+
+#### Open Stance
+
+- Set-up: Draw the front foot back slightly from the target line so the stance opens about 10–15° toward the target. Turn both feet and the pelvis together, keeping the feet roughly parallel (see [[#Faults & Diagnostics]]).
+- Check: Imagine a line from the target through the ball of your front foot. It should meet the instep of your back foot.
+- Pros: Encourages a strong draw-side connection (hook, hand, elbow, back). More stable in wind. With a heavy bow, lets you rest the bow on your leg during set-up.
+- Cons: The torso twist can cause fatigue or back pain. With limited flexibility, bow-shoulder alignment gets much harder.
+
+#### Closed Stance
+
+- Set-up: As square, but with the back foot moved slightly back and turned outward (for a right-handed archer, the right foot).
+- Pros: Extra stability and power in the bow shoulder, and minimal pelvic movement at release, provided the draw-side connection is already solid.
+- Cons: Niche. The shoulders start close to their final aligned position, which limits range of motion and makes it hard to open the bow properly.
 
 ### Why It Works
 
-- The Wedge Open Stance: Rotating the lower body open relative to the target line allows the torso to rotate back around the front bow shoulder. This effectively reduces the angle between the bow arm and the shoulder line (Angle B in the Wedge biomechanical model) to 0 degrees, eliminating adverse lateral loading and taking the bow load purely as compressive skeletal force through the shoulder girdle.
-- Open Stance: It encourages better rotation through the torso, allowing you to recruit your back muscles and core abdominals far more effectively for proper back tension.
-- Back Foot Position: Never externally rotate your back foot past parallel away from the target, as this forces an unwanted arch into your lower back.
-- Weight Distribution: Leaning back towards the rear foot (referred to as "teapotting") disrupts posture and causes body recoil upon release. A 60/40 athletic stance automatically engages the core/legs, keeps you grounded, and allows you to adjust to wind or uneven surfaces.
-- Knee Position: Fully locking knees disengages key leg muscles and reduces balance; keeping them straight but unlocked maintains active muscle tension for stability.
-- Footwear: Wear flat-soled shoes with thin soles and minimal cushioning or arch damping. This improves grounding feedback, making it easier to feel subtle shifts in balance.
-- Kinetic Scaling: Historically, stance variations adapt to the weapon's demands (e.g., Qing dynasty military archers drawing 80–100 lbs required different biomechanical leverage). For modern compound and recurve, the open stance provides the highest degree of repeatable stability.
+- Open stance and the Wedge model: Opening the lower body lets the torso rotate back around the bow shoulder. In the Wedge biomechanical model, this closes the angle between the bow arm and the shoulder line (Angle B) toward 0°. The bow's load then passes through the shoulder girdle as skeletal compression, rather than pushing sideways on the shoulder. The same rotation makes the back muscles and core easier to recruit for back tension.
+- Two weight rules, two axes: "Even" applies along the target line (front foot versus back foot). "60/40" applies across it (toes versus heels). They don't conflict. Along the target line, expect the raised bow to pull your centre of pressure toward the front foot (see [[Archery Shot Process - Posture#Why It Works|Posture]]).
 
 ### Faults & Diagnostics
 
-- Knee Locking: While some systems advise against locking knees, Jake Kaminski explicitly recommends locking your knees by pulling your kneecaps up and engaging your quadriceps and glutes in order to lock the hip girdle.
-- Incorrect Open Stance: Simply dropping or stepping one foot backward creates artificial hip twist and torsion. Keep the feet parallel and rotate the entire lower body and pelvis together toward the target. If managing an open stance introduces pelvic instability or over-rotation, switch to a simpler square stance.
+- Stepping back instead of rotating: Dropping one foot back while the toes still point square twists the hips against the feet and builds in torsion. _Fix:_ keep the feet parallel and rotate the feet and pelvis together. If an open stance still brings pelvic instability or over-rotation, switch to square.
+- Hips turning back to square: The hips pivot away from the target as you draw, faking back tension (step 2). _Fix:_ the [[#Paper Towel Drill]]; check with the hip rotation audit under [[#Assessment Metrics]].
+- Back foot turned out: Rotating the back foot past parallel, away from the target, forces an arch into the lower back. _Fix:_ keep the back foot at parallel or turned slightly toward the target.
 
 ### Training Drills
 
 #### Chalk Stance Tracing
 
-- Purpose: Builds strict consistency in foot placement and detects unconscious stance drift between ends.
-- How to do it:
-  1. Set up your optimal foot placement on the shooting line.
-  2. Use chalk to trace the outlines of your shoes on the floor.
-  3. Verify that your feet align exactly to the chalk marks on every subsequent end.
+- Purpose: Builds strict consistency in foot placement and catches unconscious drift between ends.
+- How:
+  1. Set your feet in your stance on the shooting line.
+  2. Trace round your shoes in chalk.
+  3. On every later end, check that your feet sit exactly in the outlines.
 
-#### Foot Outward Intention Drill (The "Paper Towel" Drill)
+#### Paper Towel Drill
 
-- Purpose: Stabilises the hips and glutes, preventing hip rotation, shifting, or sloshing upon release.
-- How to do it:
+- Purpose: Stabilises the hips and glutes with an outward foot intention, so the hips don't rotate, shift, or slosh at release.
+- How:
   1. Stand in your normal stance.
-  2. Imagine standing on a sheet of paper towel and trying to tear it in two with your feet without twisting.
-  3. Apply this isometric outward force through your feet against the floor.
-  4. Maintain this outward spreading ground tension throughout your whole shot cycle (set-up, draw, and follow-through).
+  2. Imagine standing on a paper towel and trying to tear it in two by pressing your feet outward, without twisting them.
+  3. Hold that outward pressure into the ground through set-up, draw, and follow-through.
 
 #### Balance Disc Tech Draws
 
-- Purpose: Builds active core stability and ankle micro-adjustments under load.
-- How to do it:
-  1. Stand on two rubber balance cushions/discs in your shooting stance.
-  2. Perform tech draws with a light bow or band, maintaining vertical T-posture alignment throughout the shot cycle.
+- Purpose: Builds active core stability, ankle micro-adjustments, and balance you can feel rather than see.
+- How:
+  1. Stand on two balance discs, or a wobble cushion, in your shooting stance.
+  2. Do tech draws with a light bow or band, holding the vertical "T" through the whole shot cycle.
+  3. Progression: shoot at a blank bale from the cushion, or close your eyes during execution, so balance comes from feel rather than sight.
 
 ### Assessment Metrics
 
-- Center of Pressure Mapping: Draw the bow on pressure plates. Weight should remain consistently 60/40 (front/back) without rocking onto heels during expansion.
-- BESS (Balance Error Scoring System): A clinical balance assessment measuring postural stability. High scores indicate superior proprioception, minimizing pin float.
-- Hip Rotation Audit: A coach observes hips from behind. Hips must remain locked in their initial open position and not rotate backward as the bow is drawn.
+- Centre of pressure mapping: Draw the bow standing on pressure plates. The toe/heel split should hold at about 60/40, with no rocking onto the heels during expansion.
+- BESS (Balance Error Scoring System): A clinical test that counts balance errors across set stance conditions; lower scores are better. It measures general postural stability. The link to a steadier sight pin is assumed, not shown.
+- Hip rotation audit: A coach watches the hips from behind. They should stay locked in their starting open position and not rotate back as the bow is drawn.
+
+### Open Questions
+
+- Knee lock: Most sources say never lock the knees. Jake Kaminski recommends locking them by pulling the kneecaps up and engaging the quads and glutes to lock the hip girdle. A possible reconciliation (inferred, not sourced): the warning targets passively hanging on the joint, while Kaminski's version is an active muscular brace. Unresolved; test both.
+- Foot angles: This note's working spec is feet roughly parallel, opened 10–15°. A recorded "Olympic standard" puts the ball of the back foot on the target line, rotated 15° open, and the front foot about two inches behind the line, rotated 30° open, so the feet are not parallel. Source not recorded; it is probably one coaching system's prescription rather than an official standard.
+- Closed stance versus the back-foot rule: The closed stance turns the back foot outward, which the back-foot fault says forces a lower-back arch. One of the two is overstated; check against source.
+- Wedge model: Source not recorded, and "Angle B" is only loosely defined here.
 
 ### References
 
 - What is the perfect archery stance? (Online Archery Academy)
 - Top 10 Mistakes in Beginner Archery Classes (Online Archery Academy)
 - Coach Jared Gracious (Rogue Archery TV), form analysis and biomechanics session (YouTube 5GdJtjQvkb8)
+- Jake Kaminski, knee-locking cue (specific source not recorded)
 
 ---
 
