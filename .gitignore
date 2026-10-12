@@ -37,5 +37,3 @@ gemini-scribe/scripts/.venv/
 /.fastembed_cache/models--Xenova--bge-small-en-v1.5
 /.obsidian-mcp/embeddings
 /.obsidian-mcp/embeddings
-# Claude Code local permissions (can hold tokens; keep out of the public repo)
-.claude/settings.local.json
