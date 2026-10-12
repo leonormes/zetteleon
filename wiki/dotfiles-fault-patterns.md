@@ -23,8 +23,9 @@ Living document for classifying and tracking chezmoi / topgrade failure patterns
 | `brew-bundle-hang` | `brew bundle` hangs on cask CDN TLS rejection | — | Remove from inventory; re-add when CDN fixed |
 | `path-resolution` | Tool binary not found from within chezmoi context (keg-only, missing mise shim) | — | Add opt paths to `_.path` in mise config |
 | `shebang-python-drift` | Python-script CLI (pipx, others) resolves `env python3` to system 3.9.6 because mise shims sit at END of PATH, after /usr/bin | Repeat (issues #3, #8) | Chezmoi-managed `~/.local/bin/pipx` wrapper that prepends `mise/installs/python/latest/bin` to PATH before exec; `PIPX_DEFAULT_PYTHON` alone is NOT enough — it only fixes target venv Python, not the launcher runtime |
-| `wrapper-subtool-drift` | CLI wrapper fixes launcher Python but sub-tool (uv backend) still missing on PATH — pipx upgrade fails "uv executable could not be found" | New (issue #10) | Wrapper must prepend ALL mise bin dirs the tool depends on (python + uv for pipx); verify with `pipx environment \| grep BACKEND` |
-| `stale-cask-binary` | Interrupted cask upgrade leaves orphan binary; next upgrade fails "It seems there is already a Binary at" | New (issue #11) | `sudo rm <orphan-binary>` then reinstall cask; watch for after killed brew bundle runs |
+| `wrapper-subtool-drift` | CLI wrapper fixes launcher Python but sub-tool (uv backend) still missing on PATH — pipx upgrade fails "uv executable could not be found" | Repeat (issue #10) | Wrapper must prepend ALL mise bin dirs the tool depends on (python + uv for pipx); verify with `pipx environment \| grep BACKEND` |
+| `stale-cask-binary` | Interrupted cask upgrade leaves orphan binary; next upgrade fails "It seems there is already a Binary at" | Repeat (issues #11, #14) | `sudo rm <orphan-binary>` then reinstall cask; preventive: topgrade pre-command that removes a non-symlink binary before the cask step |
+| `upstream-breakage` | Upstream dependency fails to compile (cargo/rust build error from a dependency, e.g. hygg → pdf_oxide E0063); not a dotfiles fault, not auto-remediable | New (issue #15) | Exclude/pin offending tool: topgrade `ignore_failures` for the cargo step, or drop the tool from `cargo install-update --all --git` until upstream fixes |
 | `data-source-drift` | Hardcoded array diverged from packages.yaml source of truth | — | Eliminate hardcoded lists; source from data layer |
 | `hash-header-drift` | SHA256 hash path in run_onchange script not updated for renamed/moved data file | — | Update hash path in every consumer when data source moves |
 | `other` | New/unclassified | — | Add to this table after retrospective |
@@ -33,3 +34,5 @@ Living document for classifying and tracking chezmoi / topgrade failure patterns
 
 | Date | Total | Categories | Trend |
 |------|-------|------------|-------|
+| 2026-10-05 | 0 | — | — (tracking clean) |
+| 2026-10-12 | 2 | stale-cask-binary (1: #14), upstream-breakage (1: #15) | up 0→2 |

@@ -1,5 +1,6 @@
 ---
 conformant: false
+contradicts: ["[[Archery Shot Process - Release]]"]
 created: 2026-09-21T15:44:45+00:00
 created_utc: '2026-09-21T16:36:00Z'
 modified: 2026-09-29T10:37:52+00:00
@@ -32,4 +33,4 @@ Applies to the release phase of a recurve archery shot.
 
 ### Related
 
-- [[Archery Shot Process - Release]]—shared mechanism: actively guiding the hand versus passively letting go.
+- [[Archery Shot Process - Release]]—contradicts: the Release note teaches passive finger relaxation and says extensor use causes a wide, flappy release. Unresolved; ask the coach before changing either note. Year-one practice follows the Release note.

@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-22T00:00:00+00:00
-modified: 2026-10-07T12:28:00+01:00
+modified: 2026-10-12T10:09:41+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-practice-drills
 tags: [archery, practice, prodos/atomic, training]
 title: Archery Practice Drills
@@ -17,6 +17,7 @@ A collection of mental frameworks, physical drills, and practice methodologies d
 ### Active Structured Plans
 
 - [[Archery Practice Plan - Peter's Protocol|Archery Practice Plan - Peter's Protocol]]: A structured 3-phase training program combining at-home resistance band practice, bow hold conditioning, blank-bale sessions with Peter, and a clear step-by-step summary of the 10-Step Shot Recipe.
+- [[Archery Year-One Coaching Framework (Months 5-12)]]: The current block plan. Use this library as a menu: pick one drill per block rather than working through all 31.
 
 ### The Benchmark Phase
 
@@ -96,6 +97,7 @@ _Note on the Role of Feelings:_ Only use kinesthetic drills to expose yourself t
 - Overriding Old Programs: To overcome years of poor technique, you must actively and cognitively direct the correct movement every single time, or the brain defaults to the bad habit.
 - Verbal Cues for High-Effort Movements: Words are highly effective triggers. The subconscious naturally seeks the easiest path and may skip effort-heavy steps (like transferring into back tension). Verbally cueing yourself in your mind (e.g., saying "transfer") ensures demanding steps are completed.
 - Personalized Shot Sequence: Build a personal sequence that specifically targets the movements you personally tend to execute poorly.
+- Build vs Refine: Early on, build one repeatable whole process bottom-up (stance, then posture, and so on) and ignore downstream results. Expert-level flow markers come later. See [[Archery Learning Sequence - Build the Whole Process First]] for the tiers, the Standard Teaching Process ladder and the advance/regress cues.
 
 ### Core Practice Strategies & Mindset Hacks
 
@@ -245,20 +247,20 @@ _(Note: This is a diagnostic drill detailed in the [[Archery Shot Process - Foll
 
 - The Goal: Safely transition from a linear to an angular draw without loss of balance, wrist kinking, or aiming disruption caused by the sight pin's lateral travel.
 - How to do it:
-  1. *Stage 1 (Movement Isolation):* Practice the angular opening and scapular rotation using a light stretch band or training bow until the two-phase rotation (core rotation to half-closed, then scapular retraction) feels smooth.
-  2. *Stage 2 (Blank Butt Repetition):* Shoot at a blank bale from 3–5 meters to engrain the rotation and eliminate target anxiety while the body learns the continuous rotational arc.
-  3. *Stage 3 (Aiming Synchronization):* Introduce a large, close-range target face. Practice timing the sight pin's lateral glide so it naturally floats into the gold precisely as you settle into anchor, avoiding jarring corrections at full draw.
+  1. _Stage 1 (Movement Isolation):_ Practice the angular opening and scapular rotation using a light stretch band or training bow until the two-phase rotation (core rotation to half-closed, then scapular retraction) feels smooth.
+  2. _Stage 2 (Blank Butt Repetition):_ Shoot at a blank bale from 3–5 meters to engrain the rotation and eliminate target anxiety while the body learns the continuous rotational arc.
+  3. _Stage 3 (Aiming Synchronization):_ Introduce a large, close-range target face. Practice timing the sight pin's lateral glide so it naturally floats into the gold precisely as you settle into anchor, avoiding jarring corrections at full draw.
 
 #### 23. Physical Foundation Screening & Conditioning (Mobility, Motor Control, Strength)
 
 - The Goal: Screen and develop the three physiological prerequisites required before complex archery techniques can be successfully learned and sustained.
 - 1. Mobility Screening (Shoulder Dislocates & Neutral-Grip Dumbbell Press):
-  - *Shoulder Dislocates:* Hold a broomstick or stretch band with a wide, pronated (palms down) grip. Move in a wide circular arc all the way behind you to touch your pelvis, then return without allowing shoulders to shrug or ride up toward the ears. Screens for pec tightness and restricted glenohumeral extension.
-  - *Corrective Press:* If tightness or shrugging is identified during dislocates, perform neutral-grip dumbbell presses on a flat bench to work the pecs through a full, deep eccentric range of motion to restore joint mobility.
+  - _Shoulder Dislocates:_ Hold a broomstick or stretch band with a wide, pronated (palms down) grip. Move in a wide circular arc all the way behind you to touch your pelvis, then return without allowing shoulders to shrug or ride up toward the ears. Screens for pec tightness and restricted glenohumeral extension.
+  - _Corrective Press:_ If tightness or shrugging is identified during dislocates, perform neutral-grip dumbbell presses on a flat bench to work the pecs through a full, deep eccentric range of motion to restore joint mobility.
 - 2. Motor Control & Eccentric Stability (Controlled Scapular Rows):
   - Using a cable machine or resistance band, begin from a fully stretched reach. Decisively retract and depress the scapula (down and back), pull the elbow back, and hold for 3 seconds at peak contraction.
-  - *Controlled Eccentric Phase:* Slowly release forward over 3–4 seconds while actively maintaining the set scapular retraction before stretching forward again.
-  - *Fault to Watch:* If the shoulder joint pops forward ahead of the arm during the let-down phase, it indicates a failure of neuromuscular control to stabilize the scapula under eccentric load.
+  - _Controlled Eccentric Phase:_ Slowly release forward over 3–4 seconds while actively maintaining the set scapular retraction before stretching forward again.
+  - _Fault to Watch:_ If the shoulder joint pops forward ahead of the arm during the let-down phase, it indicates a failure of neuromuscular control to stabilize the scapula under eccentric load.
 - 3. Strength Foundation (Full-Depth Dead-Hang Chin-ups):
   - Start from a complete dead hang to stretch and open the subscapularis and lats. Pull up until the chest makes contact with the bar, pausing briefly before lowering under strict control. Serves as a primary benchmark of scapular retractor strength and pulling capacity.
 
@@ -267,10 +269,10 @@ _(Note: This is a diagnostic drill detailed in the [[Archery Shot Process - Foll
 - The Goal: Develop neuromuscular efficiency and prevent antagonistic co-contraction (fighting your own muscles) by breaking the shot cycle into four distinct isometric holds without the fatigue of bow poundage.
 - Neuromuscular Benefit: Training on a light stretch band allows archers to sustain positions long enough for a coach or mirror audit to verify alignment, teaching the nervous system which muscle groups to engage (scapular retractors, core) and which to keep completely relaxed (forearm extensors, traps).
 - The 4 Key Positions:
-  1. *Position 1 (Setup):* Set foot stance, finger hook, and grip pressure point with light band tension. Keep head centered to the target, chest compressed down, shoulders square, and wrists completely devoid of tension.
-  2. *Position 2 (Pre-draw):* Execute thoracic spine rotation to align the shoulders without breaking the upright "T" posture or arching the lumbar spine. Ensure the front shoulder remains set down and internally rotated.
-  3. *Position 3 (Anchor / Full Draw):* Retract the drawing-side scapula and swing the draw elbow around into the arrow line, establishing a firm upward connection into the jawline while preserving spinal alignment.
-  4. *Position 4 (Follow-through):* Execute a dynamic release. The drawing scapula must finish at 100% full retraction with the rear elbow level with the shoulder. The front shoulder remains depressed and the bow arm extended forward without collapsing inward or buckling the hips.
+  1. _Position 1 (Setup):_ Set foot stance, finger hook, and grip pressure point with light band tension. Keep head centered to the target, chest compressed down, shoulders square, and wrists completely devoid of tension.
+  2. _Position 2 (Pre-draw):_ Execute thoracic spine rotation to align the shoulders without breaking the upright "T" posture or arching the lumbar spine. Ensure the front shoulder remains set down and internally rotated.
+  3. _Position 3 (Anchor / Full Draw):_ Retract the drawing-side scapula and swing the draw elbow around into the arrow line, establishing a firm upward connection into the jawline while preserving spinal alignment.
+  4. _Position 4 (Follow-through):_ Execute a dynamic release. The drawing scapula must finish at 100% full retraction with the rear elbow level with the shoulder. The front shoulder remains depressed and the bow arm extended forward without collapsing inward or buckling the hips.
 
 #### 25. Mirror Anchor & Proprioception Training (Light Stretch Band)
 
@@ -292,11 +294,11 @@ _(Note: This is a diagnostic drill detailed in the [[Archery Shot Process - Foll
 
 - The Goal: Teach back tension as continuous physical motion rather than an isolated muscle contraction, and bridge the technical progression to a Formaster or bow-mounted Shot Trainer.
 - How to do it:
-  1. *Elbow Hook:* Loop a light-to-medium Thera-band around the point of your drawing elbow (leaving the drawing hand and wrist completely disengaged).
-  2. *Draw to Anchor:* Initiate the draw by pulling from the elbow and scapular retractors/posterior cuff, letting the hand follow passively. Ensure the band remains a straight, flat line rather than opening into a triangle (a triangle indicates an inward pull with the hand rather than driving the elbow).
-  3. *Follow-Through Extension:* Draw smoothly through the anchor position and continue the angular elbow path all the way into the full follow-through position.
-  4. *Scapular Prime (5-Second Squeeze):* Hold the full follow-through contraction for 5 seconds to actively prime and condition the scapular retractors.
-  5. *Eccentric Control:* Slowly reverse the movement under complete control, passing back directly through the correct anchor position before letting down to pre-draw. Maintain elbow height throughout; do not let the back elbow drop during the eccentric let-down.
+  1. _Elbow Hook:_ Loop a light-to-medium Thera-band around the point of your drawing elbow (leaving the drawing hand and wrist completely disengaged).
+  2. _Draw to Anchor:_ Initiate the draw by pulling from the elbow and scapular retractors/posterior cuff, letting the hand follow passively. Ensure the band remains a straight, flat line rather than opening into a triangle (a triangle indicates an inward pull with the hand rather than driving the elbow).
+  3. _Follow-Through Extension:_ Draw smoothly through the anchor position and continue the angular elbow path all the way into the full follow-through position.
+  4. _Scapular Prime (5-Second Squeeze):_ Hold the full follow-through contraction for 5 seconds to actively prime and condition the scapular retractors.
+  5. _Eccentric Control:_ Slowly reverse the movement under complete control, passing back directly through the correct anchor position before letting down to pre-draw. Maintain elbow height throughout; do not let the back elbow drop during the eccentric let-down.
 - Progression to Shot Trainer / Formaster: This Thera-band execution drill is the essential precursor to working with a Formaster or Shot Trainer, allowing the archer to ingrain proper linear-rotational kinematics and eccentric control before loading the elbow with the full physical poundage of a real bow.
 
 #### 28. Physical Psycho-Triggers for Target Panic (Bypassing Gold Anxiety)
@@ -312,19 +314,19 @@ _(Note: This is a diagnostic drill detailed in the [[Archery Shot Process - Foll
 
 - The Principle: Technique must precede volume, and volume must precede load (poundage).
 - Progression: Progress systematically through four stages of training complexity:
-  1. *Stage 1 (Flex Band):* Isolate skeletal positions, joint angles, and rotational kinematics without bow mass or draw weight.
-  2. *Stage 2 (Training Bow):* Replicate physical contact points, grip pressure, and facial anchors with minimal resistance.
-  3. *Stage 3 (Light Bow on Blank Bale):* Reinforce dynamic expansion, back tension, and subconscious release without the anxiety of aiming or target feedback.
-  4. *Stage 4 (Target & Scored Shooting):* Integrate aiming synchronisation and external competition variables.
+  1. _Stage 1 (Flex Band):_ Isolate skeletal positions, joint angles, and rotational kinematics without bow mass or draw weight.
+  2. _Stage 2 (Training Bow):_ Replicate physical contact points, grip pressure, and facial anchors with minimal resistance.
+  3. _Stage 3 (Light Bow on Blank Bale):_ Reinforce dynamic expansion, back tension, and subconscious release without the anxiety of aiming or target feedback.
+  4. _Stage 4 (Target & Scored Shooting):_ Integrate aiming synchronisation and external competition variables.
 - Volume & Load Governance: Never advance to higher arrow volume or heavier limb weight if fundamental technique breaks down under fatigue. Stabilise mechanics at low intensity before compounding physical stress.
 
 #### 30. Event Goal Setting (Outcome, Process, Experience)
 
 - The Goal: Build psychological resilience, prevent performance collapse, and transfer training scores into competitive environments.
 - Framework: When preparing for tournaments or scored rounds, define three distinct tiers of goals:
-  - *Outcome Goal:* The statistical benchmark or ranking target (e.g. achieving a personal best score or podium finish). Acknowledge it beforehand, but set it aside once on the shooting line.
-  - *Process Goal:* The concrete biomechanical focus completely within your control (e.g. maintaining front-shoulder depression, continuous scapular expansion, or a disciplined 3-step post-shot review).
-  - *Experience Goal:* The mental and emotional state you intend to cultivate (e.g. remaining composed under time pressure, staying present after an errant arrow, or enjoying the competition environment).
+  - _Outcome Goal:_ The statistical benchmark or ranking target (e.g. achieving a personal best score or podium finish). Acknowledge it beforehand, but set it aside once on the shooting line.
+  - _Process Goal:_ The concrete biomechanical focus completely within your control (e.g. maintaining front-shoulder depression, continuous scapular expansion, or a disciplined 3-step post-shot review).
+  - _Experience Goal:_ The mental and emotional state you intend to cultivate (e.g. remaining composed under time pressure, staying present after an errant arrow, or enjoying the competition environment).
 - Why it works: Archers fixated solely on outcomes experience acute anxiety when an arrow lands outside the gold. Anchoring mental focus to process and experience preserves emotional stability, allowing subconscious motor programs to run unimpeded.
 
 #### 31. Soften Aiming Focus (The "Red Zone" Mindset)

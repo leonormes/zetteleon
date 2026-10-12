@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T00:00:00+00:00
-modified: 2026-10-07T12:28:00+01:00
+modified: 2026-10-08T14:30:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-release
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Release
@@ -41,7 +41,8 @@ Release is the act of letting go of the string, which should be an involuntary, 
 
 ### Faults & Diagnostics
 
-- Static/Dead Release: A forced or static release is a symptom of lost connection during expansion (usually caused by prematurely maxing out the scapula's range of motion at anchor, leaving nowhere to go). The release must remain a dynamic reaction to the sudden change in force equilibrium as the draw arm continues uninterrupted through its range of motion.
+- Static/Dead Release: A forced or static release is a symptom of lost connection during expansion (usually caused by prematurely maxing out the scapula's range of motion at anchor, leaving nowhere to go). The release must remain a dynamic reaction to the sudden change in force equilibrium as the draw arm continues uninterrupted through its range of motion. A second video summary gives another cause: over-relaxing or failing to hold back tension, so the hand stays where it is instead of reacting backward ("relaxed shot" video, 00:09:46). The two causes can both be true.
+- **Hyperextending Front Elbow on Recoil:** A locked-out bow elbow cannot absorb the bow's recoil, so the joint hyperextends on every release (like a boxer punching past the target), which can cause tennis- or pitcher's-elbow-type pain. A soft elbow acts as a shock absorber (front-elbow video, 00:02:28). See [[Archery Shot Process - Raise]].
 - Anticipation and Finger Movement: Moving or splaying the fingers before the arrow has fully left the string indicates subconscious anticipation of the bow jumping into the sling. The fingers must stay passive and quiet, letting the string push them open.
 - The Pluck: The draw hand pulls outward away from the face upon release. Caused by excess tension in the hand, forearm, and biceps.
 - The Collapse: The draw hand moves forward toward the target upon release. Caused by stopping the pulling motion right before the shot (a stagnant elbow breaks the connection to the back muscles), or poor skeletal alignment.
@@ -137,6 +138,8 @@ See also: [[Archery Shot Process - Finger Tab Selection & Maintenance]]—worn/g
 
 - Jake Kaminski, "50m Traditional Recurve / Mental Game & Psycho Trigger" (Thumb-to-Pinky trigger, creeping/plucking diagnostics, target panic management)
 - Coach Jared Gracious (Rogue Archery TV), form analysis and biomechanics session (YouTube 5GdJtjQvkb8)
+- Front-elbow lockout video (YouTube rOPvPrnGkS0; Gemini summary captured 2026-10-08; title and channel not recorded)
+- "Relaxed shot" vs weak shot video (YouTube jQ4wovCJipI; Gemini summary captured 2026-10-08; title and channel not recorded; mentions a peep sight and release aid, so it may be compound-oriented). Its cue to hold a release aid in a relaxed U or J shape without squeezing a fist was not added: it applies to a mechanical release aid, not a finger tab.
 
 ---
 

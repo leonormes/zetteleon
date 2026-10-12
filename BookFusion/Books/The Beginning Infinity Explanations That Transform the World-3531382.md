@@ -2,6 +2,8 @@
 bookfusion.book_id: '3531382'
 bookfusion.synced_at: '2026-10-04T20:04:05+00:00'
 permalink: llmeon/book-fusion/books/the-beginning-infinity-explanations-that-transform-the-world-3531382
+created: 2026-10-04T20:05:31+00:00
+modified: 2026-10-10T13:09:00+00:00
 ---
 
 %%begin-book-3531382%%
@@ -31,5 +33,5 @@ permalink: llmeon/book-fusion/books/the-beginning-infinity-explanations-that-tra
 %%begin-highlight-4953018%%
 ### 5. The Reality of Abstractions
 
-[[BookFusion/Books/The Beginning Infinity Explanations That Transform the World-3531382/4953018|4953018]]
+![[BookFusion/Books/The Beginning Infinity Explanations That Transform the World-3531382/4953018|4953018]]
 %%end-highlight-4953018%%

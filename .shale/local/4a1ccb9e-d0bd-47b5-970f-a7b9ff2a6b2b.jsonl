@@ -1,0 +1,4 @@
+{"kind":"session_meta","at":"2026-10-12T12:58:38.117954Z","tool":"claude-code","session_id":"4a1ccb9e-d0bd-47b5-970f-a7b9ff2a6b2b"}
+{"kind":"prompt","at":"2026-10-12T12:58:40.734487Z","text":"Run: op read op://nonexistent/x/y"}
+{"kind":"session_end","at":"2026-10-12T12:58:47.781592Z"}
+{"kind":"session_end","at":"2026-10-12T12:58:48.768234Z"}

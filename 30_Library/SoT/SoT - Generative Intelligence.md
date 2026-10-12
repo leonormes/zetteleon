@@ -1,5 +1,5 @@
 ---
-aliases: [Creative Intelligence, Framework Generation, Generative Thinking, Paradigm Shift Intelligence, Revolutionary Science]
+aliases: [Generative Intelligence, Creative Intelligence, Framework Generation, Generative Thinking, Paradigm Shift Intelligence, Revolutionary Science]
 conformant: true
 created: 2024-03-30T00:00:00+00:00
 modified: 2026-09-29T10:38:10+00:00
@@ -87,6 +87,7 @@ The ADHD brain is uniquely wired for Generative Intelligence due to its Interest
 - [[Paradigm Shifts Complete Through Generational Turnover, Not Persuasion]]—_Supports the Resistance point in section 3: the established guard resists, and the shift completes when they are gone._
 - [[Galileo's Heliocentrism Is Feyerabend's Counterexample to Strict Empiricist Rules]]—_A worked treatment of the Galileo case, framed as a counterexample to following strict rules._
 - [[Ptolemaic System as a Patched Flawed Model]]—_The applicative side in action: patching an established model with added complexity instead of questioning its core._
+- [[Impact of Set 2 Breakthroughs]]—_The consequence side: each generative breakthrough opens new ground for applicative work, which is how a revolution turns back into normal science._
 
 ### Character and Mind
 

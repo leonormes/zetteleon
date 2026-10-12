@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-10-07T21:32:39+00:00
+modified: 2026-10-08T14:30:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-posture-1
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Posture
@@ -99,6 +99,10 @@ For balance work on an unstable surface or with eyes closed, see [[Archery Shot 
 - Dowel or wall check: Stand with a dowel along your spine, or with your back to a flat wall. Pass: your head, upper back, and sacrum all touch at once, with no hollow back.
 - Behind-the-line video check: Film a few shots from directly behind you on the shooting line, with a tripod or pole standing slightly to the side between you and the target as a fixed vertical reference. Pass: the spine stays vertical, the ribcage doesn't tilt back, and the torso doesn't drift toward or away from the target from set-up to follow-through. For quick repeat checks between ends, use a phone on a stand or a training mirror.
 
+### Alternative Views / Corrections
+
+- Lean over the front foot at setup (relaxed-shot video summary, 2026-10-08): lean slightly over the front foot when first setting the bow arm out, which helps centre the body when you return to full draw (00:07:17). This agrees with the weight-forward shift in [[Archery Shot Process - Raise]] step 2, but [[Archery Shot Process - Raise]] also warns not to lean forward to reach, and the "raised bow pulls you toward the target" bullet in Why It Works above says to stay stacked. Treat it as a small weight shift over a vertical trunk, not a lean. Not yet confirmed by a coach.
+
 ### Open Questions
 
 - 90% draw-weight figure: Source not recorded.
@@ -109,6 +113,7 @@ For balance work on an unstable surface or with eyes closed, see [[Archery Shot 
 - Jake Kaminski, high bow shoulder / tilted rib cage video (YouTube EEMXB1nHmTk)
 - Top 10 Mistakes in Beginner Archery Classes (Online Archery Academy)
 - Coach Jared Gracious (Rogue Archery TV), form analysis and biomechanics session (YouTube 5GdJtjQvkb8)
+- "Relaxed shot" vs weak shot video (YouTube jQ4wovCJipI; Gemini summary captured 2026-10-08; title and channel not recorded; mentions a peep sight and release aid, so it may be compound-oriented)
 
 ---
 

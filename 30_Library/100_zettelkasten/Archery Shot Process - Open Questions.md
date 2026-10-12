@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2026-10-07T13:00:00+01:00
-modified: 2026-10-07T13:00:00+01:00
+modified: 2026-10-08T14:30:00+01:00
 non_conformance_reason: agent-generated review note awaiting triage
 permalink: llmeon/00-inbox/archery-shot-process-open-questions
 source: LLM review of the archery shot-process notes 2026-10-07
@@ -14,7 +14,7 @@ type: concept
 
 ## Archery Shot Process - Open Questions
 
-Four places where the shot-process notes disagree with themselves or with each other, found while adding a Purpose line to every numbered step. None is resolved here. Each needs a coach opinion or a primary source before a note is changed.
+Six places where the shot-process notes disagree with themselves or with each other. The first four were found while adding a Purpose line to every numbered step. The last two came from two YouTube summaries consolidated on 2026-10-08. None is resolved here. Each needs a coach opinion or a primary source before a note is changed.
 
 ### 1. Should the knees be locked?
 
@@ -44,6 +44,20 @@ Four places where the shot-process notes disagree with themselves or with each o
 - **Why it matters:** Raise also says the reach produces the low shoulder as a side effect, so the notes partly agree. The open point is how much deliberate depression to add.
 - **To settle:** Film the raise from behind (see the Behind-the-Line Video Check in [[Archery Shot Process - Posture]]) and ask the coach whether your shoulder needs more downward direction or less.
 
+### 5. Should the bow arm be locked, soft, or extended against the socket?
+
+- **Soft elbow:** front-elbow video summary. Never lock out. A locked elbow removes string clearance, lets the shoulder creep, and hyperextends on recoil. See [[Archery Shot Process - Raise]].
+- **Extended, bone-on-bone:** "relaxed shot" video summary. Keep the bow arm extended, without hyperextending, so it pushes back into the shoulder socket. See [[Archery Shot Process - Loading]].
+- **Why it matters:** the two summaries may describe the same position ("extended but not locked") in different words. Neither gives a degree of bend, and the second video mentions a peep sight, so it may be about compound archery.
+- **To settle:** film the full-draw bow arm from the side and ask the coach whether your elbow is locked, softly bent, or hyperextended.
+
+### 6. Should you push the bow arm forward while pulling?
+
+- **Do not push:** front-elbow video summary. Actively pushing the bow arm forward while pulling drives the humerus high and inside, destroys string clearance and puts the string into the front arm. See [[Archery Shot Process - Loading]].
+- **Push and pull:** [[Archery Shot Process - Expansion]] teaches a two-way push-and-pull, and [[Archery Shot Process - Release]] teaches a two-sided release.
+- **Why it matters:** this decides what you rehearse as the bow-arm cue. The difference may be pushing the arm out versus reaching with a set shoulder, but no source says.
+- **To settle:** ask the coach what the bow arm should do during expansion, and whether string clearance in your own video suggests you are over-pushing.
+
 ### Source of the review
 
-Review done in a Claude Code session on 2026-10-07 while adding Purpose lines to steps in the shot-process notes.
+Questions 1 to 4: review done in a Claude Code session on 2026-10-07 while adding Purpose lines to steps in the shot-process notes. Questions 5 and 6: added 2026-10-08 while consolidating two YouTube summaries (YouTube rOPvPrnGkS0 and jQ4wovCJipI; Gemini summaries, titles and channels not recorded).

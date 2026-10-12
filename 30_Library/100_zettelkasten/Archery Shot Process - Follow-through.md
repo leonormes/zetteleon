@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T00:00:00+00:00
-modified: 2026-10-07T12:28:00+01:00
+modified: 2026-10-08T15:50:02+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-follow-through
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Follow-through
@@ -45,9 +45,10 @@ Follow-through is the dynamic reaction of the body and bow after release, showin
 ### Faults & Diagnostics
 
 - Collapse and Recoil (Front Shoulder Failure Modes): Allowing the bow arm to break down, the drawing elbow to drop, or the spine to buckle as an uncontrolled recoil reaction upon release. True follow-through requires maintaining front-shoulder depression and skeletal alignment throughout the dynamic shot reaction:
-  - *Inward Shoulder Collapse:* The front arm breaks or collapses inward toward the chest upon release, indicating a loss of forward bow-arm intensity and dropped skeletal alignment intent.
-  - *Upward Shoulder Jump:* The front shoulder pops upward on the break of release to catch the falling weight of the bow, rather than letting the sling catch the bow while maintaining an actively stabilized, downward-set shoulder position.
-- The "Soft Shot" & Collapsing Release (Poor Follow-Through / "Peeking" Release): Releasing by simply opening the hand, flicking the drawing fingers outward away from the face, or collapsing forward ("peeking") results in a weak shot that robs string power and sends arrows erratically low and to the right (for a right-handed archer). Maintain a **Straight-Line Dynamic Follow-Through** by sustaining back tension so the drawing hand moves cleanly and straight back along the jawline and neck past the ear.
+  - _Inward Shoulder Collapse:_ The front arm breaks or collapses inward toward the chest upon release, indicating a loss of forward bow-arm intensity and dropped skeletal alignment intent.
+  - _Upward Shoulder Jump:_ The front shoulder pops upward on the break of release to catch the falling weight of the bow, rather than letting the sling catch the bow while maintaining an actively stabilized, downward-set shoulder position.
+- The "Soft Shot" & Collapsing Release (Poor Follow-Through / "Peeking" Release): Releasing by simply opening the hand, flicking the drawing fingers outward away from the face, or collapsing forward ("peeking") results in a weak shot that robs string power and sends arrows erratically low and to the right (for a right-handed archer). Maintain a Straight-Line Dynamic Follow-Through by sustaining back tension so the drawing hand moves cleanly and straight back along the jawline and neck past the ear.
+- Forced Swing: When you hold too long on a weak shot, you may try to force the release by actively pushing the bow arm away, which gives a severe swing left or right in the follow-through ("relaxed shot" video, 00:06:21). Let down instead of forcing a bad shot. A strong follow-through pulls through: the scapula moves toward the spine and the release hand travels straight back over the shoulder while the bow arm moves out and slightly left naturally (00:09:40), which matches steps 2 and 3 above.
 - Body Balance Check: If your torso rocks backward upon release, you are pull-dominant (pulling more than pushing); if your head shifts forward, you are push-dominant (over-pushing).
 - Prerequisites: A proper follow-through relies heavily on having a stabilizer setup, forward weight distribution, and a strong, stable bow arm.
 - Rushing & Prejudging the Result (The Self-Coaching Mistake): Do not immediately look at the target to judge the shot based on score. By doing so, you miss the crucial window to evaluate your physical form.
@@ -115,6 +116,7 @@ Follow-through is the dynamic reaction of the body and bow after release, showin
 - Total Archery - Inside the Archer (Kisik Lee & Tyler Benner)
 - KSL / NTS LAN2 drill summary (captured 2026-09-21; underlying source notes not named): LAN2-led neck-scratch check
 - Coach Jared Gracious (Rogue Archery TV), form analysis and biomechanics session (YouTube 5GdJtjQvkb8)
+- "Relaxed shot" vs weak shot video (YouTube jQ4wovCJipI; Gemini summary captured 2026-10-08; title and channel not recorded; mentions a peep sight and release aid, so it may be compound-oriented)
 
 ---
 

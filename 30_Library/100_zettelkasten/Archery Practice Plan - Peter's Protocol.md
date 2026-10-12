@@ -89,4 +89,5 @@ _Goal: Focus purely on biomechanical form on the shooting range without visual a
 ## Starter Materials & References
 
 - [[MOC - Archery Shot Process|MOC - Archery Shot Process]]—Complete guide and hub for all individual archery shot process steps.
+- [[Archery Year-One Coaching Framework (Months 5-12)]]—Current block plan and session templates. Where it differs from this protocol, the framework is the newer plan.
 - [[Archery Practice Drills|Archery Practice Drills]]—Expanded library of mental frameworks, training protocols, and physical archery drills.

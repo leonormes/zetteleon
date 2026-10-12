@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T00:00:00+00:00
-modified: 2026-10-07T12:28:00+01:00
+modified: 2026-10-08T14:30:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-raise
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Raise
@@ -25,6 +25,8 @@ Raise is the act of lifting the bow to eye level while seating the bow-side shou
    - _Purpose:_ Lifting with both hands avoids over-engaging the deltoids, which fatigue quickly. Eye level pushes the line of draw force so it drives the front shoulder down and back instead of letting it ride up, and avoids dropping into full draw on momentum. Keeping the chest down stops the shoulders shrugging. The slow inhale is said to lower heart rate. See Alternative Views for Kaminski's bow-arm-led lift.
 5. Rotate the bow arm & Triceps Engine (Internal Rotation Lock)—internally rotate during the raise (elbow turned outward/vertical), before full draw weight loads onto the bow. From the apex of the raise through the transition into pre-draw, fully lock this internally rotated bow arm and downward shoulder set to provide an immovable skeletal foundation. The triceps should act as the primary engine of the bow arm to maintain this vertical elbow rotation (bony protrusions of radius/ulna pointing down), which locks the arm structurally, connects power to the body, and prevents string slap.
    - _Purpose:_ Rotating before the full load arrives locks the arm structurally so the bow's force goes through bone and the triceps, not the deltoid. Coach Ash Morgan disputes forcing the shoulder down to achieve this; see Alternative Views.
+   - **Pre-set the soft elbow:** place the bow arm in its final, slightly bent and soft position during the raise, so no elbow adjustment is needed once the bow is loaded. Finding the position under draw tension leads to form breakdown (front-elbow video, 00:03:49).
+   - _Purpose:_ A position set before the load arrives stays set. A position hunted for under load is fought with muscle. Taken from a video summary; the mechanism is partly inferred.
 6. Reach—at the top of the raise, extend the base of the bow wrist/hand as far as possible directly toward the target. Focus on the movement of reaching; this automatically forces the shoulder down, fires the lats and triceps, and wraps tension around the arm down to the wrist (do not overthink flexing individual muscles).
    - _Purpose:_ Reaching is a movement cue, not a muscle cue. It sets the shoulder down and fires the right stabilisers as a side effect, whereas consciously flexing specific muscles creates opposing tension.
 7. Apex Breath & Settle—as you reach the apex of the lift, breathe out and settle downward slightly into your final Set-Up position to relax and stabilize the shoulders.
@@ -48,6 +50,7 @@ Verification—the acromion divot: when the reach is set correctly, the deltoid 
 
 - Lift Driving Force (Jake Kaminski): Kaminski teaches that the bow arm should be the main driving force for the lift, with the draw hand directly connected via the bowstring simply following the bow arm upward. This contrasts with the strict two-handed lift approach which argues that lifting primarily with the bow arm can over-engage the deltoids.
 - The "Scooping" Motion / Aggressive Pull Down (Coach Ash Morgan): While some teach aggressively pulling the shoulder down and using a "scooping" motion to keep it low (as in step 5), Coach Ash Morgan argues this breaks structural connection and pushes the shoulder out of the socket. He recommends starting with a neutral position with only a tiny bit of downward direction and raising naturally; true stability comes from conditioning, not physically forcing the joint down.
+- Soft elbow vs extended bone-on-bone arm (two video summaries, 2026-10-08): the front-elbow video says never lock out and keep a soft, slightly bent elbow. The "relaxed shot" video says keep the bow arm extended, without hyperextending, so bone-on-bone structure pushes back into the socket (see [[Archery Shot Process - Loading]]). They can be reconciled as "extended but not locked", and the pre-set micro-bend in step 5 sits between them. The exact degree of bend is not specified in either summary; ask the coach what yours should be. See [[Archery Shot Process - Open Questions]].
 
 ### Faults & Diagnostics
 
@@ -61,6 +64,8 @@ Verification—the acromion divot: when the reach is set correctly, the deltoid 
 - External Bow Arm Elbow Rotation: Leaving the inside crook of the bow elbow facing inward/upward places the forearm directly in the string path, leading to painful string slap. Apply **Internal Elbow Rotation or Micro-Bend**: rotate the bow arm inward at the elbow joint so the joint opens outward; if joint mobility prevents full rotation, maintain a slight micro-bend in the bow arm rather than hyperextending into the string.
 - Elevated Bow Shoulder & String Clearance: Allowing the bow shoulder to shrug or elevate during setup and draw angles the arm directly into the string path. Maintain a **Depressed Bow Shoulder** by packing the bow-side shoulder down low to preserve clearance and skeletal stability.
 - Why both are destructive: each restricts the rear shoulder blade's movement, preventing effective back tension and stopping the drawing elbow moving cleanly through the shot.
+- **Locked-Out Bow Elbow:** A fully locked front arm removes string clearance, lets the humerus rise, and lets the shoulder creep backward under draw weight, which can impinge the neck and shoulder. At release it also forces the joint to hyperextend repeatedly, like a boxer punching past the target, which can cause tennis- or pitcher's-elbow-type joint pain (front-elbow video, 00:01:49 and 00:02:28). Keep a soft, slightly bent elbow with internal rotation, as in step 5. See also [[Archery Shot Process - Release]].
+- **Too Much Mass on the Bow:** If you are forced to lock out or sharply bend the elbow just to support the setup, the bow carries too much overall mass or front stabiliser weight (front-elbow video, 00:05:57). See [[Archery Safety & Equipment]].
 
 ### Simplified Practice Cue
 
@@ -88,6 +93,8 @@ Stand facing forward with relaxed arms, look toward the target, and simply raise
 - Total Archery - Inside the Archer (Kisik Lee & Tyler Benner)
 - Top 10 Mistakes in Beginner Archery Classes (Online Archery Academy)
 - Coach Jared Gracious (Rogue Archery TV), form analysis and biomechanics session (YouTube 5GdJtjQvkb8)
+- Front-elbow lockout video (YouTube rOPvPrnGkS0; Gemini summary captured 2026-10-08; title and channel not recorded)
+- "Relaxed shot" vs weak shot video (YouTube jQ4wovCJipI; Gemini summary captured 2026-10-08; title and channel not recorded; mentions a peep sight and release aid, so it may be compound-oriented)
 
 ---
 

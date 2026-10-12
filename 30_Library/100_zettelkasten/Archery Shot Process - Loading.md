@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-10-07T12:28:00+01:00
+modified: 2026-10-08T14:30:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-loading
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Loading
@@ -72,6 +72,10 @@ Loading is the act of drawing the bow using the scapular retractors and shoulder
 - Loading by Pinching: Treating loading as squeezing or contracting the muscles of the back, instead of rotating the shoulder so the scapula moves in an angular winging motion, produces shaking and works against the 80/20 back-to-arm split. The book shows a substantial gap remaining between the shoulder blades at correct loading (Figure 12.2, PDF p. 125). See also The Proprioception Trap above.
 - Loading Too Low: Do not load more than an inch below the jaw, as rising up into anchor from too low causes a loss of back tension.
 - Fighting the Target: Do not fight or rigidly hold the point on the target during the draw movement. Simply refine the sight picture once at full draw.
+- **The Accordion Collapse (Weak Shot):** Over-relaxing without bone-on-bone structure lets the bow's draw weight fold the shoulders inward like an accordion, leading to creeping forward or sight/peep movement ("relaxed shot" video, 00:03:13). Relax the bow hand, neck and release fingers, not the structure. Keep the bow arm extended without hyperextending so it pushes back into the shoulder socket (00:04:26).
+- **Shoulder Creep on a Long Hold:** If you hold for a long time without driving the shoulders down and back, they creep up into the neck, the shot breaks down, and the miss is often to the right (RH archer) ("relaxed shot" video, 00:05:39). Drive the shoulders down and back to move tension out of the neck and tops of the shoulders and into the large back muscles (00:05:50). This overlaps the Scapula "Back Pocket" Cue in step 1; see Alternative Views for the disagreement over deliberately driving the shoulder down. If a hold is running long, let down rather than forcing the shot.
+- **Locked Elbow and Scapular Creep:** A locked-out bow elbow removes string clearance, lets the humerus rise, and without downward structure the shoulder creeps backward under draw weight, risking neck and shoulder impingement (front-elbow video, 00:01:49). See [[Archery Shot Process - Raise]].
+- **Pushing the Bow Arm While Pulling:** Actively pushing the bow arm forward while pulling the string can drive the humerus high and inside against the neck, destroying string clearance and often putting the string into the front arm (front-elbow video, 00:04:01). This conflicts with the push-and-pull cue; see Alternative Views.
 
 ### Training Drills
 
@@ -166,6 +170,8 @@ Loading is the act of drawing the bow using the scapular retractors and shoulder
 - Distance left under the clicker at loading: The summary says 1 to 4 mm. _Inside the Archer_ says a smoothly drawn bow gives a loading position less than three millimetres from the end of the arrow point (Ch. 14 Rhythm, PDF p. 149) and a maximum of two millimetres to expand through the clicker (PDF p. 166). See the matching entry in [[Archery Shot Process - Expansion]].
 - What the 1 cm figure measures: A later summary (captured 2026-09-21) says the hand moves less than 1 cm into the jaw pocket between loading and anchor. That cannot describe the hand's movement if it starts one to two inches below the jaw. In _Inside the Archer_ (PDF p. 126) the one centimetre limit applies to _visible scapular movement_ at the loading position, and the move from loading to anchor is described only as minimal elbow movement, with no change in posture, head position or shoulder elevation (Figure 12.3, PDF p. 127). Treat 1 cm as a limit on scapula movement, not on hand travel.
 - Where the 80/20 figure applies: The book puts the 80 percent back, 20 percent hands and arms ratio at the loading position itself (PDF pp. 128 and 131). The Why It Works section above says the same by the end of the loading phase, so these agree.
+- Pushing the bow arm while pulling (two video summaries, 2026-10-08): the front-elbow video lists "actively pushing the bow arm forward while pulling" as a fault that raises the humerus and ruins string clearance. [[Archery Shot Process - Expansion]] and [[Archery Shot Process - Release]] teach a two-way push-and-pull and a "two-sided release", and the "relaxed shot" video wants the bow arm extended against the socket. The difference may be between pushing the arm out and reaching with a set shoulder, but the summaries do not say. Both are kept. Unresolved; see [[Archery Shot Process - Open Questions]].
+- Driving the shoulders down and back (relaxed-shot video summary, 2026-10-08): it says to actively drive the shoulders down and back at full draw. Coach Ash Morgan (see [[Archery Shot Process - Raise]]) says forcing the shoulder down breaks the structural connection. Both are kept; this adds to the existing open question about how much deliberate depression to use.
 
 ### References
 
@@ -177,6 +183,8 @@ Loading is the act of drawing the bow using the scapular retractors and shoulder
 - Shoulder Alignment (Online Archery Academy)
 - Three A's of Accuracy: Aim, Anchor, Alignment | Archery Basics (NUSensei)
 - Coach Jared Gracious (Rogue Archery TV), form analysis and biomechanics session (YouTube 5GdJtjQvkb8)
+- Front-elbow lockout video (YouTube rOPvPrnGkS0; Gemini summary captured 2026-10-08; title and channel not recorded)
+- "Relaxed shot" vs weak shot video (YouTube jQ4wovCJipI; Gemini summary captured 2026-10-08; title and channel not recorded; mentions a peep sight and release aid, so it may be compound-oriented)
 
 ---
 

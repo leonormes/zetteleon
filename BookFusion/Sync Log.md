@@ -34,3 +34,9 @@ permalink: llmeon/book-fusion/sync-log
 - The Big Book of Endurance Training and Racing-3531171 [Open](obsidian://open?file=BookFusion%2FBooks%2FThe%20Big%20Book%20of%20Endurance%20Training%20and%20Racing-3531171.md) 1
 - Software Configuration Management Patterns Effective Teamwork, Practical Integration-3531166 [Open](obsidian://open?file=BookFusion%2FBooks%2FSoftware%20Configuration%20Management%20Patterns%20Effective%20Teamwork%2C%20Practical%20Integration-3531166.md) 1## 10/4/2026, 9:33:36 PM
 - Armed Struggle The History of the IRA-7533298 [Open](obsidian://open?file=BookFusion%2FBooks%2FArmed%20Struggle%20The%20History%20of%20the%20IRA-7533298.md) 1
+## 11/10/2026, 14:02:04
+- Theory and Reality-9256181 [Open](obsidian://open?file=BookFusion%2FBooks%2FTheory%20and%20Reality-9256181.md) 1
+## 10/10/2026, 10:07:53 AM
+- Theory and Reality-9256181 [Open](obsidian://open?file=BookFusion%2FBooks%2FTheory%20and%20Reality-9256181.md) 1
+## 10/10/2026, 1:08:03 PM
+- Theory and Reality-9256181 [Open](obsidian://open?file=BookFusion%2FBooks%2FTheory%20and%20Reality-9256181.md) 0

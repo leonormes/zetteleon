@@ -1,0 +1,4 @@
+{"kind":"session_meta","at":"2026-10-12T12:42:10.145888Z","tool":"claude-code","session_id":"0362b6af-a830-41a1-adb1-3c4c90dc2ab3"}
+{"kind":"prompt","at":"2026-10-12T12:42:13.237182Z","text":"Which tool finds who references symbol Y?"}
+{"kind":"session_end","at":"2026-10-12T12:42:19.311375Z"}
+{"kind":"session_end","at":"2026-10-12T12:42:20.149549Z"}

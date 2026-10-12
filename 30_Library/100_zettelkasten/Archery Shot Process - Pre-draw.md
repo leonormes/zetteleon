@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T00:00:00+00:00
-modified: 2026-10-07T12:28:00+01:00
+modified: 2026-10-08T14:30:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-pre-draw
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Pre-draw
@@ -27,6 +27,7 @@ Pre-draw acts as a checklist step to verify posture, front shoulder position, an
    - _Purpose:_ Pre-draw sets about 85% of the shot's structural alignment, so this is the last cheap chance to catch a changed hook, grip or tension before loading.
 6. Verification: Verify that the posture is tall, the front shoulder remains set down (check for the "acromion divot" on top of the shoulder to confirm it is properly depressed and the deltoid is engaged), correct shoulder-line alignment is established, and the head is set in its final, immovable position before loading.
    - _Purpose:_ A locked front shoulder is one of the quickest ways to stabilise draw length and anchor point. A collapse at full draw gives erratic draw length and a floating anchor.
+   - **Bow-arm rotation check (clock positions):** imagine an arrow through the inside of the bow elbow (the IV vein) to the tip of the elbow. Set the thumb pointing at 2:00 and the tip of the elbow at 8:00. This keeps the elbow soft and out of the string path (front-elbow video, 00:01:15). The summary does not say which viewpoint the clock is read from, so confirm the reference frame with the coach before relying on the numbers.
 
 ### Why It Works
 
@@ -45,6 +46,7 @@ Pre-draw acts as a checklist step to verify posture, front shoulder position, an
 - The Setup Trap (Allowing the Bow to Pull You Forward): During this pre-draw phase, there is a natural slowing down of movement. Do not let the mechanical weight and tension of the bow pull your drawing shoulder or elbow forward. This puts the shoulder in an overly extended, loaded position, creating unnecessary pressure on the joint. Keep the draw shoulder feeling "neutral," free, and easy to move (like your arms resting by your sides). Do not forcefully yank the shoulder down either.
 - Short Pre-Draw (Hand Too Close): If you start your draw with your draw hand squeezed too close to your bow hand/shoulder, it severely compresses the shoulder joint. This closed angle makes it incredibly inefficient to draw the string back, forcing you to use arm muscles rather than properly swinging the elbow around with your back.
 - Shoulder Collapse at Full Draw: A front shoulder collapse occurs when the bow-side shoulder yields or gives backward while you are holding at full draw. This contributes to erratic draw length and a floating anchor point.
+- **High Thumb Pressure:** Letting the thumb come up puts the wrong pressure on the riser and rotates the elbow inward into the string path, making a locked-out arm and lost clearance much more likely (front-elbow video, 00:01:34). Keep the thumb at its set position from the clock check above. See the thumb-pressure note in [[Archery Shot Process - Setup]].
 
 ### References
 
@@ -53,6 +55,7 @@ Pre-draw acts as a checklist step to verify posture, front shoulder position, an
 - 4 SIMPLE BOW HAND FORM FIXES (Online Archery Academy)
 - Draw Shoulder Technique - Reduce Injury Risk and Increase Efficiency (Online Archery Academy)
 - Coach Jared Gracious (Rogue Archery TV), form analysis and biomechanics session (YouTube 5GdJtjQvkb8)
+- Front-elbow lockout video (YouTube rOPvPrnGkS0; Gemini summary captured 2026-10-08; title and channel not recorded)
 
 ---
 

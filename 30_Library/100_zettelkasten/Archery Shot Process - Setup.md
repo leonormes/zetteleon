@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-10-07T12:28:00+01:00
+modified: 2026-10-08T14:30:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-setup
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Setup
@@ -123,8 +123,15 @@ Setup involves setting the hands onto the bow, including hooking onto the string
 - Purpose: Tests discipline and consistency in stance and set position.
 - How to do it: Step onto the line, set up, and shoot a single arrow, then step completely off the line. Reset your stance and set position from scratch for every single arrow.
 
+### Alternative Views / Corrections
+
+- Thumb pressure and elbow rotation (front-elbow video summary, 2026-10-08): the grip step above says to actively push the thumb toward the target and pull the pinky back. The video says allowing the thumb to come up puts improper pressure on the riser, rotates the elbow inward into the string path, and makes a locked-out arm more likely (see High Thumb Pressure in [[Archery Shot Process - Pre-draw]]). These may describe different things, pushing through the thumb pad versus the thumb riding up the riser, but the summary does not say. Both are kept. Check the thumb position on video, or with the coach.
+- Relaxed bow hand (relaxed-shot video summary, 2026-10-08): confirms the existing guidance that the bow hand stays relaxed with no death grip or rigid tension to force the pin onto the middle. No change needed.
+
 ### References
 
+- Front-elbow lockout video (YouTube rOPvPrnGkS0; Gemini summary captured 2026-10-08; title and channel not recorded)
+- "Relaxed shot" vs weak shot video (YouTube jQ4wovCJipI; Gemini summary captured 2026-10-08; title and channel not recorded; mentions a peep sight and release aid, so it may be compound-oriented)
 - How To Stop Hitting Your Arm | Archery Basics (NUSensei)
 - The BEST Bow Grip Position | How to place your hand in your bow grip with zero torque (Jake Kaminski)
 - Follow Through Like a Pro | Stop Your Bow From Hitting You (Jake Kaminski)

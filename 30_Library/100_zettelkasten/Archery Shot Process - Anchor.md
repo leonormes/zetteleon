@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-10-07T12:28:00+01:00
+modified: 2026-10-08T14:30:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-anchor
 tags:
 - archery
@@ -51,6 +51,8 @@ Anchor is the final reference for the full draw position and the point of maxima
    - _Purpose:_ Very small changes in head twist, tilt or lean change the string picture drastically. Correcting with a micro head tilt keeps the anchor hand locked, which protects the reference that matters most.
 10. **Pinky-to-Neck Contact (captured 2026-09-30):** Touch the tip of the drawing hand's pinky finger against the neck to help maintain a consistent hand pitch at anchor, alongside the thumb-in-pocket placement described in step 1.
     - _Purpose:_ Keeps the hand pitch consistent at anchor. Stated in the capture; no deeper mechanism recorded.
+11. **Lock the Anchor (captured 2026-10-08):** Push everything down as you bring the hand into anchor, and crank the rear elbow around to lock the back tension in place ("relaxed shot" video, 00:07:54).
+    - _Purpose:_ Fixes the back tension at the moment of contact so the anchor does not loosen. Stated in the capture; the mechanism is not given. See Alternative Views for how this sits with the hinge in step 1.
 
 ### Why It Works
 
@@ -166,6 +168,7 @@ Anchor is the final reference for the full draw position and the point of maxima
 - Which part of the nose touches the string: Step 4 has the string on the centre (or slightly right) of the nose and slightly right on the chin; the later summary and [[Archery Shot Process - Loading]] describe the tip of the nose and the corner of the chin. Source check: _Inside the Archer_ (Ch. 13) says the string should rest exactly in the centre of the nose with gentle contact, which matches step 4 rather than "tip of the nose". All are kept; use whichever point you can repeat exactly.
 - Loading position below the jaw: [[Archery Shot Process - Loading]] stops drawing about half an inch below the jaw; the later summary and _Inside the Archer_ (Ch. 12) say one to two inches below the jaw. See the Alternative Views section in [[Archery Shot Process - Loading]]. All agree the vertical move from loading into anchor should be small, so back tension is preserved.
 - String Face Pressure (Light vs. Embedded Contact): Kisik Lee / KSL emphasizes light contact on the nose and corner of the chin (as detailed in step 4 and the Nose Pressure Audit) to prevent skin friction from disrupting string oscillation upon release. Conversely, Jake Kaminski advocates pulling the string firmly against the face, embedding it into the chin and nose. In Kaminski's methodology, this deep facial contact creates an unyielding physical stop that stabilizes draw length and locks the sight pin against shaking. Archers should remain consistent with whichever facial pressure model they choose.
+- "Push everything down" into anchor (relaxed-shot video summary, 2026-10-08): step 11 says to push everything down and crank the rear elbow around. Step 1 says to hinge the forearm up around a stable elbow "without dropping or driving the elbow upward". These are compatible if "down" means setting the shoulders, not dropping the elbow, and the existing Dropping the Back Elbow fault in [[Archery Shot Process - Loading]] still applies. Both are kept; keep the elbow at or just above the arrow line.
 
 ### References
 
@@ -185,6 +188,7 @@ Anchor is the final reference for the full draw position and the point of maxima
 - Jake Kaminski (Video reference on anchor consistency fixes)
 - Peter (in-person coaching, 2026-09-12)—anchor style variants, micro-head-tilt string alignment correction
 - Captured anchor cue summary (captured 2026-09-30; source not named): pinky-to-neck contact, facial muscle neutrality, side-on video check, vertical stringing diagnostic
+- "Relaxed shot" vs weak shot video (YouTube jQ4wovCJipI; Gemini summary captured 2026-10-08; title and channel not recorded; mentions a peep sight and release aid, so it may be compound-oriented)
 
 See also: [[Archery Shot Process - Finger Tab Selection & Maintenance]]—an oversized base plate can prevent the hand sitting flush against the jaw, degrading anchor depth and the string picture.
 

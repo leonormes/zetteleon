@@ -1,7 +1,7 @@
 ---
 aliases: ["Archery Equipment & Tuning"]
 created: 2026-09-21T14:36:18+01:00
-modified: 2026-10-07T12:28:00+01:00
+modified: 2026-10-08T14:30:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-safety-equipment
 tags: [archery, equipment, prodos/atomic, safety]
 title: Archery Safety & Equipment
@@ -49,8 +49,13 @@ Foundational guidelines for selecting beginner archery equipment and adhering to
 - The Eclipse Hold for Long Distances (Mechanic): When shooting barebow or traditional recurve at extended distances (such as 50 metres), utilise an "eclipse hold"—placing the tip of the arrow completely over the centre of the target (or the top edge of the target bale) to compensate for extreme ballistic drop without requiring a mechanical sight.
 - Consistent Canting for Horizontal Accuracy (Mechanic): When aiming with the arrow significantly below the eye (gap shooting at extended distance), left/right impact consistency is heavily dependent on maintaining an identical bow cant. Use the vertical edge of the riser's sight window as a visual gauge against the target to ensure bow cant remains identical from shot to shot, tightening horizontal group spread.
 
+### Bow Mass and Stabiliser Weight
+
+- Excess Mass Forces a Locked Elbow (Fault): If you find yourself locking out, or sharply bending, the bow elbow just to support the setup, the bow carries too much overall mass or front stabiliser weight. Reduce the weight before changing form. See the Locked-Out Bow Elbow fault in [[Archery Shot Process - Raise]]. Source is a video summary (front-elbow video, 00:05:57); no weights are given. Your own setup is frozen for year one, so only act on this if the elbow problem persists after the form checks.
+
 ### References
 
+- Front-elbow lockout video (YouTube rOPvPrnGkS0; Gemini summary captured 2026-10-08; title and channel not recorded)
 - Archery Coaching Case Study #2 (Rogue Archery TV)
 - Coach Jared Gracious (Rogue Archery TV), form analysis and biomechanics session (YouTube 5GdJtjQvkb8)
 - Jake Kaminski, "50m Traditional Recurve / Mental Game & Psycho Trigger" (Eclipse hold at 50m, consistent sight window canting gauge)
