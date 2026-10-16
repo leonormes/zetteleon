@@ -3,7 +3,7 @@ aliases: [Neural Basis of Knowledge]
 axiom: true
 conformant: false
 created: 2025-11-01T12:10:05+00:00
-modified: 2026-09-29T10:37:53+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/knowledge-formation-is-a-cognitive-process-of-neural-connection
 tags: [knowledge, TheHuman/Cognition, TheHuman/Neuroscience]
@@ -16,3 +16,7 @@ type: claim
 Summary: From a neuroscience perspective, the transformation of information into knowledge involves forming and strengthening new neural connections within the brain.
 
 Details: This cognitive process engages multiple brain regions responsible for memory, reasoning, and decision-making. New information is integrated with existing cognitive structures by forming new pathways. Processes like sleep and reflection are crucial for consolidating these connections, which embeds the information more deeply and transforms it into usable knowledge.
+
+### Related
+
+- [[Personal Context and Relevance are Key to Knowledge Formation]]—*what shapes the connections.*

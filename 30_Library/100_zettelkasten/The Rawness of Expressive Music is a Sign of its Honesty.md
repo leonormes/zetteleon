@@ -2,7 +2,7 @@
 aliases: [Rawness in Music]
 conformant: false
 created: 2025-11-10T11:04:00+00:00
-modified: 2026-09-29T10:38:00+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/the-rawness-of-expressive-music-is-a-sign-of-its-honesty
 tags: [authenticity, expression, imperfection, music]
@@ -20,3 +20,5 @@ Details: In music as expression, elements that might be considered 'mistakes' in
 
 - [[Expressive Music Organically Builds Its Own Scene]] - Demonstrates how this rawness fosters authentic community.
 - [[Asking Why a Song Exists Helps Determine Its Authenticity]] - Provides a lens for evaluating intent vs commercialism.
+- [[Authentic Music Creates Communities While Commercial Music Creates Consumers]]—*what rawness does socially.*
+- [[The Polish of Commercial Music is Designed to Maximize Consumption]]—*the contrasting commercial aesthetic.*

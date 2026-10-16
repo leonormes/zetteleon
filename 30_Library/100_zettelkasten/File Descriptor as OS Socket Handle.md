@@ -3,7 +3,7 @@ aliases: [file descriptor, socket handle]
 conformant: false
 created: 2025-10-31T13:40:00+00:00
 epistemic_status: high
-modified: 2026-09-29T10:37:51+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing required field - type"
 permalink: llmeon/30-library/100-zettelkasten/file-descriptor-as-os-socket-handle
 prodos.kind: claim
@@ -40,3 +40,7 @@ How it works:
 Unix philosophy:
 
 The file descriptor concept embodies the Unix principle that "everything is a file." Whether it's a disk file, network socket, or device driver, programs interact with them through the same file-like interface.
+
+### Related
+
+- [[Server Socket Scalability Limits]]—*each socket consumes a descriptor, which bounds how many a server can hold.*

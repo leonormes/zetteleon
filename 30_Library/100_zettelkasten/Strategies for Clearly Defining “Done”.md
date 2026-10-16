@@ -43,7 +43,6 @@ The rule has to exist before the urge to keep refining does.
 
 - [[Action Triggers Bridge the Gap Between Motion and Action]]—_A pre-defined rule, such as "after I have researched one solution for 15 minutes, I will start implementing", is a boundary that stops the preparatory phase extending indefinitely._
 - [[Phase 2 - Aggressive Initiation to Overcome Paralysis]]—_Aim for 75% readiness rather than 100%, and keep creating separate from evaluating in a first pass._
-- [[Reasoning Loops Require Explicit Stopping Conditions (End-Loop Guardrails)]]—_The same lesson from agent design: any loop without an explicit exit condition can run forever; the analogy is loose but the mechanism is shared._
 
 ### 4. Use time as the Done State when Completion is Too Big
 

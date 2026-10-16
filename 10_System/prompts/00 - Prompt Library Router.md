@@ -14,8 +14,6 @@ This note is the decision layer for the ProdOS Chief of Staff LLM. Every prompt 
 
 > Cross-cutting requirement—Output Contract: every `type/system`, `type/protocol`, and `type/context`-driving-analysis prompt in this library is governed by [[Protocol - Typed Answer Contract (TAC) for Vault Agents]]: state confidence, cite evidence via `[[wikilink]]`, and flag insufficient context explicitly instead of guessing. This applies regardless of which prompt below you route to—it is not itself a routing choice.
 
-> Cross-cutting requirement—Output Contract: every `type/system`, `type/protocol`, and `type/context`-driving-analysis prompt in this library is governed by [[Protocol - Typed Answer Contract (TAC) for Vault Agents]]: state confidence, cite evidence via `[[wikilink]]`, and flag insufficient context explicitly instead of guessing. This applies regardless of which prompt below you route to—it is not itself a routing choice.
-
 ## Taxonomy
 
 | Category | Definition | Use it when… | Base view |
@@ -25,6 +23,7 @@ This note is the decision layer for the ProdOS Chief of Staff LLM. Every prompt 
 | `type/system` | A multi-phase autonomous agent workflow, usually operating over the vault via MCP tools, with defined phases and structured output. | The task requires search → classify → act across many notes. | Systems |
 | `type/protocol` | A strict, imperative, repeatable procedure—minimal "why", built for recurring/cron execution. | A routine that should run the same way every time (e.g. a daily sweep). | Protocols |
 | `type/utility` | A single-shot, input→output micro-task template. | You have one concrete artefact to transform (a diff, a CV, a ticket). | Utilities |
+| `type/index` | This note: the routing index itself. Not a prompt to inject. | Deciding which prompt to use. | (n/a) |
 | `type/task-log` | A one-off, dated, project-specific task that happened to be captured as a prompt. Not designed for reuse. | Never select these for a new task—they're historical record only. Read them only if reconstructing what was done. | (new—add to base) |
 
 ## Routing Table
@@ -53,9 +52,12 @@ This note is the decision layer for the ProdOS Chief of Staff LLM. Every prompt 
 | Daily automated orphan cleanup | [[Goal - Orphan Triage Sweep (Daily Cron)]] | Recurring protocol, 10 notes/day |
 | DevOps work log → reusable Atomic Command/Playbook | [[prompt - DevOps Knowledge Architect]] | Dedupes against existing commands first |
 | I need the output-discipline rules every vault agent must follow (confidence, evidence, uncertainty flag) | [[Protocol - Typed Answer Contract (TAC) for Vault Agents]] | Cross-cutting contract, not a task-specific prompt—reference it, don't replace another prompt with it |
-| I need the output-discipline rules every vault agent must follow (confidence, evidence, uncertainty flag) | [[Protocol - Typed Answer Contract (TAC) for Vault Agents]] | Cross-cutting contract, not a task-specific prompt—reference it, don't replace another prompt with it |
 | An agent's output was wrong, unsafe, incomplete, or non-conformant and I need to fix the actual cause, not just the symptom | [[Protocol - Diagnose an Agent Failure]] | Cross-cutting protocol, not a task-specific prompt—classifies the root cause (retrieval/knowledge/routing/reasoning/TAC/permission/tool/ambiguity) before proposing a fix, and pairs every fix with a regression case in `10_System/evals/` |
 | I want the atomic-note folder audited against the Allosso note-making rules (source layer, connectivity, keywords, review) and told which clusters are ready to write from | [[Prompt - Zettelkasten Audit (Allosso Rubric)]] | Read-only scorecard plus ranked findings and output-ready clusters. Health check on how you make notes, not on what you think ([[Zettelkasten Thinking-Pattern Analyst]]) or on argument soundness ([[Justification Graph Audit & Gap Closure]]) |
+| I am working the Vault Graph programme one task per session (Todoist project Vault Graph) | [[Prompt - Vault Graph Programme (Session Driver)]] | Session driver: resume, confirm one task, execute, lint, log. Not for one-off note work |
+| I have a new archery capture to fold into the 10-step shot process notes | [[Archery Shot Process - Knowledge Consolidation]] | Domain-specific Consolidation Agent; keeps contradictions as alternative views |
+| I have a new family-chores capture to fold into the chores SoTs and plan | [[Family Chores - Knowledge Consolidation]] | Domain-specific Consolidation Agent; proposes full-note updates for you to apply |
+| I want the family and relationships notes triaged into their four buckets | [[Family Notes - Triage and Normalization]] | Domain-specific composition of Triage Architect, Consolidation Agent and Link Auditor |
 
 ### Personal Context to Inject alongside other Prompts
 
@@ -82,8 +84,8 @@ This note is the decision layer for the ProdOS Chief of Staff LLM. Every prompt 
 
 | Task | Prompt |
 |---|---|
-| Write a commit message from a git diff | [[git commit prompt]] |
-| Generate a Jira ticket JSON payload | [[jira_ticket_prompt]] |
+| Write a commit message from a git diff | `git commit prompt` (note not yet written) |
+| Generate a Jira ticket JSON payload | `jira_ticket_prompt` (note not yet written) |
 | Refine my CV for a UK infra role | [[CV Refinement Prompt]] |
 | Merge specific notes I've already picked | [[sys_merger]] |
 

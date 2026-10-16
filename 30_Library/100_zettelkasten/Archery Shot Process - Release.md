@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T00:00:00+00:00
-modified: 2026-10-08T14:30:00+01:00
+modified: 2026-10-16T14:47:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-release
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Release
@@ -16,6 +16,7 @@ Release is the act of letting go of the string, which should be an involuntary, 
 1. Passive Relaxation: Slowly relax your fingers while continuously pulling backward with your shoulder tension. Allow the bowstring to push the fingers out of the way.
    - _Purpose:_ Fingers cannot open fast enough to clear a moving string, and forcing them open with the extensors causes a wide, flappy release and sends nerve signals that disrupt your line of tension. Letting the string push them clear is cleaner.
 2. Involuntary Action: Treat the release as a reaction to the clicker rather than a conscious opening of the fingers.
+   - Without a clicker (Gemini capture, 2026-10-16, unverified): create the surprise yourself. Once the sight is on the target, keep lightly increasing back tension and let the string slip through the fingers without knowing the exact moment.
    - _Purpose:_ A surprise release short-circuits the anticipatory flinch of target panic. If you know exactly when the shot will break, you instinctively brace for it.
 3. Tension Drop: Frame the release as reducing finger tension down to around 40%.
    - _Purpose:_ With too much tension in the hand, the string cannot push cleanly through the fingers and goes around them, causing side-to-side oscillation and inconsistent flight.
@@ -38,6 +39,7 @@ Release is the act of letting go of the string, which should be an involuntary, 
 - Mitigating Target Panic (The Surprise Release): A subconscious, true surprise release short-circuits the anticipatory flinch response known as target panic. If you know exactly when the shot is going to break, you will instinctively brace for it.
 - The use of pure back-tension release aids (e.g., Carter Evolution, Nock On Silverback) mechanically enforces this surprise by firing only when a specific resistance threshold is overcome through continuous expansion.
 - Physical Psycho-Triggers: For barebow and traditional archers shooting without a clicker, relying on conscious timing to loose the string often provokes anticipatory anxiety and target panic. Employing a secondary, gradual physical trigger (such as moving the thumb and pinky toward each other until they touch) redirects cognitive attention to a tactile event, preserving an un-anticipatable surprise release.
+- The Anchor Sets the Launch Vector (Gemini capture, 2026-10-16, unverified): At release the string rolls off the relaxing fingertips and accelerates forward, oscillating horizontally as it pushes the arrow (the archer's paradox). The hand should travel straight back along the "power line" under and along the jawbone, with the anchor as the guide rail. Firm inward and upward pressure on the jaw keeps that path straight; see [[Archery Shot Process - Anchor]].
 
 ### Faults & Diagnostics
 
@@ -51,6 +53,7 @@ Release is the act of letting go of the string, which should be an involuntary, 
 - Jumpy Release: Occurs when an archer is fatigued and struggling to pull smoothly through the clicker, causing sudden, jolting movements.
 - Over-bowing forces a clenched hook ("string grabbing") to prevent the string from slipping, making a clean release mechanically impossible.
 - Force Change & Bow Jump Anticipation: Right before or directly upon release, the subconscious anticipates the sudden collapse of compressive holding force and the bow leaping forward into the sling. This causes the front bow shoulder to instinctively jump upward or thrust forward, destroying arrow departure stability. Counteract by conditioning the body to maintain an active, depressed shoulder structure throughout the force drop (see Side Plank Flex Band drill in [[Archery Practice Drills]]).
+- Off-Anchor Release (Gemini capture, 2026-10-16, unverified): Losing jaw contact just as the shot breaks (collapsing forward, or the hand pulling outward away from the face) makes the fingers deflect the string laterally, so it leaves its forward power stroke and the arrow goes wide. Related: Feathering in [[Archery Shot Process - Anchor]].
 
 ### Training Drills
 
@@ -123,6 +126,15 @@ Release is the act of letting go of the string, which should be an involuntary, 
   1. Mentally repeat a simple, rhythmic phrase (e.g., "keep pulling, keep pulling") during the expansion phase.
   2. Allow the release to occur naturally while your conscious mind is occupied with the mantra.
 
+#### 2-to-3 Metre Relaxation Drill (Gemini capture, 2026-10-16, unverified)
+
+- Purpose: Builds finger relaxation as the focus of the release, not "letting go".
+- How to do it:
+  1. Stand 2 to 3 metres from the butt and come to full draw.
+  2. Expand (increase back tension) while the draw forearm, wrist and hand stay completely relaxed.
+  3. Put all attention on relaxing the fingers.
+  4. Step back gradually as confidence grows.
+
 #### Thumb-to-Pinky "Psycho Trigger" Drill
 
 - Purpose: Establishes a subconscious, un-anticipatable physical release trigger for traditional or barebow shooting without a mechanical clicker, eliminating target panic.
@@ -134,8 +146,14 @@ Release is the act of letting go of the string, which should be an involuntary, 
 
 See also: [[Archery Shot Process - Finger Tab Selection & Maintenance]]—worn/grooved leather or excess leather length can itself cause plucking or catch the string independent of hand tension.
 
+### Alternative Views / Corrections
+
+- Forearm extensors at release (Gemini capture, 2026-10-16, unverified): the capture says elite archers show a fast, reflexive activation of the forearm extensors as the fingers relax. Step 1 and the Faults section say actively using the extensors causes a wide, flappy release. Both are kept; the capture names no source. The two may be reconcilable if the extensor activity is reflexive rather than a conscious opening.
+
 ### References
 
+- Gemini chat on the anchor as rear sight and its role through release (captured 2026-10-16; cited sources not named, unverified)
+- Gemini chat on expansion and anchor shift for clickerless Olympic recurve (captured 2026-10-16; cited sources not named, unverified)
 - Jake Kaminski, "50m Traditional Recurve / Mental Game & Psycho Trigger" (Thumb-to-Pinky trigger, creeping/plucking diagnostics, target panic management)
 - Coach Jared Gracious (Rogue Archery TV), form analysis and biomechanics session (YouTube 5GdJtjQvkb8)
 - Front-elbow lockout video (YouTube rOPvPrnGkS0; Gemini summary captured 2026-10-08; title and channel not recorded)

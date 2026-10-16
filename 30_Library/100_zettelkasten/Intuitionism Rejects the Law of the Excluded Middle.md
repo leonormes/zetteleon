@@ -2,7 +2,7 @@
 aliases: [Law of Excluded Middle Rejection]
 conformant: false
 created: 2025-11-01T11:22:13+00:00
-modified: 2026-09-29T10:37:53+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/intuitionism-rejects-the-law-of-the-excluded-middle
 tags: [constructivism, logic, topic/maths]
@@ -23,3 +23,7 @@ This rejection invalidates proof by contradiction (reductio ad absurdum) when us
 Example: The statement "There exist irrational numbers a and b such that a^b is rational" can be proven non-constructively in classical mathematics but requires constructive proof in intuitionist mathematics.
 
 Consequence: This stance requires rejecting or reformulating large portions of classical mathematics, which many mathematicians find too restrictive.
+
+### Related
+
+- [[Intuitionism (Mathematics as Mental Construction)]]—*the philosophy that motivates the rejection.*

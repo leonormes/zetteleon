@@ -93,7 +93,7 @@ Each of these is a specific, live instance.
 > "**Utility Over Truth:** If a note doesn't help you act, it is noise."
 > "**Throughput Over Storage:** The system is for Compute, not a database."
 
-Read against the zettelkasten, axiom 1 **defines the entire thinking layer as noise.** A proposition note exists to be *falsifiable*, not actionable ([[Propositions Are the only Thing that Can Be Wrong]]). Axiom 2 denies the storage function a Zettelkasten needs to have.
+Read against the zettelkasten, axiom 1 **defines the entire thinking layer as noise.** A proposition note exists to be *falsifiable*, not actionable ([[Propositions Are the Only Thing That Can Be Wrong]]). Axiom 2 denies the storage function a Zettelkasten needs to have.
 
 These are good execution axioms. They are stated without scope, at the top of the hierarchy, above both systems.
 

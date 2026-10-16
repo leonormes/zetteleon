@@ -2,7 +2,7 @@
 aliases: [Project Context Preservation]
 created: 2025-11-11T19:05:09+00:00
 last_reviewed: ''
-modified: 2026-09-29T10:37:50+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/context-preservation-techniques-maintain-project-novelty-and-meaning
 status: seed
 tags: [project-management, TheHuman/Motivation, topic/productivity]
@@ -16,3 +16,7 @@ updated: null
 Summary: Context preservation techniques are methods used to maintain a project's novelty, inspiration, and personal meaning over time, which helps in re-engaging with the work.
 
 Details: These techniques go beyond technical documentation to capture the "why" behind the project. This can include keeping a "project story" to track the vision, maintaining a list of exciting future possibilities, and documenting personal connections to the work. These elements help rekindle the original inspiration.
+
+### Related
+
+- [[Visual Thinking Tools Preserve Project Mental Models]]—*a tool for preserving context.*

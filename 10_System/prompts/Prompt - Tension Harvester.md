@@ -74,10 +74,13 @@ related_claims: []
 sources: ["[[Source Note A]]", "[[Source Note B]]"]
 tags: [state/thinking, prodos/head]
 conformant: true
+non_conformance_reason: <only when conformant is false, otherwise omit>
 status: open
 prodos:
   kind: head
   lifecycle: active
+AoL: <Personal | Work | System>
+closing_condition: true   # false if you cannot name what would settle it
 created: <ISO8601>
 modified: <ISO8601>
 ---
@@ -85,13 +88,15 @@ modified: <ISO8601>
 
 Body sections, all five, in order: `## The Question`, `## Why It Matters`, `## What I Currently Think`, `## What Would Settle It`, `## Sources`.
 
+`## What I Currently Think` is Leon's to fill: write only `(Leon to fill in. Source lean: <one line quoted from the source note>)`. Do not state a view on his behalf.
+
 `## What Would Settle It` is non-negotiable and must be **specific**. "More research" is a failure. "Find or write a note establishing whether Tesler's Law has been tested outside software" is a pass. If you cannot name a closing condition, the tension was not `LIVE` — reclassify it.
 
 ---
 
 ## WRITE SCOPE (read this before editing any canonical note)
 
-`AGENTS.md` §6 forbids editing canonical body prose; §9.3 narrows the exception to typed edges and `axiom:`. **Rewriting a `## Tensions` section into a pointer is outside that exception.** It requires explicit human authorisation for the specific run. Confirm you have it before Phase 4. Without it, produce the HEAD notes and the proposed pointer diffs, and stop.
+`AGENTS.md` §6 forbids editing canonical body prose; §9.3 narrows the exception to typed edges and `axiom:`. **Rewriting a `## Tensions` section into a pointer is outside that exception.** It requires Leon's explicit authorisation for each source note, per [[AGENTS]] §6.1 (approval covers one edit and nothing after it). Ask per note before Phase 4, and never rewrite a protected note. Without it, produce the HEAD notes and the proposed pointer diffs, and stop.
 
 You never delete a tension's content without it existing somewhere else first. HEAD notes are written and verified in Phase 3; source notes are rewritten in Phase 4. Never the reverse order.
 
@@ -116,7 +121,7 @@ Create one note per cluster in `20_Thinking/21_Workbench/`, schema per above. Pr
 For each source note, replace the harvested section with a single pointer line placed directly beneath the note's opening/MVU section:
 
 ```markdown
-> **Open threads:** [[HEAD - Question one?]] · [[HEAD - Question two?]]
+> Open threads: [[HEAD - Question one?]] · [[HEAD - Question two?]]
 ```
 
 - If a section held both `LIVE` and `DESIGN` items, **keep the `DESIGN` items as prose** under their original heading and add the pointer. Do not remove the heading wholesale.

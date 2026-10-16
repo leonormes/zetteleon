@@ -2,7 +2,7 @@
 aliases: [Over-Scheduling Risks]
 conformant: false
 created: 2025-11-01T21:11:00+00:00
-modified: 2026-09-29T10:38:00+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/the-risks-of-over-scheduling
 tags: [burnout, risk, scheduling, time-management, topic/productivity]
@@ -20,3 +20,7 @@ Key risks include:
 - Stress: A schedule that is too ambitious or tightly packed can create a constant feeling of being behind, inducing anxiety.
 
 Effective timeboxing requires a balance between structure and flexibility to remain a sustainable practice.
+
+### Related
+
+- [[Schedule Downtime to Prevent Burnout]]—*the remedy.*

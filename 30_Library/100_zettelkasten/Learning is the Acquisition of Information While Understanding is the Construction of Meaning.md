@@ -2,7 +2,7 @@
 aliases: [Learning vs Understanding]
 conformant: false
 created: 2025-11-10T16:00:00+00:00
-modified: 2026-09-29T10:37:54+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/learning-is-the-acquisition-of-information-while-understanding-is-the-construction-of-meaning
 tags: [learning, pedagogy, TheHuman/Cognition, understanding]
@@ -15,3 +15,7 @@ type: claim
 Summary: Learning is the process of acquiring new information or skills, whereas understanding is the deeper cognitive achievement of grasping connections, constructing meaning, and integrating that knowledge into a coherent framework.
 
 Details: Learning can occur through rote memorization without deep comprehension (e.g., memorizing a formula). Understanding, conversely, implies the ability to explain _why_ the formula works, how it relates to other concepts, and when to apply it. Learning provides the raw materials, while understanding builds the structure.
+
+### Related
+
+- [[Conceptual Change is the Deep Process of Restructuring Misconceptions]]—*deeper understanding as restructuring.*

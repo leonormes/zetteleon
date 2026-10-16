@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-11-11T04:37:15+00:00
 last_reviewed: ''
-modified: 2026-09-29T10:37:59+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-most-fundamental-issue-initial-conversation-strategy
 see_also: []
 superseded_by: ''
@@ -128,3 +128,4 @@ Everything else (chores systems, communication scripts, Team Charter details) bu
 - [[SoT - Framework for Healthy Communication]] - Connects conversational strategies with separating experience from causality.
 [implements:: [[SoT - Framework for Healthy Communication]]]
 - [[MOC - Assertiveness Through System Design]] - Contextualizes the communication strategy within broader assertiveness.
+- [[A True Discussion Requires That Both Partners Can Say No Without Fear]]—*the condition whose absence is the invalidation problem.*

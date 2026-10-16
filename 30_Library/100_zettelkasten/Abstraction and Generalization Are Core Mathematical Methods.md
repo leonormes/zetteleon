@@ -2,7 +2,7 @@
 aliases: [Generalization, Mathematical Abstraction]
 conformant: false
 created: 2025-11-01T11:22:13+00:00
-modified: 2026-09-29T10:37:47+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/abstraction-and-generalization-are-core-mathematical-methods
 tags: [abstraction, methodology, topic/maths]
@@ -27,3 +27,8 @@ Algebra generalizes the rules of arithmetic by using variables for unknown value
 Power:
 
 Abstraction allows a single theorem or method to apply simultaneously to infinitely many cases. This is why mathematics achieves such remarkable economy and power—one abstract result can encompass countless specific applications.
+
+### Related
+
+- [[Generalization and Synthesis are Powerful in Complex Environments]]—*the same move of generalising, applied outside mathematics.*
+- [[Mathematics Involves Creativity and Aesthetic Judgement]]—*abstraction is a creative act guided by taste.*

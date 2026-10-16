@@ -2,7 +2,7 @@
 aliases: [Clock Arithmetic, Modular Math, Modulo]
 conformant: false
 created: 2025-12-24T12:00:00+00:00
-modified: 2026-09-29T10:37:55+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/modular-arithmetic-creates-a-cyclical-system
 tags: [cryptography, maths]
@@ -27,3 +27,7 @@ $$
 3. Trapdoors: Finding the cycle length (totient) is easy if you know the prime factors of the modulus, but impossible if you don't.
 
 By working inside this "playground," mathematicians can create operations that are perfectly reversible for those with the secret key, but seemingly random for everyone else.
+
+### Related
+
+- [[Trapdoor Functions Are the Foundation of Public-Key Cryptography]]—*modular arithmetic underpins many trapdoor functions.*

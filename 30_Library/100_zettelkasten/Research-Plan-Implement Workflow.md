@@ -36,4 +36,3 @@ Standard protocol for complex agentic engineering tasks. It requires disciplinin
 ### Related
 
 - [[SoT - The RPI Workflow (Context Engineering)]]—direct concept match: provides the canonical definition and operational steps for this workflow.
-- [[Architecture First Approach to AI Development]]—shared mechanism: both emphasize planning and documentation as prerequisites for implementation.

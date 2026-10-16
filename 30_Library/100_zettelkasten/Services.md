@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-07-10T13:05:06+00:00
 last_reviewed: ''
-modified: 2026-09-29T10:37:58+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/services
 tags: []
 title: Services
@@ -19,3 +19,7 @@ updated: null
 - Strategic Recommendation: Choose the service type that precisely matches the intended accessibility and traffic pattern. For internal microservices, ClusterIP is appropriate. For external exposure, `LoadBalancer` or `Ingress` (discussed next) are preferred, leveraging cloud-native load balancing for performance and scalability.
 
 [[Kubernetes-Native Abstractions for Traffic Control]]
+
+### Related
+
+- [[The k8s Service Abstraction]]—*a fuller account of why Services are the core networking abstraction.*

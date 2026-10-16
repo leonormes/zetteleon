@@ -2,7 +2,7 @@
 aliases: [Neuroplasticity]
 conformant: false
 created: 2025-11-10T16:16:00+00:00
-modified: 2026-09-29T10:37:55+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/neuroplasticity-is-the-brains-ability-to-change-in-response-to-experience
 tags: [brain, learning, neuroplasticity, TheHuman/Neuroscience]
@@ -15,3 +15,7 @@ type: claim
 Summary: Neuroplasticity is the brain's fundamental capacity to change its physical structure and function in response to experience, which forms the physical basis of all learning and memory.
 
 Details: Learning is a physical alteration in the brain. This plasticity manifests in several ways, including the formation of new connections between neurons (synaptogenesis) and the strengthening or weakening of existing synapses. Active learning strategies directly influence these neuroplastic processes.
+
+### Related
+
+- [[Knowledge Formation is a Cognitive Process of Neural Connection]]—*how plasticity supports knowledge.*

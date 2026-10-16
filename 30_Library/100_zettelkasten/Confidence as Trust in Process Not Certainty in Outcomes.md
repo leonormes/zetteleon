@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-11-01T09:51:13+00:00
-modified: 2026-09-29T10:37:49+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/confidence-as-trust-in-process-not-certainty-in-outcomes
 tags: [adaptation, confidence, mental-model, process, TheHuman/Mindset]
@@ -15,3 +15,7 @@ type: claim
 Summary: Confidence grounded in process trusts your ability to sense, decide, and adjust rather than guaranteeing particular outcomes.
 
 Details: Confidence grounded in process trusts your ability to sense, decide, and adjust rather than the guarantee of a particular outcome. Like a navigator who does not need a perfect map to reach port, you rely on checkpoints, feedback, and course correction. This shift decouples self-worth from being right and attaches it to learning competence. Process-based confidence compounds with each iteration and reduces fear of being wrong.
+
+### Related
+
+- [[The Framework Builds System Trust]]—*the same trust-in-process logic applied to a task system.*

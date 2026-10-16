@@ -2,7 +2,7 @@
 aliases: [Algebra]
 created: 2025-11-01T11:22:13+00:00
 last_reviewed: '2025-11-01T00:00:00.000Z'
-modified: 2026-09-29T10:37:47+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/algebra-definition
 status: seed
 tags: [fields, topic/maths]
@@ -23,3 +23,7 @@ Key Structures:
 - Vector spaces: Foundation for linear algebra
 
 Example: Instead of computing 2 + 3 = 5, algebra works with general equations like x + y = z, allowing reasoning about all possible instances simultaneously.
+
+### Related
+
+- [[Arithmetic (Definition)]]—*algebra generalises arithmetic's operations over symbols.*

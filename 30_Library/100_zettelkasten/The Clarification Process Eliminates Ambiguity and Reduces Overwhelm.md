@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-11-10T15:12:00+00:00
-modified: 2026-09-29T10:37:59+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/the-clarification-process-eliminates-ambiguity-and-reduces-overwhelm
 tags: [clarification, gtd, overwhelm, topic/productivity]
@@ -13,3 +13,7 @@ type: claim
 Summary: The clarification process, which converts vague captured thoughts ("stuff") into atomic actions, eliminates ambiguity, creates immediate momentum, reduces overwhelm, and enables measurable progress.
 
 Details: By systematically defining what each item is, what the desired outcome is, and what the very next physical action is, this process transforms mental clutter into clear, actionable steps. This reduces the cognitive load and the feeling of being overwhelmed by an undifferentiated mass of "stuff."
+
+### Related
+
+- [[For ADHD The Clarification Process Externalizes Decision-Making and Builds System Trust]]—*the ADHD-specific benefit.*

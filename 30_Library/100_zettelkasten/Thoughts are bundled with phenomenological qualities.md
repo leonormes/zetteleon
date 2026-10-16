@@ -2,7 +2,7 @@
 aliases: [felt significance, phenomenology of thought, thought experience]
 conformant: false
 created: 2025-10-31T20:45:00+00:00
-modified: 2026-09-29T10:38:00+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/thoughts-are-bundled-with-phenomenological-qualities
 tags: [metacognition, phenomenology, TheHuman/Cognition]
@@ -28,3 +28,7 @@ Thoughts in the mind are not bare propositions but come packaged with:
 This phenomenological bundling is why thoughts can feel deeply important, meaningful, or insightful in the moment of thinking them, even when their actual content may be relatively mundane or obvious. The feeling of profundity is doing significant work in how we experience and evaluate our own thoughts.
 
 This phenomenon is distinct from the actual semantic or propositional content of the thought itself.
+
+### Related
+
+- [[Ideas exist beyond linguistic expression]]—*ideas beyond words.*

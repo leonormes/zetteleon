@@ -2,7 +2,7 @@
 aliases: ["Gödel's Theorems"]
 conformant: false
 created: 2025-11-01T11:22:13+00:00
-modified: 2026-09-29T10:37:52+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/godels-incompleteness-theorems-constrain-foundational-programs
 tags: [foundations, godel, logic, topic/maths]
@@ -27,3 +27,8 @@ These theorems dealt severe blows to both Logicism and Formalism. They showed th
 2. The consistency of formal systems cannot be proven internally (challenging Hilbert's formalist program)
 
 The theorems revealed inherent limitations in the foundationalist project while paradoxically demonstrating the power of mathematical reasoning itself.
+
+### Related
+
+- [[Axiomatic Set Theory Is a Foundational Framework for Mathematics]]—*the foundational framework whose ambitions are constrained.*
+- [[Intuitionism (Mathematics as Mental Construction)]]—*an alternative foundational view.*

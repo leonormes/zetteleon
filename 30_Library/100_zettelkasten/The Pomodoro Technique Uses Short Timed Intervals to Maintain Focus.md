@@ -2,7 +2,7 @@
 aliases: [Pomodoro]
 conformant: false
 created: 2025-11-10T14:07:00+00:00
-modified: 2026-09-29T10:37:59+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/the-pomodoro-technique-uses-short-timed-intervals-to-maintain-focus
 tags: [focus, pomodoro-technique, time-management, topic/productivity]
@@ -15,3 +15,7 @@ type: claim
 Summary: The Pomodoro Technique is a time management method that uses a timer to break down work into focused intervals, traditionally 25 minutes in length, separated by short breaks.
 
 Details: Each 25-minute work interval is called a "pomodoro." After four pomodoros, a longer break is taken. Each pomodoro is essentially a timebox dedicated to a single task. This method is lauded for improving focus by minimizing distractions and preventing burnout through regular breaks.
+
+### Related
+
+- [[The Flowtime Technique is a Flexible Alternative to Pomodoro Based on Natural Focus]]—*the flexible alternative to fixed Pomodoro intervals.*

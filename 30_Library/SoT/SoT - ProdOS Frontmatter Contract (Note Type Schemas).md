@@ -1,13 +1,15 @@
 ---
 aliases: [Frontmatter Contract, FrontmatterContract, Note Type Schemas, TAC Frontmatter Schema]
 allowlist_decision: "Option C — Documented allowlist. Legacy set frozen. New files must pass 0 errors. allowlist maintained in this file's frontmatter at `non_conformant_allowlist`."
+conformant: true
 created: 2026-07-17T00:00:00+00:00
-modified: 2026-09-29T10:38:14+00:00
+modified: 2026-10-13T00:00:00+01:00
 permalink: llmeon/30-library/so-t/so-t-prodos-frontmatter-contract-note-type-schemas
 see_also: ["[[Goal - Frontmatter Bulk Migration (Phase 3)]]", "[[Protocol - Typed Answer Contract (TAC) for Vault Agents]]", "[[SoT - PRODOS Core Specification]]", "[[SoT - Typed Answer Contract (TAC) for LLM Output]]"]
 supersedes: ["[[SoT - Typed Answer Contract (TAC) for LLM Output]]"]
 tags: [domain/pkm, prodos/sot, topic/frontmatter, topic/knowledge-architecture]
 title: SoT - ProdOS Frontmatter Contract (Note Type Schemas)
+type: sot
 ---
 
 > Canonical status: this note is the authoritative frontmatter schema spec for the vault, superseding the same content previously living inside the `20_Thinking/21_Workbench/Typed-Answer-Contract-RAG.md` scratch note (now retired to `.trash/`). `AGENTS.md`, `sys_merger`, and every prompt with a `## TAC FRONTMATTER COMPLIANCE (MANDATORY)` block link here. Section numbers (§1–§9) are preserved unchanged from the workbench version so existing citations by number remain correct.
@@ -23,7 +25,7 @@ Your vault has transitioned to a strictly enforced schema model governed by Type
 If an LLM or agent cannot fill the schema cleanly, it MUST flag `conformant: false` and note the `non_conformance_reason`.
 
 - `type` is now a STRICTly required top-level field (superseding previous deprecation).
-- `title`, `created`, `modified`, and `tags` remain required.
+- `title`, `created`, `modified`, and `tags` remain required. Enforcement differs by script: `validate_note_frontmatter.py` checks only `title`, `type`, `tags` and `conformant`, while `validate_note_shape.py` also requires `created` and `modified` on atomic notes.
 - `conformant` (boolean) and `non_conformance_reason` (string) are required top-level flags.
 
 ---
@@ -35,7 +37,7 @@ Any agent touching frontmatter MUST return a `FrontmatterContract` object. This 
 | Field | Required | Type | Rule |
 |:------|:---------|:-----|:-----|
 | `title` | Yes | string | Matches filename. |
-| `type` | Yes | string | `claim`, `concept`, `evidence`, `question`, `procedure`, `protocol`, `map`, `journal`, `project`, `sot`, `link_report`, `equipment`, `source`. |
+| `type` | Yes | string | `claim`, `concept`, `evidence`, `question`, `procedure`, `protocol`, `map`, `journal`, `project`, `sot`, `link_report`, `equipment`, `source`, `prompt`. |
 | `project_name` | No | string | Parent project context if applicable. |
 | `project_category` | No | string | e.g. `prodos`, `devops`, `personal`. |
 | `status` | No | string | `draft`, `seed`, `stable`, `evergreen`, `stale`, `superseded`. |
@@ -44,6 +46,14 @@ Any agent touching frontmatter MUST return a `FrontmatterContract` object. This 
 | `non_conformance_reason` | Conditional | string | Required if `conformant: false`. |
 | `supersedes` | No | list of wikilinks | Older note(s) this one replaces. Set on the new/surviving note. |
 | `superseded_by` | Conditional | list of wikilinks | The note(s) that replaced this one. Required if `status: superseded`. |
+
+Cross-type rules enforced by `validate_note_shape.py` on atomic notes in `100_zettelkasten`:
+
+- `title` must equal the filename without `.md`.
+- `confidence` belongs to `evidence` notes only.
+- These legacy keys must not be written: `uid`, `purpose`, `epistemic`, `updated`, `creation_date`, `last_reviewed`. For atomic notes this overrides the §6 mapping of `last_reviewed` and `review_interval` into `prodos.review`, since atomic notes no longer carry a `prodos` key (§4). See [[SoT - Atomic Note Standard (The Proposition Card)]].
+
+Routing types with no dedicated §3 schema: `protocol`, `map`, `journal`, `project`, `sot`, `link_report`, `equipment`, `source` and `prompt`. They need only the §2 envelope. A `prompt` note lives in `10_System/prompts/` (added to the enum 2026-10-16, legitimising the library-wide convention). A `source` note also carries `source_reference`, `authors`, `year`, `calibre_id` and `calibre_link`.
 
 ---
 
@@ -108,7 +118,7 @@ _(Note: As the TAC architecture rolls out, elements of `prodos` may be fully mig
 | Key | Required | Type | Allowed values / notes |
 |:----|:---------|:-----|:----------------------|
 | `prodos.kind` | No (was Yes; not for atomic notes) | string | `head`, `sot`, `protocol`, `moc`, `atomic`, `project`, `ops`, `prompt`, `journal` |
-| `prodos.lifecycle` | No (was Yes; not for atomic notes) | string | `seedling`, `active`, `stable`, `evergreen`, `archived` |
+| `prodos.lifecycle` | No (was Yes; not for atomic notes) | string | `seedling`, `active`, `stable`, `evergreen`, `archived`. This is a separate vocabulary from top-level `status` (§2: `draft`, `seed`, `stable`, `evergreen`, `stale`, `superseded`). Do not copy values between them; `seedling` and `seed` are not interchangeable keys. |
 | `prodos.trust` | No | string | `low`, `working`, `stable`, `authoritative`—epistemic confidence |
 | `prodos.review` | No | mapping | Optional cadence (`interval`, `last_reviewed`) |
 | `prodos.id` | No | string | Canonical stable id for the note. |
@@ -117,7 +127,7 @@ _(Note: As the TAC architecture rolls out, elements of `prodos` may be fully mig
 
 ## 5. Machine-readable Schema
 
-1. JSON Schema (many tools / IDEs): `gemini-scribe/schemas/prodos-note-frontmatter.schema.json`.
+1. JSON Schema (many tools / IDEs): none exists. The path `gemini-scribe/schemas/prodos-note-frontmatter.schema.json` this section once named was never created and the `gemini-scribe` directory is gone. The working enforcement is `10_System/scripts/validate_note_frontmatter.py` plus the `Note` fileClass in `10_System/fileClasses/`.
 2. TAC Models are validated in Python via `pydantic`.
 3. Vault Action contracts ensure `dry_run` is True unless explicitly bypassed by human execution.
 
@@ -194,7 +204,7 @@ The canonical validator is `10_System/scripts/validate_note_frontmatter.py`, run
 uv run --with pyyaml python3 10_System/scripts/validate_note_frontmatter.py --audit
 ```
 
-Status (updated 2026-09-14): the script exists and is runnable—checks §2's required fields, `tags`/`conformant` typing, the conditional `non_conformance_reason`, the `type` enum, `prodos.kind`/`prodos.lifecycle` enum membership, and §3's type-specific schema fields when `conformant: true`. It landed at `10_System/scripts/validate_note_frontmatter.py`, not the `gemini-scribe/scripts/` path this section originally named—that path was aspirational and never existed; update any other note or prompt still citing `gemini-scribe/scripts/validate_note_frontmatter.py`. Not yet extended with a regression-case mode the way `edge_lint.py --regress` was (see `10_System/evals/README.md`)—a reasonable next step, not done here.
+Status (updated 2026-10-13): the script exists and is runnable—checks §2's required fields (`title`, `type`, `tags`, `conformant`), `tags`/`conformant` typing, the conditional `non_conformance_reason`, the `type` enum, the `status` enum, `supersedes`/`superseded_by` as lists and `superseded_by` when `status: superseded`, `prodos.kind`/`prodos.lifecycle` enum membership, and §3's type-specific schema fields (plus the `epistemic_status` enum and list typing for claims) when `conformant: true`. Body, title and link rules for atomic notes are checked separately by `validate_note_shape.py`. It landed at `10_System/scripts/validate_note_frontmatter.py`, not the `gemini-scribe/scripts/` path this section originally named—that path was aspirational and never existed; update any other note or prompt still citing `gemini-scribe/scripts/validate_note_frontmatter.py`. Not yet extended with a regression-case mode the way `edge_lint.py --regress` was (see `10_System/evals/README.md`)—a reasonable next step, not done here.
 
 ## Tensions & Gaps
 

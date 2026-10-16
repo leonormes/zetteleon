@@ -43,7 +43,6 @@ This hub triages the "Operational Playbooks/Diagnostics" cluster, focusing on Ze
 - [[SN - Sequence - A Deep Dive into Adult ADHD in Remote Software Development]]
 - [[Bash - Error Handling]]
 - [[Architectural Decision Records ADRs for AI Agents]]
-- [[Deep Agents for Long Horizon Planning]]
 - [[State Synchronization Models]]
 
 ### 5. Recommended Actions

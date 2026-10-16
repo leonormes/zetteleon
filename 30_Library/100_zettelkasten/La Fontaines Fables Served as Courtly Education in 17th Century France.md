@@ -2,7 +2,7 @@
 aliases: ["La Fontaine's Fables"]
 conformant: false
 created: 2025-11-01T21:37:00+00:00
-modified: 2026-09-29T10:37:54+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/la-fontaines-fables-served-as-courtly-education-in-17th-century-france
 tags: [fable, french-literature, history, la-fontaine, storytelling]
@@ -15,3 +15,7 @@ In the 17th century, Jean de La Fontaine adapted the classic fable form for the 
 La Fontaine's fables were not just for children; they were complex works of social and political commentary aimed at an adult audience, including the aristocracy and King Louis XIV himself. They used the traditional animal allegory to subtly critique human behavior, social hierarchies, and political power.
 
 His work cemented the fable as a respectable and influential literary form, capable of delivering nuanced moral and philosophical insights.
+
+### Related
+
+- [[The Versailles Labyrinth Used Fable Installations for Visual Storytelling]]—*the fables' visual setting at Versailles.*

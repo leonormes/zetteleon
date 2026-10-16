@@ -2,7 +2,7 @@
 aliases: [Dukkha, Four Noble Truths]
 conformant: false
 created: 2025-11-01T12:20:03+00:00
-modified: 2026-09-29T10:37:59+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/the-four-noble-truths-explain-suffering-from-attachment
 tags: [attachment, buddhism, suffering, zen]
@@ -15,3 +15,7 @@ type: claim
 Summary: The Four Noble Truths in Buddhism posit that suffering (Dukkha, or unsatisfactoriness) is an intrinsic part of life that arises from our attachments and aversions.
 
 Details: Zen practice does not teach that suffering can be entirely eliminated. Instead, it teaches that we can change our relationship to it. By recognizing that our craving for things to be different and our aversion to things as they are is the root of our distress, we can learn to relate to suffering with acceptance and less resistance, thereby reducing its hold on us.
+
+### Related
+
+- [[Zen Emphasizes Enlightened Activity Over Enlightened People]]—*a practice-focused response.*

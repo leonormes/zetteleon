@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-10-31T00:00:00+00:00
-modified: 2026-09-29T10:37:50+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/dopamine-reward-pathway-dysfunction-causes-adhd-task-initiation-difficulty
 tags: [gtd, TheHuman/Health/ADHD]
@@ -23,3 +23,7 @@ Clinical Manifestation: Adults with ADHD describe this as "ADHD Paralysis" - the
 Supports [[The ADHD brain operates on an Interest-Based Nervous System]]—the reward-pathway dysfunction behind the ignition requirement.
 
 [supports:: [[The Interest-Based Nervous System in ADHD]]]
+
+### Related
+
+- [[Dopamine Regulates Motivation (Wanting) Separately from Pleasure (Liking)]]—*the wanting/liking distinction behind it.*

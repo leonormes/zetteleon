@@ -28,5 +28,4 @@ Applies in environments where agents can manage multiple parallel repository-wid
 
 ### Related
 
-- [[Architecture First Approach to AI Development]]—extends: the macro-delegation shift is the natural endpoint of the architecture-first movement—once planning and specification are the primary activities, the architecture-first approach describes the entire job.
 - [[SoT - Agentic Roles]]—shared mechanism: both describe a transformation where humans move up the abstraction stack from writing code to defining constraints and orchestrating systems; the Architect role in the surgical team model is the human role in this future.

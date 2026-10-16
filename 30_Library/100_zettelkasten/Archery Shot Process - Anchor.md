@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-10-08T14:30:00+01:00
+modified: 2026-10-16T14:47:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-anchor
 tags:
 - archery
@@ -23,7 +23,7 @@ Anchor is the final reference for the full draw position and the point of maxima
    - Top finger placement & bone-to-bone squeeze: The primary anchor contact point is the absolute top of the index finger's distal knuckle pressed straight up into the bottom edge of the jawbone, wedged into the pocket between the edge of the jawbone and the neck muscle. Squeeze this connection firmly to ensure unyielding bone-to-bone contact; a soft or skin-only contact allows the hand to shift and creates vertical stringing. _Inside the Archer_ (Ch. 13, PDF p. 134) calls this the first and most important element of the anchor; see Alternative Views / Corrections for how this differs from the note above.
    - _Purpose:_ Hard bone-to-bone contact is an unyielding, repeatable reference. Skin-only contact lets the hand shift, which alters draw length mid-shot, adds sight shake and creates vertical stringing. Turning the head to expose the jawline gives the hand a platform without bending the wrist, and the thumb in front of the SCM avoids a choking sensation. Hinging up from loading keeps the elbow on its line of force so back tension is preserved.
 2. Real Full Draw (The State of Readiness): Simply reaching the anchor point (e.g., hand on jaw, string on face) is not full draw. "Real full draw" is the state of feeling "inside the bow," achieved by shifting your focus from pulling the string to moving your draw elbow further around your body along the shooting line.
-   - Continuous Motion: The transition from drawing to anchoring to full draw must be continuous. Like a car taking a corner, slow down and change direction—do not stop completely.
+   - Continuous Motion & Dynamic Acquisition: The transition from drawing to anchoring to full draw must be continuous. Treat the continuous backward rotation of the draw elbow as the primary movement, acquiring the facial anchor reference as a secondary byproduct within that continuous motion rather than stopping or stalling the draw to "set" the anchor. Like a car taking a corner, slow down and change direction—do not stop completely.
    - Bone Alignment: When viewed from behind, the draw elbow must be directly in line with the arrow or slightly past it. Vertically, the draw elbow should sit slightly _above_ the horizontal arrow line. You should be able to extrapolate a straight line from the pressure point on the bow grip, directly through the hook on the string, to the point of your draw elbow. If the elbow is outside this line, achieving stability is almost impossible.
    - Scapular Range of Motion at Anchor: At the moment anchor is reached, the drawing-side scapula should be roughly 80–85% retracted. It must not be 100% maxed out; if the scapula is fully retracted at anchor, there is zero skeletal range of motion remaining to expand dynamically through the clicker.
    - Stability for Expansion: This finalized alignment allows you to expand through the clicker without unwanted body/bow wobble, erratic sight movement, or the draw elbow dropping.
@@ -70,13 +70,16 @@ Anchor is the final reference for the full draw position and the point of maxima
 - String alignment fixes lateral misses.
 - Proper String Oscillation: A slightly forward anchor point with minimal face contact allows the string to naturally travel inward upon release before kicking safely away from the body. This unrestricted oscillation ensures the back of the arrow completely clears the arrow rest.
 
+- Structural Mount versus Level and Crosshair (Gemini capture, 2026-10-16, unverified): Think of the hand-to-jaw contact as the structural mount that holds the back of the arrow in place and links string and arrow to the skeleton and back muscles. String contact at the nose and chin works as the level and crosshair, keeping the bow vertical and the head turn consistent.
+
 ### Faults & Diagnostics
 
 - Center Anchor Position: Anchoring the string dead center on the chin forces you to cock your head sideways to achieve string alignment and nose contact. This leads to discomfort and neck tightness (shortening the levator scapulae and upper trapezius), often provoking a high bow shoulder, neck pain, and fatigue that limits shooting endurance and draw-weight tolerance.
 - Side Anchor Position (Chin Drag): Anchoring too far back on the side of the jaw causes the string to push against and drag along the face upon release. This disrupts the archer's paradox and the string's natural lateral S-curve oscillation, throwing arrows far to the left and degrading tuning forgiveness.
 - Head Position (Looking Down or Open Mouth): Keep your spine and crown straight up. Looking down closes the gap along your jawline, making it impossible to fit your hand underneath it for a solid anchor. Additionally, keep your teeth together (back molars lightly touching); opening your mouth or shifting your jaw while drawing drastically alters the shape of your jawline and lowers your rear sight reference relative to your eye, which causes arrows to impact dramatically low on the target.
 - Tense Thumb or Pinky: Ensure your hook is relaxed. If your thumb or pinky is poking straight out or tense, they can physically block your hand from getting close enough to rest flush against your neck.
-- Ramming Upward (The Timing Killer): Hyper-focusing on jamming the hand upward into the jaw halts your fluid backward motion and destroys shot timing. Draw smoothly back around the body and let the hand naturally rest against the jaw, rather than forcefully thrusting it upward.
+- Over-Prioritizing Upward Anchor Pressure (Ramming Upward): Hyper-focusing on jamming the hand upward to wedge tightly into the chin/neck halts your fluid backward motion and destroys shot timing. Draw smoothly back around the body and let the hand naturally meet the jaw within the continuous movement, rather than forcefully thrusting upward.
+- Chin Cut from Upward Tab Pressure (Diagnostic): Developing a deep cut or abrasion under the chin from the finger tab during normal shooting volume is a classic diagnostic that force is being driven too hard upwards into the jaw, killing backward elbow rotation.
 - Feathering: Hovering on the edge of the jaw with zero backward load causes the hand to collapse forward or pluck outwards on release.
 - Anchoring Too High: Anchoring higher on the cheek pushes the string away from the face, forces the drawing shoulder upward, and severely limits sight range.
 - The Flaw of Trying to Hold Still: Forcing the body to hold the pin perfectly static degrades the sight picture and triggers shot anticipation.
@@ -94,6 +97,13 @@ Anchor is the final reference for the full draw position and the point of maxima
 - Driving with the Elbow into Anchor: Attempting to reach anchor by lifting or driving the draw elbow upward rather than rotating the hand upward around the elbow hinge. Lifting the elbow pulls the scapula away from the spine, immediately disconnecting back tension and collapsing holding structure.
 
 ### Training Drills
+
+#### Full-Shelf Contact Check (Gemini capture, 2026-10-16, unverified)
+
+- Purpose: Confirms the anchor is a full bone-to-bone shelf and not a single fingertip touching.
+- How to do it:
+  1. At anchor, feel whether the whole hand and thumb sit flush against the neck and jawbone, or only the index fingertip is in contact.
+  2. If only the fingertip touches, reseat the rear knuckle of the index finger in the pocket under the jawbone with the hand flush to the neck (see step 1).
 
 #### Resistance Band Alignment Drill (Thera-Band)
 
@@ -187,8 +197,10 @@ Anchor is the final reference for the full draw position and the point of maxima
 - Jake Kaminski, Loading to Anchor Transition and Hand Placement (YouTube)
 - Jake Kaminski (Video reference on anchor consistency fixes)
 - Peter (in-person coaching, 2026-09-12)—anchor style variants, micro-head-tilt string alignment correction
+- Gemini chat on the anchor as rear sight and its role through release (captured 2026-10-16; cited sources not named, unverified)
 - Captured anchor cue summary (captured 2026-09-30; source not named): pinky-to-neck contact, facial muscle neutrality, side-on video check, vertical stringing diagnostic
 - "Relaxed shot" vs weak shot video (YouTube jQ4wovCJipI; Gemini summary captured 2026-10-08; title and channel not recorded; mentions a peep sight and release aid, so it may be compound-oriented)
+- Online Archery Academy, ["Why Your Shot Timing is Inconsistent (and how to fix it)"](http://www.youtube.com/watch?v=Rw5CdSfc_rY) (dynamic anchor acquisition, upward anchor pressure fault, chin cut diagnostic)
 
 See also: [[Archery Shot Process - Finger Tab Selection & Maintenance]]—an oversized base plate can prevent the hand sitting flush against the jaw, degrading anchor depth and the string picture.
 

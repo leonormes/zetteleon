@@ -2,7 +2,7 @@
 aliases: [Agent Capabilities, AI Agent Skills, Claude Code Skills]
 conformant: true
 created: 2026-03-28T17:00:00+00:00
-modified: 2026-09-29T10:38:07+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-ai-agent-skill-architecture
 tags: [agents, ai, architecture, claude, mcp, skills]
@@ -94,3 +94,7 @@ This closes the "decide on Skills adoption" item from [[prodos-agent-architectur
 - [[SoT - LLM Semantic-Statistical Mismatch]]—Why Pattern B (scripts for deterministic tasks) is necessary
 
 ---
+
+### Related
+
+- [[Capability Pruning Restricts Each Agent's Tools to Its Role to Prevent Runaway Tool Calls and Hallucinated Requirements]]—*a concrete reason to scope each agent's tools to its role: it prevents runaway tool calls.*

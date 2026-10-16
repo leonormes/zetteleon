@@ -7,7 +7,7 @@ exports: ['concept: "system-resources']
 id: "20240206143000"
 imports: ['from: "linux-core']
 last_reviewed: ""
-modified: 2026-09-29T10:38:01+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/200-projects/linux-namespaces
 project_category: infrastructure
 project_name: k8s
@@ -237,3 +237,7 @@ The PID Namespace implements process ID isolation, providing each container with
 The IPC Namespace provides isolation for inter-process communication mechanisms, including shared memory areas, message queues, and semaphores. This namespace is particularly crucial for database applications, where controlled inter-process communication is essential for proper operation and data integrity.
 
 <!--content-block-end-->
+
+### Related
+
+- [[Concept - Loopback Interface]]—*each network namespace has its own loopback.*

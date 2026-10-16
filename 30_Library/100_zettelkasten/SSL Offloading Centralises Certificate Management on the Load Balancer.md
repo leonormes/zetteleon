@@ -2,7 +2,7 @@
 aliases: [SSL Termination]
 conformant: false
 created: 2025-10-31T09:25:29+00:00
-modified: 2026-09-29T10:37:57+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/ssl-offloading-centralises-certificate-management-on-the-load-balancer
 tags: [load-balancing, SoftwareEngineering/Networking, SoftwareEngineering/Security, ssl, tls]
@@ -17,3 +17,7 @@ Summary: SSL offloading (or SSL termination) is the process where a load balance
 Details: The load balancer terminates the incoming SSL connection from the client, decrypts the request, and then forwards it to the backend server as unencrypted HTTP traffic. This simplifies certificate management, as SSL certificates only need to be installed and renewed on the load balancer instead of on every individual server.
 
 For end-to-end encryption, many load balancers also support re-encryption, where the load balancer initiates a new SSL connection to the backend server, ensuring traffic is encrypted both in transit from the client and within the internal network.
+
+### Related
+
+- [[Hybrid Encryption Combines Symmetric Speed with Asymmetric Security]]—*the cryptographic split TLS relies on.*

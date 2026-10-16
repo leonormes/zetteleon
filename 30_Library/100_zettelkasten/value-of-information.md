@@ -3,7 +3,7 @@ aliases: []
 created: 2024-12-24T18:56:42+00:00
 ID: 2g
 last_reviewed: ''
-modified: 2026-09-29T10:38:01+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/value-of-information
 tags: [information]
 title: value-of-information
@@ -20,3 +20,7 @@ Information holds inherent value due to its potential to:
 5. Influence behavior
 
 [[Information Hidden in Data]]
+
+### Related
+
+- [[Probability (Definition)]]—*value of information rests on probabilistic reasoning.*

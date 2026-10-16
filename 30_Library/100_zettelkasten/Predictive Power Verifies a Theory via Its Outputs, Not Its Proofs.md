@@ -36,7 +36,6 @@ Applies to theories with engineered, real-world applications. It establishes fun
 
 ### Related
 
-- [[Agentic Autonomy Accelerates Fastest in Domains Where Success Is Verifiable]]—shared mechanism: both point to verifiable output as the trust criterion, one for scientific theories, one for AI agent domains.
 - [[SoT - Reality, Models, and the Limits of Accuracy]]—extends: a model earning trust through working outputs is a specific case of "all models are wrong, but some are useful."
 - [[Newtonian Physics as an Effective Theory]]—a model can pass this predictive-power test and still later be superseded; working outputs verify usefulness, not final truth.
 - [[Falsifiability Distinguishes Science from Dogma]]—sibling demarcation criterion from the same source conversation: that note verifies a theory by whether its structure admits disproof; this note verifies it by whether its outputs work. Two independent tests for the same question, not the same test twice.

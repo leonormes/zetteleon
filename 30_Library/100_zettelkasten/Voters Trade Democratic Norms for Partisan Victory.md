@@ -5,7 +5,7 @@ created: 2026-09-17T11:34:07+00:00
 created_utc: '2026-09-17T00:00:00Z'
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-29T10:38:01+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/00-inbox/voters-trade-democratic-norms-for-partisan-victory
 proposition: A significant portion of the electorate will knowingly choose a candidate who shares their partisan goals but behaves dishonestly or undemocratically over an opposing candidate who is honest and adheres to democratic norms, and this trade-off intensifies as affective polarization rises.
 source_title: Political Contrast Effect Research
@@ -36,3 +36,7 @@ Based on Milan Svolik's experimental research on democratic backsliding, using f
 ### Library Sources
 
 - _Enlightenment Now: The Case for Reason, Science, Humanism, and Progress_ (Steven Pinker), Ch. 14—discusses "democratic backsliding" directly, including how episodes of reversal are sometimes used as "a convenient pretext for dictators"—complements this atom's voter-choice framing with the macro/historical pattern of backsliding episodes, though Pinker's chapter is not specifically about Svolik's partisan-tradeoff experiments.
+
+### Related
+
+- [[Cognitive Biases Reinforce Mental Models]]—*biases that support partisan reasoning.*

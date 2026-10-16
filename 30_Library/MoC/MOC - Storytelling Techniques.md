@@ -19,6 +19,7 @@ updated: null
 ## Social Functions
 
 - [[Political Subversion Through Animal Allegory]] rel:: demonstrates
+- [[Animal Allegory is a Persistent Feature of Fables for Social Commentary]] rel:: demonstrates
 
 ## Modern Applications
 

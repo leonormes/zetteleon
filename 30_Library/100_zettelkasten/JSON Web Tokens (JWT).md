@@ -2,7 +2,7 @@
 created: 2026-04-13T14:47:45+00:00
 created_utc: '2026-04-13T11:30:00Z'
 kind: definition
-modified: 2026-09-29T10:37:53+00:00
+modified: 2026-10-15T00:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/json-web-tokens-jwt
 source_title: Every API Authentication Method Explained
 source_url: https://youtube.com/watch?v=_lTECv25N2U
@@ -34,4 +34,7 @@ Used as a token format, not an authentication protocol. Revocation before expiry
 
 - [[SoT - VSO Authentication (JWT vs AppRole)]]—shared mechanism: compares JWT-based OIDC discovery with static credential methods.
 - [[SoT - Modern Authentication Standards]]—extends: describes the role of the ID Token as a JWT in the OIDC flow.
-- [[Bearer Tokens]]—supports: JWT is the standard implementation for bearer tokens.
+- [[Bearer Tokens]]—supports: JWT is the standard implementation for bearer tokens. [supports:: [[Bearer Tokens]], confidence=medium]
+- [[OpenID Connect (OIDC)]]—used by: the OIDC ID token is a signed JWT.
+- [[Access Tokens]]—used by: access tokens are commonly issued in JWT form.
+- [[Session Authentication]]—contrast: server-side session state versus self-contained stateless tokens.

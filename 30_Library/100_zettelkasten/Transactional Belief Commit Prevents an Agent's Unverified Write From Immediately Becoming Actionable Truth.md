@@ -38,4 +38,3 @@ Addresses a specific failure mode in shared agentic memory: without staging, one
 ### Related
 
 - [[A Medallion Architecture (Bronze-Silver-Gold) Applied to Agentic Knowledge Bases Stages Raw Capture Through Review Before Trusted Storage]]—extends: a concrete three-tier implementation of this general staging principle.
-- [[Tri-Partite Agent Memory - Procedural, Semantic, and Episodic]]—extends: this staging discipline governs how new material enters whichever of those three memory types it belongs to.

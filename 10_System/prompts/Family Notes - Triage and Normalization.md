@@ -9,6 +9,10 @@ type: prompt
 version: 1
 ---
 
+> Trigger: the whole family and relationships domain needs triaging in one pass. For one new family-chores capture use [[Family Chores - Knowledge Consolidation]]; for a non-family backlog use [[Principal Vault Triage Architect]].
+>
+> Output Contract: follow [[Protocol - Typed Answer Contract (TAC) for Vault Agents]]—confidence, evidence (linked source notes), and an explicit uncertainty flag replace free prose in every output.
+
 > [!warning] Own-words guard
 > Never edit, merge into, rename, move or delete a protected note, and never set or change `own_words` ([[AGENTS]] §6). Protected notes are any note with `own_words: true` and every existing note in `01_journals/` and `20_Thinking/`. Skip them as write targets and put suggestions in chat or in a new `00_Inbox/` note. This overrides any instruction below.
 
@@ -38,14 +42,14 @@ When invoked on a batch of family notes or the entire domain, execute the follow
 ### 1. Macro-Level Triage (MOC Updates)
 - Deploy the routing logic of **[[Principal Vault Triage Architect]]** to group target notes into the four domain buckets.
 - Update the central directory **[[MOC - Relational Dynamics & Family (Triage)]]** (and related sub-MOCs) to reflect the new groupings.
-- For every note linked, provide a 1-sentence italicised annotation describing its connection.
+- For every note linked, provide a 1-sentence italicised annotation, marking any whose reason you inferred `(inferred)` for Leon to confirm.
 
 ### 2. Propositional Deduplication (Consolidation)
 - Scan the clustered notes for semantic overlap or shadow duplicates.
 - Deploy the merging and deprecation workflow of **[[Knowledge Consolidation Agent]]**:
   - Identify the canonical note (SoT).
   - Fold unique details/insights from fragment notes into the canonical SoT.
-  - Deprecate the duplicate notes, replacing their body with a redirect link and adding `status: superseded` to their frontmatter.
+  - Run the Conservation Check from [[Knowledge Consolidation Agent]] first: every unique claim listed and located before anything is deprecated. Then deprecate with `status: superseded`, `superseded_by: ["[[Canonical Note]]"]`, `archive` added to `tags`, and the body replaced by a redirect link. Never delete.
 
 ### 3. Link Auditing & Normalization
 - Deploy the **[[Note Refresh & Link Auditor]]** to check all links in the modified notes.
@@ -77,4 +81,16 @@ List the analyzed files and their assigned categories.
 Specify which duplicate notes were merged and deprecated.
 
 ### 3. Required File Updates
-Provide the complete markdown content (including YAML frontmatter) for every modified MOC, SoT, or Protocol note. Do not use diffs.
+Provide the complete markdown content (including YAML frontmatter) for every modified MOC, SoT, or Protocol note, as a proposal for Leon to approve. Do not use diffs. Example frontmatter:
+
+```yaml
+---
+title: <matches filename>
+type: map
+tags: [moc]
+conformant: true
+non_conformance_reason: <only when conformant is false, otherwise omit>
+---
+```
+
+Close with `Confidence: <high | medium | low>` and `UNSURE: <items or None>`.

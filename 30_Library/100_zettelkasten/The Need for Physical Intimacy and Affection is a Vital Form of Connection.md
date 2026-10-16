@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-11-10T10:08:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-29T10:37:59+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-need-for-physical-intimacy-and-affection-is-a-vital-form-of-connection
 proposition: Physical intimacy and affection are a vital form of connection and communication in a long-term partnership, extending beyond just sexual activity.
 tags: [affection, intimacy, needs, relationship]
@@ -18,3 +18,7 @@ type: claim
 Summary: Physical intimacy and affection are a vital form of connection and communication in a long-term partnership, extending beyond just sexual activity.
 
 Details: This need encompasses non-sexual touch like holding hands, cuddling, and hugs, which communicate care and closeness. It also includes the need to feel desired and that intimacy is a positive, shared activity rather than a chore.
+
+### Related
+
+- [[Emotional Support in a Partnership Creates a Safe Harbor for Vulnerability]]—*emotional safety alongside physical closeness.*

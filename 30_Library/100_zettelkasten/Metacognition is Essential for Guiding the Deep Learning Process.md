@@ -3,7 +3,7 @@ aliases: [Metacognition]
 conformant: false
 created: 2025-11-10T16:05:00+00:00
 epistemic_status: high
-modified: 2026-09-29T10:37:54+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing required field - type"
 permalink: llmeon/30-library/100-zettelkasten/metacognition-is-essential-for-guiding-the-deep-learning-process
 prodos.kind: claim
@@ -18,3 +18,7 @@ title: Metacognition is Essential for Guiding the Deep Learning Process
 Summary: Metacognition, the capacity to "think about one's own thinking," is essential for navigating the journey from fleeting comprehension to robust knowledge.
 
 Details: Metacognition involves planning learning approaches, monitoring comprehension, and assessing the effectiveness of one's understanding. Effective learners use metacognitive strategies to identify when they do not understand material and to adjust their learning strategies accordingly, such as by seeking clarification, generating questions, or applying more effortful techniques.
+
+### Related
+
+- [[The Illusion of Fluency is a Cognitive Bias Where Ease of Processing is Mistaken for Deep Learning]]—*what metacognition guards against.*

@@ -2,7 +2,7 @@
 created: 2026-04-13T14:47:45+00:00
 created_utc: '2026-04-13T11:30:00Z'
 kind: definition
-modified: 2026-09-29T10:37:55+00:00
+modified: 2026-10-15T00:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/open-id-connect-oidc
 source_title: Every API Authentication Method Explained
 source_url: https://youtube.com/watch?v=_lTECv25N2U
@@ -33,5 +33,9 @@ Enables interoperable identity management across various providers (e.g., Google
 ### Related
 
 - [[SoT - Modern Authentication Standards]]—direct concept match: defines OIDC as the standardized identity layer.
-- [[OAuth 2.0]]—extends: adds authentication capabilities to the underlying authorisation framework.
+- [[OAuth 2.0]]—extends: adds authentication capabilities to the underlying authorisation framework. [extends:: [[OAuth 2.0]]]
 - [[SoT - VSO Authentication (JWT vs AppRole)]]—shared mechanism: uses OIDC discovery for secure, ephemeral token verification.
+- [[JSON Web Tokens (JWT)]]—depends on: the ID token is a signed JWT. [depends_on:: [[JSON Web Tokens (JWT)]]]
+- [[Single Sign-On (SSO)]]—enables: the "Sign in with…" experience is OIDC applied to SSO.
+- [[Access Tokens]]—contrast: OIDC returns an ID token for identity alongside the access token for API access.
+- [[OIDC-Authentication-Wiki]]—practical walkthrough of the flows and endpoints this note defines.

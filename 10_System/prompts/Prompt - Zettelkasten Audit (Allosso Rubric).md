@@ -21,7 +21,7 @@ permalink: llmeon/10-system/prompts/prompt-zettelkasten-audit-allosso-rubric
 >
 > Output Contract: follow [[Protocol - Typed Answer Contract (TAC) for Vault Agents]]. State confidence, cite evidence with `[[wikilinks]]`, and flag insufficient context explicitly instead of guessing.
 >
-> Worked example: [[Zettelkasten Audit 2026-09-26]] is the first run of this prompt. Compare a new run against it.
+> Worked example: the first run of this prompt was on 2026-09-26; compare a new run against the most recent `Zettelkasten Audit` report in `90_Audits/`, if one exists.
 >
 > Provenance: rewritten from an earlier generic Luhmann-style prompt after a dry run showed it referred to a file that does not exist, checked things this vault deliberately does not do, and had no method or scope.
 
@@ -31,7 +31,7 @@ You are auditing a personal Zettelkasten as a code review: read-only, evidence-b
 
 - Review ONLY `/Volumes/DAL/Zettelkasten/LLMeon/30_Library/100_zettelkasten/`. Ignore `.fuse_hidden*` and `.DS_Store`.
 - Out of scope: journals, inbox, work, audits, archive, `30_Library/SoT`. Exceptions: count inbound links from `30_Library/MoC/` and `30_Library/400_indexes/` as entry-point evidence, and count a note's links to SoT or MoC notes as attachment. Report isolation both with and without them.
-- Do not modify any existing file. The only permitted write is one new report note in `00_Inbox/`, and only if asked (see Output).
+- Do not modify any existing file. The only permitted write is one new report note in `90_Audits/`, and only if asked (see Output).
 
 ## Rubric: "How to Make Notes and Write" (Allosso and Allosso, 2022; Calibre id 708)
 
@@ -70,7 +70,7 @@ Exclude ch. 8-11 and the Revision Checklist, which govern drafts. If you cannot 
 - **Output-readiness:** 3 candidate clusters, each with thesis, points, source notes and strongest objection, or a stated failure with the reason.
 - **Not assessable / assumptions:** what you could not check, and why.
 - **Verdict:** at most 200 words, direct but constructive, ending with the 5 highest-payoff actions for the reading, thinking, publishing path.
-- If asked for a report, write it as one new note in `00_Inbox/` through the Obsidian MCP, then run `uv run --with pyyaml python3 10_System/scripts/validate_note_frontmatter.py --path "<report>"` on it and fix any errors.
+- If asked for a report, write it as one new note in `90_Audits/` through the Obsidian MCP, then run `uv run --with pyyaml python3 10_System/scripts/validate_note_frontmatter.py --path "<report>"` on it and fix any errors.
 
 ## TAC FRONTMATTER COMPLIANCE (MANDATORY)
 

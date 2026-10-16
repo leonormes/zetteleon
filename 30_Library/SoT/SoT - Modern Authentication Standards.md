@@ -2,7 +2,7 @@
 aliases: [AuthN Standards, Modern Auth Protocols, OAuth and OIDC]
 conformant: true
 created: 2025-12-25T13:00:00+00:00
-modified: 2026-09-29T10:38:12+00:00
+modified: 2026-10-15T11:49:19+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-modern-authentication-standards
 tags: [authentication, oauth, oidc, SoftwareEngineering/Security, standards]
@@ -122,3 +122,16 @@ Moving beyond passwords to cryptographic proof of possession.
 
 - FIDO2 / WebAuthn: Standard for passwordless auth. The "password" is a private key stored in a hardware authenticator (YubiKey) or platform module (TouchID/FaceID).
 - Passkeys: Syncable FIDO2 credentials. Allows the private key to exist across devices (e.g., iCloud Keychain), balancing security with recovery.
+
+---
+
+## Related
+
+- [[OAuth 2.0]] - _Atomic note for the authorisation framework summarised in section 2A._ [synthesizes:: [[OAuth 2.0]]]
+- [[OpenID Connect (OIDC)]] - _Atomic note for the identity layer summarised in section 2B._ [synthesizes:: [[OpenID Connect (OIDC)]]]
+- [[JSON Web Tokens (JWT)]] - _Atomic note for the token format behind ID tokens and JWT assertions._ [synthesizes:: [[JSON Web Tokens (JWT)]]]
+- [[Phishing-Resistant MFA]] - _Atomic note for the FIDO2 and passkey guidance in sections 5 and 6._ [synthesizes:: [[Phishing-Resistant MFA]]]
+- [[SoT - Zero Trust Architecture]] - _The wider architecture that the mTLS section applies._
+- [[Workload Identity Governance]] - _Governance for the workload identities covered in the M2M and cloud-native sections._
+- [[SoT - Microsoft Entra Identity]] - _A concrete authorisation server and managed identity provider._
+- [[SoT - VSO Authentication (JWT vs AppRole)]] - _Applies the JWT assertion pattern to Vault authentication._

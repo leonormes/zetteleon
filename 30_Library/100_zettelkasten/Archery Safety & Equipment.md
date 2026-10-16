@@ -1,7 +1,7 @@
 ---
 aliases: ["Archery Equipment & Tuning"]
 created: 2026-09-21T14:36:18+01:00
-modified: 2026-10-08T14:30:00+01:00
+modified: 2026-10-14T08:46:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-safety-equipment
 tags: [archery, equipment, prodos/atomic, safety]
 title: Archery Safety & Equipment
@@ -15,7 +15,7 @@ Foundational guidelines for selecting beginner archery equipment and adhering to
 ### Essential Equipment
 
 - Takedown Recurve Bow: Highly recommended for beginners because the detachable limbs allow you to easily upgrade the draw weight as your strength improves.
-- Draw Weight & Progression: Start with a lower draw weight (generally 20 to 30 pounds for adults). Being "overbowed" (shooting too much weight) is the most common beginner mistake; it ruins shooting technique and causes injuries. Before buying heavier limbs to progress, loop a tan TheraBand around your bow to incrementally add 2–3 lbs of resistance during training drills (SPTs) to build strength safely.
+- Draw Weight & Progression: Start with a lower draw weight (generally 20 to 30 pounds for adults). Being "overbowed" (shooting too much weight) is the most common beginner mistake; it ruins shooting technique, causes injuries, and makes it physically impossible to keep pulling continuously through the clicker, directly stalling shot timing. If timing freezes or collapses at full draw, temporarily drop bow poundage to re-establish proper skeletal alignment and fluid, uninterrupted timing before progressing in weight. Before buying heavier limbs to progress, loop a tan TheraBand around your bow to incrementally add 2–3 lbs of resistance during training drills (SPTs) to build strength safely.
 - Appropriate Poundage for Training Volume: Draw weight must strictly reflect weekly arrow volume rather than maximum short-term pulling capacity. If shooting fewer than 400 arrows per week, maintain limb weight around 24 lbs. For 400–600 arrows per week, poundage may advance up to 30 lbs. Moving beyond 30–35 lbs requires sustained high-volume training (600+ arrows per week); pulling excessive poundage at lower volumes inevitably causes shoulder impingement and collapses dynamic expansion.
 - Arrows: Carbon arrows are often favoured by new archers for their durability and consistent flight.
 - Arrow Length & Rest Clearance Hazard: Arrow shafts must never be cut too short for an archer's expanding draw length. An arrow overdrawn past the arrow rest can drop inside the riser; on release, the shaft strikes the riser and can shatter violently, posing severe safety and impalement risks.
@@ -60,6 +60,7 @@ Foundational guidelines for selecting beginner archery equipment and adhering to
 - Coach Jared Gracious (Rogue Archery TV), form analysis and biomechanics session (YouTube 5GdJtjQvkb8)
 - Jake Kaminski, "50m Traditional Recurve / Mental Game & Psycho Trigger" (Eclipse hold at 50m, consistent sight window canting gauge)
 - Top 10 Mistakes in Beginner Archery Classes (Online Archery Academy)
+- Online Archery Academy, ["Why Your Shot Timing is Inconsistent (and how to fix it)"](http://www.youtube.com/watch?v=Rw5CdSfc_rY) (over-bowed timing stalls and dropping poundage to train timing)
 
 ---
 

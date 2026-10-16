@@ -2,7 +2,7 @@
 aliases: [OIDC Auth for VSO, Vault Kubernetes Authentication Best Practice, VSO JWT Auth]
 conformant: true
 created: 2026-03-12T09:30:00+00:00
-modified: 2026-09-29T10:38:17+00:00
+modified: 2026-10-15T00:00:00+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-vso-authentication-jwt-vs-app-role
 tags: [architecture, jwt, kubernetes, oidc, security, vault, vso]
@@ -63,3 +63,17 @@ By configuring Vault with the cluster's OIDC Issuer URL, Vault can download the 
 ### 5. Summary Recommendation
 
 Continue using the JWT engine. It is significantly more secure than AppRole because it leverages native, ephemeral Kubernetes identities and eliminates the risk of static credential theft. It is the industry-standard "Zero Trust" pattern for cross-environment authentication.
+
+---
+
+## Related
+
+- [[SoT - Vault Secrets Operator (VSO)]] - *The operator whose authentication method this SoT decides.* [extends:: [[SoT - Vault Secrets Operator (VSO)]], confidence=high]
+- [[JSON Web Tokens (JWT)]] - *The token format Vault validates in section 4.* [depends_on:: [[JSON Web Tokens (JWT)]], confidence=high]
+- [[OpenID Connect (OIDC)]] - *Supplies the discovery endpoint and JWKS that let Vault verify tokens without a callback.* [depends_on:: [[OpenID Connect (OIDC)]], confidence=high]
+- [[SoT - Zero Trust Architecture]] - *The model behind the "Zero Trust" rating: short-lived, workload-bound identity instead of static secrets.* [implements:: [[SoT - Zero Trust Architecture]], confidence=medium]
+- [[SoT - Modern Authentication Standards]] - *Covers OIDC, JWT assertions and the M2M authentication patterns used here.*
+- [[SoT - HashiCorp Vault Architecture]] - *The Vault side of the JWT auth backend and role matching.*
+- [[SoT - Kubernetes Secrets Management]] - *Explains why a stored AppRole SecretID is a risk as a Kubernetes Secret.*
+- [[Workload Identity Governance]] - *Governance for the ServiceAccount identity that replaces static credentials.*
+- [[SoT - FitFile VSO Secrets Management]] - *The deployment chain (VaultAuth to VaultStaticSecret) that applies this decision.*

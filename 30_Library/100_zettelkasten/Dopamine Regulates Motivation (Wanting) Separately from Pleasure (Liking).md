@@ -3,7 +3,7 @@ aliases: [Dopamine Wanting vs Liking]
 axiom: true
 conformant: false
 created: 2025-11-10T17:05:00+00:00
-modified: 2026-09-29T10:37:50+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/dopamine-regulates-motivation-wanting-separately-from-pleasure-liking
 tags: [dopamine, reward, TheHuman/Motivation, TheHuman/Neuroscience]
@@ -24,3 +24,7 @@ Dual Roles: Dopamine serves dual roles in both motivation and learning. Phasic d
 Supports [[The ADHD brain operates on an Interest-Based Nervous System]]—why completion yields relief, not a wanting/reward signal.
 
 [supports:: [[The Interest-Based Nervous System in ADHD]]]
+
+### Related
+
+- [[Flow State is a State of Optimal Dopamine Stimulation]]—*dopamine in sustained engagement.*

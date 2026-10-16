@@ -2,7 +2,7 @@
 aliases: [Hierarchy, Social Inequality, Social Stratification]
 conformant: true
 created: 2025-12-10T00:00:00+00:00
-modified: 2026-09-29T10:38:15+00:00
+modified: 2026-10-15T00:00:00+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-social-stratification
 tags: [class, inequality, power, sociology, status, structure]
@@ -102,3 +102,21 @@ Moving beyond the "Working/Middle/Upper" triad, this model identifies 7 classes 
 ### The Symbolic Apex
 
 - The Monarchy: Exists outside standard economic classification. It functions as a source of Social Honour and institutional continuity, representing the peak of the "Status" dimension (Weber) independent of pure market forces.
+
+---
+
+## Related
+
+- [[MOC - Social Stratification]] - *The map this SoT anchors, with the ethics and domain links.*
+- [[SoT - UK Social Hierarchy and Class Analysis]] - *Expands the UK case study in section 8.*
+- [[SoT - The Evolutionary Biology of Status]] - *The biological status-seeking that section 3 calls the "firmware".* [depends_on:: [[SoT - The Evolutionary Biology of Status]], confidence=medium]
+- [[Social Constructs Have Real Effects Despite Lacking Objective Truth]] - *Why institutions and ideology in section 5 can sustain inequality without being natural facts.* [synthesizes:: [[Social Constructs Have Real Effects Despite Lacking Objective Truth]], confidence=medium]
+- [[Mental Models as Social Status Signals]] - *A concrete case of the cultural capital and "good taste" gatekeeping in section 4C.* [synthesizes:: [[Mental Models as Social Status Signals]], confidence=medium]
+- [[Intellectual Growth Is Non-Rivalrous but Educational Credentials Are Positional]] - *Applies the status dimension to credentials as positional goods.*
+- [[Evidence - Mass Literacy Sustained Working-Class Intellectual Traditions Outside Academia]] - *UK evidence on how class shaped access to intellectual life.*
+
+### Further Reading (Personal Library)
+
+- [The Patterning Instinct — "Great Rats: The Story of Power and Exploitation"](calibre://view-book/GCcalibreBooks/1635/EPUB) - *Describes hierarchy arising with agrarian property and surplus, matching section 3.*
+- [The Meritocracy Trap — "Debunking Merit"](calibre://view-book/GCcalibreBooks/94/EPUB) - *Traces how entitlement to wealth and status is justified by claims of virtue or merit, matching the ideology mechanism in section 5.*
+- [Enlightenment Now — ch. 9](calibre://view-book/GCcalibreBooks/415/EPUB) - *Links inequality to society-wide dysfunction, relevant to section 6; the match is weak and I have not checked the author's own stance on the link.*

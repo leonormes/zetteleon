@@ -43,9 +43,6 @@ Source: "Paper Dives: MapReduce Is Back - And It Fixes Broken LLM Pipelines | Do
 
 ### Related
 
-- [[Persistent Memory Layers Enable Multi-Session Agent Continuity]]—analogous: carries state forward across processing steps.
-- [[Agent Feedback Loops Require Bidirectional Memory Writes]]—related: scratchpad enables feedback and learning across iterations.
 - [[DocETL Framework - Declarative Pipelines with Agentic Optimization]]—implements: Folding is a core DocETL operator.
 - [[Entity Canonicalization via LLM-Guided Resolution]]—related: folding enables consistent entity identification across documents.
 
-[implements:: [[Persistent Memory Layers Enable Multi-Session Agent Continuity]], strength=3, confidence=medium]

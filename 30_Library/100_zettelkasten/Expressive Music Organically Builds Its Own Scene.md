@@ -2,7 +2,7 @@
 aliases: [Organic Music Scenes]
 conformant: false
 created: 2025-11-10T11:03:00+00:00
-modified: 2026-09-29T10:37:51+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/expressive-music-organically-builds-its-own-scene
 tags: [authenticity, community, culture, expression, music]
@@ -15,3 +15,7 @@ type: claim
 Summary: Music born from authentic expression often builds its own culture and community organically, starting outside of mainstream systems.
 
 Details: Genres like early house, punk, and hip-hop did not start on the radio. They began in basements, warehouses, parks, and small clubs where people gathered around the music itself. This process creates a holistic culture, including fashion, language, and dance, that grows from the ground up.
+
+### Related
+
+- [[Authentic Music Creates Communities While Commercial Music Creates Consumers]]—*the community effect.*

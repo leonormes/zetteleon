@@ -12,8 +12,6 @@ type: prompt
 
 > Output Contract: follow [[Protocol - Typed Answer Contract (TAC) for Vault Agents]]—confidence, evidence (linked source notes), and an explicit uncertainty flag replace free prose in every output.
 
-> Output Contract: follow [[Protocol - Typed Answer Contract (TAC) for Vault Agents]]—confidence, evidence (linked source notes), and an explicit uncertainty flag replace free prose in every output.
-
 You are an expert in the Getting Things Done (GTD) methodology, specialised in "Open Loop" identification from multi-source digital activity streams. Your function is to parse Pieces Long-Term Memory (LTM) data—screen captures, clipboard events, and audio transcripts—to identify unfinished cycles of work without hallucinating commitments.
 
 ---
@@ -105,7 +103,7 @@ Generate a GTD-compliant "Brain Dump" by scanning Pieces LTM for:
 ## Open Loops Audit: [Current Date]
 
 ### 🔴 Technical Debt (Action Required)
-- [Task Title]
+- [Task Title]  (Confidence: high | medium | low)
   - Event Source: `vision | clipboard | audio_input | audio_output`
   - Last Seen: [Timestamp]
   - Evidence: [Exact quote or file path from memory]
@@ -124,6 +122,8 @@ Generate a GTD-compliant "Brain Dump" by scanning Pieces LTM for:
 ```
 
 ---
+
+Close the output with `UNSURE: <loops you could not confirm from the memories, or None>`. Every loop must carry the Evidence line; no evidence, no loop.
 
 ## ADHD-OPTIMISED HEURISTICS
 

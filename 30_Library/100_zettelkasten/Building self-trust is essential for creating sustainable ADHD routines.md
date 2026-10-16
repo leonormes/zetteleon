@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-10-29T16:40:00+00:00
-modified: 2026-09-29T10:37:48+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/building-self-trust-is-essential-for-creating-sustainable-adhd-routines
 source: '[[MOC - ADHD Routine Building Strategies]]'
@@ -12,3 +12,7 @@ type: claim
 ---
 
 Building self-trust is a critical component of creating sustainable routines for ADHD. This involves routinely questioning whether a habit serves a personal need or is just an external expectation. Trusting one's own intuition and allowing a routine to look different from others' is key to long-term success.
+
+### Related
+
+- [[Self-Observation is the Foundation of Routine Building]]—*self-knowledge comes first.*

@@ -52,7 +52,6 @@ Source: "LLM Reliability Engineering: Fix hallucinations, errors, & unpredictabl
 ### Related
 
 - [[LLM Hallucinations Arise from Probabilistic Prediction Without External Grounding]]—context: verification checks for grounding.
-- [[Mandatory Manual Code Review Before Deployment]]—analogous: human review plays a similar gatekeeping role.
 - [[Retrieval-Augmented Generation (RAG)]]—related: verification requires context to check against.
 
 ### See Also

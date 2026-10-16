@@ -43,7 +43,6 @@ Source: "Paper Dives: MapReduce Is Back - And It Fixes Broken LLM Pipelines | Do
 
 ### Related
 
-- [[Context Window Limits Force Iterative Task Decomposition]]—context: addressing the cost of context limits.
 - [[LLM Pipeline Accuracy Degrades with Document Length and Task Complexity]]—solves: fixes context degradation in long documents.
 - [[DocETL Framework - Declarative Pipelines with Agentic Optimization]]—implements: Gather is a core DocETL operator.
 - [[LLM Hallucinations Arise from Probabilistic Prediction Without External Grounding]]—related: lack of continuity leads to hallucination.
@@ -54,4 +53,3 @@ Source: "Paper Dives: MapReduce Is Back - And It Fixes Broken LLM Pipelines | Do
 
 [supports:: [[LLM Pipeline Accuracy Degrades with Document Length and Task Complexity]], strength=4, confidence=high]
 
-[depends_on:: [[Context Window Limits Force Iterative Task Decomposition]], strength=3, confidence=high]

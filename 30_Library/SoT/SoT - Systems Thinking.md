@@ -2,7 +2,7 @@
 aliases: [Feedback Loops, Holistic Thinking, Systems Dynamics]
 conformant: true
 created: 2025-12-12T00:00:00+00:00
-modified: 2026-09-29T10:38:15+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-systems-thinking
 tags: [complexity, mental_models, thinking, topic/systems]
@@ -84,3 +84,7 @@ Donella Meadows identified that not all interventions are equal.
 - [[Emergence]] _(Core definition of emergence: complex patterns arising from simple interactions, key concept in systems theory and complexity science)_
 - [[SoT - Cynefin Framework]]—_Sense-making model for categorizing problems by cause-effect predictability (Clear/Complicated/Complex/Chaotic); explains why treating a Complex system as Complicated risks collapse into Chaos._
 - [[Cybernetics]]—_The study of self-regulation through feedback, the branch of systems thinking that treats control and information as the core._
+
+### Related
+
+- [[The Purpose of a System Dynamics Model Is to Make Assumptions Explicit, Not to Predict Outcomes]]—*what a system dynamics model is for.*

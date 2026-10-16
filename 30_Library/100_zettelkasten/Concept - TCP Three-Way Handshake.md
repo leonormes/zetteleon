@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-11-22T15:00:00+00:00
-modified: 2026-09-29T10:37:49+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/concept-tcp-three-way-handshake
 tags: [SoftwareEngineering/networking/tcp]
@@ -22,3 +22,7 @@ During this handshake, both parties synchronize their initial sequence numbers a
 2. SYN-ACK: The server acknowledges the client's SYN and sends its own SYN with its sequence number and supported options.
 3. ACK: The client acknowledges the server's SYN, moving the connection state to `ESTABLISHED`.
 For HTTPS connections, the TLS handshake occurs only after this TCP handshake is complete.
+
+### Related
+
+- [[Concept - UDP vs TCP]]—*why TCP needs a handshake and UDP does not.*

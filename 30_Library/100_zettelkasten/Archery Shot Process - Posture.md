@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-10-08T14:30:00+01:00
+modified: 2026-10-14T08:46:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-posture-1
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Posture
@@ -20,8 +20,8 @@ Posture stacks the trunk on the base set in [[Archery Shot Process - Stance|Stan
    - _Purpose:_ Removes the hollow lower back, so the bow's load travels down the spine into the legs (see [[#Why It Works]]).
 3. Stack and settle—Stack shoulders over hips over ankles in one vertical line, with no lean toward or away from the target. Keep the shoulders and chest low, not hiked. Let your weight settle down into your feet.
    - _Purpose:_ A stacked skeleton carries the load instead of muscle, which delays fatigue. The vertical spine is the upright of the "T" the arms will form across.
-4. Set the head—Look directly at the target during set-up, with a soft gaze and a neutral neck. Keep the head still through the draw, anchor, and follow-through.
-   - _Purpose (partly inferred):_ A still head keeps the anchor and sight picture repeatable.
+4. Set the head (Still Head as Central Pillar)—Look directly at the target during set-up, with a soft gaze and a neutral neck. Keep the head completely still during the draw and anchor phase so it acts as an immovable central pillar to pull the string against.
+   - _Purpose:_ A still head keeps the anchor and sight picture repeatable, providing a solid central pillar to pull against.
 5. Reset between shots—Take three long, slow breaths before rebuilding your posture for the next arrow.
    - _Purpose (unsourced):_ Each shot starts from the same physical and mental state, instead of carrying tension over from the last.
 
@@ -114,6 +114,7 @@ For balance work on an unstable surface or with eyes closed, see [[Archery Shot 
 - Top 10 Mistakes in Beginner Archery Classes (Online Archery Academy)
 - Coach Jared Gracious (Rogue Archery TV), form analysis and biomechanics session (YouTube 5GdJtjQvkb8)
 - "Relaxed shot" vs weak shot video (YouTube jQ4wovCJipI; Gemini summary captured 2026-10-08; title and channel not recorded; mentions a peep sight and release aid, so it may be compound-oriented)
+- Online Archery Academy, ["Why Your Shot Timing is Inconsistent (and how to fix it)"](http://www.youtube.com/watch?v=Rw5CdSfc_rY) (still head as central pillar)
 
 ---
 

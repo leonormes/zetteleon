@@ -40,5 +40,4 @@ A specific application of resource economics to digital knowledge work and the a
 [supports:: [[Digital Productivity Paradox]], strength=4, confidence=high]
 
 - [[Digital Productivity Paradox]]—this general pattern is the mechanism behind that note's productivity-loss claim; the source material names it explicitly: "The 'Digital Productivity Paradox' described is a specific application of the Jevons Paradox."
-- [[Cheaper Code Production via Agents Increases Software Volume Rather Than Reducing Developers]]—shared mechanism: Jevons paradox applied to code volume rather than attention.
 - [[Low Activation Cost Effect]]—the specific digital-communication mechanism (falling activation cost) that instantiates this general paradox; that note carries the reciprocal `implements` edge back to this one.

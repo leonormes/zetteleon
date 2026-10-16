@@ -5,7 +5,7 @@ created: 2026-09-14T15:25:59+00:00
 created_utc: '2026-09-14T00:00:00Z'
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-29T10:37:47+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/anger-is-a-cognitive-interpretation-of-injustice-not-an-automatic-physical-reaction
 prodos.kind: atomic
 prodos.lifecycle: seed
@@ -39,3 +39,4 @@ Applies to neurotypical emotional responses; does not fully account for anger dr
 
 - [[Emotions Are Not Reliable Indicators of Reality]]—shared mechanism: both separate the felt emotion from the accuracy of the appraisal generating it.
 - [[Cognitive Reframing of Criticism]]—extends: the same reframing mechanism applied to a specific trigger (criticism) rather than injustice generally.
+- [[Catharsis Theory Is False — Venting Anger Rehearses and Reinforces Aggressive Pathways Rather Than Resolving Them]]—*if anger is interpretive, venting it rehearses the interpretation rather than discharging it.*

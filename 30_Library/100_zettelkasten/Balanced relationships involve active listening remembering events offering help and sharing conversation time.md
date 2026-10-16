@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-10-30T00:00:00+00:00
-modified: 2026-09-29T10:37:48+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/balanced-relationships-involve-active-listening-remembering-events-offering-help-and-sharing-conversation-time
 source: '[[MOC - Understanding Self-Focus in Neurodivergent Individuals]]'
@@ -20,3 +20,7 @@ In balanced, healthy relationships, people typically demonstrate several key beh
 5. Conversation balance - Sharing conversation time relatively equally between participants
 
 These patterns represent typical social reciprocity in mutually satisfying relationships.
+
+### Related
+
+- [[Self-focus exists on a spectrum rather than as a fixed point]]—*balanced other-focus implies no single fixed point of self-focus.*

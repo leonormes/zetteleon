@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-26T00:00:00+00:00
 last_reviewed: ''
-modified: 2026-09-29T10:38:00+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/time-patterns-and-mathematics
 see_also: []
 source: https://gemini.google.com/share/9b6f6fdd7c5e
@@ -90,3 +90,4 @@ So, while our human experience, embedded within time, perceives the _creation_ o
 
 - [[The Process vs. The Pattern]] - Distinguishes the creation sequence from the finished structure.
 - [[A Timeless View of Causality]] - Connects these concepts to the Block Universe model.
+- [[Pattern Recognition is the Cognitive Process of Organizing Sensory Input]]—*pattern perception underlies mathematical thinking.*

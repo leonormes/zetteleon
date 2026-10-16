@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-12T08:14:20+00:00
 last_reviewed: ''
-modified: 2026-09-29T10:37:56+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/predisposition-to-passive-activities
 tags: []
 title: Predisposition to Passive Activities
@@ -19,3 +19,8 @@ This avoids the "discomfort of action" and can become a form of procrastination.
 ADHD brains can also experience "analysis paralysis," making it difficult to initiate tasks and leading to inaction due to the overwhelming nature of vague tasks. While the ADHD mind is described as "constantly at work," this mental activity doesn't always translate into visible productivity due to a perceived lack of intent or energy, which can manifest as outward passivity.
 
 [[ADHD brains are predisposed to lean toward passive activities that offer immediate gratification]]
+
+### Related
+
+- [[Evidence - ADHD Task Initiation Deficit from Striatal Dopamine Hyposensitivity]]—*the mechanism behind the pull toward low-effort rewards.*
+- [[Predisposition to Low-Risk Activities]]—*the companion note that corrects the low-risk half of the same claim.*

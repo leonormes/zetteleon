@@ -6,7 +6,7 @@ contradicts: []
 created: 2025-08-23T17:07:39+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-29T10:37:49+00:00
+modified: 2026-10-16T00:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/commitment-consistency-and-sunk-cost-fallacy
 prodos.kind: atomic
 prodos.lifecycle: stable
@@ -23,3 +23,13 @@ In an argument, for example, individuals may refuse to back down not because of 
 This concept is derived from the broader conversation in Contextual Relationships.
 
 [supports:: [[SoT - Social Cognition & Self-Perception]]]
+
+## Related
+
+- [[Sunk Cost Fallacy]] - *The decision-theory core of the bias; this note adds the social and ego pressure to stay consistent.* [extends:: [[Sunk Cost Fallacy]], confidence=medium]
+- [[Goal Displacement]] - *The means-over-ends drift this note says commitment reinforces; the concept note records the two as distinct.*
+- [[Claim - When intelligence is bound to identity, epistemic errors are experienced as threats to self-worth]] - *Explains why ego investment makes backing down feel like a threat.*
+- [[Loss Aversion Describes Asymmetric Pain of Loss vs Pleasure of Gain]] - *The asymmetry that makes abandoning a sunk investment feel like a loss.*
+- [[Decoupling Ego from Outcomes to Improve Decisions]] - *A remedy: separating self-worth from a single decision weakens the pull to justify it.*
+- [[SoT - Commitment Devices (Ulysses Pacts)]] - *Uses the same consistency pressure deliberately, binding a future self to a plan.*
+- [[Decision making fallacies]] - *Hub that lists this note beside Sunk Cost Fallacy and Goal Displacement.*

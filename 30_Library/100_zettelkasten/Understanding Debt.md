@@ -37,4 +37,3 @@ Occurs when developers rely on autonomous agent output without performing a rigo
 
 ### See Also
 
-- [[Recursive Agent Improvement]]

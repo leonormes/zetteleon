@@ -2,7 +2,7 @@
 aliases: [NIC DMA]
 conformant: false
 created: 2025-11-22T15:00:06+00:00
-modified: 2026-09-29T10:37:49+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/concept-nic-direct-memory-access
 tags: [SoftwareEngineering/networking/hardware]
@@ -17,3 +17,7 @@ Summary: NIC Direct Memory Access (DMA) is a technology that allows a Network In
 Details:
 
 DMA significantly reduces CPU overhead and packet processing latency. The NIC pulls data from the kernel's transmit rings in memory to the wire (transmit) and writes incoming wire signals directly into receive rings in memory (receive).
+
+### Related
+
+- [[Concept - Linux NAPI]]—*the receive-side mechanism that pairs with DMA.*

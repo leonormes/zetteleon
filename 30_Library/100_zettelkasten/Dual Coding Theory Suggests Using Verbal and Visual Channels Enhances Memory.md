@@ -2,7 +2,7 @@
 aliases: [Dual Coding]
 conformant: false
 created: 2025-11-10T16:12:00+00:00
-modified: 2026-09-29T10:37:50+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/dual-coding-theory-suggests-using-verbal-and-visual-channels-enhances-memory
 tags: [dual-coding, learning, memory, TheHuman/Cognition]
@@ -15,3 +15,7 @@ type: claim
 Summary: Allan Paivio's Dual Coding Theory posits that human cognition operates with two distinct but interconnected systems for processing information: a verbal system (for language) and a non-verbal/imaginal system (for images).
 
 Details: According to this theory, encoding information using both verbal and visual forms creates two separate but linked memory traces. This dual representation enhances memory and recall because it increases the number of available retrieval cues. People learn better from a combination of words and pictures than from words alone.
+
+### Related
+
+- [[Memory Formation Involves Three Stages Encoding Consolidation and Retrieval]]—*encoding is where both channels help.*

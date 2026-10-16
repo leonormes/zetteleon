@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-09-29T10:37:57+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/qdrant-supports-in-memory-disk-and-docker-deployment-modes
 tags: [deployment, devops, docker, qdrant]
@@ -27,5 +27,4 @@ All three modes use the same client interface, so moving between them requires o
 - Standardised production path: Docker deployment aligns with existing container orchestration infrastructure.
 
 ### Related
-
-- [[Ephemeral Agents and Environments in Terraform Cloud]]—shared mechanism: both distinguish ephemeral (in-memory / ephemeral agent) from persistent (disk / long-lived infrastructure) deployment contexts, and both treat ephemeral as the low-risk default for iteration.
+- [[Vector Similarity Metrics Serve Different Retrieval Objectives]]—*the metric choice that sits alongside deployment.*

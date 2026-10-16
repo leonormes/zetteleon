@@ -3,7 +3,7 @@ aliases: [JTB, Justified True Belief]
 axiom: true
 conformant: false
 created: 2025-11-01T12:10:06+00:00
-modified: 2026-09-29T10:38:00+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/the-traditional-definition-of-knowledge-is-justified-true-belief
 tags: [epistemology, knowledge, TheHuman/Philosophy]
@@ -16,3 +16,7 @@ type: claim
 Summary: The classical definition of knowledge, originating with Plato, posits that knowledge is a "justified true belief" (JTB).
 
 Details: This definition proposes three necessary conditions for something to be considered knowledge: the proposition must be true, the individual must believe it to be true, and the individual must have a valid justification for that belief. For centuries, this tripartite definition was the standard in epistemology.
+
+### Related
+
+- [[Learning is the Acquisition of Information While Understanding is the Construction of Meaning]]—*an account of knowledge versus understanding.*

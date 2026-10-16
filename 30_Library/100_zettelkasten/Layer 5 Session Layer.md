@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-05-17T16:32:24+00:00
-modified: 2026-09-29T10:37:54+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing required field - type"
 permalink: llmeon/30-library/100-zettelkasten/layer-5-session-layer
 prodos.kind: concept
@@ -16,3 +16,7 @@ The Session Layer manages dialogues (sessions) between applications. It establis
 - Problem Solved: Controls the conversations between different applications, ensuring that they can communicate effectively and securely.
 
 [[OSI model]]
+
+### Related
+
+- [[Layer 6 Presentation Layer]]—*the next layer up.*

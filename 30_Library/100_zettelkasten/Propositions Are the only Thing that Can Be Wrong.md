@@ -1,15 +1,21 @@
 ---
 conformant: false
-created: 2026-05-04T08:01:26+00:00
-modified: 2026-09-29T10:37:56+00:00
-non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
-permalink: llmeon/30-library/100-zettelkasten/2c.-propositions-are-the-only-thing-that-can-be-wrong-1
-tags: [domain/pkm, topic/zettelkasten]
+created: 2026-05-04 08:01:26+00:00
+modified: 2026-10-13 09:35:05+00:00
+non_conformance_reason: missing schema field proposition for type claim (required
+  when conformant - true); missing schema field contradicts for type claim (required
+  when conformant - true); missing schema field evidence_links for type claim (required
+  when conformant - true); missing schema field epistemic_status for type claim (required
+  when conformant - true)
+permalink: llmeon/30-library/100-zettelkasten/2c.-propositions-are-the-only-thing-that-can-be-wrong-1-1
+tags:
+- domain/pkm
+- topic/zettelkasten
 title: Propositions Are the only Thing that Can Be Wrong
 type: claim
 ---
 
-## They Are the only Thing that Can Be Wrong
+## They Are the Only Thing That Can Be Wrong
 
 This is the critical one for PKM. A topic note titled _"Kubernetes networking"_ cannot be falsified, challenged, or contradicted—it's just a bucket. A proposition note titled _"Pod-to-pod traffic bypasses kube-proxy when using Cilium's eBPF dataplane"_ can be:
 

@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-09-29T10:37:55+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/objectification-treats-persons-as-instruments-and-is-a-core-property-of-evil
 tags: [dignity, human-rights, objectification, philosophy]
@@ -29,3 +29,4 @@ Identifiable through the observable reduction of a person to their utility or ca
 ### Related
 
 - [[Humans Are Social Creatures]]—tension: if persons are constitutively social and relational, objectification is not merely a moral wrong but a fundamental rupture of the condition that makes human life possible; this atom explains why objectification produces the particular horror it does.
+- [[Dismissing a Partner's Needs as Inconvenient Signals a Lack of Empathy]]—*an everyday relative of instrumentalising a person.*

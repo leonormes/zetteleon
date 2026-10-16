@@ -33,7 +33,6 @@ Standard quality assurance procedure for persistent and automated AI memory syst
 ### Related
 
 - [[SoT - LLM Wiki Pattern]]—direct concept match: defines linting as one of the three core operations.
-- [[Recursive Agent Improvement]]—shared mechanism: linting is a form of self-correction for the knowledge system.
 
 ### See Also
 

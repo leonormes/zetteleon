@@ -2,7 +2,7 @@
 aliases: [Accountability Partners, Social Commitment for ADHD]
 created: 2025-10-30T15:00:39+00:00
 last_reviewed: '2025-10-30'
-modified: 2026-09-29T10:37:51+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/external-accountability-sustains-adhd-project-commitment
 status: seed
 tags: [accountability, project-completion, social-motivation, TheHuman/Health/ADHD]
@@ -21,3 +21,7 @@ Details: External accountability leverages social motivation and urgency—two p
 >
 > - seedling → growing: has summary + details + at least 1 inbound link.
 > - growing → evergreen: has 2+ inbound links from structural notes, purpose set, confidence justified, 1–3 `see_also`.
+
+### Related
+
+- [[Proto-systems Function Through Social Accountability and Implicit Learning]]—*a historical form of the same accountability.*

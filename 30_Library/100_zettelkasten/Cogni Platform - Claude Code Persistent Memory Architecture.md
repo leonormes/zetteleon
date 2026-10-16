@@ -36,18 +36,11 @@ Platform-specific implementation. The architectural patterns Cogni uses (layered
 
 ### Related
 
-- [[Claude Code Session Isolation Forces Context Reloading Across Invocations]]—solves: directly addresses this constraint.
-- [[Persistent Memory Layers Enable Multi-Session Agent Continuity]]—implements: Cogni is a concrete implementation of this pattern.
-- [[Agent Feedback Loops Require Bidirectional Memory Writes]]—implements: Cogni's bidirectional write capability.
-- [[Selective Memory Retrieval Reduces Token Cost in Multi-Session Workflows]]—implements: Cogni's selective retrieval mechanism.
 - [[Layered Knowledge Architecture]]—implements: Cogni follows the three-layer pattern (raw sources, synthesized wiki, schema).
 
 ### See Also
 
 - Video source: "Turning Claude Fable 5 Into The Ultimate Second Brain!" by WorldofAI
 
-[implements:: [[Persistent Memory Layers Enable Multi-Session Agent Continuity]]]
 
-[implements:: [[Agent Feedback Loops Require Bidirectional Memory Writes]]]
 
-[implements:: [[Selective Memory Retrieval Reduces Token Cost in Multi-Session Workflows]]]

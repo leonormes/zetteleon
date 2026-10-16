@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2026-04-10T13:00:00+00:00
-modified: 2026-09-29T10:38:01+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/vector-similarity-metrics-serve-different-retrieval-objectives
 tags: [cosine-similarity, euclidean-distance, similarity-metrics, vector-math]
@@ -25,3 +25,7 @@ The correct metric must match the training objective of the embedding model bein
 
 - Metric selection is an architectural decision, not a tuneable parameter; it must be locked in at collection creation time and aligned with the embedding model.
 - Cosine similarity is most commonly appropriate for NLP embeddings because semantic direction (meaning) is more important than vector magnitude (frequency of occurrence).
+
+### Related
+
+- [[Qdrant Supports In-Memory, Disk, and Docker Deployment Modes]]—*a store that supports them.*

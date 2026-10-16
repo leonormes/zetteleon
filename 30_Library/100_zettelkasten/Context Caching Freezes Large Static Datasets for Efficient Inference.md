@@ -2,7 +2,7 @@
 aliases: [Frozen Context, Token Caching]
 conformant: false
 created: 2026-01-08T16:10:00+00:00
-modified: 2026-09-29T10:37:50+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/context-caching-freezes-large-static-datasets-for-efficient-inference
 tags: [context-engineering, economics, llm, llm-understanding]
@@ -15,3 +15,8 @@ type: claim
 Summary: Context Caching allows for the "compilation" of a large, static dataset (like an Obsidian vault or codebase) into a frozen state on an LLM server, drastically reducing token costs and latency for subsequent queries.
 
 Details: Instead of re-tokenizing the entire knowledge base for every prompt, the tokens are uploaded once and stored with a TTL (Time-To-Live). This strategy maintains the model in the Smart Zone by preventing the context window from being filled with redundant "Reading" tasks, allowing more room for reasoning and generation. It typically offers a ~90% discount on input tokens.
+
+### Related
+
+- [[LLM Context Constraints]]—*the context-window limit that caching works around.*
+- [[SoT - Context Engineering]]—*the discipline in which caching is one lever.*

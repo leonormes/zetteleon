@@ -2,7 +2,7 @@
 aliases: [Task Batching]
 conformant: false
 created: 2025-11-10T14:10:00+00:00
-modified: 2026-09-29T10:37:59+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/task-batching-is-grouping-similar-tasks-to-reduce-context-switching
 tags: [context-switching, efficiency, time-blocking, topic/productivity]
@@ -15,3 +15,7 @@ type: claim
 Summary: Task batching is a productivity strategy that involves grouping similar tasks together to be completed in a single, dedicated time block.
 
 Details: This method is highly effective at minimizing context switching—the mental effort and time lost when shifting between different types of tasks. By focusing on one type of activity (e.g., responding to all emails at once, running all errands in one trip), efficiency is improved and decision fatigue is reduced. It is an explicit form of time blocking.
+
+### Related
+
+- [[Day Theming is a Macro Time Blocking Strategy]]—*batching at the day scale.*

@@ -2,7 +2,7 @@
 aliases: [Enlightenment Trap]
 conformant: false
 created: 2025-11-01T12:20:01+00:00
-modified: 2026-09-29T10:37:49+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/chasing-enlightenment-as-a-goal-causes-suffering
 tags: [buddhism, suffering, TheHuman/Mindset, zen]
@@ -15,3 +15,7 @@ type: claim
 Summary: Chasing enlightenment as a fixed goal or permanent state traps people in suffering because it reinforces attachment to a specific outcome, a core source of suffering itself.
 
 Details: According to Zen teacher Robert Waldinger, true liberation comes from letting go of the need for fixed outcomes or self-improvement projects. Enlightenment is not a destination to be reached but an ongoing, moment-by-moment recognition of reality. The pursuit of it as a future achievement creates a cycle of striving and dissatisfaction, which is the very state one seeks to escape.
+
+### Related
+
+- [[The Four Noble Truths Explain Suffering from Attachment]]—*suffering from attachment, here to enlightenment itself.*

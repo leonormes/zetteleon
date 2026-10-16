@@ -33,6 +33,7 @@ Applies to circumstantial or outcome-state changes, such as finishing a project 
 ### Related
 
 - [[Process Over Outcome Mindset]]—supports: gives the neuroscientific reason why process-oriented systems outperform outcome-oriented ones for sustained wellbeing.
+- [[Taru o shiru is the practice of contentment with what one has]]—example: a recurring practice of attending to what one already has, the kind of ongoing activity this note says durable wellbeing needs.
 
 ### Tensions
 

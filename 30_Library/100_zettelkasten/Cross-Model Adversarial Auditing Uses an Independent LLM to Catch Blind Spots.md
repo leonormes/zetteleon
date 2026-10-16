@@ -33,5 +33,3 @@ Second, independent source, corroborating under a different product name: "The h
 
 - [[SoT - AI Sycophancy]]—extends: cross-model auditing is a direct structural antidote to the self-correction bias described in the sycophancy note; a model cannot be sycophantic toward a different model's output because it has no relationship investment in validating it.
 - [[SoT - Agentic Roles]]—shared mechanism: the auditing model maps directly to the Architect/review role in the surgical team pattern—both describe a designated checker whose value derives from independence from the primary generator.
-- [[Automated CI Pipelines Wire an Adversarial LLM Reviewer Into Branch-and-Rebase Before Human Review]]—extended-by: supplies automated branch/rebase/CI pipeline mechanics around this note's mechanism.
-- [[Adversarial Review Loops Can Stop on Mutual Diminishing-Returns Agreement Rather Than a Fixed Condition]]—extended-by: chains this note's single-pass mechanism into a repeating loop with a negotiated stopping condition.

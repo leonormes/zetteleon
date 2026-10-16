@@ -2,7 +2,7 @@
 aliases: [Geometry]
 created: 2025-11-01T11:22:13+00:00
 last_reviewed: '2025-11-01'
-modified: 2026-09-29T10:37:52+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/geometry-definition
 status: seed
 tags: [fields, topic/maths]
@@ -18,3 +18,7 @@ Foundational Pattern: Geometry arises from observing the arrangement of objects 
 Classical Form: Euclidean geometry studies the rigid structure of Euclidean space (ℝⁿ), defined by axioms governing points, lines, and distances, as codified in Euclid's Elements.
 
 Extensions: Modern geometry encompasses non-Euclidean geometries (hyperbolic, elliptic), differential geometry (curved spaces), and algebraic geometry (geometric objects defined by equations).
+
+### Related
+
+- [[Algebra (Definition)]]—*algebra and geometry are linked through coordinates.*

@@ -29,4 +29,3 @@ Attributed to differences in training corpora and RLHF reward shaping between mo
 ### Related
 
 - [[SoT - Agentic Roles]]—extends: model specialisation is the empirical basis for role-based agent architecture; if all models were equivalent, a single agent could handle all roles; divergence in capability makes specialisation structurally valuable.
-- [[Architecture First Approach to AI Development]]—shared mechanism: both prescribe matching capability to task phase rather than forcing a single tool across all stages of development.

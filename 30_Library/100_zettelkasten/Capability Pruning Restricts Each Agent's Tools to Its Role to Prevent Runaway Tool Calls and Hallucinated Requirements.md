@@ -5,7 +5,7 @@ created: 2026-09-14T15:32:01+00:00
 created_utc: '2026-09-14T00:00:00Z'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-29T10:37:49+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/capability-pruning-restricts-each-agents-tools-to-its-role-to-prevent-runaway-tool-calls-and-hallucinated-requirements
 prodos.kind: atomic
 prodos.lifecycle: seed
@@ -37,5 +37,5 @@ A multi-agent design practice, distinct from simply giving every agent full tool
 
 ### Related
 
-- [[Full-Autonomy Agent Execution Requires Sandboxing for Safety and Data Privacy, Not Just Concurrency]]—shared mechanism: both restrict what an autonomous agent can do as the primary safety lever, rather than trusting behaviour alone.
 - [[SoT - Agentic AI Design Patterns]]—extends: a specific role-scoping discipline that complements that SoT's routing pattern.
+- [[SoT - AI Agent Skill Architecture]]—*the skill architecture within which tool scoping is applied.*

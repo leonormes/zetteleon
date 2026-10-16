@@ -44,10 +44,8 @@ Source: "I Built Karpathy's LLM Wiki in Claude Code (No Vector DB)" (Achuth G. R
 
 - [[SoT - Evolutionary Note System]]—contrast: the vault's own tombstone pattern serves the opposite purpose (preserving link reachability after archival, not blocking access).
 - [[Canaries - Precise Trigger Alarms Reduce False-Positive Security Noise]]—complementary: canaries detect breach attempts; tombstones prevent them structurally.
-- [[Agent Harness - Wrapping LLMs in Deterministic Software Controls]]—implements: the harness is what enforces tombstone boundaries.
 
 ### See Also
 
 - [[SoT - LLM Wiki Pattern]]
 
-[implements:: [[Agent Harness - Wrapping LLMs in Deterministic Software Controls]], strength=3, confidence=medium]

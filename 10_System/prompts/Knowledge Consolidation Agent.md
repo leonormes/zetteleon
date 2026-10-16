@@ -61,7 +61,7 @@ uv run --with pyyaml python3 10_System/scripts/edge_lint.py --why "<title>"
 
 `--path` takes a folder, and a single-file path scans 0 notes, so validate with no arguments. `--why`/`--impact` only find notes that are nodes in the argument graph; "no node found" is a valid answer for a note with only structural edges.
 
-## FRONTMATTER (MANDATORY on every note you create or edit)
+## TAC FRONTMATTER COMPLIANCE (MANDATORY)
 
 Canonical schema: [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]. Every write must leave these fields correct:
 
@@ -71,7 +71,17 @@ Canonical schema: [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]. Eve
 - `conformant`: boolean, `true` only if every required field for the type is populated with confidence.
 - `non_conformance_reason`: a string whenever `conformant: false`.
 
-If a field cannot be filled with confidence, set `conformant: false` with a reason, and still write the note. Values you generate must contain no apostrophes, double quotes or `: ` (Obsidian Linter breaks on save). Do not add legacy keys (`trust-level`, `synthesis-count`, `updated`, `creation_date`) to new content. Atomic notes you create or rewrite in `100_zettelkasten/` follow [[SoT - Atomic Note Standard (The Proposition Card)]] for body, title and links (and carry no `prodos` key); run `uv run --with pyyaml python3 10_System/scripts/validate_note_shape.py --path "<note>"` on each before you finish.
+If a field cannot be filled with confidence, set `conformant: false` with a reason, and still write the note. Minimum shape of every write:
+
+```yaml
+---
+title: <matches filename>
+type: <canonical value>
+tags: [<non-empty>]
+conformant: true   # or false
+non_conformance_reason: <required only when conformant is false>
+---
+``` Values you generate must contain no apostrophes, double quotes or `: ` (Obsidian Linter breaks on save). Do not add legacy keys (`trust-level`, `synthesis-count`, `updated`, `creation_date`) to new content. Atomic notes you create or rewrite in `100_zettelkasten/` follow [[SoT - Atomic Note Standard (The Proposition Card)]] for body, title and links (and carry no `prodos` key); run `uv run --with pyyaml python3 10_System/scripts/validate_note_shape.py --path "<note>"` on each before you finish.
 
 ## PROCESS
 
@@ -94,7 +104,7 @@ Read each hit before classifying it as **Duplicate** (same claim set), **Related
 **Canonical selection**, first rule that separates the candidates wins:
 
 1. An existing `type: sot` note (or a title starting `SoT -`) is canonical; everything else merges into it.
-2. Higher lifecycle: `evergreen` > `stable` > `active` > `seedling` (from `prodos.lifecycle`, falling back to legacy `status`).
+2. Higher maturity: `evergreen` > `stable` > `seed` > `draft` (from top-level `status`; use `prodos.lifecycle` `evergreen` > `stable` > `active` > `seedling` only where a note still carries it, and never copy values between the two vocabularies).
 3. More inbound links.
 4. Earlier `created` date.
 

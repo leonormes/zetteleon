@@ -45,9 +45,23 @@ The complete, formatted Markdown content for the new Target Note.
     - `title`: matches the filename exactly.
     - `type`: `sot` or `protocol`—lowercase, never `SoT`/`Protocol`. Never invent a new value.
     - `tags`: [prodos, sot, …related]—non-empty.
-    - `status`: "stable"
+    - `status`: `draft` (Leon promotes it to `stable` after reading the merge)
+    - `non_conformance_reason`: required only when `conformant: false`
     - `conformant`: `true` if every required field is populated with confidence; otherwise `false` with `non_conformance_reason` explaining why.
 2. Deduplication: Remove repetitive info.
-3. Synthesis: Do not just paste files one after another. Weave them into a coherent document.
+3. Synthesis: Do not just paste files one after another. Organise them into a coherent document, keeping Leon's own wording and distinctions where they are sharp; do not rephrase them into a house style.
+3a. Conservation: no unique claim from a source note may disappear. Put a `## Merge Conservation Check` table (source note, unique claim, where it now lives) at the very end of the output, below a horizontal rule, for Leon to read and delete.
 4. Tone: Professional, concise, "Chief of Staff".
-5. No Commentary: Do not output "Here is the merged file". Just output the file content.
+5. No Commentary: Do not output "Here is the merged file". Output the file content, then the conservation table, then two lines: `Confidence: <high | medium | low>` and `UNSURE: <items or None>`.
+
+Minimum frontmatter shape:
+
+```yaml
+---
+title: <matches filename>
+type: sot            # or protocol
+status: draft
+tags: [prodos, sot]
+conformant: true     # or false, with non_conformance_reason
+---
+```

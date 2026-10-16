@@ -4,7 +4,7 @@ contradicts: []
 created: 2026-09-25T00:00:00+00:00
 epistemic_status: low
 evidence_links: []
-modified: 2026-09-29T10:37:55+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/one-wrong-instinct-read-as-proof-that-instincts-cannot-be-trusted-feeds-a-worry-loop
 proposition: Worry that instincts are wrong holds a person back, and reading each
   actual miss as proof that instincts cannot be trusted keeps that worry going.
@@ -44,6 +44,7 @@ A personal reflection from one person, not a general finding. Split out of [[Eme
 - [[MOC - Emotional Dysregulation]]—_home map: the pain of being wrong and how to manage it._
 
 [depends_on:: [[The Emotional Cost of Being Wrong is Magnified by Loss Aversion]], confidence=medium]
+- [[Challenging the Belief That a Mistake Proves Inadequacy Works Better Than Challenging the Worry About Making One]]—*the CBT route: target the inadequacy belief rather than the worry itself.*
 
 ### Tensions
 

@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-06-25T20:14:33+00:00
 last_reviewed: ''
-modified: 2026-09-29T10:38:01+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/whats-next-loop-within-time-box-adhd-superpower
 tags: [TheHuman/Health/ADHD]
 title: "What's Next Loop within Time Box (ADHD Superpower)"
@@ -16,3 +16,4 @@ During a "Deep Dive" time block, leverage the ADHD "superpower" by continuously 
 
 - [[Focus on Process Not Completion to Reduce ADHD Overwhelm]] - Shifts the focus from the intimidating final state to the immediate action.
 - [[Practice - Micro-tasking and time-boxing]] - The structural technique that facilitates this loop.
+- [[Scheduling Breaks and Buffers in Timeboxing for ADHD]]—*the breaks and buffers that bound the time box.*

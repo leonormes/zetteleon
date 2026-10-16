@@ -26,5 +26,3 @@ Treating all cognitive strain uniformly leads to either deskilling (by over-auto
 
 - [[Outsourcing Writing to AI Bypasses the Cognitive Strain That Builds Professional Competence]]—_Articulates the mechanism side: where strain is required._
 [extends:: [[Outsourcing Writing to AI Bypasses the Cognitive Strain That Builds Professional Competence]]]
-- [[Agent-First Implementation Cycle]]—_Articulates the cost side: where strain must be eliminated._
-[extends:: [[Agent-First Implementation Cycle]]]

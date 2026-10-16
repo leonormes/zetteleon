@@ -2,7 +2,7 @@
 aliases: [Intentional Unfinishing]
 created: 2025-11-11T19:05:07+00:00
 last_reviewed: ''
-modified: 2026-09-29T10:37:54+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/leaving-a-task-intentionally-unfinished-creates-a-clear-starting-point
 status: seed
 tags: [task-management, topic/productivity]
@@ -16,3 +16,7 @@ updated: null
 Summary: By intentionally leaving a small, well-documented task unfinished at the end of a work session, you provide your future self with an obvious and easy place to begin.
 
 Details: This technique, often called the "Hemingway method," removes the initial friction of deciding what to work on next. The task should be simple enough to be resumed quickly, acting as a low-effort entry point that helps rebuild momentum and re-establish the mental context of the project.
+
+### Related
+
+- [[The Hemingway Technique - End Work With Unfinished Problems]]—*the writer's version.*

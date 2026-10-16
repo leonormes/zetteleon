@@ -5,7 +5,7 @@ created: 2026-09-28T00:00:00+00:00
 created_utc: '2026-09-28T00:00:00+00:00'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-29T10:38:02+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/00-inbox/beliefs-set-expectations-that-shape-felt-experience-through-the-experience-loop
 proposition: Beliefs set up expectations that produce physiological and emotional
   responses, forming an Experience Loop of Believe, Anticipate, Feel and Confirm.
@@ -42,3 +42,4 @@ The second of the source's three powers, Anticipation (the power to feel). The s
 - [[The Brain as a Distributed Prediction Machine]]—shared mechanism: the brain generates predictions from stored models, which is the substrate of the anticipation step.
 - [[Negative labels create biased expectations]]—shared mechanism: a label sets an expectation that then shapes how later experience is read.
 - [[Beliefs Act as Perceptual Filters That Decide What the Brain Notices or Ignores]]—related: the attention power, which shapes what is noticed as this power shapes what is felt.
+- [[Treating Belief as a Magic Switch Can Backfire by Draining the Energy Needed for Action]]—*why simply willing a belief does not drive the loop.*

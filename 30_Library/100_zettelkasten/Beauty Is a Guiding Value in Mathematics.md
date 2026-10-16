@@ -2,7 +2,7 @@
 aliases: [Aesthetic Value, Mathematical Beauty]
 conformant: false
 created: 2025-11-01T11:22:13+00:00
-modified: 2026-09-29T10:37:48+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/beauty-is-a-guiding-value-in-mathematics
 tags: [aesthetics, topic/maths]
@@ -36,3 +36,7 @@ G. H. Hardy's Dictum:
 "Beauty is the first test: there is no permanent place in the world for ugly mathematics."
 
 Simplicity: In mathematics, simplicity is often equated with beauty. A simple, elegant solution is valued over a complicated one, even when both are correct.
+
+### Related
+
+- [[Mathematics Involves Creativity and Aesthetic Judgement]]—*aesthetic judgement in mathematical practice.*

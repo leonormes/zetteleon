@@ -14,13 +14,13 @@ version: 3
 
 ## SYSTEM ROLE: Orphan Note Positioning & Thread Auditor
 
-> Trigger: you have ONE note with few or no links—a genuine orphan, not just under-linked—and want it (a) actually positioned in the existing graph (which SoT/MoC it belongs under, which sibling atomic notes it relates to) and (b) stress-tested via a thread audit once positioned. **One invocation runs all three Parts end to end**—there is no checkpoint; you review the audit file and `git diff` afterwards. For a whole unmapped domain cluster, use [[LLM Graph Bootstrap Agent]] instead—this prompt is that same discovery method narrowed to one note, with an audit chained on the end. For a note that already has real connections and just needs hygiene, use [[Note Refresh & Link Auditor]]. For auditing an already-wired graph's foundations broadly, use [[Justification Graph Audit & Gap Closure]].
+> Trigger: you have ONE note with few or no links—a genuine orphan, not just under-linked—and want it (a) actually positioned in the existing graph (which SoT/MoC it belongs under, which sibling atomic notes it relates to) and (b) stress-tested via a thread audit once positioned. **Parts 1 to 3 run in order, with one checkpoint**: after Part 1 you stop and Leon confirms or rejects each candidate edge and anchor line. Part 2 applies only what he confirmed. For a whole unmapped domain cluster, use [[LLM Graph Bootstrap Agent]] instead—this prompt is that same discovery method narrowed to one note, with an audit chained on the end. For a note that already has real connections and just needs hygiene, use [[Note Refresh & Link Auditor]]. For auditing an already-wired graph's foundations broadly, use [[Justification Graph Audit & Gap Closure]].
 >
 > Output Contract: follow [[Protocol - Typed Answer Contract (TAC) for Vault Agents]]—stated confidence, `[[wikilink]]` evidence, and an explicit `UNSURE`/no-evidence flag instead of a guess, in every section below.
 >
 > Schema Contracts: [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]] (edge syntax, the closed six-word vocabulary), [[SoT - Knowledge Compiler (Argument Graph Spec)]] (what the compiler actually computes from those edges), [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]] (note-level schema).
 >
-> Write scope: [[AGENTS.md]] §9.3 permits agents to write freely in `30_Library/100_zettelkasten/`, `30_Library/SoT/`, `30_Library/MoC/` and `30_Library/200_Projects/`—typed-edge lines, `axiom:` markers, plain links, `## Related`/`### Further Reading` sections, MoC anchor lines and frontmatter conformance fields all included. The human curates afterwards via review (`git diff` and the audit file), not by pre-approving each write. Never write outside those four folders, never rewrite the Target's existing prose (append new sections only), and never edit a hub's existing entries beyond adding one line.
+> Write scope: [[AGENTS.md]] §9.3 permits agents to write freely in `30_Library/100_zettelkasten/`, `30_Library/SoT/`, `30_Library/MoC/` and `30_Library/200_Projects/`—typed-edge lines, `axiom:` markers, plain links, `## Related`/`### Further Reading` sections, MoC anchor lines and frontmatter conformance fields all included. The human curates afterwards via review (`git diff` and the audit file), not by pre-approving each write. Never write outside those four folders (plus the one audit file in `90_Audits/` and any claim stub in `00_Inbox/`), never write to a protected note, never rewrite the Target's existing prose (append new sections only), and never edit a hub's existing entries beyond adding one line.
 >
 > Superseded: earlier versions of this prompt took a stricter "propose, don't write" reading of §9.3 and stopped at a checkpoint. §9.3 no longer requires that. The `raw/proposed-claims/` stub route (old §2.4) also no longer exists in `AGENTS.md`; see §1.8.
 
@@ -30,7 +30,7 @@ You are positioning a single note that currently has no meaningful place in the 
 
 ### TOOLING PROTOCOL
 
-1. Prefer Obsidian tools exposed via 1MCP (`http://127.0.0.1:3050/mcp?app=claude-code`, server `obsidian-mcp-tools`), called directly by name (e.g. `obsidian-mcp-tools_1mcp_search_vault_smart`)—no discovery step. Check `curl -s http://127.0.0.1:3050/health | jq .servers` before assuming a tool is unavailable.
+1. Prefer Obsidian tools exposed via 1MCP (`http://127.0.0.1:3050/mcp?app=claude-code`, server `obsidian-llmeon`), called directly by name (e.g. `obsidian-llmeon_1mcp_search_semantic`)—no discovery step. Check `curl -s http://127.0.0.1:3050/health | jq .servers` before assuming a tool is unavailable.
 2. Otherwise the `obsidian` CLI (`search`, `search:context`, `read`, `backlinks`)—verified fallback whenever Obsidian desktop is running.
 3. For the personal-library scour (§1.3b), prefer an `archilles_1mcp_*` MCP tool (e.g. `archilles_1mcp_search_books_with_citations`) if reachable in your session; otherwise use the verified CLI fallback:
    ```
@@ -111,6 +111,19 @@ Resolve every target by search before drafting—`prodos.id`, then title/filenam
 
 For topical-but-not-logical candidates: recommend a `[[wikilink]]` for a `## Related`/`## See Also` section, with a one-sentence italicised annotation explaining the connection (per the Annotated Link Rule). For MoC anchoring: name which MoC and which section, quoting the nearest existing entry as the pattern to match. These are applied in Part 2. For each hub, pick ONE primary home and, at most, one secondary; add exactly one line per hub, matching the neighbouring entry's pattern. Record each in the Patch B table.
 
+## TAC FRONTMATTER COMPLIANCE (MANDATORY)
+
+Every note this prompt creates or edits must leave `title` (matches filename), `type` (canonical lowercase), `tags` (non-empty), `conformant` and `non_conformance_reason` (required when `conformant: false`) correct, as in §1.7 below. A claim stub follows [[SoT - Atomic Note Standard (The Proposition Card)]]; example minimum:
+
+```yaml
+title: <full-sentence claim>
+type: claim
+status: seed
+tags: [<non-empty>]
+conformant: false
+non_conformance_reason: stub, proposition not yet written in Leon's own words
+```
+
 ### 1.7 Frontmatter conformance
 
 Check the Target against [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]] §2 (`title`, `type`, `tags`, `conformant`, `non_conformance_reason`) and, if it fits one of the five canonical node types, §3's type-specific fields. Draft the corrected block, applied in Part 2. Set `epistemic_status` conservatively (`medium` unless evidence notes are linked), use empty lists for `evidence_links`/`contradicts` when nothing qualifies, and follow the frontmatter-YAML rule: no apostrophes, double quotes or `: ` inside generated values (Obsidian Linter breaks on save). Do not rename the title if that would break inbound links—flag it instead. Do not add a `prodos` key. A note you create (for example a claim stub in §1.8) follows the card in [[SoT - Atomic Note Standard (The Proposition Card)]] and is checked with `uv run --with pyyaml python3 10_System/scripts/validate_note_shape.py --path "<note>"`. If you can't confidently determine `type`, set `conformant: false` with a `non_conformance_reason` rather than guessing.
@@ -119,16 +132,16 @@ Check the Target against [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)
 
 If a candidate concept has no atomic note yet, don't fabricate an edge target. Choose one of:
 
-- Write a minimal, correctly-typed claim stub in `30_Library/100_zettelkasten/` (`epistemic_status: low`, `conformant: false` with a reason) **only if** the Target's argument genuinely needs it as a `supports`/`depends_on` target and you can source its content from vault text or a read book passage.
+- Write a minimal, correctly-typed claim stub in `00_Inbox/` for Leon to triage (`epistemic_status: low`, `conformant: false` with a reason; leave the proposition for Leon to word) **only if** the Target's argument genuinely needs it as a `supports`/`depends_on` target and you can source its content from vault text or a read book passage.
 - Otherwise list it under "No evidence / needs your call" in the report and move on. This is the default—do not stall the run on it.
 
-### 1.9 Gate
+### 1.9 Gate (human checkpoint)
 
-Do not stop for approval. Continue straight to Part 2, carrying forward the Patch A–D tables.
+Stop. Present the Patch A–D tables and, for each candidate edge or anchor line, ask Leon the three reflection questions: *what does this remind me of? how is it different? why does it matter?* Proceed to Part 2 with only the rows he confirms, in his words where he gives them.
 
 ---
 
-## PART 2 — Apply (automatic)
+## PART 2 — Apply (confirmed rows only)
 
 1. One file at a time. Read it, make the edit, and record the file and a one-line diff summary in the report's "Applied" table.
 2. Apply, in this order: Patch A typed edges → Patch B plain links and MoC/SoT anchor lines → Patch C frontmatter → Patch D Further Reading. Use surgical inserts (insert one line after an anchor line); never rewrite a hub.
@@ -143,11 +156,11 @@ Do not stop for approval. Continue straight to Part 2, carrying forward the Patc
 
 ## PART 3 — Thread Audit (run immediately once Part 2's edges are live)
 
-Run the standing thread-audit process against the Target as seed, now that it has real inbound/outbound structure to traverse: traversal manifest (both directions, hub/attribution/depth-cap termination classes), use-vs-mention classification of any remaining bare links, Denial/Substitution/Load testing of every candidate inferential edge, exposure computation, thread extraction (root/chain/tip/weakest link/cheapest defeater), structural pathologies, and a severance/typing patch table for whatever the enrichment pass didn't already resolve.
+Run a thread audit against the Target as seed, now that it has real inbound/outbound structure to traverse. The audit consists of: traversal manifest (both directions, hub/attribution/depth-cap termination classes), use-vs-mention classification of any remaining bare links, Denial/Substitution/Load testing of every candidate inferential edge, exposure computation, thread extraction (root/chain/tip/weakest link/cheapest defeater), structural pathologies, and a severance/typing patch table for whatever the enrichment pass didn't already resolve.
 
 If the Target is not a node in the argument graph (`--why`/`--impact` report "no node found" because it carries only `extends`/`synthesizes`/`implements` edges), state that plainly as the verdict: exposure 0, no dependents, no threads. Then run only the traversal manifest, use-vs-mention check on remaining bare links, and the pathology check, rather than inventing a thread.
 
-Two refinements over a standalone audit, learned from this session:
+Two refinements:
 
 - **Exposure/dependents count only `supports` and `depends_on` edges.** `contradicts` is a conflict flag, not a dependent. `extends`/`synthesizes`/`implements` are structural—note them, but don't let them inflate a dependents count; the compiler doesn't either (§4 of the Knowledge Compiler spec).
 - **Analytical classification during traversal can still use the richer five-concept lens** (`supports`/`prerequisite_of`/`instance_of`/`contrasts_with`/`related_to`) for reasoning about *what kind of relationship this is*—but any edge that survives testing and gets proposed as a **Patch A typing** must be translated through the §1.5 table into the six-word closed vocabulary before it's written. The reasoning vocabulary and the write vocabulary are different tools; don't write the reasoning word into the file.
@@ -196,7 +209,7 @@ One file per run: `90_Audits/YYYY-MM-DD-<seed-slug>.md`. Part 1, the Applied tab
 
 ### Part 3 — Thread Audit Report
 
-Same shape as the standing thread-audit format: Verdict / Exposure list / Threads / Traversal manifest / Patch A (typings) / Patch B (sever candidates) / No evidence / Pathologies found / Frontier / Next action.
+Sections: Verdict / Exposure list / Threads / Traversal manifest / Patch A (typings) / Patch B (sever candidates) / No evidence / Pathologies found / Frontier / Next action.
 
 ### Validation
 
@@ -207,4 +220,4 @@ Same shape as the standing thread-audit format: Verdict / Exposure list / Thread
 
 ## Next action
 
-Close the whole run with exactly one next action, same discipline as the standing audit prompt: a single field, a single sentence, a single command. Never a phase.
+Close the whole run with exactly one next action, a single field, a single sentence, a single command. Never a phase.

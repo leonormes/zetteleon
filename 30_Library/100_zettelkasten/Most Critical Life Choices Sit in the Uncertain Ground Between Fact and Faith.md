@@ -5,7 +5,7 @@ created: 2026-09-28T00:00:00+00:00
 created_utc: '2026-09-28T00:00:00+00:00'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-29T10:38:01+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/00-inbox/most-critical-life-choices-sit-in-the-uncertain-ground-between-fact-and-faith
 proposition: Career, relationship, entrepreneurial and health decisions fall in the
   uncertain middle ground between fact and faith, where neither certainty nor pure
@@ -42,3 +42,4 @@ Applies to decisions that cannot be settled by verifiable evidence in advance. I
 - [[Belief Between Fact and Faith]]—extends: defines the spectrum whose middle ground this note says most critical choices occupy.
 - [[Probabilistic Thinking Treats Beliefs as Hypotheses With Confidence Levels]]—shared mechanism: both say action has to proceed on graded confidence because certainty is unavailable.
 - [[Confidence as Trust in Process Not Certainty in Outcomes]]—shared mechanism: both locate confident action in uncertainty rather than in certainty of outcome.
+- [[Acting on Pure Faith While Ignoring Reality Risks Being Blindsided]]—*the failure mode when choosing on faith alone.*

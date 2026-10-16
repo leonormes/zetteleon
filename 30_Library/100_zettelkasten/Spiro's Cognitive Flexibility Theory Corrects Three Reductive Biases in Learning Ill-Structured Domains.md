@@ -2,7 +2,7 @@
 conformant: false
 created: 2026-09-14T12:09:40+00:00
 created_utc: '2026-09-14T00:00:00Z'
-modified: 2026-09-29T10:37:58+00:00
+modified: 2026-10-16T09:18:08+00:00
 non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/spiros-cognitive-flexibility-theory-corrects-three-reductive-biases-in-learning-ill-structured-domains
 source_title: PKM Meta-Graph System Research
@@ -34,3 +34,8 @@ Applies specifically to advanced knowledge acquisition in domains too irregular 
 
 - [[Interleaving Practice of Different Topics Improves Discriminative Learning]]—shared mechanism: both argue single-pass, single-example learning under-serves genuinely complex material.
 - [[Higher Abstraction Levels Increase Breadth But Reduce Depth]]—shared caution: this note's "context-independent representation" bias is a specific failure mode of over-abstracting.
+- [[Knowledge Acquired by Different Routes Differs in Context, Associative Network, Depth, Personal Meaning and Flexibility]]—_Gives the learner-side result of the multiple-route teaching this theory prescribes._ [supports:: [[Knowledge Acquired by Different Routes Differs in Context, Associative Network, Depth, Personal Meaning and Flexibility]], confidence=medium]
+- [[Broad Experiences Develop Flexible Problem-Solving Skills]]—_The same idea at career scale: varied cases build flexible transfer._
+- [[Flawed Mental Models Limit Mastery]]—_The single-analogy bias here is one way a mental model ends up flawed._
+- [[Sweller's Three Cognitive Load Types Must Be Balanced in Any Knowledge System]]—_The counterweight: criss-crossing adds load, so it needs balancing._
+- [[Generalization and Synthesis are Powerful in Complex Environments]]—_What flexible, multi-case understanding is used for._

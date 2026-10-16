@@ -38,12 +38,10 @@ Source: "State of Agentic Coding, episode 8, with Mario, Armin, and Ben" (Armin 
 - [[Structured Output Enforcement (JSON Schema and Function Calling)]]—tension: this is a specific failure mode inside a system that structured-output enforcement is supposed to make reliable.
 - [[LLM Hallucinations Arise from Probabilistic Prediction Without External Grounding]]—instance: this is a narrow, mechanistic case of hallucination—driven by grammar-constraint pressure rather than knowledge gaps.
 - [[Error Handling and Retry Pipelines for LLM Failures]]—related: detecting this failure mode requires validating _semantic_ plausibility of tool-call fields, not just schema conformance, before accepting output.
-- [[Auto-Regressive Generation Reprocesses the Entire Context on Every Token]]—depends_on: explains why a single early sampling error compounds across the rest of the generation.
 
 ### See Also
 
 - [[Model Self-Verification as a Secondary Quality Gate]]
 
-[depends_on:: [[Auto-Regressive Generation Reprocesses the Entire Context on Every Token]], strength=3, confidence=medium]
 
 [supports:: [[LLM Hallucinations Arise from Probabilistic Prediction Without External Grounding]], strength=3, confidence=medium]

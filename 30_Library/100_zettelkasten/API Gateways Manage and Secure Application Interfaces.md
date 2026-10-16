@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-10-31T10:33:00+00:00
-modified: 2026-09-29T10:37:47+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/api-gateways-manage-and-secure-application-interfaces
 tags: [apis, cloud, SoftwareEngineering/Networking]
@@ -36,3 +36,7 @@ Limitations:
 - Not a load balancer
 - No WAF functionality
 - No business logic
+
+### Related
+
+- [[Content Switching Allows Layer 7 Routing Based on Hostname or URL Path]]—*routing at the same layer.*

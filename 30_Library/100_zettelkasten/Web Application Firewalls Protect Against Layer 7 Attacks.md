@@ -2,7 +2,7 @@
 aliases: [WAF]
 conformant: false
 created: 2025-10-31T10:35:00+00:00
-modified: 2026-09-29T10:38:01+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/web-application-firewalls-protect-against-layer-7-attacks
 tags: [SoftwareEngineering/Networking, SoftwareEngineering/Security, web]
@@ -39,3 +39,7 @@ Limitations:
 - Scope: Focused only on web/API traffic; does not replace general [[Network Firewalls]].
 - False Positives: Complex rules can occasionally block legitimate user traffic.
 - Management: Requires continuous tuning to keep up with application changes.
+
+### Related
+
+- [[API Gateways Manage and Secure Application Interfaces]]—*another Layer 7 control point.*

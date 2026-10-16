@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2026-04-10T12:00:00+00:00
-modified: 2026-09-29T10:37:52+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/heartbeat-intervention-protocol
 tags: [autonomous-agents, loops, optimization, protocol]
@@ -29,5 +29,4 @@ Controls the autonomous loop of agents in the CORAL framework. Operates as a bac
 ### Related
 
 - [[Automated Optimization Loops Degrade Beyond 15 Iterations]]—shared mechanism: both address the problem of unbounded agentic loops causing quality degradation; the Heartbeat Protocol is the active interrupt mechanism that the degradation heuristic implies is necessary but does not specify.
-- [[Deep Agents for Long Horizon Planning]]—shared mechanism: LangGraph deep agents similarly require loop management and forced synthesis checkpoints when planning over long horizons; both frameworks recognise that agents cannot self-regulate indefinitely.
-- [[SoT - Agentic AI Design Patterns]]—extends: implements "Exception Handling & Recovery" (plateau trigger) and "Goal Setting & Monitoring" (interval trigger) patterns from the taxonomy with a concrete, asynchronous interrupt protocol.
+- [[SoT - Agentic AI Design Patterns]] [implements:: [[SoT - Agentic AI Design Patterns]]]—extends: implements "Exception Handling & Recovery" (plateau trigger) and "Goal Setting & Monitoring" (interval trigger) patterns from the taxonomy with a concrete, asynchronous interrupt protocol.

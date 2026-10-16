@@ -4,7 +4,7 @@ contradicts: []
 created: 2026-09-07T13:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-29T10:37:49+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/cognitive-training-neurofeedback-mindfulness-and-exercise-can-improve-executive-function
 proposition: Computerised cognitive training, neurofeedback training, mindfulness practice, and cognitively demanding exercise are each associated with improvements in specific executive function skills.
 source_title: 'Executive Function: Skills for Life'
@@ -25,3 +25,4 @@ Details: Computerised cognitive training shows benefit for some children with le
 
 - [[SoT - Mindfulness and Emotional Regulation]]—shared mechanism: mindfulness as a lever on self-regulatory/executive capacity.
 - [[Cerebellum Function and Exercise for ADHD Regulation]]—shared mechanism: exercise improving executive/regulatory function.
+- [[Executive Function Training Gains Fade Once the Activity Stops]]—*the caveat that these gains depend on continued practice.*

@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-11-01T11:37:53+00:00
-modified: 2026-09-29T10:37:53+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/hyperfixation-causes-mental-exhaustion-and-burnout
 tags: []
@@ -38,3 +38,7 @@ Eventually, the brain's resources are depleted to the point where it can no long
 Recovery Period:
 
 The trough phase following hyperfixation burnout is partly the brain's recovery period, during which cognitive and emotional resources must be replenished before the person can engage intensely again.
+
+### Related
+
+- [[Hyperfixation Creates Time Blindness in ADHD]]—*a related cost.*

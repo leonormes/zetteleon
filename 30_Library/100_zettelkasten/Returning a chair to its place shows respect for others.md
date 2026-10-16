@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-10-29T16:35:00+00:00
-modified: 2026-09-29T10:37:57+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/returning-a-chair-to-its-place-shows-respect-for-others
 source: '[[MOC - 8 simple Japanese habits]]'
@@ -16,3 +16,5 @@ Returning a chair to its proper position after use is a Japanese habit that demo
 ## Related
 
 - [[Silent Void]]
+- [[Okagesamade acknowledges the support of others in one's wellbeing]]—*a related habit of acknowledging others.*
+- [[Mutual Respect in a Partnership Involves Valuing Opinions Speaking Kindly and Honouring Boundaries]]—*respect shown in small acts has a counterpart in partnerships.*

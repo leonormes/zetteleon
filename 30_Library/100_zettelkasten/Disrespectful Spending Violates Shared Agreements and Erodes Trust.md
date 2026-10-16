@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-11-10T10:15:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-29T10:37:50+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/disrespectful-spending-violates-shared-agreements-and-erodes-trust
 proposition: "Spending becomes disrespectful when one person's actions violate shared agreements and trust, such as by breaking spending rules, hiding purchases, or jeopardizing mutual goals."
 tags: [boundaries, finance, relationship, respect, trust]
@@ -18,3 +18,7 @@ type: claim
 Summary: Spending becomes disrespectful when one person's actions violate shared agreements and trust, such as by breaking spending rules, hiding purchases, or jeopardizing mutual goals.
 
 Details: Key examples of disrespectful spending include violating agreed-upon spending limits, hiding purchases or lying about their cost (financial infidelity), and making unilateral large purchases. These actions show contempt for the partnership and breach fundamental trust.
+
+### Related
+
+- [[Unilateral Spending on Major Purchases is a Sign of an Unhealthy Financial Dynamic]]—*a common form.*

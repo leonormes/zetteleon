@@ -2,7 +2,7 @@
 aliases: [DNS Architecture, FQDN, Hierarchical Naming]
 conformant: true
 created: 2025-03-04T13:42:19+00:00
-modified: 2026-09-29T10:38:16+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-the-data-architecture-of-dns
 tags: [data-centric, SoftwareEngineering/Architecture, SoftwareEngineering/Networking, SoftwareEngineering/networking/dns, topic/technology]
@@ -76,3 +76,7 @@ While forward DNS maps names to numbers, PTR records map numbers back to names.
 ## 6. Summary
 
 DNS is the phonebook of the internet. It makes hostnames actionable by providing the technical mechanism to resolve a conceptual "Name" into a routable "Address."
+
+### Related
+
+- [[www is just a normal subdomain]]—*a worked example that www is an ordinary subdomain label.*

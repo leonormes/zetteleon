@@ -33,5 +33,4 @@ Often implemented via specialized frameworks like LangGraph. It is necessary for
 ### Related
 
 - [[SoT - Flow Engineering]]—direct concept match: graph-based orchestration is the technical implementation of flow engineering.
-- [[Recursive Agent Improvement]]—shared mechanism: graph loops allow agents to review their own logs and refine their skills.
 - [[SoT - Agentic AI Design Patterns]]—extends: provides the structural foundation for multi-agent collaboration.

@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-20T10:04:00+00:00
 last_reviewed: ''
-modified: 2026-09-29T10:37:49+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/collective-intelligence-is-enabled-by-communication
 tags: [communication, evolution, sociology, TheHuman/Cognition]
 title: Collective Intelligence is Enabled by Communication
@@ -21,3 +21,7 @@ This ability to build knowledge upon knowledge is what truly separates human int
 ---
 
 Links: [[Mental Models MOC]]
+
+### Related
+
+- [[The Knowledge Gap is the Difference Between Total Understanding and a Team's Collective Knowledge]]—*the gap collective intelligence tries to close.*

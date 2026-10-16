@@ -2,7 +2,7 @@
 aliases: [Music and Community]
 conformant: false
 created: 2025-11-10T11:09:00+00:00
-modified: 2026-09-29T10:37:48+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/authentic-music-creates-communities-while-commercial-music-creates-consumers
 tags: [authenticity, community, consumerism, music]
@@ -19,3 +19,5 @@ Details: When people gather for authentic music, they are participating in a sha
 ## Related
 
 - [[Asking Why a Song Exists Helps Determine its Authenticity]]
+- [[The Polish of Commercial Music is Designed to Maximize Consumption]]—*the production-side mechanism behind commercial polish.*
+- [[The Rawness of Expressive Music is a Sign of its Honesty]]—*the sonic mark of the authentic side of that contrast.*

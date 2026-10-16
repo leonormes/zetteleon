@@ -1,11 +1,17 @@
 ---
 aliases: []
-conformant: false
+conformant: true
+contradicts: []
 created: 2025-11-01T11:37:53+00:00
-modified: 2026-09-29T10:37:47+00:00
-non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
+epistemic_status: medium
+evidence_links: []
+modified: 2026-10-14T08:30:17+00:00
 permalink: llmeon/30-library/100-zettelkasten/adhd-hangover-or-brain-fog-following-hyperfixation
-tags: []
+proposition: After a hyperfixation crash the ADHD brain enters a fallow dopamine-deficit period of apathy, cognitive fog and shame that lasts hours to weeks until a new stimulus triggers the next cycle.
+tags:
+- brain-fog
+- hyperfixation
+- TheHuman/Health/ADHD
 title: ADHD Hangover or Brain Fog Following Hyperfixation
 type: claim
 ---
@@ -44,3 +50,15 @@ This fallow period lasts until the brain, once again starved of stimulation, lat
 - Individual neurochemistry
 - Environmental factors and stress levels
 - Availability of new novel stimuli
+
+## Related
+
+[depends_on:: [[Hyperfixation Causes Mental Exhaustion and Burnout]]]
+
+- [[Hyperfixation Causes Mental Exhaustion and Burnout]]—_The resource-depletion mechanism behind this note's dopamine deficit and fog; the trough is partly the recovery period that note describes._
+- [[Executive Function Impairment During ADHD Trough Phase]]—_Narrows this note's "cannot initiate tasks" symptoms to the prefrontal and executive-function mechanism; it already carries an `extends` edge back to this note._
+- [[The I've Cracked It Illusion During ADHD Hyperfixation]]—_Explains the abandoned projects and purchased supplies that this note says evoke failure and shame._
+- [[The Neuroenergetic Deficit Theory Posits Chronic Energy Insufficiency in ADHD Brains]]—_A broader energy-deficit account of the same emptiness; the hub cites it as the cause of the mental emptiness._
+- [[Dopamine reward pathway dysfunction causes ADHD task initiation difficulty]]—_Sibling mechanism for why tasks fail to trigger motivation when dopamine is low._
+- [[MOC - ADHD Hyperfixation-Burnout Cycle]]—_Home hub: this note is Phase 4 (The Trough) of the cycle._
+- [[SoT - ADHD Self-Compassion & Strengths]]—_Where to go for handling the shame that intensifies during the trough._

@@ -1,6 +1,7 @@
 ---
 aliases: []
 created: 2026-02-02T07:05:00+00:00
+description: "Leon's core profile: ADHD and communication style, the Chief of Staff framing, and how he drives the vault through agents. Inject at the start of any session."
 modified: 2026-07-25T14:11:15+00:00
 permalink: llmeon/10-system/prompts/leon-context-core-profile
 tags: [domain/personal, system/prompt, type/context]
@@ -53,8 +54,8 @@ I'm a Staff Platform Architect / Senior Platform and Infrastructure Engineering 
 Beyond the `AGENTS.md` governance rule above, the vault has a working audit pipeline you actively run:
 
 - Structure: `10_System/scripts/` (e.g. `edge_lint.py`—a claim-graph linter that checks notes for undeclared load-bearing claims, contradictions, and circular reasoning); `10_System/prompts/` (this file lives here); `30_Library/100_zettelkasten/` (atomic notes, e.g. the ADHD/IoED note cluster on Illusion of Explanatory Depth, premature loop closure, hyperfocus-dopamine confounds).
-- Interaction model: you drive the vault via an agent persona called `LLMeon` (invoked through Antigravity CLI / Claude Code, model Gemini 3.1 Pro or Claude Sonnet), which reads/writes vault files through `obsidian-mcp-tools_1mcp_*`—explicitly preferred over raw shell commands for vault I/O.
-- 1MCP aggregation layer: a local MCP aggregation server (`~/.config/1mcp/mcp.json`, chezmoi-managed, runs as a macOS LaunchAgent `com.usermcp` on port 3050) fans out to upstream servers including `obsidian-mcp-tools`, `serena`, `atlassian`, `basic-memory`, `context7`, `ast-grep`. You've been actively debugging `serena`'s LSP-indexing timeouts against this stack (fixed by raising `connectionTimeout`/`requestTimeout`).
+- Interaction model: you drive the vault via an agent persona called `LLMeon` (invoked through Antigravity CLI / Claude Code, model Gemini 3.1 Pro or Claude Sonnet), which reads/writes vault files through `obsidian-llmeon_1mcp_*`—explicitly preferred over raw shell commands for vault I/O.
+- 1MCP aggregation layer: a local MCP aggregation server (`~/.config/1mcp/mcp.json`, chezmoi-managed, runs as a macOS LaunchAgent `com.usermcp` on port 3050) fans out to upstream servers including `obsidian-llmeon`, `serena`, `atlassian`, `basic-memory`, `context7`, `ast-grep`. You've been actively debugging `serena`'s LSP-indexing timeouts against this stack (fixed by raising `connectionTimeout`/`requestTimeout`).
 - Terminal environment: Ghostty + Zellij multiplexer sessions, Neovim/LazyVim, WezTerm/Yazi for file navigation—"terminal-first," GUI interaction avoided where possible.
 
 ## Personal Context

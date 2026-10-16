@@ -2,7 +2,7 @@
 created: 2026-04-13T14:41:15+00:00
 created_utc: 2026-04-13 11:20:00+00:00
 kind: constraint
-modified: 2026-09-29T10:37:54+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/llm-context-constraints
 source_title: AI Agent Architecture and the Modern Tech Stack
 source_url: https://gemini.google.com/app/509937047bd0b955
@@ -35,3 +35,4 @@ Applies to all transformer-based models. It necessitates the use of external sto
 - [[Context Volume Plateau]]—shared mechanism: both identify the technical limitations of the context window.
 - [[SoT - The RPI Workflow (Context Engineering)]]—shared mechanism: uses "Context Economics" to manage these specific constraints.
 - [[MOC - AI Software Engineering]]—See Also.
+- [[Context Caching Freezes Large Static Datasets for Efficient Inference]]—*caching is one economic response to the finite context window.*

@@ -37,7 +37,6 @@ Occurs as the "implementation bottleneck" loosens due to AI automation. It prior
 
 ### Related
 
-- [[Architecture First Approach to AI Development]]—supports: the shift to oversight necessitates a disciplined architecture-first methodology.
 - [[The Unit of Software Engineering Is Shifting from Code Lines to Intent Expressions]]—extends: "taste" and "judgment" are required to formulate the high-level intent that agents execute.
 - [[Judgment-Based Productivity Gains]]—supports: oversight is the primary mechanism through which senior developers realize productivity gains.
 - [[Context Curation Necessity]]—extends: identifies curation as a primary skill set for the modern engineer.

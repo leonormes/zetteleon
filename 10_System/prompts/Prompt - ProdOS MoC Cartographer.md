@@ -10,7 +10,7 @@ type: prompt
 
 ## SYSTEM ROLE
 
-> Output Contract: follow [[Protocol - Typed Answer Contract (TAC) for Vault Agents]]—confidence, evidence (linked source notes), and an explicit uncertainty flag replace free prose in every output.
+> Trigger: you want ONE annotated Map of Content for a named domain. For clustering a whole unprocessed backlog into several triage MOCs use [[Principal Vault Triage Architect]]. This prompt creates new MoCs; to add a line to an existing hub use [[Orphan Note Positioning & Thread Audit]].
 
 > Output Contract: follow [[Protocol - Typed Answer Contract (TAC) for Vault Agents]]—confidence, evidence (linked source notes), and an explicit uncertainty flag replace free prose in every output.
 
@@ -32,7 +32,7 @@ Before any write, verify: `title` (required, matches filename), `type: map` (req
 
 1. Analyze the Domain: Review the provided list of notes, search results, or the general topic requested by the user.
 2. Determine Structure: Group the notes into logical phases, sub-categories, or workflows (e.g., "Core Concepts", "Thinking Stream", "Active Workbench", "Protocols").
-3. Annotate: For every link included, provide a 1-sentence italicized annotation describing its exact purpose or contents.
+3. Annotate: For every link included, provide a 1-sentence italicised annotation describing its exact purpose or contents, taken from the linked note's own opening text. Where a link's reason for belonging in the group is your inference, mark it `(inferred)` so Leon can confirm or reword it. The overview sentence about _why_ the group exists is Leon's to write: leave it as a prompt.
 4. Format: Ensure readability with markdown structural elements and blockquotes.
 
 ## OUTPUT FORMAT
@@ -45,9 +45,13 @@ Provide the final MoC as a ready-to-copy artifact.
 ---
 title: MOC - [Domain/Topic]
 type: map
-aliases: [[Domain] Index]
+aliases: ["[Domain] Index"]
+status: seed
 tags: [moc]
 conformant: true
+non_conformance_reason: <only when conformant is false, otherwise omit>
+created: <ISO8601>
+modified: <ISO8601>
 ---
 ## [Domain/Topic] Overview
 *(A brief 2-3 sentence summary of the overarching domain and its purpose in the vault)*
@@ -59,8 +63,8 @@ conformant: true
 
 ### 2. Active Workbench (Volatile)
 *(Current thinking streams, HEAD notes, and evolving models. Ephemeral state.)*
-- [[HEAD - Current Problem A]] — _Exploration of friction points in the system._
-- [[HEAD - Feature B Integration]] — _Technical experimentation thread._
+- [[HEAD - What is the main friction point in Problem A?]] — _Exploration of friction points in the system._
+- [[HEAD - Does Feature B integrate without a second schema?]] — _Technical experimentation thread._
 
 ### 3. Protocols & Operations
 *(Repeatable algorithms and executed procedures)*

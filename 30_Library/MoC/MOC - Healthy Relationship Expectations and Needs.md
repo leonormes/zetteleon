@@ -5,7 +5,7 @@ created: 2025-11-10T10:22:00+00:00
 criteria: Atomic notes defining foundational concepts of respect, communication, responsibility, needs, and financial fairness in a relationship.
 exclusions: Specific therapeutic advice or non-cooperative relationship models.
 last_reviewed: ''
-modified: 2026-09-29T10:38:04+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/mo-c/moc-healthy-relationship-expectations-and-needs
 scope: Core principles, common needs, and financial dynamics within a healthy, cooperative partnership, particularly for a married parent.
 tags: [finance, parenting, partnership, relationship]
@@ -83,3 +83,7 @@ The line between healthy management and control is important. [[Respectful Budge
 - Double Standards: Applying [[Financial Double Standards for Spending Undermine Fairness in a Relationship|different rules for spending]] undermines fairness.
 - Prioritizing Needs: A [[A Healthy Family Balances the Needs of Children with the Needs of the Spousal Relationship|healthy family balances the needs of children and spouses]].
 - Lack of Agency: A [[A True Discussion Requires That Both Partners Can Say No Without Fear|true discussion requires the ability to say "no"]]. When a partner's input is dismissed, it [[Dismissing a Partner's Needs as Inconvenient Signals a Lack of Empathy|signals a lack of empathy and respect]].
+
+### Related
+
+- [[You Are an Expert Relationship and Communications Counsellor]]—*a prompt for preparing a difficult conversation within this domain.*

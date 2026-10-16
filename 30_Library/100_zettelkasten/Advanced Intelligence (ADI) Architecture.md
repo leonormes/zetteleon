@@ -28,6 +28,4 @@ Applies to AI system design where retraining is impractical or undesirable. The 
 
 ### Related
 
-- [[Architecture First Approach to AI Development]]—shared mechanism: both disciplines keep a core layer stable (frozen model / upfront design) and invest complexity in the surrounding infrastructure rather than the core artefact.
-- [[Deep Agents for Long Horizon Planning]]—shared mechanism: LangGraph-based deep agents similarly keep the LLM layer stable while building stateful orchestration infrastructure around it to manage long-horizon complexity.
 - [[SoT - Agentic AI Design Patterns]]—extends: ADI names the design philosophy that the full agentic pattern taxonomy assumes; it is the architectural premise rather than a specific pattern.

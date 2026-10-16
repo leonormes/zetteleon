@@ -45,8 +45,6 @@ Source: "I Built Karpathy's LLM Wiki in Claude Code (No Vector DB)" (Achuth G. R
 ### Related
 
 - [[Privacy Tombstones Mark Sensitive Files as Off-Limits to AI Agents]]—complementary: tombstones prevent access structurally; canaries detect if prevention failed.
-- [[Reasoning Loops Require Explicit Stopping Conditions (End-Loop Guardrails)]]—analogous: both are precision-tuned control mechanisms that trade generality for reliability.
-- [[Trace Logging and Event Trees for Agent Observability]]—related: canary triggers are a specialised case of observability, tuned for maximum signal.
 
 ### See Also
 

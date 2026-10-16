@@ -1,12 +1,14 @@
 ---
 aliases: []
+conformant: false
 created: 2025-08-29T15:20:57+00:00
 last_reviewed: ''
-modified: 2026-09-29T10:37:48+00:00
+modified: 2026-10-16T00:00:00+00:00
+non_conformance_reason: missing schema fields trigger and steps and verification for type procedure and title is not in the How to format
 permalink: llmeon/30-library/100-zettelkasten/breaking-free-from-flawed-models
 tags: [TheHuman/Cognition]
 title: Breaking Free from Flawed Models
-type: ''
+type: procedure
 updated: null
 ---
 
@@ -24,3 +26,16 @@ Our entire conversation on the nature of number has been an exercise in this pro
 Links: [[Flawed Mental Models Limit Mastery]]
 
 [[The Map is Not the Territory]]
+
+## Related
+
+- [[Flawed Mental Models Limit Mastery]] - *This note is the protocol for change; that one explains why the flawed model costs mastery.* [supports:: [[Flawed Mental Models Limit Mastery]], confidence=medium]
+- [[Instrumentalism vs Realism in Understanding]] - *The shift from "it works" to "it's true" is step zero of this protocol.* [depends_on:: [[Instrumentalism vs Realism in Understanding]], confidence=medium]
+- [[Cognitive Biases Reinforce Mental Models]] - *The resistance this protocol has to push against.*
+- [[Truth-Status Belongs to Propositions, Not Persons]] - *Separating a model's truth from your identity makes intellectual humility affordable.*
+- [[Bayesian Updating Adjusts Beliefs as New Evidence Arrives]] - *A formal version of revising a model on new evidence.*
+- [[A Good Explanation Is Hard to Vary]] - *A test for whether the rebuilt model is better; that note already points here.*
+- [[Ptolemaic System as a Patched Flawed Model]] - *A historical case of patching a flawed model instead of replacing it.*
+- [[A Paradigm Only Collapses When a Viable Replacement Exists]] - *Why people hold on to a flawed model until a better one is available.*
+- [[Mental Models as Evolutionary Filters]] - *Why models are hard to see past in the first place.*
+- [[SoT - Reality, Models, and the Limits of Accuracy]] - *The wider account of models and where their accuracy ends.*

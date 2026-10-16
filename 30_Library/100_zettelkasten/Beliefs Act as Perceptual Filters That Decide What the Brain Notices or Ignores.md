@@ -5,7 +5,7 @@ created: 2026-09-28T00:00:00+00:00
 created_utc: '2026-09-28T00:00:00+00:00'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-29T10:38:01+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/00-inbox/beliefs-act-as-perceptual-filters-that-decide-what-the-brain-notices-or-ignores
 proposition: Because not all stimuli can be processed, beliefs act as perceptual filters,
   so changing a belief shifts the attentional spotlight to opportunities or nuances
@@ -41,6 +41,7 @@ The first of the source's three powers of practical beliefs, Attention (the powe
 - [[Mental Models as Evolutionary Filters]]—shared mechanism: mental models act as subconscious filters on an overwhelming amount of sensory information.
 - [[Human Understanding is Inherently Myopic]]—shared mechanism: limited attention lets us perceive only a small fraction of the whole picture.
 - [[Beliefs as Defining Spaces]]—shared mechanism: a belief limits which solutions the brain searches for, which is this filtering effect applied to problem-solving.
+- [[The Brain Uses Beliefs as Prediction Shortcuts Because Conscious Processing Is Limited]]—*the information bottleneck that makes such filters necessary.*
 
 ### Further Reading
 

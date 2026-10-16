@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-11-11T09:23:56+00:00
 last_reviewed: ''
-modified: 2026-09-29T10:37:58+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/silent-void
 see_also: []
 superseded_by: ''
@@ -206,3 +206,7 @@ The absence of ALL of these, consistently, is data. It's telling you that she's 
 The question becomes: Can you accept being the sole carrier of the relationship's emotional maintenance? Because that's what's currently happening. You're the only one treating relationship issues as worth sustained thought.
 
 What happens if you simply… stop carrying that load alone? Stop re-initiating? Stop following up? What would happen to all these concerns if you didn't keep breathing life into them?
+
+### Related
+
+- [[Nihilism vs Constructed Meaning]]—*meaning in the face of emptiness.*

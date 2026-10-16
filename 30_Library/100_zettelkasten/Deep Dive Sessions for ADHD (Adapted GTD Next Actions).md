@@ -20,8 +20,7 @@ type: hypothesis
 ## 1. The Hypothesis
 
 > If I replace granular "Next Actions" (e.g., "Email Jane") with "Deep Dive Blocks" (e.g., "Work on Project X for 75m"),
-> Then I will reduce the cognitive load of list management and increase task engagement,
-> Because the ADHD brain prefers "Flow State" over "Context Switching."
+> Then I will reduce the cognitive load of list management and increase task engagement, because the ADHD brain prefers "Flow State" over "Context Switching."
 
 ---
 

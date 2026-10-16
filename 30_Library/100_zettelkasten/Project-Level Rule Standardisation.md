@@ -32,5 +32,3 @@ Repository-level configuration for AI assistants. It acts as a "living contract"
 
 ### Related
 
-- [[Architecture First Approach to AI Development]]—supports: standardized rules are a core component of the project structure definition.
-- [[CLI Interoperability for Agents]]—shared mechanism: both rely on explicit, machine-readable interfaces to guide agent behavior.

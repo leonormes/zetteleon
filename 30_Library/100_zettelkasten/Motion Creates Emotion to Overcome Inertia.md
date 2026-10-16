@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-20T08:00:03+00:00
 last_reviewed: '2025-12-16T00:00:00.000Z'
-modified: 2026-09-29T10:37:55+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/motion-creates-emotion-to-overcome-inertia
 status: draft
 tags: [experiment, hypothesis, TheHuman/Health/ADHD, TheHuman/Motivation, TheHuman/Psychology, topic/productivity]
@@ -47,3 +47,7 @@ updated: null
 Original Context:
 
 "Motion Creates Emotion" is a cornerstone of [[ADHD Behavioral Strategies for Productivity]]. It bypasses the need for initial motivation by leveraging momentum.
+
+### Related
+
+- [[The 5-Minute Action Overcomes Initiation Barriers]]—*a practical use of the principle.*

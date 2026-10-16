@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-29T10:37:58+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/single-pass-llms-lose-state-on-multi-step-reasoning-and-large-scale-aggregation-tasks
 proposition: A simple LLM call — prompt and context fed directly into a single forward 'pass predicting the next token — reliably handles simple lookups (e.g. "what is' '2+2?") but fails at multi-step reasoning or large-scale counting/aggregation tasks,' because a single forward pass has no persistent structure in which to hold and update intermediate state as the task proceeds. The failure is architectural, not a matter 'of the model needing to "try harder" or be scaled up.'
 tags: [domain/llm, topic/llm-behavior, topic/reliability, topic/rlm]
@@ -36,12 +36,10 @@ Source: "From RLMs to Agent Harnesses" (Still Broken AI). "Simple LLMs: You inpu
 ### Related
 
 - [[LLM Pipeline Accuracy Degrades with Document Length and Task Complexity]]—generalizes: this note is the architectural-cause version of that note's pipeline-specific symptom.
-- [[Recursive Language Models Load Context as Environment Variables, Not Prompt Tokens]]—related: that architecture is a direct response to the failure mode this note describes.
 - [[Sequential Processing with Working Memory (Folding Operator)]]—related: another response to the same underlying problem, using a carried-forward scratchpad rather than an external environment.
-- [[Auto-Regressive Generation Reprocesses the Entire Context on Every Token]]—related: both describe fundamental mechanics of single-pass/auto-regressive generation that motivate more elaborate architectures to work around.
+- [[SoT - LLM Reasoning Obeys the Complexity Conservation Law]]—*the broader theory of why LLMs fail on procedural complexity.*
 
 ### See Also
 
-- [[RLMs Dynamically Chunk Data at Runtime, Unlike RAG's Static Pre-Defined Chunking]]
 
 [supports:: [[LLM Pipeline Accuracy Degrades with Document Length and Task Complexity]], strength=3, confidence=medium]

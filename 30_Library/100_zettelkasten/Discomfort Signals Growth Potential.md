@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-10-31T12:07:00+00:00
-modified: 2026-09-29T10:37:50+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/discomfort-signals-growth-potential
 tags: [TheHuman/Psychology, topic/productivity]
@@ -30,3 +30,5 @@ ADHD Application:
 
 - [[Beliefs as Defining Spaces]]—shared mechanism: reading difficulty as "I am not cut out for this" is a limiting belief and reading it as evidence of growth is the empowering counterpart; Nir Eyal's Beyond Belief (Calibre 1686, via an LLM summary) frames the pair this way.
 - [[Desirable Difficulty in Skill Acquisition]]—shared mechanism: struggle is the means by which skill is built.
+- [[The MIQ Process - Most Important Question for Deliberate Growth]]—*a deliberate-growth method that uses discomfort as direction.*
+- [[The Ping as Nervous System Signal]]—*the nervous-system signal that accompanies that discomfort.*

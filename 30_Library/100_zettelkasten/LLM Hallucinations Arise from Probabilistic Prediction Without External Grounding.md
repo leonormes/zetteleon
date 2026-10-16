@@ -35,7 +35,6 @@ Source: "LLM Reliability Engineering: Fix hallucinations, errors, & unpredictabl
 ### Related
 
 - [[LLM Probabilistic Outputs Prevent Consistency Guarantees]]—grounds: hallucination is a consequence of probabilistic prediction.
-- [[AI-Generated Code Without Human Review Creates Production Risk]]—related: hallucinated code is a specific case of this risk.
 - [[Retrieval-Augmented Generation (RAG) Grounds LLM Outputs in External Knowledge]]—solution: adding external grounding context.
 - [[Tool Use and Deterministic Delegation Reduce LLM Hallucination]]—solution: delegating factual tasks to deterministic systems.
 

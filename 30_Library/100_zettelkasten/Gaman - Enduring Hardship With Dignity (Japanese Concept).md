@@ -19,3 +19,4 @@ Gaman describes bearing what feels unbearable—difficulty, tedium, or discomfor
 
 - [[SoT - ADHD Neurology & Core Concepts]]—the parent SoT this concept was extracted from (§4, "The Philosophy of Resilience"), where it was named but had no note of its own.
 - [[SoT - Wabi-Sabi]]—the companion concept from the same section; that SoT already covers Kintsugi (§3.1) in full, which this note's parent SoT had incorrectly flagged as also missing a note.
+- [[Taru o shiru is the practice of contentment with what one has]]—_A sibling Japanese concept: gaman bears what is hard, taru o shiru accepts what is enough._

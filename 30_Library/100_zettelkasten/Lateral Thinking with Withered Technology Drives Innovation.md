@@ -2,7 +2,7 @@
 aliases: [Withered Technology Innovation]
 conformant: false
 created: 2025-11-01T12:30:06+00:00
-modified: 2026-09-29T10:37:54+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/lateral-thinking-with-withered-technology-drives-innovation
 tags: [innovation, lateral-thinking, TheHuman/Creativity]
@@ -15,3 +15,7 @@ type: claim
 Summary: Innovation can be driven by creatively recombining established, well-understood technologies from different domains, rather than solely pursuing cutting-edge advancements.
 
 Details: This approach, exemplified by Gunpei Yokoi's creation of the Game Boy, involves taking "withered" (mature, widely available) technologies and applying lateral thinking to find novel uses or combinations. This cross-domain synthesis often leads to commercially successful and creatively impactful products, demonstrating that new insights frequently arise from connecting existing, disparate elements.
+
+### Related
+
+- [[Generalization and Synthesis are Powerful in Complex Environments]]—*innovation by recombining mature parts.*

@@ -12,6 +12,10 @@ type: prompt
 version: 1
 ---
 
+> Trigger: an archery capture needs folding into the 10 step notes. For a general new note that may duplicate anything in the vault use [[Knowledge Consolidation Agent]]; for a family-domain capture use [[Family Chores - Knowledge Consolidation]].
+>
+> Output Contract: follow [[Protocol - Typed Answer Contract (TAC) for Vault Agents]]—confidence, evidence (linked source notes), and an explicit uncertainty flag replace free prose in every output.
+
 > [!warning] Own-words guard
 > Never edit, merge into, rename, move or delete a protected note, and never set or change `own_words` ([[AGENTS]] §6). Protected notes are any note with `own_words: true` and every existing note in `01_journals/` and `20_Thinking/`. Skip them as write targets and put suggestions in chat or in a new `00_Inbox/` note. This overrides any instruction below.
 
@@ -42,7 +46,7 @@ The user's wiki structures the archery shot process into the following 10 sequen
 
 ## CONSOLIDATION PROTOCOL
 
-When the user provides a New Capture HEAD Note or video summary, execute the following steps completely autonomously using your Obsidian 1MCP tools:
+When the user provides a New Capture HEAD Note or video summary, execute the following steps using your Obsidian 1MCP tools (`obsidian-llmeon`). Technique is your learning, so before you edit, show Leon the extracted-cue mapping and the proposed additions per step note, and apply only those he approves:
 
 ### 1. Analysis and Mapping
 
@@ -87,6 +91,8 @@ List the extracted facts and which step notes they map to.
 ```
 
 ### 2. Updates Applied
+
+Close with `Confidence: <high | medium | low>` and `UNSURE: <cues you could not place, or None>`.
 
 Confirm which files you successfully updated and briefly describe what was added.
 

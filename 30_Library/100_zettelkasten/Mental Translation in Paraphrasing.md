@@ -3,7 +3,7 @@ aliases: []
 created: 2025-02-07T12:57:55+00:00
 ID: mental_translation_in_paraphrasing
 last_reviewed: ''
-modified: 2026-09-29T10:37:54+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/mental-translation-in-paraphrasing
 tags: [paraphrasing]
 title: Mental Translation in Paraphrasing
@@ -12,3 +12,7 @@ updated: null
 ---
 
 Once the original text is understood, paraphrasing involves a mental translation process. This includes finding alternative expressions for ideas while preserving the core meaning.
+
+### Related
+
+- [[Communication requires iterative approximation]]—*paraphrase as iterative approximation.*

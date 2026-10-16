@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-11-01T11:22:13+00:00
-modified: 2026-09-29T10:38:00+00:00
+modified: 2026-10-15T00:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/there-is-no-single-first-principle-of-mathematics
 tags: [foundations, TheHuman/Philosophy, topic/maths]
@@ -17,3 +17,16 @@ Details:
 The search for a single foundational principle is one of the deepest and most contentious quests in the philosophy of mathematics. Rather than achieving consensus, this quest has produced several powerful schools of thought—including Logicism, Platonism, Formalism, Intuitionism, and Structuralism—each proposing different answers to the question "What is mathematics?"
 
 This plurality does not represent a weakness but rather reflects the rich, multifaceted nature of mathematical practice and theory. Modern mathematicians tend to embrace a pragmatic pluralism, drawing on different foundational perspectives depending on context.
+
+## Related
+
+- [[MOC - What is Maths]] - *The map that frames this claim and groups the competing schools.*
+- [[Logicism (Mathematics as Extension of Logic)]] - *First competing school: mathematics as an extension of logic.* [depends_on:: [[Logicism (Mathematics as Extension of Logic)]], confidence=high]
+- [[Numbers as Abstract Objects (Platonism)]] - *Second school: numbers as abstract objects that exist independently.* [depends_on:: [[Numbers as Abstract Objects (Platonism)]], confidence=high]
+- [[Formalism (Mathematics as Symbol Manipulation)]] - *Third school: mathematics as rule-governed symbol manipulation.* [depends_on:: [[Formalism (Mathematics as Symbol Manipulation)]], confidence=high]
+- [[Intuitionism (Mathematics as Mental Construction)]] - *Fourth school: mathematical objects exist only if mentally constructed.* [depends_on:: [[Intuitionism (Mathematics as Mental Construction)]], confidence=high]
+- [[Structuralism (Mathematics as Study of Structure)]] - *Fifth school: mathematics as the study of abstract structure.* [depends_on:: [[Structuralism (Mathematics as Study of Structure)]], confidence=high]
+- [[Axiomatic Set Theory Is a Foundational Framework for Mathematics]] - *The working foundation most mathematicians use, which is a practical choice rather than a single first principle.*
+- [[SoT - Core Fields of Mathematical Logic]] - *The formal toolkit (set theory, model theory, recursion theory) the foundational programmes draw on.*
+- [[SoT - History of Mathematical Logic]] - *How the foundational disputes developed historically.*
+- [[SoT - Empirical Origins of Mathematics]] - *A further reason no abstract first principle is needed: practice came first.*

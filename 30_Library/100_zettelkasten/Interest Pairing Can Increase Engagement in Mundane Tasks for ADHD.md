@@ -3,15 +3,14 @@ aliases: []
 conformant: false
 created: 2025-10-30T12:00:01+00:00
 last_reviewed: '2025-12-16'
-modified: 2026-09-29T10:37:53+00:00
-non_conformance_reason: 'type: hypothesis is not in the FrontmatterContract §2 enum (claim/concept/evidence/question/procedure/protocol/map/journal/project/sot). This note is an unresolved personal experiment (If/Then/Because + protocol + pending Results Log) — forcing it into `claim` would misrepresent its pending-verification status. Left as-is pending a human decision, matching the same non-conformance already accepted on [[Body Doubling for ADHD Focus]].'
+modified: 2026-10-14T00:00:00+01:00
+non_conformance_reason: 'type hypothesis is not in the Frontmatter Contract type enum, but MOC - ADHD Experiments & Protocols defines the hypothesis lifecycle and queries on it. The note is an unresolved personal experiment with a pending Results Log, so it is not forced into claim. Left as-is pending a decision on whether the contract should add hypothesis. Same status as Body Doubling for ADHD Focus.'
 permalink: llmeon/30-library/100-zettelkasten/interest-pairing-can-increase-engagement-in-mundane-tasks-for-adhd
 source: '[[MOC - ADHD Experiments & Protocols]]'
 status: draft
 tags: [experiment, hypothesis, interest-pairing, TheHuman/Health/ADHD, TheHuman/Motivation, topic/productivity]
 title: Interest Pairing Can Increase Engagement in Mundane Tasks for ADHD
 type: hypothesis
-updated: null
 ---
 
 ## 1. The Hypothesis
@@ -45,9 +44,9 @@ updated: null
 
 Original Context:
 
-This technique leverages the interest-driven nature of the ADHD brain to boost motivation. It connects to the concept of Temptation Bundling in [[SoT - Habit Formation Framework#2. Mechanism: The Four Laws (Atomic Habits)|Temptation Bundling]].
+This technique leverages the interest-driven nature of the ADHD brain to boost motivation. It connects to the concept of Temptation Bundling in [[SoT - Habit Formation Framework#2. Mechanism: The Four Laws (Atomic Habits)|Temptation Bundling]], which uses the same pairing as its own example (only listen to a podcast while running).
 
-[extends:: [[The ADHD brain operates on an Interest-Based Nervous System]], strength=4, confidence=high]
+[extends:: [[SoT - The Interest-Based Nervous System in ADHD]], strength=4, confidence=high]
 
 [extends:: [[Dopamine Management in ADHD Productivity]], strength=4, confidence=high]
 
@@ -57,8 +56,11 @@ This technique leverages the interest-driven nature of the ADHD brain to boost m
 
 ## Related
 
-- [[The ADHD brain operates on an Interest-Based Nervous System]]—the general INCUP mechanism (Interest is one of the five "ignition keys"); this experiment applies the Interest key specifically by borrowing it from an unrelated stimulus rather than finding it in the task itself.
+- [[SoT - The Interest-Based Nervous System in ADHD]]—the general INCUP mechanism (Interest is one of the five "ignition keys"); this experiment applies the Interest key specifically by borrowing it from an unrelated stimulus rather than finding it in the task itself.
 - [[Dopamine Management in ADHD Productivity]]—the sibling tactic, "The Dopamine Sandwich," sequences a reward before/after the task; Interest Pairing instead runs the stimulus _concurrently_ with the task, a distinct variant of the same core principle.
+- [[Hyperfocus is a State of Intense Interest-Driven Focus in ADHD]]—the other end of the same mechanism: when interest is genuinely held, focus can be sustained, so a stable podcast or audiobook is a fair test of whether borrowed interest is enough.
+- [[ADHD Causes Task Initiation Deficits Due to Dopamine Hyposensitivity]]—the initiation problem this experiment targets; the hypothesis predicts that faster starting is the measurable effect.
+- [[Body Doubling for ADHD Focus]]—the other pending experiment in the same MOC, which also adds an external input to a task and so is worth comparing when both are logged.
 - [[Limbic Friction is the Activation Energy for Habits]]—supplies the vault's general term for the "activation energy" this hypothesis's own Because-clause invokes.
 - [[Finding Your Right Difficult A Strategy for ADHD Engagement]]—adjacent strategy: shaping the _task_ to be stimulating, rather than pairing it with an external stimulus.
 - [[Novelty Effect]]—a caution rather than a support: this experiment leans on sustained _Interest_ (a stable podcast/audiobook draw), not _Novelty_ (which reliably wanes); worth distinguishing if the effect fades after the 1-week trial.

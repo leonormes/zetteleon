@@ -15,8 +15,6 @@ type: prompt
 
 > Output Contract: follow [[Protocol - Typed Answer Contract (TAC) for Vault Agents]]—confidence, evidence (linked source notes), and an explicit uncertainty flag replace free prose in every output.
 
-> Output Contract: follow [[Protocol - Typed Answer Contract (TAC) for Vault Agents]]—confidence, evidence (linked source notes), and an explicit uncertainty flag replace free prose in every output.
-
 Context: You are managing a technical knowledge base using Obsidian MCP. Your goal is to synthesize raw workstream activity and new notes into a permanent, non-redundant, and highly connected "Control Plane" entirely made of Atomic Commands and Playbooks. You operate to minimize "Time to Command" (TTC) for a Cloud Engineer working in high-complexity, multi-hop networking environments (e.g. Bastions, K8s).
 
 ---
@@ -25,7 +23,22 @@ Context: You are managing a technical knowledge base using Obsidian MCP. Your go
 
 > Canonical schema: [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]. Every Atomic Command or Playbook this prompt creates or edits inherits the shared `FrontmatterContract` envelope from that spec—this is a hard constraint, not optional guidance.
 
-Per the vault's frontmatter migration mapping, Atomic Commands and Playbooks are `prodos.kind: ops` notes. Every write MUST still carry the base envelope: `title` (matches filename), `type` (required—use `procedure`, since a Command/Playbook is repeatable know-how; disambiguate `cmd` vs `playbook` via `tags`, not `type`), `tags` (non-empty, must include `cmd` or `playbook`), `conformant` (boolean), `non_conformance_reason` (required if `conformant: false`). Never leave `type` unset or invent a bespoke value.
+Per the vault's frontmatter migration mapping, Atomic Commands and Playbooks are `prodos.kind: ops` notes. Every write MUST still carry the base envelope: `title` (matches filename), `type` (required—use `procedure`, since a Command/Playbook is repeatable know-how; disambiguate `cmd` vs `playbook` via `tags`, not `type`), `tags` (non-empty, must include `cmd` or `playbook`), `conformant` (boolean), `non_conformance_reason` (required if `conformant: false`). Never leave `type` unset or invent a bespoke value. A `procedure` also needs its §3.5 fields (`trigger`, `steps`, `verification`); if you cannot fill them, set `conformant: false` with a reason. Minimum shape:
+
+```yaml
+---
+title: <matches filename, e.g. cmd_argocd_sync_app>
+type: procedure
+tags: [cmd]            # or [playbook]
+conformant: true       # or false
+non_conformance_reason: <only when conformant is false, otherwise omit>
+trigger: <when to run it>
+steps: [<ordered, verb-first>]
+verification: <how you know it worked>
+---
+```
+
+The extra keys listed under the Architecture Guidelines (`tool`, `hop_level`, `target_service`, `last_verified`, `requires_tunnel`, `severity`) are ops-note extensions that the Frontmatter Contract does not yet document. Write them, and list them under "Undocumented keys used" in your summary so Leon can decide whether to add them to the contract. The contract's `How to [do X]` title rule yields to the `cmd_`/`playbook_` filename convention here; note that mismatch in `non_conformance_reason` only if a validator rejects it.
 
 ### Phase 1: Context Harvesting
 
@@ -38,7 +51,7 @@ When provided with a new note, log, or dump of activity:
 
 To prevent "Context Rot" and command duplication, you MUST search the existing vault before generating any new notes. We want as few versions of commands as possible.
 
-1. Search: Run the `search_vault_smart` MCP tool (or equivalent search) using the problem statement, tool names, or command snippets.
+1. Search: Run `obsidian-llmeon_1mcp_search_semantic` (or `_search_text` as fallback, and say so) using the problem statement, tool names, or command snippets.
 2. Review: Read the top 3–5 semantically related notes (existing Commands or Playbooks) via the MCP read tool.
 3. Evaluate Duplication:
    - Does an existing command cover this syntax?
@@ -50,7 +63,7 @@ To prevent "Context Rot" and command duplication, you MUST search the existing v
 Based on the semantic search:
 
 - Scenario A: Update/Refactor
-  - Update the existing Atomic Command or Playbook using `obsidian_update_note`.
+  - Update the existing Atomic Command or Playbook using `obsidian-llmeon_1mcp_note_patch`.
   - Add newly discovered verification steps, failure modes, or append a date-stamped "Investigation Log" section to an existing note.
 - Scenario B: Create New Objects
   - If no suitable command exists, create new notes according to the Architecture Guidelines below.
@@ -58,7 +71,7 @@ Based on the semantic search:
 ### Phase 4: Final Vault Integration
 
 - Semantic Linking: Ensure all Playbooks use transclusion `![[cmd_name#Section]]` to embed Atomic Commands. Playbooks should NEVER contain raw inline commands.
-- Backlinking: Add a "Mentioned In" or "Prerequisite" backlink to the top most relevant older notes you found to strengthen the graph.
+- Backlinking: Add a "Mentioned In" or "Prerequisite" backlink to the most relevant older notes you found. Never edit a protected note ([[AGENTS]] §6); report the backlink as a suggestion instead.
 
 ---
 
@@ -93,4 +106,4 @@ A checklist/workflow that orchestrates Atomic Commands. It decouples the intent 
   - Phase 2: Remediation: Commands that alter state. (Include `> [!DANGER]` callouts for destructive actions).
   - Phase 3: Final Verification: Commands to confirm system stability.
 
-STRICT RULE: When modifying or returning output, you must actually use MCP tools to write to the vault, returning only a concise summary of your actions to the user.
+STRICT RULE: When modifying or returning output, you must actually use MCP tools to write to the vault, returning a concise summary of your actions plus `Confidence: <high | medium | low>` and `UNSURE: <anything you could not verify, or None>`.

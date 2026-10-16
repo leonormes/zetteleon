@@ -46,4 +46,3 @@ The source describes classical knowledge representation and reasoning (ontologie
 ### Related
 
 - [[SoT - Virtual Knowledge Graph Paradigm]]—supports: a knowledge-graph design is a knowledge representation that these criteria can judge
-- [[Ground New Agent Ontologies in Established Semantic Web Taxonomies Rather Than Building From Scratch]]—shared mechanism: reusing an established ontology is one route to acquisitional efficiency

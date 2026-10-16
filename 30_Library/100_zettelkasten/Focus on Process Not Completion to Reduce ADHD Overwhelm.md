@@ -2,7 +2,7 @@
 aliases: [Process Over Outcome, Time Commitment Success]
 created: 2025-10-30T15:17:49+00:00
 last_reviewed: '2025-10-30'
-modified: 2026-09-29T10:37:52+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/focus-on-process-not-completion-to-reduce-adhd-overwhelm
 status: seed
 tags: [reframing, TheHuman/Health/ADHD, TheHuman/Mindset, time-boxing]
@@ -21,3 +21,7 @@ Details: The thought of "completing" a large or vague task often triggers overwh
 >
 > - seedling → growing: has summary + details + at least 1 inbound link.
 > - growing → evergreen: has 2+ inbound links from structural notes, purpose set, confidence justified, 1–3 `see_also`.
+
+### Related
+
+- [[Rapid Feedback Loops are Essential for ADHD Motivation]]—*feedback keeps process focus rewarding.*

@@ -2,7 +2,7 @@
 created: 2026-04-13T14:47:45+00:00
 created_utc: '2026-04-13T11:30:00Z'
 kind: definition
-modified: 2026-09-29T10:37:55+00:00
+modified: 2026-10-15T00:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/oauth-2.0
 source_title: Every API Authentication Method Explained
 source_url: https://youtube.com/watch?v=_lTECv25N2U
@@ -34,3 +34,7 @@ The foundational framework for modern third-party integrations and API security.
 
 - [[SoT - Modern Authentication Standards]]—direct concept match: provides the canonical definition of OAuth 2.0 as an authorisation framework.
 - [[OpenID Connect (OIDC)]]—supports: OIDC adds the identity layer that OAuth 2.0 lacks.
+- [[Access Tokens]]—mechanism: the short-lived credential an OAuth 2.0 grant issues.
+- [[Refresh Tokens]]—mechanism: the long-lived credential exchanged for new access tokens.
+- [[Bearer Tokens]]—mechanism: the usage scheme by which access tokens are presented to an API.
+- [[API Keys]]—contrast: a static credential with no delegation or scoping.

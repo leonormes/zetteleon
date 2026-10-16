@@ -40,3 +40,27 @@ permalink: llmeon/book-fusion/sync-log
 - Theory and Reality-9256181 [Open](obsidian://open?file=BookFusion%2FBooks%2FTheory%20and%20Reality-9256181.md) 1
 ## 10/10/2026, 1:08:03 PM
 - Theory and Reality-9256181 [Open](obsidian://open?file=BookFusion%2FBooks%2FTheory%20and%20Reality-9256181.md) 0
+## 14/10/2026, 07:53:04
+- Theory and Reality-9256181 [Open](obsidian://open?file=BookFusion%2FBooks%2FTheory%20and%20Reality-9256181.md) 0
+## 10/12/2026, 11:11:35 PM
+- Theory and Reality-9256181 [Open](obsidian://open?file=BookFusion%2FBooks%2FTheory%20and%20Reality-9256181.md) 0
+## 10/13/2026, 2:41:48 AM
+- Theory and Reality-9256181 [Open](obsidian://open?file=BookFusion%2FBooks%2FTheory%20and%20Reality-9256181.md) 0
+## 10/13/2026, 3:11:50 AM
+- Theory and Reality-9256181 [Open](obsidian://open?file=BookFusion%2FBooks%2FTheory%20and%20Reality-9256181.md) 0
+## 10/13/2026, 5:42:00 AM
+- Theory and Reality-9256181 [Open](obsidian://open?file=BookFusion%2FBooks%2FTheory%20and%20Reality-9256181.md) 0
+## 10/13/2026, 6:12:02 AM
+- Theory and Reality-9256181 [Open](obsidian://open?file=BookFusion%2FBooks%2FTheory%20and%20Reality-9256181.md) 0
+## 10/13/2026, 6:42:04 AM
+- Theory and Reality-9256181 [Open](obsidian://open?file=BookFusion%2FBooks%2FTheory%20and%20Reality-9256181.md) 0
+## 10/13/2026, 11:13:03 PM
+- Theory and Reality-9256181 [Open](obsidian://open?file=BookFusion%2FBooks%2FTheory%20and%20Reality-9256181.md) 0
+## 10/14/2026, 3:13:19 AM
+- Theory and Reality-9256181 [Open](obsidian://open?file=BookFusion%2FBooks%2FTheory%20and%20Reality-9256181.md) 0
+## 10/14/2026, 3:43:21 AM
+- Theory and Reality-9256181 [Open](obsidian://open?file=BookFusion%2FBooks%2FTheory%20and%20Reality-9256181.md) 0
+## 15/10/2026, 12:44:36
+- Theory and Reality-9256181 [Open](obsidian://open?file=BookFusion%2FBooks%2FTheory%20and%20Reality-9256181.md) 0
+## 10/14/2026, 11:44:43 PM
+- Theory and Reality-9256181 [Open](obsidian://open?file=BookFusion%2FBooks%2FTheory%20and%20Reality-9256181.md) 0

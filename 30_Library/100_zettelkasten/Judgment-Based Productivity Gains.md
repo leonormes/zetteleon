@@ -32,5 +32,4 @@ Estimated at 5x–10x gains compared to manual implementation. This applies spec
 
 ### Related
 
-- [[Cheaper Code Production via Agents Increases Software Volume Rather Than Reducing Developers]]—supports: the productivity gains of seniors enable the handling of higher software volumes.
 - [[The Unit of Software Engineering Is Shifting from Code Lines to Intent Expressions]]—shared mechanism: moving from code construction to judgment-based validation.

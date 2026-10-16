@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T00:00:00+00:00
-modified: 2026-10-08T15:50:02+00:00
+modified: 2026-10-16T14:47:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-follow-through
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Follow-through
@@ -41,6 +41,7 @@ Follow-through is the dynamic reaction of the body and bow after release, showin
 - Actively dropping or swinging the bow out of the way too early alters the arrow's flight before it completely exits the bow.
 - A natural forward push happens due to the physical law of equal and opposite reactions. If the bow arm remains completely frozen upon release, it indicates anticipated shot and stopped momentum.
 - Having direction and purpose in the bow hand ensures that the force of the bow drives straight forward into the target.
+- Follow-Through as Continuation of the Anchor (Gemini capture, 2026-10-16, unverified): A clean release is the natural continuation of back tension with one change, the finger flexors relax. Because firm inward and upward pressure was kept on the jawline, the sudden loss of string weight sends the draw hand straight back along the jaw or neck toward the ear. See [[Archery Shot Process - Release]].
 
 ### Faults & Diagnostics
 
@@ -115,6 +116,7 @@ Follow-through is the dynamic reaction of the body and bow after release, showin
 - Top 10 Mistakes in Beginner Archery Classes (Online Archery Academy)
 - Total Archery - Inside the Archer (Kisik Lee & Tyler Benner)
 - KSL / NTS LAN2 drill summary (captured 2026-09-21; underlying source notes not named): LAN2-led neck-scratch check
+- Gemini chat on the anchor as rear sight and its role through release (captured 2026-10-16; cited sources not named, unverified)
 - Coach Jared Gracious (Rogue Archery TV), form analysis and biomechanics session (YouTube 5GdJtjQvkb8)
 - "Relaxed shot" vs weak shot video (YouTube jQ4wovCJipI; Gemini summary captured 2026-10-08; title and channel not recorded; mentions a peep sight and release aid, so it may be compound-oriented)
 

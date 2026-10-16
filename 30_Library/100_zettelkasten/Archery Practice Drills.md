@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-22T00:00:00+00:00
-modified: 2026-10-12T10:09:41+00:00
+modified: 2026-10-14T08:46:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-practice-drills
 tags: [archery, practice, prodos/atomic, training]
 title: Archery Practice Drills
@@ -17,7 +17,7 @@ A collection of mental frameworks, physical drills, and practice methodologies d
 ### Active Structured Plans
 
 - [[Archery Practice Plan - Peter's Protocol|Archery Practice Plan - Peter's Protocol]]: A structured 3-phase training program combining at-home resistance band practice, bow hold conditioning, blank-bale sessions with Peter, and a clear step-by-step summary of the 10-Step Shot Recipe.
-- [[Archery Year-One Coaching Framework (Months 5-12)]]: The current block plan. Use this library as a menu: pick one drill per block rather than working through all 31.
+- [[Archery Year-One Coaching Framework (Months 5-12)]]: The current block plan. Use this library as a menu: pick one drill per block rather than working through all 36.
 
 ### The Benchmark Phase
 
@@ -335,6 +335,40 @@ _(Note: This is a diagnostic drill detailed in the [[Archery Shot Process - Foll
 - How to do it: Rather than hyper-fixating on the 10-ring pinhole, soften your visual gaze and accept the sight pin floating within the broader "red zone" (the gold and inner-red scoring rings).
 - Why it works: Staring intensely at the centre locks the head and neck, tenses the bow-side trapezius, and prompts involuntary freezing or premature release. Softening the gaze allows the subconscious visual system to centre the aperture naturally whilst conscious attention remains dedicated to continuous back tension and skeletal alignment. Aiming alone never guarantees a good shot—an arrow hitting the gold does not validate poor biomechanics, nor should an errant wind deflection cause panic when physical execution was sound.
 
+#### 32. Accepting Temporary Score Drops (Movement Over Aiming)
+
+- The Goal: Overcome the fear of missing and rebuild dynamic shot timing by decoupling practice from score-keeping.
+- The Mindset: Commit to prioritising continuous movement over aiming precision during practice sessions. Accept wider groups and lower scores in the short term while the brain builds the subconscious motor pathways to aim and acquire the center faster.
+
+#### 33. Non-Scoring Dedicated Timing Sessions
+
+- The Goal: Eliminate score anxiety and cognitive doubt at distance.
+- How to do it: Dedicate entire training sessions at distance where a target face is pinned up purely as a visual reference. Shoot with a strict focus on continuous expansion and rhythm without scoring, plotting, or caring where the arrows land.
+
+#### 34. Close-Range Blank Bale vs. Target Face Diagnostic (Target Panic Screening)
+
+- The Goal: Objectively diagnose whether stalled shot timing is physical (poundage/alignment) or psychological (target panic/over-aiming).
+- How to do it:
+  1. Time your shot execution on a close-range blank bale (2–3 meters).
+  2. Time your shot execution shooting at a full-size target face at competition distance.
+  3. If timing is smooth and dynamic on the blank bale but stalls into a long hold on the target face, the root fault is target panic / over-aiming, not insufficient back strength or excessive draw weight.
+
+#### 35. Split-Boss Alternating Drill (Transferring Blank Bale Fluidity)
+
+- The Goal: Directly bridge the fluid, confident shot timing of blank bale practice onto a target face.
+- How to do it:
+  1. At distance (e.g. 30 metres), pin a target face onto one half of the foam boss, leaving the adjacent half completely blank.
+  2. Alternate every shot: shoot one arrow into the blank side (focusing entirely on uninterrupted elbow movement), followed immediately by one arrow into the target face.
+  3. Strive to replicate the exact tempo, feel, and uninterrupted timing of the blank shot when shooting at the face.
+
+#### 36. Metronome Rhythmic Cadence Drill
+
+- The Goal: Standardise shot timing and systematically eliminate excessive hold durations.
+- How to do it:
+  1. Set an audible metronome or phone app to 60 BPM (one tick per second).
+  2. Establish a target count from the start of the draw to release (e.g. a strict 3, 4, or 5-second cadence).
+  3. Shoot in synchronisation with the metronome ticks, training the subconscious to expand dynamically and break the shot within that rhythmic window rather than letting holds drift.
+
 ---
 
-- Reference: Insights compiled from Kramer Ammons ("9 Archery Drills To Hack The Mind"), MFJJ (ElkShape) blind baling and homework routines, Rogue Archery TV ("feelings", mastery framework, "20:40 SPT | Guided Bow Fitness Drill", and Coach Jared Gracious form analysis/biomechanics session [YouTube 5GdJtjQvkb8]), CatholicHack's Traditional Archery (3D hyper-focus trick), Online Archery Academy (bow fitness, 30-minute static hold routine, training plans, 600+ score benchmarks), Matt Hartsky (5-exercise resistance band shoulder conditioning circuit), Clay Hayes (process over result), Jake Kaminski (aiming experiments, movements vs. muscles, co-contraction prevention, "Archery Holding SPT" conditioning, "The Self Coaching Mistake", and 50m traditional recurve psycho-trigger mental management), The Push Archery (Solid Archery Mechanics: An Excerpt - motor learning, verbal cues), NUSensei (Archery | Rushed Shot Processes - Slow Down!), and generalized target panic/practice philosophy guidelines.
+- Reference: Insights compiled from Kramer Ammons ("9 Archery Drills To Hack The Mind"), MFJJ (ElkShape) blind baling and homework routines, Rogue Archery TV ("feelings", mastery framework, "20:40 SPT | Guided Bow Fitness Drill", and Coach Jared Gracious form analysis/biomechanics session [YouTube 5GdJtjQvkb8]), CatholicHack's Traditional Archery (3D hyper-focus trick), Online Archery Academy (bow fitness, 30-minute static hold routine, training plans, 600+ score benchmarks, and "Why Your Shot Timing is Inconsistent [and how to fix it]" [YouTube Rw5CdSfc_rY]), Matt Hartsky (5-exercise resistance band shoulder conditioning circuit), Clay Hayes (process over result), Jake Kaminski (aiming experiments, movements vs. muscles, co-contraction prevention, "Archery Holding SPT" conditioning, "The Self Coaching Mistake", and 50m traditional recurve psycho-trigger mental management), The Push Archery (Solid Archery Mechanics: An Excerpt - motor learning, verbal cues), NUSensei (Archery | Rushed Shot Processes - Slow Down!), and generalized target panic/practice philosophy guidelines.

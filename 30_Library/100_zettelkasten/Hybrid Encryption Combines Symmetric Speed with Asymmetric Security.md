@@ -2,7 +2,7 @@
 aliases: [Hybrid Encryption, Session Keys]
 conformant: false
 created: 2025-12-24T12:00:00+00:00
-modified: 2026-09-29T10:37:53+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/hybrid-encryption-combines-symmetric-speed-with-asymmetric-security
 tags: [cryptography, infrastructure]
@@ -24,3 +24,7 @@ In the real world, we rarely use RSA or ECC to encrypt large amounts of data. As
 - Symmetric Layer: Provides massive speed and the ability to process gigabytes of data with minimal CPU overhead.
 
 This architecture is the foundation of HTTPS (TLS), SSH, and PGP.
+
+### Related
+
+- [[Trapdoor Functions Are the Foundation of Public-Key Cryptography]]—*the asymmetric primitive being combined.*

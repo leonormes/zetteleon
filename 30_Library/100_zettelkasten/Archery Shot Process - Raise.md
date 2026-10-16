@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T00:00:00+00:00
-modified: 2026-10-08T14:30:00+01:00
+modified: 2026-10-14T08:46:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-raise
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Raise
@@ -29,8 +29,8 @@ Raise is the act of lifting the bow to eye level while seating the bow-side shou
    - _Purpose:_ A position set before the load arrives stays set. A position hunted for under load is fought with muscle. Taken from a video summary; the mechanism is partly inferred.
 6. Reach—at the top of the raise, extend the base of the bow wrist/hand as far as possible directly toward the target. Focus on the movement of reaching; this automatically forces the shoulder down, fires the lats and triceps, and wraps tension around the arm down to the wrist (do not overthink flexing individual muscles).
    - _Purpose:_ Reaching is a movement cue, not a muscle cue. It sets the shoulder down and fires the right stabilisers as a side effect, whereas consciously flexing specific muscles creates opposing tension.
-7. Apex Breath & Settle—as you reach the apex of the lift, breathe out and settle downward slightly into your final Set-Up position to relax and stabilize the shoulders.
-   - _Purpose:_ Settling at the top relaxes and stabilises the shoulders before the draw begins, so you start pulling from a calm, low position.
+7. Apex Breath & Settle (Early Sight Acquisition)—as you reach the apex of the lift, breathe out and settle downward slightly into your final Set-Up position to relax and stabilize the shoulders. Position the sight closer to the middle early in the shot cycle, aiming to have the sight pin sitting high-right on the target face by the time you reach the set-up position.
+   - _Purpose:_ Settling at the top relaxes and stabilises the shoulders before the draw begins. Early sight acquisition high-right establishes a predictable approach path, preventing the archer from stalling draw movement later to relocate the sight.
 8. Hold the reach—maintain that reaching tension continuously while pulling the string back.
    - _Purpose:_ Continuous reach keeps the set shoulder from yielding as the draw weight arrives. Inferred from the tension-bias principle.
 
@@ -95,6 +95,7 @@ Stand facing forward with relaxed arms, look toward the target, and simply raise
 - Coach Jared Gracious (Rogue Archery TV), form analysis and biomechanics session (YouTube 5GdJtjQvkb8)
 - Front-elbow lockout video (YouTube rOPvPrnGkS0; Gemini summary captured 2026-10-08; title and channel not recorded)
 - "Relaxed shot" vs weak shot video (YouTube jQ4wovCJipI; Gemini summary captured 2026-10-08; title and channel not recorded; mentions a peep sight and release aid, so it may be compound-oriented)
+- Online Archery Academy, ["Why Your Shot Timing is Inconsistent (and how to fix it)"](http://www.youtube.com/watch?v=Rw5CdSfc_rY) (early sight acquisition at set-up)
 
 ---
 

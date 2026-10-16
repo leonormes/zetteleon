@@ -2,7 +2,7 @@
 aliases: [Information Deficit Model]
 conformant: false
 created: 2025-11-10T17:03:00+00:00
-modified: 2026-09-29T10:37:59+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/the-information-deficit-model-is-a-fallacy
 tags: [behavior-change, fallacy, TheHuman/Psychology]
@@ -17,3 +17,7 @@ Summary: The "information deficit model"—the assumption that providing people 
 Details: Behavioral science shows that knowledge and awareness alone are insufficient to cause behavior change. While information is necessary, it does not automatically bridge the intention-action gap. Interventions that focus on context, environmental cues, reducing friction, and implementation planning are far more effective than those that simply provide more information.
 
 Conditions for Action: While information alone is insufficient, two conditions that do promote action based on knowledge are a high level of certainty (confidence in the knowledge) and a strong sense of urgency (immediacy of consequences).
+
+### Related
+
+- [[Learning is the Acquisition of Information While Understanding is the Construction of Meaning]]—*the information-versus-meaning distinction.*

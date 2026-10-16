@@ -5,7 +5,7 @@ created: 2026-09-14T15:26:02+00:00
 created_utc: '2026-09-14T00:00:00Z'
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-29T10:37:49+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/catharsis-theory-is-false-venting-anger-rehearses-and-reinforces-aggressive-pathways-rather-than-resolving-them
 prodos.kind: atomic
 prodos.lifecycle: seed
@@ -38,3 +38,4 @@ Debunks a widespread pop-psychology myth; aligns with established neuroscientifi
 ### Related
 
 - [[Anger Is a Cognitive Interpretation of Injustice, Not an Automatic Physical Reaction]]—extends: if anger is cognitive in origin, venting addresses the physical expression, not the interpretation that generated it.
+- [[Whether Anger Can Be Virtuous Is a Genuinely Contested Philosophical Split, Not Settled Science]]—*the philosophical debate over whether any anger is worth expressing.*

@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-06-22T17:43:30+00:00
 last_reviewed: ''
-modified: 2026-09-29T10:37:50+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/distorted-negative-self-image
 see_also: []
 superseded_by: ''
@@ -22,3 +22,7 @@ Without consistent, clear feedback, Bessie is left to interpret her performance,
 A combination of perceived underachievement and heightened sensitivity to criticism often leads to a "distorted negative self-image". It's like looking at yourself in a "house of mirrors," only seeing failures and shortcomings, and being "all but blind to the upside, which is typically considerable". This internal struggle fosters deep shame, causing individuals to hold back from opportunities and relationships out of fear and misunderstanding. One patient even called ADHD "attention deficit distorter" because of how it "distorts so many perceptions of reality".
 
 [[MoC - The Roots of Shame and Feeling Defective]]
+
+### Related
+
+- [[Self-Esteem and Identity]]—*the identity side of a distorted self-view.*

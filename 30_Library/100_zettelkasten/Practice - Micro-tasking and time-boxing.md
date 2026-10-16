@@ -2,7 +2,7 @@
 aliases: [Micro-tasking and Timeboxing, Pomodoro Workflow]
 conformant: true
 created: 2026-05-31T00:00:00+00:00
-modified: 2026-09-29T10:37:56+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/practice-micro-tasking-and-time-boxing
 prodos.kind: atomic
 prodos.lifecycle: active
@@ -38,3 +38,4 @@ Micro-step Formulation: Take the task you are avoiding and write down only its f
 - Pairs with [[Practice - Deferred low-pressure review]].
 - A structural workaround for impaired [[Executive Function]] (specifically targeting task initiation and sustained attention).
 - See [[MOC - Why Task Initiation is Difficult in ADHD]] for the root causes of the paralysis this procedure solves.
+- [[Theming Days for ADHD Focus]]—*a higher-level structure over the same timeboxes.*

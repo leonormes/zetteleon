@@ -2,7 +2,7 @@
 aliases: [Regularly Review Your Routines]
 created: 2025-10-29T16:10:00+00:00
 last_reviewed: ''
-modified: 2026-09-29T10:37:57+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/routines-must-be-reviewed-and-adjusted-regularly
 status: seed
 tags: [adaptability, continuous-improvement, routine]
@@ -14,3 +14,7 @@ updated: null
 A routine is not a static object to be created once and followed forever. It is a living system that must be regularly reviewed and adjusted to remain effective as life circumstances, energy levels, and priorities change.
 
 Set aside time for a routine review on a recurring basis, such as monthly or seasonally. This is an opportunity to assess what is working and what is not, and to make intentional tweaks. This iterative process of refinement ensures that the routine continues to serve its purpose as a supportive structure, rather than becoming a source of friction or a rigid set of rules that no longer fit.
+
+### Related
+
+- [[Unrealistic expectations are the main obstacle to building ADHD routines]]—*a frequent reason review is needed.*

@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-12T09:41:52+00:00
 last_reviewed: ''
-modified: 2026-09-29T10:37:55+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/parable-of-the-bitter-spring
 tags: []
 title: Parable of the Bitter Spring
@@ -43,3 +43,7 @@ Heightened Stakes & Sensory Language: Adding words like "massive hearths blazing
 The Trap of "Busywork": By framing their exhaustion as a "badge of honour," it highlights a common human flaw: we often confuse hard work with meaningful work. The elders' dialogue reinforces this institutional blindness.
 
 A Tighter Conclusion: The ending is streamlined so the realisation hits the villagers—and the reader—all at once. The teacher's final moral is trimmed down to be punchier and more memorable.
+
+### Related
+
+- [[Aesop's Fables Use Anthropomorphic Allegory]]—*another teaching story that works by allegory.*

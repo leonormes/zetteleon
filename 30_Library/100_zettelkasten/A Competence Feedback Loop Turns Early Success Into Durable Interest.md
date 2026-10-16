@@ -5,7 +5,7 @@ created: 2026-09-14T11:40:43+00:00
 created_utc: '2026-09-14T00:00:00Z'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-29T10:37:46+00:00
+modified: 2026-10-16T00:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/a-competence-feedback-loop-turns-early-success-into-durable-interest
 proposition: A small early success in a domain creates a self-reinforcing loop of perceived capability, willingness to engage, practice, and further success, so two people of similar underlying ability can end up with radically different relationships to the same subject depending on when and how that loop started.
 source_title: "What Drives a Person's Interests? Why Do Some People Love Maths and Logic and Others Not? Why Do Interests Come in Related Bundles?"
@@ -38,4 +38,12 @@ Illustrated in the source with mathematics specifically; the loop is disrupted b
 
 - [[SoT - Illusion of Explanatory Depth (IoED)]]—shared mechanism: describes the same dopamine-driven "Ah-ha!" competence-signalling loop, specifically its failure mode in ADHD where the loop closes prematurely on familiarity rather than real competence.
 - [[Dopamine Neurons Encode Reward Prediction Error, Not Pleasure]]—shared mechanism: the neural basis for why an early, well-timed success ("prediction error" resolved favourably) reinforces continued engagement.
-- [[A Portable Interest and PKM Knowledge Graph]]—extends: a concrete mechanism candidate for the `may-satisfy` edge from "rapid feedback" affordances to a competence driver.
+- [[A Portable Interest and PKM Knowledge Graph]]—extends: a concrete mechanism candidate for the `may-satisfy` edge from "rapid feedback" affordances to a competence driver. [extends:: [[A Portable Interest and PKM Knowledge Graph]], confidence=medium]
+- [[Enduring Interest Emerges From a Multi-Factor Feedback Loop, Not a Single Trait]]—_This loop is one factor in that wider multi-factor loop._ [supports:: [[Enduring Interest Emerges From a Multi-Factor Feedback Loop, Not a Single Trait]], confidence=medium]
+- [[Self-Efficacy and Outcome Expectations Jointly Predict Durable Interest]]—_The belief side of the loop: "I can do this" is self-efficacy._
+- [[Autonomy, Competence, and Relatedness Make an Interest Self-Sustaining]]—_Competence is one of the three needs; this loop is a route to meeting it._
+- [[Interest Bundles Form Through Five Distinct Mechanisms]]—_Places the loop among the mechanisms that group interests._
+- [[Loving a Subject Decomposes Into Distinct Reward Types, Not One Preference]]—_Treats this loop as one route into a subject; that note already extends this one._
+- [[Evidence - Bandura and Schunk Chunked Maths Goals Raised Childrens Progress and Interest]]—_Closely related evidence: small achievable goals raised progress and interest._
+- [[Rapid Feedback Loops are Essential for ADHD Motivation]]—_The ADHD-specific case of quick feedback sustaining engagement._
+- [[Claim - Cognitive strain is the mechanism for competence building but a pure cost for output generation]]—_Competence grows through effortful practice, which the loop assumes._

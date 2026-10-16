@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-10-31T11:06:00+00:00
-modified: 2026-09-29T10:37:50+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/dns-protocol-uses-udp-and-tcp-for-message-transport
 tags: [protocols, SoftwareEngineering/Networking, SoftwareEngineering/networking/dns]
@@ -31,3 +31,8 @@ EDNS (Extension Mechanisms):
 - Allows larger UDP payloads
 - Additional flags and options
 - Backward compatible
+
+### Related
+
+- [[Concept - UDP vs TCP]]—*the trade-offs between the two transports.*
+- [[DNS Zone Transfers Synchronize Using SOA Records]]—*a case where TCP is used.*

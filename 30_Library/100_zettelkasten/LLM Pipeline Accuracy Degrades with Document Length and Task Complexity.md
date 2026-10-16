@@ -4,7 +4,7 @@ contradicts: []
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-29T10:37:54+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/llm-pipeline-accuracy-degrades-with-document-length-and-task-complexity
 proposition: Naive LLM pipelines that apply a fixed prompt across documents fail as document length and task complexity increase. Transformers hallucinate details in long contexts and omit buried information. Aggregation of multiple extractions fails silently when the same entity is represented inconsistently across outputs.
 tags: [domain/llm, topic/context-management, topic/data-processing, topic/pipelines, topic/reliability]
@@ -42,15 +42,14 @@ Example: "if an LLM extracts 'Officer Smith,' 'J. Smith,' and 'Sergeant James Sm
 
 ### Related
 
-- [[Context Window Limits Force Iterative Task Decomposition]]—related: context is one cause of the failure.
 - [[LLM Hallucinations Arise from Probabilistic Prediction Without External Grounding]]—consequence: hallucinations emerge in long contexts.
 - [[Entity Canonicalization via LLM-Guided Resolution]]—solution: formalized entity matching prevents aggregation failures.
 - [[DocETL Framework - Declarative Pipelines with Agentic Optimization]]—solution: structured decomposition solves both problems.
+- [[Single-Pass LLMs Lose State on Multi-Step Reasoning and Large-Scale Aggregation Tasks]]—*the underlying single-pass state-loss that explains the accuracy degradation.*
 
 ### See Also
 
 - [[SoT - LLM Pipeline Architecture]]
 
-[depends_on:: [[Context Window Limits Force Iterative Task Decomposition]], strength=4, confidence=high]
 
 [depends_on:: [[LLM Hallucinations Arise from Probabilistic Prediction Without External Grounding]], strength=4, confidence=high]

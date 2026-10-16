@@ -2,7 +2,7 @@
 aliases: [Calendar Architecture, Self-Expression Scheduling]
 created: 2025-10-30T15:07:41+00:00
 last_reviewed: '2025-10-30'
-modified: 2026-09-29T10:37:56+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/proactive-schedule-design-protects-creative-time-from-reactive-demands
 status: seed
 tags: [calendar-design, deep-work, scheduling, time-management]
@@ -21,3 +21,7 @@ Details: The default approach to calendar management is reactive—accepting mee
 >
 > - seedling → growing: has summary + details + at least 1 inbound link.
 > - growing → evergreen: has 2+ inbound links from structural notes, purpose set, confidence justified, 1–3 `see_also`.
+
+### Related
+
+- [[Day Theming is a Macro Time Blocking Strategy]]—*one way to protect creative time.*

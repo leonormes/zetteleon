@@ -2,7 +2,7 @@
 aliases: [Cognitive Distance]
 conformant: false
 created: 2025-11-06T20:00:02+00:00
-modified: 2026-09-29T10:38:01+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/writing-creates-cognitive-distance-for-objective-evaluation
 tags: [self-reflection, TheHuman/Cognition/bias, thinking, writing]
@@ -15,3 +15,7 @@ type: claim
 Summary: Writing creates psychological or "cognitive" distance between you and your thoughts, enabling more objective evaluation and reducing emotional bias.
 
 Details: Thoughts inside your mind exist in an echo chamber, free from external scrutiny. When you write them down, you can view them as an external artifact. This separation allows you to analyze them with greater clarity, much like you would analyze the words of another person. This process is crucial for identifying personal biases and assessing the true validity of an idea, rather than just its emotional weight.
+
+### Related
+
+- [[Writing isolates propositional content from phenomenological experience]]—*how that distance arises.*

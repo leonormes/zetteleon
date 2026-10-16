@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-10-29T16:38:00+00:00
-modified: 2026-09-29T10:37:47+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/adhd-causes-sustained-attention-deficits-requiring-higher-cortical-activation
 source: "[[MOC - The Phases of Task Execution and the Impact of ADHD]]"
@@ -12,3 +12,7 @@ type: claim
 ---
 
 Individuals with ADHD exhibit significant deficits in sustained, selective, and divided attention. They often have lower resting-state arousal but require greater and more continuous cortical activation than neurotypical individuals to maintain attention during a task. This is compounded by reduced activation in key striato-thalamic and prefrontal regions and difficulty deactivating the default mode network.
+
+### Related
+
+- [[ADHD Causes Deficits in Completing Long-Term Projects]]—*the consequence over long projects.*

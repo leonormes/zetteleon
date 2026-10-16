@@ -33,4 +33,3 @@ Critical for interaction with agentic LLMs where context window management direc
 ### Related
 
 - [[SoT - The RPI Workflow (Context Engineering)]]—direct concept match: context curation is the foundational discipline of the RPI workflow.
-- [[Architecture First Approach to AI Development]]—supports: upfront documentation provides the high-density context required for precision.

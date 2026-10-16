@@ -1,9 +1,10 @@
 ---
 conformant: false
 created: 2026-05-02T19:33:05+00:00
-modified: 2026-09-29T10:38:00+00:00
+modified: 2026-10-15T09:02:24+00:00
 non_conformance_reason: "Bulk inferred type. Needs review."
 permalink: llmeon/30-library/100-zettelkasten/the-preconditions-for-purpose
+tags: [philosophy, purpose, teleology]
 title: The Preconditions for Purpose
 type: concept
 ---
@@ -67,4 +68,6 @@ Looking at our four categories from the last discussion:
 
 ## Related
 
-- [[SoT - Metaphysics of Purpose]] - Explores the necessary preconditions for purpose to exist in reality.
+- [[SoT - Metaphysics of Purpose]] - Explores the necessary preconditions for purpose to exist in reality. [supports:: [[SoT - Metaphysics of Purpose]], confidence=medium]
+- [[Frankl and Camus Both Confront Absurdity But Diverge on Whether Meaning Is Discoverable]] - *Develops the Camus and Frankl positions on the regress problem sketched in section 5.*
+- [[Spirituality is Having Beliefs About the Higher Purpose of Life]] - *Covers the theist terminus of the "why" chain as a character strength.*

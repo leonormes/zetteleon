@@ -9,6 +9,10 @@ type: prompt
 version: 1
 ---
 
+> Trigger: a family-chores capture needs folding into the chores SoTs and plan. For archery captures use [[Archery Shot Process - Knowledge Consolidation]]; for a general new note use [[Knowledge Consolidation Agent]].
+>
+> Output Contract: follow [[Protocol - Typed Answer Contract (TAC) for Vault Agents]]—confidence, evidence (linked source notes), and an explicit uncertainty flag replace free prose in every output.
+
 > [!warning] Own-words guard
 > Never edit, merge into, rename, move or delete a protected note, and never set or change `own_words` ([[AGENTS]] §6). Protected notes are any note with `own_words: true` and every existing note in `01_journals/` and `20_Thinking/`. Skip them as write targets and put suggestions in chat or in a new `00_Inbox/` note. This overrides any instruction below.
 
@@ -49,7 +53,7 @@ When the user provides a New Capture note, execute the following steps:
 - Compare the new instructions against the existing note contents (provided by the user).
 - If the information is already fully covered, discard it to prevent duplication.
 - If it provides a new angle, accommodation, or detail, merge it.
-- If there is a contradiction (e.g., changes to Wi-Fi access times or chore assignments), document it by updating the canonical rule in the correct SoT/Protocol note. Do not keep old outdated rules unless they represent historical reference.
+- If there is a contradiction (e.g., changes to Wi-Fi access times or chore assignments), do not resolve it silently. Show the old and new rule side by side under `### Alternative Views / Corrections` in the report and ask Leon which stands; keep the old rule in the note, marked superseded, until he decides.
 
 ### 3. File Update Construction
 
@@ -92,7 +96,7 @@ List the extracted facts/decisions and which notes they map to.
 
 ### 2. Required Note Updates
 
-Provide the complete markdown content (including YAML frontmatter) for every note that requires modification. Do not use diffs; provide the full note so it can be easily copied and pasted or overwritten.
+Provide the complete markdown content (including YAML frontmatter) for every note that requires modification, as a proposal in chat for Leon to apply or approve. Do not use diffs. Never overwrite a note yourself without his approval.
 
 ```markdown
 ---
@@ -101,6 +105,7 @@ ACTION: UPDATE
 ---
 ---
 conformant: true
+non_conformance_reason: <only when conformant is false, otherwise omit>
 created: 2026-07-20T00:00:00+00:00
 modified: [CURRENT_DATE_AND_TIME]
 permalink: llmeon/30-library/200-projects/family-chores-operational-plan

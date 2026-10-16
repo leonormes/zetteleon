@@ -2,7 +2,7 @@
 aliases: [Arithmetic]
 created: 2025-11-01T11:22:13+00:00
 last_reviewed: '2025-11-01T00:00:00.000Z'
-modified: 2026-09-29T10:37:48+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/arithmetic-definition
 status: seed
 tags: [fields, topic/maths]
@@ -16,3 +16,8 @@ Definition: Arithmetic is the branch of mathematics concerned with the propertie
 Foundational Pattern: Arithmetic emerges from the discrete, ordered sequence of counting—one thing, then another, then another—giving rise to the structure of natural numbers ℕ = {0, 1, 2,…} with the successor operation.
 
 Core Operations: The fundamental operations (addition, multiplication) and their inverses (subtraction, division) define arithmetic's basic computational toolkit.
+
+### Related
+
+- [[Number Theory (Definition)]]—*the deeper study of the integers arithmetic works on.*
+- [[Fundamental Theorem of Arithmetic Guarantees Unique Prime Products]]—*a foundational result about arithmetic on the integers.*

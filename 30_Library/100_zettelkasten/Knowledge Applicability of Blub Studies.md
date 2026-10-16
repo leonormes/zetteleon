@@ -1,14 +1,18 @@
 ---
 aliases: []
+conformant: true
+contradicts: []
 created: 2025-02-07T12:57:54+00:00
+epistemic_status: medium
+evidence_links: []
 ID: knowledge_applicability
-last_reviewed: 'null'
-modified: 2026-09-29T10:37:53+00:00
+modified: 2026-10-13T00:00:00+00:00
+non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/knowledge-applicability-of-blub-studies
+proposition: Although blub studies focus on specific systems, the underlying principles learned are often generalisable to other parts of the stack and to different technologies
 tags: [topic/learning]
 title: Knowledge Applicability of Blub Studies
-type: permanent
-updated: null
+type: claim
 ---
 
 Even though blub studies focus on specific systems, the underlying principles learned are often generalizable and applicable to other parts of the stack or even different technologies.
@@ -16,3 +20,9 @@ Even though blub studies focus on specific systems, the underlying principles le
 Context: Argues against the perception that blub studies is too specific to be broadly useful.
 
 [[Blub Studies]]
+
+## Related
+
+- [[Mundane Tools Value]]—_The wider claim this answers an objection to: mastering familiar tools is worth the effort._
+- [[Leaky Abstractions]]—_A mechanism for the transfer: what you learn beneath one abstraction applies wherever the same underlying layer shows through._
+- [[SoT - Mechanical Sympathy]]—_The general habit of understanding the machine that this knowledge builds._

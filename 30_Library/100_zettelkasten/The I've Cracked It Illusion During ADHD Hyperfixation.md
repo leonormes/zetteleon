@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-11-01T11:37:53+00:00
-modified: 2026-09-29T10:37:59+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/the-ive-cracked-it-illusion-during-adhd-hyperfixation
 tags: []
@@ -48,3 +48,7 @@ Over time, recognizing this pattern can help individuals:
 - Delay major commitments until interest sustains past the initial wave
 - Set trial periods before large investments
 - Distinguish between neurochemical excitement and sustainable interest
+
+### Related
+
+- [[Hyperfixation Causes Mental Exhaustion and Burnout]]—*a related hazard of hyperfixation.*

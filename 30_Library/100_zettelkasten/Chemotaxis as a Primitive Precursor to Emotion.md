@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-20T10:03:00+00:00
 last_reviewed: ''
-modified: 2026-09-29T10:37:49+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/chemotaxis-as-a-primitive-precursor-to-emotion
 tags: [biology, emotion, evolution, topic/systems]
 title: Chemotaxis as a Primitive Precursor to Emotion
@@ -23,3 +23,7 @@ Chemotaxis in a bacterium follows the exact same logic:
 This purely biochemical sense-evaluate-actuate loop is the ancient, foundational logic upon which the far more complex, neurologically rich system of emotions was built over hundreds of millions of years of evolution. It is the most basic form of a system that links perception to survival-oriented action.
 
 ---
+
+### Related
+
+- [[Neuroplasticity is the Brain's Ability to Change in Response to Experience]]—*emotion's later biological elaboration.*

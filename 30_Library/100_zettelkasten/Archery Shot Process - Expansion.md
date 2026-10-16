@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-10-07T12:28:00+01:00
+modified: 2026-10-16T14:45:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-expansion
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Expansion
@@ -32,8 +32,8 @@ Expansion is the continuation of dynamic tension throughout the shot process, ma
    - _Purpose:_ Aiming consistency and focus fall off rapidly after about four seconds, and a long hold degrades vision, depletes oxygen and invites doubt. Under a second tends to be sloppy, so consistency of timing matters more than the exact figure. Breathing during expansion changes chest volume and moves the sight off the target.
 6. Clicker Execution (Alignment Optimisation, Not Hand Pulling): To pull the final millimeters through the clicker, squeeze your draw elbow around your back/body. Expansion is moving from 99.5% alignment to 100% alignment using continuous, subtle scapular retraction; it is never the act of dragging or sliding the drawing hand backward along the face.
    - _Purpose:_ Back tension is coordinated motion of the scapular retractors, not a static contraction that causes co-contraction, freezing and upper-trap strain. Dragging the hand back along the face moves the wrong thing and spoils the anchor.
-7. Expansion Mindset: Squeeze the draw elbow around the spine throughout the click, release, and follow-through. Continue this action until the arrow strikes the target.
-   - _Purpose:_ A strong, continuing elbow pulls firmly into the face and prevents early collapse. Focusing solely on how you are expanding also blocks out negative thoughts about getting to full draw.
+7. Expansion Mindset (Uninterrupted Rotational Movement): Squeeze the draw elbow around the spine throughout the click, release, and follow-through, maintaining continuous rotational movement around the body at all costs. Never pause at anchor to deliberately acquire or confirm aim before initiating expansion; trust the visual system to adapt and bring the sight onto the gold to match dynamic shot rhythm. Continue this action until the arrow strikes the target.
+   - _Purpose:_ A strong, continuing elbow pulls firmly into the face, prevents early collapse, and avoids the hesitation of over-aiming. Focusing solely on how you are expanding blocks out negative thoughts about getting to full draw.
 
 ### Why It Works
 
@@ -69,6 +69,9 @@ Expansion is the continuation of dynamic tension throughout the shot process, ma
 - Rushing (Lack of Back Tension): Back tension takes a moment to initiate and consolidate. Rushed archers pull the string back and instantly let go using only arm and finger muscles. This causes a weak release, lateral spread, and forward collapsing (especially as draw weight increases or a clicker is added).
 - Losing Front-Arm Internal Rotation: Attempting to expand by actively pushing the front arm forward causes the elbow to turn upward, breaking internal rotation and collapsing the bow shoulder structure.
 - Over-Timing the Expansion Window: Holding at anchor and struggling to expand past 5 seconds drastically decreases the probability of shooting a 10. The optimal expansion window is 2 to 3 seconds; if the shot stalls past 5 seconds, let down rather than forcing a fatigued, compromised execution.
+- **Subconsciously Prioritizing Aim Over Movement:** Getting to anchor, pausing to acquire or confirm the aim, and only then attempting to restart expansion out of fear that continuous motion will cause the shot to break before the sight is centered on gold. This creates a static freeze and destroys dynamic shot rhythm.
+- **Draw Elbow Collapse During Expansion:** Allowing the draw elbow to stall or creep forward toward the target after hitting anchor rather than continuing its arc around the body, resulting in a prolonged hold (5+ seconds) and a struggle to pull through the clicker.
+- **Under-Drawn Arm Pull Drags the Anchor (Gemini capture, 2026-10-16, unverified):** Settling into full draw with too much left to expand forces a linear arm pull (biceps and forearm) rather than an internal back-driven movement, and the hand drags across the face. Finish the transfer into back tension before the final movement so only a micro-movement remains.
 
 ### Training Drills
 
@@ -117,12 +120,38 @@ Expansion is the continuation of dynamic tension throughout the shot process, ma
   2. Perform your normal shot cycle. Have a coach mark where the arrow point sits right before expansion.
   3. Do this 3-6 times per session, across 3 separate non-consecutive days, to find your true average draw length. Adjust your clicker to this mark.
 
+#### Expansion Without a Clicker (Gemini capture, 2026-10-16, unverified)
+
+- Purpose: Gives the clickerless archer a feel-based version of expansion, so the habit is in place before a clicker is added.
+- How to do it:
+  1. At anchor, transfer the bow's weight into the back muscles ("transfer to hold"). It should *feel* like a light increase of back tension, not a visibly longer draw.
+  2. Resist the bow's spring and keep the "top pyramid" (bow arm plus both shoulders) intact.
+  3. Keep adding back tension while the anchor contact stays locked, with no sliding of the string on chin, face or chest.
+  4. Let the fingers relax and the string slip away without knowing the exact moment (see [[Archery Shot Process - Release]]).
+- Note: The source advises delaying a clicker until stance, draw length, scapular control and release are consistent, since a faulty release is hard to fix once a clicker is added.
+
+#### Eyes-Closed Alignment Check (Gemini capture, 2026-10-16, unverified)
+
+- Purpose: Tests that expansion effort stays in line and does not pull the anchor or twist the upper body.
+- How to do it:
+  1. Put a vertical strip of tape down the centre of the target butt.
+  2. Draw with the sight on the tape, close your eyes, and squeeze the draw-side shoulder blade towards the spine for at least three seconds.
+  3. Open your eyes. If the sight is still on the tape, the effort is staying in line.
+
 #### Clickerless Shooting Drill
 
 - Purpose: Prevents adapting your technique to a static clicker position.
 - How to do it:
   1. Shoot without a clicker regularly to see where your natural draw length falls.
   2. Always adjust the clicker to match your body's natural expansion, not the other way around. Note: Don't be afraid to adjust your clicker by 2-3mm when shooting longer distances (e.g., 70m), as the higher bow angle can slightly alter your natural draw length.
+
+#### Rear-Angle Video Feedback Drill
+
+- Purpose: Objectively verifies continuous draw-elbow rotation through expansion and detects subtle micro-collapses that kinesthetic feel misses.
+- How to do it:
+  1. Set up a camera behind the shooting line (at a rear or 5–6 o'clock angle).
+  2. Record full-draw expansion through the clicker.
+  3. Review footage in slow motion to ensure the draw elbow continuously sweeps in an arc around the back, checking that it never stalls or creeps forward upon reaching anchor.
 
 ### Alternative Views / Corrections
 
@@ -137,8 +166,10 @@ Expansion is the continuation of dynamic tension throughout the shot process, ma
 - Total Archery - Inside the Archer (Kisik Lee & Tyler Benner)
 - KSL / NTS LAN2 drill summary (captured 2026-09-21; underlying source notes not named): LAN2 Blank Bale Focus
 - KSL / NTS aiming and timing summary (captured 2026-09-21; underlying source notes not named): California roll, brick wall cue, string drift, competition timing
+- Gemini chat on expansion and anchor shift for clickerless Olympic recurve (captured 2026-10-16; cited sources not named, unverified): clickerless expansion, under-drawn arm-pull fault, eyes-closed check
 - Total Archery: Inside the Archer (Kisik Lee & Tyler Benner), Ch. 17 Expansion (clicker distance) and Ch. 23-24 aiming and timing (PDF pp. 219-227); read from an OCR of the scanned PDF, 2026-09-21
 - Coach Jared Gracious (Rogue Archery TV), form analysis and biomechanics session (YouTube 5GdJtjQvkb8)
+- Online Archery Academy, ["Why Your Shot Timing is Inconsistent (and how to fix it)"](http://www.youtube.com/watch?v=Rw5CdSfc_rY) (uninterrupted rotational movement, aim prioritization fault, draw elbow collapse fault, rear-angle video feedback drill)
 
 See also: [[Archery Shot Process - Finger Tab Selection & Maintenance]]—a passive, unclenched tab hook keeps the hand out of the way of LAN2-driven scapular expansion.
 

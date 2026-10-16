@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-11-10T13:00:00+00:00
-modified: 2026-09-29T10:37:52+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/great-achievements-occurred-before-formal-productivity-systems
 tags: [achievement, history, topic/productivity, topic/systems]
@@ -15,3 +15,7 @@ type: claim
 Summary: Humanity's greatest achievements, such as the construction of the pyramids or the Apollo 11 mission, were accomplished long before the codification of modern personal productivity systems like GTD or Atomic Habits.
 
 Details: This fact highlights that while formal systems can be beneficial, they are not a prerequisite for monumental success. Progress has historically been driven by other factors, suggesting that modern frameworks are a tool, not a universal law.
+
+### Related
+
+- [[Modern Productivity Systems Formalize Implicit Historical Strategies]]—*what modern systems add.*

@@ -2,7 +2,7 @@
 aliases: [NAPI]
 conformant: false
 created: 2025-11-22T15:00:07+00:00
-modified: 2026-09-29T10:37:49+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/concept-linux-napi
 tags: [SoftwareEngineering/networking/kernel]
@@ -22,3 +22,7 @@ Standard interrupt handling can overwhelm the CPU if an interrupt is raised for 
 2. Disabling further interrupts and switching to polling mode to process a batch of packets from the ring buffer.
 3. Re-enabling interrupts once the queue is drained.
 This mechanism increases throughput and reduces CPU usage under load.
+
+### Related
+
+- [[Concept - NIC Direct Memory Access]]—*how packets arrive in memory.*

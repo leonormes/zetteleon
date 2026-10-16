@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-29T10:37:58+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/structured-output-enforcement-json-schema-and-function-calling
 proposition: LLM outputs must be constrained to machine-readable, predictable formats (JSON Schema, function calls) to interface reliably with downstream software. By "enforcing structure, the system refuses conversational filler and ensures the model's" output can be parsed and validated deterministically.
 tags: [domain/llm, topic/determinism, topic/integration, topic/reliability, topic/structured-outputs]
@@ -58,6 +58,7 @@ Source: "LLM Reliability Engineering: Fix hallucinations, errors, & unpredictabl
 - [[LLM Probabilistic Outputs Prevent Consistency Guarantees]]—related: structure enforcement reduces variability.
 - [[Tool Use and Deterministic Delegation]]—related: function calling is a form of structured output.
 - [[Error Handling and Retry Pipelines for LLM Failures]]—related: rejections feed into retry logic.
+- [[Grammar-Constrained Decoding Forces Hallucination When JSON Tool-Call Sampling Fails]]—*the failure mode when enforced structure meets a sampling failure: the model fabricates to satisfy the grammar.*
 
 ### See Also
 

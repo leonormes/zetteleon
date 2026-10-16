@@ -2,7 +2,7 @@
 conformant: false
 created: 2026-09-14T15:28:06+00:00
 created_utc: '2026-09-14T00:00:00Z'
-modified: 2026-09-29T10:38:00+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/treating-state-coercion-as-equivalent-to-interpersonal-coercion-is-a-contested-anarcho-capitalist-argument-not-a-neutral-analysis
 prodos.kind: atomic
@@ -35,3 +35,4 @@ A recognisable, coherent position within political philosophy, but one contested
 ### Related
 
 - [[Ethical Intuitionism Reasons From Uncontroversial Concrete Cases to Controversial Ones, Not From Abstract Theory Downward]]—extends: an example of the intuitionist method applied to political philosophy specifically.
+- [[Pro-Social Punishment Restores Cooperation]]—*empirical work on punishment as sanctioned coercion that bears on the equivalence claim.*

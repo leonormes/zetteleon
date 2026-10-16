@@ -23,6 +23,7 @@ fields:
   - link_report
   - equipment
   - source
+  - prompt
   path: ''
 - name: project_name
   id: project_name

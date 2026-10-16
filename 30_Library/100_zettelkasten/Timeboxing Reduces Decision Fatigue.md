@@ -2,7 +2,7 @@
 aliases: [Reduced Decision Fatigue]
 conformant: false
 created: 2025-11-01T21:04:00+00:00
-modified: 2026-09-29T10:38:00+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/timeboxing-reduces-decision-fatigue
 tags: [decision-fatigue, TheHuman/Psychology, time-management, topic/productivity]
@@ -15,3 +15,7 @@ By pre-deciding what to work on and when, timeboxing eliminates the constant, lo
 This conservation of mental energy is a significant benefit. Every decision, no matter how small, consumes cognitive resources. An unstructured day requires repeated decisions about which task to tackle next, leading to [[Decision Fatigue|decision fatigue]].
 
 With a timeboxed schedule, these decisions are made in advance during a planning session. This frees up mental energy to be spent on the work itself, rather than on the meta-work of planning and prioritizing throughout the day. The transitions between activities become automatic, guided by the calendar.
+
+### Related
+
+- [[Timeboxing Creates Scarcity to Eliminate Non-Essential Activities]]—*a second benefit.*

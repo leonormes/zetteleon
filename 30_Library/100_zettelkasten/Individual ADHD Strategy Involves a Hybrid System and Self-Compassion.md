@@ -2,7 +2,7 @@
 aliases: [ADHD Individual Strategies]
 conformant: false
 created: 2025-11-06T19:54:11+00:00
-modified: 2026-09-29T10:37:53+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/individual-adhd-strategy-involves-a-hybrid-system-and-self-compassion
 tags: [self-management, strategies, TheHuman/Health/ADHD, topic/productivity]
@@ -15,3 +15,7 @@ type: claim
 Summary: An effective personal strategy for a remote developer with ADHD involves seeking a formal diagnosis, building a hybrid system of tools and rituals, structuring their environment, and practicing self-compassion.
 
 Details: After exploring medical treatment, the developer should construct a personalized system blending digital tools (task managers, focus aids) with analog habits (brain dumps, five-minute rule). Creating a dedicated workspace and a consistent daily routine is crucial for managing energy and focus. Finally, practicing self-compassion by acknowledging setbacks as normal and tracking achievements in a "wins journal" helps combat imposter syndrome.
+
+### Related
+
+- [[Analog and Behavioral Techniques are Crucial for ADHD Management]]—*the non-digital part of the hybrid.*

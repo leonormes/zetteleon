@@ -32,5 +32,4 @@ Referred to as the "Peak Programmer" phase. It describes the market shift occurr
 
 ### Related
 
-- [[Cheaper Code Production via Agents Increases Software Volume Rather Than Reducing Developers]]—shared mechanism: the commoditization of implementation is what drives the economic shift described by the Jevons paradox.
 - [[Software Jevons Paradox]]—extends: provides the economic rationale for why commoditization leads to increased demand elsewhere.

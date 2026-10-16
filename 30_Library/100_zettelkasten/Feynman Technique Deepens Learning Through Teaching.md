@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-31T10:09:00+00:00
 last_reviewed: ''
-modified: 2026-09-29T10:37:51+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/feynman-technique-deepens-learning-through-teaching
 see_also: []
 status: seed
@@ -34,3 +34,7 @@ Benefits:
 - Develops ability to explain complex ideas clearly
 
 Named after: Nobel Prize-winning physicist Richard Feynman, known for his ability to explain complex topics simply
+
+### Related
+
+- [[Mental Translation in Paraphrasing]]—*paraphrasing as part of teaching.*

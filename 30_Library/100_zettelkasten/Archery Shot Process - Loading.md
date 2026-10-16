@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-10-08T14:30:00+01:00
+modified: 2026-10-14T08:46:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-loading
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Loading
@@ -30,8 +30,8 @@ Loading is the act of drawing the bow using the scapular retractors and shoulder
 7. Stop drawing at the optimal load position, roughly 1/2 inch below the jaw, where the bowstring makes contact with the corner of your chin and tip of your nose.
    - At this position the thumb presses into the sternocleidomastoid and the string touches the chin at the same lateral spot it will occupy at anchor, so the string does not slide along the jaw on the way up. _Inside the Archer_ (Ch. 12, PDF p. 126) says thumb pressure into the neck is an _effect_ of loading correctly, not the cause: do not draw until the thumb presses or the string touches the face, or focus moves to the face and away from the back muscles. The same passage says drawing until the thumb presses into the neck is a very good way to reach the same loading position consistently, but it can also make the wrist bend the wrong way (see Kinking the Wrist below), so the thumb must stay exactly where it was set at the hook.
    - _Purpose:_ Stopping here gives nearly 100% of your draw length before you move up into anchor. It is the "safety off" point that divides preparing to shoot from shooting, and the string touches the face at the same lateral spot it will occupy at anchor so it doesn't slide along the jaw. Do not draw until the thumb presses or the string touches the face, or your focus shifts to the face and away from the back muscles.
-8. Bring the sight down onto the target from above as you finish the draw consistently.
-   - _Purpose:_ Inferred; the note gives no stated reason. Likely it lets the sight arrive on target as part of the finishing movement rather than a separate correction.
+8. Bring the sight down onto the target from above (Optimal Sight Path into Anchor): Guide the sight along a deliberate, consistent path down and in during the draw so that as the string touches the face/loading position, the sight pin is already settled within the red ring (ideally high and slightly right, never low).
+   - _Purpose:_ Arriving on target as part of the finishing draw movement eliminates the need to halt movement at full draw to search for the gold, keeping the kinetic chain active and dynamic.
 9. Balancing Front and Back Focus ("Piano Chord" Attention): As draw weight increases toward peak, the front shoulder must be actively pinned down to resist collapsing inward. Layer your mental focus like playing a piano chord—add conscious attention to back tension while maintaining uninterrupted focus on the front-side pin and shoulder base.
    - _Purpose:_ As draw weight rises toward peak, the front shoulder will collapse inward unless it is actively pinned down. Layering attention keeps the front-side pin from being forgotten while you concentrate on the back.
 
@@ -76,6 +76,8 @@ Loading is the act of drawing the bow using the scapular retractors and shoulder
 - **Shoulder Creep on a Long Hold:** If you hold for a long time without driving the shoulders down and back, they creep up into the neck, the shot breaks down, and the miss is often to the right (RH archer) ("relaxed shot" video, 00:05:39). Drive the shoulders down and back to move tension out of the neck and tops of the shoulders and into the large back muscles (00:05:50). This overlaps the Scapula "Back Pocket" Cue in step 1; see Alternative Views for the disagreement over deliberately driving the shoulder down. If a hold is running long, let down rather than forcing the shot.
 - **Locked Elbow and Scapular Creep:** A locked-out bow elbow removes string clearance, lets the humerus rise, and without downward structure the shoulder creeps backward under draw weight, risking neck and shoulder impingement (front-elbow video, 00:01:49). See [[Archery Shot Process - Raise]].
 - **Pushing the Bow Arm While Pulling:** Actively pushing the bow arm forward while pulling the string can drive the humerus high and inside against the neck, destroying string clearance and often putting the string into the front arm (front-elbow video, 00:04:01). This conflicts with the push-and-pull cue; see Alternative Views.
+- **Late Sight Acquisition on Approach:** Drawing into anchor with the sight far off the gold (such as in the high white, left blue, or off the target entirely). This forces the archer to stall their draw movement at full draw in order to relocate the sight, killing shot rhythm and inducing a static freeze.
+- **Poor Skeletal Alignment (Inward Front Collapse):** Entering full draw with off-kilter skeletal alignment causes the front side to collapse inward as the draw side pulls. This loss of opposing skeletal structure absorbs the expansion movement and makes it mechanically difficult to get through the clicker efficiently.
 
 ### Training Drills
 
@@ -161,6 +163,14 @@ Loading is the act of drawing the bow using the scapular retractors and shoulder
   2. Have a training partner push inward on your bow arm while pulling backward on your draw arm.
   3. If your arms fold inward easily, your alignment is incorrect. If you stay locked solidly in place, your skeletal alignment is properly supporting the weight.
 
+#### Conscious Sight Path Tracking Drill
+
+- Purpose: Builds automatic muscle memory for the sight trajectory into the gold, preventing stalling at full draw.
+- How to do it:
+  1. Practice drawing deliberately while tracking the sight pin's path from the set-up position into the red ring.
+  2. If needed, temporarily close the non-dominant eye as an isolated learning drill to clearly observe the path without visual confusion.
+  3. Repeat until the sight path consistently and automatically guides directly into the red ring as anchor is reached, allowing mental focus to return 100% to the gold.
+
 ### Alternative Views / Corrections
 
 - Where LAN2 sits: Step 1 above places LAN2 "midway between the elbow and shoulder joint on the triceps". A later KSL / NTS drill summary (captured 2026-09-21) describes it as the posterior deltoid, the back of the drawing shoulder, which is also how [[Archery Shot Process - Expansion]] and [[Archery Shot Process - Finger Tab Selection & Maintenance]] describe it. Source check: _Inside the Archer_ (Ch. 9, Setup Position, PDF p. 94) defines LAN 2 as "an area on the back side of the drawing arm and shoulder, not a specific body part", a focal point that can only be _moved_: you cannot hold intensity in it, squeeze it or clench it. Read that way, "triceps" and "posterior deltoid" are both approximations of the same area, and both are kept.
@@ -185,6 +195,7 @@ Loading is the act of drawing the bow using the scapular retractors and shoulder
 - Coach Jared Gracious (Rogue Archery TV), form analysis and biomechanics session (YouTube 5GdJtjQvkb8)
 - Front-elbow lockout video (YouTube rOPvPrnGkS0; Gemini summary captured 2026-10-08; title and channel not recorded)
 - "Relaxed shot" vs weak shot video (YouTube jQ4wovCJipI; Gemini summary captured 2026-10-08; title and channel not recorded; mentions a peep sight and release aid, so it may be compound-oriented)
+- Online Archery Academy, ["Why Your Shot Timing is Inconsistent (and how to fix it)"](http://www.youtube.com/watch?v=Rw5CdSfc_rY) (optimal sight path, late sight acquisition fault, sight path tracking drill, skeletal alignment)
 
 ---
 

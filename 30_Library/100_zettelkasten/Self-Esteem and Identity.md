@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-05-26T18:13:07+00:00
 last_reviewed: ''
-modified: 2026-09-29T10:37:57+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/self-esteem-and-identity
 tags: []
 title: Self-Esteem and Identity
@@ -13,3 +13,7 @@ updated: null
 Our sense of self is often shaped, at least in part, by how others see us. Positive feedback and validation can boost self-esteem, while criticism, especially if it hits on an area of insecurity, can be deeply unsettling. If a significant part of your identity is tied to your ideas, having them dismissed can feel like a personal rejection.
 
 [[01_journals/Dailies/2025-05-26|2025-05-26]]
+
+### Related
+
+- [[Treat Impostor Feelings as a Signal, not a Verdict]]—*a way to handle a threat to self-esteem.*

@@ -46,7 +46,6 @@ This hub triages the "Domain III" (Data-Centric Systems) cluster, focusing on In
 - [[Data-Centric Networking Focuses on Packet Journey Through Devices]]
 - [[Host-Based Routing Enables Virtual Hosting in Cloud Infrastructure]]
 - [[Internet Gateway in AWS Networking]]
-- [[Ephemeral Agents and Environments in Terraform Cloud]]
 - [[Configuration Kernel]]
 - [[Configuration Generator]]
 - [[Intent-Implementation Separation]]

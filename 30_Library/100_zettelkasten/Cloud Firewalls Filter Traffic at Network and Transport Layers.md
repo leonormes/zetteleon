@@ -2,7 +2,7 @@
 aliases: [Network Security Groups, NSGs]
 conformant: false
 created: 2025-10-31T10:31:00+00:00
-modified: 2026-09-29T10:37:49+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/cloud-firewalls-filter-traffic-at-network-and-transport-layers
 tags: [cloud, SoftwareEngineering/Networking, SoftwareEngineering/Security]
@@ -39,3 +39,7 @@ Example packet flow:
 2. Matches allow rule for 0.0.0.0/0:443
 3. Packet permitted
 4. Return SYN-ACK automatically allowed (stateful)
+
+### Related
+
+- [[Web Application Firewalls Protect Against Layer 7 Attacks]]—*the application-layer counterpart.*

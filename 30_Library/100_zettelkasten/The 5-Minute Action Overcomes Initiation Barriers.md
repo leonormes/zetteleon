@@ -2,7 +2,7 @@
 aliases: [5-Minute Rule]
 created: 2025-11-12T15:00:08+00:00
 last_reviewed: ''
-modified: 2026-09-29T10:37:59+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-5-minute-action-overcomes-initiation-barriers
 status: seed
 tags: [task-initiation, technique, TheHuman/Health/ADHD, topic/productivity]
@@ -28,3 +28,7 @@ Failure modes:
 - Using a phone timer and getting sidetracked by notifications.
 
 Example (1 max): To start writing a report, commit only to opening the document and writing for 5 minutes. Often, the momentum gained is enough to continue working beyond the initial 5-minute mark.
+
+### Related
+
+- [[Implementation Intentions Automate Action Initiation with If-Then Plans]]—*pair the action with a trigger.*

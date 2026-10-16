@@ -1,11 +1,19 @@
 ---
-aliases: [Fable as Allegory]
-conformant: false
+aliases:
+- Fable as Allegory
+conformant: true
+contradicts: []
 created: 2025-11-01T21:40:00+00:00
-modified: 2026-09-29T10:37:47+00:00
-non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
+epistemic_status: medium
+evidence_links: []
+modified: 2026-10-14T08:32:43+00:00
 permalink: llmeon/30-library/100-zettelkasten/animal-allegory-is-a-persistent-feature-of-fables-for-social-commentary
-tags: [allegory, fable, social-commentary, storytelling]
+proposition: Animal allegory has stayed the constant feature of the fable from Aesop to Animal Farm because allegorical distance lets audiences take in social criticism without becoming defensive.
+tags:
+- allegory
+- fable
+- social-commentary
+- storytelling
 title: Animal Allegory is a Persistent Feature of Fables for Social Commentary
 type: claim
 ---
@@ -15,3 +23,15 @@ Across its long evolution, the key continuity in the fable genre is the persiste
 By attributing human-like behaviors, flaws, and virtues to animal characters, storytellers can address sensitive or controversial topics—such as political corruption, social inequality, and human folly—in an indirect and less confrontational way.
 
 This allegorical distance allows the audience to consider the message without becoming defensive, making the fable a uniquely resilient and adaptable form of storytelling for social critique.
+
+## Related
+
+[depends_on:: [[Aesop's Fables Use Anthropomorphic Allegory]]]
+[depends_on:: [[La Fontaines Fables Served as Courtly Education in 17th Century France]]]
+[depends_on:: [[Fables in Modern Media Range from Cartoons to Political Allegory]]]
+
+- [[Aesop's Fables Use Anthropomorphic Allegory]]—_The earliest case: animal characters give emotional distance and safe commentary, the mechanism this note claims persists._
+- [[La Fontaines Fables Served as Courtly Education in 17th Century France]]—_A mid-point case where the same allegory critiques hierarchy and power for an adult court audience._
+- [[Fables in Modern Media Range from Cartoons to Political Allegory]]—_The modern case, from cartoons to Animal Farm, showing the device surviving into political allegory._
+- [[Sequence - Evolution of Fable Storytelling]]—_The timeline that names this note as its Key Continuity._
+- [[MOC - Storytelling Techniques]]—_Home hub, under Social Functions._

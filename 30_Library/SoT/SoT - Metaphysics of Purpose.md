@@ -2,7 +2,7 @@
 aliases: [Taxonomy of Cosmic Purpose, Teleological Framework, The Four Universes of Purpose]
 conformant: true
 created: 2026-02-03T10:15:00+00:00
-modified: 2026-09-29T10:38:12+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-metaphysics-of-purpose
 source_of_truth: true
@@ -70,3 +70,7 @@ To discuss "Purpose," we must first define the ontological status of the univers
 
 - [ ] Connect with [[Nihilism vs Constructed Meaning]] to map the "Constructed" view to Quadrant 2.
 - [ ] Explore if "ProDos" implies a specific quadrant (Likely Quadrant 2: We build the machine).
+
+### Related
+
+- [[The Preconditions for Purpose]]—*the preconditions that purpose presupposes.*

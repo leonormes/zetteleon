@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2026-05-04T08:01:26+00:00
-modified: 2026-09-29T10:37:53+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing required field - type; missing required field - tags"
 permalink: llmeon/30-library/100-zettelkasten/joseph-marie-jacquard
 prodos.kind: concept
@@ -14,3 +14,7 @@ title: Joseph Marie Jacquard
 Jacquard came up with the idea of encoding the information for the pattern the loom produced with cards with holes bunched in them.
 
 This use of replaceable punched cards to control a sequence of operations is considered an important step in the history of computing hardware, having inspired Charles Babbage's Analytical Engine.
+
+### Related
+
+- [[Directed Acyclic Graphs for Action Sequences Are Directed Acyclic and Graph-Structured]]—*early programmable control sequences.*

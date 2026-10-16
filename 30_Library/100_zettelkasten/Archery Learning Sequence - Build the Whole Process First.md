@@ -2,7 +2,7 @@
 aliases: [Analytic vs global learning archery, Archery build level vs refine level]
 conformant: false
 created: 2026-10-12T09:30:00+00:00
-modified: 2026-10-12T10:07:58+00:00
+modified: 2026-10-14T08:35:12+00:00
 non_conformance_reason: consolidated from an LLM conversation, not yet reviewed by Leon or the club coach
 permalink: llmeon/30-library/100-zettelkasten/archery-learning-sequence-build-the-whole-process-first
 source: LLM conversation 2026-10-12 (inbox note LLM - How to Know You Are Executing the Holistic Flow Correctly)
@@ -108,7 +108,6 @@ One refine-level item is already usable now: a stall at full draw of more than 4
 
 ### References
 
-- Inbox capture: [[LLM - How to Know You Are Executing the Holistic Flow Correctly]] (raw LLM paste, 2026-10-12)
 - Total Archery - Inside the Archer (Kisik Lee & Tyler Benner), as cited in the capture
 - World Archery coaching manual: analytic learning, observation order, Standard Teaching Process, breath-hum drill, as cited in the capture
 - Peak (Anders Ericsson): mental representations, as cited in the capture

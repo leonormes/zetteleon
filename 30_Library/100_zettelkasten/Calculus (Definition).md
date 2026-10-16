@@ -2,7 +2,7 @@
 aliases: [Calculus]
 created: 2025-11-01T11:22:13+00:00
 last_reviewed: '2025-11-01T00:00:00.000Z'
-modified: 2026-09-29T10:37:48+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/calculus-definition
 status: seed
 tags: [fields, topic/maths]
@@ -23,3 +23,7 @@ Core Operations:
 Synthesis of Structures: Calculus combines the algebraic structure of numbers (quantity) with the geometric structure of space, all under the notion of a limit—the foundation for handling infinite processes rigorously.
 
 Applications: Essential for physics (motion), engineering (optimization), economics (marginal analysis), and any field involving rates of change.
+
+### Related
+
+- [[Analysis (Definition)]]—*the rigorous foundation behind calculus.*

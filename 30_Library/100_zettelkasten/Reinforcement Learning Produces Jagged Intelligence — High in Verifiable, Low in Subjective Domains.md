@@ -15,7 +15,6 @@ title: Reinforcement Learning Produces Jagged Intelligence — High in Verifiabl
 type: claim
 ---
 
-[supports:: [[Agentic Autonomy Accelerates Fastest in Domains Where Success Is Verifiable]], strength=4, confidence=high]
 
 ## Reinforcement Learning Produces Jagged Intelligence—High in Verifiable, Low in Subjective Domains
 

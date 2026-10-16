@@ -46,8 +46,6 @@ Source: "LLM Reliability Engineering: Fix hallucinations, errors, & unpredictabl
 ### Related
 
 - [[LLM Hallucinations Arise from Probabilistic Prediction Without External Grounding]]—solves: adds external grounding.
-- [[Selective Memory Retrieval Reduces Token Cost in Multi-Session Workflows]]—related: selective retrieval applies to agent memory; RAG applies to knowledge bases.
-- [[Context Window Limits Force Iterative Task Decomposition]]—related: RAG helps manage context limits by retrieving only relevant documents.
 - [[Semantic Search via Embeddings]]—implements: modern RAG uses embedding-based semantic search for retrieval.
 
 ### See Also

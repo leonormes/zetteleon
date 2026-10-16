@@ -5,7 +5,7 @@ created: 2026-09-28T00:00:00+00:00
 created_utc: '2026-09-28T00:00:00+00:00'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-05T17:52:02+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/00-inbox/the-brain-uses-beliefs-as-prediction-shortcuts-because-conscious-processing-is-limited
 proposition: Because conscious processing handles only about 50 bits of data per second
   out of roughly 11 million bits the senses collect, the brain works as a prediction
@@ -45,3 +45,4 @@ The bit figures are the source summary's own and are not verified here. The clai
 - [[Mental Models as Evolutionary Filters]]—shared mechanism: models filter an overwhelming amount of sensory information so that prediction and decision do not need every detail processed.
 - [[Evidence - Levitin Says Attention Is a Limited-Capacity Resource With Definite Limits]]—supports: independent evidence for the limited-capacity premise.
 - [[Human Understanding is Inherently Myopic]]—shared mechanism: limited attention leaves only a small fraction of the whole picture perceived.
+- [[Beliefs Act as Perceptual Filters That Decide What the Brain Notices or Ignores]]—*how the shortcut operates in perception.*

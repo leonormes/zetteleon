@@ -32,6 +32,5 @@ Standardizes tool-calling across different platforms and LLMs. It reduces the te
 
 ### Related
 
-- [[CLI Interoperability for Agents]]—shared mechanism: MCP provides the protocol layer for the interoperable tools described in the Unix philosophy parallel.
 - [[MCP Token Noise]]—failure_mode: over-enabling MCP servers can introduce noise that degrades reasoning.
 - [[MOC - AI Software Engineering]]—See Also.

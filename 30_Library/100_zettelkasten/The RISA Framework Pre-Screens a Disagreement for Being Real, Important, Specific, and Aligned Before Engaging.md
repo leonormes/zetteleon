@@ -36,4 +36,3 @@ Trigger—about to enter or already stuck in a disagreement. Verification—a "n
 
 - [[Constructive Debate in Psychological Safety]]—extends: the Aligned criterion is a precondition for the psychological safety that note argues constructive debate requires.
 - [[Dismissing People Who Disagree Costs You Your Best Error-Detectors]]—extends: RISA is a pre-filter for deciding whether to engage at all; that note argues for taking disagreement seriously once engaged.
-- [[Adversarial Review Loops Can Stop on Mutual Diminishing-Returns Agreement Rather Than a Fixed Condition]]—shared mechanism: both give a stopping/entry condition for debate that isn't "keep going until one side wins."

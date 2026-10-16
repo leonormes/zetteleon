@@ -2,7 +2,7 @@
 aliases: [Critical Question Process, MIQ Method]
 created: 2025-10-30T15:07:41+00:00
 last_reviewed: '2025-10-30'
-modified: 2026-09-29T10:37:59+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-miq-process-most-important-question-for-deliberate-growth
 status: seed
 tags: [deliberate-practice, growth, learning, waitzkin]
@@ -25,3 +25,4 @@ Details: Developed by Josh Waitzkin, the MIQ process works as follows: (1) Ident
 ## Related
 
 - [[SoT - Evolutionary Note System]] - Provides a systemic approach to capturing and evolving knowledge, complementary to the MIQ process.
+- [[Discomfort Signals Growth Potential]]—*why the question worth tracking is often the uncomfortable one.*

@@ -3,7 +3,7 @@ aliases: [Autopoiesis, Self-Referential System]
 created: 2025-08-23T17:10:01+00:00
 creation_date: '2025-08-23T00:00:00.000Z'
 last_reviewed: 'null'
-modified: 2026-09-29T10:37:48+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/autopoiesis-the-self-referential-system
 tags: [biology, systems-theory, topic/philosophy]
 title: Autopoiesis The Self-Referential System
@@ -18,3 +18,7 @@ A living cell is a key example. It constantly uses energy to rebuild its own str
 Life is the ultimate self-referential loop, generating its own reason to be. This idea is a core component of the [[The Fractal Model of Self-Referential Meaning]].
 
 This concept is derived from the broader conversation in [[Contextual Relationships]].
+
+### Related
+
+- [[Knowledge Formation is a Cognitive Process of Neural Connection]]—*a self-producing system as a model of how knowledge builds on itself.*

@@ -31,7 +31,7 @@ You are deliberately unsentimental. A note being good is not an argument for it 
 1. **Never delete.** Every action is a move or a frontmatter annotation. `git mv`, never `rm`.
 2. **Never edit the body of a HEAD note** ([[AGENTS]] §6.1). You may add missing frontmatter. You may not touch body prose and you do not append stubs; a missing `## What Would Settle It` section is reported, not added.
 3. **Never rename a legacy note.** Non-question titles on pre-2026-08-03 notes are *reported*, not fixed — renaming rewrites backlinks and is a human call.
-4. **Report before you move.** Produce the full routing table first. Only execute after it is approved, unless invoked with `--auto` for Test 1/2 mechanical failures only.
+4. **Report before you move.** Produce the full routing table first. Execute only after Leon approves it ([[AGENTS]] §6.1). There is no unattended mode: a protected note is never moved without that approval.
 
 ---
 
@@ -39,7 +39,7 @@ You are deliberately unsentimental. A note being good is not an argument for it 
 
 > Canonical schema: [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]] §3.4 (`QuestionNote`), as narrowed by [[SoT - HEAD Note Contract (The Workbench)]] §2.
 
-Every note you leave in the workbench must carry `title`, `type: question`, `tags`, `conformant`, `non_conformance_reason` (if `conformant: false`), plus `tension`, `candidate_answers`, `related_claims`, `sources`, `status`, and the `prodos.kind: head` / `prodos.lifecycle` pair. Backfill what is missing. If you cannot determine `tension` from the note's own content, set `conformant: false` with the reason — do not invent one.
+Every note you leave in the workbench must carry `title`, `type: question`, `tags`, `conformant`, `non_conformance_reason` (if `conformant: false`), plus `tension`, `candidate_answers`, `related_claims`, `sources`, `status`, and the `prodos.kind: head` / `prodos.lifecycle` pair. Backfill what is missing, including `AoL` and `closing_condition` (set `closing_condition` honestly: `false` if Test 4 is not met). If you cannot determine `tension` from the note's own content, set `conformant: false` with the reason — do not invent one.
 
 ---
 
@@ -51,7 +51,7 @@ List every `.md` in `20_Thinking/21_Workbench/`. For each, record: filename, fro
 
 ### Phase 2: Test 1 & 2 — mechanical routing
 
-These need no judgement and may run under `--auto`.
+These need no judgement, but still wait for approval of the routing table before any move.
 
 **Origin failure.** Any note whose frontmatter carries `source`, `source_url`, `url`, `author`, `published`, `captured`, or `clipped` is a capture. Route to `00_Inbox/`. Do not attempt to salvage it in place.
 
@@ -72,6 +72,7 @@ When a capture provoked a real question, do **not** keep it. Move the capture, t
 For each surviving note, decide whether its question is still open.
 
 - Question answered in the note's own body, or superseded by an SoT → propose Chronos synthesis: name the target SoT and hand off to [[Prompt - ProdOS Chronos Synthesizer]]. Do not synthesise here.
+- A note whose HEAD question has been folded into an SoT by Chronos (`status: resolved`) → add it to the routing table as a move to `99_Archive/`, for Leon's approval. Chronos does not archive HEAD notes; this step does.
 - `status: open` and `modified` older than **90 days** → report as **STALE**. Do not move it. Ask one question: *is this still live?* Staleness is information about the question, not a defect to clean up.
 
 ### Phase 4: Test 4 — actionability
@@ -88,7 +89,7 @@ Flag every note whose title does not end in `?`. Propose a question-form title f
 ### Phase 6: Execute & verify
 
 1. `git mv` each routed note. Never `mv` across filesystems without git awareness.
-2. After all moves, find every wikilink in the vault pointing at a moved note and confirm Obsidian's rename-refactor did not run (it does not run for external moves). Repair broken links by path, or report them.
+2. After all moves, find every wikilink in the vault pointing at a moved note and report any that no longer resolve. Wikilinks resolve by filename, so most survive a move. Do not edit other notes to repair links; list each broken link for Leon, because the linking note may be protected.
 3. Run `uv run --with pyyaml python3 10_System/scripts/edge_lint.py --audit` and confirm no new errors versus the pre-sweep baseline.
 
 ---

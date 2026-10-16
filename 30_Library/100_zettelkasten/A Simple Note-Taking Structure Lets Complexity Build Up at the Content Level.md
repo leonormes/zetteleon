@@ -5,7 +5,7 @@ created: 2026-09-26T12:00:00+00:00
 created_utc: '2026-09-26T12:00:00Z'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-29T10:37:46+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/a-simple-note-taking-structure-lets-complexity-build-up-at-the-content-level
 proposition: A simple structure lets complexity build up at the content level of a
   note collection instead of in how the notes are organised.
@@ -46,3 +46,4 @@ Ahrens is talking about the structure of the whole note-taking system, and he co
 - [[The sophistication is a bug not a feature]]—shared mechanism: a more elaborate system does not get you further.
 - [[A Complex Note Has Little Surface Area to Connect While a Single Idea Can Link Across Topics]]—shared mechanism: a simple unit connects further than a complex one.
 - [[The Atomicity Principle - One Idea Per Note]]—extends: single-idea notes are one way to keep each unit simple.
+- [[Make It Stupidly Simple]]—*applies the same simplicity principle to ADHD-friendly capture.*

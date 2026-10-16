@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-05-28T18:46:40+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-29T10:37:50+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/crafting-compelling-task-descriptions-and-sustaining-motivation
 prodos.kind: atomic
 prodos.lifecycle: stable
@@ -41,3 +41,7 @@ type: claim
 ---
 
 [implements:: [[SoT - PRODOS Core Specification]]]
+
+### Related
+
+- [[Putting It All Together Example Workflow]]—*a worked example of the framework.*

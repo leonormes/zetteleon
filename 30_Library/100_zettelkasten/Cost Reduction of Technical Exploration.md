@@ -32,4 +32,3 @@ Enables the pursuit of "non-essential" or P1-level improvements. This is economi
 
 ### Related
 
-- [[Cheaper Code Production via Agents Increases Software Volume Rather Than Reducing Developers]]—shared mechanism: the reduction in exploration cost is a driver for the increased volume of software generated.

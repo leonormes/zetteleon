@@ -25,5 +25,4 @@ Details: In contexts where the world is evolving quickly, or where new insights 
 - [[Modern Work Environments are Typically Wicked]]—_names the specific environment-type (wicked, not kind) this claim's "rapidly changing" premise depends on._
 - [[Wicked Learning Environments are Dynamic and Unpredictable]]—_the general mechanism (unstable rules, delayed feedback) this claim specialises to a workplace context._
 - [[Broad Experiences Develop Flexible Problem-Solving Skills]]—_the developmental mechanism: why broad exposure produces the adaptability this claim credits._
-- [[Domain Knowledge Becomes Competitive Advantage as LLM Access Commoditizes]]—_a documented tension, not a shared-domain contradiction: that claim argues deep domain expertise is what differentiates once LLM access commoditizes coding itself, the reverse of this claim's generalist advantage. Already declared via frontmatter `contradicts` on both notes._
 - [[Success is Connection Not Mastery]]—_the ADHD/PKM-specific instance of this same claim, applied to personal success metrics rather than workplace performance._

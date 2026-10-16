@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-11-10T13:06:00+00:00
-modified: 2026-09-29T10:37:56+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/proto-systems-function-through-social-accountability-and-implicit-learning
 tags: [accountability, history, sociology, topic/productivity, topic/systems]
@@ -19,3 +19,7 @@ Details:
 1. Implicit Routines: Skills and processes are learned through imitation, apprenticeship, and cultural transmission, not written manuals.
 2. Social Accountability: Progress is tracked and enforced through public reputation, peer feedback, and social roles, not personal apps.
 3. Resource Pooling: Shared management of tasks and knowledge allows communities to multiply their output.
+
+### Related
+
+- [[External Accountability Sustains ADHD Project Commitment]]—*accountability as an ADHD support.*

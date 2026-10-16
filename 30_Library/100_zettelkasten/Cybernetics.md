@@ -35,7 +35,6 @@ Notes in the vault that apply the core idea (a system steered by information abo
 - [[Removing a Negative Feedback Loop Can Cause Ecological Overshoot (the Kaibab Deer Case)]]—_What happens when the regulating loop is cut._
 - [[A Cultural Ritual Can Function as a Negative Feedback Loop Preserving Ecological Equilibrium]]—_A human institution acting as a regulator._
 - [[Prediction Error Breaks Feedback Loops]]—_The cognitive version: reality testing is the correcting signal._
-- [[Agent Feedback Loops Require Bidirectional Memory Writes]]—_An agent that only reads its memory has no loop; it has to write back._
 - [[Rapid Feedback Loops are Essential for ADHD Motivation]]—_Why the delay in the loop matters for a person._
 - [[A Competence Feedback Loop Turns Early Success Into Durable Interest]]—_A positive, reinforcing loop._
 - [[The Action-Reaction-Ping-Adjust Cycle Drives Real Progress]]—_A personal control loop: act, sense, adjust._

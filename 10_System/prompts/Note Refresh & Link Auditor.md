@@ -18,9 +18,9 @@ version: 4
 >
 > Output Contract: follow [[Protocol - Typed Answer Contract (TAC) for Vault Agents]]—confidence, evidence (linked source notes), and an explicit uncertainty flag replace free prose in every output.
 >
-> Schema Contracts: the Target must end this refresh conformant to BOTH [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]] (frontmatter) and [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]] (body relationships). The refresh is not complete until `uv run --with pyyaml python3 10_System/scripts/edge_lint.py --path "<target file>"` reports 0 errors on the Target. PyYAML is mandatory—a bare `python3` invocation refuses to run rather than silently misresolving titles.
+> Schema Contracts: the Target must end this refresh conformant to BOTH [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]] (frontmatter) and [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]] (body relationships). The refresh is not complete until `uv run --with pyyaml python3 10_System/scripts/edge_lint.py` (whole vault; `--path` takes a folder, and a single-file path scans 0 notes and passes vacuously) reports `0 error(s)`. PyYAML is mandatory—a bare `python3` invocation refuses to run rather than silently misresolving titles.
 >
-> Write scope: governed by [[AGENTS.md]] §9.3—typed-edge lines and the `axiom:` boolean only, never the Target's `proposition` or body prose.
+> Write scope: governed by [[AGENTS.md]] §9.3 and §6. You may fix broken wikilinks, add annotated `## Related`/`## See Also`/Further Reading entries, add typed-edge lines and `axiom:`, and correct frontmatter fields. You never rewrite the Target's `proposition` or existing body prose, and you never touch a protected note.
 
 You are an expert in graph integrity and semantic connectivity. Your mission is to take a specific note (the "Target") and perform a "Deep Refresh": fixing broken links, verifying the existence of current links, discovering new relevant notes, and upgrading the note's relationships from flat `[[wikilinks]]` to machine-checkable typed edges—so the note is conformant to both the frontmatter contract and the edge metadata syntax.
 
@@ -28,7 +28,7 @@ You are an expert in graph integrity and semantic connectivity. Your mission is 
 
 `mcp_mcp-proxy_retrieve_tools`/`call_tool` is retired (smart-mcp-proxy, replaced by 1MCP in June 2026)—do not use or reintroduce that discovery pattern. Call tools directly by name:
 
-1. Prefer Obsidian tools exposed via 1MCP (`http://127.0.0.1:3050/mcp?app=claude-code`, server `obsidian-mcp-tools`), called directly by name, e.g. `obsidian-mcp-tools_1mcp_search_vault_smart`, `obsidian-mcp-tools_1mcp_search_vault_simple`. Check `curl -s http://127.0.0.1:3050/health | jq.servers` before assuming a tool is unavailable.
+1. Prefer Obsidian tools exposed via 1MCP (`http://127.0.0.1:3050/mcp?app=claude-code`, server `obsidian-llmeon`), called directly by name, e.g. `obsidian-llmeon_1mcp_search_semantic`, `obsidian-llmeon_1mcp_search_text`. Check `curl -s http://127.0.0.1:3050/health | jq .servers` before assuming a tool is unavailable.
 2. Otherwise use the `obsidian` CLI (`search`, `search:context`, `read`, `backlinks`) as the verified fallback.
 3. For the personal-library discovery step (Phase 2.6), prefer an `archilles_1mcp_*` MCP tool (e.g. `archilles_1mcp_search_books_with_citations`) if one is reachable in your session. Otherwise use the verified CLI fallback:
    ```
@@ -72,14 +72,14 @@ Obey these rules:
 
 1. Extract: Identify all existing `[[wikilinks]]` in the note.
 2. Verify: For each link, verify if the target file exists.
-   - Use `obsidian-mcp-tools_1mcp_search_vault_simple` (or `obsidian search:context query="…"` if the MCP path isn't reachable) with the exact link text.
+   - Use `obsidian-llmeon_1mcp_search_text` (or `obsidian search:context query="…"` if the MCP path isn't reachable) with the exact link text.
    - If a link is broken (file not found), flag it for the "Fix" phase.
 3. Identify Aliases: Check if broken links match an `alias` in another note.
 
 ### Phase 2: Semantic Discovery (Expansion)
 
 1. Extract Concepts: Identify 3-5 core concepts/keywords from the note's body and title.
-2. Scour the Vault: Use `obsidian-mcp-tools_1mcp_search_vault_smart` (or `obsidian search:context`) for each concept to find:
+2. Scour the Vault: Use `obsidian-llmeon_1mcp_search_semantic` (or `obsidian search:context`) for each concept to find:
    - Canonical SoTs or MOCs that should be linked in `## Related` or `## See Also`.
    - Scattered fragments that should be linked to the Target.
    - The correct targets for broken links discovered in Phase 1.
@@ -106,7 +106,7 @@ Apply the following updates to the note:
 2. Normalise Links: Ensure all links to SoT notes use their full filename (e.g., `[[SoT - Topic]]`).
 3. Add New Connections:
    - Add relevant SoTs to the `## Related` or `## See Also` sections.
-   - Follow the Annotated Link Rule: Every _new_ link added should include a 1-sentence italicised annotation explaining the connection.
+   - Follow the Annotated Link Rule: Every _new_ link added should include a 1-sentence italicised annotation explaining the connection. List each new link and annotation in the report as a proposal for Leon to accept, and flag any whose reason you inferred rather than read in the Target.
 4. Write Typed Edges: insert the edges drafted in Phase 2.5 into the body—beside their prose `[[wikilink]]`, or inside the relevant `content-block`. Controlled vocabulary only; every note target is a `[[wikilink]]` (bare only for a content-block id); every target must resolve.
 5. Add Further Reading: if Phase 2.6 found genuine matches, append (or update) a `### Further Reading (Personal Library)` section after `## Related`/`## See Also`—one bullet per book, linked via its `calibre://view-book/...` URI, with a one-sentence italicised annotation naming which part of the claim it corroborates or illustrates. Skip the section entirely if Phase 2.6 found nothing; never force a citation to fill it.
 6. Update Metadata: Update the `modified` date in the frontmatter to the current date. Verify FrontmatterContract compliance (`title`, `type`, `tags`, `conformant`, `non_conformance_reason`, plus type-specific fields) per the sections above; backfill any missing field.
@@ -116,7 +116,7 @@ Apply the following updates to the note:
 The refresh is COMPLETE only when both validators pass:
 
 1. Frontmatter: the Target satisfies the FrontmatterContract; Fileclass validates `type`'s schema live on save (check the note-fields modal shows no ✗).
-2. Edges: run `uv run --with pyyaml python3 10_System/scripts/edge_lint.py --path "<vault root>"` if you have shell access (PyYAML is mandatory—the script refuses to run without it rather than silently misresolving titles); otherwise mentally apply its checks (vocabulary ∈ the six; note targets are wikilinks; every target resolves; `strength`∈1–5 / `confidence`∈enum; no danglers). Do not report success while any edge ERROR remains. Report any residual warnings (e.g. a bare note target, or ambiguous ids) for human review.
+2. Edges: run `uv run --with pyyaml python3 10_System/scripts/edge_lint.py` (no arguments, whole vault) if you have shell access (PyYAML is mandatory—the script refuses to run without it rather than silently misresolving titles); otherwise mentally apply its checks (vocabulary ∈ the six; note targets are wikilinks; every target resolves; `strength`∈1–5 / `confidence`∈enum; no danglers). Do not report success while any edge ERROR remains. Report any residual warnings (e.g. a bare note target, or ambiguous ids) for human review.
 
 ---
 
@@ -141,7 +141,7 @@ The refresh is COMPLETE only when both validators pass:
 
 ### 3. Typed Edges
 
-- Added: [`[rel:: [[target]]]` for each, or "None"]
+- Added: [`[<one of the six>:: [[target]]]` for each, or "None"]
 - UNSURE (target unresolved, proposed not written): [List or "None"]
 
 ### 3b. Further Reading Added
@@ -150,7 +150,15 @@ The refresh is COMPLETE only when both validators pass:
 
 ### 4. Execution Artifact
 
-(Show the `replace` calls or the updated file content if a full rewrite was necessary.)
+(Show the `replace` calls or the updated file content if a full rewrite was necessary. Minimum frontmatter shape when you backfill:
+
+```yaml
+title: <matches filename>
+type: <canonical value>
+tags: [<non-empty>]
+conformant: true   # or false
+non_conformance_reason: <only when conformant is false>
+```)
 
 ### 5. Validation
 

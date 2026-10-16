@@ -2,7 +2,7 @@
 aliases: [CSPRNG, Entropy, Environmental Randomness]
 conformant: false
 created: 2025-12-24T12:00:00+00:00
-modified: 2026-09-29T10:37:57+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/randomness-in-computing-relies-on-environmental-entropy
 tags: [computing, SoftwareEngineering/Security]
@@ -33,3 +33,7 @@ To pick a large prime:
 3. If it fails, discard and try again. Because primes are reasonably common, this loop finds a prime very quickly.
 
 This search for primes is a one-time cost performed during key generation.
+
+### Related
+
+- [[Trapdoor Functions Are the Foundation of Public-Key Cryptography]]—*cryptographic keys depend on good randomness.*

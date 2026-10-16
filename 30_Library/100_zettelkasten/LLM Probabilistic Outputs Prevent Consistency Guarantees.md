@@ -35,11 +35,8 @@ Source: "Nobody Pages the LLM: Engineering Rigour for Vibe Coding" (Ritesh Modi)
 ### Related
 
 - [[AI as Statistical Interpolation]]—theoretical basis: LLMs interpolate over training data; they cannot reason their way to guarantees.
-- [[Vibe Coding - Rapid AI-Assisted Code Generation Without Engineering Rigor]]—context: vibe coding assumes consistency that LLMs cannot provide.
-- [[AI-Generated Code Without Human Review Creates Production Risk]]—consequence: probabilistic outputs + no review = high risk.
 
 ### Tensions
 
 Some LLM applications benefit from this behavior: creative writing, exploratory ideation, brainstorming. The tension is not whether probabilism exists, but whether it's compatible with the application domain.
 
-[depends_on:: [[Vibe Coding - Rapid AI-Assisted Code Generation Without Engineering Rigor]], strength=4, confidence=high]

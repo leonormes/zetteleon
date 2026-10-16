@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-01-03T09:45:08+00:00
 epistemic_status: low
 evidence_links: []
-modified: 2026-09-29T10:37:49+00:00
+modified: 2026-10-13T09:34:45+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/claim-a-note-that-does-not-help-you-act-is-noise
 position-date: 2026-08-29
@@ -37,7 +37,7 @@ Not because it is false, but because it applies the wrong unit, latency and dire
 - Latency. It demands the payoff be visible now. Model formation is slow.
 - Direction. It asks a note to justify itself forward. Models are validated backward, by the quality of the action taken under them.
 
-It is therefore a category error about granularity rather than a false claim. Read against the thinking layer it defines the entire Zettelkasten as noise, because a proposition note exists to be _falsifiable_, not actionable ([[Propositions Are the only Thing that Can Be Wrong]]).
+It is therefore a category error about granularity rather than a false claim. Read against the thinking layer it defines the entire Zettelkasten as noise, because a proposition note exists to be _falsifiable_, not actionable ([[Propositions Are the Only Thing That Can Be Wrong]]).
 
 Its procedural twin, retired at the same time, is [[Claim - Thinking That Cannot Name Its Resulting Action Is Procrastination]].
 

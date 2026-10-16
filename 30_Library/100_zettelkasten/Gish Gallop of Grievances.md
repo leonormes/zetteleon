@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-11-11T12:14:58+00:00
 last_reviewed: ''
-modified: 2026-09-29T10:37:52+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/gish-gallop-of-grievances
 see_also: []
 superseded_by: ''
@@ -79,3 +79,7 @@ When you feel you are conceding too much, you can gently introduce the concept o
 This brings the focus back to actionable, reciprocal respect, which is the only way to move past the stalemates.
 
 Would you like to practise responding to the "You Do It Too" deflection next, using the Agenda Parking technique?
+
+### Related
+
+- [[The No Solution Deflection in Difficult Conversations]]—*a derailing tactic with a similar effect.*

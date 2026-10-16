@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-26T11:06:00+00:00
 last_reviewed: 'null'
-modified: 2026-09-29T10:38:00+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/theming-days-for-adhd-focus
 tags: [focus, planning, TheHuman/Health/ADHD, topic/productivity]
 title: Theming Days for ADHD Focus
@@ -37,3 +37,4 @@ _Source: Synthesized from notes on ADHD productivity hacks._
 
 - [[Day Theming is a Macro Time Blocking Strategy]] - Explains the fundamental mechanics of the technique.
 - [[Hyperfocus is a State of Intense Interest-Driven Focus in ADHD]] - Shows how this strategy can induce flow states.
+- [[Practice - Micro-tasking and time-boxing]]—*the daily practice inside each themed day.*

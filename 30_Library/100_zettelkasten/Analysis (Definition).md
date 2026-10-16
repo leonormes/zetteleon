@@ -2,7 +2,7 @@
 aliases: [Mathematical Analysis, Real Analysis]
 created: 2025-11-01T11:22:13+00:00
 last_reviewed: '2025-11-01'
-modified: 2026-09-29T10:37:47+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/analysis-definition
 status: seed
 tags: [fields, topic/maths]
@@ -20,3 +20,7 @@ Foundation: Analysis is built on a deep understanding of the structure of the re
 Key Concepts: ε-δ definitions of limits, convergence of sequences and series, continuity, uniform convergence, measure theory, and functional analysis.
 
 Purpose: Analysis ensures that intuitions about continuous functions and infinitesimal quantities are placed on rigorous logical footing.
+
+### Related
+
+- [[Calculus (Definition)]]—*analysis grew out of calculus.*

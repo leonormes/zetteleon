@@ -2,7 +2,7 @@
 aliases: [Immutable Trait Reframe, Shutting Down Change]
 conformant: false
 created: 2025-12-24T12:00:00+00:00
-modified: 2026-09-29T10:37:59+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/the-no-solution-deflection-in-difficult-conversations
 tags: [communication, deflection, relationships]
@@ -34,3 +34,7 @@ Notice what they _don't_ say:
 - "I am sorry I am hurting you."
 
 The "No Solution" claim signals a transition from Path 3 (Growth) to Path 2 (Acceptance of incompatibility).
+
+### Related
+
+- [[Gish Gallop of Grievances]]—*another derailing tactic.*

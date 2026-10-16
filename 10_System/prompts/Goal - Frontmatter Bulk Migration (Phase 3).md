@@ -9,6 +9,9 @@ title: Goal - Frontmatter Bulk Migration (Phase 3)
 type: prompt
 ---
 
+> [!danger] Superseded: do not re-run
+> This 2026-07-11 task would write `prodos.kind: atomic` and `prodos.atomic.form` onto atomic notes, which the 2026-09-26 amendment to [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]] §4 forbids (the Obsidian Linter deletes the key). Its validator path `gemini-scribe/scripts/validate_note_frontmatter.py` never existed; the real one is `10_System/scripts/validate_note_frontmatter.py`. `raw/`, `wiki/`, `output/` and `log.md` no longer exist in this vault. Kept as a historical record only.
+
 ## /goal—Frontmatter Bulk Migration (Phase 3)
 
 You are executing Phase 3 (bulk normalisation) of [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]. That SoT is the canonical spec; its §6 legacy mapping table governs every transformation. This prompt adds scope, ordering, and safety rails only.

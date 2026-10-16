@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-07-21T13:34:27+00:00
 last_reviewed: ''
-modified: 2026-09-29T10:37:56+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/public-perception-of-maths-is-incomplete
 tags: [idea/maths-education, idea/perception, status/seedling]
 title: Public perception of maths is incomplete
@@ -19,3 +19,7 @@ The general public's view of mathematics is not incorrect, but it only covers a 
 My Thoughts & Implications:
 
 This implies that maths education fails to communicate the creative, exploratory side of the subject. It teaches students to be mechanics but rarely shows them that an engineer's role even exists. This could be why many people who enjoy creative or abstract thinking feel alienated by school maths. It also raises a question: Should the goal of maths education be to create more "mechanics" or to expose more students to the "engineering" mindset?
+
+### Related
+
+- [[Mathematics Involves Creativity and Aesthetic Judgement]]—*the creative side the public view misses.*

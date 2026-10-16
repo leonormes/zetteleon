@@ -33,7 +33,6 @@ Used within frameworks like Archon to define the execution logic of agentic harn
 ### Related
 
 - [[Graph-Based Orchestration]]—direct concept match: YAML serves as the persistence format for the orchestration graph.
-- [[CLI Interoperability for Agents]]—shared mechanism: YAML nodes often trigger the small, interoperable tools required for agent execution.
 
 ### See Also
 

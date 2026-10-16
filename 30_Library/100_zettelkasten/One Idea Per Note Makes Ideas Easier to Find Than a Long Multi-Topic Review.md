@@ -5,7 +5,7 @@ created: 2026-09-26T10:30:00+00:00
 created_utc: '2026-09-26T10:30:00Z'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-29T10:37:55+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/100-zettelkasten/one-idea-per-note-makes-ideas-easier-to-find-than-a-long-multi-topic-review
 proposition: Recording one idea per note makes the ideas easier to find than keeping
   a long review of a whole book.
@@ -41,3 +41,4 @@ Allosso speaks from experience of looking for a particular point in a long revie
 - [[The Atomicity Principle - One Idea Per Note]]—extends: retrieval is one reason for the principle
 - [[Long Notes Holding Divergent Ideas Turn Writing Into Triage]]—shared mechanism: a long note hides the point that is looked for
 - [[Literature Notes Bridge Source Material and Main Notes]]—shared mechanism: literature notes hold brief citations, not an extensive summary of the source
+- [[Recording One Idea Per Note Trains Succinct Writing in Plain Language]]—*a second benefit of the same habit: it trains plain, succinct expression.*

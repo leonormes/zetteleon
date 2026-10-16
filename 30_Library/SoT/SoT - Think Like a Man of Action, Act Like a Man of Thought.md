@@ -2,7 +2,7 @@
 aliases: ["Bergson's Principle", Action-Oriented Thinking, MVA]
 conformant: true
 created: 2025-12-07T00:00:00+00:00
-modified: 2026-09-29T10:38:16+00:00
+modified: 2026-10-16T00:00:00+00:00
 permalink: llmeon/30-library/so-t/so-t-think-like-a-man-of-action-act-like-a-man-of-thought
 tags: [action, TheHuman/Health/ADHD, thinking, topic/productivity]
 tier: 1-Foundation
@@ -71,3 +71,16 @@ Real-world data beats theoretical models.
 - [[SoT - The Nature of Time and Perception]] (The "Starting Gun" Myth)
 - [[Protocol - Action-First GTD (LLM Chief of Staff)]]
 - [[SoT - Indistractable Model (Focus Management)]]
+
+[synthesizes:: [[Claim - Thinking That Cannot Name Its Resulting Action Is Procrastination]], confidence=medium]
+
+- [[Claim - Thinking That Cannot Name Its Resulting Action Is Procrastination]]—_Protocol A's forcing question stated as a standalone claim._
+
+- [[Claim - Thinking Earns Its Place by Improving Model Fidelity]]—_The counterweight: it revises the claim above, so Protocol A's "stop and act" has a limit when the thinking is improving the model._
+- [[SoT - The Atelic Intellectual Life]]—_Live tension: it argues intellectual work has value outside any resulting action, which this SoT's action test would discount._
+- [[Claim - Action Precedes Motivation Is a Directional Heuristic, Not an Absolute Law]]—_Qualifies Protocol D's act-first stance as a heuristic; it already extends this SoT._
+- [[Claim - Stripping Away Systems Under-Weights the Need for Pre-Committed External Prosthetics]]—_Adds that the trigger for the action should be decided before the moment it is needed; it already extends this SoT._
+- [[The 5-Minute Action Overcomes Initiation Barriers]]—_A concrete small-start technique in the spirit of Protocol B._
+- [[Executive Dysfunction - The Root of Analysis Paralysis]]—_The mechanism behind the "Thinker" Trap in section 2._
+- [[SoT - Perfectionism and Analysis Paralysis]]—_The wider treatment of the Thinker Trap._
+- [[The Collector's Fallacy Conflates Gathering with Assimilation]]—_The "Encyclopedia Building" form of the Thinker Trap._

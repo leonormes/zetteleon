@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-03-02T12:09:10+00:00
 last_reviewed: ''
-modified: 2026-09-29T10:38:00+00:00
+modified: 2026-10-16T09:00:00+00:00
 permalink: llmeon/30-library/200-projects/the-k8s-service-abstraction
 project_category: infrastructure
 project_name: k8s
@@ -118,3 +118,8 @@ Services are the fundamental networking abstraction in Kubernetes. Focus on Serv
 Services are the fundamental networking abstraction in Kubernetes. Focus on Services to manage and scale your applications effectively.
 
 By adopting this perspective, you'll be able to leverage the full power of Kubernetes' networking capabilities and build more resilient and scalable applications.
+
+### Related
+
+- [[Services]]—*the concise statement of the Service purpose.*
+- [[Kube-Proxy Implements Services Using Iptables or IPVS]]—*how the Service abstraction is realised on each node.*

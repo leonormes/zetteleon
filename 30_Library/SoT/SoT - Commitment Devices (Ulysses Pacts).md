@@ -2,7 +2,7 @@
 aliases: [Pre-commitment Strategy, Strategic Constraint, Ulysses Pact]
 conformant: true
 created: 2026-01-12T12:20:00+00:00
-modified: 2026-09-29T10:38:08+00:00
+modified: 2026-10-16T00:00:00+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-commitment-devices-ulysses-pacts
 tags: [behavioral-science, prodos/sot, strategy]
@@ -39,3 +39,15 @@ The "Adult Mind" (Rational) is often present _now_ but knows the "Childish Mind"
     - _Example:_ Posting a goal on social media.
 
 Core Axiom: If you trust your future self to "do the right thing," you have already failed. Lock the door while you still have the key.
+
+## Related
+
+- [[Use Intentional Friction to Curb Impulse Spending]] - *A worked Hard or Price Constraint in the spending domain.* [synthesizes:: [[Use Intentional Friction to Curb Impulse Spending]], confidence=medium]
+- [[External Accountability Sustains ADHD Project Commitment]] - *The Social Constraint type, with the ADHD rationale for why it works.* [synthesizes:: [[External Accountability Sustains ADHD Project Commitment]], confidence=medium]
+- [[Claim - Stripping Away Systems Under-Weights the Need for Pre-Committed External Prosthetics]] - *Argues the trigger should be decided and externalised before the moment of need, which is the pact logic.* [synthesizes:: [[Claim - Stripping Away Systems Under-Weights the Need for Pre-Committed External Prosthetics]], confidence=medium]
+- [[Implementation Intentions Automate Action Initiation with If-Then Plans]] - *A lighter pre-commitment: the decision is made in advance, though nothing enforces it.*
+- [[Akrasia is Acting Against One's Better Judgment]] - *The failure these pacts are designed to survive.*
+- [[Commitment, Consistency, and Sunk Cost Fallacy]] - *The consistency pressure that Social Constraints exploit on purpose.*
+- [[Never Return an Item to the In-Tray Once Picked Up for Clarification]] - *A no-return rule applied as a Ulysses Pact to task handling.*
+- [[SoT - The Childish Mind (Behavioral Resistance)]] - *Names the Childish Mind that these pacts guard against.*
+- [[SoT - Behavioral Architecture]] - *Places commitment devices among forcing functions in section 3.2.*

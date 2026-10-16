@@ -22,7 +22,7 @@ A zettel here is a proposition card: one idea, stated as a complete sentence in 
 | Principle | Where it comes from |
 |---|---|
 | One idea per note, in complete sentences, in your own words | [[Main Notes Are the Essential Building Blocks]], [[Elaboration Through Own Words Deepens Understanding]], [[The Atomicity Principle - One Idea Per Note]] |
-| The note is a proposition, something that can be wrong, and a claim is titled by the sentence itself | [[Propositions Are the only Thing that Can Be Wrong]], [[Proposition-Centred Notes Create Cognitive Leverage That Topical Notes Lack]] |
+| The note is a proposition, something that can be wrong, and a claim is titled by the sentence itself | [[Propositions Are the Only Thing That Can Be Wrong]], [[Proposition-Centred Notes Create Cognitive Leverage That Topical Notes Lack]] |
 | One canonical note per idea, linked from everywhere else | [[Linking as a Redundancy Reduction Strategy in Zettelkasten]] |
 | A link carries its reason: part of, similar or different, complements or competes | [[Key questions when linking notes in the Zettelkasten method]] |
 | The right level of atomicity is personal, so measurable limits are prompts for review and not verdicts; a "but" or a "however" is the usual sign of a second idea | [[Atomic Enough Means the Fewest Pieces Necessary to Be Useful for the Task]], [[The Words But and However Signal That What Follows May Deserve Its Own Note]], [[The Notes of Luhmann Were Atomic-ish, Concise but Not Constrained]] |

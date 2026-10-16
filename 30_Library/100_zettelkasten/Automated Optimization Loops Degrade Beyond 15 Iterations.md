@@ -2,7 +2,7 @@
 aliases: [Optimal Iteration Count]
 conformant: false
 created: 2026-04-10T00:00:00+00:00
-modified: 2026-09-29T10:37:48+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/automated-optimization-loops-degrade-beyond-15-iterations
 tags: [iterations, optimization, quality-control, token-management]
@@ -34,7 +34,7 @@ Specifically covers iterative improvement cycles where an agent attempts to refi
 
 - [[SoT - Agentic AI Design Patterns]]—direct concept match: the "Reflection" pattern (iterative critic-refine loop) is the exact mechanism this heuristic governs; the atom provides a concrete bound for a pattern that the SoT describes structurally but does not constrain numerically.
 - [[Shrinking the Loop Gathers Experiential Feedback Safely]]—shared mechanism: both advocate for bounded, controlled iteration over unlimited looping; the contexts differ (cognitive/ADHD overthinking vs. automated optimization), but the structural insight—that loop size must be constrained to avoid compounding noise—is shared.
+- [[Heartbeat Intervention Protocol]]—*the active interrupt mechanism: CORAL's plateau trigger is a concrete way to enforce the iteration ceiling this claim recommends.*
 
 ### See Also
 
-- [[Deep Agents for Long Horizon Planning]]

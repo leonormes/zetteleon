@@ -2,7 +2,7 @@
 aliases: [Habits Override Intentions]
 conformant: false
 created: 2025-11-06T19:56:01+00:00
-modified: 2026-09-29T10:37:58+00:00
+modified: 2026-10-16T09:00:00+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/strong-habits-override-weak-intentions
 tags: [intentions, TheHuman/Habits, TheHuman/Motivation, topic/systems]
@@ -15,3 +15,7 @@ type: claim
 Summary: Systems are effective because they build strong, automatic habits that reliably override conscious intentions, which are often weak and inconsistent.
 
 Details: Psychological studies show that intentions (goals) are poor predictors of behavior, especially for frequently repeated actions. When motivation is low, a person will default to their established habits, not their stated goals. A system ensures progress by making desired actions automatic, removing the need to rely on willpower or fluctuating motivation. This is the difference between temporarily achieving a goal (like cleaning a room) and maintaining the outcome by changing the underlying habits.
+
+### Related
+
+- [[Habits are Automatic Behaviors Triggered by Environmental Cues]]—*the mechanism.*
