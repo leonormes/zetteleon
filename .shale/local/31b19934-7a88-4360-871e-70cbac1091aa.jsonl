@@ -31,3 +31,5 @@
 {"kind":"completion","at":"2026-10-20T14:59:57.631387Z","model":"claude-sonnet-5-5","note":"Removed 12 dangling typed edges (targets trashed); lint 0 errors"}
 {"kind":"command","at":"2026-10-20T14:59:57.814946Z","cmd":"shale done --note \"Removed 12 dangling typed edges (targets trashed); lint 0 errors\" --model claude-sonnet-5-5"}
 {"kind":"session_end","at":"2026-10-20T15:00:01.718758Z"}
+{"kind":"intent","at":"2026-10-20T15:05:31.289214Z","title":"Delete Aerobic Deficiency Syndrome and related aerobic/anaerobic notes via Obsidian CLI","body":"User requested deleting Aerobic Deficiency Syndrome Results from an Underdeveloped Aerobic System and all related notes (Aerobic Function Efficiently Burns Fat for Long-Term Energy and Anaerobic Function Relies on Glycogen and Increases Physiological Stress) to Obsidian trash."}
+{"kind":"completion","at":"2026-10-20T15:05:55.013846Z","note":"Deleted Aerobic Deficiency Syndrome Results from an Underdeveloped Aerobic System.md and related notes (Aerobic Function Efficiently Burns Fat for Long-Term Energy.md, Anaerobic Function Relies on Glycogen and Increases Physiological Stress.md) to Obsidian trash via Obsidian CLI"}
