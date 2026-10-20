@@ -35,4 +35,4 @@ Trigger—a specific, named safety behaviour (over-preparation, reassurance-seek
 ### Related
 
 - [[Reassurance-Seeking Relieves Anxiety Without Testing Whether the Feared Outcome Was Real]]—extends: this procedure is a structured way to get the corrective experience that mechanism says is missing.
-- [[A Behavioural Experiment Tests a Feared Prediction Under Safe Conditions Instead of Arguing With It]]—shared mechanism: both replace argument with a designed, safe test of the feared outcome.
+- [[How to Run a Behavioural Experiment That Tests a Feared Prediction Under Safe Conditions Instead of Arguing With It]]—shared mechanism: both replace argument with a designed, safe test of the feared outcome.

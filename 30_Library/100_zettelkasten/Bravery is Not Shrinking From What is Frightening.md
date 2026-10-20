@@ -28,7 +28,7 @@ It is a core component of resilience and personal growth.
 
 - [[VIA Virtue of Courage]]—_The virtue this strength belongs to._
 - [[Discomfort Signals Growth Potential]]—_Reads the discomfort that bravery acts through as a sign of growth rather than a stop signal._
-- [[A Behavioural Experiment Tests a Feared Prediction Under Safe Conditions Instead of Arguing With It]]—_A practical way to act despite fear by testing the feared outcome._
+- [[How to Run a Behavioural Experiment That Tests a Feared Prediction Under Safe Conditions Instead of Arguing With It]]—_A practical way to act despite fear by testing the feared outcome._
 - [[Resilience is the Ability to Bounce Back from Setbacks]]—_The note says bravery is a core component of resilience._
 - [[Perseverance is Finishing What One Starts Despite Obstacles]]—_Sibling strength under the same virtue: bravery starts the hard thing and perseverance finishes it._
 - [[Honesty is Being Truthful and Sincere]]—_Sibling strength under the same virtue: speaking up for what is right is the shared edge between the two._
