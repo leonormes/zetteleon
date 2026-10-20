@@ -65,7 +65,6 @@ Reduce cognitive overload and create a clear definition of a "successful day" by
 
 [depends_on:: [[Concurrent Task Overload Creates Non-Linear Administrative Overhead That Destroys Focus]], strength=5, confidence=high]
 
-[extends:: [[The Five-Item To-Do List Reduces Overwhelm]], strength=3, confidence=medium]
 
 <!--content-block-end-->
 

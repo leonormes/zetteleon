@@ -5,10 +5,14 @@ contradicts: []
 created: 2025-09-07T15:32:45+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-29T10:37:47+00:00
+modified: 2026-10-19T16:26:26+00:00
 permalink: llmeon/30-library/100-zettelkasten/achieving-mental-stability
 proposition: Mental stability arises from removing expectations and aligning reality with what actually is, achieved through a continuous path of practice and self-awareness rather than reached as a final destination.
-tags: [emotional_regulation, musashi, stoicism, TheHuman/Philosophy]
+tags:
+- emotional_regulation
+- musashi
+- stoicism
+- TheHuman/Philosophy
 title: Achieving Mental Stability
 type: claim
 ---
@@ -26,3 +30,12 @@ Musashi advised removing expectations to prevent emotional turmoil. He stated th
 - [[SoT - Miyamoto Musashi's Philosophy on Mastering Emotions]] [extends:: [[SoT - Miyamoto Musashi's Philosophy on Mastering Emotions]]] - _The overarching framework for cultivating Heijo-shin (Ordinary Mind)._
 - [[Letting Go of Fixed Views Leads to Peace]] [supports:: [[Letting Go of Fixed Views Leads to Peace]]] - _Aligning reality with expectations requires dropping rigid preconceptions._
 - [[Miyamoto Musashi]] - _The core author of this philosophy._
+- [[Morita Therapy - Arugamama is Accepting Reality As It Is]] [supports:: [[Morita Therapy - Arugamama is Accepting Reality As It Is]], confidence=medium] - _A separate Japanese tradition reaching the same stance: accept reality as it is, without resistance._
+- [[Decoupling Ego from Outcomes to Improve Decisions]] [supports:: [[Decoupling Ego from Outcomes to Improve Decisions]], confidence=medium] - _Separating self-worth from results is a practical form of dropping outcome expectations (inferred)._
+- [[Unrealistic expectations are the main obstacle to building ADHD routines]] [supports:: [[Unrealistic expectations are the main obstacle to building ADHD routines]], confidence=medium] - _The same expectation mechanism, seen in ADHD routine-building (inferred)._
+- [[Understanding Emotion]] - _Musashi's third option: embrace emotions rather than react to or suppress them._
+- [[Mushin No Shin Mind Without Mind]] - _The state of fluent action without emotion or hesitation that stability makes possible._
+- [[The External World is Neutral]] - _Musashi: it is our inner state and perception, not the world, that shapes experience._
+- [[Beliefs Set Expectations That Shape Felt Experience Through the Experience Loop]] - _The mechanism by which expectations drive physiological and emotional response._
+- [[A Sense of Control Is Belief in an Available Response, Not a Guarantee Against Bad Outcomes]] - _A counterweight: control as an available response, not a guaranteed outcome (inferred)._
+- [[Taru o shiru is the practice of contentment with what one has]] - _Contentment with what one has is the positive counterpart of dropping expectations (inferred)._

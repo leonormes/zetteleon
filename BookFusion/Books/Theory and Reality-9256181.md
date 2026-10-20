@@ -17,7 +17,7 @@ permalink: llmeon/book-fusion/books/theory-and-reality-9256181
 **Book URL**: https://reader.bookfusion.com/books/9256181-theory-and-reality?type=epub_reflowable
 **Description**: How does science work? Does it tell us what the world is “really” like? What makes it different from other ways of understanding the universe? In Theory and Reality, Peter Godfrey-Smith addresses these questions by taking the reader on a grand tour of more than a hundred years of debate about science. The result is a completely accessible introduction to the main themes of the philosophy of science. Examples and asides engage the beginning student, a glossary of terms explains key concepts, and suggestions for further reading are included at the end of each chapter. Like no other text in this field, Theory and Reality combines a survey of recent history of the philosophy of science with current key debates that any beginning scholar or critical reader can follow. The second edition is thoroughly updated and expanded by the author with a new chapter on truth, simplicity, and models in science. 
 **Date Added**: 2026-09-04 09:59:38 UTC
-**Last Updated**: 2026-10-14 22:19:45 UTC
+**Last Updated**: 2026-10-18 21:00:44 UTC
 **Progress**: <progress max="100" value="8.5">8.5%</progress>
 
 ---

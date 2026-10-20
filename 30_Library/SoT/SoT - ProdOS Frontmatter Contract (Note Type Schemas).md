@@ -37,7 +37,7 @@ Any agent touching frontmatter MUST return a `FrontmatterContract` object. This 
 | Field | Required | Type | Rule |
 |:------|:---------|:-----|:-----|
 | `title` | Yes | string | Matches filename. |
-| `type` | Yes | string | `claim`, `concept`, `evidence`, `question`, `procedure`, `protocol`, `map`, `journal`, `project`, `sot`, `link_report`, `equipment`, `source`, `prompt`. |
+| `type` | Yes | string | `claim`, `concept`, `evidence`, `question`, `procedure`, `protocol`, `map`, `journal`, `project`, `sot`, `link_report`, `equipment`, `source`, `prompt`, `tombstone`. |
 | `project_name` | No | string | Parent project context if applicable. |
 | `project_category` | No | string | e.g. `prodos`, `devops`, `personal`. |
 | `status` | No | string | `draft`, `seed`, `stable`, `evergreen`, `stale`, `superseded`. |

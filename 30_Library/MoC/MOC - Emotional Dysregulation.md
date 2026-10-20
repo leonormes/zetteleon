@@ -53,3 +53,5 @@ ADHD brains process emotions differently, leading to "intense or unpredictable e
 - [[Self-Regulation is Managing Your Emotions and Actions]] - *The general capacity this map is about when it fails.*
 - [[SoT - ADHD Self-Compassion & Strengths]] - *The strengths-based response to secondary shame.*
 - [[SoT - The Philosophy of the Absurd (Camus)]] - *Source for the Sisyphus reframe mentioned above.*
+- [[Achieving Mental Stability]] - *Musashi: removing expectations prevents emotional turmoil, and stability is a continuous practice, not a destination.*
+- [[Fudo The Path of Immovability]] - *Musashi's unshakable composure, the mental stability he held paramount.*

@@ -6,20 +6,23 @@ created: 2026-09-24T12:00:00+00:00
 epistemic_status: medium
 evidence_links: []
 modified: 2026-09-29T10:37:53+00:00
-non_conformance_reason: ''
+non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/information-answers-who-what-when-and-where-questions-while-knowledge-answers-why-and-how
 prodos.atomic.form: heuristic
 prodos.kind: atomic
 prodos.lifecycle: seed
-proposition: Information answers who, what, when and where questions, whereas knowledge
-  answers why and how questions.
+proposition: Information answers who, what, when and where questions, whereas knowledge answers why and how questions.
 source_title: AI chat session on what knowledge is (captured in 21-wtf_is_knowledge_anyway)
 source_url: UNKNOWN
 status: seed
-tags: [distinction, epistemology, information, knowledge]
+tags:
+  - distinction
+  - epistemology
+  - information
+  - knowledge
 title: Information Answers Who, What, When and Where Questions While Knowledge Answers Why and How
 type: claim
-upstream: '[[21-wtf_is_knowledge_anyway]]'
+upstream: "[[WTF is Knowledge Anyway]]"
 ---
 
 ## Information Answers Who, What, When and Where Questions While Knowledge Answers Why and How

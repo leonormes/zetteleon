@@ -23,6 +23,5 @@ The ecological framework replaces the axiomatic framework (which assumes a singl
 - [[Self-Change Refutes the Determinism of the Plant Metaphor]]—_While the plant metaphor encourages compassion, its implied determinism is a flaw._
 [depends_on:: [[Self-Change Refutes the Determinism of the Plant Metaphor]]]
 - [[Mistaking the Map for the Territory]]—_We must separate the person's 'map' from the territory they are trying to navigate._
-[extends:: [[Mistaking the Map for the Territory]]]
 - [[Truth-Status Belongs to Propositions, Not Persons]]—_Because minds are ecological products, truth evaluation should only apply to their propositional outputs._
 [supports:: [[Truth-Status Belongs to Propositions, Not Persons]]]

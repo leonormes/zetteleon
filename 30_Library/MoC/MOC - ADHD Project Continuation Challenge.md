@@ -41,6 +41,7 @@ Lower the activation energy required to move from "Off" to "On."
 - [[The Hemingway Technique - End Work With Unfinished Problems]]: Stop mid-sentence or mid-function. Leave a "broken" state that is obvious and easy to fix.
 - [[A Project Playlist is a Sequence of Small Tasks to Rebuild Momentum]]: A curated 3-5 task list of "shallow" wins to rebuild the mental model.
 
+- [[What's Next Loop within Time Box (ADHD Superpower)]]: Inside a deep-dive block, keep asking for the very next physical action towards 'Done' and do it just-in-time.
 ### C. Build Rituals & Environment
 
 Use external cues to trigger the "Project Identity."

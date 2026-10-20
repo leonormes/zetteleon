@@ -20,15 +20,14 @@ modified: 2026-10-04T20:06:20+00:00
 
 
 **Date Added**: 2026-01-16 09:49:16 UTC
-**Last Updated**: 2026-10-04 20:23:30 UTC
-**Progress**: <progress max="100" value="6.32">6.32%</progress>
+**Last Updated**: 2026-10-18 21:00:06 UTC
+**Progress**: <progress max="100" value="3.1">3.1%</progress>
 
 ---
 
 ## Highlights & Notes
 
 %%end-book-7533298%%
-
 %%begin-highlight-5595170%%
 ### Chapter 1
 
@@ -64,7 +63,6 @@ modified: 2026-10-04T20:06:20+00:00
 %%begin-highlight-5596655%%
 ![[BookFusion/Books/Armed Struggle The History of the IRA-7533298/5596655|5596655]]
 %%end-highlight-5596655%%
-
 %%begin-highlight-5595347%%
 ![[BookFusion/Books/Armed Struggle The History of the IRA-7533298/5595347|5595347]]
 %%end-highlight-5595347%%

@@ -19,5 +19,4 @@ Your mind generates; your system stores. [supports:: [[Cognitive Offloading Free
 
 - [[SoT - Prosthetic Executive Function]] - _A broader system that relies on aggressive externalisation to compensate for recall limitations._ [extends:: [[SoT - Prosthetic Executive Function]]]
 - [[Epistemic Actions - Thinking via Doing]] - _Physical manipulation of information as a form of cognitive offloading._
-- [[Persistent Memory Layers Enable Multi-Session Agent Continuity]] - _Applying cognitive offloading principles to AI agents._ [extends:: [[Persistent Memory Layers Enable Multi-Session Agent Continuity]]]
 - [[Spatial Arrangement Externalises Relational Structure to Reduce Working Memory Load]] - _A specific technique within the broader strategy of cognitive offloading._

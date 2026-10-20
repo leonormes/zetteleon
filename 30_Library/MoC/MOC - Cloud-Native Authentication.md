@@ -43,3 +43,4 @@ Authentication proves identity; Authorization defines the boundaries.
 - Signing: `RS256`, `ES256`, `EdDSA` (Ed25519).
 - Hashing: `SHA-256`.
 - Encryption: `AES-GCM` (Symmetric), `RSA-OAEP` (Asymmetric).
+- How the two combine: [[Hybrid Encryption Combines Symmetric Speed with Asymmetric Security]]—*the symmetric key encrypts the data, the asymmetric key protects that key.*

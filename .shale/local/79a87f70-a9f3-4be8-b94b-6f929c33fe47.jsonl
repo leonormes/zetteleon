@@ -20,3 +20,4 @@
 {"kind":"completion","at":"2026-10-16T13:47:10.588613Z","note":"Applied cues 4-9 from second Gemini capture to Anchor, Release, Follow-through"}
 {"kind":"command","at":"2026-10-16T13:47:10.747238Z","cmd":"python3 - \u003c\u003c'EOF'\nfn=\"Archery Shot Process - Follow-through.md\"\ns=open(fn).read()\nold=\"\\n- Coach Jared Gracious (Rogue Archery TV)\"\nassert s.count(old)==1\ns=s.replace(old,\"\\n- Gemini chat on the anchor as rear sight and its role through release (captured 2026-10-16; cited sources not named, unverified)\"+old)\nopen(fn,'w').write(s)\nEOF\nshale done --note \"Applied cues 4-9 from second Gemini capture to Anchor, Release, Follow-through\""}
 {"kind":"session_end","at":"2026-10-16T13:47:16.096674Z"}
+{"kind":"session_end","at":"2026-10-16T13:49:27.871539Z"}

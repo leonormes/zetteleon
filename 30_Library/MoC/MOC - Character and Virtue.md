@@ -159,7 +159,7 @@ The most important section for practical use. A virtue vocabulary is a precision
 Other answers to the same question, kept separate rather than assimilated into VIA.
 
 - [[SoT - Logotherapy and the Will to Meaning]]—Frankl. Meaning as the primary motivation; [[Meaning Is Discovered Through Creative Experiential and Attitudinal Values]] and [[Tragic Optimism Is Hope and Meaning That Acknowledges Rather Than Denies the Tragic Triad]].
-- [[SoT - Miyamoto Musashi's Philosophy on Mastering Emotions]]—_heijō-shin_, ordinary mind. Emotional mastery as constancy, not suppression.
+- [[SoT - Miyamoto Musashi's Philosophy on Mastering Emotions]]—_heijō-shin_, ordinary mind. Emotional mastery as constancy, not suppression; [[Achieving Mental Stability]] is its claim that dropping expectations, practised as a path, is how that constancy arises, and [[Fudo The Path of Immovability]] names the unshakable composure itself.
 - [[SoT - Wabi-Sabi]] and [[Taru o shiru is the practice of contentment with what one has]]—Japanese aesthetics of imperfection and sufficiency; a direct counter to perfectionist readings of a character ideal.
 - [[SoT - The Philosophy of the Absurd (Camus)]]—the rival position: meaning is constructed in defiance, not discovered.
 - [[SoT - Peter Singer's Famine, Affluence, and Morality]]—the consequentialist rival to virtue ethics. Asks what you must _do_, not what you must _be_.

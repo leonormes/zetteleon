@@ -6,20 +6,22 @@ created: 2026-09-24T12:00:00+00:00
 epistemic_status: medium
 evidence_links: []
 modified: 2026-09-29T10:37:47+00:00
-non_conformance_reason: ''
+non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/an-effective-knowledge-representation-needs-representational-adequacy-inferential-adequacy-and-efficiency-and-acquisitional-efficiency
 prodos.atomic.form: constraint
 prodos.kind: atomic
 prodos.lifecycle: seed
-proposition: An effective knowledge representation has representational adequacy,
-  inferential adequacy and efficiency, and acquisitional efficiency.
+proposition: An effective knowledge representation has representational adequacy, inferential adequacy and efficiency, and acquisitional efficiency.
 source_title: AI chat session on what knowledge is (captured in 21-wtf_is_knowledge_anyway)
 source_url: UNKNOWN
 status: seed
-tags: [ai, criteria, knowledge-representation]
+tags:
+  - ai
+  - criteria
+  - knowledge-representation
 title: An Effective Knowledge Representation Needs Representational Adequacy, Inferential Adequacy and Efficiency, and Acquisitional Efficiency
 type: claim
-upstream: '[[21-wtf_is_knowledge_anyway]]'
+upstream: "[[WTF is Knowledge Anyway]]"
 ---
 
 ## An Effective Knowledge Representation Needs Representational Adequacy, Inferential Adequacy and Efficiency, and Acquisitional Efficiency

@@ -64,6 +64,5 @@ Source: "LLM Reliability Engineering: Fix hallucinations, errors, & unpredictabl
 
 - [[SoT - Schema Design for LLM Integration]]
 
-[supports:: [[LLM Probabilistic Outputs Prevent Consistency Guarantees]], strength=4, confidence=high]
 
 [implements:: [[Tool Use and Deterministic Delegation Reduce LLM Hallucination in Specific Domains]], strength=3, confidence=high]

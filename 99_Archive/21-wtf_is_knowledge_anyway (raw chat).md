@@ -7,7 +7,7 @@ title: 21-wtf_is_knowledge_anyway (raw chat)
 permalink: llmeon/99-archive/21-wtf-is-knowledge-anyway-raw-chat
 ---
 
-> Raw AI chat transcript preserved before atomisation on 2026-09-24. Distilled into [[21-wtf_is_knowledge_anyway]] and its atoms.
+> Raw AI chat transcript preserved before atomisation on 2026-09-24. Distilled into [[WTF is Knowledge Anyway]] and its atoms.
 
 ## WTF is Knowledge Anyway
 

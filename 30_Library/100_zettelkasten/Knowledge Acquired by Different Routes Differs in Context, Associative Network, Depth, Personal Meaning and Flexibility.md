@@ -6,21 +6,22 @@ created: 2026-09-24T12:00:00+00:00
 epistemic_status: low
 evidence_links: []
 modified: 2026-09-29T10:37:53+00:00
-non_conformance_reason: ''
+non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/knowledge-acquired-by-different-routes-differs-in-context-associative-network-depth-personal-meaning-and-flexibility
 prodos.atomic.form: claim
 prodos.kind: atomic
 prodos.lifecycle: seed
-proposition: Two people who hold the same knowledge by different routes differ in
-  contextual understanding, associative network, depth, personal significance and
-  flexibility of application.
+proposition: Two people who hold the same knowledge by different routes differ in contextual understanding, associative network, depth, personal significance and flexibility of application.
 source_title: AI chat session on what knowledge is (captured in 21-wtf_is_knowledge_anyway)
 source_url: UNKNOWN
 status: seed
-tags: [context, individual-differences, knowledge]
+tags:
+  - context
+  - individual-differences
+  - knowledge
 title: Knowledge Acquired by Different Routes Differs in Context, Associative Network, Depth, Personal Meaning and Flexibility
 type: claim
-upstream: '[[21-wtf_is_knowledge_anyway]]'
+upstream: "[[WTF is Knowledge Anyway]]"
 ---
 
 ## Knowledge Acquired by Different Routes Differs in Context, Associative Network, Depth, Personal Meaning and Flexibility

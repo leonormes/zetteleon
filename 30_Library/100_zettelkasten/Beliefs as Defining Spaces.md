@@ -29,7 +29,7 @@ Own reasoning, illustrated with two worked examples of the same mechanism:
 
 ### Implications
 
-- Held onto too literally, a belief stops being a tool and becomes the territory itself—the map gets mistaken for the ground. [depends_on:: [[Mistaking the Map for the Territory]], confidence=medium]
+- Held onto too literally, a belief stops being a tool and becomes the territory itself—the map gets mistaken for the ground.
 - A flawed model becomes a hidden ceiling on what a person believes is possible. [supports:: [[Flawed Mental Models Limit Mastery]], confidence=medium]
 
 ### Related

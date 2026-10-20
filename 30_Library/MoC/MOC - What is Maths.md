@@ -28,6 +28,7 @@ To understand why a single principle remains elusive, we must explore the major 
 - [[Formalism (Mathematics as Symbol Manipulation)]] `rel:: school`—Views mathematics as rule-governed manipulation of meaningless symbols, with consistency as the first principle.
 - [[Intuitionism (Mathematics as Mental Construction)]] `rel:: school`—Asserts that mathematics is mental construction, existing only when explicitly built.
 - [[Structuralism (Mathematics as Study of Structure)]] `rel:: school`—Studies abstract structures and patterns, where identity is determined by relational position.
+- [[Mind-Independent Patterns Would Support the View That Mathematics Is Discovered Rather Than Invented]]—_A physics-based argument that block-universe patterns favour the Platonist side of the debate (inferred)._
 
 ### Cross-Pressures and Critiques
 

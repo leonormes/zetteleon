@@ -145,6 +145,16 @@ There is no third exit. A note that has been `status: open` for six months is a 
 
 ---
 
+
+### 3.1 Tombstones
+
+Decided 2026-07-27, after an audit found about 24 atomic notes citing four merged-and-removed HEAD notes as `upstream`, every one a dangling wikilink. Moved here from [[SoT - Evolutionary Note System]] on 2026-10-17.
+
+- Rule: a HEAD note is not fully retired until its exact title still resolves. Archive it to `99_Archive/`, or, if its content is genuinely gone, create a tombstone at the HEAD's exact original title. Deleting a HEAD with no trace is a violation however many notes cite it as `upstream`.
+- Tombstone shape: `type: tombstone`, `prodos.kind: head`, `prodos.lifecycle: archived`, then one line saying what the HEAD was and which surviving SoT or atomic notes absorbed it, and a list of the notes that cited it as `upstream` at the time. Existing examples are in `99_Archive/`.
+- Why the filename and not an alias: citing notes hold the exact string in an `upstream:` field or a prose wikilink, which the compiler does not resolve as a typed edge. Only a same-titled file fixes them without editing each citing note.
+- Who: Leon, or the Workbench Sweep once he approves its routing table. [[Prompt - ProdOS Chronos Synthesizer]] only lists the proposed tombstone, per AGENTS §6.1.
+- This does not relax supersession: the answer still goes into the living SoT. It only stops the old title becoming an orphaned reference.
 ## 4. Tensions Live in the Queue, Pointers Live in the Canon
 
 A canonical note (`SoT`, `Claim`, `MoC`, project) MUST NOT carry a `## Tensions & Gaps`, `## Open Questions`, or equivalent prose section. Those sections are where open problems go to be forgotten—the reader of an SoT is looking for the answer and skims past the caveats.

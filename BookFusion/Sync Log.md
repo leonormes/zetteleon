@@ -64,3 +64,9 @@ permalink: llmeon/book-fusion/sync-log
 - Theory and Reality-9256181 [Open](obsidian://open?file=BookFusion%2FBooks%2FTheory%20and%20Reality-9256181.md) 0
 ## 10/14/2026, 11:44:43 PM
 - Theory and Reality-9256181 [Open](obsidian://open?file=BookFusion%2FBooks%2FTheory%20and%20Reality-9256181.md) 0
+## 20/10/2026, 13:39:23
+- Armed Struggle The History of the IRA-7533298 [Open](obsidian://open?file=BookFusion%2FBooks%2FArmed%20Struggle%20The%20History%20of%20the%20IRA-7533298.md) 0
+## 10/18/2026, 10:21:25 PM
+- Armed Struggle The History of the IRA-7533298 [Open](obsidian://open?file=BookFusion%2FBooks%2FArmed%20Struggle%20The%20History%20of%20the%20IRA-7533298.md) 0
+## 10/20/2026, 2:23:40 PM
+- Theory and Reality-9256181 [Open](obsidian://open?file=BookFusion%2FBooks%2FTheory%20and%20Reality-9256181.md) 0

@@ -6,7 +6,7 @@ title: 2026-09-24-wtf-is-knowledge
 type: note
 ---
 
-## Atomisation — [[21-wtf_is_knowledge_anyway]] — 2026-09-24
+## Atomisation — [[WTF is Knowledge Anyway]] — 2026-09-24
 
 > Pipeline: [[Atomic Signal Extractor → Write TMP file]] then [[Atomic Linker → Promote & Connect]], run in one pass. 1MCP tools were unavailable, so duplicate checks were lexical (`rg`) plus file reads.
 
@@ -40,7 +40,7 @@ Every evidence quote was checked to be verbatim in the original before writing. 
 | Item | Result |
 |---|---|
 | Original transcript | Preserved unchanged in `99_Archive/21-wtf_is_knowledge_anyway (raw chat).md` |
-| [[21-wtf_is_knowledge_anyway]] | Slimmed to a provenance note: Leon's eight questions verbatim, the atom list, a "covered elsewhere" map, a "not extracted" note and the 32 deduplicated URLs the AI cited. `type: journal`, `conformant: true`. The filename is unchanged, so [[Aristotle Distinguished Between Episteme, Techne, and Phronesis]] and older audits still resolve |
+| [[WTF is Knowledge Anyway]] | Slimmed to a provenance note: Leon's eight questions verbatim, the atom list, a "covered elsewhere" map, a "not extracted" note and the 32 deduplicated URLs the AI cited. `type: journal`, `conformant: true`. The filename is unchanged, so [[Aristotle Distinguished Between Episteme, Techne, and Phronesis]] and older audits still resolve |
 | TMP file | Written to `00_Inbox/tmp_atoms_wtf-is-knowledge.md`, then moved to `.trash/` after promotion, matching earlier runs |
 
 ### Hub links added

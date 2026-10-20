@@ -7,5 +7,4 @@ permalink: llmeon/book-fusion/bookshelves/science
 # Science
 
 [[BookFusion/Books/Theory and Reality-9256181|Theory and Reality]]
-[[BookFusion/Books/Theory and Reality-9256181|Theory and Reality]]
 [[BookFusion/Books/The Beginning Infinity Explanations That Transform the World-3531382|The Beginning Infinity: Explanations That Transform the World]]

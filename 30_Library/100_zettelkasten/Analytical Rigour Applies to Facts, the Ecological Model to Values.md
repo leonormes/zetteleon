@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2026-07-13T22:00:00+00:00
-modified: 2026-09-29T10:37:47+00:00
+modified: 2026-10-20T14:57:51+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/analytical-rigour-applies-to-facts-the-ecological-model-to-values
 status: draft
@@ -24,5 +24,3 @@ Details: The failure mode of the axiomatic mindset is applying theorem-grade tru
 - [[Values Serve as Navigational Compass in Absence of Absolute Truth]]
 
 ## Provenance
-
-Extracted from [[HEAD Being Right or Wrong About Things in Life]] (Gemini conversation, 2026-07-13).

@@ -6,20 +6,22 @@ created: 2026-09-24T12:00:00+00:00
 epistemic_status: low
 evidence_links: []
 modified: 2026-09-29T10:37:53+00:00
-non_conformance_reason: ''
+non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/knowledge-acquired-by-different-routes-keeps-its-factual-content-verifiability-and-practical-application
 prodos.atomic.form: claim
 prodos.kind: atomic
 prodos.lifecycle: seed
-proposition: Two people who hold the same knowledge by different routes are likely
-  to share its factual content, practical application, communicability and verifiability.
+proposition: Two people who hold the same knowledge by different routes are likely to share its factual content, practical application, communicability and verifiability.
 source_title: AI chat session on what knowledge is (captured in 21-wtf_is_knowledge_anyway)
 source_url: UNKNOWN
 status: seed
-tags: [invariants, knowledge, knowledge-sharing]
+tags:
+  - invariants
+  - knowledge
+  - knowledge-sharing
 title: Knowledge Acquired by Different Routes Keeps Its Factual Content, Verifiability and Practical Application
 type: claim
-upstream: '[[21-wtf_is_knowledge_anyway]]'
+upstream: "[[WTF is Knowledge Anyway]]"
 ---
 
 ## Knowledge Acquired by Different Routes Keeps Its Factual Content, Verifiability and Practical Application

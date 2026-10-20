@@ -42,7 +42,6 @@ Core Axiom: If you trust your future self to "do the right thing," you have alre
 
 ## Related
 
-- [[Use Intentional Friction to Curb Impulse Spending]] - *A worked Hard or Price Constraint in the spending domain.* [synthesizes:: [[Use Intentional Friction to Curb Impulse Spending]], confidence=medium]
 - [[External Accountability Sustains ADHD Project Commitment]] - *The Social Constraint type, with the ADHD rationale for why it works.* [synthesizes:: [[External Accountability Sustains ADHD Project Commitment]], confidence=medium]
 - [[Claim - Stripping Away Systems Under-Weights the Need for Pre-Committed External Prosthetics]] - *Argues the trigger should be decided and externalised before the moment of need, which is the pact logic.* [synthesizes:: [[Claim - Stripping Away Systems Under-Weights the Need for Pre-Committed External Prosthetics]], confidence=medium]
 - [[Implementation Intentions Automate Action Initiation with If-Then Plans]] - *A lighter pre-commitment: the decision is made in advance, though nothing enforces it.*

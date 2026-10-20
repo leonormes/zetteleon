@@ -71,6 +71,7 @@ See: [[MOC - Three-Phase Protocol for Execution|MOC - The Phases of Task Executi
 
 ---
 
+- What's Next Loop: [[What's Next Loop within Time Box (ADHD Superpower)]]—*asking for the very next physical action inside a time box keeps starting cheap.*
 ### Related Concepts
 
 - [[SoT - Prosthetic Executive Function]] - _Details practical ways to offload the cognitive burden of task initiation to external systems._

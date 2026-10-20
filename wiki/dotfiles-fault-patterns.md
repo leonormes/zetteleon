@@ -36,3 +36,4 @@ Living document for classifying and tracking chezmoi / topgrade failure patterns
 |------|-------|------------|-------|
 | 2026-10-05 | 0 | — | — (tracking clean) |
 | 2026-10-12 | 2 | stale-cask-binary (1: #14), upstream-breakage (1: #15) | up 0→2 |
+| 2026-10-19 | 0 | — | down 2→0 (clean) |

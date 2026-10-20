@@ -37,4 +37,3 @@ A concrete instance of the general overshoot/collapse mechanism; real ecosystems
 ### Related
 
 - [extends:: [[Overshoot and Collapse Delayed Negative Feedback Causes a System to Exceed Then Crash Below Its Carrying Capacity]]]—_The general mechanism this case illustrates._
-- [extends:: [[A Cultural Ritual Can Function as a Negative Feedback Loop Preserving Ecological Equilibrium]]]—_A contrasting case where the regulating loop is cultural, not biological._

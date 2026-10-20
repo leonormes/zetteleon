@@ -24,6 +24,7 @@ fields:
   - equipment
   - source
   - prompt
+  - tombstone
   path: ''
 - name: project_name
   id: project_name
