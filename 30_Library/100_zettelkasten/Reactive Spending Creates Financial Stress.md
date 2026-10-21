@@ -15,5 +15,7 @@ Reactive spending, the 'spend-first, categorize-later' approach, is a primary so
 This method obscures the fundamental scarcity of money and prevents clear decision-making. It only reveals where money _went_, not where it is _going_, making it impossible to align spending with long-term goals. It is the direct opposite of proactive budgeting, as described in [[Give Every Dollar a Job (YNAB Rule 1)]].
 
 ### Related
-
 - [[High-Frequency Micro-Spending Drains Resources]]—*small frequent purchases are a typical form of reactive spending.*
+- [[Living Paycheck-to-Paycheck Forces Short-Term Decisions]]—*the horizon this stress shrinks.*
+
+[contradicts:: [[Give Every Dollar a Job (YNAB Rule 1)]]]

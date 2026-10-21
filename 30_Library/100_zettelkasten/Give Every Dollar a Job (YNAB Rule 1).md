@@ -30,7 +30,17 @@ When new funds are received, they are processed through this logic hierarchy:
 5. Flexibility: What changes do I need to make? (Dynamic adjustment/[[Roll With The Punches (YNAB Rule 3)]]).
 
 ## 🚀 Relational Impact
+This rule acts as the "Input" trigger for the entire financial system. Without Rule 1, [[Embrace Your True Expenses (YNAB Rule 2)]] (Stability) has no fuel, and the system reverts to reactive pattern-matching rather than intentional execution.
 
-This rule acts as the "Input" trigger for the entire financial system. Without Rule 1, Rule 2 (Stability) has no fuel, and the system reverts to reactive pattern-matching rather than intentional execution.
+### Related
 
-- Links: [[Reactive Spending Creates Financial Stress]], [[Spendfulness Defined]]
+- [[Embrace Your True Expenses (YNAB Rule 2)]]—enables: Rule 1 supplies the money that Rule 2 sets aside for irregular bills.
+- [[Roll With The Punches (YNAB Rule 3)]]—extended by: the fifth question is Rule 3 applied to a live budget.
+- [[Age Your Money (YNAB Rule 4)]]—enables: the Resilience question builds the buffer that Rule 4 measures.
+- [[Fund Immediate Obligations First]]—concrete form of: the Reality question as a funding order.
+- [[Reactive Spending Creates Financial Stress]]—opposite of: spend-first, categorise-later.
+- [[Guilt-Free Spending is a Feature of Intentional Budgeting]]—consequence: assigned discretionary money is permission to spend.
+- [[SoT - Financial Philosophy and Spendfulness]]—spendfulness is the value alignment this rule operationalises.
+
+[implements:: [[Habit 1 - Be Proactive]]]
+[implements:: [[SoT - Financial Philosophy and Spendfulness]]]

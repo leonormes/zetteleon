@@ -136,3 +136,30 @@ T4—The Stoic Bridge Requires Its Own Note. §5 makes the claim that virtue is 
 - [[MOC - ADHD Functional Neurology & Scaffolding]]—The C13 instantiation: scaffold as constitutive cognitive system.
 - [[Protocol - AFM Vault Constitutional Triage]]—The triage protocol that uses this note as its constitutional foundation.
 - [[SoT - Type-Driven Development (The Torvalds Loop)]]—The practical protocol: Shape → Access → Invariants → Logic.
+
+---
+
+## 8. Atomic Notes
+
+This note is the overview. Its main claims are also held as separate notes so that each can be linked, tested and revised on its own.
+
+- [[Structure Constitutes the Domain of Valid Facts Rather Than Representing a Pre-Existing Truth]]—the core claim, flagged as an axiom.
+- [[The Representational Fallacy]]—the view the axiom rejects.
+- [[How to Test Whether a Structure Is Constitutive or Merely Representational]]—the Absence, Drift and Elimination tests.
+- [[The Same Constitutive Schema Removes a Class of Runtime Failure in Type Theory, Clinical Data, Infrastructure and Cognitive Scaffolding]]—the cross-domain claim.
+- [[A Declarative State File Is the Infrastructure and Configuration Drift Is Its Gap From Reality]]—the infrastructure row.
+- [[A Clinical Observation Outside the Common Data Model Is Undefined in That Domain Rather Than Poorly Captured]]—the clinical data row.
+- [[An External Scaffold Is the Executive Function for an ADHD System and Not an Aid to It]]—the cognitive row.
+- [[A Class of Failure That Can Be Made Structurally Impossible Should Not Be Left to the Runtime]]—the design corollary.
+- [[Frontmatter Is the Type of a Note and Not a Label Attached to It]]—the recursive case.
+- [[The Dichotomy of Control Is a Type System That Removes Uncontrollable Events From the Domain of Distress]]—the Stoic bridge.
+- [[Cognitive Scaffolds Are Constitutive but Lack Formal Closure]]—tension T2.
+- [[Shared Formal Attributes Across Domains May Be a Family Resemblance and Not an Ontological Equivalence]]—tension T1.
+
+[synthesizes:: [[Structure Constitutes the Domain of Valid Facts Rather Than Representing a Pre-Existing Truth]], strength=5, confidence=high]
+
+[synthesizes:: [[The Same Constitutive Schema Removes a Class of Runtime Failure in Type Theory, Clinical Data, Infrastructure and Cognitive Scaffolding]], strength=4, confidence=medium]
+
+[synthesizes:: [[A Class of Failure That Can Be Made Structurally Impossible Should Not Be Left to the Runtime]], strength=4, confidence=medium]
+
+[synthesizes:: [[The Dichotomy of Control Is a Type System That Removes Uncontrollable Events From the Domain of Distress]], strength=3, confidence=low]

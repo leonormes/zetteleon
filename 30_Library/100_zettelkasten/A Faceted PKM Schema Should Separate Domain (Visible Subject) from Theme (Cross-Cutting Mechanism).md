@@ -1,11 +1,11 @@
 ---
 conformant: true
+contradicts: []
 created: 2026-09-13T09:35:01+00:00
 created_utc: '2026-09-13T00:00:00Z'
-contradicts: []
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-20T00:00:00+00:00
+modified: 2026-10-20T15:51:15+00:00
 permalink: llmeon/00-inbox/a-faceted-pkm-schema-should-separate-domain-visible-subject-from-theme-cross-cutting-mechanism
 proposition: A faceted PKM schema should record the visible subject area of a note as its domain and a cross-cutting mechanism or question as its theme, and should promote a term to a theme only once it repeatedly links at least three distinct domains.
 source_title: A Portable Interest and PKM Knowledge Graph
@@ -47,5 +47,3 @@ Themes should only be promoted from candidate terms to formal theme nodes once t
 - [[Scoring Candidate Themes by Vault Content Is a Biased Detector Because Off-Vault and Unrecorded Engagement Leaves No Trace]]—limited by: the failure mode of detecting themes from vault content alone.
 
 ### See Also
-
-- [[HEAD - How Should Interests Stay Aligned Across Obsidian, Calibre, Todoist, Hookmark, and NotebookLM]]

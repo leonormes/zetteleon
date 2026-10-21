@@ -55,3 +55,6 @@ ADHD brains process emotions differently, leading to "intense or unpredictable e
 - [[SoT - The Philosophy of the Absurd (Camus)]] - *Source for the Sisyphus reframe mentioned above.*
 - [[Achieving Mental Stability]] - *Musashi: removing expectations prevents emotional turmoil, and stability is a continuous practice, not a destination.*
 - [[Fudo The Path of Immovability]] - *Musashi's unshakable composure, the mental stability he held paramount.*
+- [[Heijo-shin Is a Candidate Counter-Measure to Emotional Dysregulation and Rejection Sensitivity in ADHD]] - *A Musashi-derived hypothesis, untested: holding the everyday baseline to shorten the swing and its consequences.*
+- [[How to Use the Pause to Separate the Signal From the Emotional Noise]] - *A short routine for turning a reaction into a response.*
+- [[Fudo-shin Is a Mind That Does Not Stick on Anything, So Immovable Means Fluid]] - *Refines the "unshakable composure" note above: not sticking, as opposed to rigidity.*

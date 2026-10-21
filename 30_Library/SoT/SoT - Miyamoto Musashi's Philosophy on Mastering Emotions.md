@@ -75,3 +75,34 @@ Musashi famously used his opponent's emotions against them (e.g., arriving late 
 - [[Ownership of Emotions]] [depends_on:: [[Ownership of Emotions]]] - _Requires taking complete responsibility for the internal state._
 - [[The 'Do' (Path) Concept]] [synthesizes:: [[The 'Do' (Path) Concept]]] - _Frames the pursuit of this state as a continuous, lifelong path._
 - [[Achieving Mental Stability]] [synthesizes:: [[Achieving Mental Stability]]] - _Mental stability comes from aligning reality with expectations, a core component of the Void._
+
+---
+
+## 6. Atomic Notes
+
+This note is the overview. Its main ideas are also held as separate notes so that each can be linked, tested and revised on its own.
+
+- [[Heijo-shin (Ordinary Mind)]]—the definition of the constant baseline.
+- [[A Fighting Mind That Differs From the Daily Mind Adds Friction and Rigidity]]—the argument against amping up.
+- [[Uncontrolled Emotion Is a Vulnerability, Harnessed Emotion Is a Weapon and Transcended Emotion Is the Void]]—the three states of emotion in strategy.
+- [[The Void (Ku) Is Perceiving the Situation as It Is Without the Distortion of Fear or Desire]]—emotion as a distorting lens.
+- [[Fudo-shin Is a Mind That Does Not Stick on Anything, So Immovable Means Fluid]]—the correction to the rigid reading.
+- [[How to Use the Pause to Separate the Signal From the Emotional Noise]]—the practical tactic.
+- [[Heijo-shin Is a Candidate Counter-Measure to Emotional Dysregulation and Rejection Sensitivity in ADHD]]—the ADHD hypothesis, untested.
+- [[Keeping the Mind Ordinary Under Pressure Preserves Access to Complex Skills]]—the pressure hypothesis, with the choking research as a lead.
+
+[synthesizes:: [[Heijo-shin (Ordinary Mind)]], strength=5, confidence=high]
+
+[synthesizes:: [[A Fighting Mind That Differs From the Daily Mind Adds Friction and Rigidity]], strength=4, confidence=high]
+
+[synthesizes:: [[Uncontrolled Emotion Is a Vulnerability, Harnessed Emotion Is a Weapon and Transcended Emotion Is the Void]], strength=4, confidence=high]
+
+[synthesizes:: [[The Void (Ku) Is Perceiving the Situation as It Is Without the Distortion of Fear or Desire]], strength=4, confidence=high]
+
+[synthesizes:: [[Fudo-shin Is a Mind That Does Not Stick on Anything, So Immovable Means Fluid]], strength=4, confidence=high]
+
+[synthesizes:: [[How to Use the Pause to Separate the Signal From the Emotional Noise]], strength=3, confidence=medium]
+
+[synthesizes:: [[Heijo-shin Is a Candidate Counter-Measure to Emotional Dysregulation and Rejection Sensitivity in ADHD]], strength=3, confidence=medium]
+
+[synthesizes:: [[Keeping the Mind Ordinary Under Pressure Preserves Access to Complex Skills]], strength=3, confidence=medium]

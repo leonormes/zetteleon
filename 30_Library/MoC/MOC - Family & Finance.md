@@ -24,6 +24,11 @@ The rules and mechanics of effective money management.
 
 ---
 
+- [[Give Every Dollar a Job (YNAB Rule 1)]]—_Rule 1: assign every unit of money a job; the input to the other rules._
+- [[Embrace Your True Expenses (YNAB Rule 2)]]—_Rule 2: smooth irregular bills into monthly instalments._
+- [[Roll With The Punches (YNAB Rule 3)]]—_Rule 3: adjust categories without guilt when reality diverges._
+- [[Age Your Money (YNAB Rule 4)]]—_Rule 4: build a 30-day buffer to end paycheck-to-paycheck living._
+- [[Fund Immediate Obligations First]]—_The funding order that makes Rule 1 concrete._
 ### 2. The Mindset (The Psychology)
 
 Breaking the internal loops that drive financial anxiety.

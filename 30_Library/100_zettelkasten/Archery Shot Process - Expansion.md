@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-10-16T14:45:00+01:00
+modified: 2026-10-20T16:35:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-expansion
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Expansion
@@ -23,6 +23,7 @@ Expansion is the continuation of dynamic tension throughout the shot process, ma
    - _Purpose:_ A stagnant draw elbow breaks the connection to the back muscles. Continuous movement on both sides keeps the shot dynamic and aligned along a straight line of force, which prevents collapse or plucking.
 3. Active Push, Active Pull (Bilateral Push-Pull Balance): Actively push into the bow's grip while pulling the string back, stretching the body in two opposite directions. Archery relies on a balance of equal and opposite forces; the brain must continuously direct forward intensity through the bow arm toward the target, while simultaneously managing the angular rotation of the draw shoulder around the spine.
    - Mental cue for the bow side ("Pushing a Mountain"): Do not actively push out of the shoulder joint toward the target. Keep the front shoulder pinned down and brace against the bow's compressive force—like pushing against an immovable mountain. Archers often confuse this application of isometric force with physical joint displacement.
+   - Simulated Expansion Intensity (Static Drill Transfer): Even when statically holding the bow during conditioning (such as SPT), actively maintain a strict 50/50 push-pull balance. Emulate the identical directional exertion and internal physical sensation used when pulling through the clicker during a live shot, avoiding passive freezing.
    - _Purpose:_ Archery relies on equal and opposite forces. The "mountain" cue keeps the front shoulder pinned and braced against the bow's compressive force, so you apply isometric force instead of displacing the joint. Reaching the bow hand toward the target also activates the stabilisers without stiffening tension.
 4. Minimal Distance Through the Clicker: When you reach full draw and anchor, you should have only 1 to 4 millimeters of the arrow left under the clicker blade.
    - _Purpose:_ Leaving 5–10 mm of shaft forces a large expansion movement, which causes posture shifts and erratic execution. A small remaining distance keeps the last movement a refinement of alignment.
@@ -153,6 +154,14 @@ Expansion is the continuation of dynamic tension throughout the shot process, ma
   2. Record full-draw expansion through the clicker.
   3. Review footage in slow motion to ensure the draw elbow continuously sweeps in an arc around the back, checking that it never stalls or creeps forward upon reaching anchor.
 
+#### Simulated Expansion Intensity Drill (SPT Hold Integration)
+
+- Purpose: Prevents static conditioning holds from degenerating into frozen, passive muscle fatigue by reinforcing dynamic 50/50 push-pull directionality.
+- How to do it:
+  1. During timed static holds or SPT drills, draw and settle into full draw.
+  2. While statically holding, mentally and physically maintain a strict 50/50 balance of pushing forward through the bow arm and rotating the draw elbow around the spine.
+  3. Replicate the precise internal exertion and directional expansion used to pull through the clicker, ensuring isometric training reinforces dynamic shot mechanics.
+
 ### Alternative Views / Corrections
 
 - Distance left under the clicker: Step 4 and the summaries give 1 to 4 mm, and a captured summary says 1 to 2 mm (up to 4). _Inside the Archer_ (Ch. 17, PDF p. 166) says the archer should have a maximum of two millimetres of the arrow point under the clicker, because with more than that the clicker can no longer be popped by internal movement alone, with a loss of control. All are kept; the book is the strictest.
@@ -170,6 +179,7 @@ Expansion is the continuation of dynamic tension throughout the shot process, ma
 - Total Archery: Inside the Archer (Kisik Lee & Tyler Benner), Ch. 17 Expansion (clicker distance) and Ch. 23-24 aiming and timing (PDF pp. 219-227); read from an OCR of the scanned PDF, 2026-09-21
 - Coach Jared Gracious (Rogue Archery TV), form analysis and biomechanics session (YouTube 5GdJtjQvkb8)
 - Online Archery Academy, ["Why Your Shot Timing is Inconsistent (and how to fix it)"](http://www.youtube.com/watch?v=Rw5CdSfc_rY) (uninterrupted rotational movement, aim prioritization fault, draw elbow collapse fault, rear-angle video feedback drill)
+- Holding SPT guided workout video summary (captured 2026-10-20; simulated expansion intensity [00:18:07])
 
 See also: [[Archery Shot Process - Finger Tab Selection & Maintenance]]—a passive, unclenched tab hook keeps the hand out of the way of LAN2-driven scapular expansion.
 

@@ -105,3 +105,10 @@ These atomic propositions underpin the relational architecture in §4.II:
 - [[Partners Should Have Equal Say in Financial Decisions Regardless of Income]]
 - [[Controlling Financial Behavior is Unilateral and Removes a Partner's Agency]]
 - [[Respectful Budgeting is a Collaborative Process Focused on Shared Goals and Autonomy]]
+
+The four rules in §2 each have an atomic note:
+
+- [[Give Every Dollar a Job (YNAB Rule 1)]]
+- [[Embrace Your True Expenses (YNAB Rule 2)]]
+- [[Roll With The Punches (YNAB Rule 3)]]
+- [[Age Your Money (YNAB Rule 4)]]

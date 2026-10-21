@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-10-08T14:30:00+01:00
+modified: 2026-10-20T16:35:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-setup
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Setup
@@ -34,6 +34,7 @@ Setup involves setting the hands onto the bow, including hooking onto the string
    - Pressure Ratio: Apply 80-90% of the pressure on the index finger and 10-20% on the middle finger, barely resting the ring finger. Curling the top finger engages back tension, while curling the bottom finger engages the bicep. Angle the index and middle fingers slightly upward relative to the string to maintain index pressure.
    - Squeezing the Spacer: Squeeze the finger spacer first, then curl the fingers to lock the hand structure and prevent pinching the arrow nock.
    - Wrist & Thumb Structure: Bend the drawing wrist cocked slightly outward, stretching the thumb and index finger apart. Stretch the thumb downward (essential for anchoring) and curl the pinky finger up and in behind the thumb.
+   - Visual Hook Check (NTS Knuckle Angle): When checking the hook in a mirror, knuckles should sit at a 45-degree angle. Under the NTS method, you should be able to see your ring fingernail, but neither your index nor your middle fingernail.
    - Angular Setup Alignment & Elbow Pre-Alignment: To set up an angular draw, open the bow relative to the target line (pointing the arrow slightly left for a right-handed archer by moving the draw hand right). This creates a direct, unkinked line of force from the grip pressure point, through the string hook and wrist, directly to the drawing elbow before lifting, without prematurely twisting the torso.
    - _Purpose:_ A hook seated near the joints puts the string closer to the skeletal line of force, so you hold full draw weight with far less muscular effort. Rolling in rather than hooking into the knuckle groove protects the nerves. Weighting the top finger engages back tension; curling the bottom finger engages the biceps. The angular setup gives a straight line of force from grip through hook and wrist to the elbow without twisting the torso early. Note the tension between "deep hook" in Why It Works and "do not hook deep into the knuckle groove" above; the note does not define "deep" precisely.
 6. The Grip (Bow Hand):
@@ -123,6 +124,14 @@ Setup involves setting the hands onto the bow, including hooking onto the string
 - Purpose: Tests discipline and consistency in stance and set position.
 - How to do it: Step onto the line, set up, and shoot a single arrow, then step completely off the line. Reset your stance and set position from scratch for every single arrow.
 
+#### Mirror Hook Check (NTS Fingernail Alignment)
+
+- Purpose: Visually verifies correct 45-degree knuckle orientation on the string hook.
+- How to do it:
+  1. Set the hook in front of a mirror during setup.
+  2. Inspect the back of the drawing hand: knuckles should sit at a clean 45-degree angle.
+  3. Verify that your ring fingernail is visible, while your index and middle fingernails remain hidden from view.
+
 ### Alternative Views / Corrections
 
 - Thumb pressure and elbow rotation (front-elbow video summary, 2026-10-08): the grip step above says to actively push the thumb toward the target and pull the pinky back. The video says allowing the thumb to come up puts improper pressure on the riser, rotates the elbow inward into the string path, and makes a locked-out arm more likely (see High Thumb Pressure in [[Archery Shot Process - Pre-draw]]). These may describe different things, pushing through the thumb pad versus the thumb riding up the riser, but the summary does not say. Both are kept. Check the thumb position on video, or with the coach.
@@ -143,6 +152,7 @@ Setup involves setting the hands onto the bow, including hooking onto the string
 - Top 10 Mistakes in Beginner Archery Classes (Online Archery Academy)
 - Coach Jared Gracious (Rogue Archery TV), form analysis and biomechanics session (YouTube 5GdJtjQvkb8)
 - Captured anchor cue summary (captured 2026-09-30; source not named): wrist cock at the hook
+- Holding SPT guided workout video summary (captured 2026-10-20; NTS visual hook check [00:11:49])
 
 See also: [[Archery Shot Process - Finger Tab Selection & Maintenance]] for tab sizing, base plate/spacer fit, and leather trimming that affect the hook and grip.
 

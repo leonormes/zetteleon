@@ -20,3 +20,5 @@ This constant state of financial scarcity consumes mental energy and makes it ne
 ### Related
 
 - [[Respectful Budgeting is a Collaborative Process Focused on Shared Goals and Autonomy]]—*planning together as a way out of short horizons.*
+- [[Age Your Money (YNAB Rule 4)]]—*the rule that builds the buffer and ends the short horizon.*
+- [[Reactive Spending Creates Financial Stress]]—*the same scarcity stress seen from the spending side.*

@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-10-14T08:46:00+01:00
+modified: 2026-10-20T16:35:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-loading
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Loading
@@ -33,7 +33,8 @@ Loading is the act of drawing the bow using the scapular retractors and shoulder
 8. Bring the sight down onto the target from above (Optimal Sight Path into Anchor): Guide the sight along a deliberate, consistent path down and in during the draw so that as the string touches the face/loading position, the sight pin is already settled within the red ring (ideally high and slightly right, never low).
    - _Purpose:_ Arriving on target as part of the finishing draw movement eliminates the need to halt movement at full draw to search for the gold, keeping the kinetic chain active and dynamic.
 9. Balancing Front and Back Focus ("Piano Chord" Attention): As draw weight increases toward peak, the front shoulder must be actively pinned down to resist collapsing inward. Layer your mental focus like playing a piano chord—add conscious attention to back tension while maintaining uninterrupted focus on the front-side pin and shoulder base.
-   - _Purpose:_ As draw weight rises toward peak, the front shoulder will collapse inward unless it is actively pinned down. Layering attention keeps the front-side pin from being forgotten while you concentrate on the back.
+   - Bow Arm Tricep & Lat Engagement: While reaching full draw and holding load, actively reach forward through the front bow arm and hand. Ensure both the triceps and latissimus dorsi remain firmly engaged to support the compressive load of the bow and prevent the front shoulder from buckling inward.
+   - _Purpose:_ As draw weight rises toward peak, the front shoulder will collapse inward unless it is actively pinned down. Layering attention keeps the front-side pin from being forgotten while you concentrate on the back, with tricep and lat engagement reinforcing the bone-on-bone column.
 
 ### Why It Works
 
@@ -171,6 +172,14 @@ Loading is the act of drawing the bow using the scapular retractors and shoulder
   2. If needed, temporarily close the non-dominant eye as an isolated learning drill to clearly observe the path without visual confusion.
   3. Repeat until the sight path consistently and automatically guides directly into the red ring as anchor is reached, allowing mental focus to return 100% to the gold.
 
+#### Scapular Tape Test (Mirror Alignment Check)
+
+- Purpose: Provides an objective visual feedback marker in a mirror to confirm whether the drawing scapula has achieved sufficient retraction into proper alignment.
+- How to do it:
+  1. Place a piece of tape (or use a central shirt logo/letter) in the exact center of your back.
+  2. Draw to full draw in front of a full-body mirror and glance back.
+  3. You should just be able to see the tape/marker around your body, confirming the draw-side scapula has retracted deeply enough into the correct skeletal position.
+
 ### Alternative Views / Corrections
 
 - Where LAN2 sits: Step 1 above places LAN2 "midway between the elbow and shoulder joint on the triceps". A later KSL / NTS drill summary (captured 2026-09-21) describes it as the posterior deltoid, the back of the drawing shoulder, which is also how [[Archery Shot Process - Expansion]] and [[Archery Shot Process - Finger Tab Selection & Maintenance]] describe it. Source check: _Inside the Archer_ (Ch. 9, Setup Position, PDF p. 94) defines LAN 2 as "an area on the back side of the drawing arm and shoulder, not a specific body part", a focal point that can only be _moved_: you cannot hold intensity in it, squeeze it or clench it. Read that way, "triceps" and "posterior deltoid" are both approximations of the same area, and both are kept.
@@ -196,6 +205,7 @@ Loading is the act of drawing the bow using the scapular retractors and shoulder
 - Front-elbow lockout video (YouTube rOPvPrnGkS0; Gemini summary captured 2026-10-08; title and channel not recorded)
 - "Relaxed shot" vs weak shot video (YouTube jQ4wovCJipI; Gemini summary captured 2026-10-08; title and channel not recorded; mentions a peep sight and release aid, so it may be compound-oriented)
 - Online Archery Academy, ["Why Your Shot Timing is Inconsistent (and how to fix it)"](http://www.youtube.com/watch?v=Rw5CdSfc_rY) (optimal sight path, late sight acquisition fault, sight path tracking drill, skeletal alignment)
+- Holding SPT guided workout video summary (captured 2026-10-20; scapular tape test [00:10:22], bow arm tricep/lat engagement [00:19:51])
 
 ---
 

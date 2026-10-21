@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-22T00:00:00+00:00
-modified: 2026-10-14T08:46:00+01:00
+modified: 2026-10-20T16:35:00+01:00
 permalink: llmeon/30-library/100-zettelkasten/archery-practice-drills
 tags: [archery, practice, prodos/atomic, training]
 title: Archery Practice Drills
@@ -182,10 +182,10 @@ _(Note: This is a diagnostic drill detailed in the [[Archery Shot Process - Foll
   - Equipment Needed: Your normal bow, a thick finger tab (or athletic wrap) to protect fingers during long holds, a full-length mirror, and an interval timer.
   - Mandatory Warm-Up: You absolutely must warm up before attempting SPT. Use forward/backward arm circles, cross-body stretches, and a broomstick (or stretch band) for pass-overs to break up fascial adhesions and get blood flowing to the shoulders.
   - Work-to-Rest Ratio: Hold at full draw for 15 to 30 seconds, followed by a resting period that is exactly double your hold time (e.g., 20 seconds on, 40 seconds off). A typical session is 15 minutes.
-  - Execution & Focus Points: Draw the bow and hit all normal shot process steps (setup, load, anchor, transfer). Continuously check your form in the full-length mirror to ensure your shoulder stays down, your elbow is correctly positioned behind the string, and you aren't leaning back or arching your spine. Maintain back tension and push/pull balance throughout the hold.
+  - Execution & Mirror Self-Correction: Draw the bow and hit all normal shot process steps (setup, load, anchor, transfer). Always perform in front of a full-body mirror and rotate your body to check multiple angles, ensuring your shoulder stays down, your elbow is correctly positioned behind the string, and you do not lean back, jut your hip out, or arch your lower back under fatigue. Maintain back tension and a 50/50 push/pull balance throughout the hold.
   - Strict Technique First: Execute every single second with correct form. If fatigue causes posture or alignment to break down at any point, do not muscle through it—let down immediately and reset for the next set, as muscling through bad form reinforces poor muscle memory.
   - Workload Equivalent: SPT is grueling. 15 minutes of this interval routine provides the muscular workload equivalent to shooting roughly 50 arrows. A full hour roughly equals 200 to 300 arrows.
-  - Load Selection: You can use your main bow setup, a lighter set of limbs, or a dedicated bow trainer. Using a lighter setup allows you to focus strictly on alignment without fighting draw weight.
+  - Load Selection & Stretch Band Overload: You can use your main bow setup, a lighter set of limbs, or a dedicated bow trainer. Using a lighter setup allows you to focus strictly on alignment without fighting draw weight. If holding your bare bow becomes too manageable, wrap a stretch band around the sight window and string (holding it at the nocking point) to add roughly 10 pounds of extra resistance to your SPT holds.
   - Neuromuscular Efficiency & Accessibility: Sustaining longer holds teaches your nervous system which muscles require active tension and which can remain relaxed. Can be practiced anywhere (home, on the range, or in a hotel room).
   - The 7-Day Challenge: Perform a 10-minute 20:40 SPT routine every day for 7 consecutive days to rapidly build holding strength and increase shot stability.
 - Supplement: Use spring-loaded hand exercisers to build finger and grip strength, which helps lock in a straight connection through your draw hand and wrist.
