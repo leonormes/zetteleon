@@ -42,3 +42,6 @@ Directly ties Deutsch's tower-jumping example to Godfrey-Smith's bridge-building
 
 - [[Godfrey-Smith's Confirmation Objection to Strict Falsificationism]]—that note argues rational reliance requires confirmation through testing; this note shows Deutsch reaching the same practical conclusion (it's rational to rely on the tested theory) while explicitly denying that confirmation is what grounds it. Assumption difference: whether rational reliance requires positive confirmation, or can rest purely on being the best surviving explanation.
 - [[Predictive Power Verifies a Theory via Its Outputs, Not Its Proofs]]—a third, independent route to the same practical conclusion (trust the tested theory), grounded in output reliability rather than either confirmation or explanatory depth—suggesting the vault currently holds three distinct, unreconciled justifications for the same everyday trust judgement.
+
+
+[depends_on:: [[Godfrey-Smith's Confirmation Objection to Strict Falsificationism]]]

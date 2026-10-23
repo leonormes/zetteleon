@@ -38,3 +38,6 @@ A modern alternative to scientific realism; softer than logical positivism in th
 - [[Instrumentalism vs Realism in Understanding]]—extends: van Fraassen's technical target for the instrumentalist side of that distinction.
 - [[Logical Positivism Treats Unobservable Entities as Merely Linguistic Prediction Tools]]—shared mechanism: a softer, more agnostic descendant of the same instrumentalist lineage.
 - [[Constructive Empiricism Separates Accepting a Theory from Believing Its Unobservables]]—extends: the corollary distinction this position licenses.
+
+
+[contradicts:: [[Deutsch Rejects Instrumentalism Because Prediction Is a Means, Not the Purpose, of Science]], confidence=medium]

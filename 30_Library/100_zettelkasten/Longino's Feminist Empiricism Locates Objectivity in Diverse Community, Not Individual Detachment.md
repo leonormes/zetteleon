@@ -38,3 +38,6 @@ A distinct feminist-epistemology position from standpoint epistemology; relocate
 - [[Standpoint Epistemology Claims Marginalised Groups See Facts the Privileged Cannot]]—shared mechanism: sibling feminist-epistemology position.
 - [[Science's Division of Labour Lets Individual Scientists Be Dogmatic]]—shared mechanism: both locate objectivity/self-correction at the community level rather than the individual, via different routes (adversarial testing vs pooled diverse viewpoints).
 - [[Philosophy of Science Should Be Naturalistic, Continuous With Science Itself]]—shared mechanism: both ground scientific reliability in social/community structure rather than pure logic, consistent with a naturalistic method.
+
+
+[extends:: [[Science's Division of Labour Lets Individual Scientists Be Dogmatic]]]

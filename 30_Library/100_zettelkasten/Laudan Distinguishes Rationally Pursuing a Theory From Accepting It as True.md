@@ -36,3 +36,6 @@ A further refinement of Lakatos's research-programme structure.
 ### Related
 
 - [[Lakatos's Research Programmes Replace Kuhn's Single Paradigm With Competing Cores]]—extends: the research-programme structure this pursue/accept distinction is layered onto.
+
+
+[revises:: [[Lakatos's Research Programmes Replace Kuhn's Single Paradigm With Competing Cores]]]

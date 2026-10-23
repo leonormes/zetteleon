@@ -37,3 +37,6 @@ The specific historical evidence Feyerabend uses to support epistemological anar
 
 - [[Feyerabend's Epistemological Anarchism Denies Any Fixed Scientific Method]]—extends: the general claim this historical case is offered as evidence for.
 - [[Ptolemaic System as a Patched Flawed Model]]—shared mechanism: the same geocentric consensus Galileo was up against, described from the perspective of how the flawed model was being patched rather than abandoned.
+
+
+[supports:: [[Feyerabend's Epistemological Anarchism Denies Any Fixed Scientific Method]]]

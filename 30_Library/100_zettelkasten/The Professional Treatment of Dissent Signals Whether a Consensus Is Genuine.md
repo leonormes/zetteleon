@@ -40,3 +40,6 @@ One of five diagnostics (with Atom 006–008, 010) for telling a legitimate scie
 
 - [[Dismissing People Who Disagree Costs You Your Best Error-Detectors]]—this atom's community-level diagnostic (does the field reward or excommunicate its dissenters?) supports that note's claim that dismissing disagreement costs you your best error-detectors, at institutional scale.
 - [[Consilience Signals Genuine Scientific Consensus]]—sibling diagnostic, same source.
+
+
+[supports:: [[Science Is Trustworthy Because Its Structure Corrects for Bias, Not Because Scientists Are Less Biased]]]

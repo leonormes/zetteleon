@@ -31,3 +31,8 @@ Applies to any empirical observation, from a thermometer reading to a dashboard 
 ### Related
 
 - [[SoT - Reality, Models, and the Limits of Accuracy]]—shared mechanism: both note that what we take to be "the data" or "reality" is already filtered through a simplifying, assumption-laden model rather than given directly.
+
+
+[contradicts:: [[Logical Positivism Restricts Science's Aim to Predicting Sensory Patterns]], confidence=medium]
+
+[supports:: [[Duhem-Quine Holism Complicates Simple Falsification]]]

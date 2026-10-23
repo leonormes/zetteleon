@@ -26,3 +26,6 @@ The first half of [[Understanding Reveals Cause-and-Effect]]: prediction and und
 It is a philosopher-physicist's position on the aim of science, argued at length in the book. It supports the prediction-versus-explanation distinction, not the practical claim about problem-solving.
 
 [supports:: [[Understanding Reveals Cause-and-Effect]], confidence=medium]
+
+
+[supports:: [[Deutsch Rejects Instrumentalism Because Prediction Is a Means, Not the Purpose, of Science]]]

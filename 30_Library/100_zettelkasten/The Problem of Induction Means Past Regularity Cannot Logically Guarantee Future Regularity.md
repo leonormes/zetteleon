@@ -32,3 +32,6 @@ Applies to any inference from observed instances to a general rule or to unobser
 
 - [[Bayesian Updating Adjusts Beliefs as New Evidence Arrives]]—shared mechanism: Bayesian updating is one formal response to the problem of induction—treating generalisations as beliefs with graded confidence rather than claims awaiting logical proof.
 - [[Falsifiability Distinguishes Science from Dogma]]—shared mechanism: falsifiability is a practical answer to the same limit—since induction cannot prove a theory, science instead tests it by seeking the observation that would disprove it.
+
+
+[extends:: [[Inductive Reasoning Draws Probable, Not Guaranteed, Conclusions From Past Regularity]]]

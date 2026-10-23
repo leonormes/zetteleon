@@ -1,7 +1,7 @@
 ---
 aliases: []
 conformant: true
-contradicts: []
+contradicts: ["[[Classical Rationalism Grounds Knowledge in Reason, Not the Senses]]"]
 created: 2026-09-09T00:00:00+00:00
 created_utc: 2026-09-09 00:00:00+00:00
 epistemic_status: high
@@ -38,3 +38,6 @@ Classical empiricist epistemology, standing in direct contrast to classical rati
 - [[Classical Rationalism Grounds Knowledge in Reason, Not the Senses]]—shared mechanism: the opposing classical position from the same period.
 - [[The Problem of Induction Means Past Regularity Cannot Logically Guarantee Future Regularity]]—extends: Hume's inductive scepticism is the specific limit this empiricist commitment runs into—see that note for the mechanism.
 - [[Logical Positivism Restricts Science's Aim to Predicting Sensory Patterns]]—extends: the stricter 20th-century descendant of this classical empiricist commitment.
+
+
+[contradicts:: [[Classical Rationalism Grounds Knowledge in Reason, Not the Senses]]]

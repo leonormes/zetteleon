@@ -1,7 +1,7 @@
 ---
 aliases: []
 conformant: true
-contradicts: []
+contradicts: ["[[Classical Empiricism Treats Experience as the Sole Source of Knowledge]]"]
 created: 2026-09-08T20:15:00+00:00
 created_utc: 2026-09-08 20:15:00+00:00
 epistemic_status: high
@@ -41,3 +41,6 @@ Deutsch's Popperian account of theory-genesis specifically; contrasts with Godfr
 - [[The Problem of Induction Means Past Regularity Cannot Logically Guarantee Future Regularity]]—that note establishes that induction cannot logically guarantee a generalisation; this note names Deutsch's specific alternative to induction (conjecture-first, experience-as-selector) rather than merely noting induction's limit.
 - [[Falsifiability Distinguishes Science from Dogma]]—shared Popperian lineage: falsifiability is the mechanism by which conjectures, once made, get tested and eliminated.
 - [[Godfrey-Smith's Confirmation Objection to Strict Falsificationism]]—the opposing position in the same source: Godfrey-Smith defends observation and experience as a genuine source of knowledge, against Deutsch's conjecture-only account.
+
+
+[contradicts:: [[Classical Empiricism Treats Experience as the Sole Source of Knowledge]]]

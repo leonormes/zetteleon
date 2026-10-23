@@ -36,3 +36,6 @@ Descartes' specific criterion within classical rationalism; a standard for what 
 ### Related
 
 - [[Classical Rationalism Grounds Knowledge in Reason, Not the Senses]]—extends: this is Descartes' specific instantiation of the general rationalist commitment that note describes.
+
+
+[extends:: [[Classical Rationalism Grounds Knowledge in Reason, Not the Senses]]]

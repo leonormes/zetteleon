@@ -45,3 +45,6 @@ A direct critique of Popper/strict falsificationism's refusal to give confirmati
 ### Tensions
 
 - [[Deutsch and Godfrey-Smith Converge on Rational Reliance From Different Grounds]]—Deutsch answers this same bridge-building dilemma without invoking confirmation at all, using a best-remaining-explanation argument instead; see that note for the full tension.
+
+
+[depends_on:: [[The Problem of Induction Means Past Regularity Cannot Logically Guarantee Future Regularity]]]

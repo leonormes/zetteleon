@@ -36,3 +36,6 @@ Trigger—encountering vague, theoretical, or heavily academic terminology. Hist
 
 - [[Hume's Fork Holds That All Valid Knowledge Is Either Analytic or Synthetic, With Nothing Else]]—extends: the practical test that operationalises the synthetic side of the dichotomy.
 - [[How to Test Whether Information-Seeking Has Become a Safety Behaviour]]—shared mechanism: both are pre-action checklists for deciding whether to trust or continue pursuing a piece of discourse.
+
+
+[implements:: [[Classical Empiricism Treats Experience as the Sole Source of Knowledge]]]

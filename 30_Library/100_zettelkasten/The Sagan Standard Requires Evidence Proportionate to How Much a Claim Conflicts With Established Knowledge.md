@@ -34,4 +34,7 @@ A widely used principle of scientific scepticism; popularised by Carl Sagan but 
 
 ### Related
 
-- [[Hitchens's Razor Places the Burden of Proof on the Claimant, Not the Sceptic]]—extends: settles who must argue first; this note settles how strong that argument needs to be.
+- [[Hitchens Razor Places the Burden of Proof on the Claimant, Not the Sceptic]]—extends: settles who must argue first; this note settles how strong that argument needs to be.
+
+
+[extends:: [[Hitchens Razor Places the Burden of Proof on the Claimant, Not the Sceptic]]]

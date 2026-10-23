@@ -69,3 +69,6 @@ Recorded as prose because the conflict is between two _atoms_, not between this 
 
 - Add `[contradicts:: [[The Traditional Definition of Knowledge is Justified True Belief]]]` to [[Gettier Problems Challenge the Traditional Definition of Knowledge]]—that is where the relationship actually lives.
 - Consider a claim stub for the unwritten _Critical Thinking Transforms Information into Knowledge_.
+
+
+> Wider map: [[MOC - How Can I Know Something]] orders the epistemology notes as claims and counter-claims, from what knowledge is through to building and holding beliefs.

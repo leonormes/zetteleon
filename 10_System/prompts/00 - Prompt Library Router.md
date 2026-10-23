@@ -57,6 +57,7 @@ This note is the decision layer for the ProdOS Chief of Staff LLM. Every prompt 
 | I am working the Vault Graph programme one task per session (Todoist project Vault Graph) | [[Prompt - Vault Graph Programme (Session Driver)]] | Session driver: resume, confirm one task, execute, lint, log. Not for one-off note work |
 | I have a new archery capture to fold into the 10-step shot process notes | [[Archery Shot Process - Knowledge Consolidation]] | Domain-specific Consolidation Agent; keeps contradictions as alternative views |
 | I have a new family-chores capture to fold into the chores SoTs and plan | [[Family Chores - Knowledge Consolidation]] | Domain-specific Consolidation Agent; proposes full-note updates for you to apply |
+| I pasted content about how we know things (knowledge, truth, evidence, science, belief) and want it folded into the epistemology graph | [[Epistemology Graph - Knowledge Consolidation]] | Domain-specific Consolidation Agent; reads the hub MoC and six SoTs, enhances existing notes or adds atomic notes with claim and counter-claim edges, reports gaps |
 | I want the family and relationships notes triaged into their four buckets | [[Family Notes - Triage and Normalization]] | Domain-specific composition of Triage Architect, Consolidation Agent and Link Auditor |
 
 ### Personal Context to Inject alongside other Prompts

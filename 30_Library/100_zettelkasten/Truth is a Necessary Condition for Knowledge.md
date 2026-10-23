@@ -19,6 +19,8 @@ Summary: Most epistemologists maintain that truth is a necessary condition for k
 
 Details: This principle asserts that one cannot know something that is false. Even if a belief is strongly held and well-justified, if it does not correspond to reality, it does not qualify as knowledge in the strict philosophical sense. While personal or subjective understanding can be formed from false information, it is distinct from objective knowledge.
 
+Added 2026-10-23 from an AI chat on knowledge of God: the truth condition says what knowledge is, not a test that can be run on a disputed claim. Using it as a filter ("God is not true, therefore belief in God isn't knowledge") assumes the very conclusion in dispute, and in practice only justification can be assessed because nobody has a view from outside their own evidence. The same definition makes "God does not exist" knowledge only if it is also justified, so an atheist holding it for bad reasons has at best a lucky true belief. Source: the chat's section "Is there knowledge about God, or only belief?"; see also [[Plantinga Argues That Whether Theistic Belief Is Justified Cannot Be Settled Without Settling Whether It Is True]].
+
 ## Related
 
 [contradicts:: [[Pragmatic Truth Focuses on Utility Over Absolute Correctness]], strength=4, confidence=high]

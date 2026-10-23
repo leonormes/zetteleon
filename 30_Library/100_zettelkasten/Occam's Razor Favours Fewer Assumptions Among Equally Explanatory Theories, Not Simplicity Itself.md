@@ -36,3 +36,6 @@ Only discriminates between explanations that already fit the evidence comparably
 
 - [[Falsifiability Distinguishes Science from Dogma]]—shared mechanism: both are criteria for discriminating between theories that already fit observed evidence.
 - [[Alder's Razor Restricts Worthwhile Debate to Testable Claims, But Over-Applies as an Absolute Rule]]—extends: another philosophical razor from the same source, similarly overstated when taken as an absolute rule.
+
+
+[depends_on:: [[Underdetermination Means Multiple Theories Can Fit the Same Evidence]]]

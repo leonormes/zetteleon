@@ -40,3 +40,6 @@ One of five diagnostics (with Atoms 007–010) for telling a legitimate scientif
 - [[The Professional Treatment of Dissent Signals Whether a Consensus Is Genuine]]—sibling diagnostic, same source.
 - [[Data Transparency Over Authority Distinguishes Genuine Consensus from Groupthink]]—sibling diagnostic, same source.
 - [[Falsifiability Distinguishes Science from Dogma]]—same source conversation, but a different specific question: that note tests whether one _claim's structure_ is scientific; this note (and its four sibling diagnostics) tests whether a _consensus_ is legitimate versus groupthink.
+
+
+[supports:: [[Science Is Trustworthy Because Its Structure Corrects for Bias, Not Because Scientists Are Less Biased]]]

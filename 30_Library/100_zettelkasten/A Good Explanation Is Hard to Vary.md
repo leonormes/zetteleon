@@ -54,3 +54,6 @@ Deutsch's core criterion for scientific quality; intended to replace predictive 
 [contradicts:: [[SoT - Reality, Models, and the Limits of Accuracy]], confidence=medium]
 
 - [[SoT - Reality, Models, and the Limits of Accuracy]]—that SoT's core axiom is "Utility Over Truth: the value of a model is not its correctness… but its predictive validity," which is instrumentalism stated as a first principle. This note holds the opposite: an explanation's value lies in being hard to vary, not merely useful for prediction. Assumption difference, not a hard clash: the SoT is scoped to _pragmatic, personal_ mental models built for effective action; this note is scoped to what makes a _scientific explanation_ good. Both can hold once that scope difference is named—but they have not yet been reconciled in the vault, and the SoT's own axiom was written without reference to this tension. Flagged for human review rather than silently resolved; no reciprocal edge was added to the SoT itself, as this refresh is scoped to the Target note only.
+
+
+[supports:: [[Deutsch Rejects Instrumentalism Because Prediction Is a Means, Not the Purpose, of Science]]]

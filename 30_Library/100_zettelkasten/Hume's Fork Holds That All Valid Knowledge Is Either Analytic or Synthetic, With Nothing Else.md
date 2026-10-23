@@ -38,3 +38,6 @@ A historically specific epistemological claim, not a linguistic law; one of the 
 - [[Logical Positivism Restricts Science's Aim to Predicting Sensory Patterns]]—extends: the 20th-century verificationist descendant of this same dichotomy.
 - [[Kant's Synthetic A Priori Challenges Hume's Fork by Claiming a Third Knowledge Category]]—extends: the major rival position this dichotomy has never fully answered.
 - [[The Impressions Test Traces an Abstract Concept Back to Its Originating Sense-Impression or Discards It as Meaningless]]—_the practical test that applies the fork to suspect concepts._
+
+
+[extends:: [[Classical Empiricism Treats Experience as the Sole Source of Knowledge]]]

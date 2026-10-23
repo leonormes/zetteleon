@@ -39,3 +39,6 @@ The most radical position in the historical/anarchistic cluster, going further t
 
 - [[Kuhn's Incommensurability Thesis Denies Simple Cross-Paradigm Progress]]—extends: escalates Kuhn's method-relativity theme to its most radical conclusion.
 - [[Galileo's Heliocentrism Is Feyerabend's Counterexample to Strict Empiricist Rules]]—extends: the specific historical evidence Feyerabend offers for this claim.
+
+
+[contradicts:: [[Falsifiability Distinguishes Science from Dogma]], confidence=medium]

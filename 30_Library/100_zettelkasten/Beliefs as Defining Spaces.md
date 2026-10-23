@@ -47,3 +47,6 @@ Own reasoning, illustrated with two worked examples of the same mechanism:
 ### Tensions
 
 - [[A Belief Is a Good Tool Only If It Holds Up to Feedback, Stays Revisable and Does Not Require Ignoring Evidence]]—_tension, not contradiction: this concept judges a belief by whether it expands or contracts the space of action and has no guard against a belief that expands the space but ignores evidence, whereas Eyal adds reality-tested utility as a condition. The assumption that differs is unconstrained versus reality-tested utility._
+
+
+[contradicts:: [[Reason as Commitment to Objective Standards]], confidence=medium]

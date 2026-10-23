@@ -39,3 +39,6 @@ One of the deepest, most persistent disputes in epistemology; not resolved by ei
 
 - [[Hume's Fork Holds That All Valid Knowledge Is Either Analytic or Synthetic, With Nothing Else]]—extends: the specific dichotomy this challenge targets.
 - [[Classical Rationalism Grounds Knowledge in Reason, Not the Senses]]—shared mechanism: Kant's position is often read as a synthesis attempt between this rationalist commitment and Hume's empiricism.
+
+
+[contradicts:: [[Hume's Fork Holds That All Valid Knowledge Is Either Analytic or Synthetic, With Nothing Else]]]

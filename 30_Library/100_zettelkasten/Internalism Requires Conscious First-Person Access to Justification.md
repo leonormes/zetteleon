@@ -35,5 +35,8 @@ One side of the internalism/externalism split over how individuals actually "kno
 
 ### Related
 
-- [[Goldman's Reliabilism Grounds Knowledge in a Reliable Belief-Forming Mechanism]]—shared mechanism: one of the two externalist positions defined against this internalist demand.
+- [[Goldman Reliabilism Grounds Knowledge in a Reliable Belief-Forming Mechanism]]—shared mechanism: one of the two externalist positions defined against this internalist demand.
 - [[Nozick's Tracking Theory Grounds Knowledge in Truth-Tracking Across Counterfactuals]]—shared mechanism: the second externalist position defined against this internalist demand.
+
+
+[extends:: [[The Traditional Definition of Knowledge is Justified True Belief]]]

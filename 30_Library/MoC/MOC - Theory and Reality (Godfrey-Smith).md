@@ -44,7 +44,7 @@ Real chapter titles, confirmed from the book itself (Calibre id 1611, EPUB) rath
 - [[Logical Positivism Restricts Science's Aim to Predicting Sensory Patterns]]
 - [[Logical Positivism Treats Unobservable Entities as Merely Linguistic Prediction Tools]]
 - [[The Problem of Induction Means Past Regularity Cannot Logically Guarantee Future Regularity]]—_the crack empiricism could not close on its own._
-- Three theories of justification the book sets out before turning to Popper: [[Internalism Requires Conscious First-Person Access to Justification]], [[Nozick's Tracking Theory Grounds Knowledge in Truth-Tracking Across Counterfactuals]], [[Goldman's Reliabilism Grounds Knowledge in a Reliable Belief-Forming Mechanism]]
+- Three theories of justification the book sets out before turning to Popper: [[Internalism Requires Conscious First-Person Access to Justification]], [[Nozick's Tracking Theory Grounds Knowledge in Truth-Tracking Across Counterfactuals]], [[Goldman Reliabilism Grounds Knowledge in a Reliable Belief-Forming Mechanism]]
 
 ### 4. Popper: Conjecture and Refutation
 
@@ -138,3 +138,6 @@ Leon's own answer, built on this cluster, to a recurring personal question about
 ---
 
 [[Reading Plan — Theory and Reality (Godfrey-Smith)]]
+
+
+> Wider map: [[MOC - How Can I Know Something]] places this book's chain of positions inside the whole question of how anything can be known, with the claim and counter-claim edges.

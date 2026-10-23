@@ -36,3 +36,6 @@ Surfaces as an apparent tension whenever a testability-based filter (like Alder'
 
 - [[Alder's Razor Restricts Worthwhile Debate to Testable Claims, But Over-Applies as an Absolute Rule]]—extends: this note names exactly the distinction that razor's over-application blurs.
 - [[Pragmatic Truth Focuses on Utility Over Absolute Correctness]]—shared mechanism: both separate a claim's factual-truth value from its other kinds of value.
+
+
+[extends:: [[Alder's Razor Restricts Worthwhile Debate to Testable Claims, But Over-Applies as an Absolute Rule]]]

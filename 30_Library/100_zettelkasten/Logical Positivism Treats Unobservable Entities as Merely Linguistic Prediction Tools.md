@@ -43,3 +43,8 @@ A corollary of logical positivism's aim-restriction; the root of the instrumenta
 [contradicts:: [[Deutsch Rejects Instrumentalism Because Prediction Is a Means, Not the Purpose, of Science]], confidence=medium]
 
 - [[Deutsch Rejects Instrumentalism Because Prediction Is a Means, Not the Purpose, of Science]]—that note holds prediction is a means to science's real purpose (explaining reality); this note holds unobservable-referring terms are only ever prediction tools, with no further explanatory purpose to serve. Not a hard contradiction: the assumption difference is whether theoretical terms about unobservables carry any explanatory weight beyond their predictive function—both positions are internally coherent once that assumption is named.
+
+
+[extends:: [[Logical Positivism Restricts Science's Aim to Predicting Sensory Patterns]]]
+
+[implements:: [[Instrumentalism vs Realism in Understanding]]]

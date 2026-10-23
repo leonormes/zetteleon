@@ -36,4 +36,9 @@ The second externalist account, alongside Goldman's reliabilism; contrasts with 
 ### Related
 
 - [[Internalism Requires Conscious First-Person Access to Justification]]—shared mechanism: the internalist demand this tracking account rejects.
-- [[Goldman's Reliabilism Grounds Knowledge in a Reliable Belief-Forming Mechanism]]—shared mechanism: the sibling externalist account, grounding knowledge in process reliability rather than counterfactual tracking.
+- [[Goldman Reliabilism Grounds Knowledge in a Reliable Belief-Forming Mechanism]]—shared mechanism: the sibling externalist account, grounding knowledge in process reliability rather than counterfactual tracking.
+
+
+[extends:: [[The Traditional Definition of Knowledge is Justified True Belief]]]
+
+[contradicts:: [[Internalism Requires Conscious First-Person Access to Justification]]]

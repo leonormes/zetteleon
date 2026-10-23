@@ -38,7 +38,7 @@ No verbatim quotation has been captured yet. The formulation above is the standa
 ### Implications
 
 - The analysis turns one question, what is knowledge, into three separately attackable ones, which is why the later literature is organised by the condition under attack: truth, belief or justification.
-- The justification leg carries the most weight. A belief that is true by luck is not knowledge, so what the justification must do is connect the belief to the truth. Internalism says the knower must be able to reach that connection from the inside ([[Internalism Requires Conscious First-Person Access to Justification]]). Externalism says the connection can hold without the knower seeing it ([[Goldman's Reliabilism Grounds Knowledge in a Reliable Belief-Forming Mechanism]]).
+- The justification leg carries the most weight. A belief that is true by luck is not knowledge, so what the justification must do is connect the belief to the truth. Internalism says the knower must be able to reach that connection from the inside ([[Internalism Requires Conscious First-Person Access to Justification]]). Externalism says the connection can hold without the knower seeing it ([[Goldman Reliabilism Grounds Knowledge in a Reliable Belief-Forming Mechanism]]).
 - Gettier-style cases are possible because justification can fall short of guaranteeing truth. The usual repairs add a fourth condition: no false lemmas, a causal link, reliability, tracking, safety or defeasibility. A "knowledge-first" view (Williamson) reverses the order and takes knowledge as basic rather than analysing it.
 - The definition separates knowing from merely holding information. The vault's contrast between the two ([[Comparison - Knowing vs Understanding]]) adds a further step beyond JTB, from knowing a fact to understanding why it holds.
 - Most of what any person counts as known rests on testimony and trusted procedures, not on personal verification. Whether that counts as justification is the question raised by [[Trusting a Scientific Authority Feels Psychologically Identical to Trusting a False One]].
@@ -48,7 +48,7 @@ No verbatim quotation has been captured yet. The formulation above is the standa
 - [[Truth is a Necessary Condition for Knowledge]]—elaborates: it develops the truth leg of this definition and already extends this note.
 - [[Gettier Problems Challenge the Traditional Definition of Knowledge]]—challenge: counterexamples showing the three conditions are not jointly sufficient.
 - [[Internalism Requires Conscious First-Person Access to Justification]]—elaborates: one account of what the justification leg demands.
-- [[Goldman's Reliabilism Grounds Knowledge in a Reliable Belief-Forming Mechanism]]—competes: the externalist account of the same leg, in which a reliable process replaces conscious access.
+- [[Goldman Reliabilism Grounds Knowledge in a Reliable Belief-Forming Mechanism]]—competes: the externalist account of the same leg, in which a reliable process replaces conscious access.
 - [[Learning is the Acquisition of Information While Understanding is the Construction of Meaning]]—_an account of knowledge versus understanding._
 
 ### Tensions

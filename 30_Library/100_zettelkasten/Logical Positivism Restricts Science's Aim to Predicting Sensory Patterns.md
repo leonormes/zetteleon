@@ -37,3 +37,6 @@ Early-20th-century movement; a stricter, more systematised descendant of classic
 
 - [[Classical Empiricism Treats Experience as the Sole Source of Knowledge]]—extends: logical positivism systematises this classical empiricist commitment into a strict logical programme.
 - [[Logical Positivism Treats Unobservable Entities as Merely Linguistic Prediction Tools]]—extends: the corollary of this aim-restriction regarding unobservable theoretical terms.
+
+
+[extends:: [[Classical Empiricism Treats Experience as the Sole Source of Knowledge]]]

@@ -36,3 +36,6 @@ One of five diagnostics (with Atom 006, 007, 009, 010) for telling a legitimate 
 ### Related
 
 - [[Consilience Signals Genuine Scientific Consensus]]—sibling diagnostic, same source.
+
+
+[supports:: [[Science Is Trustworthy Because Its Structure Corrects for Bias, Not Because Scientists Are Less Biased]]]

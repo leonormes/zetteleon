@@ -36,3 +36,6 @@ A corollary of constructive empiricism's empirical-adequacy target.
 ### Related
 
 - [[Constructive Empiricism Targets Empirical Adequacy, Not Truth About Unobservables]]—extends: the parent claim this distinction follows from.
+
+
+[extends:: [[Constructive Empiricism Targets Empirical Adequacy, Not Truth About Unobservables]]]

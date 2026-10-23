@@ -38,3 +38,6 @@ A structural refinement of Kuhn's paradigm theory; allows plurality within a fie
 - [[Kuhn's Incommensurability Thesis Denies Simple Cross-Paradigm Progress]]—shared mechanism: an explicit repair of the single-paradigm assumption behind Kuhn's account.
 - [[Underdetermination Means Multiple Theories Can Fit the Same Evidence]]—shared mechanism: the protective belt's auxiliary hypotheses absorb anomalies the same way underdetermination lets background assumptions absorb blame for a failed prediction, rather than the hard core taking the hit.
 - [[Laudan Distinguishes Rationally Pursuing a Theory From Accepting It as True]]—extends: Laudan's further refinement of this same research-programme structure.
+
+
+[revises:: [[Kuhn's Four-Stage Model of Paradigm Collapse]]]
