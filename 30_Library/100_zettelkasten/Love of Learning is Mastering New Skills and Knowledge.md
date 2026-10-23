@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-12-10T12:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-12T00:00:00+00:00
+modified: 2026-10-22T15:11:16+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/love-of-learning-is-mastering-new-skills-and-knowledge
 proposition: Love of Learning is the strength of mastering new skills, topics, and bodies of knowledge, whether independently or formally

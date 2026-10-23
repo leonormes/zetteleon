@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-12T09:41:52+00:00
 last_reviewed: ''
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/parable-of-the-bitter-spring
 tags: []
 title: Parable of the Bitter Spring
@@ -46,4 +46,4 @@ A Tighter Conclusion: The ending is streamlined so the realisation hits the vill
 
 ### Related
 
-- [[Aesop's Fables Use Anthropomorphic Allegory]]—*another teaching story that works by allegory.*
+- [[Aesop's Fables Use Anthropomorphic Allegory]]—_another teaching story that works by allegory._

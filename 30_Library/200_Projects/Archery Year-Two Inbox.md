@@ -2,7 +2,7 @@
 aliases: [Archery year 2 inbox]
 conformant: false
 created: 2026-10-08T11:00:00+00:00
-modified: 2026-10-08T11:00:00+00:00
+modified: 2026-10-22T15:11:10+00:00
 non_conformance_reason: working capture list
 permalink: llmeon/30-library/200-projects/archery-year-two-inbox
 project_category: personal
@@ -37,5 +37,3 @@ A parking list for coaching ideas, YouTube cues and technique detail that are no
 - Refine-level flow markers: rhythm blend, tight raise-to-release timing, impassive demeanour, post-release kinaesthetic check, breath-hum test. See [[Archery Learning Sequence - Build the Whole Process First]].
 
 ### New Ideas
-
--

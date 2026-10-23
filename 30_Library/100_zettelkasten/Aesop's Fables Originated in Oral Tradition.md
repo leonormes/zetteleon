@@ -2,7 +2,7 @@
 aliases: ["Aesop's Oral Fables"]
 conformant: false
 created: 2025-11-01T21:35:00+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:18+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/aesops-fables-originated-in-oral-tradition
 tags: [aesop, fable, history, oral-tradition, storytelling]
@@ -14,6 +14,6 @@ The earliest known Western fables are attributed to Aesop, a storyteller believe
 
 These stories were not originally written down but were part of a rich oral tradition. They were short, allegorical tales, typically featuring animals with human-like qualities, that conveyed a moral lesson. Their transmission was primarily through spoken word, making them an accessible form of moral and social instruction for a largely illiterate population.
 
-### Related
+## Related
 
-- [[Phaedrus Adapted Aesop's Fables into Latin Verse]]—*the first written adaptation of the oral tradition.*
+- [[Phaedrus Adapted Aesop's Fables into Latin Verse]]—_the first written adaptation of the oral tradition._

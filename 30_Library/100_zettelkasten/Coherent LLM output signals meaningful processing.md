@@ -6,7 +6,7 @@ contradicts: []
 created: 2025-10-20T09:17:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-20T21:08:54+00:00
+modified: 2026-10-22T15:11:17+00:00
 permalink: llmeon/30-library/100-zettelkasten/coherent-llm-output-signals-meaningful-processing
 prodos.kind: atomic
 prodos.lifecycle: stable

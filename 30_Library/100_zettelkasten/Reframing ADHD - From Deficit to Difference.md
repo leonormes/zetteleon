@@ -3,7 +3,7 @@ aliases: []
 conformant: false
 created: 2025-10-25T15:00:00+00:00
 last_reviewed: 'null'
-modified: 2026-10-15T00:00:00+00:00
+modified: 2026-10-22T15:11:15+00:00
 non_conformance_reason: "type permanent is not a canonical value and the correct type needs review"
 permalink: llmeon/30-library/100-zettelkasten/reframing-adhd-from-deficit-to-difference
 tags: [neurodiversity, self-compassion, stigma, TheHuman/Health/ADHD, TheHuman/Mindset]
@@ -30,9 +30,9 @@ Adopting a neurodiversity paradigm has profound implications:
 ## Related Concepts
 
 - [[Moving Towards Self-Compassion and Understanding Your Strengths]]
-- [[ADHD as Neurodiversity Not Deficit]] - *The short claim form of the same reframe, which this note develops.* [extends:: [[ADHD as Neurodiversity Not Deficit]], confidence=medium]
-- [[SoT - The Interest-Based Nervous System in ADHD]] - *The motivational model the neurodiversity view underpins.* [supports:: [[SoT - The Interest-Based Nervous System in ADHD]], confidence=medium]
-- [[ADHD Task Initiation Difficulty is a Neurological Issue Not Laziness]] - *A concrete case of replacing a moral-failing reading with a neurological one.*
-- [[Societal Stigma of ADHD Motivation]] - *The stigma that the reframe aims to reduce.*
-- [[Individual ADHD Strategy Involves a Hybrid System and Self-Compassion]] - *Practical strategy that follows from the self-compassion point.*
-- [[Structure conserves cognitive energy for neurodivergent brains]] - *An example of accommodating the brain rather than forcing it to work like a neurotypical one.*
+- [[ADHD as Neurodiversity Not Deficit]] - _The short claim form of the same reframe, which this note develops._ [extends:: [[ADHD as Neurodiversity Not Deficit]], confidence=medium]
+- [[SoT - The Interest-Based Nervous System in ADHD]] - _The motivational model the neurodiversity view underpins._ [supports:: [[SoT - The Interest-Based Nervous System in ADHD]], confidence=medium]
+- [[ADHD Task Initiation Difficulty is a Neurological Issue Not Laziness]] - _A concrete case of replacing a moral-failing reading with a neurological one._
+- [[Societal Stigma of ADHD Motivation]] - _The stigma that the reframe aims to reduce._
+- [[Individual ADHD Strategy Involves a Hybrid System and Self-Compassion]] - _Practical strategy that follows from the self-compassion point._
+- [[Structure conserves cognitive energy for neurodivergent brains]] - _An example of accommodating the brain rather than forcing it to work like a neurotypical one._

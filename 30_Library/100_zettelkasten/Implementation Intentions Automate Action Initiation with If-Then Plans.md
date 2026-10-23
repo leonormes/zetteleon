@@ -2,7 +2,7 @@
 aliases: [If-Then Plans, Implementation Intentions]
 conformant: false
 created: 2025-11-10T17:10:00+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:16+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/implementation-intentions-automate-action-initiation-with-if-then-plans
 tags: [behavior-change, planning, TheHuman/Habits, TheHuman/Psychology]
@@ -20,4 +20,4 @@ Mechanism: Implementation intentions work through two processes. First, they mak
 
 ### Related
 
-- [[Habits are Automatic Behaviors Triggered by Environmental Cues]]—*cues the plans hook onto.*
+- [[Habits are Automatic Behaviors Triggered by Environmental Cues]]—_cues the plans hook onto._

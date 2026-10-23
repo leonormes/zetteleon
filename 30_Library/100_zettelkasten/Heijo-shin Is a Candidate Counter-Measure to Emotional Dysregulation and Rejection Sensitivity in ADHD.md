@@ -1,24 +1,19 @@
 ---
 conformant: true
 contradicts: []
-created: 2026-10-21 13:00:00+00:00
+created: 2026-10-21T13:00:00+00:00
 epistemic_status: low
 evidence_links: []
-modified: 2026-10-21 13:00:00+00:00
+modified: 2026-10-22T15:11:16+00:00
+permalink: llmeon/30-library/100-zettelkasten/heijo-shin-is-a-candidate-counter-measure-to-emotional-dysregulation-and-rejection-sensitivity-in-adhd
 proposition: Holding the mind at its everyday baseline is a plausible counter-measure
   to the emotional spikes of ADHD dysregulation and rejection sensitivity, but it
   is an untested design hypothesis and not an established intervention.
 status: seed
-tags:
-- musashi
-- emotional_regulation
-- TheHuman/Health/ADHD
-- TheHuman/Philosophy
-- rsd
+tags: [emotional_regulation, musashi, rsd, TheHuman/Health/ADHD, TheHuman/Philosophy]
 title: Heijo-shin Is a Candidate Counter-Measure to Emotional Dysregulation and Rejection
   Sensitivity in ADHD
 type: claim
-permalink: llmeon/30-library/100-zettelkasten/heijo-shin-is-a-candidate-counter-measure-to-emotional-dysregulation-and-rejection-sensitivity-in-adhd
 ---
 
 ## Heijo-shin Is a Candidate Counter-Measure to Emotional Dysregulation and Rejection Sensitivity in ADHD
@@ -35,7 +30,7 @@ The SoT proposes Heijo-shin as a direct counter-measure to emotional dysregulati
 
 > "Have trouble calming myself down once I am emotionally upset"
 > "Remain emotional or upset longer than others"
-> (Russell A. Barkley, *Taking Charge of Adult ADHD*, "Problem Area 5: Poor Emotional Self-Regulation", in "The Five Areas of Difficulty in Managing Daily Activities")
+> (Russell A. Barkley, _Taking Charge of Adult ADHD_, "Problem Area 5: Poor Emotional Self-Regulation", in "The Five Areas of Difficulty in Managing Daily Activities")
 
 > "Emotion regulation is one of the executive functions weakened by ADHD and improved by medication treatment."
 > (same book, "What Side Effects Can I Expect?")

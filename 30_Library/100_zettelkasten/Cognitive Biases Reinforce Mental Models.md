@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-20T09:53:00+00:00
 last_reviewed: 'null'
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/cognitive-biases-reinforce-mental-models
 tags: [belief, TheHuman/Cognition, TheHuman/Cognition/bias, TheHuman/Psychology]
 title: Cognitive Biases Reinforce Mental Models
@@ -22,6 +22,6 @@ These biases explain why our models feel infallible and why changing our minds i
 
 Links: [[Mental Models MOC]]
 
-### Related
+## Related
 
-- [[Fundamental Attribution Error]]—*a specific bias.*
+- [[Fundamental Attribution Error]]—_a specific bias._

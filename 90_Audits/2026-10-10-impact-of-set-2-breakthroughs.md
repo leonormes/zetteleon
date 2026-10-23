@@ -1,16 +1,15 @@
 ---
+conformant: true
+created: 2026-10-10T00:00:00+00:00
+modified: 2026-10-22T15:11:05+00:00
+non_conformance_reason: ''
+permalink: llmeon/90-audits/2026-10-10-impact-of-set-2-breakthroughs
+tags: [audit, domain/pkm]
 title: Audit - Impact of Set 2 Breakthroughs
 type: link_report
-tags:
-- audit
-- domain/pkm
-conformant: true
-non_conformance_reason: ''
-created: 2026-10-10 00:00:00+00:00
-permalink: llmeon/90-audits/2026-10-10-impact-of-set-2-breakthroughs
 ---
 
-## Positioning — [[Impact of Set 2 Breakthroughs]] — 2026-10-10
+## Positioning—[[Impact of Set 2 Breakthroughs]]—2026-10-10
 
 > Output Contract (TAC): confidence stated per section, evidence by wikilink, `UNSURE` or `NO EVIDENCE` where a claim could not be tested. Tooling: Obsidian MCP search (semantic search errored, so lexical plus wikilink graph only; coverage claims are downgraded accordingly), `edge_lint.py`, ARCHILLES CLI.
 
@@ -19,7 +18,7 @@ permalink: llmeon/90-audits/2026-10-10-impact-of-set-2-breakthroughs
 Thin, not a true orphan.
 
 - Inbound: 1, from [[SoT - Conventional Problem Solving]] (line 96, "How new paradigms become conventional").
-- Outbound: 2 bare links, `[[Generative Intelligence]]` and `[[Applicative Intelligence]]`. The second resolves through an alias on [[SoT - Conventional Problem Solving]]. The first does **not** resolve: [[SoT - Generative Intelligence]] has no `Generative Intelligence` alias, and the wikilink graph reports it unresolved. [[Fundamental Insight Creation]] carries the same dangling link. **Resolved after Part 3**: the alias `Generative Intelligence` was added to [[SoT - Generative Intelligence]] (see Follow-up fix). Note the wikilink tool does not resolve aliases at all (it also reports the working `Applicative Intelligence` alias as unresolved), so it cannot confirm the fix; check in Obsidian.
+- Outbound: 2 bare links, `[[Generative Intelligence]]` and `[[Applicative Intelligence]]`. The second resolves through an alias on [[SoT - Conventional Problem Solving]]. The first does not resolve: [[SoT - Generative Intelligence]] has no `Generative Intelligence` alias, and the wikilink graph reports it unresolved. [[Fundamental Insight Creation]] carries the same dangling link. Resolved after Part 3: the alias `Generative Intelligence` was added to [[SoT - Generative Intelligence]] (see Follow-up fix). Note the wikilink tool does not resolve aliases at all (it also reports the working `Applicative Intelligence` alias as unresolved), so it cannot confirm the fix; check in Obsidian.
 - Typed edges: none. `edge_lint.py --why` reports no node found, so it is outside the argument graph.
 - Frontmatter: `type: permanent` (non-canonical), no `conformant` or `non_conformance_reason`, legacy `updated: null`, string `last_reviewed: 'null'`.
 - Protection: no `own_words`, not in `01_journals/` or `20_Thinking/`. Writable under AGENTS §9.3.
@@ -46,22 +45,22 @@ Thin, not a true orphan.
 
 Confidence: medium (lexical search only).
 
-### Patch A — Typed Edges (six-word vocabulary only)
+### Patch A—Typed Edges (Six-word Vocabulary Only)
 
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
 | Impact of Set 2 Breakthroughs | `[extends:: [[SoT - Generative Intelligence]]]` | Structural: the note elaborates what follows from Set 2. Ignored by C1-C3. | Yes, file exists |
 | Impact of Set 2 Breakthroughs | `[depends_on:: [[Kuhn's Four-Stage Model of Paradigm Collapse]], strength=3, confidence=medium]` | Feeds C1 and C4. The Kuhn atom is an axiom, so the dependency is grounded. | Yes, file exists |
 
-### Patch B — Plain Links / MoC Anchors
+### Patch B—Plain Links / MoC Anchors
 
 | File | Proposed line | Where it goes |
 |---|---|---|
 | Impact of Set 2 Breakthroughs | Annotated links to [[SoT - Conventional Problem Solving]] and [[Fundamental Insight Creation]] | New `## Related` section appended |
-| SoT - Generative Intelligence | `- [[Impact of Set 2 Breakthroughs]]—_The consequence side: ..._` | One line, end of `### The Kuhnian Framework`, after the Ptolemaic entry. Primary home. |
+| SoT - Generative Intelligence | `- [[Impact of Set 2 Breakthroughs]]—_The consequence side: …_` | One line, end of `### The Kuhnian Framework`, after the Ptolemaic entry. Primary home. |
 | MoC | None | No MoC fits both notes; [[MOC - Theory and Reality (Godfrey-Smith)]] lists the SoT, not its satellites. No secondary hub. |
 
-### Patch C — Frontmatter Conformance
+### Patch C—Frontmatter Conformance
 
 | Field | Current | Proposed |
 |---|---|---|
@@ -76,25 +75,25 @@ Confidence: medium (lexical search only).
 
 Title not renamed (flagged). `created`, `tags`, `aliases`, `permalink` unchanged.
 
-### Patch D — Further Reading, Personal Library
+### Patch D—Further Reading, Personal Library
 
-| Book — location | Link | What it corroborates | Relevance |
+| Book—location | Link | What it corroborates | Relevance |
 |---|---|---|---|
-| Theory and Reality — Godfrey-Smith, 5.3 Normal Science, p. 115 | `calibre://view-book/GCcalibreBooks/1611/EPUB` | The normal scientist uses the tools and concepts the paradigm provides, so a new paradigm supplies the puzzles | 0.419 (medium), snippet read and bears on the claim |
-| Flow — Csikszentmihalyi, "The Delights of Science" | `calibre://view-book/GCcalibreBooks/292/EPUB` | A paradigm forces scientists to investigate nature in a detail and depth otherwise unimaginable | 0.413 (medium), snippet read and bears on the claim |
+| Theory and Reality—Godfrey-Smith, 5.3 Normal Science, p. 115 | `calibre://view-book/GCcalibreBooks/1611/EPUB` | The normal scientist uses the tools and concepts the paradigm provides, so a new paradigm supplies the puzzles | 0.419 (medium), snippet read and bears on the claim |
+| Flow—Csikszentmihalyi, "The Delights of Science" | `calibre://view-book/GCcalibreBooks/292/EPUB` | A paradigm forces scientists to investigate nature in a detail and depth otherwise unimaginable | 0.413 (medium), snippet read and bears on the claim |
 
-Calibre ids and formats were taken from the existing, already-working links in [[SoT - Generative Intelligence]] (same two books), not looked up fresh. No hit speaks to the *disproportionate* size of impact.
+Calibre ids and formats were taken from the existing, already-working links in [[SoT - Generative Intelligence]] (same two books), not looked up fresh. No hit speaks to the _disproportionate_ size of impact.
 
 ### Claim Stubs Written
 
 None.
 
-### No evidence / needs your call
+### No Evidence / Needs Your Call
 
 | Candidate | Why untestable |
 |---|---|
 | "Impact is disproportionately large" | No vault note or read passage supports the magnitude claim. Kuhn supports the structure (revolution -> new normal science), not the proportion. Left as the ungrounded half of the claim. |
-| Dangling `[[Generative Intelligence]]` in this note and in [[Fundamental Insight Creation]] | Fixing means editing existing text (target) or adding an alias to a hub; both are outside the append-only scope. Suggested fix: change to `[[SoT - Generative Intelligence\|Generative Intelligence]]`, or add `Generative Intelligence` to that SoT's aliases. **Done afterwards: the alias was added** (see Follow-up fix). |
+| Dangling `[[Generative Intelligence]]` in this note and in [[Fundamental Insight Creation]] | Fixing means editing existing text (target) or adding an alias to a hub; both are outside the append-only scope. Suggested fix: change to `[[SoT - Generative Intelligence\|Generative Intelligence]]`, or add `Generative Intelligence` to that SoT's aliases. Done afterwards: the alias was added (see Follow-up fix). |
 | Semantic neighbours | Semantic search errored; a rerun could surface siblings missed by lexical search. |
 
 ### Applied (Part 2)
@@ -112,13 +111,13 @@ None.
 
 ---
 
-## Part 3 — Thread Audit Report — seed: [[Impact of Set 2 Breakthroughs]]
+## Part 3—Thread Audit Report—seed: [[Impact of Set 2 Breakthroughs]]
 
 ### Verdict
 
-The note is now a node in the argument graph, with one grounded dependency and one ungrounded half. The *structural* half of the claim (a breakthrough creates ground for conventional work) rests on an axiom atom. The *magnitude* half ("disproportionately large") rests on nothing in the vault.
+The note is now a node in the argument graph, with one grounded dependency and one ungrounded half. The _structural_ half of the claim (a breakthrough creates ground for conventional work) rests on an axiom atom. The _magnitude_ half ("disproportionately large") rests on nothing in the vault.
 
-### Exposure list
+### Exposure List
 
 - Dependents: 0 (`--impact`: no dependents recorded). Only [[SoT - Generative Intelligence]] and the Conventional Problem Solving SoT link to it, and neither depends on it.
 - Exposure: 0. It sits at the tip of a chain, so a defect here moves nothing downstream.
@@ -131,29 +130,29 @@ The note is now a node in the argument graph, with one grounded dependency and o
 | Chain | Kuhn -> (compiler also reaches) [[Ptolemaic System as a Patched Flawed Model]] -> [[Open Knowledge Systems Prevail Over Closed Systems]] / [[Systems Generate Internal Logic in Isolation]] |
 | Tip | [[Impact of Set 2 Breakthroughs]] |
 | Weakest link | `Systems are Blind to Their Broader Context`, shown `[?]` (neither axiom nor evidence-backed). It is inherited via the Ptolemaic branch, not introduced by this run. |
-| Cheapest defeater | Show a paradigm shift whose follow-on work was *smaller* than the shift itself, or that normal science did not resume inside the new paradigm. Kuhn's cycle does not rule this out, because it describes stages and not their relative size. |
+| Cheapest defeater | Show a paradigm shift whose follow-on work was _smaller_ than the shift itself, or that normal science did not resume inside the new paradigm. Kuhn's cycle does not rule this out, because it describes stages and not their relative size. |
 
-### Traversal manifest
+### Traversal Manifest
 
 - Outbound: [[SoT - Generative Intelligence]] (`extends`, structural), [[Kuhn's Four-Stage Model of Paradigm Collapse]] (`depends_on`), [[SoT - Conventional Problem Solving]] and [[Fundamental Insight Creation]] (plain links, use-vs-mention checked above).
 - Inbound: [[SoT - Conventional Problem Solving]] (plain link), [[SoT - Generative Intelligence]] (plain link, new this run).
 - Termination: hub ([[SoT - Generative Intelligence]]), axiom ([[Kuhn's Four-Stage Model of Paradigm Collapse]]), depth cap on the Ptolemaic subtree.
 - Bare links remaining: `[[Generative Intelligence]]` (was dangling; resolved by the alias added in the follow-up fix) and `[[Applicative Intelligence]]` (alias-resolved, mention-level: they are label links, not inferential edges).
 
-### Patch A — Typings
+### Patch A—Typings
 
 None further. The two edges above were the only candidates that passed all three tests.
 
-### Patch B — Sever candidates
+### Patch B—Sever Candidates
 
 None. No edge failed on re-test.
 
-### No evidence
+### No Evidence
 
 - Magnitude of impact ("disproportionately large"): no source in vault or library.
-- Uniqueness: the claim that Set 2 insights are *rare* is also unsourced.
+- Uniqueness: the claim that Set 2 insights are _rare_ is also unsourced.
 
-### Pathologies found
+### Pathologies Found
 
 - Dangling `[[Generative Intelligence]]` in the target and in [[Fundamental Insight Creation]] (alias missing on the SoT). Fixed in the follow-up below.
 - Label coupling: "Set 1 / Set 2" appears only in this note and is defined only here (now stated in `## Related`). It does not appear in either SoT, which use Applicative and Generative.
@@ -166,13 +165,13 @@ None. No edge failed on re-test.
 - A sentence-form title such as "Rare Fundamental Insights Open Fields That Conventional Problem Solving Then Develops" would make this a conformant atom, but renaming needs the inbound link in [[SoT - Conventional Problem Solving]] updated in the same step.
 - A source for the magnitude claim: [[The Beginning Infinity: Explanations That Transform the World]] (Deutsch, ch. 1) surfaced as a library hit but its snippet did not bear on the claim, so it was discarded unread. It may be worth a targeted ARCHILLES query.
 
-### Next action
+### Next Action
 
 Open `[[Generative Intelligence]]` in this note in Obsidian and confirm it lands on [[SoT - Generative Intelligence]]; revert the alias in that SoT's frontmatter if it does not.
 
 ---
 
-## Follow-up fix — 2026-10-10
+## Follow-up fix—2026-10-10
 
 - Change: added `Generative Intelligence` to the `aliases` of [[SoT - Generative Intelligence]]. This resolves the bare `[[Generative Intelligence]]` link in four notes at once: [[Impact of Set 2 Breakthroughs]], [[Fundamental Insight Creation]], [[SoT - Conventional Problem Solving]] and [[SoT - Reframe Your Mindset From Pretender to Explorer]]. No link text was edited. None of the four is own-words protected.
 - Why an alias and not four edits: it mirrors how `Applicative Intelligence` already resolves, and leaves existing prose untouched.

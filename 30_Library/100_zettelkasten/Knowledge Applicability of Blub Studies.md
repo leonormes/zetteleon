@@ -6,7 +6,7 @@ created: 2025-02-07T12:57:54+00:00
 epistemic_status: medium
 evidence_links: []
 ID: knowledge_applicability
-modified: 2026-10-13T00:00:00+00:00
+modified: 2026-10-22T15:11:16+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/knowledge-applicability-of-blub-studies
 proposition: Although blub studies focus on specific systems, the underlying principles learned are often generalisable to other parts of the stack and to different technologies

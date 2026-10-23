@@ -3,7 +3,7 @@ aliases: [AWS vs Azure Networking, Cloud Networking Concepts, VPC and VNet Funda
 conformant: true
 created: 2025-12-29T20:01:57+00:00
 last_reviewed: null
-modified: 2026-09-29T10:38:08+00:00
+modified: 2026-10-22T15:11:12+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-cloud-networking-core-components
 status: stable

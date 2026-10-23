@@ -1,6 +1,6 @@
 ---
 created: 2026-04-28T00:00:00+00:00
-modified: 2026-09-22T00:00:00+01:00
+modified: 2026-10-22T15:11:05+00:00
 permalink: llmeon/agents
 tags: [agents, hermes, system]
 title: AGENTS
@@ -10,13 +10,13 @@ title: AGENTS
 
 Authoritative schema for all agent interactions with this vault. Single source of truth; no external spec supersedes this file.
 
-**2026-07-30 — split notice:** the three-layer memory system (`raw/`, `wiki/`, `output/`, `log.md`) that used to live in this vault has moved to a standalone vault at `/Volumes/DAL/Zettelkasten/Hermes`. If a task involves Hermes's own raw sources, dossiers, or generated output, work in the Hermes vault under its own `AGENTS.md` — not here. This vault is **full read-write territory**. Agents may create, edit, and move notes anywhere — the human curates via review, not prohibition — with one exception: protected notes (§6) are never edited, moved or deleted by an agent. They are the notes marked `own_words: true` and every existing note in `01_journals/` and `20_Thinking/`.
+2026-07-30—split notice: the three-layer memory system (`raw/`, `wiki/`, `output/`, `log.md`) that used to live in this vault has moved to a standalone vault at `/Volumes/DAL/Zettelkasten/Hermes`. If a task involves Hermes's own raw sources, dossiers, or generated output, work in the Hermes vault under its own `AGENTS.md`—not here. This vault is full read-write territory. Agents may create, edit, and move notes anywhere—the human curates via review, not prohibition—with one exception: protected notes (§6) are never edited, moved or deleted by an agent. They are the notes marked `own_words: true` and every existing note in `01_journals/` and `20_Thinking/`.
 
 ---
 
 ### 0. ProdOS Vault Taxonomy
 
-Human-territory map. Agents may read and write freely across all folders — the human curates through review, not prohibition — except for protected notes (§6).
+Human-territory map. Agents may read and write freely across all folders—the human curates through review, not prohibition—except for protected notes (§6).
 
 #### Note Types
 
@@ -48,13 +48,13 @@ Agents may read and write freely across all folders, except for protected notes 
 
 #### Frontmatter
 
-Canonical spec: [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]] — read it in full; this is a pointer, not a substitute. Reconciled 2026-09-22: the contract's §1 explicitly un-deprecates `type` ("superseding previous deprecation"), so the guidance below replaces this file's earlier "avoid `type`/`status`" wording.
+Canonical spec: [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]—read it in full; this is a pointer, not a substitute. Reconciled 2026-09-22: the contract's §1 explicitly un-deprecates `type` ("superseding previous deprecation"), so the guidance below replaces this file's earlier "avoid `type`/`status`" wording.
 
-- `type` is **required** on every note (§2), set to one of the contract's enum values. Fileclass's own class-detection (`fileClassAlias: type`) keys off this field — a note without it gets no schema, no validation, no editable Bases row, whatever its `prodos` object says.
+- `type` is required on every note (§2), set to one of the contract's enum values. Fileclass's own class-detection (`fileClassAlias: type`) keys off this field—a note without it gets no schema, no validation, no editable Bases row, whatever its `prodos` object says.
 - `status` is optional top-level (§2): `draft`, `stable`, `evergreen`, `stale`.
-- `prodos.kind`/`prodos.lifecycle` (§4) are a separate, optional routing/lifecycle layer, not a `type`/`status` replacement — add them alongside `type`, not instead of it, when the note's folder or role calls for routing (§7).
-- Still legacy and still to avoid on new content: `updated`, `creation_date` (§6 — fold their value into `created`/`modified` instead).
-- **Atomic notes** in `30_Library/100_zettelkasten/` follow [[SoT - Atomic Note Standard (The Proposition Card)]]: the proposition-card body, full-sentence claim titles, annotated links, and no `prodos` key (dropped 2026-09-26). It is checked by `10_System/scripts/validate_note_shape.py` on notes created from 2026-09-26 (older notes are frozen). Run it on every atomic note you create. The repo pre-commit hook also runs it, but that hook is currently not chained from git's global hook, see the standard §6.
+- `prodos.kind`/`prodos.lifecycle` (§4) are a separate, optional routing/lifecycle layer, not a `type`/`status` replacement—add them alongside `type`, not instead of it, when the note's folder or role calls for routing (§7).
+- Still legacy and still to avoid on new content: `updated`, `creation_date` (§6—fold their value into `created`/`modified` instead).
+- Atomic notes in `30_Library/100_zettelkasten/` follow [[SoT - Atomic Note Standard (The Proposition Card)]]: the proposition-card body, full-sentence claim titles, annotated links, and no `prodos` key (dropped 2026-09-26). It is checked by `10_System/scripts/validate_note_shape.py` on notes created from 2026-09-26 (older notes are frozen). Run it on every atomic note you create. The repo pre-commit hook also runs it, but that hook is currently not chained from git's global hook, see the standard §6.
 
 ---
 
@@ -62,12 +62,12 @@ Canonical spec: [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]] — re
 
 Rules that hold whatever the task, the prompt or the tool. Where a prompt in `10_System/prompts/` or any other section of this file says otherwise, this section wins. There is one so far.
 
-#### 6.1 Protected notes are never edited by an agent
+#### 6.1 Protected Notes Are Never Edited by an Agent
 
-A **protected note** is either of:
+A protected note is either of:
 
-- **an own-words note**: any note with `own_words: true` in its frontmatter. Only Leon adds the field, by hand or through the `own_words: true` line in his HEAD-note template (`10_System/templates/HEAD_note template.md`, whose own_words line agents must not change), and only when he drafted every sentence he kept: an LLM may have found sources or challenged the argument, but none of its wording survived;
-- **any existing note in `01_journals/` or `20_Thinking/`**: daily notes and HEAD notes are Leon's working thoughts whether or not they carry the field.
+- an own-words note: any note with `own_words: true` in its frontmatter. Only Leon adds the field, by hand or through the `own_words: true` line in his HEAD-note template (`10_System/templates/HEAD_note template.md`, whose own_words line agents must not change), and only when he drafted every sentence he kept: an LLM may have found sources or challenged the argument, but none of its wording survived;
+- any existing note in `01_journals/` or `20_Thinking/`: daily notes and HEAD notes are Leon's working thoughts whether or not they carry the field.
 
 No other note is covered by this rule, and an agent must not guess from style or age whether a note is Leon's.
 
@@ -87,7 +87,7 @@ The only carve-outs:
 
 If a task seems to need any other edit to a protected note, stop and ask. Leon's approval covers that one edit and nothing after it.
 
-#### 6.2 Role of an agent in Leon's own writing
+#### 6.2 Role of an Agent in Leon's Own Writing
 
 Leon writes and the agent supports. For notes and projects Leon is drafting himself, an agent may:
 
@@ -104,17 +104,17 @@ Text an agent drafts is never given `own_words`, and drafts for Leon's own-writi
 
 Governs how agents interact with the vault's typed-edge system and argument-graph compiler. Canonical syntax: [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]]. Canonical capabilities: [[SoT - Knowledge Compiler (Argument Graph Spec)]].
 
-#### 9.1 Tool preference for vault I/O
+#### 9.1 Tool Preference for Vault I/O
 
 In order:
 
-1. Obsidian tools exposed via 1MCP (`http://127.0.0.1:3050/mcp?app=claude-code`), server `obsidian-llmeon` for this vault—called **directly by name**, e.g. `obsidian-llmeon_1mcp_<tool>`. Never use `obsidian-hermes`, which points at a different vault. There is no discovery step: 1MCP replaced the old `retrieve_tools`/`call_tool` proxy pattern in June 2026 and exposes every upstream tool under its own name, same as any native tool. Never reintroduce a `retrieve_tools`/`call_tool` two-step. If a tool seems unavailable, run `curl -s http://127.0.0.1:3050/health | jq .servers` before assuming it doesn't exist—don't fall back silently.
-2. The `obsidian` CLI when the MCP path isn't reachable: `read`, `create`, `append`, `property:set`, `search:context`, `backlinks`, `unresolved`, `eval`. Verified working whenever the Obsidian desktop app is running. **Since the 2026-07-30 vault split, always pass `vault=LLMeon` explicitly** — the CLI can now address more than one open vault by name, and this one is not the default.
+1. Obsidian tools exposed via 1MCP (`http://127.0.0.1:3050/mcp?app=claude-code`), server `obsidian-llmeon` for this vault—called directly by name, e.g. `obsidian-llmeon_1mcp_<tool>`. Never use `obsidian-hermes`, which points at a different vault. There is no discovery step: 1MCP replaced the old `retrieve_tools`/`call_tool` proxy pattern in June 2026 and exposes every upstream tool under its own name, same as any native tool. Never reintroduce a `retrieve_tools`/`call_tool` two-step. If a tool seems unavailable, run `curl -s http://127.0.0.1:3050/health | jq.servers` before assuming it doesn't exist—don't fall back silently.
+2. The `obsidian` CLI when the MCP path isn't reachable: `read`, `create`, `append`, `property:set`, `search:context`, `backlinks`, `unresolved`, `eval`. Verified working whenever the Obsidian desktop app is running. Since the 2026-07-30 vault split, always pass `vault=LLMeon` explicitly—the CLI can now address more than one open vault by name, and this one is not the default.
 3. Raw filesystem Read/Write only as a last resort, and never blind—`read` the file via one of the above first. A blind fs write bypasses Obsidian's `metadataCache`, so Dataview/backlinks/graph view can silently desync from disk until a reload.
 
 `edge_lint.py`'s own full-vault batch scan is exempt from this—it reads files directly by design (`os.walk`), because a single-file-at-a-time CLI/MCP round trip does not scale to a whole-vault audit. This rule governs interactive single-note reads/writes, not the compiler's ingest step.
 
-#### 9.2 Pre-task graph-state check
+#### 9.2 Pre-task Graph-state Check
 
 Before adding or editing a typed edge, an `axiom:` marker, or any note that participates in the argument graph, run:
 
@@ -126,9 +126,9 @@ and, if working a specific claim, `--why "<title>"` and/or `--impact "<title>"` 
 
 #### 9.3 Writing in `30_Library`
 
-Agents may write freely in `30_Library/100_zettelkasten/`, `30_Library/SoT/`, `30_Library/MoC/`, and `30_Library/200_Projects/` — including typed-edge lines (`[relationship:: [[target]]]`), `axiom:` markers, new notes, and body content. The human curates through review. The one exception is any note with `own_words: true`: no typed edge, link, `axiom:` marker or other body change goes into it (§6). Propose the edge in chat or in a new `00_Inbox/` note instead.
+Agents may write freely in `30_Library/100_zettelkasten/`, `30_Library/SoT/`, `30_Library/MoC/`, and `30_Library/200_Projects/`—including typed-edge lines (`[relationship:: [[target]]]`), `axiom:` markers, new notes, and body content. The human curates through review. The one exception is any note with `own_words: true`: no typed edge, link, `axiom:` marker or other body change goes into it (§6). Propose the edge in chat or in a new `00_Inbox/` note instead.
 
-#### 9.4 Validation recommendation
+#### 9.4 Validation Recommendation
 
 For typed-edge or `axiom:` edits, consider running before finalising:
 
@@ -138,7 +138,7 @@ uv run --with pyyaml python3 10_System/scripts/edge_lint.py --path "<file or vau
 
 This validates that typed edges are well-formed and catches structural issues before they compound.
 
-#### 9.5 How to actually do the work
+#### 9.5 How to Actually Do the Work
 
 - One note's links/edges need fixing or expanding → [[Note Refresh & Link Auditor]].
 - The whole graph needs auditing for gaps/foundations/conflicts, and gaps closed → [[Justification Graph Audit & Gap Closure]].

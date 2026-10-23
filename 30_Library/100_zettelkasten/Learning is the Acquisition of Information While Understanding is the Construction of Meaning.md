@@ -2,7 +2,7 @@
 aliases: [Learning vs Understanding]
 conformant: false
 created: 2025-11-10T16:00:00+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:16+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/learning-is-the-acquisition-of-information-while-understanding-is-the-construction-of-meaning
 tags: [learning, pedagogy, TheHuman/Cognition, understanding]
@@ -18,4 +18,4 @@ Details: Learning can occur through rote memorization without deep comprehension
 
 ### Related
 
-- [[Conceptual Change is the Deep Process of Restructuring Misconceptions]]—*deeper understanding as restructuring.*
+- [[Conceptual Change is the Deep Process of Restructuring Misconceptions]]—_deeper understanding as restructuring._

@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-11-10T10:06:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:14+00:00
 permalink: llmeon/30-library/100-zettelkasten/teamwork-in-a-partnership-is-built-on-shared-goals-reliability-and-mutual-appreciation
 proposition: 'The feeling of being "in it together" in a partnership is fostered by having shared goals, being reliable, and showing mutual appreciation.'
 tags: [goals, partnership, relationship, teamwork]
@@ -21,4 +21,4 @@ Details: This includes having a sense that both partners are working towards the
 
 ### Related
 
-- [[Shared Responsibility in a Partnership Includes Physical Mental and Emotional Labor]]—*what is shared.*
+- [[Shared Responsibility in a Partnership Includes Physical Mental and Emotional Labor]]—_what is shared._

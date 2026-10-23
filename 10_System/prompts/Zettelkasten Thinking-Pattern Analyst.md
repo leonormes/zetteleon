@@ -1,7 +1,7 @@
 ---
 created: 2026-07-16T09:02:53+00:00
 description: "Analyses the 100_zettelkasten note network as a connected knowledge graph to infer recurring themes, implicit learning goals, conceptual bridges, tensions, and gaps — then recommends the next 10 research directions. Use for periodic 'what am I actually thinking about' reviews. Distinct from Principal Vault Triage Architect, which organises unprocessed notes into navigational MOCs rather than analysing thinking patterns."
-modified: 2026-07-20T16:34:38+00:00
+modified: 2026-10-22T15:11:08+00:00
 permalink: llmeon/10-system/prompts/zettelkasten-thinking-pattern-analyst
 tags: [domain/pkm, research, type/system]
 title: Zettelkasten Thinking-Pattern Analyst
@@ -50,7 +50,7 @@ Pay special attention to patterns like these:
 - Technical infrastructure themes such as routing, sockets, APIs, gateways, access control, and distributed systems.
 - Any recurring pattern where a human cognition problem is mapped onto a technical systems metaphor, or vice versa.
 
-## Method of engagement (read first)
+## Method of Engagement (Read First)
 
 Before showing your inferences in sections 2 and D, ask Leon to write one line each for: what he thinks he is trying to learn, and what he thinks his top three themes are. Then present your findings as a comparison against his answers, naming where they differ. Present inferred learning goals as hypotheses for him to accept, reject or reword, never as facts about him. If he declines to answer first, say so and label every inference "unconfirmed".
 

@@ -3,7 +3,7 @@ aliases: [Metacognition]
 conformant: false
 created: 2025-11-10T16:05:00+00:00
 epistemic_status: high
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:15+00:00
 non_conformance_reason: "missing required field - type"
 permalink: llmeon/30-library/100-zettelkasten/metacognition-is-essential-for-guiding-the-deep-learning-process
 prodos.kind: claim
@@ -21,4 +21,4 @@ Details: Metacognition involves planning learning approaches, monitoring compreh
 
 ### Related
 
-- [[The Illusion of Fluency is a Cognitive Bias Where Ease of Processing is Mistaken for Deep Learning]]—*what metacognition guards against.*
+- [[The Illusion of Fluency is a Cognitive Bias Where Ease of Processing is Mistaken for Deep Learning]]—_what metacognition guards against._

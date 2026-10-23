@@ -2,7 +2,7 @@
 aliases: [Basal Ganglia Action Selection]
 conformant: false
 created: 2025-11-10T17:04:00+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:18+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/action-initiation-involves-a-balance-between-direct-and-indirect-pathways-in-the-basal-ganglia
 tags: [action, basal-ganglia, brain, TheHuman/Neuroscience]
@@ -20,4 +20,4 @@ Current Understanding: Contrary to earlier "Go/No-go" models that suggested the 
 
 ### Related
 
-- [[Task Initiation Activates Medial Prefrontal Regions for Energization]]—*another neural account of starting a task.*
+- [[Task Initiation Activates Medial Prefrontal Regions for Energization]]—_another neural account of starting a task._

@@ -1,12 +1,12 @@
 ---
 created: 2026-09-25T00:00:00+00:00
-modified: 2026-09-25T00:00:00+00:00
+modified: 2026-10-22T15:11:05+00:00
 permalink: llmeon/90-audits/2026-09-25-concept-map-for-a-flourishing-human
 title: 2026-09-25-concept-map-for-a-flourishing-human
 type: note
 ---
 
-## Consolidation — [[A Concept Map for a Flourishing Human]] — 2026-09-25
+## Consolidation—[[A Concept Map for a Flourishing Human]]—2026-09-25
 
 > Run of [[Knowledge Consolidation Agent]] (v4). You judged this note redundant with the existing MoCs. That is true for three of its four branches; the fourth, plus some framing and source labels, was not held anywhere else, so it was moved first and then the note was deprecated.
 
@@ -29,7 +29,7 @@ Overlap was found from the note's own structure and backlinks, not by open-ended
 | [[MOC - Character and Virtue]] | Related, home map | §2 carries the six virtues and 24 strengths with glosses; §5 already described the child-facing layer | Yes (for the framework and framing) |
 | [[Heart & Friendship Skills (Your Kind Heart)]], [[World & Wonder Skills (How You Connect to the World)]] | Duplicate of two branches | Same seven items each, same wording, same source labels | Yes (for their branches) |
 | [[Inner Strength & Resilience Skills (Your Strong Spirit)]] | Duplicate of one branch, minus labels | Same seven items and wording; per-item source labels were missing | Yes, after adding them |
-| The "Thinking & Creating" branch | **Not held elsewhere** | Named as a gap in the MoC's §5 and Tensions | New note created |
+| The "Thinking & Creating" branch | Not held elsewhere | Named as a gap in the MoC's §5 and Tensions | New note created |
 
 ### Actions Applied
 
@@ -61,7 +61,7 @@ Overlap was found from the note's own structure and backlinks, not by open-ended
 
 Edges removed: the three `extends:: [[A Concept Map for a Flourishing Human]]` lines on the Inner Strength, Heart & Friendship and World & Wonder notes. All three were structural, so the audit is unaffected.
 
-### Needs your call
+### Needs Your Call
 
 | Item | Why it was not done |
 |---|---|
@@ -75,6 +75,6 @@ Edges removed: the three `extends:: [[A Concept Map for a Flourishing Human]]` l
 - `--audit`: 41 gaps, unchanged.
 - Confidence: high on conservation (each item compared by reading). UNSURE: whether you want the parent-addressed intro kept; see above.
 
-## Next action
+## Next Action
 
 Open `30_Library/MoC/MOC - Character and Virtue.md` at section 5 and check that the concept-map framing reads the way you want.

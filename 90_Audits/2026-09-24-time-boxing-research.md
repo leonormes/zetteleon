@@ -1,20 +1,20 @@
 ---
 created: 2026-09-24T00:00:00+00:00
-modified: 2026-09-24T00:00:00+00:00
+modified: 2026-10-22T15:11:05+00:00
 permalink: llmeon/90-audits/2026-09-24-time-boxing-research
 title: 2026-09-24-time-boxing-research
 type: note
 ---
 
-## Value check and ProdOS linking — [[Time-Boxing Research Prevents Productive Procrastination]] — 2026-09-24
+## Value Check and ProdOS linking—[[Time-Boxing Research Prevents Productive Procrastination]]—2026-09-24
 
 > Method note: 1MCP was still down, so checks were lexical (`rg`) plus file reads.
 
-### Verdict: keep, as the atomic core of a fuller protocol
+### Verdict: Keep, as the Atomic Core of a Fuller Protocol
 
-- **Useful:** it is the cited "canonical reference" and "operational antidote" for the research rabbit hole in [[MOC - Breaking the ADHD Overthinking-Procrastination Cycle]] (three mentions), and it targets a failure you have written about in your own notes ([[I have a lot of shame about my life]] links to it). Its example is an engineering one (a Terraform `for_each` lookup), which fits your day job.
-- **Not the whole story:** [[SoT - Research-to-Action Protocol]] is the fuller version. It adds scope-lock, a hard start from memory, a 70% stop rule and a savestate when the timer fires first. The MoC calls this note "full protocol with failure modes", which overstates it. This note is the timer-and-question core.
-- **It had no link to that SoT**, or to any protocol, and its `type` was `instructional`, which is not a canonical type.
+- Useful: it is the cited "canonical reference" and "operational antidote" for the research rabbit hole in [[MOC - Breaking the ADHD Overthinking-Procrastination Cycle]] (three mentions), and it targets a failure you have written about in your own notes ([[I have a lot of shame about my life]] links to it). Its example is an engineering one (a Terraform `for_each` lookup), which fits your day job.
+- Not the whole story: [[SoT - Research-to-Action Protocol]] is the fuller version. It adds scope-lock, a hard start from memory, a 70% stop rule and a savestate when the timer fires first. The MoC calls this note "full protocol with failure modes", which overstates it. This note is the timer-and-question core.
+- It had no link to that SoT, or to any protocol, and its `type` was `instructional`, which is not a canonical type.
 
 ### Changes
 
@@ -26,12 +26,12 @@ type: note
 
 The `implements` edge is structural, so it does not change exposure. The `trigger` and `verification` fields are paraphrased from the note's own text; check the wording.
 
-### Left alone
+### Left Alone
 
-- **Duplicate SoTs:** [[SoT - Research-to-Action Protocol]] and `Instruction SoT - Research-to-Action Protocol` are near-identical (they differ in Phase 3 and the Related section). A merge candidate, not changed here.
-- **`rel:: antidote [[SoT - Illusion of Explanatory Depth (IoED)]]`** is unparsed by `edge_lint.py` and `antidote` is not in the six-word vocabulary, so I left the line as prose. The plain link still resolves.
-- **Title** is not in the "How to [do X]" form the procedure schema asks for. Not renamed, to keep the MoC links.
-- **Not linked:** [[Protocol - Autonomous Action System]] and [[Protocol - Action-First GTD (LLM Chief of Staff)]] are about routing captured items, not bounding research.
+- Duplicate SoTs: [[SoT - Research-to-Action Protocol]] and `Instruction SoT - Research-to-Action Protocol` are near-identical (they differ in Phase 3 and the Related section). A merge candidate, not changed here.
+- `rel:: antidote [[SoT - Illusion of Explanatory Depth (IoED)]]` is unparsed by `edge_lint.py` and `antidote` is not in the six-word vocabulary, so I left the line as prose. The plain link still resolves.
+- Title is not in the "How to [do X]" form the procedure schema asks for. Not renamed, to keep the MoC links.
+- Not linked: [[Protocol - Autonomous Action System]] and [[Protocol - Action-First GTD (LLM Chief of Staff)]] are about routing captured items, not bounding research.
 
 ### Validation
 

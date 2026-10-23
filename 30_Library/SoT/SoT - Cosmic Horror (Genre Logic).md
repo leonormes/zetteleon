@@ -2,7 +2,7 @@
 aliases: [Cosmic Horror Logic, Lovecraftian Logic, The Significant Insignificance]
 conformant: true
 created: 2025-12-31T00:00:00+00:00
-modified: 2026-09-29T10:38:08+00:00
+modified: 2026-10-22T15:11:12+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-cosmic-horror-genre-logic
 tags: [cosmic-horror, genre, horror, media-analysis, TheHuman/Philosophy]

@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-12-10T12:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-12T16:36:10+00:00
+modified: 2026-10-22T15:11:17+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/fairness-is-treating-all-people-the-same
 proposition: Fairness is treating all people the same according to notions of fairness and justice, which means not letting personal feelings bias decisions about others

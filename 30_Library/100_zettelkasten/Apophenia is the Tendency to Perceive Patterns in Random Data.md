@@ -2,7 +2,7 @@
 aliases: [Patternicity]
 conformant: false
 created: 2025-11-01T12:00:03+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:18+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/apophenia-is-the-tendency-to-perceive-patterns-in-random-data
 tags: [apophenia, bias, TheHuman/Cognition]
@@ -18,4 +18,4 @@ Details: This cognitive bias is a byproduct of the brain's powerful pattern-seek
 
 ### Related
 
-- [[Pattern Recognition is an Efficient Cognitive Heuristic]]—*the failure mode of an otherwise useful heuristic.*
+- [[Pattern Recognition is an Efficient Cognitive Heuristic]]—_the failure mode of an otherwise useful heuristic._

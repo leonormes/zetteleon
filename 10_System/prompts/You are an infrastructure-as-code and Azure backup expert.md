@@ -1,7 +1,7 @@
 ---
 created: 2026-04-30T10:35:58+00:00
 description: "One-off task brief (2026-04-30) to audit and automate the FITFILE Azure AKS backup path (private storage, backup vault, RBAC, snapshot policies) in Terraform, replacing the manual az dataprotection CLI flow. Tied to FTFL-596/599/615 — historical reference, not a generic reusable prompt."
-modified: 2026-07-20T16:34:39+00:00
+modified: 2026-10-22T15:11:08+00:00
 permalink: llmeon/10-system/prompts/you-are-an-infrastructure-as-code-and-azure-backup-expert
 tags: [domain/azure, domain/devops, project/fitfile, type/task-log]
 title: You are an infrastructure-as-code and Azure backup expert

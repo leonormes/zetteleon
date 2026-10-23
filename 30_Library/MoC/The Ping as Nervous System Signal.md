@@ -2,7 +2,7 @@
 aliases: [Emotional Feedback Signal, Nervous System Ping, The Ping]
 created: 2025-07-17T10:05:00+00:00
 last_reviewed: ''
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:12+00:00
 permalink: llmeon/30-library/mo-c/the-ping-as-nervous-system-signal
 tags: []
 title: The Ping as Nervous System Signal
@@ -44,4 +44,4 @@ Learning to act _despite_ the ping, or even _because_ of it, becomes a meta-skil
 
 ### Related
 
-- [[The Ping as a Signal for Growth]]—*the earlier note, now consolidated into this one.*
+- [[The Ping as a Signal for Growth]]—_the earlier note, now consolidated into this one._

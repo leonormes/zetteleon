@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-11-11T12:14:58+00:00
 last_reviewed: ''
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:16+00:00
 permalink: llmeon/30-library/100-zettelkasten/gish-gallop-of-grievances
 see_also: []
 superseded_by: ''
@@ -82,4 +82,4 @@ Would you like to practise responding to the "You Do It Too" deflection next, us
 
 ### Related
 
-- [[The No Solution Deflection in Difficult Conversations]]—*a derailing tactic with a similar effect.*
+- [[The No Solution Deflection in Difficult Conversations]]—_a derailing tactic with a similar effect._

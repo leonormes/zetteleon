@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-05-26T18:13:07+00:00
 last_reviewed: ''
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:14+00:00
 permalink: llmeon/30-library/100-zettelkasten/self-esteem-and-identity
 tags: []
 title: Self-Esteem and Identity
@@ -14,6 +14,6 @@ Our sense of self is often shaped, at least in part, by how others see us. Posit
 
 [[01_journals/Dailies/2025-05-26|2025-05-26]]
 
-### Related
+## Related
 
-- [[Treat Impostor Feelings as a Signal, not a Verdict]]—*a way to handle a threat to self-esteem.*
+- [[Treat Impostor Feelings as a Signal, not a Verdict]]—_a way to handle a threat to self-esteem._

@@ -2,7 +2,7 @@
 aliases: [Map of Content on Paraphrasing]
 conformant: true
 created: 2025-07-16T17:30:04+00:00
-modified: 2026-09-29T10:38:04+00:00
+modified: 2026-10-22T15:11:12+00:00
 permalink: llmeon/30-library/mo-c/moc-paraphrasing-and-language
 prodos.kind: moc
 prodos.lifecycle: active

@@ -1,28 +1,23 @@
 ---
-title: Mind-Independent Patterns Would Support the View That Mathematics Is Discovered
-  Rather Than Invented
-type: claim
-status: seed
-tags:
-- mathematics
-- platonism
-- formalism
-- patterns
-- philosophy
 conformant: true
-created: 2026-10-20 00:00:00+00:00
-modified: 2026-10-20 00:00:00+00:00
-source_title: Time, Patterns, and Mathematics
-source_url: https://gemini.google.com/share/9b6f6fdd7c5e
+contradicts: []
+created: 2026-10-20T00:00:00+00:00
 created_utc: '2026-10-20T00:00:00Z'
-upstream: '[[Time, Patterns, and Mathematics]]'
+epistemic_status: medium
+evidence_links: []
+modified: 2026-10-22T15:11:20+00:00
+permalink: llmeon/00-inbox/mind-independent-patterns-would-support-the-view-that-mathematics-is-discovered-rather-than-invented
 proposition: If spatial and temporal patterns are fundamental mind-independent features
   of the universe, that supports the Platonist view that mathematics is discovered
   as the language describing them.
-epistemic_status: medium
-evidence_links: []
-contradicts: []
-permalink: llmeon/00-inbox/mind-independent-patterns-would-support-the-view-that-mathematics-is-discovered-rather-than-invented
+source_title: Time, Patterns, and Mathematics
+source_url: https://gemini.google.com/share/9b6f6fdd7c5e
+status: seed
+tags: [formalism, mathematics, patterns, philosophy, platonism]
+title: Mind-Independent Patterns Would Support the View That Mathematics Is Discovered
+  Rather Than Invented
+type: claim
+upstream: '[[Time, Patterns, and Mathematics]]'
 ---
 
 ## Mind-Independent Patterns Would Support the View That Mathematics Is Discovered Rather Than Invented
@@ -50,4 +45,5 @@ Conditional on the patterns being mind-independent. The rival view is formalism,
 - [[MOC - What is Maths]]—the map of the invention versus discovery debate.
 
 [supports:: [[Numbers as Abstract Objects (Platonism)]], confidence=medium]
+
 [depends_on:: [[Many Patterns Are Purely Spatial and Can Be Perceived in a Single Static Instant]], confidence=medium]

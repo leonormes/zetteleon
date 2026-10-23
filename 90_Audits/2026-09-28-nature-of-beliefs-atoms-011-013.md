@@ -1,16 +1,16 @@
 ---
 created: 2026-09-28T00:00:00+00:00
-modified: 2026-09-28T00:00:00+00:00
+modified: 2026-10-22T15:11:05+00:00
 permalink: llmeon/90-audits/2026-09-28-nature-of-beliefs-atoms-011-013
 title: 2026-09-28-nature-of-beliefs-atoms-011-013
 type: note
 ---
 
-## Consolidation — Atoms 011 to 013 of [[tmp_atoms_the-nature-of-beliefs-between-fact-and-faith]] — 2026-09-28
+## Consolidation—Atoms 011 To 013 of [[tmp_atoms_the-nature-of-beliefs-between-fact-and-faith]]—2026-09-28
 
 ### Analysis
 
-Core concept: Eyal's limiting-versus-liberating belief table (fixed truth versus upgradeable tool), with its identity and difficulty rows. Epistemic status: opinion, relayed by an LLM summary of *Beyond Belief* (Calibre 1686) with citations stripped. Tooling tier reached: MCP lexical (`obsidian-llmeon` `search_text`) plus `semble` search. `search_semantic` errored on every attempt, so coverage is downgraded. Coverage confidence: medium.
+Core concept: Eyal's limiting-versus-liberating belief table (fixed truth versus upgradeable tool), with its identity and difficulty rows. Epistemic status: opinion, relayed by an LLM summary of _Beyond Belief_ (Calibre 1686) with citations stripped. Tooling tier reached: MCP lexical (`obsidian-llmeon` `search_text`) plus `semble` search. `search_semantic` errored on every attempt, so coverage is downgraded. Coverage confidence: medium.
 
 ### Search Execution (Triad)
 
@@ -24,7 +24,7 @@ Core concept: Eyal's limiting-versus-liberating belief table (fixed truth versus
 |---|---|---|---|
 | [[Beliefs as Defining Spaces]] | Duplicate of Atom 011 | Same thesis: a Limiting belief "builds a room with no windows" and an Empowering belief "opens a hallway"; "Held onto too literally, a belief stops being a tool", which is Eyal's fixed truth versus tool. | Yes, for the concept |
 | [[SoT - Belief Architecture & Cognitive Spaces]] | Duplicate of Atom 011 (the table) | Its §2 and §3 tables are the same structure with ADHD examples. | Yes, as the SoT (Canonical Selection rule 1) |
-| [[Narrative Identity is the Story We Construct About Our Experiences]] | Shadow duplicate of Atom 012 | "Personal identity can be understood as an editable narrative ... without presupposing fixed essence." | No |
+| [[Narrative Identity is the Story We Construct About Our Experiences]] | Shadow duplicate of Atom 012 | "Personal identity can be understood as an editable narrative … without presupposing fixed essence." | No |
 | [[Cognitive Defusion from Narrative]] | Shadow duplicate of Atom 012 | "I am someone who quits" treated as "learned patterns rather than essential traits". | No |
 | [[Discomfort Signals Growth Potential]] | Duplicate of Atom 013 | "Task-related discomfort often indicates skill expansion"; "Separate discomfort from inability". | Yes |
 | [[Desirable Difficulty in Skill Acquisition]] | Related to Atom 013 | Struggle as the mechanism of skill building, argued from AI automation. | No |
@@ -58,7 +58,7 @@ The TMP file keeps Atoms 011 to 013 with their evidence quotes, so the source wo
 
 The relation wanted between the Eyal notes and [[Beliefs as Defining Spaces]] is independent corroboration. No edge in the closed vocabulary fits, and `supports` would fabricate grounding for a concept note, so the links are plain and annotated.
 
-### Needs your call
+### Needs Your Call
 
 | Item | Why it was not done |
 |---|---|

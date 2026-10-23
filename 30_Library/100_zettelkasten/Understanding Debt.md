@@ -2,7 +2,7 @@
 created: 2026-04-14T20:31:19+00:00
 created_utc: '2026-04-14T13:40:00Z'
 kind: failure_mode
-modified: 2026-09-29T10:38:00+00:00
+modified: 2026-10-22T15:11:13+00:00
 permalink: llmeon/30-library/100-zettelkasten/understanding-debt
 source_title: Deconstructing the interview with Jeremy Howard
 source_url: https://gemini.google.com/app/fa3a7e9a4a69844c
@@ -36,4 +36,3 @@ Occurs when developers rely on autonomous agent output without performing a rigo
 - [[Outsourcing Writing to AI Bypasses the Cognitive Strain That Builds Professional Competence]]—supports: identifying the risk of atrophying business/technical understanding.
 
 ### See Also
-

@@ -1,7 +1,7 @@
 ---
 created: 2026-04-13T14:37:11+00:00
 created_utc: '2026-04-13T11:10:00Z'
-modified: 2026-09-29T10:38:24+00:00
+modified: 2026-10-22T15:11:08+00:00
 permalink: llmeon/30-library/400-indexes/link-report-agentic-engineering
 source_atoms: '[[tmp_atoms_agentic_engineering.md]]'
 status: seed

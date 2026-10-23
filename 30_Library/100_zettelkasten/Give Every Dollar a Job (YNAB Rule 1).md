@@ -2,7 +2,7 @@
 aliases: [Give Every Pound a Job, Intentional Allocation, Proactive Budgeting, Zero-Based Budgeting]
 conformant: false
 created: 2025-11-18T14:32:00+00:00
-modified: 2026-09-29T10:37:52+00:00
+modified: 2026-10-22T15:11:16+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/give-every-dollar-a-job-ynab-rule-1
 tags: [budgeting, finance, psychology, ynab]
@@ -30,6 +30,7 @@ When new funds are received, they are processed through this logic hierarchy:
 5. Flexibility: What changes do I need to make? (Dynamic adjustment/[[Roll With The Punches (YNAB Rule 3)]]).
 
 ## 🚀 Relational Impact
+
 This rule acts as the "Input" trigger for the entire financial system. Without Rule 1, [[Embrace Your True Expenses (YNAB Rule 2)]] (Stability) has no fuel, and the system reverts to reactive pattern-matching rather than intentional execution.
 
 ### Related
@@ -43,4 +44,5 @@ This rule acts as the "Input" trigger for the entire financial system. Without R
 - [[SoT - Financial Philosophy and Spendfulness]]—spendfulness is the value alignment this rule operationalises.
 
 [implements:: [[Habit 1 - Be Proactive]]]
+
 [implements:: [[SoT - Financial Philosophy and Spendfulness]]]

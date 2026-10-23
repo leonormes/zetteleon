@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2026-05-04T08:01:26+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:16+00:00
 non_conformance_reason: "missing required field - type"
 permalink: llmeon/30-library/100-zettelkasten/key-questions-when-linking-notes-in-the-zettelkasten-method
 prodos.kind: concept
@@ -26,4 +26,4 @@ title: Key questions when linking notes in the Zettelkasten method
 
 ### Related
 
-- [[A Main Note Holds at Minimum a Single Idea and a Link to Another Idea]]—*the minimum linking requirement.*
+- [[A Main Note Holds at Minimum a Single Idea and a Link to Another Idea]]—_the minimum linking requirement._

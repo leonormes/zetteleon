@@ -1,7 +1,7 @@
 ---
 author: Hermes (consolidation)
 created: 2026-08-24T17:00:00+00:00
-modified: 2026-08-26T14:06:49+00:00
+modified: 2026-10-22T15:11:04+00:00
 permalink: llmeon/30-library/200-projects/pipeline-best-practices-research-prompt
 tags: [1, argo-cd, ci-cd, cicd, devops, fitfile, gitlab, pipeline, research-prompt, SDLC, security, trivy, vulnerability-management]
 title: FitFile CI_CD Pipeline — Consolidated Notes
@@ -857,7 +857,7 @@ Scope for this pass: 2 lanes (`testing`, `testing-2`) rather than 3+, to keep 
 
 Find out how `ffnodes/fitfile/testing`'s ArgoCD Application was actually registered (ask the platform owner, or check ArgoCD's own UI/`argocd app get testing -o yaml` for its `metadata.annotations`/source, or search `terraform-fitfile-unified-deployment` for a module instantiation referencing `deployment_key = "testing"`). This decides whether step 2 below is a Terraform PR in another repo or a one-off imperative `argocd app create`.
 
-#### Step 1— `deployment` Repo: New Lane's Config
+#### Step 1—`deployment` Repo: New Lane's Config
 
 - Duplicate `ffnodes/fitfile/testing/values.yaml` → `ffnodes/fitfile/testing-2/values.yaml`, changing `namespace: testing` → `testing-2`, `deploymentKey: testing` → `testing-2`, and its own MSSQL PVC/storage block so it doesn't collide with lane 1.
 - Decide and set distinct hostnames for lane 2 (today's script hardcodes `testing-argocd.fitfile.net` / `testing-argo-workflows.fitfile.net` —lane 2 needs its own, e.g. `testing-2-argo-workflows.fitfile.net`), which likely means a DNS/ingress change too—needs confirming with whoever owns that.
@@ -866,15 +866,15 @@ Find out how `ffnodes/fitfile/testing`'s ArgoCD Application was actually regist
 
 Per Step 0's answer: either a Terraform change (new module instantiation, its own PR/apply cycle, likely platform-team review) or an imperative `argocd app create testing-2 …` bootstrap. I'd plan this as its own reviewable unit separate from the CI changes below, since it's infra, not pipeline config.
 
-#### Step 3— `deployment/staging.gitlab-ci.yml`
+#### Step 3—`deployment/staging.gitlab-ci.yml`
 
 Parameterize `prepare_kube_config`, `sync_argo_app`, `run_integration_tests` (lines 14–83) so namespace, ArgoCD app name, and `resource_group` come from a `$LANE` variable instead of the hardcoded `staging`/`testing` —e.g. `resource_group: staging-$LANE`, `ARGO_BASE_HREF: $LANE-argo-workflows.fitfile.net`, `argo list -n $LANE`.
 
-#### Step 4— `deployment/scripts/argocd_sync_testing_images.sh`
+#### Step 4—`deployment/scripts/argocd_sync_testing_images.sh`
 
 Replace the hardcoded `argocd app set testing --values /ffnodes/fitfile/testing/values.yaml` / `argocd app sync testing` with parameters driven by `$LANE`.
 
-#### Step 5— `workflows-api/deployment/pipeline/staging-jobs.yaml`
+#### Step 5—`workflows-api/deployment/pipeline/staging-jobs.yaml`
 
 Add lane assignment ahead of `trigger_integration_tests` (line 23): static regex bucketing on `$CI_MERGE_REQUEST_IID` (e.g. odd IID → `testing`, even → `testing-2`) is enough for 2 lanes and avoids building dynamic-child-pipeline tooling for this first cut. Pass `$LANE` through to the triggered pipeline's variables.
 

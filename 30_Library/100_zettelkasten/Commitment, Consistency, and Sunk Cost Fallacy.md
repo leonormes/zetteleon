@@ -6,7 +6,7 @@ contradicts: []
 created: 2025-08-23T17:07:39+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-10-16T00:00:00+00:00
+modified: 2026-10-22T15:11:17+00:00
 permalink: llmeon/30-library/100-zettelkasten/commitment-consistency-and-sunk-cost-fallacy
 prodos.kind: atomic
 prodos.lifecycle: stable
@@ -26,10 +26,10 @@ This concept is derived from the broader conversation in Contextual Relationship
 
 ## Related
 
-- [[Sunk Cost Fallacy]] - *The decision-theory core of the bias; this note adds the social and ego pressure to stay consistent.* [extends:: [[Sunk Cost Fallacy]], confidence=medium]
-- [[Goal Displacement]] - *The means-over-ends drift this note says commitment reinforces; the concept note records the two as distinct.*
-- [[Claim - When intelligence is bound to identity, epistemic errors are experienced as threats to self-worth]] - *Explains why ego investment makes backing down feel like a threat.*
-- [[Loss Aversion Describes Asymmetric Pain of Loss vs Pleasure of Gain]] - *The asymmetry that makes abandoning a sunk investment feel like a loss.*
-- [[Decoupling Ego from Outcomes to Improve Decisions]] - *A remedy: separating self-worth from a single decision weakens the pull to justify it.*
-- [[SoT - Commitment Devices (Ulysses Pacts)]] - *Uses the same consistency pressure deliberately, binding a future self to a plan.*
-- [[Decision making fallacies]] - *Hub that lists this note beside Sunk Cost Fallacy and Goal Displacement.*
+- [[Sunk Cost Fallacy]] - _The decision-theory core of the bias; this note adds the social and ego pressure to stay consistent._ [extends:: [[Sunk Cost Fallacy]], confidence=medium]
+- [[Goal Displacement]] - _The means-over-ends drift this note says commitment reinforces; the concept note records the two as distinct._
+- [[Claim - When intelligence is bound to identity, epistemic errors are experienced as threats to self-worth]] - _Explains why ego investment makes backing down feel like a threat._
+- [[Loss Aversion Describes Asymmetric Pain of Loss vs Pleasure of Gain]] - _The asymmetry that makes abandoning a sunk investment feel like a loss._
+- [[Decoupling Ego from Outcomes to Improve Decisions]] - _A remedy: separating self-worth from a single decision weakens the pull to justify it._
+- [[SoT - Commitment Devices (Ulysses Pacts)]] - _Uses the same consistency pressure deliberately, binding a future self to a plan._
+- [[Decision making fallacies]] - _Hub that lists this note beside Sunk Cost Fallacy and Goal Displacement._

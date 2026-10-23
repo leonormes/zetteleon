@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T11:54:49+00:00
-modified: 2026-09-29T10:37:38+00:00
+modified: 2026-10-22T15:11:09+00:00
 permalink: llmeon/30-library/200-projects/nnuh
 project_category: deployments
 project_name: Deployments
@@ -11,9 +11,9 @@ type: null
 
 contacts:
 
-tom.brooks@nnuh.nhs.uk <tom.brooks@nnuh.nhs.uk>
+<tom.brooks@nnuh.nhs.uk> <tom.brooks@nnuh.nhs.uk>
 
-ben.goss@nnuh.nhs.uk <ben.goss@nnuh.nhs.uk>
+<ben.goss@nnuh.nhs.uk> <ben.goss@nnuh.nhs.uk>
 
 Here's the full sequence to get from `az login` to a working `kubectl` session against the private AKS API server through Bastion IP Connect/tunneling.
 

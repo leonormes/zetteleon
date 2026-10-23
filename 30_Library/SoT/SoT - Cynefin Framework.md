@@ -2,7 +2,7 @@
 conformant: true
 created: 2026-02-04T18:28:15+00:00
 last-synthesis: 2026-02-04
-modified: 2026-09-29T10:38:08+00:00
+modified: 2026-10-22T15:11:12+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-cynefin-framework
 source_of_truth: true

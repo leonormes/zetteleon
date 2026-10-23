@@ -2,7 +2,7 @@
 aliases: [10 Rules for Life, Peaceful Productivity]
 conformant: true
 created: 2025-12-21T00:00:00+00:00
-modified: 2026-09-29T10:38:13+00:00
+modified: 2026-10-22T15:11:11+00:00
 permalink: llmeon/30-library/so-t/so-t-principles-for-peaceful-productivity
 see_also: ["[[MOC - Action Management]]", "[[SoT - Behavioral Architecture]]", "[[SoT - Indistractable Model (Focus Management)]]"]
 status: stable
@@ -64,7 +64,6 @@ Protect mental energy by refusing to engage with individuals who prioritise winn
 Reduce cognitive overload and create a clear definition of a "successful day" by selecting exactly one critical task (the "needle-mover") to complete. All other accomplishments are a bonus.
 
 [depends_on:: [[Concurrent Task Overload Creates Non-Linear Administrative Overhead That Destroys Focus]], strength=5, confidence=high]
-
 
 <!--content-block-end-->
 

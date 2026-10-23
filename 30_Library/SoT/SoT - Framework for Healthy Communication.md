@@ -2,7 +2,7 @@
 aliases: [Arguing Correctly, Healthy Communication, Relational Communication]
 conformant: true
 created: 2025-12-21T00:00:00+00:00
-modified: 2026-09-29T10:38:10+00:00
+modified: 2026-10-22T15:11:11+00:00
 permalink: llmeon/30-library/so-t/so-t-framework-for-healthy-communication
 prodos.kind: sot
 prodos.lifecycle: active

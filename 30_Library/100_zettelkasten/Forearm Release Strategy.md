@@ -3,7 +3,7 @@ conformant: false
 contradicts: ["[[Archery Shot Process - Release]]"]
 created: 2026-09-21T15:44:45+00:00
 created_utc: '2026-09-21T16:36:00Z'
-modified: 2026-09-29T10:37:52+00:00
+modified: 2026-10-22T15:11:17+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true)"
 permalink: llmeon/00-inbox/forearm-release-strategy
 source_title: Recurve Archery Self-Coaching Resources

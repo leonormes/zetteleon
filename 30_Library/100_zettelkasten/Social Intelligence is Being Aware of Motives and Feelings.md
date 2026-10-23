@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-12-10T12:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-12T00:00:00+00:00
+modified: 2026-10-22T15:11:14+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/social-intelligence-is-being-aware-of-motives-and-feelings
 proposition: Social Intelligence (including Emotional Intelligence) is being aware of the motives and feelings of other people and oneself

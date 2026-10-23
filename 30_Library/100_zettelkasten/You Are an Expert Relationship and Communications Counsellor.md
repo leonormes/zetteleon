@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-11-11T09:27:40+00:00
 last_reviewed: ''
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:13+00:00
 permalink: llmeon/30-library/100-zettelkasten/you-are-an-expert-relationship-and-communications-counsellor
 see_also: []
 superseded_by: ''
@@ -77,5 +77,5 @@ This approach helps break the stalemate by shifting the dynamic from "whose real
 
 - [[Open Communication in a Partnership Requires Active Listening and Collaborative Problem-Solving]] - The target state for the communication dynamic.
 - [[Habit 5 - Seek First to Understand, Then to Be Understood]] - The core principle needed to break the invalidation stalemate.
-- [[MOC - Healthy Relationship Expectations and Needs]]—*the map of expectations the counsellor prompt should draw on.*
-- [[The Most Fundamental Issue & Initial Conversation Strategy]]—*the analysis of the underlying issue and opening strategy.*
+- [[MOC - Healthy Relationship Expectations and Needs]]—_the map of expectations the counsellor prompt should draw on._
+- [[The Most Fundamental Issue & Initial Conversation Strategy]]—_the analysis of the underlying issue and opening strategy._

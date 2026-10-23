@@ -2,7 +2,7 @@
 aliases: [Constitutive Structure, Structure as Truth, The Unifying Axiom]
 conformant: true
 created: 2026-04-19T10:00:00+00:00
-modified: 2026-09-29T10:38:15+00:00
+modified: 2026-10-22T15:11:11+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-structure-is-truth-is-a-unifying-axiom-across-formal-systems
 see_also: ["[[MOC - ADHD Functional Neurology & Scaffolding]]", "[[MOC - Applied Formal Methods]]", "[[Protocol - AFM Vault Constitutional Triage]]", "[[SoT - Conservation of Complexity]]", "[[SoT - Order Theory & Lattices]]", "[[SoT - The Curry-Howard Correspondence (Propositions as Types)]]", "[[SoT - The Data-Centric Philosophy]]"]
@@ -134,7 +134,6 @@ T4—The Stoic Bridge Requires Its Own Note. §5 makes the claim that virtue is 
 - [[SoT - Formal Context (Applied Formal Methods)]]—The FCA analysis that formally derived this note's position.
 - [[MOC - Applied Formal Methods]]—The concept lattice that generated this note; navigate upward for context.
 - [[MOC - ADHD Functional Neurology & Scaffolding]]—The C13 instantiation: scaffold as constitutive cognitive system.
-- [[Protocol - AFM Vault Constitutional Triage]]—The triage protocol that uses this note as its constitutional foundation.
 - [[SoT - Type-Driven Development (The Torvalds Loop)]]—The practical protocol: Shape → Access → Invariants → Logic.
 
 ---

@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-11-11T09:23:56+00:00
 last_reviewed: ''
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:14+00:00
 permalink: llmeon/30-library/100-zettelkasten/silent-void
 see_also: []
 superseded_by: ''
@@ -209,4 +209,4 @@ What happens if you simply… stop carrying that load alone? Stop re-initiating?
 
 ### Related
 
-- [[Nihilism vs Constructed Meaning]]—*meaning in the face of emptiness.*
+- [[Nihilism vs Constructed Meaning]]—_meaning in the face of emptiness._

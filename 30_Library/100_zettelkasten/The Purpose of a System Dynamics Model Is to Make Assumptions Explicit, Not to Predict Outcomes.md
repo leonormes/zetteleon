@@ -5,7 +5,7 @@ created: 2026-09-14T15:20:11+00:00
 created_utc: '2026-09-14T00:00:00Z'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:13+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-purpose-of-a-system-dynamics-model-is-to-make-assumptions-explicit-not-to-predict-outcomes
 prodos.kind: atomic
 prodos.lifecycle: seed
@@ -39,4 +39,4 @@ Applies to system dynamics models specifically (e.g. World3 / Limits to Growth);
 
 - [[SoT - Systems Thinking]]—extends: a methodological point about how to use and critique the models that SoT's frameworks would be applied through.
 - [[A Scientific Theory Is a Well-Tested Explanatory Framework Not a Promoted Hypothesis]]—shared mechanism: both separate a model/theory's real epistemic function from a superficial misreading of its purpose.
-- [[SoT - Reality, Models, and the Limits of Accuracy]]—*models as useful simplifications rather than predictions.*
+- [[SoT - Reality, Models, and the Limits of Accuracy]]—_models as useful simplifications rather than predictions._

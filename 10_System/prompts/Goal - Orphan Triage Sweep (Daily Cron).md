@@ -2,7 +2,7 @@
 aliases: []
 created: 2026-07-11T00:00:00+00:00
 description: "Recurring daily cron protocol that triages 10 orphan notes at a time (proposals only — LINK/MERGE/ARCHIVE/UNSURE), draining the vault's orphan queue without ever editing a note directly. Human promotes proposals from the dated report."
-modified: 2026-07-20T16:34:40+00:00
+modified: 2026-10-22T15:11:08+00:00
 permalink: llmeon/10-system/prompts/goal-orphan-triage-sweep-daily-cron
 tags: [prodos/prompt, sweep, topic/pkm, type/protocol]
 title: Goal - Orphan Triage Sweep (Daily Cron)

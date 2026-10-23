@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-10-31T09:20:29+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:16+00:00
 non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/fundamental-attribution-error
 tags: [TheHuman/Cognition/bias, topic/social-cognition, topic/social-perception]
@@ -34,4 +34,4 @@ Example: Seeing someone cut you off in traffic and concluding they're an aggress
 
 - [[Ambiguity in Social Cues]]
 - [[Confirmation Bias Distorts Social Perception]]
-- [[Cognitive Biases Reinforce Mental Models]]—*a bias that reinforces existing models of people.*
+- [[Cognitive Biases Reinforce Mental Models]]—_a bias that reinforces existing models of people._

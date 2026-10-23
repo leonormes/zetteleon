@@ -2,7 +2,7 @@
 aliases: []
 conformant: true
 created: 2025-12-12T00:00:00+00:00
-modified: 2026-10-15T00:00:00+00:00
+modified: 2026-10-22T15:11:11+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-social-cognition-self-perception
 tags: [topic/social-cognition, topic/social-perception]
@@ -66,24 +66,24 @@ Philosophers like David Hume and Thomas Hobbes proposed the "axiom of self-inter
 
 ## Related
 
-- [[MOC - Social Perception and Self-Awareness]] - *The map this SoT anchors; it lists the atomic notes below by theme.*
-- [[Non-Verbal Cues in Social Judgment]] - *Atomic note for section C.* [synthesizes:: [[Non-Verbal Cues in Social Judgment]], confidence=high]
-- [[Paralanguage and Vocal Tone in Communication]] - *Atomic note for section D.* [synthesizes:: [[Paralanguage and Vocal Tone in Communication]], confidence=high]
-- [[Emotional Contagion in Social Settings]] - *Atomic note for section G.* [synthesizes:: [[Emotional Contagion in Social Settings]], confidence=high]
-- [[Pattern Recognition in Social Cognition]] - *The shared pattern-matching mechanism behind the cues in sections C to E.* [synthesizes:: [[Pattern Recognition in Social Cognition]], confidence=high]
-- [[Mental Models as Social Status Signals]] - *Extends the status comparison in section F to judging others' thinking.* [synthesizes:: [[Mental Models as Social Status Signals]], confidence=medium]
-- [[The Belongingness Hypothesis Holds That Humans Have a Pervasive Drive to Form Lasting Positive Social Bonds]] - *The theory behind the belonging benefits of the Moai in section I.* [synthesizes:: [[The Belongingness Hypothesis Holds That Humans Have a Pervasive Drive to Form Lasting Positive Social Bonds]], confidence=medium]
-- [[Sociometer Theory Treats Self-Esteem as a Monitor of Perceived Social Acceptance]] - *Explains the unconscious concern about what others think in section H.* [synthesizes:: [[Sociometer Theory Treats Self-Esteem as a Monitor of Perceived Social Acceptance]], confidence=medium]
-- [[Split-Brain Confabulation Reveals a Post-Hoc Interpreter]] - *Supporting evidence for reasoning as post-hoc justification in section A.*
-- [[The Tragedy of Commonsense Morality]] - *Shows the same intuitive moral thinking producing conflict between groups.*
-- [[Self-Esteem and Identity]] - *How others' views shape the sense of self.*
-- [[Meta-Accuracy in Social Perception]] - *Tests how well our sense of how others see us matches reality.*
+- [[MOC - Social Perception and Self-Awareness]] - _The map this SoT anchors; it lists the atomic notes below by theme._
+- [[Non-Verbal Cues in Social Judgment]] - _Atomic note for section C._ [synthesizes:: [[Non-Verbal Cues in Social Judgment]], confidence=high]
+- [[Paralanguage and Vocal Tone in Communication]] - _Atomic note for section D._ [synthesizes:: [[Paralanguage and Vocal Tone in Communication]], confidence=high]
+- [[Emotional Contagion in Social Settings]] - _Atomic note for section G._ [synthesizes:: [[Emotional Contagion in Social Settings]], confidence=high]
+- [[Pattern Recognition in Social Cognition]] - _The shared pattern-matching mechanism behind the cues in sections C to E._ [synthesizes:: [[Pattern Recognition in Social Cognition]], confidence=high]
+- [[Mental Models as Social Status Signals]] - _Extends the status comparison in section F to judging others' thinking._ [synthesizes:: [[Mental Models as Social Status Signals]], confidence=medium]
+- [[The Belongingness Hypothesis Holds That Humans Have a Pervasive Drive to Form Lasting Positive Social Bonds]] - _The theory behind the belonging benefits of the Moai in section I._ [synthesizes:: [[The Belongingness Hypothesis Holds That Humans Have a Pervasive Drive to Form Lasting Positive Social Bonds]], confidence=medium]
+- [[Sociometer Theory Treats Self-Esteem as a Monitor of Perceived Social Acceptance]] - _Explains the unconscious concern about what others think in section H._ [synthesizes:: [[Sociometer Theory Treats Self-Esteem as a Monitor of Perceived Social Acceptance]], confidence=medium]
+- [[Split-Brain Confabulation Reveals a Post-Hoc Interpreter]] - _Supporting evidence for reasoning as post-hoc justification in section A._
+- [[The Tragedy of Commonsense Morality]] - _Shows the same intuitive moral thinking producing conflict between groups._
+- [[Self-Esteem and Identity]] - _How others' views shape the sense of self._
+- [[Meta-Accuracy in Social Perception]] - _Tests how well our sense of how others see us matches reality._
 
 ### Further Reading (Personal Library)
 
-- [The Righteous Mind — "The Rider and the Elephant"](calibre://view-book/GCcalibreBooks/1639/EPUB) - *The source of the elephant and rider framing in section A and B.*
-- [Moral Tribes — figure 9.6, p. 245](calibre://view-book/GCcalibreBooks/412/EPUB) - *States that intuitive judgments come first and principles organise them afterwards, matching section A.*
-- [Cognitive Illusions — "Halo effects"](calibre://view-book/GCcalibreBooks/1601/EPUB) - *Covers attractiveness and other signals producing halo effects, as in section B.*
-- [Supercommunicators — "Touchy-Feely Hedge Funders"](calibre://view-book/GCcalibreBooks/700/EPUB) - *Describes emotional contagion shaping conversations even when unnoticed, as in section G.*
-- [Emotional Intelligence — "The Social Arts"](calibre://view-book/GCcalibreBooks/300/EPUB) - *Describes catching others' feelings through subtle exchanges, also section G.*
-- [The Compassionate Mind — ch. 10](calibre://view-book/GCcalibreBooks/120/EPUB) - *Discusses how much people do for recognition in others' minds, supporting section H's point about concern for others' opinions.*
+- [The Righteous Mind — "The Rider and the Elephant"](calibre://view-book/GCcalibreBooks/1639/EPUB) - _The source of the elephant and rider framing in section A and B._
+- [Moral Tribes — figure 9.6, p. 245](calibre://view-book/GCcalibreBooks/412/EPUB) - _States that intuitive judgments come first and principles organise them afterwards, matching section A._
+- [Cognitive Illusions — "Halo effects"](calibre://view-book/GCcalibreBooks/1601/EPUB) - _Covers attractiveness and other signals producing halo effects, as in section B._
+- [Supercommunicators — "Touchy-Feely Hedge Funders"](calibre://view-book/GCcalibreBooks/700/EPUB) - _Describes emotional contagion shaping conversations even when unnoticed, as in section G._
+- [Emotional Intelligence — "The Social Arts"](calibre://view-book/GCcalibreBooks/300/EPUB) - _Describes catching others' feelings through subtle exchanges, also section G._
+- [The Compassionate Mind — ch. 10](calibre://view-book/GCcalibreBooks/120/EPUB) - _Discusses how much people do for recognition in others' minds, supporting section H's point about concern for others' opinions._

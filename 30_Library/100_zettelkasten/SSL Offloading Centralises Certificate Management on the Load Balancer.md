@@ -2,7 +2,7 @@
 aliases: [SSL Termination]
 conformant: false
 created: 2025-10-31T09:25:29+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:14+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/ssl-offloading-centralises-certificate-management-on-the-load-balancer
 tags: [load-balancing, SoftwareEngineering/Networking, SoftwareEngineering/Security, ssl, tls]
@@ -20,4 +20,4 @@ For end-to-end encryption, many load balancers also support re-encryption, where
 
 ### Related
 
-- [[Hybrid Encryption Combines Symmetric Speed with Asymmetric Security]]—*the cryptographic split TLS relies on.*
+- [[Hybrid Encryption Combines Symmetric Speed with Asymmetric Security]]—_the cryptographic split TLS relies on._

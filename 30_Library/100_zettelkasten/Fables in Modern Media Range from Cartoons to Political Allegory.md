@@ -2,7 +2,7 @@
 aliases: [Modern Fables]
 conformant: false
 created: 2025-11-01T21:39:00+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:17+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/fables-in-modern-media-range-from-cartoons-to-political-allegory
 tags: [animation, fable, history, literature, modern-media, storytelling]
@@ -18,6 +18,6 @@ A more complex and politically charged example is George Orwell's 1945 novella, 
 
 These examples show how the core device of the fable—animal allegory—continues to be used for both simple moral instruction and sophisticated social and political commentary.
 
-### Related
+## Related
 
-- [[Aesop's Fables Originated in Oral Tradition]]—*the origin of the form.*
+- [[Aesop's Fables Originated in Oral Tradition]]—_the origin of the form._

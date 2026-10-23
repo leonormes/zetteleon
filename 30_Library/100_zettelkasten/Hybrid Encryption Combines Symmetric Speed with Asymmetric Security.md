@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-12-24T12:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-10-19T00:00:00+00:00
+modified: 2026-10-22T15:11:16+00:00
 permalink: llmeon/30-library/100-zettelkasten/hybrid-encryption-combines-symmetric-speed-with-asymmetric-security
 proposition: Real systems encrypt bulk data with a fast single-use symmetric key and use asymmetric cryptography only to protect and exchange that small key, because asymmetric encryption is slow and limited in data size.
 tags: [cryptography, infrastructure]
@@ -30,11 +30,11 @@ This architecture is the foundation of HTTPS (TLS), SSH, and PGP.
 
 ### Related
 
-- [[Trapdoor Functions Are the Foundation of Public-Key Cryptography]] [depends_on:: [[Trapdoor Functions Are the Foundation of Public-Key Cryptography]], confidence=medium]—*the asymmetric primitive being combined.*
-- [[Public and Private Keys Are Mathematically Asymmetric]] [depends_on:: [[Public and Private Keys Are Mathematically Asymmetric]], confidence=medium]—*the key pair whose public half wraps the symmetric key (inferred).*
-- [[SoT - Cryptography and Encryption]] [supports:: [[SoT - Cryptography and Encryption]], confidence=medium]—*its section 4 states the same hybrid approach for TLS and SSH.*
-- [[SoT - The Data Architecture of TLS 1.3]]—*the protocol named as built on this pattern. TLS 1.3 negotiates the shared secret with an ephemeral key exchange rather than encrypting a key under the server's public key, so step 2 above is the older RSA key-transport form (inferred, worth checking).*
-- [[RSA Algorithm Relies on Integer Factorisation]]—*the best-known asymmetric algorithm used for the key-wrapping step.*
-- [[Encryption vs Digital Signatures - Confidentiality vs Authenticity]]—*the other use of the same asymmetric key pair: signing rather than wrapping a key.*
-- [[SSL Offloading Centralises Certificate Management on the Load Balancer]]—*a deployment where the expensive TLS work is moved off backend servers.*
-- [[MOC - Cryptography]]—*the map this note is filed under.*
+- [[Trapdoor Functions Are the Foundation of Public-Key Cryptography]] [depends_on:: [[Trapdoor Functions Are the Foundation of Public-Key Cryptography]], confidence=medium]—_the asymmetric primitive being combined._
+- [[Public and Private Keys Are Mathematically Asymmetric]] [depends_on:: [[Public and Private Keys Are Mathematically Asymmetric]], confidence=medium]—_the key pair whose public half wraps the symmetric key (inferred)._
+- [[SoT - Cryptography and Encryption]] [supports:: [[SoT - Cryptography and Encryption]], confidence=medium]—_its section 4 states the same hybrid approach for TLS and SSH._
+- [[SoT - The Data Architecture of TLS 1.3]]—_the protocol named as built on this pattern. TLS 1.3 negotiates the shared secret with an ephemeral key exchange rather than encrypting a key under the server's public key, so step 2 above is the older RSA key-transport form (inferred, worth checking)._
+- [[RSA Algorithm Relies on Integer Factorisation]]—_the best-known asymmetric algorithm used for the key-wrapping step._
+- [[Encryption vs Digital Signatures - Confidentiality vs Authenticity]]—_the other use of the same asymmetric key pair: signing rather than wrapping a key._
+- [[SSL Offloading Centralises Certificate Management on the Load Balancer]]—_a deployment where the expensive TLS work is moved off backend servers._
+- [[MOC - Cryptography]]—_the map this note is filed under._

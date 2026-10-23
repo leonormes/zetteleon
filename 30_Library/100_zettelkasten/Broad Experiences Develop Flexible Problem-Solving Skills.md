@@ -2,7 +2,7 @@
 aliases: [Broad Training]
 conformant: false
 created: 2025-11-01T12:30:10+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:18+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/broad-experiences-develop-flexible-problem-solving-skills
 tags: [adaptability, experience, problem-solving]
@@ -18,4 +18,4 @@ Details: Diverse experiences expose individuals to a wider range of challenges a
 
 ### Related
 
-- [[Generalists Have an Advantage in the Information Age]]—*the practical edge.*
+- [[Generalists Have an Advantage in the Information Age]]—_the practical edge._

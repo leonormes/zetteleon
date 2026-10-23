@@ -2,7 +2,7 @@
 aliases: [Arithmetic]
 created: 2025-11-01T11:22:13+00:00
 last_reviewed: '2025-11-01T00:00:00.000Z'
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/arithmetic-definition
 status: seed
 tags: [fields, topic/maths]
@@ -17,7 +17,7 @@ Foundational Pattern: Arithmetic emerges from the discrete, ordered sequence of 
 
 Core Operations: The fundamental operations (addition, multiplication) and their inverses (subtraction, division) define arithmetic's basic computational toolkit.
 
-### Related
+## Related
 
-- [[Number Theory (Definition)]]—*the deeper study of the integers arithmetic works on.*
-- [[Fundamental Theorem of Arithmetic Guarantees Unique Prime Products]]—*a foundational result about arithmetic on the integers.*
+- [[Number Theory (Definition)]]—_the deeper study of the integers arithmetic works on._
+- [[Fundamental Theorem of Arithmetic Guarantees Unique Prime Products]]—_a foundational result about arithmetic on the integers._

@@ -2,7 +2,7 @@
 aliases: []
 created: 2026-07-11T00:00:00+00:00
 description: "One-off, dated bulk-migration task (2026-07-11) that moves legacy frontmatter (type/status/updated/last_reviewed) to the prodos object across ProdOS territory, per [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]] §6. Historical/checkpointed — re-run only if the migration was interrupted or new legacy notes are discovered."
-modified: 2026-07-20T16:34:40+00:00
+modified: 2026-10-22T15:11:08+00:00
 permalink: llmeon/10-system/prompts/goal-frontmatter-bulk-migration-phase-3
 tags: [migration, prodos/prompt, topic/pkm, type/task-log]
 title: Goal - Frontmatter Bulk Migration (Phase 3)

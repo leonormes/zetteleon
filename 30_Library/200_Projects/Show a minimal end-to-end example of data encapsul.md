@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-22T09:55:38+00:00
 last_reviewed: ''
-modified: 2026-09-29T10:37:39+00:00
+modified: 2026-10-22T15:11:09+00:00
 permalink: llmeon/30-library/200-projects/show-a-minimal-end-to-end-example-of-data-encapsul
 project_category: infrastructure
 project_name: Networking

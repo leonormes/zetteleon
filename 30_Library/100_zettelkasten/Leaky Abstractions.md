@@ -4,7 +4,7 @@ conformant: true
 created: 2025-08-29T15:13:40+00:00
 definition: An abstraction is leaky when the underlying complexity it is meant to hide leaks through and has to be understood to solve a problem
 distinguishes_from: ["[[Maps as Simplified Abstractions]]"]
-modified: 2026-10-13T00:00:00+00:00
+modified: 2026-10-22T15:11:16+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/leaky-abstractions
 tags: [abstraction, devex]

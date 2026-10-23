@@ -2,7 +2,7 @@
 aliases: [NIC DMA]
 conformant: false
 created: 2025-11-22T15:00:06+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:17+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/concept-nic-direct-memory-access
 tags: [SoftwareEngineering/networking/hardware]
@@ -20,4 +20,4 @@ DMA significantly reduces CPU overhead and packet processing latency. The NIC pu
 
 ### Related
 
-- [[Concept - Linux NAPI]]—*the receive-side mechanism that pairs with DMA.*
+- [[Concept - Linux NAPI]]—_the receive-side mechanism that pairs with DMA._

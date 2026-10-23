@@ -3,8 +3,8 @@ AoL: Work
 candidate_answers: ['Both: leaf charts now, umbrella later once change control is stronger', ffnode collapsed into a real umbrella chart with dependencies and a Chart.lock; one Application per node, Leaf charts published independently; ffnode stays an app-of-apps whose children carry pinned OCI versions]
 closing_condition: true
 conformant: true
-created: 2026-08-27 17:42:19+00:00
-modified: 2026-09-16 07:54:55+00:00
+created: 2026-08-27T17:42:19+00:00
+modified: 2026-10-22T15:11:19+00:00
 permalink: llmeon/20-thinking/21-workbench/head-should-ffnode-ship-to-acr-as-one-umbrella-chart-or-as-versioned-leaf-charts
 related_claims: []
 sources: ['[[2026-08-27-fitfile-helm-chart-acr-publishing-audit]]', '[[HEAD - The Release Candidate Object]]']

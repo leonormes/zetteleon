@@ -2,7 +2,7 @@
 aliases: [AI Agent Roles, Multi-Agent Architecture, The Surgical Team]
 conformant: true
 created: 2026-01-30T12:00:00+00:00
-modified: 2026-09-29T10:38:07+00:00
+modified: 2026-10-22T15:11:12+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-agentic-roles
 tags: [agents, architecture, context-engine, roles]

@@ -2,7 +2,7 @@
 aliases: [Boom-bust pacing, Energy cycle matching]
 conformant: false
 created: 2025-10-30T17:36:00+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:17+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/event-based-pacing-matches-boom-and-bust-energy-cycles
 source: '[[MOC - How To Create And Use Mini Routines]]'
@@ -21,4 +21,4 @@ By using event completion rather than clock time as transition markers, mini rou
 
 - [[Mini routines improve consistency through flexible adaptation]]
 - [[Event-based anchor points use activities as natural transitions]]
-- [[Flexible Routines Require Contingency Planning]]—*flexibility needs fallbacks.*
+- [[Flexible Routines Require Contingency Planning]]—_flexibility needs fallbacks._

@@ -1,24 +1,18 @@
 ---
-aliases:
-- Fudo-shin
-- The Immovable Mind
+aliases: [Fudo-shin, The Immovable Mind]
 conformant: true
 contradicts: []
-created: 2026-10-21 13:00:00+00:00
+created: 2026-10-21T13:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-21 13:00:00+00:00
+modified: 2026-10-22T15:11:16+00:00
+permalink: llmeon/30-library/100-zettelkasten/fudo-shin-is-a-mind-that-does-not-stick-on-anything-so-immovable-means-fluid
 proposition: Fudo-shin is often mistaken for rigidity but names a mind that does not
   stop or stick on anything, so being immovable means being endlessly fluid.
 status: seed
-tags:
-- musashi
-- emotional_regulation
-- TheHuman/Philosophy
-- rumination
+tags: [emotional_regulation, musashi, rumination, TheHuman/Philosophy]
 title: Fudo-shin Is a Mind That Does Not Stick on Anything, So Immovable Means Fluid
 type: claim
-permalink: llmeon/30-library/100-zettelkasten/fudo-shin-is-a-mind-that-does-not-stick-on-anything-so-immovable-means-fluid
 ---
 
 ## Fudo-shin Is a Mind That Does Not Stick on Anything, So Immovable Means Fluid

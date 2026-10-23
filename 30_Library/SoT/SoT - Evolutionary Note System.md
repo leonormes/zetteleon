@@ -2,7 +2,7 @@
 aliases: [Evolving Notes, Living Note System, NeuroStack Workflow, The Merge Protocol]
 conformant: true
 created: 2025-11-13T00:00:00+00:00
-modified: 2026-10-17T15:02:56+00:00
+modified: 2026-10-22T15:11:12+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-evolutionary-note-system
 status: stable

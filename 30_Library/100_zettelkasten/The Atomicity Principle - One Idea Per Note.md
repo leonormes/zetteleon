@@ -5,7 +5,7 @@ created: 2026-09-26T00:00:00+00:00
 definition: The atomicity principle says a note holds exactly one idea, so that it
   can be linked, contested and reused on its own.
 distinguishes_from: []
-modified: 2026-09-29T10:37:59+00:00
+modified: 2026-10-22T15:11:14+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-atomicity-principle-one-idea-per-note
 status: seed
 tags: [atomicity, note-structure, pkm, zettelkasten]

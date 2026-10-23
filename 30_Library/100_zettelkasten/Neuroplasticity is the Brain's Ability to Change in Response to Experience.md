@@ -2,7 +2,7 @@
 aliases: [Neuroplasticity]
 conformant: false
 created: 2025-11-10T16:16:00+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:15+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/neuroplasticity-is-the-brains-ability-to-change-in-response-to-experience
 tags: [brain, learning, neuroplasticity, TheHuman/Neuroscience]
@@ -18,4 +18,4 @@ Details: Learning is a physical alteration in the brain. This plasticity manifes
 
 ### Related
 
-- [[Knowledge Formation is a Cognitive Process of Neural Connection]]—*how plasticity supports knowledge.*
+- [[Knowledge Formation is a Cognitive Process of Neural Connection]]—_how plasticity supports knowledge._

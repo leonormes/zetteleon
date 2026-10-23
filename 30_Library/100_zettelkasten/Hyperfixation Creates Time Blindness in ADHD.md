@@ -3,7 +3,7 @@ aliases: [Loss of Time Awareness in ADHD, Time Blindness During Hyperfocus]
 axiom: true
 conformant: false
 created: 2025-11-01T11:37:53+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:16+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/hyperfixation-creates-time-blindness-in-adhd
 tags: [hyperfocus, TheHuman/Cognition, TheHuman/Health/ADHD, time-perception]
@@ -29,6 +29,6 @@ Consequences:
 
 While this can lead to impressive productivity in the area of fixation, it often creates problems in other life areas—missed appointments, neglected relationships, poor self-care, and accumulated responsibilities that crash back into awareness when the hyperfixation ends.
 
-### Related
+## Related
 
-- [[Time Agnosia Impairs Planning for Developers with ADHD]]—*how impaired time sense affects planning.*
+- [[Time Agnosia Impairs Planning for Developers with ADHD]]—_how impaired time sense affects planning._

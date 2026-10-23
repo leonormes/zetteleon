@@ -3,7 +3,7 @@ branch: feature/FTFL-673-grafana-alloy-upgrade
 created: 2026-06-06T00:00:00+00:00
 kind: project-note
 lifecycle: active
-modified: 2026-09-29T10:37:41+00:00
+modified: 2026-10-22T15:11:09+00:00
 mr: '!787'
 permalink: llmeon/30-library/200-projects/ffnode-templating-analysis
 project_category: refined_deployment
@@ -884,7 +884,7 @@ These touch only the weak dimensions, not the strong architecture. Realistic pos
 
 Track these four numbers per release; if they hold flat while cluster count climbs, the templating layer is scaling. If A1/A2/B1 climb, complexity is outrunning the team.
 
-_Shared Message from Pieces (<https://pieces.app>) by Leon Ormes (leonormes@gmail.com) on Saturday Jun 6, 2026 - 8:41 AM_
+_Shared Message from Pieces (<https://pieces.app>) by Leon Ormes (<leonormes@gmail.com>) on Saturday Jun 6, 2026 - 8:41 AM_
 ---
 
 The March 2026 hotfix evidence is the missing piece that makes the library chart argument conclusive. Here is what it adds to the picture:

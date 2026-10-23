@@ -3,9 +3,8 @@ aliases: []
 conformant: true
 created: 2026-09-24T12:00:00+00:00
 definition: A relationship is a connection or association between two or more pieces of information, and it can be logical (such as cause and effect or dependency), hierarchical (parent and child), associative (linked because they occur together), contextual (defined by the setting of the data) or temporal (a trend or sequence over time).
-distinguishes_from:
-  - "[[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]]"
-modified: 2026-09-29T10:37:57+00:00
+distinguishes_from: ["[[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]]"]
+modified: 2026-10-22T15:11:15+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/relationships-between-pieces-of-knowledge-can-be-logical-hierarchical-associative-contextual-or-temporal
 prodos.atomic.form: distinction
@@ -14,10 +13,7 @@ prodos.lifecycle: seed
 source_title: AI chat session on what knowledge is (captured in 21-wtf_is_knowledge_anyway)
 source_url: UNKNOWN
 status: seed
-tags:
-  - knowledge-graph
-  - relationships
-  - taxonomy
+tags: [knowledge-graph, relationships, taxonomy]
 title: Relationships Between Pieces of Knowledge Can Be Logical, Hierarchical, Associative, Contextual or Temporal
 type: concept
 upstream: "[[WTF is Knowledge Anyway]]"

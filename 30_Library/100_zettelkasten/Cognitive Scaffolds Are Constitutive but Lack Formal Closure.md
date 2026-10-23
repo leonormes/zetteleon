@@ -1,22 +1,18 @@
 ---
 conformant: true
 contradicts: []
-created: 2026-10-21 14:00:00+00:00
+created: 2026-10-21T14:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-21 14:00:00+00:00
+modified: 2026-10-22T15:11:17+00:00
+permalink: llmeon/30-library/100-zettelkasten/cognitive-scaffolds-are-constitutive-but-lack-formal-closure
 proposition: The claim that a cognitive scaffold is the faculty it supports has a
   different epistemic status from the claim that a type is a proof, because types,
   schemas and state files have formal machinery that cognitive scaffolds lack.
 status: seed
-tags:
-- formal-methods
-- TheHuman/Health/ADHD
-- ext-mind
-- epistemology
+tags: [epistemology, ext-mind, formal-methods, TheHuman/Health/ADHD]
 title: Cognitive Scaffolds Are Constitutive but Lack Formal Closure
 type: claim
-permalink: llmeon/30-library/100-zettelkasten/cognitive-scaffolds-are-constitutive-but-lack-formal-closure
 ---
 
 ## Cognitive Scaffolds Are Constitutive but Lack Formal Closure

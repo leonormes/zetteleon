@@ -1,6 +1,6 @@
 ---
 created: 2026-07-28T07:58:14+00:00
-modified: 2026-09-29T10:37:51+00:00
+modified: 2026-10-22T15:11:17+00:00
 permalink: llmeon/30-library/100-zettelkasten/error-handling-and-retry-pipelines-for-llm-failures
 tags: [domain/llm, topic/architecture-pattern, topic/error-handling, topic/reliability, topic/resilience]
 title: Error Handling and Retry Pipelines for LLM Failures
@@ -59,6 +59,5 @@ Recovery mechanisms [01:14:02]: "Implementing strategic retry loops. If an initi
 
 - [[SoT - Resilience Patterns for LLM Systems]]
 - [[Exponential Backoff Strategies]]
-
 
 [implements:: [[Structured Output Enforcement (JSON Schema and Function Calling)]], strength=4, confidence=high]

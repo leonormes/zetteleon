@@ -2,7 +2,7 @@
 aliases: [ADHD is not laziness]
 conformant: false
 created: 2025-10-30T12:03:00+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:19+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/adhd-task-initiation-difficulty-is-a-neurological-issue-not-laziness
 source: '[[MOC - The Neurological Basis of Task Initiation Difficulty in ADHD]]'
@@ -23,6 +23,6 @@ Behavioral Manifestations:
 
 [supports:: [[ADHD Overthinking is a Substitute for Action]]]
 
-### Related
+## Related
 
-- [[Predisposition to Passive Activities]]—*one way the same dopamine-seeking bias shows up in activity choice.*
+- [[Predisposition to Passive Activities]]—_one way the same dopamine-seeking bias shows up in activity choice._

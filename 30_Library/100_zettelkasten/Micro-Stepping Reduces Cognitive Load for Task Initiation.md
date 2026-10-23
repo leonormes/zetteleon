@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-10-30T12:09:03+00:00
 epistemic_status: medium
 evidence_links: ["[[Evidence - Bandura and Schunk Chunked Maths Goals Raised Childrens Progress and Interest]]"]
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:15+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/micro-stepping-reduces-cognitive-load-for-task-initiation
 proposition: Breaking a task or project into the smallest possible actionable steps, starting with a first step under two minutes and purely physical, reduces cognitive load, activation cost and overwhelm, making it easier for people with ADHD to start, resume and keep going.
@@ -76,7 +76,7 @@ Expected outcome: about 80% of micro-actions convert into continued work (the mo
 - [[Dopamine-Aware Planning Aligns Tasks with the Brain's Reward System]]—_The planning approach that relies on the frequent small wins these tasks provide._
 - [[MOC - ADHD Project Continuation Challenge]]—_The hub, section B (low-friction re-entry), where this note already sits._
 - [[SoT - ADHD Neurology & Core Concepts]]—_Defines the Wall of Awful, the threshold a tiny first step is meant to get under._
-- [[The Eat The Frog Method Involves Tackling the Most Important Task First]]—*a prioritisation method that pairs with small first steps.*
+- [[The Eat The Frog Method Involves Tackling the Most Important Task First]]—_a prioritisation method that pairs with small first steps._
 
 ### Where It Applies in ProdOS
 

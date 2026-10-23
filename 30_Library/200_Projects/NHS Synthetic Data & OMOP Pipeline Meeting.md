@@ -1,6 +1,6 @@
 ---
 created: 2026-04-16T14:41:12+00:00
-modified: 2026-09-29T10:37:37+00:00
+modified: 2026-10-22T15:11:09+00:00
 permalink: llmeon/30-library/200-projects/nhs-synthetic-data-omop-pipeline-meeting
 project_category: omop
 project_name: OMOP
@@ -9,7 +9,7 @@ title: NHS Synthetic Data & OMOP Pipeline Meeting
 type: null
 ---
 
-_Shared Message from Pieces (<https://pieces.app>) by Leon Ormes (leonormes@gmail.com) on Thursday Apr 16, 2026 - 3:41 PM_
+_Shared Message from Pieces (<https://pieces.app>) by Leon Ormes (<leonormes@gmail.com>) on Thursday Apr 16, 2026 - 3:41 PM_
 ---
 
 ## Summary: NHS Synthetic Data & OMOP Pipeline Meeting (2:00-3:00 PM)

@@ -2,7 +2,7 @@
 aliases: [ADHD Focus Regulation, Distractibility, Hyperfocus]
 conformant: false
 created: 2025-11-06T19:54:00+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:19+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/adhd-involves-an-inability-to-regulate-attention
 tags: [focus, hyperfocus, TheHuman/Health/ADHD, topic/productivity]
@@ -18,4 +18,4 @@ Details: An ADHD brain struggles to filter irrelevant internal and external stim
 
 ### Related
 
-- [[ADHD Causes Sustained Attention Deficits Requiring Higher Cortical Activation]]—*a mechanism for sustained-attention deficits.*
+- [[ADHD Causes Sustained Attention Deficits Requiring Higher Cortical Activation]]—_a mechanism for sustained-attention deficits._

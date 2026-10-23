@@ -1,22 +1,21 @@
 ---
-tags:
-- agent/consolidation
-- domain/llm
-- topic/agent-architecture
+created: 2026-09-07T11:27:11+00:00
+modified: 2026-10-22T15:11:06+00:00
+permalink: llmeon/90-audits/2026-09-07-agentic-ai-llm-agents-bootstrap
+tags: [agent/consolidation, domain/llm, topic/agent-architecture]
 title: 2026-09-07-agentic-ai-llm-agents-bootstrap
 type: note
-permalink: llmeon/90-audits/2026-09-07-agentic-ai-llm-agents-bootstrap
 ---
 
-## Bootstrap Survey — Agentic AI & LLM Agents cluster — 2026-09-07
+## Bootstrap Survey—Agentic AI & LLM Agents cluster—2026-09-07
 
 > Per [[LLM Graph Bootstrap Agent]] response format. Tooling tier reached: Obsidian MCP (`obsidian-llmeon`) for search/reads; raw filesystem `grep`/`find` for bulk frontmatter extraction across the cluster (faster than 42 individual MCP reads for this volume; content came from the same on-disk files the MCP server indexes, not blind—every write below went back through MCP `note_create`/`note_patch`). `edge_lint.py --audit` run for graph-state ground truth before any edit.
 
 ### Search Coverage
 
 - Themes searched: agent orchestration/harness design, multi-agent delegation, agent memory, agent safety/sandboxing, agent economics, agent evaluation, agent tooling/CLI, workflow-maturity narratives, domain-specific agent applications.
-- Query styles used: semantic search ("AI agents, agentic workflows, LLM agent orchestration, autonomous agents, tool use"), tag search (`domain/ai`, attempted `domain/llm` — too large, downgraded to filesystem grep), filename literal (`*agent*`), frontmatter grep (`proposition:`/`tags:`/`type:` across all 42 candidate files).
-- Coverage claim: high for `30_Library/100_zettelkasten/` and `30_Library/SoT/` (every "agent"-titled file in both was read or grepped this session). Not exhaustive: notes about agentic AI that don't contain "agent" in the title (e.g. some MCP/RAG/context-engineering atoms) were not re-surveyed here — they already link into [[MOC - AI Software Engineering]] and were treated as that MOC's territory, per the finding below.
+- Query styles used: semantic search ("AI agents, agentic workflows, LLM agent orchestration, autonomous agents, tool use"), tag search (`domain/ai`, attempted `domain/llm`—too large, downgraded to filesystem grep), filename literal (`*agent*`), frontmatter grep (`proposition:`/`tags:`/`type:` across all 42 candidate files).
+- Coverage claim: high for `30_Library/100_zettelkasten/` and `30_Library/SoT/` (every "agent"-titled file in both was read or grepped this session). Not exhaustive: notes about agentic AI that don't contain "agent" in the title (e.g. some MCP/RAG/context-engineering atoms) were not re-surveyed here—they already link into [[MOC - AI Software Engineering]] and were treated as that MOC's territory, per the finding below.
 
 ### Candidate Canonical Notes
 
@@ -24,7 +23,7 @@ No new canonical notes are recommended. The domain is already well-populated wit
 
 ### Duplicate Clusters
 
-None found among the six spine SoTs. Initial hypothesis (that [[SoT - Agentic Roles]], [[SoT - Agentic AI Design Patterns]], and [[SoT - AI Agent Skill Architecture]] might overlap) was checked by reading all three in full and rejected: Agentic Roles is a coding-specific role-division scheme anchored to [[SoT - The Context Engine]]/[[SoT - Macro-Micro Unification]]; Design Patterns is a general pattern catalogue; Skill Architecture is specifically about the Skill/MCP/Subagent distinction. Complementary, not duplicate — cross-linked in the new MOC rather than merged.
+None found among the six spine SoTs. Initial hypothesis (that [[SoT - Agentic Roles]], [[SoT - Agentic AI Design Patterns]], and [[SoT - AI Agent Skill Architecture]] might overlap) was checked by reading all three in full and rejected: Agentic Roles is a coding-specific role-division scheme anchored to [[SoT - The Context Engine]]/[[SoT - Macro-Micro Unification]]; Design Patterns is a general pattern catalogue; Skill Architecture is specifically about the Skill/MCP/Subagent distinction. Complementary, not duplicate—cross-linked in the new MOC rather than merged.
 
 ### Conflicts
 
@@ -39,15 +38,17 @@ None found requiring a `contradicts` edge. No genuine disagreement surfaced betw
 
 ### Root-Cause Finding: Why This Was Scattered
 
-At least six independent ingestion batches ran the Atomic Signal Extractor → Atomic Linker pipeline over agent-related source material without ever consolidating: `_link_report_ai_agent_architecture`, `_link_report_agentic_engineering`, `_link_report_agent_first_workflow`, `_link_report_karpathy_interview`, `_link_report_harness_engineering`, `_link_report_terminal_dev_and_mcp` (all in `30_Library/400_indexes/`). Each batch cross-linked *within itself* but never against the others. Two tombstoned HEAD notes in `99_Archive` (`HEAD - Agentic Engineering and AI Workflow Management`, `HEAD The Agent-First Workflow`) show this territory was revisited multiple times on the workbench without ever landing a MoC. [[MOC - AI Software Engineering]] existed but covers a genuinely different sub-topic (codebase understanding) — zero of the 42 agent-titled atoms linked to it before this pass; its 26-backlink de-facto hub, [[SoT - Agentic AI Design Patterns]], was never promoted to or wrapped by a MoC-level entry point.
+At least six independent ingestion batches ran the Atomic Signal Extractor → Atomic Linker pipeline over agent-related source material without ever consolidating: `_link_report_ai_agent_architecture`, `_link_report_agentic_engineering`, `_link_report_agent_first_workflow`, `_link_report_karpathy_interview`, `_link_report_harness_engineering`, `_link_report_terminal_dev_and_mcp` (all in `30_Library/400_indexes/`). Each batch cross-linked _within itself_ but never against the others. Two tombstoned HEAD notes in `99_Archive` (`HEAD - Agentic Engineering and AI Workflow Management`, `HEAD The Agent-First Workflow`) show this territory was revisited multiple times on the workbench without ever landing a MoC. [[MOC - AI Software Engineering]] existed but covers a genuinely different sub-topic (codebase understanding)—zero of the 42 agent-titled atoms linked to it before this pass; its 26-backlink de-facto hub, [[SoT - Agentic AI Design Patterns]], was never promoted to or wrapped by a MoC-level entry point.
 
 ### Tag-Scheme Fragmentation Found
-### Tag-Scheme Fragmentation Found — RESOLVED 2026-09-07
 
-- Dominant/current scheme: `domain/llm` + `topic/agent-architecture` + specific `topic/*` — used by ~24 of the 42 atoms from the start.
-- 14 atoms on ad-hoc flat tags (no `domain/llm`/`topic/agent-architecture` pair) and 3 on the stray legacy `SoftwareEngineering/AI[/agents]` namespace — 17 total — have now been normalised onto the dominant scheme. Each note's existing specific tags were folded into the vault's established `topic/*` vocabulary where a match already existed (e.g. `verification`→`topic/evaluation`, `state-machines`→`topic/control-flow`, `orchestration`→`topic/multi-agent`), or given a new `topic/<slug>` only where the concept was genuinely distinct and not already covered (e.g. `topic/developer-experience`, `topic/jevons-paradox`, `topic/langgraph`). Purely redundant tags (bare `ai-agents`, `agents`, generic `automation`/`workflows` once `topic/workflow-design` covers it) were dropped rather than carried forward.
-- Validated: `edge_lint.py --path .` before and after shows the same 12 pre-existing, unrelated errors (journal/project `priority::`/`due::`/`completion::` metadata) — 0 errors introduced by the tag changes, as expected since tags aren't part of edge syntax.
-- Out of scope, flagged not fixed: two further notes carry the same legacy `SoftwareEngineering/AI` tag but weren't part of this cluster's 42-note survey because "agent" isn't in their titles — [[Coherent LLM output signals meaningful processing]] and [[Architecture First Approach to AI Development]]. Left untouched pending a decision on whether they belong in this MOC's territory or [[MOC - AI Software Engineering]]'s.
+### Tag-Scheme Fragmentation Found—RESOLVED 2026-09-07
+
+- Dominant/current scheme: `domain/llm` + `topic/agent-architecture` + specific `topic/*`—used by ~24 of the 42 atoms from the start.
+- 14 atoms on ad-hoc flat tags (no `domain/llm`/`topic/agent-architecture` pair) and 3 on the stray legacy `SoftwareEngineering/AI[/agents]` namespace—17 total—have now been normalised onto the dominant scheme. Each note's existing specific tags were folded into the vault's established `topic/*` vocabulary where a match already existed (e.g. `verification`→`topic/evaluation`, `state-machines`→`topic/control-flow`, `orchestration`→`topic/multi-agent`), or given a new `topic/<slug>` only where the concept was genuinely distinct and not already covered (e.g. `topic/developer-experience`, `topic/jevons-paradox`, `topic/langgraph`). Purely redundant tags (bare `ai-agents`, `agents`, generic `automation`/`workflows` once `topic/workflow-design` covers it) were dropped rather than carried forward.
+- Validated: `edge_lint.py --path.` before and after shows the same 12 pre-existing, unrelated errors (journal/project `priority::`/`due::`/`completion::` metadata)—0 errors introduced by the tag changes, as expected since tags aren't part of edge syntax.
+- Out of scope, flagged not fixed: two further notes carry the same legacy `SoftwareEngineering/AI` tag but weren't part of this cluster's 42-note survey because "agent" isn't in their titles—[[Coherent LLM output signals meaningful processing]] and [[Architecture First Approach to AI Development]]. Left untouched pending a decision on whether they belong in this MOC's territory or [[MOC - AI Software Engineering]]'s.
+
 ### Proposed / Applied Typed Edges
 
 16 atoms carried zero typed-edge lines before this session (found via `grep -L '^\[[a-z_]+::' `). All 16 are now positioned into the new MOC's structure via a plain wikilink (§2–10 above) at minimum; edges below were added directly to the note bodies where a specific relationship (not just "member of this MoC's list") was clearly supported by the note's own content, validated by `edge_lint.py --path` after each write:
@@ -75,24 +76,25 @@ All 16 edges validated with `0 error(s)` via `edge_lint.py --path`. See Validati
 
 ### Unresolved Links Found
 
-None — every wikilink target named above and in the new MOC was confirmed to exist by direct read or search this session before being linked.
+None—every wikilink target named above and in the new MOC was confirmed to exist by direct read or search this session before being linked.
 
 ### First Edits
 
-1. Created [[MOC - Agentic AI & LLM Agents]] (done) — the single entry point requested.
-2. Added it to [[Meta MOC - The Core Domains]] as Domain 3b (done) — it was previously invisible at the top level.
+1. Created [[MOC - Agentic AI & LLM Agents]] (done)—the single entry point requested.
+2. Added it to [[Meta MOC - The Core Domains]] as Domain 3b (done)—it was previously invisible at the top level.
 3. Added the 16 missing typed edges above (done).
-4. Deferred: tag-scheme normalisation (the ~15 ad-hoc-tagged and 3 legacy-namespace atoms) — flagged for your review rather than bulk-applied, since it's a cosmetic/discovery change, not a graph-structural one.
+4. Deferred: tag-scheme normalisation (the ~15 ad-hoc-tagged and 3 legacy-namespace atoms)—flagged for your review rather than bulk-applied, since it's a cosmetic/discovery change, not a graph-structural one.
 
 ### Validation
+
 ### Validation
 
 `edge_lint.py --audit` baseline (pre-edit): 0 gaps, 139 axioms, 75 bedrock, 22 pre-existing contradictions (unrelated to this cluster), 5 live tensions, 32 cycles.
 
-Applied the 16 edges above, then ran `edge_lint.py --path .` (whole vault, not just `100_zettelkasten` — scoping to a subfolder produces false "dangling edge" positives against targets in `30_Library/SoT/`, confirmed by re-running unscoped). Result: 12 pre-existing errors, all unrelated to this cluster (malformed `priority::`/`due::`/`completion::` task-metadata lines in journals and project notes, not edges from this pass) — 0 new errors introduced.
+Applied the 16 edges above, then ran `edge_lint.py --path.` (whole vault, not just `100_zettelkasten`—scoping to a subfolder produces false "dangling edge" positives against targets in `30_Library/SoT/`, confirmed by re-running unscoped). Result: 12 pre-existing errors, all unrelated to this cluster (malformed `priority::`/`due::`/`completion::` task-metadata lines in journals and project notes, not edges from this pass)—0 new errors introduced.
 
-Re-running `--audit` after the 16 edits surfaced one self-inflicted C1 gap: adding a `supports` edge *from* [[Advanced Agentic Workflows Require Technical Literacy That Consumer Framing Hides]] made it load-bearing for the first time, exposing that nothing grounds it *in turn* (the linter only counts incoming `supports`/axiom status, not `depends_on`, as grounding). Closed by setting `axiom: true` on that note rather than inventing an Evidence-note for its one embedded source quote — it already carries a cited primary-source quote in its own `### Evidence` section, so treating it as a disclosed, non-regressing premise is more honest than fabricating a formal Evidence note to satisfy the linter.
+Re-running `--audit` after the 16 edits surfaced one self-inflicted C1 gap: adding a `supports` edge _from_ [[Advanced Agentic Workflows Require Technical Literacy That Consumer Framing Hides]] made it load-bearing for the first time, exposing that nothing grounds it _in turn_ (the linter only counts incoming `supports`/axiom status, not `depends_on`, as grounding). Closed by setting `axiom: true` on that note rather than inventing an Evidence-note for its one embedded source quote—it already carries a cited primary-source quote in its own `### Evidence` section, so treating it as a disclosed, non-regressing premise is more honest than fabricating a formal Evidence note to satisfy the linter.
 
-Final state: **0 gaps, 140 axioms (+1), 77 bedrock (+2), 22 contradictions (unchanged, none in this cluster), 5 live tensions (unchanged), 34 cycles (+2, both within the newly-edged cluster — e.g. Convergence of Developer and Agent Experience ↔ CLI Interoperability for Agents — these are short two-node mutual-relevance loops, not reasoning errors; left as-is since the vault already carries 32 pre-existing cycles of the same shape and the compiler doesn't treat cycles as errors).**
+Final state: 0 gaps, 140 axioms (+1), 77 bedrock (+2), 22 contradictions (unchanged, none in this cluster), 5 live tensions (unchanged), 34 cycles (+2, both within the newly-edged cluster—e.g. Convergence of Developer and Agent Experience ↔ CLI Interoperability for Agents—these are short two-node mutual-relevance loops, not reasoning errors; left as-is since the vault already carries 32 pre-existing cycles of the same shape and the compiler doesn't treat cycles as errors).
 
-Confidence: high. `UNSURE`: none — every target resolved, every edge type is from the closed six-word vocabulary, and the one gap the edits introduced was found and closed in the same session rather than left for a later audit pass.
+Confidence: high. `UNSURE`: none—every target resolved, every edge type is from the closed six-word vocabulary, and the one gap the edits introduced was found and closed in the same session rather than left for a later audit pass.

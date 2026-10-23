@@ -2,7 +2,7 @@
 aliases: [Intrinsic Habit Motivation, Values-Driven Change]
 created: 2025-10-30T15:04:20+00:00
 last_reviewed: '2025-10-30'
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:16+00:00
 permalink: llmeon/30-library/100-zettelkasten/habit-change-must-align-with-personal-values-not-external-expectations
 status: seed
 tags: [intrinsic-motivation, TheHuman/Habits, TheHuman/Health/ADHD, values]
@@ -24,4 +24,4 @@ Details: For change to last, it must answer the question "Why does this matter t
 
 ### Related
 
-- [[The Proximal Zone of Development for Habit Change]]—*how much change to attempt.*
+- [[The Proximal Zone of Development for Habit Change]]—_how much change to attempt._

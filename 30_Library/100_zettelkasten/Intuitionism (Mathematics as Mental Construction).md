@@ -2,7 +2,7 @@
 aliases: [Constructivism]
 conformant: false
 created: 2025-11-01T11:22:13+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:16+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/intuitionism-mathematics-as-mental-construction
 tags: [constructivism, TheHuman/Philosophy, topic/maths]
@@ -20,6 +20,6 @@ Key Proponent: L. E. J. Brouwer developed this philosophy in the early 20th cent
 
 Impact on Classical Mathematics: This view requires rejecting vast swathes of classical mathematics that rely on non-constructive proofs, such as proofs by contradiction where no explicit construction is provided. Many mathematicians find this too restrictive for practical work.
 
-### Related
+## Related
 
-- [[Intuitionism Rejects the Law of the Excluded Middle]]—*its best-known logical consequence.*
+- [[Intuitionism Rejects the Law of the Excluded Middle]]—_its best-known logical consequence._

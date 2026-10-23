@@ -1,7 +1,8 @@
 ---
+baseFile: 02_bases/claim.base
+baseView: claim
+created: 2026-08-24T15:26:16+00:00
 extends: Note
-icon: gavel
-version: "1.0"
 fields:
   - name: proposition
     id: proposition
@@ -24,11 +25,12 @@ fields:
     id: contradicts
     type: MultiFile
     path: ""
+icon: gavel
+modified: 2026-10-22T15:11:08+00:00
 permalink: llmeon/10-system/file-classes/claim-1
-baseFile: 02_bases/claim.base
-baseView: claim
+version: "1.0"
 ---
 
-# Claim
+## Claim
 
-Per [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]] §3.1 `ClaimNote`. `title` should be a single declarative sentence — the claim itself.
+Per [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]] §3.1 `ClaimNote`. `title` should be a single declarative sentence—the claim itself.

@@ -2,7 +2,7 @@
 aliases: [cognitive representations, mental models, schemas]
 conformant: false
 created: 2025-10-31T20:01:00+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:15+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/mental-representations-take-multiple-forms
 tags: [cognitive-science, mental-representation, TheHuman/Neuroscience]
@@ -18,4 +18,4 @@ Details: Cognitive science proposes that we think in mental models or schemas - 
 
 ### Related
 
-- [[Thoughts are bundled with phenomenological qualities]]—*the experiential side of those representations.*
+- [[Thoughts are bundled with phenomenological qualities]]—_the experiential side of those representations._

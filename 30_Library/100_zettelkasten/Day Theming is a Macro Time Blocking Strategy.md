@@ -2,7 +2,7 @@
 aliases: [Day Theming]
 conformant: false
 created: 2025-11-10T14:11:00+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:17+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/day-theming-is-a-macro-time-blocking-strategy
 project_name: ProdOS
@@ -19,4 +19,4 @@ Details: This is a form of macro-level time blocking. For example, a week might 
 
 ### Related
 
-- [[Theming Days for ADHD Focus]]—*the ADHD application.*
+- [[Theming Days for ADHD Focus]]—_the ADHD application._

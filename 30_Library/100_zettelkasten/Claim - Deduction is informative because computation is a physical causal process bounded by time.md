@@ -4,7 +4,7 @@ contradicts: []
 created: 2026-08-13T10:25:29+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/claim-deduction-is-informative-because-computation-is-a-physical-causal-process-bounded-by-time
 prodos.kind: atomic
 prodos.lifecycle: seed
@@ -28,5 +28,5 @@ The "Scandal of Deduction" asks: if the conclusion of a valid deductive argument
 
 - [[Shannon's Information Theory - Information as Uncertainty]]—_Addresses the technical definition of information, which deduction appears to violate until computation is reframed as a physical process._
 [extends:: [[Shannon's Information Theory - Information as Uncertainty]]]
-- [[Deductive Reasoning Underwrites Mathematical Proof]]—*the guarantees of deduction whose informativeness this claim explains.*
-- [[Inductive Reasoning Draws Probable, Not Guaranteed, Conclusions From Past Regularity]]—*the contrasting mode of inference.*
+- [[Deductive Reasoning Underwrites Mathematical Proof]]—_the guarantees of deduction whose informativeness this claim explains._
+- [[Inductive Reasoning Draws Probable, Not Guaranteed, Conclusions From Past Regularity]]—_the contrasting mode of inference._

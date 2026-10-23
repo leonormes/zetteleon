@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-10-31T00:00:00+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:17+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/dopamine-reward-pathway-dysfunction-causes-adhd-task-initiation-difficulty
 tags: [gtd, TheHuman/Health/ADHD]
@@ -26,4 +26,4 @@ Supports [[The ADHD brain operates on an Interest-Based Nervous System]]—the r
 
 ### Related
 
-- [[Dopamine Regulates Motivation (Wanting) Separately from Pleasure (Liking)]]—*the wanting/liking distinction behind it.*
+- [[Dopamine Regulates Motivation (Wanting) Separately from Pleasure (Liking)]]—_the wanting/liking distinction behind it._

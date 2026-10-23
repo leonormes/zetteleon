@@ -1,6 +1,6 @@
 ---
 created: 2026-03-30T11:54:06+00:00
-modified: 2026-09-29T10:37:30+00:00
+modified: 2026-10-22T15:11:10+00:00
 permalink: llmeon/30-library/200-projects/cuh
 project_category: deployments
 project_name: Deployments
@@ -121,7 +121,7 @@ az network bastion ssh \
   -- -o PubkeyAuthentication=no -o PreferredAuthentications=password
 ```
 
-_Shared Message from Pieces (<https://pieces.app>) by Leon Ormes (leonormes@gmail.com) on Thursday May 21, 2026 - 1:50 PM_
+_Shared Message from Pieces (<https://pieces.app>) by Leon Ormes (<leonormes@gmail.com>) on Thursday May 21, 2026 - 1:50 PM_
 ---
 
 ## The Cause of the `ResourceNotFound` Error

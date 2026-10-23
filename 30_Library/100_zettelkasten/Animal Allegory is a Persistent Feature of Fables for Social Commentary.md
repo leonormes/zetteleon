@@ -1,19 +1,14 @@
 ---
-aliases:
-- Fable as Allegory
+aliases: [Fable as Allegory]
 conformant: true
 contradicts: []
 created: 2025-11-01T21:40:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-14T08:32:43+00:00
+modified: 2026-10-22T15:11:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/animal-allegory-is-a-persistent-feature-of-fables-for-social-commentary
 proposition: Animal allegory has stayed the constant feature of the fable from Aesop to Animal Farm because allegorical distance lets audiences take in social criticism without becoming defensive.
-tags:
-- allegory
-- fable
-- social-commentary
-- storytelling
+tags: [allegory, fable, social-commentary, storytelling]
 title: Animal Allegory is a Persistent Feature of Fables for Social Commentary
 type: claim
 ---
@@ -27,7 +22,9 @@ This allegorical distance allows the audience to consider the message without be
 ## Related
 
 [depends_on:: [[Aesop's Fables Use Anthropomorphic Allegory]]]
+
 [depends_on:: [[La Fontaines Fables Served as Courtly Education in 17th Century France]]]
+
 [depends_on:: [[Fables in Modern Media Range from Cartoons to Political Allegory]]]
 
 - [[Aesop's Fables Use Anthropomorphic Allegory]]—_The earliest case: animal characters give emotional distance and safe commentary, the mechanism this note claims persists._

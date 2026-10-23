@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T00:00:00+00:00
-modified: 2026-10-08T14:30:00+01:00
+modified: 2026-10-22T15:11:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-pre-draw
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Pre-draw
@@ -15,7 +15,7 @@ Pre-draw acts as a checklist step to verify posture, front shoulder position, an
 ### The Steps
 
 1. Torso Rotation (Core Alignment & Thoracic Rotation) & "Front Alignment First": Prioritize getting a straight, solid connection from your draw elbow, through your draw hand, and straight into your bow hand _before_ aligning your shoulders to the target. Establish this distance in front of you, and _then_ rotate your upper body/chest toward the target to bring that alignment into your body's center (without twisting the hips/feet). True shoulder alignment must be achieved strictly by rotating the thoracic spine around a vertical axis, never by twisting the hips or displacing the upright T-posture forward. In an angular draw kinematic, this core rotation brings the bow from an open setup angle into a "half-closed" position relative to the target line. Attempting to perfectly align to the target first and then squeezing your arms into position causes severe tension. Imagine your core is a towel being twisted tightly—this coiling action locks the body in place and creates immense stability.
-   - *No-Pull Alignment:* Rotating the trunk brings the drawing hand naturally closer to the face without any active arm-pulling. Do not begin actively pulling the string with arm muscles during this alignment phase; let the rotational movement alone shorten the distance.
+   - _No-Pull Alignment:_ Rotating the trunk brings the drawing hand naturally closer to the face without any active arm-pulling. Do not begin actively pulling the string with arm muscles during this alignment phase; let the rotational movement alone shorten the distance.
    - _Purpose:_ Rotating the thoracic spine uses the large, strong trunk muscles to bring the shoulders into line, instead of squeezing the arms into place, which causes severe tension. The hips stay locked so the core remains a stable platform.
 2. The "Barrel of the Gun": Strive for perfect skeletal alignment before the draw begins. The center of your bow wrist, bow shoulder, and draw shoulder must form a perfectly straight line, mimicking a long rifle barrel. Stacking these bones minimizes the muscular effort needed to hold heavy draw weights.
    - _Purpose:_ Stacked bones carry the load through the skeleton, so less muscle effort is needed to hold the bow.
@@ -27,7 +27,7 @@ Pre-draw acts as a checklist step to verify posture, front shoulder position, an
    - _Purpose:_ Pre-draw sets about 85% of the shot's structural alignment, so this is the last cheap chance to catch a changed hook, grip or tension before loading.
 6. Verification: Verify that the posture is tall, the front shoulder remains set down (check for the "acromion divot" on top of the shoulder to confirm it is properly depressed and the deltoid is engaged), correct shoulder-line alignment is established, and the head is set in its final, immovable position before loading.
    - _Purpose:_ A locked front shoulder is one of the quickest ways to stabilise draw length and anchor point. A collapse at full draw gives erratic draw length and a floating anchor.
-   - **Bow-arm rotation check (clock positions):** imagine an arrow through the inside of the bow elbow (the IV vein) to the tip of the elbow. Set the thumb pointing at 2:00 and the tip of the elbow at 8:00. This keeps the elbow soft and out of the string path (front-elbow video, 00:01:15). The summary does not say which viewpoint the clock is read from, so confirm the reference frame with the coach before relying on the numbers.
+   - Bow-arm rotation check (clock positions): imagine an arrow through the inside of the bow elbow (the IV vein) to the tip of the elbow. Set the thumb pointing at 2:00 and the tip of the elbow at 8:00. This keeps the elbow soft and out of the string path (front-elbow video, 00:01:15). The summary does not say which viewpoint the clock is read from, so confirm the reference frame with the coach before relying on the numbers.
 
 ### Why It Works
 
@@ -46,7 +46,7 @@ Pre-draw acts as a checklist step to verify posture, front shoulder position, an
 - The Setup Trap (Allowing the Bow to Pull You Forward): During this pre-draw phase, there is a natural slowing down of movement. Do not let the mechanical weight and tension of the bow pull your drawing shoulder or elbow forward. This puts the shoulder in an overly extended, loaded position, creating unnecessary pressure on the joint. Keep the draw shoulder feeling "neutral," free, and easy to move (like your arms resting by your sides). Do not forcefully yank the shoulder down either.
 - Short Pre-Draw (Hand Too Close): If you start your draw with your draw hand squeezed too close to your bow hand/shoulder, it severely compresses the shoulder joint. This closed angle makes it incredibly inefficient to draw the string back, forcing you to use arm muscles rather than properly swinging the elbow around with your back.
 - Shoulder Collapse at Full Draw: A front shoulder collapse occurs when the bow-side shoulder yields or gives backward while you are holding at full draw. This contributes to erratic draw length and a floating anchor point.
-- **High Thumb Pressure:** Letting the thumb come up puts the wrong pressure on the riser and rotates the elbow inward into the string path, making a locked-out arm and lost clearance much more likely (front-elbow video, 00:01:34). Keep the thumb at its set position from the clock check above. See the thumb-pressure note in [[Archery Shot Process - Setup]].
+- High Thumb Pressure: Letting the thumb come up puts the wrong pressure on the riser and rotates the elbow inward into the string path, making a locked-out arm and lost clearance much more likely (front-elbow video, 00:01:34). Keep the thumb at its set position from the clock check above. See the thumb-pressure note in [[Archery Shot Process - Setup]].
 
 ### References
 

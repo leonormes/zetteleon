@@ -1,7 +1,7 @@
 ---
-created: 2026-05-31T00:00:00+00:00
-modified: 2026-10-16T00:00:00+00:00
 conformant: false
+created: 2026-05-31T00:00:00+00:00
+modified: 2026-10-22T15:11:15+00:00
 non_conformance_reason: type practice is not a canonical value and the correct type needs review
 permalink: llmeon/30-library/100-zettelkasten/practice-context-based-task-lists
 related_to: ["[[Cognitive Load]]", "[[Executive Function]]"]
@@ -21,7 +21,6 @@ Micro-step: Create one list called "Calls" and move a single existing task onto 
 ### Related
 
 - A [[Cognitive Load]] reduction tactic that offloads a prioritisation decision otherwise made by [[Executive Function]].
-
 - [[Contexts Reduce Overwhelm and Support Working Memory for ADHD]]—_The claim this practice applies: matching the list to the current context cuts overwhelm._ [implements:: [[Contexts Reduce Overwhelm and Support Working Memory for ADHD]], confidence=medium]
 - [[Next Action is the Immediate Physical Step Forward]]—_Contexts sort next actions, so the list only works once items are written that way._ [depends_on:: [[Next Action is the Immediate Physical Step Forward]], confidence=medium]
 - [[Context Tags Enable Efficient Batching and Reduce Context Switching]]—_The tagging form of the same grouping, with the batching benefit._

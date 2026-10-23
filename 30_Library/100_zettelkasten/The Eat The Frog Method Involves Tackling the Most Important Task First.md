@@ -2,7 +2,7 @@
 aliases: [Eat The Frog]
 conformant: false
 created: 2025-11-10T14:12:00+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:14+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/the-eat-the-frog-method-involves-tackling-the-most-important-task-first
 tags: [prioritization, procrastination, topic/productivity]
@@ -19,12 +19,12 @@ Details: This approach is designed to overcome procrastination on high-impact ta
 ## Related
 
 - [[Gnawing Rats Metaphor for Avoided Tasks]] - Discusses the mental toll of procrastinating on important tasks.
-- [[The Core Principles of Time Blocking are Proactive Planning Single-Tasking and Visual Schedule Integration]] - *Supplies the morning time block that the frog depends on.* [depends_on:: [[The Core Principles of Time Blocking are Proactive Planning Single-Tasking and Visual Schedule Integration]], confidence=medium]
-- [[Cal Newport's Deep Work Method Involves Rigorous Time Blocking to Maximize Concentration]] - *A parallel method that also reserves peak-energy hours for the hardest work.*
-- [[The Neurological Divide Between Procrastination and Task Initiation]] - *Explains why avoidance of the frog may be an initiation problem rather than a motivation one.*
-- [[Micro-Stepping Reduces Cognitive Load for Task Initiation]]—*how to make the frog small enough to start.*
+- [[The Core Principles of Time Blocking are Proactive Planning Single-Tasking and Visual Schedule Integration]] - _Supplies the morning time block that the frog depends on._ [depends_on:: [[The Core Principles of Time Blocking are Proactive Planning Single-Tasking and Visual Schedule Integration]], confidence=medium]
+- [[Cal Newport's Deep Work Method Involves Rigorous Time Blocking to Maximize Concentration]] - _A parallel method that also reserves peak-energy hours for the hardest work._
+- [[The Neurological Divide Between Procrastination and Task Initiation]] - _Explains why avoidance of the frog may be an initiation problem rather than a motivation one._
+- [[Micro-Stepping Reduces Cognitive Load for Task Initiation]]—_how to make the frog small enough to start._
 
 ### Further Reading (Personal Library)
 
-- [Eat That Frog! — Brian Tracy, "The Truth about Frogs"](calibre://view-book/GCcalibreBooks/1591/EPUB) - *The primary source for the method named in this note.*
-- [The ONE Thing — Gary Keller, ch. 17 "The Four Thieves"](calibre://view-book/GCcalibreBooks/1596/EPUB) - *Corroborates planning the day around what matters most so it gets done first.*
+- [Eat That Frog! — Brian Tracy, "The Truth about Frogs"](calibre://view-book/GCcalibreBooks/1591/EPUB) - _The primary source for the method named in this note._
+- [The ONE Thing — Gary Keller, ch. 17 "The Four Thieves"](calibre://view-book/GCcalibreBooks/1596/EPUB) - _Corroborates planning the day around what matters most so it gets done first._

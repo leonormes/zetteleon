@@ -2,7 +2,7 @@
 aliases: []
 created: 2026-09-29T00:00:00+00:00
 description: "Leon's actual LLM stack, model-routing tiers, and cost/flow goals — inject before evaluating any new AI tool, framework, or technique clip so the verdict is grounded against what's already running, not a generic take."
-modified: 2026-09-29T07:56:45+00:00
+modified: 2026-10-22T15:11:07+00:00
 permalink: llmeon/10-system/prompts/leon-context-llm-tool-evaluation
 tags: [domain/llm-tooling, system/prompt, type/context]
 title: leon-context-llm-tool-evaluation

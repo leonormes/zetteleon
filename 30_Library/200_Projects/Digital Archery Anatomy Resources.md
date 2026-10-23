@@ -1,6 +1,6 @@
 ---
 created: 2026-10-05T08:43:52+00:00
-modified: 2026-10-08T15:54:05+00:00
+modified: 2026-10-22T15:11:10+00:00
 permalink: llmeon/00-inbox/digital-archery-anatomy-resources
 title: Digital Archery Anatomy Resources
 type: note

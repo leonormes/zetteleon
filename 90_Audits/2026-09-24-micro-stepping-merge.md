@@ -1,12 +1,12 @@
 ---
 created: 2026-09-24T00:00:00+00:00
-modified: 2026-09-24T00:00:00+00:00
+modified: 2026-10-22T15:11:06+00:00
 permalink: llmeon/90-audits/2026-09-24-micro-stepping-merge
 title: 2026-09-24-micro-stepping-merge
 type: note
 ---
 
-## Merge — three micro-step notes into one parent claim — 2026-09-24
+## Merge—three Micro-step Notes into One Parent claim—2026-09-24
 
 Leon approved the merge proposed in [[2026-09-24-micro-stepping]]. Method: [[sys_merger]] logic (fixed sources, no discovery), applied by hand because the notes carry typed edges. 1MCP tools were unavailable.
 
@@ -14,11 +14,11 @@ Leon approved the merge proposed in [[2026-09-24-micro-stepping]]. Method: [[sys
 
 | Role | Note |
 |---|---|
-| **Survivor (parent claim)** | [[Micro-Stepping Reduces Cognitive Load for Task Initiation]], chosen because it had the most inbound links (13 files) and the typed edges from the task-initiation MoC and [[SoT - ADHD Management Protocols]] |
+| Survivor (parent claim) | [[Micro-Stepping Reduces Cognitive Load for Task Initiation]], chosen because it had the most inbound links (13 files) and the typed edges from the task-initiation MoC and [[SoT - ADHD Management Protocols]] |
 | Absorbed | `Master Micro-Actions & Starter Tasks` (an axiom claim that was really an untested experiment) |
 | Absorbed | `Breaking Projects Into Micro-Tasks Reduces ADHD Overwhelm` |
 
-### How the content was combined
+### How the Content Was Combined
 
 | Section of the parent | Came from |
 |---|---|
@@ -29,9 +29,9 @@ Leon approved the merge proposed in [[2026-09-24-micro-stepping]]. Method: [[sys
 | Test Protocol (Untested) | Master Micro-Actions (three-day protocol and expected outcome, Results Log still empty) |
 | Tensions, Related, Where It Applies in ProdOS, Further Reading | union of both notes' sections, deduplicated (19 Related, 5 ProdOS, 4 books) |
 
-**Frontmatter:** `proposition` widened to cover both scopes; `evidence_links` points at the Bandura and Schunk note; no `axiom`; `epistemic_status: medium`; aliases now include every absorbed title and alias (`Micro-Actions`, `Starter Tasks`, `Micro-Tasks for ADHD`, `Task Chunking Strategy`, and both old titles), so existing links keep resolving.
+Frontmatter: `proposition` widened to cover both scopes; `evidence_links` points at the Bandura and Schunk note; no `axiom`; `epistemic_status: medium`; aliases now include every absorbed title and alias (`Micro-Actions`, `Starter Tasks`, `Micro-Tasks for ADHD`, `Task Chunking Strategy`, and both old titles), so existing links keep resolving.
 
-### Typed edges
+### Typed Edges
 
 - `[implements:: [[SoT - Execution Protocol (GTD & PARA)]], confidence=medium]` came from Breaking Projects.
 - `[supports:: [[SoT - ADHD Management Protocols]]]` came from Master Micro-Actions.
@@ -39,11 +39,11 @@ Leon approved the merge proposed in [[2026-09-24-micro-stepping]]. Method: [[sys
 - The Evidence note's `supports` edge and `supports_claims` were retargeted to the parent.
 - [[Practice - Micro-tasking and time-boxing]] `implements` was retargeted from Master Micro-Actions to the parent.
 
-### Links repointed (6 files)
+### Links Repointed (6 Files)
 
 Retargeted to the parent, with the old title kept as the display text: [[Dopamine-Aware Planning Aligns Tasks with the Brain's Reward System]], [[SoT - Principles for Peaceful Productivity]], [[Protocol - Vague-to-Action]], [[MOC - ADHD Project Continuation Challenge]]. Typed and frontmatter references (the Evidence note, Practice - Micro-tasking) were retargeted without display text. No `[[Master Micro-Actions & Starter Tasks]]` or `[[Breaking Projects Into Micro-Tasks Reduces ADHD Overwhelm]]` link remains in `30_Library` or `10_System`. Older audit files still use the old titles; they resolve through the aliases.
 
-### Graph effect
+### Graph Effect
 
 | Metric | Before | After |
 |---|---|---|
@@ -54,9 +54,9 @@ Retargeted to the parent, with the old title kept as the display text: [[Dopamin
 
 The parent is now grounded by evidence (a general chunking study) instead of resting on an unevidenced axiom.
 
-**Watch-out:** the parent `supports` [[SoT - ADHD Management Protocols]], which has a large downstream tree, so that tree now rests on one general study of children's maths chunking plus three books. The old arrangement rested it on an axiom. Better evidence for the ADHD-specific mechanism would make this sturdier.
+Watch-out: the parent `supports` [[SoT - ADHD Management Protocols]], which has a large downstream tree, so that tree now rests on one general study of children's maths chunking plus three books. The old arrangement rested it on an axiom. Better evidence for the ADHD-specific mechanism would make this sturdier.
 
-### Not changed
+### Not Changed
 
 - The Master Micro-Actions experiment was never run (Results Log empty); its claim had been marked `high` and `axiom: true` without evidence. That is why it was folded in as an untested protocol, not kept as an axiom.
 - [[The Three Rules of Starter Tasks]] and [[The 5-Minute Action Overcomes Initiation Barriers]] overlap with the parent but are distinct rules; they remain separate notes, linked.
@@ -65,7 +65,7 @@ The parent is now grounded by evidence (a general chunking study) instead of res
 
 Whole-vault `edge_lint.py`: `0 error(s), 0 warning(s)` (2860 notes, 1384 edges). Resolver: 0 unresolved links in the parent.
 
-### Originals (for recovery)
+### Originals (For Recovery)
 
 Both absorbed notes were deleted. Their full text follows; the parent's pre-merge text is in git history and the vault backup commits.
 

@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-11-01T21:21:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-12T00:00:00+00:00
+modified: 2026-10-22T15:11:15+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/perseverance-is-finishing-what-you-start-despite-difficulty
 proposition: Perseverance, also known as grit, is the quality of finishing what you start, even when it becomes difficult or challenging

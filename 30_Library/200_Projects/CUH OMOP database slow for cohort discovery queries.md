@@ -1,6 +1,6 @@
 ---
 created: 2026-04-24T07:22:57+00:00
-modified: 2026-09-29T10:37:30+00:00
+modified: 2026-10-22T15:11:10+00:00
 permalink: llmeon/30-library/200-projects/cuh-omop-database-slow-for-cohort-discovery-queries
 project_category: omop
 project_name: OMOP
@@ -103,7 +103,7 @@ Here's a tighter version you can paste internally:
 > - Increasing the timeout is a reasonable mitigation.
 > - Three new indexes have been added in DEV.
 > - Those indexes are technically appropriate for the cited query patterns, though their real-world impact is not yet proven.
-> 
+>
 > Caveat:
 > The exact HDRUK timeout value and the "majority over 5 minutes" claim are credible but should still be verified against raw metrics/config rather than treated as fully closed facts.
 

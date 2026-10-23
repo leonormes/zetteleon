@@ -1,22 +1,14 @@
 ---
 conformant: true
-created: 2026-10-20 10:57:54+01:00
-modified: 2026-10-20 10:57:54+01:00
+created: 2026-10-20T09:57:54+00:00
+modified: 2026-10-22T15:11:10+00:00
+permalink: llmeon/30-library/200-projects/fitfile-smokescreen-egress-broker-design
 project_category: devops
 project_name: Egress Security
 status: draft
-tags:
-- fitfile
-- infra
-- security
-- egress
-- kubernetes
-- smokescreen
-- sde
-- design
+tags: [design, egress, fitfile, infra, kubernetes, sde, security, smokescreen]
 title: FITFILE - Smokescreen Egress Broker Design
 type: project
-permalink: llmeon/30-library/200-projects/fitfile-smokescreen-egress-broker-design
 ---
 
 ## FITFILE—Smokescreen Egress Broker for Secure Clusters
@@ -55,15 +47,15 @@ fitconnect / task pod ──CONNECT host:port──▶ Smokescreen ──▶ des
  and the broker only)                         check policy, pin IP, log)
 ```
 
-- **Broker.** A Smokescreen Deployment with at least two replicas and a disruption budget. No credentials, no cloud identity, no service account token. Mutual-TLS identity per client.
-- **Pods.** The fitconnect and task pods get a NetworkPolicy allowing DNS, platform dependencies and the broker only.
-- **Dialers.** Each connector gets an explicit dialer through the broker. Injection points: pg (`stream`), mysql2 (`stream`), tedious (`connector`), axios (agent), S3 client (request handler).
-- **Policy tiers.**
+- Broker. A Smokescreen Deployment with at least two replicas and a disruption budget. No credentials, no cloud identity, no service account token. Mutual-TLS identity per client.
+- Pods. The fitconnect and task pods get a NetworkPolicy allowing DNS, platform dependencies and the broker only.
+- Dialers. Each connector gets an explicit dialer through the broker. Injection points: pg (`stream`), mysql2 (`stream`), tedious (`connector`), axios (agent), S3 client (request handler).
+- Policy tiers.
     - Public destinations: allowed, with the private-range checks.
     - Operator-declared private prefixes (for example on-prem SQL): allowed, held in broker config.
     - Anything else: an operator change.
-- **Policy source.** Independent of fitconnect's registry. If the broker trusts the registry, a compromised fitconnect can approve its own destinations.
-- **Rollout.** Report mode first, then enforce.
+- Policy source. Independent of fitconnect's registry. If the broker trusts the registry, a compromised fitconnect can approve its own destinations.
+- Rollout. Report mode first, then enforce.
 
 ### 5. What It Adds in Secure Clusters
 

@@ -2,7 +2,7 @@
 aliases: [Atomic Notes, Evergreen Notes, Main Notes, Permanent Notes]
 conformant: false
 created: 2025-10-30T15:31:09+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:16+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/main-notes-are-the-essential-building-blocks
 tags: [knowledge-work, note-types, topic/knowledge-architecture, topic/pkm, topic/pkm/zettelkasten]
@@ -30,4 +30,4 @@ Links:
 
 ### Related
 
-- [[A Main Note Holds at Minimum a Single Idea and a Link to Another Idea]]—*states the minimum viable main note: one idea plus one link.*
+- [[A Main Note Holds at Minimum a Single Idea and a Link to Another Idea]]—_states the minimum viable main note: one idea plus one link._

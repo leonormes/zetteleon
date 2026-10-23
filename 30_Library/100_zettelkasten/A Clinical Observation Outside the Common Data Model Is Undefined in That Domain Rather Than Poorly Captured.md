@@ -1,24 +1,20 @@
 ---
 conformant: true
 contradicts: []
-created: 2026-10-21 14:00:00+00:00
+created: 2026-10-21T14:00:00+00:00
 epistemic_status: low
 evidence_links: []
-modified: 2026-10-21 14:00:00+00:00
+modified: 2026-10-22T15:11:19+00:00
+permalink: llmeon/30-library/100-zettelkasten/a-clinical-observation-outside-the-common-data-model-is-undefined-in-that-domain-rather-than-poorly-captured
 proposition: A clinical observation that does not conform to the OMOP common data
   model is undefined in the interoperability domain and not a fact the schema failed
   to capture, because the model constitutes the domain of valid clinical facts for
   that purpose.
 status: seed
-tags:
-- formal-methods
-- ohdsi
-- omop
-- topic/data-modelling
+tags: [formal-methods, ohdsi, omop, topic/data-modelling]
 title: A Clinical Observation Outside the Common Data Model Is Undefined in That Domain
   Rather Than Poorly Captured
 type: claim
-permalink: llmeon/30-library/100-zettelkasten/a-clinical-observation-outside-the-common-data-model-is-undefined-in-that-domain-rather-than-poorly-captured
 ---
 
 ## A Clinical Observation Outside the Common Data Model Is Undefined in That Domain Rather Than Poorly Captured
@@ -36,7 +32,7 @@ A clinical observation that does not conform to the OMOP common data model is no
 > "A clinical observation that does not conform to CDM is not "a fact the schema failed to capture"—it is undefined in that informatics domain. The schema is not approximating clinical reality; it is constituting the domain of valid clinical facts."
 > ([[SoT - Structure is Truth is a Unifying Axiom Across Formal Systems]], §2, Clinical Data row)
 
-> "The derived table `OBSERVATION_PERIOD` defines the "trust interval" for a patient. ... You cannot query for "absence of disease" outside of these dates. If a patient is not in an observation period, they effectively do not exist."
+> "The derived table `OBSERVATION_PERIOD` defines the "trust interval" for a patient…. You cannot query for "absence of disease" outside of these dates. If a patient is not in an observation period, they effectively do not exist."
 > ([[SoT - OHDSI ETL Process]], §3.2 The Observation Period, abridged)
 
 ### Implications

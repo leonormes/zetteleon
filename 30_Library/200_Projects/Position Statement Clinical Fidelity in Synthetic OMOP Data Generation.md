@@ -1,6 +1,6 @@
 ---
 created: 2026-04-17T07:23:48+00:00
-modified: 2026-09-29T10:37:39+00:00
+modified: 2026-10-22T15:11:09+00:00
 permalink: llmeon/30-library/200-projects/position-statement-clinical-fidelity-in-synthetic-omop-data-generation
 project_category: omop
 project_name: OMOP

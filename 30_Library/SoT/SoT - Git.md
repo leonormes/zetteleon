@@ -2,7 +2,7 @@
 aliases: [Distributed Version Control, Git, Version Control System]
 conformant: true
 created: 2025-12-13T00:00:00+00:00
-modified: 2026-09-29T10:38:10+00:00
+modified: 2026-10-22T15:11:11+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-git
 see_also: ["[[SoT - Software Configuration Management Patterns]]"]

@@ -5,7 +5,7 @@ created: 2025-05-26T13:41:23+00:00
 definition: Shame, humiliation and embarrassment are three self-conscious emotions that differ in focus and source. Shame is a negative judgement of the whole self from internal appraisal, humiliation is a loss of dignity or status inflicted by others, and embarrassment is milder awkwardness after a social misstep.
 distinguishes_from: ["[[Embarrasment]]", "[[Humiliation]]"]
 last_reviewed: ''
-modified: 2026-10-16T09:25:30+00:00
+modified: 2026-10-22T15:11:13+00:00
 permalink: llmeon/30-library/100-zettelkasten/whats-the-difference-between-shame-humiliation-and-embarrassment
 tags: [emotion, shame, TheHuman/Health/ADHD]
 title: "What's the Difference Between Shame Humiliation and Embarrassment"

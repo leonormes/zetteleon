@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-11-01T21:06:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-29T10:37:52+00:00
+modified: 2026-10-22T15:11:17+00:00
 permalink: llmeon/30-library/100-zettelkasten/fixed-schedule-productivity-creates-artificial-constraints-to-drive-efficiency
 prodos.kind: atomic
 prodos.lifecycle: stable

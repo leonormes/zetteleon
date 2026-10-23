@@ -1,6 +1,6 @@
 ---
-created: 2026-09-16T00:00:00+00:00 work packages ahead of a cost/planning review with Robin
-modified: 2026-09-16T10:58:24+00:00
+created: 2026-09-16T00:00:00+00:00
+modified: 2026-10-22T15:11:04+00:00
 permalink: llmeon/work/ftfl-backlog-reorg-ci-cd-entra-iam-pentest-2026-09-16
 title: FTFL Backlog Reorg — CI-CD, Entra IAM & Pentest (2026-09-16[[FTFL Work Packages — ROI-Prioritised Rework (2026-09-16)]] - entra-iam
   - fitfile
@@ -27,23 +27,23 @@ This is the critical thing to see before using the packages below: everything in
 
 | Title                           | Effort    | Importance | Urgency | Status      | Outsource | Maps to this review?                                                                                                                              |
 | ------------------------------- | --------- | ---------- | ------- | ----------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| HDRS - support (expertise)      | Large     | High       | High    | —           | —         | No—not in Jira scope reviewed                                                                                                                     |
-| Gitlab Cost Optimisation        | Low       | High       | High    | Started     | —         | Yes—FTFL-1025 + Package 3                                                                                                                         |
-| Improve FITFILE Release Process | High      | High       | High    | —           | Yes       | Yes—FTFL-759/971/1000/1065, most of Packages 1, 3, 4, 7, 8, 9, 11                                                                                 |
+| HDRS - support (expertise)      | Large     | High       | High    |—|—| No—not in Jira scope reviewed                                                                                                                     |
+| Gitlab Cost Optimisation        | Low       | High       | High    | Started     |—| Yes—FTFL-1025 + Package 3                                                                                                                         |
+| Improve FITFILE Release Process | High      | High       | High    |—| Yes       | Yes—FTFL-759/971/1000/1065, most of Packages 1, 3, 4, 7, 8, 9, 11                                                                                 |
 | Nginx ingress - EOL             | Large     | High       | High    | Overdue     | Yes       | No                                                                                                                                                |
-| Container updates - Postgres    | Large     | High       | High    | —           | —         | No                                                                                                                                                |
-| Netbird                         | Medium    | Medium     | Medium  | —           | TechAhoy  | No                                                                                                                                                |
-| Firewall                        | Medium    | High       | Medium  | —           | —         | No                                                                                                                                                |
-| Observability and Alerting      | Large     | High       | High    | —           | —         | Partially—Package 4 (CI heartbeat/telemetry) is a small slice of a much bigger Grafana/alerting problem (686 rules, 29 firing, dashboards broken) |
-| Vulnerability management        | Medium    | High       | Medium  | In Progress | —         | No—this is FTFL-865, a separate epic not pulled into this review                                                                                  |
-| Pen Test                        | Medium    | High       | Medium  | Started     | —         | Yes—FTFL-584, Packages 5 + 10                                                                                                                     |
-| Multi-zone availability         | Medium    | Medium     | Medium  | —           | —         | No                                                                                                                                                |
-| Node Backup Restore             | Small     | High       | High    | Started     | —         | No                                                                                                                                                |
-| Business Backups                | Small     | High       | High    | Started     | —         | No                                                                                                                                                |
-| Quality checks                  | Medium    | High       | High    | —           | —         | No                                                                                                                                                |
-| Node divergence                 | Med-Large | High       | Medium  | Started     | —         | No                                                                                                                                                |
-| SSO                             | Small     | Medium     | Medium  | —           | —         | No                                                                                                                                                |
-| Intune Migration                | Medium    | High       | High    | —           | —         | No                                                                                                                                                |
+| Container updates - Postgres    | Large     | High       | High    |—|—| No                                                                                                                                                |
+| Netbird                         | Medium    | Medium     | Medium  |—| TechAhoy  | No                                                                                                                                                |
+| Firewall                        | Medium    | High       | Medium  |—|—| No                                                                                                                                                |
+| Observability and Alerting      | Large     | High       | High    |—|—| Partially—Package 4 (CI heartbeat/telemetry) is a small slice of a much bigger Grafana/alerting problem (686 rules, 29 firing, dashboards broken) |
+| Vulnerability management        | Medium    | High       | Medium  | In Progress |—| No—this is FTFL-865, a separate epic not pulled into this review                                                                                  |
+| Pen Test                        | Medium    | High       | Medium  | Started     |—| Yes—FTFL-584, Packages 5 + 10                                                                                                                     |
+| Multi-zone availability         | Medium    | Medium     | Medium  |—|—| No                                                                                                                                                |
+| Node Backup Restore             | Small     | High       | High    | Started     |—| No                                                                                                                                                |
+| Business Backups                | Small     | High       | High    | Started     |—| No                                                                                                                                                |
+| Quality checks                  | Medium    | High       | High    |—|—| No                                                                                                                                                |
+| Node divergence                 | Med-Large | High       | Medium  | Started     |—| No                                                                                                                                                |
+| SSO                             | Small     | Medium     | Medium  |—|—| No                                                                                                                                                |
+| Intune Migration                | Medium    | High       | High    |—|—| No                                                                                                                                                |
 
 _(Entra IAM—FTFL-1029/1030—doesn't appear anywhere on Robin's list at all, under any name. Worth flagging to him directly: either it's meant to be folded into "Pen Test" implicitly, or it's a genuine gap in his own tracking that only exists because the Entra audit happened on 2026-09-07, after this Confluence page was first created.)_
 
@@ -71,7 +71,7 @@ Robin's own effort/importance/urgency tags corroborate the split this note alrea
 | Next  | 9. Close out Entra-as-code                                | 8 _(1 draft)_  | 2            | Nearly-finished epic—cheap to fully close before package 6 ramps up                     |
 | Later | 10. Remaining big pentest findings (logging/network/disk) | 65 _(2 draft)_ | 5            | Large, and one item may be partly duplicate work—investigate before committing          |
 | Later | 11. Contract testing & progressive delivery               | 42 _(draft)_   | 4            | Longest horizon, most speculative value of everything in this view                      |
-| —     | _Unscoped_                                                | —              | 1 (FTFL-884) | No description exists—can't be costed or prioritised until someone writes what it's for |
+|—| _Unscoped_                                                |—| 1 (FTFL-884) | No description exists—can't be costed or prioritised until someone writes what it's for |
 
 Totals: Now = 42 pts (12 tickets) · Next = 121 pts (16 tickets) · Later = 107 pts (9 tickets) · Grand total = 270 points across 27 open tickets, plus one ticket that needs scoping before it can even join this table.
 

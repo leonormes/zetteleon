@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-03-02T12:09:10+00:00
 last_reviewed: ''
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:13+00:00
 permalink: llmeon/30-library/200-projects/the-k8s-service-abstraction
 project_category: infrastructure
 project_name: k8s
@@ -121,5 +121,5 @@ By adopting this perspective, you'll be able to leverage the full power of Kuber
 
 ### Related
 
-- [[Services]]—*the concise statement of the Service purpose.*
-- [[Kube-Proxy Implements Services Using Iptables or IPVS]]—*how the Service abstraction is realised on each node.*
+- [[Services]]—_the concise statement of the Service purpose._
+- [[Kube-Proxy Implements Services Using Iptables or IPVS]]—_how the Service abstraction is realised on each node._

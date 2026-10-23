@@ -2,7 +2,7 @@
 author: Claude (read-only investigation)
 created: 2026-06-19T08:51:04+00:00
 date: 2026-06-19
-modified: 2026-07-20T16:33:33+00:00
+modified: 2026-10-22T15:11:04+00:00
 permalink: llmeon/work/ftfl-512-ci-cd-pipeline-incident-investigation
 related_ticket: FTFL-512
 status: Investigation complete
@@ -160,7 +160,7 @@ Two equally small, independent first steps, addressing two different gaps:
 - `policies/k8s/validating-webhook.yaml:7-11` (Pods-only scope)
 - `scripts/argo-render/README.md:143` (CI/CD integration listed as unimplemented future enhancement)
 
-_Shared Message from Pieces (<https://pieces.app>) by Leon Ormes (leonormes@gmail.com) on Friday Jun 19, 2026 - 10:16 AM_
+_Shared Message from Pieces (<https://pieces.app>) by Leon Ormes (<leonormes@gmail.com>) on Friday Jun 19, 2026 - 10:16 AM_
 ---
 
 I now have sufficient grounded evidence from LTM, SoT documents, and memory events to deliver the complete report. Here it is.

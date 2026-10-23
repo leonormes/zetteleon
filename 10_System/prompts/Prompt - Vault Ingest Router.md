@@ -1,7 +1,7 @@
 ---
 created: 2026-07-27T19:42:00+00:00
 description: "The front door for all new vault content. Before any other prompt runs, this router locates the nearest existing notes, classifies the input against what the vault already holds, tests for contradiction, and routes to the correct downstream prompt. It decides where content goes; it does not merge, author or file it."
-modified: 2026-09-25T00:00:00+00:00
+modified: 2026-10-22T15:11:08+00:00
 permalink: llmeon/10-system/prompts/prompt-vault-ingest-router
 tags: [domain/pkm, topic/knowledge-graph, type/system]
 title: Prompt - Vault Ingest Router
@@ -30,25 +30,25 @@ Decide what should happen to an input before anything is written, so that the va
 
 ## HARD RULES
 
-1. **Decide, do not do.** Do not merge notes, write merge plans, or author body prose in `30_Library/`. Those belong to downstream prompts.
-2. **Finish all five gates before routing.** Never dispatch on a partial result.
-3. **Verify before asserting.** Never call something a duplicate, or absent, without reading the candidate or searching its filename, frontmatter `title`, `aliases` and `prodos.id`. Never fabricate a Gate 1 candidate; if search returns nothing useful, say so.
-4. **Tension unless proven otherwise.** Record disagreement in the intake report with the assumption difference named, and propose a HEAD note for it ([[SoT - HEAD Note Contract (The Workbench)]] §4: canonical notes carry no `## Tensions` section, only an `> Open threads:` pointer). Propose a `contradicts` edge only if Gate 3 passes. When unsure, mark `UNSURE` and escalate to the user; a wrong `contradicts` edge manufactures a conflict that exists only in the model's imagination.
-5. **Closed edge vocabulary.** Any edge you write is `[<relationship>:: [[Target]]]` using only `extends`, `synthesizes`, `implements`, `contradicts`, `supports`, `depends_on`. Never write `rel::`: the compiler does not parse it. Resolve the target before writing it. Only `supports` and `depends_on` feed the argument audit's gap list; say which kind you wrote.
-6. **The only writes the router may make** are (a) one typed edge on an existing note, (b) a frontmatter correction or alias on an existing note. Tensions are reported and proposed as HEAD notes, never written into a canonical note. After any of these, run the whole-vault lint (below); it must report `0 error(s)`. Everything else is downstream.
-7. **Declare your tooling tier** and downgrade coverage claims if you only had lexical search.
+1. Decide, do not do. Do not merge notes, write merge plans, or author body prose in `30_Library/`. Those belong to downstream prompts.
+2. Finish all five gates before routing. Never dispatch on a partial result.
+3. Verify before asserting. Never call something a duplicate, or absent, without reading the candidate or searching its filename, frontmatter `title`, `aliases` and `prodos.id`. Never fabricate a Gate 1 candidate; if search returns nothing useful, say so.
+4. Tension unless proven otherwise. Record disagreement in the intake report with the assumption difference named, and propose a HEAD note for it ([[SoT - HEAD Note Contract (The Workbench)]] §4: canonical notes carry no `## Tensions` section, only an `> Open threads:` pointer). Propose a `contradicts` edge only if Gate 3 passes. When unsure, mark `UNSURE` and escalate to the user; a wrong `contradicts` edge manufactures a conflict that exists only in the model's imagination.
+5. Closed edge vocabulary. Any edge you write is `[<relationship>:: [[Target]]]` using only `extends`, `synthesizes`, `implements`, `contradicts`, `supports`, `depends_on`. Never write `rel::`: the compiler does not parse it. Resolve the target before writing it. Only `supports` and `depends_on` feed the argument audit's gap list; say which kind you wrote.
+6. The only writes the router may make are (a) one typed edge on an existing note, (b) a frontmatter correction or alias on an existing note. Tensions are reported and proposed as HEAD notes, never written into a canonical note. After any of these, run the whole-vault lint (below); it must report `0 error(s)`. Everything else is downstream.
+7. Declare your tooling tier and downgrade coverage claims if you only had lexical search.
 
 ## TOOLING
 
 Canonical rule: [[AGENTS.md]] §9.1. State which tier you actually reached.
 
-1. Obsidian tools through 1MCP, called directly by name. For this vault the server is `obsidian-llmeon` (`obsidian-llmeon_1mcp_search_semantic`, `_search_text`, `_wikilinks`, `_note_read`). **Do not use `obsidian-hermes`**: it points at a different vault. There is no discovery step and never a `retrieve_tools`/`call_tool` two-step. If a tool seems missing, run `curl -s http://127.0.0.1:3050/health | jq .servers`.
+1. Obsidian tools through 1MCP, called directly by name. For this vault the server is `obsidian-llmeon` (`obsidian-llmeon_1mcp_search_semantic`, `_search_text`, `_wikilinks`, `_note_read`). Do not use `obsidian-hermes`: it points at a different vault. There is no discovery step and never a `retrieve_tools`/`call_tool` two-step. If a tool seems missing, run `curl -s http://127.0.0.1:3050/health | jq.servers`.
    - `search_semantic` can error. Retry once, then fall back to `search_text` and say so.
    - `search_text` on broad queries can return over 100k characters. Restrict `fields` (for example `title`, `headings`, `tags`), set `max_results`, and use `jq` on a saved result file rather than reading it whole.
 2. The `obsidian` CLI with `vault=LLMeon` passed explicitly, when MCP is unreachable.
 3. Raw filesystem read/write only as a last resort, and never blind: read the file first.
 
-**If you have only lexical search, say so.** "No candidate found" then means "none found by keyword", not "none exists", which is how shadow duplicates get through.
+If you have only lexical search, say so. "No candidate found" then means "none found by keyword", not "none exists", which is how shadow duplicates get through.
 
 Graph state comes from the compiler, not memory:
 
@@ -81,16 +81,16 @@ For each candidate record: filename, `type`, grounding status if known, and the 
 
 If the relationship is ambiguous, mark it `UNSURE` and ask; never guess.
 
-### Gate 3: Contradiction test
+### Gate 3: Contradiction Test
 
 The goal is not to detect surface disagreement but to decide whether it is a genuine `contradicts` or a context-dependent tension. This is the hardest and most important decision the router makes.
 
-1. **Proximity scan.** Test against the single atomic claim at stake, not the whole note. Extract its proposition, its epistemic status and its key background assumption.
-2. **Assumption difference probe.** Can both claims hold if you change one background assumption?
+1. Proximity scan. Test against the single atomic claim at stake, not the whole note. Extract its proposition, its epistemic status and its key background assumption.
+2. Assumption difference probe. Can both claims hold if you change one background assumption?
    - Yes: a tension. Report it and propose a HEAD note, naming the assumption that differs.
    - No: genuine contradiction. Propose a `contradicts` edge only if both notes exist in `30_Library/` and you can state the shared assumption they both violate.
-3. **Probe questions.** What must be true about the world for side A that side B denies? Are they the same scope and context? If I swapped in a different domain, task or model, would both still conflict?
-4. **Compare with known patterns.**
+3. Probe questions. What must be true about the world for side A that side B denies? Are they the same scope and context? If I swapped in a different domain, task or model, would both still conflict?
+4. Compare with known patterns.
 
 | If the dispute is about | Known example | Likely outcome |
 |---|---|---|
@@ -103,7 +103,7 @@ The goal is not to detect surface disagreement but to decide whether it is a gen
 | A definition with a counterexample | [[Gettier Problems Challenge the Traditional Definition of Knowledge]] against [[The Traditional Definition of Knowledge is Justified True Belief]] | Genuine contradiction: shared assumption violated |
 | An ADHD system design pattern | [[SoT - ADHD Management Protocols]] against [[ADHD Systems Fail When They Become Monotonous]] | Genuine contradiction: incompatible design philosophies |
 
-5. **Escalate if unsure** (Hard Rule 4).
+1. Escalate if unsure (Hard Rule 4).
 
 ### Gate 4: Route
 
@@ -123,7 +123,7 @@ Dispatch to the prompt that matches the result:
 | A resolved HEAD note that should become a SoT | [[Prompt - ProdOS Chronos Synthesizer]] |
 | The audit graph itself needs checking | [[Justification Graph Audit & Gap Closure]] |
 
-### Gate 5: Stage, do not file
+### Gate 5: Stage, Do not File
 
 Genuinely new content is not written into `30_Library/` by the router. It goes through the atomic-capture pipeline, which stages `tmp_atoms_*.md`, the promoted notes and a link report in `00_Inbox/`. Filing them into `30_Library/` is the human's triage step. A single, already-atomic input skips the pipeline and goes to [[Orphan Note Positioning & Thread Audit]].
 

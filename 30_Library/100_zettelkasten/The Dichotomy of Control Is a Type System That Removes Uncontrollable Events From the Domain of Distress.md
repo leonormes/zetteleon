@@ -1,25 +1,20 @@
 ---
 conformant: true
 contradicts: []
-created: 2026-10-21 14:00:00+00:00
+created: 2026-10-21T14:00:00+00:00
 epistemic_status: low
 evidence_links: []
-modified: 2026-10-21 14:00:00+00:00
+modified: 2026-10-22T15:11:14+00:00
+permalink: llmeon/30-library/100-zettelkasten/the-dichotomy-of-control-is-a-type-system-that-removes-uncontrollable-events-from-the-domain-of-distress
 proposition: The Stoic Dichotomy of Control partitions events into those within our
   power and those not, and that partition works as a structural pre-classification
   that removes the uncontrollable from the domain of valid distress triggers, which
   is making illegal states unrepresentable applied to adversity.
 status: seed
-tags:
-- formal-methods
-- stoicism
-- TheHuman/Philosophy
-- emotional_regulation
-- TheHuman/Psychology
+tags: [emotional_regulation, formal-methods, stoicism, TheHuman/Philosophy, TheHuman/Psychology]
 title: The Dichotomy of Control Is a Type System That Removes Uncontrollable Events
   From the Domain of Distress
 type: claim
-permalink: llmeon/30-library/100-zettelkasten/the-dichotomy-of-control-is-a-type-system-that-removes-uncontrollable-events-from-the-domain-of-distress
 ---
 
 ## The Dichotomy of Control Is a Type System That Removes Uncontrollable Events From the Domain of Distress

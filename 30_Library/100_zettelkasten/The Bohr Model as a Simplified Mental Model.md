@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-29T15:18:10+00:00
 last_reviewed: 'null'
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:14+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-bohr-model-as-a-simplified-mental-model
 tags: [analogy, chemistry, science, TheHuman/Cognition/mental-model]
 title: The Bohr Model as a Simplified Mental Model
@@ -21,4 +21,4 @@ Links: [[Flawed Mental Models Limit Mastery]]
 ## Related
 
 - [[Mistaking the Map for the Territory]]
-- [[SoT - Reality, Models, and the Limits of Accuracy]]—*the broader principle that all models are wrong but some are useful.*
+- [[SoT - Reality, Models, and the Limits of Accuracy]]—_the broader principle that all models are wrong but some are useful._

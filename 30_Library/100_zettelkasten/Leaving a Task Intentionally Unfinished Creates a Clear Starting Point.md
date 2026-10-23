@@ -2,7 +2,7 @@
 aliases: [Intentional Unfinishing]
 created: 2025-11-11T19:05:07+00:00
 last_reviewed: ''
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:16+00:00
 permalink: llmeon/30-library/100-zettelkasten/leaving-a-task-intentionally-unfinished-creates-a-clear-starting-point
 status: seed
 tags: [task-management, topic/productivity]
@@ -19,4 +19,4 @@ Details: This technique, often called the "Hemingway method," removes the initia
 
 ### Related
 
-- [[The Hemingway Technique - End Work With Unfinished Problems]]—*the writer's version.*
+- [[The Hemingway Technique - End Work With Unfinished Problems]]—_the writer's version._

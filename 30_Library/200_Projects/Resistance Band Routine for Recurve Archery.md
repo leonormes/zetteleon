@@ -1,16 +1,15 @@
 ---
-created: 2026-10-05T09:11:20+00:00
-modified: 2026-10-05T09:13:40+00:00
-permalink: llmeon/00-inbox/llm-2026-10-05-1011
-title: LLM - 2026-10-05 1011
-type: concept
 conformant: false
+created: 2026-10-05T09:11:20+00:00
+modified: 2026-10-22T15:11:09+00:00
 non_conformance_reason: raw LLM paste awaiting triage
+permalink: llmeon/00-inbox/llm-2026-10-05-1011
 source: LLM conversation 2026-10-05
 source_url:
 status: seed
-tags:
-  - source/llm
+tags: [source/llm]
+title: LLM - 2026-10-05 1011
+type: concept
 ---
 
 ## Resistance Band Routine for Recurve Archery

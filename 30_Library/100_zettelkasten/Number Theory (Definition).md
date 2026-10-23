@@ -2,7 +2,7 @@
 aliases: [Number Theory]
 created: 2025-11-01T11:22:13+00:00
 last_reviewed: '2025-11-01T00:00:00.000Z'
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/number-theory-definition
 status: seed
 tags: [fields, topic/maths]
@@ -17,7 +17,7 @@ Scope: While arithmetic deals with basic computations, number theory probes the 
 
 Example Questions: Is there a largest prime number? Can every even number greater than 2 be expressed as the sum of two primes (Goldbach's Conjecture)? What integers satisfy x² + y² = z²?
 
-### Related
+## Related
 
-- [[Fundamental Theorem of Arithmetic Guarantees Unique Prime Products]]—*a central theorem of the field.*
-- [[Modular Arithmetic Creates a Cyclical System]]—*a key tool in number theory.*
+- [[Fundamental Theorem of Arithmetic Guarantees Unique Prime Products]]—_a central theorem of the field._
+- [[Modular Arithmetic Creates a Cyclical System]]—_a key tool in number theory._

@@ -2,7 +2,7 @@
 aliases: [Subconscious Incubation, Unfinished Sentence Technique]
 created: 2025-10-30T15:07:41+00:00
 last_reviewed: '2025-10-30'
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:14+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-hemingway-technique-end-work-with-unfinished-problems
 status: seed
 tags: [subconscious-processing, TheHuman/Creativity, work-flow, writing]
@@ -24,4 +24,4 @@ Details: Inspired by Ernest Hemingway's writing practice, this technique involve
 
 ### Related
 
-- [[Momentum-Based Re-Entry Points Ease Project Resumption]]—*the re-entry benefit.*
+- [[Momentum-Based Re-Entry Points Ease Project Resumption]]—_the re-entry benefit._

@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-30T12:00:00+00:00
 last_reviewed: ''
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/morita-therapy-arugamama-is-accepting-reality-as-it-is
 tags: []
 title: Morita Therapy - Arugamama is Accepting Reality As It Is
@@ -16,6 +16,6 @@ This acceptance extends to one's internal state (emotions, thoughts) and externa
 
 In the context of habit change, this radical acceptance means honestly acknowledging your current reality—your actual capacity, energy levels, and patterns—before deciding on next steps. Growth must be aligned with where you truly are, not where you wish you were or where others expect you to be. This acceptance is not resignation but rather the necessary foundation for sustainable change.
 
-### Related
+## Related
 
-- [[Mindfulness is Non-Judgmental Present-Moment Awareness]]—*a related stance.*
+- [[Mindfulness is Non-Judgmental Present-Moment Awareness]]—_a related stance._

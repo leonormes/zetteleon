@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-11-01T09:51:13+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:13+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/values-serve-as-navigational-compass-in-absence-of-absolute-truth
 tags: [decision-making, navigation, pragmatism, topic/philosophy, values]
@@ -18,4 +18,4 @@ Details: When facts are provisional and contested, values provide directional co
 
 ### Related
 
-- [[Narrative Identity is the Story We Construct About Our Experiences]]—*identity built without absolute truth.*
+- [[Narrative Identity is the Story We Construct About Our Experiences]]—_identity built without absolute truth._

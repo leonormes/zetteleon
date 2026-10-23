@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-11-01T21:22:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-12T00:00:00+00:00
+modified: 2026-10-22T15:11:16+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/honesty-is-being-truthful-and-sincere
 proposition: Honesty is the virtue of telling the truth, being sincere, and acting in a way that is worthy of trust

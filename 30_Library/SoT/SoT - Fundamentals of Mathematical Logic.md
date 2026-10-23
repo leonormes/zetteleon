@@ -2,7 +2,7 @@
 aliases: [First-Order Logic Basics, Mathematical Quantifiers, Propositional Logic]
 conformant: true
 created: 2026-01-12T10:05:00+00:00
-modified: 2026-09-29T10:38:10+00:00
+modified: 2026-10-22T15:11:11+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-fundamentals-of-mathematical-logic
 tags: [fundamentals, math/logic, prodos/sot]

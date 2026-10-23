@@ -5,7 +5,7 @@ created: 2026-09-26T10:30:00+00:00
 created_utc: '2026-09-26T10:30:00Z'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:13+00:00
 permalink: llmeon/30-library/100-zettelkasten/working-with-a-zettelkasten-is-a-practice-of-decomposition-and-reassembly
 proposition: Working with a zettelkasten disassembles the structured thoughts of a
   writer into separate atomic ideas, networks them, and reassembles them later in
@@ -46,4 +46,4 @@ Doto's account of how note-making repurposes ideas; he ties the "mosaic of quota
 - [[A Complex Note Has Little Surface Area to Connect While a Single Idea Can Link Across Topics]]—shared mechanism: separating an idea from its argument lets it connect elsewhere
 - [[Deep Processing is the Core of Zettelkasten]]—shared mechanism: taking a source apart and restating it is where learning happens
 - [[Literature Notes Bridge Source Material and Main Notes]]—extends: literature notes are the material that is decomposed into main notes
-- [[Clusters of Ideas in a Zettelkasten Are Suggestions Not Mandates]]—*dense clusters signal what is ready to reassemble, without obliging a writer to use them.*
+- [[Clusters of Ideas in a Zettelkasten Are Suggestions Not Mandates]]—_dense clusters signal what is ready to reassemble, without obliging a writer to use them._

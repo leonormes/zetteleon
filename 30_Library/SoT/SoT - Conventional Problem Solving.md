@@ -2,7 +2,7 @@
 aliases: [Applicative Intelligence, Framework-Bound Thinking, Incremental Optimization, Linear Problem Solving]
 conformant: true
 created: 2025-02-07T12:57:55+00:00
-modified: 2026-09-29T10:38:08+00:00
+modified: 2026-10-22T15:11:12+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-conventional-problem-solving
 tags: [mental_models, optimization, problem-solving, strategy, TheHuman/Cognition]

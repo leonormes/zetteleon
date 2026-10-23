@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-05-12T05:13:56+00:00
 last_reviewed: 'null'
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:16+00:00
 permalink: llmeon/30-library/100-zettelkasten/how-computers-identify-each-other-on-a-network
 tags: [SoftwareEngineering/networking/dns]
 title: How Computers Identify Each other on a Network
@@ -21,6 +21,6 @@ bbc.co.uk.              130     IN      A       151.101.128.81
 
 There are a few addresses for redundancy, but for instance, one of the addresses is `151.101.192.81`.
 
-### Related
+## Related
 
-- [[www is just a normal subdomain]]—*clarifies the www part of the names discussed here.*
+- [[www is just a normal subdomain]]—_clarifies the www part of the names discussed here._

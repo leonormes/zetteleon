@@ -2,7 +2,7 @@
 aliases: [Context Degradation, Perspective Drift, Session Entropy]
 conformant: true
 created: 2026-01-30T08:30:00+00:00
-modified: 2026-09-29T10:38:08+00:00
+modified: 2026-10-22T15:11:12+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-context-rot
 tags: [context-engineering, llm-failure-mode, prompt-engineering]

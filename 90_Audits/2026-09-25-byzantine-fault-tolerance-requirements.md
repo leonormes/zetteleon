@@ -1,12 +1,12 @@
 ---
 created: 2026-09-25T00:00:00+00:00
-modified: 2026-09-25T00:00:00+00:00
+modified: 2026-10-22T15:11:05+00:00
 permalink: llmeon/90-audits/2026-09-25-byzantine-fault-tolerance-requirements
 title: 2026-09-25-byzantine-fault-tolerance-requirements
 type: note
 ---
 
-## Positioning — [[Byzantine Fault Tolerance Requirements]] — 2026-09-25
+## Positioning—[[Byzantine Fault Tolerance Requirements]]—2026-09-25
 
 > Routed to [[Orphan Note Positioning & Thread Audit]] per [[00 - Prompt Library Router]]: one thin note whose cluster was never wired into the wider graph. The cluster is the seven atoms from one video, listed in `_link_report_concurrency_challenges`. [[LLM Graph Bootstrap Agent]] is the right follow-up for the cluster as a whole (see Next action).
 
@@ -23,7 +23,7 @@ type: note
 - `consensus quorum replication fault tolerance` (conceptual, title/heading/tag fields): Paxos vs Raft plus unrelated scientific-consensus notes.
 - `Two Generals problem FLP impossibility Paxos Raft` (functional): Paxos vs Raft only. No FLP, CAP or Two Generals notes exist.
 - `digital signature authenticity non-repudiation forgery` (functional): Encryption vs Digital Signatures, SoT - Cryptography and Encryption, SoT - Modern Authentication Standards.
-- `distributed systems` (literal): SoT - Abstracting Concurrent Systems, A Single System Image..., Git content-addressed object store, State Synchronization Models.
+- `distributed systems` (literal): SoT - Abstracting Concurrent Systems, A Single System Image…, Git content-addressed object store, State Synchronization Models.
 - Directory listing of `MoC/`, `SoT/` and `100_zettelkasten/` for hubs and same-source siblings.
 
 ### Candidate Connections
@@ -38,7 +38,7 @@ type: note
 | [[SoT - State Synchronization Models]], [[SoT - Cryptography and Encryption]], [[SoT - Zero Trust Architecture]] | Blockchain exemplar; signature mechanism; assume-compromise parallel | Topical | Yes | No | plain links |
 | 6 inbound Entra and Zero Trust atoms | Their "shared mechanism" annotations for the Target are generic | n/a | n/a | n/a | not touched (see needs your call) |
 
-### Patch A — Typed Edges
+### Patch A—Typed Edges
 
 | Target file | Edge line | Rationale | Resolved? |
 |---|---|---|---|
@@ -47,7 +47,7 @@ type: note
 
 No `contradicts` edge: the 3n + 1 versus 2n + 1 discrepancy passes the both-can-hold test, so it is a Tension.
 
-### Patch B — Plain Links / MoC Anchors
+### Patch B—Plain Links / MoC Anchors
 
 | File | Proposed line | Where it goes |
 |---|---|---|
@@ -55,7 +55,7 @@ No `contradicts` edge: the 3n + 1 versus 2n + 1 discrepancy passes the both-can-
 | SoT - Abstracting Concurrent Systems | `- Evidence for section 3.1: [[Byzantine Fault Tolerance Requirements]]` | End of `## Related Knowledge` (primary home) |
 | MOC - Computer Science Foundations | One annotated entry, "The Fault Model" | End of section 4, Cloud & Infrastructure (secondary home; no distributed-systems section exists) |
 
-### Patch C — Frontmatter Conformance
+### Patch C—Frontmatter Conformance
 
 | Field | Current | Proposed (applied) |
 |---|---|---|
@@ -65,9 +65,9 @@ No `contradicts` edge: the 3n + 1 versus 2n + 1 discrepancy passes the both-can-
 | `epistemic_status`, `evidence_links`, `contradicts` | absent | `medium`, `[]`, `[]` |
 | `kind`, `status`, `upstream`, `source_*` | present | unchanged |
 
-### Patch D — Further Reading, Personal Library
+### Patch D—Further Reading, Personal Library
 
-None. Three ARCHILLES semantic queries (Byzantine generals; signed messages and any number of faults; state-machine replication with malicious replicas) returned nothing above the relevance floor whose text bears on the claim. The nearest hits were *Database Internals* on gossip and failure detection and *Understanding Distributed Systems* on reliable broadcast, neither about Byzantine faults. Recorded as a normal zero-match outcome.
+None. Three ARCHILLES semantic queries (Byzantine generals; signed messages and any number of faults; state-machine replication with malicious replicas) returned nothing above the relevance floor whose text bears on the claim. The nearest hits were _Database Internals_ on gossip and failure detection and _Understanding Distributed Systems_ on reliable broadcast, neither about Byzantine faults. Recorded as a normal zero-match outcome.
 
 ### Applied (Part 2)
 
@@ -81,7 +81,7 @@ None. Three ARCHILLES semantic queries (Byzantine generals; signed messages and 
 
 None.
 
-### No evidence / needs your call
+### No Evidence / Needs Your Call
 
 | Candidate | Why untestable |
 |---|---|
@@ -107,7 +107,7 @@ The Target is now a node with one premise and one dependent. Exposure is low but
 - Weakest link: the Target's own evidence is a single sourced quote from a talk, with no Evidence note. The 2n + 1 figure is contestable (see Tensions).
 - Cheapest defeater: a primary-source passage showing signed-message bounds depend on synchrony. If it holds, the `depends_on` edge stays but the claim needs scope conditions added.
 
-### Traversal manifest
+### Traversal Manifest
 
 Outbound: 2 typed edges, 8 plain links, 3 pre-existing plain links. Inbound: 7 (6 atoms, 1 index). Use-vs-mention on the inbound links: all six atoms mention rather than use the Target, and none carries an inferential edge.
 
@@ -121,6 +121,6 @@ Outbound: 2 typed edges, 8 plain links, 3 pre-existing plain links. Inbound: 7 (
 - `edge_lint.py` (whole vault): 0 errors, 0 warnings (2907 notes, 1411 edges).
 - Confidence: medium. Search was lexical (semantic search errored), and the 2n + 1 point rests on my recollection, not on a checked source.
 
-## Next action
+## Next Action
 
 Run `Orphan Note Positioning & Thread Audit` on [[Paxos vs Raft (Correctness vs Intuition)]], the most graph-relevant of the six sibling atoms still unwired from the same video.

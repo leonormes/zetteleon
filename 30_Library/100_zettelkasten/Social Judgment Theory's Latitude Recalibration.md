@@ -5,7 +5,7 @@ created: 2026-09-17T11:33:19+00:00
 created_utc: '2026-09-17T00:00:00Z'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:14+00:00
 permalink: llmeon/00-inbox/social-judgment-theorys-latitude-recalibration
 proposition: Social Judgment Theory holds that people sort political information into latitudes of acceptance, noncommitment, and rejection relative to their existing attitudes; an extreme anchor figure stretches this scale, broadening the latitude of acceptance to absorb behaviour that would otherwise fall into noncommitment or rejection.
 source_title: Political Contrast Effect Research
@@ -40,4 +40,4 @@ Pioneered by Muzafer Sherif. Applies when the extreme figure is judged to fall d
 
 ### Related
 
-- [[Cognitive Biases Reinforce Mental Models]]—*how judgement anchors shift.*
+- [[Cognitive Biases Reinforce Mental Models]]—_how judgement anchors shift._

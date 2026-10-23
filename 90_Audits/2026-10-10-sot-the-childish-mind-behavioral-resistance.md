@@ -1,20 +1,19 @@
 ---
+conformant: true
+created: 2026-10-10T00:00:00+00:00
+modified: 2026-10-22T15:11:05+00:00
+non_conformance_reason: ''
+permalink: llmeon/90-audits/2026-10-10-sot-the-childish-mind-behavioral-resistance
+tags: [audit, domain/pkm]
 title: Audit - SoT The Childish Mind Behavioral Resistance
 type: link_report
-tags:
-- audit
-- domain/pkm
-conformant: true
-non_conformance_reason: ''
-created: 2026-10-10 00:00:00+00:00
-permalink: llmeon/90-audits/2026-10-10-sot-the-childish-mind-behavioral-resistance
 ---
 
-## Refresh — [[SoT - The Childish Mind (Behavioral Resistance)]] — 2026-10-10
+## Refresh—[[SoT - The Childish Mind (Behavioral Resistance)]]—2026-10-10
 
 > Prompt: [[Note Refresh & Link Auditor]] (v4). Output Contract (TAC): confidence per section, evidence by wikilink, `UNSURE` where a claim could not be tested. Semantic vault search errored for the whole run, so vault discovery was lexical plus the wikilink graph; coverage claims are downgraded accordingly.
 
-### Why this prompt
+### Why This Prompt
 
 - [[Knowledge Harvesting & Normalization Agent]] was rejected: its execution phase deprecates or deletes fragment notes, which was not asked for, and its tooling section still uses the retired `retrieve_tools` pattern.
 - [[Orphan Note Positioning & Thread Audit]] was rejected: the target is an established SoT with 5 inbound links and conformant frontmatter, not an orphan.
@@ -40,7 +39,7 @@ permalink: llmeon/90-audits/2026-10-10-sot-the-childish-mind-behavioral-resistan
 Core concepts: dual-process mind (Rider and Elephant), immediate gratification, ego depletion, Mind Movie (Babauta), commitment devices and environmental design.
 
 - Wikilink graph, backlinks of the target -> the 5 inbound above.
-- Semantic "Rider and Elephant dual-process..." -> tool error, not run.
+- Semantic "Rider and Elephant dual-process…" -> tool error, not run.
 - Lexical "ego depletion willpower commitment device environmental design path of least resistance" -> [[SoT - Commitment Devices (Ulysses Pacts)]], [[SoT - Behavioral Architecture]], [[Discipline Is a Property of External Structure More Than of Will]], [[Engineering Action and Bypassing Resistance]], [[Timeboxing Combats the Principle of Least Resistance]], [[The War of Art - Resistance and Turning Pro]] (noisy: stopword matches inflated scores)
 - Literal `Elephant` -> [[SoT - Behavioral Architecture]], [[SoT - Social Cognition & Self-Perception]], [[Motivation, Volition, and Control are Distinct Aspects of the Action Process]] and 3 unrelated claim notes
 - Literal `ego depletion` -> only the target and [[SoT - Behavioral Architecture]] (no note on the replication question)
@@ -58,9 +57,9 @@ Semantic mode, top 6, one hit per book. Relevance is the tool's score; all are l
 |---|---|---|---|
 | Emotional automatic mind as elephant, reasoning mind as rider | The Righteous Mind, "Central Metaphor" | 0.400 | Discarded: the snippet is a heading only, so the sentences that would bear on the claim were not visible |
 | same | The Chimp Paradox, ch. 2 p. 2 | 0.382 | Discarded: a related metaphor, but the snippet is about one anecdote and does not bear on the claim |
-| Willpower as a limited resource, depletion effect disputed | Indistractable, ch. 8 "Reimagine Your Temperament", p. 46 | 0.306 | **Kept.** Snippet reads: Dweck concluded that signs of ego depletion were observed only in those who believed willpower was a limited resource. Bears directly on section 2.3. |
+| Willpower as a limited resource, depletion effect disputed | Indistractable, ch. 8 "Reimagine Your Temperament", p. 46 | 0.306 | Kept. Snippet reads: Dweck concluded that signs of ego depletion were observed only in those who believed willpower was a limited resource. Bears directly on section 2.3. |
 | same | The ONE Thing, ch. 7 | 0.286 | Discarded: restates the limited-willpower view, adds no test of it |
-| People imagine change as easy and pleasant, then abandon it | Beyond Belief, ch. 11 "Good Beliefs, Bad Beliefs", p. 171 | 0.411 | **Kept.** Snippet reads: Oettingen's research shows positive fantasies can reduce motivation when rewards are imagined without the effort. Bears on section 3. |
+| People imagine change as easy and pleasant, then abandon it | Beyond Belief, ch. 11 "Good Beliefs, Bad Beliefs", p. 171 | 0.411 | Kept. Snippet reads: Oettingen's research shows positive fantasies can reduce motivation when rewards are imagined without the effort. Bears on section 3. |
 | same | Stumbling on Happiness, ch. 9, p. 180 | 0.417 | Discarded: a study about judgement of an unrelated scenario |
 
 These are semantic-similarity evidence read from a snippet of roughly 200 characters, not confirmed readings of the books. Author for Beyond Belief was not confirmed, so none is cited.
@@ -92,8 +91,8 @@ Compiler check: `--impact "SoT - The Childish Mind (Behavioral Resistance)"` now
 
 ### 3b. Further Reading Added
 
-- Indistractable — Nir Eyal, ch. 8 "Reimagine Your Temperament", p. 46 (`calibre://view-book/GCcalibreBooks/687/EPUB`)
-- Beyond Belief — ch. 11 "Good Beliefs, Bad Beliefs", p. 171 (`calibre://view-book/GCcalibreBooks/1686/EPUB`)
+- Indistractable—Nir Eyal, ch. 8 "Reimagine Your Temperament", p. 46 (`calibre://view-book/GCcalibreBooks/687/EPUB`)
+- Beyond Belief—ch. 11 "Good Beliefs, Bad Beliefs", p. 171 (`calibre://view-book/GCcalibreBooks/1686/EPUB`)
 
 Calibre ids and formats were looked up read-only in `metadata.db` (both books have EPUB and PDF).
 
@@ -115,7 +114,7 @@ One file edited: `30_Library/SoT/SoT - The Childish Mind (Behavioral Resistance)
 - Fileclass live validation in Obsidian: not checked.
 - Confidence: medium. Lexical search only, two link annotations rest on frontmatter-level reading, and library hits are snippet-level.
 
-### No evidence / needs your call
+### No Evidence / Needs Your Call
 
 | Item | Why |
 |---|---|
@@ -123,12 +122,12 @@ One file edited: `30_Library/SoT/SoT - The Childish Mind (Behavioral Resistance)
 | Source for "The Rider and the Elephant" | No vault or library source verified. |
 | Mind Movie attribution to Babauta | [[SoT - Intentional Living]] mentions him only in passing; no note or passage here confirms the "Mind Movie" term is his. The target states it as fact. |
 
-### Pathologies and frontier
+### Pathologies and Frontier
 
 - [[SoT - Commitment Devices (Ulysses Pacts)]] names the "Childish Mind" in its text but does not link back, so the pair is linked one way only. Same for [[SoT - Behavioral Architecture]] at the typed level: it plain-links here but carries no edge. Worth adding on the other side if you want symmetry; not done, as this run was scoped to the target.
 - [[Temporal Discounting is the Cognitive Bias Where People Value Immediate Rewards More]] is `conformant: false` (missing claim fields). Linking to it is fine, but it is a weak anchor until backfilled.
 - Section 3 of the target restates [[The Mind Movie Fallacy]], which already carries an `upstream` pointer here. Splitting section 3 out is a candidate for a separate pass.
 
-### Next action
+### Next Action
 
 Run `uv run --with pyyaml python3 10_System/scripts/edge_lint.py --impact "SoT - Behavioral Architecture"` after deciding whether the ego-depletion tension should be mirrored there, since that SoT shares the exposure.

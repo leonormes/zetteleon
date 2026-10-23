@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-11-22T15:00:09+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:17+00:00
 non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/concept-netfilter-hooks
 tags: [SoftwareEngineering/networking/kernel]
@@ -27,4 +27,4 @@ These hooks enable firewalls, NAT, and packet logging.
 
 ### Related
 
-- [[Concept - Linux Queuing Discipline]]—*the next stage on egress.*
+- [[Concept - Linux Queuing Discipline]]—_the next stage on egress._

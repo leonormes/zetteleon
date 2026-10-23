@@ -1,6 +1,6 @@
 ---
 created: 2026-07-11T00:00:00+00:00
-modified: 2026-07-20T16:34:38+00:00
+modified: 2026-10-22T15:11:07+00:00
 permalink: llmeon/output/reports/vault-pattern-audit
 tags: [audit, pkm, report]
 title: 2026 07 11 Vault Pattern Audit

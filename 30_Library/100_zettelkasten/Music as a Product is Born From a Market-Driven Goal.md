@@ -2,7 +2,7 @@
 aliases: [Top-Down Music]
 conformant: false
 created: 2025-11-10T11:05:00+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:15+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/music-as-a-product-is-born-from-a-market-driven-goal
 tags: [commerce, marketing, music, product]
@@ -18,4 +18,4 @@ Details: The starting point for commercial music is frequently a business object
 
 ### Related
 
-- [[Commercial Music is Engineered for Mass Appeal by Specialist Teams]]—*how the goal shapes production.*
+- [[Commercial Music is Engineered for Mass Appeal by Specialist Teams]]—_how the goal shapes production._

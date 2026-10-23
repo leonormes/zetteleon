@@ -1,23 +1,19 @@
 ---
 conformant: true
 contradicts: []
-created: 2026-10-21 14:00:00+00:00
+created: 2026-10-21T14:00:00+00:00
 epistemic_status: low
 evidence_links: []
-modified: 2026-10-21 14:00:00+00:00
+modified: 2026-10-22T15:11:13+00:00
+permalink: llmeon/30-library/100-zettelkasten/the-same-constitutive-schema-removes-a-class-of-runtime-failure-in-type-theory-clinical-data-infrastructure-and-cognitive-scaffolding
 proposition: The SoT claims one pattern operates identically in type theory, clinical
   data, declarative infrastructure and cognitive scaffolding, where a constitutive
   schema removes a class of runtime failure by making it structurally undefined.
 status: seed
-tags:
-- formal-methods
-- topic/knowledge-architecture
-- topic/software-architecture
-- TheHuman/Health/ADHD
+tags: [formal-methods, TheHuman/Health/ADHD, topic/knowledge-architecture, topic/software-architecture]
 title: The Same Constitutive Schema Removes a Class of Runtime Failure in Type Theory,
   Clinical Data, Infrastructure and Cognitive Scaffolding
 type: claim
-permalink: llmeon/30-library/100-zettelkasten/the-same-constitutive-schema-removes-a-class-of-runtime-failure-in-type-theory-clinical-data-infrastructure-and-cognitive-scaffolding
 ---
 
 ## The Same Constitutive Schema Removes a Class of Runtime Failure in Type Theory, Clinical Data, Infrastructure and Cognitive Scaffolding

@@ -2,7 +2,7 @@
 aliases: [HEAD Compliance, HEAD Note Contract, Thinking Note Contract, Workbench Contract]
 conformant: true
 created: 2026-08-03T00:00:00+01:00
-modified: 2026-09-29T10:38:11+00:00
+modified: 2026-10-22T15:11:11+00:00
 permalink: llmeon/30-library/so-t/so-t-head-note-contract-the-workbench
 see_also: ["[[Prompt - ProdOS Chronos Synthesizer]]", "[[Reference - File Structure]]", "[[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]]", "[[SoT - ProdOS Thinking Stream]]"]
 status: stable
@@ -145,7 +145,6 @@ There is no third exit. A note that has been `status: open` for six months is a 
 
 ---
 
-
 ### 3.1 Tombstones
 
 Decided 2026-07-27, after an audit found about 24 atomic notes citing four merged-and-removed HEAD notes as `upstream`, every one a dangling wikilink. Moved here from [[SoT - Evolutionary Note System]] on 2026-10-17.
@@ -155,6 +154,7 @@ Decided 2026-07-27, after an audit found about 24 atomic notes citing four merge
 - Why the filename and not an alias: citing notes hold the exact string in an `upstream:` field or a prose wikilink, which the compiler does not resolve as a typed edge. Only a same-titled file fixes them without editing each citing note.
 - Who: Leon, or the Workbench Sweep once he approves its routing table. [[Prompt - ProdOS Chronos Synthesizer]] only lists the proposed tombstone, per AGENTS §6.1.
 - This does not relax supersession: the answer still goes into the living SoT. It only stops the old title becoming an orphaned reference.
+
 ## 4. Tensions Live in the Queue, Pointers Live in the Canon
 
 A canonical note (`SoT`, `Claim`, `MoC`, project) MUST NOT carry a `## Tensions & Gaps`, `## Open Questions`, or equivalent prose section. Those sections are where open problems go to be forgotten—the reader of an SoT is looking for the answer and skims past the caveats.

@@ -3,7 +3,7 @@ aliases: []
 conformant: false
 created: 2025-05-10T00:07:18+00:00
 last_reviewed: 'null'
-modified: 2026-10-14T09:12:33+00:00
+modified: 2026-10-22T15:11:13+00:00
 non_conformance_reason: type permanent is not a canonical value and no proposition or epistemic_status yet - Leon to choose type (likely claim)
 permalink: llmeon/30-library/100-zettelkasten/zettelkasten-aint-easy
 tags: [TheHuman/Cognition/thinking, topic/pkm/zettelkasten]

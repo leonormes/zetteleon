@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-26T17:19:00+00:00
 last_reviewed: 'null'
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:16+00:00
 permalink: llmeon/30-library/200-projects/kube-proxy-implements-services-using-iptables-or-ipvs
 project_category: infrastructure
 project_name: k8s
@@ -67,4 +67,4 @@ IPVS Mode:
 - [[MOC - Container Runtime & Orchestration]] - kube-proxy in orchestration context
 - What are iptables chains and tables? - Underlying networking mechanism
 - [[Kubernetes Provides NodePort and LoadBalancer for External Service Access]] - Service types implemented
-- [[The k8s Service Abstraction]]—*the abstraction that kube-proxy implements.*
+- [[The k8s Service Abstraction]]—_the abstraction that kube-proxy implements._

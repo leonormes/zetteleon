@@ -5,11 +5,11 @@ contradicts: []
 created: 2025-08-23T20:45:19+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-21T11:40:00+00:00
+modified: 2026-10-22T15:11:13+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/the-worlds-ambiguity-drives-the-need-for-certainty
 proposition: The complexity and ambiguity of the world leave many things unsettled, that uncertainty is often uncomfortable, and the discomfort drives a strong need for clear and stable beliefs and a sense of truth to navigate by.
-tags: [epistemology, TheHuman/Psychology, uncertainty, certainty]
+tags: [certainty, epistemology, TheHuman/Psychology, uncertainty]
 title: "The World's Ambiguity Drives the Need for Certainty"
 type: claim
 ---
@@ -27,14 +27,14 @@ The inherent complexity and ambiguity of the world create a state of uncertainty
 
 ### Evidence
 
-> "How much one needs a faith in order to flourish, how much that is “firm” and that one does not wish to be shaken because one clings to it, that is a measure of the degree of one’s strength (or, to put the point more clearly, of one’s weakness)."
-> (Friedrich Nietzsche, *The Gay Science*, §347 "Believers and their need to believe", Knopf Doubleday edition as held in the library; footnote markers omitted)
+> "How much one needs a faith in order to flourish, how much that is "firm" and that one does not wish to be shaken because one clings to it, that is a measure of the degree of one's strength (or, to put the point more clearly, of one's weakness)."
+> (Friedrich Nietzsche, _The Gay Science_, §347 "Believers and their need to believe", Knopf Doubleday edition as held in the library; footnote markers omitted)
 
 > "An unbiased appreciation of uncertainty is a cornerstone of rationality—but it is not what people and organizations want. Extreme uncertainty is paralyzing under dangerous circumstances, and the admission that one is merely guessing is especially unacceptable when the stakes are high."
-> (Daniel Kahneman, *Thinking, Fast and Slow*, ch. 24 "The Engine of Capitalism", p. 314)
+> (Daniel Kahneman, _Thinking, Fast and Slow_, ch. 24 "The Engine of Capitalism", p. 314)
 
 > "We get only one try at any given decision—one flip of the coin—and that puts great pressure on us to feel we have to be certain before acting, a certainty that necessarily will overlook the influences of hidden information and luck."
-> (Annie Duke, *Thinking in Bets*, ch. 1, "“I’m not sure”: using uncertainty to our advantage")
+> (Annie Duke, _Thinking in Bets_, ch. 1, ""I'm not sure": using uncertainty to our advantage")
 
 ### Implications
 
@@ -49,7 +49,7 @@ The inherent complexity and ambiguity of the world create a state of uncertainty
 - [[Predictive-Processing Accounts Frame Discomfort With Uncertainty as a Prediction-Error Problem]]—mechanism: why uncertainty becomes uncomfortable, and so two levers for easing the need.
 - [[Demanding Factual Certainty Before Acting Leads to Analysis Paralysis]]—consequence: what happens when the need for certainty is applied to a decision that cannot be certain in advance.
 - [[The Realization that Knowledge is Contingent Can Lead to a Crisis of Certainty]]—converse: what happens when a long-held certainty is withdrawn.
-- [[Nihilism vs Constructed Meaning]]—*one response to ambiguity.*
+- [[Nihilism vs Constructed Meaning]]—_one response to ambiguity._
 
 ### Tensions
 
@@ -60,8 +60,8 @@ The inherent complexity and ambiguity of the world create a state of uncertainty
 
 Found by semantic search of the library. The passages were read in the index. The last two are topical rather than direct statements of this claim.
 
-- [The Gay Science, Friedrich Nietzsche, §347](calibre://view-book/GCcalibreBooks/1678/EPUB)—*corroborates and goes further: reads the need for something "firm" as a measure of weakness and names the "impetuous demand for certainty" that now takes a scientific-positivistic form. The evaluative reading is Nietzsche's and this note does not adopt it.*
-- [Thinking, Fast and Slow, Daniel Kahneman, ch. 24, p. 314](calibre://view-book/GCcalibreBooks/53/EPUB)—*corroborates the social side: clients prefer confident experts, so "acting on pretended knowledge is often the preferred solution".*
-- [Thinking in Bets, Annie Duke, ch. 1](calibre://view-book/GCcalibreBooks/55/EPUB)—*corroborates the pressure to be certain before acting, and offers the counter-habit of getting comfortable with "I'm not sure".*
-- [The Big Picture, Sean Carroll, ch. 14 "Planets of Belief"](calibre://view-book/GCcalibreBooks/127/EPUB)—*extends: our preference for preserving existing beliefs, with confirmation bias and the backfire effect; follows from the need for settled belief.*
-- [Black Box Thinking, Matthew Syed, ch. 5 "Intellectual Contortions"](calibre://view-book/GCcalibreBooks/1490/EPUB)—*extends: cognitive dissonance as the way settled beliefs are defended against inconvenient evidence.*
+- [The Gay Science, Friedrich Nietzsche, §347](calibre://view-book/GCcalibreBooks/1678/EPUB)—_corroborates and goes further: reads the need for something "firm" as a measure of weakness and names the "impetuous demand for certainty" that now takes a scientific-positivistic form. The evaluative reading is Nietzsche's and this note does not adopt it._
+- [Thinking, Fast and Slow, Daniel Kahneman, ch. 24, p. 314](calibre://view-book/GCcalibreBooks/53/EPUB)—_corroborates the social side: clients prefer confident experts, so "acting on pretended knowledge is often the preferred solution"._
+- [Thinking in Bets, Annie Duke, ch. 1](calibre://view-book/GCcalibreBooks/55/EPUB)—_corroborates the pressure to be certain before acting, and offers the counter-habit of getting comfortable with "I'm not sure"._
+- [The Big Picture, Sean Carroll, ch. 14 "Planets of Belief"](calibre://view-book/GCcalibreBooks/127/EPUB)—_extends: our preference for preserving existing beliefs, with confirmation bias and the backfire effect; follows from the need for settled belief._
+- [Black Box Thinking, Matthew Syed, ch. 5 "Intellectual Contortions"](calibre://view-book/GCcalibreBooks/1490/EPUB)—_extends: cognitive dissonance as the way settled beliefs are defended against inconvenient evidence._

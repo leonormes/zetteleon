@@ -1,22 +1,18 @@
 ---
 conformant: true
 contradicts: []
-created: 2026-10-21 14:00:00+00:00
+created: 2026-10-21T14:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-21 14:00:00+00:00
+modified: 2026-10-22T15:11:17+00:00
+permalink: llmeon/30-library/100-zettelkasten/frontmatter-is-the-type-of-a-note-and-not-a-label-attached-to-it
 proposition: In this vault the frontmatter schema is the note type and its epistemic
   status in the vault formal system and not a label added to a note that already has
   one, so frontmatter violations are type errors and not style errors.
 status: seed
-tags:
-- formal-methods
-- topic/pkm
-- topic/knowledge-architecture
-- prodos
+tags: [formal-methods, prodos, topic/knowledge-architecture, topic/pkm]
 title: Frontmatter Is the Type of a Note and Not a Label Attached to It
 type: claim
-permalink: llmeon/30-library/100-zettelkasten/frontmatter-is-the-type-of-a-note-and-not-a-label-attached-to-it
 ---
 
 ## Frontmatter Is the Type of a Note and Not a Label Attached to It
@@ -34,7 +30,7 @@ In this vault the frontmatter schema is the note's type and its status in the va
 > "The `prodos` frontmatter block is not a label attached to a note that already has epistemic status. It IS the note's epistemic status in the vault's formal system."
 > ([[SoT - Structure is Truth is a Unifying Axiom Across Formal Systems]], §4 The Recursive Case, emphasis markers omitted)
 
-> "`type` is **required** on every note (§2), set to one of the contract's enum values. Fileclass's own class-detection (`fileClassAlias: type`) keys off this field — a note without it gets no schema, no validation, no editable Bases row, whatever its `prodos` object says."
+> "`type` is required on every note (§2), set to one of the contract's enum values. Fileclass's own class-detection (`fileClassAlias: type`) keys off this field—a note without it gets no schema, no validation, no editable Bases row, whatever its `prodos` object says."
 > (the vault's AGENTS.md, Frontmatter section)
 
 ### Implications

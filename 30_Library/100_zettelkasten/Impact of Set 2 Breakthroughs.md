@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-02-07T12:57:55+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-10T11:37:54+00:00
+modified: 2026-10-22T15:11:16+00:00
 non_conformance_reason: Title is a topic label not a declarative sentence and renaming would break the inbound link from SoT - Conventional Problem Solving
 permalink: llmeon/30-library/100-zettelkasten/impact-of-set-2-breakthroughs
 proposition: Fundamental insights are rare but disproportionately impactful because each one opens new fields that conventional problem solving can then explore and develop

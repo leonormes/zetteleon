@@ -1,27 +1,21 @@
 ---
-aliases:
-- Structure is Truth
-- Constitutive Structure
+aliases: [Constitutive Structure, Structure is Truth]
 axiom: true
 conformant: true
 contradicts: []
-created: 2026-10-21 14:00:00+00:00
+created: 2026-10-21T14:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-21 14:00:00+00:00
+modified: 2026-10-22T15:11:14+00:00
+permalink: llmeon/30-library/100-zettelkasten/structure-constitutes-the-domain-of-valid-facts-rather-than-representing-a-pre-existing-truth
 proposition: In a formal system the structure defines which facts are valid and there
   is no pre-structural truth for the schema to point at, so structure constitutes
   truth and does not merely represent it.
 status: seed
-tags:
-- formal-methods
-- topic/knowledge-architecture
-- topic/philosophy
-- epistemology
+tags: [epistemology, formal-methods, topic/knowledge-architecture, topic/philosophy]
 title: Structure Constitutes the Domain of Valid Facts Rather Than Representing a
   Pre-Existing Truth
 type: claim
-permalink: llmeon/30-library/100-zettelkasten/structure-constitutes-the-domain-of-valid-facts-rather-than-representing-a-pre-existing-truth
 ---
 
 ## Structure Constitutes the Domain of Valid Facts Rather Than Representing a Pre-Existing Truth
@@ -41,7 +35,7 @@ In a formal system the structure defines which facts are valid, and there is no 
 > ([[SoT - Structure is Truth is a Unifying Axiom Across Formal Systems]], opening paragraph, emphasis markers omitted)
 
 > "formal systems in mathematics (i.e., collections of rules for churning out an endless series of mathematical truths solely by mechanical symbol-shunting without any regard to meanings or ideas hidden in the shapes being manipulated)"
-> (Douglas R. Hofstadter, *Gödel, Escher, Bach*, Twentieth-anniversary Preface)
+> (Douglas R. Hofstadter, _Gödel, Escher, Bach_, Twentieth-anniversary Preface)
 
 The second quotation shows the mathematical sense in which a system's truths are whatever its rules generate. It does not itself state the SoT's wider claim.
 

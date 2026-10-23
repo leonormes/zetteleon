@@ -5,7 +5,7 @@ created: 2026-09-26T10:30:00+00:00
 created_utc: '2026-09-26T10:30:00Z'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/recording-one-idea-per-note-trains-succinct-writing-in-plain-language
 proposition: The habit of recording one idea per note trains a writer to express ideas
   succinctly and in plain language.
@@ -42,4 +42,4 @@ Allosso's claim about the effect of the habit on the writer, as distinct from it
 - [[A Note Should Be Written So It Can Be Understood Out of Context]]—shared mechanism: both push toward brief, plain, self-contained writing
 - [[Writing as Cognitive Rigour]]—shared mechanism: writing a thought down forces precision
 - [[Elaboration Through Own Words Deepens Understanding]]—shared mechanism: putting an idea in your own words tests understanding
-- [[One Idea Per Note Makes Ideas Easier to Find Than a Long Multi-Topic Review]]—*the retrieval benefit of the same one-idea-per-note habit.*
+- [[One Idea Per Note Makes Ideas Easier to Find Than a Long Multi-Topic Review]]—_the retrieval benefit of the same one-idea-per-note habit._

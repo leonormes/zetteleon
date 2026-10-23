@@ -5,7 +5,7 @@ created: 2026-09-28T00:00:00+00:00
 created_utc: '2026-09-28T00:00:00+00:00'
 epistemic_status: low
 evidence_links: []
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:13+00:00
 permalink: llmeon/00-inbox/treating-belief-as-a-magic-switch-can-backfire-by-draining-the-energy-needed-for-action
 proposition: Slogans such as just believe or think positive treat beliefs as magic
   switches or passive wishes, which can backfire by relaxing the body as if the goal
@@ -43,5 +43,5 @@ Eyal separates this from choosing a useful belief. The mechanism, relaxing the b
 - [[Hope is Expecting the Best in the Future and Working for It]]—shared mechanism: the same boundary, that hopeful expectation has to be joined to effort rather than left as a passive wish.
 - [[Tragic Optimism Is Hope and Meaning That Acknowledges Rather Than Denies the Tragic Triad]]—shared mechanism: optimism that acknowledges rather than denies reality.
 - [[A Belief Is a Good Tool Only If It Holds Up to Feedback, Stays Revisable and Does Not Require Ignoring Evidence]]—extends: the criteria that separate a practical belief from this failure mode.
-- [[Beliefs Set Expectations That Shape Felt Experience Through the Experience Loop]]—*the loop that belief actually works through.*
-- [[The Brain Uses Beliefs as Prediction Shortcuts Because Conscious Processing Is Limited]]—*beliefs are prediction shortcuts, not switches.*
+- [[Beliefs Set Expectations That Shape Felt Experience Through the Experience Loop]]—_the loop that belief actually works through._
+- [[The Brain Uses Beliefs as Prediction Shortcuts Because Conscious Processing Is Limited]]—_beliefs are prediction shortcuts, not switches._

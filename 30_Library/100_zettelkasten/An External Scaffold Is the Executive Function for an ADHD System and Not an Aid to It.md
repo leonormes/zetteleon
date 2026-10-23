@@ -1,24 +1,19 @@
 ---
 conformant: true
 contradicts: []
-created: 2026-10-21 14:00:00+00:00
+created: 2026-10-21T14:00:00+00:00
 epistemic_status: low
 evidence_links: []
-modified: 2026-10-21 14:00:00+00:00
+modified: 2026-10-22T15:11:18+00:00
+permalink: llmeon/30-library/100-zettelkasten/an-external-scaffold-is-the-executive-function-for-an-adhd-system-and-not-an-aid-to-it-1
 proposition: On the strong constitutive reading of extended mind theory, an external
   task scaffold is the executive function for an ADHD cognitive system and not an
   aid to it, so removing it removes the faculty and does not merely make tasks harder.
 status: seed
-tags:
-- formal-methods
-- TheHuman/Health/ADHD
-- executive-function
-- ext-mind
-- topic/pkm
+tags: [executive-function, ext-mind, formal-methods, TheHuman/Health/ADHD, topic/pkm]
 title: An External Scaffold Is the Executive Function for an ADHD System and Not an
   Aid to It
 type: claim
-permalink: llmeon/30-library/100-zettelkasten/an-external-scaffold-is-the-executive-function-for-an-adhd-system-and-not-an-aid-to-it-1
 ---
 
 ## An External Scaffold Is the Executive Function for an ADHD System and Not an Aid to It
@@ -38,7 +33,7 @@ For an ADHD cognitive system the SoT says the external task scaffold does not he
 > ([[SoT - Structure is Truth is a Unifying Axiom Across Formal Systems]], §2, Cognitive Scaffolding row, emphasis markers omitted and the link markup removed)
 
 > "Elements of the world outside may effectively act as mental "extensions," allowing us to think in ways our brains could not manage on their own."
-> (Annie Murphy Paul, *The Extended Mind*, describing Clark and Chalmers)
+> (Annie Murphy Paul, _The Extended Mind_, describing Clark and Chalmers)
 
 The SoT dates the Clark and Chalmers paper to 1998 and Paul's book gives 1995. Which date refers to which stage of the paper has not been checked.
 

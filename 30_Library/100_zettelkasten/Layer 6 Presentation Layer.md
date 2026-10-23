@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-05-17T16:32:15+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:16+00:00
 non_conformance_reason: "missing required field - type"
 permalink: llmeon/30-library/100-zettelkasten/layer-6-presentation-layer
 prodos.kind: concept
@@ -17,6 +17,6 @@ The Presentation Layer ensures that data is in a usable format and is where data
 
 [[OSI model]]
 
-### Related
+## Related
 
-- [[Layer 7 Protocol Elements in Node.js]]—*a practical view of the layers above.*
+- [[Layer 7 Protocol Elements in Node.js]]—_a practical view of the layers above._

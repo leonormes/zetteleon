@@ -2,7 +2,7 @@
 aliases: [Pre-commitment Strategy, Strategic Constraint, Ulysses Pact]
 conformant: true
 created: 2026-01-12T12:20:00+00:00
-modified: 2026-10-16T00:00:00+00:00
+modified: 2026-10-22T15:11:12+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-commitment-devices-ulysses-pacts
 tags: [behavioral-science, prodos/sot, strategy]
@@ -42,11 +42,11 @@ Core Axiom: If you trust your future self to "do the right thing," you have alre
 
 ## Related
 
-- [[External Accountability Sustains ADHD Project Commitment]] - *The Social Constraint type, with the ADHD rationale for why it works.* [synthesizes:: [[External Accountability Sustains ADHD Project Commitment]], confidence=medium]
-- [[Claim - Stripping Away Systems Under-Weights the Need for Pre-Committed External Prosthetics]] - *Argues the trigger should be decided and externalised before the moment of need, which is the pact logic.* [synthesizes:: [[Claim - Stripping Away Systems Under-Weights the Need for Pre-Committed External Prosthetics]], confidence=medium]
-- [[Implementation Intentions Automate Action Initiation with If-Then Plans]] - *A lighter pre-commitment: the decision is made in advance, though nothing enforces it.*
-- [[Akrasia is Acting Against One's Better Judgment]] - *The failure these pacts are designed to survive.*
-- [[Commitment, Consistency, and Sunk Cost Fallacy]] - *The consistency pressure that Social Constraints exploit on purpose.*
-- [[Never Return an Item to the In-Tray Once Picked Up for Clarification]] - *A no-return rule applied as a Ulysses Pact to task handling.*
-- [[SoT - The Childish Mind (Behavioral Resistance)]] - *Names the Childish Mind that these pacts guard against.*
-- [[SoT - Behavioral Architecture]] - *Places commitment devices among forcing functions in section 3.2.*
+- [[External Accountability Sustains ADHD Project Commitment]] - _The Social Constraint type, with the ADHD rationale for why it works._ [synthesizes:: [[External Accountability Sustains ADHD Project Commitment]], confidence=medium]
+- [[Claim - Stripping Away Systems Under-Weights the Need for Pre-Committed External Prosthetics]] - _Argues the trigger should be decided and externalised before the moment of need, which is the pact logic._ [synthesizes:: [[Claim - Stripping Away Systems Under-Weights the Need for Pre-Committed External Prosthetics]], confidence=medium]
+- [[Implementation Intentions Automate Action Initiation with If-Then Plans]] - _A lighter pre-commitment: the decision is made in advance, though nothing enforces it._
+- [[Akrasia is Acting Against One's Better Judgment]] - _The failure these pacts are designed to survive._
+- [[Commitment, Consistency, and Sunk Cost Fallacy]] - _The consistency pressure that Social Constraints exploit on purpose._
+- [[Never Return an Item to the In-Tray Once Picked Up for Clarification]] - _A no-return rule applied as a Ulysses Pact to task handling._
+- [[SoT - The Childish Mind (Behavioral Resistance)]] - _Names the Childish Mind that these pacts guard against._
+- [[SoT - Behavioral Architecture]] - _Places commitment devices among forcing functions in section 3.2._

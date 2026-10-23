@@ -2,7 +2,7 @@
 aliases: [Finance Map, Money MOC]
 conformant: true
 created: 2025-12-23T22:23:09+00:00
-modified: 2026-09-29T10:38:03+00:00
+modified: 2026-10-22T15:11:13+00:00
 permalink: llmeon/30-library/mo-c/moc-family-finance
 tags: [family, finance, index, wealth]
 title: MOC - Family & Finance
@@ -29,6 +29,7 @@ The rules and mechanics of effective money management.
 - [[Roll With The Punches (YNAB Rule 3)]]—_Rule 3: adjust categories without guilt when reality diverges._
 - [[Age Your Money (YNAB Rule 4)]]—_Rule 4: build a 30-day buffer to end paycheck-to-paycheck living._
 - [[Fund Immediate Obligations First]]—_The funding order that makes Rule 1 concrete._
+
 ### 2. The Mindset (The Psychology)
 
 Breaking the internal loops that drive financial anxiety.

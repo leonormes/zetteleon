@@ -2,7 +2,7 @@
 aliases: [felt significance, phenomenology of thought, thought experience]
 conformant: false
 created: 2025-10-31T20:45:00+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:13+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/thoughts-are-bundled-with-phenomenological-qualities
 tags: [metacognition, phenomenology, TheHuman/Cognition]
@@ -31,4 +31,4 @@ This phenomenon is distinct from the actual semantic or propositional content of
 
 ### Related
 
-- [[Ideas exist beyond linguistic expression]]—*ideas beyond words.*
+- [[Ideas exist beyond linguistic expression]]—_ideas beyond words._

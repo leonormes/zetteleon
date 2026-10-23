@@ -4,7 +4,7 @@ conformant: true
 created: 2025-10-31T08:20:00+00:00
 definition: The lifecycle a note moves through, recorded in the status field as draft, seed, stable, evergreen, stale or superseded, which says how mature and how trustworthy the note is, separately from how confident its claim is.
 distinguishes_from: ["[[Probabilistic Thinking Treats Beliefs as Hypotheses With Confidence Levels]]"]
-modified: 2026-10-13T00:00:00+01:00
+modified: 2026-10-22T15:11:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/note-status-lifecycle
 status: seed
 tags: [quality, topic/knowledge-architecture, workflow, zettelkasten]
@@ -26,7 +26,7 @@ A note's `status` field records how mature and trustworthy the note is, not whet
 - Notes with `own_words: true`, and everything in `01_journals/` and `20_Thinking/`, are protected. An agent never edits their body, so it cannot promote them through the criteria below. It can only suggest a status in chat.
 - Notes created before 2026-09-26 are frozen under the Atomic Note Standard. A status change is a frontmatter edit and does not oblige anyone to restructure the body.
 
-### The six states
+### The Six States
 
 | Status | Meaning | Enters when |
 |:-------|:--------|:------------|
@@ -39,27 +39,27 @@ A note's `status` field records how mature and trustworthy the note is, not whet
 
 The older three-stage model called these seedling, growing and evergreen. Read seedling as `seed` and growing as `stable`. That mapping is an interpretation, since the contract migrated the old `owned` value to `stable` on the same reasoning that the note was complete. Treat it as a working convention, not a rule.
 
-### Promotion criteria
+### Promotion Criteria
 
 A promotion needs evidence that can be checked in the vault, not a feeling of readiness.
 
-- **`seed` to `stable`:**
+- `seed` to `stable`:
   - the note states its point in one proposition or definition;
   - its frontmatter validates and its links are annotated;
   - it has at least one inbound link from a structural note (a MoC, SoT or another note that builds on it);
   - Leon has reviewed it for accuracy and framing. An agent cannot supply this step.
-- **`stable` to `evergreen`:**
+- `stable` to `evergreen`:
   - at least two inbound links from structural notes, showing it is useful in more than one context;
   - typed edges (`supports`, `depends_on` and the rest) that justify its place in the argument graph, run through `edge_lint.py`;
   - for claims, `epistemic_status` that the evidence links support.
 
 The old criteria of a `purpose` field, a `confidence` score and a `review_interval` are retired for atomic notes. `purpose` and `last_reviewed` are listed as legacy keys in the Atomic Note Standard, and `confidence` is replaced by `epistemic_status` on claims. A review cadence is still available as `prodos.review` on SoTs, MoCs, protocols, HEAD notes and projects, but atomic notes no longer carry a `prodos` key.
 
-### Demotion and retirement
+### Demotion and Retirement
 
-- **To `stale`:** the vault treats a note that appears in search results where it does not belong as a prediction error. That is the signal to reconsolidate or deprecate it before it misleads retrieval, as set out in [[SoT - Evolutionary Note System]].
-- **To `superseded`:** follow the deprecation rule in [[Knowledge Consolidation Agent]]. On the duplicate, change the frontmatter only: set `status: superseded`, set `superseded_by` to a list of quoted wikilinks, and add `archive` to `tags`. Replace the body with a one-line pointer to the surviving note. Set `supersedes` on the survivor.
-- **HEAD notes are different.** A merged HEAD note needs a tombstone at its exact original title so inbound links still resolve.
+- To `stale`: the vault treats a note that appears in search results where it does not belong as a prediction error. That is the signal to reconsolidate or deprecate it before it misleads retrieval, as set out in [[SoT - Evolutionary Note System]].
+- To `superseded`: follow the deprecation rule in [[Knowledge Consolidation Agent]]. On the duplicate, change the frontmatter only: set `status: superseded`, set `superseded_by` to a list of quoted wikilinks, and add `archive` to `tags`. Replace the body with a one-line pointer to the surviving note. Set `supersedes` on the survivor.
+- HEAD notes are different. A merged HEAD note needs a tombstone at its exact original title so inbound links still resolve.
 - The contract notes that no pass has yet reconciled existing notes against the rule that `superseded_by` and `status: superseded` go together. `validate_note_frontmatter.py --audit` surfaces the mismatches.
 
 ### Evidence

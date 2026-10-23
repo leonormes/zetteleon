@@ -1,21 +1,18 @@
 ---
 conformant: false
 contradicts: []
-created: 2026-10-14 00:00:00+00:00
+created: 2026-10-14T00:00:00+00:00
 epistemic_status: low
 evidence_links: []
-modified: 2026-10-14 00:00:00+00:00
+modified: 2026-10-22T15:11:15+00:00
 non_conformance_reason: stub with no verbatim source quote yet
+permalink: llmeon/30-library/100-zettelkasten/memory-enables-learning-by-storing-experiences-for-future-use
 proposition: An organism can only learn from experience if some trace of that experience
   is stored, so memory is a precondition for learning and one of the core tools of
   intelligence.
-tags:
-- intelligence
-- memory
-- TheHuman/Cognition
+tags: [intelligence, memory, TheHuman/Cognition]
 title: Memory Enables Learning by Storing Experiences for Future Use
 type: claim
-permalink: llmeon/30-library/100-zettelkasten/memory-enables-learning-by-storing-experiences-for-future-use
 ---
 
 ## Memory Enables Learning by Storing Experiences for Future Use

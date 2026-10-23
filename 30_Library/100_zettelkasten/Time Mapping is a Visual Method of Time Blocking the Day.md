@@ -2,7 +2,7 @@
 aliases: [Time Mapping]
 conformant: false
 created: 2025-11-10T14:15:00+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:13+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/time-mapping-is-a-visual-method-of-time-blocking-the-day
 tags: [planning, time-blocking, time-management, topic/productivity]
@@ -18,4 +18,4 @@ Details: Time mapping is a holistic form of time blocking that emphasizes unders
 
 ### Related
 
-- [[Timeboxing is Allocating Specific Time Slots for Specific Tasks]]—*the underlying time-allocation method.*
+- [[Timeboxing is Allocating Specific Time Slots for Specific Tasks]]—_the underlying time-allocation method._

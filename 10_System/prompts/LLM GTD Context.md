@@ -3,7 +3,7 @@ aliases: []
 conformant: false
 created: 2025-10-16T08:19:54+00:00
 description: "Background context on the Getting Things Done (GTD) methodology — projects vs. next actions, the five phases of workflow control, and the six horizons of focus. Inject alongside planning, review, or task-triage prompts that assume GTD vocabulary."
-modified: 2026-09-21T12:03:22+00:00
+modified: 2026-10-22T15:11:08+00:00
 non_conformance_reason: Type prompt is the library-wide convention for 10_System/prompts but is not in the FrontmatterContract type enum, so all prompt notes share this error and it needs a schema decision rather than a per-note fix.
 permalink: llmeon/10-system/prompts/llm-gtd-context
 tags: [domain/productivity, type/context]
@@ -85,17 +85,17 @@ The principle of making work visible optimizes flow and prevents capacity overlo
 
 ---
 
-## Vault Notes (not part of the injected context)
+## Vault Notes (Not part of the Injected Context)
 
 > Stop injecting at the rule above. Everything below is vault navigation for humans and agents working in the vault, not GTD context for the LLM.
 
-### How the vault uses this note
+### How the Vault Uses This Note
 
 - [[Habit 2 - Begin with the End in Mind]] and [[Habit 4 - Think Win-Win]] depend on this note for the Horizons of Focus model (Horizons 5 and 4, and Horizon 2, respectively), because no dedicated note carries it. Do not add links or edges from here back to them.
 - [[Effective Productivity Comes From the Bottom Up]] develops the Bottom-Up Focus practice from the summary above.
 - [[00 - Prompt Library Router]] routes to this note as the GTD methodology background. Pair it with [[leon-context-core-profile]] for the ADHD and Chief of Staff framing.
 
-### The vault's own GTD notes, by section
+### The Vault's Own GTD Notes, by Section
 
 - Foundational philosophy: [[GTD and the Cognitive Load of Execution]] and [[Claim - Capture is easy but processing is hard]].
 - Projects versus actions: [[SoT - Execution Protocol (GTD & PARA)]] is the vault's specialisation. It adds a PARA container above each GTD project and requires projects to be named as completed outcomes. For next actions see [[A Next Action Must Be the Absolute Next Physical Visible Activity Required to Move a Situation Forward]] and the overlapping [[Next Action is the Immediate Physical Step Forward]].
@@ -105,7 +105,7 @@ The principle of making work visible optimizes flow and prevents capacity overlo
 - Best practices: [[If a Next Action Takes Less Than Two Minutes Do It Immediately Rather Than Track It]].
 - Applied elsewhere: [[Protocol - Action-First GTD (LLM Chief of Staff)]], [[Optimised GTD Context Auditor for Pieces LTM]] and [[Deep Dive Sessions for ADHD (Adapted GTD Next Actions)]].
 
-### Where this prompt and the vault differ
+### Where This Prompt and the Vault Differ
 
 - The project examples above ("Install new set of tires") are not named as completed outcomes, which the Execution Protocol SoT requires.
 - The "3 Ds" line (do, delegate, defer) matches no other note in the vault. The clarification notes route non-actionable items to Trash, Incubate or Reference and do not name the Ds.

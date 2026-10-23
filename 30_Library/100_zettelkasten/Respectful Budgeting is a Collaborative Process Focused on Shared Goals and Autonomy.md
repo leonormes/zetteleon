@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-11-10T10:13:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:14+00:00
 permalink: llmeon/30-library/100-zettelkasten/respectful-budgeting-is-a-collaborative-process-focused-on-shared-goals-and-autonomy
 proposition: Respectful budgeting is a collaborative process where partners jointly set goals, design a system for tracking expenses, and include personal spending autonomy for each individual.
 tags: [autonomy, budgeting, finance, relationship, respect]
@@ -21,4 +21,4 @@ Details: The focus of respectful budgeting is on achieving shared goals, not pol
 
 ### Related
 
-- [[Finances in an Unequal-Income Partnership Should Be Treated as Shared Family Money]]—*a principle for setting the shared pot.*
+- [[Finances in an Unequal-Income Partnership Should Be Treated as Shared Family Money]]—_a principle for setting the shared pot._

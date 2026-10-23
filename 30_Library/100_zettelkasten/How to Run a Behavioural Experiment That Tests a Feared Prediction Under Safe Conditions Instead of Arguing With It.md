@@ -2,22 +2,18 @@
 conformant: true
 created: 2026-09-14T15:29:58+00:00
 created_utc: '2026-09-14T00:00:00Z'
-modified: 2026-10-20T15:12:08+00:00
+modified: 2026-10-22T15:11:16+00:00
 permalink: llmeon/30-library/100-zettelkasten/how-to-run-a-behavioural-experiment-that-tests-a-feared-prediction-under-safe-conditions-instead-of-arguing-with-it
-steps:
-  - State the anxious belief as a specific, falsifiable prediction.
-  - Design a low-risk action that tests the prediction directly, keeping real safety controls but deliberately reducing the safety behaviour in question.
-  - Run the experiment and record what actually happened.
-  - Compare the outcome against the prediction.
-trigger: A recurring anxious belief that has never been tested against evidence.
-verification: The experiment records the specific prediction, which safety behaviour was withheld, and whether the predicted consequence occurred.
 source_title: Cognitive behavioural strategies for safety behaviours and checking
 source_url: https://www.berkshirehealthcare.nhs.uk/media/3qkjsx2i/anxious-behaviours-workbook.pdf
 status: seed
+steps: ["Design a low-risk action that tests the prediction directly, keeping real safety controls but deliberately reducing the safety behaviour in question.", "State the anxious belief as a specific, falsifiable prediction.", Compare the outcome against the prediction., Run the experiment and record what actually happened.]
 tags: [domain/pkm, TheHuman/Psychology, topic/anxiety, topic/self-inquiry]
 title: How to Run a Behavioural Experiment That Tests a Feared Prediction Under Safe Conditions Instead of Arguing With It
+trigger: A recurring anxious belief that has never been tested against evidence.
 type: procedure
 upstream: '[[tmp_atoms_cbt-safety-behaviours]]'
+verification: The experiment records the specific prediction, which safety behaviour was withheld, and whether the predicted consequence occurred.
 ---
 
 ## How to Run a Behavioural Experiment That Tests a Feared Prediction Under Safe Conditions Instead of Arguing With It
@@ -40,5 +36,5 @@ Trigger—a recurring anxious belief (e.g. "if I act without complete understand
 
 - [[How to Test Whether Information-Seeking Has Become a Safety Behaviour]] [extends:: [[How to Test Whether Information-Seeking Has Become a Safety Behaviour]]]—extends: that procedure decides whether to keep researching right now; this one designs a deliberate test of the belief driving the research.
 - [[Graded Exposure Reduces a Safety Behaviour by Ranking Situations From Mildly to Strongly Uncomfortable and Working Upward]]—shared mechanism: both are structured, safe tests of an anxious prediction rather than argument.
-- [[Reassurance-Seeking Relieves Anxiety Without Testing Whether the Feared Outcome Was Real]] [extends:: [[Reassurance-Seeking Relieves Anxiety Without Testing Whether the Feared Outcome Was Real]]]—*That note names a corrective experience, acting under bounded uncertainty and observing the outcome, as the fix; this note is a worked procedure for it.*
-- [[Falsifiability Distinguishes Science from Dogma]]—*The same stance applied to a personal belief: say in advance what outcome would show the belief is wrong.*
+- [[Reassurance-Seeking Relieves Anxiety Without Testing Whether the Feared Outcome Was Real]] [extends:: [[Reassurance-Seeking Relieves Anxiety Without Testing Whether the Feared Outcome Was Real]]]—_That note names a corrective experience, acting under bounded uncertainty and observing the outcome, as the fix; this note is a worked procedure for it._
+- [[Falsifiability Distinguishes Science from Dogma]]—_The same stance applied to a personal belief: say in advance what outcome would show the belief is wrong._

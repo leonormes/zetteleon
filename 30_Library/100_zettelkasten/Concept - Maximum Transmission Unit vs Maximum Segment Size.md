@@ -2,7 +2,7 @@
 aliases: [MTU vs MSS]
 conformant: false
 created: 2025-11-22T15:00:05+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:17+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/concept-maximum-transmission-unit-vs-maximum-segment-size
 tags: [SoftwareEngineering/networking/protocol]
@@ -22,4 +22,4 @@ During the TCP handshake, peers advertise their MSS to ensure they don't send se
 
 ### Related
 
-- [[Concept - TCP Three-Way Handshake]]—*MSS is negotiated during the handshake.*
+- [[Concept - TCP Three-Way Handshake]]—_MSS is negotiated during the handshake._

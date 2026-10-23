@@ -2,7 +2,7 @@
 aliases: []
 conformant: true
 created: 2026-05-04T08:01:26+00:00
-modified: 2026-09-29T10:37:46+00:00
+modified: 2026-10-22T15:11:13+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/21-wtf-is-knowledge-anyway
 status: stable

@@ -1,24 +1,20 @@
 ---
 conformant: true
 contradicts: []
-created: 2026-10-21 14:00:00+00:00
+created: 2026-10-21T14:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-21 14:00:00+00:00
+modified: 2026-10-22T15:11:14+00:00
+permalink: llmeon/30-library/100-zettelkasten/shared-formal-attributes-across-domains-may-be-a-family-resemblance-and-not-an-ontological-equivalence
 proposition: That several domains share the structural-truth and complexity-reduction
   attributes in a concept lattice shows a fact about the lattice and does not by itself
   establish that the domains are equivalent, and the attributes were synthesised from
   topic descriptions so they may reflect the description as much as the domain.
 status: seed
-tags:
-- formal-methods
-- epistemology
-- topic/knowledge-architecture
-- fca
+tags: [epistemology, fca, formal-methods, topic/knowledge-architecture]
 title: Shared Formal Attributes Across Domains May Be a Family Resemblance and Not
   an Ontological Equivalence
 type: claim
-permalink: llmeon/30-library/100-zettelkasten/shared-formal-attributes-across-domains-may-be-a-family-resemblance-and-not-an-ontological-equivalence
 ---
 
 ## Shared Formal Attributes Across Domains May Be a Family Resemblance and Not an Ontological Equivalence

@@ -1,6 +1,6 @@
 ---
 created: 2026-07-31T09:08:15+00:00
-modified: 2026-09-18T16:01:14+00:00
+modified: 2026-10-22T15:11:06+00:00
 permalink: llmeon/90-audits/2026-07-31-meaning-driven-activity
 title: 2026-07-31-meaning-driven-activity
 type: note

@@ -2,7 +2,7 @@
 conformant: false
 created: 2026-09-14T15:24:27+00:00
 created_utc: '2026-09-14T00:00:00Z'
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:16+00:00
 non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/humes-fork-holds-that-all-valid-knowledge-is-either-analytic-or-synthetic-with-nothing-else
 prodos.kind: atomic
@@ -37,4 +37,4 @@ A historically specific epistemological claim, not a linguistic law; one of the 
 - [[Classical Empiricism Treats Experience as the Sole Source of Knowledge]]—extends: Hume's specific dichotomy built on the general empiricist starting point.
 - [[Logical Positivism Restricts Science's Aim to Predicting Sensory Patterns]]—extends: the 20th-century verificationist descendant of this same dichotomy.
 - [[Kant's Synthetic A Priori Challenges Hume's Fork by Claiming a Third Knowledge Category]]—extends: the major rival position this dichotomy has never fully answered.
-- [[The Impressions Test Traces an Abstract Concept Back to Its Originating Sense-Impression or Discards It as Meaningless]]—*the practical test that applies the fork to suspect concepts.*
+- [[The Impressions Test Traces an Abstract Concept Back to Its Originating Sense-Impression or Discards It as Meaningless]]—_the practical test that applies the fork to suspect concepts._

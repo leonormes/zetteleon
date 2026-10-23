@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-07-18T00:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-12T00:00:00+00:00
+modified: 2026-10-22T15:11:17+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/deep-focus-on-a-single-concept-sparks-innovation
 proposition: Focusing intently on one small part of a topic moves the mind past surface understanding and uncovers new connections that a broad survey misses, which sparks innovation

@@ -2,7 +2,7 @@
 aliases: []
 created: 2026-02-02T07:05:00+00:00
 description: "Leon's core profile: ADHD and communication style, the Chief of Staff framing, and how he drives the vault through agents. Inject at the start of any session."
-modified: 2026-07-25T14:11:15+00:00
+modified: 2026-10-22T15:11:07+00:00
 permalink: llmeon/10-system/prompts/leon-context-core-profile
 tags: [domain/personal, system/prompt, type/context]
 title: leon-context-core-profile

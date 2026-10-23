@@ -2,7 +2,7 @@
 aliases: [Virtue of Courage]
 conformant: true
 created: 2025-07-16T17:30:02+00:00
-modified: 2026-10-12T00:00:00+00:00
+modified: 2026-10-22T15:11:13+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/via-virtue-of-courage
 tags: [character, courage, via-strengths, virtue]

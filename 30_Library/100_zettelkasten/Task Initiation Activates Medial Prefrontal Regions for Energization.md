@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-10-29T16:38:00+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:14+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/task-initiation-activates-medial-prefrontal-regions-for-energization
 source: '[[MOC - The Phases of Task Execution and the Impact of ADHD]]'
@@ -13,6 +13,6 @@ type: claim
 
 During the task initiation phase, the brain activates superior medial prefrontal regions. This activity is associated with "energization," the process of initiating and sustaining responses. The prefrontal cortex plays a key role, with dorsal and lateral portions regulating attention and motor responses, while ventral and medial portions regulate emotion.
 
-### Related
+## Related
 
-- [[Dopamine reward pathway dysfunction causes ADHD task initiation difficulty]]—*the dopaminergic factor in the same process.*
+- [[Dopamine reward pathway dysfunction causes ADHD task initiation difficulty]]—_the dopaminergic factor in the same process._

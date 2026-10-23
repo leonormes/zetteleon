@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-12T08:15:09+00:00
 last_reviewed: ''
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/predisposition-to-low-risk-activities
 tags: []
 title: Predisposition to Low-Risk Activities
@@ -21,4 +21,4 @@ This part of the statement is not supported by the sources and is, in fact, cont
 - [[Finding Your Right Difficult A Strategy for ADHD Engagement]]—_Emphasizes identifying challenges that are stimulating enough to engage creativity, directly contradicting the idea of preferring low-risk activities._
 - [[The ADHD brain operates on an Interest-Based Nervous System]]—_Explains why ADHD brains require novelty and interest, driving them away from easy, low-risk tasks._
 - [[ADHD Causes Task Initiation Deficits Due to Dopamine Hyposensitivity]]—_Describes how boring or repetitive tasks fail to trigger sufficient motivation due to dopamine hyposensitivity._
-- [[Predisposition to Passive Activities]]—*the half of the original statement the sources do support.*
+- [[Predisposition to Passive Activities]]—_the half of the original statement the sources do support._

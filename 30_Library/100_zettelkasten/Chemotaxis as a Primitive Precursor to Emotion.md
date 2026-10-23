@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-20T10:03:00+00:00
 last_reviewed: ''
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/chemotaxis-as-a-primitive-precursor-to-emotion
 tags: [biology, emotion, evolution, topic/systems]
 title: Chemotaxis as a Primitive Precursor to Emotion
@@ -24,6 +24,6 @@ This purely biochemical sense-evaluate-actuate loop is the ancient, foundational
 
 ---
 
-### Related
+## Related
 
-- [[Neuroplasticity is the Brain's Ability to Change in Response to Experience]]—*emotion's later biological elaboration.*
+- [[Neuroplasticity is the Brain's Ability to Change in Response to Experience]]—_emotion's later biological elaboration._

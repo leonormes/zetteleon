@@ -2,7 +2,7 @@
 aliases: ["Russell's Paradox"]
 conformant: false
 created: 2025-11-01T11:22:13+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:14+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/russells-paradox-in-naive-set-theory
 tags: [foundations, paradox, set-theory, topic/maths]
@@ -25,7 +25,7 @@ This paradox revealed that the naive comprehension principle—that any definabl
 
 Impact: The paradox was particularly devastating to Frege's logicist program, as it was discovered just as Frege was completing his foundational work.
 
-### Related
+## Related
 
-- [[Axiomatic Set Theory Is a Foundational Framework for Mathematics]]—*the response that avoids the paradox.*
-- [[Gödel's Incompleteness Theorems Constrain Foundational Programs]]—*a later limit on the foundational programme.*
+- [[Axiomatic Set Theory Is a Foundational Framework for Mathematics]]—_the response that avoids the paradox._
+- [[Gödel's Incompleteness Theorems Constrain Foundational Programs]]—_a later limit on the foundational programme._

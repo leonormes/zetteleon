@@ -2,7 +2,7 @@
 aliases: [Frozen Context, Token Caching]
 conformant: false
 created: 2026-01-08T16:10:00+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:17+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/context-caching-freezes-large-static-datasets-for-efficient-inference
 tags: [context-engineering, economics, llm, llm-understanding]
@@ -18,5 +18,5 @@ Details: Instead of re-tokenizing the entire knowledge base for every prompt, th
 
 ### Related
 
-- [[LLM Context Constraints]]—*the context-window limit that caching works around.*
-- [[SoT - Context Engineering]]—*the discipline in which caching is one lever.*
+- [[LLM Context Constraints]]—_the context-window limit that caching works around._
+- [[SoT - Context Engineering]]—_the discipline in which caching is one lever._

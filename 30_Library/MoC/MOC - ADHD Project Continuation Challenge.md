@@ -1,7 +1,7 @@
 ---
 aliases: [ADHD Project Return Problem, Mental Model Dissipation, The Fresh Start Loop]
 created: 2025-10-30T15:00:39+00:00
-modified: 2026-09-29T10:38:02+00:00
+modified: 2026-10-22T15:11:13+00:00
 permalink: llmeon/30-library/mo-c/moc-adhd-project-continuation-challenge
 source_of_truth: true
 tags: [dopamine, prodos/moc, project-continuity, TheHuman/Health/ADHD]
@@ -40,8 +40,8 @@ Lower the activation energy required to move from "Off" to "On."
 - [[Micro-Stepping Reduces Cognitive Load for Task Initiation|Breaking Projects Into Micro-Tasks Reduces ADHD Overwhelm]]: Decompose until the next action is binary (Done/Not Done).
 - [[The Hemingway Technique - End Work With Unfinished Problems]]: Stop mid-sentence or mid-function. Leave a "broken" state that is obvious and easy to fix.
 - [[A Project Playlist is a Sequence of Small Tasks to Rebuild Momentum]]: A curated 3-5 task list of "shallow" wins to rebuild the mental model.
-
 - [[What's Next Loop within Time Box (ADHD Superpower)]]: Inside a deep-dive block, keep asking for the very next physical action towards 'Done' and do it just-in-time.
+
 ### C. Build Rituals & Environment
 
 Use external cues to trigger the "Project Identity."

@@ -5,13 +5,13 @@ created: 2025-02-07T12:57:55+00:00
 definition: Blub studies is the deep dive into the inner workings of the everyday and mundane software tools and systems that programmers use, such as programming languages, frameworks, databases and version control
 distinguishes_from: ["[[Tool tinkering is a form of productive procrastination]]"]
 ID: blub_studies
-modified: 2026-10-13T00:00:00+00:00
+modified: 2026-10-22T15:11:18+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/blub-studies
 tags: [devex, mastery, topic/learning]
 title: Blub Studies
 type: concept
-used_in_claims: ["[[Mundane Tools Value]]", "[[Knowledge Applicability of Blub Studies]]"]
+used_in_claims: ["[[Knowledge Applicability of Blub Studies]]", "[[Mundane Tools Value]]"]
 ---
 
 Blub studies refers to the deep dive into the inner workings of everyday, mundane software tools and systems that programmers use, like programming languages, frameworks, databases, and version control systems.

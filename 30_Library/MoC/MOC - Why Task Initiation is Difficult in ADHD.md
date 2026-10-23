@@ -2,7 +2,7 @@
 aliases: [ADHD Activation, Neurological Basis of Task Initiation, Task Initiation Difficulty]
 conformant: true
 created: 2025-10-30T12:09:05+00:00
-modified: 2026-09-29T10:38:05+00:00
+modified: 2026-10-22T15:11:12+00:00
 permalink: llmeon/30-library/mo-c/moc-why-task-initiation-is-difficult-in-adhd
 synthesis_count: 2
 tags: [executive-function, task-initiation, TheHuman/Health/ADHD, TheHuman/Neuroscience]
@@ -71,7 +71,8 @@ See: [[MOC - Three-Phase Protocol for Execution|MOC - The Phases of Task Executi
 
 ---
 
-- What's Next Loop: [[What's Next Loop within Time Box (ADHD Superpower)]]—*asking for the very next physical action inside a time box keeps starting cheap.*
+- What's Next Loop: [[What's Next Loop within Time Box (ADHD Superpower)]]—_asking for the very next physical action inside a time box keeps starting cheap._
+
 ### Related Concepts
 
 - [[SoT - Prosthetic Executive Function]] - _Details practical ways to offload the cognitive burden of task initiation to external systems._

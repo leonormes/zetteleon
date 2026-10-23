@@ -2,11 +2,11 @@
 aliases: []
 conformant: false
 created: 2025-10-20T09:47:00+00:00
-modified: 2026-10-14T00:00:00+01:00
+modified: 2026-10-22T15:11:14+00:00
 non_conformance_reason: Title is not in How to do X format and renaming would break the inbound links from the PKM MOC and The Disappointment of Written Thoughts
 permalink: llmeon/30-library/100-zettelkasten/the-five-minute-free-write-technique
 status: seed
-steps: [Set a timer for five or ten minutes, Pick a thought or question to explore, Write without stopping until the timer ends, Do not judge or edit and keep the pen moving even if you write that you do not know what to say, Stop when the timer ends]
+steps: [Do not judge or edit and keep the pen moving even if you write that you do not know what to say, Pick a thought or question to explore, Set a timer for five or ten minutes, Stop when the timer ends, Write without stopping until the timer ends]
 tags: [technique, TheHuman/Habits, topic/productivity/procrastination, topic/writing]
 title: The Five-Minute Free-Write Technique
 trigger: You want to think something through on paper but feel resistance or expect the result to be dull
@@ -33,6 +33,7 @@ This exercise helps to "clear the palate," getting the jumble of thoughts out of
 The output is raw material, not a note. Mundane or dull results are expected and are the starting point for clarifying, as described in [[Mundane Written Thoughts are the Starting Point for Deeper Insight]]. If something is worth keeping, rewrite it in your own words as a separate step.
 
 [implements:: [[SoT - The Unified Writing to Think Process]], strength=4, confidence=high]
+
 [supports:: [[Focus on the Process Not the Product in Daily Writing]], strength=3, confidence=medium]
 
 ## Related

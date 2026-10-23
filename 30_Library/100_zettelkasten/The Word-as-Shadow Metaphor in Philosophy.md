@@ -2,7 +2,7 @@
 aliases: [Plato's Forms and Language]
 created: 2025-07-16T17:30:04+00:00
 last_reviewed: 'null'
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:13+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-word-as-shadow-metaphor-in-philosophy
 tags: [language, paraphrasing, plato, semiotics, topic/philosophy]
 title: The Word-as-Shadow Metaphor in Philosophy
@@ -16,6 +16,6 @@ The idea of Words as Imperfect Representations of Meaning resonates with several
 - Semiotics: In the study of signs, a distinction is made between the signifier (the word, e.g., "tree") and the signified (the concept of a tree). The word-as-shadow metaphor supports the semiotic view that the relationship between the signifier and signified is arbitrary and not fixed.
 - Translation: The challenges of translation provide practical evidence for this concept. A translator's job is to find equivalent meanings, not just equivalent words, which often requires significant paraphrasing to cast a similar "shadow" in a new language.
 
-### Related
+## Related
 
-- [[Ideas exist beyond linguistic expression]]—*words as shadows of ideas.*
+- [[Ideas exist beyond linguistic expression]]—_words as shadows of ideas._

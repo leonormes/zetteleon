@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-10-29T16:40:00+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:13+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/unrealistic-expectations-are-the-main-obstacle-to-building-adhd-routines
 source: '[[MOC - ADHD Routine Building Strategies]]'
@@ -15,6 +15,6 @@ The primary obstacle to building sustainable routines for individuals with ADHD 
 
 This principle is sometimes called "one degree of change"—making incremental adjustments rather than attempting dramatic overnight transformations. When we push too far beyond our current capacity, we create unsustainable stress that leads to abandonment of the new behavior. Sustainable change happens at the boundary of the proximal zone of development, where growth feels challenging but achievable, not overwhelming.
 
-### Related
+## Related
 
-- [[Building self-trust is essential for creating sustainable ADHD routines]]—*the trust that realistic goals build.*
+- [[Building self-trust is essential for creating sustainable ADHD routines]]—_the trust that realistic goals build._

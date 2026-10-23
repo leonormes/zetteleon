@@ -2,7 +2,7 @@
 aliases: [SMP 7]
 conformant: false
 created: 2025-11-01T12:00:09+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:14+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/smp-7-is-looking-for-and-making-use-of-structure
 tags: [education, maths, structure]
@@ -18,4 +18,4 @@ Details: This mathematical habit of mind involves perceiving the underlying stru
 
 ### Related
 
-- [[SMP 8 is Looking For and Expressing Regularity in Repeated Reasoning]]—*the neighbouring mathematical practice standard.*
+- [[SMP 8 is Looking For and Expressing Regularity in Repeated Reasoning]]—_the neighbouring mathematical practice standard._

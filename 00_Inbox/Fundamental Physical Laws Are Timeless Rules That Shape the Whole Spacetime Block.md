@@ -1,28 +1,23 @@
 ---
-title: Fundamental Physical Laws Are Timeless Rules That Shape the Whole Spacetime
-  Block
-type: claim
-status: seed
-tags:
-- physics
-- laws
-- higgs
-- block-universe
-- time
 conformant: true
-created: 2026-10-20 00:00:00+00:00
-modified: 2026-10-20 00:00:00+00:00
-source_title: Time, Patterns, and Mathematics
-source_url: https://gemini.google.com/share/9b6f6fdd7c5e
+contradicts: []
+created: 2026-10-20T00:00:00+00:00
 created_utc: '2026-10-20T00:00:00Z'
-upstream: '[[Time, Patterns, and Mathematics]]'
+epistemic_status: medium
+evidence_links: []
+modified: 2026-10-22T15:11:20+00:00
+permalink: llmeon/00-inbox/fundamental-physical-laws-are-timeless-rules-that-shape-the-whole-spacetime-block
 proposition: On the block universe view, fundamental laws including the Higgs mechanism
   are timeless rules that fix the structure of the whole spacetime block rather than
   processes that happen in time.
-epistemic_status: medium
-evidence_links: []
-contradicts: []
-permalink: llmeon/00-inbox/fundamental-physical-laws-are-timeless-rules-that-shape-the-whole-spacetime-block
+source_title: Time, Patterns, and Mathematics
+source_url: https://gemini.google.com/share/9b6f6fdd7c5e
+status: seed
+tags: [block-universe, higgs, laws, physics, time]
+title: Fundamental Physical Laws Are Timeless Rules That Shape the Whole Spacetime
+  Block
+type: claim
+upstream: '[[Time, Patterns, and Mathematics]]'
 ---
 
 ## Fundamental Physical Laws Are Timeless Rules That Shape the Whole Spacetime Block

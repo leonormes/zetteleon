@@ -2,7 +2,7 @@
 aliases: [Rapid Feedback Loops]
 conformant: false
 created: 2025-11-12T15:00:06+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:15+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/rapid-feedback-loops-are-essential-for-adhd-motivation
 tags: [dopamine, feedback, TheHuman/Health/ADHD, TheHuman/Motivation]
@@ -18,4 +18,4 @@ Details: A long delay between an action and its observable consequence can sever
 
 ### Related
 
-- [[Externalizing Progress Makes it Tangible and Motivational]]—*a way to provide that feedback.*
+- [[Externalizing Progress Makes it Tangible and Motivational]]—_a way to provide that feedback._

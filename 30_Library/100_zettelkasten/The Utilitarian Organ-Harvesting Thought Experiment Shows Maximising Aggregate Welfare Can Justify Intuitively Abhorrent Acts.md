@@ -5,17 +5,13 @@ created: 2026-09-14T15:28:00+00:00
 created_utc: 2026-09-14T00:00:00Z
 epistemic_status: high
 evidence_links: []
-modified: 2026-10-20T14:56:04+00:00
+modified: 2026-10-22T15:11:13+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-utilitarian-organ-harvesting-thought-experiment-shows-maximising-aggregate-welfare-can-justify-intuitively-abhorrent-acts
 proposition: Classic utilitarianism is criticised because it would logically require murdering one healthy patient to harvest their organs to save five dying patients, if the net welfare calculation favours it—a standard objection used to argue that the aggregate-maximising logic of utilitarianism can license acts that are intuitively monstrous.
 source_title: Why Philosophy Matters (Michael Huemer & Keith Knight)
 source_url: https://youtu.be/J-Ftxh0l3go
 status: seed
-tags:
-- domain/pkm
-- topic/ethics
-- topic/philosophy
-- topic/utilitarianism
+tags: [domain/pkm, topic/ethics, topic/philosophy, topic/utilitarianism]
 title: The Utilitarian Organ-Harvesting Thought Experiment Shows Maximising Aggregate Welfare Can Justify Intuitively Abhorrent Acts
 type: claim
 upstream: '[[tmp_atoms_why-philosophy-matters]]'
@@ -38,5 +34,6 @@ A well-known objection within moral philosophy, not a knockdown refutation—mod
 - Any aggregate-welfare argument should be checked against this kind of edge case before being accepted as a complete ethical framework.
 
 ### Related
+
 - [[Ethical Intuitionism Reasons From Uncontroversial Concrete Cases to Controversial Ones, Not From Abstract Theory Downward]] [supports:: [[Ethical Intuitionism Reasons From Uncontroversial Concrete Cases to Controversial Ones, Not From Abstract Theory Downward]]]—supports: this thought experiment is a concrete case of the absurd consequences the intuitionist method says abstract theory can force, and its central weapon against utilitarianism.
-- [[SoT - Peter Singer's Famine, Affluence, and Morality]]—*A utilitarian-based argument of the kind this objection targets; read it to see the aggregate-welfare reasoning being criticised.*
+- [[SoT - Peter Singer's Famine, Affluence, and Morality]]—_A utilitarian-based argument of the kind this objection targets; read it to see the aggregate-welfare reasoning being criticised._

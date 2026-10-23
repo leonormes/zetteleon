@@ -4,7 +4,7 @@ conformant: true
 created: 2025-10-26T11:09:00+00:00
 definition: "Actively managing dopamine is a core productivity principle for the ADHD brain. This involves structuring work and rewards to provide the consistent stimulation the brain needs to stay engaged."
 distinguishes_from: []
-modified: 2026-09-29T10:37:50+00:00
+modified: 2026-10-22T15:11:17+00:00
 permalink: llmeon/30-library/100-zettelkasten/dopamine-management-in-adhd-productivity
 tags: [dopamine, reward-system, TheHuman/Health/ADHD, TheHuman/Motivation, topic/productivity]
 title: Dopamine Management in ADHD Productivity

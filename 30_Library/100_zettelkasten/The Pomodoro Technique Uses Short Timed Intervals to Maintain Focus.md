@@ -2,7 +2,7 @@
 aliases: [Pomodoro]
 conformant: false
 created: 2025-11-10T14:07:00+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:14+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/the-pomodoro-technique-uses-short-timed-intervals-to-maintain-focus
 tags: [focus, pomodoro-technique, time-management, topic/productivity]
@@ -18,4 +18,4 @@ Details: Each 25-minute work interval is called a "pomodoro." After four pomodor
 
 ### Related
 
-- [[The Flowtime Technique is a Flexible Alternative to Pomodoro Based on Natural Focus]]—*the flexible alternative to fixed Pomodoro intervals.*
+- [[The Flowtime Technique is a Flexible Alternative to Pomodoro Based on Natural Focus]]—_the flexible alternative to fixed Pomodoro intervals._

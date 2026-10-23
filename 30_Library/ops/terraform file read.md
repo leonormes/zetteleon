@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-02-07T12:57:56+00:00
 last_reviewed: ''
-modified: 2026-09-29T10:38:23+00:00
+modified: 2026-10-22T15:11:08+00:00
 permalink: llmeon/30-library/200-projects/terraform-file-read
 project_category: infrastructure
 project_name: DevOps

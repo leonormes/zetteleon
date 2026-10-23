@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-24T14:25:58+00:00
 last_reviewed: 'null'
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:19+00:00
 permalink: llmeon/30-library/100-zettelkasten/aws-alb-best-practices
 tags: [aws, cost-optimization, load-balancing, SoftwareEngineering/networking/cloud-networking, SoftwareEngineering/Security]
 title: AWS ALB Best Practices
@@ -22,7 +22,7 @@ Key best practices include:
 
 ---
 
-### Related
+## Related
 
-- [[VPC Setup for AWS ALB]]—*the network prerequisites.*
-- [[SSL Offloading Centralises Certificate Management on the Load Balancer]]—*a common ALB practice.*
+- [[VPC Setup for AWS ALB]]—_the network prerequisites._
+- [[SSL Offloading Centralises Certificate Management on the Load Balancer]]—_a common ALB practice._

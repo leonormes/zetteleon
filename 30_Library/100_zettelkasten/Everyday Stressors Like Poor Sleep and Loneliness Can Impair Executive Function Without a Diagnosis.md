@@ -4,7 +4,7 @@ contradicts: []
 created: 2026-09-07T13:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:17+00:00
 permalink: llmeon/30-library/100-zettelkasten/everyday-stressors-like-poor-sleep-and-loneliness-can-impair-executive-function-without-a-diagnosis
 proposition: Everyday factors—stress, loneliness, inadequate sleep, and insufficient exercise—can impair executive function even in people without any underlying neurological or mental health diagnosis.
 source_title: 'Executive Function: Skills for Life'
@@ -24,5 +24,5 @@ Details: Executive dysfunction is usually discussed as a symptom of conditions s
 ## Related
 
 - [[Cerebellum Function and Exercise for ADHD Regulation]]—shared mechanism: exercise's effect on executive/regulatory capacity, here generalised beyond ADHD to the general population.
-- [[Executive Function Skills Develop and Decline on Different Timelines Across the Lifespan]]—*the lifespan baseline against which stressor effects sit.*
-- [[Executive Function Training Gains Fade Once the Activity Stops]]—*gains and losses in executive function both track current conditions.*
+- [[Executive Function Skills Develop and Decline on Different Timelines Across the Lifespan]]—_the lifespan baseline against which stressor effects sit._
+- [[Executive Function Training Gains Fade Once the Activity Stops]]—_gains and losses in executive function both track current conditions._

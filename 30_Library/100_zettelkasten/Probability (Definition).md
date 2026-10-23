@@ -2,7 +2,7 @@
 aliases: [Probability Theory]
 created: 2025-11-01T11:22:13+00:00
 last_reviewed: '2025-11-01'
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/probability-definition
 status: seed
 tags: [fields, topic/maths]
@@ -21,6 +21,6 @@ Axiomatic Foundation: Modern probability is built on Kolmogorov's axioms, which 
 
 Applications: Essential for modeling uncertainty in science, finance, machine learning, and decision-making under incomplete information.
 
-### Related
+## Related
 
-- [[Statistics (Definition)]]—*statistics applies probability to data.*
+- [[Statistics (Definition)]]—_statistics applies probability to data._

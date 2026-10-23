@@ -2,7 +2,7 @@
 aliases: [Use Visual Aids for Routines]
 created: 2025-10-29T16:10:00+00:00
 last_reviewed: 'null'
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:13+00:00
 permalink: llmeon/30-library/100-zettelkasten/visual-schedules-make-routines-tangible
 status: seed
 tags: [external-cognition, routine, topic/productivity/productivity-tools, visual-thinking]
@@ -17,6 +17,6 @@ This can be a physical chart, a whiteboard, or a digital app. The key is that th
 
 Visual reminders also apply to creative projects and long-term work. Keeping visual representations of a project—such as mind maps, sketches, diagrams, or brief summaries—in visible workspace locations helps reignite connection to the work's bigger picture when returning after breaks. This addresses the challenge of losing mental models between work sessions.
 
-### Related
+## Related
 
-- [[Time Mapping is a Visual Method of Time Blocking the Day]]—*a visual planning method.*
+- [[Time Mapping is a Visual Method of Time Blocking the Day]]—_a visual planning method._

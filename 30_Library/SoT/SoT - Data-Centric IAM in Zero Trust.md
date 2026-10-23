@@ -2,7 +2,7 @@
 aliases: [Data-Centric Security, PDP-PEP Architecture, Zero Trust IAM]
 conformant: true
 created: 2025-03-15T10:12:06+00:00
-modified: 2026-09-29T10:38:09+00:00
+modified: 2026-10-22T15:11:12+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-data-centric-iam-in-zero-trust
 tags: [data-centric, IAM, SoftwareEngineering/Architecture, SoftwareEngineering/Security, TheHuman/Identity, zero-trust]

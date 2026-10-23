@@ -4,7 +4,7 @@ contradicts: []
 created: 2026-07-28T00:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/red-teaming-system-design-before-implementation-surfaces-guardrail-gaps
 proposition: "Red-teaming a system's proposed design—prompting an AI to attack it before a single file is created—surfaces structural weaknesses like missing tombstones or unclear ownership boundaries while they are still cheap to fix, rather than waiting for adversarial review to happen only after code already exists."
 tags: [domain/llm, topic/architecture-pattern, topic/pkm, topic/safety, topic/verification]
@@ -49,8 +49,8 @@ This extends the pattern already established for reviewing generated code to the
 
 - [[Cross-Model Adversarial Auditing Uses an Independent LLM to Catch Blind Spots]]—extends: same adversarial mechanism, applied one phase earlier (design vs. code).
 - [[Privacy Tombstones Mark Sensitive Files as Off-Limits to AI Agents]]—context: red-teaming is how gaps in the tombstone/canary design would be found before implementation.
-- [[Harness Engineering]]—*the wider discipline of system-level harnesses this practice belongs to.*
-- [[SoT - Test-Driven Development]]—*TDD likewise moves verification ahead of implementation.*
+- [[Harness Engineering]]—_the wider discipline of system-level harnesses this practice belongs to._
+- [[SoT - Test-Driven Development]]—_TDD likewise moves verification ahead of implementation._
 
 ### See Also
 

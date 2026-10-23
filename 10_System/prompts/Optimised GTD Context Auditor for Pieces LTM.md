@@ -1,7 +1,7 @@
 ---
 created: 2026-04-09T10:33:19+00:00
 description: "Parses Pieces LTM event streams (vision/clipboard/audio_input/audio_output) to identify genuine unfinished GTD 'open loops' without hallucinating commitments. Use after a heavy multi-context-switch work session captured by Pieces, to recover dropped threads."
-modified: 2026-07-20T16:34:39+00:00
+modified: 2026-10-22T15:11:08+00:00
 permalink: llmeon/10-system/prompts/optimised-gtd-context-auditor-for-pieces-ltm
 tags: [domain/productivity, tool/pieces, type/system]
 title: Optimised GTD Context Auditor for Pieces LTM

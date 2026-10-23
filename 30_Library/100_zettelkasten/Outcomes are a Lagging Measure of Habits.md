@@ -3,7 +3,7 @@ aliases: [Outcomes are a Lagging Measure]
 conformant: false
 created: 2025-11-06T19:56:00+00:00
 epistemic_status: high
-modified: 2026-10-15T00:00:00+00:00
+modified: 2026-10-22T15:11:15+00:00
 non_conformance_reason: "missing schema fields contradicts and evidence_links for type claim"
 permalink: llmeon/30-library/100-zettelkasten/outcomes-are-a-lagging-measure-of-habits
 prodos.kind: claim
@@ -22,9 +22,9 @@ Details: The results you see today are not the product of recent actions but the
 
 ## Related
 
-- [[Systems Drive Progress Through the Compounding Effect of Atomic Habits]] - *The compounding mechanism that makes today's results a delayed record of past habits.* [depends_on:: [[Systems Drive Progress Through the Compounding Effect of Atomic Habits]], confidence=high]
-- [[You Fall to the Level of Your Systems, Not Rise to Your Goals]] - *Applies the same logic to goals, which do not change outcomes unless the system does.* [supports:: [[You Fall to the Level of Your Systems, Not Rise to Your Goals]], confidence=medium]
-- [[SoT - Habit Formation Framework]] - *The canonical framework this claim feeds.* [supports:: [[SoT - Habit Formation Framework]], confidence=medium]
-- [[Achieving a Goal is a Momentary Change Without Systemic Improvement]] - *Shows why judging by present results misleads when the system is unchanged.*
-- [[Goals Suffer from Survivorship Bias]] - *Another reason present outcomes are a poor guide to what produced them.*
-- [[Success Accumulates Through Thousands of Tiny Daily Choices]] - *The choice-level view of the same accumulation.*
+- [[Systems Drive Progress Through the Compounding Effect of Atomic Habits]] - _The compounding mechanism that makes today's results a delayed record of past habits._ [depends_on:: [[Systems Drive Progress Through the Compounding Effect of Atomic Habits]], confidence=high]
+- [[You Fall to the Level of Your Systems, Not Rise to Your Goals]] - _Applies the same logic to goals, which do not change outcomes unless the system does._ [supports:: [[You Fall to the Level of Your Systems, Not Rise to Your Goals]], confidence=medium]
+- [[SoT - Habit Formation Framework]] - _The canonical framework this claim feeds._ [supports:: [[SoT - Habit Formation Framework]], confidence=medium]
+- [[Achieving a Goal is a Momentary Change Without Systemic Improvement]] - _Shows why judging by present results misleads when the system is unchanged._
+- [[Goals Suffer from Survivorship Bias]] - _Another reason present outcomes are a poor guide to what produced them._
+- [[Success Accumulates Through Thousands of Tiny Daily Choices]] - _The choice-level view of the same accumulation._

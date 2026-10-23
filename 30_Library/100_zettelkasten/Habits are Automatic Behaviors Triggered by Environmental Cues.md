@@ -3,7 +3,7 @@ aliases: [Habits]
 axiom: true
 conformant: false
 created: 2025-11-10T17:11:00+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:16+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/habits-are-automatic-behaviors-triggered-by-environmental-cues
 tags: [automaticity, behavior-change, TheHuman/Habits, TheHuman/Psychology]
@@ -21,4 +21,4 @@ Formation: The process of habit formation through daily repetition in a consiste
 
 ### Related
 
-- [[Making a behavior easy increases the likelihood it will become a habit]]—*the lever.*
+- [[Making a behavior easy increases the likelihood it will become a habit]]—_the lever._

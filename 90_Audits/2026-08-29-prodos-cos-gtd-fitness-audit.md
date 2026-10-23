@@ -1,21 +1,21 @@
 ---
 conformant: true
 created: 2026-08-28T23:00:00+00:00
-modified: 2026-08-29T10:49:50+00:00
+modified: 2026-10-22T15:11:06+00:00
 non_conformance_reason: ''
 permalink: llmeon/90-audits/2026-08-29-prodos-cos-gtd-fitness-audit
 tags: [1, adhd, audit, cos, executive-function, gtd, prodos]
 title: 2026-08-29-prodos-cos-gtd-fitness-audit
 type: note
 ---
-> [!warning] Superseded in part — see [[2026-08-29-execution-vs-thinking-boundary]]
-> This audit treats ProdOS as one system. It is two: an **execution** system (GTD, CoS, EF prosthetic) and a **thinking** system (PKM, Zettelkasten, synthesis). Two findings below are miscategorised as a result:
+
+> [!warning] Superseded in part—see [[2026-08-29-execution-vs-thinking-boundary]]
+> This audit treats ProdOS as one system. It is two: an execution system (GTD, CoS, EF prosthetic) and a thinking system (PKM, Zettelkasten, synthesis). Two findings below are miscategorised as a result:
 >
-> - **§4 (journal collapse)** is not ProdOS degrading. It is the execution system winning a substrate it shares with the thinking system. Nothing malfunctioned.
-> - **§7** scores "Daily dump / Thinking Stream" as a failed EF-prosthetic component. It belongs to the other system and should not be judged by prosthetic criteria.
+> - §4 (journal collapse) is not ProdOS degrading. It is the execution system winning a substrate it shares with the thinking system. Nothing malfunctioned.
+> - §7 scores "Daily dump / Thinking Stream" as a failed EF-prosthetic component. It belongs to the other system and should not be judged by prosthetic criteria.
 >
 > The behavioural findings in §3 (bulk dismissal, On Stop, the anti-pattern) are execution-side and stand unchanged.
-
 
 ## ProdOS CoS & GTD—Fitness Audit Against Evidenced Need
 
@@ -103,7 +103,7 @@ The protocol's §9 immediate next step was: _"test one task this week (FTFL-868)
 
 That test was never run. The task was swept.
 
-### 3.2 "On Stop" Has never been filled
+### 3.2 "On Stop" Has Never Been Filled
 
 Six of the 62 completions carried a full six-field description and therefore _had_ an On Stop field: FTFL-868, FTFL-619, FTFL-942, the ArgoCD task, and the two drydock tasks of 28 August.
 

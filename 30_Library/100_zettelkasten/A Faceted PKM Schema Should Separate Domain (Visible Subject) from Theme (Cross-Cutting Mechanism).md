@@ -5,7 +5,7 @@ created: 2026-09-13T09:35:01+00:00
 created_utc: '2026-09-13T00:00:00Z'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-20T15:51:15+00:00
+modified: 2026-10-22T15:11:19+00:00
 permalink: llmeon/00-inbox/a-faceted-pkm-schema-should-separate-domain-visible-subject-from-theme-cross-cutting-mechanism
 proposition: A faceted PKM schema should record the visible subject area of a note as its domain and a cross-cutting mechanism or question as its theme, and should promote a term to a theme only once it repeatedly links at least three distinct domains.
 source_title: A Portable Interest and PKM Knowledge Graph

@@ -5,13 +5,10 @@ contradicts: []
 created: 2025-10-31T09:50:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-14T11:13:42+00:00
+modified: 2026-10-22T15:11:16+00:00
 permalink: llmeon/30-library/100-zettelkasten/intelligence-is-a-flexible-problem-solving-toolbox
 proposition: Intelligence is not a single measurable trait but a set of flexible problem-solving skills, such as sensing, memory, learning, creativity and planning, that different species combine to suit their ecological needs.
-tags:
-- intelligence
-- problem-solving
-- TheHuman/Cognition
+tags: [intelligence, problem-solving, TheHuman/Cognition]
 title: Intelligence is a Flexible Problem-Solving Toolbox
 type: claim
 ---
@@ -33,6 +30,7 @@ Different species develop different combinations of these tools based on their e
 ## Related
 
 [depends_on:: [[Memory Enables Learning by Storing Experiences for Future Use]]]
+
 [depends_on:: [[Creativity Combines Memories and Skills in Novel Ways]]]
 
 - [[Memory Enables Learning by Storing Experiences for Future Use]]—_The memory tool this note lists, stated as a claim of its own; the toolbox claim rests on each listed tool being real._

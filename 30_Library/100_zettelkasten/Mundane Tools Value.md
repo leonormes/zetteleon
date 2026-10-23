@@ -6,7 +6,7 @@ created: 2025-02-07T12:57:54+00:00
 epistemic_status: medium
 evidence_links: []
 ID: mundane_tools_value
-modified: 2026-10-13T00:00:00+00:00
+modified: 2026-10-22T15:11:15+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/mundane-tools-value
 proposition: Mastering the tools you already use can contribute more to a programmers effectiveness than learning new technologies, which is the option most often recommended

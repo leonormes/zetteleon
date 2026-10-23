@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2026-09-28T20:40:00+00:00
-modified: 2026-09-29T10:37:46+00:00
+modified: 2026-10-22T15:11:10+00:00
 non_conformance_reason: Agent-generated research brief awaiting review in 00_Inbox. Closest type is map (hub linking Confluence sources and vault notes), but it is a synthesis rather than a pure map of content.
 permalink: llmeon/00-inbox/fitfile-context-brief-what-we-do-and-how-we-link-data-silos
 project_name: FITFILE

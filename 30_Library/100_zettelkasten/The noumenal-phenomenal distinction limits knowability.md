@@ -6,7 +6,7 @@ contradicts: []
 created: 2025-10-31T20:06:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-10-16T00:00:00+00:00
+modified: 2026-10-22T15:11:13+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-noumenal-phenomenal-distinction-limits-knowability
 proposition: "Kant's epistemology distinguishes between the noumenal world (reality as it truly is) and the phenomenal world (reality as we experience it), creating fundamental limits on our ability to know external reality and other minds directly."
 tags: [epistemology, Kant, limits-of-knowledge, TheHuman/Philosophy]
@@ -22,10 +22,10 @@ Details: Immanuel Kant's epistemology distinguishes between the noumenal world (
 
 ## Related
 
-- [[Kant's Synthetic A Priori Challenges Hume's Fork by Claiming a Third Knowledge Category]] - *The other half of Kant's epistemology: the mental structures that filter experience are also what make some knowledge possible.*
-- [[Classical Empiricism Treats Experience as the Sole Source of Knowledge]] - *One of the two positions Kant tried to reconcile.*
-- [[Classical Rationalism Grounds Knowledge in Reason, Not the Senses]] - *The other position Kant tried to reconcile.*
-- [[Constructive Empiricism Separates Accepting a Theory from Believing Its Unobservables]] - *A later stance that likewise declines to claim knowledge of what lies beyond experience.*
-- [[Instrumentalism vs Realism in Understanding]] - *The realism question that the noumenon leaves open.*
-- [[Radical Nominalism Treats Language as an Inherited, Provisional Tool, Not a Direct Conduit to Objective Reality]] - *A parallel limit on access to reality, located in language rather than in perception.*
-- [[Epistemology and Knowledge Beyond Language]] - *Wider context for what can be known without direct access.*
+- [[Kant's Synthetic A Priori Challenges Hume's Fork by Claiming a Third Knowledge Category]] - _The other half of Kant's epistemology: the mental structures that filter experience are also what make some knowledge possible._
+- [[Classical Empiricism Treats Experience as the Sole Source of Knowledge]] - _One of the two positions Kant tried to reconcile._
+- [[Classical Rationalism Grounds Knowledge in Reason, Not the Senses]] - _The other position Kant tried to reconcile._
+- [[Constructive Empiricism Separates Accepting a Theory from Believing Its Unobservables]] - _A later stance that likewise declines to claim knowledge of what lies beyond experience._
+- [[Instrumentalism vs Realism in Understanding]] - _The realism question that the noumenon leaves open._
+- [[Radical Nominalism Treats Language as an Inherited, Provisional Tool, Not a Direct Conduit to Objective Reality]] - _A parallel limit on access to reality, located in language rather than in perception._
+- [[Epistemology and Knowledge Beyond Language]] - _Wider context for what can be known without direct access._

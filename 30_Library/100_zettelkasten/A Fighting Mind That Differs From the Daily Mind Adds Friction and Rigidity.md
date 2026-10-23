@@ -1,22 +1,18 @@
 ---
 conformant: true
 contradicts: []
-created: 2026-10-21 13:00:00+00:00
+created: 2026-10-21T13:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-21 13:00:00+00:00
+modified: 2026-10-22T15:11:19+00:00
+permalink: llmeon/30-library/100-zettelkasten/a-fighting-mind-that-differs-from-the-daily-mind-adds-friction-and-rigidity
 proposition: Musashi argues against amping up for battle because a fighting mind that
   differs from the daily mind adds friction and rigidity at the moment flexibility
   is needed.
 status: seed
-tags:
-- musashi
-- emotional_regulation
-- TheHuman/Philosophy
-- topic/productivity
+tags: [emotional_regulation, musashi, TheHuman/Philosophy, topic/productivity]
 title: A Fighting Mind That Differs From the Daily Mind Adds Friction and Rigidity
 type: claim
-permalink: llmeon/30-library/100-zettelkasten/a-fighting-mind-that-differs-from-the-daily-mind-adds-friction-and-rigidity
 ---
 
 ## A Fighting Mind That Differs From the Daily Mind Adds Friction and Rigidity
@@ -37,7 +33,7 @@ A mind that has to shift into a special fighting state when the stakes rise adds
 > "Maintain the same mental baseline in a high-stakes meeting as you do while drinking tea."
 > (same section)
 
-No primary-source quotation has been captured, and the library holds no copy of *The Book of Five Rings*.
+No primary-source quotation has been captured, and the library holds no copy of _The Book of Five Rings_.
 
 ### Implications
 

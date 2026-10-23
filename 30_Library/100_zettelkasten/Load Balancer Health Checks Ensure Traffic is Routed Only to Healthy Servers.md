@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-10-31T09:25:27+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:16+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/load-balancer-health-checks-ensure-traffic-is-routed-only-to-healthy-servers
 tags: [load-balancing, reliability, SoftwareEngineering/Networking]
@@ -18,4 +18,4 @@ Details: The load balancer periodically sends a request (e.g., a network ping, a
 
 ### Related
 
-- [[Content Switching Allows Layer 7 Routing Based on Hostname or URL Path]]—*routing decisions that health checks constrain.*
+- [[Content Switching Allows Layer 7 Routing Based on Hostname or URL Path]]—_routing decisions that health checks constrain._

@@ -2,7 +2,7 @@
 aliases: [Shallow Entry Points]
 created: 2025-11-11T19:05:06+00:00
 last_reviewed: ''
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/momentum-based-re-entry-points-ease-project-resumption
 status: seed
 tags: [task-management, TheHuman/Health/ADHD, topic/productivity]
@@ -19,4 +19,4 @@ Details: This strategy involves breaking down the next steps into tasks that are
 
 ### Related
 
-- [[Successfully Re-engaging with a Project Builds Momentum for Future Continuity]]—*the payoff.*
+- [[Successfully Re-engaging with a Project Builds Momentum for Future Continuity]]—_the payoff._

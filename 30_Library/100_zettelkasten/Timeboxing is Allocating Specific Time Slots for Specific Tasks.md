@@ -2,7 +2,7 @@
 aliases: [Timeboxing Definition]
 conformant: false
 created: 2025-11-01T21:00:00+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:13+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/timeboxing-is-allocating-specific-time-slots-for-specific-tasks
 tags: [definition, scheduling, time-management, topic/productivity]
@@ -21,4 +21,4 @@ Unlike an open-ended to-do list where tasks are listed without a schedule, timeb
 
 ### Related
 
-- [[Timeboxing Reduces Decision Fatigue]]—*a benefit.*
+- [[Timeboxing Reduces Decision Fatigue]]—_a benefit._

@@ -1,25 +1,18 @@
 ---
-aliases:
-- Age Your Money
-- Age of Money
-- Month Ahead
+aliases: [Age of Money, Age Your Money, Month Ahead]
 conformant: true
 contradicts: []
-created: 2026-10-21 09:00:00+00:00
+created: 2026-10-21T09:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-21 09:00:00+00:00
+modified: 2026-10-22T15:11:18+00:00
+permalink: llmeon/30-library/100-zettelkasten/age-your-money-ynab-rule-4
 proposition: Spending money that was earned at least 30 days earlier breaks the paycheck-to-paycheck
   cycle by building a buffer that removes the need to time bills against income.
 status: draft
-tags:
-- budgeting
-- finance
-- ynab
-- resilience
+tags: [budgeting, finance, resilience, ynab]
 title: Age Your Money (YNAB Rule 4)
 type: claim
-permalink: llmeon/30-library/100-zettelkasten/age-your-money-ynab-rule-4
 ---
 
 ## Age Your Money (YNAB Rule 4)

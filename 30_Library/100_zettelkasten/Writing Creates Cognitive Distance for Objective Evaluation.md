@@ -2,7 +2,7 @@
 aliases: [Cognitive Distance]
 conformant: false
 created: 2025-11-06T20:00:02+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:13+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/writing-creates-cognitive-distance-for-objective-evaluation
 tags: [self-reflection, TheHuman/Cognition/bias, thinking, writing]
@@ -18,4 +18,4 @@ Details: Thoughts inside your mind exist in an echo chamber, free from external 
 
 ### Related
 
-- [[Writing isolates propositional content from phenomenological experience]]—*how that distance arises.*
+- [[Writing isolates propositional content from phenomenological experience]]—_how that distance arises._

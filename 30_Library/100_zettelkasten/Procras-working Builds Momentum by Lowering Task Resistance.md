@@ -2,7 +2,7 @@
 aliases: [Procras-working]
 created: 2025-10-29T16:31:10+00:00
 last_reviewed: 'null'
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/procras-working-builds-momentum-by-lowering-task-resistance
 status: seed
 tags: [momentum, procrastination, task-initiation, TheHuman/Health/ADHD, topic/productivity]
@@ -24,4 +24,4 @@ This technique productively channels the brain's natural tendency to seek the pa
 
 ### Related
 
-- [[Chaining Starter Tasks Creates a Momentum Ramp]]—*a related momentum technique.*
+- [[Chaining Starter Tasks Creates a Momentum Ramp]]—_a related momentum technique._

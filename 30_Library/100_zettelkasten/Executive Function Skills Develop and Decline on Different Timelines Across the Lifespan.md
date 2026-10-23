@@ -4,7 +4,7 @@ contradicts: []
 created: 2026-09-07T13:00:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:17+00:00
 permalink: llmeon/30-library/100-zettelkasten/executive-function-skills-develop-and-decline-on-different-timelines-across-the-lifespan
 proposition: Working memory, cognitive flexibility, and inhibitory control develop and decline on different timelines rather than as a single unified trajectory.
 source_title: 'Executive Function: Skills for Life'
@@ -29,4 +29,4 @@ Details: Working memory develops through childhood and adolescence, peaks in the
 
 ### Related
 
-- [[Everyday Stressors Like Poor Sleep and Loneliness Can Impair Executive Function Without a Diagnosis]]—*non-diagnostic factors can also move executive function at any age.*
+- [[Everyday Stressors Like Poor Sleep and Loneliness Can Impair Executive Function Without a Diagnosis]]—_non-diagnostic factors can also move executive function at any age._

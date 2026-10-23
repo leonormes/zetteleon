@@ -7,7 +7,7 @@ exports: ['concept: "system-resources']
 id: "20240206143000"
 imports: ['from: "linux-core']
 last_reviewed: ""
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:13+00:00
 permalink: llmeon/30-library/200-projects/linux-namespaces
 project_category: infrastructure
 project_name: k8s
@@ -238,6 +238,6 @@ The IPC Namespace provides isolation for inter-process communication mechanisms,
 
 <!--content-block-end-->
 
-### Related
+## Related
 
-- [[Concept - Loopback Interface]]—*each network namespace has its own loopback.*
+- [[Concept - Loopback Interface]]—_each network namespace has its own loopback._

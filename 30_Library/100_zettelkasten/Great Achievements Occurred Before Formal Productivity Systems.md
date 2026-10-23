@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-11-10T13:00:00+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:16+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/great-achievements-occurred-before-formal-productivity-systems
 tags: [achievement, history, topic/productivity, topic/systems]
@@ -18,4 +18,4 @@ Details: This fact highlights that while formal systems can be beneficial, they 
 
 ### Related
 
-- [[Modern Productivity Systems Formalize Implicit Historical Strategies]]—*what modern systems add.*
+- [[Modern Productivity Systems Formalize Implicit Historical Strategies]]—_what modern systems add._

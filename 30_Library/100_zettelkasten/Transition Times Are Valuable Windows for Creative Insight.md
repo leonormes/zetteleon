@@ -2,7 +2,7 @@
 aliases: [Dream State Insights, Waking Creativity]
 conformant: false
 created: 2025-10-30T15:07:41+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:13+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/transition-times-are-valuable-windows-for-creative-insight
 tags: [insight, morning-routine, TheHuman/Creativity, transitions]
@@ -23,4 +23,4 @@ Details: The transitional state between sleep and full waking consciousness prov
 
 ### Related
 
-- [[Diffuse vs Focused Thinking Modes]]—*transitions invite the diffuse mode.*
+- [[Diffuse vs Focused Thinking Modes]]—_transitions invite the diffuse mode._

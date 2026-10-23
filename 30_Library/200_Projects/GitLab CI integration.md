@@ -3,7 +3,7 @@ alias: [FITFILE CI/CD Pipeline Design Document]
 captured: 2026-06-16T10:24:16+01:00 2026-06-16T10:24:16+01:00
 created: 2026-06-16T00:00:00+00:00
 entity_kind: project
-modified: 2026-09-29T10:37:34+00:00
+modified: 2026-10-22T15:11:09+00:00
 permalink: llmeon/30-library/200-projects/git-lab-ci-integration
 project_name: Pipeline
 source: https://fitfile.atlassian.net/wiki/spaces/FITFILE/pages/2865528839
@@ -16,7 +16,7 @@ wiki_type: dossier
 ---
 
 w
-_Shared Message from Pieces (<https://pieces.app>) by Leon Ormes (leonormes@gmail.com) on Monday Jun 15, 2026 - 3:58 PM_
+_Shared Message from Pieces (<https://pieces.app>) by Leon Ormes (<leonormes@gmail.com>) on Monday Jun 15, 2026 - 3:58 PM_
 ---
 
 …commits like `FFAPP-3201 adds lattice filtering to I-diversity` and `FFAPP-3222 Removes the logging of the dataset` already flowing in—the GitLab code change source is reading commits correctly. The gap is identical to `fitfile-app`: no deploy events reach Sleuth because the build provider isn't wired. Two paths:
@@ -65,7 +65,7 @@ MTTR—Resets to zero once the stale incident is closed, then accumulates from t
 
 The key framing from your own Confluence doc holds: _"A baseline must be captured before Tier 2 structural work begins, so improvement is provable."_ Even partial DORA data—deployment frequency and lead time in motion, CFR to come—gives you the before-picture before the pipeline remediation sprint. Incomplete-but-real beats complete-but-absent.
 
-_Shared Message from Pieces (<https://pieces.app>) by Leon Ormes (leonormes@gmail.com) on Monday Jun 15, 2026 - 12:17 PM_
+_Shared Message from Pieces (<https://pieces.app>) by Leon Ormes (<leonormes@gmail.com>) on Monday Jun 15, 2026 - 12:17 PM_
 ---
 
 The final pagination pages confirm—but don't contradict—what I already found. Key addenda from this page:

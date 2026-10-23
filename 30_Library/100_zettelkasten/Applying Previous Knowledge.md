@@ -6,15 +6,12 @@ contradicts: []
 created: 2025-02-07T12:57:54+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-10-19T16:00:54+00:00
+modified: 2026-10-22T15:11:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/applying-previous-knowledge
 prodos.kind: atomic
 prodos.lifecycle: stable
 proposition: Information hidden within raw data can only be revealed by applying existing domain expertise or axiomatic knowledge.
-tags:
-- expertise
-- information
-- knowledge
+tags: [expertise, information, knowledge]
 title: Applying Previous Knowledge
 type: claim
 ---
@@ -26,6 +23,7 @@ _Example:_ A mathematician can derive the area of a rectangle from seemingly lim
 [supports:: [[What is information]]]
 
 ## Related
+
 - [[What is information]]—_The application of previous knowledge is the mechanism that transforms raw data into information._
 - [[SoT - Structure is Truth is a Unifying Axiom Across Formal Systems]]—_Supersedes the retired Knowledge Architecture SoT that this note used to link (inferred)._
 - [[Collective Intelligence Through Communication]]—_Humanity's collective knowledge base._

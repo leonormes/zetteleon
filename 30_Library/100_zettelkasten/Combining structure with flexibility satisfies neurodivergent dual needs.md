@@ -6,7 +6,7 @@ contradicts: []
 created: 2025-10-30T18:05:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-29T10:37:49+00:00
+modified: 2026-10-22T15:11:17+00:00
 permalink: llmeon/30-library/100-zettelkasten/combining-structure-with-flexibility-satisfies-neurodivergent-dual-needs
 prodos.kind: atomic
 prodos.lifecycle: stable

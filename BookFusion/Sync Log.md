@@ -1,10 +1,13 @@
 ---
+created: 2026-10-04T20:06:27+00:00
+modified: 2026-10-22T15:11:05+00:00
+permalink: llmeon/book-fusion/sync-log
 title: Sync Log
 type: note
-permalink: llmeon/book-fusion/sync-log
 ---
 
 ## 10/4/2026, 9:04:11 PM
+
 - Armed Struggle The History of the IRA-7533298 [Open](obsidian://open?file=BookFusion%2FBooks%2FArmed%20Struggle%20The%20History%20of%20the%20IRA-7533298.md) 1
 - TCP IP Unleashed-5877446 [Open](obsidian://open?file=BookFusion%2FBooks%2FTCP%20IP%20Unleashed-5877446.md) 1
 - Essential Zen Habits Mastering the Art of Change Briefly-5789318 [Open](obsidian://open?file=BookFusion%2FBooks%2FEssential%20Zen%20Habits%20Mastering%20the%20Art%20of%20Change%20Briefly-5789318.md) 1
@@ -34,41 +37,79 @@ permalink: llmeon/book-fusion/sync-log
 - The Big Book of Endurance Training and Racing-3531171 [Open](obsidian://open?file=BookFusion%2FBooks%2FThe%20Big%20Book%20of%20Endurance%20Training%20and%20Racing-3531171.md) 1
 - Software Configuration Management Patterns Effective Teamwork, Practical Integration-3531166 [Open](obsidian://open?file=BookFusion%2FBooks%2FSoftware%20Configuration%20Management%20Patterns%20Effective%20Teamwork%2C%20Practical%20Integration-3531166.md) 1## 10/4/2026, 9:33:36 PM
 - Armed Struggle The History of the IRA-7533298 [Open](obsidian://open?file=BookFusion%2FBooks%2FArmed%20Struggle%20The%20History%20of%20the%20IRA-7533298.md) 1
+
 ## 11/10/2026, 14:02:04
+
 - Theory and Reality-9256181 [Open](obsidian://open?file=BookFusion%2FBooks%2FTheory%20and%20Reality-9256181.md) 1
+
 ## 10/10/2026, 10:07:53 AM
+
 - Theory and Reality-9256181 [Open](obsidian://open?file=BookFusion%2FBooks%2FTheory%20and%20Reality-9256181.md) 1
+
 ## 10/10/2026, 1:08:03 PM
+
 - Theory and Reality-9256181 [Open](obsidian://open?file=BookFusion%2FBooks%2FTheory%20and%20Reality-9256181.md) 0
+
 ## 14/10/2026, 07:53:04
+
 - Theory and Reality-9256181 [Open](obsidian://open?file=BookFusion%2FBooks%2FTheory%20and%20Reality-9256181.md) 0
+
 ## 10/12/2026, 11:11:35 PM
+
 - Theory and Reality-9256181 [Open](obsidian://open?file=BookFusion%2FBooks%2FTheory%20and%20Reality-9256181.md) 0
+
 ## 10/13/2026, 2:41:48 AM
+
 - Theory and Reality-9256181 [Open](obsidian://open?file=BookFusion%2FBooks%2FTheory%20and%20Reality-9256181.md) 0
+
 ## 10/13/2026, 3:11:50 AM
+
 - Theory and Reality-9256181 [Open](obsidian://open?file=BookFusion%2FBooks%2FTheory%20and%20Reality-9256181.md) 0
+
 ## 10/13/2026, 5:42:00 AM
+
 - Theory and Reality-9256181 [Open](obsidian://open?file=BookFusion%2FBooks%2FTheory%20and%20Reality-9256181.md) 0
+
 ## 10/13/2026, 6:12:02 AM
+
 - Theory and Reality-9256181 [Open](obsidian://open?file=BookFusion%2FBooks%2FTheory%20and%20Reality-9256181.md) 0
+
 ## 10/13/2026, 6:42:04 AM
+
 - Theory and Reality-9256181 [Open](obsidian://open?file=BookFusion%2FBooks%2FTheory%20and%20Reality-9256181.md) 0
+
 ## 10/13/2026, 11:13:03 PM
+
 - Theory and Reality-9256181 [Open](obsidian://open?file=BookFusion%2FBooks%2FTheory%20and%20Reality-9256181.md) 0
+
 ## 10/14/2026, 3:13:19 AM
+
 - Theory and Reality-9256181 [Open](obsidian://open?file=BookFusion%2FBooks%2FTheory%20and%20Reality-9256181.md) 0
+
 ## 10/14/2026, 3:43:21 AM
+
 - Theory and Reality-9256181 [Open](obsidian://open?file=BookFusion%2FBooks%2FTheory%20and%20Reality-9256181.md) 0
+
 ## 15/10/2026, 12:44:36
+
 - Theory and Reality-9256181 [Open](obsidian://open?file=BookFusion%2FBooks%2FTheory%20and%20Reality-9256181.md) 0
+
 ## 10/14/2026, 11:44:43 PM
+
 - Theory and Reality-9256181 [Open](obsidian://open?file=BookFusion%2FBooks%2FTheory%20and%20Reality-9256181.md) 0
+
 ## 20/10/2026, 13:39:23
+
 - Armed Struggle The History of the IRA-7533298 [Open](obsidian://open?file=BookFusion%2FBooks%2FArmed%20Struggle%20The%20History%20of%20the%20IRA-7533298.md) 0
+
 ## 10/18/2026, 10:21:25 PM
+
 - Armed Struggle The History of the IRA-7533298 [Open](obsidian://open?file=BookFusion%2FBooks%2FArmed%20Struggle%20The%20History%20of%20the%20IRA-7533298.md) 0
+
 ## 20/10/2026, 19:47:38
+
 - Theory and Reality-9256181 [Open](obsidian://open?file=BookFusion%2FBooks%2FTheory%20and%20Reality-9256181.md) 0
+
 ## 10/20/2026, 2:23:40 PM
+
 - Theory and Reality-9256181 [Open](obsidian://open?file=BookFusion%2FBooks%2FTheory%20and%20Reality-9256181.md) 0

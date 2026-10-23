@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-10-29T16:35:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-14T12:35:06+00:00
+modified: 2026-10-22T15:11:14+00:00
 permalink: llmeon/30-library/100-zettelkasten/taru-o-shiru-is-the-practice-of-contentment-with-what-one-has
 proposition: Taru o shiru is the Japanese practice of focusing on what one already has rather than what one lacks, which cultivates contentment and gratitude.
 source: '[[SoT - Ikigai and the Logic of Purpose]]'

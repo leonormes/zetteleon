@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-08-23T20:31:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-10-16T10:00:00+00:00
+modified: 2026-10-22T15:11:16+00:00
 permalink: llmeon/30-library/100-zettelkasten/getting-started-with-zettelkasten-with-adhd
 proposition: Zettelkasten adoption for ADHD brains requires minimizing activation energy through extreme simplicity and permission for imperfection, bypassing the perfectionism that causes task paralysis.
 tags: [TheHuman/Health/ADHD, topic/pkm/zettelkasten, topic/productivity]
@@ -35,20 +35,21 @@ This claim is my own reasoning from practice, not a quoted source. The supportin
 
 ### Related
 
-- [[Create a 'Research Hole' Parking Lot]]—*a worked version of step 5: a single page where the urge to research "the right way" is parked.*
-- [[System Tweaking as a Form of Procrastination in ADHD]]—*names the failure the "no research" rule is guarding against.*
-- [[The Danger of Perpetual System-Building]]—*what happens if the rules above are skipped: building the system replaces using it.*
-- [[Claim - ADHD perfectionism is maladaptive compensation]]—*explains why permission to do it wrong works: the perfectionism is compensatory, not a high standard.*
-- [[Luhmann Emphasized Connection-Making]]—*supports the point that value lies in connections, which step 4 introduces gradually.*
-- [[Make It Stupidly Simple]]—*the same one-note, no-structure starting rule, framed for ADHD capture.*
+- [[Create a 'Research Hole' Parking Lot]]—_a worked version of step 5: a single page where the urge to research "the right way" is parked._
+- [[System Tweaking as a Form of Procrastination in ADHD]]—_names the failure the "no research" rule is guarding against._
+- [[The Danger of Perpetual System-Building]]—_what happens if the rules above are skipped: building the system replaces using it._
+- [[Claim - ADHD perfectionism is maladaptive compensation]]—_explains why permission to do it wrong works: the perfectionism is compensatory, not a high standard._
+- [[Luhmann Emphasized Connection-Making]]—_supports the point that value lies in connections, which step 4 introduces gradually._
+- [[Make It Stupidly Simple]]—_the same one-note, no-structure starting rule, framed for ADHD capture._
 
 ### See Also
 
 - [[2025-04-21]]
 
 [implements:: [[SoT - ADHD Management Protocols]]]
+
 [depends_on:: [[SoT - Perfectionism and Analysis Paralysis]]]
 
 ### Further Reading
 
-- [How to Take Smart Notes, Ahrens, p. 25](calibre://view-book/GCcalibreBooks/704/EPUB)—*corroborates the premise that a trusted, simple system lets the mind let go and focus; semantic match (0.35), not a confirmed on-topic reading.*
+- [How to Take Smart Notes, Ahrens, p. 25](calibre://view-book/GCcalibreBooks/704/EPUB)—_corroborates the premise that a trusted, simple system lets the mind let go and focus; semantic match (0.35), not a confirmed on-topic reading._

@@ -1,26 +1,21 @@
 ---
-title: The Process vs. The Pattern
-type: concept
-status: seed
-tags:
-- patterns
-- causality
-- time
-- genesis
-- structure
 conformant: true
-created: 2026-10-20 00:00:00+00:00
-modified: 2026-10-20 00:00:00+00:00
-source_title: Time, Patterns, and Mathematics
-source_url: https://gemini.google.com/share/9b6f6fdd7c5e
+created: 2026-10-20T00:00:00+00:00
 created_utc: '2026-10-20T00:00:00Z'
-upstream: '[[Time, Patterns, and Mathematics]]'
 definition: The process that makes a pattern is a temporal causal sequence, whereas
   the pattern is the finished static structure that can be described without reference
   to how long it took to form.
 distinguishes_from: []
-used_in_claims: []
+modified: 2026-10-22T15:11:20+00:00
 permalink: llmeon/00-inbox/the-process-vs.-the-pattern
+source_title: Time, Patterns, and Mathematics
+source_url: https://gemini.google.com/share/9b6f6fdd7c5e
+status: seed
+tags: [causality, genesis, patterns, structure, time]
+title: The Process vs. The Pattern
+type: concept
+upstream: '[[Time, Patterns, and Mathematics]]'
+used_in_claims: []
 ---
 
 ## The Process vs. The Pattern

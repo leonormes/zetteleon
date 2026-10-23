@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-06-22T17:43:30+00:00
 last_reviewed: ''
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:17+00:00
 permalink: llmeon/30-library/100-zettelkasten/distorted-negative-self-image
 see_also: []
 superseded_by: ''
@@ -23,6 +23,6 @@ A combination of perceived underachievement and heightened sensitivity to critic
 
 [[MoC - The Roots of Shame and Feeling Defective]]
 
-### Related
+## Related
 
-- [[Self-Esteem and Identity]]—*the identity side of a distorted self-view.*
+- [[Self-Esteem and Identity]]—_the identity side of a distorted self-view._

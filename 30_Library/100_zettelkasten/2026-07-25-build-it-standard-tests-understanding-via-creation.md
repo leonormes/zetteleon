@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-07-25T11:17:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-14T12:35:36+00:00
+modified: 2026-10-22T15:11:19+00:00
 permalink: llmeon/30-library/100-zettelkasten/2026-07-25-build-it-standard-tests-understanding-via-creation
 prodos.kind: atomic
 prodos.lifecycle: stable

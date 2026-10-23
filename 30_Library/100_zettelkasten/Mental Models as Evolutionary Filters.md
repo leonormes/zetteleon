@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-20T09:52:00+00:00
 last_reviewed: 'null'
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/mental-models-as-evolutionary-filters
 tags: [efficiency, evolution, perception, TheHuman/Cognition]
 title: Mental Models as Evolutionary Filters
@@ -20,6 +20,6 @@ This is analogous to wearing colored lenses from birth; one would not be aware o
 
 Links: [[Mental Models MOC]]
 
-### Related
+## Related
 
-- [[The Bohr Model as a Simplified Mental Model]]—*a familiar example of a deliberately simplified model.*
+- [[The Bohr Model as a Simplified Mental Model]]—_a familiar example of a deliberately simplified model._

@@ -2,7 +2,7 @@
 aliases: [Neurodiversity in the Workplace, Supporting ADHD Employees]
 conformant: false
 created: 2025-11-06T19:54:12+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:15+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/organizations-can-support-adhd-employees-through-culture-and-accommodations
 tags: [accommodation, management, neurodiversity, TheHuman/Health/ADHD]
@@ -18,4 +18,4 @@ Details: Key strategies include normalizing discussions around neurodiversity, s
 
 ### Related
 
-- [[Executive Function Deficits in ADHD Impact Developer Productivity]]—*the deficits accommodations address.*
+- [[Executive Function Deficits in ADHD Impact Developer Productivity]]—_the deficits accommodations address._

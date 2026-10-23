@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-11-22T15:00:00+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:17+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/concept-tcp-three-way-handshake
 tags: [SoftwareEngineering/networking/tcp]
@@ -25,4 +25,4 @@ For HTTPS connections, the TLS handshake occurs only after this TCP handshake is
 
 ### Related
 
-- [[Concept - UDP vs TCP]]—*why TCP needs a handshake and UDP does not.*
+- [[Concept - UDP vs TCP]]—_why TCP needs a handshake and UDP does not._

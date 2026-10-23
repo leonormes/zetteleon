@@ -1,7 +1,7 @@
 ---
 conformant: true
 created: 2026-05-02T19:35:19+00:00
-modified: 2026-09-29T10:37:30+00:00
+modified: 2026-10-22T15:11:10+00:00
 permalink: llmeon/30-library/200-projects/defining-one-computer-concept-1
 project_category: infrastructure
 project_name: k8s
@@ -16,7 +16,7 @@ type: project
 > Already covered by the existing graph:
 > - [[SoT - The Logical Definition of a Computer]]—the kernel-as-boundary claim, the multicore paradox, scale-up vs scale-out, and the bare-metal/VM/container/cluster abstraction table (§§3, 5, 6, 7, 8, 9 below).
 > - [[SoT - The Functional Anatomy of a Computer]]—the hardware/IPOS model, MMIO vs port I/O, polling vs interrupts, and bus topology evolution (§§2, 4 below), in more technical depth than this report provides.
-> 
+>
 > The genuine gaps, now atomised (13 notes):
 > - [[The Memory Management Unit Translates Logical Addresses to Physical Addresses]]—logical/physical address translation and the MMU (§7).
 > - [[IaaS, PaaS, and SaaS Progressively Abstract Away the Underlying Computer]]—the cloud-service-model abstraction gradient (§8).
@@ -31,7 +31,7 @@ type: project
 > - [[Type 1 Hypervisors Run Directly on Hardware While Type 2 Hypervisors Run as Host Applications]]—the hypervisor deployment split in §8.
 > - [[A Single System Image Presents a Distributed Resource Pool as One Unified System]]—the SSI concept in §8.
 > - [[Cloud Providers Achieve Elasticity Through Resource Pooling and Multi-Tenancy]]—the resource-pooling mechanism in §8.
-> 
+>
 > Every claim in this report now has a home in the graph. Read on below only for the original report, its worked examples, and its ~120-source bibliography.
 
 ## Defining "One Computer" in the Context of Networks and Distributed Systems

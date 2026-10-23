@@ -5,7 +5,7 @@ created: 2026-09-17T11:34:07+00:00
 created_utc: '2026-09-17T00:00:00Z'
 epistemic_status: high
 evidence_links: []
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:13+00:00
 permalink: llmeon/00-inbox/voters-trade-democratic-norms-for-partisan-victory
 proposition: A significant portion of the electorate will knowingly choose a candidate who shares their partisan goals but behaves dishonestly or undemocratically over an opposing candidate who is honest and adheres to democratic norms, and this trade-off intensifies as affective polarization rises.
 source_title: Political Contrast Effect Research
@@ -39,4 +39,4 @@ Based on Milan Svolik's experimental research on democratic backsliding, using f
 
 ### Related
 
-- [[Cognitive Biases Reinforce Mental Models]]—*biases that support partisan reasoning.*
+- [[Cognitive Biases Reinforce Mental Models]]—_biases that support partisan reasoning._

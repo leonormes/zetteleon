@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-10-31T13:07:00+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:15+00:00
 non_conformance_reason: "missing schema field definition for type concept (required when conformant - true); missing schema field used_in_claims for type concept (required when conformant - true); missing schema field distinguishes_from for type concept (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/nihilism-vs-constructed-meaning
 tags: [TheHuman/Philosophy, TheHuman/Psychology]
@@ -25,4 +25,4 @@ ADHD Relevance:
 
 ### Related
 
-- [[Values Serve as Navigational Compass in Absence of Absolute Truth]]—*values as the constructed answer.*
+- [[Values Serve as Navigational Compass in Absence of Absolute Truth]]—_values as the constructed answer._

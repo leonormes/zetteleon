@@ -1,6 +1,6 @@
 ---
 created: 2026-06-05T08:50:57+00:00
-modified: 2026-09-29T10:37:32+00:00
+modified: 2026-10-22T15:11:10+00:00
 permalink: llmeon/30-library/200-projects/fitfile-grafana-cloud-observability-audit-stack-review-gaps-cost-optimisation
 project_category: refined_deployment
 project_name: Refined Deployment
@@ -9,7 +9,7 @@ title: FITFILE Grafana Cloud Observability Audit—Stack Review, Gaps & Cost Opt
 type: null
 ---
 
-_Shared Message from Pieces (<https://pieces.app>) by Leon Ormes (leonormes@gmail.com) on Friday Jun 5, 2026 - 9:50 AM_
+_Shared Message from Pieces (<https://pieces.app>) by Leon Ormes (<leonormes@gmail.com>) on Friday Jun 5, 2026 - 9:50 AM_
 ---
 
 Now I have everything needed. Here is the full synthesis.
@@ -228,7 +228,7 @@ Defer / evaluate last:
 
 The fastest cost improvement is applying the Prometheus `labeldrop` rules from your audit file and fixing the `pod: null` SM override—these require no new tooling, no auth, and could cut your metrics and logs bills materially before end of this sprint.
 
-_Shared Message from Pieces (<https://pieces.app>) by Leon Ormes (leonormes@gmail.com) on Monday Jun 8, 2026 - 10:46 AM_
+_Shared Message from Pieces (<https://pieces.app>) by Leon Ormes (<leonormes@gmail.com>) on Monday Jun 8, 2026 - 10:46 AM_
 ---
 
 ## Phase 2: Make the Canary Measurable

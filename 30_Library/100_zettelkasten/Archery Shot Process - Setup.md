@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-10-20T16:35:00+01:00
+modified: 2026-10-22T15:11:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-setup
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Setup
@@ -73,8 +73,8 @@ Setup involves setting the hands onto the bow, including hooking onto the string
 - Deep String Hooking: Placing the string deep into the knuckle groove or past the first knuckle makes a clean release impossible, pinches nerves, and can cause long-term numbness. Conversely, hooking on the very fingertips introduces massive isometric tension on sensitive skin pads and leads to sideways plucking.
 - Weak Grip Position: Pushing the bow hand pinky forward creates a weak connection with the bow. Actively pull the pinky back towards you and push the thumb towards the target to lock a strong, torqued position.
 - A slipping hook causes sudden loss of tension, encouraging the draw elbow to collapse forward.
-- Inconsistent String Hooking Position: Alternating between three-under and split-finger (or shifting finger placement height along the serving) alters the vertical launch angle and point-of-impact, causing arrows to group high or low. Ensure **Repeatable Finger Placement** by seating fingers at the identical vertical position on the bowstring for every single shot to maintain a consistent elevation plane.
-- Over-Gripping and Asymmetric Palm Pressure (The "Death Grip"): Squeezing the bow riser tightly with a clenched fist or canting the hand far off to the side introduces severe bow torque and unpredictable left/right misses. Use a relaxed **Letter V / Stop-Sign Hand Position**, letting the bow press cleanly into the thumb pad (thenar eminence) without active finger clenching.
+- Inconsistent String Hooking Position: Alternating between three-under and split-finger (or shifting finger placement height along the serving) alters the vertical launch angle and point-of-impact, causing arrows to group high or low. Ensure Repeatable Finger Placement by seating fingers at the identical vertical position on the bowstring for every single shot to maintain a consistent elevation plane.
+- Over-Gripping and Asymmetric Palm Pressure (The "Death Grip"): Squeezing the bow riser tightly with a clenched fist or canting the hand far off to the side introduces severe bow torque and unpredictable left/right misses. Use a relaxed Letter V / Stop-Sign Hand Position, letting the bow press cleanly into the thumb pad (thenar eminence) without active finger clenching.
 - High Pivot Pressure: Pushing high into the pivot point (the throat of the grip) forces you to engage the flexor muscles in your forearm. These muscles fatigue quickly and shake under adrenaline, destroying consistency.
 - Off-Center Pressure: Applying pressure off the center line of the grip torques the bow and causes erratic left-to-right arrow groupings. Specifically, pressuring the left edge of the grip (for a RH shooter) forces the string to turn inward and the stabilizer to point right, guaranteeing the bow limb will swing into your body during follow-through.
 - String Slap: Hitting your forearm with the bowstring is caused by holding the bow with a straight, fully wrapped "death grip", which locks the arm's range of motion. Do not try to deliberately contort your shoulder to rotate the elbow out of the way; instead, change your grip to a relaxed 45-degree V-shape. Turning your wrist outward to achieve this angle will automatically rotate the elbow completely out of the string's path.

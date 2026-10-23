@@ -1,6 +1,6 @@
 ---
 created: 2026-06-16T11:05:06+00:00
-modified: 2026-07-20T16:33:34+00:00
+modified: 2026-10-22T15:11:04+00:00
 permalink: llmeon/aws/ebs-csi-driver-deprecation-investigation
 title: EBS_CSI_Driver_Deprecation_Investigation
 ---
@@ -13,7 +13,7 @@ AWS Account: 135808916559
 
 Region: eu-west-2
 
-Authenticated User: leon.ormes@fitfile.com (SSO)
+Authenticated User: <leon.ormes@fitfile.com> (SSO)
 
 Role: AWSReservedSSO_DiscoveryEngineeringAccess_b38ff0a73dfb5f6d
 
@@ -33,7 +33,7 @@ Additionally, 9 out of 37 EBS volumes lack the standard CSI driver tags (`ebs.cs
 
 #### Current Identity
 
-- User/Role: leon.ormes@fitfile.com
+- User/Role: <leon.ormes@fitfile.com>
 - Assumed Role: AWSReservedSSO_DiscoveryEngineeringAccess_b38ff0a73dfb5f6d
 - Account ID: 135808916559
 - ARN: `arn:aws:sts::135808916559:assumed-role/AWSReservedSSO_DiscoveryEngineeringAccess_b38ff0a73dfb5f6d/leon.ormes@fitfile.com`

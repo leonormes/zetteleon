@@ -2,7 +2,7 @@
 aliases: [Mathematical Analysis, Real Analysis]
 created: 2025-11-01T11:22:13+00:00
 last_reviewed: '2025-11-01'
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/analysis-definition
 status: seed
 tags: [fields, topic/maths]
@@ -21,6 +21,6 @@ Key Concepts: ε-δ definitions of limits, convergence of sequences and series, 
 
 Purpose: Analysis ensures that intuitions about continuous functions and infinitesimal quantities are placed on rigorous logical footing.
 
-### Related
+## Related
 
-- [[Calculus (Definition)]]—*analysis grew out of calculus.*
+- [[Calculus (Definition)]]—_analysis grew out of calculus._

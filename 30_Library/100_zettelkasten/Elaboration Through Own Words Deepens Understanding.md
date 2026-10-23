@@ -6,7 +6,7 @@ created: 2025-10-30T15:33:36+00:00
 epistemic_status: medium
 evidence_links: []
 last_reviewed: '2025-10-30T00:00:00.000Z'
-modified: 2026-10-12T00:00:00+00:00
+modified: 2026-10-22T15:11:17+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/elaboration-through-own-words-deepens-understanding
 proposition: Writing an idea in your own words forces you to understand it, link it to existing knowledge and expose gaps, which deepens understanding and long-term learning more than copying does

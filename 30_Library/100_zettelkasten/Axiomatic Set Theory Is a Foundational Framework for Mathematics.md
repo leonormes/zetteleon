@@ -2,7 +2,7 @@
 aliases: [Axiomatic Set Theory, ZF, ZFC]
 conformant: false
 created: 2025-11-01T11:22:13+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:18+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/axiomatic-set-theory-is-a-foundational-framework-for-mathematics
 tags: [foundations, set-theory, topic/maths]
@@ -28,6 +28,6 @@ Modern axiomatic set theory arose in response to paradoxes discovered in naive s
 
 Relation to Structure: Sets provide the basic "grouping" mechanism needed to define any pattern or structure, making set theory naturally foundational to the structuralist view of mathematics.
 
-### Related
+## Related
 
-- [[Russell's Paradox in Naive Set Theory]]—*the paradox that motivated axiomatisation.*
+- [[Russell's Paradox in Naive Set Theory]]—_the paradox that motivated axiomatisation._

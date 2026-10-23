@@ -3,7 +3,7 @@ aliases: []
 conformant: false
 created: 2025-08-30T08:59:02+00:00
 epistemic_status: high
-modified: 2026-10-15T00:00:00+00:00
+modified: 2026-10-22T15:11:15+00:00
 non_conformance_reason: "missing schema fields contradicts and evidence_links for type claim"
 permalink: llmeon/30-library/100-zettelkasten/mathematical-constants-as-fundamental-ratios-and-processes
 prodos.kind: claim
@@ -24,8 +24,8 @@ Links: [[MOC - What is Maths|The Nature of Number]], [[MOC Symbols vs Concepts T
 
 ## Related
 
-- [[Numbers as Abstract Objects (Platonism)]] - *The wider view that numbers are concepts rather than symbols or tallies.* [supports:: [[Numbers as Abstract Objects (Platonism)]], confidence=medium]
-- [[SoT - The Exponential Function]] - *Develops the continuous-growth idea behind Euler's number.* [supports:: [[SoT - The Exponential Function]], confidence=medium]
-- [[Calculus (Definition)]] - *The study of continuous change in which e is the natural base.*
-- [[Integration as Summation]] - *A second process-defined idea, a quantity built by an infinite summation.*
-- [[Discreteness as a Precondition for Counting]] - *Contrasts counting quantities with the process-defined numbers here.*
+- [[Numbers as Abstract Objects (Platonism)]] - _The wider view that numbers are concepts rather than symbols or tallies._ [supports:: [[Numbers as Abstract Objects (Platonism)]], confidence=medium]
+- [[SoT - The Exponential Function]] - _Develops the continuous-growth idea behind Euler's number._ [supports:: [[SoT - The Exponential Function]], confidence=medium]
+- [[Calculus (Definition)]] - _The study of continuous change in which e is the natural base._
+- [[Integration as Summation]] - _A second process-defined idea, a quantity built by an infinite summation._
+- [[Discreteness as a Precondition for Counting]] - _Contrasts counting quantities with the process-defined numbers here._

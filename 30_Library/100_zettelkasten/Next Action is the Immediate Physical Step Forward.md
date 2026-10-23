@@ -2,7 +2,7 @@
 aliases: [Next Action, Next Physical Action]
 conformant: false
 created: 2025-11-01T20:22:24+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:15+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/next-action-is-the-immediate-physical-step-forward
 tags: [action, execution, gtd, topic/productivity]
@@ -68,6 +68,6 @@ Action Over Planning:
 
 Recognizing the next action helps distinguish motion from action. Planning what to do is motion; doing the next physical step is action.
 
-### Related
+## Related
 
-- [[The Clarification Process Eliminates Ambiguity and Reduces Overwhelm]]—*where next actions come from.*
+- [[The Clarification Process Eliminates Ambiguity and Reduces Overwhelm]]—_where next actions come from._

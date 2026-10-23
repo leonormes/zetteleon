@@ -5,7 +5,7 @@ created: 2026-09-17T11:34:24+00:00
 created_utc: '2026-09-17T00:00:00Z'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-29T10:37:49+00:00
+modified: 2026-10-22T15:11:17+00:00
 permalink: llmeon/00-inbox/collective-moral-licensing-in-partisan-politics
 proposition: Voters who identify as the moral resistance to a perceived extreme threat acquire a collective sense of moral superiority that licenses them to tolerate lies, manipulation, or corruption from their own representatives that they would otherwise condemn.
 source_title: Political Contrast Effect Research

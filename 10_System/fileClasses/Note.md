@@ -1,6 +1,5 @@
 ---
-icon: file-text
-version: '1.0'
+created: 2026-07-23T18:50:52+00:00
 fields:
 - name: title
   id: title
@@ -118,13 +117,14 @@ fields:
   id: prodos_review_last_reviewed
   type: Date
   path: prodos____prodos_review
+icon: file-text
+modified: 2026-10-22T15:11:08+00:00
 permalink: llmeon/10-system/file-classes/note
-created: 2026-07-23T18:50:52+00:00
-modified: 2026-09-22T01:00:00+01:00
+version: '1.0'
 ---
 
-# Note
+## Note
 
-Base fileClass for the vault's [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]] §2 `FrontmatterContract` — the shared envelope every note inherits, plus the §4 `prodos` routing object.
+Base fileClass for the vault's [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]] §2 `FrontmatterContract`—the shared envelope every note inherits, plus the §4 `prodos` routing object.
 
 Not meant to be bound directly to notes; the five canonical knowledge-node fileClasses (`Claim`, `Concept`, `Evidence`, `Question`, `Procedure`) each `extends: Note`.

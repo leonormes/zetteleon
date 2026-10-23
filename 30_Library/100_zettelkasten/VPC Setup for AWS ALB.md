@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-24T14:25:58+00:00
 last_reviewed: ''
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:13+00:00
 permalink: llmeon/30-library/100-zettelkasten/vpc-setup-for-aws-alb
 tags: [aws, SoftwareEngineering/Networking, SoftwareEngineering/networking/cloud-networking, vpc]
 title: VPC Setup for AWS ALB
@@ -23,6 +23,6 @@ A well-designed VPC is crucial for network security and organization within AWS.
 
 Related: What is a Virtual Private Cloud (VPC), IP Addressing and CIDR
 
-### Related
+## Related
 
-- [[NAT Gateways Enable Private Resources to Access Internet]]—*outbound access for private subnets in the same VPC.*
+- [[NAT Gateways Enable Private Resources to Access Internet]]—_outbound access for private subnets in the same VPC._

@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-24T15:37:00+00:00
 last_reviewed: ''
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:16+00:00
 permalink: llmeon/30-library/100-zettelkasten/least-privilege-authorization-with-terraform-cloud
 tags: [authorization, IAM, least-privilege, RBAC, SoftwareEngineering/Security]
 title: Least Privilege Authorization with Terraform Cloud
@@ -30,6 +30,6 @@ Links:
 - [[Recommended Best Practices for Cloud-Native Authentication]]
 - Modern Cloud-Native Authentication MOC
 
-### Related
+## Related
 
-- [[Access Control Lists Filter Traffic Based on Protocol and Address Rules]]—*least privilege applied to network rules.*
+- [[Access Control Lists Filter Traffic Based on Protocol and Address Rules]]—_least privilege applied to network rules._

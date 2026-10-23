@@ -1,7 +1,7 @@
 ---
 created: 2026-07-21T13:40:00+01:00
 description: Guides LLMs in extracting knowledge from raw family chores notes/feedback and consolidating it into family chores SoT and MOC notes.
-modified: 2026-07-21T13:40:00+01:00
+modified: 2026-10-22T15:11:08+00:00
 permalink: llmeon/10-system/prompts/family-chores---knowledge-consolidation
 tags: [agent/consolidation, domain/family-chores, type/system]
 title: Family Chores - Knowledge Consolidation
@@ -58,6 +58,7 @@ When the user provides a New Capture note, execute the following steps:
 ### 3. File Update Construction
 
 For each note that needs updating, construct the updated file content. Keep changes targeted:
+
 - Preserve existing YAML frontmatter exactly (increment the `modified` date if you write it).
 - Ensure all updates are clear, concise, and structured with appropriate markdown headers.
 - Maintain the style appropriate for the note: professional and administrative for Tier 1 / SoTs; simple, clear, and ADHD-friendly for Tier 2 guides.

@@ -1,6 +1,6 @@
 ---
 created: 2026-05-04T08:01:26+00:00
-modified: 2026-09-29T10:37:39+00:00
+modified: 2026-10-22T15:11:09+00:00
 permalink: llmeon/30-library/200-projects/philosophy-and-ethics-within-religious-studies-gcse
 project_name: Bessie
 tags: [bessie]

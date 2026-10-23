@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-11-18T14:40:00+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-09-29T10:37:52+00:00
+modified: 2026-10-22T15:11:16+00:00
 permalink: llmeon/30-library/100-zettelkasten/guilt-free-spending-is-a-feature-of-intentional-budgeting
 prodos.kind: atomic
 prodos.lifecycle: stable
@@ -20,4 +20,5 @@ A common misconception is that a budget's purpose is to eliminate all "fun" spen
 When you [[Give Every Dollar a Job (YNAB Rule 1)|proactively assign money]] to discretionary categories like "Dining Out," "Hobbies," or "Coffee," you are giving yourself explicit permission to spend that money on those things. Because the spending was planned and aligns with your values, it can be enjoyed without the guilt, regret, or second-guessing that accompanies unplanned, reactive purchases. This prevents the deprivation-burnout cycle common with overly restrictive budgets.
 
 [implements:: [[SoT - Financial Philosophy and Spendfulness]]]
+
 [depends_on:: [[Give Every Dollar a Job (YNAB Rule 1)]]]

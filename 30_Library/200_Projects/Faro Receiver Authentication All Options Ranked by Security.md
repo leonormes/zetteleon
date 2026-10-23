@@ -1,6 +1,6 @@
 ---
 created: 2026-06-05T09:05:54+00:00
-modified: 2026-09-29T10:37:33+00:00
+modified: 2026-10-22T15:11:09+00:00
 permalink: llmeon/30-library/200-projects/faro-receiver-authentication-all-options-ranked-by-security
 project_category: refined_deployment
 project_name: Refined Deployment
@@ -9,7 +9,7 @@ title: Faro Receiver Authentication All Options Ranked by Security
 type: null
 ---
 
-_Shared Message from Pieces (<https://pieces.app>) by Leon Ormes (leonormes@gmail.com) on Friday Jun 5, 2026 - 10:05 AM_
+_Shared Message from Pieces (<https://pieces.app>) by Leon Ormes (<leonormes@gmail.com>) on Friday Jun 5, 2026 - 10:05 AM_
 ---
 
 Memory is now exhausted (`sufficient`). Here's the full synthesis.

@@ -2,7 +2,7 @@
 aliases: [Habits Override Intentions]
 conformant: false
 created: 2025-11-06T19:56:01+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:14+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/strong-habits-override-weak-intentions
 tags: [intentions, TheHuman/Habits, TheHuman/Motivation, topic/systems]
@@ -18,4 +18,4 @@ Details: Psychological studies show that intentions (goals) are poor predictors 
 
 ### Related
 
-- [[Habits are Automatic Behaviors Triggered by Environmental Cues]]—*the mechanism.*
+- [[Habits are Automatic Behaviors Triggered by Environmental Cues]]—_the mechanism._

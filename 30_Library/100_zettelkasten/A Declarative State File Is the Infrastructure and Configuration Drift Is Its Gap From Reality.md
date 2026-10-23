@@ -1,23 +1,19 @@
 ---
 conformant: true
 contradicts: []
-created: 2026-10-21 14:00:00+00:00
+created: 2026-10-21T14:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-21 14:00:00+00:00
+modified: 2026-10-22T15:11:19+00:00
+permalink: llmeon/30-library/100-zettelkasten/a-declarative-state-file-is-the-infrastructure-and-configuration-drift-is-its-gap-from-reality
 proposition: In declarative infrastructure the target state file is the definition
   of the environment and not a description of it, so configuration drift is the gap
   between the structure and the reality it is meant to constitute.
 status: seed
-tags:
-- formal-methods
-- topic/software-architecture
-- infrastructure-as-code
-- devops
+tags: [devops, formal-methods, infrastructure-as-code, topic/software-architecture]
 title: A Declarative State File Is the Infrastructure and Configuration Drift Is Its
   Gap From Reality
 type: claim
-permalink: llmeon/30-library/100-zettelkasten/a-declarative-state-file-is-the-infrastructure-and-configuration-drift-is-its-gap-from-reality
 ---
 
 ## A Declarative State File Is the Infrastructure and Configuration Drift Is Its Gap From Reality
@@ -38,7 +34,7 @@ In declarative infrastructure the target state file is the definition of the env
 > "Manual change-control procedures. Infrastructure state lives in operators' memory and ticket systems. Each incident requires archaeology."
 > (same row, "Runtime Pays When Absent")
 
-The library offers only a publisher description saying that infrastructure as code lets a reader "safely make infrastructure changes, and prevent configuration drift" (*Azure Infrastructure as Code*, "about this book"). It is not evidence for the constitutive reading.
+The library offers only a publisher description saying that infrastructure as code lets a reader "safely make infrastructure changes, and prevent configuration drift" (_Azure Infrastructure as Code_, "about this book"). It is not evidence for the constitutive reading.
 
 ### Implications
 

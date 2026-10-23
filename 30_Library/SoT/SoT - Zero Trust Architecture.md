@@ -3,7 +3,7 @@ aliases: [Identity as Perimeter, Never Trust Always Verify, Zero Trust, ZT Archi
 conformant: true
 created: 2026-04-04T14:30:00+00:00
 last-synthesis: 2026-04-04
-modified: 2026-10-15T00:00:00+00:00
+modified: 2026-10-22T15:11:10+00:00
 permalink: llmeon/30-library/so-t/so-t-zero-trust-architecture
 tags: [architecture, iam, networking, security, zero-trust]
 title: SoT - Zero Trust Architecture
@@ -117,7 +117,7 @@ How the principles in section 2 show up as concrete, checkable controls in the v
 
 ### Further Reading (Personal Library)
 
-- [Zero Trust Networks — "Evolution of the Threat Landscape", p. 27](calibre://view-book/GCcalibreBooks/750/EPUB) - *Describes how a single compromised host becomes a stepping stone, which is the lateral-movement flaw of perimeter models in section 1.*
-- [Zero Trust Networks — "Trust Signals", p. 24](calibre://view-book/GCcalibreBooks/750/EPUB) - *Covers mining historical user activity to judge current trustworthiness, matching the Dynamic Trust Scores point in section 4.*
-- [Distributed Services With Go — "Authenticate the Server with TLS"](calibre://view-book/GCcalibreBooks/321/EPUB) - *A worked mTLS example of the two-way verification in Core Principle 5.*
-- [Learning Helm — "Client certificates"](calibre://view-book/GCcalibreBooks/234/EPUB) - *Shows a server verifying the client certificate during the TLS handshake, the mTLS mechanism in practice.*
+- [Zero Trust Networks — "Evolution of the Threat Landscape", p. 27](calibre://view-book/GCcalibreBooks/750/EPUB) - _Describes how a single compromised host becomes a stepping stone, which is the lateral-movement flaw of perimeter models in section 1._
+- [Zero Trust Networks — "Trust Signals", p. 24](calibre://view-book/GCcalibreBooks/750/EPUB) - _Covers mining historical user activity to judge current trustworthiness, matching the Dynamic Trust Scores point in section 4._
+- [Distributed Services With Go — "Authenticate the Server with TLS"](calibre://view-book/GCcalibreBooks/321/EPUB) - _A worked mTLS example of the two-way verification in Core Principle 5._
+- [Learning Helm — "Client certificates"](calibre://view-book/GCcalibreBooks/234/EPUB) - _Shows a server verifying the client certificate during the TLS handshake, the mTLS mechanism in practice._

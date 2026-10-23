@@ -2,7 +2,7 @@
 aliases: [Task Batching]
 conformant: false
 created: 2025-11-10T14:10:00+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:14+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/task-batching-is-grouping-similar-tasks-to-reduce-context-switching
 tags: [context-switching, efficiency, time-blocking, topic/productivity]
@@ -18,4 +18,4 @@ Details: This method is highly effective at minimizing context switching—the m
 
 ### Related
 
-- [[Day Theming is a Macro Time Blocking Strategy]]—*batching at the day scale.*
+- [[Day Theming is a Macro Time Blocking Strategy]]—_batching at the day scale._

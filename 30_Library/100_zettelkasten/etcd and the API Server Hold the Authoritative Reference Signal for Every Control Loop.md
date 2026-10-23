@@ -5,7 +5,7 @@ contradicts: []
 created: 2026-09-24T12:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-09-29T10:38:01+00:00
+modified: 2026-10-22T15:11:13+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/etcd-and-the-api-server-hold-the-authoritative-reference-signal-for-every-control-loop
 prodos.atomic.form: claim

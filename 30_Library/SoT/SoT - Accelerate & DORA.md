@@ -2,7 +2,7 @@
 aliases: [Accelerate, DORA Research, Software Delivery Performance, Verification Gap]
 conformant: true
 created: 2026-01-08T16:30:00+00:00
-modified: 2026-09-29T10:38:07+00:00
+modified: 2026-10-22T15:11:12+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-accelerate-dora
 tags: [ai, architecture, culture, devops, dora, leadership, tdd]

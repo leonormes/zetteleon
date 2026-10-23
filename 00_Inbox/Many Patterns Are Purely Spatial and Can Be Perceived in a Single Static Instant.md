@@ -1,27 +1,22 @@
 ---
-title: Many Patterns Are Purely Spatial and Can Be Perceived in a Single Static Instant
-type: claim
-status: seed
-tags:
-- patterns
-- time
-- geometry
-- mathematics
-- philosophy
 conformant: true
-created: 2026-10-20 00:00:00+00:00
-modified: 2026-10-20 00:00:00+00:00
-source_title: Time, Patterns, and Mathematics
-source_url: https://gemini.google.com/share/9b6f6fdd7c5e
+contradicts: []
+created: 2026-10-20T00:00:00+00:00
 created_utc: '2026-10-20T00:00:00Z'
-upstream: '[[Time, Patterns, and Mathematics]]'
+epistemic_status: high
+evidence_links: []
+modified: 2026-10-22T15:11:20+00:00
+permalink: llmeon/00-inbox/many-patterns-are-purely-spatial-and-can-be-perceived-in-a-single-static-instant
 proposition: Patterns such as honeycomb cells, fractal branching and spiral galaxy
   arms are structures of geometry rather than sequence, so they can be perceived in
   one static instant.
-epistemic_status: high
-evidence_links: []
-contradicts: []
-permalink: llmeon/00-inbox/many-patterns-are-purely-spatial-and-can-be-perceived-in-a-single-static-instant
+source_title: Time, Patterns, and Mathematics
+source_url: https://gemini.google.com/share/9b6f6fdd7c5e
+status: seed
+tags: [geometry, mathematics, patterns, philosophy, time]
+title: Many Patterns Are Purely Spatial and Can Be Perceived in a Single Static Instant
+type: claim
+upstream: '[[Time, Patterns, and Mathematics]]'
 ---
 
 ## Many Patterns Are Purely Spatial and Can Be Perceived in a Single Static Instant

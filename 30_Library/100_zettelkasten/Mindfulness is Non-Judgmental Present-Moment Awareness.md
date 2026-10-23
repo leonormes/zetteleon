@@ -3,7 +3,7 @@ alias: [Mindful Presence]
 aliases: []
 conformant: false
 created: 2025-11-01T12:20:06+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:15+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/mindfulness-is-non-judgmental-present-moment-awareness
 tags: [awareness, buddhism, mindfulness, zen]
@@ -19,4 +19,4 @@ Details: This practice can be applied to any activity, from formal meditation to
 
 ### Related
 
-- [[Letting Go of Fixed Views Leads to Peace]]—*non-judgement as releasing fixed views.*
+- [[Letting Go of Fixed Views Leads to Peace]]—_non-judgement as releasing fixed views._

@@ -3,7 +3,7 @@ alias: [Fundamental Theorem of Arithmetic, Prime Factorisation Uniqueness]
 aliases: []
 conformant: false
 created: 2025-12-24T12:00:00+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:16+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/fundamental-theorem-of-arithmetic-guarantees-unique-prime-products
 tags: [maths]
@@ -28,4 +28,4 @@ The security of the system relies on the fact that while this product is unique,
 
 ### Related
 
-- [[Number Theory (Definition)]]—*the field this theorem anchors.*
+- [[Number Theory (Definition)]]—_the field this theorem anchors._

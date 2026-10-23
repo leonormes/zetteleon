@@ -2,7 +2,7 @@
 aliases: [Reverse DNS]
 conformant: false
 created: 2025-10-31T10:50:00+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:13+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/in-addr.arpa-domains-enable-ip-to-name-reverse-dns-lookups
 tags: [SoftwareEngineering/Networking, SoftwareEngineering/networking/dns]
@@ -31,4 +31,4 @@ Like forward zones, in-addr.arpa subdomains must be properly delegated to networ
 
 ### Related
 
-- [[SoT - The Data Architecture of DNS]]—*the wider DNS design.*
+- [[SoT - The Data Architecture of DNS]]—_the wider DNS design._

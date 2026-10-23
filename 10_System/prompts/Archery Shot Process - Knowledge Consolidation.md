@@ -1,12 +1,9 @@
 ---
 created: 2026-07-21T09:05:00+00:00
 description: Guides LLMs in extracting knowledge from raw archery HEAD notes and consolidating it into the 10-step shot process notes.
-modified: 2026-07-23T13:49:30+00:00
+modified: 2026-10-22T15:11:08+00:00
 permalink: llmeon/10-system/prompts/archery-shot-process---knowledge-consolidation
-tags:
-- agent/consolidation
-- domain/archery
-- type/system
+tags: [agent/consolidation, domain/archery, type/system]
 title: Archery Shot Process - Knowledge Consolidation
 type: prompt
 version: 1
@@ -54,9 +51,9 @@ When the user provides a New Capture HEAD Note or video summary, execute the fol
 - Map each instruction to one (or more, if applicable) of the 10 steps above.
 - If some content describes general practice strategy (e.g., blank bale, mental focus, fitness) that does not fit a specific step, map it to `Archery Practice Drills.md` or flag it for an equipment/MOC note.
 
-### 2. Search & Reading (via Obsidian 1MCP)
+### 2. Search & Reading (Via Obsidian 1MCP)
 
-- Use your available Obsidian 1MCP tools (e.g., semantic search or exact path reading) to retrieve and read the *current* contents of the relevant step notes or practice drill notes you've mapped to. Do not ask the user to paste them.
+- Use your available Obsidian 1MCP tools (e.g., semantic search or exact path reading) to retrieve and read the _current_ contents of the relevant step notes or practice drill notes you've mapped to. Do not ask the user to paste them.
 
 ### 3. Redundancy & Conflict Check
 
@@ -65,14 +62,14 @@ When the user provides a New Capture HEAD Note or video summary, execute the fol
 - If it provides a new angle, cue, or detail, plan to merge it.
 - If there is a contradiction (e.g., one coach recommends a square stance, another recommends an open stance), do not delete the old instruction. Instead, document it under an `### Alternative Views / Corrections` subheading in the relevant step note.
 
-### 4. File Update Construction (via Obsidian 1MCP)
+### 4. File Update Construction (Via Obsidian 1MCP)
 
-- **Mandatory Agent Rule:** Before making edits, call the terminal command `shale intent "<brief description>"` to record your intent.
+- Mandatory Agent Rule: Before making edits, call the terminal command `shale intent "<brief description>"` to record your intent.
 - Use your available file writing or Obsidian 1MCP tools to edit and update the required files directly.
 - Preserve existing YAML frontmatter exactly, but update the `modified` date to the current timestamp.
 - Under `Details:` (or the relevant drills section), append the new details in a clean, bulleted format. Use bolding for key terms.
 - Append or update citations to the source notes/videos where the information was extracted in the Reference section.
-- **Mandatory Agent Rule:** After making edits, call `shale done` to record task completion.
+- Mandatory Agent Rule: After making edits, call `shale done` to record task completion.
 
 ---
 

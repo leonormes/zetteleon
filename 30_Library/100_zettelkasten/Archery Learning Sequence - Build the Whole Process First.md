@@ -2,7 +2,7 @@
 aliases: [Analytic vs global learning archery, Archery build level vs refine level]
 conformant: false
 created: 2026-10-12T09:30:00+00:00
-modified: 2026-10-14T08:35:12+00:00
+modified: 2026-10-22T15:11:18+00:00
 non_conformance_reason: consolidated from an LLM conversation, not yet reviewed by Leon or the club coach
 permalink: llmeon/30-library/100-zettelkasten/archery-learning-sequence-build-the-whole-process-first
 source: LLM conversation 2026-10-12 (inbox note LLM - How to Know You Are Executing the Holistic Flow Correctly)

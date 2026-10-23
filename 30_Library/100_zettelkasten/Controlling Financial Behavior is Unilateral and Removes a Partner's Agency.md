@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-11-10T10:14:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:17+00:00
 permalink: llmeon/30-library/100-zettelkasten/controlling-financial-behavior-is-unilateral-and-removes-a-partners-agency
 proposition: "Financial behavior becomes controlling when one person's process removes the other's autonomy and dignity, often by making unilateral decisions and policing their partner's spending."
 tags: [autonomy, finance, relationship]
@@ -21,4 +21,4 @@ Details: Signs of controlling behavior include one partner dictating family goal
 
 ### Related
 
-- [[Respectful Budgeting is a Collaborative Process Focused on Shared Goals and Autonomy]]—*the collaborative alternative.*
+- [[Respectful Budgeting is a Collaborative Process Focused on Shared Goals and Autonomy]]—_the collaborative alternative._

@@ -1,7 +1,7 @@
 ---
 aliases: [AuthN MOC, Cloud Security Map, Identity Map]
 created: 2025-12-25T13:05:00+00:00
-modified: 2026-09-29T10:38:03+00:00
+modified: 2026-10-22T15:11:13+00:00
 permalink: llmeon/30-library/mo-c/moc-cloud-native-authentication
 tags: [authentication, map, SoftwareEngineering/Security, type/moc]
 title: MOC - Cloud-Native Authentication
@@ -43,4 +43,4 @@ Authentication proves identity; Authorization defines the boundaries.
 - Signing: `RS256`, `ES256`, `EdDSA` (Ed25519).
 - Hashing: `SHA-256`.
 - Encryption: `AES-GCM` (Symmetric), `RSA-OAEP` (Asymmetric).
-- How the two combine: [[Hybrid Encryption Combines Symmetric Speed with Asymmetric Security]]—*the symmetric key encrypts the data, the asymmetric key protects that key.*
+- How the two combine: [[Hybrid Encryption Combines Symmetric Speed with Asymmetric Security]]—_the symmetric key encrypts the data, the asymmetric key protects that key._

@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-10-31T10:33:00+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:19+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/api-gateways-manage-and-secure-application-interfaces
 tags: [apis, cloud, SoftwareEngineering/Networking]
@@ -39,4 +39,4 @@ Limitations:
 
 ### Related
 
-- [[Content Switching Allows Layer 7 Routing Based on Hostname or URL Path]]—*routing at the same layer.*
+- [[Content Switching Allows Layer 7 Routing Based on Hostname or URL Path]]—_routing at the same layer._

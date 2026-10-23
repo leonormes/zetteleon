@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T00:00:00+00:00
-modified: 2026-10-16T14:47:00+01:00
+modified: 2026-10-22T15:11:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-release
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Release
@@ -44,7 +44,7 @@ Release is the act of letting go of the string, which should be an involuntary, 
 ### Faults & Diagnostics
 
 - Static/Dead Release: A forced or static release is a symptom of lost connection during expansion (usually caused by prematurely maxing out the scapula's range of motion at anchor, leaving nowhere to go). The release must remain a dynamic reaction to the sudden change in force equilibrium as the draw arm continues uninterrupted through its range of motion. A second video summary gives another cause: over-relaxing or failing to hold back tension, so the hand stays where it is instead of reacting backward ("relaxed shot" video, 00:09:46). The two causes can both be true.
-- **Hyperextending Front Elbow on Recoil:** A locked-out bow elbow cannot absorb the bow's recoil, so the joint hyperextends on every release (like a boxer punching past the target), which can cause tennis- or pitcher's-elbow-type pain. A soft elbow acts as a shock absorber (front-elbow video, 00:02:28). See [[Archery Shot Process - Raise]].
+- Hyperextending Front Elbow on Recoil: A locked-out bow elbow cannot absorb the bow's recoil, so the joint hyperextends on every release (like a boxer punching past the target), which can cause tennisor pitcher's-elbow-type pain. A soft elbow acts as a shock absorber (front-elbow video, 00:02:28). See [[Archery Shot Process - Raise]].
 - Anticipation and Finger Movement: Moving or splaying the fingers before the arrow has fully left the string indicates subconscious anticipation of the bow jumping into the sling. The fingers must stay passive and quiet, letting the string push them open.
 - The Pluck: The draw hand pulls outward away from the face upon release. Caused by excess tension in the hand, forearm, and biceps.
 - The Collapse: The draw hand moves forward toward the target upon release. Caused by stopping the pulling motion right before the shot (a stagnant elbow breaks the connection to the back muscles), or poor skeletal alignment.
@@ -126,7 +126,7 @@ Release is the act of letting go of the string, which should be an involuntary, 
   1. Mentally repeat a simple, rhythmic phrase (e.g., "keep pulling, keep pulling") during the expansion phase.
   2. Allow the release to occur naturally while your conscious mind is occupied with the mantra.
 
-#### 2-to-3 Metre Relaxation Drill (Gemini capture, 2026-10-16, unverified)
+#### 2-to-3 Metre Relaxation Drill (Gemini Capture, 2026-10-16, Unverified)
 
 - Purpose: Builds finger relaxation as the focus of the release, not "letting go".
 - How to do it:

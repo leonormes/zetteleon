@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-10-20T16:35:00+01:00
+modified: 2026-10-22T15:11:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-expansion
 tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Expansion
@@ -47,7 +47,7 @@ Expansion is the continuation of dynamic tension throughout the shot process, ma
 - Back Tension as Coordinated Motion: Back tension must not be conceptualized as an isolated, static muscle contraction (which causes co-contraction, freezing, and upper trap strain). Instead, it is a coordinated physical movement of the scapular retractors and posterior rotator cuff that generates sustained direction and strength through expansion and release.
 - Proper shoulder alignment ensures all forces travel in a straight line, preventing collapse or plucking.
 - Timing matters more than duration: _Inside the Archer_ (PDF p. 227) says the best archers shoot after holding for 1.5 to 3 seconds, because aiming consistency and focus fall off rapidly after about four seconds, and under one second tends to be sloppy and hard to repeat. Consistency of timing matters more than the exact figure.
-- Mental Safety Trigger: The subconscious release reaction to the clicker must only become active *after* you have locked into full anchor and initiated active expansion. If the blade falls prematurely (e.g. during pre-draw or loading), do not fire; treat the clicker as "safety on" until full structural alignment is confirmed.
+- Mental Safety Trigger: The subconscious release reaction to the clicker must only become active _after_ you have locked into full anchor and initiated active expansion. If the blade falls prematurely (e.g. during pre-draw or loading), do not fire; treat the clicker as "safety on" until full structural alignment is confirmed.
 - Tactile vs. Auditory Trigger: Condition your release to trigger from the physical vibration of the clicker striking the riser plate through the bow hand, rather than relying solely on the auditory "click." This prevents releasing accidentally when another archer clicks on a crowded shooting line and stops anticipatory auditory flinching.
 - Competition context (from a captured summary, not checked against the current World Archery rulebook): 20 seconds per arrow in individual alternate and team match play, and 30 to 40 seconds per arrow in qualification.
 
@@ -70,9 +70,9 @@ Expansion is the continuation of dynamic tension throughout the shot process, ma
 - Rushing (Lack of Back Tension): Back tension takes a moment to initiate and consolidate. Rushed archers pull the string back and instantly let go using only arm and finger muscles. This causes a weak release, lateral spread, and forward collapsing (especially as draw weight increases or a clicker is added).
 - Losing Front-Arm Internal Rotation: Attempting to expand by actively pushing the front arm forward causes the elbow to turn upward, breaking internal rotation and collapsing the bow shoulder structure.
 - Over-Timing the Expansion Window: Holding at anchor and struggling to expand past 5 seconds drastically decreases the probability of shooting a 10. The optimal expansion window is 2 to 3 seconds; if the shot stalls past 5 seconds, let down rather than forcing a fatigued, compromised execution.
-- **Subconsciously Prioritizing Aim Over Movement:** Getting to anchor, pausing to acquire or confirm the aim, and only then attempting to restart expansion out of fear that continuous motion will cause the shot to break before the sight is centered on gold. This creates a static freeze and destroys dynamic shot rhythm.
-- **Draw Elbow Collapse During Expansion:** Allowing the draw elbow to stall or creep forward toward the target after hitting anchor rather than continuing its arc around the body, resulting in a prolonged hold (5+ seconds) and a struggle to pull through the clicker.
-- **Under-Drawn Arm Pull Drags the Anchor (Gemini capture, 2026-10-16, unverified):** Settling into full draw with too much left to expand forces a linear arm pull (biceps and forearm) rather than an internal back-driven movement, and the hand drags across the face. Finish the transfer into back tension before the final movement so only a micro-movement remains.
+- Subconsciously Prioritizing Aim Over Movement: Getting to anchor, pausing to acquire or confirm the aim, and only then attempting to restart expansion out of fear that continuous motion will cause the shot to break before the sight is centered on gold. This creates a static freeze and destroys dynamic shot rhythm.
+- Draw Elbow Collapse During Expansion: Allowing the draw elbow to stall or creep forward toward the target after hitting anchor rather than continuing its arc around the body, resulting in a prolonged hold (5+ seconds) and a struggle to pull through the clicker.
+- Under-Drawn Arm Pull Drags the Anchor (Gemini capture, 2026-10-16, unverified): Settling into full draw with too much left to expand forces a linear arm pull (biceps and forearm) rather than an internal back-driven movement, and the hand drags across the face. Finish the transfer into back tension before the final movement so only a micro-movement remains.
 
 ### Training Drills
 
@@ -121,17 +121,17 @@ Expansion is the continuation of dynamic tension throughout the shot process, ma
   2. Perform your normal shot cycle. Have a coach mark where the arrow point sits right before expansion.
   3. Do this 3-6 times per session, across 3 separate non-consecutive days, to find your true average draw length. Adjust your clicker to this mark.
 
-#### Expansion Without a Clicker (Gemini capture, 2026-10-16, unverified)
+#### Expansion Without a Clicker (Gemini Capture, 2026-10-16, Unverified)
 
 - Purpose: Gives the clickerless archer a feel-based version of expansion, so the habit is in place before a clicker is added.
 - How to do it:
-  1. At anchor, transfer the bow's weight into the back muscles ("transfer to hold"). It should *feel* like a light increase of back tension, not a visibly longer draw.
+  1. At anchor, transfer the bow's weight into the back muscles ("transfer to hold"). It should _feel_ like a light increase of back tension, not a visibly longer draw.
   2. Resist the bow's spring and keep the "top pyramid" (bow arm plus both shoulders) intact.
   3. Keep adding back tension while the anchor contact stays locked, with no sliding of the string on chin, face or chest.
   4. Let the fingers relax and the string slip away without knowing the exact moment (see [[Archery Shot Process - Release]]).
 - Note: The source advises delaying a clicker until stance, draw length, scapular control and release are consistent, since a faulty release is hard to fix once a clicker is added.
 
-#### Eyes-Closed Alignment Check (Gemini capture, 2026-10-16, unverified)
+#### Eyes-Closed Alignment Check (Gemini Capture, 2026-10-16, Unverified)
 
 - Purpose: Tests that expansion effort stays in line and does not pull the anchor or twist the upper body.
 - How to do it:

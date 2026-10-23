@@ -1,23 +1,18 @@
 ---
 conformant: true
 contradicts: []
-created: 2026-10-21 13:00:00+00:00
+created: 2026-10-21T13:00:00+00:00
 epistemic_status: low
 evidence_links: []
-modified: 2026-10-21 13:00:00+00:00
+modified: 2026-10-22T15:11:16+00:00
+permalink: llmeon/30-library/100-zettelkasten/keeping-the-mind-ordinary-under-pressure-preserves-access-to-complex-skills
 proposition: Keeping the mind at its everyday baseline under pressure plausibly preserves
   access to complex skills because pressure disrupts skilled performance when conscious
   monitoring takes over, though the mechanism the SoT names is unverified.
 status: seed
-tags:
-- musashi
-- emotional_regulation
-- TheHuman/Philosophy
-- topic/productivity
-- performance
+tags: [emotional_regulation, musashi, performance, TheHuman/Philosophy, topic/productivity]
 title: Keeping the Mind Ordinary Under Pressure Preserves Access to Complex Skills
 type: claim
-permalink: llmeon/30-library/100-zettelkasten/keeping-the-mind-ordinary-under-pressure-preserves-access-to-complex-skills
 ---
 
 ## Keeping the Mind Ordinary Under Pressure Preserves Access to Complex Skills
@@ -33,7 +28,7 @@ The SoT claims that keeping the mind ordinary lets a person reach complex skills
 ### Evidence
 
 > "Choking, then, is a kind of neural glitch that occurs when the brain switches to a system of explicit monitoring in circumstances when it ought to stick to the implicit system. It is not something the performer does intentionally; it just happens."
-> (Matthew Syed, *Bounce*, ch. 6 "The Curse of Choking and How to Avoid It")
+> (Matthew Syed, _Bounce_, ch. 6 "The Curse of Choking and How to Avoid It")
 
 > "they are able to direct their conscious attention to tactics and strategy even under severe pressure, leaving the complex motor skills to the implicit system."
 > (same book, chapter notes)

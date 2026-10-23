@@ -1,7 +1,7 @@
 ---
 created: 2026-01-12T09:05:53+00:00
 description: "Merges pre-selected source notes into one authoritative target note (SoT/Protocol/MOC) with clean frontmatter — a fast, no-discovery merge tool for when you already know which notes to combine. For discovery-driven consolidation (finding duplicates/related notes first), use Knowledge Consolidation Agent instead."
-modified: 2026-07-20T16:34:38+00:00
+modified: 2026-10-22T15:11:07+00:00
 permalink: llmeon/10-system/prompts/sys-merger
 tags: [domain/pkm, tool/merge, type/utility]
 title: sys_merger

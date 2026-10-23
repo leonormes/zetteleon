@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-20T08:00:02+00:00
 last_reviewed: 'null'
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:14+00:00
 permalink: llmeon/30-library/100-zettelkasten/the-danger-of-perpetual-system-building
 tags: [perfectionism, TheHuman/Health/ADHD, topic/productivity, topic/systems]
 title: The Danger of Perpetual System-Building
@@ -19,6 +19,6 @@ This form of [[Productive Procrastination as an Avoidance Strategy]] can be driv
 
 The core impulse to create external support is valid and necessary, but the crucial step is to shift focus from perfecting the design to consistently _using_ the simplest viable version. Real-world use, however imperfect, should guide iteration, not abstract design.
 
-### Related
+## Related
 
-- [[Effective Systems are Built From Tiny Initial Actions]]—*the antidote of starting small.*
+- [[Effective Systems are Built From Tiny Initial Actions]]—_the antidote of starting small._

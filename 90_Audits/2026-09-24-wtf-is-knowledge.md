@@ -1,20 +1,20 @@
 ---
 created: 2026-09-24T00:00:00+00:00
-modified: 2026-09-24T00:00:00+00:00
+modified: 2026-10-22T15:11:05+00:00
 permalink: llmeon/90-audits/2026-09-24-wtf-is-knowledge
 title: 2026-09-24-wtf-is-knowledge
 type: note
 ---
 
-## Atomisation — [[WTF is Knowledge Anyway]] — 2026-09-24
+## Atomisation—[[WTF is Knowledge Anyway]]—2026-09-24
 
 > Pipeline: [[Atomic Signal Extractor → Write TMP file]] then [[Atomic Linker → Promote & Connect]], run in one pass. 1MCP tools were unavailable, so duplicate checks were lexical (`rg`) plus file reads.
 
-### What the note was
+### What the Note Was
 
 A ~2,500-word raw AI chat: eight questions from Leon and long, generic AI answers with web citations. Type `concept` ("Bulk inferred type. Needs review."). Roughly 20% signal, 80% noise. Most of the AI's content restates notes the vault already has.
 
-### Atoms promoted (7, all in `30_Library/100_zettelkasten/`)
+### Atoms Promoted (7, All in `30_Library/100_zettelkasten/`)
 
 | # | Atom | Type | Confidence |
 |---|---|---|---|
@@ -28,14 +28,14 @@ A ~2,500-word raw AI chat: eight questions from Leon and long, generic AI answer
 
 Every evidence quote was checked to be verbatim in the original before writing. Each atom links to 2 to 3 existing notes (no phantom links, no self-links), carries `upstream: [[21-wtf_is_knowledge_anyway]]`, and is `conformant: true` with the full claim or concept fields. Atoms 4 and 5 are a deliberate pair (what stays the same, what differs). Obsidian's Linter reformatted their frontmatter on save; that is expected.
 
-### Deliberately not extracted (already in the vault)
+### Deliberately not Extracted (Already in the Vault)
 
 - Information versus knowledge (processing, outcome, the "all knowledge is information" relationship): [[Information vs Knowledge]], [[What is information]].
 - Data becoming information through context, structure, analysis and purpose, and "meaning is relationship to context": [[What is information]].
 - Why knowledge is harder to transfer: [[Knowledge Transmission Is Reconstruction, Not Copying]].
 - The AI's list of classical knowledge-representation techniques (ontologies, semantic networks, rules): it answers a different question from how large language models store knowledge, so only the generic criteria (atom 6) were kept.
 
-### What happened to the source note
+### What Happened to the Source Note
 
 | Item | Result |
 |---|---|
@@ -43,7 +43,7 @@ Every evidence quote was checked to be verbatim in the original before writing. 
 | [[WTF is Knowledge Anyway]] | Slimmed to a provenance note: Leon's eight questions verbatim, the atom list, a "covered elsewhere" map, a "not extracted" note and the 32 deduplicated URLs the AI cited. `type: journal`, `conformant: true`. The filename is unchanged, so [[Aristotle Distinguished Between Episteme, Techne, and Phronesis]] and older audits still resolve |
 | TMP file | Written to `00_Inbox/tmp_atoms_wtf-is-knowledge.md`, then moved to `.trash/` after promotion, matching earlier runs |
 
-### Hub links added
+### Hub Links Added
 
 | File | Change |
 |---|---|
@@ -51,13 +51,13 @@ Every evidence quote was checked to be verbatim in the original before writing. 
 | SoT - Human vs AI Cognition | bullet for atom 3 |
 | SoT - Virtual Knowledge Graph Paradigm | bullet for atom 6 |
 
-### Judgement calls to check
+### Judgement Calls to Check
 
-1. **Atom 3 is your own claim**, quoted from your line in the chat, with the AI's agreement as a second quote. If you would rather have it as a HEAD note or a stronger claim, that is your call.
-2. **Atoms 4 and 5 are low confidence**: the AI hedged ("likely", "may differ") and offered no evidence.
-3. **Atom 7 is a `concept` but has a sentence title**, following the vault's existing pattern. It is distinguished from the vault's closed six-word edge vocabulary and not linked to it as an edge.
-4. **`source_url` is `UNKNOWN`**: the chat's origin was not recorded. The cited URLs are listed on the source note but were not read here.
-5. **The source note's type is `journal`**, the closest canonical fit for a captured session; `question` would have needed a title ending in "?" and the Luhmann-style filename.
+1. Atom 3 is your own claim, quoted from your line in the chat, with the AI's agreement as a second quote. If you would rather have it as a HEAD note or a stronger claim, that is your call.
+2. Atoms 4 and 5 are low confidence: the AI hedged ("likely", "may differ") and offered no evidence.
+3. Atom 7 is a `concept` but has a sentence title, following the vault's existing pattern. It is distinguished from the vault's closed six-word edge vocabulary and not linked to it as an edge.
+4. `source_url` is `UNKNOWN`: the chat's origin was not recorded. The cited URLs are listed on the source note but were not read here.
+5. The source note's type is `journal`, the closest canonical fit for a captured session; `question` would have needed a title ending in "?" and the Luhmann-style filename.
 
 ### Validation
 

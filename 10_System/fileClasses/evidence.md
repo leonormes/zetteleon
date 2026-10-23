@@ -1,7 +1,8 @@
 ---
+baseFile: 02_bases/evidence.base
+baseView: evidence
+created: 2026-09-22T10:00:25+00:00
 extends: Note
-icon: search
-version: '1.0'
 fields:
 - name: source_quote
   id: source_quote
@@ -23,11 +24,12 @@ fields:
     max: 1
     step: 0.1
   path: ''
+icon: search
+modified: 2026-10-22T15:11:08+00:00
 permalink: llmeon/10-system/file-classes/evidence-1
-baseFile: 02_bases/evidence.base
-baseView: evidence
+version: '1.0'
 ---
 
-# Evidence
+## Evidence
 
 Per [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]] §3.3 `EvidenceNote`. `title` is a descriptive title of the evidence; `source_quote` is a direct extraction only, not a paraphrase.

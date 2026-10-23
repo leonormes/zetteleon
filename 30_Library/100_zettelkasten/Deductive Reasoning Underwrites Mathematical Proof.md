@@ -6,7 +6,7 @@ contradicts: []
 created: 2025-11-01T11:22:13+00:00
 epistemic_status: high
 evidence_links: []
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:17+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/100-zettelkasten/deductive-reasoning-underwrites-mathematical-proof
 proposition: 'Deductive reasoning forms the logical backbone of mathematical proof: starting from accepted axioms, applying valid inference rules, and deriving theorems whose truth is thereby guaranteed for every case the axioms cover.'
@@ -49,4 +49,4 @@ The interplay between inductive pattern-spotting (discovery) and deductive proof
 - [[Formalism (Mathematics as Symbol Manipulation)]]—_Formalism's "proof is a valid sequence of moves" analogy is this note's deductive structure restated in symbol-manipulation terms; that note now declares `depends_on` this one._
 - [[Mathematics as a Logical Maze (Metaphor)]]—_That note's pedagogical illustration of this one: pathways are deductive chains, dead ends are invalid inferences, multiple routes are alternative valid proofs._
 - [[Logic Is the Grammar of Rigorous Argument]]—_The syntax and inference rules this note's deductive process operates within._
-- [[Claim - Deduction is informative because computation is a physical causal process bounded by time]]—*a challenge to the idea that deduction adds nothing new.*
+- [[Claim - Deduction is informative because computation is a physical causal process bounded by time]]—_a challenge to the idea that deduction adds nothing new._

@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-20T08:00:03+00:00
 last_reviewed: '2025-12-16T00:00:00.000Z'
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/motion-creates-emotion-to-overcome-inertia
 status: draft
 tags: [experiment, hypothesis, TheHuman/Health/ADHD, TheHuman/Motivation, TheHuman/Psychology, topic/productivity]
@@ -50,4 +50,4 @@ Original Context:
 
 ### Related
 
-- [[The 5-Minute Action Overcomes Initiation Barriers]]—*a practical use of the principle.*
+- [[The 5-Minute Action Overcomes Initiation Barriers]]—_a practical use of the principle._

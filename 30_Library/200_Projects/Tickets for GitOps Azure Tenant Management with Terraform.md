@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-03-05T01:25:01+00:00
 last_reviewed: ''
-modified: 2026-09-29T10:37:40+00:00
+modified: 2026-10-22T15:11:09+00:00
 permalink: llmeon/30-library/200-projects/tickets-for-git-ops-azure-tenant-management-with-terraform
 project_category: infrastructure
 project_name: DevOps

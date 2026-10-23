@@ -2,7 +2,7 @@
 aliases: [Generalist Advantage]
 conformant: false
 created: 2025-11-01T12:30:07+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:16+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/generalists-have-an-advantage-in-the-information-age
 tags: [generalism, information-age, specialization]
@@ -18,4 +18,4 @@ Details: While specialists thrived when knowledge was scarce, the current era is
 
 ### Related
 
-- [[Early Specialization Rarely Leads to Long-Term Advantages]]—*the evidence on the other side.*
+- [[Early Specialization Rarely Leads to Long-Term Advantages]]—_the evidence on the other side._

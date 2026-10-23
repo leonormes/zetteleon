@@ -2,7 +2,7 @@
 aliases: [Certainty Gap, Synthesis Gap]
 conformant: false
 created: 2025-11-06T20:01:02+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:18+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/certainty-and-synthesis-gaps-are-internal-barriers-to-group-understanding
 tags: [collaboration, communication, group-dynamics, knowledge, TheHuman/Cognition/bias]
@@ -17,6 +17,6 @@ Details:
 - The Certainty Gap: This is the gap between a team's _perceived_ understanding and their _actual_ collective knowledge. It is a measure of overconfidence, often driven by cognitive biases like the Dunning-Kruger effect or groupthink.
 - The Synthesis Gap: This is the gap between a team's total _potential_ knowledge and the knowledge they actually manage to synthesize and use. This gap is created by process losses, such as inefficient communication, poor documentation, or a failure to integrate diverse perspectives.
 
-### Related
+## Related
 
-- [[The World's Ambiguity Drives the Need for Certainty]]—*why certainty is craved.*
+- [[The World's Ambiguity Drives the Need for Certainty]]—_why certainty is craved._

@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-11-22T15:05:01+00:00
 last_reviewed: '2025-11-22'
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:14+00:00
 permalink: llmeon/30-library/100-zettelkasten/strategy-hierarchical-subnetting
 status: seed
 tags: [best-practices, SoftwareEngineering/Networking, terraform]
@@ -25,4 +25,4 @@ This improves readability by making the "location" of subnets within the address
 
 ### Related
 
-- [[Bit Manipulation Optimizes Network Prefix Storage and Matching]]—*the bit-level view of prefixes.*
+- [[Bit Manipulation Optimizes Network Prefix Storage and Matching]]—_the bit-level view of prefixes._

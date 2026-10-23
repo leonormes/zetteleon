@@ -3,7 +3,7 @@ aliases: [file descriptor, socket handle]
 conformant: false
 created: 2025-10-31T13:40:00+00:00
 epistemic_status: high
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:17+00:00
 non_conformance_reason: "missing required field - type"
 permalink: llmeon/30-library/100-zettelkasten/file-descriptor-as-os-socket-handle
 prodos.kind: claim
@@ -43,4 +43,4 @@ The file descriptor concept embodies the Unix principle that "everything is a fi
 
 ### Related
 
-- [[Server Socket Scalability Limits]]—*each socket consumes a descriptor, which bounds how many a server can hold.*
+- [[Server Socket Scalability Limits]]—_each socket consumes a descriptor, which bounds how many a server can hold._

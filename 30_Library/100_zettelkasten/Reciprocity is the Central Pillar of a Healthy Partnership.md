@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-11-10T10:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/reciprocity-is-the-central-pillar-of-a-healthy-partnership
 proposition: In a healthy partnership, the expectations one partner has for the other should be the same expectations they are willing to meet themselves.
 tags: [partnership, principle, relationship]
@@ -21,4 +21,4 @@ Details: This principle of mutuality applies to nearly all aspects of a relation
 
 ### Related
 
-- [[Teamwork in a Partnership is Built on Shared Goals Reliability and Mutual Appreciation]]—*reciprocity in daily teamwork.*
+- [[Teamwork in a Partnership is Built on Shared Goals Reliability and Mutual Appreciation]]—_reciprocity in daily teamwork._

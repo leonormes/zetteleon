@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-11-10T10:21:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:17+00:00
 permalink: llmeon/30-library/100-zettelkasten/dismissing-a-partners-needs-as-inconvenient-signals-a-lack-of-empathy
 proposition: "When one partner views the other's needs and wishes as inconvenient or an affront, it signals a significant lack of empathy and mutual respect within the relationship."
 tags: [conflict, empathy, relationship, respect]
@@ -21,4 +21,4 @@ Details: A healthy partnership requires that each person's input is treated as a
 
 ### Related
 
-- [[The No Solution Deflection in Difficult Conversations]]—*a related dismissive move.*
+- [[The No Solution Deflection in Difficult Conversations]]—_a related dismissive move._

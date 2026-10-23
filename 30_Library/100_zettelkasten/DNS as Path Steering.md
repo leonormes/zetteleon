@@ -2,7 +2,7 @@
 created: 2026-04-14T11:11:37+00:00
 created_utc: '2026-04-14T10:35:00Z'
 kind: distinction
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:17+00:00
 permalink: llmeon/30-library/100-zettelkasten/dns-as-path-steering
 source_title: Networking Is Label Transformation Under Policy
 source_url: N/A
@@ -34,7 +34,7 @@ Particularly relevant in split-horizon DNS configurations and hybrid cloud envir
 
 - [[SoT - Cloud Networking Core Components]]—shared mechanism: routing and segmentation decisions are often prefixed by DNS resolution.
 - [[MOC - DNS Core Concepts and Mechanisms]]—extends: provides the technical foundations for how these records are served.
-- [[Split-Horizon DNS Decouples Service Names from Network Topology]]—*split-horizon DNS is a concrete instance of this steering.*
+- [[Split-Horizon DNS Decouples Service Names from Network Topology]]—_split-horizon DNS is a concrete instance of this steering._
 
 ### See Also
 

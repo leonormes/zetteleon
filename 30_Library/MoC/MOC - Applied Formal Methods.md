@@ -1,7 +1,7 @@
 ---
 aliases: [AFM Hub, Applied Formal Methods Index, Formal Foundations Hub]
 created: 2026-04-19T09:00:00+00:00
-modified: 2026-09-29T10:38:02+00:00
+modified: 2026-10-22T15:11:13+00:00
 permalink: llmeon/30-library/mo-c/moc-applied-formal-methods
 see_also: ["[[MOC - Formal Logic & Philosophy (Triage)]]", "[[MOC - The Unified Systems Paradigm]]"]
 supersedes: ['[[MOC - Formal Logic & Philosophy (Triage)]]']

@@ -5,7 +5,7 @@ created: 2026-09-25T15:59:57+00:00
 created_utc: '2026-09-25T16:00:00Z'
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/pro-social-punishment-restores-cooperation
 proposition: In the Public Goods Game, when players may pay to punish free riders,
   contributions typically rise even when the punishers gain nothing from punishing.
@@ -43,4 +43,4 @@ Laboratory finding by Fehr and Gaechter using costly punishment. Why people puni
 - [[Cooperation Runs on Feelings]]—shared mechanism: cooperation enforced by feeling rather than calculation
 - [[Self-Interested Herders Erode a Shared Pasture Because Its Cost Is Shared]]—shared mechanism: the game is a laboratory analogue of the commons parable
 - [[Morality Evolved Through Competition Between Groups]]—extends: one debated explanation for the punishing instinct is selection between groups
-- [[Treating State Coercion as Equivalent to Interpersonal Coercion Is a Contested Anarcho-Capitalist Argument, Not a Neutral Analysis]]—*a contested argument about when coercion is justified.*
+- [[Treating State Coercion as Equivalent to Interpersonal Coercion Is a Contested Anarcho-Capitalist Argument, Not a Neutral Analysis]]—_a contested argument about when coercion is justified._

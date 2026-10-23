@@ -2,7 +2,7 @@
 aliases: [Statistical Science]
 created: 2025-11-01T11:22:13+00:00
 last_reviewed: '2025-11-01T00:00:00.000Z'
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:14+00:00
 permalink: llmeon/30-library/100-zettelkasten/statistics-definition
 status: seed
 tags: [fields, topic/maths]
@@ -24,6 +24,6 @@ Core Activities:
 
 Purpose: Statistics provides the mathematical tools for reasoning about uncertainty when we have observed data but incomplete information about the underlying processes.
 
-### Related
+## Related
 
-- [[Probability (Definition)]]—*the theoretical basis statistics relies on.*
+- [[Probability (Definition)]]—_the theoretical basis statistics relies on._

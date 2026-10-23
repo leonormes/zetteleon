@@ -1,15 +1,10 @@
 ---
 conformant: false
 created: 2025-10-31T12:56:00+00:00
-modified: 2026-10-12T00:00:00+00:00
+modified: 2026-10-22T15:11:17+00:00
 non_conformance_reason: "Title is not in How to do X format and renaming would break nine inbound links"
-steps:
-  - Notice the defensive reaction and name it as a reaction to criticism
-  - Strip away the tone and delivery to find the factual claim underneath
-  - Assume the intent is to give you data to improve
-  - Pick out the specific behaviour or output that can be changed and discard vague judgements
-  - Ask what part you can control
 permalink: llmeon/30-library/100-zettelkasten/cognitive-reframing-of-criticism
+steps: [Ask what part you can control, Assume the intent is to give you data to improve, Notice the defensive reaction and name it as a reaction to criticism, Pick out the specific behaviour or output that can be changed and discard vague judgements, Strip away the tone and delivery to find the factual claim underneath]
 tags: [growth, TheHuman/Psychology]
 title: Cognitive Reframing of Criticism
 trigger: When criticism is received and it feels like a personal attack or sets off a defensive reaction

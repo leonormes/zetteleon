@@ -2,7 +2,7 @@
 aliases: [Calculus]
 created: 2025-11-01T11:22:13+00:00
 last_reviewed: '2025-11-01T00:00:00.000Z'
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/calculus-definition
 status: seed
 tags: [fields, topic/maths]
@@ -24,6 +24,6 @@ Synthesis of Structures: Calculus combines the algebraic structure of numbers (q
 
 Applications: Essential for physics (motion), engineering (optimization), economics (marginal analysis), and any field involving rates of change.
 
-### Related
+## Related
 
-- [[Analysis (Definition)]]—*the rigorous foundation behind calculus.*
+- [[Analysis (Definition)]]—_the rigorous foundation behind calculus._

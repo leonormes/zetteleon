@@ -2,7 +2,7 @@
 aliases: [qdisc]
 conformant: false
 created: 2025-11-22T15:00:04+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:17+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/concept-linux-queuing-discipline
 tags: [SoftwareEngineering/networking/kernel]
@@ -20,4 +20,4 @@ Qdiscs act as a buffer and traffic control system to smooth out bursts, share ba
 
 ### Related
 
-- [[Concept - NIC Direct Memory Access]]—*how packets then reach the NIC.*
+- [[Concept - NIC Direct Memory Access]]—_how packets then reach the NIC._

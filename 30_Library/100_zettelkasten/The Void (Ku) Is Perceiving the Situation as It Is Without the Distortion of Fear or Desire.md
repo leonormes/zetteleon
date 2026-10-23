@@ -1,31 +1,25 @@
 ---
-aliases:
-- The Void
-- Ku
+aliases: [Ku, The Void]
 conformant: true
 contradicts: []
-created: 2026-10-21 13:00:00+00:00
+created: 2026-10-21T13:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-21 13:00:00+00:00
+modified: 2026-10-22T15:11:13+00:00
+permalink: llmeon/30-library/100-zettelkasten/the-void-ku-is-perceiving-the-situation-as-it-is-without-the-distortion-of-fear-or-desire
 proposition: Musashi describes the Void as a state free from confusion in which the
   situation is seen as it is and not as one fears it to be, because emotion acts as
   a lens that distorts reality.
 status: seed
-tags:
-- musashi
-- emotional_regulation
-- TheHuman/Philosophy
-- epistemology
+tags: [emotional_regulation, epistemology, musashi, TheHuman/Philosophy]
 title: The Void (Ku) Is Perceiving the Situation as It Is Without the Distortion of
   Fear or Desire
 type: claim
-permalink: llmeon/30-library/100-zettelkasten/the-void-ku-is-perceiving-the-situation-as-it-is-without-the-distortion-of-fear-or-desire
 ---
 
 ## The Void (Ku) Is Perceiving the Situation as It Is Without the Distortion of Fear or Desire
 
-In the Book of Void, the last scroll of *The Book of Five Rings*, Musashi describes the ultimate state as one free from confusion. Emotions often act as a lens that distorts reality, as when "I feel this is impossible" is taken for a fact. In the Void the lens is removed and the situation is seen as it is and not as one fears it to be.
+In the Book of Void, the last scroll of _The Book of Five Rings_, Musashi describes the ultimate state as one free from confusion. Emotions often act as a lens that distorts reality, as when "I feel this is impossible" is taken for a fact. In the Void the lens is removed and the situation is seen as it is and not as one fears it to be.
 
 ### Scope & Conditions
 

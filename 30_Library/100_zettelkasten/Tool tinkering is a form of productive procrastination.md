@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-08-23T20:59:17+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-13T00:00:00+00:00
+modified: 2026-10-22T15:11:13+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/tool-tinkering-is-a-form-of-productive-procrastination
 proposition: Adjusting settings, exploring plugins and organising files can feel productive while avoiding the harder work, which makes tool tinkering a form of procrastination

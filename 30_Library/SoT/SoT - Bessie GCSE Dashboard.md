@@ -3,7 +3,7 @@ aliases: [Bessie Dashboard]
 conformant: true
 created: 2026-01-08T07:48:54+00:00
 last_reviewed: ''
-modified: 2026-09-29T10:38:08+00:00
+modified: 2026-10-22T15:11:12+00:00
 permalink: llmeon/30-library/so-t/so-t-bessie-gcse-dashboard
 status: stable
 tags: [bessie, dashboard, education]

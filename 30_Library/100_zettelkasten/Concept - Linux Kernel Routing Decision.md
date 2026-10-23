@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-11-22T15:00:02+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:17+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/concept-linux-kernel-routing-decision
 tags: [SoftwareEngineering/networking/routing]
@@ -24,4 +24,4 @@ Advanced configurations can use `ip rule` to consult multiple routing tables bas
 
 ### Related
 
-- [[Concept - Netfilter Hooks]]—*the hooks around the routing decision.*
+- [[Concept - Netfilter Hooks]]—_the hooks around the routing decision._

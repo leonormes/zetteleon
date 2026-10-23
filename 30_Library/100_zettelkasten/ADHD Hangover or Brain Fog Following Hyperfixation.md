@@ -5,13 +5,10 @@ contradicts: []
 created: 2025-11-01T11:37:53+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-14T08:30:17+00:00
+modified: 2026-10-22T15:11:19+00:00
 permalink: llmeon/30-library/100-zettelkasten/adhd-hangover-or-brain-fog-following-hyperfixation
 proposition: After a hyperfixation crash the ADHD brain enters a fallow dopamine-deficit period of apathy, cognitive fog and shame that lasts hours to weeks until a new stimulus triggers the next cycle.
-tags:
-- brain-fog
-- hyperfixation
-- TheHuman/Health/ADHD
+tags: [brain-fog, hyperfixation, TheHuman/Health/ADHD]
 title: ADHD Hangover or Brain Fog Following Hyperfixation
 type: claim
 ---

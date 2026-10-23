@@ -2,7 +2,7 @@
 aliases: [System Trust]
 conformant: false
 created: 2025-11-10T15:17:00+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:14+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/the-framework-builds-system-trust
 tags: [reliability, topic/productivity, topic/systems, trust]
@@ -19,4 +19,4 @@ Details: When a productivity system consistently delivers clear, actionable item
 ## Related
 
 - [[The Atomic Action Framework Supports Executive Function]] - Explores how clear frameworks reduce cognitive load.
-- [[Confidence as Trust in Process Not Certainty in Outcomes]]—*trust grounded in process rather than outcomes.*
+- [[Confidence as Trust in Process Not Certainty in Outcomes]]—_trust grounded in process rather than outcomes._

@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-02-08T10:50:33+00:00
 last_reviewed: ''
-modified: 2026-09-29T10:37:30+00:00
+modified: 2026-10-22T15:11:10+00:00
 permalink: llmeon/30-library/200-projects/duplication-in-code-can-indicate-underlying-problems
 project_category: development
 project_name: SDLC

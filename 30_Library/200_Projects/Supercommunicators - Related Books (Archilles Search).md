@@ -1,7 +1,7 @@
 ---
 conformant: false
 created: 2026-09-29T13:15:00+01:00
-modified: 2026-10-05T17:51:51+00:00
+modified: 2026-10-22T15:11:09+00:00
 non_conformance_reason: "Agent-generated capture note (a book list for a Gemini notebook), not one of the five canonical knowledge-node types; routed under link_report as the closest fit."
 permalink: llmeon/00-inbox/supercommunicators-related-books-archilles-search
 source: Archilles RAG search (search_books_with_citations) over the Calibre library, plus direct metadata.db lookups

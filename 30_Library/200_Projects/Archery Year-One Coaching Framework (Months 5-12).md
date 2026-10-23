@@ -1,8 +1,8 @@
 ---
-aliases: [Coaching framework months 5-12, Archery year-one plan]
+aliases: [Archery year-one plan, Coaching framework months 5-12]
 conformant: false
 created: 2026-10-08T09:48:42+00:00
-modified: 2026-10-08T11:00:00+00:00
+modified: 2026-10-22T15:11:10+00:00
 non_conformance_reason: LLM-generated plan, not yet reviewed by Leon or the club coach
 permalink: llmeon/30-library/200-projects/archery-year-one-coaching-framework
 project_category: personal
@@ -20,10 +20,10 @@ Hub: [[MOC - Archery Shot Process]]. Shelved ideas go to [[Archery Year-Two Inbo
 
 ### Status and How to Use This Note
 
-- **Status:** draft plan from an LLM session on 2026-10-08. Not yet reviewed by the club coach.
-- **Start here:** do not adopt everything at once. Begin with three metrics: execution rate (% A), group-relative outliers and let-down count. Add the others from section 2 only when those three feel automatic.
-- **Before Block 1:** settle the tab question (see Pressure-test First, item 1) and write the one-sentence A-shot definition (see Next Action).
-- **Unverified inputs:** the scores, classification and draw-weight figures quoted below come from the session and were not re-checked against the score logs.
+- Status: draft plan from an LLM session on 2026-10-08. Not yet reviewed by the club coach.
+- Start here: do not adopt everything at once. Begin with three metrics: execution rate (% A), group-relative outliers and let-down count. Add the others from section 2 only when those three feel automatic.
+- Before Block 1: settle the tab question (see Pressure-test First, item 1) and write the one-sentence A-shot definition (see Next Action).
+- Unverified inputs: the scores, classification and draw-weight figures quoted below come from the session and were not re-checked against the score logs.
 
 ### Where This Plan Meets the Vault
 

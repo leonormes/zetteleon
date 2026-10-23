@@ -1,7 +1,7 @@
 ---
 created: 2026-04-09T08:57:06+00:00
 description: "Step 1 of 2 in the atomic-capture pipeline. Extracts atomic knowledge units from a source text and writes them to a tmp_atoms_*.md file in 00_Inbox/. Always followed by Atomic Linker → Promote & Connect (step 2) — never run standalone."
-modified: 2026-07-20T16:34:40+00:00
+modified: 2026-10-22T15:11:08+00:00
 permalink: llmeon/10-system/prompts/atomic-signal-extractor-write-tmp-file
 tags: [domain/pkm, pipeline/atomic-capture, type/system]
 title: Atomic Signal Extractor → Write TMP file

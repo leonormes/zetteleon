@@ -1,7 +1,7 @@
 ---
 created: 2026-07-11T12:10:20+00:00
 excalidraw-plugin: parsed
-modified: 2026-07-20T16:33:34+00:00
+modified: 2026-10-22T15:11:04+00:00
 permalink: llmeon/excalidraw/time-management
 tags: [excalidraw]
 title: Time Management

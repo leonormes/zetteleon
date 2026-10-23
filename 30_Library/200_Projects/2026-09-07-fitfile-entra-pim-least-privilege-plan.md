@@ -1,7 +1,7 @@
 ---
 conformant: true
 created: 2026-09-07T11:26:10+00:00
-modified: 2026-09-29T10:37:27+00:00
+modified: 2026-10-22T15:11:10+00:00
 permalink: llmeon/30-library/200-projects/2026-09-07-fitfile-entra-pim-least-privilege-plan
 project_category: devops
 project_name: Entra IAM Hardening
@@ -39,7 +39,7 @@ Audit identity: `leon.ormes@fitfile.com` (Business Premium/P1 + Entra ID P2). Re
 > 4. [R1 RESCOPED] Terraform's Azure-side privilege is worse than reported. `Terraform AAD Provisioner` holds unconstrained `User Access Administrator` at the `FITFILE` management group, inherited to every subscription beneath it. Revision 1 only caught the Vault SP's assignment.
 > 5. [R1 WRONG] Scope: there are six subscriptions and four management groups, not two. Revision 1 audited `FITCloud Non-Production` and `Shared Services` only. See §1.9. _(Revision 2 also miscounted this as seven, including an out-of-scope customer subscription—corrected in Revision 3 above.)_
 > 6. The two audit gaps are not role problems and Global Reader does not fix them. The Azure CLI application has no service principal in this tenant, so it holds no consent grant—its token simply never carries `RoleManagement.Read.All` or `Policy.Read.All`. See §1.6.
-> 
+>
 > Revision 1's _design_ recommendations (tiering, OIDC federation, eligibility-in-git, what to keep out of Terraform) all survive unchanged. The findings table in §2 has been reordered accordingly.
 
 ---

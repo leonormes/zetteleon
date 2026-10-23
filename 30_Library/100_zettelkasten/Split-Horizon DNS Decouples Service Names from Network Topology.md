@@ -2,7 +2,7 @@
 aliases: [Split-Brain DNS, Split-View DNS]
 conformant: false
 created: 2025-12-24T12:00:00+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:14+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/split-horizon-dns-decouples-service-names-from-network-topology
 tags: [hybrid-cloud, SoftwareEngineering/networking/dns, SoftwareEngineering/Security]
@@ -33,5 +33,5 @@ This pattern allows hardcoded logical service names in application code to remai
 ## Related
 
 - [[SoT - FitFile Deployment - Networking and Security]]
-- [[SoT - DNS Core Components and Environments]]—*the deployment context where split-view DNS is used.*
-- [[DNS as Path Steering]]—*split-horizon is one way DNS steers a connection onto a particular path.*
+- [[SoT - DNS Core Components and Environments]]—_the deployment context where split-view DNS is used._
+- [[DNS as Path Steering]]—_split-horizon is one way DNS steers a connection onto a particular path._

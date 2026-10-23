@@ -2,7 +2,7 @@
 aliases: [Feedback Loops, Holistic Thinking, Systems Dynamics]
 conformant: true
 created: 2025-12-12T00:00:00+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:11+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-systems-thinking
 tags: [complexity, mental_models, thinking, topic/systems]
@@ -87,4 +87,4 @@ Donella Meadows identified that not all interventions are equal.
 
 ### Related
 
-- [[The Purpose of a System Dynamics Model Is to Make Assumptions Explicit, Not to Predict Outcomes]]—*what a system dynamics model is for.*
+- [[The Purpose of a System Dynamics Model Is to Make Assumptions Explicit, Not to Predict Outcomes]]—_what a system dynamics model is for._

@@ -5,7 +5,7 @@ created_utc: '2026-04-14T13:20:00Z'
 definition: Harness engineering is the orchestration of multiple AI agent sessions through deterministic workflows to ensure repeatable and verifiable software development outcomes, representing a shift from single prompt or context quality to system-level harnesses that coordinate agent interactions toward a specific goal.
 distinguishes_from: ["[[SoT - Context Engineering]]"]
 kind: definition
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:16+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/harness-engineering
 source_title: Archon and Extreme Harness Engineering
@@ -39,7 +39,7 @@ Applies to AI-assisted development seeking to move beyond the non-deterministic 
 
 - [[Graph-Based Orchestration]]—supports: providing the structural framework for complex agentic harnesses.
 - [[SoT - Context Engineering]]—extends: the stage this note says harness engineering moves on from; context engineering optimises the information reaching the model. [extends:: [[SoT - Context Engineering]]]
-- [[Red-Teaming System Design Before Implementation Surfaces Guardrail Gaps]]—*applies adversarial review at design time, a harness-level safeguard.*
+- [[Red-Teaming System Design Before Implementation Surfaces Guardrail Gaps]]—_applies adversarial review at design time, a harness-level safeguard._
 
 ### See Also
 
@@ -48,7 +48,6 @@ Applies to AI-assisted development seeking to move beyond the non-deterministic 
 ### Update (2026-09-21)
 
 The definition above treats a harness as a single layer of deterministic control. Later notes in the vault refine it:
-
 
 ### Maps
 

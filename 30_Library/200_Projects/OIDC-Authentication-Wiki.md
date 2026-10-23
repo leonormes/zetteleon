@@ -1,6 +1,6 @@
 ---
 created: 2026-06-05T10:48:15+00:00
-modified: 2026-09-29T10:37:38+00:00
+modified: 2026-10-22T15:11:09+00:00
 permalink: llmeon/30-library/200-projects/oidc-authentication-wiki
 project_category: refined_deployment
 project_name: Refined Deployment

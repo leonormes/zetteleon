@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-06-26T15:03:54+00:00
 last_reviewed: ''
-modified: 2026-10-16T00:00:00+00:00
+modified: 2026-10-22T15:11:13+00:00
 permalink: llmeon/30-library/mo-c/moc-emotional-dysregulation
 tags: [emotion, TheHuman/Cognition, TheHuman/Health/ADHD, TheHuman/Psychology]
 title: MOC - Emotional Dysregulation
@@ -32,29 +32,29 @@ ADHD brains process emotions differently, leading to "intense or unpredictable e
 
 ### Mechanisms
 
-- [[The Glitchy Switch - TPN and DMN Dysregulation in ADHD]] - *The network-level account of why emotions and rumination run on.*
-- [[The DMN as a Demon - Negative Rumination in ADHD]] - *How the default mode network feeds negative loops.*
-- [[SoT - The Emotional Bottleneck Hypothesis]] - *Proposes emotion as the limiting step in ADHD function.*
-- [[Cerebellum Function and Exercise for ADHD Regulation]] - *A physical route to emotional stability.*
+- [[The Glitchy Switch - TPN and DMN Dysregulation in ADHD]] - _The network-level account of why emotions and rumination run on._
+- [[The DMN as a Demon - Negative Rumination in ADHD]] - _How the default mode network feeds negative loops._
+- [[SoT - The Emotional Bottleneck Hypothesis]] - _Proposes emotion as the limiting step in ADHD function._
+- [[Cerebellum Function and Exercise for ADHD Regulation]] - _A physical route to emotional stability._
 
 ### Patterns
 
-- [[Rejection Sensitivity Is an Established Research Construct; RSD Is a Popular Term Without Formal Diagnostic Status]] - *Caveat on how far the RSD label can be trusted.*
-- [[Defensive Hypervigilance]] - *The self-protective scanning for criticism that rejection sensitivity produces.*
-- [[Productive vs Destructive Shame]] - *Separates shame that corrects behaviour from shame that damages self-worth.*
-- [[What's the Difference Between Shame Humiliation and Embarrassment]] - *Distinguishes the three emotions often lumped together.*
-- [[ADHD Emotional Reasoning]] - *Treating a feeling as evidence of fact.*
-- [[Misinterpretation as Character Flaws]] - *How dysregulated responses get read as flaws of character.*
+- [[Rejection Sensitivity Is an Established Research Construct; RSD Is a Popular Term Without Formal Diagnostic Status]] - _Caveat on how far the RSD label can be trusted._
+- [[Defensive Hypervigilance]] - _The self-protective scanning for criticism that rejection sensitivity produces._
+- [[Productive vs Destructive Shame]] - _Separates shame that corrects behaviour from shame that damages self-worth._
+- [[What's the Difference Between Shame Humiliation and Embarrassment]] - _Distinguishes the three emotions often lumped together._
+- [[ADHD Emotional Reasoning]] - _Treating a feeling as evidence of fact._
+- [[Misinterpretation as Character Flaws]] - _How dysregulated responses get read as flaws of character._
 
 ### Responses
 
-- [[Emotional Regulation Techniques for ADHD Productivity]] - *Practical techniques; it already points back to this map.*
-- [[Reframing Negative Thought Patterns in ADHD]] - *Cognitive reframing of self-critical loops.*
-- [[Self-Regulation is Managing Your Emotions and Actions]] - *The general capacity this map is about when it fails.*
-- [[SoT - ADHD Self-Compassion & Strengths]] - *The strengths-based response to secondary shame.*
-- [[SoT - The Philosophy of the Absurd (Camus)]] - *Source for the Sisyphus reframe mentioned above.*
-- [[Achieving Mental Stability]] - *Musashi: removing expectations prevents emotional turmoil, and stability is a continuous practice, not a destination.*
-- [[Fudo The Path of Immovability]] - *Musashi's unshakable composure, the mental stability he held paramount.*
-- [[Heijo-shin Is a Candidate Counter-Measure to Emotional Dysregulation and Rejection Sensitivity in ADHD]] - *A Musashi-derived hypothesis, untested: holding the everyday baseline to shorten the swing and its consequences.*
-- [[How to Use the Pause to Separate the Signal From the Emotional Noise]] - *A short routine for turning a reaction into a response.*
-- [[Fudo-shin Is a Mind That Does Not Stick on Anything, So Immovable Means Fluid]] - *Refines the "unshakable composure" note above: not sticking, as opposed to rigidity.*
+- [[Emotional Regulation Techniques for ADHD Productivity]] - _Practical techniques; it already points back to this map._
+- [[Reframing Negative Thought Patterns in ADHD]] - _Cognitive reframing of self-critical loops._
+- [[Self-Regulation is Managing Your Emotions and Actions]] - _The general capacity this map is about when it fails._
+- [[SoT - ADHD Self-Compassion & Strengths]] - _The strengths-based response to secondary shame._
+- [[SoT - The Philosophy of the Absurd (Camus)]] - _Source for the Sisyphus reframe mentioned above._
+- [[Achieving Mental Stability]] - _Musashi: removing expectations prevents emotional turmoil, and stability is a continuous practice, not a destination._
+- [[Fudo The Path of Immovability]] - _Musashi's unshakable composure, the mental stability he held paramount._
+- [[Heijo-shin Is a Candidate Counter-Measure to Emotional Dysregulation and Rejection Sensitivity in ADHD]] - _A Musashi-derived hypothesis, untested: holding the everyday baseline to shorten the swing and its consequences._
+- [[How to Use the Pause to Separate the Signal From the Emotional Noise]] - _A short routine for turning a reaction into a response._
+- [[Fudo-shin Is a Mind That Does Not Stick on Anything, So Immovable Means Fluid]] - _Refines the "unshakable composure" note above: not sticking, as opposed to rigidity._

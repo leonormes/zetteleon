@@ -3,7 +3,7 @@ aliases: []
 conformant: true
 created: 2026-01-03T10:18:04+00:00
 last_reviewed: ''
-modified: 2026-09-29T10:38:08+00:00
+modified: 2026-10-22T15:11:12+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-cognitive-engineering-protocols
 tags: []

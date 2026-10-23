@@ -1,25 +1,19 @@
 ---
-aliases:
-- Embrace Your True Expenses
-- True Expenses
-- Sinking Funds
+aliases: [Embrace Your True Expenses, Sinking Funds, True Expenses]
 conformant: true
 contradicts: []
-created: 2026-10-21 09:00:00+00:00
+created: 2026-10-21T09:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-21 09:00:00+00:00
+modified: 2026-10-22T15:11:17+00:00
+permalink: llmeon/30-library/100-zettelkasten/embrace-your-true-expenses-ynab-rule-2
 proposition: Treating large irregular bills as monthly instalments saved in advance
   turns predictable surprises into planned costs and removes the cash crunch that
   forces money away from other jobs.
 status: draft
-tags:
-- budgeting
-- finance
-- ynab
+tags: [budgeting, finance, ynab]
 title: Embrace Your True Expenses (YNAB Rule 2)
 type: claim
-permalink: llmeon/30-library/100-zettelkasten/embrace-your-true-expenses-ynab-rule-2
 ---
 
 ## Embrace Your True Expenses (YNAB Rule 2)

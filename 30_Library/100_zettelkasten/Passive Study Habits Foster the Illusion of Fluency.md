@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-11-10T16:02:00+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:15+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/passive-study-habits-foster-the-illusion-of-fluency
 tags: [learning, TheHuman/Cognition/bias, TheHuman/Habits]
@@ -14,6 +14,6 @@ Summary: Common passive study habits, such as rereading texts and highlighting k
 
 Details: These activities create a sense of familiarity with the material that does not translate into durable memory or the ability to recall information without cues. They increase processing fluency without ensuring deep encoding, leading learners to mistakenly believe they have mastered the content. Mistaking recognition for recall is another common pitfall.
 
-### Related
+## Related
 
-- [[Feynman Technique Deepens Learning Through Teaching]]—*an active alternative.*
+- [[Feynman Technique Deepens Learning Through Teaching]]—_an active alternative._

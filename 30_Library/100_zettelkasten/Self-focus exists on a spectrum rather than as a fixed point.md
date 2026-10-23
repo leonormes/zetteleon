@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-10-30T00:00:00+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:14+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/self-focus-exists-on-a-spectrum-rather-than-as-a-fixed-point
 source: '[[MOC - Understanding Self-Focus in Neurodivergent Individuals]]'
@@ -16,5 +16,5 @@ The concept of "normal" self-focus does not exist as a single fixed point or mea
 ## Related
 
 - [[Hyperfocus is a State of Intense Interest-Driven Focus in ADHD]]
-- [[Balanced relationships involve active listening remembering events offering help and sharing conversation time]]—*behaviours that indicate appropriate other-focus.*
-- [[Dereflection Counters Rumination by Redirecting Attention from Self to External Values]]—*a technique for moving along the spectrum when self-focus becomes rumination.*
+- [[Balanced relationships involve active listening remembering events offering help and sharing conversation time]]—_behaviours that indicate appropriate other-focus._
+- [[Dereflection Counters Rumination by Redirecting Attention from Self to External Values]]—_a technique for moving along the spectrum when self-focus becomes rumination._

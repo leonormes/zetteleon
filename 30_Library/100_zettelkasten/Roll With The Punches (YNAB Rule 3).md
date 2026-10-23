@@ -1,26 +1,19 @@
 ---
-aliases:
-- Roll With The Punches
-- Move Money Between Categories
-- Whack-a-Mole
+aliases: [Move Money Between Categories, Roll With The Punches, Whack-a-Mole]
 conformant: true
 contradicts: []
-created: 2026-10-21 09:00:00+00:00
+created: 2026-10-21T09:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-21 09:00:00+00:00
+modified: 2026-10-22T15:11:14+00:00
+permalink: llmeon/30-library/100-zettelkasten/roll-with-the-punches-ynab-rule-3
 proposition: Moving money between categories when plans meet reality is the budget
   working as designed, because it makes the true cost of an overspend visible instead
   of hiding it behind guilt.
 status: draft
-tags:
-- budgeting
-- finance
-- ynab
-- resilience
+tags: [budgeting, finance, resilience, ynab]
 title: Roll With The Punches (YNAB Rule 3)
 type: claim
-permalink: llmeon/30-library/100-zettelkasten/roll-with-the-punches-ynab-rule-3
 ---
 
 ## Roll With The Punches (YNAB Rule 3)

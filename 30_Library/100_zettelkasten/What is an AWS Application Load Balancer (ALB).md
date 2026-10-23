@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-10-24T14:25:58+00:00
 last_reviewed: ''
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:13+00:00
 permalink: llmeon/30-library/100-zettelkasten/what-is-an-aws-application-load-balancer-alb
 tags: [aws, load-balancing, SoftwareEngineering/Networking, SoftwareEngineering/networking/cloud-networking]
 title: What is an AWS Application Load Balancer (ALB)
@@ -25,7 +25,7 @@ ALBs are ideal for microservices and container-based applications.
 
 Related: Load Balancing Concepts, OSI Model - Layer 7 Application Layer
 
-### Related
+## Related
 
-- [[AWS ALB Best Practices]]—*operating guidance for the service.*
-- [[Load Balancer Health Checks Ensure Traffic is Routed Only to Healthy Servers]]—*how an ALB decides where to send traffic.*
+- [[AWS ALB Best Practices]]—_operating guidance for the service._
+- [[Load Balancer Health Checks Ensure Traffic is Routed Only to Healthy Servers]]—_how an ALB decides where to send traffic._

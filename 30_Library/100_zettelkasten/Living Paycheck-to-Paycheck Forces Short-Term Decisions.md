@@ -3,7 +3,7 @@ aliases: [The Paycheck Cycle Trap]
 conformant: false
 created: 2025-11-18T14:36:00+00:00
 epistemic_status: high
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:16+00:00
 non_conformance_reason: "missing required field - type"
 permalink: llmeon/30-library/100-zettelkasten/living-paycheck-to-paycheck-forces-short-term-decisions
 prodos.kind: claim
@@ -17,8 +17,8 @@ Living paycheck-to-paycheck traps you in a cycle of short-term thinking. When yo
 
 This constant state of financial scarcity consumes mental energy and makes it nearly impossible to plan for the future or build momentum toward larger goals. The primary goal of a robust budgeting system is to break this cycle, typically by following a principle like [[Age Your Money (YNAB Rule 4)]] to create a buffer.
 
-### Related
+## Related
 
-- [[Respectful Budgeting is a Collaborative Process Focused on Shared Goals and Autonomy]]—*planning together as a way out of short horizons.*
-- [[Age Your Money (YNAB Rule 4)]]—*the rule that builds the buffer and ends the short horizon.*
-- [[Reactive Spending Creates Financial Stress]]—*the same scarcity stress seen from the spending side.*
+- [[Respectful Budgeting is a Collaborative Process Focused on Shared Goals and Autonomy]]—_planning together as a way out of short horizons._
+- [[Age Your Money (YNAB Rule 4)]]—_the rule that builds the buffer and ends the short horizon._
+- [[Reactive Spending Creates Financial Stress]]—_the same scarcity stress seen from the spending side._

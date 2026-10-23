@@ -1,12 +1,9 @@
 ---
 aliases: []
 created: 2026-07-21T09:02:00+00:00
-modified: 2026-10-16T14:47:00+01:00
+modified: 2026-10-22T15:11:18+00:00
 permalink: llmeon/30-library/100-zettelkasten/archery-shot-process-anchor
-tags:
-- archery
-- prodos/atomic
-- technique
+tags: [archery, prodos/atomic, technique]
 title: Archery Shot Process - Anchor
 type: procedure
 ---
@@ -49,9 +46,9 @@ Anchor is the final reference for the full draw position and the point of maxima
    - Bow cant as a second lever: Sometimes a very small amount of bow cant sets the string position. For a right-handed archer the top limb tip should move slightly to the right; the archer is in a weaker position if it leans left. Nearly all archers need a very slight right cant to keep correct head position (PDF pp. 218 and 224).
    - Which way the arrows move: A captured summary says moving the string blur to the right of its reference pushes arrows left and moving it left pushes them right. This is not in the book passages read, so it is unverified.
    - _Purpose:_ Very small changes in head twist, tilt or lean change the string picture drastically. Correcting with a micro head tilt keeps the anchor hand locked, which protects the reference that matters most.
-10. **Pinky-to-Neck Contact (captured 2026-09-30):** Touch the tip of the drawing hand's pinky finger against the neck to help maintain a consistent hand pitch at anchor, alongside the thumb-in-pocket placement described in step 1.
+10. Pinky-to-Neck Contact (captured 2026-09-30): Touch the tip of the drawing hand's pinky finger against the neck to help maintain a consistent hand pitch at anchor, alongside the thumb-in-pocket placement described in step 1.
     - _Purpose:_ Keeps the hand pitch consistent at anchor. Stated in the capture; no deeper mechanism recorded.
-11. **Lock the Anchor (captured 2026-10-08):** Push everything down as you bring the hand into anchor, and crank the rear elbow around to lock the back tension in place ("relaxed shot" video, 00:07:54).
+11. Lock the Anchor (captured 2026-10-08): Push everything down as you bring the hand into anchor, and crank the rear elbow around to lock the back tension in place ("relaxed shot" video, 00:07:54).
     - _Purpose:_ Fixes the back tension at the moment of contact so the anchor does not loosen. Stated in the capture; the mechanism is not given. See Alternative Views for how this sits with the hinge in step 1.
 
 ### Why It Works
@@ -69,7 +66,6 @@ Anchor is the final reference for the full draw position and the point of maxima
 - Accepting the float naturally centers the shot subconsciously, while actively trying to hold still creates muscle tension and triggers target panic.
 - String alignment fixes lateral misses.
 - Proper String Oscillation: A slightly forward anchor point with minimal face contact allows the string to naturally travel inward upon release before kicking safely away from the body. This unrestricted oscillation ensures the back of the arrow completely clears the arrow rest.
-
 - Structural Mount versus Level and Crosshair (Gemini capture, 2026-10-16, unverified): Think of the hand-to-jaw contact as the structural mount that holds the back of the arrow in place and links string and arrow to the skeleton and back muscles. String contact at the nose and chin works as the level and crosshair, keeping the bow vertical and the head turn consistent.
 
 ### Faults & Diagnostics
@@ -85,7 +81,7 @@ Anchor is the final reference for the full draw position and the point of maxima
 - The Flaw of Trying to Hold Still: Forcing the body to hold the pin perfectly static degrades the sight picture and triggers shot anticipation.
 - Peep Alignment: Set the peep to the anchor, not the anchor to the peep. Adjust the peep along the bowstring if it's not centered naturally.
 - Lighting Illusions: The angle of sunlight or overhead lighting can make the string or sight pin appear to shift.
-- Rushing the Anchor & Floating Anchor Point: Shooting too fast or drawing the hand into open air away from the face (frequently caused by fear of string slap or contact) creates erratic, scattered impact points across the target face. Secure a **Corner-of-Smile Dual Reference Anchor**: anchor firmly with the index finger seated into the corner of the smile/mouth while maintaining solid bone contact along the jawbone to lock two distinct, repeatable reference points.
+- Rushing the Anchor & Floating Anchor Point: Shooting too fast or drawing the hand into open air away from the face (frequently caused by fear of string slap or contact) creates erratic, scattered impact points across the target face. Secure a Corner-of-Smile Dual Reference Anchor: anchor firmly with the index finger seated into the corner of the smile/mouth while maintaining solid bone contact along the jawbone to lock two distinct, repeatable reference points.
 - Losing Point of Aim (Autopilot Shooting): The most important aspect of aiming is paying attention. Rushing often means failing to consciously identify and state your reference point before releasing (e.g., placing the arrow tip over a specific spot when gap shooting). If you shoot purely on "autopilot" and guess your reference point, your arrows will scatter. Take an extra second to consciously confirm the aim before the shot breaks.
 - Side Anchor (Deep on the Face): Anchoring too far down the side of the face physically blocks the string's natural inward oscillation upon release. This forces the arrow to travel too close to the rest and pressure button, causing erratic flight. It also introduces unpredictable variables like sweaty skin or stubble altering how the string slips away.
 - Anchor Shifts Alter Draw Length: Shifting your anchor point forward will physically shorten your overall draw length. You will likely need to move your clicker forward (e.g., by about 1 cm) so you do not struggle to pull through the shot with your new alignment.
@@ -98,7 +94,7 @@ Anchor is the final reference for the full draw position and the point of maxima
 
 ### Training Drills
 
-#### Full-Shelf Contact Check (Gemini capture, 2026-10-16, unverified)
+#### Full-Shelf Contact Check (Gemini Capture, 2026-10-16, Unverified)
 
 - Purpose: Confirms the anchor is a full bone-to-bone shelf and not a single fingertip touching.
 - How to do it:

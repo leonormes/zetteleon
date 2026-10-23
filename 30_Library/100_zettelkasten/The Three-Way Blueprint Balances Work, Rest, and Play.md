@@ -2,7 +2,7 @@
 aliases: [Three-Way Planning]
 conformant: false
 created: 2025-11-01T21:09:00+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:13+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/the-three-way-blueprint-balances-work-rest-and-play
 tags: [method, scheduling, time-management, topic/productivity, work-life-balance]
@@ -16,6 +16,6 @@ Instead of only scheduling professional tasks, this method explicitly allocates 
 
 By creating a structure that honors the need for both productivity and downtime, this method promotes a more sustainable and balanced lifestyle.
 
-### Related
+## Related
 
-- [[Day Theming is a Macro Time Blocking Strategy]]—*another macro-level structure.*
+- [[Day Theming is a Macro Time Blocking Strategy]]—_another macro-level structure._

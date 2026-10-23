@@ -7,7 +7,7 @@ definition: In the framing Nir Eyal uses, a belief is a firmly held but provisio
   or not anyone believes it) and faith (a deep conviction that needs no objective
   evidence).
 distinguishes_from: ["[[The Traditional Definition of Knowledge is Justified True Belief]]"]
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:18+00:00
 permalink: llmeon/00-inbox/belief-between-fact-and-faith
 source_title: Beyond Belief - Beliefs as Practical Tools (LLM summary of Nir Eyal)
 source_url: calibre://view-book/GCcalibreBooks/1686/EPUB
@@ -44,7 +44,7 @@ A narrow, stipulative usage: belief is defined by its revisability, not by the s
 - [[The Traditional Definition of Knowledge is Justified True Belief]]—distinction: that note treats belief as a component of knowledge, whereas here belief is defined as provisional and revisable.
 - [[Probabilistic Thinking Treats Beliefs as Hypotheses With Confidence Levels]]—shared mechanism: both hold beliefs as revisable working hypotheses rather than fixed truths.
 - [[Enlightenment Thinkers Rejected Faith and Gut Feelings as Generators of Delusion]]—related, not conflicting: that note treats faith as a source of error, while here faith is one pole of the spectrum and the warning is against acting on it alone.
-- [[Most Critical Life Choices Sit in the Uncertain Ground Between Fact and Faith]]—*where the important decisions actually fall on that spectrum.*
+- [[Most Critical Life Choices Sit in the Uncertain Ground Between Fact and Faith]]—_where the important decisions actually fall on that spectrum._
 
 ### See Also
 

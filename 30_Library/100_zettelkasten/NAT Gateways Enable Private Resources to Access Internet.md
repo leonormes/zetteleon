@@ -2,7 +2,7 @@
 aliases: []
 conformant: false
 created: 2025-10-31T10:34:00+00:00
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:15+00:00
 non_conformance_reason: "missing schema field proposition for type claim (required when conformant - true); missing schema field contradicts for type claim (required when conformant - true); missing schema field evidence_links for type claim (required when conformant - true); missing schema field epistemic_status for type claim (required when conformant - true)"
 permalink: llmeon/30-library/100-zettelkasten/nat-gateways-enable-private-resources-to-access-internet
 tags: [cloud, SoftwareEngineering/Networking, SoftwareEngineering/Security]
@@ -43,4 +43,4 @@ Limitations:
 
 ### Related
 
-- [[Transit Gateway]]—*connecting VPCs once private egress is solved.*
+- [[Transit Gateway]]—_connecting VPCs once private egress is solved._

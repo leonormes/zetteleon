@@ -1,6 +1,6 @@
 ---
 created: 2026-09-09T08:39:54+00:00
-modified: 2026-09-29T10:38:22+00:00
+modified: 2026-10-22T15:11:08+00:00
 permalink: llmeon/00-inbox/pact-gitlab-llm-context
 title: pact-gitlab-llm-context
 type: note

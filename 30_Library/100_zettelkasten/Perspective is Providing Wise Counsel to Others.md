@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-12-10T12:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-12T00:00:00+00:00
+modified: 2026-10-22T15:11:15+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/perspective-is-providing-wise-counsel-to-others
 proposition: Perspective is the ability to provide wise counsel to others

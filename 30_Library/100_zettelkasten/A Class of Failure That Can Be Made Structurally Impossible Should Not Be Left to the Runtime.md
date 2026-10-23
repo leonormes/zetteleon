@@ -1,24 +1,20 @@
 ---
 conformant: true
 contradicts: []
-created: 2026-10-21 14:00:00+00:00
+created: 2026-10-21T14:00:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-21 14:00:00+00:00
+modified: 2026-10-22T15:11:19+00:00
+permalink: llmeon/30-library/100-zettelkasten/a-class-of-failure-that-can-be-made-structurally-impossible-should-not-be-left-to-the-runtime
 proposition: If a class of failure can be made structurally impossible in types, schemas,
   state files or scaffolds it should be, because leaving it to the runtime pays the
   complexity cost on every execution, though the cost of encoding it and the thin
   empirical base qualify how strongly this applies.
 status: seed
-tags:
-- formal-methods
-- topic/software-architecture
-- type-driven-design
-- complexity
+tags: [complexity, formal-methods, topic/software-architecture, type-driven-design]
 title: A Class of Failure That Can Be Made Structurally Impossible Should Not Be Left
   to the Runtime
 type: claim
-permalink: llmeon/30-library/100-zettelkasten/a-class-of-failure-that-can-be-made-structurally-impossible-should-not-be-left-to-the-runtime
 ---
 
 ## A Class of Failure That Can Be Made Structurally Impossible Should Not Be Left to the Runtime
@@ -37,7 +33,7 @@ If a class of failure can be made structurally impossible, in types, schemas, st
 > ([[SoT - Structure is Truth is a Unifying Axiom Across Formal Systems]], §3 Complexity Conservation, emphasis markers omitted)
 
 > "This is an example of the important design guideline, "Make illegal states unrepresentable." We're trying to capture business rules in the type system. If we do this properly, invalid situations can't ever exist in the code and we never need to write unit tests for them."
-> (Scott Wlaschin, *Domain Modeling Made Functional*, "Capturing Business Rules in the Type System")
+> (Scott Wlaschin, _Domain Modeling Made Functional_, "Capturing Business Rules in the Type System")
 
 ### Implications
 

@@ -1,7 +1,7 @@
 ---
 aliases: []
 created: 2026-07-21T00:00:00+00:00
-modified: 2026-09-29T10:38:02+00:00
+modified: 2026-10-22T15:11:13+00:00
 permalink: llmeon/30-library/mo-c/moc-archery-shot-process
 tags: [archery, prodos/moc, sport, technique]
 title: MOC - Archery Shot Process
@@ -17,10 +17,10 @@ This Map of Content (MOC) provides a structured, step-by-step breakdown of the a
 
 The step notes below are a reference library, not a to-do list. The working plan is [[Archery Year-One Coaching Framework (Months 5-12)]] (draft, not yet reviewed by the coach): one focus per block, judged on execution rate rather than score. Ideas for later go in [[Archery Year-Two Inbox]].
 
-- **Use now:** [[Archery Shot Process - Stance]], [[Archery Shot Process - Posture]], [[Archery Shot Process - Anchor]] (reference points only), [[Archery Shot Process - Setup]] (relaxed bow hand), [[Archery Shot Process - Follow-through]] and [[Archery Shot Process - Faults and Diagnostics]].
-- **Skim, defer the detail to year two:** the back-tension anatomy in [[Archery Shot Process - Loading]], the clicker timing in [[Archery Shot Process - Expansion]] and [[Archery Shot Process - Release]], and the conflicting coach views under Alternative Views in each step note.
-- **How to sequence the learning:** [[Archery Learning Sequence - Build the Whole Process First]] separates build-level practice (now) from refine-level markers (later).
-- **Unresolved, ask the coach:** [[Archery Shot Process - Open Questions]].
+- Use now: [[Archery Shot Process - Stance]], [[Archery Shot Process - Posture]], [[Archery Shot Process - Anchor]] (reference points only), [[Archery Shot Process - Setup]] (relaxed bow hand), [[Archery Shot Process - Follow-through]] and [[Archery Shot Process - Faults and Diagnostics]].
+- Skim, defer the detail to year two: the back-tension anatomy in [[Archery Shot Process - Loading]], the clicker timing in [[Archery Shot Process - Expansion]] and [[Archery Shot Process - Release]], and the conflicting coach views under Alternative Views in each step note.
+- How to sequence the learning: [[Archery Learning Sequence - Build the Whole Process First]] separates build-level practice (now) from refine-level markers (later).
+- Unresolved, ask the coach: [[Archery Shot Process - Open Questions]].
 
 ---
 

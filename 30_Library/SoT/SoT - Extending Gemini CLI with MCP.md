@@ -3,7 +3,7 @@ aliases: [Gemini MCP, MCP]
 conformant: true
 created: 2025-12-21T00:00:00+00:00
 last_reviewed: '2025-12-21'
-modified: 2026-09-29T10:38:09+00:00
+modified: 2026-10-22T15:11:12+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-extending-gemini-cli-with-mcp
 status: seed

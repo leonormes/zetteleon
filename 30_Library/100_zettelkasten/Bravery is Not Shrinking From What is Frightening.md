@@ -5,7 +5,7 @@ contradicts: []
 created: 2025-11-01T21:20:00+00:00
 epistemic_status: medium
 evidence_links: []
-modified: 2026-10-12T00:00:00+00:00
+modified: 2026-10-22T15:11:18+00:00
 non_conformance_reason: ""
 permalink: llmeon/30-library/100-zettelkasten/bravery-is-not-shrinking-from-what-is-frightening
 proposition: Bravery, also known as courage, is the inner strength to face things that are frightening or difficult

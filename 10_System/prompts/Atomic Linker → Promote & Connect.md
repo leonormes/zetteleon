@@ -1,7 +1,7 @@
 ---
 created: 2026-04-10T10:43:23+00:00
 description: "Step 2 of 2 in the atomic-capture pipeline. Reads a tmp_atoms_*.md file produced by the Atomic Signal Extractor (step 1), semantically links each atom into the existing vault graph, and promotes each atom into a permanent standalone note. Requires step 1 to have run first."
-modified: 2026-09-26T00:00:00+00:00
+modified: 2026-10-22T15:11:08+00:00
 permalink: llmeon/10-system/prompts/atomic-linker-promote-connect
 tags: [domain/pkm, pipeline/atomic-capture, type/system]
 title: Atomic Linker → Promote & Connect
@@ -61,9 +61,9 @@ Every promoted note MUST carry, at top level: `title`, `type`, `status: seed`, `
 
 Rules the Obsidian Linter and the standard impose:
 
-- **Do not write `prodos` or `confidence`.** The `prodos` object is dropped for atomic notes and the Linter deletes it. Provenance goes in the optional keys `source_title`, `source_url`, `created_utc` and `upstream`.
-- **Titles.** A `claim` is titled by its own proposition as a full declarative sentence of at least four words, not a noun phrase. A `concept` is titled by the term. Use that title as the filename and as the H2.
-- **Plain values.** Frontmatter string values contain no `: `, apostrophes or double quotes. Reword instead of quoting.
+- Do not write `prodos` or `confidence`. The `prodos` object is dropped for atomic notes and the Linter deletes it. Provenance goes in the optional keys `source_title`, `source_url`, `created_utc` and `upstream`.
+- Titles. A `claim` is titled by its own proposition as a full declarative sentence of at least four words, not a noun phrase. A `concept` is titled by the term. Use that title as the filename and as the H2.
+- Plain values. Frontmatter string values contain no `: `, apostrophes or double quotes. Reword instead of quoting.
 - If the mapping is genuinely ambiguous, pick the closest canonical type and set `conformant: false` with a `non_conformance_reason`. Never invent a `type`, and never skip these fields.
 
 ### Inputs Required
@@ -130,23 +130,26 @@ The atom shares 2+ tags with an existing note but no stronger semantic link was 
 - Link type: Listed under `## See Also` (weakest link tier).
 - Confidence required: LOW is acceptable here.
 
-#### 6. Personal Library Match (optional, external—not a vault link)
+#### 6. Personal Library Match (Optional, external—not a Vault Link)
 
 The atom's mechanism is independently corroborated or illustrated in a book from the personal Calibre library. This lens searches ARCHILLES, not the vault index, and never counts toward the 0–7 vault-link cap in the Hard Rules below.
 
 - Run 1 semantic query per atom against ARCHILLES (see Tooling Protocol), phrased around the atom's mechanism in your own words rather than its exact sentence.
 - Keep only semantic-mode hits with relevance ≳0.30 (ARCHILLES labels anything at or below 0.6 'medium'; on-topic hits in this corpus typically score 0.30–0.50 and irrelevant ones can score as high, so the score only cuts the floor and the passage itself must be read; hybrid mode returns fused rank scores of about 0.03 that this bar does not apply to, so use `--mode semantic`) whose snippet, read in full, actually bears on the atom, not just a shared keyword.
-- Link type: Listed under `#### Further Reading`, one bullet per book, via its `calibre://view-book/...` URI, with a one-line italicised annotation naming what it corroborates.
+- Link type: Listed under `#### Further Reading`, one bullet per book, via its `calibre://view-book/…` URI, with a one-line italicised annotation naming what it corroborates.
 - Zero matches is the common case—omit the section entirely rather than forcing a citation.
 
 #### Hard Rules for Linking
 
 - Use the obsidian mcp tools to interact and search files.
 - For the Personal Library lens, prefer an `archilles_1mcp_*` MCP tool (e.g. `archilles_1mcp_search_books_with_citations`) if reachable in your session; otherwise use the verified CLI fallback:
+
   ```
   cd ~/.local/share/archilles && export ARCHILLES_LIBRARY_PATH="/Volumes/DAL/GCcalibreBooks/GCcalibreBooks" && .venv/bin/python scripts/rag_demo.py query "<query>" --mode semantic --top-k 5 --max-per-book 1
   ```
+
   Build the link as `calibre://view-book/<Library_Folder_Name>/<calibre_id>/<FORMAT>` (library folder name = basename of `ARCHILLES_LIBRARY_PATH`, currently `GCcalibreBooks`; `<FORMAT>` uppercase, matching a format the book actually has). The bare `calibre://view/<id>` form is not valid Calibre syntax and does nothing when clicked—never emit it. Search output carries no Calibre id or format, so look both up read-only: `sqlite3 -readonly "file:/Users/leon.ormes/My Drive/GCcalibreBooks/metadata.db?mode=ro" "select b.id, b.title, group_concat(d.format) from books b left join data d on d.book=b.id where b.title like '<Title>%' group by b.id"`. The CLI path above is the DAL copy on purpose: the Google Drive copy's `rag_db/` can contain a stray zero-byte `Icon` file that breaks LanceDB (never fix that with `--reset-db`).
+
 - No phantom links. Every `[[wikilink]]` MUST point to a note that EXISTS in the vault index.
   If no match exists, do NOT fabricate one.
 - No self-links. An atom note must not link to itself.
@@ -222,12 +225,15 @@ Rules that the validator checks:
 - Every `[[wikilink]]` points to a note that exists.
 
 ### File Naming Convention
+
 - Filename: the note title exactly, with spaces preserved. For a claim that is the full proposition sentence; for a concept it is the term.
   Example: `Pro-Social Punishment Restores Cooperation.md`
 - Destination folder: Write to `00_Inbox/` (the user will triage and file later).
 
-### Sections to OMIT if empty
+### Sections to OMIT if Empty
+
 If an atom has no tensions, omit `## Tensions` entirely. Same for `## See Also` and `## Further Reading`.
+
 Never include an empty section with "None found."
 
 ---
@@ -238,10 +244,13 @@ After processing ALL atoms from the TMP file:
 
 1. Write each permanent note to `00_Inbox/\<Atom Title>.md`.
    Then check every note against the standard and fix what it reports before you write the link report:
+
    ```
    uv run --with pyyaml python3 10_System/scripts/validate_note_shape.py --path "00_Inbox/<Atom Title>.md" ...
    ```
+
    (`--path` checks the named files whatever their date or folder. A dangling-link error means a target does not exist: remove or retarget that link.)
+
 2. Write a Link Report to `00_Inbox/_link_report_\<source_slug>.md` with this format:
 
 ```
@@ -287,7 +296,8 @@ created_utc: "\<ISO 8601>"
 
 ```
 
-3. Respond with ONLY:
+1. Respond with ONLY:
+
 ```
 
 PROMOTED: \<N> atoms → \<N> permanent notes
@@ -305,6 +315,7 @@ UNSURE: \<links or atoms you could not verify, or None>
 ---
 
 ## Hard Constraints
+
 - British English throughout.
 - No new ideas. You are linking, not authoring.
 - No vault reorganisation. Do not move, rename, or edit existing notes.
@@ -312,6 +323,7 @@ UNSURE: \<links or atoms you could not verify, or None>
 - Grounded only in vault contents. If a connection is not supported by
   what you read in the vault index, do not assert it.
 - TAC compliance is non-negotiable. Every promoted note MUST meet [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]] and [[SoT - Atomic Note Standard (The Proposition Card)]]: a canonical `type` (never `atom`), a sentence title for claims, the card body, no `prodos` or `confidence` keys, and a clean run of `validate_note_shape.py`.
+
 ```
 
 ---

@@ -2,7 +2,7 @@
 aliases: [Spend-First Mentality]
 created: 2025-11-18T14:30:00+00:00
 last_reviewed: ''
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/reactive-spending-creates-financial-stress
 tags: [budgeting, finance, TheHuman/Psychology]
 title: Reactive Spending Creates Financial Stress
@@ -14,8 +14,9 @@ Reactive spending, the 'spend-first, categorize-later' approach, is a primary so
 
 This method obscures the fundamental scarcity of money and prevents clear decision-making. It only reveals where money _went_, not where it is _going_, making it impossible to align spending with long-term goals. It is the direct opposite of proactive budgeting, as described in [[Give Every Dollar a Job (YNAB Rule 1)]].
 
-### Related
-- [[High-Frequency Micro-Spending Drains Resources]]—*small frequent purchases are a typical form of reactive spending.*
-- [[Living Paycheck-to-Paycheck Forces Short-Term Decisions]]—*the horizon this stress shrinks.*
+## Related
+
+- [[High-Frequency Micro-Spending Drains Resources]]—_small frequent purchases are a typical form of reactive spending._
+- [[Living Paycheck-to-Paycheck Forces Short-Term Decisions]]—_the horizon this stress shrinks._
 
 [contradicts:: [[Give Every Dollar a Job (YNAB Rule 1)]]]

@@ -2,7 +2,7 @@
 aliases: ["Bergson's Principle", Action-Oriented Thinking, MVA]
 conformant: true
 created: 2025-12-07T00:00:00+00:00
-modified: 2026-10-16T00:00:00+00:00
+modified: 2026-10-22T15:11:10+00:00
 permalink: llmeon/30-library/so-t/so-t-think-like-a-man-of-action-act-like-a-man-of-thought
 tags: [action, TheHuman/Health/ADHD, thinking, topic/productivity]
 tier: 1-Foundation
@@ -75,7 +75,6 @@ Real-world data beats theoretical models.
 [synthesizes:: [[Claim - Thinking That Cannot Name Its Resulting Action Is Procrastination]], confidence=medium]
 
 - [[Claim - Thinking That Cannot Name Its Resulting Action Is Procrastination]]—_Protocol A's forcing question stated as a standalone claim._
-
 - [[Claim - Thinking Earns Its Place by Improving Model Fidelity]]—_The counterweight: it revises the claim above, so Protocol A's "stop and act" has a limit when the thinking is improving the model._
 - [[SoT - The Atelic Intellectual Life]]—_Live tension: it argues intellectual work has value outside any resulting action, which this SoT's action test would discount._
 - [[Claim - Action Precedes Motivation Is a Directional Heuristic, Not an Absolute Law]]—_Qualifies Protocol D's act-first stance as a heuristic; it already extends this SoT._

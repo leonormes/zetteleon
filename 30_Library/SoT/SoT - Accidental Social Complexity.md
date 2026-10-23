@@ -2,7 +2,7 @@
 aliases: [Socio-Technical Dissonance]
 conformant: true
 created: 2025-12-17T00:00:00+00:00
-modified: 2026-09-29T10:38:07+00:00
+modified: 2026-10-22T15:11:12+00:00
 non_conformance_reason: ''
 permalink: llmeon/30-library/so-t/so-t-accidental-social-complexity
 tags: [complexity, social-dynamics, team-dynamics, topic/systems]

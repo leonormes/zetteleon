@@ -2,7 +2,7 @@
 aliases: []
 created: 2025-08-12T08:14:20+00:00
 last_reviewed: ''
-modified: 2026-10-16T09:00:00+00:00
+modified: 2026-10-22T15:11:15+00:00
 permalink: llmeon/30-library/100-zettelkasten/predisposition-to-passive-activities
 tags: []
 title: Predisposition to Passive Activities
@@ -20,7 +20,7 @@ ADHD brains can also experience "analysis paralysis," making it difficult to ini
 
 [[ADHD brains are predisposed to lean toward passive activities that offer immediate gratification]]
 
-### Related
+## Related
 
-- [[Evidence - ADHD Task Initiation Deficit from Striatal Dopamine Hyposensitivity]]—*the mechanism behind the pull toward low-effort rewards.*
-- [[Predisposition to Low-Risk Activities]]—*the companion note that corrects the low-risk half of the same claim.*
+- [[Evidence - ADHD Task Initiation Deficit from Striatal Dopamine Hyposensitivity]]—_the mechanism behind the pull toward low-effort rewards._
+- [[Predisposition to Low-Risk Activities]]—_the companion note that corrects the low-risk half of the same claim._
