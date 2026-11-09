@@ -8,7 +8,7 @@ invalid types, and conformance violations.
 
 Usage:
     uv run --with pyyaml python3 10_System/scripts/validate_note_frontmatter.py
-    uv run --with pyyaml python3 10_System/scripts/validate_note_frontmatter.py --path "30_Library/SoT/SoT - Flow Engineering.md"
+    uv run --with pyyaml python3 10_System/scripts/validate_note_frontmatter.py --path "30_Library/100_zettelkasten/SoT - Flow Engineering.md"
     uv run --with pyyaml python3 10_System/scripts/validate_note_frontmatter.py --folder 30_Library/100_zettelkasten
 """
 

@@ -26,7 +26,7 @@ You are auditing a personal Zettelkasten as a code review: read-only, evidence-b
 ## Scope
 
 - Review ONLY `/Volumes/DAL/Zettelkasten/LLMeon/30_Library/100_zettelkasten/`. Ignore `.fuse_hidden*` and `.DS_Store`.
-- Out of scope: journals, inbox, work, audits, archive, `30_Library/SoT`. Exceptions: count inbound links from `30_Library/MoC/` and `30_Library/400_indexes/` as entry-point evidence, and count a note's links to SoT or MoC notes as attachment. Report isolation both with and without them.
+- Out of scope: journals, inbox, work, audits, archive, notes titled `SoT - ` or `Protocol - ` (they now live inside the reviewed folder). Exceptions: count inbound links from notes titled `MOC - ` or `MoC - ` and from `30_Library/400_indexes/` as entry-point evidence, and count a note's links to SoT or MoC notes as attachment. Report isolation both with and without them.
 - Do not modify any existing file. The only permitted write is one new report note in `90_Audits/`, and only if asked (see Output).
 
 ## Rubric: "How to Make Notes and Write" (Allosso and Allosso, 2022; Calibre Id 708)

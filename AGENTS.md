@@ -23,11 +23,11 @@ Human-territory map. Agents may read and write freely across all folders—the h
 | Type | Location | Naming convention | Purpose |
 |------|----------|-------------------|---------|
 | HEAD | `20_Thinking/21_Workbench/` | `HEAD - <question>?` | In-progress thinking, open questions |
-| SoT | `30_Library/SoT/` | `SoT - Title.md` | Canonical knowledge, protocols |
-| Protocol | `30_Library/SoT/` | `Protocol - Title.md` | Binary imperative procedures |
+| SoT | `30_Library/100_zettelkasten/` | `SoT - Title.md` | Canonical knowledge, protocols |
+| Protocol | `30_Library/100_zettelkasten/` | `Protocol - Title.md` | Binary imperative procedures |
 | Atomic / Claim | `30_Library/100_zettelkasten/` | Full-sentence title; `Claim - Title.md`; `Q — Title.md` | Atomic claims and questions |
 | Source | `30_Library/100_zettelkasten/` | `Source - Title.md` | One note per book or article, cited once, linked from Evidence and point notes |
-| MoC | `30_Library/MoC/` | `MOC - Title.md` | Hub notes, maps of content |
+| MoC | `30_Library/100_zettelkasten/` | `MOC - Title.md` | Hub notes, maps of content |
 
 #### Folder Structure
 
@@ -37,12 +37,12 @@ Human-territory map. Agents may read and write freely across all folders—the h
 10_System/            ← templates, scripts, prompts
 20_Thinking/          ← HEAD notes, workbench
 30_Library/           ← knowledge base (claims, projects, MoC, SoT, ops)
-  100_zettelkasten/   ← atomic, claim, and question notes
+  100_zettelkasten/   ← all notes: atomic, claim, question, MoC, SoT and protocol (flattened 2026-11-09)
   200_projects/       ← project notes
-  MoC/                ← maps of content
   ops/                ← operational references
-  SoT/                ← source-of-truth and protocol documents
 ```
+
+Note type is set by the `type` frontmatter field and the title prefix, not by folder. Find MoCs and SoTs by search, `type`, or links.
 
 Agents may read and write freely across all folders, except for protected notes (§6). The human curates through review, not prohibition.
 
@@ -126,7 +126,7 @@ and, if working a specific claim, `--why "<title>"` and/or `--impact "<title>"` 
 
 #### 9.3 Writing in `30_Library`
 
-Agents may write freely in `30_Library/100_zettelkasten/`, `30_Library/SoT/`, `30_Library/MoC/`, and `30_Library/200_Projects/`—including typed-edge lines (`[relationship:: [[target]]]`), `axiom:` markers, new notes, and body content. The human curates through review. The one exception is any note with `own_words: true`: no typed edge, link, `axiom:` marker or other body change goes into it (§6). Propose the edge in chat or in a new `00_Inbox/` note instead.
+Agents may write freely in `30_Library/100_zettelkasten/` (which now also holds MoCs, SoTs and protocols) and `30_Library/200_Projects/`—including typed-edge lines (`[relationship:: [[target]]]`), `axiom:` markers, new notes, and body content. The human curates through review. The one exception is any note with `own_words: true`: no typed edge, link, `axiom:` marker or other body change goes into it (§6). Propose the edge in chat or in a new `00_Inbox/` note instead.
 
 #### 9.4 Validation Recommendation
 

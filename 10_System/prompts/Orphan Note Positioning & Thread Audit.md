@@ -20,7 +20,7 @@ version: 3
 >
 > Schema Contracts: [[SoT - Typed Edge Vocabulary (Knowledge Graph Relations)]] (edge syntax, the closed six-word vocabulary), [[SoT - Knowledge Compiler (Argument Graph Spec)]] (what the compiler actually computes from those edges), [[SoT - ProdOS Frontmatter Contract (Note Type Schemas)]] (note-level schema).
 >
-> Write scope: [[AGENTS.md]] §9.3 permits agents to write freely in `30_Library/100_zettelkasten/`, `30_Library/SoT/`, `30_Library/MoC/` and `30_Library/200_Projects/`—typed-edge lines, `axiom:` markers, plain links, `## Related`/`### Further Reading` sections, MoC anchor lines and frontmatter conformance fields all included. The human curates afterwards via review (`git diff` and the audit file), not by pre-approving each write. Never write outside those four folders (plus the one audit file in `90_Audits/` and any claim stub in `00_Inbox/`), never write to a protected note, never rewrite the Target's existing prose (append new sections only), and never edit a hub's existing entries beyond adding one line.
+> Write scope: [[AGENTS.md]] §9.3 permits agents to write freely in `30_Library/100_zettelkasten/` (which also holds MoCs, SoTs and protocols) and `30_Library/200_Projects/`—typed-edge lines, `axiom:` markers, plain links, `## Related`/`### Further Reading` sections, MoC anchor lines and frontmatter conformance fields all included. The human curates afterwards via review (`git diff` and the audit file), not by pre-approving each write. Never write outside those two folders (plus the one audit file in `90_Audits/` and any claim stub in `00_Inbox/`), never write to a protected note, never rewrite the Target's existing prose (append new sections only), and never edit a hub's existing entries beyond adding one line.
 >
 > Superseded: earlier versions of this prompt took a stricter "propose, don't write" reading of §9.3 and stopped at a checkpoint. §9.3 no longer requires that. The `raw/proposed-claims/` stub route (old §2.4) also no longer exists in `AGENTS.md`; see §1.8.
 
@@ -67,7 +67,7 @@ Pull 3–5 core concepts or keywords from the Target's title and body—the actu
 
 ### 1.3 Scour the Vault (Scoped)
 
-Search only `30_Library/100_zettelkasten/`, `30_Library/SoT/`, and `30_Library/MoC/` for each concept, using three query styles (literal anchor, conceptual variant, functional equivalent—say which you used per query). You are looking for:
+Search only `30_Library/100_zettelkasten/` (which holds claims, MoCs and SoTs) for each concept, using three query styles (literal anchor, conceptual variant, functional equivalent—say which you used per query). You are looking for:
 
 - A canonical SoT or MoC this note should be anchored under (its "home" hub).
 - Sibling atomic notes making the same, a narrower, a broader, or a conflicting claim.

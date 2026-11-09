@@ -81,7 +81,7 @@ This prompt is proposal-first. Write scope is [[AGENTS.md]] §9.3 and the own-wo
 |---|---|
 | The survey report | `90_Audits/YYYY-MM-DD-bootstrap-<slug>.md` |
 | Claim stubs (correctly typed, `conformant: false` with a reason) | `00_Inbox/`, for Leon to triage |
-| Typed-edge lines and `axiom:` markers | inside existing notes in `30_Library/100_zettelkasten/`, `SoT/`, `MoC/`, `200_Projects/`, never a protected note |
+| Typed-edge lines and `axiom:` markers | inside existing notes in `30_Library/100_zettelkasten/` (which includes MoCs and SoTs), `200_Projects/`, never a protected note |
 
 You may NOT author a canonical note, conflict note, timeline note, MoC or SoT; edit a claim's `proposition` or body prose; or rename or delete a note. "Canonical note candidate" in the output below means _a recommendation for the human_, not a file you create. Prefer proposing every edge in the report and writing none until Leon says which.
 

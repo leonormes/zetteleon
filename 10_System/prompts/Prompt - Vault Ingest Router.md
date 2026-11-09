@@ -63,7 +63,7 @@ uv run --with pyyaml python3 10_System/scripts/edge_lint.py                     
 
 Run `edge_lint.py --route` on each core proposition in the input. It ranks existing claims by token overlap, with grounding status (grounded / axiom / GAP). Treat it as a cheap first signal, not proof: it covers only claims in the argument graph, lists notes without edges separately, and for genuinely new input it returns low-scoring noise (scores under about 0.2 have been unrelated in practice). Read the titles before believing them.
 
-Then search `30_Library/100_zettelkasten/`, `SoT/`, `MoC/` and `200_Projects/` by literal term, by category and by the result described without shared vocabulary (the Consolidation Agent's Triad). Also check aliases, and `00_Inbox/` for an earlier capture of the same thing.
+Then search `30_Library/100_zettelkasten/` (which includes MoCs and SoTs) and `200_Projects/` by literal term, by category and by the result described without shared vocabulary (the Consolidation Agent's Triad). Also check aliases, and `00_Inbox/` for an earlier capture of the same thing.
 
 For each candidate record: filename, `type`, grounding status if known, and the specific passage that overlaps. State your tier.
 

@@ -61,7 +61,7 @@ Ownership failure by type. Route per [[SoT - HEAD Note Contract (The Workbench)]
 |:---|:---|
 | Web/video capture | `00_Inbox/` |
 | Engineering RCA, design writeup, incident analysis | `30_Library/200_Projects/` |
-| Checklist, runbook, per-site procedure | `30_Library/SoT/` as `Protocol - <name>` |
+| Checklist, runbook, per-site procedure | `30_Library/100_zettelkasten/` as `Protocol - <name>` |
 | Vault audit or migration report | `90_Audits/` |
 | Meeting notes, transcript | `00_Inbox/` |
 

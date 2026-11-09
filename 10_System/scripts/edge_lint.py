@@ -3,7 +3,7 @@
 edge_lint.py — the link/edge half of the ProdOS knowledge compiler.
 
 Implements the compiler contract from
-  30_Library/SoT/SoT - Typed Edge Vocabulary (Knowledge Graph Relations).md  (§6)
+  30_Library/100_zettelkasten/SoT - Typed Edge Vocabulary (Knowledge Graph Relations).md  (§6)
 
 It extracts every typed edge  [<rel>:: [[<target>]][, attrs]]  from the vault,
 checks each against the controlled vocabulary and attribute rules, resolves every

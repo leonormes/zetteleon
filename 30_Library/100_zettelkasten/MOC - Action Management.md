@@ -1,0 +1,61 @@
+---
+aliases:
+  - Action MOC
+  - Doing MOC
+  - Execution Map
+created: 2025-12-08T00:00:00+00:00
+modified: 2026-10-22T15:11:13+00:00
+permalink: llmeon/30-library/mo-c/moc-action-management
+related-soTs:
+  - "[[SoT - Execution Protocol (GTD & PARA)]]"
+tags:
+  - action
+  - execution
+  - gtd
+  - prodos
+  - TheHuman/Health/ADHD
+title: MOC - Action Management
+type: map
+---
+
+## MOC - Action Management
+
+> Core Question: How do we transform abstract intent into concrete reality?
+
+This Map of Content (MOC) aggregates the principles, systems, and strategies for managing action within the ProdOS ecosystem. It is designed specifically to counter ADHD Task Initiation Deficits by enforcing a strict separation between _Thinking_ (Obsidian) and _Doing_ (Todoist).
+
+### 1. The ProdOS System (The How)
+
+The canonical system for managing actions is defined here:
+
+- [[SoT - Execution Protocol (GTD & PARA)]]: The standard manual workflow for sorting inputs and defining "done" via outcomes.
+- [[Protocol - Action-First GTD (LLM Chief of Staff)]]: The high-velocity, LLM-assisted workflow for outsourcing executive planning.
+- [[Protocol - Vague-to-Action]]: _The algorithmic protocol for decomposing heavy, abstract tasks into light, binary physical actions._
+- [[Protocol - Weekly Command Centre]]: _The critical reset ritual for verifying system integrity and project actionability._
+- [[Core Actions of a GTD Weekly Review]]: _The full get-clear, get-current, get-creative reference the Command Centre floor is cut down from._
+
+### 2. Core Architecture (The Why)
+
+Understanding the biological and logical basis of action to bypass executive dysfunction.
+
+- [[SoT - PRODOS Core Specification]]—_Defines the fundamental "Logic-Dopamine Mismatch" and the separation between Problem Definer and Executor._
+- [[SoT - The Cognitive Physiology of Task Execution]]—_Deconstructs the five cognitive phases of action and their specific neurological bottlenecks._
+- [[SoT - Behavioral Architecture]]—_Focuses on environmental "Pipes" (Choice Architecture) to ensure the desired behavior is the path of least resistance._
+- [[Motivation, Volition, and Control are Distinct Aspects of the Action Process]]—_Clarifies the distinct psychological components required to maintain a reliable doing loop._
+- [[Task Management Systems Have Limited Efficacy for ADHD Productivity]]—_Why the system above is necessary but not sufficient: the bottleneck is initiating, not organising._
+- [[SoT - The Telos Method]]—_The chain of explainability that connects a specific Task to a high-level Problem, providing the necessary resonance for action._
+
+### 3. Tactical Scaffolding
+
+Specific tools and techniques for managing the "physics" of behavior.
+
+- [[SoT - Temporal Management (Blocking and Boxing)]]—_Re-spatializes time as a physical container, aiding those with Time Blindness._
+- [[SoT - Habit Formation Framework]]—_The tactical application of the Four Laws to automate the transition from intention to automaticity._
+- [[SoT - Breaking the Creation Cycle]]—_A protocol designed to overcome initiation paralysis by reloading the project's mental model._
+- [[SoT - Prosthetic Executive Function]]—_The use of external checklists and structures to support a volatile biological prefrontal cortex._
+
+### 4. Daily Operating Principles
+
+The behavioural surface of the architecture above—what the system looks like on an ordinary day rather than during a planning ritual.
+
+- [[SoT - Principles for Peaceful Productivity]]—_Ten grounded prescriptions (first-hour protection, one needle-mover, initiate-before-ready, energy check, radical simplicity) covering the day-to-day behaviours the protocols above assume but do not specify. Relocated here 2026-08-03 from [[MOC - Formal Logic & Philosophy (Triage)]], where it was mis-filed under mathematical-logic foundations._

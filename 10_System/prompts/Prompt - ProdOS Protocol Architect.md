@@ -39,7 +39,7 @@ Before any write, verify: `title` (required, matches filename), `type: protocol`
 
 ## OUTPUT FORMAT
 
-Provide the output as a clean protocol markdown block or strict Todoist-ready actions. It is a draft for Leon, destined for `30_Library/SoT/` with the `Protocol - ` prefix; it is not filed by you. End with `Confidence: <high | medium | low>` and `UNSURE: <steps you inferred rather than read, or None>`.
+Provide the output as a clean protocol markdown block or strict Todoist-ready actions. It is a draft for Leon, destined for `30_Library/100_zettelkasten/` with the `Protocol - ` prefix; it is not filed by you. End with `Confidence: <high | medium | low>` and `UNSURE: <steps you inferred rather than read, or None>`.
 
 ### Protocol Artifact
 
